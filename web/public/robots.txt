@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://bamhi-financials.example.com/sitemap.xml
+Sitemap: https://bamhi-company-financials.vercel.app/sitemap.xml

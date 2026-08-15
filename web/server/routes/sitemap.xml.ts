@@ -2,7 +2,7 @@ import { defineEventHandler, setHeader } from 'h3'
 import { readFileSync, existsSync } from 'node:fs'
 import { resolve } from 'node:path'
 
-const SITE = process.env.SITE_URL || 'https://bamhi-financials.example.com'
+const SITE = process.env.SITE_URL || 'https://bamhi-company-financials.vercel.app'
 
 export default defineEventHandler((event) => {
   let tickers: string[] = ['NVDA', 'AAPL', 'TSLA', 'MSFT', 'AMZN', 'GOOGL', 'META', 'AMD', 'TSM', 'PLTR']

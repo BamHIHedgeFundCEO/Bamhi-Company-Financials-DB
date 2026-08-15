@@ -39,7 +39,7 @@ useHead({
       content: `${seo.value?.company ?? ticker}${zh ? `（${zh}）` : ''} SEC 財報官方直連下載與三大報表季度數據 Excel（中英對照、指標全公式）。`,
     },
   ],
-  link: [{ rel: 'canonical', href: `https://bamhi-financials.example.com/stock/${ticker}` }],
+  link: [{ rel: 'canonical', href: `https://bamhi-company-financials.vercel.app/stock/${ticker}` }],
   script: [
     {
       type: 'application/ld+json',

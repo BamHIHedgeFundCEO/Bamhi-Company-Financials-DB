@@ -1,0 +1,10 @@
+{
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python",
+      "config": { "includeFiles": ["excel-service/**", "config/**"] }
+    }
+  ],
+  "routes": [{ "src": "/(.*)", "dest": "api/index.py" }]
+}

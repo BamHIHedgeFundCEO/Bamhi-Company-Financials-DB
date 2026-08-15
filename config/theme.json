@@ -1,0 +1,40 @@
+{
+  "version": "0.1",
+  "note": "Excel 產出的視覺設定層。白標客製只改此檔。色盤取自 BamHI 原型設計 token。",
+  "palette": {
+    "chart_series": ["#1F3A5F", "#5C7699", "#C25A18", "#8C9199", "#9DB8D9", "#0E6B5A"],
+    "q4_estimated_fill": "#F7EADF",
+    "header_fill": "#F2F3F0",
+    "header_font": "#15171A",
+    "accent": "#C25A18",
+    "gridline": "#D9D9D9"
+  },
+  "fonts": {
+    "body": "Calibri",
+    "body_zh": "Microsoft JhengHei",
+    "size": 11,
+    "header_size": 11,
+    "header_bold": true
+  },
+  "number_formats": {
+    "usd": "#,##0;[Red](#,##0)",
+    "usd_millions_axis": "#,##0,,",
+    "ratio": "0.0%",
+    "multiple": "0.00\"x\"",
+    "days": "0\"天\"",
+    "per_share": "0.00",
+    "shares": "#,##0"
+  },
+  "chart": {
+    "width_cols": 12,
+    "height_rows": 18,
+    "legend_position": "b",
+    "gridline_style": "dash",
+    "gridline_color": "#D9D9D9",
+    "money_axis_unit": "百萬美元"
+  },
+  "layout": {
+    "freeze_panes": "C2",
+    "missing_value": "n/a"
+  }
+}

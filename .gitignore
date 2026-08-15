@@ -1,0 +1,23 @@
+# Node / Nuxt
+node_modules/
+.nuxt/
+.output/
+dist/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Build artifacts
+*.xlsx
+!docs/**/*.xlsx

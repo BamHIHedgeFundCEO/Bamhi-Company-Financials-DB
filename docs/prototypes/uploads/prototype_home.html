@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>財報庫｜美股 SEC 財報批量下載與繁中 Excel 財務資料</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ground:#EEF1F5;
+  --surface:#FFFFFF;
+  --ink:#10203A;
+  --ink-soft:#5A6B84;
+  --rule:#C3CDD9;
+  --rule-faint:#DFE5EC;
+  --accent:#1B4FD8;
+  --signal:#B45606;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+  --disp:'Space Grotesk','Noto Sans TC',sans-serif;
+  --body:'Noto Sans TC',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--ground);color:var(--ink);
+  font-family:var(--body);font-size:15px;line-height:1.6;
+  padding:0 0 80px;
+}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{display:flex;align-items:baseline;gap:14px;height:56px}
+.logo{font-family:var(--disp);font-weight:700;font-size:17px;letter-spacing:-.02em}
+.logo em{font-style:normal;color:var(--accent)}
+.masthead .src{font-family:var(--mono);font-size:11px;color:var(--ink-soft);
+  margin-left:auto;letter-spacing:.02em}
+
+.query{padding:56px 0 34px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-soft);margin-bottom:16px}
+.lede{font-size:16px;color:var(--ink-soft);max-width:46ch;margin-bottom:34px}
+.lede strong{color:var(--ink);font-weight:500}
+
+.tickerline{display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap}
+.tickerfield input{
+  font-family:var(--mono);font-weight:600;
+  font-size:clamp(38px,8vw,58px);letter-spacing:.02em;
+  border:0;border-bottom:2px solid var(--ink);
+  background:transparent;color:var(--ink);
+  width:5.2ch;padding:0 0 4px;text-transform:uppercase;
+}
+.tickerfield input:focus{outline:0;border-bottom-color:var(--accent)}
+.tickerfield input::placeholder{color:var(--rule)}
+.go{
+  font-family:var(--body);font-size:13.5px;font-weight:500;
+  padding:10px 20px;border:1px solid var(--ink);background:var(--ink);
+  color:#fff;cursor:pointer;border-radius:2px;margin-bottom:10px;
+  transition:opacity .12s;
+}
+.go:hover{opacity:.85}
+.go:disabled{background:transparent;color:var(--rule);border-color:var(--rule-faint);cursor:default}
+.go:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.state{font-family:var(--mono);font-size:12px;color:var(--ink-soft);
+  padding-top:14px;min-height:20px}
+.state.hit{color:var(--ink)}
+.state.hit b{font-family:var(--body);font-weight:500;font-size:14px}
+.state.miss{color:var(--signal)}
+
+.shortcuts{padding:30px 0 0;border-top:1px solid var(--rule)}
+.shortcuts h2{font-family:var(--mono);font-size:11px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-soft);font-weight:500;margin-bottom:16px}
+.chips{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));
+  gap:1px;background:var(--rule-faint);border:1px solid var(--rule)}
+.chip{background:var(--surface);border:0;text-align:left;cursor:pointer;
+  padding:11px 14px;display:flex;flex-direction:column;gap:1px;
+  transition:background .12s;font-family:inherit}
+.chip:hover{background:var(--ground)}
+.chip:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.chip .t{font-family:var(--mono);font-weight:600;font-size:14px;letter-spacing:.02em}
+.chip .n{font-size:12px;color:var(--ink-soft)}
+
+.how{margin-top:44px;padding-top:26px;border-top:1px solid var(--rule)}
+.how h2{font-family:var(--disp);font-weight:700;font-size:15px;margin-bottom:16px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  border:1px solid var(--rule);background:var(--rule-faint);gap:1px}
+.step{background:var(--surface);padding:16px 16px 18px}
+.step .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;
+  color:var(--accent);margin-bottom:7px}
+.step h3{font-size:14px;font-weight:500;margin-bottom:5px}
+.step p{font-size:12.5px;color:var(--ink-soft);line-height:1.6}
+
+.disclaim{margin-top:40px;padding-top:18px;border-top:1px solid var(--rule);
+  font-size:12px;color:var(--ink-soft);line-height:1.7}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <span class="logo">財報<em>庫</em></span>
+    <span class="src">SEC EDGAR · 官方原始資料</span>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="query">
+    <p class="eyebrow">美股財報批量下載</p>
+    <p class="lede">
+      輸入股票代號，一次取得整段期間的 10-K 與 10-Q，
+      以及<strong>已整理成繁體中文、可直接建模的 Excel</strong>。
+    </p>
+
+    <div class="tickerline">
+      <div class="tickerfield">
+        <label for="tk" style="position:absolute;left:-9999px">股票代號</label>
+        <input id="tk" placeholder="AAPL" maxlength="5" spellcheck="false" autocomplete="off" autofocus>
+      </div>
+      <button class="go" id="go" disabled>查詢財報</button>
+    </div>
+    <p class="state" id="state">輸入 1–5 個字元的美股代號</p>
+  </section>
+
+  <section class="shortcuts">
+    <h2>熱門標的</h2>
+    <div class="chips" id="chips"></div>
+  </section>
+
+  <section class="how">
+    <h2>這個工具做什麼</h2>
+    <div class="steps">
+      <div class="step">
+        <p class="k">01</p>
+        <h3>選期間</h3>
+        <p>季度格子直接列出該公司實際申報過的每一季，最多 10 年。沒申報的季度不會出現。</p>
+      </div>
+      <div class="step">
+        <p class="k">02</p>
+        <h3>取原始文件</h3>
+        <p>10-K 與 10-Q 直連 SEC 官方檔案，一次開啟整段期間，不必逐筆搜尋。</p>
+      </div>
+      <div class="step">
+        <p class="k">03</p>
+        <h3>下載 Excel</h3>
+        <p>三大報表加 31 項關鍵指標，中英對照、附圖表，指標欄位是公式不是死值。</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="disclaim">
+    資料來源為美國證券交易委員會（SEC）EDGAR 系統之公開申報文件。本站與 SEC 無任何隸屬或合作關係。
+    財務數據由 XBRL 標籤自動擷取，各公司標籤用法不一，建議對照「原始資料」分頁核對後再用於投資決策。
+  </p>
+
+</main>
+
+<script>
+const POPULAR=[
+  ['NVDA','輝達'],['AAPL','蘋果'],['MSFT','微軟'],['TSLA','特斯拉'],
+  ['AMZN','亞馬遜'],['GOOGL','Alphabet'],['META','Meta'],['AMD','超微'],
+  ['TSM','台積電 ADR'],['PLTR','Palantir']
+];
+const KNOWN=Object.fromEntries(POPULAR);
+
+document.getElementById('chips').innerHTML=POPULAR.map(([t,n])=>
+  '<button class="chip" data-t="'+t+'"><span class="t">'+t+'</span><span class="n">'+n+'</span></button>'
+).join('');
+
+const tk=document.getElementById('tk'),
+      go=document.getElementById('go'),
+      st=document.getElementById('state');
+
+function check(){
+  const v=tk.value.trim().toUpperCase();
+  st.className='state';
+  if(!v){ st.textContent='輸入 1–5 個字元的美股代號'; go.disabled=true; return; }
+  if(!/^[A-Z.]{1,5}$/.test(v)){
+    st.className='state miss';
+    st.textContent='代號僅能包含英文字母與點號，例如 BRK.A';
+    go.disabled=true; return;
+  }
+  if(KNOWN[v]){
+    st.className='state hit';
+    st.innerHTML='<b>'+KNOWN[v]+'</b> · 按 Enter 查詢';
+  }else{
+    st.textContent='按 Enter 查詢';
+  }
+  go.disabled=false;
+}
+
+tk.addEventListener('input',function(e){ e.target.value=e.target.value.toUpperCase(); check(); });
+tk.addEventListener('keydown',function(e){ if(e.key==='Enter'&&!go.disabled) go.click(); });
+go.addEventListener('click',function(){ /* → /stock/{ticker} */ });
+document.getElementById('chips').addEventListener('click',function(e){
+  const b=e.target.closest('.chip'); if(!b) return;
+  tk.value=b.dataset.t; check(); tk.focus();
+});
+check();
+</script>
+</body>
+</html>

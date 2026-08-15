@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NVDA 輝達 財報下載｜10-K、10-Q 季度財務報表與 Excel 下載</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ground:#EEF1F5;
+  --surface:#FFFFFF;
+  --ink:#10203A;
+  --ink-soft:#5A6B84;
+  --rule:#C3CDD9;
+  --rule-faint:#DFE5EC;
+  --accent:#1B4FD8;
+  --accent-wash:#E4EAFB;
+  --signal:#B45606;
+  --signal-wash:#FBEEDD;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+  --disp:'Space Grotesk','Noto Sans TC',sans-serif;
+  --body:'Noto Sans TC',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--ground);
+  color:var(--ink);
+  font-family:var(--body);
+  font-size:15px;
+  line-height:1.6;
+  padding:0 0 80px;
+}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+
+/* ── masthead ─────────────────────────── */
+.masthead{
+  border-bottom:1px solid var(--rule);
+  background:var(--surface);
+  position:sticky;top:0;z-index:20;
+}
+.masthead .wrap{
+  display:flex;align-items:baseline;gap:14px;
+  height:56px;
+}
+.logo{
+  font-family:var(--disp);font-weight:700;font-size:17px;
+  letter-spacing:-.02em;
+}
+.logo em{font-style:normal;color:var(--accent)}
+.masthead .src{
+  font-family:var(--mono);font-size:11px;color:var(--ink-soft);
+  margin-left:auto;letter-spacing:.02em;
+}
+
+/* ── hero / query ─────────────────────── */
+.query{padding:44px 0 30px;border-bottom:1px solid var(--rule)}
+.eyebrow{
+  font-family:var(--mono);font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-soft);margin-bottom:18px;
+}
+.tickerline{display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap}
+.tickerfield{position:relative}
+.tickerfield input{
+  font-family:var(--mono);font-weight:600;
+  font-size:clamp(38px,8vw,58px);
+  letter-spacing:.02em;
+  border:0;border-bottom:2px solid var(--ink);
+  background:transparent;color:var(--ink);
+  width:5.2ch;padding:0 0 4px;
+  text-transform:uppercase;
+}
+.tickerfield input:focus{outline:0;border-bottom-color:var(--accent)}
+.tickerfield input::placeholder{color:var(--rule)}
+.resolved{padding-bottom:12px}
+.resolved .name{
+  font-family:var(--disp);font-weight:500;font-size:20px;
+  letter-spacing:-.01em;
+}
+.resolved .meta{
+  font-family:var(--mono);font-size:12px;color:var(--ink-soft);
+  margin-top:3px;
+}
+.resolved .flag{
+  display:inline-block;margin-left:8px;padding:1px 6px;
+  background:var(--accent-wash);color:var(--accent);
+  font-family:var(--mono);font-size:10px;border-radius:2px;
+  letter-spacing:.04em;
+}
+
+/* ── quarter grid (signature) ─────────── */
+.gridblock{padding:32px 0}
+.gridhead{
+  display:flex;align-items:baseline;gap:12px;
+  margin-bottom:4px;flex-wrap:wrap;
+}
+.gridhead h2{
+  font-family:var(--disp);font-weight:700;font-size:15px;
+  letter-spacing:-.01em;
+}
+.gridhead .hint{font-size:12.5px;color:var(--ink-soft)}
+.gridhead .count{
+  margin-left:auto;font-family:var(--mono);font-size:12px;
+  color:var(--accent);font-weight:500;
+}
+
+.qgrid{
+  margin-top:18px;
+  display:grid;
+  grid-template-columns:auto repeat(4,minmax(0,1fr));
+  gap:1px;background:var(--rule-faint);
+  border:1px solid var(--rule);
+  max-width:620px;
+}
+.qgrid > *{background:var(--surface)}
+.qgrid .colhead,.qgrid .rowhead{
+  font-family:var(--mono);font-size:11px;color:var(--ink-soft);
+  padding:7px 10px;letter-spacing:.06em;
+}
+.qgrid .colhead{text-align:center}
+.qgrid .rowhead{display:flex;align-items:center;white-space:nowrap}
+.qgrid .corner{background:var(--ground)}
+
+.cell{
+  border:0;background:var(--surface);
+  padding:9px 6px 8px;cursor:pointer;
+  font-family:var(--mono);font-size:11px;
+  color:var(--ink-soft);
+  display:flex;flex-direction:column;align-items:center;gap:3px;
+  transition:background .12s ease;
+}
+.cell .form{font-weight:600;color:var(--ink);font-size:11.5px}
+.cell .end{font-size:9.5px;letter-spacing:.02em}
+.cell:hover:not(.void){background:var(--ground)}
+.cell:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.cell.k .form{color:var(--signal)}
+.cell.on{background:var(--accent-wash)}
+.cell.on .form{color:var(--accent)}
+.cell.on.k .form{color:var(--signal)}
+.cell.void{cursor:default;background:repeating-linear-gradient(
+  -45deg,var(--surface),var(--surface) 5px,var(--rule-faint) 5px,var(--rule-faint) 6px)}
+.cell.void .form{color:var(--rule);font-weight:400}
+
+.legend{
+  display:flex;gap:18px;flex-wrap:wrap;margin-top:12px;
+  font-family:var(--mono);font-size:11px;color:var(--ink-soft);
+}
+.legend i{
+  display:inline-block;width:9px;height:9px;margin-right:5px;
+  vertical-align:-1px;border:1px solid var(--rule);
+}
+.legend i.q{background:var(--surface)}
+.legend i.k{background:var(--signal-wash);border-color:var(--signal)}
+.legend i.v{background:repeating-linear-gradient(-45deg,#fff,#fff 3px,var(--rule-faint) 3px,var(--rule-faint) 4px)}
+
+.note{
+  margin-top:16px;padding:10px 13px;
+  background:var(--signal-wash);
+  border-left:2px solid var(--signal);
+  font-size:12.5px;line-height:1.55;color:#6B3A07;
+  max-width:620px;
+}
+
+/* ── actions ──────────────────────────── */
+.actions{
+  display:flex;gap:10px;flex-wrap:wrap;
+  padding:26px 0;border-top:1px solid var(--rule);
+}
+.btn{
+  font-family:var(--body);font-size:13.5px;font-weight:500;
+  padding:10px 17px;border:1px solid var(--ink);
+  background:var(--ink);color:#fff;cursor:pointer;
+  border-radius:2px;transition:opacity .12s;
+}
+.btn:hover{opacity:.85}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--rule)}
+.btn.ghost:hover{border-color:var(--ink);opacity:1}
+.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn small{
+  display:block;font-family:var(--mono);font-size:10px;
+  opacity:.62;font-weight:400;margin-top:1px;
+}
+
+/* ── results table ────────────────────── */
+.results{padding-top:8px}
+.results h2{
+  font-family:var(--disp);font-weight:700;font-size:15px;
+  margin-bottom:14px;
+}
+table{width:100%;border-collapse:collapse;background:var(--surface);
+  border:1px solid var(--rule);font-size:13px}
+thead th{
+  font-family:var(--mono);font-size:10.5px;font-weight:500;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);
+  text-align:left;padding:9px 12px;border-bottom:1px solid var(--rule);
+  background:var(--ground);white-space:nowrap;
+}
+tbody td{padding:9px 12px;border-bottom:1px solid var(--rule-faint)}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:#F7F9FB}
+td.per{font-family:var(--mono);font-weight:500;white-space:nowrap}
+td.form span{
+  font-family:var(--mono);font-size:11px;padding:2px 6px;
+  border-radius:2px;background:var(--ground);
+}
+td.form span.k{background:var(--signal-wash);color:var(--signal)}
+td.date{font-family:var(--mono);font-size:12px;color:var(--ink-soft);white-space:nowrap}
+td.dl a{color:var(--accent);text-decoration:none;font-size:12.5px;white-space:nowrap}
+td.dl a:hover{text-decoration:underline}
+
+.tablefoot{
+  font-family:var(--mono);font-size:11px;color:var(--ink-soft);
+  margin-top:10px;
+}
+
+/* ── disclaimer ───────────────────────── */
+.disclaim{
+  margin-top:40px;padding-top:18px;border-top:1px solid var(--rule);
+  font-size:12px;color:var(--ink-soft);line-height:1.7;
+}
+
+@media (max-width:640px){
+  .qgrid{grid-template-columns:auto repeat(4,minmax(0,1fr))}
+  .cell .end{display:none}
+  .resolved{padding-bottom:4px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;animation:none!important}
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <span class="logo">財報<em>庫</em></span>
+    <span class="src">SEC EDGAR · 官方原始資料</span>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="query">
+    <p class="eyebrow">美股財報批量下載</p>
+    <div class="tickerline">
+      <div class="tickerfield">
+        <label for="tk" class="sr-only" style="position:absolute;left:-9999px">股票代號</label>
+        <input id="tk" value="NVDA" maxlength="5" spellcheck="false" autocomplete="off">
+      </div>
+      <div class="resolved">
+        <div class="name">NVIDIA Corporation　輝達</div>
+        <div class="meta">CIK 0001045810 · 半導體 · 會計年度 1 月結算<span class="flag">美國申報人</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gridblock">
+    <div class="gridhead">
+      <h2>選擇季度</h2>
+      <span class="hint">點選格子，或點兩格選取區間</span>
+      <span class="count" id="count">已選 12 季</span>
+    </div>
+
+    <div class="qgrid" id="grid"></div>
+
+    <div class="legend">
+      <span><i class="q"></i>10-Q 季報</span>
+      <span><i class="k"></i>10-K 年報</span>
+      <span><i class="v"></i>尚未申報</span>
+    </div>
+
+    <p class="note">
+      美股第四季不申報 10-Q，該季數字由年報減去前三季推算。Excel 中此類儲存格會標色註明。
+    </p>
+  </section>
+
+  <section class="actions">
+    <button class="btn">下載 Excel<small>6 分頁 · 含圖表與公式</small></button>
+    <button class="btn ghost">下載 CSV<small>三大報表各一檔</small></button>
+    <button class="btn ghost">開啟全部原始財報<small>直連 sec.gov</small></button>
+  </section>
+
+  <section class="results">
+    <h2>財報清單</h2>
+    <table>
+      <thead>
+        <tr><th>會計期別</th><th>表單</th><th>期末日</th><th>申報日</th><th>原始檔</th></tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <p class="tablefoot" id="foot"></p>
+  </section>
+
+  <p class="disclaim">
+    資料來源為美國證券交易委員會（SEC）EDGAR 系統之公開申報文件。本站與 SEC 無任何隸屬或合作關係。
+    財務數據由 XBRL 標籤自動擷取，各公司標籤用法不一，建議對照「原始資料」分頁核對後再用於投資決策。
+  </p>
+
+</main>
+
+<script>
+// NVDA 會計年度 1 月結算：FY2024 = 2023/02 ~ 2024/01
+const YEARS=[2023,2024,2025,2026];
+const ENDS={
+  '2023':['2022-05-01','2022-07-31','2022-10-30','2023-01-29'],
+  '2024':['2023-04-30','2023-07-30','2023-10-29','2024-01-28'],
+  '2025':['2024-04-28','2024-07-28','2024-10-27','2025-01-26'],
+  '2026':['2025-04-27','2025-07-27',null,null]
+};
+const FILED={
+  '2023':['2022-05-27','2022-08-31','2022-11-18','2023-02-24'],
+  '2024':['2023-05-26','2023-08-28','2023-11-21','2024-02-21'],
+  '2025':['2024-05-29','2024-08-28','2024-11-20','2025-02-26'],
+  '2026':['2025-05-28','2025-08-27',null,null]
+};
+
+let sel=new Set(), anchor=null;
+// 預設：FY2024 Q1 ~ FY2026 Q2
+YEARS.forEach(y=>[0,1,2,3].forEach(q=>{
+  if(y>=2024 && ENDS[y][q]) sel.add(y+'-'+q);
+}));
+
+const grid=document.getElementById('grid');
+
+function build(){
+  grid.innerHTML='';
+  const corner=document.createElement('div');
+  corner.className='corner colhead';corner.textContent='';
+  grid.appendChild(corner);
+  ['Q1','Q2','Q3','Q4'].forEach(q=>{
+    const d=document.createElement('div');
+    d.className='colhead';d.textContent=q;grid.appendChild(d);
+  });
+  YEARS.forEach(y=>{
+    const rh=document.createElement('div');
+    rh.className='rowhead';rh.textContent='FY'+y;grid.appendChild(rh);
+    [0,1,2,3].forEach(q=>{
+      const end=ENDS[y][q];
+      const b=document.createElement('button');
+      const key=y+'-'+q;
+      if(!end){
+        b.className='cell void';b.disabled=true;
+        b.innerHTML='<span class="form">—</span>';
+      }else{
+        const isK=(q===3);
+        b.className='cell'+(isK?' k':'')+(sel.has(key)?' on':'');
+        b.innerHTML='<span class="form">'+(isK?'10-K':'10-Q')+
+                    '</span><span class="end">'+end.slice(5)+'</span>';
+        b.setAttribute('aria-pressed',sel.has(key));
+        b.onclick=()=>pick(y,q);
+      }
+      grid.appendChild(b);
+    });
+  });
+  render();
+}
+
+function idx(y,q){return YEARS.indexOf(y)*4+q}
+
+function pick(y,q){
+  const key=y+'-'+q;
+  if(anchor===null){
+    sel.clear();sel.add(key);anchor=idx(y,q);
+  }else{
+    const a=Math.min(anchor,idx(y,q)), b=Math.max(anchor,idx(y,q));
+    sel.clear();
+    for(let i=a;i<=b;i++){
+      const yy=YEARS[Math.floor(i/4)], qq=i%4;
+      if(ENDS[yy][qq]) sel.add(yy+'-'+qq);
+    }
+    anchor=null;
+  }
+  build();
+}
+
+function render(){
+  const list=[];
+  YEARS.forEach(y=>[0,1,2,3].forEach(q=>{
+    if(sel.has(y+'-'+q)) list.push({y,q,end:ENDS[y][q],filed:FILED[y][q],k:q===3});
+  }));
+  document.getElementById('count').textContent='已選 '+list.length+' 季';
+
+  document.getElementById('rows').innerHTML=list.map(r=>`
+    <tr>
+      <td class="per">FY${r.y} Q${r.q+1}</td>
+      <td class="form"><span class="${r.k?'k':''}">${r.k?'10-K':'10-Q'}</span></td>
+      <td class="date">${r.end}</td>
+      <td class="date">${r.filed}</td>
+      <td class="dl"><a href="#">下載 ↗</a></td>
+    </tr>`).join('');
+
+  const k=list.filter(r=>r.k).length;
+  document.getElementById('foot').textContent=
+    `共 ${list.length} 份 · 10-Q ${list.length-k} 份 · 10-K ${k} 份 · 單次上限 40 季`;
+}
+
+document.getElementById('tk').addEventListener('input',e=>{
+  e.target.value=e.target.value.toUpperCase();
+});
+
+build();
+</script>
+</body>
+</html>

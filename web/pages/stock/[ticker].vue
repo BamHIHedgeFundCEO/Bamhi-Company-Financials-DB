@@ -60,7 +60,7 @@ useHead({
   <div>
     <StockTool :initial-ticker="ticker" />
 
-    <section class="seoblock wrap">
+    <section class="seoblock wrap" style="margin-left: auto; margin-right: auto">
       <h1>{{ ticker }}{{ zh ? ` ${zh}` : '' }} 財報下載</h1>
       <p v-if="seo">
         {{ seo.company }}（CIK {{ seo.cik }}）{{ seo.sic ? `，產業：${seo.sic}。` : '。' }}

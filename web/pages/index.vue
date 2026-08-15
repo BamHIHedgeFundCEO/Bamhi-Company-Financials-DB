@@ -1,7 +1,5 @@
 <script setup lang="ts">
-// 首頁 = 同一個工具、ticker 留空。不做行銷型 landing page。
-const hot = ['NVDA', 'AAPL', 'TSLA', 'MSFT', 'AMZN', 'GOOGL', 'META', 'AMD', 'TSM', 'PLTR']
-
+// 首頁 = 同一個工具、ticker 留空（原型 prototype_home_v2）。不做行銷型 landing page。
 useHead({
   title: 'BAMHI 美股財報庫｜美股 SEC 財報批量下載與繁中 Excel 財務資料',
   meta: [
@@ -15,11 +13,5 @@ useHead({
 </script>
 
 <template>
-  <StockTool>
-    <template #below-query>
-      <div class="hotlist">
-        <NuxtLink v-for="t in hot" :key="t" :to="`/stock/${t}`">{{ t }}</NuxtLink>
-      </div>
-    </template>
-  </StockTool>
+  <StockTool />
 </template>

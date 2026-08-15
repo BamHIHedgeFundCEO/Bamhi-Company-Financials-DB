@@ -191,6 +191,57 @@ function collect(points: FactPoint[], flow: boolean, fyeMonth: number) {
   return best
 }
 
+/** 比值接近哪個常見分割倍數（8% 容差），否則 1 */
+function nearestSplit(ratio: number): number {
+  for (const s of [2, 3, 4, 5, 6, 7, 8, 10, 20]) {
+    if (Math.abs(ratio - s) / s < 0.08) return s
+  }
+  return 1
+}
+
+interface SplitEvent {
+  threshold: string // 申報日界線：filed < threshold 者為分割前基準
+  factor: number
+}
+
+/**
+ * 由加權平均股數（基本）序列偵測股票分割。
+ * 關鍵：值屬「分割前/後」由其**申報日**決定，不是期別——分割後公司會重編舊期比較數，
+ * 那些重編值（filed 較晚）已是新基準，不可再調整。
+ */
+function computeSplits(ns: FactTags, fyeMonth: number): SplitEvent[] {
+  const pts =
+    ns['WeightedAverageNumberOfSharesOutstandingBasic']?.units?.['shares'] ??
+    ns['WeightedAverageNumberOfDilutedSharesOutstanding']?.units?.['shares']
+  if (!pts?.length) return []
+
+  const best = new Map<string, { end: string; val: number; filed: string }>()
+  for (const p of pts) {
+    const days = spanDays(p)
+    if (days === null || !(days > 80 && days < 100)) continue
+    const { fy, q } = fiscalOf(p.end, fyeMonth)
+    const k = `FY${fy} Q${q}`
+    const prev = best.get(k)
+    if (!prev || p.filed > prev.filed) best.set(k, { end: p.end, val: p.val, filed: p.filed })
+  }
+  const ordered = [...best.values()].sort((a, b) => (a.end < b.end ? -1 : 1))
+  const splits: SplitEvent[] = []
+  for (let i = 0; i + 1 < ordered.length; i++) {
+    if (ordered[i].val <= 0) continue
+    const f = nearestSplit(ordered[i + 1].val / ordered[i].val) // 後值變大 → 分割
+    if (f > 1) splits.push({ threshold: ordered[i + 1].filed, factor: f })
+  }
+  return splits
+}
+
+/** 依申報日把值正規化到最新基準：股數乘、每股除。filed < threshold 的每個分割都套用。 */
+function splitAdjust(val: number, filed: string, unit: string, splits: SplitEvent[]): number {
+  let f = 1
+  for (const s of splits) if (filed < s.threshold) f *= s.factor
+  if (f === 1) return val
+  return unit === 'shares' ? val * f : val / f
+}
+
 function toCell(p: FactPoint, tag: string, estimated = false): CellValue {
   return {
     value: p.val,
@@ -227,11 +278,18 @@ export async function getFinancials(
     return [unit]
   }
 
+  // 股票分割還原：companyfacts 存的是「申報當下」的股數/EPS，分割後舊期只在
+  // 分割前的申報出現 → 整條序列出現 ~10x 斷層。以加權股數序列偵測分割倍數，
+  // 把舊期正規化到最新基準（股數 ×factor、每股數值 ÷factor）。
+  const splits = useIfrs ? [] : computeSplits(ns, fyeMonth)
+
   const allPeriods = new Set<string>()
   const lineItems: LineItem[] = []
 
   for (const concept of map.concepts) {
     const flow = isFlow(concept)
+    // 每股盈餘、加權股數不可相加：不能做 Q4=全年−前三季，也不做累計差分
+    const nonadditive = concept.unit === 'shares' || concept.unit === 'USD/shares'
     const tags = useIfrs ? (concept.tags_ifrs ?? []) : concept.tags
 
     // tags 依優先序逐期 fallback：高優先標籤已有的期間不被覆蓋，
@@ -256,6 +314,25 @@ export async function getFinancials(
         if (p) values[`FY${fy}`] = toCell(p, p._tag)
         continue
       }
+      if (nonadditive) {
+        // 單季直接值（Q1-Q3）。EPS/股數不可相加，不做 Q4=全年−前三季。分割依申報日正規化。
+        const adj = (p: FactPoint & { _tag: string }): CellValue => {
+          const c = toCell(p, p._tag)
+          if (c.value != null) c.value = splitAdjust(p.val, p.filed, concept.unit, splits)
+          return c
+        }
+        for (const n of [1, 2, 3] as const) {
+          const p = best.get(`Q:${fy}:${n}`)
+          if (p) values[periodKey(fy, n)] = adj(p)
+        }
+        // Q4：股數用 10-K 年度加權平均（真實申報值，股數變化緩，近似 Q4 水準，供稀釋率計算）；
+        // EPS 的年度值 ≠ Q4 單季 → 留 n/a 不誤導
+        if (concept.unit === 'shares') {
+          const a = best.get(`A:${fy}`)
+          if (a) values[periodKey(fy, 4)] = adj(a)
+        }
+        continue
+      }
       if (!flow) {
         for (const n of [1, 2, 3, 4] as const) {
           const p = best.get(`Q:${fy}:${n}`)
@@ -263,46 +340,46 @@ export async function getFinancials(
         }
         continue
       }
-      // 流量科目：優先直接單季；沒有就用累計差分還原
-      // （現金流量表在 10-Q 只申報年初至今累計：Q2 = 半年 − Q1、Q3 = 九月 − 半年）
+      // 流量科目：以「年初至今累計」序列重建單季，再差分。
+      // 現金流量表在 10-Q 只申報累計（半年/九月/全年），且部分公司缺 Q1 累計
+      // （償還債務等一次性項目常如此）→ 用向前補值填內部缺口，把總數落到下一個可量測季。
       const qd = (n: number) => best.get(`Q:${fy}:${n}`)
-      const cum = (n: number) => best.get(`C:${fy}:${n}`)
+      const cumC = (n: number) => best.get(`C:${fy}:${n}`)
       const annual = best.get(`A:${fy}`)
-      const derived = (
-        p: FactPoint & { _tag: string },
-        minus: number,
-        estimated = false,
-      ): CellValue => ({
-        value: p.val - minus,
-        isEstimated: estimated,
-        sourceTag: p._tag,
-        accessionOrForm: p.form,
-        filed: p.filed,
-        endDate: p.end,
-      })
 
-      const v1 = qd(1)
-      if (v1) values[periodKey(fy, 1)] = toCell(v1, v1._tag)
-      const q1v = v1?.val
+      // cum[q] = 年初到第 q 季末的累計值（優先直接申報，其次以單季相加）
+      const cum: (number | null)[] = [0, null, null, null, null]
+      const src: (FactPoint & { _tag: string } | null)[] = [null, null, null, null, null]
+      const setCum = (q: number, val: number, p: FactPoint & { _tag: string }) => {
+        cum[q] = val
+        src[q] = p
+      }
+      for (const n of [1, 2, 3] as const) {
+        const c = cumC(n)
+        const s = qd(n)
+        if (c) setCum(n, c.val, c)
+        else if (s && cum[n - 1] != null) setCum(n, cum[n - 1]! + s.val, s)
+      }
+      if (annual) setCum(4, annual.val, annual)
+      else if (qd(4) && cum[3] != null) setCum(4, cum[3]! + qd(4)!.val, qd(4)!)
 
-      const d2 = qd(2)
-      if (d2) values[periodKey(fy, 2)] = toCell(d2, d2._tag)
-      else if (cum(2) && q1v != null) values[periodKey(fy, 2)] = derived(cum(2)!, q1v)
-      const q2v = values[periodKey(fy, 2)]?.value
+      // 最後一個有值的累計季（超過此季視為尚未申報，不輸出）
+      let lastKnown = 0
+      for (let q = 1; q <= 4; q++) if (cum[q] != null) lastKnown = q
+      // 補內部缺口：向前補值（假設該季無活動）→ 一次性金額落到下一個可量測季
+      for (let q = 1; q <= lastKnown; q++) if (cum[q] == null) cum[q] = cum[q - 1]
 
-      const d3 = qd(3)
-      if (d3) values[periodKey(fy, 3)] = toCell(d3, d3._tag)
-      else if (cum(3) && cum(2)) values[periodKey(fy, 3)] = derived(cum(3)!, cum(2)!.val)
-      else if (cum(3) && q1v != null && q2v != null)
-        values[periodKey(fy, 3)] = derived(cum(3)!, q1v + q2v)
-      const q3v = values[periodKey(fy, 3)]?.value
-
-      // Edge case 2：Q4 = FY − 前三季，標記推算（淺橘底）
-      const d4 = qd(4)
-      if (d4) values[periodKey(fy, 4)] = toCell(d4, d4._tag)
-      else if (annual && cum(3)) values[periodKey(fy, 4)] = derived(annual, cum(3)!.val, true)
-      else if (annual && q1v != null && q2v != null && q3v != null)
-        values[periodKey(fy, 4)] = derived(annual, q1v + q2v + q3v, true)
+      for (let q = 1; q <= lastKnown; q++) {
+        const anchor = src[q] ?? src[lastKnown]!
+        values[periodKey(fy, q)] = {
+          value: cum[q]! - cum[q - 1]!,
+          isEstimated: q === 4 && !qd(4), // Q4 由全年推算 → 橘底
+          sourceTag: anchor._tag,
+          accessionOrForm: anchor.form,
+          filed: anchor.filed,
+          endDate: anchor.end,
+        }
+      }
     }
     for (const k of Object.keys(values)) allPeriods.add(k)
     lineItems.push({

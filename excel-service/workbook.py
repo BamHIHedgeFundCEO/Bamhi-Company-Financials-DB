@@ -197,6 +197,7 @@ def build_workbook(payload: dict) -> bytes:
     group_fill = PatternFill("solid", fgColor=th["palette"]["header_fill"].lstrip("#"))
     row = 1
     current_group = None
+    group_members: dict[str, list[str]] = {}
     for m in fin["derived"]:
         if m["group"] != current_group:
             current_group = m["group"]
@@ -207,6 +208,7 @@ def build_workbook(payload: dict) -> bytes:
                 gc.border = HEADER_BORDER
             ws.cell(row=row, column=1, value=f"▍{current_group}").font = Font(
                 bold=True, color=th["palette"]["accent"].lstrip("#"))
+        group_members.setdefault(m["group"], []).append(m["id"])
         row += 1
         locations[m["id"]] = (ws, row)
         resolver.add(m["id"], METRICS_SHEET, row)
@@ -228,7 +230,14 @@ def build_workbook(payload: dict) -> bytes:
             else:
                 cell.value = f"={f}"
                 cell.number_format = fmt
-    chart_jobs.append((ws, spec.get(METRICS_SHEET, []), row + 3))
+    # 關鍵指標圖表：① chart_spec 定義的重點比較圖 ② 每個 group 一張同組指標比較折線
+    #                ③ 每個指標各自一張獨立折線
+    metric_specs = list(spec.get(METRICS_SHEET, []))
+    for grp, ids in group_members.items():
+        metric_specs.append({"type": "line", "title": f"{grp}｜組內比較", "series": ids})
+    for m in fin["derived"]:
+        metric_specs.append({"type": "line", "title": f"{m['zh']} {m['en']}", "series": [m["id"]]})
+    chart_jobs.append((ws, metric_specs, row + 3))
 
     # 指標列已定位，統一放圖（圖表可跨分頁引用系列）
     locate = locations.get

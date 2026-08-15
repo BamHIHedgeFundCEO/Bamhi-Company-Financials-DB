@@ -6,8 +6,11 @@
 ⚠️ 系列一律用 Series(values_ref, title=中文名) 建立，不用 add_data：
 add_data 預設把「每欄」當一條系列（要 from_rows），之前因此整張圖亂掉。
 """
+import re
+
 from openpyxl.chart import BarChart, LineChart, Reference, Series
 from openpyxl.chart.axis import ChartLines
+from openpyxl.chart.marker import DataPoint
 from openpyxl.chart.shapes import GraphicalProperties
 from openpyxl.drawing.line import LineProperties
 from openpyxl.utils import get_column_letter
@@ -70,6 +73,29 @@ def _make_series(ws, row: int, n_quarters: int, color: str, is_line: bool) -> Se
     return s
 
 
+def _period_labels(cats_ws, n_quarters: int) -> list[str]:
+    return [str(cats_ws.cell(row=1, column=FIRST_DATA_COL + i).value or "") for i in range(n_quarters)]
+
+
+def _color_bars_by_year(series: Series, labels: list[str], palette: list[str]):
+    """單一科目長條圖：同一會計年度的季用同一色，不同年換色 → 一眼看出年度分界。"""
+    fy_order: list[str] = []
+    for lb in labels:
+        m = re.match(r"FY(\d{4})", lb)
+        fy = m.group(1) if m else lb
+        if fy not in fy_order:
+            fy_order.append(fy)
+    color_of = {fy: _hex(palette[i % len(palette)]) for i, fy in enumerate(fy_order)}
+    pts = []
+    for i, lb in enumerate(labels):
+        m = re.match(r"FY(\d{4})", lb)
+        fy = m.group(1) if m else lb
+        gp = GraphicalProperties(solidFill=color_of[fy])
+        gp.line = LineProperties(noFill=True)
+        pts.append(DataPoint(idx=i, spPr=gp))
+    series.data_points = pts
+
+
 def build_chart(spec: dict, cats_ws, locate, n_quarters: int):
     """spec: chart_spec.json 單一圖表物件。locate(id) → (ws, row) 或 None（全活頁簿定位）。"""
     th = theme()
@@ -98,6 +124,9 @@ def build_chart(spec: dict, cats_ws, locate, n_quarters: int):
             chart.overlap = 100
         chart.series = series_for(spec.get("series", []), is_line=False)
         chart.set_categories(cats)
+        # 單一科目長條圖 → 依會計年度上色（成本費用結構這類多科目堆疊圖維持各科目一色）
+        if len(chart.series) == 1:
+            _color_bars_by_year(chart.series[0], _period_labels(cats_ws, n_quarters), palette)
         is_money = True
     elif kind == "line":
         chart = LineChart()

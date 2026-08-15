@@ -195,23 +195,28 @@ function collect(points: FactPoint[], flow: boolean, fyeMonth: number) {
   return best
 }
 
-/** 比值接近哪個常見分割倍數（8% 容差），否則 1 */
-function nearestSplit(ratio: number): number {
-  for (const s of [2, 3, 4, 5, 6, 7, 8, 10, 20]) {
-    if (Math.abs(ratio - s) / s < 0.08) return s
+/** 比值接近哪個常見分割倍數（8% 容差），否則 null。回傳「乾淨倍數」與方向。 */
+function detectSplit(ratio: number): number | null {
+  const CLEAN = [2, 3, 4, 5, 6, 7, 8, 10, 12, 15, 20, 30]
+  if (ratio >= 1.5) {
+    for (const s of CLEAN) if (Math.abs(ratio - s) / s < 0.08) return s // 正向：factor = s
+  } else if (ratio > 0 && ratio <= 0.67) {
+    for (const s of CLEAN) if (Math.abs(1 / ratio - s) / s < 0.08) return 1 / s // 反向：factor = 1/s
   }
-  return 1
+  return null
 }
 
 interface SplitEvent {
   threshold: string // 申報日界線：filed < threshold 者為分割前基準
-  factor: number
+  factor: number // 新/舊 股數比（正向>1，反向<1）
 }
 
 /**
- * 由加權平均股數（基本）序列偵測股票分割。
- * 關鍵：值屬「分割前/後」由其**申報日**決定，不是期別——分割後公司會重編舊期比較數，
- * 那些重編值（filed 較晚）已是新基準，不可再調整。
+ * 由加權平均股數序列偵測股票分割（正向與反向皆可）。
+ *
+ * 穩健訊號：**同一期末在不同申報間，股數突然差一個乾淨倍數**——只有分割會如此
+ * （發股/回購會改變該期真實股數，不會把同一期重編成 10 倍）。這避免把 SPAC 增資、
+ * 大量發股誤判為分割。分割後公司重編舊期，重編值（filed 較晚）已是新基準。
  */
 function computeSplits(ns: FactTags, fyeMonth: number): SplitEvent[] {
   const pts =
@@ -219,26 +224,40 @@ function computeSplits(ns: FactTags, fyeMonth: number): SplitEvent[] {
     ns['WeightedAverageNumberOfDilutedSharesOutstanding']?.units?.['shares']
   if (!pts?.length) return []
 
-  const best = new Map<string, { end: string; val: number; filed: string }>()
+  // 同一期末的所有申報值（依 filed 排序）
+  const byPeriod = new Map<string, { filed: string; val: number }[]>()
   for (const p of pts) {
     const days = spanDays(p)
-    if (days === null || !(days > 80 && days < 100)) continue
+    if (days === null || !(days > 80 && days < 100) || p.val <= 0) continue
     const { fy, q } = fiscalOf(p.end, fyeMonth)
     const k = `FY${fy} Q${q}`
-    const prev = best.get(k)
-    if (!prev || p.filed > prev.filed) best.set(k, { end: p.end, val: p.val, filed: p.filed })
+    ;(byPeriod.get(k) ?? byPeriod.set(k, []).get(k)!).push({ filed: p.filed, val: p.val })
   }
-  const ordered = [...best.values()].sort((a, b) => (a.end < b.end ? -1 : 1))
-  const splits: SplitEvent[] = []
-  for (let i = 0; i + 1 < ordered.length; i++) {
-    if (ordered[i].val <= 0) continue
-    const f = nearestSplit(ordered[i + 1].val / ordered[i].val) // 後值變大 → 分割
-    if (f > 1) splits.push({ threshold: ordered[i + 1].filed, factor: f })
+
+  const raw: SplitEvent[] = []
+  for (const list of byPeriod.values()) {
+    list.sort((a, b) => (a.filed < b.filed ? -1 : 1))
+    for (let i = 0; i + 1 < list.length; i++) {
+      const f = detectSplit(list[i + 1].val / list[i].val)
+      if (f) raw.push({ threshold: list[i + 1].filed, factor: f })
+    }
   }
-  return splits
+
+  // 同一分割事件會被多期偵測到 → 合併（同倍數、申報日相近 400 天內視為一次）
+  raw.sort((a, b) => (a.threshold < b.threshold ? -1 : 1))
+  const merged: SplitEvent[] = []
+  for (const s of raw) {
+    const last = merged[merged.length - 1]
+    const sameEvent =
+      last &&
+      Math.abs(Math.log(last.factor) - Math.log(s.factor)) < 0.08 &&
+      (Date.parse(s.threshold) - Date.parse(last.threshold)) / 86400_000 < 400
+    if (!sameEvent) merged.push(s)
+  }
+  return merged
 }
 
-/** 依申報日把值正規化到最新基準：股數乘、每股除。filed < threshold 的每個分割都套用。 */
+/** 依申報日把值正規化到最新基準：股數乘 factor、每股除 factor。filed < threshold 者套用。 */
 function splitAdjust(val: number, filed: string, unit: string, splits: SplitEvent[]): number {
   let f = 1
   for (const s of splits) if (filed < s.threshold) f *= s.factor
@@ -400,18 +419,17 @@ export async function getFinancials(
 
   const byId = new Map(lineItems.map((li) => [li.id, li]))
 
-  // zero_if_absent：該科目缺申報通常代表 0（如某季無一年內到期債務）。
-  // 只補「首末已知值之間」的內部缺口，不在頭尾捏造，避免財務結構指標間歇 n/a。
+  // zero_if_absent：該科目缺申報通常代表公司沒有此項目 = 0（如無配息、無庫藏股、
+  // 無一年內到期債務）。以「資產負債表有申報」（total_assets 有值）為錨補 0，
+  // 避免財務結構/股東回饋等指標間歇或整條 n/a。只補公司確實有申報財報的期。
+  const anchor = byId.get('total_assets')
   for (const concept of map.concepts) {
     if (!concept.zero_if_absent) continue
     const li = byId.get(concept.id)
-    if (!li) continue
-    const known = [...allPeriods].filter((p) => li.values[p]?.value != null).sort()
-    if (known.length < 2) continue
-    const lo = known[0]
-    const hi = known[known.length - 1]
+    if (!li || !anchor) continue
     for (const p of allPeriods) {
-      if (li.values[p]?.value != null || p < lo || p > hi) continue
+      if (li.values[p]?.value != null) continue
+      if (anchor.values[p]?.value == null) continue // 該期沒申報財報 → 不捏造
       li.values[p] = { value: 0, isEstimated: true, sourceTag: '缺申報視為 0' }
     }
   }

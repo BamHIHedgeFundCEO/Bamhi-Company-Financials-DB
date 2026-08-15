@@ -1,5 +1,5 @@
 {
-  "version": "0.6",
+  "version": "0.7",
   "updated": "2026-08-15",
   "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
   "concepts": [
@@ -318,7 +318,8 @@
       "tags_ifrs": [
         "CurrentFinancialAssetsAtFairValueThroughProfitOrLoss",
         "CurrentFinancialAssetsAtAmortisedCost"
-      ]
+      ],
+      "zero_if_absent": true
     },
     {
       "id": "accounts_receivable",
@@ -404,7 +405,8 @@
       ],
       "tags_ifrs": [
         "Goodwill"
-      ]
+      ],
+      "zero_if_absent": true
     },
     {
       "id": "intangibles",
@@ -420,7 +422,8 @@
       "tags_ifrs": [
         "IntangibleAssetsOtherThanGoodwill",
         "IntangibleAssetsAndGoodwill"
-      ]
+      ],
+      "zero_if_absent": true
     },
     {
       "id": "total_assets",
@@ -467,7 +470,8 @@
       "tags_ifrs": [
         "CurrentContractLiabilities",
         "ContractLiabilities"
-      ]
+      ],
+      "zero_if_absent": true
     },
     {
       "id": "short_term_debt",
@@ -518,7 +522,8 @@
       "tags_ifrs": [
         "NoncurrentPortionOfNoncurrentBondsIssued",
         "LongtermBorrowings"
-      ]
+      ],
+      "zero_if_absent": true
     },
     {
       "id": "operating_lease_liab_nc",
@@ -592,7 +597,8 @@
       ],
       "tags_ifrs": [
         "TreasuryShares"
-      ]
+      ],
+      "zero_if_absent": true
     },
     {
       "id": "cfo",
@@ -666,7 +672,8 @@
       ],
       "tags_ifrs": [
         "PaymentsToAcquireOrRedeemEntitysShares"
-      ]
+      ],
+      "zero_if_absent": true
     },
     {
       "id": "dividends_paid",
@@ -682,7 +689,8 @@
       "tags_ifrs": [
         "DividendsPaidClassifiedAsFinancingActivities",
         "DividendsPaid"
-      ]
+      ],
+      "zero_if_absent": true
     },
     {
       "id": "debt_issued",

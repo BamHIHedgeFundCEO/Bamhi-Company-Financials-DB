@@ -12,9 +12,8 @@ const RETRY_MAX = 3
 const cache = new Map<string, { at: number; ttl: number; data: unknown }>()
 
 function userAgent(): string {
-  const ua = process.env.SEC_USER_AGENT
-  if (!ua) throw new Error('SEC_USER_AGENT 未設定（.env），SEC 會拒絕請求')
-  return ua
+  // 預設為營運者聯絡方式（SEC 合規要求）；部署環境可用 SEC_USER_AGENT 覆蓋
+  return process.env.SEC_USER_AGENT || 'BamHI frank940702@gmail.com'
 }
 
 export async function secFetchJson<T>(url: string, ttlMs = 24 * 3600 * 1000): Promise<T> {

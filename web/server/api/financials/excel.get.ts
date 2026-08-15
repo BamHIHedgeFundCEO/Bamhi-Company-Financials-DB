@@ -30,7 +30,7 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 404, statusMessage: 'Not Found', message: `找不到「${ticker}」` })
   }
 
-  const mapVersion = loadMap().version
+  const mapVersion = (await loadMap()).version
   const from = `${range.fromFy}Q${range.fromQ}`
   const to = `${range.toFy}Q${range.toQ}`
   const cacheKey = `${ref.ticker}_${from}_${to}_${mapVersion}.xlsx`

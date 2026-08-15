@@ -41,6 +41,8 @@ export default defineNuxtConfig({
     },
   },
   nitro: {
+    // config/ 在 repo 根層（web/ 之外）；打包成 server asset 讓 Vercel serverless 也讀得到
+    serverAssets: [{ baseName: 'config', dir: '../../config' }],
     prerender: {
       routes: ['/', '/sitemap.xml', ...staticTickers().map((t) => `/stock/${t}`)],
     },

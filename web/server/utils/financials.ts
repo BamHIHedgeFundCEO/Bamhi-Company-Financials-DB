@@ -1,5 +1,3 @@
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
 import { secFetchJson } from './secFetch'
 import type { CompanyRef } from './cik'
 
@@ -92,11 +90,13 @@ export interface FinancialsResult {
 }
 
 let cachedMap: XbrlMap | null = null
-export function loadMap(): XbrlMap {
+export async function loadMap(): Promise<XbrlMap> {
   if (cachedMap) return cachedMap
-  // config/ 位於 repo 根層（web/ 的上一層）
-  const p = resolve(process.cwd(), '..', 'config', 'xbrl_zh_map.json')
-  cachedMap = JSON.parse(readFileSync(p, 'utf-8')) as XbrlMap
+  // nitro serverAssets（nuxt.config serverAssets: config → repo 根層 config/）
+  // 打包進 serverless bundle，本地與 Vercel 皆可讀
+  const raw = await useStorage('assets:config').getItem('xbrl_zh_map.json')
+  cachedMap = (typeof raw === 'string' ? JSON.parse(raw) : raw) as XbrlMap
+  if (!cachedMap?.concepts) throw new Error('xbrl_zh_map.json 載入失敗')
   return cachedMap
 }
 
@@ -200,7 +200,7 @@ export async function getFinancials(
   fromFy: number,
   toFy: number,
 ): Promise<FinancialsResult> {
-  const map = loadMap()
+  const map = await loadMap()
   const facts = await secFetchJson<CompanyFacts>(
     `https://data.sec.gov/api/xbrl/companyfacts/CIK${ref.cik10}.json`,
   )

@@ -7,12 +7,14 @@
 
 兩條路徑後端完全獨立，資料來源皆為 [SEC EDGAR](https://www.sec.gov/) 公開 API。
 
+**線上站台**：https://bamhi-company-financials.vercel.app
+
 ## 架構
 
 ```
 Nuxt 3 SSG (Vercel)  →  /api/*  (Nitro server routes：SEC 抓取、JSON、CSV)
                             ↓ 需要 Excel 時轉呼叫
-                     Cloud Run (Python + openpyxl，生成 .xlsx)
+                     Vercel Python Function (openpyxl，生成 .xlsx)
                             ↓
                      Cloudflare R2（產出快取）→ 回傳 signed URL
 ```
@@ -27,7 +29,7 @@ Nuxt 3 SSG (Vercel)  →  /api/*  (Nitro server routes：SEC 抓取、JSON、CSV
 | `config/chart_spec.json` | Excel 各分頁圖表清單（設定層 2） |
 | `config/theme.json` | 配色、字體、數字格式（設定層 3，白標用） |
 | `web/` | Nuxt 3 + TypeScript 前端與 API（SSG，部署 Vercel） |
-| `excel-service/` | Python + openpyxl Excel 生成服務（部署 Cloud Run） |
+| `excel-service/` | Python + openpyxl Excel 生成服務（第二 Vercel project，入口 `api/index.py`） |
 | `docs/CLAUDE_CODE_PROMPT.md` | 完整產品規格（唯一真相來源） |
 | `docs/prototypes/` | HTML 原型與 BamHI 視覺資產 |
 
@@ -47,6 +49,20 @@ cd excel-service
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8080
 ```
+
+## 部署（Vercel，兩個 project、同一 repo）
+
+| Project | rootDirectory | 部署指令 |
+|---|---|---|
+| 主站（Nuxt） | `web` | `vercel deploy --prod --local-config web/vercel.json` |
+| Excel 服務（Python） | 根層 | `vercel deploy --prod`（用根層 `vercel.json`） |
+
+> ⚠️ **主站一定要帶 `--local-config web/vercel.json`**。根層 `vercel.json` 是給 Excel 服務用的（`@vercel/python` + `includeFiles`）；CLI 從 repo 根層部署時會誤套用它，導致主站整站 404。`web/vercel.json` 覆蓋回 Nuxt 設定。
+
+環境變數：
+- 主站需設 `EXCEL_SERVICE_URL`（= Excel 服務的網域），否則 Excel 鈕回 503
+- `SEC_USER_AGENT` 可選（程式內有營運者預設值）
+- R2 快取為選配（`R2_*`）；未設時 Excel 服務直接串流 .xlsx，無快取
 
 ## SEC 合規
 

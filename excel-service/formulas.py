@@ -33,8 +33,17 @@ class RefResolver:
         return f"'{sheet}'!{get_column_letter(col)}{row}"
 
 
-def translate(formula: str, resolver: RefResolver, col: int) -> str | None:
-    """回傳不含開頭 = 的公式；引用解析失敗（缺科目或期數不足）回 None。"""
+def translate(formula: str, resolver: RefResolver, col: int, annual: bool = False) -> str | None:
+    """回傳不含開頭 = 的公式；引用解析失敗（缺科目或期數不足）回 None。
+
+    annual=True（IFRS 年度模式）時：
+      - [t-4]（去年同季）→ 前 1 欄；[t-1]（上一季）無意義 → None
+      - 「× 4 年化」係數改 × 1；週轉天數 91.25 → 365
+    """
+    if annual:
+        if "[t-1]" in formula:
+            return None  # QoQ 類指標年度資料無意義
+        formula = re.sub(r"\*\s*4\b", "* 1", formula).replace("91.25", "365")
     out: list[str] = []
     pos = 0
     has_div = "/" in formula
@@ -63,6 +72,8 @@ def translate(formula: str, resolver: RefResolver, col: int) -> str | None:
             out.append(f"(({cur}+{prev})/2)" if prev else cur)
         elif ident:
             lag_n = int(lag) if lag else 0
+            if annual and lag_n:
+                lag_n = lag_n // 4  # 年度模式：[t-4] = 前一年 = 前 1 欄
             ref = resolver.cell(ident, col - lag_n)
             if ref is None:
                 return None

@@ -69,6 +69,7 @@ def build_workbook(payload: dict) -> bytes:
     fin = payload["financials"]
     periods: list[str] = fin["periods"]
     n = len(periods)
+    annual = fin.get("periodicity") == "annual"
     th = theme()
     cmap = xbrl_map()
     spec = chart_spec()["sheets"]
@@ -90,10 +91,13 @@ def build_workbook(payload: dict) -> bytes:
         ("Ticker", fin["ticker"]),
         ("CIK", fin["cik"]),
         ("期間", f"{periods[0]} ～ {periods[-1]}" if periods else "—"),
+        ("頻率", "年度（外國發行人 20-F，無季報）" if annual else "季度"),
+        ("幣別", fin.get("currency", "USD")),
         ("資料來源", "SEC EDGAR companyfacts XBRL API"),
         ("生成時間 (UTC)", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")),
         ("對照表版本", fin["mapVersion"]),
-        ("Q4 推算", "Q4 單季 = FY − Q1 − Q2 − Q3，該儲存格以淺橘底標示"),
+        ("Q4 推算", "—（年度資料無推算）" if annual
+         else "Q4 單季 = FY − Q1 − Q2 − Q3，該儲存格以淺橘底標示"),
         ("免責聲明", DISCLAIMER),
     ]
     for i, (k, v) in enumerate(meta_rows, start=1):
@@ -169,7 +173,7 @@ def build_workbook(payload: dict) -> bytes:
         for i in range(n):
             col = FIRST_DATA_COL + i
             cell = ws.cell(row=row, column=col)
-            f = translate(m["formula"], resolver, col)
+            f = translate(m["formula"], resolver, col, annual=annual)
             if f is None:
                 cell.value = missing
             else:

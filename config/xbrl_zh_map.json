@@ -1,7 +1,7 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "updated": "2026-08-15",
-  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。",
+  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
   "concepts": [
     {
       "id": "revenue",
@@ -17,6 +17,11 @@
         "SalesRevenueNet",
         "SalesRevenueGoodsNet",
         "SalesRevenueServicesNet"
+      ],
+      "tags_ifrs": [
+        "Revenue",
+        "RevenueFromContractsWithCustomers",
+        "RevenueFromSaleOfGoods"
       ]
     },
     {
@@ -31,6 +36,9 @@
         "CostOfRevenue",
         "CostOfGoodsSold",
         "CostOfServices"
+      ],
+      "tags_ifrs": [
+        "CostOfSales"
       ]
     },
     {
@@ -41,7 +49,12 @@
       "unit": "USD",
       "sign": "natural",
       "derivable": "revenue - cogs",
-      "tags": ["GrossProfit"]
+      "tags": [
+        "GrossProfit"
+      ],
+      "tags_ifrs": [
+        "GrossProfit"
+      ]
     },
     {
       "id": "rnd",
@@ -53,6 +66,9 @@
       "tags": [
         "ResearchAndDevelopmentExpense",
         "ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost"
+      ],
+      "tags_ifrs": [
+        "ResearchAndDevelopmentExpense"
       ]
     },
     {
@@ -66,6 +82,10 @@
       "tags": [
         "SellingGeneralAndAdministrativeExpense",
         "GeneralAndAdministrativeExpense"
+      ],
+      "tags_ifrs": [
+        "GeneralAndAdministrativeExpense",
+        "SellingGeneralAndAdministrativeExpense"
       ]
     },
     {
@@ -78,6 +98,10 @@
       "tags": [
         "SellingAndMarketingExpense",
         "MarketingAndAdvertisingExpense"
+      ],
+      "tags_ifrs": [
+        "SellingExpense",
+        "DistributionCosts"
       ]
     },
     {
@@ -87,7 +111,14 @@
       "statement": "IS",
       "unit": "USD",
       "sign": "reported_positive",
-      "tags": ["OperatingExpenses", "CostsAndExpenses"]
+      "tags": [
+        "OperatingExpenses",
+        "CostsAndExpenses"
+      ],
+      "tags_ifrs": [
+        "OperatingExpenseExcludingCostOfSales",
+        "OperatingExpense"
+      ]
     },
     {
       "id": "operating_income",
@@ -96,7 +127,12 @@
       "statement": "IS",
       "unit": "USD",
       "sign": "natural",
-      "tags": ["OperatingIncomeLoss"]
+      "tags": [
+        "OperatingIncomeLoss"
+      ],
+      "tags_ifrs": [
+        "ProfitLossFromOperatingActivities"
+      ]
     },
     {
       "id": "interest_expense",
@@ -110,6 +146,9 @@
         "InterestExpenseNonoperating",
         "InterestExpenseDebt",
         "InterestIncomeExpenseNet"
+      ],
+      "tags_ifrs": [
+        "FinanceCosts"
       ]
     },
     {
@@ -122,6 +161,9 @@
       "tags": [
         "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
         "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments"
+      ],
+      "tags_ifrs": [
+        "ProfitLossBeforeTax"
       ]
     },
     {
@@ -131,7 +173,12 @@
       "statement": "IS",
       "unit": "USD",
       "sign": "reported_positive",
-      "tags": ["IncomeTaxExpenseBenefit"]
+      "tags": [
+        "IncomeTaxExpenseBenefit"
+      ],
+      "tags_ifrs": [
+        "IncomeTaxExpenseContinuingOperations"
+      ]
     },
     {
       "id": "net_income",
@@ -145,6 +192,10 @@
         "NetIncomeLoss",
         "ProfitLoss",
         "NetIncomeLossAvailableToCommonStockholdersBasic"
+      ],
+      "tags_ifrs": [
+        "ProfitLossAttributableToOwnersOfParent",
+        "ProfitLoss"
       ]
     },
     {
@@ -154,7 +205,12 @@
       "statement": "IS",
       "unit": "USD/shares",
       "sign": "natural",
-      "tags": ["EarningsPerShareBasic"]
+      "tags": [
+        "EarningsPerShareBasic"
+      ],
+      "tags_ifrs": [
+        "BasicEarningsLossPerShare"
+      ]
     },
     {
       "id": "eps_diluted",
@@ -163,7 +219,13 @@
       "statement": "IS",
       "unit": "USD/shares",
       "sign": "natural",
-      "tags": ["EarningsPerShareDiluted", "EarningsPerShareBasicAndDiluted"]
+      "tags": [
+        "EarningsPerShareDiluted",
+        "EarningsPerShareBasicAndDiluted"
+      ],
+      "tags_ifrs": [
+        "DilutedEarningsLossPerShare"
+      ]
     },
     {
       "id": "shares_basic",
@@ -172,7 +234,9 @@
       "statement": "IS",
       "unit": "shares",
       "sign": "natural",
-      "tags": ["WeightedAverageNumberOfSharesOutstandingBasic"]
+      "tags": [
+        "WeightedAverageNumberOfSharesOutstandingBasic"
+      ]
     },
     {
       "id": "shares_diluted",
@@ -181,7 +245,9 @@
       "statement": "IS",
       "unit": "shares",
       "sign": "natural",
-      "tags": ["WeightedAverageNumberOfDilutedSharesOutstanding"]
+      "tags": [
+        "WeightedAverageNumberOfDilutedSharesOutstanding"
+      ]
     },
     {
       "id": "sbc",
@@ -193,6 +259,9 @@
       "tags": [
         "ShareBasedCompensation",
         "AllocatedShareBasedCompensationExpense"
+      ],
+      "tags_ifrs": [
+        "ExpenseFromSharebasedPaymentTransactionsInWhichGoodsOrServicesReceivedDidNotQualifyForRecognitionAsAssets"
       ]
     },
     {
@@ -207,6 +276,10 @@
         "DepreciationAmortizationAndAccretionNet",
         "DepreciationAndAmortization",
         "Depreciation"
+      ],
+      "tags_ifrs": [
+        "DepreciationAndAmortisationExpense",
+        "DepreciationExpense"
       ]
     },
     {
@@ -219,6 +292,9 @@
       "tags": [
         "CashAndCashEquivalentsAtCarryingValue",
         "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+      ],
+      "tags_ifrs": [
+        "CashAndCashEquivalents"
       ]
     },
     {
@@ -232,6 +308,10 @@
         "ShortTermInvestments",
         "MarketableSecuritiesCurrent",
         "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+      ],
+      "tags_ifrs": [
+        "CurrentFinancialAssetsAtFairValueThroughProfitOrLoss",
+        "CurrentFinancialAssetsAtAmortisedCost"
       ]
     },
     {
@@ -244,6 +324,10 @@
       "tags": [
         "AccountsReceivableNetCurrent",
         "ReceivablesNetCurrent"
+      ],
+      "tags_ifrs": [
+        "CurrentTradeReceivables",
+        "TradeAndOtherCurrentReceivables"
       ]
     },
     {
@@ -253,7 +337,12 @@
       "statement": "BS",
       "unit": "USD",
       "sign": "natural",
-      "tags": ["InventoryNet"]
+      "tags": [
+        "InventoryNet"
+      ],
+      "tags_ifrs": [
+        "Inventories"
+      ]
     },
     {
       "id": "current_assets",
@@ -262,7 +351,12 @@
       "statement": "BS",
       "unit": "USD",
       "sign": "natural",
-      "tags": ["AssetsCurrent"]
+      "tags": [
+        "AssetsCurrent"
+      ],
+      "tags_ifrs": [
+        "CurrentAssets"
+      ]
     },
     {
       "id": "ppe_net",
@@ -271,7 +365,12 @@
       "statement": "BS",
       "unit": "USD",
       "sign": "natural",
-      "tags": ["PropertyPlantAndEquipmentNet"]
+      "tags": [
+        "PropertyPlantAndEquipmentNet"
+      ],
+      "tags_ifrs": [
+        "PropertyPlantAndEquipment"
+      ]
     },
     {
       "id": "operating_lease_rou",
@@ -280,7 +379,12 @@
       "statement": "BS",
       "unit": "USD",
       "sign": "natural",
-      "tags": ["OperatingLeaseRightOfUseAsset"]
+      "tags": [
+        "OperatingLeaseRightOfUseAsset"
+      ],
+      "tags_ifrs": [
+        "RightofuseAssets"
+      ]
     },
     {
       "id": "goodwill",
@@ -289,7 +393,12 @@
       "statement": "BS",
       "unit": "USD",
       "sign": "natural",
-      "tags": ["Goodwill"]
+      "tags": [
+        "Goodwill"
+      ],
+      "tags_ifrs": [
+        "Goodwill"
+      ]
     },
     {
       "id": "intangibles",
@@ -301,6 +410,10 @@
       "tags": [
         "IntangibleAssetsNetExcludingGoodwill",
         "FiniteLivedIntangibleAssetsNet"
+      ],
+      "tags_ifrs": [
+        "IntangibleAssetsOtherThanGoodwill",
+        "IntangibleAssetsAndGoodwill"
       ]
     },
     {
@@ -310,7 +423,12 @@
       "statement": "BS",
       "unit": "USD",
       "sign": "natural",
-      "tags": ["Assets"]
+      "tags": [
+        "Assets"
+      ],
+      "tags_ifrs": [
+        "Assets"
+      ]
     },
     {
       "id": "accounts_payable",
@@ -322,6 +440,10 @@
       "tags": [
         "AccountsPayableCurrent",
         "AccountsPayableAndAccruedLiabilitiesCurrent"
+      ],
+      "tags_ifrs": [
+        "TradeAndOtherCurrentPayablesToTradeSuppliers",
+        "TradeAndOtherCurrentPayables"
       ]
     },
     {
@@ -335,6 +457,10 @@
       "tags": [
         "ContractWithCustomerLiabilityCurrent",
         "DeferredRevenueCurrent"
+      ],
+      "tags_ifrs": [
+        "CurrentContractLiabilities",
+        "ContractLiabilities"
       ]
     },
     {
@@ -348,6 +474,11 @@
         "LongTermDebtCurrent",
         "DebtCurrent",
         "ShortTermBorrowings"
+      ],
+      "tags_ifrs": [
+        "ShorttermBorrowings",
+        "CurrentPortionOfLongtermBorrowings",
+        "CurrentBondsIssuedAndCurrentPortionOfNoncurrentBondsIssued"
       ]
     },
     {
@@ -357,7 +488,12 @@
       "statement": "BS",
       "unit": "USD",
       "sign": "natural",
-      "tags": ["LiabilitiesCurrent"]
+      "tags": [
+        "LiabilitiesCurrent"
+      ],
+      "tags_ifrs": [
+        "CurrentLiabilities"
+      ]
     },
     {
       "id": "long_term_debt",
@@ -369,6 +505,10 @@
       "tags": [
         "LongTermDebtNoncurrent",
         "LongTermDebt"
+      ],
+      "tags_ifrs": [
+        "NoncurrentPortionOfNoncurrentBondsIssued",
+        "LongtermBorrowings"
       ]
     },
     {
@@ -378,7 +518,12 @@
       "statement": "BS",
       "unit": "USD",
       "sign": "natural",
-      "tags": ["OperatingLeaseLiabilityNoncurrent"]
+      "tags": [
+        "OperatingLeaseLiabilityNoncurrent"
+      ],
+      "tags_ifrs": [
+        "NoncurrentLeaseLiabilities"
+      ]
     },
     {
       "id": "total_liabilities",
@@ -387,7 +532,12 @@
       "statement": "BS",
       "unit": "USD",
       "sign": "natural",
-      "tags": ["Liabilities"]
+      "tags": [
+        "Liabilities"
+      ],
+      "tags_ifrs": [
+        "Liabilities"
+      ]
     },
     {
       "id": "equity",
@@ -399,6 +549,10 @@
       "tags": [
         "StockholdersEquity",
         "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+      ],
+      "tags_ifrs": [
+        "EquityAttributableToOwnersOfParent",
+        "Equity"
       ]
     },
     {
@@ -408,7 +562,12 @@
       "statement": "BS",
       "unit": "USD",
       "sign": "natural",
-      "tags": ["RetainedEarningsAccumulatedDeficit"]
+      "tags": [
+        "RetainedEarningsAccumulatedDeficit"
+      ],
+      "tags_ifrs": [
+        "RetainedEarnings"
+      ]
     },
     {
       "id": "treasury_stock",
@@ -417,7 +576,13 @@
       "statement": "BS",
       "unit": "USD",
       "sign": "reported_positive",
-      "tags": ["TreasuryStockValue", "TreasuryStockCommonValue"]
+      "tags": [
+        "TreasuryStockValue",
+        "TreasuryStockCommonValue"
+      ],
+      "tags_ifrs": [
+        "TreasuryShares"
+      ]
     },
     {
       "id": "cfo",
@@ -429,6 +594,9 @@
       "tags": [
         "NetCashProvidedByUsedInOperatingActivities",
         "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations"
+      ],
+      "tags_ifrs": [
+        "CashFlowsFromUsedInOperatingActivities"
       ]
     },
     {
@@ -441,6 +609,9 @@
       "tags": [
         "PaymentsToAcquirePropertyPlantAndEquipment",
         "PaymentsToAcquireProductiveAssets"
+      ],
+      "tags_ifrs": [
+        "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
       ]
     },
     {
@@ -450,7 +621,12 @@
       "statement": "CF",
       "unit": "USD",
       "sign": "natural",
-      "tags": ["NetCashProvidedByUsedInInvestingActivities"]
+      "tags": [
+        "NetCashProvidedByUsedInInvestingActivities"
+      ],
+      "tags_ifrs": [
+        "CashFlowsFromUsedInInvestingActivities"
+      ]
     },
     {
       "id": "cff",
@@ -459,7 +635,12 @@
       "statement": "CF",
       "unit": "USD",
       "sign": "natural",
-      "tags": ["NetCashProvidedByUsedInFinancingActivities"]
+      "tags": [
+        "NetCashProvidedByUsedInFinancingActivities"
+      ],
+      "tags_ifrs": [
+        "CashFlowsFromUsedInFinancingActivities"
+      ]
     },
     {
       "id": "buyback",
@@ -468,7 +649,12 @@
       "statement": "CF",
       "unit": "USD",
       "sign": "reported_positive",
-      "tags": ["PaymentsForRepurchaseOfCommonStock"]
+      "tags": [
+        "PaymentsForRepurchaseOfCommonStock"
+      ],
+      "tags_ifrs": [
+        "PaymentsToAcquireOrRedeemEntitysShares"
+      ]
     },
     {
       "id": "dividends_paid",
@@ -480,6 +666,10 @@
       "tags": [
         "PaymentsOfDividendsCommonStock",
         "PaymentsOfDividends"
+      ],
+      "tags_ifrs": [
+        "DividendsPaidClassifiedAsFinancingActivities",
+        "DividendsPaid"
       ]
     },
     {
@@ -489,7 +679,13 @@
       "statement": "CF",
       "unit": "USD",
       "sign": "natural",
-      "tags": ["ProceedsFromIssuanceOfLongTermDebt"]
+      "tags": [
+        "ProceedsFromIssuanceOfLongTermDebt"
+      ],
+      "tags_ifrs": [
+        "ProceedsFromIssueOfBondsNotesAndDebentures",
+        "ProceedsFromNoncurrentBorrowings"
+      ]
     },
     {
       "id": "debt_repaid",
@@ -498,7 +694,13 @@
       "statement": "CF",
       "unit": "USD",
       "sign": "reported_positive",
-      "tags": ["RepaymentsOfLongTermDebt"]
+      "tags": [
+        "RepaymentsOfLongTermDebt"
+      ],
+      "tags_ifrs": [
+        "RepaymentsOfBondsNotesAndDebentures",
+        "RepaymentsOfNoncurrentBorrowings"
+      ]
     },
     {
       "id": "net_change_cash",
@@ -510,163 +712,259 @@
       "tags": [
         "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
         "CashAndCashEquivalentsPeriodIncreaseDecrease"
+      ],
+      "tags_ifrs": [
+        "IncreaseDecreaseInCashAndCashEquivalents"
       ]
     }
   ],
   "metrics_note": "季度資料計算比率時的規則：(1) 分子為流量（IS/CF）、分母為存量（BS）時，分母取期初期末平均；(2) ROE/ROA/ROIC 等報酬率須年化（季度值 ×4）或改用 TTM，Excel 中一律標註採用何種基準；(3) 需要股價的估值倍數（P/E、EV/EBITDA）SEC 不提供，v1 不做。",
   "derived": [
     {
-      "id": "revenue_yoy", "zh": "營收年增率", "en": "Revenue YoY", "group": "成長性",
+      "id": "revenue_yoy",
+      "zh": "營收年增率",
+      "en": "Revenue YoY",
+      "group": "成長性",
       "formula": "revenue[t] / revenue[t-4] - 1",
       "desc": "與去年同季比較。用同季而非上一季，是為了排除季節性。低於零代表衰退，連續兩季轉負通常是趨勢反轉而非雜訊。"
     },
     {
-      "id": "revenue_qoq", "zh": "營收季增率", "en": "Revenue QoQ", "group": "成長性",
+      "id": "revenue_qoq",
+      "zh": "營收季增率",
+      "en": "Revenue QoQ",
+      "group": "成長性",
       "formula": "revenue[t] / revenue[t-1] - 1",
       "desc": "反映短期動能，但受季節性干擾嚴重（零售 Q4 必高、軟體 Q1 必低）。單獨看容易誤判，須與 YoY 並列。"
     },
     {
-      "id": "net_income_yoy", "zh": "淨利年增率", "en": "Net Income YoY", "group": "成長性",
+      "id": "net_income_yoy",
+      "zh": "淨利年增率",
+      "en": "Net Income YoY",
+      "group": "成長性",
       "formula": "net_income[t] / net_income[t-4] - 1",
       "desc": "與營收年增率並列看。淨利增速持續高於營收，代表營運槓桿正在發揮；持續低於營收，代表成本失控或費用擴張。"
     },
     {
-      "id": "gross_margin", "zh": "毛利率", "en": "Gross Margin", "group": "獲利能力",
+      "id": "gross_margin",
+      "zh": "毛利率",
+      "en": "Gross Margin",
+      "group": "獲利能力",
       "formula": "gross_profit / revenue",
       "desc": "最能反映定價權的單一指標。毛利率的趨勢比絕對值重要——持續擴張代表產品組合改善或議價能力增強，持續壓縮通常是競爭加劇的最早訊號，會領先營收惡化數季。"
     },
     {
-      "id": "operating_margin", "zh": "營業利益率", "en": "Operating Margin", "group": "獲利能力",
+      "id": "operating_margin",
+      "zh": "營業利益率",
+      "en": "Operating Margin",
+      "group": "獲利能力",
       "formula": "operating_income / revenue",
       "desc": "扣除營運費用後的獲利能力，衡量管理效率。與毛利率的差距即為費用率，差距收窄代表規模經濟開始顯現。"
     },
     {
-      "id": "net_margin", "zh": "淨利率", "en": "Net Margin", "group": "獲利能力",
+      "id": "net_margin",
+      "zh": "淨利率",
+      "en": "Net Margin",
+      "group": "獲利能力",
       "formula": "net_income / revenue",
       "desc": "含稅務、利息、一次性項目，波動大。單季暴增常來自業外收益而非本業，須回頭檢查營業利益率是否同步改善。"
     },
     {
-      "id": "ebitda", "zh": "稅前息前折舊攤銷前獲利", "en": "EBITDA", "group": "獲利能力",
+      "id": "ebitda",
+      "zh": "稅前息前折舊攤銷前獲利",
+      "en": "EBITDA",
+      "group": "獲利能力",
       "formula": "operating_income + dna",
       "desc": "排除資本結構與折舊政策差異，便於跨公司比較。但它刻意忽略資本支出，對重資產產業（半導體、電信）會嚴重高估真實獲利能力。"
     },
     {
-      "id": "ebitda_margin", "zh": "EBITDA 利潤率", "en": "EBITDA Margin", "group": "獲利能力",
+      "id": "ebitda_margin",
+      "zh": "EBITDA 利潤率",
+      "en": "EBITDA Margin",
+      "group": "獲利能力",
       "formula": "ebitda / revenue",
       "desc": "重資產與高度併購型公司的常用比較基準。"
     },
     {
-      "id": "roe", "zh": "股東權益報酬率", "en": "ROE", "group": "獲利能力",
+      "id": "roe",
+      "zh": "股東權益報酬率",
+      "en": "ROE",
+      "group": "獲利能力",
       "formula": "net_income * 4 / avg(equity)",
       "desc": "股東每一元投入產生的獲利。高 ROE 可能來自真實效率，也可能來自高財務槓桿或大量庫藏股買回壓縮權益——須與負債權益比一起判讀，否則會把財務工程誤認為經營能力。"
     },
     {
-      "id": "roa", "zh": "資產報酬率", "en": "ROA", "group": "獲利能力",
+      "id": "roa",
+      "zh": "資產報酬率",
+      "en": "ROA",
+      "group": "獲利能力",
       "formula": "net_income * 4 / avg(total_assets)",
       "desc": "排除槓桿因素的資產運用效率。ROE 與 ROA 的差距即為槓桿貢獻。"
     },
     {
-      "id": "roic", "zh": "投入資本報酬率", "en": "ROIC (approx.)", "group": "獲利能力",
+      "id": "roic",
+      "zh": "投入資本報酬率",
+      "en": "ROIC (approx.)",
+      "group": "獲利能力",
       "formula": "operating_income * (1 - income_tax/pretax_income) * 4 / (avg(equity) + avg(long_term_debt) + avg(short_term_debt) - avg(cash))",
       "desc": "衡量本業投入資本的真實回報，是判斷有無護城河的核心指標。ROIC 長期高於資金成本（約 8–10%）才代表在創造價值，否則成長反而在毀滅價值。此為簡化算法，與賣方定義可能有出入。"
     },
     {
-      "id": "dso", "zh": "應收帳款週轉天數", "en": "DSO", "group": "營運效率",
+      "id": "dso",
+      "zh": "應收帳款週轉天數",
+      "en": "DSO",
+      "group": "營運效率",
       "formula": "avg(accounts_receivable) / revenue * 91.25",
       "desc": "收現速度。持續拉長代表放寬信用條件在推營收，或客戶付款能力惡化——這是財報造假最常見的早期痕跡之一。"
     },
     {
-      "id": "dio", "zh": "存貨週轉天數", "en": "DIO", "group": "營運效率",
+      "id": "dio",
+      "zh": "存貨週轉天數",
+      "en": "DIO",
+      "group": "營運效率",
       "formula": "avg(inventory) / cogs * 91.25",
       "desc": "存貨消化速度。突然拉長代表需求不如預期或備料過度，通常領先毛利率下滑（因為之後要打折出清）。"
     },
     {
-      "id": "dpo", "zh": "應付帳款週轉天數", "en": "DPO", "group": "營運效率",
+      "id": "dpo",
+      "zh": "應付帳款週轉天數",
+      "en": "DPO",
+      "group": "營運效率",
       "formula": "avg(accounts_payable) / cogs * 91.25",
       "desc": "付款速度，反映對供應商的議價能力。拉長對現金流有利，但過長可能代表資金緊張。"
     },
     {
-      "id": "ccc", "zh": "現金轉換循環", "en": "Cash Conversion Cycle", "group": "營運效率",
+      "id": "ccc",
+      "zh": "現金轉換循環",
+      "en": "Cash Conversion Cycle",
+      "group": "營運效率",
       "formula": "dso + dio - dpo",
       "desc": "一塊錢從投入到收回所需天數。為負值代表先收錢再付錢（Costco、Amazon 模式），等於供應商在無息融資給你，是極強的商業模式訊號。"
     },
     {
-      "id": "asset_turnover", "zh": "總資產週轉率", "en": "Asset Turnover", "group": "營運效率",
+      "id": "asset_turnover",
+      "zh": "總資產週轉率",
+      "en": "Asset Turnover",
+      "group": "營運效率",
       "formula": "revenue * 4 / avg(total_assets)",
       "desc": "每一元資產產生多少營收。與淨利率相乘即為 ROA，是杜邦分析的兩大支柱之一。"
     },
     {
-      "id": "current_ratio", "zh": "流動比率", "en": "Current Ratio", "group": "財務結構",
+      "id": "current_ratio",
+      "zh": "流動比率",
+      "en": "Current Ratio",
+      "group": "財務結構",
       "formula": "current_assets / current_liabilities",
       "desc": "短期償債能力。低於 1 未必危險（如零售業周轉快），但須搭配現金流判讀。"
     },
     {
-      "id": "quick_ratio", "zh": "速動比率", "en": "Quick Ratio", "group": "財務結構",
+      "id": "quick_ratio",
+      "zh": "速動比率",
+      "en": "Quick Ratio",
+      "group": "財務結構",
       "formula": "(cash + short_term_investments + accounts_receivable) / current_liabilities",
       "desc": "剔除存貨後的償債能力。與流動比率差距大，代表資產集中在難變現的存貨。"
     },
     {
-      "id": "net_debt", "zh": "淨負債", "en": "Net Debt", "group": "財務結構",
+      "id": "net_debt",
+      "zh": "淨負債",
+      "en": "Net Debt",
+      "group": "財務結構",
       "formula": "short_term_debt + long_term_debt - cash - short_term_investments",
       "desc": "負值代表淨現金部位。這是併購能力與抗景氣衰退能力的直接量度。"
     },
     {
-      "id": "net_debt_to_ebitda", "zh": "淨負債／EBITDA", "en": "Net Debt / EBITDA", "group": "財務結構",
+      "id": "net_debt_to_ebitda",
+      "zh": "淨負債／EBITDA",
+      "en": "Net Debt / EBITDA",
+      "group": "財務結構",
       "formula": "net_debt / (ebitda * 4)",
       "desc": "以現有獲利能力還清淨負債需幾年。超過 3–4 倍在多數產業被視為偏高，且是債務條款（covenant）常見的觸發門檻。"
     },
     {
-      "id": "debt_to_equity", "zh": "負債權益比", "en": "Debt / Equity", "group": "財務結構",
+      "id": "debt_to_equity",
+      "zh": "負債權益比",
+      "en": "Debt / Equity",
+      "group": "財務結構",
       "formula": "(short_term_debt + long_term_debt) / equity",
       "desc": "財務槓桿程度。判讀 ROE 時必看的配套指標。"
     },
     {
-      "id": "interest_coverage", "zh": "利息保障倍數", "en": "Interest Coverage", "group": "財務結構",
+      "id": "interest_coverage",
+      "zh": "利息保障倍數",
+      "en": "Interest Coverage",
+      "group": "財務結構",
       "formula": "operating_income / interest_expense",
       "desc": "營業利益是利息費用的幾倍。低於 2 進入警戒，低於 1 代表本業獲利無法支應利息。升息循環中此指標的惡化速度最能反映脆弱度。"
     },
     {
-      "id": "fcf", "zh": "自由現金流", "en": "Free Cash Flow", "group": "現金流品質",
+      "id": "fcf",
+      "zh": "自由現金流",
+      "en": "Free Cash Flow",
+      "group": "現金流品質",
       "formula": "cfo - capex",
       "desc": "扣除維持營運所需投資後真正可自由分配的現金。這是最難被會計手法修飾的數字，也是估值的最終基礎。"
     },
     {
-      "id": "fcf_margin", "zh": "自由現金流利潤率", "en": "FCF Margin", "group": "現金流品質",
+      "id": "fcf_margin",
+      "zh": "自由現金流利潤率",
+      "en": "FCF Margin",
+      "group": "現金流品質",
       "formula": "fcf / revenue",
       "desc": "每一元營收轉換成自由現金的比例。與淨利率長期背離，是財報品質的紅旗。"
     },
     {
-      "id": "ocf_to_net_income", "zh": "營運現金流對淨利比", "en": "OCF / Net Income", "group": "現金流品質",
+      "id": "ocf_to_net_income",
+      "zh": "營運現金流對淨利比",
+      "en": "OCF / Net Income",
+      "group": "現金流品質",
       "formula": "cfo / net_income",
       "desc": "盈餘品質的核心檢驗。健康公司長期應大於 1（因為折舊加回）。持續小於 1 代表帳上賺錢但現金沒進來——應收帳款或存貨在膨脹，這是最重要的一個舞弊偵測指標。"
     },
     {
-      "id": "capex_intensity", "zh": "資本支出強度", "en": "CapEx / Revenue", "group": "現金流品質",
+      "id": "capex_intensity",
+      "zh": "資本支出強度",
+      "en": "CapEx / Revenue",
+      "group": "現金流品質",
       "formula": "capex / revenue",
       "desc": "維持與擴張營運所需的再投資比例。持續攀升代表產業轉向資本密集，或公司正在押注新產能。"
     },
     {
-      "id": "sbc_to_revenue", "zh": "股份基礎給付佔營收比", "en": "SBC / Revenue", "group": "股東權益稀釋",
+      "id": "sbc_to_revenue",
+      "zh": "股份基礎給付佔營收比",
+      "en": "SBC / Revenue",
+      "group": "股東權益稀釋",
       "formula": "sbc / revenue",
       "desc": "以股權支付的薪酬規模。它不影響現金流但實質稀釋股東，科技業常高達營收 10–20%。用 non-GAAP 獲利評價時，若把 SBC 加回卻忽略稀釋，會系統性高估價值。"
     },
     {
-      "id": "dilution_rate", "zh": "股數稀釋率", "en": "Share Count Change YoY", "group": "股東權益稀釋",
+      "id": "dilution_rate",
+      "zh": "股數稀釋率",
+      "en": "Share Count Change YoY",
+      "group": "股東權益稀釋",
       "formula": "shares_diluted[t] / shares_diluted[t-4] - 1",
       "desc": "流通股數的年變動。正值代表稀釋，負值代表買回。與 SBC 並看，才知道買回是真回饋股東，還是只在抵銷員工配股。"
     },
     {
-      "id": "shareholder_return", "zh": "股東回饋總額", "en": "Total Shareholder Return", "group": "股東權益稀釋",
+      "id": "shareholder_return",
+      "zh": "股東回饋總額",
+      "en": "Total Shareholder Return",
+      "group": "股東權益稀釋",
       "formula": "buyback + dividends_paid",
       "desc": "以買回加股利形式回饋股東的現金總額。除以 FCF 即為回饋率，超過 100% 代表動用現金存量或舉債支應，不可持續。"
     },
     {
-      "id": "rnd_intensity", "zh": "研發費用率", "en": "R&D / Revenue", "group": "費用結構",
+      "id": "rnd_intensity",
+      "zh": "研發費用率",
+      "en": "R&D / Revenue",
+      "group": "費用結構",
       "formula": "rnd / revenue",
       "desc": "投入創新的強度。同業橫向比較才有意義，且須與毛利率趨勢對照——高研發若換不到毛利率擴張，代表投入未轉化為競爭優勢。"
     },
     {
-      "id": "sgna_intensity", "zh": "銷管費用率", "en": "SG&A / Revenue", "group": "費用結構",
+      "id": "sgna_intensity",
+      "zh": "銷管費用率",
+      "en": "SG&A / Revenue",
+      "group": "費用結構",
       "formula": "sgna / revenue",
       "desc": "營收擴張時此比率應下降，代表規模經濟。若隨營收同步上升，代表成長是靠燒錢買來的。"
     }

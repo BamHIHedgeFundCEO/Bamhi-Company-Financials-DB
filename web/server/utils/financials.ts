@@ -22,9 +22,11 @@ interface FactPoint {
   frame?: string
 }
 
+type FactTags = Record<string, { units: Record<string, FactPoint[]> }>
+
 interface CompanyFacts {
   entityName: string
-  facts: { 'us-gaap'?: Record<string, { units: Record<string, FactPoint[]> }> }
+  facts: { 'us-gaap'?: FactTags; 'ifrs-full'?: FactTags }
 }
 
 export interface MapConcept {
@@ -37,6 +39,7 @@ export interface MapConcept {
   note?: string
   derivable?: string
   tags: string[]
+  tags_ifrs?: string[]
 }
 
 export interface DerivedMetric {
@@ -79,6 +82,10 @@ export interface FinancialsResult {
   cik: string
   ticker: string
   mapVersion: string
+  /** quarterly（us-gaap，期別如 FY2026 Q2）或 annual（IFRS 外國發行人，期別如 FY2024） */
+  periodicity: 'quarterly' | 'annual'
+  /** 數值幣別。IFRS filer 優先取 20-F 的 USD 便利換算，否則為申報幣別（如 TWD） */
+  currency: string
   periods: string[] // 由舊到新
   lineItems: LineItem[]
   derived: DerivedMetric[]
@@ -197,23 +204,37 @@ export async function getFinancials(
   const facts = await secFetchJson<CompanyFacts>(
     `https://data.sec.gov/api/xbrl/companyfacts/CIK${ref.cik10}.json`,
   )
-  const gaap = facts.facts['us-gaap'] ?? {}
-  const fyeMonth = inferFyeMonth(gaap)
+  // 國內發行人 → us-gaap 季度模式；IFRS 外國發行人（TSM/ASML）→ ifrs-full 年度模式
+  // （20-F 只有年度 XBRL，6-K 不進 companyfacts）
+  const gaap = facts.facts['us-gaap']
+  const ifrs = facts.facts['ifrs-full']
+  const useIfrs = !gaap || (Object.keys(gaap).length < 20 && !!ifrs)
+  const ns: FactTags = (useIfrs ? ifrs : gaap) ?? {}
+  const fyeMonth = inferFyeMonth(ns)
+
+  // 幣別：優先 USD（20-F 常附便利換算），否則取 namespace 中最常見的幣別
+  const currency = useIfrs ? inferCurrency(ns) : 'USD'
+  const unitPrefs = (unit: string): string[] => {
+    if (unit === 'USD') return ['USD', currency]
+    if (unit === 'USD/shares') return ['USD/shares', `${currency}/shares`]
+    return [unit]
+  }
 
   const allPeriods = new Set<string>()
   const lineItems: LineItem[] = []
 
   for (const concept of map.concepts) {
     const flow = isFlow(concept)
-    const unitKey = unitKeyOf(concept.unit)
+    const tags = useIfrs ? (concept.tags_ifrs ?? []) : concept.tags
 
     // tags 依優先序逐期 fallback：高優先標籤已有的期間不被覆蓋，
     // 缺的期間由後續標籤補（公司中途換標籤時——如 NVDA 營收——單一標籤涵蓋不了全期間）
     let chosenTag: string | null = null
     const best = new Map<string, FactPoint & { _tag: string }>()
-    for (const tag of concept.tags) {
-      const points = gaap[tag]?.units?.[unitKey]
-      if (!points?.length) continue
+    for (const tag of tags) {
+      const units = ns[tag]?.units
+      const points = unitPrefs(concept.unit).map((u) => units?.[u]).find((p) => p?.length)
+      if (!points) continue
       chosenTag ??= tag
       for (const [key, p] of collect(points, flow, fyeMonth)) {
         if (!best.has(key)) best.set(key, { ...p, _tag: tag })
@@ -222,6 +243,12 @@ export async function getFinancials(
 
     const values: Record<string, CellValue> = {}
     for (let fy = fromFy; fy <= toFy; fy++) {
+      if (useIfrs) {
+        // 年度模式：流量取全年累計，存量取年度末快照（Q4 位置）
+        const p = best.get(flow ? `A:${fy}` : `Q:${fy}:4`)
+        if (p) values[`FY${fy}`] = toCell(p, p._tag)
+        continue
+      }
       for (const n of [1, 2, 3, 4] as const) {
         const p = best.get(`Q:${fy}:${n}`)
         if (p) values[periodKey(fy, n)] = toCell(p, p._tag)
@@ -255,14 +282,31 @@ export async function getFinancials(
     })
   }
 
-  const periods = [...allPeriods].sort() // FY2023 Q1 < FY2023 Q2 < ... 字典序即正確
+  const periods = [...allPeriods].sort() // FY2023 Q1 < FY2023 Q2 < ...（年度模式 FY2023 < FY2024）字典序即正確
   return {
     company: facts.entityName || ref.name,
     cik: ref.cik10,
     ticker: ref.ticker,
     mapVersion: map.version,
+    periodicity: useIfrs ? 'annual' : 'quarterly',
+    currency,
     periods,
     lineItems,
     derived: map.derived,
   }
+}
+
+/** IFRS namespace 內最常見的幣別 unit key（排除 shares/pure）。有 USD 便利換算就回 USD。 */
+function inferCurrency(ns: FactTags): string {
+  const count = new Map<string, number>()
+  for (const tag of Object.values(ns)) {
+    for (const u of Object.keys(tag.units)) {
+      if (/^[A-Z]{3}$/.test(u)) count.set(u, (count.get(u) ?? 0) + 1)
+    }
+  }
+  if (count.has('USD')) return 'USD'
+  let bestU = 'USD'
+  let bestN = 0
+  for (const [u, n] of count) if (n > bestN) { bestN = n; bestU = u }
+  return bestU
 }

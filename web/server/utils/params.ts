@@ -78,9 +78,10 @@ export function clampPeriods<T extends { periods: string[]; lineItems: { values:
   const lo = range.fromFy * 4 + range.fromQ
   const hi = range.toFy * 4 + range.toQ
   const inRange = (p: string) => {
-    const m = p.match(/^FY(\d{4}) Q([1-4])$/)
+    const m = p.match(/^FY(\d{4})(?: Q([1-4]))?$/)
     if (!m) return false
-    const idx = Number(m[1]) * 4 + Number(m[2])
+    // 年度模式（"FY2024"）視為 Q4 位置
+    const idx = Number(m[1]) * 4 + (m[2] ? Number(m[2]) : 4)
     return idx >= lo && idx <= hi
   }
   fin.periods = fin.periods.filter(inRange)

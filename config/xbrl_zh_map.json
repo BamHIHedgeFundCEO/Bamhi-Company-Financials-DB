@@ -1,5 +1,5 @@
 {
-  "version": "0.7",
+  "version": "0.8",
   "updated": "2026-08-15",
   "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
   "concepts": [
@@ -114,7 +114,9 @@
       "sign": "reported_positive",
       "tags": [
         "OperatingExpenses",
-        "CostsAndExpenses"
+        "CostsAndExpenses",
+        "OperatingCostsAndExpenses",
+        "BenefitsLossesAndExpenses"
       ],
       "tags_ifrs": [
         "OperatingExpenseExcludingCostOfSales",
@@ -448,7 +450,8 @@
       "sign": "natural",
       "tags": [
         "AccountsPayableCurrent",
-        "AccountsPayableAndAccruedLiabilitiesCurrent"
+        "AccountsPayableAndAccruedLiabilitiesCurrent",
+        "AccountsPayableTradeCurrent"
       ],
       "tags_ifrs": [
         "TradeAndOtherCurrentPayablesToTradeSuppliers",
@@ -465,7 +468,9 @@
       "note": "ASC 606 後多數改用 ContractWithCustomerLiability 系列",
       "tags": [
         "ContractWithCustomerLiabilityCurrent",
-        "DeferredRevenueCurrent"
+        "ContractWithCustomerLiability",
+        "DeferredRevenueCurrent",
+        "ContractWithCustomerLiabilityNoncurrent"
       ],
       "tags_ifrs": [
         "CurrentContractLiabilities",

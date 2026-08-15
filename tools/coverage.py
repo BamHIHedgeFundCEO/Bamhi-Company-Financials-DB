@@ -137,15 +137,30 @@ def analyse(ticker: str, xbrl_map: dict, suggest: bool):
         return {}
 
     is_ifrs = "us-gaap" not in facts or len(facts.get("us-gaap", {})) < 20
-    covered, missing = [], []
+
+    # 先算「有直接標籤」的科目
+    direct = {}
     for c in xbrl_map["concepts"]:
         tags = c.get("tags_ifrs", []) if is_ifrs else c["tags"]
-        hit = None
         for tag in tags:
             ok, end, val = tag_has_data(facts, tag, unit_prefs(c["unit"]))
             if ok:
-                hit = (tag, end, val)
+                direct[c["id"]] = (tag, end, val)
                 break
+
+    # 再算 pipeline 的兩層 fallback（coverage 要反映真實輸出，不是只看標籤）：
+    #   derive：抓不到標籤但可用其他科目推算（如 total_liabilities = total_assets − equity）
+    #   zero_if_absent：缺申報視為 0（如未配息、無庫藏股）——資產負債表有申報就會被 0 填
+    has_bs = "total_assets" in direct  # 有資產負債表才會零填
+    covered, missing = [], []
+    for c in xbrl_map["concepts"]:
+        hit = direct.get(c["id"])
+        if not hit and c.get("derive"):
+            deps = re.findall(r"[a-z_][a-z0-9_]+", c["derive"])
+            if all(dep in direct for dep in deps):
+                hit = ("推算：" + c["derive"], "", 0)
+        if not hit and c.get("zero_if_absent") and has_bs:
+            hit = ("缺申報視為 0", "", 0)
         (covered if hit else missing).append((c, hit))
 
     print(f"\n{'='*60}\n{ticker}  (CIK {cik}{'  · IFRS 外國發行人' if is_ifrs else ''})")

@@ -171,6 +171,20 @@ body{
 .btn small{display:block;font-family:var(--mono);font-size:10px;opacity:.66;
   font-weight:400;margin-top:2px;letter-spacing:.02em}
 
+/* 數據回報 */
+.reportlink{margin-top:12px;background:none;border:0;cursor:pointer;font-family:var(--mono);
+  font-size:11px;color:var(--ink-3);letter-spacing:.04em;padding:0}
+.reportlink:hover{color:var(--green)}
+.reportbox{margin-top:10px;border:1px solid var(--rule);background:var(--surface);padding:14px}
+.reportbox label{display:block;font-size:11.5px;color:var(--ink-2);margin-bottom:8px}
+.reportbox input,.reportbox textarea{display:block;width:100%;margin-top:3px;
+  font-family:var(--sans);font-size:12.5px;border:1px solid var(--rule);
+  background:var(--paper);padding:6px 8px;border-radius:0;color:var(--ink)}
+.reportbox input:focus,.reportbox textarea:focus{outline:0;border-color:var(--green)}
+.reportbox .btn{margin-top:4px}
+.reportok{font-size:12.5px;color:var(--green)}
+.reporterr{font-size:11.5px;color:var(--sig);margin-top:6px}
+
 /* 熱門標的（首頁側欄） */
 .hotcol{display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule)}
 .hotcol a{background:var(--surface);text-align:left;cursor:pointer;

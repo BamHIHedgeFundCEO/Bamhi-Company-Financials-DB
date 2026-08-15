@@ -171,6 +171,26 @@ function openAll() {
   selList.value.forEach((r, i) => setTimeout(() => window.open(r.filing.url, '_blank'), i * 300))
 }
 
+// 數據回報：使用者發現某科目數字有誤 → 開 GitHub Issue（對照表複利的來源）
+const reportOpen = ref(false)
+const reportForm = ref({ concept: '', period: '', note: '' })
+const reportState = ref<'idle' | 'sending' | 'done' | 'error'>('idle')
+async function submitReport() {
+  if (!reportForm.value.concept.trim()) return
+  reportState.value = 'sending'
+  try {
+    await $fetch('/api/report', {
+      method: 'POST',
+      body: { ticker: result.value?.ticker, ...reportForm.value },
+    })
+    reportState.value = 'done'
+    reportForm.value = { concept: '', period: '', note: '' }
+    setTimeout(() => { reportOpen.value = false; reportState.value = 'idle' }, 2000)
+  } catch {
+    reportState.value = 'error'
+  }
+}
+
 const zhName = computed(() => (result.value ? ZH[result.value.ticker] ?? '' : ''))
 const fyeText = computed(() => {
   const fye = result.value?.fiscalYearEnd
@@ -388,6 +408,29 @@ const edgeOf = (kk: string) => {
               <a class="btn" :href="excelUrl">下載 Excel<small>6 分頁 · 含圖表與公式</small></a>
               <button class="btn ghost" @click="downloadCsv">下載 CSV<small>三大報表各一檔</small></button>
               <button class="btn ghost" @click="openAll">開啟全部原始財報<small>直連 sec.gov</small></button>
+            </div>
+            <button class="reportlink" @click="reportOpen = !reportOpen">
+              數據有誤？一鍵回報 →
+            </button>
+            <div v-if="reportOpen" class="reportbox">
+              <template v-if="reportState === 'done'">
+                <p class="reportok">已收到回報，謝謝！我們會盡快修正對照表。</p>
+              </template>
+              <template v-else>
+                <label>科目（如 EPS、營收、庫藏股）
+                  <input v-model="reportForm.concept" placeholder="哪個科目數字怪" />
+                </label>
+                <label>期間（選填，如 2023 Q1）
+                  <input v-model="reportForm.period" placeholder="哪一季" />
+                </label>
+                <label>說明（選填）
+                  <textarea v-model="reportForm.note" rows="2" placeholder="正確值大概多少 / 怎麼怪" />
+                </label>
+                <button class="btn" :disabled="reportState === 'sending' || !reportForm.concept.trim()" @click="submitReport">
+                  {{ reportState === 'sending' ? '送出中…' : '送出回報' }}
+                </button>
+                <p v-if="reportState === 'error'" class="reporterr">送出失敗，請稍後再試。</p>
+              </template>
             </div>
           </template>
           <template v-else>

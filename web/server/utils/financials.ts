@@ -36,6 +36,8 @@ export interface MapConcept {
   sign: string
   note?: string
   derivable?: string
+  /** 抓不到直接標籤時，用其他科目推算：如 "total_assets - equity"、"revenue - cogs" */
+  derive?: string
   tags: string[]
   tags_ifrs?: string[]
 }
@@ -392,6 +394,33 @@ export async function getFinancials(
       sourceTag: chosenTag,
       values,
     })
+  }
+
+  // 推算 fallback：抓不到直接標籤的科目（如 AMZN 無「負債總計」標籤），
+  // 用其他科目算（total_liabilities = total_assets − equity）。只補缺的期，不覆蓋已有值。
+  const byId = new Map(lineItems.map((li) => [li.id, li]))
+  for (const concept of map.concepts) {
+    if (!concept.derive) continue
+    const li = byId.get(concept.id)
+    if (!li) continue
+    const m = concept.derive.match(/^(\w+)\s*([+-])\s*(\w+)$/)
+    if (!m) continue
+    const [, aId, op, bId] = m
+    const a = byId.get(aId)
+    const b = byId.get(bId)
+    if (!a || !b) continue
+    for (const p of allPeriods) {
+      if (li.values[p]?.value != null) continue
+      const av = a.values[p]?.value
+      const bv = b.values[p]?.value
+      if (av == null || bv == null) continue
+      li.values[p] = {
+        value: op === '-' ? av - bv : av + bv,
+        isEstimated: true, // 推算值（非直接申報）
+        sourceTag: `推算：${concept.derive}`,
+        endDate: a.values[p]?.endDate,
+      }
+    }
   }
 
   const periods = [...allPeriods].sort() // FY2023 Q1 < FY2023 Q2 < ...（年度模式 FY2023 < FY2024）字典序即正確

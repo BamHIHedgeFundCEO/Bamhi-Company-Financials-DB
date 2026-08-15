@@ -230,11 +230,21 @@ def build_workbook(payload: dict) -> bytes:
             else:
                 cell.value = f"={f}"
                 cell.number_format = fmt
-    # 關鍵指標圖表：① chart_spec 定義的重點比較圖 ② 每個 group 一張同組指標比較折線
-    #                ③ 每個指標各自一張獨立折線
+    # 關鍵指標圖表：① chart_spec 重點比較圖
+    #   ② 組內比較——但只把「同一種單位」的指標放同一張圖（比率/天數各自比較），
+    #      金額型指標（EBITDA、淨負債、FCF…）數量級差太多，混在一起會把比率壓成平線
+    #   ③ 每個指標各自一張獨立折線
+    fmt_of = {m["id"]: _metric_fmt(m["formula"], m["id"], th) for m in fin["derived"]}
+    nf = th["number_formats"]
+    bucket_name = {nf["ratio"]: "比率", nf["days"]: "週轉天數", nf["multiple"]: "倍數"}
     metric_specs = list(spec.get(METRICS_SHEET, []))
     for grp, ids in group_members.items():
-        metric_specs.append({"type": "line", "title": f"{grp}｜組內比較", "series": ids})
+        by_bucket: dict[str, list[str]] = {}
+        for mid in ids:
+            by_bucket.setdefault(fmt_of[mid], []).append(mid)
+        for fmt, mids in by_bucket.items():
+            if len(mids) >= 2 and fmt in bucket_name:  # 只有比率/天數/倍數才適合疊圖比較
+                metric_specs.append({"type": "line", "title": f"{grp}｜{bucket_name[fmt]}比較", "series": mids})
     for m in fin["derived"]:
         metric_specs.append({"type": "line", "title": f"{m['zh']} {m['en']}", "series": [m["id"]]})
     chart_jobs.append((ws, metric_specs, row + 3))

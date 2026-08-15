@@ -38,6 +38,8 @@ export interface MapConcept {
   derivable?: string
   /** 抓不到直接標籤時，用其他科目推算：如 "total_assets - equity"、"revenue - cogs" */
   derive?: string
+  /** 該科目「沒申報」通常代表 0（如當期無一年內到期債務）→ 缺口補 0，避免財務結構指標間歇 n/a */
+  zero_if_absent?: boolean
   tags: string[]
   tags_ifrs?: string[]
 }
@@ -396,14 +398,31 @@ export async function getFinancials(
     })
   }
 
+  const byId = new Map(lineItems.map((li) => [li.id, li]))
+
+  // zero_if_absent：該科目缺申報通常代表 0（如某季無一年內到期債務）。
+  // 只補「首末已知值之間」的內部缺口，不在頭尾捏造，避免財務結構指標間歇 n/a。
+  for (const concept of map.concepts) {
+    if (!concept.zero_if_absent) continue
+    const li = byId.get(concept.id)
+    if (!li) continue
+    const known = [...allPeriods].filter((p) => li.values[p]?.value != null).sort()
+    if (known.length < 2) continue
+    const lo = known[0]
+    const hi = known[known.length - 1]
+    for (const p of allPeriods) {
+      if (li.values[p]?.value != null || p < lo || p > hi) continue
+      li.values[p] = { value: 0, isEstimated: true, sourceTag: '缺申報視為 0' }
+    }
+  }
+
   // 推算 fallback：抓不到直接標籤的科目（如 AMZN 無「負債總計」標籤），
   // 用其他科目算（total_liabilities = total_assets − equity）。只補缺的期，不覆蓋已有值。
-  const byId = new Map(lineItems.map((li) => [li.id, li]))
   for (const concept of map.concepts) {
     if (!concept.derive) continue
     const li = byId.get(concept.id)
     if (!li) continue
-    const m = concept.derive.match(/^(\w+)\s*([+-])\s*(\w+)$/)
+    const m = concept.derive.match(/^(\w+)\s*([+\-*/])\s*(\w+)$/)
     if (!m) continue
     const [, aId, op, bId] = m
     const a = byId.get(aId)
@@ -414,8 +433,11 @@ export async function getFinancials(
       const av = a.values[p]?.value
       const bv = b.values[p]?.value
       if (av == null || bv == null) continue
+      if ((op === '/' || op === '*') && bv === 0) continue
+      const value =
+        op === '-' ? av - bv : op === '+' ? av + bv : op === '*' ? av * bv : av / bv
       li.values[p] = {
-        value: op === '-' ? av - bv : av + bv,
+        value,
         isEstimated: true, // 推算值（非直接申報）
         sourceTag: `推算：${concept.derive}`,
         endDate: a.values[p]?.endDate,

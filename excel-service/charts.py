@@ -69,6 +69,7 @@ def _make_series(ws, row: int, n_quarters: int, color: str, is_line: bool) -> Se
     else:
         gp.solidFill = c
         gp.line = LineProperties(noFill=True)
+        s.invertIfNegative = False  # 負值長條沿用同色，不要翻成白色
     s.graphicalProperties = gp
     return s
 
@@ -86,13 +87,16 @@ def _color_bars_by_year(series: Series, labels: list[str], palette: list[str]):
         if fy not in fy_order:
             fy_order.append(fy)
     color_of = {fy: _hex(palette[i % len(palette)]) for i, fy in enumerate(fy_order)}
+    series.invertIfNegative = False  # 負值長條也要上色（否則翻白）
     pts = []
     for i, lb in enumerate(labels):
         m = re.match(r"FY(\d{4})", lb)
         fy = m.group(1) if m else lb
         gp = GraphicalProperties(solidFill=color_of[fy])
         gp.line = LineProperties(noFill=True)
-        pts.append(DataPoint(idx=i, spPr=gp))
+        dp = DataPoint(idx=i, spPr=gp)
+        dp.invertIfNegative = False
+        pts.append(dp)
     series.data_points = pts
 
 
@@ -139,6 +143,8 @@ def build_chart(spec: dict, cats_ws, locate, n_quarters: int):
         chart.gapWidth = 60
         chart.series = series_for(spec.get("bars", []), is_line=False)
         chart.set_categories(cats)
+        if len(chart.series) == 1:
+            _color_bars_by_year(chart.series[0], _period_labels(cats_ws, n_quarters), palette)
         line = LineChart()
         line.series = series_for(spec.get("line", []), is_line=True)
         line.set_categories(cats)
@@ -155,11 +161,11 @@ def build_chart(spec: dict, cats_ws, locate, n_quarters: int):
 
     if not chart.series:
         return None
-    chart.title = spec["title"]
+    # 金額圖：單位放標題（不放 Y 軸標題——旋轉軸標題會擋住刻度數字）
+    chart.title = spec["title"] + ("（百萬美元）" if is_money else "")
     chart.width = th["chart"]["width_cols"] * 1.85   # 約 22cm
     chart.height = th["chart"]["height_rows"] * 0.5  # 約 9cm
     if is_money:
-        chart.y_axis.title = th["chart"].get("money_axis_unit")
         chart.y_axis.number_format = th["number_formats"]["usd_millions_axis"]
     _style_chart(chart, th)
     return chart

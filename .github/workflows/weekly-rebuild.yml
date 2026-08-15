@@ -1,0 +1,33 @@
+# 每週重新生成靜態頁（財報清單 build 時寫死，需定期刷新）
+name: weekly-static-rebuild
+
+on:
+  schedule:
+    - cron: '0 3 * * 1' # 每週一 03:00 UTC
+  workflow_dispatch:
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install
+        working-directory: web
+        run: npm ci
+      - name: Refresh top-500 ticker list
+        working-directory: web
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: npx tsx scripts/generate-static.ts
+      - name: Generate static site
+        working-directory: web
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: npm run generate
+      # 部署交給 Vercel（Deploy Hook）：
+      - name: Trigger Vercel deploy
+        if: ${{ secrets.VERCEL_DEPLOY_HOOK_URL != '' }}
+        run: curl -fsS -X POST "${{ secrets.VERCEL_DEPLOY_HOOK_URL }}"

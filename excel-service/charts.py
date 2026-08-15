@@ -31,8 +31,9 @@ def _dash_line(color: str):
 
 def _style_chart(chart, th: dict):
     ch = th["chart"]
-    chart.legend.position = ch.get("legend_position", "b")
-    chart.legend.overlay = False
+    if chart.legend is not None:
+        chart.legend.position = ch.get("legend_position", "b")
+        chart.legend.overlay = False
     chart.y_axis.majorGridlines = ChartLines()
     chart.y_axis.majorGridlines.graphicalProperties = _dash_line(ch["gridline_color"])
     chart.x_axis.majorGridlines = None
@@ -161,26 +162,51 @@ def build_chart(spec: dict, cats_ws, locate, n_quarters: int):
 
     if not chart.series:
         return None
-    # 金額圖：單位放標題（不放 Y 軸標題——旋轉軸標題會擋住刻度數字）
-    chart.title = spec["title"] + ("（百萬美元）" if is_money else "")
-    chart.width = th["chart"]["width_cols"] * 1.85   # 約 22cm
-    chart.height = th["chart"]["height_rows"] * 0.5  # 約 9cm
-    if is_money:
-        chart.y_axis.number_format = th["number_formats"]["usd_millions_axis"]
+
+    # Y 軸單位：spec 的 y_format 優先（percent/days/multiple/money）；否則沿用 is_money 判斷
+    MONEY = th["number_formats"]["usd_millions_axis"]
+    yf = spec.get("y_format")
+    fmt_map = {
+        "percent": "0%",
+        "days": '0"天"',
+        "multiple": '0.0"x"',
+        "money": MONEY,
+    }
+    if yf in fmt_map:
+        y_fmt = fmt_map[yf]
+    elif is_money:
+        y_fmt = MONEY
+    else:
+        y_fmt = None
+    is_money_axis = y_fmt == MONEY
+
+    chart.title = spec["title"] + ("（百萬美元）" if is_money_axis else "")
+    chart.width = th["chart"]["width_cols"] * 2.0    # 放大：約 24cm
+    chart.height = th["chart"]["height_rows"] * 0.7  # 約 12.6cm
+    if y_fmt:
+        chart.y_axis.number_format = y_fmt
+        chart.y_axis.numFmt = y_fmt
+    # 單一系列的折線/長條 → 圖例無意義，移除
+    if len(chart.series) <= 1:
+        chart.legend = None
     _style_chart(chart, th)
     return chart
 
 
-def place_charts(ws, specs: list[dict], locate, n_quarters: int, anchor_row: int) -> int:
-    """資料區下方直向排列，每張圖獨立一段，留足間距不重疊。回傳下一個可用列。"""
+def place_charts(ws, specs: list[dict], locate, n_quarters: int, anchor_row: int,
+                 index: list | None = None) -> int:
+    """資料區下方直向排列，每張圖獨立一段，留足間距不重疊。回傳下一個可用列。
+    index（若給）收集 (工作表名, 圖表標題, 錨定列) 供「說明」分頁做圖表目錄超連結。"""
     th = theme()
-    # 圖高（cm）→ 佔用列數（預設列高約 0.53cm），再加 4 列間隔
-    step = int(th["chart"]["height_rows"] * 0.5 / 0.53) + 5
+    # 圖高（cm）→ 佔用列數（放大後約 11cm；預設列高約 0.53cm），再加 5 列間隔
+    step = int(th["chart"]["height_rows"] * 0.7 / 0.53) + 5
     r = anchor_row
     for spec in specs:
         chart = build_chart(spec, ws, locate, n_quarters)
         if chart is None:
             continue
         ws.add_chart(chart, f"{get_column_letter(FIRST_DATA_COL)}{r}")
+        if index is not None:
+            index.append((ws.title, spec["title"], r))
         r += step
     return r

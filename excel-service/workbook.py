@@ -184,10 +184,12 @@ def build_workbook(payload: dict) -> bytes:
                                      v.get("filed"), v.get("endDate"), li["unit"],
                                      "Q4推算＝全年−前三季" if v.get("isEstimated") else "財報直接申報值"))
             if any(vv.get("value") is not None for vv in li["values"].values()):
+                yf = {"USD": "money", "shares": None, "USD/shares": None}.get(li["unit"], "money")
                 auto_specs.append({
                     "type": "line" if li["unit"] == "USD/shares" else "bar",
                     "title": f"{li['zh']} {li['en']}",
                     "series": [li["id"]],
+                    "y_format": yf,
                 })
         chart_jobs.append((ws, spec.get(sheet_name, []) + auto_specs, row + 3))
 
@@ -236,23 +238,52 @@ def build_workbook(payload: dict) -> bytes:
     #   ③ 每個指標各自一張獨立折線
     fmt_of = {m["id"]: _metric_fmt(m["formula"], m["id"], th) for m in fin["derived"]}
     nf = th["number_formats"]
-    bucket_name = {nf["ratio"]: "比率", nf["days"]: "週轉天數", nf["multiple"]: "倍數"}
+    # 每種數字格式 → 顯示名 + 圖表 Y 軸單位
+    bucket = {
+        nf["ratio"]: ("比率", "percent"),
+        nf["days"]: ("週轉天數", "days"),
+        nf["multiple"]: ("倍數", "multiple"),
+        nf["usd"]: ("金額", "money"),
+    }
+    yfmt_of = {mid: bucket.get(fmt, ("", None))[1] for mid, fmt in fmt_of.items()}
     metric_specs = list(spec.get(METRICS_SHEET, []))
     for grp, ids in group_members.items():
         by_bucket: dict[str, list[str]] = {}
         for mid in ids:
             by_bucket.setdefault(fmt_of[mid], []).append(mid)
         for fmt, mids in by_bucket.items():
-            if len(mids) >= 2 and fmt in bucket_name:  # 只有比率/天數/倍數才適合疊圖比較
-                metric_specs.append({"type": "line", "title": f"{grp}｜{bucket_name[fmt]}比較", "series": mids})
+            if len(mids) >= 2 and fmt in bucket and bucket[fmt][1] != "money":
+                name, yf = bucket[fmt]
+                metric_specs.append(
+                    {"type": "line", "title": f"{grp}｜{name}比較", "series": mids, "y_format": yf})
     for m in fin["derived"]:
-        metric_specs.append({"type": "line", "title": f"{m['zh']} {m['en']}", "series": [m["id"]]})
+        metric_specs.append(
+            {"type": "line", "title": f"{m['zh']} {m['en']}", "series": [m["id"]], "y_format": yfmt_of[m["id"]]})
     chart_jobs.append((ws, metric_specs, row + 3))
 
-    # 指標列已定位，統一放圖（圖表可跨分頁引用系列）
+    # 指標列已定位，統一放圖（圖表可跨分頁引用系列）；收集圖表位置做「說明」目錄
     locate = locations.get
+    chart_index: list = []
     for job_ws, job_specs, anchor in chart_jobs:
-        place_charts(job_ws, job_specs, locate, n, anchor_row=anchor)
+        place_charts(job_ws, job_specs, locate, n, anchor_row=anchor, index=chart_index)
+
+    # 「說明」分頁頂端加「圖表快速跳轉」目錄：點連結直接跳到該圖，不用一路往下滑
+    from openpyxl.utils import get_column_letter as _gcl
+    jump_col = 6  # F 欄，避開左側 meta/指標定義
+    info.cell(row=1, column=jump_col, value="圖表快速跳轉").font = Font(bold=True, size=12)
+    info.column_dimensions[_gcl(jump_col)].width = 34
+    ji = 2
+    cur_sheet = None
+    for sheet_name, title, r in chart_index:
+        if sheet_name != cur_sheet:
+            cur_sheet = sheet_name
+            info.cell(row=ji, column=jump_col, value=f"▍{sheet_name}").font = Font(
+                bold=True, color=th["palette"]["accent"].lstrip("#"))
+            ji += 1
+        link = info.cell(row=ji, column=jump_col, value=f"　{title}")
+        link.hyperlink = f"#'{sheet_name}'!{_gcl(FIRST_DATA_COL)}{r}"
+        link.font = Font(color="0E6B5A", underline="single", size=10)
+        ji += 1
 
     # ── 6. 原始資料 ─────────────────────────────────────────
     ws = wb.create_sheet("原始資料")

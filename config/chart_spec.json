@@ -53,22 +53,26 @@
       {
         "type": "line",
         "title": "營收成長動能",
-        "series": ["revenue_yoy", "revenue_qoq"]
+        "series": ["revenue_yoy", "revenue_qoq"],
+        "y_format": "percent"
       },
       {
         "type": "line",
         "title": "報酬率",
-        "series": ["roe", "roa", "roic"]
+        "series": ["roe", "roa", "roic"],
+        "y_format": "percent"
       },
       {
         "type": "bar",
         "title": "現金轉換循環",
-        "series": ["dso", "dio", "dpo", "ccc"]
+        "series": ["dso", "dio", "dpo", "ccc"],
+        "y_format": "days"
       },
       {
         "type": "line",
         "title": "盈餘品質",
-        "series": ["ocf_to_net_income"]
+        "series": ["ocf_to_net_income"],
+        "y_format": "multiple"
       }
     ]
   }

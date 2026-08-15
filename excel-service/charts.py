@@ -33,6 +33,12 @@ def _style_chart(chart, th: dict):
     chart.y_axis.majorGridlines = ChartLines()
     chart.y_axis.majorGridlines.graphicalProperties = _dash_line(ch["gridline_color"])
     chart.x_axis.majorGridlines = None
+    # 座標軸刻度數字必須可見（openpyxl 預設 delete/tickLblPos 會讓 Excel 隱藏刻度）
+    for ax in (chart.x_axis, chart.y_axis):
+        ax.delete = False
+        ax.tickLblPos = "nextTo"
+        ax.majorTickMark = "out"
+    chart.x_axis.tickLblPos = "low"  # 有負值時 X 軸標籤仍留在下方
     # 移除繪圖區/整體粗框
     chart.graphical_properties = GraphicalProperties()
     chart.graphical_properties.line = LineProperties(noFill=True)
@@ -111,6 +117,8 @@ def build_chart(spec: dict, cats_ws, locate, n_quarters: int):
             line.y_axis.axId = 200
             line.y_axis.crosses = "max"
             line.y_axis.majorGridlines = None
+            line.y_axis.delete = False
+            line.y_axis.tickLblPos = "nextTo"
         chart += line
         is_money = True
     else:
@@ -128,8 +136,8 @@ def build_chart(spec: dict, cats_ws, locate, n_quarters: int):
     return chart
 
 
-def place_charts(ws, specs: list[dict], locate, n_quarters: int, anchor_row: int):
-    """資料區下方直向排列，每張圖獨立一段，留足間距不重疊。locate(id) → (ws, row)。"""
+def place_charts(ws, specs: list[dict], locate, n_quarters: int, anchor_row: int) -> int:
+    """資料區下方直向排列，每張圖獨立一段，留足間距不重疊。回傳下一個可用列。"""
     th = theme()
     # 圖高（cm）→ 佔用列數（預設列高約 0.53cm），再加 4 列間隔
     step = int(th["chart"]["height_rows"] * 0.5 / 0.53) + 5
@@ -140,3 +148,4 @@ def place_charts(ws, specs: list[dict], locate, n_quarters: int, anchor_row: int
             continue
         ws.add_chart(chart, f"{get_column_letter(FIRST_DATA_COL)}{r}")
         r += step
+    return r

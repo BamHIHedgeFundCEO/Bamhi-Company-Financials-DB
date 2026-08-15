@@ -95,7 +95,7 @@ def build_workbook(payload: dict) -> bytes:
     info.sheet_view.showGridLines = False
     info.sheet_properties.tabColor = th["palette"]["header_font"].lstrip("#")
     info.column_dimensions["A"].width = 22
-    info.column_dimensions["B"].width = 30
+    info.column_dimensions["B"].width = 64
     info.column_dimensions["C"].width = 46
     info.column_dimensions["D"].width = 90
     # 標題列
@@ -113,8 +113,15 @@ def build_workbook(payload: dict) -> bytes:
         ("資料來源", "SEC EDGAR companyfacts XBRL API"),
         ("生成時間 (UTC)", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")),
         ("對照表版本", fin["mapVersion"]),
-        ("Q4 推算", "—（年度資料無推算）" if annual
-         else "Q4 單季 = FY − Q1 − Q2 − Q3，該儲存格以淺橘底標示"),
+        ("「推算」是什麼", "—（年度資料無推算）" if annual
+         else "美股公司一年只申報 3 份 10-Q + 1 份 10-K：第四季沒有單獨的季報，"
+              "SEC 上不存在「Q4 單季」這個數字。本檔以 全年 − Q1 − Q2 − Q3 計算出 Q4，"
+              "數學上準確、非估計；橘底僅提醒「此數字不是直接抄自某份財報」。"
+              "現金流量表的 Q2/Q3 亦由累計值差分還原（10-Q 只申報年初至今累計）。"),
+        ("「n/a」是什麼", "該公司該期間沒有申報此科目——通常是公司本來就沒有這個項目"
+         "（如未配息、未買回庫藏股、費用未拆分），不代表數值為零。可對照「原始資料」分頁查證。"),
+        ("圖表", "各報表分頁：前段為 chart_spec.json 定義的組合圖，後段為每一科目各一張圖。"
+         "要自訂組合圖，修改 repo 的 config/chart_spec.json 即可，不需改程式。"),
         ("免責聲明", DISCLAIMER),
     ]
     for i, (k, v) in enumerate(meta_rows, start=4):
@@ -123,6 +130,7 @@ def build_workbook(payload: dict) -> bytes:
         kc.border = ROW_BORDER
         vc = info.cell(row=i, column=2, value=v)
         vc.border = ROW_BORDER
+        vc.alignment = Alignment(wrap_text=True, vertical="top")
     r = len(meta_rows) + 5
     info.cell(row=r, column=1, value="指標定義總表").font = Font(bold=True, size=12)
     r += 1
@@ -148,6 +156,7 @@ def build_workbook(payload: dict) -> bytes:
     for stmt, sheet_name in STATEMENT_SHEETS.items():
         ws = wb.create_sheet(sheet_name)
         _init_sheet(ws, periods, th, tab_color=tab_colors[stmt])
+        auto_specs = []  # 每個有資料的科目各一張圖（在 chart_spec 的組合圖之後）
         row = 1
         for li in fin["lineItems"]:
             if li["statement"] != stmt:
@@ -173,8 +182,14 @@ def build_workbook(payload: dict) -> bytes:
                     raw_rows.append((li["zh"], li["en"], p, v["value"],
                                      v.get("sourceTag"), v.get("accessionOrForm"),
                                      v.get("filed"), v.get("endDate"), li["unit"],
-                                     "推算" if v.get("isEstimated") else ""))
-        chart_jobs.append((ws, spec.get(sheet_name, []), row + 3))
+                                     "Q4推算＝全年−前三季" if v.get("isEstimated") else "財報直接申報值"))
+            if any(vv.get("value") is not None for vv in li["values"].values()):
+                auto_specs.append({
+                    "type": "line" if li["unit"] == "USD/shares" else "bar",
+                    "title": f"{li['zh']} {li['en']}",
+                    "series": [li["id"]],
+                })
+        chart_jobs.append((ws, spec.get(sheet_name, []) + auto_specs, row + 3))
 
     # ── 5. 關鍵指標（全公式）────────────────────────────────
     ws = wb.create_sheet(METRICS_SHEET)

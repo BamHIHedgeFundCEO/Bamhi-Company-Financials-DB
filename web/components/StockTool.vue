@@ -68,8 +68,9 @@ async function search() {
   result.value = null
   const thisYear = new Date().getFullYear()
   try {
+    // 40 季上限：FY(今年-8) Q1 ～ FY(今年+1) Q4 = 10 個會計年度
     const r = await $fetch<FilingsResult>(
-      `/api/filings?ticker=${encodeURIComponent(t)}&from=${thisYear - 4}Q1&to=${thisYear + 1}Q4`,
+      `/api/filings?ticker=${encodeURIComponent(t)}&from=${thisYear - 8}Q1&to=${thisYear + 1}Q4`,
     )
     result.value = r
     if (r.isForeignIssuer) {

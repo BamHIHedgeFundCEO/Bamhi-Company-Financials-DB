@@ -1,7 +1,7 @@
-import { defineEventHandler, getQuery, createError, sendRedirect } from 'h3'
+import { defineEventHandler, getQuery, createError, sendRedirect, setHeader } from 'h3'
 import { resolveTicker } from '../../utils/cik'
 import { getFinancials, loadMap } from '../../utils/financials'
-import { parseTickers, parseRange } from '../../utils/params'
+import { parseTickers, parseRange, clampPeriods } from '../../utils/params'
 
 /**
  * GET /api/financials/excel?ticker=AAPL&from=2021Q1&to=2026Q2
@@ -43,7 +43,7 @@ export default defineEventHandler(async (event) => {
   }
 
   // 未命中 → 轉呼叫 Cloud Run：資料在此準備好，excel-service 不碰 SEC
-  const fin = await getFinancials(ref, range.fromFy, range.toFy)
+  const fin = clampPeriods(await getFinancials(ref, range.fromFy, range.toFy), range)
   const res = await fetch(`${serviceUrl}/generate`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -56,6 +56,13 @@ export default defineEventHandler(async (event) => {
       message: `Excel 生成失敗（${res.status}）`,
     })
   }
-  const { url } = (await res.json()) as { url: string }
-  return sendRedirect(event, url, 302)
+  const ct = res.headers.get('content-type') ?? ''
+  if (ct.includes('json')) {
+    const { url } = (await res.json()) as { url: string }
+    return sendRedirect(event, url, 302)
+  }
+  // R2 未設定（本地開發）：excel-service 直接串流 .xlsx，原樣轉傳
+  setHeader(event, 'Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+  setHeader(event, 'Content-Disposition', `attachment; filename="${cacheKey}"`)
+  return new Uint8Array(await res.arrayBuffer())
 })

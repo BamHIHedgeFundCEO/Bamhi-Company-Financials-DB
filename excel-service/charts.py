@@ -3,7 +3,8 @@
 統一樣式（不用 openpyxl 預設）：固定色盤、淺灰虛線橫格線、圖例置下、
 雙軸圖長條走主軸（金額）、折線走次軸（比率）。
 """
-from openpyxl.chart import BarChart, LineChart, Reference, Series
+from openpyxl.chart import BarChart, LineChart, Reference
+from openpyxl.chart.series import Series
 from openpyxl.chart.axis import ChartLines
 from openpyxl.drawing.line import LineProperties
 from openpyxl.utils import get_column_letter
@@ -48,7 +49,7 @@ def _color_series(series_list, th: dict):
 
 
 def _series_ref(ws, row: int, n_quarters: int) -> Reference:
-    # 含 B 欄（英文科目名）作為系列名稱
+    # 含 B 欄（英文科目名）作為系列名稱；可跨分頁引用（如損益表圖引用關鍵指標的毛利率列）
     return Reference(ws, min_col=2, max_col=FIRST_DATA_COL - 1 + n_quarters, min_row=row, max_row=row)
 
 
@@ -56,16 +57,21 @@ def _cats_ref(ws, n_quarters: int) -> Reference:
     return Reference(ws, min_col=FIRST_DATA_COL, max_col=FIRST_DATA_COL - 1 + n_quarters, min_row=1, max_row=1)
 
 
-def build_chart(spec: dict, ws, row_of: dict[str, int], n_quarters: int):
-    """spec: chart_spec.json 單一圖表物件。row_of: concept/metric id → 該分頁列號。回 chart 或 None。"""
+def build_chart(spec: dict, cats_ws, locate, n_quarters: int):
+    """spec: chart_spec.json 單一圖表物件。locate(id) → (ws, row) 或 None（全活頁簿定位）。"""
     th = theme()
 
-    def rows(ids):
-        return [row_of[i] for i in ids if i in row_of]
+    def refs(ids):
+        out = []
+        for i in ids:
+            loc = locate(i)
+            if loc:
+                out.append(_series_ref(loc[0], loc[1], n_quarters))
+        return out
 
     kind = spec["type"]
     title = spec["title"]
-    cats = _cats_ref(ws, n_quarters)
+    cats = _cats_ref(cats_ws, n_quarters)
 
     if kind in ("bar", "stacked_bar"):
         chart = BarChart()
@@ -73,24 +79,24 @@ def build_chart(spec: dict, ws, row_of: dict[str, int], n_quarters: int):
         if kind == "stacked_bar":
             chart.grouping = "stacked"
             chart.overlap = 100
-        for r in rows(spec.get("series", [])):
-            chart.add_data(_series_ref(ws, r, n_quarters), titles_from_data=True)
+        for ref in refs(spec.get("series", [])):
+            chart.add_data(ref, titles_from_data=True)
         chart.set_categories(cats)
     elif kind == "line":
         chart = LineChart()
-        for r in rows(spec.get("series", [])):
-            chart.add_data(_series_ref(ws, r, n_quarters), titles_from_data=True)
+        for ref in refs(spec.get("series", [])):
+            chart.add_data(ref, titles_from_data=True)
         chart.set_categories(cats)
     elif kind == "bar+line":
         # 長條主軸（金額）+ 折線次軸（比率）
         chart = BarChart()
         chart.type = "col"
-        for r in rows(spec.get("bars", [])):
-            chart.add_data(_series_ref(ws, r, n_quarters), titles_from_data=True)
+        for ref in refs(spec.get("bars", [])):
+            chart.add_data(ref, titles_from_data=True)
         chart.set_categories(cats)
         line = LineChart()
-        for r in rows(spec.get("line", [])):
-            line.add_data(_series_ref(ws, r, n_quarters), titles_from_data=True)
+        for ref in refs(spec.get("line", [])):
+            line.add_data(ref, titles_from_data=True)
         line.set_categories(cats)
         if spec.get("secondary_axis"):
             line.y_axis.axId = 200
@@ -110,11 +116,11 @@ def build_chart(spec: dict, ws, row_of: dict[str, int], n_quarters: int):
     return chart
 
 
-def place_charts(ws, specs: list[dict], row_of: dict[str, int], n_quarters: int, anchor_row: int):
-    """統一放在資料區下方固定位置，直向排列。"""
+def place_charts(ws, specs: list[dict], locate, n_quarters: int, anchor_row: int):
+    """統一放在資料區下方固定位置，直向排列。locate(id) → (ws, row)。"""
     r = anchor_row
     for spec in specs:
-        chart = build_chart(spec, ws, row_of, n_quarters)
+        chart = build_chart(spec, ws, locate, n_quarters)
         if chart is None:
             continue
         ws.add_chart(chart, f"{get_column_letter(FIRST_DATA_COL)}{r}")

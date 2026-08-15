@@ -69,3 +69,23 @@ export function parseRange(query: Record<string, unknown>): QuarterRange {
   const toDate = `${toFy + 1}-12-31`
   return { fromFy, fromQ, toFy, toQ, fromDate, toDate, nQuarters: n }
 }
+
+/** 把 financials 結果裁到 range 的起訖「季度」（getFinancials 只吃整年）。 */
+export function clampPeriods<T extends { periods: string[]; lineItems: { values: Record<string, unknown> }[] }>(
+  fin: T,
+  range: QuarterRange,
+): T {
+  const lo = range.fromFy * 4 + range.fromQ
+  const hi = range.toFy * 4 + range.toQ
+  const inRange = (p: string) => {
+    const m = p.match(/^FY(\d{4}) Q([1-4])$/)
+    if (!m) return false
+    const idx = Number(m[1]) * 4 + Number(m[2])
+    return idx >= lo && idx <= hi
+  }
+  fin.periods = fin.periods.filter(inRange)
+  for (const li of fin.lineItems) {
+    li.values = Object.fromEntries(Object.entries(li.values).filter(([k]) => inRange(k)))
+  }
+  return fin
+}

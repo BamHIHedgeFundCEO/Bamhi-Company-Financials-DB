@@ -114,19 +114,20 @@ def build_workbook(payload: dict) -> bytes:
 
     # ── 2–4. 三大報表 ───────────────────────────────────────
     resolver = RefResolver()
-    row_of_by_sheet: dict[str, dict[str, int]] = {}
+    # 全活頁簿 id → (worksheet, row)：圖表可跨分頁引用（如損益表圖的毛利率折線在關鍵指標分頁）
+    locations: dict[str, tuple] = {}
+    chart_jobs: list[tuple] = []  # (ws, specs, anchor_row) — 指標列建立後才放圖
     raw_rows: list[tuple] = []  # 原始資料分頁
 
     for stmt, sheet_name in STATEMENT_SHEETS.items():
         ws = wb.create_sheet(sheet_name)
         _init_sheet(ws, periods, th)
-        row_of: dict[str, int] = {}
         row = 1
         for li in fin["lineItems"]:
             if li["statement"] != stmt:
                 continue
             row += 1
-            row_of[li["id"]] = row
+            locations[li["id"]] = (ws, row)
             resolver.add(li["id"], sheet_name, row)
             ws.cell(row=row, column=1, value=li["zh"])
             ws.cell(row=row, column=2, value=li["en"])
@@ -144,14 +145,12 @@ def build_workbook(payload: dict) -> bytes:
                                      v.get("sourceTag"), v.get("accessionOrForm"),
                                      v.get("filed"), v.get("endDate"), li["unit"],
                                      "推算" if v.get("isEstimated") else ""))
-        row_of_by_sheet[sheet_name] = row_of
-        place_charts(ws, spec.get(sheet_name, []), row_of, n, anchor_row=row + 3)
+        chart_jobs.append((ws, spec.get(sheet_name, []), row + 3))
 
     # ── 5. 關鍵指標（全公式）────────────────────────────────
     ws = wb.create_sheet(METRICS_SHEET)
     _init_sheet(ws, periods, th)
     row = 1
-    metric_rows: dict[str, int] = {}
     current_group = None
     for m in fin["derived"]:
         if m["group"] != current_group:
@@ -160,7 +159,7 @@ def build_workbook(payload: dict) -> bytes:
             gc = ws.cell(row=row, column=1, value=f"▍{current_group}")
             gc.font = Font(bold=True)
         row += 1
-        metric_rows[m["id"]] = row
+        locations[m["id"]] = (ws, row)
         resolver.add(m["id"], METRICS_SHEET, row)
         name_cell = ws.cell(row=row, column=1, value=m["zh"])
         ws.cell(row=row, column=2, value=m["en"])
@@ -176,7 +175,12 @@ def build_workbook(payload: dict) -> bytes:
             else:
                 cell.value = f"={f}"
                 cell.number_format = fmt
-    place_charts(ws, spec.get(METRICS_SHEET, []), metric_rows, n, anchor_row=row + 3)
+    chart_jobs.append((ws, spec.get(METRICS_SHEET, []), row + 3))
+
+    # 指標列已定位，統一放圖（圖表可跨分頁引用系列）
+    locate = locations.get
+    for job_ws, job_specs, anchor in chart_jobs:
+        place_charts(job_ws, job_specs, locate, n, anchor_row=anchor)
 
     # ── 6. 原始資料 ─────────────────────────────────────────
     ws = wb.create_sheet("原始資料")

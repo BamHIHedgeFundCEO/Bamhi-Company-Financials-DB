@@ -1,7 +1,7 @@
 import { defineEventHandler, getQuery, setHeader, createError } from 'h3'
 import { resolveTicker } from '../../utils/cik'
 import { getFinancials } from '../../utils/financials'
-import { parseTickers, parseRange } from '../../utils/params'
+import { parseTickers, parseRange, clampPeriods } from '../../utils/params'
 
 /**
  * GET /api/financials/csv?ticker=AAPL&from=2021Q1&to=2026Q2&statement=IS
@@ -21,7 +21,7 @@ export default defineEventHandler(async (event) => {
   if (!ref) {
     throw createError({ statusCode: 404, statusMessage: 'Not Found', message: `找不到「${ticker}」` })
   }
-  const fin = await getFinancials(ref, range.fromFy, range.toFy)
+  const fin = clampPeriods(await getFinancials(ref, range.fromFy, range.toFy), range)
 
   const esc = (s: string) => (/[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s)
   const header = ['科目', 'Line Item', ...fin.periods].map(esc).join(',')

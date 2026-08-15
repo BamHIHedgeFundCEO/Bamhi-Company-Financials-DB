@@ -27,7 +27,17 @@ export default defineEventHandler(async (event) => {
         message: `找不到「${t}」。請確認 ticker 拼寫；已下市公司與多數 ETF 不在 SEC 申報名單內。`,
       })
     }
-    results.push(await getFilings(ref, range.fromDate, range.toDate, forms))
+    const r = await getFilings(ref, range.fromDate, range.toDate, forms)
+    // 以會計季別精準過濾（日期界線因錯開的會計年度刻意放寬）；年報視為 Q4
+    const lo = range.fromFy * 4 + range.fromQ
+    const hi = range.toFy * 4 + range.toQ
+    r.filings = r.filings.filter((f) => {
+      const m = f.fiscalPeriod.match(/^FY(\d{4})(?: Q([1-4]))?$/)
+      if (!m) return true // 無法解析（如 6-K 無季別）時保留
+      const idx = Number(m[1]) * 4 + (m[2] ? Number(m[2]) : 4)
+      return idx >= lo && idx <= hi
+    })
+    results.push(r)
   }
   return tickers.length === 1 ? results[0] : { results }
 })

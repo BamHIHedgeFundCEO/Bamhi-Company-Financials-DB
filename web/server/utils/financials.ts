@@ -154,7 +154,10 @@ function inferFyeMonth(gaap: Record<string, { units: Record<string, FactPoint[]>
 
 /**
  * 從單一 tag 的 point 陣列整理出各 fiscal period 的值。
- * key：Q:{fy}:{q}（單季/存量快照）、A:{fy}（全年累計，推 Q4 用）。
+ * key：
+ *   Q:{fy}:{q} — 單季（流量）或期末快照（存量）
+ *   C:{fy}:{q} — 年初至第 q 季末的累計（現金流量表在 10-Q 只申報累計，靠差分還原單季）
+ *   A:{fy}     — 全年
  * 同期間多筆（重編）→ filed 最新。
  */
 function collect(points: FactPoint[], flow: boolean, fyeMonth: number) {
@@ -168,13 +171,17 @@ function collect(points: FactPoint[], flow: boolean, fyeMonth: number) {
     if (flow) {
       const days = spanDays(p)
       if (days === null) continue
+      const { fy, q } = fiscalOf(p.end, fyeMonth)
       if (days > 80 && days < 100) {
-        const { fy, q } = fiscalOf(p.end, fyeMonth)
-        put(`Q:${fy}:${q}`, p)
+        put(`Q:${fy}:${q}`, p) // 單季
+        if (q === 1) put(`C:${fy}:1`, p) // 首季亦為累計
+      } else if (days > 150 && days < 200) {
+        put(`C:${fy}:2`, p) // 半年累計
+      } else if (days > 240 && days < 290) {
+        put(`C:${fy}:3`, p) // 九月累計
       } else if (days > 300 && days < 400) {
-        put(`A:${fiscalOf(p.end, fyeMonth).fy}`, p)
+        put(`A:${fy}`, p)
       }
-      // 半年/九月累計不用
     } else {
       // 存量：期末快照
       const { fy, q } = fiscalOf(p.end, fyeMonth)
@@ -249,25 +256,53 @@ export async function getFinancials(
         if (p) values[`FY${fy}`] = toCell(p, p._tag)
         continue
       }
-      for (const n of [1, 2, 3, 4] as const) {
-        const p = best.get(`Q:${fy}:${n}`)
-        if (p) values[periodKey(fy, n)] = toCell(p, p._tag)
-      }
-      if (flow && !values[periodKey(fy, 4)]) {
-        // Edge case 2：Q4 通常只有全年累計 → Q4 = FY − Q1 − Q2 − Q3，標記推算
-        const annual = best.get(`A:${fy}`)
-        const q = [1, 2, 3].map((n) => best.get(`Q:${fy}:${n}`))
-        if (annual && q[0] && q[1] && q[2]) {
-          values[periodKey(fy, 4)] = {
-            value: annual.val - q[0]!.val - q[1]!.val - q[2]!.val,
-            isEstimated: true,
-            sourceTag: annual._tag,
-            accessionOrForm: annual.form,
-            filed: annual.filed,
-            endDate: annual.end,
-          }
+      if (!flow) {
+        for (const n of [1, 2, 3, 4] as const) {
+          const p = best.get(`Q:${fy}:${n}`)
+          if (p) values[periodKey(fy, n)] = toCell(p, p._tag)
         }
+        continue
       }
+      // 流量科目：優先直接單季；沒有就用累計差分還原
+      // （現金流量表在 10-Q 只申報年初至今累計：Q2 = 半年 − Q1、Q3 = 九月 − 半年）
+      const qd = (n: number) => best.get(`Q:${fy}:${n}`)
+      const cum = (n: number) => best.get(`C:${fy}:${n}`)
+      const annual = best.get(`A:${fy}`)
+      const derived = (
+        p: FactPoint & { _tag: string },
+        minus: number,
+        estimated = false,
+      ): CellValue => ({
+        value: p.val - minus,
+        isEstimated: estimated,
+        sourceTag: p._tag,
+        accessionOrForm: p.form,
+        filed: p.filed,
+        endDate: p.end,
+      })
+
+      const v1 = qd(1)
+      if (v1) values[periodKey(fy, 1)] = toCell(v1, v1._tag)
+      const q1v = v1?.val
+
+      const d2 = qd(2)
+      if (d2) values[periodKey(fy, 2)] = toCell(d2, d2._tag)
+      else if (cum(2) && q1v != null) values[periodKey(fy, 2)] = derived(cum(2)!, q1v)
+      const q2v = values[periodKey(fy, 2)]?.value
+
+      const d3 = qd(3)
+      if (d3) values[periodKey(fy, 3)] = toCell(d3, d3._tag)
+      else if (cum(3) && cum(2)) values[periodKey(fy, 3)] = derived(cum(3)!, cum(2)!.val)
+      else if (cum(3) && q1v != null && q2v != null)
+        values[periodKey(fy, 3)] = derived(cum(3)!, q1v + q2v)
+      const q3v = values[periodKey(fy, 3)]?.value
+
+      // Edge case 2：Q4 = FY − 前三季，標記推算（淺橘底）
+      const d4 = qd(4)
+      if (d4) values[periodKey(fy, 4)] = toCell(d4, d4._tag)
+      else if (annual && cum(3)) values[periodKey(fy, 4)] = derived(annual, cum(3)!.val, true)
+      else if (annual && q1v != null && q2v != null && q3v != null)
+        values[periodKey(fy, 4)] = derived(annual, q1v + q2v + q3v, true)
     }
     for (const k of Object.keys(values)) allPeriods.add(k)
     lineItems.push({

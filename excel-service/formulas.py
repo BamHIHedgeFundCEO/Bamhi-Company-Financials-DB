@@ -7,7 +7,7 @@
   identifier[t-4]       → 往前推 4 欄（不足時整條公式回 None → n/a）
   avg(identifier)       → (本欄 + 前一欄)/2；無前一欄時退回本欄
   + - * / ( ) 數字
-所有除法整條包 IFERROR(..., "n/a")。
+整條公式一律包 IFERROR(..., "n/a")（除零與引用 n/a 文字格皆回 n/a）。
 """
 import re
 from openpyxl.utils import get_column_letter
@@ -46,7 +46,6 @@ def translate(formula: str, resolver: RefResolver, col: int, annual: bool = Fals
         formula = re.sub(r"\*\s*4\b", "* 1", formula).replace("91.25", "365")
     out: list[str] = []
     pos = 0
-    has_div = "/" in formula
     while pos < len(formula):
         m = _TOKEN.match(formula, pos)
         if not m:
@@ -81,4 +80,6 @@ def translate(formula: str, resolver: RefResolver, col: int, annual: bool = Fals
         else:
             return None
     expr = "".join(out)
-    return f'IFERROR({expr},"n/a")' if has_div else expr
+    # 一律包 IFERROR：除零回 n/a，且引用到 "n/a" 文字格的加減式（如 FCF = CFO − CapEx）
+    # 會回 #VALUE!，也要吃掉
+    return f'IFERROR({expr},"n/a")'

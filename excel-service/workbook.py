@@ -9,7 +9,7 @@ from io import BytesIO
 
 from openpyxl import Workbook
 from openpyxl.comments import Comment
-from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 
 from charts import place_charts
@@ -46,19 +46,29 @@ def _metric_fmt(formula: str, mid: str, th: dict) -> str:
     return nf["ratio"]
 
 
+_THIN = Side(style="thin", color="E3E5E1")
+_INK = Side(style="medium", color="15171A")
+ROW_BORDER = Border(bottom=_THIN)
+HEADER_BORDER = Border(bottom=_INK)
+
+
 def _header_cell(ws, col: int, text: str, th: dict):
     c = ws.cell(row=1, column=col, value=text)
-    c.font = Font(bold=True, size=th["fonts"]["header_size"])
+    c.font = Font(bold=True, size=th["fonts"]["header_size"], color=th["palette"]["header_font"].lstrip("#"))
     c.fill = PatternFill("solid", fgColor=th["palette"]["header_fill"].lstrip("#"))
     c.alignment = Alignment(horizontal="center")
+    c.border = HEADER_BORDER
 
 
-def _init_sheet(ws, periods: list[str], th: dict):
+def _init_sheet(ws, periods: list[str], th: dict, tab_color: str | None = None):
     _header_cell(ws, 1, "科目", th)
     _header_cell(ws, 2, "Line Item", th)
     for i, p in enumerate(periods):
         _header_cell(ws, FIRST_DATA_COL + i, p, th)
     ws.freeze_panes = th["layout"]["freeze_panes"]  # C2
+    ws.sheet_view.showGridLines = False
+    if tab_color:
+        ws.sheet_properties.tabColor = tab_color.lstrip("#")
     ws.column_dimensions["A"].width = 26
     ws.column_dimensions["B"].width = 30
     for i in range(len(periods)):
@@ -82,10 +92,17 @@ def build_workbook(payload: dict) -> bytes:
 
     # ── 1. 說明 ─────────────────────────────────────────────
     info = wb.create_sheet("說明")
+    info.sheet_view.showGridLines = False
+    info.sheet_properties.tabColor = th["palette"]["header_font"].lstrip("#")
     info.column_dimensions["A"].width = 22
     info.column_dimensions["B"].width = 30
     info.column_dimensions["C"].width = 46
     info.column_dimensions["D"].width = 90
+    # 標題列
+    t = info.cell(row=1, column=1, value=f"{fin['ticker']}　{fin['company']}")
+    t.font = Font(bold=True, size=16)
+    info.cell(row=2, column=1, value="BamHI 美股財報庫　·　SEC EDGAR 官方資料").font = Font(
+        size=10, color="8C9199")
     meta_rows = [
         ("公司", fin["company"]),
         ("Ticker", fin["ticker"]),
@@ -100,10 +117,13 @@ def build_workbook(payload: dict) -> bytes:
          else "Q4 單季 = FY − Q1 − Q2 − Q3，該儲存格以淺橘底標示"),
         ("免責聲明", DISCLAIMER),
     ]
-    for i, (k, v) in enumerate(meta_rows, start=1):
-        info.cell(row=i, column=1, value=k).font = Font(bold=True)
-        info.cell(row=i, column=2, value=v)
-    r = len(meta_rows) + 2
+    for i, (k, v) in enumerate(meta_rows, start=4):
+        kc = info.cell(row=i, column=1, value=k)
+        kc.font = Font(bold=True)
+        kc.border = ROW_BORDER
+        vc = info.cell(row=i, column=2, value=v)
+        vc.border = ROW_BORDER
+    r = len(meta_rows) + 5
     info.cell(row=r, column=1, value="指標定義總表").font = Font(bold=True, size=12)
     r += 1
     for j, h in enumerate(["指標", "英文", "定義", "判讀說明"], start=1):
@@ -123,9 +143,11 @@ def build_workbook(payload: dict) -> bytes:
     chart_jobs: list[tuple] = []  # (ws, specs, anchor_row) — 指標列建立後才放圖
     raw_rows: list[tuple] = []  # 原始資料分頁
 
+    tab_colors = {"IS": "1F3A5F", "BS": "5C7699", "CF": "0E6B5A"}
+    na_font = Font(color="8C9199", size=th["fonts"]["size"])
     for stmt, sheet_name in STATEMENT_SHEETS.items():
         ws = wb.create_sheet(sheet_name)
-        _init_sheet(ws, periods, th)
+        _init_sheet(ws, periods, th, tab_color=tab_colors[stmt])
         row = 1
         for li in fin["lineItems"]:
             if li["statement"] != stmt:
@@ -133,13 +155,16 @@ def build_workbook(payload: dict) -> bytes:
             row += 1
             locations[li["id"]] = (ws, row)
             resolver.add(li["id"], sheet_name, row)
-            ws.cell(row=row, column=1, value=li["zh"])
-            ws.cell(row=row, column=2, value=li["en"])
+            ws.cell(row=row, column=1, value=li["zh"]).border = ROW_BORDER
+            ws.cell(row=row, column=2, value=li["en"]).border = ROW_BORDER
             for i, p in enumerate(periods):
                 cell = ws.cell(row=row, column=FIRST_DATA_COL + i)
+                cell.border = ROW_BORDER
                 v = li["values"].get(p)
                 if v is None or v.get("value") is None:
                     cell.value = missing  # 絕不寫 0
+                    cell.font = na_font
+                    cell.alignment = Alignment(horizontal="right")
                 else:
                     cell.value = v["value"]  # 原始美元，不除以百萬
                     cell.number_format = _fmt(li["unit"], th)
@@ -153,29 +178,38 @@ def build_workbook(payload: dict) -> bytes:
 
     # ── 5. 關鍵指標（全公式）────────────────────────────────
     ws = wb.create_sheet(METRICS_SHEET)
-    _init_sheet(ws, periods, th)
+    _init_sheet(ws, periods, th, tab_color=th["palette"]["accent"])
+    group_fill = PatternFill("solid", fgColor=th["palette"]["header_fill"].lstrip("#"))
     row = 1
     current_group = None
     for m in fin["derived"]:
         if m["group"] != current_group:
             current_group = m["group"]
             row += 1
-            gc = ws.cell(row=row, column=1, value=f"▍{current_group}")
-            gc.font = Font(bold=True)
+            for j in range(1, FIRST_DATA_COL + n):
+                gc = ws.cell(row=row, column=j)
+                gc.fill = group_fill
+                gc.border = HEADER_BORDER
+            ws.cell(row=row, column=1, value=f"▍{current_group}").font = Font(
+                bold=True, color=th["palette"]["accent"].lstrip("#"))
         row += 1
         locations[m["id"]] = (ws, row)
         resolver.add(m["id"], METRICS_SHEET, row)
         name_cell = ws.cell(row=row, column=1, value=m["zh"])
-        ws.cell(row=row, column=2, value=m["en"])
+        name_cell.border = ROW_BORDER
+        ws.cell(row=row, column=2, value=m["en"]).border = ROW_BORDER
         # 滑鼠移入指標名稱顯示判讀說明（desc）
         name_cell.comment = Comment(m["desc"], "BamHI", height=160, width=360)
         fmt = _metric_fmt(m["formula"], m["id"], th)
         for i in range(n):
             col = FIRST_DATA_COL + i
             cell = ws.cell(row=row, column=col)
+            cell.border = ROW_BORDER
             f = translate(m["formula"], resolver, col, annual=annual)
             if f is None:
                 cell.value = missing
+                cell.font = na_font
+                cell.alignment = Alignment(horizontal="right")
             else:
                 cell.value = f"={f}"
                 cell.number_format = fmt

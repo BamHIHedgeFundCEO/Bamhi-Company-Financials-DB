@@ -22,3 +22,5 @@ Thumbs.db
 *.xlsx
 !docs/**/*.xlsx
 .vercel
+nv.json
+tools/*.txt

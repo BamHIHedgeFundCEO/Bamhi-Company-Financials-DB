@@ -1,5 +1,5 @@
 {
-  "version": "0.8",
+  "version": "0.9",
   "updated": "2026-08-15",
   "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
   "concepts": [
@@ -253,6 +253,20 @@
       "sign": "natural",
       "tags": [
         "WeightedAverageNumberOfDilutedSharesOutstanding"
+      ]
+    },
+    {
+      "id": "shares_outstanding",
+      "zh": "期末流通股數",
+      "en": "Shares Outstanding",
+      "statement": "BS",
+      "unit": "shares",
+      "sign": "natural",
+      "note": "期末在外流通股數（估值/每股用，非加權平均；TradingView 亦採此）",
+      "tags": [
+        "CommonStockSharesOutstanding",
+        "CommonStockSharesIssued",
+        "EntityCommonStockSharesOutstanding"
       ]
     },
     {
@@ -1002,6 +1016,46 @@
       "group": "費用結構",
       "formula": "sgna / revenue",
       "desc": "營收擴張時此比率應下降，代表規模經濟。若隨營收同步上升，代表成長是靠燒錢買來的。"
+    },
+    {
+      "id": "revenue_per_share",
+      "zh": "每股營收",
+      "en": "Revenue / Share",
+      "group": "每股指標",
+      "formula": "revenue / shares_outstanding",
+      "desc": "每股營收。乘以股價倒數即 P/S。與 TradingView 的 Revenue per share 對應。"
+    },
+    {
+      "id": "book_value_per_share",
+      "zh": "每股淨值",
+      "en": "Book Value / Share",
+      "group": "每股指標",
+      "formula": "equity / shares_outstanding",
+      "desc": "每股帳面淨值（股東權益÷股數）。股價÷每股淨值即 P/B。"
+    },
+    {
+      "id": "cash_plus_sti_per_share",
+      "zh": "每股現金及投資",
+      "en": "Cash+STI / Share",
+      "group": "每股指標",
+      "formula": "(cash + short_term_investments) / shares_outstanding",
+      "desc": "每股現金及短期投資。TradingView 的 Cash per share 採此定義（含短期投資），非純現金。"
+    },
+    {
+      "id": "fcf_per_share",
+      "zh": "每股自由現金流",
+      "en": "FCF / Share",
+      "group": "每股指標",
+      "formula": "fcf / shares_outstanding",
+      "desc": "每股自由現金流。負值代表仍在燒錢。"
+    },
+    {
+      "id": "ocf_per_share",
+      "zh": "每股營運現金流",
+      "en": "OCF / Share",
+      "group": "每股指標",
+      "formula": "cfo / shares_outstanding",
+      "desc": "每股營運活動現金流。"
     }
   ]
 }

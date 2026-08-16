@@ -346,13 +346,14 @@ export async function getFinancials(
           if (c.value != null) c.value = splitAdjust(p.val, p.filed, concept.unit, splits)
           return c
         }
-        for (const n of [1, 2, 3] as const) {
+        // Q1-Q4 直接快照/單季（期末流通股數是 BS 快照，Q4 年末快照存在）
+        for (const n of [1, 2, 3, 4] as const) {
           const p = best.get(`Q:${fy}:${n}`)
           if (p) values[periodKey(fy, n)] = adj(p)
         }
-        // Q4：股數用 10-K 年度加權平均（真實申報值，股數變化緩，近似 Q4 水準，供稀釋率計算）；
-        // EPS 的年度值 ≠ Q4 單季 → 留 n/a 不誤導
-        if (concept.unit === 'shares') {
+        // 加權平均股數（IS）無 Q4 單季 → 用 10-K 年度加權平均近似（股數變化緩，供稀釋率）；
+        // EPS 年度值 ≠ Q4 單季 → 留 n/a 不誤導
+        if (concept.unit === 'shares' && !values[periodKey(fy, 4)]) {
           const a = best.get(`A:${fy}`)
           if (a) values[periodKey(fy, 4)] = adj(a)
         }

@@ -43,6 +43,9 @@ def _metric_fmt(formula: str, mid: str, th: dict) -> str:
         return nf["multiple"]
     if mid in ("ebitda", "net_debt", "fcf", "shareholder_return"):
         return nf["usd"]
+    if mid in ("revenue_per_share", "book_value_per_share", "cash_plus_sti_per_share",
+               "fcf_per_share", "ocf_per_share"):
+        return nf["per_share"]  # 每股金額 0.00
     return nf["ratio"]
 
 
@@ -291,27 +294,31 @@ def build_workbook(payload: dict) -> bytes:
         link.font = Font(color="0E6B5A", underline="single", size=10)
         ji += 1
 
-    # 每個報表/指標分頁：在凍結的第 1 列（永遠可見）放捷徑——跳到本頁圖表、回說明目錄
-    first_chart = {}
-    for sheet_name, _t, r in chart_index:
-        first_chart.setdefault(sheet_name, r)
-    for sheet_name, crow in first_chart.items():
+    # 每個報表/指標分頁的圖表快捷：在該頁圖表區頂端（資料表下方、圖表左側 A/B 空白處）
+    # 集中放「所有圖表的文字連結」，點一下直接跳到該圖——不再每張圖各放一個回頂端。
+    from collections import OrderedDict
+    per_sheet: "OrderedDict[str, list]" = OrderedDict()
+    for sheet_name, title, r in chart_index:
+        per_sheet.setdefault(sheet_name, []).append((title, r))
+    for sheet_name, items in per_sheet.items():
         sh = wb[sheet_name]
-        sc = FIRST_DATA_COL + n + 1  # 資料欄之後的空白處
-        a = sh.cell(row=1, column=sc, value="► 跳到本頁圖表")
-        a.hyperlink = f"#'{sheet_name}'!{_gcl(FIRST_DATA_COL)}{crow}"
-        a.font = Font(color="0E6B5A", underline="single", bold=True, size=10)
-        b = sh.cell(row=1, column=sc + 1, value="► 回說明／圖表目錄")
-        b.hyperlink = f"#'說明'!{_gcl(jump_col)}1"
-        b.font = Font(color="0E6B5A", underline="single", size=10)
+        top = items[0][1]  # 第一張圖的列 = 圖表區頂端
+        # 第 1 列（凍結，永遠可見）放一個「跳到圖表目錄」
+        sc = FIRST_DATA_COL + n + 1
+        q = sh.cell(row=1, column=sc, value="► 跳到圖表目錄")
+        q.hyperlink = f"#'{sheet_name}'!A{top}"
+        q.font = Font(color="0E6B5A", underline="single", bold=True, size=10)
         sh.column_dimensions[_gcl(sc)].width = 16
-        sh.column_dimensions[_gcl(sc + 1)].width = 18
-        # 每張圖旁放「↑ 回頂端」捷徑
-        for s2, _t2, r2 in chart_index:
-            if s2 == sheet_name:
-                up = sh.cell(row=r2, column=2, value="↑ 回頂端")
-                up.hyperlink = f"#'{sheet_name}'!A1"
-                up.font = Font(color="0E6B5A", underline="single", size=9)
+        # 圖表區頂端的文字連結目錄（A 欄，縱向排列所有圖）
+        hdr = sh.cell(row=top, column=1, value="■ 本頁圖表目錄")
+        hdr.font = Font(bold=True, color=th["palette"]["accent"].lstrip("#"))
+        back = sh.cell(row=top, column=2, value="回說明")
+        back.hyperlink = f"#'說明'!{_gcl(jump_col)}1"
+        back.font = Font(color="0E6B5A", underline="single", size=10)
+        for k, (title, r) in enumerate(items, start=1):
+            c = sh.cell(row=top + k, column=1, value=f"　{title}")
+            c.hyperlink = f"#'{sheet_name}'!{_gcl(FIRST_DATA_COL)}{r}"
+            c.font = Font(color="0E6B5A", underline="single", size=10)
 
     # ── 6. 原始資料 ─────────────────────────────────────────
     ws = wb.create_sheet("原始資料")

@@ -300,10 +300,9 @@ def build_workbook(payload: dict) -> bytes:
                 else:
                     cell.value = v
                     cell.number_format = vfmt.get(rrow["unit"], "0.00")
-        # 估值圖：PE/PS/PB 各一張折線
+        # 估值圖：PE/PS/PB 各一張折線。股價是「每股金額」不是百萬，軸用自動（不套÷百萬）
         vspecs = [{"type": "line", "title": f"{r['zh']} {r['en']}",
-                   "series": [f"val_{r['id']}"],
-                   "y_format": ("money" if r["unit"] == "USD" else None)}
+                   "series": [f"val_{r['id']}"], "y_format": None}
                   for r in valuation["rows"] if r["id"] not in ("marketcap", "ev")]
         chart_jobs.append((vws, vspecs, vrow + 3))
         # 說明分頁註記估值資料來源

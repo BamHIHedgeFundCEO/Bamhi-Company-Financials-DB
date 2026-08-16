@@ -449,6 +449,18 @@ export async function getFinancials(
         filed,
       }
     }
+    // 仍缺的季（us-gaap 年度末 + dei 都沒有，如 NVDA 2021Q1/Q2）→ 退回加權平均股數近似
+    // （股數變化緩，兩者接近；避免整欄估值因股數缺而連鎖 n/a）
+    const wavg = byId.get('shares_basic') ?? byId.get('shares_diluted')
+    if (wavg) {
+      for (const p of allPeriods) {
+        if (soLi.values[p]?.value != null) continue
+        const w = wavg.values[p]?.value
+        if (w != null) {
+          soLi.values[p] = { value: w, isEstimated: true, sourceTag: '近似：加權平均股數' }
+        }
+      }
+    }
   }
 
   // zero_if_absent：該科目缺申報通常代表公司沒有此項目 = 0（如無配息、無庫藏股、

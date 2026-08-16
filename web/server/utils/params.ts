@@ -88,5 +88,12 @@ export function clampPeriods<T extends { periods: string[]; lineItems: { values:
   for (const li of fin.lineItems) {
     li.values = Object.fromEntries(Object.entries(li.values).filter(([k]) => inRange(k)))
   }
+  // 估值倍數（若已算）同步裁到顯示範圍——TTM 已在較寬窗口算好，此處只裁顯示
+  const val = (fin as { valuation?: { rows: { values: Record<string, unknown> }[] } }).valuation
+  if (val) {
+    for (const r of val.rows) {
+      r.values = Object.fromEntries(Object.entries(r.values).filter(([k]) => inRange(k)))
+    }
+  }
   return fin
 }

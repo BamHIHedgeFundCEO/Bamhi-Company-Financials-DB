@@ -24,8 +24,10 @@ export default defineEventHandler(async (event) => {
         message: `找不到「${t}」。請確認 ticker 拼寫；已下市公司與多數 ETF 不在 SEC 申報名單內。`,
       })
     }
-    const fin = clampPeriods(await getFinancials(ref, range.fromFy, range.toFy), range)
+    // 多抓一年供估值 TTM 回溯，算完再裁到顯示範圍
+    const fin = await getFinancials(ref, range.fromFy - 1, range.toFy)
     if (query.valuation !== '0') fin.valuation = (await computeValuation(fin)) ?? undefined
+    clampPeriods(fin, range)
     results.push(fin)
   }
   return tickers.length === 1 ? results[0] : { results }

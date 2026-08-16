@@ -44,9 +44,10 @@ export default defineEventHandler(async (event) => {
   }
 
   // 未命中 → 轉呼叫 Cloud Run：資料在此準備好，excel-service 不碰 SEC
-  const fin = clampPeriods(await getFinancials(ref, range.fromFy, range.toFy), range)
-  // 估值倍數需股價（外部），在此計算後掛上
+  // 多抓一年（fromFy-1）供估值 TTM 回溯，算完估值再裁到顯示範圍
+  const fin = await getFinancials(ref, range.fromFy - 1, range.toFy)
   fin.valuation = (await computeValuation(fin)) ?? undefined
+  clampPeriods(fin, range)
   const res = await fetch(`${serviceUrl}/generate`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },

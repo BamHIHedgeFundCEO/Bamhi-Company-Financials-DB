@@ -24,7 +24,7 @@ type FactTags = Record<string, { units: Record<string, FactPoint[]> }>
 
 interface CompanyFacts {
   entityName: string
-  facts: { 'us-gaap'?: FactTags; 'ifrs-full'?: FactTags }
+  facts: { 'us-gaap'?: FactTags; 'ifrs-full'?: FactTags; dei?: FactTags }
 }
 
 export interface MapConcept {
@@ -424,6 +424,33 @@ export async function getFinancials(
 
   const byId = new Map(lineItems.map((li) => [li.id, li]))
 
+  // 期末流通股數補齊：部分公司（如 NVDA）的 us-gaap:CommonStockSharesOutstanding
+  // 只在年度末申報 → 只有 Q4。dei:EntityCommonStockSharesOutstanding（申報封面股數）
+  // 每季都有，用 fy/fp 對應補上缺的季（us-gaap 精確值優先，不覆蓋）。
+  const soLi = byId.get('shares_outstanding')
+  const deiPts = facts.facts.dei?.['EntityCommonStockSharesOutstanding']?.units?.['shares']
+  if (soLi && deiPts?.length && !useIfrs) {
+    const best = new Map<string, { val: number; filed: string }>()
+    for (const p of deiPts) {
+      if (!p.fy || !p.fp) continue
+      const q = p.fp === 'FY' ? 4 : Number(String(p.fp).replace('Q', ''))
+      if (!(q >= 1 && q <= 4)) continue
+      const key = periodKey(p.fy, q)
+      const prev = best.get(key)
+      if (!prev || p.filed > prev.filed) best.set(key, { val: p.val, filed: p.filed })
+    }
+    for (const [key, { val, filed }] of best) {
+      if (soLi.values[key]?.value != null) continue // us-gaap 已有（較精確）
+      if (!allPeriods.has(key)) continue
+      soLi.values[key] = {
+        value: splitAdjust(val, filed, 'shares', splits),
+        isEstimated: false,
+        sourceTag: 'dei:EntityCommonStockSharesOutstanding',
+        filed,
+      }
+    }
+  }
+
   // zero_if_absent：該科目缺申報通常代表公司沒有此項目 = 0（如無配息、無庫藏股、
   // 無一年內到期債務）。以「資產負債表有申報」（total_assets 有值）為錨補 0，
   // 避免財務結構/股東回饋等指標間歇或整條 n/a。只補公司確實有申報財報的期。
@@ -486,8 +513,12 @@ export async function getFinancials(
       }
     }
     if (preIpoBefore) {
-      for (const li of lineItems) {
-        for (const p of allPeriods) if (p < preIpoBefore) delete li.values[p]
+      // 直接移除上市前的期（連欄位一起拿掉，不只是 n/a）→ 下載檔不含這些季
+      for (const p of [...allPeriods]) {
+        if (p < preIpoBefore) {
+          allPeriods.delete(p)
+          for (const li of lineItems) delete li.values[p]
+        }
       }
     }
   }

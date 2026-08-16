@@ -240,31 +240,20 @@ interface SplitEvent {
  * 大量發股誤判為分割。分割後公司重編舊期，重編值（filed 較晚）已是新基準。
  */
 function computeSplits(ns: FactTags, fyeMonth: number): SplitEvent[] {
-  const pts =
+  const raw: SplitEvent[] = []
+
+  // 訊號 A：加權股數同期末跨申報差乾淨倍數（後值/前值）
+  const sharePts =
     ns['WeightedAverageNumberOfSharesOutstandingBasic']?.units?.['shares'] ??
     ns['WeightedAverageNumberOfDilutedSharesOutstanding']?.units?.['shares']
-  if (!pts?.length) return []
+  collectCrossFilingSplits(sharePts, fyeMonth, false, raw)
 
-  // 同一期末的所有申報值（依 filed 排序）
-  const byPeriod = new Map<string, { filed: string; val: number }[]>()
-  for (const p of pts) {
-    const days = spanDays(p)
-    if (days === null || !(days > 80 && days < 100) || p.val <= 0) continue
-    const { fy, q } = fiscalOf(p.end, fyeMonth)
-    const k = `FY${fy} Q${q}`
-    ;(byPeriod.get(k) ?? byPeriod.set(k, []).get(k)!).push({ filed: p.filed, val: p.val })
-  }
+  // 訊號 B：每股盈餘同期末跨申報（分割後每股值變小；前值/後值）——
+  // 補足只用單季股數偵測不到的情況（如 GOOGL 只在分割後才 tag 單季股數）
+  const epsPts = ns['EarningsPerShareBasic']?.units?.['USD/shares']
+  collectCrossFilingSplits(epsPts, fyeMonth, true, raw)
 
-  const raw: SplitEvent[] = []
-  for (const list of byPeriod.values()) {
-    list.sort((a, b) => (a.filed < b.filed ? -1 : 1))
-    for (let i = 0; i + 1 < list.length; i++) {
-      const f = detectSplit(list[i + 1].val / list[i].val)
-      if (f) raw.push({ threshold: list[i + 1].filed, factor: f })
-    }
-  }
-
-  // 同一分割事件會被多期偵測到 → 合併（同倍數、申報日相近 400 天內視為一次）
+  // 同一分割事件會被多期/多訊號偵測到 → 合併（同倍數、申報日相近 400 天內視為一次）
   raw.sort((a, b) => (a.threshold < b.threshold ? -1 : 1))
   const merged: SplitEvent[] = []
   for (const s of raw) {
@@ -276,6 +265,35 @@ function computeSplits(ns: FactTags, fyeMonth: number): SplitEvent[] {
     if (!sameEvent) merged.push(s)
   }
   return merged
+}
+
+/** 同一期末跨申報偵測分割。perShare=true 時值變小方向相反（前值/後值）。 */
+function collectCrossFilingSplits(
+  pts: FactPoint[] | undefined,
+  fyeMonth: number,
+  perShare: boolean,
+  out: SplitEvent[],
+): void {
+  if (!pts?.length) return
+  const byPeriod = new Map<string, { filed: string; val: number }[]>()
+  for (const p of pts) {
+    const days = spanDays(p)
+    // 股數用單季；每股值用單季或年度（EPS 年度值重編後也帶乾淨倍數）
+    const ok = perShare ? days !== null && (days < 100 || (days > 300 && days < 400)) : days !== null && days > 80 && days < 100
+    if (!ok || p.val <= 0) continue
+    const { fy, q } = fiscalOf(p.end, fyeMonth)
+    const dur = perShare && days! > 300 ? 'A' : 'Q'
+    const k = `${dur}:FY${fy} Q${q}`
+    ;(byPeriod.get(k) ?? byPeriod.set(k, []).get(k)!).push({ filed: p.filed, val: p.val })
+  }
+  for (const list of byPeriod.values()) {
+    list.sort((a, b) => (a.filed < b.filed ? -1 : 1))
+    for (let i = 0; i + 1 < list.length; i++) {
+      const ratio = perShare ? list[i].val / list[i + 1].val : list[i + 1].val / list[i].val
+      const f = detectSplit(ratio)
+      if (f) out.push({ threshold: list[i + 1].filed, factor: f })
+    }
+  }
 }
 
 /** 依申報日把值正規化到最新基準：股數乘 factor、每股除 factor。filed < threshold 者套用。 */
@@ -370,11 +388,25 @@ export async function getFinancials(
           const p = best.get(`Q:${fy}:${n}`)
           if (p) values[periodKey(fy, n)] = adj(p)
         }
-        // 加權平均股數（IS）無 Q4 單季 → 用 10-K 年度加權平均近似（股數變化緩，供稀釋率）；
-        // EPS 年度值 ≠ Q4 單季 → 留 n/a 不誤導
-        if (concept.unit === 'shares' && !values[periodKey(fy, 4)]) {
+        if (!values[periodKey(fy, 4)]) {
           const a = best.get(`A:${fy}`)
-          if (a) values[periodKey(fy, 4)] = adj(a)
+          if (concept.unit === 'shares') {
+            // 加權股數 Q4：用 10-K 年度加權平均近似（股數變化緩）
+            if (a) values[periodKey(fy, 4)] = adj(a)
+          } else if (a) {
+            // EPS Q4：年度 EPS − 前三季（股數穩定時標準算法，各數據源皆如此）
+            const q1 = values[periodKey(fy, 1)]?.value
+            const q2 = values[periodKey(fy, 2)]?.value
+            const q3 = values[periodKey(fy, 3)]?.value
+            if (q1 != null && q2 != null && q3 != null) {
+              const c = adj(a)
+              if (c.value != null) {
+                c.value = c.value - q1 - q2 - q3
+                c.isEstimated = true
+                values[periodKey(fy, 4)] = c
+              }
+            }
+          }
         }
         continue
       }

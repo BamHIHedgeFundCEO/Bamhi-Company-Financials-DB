@@ -131,13 +131,30 @@ const isFlow = (c: MapConcept) => c.statement === 'IS' || c.statement === 'CF'
  * 期別一律由數據自己的 start/end 日期 + 公司會計年度末月份推得。
  */
 
-/** 由 end 日期推 (fy, q)。fyeMonth = 會計年度末月份（1-12）。 */
+/**
+ * 由 end 日期推 (fy, q)。fyeMonth = 會計年度末月份（1-12）。
+ * 用「距最近會計年度末的天數」判季，容忍 52/53 週會計年度的日期漂移
+ * （零售/消費股年末在月底附近跨月漂移，純用月份相減會把季別分錯 → BS 科目某季消失）。
+ */
 function fiscalOf(end: string, fyeMonth: number): { fy: number; q: number } {
-  const [y, m] = end.split('-').map(Number)
-  const diff = (fyeMonth - m + 12) % 12
-  const fy = new Date(y, m - 1 + diff).getFullYear()
-  const q = 4 - Math.round(diff / 3)
-  return { fy, q }
+  const et = Date.parse(end + 'T00:00:00Z')
+  const [y] = end.split('-').map(Number)
+  const TOL = 20 * 86400_000 // 年末後 20 天內仍算該年度末（漂移容忍）
+  // 該日期所屬會計年度 = 結束於「>= 日期−容忍」的最近一個年度末
+  let fyeYear = y
+  let fyeT = Date.UTC(y, fyeMonth, 0)
+  for (const yy of [y - 1, y, y + 1, y + 2]) {
+    const t = Date.UTC(yy, fyeMonth, 0) // 日曆月 fyeMonth 的最後一天
+    if (t >= et - TOL) {
+      fyeYear = yy
+      fyeT = t
+      break
+    }
+  }
+  const daysBefore = (fyeT - et) / 86400_000 // >0：日期在年度末之前（較早的季）
+  const qBack = ((Math.round(daysBefore / 91.31) % 4) + 4) % 4
+  const q = qBack === 0 ? 4 : 4 - qBack
+  return { fy: fyeYear, q }
 }
 
 /** 從 XBRL 年度期間（span>300 天）的 end 月份取眾數 → 會計年度末月份 */
@@ -475,6 +492,35 @@ export async function getFinancials(
       if (li.values[p]?.value != null) continue
       if (anchor.values[p]?.value == null) continue // 該期沒申報財報 → 不捏造
       li.values[p] = { value: 0, isEstimated: true, sourceTag: '缺申報視為 0' }
+    }
+  }
+
+  // 資產負債表科目 + 加權平均股數沿用前期補「內部缺口」：部分公司（如 Apple 租賃資產）
+  // 只在年報申報，10-Q 不報 → 季中缺。BS/股數為緩慢變動，沿用最近一期為合理估計。
+  // 只補首末已知值之間的洞，不外推頭尾。放在 derive 之前 → EPS 可用補好的股數推算。
+  {
+    const sorted = [...allPeriods].sort()
+    for (const concept of map.concepts) {
+      if (concept.statement !== 'BS' && concept.unit !== 'shares') continue // EPS 波動大不沿用
+      const li = byId.get(concept.id)
+      if (!li) continue
+      const knownIdx = sorted
+        .map((p, i) => (li.values[p]?.value != null ? i : -1))
+        .filter((i) => i >= 0)
+      if (knownIdx.length < 2) continue
+      let prev: CellValue | null = null
+      for (let i = knownIdx[0]; i <= knownIdx[knownIdx.length - 1]; i++) {
+        const p = sorted[i]
+        if (li.values[p]?.value != null) prev = li.values[p]
+        else if (prev != null) {
+          li.values[p] = {
+            value: prev.value,
+            isEstimated: true,
+            sourceTag: '沿用前期（該季未申報）',
+            endDate: prev.endDate,
+          }
+        }
+      }
     }
   }
 

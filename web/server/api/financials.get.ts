@@ -2,6 +2,7 @@ import { defineEventHandler, getQuery, createError } from 'h3'
 import { resolveTicker } from '../utils/cik'
 import { getFinancials } from '../utils/financials'
 import { parseTickers, parseRange, clampPeriods } from '../utils/params'
+import { computeValuation } from '../utils/valuation'
 
 /**
  * GET /api/financials?ticker=AAPL&years=5
@@ -24,6 +25,7 @@ export default defineEventHandler(async (event) => {
       })
     }
     const fin = clampPeriods(await getFinancials(ref, range.fromFy, range.toFy), range)
+    if (query.valuation !== '0') fin.valuation = (await computeValuation(fin)) ?? undefined
     results.push(fin)
   }
   return tickers.length === 1 ? results[0] : { results }

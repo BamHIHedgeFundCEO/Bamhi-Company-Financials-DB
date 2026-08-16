@@ -93,6 +93,8 @@ export interface FinancialsResult {
   derived: DerivedMetric[]
   /** 偵測到上市/SPAC 借殼前的期（股數基礎不可比，已清為 n/a）；供 UI/Excel 標註 */
   preIpoBefore?: string
+  /** 估值倍數（需股價，另行計算後掛上；SEC 資料本身不含） */
+  valuation?: import('./valuation').Valuation
 }
 
 let cachedMap: XbrlMap | null = null

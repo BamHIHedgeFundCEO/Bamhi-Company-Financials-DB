@@ -270,6 +270,45 @@ def build_workbook(payload: dict) -> bytes:
             {"type": "line", "title": f"{m['zh']} {m['en']}", "series": [m["id"]], "y_format": yfmt_of[m["id"]]})
     chart_jobs.append((ws, metric_specs, row + 3))
 
+    # ── 5b. 估值倍數（需股價，來自 Yahoo；SEC 本身無）───────────
+    valuation = fin.get("valuation")
+    if valuation and valuation.get("rows"):
+        vws = wb.create_sheet("估值倍數")
+        _init_sheet(vws, periods, th, tab_color="C25A18")
+        vfmt = {
+            "USD": th["number_formats"]["usd"],
+            "x": '0.0"x"',
+            "ratio": '0.00"倍"',
+        }
+        vrow = 1
+        for rrow in valuation["rows"]:
+            vrow += 1
+            locations[f"val_{rrow['id']}"] = (vws, vrow)
+            nm = vws.cell(row=vrow, column=1, value=rrow["zh"])
+            nm.border = ROW_BORDER
+            if rrow.get("desc"):
+                nm.comment = Comment(rrow["desc"], "BamHI", height=140, width=340)
+            vws.cell(row=vrow, column=2, value=rrow["en"]).border = ROW_BORDER
+            for i, p in enumerate(periods):
+                cell = vws.cell(row=vrow, column=FIRST_DATA_COL + i)
+                cell.border = ROW_BORDER
+                v = rrow["values"].get(p)
+                if v is None:
+                    cell.value = missing
+                    cell.font = na_font
+                    cell.alignment = Alignment(horizontal="right")
+                else:
+                    cell.value = v
+                    cell.number_format = vfmt.get(rrow["unit"], "0.00")
+        # 估值圖：PE/PS/PB 各一張折線
+        vspecs = [{"type": "line", "title": f"{r['zh']} {r['en']}",
+                   "series": [f"val_{r['id']}"],
+                   "y_format": ("money" if r["unit"] == "USD" else None)}
+                  for r in valuation["rows"] if r["id"] not in ("marketcap", "ev")]
+        chart_jobs.append((vws, vspecs, vrow + 3))
+        # 說明分頁註記估值資料來源
+        info.cell(row=1, column=1)  # noop 保留
+
     # 指標列已定位，統一放圖（圖表可跨分頁引用系列）；收集圖表位置做「說明」目錄
     locate = locations.get
     chart_index: list = []

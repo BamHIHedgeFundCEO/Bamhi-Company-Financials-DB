@@ -2,6 +2,7 @@ import { defineEventHandler, getQuery, createError, sendRedirect, setHeader } fr
 import { resolveTicker } from '../../utils/cik'
 import { getFinancials, loadMap } from '../../utils/financials'
 import { parseTickers, parseRange, clampPeriods } from '../../utils/params'
+import { computeValuation } from '../../utils/valuation'
 
 /**
  * GET /api/financials/excel?ticker=AAPL&from=2021Q1&to=2026Q2
@@ -44,6 +45,8 @@ export default defineEventHandler(async (event) => {
 
   // 未命中 → 轉呼叫 Cloud Run：資料在此準備好，excel-service 不碰 SEC
   const fin = clampPeriods(await getFinancials(ref, range.fromFy, range.toFy), range)
+  // 估值倍數需股價（外部），在此計算後掛上
+  fin.valuation = (await computeValuation(fin)) ?? undefined
   const res = await fetch(`${serviceUrl}/generate`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },

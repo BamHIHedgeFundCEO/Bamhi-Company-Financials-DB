@@ -48,8 +48,11 @@ def _metric_fmt(formula: str, mid: str, th: dict) -> str:
 
 _THIN = Side(style="thin", color="E3E5E1")
 _INK = Side(style="medium", color="15171A")
+_BOX = Side(style="thin", color="8C9199")
 ROW_BORDER = Border(bottom=_THIN)
 HEADER_BORDER = Border(bottom=_INK)
+# 全框（說明分頁表格用，四邊細灰框）
+CELL_BOX = Border(left=_BOX, right=_BOX, top=_BOX, bottom=_BOX)
 
 
 def _header_cell(ws, col: int, text: str, th: dict):
@@ -80,6 +83,7 @@ def build_workbook(payload: dict) -> bytes:
     periods: list[str] = fin["periods"]
     n = len(periods)
     annual = fin.get("periodicity") == "annual"
+    pre_ipo = fin.get("preIpoBefore")  # 上市/借殼前的期界線
     th = theme()
     cmap = xbrl_map()
     spec = chart_spec()["sheets"]
@@ -120,29 +124,38 @@ def build_workbook(payload: dict) -> bytes:
               "現金流量表的 Q2/Q3 亦由累計值差分還原（10-Q 只申報年初至今累計）。"),
         ("「n/a」是什麼", "該公司該期間沒有申報此科目——通常是公司本來就沒有這個項目"
          "（如未配息、未買回庫藏股、費用未拆分），不代表數值為零。可對照「原始資料」分頁查證。"),
+        *([("上市前資料", f"{pre_ipo} 之前的季度已顯示為 n/a。此公司經 SPAC 借殼／IPO 上市，"
+            "上市前為私有公司，股數基礎與上市後不可比（每股數值會嚴重失真），故不列出。")]
+          if pre_ipo else []),
         ("圖表", "各報表分頁：前段為 chart_spec.json 定義的組合圖，後段為每一科目各一張圖。"
          "要自訂組合圖，修改 repo 的 config/chart_spec.json 即可，不需改程式。"),
         ("免責聲明", DISCLAIMER),
     ]
+    meta_fill = PatternFill("solid", fgColor=th["palette"]["header_fill"].lstrip("#"))
     for i, (k, v) in enumerate(meta_rows, start=4):
         kc = info.cell(row=i, column=1, value=k)
         kc.font = Font(bold=True)
-        kc.border = ROW_BORDER
+        kc.border = CELL_BOX
+        kc.fill = meta_fill
+        kc.alignment = Alignment(vertical="top")
         vc = info.cell(row=i, column=2, value=v)
-        vc.border = ROW_BORDER
+        vc.border = CELL_BOX
         vc.alignment = Alignment(wrap_text=True, vertical="top")
     r = len(meta_rows) + 5
     info.cell(row=r, column=1, value="指標定義總表").font = Font(bold=True, size=12)
+    info.cell(row=r + 1, column=4, value="資料來源：SEC EDGAR companyfacts XBRL。每個數字對應標籤見「原始資料」分頁。").font = Font(
+        size=9, color="8C9199", italic=True)
     r += 1
-    for j, h in enumerate(["指標", "英文", "定義", "判讀說明"], start=1):
-        _header_cell_at(info, r, j, h, th)
+    for j, h in enumerate(["指標", "英文", "定義（公式）", "判讀說明"], start=1):
+        c = _header_cell_at(info, r, j, h, th)
     for m in fin["derived"]:
         r += 1
-        info.cell(row=r, column=1, value=m["zh"])
-        info.cell(row=r, column=2, value=m["en"])
-        info.cell(row=r, column=3, value=m["formula"])
-        c = info.cell(row=r, column=4, value=m["desc"])
-        c.alignment = Alignment(wrap_text=True, vertical="top")
+        for j, val in enumerate([m["zh"], m["en"], m["formula"], m["desc"]], start=1):
+            c = info.cell(row=r, column=j, value=val)
+            c.border = CELL_BOX
+            c.alignment = Alignment(wrap_text=True, vertical="top")
+            if j == 1:
+                c.font = Font(bold=True)
 
     # ── 2–4. 三大報表 ───────────────────────────────────────
     resolver = RefResolver()
@@ -246,16 +259,9 @@ def build_workbook(payload: dict) -> bytes:
         nf["usd"]: ("金額", "money"),
     }
     yfmt_of = {mid: bucket.get(fmt, ("", None))[1] for mid, fmt in fmt_of.items()}
+    # 只保留 ① chart_spec 精選比較圖（2-3 條，可控）② 每個指標各自一張（自動縮放、看得清）。
+    # 移除「組內全指標」比較圖：虧損股的極端比率（如利息保障 -106x）會把其他線壓成一團。
     metric_specs = list(spec.get(METRICS_SHEET, []))
-    for grp, ids in group_members.items():
-        by_bucket: dict[str, list[str]] = {}
-        for mid in ids:
-            by_bucket.setdefault(fmt_of[mid], []).append(mid)
-        for fmt, mids in by_bucket.items():
-            if len(mids) >= 2 and fmt in bucket and bucket[fmt][1] != "money":
-                name, yf = bucket[fmt]
-                metric_specs.append(
-                    {"type": "line", "title": f"{grp}｜{name}比較", "series": mids, "y_format": yf})
     for m in fin["derived"]:
         metric_specs.append(
             {"type": "line", "title": f"{m['zh']} {m['en']}", "series": [m["id"]], "y_format": yfmt_of[m["id"]]})
@@ -285,6 +291,28 @@ def build_workbook(payload: dict) -> bytes:
         link.font = Font(color="0E6B5A", underline="single", size=10)
         ji += 1
 
+    # 每個報表/指標分頁：在凍結的第 1 列（永遠可見）放捷徑——跳到本頁圖表、回說明目錄
+    first_chart = {}
+    for sheet_name, _t, r in chart_index:
+        first_chart.setdefault(sheet_name, r)
+    for sheet_name, crow in first_chart.items():
+        sh = wb[sheet_name]
+        sc = FIRST_DATA_COL + n + 1  # 資料欄之後的空白處
+        a = sh.cell(row=1, column=sc, value="► 跳到本頁圖表")
+        a.hyperlink = f"#'{sheet_name}'!{_gcl(FIRST_DATA_COL)}{crow}"
+        a.font = Font(color="0E6B5A", underline="single", bold=True, size=10)
+        b = sh.cell(row=1, column=sc + 1, value="► 回說明／圖表目錄")
+        b.hyperlink = f"#'說明'!{_gcl(jump_col)}1"
+        b.font = Font(color="0E6B5A", underline="single", size=10)
+        sh.column_dimensions[_gcl(sc)].width = 16
+        sh.column_dimensions[_gcl(sc + 1)].width = 18
+        # 每張圖旁放「↑ 回頂端」捷徑
+        for s2, _t2, r2 in chart_index:
+            if s2 == sheet_name:
+                up = sh.cell(row=r2, column=2, value="↑ 回頂端")
+                up.hyperlink = f"#'{sheet_name}'!A1"
+                up.font = Font(color="0E6B5A", underline="single", size=9)
+
     # ── 6. 原始資料 ─────────────────────────────────────────
     ws = wb.create_sheet("原始資料")
     headers = ["科目", "Line Item", "季別", "數值", "XBRL 標籤", "表單", "申報日", "期末日", "單位", "備註"]
@@ -305,5 +333,7 @@ def build_workbook(payload: dict) -> bytes:
 
 def _header_cell_at(ws, row: int, col: int, text: str, th: dict):
     c = ws.cell(row=row, column=col, value=text)
-    c.font = Font(bold=True, size=th["fonts"]["header_size"])
+    c.font = Font(bold=True, size=th["fonts"]["header_size"], color=th["palette"]["header_font"].lstrip("#"))
     c.fill = PatternFill("solid", fgColor=th["palette"]["header_fill"].lstrip("#"))
+    c.border = CELL_BOX
+    return c

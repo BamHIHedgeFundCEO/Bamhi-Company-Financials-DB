@@ -91,6 +91,8 @@ export interface FinancialsResult {
   periods: string[] // 由舊到新
   lineItems: LineItem[]
   derived: DerivedMetric[]
+  /** 偵測到上市/SPAC 借殼前的期（股數基礎不可比，已清為 n/a）；供 UI/Excel 標註 */
+  preIpoBefore?: string
 }
 
 let cachedMap: XbrlMap | null = null
@@ -463,6 +465,30 @@ export async function getFinancials(
     }
   }
 
+  // 上市／SPAC 借殼前偵測：股數序列早期出現一次「非分割」的大跳增（借殼或 IPO 增資），
+  // 之前的期屬私有公司股數基礎，與上市後不可比（EPS 等會嚴重失真）→ 清為 n/a 並標註。
+  let preIpoBefore: string | undefined
+  if (!useIfrs) {
+    const sharesLi = byId.get('shares_basic') ?? byId.get('shares_diluted')
+    const seq = [...allPeriods]
+      .sort()
+      .map((p) => ({ p, v: sharesLi?.values[p]?.value ?? null }))
+      .filter((x) => x.v != null) as { p: string; v: number }[]
+    const latest = seq.length ? seq[seq.length - 1].v : 0
+    for (let i = 1; i < seq.length && i <= 8; i++) {
+      // 跳增 >2.5 倍，且跳增前股數 < 最新的 40%（確保是新創上市，不是成熟公司的一般增發）
+      if (seq[i].v >= 2.5 * seq[i - 1].v && seq[i - 1].v < 0.4 * latest) {
+        preIpoBefore = seq[i].p
+        break
+      }
+    }
+    if (preIpoBefore) {
+      for (const li of lineItems) {
+        for (const p of allPeriods) if (p < preIpoBefore) delete li.values[p]
+      }
+    }
+  }
+
   const periods = [...allPeriods].sort() // FY2023 Q1 < FY2023 Q2 < ...（年度模式 FY2023 < FY2024）字典序即正確
   return {
     company: facts.entityName || ref.name,
@@ -474,6 +500,7 @@ export async function getFinancials(
     periods,
     lineItems,
     derived: map.derived,
+    preIpoBefore,
   }
 }
 

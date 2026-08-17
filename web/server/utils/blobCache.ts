@@ -16,11 +16,17 @@
 
 let warned = false
 
+/**
+ * 兩種認證方式都要支援：
+ * - **OIDC**（Vercel 連結 Blob store 的預設）：注入 `BLOB_STORE_ID`，執行期由平台
+ *   提供 `VERCEL_OIDC_TOKEN`。連結 store 後 **不會** 產生 `BLOB_READ_WRITE_TOKEN`。
+ * - **靜態 token**：手動設定 `BLOB_READ_WRITE_TOKEN`（本機測試或非 Vercel 環境）。
+ */
 function enabled(): boolean {
-  const ok = Boolean(process.env.BLOB_READ_WRITE_TOKEN)
+  const ok = Boolean(process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID)
   if (!ok && !warned) {
     warned = true
-    console.warn('[blobCache] BLOB_READ_WRITE_TOKEN 未設定 —— 持久快取停用（僅記憶體快取）')
+    console.warn('[blobCache] 未設定 BLOB_STORE_ID / BLOB_READ_WRITE_TOKEN —— 持久快取停用（僅記憶體快取）')
   }
   return ok
 }

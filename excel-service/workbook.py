@@ -461,6 +461,14 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
     LABEL_F = Font(color="15171A")
     NOTE_F = Font(size=9, color="8C9199")
 
+    # 配色走設定層（config/theme.json），取不到才回退既有常數
+    pal = th["palette"]
+    def _c(key, fallback):
+        return pal.get(key, fallback).lstrip("#")
+    INPUT_F = Font(color=_c("input_font", "0000FF"))
+    INPUT_FILL = PatternFill("solid", fgColor=_c("input_fill", "FFFFCC"))
+    LINK_F = Font(color=_c("link_font", "0E6B5A"))
+
     c2l, c2v = data_start, data_start + 1        # 前瞻：標籤 / 數值欄
     c3l, c3v = data_start + 2, data_start + 3    # 反推：標籤 / 數值欄
     L2, L3 = g(c2v), g(c3v)
@@ -472,15 +480,16 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
         vws.cell(row=row, column=col, value=zh).font = LABEL_F
 
     def vval(col, row, val, fmt, kind="formula"):
-        if val is None:
+        # 空的輸入格仍要建立並上色（FY+1/FY+2 EPS 待使用者填），只有非輸入格才略過
+        if val is None and kind != "input":
             return
         c = vws.cell(row=row, column=col, value=val)
         c.number_format = fmt
         if kind == "input":
-            c.font = BLUE_INPUT
-            c.fill = BLUE_FILL
+            c.font = INPUT_F
+            c.fill = INPUT_FILL
         elif kind == "shares":
-            c.font = GREEN_LINK
+            c.font = LINK_F
 
     # 加寬區塊用到的欄（同時是歷史表前幾季欄，只加寬不縮窄）
     vws.column_dimensions["A"].width = 26
@@ -517,13 +526,22 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
     vlab(c3l, 6, "上漲空間（FY+1）");          vval(c3v, 6, f'=IFERROR(${L3}$3/$B$3-1,"n/a")', '0.0%')
     vlab(c3l, 7, "上漲空間（FY+2）");          vval(c3v, 7, f'=IFERROR(${L3}$4/$B$3-1,"n/a")', '0.0%')
 
-    # 上漲空間紅綠條件式（正綠負紅）
+    # 上漲空間紅綠條件式（正綠負紅）— 粗體＋底色，跟綠字跨表連結明顯區隔
     from openpyxl.formatting.rule import CellIsRule
-    red = Font(color="C0392B"); grn = Font(color="0E6B5A")
+    up_f, up_fill = _c("upside_positive", "107C41"), _c("upside_positive_fill", "C6EFCE")
+    dn_f, dn_fill = _c("upside_negative", "9C0006"), _c("upside_negative_fill", "FFC7CE")
     for rr in (6, 7):
         cc = f"{L3}{rr}"
-        vws.conditional_formatting.add(cc, CellIsRule(operator="greaterThan", formula=["0"], font=grn))
-        vws.conditional_formatting.add(cc, CellIsRule(operator="lessThan", formula=["0"], font=red))
+        vws[cc].font = Font(bold=True, color=up_f)
+        # ⚠ 條件格式的 dxf solid fill，Excel 讀 bgColor 而非 fgColor → 兩者都寫才會上色
+        vws.conditional_formatting.add(cc, CellIsRule(
+            operator="greaterThan", formula=["0"],
+            font=Font(bold=True, color=up_f),
+            fill=PatternFill("solid", fgColor=up_fill, bgColor=up_fill)))
+        vws.conditional_formatting.add(cc, CellIsRule(
+            operator="lessThan", formula=["0"],
+            font=Font(bold=True, color=dn_f),
+            fill=PatternFill("solid", fgColor=dn_fill, bgColor=dn_fill)))
 
     # 說明備註
     vws.cell(row=10, column=1, value="藍字＝可修改輸入；黑字＝公式；綠字＝跨表連結").font = NOTE_F
@@ -567,8 +585,8 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
         pv = price_vals.get(p)
         if pv is not None:
             c.value = round(pv, 2)
-            c.font = BLUE_INPUT
-            c.fill = BLUE_FILL
+            c.font = INPUT_F
+            c.fill = INPUT_FILL
             c.number_format = '$0.00'
         else:
             c.value = missing

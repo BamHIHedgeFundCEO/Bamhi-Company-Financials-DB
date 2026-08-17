@@ -7,7 +7,14 @@
     "header_fill": "#F2F3F0",
     "header_font": "#15171A",
     "accent": "#C25A18",
-    "gridline": "#D9D9D9"
+    "gridline": "#D9D9D9",
+    "input_font": "#0000FF",
+    "input_fill": "#FFFFCC",
+    "link_font": "#0E6B5A",
+    "upside_positive": "#107C41",
+    "upside_positive_fill": "#C6EFCE",
+    "upside_negative": "#9C0006",
+    "upside_negative_fill": "#FFC7CE"
   },
   "fonts": {
     "body": "Calibri",

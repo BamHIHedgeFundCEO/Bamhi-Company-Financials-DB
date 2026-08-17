@@ -88,11 +88,35 @@ export interface SegmentAxisBlock {
   members: SegmentMemberRow[]
 }
 
+/**
+ * 期間種類。`A` = 年度、`Q` = 單一季度。
+ *
+ * 這個欄位不是裝飾用的 —— 它是正確性的一部分。10-Q 的 instance 裡，同一個期末日
+ * **同時**存在單季（90 天）與累計（YTD，177–273 天）兩組事實，實測 AAPL / KO /
+ * TSLA / MSFT 皆如此。只用期末日當 key 的話兩者會互相覆蓋，得到的數字是隨機的
+ * 單季或累計，例如 AAPL 2025-06-28 的 Product 可能是 666 億（單季）也可能是
+ * 2,333 億（九個月累計）。所以期間 key 一律帶種類後綴。
+ */
+export type PeriodKind = 'A' | 'Q'
+
+/** 期間 key：`2025-09-27#A`。日期與種類都在裡面，跨粒度不會撞。 */
+export function periodKey(end: string, kind: PeriodKind): string {
+  return `${end}#${kind}`
+}
+
+export function splitPeriod(key: string): { end: string; kind: PeriodKind } {
+  const i = key.lastIndexOf('#')
+  return i < 0
+    ? { end: key, kind: 'A' }
+    : { end: key.slice(0, i), kind: key.slice(i + 1) as PeriodKind }
+}
+
 export interface SegmentsResult {
   company: string
   cik: string
   ticker: string
   configVersion: string
+  /** 已排序：年度欄在前、季度欄在後，各自依日期遞增 */
   periods: string[]
   axes: SegmentAxisBlock[]
   /** 抓不到 instance、對不上總額等情形，據實回報而不是安靜吞掉 */
@@ -245,14 +269,43 @@ interface ExtractedFilingSegments {
   labels: Record<string, string>
 }
 
+/** 期間長度（天）。instant（無起日）回 null。 */
+function durationDays(ctx: Ctx): number | null {
+  if (!ctx.start || !ctx.end) return null
+  const d = (Date.parse(ctx.end) - Date.parse(ctx.start)) / 86_400_000
+  return Number.isFinite(d) ? Math.round(d) : null
+}
+
+/**
+ * 這筆事實的期間長度符不符合我們要的粒度。
+ *
+ * 年度取 300–400 天（會計年度 52/53 週制會落在 358–371），季度取 80–100 天
+ * （實測 MSFT 是 89 天、多數是 90–92）。**中間的累計期一律丟掉** —— 半年報
+ * （177–184 天）與九個月（272–273 天）長得跟單季很像但意義完全不同，混進來就是
+ * 錯的數字。instant（資產類，無起日）沒有期間，隨申報本身的粒度走。
+ */
+function matchesKind(ctx: Ctx, want: PeriodKind): boolean {
+  const d = durationDays(ctx)
+  if (d === null) return true // instant：期末資產餘額，粒度由申報決定
+  return want === 'A' ? d >= 300 && d <= 400 : d >= 80 && d <= 100
+}
+
+/** 申報表單 → 期間粒度。10-Q 給季、年報給年。 */
+export function kindOfForm(form: string): PeriodKind {
+  return form.startsWith('10-Q') ? 'Q' : 'A'
+}
+
 /**
  * 單份申報 → 分部資料。回傳體積很小（幾 KB），適合進持久快取；
  * 原始 instance（0.7–14MB）刻意不快取，見 blobCache.ts 的設計說明。
+ *
+ * `wantKind` 決定收哪一種期間長度的事實，見 matchesKind 的說明。
  */
 export async function extractFromInstance(
   xml: string,
   cfg: SegmentAxesConfig,
   tagToConcept: Map<string, string>,
+  wantKind: PeriodKind = 'A',
 ): Promise<ExtractedFilingSegments> {
   const { contexts, facts } = parseInstance(xml)
   const axisByName = new Map(cfg.axes.map((a) => [a.axis, a]))
@@ -270,8 +323,9 @@ export async function extractFromInstance(
     const cid = tagToConcept.get(bare)
     if (!cid || !wantedConcepts.has(cid)) continue
 
-    // 期間標籤用期末日；流量科目只收單季/年度，排除累計期（半年、九月）
-    const period = ctx.end
+    // 只收指定粒度：年度收 ~365 天、季度收 ~90 天，累計期（半年/九個月）丟掉
+    if (!matchesKind(ctx, wantKind)) continue
+    const period = periodKey(ctx.end, wantKind)
 
     if (ctx.dims.length === 0) {
       // 無維度 = 合併總額，拿來做階層校驗
@@ -318,44 +372,152 @@ export async function extractFromInstance(
 }
 
 /**
- * 標出上層匯總成員。
+ * ── 上層匯總（parent）的判定 ────────────────────────────────────────────────
  *
- * 申報檔沒有直接標父子關係，但可以反推：如果「全部成員加總」對不上合併總額，
- * 而「拿掉某個成員後剛好對上」，那個成員就是上層匯總。實測 AAPL 認出 product
- * （307B，含 iPhone/Mac/iPad/穿戴）、NVDA 認出 datacenter（194B，含
- * compute+networking），零硬編碼。
+ * 申報檔沒有直接標父子關係，但可以反推：成員全部加總若對不上合併總額，就表示裡面
+ * 混了上層小計。實測 AAPL 認出 product（307B，含 iPhone/Mac/iPad/穿戴）、NVDA 認出
+ * datacenter（194B，含 compute+networking）、MSFT 認出 product+service，零硬編碼。
  *
  * ⚠️ 只「標記」不「刪除」。上層數字是公司真的揭露的資料，而且常常是最有價值的
  * 那一層 —— Apple 的成本只揭露到產品/服務這層，若把 product 從營收裡刪掉，
  * 硬體與服務的毛利率差距就永遠算不出來了。呈現時照列，只是不進合計。
  */
-export function reconcileHierarchy(
-  members: Record<string, Record<string, number>>,
-  total: number | undefined,
-  conceptId: string,
-  tolerancePct: number,
-): { parents: Set<string>; verified: boolean } {
-  const keys = Object.keys(members).filter((k) => typeof members[k][conceptId] === 'number')
-  const parents = new Set<string>()
-  if (total === undefined || keys.length === 0) return { parents, verified: false }
 
-  const tol = Math.abs(total) * (tolerancePct / 100)
-  const valOf = (k: string) => members[k][conceptId]
-  let live = [...keys]
-  let sum = live.reduce((s, k) => s + valOf(k), 0)
+/** 位元遮罩窮舉的上限。2^18 ≈ 26 萬次累加，每次呼叫仍在毫秒級。 */
+const SUBSET_MAX_MEMBERS = 18
 
-  // 每輪認出一個「拿掉後剛好對上」的上層；最多認到剩兩個成員
-  for (let guard = 0; guard < 8 && Math.abs(sum - total) > tol && live.length > 2; guard++) {
-    const parent = live.find((k) => Math.abs(sum - valOf(k) - total) <= tol)
-    if (!parent) break
-    live = live.filter((k) => k !== parent)
-    parents.add(parent)
-    sum -= valOf(parent)
+/**
+ * 找出「加總等於合併總額」且成員數最多的所有子集合，回傳其位元遮罩陣列。
+ * 沒有任何子集合對得上時回空陣列。
+ *
+ * 為什麼要挑**最多**成員的那一組：同一份申報常常同時揭露兩層完整的拆法，兩層加
+ * 起來都等於總額。MSFT 的產品軸就是 {產品, 服務} 與 {伺服器與雲, M365, LinkedIn,
+ * Windows, Dynamics, 遊戲, 搜尋…} 兩組並存，各自都對得上 331.8B。取成員多的那組
+ * 當子項，資訊量最大；粗的那層自動落成上層匯總。
+ *
+ * 用 i & (i-1) 遞推子集合和，整體是 O(2^n) 而不是 O(2^n · n)。
+ */
+function largestSubsetsMatching(vals: number[], total: number, tol: number): number[] {
+  const n = vals.length
+  const size = 1 << n
+  const sums = new Float64Array(size)
+  let best = -1
+  let out: number[] = []
+  for (let i = 1; i < size; i++) {
+    const low = i & -i
+    const rest = i ^ low
+    // Math.log2 對 2 的冪是精確的，拿來取最低位的索引
+    sums[i] = sums[rest] + vals[Math.log2(low)]
+    if (Math.abs(sums[i] - total) <= tol) {
+      let bits = 0
+      for (let m = i; m; m &= m - 1) bits++
+      if (bits > best) {
+        best = bits
+        out = [i]
+      } else if (bits === best) {
+        out.push(i)
+      }
+    }
+  }
+  return out
+}
+
+/**
+ * 單一期間 → 候選上層集合（可能不只一組，見 reconcileConcept 的說明）。
+ * 空陣列代表這期對不上總額；`[[]]` 代表這期本來就是單層、沒有上層。
+ */
+function candidateParents(keys: string[], vals: number[], total: number, tol: number): string[][] {
+  if (Math.abs(vals.reduce((a, b) => a + b, 0) - total) <= tol) return [[]]
+
+  if (keys.length <= SUBSET_MAX_MEMBERS) {
+    return largestSubsetsMatching(vals, total, tol).map((mask) =>
+      keys.filter((_, i) => !(mask & (1 << i))).sort(),
+    )
   }
 
-  const verified = Math.abs(sum - total) <= tol
+  // 成員太多（JNJ 這類上百個成員）→ 退回逐一剔除的貪婪法，避免 2^n 爆炸
+  const valOf = new Map(keys.map((k, i) => [k, vals[i]]))
+  const parents: string[] = []
+  let live = [...keys]
+  let sum = vals.reduce((a, b) => a + b, 0)
+  for (let guard = 0; guard < 8 && Math.abs(sum - total) > tol && live.length > 2; guard++) {
+    const parent = live.find((k) => Math.abs(sum - valOf.get(k)! - total) <= tol)
+    if (!parent) break
+    live = live.filter((k) => k !== parent)
+    parents.push(parent)
+    sum -= valOf.get(parent)!
+  }
   // 沒對上就不能宣稱誰是上層 —— 寧可全部平鋪，也不要憑猜測藏數字
-  if (!verified) parents.clear()
+  return Math.abs(sum - total) <= tol ? [parents.sort()] : []
+}
+
+/**
+ * 跨期一次決定「誰是上層匯總」，而不是每期各自判斷。
+ *
+ * 為什麼不能逐期判斷：同一期常常有**好幾組**成員都剛好加得出總額。Tesla 的產品軸
+ * 就有 {車輛銷售, 監管積分, 車輛租賃, 儲能, 服務及其他} 與 {車輛銷售, 監管積分,
+ * 車輛租賃, 儲能, 儲能銷售} 兩組都是 5 個成員、都對得上總額。逐期挑就會這期選這組、
+ * 下期選那組 —— 同一個成員在 FY2025 欄算子項、在 Q2 欄卻算上層，合計列就會有的欄
+ * 多算、有的欄少算。
+ *
+ * 作法：每期各自算出「最多成員」的候選解，把對應的上層集合拿去跨期計票，取得票
+ * 最高的一組（同票取上層較少的，寧可平鋪也不要多藏數字），然後**同一組套用到所有
+ * 期間**，再逐期驗算加總對不對得上，對不上的那一期照實標為未校驗。
+ */
+export function reconcileConcept(
+  byPeriod: Record<string, Record<string, Record<string, number>>>,
+  totals: Record<string, Record<string, number>>,
+  periods: string[],
+  conceptId: string,
+  tolerancePct: number,
+): { parents: Set<string>; verified: Record<string, boolean> } {
+  const votes = new Map<string, { set: string[]; count: number }>()
+
+  for (const p of periods) {
+    const members = byPeriod[p]
+    const total = totals[p]?.[conceptId]
+    if (!members || total === undefined) continue
+    const keys = Object.keys(members).filter((k) => typeof members[k][conceptId] === 'number')
+    if (keys.length === 0) continue
+    const vals = keys.map((k) => members[k][conceptId])
+    const tol = Math.abs(total) * (tolerancePct / 100)
+    // 候選可能不只一組（成員數相同、也都對得上總額）→ 各投一票，交給跨期票數決定
+    for (const set of candidateParents(keys, vals, total, tol)) {
+      const id = set.join('|')
+      const v = votes.get(id) ?? { set, count: 0 }
+      v.count++
+      votes.set(id, v)
+    }
+  }
+
+  let winner: string[] = []
+  let bestCount = -1
+  for (const { set, count } of votes.values()) {
+    if (count > bestCount || (count === bestCount && set.length < winner.length)) {
+      winner = set
+      bestCount = count
+    }
+  }
+  const parents = new Set(winner)
+
+  const verified: Record<string, boolean> = {}
+  for (const p of periods) {
+    const members = byPeriod[p]
+    const total = totals[p]?.[conceptId]
+    if (!members || total === undefined) {
+      verified[p] = false
+      continue
+    }
+    let sum = 0
+    let any = false
+    for (const [k, byC] of Object.entries(members)) {
+      const v = byC[conceptId]
+      if (typeof v !== 'number' || parents.has(k)) continue
+      sum += v
+      any = true
+    }
+    verified[p] = any && Math.abs(sum - total) <= Math.abs(total) * (tolerancePct / 100)
+  }
   return { parents, verified }
 }
 
@@ -389,14 +551,16 @@ export async function getSegments(
   const merged: ExtractedFilingSegments = { data: {}, totals: {}, labels: {} }
 
   for (const f of filings) {
-    const key = `seg/${ref.cik10}/${f.accessionNumber}.json`
+    // v2：期間 key 加上 A/Q 種類後綴（見 periodKey）。舊快取的 key 沒有後綴，
+    // 直接沿用會把季度與年度混在一起，所以換路徑而不是原地覆寫。
+    const key = `seg/v2/${ref.cik10}/${f.accessionNumber}.json`
     let one: ExtractedFilingSegments | null = null
     try {
       one = await cached(key, async () => {
         const url = await instanceUrl(ref.cik, f.accessionNumber)
         if (!url) throw new Error('找不到 XBRL instance')
         const xml = await secFetchText(url)
-        return extractFromInstance(xml, cfg, tagIdx)
+        return extractFromInstance(xml, cfg, tagIdx, kindOfForm(f.form))
       })
     } catch (err) {
       warnings.push(`${f.form} ${f.reportDate}：${(err as Error).message}`)
@@ -414,7 +578,15 @@ export async function getSegments(
     Object.assign(merged.labels, one.labels)
   }
 
-  const periods = Object.keys(merged.data).sort()
+  // 年度欄在前、季度欄在後，各自依日期遞增。
+  // 刻意不按時間單一排序：把 FY2024 夾在 FY2025 Q1 與 Q2 中間，柱狀圖會變成
+  // 一根年度長條旁邊三根季度短條，視覺上就是錯的。分成兩段，圖表也各畫各的。
+  const periods = Object.keys(merged.data).sort((a, b) => {
+    const pa = splitPeriod(a)
+    const pb = splitPeriod(b)
+    if (pa.kind !== pb.kind) return pa.kind === 'A' ? -1 : 1
+    return pa.end < pb.end ? -1 : pa.end > pb.end ? 1 : 0
+  })
   const blocks: SegmentAxisBlock[] = []
 
   for (const def of cfg.axes.slice().sort((a, b) => a.priority - b.priority)) {
@@ -428,17 +600,33 @@ export async function getSegments(
     }
     if (memberKeys.size === 0) continue
 
+    // 上層匯總「跨期一次決定」，逐期各判會前後不一致（見 reconcileConcept）
+    const byPeriodMembers: Record<string, Record<string, Record<string, number>>> = {}
+    for (const p of periods) {
+      const m = merged.data[p]?.[def.axis]
+      if (m) byPeriodMembers[p] = m
+    }
+    const hier = new Map<string, ReturnType<typeof reconcileConcept>>()
+    for (const cid of conceptIds) {
+      hier.set(
+        cid,
+        reconcileConcept(
+          byPeriodMembers,
+          merged.totals,
+          periods,
+          cid,
+          cfg.hierarchy.tolerance_pct,
+        ),
+      )
+    }
+
     const rows = new Map<string, SegmentMemberRow>()
     for (const p of periods) {
       const byMember = merged.data[p]?.[def.axis]
       if (!byMember) continue
       for (const cid of conceptIds) {
-        const { parents, verified } = reconcileHierarchy(
-          byMember,
-          merged.totals[p]?.[cid],
-          cid,
-          cfg.hierarchy.tolerance_pct,
-        )
+        const { parents, verified: verifiedByPeriod } = hier.get(cid)!
+        const verified = verifiedByPeriod[p] ?? false
         for (const [mk, byC] of Object.entries(byMember)) {
           const v = byC[cid]
           if (typeof v !== 'number') continue

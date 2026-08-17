@@ -1,5 +1,5 @@
 import { defineEventHandler, getQuery, createError } from 'h3'
-import { resolveTicker } from '../utils/cik'
+import { resolveCompany } from '../utils/cik'
 import { getFinancials } from '../utils/financials'
 import { parseTickers, parseRange, clampPeriods } from '../utils/params'
 import { computeValuation } from '../utils/valuation'
@@ -16,7 +16,7 @@ export default defineEventHandler(async (event) => {
 
   const results = []
   for (const t of tickers) {
-    const ref = await resolveTicker(t)
+    const ref = await resolveCompany(t)
     if (!ref) {
       throw createError({
         statusCode: 404,

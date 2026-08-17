@@ -1,6 +1,37 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "note": "每個分頁要畫哪些圖。series/bars/line 的值為 xbrl_zh_map.json 的 concept id 或 derived id。改圖表只改此檔，不動程式。",
+  "segment_note": "分部分頁的圖：列是動態的（各家揭露的分部成員不同），所以不指定 concept id 而指定「來源」。source=concept 取該科目的成員列（不含上層匯總），source=derived 取衍生區塊（block 為區塊中文標題）。每張圖對每個分部軸各畫一次；欄範圍只取季度段，季度不足 4 期時改取年度段。",
+  "segment_charts": [
+    {
+      "type": "stacked_bar",
+      "title": "各分部營收",
+      "source": "concept",
+      "concept": "revenue",
+      "y_format": "money"
+    },
+    {
+      "type": "line",
+      "title": "分部營收佔比",
+      "source": "derived",
+      "block": "營收佔比",
+      "y_format": "percent"
+    },
+    {
+      "type": "line",
+      "title": "分部毛利率",
+      "source": "derived",
+      "block": "分部毛利率",
+      "y_format": "percent"
+    },
+    {
+      "type": "line",
+      "title": "分部營業利益率",
+      "source": "derived",
+      "block": "分部營業利益率",
+      "y_format": "percent"
+    }
+  ],
   "sheets": {
     "損益表": [
       {

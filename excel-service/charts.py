@@ -202,6 +202,75 @@ def build_chart(spec: dict, cats_ws, locate, n_quarters: int):
     return chart
 
 
+def build_range_chart(ws, spec: dict, rows: list[tuple[str, int]], first_col: int,
+                      n_cols: int, header_row: int = 1):
+    """
+    明確指定「哪幾列、哪幾欄」的建圖版本。
+
+    分部分頁不能用 build_chart：那支是靠 chart_spec 的 concept id 去全活頁簿定位，
+    但分部的列是動態長出來的（各家揭露的成員不同，見 workbook._build_segment_sheet），
+    而且欄要能只取年度段或只取季度段 —— 年度長條和季度長條畫在同一張圖上，
+    一根年度旁邊三根季度，視覺上就是錯的。
+
+    rows: [(系列名, 列號)]；first_col/n_cols: 資料欄範圍；header_row: 類別標籤所在列。
+    """
+    th = theme()
+    palette = th["palette"]["chart_series"]
+    if not rows or n_cols <= 0:
+        return None
+
+    def vref(r):
+        return Reference(ws, min_col=first_col, max_col=first_col + n_cols - 1,
+                         min_row=r, max_row=r)
+
+    cats = Reference(ws, min_col=first_col, max_col=first_col + n_cols - 1,
+                     min_row=header_row, max_row=header_row)
+
+    kind = spec["type"]
+    is_line = kind == "line"
+    if is_line:
+        chart = LineChart()
+    else:
+        chart = BarChart()
+        chart.type = "col"
+        chart.gapWidth = 60
+        if kind == "stacked_bar":
+            chart.grouping = "stacked"
+            chart.overlap = 100
+
+    series = []
+    for i, (name, r) in enumerate(rows):
+        s = Series(vref(r), title=name)
+        c = _hex(palette[i % len(palette)])
+        gp = GraphicalProperties()
+        if is_line:
+            gp.line = LineProperties(solidFill=c, w=22225)
+            gp.noFill = True
+            s.smooth = False
+        else:
+            gp.solidFill = c
+            gp.line = LineProperties(noFill=True)
+            s.invertIfNegative = False
+        s.graphicalProperties = gp
+        series.append(s)
+    chart.series = series
+    chart.set_categories(cats)
+
+    MONEY = th["number_formats"]["usd_millions_axis"]
+    y_fmt = {"percent": "0%", "money": MONEY}.get(spec.get("y_format"),
+                                                  None if is_line else MONEY)
+    chart.title = spec["title"] + ("（百萬美元）" if y_fmt == MONEY else "")
+    chart.width = th["chart"]["width_cols"] * 2.0
+    chart.height = th["chart"]["height_rows"] * 0.7
+    if y_fmt:
+        chart.y_axis.number_format = y_fmt
+        chart.y_axis.numFmt = y_fmt
+    if len(chart.series) <= 1:
+        chart.legend = None
+    _style_chart(chart, th)
+    return chart
+
+
 def place_charts(ws, specs: list[dict], locate, n_quarters: int, anchor_row: int,
                  index: list | None = None) -> int:
     """資料區下方直向排列，每張圖獨立一段，留足間距不重疊。回傳下一個可用列。

@@ -1,9 +1,11 @@
 """煙霧測試：合成分部 payload → 生成活頁簿 → 讀回驗證分部分頁的硬規則。
 
-鎖住三條容易做錯的不變式：
+鎖住這些容易做錯的不變式：
   1. 上層匯總（Apple 的「產品」含 iPhone/Mac/iPad）不能進合計，否則重複計算
   2. 合計與各項比率一律是 Excel 公式，不是算好的數值
   3. 各公司揭露科目不同 → 列是動態長出來的，不是寫死
+  4. 年度欄與季度欄分段，且圖表只取其中一段（混畫會讓年度長條比季度高四倍）
+  5. 季別由會計年度結束月份回推，不是看曆月
 
 python test_segments.py
 """
@@ -11,9 +13,12 @@ from io import BytesIO
 
 from openpyxl import load_workbook
 
-from workbook import build_workbook
+from workbook import _period_label, build_workbook
 
-PERIODS = ["2024-09-28", "2025-09-27"]
+# 會計年度 9 月結（Apple 式）：年度兩期 + 連續四季
+ANNUAL = ["2024-09-28#A", "2025-09-27#A"]
+QUARTERS = ["2025-12-27#Q", "2026-03-28#Q", "2026-06-27#Q", "2026-09-26#Q"]
+PERIODS = ANNUAL + QUARTERS
 
 
 def cell(v, verified=True, parent=False):
@@ -108,7 +113,39 @@ def main() -> None:
         r += 1
     assert "產品" not in share_labels, f"上層不該出現在營收佔比：{share_labels}"
 
-    print("OK — 上層不進合計 / 合計為公式 / 比率為公式 / 上層毛利率保留 / 佔比排除上層")
+    # 7. 欄位標籤：年度給 FY、季度回推季別（9 月結 → 6 月底是 Q3，不是 Q2）
+    labels = [ws.cell(row=1, column=3 + i).value for i in range(len(PERIODS))]
+    assert labels[:2] == ["FY2024", "FY2025"], labels
+    assert labels[2:] == ["FY2026 Q1", "FY2026 Q2", "FY2026 Q3", "FY2026 Q4"], labels
+
+    # 8. 圖表要畫出來，且只涵蓋季度欄（第 5 欄起共 4 欄），不能把年度混進去
+    assert ws._charts, "分部分頁沒有圖表"
+    seen = set()
+    for ch in ws._charts:
+        for s in ch.series:
+            ref = s.val.numRef.f  # 例：'分部數據'!$E$5:$H$5
+            rng = ref.split("!")[1].replace("$", "")
+            lo, hi = rng.split(":")
+            seen.add((lo[0], hi[0]))
+    assert seen == {("E", "H")}, f"圖表欄範圍應只含 4 個季度欄 E:H，實際 {seen}"
+
+    print("OK — 上層不進合計 / 合計為公式 / 比率為公式 / 上層毛利率保留 / "
+          "佔比排除上層 / 季別回推正確 / 圖表只取季度欄")
+
+
+def test_period_label() -> None:
+    """季別要靠會計年度結束月份回推。看曆月的話 NVDA 會全錯一整年。"""
+    # NVDA：1 月結 → 4 月底是「下一個會計年度」的 Q1
+    assert _period_label("2026-04-26#Q", 1) == "FY2027 Q1"
+    assert _period_label("2026-01-25#A", 1) == "FY2026"
+    # AAPL：9 月結
+    assert _period_label("2026-06-27#Q", 9) == "FY2026 Q3"
+    assert _period_label("2025-12-27#Q", 9) == "FY2026 Q1"
+    # 曆年公司：12 月結
+    assert _period_label("2026-03-31#Q", 12) == "FY2026 Q1"
+    # 推不出會計年度結束月 → 保守標法，不猜季別
+    assert _period_label("2026-06-30#Q", None) == "2026-06 季"
+    print("OK — 季別由會計年度結束月份回推（NVDA 1 月結 / AAPL 9 月結皆正確）")
 
 
 def test_api_layer() -> None:
@@ -132,5 +169,6 @@ def test_api_layer() -> None:
 
 
 if __name__ == "__main__":
+    test_period_label()
     main()
     test_api_layer()

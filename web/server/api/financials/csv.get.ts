@@ -1,5 +1,5 @@
 import { defineEventHandler, getQuery, setHeader, createError } from 'h3'
-import { resolveTicker } from '../../utils/cik'
+import { resolveCompany } from '../../utils/cik'
 import { getFinancials } from '../../utils/financials'
 import { parseTickers, parseRange, clampPeriods } from '../../utils/params'
 
@@ -17,7 +17,7 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 400, statusMessage: 'Bad Request', message: 'statement 須為 IS、BS 或 CF' })
   }
 
-  const ref = await resolveTicker(ticker)
+  const ref = await resolveCompany(ticker)
   if (!ref) {
     throw createError({ statusCode: 404, statusMessage: 'Not Found', message: `找不到「${ticker}」` })
   }

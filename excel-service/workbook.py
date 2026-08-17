@@ -13,7 +13,7 @@ from openpyxl.comments import Comment
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 
-from charts import place_charts, set_data_start
+from charts import build_range_chart, place_charts, set_data_start
 from config_loader import chart_spec, theme, xbrl_map
 from formulas import FIRST_DATA_COL, RefResolver, translate
 
@@ -139,10 +139,14 @@ def build_workbook(payload: dict) -> bytes:
             "companyfacts API 裡——該 API 不含維度資料——而是直接從申報的 XBRL instance 檔解析。"
             "揭露哪些科目由各公司依 ASC 280 自行決定（主要營運決策者看什麼才揭露什麼），"
             "所以每家公司的列數不同。標「上層匯總」的列不計入合計，避免重複計算"
-            "（如 Apple 的「產品」本身已含 iPhone／Mac／iPad）。")]
+            "（如 Apple 的「產品」本身已含 iPhone／Mac／iPad）。"
+            "欄位左段為年度（FY）、右段為單季（FY＋Q，均為單季而非累計）；"
+            "兩段不畫在同一張圖上，否則年度長條會比季度長條高約四倍，看起來像業績暴跌。")]
           if payload.get("segments", {}).get("axes") else []),
         ("圖表", "各報表分頁：前段為 chart_spec.json 定義的組合圖，後段為每一科目各一張圖。"
-         "要自訂組合圖，修改 repo 的 config/chart_spec.json 即可，不需改程式。"),
+         "分部數據分頁：每個分部軸各一組（營收堆疊圖＋佔比／毛利率／營業利益率折線圖），"
+         "定義在同一份設定檔的 segment_charts。"
+         "要自訂圖表，修改 repo 的 config/chart_spec.json 即可，不需改程式。"),
         ("免責聲明", DISCLAIMER),
     ]
     meta_fill = PatternFill("solid", fgColor=th["palette"]["header_fill"].lstrip("#"))
@@ -656,9 +660,39 @@ def _header_cell_at(ws, row: int, col: int, text: str, th: dict):
 SEGMENT_SHEET = "分部數據"
 
 
+def _split_period(key: str) -> tuple[str, str]:
+    """`2025-09-27#A` → ("2025-09-27", "A")。無後綴的舊格式當年度。"""
+    if "#" in key:
+        end, kind = key.rsplit("#", 1)
+        return end, kind
+    return key, "A"
+
+
 def _fy_label(iso: str) -> str:
     """期末日 → FY 標籤。以期末日年份為準（NVDA 2026-01-25 → FY2026，與公司自身命名一致）。"""
     return f"FY{iso[:4]}" if iso else "—"
+
+
+def _period_label(key: str, fy_end_month: int | None) -> str:
+    """
+    期間 key → 欄名。年度給 `FY2025`，季度給 `FY2026 Q3`。
+
+    季別要靠會計年度結束月份回推，不能看曆月：AAPL 的 6 月底是 Q3（會計年度
+    9 月結），NVDA 的 4 月底卻是 Q1（1 月結）。fy_end_month 取自同一批資料裡的
+    年度期間；真的推不出來（只有季度、沒有年度）就退回 `2026-06 季`，
+    寧可標得保守也不要標錯季別。
+    """
+    end, kind = _split_period(key)
+    if not end:
+        return "—"
+    if kind == "A":
+        return _fy_label(end)
+    m = int(end[5:7])
+    if not fy_end_month:
+        return f"{end[:7]} 季"
+    q = ((m - fy_end_month + 11) % 12) // 3 + 1
+    fy = int(end[:4]) + (0 if m <= fy_end_month else 1)
+    return f"FY{fy} Q{q}"
 
 
 def _build_segment_sheet(wb, seg: dict, th: dict):
@@ -684,16 +718,27 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
     periods: list[str] = seg["periods"]
     ncol = len(periods)
 
+    # 年度欄在前、季度欄在後（segments.ts 已排好）。兩段分開是刻意的：
+    # 把 FY2025 的長條和 FY2026 Q1 的長條畫在同一張圖上，一根年度旁邊三根季度，
+    # 高度差四倍，看起來像業績暴跌 —— 所以資料分段、圖表也各畫各的。
+    kinds = [_split_period(p)[1] for p in periods]
+    n_annual = sum(1 for k in kinds if k == "A")
+    n_quarter = ncol - n_annual
+    fy_end_month = next((int(_split_period(p)[0][5:7]) for p, k in zip(periods, kinds)
+                         if k == "A"), None)
+
     ws = wb.create_sheet(SEGMENT_SHEET)
     ws.sheet_view.showGridLines = False
     ws.sheet_properties.tabColor = pal["accent"].lstrip("#")
     _header_cell(ws, 1, "分部 / 科目", th)
     _header_cell(ws, 2, "Segment / Line Item", th)
     for i, p in enumerate(periods):
-        _header_cell(ws, FIRST_DATA_COL + i, _fy_label(p), th)
-        # 欄名只寫 FY，確切期末日放註解（各家會計年度結束日不同）
+        end, kind = _split_period(p)
+        _header_cell(ws, FIRST_DATA_COL + i, _period_label(p, fy_end_month), th)
+        # 欄名只寫 FY / FY+季，確切期末日放註解（各家會計年度結束日不同）
         ws.cell(row=1, column=FIRST_DATA_COL + i).comment = Comment(
-            f"期末日 {p}", "BamHI", height=60, width=180)
+            f"期末日 {end}\n{'年度（12 個月）' if kind == 'A' else '單季（3 個月，非累計）'}",
+            "BamHI", height=70, width=200)
     ws.freeze_panes = th["layout"]["freeze_panes"]
     ws.column_dimensions["A"].width = 30
     ws.column_dimensions["B"].width = 32
@@ -704,6 +749,10 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
     axis_font = Font(bold=True, size=12, color=pal["header_font"].lstrip("#"))
     axis_fill = PatternFill("solid", fgColor=pal["header_fill"].lstrip("#"))
     col_of = lambda i: get_column_letter(FIRST_DATA_COL + i)
+
+    # 圖表在所有資料區之後才畫，這裡先累積 (軸中文名, spec, [(系列名, 列號)])
+    pending_charts: list[tuple[str, dict, list[tuple[str, int]]]] = []
+    seg_specs = chart_spec().get("segment_charts", [])
 
     row = 2
     for block in seg["axes"]:
@@ -718,6 +767,9 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
         member_rows: dict[str, dict[str, int]] = {}
         total_rows: dict[str, int] = {}
         parent_keys: dict[str, set] = {}
+        # 圖表資料來源：只收子項（上層匯總畫進堆疊圖會讓總高度變兩倍）
+        child_rows: dict[str, list[tuple[str, int]]] = {}
+        derived_rows: dict[str, list[tuple[str, int]]] = {}
         unverified = False
 
         for cid in block["concepts"]:
@@ -761,6 +813,7 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
             first = row
             write_rows(children)
             last = row - 1
+            child_rows[cid] = [(m["zh"], member_rows[cid][m["key"]]) for m in children]
 
             if children:
                 ws.cell(row=row, column=1, value="　合計").font = Font(bold=True)
@@ -791,16 +844,20 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
             ws.cell(row=row, column=1, value=title_zh).font = Font(bold=True)
             ws.cell(row=row, column=2, value=title_en).font = Font(size=10, color="8C9199")
             row += 1
+            collected: list[tuple[str, int]] = []
             for k in rev:
                 if not formula(k, "C"):
                     continue
                 label = next((m for m in block["members"] if m["key"] == k), None)
-                ws.cell(row=row, column=1, value=f"　{label['zh'] if label else k}")
+                name = label["zh"] if label else k
+                ws.cell(row=row, column=1, value=f"　{name}")
                 for i in range(ncol):
                     c2 = ws.cell(row=row, column=FIRST_DATA_COL + i,
                                  value=formula(k, col_of(i)))
                     c2.number_format = nf["ratio"]
+                collected.append((name, row))
                 row += 1
+            derived_rows[title_zh] = collected
             row += 1
 
         if tot_rev:
@@ -816,6 +873,16 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
         derived("分部營業利益率", "Segment Operating Margin",
                 lambda k, L: (f'=IFERROR({L}{oi[k]}/{L}{rev[k]},"{missing}")' if k in oi else None))
 
+        # 這個軸要畫哪些圖：來源在 config/chart_spec.json 的 segment_charts，
+        # 這裡只負責把「動態長出來的列」對上去
+        for spec in seg_specs:
+            if spec.get("source") == "concept":
+                rows_for = child_rows.get(spec.get("concept", ""), [])
+            else:
+                rows_for = derived_rows.get(spec.get("block", ""), [])
+            if rows_for:
+                pending_charts.append((block["zh"], spec, rows_for))
+
         if unverified:
             note = ws.cell(
                 row=row, column=1,
@@ -829,3 +896,30 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
                   value="分部數據來自 SEC 申報的 XBRL instance 檔（companyfacts API 不含維度資料）。"
                         "各公司揭露的分部科目依 ASC 280 由該公司主要營運決策者所檢視的內容決定，因此列數各家不同。")
     src.font = Font(size=9, color="8C9199")
+    row += 3
+
+    # ── 圖表 ──────────────────────────────────────────────────────────────
+    # 欄範圍：季度夠多就畫季度（趨勢才看得出來），否則退回年度。
+    # 兩段永遠不混在同一張圖裡，理由見上方欄位排序的說明。
+    if n_quarter >= 4:
+        chart_first, chart_n, gran = FIRST_DATA_COL + n_annual, n_quarter, "季"
+    elif n_annual >= 2:
+        chart_first, chart_n, gran = FIRST_DATA_COL, n_annual, "年度"
+    else:
+        chart_first = chart_n = 0
+        gran = ""
+
+    if chart_n:
+        hint = ws.cell(row=row, column=1,
+                       value=f"以下圖表為{gran}資料（共 {chart_n} 期）；"
+                             "堆疊圖不含上層匯總成員，否則總高度會重複計算。")
+        hint.font = Font(size=9, color="8C9199")
+        row += 2
+        step = int(th["chart"]["height_rows"] * 0.7 / 0.53) + 5
+        for axis_zh, spec, rows_for in pending_charts:
+            titled = dict(spec, title=f"{axis_zh}：{spec['title']}")
+            chart = build_range_chart(ws, titled, rows_for, chart_first, chart_n)
+            if chart is None:
+                continue
+            ws.add_chart(chart, f"{get_column_letter(FIRST_DATA_COL)}{row}")
+            row += step

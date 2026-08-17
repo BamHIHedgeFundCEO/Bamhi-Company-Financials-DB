@@ -1,5 +1,5 @@
 import { defineEventHandler, getQuery, createError } from 'h3'
-import { resolveTicker } from '../utils/cik'
+import { resolveCompany } from '../utils/cik'
 import { getFilings } from '../utils/filings'
 import { parseTickers, parseRange } from '../utils/params'
 
@@ -18,7 +18,7 @@ export default defineEventHandler(async (event) => {
 
   const results = []
   for (const t of tickers) {
-    const ref = await resolveTicker(t)
+    const ref = await resolveCompany(t)
     if (!ref) {
       // Edge case 8：明確錯誤訊息，不回空陣列
       throw createError({

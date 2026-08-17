@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "updated": "2026-08-17",
   "note": "分部資料（segment）設定層。companyfacts API 不含維度資料，分部數字只在申報的 XBRL instance 裡，靠 context 的 explicitMember 帶出。實測 19 家（科技/銀行/藥廠/保險/能源/零售/小型股/外國發行人）結論：『軸』100% 是標準分類法（us-gaap / srt / ifrs-full），可當可靠錨點；『成員』幾乎 100% 是公司自訂（NVDA 9/9、TSLA 15/15、JNJ 57/58），所以成員一律用正規化規則處理，不做窮舉對照。要新增支援的軸改這個檔，不改程式。診斷工具：python tools/segment.py <TICKER>",
 
@@ -96,10 +96,10 @@
       "IntersegmentElimination",
       "ConsolidationEliminations",
       "Reconciling",
-      "Elimination",
-      "AllOtherSegments"
+      "Elimination"
     ],
-    "exclude_patterns_note": "調節項成員本身也常是自訂的（wmt:CorporateAndReconcilingItemsMember、cat:EliminationsAndReconcilingItemsMember、brka:CorporateReconcilingItemsAndEliminationsMember），白名單擋不住，所以額外用 pattern 比對成員裸名。"
+    "exclude_patterns_note": "調節項成員本身也常是自訂的（wmt:CorporateAndReconcilingItemsMember、cat:EliminationsAndReconcilingItemsMember、brka:CorporateReconcilingItemsAndEliminationsMember），白名單擋不住，所以額外用 pattern 比對成員裸名。",
+    "all_other_note": "us-gaap:AllOtherSegmentsMember 曾被列入排除，是錯的：ASC 280.16 的『所有其他分部』是不達量化門檻的營運分部彙總，它是合併總額的一部分，不是調節項。排除掉會讓分部加總永遠少一塊、永遠對不上總額 —— TXN 就是因此 100% 未校驗（它只有類比與嵌入式兩個應報告分部，其餘全歸 All Other）。"
   },
 
   "member_normalize": {
@@ -117,7 +117,8 @@
   "hierarchy": {
     "note": "成員之間有父子關係，全部加總會重複計算。實測：AAPL 的 product(307B) 本身就含 iPhone/Mac/iPad/穿戴，全加得 723B，實際總營收只有 416B（多算 74%）；NVDA 的 datacenter(194B) 含 compute+networking，全加得 410B，實際 216B。申報檔沒有直接標父子，但可以用合併總額反推。",
     "strategy": "reconcile_to_total",
-    "strategy_note": "拿 companyfacts 的合併總額當校驗值，逐一嘗試剔除『拿掉之後剩餘總和剛好等於合併總額』的成員（即父層）。AAPL 自動剔掉 product、NVDA 自動剔掉 datacenter，兩家都落在最細的那一層。零硬編碼。",
+    "strategy_note": "拿同一份 instance 裡『無維度 context』的合併總額當校驗值，找出加總等於它、且**成員數最多**的那一組當子項，其餘標為上層匯總。取成員最多的一組是關鍵：同一份申報常同時揭露兩層完整拆法，兩層加起來都等於總額（MSFT 的 {產品, 服務} 與 {伺服器與雲, M365, LinkedIn, Windows, Dynamics…} 各自都是 331.8B），取細的那層資訊量最大。AAPL 自動剔掉 product、NVDA 剔掉 datacenter、MSFT 剔掉 product+service、TSLA 剔掉車輛營收小計。零硬編碼。",
+    "cross_period_note": "上層集合是**跨期一次決定**再套用到所有期間，不是逐期各判。逐期判會出問題：同一期常有好幾組成員數相同、也都對得上總額的解，逐期挑就會這期選這組、下期選那組，同一個成員在年度欄算子項、季度欄卻算上層，合計列就會有的欄多算有的欄少算。作法是各期算出候選解後跨期計票，取票數最高者（同票取上層較少的）。",
     "tolerance_pct": 0.5,
     "tolerance_note": "容許 0.5% 誤差：四捨五入與極少數未分攤尾差。對不上就整組標為未驗證，寧可不顯示也不顯示錯的數字。"
   },
@@ -202,7 +203,72 @@
       "productsandservices": "產品與服務",
       "licenseandservice": "授權與服務",
       "allothersegments": "其他分部",
-      "other": "其他"
+      "other": "其他",
+
+      "_note_iso": "country: 命名空間的成員正規化後只剩兩碼 ISO 國碼（sg / gb / de …），不補這裡就會顯示成 \"Sg\"。",
+      "gb": "英國",
+      "de": "德國",
+      "fr": "法國",
+      "ca": "加拿大",
+      "mx": "墨西哥",
+      "br": "巴西",
+      "sg": "新加坡",
+      "kr": "南韓",
+      "in": "印度",
+      "au": "澳洲",
+      "nl": "荷蘭",
+      "ie": "愛爾蘭",
+      "ch": "瑞士",
+      "it": "義大利",
+      "es": "西班牙",
+      "hk": "香港",
+      "il": "以色列",
+      "vn": "越南",
+      "my": "馬來西亞",
+      "th": "泰國",
+
+      "asia": "亞洲",
+      "international": "國際",
+      "otherinternational": "其他國際",
+      "europemiddleeastafrica": "歐非中東",
+      "americasexcludingunitedstates": "美洲（不含美國）",
+      "allothercountriesnotseparatelydisclosed": "其他未單獨揭露地區",
+      "foreigncountries": "海外",
+
+      "corporate": "公司總部",
+      "total": "合計",
+      "reportable": "應報告分部合計",
+      "serviceother": "服務及其他",
+      "otherrevenue": "其他營收",
+      "otherproductsandservices": "其他產品與服務",
+      "advertising": "廣告",
+      "subscription": "訂閱",
+      "entertainment": "娛樂",
+
+      "_note_msft": "MSFT 的產品線成員。ThreeSixFive 是 365 被駝峰拆字拆出來的，不補會顯示成 \"Microsoft Three Six Five\"。",
+      "serverproductsandcloudservices": "伺服器產品與雲端服務",
+      "microsoftthreesixfivecommercialproductsandcloudservices": "Microsoft 365 商用",
+      "microsoftthreesixfiveconsumerproductsandcloudservices": "Microsoft 365 消費者",
+      "linkedincorporation": "LinkedIn",
+      "windowsanddevices": "Windows 與裝置",
+      "dynamicsproductsandcloudservices": "Dynamics",
+      "searchandnewsadvertising": "搜尋與新聞廣告",
+      "searchadvertising": "搜尋廣告",
+      "enterpriseandpartnerservices": "企業與夥伴服務",
+      "xbox": "Xbox",
+
+      "amazonwebservices": "AWS",
+      "onlinestores": "線上商店",
+      "assetandwealthmanagement": "資產與財富管理",
+      "energygenerationandstorage": "能源生產與儲存",
+      "energygenerationandstoragesales": "能源生產與儲存銷售",
+      "automotivesales": "車輛銷售",
+      "automotiveleasing": "車輛租賃",
+      "automotiveregulatorycredits": "車輛監管積分",
+      "automotiverevenues": "車輛營收",
+      "servicesandother": "服務及其他",
+      "hyperscale": "超大規模雲端",
+      "edgecomputing": "邊緣運算"
     }
   }
 }

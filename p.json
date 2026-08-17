@@ -1,0 +1,5954 @@
+{
+  "company": "Palantir Technologies Inc.",
+  "cik": "0001321655",
+  "ticker": "PLTR",
+  "mapVersion": "1.2",
+  "periodicity": "quarterly",
+  "currency": "USD",
+  "periods": [
+    "FY2023 Q1",
+    "FY2023 Q2",
+    "FY2023 Q3",
+    "FY2023 Q4",
+    "FY2024 Q1",
+    "FY2024 Q2",
+    "FY2024 Q3",
+    "FY2024 Q4",
+    "FY2025 Q1",
+    "FY2025 Q2",
+    "FY2025 Q3",
+    "FY2025 Q4",
+    "FY2026 Q1",
+    "FY2026 Q2"
+  ],
+  "lineItems": [
+    {
+      "id": "revenue",
+      "zh": "營業收入",
+      "en": "Revenue",
+      "statement": "IS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "values": {
+        "FY2023 Q1": {
+          "value": 525186000,
+          "isEstimated": false,
+          "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 533317000,
+          "isEstimated": false,
+          "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 558159000,
+          "isEstimated": false,
+          "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 608350000,
+          "isEstimated": true,
+          "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 634338000,
+          "isEstimated": false,
+          "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 678134000,
+          "isEstimated": false,
+          "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 725516000,
+          "isEstimated": false,
+          "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 827519000,
+          "isEstimated": true,
+          "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 883855000,
+          "isEstimated": false,
+          "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 1003697000,
+          "isEstimated": false,
+          "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 1181092000,
+          "isEstimated": false,
+          "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 1406802000,
+          "isEstimated": true,
+          "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 1632583000,
+          "isEstimated": false,
+          "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 1935464000,
+          "isEstimated": false,
+          "sourceTag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "cogs",
+      "zh": "營業成本",
+      "en": "Cost of Revenue",
+      "statement": "IS",
+      "unit": "USD",
+      "sign": "reported_positive",
+      "sourceTag": "CostOfRevenue",
+      "values": {
+        "FY2023 Q1": {
+          "value": 107645000,
+          "isEstimated": false,
+          "sourceTag": "CostOfRevenue",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 106899000,
+          "isEstimated": false,
+          "sourceTag": "CostOfRevenue",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 107922000,
+          "isEstimated": false,
+          "sourceTag": "CostOfRevenue",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 108639000,
+          "isEstimated": true,
+          "sourceTag": "CostOfRevenue",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 116256000,
+          "isEstimated": false,
+          "sourceTag": "CostOfRevenue",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 128562000,
+          "isEstimated": false,
+          "sourceTag": "CostOfRevenue",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 146639000,
+          "isEstimated": false,
+          "sourceTag": "CostOfRevenue",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 174533000,
+          "isEstimated": true,
+          "sourceTag": "CostOfRevenue",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 172970000,
+          "isEstimated": false,
+          "sourceTag": "CostOfRevenue",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 192934000,
+          "isEstimated": false,
+          "sourceTag": "CostOfRevenue",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 207307000,
+          "isEstimated": false,
+          "sourceTag": "CostOfRevenue",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 215966000,
+          "isEstimated": true,
+          "sourceTag": "CostOfRevenue",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 215798000,
+          "isEstimated": false,
+          "sourceTag": "CostOfRevenue",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 296870000,
+          "isEstimated": false,
+          "sourceTag": "CostOfRevenue",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "gross_profit",
+      "zh": "毛利",
+      "en": "Gross Profit",
+      "statement": "IS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "GrossProfit",
+      "values": {
+        "FY2023 Q1": {
+          "value": 417541000,
+          "isEstimated": false,
+          "sourceTag": "GrossProfit",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 426418000,
+          "isEstimated": false,
+          "sourceTag": "GrossProfit",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 450237000,
+          "isEstimated": false,
+          "sourceTag": "GrossProfit",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 499711000,
+          "isEstimated": true,
+          "sourceTag": "GrossProfit",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 518082000,
+          "isEstimated": false,
+          "sourceTag": "GrossProfit",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 549572000,
+          "isEstimated": false,
+          "sourceTag": "GrossProfit",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 578877000,
+          "isEstimated": false,
+          "sourceTag": "GrossProfit",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 652986000,
+          "isEstimated": true,
+          "sourceTag": "GrossProfit",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 710885000,
+          "isEstimated": false,
+          "sourceTag": "GrossProfit",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 810763000,
+          "isEstimated": false,
+          "sourceTag": "GrossProfit",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 973785000,
+          "isEstimated": false,
+          "sourceTag": "GrossProfit",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 1190836000,
+          "isEstimated": true,
+          "sourceTag": "GrossProfit",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 1416785000,
+          "isEstimated": false,
+          "sourceTag": "GrossProfit",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 1638594000,
+          "isEstimated": false,
+          "sourceTag": "GrossProfit",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "rnd",
+      "zh": "研發費用",
+      "en": "R&D Expense",
+      "statement": "IS",
+      "unit": "USD",
+      "sign": "reported_positive",
+      "sourceTag": "ResearchAndDevelopmentExpense",
+      "values": {
+        "FY2023 Q1": {
+          "value": 90100000,
+          "isEstimated": false,
+          "sourceTag": "ResearchAndDevelopmentExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 99533000,
+          "isEstimated": false,
+          "sourceTag": "ResearchAndDevelopmentExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 105708000,
+          "isEstimated": false,
+          "sourceTag": "ResearchAndDevelopmentExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 109283000,
+          "isEstimated": true,
+          "sourceTag": "ResearchAndDevelopmentExpense",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 110040000,
+          "isEstimated": false,
+          "sourceTag": "ResearchAndDevelopmentExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 108781000,
+          "isEstimated": false,
+          "sourceTag": "ResearchAndDevelopmentExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 117555000,
+          "isEstimated": false,
+          "sourceTag": "ResearchAndDevelopmentExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 171502000,
+          "isEstimated": true,
+          "sourceTag": "ResearchAndDevelopmentExpense",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 134889000,
+          "isEstimated": false,
+          "sourceTag": "ResearchAndDevelopmentExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 135043000,
+          "isEstimated": false,
+          "sourceTag": "ResearchAndDevelopmentExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 144191000,
+          "isEstimated": false,
+          "sourceTag": "ResearchAndDevelopmentExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 143554000,
+          "isEstimated": true,
+          "sourceTag": "ResearchAndDevelopmentExpense",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 160981000,
+          "isEstimated": false,
+          "sourceTag": "ResearchAndDevelopmentExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 192513000,
+          "isEstimated": false,
+          "sourceTag": "ResearchAndDevelopmentExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "sgna",
+      "zh": "銷售及管理費用",
+      "en": "SG&A",
+      "statement": "IS",
+      "unit": "USD",
+      "sign": "reported_positive",
+      "sourceTag": "GeneralAndAdministrativeExpense",
+      "values": {
+        "FY2023 Q1": {
+          "value": 136233000,
+          "isEstimated": false,
+          "sourceTag": "GeneralAndAdministrativeExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 132648000,
+          "isEstimated": false,
+          "sourceTag": "GeneralAndAdministrativeExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 128173000,
+          "isEstimated": false,
+          "sourceTag": "GeneralAndAdministrativeExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 127271000,
+          "isEstimated": true,
+          "sourceTag": "GeneralAndAdministrativeExpense",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 133984000,
+          "isEstimated": false,
+          "sourceTag": "GeneralAndAdministrativeExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 138643000,
+          "isEstimated": false,
+          "sourceTag": "GeneralAndAdministrativeExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 138708000,
+          "isEstimated": false,
+          "sourceTag": "GeneralAndAdministrativeExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 182146000,
+          "isEstimated": true,
+          "sourceTag": "GeneralAndAdministrativeExpense",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 163639000,
+          "isEstimated": false,
+          "sourceTag": "GeneralAndAdministrativeExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 162615000,
+          "isEstimated": false,
+          "sourceTag": "GeneralAndAdministrativeExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 161702000,
+          "isEstimated": false,
+          "sourceTag": "GeneralAndAdministrativeExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 169762000,
+          "isEstimated": true,
+          "sourceTag": "GeneralAndAdministrativeExpense",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 182586000,
+          "isEstimated": false,
+          "sourceTag": "GeneralAndAdministrativeExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 194577000,
+          "isEstimated": false,
+          "sourceTag": "GeneralAndAdministrativeExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "sales_marketing",
+      "zh": "行銷費用",
+      "en": "Selling & Marketing",
+      "statement": "IS",
+      "unit": "USD",
+      "sign": "reported_positive",
+      "sourceTag": "SellingAndMarketingExpense",
+      "values": {
+        "FY2023 Q1": {
+          "value": 187093000,
+          "isEstimated": false,
+          "sourceTag": "SellingAndMarketingExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 184163000,
+          "isEstimated": false,
+          "sourceTag": "SellingAndMarketingExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 176373000,
+          "isEstimated": false,
+          "sourceTag": "SellingAndMarketingExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 197363000,
+          "isEstimated": true,
+          "sourceTag": "SellingAndMarketingExpense",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 193177000,
+          "isEstimated": false,
+          "sourceTag": "SellingAndMarketingExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 196809000,
+          "isEstimated": false,
+          "sourceTag": "SellingAndMarketingExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 209474000,
+          "isEstimated": false,
+          "sourceTag": "SellingAndMarketingExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 288295000,
+          "isEstimated": true,
+          "sourceTag": "SellingAndMarketingExpense",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 236309000,
+          "isEstimated": false,
+          "sourceTag": "SellingAndMarketingExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 243788000,
+          "isEstimated": false,
+          "sourceTag": "SellingAndMarketingExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 274636000,
+          "isEstimated": false,
+          "sourceTag": "SellingAndMarketingExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 302126000,
+          "isEstimated": true,
+          "sourceTag": "SellingAndMarketingExpense",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 319220000,
+          "isEstimated": false,
+          "sourceTag": "SellingAndMarketingExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 339500000,
+          "isEstimated": false,
+          "sourceTag": "SellingAndMarketingExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "opex_total",
+      "zh": "營業費用合計",
+      "en": "Total Operating Expenses",
+      "statement": "IS",
+      "unit": "USD",
+      "sign": "reported_positive",
+      "sourceTag": "OperatingExpenses",
+      "values": {
+        "FY2023 Q1": {
+          "value": 413426000,
+          "isEstimated": false,
+          "sourceTag": "OperatingExpenses",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 416344000,
+          "isEstimated": false,
+          "sourceTag": "OperatingExpenses",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 410254000,
+          "isEstimated": false,
+          "sourceTag": "OperatingExpenses",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 433917000,
+          "isEstimated": true,
+          "sourceTag": "OperatingExpenses",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 437201000,
+          "isEstimated": false,
+          "sourceTag": "OperatingExpenses",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 444233000,
+          "isEstimated": false,
+          "sourceTag": "OperatingExpenses",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 465737000,
+          "isEstimated": false,
+          "sourceTag": "OperatingExpenses",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 641943000,
+          "isEstimated": true,
+          "sourceTag": "OperatingExpenses",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 534837000,
+          "isEstimated": false,
+          "sourceTag": "OperatingExpenses",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 541446000,
+          "isEstimated": false,
+          "sourceTag": "OperatingExpenses",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 580529000,
+          "isEstimated": false,
+          "sourceTag": "OperatingExpenses",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 615442000,
+          "isEstimated": true,
+          "sourceTag": "OperatingExpenses",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 662787000,
+          "isEstimated": false,
+          "sourceTag": "OperatingExpenses",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 726590000,
+          "isEstimated": false,
+          "sourceTag": "OperatingExpenses",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "operating_income",
+      "zh": "營業利益",
+      "en": "Operating Income",
+      "statement": "IS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "OperatingIncomeLoss",
+      "values": {
+        "FY2023 Q1": {
+          "value": 4115000,
+          "isEstimated": false,
+          "sourceTag": "OperatingIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 10074000,
+          "isEstimated": false,
+          "sourceTag": "OperatingIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 39983000,
+          "isEstimated": false,
+          "sourceTag": "OperatingIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 65794000,
+          "isEstimated": true,
+          "sourceTag": "OperatingIncomeLoss",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 80881000,
+          "isEstimated": false,
+          "sourceTag": "OperatingIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 105339000,
+          "isEstimated": false,
+          "sourceTag": "OperatingIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 113140000,
+          "isEstimated": false,
+          "sourceTag": "OperatingIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 11043000,
+          "isEstimated": true,
+          "sourceTag": "OperatingIncomeLoss",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 176048000,
+          "isEstimated": false,
+          "sourceTag": "OperatingIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 269317000,
+          "isEstimated": false,
+          "sourceTag": "OperatingIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 393256000,
+          "isEstimated": false,
+          "sourceTag": "OperatingIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 575394000,
+          "isEstimated": true,
+          "sourceTag": "OperatingIncomeLoss",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 753998000,
+          "isEstimated": false,
+          "sourceTag": "OperatingIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 912004000,
+          "isEstimated": false,
+          "sourceTag": "OperatingIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "interest_expense",
+      "zh": "利息費用",
+      "en": "Interest Expense",
+      "statement": "IS",
+      "unit": "USD",
+      "sign": "reported_positive",
+      "sourceTag": "InterestExpense",
+      "values": {
+        "FY2023 Q1": {
+          "value": 1275000,
+          "isEstimated": false,
+          "sourceTag": "InterestExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 1317000,
+          "isEstimated": false,
+          "sourceTag": "InterestExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 742000,
+          "isEstimated": false,
+          "sourceTag": "InterestExpense",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 136000,
+          "isEstimated": true,
+          "sourceTag": "InterestExpense",
+          "accessionOrForm": "10-K",
+          "filed": "2024-02-20",
+          "endDate": "2023-12-31"
+        }
+      }
+    },
+    {
+      "id": "pretax_income",
+      "zh": "稅前淨利",
+      "en": "Pretax Income",
+      "statement": "IS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+      "values": {
+        "FY2023 Q1": {
+          "value": 20832000,
+          "isEstimated": false,
+          "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 30043000,
+          "isEstimated": false,
+          "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 79969000,
+          "isEstimated": false,
+          "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 106247000,
+          "isEstimated": true,
+          "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 110726000,
+          "isEstimated": false,
+          "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 140759000,
+          "isEstimated": false,
+          "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 157150000,
+          "isEstimated": false,
+          "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 80538000,
+          "isEstimated": true,
+          "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 223316000,
+          "isEstimated": false,
+          "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 332168000,
+          "isEstimated": false,
+          "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 480501000,
+          "isEstimated": false,
+          "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 621383000,
+          "isEstimated": true,
+          "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 888601000,
+          "isEstimated": false,
+          "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 1081345000,
+          "isEstimated": false,
+          "sourceTag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "income_tax",
+      "zh": "所得稅費用",
+      "en": "Income Tax Expense",
+      "statement": "IS",
+      "unit": "USD",
+      "sign": "reported_positive",
+      "sourceTag": "IncomeTaxExpenseBenefit",
+      "values": {
+        "FY2023 Q1": {
+          "value": 1681000,
+          "isEstimated": false,
+          "sourceTag": "IncomeTaxExpenseBenefit",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 2171000,
+          "isEstimated": false,
+          "sourceTag": "IncomeTaxExpenseBenefit",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 6530000,
+          "isEstimated": false,
+          "sourceTag": "IncomeTaxExpenseBenefit",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 9334000,
+          "isEstimated": true,
+          "sourceTag": "IncomeTaxExpenseBenefit",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 4655000,
+          "isEstimated": false,
+          "sourceTag": "IncomeTaxExpenseBenefit",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 5189000,
+          "isEstimated": false,
+          "sourceTag": "IncomeTaxExpenseBenefit",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 7809000,
+          "isEstimated": false,
+          "sourceTag": "IncomeTaxExpenseBenefit",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 3602000,
+          "isEstimated": true,
+          "sourceTag": "IncomeTaxExpenseBenefit",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 5599000,
+          "isEstimated": false,
+          "sourceTag": "IncomeTaxExpenseBenefit",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 3596000,
+          "isEstimated": false,
+          "sourceTag": "IncomeTaxExpenseBenefit",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 3753000,
+          "isEstimated": false,
+          "sourceTag": "IncomeTaxExpenseBenefit",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 9776000,
+          "isEstimated": true,
+          "sourceTag": "IncomeTaxExpenseBenefit",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 12199000,
+          "isEstimated": false,
+          "sourceTag": "IncomeTaxExpenseBenefit",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 15383000,
+          "isEstimated": false,
+          "sourceTag": "IncomeTaxExpenseBenefit",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "net_income",
+      "zh": "本期淨利",
+      "en": "Net Income",
+      "statement": "IS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "NetIncomeLoss",
+      "values": {
+        "FY2023 Q1": {
+          "value": 16802000,
+          "isEstimated": false,
+          "sourceTag": "NetIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 28127000,
+          "isEstimated": false,
+          "sourceTag": "NetIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 71505000,
+          "isEstimated": false,
+          "sourceTag": "NetIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 93391000,
+          "isEstimated": true,
+          "sourceTag": "NetIncomeLoss",
+          "accessionOrForm": "DEF 14A",
+          "filed": "2026-04-24",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 105530000,
+          "isEstimated": false,
+          "sourceTag": "NetIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 134126000,
+          "isEstimated": false,
+          "sourceTag": "NetIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 143525000,
+          "isEstimated": false,
+          "sourceTag": "NetIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 79009000,
+          "isEstimated": true,
+          "sourceTag": "NetIncomeLoss",
+          "accessionOrForm": "DEF 14A",
+          "filed": "2026-04-24",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 214031000,
+          "isEstimated": false,
+          "sourceTag": "NetIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 326727000,
+          "isEstimated": false,
+          "sourceTag": "NetIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 475599000,
+          "isEstimated": false,
+          "sourceTag": "NetIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 608676000,
+          "isEstimated": true,
+          "sourceTag": "NetIncomeLoss",
+          "accessionOrForm": "DEF 14A",
+          "filed": "2026-04-24",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 870527000,
+          "isEstimated": false,
+          "sourceTag": "NetIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 1061890000,
+          "isEstimated": false,
+          "sourceTag": "NetIncomeLoss",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "eps_basic",
+      "zh": "基本每股盈餘",
+      "en": "EPS (Basic)",
+      "statement": "IS",
+      "unit": "USD/shares",
+      "sign": "natural",
+      "sourceTag": "EarningsPerShareBasic",
+      "values": {
+        "FY2023 Q1": {
+          "value": 0.01,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 0.01,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 0.03,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2024 Q1": {
+          "value": 0.05,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 0.06,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 0.06,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2025 Q1": {
+          "value": 0.09,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 0.14,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 0.2,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2026 Q1": {
+          "value": 0.36,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 0.44,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        },
+        "FY2023 Q4": {
+          "value": 0.04348933570390129,
+          "isEstimated": true,
+          "sourceTag": "推算：net_income / shares_basic",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q4": {
+          "value": 0.03511256740067275,
+          "isEstimated": true,
+          "sourceTag": "推算：net_income / shares_basic",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q4": {
+          "value": 0.2568673690038707,
+          "isEstimated": true,
+          "sourceTag": "推算：net_income / shares_basic",
+          "endDate": "2025-12-31"
+        }
+      }
+    },
+    {
+      "id": "eps_diluted",
+      "zh": "稀釋每股盈餘",
+      "en": "EPS (Diluted)",
+      "statement": "IS",
+      "unit": "USD/shares",
+      "sign": "natural",
+      "sourceTag": "EarningsPerShareDiluted",
+      "values": {
+        "FY2023 Q1": {
+          "value": 0.01,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareDiluted",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 0.01,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareDiluted",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 0.03,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareDiluted",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2024 Q1": {
+          "value": 0.04,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareDiluted",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 0.06,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareDiluted",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 0.06,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareDiluted",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2025 Q1": {
+          "value": 0.08,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareDiluted",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 0.13,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareDiluted",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 0.18,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareDiluted",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2026 Q1": {
+          "value": 0.34,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareDiluted",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 0.41,
+          "isEstimated": false,
+          "sourceTag": "EarningsPerShareDiluted",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        },
+        "FY2023 Q4": {
+          "value": 0.040641412890835955,
+          "isEstimated": true,
+          "sourceTag": "推算：net_income / shares_diluted",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q4": {
+          "value": 0.03223780794820342,
+          "isEstimated": true,
+          "sourceTag": "推算：net_income / shares_diluted",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q4": {
+          "value": 0.23728236076995257,
+          "isEstimated": true,
+          "sourceTag": "推算：net_income / shares_diluted",
+          "endDate": "2025-12-31"
+        }
+      }
+    },
+    {
+      "id": "shares_basic",
+      "zh": "加權平均流通股數（基本）",
+      "en": "Weighted Avg Shares (Basic)",
+      "statement": "IS",
+      "unit": "shares",
+      "sign": "natural",
+      "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+      "values": {
+        "FY2023 Q1": {
+          "value": 2107780000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 2131224000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 2162530000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 2147446000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 2213545000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 2231592000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 2250032000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 2250163000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 2348679000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 2365196000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 2377167000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 2369612000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 2393869000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 2399820000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "shares_diluted",
+      "zh": "加權平均流通股數（稀釋）",
+      "en": "Weighted Avg Shares (Diluted)",
+      "statement": "IS",
+      "unit": "shares",
+      "sign": "natural",
+      "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+      "values": {
+        "FY2023 Q1": {
+          "value": 2217439000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 2278155000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 2325600000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 2297927000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 2400107000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 2414696000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 2459589000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 2450818000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 2552818000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 2562912000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 2571057000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 2565197000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 2570924000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 2568694000,
+          "isEstimated": false,
+          "sourceTag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "shares_outstanding",
+      "zh": "期末流通股數",
+      "en": "Shares Outstanding",
+      "statement": "BS",
+      "unit": "shares",
+      "sign": "natural",
+      "sourceTag": "CommonStockSharesOutstanding",
+      "values": {
+        "FY2023 Q1": {
+          "value": 2117730000,
+          "isEstimated": false,
+          "sourceTag": "CommonStockSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 2149980000,
+          "isEstimated": false,
+          "sourceTag": "CommonStockSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 2175241000,
+          "isEstimated": false,
+          "sourceTag": "CommonStockSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 2200128000,
+          "isEstimated": false,
+          "sourceTag": "CommonStockSharesOutstanding",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 2226963000,
+          "isEstimated": false,
+          "sourceTag": "CommonStockSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 2237939000,
+          "isEstimated": false,
+          "sourceTag": "CommonStockSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 2269809000,
+          "isEstimated": false,
+          "sourceTag": "CommonStockSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 2338795000,
+          "isEstimated": false,
+          "sourceTag": "CommonStockSharesOutstanding",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 2359663000,
+          "isEstimated": false,
+          "sourceTag": "CommonStockSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 2371847000,
+          "isEstimated": false,
+          "sourceTag": "CommonStockSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 2383314000,
+          "isEstimated": false,
+          "sourceTag": "CommonStockSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 2391192000,
+          "isEstimated": false,
+          "sourceTag": "CommonStockSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 2397133000,
+          "isEstimated": false,
+          "sourceTag": "CommonStockSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 2402897000,
+          "isEstimated": false,
+          "sourceTag": "CommonStockSharesOutstanding",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "sbc",
+      "zh": "股份基礎給付",
+      "en": "Stock-Based Compensation",
+      "statement": "CF",
+      "unit": "USD",
+      "sign": "reported_positive",
+      "sourceTag": "ShareBasedCompensation",
+      "values": {
+        "FY2023 Q1": {
+          "value": 114714000,
+          "isEstimated": false,
+          "sourceTag": "ShareBasedCompensation",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 114201000,
+          "isEstimated": false,
+          "sourceTag": "ShareBasedCompensation",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 114380000,
+          "isEstimated": false,
+          "sourceTag": "ShareBasedCompensation",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 132608000,
+          "isEstimated": true,
+          "sourceTag": "ShareBasedCompensation",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 125651000,
+          "isEstimated": false,
+          "sourceTag": "ShareBasedCompensation",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 141764000,
+          "isEstimated": false,
+          "sourceTag": "ShareBasedCompensation",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 142425000,
+          "isEstimated": false,
+          "sourceTag": "ShareBasedCompensation",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 281798000,
+          "isEstimated": true,
+          "sourceTag": "ShareBasedCompensation",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 155339000,
+          "isEstimated": false,
+          "sourceTag": "ShareBasedCompensation",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 159971000,
+          "isEstimated": false,
+          "sourceTag": "ShareBasedCompensation",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 172318000,
+          "isEstimated": false,
+          "sourceTag": "ShareBasedCompensation",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 196405000,
+          "isEstimated": true,
+          "sourceTag": "ShareBasedCompensation",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 201592000,
+          "isEstimated": false,
+          "sourceTag": "ShareBasedCompensation",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 265209000,
+          "isEstimated": false,
+          "sourceTag": "ShareBasedCompensation",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "dna",
+      "zh": "折舊及攤銷",
+      "en": "D&A",
+      "statement": "CF",
+      "unit": "USD",
+      "sign": "reported_positive",
+      "sourceTag": "DepreciationDepletionAndAmortization",
+      "values": {
+        "FY2023 Q1": {
+          "value": 8320000,
+          "isEstimated": false,
+          "sourceTag": "DepreciationDepletionAndAmortization",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 8399000,
+          "isEstimated": false,
+          "sourceTag": "DepreciationDepletionAndAmortization",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 8663000,
+          "isEstimated": false,
+          "sourceTag": "DepreciationDepletionAndAmortization",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 7972000,
+          "isEstimated": true,
+          "sourceTag": "DepreciationDepletionAndAmortization",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 8438000,
+          "isEstimated": false,
+          "sourceTag": "DepreciationDepletionAndAmortization",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 8056000,
+          "isEstimated": false,
+          "sourceTag": "DepreciationDepletionAndAmortization",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 8087000,
+          "isEstimated": false,
+          "sourceTag": "DepreciationDepletionAndAmortization",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 7006000,
+          "isEstimated": true,
+          "sourceTag": "DepreciationDepletionAndAmortization",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 6622000,
+          "isEstimated": false,
+          "sourceTag": "DepreciationDepletionAndAmortization",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 6530000,
+          "isEstimated": false,
+          "sourceTag": "DepreciationDepletionAndAmortization",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 5975000,
+          "isEstimated": false,
+          "sourceTag": "DepreciationDepletionAndAmortization",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 7018000,
+          "isEstimated": true,
+          "sourceTag": "DepreciationDepletionAndAmortization",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 6765000,
+          "isEstimated": false,
+          "sourceTag": "DepreciationDepletionAndAmortization",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 8220000,
+          "isEstimated": false,
+          "sourceTag": "DepreciationDepletionAndAmortization",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "cash",
+      "zh": "現金及約當現金",
+      "en": "Cash & Equivalents",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+      "values": {
+        "FY2023 Q1": {
+          "value": 1264738000,
+          "isEstimated": false,
+          "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 1055923000,
+          "isEstimated": false,
+          "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 1040310000,
+          "isEstimated": false,
+          "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 831047000,
+          "isEstimated": false,
+          "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 520388000,
+          "isEstimated": false,
+          "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 512659000,
+          "isEstimated": false,
+          "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 768710000,
+          "isEstimated": false,
+          "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 2098524000,
+          "isEstimated": false,
+          "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 993464000,
+          "isEstimated": false,
+          "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 929547000,
+          "isEstimated": false,
+          "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 1615967000,
+          "isEstimated": false,
+          "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 1423796000,
+          "isEstimated": false,
+          "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 2291631000,
+          "isEstimated": false,
+          "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 2030047000,
+          "isEstimated": false,
+          "sourceTag": "CashAndCashEquivalentsAtCarryingValue",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "short_term_investments",
+      "zh": "短期投資",
+      "en": "Short-Term Investments",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "MarketableSecuritiesCurrent",
+      "values": {
+        "FY2023 Q1": {
+          "value": 1639797000,
+          "isEstimated": false,
+          "sourceTag": "MarketableSecuritiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 2047329000,
+          "isEstimated": false,
+          "sourceTag": "MarketableSecuritiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 2243264000,
+          "isEstimated": false,
+          "sourceTag": "MarketableSecuritiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 2843132000,
+          "isEstimated": false,
+          "sourceTag": "MarketableSecuritiesCurrent",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 3347512000,
+          "isEstimated": false,
+          "sourceTag": "MarketableSecuritiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 3485800000,
+          "isEstimated": false,
+          "sourceTag": "MarketableSecuritiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 3795949000,
+          "isEstimated": false,
+          "sourceTag": "MarketableSecuritiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 3131463000,
+          "isEstimated": false,
+          "sourceTag": "MarketableSecuritiesCurrent",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 4437225000,
+          "isEstimated": false,
+          "sourceTag": "MarketableSecuritiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 5070875000,
+          "isEstimated": false,
+          "sourceTag": "MarketableSecuritiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 4821850000,
+          "isEstimated": false,
+          "sourceTag": "MarketableSecuritiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 5753247000,
+          "isEstimated": false,
+          "sourceTag": "MarketableSecuritiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 5734782000,
+          "isEstimated": false,
+          "sourceTag": "MarketableSecuritiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 7379052000,
+          "isEstimated": false,
+          "sourceTag": "MarketableSecuritiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "accounts_receivable",
+      "zh": "應收帳款淨額",
+      "en": "Accounts Receivable, Net",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "AccountsReceivableNetCurrent",
+      "values": {
+        "FY2023 Q1": {
+          "value": 254041000,
+          "isEstimated": false,
+          "sourceTag": "AccountsReceivableNetCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 375756000,
+          "isEstimated": false,
+          "sourceTag": "AccountsReceivableNetCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 430269000,
+          "isEstimated": false,
+          "sourceTag": "AccountsReceivableNetCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 364784000,
+          "isEstimated": false,
+          "sourceTag": "AccountsReceivableNetCurrent",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 486986000,
+          "isEstimated": false,
+          "sourceTag": "AccountsReceivableNetCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 659339000,
+          "isEstimated": false,
+          "sourceTag": "AccountsReceivableNetCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 668110000,
+          "isEstimated": false,
+          "sourceTag": "AccountsReceivableNetCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 575048000,
+          "isEstimated": false,
+          "sourceTag": "AccountsReceivableNetCurrent",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 725205000,
+          "isEstimated": false,
+          "sourceTag": "AccountsReceivableNetCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 747484000,
+          "isEstimated": false,
+          "sourceTag": "AccountsReceivableNetCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 1005910000,
+          "isEstimated": false,
+          "sourceTag": "AccountsReceivableNetCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 1042065000,
+          "isEstimated": false,
+          "sourceTag": "AccountsReceivableNetCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 1405588000,
+          "isEstimated": false,
+          "sourceTag": "AccountsReceivableNetCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 1485249000,
+          "isEstimated": false,
+          "sourceTag": "AccountsReceivableNetCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "inventory",
+      "zh": "存貨",
+      "en": "Inventory",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": null,
+      "values": {}
+    },
+    {
+      "id": "current_assets",
+      "zh": "流動資產合計",
+      "en": "Total Current Assets",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "AssetsCurrent",
+      "values": {
+        "FY2023 Q1": {
+          "value": 3256147000,
+          "isEstimated": false,
+          "sourceTag": "AssetsCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 3576914000,
+          "isEstimated": false,
+          "sourceTag": "AssetsCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 3809397000,
+          "isEstimated": false,
+          "sourceTag": "AssetsCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 4138618000,
+          "isEstimated": false,
+          "sourceTag": "AssetsCurrent",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 4436064000,
+          "isEstimated": false,
+          "sourceTag": "AssetsCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 4773510000,
+          "isEstimated": false,
+          "sourceTag": "AssetsCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 5351962000,
+          "isEstimated": false,
+          "sourceTag": "AssetsCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 5934289000,
+          "isEstimated": false,
+          "sourceTag": "AssetsCurrent",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 6282599000,
+          "isEstimated": false,
+          "sourceTag": "AssetsCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 6890393000,
+          "isEstimated": false,
+          "sourceTag": "AssetsCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 7586156000,
+          "isEstimated": false,
+          "sourceTag": "AssetsCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 8358174000,
+          "isEstimated": false,
+          "sourceTag": "AssetsCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 9551704000,
+          "isEstimated": false,
+          "sourceTag": "AssetsCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 11099513000,
+          "isEstimated": false,
+          "sourceTag": "AssetsCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "ppe_net",
+      "zh": "不動產、廠房及設備淨額",
+      "en": "PP&E, Net",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "PropertyPlantAndEquipmentNet",
+      "values": {
+        "FY2023 Q1": {
+          "value": 63115000,
+          "isEstimated": false,
+          "sourceTag": "PropertyPlantAndEquipmentNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 54097000,
+          "isEstimated": false,
+          "sourceTag": "PropertyPlantAndEquipmentNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 50133000,
+          "isEstimated": false,
+          "sourceTag": "PropertyPlantAndEquipmentNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 47758000,
+          "isEstimated": false,
+          "sourceTag": "PropertyPlantAndEquipmentNet",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 46906000,
+          "isEstimated": false,
+          "sourceTag": "PropertyPlantAndEquipmentNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 43483000,
+          "isEstimated": false,
+          "sourceTag": "PropertyPlantAndEquipmentNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 40345000,
+          "isEstimated": false,
+          "sourceTag": "PropertyPlantAndEquipmentNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 39638000,
+          "isEstimated": false,
+          "sourceTag": "PropertyPlantAndEquipmentNet",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 39669000,
+          "isEstimated": false,
+          "sourceTag": "PropertyPlantAndEquipmentNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 43523000,
+          "isEstimated": false,
+          "sourceTag": "PropertyPlantAndEquipmentNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 45706000,
+          "isEstimated": false,
+          "sourceTag": "PropertyPlantAndEquipmentNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 51960000,
+          "isEstimated": false,
+          "sourceTag": "PropertyPlantAndEquipmentNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 55726000,
+          "isEstimated": false,
+          "sourceTag": "PropertyPlantAndEquipmentNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 61403000,
+          "isEstimated": false,
+          "sourceTag": "PropertyPlantAndEquipmentNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "operating_lease_rou",
+      "zh": "使用權資產",
+      "en": "Operating Lease ROU Asset",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "OperatingLeaseRightOfUseAsset",
+      "values": {
+        "FY2023 Q1": {
+          "value": 210019000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseRightOfUseAsset",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 199661000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseRightOfUseAsset",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 190191000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseRightOfUseAsset",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 182863000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseRightOfUseAsset",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 173707000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseRightOfUseAsset",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 213453000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseRightOfUseAsset",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 211570000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseRightOfUseAsset",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 200740000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseRightOfUseAsset",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 209348000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseRightOfUseAsset",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 203474000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseRightOfUseAsset",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 204315000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseRightOfUseAsset",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 200105000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseRightOfUseAsset",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 228980000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseRightOfUseAsset",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 230268000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseRightOfUseAsset",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "goodwill",
+      "zh": "商譽",
+      "en": "Goodwill",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "Goodwill",
+      "values": {
+        "FY2023 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        }
+      }
+    },
+    {
+      "id": "intangibles",
+      "zh": "無形資產（不含商譽）",
+      "en": "Intangible Assets ex-Goodwill",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "FiniteLivedIntangibleAssetsNet",
+      "values": {
+        "FY2023 Q1": {
+          "value": 33130000,
+          "isEstimated": false,
+          "sourceTag": "FiniteLivedIntangibleAssetsNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 30721000,
+          "isEstimated": false,
+          "sourceTag": "FiniteLivedIntangibleAssetsNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 28312000,
+          "isEstimated": false,
+          "sourceTag": "FiniteLivedIntangibleAssetsNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 25902000,
+          "isEstimated": false,
+          "sourceTag": "FiniteLivedIntangibleAssetsNet",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 23493000,
+          "isEstimated": false,
+          "sourceTag": "FiniteLivedIntangibleAssetsNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 21474000,
+          "isEstimated": false,
+          "sourceTag": "FiniteLivedIntangibleAssetsNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 19487000,
+          "isEstimated": false,
+          "sourceTag": "FiniteLivedIntangibleAssetsNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 18058000,
+          "isEstimated": false,
+          "sourceTag": "FiniteLivedIntangibleAssetsNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 16909000,
+          "isEstimated": false,
+          "sourceTag": "FiniteLivedIntangibleAssetsNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 15760000,
+          "isEstimated": false,
+          "sourceTag": "FiniteLivedIntangibleAssetsNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 14611000,
+          "isEstimated": false,
+          "sourceTag": "FiniteLivedIntangibleAssetsNet",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        }
+      }
+    },
+    {
+      "id": "total_assets",
+      "zh": "資產總計",
+      "en": "Total Assets",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "Assets",
+      "values": {
+        "FY2023 Q1": {
+          "value": 3683138000,
+          "isEstimated": false,
+          "sourceTag": "Assets",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 3980264000,
+          "isEstimated": false,
+          "sourceTag": "Assets",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 4193417000,
+          "isEstimated": false,
+          "sourceTag": "Assets",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 4522425000,
+          "isEstimated": false,
+          "sourceTag": "Assets",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 4807079000,
+          "isEstimated": false,
+          "sourceTag": "Assets",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 5191880000,
+          "isEstimated": false,
+          "sourceTag": "Assets",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 5768097000,
+          "isEstimated": false,
+          "sourceTag": "Assets",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 6340884000,
+          "isEstimated": false,
+          "sourceTag": "Assets",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 6736917000,
+          "isEstimated": false,
+          "sourceTag": "Assets",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 7365688000,
+          "isEstimated": false,
+          "sourceTag": "Assets",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 8113960000,
+          "isEstimated": false,
+          "sourceTag": "Assets",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 8900392000,
+          "isEstimated": false,
+          "sourceTag": "Assets",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 10199183000,
+          "isEstimated": false,
+          "sourceTag": "Assets",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 11678564000,
+          "isEstimated": false,
+          "sourceTag": "Assets",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "accounts_payable",
+      "zh": "應付帳款",
+      "en": "Accounts Payable",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "AccountsPayableCurrent",
+      "values": {
+        "FY2023 Q1": {
+          "value": 4530000,
+          "isEstimated": false,
+          "sourceTag": "AccountsPayableCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 4613000,
+          "isEstimated": false,
+          "sourceTag": "AccountsPayableCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 9475000,
+          "isEstimated": false,
+          "sourceTag": "AccountsPayableCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 12122000,
+          "isEstimated": false,
+          "sourceTag": "AccountsPayableCurrent",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 35634000,
+          "isEstimated": false,
+          "sourceTag": "AccountsPayableCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 67345000,
+          "isEstimated": false,
+          "sourceTag": "AccountsPayableCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 27021000,
+          "isEstimated": false,
+          "sourceTag": "AccountsPayableCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 103000,
+          "isEstimated": false,
+          "sourceTag": "AccountsPayableCurrent",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 2330000,
+          "isEstimated": false,
+          "sourceTag": "AccountsPayableCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 10774000,
+          "isEstimated": false,
+          "sourceTag": "AccountsPayableCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 67503000,
+          "isEstimated": false,
+          "sourceTag": "AccountsPayableCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 8064000,
+          "isEstimated": false,
+          "sourceTag": "AccountsPayableCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 69319000,
+          "isEstimated": false,
+          "sourceTag": "AccountsPayableCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 3102000,
+          "isEstimated": false,
+          "sourceTag": "AccountsPayableCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "deferred_revenue",
+      "zh": "合約負債（遞延收入）",
+      "en": "Deferred Revenue",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "ContractWithCustomerLiability",
+      "values": {
+        "FY2023 Q1": {
+          "value": 427900000,
+          "isEstimated": false,
+          "sourceTag": "ContractWithCustomerLiability",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 497800000,
+          "isEstimated": false,
+          "sourceTag": "ContractWithCustomerLiability",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 489600000,
+          "isEstimated": false,
+          "sourceTag": "ContractWithCustomerLiability",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 486300000,
+          "isEstimated": false,
+          "sourceTag": "ContractWithCustomerLiability",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 477200000,
+          "isEstimated": false,
+          "sourceTag": "ContractWithCustomerLiability",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 517100000,
+          "isEstimated": false,
+          "sourceTag": "ContractWithCustomerLiability",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 615100000,
+          "isEstimated": false,
+          "sourceTag": "ContractWithCustomerLiability",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 566400000,
+          "isEstimated": false,
+          "sourceTag": "ContractWithCustomerLiability",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 587500000,
+          "isEstimated": false,
+          "sourceTag": "ContractWithCustomerLiability",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 685900000,
+          "isEstimated": false,
+          "sourceTag": "ContractWithCustomerLiability",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 730400000,
+          "isEstimated": false,
+          "sourceTag": "ContractWithCustomerLiability",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 800000000,
+          "isEstimated": false,
+          "sourceTag": "ContractWithCustomerLiability",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 929000000,
+          "isEstimated": false,
+          "sourceTag": "ContractWithCustomerLiability",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 1100000000,
+          "isEstimated": false,
+          "sourceTag": "ContractWithCustomerLiability",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "short_term_debt",
+      "zh": "短期借款及一年內到期長期負債",
+      "en": "Short-Term Debt",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": null,
+      "values": {
+        "FY2023 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        }
+      }
+    },
+    {
+      "id": "current_liabilities",
+      "zh": "流動負債合計",
+      "en": "Total Current Liabilities",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "LiabilitiesCurrent",
+      "values": {
+        "FY2023 Q1": {
+          "value": 601413000,
+          "isEstimated": false,
+          "sourceTag": "LiabilitiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 685384000,
+          "isEstimated": false,
+          "sourceTag": "LiabilitiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 688925000,
+          "isEstimated": false,
+          "sourceTag": "LiabilitiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 746018000,
+          "isEstimated": false,
+          "sourceTag": "LiabilitiesCurrent",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 750553000,
+          "isEstimated": false,
+          "sourceTag": "LiabilitiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 806919000,
+          "isEstimated": false,
+          "sourceTag": "LiabilitiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 943456000,
+          "isEstimated": false,
+          "sourceTag": "LiabilitiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 996018000,
+          "isEstimated": false,
+          "sourceTag": "LiabilitiesCurrent",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 967443000,
+          "isEstimated": false,
+          "sourceTag": "LiabilitiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 1089640000,
+          "isEstimated": false,
+          "sourceTag": "LiabilitiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 1180403000,
+          "isEstimated": false,
+          "sourceTag": "LiabilitiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 1175581000,
+          "isEstimated": false,
+          "sourceTag": "LiabilitiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 1382949000,
+          "isEstimated": false,
+          "sourceTag": "LiabilitiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 1535582000,
+          "isEstimated": false,
+          "sourceTag": "LiabilitiesCurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "long_term_debt",
+      "zh": "長期負債",
+      "en": "Long-Term Debt",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "LongTermDebtNoncurrent",
+      "values": {
+        "FY2023 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        }
+      }
+    },
+    {
+      "id": "operating_lease_liab_nc",
+      "zh": "長期租賃負債",
+      "en": "Operating Lease Liability, Noncurrent",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+      "values": {
+        "FY2023 Q1": {
+          "value": 206422000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 194134000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 184067000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 175216000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 163013000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 214334000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 207278000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 195226000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 200177000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 192347000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 189165000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 183474000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 211977000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 211400000,
+          "isEstimated": false,
+          "sourceTag": "OperatingLeaseLiabilityNoncurrent",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "total_liabilities",
+      "zh": "負債總計",
+      "en": "Total Liabilities",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "Liabilities",
+      "values": {
+        "FY2023 Q1": {
+          "value": 879945000,
+          "isEstimated": false,
+          "sourceTag": "Liabilities",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 945126000,
+          "isEstimated": false,
+          "sourceTag": "Liabilities",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 921520000,
+          "isEstimated": false,
+          "sourceTag": "Liabilities",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 961460000,
+          "isEstimated": false,
+          "sourceTag": "Liabilities",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 945907000,
+          "isEstimated": false,
+          "sourceTag": "Liabilities",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 1054074000,
+          "isEstimated": false,
+          "sourceTag": "Liabilities",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 1176735000,
+          "isEstimated": false,
+          "sourceTag": "Liabilities",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 1246477000,
+          "isEstimated": false,
+          "sourceTag": "Liabilities",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 1217944000,
+          "isEstimated": false,
+          "sourceTag": "Liabilities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 1340124000,
+          "isEstimated": false,
+          "sourceTag": "Liabilities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 1425691000,
+          "isEstimated": false,
+          "sourceTag": "Liabilities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 1412381000,
+          "isEstimated": false,
+          "sourceTag": "Liabilities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 1642902000,
+          "isEstimated": false,
+          "sourceTag": "Liabilities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 1793680000,
+          "isEstimated": false,
+          "sourceTag": "Liabilities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "equity",
+      "zh": "股東權益總計",
+      "en": "Total Stockholders' Equity",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "StockholdersEquity",
+      "values": {
+        "FY2023 Q1": {
+          "value": 2723733000,
+          "isEstimated": false,
+          "sourceTag": "StockholdersEquity",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 2955474000,
+          "isEstimated": false,
+          "sourceTag": "StockholdersEquity",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 3190015000,
+          "isEstimated": false,
+          "sourceTag": "StockholdersEquity",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 3475561000,
+          "isEstimated": false,
+          "sourceTag": "StockholdersEquity",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 3775227000,
+          "isEstimated": false,
+          "sourceTag": "StockholdersEquity",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 4050524000,
+          "isEstimated": false,
+          "sourceTag": "StockholdersEquity",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 4498143000,
+          "isEstimated": false,
+          "sourceTag": "StockholdersEquity",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 5003275000,
+          "isEstimated": false,
+          "sourceTag": "StockholdersEquity",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 5424155000,
+          "isEstimated": false,
+          "sourceTag": "StockholdersEquity",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 5928901000,
+          "isEstimated": false,
+          "sourceTag": "StockholdersEquity",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 6590457000,
+          "isEstimated": false,
+          "sourceTag": "StockholdersEquity",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 7387268000,
+          "isEstimated": false,
+          "sourceTag": "StockholdersEquity",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 8449663000,
+          "isEstimated": false,
+          "sourceTag": "StockholdersEquity",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 9774194000,
+          "isEstimated": false,
+          "sourceTag": "StockholdersEquity",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "retained_earnings",
+      "zh": "保留盈餘（累積虧損）",
+      "en": "Retained Earnings",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "RetainedEarningsAccumulatedDeficit",
+      "values": {
+        "FY2023 Q1": {
+          "value": -5842636000,
+          "isEstimated": false,
+          "sourceTag": "RetainedEarningsAccumulatedDeficit",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-05-09",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": -5814509000,
+          "isEstimated": false,
+          "sourceTag": "RetainedEarningsAccumulatedDeficit",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-08-08",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": -5743004000,
+          "isEstimated": false,
+          "sourceTag": "RetainedEarningsAccumulatedDeficit",
+          "accessionOrForm": "10-Q",
+          "filed": "2023-11-03",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": -5649613000,
+          "isEstimated": false,
+          "sourceTag": "RetainedEarningsAccumulatedDeficit",
+          "accessionOrForm": "10-K",
+          "filed": "2025-02-18",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": -5544083000,
+          "isEstimated": false,
+          "sourceTag": "RetainedEarningsAccumulatedDeficit",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": -5409957000,
+          "isEstimated": false,
+          "sourceTag": "RetainedEarningsAccumulatedDeficit",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": -5266432000,
+          "isEstimated": false,
+          "sourceTag": "RetainedEarningsAccumulatedDeficit",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": -5187423000,
+          "isEstimated": false,
+          "sourceTag": "RetainedEarningsAccumulatedDeficit",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": -4973392000,
+          "isEstimated": false,
+          "sourceTag": "RetainedEarningsAccumulatedDeficit",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": -4646665000,
+          "isEstimated": false,
+          "sourceTag": "RetainedEarningsAccumulatedDeficit",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": -4171066000,
+          "isEstimated": false,
+          "sourceTag": "RetainedEarningsAccumulatedDeficit",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": -3562390000,
+          "isEstimated": false,
+          "sourceTag": "RetainedEarningsAccumulatedDeficit",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": -2691863000,
+          "isEstimated": false,
+          "sourceTag": "RetainedEarningsAccumulatedDeficit",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": -1629973000,
+          "isEstimated": false,
+          "sourceTag": "RetainedEarningsAccumulatedDeficit",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "treasury_stock",
+      "zh": "庫藏股",
+      "en": "Treasury Stock",
+      "statement": "BS",
+      "unit": "USD",
+      "sign": "reported_positive",
+      "sourceTag": "TreasuryStockValue",
+      "values": {
+        "FY2023 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        }
+      }
+    },
+    {
+      "id": "cfo",
+      "zh": "營業活動現金流量",
+      "en": "Cash Flow from Operations",
+      "statement": "CF",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+      "values": {
+        "FY2023 Q1": {
+          "value": 187376000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 90192000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 133443000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 301172000,
+          "isEstimated": true,
+          "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 129579000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 144187000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 419772000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 460327000,
+          "isEstimated": true,
+          "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 310263000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 539251000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 507664000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 777295000,
+          "isEstimated": true,
+          "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 899165000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 1216167000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInOperatingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "capex",
+      "zh": "資本支出",
+      "en": "Capital Expenditures",
+      "statement": "CF",
+      "unit": "USD",
+      "sign": "reported_positive",
+      "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+      "values": {
+        "FY2023 Q1": {
+          "value": 4755000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 3934000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 1565000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 4860000,
+          "isEstimated": true,
+          "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 2664000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 2879000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 3985000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 3106000,
+          "isEstimated": true,
+          "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 6184000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 7634000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 6792000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 13272000,
+          "isEstimated": true,
+          "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 7401000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 14554000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "cfi",
+      "zh": "投資活動現金流量",
+      "en": "Cash Flow from Investing",
+      "statement": "CF",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+      "values": {
+        "FY2023 Q1": {
+          "value": -1554591000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": -391099000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": -196264000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": -569226000,
+          "isEstimated": true,
+          "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": -511245000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": -148878000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": -320726000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 640194000,
+          "isEstimated": true,
+          "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": -1390277000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": -617010000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 181567000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": -957831000,
+          "isEstimated": true,
+          "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": -26724000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": -1482941000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInInvestingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "cff",
+      "zh": "籌資活動現金流量",
+      "en": "Cash Flow from Financing",
+      "statement": "CF",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+      "values": {
+        "FY2023 Q1": {
+          "value": 25983000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 90684000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 50940000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 51232000,
+          "isEstimated": true,
+          "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 75248000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": -1975000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 151427000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 238664000,
+          "isEstimated": true,
+          "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": -28897000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 6450000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 6435000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": -10898000,
+          "isEstimated": true,
+          "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 3397000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": 4981000,
+          "isEstimated": false,
+          "sourceTag": "NetCashProvidedByUsedInFinancingActivities",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    },
+    {
+      "id": "buyback",
+      "zh": "庫藏股買回",
+      "en": "Share Repurchases",
+      "statement": "CF",
+      "unit": "USD",
+      "sign": "reported_positive",
+      "sourceTag": "PaymentsForRepurchaseOfCommonStock",
+      "values": {
+        "FY2023 Q1": {
+          "value": 0,
+          "isEstimated": false,
+          "sourceTag": "PaymentsForRepurchaseOfCommonStock",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": 0,
+          "isEstimated": false,
+          "sourceTag": "PaymentsForRepurchaseOfCommonStock",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": 0,
+          "isEstimated": false,
+          "sourceTag": "PaymentsForRepurchaseOfCommonStock",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "PaymentsForRepurchaseOfCommonStock",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 9000000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsForRepurchaseOfCommonStock",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": 17699000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsForRepurchaseOfCommonStock",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 18899000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsForRepurchaseOfCommonStock",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 18598000,
+          "isEstimated": true,
+          "sourceTag": "PaymentsForRepurchaseOfCommonStock",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": 17998000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsForRepurchaseOfCommonStock",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": 18596000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsForRepurchaseOfCommonStock",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 19195000,
+          "isEstimated": false,
+          "sourceTag": "PaymentsForRepurchaseOfCommonStock",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": 19196000,
+          "isEstimated": true,
+          "sourceTag": "PaymentsForRepurchaseOfCommonStock",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        }
+      }
+    },
+    {
+      "id": "dividends_paid",
+      "zh": "支付股利",
+      "en": "Dividends Paid",
+      "statement": "CF",
+      "unit": "USD",
+      "sign": "reported_positive",
+      "sourceTag": null,
+      "values": {
+        "FY2023 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        }
+      }
+    },
+    {
+      "id": "debt_issued",
+      "zh": "舉借長期債務",
+      "en": "Proceeds from LT Debt",
+      "statement": "CF",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": null,
+      "values": {
+        "FY2023 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2023 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        }
+      }
+    },
+    {
+      "id": "debt_repaid",
+      "zh": "償還長期債務",
+      "en": "Repayments of LT Debt",
+      "statement": "CF",
+      "unit": "USD",
+      "sign": "reported_positive",
+      "sourceTag": "RepaymentsOfDebt",
+      "values": {
+        "FY2023 Q1": {
+          "value": 0,
+          "isEstimated": false,
+          "sourceTag": "RepaymentsOfDebt",
+          "accessionOrForm": "10-K",
+          "filed": "2024-02-20",
+          "endDate": "2023-12-31"
+        },
+        "FY2023 Q2": {
+          "value": 0,
+          "isEstimated": false,
+          "sourceTag": "RepaymentsOfDebt",
+          "accessionOrForm": "10-K",
+          "filed": "2024-02-20",
+          "endDate": "2023-12-31"
+        },
+        "FY2023 Q3": {
+          "value": 0,
+          "isEstimated": false,
+          "sourceTag": "RepaymentsOfDebt",
+          "accessionOrForm": "10-K",
+          "filed": "2024-02-20",
+          "endDate": "2023-12-31"
+        },
+        "FY2023 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "RepaymentsOfDebt",
+          "accessionOrForm": "10-K",
+          "filed": "2024-02-20",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2024 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q3": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2025 Q4": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q1": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        },
+        "FY2026 Q2": {
+          "value": 0,
+          "isEstimated": true,
+          "sourceTag": "缺申報視為 0"
+        }
+      }
+    },
+    {
+      "id": "net_change_cash",
+      "zh": "現金淨變動",
+      "en": "Net Change in Cash",
+      "statement": "CF",
+      "unit": "USD",
+      "sign": "natural",
+      "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+      "values": {
+        "FY2023 Q1": {
+          "value": -1338556000,
+          "isEstimated": false,
+          "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-05-07",
+          "endDate": "2023-03-31"
+        },
+        "FY2023 Q2": {
+          "value": -214754000,
+          "isEstimated": false,
+          "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-08-06",
+          "endDate": "2023-06-30"
+        },
+        "FY2023 Q3": {
+          "value": -12139000,
+          "isEstimated": false,
+          "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "accessionOrForm": "10-Q",
+          "filed": "2024-11-05",
+          "endDate": "2023-09-30"
+        },
+        "FY2023 Q4": {
+          "value": -211779000,
+          "isEstimated": true,
+          "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2023-12-31"
+        },
+        "FY2024 Q1": {
+          "value": -310442000,
+          "isEstimated": false,
+          "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-05-06",
+          "endDate": "2024-03-31"
+        },
+        "FY2024 Q2": {
+          "value": -7590000,
+          "isEstimated": false,
+          "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-08-05",
+          "endDate": "2024-06-30"
+        },
+        "FY2024 Q3": {
+          "value": 256381000,
+          "isEstimated": false,
+          "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2024-09-30"
+        },
+        "FY2024 Q4": {
+          "value": 1331480000,
+          "isEstimated": true,
+          "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2024-12-31"
+        },
+        "FY2025 Q1": {
+          "value": -1104931000,
+          "isEstimated": false,
+          "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2025-03-31"
+        },
+        "FY2025 Q2": {
+          "value": -63771000,
+          "isEstimated": false,
+          "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2025-06-30"
+        },
+        "FY2025 Q3": {
+          "value": 693592000,
+          "isEstimated": false,
+          "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "accessionOrForm": "10-Q",
+          "filed": "2025-11-04",
+          "endDate": "2025-09-30"
+        },
+        "FY2025 Q4": {
+          "value": -193401000,
+          "isEstimated": true,
+          "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "accessionOrForm": "10-K",
+          "filed": "2026-02-17",
+          "endDate": "2025-12-31"
+        },
+        "FY2026 Q1": {
+          "value": 873434000,
+          "isEstimated": false,
+          "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-05-05",
+          "endDate": "2026-03-31"
+        },
+        "FY2026 Q2": {
+          "value": -261501000,
+          "isEstimated": false,
+          "sourceTag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+          "accessionOrForm": "10-Q",
+          "filed": "2026-08-04",
+          "endDate": "2026-06-30"
+        }
+      }
+    }
+  ],
+  "derived": [
+    {
+      "id": "revenue_yoy",
+      "zh": "營收年增率",
+      "en": "Revenue YoY",
+      "group": "成長性",
+      "formula": "revenue[t] / revenue[t-4] - 1",
+      "desc": "與去年同季比較。用同季而非上一季，是為了排除季節性。低於零代表衰退，連續兩季轉負通常是趨勢反轉而非雜訊。"
+    },
+    {
+      "id": "revenue_qoq",
+      "zh": "營收季增率",
+      "en": "Revenue QoQ",
+      "group": "成長性",
+      "formula": "revenue[t] / revenue[t-1] - 1",
+      "desc": "反映短期動能，但受季節性干擾嚴重（零售 Q4 必高、軟體 Q1 必低）。單獨看容易誤判，須與 YoY 並列。"
+    },
+    {
+      "id": "net_income_yoy",
+      "zh": "淨利年增率",
+      "en": "Net Income YoY",
+      "group": "成長性",
+      "formula": "net_income[t] / net_income[t-4] - 1",
+      "desc": "與營收年增率並列看。淨利增速持續高於營收，代表營運槓桿正在發揮；持續低於營收，代表成本失控或費用擴張。"
+    },
+    {
+      "id": "gross_margin",
+      "zh": "毛利率",
+      "en": "Gross Margin",
+      "group": "獲利能力",
+      "formula": "gross_profit / revenue",
+      "desc": "最能反映定價權的單一指標。毛利率的趨勢比絕對值重要——持續擴張代表產品組合改善或議價能力增強，持續壓縮通常是競爭加劇的最早訊號，會領先營收惡化數季。"
+    },
+    {
+      "id": "operating_margin",
+      "zh": "營業利益率",
+      "en": "Operating Margin",
+      "group": "獲利能力",
+      "formula": "operating_income / revenue",
+      "desc": "扣除營運費用後的獲利能力，衡量管理效率。與毛利率的差距即為費用率，差距收窄代表規模經濟開始顯現。"
+    },
+    {
+      "id": "net_margin",
+      "zh": "淨利率",
+      "en": "Net Margin",
+      "group": "獲利能力",
+      "formula": "net_income / revenue",
+      "desc": "含稅務、利息、一次性項目，波動大。單季暴增常來自業外收益而非本業，須回頭檢查營業利益率是否同步改善。"
+    },
+    {
+      "id": "ebitda",
+      "zh": "稅前息前折舊攤銷前獲利",
+      "en": "EBITDA",
+      "group": "獲利能力",
+      "formula": "operating_income + dna",
+      "desc": "排除資本結構與折舊政策差異，便於跨公司比較。但它刻意忽略資本支出，對重資產產業（半導體、電信）會嚴重高估真實獲利能力。"
+    },
+    {
+      "id": "ebitda_margin",
+      "zh": "EBITDA 利潤率",
+      "en": "EBITDA Margin",
+      "group": "獲利能力",
+      "formula": "ebitda / revenue",
+      "desc": "重資產與高度併購型公司的常用比較基準。"
+    },
+    {
+      "id": "roe",
+      "zh": "股東權益報酬率",
+      "en": "ROE",
+      "group": "獲利能力",
+      "formula": "net_income * 4 / avg(equity)",
+      "desc": "股東每一元投入產生的獲利。高 ROE 可能來自真實效率，也可能來自高財務槓桿或大量庫藏股買回壓縮權益——須與負債權益比一起判讀，否則會把財務工程誤認為經營能力。"
+    },
+    {
+      "id": "roa",
+      "zh": "資產報酬率",
+      "en": "ROA",
+      "group": "獲利能力",
+      "formula": "net_income * 4 / avg(total_assets)",
+      "desc": "排除槓桿因素的資產運用效率。ROE 與 ROA 的差距即為槓桿貢獻。"
+    },
+    {
+      "id": "roic",
+      "zh": "投入資本報酬率",
+      "en": "ROIC (approx.)",
+      "group": "獲利能力",
+      "formula": "operating_income * (1 - income_tax/pretax_income) * 4 / (avg(equity) + avg(long_term_debt) + avg(short_term_debt) - avg(cash))",
+      "desc": "衡量本業投入資本的真實回報，是判斷有無護城河的核心指標。ROIC 長期高於資金成本（約 8–10%）才代表在創造價值，否則成長反而在毀滅價值。此為簡化算法，與賣方定義可能有出入。"
+    },
+    {
+      "id": "dso",
+      "zh": "應收帳款週轉天數",
+      "en": "DSO",
+      "group": "營運效率",
+      "formula": "avg(accounts_receivable) / revenue * 91.25",
+      "desc": "收現速度。持續拉長代表放寬信用條件在推營收，或客戶付款能力惡化——這是財報造假最常見的早期痕跡之一。"
+    },
+    {
+      "id": "dio",
+      "zh": "存貨週轉天數",
+      "en": "DIO",
+      "group": "營運效率",
+      "formula": "avg(inventory) / cogs * 91.25",
+      "desc": "存貨消化速度。突然拉長代表需求不如預期或備料過度，通常領先毛利率下滑（因為之後要打折出清）。"
+    },
+    {
+      "id": "dpo",
+      "zh": "應付帳款週轉天數",
+      "en": "DPO",
+      "group": "營運效率",
+      "formula": "avg(accounts_payable) / cogs * 91.25",
+      "desc": "付款速度，反映對供應商的議價能力。拉長對現金流有利，但過長可能代表資金緊張。"
+    },
+    {
+      "id": "ccc",
+      "zh": "現金轉換循環",
+      "en": "Cash Conversion Cycle",
+      "group": "營運效率",
+      "formula": "dso + dio - dpo",
+      "desc": "一塊錢從投入到收回所需天數。為負值代表先收錢再付錢（Costco、Amazon 模式），等於供應商在無息融資給你，是極強的商業模式訊號。"
+    },
+    {
+      "id": "asset_turnover",
+      "zh": "總資產週轉率",
+      "en": "Asset Turnover",
+      "group": "營運效率",
+      "formula": "revenue * 4 / avg(total_assets)",
+      "desc": "每一元資產產生多少營收。與淨利率相乘即為 ROA，是杜邦分析的兩大支柱之一。"
+    },
+    {
+      "id": "current_ratio",
+      "zh": "流動比率",
+      "en": "Current Ratio",
+      "group": "財務結構",
+      "formula": "current_assets / current_liabilities",
+      "desc": "短期償債能力。低於 1 未必危險（如零售業周轉快），但須搭配現金流判讀。"
+    },
+    {
+      "id": "quick_ratio",
+      "zh": "速動比率",
+      "en": "Quick Ratio",
+      "group": "財務結構",
+      "formula": "(cash + short_term_investments + accounts_receivable) / current_liabilities",
+      "desc": "剔除存貨後的償債能力。與流動比率差距大，代表資產集中在難變現的存貨。"
+    },
+    {
+      "id": "net_debt",
+      "zh": "淨負債",
+      "en": "Net Debt",
+      "group": "財務結構",
+      "formula": "short_term_debt + long_term_debt - cash - short_term_investments",
+      "desc": "負值代表淨現金部位。這是併購能力與抗景氣衰退能力的直接量度。"
+    },
+    {
+      "id": "net_debt_to_ebitda",
+      "zh": "淨負債／EBITDA",
+      "en": "Net Debt / EBITDA",
+      "group": "財務結構",
+      "formula": "net_debt / (ebitda * 4)",
+      "desc": "以現有獲利能力還清淨負債需幾年。超過 3–4 倍在多數產業被視為偏高，且是債務條款（covenant）常見的觸發門檻。"
+    },
+    {
+      "id": "debt_to_equity",
+      "zh": "負債權益比",
+      "en": "Debt / Equity",
+      "group": "財務結構",
+      "formula": "(short_term_debt + long_term_debt) / equity",
+      "desc": "財務槓桿程度。判讀 ROE 時必看的配套指標。"
+    },
+    {
+      "id": "interest_coverage",
+      "zh": "利息保障倍數",
+      "en": "Interest Coverage",
+      "group": "財務結構",
+      "formula": "operating_income / interest_expense",
+      "desc": "營業利益是利息費用的幾倍。低於 2 進入警戒，低於 1 代表本業獲利無法支應利息。升息循環中此指標的惡化速度最能反映脆弱度。"
+    },
+    {
+      "id": "fcf",
+      "zh": "自由現金流",
+      "en": "Free Cash Flow",
+      "group": "現金流品質",
+      "formula": "cfo - capex",
+      "desc": "扣除維持營運所需投資後真正可自由分配的現金。這是最難被會計手法修飾的數字，也是估值的最終基礎。"
+    },
+    {
+      "id": "fcf_margin",
+      "zh": "自由現金流利潤率",
+      "en": "FCF Margin",
+      "group": "現金流品質",
+      "formula": "fcf / revenue",
+      "desc": "每一元營收轉換成自由現金的比例。與淨利率長期背離，是財報品質的紅旗。"
+    },
+    {
+      "id": "ocf_to_net_income",
+      "zh": "營運現金流對淨利比",
+      "en": "OCF / Net Income",
+      "group": "現金流品質",
+      "formula": "cfo / net_income",
+      "desc": "盈餘品質的核心檢驗。健康公司長期應大於 1（因為折舊加回）。持續小於 1 代表帳上賺錢但現金沒進來——應收帳款或存貨在膨脹，這是最重要的一個舞弊偵測指標。"
+    },
+    {
+      "id": "capex_intensity",
+      "zh": "資本支出強度",
+      "en": "CapEx / Revenue",
+      "group": "現金流品質",
+      "formula": "capex / revenue",
+      "desc": "維持與擴張營運所需的再投資比例。持續攀升代表產業轉向資本密集，或公司正在押注新產能。"
+    },
+    {
+      "id": "sbc_to_revenue",
+      "zh": "股份基礎給付佔營收比",
+      "en": "SBC / Revenue",
+      "group": "股東權益稀釋",
+      "formula": "sbc / revenue",
+      "desc": "以股權支付的薪酬規模。它不影響現金流但實質稀釋股東，科技業常高達營收 10–20%。用 non-GAAP 獲利評價時，若把 SBC 加回卻忽略稀釋，會系統性高估價值。"
+    },
+    {
+      "id": "dilution_rate",
+      "zh": "股數稀釋率",
+      "en": "Share Count Change YoY",
+      "group": "股東權益稀釋",
+      "formula": "shares_diluted[t] / shares_diluted[t-4] - 1",
+      "desc": "流通股數的年變動。正值代表稀釋，負值代表買回。與 SBC 並看，才知道買回是真回饋股東，還是只在抵銷員工配股。"
+    },
+    {
+      "id": "shareholder_return",
+      "zh": "股東回饋總額",
+      "en": "Total Shareholder Return",
+      "group": "股東權益稀釋",
+      "formula": "buyback + dividends_paid",
+      "desc": "以買回加股利形式回饋股東的現金總額。除以 FCF 即為回饋率，超過 100% 代表動用現金存量或舉債支應，不可持續。"
+    },
+    {
+      "id": "rnd_intensity",
+      "zh": "研發費用率",
+      "en": "R&D / Revenue",
+      "group": "費用結構",
+      "formula": "rnd / revenue",
+      "desc": "投入創新的強度。同業橫向比較才有意義，且須與毛利率趨勢對照——高研發若換不到毛利率擴張，代表投入未轉化為競爭優勢。"
+    },
+    {
+      "id": "sgna_intensity",
+      "zh": "銷管費用率",
+      "en": "SG&A / Revenue",
+      "group": "費用結構",
+      "formula": "sgna / revenue",
+      "desc": "營收擴張時此比率應下降，代表規模經濟。若隨營收同步上升，代表成長是靠燒錢買來的。"
+    },
+    {
+      "id": "revenue_per_share",
+      "zh": "每股營收",
+      "en": "Revenue / Share",
+      "group": "每股指標",
+      "formula": "revenue / shares_outstanding",
+      "desc": "每股營收。乘以股價倒數即 P/S。與 TradingView 的 Revenue per share 對應。"
+    },
+    {
+      "id": "book_value_per_share",
+      "zh": "每股淨值",
+      "en": "Book Value / Share",
+      "group": "每股指標",
+      "formula": "equity / shares_outstanding",
+      "desc": "每股帳面淨值（股東權益÷股數）。股價÷每股淨值即 P/B。"
+    },
+    {
+      "id": "cash_plus_sti_per_share",
+      "zh": "每股現金及投資",
+      "en": "Cash+STI / Share",
+      "group": "每股指標",
+      "formula": "(cash + short_term_investments) / shares_outstanding",
+      "desc": "每股現金及短期投資。TradingView 的 Cash per share 採此定義（含短期投資），非純現金。"
+    },
+    {
+      "id": "fcf_per_share",
+      "zh": "每股自由現金流",
+      "en": "FCF / Share",
+      "group": "每股指標",
+      "formula": "fcf / shares_outstanding",
+      "desc": "每股自由現金流。負值代表仍在燒錢。"
+    },
+    {
+      "id": "ocf_per_share",
+      "zh": "每股營運現金流",
+      "en": "OCF / Share",
+      "group": "每股指標",
+      "formula": "cfo / shares_outstanding",
+      "desc": "每股營運活動現金流。"
+    }
+  ],
+  "valuation": {
+    "currency": "USD",
+    "currentPrice": 174.04,
+    "rows": [
+      {
+        "id": "price",
+        "zh": "期末股價",
+        "en": "Price",
+        "unit": "USD",
+        "values": {
+          "FY2023 Q1": 8.449999809265137,
+          "FY2023 Q2": 15.329999923706055,
+          "FY2023 Q3": 16,
+          "FY2023 Q4": 17.170000076293945,
+          "FY2024 Q1": 23.010000228881836,
+          "FY2024 Q2": 25.329999923706055,
+          "FY2024 Q3": 37.20000076293945,
+          "FY2024 Q4": 75.62999725341797,
+          "FY2025 Q1": 84.4000015258789,
+          "FY2025 Q2": 136.32000732421875,
+          "FY2025 Q3": 182.4199981689453,
+          "FY2025 Q4": 177.75,
+          "FY2026 Q1": 146.27999877929688,
+          "FY2026 Q2": 116.66999816894531
+        },
+        "desc": "該季末當時股價（Yahoo 月線，已還原分割/股利）。"
+      },
+      {
+        "id": "marketcap",
+        "zh": "市值",
+        "en": "Market Cap",
+        "unit": "USD",
+        "values": {
+          "FY2023 Q1": 17894818096.075058,
+          "FY2023 Q2": 32959193235.969543,
+          "FY2023 Q3": 34803856000,
+          "FY2023 Q4": 37776197927.856445,
+          "FY2024 Q1": 51242419139.71138,
+          "FY2024 Q2": 56686994699.258804,
+          "FY2024 Q3": 84436896531.72684,
+          "FY2024 Q4": 176883059426.30768,
+          "FY2025 Q1": 199155560800.56,
+          "FY2025 Q2": 323330200411.9263,
+          "FY2025 Q3": 434764135516.0217,
+          "FY2025 Q4": 425034378000,
+          "FY2026 Q1": 350652612313.81226,
+          "FY2026 Q2": 280345988590.1642
+        },
+        "desc": "期末股價 × 期末流通股數。"
+      },
+      {
+        "id": "pe",
+        "zh": "本益比",
+        "en": "P/E (TTM)",
+        "unit": "x",
+        "values": {
+          "FY2023 Q1": null,
+          "FY2023 Q2": null,
+          "FY2023 Q3": 236.25947648528293,
+          "FY2023 Q4": 180.03668737212652,
+          "FY2024 Q1": 171.63592105827567,
+          "FY2024 Q2": 140.122888279526,
+          "FY2024 Q3": 177.17552968224496,
+          "FY2024 Q4": 382.70637492439835,
+          "FY2025 Q1": 348.9726678720358,
+          "FY2025 Q2": 423.59961903429655,
+          "FY2025 Q3": 396.9122060717803,
+          "FY2025 Q4": 261.554305666408,
+          "FY2026 Q1": 153.69193743047416,
+          "FY2026 Q2": 92.9315914883469
+        },
+        "desc": "市值 ÷ 近四季淨利。虧損時 n/a。"
+      },
+      {
+        "id": "ps",
+        "zh": "股價營收比",
+        "en": "P/S (TTM)",
+        "unit": "x",
+        "values": {
+          "FY2023 Q1": 9.0163843886104,
+          "FY2023 Q2": 16.116909739658368,
+          "FY2023 Q3": 16.376081148607764,
+          "FY2023 Q4": 16.977974917823566,
+          "FY2024 Q1": 21.95322142733389,
+          "FY2024 Q2": 22.867054930739204,
+          "FY2024 Q3": 31.907071784377823,
+          "FY2024 Q4": 61.72836409972395,
+          "FY2025 Q1": 63.93387684992475,
+          "FY2025 Q2": 93.97530142732222,
+          "FY2025 Q3": 111.58776866266163,
+          "FY2025 Q4": 94.9702840789499,
+          "FY2026 Q1": 67.12115873510574,
+          "FY2026 Q2": 45.54072051537924
+        },
+        "desc": "市值 ÷ 近四季營收。營收最難美化，虧損股也適用。"
+      },
+      {
+        "id": "pb",
+        "zh": "股價淨值比",
+        "en": "P/B",
+        "unit": "x",
+        "values": {
+          "FY2023 Q1": 6.569960453566872,
+          "FY2023 Q2": 11.151914459734561,
+          "FY2023 Q3": 10.910248384411986,
+          "FY2023 Q4": 10.869093630598469,
+          "FY2024 Q1": 13.573334567619742,
+          "FY2024 Q2": 13.994978106353352,
+          "FY2024 Q3": 18.77150115763924,
+          "FY2024 Q4": 35.35345537199288,
+          "FY2025 Q1": 36.71642141505175,
+          "FY2025 Q2": 54.53459256815492,
+          "FY2025 Q3": 65.96873866501545,
+          "FY2025 Q4": 57.53607125123929,
+          "FY2026 Q1": 41.49900561878175,
+          "FY2026 Q2": 28.682261533806695
+        },
+        "desc": "市值 ÷ 股東權益。"
+      },
+      {
+        "id": "pfcf",
+        "zh": "股價自由現金流比",
+        "en": "P/FCF (TTM)",
+        "unit": "x",
+        "values": {
+          "FY2023 Q1": 51.70881557167807,
+          "FY2023 Q2": 87.80829093594193,
+          "FY2023 Q3": 73.33272089034601,
+          "FY2023 Q4": 54.19291049789396,
+          "FY2024 Q1": 79.89612612469286,
+          "FY2024 Q2": 81.39853032504965,
+          "FY2024 Q3": 86.13179805383011,
+          "FY2024 Q4": 154.9932129659181,
+          "FY2025 Q1": 151.05909898062416,
+          "FY2025 Q2": 189.22540148084528,
+          "FY2025 Q3": 242.37194871638846,
+          "FY2025 Q4": 202.34037849348113,
+          "FY2026 Q1": 130.43772749294055,
+          "FY2026 Q2": 83.47923830772618
+        },
+        "desc": "市值 ÷ 近四季自由現金流。燒錢時 n/a。"
+      },
+      {
+        "id": "ev",
+        "zh": "企業價值",
+        "en": "Enterprise Value",
+        "unit": "USD",
+        "values": {
+          "FY2023 Q1": 14990283096.075058,
+          "FY2023 Q2": 29855941235.969543,
+          "FY2023 Q3": 31520282000,
+          "FY2023 Q4": 34102018927.856445,
+          "FY2024 Q1": 47374519139.71138,
+          "FY2024 Q2": 52688535699.258804,
+          "FY2024 Q3": 79872237531.72684,
+          "FY2024 Q4": 171653072426.30768,
+          "FY2025 Q1": 193724871800.56,
+          "FY2025 Q2": 317329778411.9263,
+          "FY2025 Q3": 428326318516.0217,
+          "FY2025 Q4": 417857335000,
+          "FY2026 Q1": 342626199313.81226,
+          "FY2026 Q2": 270936889590.16418
+        },
+        "desc": "市值 + 總負債 − 現金 − 短期投資。"
+      },
+      {
+        "id": "ev_ebitda",
+        "zh": "EV／EBITDA",
+        "en": "EV/EBITDA (TTM)",
+        "unit": "x",
+        "values": {
+          "FY2023 Q1": null,
+          "FY2023 Q2": null,
+          "FY2023 Q3": 456.14798628095105,
+          "FY2023 Q4": 222.4238124697133,
+          "FY2024 Q1": 205.7936401613846,
+          "FY2024 Q2": 162.05574361711706,
+          "FY2024 Q3": 200.83186248098937,
+          "FY2024 Q4": 501.9242446454799,
+          "FY2025 Q1": 444.99569716741587,
+          "FY2025 Q2": 530.8355541331636,
+          "FY2025 Q3": 489.0703193959579,
+          "FY2025 Q4": 290.1464663648483,
+          "FY2026 Q1": 169.7637507853635,
+          "FY2026 Q2": 101.75536578126295
+        },
+        "desc": "排除資本結構的估值倍數。"
+      },
+      {
+        "id": "peg",
+        "zh": "本益成長比",
+        "en": "PEG (trailing)",
+        "unit": "x",
+        "values": {
+          "FY2023 Q1": null,
+          "FY2023 Q2": null,
+          "FY2023 Q3": null,
+          "FY2023 Q4": null,
+          "FY2024 Q1": null,
+          "FY2024 Q2": null,
+          "FY2024 Q3": 0.7926891097780134,
+          "FY2024 Q4": 3.1819533262739244,
+          "FY2025 Q1": 3.8284560374221868,
+          "FY2025 Q2": 4.776943554651356,
+          "FY2025 Q3": 3.0568693922701335,
+          "FY2025 Q4": 1.0395881863326102,
+          "FY2026 Q1": 0.5126762759778233,
+          "FY2026 Q2": 0.3147862799783584
+        },
+        "desc": "P/E ÷ 近四季淨利年增率(%)。< 1 常視為成長相對便宜。虧損/衰退時 n/a。"
+      },
+      {
+        "id": "ps_vs_median",
+        "zh": "PS／歷史中位數",
+        "en": "P/S vs 5Y Median",
+        "unit": "ratio",
+        "values": {
+          "FY2023 Q1": 0.2825826340173577,
+          "FY2023 Q2": 0.5051203021252939,
+          "FY2023 Q3": 0.5132429970156565,
+          "FY2023 Q4": 0.5321069583745455,
+          "FY2024 Q1": 0.6880362314564545,
+          "FY2024 Q2": 0.7166767005531123,
+          "FY2024 Q3": 1,
+          "FY2024 Q4": 1.9346295553811075,
+          "FY2025 Q1": 2.0037525625033297,
+          "FY2025 Q2": 2.945281286305123,
+          "FY2025 Q3": 3.4972738776140737,
+          "FY2025 Q4": 2.976465052034288,
+          "FY2026 Q1": 2.103645210337642,
+          "FY2026 Q2": 1.4272923828026318
+        },
+        "desc": "目前 PS 相對自身歷史中位數（中位數≈31.91）。< 1 比歷史便宜，需搭配基本面判讀。"
+      }
+    ]
+  }
+}

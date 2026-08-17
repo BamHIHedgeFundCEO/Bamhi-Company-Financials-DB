@@ -70,6 +70,42 @@ export function parseRange(query: Record<string, unknown>): QuarterRange {
   return { fromFy, fromQ, toFy, toQ, fromDate, toDate, nQuarters: n }
 }
 
+/**
+ * 裁到 range，但保留起點前 lookback 季（供 YoY[t-4]、TTM 滾動四季的 Excel 公式從第一顯示欄即可算）。
+ * 回傳同時標記 lookbackCount = 前面幾欄是 lookback（Excel 隱藏之）。
+ */
+export function clampWithLookback<
+  T extends {
+    periods: string[]
+    lineItems: { values: Record<string, unknown> }[]
+    valuation?: { rows: { values: Record<string, unknown> }[] }
+    lookbackCount?: number
+  },
+>(fin: T, range: QuarterRange, lookback = 4): T {
+  const lo = range.fromFy * 4 + range.fromQ - lookback
+  const hi = range.toFy * 4 + range.toQ
+  const idxOf = (p: string) => {
+    const m = p.match(/^FY(\d{4})(?: Q([1-4]))?$/)
+    return m ? Number(m[1]) * 4 + (m[2] ? Number(m[2]) : 4) : -1
+  }
+  const inRange = (p: string) => {
+    const i = idxOf(p)
+    return i >= lo && i <= hi
+  }
+  fin.periods = fin.periods.filter(inRange)
+  for (const li of fin.lineItems) {
+    li.values = Object.fromEntries(Object.entries(li.values).filter(([k]) => inRange(k)))
+  }
+  if (fin.valuation) {
+    for (const r of fin.valuation.rows) {
+      r.values = Object.fromEntries(Object.entries(r.values).filter(([k]) => inRange(k)))
+    }
+  }
+  const displayFrom = range.fromFy * 4 + range.fromQ
+  fin.lookbackCount = fin.periods.filter((p) => idxOf(p) < displayFrom).length
+  return fin
+}
+
 /** 把 financials 結果裁到 range 的起訖「季度」（getFinancials 只吃整年）。 */
 export function clampPeriods<T extends { periods: string[]; lineItems: { values: Record<string, unknown> }[] }>(
   fin: T,

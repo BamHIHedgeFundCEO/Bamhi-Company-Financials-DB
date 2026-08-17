@@ -12,7 +12,7 @@ from openpyxl.comments import Comment
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 
-from charts import place_charts
+from charts import place_charts, set_data_start
 from config_loader import chart_spec, theme, xbrl_map
 from formulas import FIRST_DATA_COL, RefResolver, translate
 
@@ -86,6 +86,10 @@ def build_workbook(payload: dict) -> bytes:
     periods: list[str] = fin["periods"]
     n = len(periods)
     annual = fin.get("periodicity") == "annual"
+    lookback = int(fin.get("lookbackCount", 0))  # 前面幾欄是 lookback（隱藏，供 YoY/TTM 公式）
+    n_display = n - lookback
+    data_start = FIRST_DATA_COL + lookback  # 圖表與顯示的第一欄
+    set_data_start(data_start)
     pre_ipo = fin.get("preIpoBefore")  # 上市/借殼前的期界線
     th = theme()
     cmap = xbrl_map()
@@ -197,7 +201,7 @@ def build_workbook(payload: dict) -> bytes:
                         cell.fill = q4_fill
                     raw_rows.append((li["zh"], li["en"], p, v["value"],
                                      v.get("sourceTag"), v.get("accessionOrForm"),
-                                     v.get("filed"), v.get("endDate"), li["unit"],
+                                     v.get("origFiled"), v.get("filed"), v.get("endDate"), li["unit"],
                                      "Q4推算＝全年−前三季" if v.get("isEstimated") else "財報直接申報值"))
             if any(vv.get("value") is not None for vv in li["values"].values()):
                 yf = {"USD": "money", "shares": None, "USD/shares": None}.get(li["unit"], "money")
@@ -240,7 +244,13 @@ def build_workbook(payload: dict) -> bytes:
             col = FIRST_DATA_COL + i
             cell = ws.cell(row=row, column=col)
             cell.border = ROW_BORDER
-            f = translate(m["formula"], resolver, col, annual=annual)
+            if m["id"] == "ccc":
+                # 現金轉換循環：存貨不適用（軟體公司）時 DIO 以 0 計，仍算得出 DSO−DPO
+                dso, dio, dpo = (resolver.cell(x, col) for x in ("dso", "dio", "dpo"))
+                f = (f'IFERROR({dso},0)+IFERROR({dio},0)-IFERROR({dpo},0)'
+                     if dso and dpo else None)
+            else:
+                f = translate(m["formula"], resolver, col, annual=annual)
             if f is None:
                 cell.value = missing
                 cell.font = na_font
@@ -270,49 +280,17 @@ def build_workbook(payload: dict) -> bytes:
             {"type": "line", "title": f"{m['zh']} {m['en']}", "series": [m["id"]], "y_format": yfmt_of[m["id"]]})
     chart_jobs.append((ws, metric_specs, row + 3))
 
-    # ── 5b. 估值倍數（需股價，來自 Yahoo；SEC 本身無）───────────
+    # ── 5b. 估值倍數（模型：股價為輸入格，倍數全公式）─────────
     valuation = fin.get("valuation")
     if valuation and valuation.get("rows"):
-        vws = wb.create_sheet("估值倍數")
-        _init_sheet(vws, periods, th, tab_color="C25A18")
-        vfmt = {
-            "USD": th["number_formats"]["usd"],
-            "x": '0.0"x"',
-            "ratio": '0.00"倍"',
-        }
-        vrow = 1
-        for rrow in valuation["rows"]:
-            vrow += 1
-            locations[f"val_{rrow['id']}"] = (vws, vrow)
-            nm = vws.cell(row=vrow, column=1, value=rrow["zh"])
-            nm.border = ROW_BORDER
-            if rrow.get("desc"):
-                nm.comment = Comment(rrow["desc"], "BamHI", height=140, width=340)
-            vws.cell(row=vrow, column=2, value=rrow["en"]).border = ROW_BORDER
-            for i, p in enumerate(periods):
-                cell = vws.cell(row=vrow, column=FIRST_DATA_COL + i)
-                cell.border = ROW_BORDER
-                v = rrow["values"].get(p)
-                if v is None:
-                    cell.value = missing
-                    cell.font = na_font
-                    cell.alignment = Alignment(horizontal="right")
-                else:
-                    cell.value = v
-                    cell.number_format = vfmt.get(rrow["unit"], "0.00")
-        # 估值圖：PE/PS/PB 各一張折線。股價是「每股金額」不是百萬，軸用自動（不套÷百萬）
-        vspecs = [{"type": "line", "title": f"{r['zh']} {r['en']}",
-                   "series": [f"val_{r['id']}"], "y_format": None}
-                  for r in valuation["rows"] if r["id"] not in ("marketcap", "ev")]
-        chart_jobs.append((vws, vspecs, vrow + 3))
-        # 說明分頁註記估值資料來源
-        info.cell(row=1, column=1)  # noop 保留
+        _build_valuation_sheet(wb, valuation, locations, periods, th,
+                               data_start, n_display, chart_jobs)
 
     # 指標列已定位，統一放圖（圖表可跨分頁引用系列）；收集圖表位置做「說明」目錄
     locate = locations.get
     chart_index: list = []
     for job_ws, job_specs, anchor in chart_jobs:
-        place_charts(job_ws, job_specs, locate, n, anchor_row=anchor, index=chart_index)
+        place_charts(job_ws, job_specs, locate, n_display, anchor_row=anchor, index=chart_index)
 
     # 「說明」分頁頂端加「圖表快速跳轉」目錄：點連結直接跳到該圖，不用一路往下滑
     from openpyxl.utils import get_column_letter as _gcl
@@ -360,20 +338,232 @@ def build_workbook(payload: dict) -> bytes:
 
     # ── 6. 原始資料 ─────────────────────────────────────────
     ws = wb.create_sheet("原始資料")
-    headers = ["科目", "Line Item", "季別", "數值", "XBRL 標籤", "表單", "申報日", "期末日", "單位", "備註"]
+    headers = ["科目", "Line Item", "季別", "數值", "XBRL 標籤", "表單",
+               "原始申報日", "取值來源申報日", "期末日", "單位", "備註"]
     for j, h in enumerate(headers, start=1):
-        _header_cell_at(ws, 1, j, h, th)
+        c = _header_cell_at(ws, 1, j, h, th)
+        if h in ("原始申報日", "取值來源申報日"):
+            c.comment = Comment(
+                "原始申報日＝該期首次申報；取值來源申報日＝實際取值的那份（可能是後續重編，取 filed 最新）。"
+                "兩者不同代表該數字曾被重編。", "BamHI", height=120, width=320)
     for i, rr in enumerate(raw_rows, start=2):
         for j, v in enumerate(rr, start=1):
             ws.cell(row=i, column=j, value=v)
     ws.freeze_panes = "A2"
-    widths = [24, 28, 12, 16, 44, 10, 12, 12, 10, 8]
+    widths = [24, 28, 12, 16, 44, 10, 12, 14, 12, 10, 8]
     for j, w in enumerate(widths, start=1):
         ws.column_dimensions[get_column_letter(j)].width = w
+
+    # 隱藏 lookback 欄：資料在、公式引用得到（YoY/TTM 從第一顯示欄即活），但使用者看不到
+    if lookback > 0:
+        for sname in list(STATEMENT_SHEETS.values()) + [METRICS_SHEET, "估值倍數"]:
+            if sname in wb.sheetnames:
+                sh = wb[sname]
+                for c in range(FIRST_DATA_COL, data_start):
+                    sh.column_dimensions[get_column_letter(c)].hidden = True
 
     buf = BytesIO()
     wb.save(buf)
     return buf.getvalue()
+
+
+BLUE_INPUT = Font(color="0000FF")           # 藍字＝可改假設
+BLUE_FILL = PatternFill("solid", fgColor="FFFFCC")  # 黃底
+GREEN_LINK = Font(color="0E6B5A")           # 綠字＝跨表連結
+
+
+def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_display, chart_jobs):
+    """
+    估值分頁＝財務模型：股價是唯一硬值（藍字輸入格），市值/PE/PS/EV… 全部公式。
+    版面：假設區(前瞻用) → 反推目標價 → 歷史逐季倍數(全公式，TTM 引用含 lookback 欄)。
+    """
+    from openpyxl.utils import get_column_letter as g
+
+    vws = wb.create_sheet("估值倍數")
+    vws.sheet_view.showGridLines = False
+    vws.sheet_properties.tabColor = "C25A18"
+    vws.column_dimensions["A"].width = 26
+    vws.column_dimensions["B"].width = 26
+    for i in range(len(periods)):
+        vws.column_dimensions[g(FIRST_DATA_COL + i)].width = 13
+
+    dcol = g(data_start)          # 第一顯示欄字母（假設輸入放這欄，永遠可見）
+    last_disp = data_start + n_display - 1
+    lastcol = g(last_disp)        # 最後一季（最新）
+
+    def sheet_row(cid):
+        loc = locations.get(cid)
+        return (loc[0].title, loc[1]) if loc else (None, None)
+
+    rev_s, rev_r = sheet_row("revenue")
+    ni_s, ni_r = sheet_row("net_income")
+    epsd_s, epsd_r = sheet_row("eps_diluted")
+    so_s, so_r = sheet_row("shares_outstanding")
+    eq_s, eq_r = sheet_row("equity")
+    fcf_s, fcf_r = sheet_row("fcf")
+    ebitda_s, ebitda_r = sheet_row("ebitda")
+    nd_s, nd_r = sheet_row("net_debt")
+
+    def ref(sheet, row, col):
+        return f"'{sheet}'!{g(col)}{row}"
+
+    def ttm(sheet, row, col):
+        return f"SUM('{sheet}'!{g(col - 3)}{row}:{g(col)}{row})"
+
+    px = valuation.get("currentPrice")
+    ps_med = None
+    for r in valuation["rows"]:
+        if r["id"] == "ps_vs_median":
+            import re as _re
+            m = _re.search(r"([\d.]+)", r.get("desc", ""))
+            if m:
+                ps_med = float(m.group(1))
+
+    def label(row, zh, en, bold=False, accent=False):
+        c = vws.cell(row=row, column=1, value=zh)
+        c.font = Font(bold=bold, color=(th["palette"]["accent"].lstrip("#") if accent else "15171A"))
+        vws.cell(row=row, column=2, value=en)
+
+    def inp(row, val, fmt):
+        c = vws.cell(row=row, column=data_start, value=val)
+        c.font = BLUE_INPUT
+        c.fill = BLUE_FILL
+        c.number_format = fmt
+        return f"${dcol}${row}"
+
+    def formula(row, f, fmt, green=False):
+        c = vws.cell(row=row, column=data_start, value=f)
+        c.number_format = fmt
+        if green:
+            c.font = GREEN_LINK
+        return c
+
+    NF = th["number_formats"]
+    # ── 假設區 ──
+    label(1, "■ 假設區", "Assumptions", bold=True, accent=True)
+    vws.cell(row=1, column=data_start + 1, value="藍字＝可修改輸入；黑字＝公式；綠字＝跨表連結").font = Font(
+        size=9, color="8C9199")
+    p2 = inp(2, round(px, 2) if px else None, '$0.00')                  # 目前股價
+    label(2, "目前股價", "Current Price")
+    p3 = f"={ref(so_s, so_r, last_disp)}" if so_s else None
+    formula(3, p3, "#,##0", green=True); label(3, "流通股數（最新）", "Shares Outstanding")
+    p4 = inp(4, None, '0.00'); label(4, "FY+1 預估 EPS", "Est. EPS FY+1")
+    p5 = inp(5, None, '0.00'); label(5, "FY+2 預估 EPS", "Est. EPS FY+2")
+    vws.cell(row=4, column=data_start + 1, value="需自行填入，SEC 不提供分析師預估").font = Font(size=9, color="8C9199")
+    p6 = inp(6, 20, '0.0"x"'); label(6, "目標本益比", "Target P/E")
+    p7 = inp(7, round(ps_med, 1) if ps_med else 5, '0.0"x"'); label(7, "目標股價營收比", "Target P/S")
+
+    # ── 前瞻估值 ──
+    label(9, "■ 前瞻估值", "Forward Valuation", bold=True, accent=True)
+    formula(10, f'=IFERROR({p2}*${dcol}$3,"n/a")', "#,##0")
+    label(10, "市值", "Market Cap")
+    formula(11, f'=IFERROR({p2}/{p4},"n/a")', '0.0"x"'); label(11, "前瞻本益比 FY+1", "Fwd P/E FY+1")
+    formula(12, f'=IFERROR({p2}/{p5},"n/a")', '0.0"x"'); label(12, "前瞻本益比 FY+2", "Fwd P/E FY+2")
+    formula(13, f'=IFERROR({p5}/{p4}-1,"n/a")', '0.0%'); label(13, "預估 EPS 成長率", "Est. EPS Growth")
+    formula(14, f'=IFERROR(${dcol}$11/(${dcol}$13*100),"n/a")', '0.00'); label(14, "前瞻 PEG", "Fwd PEG")
+    if epsd_s:
+        formula(15, f'=IFERROR({p2}/{ttm(epsd_s, epsd_r, last_disp)},"n/a")', '0.0"x"')
+    label(15, "目前本益比（TTM）", "Current P/E (TTM)")
+
+    # ── 反推目標價 ──
+    label(17, "■ 反推目標價", "Reverse: Target Price", bold=True, accent=True)
+    formula(18, f'=IFERROR({p6}*{p4},"n/a")', '$0.00'); label(18, "目標價（P/E × FY+1 EPS）", "Target (P/E×FY+1)")
+    formula(19, f'=IFERROR({p6}*{p5},"n/a")', '$0.00'); label(19, "目標價（P/E × FY+2 EPS）", "Target (P/E×FY+2)")
+    if rev_s:
+        formula(20, f'=IFERROR({p7}*{ttm(rev_s, rev_r, last_disp)}/{p3},"n/a")', '$0.00')
+    label(20, "目標價（P/S × TTM 營收）", "Target (P/S×Rev)")
+    up1 = formula(21, f'=IFERROR(${dcol}$18/{p2}-1,"n/a")', '0.0%'); label(21, "上漲空間（FY+1）", "Upside FY+1")
+    up2 = formula(22, f'=IFERROR(${dcol}$19/{p2}-1,"n/a")', '0.0%'); label(22, "上漲空間（FY+2）", "Upside FY+2")
+    from openpyxl.formatting.rule import CellIsRule
+    red = Font(color="C0392B"); grn = Font(color="0E6B5A")
+    for rr in (21, 22):
+        cc = f"{dcol}{rr}"
+        vws.conditional_formatting.add(cc, CellIsRule(operator="greaterThan", formula=["0"], font=grn))
+        vws.conditional_formatting.add(cc, CellIsRule(operator="lessThan", formula=["0"], font=red))
+
+    # ── 歷史逐季倍數（全公式）──
+    hdr = 24
+    _header_cell_at(vws, hdr, 1, "歷史逐季倍數", th)
+    _header_cell_at(vws, hdr, 2, "TTM／公式", th)
+    for i in range(n_display):
+        col = data_start + i
+        _header_cell_at(vws, hdr, col, periods[(len(periods) - n_display) + i], th)
+    vws.freeze_panes = f"{dcol}{hdr + 1}"
+
+    price_vals = next((r["values"] for r in valuation["rows"] if r["id"] == "price"), {})
+    rows_spec = [
+        ("期末股價", "Price", '$0.00', None),
+        ("市值", "Market Cap", '#,##0', "mc"),
+        ("本益比 P/E", "P/E (TTM)", '0.0"x"', "pe"),
+        ("股價營收比 P/S", "P/S (TTM)", '0.0"x"', "ps"),
+        ("股價淨值比 P/B", "P/B", '0.0"x"', "pb"),
+        ("股價自由現金流比 P/FCF", "P/FCF (TTM)", '0.0"x"', "pfcf"),
+        ("企業價值 EV", "Enterprise Value", '#,##0', "ev"),
+        ("EV／EBITDA", "EV/EBITDA (TTM)", '0.0"x"', "eve"),
+        ("PS／歷史中位數", "P/S vs Median", '0.00"倍"', "psmed"),
+    ]
+    row0 = hdr + 1
+    rrows = {}
+    for k, (zh, en, fmt, key) in enumerate(rows_spec):
+        r = row0 + k
+        rrows[key or "price"] = r
+        vws.cell(row=r, column=1, value=zh).border = ROW_BORDER
+        vws.cell(row=r, column=2, value=en).border = ROW_BORDER
+    # 全期（含 lookback）都填股價，讓 TTM 公式引用得到；但只有顯示欄可見
+    all_price_row = rrows["price"]
+    for i, p in enumerate(periods):
+        col = FIRST_DATA_COL + i
+        c = vws.cell(row=all_price_row, column=col)
+        c.border = ROW_BORDER
+        pv = price_vals.get(p)
+        if pv is not None:
+            c.value = round(pv, 2)
+            c.font = BLUE_INPUT
+            c.fill = BLUE_FILL
+            c.number_format = '$0.00'
+        else:
+            c.value = missing
+    pr = all_price_row
+    for i in range(n_display):
+        col = data_start + i
+        L = g(col)
+        mc = f"{L}{rrows['mc']}"
+        ev = f"{L}{rrows['ev']}"
+        cells = {
+            "mc": f"={L}{pr}*{ref(so_s, so_r, col)}" if so_s else None,
+            "pe": f'=IFERROR({mc}/{ttm(ni_s, ni_r, col)},"n/a")' if ni_s else None,
+            "ps": f'=IFERROR({mc}/{ttm(rev_s, rev_r, col)},"n/a")' if rev_s else None,
+            "pb": f'=IFERROR({mc}/{ref(eq_s, eq_r, col)},"n/a")' if eq_s else None,
+            "pfcf": f'=IFERROR({mc}/{ttm(fcf_s, fcf_r, col)},"n/a")' if fcf_s else None,
+            "ev": f"={mc}+{ref(nd_s, nd_r, col)}" if nd_s else None,
+            "eve": f'=IFERROR({ev}/{ttm(ebitda_s, ebitda_r, col)},"n/a")' if ebitda_s else None,
+        }
+        for key, f in cells.items():
+            c = vws.cell(row=rrows[key], column=col)
+            c.border = ROW_BORDER
+            c.number_format = dict(rows_spec_map(rows_spec))[key]
+            c.value = f if f else missing
+    # PS／歷史中位數：引用整條 PS 顯示範圍的 MEDIAN
+    ps_row = rrows["ps"]; med_row = rrows["psmed"]
+    rng = f"{g(data_start)}{ps_row}:{g(last_disp)}{ps_row}"
+    for i in range(n_display):
+        col = data_start + i
+        c = vws.cell(row=med_row, column=col)
+        c.border = ROW_BORDER
+        c.number_format = '0.00"倍"'
+        c.value = f'=IFERROR({g(col)}{ps_row}/MEDIAN({rng}),"n/a")'
+
+    # 估值圖：PE/PS/PB 各一張折線（引用歷史列）
+    for key in ("pe", "ps", "pb", "pfcf", "eve"):
+        locations[f"val_{key}"] = (vws, rrows[key])
+    vspecs = [{"type": "line", "title": t, "series": [f"val_{k}"], "y_format": None}
+              for k, t in [("pe", "本益比 P/E"), ("ps", "股價營收比 P/S"), ("pb", "股價淨值比 P/B"),
+                           ("pfcf", "P/FCF"), ("eve", "EV/EBITDA")]]
+    chart_jobs.append((vws, vspecs, row0 + len(rows_spec) + 3))
+
+
+def rows_spec_map(rows_spec):
+    return [((key or "price"), fmt) for zh, en, fmt, key in rows_spec]
 
 
 def _header_cell_at(ws, row: int, col: int, text: str, th: dict):

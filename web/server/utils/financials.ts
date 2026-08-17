@@ -64,7 +64,8 @@ export interface CellValue {
   isEstimated: boolean // Q4 推算
   sourceTag?: string
   accessionOrForm?: string
-  filed?: string
+  filed?: string // 取值來源申報日（filed 最新，可能是後續重編）
+  origFiled?: string // 原始申報日（該期最早申報，供稽核對照）
   endDate?: string
 }
 
@@ -186,10 +187,13 @@ function inferFyeMonth(gaap: Record<string, { units: Record<string, FactPoint[]>
  * 同期間多筆（重編）→ filed 最新。
  */
 function collect(points: FactPoint[], flow: boolean, fyeMonth: number) {
-  const best = new Map<string, FactPoint>()
+  const best = new Map<string, FactPoint & { _origFiled?: string }>()
   const put = (key: string, p: FactPoint) => {
     const prev = best.get(key)
-    if (!prev || p.filed > prev.filed) best.set(key, p)
+    // 取 filed 最新（重編值）；同時記該期最早申報日（原始申報，供稽核）
+    const orig = prev?._origFiled && prev._origFiled < p.filed ? prev._origFiled : p.filed
+    if (!prev || p.filed > prev.filed) best.set(key, { ...p, _origFiled: orig })
+    else if (prev) prev._origFiled = orig
   }
   for (const p of points) {
     if (!p.end) continue
@@ -304,13 +308,14 @@ function splitAdjust(val: number, filed: string, unit: string, splits: SplitEven
   return unit === 'shares' ? val * f : val / f
 }
 
-function toCell(p: FactPoint, tag: string, estimated = false): CellValue {
+function toCell(p: FactPoint & { _origFiled?: string }, tag: string, estimated = false): CellValue {
   return {
     value: p.val,
     isEstimated: estimated,
     sourceTag: tag,
     accessionOrForm: p.form,
     filed: p.filed,
+    origFiled: p._origFiled ?? p.filed,
     endDate: p.end,
   }
 }
@@ -388,25 +393,11 @@ export async function getFinancials(
           const p = best.get(`Q:${fy}:${n}`)
           if (p) values[periodKey(fy, n)] = adj(p)
         }
-        if (!values[periodKey(fy, 4)]) {
+        // 加權股數 Q4：用 10-K 年度加權平均近似（股數緩慢變動；非減法）。
+        // EPS Q4 不在此推算——每股/加權平均項不可加減，改由後續 derive「淨利÷股數」算。
+        if (concept.unit === 'shares' && !values[periodKey(fy, 4)]) {
           const a = best.get(`A:${fy}`)
-          if (concept.unit === 'shares') {
-            // 加權股數 Q4：用 10-K 年度加權平均近似（股數變化緩）
-            if (a) values[periodKey(fy, 4)] = adj(a)
-          } else if (a) {
-            // EPS Q4：年度 EPS − 前三季（股數穩定時標準算法，各數據源皆如此）
-            const q1 = values[periodKey(fy, 1)]?.value
-            const q2 = values[periodKey(fy, 2)]?.value
-            const q3 = values[periodKey(fy, 3)]?.value
-            if (q1 != null && q2 != null && q3 != null) {
-              const c = adj(a)
-              if (c.value != null) {
-                c.value = c.value - q1 - q2 - q3
-                c.isEstimated = true
-                values[periodKey(fy, 4)] = c
-              }
-            }
-          }
+          if (a) values[periodKey(fy, 4)] = adj(a)
         }
         continue
       }

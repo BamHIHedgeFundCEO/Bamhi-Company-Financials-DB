@@ -18,6 +18,15 @@ from openpyxl.utils import get_column_letter
 from config_loader import theme
 from formulas import FIRST_DATA_COL
 
+# 圖表資料起始欄：預設 C；有 lookback 隱藏欄時，workbook 設成第一顯示欄，
+# 讓圖表只畫顯示範圍（公式仍引用含 lookback 的完整欄位）。
+_DATA_START = FIRST_DATA_COL
+
+
+def set_data_start(col: int):
+    global _DATA_START
+    _DATA_START = col
+
 
 def _hex(c: str) -> str:
     return c.lstrip("#").upper()
@@ -50,12 +59,12 @@ def _style_chart(chart, th: dict):
 
 def _values_ref(ws, row: int, n_quarters: int) -> Reference:
     """只含數據欄（C 起），不含科目名欄。"""
-    return Reference(ws, min_col=FIRST_DATA_COL, max_col=FIRST_DATA_COL - 1 + n_quarters,
+    return Reference(ws, min_col=_DATA_START, max_col=_DATA_START - 1 + n_quarters,
                      min_row=row, max_row=row)
 
 
 def _cats_ref(ws, n_quarters: int) -> Reference:
-    return Reference(ws, min_col=FIRST_DATA_COL, max_col=FIRST_DATA_COL - 1 + n_quarters,
+    return Reference(ws, min_col=_DATA_START, max_col=_DATA_START - 1 + n_quarters,
                      min_row=1, max_row=1)
 
 
@@ -76,7 +85,7 @@ def _make_series(ws, row: int, n_quarters: int, color: str, is_line: bool) -> Se
 
 
 def _period_labels(cats_ws, n_quarters: int) -> list[str]:
-    return [str(cats_ws.cell(row=1, column=FIRST_DATA_COL + i).value or "") for i in range(n_quarters)]
+    return [str(cats_ws.cell(row=1, column=_DATA_START + i).value or "") for i in range(n_quarters)]
 
 
 def _color_bars_by_year(series: Series, labels: list[str], palette: list[str]):
@@ -205,7 +214,7 @@ def place_charts(ws, specs: list[dict], locate, n_quarters: int, anchor_row: int
         chart = build_chart(spec, ws, locate, n_quarters)
         if chart is None:
             continue
-        ws.add_chart(chart, f"{get_column_letter(FIRST_DATA_COL)}{r}")
+        ws.add_chart(chart, f"{get_column_letter(_DATA_START)}{r}")
         if index is not None:
             index.append((ws.title, spec["title"], r))
         r += step

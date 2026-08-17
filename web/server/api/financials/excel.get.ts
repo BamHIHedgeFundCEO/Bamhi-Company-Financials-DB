@@ -1,7 +1,7 @@
 import { defineEventHandler, getQuery, createError, sendRedirect, setHeader } from 'h3'
 import { resolveTicker } from '../../utils/cik'
 import { getFinancials, loadMap } from '../../utils/financials'
-import { parseTickers, parseRange, clampPeriods } from '../../utils/params'
+import { parseTickers, parseRange, clampPeriods, clampWithLookback } from '../../utils/params'
 import { computeValuation } from '../../utils/valuation'
 
 /**
@@ -44,10 +44,11 @@ export default defineEventHandler(async (event) => {
   }
 
   // 未命中 → 轉呼叫 Cloud Run：資料在此準備好，excel-service 不碰 SEC
-  // 多抓一年（fromFy-1）供估值 TTM 回溯，算完估值再裁到顯示範圍
+  // 多抓一年（fromFy-1）供估值 TTM 與 YoY 回溯，算完估值後保留 4 季 lookback（Excel 隱藏），
+  // 讓 TTM/YoY 公式從第一顯示欄即可算
   const fin = await getFinancials(ref, range.fromFy - 1, range.toFy)
   fin.valuation = (await computeValuation(fin)) ?? undefined
-  clampPeriods(fin, range)
+  clampWithLookback(fin, range, 4)
   const res = await fetch(`${serviceUrl}/generate`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },

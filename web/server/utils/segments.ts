@@ -55,7 +55,8 @@ interface SegmentAxesConfig {
     include: string[]
     derived: { id: string; zh: string; en: string; formula: string; format: string }[]
   }
-  member_labels: { map: Record<string, string> }
+  /** `en` 只給少數自動拆字會拆壞的成員補英文，查無時仍走駝峰拆字 */
+  member_labels: { map: Record<string, string>; en?: Record<string, string> }
 }
 
 export interface SegmentCell {
@@ -266,6 +267,14 @@ interface ExtractedFilingSegments {
   data: Record<string, Record<string, Record<string, Record<string, number>>>>
   /** period → conceptId → 合併總額（無維度 context） */
   totals: Record<string, Record<string, number>>
+  /**
+   * 調節項：只掛 ConsolidationItemsAxis、**沒有**任何分部軸維度的列
+   * （公司未分攤、分部間沖銷…）。period → memberKey → conceptId → 值。
+   *
+   * 這些數字是合併總額的一部分，但申報沒說它屬於哪一個分部軸，所以先擺這裡，
+   * 由 reconcileConcept 用「加進去才對得上總額」反推該掛到哪個軸。
+   */
+  residual: Record<string, Record<string, Record<string, number>>>
   labels: Record<string, string>
 }
 
@@ -314,7 +323,7 @@ export async function extractFromInstance(
   const consExclude = cfg.consolidation.exclude_patterns.map((p) => new RegExp(p, 'i'))
   const wantedConcepts = new Set(cfg.concepts.include)
 
-  const out: ExtractedFilingSegments = { data: {}, totals: {}, labels: {} }
+  const out: ExtractedFilingSegments = { data: {}, totals: {}, residual: {}, labels: {} }
 
   for (const f of facts) {
     const ctx = contexts.get(f.ctx)
@@ -337,6 +346,18 @@ export async function extractFromInstance(
 
     // 找出唯一一個「分部軸」，其餘維度只允許是 ConsolidationItems 的營運分部
     const segDims = ctx.dims.filter((d) => axisByName.has(d.axis))
+
+    if (segDims.length === 0) {
+      // 沒有分部軸、只有一個 ConsolidationItemsAxis 維度 → 調節項（見 residual）。
+      // 限定「剛好一個維度」是刻意的：QCOM 的 MaterialReconcilingItems 還疊了
+      // 訴訟案件軸，那是某一件官司的金額，不是可以直接加進分部的調節數。
+      if (ctx.dims.length !== 1 || !consAxes.has(ctx.dims[0].axis)) continue
+      const rk = normalizeMember(ctx.dims[0].member, cfg)
+      out.labels[rk] ??= humanize(ctx.dims[0].member)
+      const byMem = (out.residual[period] ??= {})
+      ;(byMem[rk] ??= {})[cid] = f.val
+      continue
+    }
     if (segDims.length !== 1) continue
     const seg = segDims[0]
 
@@ -463,6 +484,9 @@ function candidateParents(keys: string[], vals: number[], total: number, tol: nu
  * 作法：每期各自算出「最多成員」的候選解，把對應的上層集合拿去跨期計票，取得票
  * 最高的一組（同票取上層較少的，寧可平鋪也不要多藏數字），然後**同一組套用到所有
  * 期間**，再逐期驗算加總對不對得上，對不上的那一期照實標為未校驗。
+ *
+ * 決定完上層之後，再用同一套投票決定要不要補調節項（`residualByPeriod`）——
+ * 見 pickResidual。
  */
 export function reconcileConcept(
   byPeriod: Record<string, Record<string, Record<string, number>>>,
@@ -470,7 +494,8 @@ export function reconcileConcept(
   periods: string[],
   conceptId: string,
   tolerancePct: number,
-): { parents: Set<string>; verified: Record<string, boolean> } {
+  residualByPeriod: Record<string, Record<string, Record<string, number>>> = {},
+): { parents: Set<string>; residual: Set<string>; verified: Record<string, boolean> } {
   const votes = new Map<string, { set: string[]; count: number }>()
 
   for (const p of periods) {
@@ -500,14 +525,10 @@ export function reconcileConcept(
   }
   const parents = new Set(winner)
 
-  const verified: Record<string, boolean> = {}
-  for (const p of periods) {
+  /** 這一期扣掉上層之後的子項加總；沒有任何子項時回 null */
+  const childSum = (p: string): number | null => {
     const members = byPeriod[p]
-    const total = totals[p]?.[conceptId]
-    if (!members || total === undefined) {
-      verified[p] = false
-      continue
-    }
+    if (!members) return null
     let sum = 0
     let any = false
     for (const [k, byC] of Object.entries(members)) {
@@ -516,9 +537,135 @@ export function reconcileConcept(
       sum += v
       any = true
     }
-    verified[p] = any && Math.abs(sum - total) <= Math.abs(total) * (tolerancePct / 100)
+    return any ? sum : null
   }
-  return { parents, verified }
+
+  const verifyWith = (chosen: Set<string>): Record<string, boolean> => {
+    const out: Record<string, boolean> = {}
+    for (const p of periods) {
+      const total = totals[p]?.[conceptId]
+      const sum = childSum(p)
+      if (total === undefined || sum === null) {
+        out[p] = false
+        continue
+      }
+      const extra = residualSum(residualByPeriod[p], conceptId, chosen)
+      out[p] = Math.abs(sum + extra - total) <= Math.abs(total) * (tolerancePct / 100)
+    }
+    return out
+  }
+
+  const bare = verifyWith(new Set())
+  const picked = pickResidual(residualByPeriod, totals, periods, conceptId, tolerancePct, childSum)
+  const withResidual = verifyWith(picked)
+
+  // 調節項是跨期一次決定、套用到所有期間的（理由同上層匯總），所以有可能修好某幾期
+  // 卻弄壞另外幾期 —— UNH 的分部間沖銷就是這樣。**只有淨增加對得上的期數才採用**，
+  // 否則寧可不補：把本來對得上的欄位弄成未校驗，比少補一塊更糟。
+  const score = (v: Record<string, boolean>) => periods.filter((p) => v[p]).length
+  const useResidual = picked.size > 0 && score(withResidual) > score(bare)
+
+  return {
+    parents,
+    residual: useResidual ? picked : new Set<string>(),
+    verified: useResidual ? withResidual : bare,
+  }
+}
+
+/** 選定的調節項在這一期的合計 */
+function residualSum(
+  byMember: Record<string, Record<string, number>> | undefined,
+  conceptId: string,
+  chosen: Set<string>,
+): number {
+  if (!byMember || chosen.size === 0) return 0
+  let s = 0
+  for (const k of chosen) {
+    const v = byMember[k]?.[conceptId]
+    if (typeof v === 'number') s += v
+  }
+  return s
+}
+
+/** 調節項通常只有一兩個，2^12 已經遠遠夠用 */
+const RESIDUAL_MAX_MEMBERS = 12
+
+/**
+ * ── 調節項該不該補進來 ──────────────────────────────────────────────────────
+ *
+ * ASC 280 底下有些金額不屬於任何一個分部（總部費用、分部間沖銷），公司會用
+ * ConsolidationItemsAxis 單獨揭露，**不掛任何分部軸**。它們是合併總額的一部分：
+ * PG FY2026 五個分部加總 86,112M，加上 corporate 919M 才等於合併的 87,032M；
+ * KO 則要同時補上沖銷 -1,009M 與 corporate 144M 才等於 47,941M。
+ *
+ * 因為申報沒說這筆該掛哪個軸，判定條件只有一個：**加進去之後才對得上總額**。
+ * 所以本來就對得上的軸不會被硬塞（PG 的地區軸 41,700+45,300 已經等於總額，
+ * 補上去反而會多算 919M），對不上又補不起來的軸則維持未校驗，不會亂加。
+ *
+ * 同樣跨期計票再統一套用，理由跟上層匯總一樣：同一個成員不能這期算進合計、
+ * 下期不算。
+ *
+ * 候選之間取**誤差最小**的那一組，同誤差才取成員少的。不能只看「成員最少」：
+ * 容差是總額的 0.5%，KO 的缺口是 -865M，光補沖銷 -1,009M 就已經落在容差內，
+ * 挑成員最少會停在那裡、留 144M 的 corporate 沒交代；補兩筆才剛好是 -865M。
+ * 反過來也不必擔心硬湊，所有候選本來就得先通過容差，NVDA 那種本身等於總額的
+ * `OperatingSegmentsMember` 誤差大到根本進不了候選。
+ */
+function pickResidual(
+  residualByPeriod: Record<string, Record<string, Record<string, number>>>,
+  totals: Record<string, Record<string, number>>,
+  periods: string[],
+  conceptId: string,
+  tolerancePct: number,
+  childSum: (p: string) => number | null,
+): Set<string> {
+  const votes = new Map<string, { set: string[]; count: number }>()
+
+  for (const p of periods) {
+    const total = totals[p]?.[conceptId]
+    const sum = childSum(p)
+    if (total === undefined || sum === null) continue
+    const tol = Math.abs(total) * (tolerancePct / 100)
+    if (Math.abs(sum - total) <= tol) continue // 這一期本來就對得上 → 不需要調節項
+
+    const byMember = residualByPeriod[p]
+    if (!byMember) continue
+    const keys = Object.keys(byMember).filter((k) => typeof byMember[k][conceptId] === 'number')
+    if (keys.length === 0 || keys.length > RESIDUAL_MAX_MEMBERS) continue
+    const vals = keys.map((k) => byMember[k][conceptId])
+
+    const need = total - sum
+    let best: string[] | null = null
+    let bestErr = Infinity
+    const size = 1 << keys.length
+    const sums = new Float64Array(size)
+    for (let i = 1; i < size; i++) {
+      const low = i & -i
+      sums[i] = sums[i ^ low] + vals[Math.log2(low)]
+      const err = Math.abs(sums[i] - need)
+      if (err > tol) continue
+      let bits = 0
+      for (let m = i; m; m &= m - 1) bits++
+      if (best !== null && (err > bestErr || (err === bestErr && bits >= best.length))) continue
+      best = keys.filter((_, j) => i & (1 << j)).sort()
+      bestErr = err
+    }
+    if (!best) continue
+    const id = best.join('|')
+    const v = votes.get(id) ?? { set: best, count: 0 }
+    v.count++
+    votes.set(id, v)
+  }
+
+  let winner: string[] = []
+  let bestCount = 0
+  for (const { set, count } of votes.values()) {
+    if (count > bestCount || (count === bestCount && set.length < winner.length)) {
+      winner = set
+      bestCount = count
+    }
+  }
+  return new Set(winner)
 }
 
 /** 反查表：裸標籤 → concept id（沿用 xbrl_zh_map 既有的 tags/tags_ifrs） */
@@ -548,12 +695,13 @@ export async function getSegments(
   const tagIdx = await buildTagIndex()
   const warnings: string[] = []
 
-  const merged: ExtractedFilingSegments = { data: {}, totals: {}, labels: {} }
+  const merged: ExtractedFilingSegments = { data: {}, totals: {}, residual: {}, labels: {} }
 
   for (const f of filings) {
-    // v2：期間 key 加上 A/Q 種類後綴（見 periodKey）。舊快取的 key 沒有後綴，
-    // 直接沿用會把季度與年度混在一起，所以換路徑而不是原地覆寫。
-    const key = `seg/v2/${ref.cik10}/${f.accessionNumber}.json`
+    // v2：期間 key 加上 A/Q 種類後綴（見 periodKey）。
+    // v3：多了 residual（調節項）。舊快取沒有這個欄位，沿用會讓 PG 那類公司
+    // 永遠補不回 corporate 那一塊，所以換路徑而不是原地覆寫。
+    const key = `seg/v3/${ref.cik10}/${f.accessionNumber}.json`
     let one: ExtractedFilingSegments | null = null
     try {
       one = await cached(key, async () => {
@@ -575,6 +723,10 @@ export async function getSegments(
       }
     }
     for (const [p, byC] of Object.entries(one.totals)) Object.assign((merged.totals[p] ??= {}), byC)
+    for (const [p, byMem] of Object.entries(one.residual ?? {})) {
+      const tgt = (merged.residual[p] ??= {})
+      for (const [mk, byC] of Object.entries(byMem)) Object.assign((tgt[mk] ??= {}), byC)
+    }
     Object.assign(merged.labels, one.labels)
   }
 
@@ -616,34 +768,50 @@ export async function getSegments(
           periods,
           cid,
           cfg.hierarchy.tolerance_pct,
+          merged.residual,
         ),
       )
     }
 
     const rows = new Map<string, SegmentMemberRow>()
+    const rowFor = (mk: string): SegmentMemberRow => {
+      const existing = rows.get(mk)
+      if (existing) return existing
+      const label = cfg.member_labels.map[mk]
+      const row: SegmentMemberRow = {
+        key: mk,
+        zh: label ?? merged.labels[mk] ?? mk,
+        // 設定檔給的若本身是英文（iPhone / iPad / Mac），英文欄也用它 ——
+        // 駝峰自動拆字會拆成 "IPhone"，正式產品名不該長那樣。
+        // en 表是給拆字會拆壞的補救：CorporateNonSegmentMember 正規化時被剝掉
+        // "SegmentMember"，拆出來只剩 "Corporate Non"
+        en:
+          cfg.member_labels.en?.[mk] ??
+          (label && /^[\x20-\x7E]+$/.test(label) ? label : merged.labels[mk]) ??
+          mk,
+        values: {},
+      }
+      rows.set(mk, row)
+      return row
+    }
+
     for (const p of periods) {
-      const byMember = merged.data[p]?.[def.axis]
-      if (!byMember) continue
       for (const cid of conceptIds) {
-        const { parents, verified: verifiedByPeriod } = hier.get(cid)!
+        const { parents, residual, verified: verifiedByPeriod } = hier.get(cid)!
         const verified = verifiedByPeriod[p] ?? false
-        for (const [mk, byC] of Object.entries(byMember)) {
+
+        for (const [mk, byC] of Object.entries(merged.data[p]?.[def.axis] ?? {})) {
           const v = byC[cid]
           if (typeof v !== 'number') continue
-          const label = cfg.member_labels.map[mk]
-          const row =
-            rows.get(mk) ??
-            rows
-              .set(mk, {
-                key: mk,
-                zh: label ?? merged.labels[mk] ?? mk,
-                // 設定檔給的若本身是英文（iPhone / iPad / Mac），英文欄也用它 ——
-                // 駝峰自動拆字會拆成 "IPhone"，正式產品名不該長那樣
-                en: (label && /^[\x20-\x7E]+$/.test(label) ? label : merged.labels[mk]) ?? mk,
-                values: {},
-              })
-              .get(mk)!
-          ;(row.values[p] ??= {})[cid] = { value: v, verified, isParent: parents.has(mk) }
+          ;(rowFor(mk).values[p] ??= {})[cid] = { value: v, verified, isParent: parents.has(mk) }
+        }
+
+        // 只輸出這個科目真的採用的調節項。同一筆調節項可能營收有、營業利益沒有，
+        // 沒被採用的科目留白（n/a），不要憑空補一個沒進合計的數字上去
+        for (const mk of residual) {
+          const v = merged.residual[p]?.[mk]?.[cid]
+          if (typeof v !== 'number') continue
+          ;(rowFor(mk).values[p] ??= {})[cid] = { value: v, verified, isParent: false }
         }
       }
     }

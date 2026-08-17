@@ -364,7 +364,40 @@ def build_workbook(payload: dict) -> bytes:
 
     buf = BytesIO()
     wb.save(buf)
-    return buf.getvalue()
+    data = buf.getvalue()
+
+    # 估值倍數：關掉 Excel 背景錯誤檢查（P/E、P/S 等公式左上角的綠色三角）。
+    # openpyxl 3.1 不序列化 ignoredErrors，故存檔後直接改寫該分頁 XML。
+    if valuation and valuation.get("rows") and "估值倍數" in wb.sheetnames:
+        sheet_no = wb.sheetnames.index("估值倍數") + 1
+        end_col = get_column_letter(max(data_start + n_display - 1, data_start + 3))
+        data = _inject_ignored_errors(data, sheet_no, f"A1:{end_col}33")
+    return data
+
+
+def _inject_ignored_errors(data: bytes, sheet_no: int, sqref: str) -> bytes:
+    """把 <ignoredErrors> 注入指定 worksheet XML（schema 規定在 <drawing> 之前）。"""
+    import zipfile
+
+    target = f"xl/worksheets/sheet{sheet_no}.xml"
+    frag = (f'<ignoredErrors><ignoredError sqref="{sqref}" '
+            f'formula="1" formulaRange="1" emptyCellReferences="1" '
+            f'numberStoredAsText="1" unlockedFormula="1"/></ignoredErrors>')
+    zin = zipfile.ZipFile(BytesIO(data))
+    out = BytesIO()
+    zout = zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED)
+    for it in zin.infolist():
+        raw = zin.read(it.filename)
+        if it.filename == target and b"<ignoredErrors" not in raw:
+            xml = raw.decode("utf-8")
+            pos = xml.find("<drawing ")
+            if pos == -1:
+                pos = xml.rfind("</worksheet>")
+            raw = (xml[:pos] + frag + xml[pos:]).encode("utf-8")
+        zout.writestr(it, raw)
+    zin.close()
+    zout.close()
+    return out.getvalue()
 
 
 BLUE_INPUT = Font(color="0000FF")           # 藍字＝可改假設
@@ -419,67 +452,82 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
             if m:
                 ps_med = float(m.group(1))
 
-    def label(row, zh, en, bold=False, accent=False):
-        c = vws.cell(row=row, column=1, value=zh)
-        c.font = Font(bold=bold, color=(th["palette"]["accent"].lstrip("#") if accent else "15171A"))
-        vws.cell(row=row, column=2, value=en)
+    # ── 三大區塊：橫向並排（左右各一組「標籤｜數值」），開檔即全見不折疊 ──
+    # 欄位相對 data_start 動態：假設區 A/B、前瞻估值 dcol/dcol+1、反推目標價 dcol+2/dcol+3。
+    # ⚠ 估值圖 category 讀第 1 列（charts._cats_ref, min_row=1）→ 區塊一律從第 2 列起，
+    #    第 1 列（dcol 起）必須淨空，否則區塊標題會變成圖表 X 軸標籤。
+    accent = th["palette"]["accent"].lstrip("#")
+    TITLE_F = Font(bold=True, color=accent)
+    LABEL_F = Font(color="15171A")
+    NOTE_F = Font(size=9, color="8C9199")
 
-    def inp(row, val, fmt):
-        c = vws.cell(row=row, column=data_start, value=val)
-        c.font = BLUE_INPUT
-        c.fill = BLUE_FILL
-        c.number_format = fmt
-        return f"${dcol}${row}"
+    c2l, c2v = data_start, data_start + 1        # 前瞻：標籤 / 數值欄
+    c3l, c3v = data_start + 2, data_start + 3    # 反推：標籤 / 數值欄
+    L2, L3 = g(c2v), g(c3v)
 
-    def formula(row, f, fmt, green=False):
-        c = vws.cell(row=row, column=data_start, value=f)
+    def vtitle(col, zh):
+        vws.cell(row=2, column=col, value=zh).font = TITLE_F
+
+    def vlab(col, row, zh):
+        vws.cell(row=row, column=col, value=zh).font = LABEL_F
+
+    def vval(col, row, val, fmt, kind="formula"):
+        if val is None:
+            return
+        c = vws.cell(row=row, column=col, value=val)
         c.number_format = fmt
-        if green:
+        if kind == "input":
+            c.font = BLUE_INPUT
+            c.fill = BLUE_FILL
+        elif kind == "shares":
             c.font = GREEN_LINK
-        return c
 
-    NF = th["number_formats"]
-    # ── 假設區 ──
-    label(1, "■ 假設區", "Assumptions", bold=True, accent=True)
-    vws.cell(row=1, column=data_start + 1, value="藍字＝可修改輸入；黑字＝公式；綠字＝跨表連結").font = Font(
-        size=9, color="8C9199")
-    p2 = inp(2, round(px, 2) if px else None, '$0.00')                  # 目前股價
-    label(2, "目前股價", "Current Price")
-    p3 = f"={ref(so_s, so_r, last_disp)}" if so_s else None
-    formula(3, p3, "#,##0", green=True); label(3, "流通股數（最新）", "Shares Outstanding")
-    p4 = inp(4, None, '0.00'); label(4, "FY+1 預估 EPS", "Est. EPS FY+1")
-    p5 = inp(5, None, '0.00'); label(5, "FY+2 預估 EPS", "Est. EPS FY+2")
-    vws.cell(row=4, column=data_start + 1, value="需自行填入，SEC 不提供分析師預估").font = Font(size=9, color="8C9199")
-    p6 = inp(6, 20, '0.0"x"'); label(6, "目標本益比", "Target P/E")
-    p7 = inp(7, round(ps_med, 1) if ps_med else 5, '0.0"x"'); label(7, "目標股價營收比", "Target P/S")
+    # 加寬區塊用到的欄（同時是歷史表前幾季欄，只加寬不縮窄）
+    vws.column_dimensions["A"].width = 26
+    vws.column_dimensions["B"].width = 20
+    vws.column_dimensions[g(c2l)].width = 19
+    vws.column_dimensions[g(c2v)].width = 18
+    vws.column_dimensions[g(c3l)].width = 20
+    vws.column_dimensions[g(c3v)].width = 13
 
-    # ── 前瞻估值 ──
-    label(9, "■ 前瞻估值", "Forward Valuation", bold=True, accent=True)
-    formula(10, f'=IFERROR({p2}*${dcol}$3,"n/a")', "#,##0")
-    label(10, "市值", "Market Cap")
-    formula(11, f'=IFERROR({p2}/{p4},"n/a")', '0.0"x"'); label(11, "前瞻本益比 FY+1", "Fwd P/E FY+1")
-    formula(12, f'=IFERROR({p2}/{p5},"n/a")', '0.0"x"'); label(12, "前瞻本益比 FY+2", "Fwd P/E FY+2")
-    formula(13, f'=IFERROR({p5}/{p4}-1,"n/a")', '0.0%'); label(13, "預估 EPS 成長率", "Est. EPS Growth")
-    formula(14, f'=IFERROR(${dcol}$11/(${dcol}$13*100),"n/a")', '0.00'); label(14, "前瞻 PEG", "Fwd PEG")
-    if epsd_s:
-        formula(15, f'=IFERROR({p2}/{ttm(epsd_s, epsd_r, last_disp)},"n/a")', '0.0"x"')
-    label(15, "目前本益比（TTM）", "Current P/E (TTM)")
+    # 假設區（A 標籤 / B 數值）— 輸入格藍字黃底、股數綠字跨表
+    vtitle(1, "■ 假設區　Assumptions")
+    vlab(1, 3, "目前股價");         vval(2, 3, round(px, 2) if px else None, '$0.00', "input")
+    vlab(1, 4, "流通股數（最新）");   vval(2, 4, f"={ref(so_s, so_r, last_disp)}" if so_s else None, "#,##0", "shares")
+    vlab(1, 5, "FY+1 預估 EPS");    vval(2, 5, None, '0.00', "input")
+    vlab(1, 6, "FY+2 預估 EPS");    vval(2, 6, None, '0.00', "input")
+    vlab(1, 7, "目標本益比");        vval(2, 7, 20, '0.0"x"', "input")
+    vlab(1, 8, "目標股價營收比");     vval(2, 8, round(ps_med, 1) if ps_med else 5, '0.0"x"', "input")
 
-    # ── 反推目標價 ──
-    label(17, "■ 反推目標價", "Reverse: Target Price", bold=True, accent=True)
-    formula(18, f'=IFERROR({p6}*{p4},"n/a")', '$0.00'); label(18, "目標價（P/E × FY+1 EPS）", "Target (P/E×FY+1)")
-    formula(19, f'=IFERROR({p6}*{p5},"n/a")', '$0.00'); label(19, "目標價（P/E × FY+2 EPS）", "Target (P/E×FY+2)")
-    if rev_s:
-        formula(20, f'=IFERROR({p7}*{ttm(rev_s, rev_r, last_disp)}/{p3},"n/a")', '$0.00')
-    label(20, "目標價（P/S × TTM 營收）", "Target (P/S×Rev)")
-    up1 = formula(21, f'=IFERROR(${dcol}$18/{p2}-1,"n/a")', '0.0%'); label(21, "上漲空間（FY+1）", "Upside FY+1")
-    up2 = formula(22, f'=IFERROR(${dcol}$19/{p2}-1,"n/a")', '0.0%'); label(22, "上漲空間（FY+2）", "Upside FY+2")
+    # 前瞻估值（dcol 標籤 / dcol+1 數值）
+    vtitle(c2l, "■ 前瞻估值　Forward Valuation")
+    vlab(c2l, 3, "市值");            vval(c2v, 3, '=IFERROR($B$3*$B$4,"n/a")', "#,##0")
+    vlab(c2l, 4, "前瞻本益比 FY+1");  vval(c2v, 4, '=IFERROR($B$3/$B$5,"n/a")', '0.0"x"')
+    vlab(c2l, 5, "前瞻本益比 FY+2");  vval(c2v, 5, '=IFERROR($B$3/$B$6,"n/a")', '0.0"x"')
+    vlab(c2l, 6, "預估 EPS 成長率");  vval(c2v, 6, '=IFERROR($B$6/$B$5-1,"n/a")', '0.0%')
+    vlab(c2l, 7, "前瞻 PEG");         vval(c2v, 7, f'=IFERROR(${L2}$4/(${L2}$6*100),"n/a")', '0.00')
+    vlab(c2l, 8, "目前本益比（TTM）"); vval(c2v, 8, f'=IFERROR($B$3/{ttm(epsd_s, epsd_r, last_disp)},"n/a")' if epsd_s else None, '0.0"x"')
+
+    # 反推目標價（dcol+2 標籤 / dcol+3 數值）
+    vtitle(c3l, "■ 反推目標價　Reverse: Target Price")
+    vlab(c3l, 3, "目標價（P/E × FY+1 EPS）");  vval(c3v, 3, '=IFERROR($B$7*$B$5,"n/a")', '$0.00')
+    vlab(c3l, 4, "目標價（P/E × FY+2 EPS）");  vval(c3v, 4, '=IFERROR($B$7*$B$6,"n/a")', '$0.00')
+    # 目標價（P/S × TTM 營收）÷ 股數：股數引用 $B$4（原本誤用帶「=」的 p3 → 產生 /=... 壞公式）
+    vlab(c3l, 5, "目標價（P/S × TTM 營收）");  vval(c3v, 5, f'=IFERROR($B$8*{ttm(rev_s, rev_r, last_disp)}/$B$4,"n/a")' if rev_s else None, '$0.00')
+    vlab(c3l, 6, "上漲空間（FY+1）");          vval(c3v, 6, f'=IFERROR(${L3}$3/$B$3-1,"n/a")', '0.0%')
+    vlab(c3l, 7, "上漲空間（FY+2）");          vval(c3v, 7, f'=IFERROR(${L3}$4/$B$3-1,"n/a")', '0.0%')
+
+    # 上漲空間紅綠條件式（正綠負紅）
     from openpyxl.formatting.rule import CellIsRule
     red = Font(color="C0392B"); grn = Font(color="0E6B5A")
-    for rr in (21, 22):
-        cc = f"{dcol}{rr}"
+    for rr in (6, 7):
+        cc = f"{L3}{rr}"
         vws.conditional_formatting.add(cc, CellIsRule(operator="greaterThan", formula=["0"], font=grn))
         vws.conditional_formatting.add(cc, CellIsRule(operator="lessThan", formula=["0"], font=red))
+
+    # 說明備註
+    vws.cell(row=10, column=1, value="藍字＝可修改輸入；黑字＝公式；綠字＝跨表連結").font = NOTE_F
+    vws.cell(row=11, column=1, value="FY+1 / FY+2 EPS 需自行填入（SEC 不提供分析師預估）").font = NOTE_F
 
     # ── 歷史逐季倍數（全公式）──
     hdr = 24
@@ -488,7 +536,8 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
     for i in range(n_display):
         col = data_start + i
         _header_cell_at(vws, hdr, col, periods[(len(periods) - n_display) + i], th)
-    vws.freeze_panes = f"{dcol}{hdr + 1}"
+    # 凍結：只鎖 A/B 標籤欄 + 上方區塊（第 1–8 列）；捲到下方歷史表/圖表不再被高表頭擋
+    vws.freeze_panes = "C9"
 
     price_vals = next((r["values"] for r in valuation["rows"] if r["id"] == "price"), {})
     rows_spec = [

@@ -1,6 +1,7 @@
 """
 每次從零生成整本活頁簿（不用範本檔——openpyxl 重存會遺失圖表）。
-6 分頁：說明 / 損益表 / 資產負債表 / 現金流量表 / 關鍵指標 / 原始資料。
+分頁：說明 / 損益表 / 資產負債表 / 現金流量表 / 關鍵指標 / 估值倍數 / 分部數據 / 原始資料
+（估值倍數與分部數據為條件式：payload 沒帶就不產生）。
 版面：A 欄中文、B 欄英文、C 欄起季度；凍結 C2；缺值 n/a 絕不寫 0；
 Q4 推算值淺橘底；關鍵指標全公式。
 """
@@ -134,6 +135,12 @@ def build_workbook(payload: dict) -> bytes:
         *([("上市前資料", f"{pre_ipo} 之前的季度已顯示為 n/a。此公司經 SPAC 借殼／IPO 上市，"
             "上市前為私有公司，股數基礎與上市後不可比（每股數值會嚴重失真），故不列出。")]
           if pre_ipo else []),
+        *([("分部數據", "各分部（事業別／產品別／地區別）的營收與獲利。這些數字不在 SEC 的 "
+            "companyfacts API 裡——該 API 不含維度資料——而是直接從申報的 XBRL instance 檔解析。"
+            "揭露哪些科目由各公司依 ASC 280 自行決定（主要營運決策者看什麼才揭露什麼），"
+            "所以每家公司的列數不同。標「上層匯總」的列不計入合計，避免重複計算"
+            "（如 Apple 的「產品」本身已含 iPhone／Mac／iPad）。")]
+          if payload.get("segments", {}).get("axes") else []),
         ("圖表", "各報表分頁：前段為 chart_spec.json 定義的組合圖，後段為每一科目各一張圖。"
          "要自訂組合圖，修改 repo 的 config/chart_spec.json 即可，不需改程式。"),
         ("免責聲明", DISCLAIMER),
@@ -285,6 +292,11 @@ def build_workbook(payload: dict) -> bytes:
     if valuation and valuation.get("rows"):
         _build_valuation_sheet(wb, valuation, locations, periods, th,
                                data_start, n_display, chart_jobs)
+
+    # ── 5c. 分部數據（companyfacts 無維度，資料來自 XBRL instance）────
+    segments = payload.get("segments")
+    if segments and segments.get("axes"):
+        _build_segment_sheet(wb, segments, th)
 
     # 指標列已定位，統一放圖（圖表可跨分頁引用系列）；收集圖表位置做「說明」目錄
     locate = locations.get
@@ -639,3 +651,181 @@ def _header_cell_at(ws, row: int, col: int, text: str, th: dict):
     c.fill = PatternFill("solid", fgColor=th["palette"]["header_fill"].lstrip("#"))
     c.border = CELL_BOX
     return c
+
+
+SEGMENT_SHEET = "分部數據"
+
+
+def _fy_label(iso: str) -> str:
+    """期末日 → FY 標籤。以期末日年份為準（NVDA 2026-01-25 → FY2026，與公司自身命名一致）。"""
+    return f"FY{iso[:4]}" if iso else "—"
+
+
+def _build_segment_sheet(wb, seg: dict, th: dict):
+    """
+    分部數據分頁 —— 這裡的數字 companyfacts API 給不了。
+
+    SEC 的 companyfacts 不含維度（dimension），分部數字只存在申報的 XBRL instance
+    檔裡，由 web/server/utils/segments.ts 剖析後隨 payload 帶進來。
+
+    **列必須是動態的**：ASC 280 規定「CODM（主要營運決策者）看什麼才揭露什麼」，
+    所以各家揭露的分部科目天差地遠 —— Apple 給分部營收與成本、NVDA 給營業利益
+    與折舊、銀行給稅前損益。寫死列一定會錯，因此依 payload 實際有的科目長出來。
+
+    分部毛利率／營業利益率／營收佔比一律寫 Excel 公式（IFERROR 包除法），
+    不寫算好的數值 —— 與「關鍵指標」分頁同一規則，使用者改數字時會自己重算。
+    """
+    cmap = xbrl_map()
+    zh_of = {c["id"]: c["zh"] for c in cmap["concepts"]}
+    en_of = {c["id"]: c["en"] for c in cmap["concepts"]}
+    nf = th["number_formats"]
+    pal = th["palette"]
+    missing = th["layout"]["missing_value"]
+    periods: list[str] = seg["periods"]
+    ncol = len(periods)
+
+    ws = wb.create_sheet(SEGMENT_SHEET)
+    ws.sheet_view.showGridLines = False
+    ws.sheet_properties.tabColor = pal["accent"].lstrip("#")
+    _header_cell(ws, 1, "分部 / 科目", th)
+    _header_cell(ws, 2, "Segment / Line Item", th)
+    for i, p in enumerate(periods):
+        _header_cell(ws, FIRST_DATA_COL + i, _fy_label(p), th)
+        # 欄名只寫 FY，確切期末日放註解（各家會計年度結束日不同）
+        ws.cell(row=1, column=FIRST_DATA_COL + i).comment = Comment(
+            f"期末日 {p}", "BamHI", height=60, width=180)
+    ws.freeze_panes = th["layout"]["freeze_panes"]
+    ws.column_dimensions["A"].width = 30
+    ws.column_dimensions["B"].width = 32
+    for i in range(ncol):
+        ws.column_dimensions[get_column_letter(FIRST_DATA_COL + i)].width = 16
+
+    warn_fill = PatternFill("solid", fgColor=pal["q4_estimated_fill"].lstrip("#"))
+    axis_font = Font(bold=True, size=12, color=pal["header_font"].lstrip("#"))
+    axis_fill = PatternFill("solid", fgColor=pal["header_fill"].lstrip("#"))
+    col_of = lambda i: get_column_letter(FIRST_DATA_COL + i)
+
+    row = 2
+    for block in seg["axes"]:
+        c = ws.cell(row=row, column=1, value=f"{block['zh']}")
+        c.font = axis_font
+        ws.cell(row=row, column=2, value=block["en"]).font = Font(
+            bold=True, size=10, color=pal["header_font"].lstrip("#"))
+        for j in range(1, FIRST_DATA_COL + ncol):
+            ws.cell(row=row, column=j).fill = axis_fill
+        row += 2
+
+        member_rows: dict[str, dict[str, int]] = {}
+        total_rows: dict[str, int] = {}
+        parent_keys: dict[str, set] = {}
+        unverified = False
+
+        for cid in block["concepts"]:
+            members = [m for m in block["members"]
+                       if any(cid in m["values"].get(p, {}) for p in periods)]
+            if not members:
+                continue
+            ws.cell(row=row, column=1, value=zh_of.get(cid, cid)).font = Font(bold=True)
+            ws.cell(row=row, column=2, value=en_of.get(cid, cid)).font = Font(
+                bold=True, size=10, color="8C9199")
+            row += 1
+
+            def is_parent(m) -> bool:
+                cells = [m["values"].get(p, {}).get(cid) for p in periods]
+                cells = [c for c in cells if c]
+                return bool(cells) and all(c["isParent"] for c in cells)
+
+            # 上層匯總（如 Apple 的「產品」含 iPhone/Mac/iPad）排在子項之後：
+            # 子項必須連續才能用 SUM 範圍，而上層不能進合計否則重複計算
+            children = [m for m in members if not is_parent(m)]
+            parents = [m for m in members if is_parent(m)]
+            parent_keys[cid] = {m["key"] for m in parents}
+
+            def write_rows(items, suffix=""):
+                nonlocal row, unverified
+                for m in items:
+                    ws.cell(row=row, column=1, value=f"　{m['zh']}{suffix}")
+                    ws.cell(row=row, column=2, value=m["en"]).font = Font(size=10, color="8C9199")
+                    for i, p in enumerate(periods):
+                        cell = m["values"].get(p, {}).get(cid)
+                        v = ws.cell(row=row, column=FIRST_DATA_COL + i,
+                                    value=cell["value"] if cell else missing)
+                        v.number_format = nf["usd"]
+                        if cell and not cell["verified"]:
+                            # 加總對不上合併總額（多為含跨部門銷售或未分攤項）→ 標色，不隱藏
+                            v.fill = warn_fill
+                            unverified = True
+                    member_rows.setdefault(cid, {})[m["key"]] = row
+                    row += 1
+
+            first = row
+            write_rows(children)
+            last = row - 1
+
+            if children:
+                ws.cell(row=row, column=1, value="　合計").font = Font(bold=True)
+                ws.cell(row=row, column=2, value="Total").font = Font(size=10, color="8C9199")
+                for i in range(ncol):
+                    L = col_of(i)
+                    t = ws.cell(row=row, column=FIRST_DATA_COL + i,
+                                value=f"=SUM({L}{first}:{L}{last})")
+                    t.number_format = nf["usd"]
+                    t.font = Font(bold=True)
+                total_rows[cid] = row
+                row += 1
+
+            write_rows(parents, suffix="（上層匯總，不計入合計）")
+            row += 1
+
+        # ── 衍生指標：全部寫公式，隨上方數字連動 ──
+        rev, tot_rev = member_rows.get("revenue", {}), total_rows.get("revenue")
+        cogs, gp, oi = (member_rows.get("cogs", {}), member_rows.get("gross_profit", {}),
+                        member_rows.get("operating_income", {}))
+
+        def derived(title_zh: str, title_en: str, formula):
+            """formula(member_key, col_letter) → Excel 公式字串；回 None 代表該成員無此指標。"""
+            nonlocal row
+            rows = [(k, formula(k, "C")) for k in rev]
+            if not any(f for _, f in rows):
+                return
+            ws.cell(row=row, column=1, value=title_zh).font = Font(bold=True)
+            ws.cell(row=row, column=2, value=title_en).font = Font(size=10, color="8C9199")
+            row += 1
+            for k in rev:
+                if not formula(k, "C"):
+                    continue
+                label = next((m for m in block["members"] if m["key"] == k), None)
+                ws.cell(row=row, column=1, value=f"　{label['zh'] if label else k}")
+                for i in range(ncol):
+                    c2 = ws.cell(row=row, column=FIRST_DATA_COL + i,
+                                 value=formula(k, col_of(i)))
+                    c2.number_format = nf["ratio"]
+                row += 1
+            row += 1
+
+        if tot_rev:
+            # 上層匯總不列入佔比 —— 否則子項各自佔比再加上父項，總和會超過 100%
+            rev_parents = parent_keys.get("revenue", set())
+            derived("營收佔比", "Revenue Share",
+                    lambda k, L: (None if k in rev_parents
+                                  else f'=IFERROR({L}{rev[k]}/{L}{tot_rev},"{missing}")'))
+        derived("分部毛利率", "Segment Gross Margin",
+                lambda k, L: (f'=IFERROR({L}{gp[k]}/{L}{rev[k]},"{missing}")' if k in gp
+                              else f'=IFERROR(({L}{rev[k]}-{L}{cogs[k]})/{L}{rev[k]},"{missing}")'
+                              if k in cogs else None))
+        derived("分部營業利益率", "Segment Operating Margin",
+                lambda k, L: (f'=IFERROR({L}{oi[k]}/{L}{rev[k]},"{missing}")' if k in oi else None))
+
+        if unverified:
+            note = ws.cell(
+                row=row, column=1,
+                value="橘底：該期分部加總與合併總額對不上（多為含跨部門銷售，或公司未分攤項未列為分部），"
+                      "數字照實呈現、不調整。")
+            note.font = Font(size=9, color="8C9199")
+            row += 1
+        row += 1
+
+    src = ws.cell(row=row + 1, column=1,
+                  value="分部數據來自 SEC 申報的 XBRL instance 檔（companyfacts API 不含維度資料）。"
+                        "各公司揭露的分部科目依 ASC 280 由該公司主要營運決策者所檢視的內容決定，因此列數各家不同。")
+    src.font = Font(size=9, color="8C9199")

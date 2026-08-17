@@ -24,3 +24,5 @@ Thumbs.db
 .vercel
 nv.json
 tools/*.txt
+
+.env*.local

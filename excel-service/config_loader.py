@@ -1,4 +1,4 @@
-"""設定層載入：config/ 的三個 JSON。程式只執行，內容全由 JSON 決定。"""
+"""設定層載入：config/ 的四個 JSON。程式只執行，內容全由 JSON 決定。"""
 import json
 import os
 from functools import lru_cache
@@ -33,3 +33,7 @@ def chart_spec() -> dict:
 
 def theme() -> dict:
     return load("theme.json")
+
+
+def segment_axes() -> dict:
+    return load("segment_axes.json")

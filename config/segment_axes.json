@@ -1,0 +1,208 @@
+{
+  "version": "1.0",
+  "updated": "2026-08-17",
+  "note": "分部資料（segment）設定層。companyfacts API 不含維度資料，分部數字只在申報的 XBRL instance 裡，靠 context 的 explicitMember 帶出。實測 19 家（科技/銀行/藥廠/保險/能源/零售/小型股/外國發行人）結論：『軸』100% 是標準分類法（us-gaap / srt / ifrs-full），可當可靠錨點；『成員』幾乎 100% 是公司自訂（NVDA 9/9、TSLA 15/15、JNJ 57/58），所以成員一律用正規化規則處理，不做窮舉對照。要新增支援的軸改這個檔，不改程式。診斷工具：python tools/segment.py <TICKER>",
+
+  "axes": [
+    {
+      "axis": "us-gaap:StatementBusinessSegmentsAxis",
+      "role": "segment",
+      "zh": "營運分部",
+      "en": "Business Segment",
+      "priority": 1,
+      "taxonomy": "us-gaap"
+    },
+    {
+      "axis": "srt:ProductOrServiceAxis",
+      "role": "product",
+      "zh": "產品與服務",
+      "en": "Product / Service",
+      "priority": 2,
+      "taxonomy": "us-gaap"
+    },
+    {
+      "axis": "srt:StatementGeographicalAxis",
+      "role": "geography",
+      "zh": "地區",
+      "en": "Geography",
+      "priority": 3,
+      "taxonomy": "us-gaap"
+    },
+    {
+      "axis": "us-gaap:StatementGeographicalAxis",
+      "role": "geography",
+      "zh": "地區",
+      "en": "Geography",
+      "priority": 3,
+      "taxonomy": "us-gaap",
+      "note": "srt 命名空間 2018 年才拆出來，更早的申報用 us-gaap 前綴。抓歷史季度時會遇到。"
+    },
+    {
+      "axis": "ifrs-full:OperatingSegmentsAxis",
+      "role": "segment",
+      "zh": "營運分部",
+      "en": "Operating Segment",
+      "priority": 1,
+      "taxonomy": "ifrs"
+    },
+    {
+      "axis": "ifrs-full:SegmentsAxis",
+      "role": "segment",
+      "zh": "營運分部",
+      "en": "Segment",
+      "priority": 1,
+      "taxonomy": "ifrs"
+    },
+    {
+      "axis": "ifrs-full:ProductsAndServicesAxis",
+      "role": "product",
+      "zh": "產品與服務",
+      "en": "Product / Service",
+      "priority": 2,
+      "taxonomy": "ifrs"
+    },
+    {
+      "axis": "ifrs-full:MarketsOfCustomersAxis",
+      "role": "product",
+      "zh": "終端市場",
+      "en": "End Market",
+      "priority": 2,
+      "taxonomy": "ifrs",
+      "note": "TSM 用這個軸放智慧型手機/HPC/IoT/車用等平台別營收，實務上等同產品別。"
+    },
+    {
+      "axis": "ifrs-full:GeographicalAreasAxis",
+      "role": "geography",
+      "zh": "地區",
+      "en": "Geography",
+      "priority": 3,
+      "taxonomy": "ifrs"
+    }
+  ],
+
+  "axes_excluded_note": "刻意不納入的標準軸，避免產出語意混雜的列：ifrs-full:MeasurementAxis（TSM 把製程節點 5nm/7nm 放這裡，但同一軸也放公允價值衡量方式，混在一起無法自動分辨）；srt:MajorCustomersAxis（客戶集中度，非分部）；us-gaap:FinancingReceivablePortfolioSegmentAxis（放款組合，銀行的『segment』字面雷同但語意完全不同）；us-gaap:SubsegmentsConsolidationItemsAxis（次分部，各家定義差異太大）。",
+
+  "consolidation": {
+    "axes": ["srt:ConsolidationItemsAxis", "us-gaap:ConsolidationItemsAxis"],
+    "note": "同一份申報裡，分部數字和『公司未分攤/跨部門沖銷/調節項』共用同一組科目，只靠 ConsolidationItemsAxis 區分。不過濾會把調節項當成分部，加總直接錯。",
+    "include_members": [
+      "us-gaap:OperatingSegmentsMember",
+      "us-gaap:ReportableSubsegmentsMember"
+    ],
+    "exclude_patterns": [
+      "CorporateNonSegment",
+      "Corporate.*Reconciling",
+      "MaterialReconcilingItems",
+      "IntersegmentElimination",
+      "ConsolidationEliminations",
+      "Reconciling",
+      "Elimination",
+      "AllOtherSegments"
+    ],
+    "exclude_patterns_note": "調節項成員本身也常是自訂的（wmt:CorporateAndReconcilingItemsMember、cat:EliminationsAndReconcilingItemsMember、brka:CorporateReconcilingItemsAndEliminationsMember），白名單擋不住，所以額外用 pattern 比對成員裸名。"
+  },
+
+  "member_normalize": {
+    "note": "同一個分部跨期會改名：NVDA 在 FY2023 把 ComputeAndNetworkingMember 改成 ComputeAndNetworkingSegmentMember、GraphicsMember 改成 GraphicsSegmentMember。砍掉尾綴後兩者都變 computeandnetworking，自動對上，不必逐家維護別名表。",
+    "strip_suffixes": ["SegmentsMember", "SegmentMember", "Member"],
+    "lowercase": true,
+    "strip_non_alnum": true
+  },
+
+  "member_aliases": {
+    "note": "正規化後仍對不上的殘餘才寫這裡。key = 正規化後的正式鍵，value = 同樣要歸進來的其他鍵。目前實測 19 家皆可由 member_normalize 自動處理，故為空。",
+    "map": {}
+  },
+
+  "hierarchy": {
+    "note": "成員之間有父子關係，全部加總會重複計算。實測：AAPL 的 product(307B) 本身就含 iPhone/Mac/iPad/穿戴，全加得 723B，實際總營收只有 416B（多算 74%）；NVDA 的 datacenter(194B) 含 compute+networking，全加得 410B，實際 216B。申報檔沒有直接標父子，但可以用合併總額反推。",
+    "strategy": "reconcile_to_total",
+    "strategy_note": "拿 companyfacts 的合併總額當校驗值，逐一嘗試剔除『拿掉之後剩餘總和剛好等於合併總額』的成員（即父層）。AAPL 自動剔掉 product、NVDA 自動剔掉 datacenter，兩家都落在最細的那一層。零硬編碼。",
+    "tolerance_pct": 0.5,
+    "tolerance_note": "容許 0.5% 誤差：四捨五入與極少數未分攤尾差。對不上就整組標為未驗證，寧可不顯示也不顯示錯的數字。"
+  },
+
+  "concepts": {
+    "note": "分部揭露哪些科目由 ASC 280 決定 —— CODM 看什麼就揭露什麼，各家不同，所以分頁的列要動態產生。這裡只定義『若有揭露則納入』的白名單與顯示順序，id 對應 config/xbrl_zh_map.json 的 concept id。",
+    "include": [
+      "revenue",
+      "cogs",
+      "gross_profit",
+      "operating_income",
+      "rnd",
+      "sales_marketing",
+      "sgna",
+      "dna",
+      "capex",
+      "total_assets",
+      "pretax_income"
+    ],
+    "derived": [
+      { "id": "seg_gross_margin", "zh": "分部毛利率", "en": "Segment Gross Margin", "formula": "gross_profit / revenue", "format": "pct" },
+      { "id": "seg_operating_margin", "zh": "分部營業利益率", "en": "Segment Operating Margin", "formula": "operating_income / revenue", "format": "pct" },
+      { "id": "seg_revenue_share", "zh": "營收佔比", "en": "Revenue Share", "formula": "revenue / revenue_total", "format": "pct" }
+    ]
+  },
+
+  "member_labels": {
+    "note": "成員中文名。key = 正規化後的鍵。成員 95% 以上是公司自訂，不可能也不需要窮舉 —— 查無對應時程式自動把駝峰拆成英文可讀字串（ComputeAndNetworking → Compute And Networking），任何公司都不會顯示原始標籤。這裡只放兩類：(1) 跨公司通用的地區與類別，(2) 少數大型股的招牌分部，屬於錦上添花的潤飾，缺了不影響正確性。",
+    "map": {
+      "americas": "美洲",
+      "northamerica": "北美",
+      "latinamerica": "拉丁美洲",
+      "othercountries": "其他地區",
+      "chinaincludinghongkong": "中國（含香港）",
+      "datacenter": "資料中心",
+      "computeandnetworking": "運算與網路",
+      "graphics": "繪圖",
+      "compute": "運算",
+      "networking": "網路",
+      "gaming": "遊戲",
+      "professionalvisualization": "專業視覺化",
+      "automotive": "車用",
+      "oemandother": "OEM 及其他",
+      "iphone": "iPhone",
+      "ipad": "iPad",
+      "mac": "Mac",
+      "wearableshomeandaccessories": "穿戴、居家與配件",
+      "highperformancecomputing": "高效能運算",
+      "smartphone": "智慧型手機",
+      "internetofthings": "物聯網",
+      "digitalconsumerelectronics": "數位消費電子",
+      "wafer": "晶圓",
+      "otherproducts": "其他產品",
+      "intelligentcloud": "智慧雲端",
+      "productivityandbusinessprocesses": "生產力與商業流程",
+      "morepersonalcomputing": "個人運算",
+      "googleservices": "Google 服務",
+      "googlecloud": "Google 雲端",
+      "spacesystems": "太空系統",
+      "launchservices": "發射服務",
+      "concentrateoperations": "濃縮液業務",
+      "finishedproductoperations": "成品業務",
+      "unitedstates": "美國",
+      "us": "美國",
+      "europe": "歐洲",
+      "emea": "歐非中東",
+      "europemiddleeastandafrica": "歐非中東",
+      "greaterchina": "大中華區",
+      "china": "中國",
+      "cn": "中國",
+      "japan": "日本",
+      "jp": "日本",
+      "taiwan": "台灣",
+      "tw": "台灣",
+      "restofasiapacific": "其他亞太",
+      "asiapacific": "亞太",
+      "restofworld": "其他地區",
+      "nonus": "美國以外",
+      "countryofdomicile": "本國",
+      "product": "產品",
+      "service": "服務",
+      "productsandservices": "產品與服務",
+      "licenseandservice": "授權與服務",
+      "allothersegments": "其他分部",
+      "other": "其他"
+    }
+  }
+}

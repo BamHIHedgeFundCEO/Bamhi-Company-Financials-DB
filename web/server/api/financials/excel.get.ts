@@ -3,11 +3,15 @@ import { resolveTicker } from '../../utils/cik'
 import { getFinancials, loadMap } from '../../utils/financials'
 import { parseTickers, parseRange, clampPeriods, clampWithLookback } from '../../utils/params'
 import { computeValuation } from '../../utils/valuation'
+import { getFilings } from '../../utils/filings'
+import { getSegments, loadSegmentAxes } from '../../utils/segments'
+import type { SegmentsResult } from '../../utils/segments'
 
 /**
  * GET /api/financials/excel?ticker=AAPL&from=2021Q1&to=2026Q2
  *
- * 快取 key：{ticker}_{from}_{to}_{mapVersion}（mapVersion 變更自動失效舊檔）。
+ * 快取 key：{ticker}_{from}_{to}_{mapVersion}_s{segVersion}
+ * （對照表或分部設定改版都會自動失效舊檔）。
  * 流程：R2 已有 → 直接 302 到 R2 URL（Cloud Run 不被喚醒）；
  *       沒有 → 呼叫 Cloud Run excel-service 生成並上傳 R2，再 302。
  * 本 route 不落地任何檔案。
@@ -32,9 +36,10 @@ export default defineEventHandler(async (event) => {
   }
 
   const mapVersion = (await loadMap()).version
+  const segVersion = (await loadSegmentAxes()).version
   const from = `${range.fromFy}Q${range.fromQ}`
   const to = `${range.toFy}Q${range.toQ}`
-  const cacheKey = `${ref.ticker}_${from}_${to}_${mapVersion}.xlsx`
+  const cacheKey = `${ref.ticker}_${from}_${to}_${mapVersion}_s${segVersion}.xlsx`
 
   // R2 命中判斷（單純的檔案存在性檢查，不是快取系統）
   const r2Base = process.env.R2_PUBLIC_BASE_URL
@@ -49,10 +54,26 @@ export default defineEventHandler(async (event) => {
   const fin = await getFinancials(ref, range.fromFy - 1, range.toFy)
   fin.valuation = (await computeValuation(fin)) ?? undefined
   clampWithLookback(fin, range, 4)
+
+  // 分部數據：companyfacts 沒有維度，得另外剖析 XBRL instance。
+  // 兩份年報就能涵蓋約 4–6 年（一份 10-K 自帶 3 年比較數），解析結果永久快取。
+  // 這段刻意獨立 try/catch：分部只是加值分頁，抓不到也不該讓整本活頁簿生不出來。
+  let segments: SegmentsResult | null = null
+  try {
+    const today = new Date().toISOString().slice(0, 10)
+    const all = await getFilings(ref, '2015-01-01', today)
+    const annual = all.filings
+      .filter((f) => ['10-K', '20-F', '40-F'].includes(f.form))
+      .slice(0, 2)
+    if (annual.length) segments = await getSegments(ref, annual, all.company)
+  } catch (err) {
+    console.warn(`[excel] ${ref.ticker} 分部資料略過：`, (err as Error).message)
+  }
+
   const res = await fetch(`${serviceUrl}/generate`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ cacheKey, financials: fin, from, to }),
+    body: JSON.stringify({ cacheKey, financials: fin, segments, from, to }),
   })
   if (!res.ok) {
     throw createError({

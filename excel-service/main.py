@@ -1,6 +1,6 @@
 """
-Excel 生成服務（Cloud Run）。
-POST /generate  { cacheKey, financials }  →  { url }（R2）
+Excel 生成服務。
+POST /generate  { cacheKey, financials, segments? }  →  { url }（R2）
 R2 未設定（本地開發）時直接串流 .xlsx 回傳。
 本服務不打 SEC——數據由 web 層準備好帶進來。
 """
@@ -17,6 +17,10 @@ app = FastAPI(title="BamHI Excel Service")
 class GeneratePayload(BaseModel):
     cacheKey: str
     financials: dict
+    # ⚠️ 沒宣告在這裡的欄位，Pydantic 會「靜默丟棄」——不報錯，是無聲消失。
+    # 新增 payload 欄位時務必同步加在這裡；而且測試要打 /generate，不能只直接
+    # 呼叫 build_workbook()，否則繞過本層、本機全綠但線上少東西。
+    segments: dict | None = None
 
 
 @app.get("/healthz")

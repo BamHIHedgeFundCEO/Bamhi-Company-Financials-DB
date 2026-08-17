@@ -111,5 +111,26 @@ def main() -> None:
     print("OK — 上層不進合計 / 合計為公式 / 比率為公式 / 上層毛利率保留 / 佔比排除上層")
 
 
+def test_api_layer() -> None:
+    """
+    打真正的 /generate 端點，不是直接呼叫 build_workbook。
+
+    這條測試存在的理由：Pydantic 的 GeneratePayload 若沒宣告 segments，會把它
+    靜默丟棄——不報錯、不警告，就是無聲消失。曾經因此線上少了整個分部分頁，
+    而所有直接呼叫 build_workbook 的測試都是綠的。
+    """
+    from fastapi.testclient import TestClient
+
+    from main import app
+
+    res = TestClient(app).post(
+        "/generate", json={"cacheKey": "t.xlsx", "financials": FIN, "segments": SEGMENTS})
+    assert res.status_code == 200, f"{res.status_code} {res.text[:200]}"
+    wb = load_workbook(BytesIO(res.content))
+    assert "分部數據" in wb.sheetnames, "segments 在 API 層被丟掉了（Pydantic 未宣告欄位）"
+    print("OK — /generate 端點確實把 segments 傳到 build_workbook")
+
+
 if __name__ == "__main__":
     main()
+    test_api_layer()

@@ -53,6 +53,11 @@ interface SegmentAxesConfig {
   hierarchy: { strategy: string; tolerance_pct: number }
   concepts: {
     include: string[]
+    /**
+     * ASC 280 要求必須調節到合併數的科目（營收、資產）。這些對不上就是真異常，
+     * 一律留 true/false。其餘科目允許自訂衡量方式，見 SegmentCell.verified。
+     */
+    must_reconcile?: string[]
     derived: { id: string; zh: string; en: string; formula: string; format: string }[]
   }
   /** `en` 只給少數自動拆字會拆壞的成員補英文，查無時仍走駝峰拆字 */
@@ -61,8 +66,20 @@ interface SegmentAxesConfig {
 
 export interface SegmentCell {
   value: number
-  /** 該列是否通過「分部加總 = 合併總額」校驗 */
-  verified: boolean
+  /**
+   * 「分部加總 = 合併總額」的校驗結果。三態，`null` 是關鍵：
+   *
+   * - `true`  對得上
+   * - `false` 對不上 —— 值得懷疑，UI 標色
+   * - `null`  **無法校驗**，不是校驗失敗
+   *
+   * ASC 280 允許公司用自己的分部利潤定義，也允許只揭露部分分部的費用。
+   * ORCL 三個分部的營業利益加起來 29.1B、合併只有 13.1B（分部數不含股酬與攤銷）；
+   * PFE 兩個分部裡只有一個揭露營業成本。這些**永遠**不可能對上總額，那是揭露規則
+   * 使然，不是數字有問題。判定方式見 reconcileConcept 末段：一個科目若在所有可比
+   * 期間都對不上，就是結構性的，標成 null；只有部分期間對不上才是真的異常。
+   */
+  verified: boolean | null
   /**
    * 這個成員是上層匯總（如 Apple 的 Product 涵蓋 iPhone/Mac/iPad/穿戴）。
    * 上層數字照樣呈現 —— 它是公司真的揭露的、而且往往最有價值（Apple 的硬體 vs
@@ -495,7 +512,8 @@ export function reconcileConcept(
   conceptId: string,
   tolerancePct: number,
   residualByPeriod: Record<string, Record<string, Record<string, number>>> = {},
-): { parents: Set<string>; residual: Set<string>; verified: Record<string, boolean> } {
+  mustReconcile = true,
+): { parents: Set<string>; residual: Set<string>; verified: Record<string, boolean | null> } {
   const votes = new Map<string, { set: string[]; count: number }>()
 
   for (const p of periods) {
@@ -564,11 +582,26 @@ export function reconcileConcept(
   // 否則寧可不補：把本來對得上的欄位弄成未校驗，比少補一塊更糟。
   const score = (v: Record<string, boolean>) => periods.filter((p) => v[p]).length
   const useResidual = picked.size > 0 && score(withResidual) > score(bare)
+  const settled = useResidual ? withResidual : bare
+
+  // 非必須調節的科目（分部利潤、費用）若在**所有**可比期間都對不上，那是揭露規則
+  // 使然而不是數字有問題，標成「無法校驗」而不是「校驗沒過」—— 見 SegmentCell.verified。
+  //
+  // ⚠️ 營收與資產（must_reconcile）**不套這條**。修 corporate 之前 PG 的營收正是
+  // 全期都對不上，那是真的 bug；把它併進「無法校驗」等於自己把警訊關掉。
+  const comparable = periods.filter(
+    (p) => totals[p]?.[conceptId] !== undefined && childSum(p) !== null,
+  )
+  const structural =
+    !mustReconcile && comparable.length > 0 && comparable.every((p) => !settled[p])
+
+  const verified: Record<string, boolean | null> = {}
+  for (const p of periods) verified[p] = structural ? null : settled[p]
 
   return {
     parents,
     residual: useResidual ? picked : new Set<string>(),
-    verified: useResidual ? withResidual : bare,
+    verified,
   }
 }
 
@@ -769,6 +802,7 @@ export async function getSegments(
           cid,
           cfg.hierarchy.tolerance_pct,
           merged.residual,
+          (cfg.concepts.must_reconcile ?? ['revenue']).includes(cid),
         ),
       )
     }
@@ -798,7 +832,7 @@ export async function getSegments(
     for (const p of periods) {
       for (const cid of conceptIds) {
         const { parents, residual, verified: verifiedByPeriod } = hier.get(cid)!
-        const verified = verifiedByPeriod[p] ?? false
+        const verified = verifiedByPeriod[p] ?? null
 
         for (const [mk, byC] of Object.entries(merged.data[p]?.[def.axis] ?? {})) {
           const v = byC[cid]

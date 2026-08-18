@@ -25,11 +25,11 @@ def cell(v, verified=True, parent=False):
     return {"value": v, "verified": verified, "isParent": parent}
 
 
-def member(key, zh, en, vals):
-    """vals: {period: {concept: (值, 是否上層)}}"""
+def member(key, zh, en, vals, verified=True):
+    """vals: {period: {concept: (值, 是否上層)}}；verified 三態，None = 無法校驗"""
     values = {}
     for p, byc in vals.items():
-        values[p] = {c: cell(v, parent=par) for c, (v, par) in byc.items()}
+        values[p] = {c: cell(v, verified=verified, parent=par) for c, (v, par) in byc.items()}
     return {"key": key, "zh": zh, "en": en, "values": values}
 
 
@@ -51,6 +51,12 @@ SEGMENTS = {
             # 上層：本身含 iPhone + Mac，成本只揭露到這一層
             member("product", "產品", "Product",
                    {p: {"revenue": (300, True), "cogs": (200, False)} for p in PERIODS}),
+            # 無法校驗（ASC 280 自訂分部利潤定義）→ 不該被標橘底
+            member("unverifiable", "無法校驗項", "Unverifiable",
+                   {p: {"revenue": (1, False)} for p in PERIODS}, verified=None),
+            # 真的對不上 → 必須標橘底
+            member("mismatch", "對不上項", "Mismatch",
+                   {p: {"revenue": (2, False)} for p in PERIODS}, verified=False),
         ],
     }],
 }
@@ -87,10 +93,19 @@ def main() -> None:
     lo, hi = (int(x) for x in f[f.index("C") + 1:-1].replace("C", "").split(":"))
     assert not (lo <= col[parent_label] <= hi), f"上層被算進合計了：{f}"
 
-    # 3. 合計範圍涵蓋三個子項、剛好等於合併總額 400
-    assert hi - lo + 1 == 3, f"合計應涵蓋 3 個子項，實際 {hi - lo + 1}"
+    # 3. 合計範圍涵蓋全部子項（iPhone/Mac/服務/無法校驗項/對不上項）
+    assert hi - lo + 1 == 5, f"合計應涵蓋 5 個子項，實際 {hi - lo + 1}"
     vals = [ws.cell(row=r, column=3).value for r in range(lo, hi + 1)]
-    assert sum(vals) == 400, f"子項加總應為 400，實際 {vals}"
+    assert sum(vals) == 403, f"子項加總應為 403，實際 {vals}"
+
+    # 3b. verified 三態：只有 False 標橘底，None（無法校驗）不標
+    def has_fill(label):
+        c = ws.cell(row=col[label], column=3)
+        return c.fill is not None and c.fill.fgColor.rgb not in (None, "00000000")
+
+    assert has_fill("對不上項"), "verified=False 必須標橘底"
+    assert not has_fill("無法校驗項"), "verified=None 是無法校驗，不該標橘底"
+    assert not has_fill("iPhone"), "verified=True 不該標橘底"
 
     # 4. 比率一律公式（IFERROR 包除法），不能是算好的數值
     for label in ("營收佔比", "分部毛利率"):

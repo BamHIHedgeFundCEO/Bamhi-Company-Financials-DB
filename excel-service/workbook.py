@@ -803,8 +803,12 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
                         v = ws.cell(row=row, column=FIRST_DATA_COL + i,
                                     value=cell["value"] if cell else missing)
                         v.number_format = nf["usd"]
-                        if cell and not cell["verified"]:
-                            # 加總對不上合併總額（多為含跨部門銷售或未分攤項）→ 標色，不隱藏
+                        # verified 是三態：None = 無法校驗，不是校驗沒過。
+                        # ASC 280 允許公司自訂分部利潤定義、也允許只揭露部分分部的
+                        # 費用，那種科目永遠對不上合併總額（ORCL 的分部營業利益、
+                        # PFE 只有一個分部揭露營業成本）。那不是數字有問題，不標色，
+                        # 否則整片橘色會讓真正對不上的欄位被淹掉。
+                        if cell and cell["verified"] is False:
                             v.fill = warn_fill
                             unverified = True
                     member_rows.setdefault(cid, {})[m["key"]] = row
@@ -886,8 +890,9 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
         if unverified:
             note = ws.cell(
                 row=row, column=1,
-                value="橘底：該期分部加總與合併總額對不上（多為含跨部門銷售，或公司未分攤項未列為分部），"
-                      "數字照實呈現、不調整。")
+                value="橘底：該期分部加總與合併總額對不上，數字照實呈現、不調整。"
+                      "（分部利潤／費用若各期都對不上，那是 ASC 280 允許公司自訂分部利潤定義、"
+                      "或只揭露部分分部的費用所致，屬無法校驗，不標色。）")
             note.font = Font(size=9, color="8C9199")
             row += 1
         row += 1

@@ -766,9 +766,12 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
 
         member_rows: dict[str, dict[str, int]] = {}
         total_rows: dict[str, int] = {}
-        parent_keys: dict[str, set] = {}
+        # 科目 → 成員 → 「在哪幾欄是上層匯總」。同一個成員可能只在部分欄是上層：
+        # ORCL 年報揭露 3 大區與 5 個國家兩層（各自都等於營收總額），10-Q 只有 3 大區，
+        # 於是 3 大區在年度欄是上層、在季度欄是子項。合計、佔比、圖表都得逐欄判斷。
+        parent_cols: dict[str, dict[str, set]] = {}
         # 圖表資料來源：只收子項（上層匯總畫進堆疊圖會讓總高度變兩倍）
-        child_rows: dict[str, list[tuple[str, int]]] = {}
+        child_rows: dict[str, list[tuple[str, int, frozenset]]] = {}
         derived_rows: dict[str, list[tuple[str, int]]] = {}
         unverified = False
 
@@ -782,21 +785,33 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
                 bold=True, size=10, color="8C9199")
             row += 1
 
-            def is_parent(m) -> bool:
-                cells = [m["values"].get(p, {}).get(cid) for p in periods]
-                cells = [c for c in cells if c]
-                return bool(cells) and all(c["isParent"] for c in cells)
+            def parent_at(m) -> set:
+                """這個成員在哪幾欄是上層匯總（欄序號，0 起算）"""
+                return {i for i, p in enumerate(periods)
+                        if (m["values"].get(p, {}).get(cid) or {}).get("isParent")}
 
-            # 上層匯總（如 Apple 的「產品」含 iPhone/Mac/iPad）排在子項之後：
-            # 子項必須連續才能用 SUM 範圍，而上層不能進合計否則重複計算
-            children = [m for m in members if not is_parent(m)]
-            parents = [m for m in members if is_parent(m)]
-            parent_keys[cid] = {m["key"] for m in parents}
+            def present_at(m) -> set:
+                return {i for i, p in enumerate(periods) if m["values"].get(p, {}).get(cid)}
+
+            pcols = {m["key"]: parent_at(m) for m in members}
+            parent_cols[cid] = pcols
+
+            # 「每一欄都是上層」的成員（如 Apple 的「產品」含 iPhone/Mac/iPad）排到
+            # 子項之後並標示不計入合計。只在部分欄是上層的成員留在子項區塊，改由
+            # 合計公式逐欄把它扣掉 —— 它在其他欄是真的子項，抽掉整列會讓那些欄少算。
+            def always(m) -> bool:
+                seen = present_at(m)
+                return bool(seen) and pcols[m["key"]] >= seen
+
+            children = [m for m in members if not always(m)]
+            parents = [m for m in members if always(m)]
 
             def write_rows(items, suffix=""):
                 nonlocal row, unverified
                 for m in items:
-                    ws.cell(row=row, column=1, value=f"　{m['zh']}{suffix}")
+                    # 只在部分欄是上層的成員要標出來，否則使用者會發現合計對不上眼前的加法
+                    tag = suffix or ("（部分期間為上層匯總）" if pcols[m["key"]] else "")
+                    ws.cell(row=row, column=1, value=f"　{m['zh']}{tag}")
                     ws.cell(row=row, column=2, value=m["en"]).font = Font(size=10, color="8C9199")
                     for i, p in enumerate(periods):
                         cell = m["values"].get(p, {}).get(cid)
@@ -817,15 +832,24 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
             first = row
             write_rows(children)
             last = row - 1
-            child_rows[cid] = [(m["zh"], member_rows[cid][m["key"]]) for m in children]
+            child_rows[cid] = [(m["zh"], member_rows[cid][m["key"]],
+                                frozenset(pcols[m["key"]])) for m in children]
 
             if children:
+                # 哪幾列在哪幾欄要被扣掉（部分欄才是上層的成員）
+                excl_by_col: dict[int, list[int]] = {}
+                for m in children:
+                    for i in pcols[m["key"]]:
+                        excl_by_col.setdefault(i, []).append(member_rows[cid][m["key"]])
+
                 ws.cell(row=row, column=1, value="　合計").font = Font(bold=True)
                 ws.cell(row=row, column=2, value="Total").font = Font(size=10, color="8C9199")
                 for i in range(ncol):
                     L = col_of(i)
-                    t = ws.cell(row=row, column=FIRST_DATA_COL + i,
-                                value=f"=SUM({L}{first}:{L}{last})")
+                    # 整段 SUM 再逐欄扣掉該欄的上層，比列舉子項短得多，也看得出範圍
+                    f = f"=SUM({L}{first}:{L}{last})" + "".join(
+                        f"-{L}{r}" for r in sorted(excl_by_col.get(i, [])))
+                    t = ws.cell(row=row, column=FIRST_DATA_COL + i, value=f)
                     t.number_format = nf["usd"]
                     t.font = Font(bold=True)
                 total_rows[cid] = row
@@ -840,24 +864,29 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
                         member_rows.get("operating_income", {}))
 
         def derived(title_zh: str, title_en: str, formula):
-            """formula(member_key, col_letter) → Excel 公式字串；回 None 代表該成員無此指標。"""
+            """
+            formula(member_key, col_letter, col_index) → Excel 公式字串。
+
+            回 None 代表**該成員在該欄**沒有這個指標；整列每欄都是 None 才略過整列。
+            逐欄判斷是必要的：只在部分欄是上層匯總的成員，那幾欄不能算佔比
+            （會和它自己的子項重複），其他欄卻要算。
+            """
             nonlocal row
-            rows = [(k, formula(k, "C")) for k in rev]
-            if not any(f for _, f in rows):
+            cols = list(enumerate(col_of(i) for i in range(ncol)))
+            live = [k for k in rev if any(formula(k, L, i) for i, L in cols)]
+            if not live:
                 return
             ws.cell(row=row, column=1, value=title_zh).font = Font(bold=True)
             ws.cell(row=row, column=2, value=title_en).font = Font(size=10, color="8C9199")
             row += 1
             collected: list[tuple[str, int]] = []
-            for k in rev:
-                if not formula(k, "C"):
-                    continue
+            for k in live:
                 label = next((m for m in block["members"] if m["key"] == k), None)
                 name = label["zh"] if label else k
                 ws.cell(row=row, column=1, value=f"　{name}")
-                for i in range(ncol):
+                for i, L in cols:
                     c2 = ws.cell(row=row, column=FIRST_DATA_COL + i,
-                                 value=formula(k, col_of(i)))
+                                 value=formula(k, L, i) or missing)
                     c2.number_format = nf["ratio"]
                 collected.append((name, row))
                 row += 1
@@ -866,16 +895,16 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
 
         if tot_rev:
             # 上層匯總不列入佔比 —— 否則子項各自佔比再加上父項，總和會超過 100%
-            rev_parents = parent_keys.get("revenue", set())
+            rev_parent_cols = parent_cols.get("revenue", {})
             derived("營收佔比", "Revenue Share",
-                    lambda k, L: (None if k in rev_parents
-                                  else f'=IFERROR({L}{rev[k]}/{L}{tot_rev},"{missing}")'))
+                    lambda k, L, i: (None if i in rev_parent_cols.get(k, ())
+                                     else f'=IFERROR({L}{rev[k]}/{L}{tot_rev},"{missing}")'))
         derived("分部毛利率", "Segment Gross Margin",
-                lambda k, L: (f'=IFERROR({L}{gp[k]}/{L}{rev[k]},"{missing}")' if k in gp
-                              else f'=IFERROR(({L}{rev[k]}-{L}{cogs[k]})/{L}{rev[k]},"{missing}")'
-                              if k in cogs else None))
+                lambda k, L, i: (f'=IFERROR({L}{gp[k]}/{L}{rev[k]},"{missing}")' if k in gp
+                                 else f'=IFERROR(({L}{rev[k]}-{L}{cogs[k]})/{L}{rev[k]},"{missing}")'
+                                 if k in cogs else None))
         derived("分部營業利益率", "Segment Operating Margin",
-                lambda k, L: (f'=IFERROR({L}{oi[k]}/{L}{rev[k]},"{missing}")' if k in oi else None))
+                lambda k, L, i: (f'=IFERROR({L}{oi[k]}/{L}{rev[k]},"{missing}")' if k in oi else None))
 
         # 這個軸要畫哪些圖：來源在 config/chart_spec.json 的 segment_charts，
         # 這裡只負責把「動態長出來的列」對上去
@@ -883,7 +912,8 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
             if spec.get("source") == "concept":
                 rows_for = child_rows.get(spec.get("concept", ""), [])
             else:
-                rows_for = derived_rows.get(spec.get("block", ""), [])
+                rows_for = [(n, r, frozenset())
+                            for n, r in derived_rows.get(spec.get("block", ""), [])]
             if rows_for:
                 pending_charts.append((block["zh"], spec, rows_for))
 
@@ -921,9 +951,16 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
         hint.font = Font(size=9, color="8C9199")
         row += 2
         step = int(th["chart"]["height_rows"] * 0.7 / 0.53) + 5
+        chart_cols = set(range(chart_first - FIRST_DATA_COL,
+                               chart_first - FIRST_DATA_COL + chart_n))
         for axis_zh, spec, rows_for in pending_charts:
+            # 圖只畫其中一段欄位，成員是不是上層要看**那一段**：ORCL 的 3 大區在年度欄
+            # 是上層、在季度欄是子項，畫季度圖時它就該進堆疊圖
+            series = [(n, r) for n, r, pc in rows_for if not (pc & chart_cols)]
+            if not series:
+                continue
             titled = dict(spec, title=f"{axis_zh}：{spec['title']}")
-            chart = build_range_chart(ws, titled, rows_for, chart_first, chart_n)
+            chart = build_range_chart(ws, titled, series, chart_first, chart_n)
             if chart is None:
                 continue
             ws.add_chart(chart, f"{get_column_letter(FIRST_DATA_COL)}{row}")

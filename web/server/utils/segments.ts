@@ -490,17 +490,23 @@ function candidateParents(keys: string[], vals: number[], total: number, tol: nu
 }
 
 /**
- * 跨期一次決定「誰是上層匯總」，而不是每期各自判斷。
+ * 決定「誰是上層匯總」—— **年度欄與季度欄分開決定，同一種粒度之內一次決定**。
  *
- * 為什麼不能逐期判斷：同一期常常有**好幾組**成員都剛好加得出總額。Tesla 的產品軸
+ * 為什麼不能逐期各判：同一期常常有**好幾組**成員都剛好加得出總額。Tesla 的產品軸
  * 就有 {車輛銷售, 監管積分, 車輛租賃, 儲能, 服務及其他} 與 {車輛銷售, 監管積分,
- * 車輛租賃, 儲能, 儲能銷售} 兩組都是 5 個成員、都對得上總額。逐期挑就會這期選這組、
- * 下期選那組 —— 同一個成員在 FY2025 欄算子項、在 Q2 欄卻算上層，合計列就會有的欄
- * 多算、有的欄少算。
+ * 車輛租賃, 儲能, 儲能銷售} 兩組都是 5 個成員、都對得上總額。逐期各挑就會這期選
+ * 這組、下期選那組，合計列有的欄多算有的欄少算。成員一多更糟：LLY 的產品軸每期
+ * 十幾種藥、容差是總額的 0.5%，隨便挑幾個剔掉就能落進容差，逐欄各判等於硬湊。
  *
- * 作法：每期各自算出「最多成員」的候選解，把對應的上層集合拿去跨期計票，取得票
- * 最高的一組（同票取上層較少的，寧可平鋪也不要多藏數字），然後**同一組套用到所有
- * 期間**，再逐期驗算加總對不對得上，對不上的那一期照實標為未校驗。
+ * 為什麼也不能全部期間一次決定：**10-K 與 10-Q 揭露的層數本來就不同**。ORCL 的
+ * 地區軸年報有 8 個成員（3 大區與 5 個國家，兩層都完整、各自都等於營收總額），
+ * 10-Q 只有 3 大區。混在一起投票，季度 7 期的「沒有上層」會用 7:4 蓋過年度的
+ * 「3 大區是上層」，年度欄兩層全加、變成總額的兩倍。
+ *
+ * 所以切在粒度上：同一種粒度內每期各自算出「最多成員」的候選解（可能不只一組），
+ * 計票取最高的一組（同票取上層較少的，寧可平鋪也不要多藏數字），套用到該粒度的
+ * 所有欄。真正該守的不變式是**每一欄的合計都等於合併總額**；兩份 10-K 之間隨機
+ * 翻臉不是揭露差異，是巧合，那種欄位就照實標未校驗。
  *
  * 決定完上層之後，再用同一套投票決定要不要補調節項（`residualByPeriod`）——
  * 見 pickResidual。
@@ -513,8 +519,19 @@ export function reconcileConcept(
   tolerancePct: number,
   residualByPeriod: Record<string, Record<string, Record<string, number>>> = {},
   mustReconcile = true,
-): { parents: Set<string>; residual: Set<string>; verified: Record<string, boolean | null> } {
-  const votes = new Map<string, { set: string[]; count: number }>()
+): {
+  parents: Set<string>
+  parentsByPeriod: Record<string, Set<string>>
+  residual: Set<string>
+  verified: Record<string, boolean | null>
+} {
+  // 年度欄與季度欄各自投票、各自決定。**分開的理由**：同一家公司在 10-K 揭露的
+  // 層數常常比 10-Q 多（ORCL 年報給 3 大區＋5 個國家兩層，10-Q 只給 3 大區），
+  // 混在一起投票的話季度期數多就會蓋過年度（7:4），年度欄兩層全加、變成總額的
+  // 兩倍。但**同一種粒度之內仍然一次決定**，不逐欄各判 —— 逐欄各判會變成硬湊，
+  // 見下方 LLY 的說明。
+  const votes = new Map<PeriodKind, Map<string, number>>()
+  const candsByKind = new Map<PeriodKind, string[][]>()
 
   for (const p of periods) {
     const members = byPeriod[p]
@@ -524,34 +541,67 @@ export function reconcileConcept(
     if (keys.length === 0) continue
     const vals = keys.map((k) => members[k][conceptId])
     const tol = Math.abs(total) * (tolerancePct / 100)
-    // 候選可能不只一組（成員數相同、也都對得上總額）→ 各投一票，交給跨期票數決定
+    const kind = splitPeriod(p).kind
+    const box = votes.get(kind) ?? new Map<string, number>()
+    votes.set(kind, box)
+    const bag = candsByKind.get(kind) ?? []
+    candsByKind.set(kind, bag)
+    // 候選可能不只一組（成員數相同、也都對得上總額）→ 各投一票，交給同粒度的票數決定
     for (const set of candidateParents(keys, vals, total, tol)) {
-      const id = set.join('|')
-      const v = votes.get(id) ?? { set, count: 0 }
-      v.count++
-      votes.set(id, v)
+      box.set(set.join('|'), (box.get(set.join('|')) ?? 0) + 1)
+      bag.push(set)
     }
   }
 
-  let winner: string[] = []
-  let bestCount = -1
-  for (const { set, count } of votes.values()) {
-    if (count > bestCount || (count === bestCount && set.length < winner.length)) {
-      winner = set
-      bestCount = count
+  /**
+   * 同粒度內票數高者勝，同票取上層較少的（寧可平鋪也不要多藏數字），再同就取
+   * 字典序 —— 必須是全序，否則同樣的輸入會給出不一樣的輸出。
+   *
+   * ⚠️ 這裡一定要是「一種粒度一組」，不能細到逐欄各判。LLY 的產品軸每期揭露
+   * 十幾種藥，容差是總額的 0.5%（約 5,000 萬美元）—— 從 17 個成員裡挑幾個剔掉、
+   * 剛好落進容差，純屬巧合的組合多得是。實測逐欄各判會讓四個年度欄分別剔掉
+   * FY2022 的 Collaboration、FY2023 的 Jardiance＋Olumiant＋TYVYT、FY2024 的
+   * Collaboration＋TYVYT…，然後全部「校驗通過」。那不是各期揭露層級不同，是把
+   * 真正對不上的事實藏起來 —— 比不修還糟。10-K 與 10-Q 的揭露層數不同是真的，
+   * 兩份 10-K 之間隨機翻臉不是。
+   */
+  const winnerOf = (kind: PeriodKind): string[] => {
+    const box = votes.get(kind)
+    let best: string[] | null = null
+    for (const set of candsByKind.get(kind) ?? []) {
+      if (best === null) { best = set; continue }
+      const va = box!.get(set.join('|')) ?? 0
+      const vb = box!.get(best.join('|')) ?? 0
+      if (va > vb || (va === vb && set.length < best.length) ||
+          (va === vb && set.length === best.length && set.join('|') < best.join('|'))) best = set
     }
+    return best ?? []
   }
-  const parents = new Set(winner)
+
+  const byKind = new Map<PeriodKind, Set<string>>()
+  const parentsByPeriod: Record<string, Set<string>> = {}
+  const parents = new Set<string>()
+  for (const p of periods) {
+    const kind = splitPeriod(p).kind
+    let set = byKind.get(kind)
+    if (!set) {
+      set = new Set(winnerOf(kind))
+      byKind.set(kind, set)
+    }
+    parentsByPeriod[p] = set
+    for (const k of set) parents.add(k)
+  }
 
   /** 這一期扣掉上層之後的子項加總；沒有任何子項時回 null */
   const childSum = (p: string): number | null => {
     const members = byPeriod[p]
     if (!members) return null
+    const par = parentsByPeriod[p] ?? new Set<string>()
     let sum = 0
     let any = false
     for (const [k, byC] of Object.entries(members)) {
       const v = byC[conceptId]
-      if (typeof v !== 'number' || parents.has(k)) continue
+      if (typeof v !== 'number' || par.has(k)) continue
       sum += v
       any = true
     }
@@ -600,6 +650,7 @@ export function reconcileConcept(
 
   return {
     parents,
+    parentsByPeriod,
     residual: useResidual ? picked : new Set<string>(),
     verified,
   }
@@ -785,7 +836,7 @@ export async function getSegments(
     }
     if (memberKeys.size === 0) continue
 
-    // 上層匯總「跨期一次決定」，逐期各判會前後不一致（見 reconcileConcept）
+    // 上層匯總逐期各自判定（各期揭露的成員數不同，見 reconcileConcept）
     const byPeriodMembers: Record<string, Record<string, Record<string, number>>> = {}
     for (const p of periods) {
       const m = merged.data[p]?.[def.axis]
@@ -831,8 +882,9 @@ export async function getSegments(
 
     for (const p of periods) {
       for (const cid of conceptIds) {
-        const { parents, residual, verified: verifiedByPeriod } = hier.get(cid)!
+        const { parentsByPeriod, residual, verified: verifiedByPeriod } = hier.get(cid)!
         const verified = verifiedByPeriod[p] ?? null
+        const parents = parentsByPeriod[p] ?? new Set<string>()
 
         for (const [mk, byC] of Object.entries(merged.data[p]?.[def.axis] ?? {})) {
           const v = byC[cid]

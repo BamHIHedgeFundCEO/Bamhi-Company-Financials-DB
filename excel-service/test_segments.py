@@ -26,7 +26,7 @@ def cell(v, verified=True, parent=False):
 
 
 def member(key, zh, en, vals, verified=True):
-    """vals: {period: {concept: (值, 是否上層)}}；verified 三態，None = 無法校驗"""
+    """vals: {period: {concept: (值, 該欄是否為上層)}}；verified 三態，None = 無法校驗"""
     values = {}
     for p, byc in vals.items():
         values[p] = {c: cell(v, verified=verified, parent=par) for c, (v, par) in byc.items()}
@@ -51,6 +51,10 @@ SEGMENTS = {
             # 上層：本身含 iPhone + Mac，成本只揭露到這一層
             member("product", "產品", "Product",
                    {p: {"revenue": (300, True), "cogs": (200, False)} for p in PERIODS}),
+            # ORCL 式：年報多揭露一層（此列在年度欄是上層），10-Q 只揭露這一層
+            # （季度欄它就是子項）。整列抽掉會讓季度欄少算，所以留在子項區塊逐欄扣。
+            member("region", "大區", "Region",
+                   {p: {"revenue": (400, p in ANNUAL)} for p in PERIODS}),
             # 無法校驗（ASC 280 自訂分部利潤定義）→ 不該被標橘底
             member("unverifiable", "無法校驗項", "Unverifiable",
                    {p: {"revenue": (1, False)} for p in PERIODS}, verified=None),
@@ -87,16 +91,31 @@ def main() -> None:
     rev_total = min(total_rows)
     assert col[parent_label] > rev_total, "上層匯總必須排在合計之後"
 
-    # 2. 合計是 SUM 公式，且範圍不含上層那一列
-    f = ws.cell(row=rev_total, column=3).value
-    assert isinstance(f, str) and f.startswith("=SUM("), f"合計不是公式：{f}"
-    lo, hi = (int(x) for x in f[f.index("C") + 1:-1].replace("C", "").split(":"))
+    # 2. 合計是 SUM 公式，且範圍不含「每一欄都是上層」那一列
+    import re
+
+    def total_formula(c):
+        f = ws.cell(row=rev_total, column=c).value
+        assert isinstance(f, str) and f.startswith("=SUM("), f"合計不是公式：{f}"
+        return f
+
+    f = total_formula(3)
+    lo, hi = (int(x) for x in re.match(r"=SUM\(C(\d+):C(\d+)\)", f).groups())
     assert not (lo <= col[parent_label] <= hi), f"上層被算進合計了：{f}"
 
-    # 3. 合計範圍涵蓋全部子項（iPhone/Mac/服務/無法校驗項/對不上項）
-    assert hi - lo + 1 == 5, f"合計應涵蓋 5 個子項，實際 {hi - lo + 1}"
+    # 3. 合計範圍涵蓋全部子項（iPhone/Mac/服務/大區/無法校驗項/對不上項）
+    assert hi - lo + 1 == 6, f"合計應涵蓋 6 個子項，實際 {hi - lo + 1}"
     vals = [ws.cell(row=r, column=3).value for r in range(lo, hi + 1)]
-    assert sum(vals) == 403, f"子項加總應為 403，實際 {vals}"
+    assert sum(vals) == 803, f"子項加總應為 803，實際 {vals}"
+
+    # 3a. 只在部分欄是上層的成員（大區）：年度欄要從合計扣掉、季度欄不能扣。
+    #     跨欄共用固定 SUM 範圍時這件事表達不出來，年度欄就會多算一整層。
+    mixed_label = next(k for k in col if k.startswith("大區（部分期間"))
+    mixed_row = col[mixed_label]
+    assert lo <= mixed_row <= hi, "部分期間為上層的成員應留在子項區塊"
+    annual_f, quarter_f = total_formula(3), total_formula(5)
+    assert annual_f.endswith(f"-C{mixed_row}"), f"年度欄沒扣掉該欄的上層：{annual_f}"
+    assert "-E" not in quarter_f, f"季度欄不該扣（那一欄它是子項）：{quarter_f}"
 
     # 3b. verified 三態：只有 False 標橘底，None（無法校驗）不標
     def has_fill(label):

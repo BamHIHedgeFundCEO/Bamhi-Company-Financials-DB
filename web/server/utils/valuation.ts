@@ -33,6 +33,11 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
   const series = await getPrices(fin.ticker)
   if (!series) return null
 
+  // 股價幣別和財報幣別不同就整頁不做。ADR 的股價是美元、但 TM 的財報是日圓、
+  // BABA 是人民幣 —— 市值＝美元股價×股數、本益比＝美元市值／日圓淨利，算得出數字
+  // 但完全沒有意義。這種「看起來正常的錯數字」比留白危險，寧可不出這張分頁。
+  if (series.currency && fin.currency && series.currency !== fin.currency) return null
+
   const periods = fin.periods
   const li = new Map(fin.lineItems.map((x) => [x.id, x]))
   const val = (id: string, p: string) => li.get(id)?.values[p]?.value ?? null

@@ -42,6 +42,13 @@ export interface MapConcept {
   zero_if_absent?: boolean
   tags: string[]
   tags_ifrs?: string[]
+  /**
+   * 這些標籤取到的值要乘 -1。用在「同一個科目、不同標籤的正負號慣例相反」的情況：
+   * `InterestIncomeExpenseNet` 是利息收入(費用)**淨額**，正值代表淨收入，跟
+   * `InterestExpense`（正值代表費用）剛好相反。實測 1000 家有 248 家走前者，
+   * 不翻號的話「利息費用」那一列會混著兩種慣例，跨公司比較全錯。
+   */
+  negate_tags?: string[]
 }
 
 export interface DerivedMetric {
@@ -109,6 +116,35 @@ export async function loadMap(): Promise<XbrlMap> {
   return cachedMap
 }
 
+interface ClassShares {
+  version: string
+  companies: Record<string, { ticker: string; name: string; basis: string; shares: Record<string, number> }>
+}
+
+let cachedClassShares: ClassShares | null = null
+/**
+ * 多股別公司的期末流通股數（`config/class_shares.json`，由 `tools/class_shares.py` 離線產生）。
+ *
+ * 波克夏、Visa、ADT、Ryan Specialty…把封面股數按股別拆、帶了維度，companyfacts 只收
+ * 無維度事實 → 整個標籤消失、期末股數整欄 n/a、估值分頁跟著連鎖 n/a。數字只在申報的
+ * XBRL instance 裡，但「單 ticker 查詢 ≤ 2 次 SEC 請求」是硬規則，線上解析一定超標，
+ * 所以離線算好放設定資產、執行期零 SEC 請求。檔案裡沒有的期就維持 n/a。
+ */
+async function loadClassShares(): Promise<ClassShares> {
+  if (cachedClassShares) return cachedClassShares
+  const raw = await useStorage('assets:config').getItem('class_shares.json')
+  cachedClassShares = ((typeof raw === 'string' ? JSON.parse(raw) : raw) as ClassShares) ?? {
+    version: '',
+    companies: {},
+  }
+  return cachedClassShares
+}
+
+/** 供 Excel 快取 key 用：預算檔改版 → 舊活頁簿失效 */
+export async function loadClassSharesVersion(): Promise<string> {
+  return (await loadClassShares()).version
+}
+
 /** "FY2026 Q2" 排序鍵 */
 function periodKey(fy: number, q: number): string {
   return `FY${fy} Q${q}`
@@ -158,24 +194,83 @@ function fiscalOf(end: string, fyeMonth: number): { fy: number; q: number } {
   return { fy: fyeYear, q }
 }
 
-/** 從 XBRL 年度期間（span>300 天）的 end 月份取眾數 → 會計年度末月份 */
+/**
+ * 從 XBRL 年度期間（span 300–400 天）的 end 月份取眾數 → 會計年度末月份。
+ *
+ * 兩個修正，少任何一個都會讓整家公司的季別錯格：
+ * 1. **只看最近 6 個年度**。改過會計年度的公司，舊制度的票數會壓過現行制度
+ *    （L3Harris 2019 年前 6 月結算、現在 12 月底，全歷史取眾數得到 6 月 → 近年每季
+ *    都對不上，表上只剩 Q1 有值。HRB 2022 年 4 月改 6 月、Oshkosh 9 月改 12 月、
+ *    Under Armour 12 月改 3 月、Royal Gold 6 月改 12 月同理，實測 1000 家中 14 家）。
+ * 2. **月份用 end−5 天算**。52/53 週會計年度的年末會漂過月界，Leidos／L3Harris 年末
+ *    落在 1/2、Broadcom 落在 11/2，直接取月份會得到「1 月結算」「11 月結算」這種
+ *    不存在的制度。
+ * 票數用「事實筆數」而不是「不同年末日數」：Amazon 有少量 TTM 揭露（每季末都有一筆
+ * 12 個月期間），一個日期一票的話會被這些雜訊灌成 3 月結算。
+ */
 function inferFyeMonth(gaap: Record<string, { units: Record<string, FactPoint[]> }>): number {
-  const count = new Map<number, number>()
+  const perEnd = new Map<string, number>()
   for (const tag of Object.values(gaap)) {
     for (const points of Object.values(tag.units)) {
       for (const p of points) {
         const days = spanDays(p)
         if (days !== null && days > 300 && days < 400) {
-          const m = Number(p.end.split('-')[1])
-          count.set(m, (count.get(m) ?? 0) + 1)
+          perEnd.set(p.end, (perEnd.get(p.end) ?? 0) + 1)
         }
       }
     }
+  }
+  if (!perEnd.size) return 12
+  let latest = ''
+  for (const end of perEnd.keys()) if (end > latest) latest = end
+  const cutoff = Date.parse(latest + 'T00:00:00Z') - 6 * 365 * 86400_000
+
+  const count = new Map<number, number>()
+  for (const [end, n] of perEnd) {
+    const t = Date.parse(end + 'T00:00:00Z')
+    if (t < cutoff) continue
+    const m = new Date(t - 5 * 86400_000).getUTCMonth() + 1
+    count.set(m, (count.get(m) ?? 0) + n)
   }
   let bestM = 12
   let bestN = 0
   for (const [m, n] of count) if (n > bestN) { bestN = n; bestM = m }
   return bestM
+}
+
+/**
+ * 由年度期間（300–400 天）反推每個會計年度「真正的」結束日。
+ *
+ * 52/53 週會計年度的年末會在月底附近漂移（AVGO 2025 年末是 11/2、BBY 是 2/1），
+ * 用「日曆月最後一天」當年初推算會差到快一個月，YTD 事實就會被誤判成單季。
+ * 同一年度多筆 end（重編、不同 tag）取眾數。
+ */
+function inferFyEnds(gaap: FactTags, fyeMonth: number): Map<number, number> {
+  const votes = new Map<number, Map<string, number>>()
+  for (const tag of Object.values(gaap)) {
+    for (const points of Object.values(tag.units)) {
+      for (const p of points) {
+        const days = spanDays(p)
+        if (days === null || days <= 300 || days >= 400) continue
+        const { fy, q } = fiscalOf(p.end, fyeMonth)
+        // 只收落在年度末位置的：改過會計年度的公司，舊制度的年報期間會被歸到新制度的
+        // 某個季（Under Armour 由 12 月改 3 月，2021 曆年年報落在 FY2022 Q3），
+        // 拿它當年末會讓年初推算整整差一季，該年度的年報事實全被當成非累計而丟掉。
+        if (q !== 4) continue
+        const bucket = votes.get(fy) ?? new Map<string, number>()
+        bucket.set(p.end, (bucket.get(p.end) ?? 0) + 1)
+        votes.set(fy, bucket)
+      }
+    }
+  }
+  const out = new Map<number, number>()
+  for (const [fy, bucket] of votes) {
+    let bestEnd = ''
+    let bestN = 0
+    for (const [end, n] of bucket) if (n > bestN) { bestN = n; bestEnd = end }
+    if (bestEnd) out.set(fy, Date.parse(bestEnd + 'T00:00:00Z'))
+  }
+  return out
 }
 
 /**
@@ -186,7 +281,8 @@ function inferFyeMonth(gaap: Record<string, { units: Record<string, FactPoint[]>
  *   A:{fy}     — 全年
  * 同期間多筆（重編）→ filed 最新。
  */
-function collect(points: FactPoint[], flow: boolean, fyeMonth: number) {
+function collect(points: FactPoint[], flow: boolean, fyeMonth: number,
+                 fyEnds: Map<number, number>) {
   const best = new Map<string, FactPoint & { _origFiled?: string }>()
   const put = (key: string, p: FactPoint) => {
     const prev = best.get(key)
@@ -200,17 +296,25 @@ function collect(points: FactPoint[], flow: boolean, fyeMonth: number) {
     if (flow) {
       const days = spanDays(p)
       if (days === null) continue
+      if (days < 45 || days > 400) continue // 月報/多年期間，兩者都不是我們要的粒度
       const { fy, q } = fiscalOf(p.end, fyeMonth)
-      if (days > 80 && days < 100) {
+      // 累計 vs 單季看「起始日是不是會計年度第一天」，不用天數區間硬切。
+      // 零售/食品業的 52/53 週曆常是 16-12-12-12 週，Q1 長 112 天，落在舊規則的
+      // 「單季 80–100」與「半年 150–200」之間 → 整筆丟掉。實測 ACI（Albertsons）
+      // 每年 Q1 欄變成 0、Q2 欄放的是 28 週累計，等於憑空生出「首季零營收」。
+      const prevEnd = fyEnds.get(fy - 1) ?? Date.UTC(fy - 1, fyeMonth, 0)
+      const fyStartT = prevEnd + 86400_000
+      const cumulative = Math.abs(Date.parse(p.start!) - fyStartT) <= 15 * 86400_000
+      if (days > 300) {
+        if (cumulative) put(`A:${fy}`, p) // 非年初起算的 300+ 天是 TTM 之類的揭露，不採
+      } else if (cumulative) {
+        put(`C:${fy}:${q}`, p)
+        if (q === 1) put(`Q:${fy}:1`, p) // 首季累計即首季單季
+        if (q === 4) put(`A:${fy}`, p) // 年初到年末＝全年（極少數公司只申報這種）
+      } else if (days <= 130) {
         put(`Q:${fy}:${q}`, p) // 單季
-        if (q === 1) put(`C:${fy}:1`, p) // 首季亦為累計
-      } else if (days > 150 && days < 200) {
-        put(`C:${fy}:2`, p) // 半年累計
-      } else if (days > 240 && days < 290) {
-        put(`C:${fy}:3`, p) // 九月累計
-      } else if (days > 300 && days < 400) {
-        put(`A:${fy}`, p)
       }
+      // 其餘：不從年初起算、又跨兩三季的區間（如 Q2+Q3），無法定位，丟棄
     } else {
       // 存量：期末快照
       const { fy, q } = fiscalOf(p.end, fyeMonth)
@@ -336,12 +440,45 @@ export async function getFinancials(
   const useIfrs = !gaap || (Object.keys(gaap).length < 20 && !!ifrs)
   const ns: FactTags = (useIfrs ? ifrs : gaap) ?? {}
   const fyeMonth = inferFyeMonth(ns)
+  const fyEnds = inferFyEnds(ns, fyeMonth)
 
-  // 幣別：優先 USD（20-F 常附便利換算），否則取 namespace 中最常見的幣別
-  const currency = useIfrs ? inferCurrency(ns) : 'USD'
+  /**
+   * 年度模式（只有 FY 欄，沒有季度欄）**看資料本身有沒有季度長度的事實，不看命名空間**。
+   *
+   * 原本靠 `useIfrs` 判斷，等於假設「外國發行人＝用 ifrs-full 標籤」。實際上 ASML、
+   * 豐田（TM）、阿里巴巴用的是 **us-gaap 標籤但只申報 20-F 年報**，於是被當成季度公司
+   * 丟進單季還原：年度事實填進 cum[4]、cum[1..3] 全缺，補洞防呆（見
+   * quarterly-period-reconstruction-traps）正確地拒絕生假數字 → **整張表一格都沒有**。
+   *
+   * 門檻用**比例**不用絕對筆數：只申報年報的公司仍會有零星的短期間事實（處分損益、
+   * 期後事項、匯率揭露）。實測季度長度事實佔比 —— SHOP（真季報）19.5%、
+   * ASML 0.3%、TM 0.0%，5% 落在中間很寬的空隙裡。
+   */
+  const annualMode =
+    useIfrs ||
+    (() => {
+      let total = 0
+      let quarterly = 0
+      for (const tag of Object.values(ns)) {
+        for (const points of Object.values(tag.units)) {
+          for (const p of points) {
+            if (!p.start) continue
+            total++
+            const d = (Date.parse(p.end) - Date.parse(p.start)) / 86_400_000
+            if (d >= 45 && d <= 130) quarterly++
+          }
+        }
+      }
+      return total === 0 || quarterly / total < 0.05
+    })()
+
+  // 幣別：見 inferCurrency。**只取這一種幣別**，不做「這個科目沒有就退回另一種」的
+  // fallback —— 同一張損益表混著歐元與美元的列，看起來完全正常但整份是錯的，
+  // 比缺一列危險得多。
+  const currency = inferCurrency(ns)
   const unitPrefs = (unit: string): string[] => {
-    if (unit === 'USD') return ['USD', currency]
-    if (unit === 'USD/shares') return ['USD/shares', `${currency}/shares`]
+    if (unit === 'USD') return [currency]
+    if (unit === 'USD/shares') return [`${currency}/shares`]
     return [unit]
   }
 
@@ -361,21 +498,33 @@ export async function getFinancials(
 
     // tags 依優先序逐期 fallback：高優先標籤已有的期間不被覆蓋，
     // 缺的期間由後續標籤補（公司中途換標籤時——如 NVDA 營收——單一標籤涵蓋不了全期間）
-    let chosenTag: string | null = null
+    const negate = new Set(concept.negate_tags ?? [])
     const best = new Map<string, FactPoint & { _tag: string }>()
     for (const tag of tags) {
       const units = ns[tag]?.units
-      const points = unitPrefs(concept.unit).map((u) => units?.[u]).find((p) => p?.length)
+      let points = unitPrefs(concept.unit).map((u) => units?.[u]).find((p) => p?.length)
       if (!points) continue
-      chosenTag ??= tag
-      for (const [key, p] of collect(points, flow, fyeMonth)) {
+      // 翻號要在 collect 之前做，這樣單季差分、Q4 推算、沿用前期全都跟著正確
+      if (negate.has(tag)) points = points.map((p) => ({ ...p, val: -p.val }))
+      for (const [key, p] of collect(points, flow, fyeMonth, fyEnds)) {
         if (!best.has(key)) best.set(key, { ...p, _tag: tag })
       }
     }
 
+    /**
+     * 這一列的「來源標籤」＝**實際供應最多期數**的那個標籤，不是清單裡第一個查得到的。
+     * 舊寫法 `chosenTag ??= tag` 會被「存在但一格都用不上」的標籤佔住：XEL 的
+     * RevenueFromContractWithCustomerExcludingAssessedTax 只有帶維度的零星事實，
+     * 數字其實全部來自 RegulatedAndUnregulatedOperatingRevenue，標籤卻顯示前者 ——
+     * 使用者拿這個去 EDGAR 對帳會對不到。逐格的 sourceTag 本來就是對的，這裡修的是列層級。
+     *
+     * 計票只算**真的出現在畫面上那幾欄**的格子，不算 `best` 的全歷史：Apple 2018 年
+     * 以前用 SalesRevenueNet，全歷史計票會讓它贏過近年實際在用的
+     * RevenueFromContractWithCustomerExcludingAssessedTax。
+     */
     const values: Record<string, CellValue> = {}
     for (let fy = fromFy; fy <= toFy; fy++) {
-      if (useIfrs) {
+      if (annualMode) {
         // 年度模式：流量取全年累計，存量取年度末快照（Q4 位置）
         const p = best.get(flow ? `A:${fy}` : `Q:${fy}:4`)
         if (p) values[`FY${fy}`] = toCell(p, p._tag)
@@ -429,20 +578,46 @@ export async function getFinancials(
         else if (s && cum[n - 1] != null) setCum(n, cum[n - 1]! + s.val, s)
       }
       if (annual) setCum(4, annual.val, annual)
-      else if (qd(4) && cum[3] != null) setCum(4, cum[3]! + qd(4)!.val, qd(4)!)
+      else if (qd(4) && cum[3] != null) {
+        const q4 = qd(4)!
+        // 10-K 一定會申報全年數字。該年度找不到「年度長度」的事實、卻有一筆來自 10-K 的
+        // 單季事實，而且金額還大於前三季累計 → 幾乎一定是申報端把全年金額掛在 Q4 的
+        // 期間上（L3Harris FY2024、FY2025 連兩年這樣：start 寫成 10/04 只有 90 天，
+        // 值卻是全年 218.65 億）。當成單季相加會得到全年 380.8 億、Q4 比整年還大。
+        const misTagged = q4.form?.startsWith('10-K') && Math.abs(q4.val) > Math.abs(cum[3]!)
+        setCum(4, misTagged ? q4.val : cum[3]! + q4.val, q4)
+      }
 
       // 最後一個有值的累計季（超過此季視為尚未申報，不輸出）
       let lastKnown = 0
       for (let q = 1; q <= 4; q++) if (cum[q] != null) lastKnown = q
       // 補內部缺口：向前補值（假設該季無活動）→ 一次性金額落到下一個可量測季
-      for (let q = 1; q <= lastKnown; q++) if (cum[q] == null) cum[q] = cum[q - 1]
+      const filled = [false, false, false, false, false]
+      for (let q = 1; q <= lastKnown; q++) {
+        if (cum[q] == null) {
+          cum[q] = cum[q - 1]
+          filled[q] = true
+        }
+      }
 
       for (let q = 1; q <= lastKnown; q++) {
+        // 單季金額 = 兩端累計相減，任一端是補出來的就「算不出來」，不是「等於零」。
+        // 舊版一律往前補 0 再相減：AAON 只在年報揭露研發費用（SEC 完全沒有季度事實），
+        // 表上就變成 Q1–Q3 研發 0、Q4 一次 5,820 萬，而且 isEstimated 只標 Q4，
+        // 前三個 0 看起來像申報值。實測 150 家有 92 家中招、1,890 格假 0。
+        // 例外是 zero_if_absent 那組（庫藏股買回、舉債償債、股利）：那些科目缺申報
+        // 確實通常代表當季沒有這筆活動，准補，但一律標成估算。
+        const guessed = filled[q] || filled[q - 1]
+        if (guessed && !concept.zero_if_absent) continue
         const anchor = src[q] ?? src[lastKnown]!
         values[periodKey(fy, q)] = {
           value: cum[q]! - cum[q - 1]!,
-          isEstimated: q === 4 && !qd(4), // Q4 由全年推算 → 橘底
-          sourceTag: anchor._tag,
+          isEstimated: guessed || (q === 4 && !qd(4)), // Q4 由全年推算 → 橘底
+          sourceTag: filled[q]
+            ? '缺申報視為 0'
+            : filled[q - 1]
+              ? '含前期未申報金額' // 前一季沒申報 → 那筆金額累加到這一季
+              : anchor._tag,
           accessionOrForm: anchor.form,
           filed: anchor.filed,
           endDate: anchor.end,
@@ -450,6 +625,15 @@ export async function getFinancials(
       }
     }
     for (const k of Object.keys(values)) allPeriods.add(k)
+
+    const tagUse = new Map<string, number>()
+    for (const c of Object.values(values)) {
+      if (c.value != null && c.sourceTag) tagUse.set(c.sourceTag, (tagUse.get(c.sourceTag) ?? 0) + 1)
+    }
+    let chosenTag: string | null = null
+    let chosenN = 0
+    for (const [t, n] of tagUse) if (n > chosenN) { chosenN = n; chosenTag = t }
+
     lineItems.push({
       id: concept.id,
       zh: concept.zh,
@@ -469,13 +653,22 @@ export async function getFinancials(
   // 每季都有，用 fy/fp 對應補上缺的季（us-gaap 精確值優先，不覆蓋）。
   const soLi = byId.get('shares_outstanding')
   const deiPts = facts.facts.dei?.['EntityCommonStockSharesOutstanding']?.units?.['shares']
-  if (soLi && deiPts?.length && !useIfrs) {
+  if (soLi) {
     const best = new Map<string, { val: number; filed: string }>()
-    for (const p of deiPts) {
+    for (const p of deiPts ?? []) {
       if (!p.fy || !p.fp) continue
-      const q = p.fp === 'FY' ? 4 : Number(String(p.fp).replace('Q', ''))
-      if (!(q >= 1 && q <= 4)) continue
-      const key = periodKey(p.fy, q)
+      // 年度模式（20-F 外國發行人）也要跑這段。舊版整個 if 被 `!annualMode` 擋掉，
+      // 於是 On Holding 這種「us-gaap/ifrs 股數標籤都帶維度、只剩 dei 封面股數」的
+      // 20-F 公司期末股數整欄 n/a，估值分頁跟著整頁不出。
+      let key: string
+      if (annualMode) {
+        if (p.fp !== 'FY') continue
+        key = `FY${p.fy}`
+      } else {
+        const q = p.fp === 'FY' ? 4 : Number(String(p.fp).replace('Q', ''))
+        if (!(q >= 1 && q <= 4)) continue
+        key = periodKey(p.fy, q)
+      }
       const prev = best.get(key)
       if (!prev || p.filed > prev.filed) best.set(key, { val: p.val, filed: p.filed })
     }
@@ -489,15 +682,256 @@ export async function getFinancials(
         filed,
       }
     }
-    // 仍缺的季（us-gaap 年度末 + dei 都沒有，如 NVDA 2021Q1/Q2）→ 退回加權平均股數近似
-    // （股數變化緩，兩者接近；避免整欄估值因股數缺而連鎖 n/a）
-    const wavg = byId.get('shares_basic') ?? byId.get('shares_diluted')
-    if (wavg) {
+    /**
+     * 多股別公司：封面股數帶了 `StatementClassOfStockAxis` 維度 → companyfacts 收不到，
+     * 連加權平均股數也常常一起消失。從離線預算好的 `config/class_shares.json` 補
+     * （產生方式與各家的合併依據見 `tools/class_shares.py`）。
+     *
+     * 對期方式：檔案的 key 是**申報封面的股數截止日**，通常落在季末後 2–6 週
+     * （波克夏 2026-06-30 那季寫的是 2026-07-29）。所以取「期末日之後 75 天內最早」
+     * 的那一筆；Visa 之類把當量總數掛在季末當日的，同一條規則也涵蓋。
+     * 找不到就留 n/a —— 這個檔案不會自動更新，最新一季在重跑工具前本來就該是空的。
+     */
+    const cs = (await loadClassShares()).companies[String(Number(ref.cik10))]
+    if (cs) {
+      const endOf = new Map<string, string>()
+      for (const li of lineItems) {
+        for (const [p, c] of Object.entries(li.values)) {
+          if (c.endDate && !endOf.has(p)) endOf.set(p, c.endDate)
+        }
+      }
+      const dates = Object.keys(cs.shares).sort()
       for (const p of allPeriods) {
         if (soLi.values[p]?.value != null) continue
-        const w = wavg.values[p]?.value
+        const end = endOf.get(p)
+        if (!end) continue
+        const t = Date.parse(end)
+        const hit = dates.find((d) => {
+          const gap = (Date.parse(d) - t) / 86_400_000
+          return gap >= 0 && gap <= 75
+        })
+        if (!hit) continue
+        soLi.values[p] = {
+          value: cs.shares[hit],
+          isEstimated: true,
+          sourceTag: `申報封面各股別股數（${cs.basis}）`,
+          endDate: hit,
+        }
+      }
+    }
+
+    // 仍缺的期（us-gaap 年度末、dei、預算檔都沒有，如 NVDA 2021Q1/Q2）→ 退回加權平均
+    // 股數近似（股數變化緩，兩者接近；避免整欄估值因股數缺而連鎖 n/a）。
+    //
+    // ⚠️ 這段**不能**包在「dei 有資料」的條件裡。最需要它的正是連 dei 都沒有的公司：
+    // 多股別（ABNB、AMH、APPF 等）申報封面股數會按股別拆、帶了維度，而 companyfacts
+    // 只收無維度事實 → dei 整個標籤消失。
+    //
+    // 基本、稀釋要**逐期**各自看有沒有值，不能寫成 `basic ?? diluted`：那個 `??` 判的是
+    // 「有沒有這一列」，而列永遠都在（只是整欄 n/a），於是 diluted 永遠輪不到。
+    // Tyson Foods 就是這樣 —— 它的基本股數帶了 A/B 股維度收不到，稀釋股數
+    // WeightedAverageNumberOfDilutedSharesOutstanding 是無維度的 3.57 億、26 筆全在，
+    // 卻因為這個 `??` 一格都沒用上，期末股數整欄 n/a。
+    const wBasic = byId.get('shares_basic')
+    const wDil = byId.get('shares_diluted')
+    const wavgAt = (p: string) => wBasic?.values[p]?.value ?? wDil?.values[p]?.value ?? null
+    if (wBasic || wDil) {
+      for (const p of allPeriods) {
+        if (soLi.values[p]?.value != null) continue
+        const w = wavgAt(p)
         if (w != null) {
           soLi.values[p] = { value: w, isEstimated: true, sourceTag: '近似：加權平均股數' }
+        }
+      }
+
+    }
+  }
+
+  /**
+   * 股數的申報單位防呆。三列（期末／基本／稀釋）一起做。
+   *
+   * 申報端寫錯 scale 比想像中常見，而且畫面上完全看不出來：
+   *   麥當勞  `WeightedAverageNumberOfSharesOutstandingBasic` 申報成 **709.1 股**
+   *           （實際 7.091 億，漏寫百萬）→ 每股盈餘、股數稀釋率整列變垃圾
+   *   Repligen／Bruker  2022–2024 那幾期以「千股」申報（55,353 / 150）
+   *   Freedom Holding   反過來，加權平均股數多寫 1000 倍（595 億股）
+   *   Viking Holdings   `NumberOfSharesOutstanding` 寫成 442,721,700,000（實際 4.43 億）
+   * 實測羅素 1000 有 34 家中招。
+   *
+   * 錨用**公司自己的除法**：淨利 ÷ 每股盈餘 = 它算每股盈餘時用的股數。
+   * 沒有每股盈餘可用時退回同期加權平均股數（IFRS 早期、虧損轉盈那幾期）。
+   *
+   * 差距剛好是 1000 的次方（±20%）→ 判定為單位寫錯，按比例還原並標成估算；
+   * 其他對不上的一律改 n/a。不猜、不硬湊 —— 這種「看起來正常的假數字」比留白危險。
+   */
+  {
+    const soLi2 = byId.get('shares_outstanding')
+    const wBasic = byId.get('shares_basic')
+    const wDil = byId.get('shares_diluted')
+    const ni = byId.get('net_income')
+    const eps = byId.get('eps_basic')
+    // 每股盈餘只申報到「分」。EPS 0.01 的那一期真值可能是 0.005～0.014，倒推出來的
+    // 股數會差到兩倍，拿這種錨去砍好資料反而製造洞。只在 |EPS| ≥ 0.10 時採用
+    // （此時四捨五入誤差 ≤5%），否則退回加權平均股數。
+    const impliedAt = (p: string): number | null => {
+      const n = ni?.values[p]?.value
+      const c = eps?.values[p]
+      const e = c?.value
+      // **只認公司自己申報的每股盈餘**。我們自己推算的那格是 net_income ÷ shares_basic，
+      // 拿它回頭當股數的錨是循環論證：麥當勞 FY2022 Q4 的股數本身少寫了百萬，
+      // 推算出的每股盈餘就變成 2,583,842 元，倒推的股數接近 0，反而把正確的封面股數
+      // （7.31 億）「還原」成 731.5 股。
+      if (n == null || e == null || Math.abs(e) < 0.1) return null
+      if (c?.sourceTag?.startsWith('推算')) return null
+      const imp = Math.abs(n / e)
+      return imp >= 1000 ? imp : null
+    }
+    const anchorAt = (p: string): number | null => {
+      const imp = impliedAt(p)
+      if (imp != null) return imp
+      const w = wBasic?.values[p]?.value ?? wDil?.values[p]?.value
+      return w != null && w !== 0 ? Math.abs(w) : null
+    }
+    // **順序很重要**：先修加權平均，再修期末股數。期末股數缺值時會退回用加權平均補、
+    // 也用加權平均當錨；加權平均自己是錯的話，錯的錨會把錯的值驗證成「沒問題」
+    // （Tempus AI 整列以千股申報，18.9 萬 vs 實際 1.789 億，實測就是這樣漏掉的）。
+    const sorted = [...allPeriods].sort()
+    for (const li of [wBasic, wDil, soLi2]) {
+      if (!li) continue
+      const useImpliedOnly = li === wBasic || li === wDil // 自己不能當自己的錨
+
+      // 股數 0 一律當缺值。公司不可能有 0 股流通在外 —— SiriusXM FY2023 Q4 的
+      // `CommonStockSharesOutstanding` 就是 0，而 0 會被後面的「沿用前期」一路帶到
+      // 最新幾季，表上出現 0 股、市值 0。
+      for (const p of allPeriods) if (li.values[p]?.value === 0) delete li.values[p]
+
+      // 第一輪：有錨的期各自判斷要不要還原、還原幾個數量級
+      const pow = new Map<string, number>()
+      const drop = new Set<string>()
+      for (const p of sorted) {
+        const v = li.values[p]?.value
+        if (v == null || v === 0) continue
+        const a = useImpliedOnly ? impliedAt(p) : anchorAt(p)
+        if (a == null) continue
+        const r = Math.abs(v) / a
+        if (r <= 10 && r >= 0.1) {
+          pow.set(p, 0)
+          continue
+        }
+        const e = Math.round(Math.log10(r) / 3) * 3 // 最近的 1000 次方
+        if (e !== 0 && Math.abs(v / 10 ** e / a - 1) <= 0.2) pow.set(p, e)
+        else if (r > 100 || r < 0.01) drop.add(p)
+        // 差 10–100 倍、又不是乾淨的 1000 次方 → **原封不動**。這種落差多半是合法的
+        // 股別基礎差異（Rocket 的稀釋股數 19.7 億是全部股別，每股盈餘的分母只有
+        // Class A 的 1.41 億），而且錨自己也可能是壞的 —— Shift4 的加權平均股數整列
+        // 少寫了一個數量級，用它去砍正確的封面股數（8,124 萬）就是拿錯的驗對的。
+      }
+
+      // 先把有錨的期改好，第二輪才有正確的鄰期可以比
+      for (const p of sorted) {
+        const cell = li.values[p]
+        const e = pow.get(p)
+        if (!cell || cell.value == null || !e) continue
+        li.values[p] = { ...cell, value: cell.value / 10 ** e, isEstimated: true, sourceTag: '申報單位還原' }
+      }
+
+      /**
+       * 第二輪：沒有錨的期（虧損、每股盈餘太小、或那格每股盈餘是我們自己推算的）
+       * 改用**數值連續性**判定 —— 拿最近一個已確定的期當基準。
+       *
+       * 不能改用「繼承鄰期的倍率」：申報端換單位慣例的那一季，前後剛好一邊舊一邊新、
+       * 距離一樣近，怎麼挑都會錯一邊 —— 麥當勞 FY2022 Q4 屬於新慣例（百萬）、
+       * Repligen FY2024 Q4 屬於舊慣例（千股），兩家的交界期方向相反。
+       * 股數是慢變量，「哪個倍率讓它接近鄰期」是可靠得多的訊號。
+       */
+      const settled = sorted.filter((p) => pow.has(p) && li.values[p]?.value != null)
+      for (const p of sorted) {
+        const v = li.values[p]?.value
+        if (v == null || v === 0 || pow.has(p) || drop.has(p)) continue
+        if (!settled.length) continue
+        const i = sorted.indexOf(p)
+        let best = settled[0]
+        for (const q of settled) {
+          if (Math.abs(sorted.indexOf(q) - i) < Math.abs(sorted.indexOf(best) - i)) best = q
+        }
+        const ref = Math.abs(li.values[best]!.value!)
+        const r = Math.abs(v) / ref
+        if (r <= 10 && r >= 0.1) continue
+        const e = Math.round(Math.log10(r) / 3) * 3
+        if (e !== 0 && Math.abs(v / 10 ** e / ref - 1) <= 0.2) pow.set(p, e)
+        else if (r > 100 || r < 0.01) drop.add(p) // 同第一輪：不是乾淨的 1000 次方就別動
+      }
+
+      for (const p of sorted) {
+        const cell = li.values[p]
+        if (drop.has(p)) {
+          delete li.values[p]
+          continue
+        }
+        if (!cell || cell.value == null || settled.includes(p)) continue
+        const e = pow.get(p)
+        if (e) {
+          li.values[p] = { ...cell, value: cell.value / 10 ** e, isEstimated: true, sourceTag: '申報單位還原' }
+        }
+      }
+
+      /**
+       * 收尾：列內離群值一律丟掉，只丟不改。股數是慢變量，同一列不可能有一格跟
+       * 基準差 100 倍。
+       *
+       * 前面每一道都靠「跟同期的每股盈餘對得上」，但有些公司**整組一起錯**：
+       * SiriusXM 2022–2023 那幾期股數 2.28 萬、每股盈餘 13,824 元，兩者相乘剛好等於
+       * 淨利，自洽到任何跨科目檢查都抓不到。只能靠同一列的其他期間看出來。
+       *
+       * 基準取**最近四期**的中位數 —— 不能用整列的中位數，也不能用錨值的中位數。
+       * SiriusXM 併購前後是兩個不同實體，18 期裡有 9 期是併購前基礎，兩種中位數
+       * 都會被前半段拉走，反過來把後半段正確的 3.37 億全部刪掉。最近幾期是使用者
+       * 真正在看的、也是前面被每股盈餘驗證過的，拿它當基準在構造上就不可能誤刪近期資料。
+       * 併購前那段換算不回來（不是單位問題，是實體不同），n/a 才誠實。
+       */
+      const recent = sorted
+        .map((p) => li.values[p]?.value)
+        .filter((v): v is number => v != null && v !== 0)
+        .slice(-4)
+        .map(Math.abs)
+        .sort((x, y) => x - y)
+      if (recent.length >= 3) {
+        const med = recent[Math.floor(recent.length / 2)]
+        for (const p of sorted) {
+          const v = li.values[p]?.value
+          if (v == null || v === 0) continue
+          const r = Math.abs(v) / med
+          if (r > 100 || r < 0.01) delete li.values[p]
+        }
+      }
+    }
+
+    /**
+     * 每股盈餘的同一種病：SiriusXM 申報 13,824 元、Loar 申報 −36,860 元。
+     * 錨用「淨利 ÷ 加權平均股數」（股數這時已經修好了）。差 10 倍以上就不採用，
+     * 剛好是 1000 的次方才還原數量級 —— 其餘留白。
+     * 容差留得寬是因為每股盈餘的分子本來就不完全等於淨利（歸屬母公司、特別股股利、
+     * 兩級法），差個一兩成很正常，那不是錯。
+     */
+    const epsRows = [byId.get('eps_basic'), byId.get('eps_diluted')]
+    for (const li of epsRows) {
+      if (!li) continue
+      for (const p of allPeriods) {
+        const cell = li.values[p]
+        const v = cell?.value
+        const n = ni?.values[p]?.value
+        const sh = wBasic?.values[p]?.value ?? wDil?.values[p]?.value
+        if (v == null || v === 0 || n == null || sh == null || sh === 0) continue
+        if (cell?.sourceTag?.startsWith('推算')) continue // 本來就是這樣算出來的
+        const a = Math.abs(n / sh)
+        if (a === 0) continue
+        const r = Math.abs(v) / a
+        if (r <= 10 && r >= 0.1) continue
+        const e = Math.round(Math.log10(r) / 3) * 3
+        if (e !== 0 && Math.abs(Math.abs(v) / 10 ** e / a - 1) <= 0.3) {
+          li.values[p] = { ...cell, value: v / 10 ** e, isEstimated: true, sourceTag: '申報單位還原' }
+        } else {
+          delete li.values[p]
         }
       }
     }
@@ -518,9 +952,17 @@ export async function getFinancials(
     }
   }
 
-  // 資產負債表科目 + 加權平均股數沿用前期補「內部缺口」：部分公司（如 Apple 租賃資產）
-  // 只在年報申報，10-Q 不報 → 季中缺。BS/股數為緩慢變動，沿用最近一期為合理估計。
-  // 只補首末已知值之間的洞，不外推頭尾。放在 derive 之前 → EPS 可用補好的股數推算。
+  // 資產負債表科目 + 加權平均股數沿用前期：部分公司（如 Apple 租賃資產）只在年報申報，
+  // 10-Q 不報 → 季中缺。BS/股數為緩慢變動，沿用最近一期為合理估計。
+  //
+  // 最多沿用 CARRY_MAX 季，且尾端也補（不只補中間的洞）：
+  //   - 尾端要補的理由和中間一樣。只補中間會讓「只在年報揭露租賃」的公司，
+  //     最新那一兩欄變 n/a，流動比率／速動比率跟著整欄沒有 —— 而那正是使用者最看的一欄。
+  //     實測 150 家有 41 家使用權資產卡在這個情況。
+  //   - 但要有上限。沒有上限時，某個科目停報後會一路沿用到序列末端
+  //     （實測 ASTS 存貨、BAM 應付帳款被拖了 7 季），拿兩年前的數字當本季就不合理了。
+  // 放在 derive 之前 → EPS 可用補好的股數推算。
+  const CARRY_MAX = 3
   {
     const sorted = [...allPeriods].sort()
     for (const concept of map.concepts) {
@@ -532,10 +974,17 @@ export async function getFinancials(
         .filter((i) => i >= 0)
       if (knownIdx.length < 2) continue
       let prev: CellValue | null = null
-      for (let i = knownIdx[0]; i <= knownIdx[knownIdx.length - 1]; i++) {
+      let lag = 0
+      const end = Math.min(sorted.length - 1, knownIdx[knownIdx.length - 1] + CARRY_MAX)
+      for (let i = knownIdx[0]; i <= end; i++) {
         const p = sorted[i]
-        if (li.values[p]?.value != null) prev = li.values[p]
-        else if (prev != null) {
+        if (li.values[p]?.value != null) {
+          prev = li.values[p]
+          lag = 0
+          continue
+        }
+        if (++lag > CARRY_MAX) prev = null
+        if (prev != null) {
           li.values[p] = {
             value: prev.value,
             isEstimated: true,
@@ -579,7 +1028,7 @@ export async function getFinancials(
   // 上市／SPAC 借殼前偵測：股數序列早期出現一次「非分割」的大跳增（借殼或 IPO 增資），
   // 之前的期屬私有公司股數基礎，與上市後不可比（EPS 等會嚴重失真）→ 清為 n/a 並標註。
   let preIpoBefore: string | undefined
-  if (!useIfrs) {
+  if (!annualMode) {
     const sharesLi = byId.get('shares_basic') ?? byId.get('shares_diluted')
     const seq = [...allPeriods]
       .sort()
@@ -604,13 +1053,18 @@ export async function getFinancials(
     }
   }
 
+  if (allPeriods.size === 0) {
+    console.warn('[financials] 產不出任何期間', ref.ticker, ref.cik10, {
+      fyeMonth, annualMode, fromFy, toFy, nsTags: Object.keys(ns).length, useIfrs,
+    })
+  }
   const periods = [...allPeriods].sort() // FY2023 Q1 < FY2023 Q2 < ...（年度模式 FY2023 < FY2024）字典序即正確
   return {
     company: facts.entityName || ref.name,
     cik: ref.cik10,
     ticker: ref.ticker,
     mapVersion: map.version,
-    periodicity: useIfrs ? 'annual' : 'quarterly',
+    periodicity: annualMode ? 'annual' : 'quarterly',
     currency,
     periods,
     lineItems,
@@ -619,17 +1073,29 @@ export async function getFinancials(
   }
 }
 
-/** IFRS namespace 內最常見的幣別 unit key（排除 shares/pure）。有 USD 便利換算就回 USD。 */
+/**
+ * 申報幣別＝事實筆數最多的那個幣別 unit key。
+ *
+ * ⚠️ 不能「有 USD 就用 USD」。20-F 的 USD 便利換算只是附錄，涵蓋率很低：
+ * TSM 的 USD 只有 TWD 的 22%、BABA 的 USD 只有 CNY 的 20%、SAP 的 USD 只有
+ * 2017 一年（EUR 有 2021–2025）。舊寫法 `if (count.has('USD')) return 'USD'`
+ * 讓 SAP／UL 整張表**一格都沒有、也沒有任何訊息**。
+ *
+ * ⚠️ 也不能只對 IFRS filer 做這件事。TM（日圓）、BABA（人民幣）、ASML（歐元）
+ * 都是用 **us-gaap 標籤但以本國貨幣申報**，原本 us-gaap 一律寫死 USD，同樣整張空白。
+ *
+ * 所以：一律取申報幣別、一律只用這一種幣別（見 unitPrefs），前端與 Excel 都標出幣別。
+ * 純美國公司只有 USD，行為不變。
+ */
 function inferCurrency(ns: FactTags): string {
   const count = new Map<string, number>()
   for (const tag of Object.values(ns)) {
-    for (const u of Object.keys(tag.units)) {
-      if (/^[A-Z]{3}$/.test(u)) count.set(u, (count.get(u) ?? 0) + 1)
+    for (const [u, points] of Object.entries(tag.units)) {
+      if (/^[A-Z]{3}$/.test(u)) count.set(u, (count.get(u) ?? 0) + points.length)
     }
   }
-  if (count.has('USD')) return 'USD'
   let bestU = 'USD'
-  let bestN = 0
+  let bestN = -1
   for (const [u, n] of count) if (n > bestN) { bestN = n; bestU = u }
   return bestU
 }

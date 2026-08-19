@@ -26,3 +26,7 @@ nv.json
 tools/*.txt
 
 .env*.local
+
+# 全 Russell 1000 的逐檔掃描快取（api_sweep.py / segment_sweep.py 產出）
+# 一萬多個 .json.gz、180MB，純本機驗證用，不進版控也不上傳部署
+tools/sweep_out/

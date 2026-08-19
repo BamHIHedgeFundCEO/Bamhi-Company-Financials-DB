@@ -82,6 +82,35 @@ def _init_sheet(ws, periods: list[str], th: dict, tab_color: str | None = None):
         ws.column_dimensions[get_column_letter(FIRST_DATA_COL + i)].width = 14
 
 
+def _origin_note(v: dict) -> str:
+    """
+    「原始資料」分頁那一欄的人話說明。
+
+    原本無論哪種估算都寫「Q4推算＝全年−前三季」—— 沿用前期、科目間推算的格子也被
+    標成 Q4 推算，逐格查證時會對不上。改成看 sourceTag 判斷實際來源。
+    """
+    if not v.get("isEstimated"):
+        return "財報直接申報值"
+    tag = str(v.get("sourceTag") or "")
+    if tag.startswith("推算："):
+        return f"由其他科目計算：{tag[3:]}"
+    if "沿用前期" in tag:
+        return "該季未申報，沿用前一期餘額（資產負債表科目）"
+    if "缺申報視為 0" in tag or "含前期未申報金額" in tag:
+        return tag
+    if tag.startswith("申報封面各股別股數"):
+        # 多股別公司（波克夏、Visa、ADT…）：companyfacts 收不到帶股別維度的股數，
+        # 這格取自申報封面、依括號裡的方式合併。產生方式見 tools/class_shares.py
+        return f"多股別公司，取自申報封面：{tag[len('申報封面各股別股數（'):-1]}"
+    if "加權平均股數" in tag:
+        return "該期未申報期末股數，以同期加權平均股數近似"
+    if tag == "申報單位還原":
+        # 申報端把股數的單位寫錯（麥當勞把 7.09 億股寫成「709.1」），
+        # 以「淨利÷每股盈餘」為錨還原數量級。見 financials.ts 的股數單位防呆
+        return "公司申報的單位有誤（差 1000 的次方），已還原數量級"
+    return "Q4推算＝全年−前三季（或由累計值差分還原）"
+
+
 def build_workbook(payload: dict) -> bytes:
     fin = payload["financials"]
     periods: list[str] = fin["periods"]
@@ -125,11 +154,17 @@ def build_workbook(payload: dict) -> bytes:
         ("資料來源", "SEC EDGAR companyfacts XBRL API"),
         ("生成時間 (UTC)", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")),
         ("對照表版本", fin["mapVersion"]),
-        ("「推算」是什麼", "—（年度資料無推算）" if annual
-         else "美股公司一年只申報 3 份 10-Q + 1 份 10-K：第四季沒有單獨的季報，"
-              "SEC 上不存在「Q4 單季」這個數字。本檔以 全年 − Q1 − Q2 − Q3 計算出 Q4，"
-              "數學上準確、非估計；橘底僅提醒「此數字不是直接抄自某份財報」。"
-              "現金流量表的 Q2/Q3 亦由累計值差分還原（10-Q 只申報年初至今累計）。"),
+        ("橘底是什麼", "橘底＝此數字不是直接抄自某一份財報，而是由本站計算得出。共四種："
+         "①Q4 單季＝全年 − Q1 − Q2 − Q3（SEC 上不存在「Q4 單季」這個數字，因為一年只有 "
+         "3 份 10-Q + 1 份 10-K）；②現金流量表 Q2/Q3 由累計值差分還原（10-Q 只申報年初至今累計）；"
+         "③資產負債表科目該季未申報時沿用前一期（最多沿用 3 季）；④科目間推算"
+         "（如 銀行的營業收入＝淨利息收入＋非利息收入、負債總計＝資產−權益）。"
+         "另外，多股別公司（波克夏、Visa 等）的期末股數 SEC 的 API 收不到，"
+         "改由申報封面各股別合併而來，也標成橘底。"
+         "每一格實際屬於哪一種，「原始資料」分頁逐格註明。"
+         if not annual else
+         "橘底＝此數字由本站計算得出而非直接抄自財報（年度資料無 Q4 推算，"
+         "但仍可能有科目間推算或沿用前期）。逐格說明見「原始資料」分頁。"),
         ("「n/a」是什麼", "該公司該期間沒有申報此科目——通常是公司本來就沒有這個項目"
          "（如未配息、未買回庫藏股、費用未拆分），不代表數值為零。可對照「原始資料」分頁查證。"),
         *([("上市前資料", f"{pre_ipo} 之前的季度已顯示為 n/a。此公司經 SPAC 借殼／IPO 上市，"
@@ -213,7 +248,7 @@ def build_workbook(payload: dict) -> bytes:
                     raw_rows.append((li["zh"], li["en"], p, v["value"],
                                      v.get("sourceTag"), v.get("accessionOrForm"),
                                      v.get("origFiled"), v.get("filed"), v.get("endDate"), li["unit"],
-                                     "Q4推算＝全年−前三季" if v.get("isEstimated") else "財報直接申報值"))
+                                     _origin_note(v)))
             if any(vv.get("value") is not None for vv in li["values"].values()):
                 yf = {"USD": "money", "shares": None, "USD/shares": None}.get(li["unit"], "money")
                 auto_specs.append({
@@ -428,6 +463,11 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
     """
     from openpyxl.utils import get_column_letter as g
 
+    # 缺值一律寫 n/a。這行原本漏了：只要某一季沒股價（Yahoo 月線缺月）或該公司
+    # 沒有期末股數（多股別公司在 companyfacts 拿不到），下面兩處 fallback 就會
+    # NameError，整本活頁簿 500 —— 不是少一格，是整份產不出來（ACI 實測）。
+    missing = th["layout"]["missing_value"]
+
     vws = wb.create_sheet("估值倍數")
     vws.sheet_view.showGridLines = False
     vws.sheet_properties.tabColor = "C25A18"
@@ -457,6 +497,13 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
         return f"'{sheet}'!{g(col)}{row}"
 
     def ttm(sheet, row, col):
+        # 使用者要的起始季剛好是公司最早有資料的季時（麥當勞 from=2022Q1，資料也是
+        # 從 FY2022 Q1 開始）→ lookback 是 0，前面根本沒有四季可加，`col - 3` 會算出
+        # 欄索引 0 讓 openpyxl 直接拋 ValueError，整本活頁簿 500。
+        # 回 NA() 讓外層的 IFERROR 把該格變成 n/a。**不能**改成「有幾季加幾季」：
+        # 那會拿兩季的營收當成一年，本益比／股價營收比憑空縮一半，而且看起來完全正常。
+        if col - 3 < FIRST_DATA_COL:
+            return "NA()"
         return f"SUM('{sheet}'!{g(col - 3)}{row}:{g(col)}{row})"
 
     px = valuation.get("currentPrice")
@@ -612,13 +659,17 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
         L = g(col)
         mc = f"{L}{rrows['mc']}"
         ev = f"{L}{rrows['ev']}"
+        # 市值與 EV 也要包 IFERROR：被引用的格子可能是 "n/a" 文字（多股別公司在
+        # companyfacts 沒有期末股數 —— BRK.B、V、SPOT…），數字乘文字在 Excel 是
+        # #VALUE!，整欄跳錯誤碼。下游的 P/E、P/S 有 IFERROR 所以本來就顯示 n/a，
+        # 只有這兩列漏了。
         cells = {
-            "mc": f"={L}{pr}*{ref(so_s, so_r, col)}" if so_s else None,
+            "mc": f'=IFERROR({L}{pr}*{ref(so_s, so_r, col)},"n/a")' if so_s else None,
             "pe": f'=IFERROR({mc}/{ttm(ni_s, ni_r, col)},"n/a")' if ni_s else None,
             "ps": f'=IFERROR({mc}/{ttm(rev_s, rev_r, col)},"n/a")' if rev_s else None,
             "pb": f'=IFERROR({mc}/{ref(eq_s, eq_r, col)},"n/a")' if eq_s else None,
             "pfcf": f'=IFERROR({mc}/{ttm(fcf_s, fcf_r, col)},"n/a")' if fcf_s else None,
-            "ev": f"={mc}+{ref(nd_s, nd_r, col)}" if nd_s else None,
+            "ev": f'=IFERROR({mc}+{ref(nd_s, nd_r, col)},"n/a")' if nd_s else None,
             "eve": f'=IFERROR({ev}/{ttm(ebitda_s, ebitda_r, col)},"n/a")' if ebitda_s else None,
         }
         for key, f in cells.items():

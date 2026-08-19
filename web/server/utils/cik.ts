@@ -1,4 +1,4 @@
-import { secFetchJson } from './secFetch'
+import { secFetchJson, secFetchText } from './secFetch'
 
 /**
  * ticker ↔ CIK 雙向對照。
@@ -53,12 +53,62 @@ async function load(): Promise<Map<string, CompanyRef>> {
   return map
 }
 
+/**
+ * 名冊漏收時的退路。
+ *
+ * SEC 的 ticker 名冊會漏 —— 實測 `company_tickers.json` 與
+ * `company_tickers_exchange.json` **都沒有 AEP**（American Electric Power，
+ * 仍在 Nasdaq 交易、1005 筆申報、submissions 自己的 `tickers` 欄就寫著 AEP）。
+ * 名冊漏一家就整家查不到，所以改問 EDGAR 的公司查詢：它吃 ticker、回 atom，
+ * 裡面有 CIK 與正式名稱。
+ *
+ * 只在名冊查不到時才打，正常查詢的請求數不變。查無此 ticker 時 EDGAR 回 503
+ * 而不是 404，所以一律把例外當作查無。結果（含查無）快取 24h，避免使用者
+ * 打錯字就反覆去問。
+ *
+ * 這裡的 `name` 只是備援 —— 端點顯示的是 companyfacts 的 `entityName`
+ * （見 `financials.ts`），所以不必為了名字再去查 submissions。
+ *
+ * ⚠️ 擋不掉已下市的公司。SEC 沒有可靠的上市狀態：實測 JHG、NSA 仍在交易，
+ * submissions 的 `tickers` / `exchanges` 卻都是空的，拿它當判準會誤殺。四家
+ * 名冊漏收的公司也都還在按時申報，「有沒有在申報」同樣分不出來。
+ */
+const fallback = new Map<string, { at: number; ref: CompanyRef | null }>()
+
+async function resolveViaEdgar(ticker: string): Promise<CompanyRef | null> {
+  const hit = fallback.get(ticker)
+  if (hit && Date.now() - hit.at < TTL) return hit.ref
+
+  let ref: CompanyRef | null = null
+  try {
+    const xml = await secFetchText(
+      'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany'
+        + `&ticker=${encodeURIComponent(ticker)}&type=10-K&count=1&output=atom`,
+    )
+    const cik = Number(/<cik>(\d+)<\/cik>/.exec(xml)?.[1])
+    if (cik) {
+      ref = {
+        cik,
+        cik10: pad10(cik),
+        ticker,
+        tickers: [ticker],
+        name: /<conformed-name>([^<]+)<\/conformed-name>/.exec(xml)?.[1]?.trim() || ticker,
+      }
+    }
+  } catch {
+    // 查無此 ticker → EDGAR 回 503；網路錯誤也走這裡，兩者都當查無
+  }
+  fallback.set(ticker, { at: Date.now(), ref })
+  return ref
+}
+
 /** 查無回 null（呼叫端負責給明確錯誤訊息，不回空陣列了事） */
 export async function resolveTicker(input: string): Promise<CompanyRef | null> {
   const map = await load()
   const t = input.trim().toUpperCase()
   // BRK.A → SEC 檔內為 BRK-A；也接受使用者直接輸入 BRK-A
-  return map.get(t) ?? map.get(t.replace(/\./g, '-')) ?? map.get(t.replace(/-/g, '.')) ?? null
+  return map.get(t) ?? map.get(t.replace(/\./g, '-')) ?? map.get(t.replace(/-/g, '.'))
+    ?? (await resolveViaEdgar(t))
 }
 
 /* ── 繼任發行人（successor issuer） ─────────────────────────────────────── */
@@ -69,6 +119,8 @@ const MAX_CANDIDATES = 3
 /** 只取判定要用的兩個欄位，避免 import filings.ts 造成循環相依 */
 interface SubsLite {
   name: string
+  /** SEC 認定的掛牌代號。合併申報裡的營運合夥／子公司這裡是空陣列 */
+  tickers?: string[]
   filings: { recent: { form: string[]; accessionNumber: string[] } }
 }
 
@@ -134,6 +186,64 @@ export async function predecessorOf(ref: CompanyRef): Promise<CompanyRef | null>
 }
 
 /**
+ * SEC 名冊把代號指到「不掛牌的共同申報人」時，換回真正掛牌的那個實體。
+ *
+ * 2026-08 實測：`company_tickers.json` 與 `company_tickers_exchange.json` **都**把
+ * EQR 指向 ERP Operating LP（CIK 931182）。那是 Equity Residential（更名為 Vivmark
+ * Residential，CIK 906107）底下的營運合夥 —— 兩者一直是合併申報，但只有母公司在標
+ * XBRL，931182 的 companyfacts 停在 2015 年。照名冊走的話整個頁面一格數字都沒有。
+ *
+ * 判準用 SEC 自己的欄位，不猜：`submissions.tickers` 空陣列＝這個實體沒有掛牌代號。
+ * 成立時才去翻最新一份 10-K/10-Q 的**申報表頭**（列出所有共同申報人的結構化檔，
+ * 不是財報 HTML），挑出自報有這個代號的那一個。
+ *
+ * 只在極少數情況觸發，多花 2 次請求，submissions 有 24h 快取。
+ */
+export async function listedSiblingOf(ref: CompanyRef): Promise<CompanyRef | null> {
+  let sub: SubsLite
+  try {
+    sub = await subsOf(ref.cik10)
+  } catch {
+    return null
+  }
+  if (sub.tickers?.length) return null // SEC 自己說它有掛牌 → 名冊沒指錯
+
+  const recent = sub.filings.recent
+  const i = recent.form.findIndex((f) => f.startsWith('10-'))
+  if (i < 0) return null
+  const acc = recent.accessionNumber[i]
+  const bare = acc.replace(/-/g, '')
+  let header: string
+  try {
+    header = await secFetchText(
+      `https://www.sec.gov/Archives/edgar/data/${ref.cik}/${bare}/${acc}-index-headers.html`,
+    )
+  } catch {
+    return null
+  }
+
+  const want = ref.ticker.toUpperCase()
+  for (const m of header.matchAll(/CENTRAL INDEX KEY:\s*(\d{10})/g)) {
+    const cand = m[1]
+    if (cand === ref.cik10) continue
+    try {
+      const cs = await subsOf(cand)
+      if (!cs.tickers?.some((t) => t.toUpperCase() === want)) continue
+      return {
+        cik: Number(cand),
+        cik10: cand,
+        ticker: ref.ticker,
+        tickers: cs.tickers!,
+        name: cs.name || ref.name,
+      }
+    } catch {
+      // 候選抓不到 submissions → 試下一個
+    }
+  }
+  return null
+}
+
+/**
  * 端點統一入口：解析 ticker 並在偵測到控股公司重組時改指前身 CIK。
  * submissions 有 24h 行程內快取（見 secFetch），重組是極少數，
  * 正常公司實際只多一次 submissions 請求，且後續查詢直接命中快取。
@@ -141,5 +251,6 @@ export async function predecessorOf(ref: CompanyRef): Promise<CompanyRef | null>
 export async function resolveCompany(input: string): Promise<CompanyRef | null> {
   const ref = await resolveTicker(input)
   if (!ref) return null
-  return (await predecessorOf(ref)) ?? ref
+  const listed = (await listedSiblingOf(ref)) ?? ref
+  return (await predecessorOf(listed)) ?? listed
 }

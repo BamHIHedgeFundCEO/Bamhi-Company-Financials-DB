@@ -11,6 +11,26 @@ import { rateLimiter } from './rateLimiter'
 const RETRY_MAX = 3
 const cache = new Map<string, { at: number; ttl: number; data: unknown }>()
 
+/**
+ * 快取筆數上限。companyfacts 解析後單家可佔 10–30MB，無上限會把行程吃爆
+ * ——實測連查 150 家，dev server 常駐記憶體衝到 1.36GB，serverless 預設 1024MB
+ * 會直接 OOM（同一個實例會服務很多次請求，不是查完就歸零）。
+ * 只淘汰 data.sec.gov 的大回應；sec.gov/files 的 ticker 名冊小又每次請求都要用，留著。
+ */
+const BIG_CACHE_MAX = 40
+
+function evict() {
+  let big = 0
+  for (const k of cache.keys()) if (k.includes('data.sec.gov')) big++
+  // Map 依插入序迭代 → 先淘汰最舊的
+  for (const k of cache.keys()) {
+    if (big <= BIG_CACHE_MAX) return
+    if (!k.includes('data.sec.gov')) continue
+    cache.delete(k)
+    big--
+  }
+}
+
 function userAgent(): string {
   // 預設為營運者聯絡方式（SEC 合規要求）；部署環境可用 SEC_USER_AGENT 覆蓋
   return process.env.SEC_USER_AGENT || 'BamHI frank940702@gmail.com'
@@ -37,7 +57,9 @@ export async function secFetchJson<T>(url: string, ttlMs = 24 * 3600 * 1000): Pr
   if (hit && Date.now() - hit.at < hit.ttl) return hit.data as T
 
   const data = (await (await secFetchRaw(url)).json()) as T
+  cache.delete(url) // 重設插入序，讓最近用到的排在最後、最後才被淘汰
   cache.set(url, { at: Date.now(), ttl: ttlMs, data })
+  evict()
   return data
 }
 

@@ -24,7 +24,9 @@ export default defineEventHandler(async (event) => {
   const fin = clampPeriods(await getFinancials(ref, range.fromFy, range.toFy), range)
 
   const esc = (s: string) => (/[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s)
-  const header = ['科目', 'Line Item', ...fin.periods].map(esc).join(',')
+  // 幣別要跟著數字走。外國發行人是用本國貨幣申報的（TM 日圓、BABA 人民幣、
+  // ASML 歐元），沒標的話一串沒有單位的數字會被當成美元讀。
+  const header = [`科目（幣別：${fin.currency}）`, 'Line Item', ...fin.periods].map(esc).join(',')
   const rows = fin.lineItems
     .filter((li) => li.statement === statement)
     .map((li) =>

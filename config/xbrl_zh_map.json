@@ -1,5 +1,5 @@
 {
- "version": "1.3",
+ "version": "1.4",
  "updated": "2026-08-17",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -17,13 +17,18 @@
     "SalesRevenueNet",
     "SalesRevenueGoodsNet",
     "SalesRevenueServicesNet",
-    "RevenuesNetOfInterestExpense"
+    "RevenuesNetOfInterestExpense",
+    "RegulatedAndUnregulatedOperatingRevenue",
+    "OperatingLeaseLeaseIncome",
+    "OperatingLeasesIncomeStatementLeaseRevenue"
    ],
    "tags_ifrs": [
     "Revenue",
     "RevenueFromContractsWithCustomers",
     "RevenueFromSaleOfGoods"
-   ]
+   ],
+   "note": "銀行沒有單一「總營收」標籤。JPM 有 RevenuesNetOfInterestExpense，但 Truist／Regions／Synchrony／BNY 等 12 家沒有，只有淨利息收入與非利息收入兩條。業界慣例的銀行營收就是兩者相加，定義與 RevenuesNetOfInterestExpense 相同（皆為扣除利息費用後），所以 derive 出來的數字與 JPM 可比。不可以只拿 InterestIncomeExpenseNet 當營收：那只是淨利息收入，會少算約四成而且看起來完全正常。",
+   "derive": "interest_income_net + noninterest_income"
   },
   {
    "id": "cogs",
@@ -68,7 +73,8 @@
    "sign": "reported_positive",
    "tags": [
     "ResearchAndDevelopmentExpense",
-    "ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost"
+    "ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost",
+    "ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost"
    ],
    "tags_ifrs": [
     "ResearchAndDevelopmentExpense"
@@ -115,11 +121,10 @@
    "statement": "IS",
    "unit": "USD",
    "sign": "reported_positive",
+   "note": "只收 OperatingExpenses：CostsAndExpenses / BenefitsLossesAndExpenses 是「總成本費用」（含營業成本），定義相反。全市場實測 CostsAndExpenses 有 86% 對得上「營收−營業利益」、只有 9% 對得上「毛利−營業利益」，混進同一列會讓 AAPL（309 億，不含成本）與 ABBV（461 億，含成本）沒得比。缺的期改用恆等式推算並標記",
+   "derive": "gross_profit - operating_income",
    "tags": [
-    "OperatingExpenses",
-    "CostsAndExpenses",
-    "OperatingCostsAndExpenses",
-    "BenefitsLossesAndExpenses"
+    "OperatingExpenses"
    ],
    "tags_ifrs": [
     "OperatingExpenseExcludingCostOfSales",
@@ -147,15 +152,46 @@
    "statement": "IS",
    "unit": "USD",
    "sign": "reported_positive",
+   "note": "InterestIncomeExpenseNet 系列是「利息收入(費用)淨額」，正值代表淨收入，正負號與 InterestExpense 相反。實測 248 家（1/4）走這兩個標籤，不翻號的話同一列會混著兩種慣例（AAON 顯示 -619 萬、AGNC 顯示 +3.05 億，都是「利息費用」），任何跨公司比較都會錯。列在 negate_tags 的標籤取值後乘 -1。",
    "tags": [
     "InterestExpense",
+    "InterestExpenseOperating",
     "InterestExpenseNonoperating",
     "InterestExpenseDebt",
     "InterestIncomeExpenseNet",
     "InterestIncomeExpenseNonoperatingNet"
    ],
+   "negate_tags": [
+    "InterestIncomeExpenseNet",
+    "InterestIncomeExpenseNonoperatingNet"
+   ],
    "tags_ifrs": [
     "FinanceCosts"
+   ]
+  },
+  {
+   "id": "interest_income_net",
+   "zh": "淨利息收入",
+   "en": "Net Interest Income",
+   "statement": "IS",
+   "unit": "USD",
+   "sign": "natural",
+   "note": "銀行與金融業專有：利息收入減利息費用。非金融公司不申報此項，整列 n/a 是正常的。與非利息收入相加＝銀行的營業收入。",
+   "tags": [
+    "InterestIncomeExpenseNet",
+    "InterestRevenueExpenseNet"
+   ]
+  },
+  {
+   "id": "noninterest_income",
+   "zh": "非利息收入",
+   "en": "Noninterest Income",
+   "statement": "IS",
+   "unit": "USD",
+   "sign": "natural",
+   "note": "銀行與金融業專有：手續費、財富管理、交易與投資等非放款收入。非金融公司不申報此項，整列 n/a 是正常的。",
+   "tags": [
+    "NoninterestIncome"
    ]
   },
   {
@@ -245,6 +281,9 @@
    "sign": "natural",
    "tags": [
     "WeightedAverageNumberOfSharesOutstandingBasic"
+   ],
+   "tags_ifrs": [
+    "WeightedAverageShares"
    ]
   },
   {
@@ -256,6 +295,9 @@
    "sign": "natural",
    "tags": [
     "WeightedAverageNumberOfDilutedSharesOutstanding"
+   ],
+   "tags_ifrs": [
+    "AdjustedWeightedAverageShares"
    ]
   },
   {
@@ -265,11 +307,14 @@
    "statement": "BS",
    "unit": "shares",
    "sign": "natural",
-   "note": "期末在外流通股數（估值/每股用，非加權平均；TradingView 亦採此）",
+   "note": "期末在外流通股數（估值/每股用，非加權平均；TradingView 亦採此）。不可加 CommonStockSharesIssued：已發行股數含庫藏股，麥當勞 16.6 億 vs 實際流通 7.08 億，市值會高估 2.3 倍",
    "tags": [
     "CommonStockSharesOutstanding",
-    "CommonStockSharesIssued",
     "EntityCommonStockSharesOutstanding"
+   ],
+   "tags_ifrs": [
+    "NumberOfSharesOutstanding",
+    "NumberOfSharesIssuedAndFullyPaid"
    ]
   },
   {
@@ -338,8 +383,7 @@
    "tags_ifrs": [
     "CurrentFinancialAssetsAtFairValueThroughProfitOrLoss",
     "CurrentFinancialAssetsAtAmortisedCost"
-   ],
-   "zero_if_absent": true
+   ]
   },
   {
    "id": "accounts_receivable",
@@ -368,7 +412,8 @@
    "unit": "USD",
    "sign": "natural",
    "tags": [
-    "InventoryNet"
+    "InventoryNet",
+    "InventoryNetOfAllowancesCustomerAdvancesAndProgressBillings"
    ],
    "tags_ifrs": [
     "Inventories"
@@ -429,8 +474,7 @@
    ],
    "tags_ifrs": [
     "Goodwill"
-   ],
-   "zero_if_absent": true
+   ]
   },
   {
    "id": "intangibles",
@@ -446,8 +490,7 @@
    "tags_ifrs": [
     "IntangibleAssetsOtherThanGoodwill",
     "IntangibleAssetsAndGoodwill"
-   ],
-   "zero_if_absent": true
+   ]
   },
   {
    "id": "total_assets",
@@ -473,7 +516,9 @@
    "tags": [
     "AccountsPayableCurrent",
     "AccountsPayableAndAccruedLiabilitiesCurrent",
-    "AccountsPayableTradeCurrent"
+    "AccountsPayableTradeCurrent",
+    "AccountsPayableCurrentAndNoncurrent",
+    "AccountsPayableTradeCurrentAndNoncurrent"
    ],
    "tags_ifrs": [
     "TradeAndOtherCurrentPayablesToTradeSuppliers",
@@ -497,8 +542,7 @@
    "tags_ifrs": [
     "CurrentContractLiabilities",
     "ContractLiabilities"
-   ],
-   "zero_if_absent": true
+   ]
   },
   {
    "id": "short_term_debt",
@@ -518,8 +562,7 @@
     "ShorttermBorrowings",
     "CurrentPortionOfLongtermBorrowings",
     "CurrentBondsIssuedAndCurrentPortionOfNoncurrentBondsIssued"
-   ],
-   "zero_if_absent": true
+   ]
   },
   {
    "id": "current_liabilities",
@@ -551,8 +594,7 @@
    "tags_ifrs": [
     "NoncurrentPortionOfNoncurrentBondsIssued",
     "LongtermBorrowings"
-   ],
-   "zero_if_absent": true
+   ]
   },
   {
    "id": "operating_lease_liab_nc",
@@ -626,8 +668,7 @@
    ],
    "tags_ifrs": [
     "TreasuryShares"
-   ],
-   "zero_if_absent": true
+   ]
   },
   {
    "id": "cfo",

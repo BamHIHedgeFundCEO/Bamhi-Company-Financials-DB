@@ -1,0 +1,8 @@
+# 部署不需要、而且會拖垮上傳的東西。
+# tools/sweep_out 是全 Russell 1000 的逐檔掃描快取（一萬多個 .json.gz、180MB），
+# 純本機驗證用；不排除的話 vercel deploy 會撞上「單次上傳超過 5000 個檔」的限制。
+tools/sweep_out
+tools/__pycache__
+**/__pycache__
+.env.local
+docs

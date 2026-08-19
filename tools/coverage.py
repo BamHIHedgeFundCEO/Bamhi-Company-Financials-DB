@@ -61,9 +61,15 @@ def days(p: dict):
     return (date.fromisoformat(p["end"]) - date.fromisoformat(p["start"])).days
 
 
+# dei 不能漏：`EntityCommonStockSharesOutstanding`（期末流通股數）只在 dei 裡，
+# 只找 us-gaap 會把 ACN 這種公司誤報成缺股數 —— 實測全市場誤報 97 家。
+# 管線本身有處理（financials.ts 會從 dei 補期末股數），是這個診斷工具漏看。
+NAMESPACES = ("us-gaap", "ifrs-full", "dei")
+
+
 def tag_has_data(facts: dict, tag: str, unit_prefs: list[str]) -> tuple[bool, str, float]:
     """該標籤是否有近年資料。回傳 (有無, 最新期末, 最新值)。"""
-    for ns in ("us-gaap", "ifrs-full"):
+    for ns in NAMESPACES:
         node = facts.get(ns, {}).get(tag)
         if not node:
             continue
@@ -100,7 +106,7 @@ def suggest_tags(facts: dict, concept: dict, existing: set[str]) -> list[tuple[s
         return []
     up = unit_prefs(concept["unit"])
     scored = []
-    for ns in ("us-gaap", "ifrs-full"):
+    for ns in NAMESPACES:
         for tag, node in facts.get(ns, {}).items():
             if tag in existing:
                 continue

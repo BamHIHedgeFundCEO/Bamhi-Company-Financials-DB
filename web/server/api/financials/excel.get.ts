@@ -1,6 +1,6 @@
 import { defineEventHandler, getQuery, createError, sendRedirect, setHeader } from 'h3'
 import { resolveCompany } from '../../utils/cik'
-import { getFinancials, loadMap } from '../../utils/financials'
+import { getFinancials, loadMap, loadClassSharesVersion } from '../../utils/financials'
 import { parseTickers, parseRange, clampPeriods, clampWithLookback } from '../../utils/params'
 import { computeValuation } from '../../utils/valuation'
 import { getFilings } from '../../utils/filings'
@@ -10,8 +10,8 @@ import type { SegmentsResult } from '../../utils/segments'
 /**
  * GET /api/financials/excel?ticker=AAPL&from=2021Q1&to=2026Q2
  *
- * 快取 key：{ticker}_{from}_{to}_{mapVersion}_s{segVersion}
- * （對照表或分部設定改版都會自動失效舊檔）。
+ * 快取 key：{ticker}_{from}_{to}_{mapVersion}_s{segVersion}_c{classSharesVersion}
+ * （對照表、分部設定、多股別股數預算檔改版都會自動失效舊檔）。
  * 流程：R2 已有 → 直接 302 到 R2 URL（Cloud Run 不被喚醒）；
  *       沒有 → 呼叫 Cloud Run excel-service 生成並上傳 R2，再 302。
  * 本 route 不落地任何檔案。
@@ -37,9 +37,12 @@ export default defineEventHandler(async (event) => {
 
   const mapVersion = (await loadMap()).version
   const segVersion = (await loadSegmentAxes()).version
+  // 多股別股數的預算檔重跑（新的一季）也要讓舊活頁簿失效，否則使用者下載到的
+  // 還是「期末股數 n/a、估值分頁整片空白」的那一版
+  const shVersion = (await loadClassSharesVersion()) || '0'
   const from = `${range.fromFy}Q${range.fromQ}`
   const to = `${range.toFy}Q${range.toQ}`
-  const cacheKey = `${ref.ticker}_${from}_${to}_${mapVersion}_s${segVersion}.xlsx`
+  const cacheKey = `${ref.ticker}_${from}_${to}_${mapVersion}_s${segVersion}_c${shVersion}.xlsx`
 
   // R2 命中判斷（單純的檔案存在性檢查，不是快取系統）
   const r2Base = process.env.R2_PUBLIC_BASE_URL

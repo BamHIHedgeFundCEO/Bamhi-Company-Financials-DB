@@ -42,6 +42,7 @@
   },
   "layout": {
     "freeze_panes": "C2",
-    "missing_value": "n/a"
+    "missing_value": "n/a",
+    "inapplicable_value": "—"
   }
 }

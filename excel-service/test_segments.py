@@ -13,7 +13,7 @@ from io import BytesIO
 
 from openpyxl import load_workbook
 
-from workbook import _period_label, build_workbook
+from workbook import _period_label, _structure_generations, build_workbook
 
 # 會計年度 9 月結（Apple 式）：年度兩期 + 連續四季
 ANNUAL = ["2024-09-28#A", "2025-09-27#A"]
@@ -182,6 +182,94 @@ def test_period_label() -> None:
     print("OK — 季別由會計年度結束月份回推（NVDA 1 月結 / AAPL 9 月結皆正確）")
 
 
+def _axis(members):
+    return {"zh": "軸", "en": "Axis", "concepts": ["revenue"], "members": members}
+
+
+def _m(key, periods_with_data):
+    return {"key": key, "zh": key, "en": key,
+            "values": {p: {"revenue": cell(1)} for p in periods_with_data}}
+
+
+def test_structure_generations() -> None:
+    """
+    分代只在「成員標籤整組換掉」時發生，不能被一般的分部增減觸發。
+
+    這條線是 BW 帶出來的：它在 FY2025 10-K 把三個分部併成單一分部，新舊成員互斥，
+    整張表半數格子變 n/a、合計的 SUM 還橫跨兩代。但同樣的機制若太敏感，
+    只是新增一個分部就會把表切兩半 —— 兩個方向都要鎖住。
+    """
+    ps = PERIODS  # 2 年度 + 4 季
+
+    # ① 整組換名（BW）：期間互斥 → 切兩代，且兩代的欄位不重疊
+    gens = _structure_generations(
+        _axis([_m("old_a", ps[:1]), _m("old_b", ps[:1]),
+               _m("new_a", ps[1:]), _m("new_b", ps[1:])]), ps)
+    assert len(gens) == 2, f"整組換名應切成兩代，實際 {len(gens)}"
+    assert gens[0][1] & gens[1][1] == frozenset(), "兩代的欄位必須互斥"
+    assert [sorted(m["key"] for m in g[0]) for g in gens] == [
+        ["old_a", "old_b"], ["new_a", "new_b"]], "應依最早出現的欄排序"
+
+    # ② 只是多開一個分部：舊成員的期間涵蓋新成員 → 相交 → 不切
+    gens = _structure_generations(
+        _axis([_m("always", ps), _m("added_late", ps[3:])]), ps)
+    assert len(gens) == 1, "新增分部不該把表切成兩代"
+
+    # ③ 裁撤一個分部：同理不切
+    gens = _structure_generations(
+        _axis([_m("always", ps), _m("dropped_early", ps[:2])]), ps)
+    assert len(gens) == 1, "裁撤分部不該把表切成兩代"
+
+    # ④ 只有年度揭露的軸（地區軸的常態）：未切代，但回傳的欄位只含年度欄，
+    #    季度欄才認得出是「不適用」而不是「該有卻沒有」
+    gens = _structure_generations(_axis([_m("us", ANNUAL), _m("cn", ANNUAL)]), ps)
+    assert len(gens) == 1
+    assert gens[0][1] == frozenset({0, 1}), f"只有年度揭露時欄位應只含年度欄，實際 {gens[0][1]}"
+
+    # ⑤ 零散揭露（每個成員各自一期，互不相交）不是改組，不切
+    gens = _structure_generations(
+        _axis([_m(f"one_{i}", [p]) for i, p in enumerate(ps)]), ps)
+    assert len(gens) == 1, "分出 4 代以上視為零散揭露，不該切"
+    print("OK — 改組才分代；新增／裁撤分部與零散揭露都不分代")
+
+
+def test_inapplicable_not_na() -> None:
+    """
+    不適用的格子要寫「—」而不是 n/a，且合計不能跨代 SUM。
+
+    兩者混成同一個符號的話，使用者看到滿版 n/a 會以為資料抓漏了；
+    合計跨代則是：只要哪一期兩代都揭露就會重複計算。
+    """
+    ps = PERIODS
+    seg = dict(SEGMENTS, axes=[{
+        "axis": "us-gaap:StatementBusinessSegmentsAxis", "role": "business",
+        "zh": "營運分部", "en": "Business Segments", "concepts": ["revenue"],
+        "members": [
+            member("old1", "舊一", "Old 1", {p: {"revenue": (10, False)} for p in ps[:1]}),
+            member("old2", "舊二", "Old 2", {p: {"revenue": (20, False)} for p in ps[:1]}),
+            member("new1", "新一", "New 1", {p: {"revenue": (30, False)} for p in ps[1:]}),
+        ],
+    }])
+    wb = load_workbook(BytesIO(build_workbook(
+        {"cacheKey": "t.xlsx", "financials": FIN, "segments": seg})))
+    ws = wb["分部數據"]
+
+    titles = [ws.cell(r, 1).value for r in range(1, ws.max_row + 1)]
+    assert any(t and "報導結構 1／2" in t for t in titles), f"沒有分代標題：{titles}"
+
+    grid = [[ws.cell(r, c).value for c in range(3, 3 + len(ps))]
+            for r in range(2, ws.max_row + 1)]
+    assert not any(v == "n/a" for row in grid for v in row), "不適用的格子不該寫 n/a"
+    assert any(v == "—" for row in grid for v in row), "不適用的格子應寫「—」"
+
+    # 舊結構的合計只涵蓋舊成員；不適用的欄留白，不能 SUM 出 0
+    old_total = next(row for row in grid
+                     if isinstance(row[0], str) and row[0].startswith("=SUM("))
+    assert old_total[0] == "=SUM(C5:C6)", f"合計範圍跨代了：{old_total[0]}"
+    assert old_total[1] == "—", f"不適用的欄不該放 SUM 公式（會算出 0）：{old_total[1]}"
+    print("OK — 不適用寫「—」、合計不跨代、空欄不 SUM 出假 0")
+
+
 def test_api_layer() -> None:
     """
     打真正的 /generate 端點，不是直接呼叫 build_workbook。
@@ -205,4 +293,6 @@ def test_api_layer() -> None:
 if __name__ == "__main__":
     test_period_label()
     main()
+    test_structure_generations()
+    test_inapplicable_not_na()
     test_api_layer()

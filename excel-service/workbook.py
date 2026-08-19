@@ -176,7 +176,11 @@ def build_workbook(payload: dict) -> bytes:
             "所以每家公司的列數不同。標「上層匯總」的列不計入合計，避免重複計算"
             "（如 Apple 的「產品」本身已含 iPhone／Mac／iPad）。"
             "欄位左段為年度（FY）、右段為單季（FY＋Q，均為單季而非累計）；"
-            "兩段不畫在同一張圖上，否則年度長條會比季度長條高約四倍，看起來像業績暴跌。")]
+            "兩段不畫在同一張圖上，否則年度長條會比季度長條高約四倍，看起來像業績暴跌。"
+            "分部分頁另有「—」＝該期不適用這一列，與 n/a（該揭露卻查不到）不同；"
+            "兩種情形會出現「—」：①該軸只有年度揭露（ASC 280 對地區／產品別多半不要求季度）；"
+            "②公司改組報導分部、成員標籤整組換掉，新舊結構各自成一個區塊、各自合計，"
+            "區塊標題會寫「報導結構 1／2」。")]
           if payload.get("segments", {}).get("axes") else []),
         ("圖表", "各報表分頁：前段為 chart_spec.json 定義的組合圖，後段為每一科目各一張圖。"
          "分部數據分頁：每個分部軸各一組（營收堆疊圖＋佔比／毛利率／營業利益率折線圖），"
@@ -746,6 +750,62 @@ def _period_label(key: str, fy_end_month: int | None) -> str:
     return f"FY{fy} Q{q}"
 
 
+def _structure_generations(block: dict, periods: list[str]):
+    """
+    把一個軸的成員依「有資料的期間」切成幾代報導結構。
+
+    公司改組報導分部時，成員標籤是整組換掉的（BW 在 FY2025 10-K 把三個分部併成
+    單一分部，`bw:BWRenewableSegmentMember` 等三個成員換成 `bw:BWMember`）。新舊
+    兩組在同一張表上互斥：任何一期只會有其中一組有值。全部畫成同一個區塊的話，
+    半數格子都得填 n/a，而且「合計」的 SUM 範圍會橫跨兩代 —— 現在只是因為另一代
+    剛好整欄皆空才沒算錯，一旦有一期兩代都揭露就會重複計算。
+
+    分群靠 union-find：成員的期間集合有交集就同一代。分出來的代之間必然期間不相交
+    —— 若某期同時落在兩代，那兩代裡各有一個成員在該期有值，兩者相交，早就併成
+    一代了。所以「有沒有改組」不必猜，是分群結果自己給的答案。
+
+    只是新增或裁撤一個分部**不會**被切開：那時舊成員的期間涵蓋新成員的期間，
+    兩者相交，留在同一代。分出 4 代以上視為零散揭露而非改組，不切。
+
+    回傳 [(成員 list, 該代有資料的欄序號 frozenset), ...]，依最早出現的欄排序。
+    未切分時第二個元素仍是「該軸真正有資料的欄」而不是全部欄 —— 地區軸多半只有
+    年度揭露（ASC 280 對地區資訊不要求季度），季度欄要能被認出是「不適用」。
+    """
+    presence = {m["key"]: frozenset(i for i, p in enumerate(periods) if m["values"].get(p))
+                for m in block["members"]}
+    live = [m for m in block["members"] if presence[m["key"]]]
+    all_cols = frozenset(range(len(periods)))
+    if not live:
+        return [(block["members"], all_cols)]
+    live_cols = frozenset().union(*(presence[m["key"]] for m in live))
+
+    parent = {m["key"]: m["key"] for m in live}
+
+    def find(k):
+        while parent[k] != k:
+            parent[k] = parent[parent[k]]
+            k = parent[k]
+        return k
+
+    for i, a in enumerate(live):
+        for b in live[i + 1:]:
+            if presence[a["key"]] & presence[b["key"]]:
+                ra, rb = find(a["key"]), find(b["key"])
+                if ra != rb:
+                    parent[ra] = rb
+
+    groups: dict[str, list] = {}
+    for m in live:
+        groups.setdefault(find(m["key"]), []).append(m)
+    if not 2 <= len(groups) <= 3:
+        return [(block["members"], live_cols)]
+
+    out = [(ms, frozenset().union(*(presence[m["key"]] for m in ms)))
+           for ms in groups.values()]
+    out.sort(key=lambda g: min(g[1]))
+    return out
+
+
 def _build_segment_sheet(wb, seg: dict, th: dict):
     """
     分部數據分頁 —— 這裡的數字 companyfacts API 給不了。
@@ -766,6 +826,10 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
     nf = th["number_formats"]
     pal = th["palette"]
     missing = th["layout"]["missing_value"]
+    # 「不適用」與「缺值」是兩件事，不能都寫 n/a：n/a ＝該揭露卻沒有（讀者該去查），
+    # 「—」＝該期根本不適用這一列（地區軸沒有季度揭露、或該期採用另一代分部結構）。
+    # 混成同一個符號，使用者看到滿版 n/a 會以為抓漏了。
+    inapplicable = th["layout"].get("inapplicable_value", "—")
     periods: list[str] = seg["periods"]
     ncol = len(periods)
 
@@ -801,13 +865,21 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
     axis_fill = PatternFill("solid", fgColor=pal["header_fill"].lstrip("#"))
     col_of = lambda i: get_column_letter(FIRST_DATA_COL + i)
 
-    # 圖表在所有資料區之後才畫，這裡先累積 (軸中文名, spec, [(系列名, 列號)])
-    pending_charts: list[tuple[str, dict, list[tuple[str, int]]]] = []
+    # 圖表在所有資料區之後才畫，這裡先累積 (區塊標題, 有資料的欄, spec, [(系列名, 列號)])
+    pending_charts: list[tuple[str, frozenset, dict, list[tuple[str, int]]]] = []
     seg_specs = chart_spec().get("segment_charts", [])
 
+    # 一個軸可能拆成幾代報導結構（公司改組分部時），每一代自己一個區塊、自己的合計。
+    # 欄位仍然全域對齊 —— 這樣「地區」與「營運分部」同一欄講的是同一期，跨軸看得起來。
+    display_blocks = [(block, gmembers, gcols, gi, len(gens))
+                      for block in seg["axes"]
+                      for gens in [_structure_generations(block, periods)]
+                      for gi, (gmembers, gcols) in enumerate(gens)]
+
     row = 2
-    for block in seg["axes"]:
-        c = ws.cell(row=row, column=1, value=f"{block['zh']}")
+    for block, gmembers, gcols, gi, ngen in display_blocks:
+        title = block["zh"] if ngen == 1 else f"{block['zh']}（報導結構 {gi + 1}／{ngen}）"
+        c = ws.cell(row=row, column=1, value=title)
         c.font = axis_font
         ws.cell(row=row, column=2, value=block["en"]).font = Font(
             bold=True, size=10, color=pal["header_font"].lstrip("#"))
@@ -827,7 +899,7 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
         unverified = False
 
         for cid in block["concepts"]:
-            members = [m for m in block["members"]
+            members = [m for m in gmembers
                        if any(cid in m["values"].get(p, {}) for p in periods)]
             if not members:
                 continue
@@ -867,8 +939,11 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
                     for i, p in enumerate(periods):
                         cell = m["values"].get(p, {}).get(cid)
                         v = ws.cell(row=row, column=FIRST_DATA_COL + i,
-                                    value=cell["value"] if cell else missing)
+                                    value=cell["value"] if cell
+                                    else (missing if i in gcols else inapplicable))
                         v.number_format = nf["usd"]
+                        if not cell and i not in gcols:
+                            v.font = Font(size=10, color="8C9199")
                         # verified 是三態：None = 無法校驗，不是校驗沒過。
                         # ASC 280 允許公司自訂分部利潤定義、也允許只揭露部分分部的
                         # 費用，那種科目永遠對不上合併總額（ORCL 的分部營業利益、
@@ -897,6 +972,12 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
                 ws.cell(row=row, column=2, value="Total").font = Font(size=10, color="8C9199")
                 for i in range(ncol):
                     L = col_of(i)
+                    if i not in gcols:
+                        # 該欄整段沒有這一代的資料，SUM 出來會是 0 —— 0 與「沒揭露」
+                        # 在財報上是兩回事，寧可留白
+                        t = ws.cell(row=row, column=FIRST_DATA_COL + i, value=inapplicable)
+                        t.font = Font(size=10, color="8C9199")
+                        continue
                     # 整段 SUM 再逐欄扣掉該欄的上層，比列舉子項短得多，也看得出範圍
                     f = f"=SUM({L}{first}:{L}{last})" + "".join(
                         f"-{L}{r}" for r in sorted(excl_by_col.get(i, [])))
@@ -932,13 +1013,18 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
             row += 1
             collected: list[tuple[str, int]] = []
             for k in live:
-                label = next((m for m in block["members"] if m["key"] == k), None)
+                label = next((m for m in gmembers if m["key"] == k), None)
                 name = label["zh"] if label else k
                 ws.cell(row=row, column=1, value=f"　{name}")
                 for i, L in cols:
+                    # 不適用的欄不能放公式：分母是「—」時 IFERROR 會吞成 n/a，
+                    # 讀者又分不出「不適用」與「該有卻沒有」了
+                    f = formula(k, L, i) if i in gcols else None
                     c2 = ws.cell(row=row, column=FIRST_DATA_COL + i,
-                                 value=formula(k, L, i) or missing)
+                                 value=f or (missing if i in gcols else inapplicable))
                     c2.number_format = nf["ratio"]
+                    if i not in gcols:
+                        c2.font = Font(size=10, color="8C9199")
                 collected.append((name, row))
                 row += 1
             derived_rows[title_zh] = collected
@@ -966,7 +1052,17 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
                 rows_for = [(n, r, frozenset())
                             for n, r in derived_rows.get(spec.get("block", ""), [])]
             if rows_for:
-                pending_charts.append((block["zh"], spec, rows_for))
+                pending_charts.append((title, gcols, spec, rows_for))
+
+        if gcols != frozenset(range(ncol)):
+            why = ("該期採用另一代分部結構（公司改組報導分部，成員標籤整組換掉）"
+                   if ngen > 1 else
+                   "該軸在那幾期未揭露 —— ASC 280 對地區／產品別多半只要求年度資訊")
+            legend = ws.cell(
+                row=row, column=1,
+                value=f"「{inapplicable}」＝不適用，{why}；與 n/a（該揭露卻查不到）不同。")
+            legend.font = Font(size=9, color="8C9199")
+            row += 1
 
         if unverified:
             note = ws.cell(
@@ -987,30 +1083,39 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
     # ── 圖表 ──────────────────────────────────────────────────────────────
     # 欄範圍：季度夠多就畫季度（趨勢才看得出來），否則退回年度。
     # 兩段永遠不混在同一張圖裡，理由見上方欄位排序的說明。
-    if n_quarter >= 4:
-        chart_first, chart_n, gran = FIRST_DATA_COL + n_annual, n_quarter, "季"
-    elif n_annual >= 2:
-        chart_first, chart_n, gran = FIRST_DATA_COL, n_annual, "年度"
-    else:
-        chart_first = chart_n = 0
-        gran = ""
+    #
+    # 逐區塊選段，不是整張分頁一種：地區軸多半只有年度揭露（ASC 280 不要求季度），
+    # 整頁固定畫季度的話，那幾張圖會是空白圖框 —— 有畫等於沒畫，還佔一整頁。
+    ann_cols = frozenset(range(n_annual))
+    qtr_cols = frozenset(range(n_annual, ncol))
 
-    if chart_n:
+    def chart_range(gcols):
+        if n_quarter >= 4 and (gcols & qtr_cols):
+            return FIRST_DATA_COL + n_annual, n_quarter, "季"
+        if n_annual >= 2 and (gcols & ann_cols):
+            return FIRST_DATA_COL, n_annual, "年度"
+        return 0, 0, ""
+
+    if any(chart_range(g)[1] for _, g, _, _ in pending_charts):
         hint = ws.cell(row=row, column=1,
-                       value=f"以下圖表為{gran}資料（共 {chart_n} 期）；"
-                             "堆疊圖不含上層匯總成員，否則總高度會重複計算。")
+                       value="以下圖表優先畫季資料；只有年度揭露的軸（多半是地區）改畫年度，"
+                             "粒度標在各圖標題。堆疊圖不含上層匯總成員，否則總高度會重複計算。")
         hint.font = Font(size=9, color="8C9199")
         row += 2
         step = int(th["chart"]["height_rows"] * 0.7 / 0.53) + 5
-        chart_cols = set(range(chart_first - FIRST_DATA_COL,
-                               chart_first - FIRST_DATA_COL + chart_n))
-        for axis_zh, spec, rows_for in pending_charts:
+        for axis_zh, gcols, spec, rows_for in pending_charts:
+            chart_first, chart_n, gran = chart_range(gcols)
+            # 這一代結構在任何一段都湊不出圖就別畫 —— 整張圖會是空的
+            if not chart_n:
+                continue
+            chart_cols = set(range(chart_first - FIRST_DATA_COL,
+                                   chart_first - FIRST_DATA_COL + chart_n))
             # 圖只畫其中一段欄位，成員是不是上層要看**那一段**：ORCL 的 3 大區在年度欄
             # 是上層、在季度欄是子項，畫季度圖時它就該進堆疊圖
             series = [(n, r) for n, r, pc in rows_for if not (pc & chart_cols)]
             if not series:
                 continue
-            titled = dict(spec, title=f"{axis_zh}：{spec['title']}")
+            titled = dict(spec, title=f"{axis_zh}：{spec['title']}　{gran}{chart_n} 期")
             chart = build_range_chart(ws, titled, series, chart_first, chart_n)
             if chart is None:
                 continue

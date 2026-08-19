@@ -118,7 +118,14 @@ export async function loadMap(): Promise<XbrlMap> {
 
 interface ClassShares {
   version: string
-  companies: Record<string, { ticker: string; name: string; basis: string; shares: Record<string, number> }>
+  companies: Record<string, {
+    ticker: string
+    name: string
+    basis: string
+    shares: Record<string, number>
+    /** 加權平均股數（期間結束日 → 股數）。只有無維度值本身就錯的公司才有 */
+    wavg?: { basic?: Record<string, number>; diluted?: Record<string, number> }
+  }>
 }
 
 let cachedClassShares: ClassShares | null = null
@@ -700,6 +707,35 @@ export async function getFinancials(
           if (c.endDate && !endOf.has(p)) endOf.set(p, c.endDate)
         }
       }
+
+      /**
+       * 加權平均股數也可能整列是錯的，而且錯得很難發現：Shift4 申報時把 Class C 的
+       * 133 萬股**同時也標成無維度**，companyfacts 就把它當成全公司的加權平均
+       * （實際 Class A 是 6,673 萬）。這種錯與每股盈餘自洽（因為每股盈餘也是按股別
+       * 申報、無維度那筆同樣是 Class C 的），任何跨科目檢查都抓不到。
+       * 預算檔裡的值是從申報原文逐股別加起來的，直接覆蓋。
+       */
+      for (const [kind, id] of [['basic', 'shares_basic'], ['diluted', 'shares_diluted']] as const) {
+        const byDate = cs.wavg?.[kind]
+        const li = byId.get(id)
+        if (!byDate || !li) continue
+        const ds = Object.keys(byDate).sort()
+        for (const p of allPeriods) {
+          const end = endOf.get(p)
+          if (!end) continue
+          const t = Date.parse(end)
+          const hit = ds.find((d) => Math.abs(Date.parse(d) - t) <= 5 * 86_400_000)
+          if (!hit) continue
+          li.values[p] = {
+            ...li.values[p],
+            value: byDate[hit],
+            isEstimated: true,
+            sourceTag: '申報各股別加權平均股數合計',
+            endDate: hit,
+          }
+        }
+      }
+
       const dates = Object.keys(cs.shares).sort()
       for (const p of allPeriods) {
         if (soLi.values[p]?.value != null) continue
@@ -811,7 +847,17 @@ export async function getFinancials(
       for (const p of sorted) {
         const v = li.values[p]?.value
         if (v == null || v === 0) continue
-        const a = useImpliedOnly ? impliedAt(p) : anchorAt(p)
+        // 錨分兩級。**丟不丟得看錨可不可信**，不然一定會砍錯邊：
+        //   強錨＝公司自報的每股盈餘倒推（淨利÷EPS，公司自己做的除法）
+        //   弱錨＝只是同期的加權平均股數
+        // Dexcom FY2022 期末股數 47.09 億（實際 3.9 億，市值高估 12 倍）、
+        // Crane NXT 5.67 億（實際 5,670 萬）—— 兩家都有自報 EPS，強錨說得準，該砍。
+        // 反過來 Shift4 沒有無維度的每股盈餘（它按股別申報），只剩弱錨，而它的
+        // 加權平均股數本身就是錯的（申報時把 Class C 的 133 萬也標成無維度，
+        // 實際 Class A 是 6,673 萬）→ 拿這種錨去砍正確的封面股數 7,900 萬就是
+        // 用錯的驗對的。所以弱錨只在差 100 倍以上才動手。
+        const strong = impliedAt(p)
+        const a = strong ?? (useImpliedOnly ? null : anchorAt(p))
         if (a == null) continue
         const r = Math.abs(v) / a
         if (r <= 10 && r >= 0.1) {
@@ -820,11 +866,7 @@ export async function getFinancials(
         }
         const e = Math.round(Math.log10(r) / 3) * 3 // 最近的 1000 次方
         if (e !== 0 && Math.abs(v / 10 ** e / a - 1) <= 0.2) pow.set(p, e)
-        else if (r > 100 || r < 0.01) drop.add(p)
-        // 差 10–100 倍、又不是乾淨的 1000 次方 → **原封不動**。這種落差多半是合法的
-        // 股別基礎差異（Rocket 的稀釋股數 19.7 億是全部股別，每股盈餘的分母只有
-        // Class A 的 1.41 億），而且錨自己也可能是壞的 —— Shift4 的加權平均股數整列
-        // 少寫了一個數量級，用它去砍正確的封面股數（8,124 萬）就是拿錯的驗對的。
+        else if (strong != null || r > 100 || r < 0.01) drop.add(p)
       }
 
       // 先把有錨的期改好，第二輪才有正確的鄰期可以比

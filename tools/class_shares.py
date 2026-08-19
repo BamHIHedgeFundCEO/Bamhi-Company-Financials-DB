@@ -72,6 +72,10 @@ ASCONV_RE = re.compile(r"SharesOutstanding.*AsConverted|AsConverted.*SharesOutst
 # 特別股不是普通股，不能算進普通股當量總數
 PREF_RE = re.compile(r"Preferred", re.I)
 EPS_RE = re.compile(r"^EarningsPerShare(Basic|Diluted|BasicAndDiluted)$")
+WAVG = {
+    "WeightedAverageNumberOfSharesOutstandingBasic": "basic",
+    "WeightedAverageNumberOfDilutedSharesOutstanding": "diluted",
+}
 
 
 def bare(qname: str) -> str:
@@ -153,6 +157,7 @@ def extract(parsed: dict) -> dict:
     eps_classes: set[str] = set()
     eps_by_period: dict[str, float] = {}
     ni_by_period: dict[str, float] = {}
+    wavg: dict[str, dict[str, dict[str, float]]] = {}
 
     for f in parsed["facts"]:
         if f["unit"] is None:
@@ -188,6 +193,10 @@ def extract(parsed: dict) -> dict:
         if tag == "NetIncomeLoss" and end and not dims:
             ni_by_period.setdefault(end, val)
             continue
+        # 加權平均是「期間」事實（掛 end，沒有 instant），要在 instant 檢查之前處理
+        if tag in WAVG and cls and end and not other_dims and not PREF_RE.search(cls):
+            wavg.setdefault(WAVG[tag], {}).setdefault(end, {})[cls] = val
+            continue
         if not d:
             continue
         if ASCONV_RE.search(tag) and not dims:
@@ -201,7 +210,7 @@ def extract(parsed: dict) -> dict:
             per_date[d]["classes"][cls] = val
 
     return {"per_date": dict(per_date), "ratios": ratios, "eps_classes": eps_classes,
-            "eps_by_period": eps_by_period, "ni_by_period": ni_by_period}
+            "eps_by_period": eps_by_period, "ni_by_period": ni_by_period, "wavg": wavg}
 
 
 def total_for(entry: dict, ratios: dict, eps_classes: set, implied: float | None) -> tuple[float, str] | None:
@@ -209,6 +218,13 @@ def total_for(entry: dict, ratios: dict, eps_classes: set, implied: float | None
     classes = entry.get("classes") or {}
     if not classes:
         return None
+
+    # 各股別的數值完全相同 → 那不是各股別的數字，是同一個**總數**被重複掛在每個
+    # 股別成員上（Shift4 2026 年的加權平均股數就是這樣，A 與 C 都寫 73,641,439）。
+    # 照加會變成兩倍。
+    vals = list(classes.values())
+    if len(vals) > 1 and len(set(vals)) == 1:
+        return vals[0], "公司把同一個總數掛在每個股別（不重複計算）"
 
     """
     Up-C（傘型合夥）架構的陷阱：Class B 對應的是子公司的 LLC 單位、不是母公司股權。
@@ -260,6 +276,7 @@ def run(ticker: str, limit: int) -> dict | None:
     per_date: dict[str, dict] = {}
     ratios: dict[str, float] = {}
     eps_classes: set[str] = set()
+    wavg_all: dict[str, dict[str, dict[str, float]]] = {}
     eps_p: dict[str, float] = {}
     ni_p: dict[str, float] = {}
     src: dict[str, str] = {}
@@ -279,6 +296,10 @@ def run(ticker: str, limit: int) -> dict | None:
             eps_p.setdefault(k, v)
         for k, v in got["ni_by_period"].items():
             ni_p.setdefault(k, v)
+        for kind, byd in got["wavg"].items():
+            tgt = wavg_all.setdefault(kind, {})
+            for d, byc in byd.items():
+                tgt.setdefault(d, {}).update(byc)
         for d, entry in got["per_date"].items():
             # 新的申報說了算（改記帳基礎、追溯調整都以最新為準）
             if d not in per_date or fl["filed"] > src.get(d, ""):
@@ -329,6 +350,15 @@ def run(ticker: str, limit: int) -> dict | None:
         else:
             basis = ""
 
+    # 加權平均股數：同樣用股別資訊算，供 companyfacts 的無維度值本身就錯的公司使用
+    # （Shift4 把 Class C 的 133 萬也標成無維度，API 拿到的「全公司加權平均」就是它）
+    wavg_out: dict[str, dict[str, float]] = {}
+    for kind, byd in wavg_all.items():
+        for d, byc in sorted(byd.items()):
+            got = total_for({"classes": byc}, ratios, eps_classes, implied)
+            if got:
+                wavg_out.setdefault(kind, {})[d] = got[0]
+
     if not shares:
         print(f"{ticker:8} 申報裡也找不到可用的股別股數")
         return None
@@ -337,12 +367,18 @@ def run(ticker: str, limit: int) -> dict | None:
     print(f"{ticker:8} {len(shares):2} 個日期；最新 {last} = {shares[last]:,.0f}{imp}　依據：{basis}")
     for c, v in sorted(detail.get(last, {}).items()):
         print(f"           {c:44} {v:>18,.0f}")
-    return {
+    out = {
         "ticker": ticker,
         "name": name,
         "basis": basis,
         "shares": {d: shares[d] for d in sorted(shares)},
     }
+    if wavg_out:
+        out["wavg"] = wavg_out
+        for kind, byd in wavg_out.items():
+            last_d = sorted(byd)[-1]
+            print(f"           加權平均（{kind}）{len(byd)} 期，最新 {last_d} = {byd[last_d]:,.0f}")
+    return out
 
 
 def main() -> None:

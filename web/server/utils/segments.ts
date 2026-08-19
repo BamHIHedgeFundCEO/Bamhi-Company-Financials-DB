@@ -1139,14 +1139,11 @@ export function detectGaps(
  *
  * 兩道護欄，缺一不可：
  *
- * 1. **只救「整個軸完全不存在」的公司**，而且是看合併完所有申報之後的結果。
- *    這一條是實測換來的：本來寫成逐份申報、逐科目讓位（該軸該期沒有直接事實就投影），
- *    結果 118 家掃描裡淨掉 158 格 —— DIS 的產品軸憑空多出 admission / advertising /
- *    affiliatefees…，IDA 多出 retailrevenues / wholesaleenergysales…。原因是**投影
- *    出來的成員和既有的直接成員是不同粒度的兩層**，混在同一個軸裡，上層匯總的跨期
- *    投票就會挑出一組只適用部分期間的答案，把本來對得上的欄位弄成對不上（同一個
- *    陷阱 ORCL 的地區軸已經踩過一次，見 reconcileConcept）。軸本來就有資料的時候，
- *    交叉表提供的是「更細一層的補充揭露」，那是另一個題目，不能混進來。
+ * 1. **只救「整個軸完全不存在」的公司**，而且要看合併完所有申報之後的結果。
+ *    軸本來就有直接資料時，交叉表提供的是「更細一層的補充揭露」——**那是不同粒度的
+ *    另一層**，混進同一個軸，上層匯總的跨期投票就會挑出一組只適用部分期間的答案，
+ *    把本來對得上的欄位弄成對不上（ORCL 的地區軸年報兩層、10-Q 一層，已經踩過同一個
+ *    陷阱，見 reconcileConcept）。要支援那種補充揭露是另一個題目，不能順手混進來。
  *
  * 2. **投影結果必須對得上合併總額。** 交叉表的另一個軸若含上層匯總成員，加總會變成
  *    總額的兩倍，對帳直接擋掉；WMT 的交叉表只涵蓋 Walmart US 與 Sam's Club US
@@ -1235,6 +1232,8 @@ export async function getSegments(
   /** `期間|軸` → 供應該批成員的那份申報所報的合併總額／調節項（重編過的年度不可混用） */
   const claimedTotals = new Map<string, Record<string, number> | undefined>()
   const claimedResidual = new Map<string, Record<string, Record<string, number>> | undefined>()
+  /** `期間|軸` → 交叉表已由較新的申報供應過，不再與較舊的疊加（見下方說明） */
+  const claimedCross = new Set<string>()
 
   for (const f of filings) {
     // v2：期間 key 加上 A/Q 種類後綴（見 periodKey）。
@@ -1310,17 +1309,21 @@ export async function getSegments(
         for (const [cid, v] of Object.entries(byC)) if (!(cid in cell)) cell[cid] = v
       }
     }
+    /**
+     * 交叉表也要套「新的申報說了算」，而且是**整組**採用，不能逐格聯集。
+     *
+     * 逐格聯集會出事，因為兩份申報的另一個軸成員名字不同：BW 的 2026Q2 10-Q 把
+     * 2025-06-30 標成 Parts×bw（60,535，對得上重編後的 138,856），2025Q2 自己那份
+     * 則按舊三分部拆成 Parts×Thermal 49,620 ＋ Parts×Environmental 10,309 ＋
+     * Parts×Renewable 4,851。otherKey 不撞，於是兩組都留下來，投影一加總變成
+     * 282,912 —— 對不上總額，整欄被拒、變成空白。基礎不同的兩張交叉表本來就不能疊。
+     */
     for (const [p, byAxis] of Object.entries(one.cross ?? {})) {
       const tgt = (merged.cross[p] ??= {})
       for (const [ax, byMem] of Object.entries(byAxis)) {
-        const t2 = (tgt[ax] ??= {})
-        for (const [mk, byOther] of Object.entries(byMem)) {
-          const t3 = (t2[mk] ??= {})
-          for (const [ok, byC] of Object.entries(byOther)) {
-            const cell = (t3[ok] ??= {})
-            for (const [cid, v] of Object.entries(byC)) if (!(cid in cell)) cell[cid] = v
-          }
-        }
+        if (claimedCross.has(`${p}|${ax}`)) continue
+        claimedCross.add(`${p}|${ax}`)
+        tgt[ax] = byMem
       }
     }
     for (const [k, d] of Object.entries(one.dropped ?? {})) {

@@ -1,6 +1,6 @@
 {
- "version": "1.4",
- "updated": "2026-08-17",
+ "version": "1.5",
+ "updated": "2026-08-19",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
   {
@@ -556,13 +556,22 @@
     "DebtCurrent",
     "ShortTermBorrowings",
     "ConvertibleNotesPayableCurrent",
-    "NotesPayableCurrent"
+    "NotesPayableCurrent",
+    "NotesAndLoansPayableCurrent",
+    "SeniorNotesCurrent",
+    "SecuredDebtCurrent",
+    "ConvertibleDebtCurrent",
+    "LinesOfCreditCurrent",
+    "LoansPayableCurrent",
+    "CommercialPaper",
+    "OtherShortTermBorrowings"
    ],
    "tags_ifrs": [
     "ShorttermBorrowings",
     "CurrentPortionOfLongtermBorrowings",
     "CurrentBondsIssuedAndCurrentPortionOfNoncurrentBondsIssued"
-   ]
+   ],
+   "note": "LongTermDebtCurrent／DebtCurrent 是總額標籤，排最前面；後面那幾個是各家自己拆的科目（BW 用 SeniorNotesCurrent、CME 用 LinesOfCreditCurrent、RH 用 NotesAndLoansPayableCurrent），只補前面沒有的期。全欄 n/a 多半是真的沒有短期借款，不要見到 n/a 就硬塞標籤。"
   },
   {
    "id": "current_liabilities",
@@ -589,12 +598,23 @@
     "LongTermDebtNoncurrent",
     "LongTermDebt",
     "LongTermDebtAndCapitalLeaseObligations",
-    "FinanceLeaseLiabilityNoncurrent"
+    "LongTermNotesPayable",
+    "LongTermNotesAndLoans",
+    "UnsecuredLongTermDebt",
+    "SecuredLongTermDebt",
+    "SeniorLongTermNotes",
+    "ConvertibleLongTermNotesPayable",
+    "ConvertibleDebtNoncurrent",
+    "LongTermLoansPayable",
+    "LongTermLineOfCredit",
+    "DebtLongtermAndShorttermCombinedAmount",
+    "DebtAndCapitalLeaseObligations"
    ],
    "tags_ifrs": [
     "NoncurrentPortionOfNoncurrentBondsIssued",
     "LongtermBorrowings"
-   ]
+   ],
+   "note": "不放 FinanceLeaseLiabilityNoncurrent：融資租賃不是有息借款。它排在 fallback 尾端時，真正沒有長期負債的公司（VRTX、SFM、PEN）會顯示租賃餘額當債務，有長期負債但用非標準標籤的公司更慘 —— ORCL 的 122B 顯示成 7B 租賃、CME 的 3.4B 顯示成 0.037B。這種錯誤沒有 n/a 可以警示，看起來就是一個正常數字。DebtLongtermAndShorttermCombinedAmount 含流動部分，只當最後手段（RH 只有這個標籤）。同一家公司若把長期負債拆成多個標籤（BW ＝ SecuredLongTermDebt 148M ＋ LongTermLoansPayable 67M），優先序只會取到其中一個，會低估 —— 對照表是「逐期取第一個有值的標籤」，表達不了加總。Ford／AES／Textron 近年整列 n/a 不是缺標籤：它們的債務只申報在帶維度的事實上（Ford Credit 與汽車本業分開），companyfacts 不含維度，這裡拿不到，補標籤也沒用。"
   },
   {
    "id": "operating_lease_liab_nc",

@@ -348,46 +348,121 @@ interface SplitEvent {
 }
 
 /**
- * 由加權平均股數序列偵測股票分割（正向與反向皆可）。
+ * 一次候選分割的「觀測」。同一次分割會被很多期、很多訊號各看到一次，
+ * 每次只能把時點框在一個區間內：lo 那份申報還是舊基準，hi 那份已是新基準，
+ * 所以真正的界線落在 (lo, hi]。
+ */
+interface RawSplit {
+  lo: string
+  hi: string
+  factor: number // 新/舊 股數比（正向>1，反向<1）
+  fromShares: boolean // 股數訊號比每股盈餘訊號可信
+}
+
+/**
+ * 偵測股票分割（正向與反向皆可）。
  *
- * 穩健訊號：**同一期末在不同申報間，股數突然差一個乾淨倍數**——只有分割會如此
+ * 穩健訊號：**同一期在不同申報間，股數突然差一個乾淨倍數**——只有分割會如此
  * （發股/回購會改變該期真實股數，不會把同一期重編成 10 倍）。這避免把 SPAC 增資、
  * 大量發股誤判為分割。分割後公司重編舊期，重編值（filed 較晚）已是新基準。
  */
 function computeSplits(ns: FactTags, fyeMonth: number): SplitEvent[] {
-  const raw: SplitEvent[] = []
+  const raw: RawSplit[] = []
 
-  // 訊號 A：加權股數同期末跨申報差乾淨倍數（後值/前值）
+  // 訊號 A：單季加權股數同期跨申報差乾淨倍數
   const sharePts =
     ns['WeightedAverageNumberOfSharesOutstandingBasic']?.units?.['shares'] ??
     ns['WeightedAverageNumberOfDilutedSharesOutstanding']?.units?.['shares']
   collectCrossFilingSplits(sharePts, fyeMonth, false, raw)
 
-  // 訊號 B：每股盈餘同期末跨申報（分割後每股值變小；前值/後值）——
+  // 訊號 B：每股盈餘同期跨申報（分割後每股值變小）——
   // 補足只用單季股數偵測不到的情況（如 GOOGL 只在分割後才 tag 單季股數）
-  const epsPts = ns['EarningsPerShareBasic']?.units?.['USD/shares']
-  collectCrossFilingSplits(epsPts, fyeMonth, true, raw)
+  collectCrossFilingSplits(ns['EarningsPerShareBasic']?.units?.['USD/shares'], fyeMonth, true, raw)
 
-  // 同一分割事件會被多期/多訊號偵測到 → 合併（同倍數、申報日相近 400 天內視為一次）
-  raw.sort((a, b) => (a.threshold < b.threshold ? -1 : 1))
-  const merged: SplitEvent[] = []
-  for (const s of raw) {
-    const last = merged[merged.length - 1]
-    const sameEvent =
-      last &&
-      Math.abs(Math.log(last.factor) - Math.log(s.factor)) < 0.08 &&
-      (Date.parse(s.threshold) - Date.parse(last.threshold)) / 86400_000 < 400
-    if (!sameEvent) merged.push(s)
+  // 訊號 C：期末流通股數（instant）同一個期末日跨申報。這是時點最緊的一種證據——
+  // 每份申報都會重報上一個會計年度末的股數，所以界線能框到「相鄰兩份申報之間」。
+  // Palo Alto 2022 年 9 月的 3:1 只有這個訊號抓得到；少了它，界線會晚半年落在
+  // 2023-05-24，中間那兩季本來就是新基準，卻被再乘一次 3。
+  const instant = instantShares(ns)
+  for (const list of instant.values())
+    for (let i = 0; i + 1 < list.length; i++) {
+      const f = detectSplit(list[i + 1].val / list[i].val)
+      if (f && list[i].filed < list[i + 1].filed)
+        raw.push({ lo: list[i].filed, hi: list[i + 1].filed, factor: f, fromShares: true })
+    }
+
+  // 同一次分割會被多期／多訊號重複偵測到，倍數與時點都不見得一致
+  // （EPS 訊號會摻進重編造成的假倍數，跨兩次分割的年度值還會給出兩者的乘積）。
+  // 用區間交集分群：取還沒歸類的觀測中最早的 hi 當界線，凡是區間罩得住它的都是同一次。
+  // 舊版是「倍數不同就算另一次分割」然後連乘，DXCM 一次 4:1 被算成 4×3×4。
+  // 用時間窗分群也不行：Copart 2022、2023 連兩次 2:1 只差一年，會被併成一次。
+  const clusters: RawSplit[][] = []
+  for (const forward of [true, false]) {
+    let pend = raw
+      .filter((s) => s.factor > 1 === forward && s.lo < s.hi) // 正向與反向分割不混為一談
+      .sort((a, b) => (a.hi < b.hi ? -1 : 1))
+    while (pend.length) {
+      const point = pend[0].hi
+      const inside = (s: RawSplit) => s.lo < point && point <= s.hi
+      clusters.push(pend.filter(inside))
+      pend = pend.filter((s) => !inside(s))
+    }
   }
-  return merged
+
+  const out: SplitEvent[] = []
+  for (const c of clusters) {
+    const threshold = c[0].hi
+    const votes = new Map<number, number>()
+    for (const s of c) votes.set(s.factor, (votes.get(s.factor) ?? 0) + (s.fromShares ? 2 : 1))
+    const ranked = [...votes].sort((a, b) => b[1] - a[1] || b[0] - a[0]).map(([f]) => f)
+
+    // 用「跨過界線的同期股數」當裁判：真分割一定會把舊期股數重編成乾淨倍數，
+    // 只改分子的事件（分拆、停業單位重分類）則股數原封不動。
+    const across = sharesAcross(sharePts, fyeMonth, instant, threshold)
+    const confirmed = ranked.find((f) => across.some((r) => Math.abs(r / f - 1) < 0.08))
+    if (confirmed != null) {
+      out.push({ threshold, factor: confirmed })
+      continue
+    }
+    // 沒有任何一期股數變成該倍數，卻有期間股數幾乎沒動 → 不是分割，整群丟掉。
+    // Crane NXT 分拆後重編 EPS（4.60→0.86、7.11→3.61）剛好落在 5 倍與 2 倍附近，
+    // 股數卻始終是 5,700 萬；照舊版會連乘 10 倍。
+    if (across.some((r) => Math.abs(r - 1) < 0.08)) continue
+    out.push({ threshold, factor: ranked[0] })
+  }
+  return out.sort((a, b) => (a.threshold < b.threshold ? -1 : 1))
 }
 
-/** 同一期末跨申報偵測分割。perShare=true 時值變小方向相反（前值/後值）。 */
+/**
+ * 期末流通股數（instant），依期末日分組、同一日同一份申報只留一筆。
+ * 只取一個標籤：Outstanding 與 Issued 同一天申報但數值不同（差庫藏股），
+ * 混在一起會產生「同日前後」的假觀測。
+ */
+function instantShares(ns: FactTags): Map<string, { filed: string; val: number }[]> {
+  const pts =
+    ns['CommonStockSharesOutstanding']?.units?.['shares'] ??
+    ns['CommonStockSharesIssued']?.units?.['shares']
+  const byEnd = new Map<string, Map<string, number>>()
+  for (const p of pts ?? []) {
+    if (spanDays(p) !== null || p.val <= 0) continue // 只要 instant
+    const m = byEnd.get(p.end) ?? byEnd.set(p.end, new Map()).get(p.end)!
+    if (!m.has(p.filed)) m.set(p.filed, p.val)
+  }
+  const out = new Map<string, { filed: string; val: number }[]>()
+  for (const [end, m] of byEnd)
+    out.set(
+      end,
+      [...m].map(([filed, val]) => ({ filed, val })).sort((a, b) => (a.filed < b.filed ? -1 : 1)),
+    )
+  return out
+}
+
+/** 同一期跨申報偵測分割。perShare=true 時值變小，方向相反。 */
 function collectCrossFilingSplits(
   pts: FactPoint[] | undefined,
   fyeMonth: number,
   perShare: boolean,
-  out: SplitEvent[],
+  out: RawSplit[],
 ): void {
   if (!pts?.length) return
   const byPeriod = new Map<string, { filed: string; val: number }[]>()
@@ -406,9 +481,40 @@ function collectCrossFilingSplits(
     for (let i = 0; i + 1 < list.length; i++) {
       const ratio = perShare ? list[i].val / list[i + 1].val : list[i + 1].val / list[i].val
       const f = detectSplit(ratio)
-      if (f) out.push({ threshold: list[i + 1].filed, factor: f })
+      if (f) out.push({ lo: list[i].filed, hi: list[i + 1].filed, factor: f, fromShares: !perShare })
     }
   }
+}
+
+/**
+ * 同一期股數在界線前後都申報過的「後值/前值」清單（單季加權平均 ＋ 期末流通）。
+ * 用來裁決一個候選分割是真的（比值＝倍數）還是假的（比值≈1，股數根本沒變）。
+ */
+function sharesAcross(
+  pts: FactPoint[] | undefined,
+  fyeMonth: number,
+  instant: Map<string, { filed: string; val: number }[]>,
+  threshold: string,
+): number[] {
+  const byPeriod = new Map<string, { filed: string; val: number }[]>()
+  for (const p of pts ?? []) {
+    const days = spanDays(p)
+    if (days === null || days <= 80 || days >= 100 || p.val <= 0) continue
+    const { fy, q } = fiscalOf(p.end, fyeMonth)
+    const k = `Q:FY${fy} Q${q}`
+    ;(byPeriod.get(k) ?? byPeriod.set(k, []).get(k)!).push({ filed: p.filed, val: p.val })
+  }
+  for (const [end, list] of instant) byPeriod.set(`I:${end}`, list)
+
+  const out: number[] = []
+  for (const list of byPeriod.values()) {
+    const sorted = [...list].sort((a, b) => (a.filed < b.filed ? -1 : 1))
+    for (let i = 0; i + 1 < sorted.length; i++)
+      for (let j = i + 1; j < sorted.length; j++)
+        if (sorted[i].filed < threshold && threshold <= sorted[j].filed)
+          out.push(sorted[j].val / sorted[i].val)
+  }
+  return out
 }
 
 /** 依申報日把值正規化到最新基準：股數乘 factor、每股除 factor。filed < threshold 者套用。 */

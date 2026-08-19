@@ -578,61 +578,97 @@ export function reconcileConcept(
     return best ?? []
   }
 
-  const byKind = new Map<PeriodKind, Set<string>>()
-  const parentsByPeriod: Record<string, Set<string>> = {}
-  const parents = new Set<string>()
-  for (const p of periods) {
-    const kind = splitPeriod(p).kind
-    let set = byKind.get(kind)
-    if (!set) {
-      set = new Set(winnerOf(kind))
-      byKind.set(kind, set)
-    }
-    parentsByPeriod[p] = set
-    for (const k of set) parents.add(k)
-  }
-
   /** 這一期扣掉上層之後的子項加總；沒有任何子項時回 null */
-  const childSum = (p: string): number | null => {
-    const members = byPeriod[p]
-    if (!members) return null
-    const par = parentsByPeriod[p] ?? new Set<string>()
-    let sum = 0
-    let any = false
-    for (const [k, byC] of Object.entries(members)) {
-      const v = byC[conceptId]
-      if (typeof v !== 'number' || par.has(k)) continue
-      sum += v
-      any = true
+  const childSumWith =
+    (pbp: Record<string, Set<string>>) =>
+    (p: string): number | null => {
+      const members = byPeriod[p]
+      if (!members) return null
+      const par = pbp[p] ?? new Set<string>()
+      let sum = 0
+      let any = false
+      for (const [k, byC] of Object.entries(members)) {
+        const v = byC[conceptId]
+        if (typeof v !== 'number' || par.has(k)) continue
+        sum += v
+        any = true
+      }
+      return any ? sum : null
     }
-    return any ? sum : null
+
+  /**
+   * 給定一組上層匯總，把「要不要補調節項」也一起決定完，回傳最終校驗結果。
+   *
+   * 調節項是跨期一次決定、套用到所有期間的（理由同上層匯總），所以有可能修好某幾期
+   * 卻弄壞另外幾期 —— UNH 的分部間沖銷就是這樣。**只有淨增加對得上的期數才採用**，
+   * 否則寧可不補：把本來對得上的欄位弄成未校驗，比少補一塊更糟。
+   */
+  const evaluate = (pbp: Record<string, Set<string>>) => {
+    const childSum = childSumWith(pbp)
+    const verifyWith = (chosen: Set<string>): Record<string, boolean> => {
+      const out: Record<string, boolean> = {}
+      for (const p of periods) {
+        const total = totals[p]?.[conceptId]
+        const sum = childSum(p)
+        if (total === undefined || sum === null) {
+          out[p] = false
+          continue
+        }
+        const extra = residualSum(residualByPeriod[p], conceptId, chosen)
+        out[p] = Math.abs(sum + extra - total) <= Math.abs(total) * (tolerancePct / 100)
+      }
+      return out
+    }
+    const bare = verifyWith(new Set())
+    const picked = pickResidual(residualByPeriod, totals, periods, conceptId, tolerancePct, childSum)
+    const withResidual = verifyWith(picked)
+    const score = (v: Record<string, boolean>) => periods.filter((p) => v[p]).length
+    const useResidual = picked.size > 0 && score(withResidual) > score(bare)
+    return {
+      settled: useResidual ? withResidual : bare,
+      residual: useResidual ? picked : new Set<string>(),
+      childSum,
+    }
   }
 
-  const verifyWith = (chosen: Set<string>): Record<string, boolean> => {
-    const out: Record<string, boolean> = {}
-    for (const p of periods) {
-      const total = totals[p]?.[conceptId]
-      const sum = childSum(p)
-      if (total === undefined || sum === null) {
-        out[p] = false
-        continue
-      }
-      const extra = residualSum(residualByPeriod[p], conceptId, chosen)
-      out[p] = Math.abs(sum + extra - total) <= Math.abs(total) * (tolerancePct / 100)
-    }
+  const kinds = [...new Set(periods.map((p) => splitPeriod(p).kind))]
+  const byKind = new Map<PeriodKind, Set<string>>(
+    kinds.map((k) => [k, new Set(winnerOf(k))] as const),
+  )
+  const spread = (m: Map<PeriodKind, Set<string>>): Record<string, Set<string>> => {
+    const out: Record<string, Set<string>> = {}
+    for (const p of periods) out[p] = m.get(splitPeriod(p).kind) ?? new Set<string>()
     return out
   }
 
-  const bare = verifyWith(new Set())
-  const picked = pickResidual(residualByPeriod, totals, periods, conceptId, tolerancePct, childSum)
-  const withResidual = verifyWith(picked)
+  /**
+   * ⚠️ 票數不能單獨決定上層匯總 —— 候選是「剔掉某些成員之後剛好落進容差」湊出來的，
+   * 而容差是總額的 0.5%，**巧合會發生**。AAPL 的地區分部營業利益：FY2023 五個地區
+   * 加總 150,888、合併 114,301，剔掉歐洲剛好是 114,790（差 489，容差 571）→ 歐洲被
+   * 判成上層。其餘三個年度都湊不出來、一票也沒有，於是這唯一的一票贏下全部年度欄，
+   * 歐洲被排除在合計外，四個年度欄全部對不上（正解是「沒有上層，補上未分攤的
+   * corporate 才等於合併數」，季度欄正是這樣過的）。
+   *
+   * 所以跟調節項套同一條規則：**採用上層匯總之後，該粒度對得上的欄位要變多才算數**。
+   * 同分取不設上層（寧可平鋪也不要多藏數字）。候選本來就至少有投票的那一期會過，
+   * 不會出現兩邊都是 0 的僵局。
+   */
+  for (const k of kinds) {
+    if (!byKind.get(k)!.size) continue
+    const kp = periods.filter((p) => splitPeriod(p).kind === k)
+    const score = (v: Record<string, boolean>) => kp.filter((p) => v[p]).length
+    const off = new Map(byKind)
+    off.set(k, new Set<string>())
+    if (score(evaluate(spread(off)).settled) >= score(evaluate(spread(byKind)).settled)) {
+      byKind.set(k, new Set<string>())
+    }
+  }
 
-  // 調節項是跨期一次決定、套用到所有期間的（理由同上層匯總），所以有可能修好某幾期
-  // 卻弄壞另外幾期 —— UNH 的分部間沖銷就是這樣。**只有淨增加對得上的期數才採用**，
-  // 否則寧可不補：把本來對得上的欄位弄成未校驗，比少補一塊更糟。
-  const score = (v: Record<string, boolean>) => periods.filter((p) => v[p]).length
-  const useResidual = picked.size > 0 && score(withResidual) > score(bare)
-  const settled = useResidual ? withResidual : bare
+  const parentsByPeriod = spread(byKind)
+  const parents = new Set<string>()
+  for (const set of byKind.values()) for (const k of set) parents.add(k)
+
+  const { settled, residual, childSum } = evaluate(parentsByPeriod)
 
   // 非必須調節的科目（分部利潤、費用）若在**所有**可比期間都對不上，那是揭露規則
   // 使然而不是數字有問題，標成「無法校驗」而不是「校驗沒過」—— 見 SegmentCell.verified。
@@ -651,7 +687,7 @@ export function reconcileConcept(
   return {
     parents,
     parentsByPeriod,
-    residual: useResidual ? picked : new Set<string>(),
+    residual,
     verified,
   }
 }
@@ -780,6 +816,11 @@ export async function getSegments(
   const warnings: string[] = []
 
   const merged: ExtractedFilingSegments = { data: {}, totals: {}, residual: {}, labels: {} }
+  /** `期間|軸` → 最新那份申報給的成員集合。後面較舊的申報不得再加新成員，見下方說明 */
+  const claimedMembers = new Map<string, Set<string>>()
+  /** `期間|軸` → 供應該批成員的那份申報所報的合併總額／調節項（重編過的年度不可混用） */
+  const claimedTotals = new Map<string, Record<string, number> | undefined>()
+  const claimedResidual = new Map<string, Record<string, Record<string, number>> | undefined>()
 
   for (const f of filings) {
     // v2：期間 key 加上 A/Q 種類後綴（見 periodKey）。
@@ -799,17 +840,51 @@ export async function getSegments(
       continue
     }
     if (!one) continue
+
+    /**
+     * ── 同一期間被多份申報揭露時，新的那份說了算 ────────────────────────────
+     *
+     * `filings` 是新到舊，所以合併一律「不覆蓋已存在的值」。原本用 Object.assign
+     * 是舊的蓋新的，方向反了 —— 重編（停業單位重分類）之後的數字會被舊版蓋回去。
+     *
+     * 更重要的是**成員集合要鎖在最新那份**。公司改分部結構時，新的年報會把去年
+     * 的比較數用**新結構**重編，而去年自己的年報用的是**舊結構**，兩份都在視窗裡：
+     * Carrier FY2024 同時有舊的 HVAC/Refrigeration 與新的氣候方案四大區，聯集起來
+     * 加總是合併總額的兩倍（營收 450 億 vs 實際 225 億）。所以某個（期間, 軸）一旦
+     * 由最新的申報給過成員，後面較舊的申報只能替**同一批成員**補上更多科目，
+     * 不准再帶進新的成員 key。結構沒變的公司成員 key 一樣，聯集照舊生效。
+     */
     for (const [p, byAxis] of Object.entries(one.data)) {
       const tgt = (merged.data[p] ??= {})
       for (const [ax, byMem] of Object.entries(byAxis)) {
+        const claimed = claimedMembers.get(`${p}|${ax}`)
         const t2 = (tgt[ax] ??= {})
-        for (const [mk, byC] of Object.entries(byMem)) Object.assign((t2[mk] ??= {}), byC)
+        for (const [mk, byC] of Object.entries(byMem)) {
+          if (claimed && !claimed.has(mk)) continue
+          const cell = (t2[mk] ??= {})
+          for (const [cid, v] of Object.entries(byC)) if (!(cid in cell)) cell[cid] = v
+        }
+        if (!claimed) {
+          claimedMembers.set(`${p}|${ax}`, new Set(Object.keys(byMem)))
+          // 對帳用的合併總額與調節項，一定要取**供應這批成員的那份申報**的版本。
+          // 公司把某條業務轉列停業單位之後，新的年報會把去年的合併營收改成不含
+          // 該業務；但去年的分部拆法若只有舊年報有（新年報沒再揭露那個軸），拿舊
+          // 拆法去對新總額當然對不上 —— GPN 的地區軸就是這樣被誤標成對不上。
+          claimedTotals.set(`${p}|${ax}`, one.totals[p])
+          claimedResidual.set(`${p}|${ax}`, one.residual?.[p])
+        }
       }
     }
-    for (const [p, byC] of Object.entries(one.totals)) Object.assign((merged.totals[p] ??= {}), byC)
+    for (const [p, byC] of Object.entries(one.totals)) {
+      const tgt = (merged.totals[p] ??= {})
+      for (const [cid, v] of Object.entries(byC)) if (!(cid in tgt)) tgt[cid] = v
+    }
     for (const [p, byMem] of Object.entries(one.residual ?? {})) {
       const tgt = (merged.residual[p] ??= {})
-      for (const [mk, byC] of Object.entries(byMem)) Object.assign((tgt[mk] ??= {}), byC)
+      for (const [mk, byC] of Object.entries(byMem)) {
+        const cell = (tgt[mk] ??= {})
+        for (const [cid, v] of Object.entries(byC)) if (!(cid in cell)) cell[cid] = v
+      }
     }
     Object.assign(merged.labels, one.labels)
   }
@@ -836,11 +911,19 @@ export async function getSegments(
     }
     if (memberKeys.size === 0) continue
 
-    // 上層匯總逐期各自判定（各期揭露的成員數不同，見 reconcileConcept）
+    // 上層匯總逐期各自判定（各期揭露的成員數不同，見 reconcileConcept）。
+    // 對帳的總額與調節項按軸取用 —— 同一期的不同軸可能由不同申報供應（見 claimedTotals）
     const byPeriodMembers: Record<string, Record<string, Record<string, number>>> = {}
+    const axisTotals: Record<string, Record<string, number>> = {}
+    const axisResidual: Record<string, Record<string, Record<string, number>>> = {}
     for (const p of periods) {
       const m = merged.data[p]?.[def.axis]
-      if (m) byPeriodMembers[p] = m
+      if (!m) continue
+      byPeriodMembers[p] = m
+      const t = claimedTotals.get(`${p}|${def.axis}`) ?? merged.totals[p]
+      if (t) axisTotals[p] = t
+      const r = claimedResidual.get(`${p}|${def.axis}`) ?? merged.residual[p]
+      if (r) axisResidual[p] = r
     }
     const hier = new Map<string, ReturnType<typeof reconcileConcept>>()
     for (const cid of conceptIds) {
@@ -848,11 +931,11 @@ export async function getSegments(
         cid,
         reconcileConcept(
           byPeriodMembers,
-          merged.totals,
+          axisTotals,
           periods,
           cid,
           cfg.hierarchy.tolerance_pct,
-          merged.residual,
+          axisResidual,
           (cfg.concepts.must_reconcile ?? ['revenue']).includes(cid),
         ),
       )
@@ -895,7 +978,7 @@ export async function getSegments(
         // 只輸出這個科目真的採用的調節項。同一筆調節項可能營收有、營業利益沒有，
         // 沒被採用的科目留白（n/a），不要憑空補一個沒進合計的數字上去
         for (const mk of residual) {
-          const v = merged.residual[p]?.[mk]?.[cid]
+          const v = axisResidual[p]?.[mk]?.[cid]
           if (typeof v !== 'number') continue
           ;(rowFor(mk).values[p] ??= {})[cid] = { value: v, verified, isParent: false }
         }

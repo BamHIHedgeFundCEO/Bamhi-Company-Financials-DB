@@ -1,6 +1,6 @@
 {
-  "version": "1.3",
-  "updated": "2026-08-17",
+  "version": "1.5",
+  "updated": "2026-08-19",
   "note": "分部資料（segment）設定層。companyfacts API 不含維度資料，分部數字只在申報的 XBRL instance 裡，靠 context 的 explicitMember 帶出。實測 19 家（科技/銀行/藥廠/保險/能源/零售/小型股/外國發行人）結論：『軸』100% 是標準分類法（us-gaap / srt / ifrs-full），可當可靠錨點；『成員』幾乎 100% 是公司自訂（NVDA 9/9、TSLA 15/15、JNJ 57/58），所以成員一律用正規化規則處理，不做窮舉對照。要新增支援的軸改這個檔，不改程式。診斷工具：python tools/segment.py <TICKER>",
   "axes": [
     {
@@ -82,7 +82,9 @@
   "consolidation": {
     "axes": [
       "srt:ConsolidationItemsAxis",
-      "us-gaap:ConsolidationItemsAxis"
+      "us-gaap:ConsolidationItemsAxis",
+      "srt:ConsolidatedEntitiesAxis",
+      "us-gaap:ConsolidatedEntitiesAxis"
     ],
     "note": "同一份申報裡，分部數字和『公司未分攤/跨部門沖銷/調節項』共用同一組科目，只靠 ConsolidationItemsAxis 區分。不過濾會把調節項當成分部，加總直接錯。",
     "include_members": [
@@ -100,7 +102,26 @@
     ],
     "exclude_patterns_note": "調節項成員本身也常是自訂的（wmt:CorporateAndReconcilingItemsMember、cat:EliminationsAndReconcilingItemsMember、brka:CorporateReconcilingItemsAndEliminationsMember），白名單擋不住，所以額外用 pattern 比對成員裸名。",
     "all_other_note": "us-gaap:AllOtherSegmentsMember 曾被列入排除，是錯的：ASC 280.16 的『所有其他分部』是不達量化門檻的營運分部彙總，它是合併總額的一部分，不是調節項。排除掉會讓分部加總永遠少一塊、永遠對不上總額 —— TXN 就是因此 100% 未校驗（它只有類比與嵌入式兩個應報告分部，其餘全歸 All Other）。",
-    "residual_note": "沒有分部軸維度、只掛 ConsolidationItemsAxis 的列（公司未分攤、分部間沖銷）是合併總額的一部分。它們不屬於任何一個軸，抽取時先收進 residual，再由 reconcileConcept 用「加進去才對得上總額」反推該補到哪個軸 —— 本來就對得上的軸不會被硬塞。PG：5 分部 86,112M + corporate 919M = 87,031M ≈ 合併 87,032M；KO：5 分部 48,806M + 沖銷 -1,009M + corporate 144M = 47,941M = 合併。"
+    "residual_note": "沒有分部軸維度、只掛 ConsolidationItemsAxis 的列（公司未分攤、分部間沖銷）是合併總額的一部分。它們不屬於任何一個軸，抽取時先收進 residual，再由 reconcileConcept 用「加進去才對得上總額」反推該補到哪個軸 —— 本來就對得上的軸不會被硬塞。PG：5 分部 86,112M + corporate 919M = 87,031M ≈ 合併 87,032M；KO：5 分部 48,806M + 沖銷 -1,009M + corporate 144M = 47,941M = 合併。",
+    "axes_note": "ConsolidatedEntitiesAxis 是同義的第二種寫法：STLD 用它掛 OperatingSegmentsMember / IntersegmentEliminationMember，語意與 ConsolidationItemsAxis 完全一樣。不列入的話整個分部軸生不出成員 —— STLD 五個分部 20,986,847 千元 − 分部間沖銷 2,810,266 = 合併 18,176,581，數字全都在申報裡。這個軸也被拿來揭露 VIE（ConsolidatedEntityExcludingVariableInterestEntityVIEMember），但 include_members 是白名單，那些成員自然過不了。"
+  },
+  "passthrough_dims": {
+    "note": "ASC 280-10-50-41 的地區/產品營收揭露，很多公司寫在『集中度風險』那一段，於是同一筆數字除了地區軸還疊了 ConcentrationRisk 兩個軸。抽取器預設把帶有設定外維度的事實整筆丟掉（那通常是避險關係、公允價值層級這種不該當分部的東西），結果整個地區軸一個成員都生不出來 —— TXN 就是這樣：六個地區加總 17,682M 完美等於合併總額，卻完全沒出現在輸出裡。這裡列出『可以無視』的維度：軸 → 允許的成員白名單。",
+    "map": {
+      "us-gaap:ConcentrationRiskByTypeAxis": [
+        "us-gaap:GeographicConcentrationRiskMember",
+        "us-gaap:ProductConcentrationRiskMember"
+      ],
+      "us-gaap:ConcentrationRiskByBenchmarkAxis": [
+        "us-gaap:RevenueFromContractWithCustomerProductAndServiceBenchmarkMember",
+        "us-gaap:RevenueFromContractWithCustomerMember",
+        "us-gaap:SalesRevenueNetMember",
+        "us-gaap:SalesRevenueGoodsNetMember",
+        "us-gaap:SalesRevenueSegmentMember"
+      ]
+    },
+    "member_whitelist_note": "**必須精確到成員，不能整個軸放行。** 同一個 ConcentrationRiskByTypeAxis 底下的 CustomerConcentrationRiskMember 是『前十大客戶佔營收 X%』，不是分部拆解，放進來會憑空多出假成員、加總直接爆掉。SupplierConcentrationRisk、CreditConcentrationRisk 同理。",
+    "unit_note": "放行這組軸必須配貨幣單位檢查（segments.ts 的 isMonetaryUnit）。集中度揭露最常見的標法其實是**百分比**而不是金額（0.38 表示 38%），unitRef 指到 pure 不是 iso4217。沒有這道檢查就會把 0.38 當成 0.38 美元收進分部表。"
   },
   "member_normalize": {
     "note": "同一個分部跨期會改名：NVDA 在 FY2023 把 ComputeAndNetworkingMember 改成 ComputeAndNetworkingSegmentMember、GraphicsMember 改成 GraphicsSegmentMember。砍掉尾綴後兩者都變 computeandnetworking，自動對上，不必逐家維護別名表。",

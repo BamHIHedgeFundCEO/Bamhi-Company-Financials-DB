@@ -333,7 +333,9 @@ function collect(points: FactPoint[], flow: boolean, fyeMonth: number,
 
 /** 比值接近哪個常見分割倍數（8% 容差），否則 null。回傳「乾淨倍數」與方向。 */
 function detectSplit(ratio: number): number | null {
-  const CLEAN = [2, 3, 4, 5, 6, 7, 8, 10, 12, 15, 20, 30]
+  // 25（Booking 2026）與 50（Chipotle 2024）都真的發生過。倍數愈大，8% 的相對容差
+  // 就愈寬（50 的容差是 ±4），所以只收公司實際用過的整數，不是「每個整數都放進來」。
+  const CLEAN = [2, 3, 4, 5, 6, 7, 8, 10, 12, 15, 20, 25, 30, 50]
   if (ratio >= 1.5) {
     for (const s of CLEAN) if (Math.abs(ratio - s) / s < 0.08) return s // 正向：factor = s
   } else if (ratio > 0 && ratio <= 0.67) {

@@ -14,7 +14,8 @@ periods = [f"FY2025 Q{q}" for q in (1, 2, 3, 4)] + [f"FY2026 Q{q}" for q in (1, 
 
 cmap = xbrl_map()
 line_items = []
-for c in cmap["concepts"]:
+# internal 科目不會出現在 API 回應裡（financials.ts 最後濾掉），測資也不能有
+for c in [c for c in cmap["concepts"] if not c.get("internal")]:
     values = {}
     for i, p in enumerate(periods):
         if c["id"] == "inventory" and i < 2:

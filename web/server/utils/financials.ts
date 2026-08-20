@@ -37,8 +37,24 @@ export interface MapConcept {
   sign: string
   note?: string
   derivable?: string
-  /** 抓不到直接標籤時，用其他科目推算：如 "total_assets - equity"、"revenue - cogs" */
+  /**
+   * 抓不到直接標籤時，用其他科目推算：如 "total_assets - equity_total"、"revenue - cogs"。
+   * 支援多項連算（左結合）與 `?` 選用項——`a - b - c?` 的 c 缺值時當 0、不讓整條式子失效。
+   * `?` 只影響推算過程，不會產生任何顯示的 0（顯示層的硬規則是缺值一律 n/a）。
+   */
   derive?: string
+  /**
+   * 內部科目：參與推算但**不輸出成報表列**。
+   *
+   * 用在「本身不是我們要呈現的行，但別的科目要拿它當推算輸入」的情況——
+   * `equity_total`（含非控制權益的權益）與 `temporary_equity`（可贖回權益）就是
+   * 為了把負債總計算對而存在，它們自己不該多長兩列出來。
+   *
+   * ⚠️ 內部科目的 tags **不進適用性判定的詞彙表**（見 tools/fsds_coverage.py 的
+   * load_map）。它們不是候選對照的競爭者，混進去只會改動共用詞的 idf、
+   * 靜靜翻掉別的科目上千格判定。
+   */
+  internal?: boolean
   /** 該科目「沒申報」通常代表 0（如當期無一年內到期債務）→ 缺口補 0，避免財務結構指標間歇 n/a */
   zero_if_absent?: boolean
   tags: string[]
@@ -1151,31 +1167,52 @@ export async function getFinancials(
     }
   }
 
-  // 推算 fallback：抓不到直接標籤的科目（如 AMZN 無「負債總計」標籤），
-  // 用其他科目算（total_liabilities = total_assets − equity）。只補缺的期，不覆蓋已有值。
+  // 推算 fallback：抓不到直接標籤的科目（如 WMT/INTC 無「負債總計」標籤），
+  // 用其他科目算（total_liabilities = total_assets − equity_total − temporary_equity?）。
+  // 逐項左結合，只補缺的期、不覆蓋已有值。
+  //
+  // map.concepts 的順序即推算順序：某個科目的推算若吃另一個推算出來的科目，
+  // 它必須排在後面（equity_total 排在 total_liabilities 之前）。
   for (const concept of map.concepts) {
     if (!concept.derive) continue
     const li = byId.get(concept.id)
     if (!li) continue
-    const m = concept.derive.match(/^(\w+)\s*([+\-*/])\s*(\w+)$/)
+    // "a - b - c?" → 首項 + 後續 (運算子, 科目, 是否選用)
+    const m = concept.derive.match(/^(\w+)((?:\s*[+\-*/]\s*\w+\??)+)$/)
     if (!m) continue
-    const [, aId, op, bId] = m
-    const a = byId.get(aId)
-    const b = byId.get(bId)
-    if (!a || !b) continue
+    const head = byId.get(m[1])
+    if (!head) continue
+    const terms = [...m[2].matchAll(/([+\-*/])\s*(\w+)(\??)/g)].map((t) => ({
+      op: t[1],
+      li: byId.get(t[2]),
+      optional: t[3] === '?',
+    }))
+    // 必要項的科目不存在（設定檔打錯字）→ 整條式子作廢，不要算出半套答案
+    if (terms.some((t) => !t.li && !t.optional)) continue
     for (const p of allPeriods) {
       if (li.values[p]?.value != null) continue
-      const av = a.values[p]?.value
-      const bv = b.values[p]?.value
-      if (av == null || bv == null) continue
-      if ((op === '/' || op === '*') && bv === 0) continue
-      const value =
-        op === '-' ? av - bv : op === '+' ? av + bv : op === '*' ? av * bv : av / bv
+      let value = head.values[p]?.value
+      if (value == null) continue
+      let ok = true
+      for (const t of terms) {
+        const v = t.li?.values[p]?.value
+        if (v == null) {
+          // 選用項缺值視為 0 —— 只在推算式內部，不會寫進任何顯示的格子。
+          // 絕大多數公司沒有可贖回權益，不給這條退路的話 derive 對它們全部失效。
+          if (t.optional) continue
+          ok = false
+          break
+        }
+        if ((t.op === '/' || t.op === '*') && v === 0) { ok = false; break }
+        value = t.op === '-' ? value - v : t.op === '+' ? value + v
+          : t.op === '*' ? value * v : value / v
+      }
+      if (!ok) continue
       li.values[p] = {
         value,
         isEstimated: true, // 推算值（非直接申報）
         sourceTag: `推算：${concept.derive}`,
-        endDate: a.values[p]?.endDate,
+        endDate: head.values[p]?.endDate,
       }
     }
   }
@@ -1234,6 +1271,10 @@ export async function getFinancials(
     }
   }
 
+  // 內部科目到此為止：它們的任務（當推算輸入）已經完成，不輸出成報表列。
+  // 放在最後才濾，前面的推算、借殼清期、適用性都還看得到它們。
+  const internalIds = new Set(map.concepts.filter((c) => c.internal).map((c) => c.id))
+
   return {
     company: facts.entityName || ref.name,
     cik: ref.cik10,
@@ -1242,7 +1283,7 @@ export async function getFinancials(
     periodicity: annualMode ? 'annual' : 'quarterly',
     currency,
     periods,
-    lineItems,
+    lineItems: internalIds.size ? lineItems.filter((li) => !internalIds.has(li.id)) : lineItems,
     derived: map.derived,
     preIpoBefore,
   }

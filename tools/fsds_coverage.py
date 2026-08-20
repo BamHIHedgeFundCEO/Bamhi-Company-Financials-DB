@@ -240,9 +240,16 @@ def load_applicability():
 def load_map():
     with open(MAP_PATH, encoding="utf-8") as f:
         m = json.load(f)
-    concepts = m["concepts"]
+    # 內部科目（internal）不輸出成報表列，也就沒有「這格是不是 n/a」可言。
+    # 更重要的是**不能進 vocab** —— 它們不是候選對照的競爭者，卻會墊高
+    # equity / interest / amount 這些共用詞的 df，把 idf 壓低，靜靜翻掉別的科目
+    # 上千格適用性判定（見 --company-applicability 的回歸警告）。
+    concepts = [c for c in m["concepts"] if not c.get("internal")]
+    # ⚠️ tag2concepts 要含內部科目：它們在執行期**確實會取到值**並餵給 derive
+    # （total_liabilities 靠 equity_total）。少收的話工具會以為那條 derive 從不成立，
+    # 憑空多報幾百家 n/a —— 模型與管線脫節就是這樣來的。
     tag2concepts = defaultdict(set)
-    for c in concepts:
+    for c in m["concepts"]:
         for t in (c.get("tags") or []) + (c.get("tags_ifrs") or []):
             tag2concepts[t].add(c["id"])
     # 科目的「語意詞元」= 所有已對照標籤的詞元 + 英文名的詞元
@@ -257,11 +264,20 @@ def load_map():
 
 
 def parse_derive(expr):
-    """'interest_income_net + noninterest_income' -> 用到哪些科目。
-    覆蓋率只在乎「輸入都拿得到嗎」，不管運算子。"""
+    """'interest_income_net + noninterest_income' -> 用到哪些科目（只回**必要**的）。
+
+    覆蓋率只在乎「輸入都拿得到嗎」，不管運算子。帶 `?` 的是選用項
+    （`total_assets - equity_total - temporary_equity?`），執行期缺值當 0、
+    不會讓整條式子失效，所以這裡也不能把它算成必要輸入。
+    """
     if not expr:
         return []
-    return [t for t in re.split(r"[\s+\-*/()]+", expr) if t and not t.isdigit()]
+    out = []
+    for t in re.split(r"[\s+\-*/()]+", expr):
+        if not t or t.isdigit() or t.endswith("?"):
+            continue
+        out.append(t)
+    return out
 
 
 def read_sub(z):
@@ -870,8 +886,10 @@ def main():
     sys.stdout.reconfigure(encoding="utf-8")
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
     m, concepts, tag2concepts, vocab = load_map()
-    stmt_of = {c["id"]: c.get("statement") for c in concepts}
-    zh_of = {c["id"]: c.get("zh") for c in concepts}
+    # stmt_of 要含內部科目（tag2concepts 會吐出它們的 id），否則 scan_num 的
+    # 期間長度過濾對它們整個失效，資產負債表科目會被 IS/CF 的區間事實誤記成有值
+    stmt_of = {c["id"]: c.get("statement") for c in m["concepts"]}
+    zh_of = {c["id"]: c.get("zh") for c in m["concepts"]}
     # zero_if_absent 的科目不列入覆蓋率：「缺就是 0」是設計決定，不是抓不到
     skip_zero = {c["id"] for c in concepts if c.get("zero_if_absent")}
     mapped_tags = set(tag2concepts)

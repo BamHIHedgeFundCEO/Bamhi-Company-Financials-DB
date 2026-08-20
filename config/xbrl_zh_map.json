@@ -1,5 +1,5 @@
 {
- "version": "1.8",
+ "version": "1.9",
  "updated": "2026-08-20",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -651,6 +651,39 @@
    ]
   },
   {
+   "id": "equity_total",
+   "zh": "權益總計（含非控制權益）",
+   "en": "Total Equity Including Noncontrolling Interest",
+   "statement": "BS",
+   "unit": "USD",
+   "sign": "natural",
+   "internal": true,
+   "tags": [
+    "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+    "StockholdersEquity"
+   ],
+   "tags_ifrs": [
+    "Equity",
+    "EquityAttributableToOwnersOfParent"
+   ],
+   "note": "內部科目，不輸出成報表列，只為了把負債總計算對。標籤優先序刻意跟 `equity` 相反：`equity` 要母公司單獨數（ROE 的分母要配母公司淨利），這裡要含非控制權益的合併權益。實測 2026q1+q2、5,237 家、共 15,237 個 Liabilities 有申報的期：原式「資產 − equity」23.79% 對不上，換成本科目降到 11.85%，再扣 temporary_equity 降到 4.73%。"
+  },
+  {
+   "id": "temporary_equity",
+   "zh": "暫時性權益（可贖回）",
+   "en": "Temporary (Redeemable) Equity",
+   "statement": "BS",
+   "unit": "USD",
+   "sign": "natural",
+   "internal": true,
+   "tags": [
+    "TemporaryEquityCarryingAmountIncludingPortionAttributableToNoncontrollingInterest",
+    "TemporaryEquityCarryingAmountAttributableToParent",
+    "RedeemableNoncontrollingInterestEquityCarryingAmount"
+   ],
+   "note": "可贖回特別股、可贖回非控制權益。GAAP 把它擺在負債與權益之間、兩邊都不算，所以「資產 − 權益」會把它算進負債。SPAC 幾乎家家有，中概股與 Up-C 也常見。內部科目；絕大多數公司沒有這一塊，所以 derive 裡寫成選用項（`?`，缺值當 0）—— 不給退路的話這條推算對它們全部失效。"
+  },
+  {
    "id": "total_liabilities",
    "zh": "負債總計",
    "en": "Total Liabilities",
@@ -663,7 +696,8 @@
    "tags_ifrs": [
     "Liabilities"
    ],
-   "derive": "total_assets - equity"
+   "derive": "total_assets - equity_total - temporary_equity?",
+   "note": "Liabilities 這個標籤很多大公司根本不報（資產負債表上沒有「負債總計」那一行）—— WMT、INTC、DIS、KO、ORCL、CHTR 都是，全靠這條推算。原式 `total_assets - equity` 把非控制權益與可贖回權益一起算進負債：實測 227 家受影響，Intel 高估 136 億美元、Sempra 72 億、Disney 66 億、WMT 61 億。畫面上完全看不出來，它就是個看起來正常的數字。"
   },
   {
    "id": "equity",

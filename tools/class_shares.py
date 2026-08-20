@@ -43,7 +43,11 @@
   python tools/class_shares.py                      # 掃全 universe 找缺股數的公司
   python tools/class_shares.py BRK.B V ADT          # 只算指定幾家
   python tools/class_shares.py --filings 12         # 往前多抓幾份（預設 8）
+  python tools/class_shares.py BAM --merge          # 只重算一家、併回檔案（不整檔取代）
   python tools/class_shares.py --dry-run            # 只印不寫檔
+
+⚠ 不帶 `--merge` 就是**整檔取代**：只列兩家去跑，其餘的公司會從檔案裡消失，
+  表現出來是那些公司的股數整欄變 n/a，沒有任何錯誤訊息。
 
 SEC 請求量：每家 1（submissions）+ 每份 2（index.json + instance）。離線一次性成本。
 """
@@ -317,6 +321,74 @@ def drop_stale(series: dict[str, float]) -> dict[str, float]:
         if gap > 400 and any(abs(v / series[d] - 1) > 0.05 for v in between if series[d]):
             bad.add(d)
     return {d: v for d, v in series.items() if d not in bad}
+
+
+def drop_basis_outliers(series: dict[str, float]) -> dict[str, float]:
+    """
+    同一條數列裡混進**別種基礎**的那幾點丟掉。股數是慢變量，跳上去又跳回來不是真的。
+
+    合併規則對得上「大多數」申報，卻總有一兩期的申報把股別標成別的東西，
+    合出來的數字就換了基礎。實測兩種形狀：
+
+      Carvana  加權平均 2025-06-30 那一期 6.74 億，前後兩期都是 1.34／1.36 億。
+               那一期的申報把 Garcia 家族的 Class B（Up-C 的 LLC 單位）也標進來了。
+               `upc_drop` 是**整家判一次**、用最新一期，救不了中間單獨壞掉的一期
+      BAM      加權平均最早那點 2022-12-31 是 3.92 億，下一點（隔一年）是 15.86 億。
+               2022 年報寫的是公開上市那 25% 的股數，2023 年改成全部 —— 換了基礎，
+               不是一年成長四倍
+
+    **尖點與階梯要分得開**。IPO、股票分割、併購換股都是階梯（跳上去就留在上面），
+    那些是真的，不能碰。所以中間點要求**同時**偏離前後兩個鄰居、而且前後兩個鄰居
+    自己彼此接近（跳出去又跳回原位）。端點沒有兩個鄰居可比，改要求「隔了 200 天
+    以上才有下一個點」—— 季報連續的成長型公司不會落進這一條，
+    只有中間整段缺、兩端基礎不同的才會。
+    """
+    ks = sorted(series)
+    if len(ks) < 3:
+        return series
+    bad: set[str] = set()
+    for i in range(1, len(ks) - 1):
+        a, b, c = series[ks[i - 1]], series[ks[i]], series[ks[i + 1]]
+        if not (a and b and c):
+            continue
+        if (max(a, b) / min(a, b) >= 1.6 and max(c, b) / min(c, b) >= 1.6
+                and max(a, c) / min(a, c) < 1.25):
+            bad.add(ks[i])
+    for i, j in ((0, 1), (len(ks) - 1, len(ks) - 2)):
+        a, b = series[ks[i]], series[ks[j]]
+        if not a or not b or max(a, b) / min(a, b) < 2.5:
+            continue
+        if abs((date.fromisoformat(ks[j]) - date.fromisoformat(ks[i])).days) >= 200:
+            bad.add(ks[i])
+    return {d: v for d, v in series.items() if d not in bad}
+
+
+def one_basis(series: dict[str, float], split_done: bool, tag: str) -> dict[str, float]:
+    """
+    相鄰兩期跳 4 倍以上、而且這家沒有還原過分割 → 整條數列作廢。
+
+    Carvana 2026 年 5 股換 1 股（加權平均 2026-03-31 是 1.43 億、2026-06-30 變 7.16 億）。
+    `split_basis` 只認公司自己申報的 `StockholdersEquityNoteStockSplitConversionRatio1`，
+    這次的申報視窗裡沒抓到那個事實，於是整條數列一半分割前、一半分割後。
+
+    這種數列**比 n/a 危險得多**：每一格單獨看都是正常的股數，市值圖卻在中間憑空
+    掉一個數量級，沒有任何欄位標示得出來。相鄰跳 4 倍不可能是真的增發或買回
+    （實測 37 家裡只有未還原分割與換基礎兩種來源會超過），而分割已還原的公司
+    本來就會有跳點，所以要兩個條件同時成立才作廢。
+
+    作廢後那幾期退回 companyfacts 的無維度值 —— 就是沒有這個預算檔時的樣子，
+    不會比原本更糟。
+    """
+    ks = sorted(series)
+    if split_done or len(ks) < 2:
+        return series
+    for a, b in zip(ks, ks[1:]):
+        x, y = series[a], series[b]
+        if x and y and max(x, y) / min(x, y) >= 4:
+            print(f"         ⚠ {tag} 整條作廢：{a}={x:,.0f} → {b}={y:,.0f} 跳 "
+                  f"{max(x,y)/min(x,y):.1f} 倍，且未還原過分割（疑似分割未還原／基礎不同）")
+            return {}
+    return series
 
 
 def clean_classes(classes: dict) -> dict:
@@ -607,6 +679,7 @@ def run(ticker: str, limit: int) -> dict | None:
                     continue
                 shares[d] = v
                 detail[d] = per_date[d]["classes"]
+            shares = one_basis(drop_basis_outliers(shares), bool(pre_filings), "期末股數")
         else:
             basis = ""
 
@@ -621,17 +694,26 @@ def run(ticker: str, limit: int) -> dict | None:
             if got:
                 one[d] = (got[0], wsrc[kind][d])
         fixed = drop_stale(apply_basis(one, basis_of, split_ratio)) if one else {}
+        fixed = one_basis(drop_basis_outliers(fixed), bool(pre_filings), f"加權平均（{kind}）")
         if fixed:
             wavg_out[kind] = fixed
 
-    if not shares:
+    # 期末股數與加權平均股數是**兩件獨立的事**，缺一不能連坐。
+    # KKR 的封面股數是無維度的（companyfacts 拿得到、期末那列本來就滿的），
+    # 但加權平均股數掛了 `ClassOfStock=CommonStock` 維度整個消失 → 基本與稀釋兩列
+    # 36 格全空。舊版在這裡 `if not shares: return None`，等於為了一件本來就不缺的東西
+    # 把另一件真的缺的東西一起丟掉。
+    if not shares and not wavg_out:
         print(f"{ticker:8} 申報裡也找不到可用的股別股數")
         return None
-    last = sorted(shares)[-1]
-    imp = f"，淨利÷EPS 隱含 {implied/1e6:,.1f}M" if implied else ""
-    print(f"{ticker:8} {len(shares):2} 個日期；最新 {last} = {shares[last]:,.0f}{imp}　依據：{basis}")
-    for c, v in sorted(detail.get(last, {}).items()):
-        print(f"           {c:44} {v:>18,.0f}")
+    if shares:
+        last = sorted(shares)[-1]
+        imp = f"，淨利÷EPS 隱含 {implied/1e6:,.1f}M" if implied else ""
+        print(f"{ticker:8} {len(shares):2} 個日期；最新 {last} = {shares[last]:,.0f}{imp}　依據：{basis}")
+        for c, v in sorted(detail.get(last, {}).items()):
+            print(f"           {c:44} {v:>18,.0f}")
+    else:
+        print(f"{ticker:8} 期末股數無維度值本來就有，只補加權平均")
     out = {
         "ticker": ticker,
         "name": name,
@@ -651,6 +733,10 @@ def main() -> None:
     ap.add_argument("tickers", nargs="*")
     ap.add_argument("--filings", type=int, default=8)
     ap.add_argument("--dry-run", action="store_true")
+    # 沒有這個旗標時，寫檔是**整檔取代**：只指定一家去跑，另外 36 家會直接消失，
+    # 而且消失的形式是報表上多出一整片 n/a，不會有任何錯誤訊息。
+    ap.add_argument("--merge", action="store_true",
+                    help="併進現有的 class_shares.json（只更新這次跑到的公司），不整檔取代")
     a = ap.parse_args()
 
     tickers = a.tickers or scan_missing()
@@ -673,6 +759,12 @@ def main() -> None:
     if a.dry_run:
         print("\n--dry-run，未寫檔")
         return
+    if a.merge and os.path.exists(OUT_PATH):
+        with open(OUT_PATH, encoding="utf-8") as f:
+            keep = json.load(f).get("companies") or {}
+        print(f"\n併入現有 {len(keep)} 家，本次更新 {len(out)} 家")
+        keep.update(out)
+        out = keep
     doc = {
         "version": date.today().isoformat(),
         "note": (

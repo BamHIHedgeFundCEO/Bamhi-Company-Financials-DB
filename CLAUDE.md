@@ -9,7 +9,7 @@
 3. 三大報表數字一律走 `companyfacts` API，不解析 10-K/10-Q HTML
    　例外：**分部數據**。`companyfacts` 不含維度（dimension），分部數字只在申報的
    　XBRL instance（結構化 XML，不是 HTML）裡，走 `web/server/utils/segments.ts`
-   　同理，**多股別公司的期末股數**（波克夏／Visa／ADT… 封面股數按股別拆、帶維度）
+   　同理，**多股別公司的期末股數與加權平均股數**（波克夏／Visa／ADT… 按股別拆、帶維度）
    　也只在 instance 裡；但三大報表有 ≤2 次 SEC 請求的硬限制，所以走離線預算：
    　`tools/class_shares.py` → `config/class_shares.json`，執行期零 SEC 請求。
    　新的一季要重跑該工具，沒跑到的期維持 n/a（誠實留白，不是錯的數字）

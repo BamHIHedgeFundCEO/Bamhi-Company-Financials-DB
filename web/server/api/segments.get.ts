@@ -27,6 +27,18 @@ export default defineEventHandler(async (event) => {
 
   const nFilings = Math.min(6, Math.max(1, Number(query.filings ?? 2) || 2))
   const quarterly = query.quarterly !== '0'
+  /**
+   * 預設 4 份。**試過 5 份，實測不划算，撤回。**
+   *
+   * 動機是合理的：10-Q 只帶當季與去年同季、不帶上一季，所以視窗最舊的那一季只能
+   * 靠更新的申報供應比較數；多抓一份就讓它有自己的來源。但 118 家 A/B 顯示，
+   * 第 5 份會讓 7 家公司共 131 格從「對得上」掉成「對不上」（FCX、CLVT、EQT、
+   * RGLD、MHK、UAL、CMI），只換回 56 格。原因是多一個季度欄會改變 reconcileConcept
+   * 的跨期投票 —— 上層匯總與調節項是「同一種粒度一次決定」的，多一期就可能翻盤，
+   * 連本來好好的欄位一起弄壞（CLVT 對得上 85 → 75）。
+   *
+   * 同一份程式碼只把這個值換回 4，變壞格數就是 0。想多看一季的人仍可用 ?quarters=5。
+   */
   const nQuarters = quarterly ? Math.min(8, Math.max(0, Number(query.quarters ?? 4) || 0)) : 0
 
   const ref = await resolveCompany(ticker)

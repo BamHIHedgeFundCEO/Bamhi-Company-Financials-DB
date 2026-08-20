@@ -44,6 +44,15 @@ interface SegmentAxesConfig {
     include_members: string[]
     exclude_patterns: string[]
   }
+  /**
+   * 「可以無視」的維度：軸 → 允許的成員白名單。
+   *
+   * 有些公司把地區營收寫在集中度風險那一段，於是數字除了地區軸還疊了
+   * ConcentrationRisk 兩個軸；不放行的話整個地區軸生不出任何成員（TXN）。
+   * **一定要精確到成員** —— 同一個軸底下的 CustomerConcentrationRiskMember
+   * 是客戶佔比、不是分部拆解，放進來會憑空多出假成員。
+   */
+  passthrough_dims?: { map: Record<string, string[]> }
   member_normalize: {
     strip_suffixes: string[]
     lowercase: boolean
@@ -129,6 +138,29 @@ export function splitPeriod(key: string): { end: string; kind: PeriodKind } {
     : { end: key.slice(0, i), kind: key.slice(i + 1) as PeriodKind }
 }
 
+/**
+ * ── 靜默漏抓訊號 ────────────────────────────────────────────────────────────
+ *
+ * 「申報明明有分部、輸出卻沒寫上去」這類問題不會產生任何錯誤：BW 的回應是
+ * `warnings: []`、每一格都校驗通過，產品軸卻整個不見。所以要另外算出結構性的
+ * 可疑跡象，讓機器排出待查清單，而不是一家一家人工翻。
+ *
+ * 三個訊號都是純結構判定、與個別公司無關：
+ * - `axis_dropped`     instance 有這個軸的目標科目事實，輸出卻沒有這個軸 → 全軸漏掉
+ * - `degenerate_axis`  某軸某期只有一個成員、而且等於合併總額 → 資訊量為零
+ * - `period_hole`      同軸同成員的季度序列中間空一格、前後都有 → 覆蓋斷洞
+ * - `dropped_facts`    抽取器丟掉的目標科目事實，按原因與金額排序
+ */
+export interface SegmentGap {
+  code: 'axis_dropped' | 'degenerate_axis' | 'period_hole' | 'dropped_facts'
+  /** 涉及的軸；`dropped_facts` 放原因碼 */
+  axis: string
+  detail: string
+  /** 排序用的嚴重性：涉及的營收金額（美元）。估不出來時 0 */
+  amount: number
+  periods?: string[]
+}
+
 export interface SegmentsResult {
   company: string
   cik: string
@@ -139,6 +171,8 @@ export interface SegmentsResult {
   axes: SegmentAxisBlock[]
   /** 抓不到 instance、對不上總額等情形，據實回報而不是安靜吞掉 */
   warnings: string[]
+  /** 靜默漏抓訊號，依 amount 遞減排序。給 tools/segment_gaps.py 掃全市場用 */
+  gaps: SegmentGap[]
 }
 
 let cachedCfg: SegmentAxesConfig | null = null
@@ -191,6 +225,8 @@ interface RawFact {
   tag: string
   ctx: string
   val: number
+  /** 解析後的計量單位（`iso4217:USD`、`shares`、`pure`…）。查不到單位定義時為空字串 */
+  unit: string
 }
 
 const RE_CONTEXT = /<(?:[\w.-]+:)?context\s[^>]*id="([^"]+)"[^>]*>([\s\S]*?)<\/(?:[\w.-]+:)?context>/g
@@ -203,8 +239,28 @@ const RE_END = /<(?:[\w.-]+:)?endDate>([^<]+)</
  * 掃進來純粹浪費 CPU 與記憶體（JPM 的 10-K instance 有 14MB）。
  */
 const RE_FACT = /<([\w.-]+:[\w.-]+)\s+([^>]*unitRef="[^"]*"[^>]*)>([^<]*)</g
+/**
+ * 單位定義：`<unit id="usd"><measure>iso4217:USD</measure></unit>`。
+ *
+ * 事實上的 `unitRef` 只是個 id，光看 id 猜不出是錢還是比率 —— 各家取名沒有規則
+ * （usd / U001 / Unit1）。要判斷「這筆是不是金額」一定要回頭解析 unit 元素。
+ * 帶 `<divide>` 的是每股盈餘那種複合單位，不是純金額。
+ */
+const RE_UNIT = /<(?:[\w.-]+:)?unit\s[^>]*id="([^"]+)"[^>]*>([\s\S]*?)<\/(?:[\w.-]+:)?unit>/g
+const RE_MEASURE = /<(?:[\w.-]+:)?measure>([^<]+)</
+
+/** 這個單位是不是「某種貨幣的金額」。幣別不預設美元 —— 外國發行人報 EUR/TWD。 */
+export function isMonetaryUnit(unit: string): boolean {
+  return unit.startsWith('iso4217:')
+}
 
 export function parseInstance(xml: string): { contexts: Map<string, Ctx>; facts: RawFact[] } {
+  const units = new Map<string, string>()
+  for (const m of xml.matchAll(RE_UNIT)) {
+    // 複合單位（iso4217:USD / xbrli:shares）留空字串，讓它過不了 isMonetaryUnit
+    units.set(m[1], /<(?:[\w.-]+:)?divide>/.test(m[2]) ? '' : (RE_MEASURE.exec(m[2])?.[1]?.trim() ?? ''))
+  }
+
   const contexts = new Map<string, Ctx>()
   for (const m of xml.matchAll(RE_CONTEXT)) {
     const [, id, body] = m
@@ -226,7 +282,8 @@ export function parseInstance(xml: string): { contexts: Map<string, Ctx>; facts:
     if (!ctx) continue
     const val = Number(text)
     if (!Number.isFinite(val)) continue
-    facts.push({ tag, ctx, val })
+    const unitRef = /unitRef="([^"]+)"/.exec(attrs)?.[1] ?? ''
+    facts.push({ tag, ctx, val, unit: units.get(unitRef) ?? '' })
   }
   return { contexts, facts }
 }
@@ -293,6 +350,41 @@ interface ExtractedFilingSegments {
    */
   residual: Record<string, Record<string, Record<string, number>>>
   labels: Record<string, string>
+  /**
+   * 交叉維度事實：同一筆數字同時掛了**兩個**分部軸
+   * （BW FY2025 起把營收標成 ProductOrService=Parts × BusinessSegments=BW）。
+   * period → 軸 → 該軸成員 → 另一軸成員 → conceptId → 值。
+   *
+   * 目前只收集、不參與合併 —— 收集是為了讓遙測算得出「被丟掉的是多少錢」，
+   * 也讓之後的投影修法不必再讓全體公司重新解析一次 instance。
+   */
+  cross: Record<string, Record<string, Record<string, Record<string, Record<string, number>>>>>
+  /**
+   * ── 漏抓遙測 ──────────────────────────────────────────────────────────────
+   *
+   * 抽取器裡每一個 `continue` 都是一次丟棄，而丟掉的事實**永遠不會出現在輸出裡**，
+   * 所以只看 API 回應永遠看不見這類漏抓：BW 的產品軸整個消失，回應卻是
+   * `warnings: []`、每一格都校驗通過。偵測器必須裝在抽取器內部。
+   *
+   * key = `原因|涉及的軸或成員`，值 = { n: 筆數, abs: 營收絕對金額合計 }。
+   * **金額才是嚴重性的度量，筆數不是** —— 丟 100 筆附註明細不痛，
+   * 丟 1 筆 5.9 億營收才痛。所以 abs 只累加 revenue，跨科目相加沒有意義。
+   *
+   * 原因碼：
+   * - `cross_axis`         兩個以上分部軸同時出現（BW 中的就是這個）
+   * - `deep_cross`         三個以上分部軸，無法安全投影
+   * - `foreign_dim`        帶了設定外的維度（避險關係、公允價值層級…）
+   * - `cons_not_operating` ConsolidationItems 成員不在白名單
+   * - `member_excluded`    分部軸成員自己命中 exclude_patterns
+   * - `residual_multi_dim` 無分部軸、但維度不只一個（QCOM 的訴訟案件軸）
+   * - `kind_mismatch`      期間長度不符（YTD 累計）。正常現象，當雜訊基準線用
+   */
+  dropped: Record<string, { n: number; abs: number }>
+  /**
+   * 這份 instance 裡「目標科目的事實」曾經出現過哪些已知分部軸（不管最後有沒有被收）。
+   * 拿來比對輸出：軸出現過卻沒生出任何成員 = 整個軸被靜默丟掉。
+   */
+  seenAxes: Record<string, number>
 }
 
 /** 期間長度（天）。instant（無起日）回 null。 */
@@ -338,9 +430,27 @@ export async function extractFromInstance(
   const consAxes = new Set(cfg.consolidation.axes)
   const consInclude = new Set(cfg.consolidation.include_members)
   const consExclude = cfg.consolidation.exclude_patterns.map((p) => new RegExp(p, 'i'))
+  const passthrough = new Map(
+    Object.entries(cfg.passthrough_dims?.map ?? {}).map(([ax, ms]) => [ax, new Set(ms)]),
+  )
   const wantedConcepts = new Set(cfg.concepts.include)
 
-  const out: ExtractedFilingSegments = { data: {}, totals: {}, residual: {}, labels: {} }
+  const out: ExtractedFilingSegments = {
+    data: {},
+    totals: {},
+    residual: {},
+    labels: {},
+    cross: {},
+    dropped: {},
+    seenAxes: {},
+  }
+
+  /** 記一筆丟棄。abs 只累加 revenue，見 ExtractedFilingSegments.dropped 的說明 */
+  const drop = (reason: string, tag: string, cid: string, val: number) => {
+    const d = (out.dropped[`${reason}|${tag}`] ??= { n: 0, abs: 0 })
+    d.n++
+    if (cid === 'revenue') d.abs += Math.abs(val)
+  }
 
   for (const f of facts) {
     const ctx = contexts.get(f.ctx)
@@ -349,8 +459,14 @@ export async function extractFromInstance(
     const cid = tagToConcept.get(bare)
     if (!cid || !wantedConcepts.has(cid)) continue
 
+    // 目標科目的事實碰過哪些已知分部軸，先記下來再談收不收（見 seenAxes）
+    for (const d of ctx.dims) if (axisByName.has(d.axis)) out.seenAxes[d.axis] = (out.seenAxes[d.axis] ?? 0) + 1
+
     // 只收指定粒度：年度收 ~365 天、季度收 ~90 天，累計期（半年/九個月）丟掉
-    if (!matchesKind(ctx, wantKind)) continue
+    if (!matchesKind(ctx, wantKind)) {
+      if (ctx.dims.some((d) => axisByName.has(d.axis))) drop('kind_mismatch', String(durationDays(ctx)), cid, f.val)
+      continue
+    }
     const period = periodKey(ctx.end, wantKind)
 
     if (ctx.dims.length === 0) {
@@ -368,35 +484,91 @@ export async function extractFromInstance(
       // 沒有分部軸、只有一個 ConsolidationItemsAxis 維度 → 調節項（見 residual）。
       // 限定「剛好一個維度」是刻意的：QCOM 的 MaterialReconcilingItems 還疊了
       // 訴訟案件軸，那是某一件官司的金額，不是可以直接加進分部的調節數。
-      if (ctx.dims.length !== 1 || !consAxes.has(ctx.dims[0].axis)) continue
+      if (ctx.dims.length !== 1 || !consAxes.has(ctx.dims[0].axis)) {
+        drop('residual_multi_dim', ctx.dims.map((d) => d.axis).sort().join('×'), cid, f.val)
+        continue
+      }
       const rk = normalizeMember(ctx.dims[0].member, cfg)
       out.labels[rk] ??= humanize(ctx.dims[0].member)
       const byMem = (out.residual[period] ??= {})
       ;(byMem[rk] ??= {})[cid] = f.val
       continue
     }
-    if (segDims.length !== 1) continue
+    /**
+     * 其餘維度（非分部軸）只允許是 ConsolidationItems 的營運分部。
+     * 抽成函式是為了讓「單軸」與「交叉維度」兩條路走同一套判準。
+     */
+    // 丟棄要能歸因到「哪個分部軸因此消失」，否則偵測器只說得出軸不見、說不出為什麼。
+    // TXN 的地區營收全被 ConcentrationRisk 兩軸擋掉，但丟棄記錄裡只有 ConcentrationRisk
+    // 的軸名、沒有 GeographicalAxis，比對不上 → 嚴重性算成 0。所以 tag 一律帶上分部軸。
+    const segTag = segDims.map((d) => d.axis).sort().join('+')
+    const othersOk = (own: Set<string>): boolean => {
+      for (const d of ctx.dims) {
+        if (own.has(d.axis)) continue
+        if (!consAxes.has(d.axis)) {
+          // 設定層允許無視的維度（集中度揭露包住的地區營收，見 passthrough_dims）
+          if (passthrough.get(d.axis)?.has(d.member)) {
+            // ⚠️ 放行的前提是這筆真的是金額。集中度揭露最常見的標法是**百分比**
+            // （0.38 表示 38%，unitRef 指到 pure），照收會把 0.38 當成 0.38 美元。
+            if (isMonetaryUnit(f.unit)) continue
+            drop('passthrough_not_monetary', `${d.axis}@${segTag}`, cid, f.val)
+            return false
+          }
+          // 避險關係、公允價值層級…→ 預設不是分部主數字
+          drop('foreign_dim', `${d.axis}@${segTag}`, cid, f.val)
+          return false
+        }
+        // ConsolidationItems：只收營運分部，排除公司未分攤/沖銷/調節項
+        const bareMember = d.member.slice(d.member.indexOf(':') + 1)
+        if (!consInclude.has(d.member) || consExclude.some((re) => re.test(bareMember))) {
+          drop('cons_not_operating', `${d.member}@${segTag}`, cid, f.val)
+          return false
+        }
+      }
+      return true
+    }
+
+    if (segDims.length !== 1) {
+      // 兩個分部軸交叉標註（BW：ProductOrService=Parts × BusinessSegments=BW）。
+      // 現行合併流程仍然丟掉它，但先把值留在 cross 裡：遙測要靠它算金額，
+      // 之後的投影修法也才不必讓全體公司重新解析一次 instance。
+      const axes = segDims.map((d) => d.axis).sort().join('×')
+      // 三軸以上（JNJ：產品×地區×分部）分開記，好在遙測裡看得出是哪一種；
+      // 收集方式相同 —— 投影是「把其餘各軸一起加總掉」，兩軸或多軸沒有差別。
+      drop(segDims.length > 2 ? 'deep_cross' : 'cross_axis', axes, cid, f.val)
+      const own = new Set(segDims.map((d) => d.axis))
+      if (!othersOk(own)) continue
+      const excluded = segDims.some((d) => {
+        const b = d.member.slice(d.member.indexOf(':') + 1)
+        return consExclude.some((re) => re.test(b))
+      })
+      if (excluded) continue
+      for (let i = 0; i < segDims.length; i++) {
+        const me = segDims[i]
+        // 其餘各軸的成員合成一把 key：投影時對這把 key 加總，每筆事實只會被算一次
+        const otherKey = segDims
+          .filter((_, j) => j !== i)
+          .map((d) => normalizeMember(d.member, cfg))
+          .sort()
+          .join('|')
+        const mk = normalizeMember(me.member, cfg)
+        out.labels[mk] ??= humanize(me.member)
+        const byAxis = (out.cross[period] ??= {})
+        const byMember = ((byAxis[me.axis] ??= {})[mk] ??= {})
+        ;(byMember[otherKey] ??= {})[cid] = f.val
+      }
+      continue
+    }
     const seg = segDims[0]
 
-    let ok = true
-    for (const d of ctx.dims) {
-      if (d.axis === seg.axis) continue
-      if (!consAxes.has(d.axis)) {
-        ok = false // 帶了其他無關維度（如避險關係、公允價值層級）→ 不是分部主數字
-        break
-      }
-      // ConsolidationItems：只收營運分部，排除公司未分攤/沖銷/調節項
-      const bareMember = d.member.slice(d.member.indexOf(':') + 1)
-      if (!consInclude.has(d.member) || consExclude.some((re) => re.test(bareMember))) {
-        ok = false
-        break
-      }
-    }
-    if (!ok) continue
+    if (!othersOk(new Set([seg.axis]))) continue
 
     // 分部軸自己的成員也可能是調節項（如 us-gaap:AllOtherSegmentsMember）
     const segBare = seg.member.slice(seg.member.indexOf(':') + 1)
-    if (consExclude.some((re) => re.test(segBare))) continue
+    if (consExclude.some((re) => re.test(segBare))) {
+      drop('member_excluded', `${seg.member}@${seg.axis}`, cid, f.val)
+      continue
+    }
 
     const key = normalizeMember(seg.member, cfg)
     out.labels[key] ??= humanize(seg.member)
@@ -788,6 +960,237 @@ function pickResidual(
   return new Set(winner)
 }
 
+/**
+ * ── 靜默漏抓偵測 ────────────────────────────────────────────────────────────
+ *
+ * 為什麼要有這東西：BW 的 `/api/segments` 回應是 `warnings: []`、每一格 `verified`
+ * 都是 true，看起來完美 —— 但整個產品軸（Parts/Projects/Construction）從來沒出現，
+ * 三個分部的 2025Q1/Q2 也整排消失。被丟掉的事實不會進到回應裡，所以**看輸出永遠
+ * 看不見這類漏抓**。這裡把抽取器記下來的丟棄遙測和輸出結構對照，算出可疑跡象。
+ *
+ * 判定全部是結構性的、與個別公司無關，所以同一種揭露型態的公司會一起被抓出來 ——
+ * 修一個型態就修掉一整類，不必一家一家排查。
+ */
+export function detectGaps(
+  cfg: SegmentAxesConfig,
+  merged: ExtractedFilingSegments,
+  claimedTotals: Map<string, Record<string, number> | undefined>,
+  periods: string[],
+  blocks: SegmentAxisBlock[],
+): SegmentGap[] {
+  const gaps: SegmentGap[] = []
+  const tolPct = cfg.hierarchy.tolerance_pct / 100
+  const axisZh = new Map(cfg.axes.map((a) => [a.axis, a.zh]))
+  const totalOf = (p: string, ax: string): number | undefined =>
+    (claimedTotals.get(`${p}|${ax}`) ?? merged.totals[p])?.['revenue']
+
+  // ── S1 整個軸被丟掉：instance 有這個軸的目標科目事實，輸出卻沒有這個軸
+  const emitted = new Set(blocks.map((b) => b.axis))
+  /** 已經以 axis_dropped 回報過的軸，供 S4 去重用 */
+  const droppedAxes = new Set<string>()
+  for (const [ax, n] of Object.entries(merged.seenAxes)) {
+    if (emitted.has(ax)) continue
+    // 金額優先用交叉維度裡的實際數字（那才是真的被丟掉的營收），
+    // 沒有的話退回遙測累計的絕對金額（會跨申報重複計、只當嚴重性排序用）
+    let amount = 0
+    for (const p of Object.keys(merged.cross)) {
+      for (const byOther of Object.values(merged.cross[p]?.[ax] ?? {})) {
+        for (const byC of Object.values(byOther)) amount += Math.abs(byC['revenue'] ?? 0)
+      }
+    }
+    // 這個軸是被什麼原因擋掉的 —— 取金額最大的那一條。沒有這個歸因，排行榜只會說
+    // 「軸不見了」，說不出該修哪裡；有了它，同一種原因的公司會自動歸成同一個型態。
+    let why = ''
+    for (const [k, d] of Object.entries(merged.dropped)) {
+      if (k.startsWith('kind_mismatch|') || !k.includes(ax)) continue
+      amount += d.abs
+      if (!why || d.abs > (merged.dropped[why]?.abs ?? 0)) why = k
+    }
+    // 都算不出來時，改用「有多少營收在這個軸上完全沒有拆分」當嚴重性 ——
+    // 整軸消失本來就是最重的一類，不能因為算不出金額就沉到排行榜底部
+    if (!amount) {
+      for (const p of periods) amount += Math.abs(merged.totals[p]?.['revenue'] ?? 0)
+    }
+    droppedAxes.add(ax)
+    gaps.push({
+      code: 'axis_dropped',
+      axis: ax,
+      detail:
+        `${axisZh.get(ax) ?? ax}：instance 有 ${n} 筆目標科目事實掛在這個軸，輸出卻完全沒有這個軸` +
+        (why ? `（主因 ${why.replace('|', '：')}）` : ''),
+      amount,
+    })
+  }
+
+  for (const b of blocks) {
+    // ── S2 退化軸：某期只剩一個成員、而且等於合併總額 → 等於沒揭露分部
+    //    （ASC 280「單一應報告分部」的標註慣例，讀者會誤以為公司真的只有一塊業務）
+    const degenerate: string[] = []
+    let degAmount = 0
+    for (const p of periods) {
+      const withVal = b.members.filter((m) => typeof m.values[p]?.['revenue']?.value === 'number')
+      if (withVal.length !== 1) continue
+      const v = withVal[0].values[p]['revenue'].value
+      const t = totalOf(p, b.axis)
+      if (t === undefined || Math.abs(v - t) > Math.abs(t) * tolPct) continue
+      degenerate.push(p)
+      degAmount += Math.abs(t)
+    }
+    if (degenerate.length) {
+      gaps.push({
+        code: 'degenerate_axis',
+        axis: b.axis,
+        detail: `${b.zh}：${degenerate.length} 期只有單一成員且等於合併總額，資訊量為零`,
+        amount: degAmount,
+        periods: degenerate,
+      })
+    }
+
+    // ── S3 期間破洞：同一成員的季度序列中間空一格、前後都有值
+    //    改組（成員整組換掉）不會長這樣 —— 那是尾端截斷，不是中間挖洞。
+    //    中間挖洞代表較新的申報把較舊申報的拆法蓋掉了（BW 的 2025Q1/Q2）。
+    const q = periods.filter((p) => splitPeriod(p).kind === 'Q')
+    const holes = new Set<string>()
+    let holeAmount = 0
+    for (const m of b.members) {
+      const hit = q.map((p) => typeof m.values[p]?.['revenue']?.value === 'number')
+      const first = hit.indexOf(true)
+      const last = hit.lastIndexOf(true)
+      if (first < 0 || last - first < 2) continue
+      for (let i = first + 1; i < last; i++) {
+        if (hit[i]) continue
+        holes.add(q[i])
+        // 缺的那一格值多少無從得知，用前後兩個有值的季度取平均當規模估計
+        let lo = i - 1
+        while (lo > first && !hit[lo]) lo--
+        let hi = i + 1
+        while (hi < last && !hit[hi]) hi++
+        holeAmount +=
+          (Math.abs(m.values[q[lo]]['revenue'].value) + Math.abs(m.values[q[hi]]['revenue'].value)) / 2
+      }
+    }
+    if (holes.size) {
+      gaps.push({
+        code: 'period_hole',
+        axis: b.axis,
+        detail: `${b.zh}：${[...holes].length} 個季度夾在有值的季度之間卻整排空白`,
+        amount: holeAmount,
+        periods: [...holes].sort(),
+      })
+    }
+  }
+
+  /**
+   * ── S4 被丟掉的事實 ──────────────────────────────────────────────────────
+   *
+   * **只列「可以救回來」的原因**。抽取器丟東西大多是對的：`foreign_dim`（客戶
+   * 集中度、權益法投資、公允價值層級）、`cons_not_operating`（公司未分攤、沖銷）、
+   * `kind_mismatch`（YTD 累計）都是刻意的過濾，把它們當漏抓會直接淹掉真訊號 ——
+   * 實測 UNH 的 MajorCustomersAxis 一家就報 8,000B，排行榜整個沒法看。
+   * 完整的丟棄明細仍留在 ExtractedFilingSegments.dropped 裡供除錯。
+   */
+  const RECOVERABLE = new Set(['cross_axis', 'deep_cross', 'member_excluded'])
+  for (const [k, d] of Object.entries(merged.dropped)) {
+    const [reason, tag] = k.split('|')
+    if (!RECOVERABLE.has(reason) || d.abs === 0) continue
+    if (reason === 'cross_axis' || reason === 'deep_cross') {
+      const axes = tag.split('×')
+      // 抽取時丟掉、合併時又被投影救回來的不算漏抓。遙測記在抽取層（那時還不知道
+      // 救不救得回來），所以要在這裡回頭核銷，否則 BW 修好之後仍會報 31.7 億漏抓
+      if (axes.every((ax) => emitted.has(ax))) continue
+      // 已經有 axis_dropped 在講同一件事了，別讓同一個問題在排行榜上占兩格
+      // （WMT 的產品軸同時報 79 億與 33 億，其實是同一筆交叉表）
+      if (axes.some((ax) => droppedAxes.has(ax))) continue
+    }
+    // 交叉維度的金額改從 cross 取：dropped.abs 是逐份申報累加的，同一期被多份
+    // 申報揭露就會重複計；cross 在合併時已經去重，而且每筆只取一個方向才不會算兩次
+    let amount = d.abs
+    if (reason === 'cross_axis') {
+      const first = tag.split('×')[0]
+      let dedup = 0
+      for (const p of Object.keys(merged.cross)) {
+        for (const byOther of Object.values(merged.cross[p]?.[first] ?? {})) {
+          for (const byC of Object.values(byOther)) dedup += Math.abs(byC['revenue'] ?? 0)
+        }
+      }
+      if (dedup) amount = dedup
+    }
+    gaps.push({
+      code: 'dropped_facts',
+      axis: reason,
+      detail: `${reason}：${tag} 丟掉 ${d.n} 筆目標科目事實`,
+      amount,
+    })
+  }
+
+  return gaps.sort((a, b) => b.amount - a.amount)
+}
+
+/**
+ * ── 交叉表投影 ──────────────────────────────────────────────────────────────
+ *
+ * 有些公司不是「一個軸標一組數字」，而是把兩個軸交叉標在同一筆事實上。BW 從
+ * FY2025 起就是這樣：
+ *
+ *   srt:ProductOrServiceAxis=bw:PartsMember | us-gaap:StatementBusinessSegmentsAxis=bw:BWMember
+ *
+ * 這種事實兩個軸都不是單獨可用的，抽取器只好整筆丟掉 —— 於是產品軸一個成員都沒有，
+ * 分部軸只剩一個等於總額的 bw。實際上把另一個軸加總掉就還原得出產品軸的三個成員。
+ *
+ * 兩道護欄，缺一不可：
+ *
+ * 1. **只救「整個軸完全不存在」的公司**，而且要看合併完所有申報之後的結果。
+ *    軸本來就有直接資料時，交叉表提供的是「更細一層的補充揭露」——**那是不同粒度的
+ *    另一層**，混進同一個軸，上層匯總的跨期投票就會挑出一組只適用部分期間的答案，
+ *    把本來對得上的欄位弄成對不上（ORCL 的地區軸年報兩層、10-Q 一層，已經踩過同一個
+ *    陷阱，見 reconcileConcept）。要支援那種補充揭露是另一個題目，不能順手混進來。
+ *
+ * 2. **投影結果必須對得上合併總額。** 交叉表的另一個軸若含上層匯總成員，加總會變成
+ *    總額的兩倍，對帳直接擋掉；WMT 的交叉表只涵蓋 Walmart US 與 Sam's Club US
+ *    （575,990M vs 合併 706,413M，缺國際部門），也會被擋下來 —— 寧可留白，
+ *    不要給一組看起來像全公司拆解、其實少一塊的數字。
+ */
+export function projectMissingAxes(
+  merged: ExtractedFilingSegments,
+  cfg: SegmentAxesConfig,
+  claimedTotals: Map<string, Record<string, number> | undefined>,
+): void {
+  const tol = cfg.hierarchy.tolerance_pct / 100
+  for (const def of cfg.axes) {
+    // 護欄 1：合併完之後這個軸還是一個成員都沒有，才輪得到投影
+    const alreadyHas = Object.values(merged.data).some(
+      (byAxis) => Object.keys(byAxis[def.axis] ?? {}).length > 0,
+    )
+    if (alreadyHas) continue
+
+    for (const [p, byAxis] of Object.entries(merged.cross)) {
+      const byMem = byAxis[def.axis]
+      if (!byMem) continue
+
+      // 把其餘各軸一起加總掉：conceptId → 成員 → 值
+      const proj: Record<string, Record<string, number>> = {}
+      for (const [mk, byOther] of Object.entries(byMem)) {
+        for (const byC of Object.values(byOther)) {
+          for (const [cid, v] of Object.entries(byC)) {
+            const box = (proj[cid] ??= {})
+            box[mk] = (box[mk] ?? 0) + v
+          }
+        }
+      }
+
+      for (const [cid, mem] of Object.entries(proj)) {
+        const total = merged.totals[p]?.[cid]
+        if (total === undefined) continue
+        const sum = Object.values(mem).reduce((a, b) => a + b, 0)
+        if (Math.abs(sum - total) > Math.abs(total) * tol) continue // 護欄 2
+        const tgt = ((merged.data[p] ??= {})[def.axis] ??= {})
+        for (const [mk, v] of Object.entries(mem)) (tgt[mk] ??= {})[cid] = v
+        claimedTotals.set(`${p}|${def.axis}`, merged.totals[p])
+      }
+    }
+  }
+}
+
 /** 反查表：裸標籤 → concept id（沿用 xbrl_zh_map 既有的 tags/tags_ifrs） */
 async function buildTagIndex(): Promise<Map<string, string>> {
   const map = await loadMap()
@@ -815,18 +1218,37 @@ export async function getSegments(
   const tagIdx = await buildTagIndex()
   const warnings: string[] = []
 
-  const merged: ExtractedFilingSegments = { data: {}, totals: {}, residual: {}, labels: {} }
+  const merged: ExtractedFilingSegments = {
+    data: {},
+    totals: {},
+    residual: {},
+    labels: {},
+    cross: {},
+    dropped: {},
+    seenAxes: {},
+  }
   /** `期間|軸` → 最新那份申報給的成員集合。後面較舊的申報不得再加新成員，見下方說明 */
   const claimedMembers = new Map<string, Set<string>>()
   /** `期間|軸` → 供應該批成員的那份申報所報的合併總額／調節項（重編過的年度不可混用） */
   const claimedTotals = new Map<string, Record<string, number> | undefined>()
   const claimedResidual = new Map<string, Record<string, Record<string, number>> | undefined>()
+  /** `期間|軸` → 交叉表已由較新的申報供應過，不再與較舊的疊加（見下方說明） */
+  const claimedCross = new Set<string>()
 
   for (const f of filings) {
     // v2：期間 key 加上 A/Q 種類後綴（見 periodKey）。
     // v3：多了 residual（調節項）。舊快取沒有這個欄位，沿用會讓 PG 那類公司
     // 永遠補不回 corporate 那一塊，所以換路徑而不是原地覆寫。
-    const key = `seg/v3/${ref.cik10}/${f.accessionNumber}.json`
+    // v4：多了 cross（交叉維度事實）與 dropped/seenAxes（漏抓遙測）。舊快取沒有
+    // 這些欄位，沿用的話漏抓偵測會對已快取的公司一律回報「乾淨」—— 那是假陰性，
+    // 比沒有偵測器更糟，所以換路徑而不是原地相容。
+    // v5：passthrough_dims 讓集中度軸包住的地區營收得以收進來（TXN），抽取結果本身變了。
+    //
+    // ⚠️ key 一併綁上 config 版本。抽取結果是「instance × 設定檔」的函數 —— 只靠
+    // 手動版號的話，改了 config/segment_axes.json 卻忘了改這裡，全體公司就會安靜地
+    // 吃舊快取：新增一個軸毫無效果，而且不會有任何錯誤訊息。綁上去之後設定檔改版
+    // 即自動失效，不必記得同時改兩個地方。
+    const key = `seg/v5-${cfg.version}/${ref.cik10}/${f.accessionNumber}.json`
     let one: ExtractedFilingSegments | null = null
     try {
       one = await cached(key, async () => {
@@ -840,6 +1262,7 @@ export async function getSegments(
       continue
     }
     if (!one) continue
+
 
     /**
      * ── 同一期間被多份申報揭露時，新的那份說了算 ────────────────────────────
@@ -886,8 +1309,38 @@ export async function getSegments(
         for (const [cid, v] of Object.entries(byC)) if (!(cid in cell)) cell[cid] = v
       }
     }
+    /**
+     * 交叉表也要套「新的申報說了算」，而且是**整組**採用，不能逐格聯集。
+     *
+     * 逐格聯集會出事，因為兩份申報的另一個軸成員名字不同：BW 的 2026Q2 10-Q 把
+     * 2025-06-30 標成 Parts×bw（60,535，對得上重編後的 138,856），2025Q2 自己那份
+     * 則按舊三分部拆成 Parts×Thermal 49,620 ＋ Parts×Environmental 10,309 ＋
+     * Parts×Renewable 4,851。otherKey 不撞，於是兩組都留下來，投影一加總變成
+     * 282,912 —— 對不上總額，整欄被拒、變成空白。基礎不同的兩張交叉表本來就不能疊。
+     */
+    for (const [p, byAxis] of Object.entries(one.cross ?? {})) {
+      const tgt = (merged.cross[p] ??= {})
+      for (const [ax, byMem] of Object.entries(byAxis)) {
+        if (claimedCross.has(`${p}|${ax}`)) continue
+        claimedCross.add(`${p}|${ax}`)
+        tgt[ax] = byMem
+      }
+    }
+    for (const [k, d] of Object.entries(one.dropped ?? {})) {
+      const t = (merged.dropped[k] ??= { n: 0, abs: 0 })
+      t.n += d.n
+      t.abs += d.abs
+    }
+    for (const [ax, n] of Object.entries(one.seenAxes ?? {})) {
+      merged.seenAxes[ax] = (merged.seenAxes[ax] ?? 0) + n
+    }
     Object.assign(merged.labels, one.labels)
   }
+
+  // 交叉表投影：把「只有交叉標註、因此整個軸都不見」的軸還原出來（BW 的產品軸）。
+  // 一定要等所有申報合併完才做 —— 判準是「這個軸完全沒有直接資料」，逐份申報看
+  // 會誤判（那份沒有不代表別份沒有），實測會混進不同粒度的成員、淨掉 158 格。
+  projectMissingAxes(merged, cfg, claimedTotals)
 
   // 年度欄在前、季度欄在後，各自依日期遞增。
   // 刻意不按時間單一排序：把 FY2024 夾在 FY2025 Q1 與 Q2 中間，柱狀圖會變成
@@ -920,9 +1373,17 @@ export async function getSegments(
       const m = merged.data[p]?.[def.axis]
       if (!m) continue
       byPeriodMembers[p] = m
+      // 合併總額：優先取供應這批成員的那份申報（重編前後不可混用 —— GPN 的地區軸
+      // 就是拿舊拆法去對新總額才被誤標成對不上）。但那份申報**沒報**該期總額時仍要
+      // 退回其他申報：年報最舊的那個比較年度常常沒有無維度事實。實測拿掉這層退路，
+      // DIS/IDA/EQT/CLVT/FCX 合計掉兩百多格「對得上」—— 那是缺值，不是基礎不同。
       const t = claimedTotals.get(`${p}|${def.axis}`) ?? merged.totals[p]
       if (t) axisTotals[p] = t
-      const r = claimedResidual.get(`${p}|${def.axis}`) ?? merged.residual[p]
+      // ⚠️ 調節項**沒有這層退路**，因為它不是缺值問題：跨申報借用會把別份的分部間
+      // 沖銷套到這一份的成員上。BW 的 FY2023 拿 FY2024 10-K 的 −21,391 千元去對
+      // FY2025 10-K 重編後的 587,448 千元總額，調節項投票整組被否決，連 FY2022
+      // 都跟著掉成未校驗。寧可不補，也不要補一塊別人的。
+      const r = claimedResidual.get(`${p}|${def.axis}`)
       if (r) axisResidual[p] = r
     }
     const hier = new Map<string, ReturnType<typeof reconcileConcept>>()
@@ -998,6 +1459,13 @@ export async function getSegments(
 
   if (blocks.length === 0) warnings.push('這家公司的申報未揭露可辨識的分部維度')
 
+  // 靜默漏抓：只有「整個軸不見」與「季度中間挖洞」兩種會影響讀者對表格的解讀，
+  // 進 warnings 讓 UI 說出來；其餘留在 gaps 供全市場掃描排序，不吵使用者。
+  const gaps = detectGaps(cfg, merged, claimedTotals, periods, blocks)
+  for (const g of gaps) {
+    if (g.code === 'axis_dropped' || g.code === 'period_hole') warnings.push(g.detail)
+  }
+
   return {
     company,
     cik: ref.cik10,
@@ -1006,5 +1474,6 @@ export async function getSegments(
     periods,
     axes: blocks,
     warnings,
+    gaps,
   }
 }

@@ -1,6 +1,6 @@
 {
- "version": "1.5",
- "updated": "2026-08-19",
+ "version": "1.6",
+ "updated": "2026-08-20",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
   {
@@ -835,11 +835,13 @@
    "sign": "natural",
    "tags": [
     "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
-    "CashAndCashEquivalentsPeriodIncreaseDecrease"
+    "CashAndCashEquivalentsPeriodIncreaseDecrease",
+    "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect"
    ],
    "tags_ifrs": [
     "IncreaseDecreaseInCashAndCashEquivalents"
-   ]
+   ],
+   "note": "Excluding 版排最後，因為它與前兩個定義不同：Excluding + EffectOfExchangeRateOnCash… = Including。有前兩個時絕不會用到它。但有一整批公司（多為外國發行人與美元以外功能性貨幣者）只報 Excluding，2025Q3 一季就有 1,274 家；抽驗 30 家大型加速申報人，29 家在那些期間的 companyfacts 裡確實找不到前兩個標籤 —— 也就是網頁上就是 n/a。拿定義稍有差異的數字（差額＝匯率影響）好過留白。來源：tools/fsds_coverage.py。"
   }
  ],
  "metrics_note": "季度資料計算比率時的規則：(1) 分子為流量（IS/CF）、分母為存量（BS）時，分母取期初期末平均；(2) ROE/ROA/ROIC 等報酬率須年化（季度值 ×4）或改用 TTM，Excel 中一律標註採用何種基準；(3) 需要股價的估值倍數（P/E、EV/EBITDA）SEC 不提供，v1 不做。",

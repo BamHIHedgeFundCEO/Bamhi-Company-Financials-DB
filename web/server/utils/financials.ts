@@ -1,4 +1,5 @@
 import { secFetchJson } from './secFetch'
+import { notApplicableFor } from './applicability'
 import type { CompanyRef } from './cik'
 
 /**
@@ -85,6 +86,10 @@ export interface LineItem {
   sign: string
   sourceTag: string | null
   values: Record<string, CellValue> // key: "FY2026 Q2"
+  /** false = 這個科目對該公司的產業本來就不存在（銀行沒有存貨、控股公司沒有毛利）。
+   *  缺值時要寫「—」不是 n/a —— 兩種留白的意思完全不同，見 applicability.ts。
+   *  只影響缺值的呈現，不影響任何有值的格子 */
+  applicable?: boolean
 }
 
 export interface FinancialsResult {
@@ -1209,6 +1214,17 @@ export async function getFinancials(
     })
   }
   const periods = [...allPeriods].sort() // FY2023 Q1 < FY2023 Q2 < ...（年度模式 FY2023 < FY2024）字典序即正確
+
+  // 標出「該產業本來就沒有」的科目，讓缺值能寫「—」而不是 n/a。
+  // 放在最後：期末股數等後處理補值跑完才判，否則會把補得到的科目誤標成不適用。
+  // 這裡只加旗標、不動任何數值。
+  const na = await notApplicableFor(ref.sic)
+  if (na.size) {
+    for (const li of lineItems) {
+      if (na.has(li.id)) li.applicable = false
+    }
+  }
+
   return {
     company: facts.entityName || ref.name,
     cik: ref.cik10,

@@ -1,0 +1,260 @@
+{
+ "version": "1.0",
+ "generated": "2026-08-20",
+ "source": [
+  "fsds_2025q3.zip"
+ ],
+ "map_version": "1.6",
+ "threshold": 0.15,
+ "note": "由 tools/fsds_coverage.py --applicability 產生。某產業有 >=85% 的公司從不申報某科目 -> 該科目對這個產業視為「不適用」，值缺時寫「—」而不是 n/a。**只在值本來就缺時才生效**，不會蓋掉任何真數字，也不會藏住真缺口。",
+ "sic_groups": [
+  {
+   "lo": 6020,
+   "hi": 6199,
+   "name": "銀行與信貸"
+  },
+  {
+   "lo": 6200,
+   "hi": 6299,
+   "name": "券商與交易所"
+  },
+  {
+   "lo": 6300,
+   "hi": 6499,
+   "name": "保險"
+  },
+  {
+   "lo": 6500,
+   "hi": 6599,
+   "name": "REIT 與不動產"
+  },
+  {
+   "lo": 6700,
+   "hi": 6799,
+   "name": "控股與投資機構"
+  },
+  {
+   "lo": 4900,
+   "hi": 4999,
+   "name": "公用事業"
+  },
+  {
+   "lo": 4000,
+   "hi": 4799,
+   "name": "運輸"
+  },
+  {
+   "lo": 1000,
+   "hi": 1499,
+   "name": "礦業與油氣"
+  },
+  {
+   "lo": 1500,
+   "hi": 1799,
+   "name": "營建"
+  },
+  {
+   "lo": 2000,
+   "hi": 2199,
+   "name": "食品菸草"
+  },
+  {
+   "lo": 2833,
+   "hi": 2836,
+   "name": "生技製藥"
+  },
+  {
+   "lo": 2800,
+   "hi": 2899,
+   "name": "化學"
+  },
+  {
+   "lo": 3570,
+   "hi": 3579,
+   "name": "電腦硬體"
+  },
+  {
+   "lo": 3674,
+   "hi": 3674,
+   "name": "半導體"
+  },
+  {
+   "lo": 3600,
+   "hi": 3699,
+   "name": "電子元件"
+  },
+  {
+   "lo": 7370,
+   "hi": 7379,
+   "name": "軟體與資訊服務"
+  },
+  {
+   "lo": 8000,
+   "hi": 8099,
+   "name": "醫療服務"
+  },
+  {
+   "lo": 5200,
+   "hi": 5999,
+   "name": "零售"
+  },
+  {
+   "lo": 5000,
+   "hi": 5199,
+   "name": "批發"
+  },
+  {
+   "lo": 2000,
+   "hi": 3999,
+   "name": "其他製造業"
+  },
+  {
+   "lo": 7000,
+   "hi": 8999,
+   "name": "其他服務業"
+  }
+ ],
+ "not_applicable": {
+  "其他製造業": [
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "生技製藥": [
+   "treasury_stock",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "銀行與信貸": [
+   "current_assets",
+   "current_liabilities",
+   "accounts_payable",
+   "accounts_receivable",
+   "gross_profit",
+   "cogs",
+   "operating_lease_liab_nc",
+   "inventory",
+   "rnd",
+   "deferred_revenue",
+   "short_term_investments"
+  ],
+  "控股與投資機構": [
+   "ppe_net",
+   "gross_profit",
+   "cogs",
+   "operating_lease_liab_nc",
+   "goodwill",
+   "short_term_debt",
+   "inventory",
+   "rnd",
+   "deferred_revenue",
+   "treasury_stock",
+   "short_term_investments",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "其他服務業": [
+   "short_term_investments",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "軟體與資訊服務": [
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "零售": [
+   "rnd",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "礦業與油氣": [
+   "goodwill",
+   "rnd",
+   "deferred_revenue",
+   "short_term_investments",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "券商與交易所": [
+   "current_assets",
+   "current_liabilities",
+   "gross_profit",
+   "cogs",
+   "operating_lease_liab_nc",
+   "short_term_debt",
+   "inventory",
+   "rnd",
+   "deferred_revenue",
+   "short_term_investments",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "電子元件": [
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "公用事業": [
+   "rnd",
+   "short_term_investments",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "保險": [
+   "gross_profit",
+   "cogs",
+   "operating_lease_liab_nc",
+   "inventory",
+   "rnd",
+   "deferred_revenue",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "化學": [
+   "short_term_investments",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "批發": [
+   "rnd",
+   "short_term_investments",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "食品菸草": [
+   "rnd",
+   "short_term_investments",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "運輸": [
+   "rnd",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "醫療服務": [
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "REIT 與不動產": [
+   "inventory",
+   "rnd",
+   "treasury_stock",
+   "short_term_investments",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "半導體": [
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "營建": [
+   "rnd",
+   "short_term_investments",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "電腦硬體": [
+   "interest_income_net",
+   "noninterest_income"
+  ]
+ }
+}

@@ -16,6 +16,9 @@ export interface CompanyRef {
   ticker: string
   tickers: string[]
   name: string
+  /** SEC 的四碼 SIC。用來判斷科目對這個產業適不適用（見 applicability.ts）。
+   *  來自 submissions —— resolveCompany 本來就會抓它，不多花 SEC 請求 */
+  sic?: string
 }
 
 let byTicker: Map<string, CompanyRef> | null = null
@@ -116,11 +119,12 @@ export async function resolveTicker(input: string): Promise<CompanyRef | null> {
 const ANNUAL_FORMS = ['10-K', '20-F', '40-F']
 const MAX_CANDIDATES = 3
 
-/** 只取判定要用的兩個欄位，避免 import filings.ts 造成循環相依 */
+/** 只取判定要用的幾個欄位，避免 import filings.ts 造成循環相依 */
 interface SubsLite {
   name: string
   /** SEC 認定的掛牌代號。合併申報裡的營運合夥／子公司這裡是空陣列 */
   tickers?: string[]
+  sic?: string
   filings: { recent: { form: string[]; accessionNumber: string[] } }
 }
 
@@ -252,5 +256,13 @@ export async function resolveCompany(input: string): Promise<CompanyRef | null> 
   const ref = await resolveTicker(input)
   if (!ref) return null
   const listed = (await listedSiblingOf(ref)) ?? ref
-  return (await predecessorOf(listed)) ?? listed
+  const final = (await predecessorOf(listed)) ?? listed
+  // SIC 要取**最終那個 CIK** 的：重組後改指前身時，產業要跟著前身走。
+  // subsOf 這時一定已在快取裡（上面兩個判定都打過），所以不會多一次請求。
+  try {
+    final.sic = (await subsOf(final.cik10)).sic
+  } catch {
+    // 拿不到就留空 —— applicability 會退回「不知道」，一律維持 n/a
+  }
+  return final
 }

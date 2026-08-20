@@ -127,6 +127,7 @@ def build_workbook(payload: dict) -> bytes:
 
     q4_fill = PatternFill("solid", fgColor=th["palette"]["q4_estimated_fill"].lstrip("#"))
     missing = th["layout"]["missing_value"]  # "n/a"
+    inapplicable_stmt = th["layout"].get("inapplicable_value", "—")
 
     wb = Workbook()
     wb.remove(wb.active)
@@ -167,6 +168,13 @@ def build_workbook(payload: dict) -> bytes:
          "但仍可能有科目間推算或沿用前期）。逐格說明見「原始資料」分頁。"),
         ("「n/a」是什麼", "該公司該期間沒有申報此科目——通常是公司本來就沒有這個項目"
          "（如未配息、未買回庫藏股、費用未拆分），不代表數值為零。可對照「原始資料」分頁查證。"),
+        ("「—」是什麼", "此科目對該公司所屬產業不適用，查財報也不會有——例如銀行的資產負債表"
+         "不分流動／非流動，所以沒有「流動資產合計」「存貨」「應付帳款」；保險控股公司不報"
+         "「毛利」「營業利益」；非金融業則沒有「淨利息收入」「非利息收入」。"
+         "判準取自 SEC DERA 全市場 5,542 家公司的申報統計（同產業 85% 以上的公司從不申報該科目），"
+         "設定在 config/concept_applicability.json。"
+         "「—」與 n/a 的差別：n/a 是「該有卻查不到，值得去查」，「—」是「查也查不到」。"
+         "此判斷只影響空格的寫法，凡是有申報的數字一律照實填入，不會被蓋掉。"),
         *([("上市前資料", f"{pre_ipo} 之前的季度已顯示為 n/a。此公司經 SPAC 借殼／IPO 上市，"
             "上市前為私有公司，股數基礎與上市後不可比（每股數值會嚴重失真），故不列出。")]
           if pre_ipo else []),
@@ -232,6 +240,12 @@ def build_workbook(payload: dict) -> bytes:
             if li["statement"] != stmt:
                 continue
             row += 1
+            # applicable=False：該科目對這家公司的產業本來就不存在（銀行沒有存貨、
+            # 控股公司沒有毛利）。缺值要寫「—」不是 n/a —— n/a 是叫讀者自己去查，
+            # 但這種科目查也查不到。判準來自 config/concept_applicability.json，
+            # 由 tools/fsds_coverage.py 從全市場 5,542 家離線盤點而來。
+            # **只影響缺值的呈現**：有值的格子照樣寫值，所以不會蓋掉任何真數字。
+            blank = missing if li.get("applicable", True) else inapplicable_stmt
             locations[li["id"]] = (ws, row)
             resolver.add(li["id"], sheet_name, row)
             ws.cell(row=row, column=1, value=li["zh"]).border = ROW_BORDER
@@ -241,7 +255,7 @@ def build_workbook(payload: dict) -> bytes:
                 cell.border = ROW_BORDER
                 v = li["values"].get(p)
                 if v is None or v.get("value") is None:
-                    cell.value = missing  # 絕不寫 0
+                    cell.value = blank  # 絕不寫 0
                     cell.font = na_font
                     cell.alignment = Alignment(horizontal="right")
                 else:

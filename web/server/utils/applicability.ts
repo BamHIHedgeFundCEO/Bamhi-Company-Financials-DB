@@ -35,8 +35,11 @@
 interface Applicability {
   version: string
   threshold: number
+  structural_threshold: number
   sic_groups: { lo: number; hi: number; name: string }[]
   not_applicable: Record<string, string[]>
+  /** 更嚴的一份（同業申報率 < 8%），一律與逐家判斷取聯集，見 notApplicableFor */
+  structural: Record<string, string[]>
 }
 
 /** 逐家表。體積考量存成索引：concepts 是科目 id 陣列，companies 的值是逗號分隔的索引 */
@@ -91,21 +94,31 @@ function groupOf(cfg: Applicability, sic?: string): string | null {
 /**
  * 回傳這家公司「不適用」的科目 id 集合。
  *
- * 逐家表收錄了就直接用，**不再混產業表**：逐家表是看這家公司自己的報表判的，
- * 產業表是同業的統計。兩者衝突時逐家表才對，取聯集等於讓比較差的那份也有票。
- * 逐家表沒收錄才退回產業表；產業也判不出來就回空集合 —— 不知道時維持 n/a，
- * 寧可多顯示 n/a 也不要假裝不適用。
+ *   逐家表收錄了  ->  逐家 ∪ 該產業的 structural
+ *   沒收錄        ->  該產業的 not_applicable（較寬的那份）
+ *   產業也判不出  ->  空集合，維持 n/a
+ *
+ * **只有 structural 那份可以蓋過逐家判斷。**一般的 not_applicable（<15%）不行：
+ * 逐家表是看這家公司自己的報表判的，產業表是同業統計，衝突時逐家才對。實測用
+ * 15% 取聯集會把 JPM／美銀的應收帳款、波克夏的營業成本與毛利寫成「—」，
+ * 但那些公司的報表上真的有那一行 —— 那是把真缺口藏起來。
+ *
+ * structural（<8%）是例外，因為逐家判斷有一個結構性弱點：它靠標籤詞元比對，
+ * 對「淨利息收入」這種詞元全是泛用字（interest／income／expense）的科目分不出來。
+ * 幾乎每張損益表都有含 income+expense 的標籤，於是 7,093 家裡只有 110 家被判
+ * 不適用 —— 整片非金融業的淨利息收入都顯示 n/a。同業申報率 <8% 是壓倒性的統計
+ * 證據，這種時候讓產業說了算。8% 那批翻面逐一查證全對，15% 那批就開始說謊。
  *
  * @param cik10 SEC 的十碼零填 CIK。逐家表的 key 是去零的整數字串
  */
 export async function notApplicableFor(sic?: string, cik10?: string): Promise<Set<string>> {
-  if (cik10) {
-    const per = (await loadCompany()).get(String(Number(cik10)))
-    if (per) return per
-  }
   const cfg = await load()
-  if (!cfg) return new Set()
-  const g = groupOf(cfg, sic)
-  if (!g) return new Set()
+  const g = cfg ? groupOf(cfg, sic) : null
+  const per = cik10 ? (await loadCompany()).get(String(Number(cik10))) : undefined
+  if (per) {
+    const veto = (g && cfg?.structural?.[g]) || []
+    return veto.length ? new Set([...per, ...veto]) : per
+  }
+  if (!cfg || !g) return new Set()
   return new Set(cfg.not_applicable[g] ?? [])
 }

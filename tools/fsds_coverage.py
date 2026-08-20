@@ -585,6 +585,9 @@ def main():
                     help="產出 config/concept_applicability.json（執行期判斷「—」用）")
     ap.add_argument("--na-threshold", type=float, default=0.15,
                     help="產適用性表用：該產業命中率低於此值視為「該產業不適用」（預設 0.15）")
+    ap.add_argument("--structural-threshold", type=float, default=0.08,
+                    help="低於此值視為「這個產業結構上就沒有這一條」，會覆蓋逐家判斷"
+                         "（預設 0.08，見 --applicability 輸出的 structural）")
     ap.add_argument("--company-applicability", metavar="PATH",
                     help="產出 config/company_applicability.json（逐家判斷，只讀 pre.txt）")
     ap.add_argument("--explain-cik", help="搭配上一項：印出這家公司每個科目的判定理由")
@@ -856,33 +859,48 @@ def main():
     if args.applicability:
         # 執行期只需要「哪些科目在哪個產業視為不適用」，不需要整份覆蓋率。
         # 附上 SIC 區間表，讓 TS 端不必重複一套產業判斷邏輯。
-        na = {}
+        na, structural = {}, {}
         for g in big:
             # 「未分類」= submissions 沒給 SIC；「其他」= SIC 落在所有區間之外。
             # 這兩桶不是產業，是「不知道」。標成不適用等於用猜的把 n/a 洗掉，
             # 實測未分類會產出 26 個不適用（幾乎整張報表），絕對不能收。
             if g in ("未分類", "其他"):
                 continue
-            ids = []
+            ids, hard = [], []
             for r in rows:
                 gd = [k for k in denom[r["stmt"]] if cik2group[k] == g]
                 if len(gd) < args.min_companies:
                     continue
-                if sum(1 for k in gd if got(k, r["id"])) / len(gd) < args.na_threshold:
+                rate = sum(1 for k in gd if got(k, r["id"])) / len(gd)
+                if rate < args.na_threshold:
                     ids.append(r["id"])
+                if rate < args.structural_threshold:
+                    hard.append(r["id"])
             na[g] = ids
+            structural[g] = hard
         out = {
             "version": "1.0",
             "generated": __import__("datetime").date.today().isoformat(),
             "source": [os.path.basename(p) for p in args.zips],
             "map_version": m.get("version"),
             "threshold": args.na_threshold,
+            "structural_threshold": args.structural_threshold,
             "note": ("由 tools/fsds_coverage.py --applicability 產生。"
                      "某產業有 >=85% 的公司從不申報某科目 -> 該科目對這個產業視為「不適用」，"
                      "值缺時寫「—」而不是 n/a。**只在值本來就缺時才生效**，"
                      "不會蓋掉任何真數字，也不會藏住真缺口。"),
+            "note_structural": (
+                "structural 是更嚴的一份（同業申報率 < structural_threshold），"
+                "用途不同：not_applicable 只在 company_applicability.json 沒收錄該公司時當退路，"
+                "structural 則**一律與逐家判斷取聯集**。理由是逐家判斷靠標籤詞元比對，"
+                "對「淨利息收入」這種詞元全是泛用字（interest/income/expense）的科目分不出來，"
+                "實測 7,093 家裡只有 110 家被判不適用，等於整片非金融業都顯示 n/a。"
+                "同業申報率 <8% 是壓倒性的統計證據，這種時候該讓產業說了算。"
+                "門檻不能放寬到 15%：實測 15% 會把 JPM／美銀的應收帳款、波克夏的營業成本與毛利"
+                "寫成「—」，但那些公司的報表上真的有那一行 —— 那是說謊。8% 的 23 個翻面逐一查證全對。"),
             "sic_groups": [{"lo": lo, "hi": hi, "name": nm} for lo, hi, nm in SIC_GROUPS],
             "not_applicable": na,
+            "structural": structural,
         }
         with open(args.applicability, "w", encoding="utf-8") as f:
             json.dump(out, f, ensure_ascii=False, indent=1)

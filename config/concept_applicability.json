@@ -2,11 +2,14 @@
  "version": "1.0",
  "generated": "2026-08-20",
  "source": [
-  "fsds_2025q3.zip"
+  "fsds_2025q3.zip",
+  "fsds_2026q1.zip"
  ],
- "map_version": "1.6",
+ "map_version": "1.7",
  "threshold": 0.15,
+ "structural_threshold": 0.08,
  "note": "由 tools/fsds_coverage.py --applicability 產生。某產業有 >=85% 的公司從不申報某科目 -> 該科目對這個產業視為「不適用」，值缺時寫「—」而不是 n/a。**只在值本來就缺時才生效**，不會蓋掉任何真數字，也不會藏住真缺口。",
+ "note_structural": "structural 是更嚴的一份（同業申報率 < structural_threshold），用途不同：not_applicable 只在 company_applicability.json 沒收錄該公司時當退路，structural 則**一律與逐家判斷取聯集**。理由是逐家判斷靠標籤詞元比對，對「淨利息收入」這種詞元全是泛用字（interest/income/expense）的科目分不出來，實測 7,093 家裡只有 110 家被判不適用，等於整片非金融業都顯示 n/a。同業申報率 <8% 是壓倒性的統計證據，這種時候該讓產業說了算。門檻不能放寬到 15%：實測 15% 會把 JPM／美銀的應收帳款、波克夏的營業成本與毛利寫成「—」，但那些公司的報表上真的有那一行 —— 那是說謊。8% 的 23 個翻面逐一查證全對。",
  "sic_groups": [
   {
    "lo": 6020,
@@ -124,10 +127,21 @@
    "interest_income_net",
    "noninterest_income"
   ],
+  "控股與投資機構": [
+   "ppe_net",
+   "gross_profit",
+   "cogs",
+   "operating_lease_liab_nc",
+   "goodwill",
+   "inventory",
+   "rnd",
+   "deferred_revenue",
+   "treasury_stock",
+   "short_term_investments",
+   "interest_income_net",
+   "noninterest_income"
+  ],
   "銀行與信貸": [
-   "current_assets",
-   "current_liabilities",
-   "accounts_payable",
    "accounts_receivable",
    "gross_profit",
    "cogs",
@@ -137,23 +151,7 @@
    "deferred_revenue",
    "short_term_investments"
   ],
-  "控股與投資機構": [
-   "ppe_net",
-   "gross_profit",
-   "cogs",
-   "operating_lease_liab_nc",
-   "goodwill",
-   "short_term_debt",
-   "inventory",
-   "rnd",
-   "deferred_revenue",
-   "treasury_stock",
-   "short_term_investments",
-   "interest_income_net",
-   "noninterest_income"
-  ],
   "其他服務業": [
-   "short_term_investments",
    "interest_income_net",
    "noninterest_income"
   ],
@@ -161,16 +159,15 @@
    "interest_income_net",
    "noninterest_income"
   ],
-  "零售": [
-   "rnd",
-   "interest_income_net",
-   "noninterest_income"
-  ],
   "礦業與油氣": [
-   "goodwill",
    "rnd",
    "deferred_revenue",
    "short_term_investments",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "零售": [
+   "rnd",
    "interest_income_net",
    "noninterest_income"
   ],
@@ -201,7 +198,6 @@
   "保險": [
    "gross_profit",
    "cogs",
-   "operating_lease_liab_nc",
    "inventory",
    "rnd",
    "deferred_revenue",
@@ -219,14 +215,14 @@
    "interest_income_net",
    "noninterest_income"
   ],
-  "食品菸草": [
+  "運輸": [
    "rnd",
-   "short_term_investments",
    "interest_income_net",
    "noninterest_income"
   ],
-  "運輸": [
+  "食品菸草": [
    "rnd",
+   "short_term_investments",
    "interest_income_net",
    "noninterest_income"
   ],
@@ -237,9 +233,108 @@
   "REIT 與不動產": [
    "inventory",
    "rnd",
-   "treasury_stock",
    "short_term_investments",
    "interest_income_net",
+   "noninterest_income"
+  ],
+  "半導體": [
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "營建": [
+   "rnd",
+   "short_term_investments",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "電腦硬體": [
+   "interest_income_net",
+   "noninterest_income"
+  ]
+ },
+ "structural": {
+  "其他製造業": [
+   "noninterest_income"
+  ],
+  "生技製藥": [
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "控股與投資機構": [
+   "operating_lease_liab_nc",
+   "inventory",
+   "rnd",
+   "deferred_revenue",
+   "treasury_stock",
+   "short_term_investments",
+   "noninterest_income"
+  ],
+  "銀行與信貸": [
+   "inventory",
+   "rnd",
+   "deferred_revenue"
+  ],
+  "其他服務業": [
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "軟體與資訊服務": [
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "礦業與油氣": [
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "零售": [
+   "rnd",
+   "noninterest_income"
+  ],
+  "券商與交易所": [
+   "gross_profit",
+   "cogs",
+   "inventory",
+   "rnd",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "電子元件": [
+   "noninterest_income"
+  ],
+  "公用事業": [
+   "rnd",
+   "short_term_investments",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "保險": [
+   "inventory",
+   "rnd",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "化學": [
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "批發": [
+   "noninterest_income"
+  ],
+  "運輸": [
+   "rnd",
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "食品菸草": [
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "醫療服務": [
+   "interest_income_net",
+   "noninterest_income"
+  ],
+  "REIT 與不動產": [
+   "rnd",
    "noninterest_income"
   ],
   "半導體": [

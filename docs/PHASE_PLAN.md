@@ -181,6 +181,26 @@ LLM 唯一真正的用途是「翻成中文並濃縮」，那是加值層不是�
 `CommonStockSharesIssued` 雖然分數最高**但絕對不能加**——SharesIssued 含庫藏股，
 會讓市值高估。
 
+#### 衍生成果：三大報表的「—」（commit `40ca8b1`）
+
+覆蓋率盤點的第一個直接應用。`config/concept_applicability.json`（21 個 SIC 產業組）
+由 `fsds_coverage.py --applicability` 產生，執行期 `web/server/utils/applicability.ts`
+判斷缺值該寫 `n/a` 還是 `—`。SIC 由 `resolveCompany` 從 submissions 帶出，零額外 SEC 請求。
+
+| | 舊 n/a 率 | 新 n/a 率 |
+|---|---|---|
+| AAPL | 6.4% | **4.7%** |
+| REGN | 8.9% | **7.0%** |
+| JPM | 19.0% | **8.0%** |
+| BRK.A | 23.8% | **18.1%** |
+
+四家的「有值」格數逐字不變 —— 沒有任何真數字被蓋掉。
+
+**已知限制：**BRK.A 降幅小是 SIC 粒度的問題。它是 6331（保險）但實際像控股公司、
+用未分類資產負債表；同組多數小型保險公司有分流動／非流動，所以「流動資產合計」
+在保險組沒低於門檻。要再進一步得做**逐家判斷**（用 IDF 計分器看該公司報表上
+有沒有語意相當的標籤），成本高很多，暫不做。
+
 ---
 
 ### 階段 A — 摘要頁

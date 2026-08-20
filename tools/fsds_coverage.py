@@ -385,6 +385,21 @@ def apply_derive(concepts, hit):
     return derived
 
 
+def _idf(vocab):
+    """詞元的反向文件頻率，文件＝科目。`income`、`liability` 這種橫跨多個科目的詞
+    要壓低權重，`goodwill`、`inventory` 才有份量。
+
+    ⚠ 這個表隨 map 的 tags 變動。在 A 科目加一個 alias 會改變共用詞的 idf，
+    連帶改掉 B 科目對幾百家公司的判定 —— 見 --company-applicability 的回歸警告。
+    """
+    import math
+    df = Counter()
+    for v in vocab.values():
+        df.update(v)
+    n = max(len(vocab), 2)
+    return {t: math.log(n / c) for t, c in df.items()}
+
+
 MIN_SCORE = 4.0     # 低於此分不算候選（單一稀有詞約 3.8 分，兩個普通詞約 3 分）
 MIN_MARGIN = 1.25   # 最佳科目至少要贏第二名這個倍數，否則視為分不清楚，不報
 # 行標題閘門（--na-gaps 專用，見 build_label_scorer）。比 MIN_SCORE 低是因為
@@ -441,12 +456,7 @@ def build_scorer(concepts, vocab, stmt_of):
        淨利息收入三個科目下面，報告變成三份一樣的噪音。
        而且要贏第二名 MIN_MARGIN 倍，分不出來的就不報 —— 寧可漏報也不要假候選。
     """
-    import math
-    df = Counter()
-    for v in vocab.values():
-        df.update(v)
-    n = max(len(vocab), 2)
-    idf = {t: math.log(n / c) for t, c in df.items()}
+    idf = _idf(vocab)
 
     def best(tag, stmt):
         tt = tokens(tag)
@@ -499,6 +509,117 @@ def build_scorer(concepts, vocab, stmt_of):
 #      退回產業表。沒申報過的公司在這裡完全不會出現，不會被判成「什麼都不適用」。
 
 
+# ══════════════════════════════════════════════════════════════════════
+# 第三個訊號：共現＝不同行
+# ══════════════════════════════════════════════════════════════════════
+#
+# 前兩個訊號（標籤詞元、行標題）都在問「這個標籤看起來像不像那個科目」。
+# 兩個都答不出來的時候（行標題含糊，"Other income/(expense), net" 剝掉停用詞
+# 只剩 income+expense，對四個科目同分），需要一個不靠字面的訊號。
+#
+# 這個訊號問的是完全不同的問題：**這兩個標籤會不會出現在同一張報表上？**
+#
+#   會 -> 它們是**兩行**。`OperatingLeaseLiabilityNoncurrent` 和
+#         `LongTermDebtNoncurrent` 同時出現在幾千張資產負債表上，所以前者
+#         永遠不該被當成「這家公司有長期負債那一行」的證據 —— 有長期負債的
+#         公司會直接報長期負債，不會拿租賃負債來代替。
+#   不會 -> 它們是**替代品**。`CashAndDueFromBanks` 幾乎不與
+#          `CashAndCashEquivalentsAtCarryingValue` 同時出現（銀行用前者、
+#          其他公司用後者），所以前者確實是「現金那一行」的證據。
+#
+# 這是純結構訊號，跟標籤怎麼命名、公司怎麼寫行標題都無關，所以和前兩個獨立。
+#
+# 撤銷要有足夠觀測數才算數（COEXIST_MIN_OBS）：只被兩三家公司用過的冷門標籤，
+# 共現率是雜訊。觀測不足就不撤銷 —— 一樣是「不知道就不要猜」。
+
+COEXIST_MAX = 0.50      # 共現率高於此 -> 判定為不同行，撤銷證據資格
+COEXIST_MIN_OBS = 30    # 觀測數不足此值不撤銷（冷門標籤的共現率是雜訊）
+
+
+def build_weak(vocab, stmt_of):
+    """(標籤, 報表) -> 靠詞元分數搆得上 NA_MIN_SCORE 的科目集合（不套任何閘門）。
+
+    共現統計要的是「原本會被當成證據的那些配對」，所以這裡刻意不套行標題閘門。
+    """
+    idf = _idf(vocab)
+    by_stmt = defaultdict(list)
+    for cid, v in vocab.items():
+        by_stmt[stmt_of[cid]].append((cid, v))
+    memo = {}
+
+    def weak(tag, stmt):
+        key = (tag, stmt)
+        r = memo.get(key)
+        if r is None:
+            tt = tokens(tag)
+            r = memo[key] = frozenset(
+                cid for cid, v in by_stmt[stmt]
+                if (tt & v) and sum(idf[t] for t in (tt & v)) >= NA_MIN_SCORE)
+        return r
+
+    return weak
+
+
+def scan_pre_cooccur(z, subs, weak, tag2concepts, stmt_of, seen_direct, seen_cand,
+                     quiet=False):
+    """第一遍掃 pre.txt：記下每家公司每張報表上「哪些科目有直接對照的標籤」
+    與「出現了哪些候選標籤」。跨季取聯集，與 evidence 的算法一致。"""
+    n = 0
+    with z.open("pre.txt") as fh:
+        rd = io.TextIOWrapper(fh, encoding="utf-8", errors="replace", newline="")
+        ix = {c: i for i, c in enumerate(rd.readline().rstrip("\r\n").split("\t"))}
+        i_adsh, i_stmt, i_tag = ix["adsh"], ix["stmt"], ix["tag"]
+        for line in rd:
+            n += 1
+            if not quiet and n % 2_000_000 == 0:
+                print(f"    pre.txt {n:,} 列…", file=sys.stderr)
+            p = line.rstrip("\r\n").split("\t")
+            if len(p) <= i_tag:
+                continue
+            stmt = p[i_stmt]
+            if stmt not in ("IS", "BS", "CF"):
+                continue
+            sub = subs.get(p[i_adsh])
+            if sub is None:
+                continue
+            key = (sub["cik"], stmt)
+            tag = p[i_tag]
+            direct = {c for c in tag2concepts.get(tag, ()) if stmt_of[c] == stmt}
+            if direct:
+                seen_direct[key] |= direct
+            w = weak(tag, stmt) - direct
+            if w:
+                seen_cand[key].add(tag)
+    return n
+
+
+def build_revoked(seen_direct, seen_cand, weak, tag2concepts, stmt_of):
+    """算出要撤銷的 (標籤, 科目) 配對。回傳 {(tag, stmt): frozenset(撤掉的科目)}"""
+    co, alone = defaultdict(int), defaultdict(int)
+    for (cik, stmt), tags in seen_cand.items():
+        direct = seen_direct.get((cik, stmt), frozenset())
+        for tag in tags:
+            for cid in weak(tag, stmt):
+                if cid in tag2concepts.get(tag, ()):
+                    continue
+                if cid in direct:
+                    co[(tag, stmt, cid)] += 1
+                else:
+                    alone[(tag, stmt, cid)] += 1
+    out = defaultdict(set)
+    stats = []
+    for k in set(co) | set(alone):
+        c, a = co.get(k, 0), alone.get(k, 0)
+        if c + a < COEXIST_MIN_OBS:
+            continue
+        rate = c / (c + a)
+        if rate >= COEXIST_MAX:
+            tag, stmt, cid = k
+            out[(tag, stmt)].add(cid)
+            stats.append((c + a, rate, tag, cid))
+    return {k: frozenset(v) for k, v in out.items()}, stats
+
+
 def build_label_scorer(vocab):
     """用申報人自己寫的行標題（pre.txt 的 plabel）替候選標籤把關。
 
@@ -516,12 +637,7 @@ def build_label_scorer(vocab):
     標籤名被分類法的命名慣例帶偏，行標題被公司自己的簡寫帶偏（"Other"、"Total"）。
     一起看才留得下真的。
     """
-    import math
-    df = Counter()
-    for v in vocab.values():
-        df.update(v)
-    n = max(len(vocab), 2)
-    idf = {t: math.log(n / c) for t, c in df.items()}
+    idf = _idf(vocab)
 
     def score(text, cid):
         ov = tokens(text) & vocab[cid]
@@ -530,7 +646,7 @@ def build_label_scorer(vocab):
     return score
 
 
-def build_evidence(concepts, vocab, stmt_of, tag2concepts, near=False):
+def build_evidence(concepts, vocab, stmt_of, tag2concepts, near=False, revoked=None):
     """(標籤, 報表, 行標題) -> 這個標籤可以當作「哪些科目有申報」的證據。
 
     與 build_scorer 的差別：不套贏者全拿、門檻用 NA_MIN_SCORE。
@@ -560,12 +676,7 @@ def build_evidence(concepts, vocab, stmt_of, tag2concepts, near=False):
     NA_MIN_SCORE 之間），給 --audit-na 稽核誤判用；稽核模式不套行標題撤銷，
     因為它本來就是要把可疑的全部攤開來看。
     """
-    import math
-    df = Counter()
-    for v in vocab.values():
-        df.update(v)
-    n = max(len(vocab), 2)
-    idf = {t: math.log(n / c) for t, c in df.items()}
+    idf = _idf(vocab)
     by_stmt = defaultdict(list)
     for cid, v in vocab.items():
         by_stmt[stmt_of[cid]].append((cid, v))
@@ -609,9 +720,11 @@ def build_evidence(concepts, vocab, stmt_of, tag2concepts, near=False):
                 if NA_NEAR_SCORE <= top < NA_MIN_SCORE:
                     out = {cid}
         else:
-            # 直接對照不受行標題閘門影響
+            # 直接對照不受任何閘門影響
             out = {c for c in tag2concepts.get(tag, ()) if stmt_of[c] == stmt}
             weak = {cid for s, cid in scored if s >= NA_MIN_SCORE}
+            if revoked:
+                weak -= revoked.get((tag, stmt), frozenset())  # 共現＝不同行
             cl = claims(plabel, stmt) if plabel else frozenset()
             out |= (weak & cl) if cl else weak
         r = memo[key] = frozenset(out)
@@ -752,7 +865,10 @@ def main():
                          "用來抓誤判（誤判成不適用＝把真缺口洗成「—」＝說謊）")
     args = ap.parse_args()
 
+    # stderr 也要設：Windows 主控台預設 cp950，進度與警告裡的中文會變亂碼，
+    # 而回歸警告正好只印在 stderr —— 看不懂等於沒有警告
     sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
     m, concepts, tag2concepts, vocab = load_map()
     stmt_of = {c["id"]: c.get("statement") for c in concepts}
     zh_of = {c["id"]: c.get("zh") for c in concepts}
@@ -762,16 +878,34 @@ def main():
 
     # ────────── 逐家適用性：只讀 sub.txt + pre.txt，不碰 542MB 的 num.txt ──────────
     if args.company_applicability:
-        evidence = build_evidence(concepts, vocab, stmt_of, tag2concepts)
-        evid, seen = defaultdict(set), defaultdict(set)
+        # 第一遍：統計共現，算出「這個標籤對這個科目不算證據」的配對
+        weak = build_weak(vocab, stmt_of)
+        sd, sc = defaultdict(set), defaultdict(set)
         names, sics = {}, {}
         for path in args.zips:
-            print(f"讀取 {os.path.basename(path)}", file=sys.stderr)
+            print(f"共現統計 {os.path.basename(path)}", file=sys.stderr)
             z = zipfile.ZipFile(path)
             subs = read_sub(z)
             for s in subs.values():
                 names[s["cik"]] = s["name"]
                 sics[s["cik"]] = s["sic"]
+            scan_pre_cooccur(z, subs, weak, tag2concepts, stmt_of, sd, sc)
+        revoked, costats = build_revoked(sd, sc, weak, tag2concepts, stmt_of)
+        sd.clear(); sc.clear()
+        print(f"\n共現撤銷 {sum(len(v) for v in revoked.values()):,} 組（標籤,科目）"
+              f"，門檻共現率 >= {COEXIST_MAX:.0%}、觀測 >= {COEXIST_MIN_OBS}",
+              file=sys.stderr)
+        for n, rate, tag, cid in sorted(costats, reverse=True)[:10]:
+            print(f"    {n:>6} 家  共現 {rate:>5.0%}  {tag[:52]:<54}"
+                  f"{zh_of.get(cid, cid)}", file=sys.stderr)
+
+        # 第二遍：套三個閘門算證據
+        evidence = build_evidence(concepts, vocab, stmt_of, tag2concepts, revoked=revoked)
+        evid, seen = defaultdict(set), defaultdict(set)
+        for path in args.zips:
+            print(f"讀取 {os.path.basename(path)}", file=sys.stderr)
+            z = zipfile.ZipFile(path)
+            subs = read_sub(z)
             print(f"  定期財報 {len(subs):,} 份，掃 pre.txt…", file=sys.stderr)
             n = scan_pre_evidence(z, subs, evidence, evid, seen)
             print(f"  pre.txt {n:,} 列", file=sys.stderr)

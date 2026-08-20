@@ -1,5 +1,5 @@
 {
- "version": "1.7",
+ "version": "1.8",
  "updated": "2026-08-20",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -152,12 +152,14 @@
    "statement": "IS",
    "unit": "USD",
    "sign": "reported_positive",
-   "note": "InterestIncomeExpenseNet 系列是「利息收入(費用)淨額」，正值代表淨收入，正負號與 InterestExpense 相反。實測 248 家（1/4）走這兩個標籤，不翻號的話同一列會混著兩種慣例（AAON 顯示 -619 萬、AGNC 顯示 +3.05 億，都是「利息費用」），任何跨公司比較都會錯。列在 negate_tags 的標籤取值後乘 -1。",
+   "note": "InterestIncomeExpenseNet 系列是「利息收入(費用)淨額」，正值代表淨收入，正負號與 InterestExpense 相反。實測 248 家（1/4）走這兩個標籤，不翻號的話同一列會混著兩種慣例（AAON 顯示 -619 萬、AGNC 顯示 +3.05 億，都是「利息費用」），任何跨公司比較都會錯。列在 negate_tags 的標籤取值後乘 -1。InterestAndDebtExpense 與 InterestExpenseDebtExcludingAmortization 排在淨額系列**之前**：兩者的行標題都是「Interest expense」，是直接申報的費用數，比拿淨額回推可靠（Unum 與 InterestExpenseDebt 逐期完全相等；InterestExpenseDebtExcludingAmortization 50 個重疊期 28 個相等、中位數 1.00）。123 家因此從 n/a 變有值，波音／德儀／Southern 都在內。",
    "tags": [
     "InterestExpense",
     "InterestExpenseOperating",
     "InterestExpenseNonoperating",
     "InterestExpenseDebt",
+    "InterestExpenseDebtExcludingAmortization",
+    "InterestAndDebtExpense",
     "InterestIncomeExpenseNet",
     "InterestIncomeExpenseNonoperatingNet"
    ],
@@ -344,8 +346,10 @@
     "DepreciationDepletionAndAmortization",
     "DepreciationAmortizationAndAccretionNet",
     "DepreciationAndAmortization",
-    "Depreciation"
+    "Depreciation",
+    "OtherDepreciationAndAmortization"
    ],
+   "note": "OtherDepreciationAndAmortization 的行標題是「Depreciation and amortization」，實測 198 個重疊期有 139 個完全相等、中位數 1.00 倍，60 家因此從 n/a 變有值。**不收 AccretionAmortizationOfDiscountsAndPremiumsInvestments**（227 家的候選，看起來最划算）：那是銀行投資部位的溢折價攤銷，重疊期 0/120 相等而且中位數是 **-0.57**（負的），完全不是同一條。",
    "tags_ifrs": [
     "DepreciationAndAmortisationExpense",
     "DepreciationExpense"
@@ -382,8 +386,10 @@
     "MarketableSecuritiesCurrent",
     "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
     "DebtSecuritiesCurrent",
-    "MarketableSecurities"
+    "MarketableSecurities",
+    "OtherShortTermInvestments"
    ],
+   "note": "只收帶 Current／ShortTerm 字樣的，而且**標籤字面要乾淨**。試過加 DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent（52 家、3M 的「Marketable securities」走這條），結果 n/a 家數從 3,028 漲到 3,985：map 的 tags 同時是適用性判斷的語意詞彙來源，這個標籤把 debt／securities／available／sale／accrued 灌進本科目的詞彙，於是銀行整批投資證券標籤都變成「這家有短期投資這一行」的證據，把 957 家原本正確的「—」翻回 n/a。修 52 家賠 957 家，不划算。**銀行與保險的投資證券部位（DebtSecuritiesAvailableForSaleExcludingAccruedInterest、HeldToMaturitySecuritiesFairValue 等）刻意不收**，雖然它們是候選清單上家數最多的一批（231／165 家）：那是長天期投資組合，不是短期投資，放進這一列會讓銀行的短期投資看起來比實際大一個量級。銀行沒有「短期投資」這一行是事實，該由適用性層寫成「—」，不是硬塞一個數字。",
    "tags_ifrs": [
     "CurrentFinancialAssetsAtFairValueThroughProfitOrLoss",
     "CurrentFinancialAssetsAtAmortisedCost"
@@ -401,8 +407,10 @@
     "ReceivablesNetCurrent",
     "AccountsReceivableNet",
     "AccountsNotesAndLoansReceivableNetCurrent",
-    "AccountsAndNotesReceivableNet"
+    "AccountsAndNotesReceivableNet",
+    "AccountsAndOtherReceivablesNetCurrent"
    ],
+   "note": "AccountsAndOtherReceivablesNetCurrent 的行標題就是「Accounts receivable, net」，實測與既有標籤重疊期中位數 1.04 倍，143 家因此從 n/a 變有值。不收 AccountsReceivableGrossCurrent（毛額，會高估）與各種 AllowanceFor…（備抵是減項，收進來會變負數）。",
    "tags_ifrs": [
     "CurrentTradeReceivables",
     "TradeAndOtherCurrentReceivables"
@@ -446,8 +454,11 @@
    "sign": "natural",
    "tags": [
     "PropertyPlantAndEquipmentNet",
-    "PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization"
+    "PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization",
+    "PropertyPlantAndEquipmentExcludingLessorAssetUnderOperatingLeaseAfterAccumulatedDepreciation",
+    "PublicUtilitiesPropertyPlantAndEquipmentNet"
    ],
+   "note": "後兩個實測重疊期中位數 1.00 倍（Excluding… 54 期有 47 期完全相等），37 家因此從 n/a 變有值，公用事業的「Net utility plant」是靠 PublicUtilities… 才拿得到（Atmos Energy、Avista）。不收各種 AccumulatedDepreciation…（那是減項，收進來變負數）。",
    "tags_ifrs": [
     "PropertyPlantAndEquipment"
    ]
@@ -522,8 +533,12 @@
     "AccountsPayableAndAccruedLiabilitiesCurrent",
     "AccountsPayableTradeCurrent",
     "AccountsPayableCurrentAndNoncurrent",
-    "AccountsPayableTradeCurrentAndNoncurrent"
+    "AccountsPayableTradeCurrentAndNoncurrent",
+    "AccountsPayableAndOtherAccruedLiabilities",
+    "AccountsPayableAndOtherAccruedLiabilitiesCurrent",
+    "AccountsPayableAndAccruedLiabilitiesCurrentAndNoncurrent"
    ],
+   "note": "後三個是「應付帳款及應計負債」合併行，一定要排在純應付帳款標籤之後：管線逐期 fallback，AMREP 這種兩個都有的公司會保留純貿易應付（631 萬）而不是合併數（6,489 萬）。JPM／U-Haul／Alexander's 完全沒有純應付標籤，合併行就是它們資產負債表上印的那一行，寫合併數才對得上 EDGAR。收合併行不是新決定 —— AccountsPayableAndAccruedLiabilitiesCurrent 本來就在清單裡，這裡只是把 CurrentAndNoncurrent 與 AndOther 兩個變體補齊（實測共 522 家因此從 n/a 變有值）。**不收 AccruedLiabilitiesCurrent**：那是純應計費用、沒有應付帳款成分，實測 155 個重疊期一個都不相等、中位數差 6 倍。",
    "tags_ifrs": [
     "TradeAndOtherCurrentPayablesToTradeSuppliers",
     "TradeAndOtherCurrentPayables"
@@ -536,12 +551,13 @@
    "statement": "BS",
    "unit": "USD",
    "sign": "natural",
-   "note": "ASC 606 後多數改用 ContractWithCustomerLiability 系列",
+   "note": "ASC 606 後多數改用 ContractWithCustomerLiability 系列。DeferredRevenue（未分流動性的舊式標籤）排最後當退路，實測 5 個重疊期全部相等，63 家因此從 n/a 變有值。**不收 DeferredIncomeTaxLiabilitiesNet**：它是候選清單上家數最壓倒性的一個（1,033 家），但那是遞延所得稅、跟合約負債毫無關係，只因為共用 deferred 這個詞被詞元比對挑中 —— 重疊期 0/60 相等、中位數 2.69 倍。這一條是加行標題閘門（pre.txt 的 plabel）才擋掉的。",
    "tags": [
     "ContractWithCustomerLiabilityCurrent",
     "ContractWithCustomerLiability",
     "DeferredRevenueCurrent",
-    "ContractWithCustomerLiabilityNoncurrent"
+    "ContractWithCustomerLiabilityNoncurrent",
+    "DeferredRevenue"
    ],
    "tags_ifrs": [
     "CurrentContractLiabilities",
@@ -660,6 +676,7 @@
     "StockholdersEquity",
     "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
    ],
+   "note": "試過收 LimitedLiabilityCompanyLlcMembersEquityIncludingPortionAttributableToNoncontrollingInterest（LLC 發行人的「Total equity」，10 個重疊期 9 個相等，本來要收），實測**弄壞 1,622 格**後撤掉：tags 的詞元會餵進適用性判斷的 idf，這個標籤的 LimitedLiability 貢獻了 liability 一詞，把 liability 的 idf 從 3.22 壓到 2.81，於是靠 {liability, lease}、{liability, deferred} 得分的標籤整批跌破門檻 —— 長期租賃負債與合約負債各有約 800 家從 n/a 翻成「—」，抽查 10 家有 4–5 家其實有申報。修 5 家賠 1,622 格。**不收 LiabilitiesAndStockholdersEquity**：那是「負債及股東權益總計」＝資產總額，是候選清單第一名（110 家）但完全是另一回事，重疊期 0/34 相等、中位數 6.18 倍。",
    "tags_ifrs": [
     "EquityAttributableToOwnersOfParent",
     "Equity"
@@ -720,8 +737,11 @@
     "PaymentsToAcquirePropertyPlantAndEquipment",
     "PaymentsToAcquireProductiveAssets",
     "PaymentsForCapitalImprovements",
-    "PaymentsToAcquireMachineryAndEquipment"
+    "PaymentsToAcquireMachineryAndEquipment",
+    "PaymentsToAcquireOtherPropertyPlantAndEquipment",
+    "PaymentsForProceedsFromProductiveAssets"
    ],
+   "note": "這兩個的行標題就是「Capital expenditures」／「Net purchases of premises and equipment」，實測重疊期中位數 1.00 倍（PaymentsForProceedsFromProductiveAssets 27 個重疊期 27 個完全相等），共 156 家因此從 n/a 變有值。**刻意不收三個看起來很像的**：ProceedsFromSaleOfPropertyPlantAndEquipment 是處分收入、方向相反（重疊期 0/140 相等，中位數 0.03）；CapitalExpendituresIncurredButNotYetPaid 是非現金補充揭露不是當期現金支出；PaymentsToDevelopRealEstateAssets 與 PaymentsToAcquireOtherProductiveAssets 只是資本支出的子項（實測中位數 0.14 與 0.31 倍），收進來會把 REIT 的資本支出少報八成 —— 錯的數字比 n/a 更糟。",
    "tags_ifrs": [
     "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"
    ]

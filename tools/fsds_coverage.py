@@ -39,6 +39,26 @@ https://www.sec.gov/files/dera/data/financial-statement-data-sets/2025q3.zip  (~
   python tools/fsds_coverage.py *.zip --company-applicability x --audit-na
   python tools/fsds_coverage.py *.zip --company-applicability x --explain-cik 1067983
 
+真缺口普查（--na-gaps）
+----------------------
+  python tools/fsds_coverage.py 2026q1.zip 2026q2.zip --na-gaps
+
+適用性表回答的是「這格該不該留白」，普查回答的是**剩下的 n/a 該怎麼修**。
+它把三層適用性套進來，模擬產品實際渲染的結果，只留下真的會顯示 n/a 的格子：
+
+    有值（直接／derive）        -> 不是 n/a，跳過
+    company_applicability 判不適用 -> 顯示「—」，跳過
+    該產業 structural 判不適用     -> 顯示「—」，跳過
+    其餘                        -> **產品上真的顯示 n/a**，就是這裡要數的
+
+然後對這些格子問「這家公司報表上有哪個我們沒對照的標籤」，按可修家數排名。
+排名前面的才值得動手 —— 補一個 tag 修 300 家，跟修 3 家，成本一樣。
+
+輸出分三類，只有第一類補 map 有用：
+    候選標籤    報表上有標籤、我們沒對照   -> 補進 tags
+    僅維度      標籤有但只有帶維度的版本   -> companyfacts 看不到，補 map 沒用
+    無候選      分不出對應哪個科目         -> 要人工看 --cik
+
 ════════════════════════════════════════════════════════════════════════
 最重要的一件事：低命中率不等於抓不到
 ════════════════════════════════════════════════════════════════════════
@@ -173,6 +193,50 @@ def sic_group(sic: str) -> str:
     return best[1] if best else "其他"
 
 
+def load_applicability():
+    """把執行期 web/server/utils/applicability.ts 的三層判斷搬到離線。
+
+    兩邊必須一致，否則普查數出來的 n/a 格數是幻覺 —— 會去修一批產品上其實
+    顯示「—」的格子。回傳 na_of(cik, sic) -> 該公司不適用的科目 id 集合。
+    """
+    def read(name):
+        p = os.path.join(ROOT, "config", name)
+        if not os.path.exists(p):
+            return None
+        with open(p, encoding="utf-8") as f:
+            return json.load(f)
+
+    cfg = read("concept_applicability.json") or {}
+    co = read("company_applicability.json") or {}
+    ids = co.get("concepts") or []
+    per = {cik: {ids[int(i)] for i in packed.split(",") if i}
+           for cik, packed in (co.get("companies") or {}).items()}
+    groups = cfg.get("sic_groups") or []
+    structural = cfg.get("structural") or {}
+    not_app = cfg.get("not_applicable") or {}
+
+    def group_of(sic):
+        if not sic or not sic.isdigit():
+            return None
+        n, best = int(sic), None
+        for g in groups:
+            if g["lo"] <= n <= g["hi"]:
+                span = g["hi"] - g["lo"]
+                if best is None or span < best[0]:
+                    best = (span, g["name"])
+        return best[1] if best else None
+
+    def na_of(cik, sic):
+        g = group_of(sic)
+        p = per.get(str(int(cik))) if cik else None
+        if p is not None:
+            veto = set(structural.get(g, ())) if g else set()
+            return p | veto
+        return set(not_app.get(g, ())) if g else set()
+
+    return na_of, len(per)
+
+
 def load_map():
     with open(MAP_PATH, encoding="utf-8") as f:
         m = json.load(f)
@@ -256,11 +320,16 @@ def scan_num(z, subs, tag2concepts, stmt_of, hit, dimonly, filed_stmt, quiet=Fal
     return n
 
 
-def scan_pre(z, subs, mapped_tags, cik_tags, tag_label, quiet=False):
+def scan_pre(z, subs, mapped_tags, cik_tags, tag_label, quiet=False, cik_ctags=None):
     """串流掃 pre.txt，記下每家公司在三大報表上用了哪些「我們沒對照」的標準標籤。
 
     pre.txt 帶 stmt 欄與 plabel（申報人自己寫的行標題），比 num.txt 更適合
     回答「這家公司的損益表上到底放了什麼」。
+
+    給了 cik_ctags 就順便把**自訂命名空間**的標籤收進去。補進 map 沒用（別家不會
+    用，而且 companyfacts 把自訂命名空間整個剝掉），但它回答一個關鍵問題：
+    這格 n/a 是「我們漏對照」還是「這家公司用自訂標籤報，誰也抓不到」。
+    後者的 n/a 是正確的，不該再花力氣修。
     """
     n = 0
     with z.open("pre.txt") as fh:
@@ -283,8 +352,13 @@ def scan_pre(z, subs, mapped_tags, cik_tags, tag_label, quiet=False):
             if sub is None:
                 continue
             tag = p[i_tag]
+            if not p[i_ver].startswith(STD_NS):
+                if cik_ctags is not None:
+                    cik_ctags[(sub["cik"], stmt)].add(tag)
+                    tag_label[tag][p[i_lab]] += 1
+                continue
             # 自訂標籤補進 map 也沒用（別家不會用），只看標準分類法
-            if tag in mapped_tags or not p[i_ver].startswith(STD_NS):
+            if tag in mapped_tags:
                 continue
             cik_tags[(sub["cik"], stmt)].add(tag)
             tag_label[tag][p[i_lab]] += 1
@@ -313,6 +387,9 @@ def apply_derive(concepts, hit):
 
 MIN_SCORE = 4.0     # 低於此分不算候選（單一稀有詞約 3.8 分，兩個普通詞約 3 分）
 MIN_MARGIN = 1.25   # 最佳科目至少要贏第二名這個倍數，否則視為分不清楚，不報
+# 行標題閘門（--na-gaps 專用，見 build_label_scorer）。比 MIN_SCORE 低是因為
+# plabel 通常只有兩三個字（"Capital expenditures"），拿不到長標籤那種分數
+LABEL_MIN_SCORE = 3.0
 
 # 適用性判斷用的**寬鬆**門檻，刻意比 MIN_SCORE 低，而且不套贏者全拿。
 # 兩邊要的東西相反：
@@ -420,6 +497,37 @@ def build_scorer(concepts, vocab, stmt_of):
 #      只在年報單列）。用四季（含年報季）取聯集才不會把年報才有的行判成不適用。
 #   3. **看不清楚就不判。** 三張表任一張看到的標籤數不足 NA_MIN_TAGS，整家跳過，
 #      退回產業表。沒申報過的公司在這裡完全不會出現，不會被判成「什麼都不適用」。
+
+
+def build_label_scorer(vocab):
+    """用申報人自己寫的行標題（pre.txt 的 plabel）替候選標籤把關。
+
+    標籤詞元一個人判會出這種錯（實測，2026q1+q2）：
+      DeferredIncomeTaxLiabilitiesNet -> 合約負債       1,033 家（遞延所得稅，完全無關）
+      ProceedsFromSaleOfPropertyPlantAndEquipment -> 資本支出  95 家（處分收入，方向相反）
+    兩個都是被 `deferred`／`property plant equipment` 這種共同詞帶過門檻的。
+
+    plabel 是**這家公司的報表上真的印出來的那行字**，比標籤名更接近人怎麼讀它。
+    `PaymentsToAcquireOtherPropertyPlantAndEquipment` 的 plabel 直接就是
+    "Capital expenditures" —— 那就是它。而 "Deferred income taxes"、
+    "Proceeds from sale of property" 跟目標科目的字面幾乎不重疊，會被擋掉。
+
+    兩道閘取交集（標籤詞元 and 行標題），因為兩者錯的地方不一樣：
+    標籤名被分類法的命名慣例帶偏，行標題被公司自己的簡寫帶偏（"Other"、"Total"）。
+    一起看才留得下真的。
+    """
+    import math
+    df = Counter()
+    for v in vocab.values():
+        df.update(v)
+    n = max(len(vocab), 2)
+    idf = {t: math.log(n / c) for t, c in df.items()}
+
+    def score(text, cid):
+        ov = tokens(text) & vocab[cid]
+        return sum(idf[t] for t in ov)
+
+    return score
 
 
 def build_evidence(concepts, vocab, stmt_of, tag2concepts, near=False):
@@ -591,6 +699,14 @@ def main():
     ap.add_argument("--company-applicability", metavar="PATH",
                     help="產出 config/company_applicability.json（逐家判斷，只讀 pre.txt）")
     ap.add_argument("--explain-cik", help="搭配上一項：印出這家公司每個科目的判定理由")
+    ap.add_argument("--na-gaps", action="store_true",
+                    help="真缺口普查：套進三層適用性，只列產品上真的會顯示 n/a 的格子，"
+                         "按「補這個標籤可修幾家」排名")
+    ap.add_argument("--gap-json", metavar="PATH",
+                    help="--na-gaps 的完整結果寫成 JSON（含每個候選的 CIK 清單，"
+                         "拿去做 live companyfacts 期間比對驗證）")
+    ap.add_argument("--gap-top", type=int, default=25,
+                    help="--na-gaps 每個科目列幾個候選標籤（預設 25）")
     ap.add_argument("--audit-na", action="store_true",
                     help="搭配上一項：列出「判成不適用但報表上有差一點的標籤」的組合，"
                          "用來抓誤判（誤判成不適用＝把真缺口洗成「—」＝說謊）")
@@ -667,6 +783,45 @@ def main():
                 print(f"    {zh_of[cid]:<18}{stmt_of[cid]:<4}{mark}")
             return
 
+        # ── 覆寫前先跟現有那份比，把新增的「不適用」報出來 ──────────────
+        #
+        # 這是本工具最容易被忽略、也最會出事的地方：**map 的 tags 詞元會餵進
+        # 適用性判斷的 idf**，所以在 A 科目加一個 alias，會靜靜地改掉 B 科目
+        # 對幾百家公司的判定，而且方向是說謊的那一邊。
+        #
+        # 實測（2026-08-20，v1.7 -> v1.8）：為了修 5 家 LLC 發行人的股東權益，
+        # 加了 LimitedLiabilityCompanyLlcMembersEquity… ，它的 LimitedLiability
+        # 貢獻 liability 一詞 -> liability 的 idf 3.22 掉到 2.81 -> 靠
+        # {liability, lease}、{liability, deferred} 得分的標籤整批跌破 3.0 ->
+        # 長期租賃負債 808 家、合約負債 814 家從 n/a 翻成「—」，抽查 10 家有
+        # 4–5 家其實有申報。修 5 家賠 1,622 格。
+        #
+        # 沒有這段輸出的話，這件事在覆蓋率、命中率、n/a 總數上全都看不出來
+        # （總數還會變好看，因為「—」不算 n/a）。收回的方向是安全的，不用管；
+        # **新增的方向每次都要抽樣打真 API 查**。
+        if os.path.exists(args.company_applicability):
+            try:
+                with open(args.company_applicability, encoding="utf-8") as f:
+                    prev = json.load(f)
+                pi = prev["concepts"]
+                old_na = {k: {pi[int(i)] for i in v.split(",") if i}
+                          for k, v in prev["companies"].items()}
+                add, rem = Counter(), Counter()
+                for cik, ids in na.items():
+                    add.update(set(ids) - old_na.get(cik, set()))
+                for cik, ids in old_na.items():
+                    rem.update(set(ids) - set(na.get(cik, ())))
+                if sum(add.values()):
+                    print(f"\n⚠ 與現有 {os.path.basename(args.company_applicability)} 相比，"
+                          f"新增判不適用 {sum(add.values()):,} 格、收回 {sum(rem.values()):,} 格",
+                          file=sys.stderr)
+                    print("  新增＝原本寫 n/a 的格子改寫「—」。**這是唯一會說謊的方向**，"
+                          "每個科目抽 10 家打 companyfacts 確認真的沒申報：", file=sys.stderr)
+                    for cid, n in add.most_common(8):
+                        print(f"    {zh_of.get(cid, cid):<20}{n:>7,} 家", file=sys.stderr)
+            except Exception as e:
+                print(f"（比對舊檔失敗，跳過：{e}）", file=sys.stderr)
+
         out = {
             "version": "1.0",
             "generated": __import__("datetime").date.today().isoformat(),
@@ -701,6 +856,7 @@ def main():
 
     hit, dimonly, filed_stmt = defaultdict(set), defaultdict(set), defaultdict(set)
     cik_tags, tag_label = defaultdict(set), defaultdict(Counter)
+    cik_ctags = defaultdict(set) if args.na_gaps else None
     subs_all = {}
     for path in args.zips:
         print(f"讀取 {os.path.basename(path)}", file=sys.stderr)
@@ -711,7 +867,7 @@ def main():
         print("  掃 num.txt（模擬維度／共同申報人／期間長度過濾）…", file=sys.stderr)
         n1 = scan_num(z, subs, tag2concepts, stmt_of, hit, dimonly, filed_stmt)
         print(f"  掃 pre.txt（收集未對照的標準標籤）…", file=sys.stderr)
-        n2 = scan_pre(z, subs, mapped_tags, cik_tags, tag_label)
+        n2 = scan_pre(z, subs, mapped_tags, cik_tags, tag_label, cik_ctags=cik_ctags)
         print(f"  num.txt {n1:,} 列 / pre.txt {n2:,} 列", file=sys.stderr)
 
     # 「只有帶維度的版本」定義是乾淨版本不存在
@@ -721,10 +877,11 @@ def main():
     derived = apply_derive(concepts, hit)
     denom = {st: {c for c, s in filed_stmt.items() if st in s} for st in ("IS", "BS", "CF")}
 
-    cik2group, cik2name = {}, {}
+    cik2group, cik2name, cik2sic = {}, {}, {}
     for s in subs_all.values():
         cik2group[s["cik"]] = sic_group(s["sic"])
         cik2name[s["cik"]] = s["name"]
+        cik2sic[s["cik"]] = s["sic"]
 
     def label(tag):
         c = tag_label.get(tag)
@@ -741,6 +898,116 @@ def main():
             owner = best_concept(t, st)
             if owner:
                 tag_owner[(t, st)] = owner
+
+    # ────────── 真缺口普查 ──────────
+    if args.na_gaps:
+        na_of, n_per = load_applicability()
+        lab_score = build_label_scorer(vocab)
+        all_ciks = denom["IS"] | denom["BS"] | denom["CF"]
+        # 每個科目的分母只能算「有申報那張表」的公司，否則只交 10-K 摘要的
+        # 空殼會把每個科目的 n/a 家數灌大一倍
+        cand = defaultdict(set)      # (科目, 標籤) -> 有這格 n/a 且報表上有這個標籤的公司
+        stat = defaultdict(Counter)  # 科目 -> {na, dash, dimonly, nocand}
+        nocand_ex = defaultdict(list)
+        for cik in all_ciks:
+            dash = na_of(cik, cik2sic.get(cik, ""))
+            for c in concepts:
+                cid = c["id"]
+                if cid in skip_zero or cik not in denom[stmt_of[cid]]:
+                    continue
+                if got(cik, cid):
+                    continue
+                if cid in dash:
+                    stat[cid]["dash"] += 1
+                    continue
+                stat[cid]["na"] += 1
+                if cid in dimonly.get(cik, ()):
+                    stat[cid]["dimonly"] += 1
+                    continue
+                ts = [t for t in cik_tags.get((cik, stmt_of[cid]), ())
+                      if tag_owner.get((t, stmt_of[cid])) == cid
+                      and lab_score(label(t), cid) >= LABEL_MIN_SCORE]
+                if not ts:
+                    # 「無候選」有兩種，處置完全不同：
+                    #   自訂標籤報的  companyfacts 剝掉自訂命名空間 -> 誰也抓不到，
+                    #                 n/a 是正確的，不要再花力氣
+                    #   什麼都沒有    適用性判太寬 -> 這格其實該顯示「—」
+                    if any(lab_score(label(t), cid) >= LABEL_MIN_SCORE
+                           for t in cik_ctags.get((cik, stmt_of[cid]), ())):
+                        stat[cid]["custom"] += 1
+                    else:
+                        stat[cid]["nocand"] += 1
+                        if len(nocand_ex[cid]) < 5:
+                            nocand_ex[cid].append(cik2name.get(cik, cik))
+                    continue
+                for t in ts:
+                    cand[(cid, t)].add(cik)
+
+        tot_na = sum(s["na"] for s in stat.values())
+        tot_cell = sum(s["na"] + s["dash"] for s in stat.values()) + \
+            sum(1 for cik in all_ciks for c in concepts
+                if c["id"] not in skip_zero and cik in denom[stmt_of[c["id"]]]
+                and got(cik, c["id"]))
+        print("\n" + "=" * 92)
+        print(f"真缺口普查　map v{m.get('version')}　{len(all_ciks):,} 家　"
+              f"逐家適用性收錄 {n_per:,} 家")
+        print("=" * 92)
+        print(f"套進三層適用性後，全市場 {tot_cell:,} 個科目格子裡有 "
+              f"{tot_na:,} 個顯示 n/a（{tot_na/max(tot_cell,1)*100:.1f}%）\n")
+
+        print("可補標籤＝補 map 就會有值　僅維度／自訂＝companyfacts 看不到，n/a 正確"
+              "　判太寬＝該顯示「—」")
+        print(f"{'科目':<20}{'表':<5}{'n/a家數':>9}{'可補標籤':>10}{'僅維度':>8}"
+              f"{'自訂標籤':>10}{'判太寬':>8}")
+        agg = Counter()
+        for cid in sorted(stat, key=lambda c: -stat[c]["na"]):
+            s = stat[cid]
+            if not s["na"]:
+                continue
+            fix = s["na"] - s["dimonly"] - s["nocand"] - s["custom"]
+            for k, v in (("fix", fix), ("dimonly", s["dimonly"]),
+                         ("custom", s["custom"]), ("nocand", s["nocand"])):
+                agg[k] += v
+            print(f"{zh_of[cid]:<20}{'':<1}{stmt_of[cid]:<4}{s['na']:>9,}"
+                  f"{fix:>10,}{s['dimonly']:>8,}{s['custom']:>10,}{s['nocand']:>8,}")
+        print(f"\n{'合計':<20}{'':<5}{tot_na:>9,}{agg['fix']:>10,}{agg['dimonly']:>8,}"
+              f"{agg['custom']:>10,}{agg['nocand']:>8,}")
+
+        print("\n" + "=" * 92)
+        print("補這個標籤可以修幾家（只列真的會顯示 n/a 的公司，已扣掉「—」）")
+        print("=" * 92)
+        print("**逐一查證再補**。名字像不代表是同一條，要用 live companyfacts 做期間比對，")
+        print("確認補進去真的取到值、而且沒有搶走既有標籤的期。\n")
+        rank = sorted(cand.items(), key=lambda kv: -len(kv[1]))
+        by_c = defaultdict(list)
+        for (cid, t), ciks in rank:
+            by_c[cid].append((len(ciks), t, ciks))
+        for cid in sorted(by_c, key=lambda c: -sum(n for n, _, _ in by_c[c])):
+            print(f"\n{zh_of[cid]}（{cid}，{stmt_of[cid]}，n/a {stat[cid]['na']:,} 家）")
+            for n, t, ciks in by_c[cid][:args.gap_top]:
+                if n < 2:
+                    continue
+                eg = "、".join(sorted(cik2name.get(c, c) for c in ciks)[:2])
+                print(f"    {n:>5} 家  {t:<58}{label(t)[:26]:<28}{eg[:40]}")
+            if stat[cid]["nocand"]:
+                print(f"    （無候選 {stat[cid]['nocand']:,} 家，例："
+                      f"{'、'.join(nocand_ex[cid][:3])}）")
+
+        if args.gap_json:
+            with open(args.gap_json, "w", encoding="utf-8") as f:
+                json.dump({
+                    "map_version": m.get("version"),
+                    "source": [os.path.basename(p) for p in args.zips],
+                    "total_cells": tot_cell, "total_na": tot_na,
+                    "stat": {c: dict(s) for c, s in stat.items()},
+                    "candidates": [
+                        {"concept": cid, "tag": t, "label": label(t), "n": len(ciks),
+                         "ciks": sorted(ciks, key=int)[:40],
+                         "names": sorted(cik2name.get(c, c) for c in ciks)[:6]}
+                        for (cid, t), ciks in rank if len(ciks) >= 2],
+                }, f, ensure_ascii=False)
+            print(f"\n已寫出 {args.gap_json}")
+        return
 
     # ────────── 單一公司模式 ──────────
     if args.cik:

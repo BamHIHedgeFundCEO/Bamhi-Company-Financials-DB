@@ -5,7 +5,7 @@
   "fsds_2025q3.zip",
   "fsds_2026q1.zip"
  ],
- "map_version": "1.7",
+ "map_version": "1.8",
  "threshold": 0.15,
  "structural_threshold": 0.08,
  "note": "由 tools/fsds_coverage.py --applicability 產生。某產業有 >=85% 的公司從不申報某科目 -> 該科目對這個產業視為「不適用」，值缺時寫「—」而不是 n/a。**只在值本來就缺時才生效**，不會蓋掉任何真數字，也不會藏住真缺口。",
@@ -148,8 +148,7 @@
    "operating_lease_liab_nc",
    "inventory",
    "rnd",
-   "deferred_revenue",
-   "short_term_investments"
+   "deferred_revenue"
   ],
   "其他服務業": [
    "interest_income_net",
@@ -264,7 +263,6 @@
    "operating_lease_liab_nc",
    "inventory",
    "rnd",
-   "deferred_revenue",
    "treasury_stock",
    "short_term_investments",
    "noninterest_income"

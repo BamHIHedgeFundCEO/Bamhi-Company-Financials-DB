@@ -531,13 +531,34 @@ def build_label_scorer(vocab):
 
 
 def build_evidence(concepts, vocab, stmt_of, tag2concepts, near=False):
-    """(標籤, 報表) -> 這個標籤可以當作「哪些科目有申報」的證據。
+    """(標籤, 報表, 行標題) -> 這個標籤可以當作「哪些科目有申報」的證據。
 
     與 build_scorer 的差別：不套贏者全拿、門檻用 NA_MIN_SCORE。
     一個標籤同時當三個科目的證據是可以接受的 —— 多算證據只會多留 n/a。
 
+    ── 行標題撤銷（第二個參數 plabel）─────────────────────────────────
+    只看標籤詞元的話，`OperatingLeaseLiabilityNoncurrent` 會因為
+    {liability, lease, term} 之類的重疊被當成「這家公司有長期負債那一行」的證據，
+    於是真的沒有長期負債的公司也維持 n/a。實測這種偽陽性佔殘餘 n/a 的 64.5%
+    （27,219 格），是目前最大的一塊。
+
+    修法**不是**把詞元門檻調嚴 —— 那試過兩次都反效果（見 NA_MIN_SCORE 註解）。
+    改用一個獨立訊號：申報人自己印在報表上的那行字。規則刻意只往單一方向作用：
+
+        行標題明確指名**別的**科目（對別的科目 >= LABEL_MIN_SCORE、對這個不到）
+            -> 撤銷這條證據。"Operating lease liabilities" 不是長期負債。
+        行標題對這個科目也夠分  -> 留著，兩個訊號一致。
+        行標題對每個科目都不夠分（"Other"、"Total"、公司自己的簡寫）
+            -> **留著**。含糊不代表沒有，拿含糊當「不適用」就是說謊。
+
+    第三條是安全閥。少了它，terse label 的公司會整片被判不適用。
+
+    直接對照（標籤就在 map 的 tags 裡）**不受此閘門影響**：那已經是確定的答案，
+    公司把 Inventory 那一行叫什麼名字都不改變它是存貨。
+
     near=True 時反過來回傳「差一點」的科目（分數落在 NA_NEAR_SCORE 與
-    NA_MIN_SCORE 之間），給 --audit-na 稽核誤判用。
+    NA_MIN_SCORE 之間），給 --audit-na 稽核誤判用；稽核模式不套行標題撤銷，
+    因為它本來就是要把可疑的全部攤開來看。
     """
     import math
     df = Counter()
@@ -550,9 +571,25 @@ def build_evidence(concepts, vocab, stmt_of, tag2concepts, near=False):
         by_stmt[stmt_of[cid]].append((cid, v))
 
     memo = {}
+    lmemo = {}
 
-    def evidence(tag, stmt):
-        key = (tag, stmt)
+    def claims(plabel, stmt):
+        """行標題「指名」了哪些科目。空集合＝含糊，不撤銷任何東西。
+
+        分開 memo：行標題的相異字串數遠少於 (標籤 × 行標題) 的組合數，
+        全市場四季下來前者約數萬、後者數百萬。
+        """
+        key = (plabel, stmt)
+        r = lmemo.get(key)
+        if r is None:
+            lt = tokens(plabel)
+            r = lmemo[key] = frozenset(
+                cid for cid, v in by_stmt[stmt]
+                if lt & v and sum(idf[t] for t in (lt & v)) >= LABEL_MIN_SCORE)
+        return r
+
+    def evidence(tag, stmt, plabel=""):
+        key = (tag, stmt, plabel)
         r = memo.get(key)
         if r is not None:
             return r
@@ -572,8 +609,11 @@ def build_evidence(concepts, vocab, stmt_of, tag2concepts, near=False):
                 if NA_NEAR_SCORE <= top < NA_MIN_SCORE:
                     out = {cid}
         else:
+            # 直接對照不受行標題閘門影響
             out = {c for c in tag2concepts.get(tag, ()) if stmt_of[c] == stmt}
-            out |= {cid for s, cid in scored if s >= NA_MIN_SCORE}
+            weak = {cid for s, cid in scored if s >= NA_MIN_SCORE}
+            cl = claims(plabel, stmt) if plabel else frozenset()
+            out |= (weak & cl) if cl else weak
         r = memo[key] = frozenset(out)
         return r
 
@@ -591,13 +631,13 @@ def scan_pre_evidence(z, subs, evidence, evid, seen, quiet=False):
         rd = io.TextIOWrapper(fh, encoding="utf-8", errors="replace", newline="")
         cols = rd.readline().rstrip("\r\n").split("\t")
         ix = {c: i for i, c in enumerate(cols)}
-        i_adsh, i_stmt, i_tag = ix["adsh"], ix["stmt"], ix["tag"]
+        i_adsh, i_stmt, i_tag, i_lab = ix["adsh"], ix["stmt"], ix["tag"], ix["plabel"]
         for line in rd:
             n += 1
             if not quiet and n % 2_000_000 == 0:
                 print(f"    pre.txt {n:,} 列…", file=sys.stderr)
             p = line.rstrip("\r\n").split("\t")
-            if len(p) <= i_tag:
+            if len(p) <= i_lab:
                 continue
             stmt = p[i_stmt]
             if stmt not in ("IS", "BS", "CF"):
@@ -608,7 +648,7 @@ def scan_pre_evidence(z, subs, evidence, evid, seen, quiet=False):
             key = (sub["cik"], stmt)
             tag = p[i_tag]
             seen[key].add(hash(tag))
-            e = evidence(tag, stmt)
+            e = evidence(tag, stmt, p[i_lab])
             if e:
                 evid[key] |= e
     return n

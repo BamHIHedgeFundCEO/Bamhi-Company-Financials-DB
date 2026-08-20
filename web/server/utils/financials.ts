@@ -1215,13 +1215,22 @@ export async function getFinancials(
   }
   const periods = [...allPeriods].sort() // FY2023 Q1 < FY2023 Q2 < ...（年度模式 FY2023 < FY2024）字典序即正確
 
-  // 標出「該產業本來就沒有」的科目，讓缺值能寫「—」而不是 n/a。
+  // 標出「這家公司本來就沒有」的科目，讓缺值能寫「—」而不是 n/a。
   // 放在最後：期末股數等後處理補值跑完才判，否則會把補得到的科目誤標成不適用。
   // 這裡只加旗標、不動任何數值。
-  const na = await notApplicableFor(ref.sic)
+  //
+  // 護欄：**只要這個科目在任何一期抓到過值，就一定適用**，設定檔說不適用也不算。
+  // 適用性表是一家公司一個旗標、不分期間，而它判的是「這一行有沒有出現在報表正面」。
+  // 蘋果與波克夏的使用權資產只揭露在租賃附註、不在資產負債表正面，會被判成不適用，
+  // 但 companyfacts 抓得到、20 期都有數字 —— 剩下那幾期是 ASC 842 適用前根本還沒有
+  // 這個科目，寫 n/a 是誠實的（我們無法區分「準則還沒生效」與「漏抓」）。
+  // 沒有這道護欄，同一列會同時出現數字和「—」，那是自相矛盾。
+  const na = await notApplicableFor(ref.sic, ref.cik10)
   if (na.size) {
     for (const li of lineItems) {
-      if (na.has(li.id)) li.applicable = false
+      if (!na.has(li.id)) continue
+      if (Object.values(li.values).some(v => typeof v?.value === 'number')) continue
+      li.applicable = false
     }
   }
 

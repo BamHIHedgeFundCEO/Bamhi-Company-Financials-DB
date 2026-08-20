@@ -1,5 +1,5 @@
 {
- "version": "1.6",
+ "version": "1.7",
  "updated": "2026-08-20",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -360,11 +360,15 @@
    "sign": "natural",
    "tags": [
     "CashAndCashEquivalentsAtCarryingValue",
-    "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+    "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+    "Cash",
+    "CashAndDueFromBanks"
    ],
    "tags_ifrs": [
-    "CashAndCashEquivalents"
-   ]
+    "CashAndCashEquivalents",
+    "CashAndBankBalancesAtCentralBanks"
+   ],
+   "note": "Cash 與 CashAndDueFromBanks 排最後：兩者都是「資產負債表上的現金那一行」，但定義比前兩個窄（Cash 不含約當現金；CashAndDueFromBanks 是銀行的現金及存放同業），只在前面的標籤該期完全沒有時才用。877 家公司的資產負債表只用這兩個標籤（US Bancorp、M&T、AIG、Loews、American Airlines 都在內）。2026-08-20 隨機抽 14 家做期間比對（companyfacts 的 end vs FSDS 的 ddate），6 家有「只靠這兩個標籤才拿得到」的期，最多的 Cathay General 有 30 期。這條是 tools/fsds_coverage.py --audit-na 抓出來的：它原本被逐家適用性判成「不適用」，會把 481 家的現金格子寫成「—」。"
   },
   {
    "id": "short_term_investments",

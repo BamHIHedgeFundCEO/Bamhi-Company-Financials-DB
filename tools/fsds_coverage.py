@@ -25,6 +25,20 @@ https://www.sec.gov/files/dera/data/financial-statement-data-sets/2025q3.zip  (~
   python tools/fsds_coverage.py 2025q3.zip --cik 320193   # 單一公司實際用的標籤
   python tools/fsds_coverage.py 2025q3.zip --json out.json
 
+適用性表（判斷缺值該寫 n/a 還是「—」）
+--------------------------------------
+  # 產業層：某產業 >=85% 的公司從不申報某科目 -> 該產業不適用
+  python tools/fsds_coverage.py 2025q3.zip --applicability config/concept_applicability.json
+
+  # 逐家層（優先順位高，只讀 pre.txt，不碰 542MB 的 num.txt）。**要給四季**，
+  # 一季只有 10-Q，20-F 只有 94 家，會把年報才揭露的行判成不適用
+  python tools/fsds_coverage.py 2025q3.zip 2025q4.zip 2026q1.zip 2026q2.zip \
+      --company-applicability config/company_applicability.json
+
+  # 誤判稽核：改 map 或改門檻之後一定要跑，見下方「唯一會說謊的方向」
+  python tools/fsds_coverage.py *.zip --company-applicability x --audit-na
+  python tools/fsds_coverage.py *.zip --company-applicability x --explain-cik 1067983
+
 ════════════════════════════════════════════════════════════════════════
 最重要的一件事：低命中率不等於抓不到
 ════════════════════════════════════════════════════════════════════════
@@ -69,6 +83,22 @@ https://www.sec.gov/files/dera/data/financial-statement-data-sets/2025q3.zip  (~
    後者才是對的問法：網站上呈現的是特定期間的欄位，那一期抓不到就是那一欄 n/a。
    所以「1,274 家」要讀成「1,274 家至少有一期會 n/a」，不是「1,274 家整家掛掉」。
    驗證缺口時務必比對期間（`ddate` vs companyfacts 的 `end`），不要只比對標籤存在與否。
+
+════════════════════════════════════════════════════════════════════════
+適用性判斷：唯一會說謊的方向
+════════════════════════════════════════════════════════════════════════
+
+兩種錯的代價完全不對稱，所有門檻都要往這個方向倒：
+
+  偽陽性（明明不適用，判成有申報）  -> 格子留在 n/a。難看，但誠實。
+  偽陰性（明明有申報，判成不適用）  -> 真缺口被寫成「—」。**這是說謊。**
+
+所以 NA_MIN_SCORE 刻意調寬，寬到有已知偽陽性（蘋果的「淨利息收入」顯示 n/a
+而不是「—」）。試過兩種收緊法都更糟，細節見 NA_MIN_SCORE 的註解 —— 不要再試。
+
+`--audit-na` 就是把偽陰性攤開來人工檢查的工具。**改 map 或改門檻之後一定要跑。**
+第一次跑就抓到 `Cash` 與 `CashAndDueFromBanks` 不在 map 裡（877 家的資產負債表
+只用這兩個標籤），會讓 481 家的現金格子被寫成「—」。已補進 map v1.7。
 """
 
 import argparse
@@ -284,6 +314,40 @@ def apply_derive(concepts, hit):
 MIN_SCORE = 4.0     # 低於此分不算候選（單一稀有詞約 3.8 分，兩個普通詞約 3 分）
 MIN_MARGIN = 1.25   # 最佳科目至少要贏第二名這個倍數，否則視為分不清楚，不報
 
+# 適用性判斷用的**寬鬆**門檻，刻意比 MIN_SCORE 低，而且不套贏者全拿。
+# 兩邊要的東西相反：
+#   缺口候選要精準 —— 報錯了會叫人去補一個不該補的 alias，所以寧可漏報
+#   適用性要保守 —— 只要報表上「看起來有點像」的行存在，就當作這條有申報、維持 n/a
+# 也就是說這裡的偽陽性（誤判成有）只會讓格子留在 n/a，是安全的方向；
+# 偽陰性（誤判成沒有）才會把真缺口洗成「—」，那是說謊。所以門檻往寬的一邊調。
+NA_MIN_SCORE = 3.0
+#
+# 這個門檻是**刻意調寬**的，寬到會有已知的偽陽性。試過兩種收緊法，兩種都更糟：
+#
+#   核心詞（該科目 60% 以上的已對照標籤都含有、且 idf >= 2.0 的詞）
+#     動機：`income`(1.8) + `expense`(1.6) = 3.44 就過門檻，於是
+#     `NonoperatingIncomeExpense` 被當成「蘋果有申報淨利息收入」的證據。
+#     結果：長期負債的核心詞是 long/term，`NotesPayableNoncurrent`、
+#     `LoansPayableNoncurrent` 這些同義標籤一個都不含 -> 判不適用從 85 家
+#     暴增到 2,743 家。合約負債 871 -> 4,501。那是把真缺口整片洗成「—」。
+#
+#   贏面（分數不到最高分科目的 1/1.25 就不算）
+#     動機：`IncomeLossFromContinuingOperationsBefore...NoncontrollingInterest`
+#     含有 interest（來自 NoncontrollingInterest），對稅前淨利 17.5 分、對淨利息收入
+#     只有 4.1 分。結果：營業收入判不適用從 59 家暴增到 923 家。
+#
+# 兩者都是拿「偽陰性」換「偽陽性」，方向反了。偽陽性（誤判成有申報）只會讓格子
+# 留在 n/a，難看但誠實；偽陰性（誤判成不適用）會把真缺口寫成「—」，那是說謊。
+# 所以維持寬門檻，代價是蘋果／再生元的「淨利息收入」顯示 n/a 而不是「—」
+# （產業表判得對、逐家表判錯的已知案例，見 --audit-na 的說明）。
+# 稽核用的下限：分數落在 [NA_NEAR_SCORE, NA_MIN_SCORE) 的標籤叫「差一點」，
+# 由 --audit-na 全部列出來人工看過。誤判成不適用是唯一會說謊的方向，
+# 這份清單就是把那個方向攤開來檢查的工具，不是可有可無的裝飾。
+NA_NEAR_SCORE = 1.5
+# 該公司該張報表上至少要看到這麼多個不同標籤，才敢說「這張表我看得夠清楚」。
+# 實測 2025q3 各表最少的 5% 分別是 IS 11 / BS 22 / CF 15 行，8 只擋掉病態案例。
+NA_MIN_TAGS = 8
+
 
 def build_scorer(concepts, vocab, stmt_of):
     """把每個未對照標籤指派給「最像的那一個科目」，而且只指派一個。
@@ -329,6 +393,183 @@ def build_scorer(concepts, vocab, stmt_of):
     return best
 
 
+# ══════════════════════════════════════════════════════════════════════
+# 逐家適用性（--company-applicability）
+# ══════════════════════════════════════════════════════════════════════
+#
+# 產業表（--applicability）解決不了同業裡的異類：波克夏掛 SIC 6331（保險），
+# 但它的資產負債表不分流動／非流動，行為像控股公司。同組多數小型保險公司有分，
+# 所以「流動資產合計」在保險組沒跌破門檻 -> 波克夏那格繼續寫 n/a，其實是不適用。
+#
+# 逐家的判準改成問這家公司自己的報表：
+#
+#   這家公司的損益表／資產負債表／現金流量表上，有沒有語意相當的那一行？
+#     有 -> 真缺口，維持 n/a（我們沒抓到，讀者該去查）
+#     沒有 -> 不適用，寫「—」
+#
+# 資料來源是 pre.txt（表達鏈結庫），它帶 stmt 欄，直接回答「這家公司的損益表上
+# 到底放了什麼」。**不能用 num.txt**：num 沒有報表歸屬，附註裡的數字會混進來。
+#
+# 三個和產業表不同的關鍵設定：
+#
+#   1. **自訂命名空間也算數。** 覆蓋率報告只看 us-gaap/ifrs/srt（自訂標籤補進 map
+#      也沒用，別家不會用），但適用性要問的是「這一行存不存在」。公司用自訂標籤報
+#      存貨，那一行就是存在 —— 而且 companyfacts 抓不到它，那是**真缺口**，
+#      要留 n/a 讓讀者知道。當成不適用會把這個洞藏起來。
+#   2. **多季 union。** 一季只有 10-Q，10-Q 的報表比 10-K 短（研發費用之類可能
+#      只在年報單列）。用四季（含年報季）取聯集才不會把年報才有的行判成不適用。
+#   3. **看不清楚就不判。** 三張表任一張看到的標籤數不足 NA_MIN_TAGS，整家跳過，
+#      退回產業表。沒申報過的公司在這裡完全不會出現，不會被判成「什麼都不適用」。
+
+
+def build_evidence(concepts, vocab, stmt_of, tag2concepts, near=False):
+    """(標籤, 報表) -> 這個標籤可以當作「哪些科目有申報」的證據。
+
+    與 build_scorer 的差別：不套贏者全拿、門檻用 NA_MIN_SCORE。
+    一個標籤同時當三個科目的證據是可以接受的 —— 多算證據只會多留 n/a。
+
+    near=True 時反過來回傳「差一點」的科目（分數落在 NA_NEAR_SCORE 與
+    NA_MIN_SCORE 之間），給 --audit-na 稽核誤判用。
+    """
+    import math
+    df = Counter()
+    for v in vocab.values():
+        df.update(v)
+    n = max(len(vocab), 2)
+    idf = {t: math.log(n / c) for t, c in df.items()}
+    by_stmt = defaultdict(list)
+    for cid, v in vocab.items():
+        by_stmt[stmt_of[cid]].append((cid, v))
+
+    memo = {}
+
+    def evidence(tag, stmt):
+        key = (tag, stmt)
+        r = memo.get(key)
+        if r is not None:
+            return r
+        tt = tokens(tag)
+        scored = []
+        for cid, v in by_stmt[stmt]:
+            ov = tt & v
+            if ov:
+                scored.append((sum(idf[t] for t in ov), cid))
+        if near:
+            # 稽核模式套贏者全拿：`Assets`（總資產）對「無形資產」「短期投資」
+            # 「流動資產合計」都有一點分數，全列出來的話 3,000 列都是同一個雜訊。
+            # 只留這個標籤**最像**的那個科目，清單才看得完、才可能人工判。
+            out = set()
+            if scored:
+                top, cid = max(scored)
+                if NA_NEAR_SCORE <= top < NA_MIN_SCORE:
+                    out = {cid}
+        else:
+            out = {c for c in tag2concepts.get(tag, ()) if stmt_of[c] == stmt}
+            out |= {cid for s, cid in scored if s >= NA_MIN_SCORE}
+        r = memo[key] = frozenset(out)
+        return r
+
+    return evidence
+
+
+def scan_pre_evidence(z, subs, evidence, evid, seen, quiet=False):
+    """掃 pre.txt，累加每家公司每張報表上「有證據的科目」與「看到幾個不同標籤」。
+
+    seen 存 hash(tag) 而不是 tag 本身：四季下來會有數百萬個標籤字串，
+    存整數集合省下大量記憶體，碰撞機率對「數量夠不夠」這個用途可忽略。
+    """
+    n = 0
+    with z.open("pre.txt") as fh:
+        rd = io.TextIOWrapper(fh, encoding="utf-8", errors="replace", newline="")
+        cols = rd.readline().rstrip("\r\n").split("\t")
+        ix = {c: i for i, c in enumerate(cols)}
+        i_adsh, i_stmt, i_tag = ix["adsh"], ix["stmt"], ix["tag"]
+        for line in rd:
+            n += 1
+            if not quiet and n % 2_000_000 == 0:
+                print(f"    pre.txt {n:,} 列…", file=sys.stderr)
+            p = line.rstrip("\r\n").split("\t")
+            if len(p) <= i_tag:
+                continue
+            stmt = p[i_stmt]
+            if stmt not in ("IS", "BS", "CF"):
+                continue
+            sub = subs.get(p[i_adsh])
+            if sub is None:
+                continue
+            key = (sub["cik"], stmt)
+            tag = p[i_tag]
+            seen[key].add(hash(tag))
+            e = evidence(tag, stmt)
+            if e:
+                evid[key] |= e
+    return n
+
+
+def scan_pre_audit(z, subs, nearmiss, na, hits, quiet=False):
+    """第二遍掃 pre.txt：把「已經判成不適用、但報表上有差一點的標籤」全撈出來。
+
+    第一遍算 na，第二遍才稽核 —— 因為要先知道哪些 (公司, 科目) 判成不適用，
+    才不用把全市場的近似配對都存下來。
+    """
+    n = 0
+    with z.open("pre.txt") as fh:
+        rd = io.TextIOWrapper(fh, encoding="utf-8", errors="replace", newline="")
+        cols = rd.readline().rstrip("\r\n").split("\t")
+        ix = {c: i for i, c in enumerate(cols)}
+        i_adsh, i_stmt, i_tag, i_lab = ix["adsh"], ix["stmt"], ix["tag"], ix["plabel"]
+        for line in rd:
+            n += 1
+            p = line.rstrip("\r\n").split("\t")
+            if len(p) <= i_lab:
+                continue
+            stmt = p[i_stmt]
+            if stmt not in ("IS", "BS", "CF"):
+                continue
+            sub = subs.get(p[i_adsh])
+            if sub is None:
+                continue
+            cik = sub["cik"]
+            bad = na.get(cik)
+            if not bad:
+                continue
+            for cid in nearmiss(p[i_tag], stmt):
+                if cid in bad:
+                    hits[(cid, p[i_tag], p[i_lab])].add(cik)
+    return n
+
+
+def build_company_na(concepts, stmt_of, skip_zero, evid, seen, min_tags):
+    """每家公司的不適用科目清單。回傳 {cik: [concept_id, ...]}。"""
+    na = {}
+    for cik in {k[0] for k in seen}:
+        known = {st for st in ("IS", "BS", "CF")
+                 if len(seen.get((cik, st), ())) >= min_tags}
+        # 三張表沒有全部看清楚就整家不判，退回產業表。
+        # 只判其中一兩張的話，另外那張的科目會因為「沒證據」被誤判成不適用。
+        if len(known) < 3:
+            continue
+        got = set()
+        for st in known:
+            got |= evid.get((cik, st), set())
+        # derive 的輸入都在 -> 這條算得出來，所以它缺就是真缺口，不是不適用
+        for _ in range(4):
+            changed = False
+            for c in concepts:
+                if not c.get("derive") or c["id"] in got:
+                    continue
+                if all(i in got for i in parse_derive(c["derive"])):
+                    got.add(c["id"])
+                    changed = True
+            if not changed:
+                break
+        miss = [c["id"] for c in concepts
+                if c["id"] not in skip_zero and c["id"] not in got]
+        if miss:
+            na[cik] = miss
+    return na
+
+
 def main():
     ap = argparse.ArgumentParser(description="離線盤點 xbrl_zh_map 的全市場覆蓋率")
     ap.add_argument("zips", nargs="+", help="FSDS 季度 zip，可給多包合併")
@@ -344,6 +585,12 @@ def main():
                     help="產出 config/concept_applicability.json（執行期判斷「—」用）")
     ap.add_argument("--na-threshold", type=float, default=0.15,
                     help="產適用性表用：該產業命中率低於此值視為「該產業不適用」（預設 0.15）")
+    ap.add_argument("--company-applicability", metavar="PATH",
+                    help="產出 config/company_applicability.json（逐家判斷，只讀 pre.txt）")
+    ap.add_argument("--explain-cik", help="搭配上一項：印出這家公司每個科目的判定理由")
+    ap.add_argument("--audit-na", action="store_true",
+                    help="搭配上一項：列出「判成不適用但報表上有差一點的標籤」的組合，"
+                         "用來抓誤判（誤判成不適用＝把真缺口洗成「—」＝說謊）")
     args = ap.parse_args()
 
     sys.stdout.reconfigure(encoding="utf-8")
@@ -353,6 +600,101 @@ def main():
     # zero_if_absent 的科目不列入覆蓋率：「缺就是 0」是設計決定，不是抓不到
     skip_zero = {c["id"] for c in concepts if c.get("zero_if_absent")}
     mapped_tags = set(tag2concepts)
+
+    # ────────── 逐家適用性：只讀 sub.txt + pre.txt，不碰 542MB 的 num.txt ──────────
+    if args.company_applicability:
+        evidence = build_evidence(concepts, vocab, stmt_of, tag2concepts)
+        evid, seen = defaultdict(set), defaultdict(set)
+        names, sics = {}, {}
+        for path in args.zips:
+            print(f"讀取 {os.path.basename(path)}", file=sys.stderr)
+            z = zipfile.ZipFile(path)
+            subs = read_sub(z)
+            for s in subs.values():
+                names[s["cik"]] = s["name"]
+                sics[s["cik"]] = s["sic"]
+            print(f"  定期財報 {len(subs):,} 份，掃 pre.txt…", file=sys.stderr)
+            n = scan_pre_evidence(z, subs, evidence, evid, seen)
+            print(f"  pre.txt {n:,} 列", file=sys.stderr)
+
+        na = build_company_na(concepts, stmt_of, skip_zero, evid, seen, NA_MIN_TAGS)
+        order = [c["id"] for c in concepts]
+        idx = {cid: i for i, cid in enumerate(order)}
+
+        if args.audit_na:
+            nas = {k: set(v) for k, v in na.items()}
+            nearmiss = build_evidence(concepts, vocab, stmt_of, tag2concepts, near=True)
+            hits = defaultdict(set)
+            for path in args.zips:
+                print(f"稽核 {os.path.basename(path)}", file=sys.stderr)
+                z = zipfile.ZipFile(path)
+                scan_pre_audit(z, read_sub(z), nearmiss, nas, hits)
+            print("\n" + "=" * 92)
+            print(f"誤判稽核：判成「不適用」但該公司報表上有分數 "
+                  f"{NA_NEAR_SCORE}–{NA_MIN_SCORE} 的標籤")
+            print("=" * 92)
+            print("這裡每一列都要人工看過。真的是同一條 -> 補進 map 的 tags（順便修好資料），"
+                  "\n不是同一條 -> 忽略。列在這裡不代表壞掉，代表「值得懷疑」。\n")
+            by_c = defaultdict(list)
+            for (cid, tag, lab), ciks in hits.items():
+                by_c[cid].append((len(ciks), tag, lab))
+            for cid in sorted(by_c, key=lambda c: -sum(n for n, _, _ in by_c[c])):
+                tot = len({c for (a, t, l), s in hits.items() if a == cid for c in s})
+                print(f"\n{zh_of[cid]}（{cid}，判不適用 {len(na and [1 for v in na.values() if cid in v]):,} 家，"
+                      f"其中 {tot:,} 家有可疑標籤）")
+                for n, tag, lab in sorted(by_c[cid], reverse=True)[:6]:
+                    print(f"    {n:>5} 家  {tag:<52}{lab[:34]}")
+            return
+
+        if args.explain_cik:
+            cik = str(int(args.explain_cik))
+            print(f"\n{names.get(cik, '?')}  CIK {cik}  SIC {sics.get(cik, '?')}"
+                  f"  ({sic_group(sics.get(cik, '')) })")
+            for st in ("IS", "BS", "CF"):
+                print(f"  {st}: 看到 {len(seen.get((cik, st), ()))} 個標籤")
+            miss = set(na.get(cik, ()))
+            for c in concepts:
+                cid = c["id"]
+                if cid in skip_zero:
+                    mark = "·  zero_if_absent"
+                elif cid in miss:
+                    mark = "—  報表上沒有語意相當的行 -> 不適用"
+                else:
+                    mark = "n/a 報表上有這一行 -> 缺值就是真缺口"
+                print(f"    {zh_of[cid]:<18}{stmt_of[cid]:<4}{mark}")
+            return
+
+        out = {
+            "version": "1.0",
+            "generated": __import__("datetime").date.today().isoformat(),
+            "source": [os.path.basename(p) for p in args.zips],
+            "map_version": m.get("version"),
+            "min_tags": NA_MIN_TAGS,
+            "min_score": NA_MIN_SCORE,
+            "note": ("由 tools/fsds_coverage.py --company-applicability 產生，判準是"
+                     "**這家公司自己的報表**：pre.txt 的 IS/BS/CF 上有沒有語意相當的行。"
+                     "沒有 -> 該科目對這家公司不適用，缺值寫「—」；有 -> 維持 n/a。"
+                     "比產業表精準（波克夏掛保險但用未分類資產負債表這類異類才判得對）。"
+                     "companies 沒收錄的公司退回 concept_applicability.json 的產業表。"
+                     "concepts 是索引表，companies 的值是逗號分隔的索引。"),
+            "concepts": order,
+            "companies": {k: ",".join(str(idx[i]) for i in v) for k, v in sorted(na.items(), key=lambda x: int(x[0]))},
+        }
+        with open(args.company_applicability, "w", encoding="utf-8") as f:
+            json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
+        size = os.path.getsize(args.company_applicability)
+        print(f"\n已寫出 {args.company_applicability}　{size/1024:.0f} KB")
+        print(f"收錄 {len(na):,} 家（掃到 {len({k[0] for k in seen}):,} 家，"
+              f"三張表看不清楚而跳過 {len({k[0] for k in seen}) - len(na):,} 家）")
+        cnt = Counter(len(v) for v in na.values())
+        print("每家不適用科目數分布：" +
+              "、".join(f"{k}個{n}家" for k, n in sorted(cnt.items())[:12]))
+        top = Counter(i for v in na.values() for i in v)
+        print("\n最常不適用的科目：")
+        for cid, n in top.most_common(15):
+            print(f"  {zh_of[cid]:<18}{stmt_of[cid]:<4}{n:>6} 家 "
+                  f"({n/len(na)*100:.0f}%)")
+        return
 
     hit, dimonly, filed_stmt = defaultdict(set), defaultdict(set), defaultdict(set)
     cik_tags, tag_label = defaultdict(set), defaultdict(Counter)

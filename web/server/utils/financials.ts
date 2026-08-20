@@ -789,7 +789,74 @@ export async function getFinancials(
   // 每季都有，用 fy/fp 對應補上缺的季（us-gaap 精確值優先，不覆蓋）。
   const soLi = byId.get('shares_outstanding')
   const deiPts = facts.facts.dei?.['EntityCommonStockSharesOutstanding']?.units?.['shares']
+
+  /**
+   * 期末股數的每個候選來源都留一份，最後由「期末股數來源仲裁」用加權平均股數當錨挑。
+   *
+   * 舊版是**固定優先序**：us-gaap → dei 封面 → 離線預算 → 近似加權平均，而且後三者
+   * 一律只補洞、不覆蓋。只要 companyfacts 有一個無維度的 us-gaap 值，後面算得再對
+   * 也永遠輪不到。實測這個順序本身就是錯的：
+   *   Everest    把含庫藏股的發行數掛在 `CommonStockSharesOutstanding` 上
+   *              （逐格等於 `CommonStockSharesIssued`）→ 7,450 萬 vs 實際 3,880 萬，市值高估 80%
+   *   Parsons    同一個標籤放的是別的東西，5,690 萬 vs 實際 1.07 億，市值低估一半
+   *   Clearway   Up-C 校正值在離線預算裡算好了卻用不上 → 2.09 億 vs 1.21 億，高估 73%
+   *   Boeing     18 格裡 13 格走 dei（對）、4 格走 us-gaap（含庫藏股）→ **同一列混兩種基礎**，
+   *              中位數剛好 1.00，任何用中位數的檢查都看不出來
+   * 存的是「這個來源在這一期會給什麼值」，不是最後結果。
+   */
+  const soCand = new Map<string, Record<string, CellValue>>()
+
+  // 期別 → 期末日。給「事實只帶日期、沒有 fy/fp」的來源對期用。
+  const endOf = new Map<string, string>()
+  for (const li of lineItems) {
+    for (const [p, c] of Object.entries(li.values)) {
+      if (c.endDate && !endOf.has(p)) endOf.set(p, c.endDate)
+    }
+  }
+
   if (soLi) {
+    soCand.set('us-gaap', { ...soLi.values })
+
+    /**
+     * 候選：`已發行股數 − 庫藏股`。這**不是推算值**，是公司自己申報的兩個數字相減，
+     * 字面上就是「流通在外股數」的定義。需要它，是因為有些公司兩個現成來源都髒：
+     * Lazard 的 us-gaap 期末股數整個沒申報，dei 封面又逐格等於 `CommonStockSharesIssued`
+     * （1.128 億，含庫藏股），而加權平均只有 9,700 萬 —— 市值高估兩成且無替代來源。
+     * 只有在仲裁時獨立落在錨的 10% 內才會被選中，選不上就完全不作用。
+     */
+    const issuedPts = facts.facts['us-gaap']?.['CommonStockSharesIssued']?.units?.['shares']
+    const treaPts = facts.facts['us-gaap']?.['TreasuryStockCommonShares']?.units?.['shares']
+      ?? facts.facts['us-gaap']?.['TreasuryStockShares']?.units?.['shares']
+    if (issuedPts && treaPts) {
+      const latestByEnd = (pts: typeof issuedPts) => {
+        const m = new Map<string, { val: number; filed: string }>()
+        for (const x of pts ?? []) {
+          if (!x.end || x.val == null) continue
+          const prev = m.get(x.end)
+          if (!prev || x.filed > prev.filed) m.set(x.end, { val: x.val, filed: x.filed })
+        }
+        return m
+      }
+      const iss = latestByEnd(issuedPts)
+      const tre = latestByEnd(treaPts)
+      const netCand: Record<string, CellValue> = {}
+      for (const [p, end] of endOf) {
+        const a = iss.get(end)
+        const b = tre.get(end)
+        if (!a || !b) continue
+        const v = a.val - b.val
+        if (v <= 0) continue
+        netCand[p] = {
+          value: splitAdjust(v, a.filed, 'shares', splits),
+          isEstimated: true,
+          sourceTag: '申報已發行股數 − 庫藏股',
+          filed: a.filed,
+          endDate: end,
+        }
+      }
+      soCand.set('issued-treasury', netCand)
+    }
+
     const best = new Map<string, { val: number; filed: string }>()
     for (const p of deiPts ?? []) {
       if (!p.fy || !p.fp) continue
@@ -808,16 +875,20 @@ export async function getFinancials(
       const prev = best.get(key)
       if (!prev || p.filed > prev.filed) best.set(key, { val: p.val, filed: p.filed })
     }
+    const deiCand: Record<string, CellValue> = {}
     for (const [key, { val, filed }] of best) {
-      if (soLi.values[key]?.value != null) continue // us-gaap 已有（較精確）
       if (!allPeriods.has(key)) continue
-      soLi.values[key] = {
+      const cell: CellValue = {
         value: splitAdjust(val, filed, 'shares', splits),
         isEstimated: false,
         sourceTag: 'dei:EntityCommonStockSharesOutstanding',
         filed,
       }
+      deiCand[key] = cell
+      if (soLi.values[key]?.value != null) continue // us-gaap 已有 → 這裡只補洞，對錯留給後面仲裁
+      soLi.values[key] = cell
     }
+    soCand.set('dei', deiCand)
     /**
      * 多股別公司：封面股數帶了 `StatementClassOfStockAxis` 維度 → companyfacts 收不到，
      * 連加權平均股數也常常一起消失。從離線預算好的 `config/class_shares.json` 補
@@ -830,13 +901,6 @@ export async function getFinancials(
      */
     const cs = (await loadClassShares()).companies[String(Number(ref.cik10))]
     if (cs) {
-      const endOf = new Map<string, string>()
-      for (const li of lineItems) {
-        for (const [p, c] of Object.entries(li.values)) {
-          if (c.endDate && !endOf.has(p)) endOf.set(p, c.endDate)
-        }
-      }
-
       /**
        * 加權平均股數也可能整列是錯的，而且錯得很難發現：Shift4 申報時把 Class C 的
        * 133 萬股**同時也標成無維度**，companyfacts 就把它當成全公司的加權平均
@@ -866,8 +930,8 @@ export async function getFinancials(
       }
 
       const dates = Object.keys(cs.shares).sort()
+      const budCand: Record<string, CellValue> = {}
       for (const p of allPeriods) {
-        if (soLi.values[p]?.value != null) continue
         const end = endOf.get(p)
         if (!end) continue
         const t = Date.parse(end)
@@ -876,13 +940,19 @@ export async function getFinancials(
           return gap >= 0 && gap <= 75
         })
         if (!hit) continue
-        soLi.values[p] = {
+        const cell: CellValue = {
           value: cs.shares[hit],
           isEstimated: true,
           sourceTag: `申報封面各股別股數（${cs.basis}）`,
           endDate: hit,
         }
+        budCand[p] = cell
+        // 這裡仍然只補洞。**能不能蓋掉 us-gaap 交給後面的仲裁用錨決定** —— 無條件覆蓋
+        // 會把預算檔沒跟上的期、或工具本身算錯的股別，直接推翻公司自己申報的數字。
+        if (soLi.values[p]?.value != null) continue
+        soLi.values[p] = cell
       }
+      soCand.set('budget', budCand)
     }
 
     // 仍缺的期（us-gaap 年度末、dei、預算檔都沒有，如 NVDA 2021Q1/Q2）→ 退回加權平均
@@ -1106,6 +1176,7 @@ export async function getFinancials(
         }
       }
     }
+
   }
 
   // zero_if_absent：該科目缺申報通常代表公司沒有此項目 = 0（如無配息、無庫藏股、
@@ -1161,6 +1232,140 @@ export async function getFinancials(
             isEstimated: true,
             sourceTag: '沿用前期（該季未申報）',
             endDate: prev.endDate,
+          }
+        }
+      }
+    }
+  }
+
+    /**
+     * 期末股數來源仲裁。
+     *
+     * **位置很重要：要在「申報單位還原」與「沿用前期」都做完之後。**
+     *   ─ 申報單位還原之後，加權平均股數才是乾淨的，才當得了錨
+     *   ─ 沿用前期之後，才不會出現「仲裁刪掉的格子被沿用又抄回來」：Lazard 的
+     *     FY2022 Q2–Q4 就是這樣復活的，而且抄的正是同一個錯基礎的值。順帶
+     *     沿用也把加權平均補密了，錨的涵蓋率更高
+     *
+     * 要抓的病：期末股數這一列有 1.2～2.5 倍的基礎錯誤 —— 含庫藏股的發行數、
+     * Up-C 的非經濟股別、只算了一個股別。全部躲得過既有的兩道（1000 的次方、100 倍
+     * 離群值），因為它們找的是數量級。
+     *
+     * ── 錨為什麼是加權平均股數，不是隱含股數（淨利÷自報每股盈餘）
+     * 隱含股數在少數股權大的公司會整條歪掉：分子的 `ProfitLoss` 含少數股權、分母的
+     * 每股盈餘只算母公司股東。實測 FCX（PT-FI 印尼）、QSR（可交換合夥單位）、
+     * THC（USPI 合資）三家的期末股數與加權平均股數逐格吻合、資料本來就是對的，
+     * 隱含錨卻判它們 0.55／0.71／0.53。同一批測試裡加權平均股數 7 家全判對。
+     *
+     * ── 三道閘門，缺一就會把對的資料改壞
+     * ① **逐格判，不看中位數**。波音 18 格裡 13 格走 dei（對）、4 格走 us-gaap
+     *    （含庫藏股），中位數剛好 1.00 —— 用中位數找「混兩種基礎」的病，等於用會被
+     *    這個病騙的指標去找它。
+     * ② **期中增資要放行**。期末股數本來就會比同期加權平均高，增資、換股併購那一季
+     *    差兩成以上很正常。判準是**下一期的加權平均有沒有跟上**：真的增資會讓下一期
+     *    的加權平均補到同一個水位（階梯），基礎錯誤不會（尖點）。
+     * ③ **只能換成另一個公司自己申報的數字**，而且那個數字要獨立落在錨的 10% 內；
+     *    沒有這種候選就**原封不動**，不退回「近似加權平均」。少了這道，遇到加權平均
+     *    自己是錯的公司（Shift4 把 Class C 的 133 萬標成無維度）就會拿錯的錨去推翻
+     *    正確的封面股數。有了這道，錯的錨不會有任何候選同意它，規則自動不作用。
+     */
+  {
+    const soLi2 = byId.get('shares_outstanding')
+    const wBasic = byId.get('shares_basic')
+    const wDil = byId.get('shares_diluted')
+    const sorted = [...allPeriods].sort()
+    if (soLi2 && soCand.size) {
+      const wavgAt2 = (p: string): number | null => {
+        const v = wBasic?.values[p]?.value ?? wDil?.values[p]?.value
+        return v != null && v !== 0 ? Math.abs(v) : null
+      }
+      // 閘門②：真的期中增資，**下一期的加權平均會補到同一個水位**（階梯）；
+      // 基礎錯誤不會（尖點）。這一項單獨抽出來，因為第二輪要用它而不要 20% 那項。
+      const catchesUp = (v: number, i: number): boolean => {
+        const w0 = wavgAt2(sorted[i])
+        const w1 = i + 1 < sorted.length ? wavgAt2(sorted[i + 1]) : null
+        if (!w0 || !w1 || Math.abs(v / w1 - 1) > 0.15) return false
+        // 「下一期比較接近」還不夠 —— 要有**發生過增資／買回的正面證據**，也就是
+        // 加權平均自己往同一個方向跨了一階。少了這一項，Lazard 這種「期末長期比
+        // 加權平均高 15–18%、加權平均每季自然爬 1%」的列，會被誤判成一路都在增資。
+        return v > w0 ? w1 >= w0 * 1.1 : w1 <= w0 * 0.9
+      }
+      const fits = (v: number, i: number): boolean => {
+        const w0 = wavgAt2(sorted[i])
+        if (w0 && Math.abs(v / w0 - 1) <= 0.2) return true
+        return catchesUp(v, i)
+      }
+      // 落在錨 10% 內的最貼近來源；同樣貼近時先宣告的優先
+      const closest = (p: string, w0: number): CellValue | null => {
+        let win: CellValue | null = null
+        let bestOff = 0.1
+        for (const [, m] of soCand) {
+          const c = m[p]
+          if (!c || c.value == null || c.value === 0) continue
+          const off = Math.abs(Math.abs(c.value) / w0 - 1)
+          if (off < bestOff) {
+            bestOff = off
+            win = c
+          }
+        }
+        return win
+      }
+
+      // 第一輪：逐格換掉對不上錨、而且有更好來源可換的
+      const convicted = new Set<string>()
+      for (let i = 0; i < sorted.length; i++) {
+        const p = sorted[i]
+        const w0 = wavgAt2(p)
+        const cell = soLi2.values[p]
+        const cur = cell?.value
+        if (!w0 || cur == null || cur === 0) continue
+        if (fits(Math.abs(cur), i)) continue
+        const win = closest(p, w0)
+        if (!win || win.value === cur) continue
+        if (cell?.sourceTag) convicted.add(cell.sourceTag)
+        soLi2.values[p] = { ...win, isEstimated: true }
+      }
+
+      /**
+       * 第二輪：**同一列裡被推翻過的來源，剩下的格子不再享有 20% 的寬容。**
+       *
+       * 少了這輪，「修一半」會比不修更糟 —— 修出來的是混兩種基礎的列：
+       *   International Paper  Sylvamo 分拆後 `CommonStockSharesOutstanding` 停在
+       *     6.27 億（含庫藏股）不動，實際 5.28 億。差 19%，剛好躲過 20% 的閘門，
+       *     但同一列的另外兩格差 29% 和 43% 被換成 dei 了 → 整列在 627M 與 528M
+       *     之間來回跳，比全錯還難發現
+       *   Clearway / HEICO     離線預算沒涵蓋最早那一兩期，前面留著舊基礎的
+       *     2.02 億／5,450 萬，後面是校正後的 1.17 億／1.39 億
+       * 這一輪對這些格子改用 10% 判定：換得掉就換，換不掉、而且連原本的 20% 都
+       * 過不了，就刪成 n/a。**留白比混基礎誠實** —— 混基礎的每一格單獨看都正常，
+       * 市值圖卻會憑空跳一階，沒有任何欄位標示得出來。
+       */
+      if (convicted.size) {
+        for (let i = 0; i < sorted.length; i++) {
+          const p = sorted[i]
+          const w0 = wavgAt2(p)
+          const cell = soLi2.values[p]
+          const cur = cell?.value
+          if (cur == null || cur === 0) continue
+          if (!cell?.sourceTag || !convicted.has(cell.sourceTag)) continue
+          // 沒有錨可判、來源又已經被推翻過 → 刪。Clearway 的 FY2021 Q1/Q2 沒有加權平均
+          // 可比，離線預算也還沒涵蓋到那兩期，於是 Up-C 全股別的 2.02 億原封不動留著，
+          // 跟後面校正過的 1.17 億並排 —— 判不了不等於沒問題，這個來源在這一列
+          // 已經有前科了。
+          if (!w0) {
+            delete soLi2.values[p]
+            continue
+          }
+          if (Math.abs(Math.abs(cur) / w0 - 1) <= 0.1) continue
+          const win = closest(p, w0)
+          if (win && win.value !== cur) {
+            soLi2.values[p] = { ...win, isEstimated: true }
+          } else if (!catchesUp(Math.abs(cur), i)) {
+            // 這裡**不能**再給一次 20% 的逃生門。Lazard 的封面股數逐格等於發行數，
+            // 偏離 15–18%：換不掉（庫藏股只在年報申報）又刪不掉，整列就在 1.128 億
+            // 與 9,030 萬之間來回跳。20% 那道本來就是為了放行期中增資，而增資已經由
+            // 「下一期加權平均有沒有跟上」判掉了，留著只會製造混基礎列。
+            delete soLi2.values[p]
           }
         }
       }

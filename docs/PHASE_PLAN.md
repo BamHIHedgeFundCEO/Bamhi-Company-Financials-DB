@@ -1138,6 +1138,64 @@ PANW FY2026Q2：EV 135.5B vs 有息版 119.9B（差的是遞延收入等非借�
 
 ---
 
+### MP 的 Magnetics 整排 n/a：只有一種產品的分部沒有小計（2026-08-22）
+
+使用者回報 MP Materials 的分部分頁 FY2025 上半年整排空白，但財報上兩個分部都有數字。
+追到申報檔，**事實在，是我們的抽取規則把它全部丟掉了**。
+
+同一份 10-Q 裡，MP 的兩個分部長得不一樣：
+
+| 成員 | 可用的事實 | 抽取器 |
+|---|---|---|
+| Materials | `ConsolidationItems=OperatingSegments + BusinessSegments=Materials` = 37,532M | 單一分部軸 → **收** |
+| Magnetics | `… + ProductOrService=MagneticPrecursor` = 19,861M | 兩個分部軸交叉 → `cross_axis` 丟 |
+| Magnetics | `… + srt:MajorCustomersAxis=mp:ExternalCustomers` = 19,861M | 設定外維度 → `foreign_dim` 丟 |
+
+原因很單純：**Magnetics 只有一種產品**，所以申報人沒有另外標一個分部小計 ——
+產品那一行就是分部那一行。Materials 有三種產品，才有獨立的小計事實。
+
+而且這是**比較期**才會發生：FY2026 的 10-Q 裡當季兩個分部都有乾淨小計，
+但 2025 年的比較期只有上面那兩種標法。加上合併規則「成員集合鎖在最新那份申報」
+（避免改組公司新舊結構疊加），舊申報也補不回來 → 整排 n/a。
+
+修法走設定層（`config/segment_axes.json` 1.5 → 1.6），兩件事：
+
+1. `passthrough_dims` 多一個 `patterns`：成員是公司自訂時白名單列不完
+   （`mp:ExternalCustomersMember`），改比對成員裸名的正規式。目前只放行
+   `MajorCustomersAxis` 底下的 `^External`。
+   **不放行 Intersegment** —— 那是分部間銷售，只是分部營收的一部分。
+   外部客戶營收不含分部間銷售，反而比分部總額更容易與合併總額對得起來
+   （合併營收 ＝ Σ 外部客戶）。
+2. 抽取器加「乾淨事實優先」：同一格若也有單軸的分部小計，一律以小計為準，
+   passthrough 只補真正的空格。這道防護是必要的 —— MP 同一份申報裡 Materials
+   既有小計 95,629M、也有外部客戶 91,966M（差的 3,663M 是分部間銷售），
+   文件順序是「小計 → 外部 → 小計」，靠原本的「後寫贏」等於擲骰子。
+
+結果：MP 的 Magnetics FY2025 Q1／Q2 補回 5,191M／19,861M，
+Materials 維持 95,629M 沒有被外部客戶數字蓋掉。
+
+118 家逐格回歸（`segment_sweep` 重解析 ＋ `segment_diff`）：
+**數值改變 0 格、校驗狀態變化 0 家**，唯一的差異是 CMI 多了 62 格 —— 而那格差異
+挖出了另一個更廣的問題。
+
+#### 分部快取的 key 少綁了一個設定檔（同批修掉）
+
+CMI 多出來的 62 格是**分部折舊攤銷**，數字與 10-K 完全相符。它本來就該有：
+`OtherDepreciationAndAmortization` 早在 map v1.8（commit `416daf3`，「補 15 個標籤」）
+就進了對照表。沒出現的原因是分部快取的 key 只綁 `segment_axes.json` 的版本：
+
+```
+seg/v5-${cfg.version}/${cik}/${accession}.json      ← 舊
+seg/v6-${cfg.version}-m${mapVersion}/…              ← 新
+```
+
+抽取要不要收一筆事實，取決於它的標籤有沒有對到 concept —— 而那份對照表是
+`xbrl_zh_map.json`。少綁它，**補進對照表的新標籤對所有已解析過的公司一律無效，
+而且不會有任何錯誤訊息**。程式裡原本就有一段註解在警告這個失效模式，只是防到了
+另一個檔（segment_axes）。v1.8 那批 15 個標籤實際生效的只有從沒被快取過的公司。
+
+---
+
 ### 自訂標籤白名單：量完之後放棄（2026-08-20）
 
 **結論先講：不要做。** 這是我自己提的第三件事，量到 68% 的候選是錯的就收掉了。

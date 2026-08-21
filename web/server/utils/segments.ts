@@ -52,7 +52,7 @@ interface SegmentAxesConfig {
    * **一定要精確到成員** —— 同一個軸底下的 CustomerConcentrationRiskMember
    * 是客戶佔比、不是分部拆解，放進來會憑空多出假成員。
    */
-  passthrough_dims?: { map: Record<string, string[]> }
+  passthrough_dims?: { map: Record<string, string[]>; patterns?: Record<string, string[]> }
   member_normalize: {
     strip_suffixes: string[]
     lowercase: boolean
@@ -433,6 +433,19 @@ export async function extractFromInstance(
   const passthrough = new Map(
     Object.entries(cfg.passthrough_dims?.map ?? {}).map(([ax, ms]) => [ax, new Set(ms)]),
   )
+  // 成員自訂時白名單列不完（mp:ExternalCustomersMember），改比對成員裸名的正規式
+  const passthroughPat = new Map(
+    Object.entries(cfg.passthrough_dims?.patterns ?? {}).map(
+      ([ax, ps]) => [ax, ps.map((p) => new RegExp(p, 'i'))] as const,
+    ),
+  )
+  /**
+   * `期間|軸|成員|科目` → 這格已經由**單軸乾淨事實**填過。
+   * passthrough 只補真正的空格，不准蓋掉分部小計 —— MP 同一份申報裡
+   * Materials 既有小計 95,629M，也有「外部客戶」91,966M（不含分部間銷售 3,663M），
+   * 文件順序是小計、外部、再一次小計，靠「後寫贏」會變成擲骰子。
+   */
+  const cleanKeys = new Set<string>()
   const wantedConcepts = new Set(cfg.concepts.include)
 
   const out: ExtractedFilingSegments = {
@@ -507,7 +520,8 @@ export async function extractFromInstance(
         if (own.has(d.axis)) continue
         if (!consAxes.has(d.axis)) {
           // 設定層允許無視的維度（集中度揭露包住的地區營收，見 passthrough_dims）
-          if (passthrough.get(d.axis)?.has(d.member)) {
+          const bareDim = d.member.slice(d.member.indexOf(':') + 1)
+          if (passthrough.get(d.axis)?.has(d.member) || passthroughPat.get(d.axis)?.some((re) => re.test(bareDim))) {
             // ⚠️ 放行的前提是這筆真的是金額。集中度揭露最常見的標法是**百分比**
             // （0.38 表示 38%，unitRef 指到 pure），照收會把 0.38 當成 0.38 美元。
             if (isMonetaryUnit(f.unit)) continue
@@ -575,6 +589,17 @@ export async function extractFromInstance(
     const byAxis = (out.data[period] ??= {})
     const byMember = (byAxis[seg.axis] ??= {})
     const byConcept = (byMember[key] ??= {})
+    // 這筆是靠 passthrough 才進得來的（帶了分部軸與 ConsolidationItems 以外的維度）
+    const viaPassthrough = ctx.dims.some((d) => d.axis !== seg.axis && !consAxes.has(d.axis))
+    const ck = `${period}|${seg.axis}|${key}|${cid}`
+    if (viaPassthrough) {
+      if (cleanKeys.has(ck)) {
+        drop('passthrough_shadowed', `${seg.axis}|${key}`, cid, f.val)
+        continue
+      }
+    } else {
+      cleanKeys.add(ck)
+    }
     byConcept[cid] = f.val
   }
 
@@ -1191,8 +1216,12 @@ export function projectMissingAxes(
   }
 }
 
-/** 反查表：裸標籤 → concept id（沿用 xbrl_zh_map 既有的 tags/tags_ifrs） */
-async function buildTagIndex(): Promise<Map<string, string>> {
+/**
+ * 反查表：裸標籤 → concept id（沿用 xbrl_zh_map 既有的 tags/tags_ifrs）。
+ * 一併回傳對照表版本 —— 抽取結果是「instance × segment_axes × **xbrl_zh_map**」的函數，
+ * 快取 key 少綁後面那個就會靜靜失效（見 getSegments 的 key 註解）。
+ */
+async function buildTagIndex(): Promise<{ idx: Map<string, string>; version: string }> {
   const map = await loadMap()
   const idx = new Map<string, string>()
   for (const c of map.concepts) {
@@ -1200,7 +1229,7 @@ async function buildTagIndex(): Promise<Map<string, string>> {
       if (!idx.has(t)) idx.set(t, c.id)
     }
   }
-  return idx
+  return { idx, version: map.version }
 }
 
 /**
@@ -1215,7 +1244,7 @@ export async function getSegments(
   company: string,
 ): Promise<SegmentsResult> {
   const cfg = await loadSegmentAxes()
-  const tagIdx = await buildTagIndex()
+  const { idx: tagIdx, version: mapVersion } = await buildTagIndex()
   const warnings: string[] = []
 
   const merged: ExtractedFilingSegments = {
@@ -1248,7 +1277,12 @@ export async function getSegments(
     // 手動版號的話，改了 config/segment_axes.json 卻忘了改這裡，全體公司就會安靜地
     // 吃舊快取：新增一個軸毫無效果，而且不會有任何錯誤訊息。綁上去之後設定檔改版
     // 即自動失效，不必記得同時改兩個地方。
-    const key = `seg/v5-${cfg.version}/${ref.cik10}/${f.accessionNumber}.json`
+    // v6：key 補綁 xbrl_zh_map 版本。抽取要不要收一筆事實，取決於它的標籤有沒有
+    // 對到 concept —— 那份對照表是 `xbrl_zh_map.json`，不是 `segment_axes.json`。
+    // 少綁的後果實測到了：map v1.8（commit 416daf3）補進 15 個標籤，其中
+    // `OtherDepreciationAndAmortization` 是 Cummins 申報分部折舊用的標籤，
+    // 但快取 key 沒變 → 已解析過的公司永遠拿不到那 62 格，而且不會有任何錯誤訊息。
+    const key = `seg/v6-${cfg.version}-m${mapVersion}/${ref.cik10}/${f.accessionNumber}.json`
     let one: ExtractedFilingSegments | null = null
     try {
       one = await cached(key, async () => {

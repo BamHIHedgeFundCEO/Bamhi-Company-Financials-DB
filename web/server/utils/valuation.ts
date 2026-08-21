@@ -121,6 +121,7 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
   const pb: Record<string, number | null> = {}
   const pfcf: Record<string, number | null> = {}
   const ev: Record<string, number | null> = {}
+  const evDebt: Record<string, number | null> = {}
   const evEbitda: Record<string, number | null> = {}
   const peg: Record<string, number | null> = {}
   for (const p of periods) {
@@ -130,15 +131,26 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
     const eq = val('equity', p)
     pb[p] = mc != null && pos(eq) ? mc / (eq as number) : null
     pfcf[p] = mc != null ? divPos(mc, ttmFcf(ttm, p)) : null
-    // 債務任一段不明就不給 EV。原本兩段都是 `?? 0`，等於「查不到」＝「沒有」——
-    // JPM 的長期債只在帶維度的事實裡，JSON 會回一個少算幾千億、看起來正常的 EV，
-    // 而同一家公司的 Excel（純公式、n/a 會傳染）卻是空的，兩個介面各說各話。
-    // 上限背書那一段跑在前面，該補的已經補成 0 了，這裡嚴格才不會誤傷。
-    const std = val('short_term_debt', p)
-    const ltd = val('long_term_debt', p)
+    /**
+     * EV 兩種定義都給，因為它們回答的是不同問題：
+     *
+     * `ev`（主列，永遠算得出來）＝ 市值 + **負債總計** − 現金 − 短期投資。
+     *   買下整間公司要扛下的是資產負債表右邊的全部，不只有息借款。
+     *   負債總計缺標籤時本身就有 `total_assets - equity_total` 的推算，所以不會沒有。
+     *   代價：與 Bloomberg／CapIQ 口徑不同（它們只算有息負債），
+     *   銀行更誇張 —— JPM 的負債總計是幾兆的**存款**。
+     *
+     * `ev_debt`（有息負債版）＝ 市值 + 短期借款 + 長期負債 − 現金 − 短期投資，
+     *   與外部資料商可比。任一段債務不明就 n/a（`?? 0` 會把「查不到」講成「沒有」，
+     *   JPM 的長期債只在帶維度的事實裡，那樣會少算幾千億還看起來很正常）。
+     */
     const cash = val('cash', p)
     const sti = val('short_term_investments', p) ?? 0
-    ev[p] = mc != null && cash != null && std != null && ltd != null ? mc + std + ltd - cash - sti : null
+    const totalLiab = val('total_liabilities', p)
+    ev[p] = mc != null && cash != null && totalLiab != null ? mc + totalLiab - cash - sti : null
+    const std = val('short_term_debt', p)
+    const ltd = val('long_term_debt', p)
+    evDebt[p] = mc != null && cash != null && std != null && ltd != null ? mc + std + ltd - cash - sti : null
     evEbitda[p] = ev[p] != null ? divPos(ev[p]!, ebitdaTtm(p)) : null
     // PEG = PE / (TTM 淨利年增率 %)；成長須為正
     const niN = ttm('net_income', p)
@@ -160,7 +172,8 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
     { id: 'ps', zh: '股價營收比', en: 'P/S (TTM)', unit: 'x', values: ps, desc: '市值 ÷ 近四季營收。營收最難美化，虧損股也適用。' },
     { id: 'pb', zh: '股價淨值比', en: 'P/B', unit: 'x', values: pb, desc: '市值 ÷ 股東權益。' },
     { id: 'pfcf', zh: '股價自由現金流比', en: 'P/FCF (TTM)', unit: 'x', values: pfcf, desc: '市值 ÷ 近四季自由現金流。燒錢時 n/a。' },
-    { id: 'ev', zh: '企業價值', en: 'Enterprise Value', unit: 'USD', values: ev, desc: '市值 + 總負債 − 現金 − 短期投資。' },
+    { id: 'ev', zh: '企業價值', en: 'Enterprise Value', unit: 'USD', values: ev, desc: '市值 + 負債總計 − 現金 − 短期投資。買下整間公司要扛下的全部負債，不只有息借款。' },
+    { id: 'ev_debt', zh: '企業價值（僅有息負債）', en: 'EV (Interest-Bearing Debt)', unit: 'USD', values: evDebt, desc: '市值 + 短期借款 + 長期負債 − 現金 − 短期投資。Bloomberg／CapIQ 的口徑，與外部資料可比；債務有一段查不到時為 n/a。' },
     { id: 'ev_ebitda', zh: 'EV／EBITDA', en: 'EV/EBITDA (TTM)', unit: 'x', values: evEbitda, desc: '排除資本結構的估值倍數。' },
     { id: 'peg', zh: '本益成長比', en: 'PEG (trailing)', unit: 'x', values: peg, desc: 'P/E ÷ 近四季淨利年增率(%)。< 1 常視為成長相對便宜。虧損/衰退時 n/a。' },
     { id: 'ps_vs_median', zh: 'PS／歷史中位數', en: 'P/S vs 5Y Median', unit: 'ratio', values: psVsMedian, desc: `目前 PS 相對自身歷史中位數（中位數≈${psMed?.toFixed(2) ?? 'n/a'}）。< 1 比歷史便宜，需搭配基本面判讀。` },

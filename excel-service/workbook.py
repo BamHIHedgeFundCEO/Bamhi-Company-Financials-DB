@@ -177,6 +177,13 @@ def build_workbook(payload: dict) -> bytes:
          "保障倍數無從談起，不是資料缺漏。"
          "「—」與 n/a 的差別：n/a 是「該有卻查不到，值得去查」，「—」是「查也查不到」。"
          "此判斷只影響空格的寫法，凡是有申報的數字一律照實填入，不會被蓋掉。"),
+        *([("兩個 EV 有什麼不同", "「企業價值 EV」＝ 市值 + 負債總計 − 現金 − 短期投資，"
+            "買下整間公司要扛下資產負債表右邊的全部，這一列永遠算得出來。"
+            "「企業價值（僅有息負債）」只加短期借款與長期負債，是 Bloomberg／CapIQ 的口徑，"
+            "與外部資料可比；某一段債務在 SEC 查不到時這一列會是 n/a。"
+            "兩者差在遞延收入、應付帳款、租賃、遞延稅這些非借款負債 —— "
+            "訂閱制公司（遞延收入大）差距明顯，銀行更極端：負債總計主要是存款。")]
+          if (fin.get("valuation") or {}).get("rows") else []),
         *([("「待輸入」是什麼", "估值倍數分頁的前瞻估值與反推目標價要用 FY+1／FY+2 每股盈餘預估，"
             "那是分析師預估值，SEC 不提供，只能自己填在該分頁的假設區（藍字格）。填之前那幾格寫"
             "「待輸入」——與 n/a 不同：n/a 是 SEC 該有卻查不到，「待輸入」是等你決定要用什麼預估。")]
@@ -518,6 +525,9 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
     fcf_s, fcf_r = sheet_row("fcf")
     ebitda_s, ebitda_r = sheet_row("ebitda")
     nd_s, nd_r = sheet_row("net_debt")
+    tl_s, tl_r = sheet_row("total_liabilities")   # EV 主列：負債總計
+    csh_s, csh_r = sheet_row("cash")
+    sti_s, sti_r = sheet_row("short_term_investments")
 
     def ref(sheet, row, col):
         return f"'{sheet}'!{g(col)}{row}"
@@ -663,6 +673,7 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
         ("股價淨值比 P/B", "P/B", '0.0"x"', "pb"),
         ("股價自由現金流比 P/FCF", "P/FCF (TTM)", '0.0"x"', "pfcf"),
         ("企業價值 EV", "Enterprise Value", '#,##0', "ev"),
+        ("企業價值（僅有息負債）", "EV (Interest-Bearing Debt)", '#,##0', "evd"),
         ("EV／EBITDA", "EV/EBITDA (TTM)", '0.0"x"', "eve"),
         ("PS／歷史中位數", "P/S vs Median", '0.00"倍"', "psmed"),
     ]
@@ -703,7 +714,13 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
             "ps": f'=IFERROR({mc}/{ttm(rev_s, rev_r, col)},"n/a")' if rev_s else None,
             "pb": f'=IFERROR({mc}/{ref(eq_s, eq_r, col)},"n/a")' if eq_s else None,
             "pfcf": f'=IFERROR({mc}/{ttm(fcf_s, fcf_r, col)},"n/a")' if fcf_s else None,
-            "ev": f'=IFERROR({mc}+{ref(nd_s, nd_r, col)},"n/a")' if nd_s else None,
+            # EV ＝ 市值 + 負債總計 − 現金 − 短期投資。短期投資缺值就當 0
+            # （沒有短投的公司很多，不該讓整格變 n/a）；負債總計本身有推算 fallback，
+            # 所以這一列實務上永遠有值 —— 銀行也有，只是那個「負債」是存款。
+            "ev": (f'=IFERROR({mc}+{ref(tl_s, tl_r, col)}-{ref(csh_s, csh_r, col)}'
+                   f'-IFERROR({ref(sti_s, sti_r, col)},0),"n/a")') if tl_s and csh_s else None,
+            # 有息負債版：與外部資料商可比，債務缺一段就 n/a
+            "evd": f'=IFERROR({mc}+{ref(nd_s, nd_r, col)},"n/a")' if nd_s else None,
             "eve": f'=IFERROR({ev}/{ttm(ebitda_s, ebitda_r, col)},"n/a")' if ebitda_s else None,
         }
         for key, f in cells.items():

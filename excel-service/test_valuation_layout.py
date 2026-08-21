@@ -67,6 +67,10 @@ assert vws["J6"].value == '=IFERROR($J$3/$B$3-1,"待輸入")', vws["J6"].value
 # 依賴 FY+1/FY+2 EPS 的格子一律「待輸入」，不能退回 n/a（n/a 專指 SEC 查不到）
 for cell in ("H4", "H5", "H6", "H7", "J3", "J4", "J6", "J7"):
     assert '"待輸入"' in vws[cell].value and '"n/a"' not in vws[cell].value, (cell, vws[cell].value)
+# 目標價是乘法：空輸入格在 Excel 等於 0，不會觸發 IFERROR → 必須先判空，
+# 否則顯示 $0.00 與 −100% 的假數字
+for cell in ("J3", "J4"):
+    assert vws[cell].value.startswith('=IF($B$'), (cell, vws[cell].value)
 # 不吃使用者輸入的格子維持 n/a
 for cell in ("H3", "H8", "J5"):
     assert '"n/a"' in vws[cell].value, (cell, vws[cell].value)

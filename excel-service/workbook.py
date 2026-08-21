@@ -173,6 +173,8 @@ def build_workbook(payload: dict) -> bytes:
          "「毛利」「營業利益」；非金融業則沒有「淨利息收入」「非利息收入」。"
          "判準取自 SEC DERA 全市場 5,542 家公司的申報統計（同產業 85% 以上的公司從不申報該科目），"
          "設定在 config/concept_applicability.json。"
+         "關鍵指標的利息保障倍數也會出現「—」：公司沒有有息負債、利息費用為 0 時，"
+         "保障倍數無從談起，不是資料缺漏。"
          "「—」與 n/a 的差別：n/a 是「該有卻查不到，值得去查」，「—」是「查也查不到」。"
          "此判斷只影響空格的寫法，凡是有申報的數字一律照實填入，不會被蓋掉。"),
         *([("「待輸入」是什麼", "估值倍數分頁的前瞻估值與反推目標價要用 FY+1／FY+2 每股盈餘預估，"
@@ -318,7 +320,9 @@ def build_workbook(payload: dict) -> bytes:
                 f = (f'IFERROR({dso},0)+IFERROR({dio},0)-IFERROR({dpo},0)'
                      if dso and dpo else None)
             else:
-                f = translate(m["formula"], resolver, col, annual=annual)
+                f = translate(m["formula"], resolver, col, annual=annual,
+                              zero_guard=m.get("inapplicable_if_zero"),
+                              inapplicable=th["layout"].get("inapplicable_value", "—"))
             if f is None:
                 cell.value = missing
                 cell.font = na_font
@@ -609,8 +613,11 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
 
     # 反推目標價（dcol+2 標籤 / dcol+3 數值）
     vtitle(c3l, "■ 反推目標價　Reverse: Target Price")
-    vlab(c3l, 3, "目標價（P/E × FY+1 EPS）");  vval(c3v, 3, f'=IFERROR($B$7*$B$5,"{WAIT}")', '$0.00')
-    vlab(c3l, 4, "目標價（P/E × FY+2 EPS）");  vval(c3v, 4, f'=IFERROR($B$7*$B$6,"{WAIT}")', '$0.00')
+    # ⚠ 乘法碰到空的輸入格**不會出錯**，Excel 把空白當 0 → 目標價顯示 $0.00、
+    # 上漲空間顯示 −100.0%（還套上紅底），比 n/a 更糟：那是假數字不是留白。
+    # 所以這兩格要先判空，不能只靠 IFERROR。
+    vlab(c3l, 3, "目標價（P/E × FY+1 EPS）");  vval(c3v, 3, f'=IF($B$5="","{WAIT}",IFERROR($B$7*$B$5,"{WAIT}"))', '$0.00')
+    vlab(c3l, 4, "目標價（P/E × FY+2 EPS）");  vval(c3v, 4, f'=IF($B$6="","{WAIT}",IFERROR($B$7*$B$6,"{WAIT}"))', '$0.00')
     # 目標價（P/S × TTM 營收）÷ 股數：股數引用 $B$4（原本誤用帶「=」的 p3 → 產生 /=... 壞公式）
     vlab(c3l, 5, "目標價（P/S × TTM 營收）");  vval(c3v, 5, f'=IFERROR($B$8*{ttm(rev_s, rev_r, last_disp)}/$B$4,"n/a")' if rev_s else None, '$0.00')
     vlab(c3l, 6, "上漲空間（FY+1）");          vval(c3v, 6, f'=IFERROR(${L3}$3/$B$3-1,"{WAIT}")', '0.0%')

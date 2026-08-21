@@ -58,6 +58,21 @@ export interface MapConcept {
   internal?: boolean
   /** 該科目「沒申報」通常代表 0（如當期無一年內到期債務）→ 缺口補 0，避免財務結構指標間歇 n/a */
   zero_if_absent?: boolean
+  /**
+   * 總額標籤去重：`LongTermDebt` 這類標籤的 us-gaap 定義**含流動部分**，
+   * 當作長期負債填進去、旁邊又有短期借款，同一筆債會被算兩次
+   * （PANW FY2022Q1：短期 3,672M ＋ 長期 3,672M，實際總債務只有 3,672M）。
+   *
+   * 不能一律相減 —— 實測 14% 的申報人拿 `LongTermDebt` 當「只有非流動」在用。
+   * 唯一沒有歧義的是**兩者相等**：那整筆就是流動債，非流動為 0。
+   */
+  dedupe_total_tags?: {
+    tags: string[]
+    against: string
+    /** 同期的專用非流動標籤。只有「專用 + 流動 ＝ 總額」算術閉合時才改用它 */
+    prefer_specific_tags?: string[]
+    tolerance: number
+  }
   tags: string[]
   tags_ifrs?: string[]
   /**
@@ -1343,6 +1358,54 @@ export async function getFinancials(
 
   }
 
+  /**
+   * 總額標籤去重。**要排在「沿用前期」之前** —— 否則被去重的那一期變 0，
+   * 後面幾季卻沿用到去重前的重複值，同一列會半段對半段錯。
+   */
+  for (const concept of map.concepts) {
+    const rule = concept.dedupe_total_tags
+    if (!rule) continue
+    const li = byId.get(concept.id)
+    const other = byId.get(rule.against)
+    if (!li || !other) continue
+    for (const p of allPeriods) {
+      const cell = li.values[p]
+      if (cell?.value == null || !cell.sourceTag) continue
+      if (!rule.tags.includes(cell.sourceTag)) continue
+      const ov = other.values[p]?.value
+      if (ov == null) continue
+      const end = cell.endDate
+      /**
+       * ① 算術閉合：公司同一天另外標了專用的非流動科目，而「專用 + 流動 = 總額」
+       *    對得起來 → 總額確實含流動部分，該顯示的是專用的那個。
+       *    **不能只靠換優先序**：專用標籤常常只是債務的一部分（同一家把長期債拆成
+       *    擔保/無擔保多個標籤），全母體換序只有 41% 對得上，其餘會低估。
+       *    逐期驗算才安全 —— 只改算得通的那 1,655 期。
+       */
+      if (end && rule.prefer_specific_tags?.length) {
+        const spec = firstFactAt(ns, rule.prefer_specific_tags, end)
+        if (spec && Math.abs(spec.val + ov - cell.value) <= Math.abs(cell.value) * rule.tolerance) {
+          li.values[p] = {
+            ...cell,
+            value: spec.val,
+            isEstimated: true,
+            sourceTag: `${spec.tag}（原 ${cell.sourceTag} 為含流動部分的總額）`,
+          }
+          continue
+        }
+      }
+      // ② 總額與流動同值 → 整筆都是流動債，非流動為 0
+      if (ov === 0) continue
+      if (Math.abs(cell.value / ov - 1) > rule.tolerance) continue
+      li.values[p] = {
+        ...cell,
+        value: 0,
+        isEstimated: true,
+        sourceTag: `${cell.sourceTag}（總額含流動部分，與${other.zh}同值→非流動為 0）`,
+      }
+    }
+  }
+
   // zero_if_absent：該科目缺申報通常代表公司沒有此項目 = 0（如無配息、無庫藏股、
   // 無一年內到期債務）。以「資產負債表有申報」（total_assets 有值）為錨補 0，
   // 避免財務結構/股東回饋等指標間歇或整條 n/a。只補公司確實有申報財報的期。
@@ -1672,6 +1735,25 @@ export async function getFinancials(
  * 所以：一律取申報幣別、一律只用這一種幣別（見 unitPrefs），前端與 Excel 都標出幣別。
  * 純美國公司只有 USD，行為不變。
  */
+/**
+ * 指定期末日上，依優先序取第一個有 instant 事實的標籤（同標籤同日取 filed 最新）。
+ * 給總額標籤去重的算術閉合檢定用。
+ */
+function firstFactAt(ns: FactTags, tags: string[], end: string): { tag: string; val: number } | null {
+  for (const tag of tags) {
+    for (const [unit, pts] of Object.entries(ns[tag]?.units ?? {})) {
+      if (unitKeyOf(unit) !== 'USD') continue
+      let best: FactPoint | null = null
+      for (const p of pts) {
+        if (p.end !== end || spanDays(p) !== null) continue // 只要 instant
+        if (!best || p.filed > best.filed) best = p
+      }
+      if (best?.val != null) return { tag, val: best.val }
+    }
+  }
+  return null
+}
+
 function inferCurrency(ns: FactTags): string {
   const count = new Map<string, number>()
   for (const tag of Object.values(ns)) {

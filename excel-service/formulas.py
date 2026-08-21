@@ -33,7 +33,8 @@ class RefResolver:
         return f"'{sheet}'!{get_column_letter(col)}{row}"
 
 
-def translate(formula: str, resolver: RefResolver, col: int, annual: bool = False) -> str | None:
+def translate(formula: str, resolver: RefResolver, col: int, annual: bool = False,
+              zero_guard: str | None = None, inapplicable: str = "—") -> str | None:
     """回傳不含開頭 = 的公式；引用解析失敗（缺科目或期數不足）回 None。
 
     annual=True（IFRS 年度模式）時：
@@ -82,4 +83,12 @@ def translate(formula: str, resolver: RefResolver, col: int, annual: bool = Fals
     expr = "".join(out)
     # 一律包 IFERROR：除零回 n/a，且引用到 "n/a" 文字格的加減式（如 FCF = CFO − CapEx）
     # 會回 #VALUE!，也要吃掉
-    return f'IFERROR({expr},"n/a")'
+    wrapped = f'IFERROR({expr},"n/a")'
+    if zero_guard:
+        # 分母為 0 ＝ 該公司沒有這個項目（如無有息負債 → 利息費用 0），是「不適用」不是
+        # 「查不到」。除以 0 的 #DIV/0! 被 IFERROR 吃掉會寫成 n/a，兩種留白混在一起。
+        # 分母格若是 "n/a" 文字，=0 為 FALSE → 仍走 IFERROR 回 n/a，正是要的行為。
+        ref = resolver.cell(zero_guard, col)
+        if ref:
+            return f'IF({ref}=0,"{inapplicable}",{wrapped})'
+    return wrapped

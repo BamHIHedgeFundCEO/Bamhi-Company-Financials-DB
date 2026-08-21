@@ -1,5 +1,5 @@
 {
- "version": "1.10",
+ "version": "1.11",
  "updated": "2026-08-21",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -620,6 +620,28 @@
    "statement": "BS",
    "unit": "USD",
    "sign": "natural",
+   "dedupe_total_tags": {
+    "tags": [
+     "LongTermDebt",
+     "DebtLongtermAndShorttermCombinedAmount",
+     "DebtAndCapitalLeaseObligations"
+    ],
+    "against": "short_term_debt",
+    "prefer_specific_tags": [
+     "LongTermDebtAndCapitalLeaseObligations",
+     "LongTermNotesPayable",
+     "LongTermNotesAndLoans",
+     "UnsecuredLongTermDebt",
+     "SecuredLongTermDebt",
+     "SeniorLongTermNotes",
+     "ConvertibleLongTermNotesPayable",
+     "ConvertibleDebtNoncurrent",
+     "LongTermLoansPayable",
+     "LongTermLineOfCredit"
+    ],
+    "tolerance": 0.02,
+    "note": "us-gaap 的 LongTermDebt 定義是「含流動部分的總額」，但實測 14% 的申報人拿它當「只有非流動」在用（Ducommun、Nasdaq、Core Molding），所以不能一律減去流動部分。只有一種情形沒有歧義：總額與同期短期借款相等 —— 那整筆就是流動債，非流動必為 0，照原樣填會讓同一筆債在資產負債表上出現兩次（PANW FY2022Q1 短期 3,672M ＋ 長期 3,672M，實際總債務只有 3,672M，淨負債與 EV 都膨脹一倍）。羅素 3000 離線量：受害 294 期／108 家（PANW 14 期最多）。偽陽性用「有 Noncurrent 可對答案」的 205 期檢定：97.1% 的真值確實是 0，6 個例外全都有 Noncurrent 標籤、優先序會先取它，規則碰不到。"
+   },
    "tags": [
     "LongTermDebtNoncurrent",
     "LongTermDebt",
@@ -1084,6 +1106,8 @@
    "en": "Interest Coverage",
    "group": "財務結構",
    "formula": "operating_income / interest_expense",
+   "inapplicable_if_zero": "interest_expense",
+   "inapplicable_note": "利息費用為 0 ＝ 公司沒有有息負債（PANW 還清可轉債後就是），保障倍數無從談起，屬「不適用」而非「查不到」。除以 0 若照原樣包 IFERROR 會寫成 n/a，把「沒有負債」講成「資料缺漏」。",
    "desc": "營業利益是利息費用的幾倍。低於 2 進入警戒，低於 1 代表本業獲利無法支應利息。升息循環中此指標的惡化速度最能反映脆弱度。"
   },
   {

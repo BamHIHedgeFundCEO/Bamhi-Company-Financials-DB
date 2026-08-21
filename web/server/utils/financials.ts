@@ -1,5 +1,6 @@
 import { secFetchJson } from './secFetch'
 import { notApplicableFor } from './applicability'
+import { getSplitFacts } from './prices'
 import type { CompanyRef } from './cik'
 
 /**
@@ -368,6 +369,17 @@ function detectSplit(ratio: number): number | null {
 interface SplitEvent {
   threshold: string // 申報日界線：filed < threshold 者為分割前基準
   factor: number // 新/舊 股數比（正向>1，反向<1）
+  /** 裁判（`sharesAcross`）找到跨界線的同期股數且比值等於倍數 */
+  confirmed: boolean
+  /**
+   * 證據貼合度＝|實測比值 / 倍數 − 1|，取最貼的一筆。`dev` 來自裁判、`devRaw` 來自
+   * 生出這個候選的原始觀測，**兩個都要看**：NAPCO（NSSC）只做過一次 2:1（2022-01），
+   * 偵測器卻在 2023-02 與 2023-09 各生一個 ×2 —— `sharesAcross` 拿任何跨界線的配對
+   * 當證據，2022 那次的重述配對照樣跨得過 2023 的界線 → `dev` 是 0，
+   * 但 `devRaw` 分別是 6.3% 與 4.5%。
+   */
+  dev: number | null
+  devRaw: number | null
 }
 
 /**
@@ -380,6 +392,7 @@ interface RawSplit {
   hi: string
   factor: number // 新/舊 股數比（正向>1，反向<1）
   fromShares: boolean // 股數訊號比每股盈餘訊號可信
+  ratio: number // 未吸附到乾淨倍數前的原始比值，供 devRaw 用
 }
 
 /**
@@ -409,9 +422,10 @@ function computeSplits(ns: FactTags, fyeMonth: number): SplitEvent[] {
   const instant = instantShares(ns)
   for (const list of instant.values())
     for (let i = 0; i + 1 < list.length; i++) {
-      const f = detectSplit(list[i + 1].val / list[i].val)
+      const ratio = list[i + 1].val / list[i].val
+      const f = detectSplit(ratio)
       if (f && list[i].filed < list[i + 1].filed)
-        raw.push({ lo: list[i].filed, hi: list[i + 1].filed, factor: f, fromShares: true })
+        raw.push({ lo: list[i].filed, hi: list[i + 1].filed, factor: f, fromShares: true, ratio })
     }
 
   // 同一次分割會被多期／多訊號重複偵測到，倍數與時點都不見得一致
@@ -443,17 +457,150 @@ function computeSplits(ns: FactTags, fyeMonth: number): SplitEvent[] {
     // 只改分子的事件（分拆、停業單位重分類）則股數原封不動。
     const across = sharesAcross(sharePts, fyeMonth, instant, threshold)
     const confirmed = ranked.find((f) => across.some((r) => Math.abs(r / f - 1) < 0.08))
+    const tele = (factor: number, isConfirmed: boolean): SplitEvent => ({
+      threshold,
+      factor,
+      confirmed: isConfirmed,
+      dev: isConfirmed ? min(across.map((r) => Math.abs(r / factor - 1))) : null,
+      devRaw: min(c.filter((s) => s.factor === factor).map((s) => Math.abs(s.ratio / factor - 1))),
+    })
     if (confirmed != null) {
-      out.push({ threshold, factor: confirmed })
+      out.push(tele(confirmed, true))
       continue
     }
     // 沒有任何一期股數變成該倍數，卻有期間股數幾乎沒動 → 不是分割，整群丟掉。
     // Crane NXT 分拆後重編 EPS（4.60→0.86、7.11→3.61）剛好落在 5 倍與 2 倍附近，
     // 股數卻始終是 5,700 萬；照舊版會連乘 10 倍。
     if (across.some((r) => Math.abs(r - 1) < 0.08)) continue
-    out.push({ threshold, factor: ranked[0] })
+    out.push(tele(ranked[0], false))
   }
   return out.sort((a, b) => (a.threshold < b.threshold ? -1 : 1))
+}
+
+const min = (xs: number[]): number | null => (xs.length ? Math.min(...xs) : null)
+
+/** 除權日比申報界線早 0–120 天（界線是分割後第一份申報），留 200 天餘裕 */
+const MATCH_WINDOW = 200
+/** 同一次分割被偵測器切成兩個事件時，兩個 threshold 最遠差多少（HURA 的 1:10 差 118 天） */
+const DUP_WINDOW = 540
+/**
+ * 「證據貼不貼」的門檻。真分割把同一期股數**原封重述成整數倍**，比值本來就該乾淨；
+ * 0.1% 的餘裕留給申報單位捨入（HON 637,500,000→318,800,000 ＝ 0.50008）。
+ * `detectSplit` 的 8% 容差寬到會把發股、換股、SPAC 增資一起收進來 —— 羅素 3000 實測：
+ * 雅虎背書的事件 268/279 落在 0.1% 內，雅虎否認的只有 16/79。
+ */
+const EXACT_DEV = 0.001
+
+const daysBetween = (a: string, b: string) =>
+  Math.abs(Date.parse(a) - Date.parse(b)) / 86400_000
+const shiftDays = (d: string, n: number) =>
+  new Date(Date.parse(d) + n * 86400_000).toISOString().slice(0, 10)
+
+/** 兩個貼合度都要過。只看 `dev` 會漏掉 NSSC 型的假事件——見 `SplitEvent.dev` 註解 */
+const isExact = (ev: SplitEvent) =>
+  ev.dev !== null && ev.dev < EXACT_DEV && ev.devRaw !== null && ev.devRaw < EXACT_DEV
+
+/**
+ * 用交易所的除權紀錄仲裁 `computeSplits` 的結果。
+ *
+ * **兩邊都不是唯一真相**，所以是仲裁不是取代 —— 與 `sharesAcross` 挑期末股數來源
+ * 同一個形狀。羅素 3000／2,860 檔／773 個事件的實測：
+ *
+ * | 裁判 | 雅虎 | 事件 | 動作 |
+ * |---|---|---|---|
+ * | 確認 | 有 | 279 | 採用 |
+ * | 確認**且貼合** | 涵蓋卻沒有 | 16 | 採用 —— 霍尼韋爾在這一格 |
+ * | 確認但鬆 | 涵蓋卻沒有 | 63 | 丟棄 |
+ * | 確認 | 沒涵蓋 | 260 | 保留 |
+ * | 沒確認 | 有 | 1 | 採用（兩個弱證據互補） |
+ * | 沒確認 | 涵蓋卻沒有 | 5 | 丟棄 —— BRO 的假 1:50 在這一格 |
+ * | 沒確認 | 沒涵蓋 | 7 | 保留，不知道就不猜 |
+ * | 沒偵到 | 有 | 137 | 新增 —— CVNA ×5、HURA 1:35 在這一格 |
+ *
+ * 三件不能省的事：
+ *
+ * 1. **雅虎不得否決「確認且貼合」的事件。** HON 2025-06-30 單季 637,500,000 被
+ *    2026-07-23 的申報重編成 318,800,000，同一期跨申報、剛好一半，雅虎沒有這筆——
+ *    它把分割夾在分拆裡記成 `10000:9947` 這種零碎比例，被 `isCleanRatio` 濾掉了。
+ *    A2a 那 16 個全是這個形狀。
+ * 2. **但「確認但鬆」的必須丟。** 8% 容差下 SIRI 把真的 1:10 認成 1:12（dev 5.2%）、
+ *    HURA 生出不存在的 ×8（dev 4.0%）、KDP 換股生出 ×0.0333 與 ×30。
+ *    雅虎有 SIRI 真正那筆 1:10，丟掉錯的、由下面的「新增」補回對的。
+ * 3. **`coverStart` 是「雅虎有沒有涵蓋」的判準，不能省。** 少了它，改名或重新上市的
+ *    公司會被誤當成「雅虎說沒有」而誤刪真事件。比對的是 `threshold − MATCH_WINDOW`
+ *    而不是界線本身：除權日早 0–120 天，界線落在視窗開頭的事件除權日其實在視窗外。
+ *
+ * 這不讓三大報表的**數字**依賴非 SEC 來源：值一律仍是 companyfacts 的，雅虎只參與
+ * 「有沒有發生過一次需要正規化的分割」這個判斷，屬呈現層正規化。雅虎掛掉時
+ * `yahoo` 為 null → 原封回傳偵測器結果，退回現行行為。
+ */
+function arbitrateSplits(
+  det: SplitEvent[],
+  yahoo: { splits: { date: string; factor: number }[]; coverStart: string | null } | null,
+  filedDates: string[],
+): SplitEvent[] {
+  if (!yahoo) return det
+  const ysp = yahoo.splits
+  const used = new Map<number, string>()
+  const out: SplitEvent[] = []
+  const pending: SplitEvent[] = []
+
+  const sorted = [...det].sort((a, b) => (a.threshold < b.threshold ? -1 : 1))
+  for (const ev of sorted) {
+    const lo = shiftDays(ev.threshold, -MATCH_WINDOW)
+    const hit = ysp.findIndex(
+      (s, i) =>
+        !used.has(i) &&
+        lo <= s.date &&
+        s.date <= ev.threshold &&
+        Math.abs(s.factor / ev.factor - 1) < 0.08,
+    )
+    if (hit >= 0) {
+      used.set(hit, ev.threshold)
+      out.push(ev) // 兩邊都有
+    } else {
+      pending.push(ev)
+    }
+  }
+
+  const covered =
+    yahoo.coverStart === null
+      ? () => false
+      : (threshold: string) => shiftDays(threshold, -MATCH_WINDOW) >= yahoo.coverStart!
+
+  for (const ev of pending) {
+    // 先問「這是不是已經配對過的那一次分割被切成兩半」。只在**沒配到**的事件上問，
+    // 所以 Copart 2022／2023 連兩次真 2:1（各自配到自己的雅虎事件）不會被誤併。
+    const dup = ysp.some(
+      (s, i) =>
+        used.has(i) &&
+        Math.abs(s.factor / ev.factor - 1) < 0.08 &&
+        daysBetween(ev.threshold, s.date) <= DUP_WINDOW,
+    )
+    if (dup) continue
+    if (!covered(ev.threshold)) out.push(ev) // 雅虎沒涵蓋 → 不知道就不猜
+    else if (ev.confirmed && isExact(ev)) out.push(ev) // HON 型
+    // 其餘：雅虎涵蓋卻沒有，且證據不夠貼 → 丟棄
+  }
+
+  for (let i = 0; i < ysp.length; i++) {
+    if (used.has(i)) continue
+    // 偵測器完全沒偵到 → 新增。界線＝除權日當天或之後的第一份申報；
+    // 除權後還沒有任何申報的話沒有東西要調整，跳過。
+    const threshold = filedDates.find((d) => d >= ysp[i].date)
+    if (!threshold) continue
+    out.push({ threshold, factor: ysp[i].factor, confirmed: true, dev: null, devRaw: null })
+  }
+
+  return out.sort((a, b) => (a.threshold < b.threshold ? -1 : 1))
+}
+
+/** 全部事實的申報日（去重、由舊到新）。仲裁把雅虎的除權日換算成申報界線時要用 */
+function allFiledDates(ns: FactTags): string[] {
+  const s = new Set<string>()
+  for (const tag of Object.values(ns))
+    for (const points of Object.values(tag.units)) for (const p of points) s.add(p.filed)
+  return [...s].sort()
 }
 
 /**
@@ -504,7 +651,14 @@ function collectCrossFilingSplits(
     for (let i = 0; i + 1 < list.length; i++) {
       const ratio = perShare ? list[i].val / list[i + 1].val : list[i + 1].val / list[i].val
       const f = detectSplit(ratio)
-      if (f) out.push({ lo: list[i].filed, hi: list[i + 1].filed, factor: f, fromShares: !perShare })
+      if (f)
+        out.push({
+          lo: list[i].filed,
+          hi: list[i + 1].filed,
+          factor: f,
+          fromShares: !perShare,
+          ratio, // perShare 時已是「舊值/新值」＝倍數方向，不必再反轉
+        })
     }
   }
 }
@@ -621,7 +775,17 @@ export async function getFinancials(
   // 股票分割還原：companyfacts 存的是「申報當下」的股數/EPS，分割後舊期只在
   // 分割前的申報出現 → 整條序列出現 ~10x 斷層。以加權股數序列偵測分割倍數，
   // 把舊期正規化到最新基準（股數 ×factor、每股數值 ÷factor）。
-  const splits = useIfrs ? [] : computeSplits(ns, fyeMonth)
+  //
+  // 偵測器與交易所的除權紀錄是兩個獨立證人，兩邊都有獨有事件也都出過錯，
+  // 由 `arbitrateSplits` 仲裁。`getSplitFacts` 與估值倍數共用 `getPrices` 的
+  // 同一個請求與快取，不多打任何一次外部請求；抓不到就退回偵測器的原始結果。
+  const splits = useIfrs
+    ? []
+    : arbitrateSplits(
+        computeSplits(ns, fyeMonth),
+        await getSplitFacts(ref.ticker).catch(() => null),
+        allFiledDates(ns),
+      )
 
   const allPeriods = new Set<string>()
   const lineItems: LineItem[] = []

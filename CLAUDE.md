@@ -13,6 +13,11 @@
    　也只在 instance 裡；但三大報表有 ≤2 次 SEC 請求的硬限制，所以走離線預算：
    　`tools/class_shares.py` → `config/class_shares.json`，執行期零 SEC 請求。
    　新的一季要重跑該工具，沒跑到的期維持 n/a（誠實留白，不是錯的數字）
+   　**分割事件的仲裁**（`arbitrateSplits`）會讀雅虎 chart API 的 `events=split`，
+   　但這不違反本條：三大報表的**數字**一律仍是 companyfacts 的，雅虎只參與
+   　「有沒有發生過一次需要正規化的分割」這個判斷，不提供任何數值，屬呈現層正規化。
+   　與股價共用 `getPrices` 的同一個請求與快取，零額外外部請求；抓不到就退回
+   　偵測器的原始結果（＝仲裁上線前的行為），不會時有時無
 4. 不做登入 / 帳號 / 訂閱 / 付費牆
 5. 不做 zip 打包 / job queue / Redis / worker（v2 才加）
 6. `filings.recent` 只含最近約 1000 筆，更早的要抓 `filings.files` 分頁

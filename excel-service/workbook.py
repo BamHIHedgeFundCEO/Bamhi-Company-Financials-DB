@@ -175,6 +175,10 @@ def build_workbook(payload: dict) -> bytes:
          "設定在 config/concept_applicability.json。"
          "「—」與 n/a 的差別：n/a 是「該有卻查不到，值得去查」，「—」是「查也查不到」。"
          "此判斷只影響空格的寫法，凡是有申報的數字一律照實填入，不會被蓋掉。"),
+        *([("「待輸入」是什麼", "估值倍數分頁的前瞻估值與反推目標價要用 FY+1／FY+2 每股盈餘預估，"
+            "那是分析師預估值，SEC 不提供，只能自己填在該分頁的假設區（藍字格）。填之前那幾格寫"
+            "「待輸入」——與 n/a 不同：n/a 是 SEC 該有卻查不到，「待輸入」是等你決定要用什麼預估。")]
+          if (fin.get("valuation") or {}).get("rows") else []),
         *([("上市前資料", f"{pre_ipo} 之前的季度已顯示為 n/a。此公司經 SPAC 借殼／IPO 上市，"
             "上市前為私有公司，股數基礎與上市後不可比（每股數值會嚴重失真），故不列出。")]
           if pre_ipo else []),
@@ -557,6 +561,11 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
     def vtitle(col, zh):
         vws.cell(row=2, column=col, value=zh).font = TITLE_F
 
+    # 待使用者輸入的前瞻區塊：留白的意思與 n/a 不同 —— n/a ＝ SEC 該有卻查不到，
+    # 這裡是「本來就得由使用者填」（FY+1/FY+2 EPS 是分析師預估，SEC 不提供）。
+    # 兩種留白混用同一個符號，讀者會以為資料抓壞了。
+    WAIT = "待輸入"
+
     def vlab(col, row, zh):
         vws.cell(row=row, column=col, value=zh).font = LABEL_F
 
@@ -592,20 +601,20 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
     # 前瞻估值（dcol 標籤 / dcol+1 數值）
     vtitle(c2l, "■ 前瞻估值　Forward Valuation")
     vlab(c2l, 3, "市值");            vval(c2v, 3, '=IFERROR($B$3*$B$4,"n/a")', "#,##0")
-    vlab(c2l, 4, "前瞻本益比 FY+1");  vval(c2v, 4, '=IFERROR($B$3/$B$5,"n/a")', '0.0"x"')
-    vlab(c2l, 5, "前瞻本益比 FY+2");  vval(c2v, 5, '=IFERROR($B$3/$B$6,"n/a")', '0.0"x"')
-    vlab(c2l, 6, "預估 EPS 成長率");  vval(c2v, 6, '=IFERROR($B$6/$B$5-1,"n/a")', '0.0%')
-    vlab(c2l, 7, "前瞻 PEG");         vval(c2v, 7, f'=IFERROR(${L2}$4/(${L2}$6*100),"n/a")', '0.00')
+    vlab(c2l, 4, "前瞻本益比 FY+1");  vval(c2v, 4, f'=IFERROR($B$3/$B$5,"{WAIT}")', '0.0"x"')
+    vlab(c2l, 5, "前瞻本益比 FY+2");  vval(c2v, 5, f'=IFERROR($B$3/$B$6,"{WAIT}")', '0.0"x"')
+    vlab(c2l, 6, "預估 EPS 成長率");  vval(c2v, 6, f'=IFERROR($B$6/$B$5-1,"{WAIT}")', '0.0%')
+    vlab(c2l, 7, "前瞻 PEG");         vval(c2v, 7, f'=IFERROR(${L2}$4/(${L2}$6*100),"{WAIT}")', '0.00')
     vlab(c2l, 8, "目前本益比（TTM）"); vval(c2v, 8, f'=IFERROR($B$3/{ttm(epsd_s, epsd_r, last_disp)},"n/a")' if epsd_s else None, '0.0"x"')
 
     # 反推目標價（dcol+2 標籤 / dcol+3 數值）
     vtitle(c3l, "■ 反推目標價　Reverse: Target Price")
-    vlab(c3l, 3, "目標價（P/E × FY+1 EPS）");  vval(c3v, 3, '=IFERROR($B$7*$B$5,"n/a")', '$0.00')
-    vlab(c3l, 4, "目標價（P/E × FY+2 EPS）");  vval(c3v, 4, '=IFERROR($B$7*$B$6,"n/a")', '$0.00')
+    vlab(c3l, 3, "目標價（P/E × FY+1 EPS）");  vval(c3v, 3, f'=IFERROR($B$7*$B$5,"{WAIT}")', '$0.00')
+    vlab(c3l, 4, "目標價（P/E × FY+2 EPS）");  vval(c3v, 4, f'=IFERROR($B$7*$B$6,"{WAIT}")', '$0.00')
     # 目標價（P/S × TTM 營收）÷ 股數：股數引用 $B$4（原本誤用帶「=」的 p3 → 產生 /=... 壞公式）
     vlab(c3l, 5, "目標價（P/S × TTM 營收）");  vval(c3v, 5, f'=IFERROR($B$8*{ttm(rev_s, rev_r, last_disp)}/$B$4,"n/a")' if rev_s else None, '$0.00')
-    vlab(c3l, 6, "上漲空間（FY+1）");          vval(c3v, 6, f'=IFERROR(${L3}$3/$B$3-1,"n/a")', '0.0%')
-    vlab(c3l, 7, "上漲空間（FY+2）");          vval(c3v, 7, f'=IFERROR(${L3}$4/$B$3-1,"n/a")', '0.0%')
+    vlab(c3l, 6, "上漲空間（FY+1）");          vval(c3v, 6, f'=IFERROR(${L3}$3/$B$3-1,"{WAIT}")', '0.0%')
+    vlab(c3l, 7, "上漲空間（FY+2）");          vval(c3v, 7, f'=IFERROR(${L3}$4/$B$3-1,"{WAIT}")', '0.0%')
 
     # 上漲空間紅綠條件式（正綠負紅）— 粗體＋底色，跟綠字跨表連結明顯區隔
     from openpyxl.formatting.rule import CellIsRule
@@ -626,7 +635,7 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
 
     # 說明備註
     vws.cell(row=10, column=1, value="藍字＝可修改輸入；黑字＝公式；綠字＝跨表連結").font = NOTE_F
-    vws.cell(row=11, column=1, value="FY+1 / FY+2 EPS 需自行填入（SEC 不提供分析師預估）").font = NOTE_F
+    vws.cell(row=11, column=1, value=f"FY+1 / FY+2 EPS 需自行填入（SEC 不提供分析師預估）；填之前前瞻與目標價各格顯示「{WAIT}」，不是資料缺漏").font = NOTE_F
 
     # ── 歷史逐季倍數（全公式）──
     hdr = 24

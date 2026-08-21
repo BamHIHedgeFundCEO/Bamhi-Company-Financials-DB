@@ -1,6 +1,6 @@
 {
- "version": "1.9",
- "updated": "2026-08-20",
+ "version": "1.10",
+ "updated": "2026-08-21",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
   {
@@ -251,8 +251,10 @@
    "unit": "USD/shares",
    "sign": "natural",
    "tags": [
-    "EarningsPerShareBasic"
+    "EarningsPerShareBasic",
+    "EarningsPerShareBasicAndDiluted"
    ],
+   "note": "同理的合併標籤 EarningsPerShareBasicAndDiluted（eps_diluted 早就有，eps_basic 漏了）。補 5,378 格／626 家。有它才不用退回 derive（net_income / shares_basic）。",
    "tags_ifrs": [
     "BasicEarningsLossPerShare"
    ],
@@ -282,8 +284,10 @@
    "unit": "shares",
    "sign": "natural",
    "tags": [
-    "WeightedAverageNumberOfSharesOutstandingBasic"
+    "WeightedAverageNumberOfSharesOutstandingBasic",
+    "WeightedAverageNumberOfShareOutstandingBasicAndDiluted"
    ],
+   "note": "虧損期的基本股數與稀釋股數相同，很多公司只申報一個合併標籤 WeightedAverageNumberOfShareOutstandingBasicAndDiluted（注意是 Share 不是 Shares，非筆誤）。少了它，PANW 這種曾連年虧損的公司早期整段季度是 n/a，股數稀釋率、每股指標跟著空。羅素 3000 離線量：基本補 4,321 格／572 家、稀釋補 4,507 格／580 家。只當 fallback 排最後，主標籤有值的期不會被它蓋掉。風險量過：同一份申報內兩個標籤都有值卻對不上的 45／60 家，會被這條補到的格子只有 78／137 格（2–3%），而且那幾家多半是主標籤自己標錯（LIFEMD 把股數標進 EPS）。**跨申報比對不能當判準** —— 分割後主標籤停用會讓舊值停在分割前，看起來像不一致，實際是重編。",
    "tags_ifrs": [
     "WeightedAverageShares"
    ]
@@ -296,8 +300,10 @@
    "unit": "shares",
    "sign": "natural",
    "tags": [
-    "WeightedAverageNumberOfDilutedSharesOutstanding"
+    "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "WeightedAverageNumberOfShareOutstandingBasicAndDiluted"
    ],
+   "note": "見 shares_basic：同一個合併標籤，虧損期基本＝稀釋。",
    "tags_ifrs": [
     "AdjustedWeightedAverageShares"
    ]

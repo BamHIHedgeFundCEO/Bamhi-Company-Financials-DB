@@ -577,6 +577,17 @@
    "statement": "BS",
    "unit": "USD",
    "sign": "natural",
+   "zero_if_bounded": {
+    "bound_plus": [
+     "current_liabilities"
+    ],
+    "bound_minus": [
+     "accounts_payable",
+     "deferred_revenue"
+    ],
+    "max_share_of_market_cap": 0.1,
+    "note": "同理，短期借款缺標籤時的上限是流動負債合計。這一段通常含應付帳款、遞延收入，上限很大、極少放行 —— 留著是為了規則對稱，不是為了補格子。　同樣只扣依定義不是借款的應付帳款與遞延收入（30,343 期驗證，99.5% 仍 ≥ 真值）。沒有這兩項的話，遞延收入大的公司（MRNA）上限被撐爆，EV 整條消失。"
+   },
    "tags": [
     "LongTermDebtCurrent",
     "DebtCurrent",
@@ -662,7 +673,18 @@
     "NoncurrentPortionOfNoncurrentBondsIssued",
     "LongtermBorrowings"
    ],
-   "note": "不放 FinanceLeaseLiabilityNoncurrent：融資租賃不是有息借款。它排在 fallback 尾端時，真正沒有長期負債的公司（VRTX、SFM、PEN）會顯示租賃餘額當債務，有長期負債但用非標準標籤的公司更慘 —— ORCL 的 122B 顯示成 7B 租賃、CME 的 3.4B 顯示成 0.037B。這種錯誤沒有 n/a 可以警示，看起來就是一個正常數字。DebtLongtermAndShorttermCombinedAmount 含流動部分，只當最後手段（RH 只有這個標籤）。同一家公司若把長期負債拆成多個標籤（BW ＝ SecuredLongTermDebt 148M ＋ LongTermLoansPayable 67M），優先序只會取到其中一個，會低估 —— 對照表是「逐期取第一個有值的標籤」，表達不了加總。Ford／AES／Textron 近年整列 n/a 不是缺標籤：它們的債務只申報在帶維度的事實上（Ford Credit 與汽車本業分開），companyfacts 不含維度，這裡拿不到，補標籤也沒用。"
+   "note": "不放 FinanceLeaseLiabilityNoncurrent：融資租賃不是有息借款。它排在 fallback 尾端時，真正沒有長期負債的公司（VRTX、SFM、PEN）會顯示租賃餘額當債務，有長期負債但用非標準標籤的公司更慘 —— ORCL 的 122B 顯示成 7B 租賃、CME 的 3.4B 顯示成 0.037B。這種錯誤沒有 n/a 可以警示，看起來就是一個正常數字。DebtLongtermAndShorttermCombinedAmount 含流動部分，只當最後手段（RH 只有這個標籤）。同一家公司若把長期負債拆成多個標籤（BW ＝ SecuredLongTermDebt 148M ＋ LongTermLoansPayable 67M），優先序只會取到其中一個，會低估 —— 對照表是「逐期取第一個有值的標籤」，表達不了加總。Ford／AES／Textron 近年整列 n/a 不是缺標籤：它們的債務只申報在帶維度的事實上（Ford Credit 與汽車本業分開），companyfacts 不含維度，這裡拿不到，補標籤也沒用。",
+   "zero_if_bounded": {
+    "bound_plus": [
+     "total_liabilities"
+    ],
+    "bound_minus": [
+     "current_liabilities",
+     "operating_lease_liab_nc"
+    ],
+    "max_share_of_market_cap": 0.1,
+    "note": "長期負債缺標籤時，看不到的那筆債**數學上必定 ≤ 非流動負債總額**（負債總計 − 流動負債合計）—— 長期債是非流動負債的子集，這是恆等式不是估計。上限小到對 EV 不痛不癢時才視為 0，否則維持 n/a。門檻取市值的 10%：羅素 3000 受影響的 181 家／676 期實測，上限佔市值中位數 3.3%、P75 14.3%，10% 放行 69%。JPM 這類銀行沒有「流動負債合計」（資產負債表不分流動），上限算不出來 → 自動維持 n/a，正是先前 zero_if_sibling 補 0 補到 22 期全錯的那個案例。不扣掉已知的非流動科目（遞延收入、租賃、遞延稅）來收緊上限：實測 16.4% 的期會扣過頭（NetApp 收緊後上限 668M、真實長期債 1,144M），那就不再是上限了。　收緊上限只扣「依定義不可能是借款」且本來就有對照的科目：長期租賃負債。驗證方式是拿有 LongTermDebtNoncurrent 真值的 22,304 期回頭對，扣完仍 ≥ 真值的有 99.9%。**不要再多扣**遞延所得稅、其他非流動負債那些：同一份實測扣過頭的比例會從 0.1% 跳到 16.4%（NetApp 上限 668M、真實長期債 1,144M），扣過頭就不再是上限，整條論證就沒了。"
+   }
   },
   {
    "id": "operating_lease_liab_nc",

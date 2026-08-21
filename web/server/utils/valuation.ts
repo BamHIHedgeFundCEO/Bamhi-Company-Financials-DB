@@ -1,4 +1,4 @@
-import type { FinancialsResult } from './financials'
+import { loadMap, type FinancialsResult } from './financials'
 import { getPrices, priceAt, type PriceSeries } from './prices'
 
 /**
@@ -73,6 +73,48 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
     marketcap[p] = pr != null && sh != null ? pr * sh : null
   }
 
+  /**
+   * 缺標籤的債務科目「以上限背書」補 0。**寫回 fin.lineItems**（Excel 的關鍵指標與
+   * 估值分頁都是公式，讀的就是這幾格；只改這裡才能讓淨負債／ROIC／EV 一起活過來）。
+   *
+   * 論證是恆等式不是估計：長期債必定屬於非流動負債，所以看不到的那筆
+   * **必定 ≤ 負債總計 − 流動負債合計**。上限佔市值夠小 → 補 0 對估值的影響有界；
+   * 上限算不出來（銀行的資產負債表不分流動）或太大 → 維持 n/a。
+   *
+   * 這是先前 `zero_if_sibling`（只看「另一段有申報」）失敗後的替代：那條在 JPM 身上
+   * 補 0 補到 22 期全錯，因為它沒有任何量化界線。這條在 JPM 直接算不出上限。
+   */
+  const map = await loadMap()
+  for (const concept of map.concepts) {
+    const rule = concept.zero_if_bounded
+    if (!rule) continue
+    const target = li.get(concept.id)
+    if (!target) continue
+    for (const p of periods) {
+      if (target.values[p]?.value != null) continue
+      const mc = marketcap[p]
+      if (mc == null || mc <= 0) continue
+      let bound = 0
+      let ok = true
+      for (const id of rule.bound_plus) {
+        const v = val(id, p)
+        if (v == null) { ok = false; break }
+        bound += v
+      }
+      // 扣項缺值就當 0：上限只會變鬆，論證仍然成立（加項缺值才是真的算不出上限）
+      if (ok) for (const id of rule.bound_minus) bound -= val(id, p) ?? 0
+      if (!ok || bound < 0) continue // 上限算不出來就不猜（銀行沒有「流動負債合計」）
+      const share = bound / mc
+      if (share > rule.max_share_of_market_cap) continue
+      target.values[p] = {
+        value: 0,
+        isEstimated: true,
+        sourceTag: `無標籤，上限背書視為 0（未解釋非流動負債 ${(share * 100).toFixed(1)}% 市值）`,
+        endDate: endDate(p) ?? undefined,
+      }
+    }
+  }
+
   const pos = (x: number | null) => (x != null && x > 0 ? x : null) // 分母須為正
   const pe: Record<string, number | null> = {}
   const ps: Record<string, number | null> = {}
@@ -88,10 +130,15 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
     const eq = val('equity', p)
     pb[p] = mc != null && pos(eq) ? mc / (eq as number) : null
     pfcf[p] = mc != null ? divPos(mc, ttmFcf(ttm, p)) : null
-    const debt = (val('short_term_debt', p) ?? 0) + (val('long_term_debt', p) ?? 0)
+    // 債務任一段不明就不給 EV。原本兩段都是 `?? 0`，等於「查不到」＝「沒有」——
+    // JPM 的長期債只在帶維度的事實裡，JSON 會回一個少算幾千億、看起來正常的 EV，
+    // 而同一家公司的 Excel（純公式、n/a 會傳染）卻是空的，兩個介面各說各話。
+    // 上限背書那一段跑在前面，該補的已經補成 0 了，這裡嚴格才不會誤傷。
+    const std = val('short_term_debt', p)
+    const ltd = val('long_term_debt', p)
     const cash = val('cash', p)
     const sti = val('short_term_investments', p) ?? 0
-    ev[p] = mc != null && cash != null ? mc + debt - cash - sti : null
+    ev[p] = mc != null && cash != null && std != null && ltd != null ? mc + std + ltd - cash - sti : null
     evEbitda[p] = ev[p] != null ? divPos(ev[p]!, ebitdaTtm(p)) : null
     // PEG = PE / (TTM 淨利年增率 %)；成長須為正
     const niN = ttm('net_income', p)

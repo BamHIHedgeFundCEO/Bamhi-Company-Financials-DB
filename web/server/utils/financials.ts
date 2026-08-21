@@ -66,6 +66,16 @@ export interface MapConcept {
    * 不能一律相減 —— 實測 14% 的申報人拿 `LongTermDebt` 當「只有非流動」在用。
    * 唯一沒有歧義的是**兩者相等**：那整筆就是流動債，非流動為 0。
    */
+  /**
+   * 缺標籤時「以上限背書」補 0：看不到的那筆債**數學上必定 ≤ bound**
+   * （長期債是非流動負債的子集，恆等式不是估計）。上限小到對估值不痛不癢才視為 0。
+   * 需要市值 → 在 `valuation.ts` 拿到股價之後才跑，不在本檔。
+   */
+  zero_if_bounded?: {
+    bound_plus: string[]
+    bound_minus: string[]
+    max_share_of_market_cap: number
+  }
   dedupe_total_tags?: {
     tags: string[]
     against: string

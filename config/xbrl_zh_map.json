@@ -1,6 +1,6 @@
 {
- "version": "1.11",
- "updated": "2026-08-21",
+ "version": "1.12",
+ "updated": "2026-08-22",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
   {
@@ -728,10 +728,11 @@
    "internal": true,
    "tags": [
     "TemporaryEquityCarryingAmountIncludingPortionAttributableToNoncontrollingInterest",
+    "TemporaryEquityCarryingAmountIncludingPortionAttributableToNoncontrollingInterests",
     "TemporaryEquityCarryingAmountAttributableToParent",
     "RedeemableNoncontrollingInterestEquityCarryingAmount"
    ],
-   "note": "可贖回特別股、可贖回非控制權益。GAAP 把它擺在負債與權益之間、兩邊都不算，所以「資產 − 權益」會把它算進負債。SPAC 幾乎家家有，中概股與 Up-C 也常見。內部科目；絕大多數公司沒有這一塊，所以 derive 裡寫成選用項（`?`，缺值當 0）—— 不給退路的話這條推算對它們全部失效。"
+   "note": "單複數兩種拼法是 us-gaap 不同分類法年份的同一個元素，實測**從不共存**（全母體重疊 0 格），187 家只有複數形。少收它的後果不是這一列 n/a —— 這是內部科目 ——而是 `total_liabilities` 的推算式 `total_assets − equity_total − temporary_equity?` 把可贖回權益當 0，負債總計因此高估，EV 跟著高估。實際走推算路徑的 18 家，高估幅度中位數 0.40% 資產，最大 AES 5.6%（30.5 億）。"
   },
   {
    "id": "total_liabilities",

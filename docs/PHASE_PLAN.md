@@ -1241,6 +1241,33 @@ instance 0.7–14MB，全母體約 18GB，不划算，而分部問題是「揭�
 把可贖回權益當 0 → 負債總計高估 → **EV 跟著高估**。實際走推算路徑的 18 家，
 高估幅度中位數 0.40% 資產，最大 AES 5.6%（30.5 億）。已收（map 1.12）。
 
+#### period_hole 分類完畢：三種根因，只有一種能安全自動修
+
+53 筆 `period_hole`（38 家）逐筆追根因。**先排除一個直覺**：不是抓的申報份數不夠。
+同一批公司用 `quarters=8` 再抓一次，洞幾乎不動（FCX 2→1、CMI 2→1，DD／KO／INTC 不變）
+—— 申報有抓到，是抽取或合併時掉的。
+
+| 根因 | 例子 | 處置 |
+|---|---|---|
+| ① 成員只以「帶額外維度」的形式存在 | MP 的 Magnetics | 已修（passthrough patterns，1.6）|
+| ② 同一個東西在不同申報用不同成員鍵 | KO：`InternationalMember` → `NonUsMember` | 本次修（member_aliases，1.7）|
+| ③ 公司真的改組／分部裁撤 | KO 的 Global Ventures 在 2024 併掉 | **不修** —— 那些格子本來就沒有 |
+
+②的判準**不是名字像不像**。名稱相似度會把 MTDR 的 `naturalgasreserves`／
+`naturalgasrevenues`、RGLD 的 `othermetals`／`othermaterials` 配成一對 —— 字面 0.8 以上
+但是兩個不同的東西。改用**「兩個鍵從不同期共存」**這個實測：118 家裡
+`international` 與 `nonus` 重疊 0 格，AKAM 的 `us` 有 11 期、`international` 4 期 ＋
+`nonus` 7 期 ＝ 11，完全互補。
+
+順帶發現：`member_aliases` 這個設定欄位**宣告了但程式從來沒讀過**，所以它一直是空的
+（註解寫「實測 19 家皆可由 member_normalize 自動處理，故為空」，其實是根本沒接）。
+v1.7 接上機制並填入第一條。
+
+實測：AKAM／RBC 的 `period_hole` 警告完全消失，KO 的地區軸從兩列半滿併成一列 11 期；
+逐格對照 AKAM／KO／RBC／NVDA／AAPL —— 格數、對得上／對不上、每一格的值**全部不變**。
+KO 的營運分部軸還剩一個洞（Asia Pacific／Global Ventures／Corporate），屬第 ③ 類與
+公司自訂改名，不自動合併。
+
 #### 待辦排序（依「確定性 ÷ 成本」，不是依金額）
 
 1. ~~三大報表同族標籤~~ —— 驗完 111 組全退，這條路已經走完了

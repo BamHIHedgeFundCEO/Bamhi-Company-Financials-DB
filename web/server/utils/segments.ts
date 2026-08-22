@@ -295,6 +295,22 @@ export function parseInstance(xml: string): { contexts: Map<string, Ctx>; facts:
  * 這一步就解掉了跨期改名：NVDA 的 ComputeAndNetworkingMember 與
  * ComputeAndNetworkingSegmentMember 都會變成 "computeandnetworking"。
  */
+/**
+ * 別名反查表（正規化後的別名 → 正式鍵）。`member_aliases` 這個設定欄位一直宣告著
+ * 卻沒有任何程式讀它 —— 所以它才會一直是空的。接上之後才談得上填。
+ */
+const aliasCache = new WeakMap<SegmentAxesConfig, Map<string, string>>()
+function aliasMap(cfg: SegmentAxesConfig): Map<string, string> {
+  let m = aliasCache.get(cfg)
+  if (m) return m
+  m = new Map()
+  for (const [canon, alts] of Object.entries(cfg.member_aliases?.map ?? {})) {
+    for (const a of alts) m.set(a, canon)
+  }
+  aliasCache.set(cfg, m)
+  return m
+}
+
 export function normalizeMember(qname: string, cfg: SegmentAxesConfig): string {
   let bare = qname.includes(':') ? qname.slice(qname.indexOf(':') + 1) : qname
   for (const suf of cfg.member_normalize.strip_suffixes) {
@@ -305,7 +321,7 @@ export function normalizeMember(qname: string, cfg: SegmentAxesConfig): string {
   }
   if (cfg.member_normalize.lowercase) bare = bare.toLowerCase()
   if (cfg.member_normalize.strip_non_alnum) bare = bare.replace(/[^a-z0-9]/g, '')
-  return bare
+  return aliasMap(cfg).get(bare) ?? bare
 }
 
 /**

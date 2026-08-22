@@ -1,5 +1,5 @@
 {
- "version": "1.6",
+ "version": "1.7",
  "updated": "2026-08-22",
  "note": "分部資料（segment）設定層。companyfacts API 不含維度資料，分部數字只在申報的 XBRL instance 裡，靠 context 的 explicitMember 帶出。實測 19 家（科技/銀行/藥廠/保險/能源/零售/小型股/外國發行人）結論：『軸』100% 是標準分類法（us-gaap / srt / ifrs-full），可當可靠錨點；『成員』幾乎 100% 是公司自訂（NVDA 9/9、TSLA 15/15、JNJ 57/58），所以成員一律用正規化規則處理，不做窮舉對照。要新增支援的軸改這個檔，不改程式。診斷工具：python tools/segment.py <TICKER>",
  "axes": [
@@ -143,8 +143,12 @@
   "strip_non_alnum": true
  },
  "member_aliases": {
-  "note": "正規化後仍對不上的殘餘才寫這裡。key = 正規化後的正式鍵，value = 同樣要歸進來的其他鍵。目前實測 19 家皆可由 member_normalize 自動處理，故為空。",
-  "map": {}
+  "note": "正規化後仍對不上的殘餘寫這裡。key ＝正規化後的正式鍵，value ＝同樣要歸進來的其他鍵。**這個欄位以前宣告了但程式沒讀**（v1.7 才接上），所以先前一直是空的。第一條：`nonus` → `international`。同一家公司換一份申報就換一個用字，舊申報標 InternationalMember、新的標 NonUsMember，於是地區軸長出兩列半滿的成員，掃描器報成 period_hole（AKAM／KO／RBC）。118 家實測兩個鍵**從不同期共存**（重疊 0 格），AKAM 的 us 有 11 期、international 4 期 ＋ nonus 7 期 ＝ 11，完全互補。**加別名的門檻是這個「從不共存」的實測**，不是看名字像不像 —— 名稱相似度會把 MTDR 的 naturalgasreserves／naturalgasrevenues、RGLD 的 othermetals／othermaterials 配成一對，那是兩個不同的東西。",
+  "map": {
+   "international": [
+    "nonus"
+   ]
+  }
  },
  "hierarchy": {
   "note": "成員之間有父子關係，全部加總會重複計算。實測：AAPL 的 product(307B) 本身就含 iPhone/Mac/iPad/穿戴，全加得 723B，實際總營收只有 416B（多算 74%）；NVDA 的 datacenter(194B) 含 compute+networking，全加得 410B，實際 216B。申報檔沒有直接標父子，但可以用合併總額反推。",

@@ -113,6 +113,17 @@ export interface SegmentAxisBlock {
   /** 這個軸實際揭露了哪些科目（ASC 280：CODM 看什麼才揭露什麼，各家不同） */
   concepts: string[]
   members: SegmentMemberRow[]
+  /**
+   * 「單一應報告分部」—— **有值的每一期**都只有一個成員、而且等於合併總額。
+   * 這不是漏抓：LLY、BKNG、SNOW、AKAM 的分部軸底下真的只有
+   * `xxx:ReportableSegmentMember`（實測 10-K 的 instance），它們的業務拆解在
+   * 產品軸或地區軸上。照畫會生出一個唯一列是「應報告分部合計」＝合併總額的
+   * 區塊，讀者看到一整塊等於總營收的表，只會以為抓壞了。呈現層據此略過並改寫一行說明。
+   *
+   * 只有「全部有值的期都退化」才算。BW（改組後併成一個分部，舊結構還有 4 期）、
+   * GPN（改組中途 2 期）不算 —— 它們有真的分部要畫。
+   */
+  singleSegment?: boolean
 }
 
 /**
@@ -1077,6 +1088,11 @@ export function detectGaps(
       degenerate.push(p)
       degAmount += Math.abs(t)
     }
+    // 有值的期全部退化 → 這家公司就是單一應報告分部，不是我們漏抓
+    const withData = periods.filter((p) =>
+      b.members.some((m) => typeof m.values[p]?.['revenue']?.value === 'number'),
+    )
+    if (withData.length && degenerate.length === withData.length) b.singleSegment = true
     if (degenerate.length) {
       gaps.push({
         code: 'degenerate_axis',

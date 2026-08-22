@@ -191,6 +191,13 @@ def build_workbook(payload: dict) -> bytes:
         *([("上市前資料", f"{pre_ipo} 之前的季度已顯示為 n/a。此公司經 SPAC 借殼／IPO 上市，"
             "上市前為私有公司，股數基礎與上市後不可比（每股數值會嚴重失真），故不列出。")]
           if pre_ipo else []),
+        *([("為什麼沒有分部拆解", "這家公司在 ASC 280 下只有一個應報告分部 —— "
+            "申報檔的分部軸底下只有「應報告分部合計」這一個成員，數字等於合併總額，"
+            "畫出來是一張等於總營收的表，沒有資訊量，所以不產生該區塊。"
+            "這不是抓不到：禮來、Booking、Snowflake、Akamai 都是這種公司，"
+            "它們的業務拆解揭露在產品軸或地區軸上（若有，本分頁另有區塊）。")]
+          if any(a.get("singleSegment") for a in (payload.get("segments") or {}).get("axes", []))
+          else []),
         *([("分部數據", "各分部（事業別／產品別／地區別）的營收與獲利。這些數字不在 SEC 的 "
             "companyfacts API 裡——該 API 不含維度資料——而是直接從申報的 XBRL instance 檔解析。"
             "揭露哪些科目由各公司依 ASC 280 自行決定（主要營運決策者看什麼才揭露什麼），"
@@ -368,7 +375,12 @@ def build_workbook(payload: dict) -> bytes:
     # ── 5c. 分部數據（companyfacts 無維度，資料來自 XBRL instance）────
     segments = payload.get("segments")
     if segments and segments.get("axes"):
-        _build_segment_sheet(wb, segments, th)
+        # 「單一應報告分部」的軸不畫：唯一一列是「應報告分部合計」＝合併總額，
+        # 讀者看到一整塊等於總營收的表只會以為抓壞了。LLY／BKNG／SNOW／AKAM 的
+        # 分部軸底下真的只有 ReportableSegmentMember，它們的拆解在產品軸或地區軸。
+        drawable = [a for a in segments["axes"] if not a.get("singleSegment")]
+        if drawable:
+            _build_segment_sheet(wb, {**segments, "axes": drawable}, th)
 
     # 指標列已定位，統一放圖（圖表可跨分頁引用系列）；收集圖表位置做「說明」目錄
     locate = locations.get

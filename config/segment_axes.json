@@ -1,5 +1,5 @@
 {
- "version": "1.7",
+ "version": "1.8",
  "updated": "2026-08-22",
  "note": "分部資料（segment）設定層。companyfacts API 不含維度資料，分部數字只在申報的 XBRL instance 裡，靠 context 的 explicitMember 帶出。實測 19 家（科技/銀行/藥廠/保險/能源/零售/小型股/外國發行人）結論：『軸』100% 是標準分類法（us-gaap / srt / ifrs-full），可當可靠錨點；『成員』幾乎 100% 是公司自訂（NVDA 9/9、TSLA 15/15、JNJ 57/58），所以成員一律用正規化規則處理，不做窮舉對照。要新增支援的軸改這個檔，不改程式。診斷工具：python tools/segment.py <TICKER>",
  "axes": [
@@ -203,7 +203,7 @@
   "must_reconcile_note": "ASC 280.31-32 要求分部**營收**與**資產**必須調節到合併數，所以這兩個科目對不上就是真的異常，照實標色。分部利潤與費用則不同：ASC 280.27 明文允許公司用 CODM 實際使用的自訂衡量方式，ORCL 三個分部營業利益加起來 29.1B、合併只有約 13.1B（分部數不含股酬與攤銷）；ASC 280 也只要求揭露 CODM 有看的項目，PFE 兩個分部裡只有一個揭露營業成本。這類科目若在所有可比期間都對不上，那是揭露規則使然而非數字有問題，標為「無法校驗」不標色。**營收不套這條規則**：修 corporate 之前 PG 的營收正是全期都對不上，那是真 bug，若把它併入「無法校驗」就會被藏起來。"
  },
  "member_labels": {
-  "note": "成員中文名。key = 正規化後的鍵。成員 95% 以上是公司自訂，不可能也不需要窮舉 —— 查無對應時程式自動把駝峰拆成英文可讀字串（ComputeAndNetworking → Compute And Networking），任何公司都不會顯示原始標籤。這裡只放兩類：(1) 跨公司通用的地區與類別，(2) 少數大型股的招牌分部，屬於錦上添花的潤飾，缺了不影響正確性。",
+  "note": "成員中文名。key = 正規化後的鍵。成員 95% 以上是公司自訂，不可能也不需要窮舉 —— 查無對應時程式自動把駝峰拆成英文可讀字串（ComputeAndNetworking → Compute And Networking），任何公司都不會顯示原始標籤。**標籤只影響顯示，永遠不影響數字與合計** —— 查無對應時走駝峰拆字，不會顯示原始 QName。這裡只放三類：(1) 跨公司通用的地區與類別，(2) 少數大型股的招牌分部，屬於錦上添花的潤飾，缺了不影響正確性。",
   "map": {
    "americas": "美洲",
    "northamerica": "北美",
@@ -331,7 +331,35 @@
    "corporateother": "公司及其他",
    "unallocatedexpenses": "未分攤費用",
    "corporatenon": "公司未分攤",
-   "operating": "營運分部合計"
+   "operating": "營運分部合計",
+   "id": "印尼",
+   "ph": "菲律賓",
+   "cl": "智利",
+   "eg": "埃及",
+   "lu": "盧森堡",
+   "ru": "俄羅斯",
+   "be": "比利時",
+   "southamerica": "南美洲",
+   "middleeast": "中東",
+   "africa": "非洲",
+   "restofasia": "亞洲其他地區",
+   "allothercountries": "其他所有國家",
+   "totalofallothercountries": "其他所有國家合計",
+   "otherforeigncountries": "其他海外國家",
+   "allotherforeigncountries": "其他海外國家",
+   "otherforeign": "其他海外",
+   "othernonuscountries": "美國以外其他國家",
+   "othergeographicareas": "其他地區",
+   "othergeographicalregion": "其他地區",
+   "othergeographicalarea": "其他地區",
+   "othergeographicgroup": "其他地區",
+   "othernations": "其他國家",
+   "othersindividuallyimmaterialcountr": "其他個別不重大國家",
+   "unitedstatesandcanada": "美國與加拿大",
+   "usandcanada": "美國與加拿大",
+   "latinamericanandcanada": "拉丁美洲與加拿大",
+   "europethemiddleeastandafrica": "歐洲、中東與非洲",
+   "westernhemisphereexcludingus": "西半球（不含美國）"
   },
   "en": {
    "corporatenon": "Corporate (unallocated)",

@@ -100,7 +100,8 @@ TW_FIXES = [
     (re.compile(r"芯片"), "晶片"),
     (re.compile(r"視頻"), "影片"),
     (re.compile(r"平臺"), "平台"),
-    (re.compile(r"存貨週轉"), "存貨週轉"),
+    # 台灣寫「佔比／佔營收」；「占卜」是唯一常見的例外
+    (re.compile(r"占(?!卜)"), "佔"),
 ]
 
 
@@ -134,9 +135,10 @@ def to_traditional(xs: list) -> list:
     return out
 
 
-# opencc 把這些字當成簡體，但它們在台灣是標準寫法（平台不寫平臺），
-# 上面的 TW_FIXES 還刻意產生它們 —— 不排除的話警示會永遠亮著
-TW_OK = set("台")
+# opencc 把這些字當成簡體，但它們在繁體中文裡本來就存在、意思也不同：
+#   台（平台，不寫平臺；TW_FIXES 還刻意產生它） 游（游泳 ≠ 遊歷） 里（公里 ≠ 裡面）
+# 不排除的話警示會對正確的字一直亮。這個檢查是提示不是關卡，寧可少報也不要吵。
+TW_OK = set("台游里")
 
 
 def simplified_left(x: str) -> set:

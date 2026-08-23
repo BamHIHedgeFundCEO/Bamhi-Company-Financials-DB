@@ -1,0 +1,199 @@
+{
+ "ticker": "PANW",
+ "cik": "0001327567",
+ "accession": "0001327567-25-000027",
+ "form": "10-K",
+ "reportDate": "2025-07-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Network Security",
+    "Security Operations",
+    "Threat Intelligence and Advisory Services",
+    "Products and Services",
+    "Secure Access Service Edge",
+    "Cloud-Delivered Security Services"
+   ],
+   "paragraphs": [
+    "Palo Alto Networks, Inc. is a global cybersecurity provider and our vision is a world where each day is safer and more secure than the one before. We were incorporated in 2005 and are headquartered in Santa Clara, California.",
+    "Our mission is to be the cybersecurity partner of choice for enterprises, organizations, service providers, and government entities to protect our digital way of life. Our cybersecurity platforms and services help secure enterprise users, networks, clouds, and endpoints by delivering comprehensive cybersecurity backed by artificial intelligence (\"AI\") and automation. A key element of our strategy is to help our customers simplify their security architectures through consolidating disparate point products. We execute on this strategy by developing our capabilities and packaging our offerings into platforms which are able to cover many of our customers' needs in the markets in which we operate. Our platformization strategy combines various products and services into a tightly integrated architecture for more secure, faster, and cost-effective outcomes.",
+    "Our network security platform is designed to deliver complete zero trust solutions to our customers. The platform includes:",
+    "•Secure Access Service Edge (\"SASE\"). Prisma® Access, when combined with Prisma SD-WAN, provides a comprehensive single-vendor SASE offering that is used to secure remote workforces and cloud-delivered branch offices. Prisma Access Browser further extends SASE security and data protection to the end user device, providing workers with freedom to access business applications securely using our secure browser from any device.",
+    "•Next-Generation Firewalls. Our hardware ML-Powered Next-Generation Firewalls (\"NGFWs\") secure on-premises environments including campus locations and data centers. Our software NGFWs secure cloud networks.",
+    "•Cloud-Delivered Security Services (\"CDSS\"). Our network security platform integrates a suite of CDSS that complements our SASE and Firewall solutions. These include Advanced Threat Prevention, Advanced WildFire®, Advanced URL Filtering, Advanced DNS Security, IoT/OT Security, GlobalProtect®, Prisma Access Agent, Enterprise Data Loss Prevention (\"Enterprise DLP\"), AI for IT Operations (\"AIOps\"), Software as a Service (\"SaaS\") Security, and AI Access Security. Through these add-on services, our customers are able to secure their content, applications, users, and devices across their entire organization.",
+    "•Prisma AIRS. Prisma AIRS is a comprehensive AI security platform that has been designed to protect customers' entire AI ecosystem by providing AI model scanning, posture management, red teaming, run-time security, and AI agent security.",
+    "•Strata Cloud Manager (\"SCM\"). SCM, our network security management solution, centrally manages network security across all remote workers, branches, headquarters, campuses, and cloud. SCM leverages AI to simplify and strengthen network security by enabling customers to proactively pinpoint vulnerabilities, gain real-time remediation recommendations, and enhance overall digital experiences, thereby reducing operational burden. This comprehensive solution includes Strata Copilot, which offers a natural language interface for enhanced insights and guided remediation, and integrates Autonomous Digital Experience Monitoring (\"ADEM\") to proactively maintain infrastructure health, facilitate AI-driven one-click troubleshooting, and ensure seamless end-user performance across the enterprise.",
+    "Our AI-powered Cortex platform transforms end-to-end security operations with unified data, AI, and automation for more secure, faster, and cost effective outcomes. We have consolidated our industry-leading Security Operations and Cloud Security capabilities on a single comprehensive platform to provide centralized visibility, proactive protection, real-time prevention, AI-driven insights, and automated remediation across enterprise and cloud.",
+    "•Security Operations. We deliver the next generation of security operations capabilities that unifies standalone Security Information and Event Management (\"SIEM\") tools, endpoint security, security automation, cloud detection and response (\"CDR\"), as well as attack surface management (\"ASM\") capabilities on our Cortex® platform. These include Cortex XSIAM®, for AI-powered security operations replacing traditional SIEM tools, Cortex XDR®, for the prevention, detection, and response to complex cybersecurity attacks, Cortex XSOAR®, for security orchestration, automation, and response (\"SOAR\"), and Cortex Xpanse®, for ASM.",
+    "•Cloud Security. We deliver comprehensive security across the cloud application development lifecycle through Cortex Cloud, delivered as a scalable SaaS offering. As a comprehensive Cloud Native Application Protection Platform (\"CNAPP\") combined with CDR, Cortex Cloud secures multi- and hybrid-cloud environments for applications, data, generative AI (\"GenAI\") ecosystem, and the cloud native technology stack across the full development lifecycle, from code to cloud to security operations. As part of the Cortex Cloud platform, customers can expand from Cortex Cloud to our security operations offerings available on a single user experience and unified agent. We also offer our VM-Series and CN-Series virtual firewalls for inline network security on multi- and hybrid-cloud environments.",
+    "•Unit 42® brings together world-renowned expertise across threat research, incident response, and security consulting to deliver intelligence-driven, response-ready outcomes that help customers reduce cyber risk. Our elite consultants serve as trusted advisors to our customers by assessing and testing their security controls against sophisticated threats, transforming their security strategy with a threat-informed approach, and responding to security incidents on behalf of our clients. Additionally, Unit 42 offers managed detection and response (\"MDR\") and managed threat hunting services.",
+    "•Prisma Access. Prisma Access is a cloud-delivered security offering that helps organizations deliver consistent AI-driven security to remote networks and mobile users. With more than 100 locations around the world, Prisma Access offers global coverage, consistently inspecting all traffic across all ports and providing bidirectional networking to enable branch-to-branch and branch-to-headquarter traffic. Prisma Access consolidates point products into a single cloud-delivered solution, transforming network security and allowing organizations to enable secure hybrid work. Prisma Access protects all application traffic with complete, best-in-class security while also delivering a seamless user experience with industry-leading service-level agreements (\"SLA\"s). With native SASE integration, Prisma Access Browser extends Zero Trust to any device—managed or unmanaged—in minutes. Prisma Access delivers seamless user experience with a combination of application acceleration—up to 5x faster than direct-to-internet—and Autonomous Digital Experience Management.",
+    "•Prisma SD-WAN. Our Prisma SD-WAN solution is a next-generation SD-WAN solution that makes the secure cloud-delivered branch possible. Prisma SD-WAN enables organizations to replace traditional wide area network (\"WAN\") architectures with affordable broadband and internet transport types that promote improved bandwidth availability, redundancy and performance at a reduced cost. Prisma SD-WAN leverages real-time application performance SLAs and visibility to control and intelligently steer application traffic to deliver a powerful user experience. Prisma SD-WAN also provides the flexibility of deploying with an on-premises controller to help businesses meet their industry-specific security compliance requirements and manage deployments with application-defined policies. Our Prisma SD-WAN simplifies network and security operations using AI and automation."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factor Summary",
+    "Risks Related to Global Economic and Geopolitical Conditions",
+    "Our operating results may be adversely affected by unfavorable economic and market conditions and the uncertain geopolitical environment.",
+    "Risks Related to Our Business",
+    "Seasonality may cause fluctuations in our revenue.",
+    "If we are unable to sell new and additional product, subscription, and support offerings to our end-customers, especially to large enterprise customers, our future revenue and operating results will be harmed.",
+    "If we are unable to attract new customers, our future results of operations could be harmed.",
+    "The sales prices of our products, subscriptions, and support offerings may decrease, which may reduce our revenue and gross profits and adversely impact our financial results.",
+    "We are exposed to the credit and liquidity risk of our customers, and to credit exposure in weakened markets, which could result in material losses.",
+    "A portion of our revenue is generated by sales to government entities, which are subject to a number of challenges and risks.",
+    "We face intense competition in our market and we may lack sufficient financial or other resources to maintain or improve our competitive position.",
+    "We may not complete the acquisition of CyberArk within the timeframe we anticipate or at all, which could negatively impact our future business and financial results.",
+    "As a result of the CyberArk acquisition, we anticipate that the scope and size of our business will substantially change and result in certain incremental risks, including increased competition.",
+    "Issues in the development and deployment of AI may result in reputational harm and legal liability and could adversely affect our results of operations.",
+    "A network or data security incident may allow unauthorized access to our network or data, harm our reputation, create additional liability, and adversely impact our financial results."
+   ],
+   "paragraphs": [
+    "Our operations and financial results are subject to various risks and uncertainties including those described below. The risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties that we are unaware of, or that we currently believe are not material, also may become important factors that affect us. If any of the following risks or others not specified below materialize, our business, financial condition, and operating results could be materially adversely affected, and the market price of our common stock could decline. In addition, the impacts of any worsening of the economic environment may exacerbate the risks described below, any of which could have a material impact on us.",
+    "Our business is subject to numerous risks and uncertainties. These risks include, but are not limited to, the following:",
+    "•Our operating results may be adversely affected by unfavorable economic and market conditions and the uncertain geopolitical environment.",
+    "•Our business and operations have experienced growth in recent periods, and if we do not effectively manage any future growth or are unable to improve our systems, processes, and controls, our operating results could be adversely affected.",
+    "•Our revenue growth rate in recent periods may not be indicative of our future performance, and we may not be able to maintain profitability, which could cause our business, financial condition, and operating results to suffer.",
+    "•Our operating results may vary significantly from period to period, which makes our results difficult to predict and could cause our results to fall short of expectations, and such results may not be indicative of future performance."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Network Security",
+    "Security Operations",
+    "Threat Intelligence and Advisory Services",
+    "Key Financial Metrics",
+    "(in billions)",
+    "Year Ended July 31,",
+    "(dollars in millions)",
+    "(in millions)",
+    "Free cash flow (non-GAAP):",
+    "Results of Operations",
+    "Amount % of Revenue Amount % of Revenue Amount % of Revenue",
+    "Year Ended July 31, Year Ended July 31,",
+    "2025 2024 Change 2024 2023 Change",
+    "Amount Amount Amount % Amount Amount Amount %",
+    "Amount Gross Margin",
+    "Liquidity and Capital Resources",
+    "Cash, cash equivalents, and investments:",
+    "Critical Accounting Estimates",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our consolidated financial statements and related notes appearing elsewhere in this Annual Report on Form 10-K. The following discussion and analysis contains forward-looking statements based on current expectations and assumptions that are subject to risks and uncertainties, which could cause our actual results to differ materially from those anticipated or implied by any forward-looking statements. Factors that could cause or contribute to such differences include, but are not limited to, those discussed in this Annual Report on Form 10-K, and in particular, the risks discussed under the caption \"Risk Factors\" in Part I, Item 1A of this report.",
+    "Our Management's Discussion and Analysis of Financial Condition and Results of Operations (\"MD&A\") is organized as follows:",
+    "•Overview. A discussion of our business and overall analysis of financial and other highlights in order to provide context for the remainder of MD&A.",
+    "•Key Financial Metrics. A summary of our U.S. GAAP and non-GAAP key financial metrics, which management monitors to evaluate our performance.",
+    "•Results of Operations. A discussion of the nature and trends in our financial results and an analysis of our financial results comparing fiscal 2025 to fiscal 2024. For discussion and analysis related to our financial results comparing fiscal 2024 to 2023, refer to Part II, Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations in our Annual Report on Form 10-K for fiscal 2024, which was filed with the Securities and Exchange Commission on September 6, 2024.",
+    "•Liquidity and Capital Resources. An analysis of changes on our balance sheets and cash flows, and a discussion of our financial condition and our ability to meet cash needs.",
+    "•Critical Accounting Estimates. A discussion of our accounting policies that require critical estimates, assumptions, and judgments.",
+    "•Recent Accounting Pronouncements. A discussion of expected impacts of impending accounting changes on financial information to be reported in the future.",
+    "Our mission is to be the cybersecurity partner of choice for enterprises, organizations, service providers, and government entities to protect our digital way of life. Our cybersecurity platforms and services help secure enterprise users, networks, clouds, and endpoints by delivering comprehensive cybersecurity backed by artificial intelligence (\"AI\") and automation. A key element of our strategy is to help our customers simplify their security architectures through consolidating disparate point products. We execute on this strategy by developing our capabilities and packaging our offerings into platforms which are able to cover many of our customers' needs in the markets in which we operate. Our platformization strategy combines various products and services into a tightly integrated architecture for more secure, faster, and cost-effective outcomes.",
+    "Our network security platform is designed to deliver complete zero trust solutions to our customers. The platform includes:",
+    "•Secure Access Service Edge (\"SASE\"). Prisma® Access, when combined with Prisma SD-WAN, provides a comprehensive single-vendor SASE offering that is used to secure remote workforces and cloud-delivered branch offices. Prisma Access Browser further extends SASE security and data protection to the end user device, providing workers with freedom to access business applications securely using our secure browser from any device.",
+    "•Next-Generation Firewalls. Our hardware ML-Powered Next-Generation Firewalls (\"NGFWs\") secure on-premises environments including campus locations and data centers. Our software NGFWs secure cloud networks.",
+    "•Cloud-Delivered Security Services (\"CDSS\"). Our network security platform integrates a suite of CDSS that complements our SASE and Firewall solutions. These include Advanced Threat Prevention, Advanced WildFire®, Advanced URL Filtering, Advanced DNS Security, IoT/OT Security, GlobalProtect®, Prisma Access Agent, Enterprise Data Loss Prevention (\"Enterprise DLP\"), AI for IT Operations (\"AIOps\"), Software as a Service (\"SaaS\") Security, and AI Access Security. Through these add-on services, our customers are able to secure their content, applications, users, and devices across their entire organization.",
+    "•Prisma AIRS. Prisma AIRS is a comprehensive AI security platform that has been designed to protect customers' entire AI ecosystem by providing AI model scanning, posture management, red teaming, run-time security, and AI agent security."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "Network Security",
+    "Security Operations",
+    "Threat Intelligence and Advisory Services",
+    "Products and Services",
+    "Secure Access Service Edge",
+    "Cloud-Delivered Security Services"
+   ],
+   "paragraphs": [
+    "Palo Alto Networks, Inc. 是一家全球的資安供應商，我們的願景是一個世界，每天比前一天更安全、更安全。我們於2005年設立，總部設於加利福尼亞州聖何塞。",
+    "我們的使命是成為企業、組織、服務提供商和政府實體的資安夥伴，以保護我們的數位生活方式。我們的資安平台和服務通過提供全面的資安，支援人工智慧（\"AI\"）和自動化，來保護企業用戶、網路、雲端和終端設備。我們策略的一個關鍵元素是幫助我們的客戶通過整合分散的單點產品來簡化其安全架構。我們通過開發我們的能力並將我們的產品打包成平台來執行這個策略，這些平台能夠覆蓋我們在運作市場中客戶的多種需求。我們的平台化策略將各種產品和服務整合成一個緊密整合的架構，以實現更安全、更快和更經濟的結果。",
+    "我們的網路安全平台設計來為我們的客戶交付完整的零信賴解決方案。該平台包括：",
+    "•安全存取服務邊緣（\"SASE\"）。Prisma® Access 與 Prisma SD-WAN 結合使用，提供一個全面的單供應商 SASE 提供方案，用於保護遠程工作隊伍和雲端交付的分支辦公室。Prisma Access Browser 進一步將 SASE 安全和數據保護延伸到終端用戶設備，使員工能夠使用我們的加密瀏覽器從任何設備安全地訪問業務應用程序。",
+    "•下一代防火牆。我們的硬體 ML 助力下一代防火牆（\"NGFWs\"）保護現場環境，包括校園位置和資料中心。我們的軟體 NGFWs 保護雲網路。",
+    "•雲端交付的安全服務（\"CDSS\"）。我們的網路安全平台整合了一套 CDSS，這些服務補充了我們的 SASE 和防火牆解決方案。這些包括進階威脅預防、進階 WildFire®、進階 URL 檢查、進階 DNS 安全、IoT/OT 安全、GlobalProtect®、Prisma Access Agent、企業數據損失預防（\"Enterprise DLP\"）、IT 運作的人工智慧（\"AIOps\"）、軟體即服務（\"SaaS\"）安全和 AI 存取安全。通過這些附加服務，我們的客戶能夠在其整個組織中保護其內容、應用程序、用戶和設備。",
+    "•Prisma AIRS。Prisma AIRS 是一個全面的人工智慧安全平台，已設計來保護客戶的整個 AI 生態系統，通過提供 AI 模型掃描、姿態管理、紅隊作戰、運行時安全和 AI 代理安全來實現。",
+    "•Strata 雲管理器（\"SCM\"）。SCM，我們的網路安全管理解決方案，集中管理所有遠程工作者、分支、總部、校園和雲端的網路安全。SCM 調用人工智慧來簡化和強化網路安全，使客戶能夠主動識別漏洞，獲取即時的修復建議，並增強整體數位體驗，從而減少運作負擔。這個全面的解決方案包括 Strata Copilot，它提供自然語言介面以增強洞察力和指導修復，並整合自主數位體驗監控（\"ADEM\"）來主動維護基礎設施健康，促進 AI 驅動的一鍵故障排除，並確保企業內端用戶的平穩性能。",
+    "我們的人工智慧驅動的 Cortex 平台以整合數據、人工智能和自動化來轉變端到端的安全運作，實現更安全、更快捷且成本效益更高的結果。我們將業界領先的安全運作和雲安全能力整合到單一全面的平台上，提供集中視圖、主動保護、實時預防、人工智能驅動的洞察和自動化修復，覆蓋企業和雲端。",
+    "•安全運作。我們提供下一代的安全運作能力，整合獨立的安全信息和事件管理（\"SIEM\"）工具、終端安全、安全自動化、雲端檢測和回應（\"CDR\"）以及攻擊面管理（\"ASM\"）能力於我們的 Cortex® 平台上。這些包括 Cortex XSIAM®，用於取代傳統 SIEM 工具的人工智慧安全運作，Cortex XDR®，用於預防、檢測和應對複雜的網路安全攻擊，Cortex XSOAR®，用於安全編排、自動化和應對（\"SOAR\"），以及 Cortex Xpanse®，用於 ASM。",
+    "•雲安全。我們通過 Cortex Cloud 提供雲應用開發週期的全面安全，Cortex Cloud 以可擴展的 SaaS 方案提供。作為一個全面的雲原生應用保護平台（\"CNAPP\"）結合 CDR，Cortex Cloud 保護多雲和混合雲環境中的應用、數據、生成式人工智能（\"GenAI\"）生態系統以及雲原生技術堆疊，從代碼到雲端再到安全運作。作為 Cortex Cloud 平台的一部分，客戶可以從 Cortex Cloud 擴展到我們在單一用戶體驗和整合代理上提供的安全運作方案。我們還提供 VM-Series 和 CN-Series 虛擬防火牆，用於多雲和混合雲環境中的網路安全。",
+    "•Unit 42® 將全球知名的安全研究、應對事件和安全顧問專家的專業知識整合在一起，以提供基於intelligence的、ready-to-response的結果，幫助客戶減少網路風險。我們的精英顧問以受信任的顧問身份為客戶服務，通過對其安全控制進行評估和測試，以應對複雜的威脅，通過以威脅為導向的方法轉變其安全策略，並代表客戶應對安全事件。此外，Unit 42還提供 Managed Detection and Response (\"MDR\") 和 Managed Threat Hunting 服務。",
+    "•Prisma Access. Prisma Access 是一個雲端交付的安全方案，幫助組織向遠程網路和移動用戶交付一致的 AI 驅動的安全性。全球範圍內有超過 100 個位置，Prisma Access 提供全球覆蓋，一致地檢查所有流量通過所有端口，並提供雙向網路連接以實現分支到分支和分支到總部的流量。Prisma Access 將單個點產品整合到一個雲端交付的解決方案中，轉變網路安全性，使組織能夠啟用安全的混合工作。Prisma Access 以完整的、最佳的級別安全保護所有應用程序流量，同時還通過行業領先的服務水平承諾（\"SLA\"）提供無縫用戶體驗。通過原生 SASE 整合，Prisma Access Browser 在分鐘內將零信任擴展到任何設備——受管理或未受管理的設備。Prisma Access 通過應用加速度（比直接連接到互聯網快最多 5 倍）和自主數位體驗管理的組合，提供無縫用戶體驗。",
+    "•Prisma SD-WAN. 我們的 Prisma SD-WAN 解決方案是一個下一代 SD-WAN 解決方案，使安全的雲端交付分支成為可能。Prisma SD-WAN 認可組織用可負擔的寬帶和互聯網運輸類型取代傳統的寬域網路（\"WAN\"）架構，促進更好的帶寬可用性、冗餘和性能，同時成本更低。Prisma SD-WAN 認可實時應用性能 SLA 和可見性來控制和智能地導航應用流量，以提供強大的用戶體驗。Prisma SD-WAN 也提供了部署到本地控制器的靈活性，以幫助企業滿足其行業特定的安全合規要求，並使用應用定義策略管理部署。我們的 Prisma SD-WAN 使用 AI 和自動化簡化網路和安全性操作。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "網路安全",
+    "安全運作",
+    "威脅智慧和建議服務",
+    "關鍵財務指標",
+    "(以十億美元為單位)",
+    "截至2023年7月31日",
+    "(美元以百萬美元為單位)",
+    "(以百萬美元為單位)",
+    "自由現金流（非GAAP）：",
+    "營運結果",
+    "數額 % 數額 % 數額 %",
+    "截至2025年7月31日 截至2024年7月31日",
+    "變動 2024年 2023年",
+    "數額 數額 數額 % 數額 數額 數額 %",
+    "數額 毛利率",
+    "流動性和資本資源",
+    "現金、現金類等價物及投資：",
+    "關鍵會計估計",
+    "最近的會計公告"
+   ],
+   "paragraphs": [
+    "本年度報告書第10-K表單的財務狀況和營運結果的討論和分析應與本年度報告書其他部分出現的合併財務報表和相關附註一併閱讀。本年度報告書第10-K表單的討論和分析包含基於目前預期和假設的前瞻預測，這些預測受風險和不確定性影響，可能會導致實際結果與任何前瞻預測所預期或暗示的結果有實質性差異。可能會導致或促成這種差異的因素包括，但不限於本年度報告書第10-K表單中討論的因素，特別是本報告書第一部分第1A項下標題為\"風險因素\"中討論的風險。",
+    "本公司財務狀況和營運結果的討論和分析（\"MD&A\"）organisation as follows：",
+    "•概況。本公司業務和整體財務及其他亮點的討論，以提供MD&A餘部的背景。",
+    "•關鍵財務指標。本公司U.S. GAAP和非GAAP關鍵財務指標的摘要，管理層監控這些指標以評估本公司表現。",
+    "•營運結果。本公司財務結果的性質和趨勢的討論，以及將財務結果與財政年度2025年對比2024年的分析。有關財務結果與2024年對比2023年的討論和分析，請參考本公司2024財政年度的年度報告書第10-K表單，該報告書於2024年9月6日經證券和期貨委員會備案。",
+    "•流動性及資本資源。對本公司資產負債表和現金流量的變動進行分析，以及對本公司財務狀況和滿足現金需求能力的討論。",
+    "•關鍵會計估計。對本公司需要關鍵估計、假設和判斷的會計政策的討論。",
+    "•近期會計公告。對即將發生的會計變更對未來報告的財務信息可能產生的影響的討論。",
+    "本公司之使命是在企業、組織、服務提供商及政府實體中，成為首選的網路安全夥伴，以保護我們的數位生活方式。本公司之網路安全平台及服務通過提供全面的網路安全，並依託人工智慧（\"AI\"）及自動化，幫助保護企業用戶、網路、雲端及終端設備。本公司策略之一是幫助客戶簡化其安全架構，通過整合分散的單點產品。我們透過開發能力並將我們的產品打包成平台來執行此策略，這些平台能夠覆蓋我們在運作市場中客戶的多種需求。我們的平台化策略將各種產品和服務整合成一個緊密整合的架構，以實現更安全、更快捷及更具成本效益的結果。",
+    "本公司之網路安全平台設計以提供完整的零信任解決方案給客戶。該平台包括：",
+    "•安全存取服務邊緣（\"SASE\"）。Prisma® Access，當與Prisma SD-WAN結合使用時，提供一個全面的單供應商SASE方案，用於保護遠程工作隊伍和雲端交付的分支辦公室。Prisma Access Browser進一步擴展SASE安全和數據保護至終端用戶設備，使員工能夠使用本公司安全瀏覽器從任何設備安全地訪問企業應用。",
+    "•下一代防火牆。我們的硬體ML驅動下一代防火牆（\"NGFWs\"）保護現場環境，包括校園位置和資料中心。我們的軟體NGFWs保護雲端網路。",
+    "•雲端交付的安全服務（\"CDSS\"）。本公司網路安全平台整合了一套CDSS，以補充我們的SASE和防火牆解決方案。這些包括進階威脅預防、進階WildFire®、進階URL過濾、進階DNS安全、IoT/OT安全、GlobalProtect®、Prisma Access Agent、企業數據損失預防（\"企業DLP\"）、IT運作的人工智慧（\"AIOps\"）、軟體即服務（\"SaaS\"）安全及人工智能訪問安全。透過這些附加服務，我們的客戶能夠在其整個組織中保護其內容、應用程序、用戶及設備。",
+    "•Prisma AIRS。Prisma AIRS是一個全面的人工智慧安全平台，已設計以通過提供人工智能模型掃描、姿態管理、紅隊作戰、運行時安全及人工智能代理安全來保護客戶的整個人工智能生態系。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素摘要",
+    "與全球經濟和地緣政治環境相關的風險",
+    "本公司之營運結果可能受到不利的經濟和市場條件以及不確定的地緣政治環境之影響。",
+    "與本公司業務相關的風險",
+    "季節性可能會導致本公司營收波動。",
+    "如本公司無法向終端客戶銷售新產品、附加產品、訂閱和支援方案，特別是大型企業客戶，本公司未來的營收和營運結果可能會受到損害。",
+    "如本公司無法吸引新客戶，本公司未來的營運結果可能會受到損害。",
+    "本公司產品、訂閱和支援方案的銷售價格可能會下降，這可能會減少本公司營收和毛利，並對本公司財務結果造成不利影響。",
+    "本公司對客戶的信貸及流動性風險有所曝露，且在市場疲弱時，可能因信貸曝露而遭受重大損失。",
+    "本公司部分收入來自政府實體的銷售，這些實體面臨多種挑戰和風險。",
+    "本公司在市場中面臨激烈的競爭，可能缺乏足夠的財務或其他資源來維持或改善競爭地位。",
+    "本公司可能無法在預期的時間框架內完成對 CyberArk 的收購，或根本無法完成收購，這可能會對我們的未來業務和財務結果產生負面影響。",
+    "由於對 CyberArk 的收購，本公司預期業務的範圍和規模將會大幅改變，導致某些增量風險，包括競爭增加。",
+    "AI 開發和部署中的問題可能會導致聲譽損失和法律責任，並可能對我們的營運結果產生不利影響。",
+    "網路或數據安全事件可能會使未經授權的訪問進入本公司網路或數據，損害本公司聲譽，造成額外的責任，並可能對本公司財務結果產生不利影響。"
+   ],
+   "paragraphs": [
+    "本公司之營運及財務結果受多種風險及不確定性影響，包括以下所述者。以下所述之風險及不確定性並非本公司唯一之風險。我們目前尚不知曉或認為不具重大性之其他風險及不確定性，亦可能會成為影響本公司之重要因素。若以下所述之任何風險或未列明之其他風險實現，本公司之業務、財務狀況及營運結果可能會受到重大不利影響，本公司普通股之市場價格亦可能會下跌。此外，若經濟環境進一步惡化，可能會加劇以下所述之風險，任何一項之風險都可能會對本公司造成重大影響。",
+    "本公司之業務受多種風險及不確定性影響。此等風險包括，但不限於，以下者：",
+    "•本公司之營運結果可能會因不利之經濟及市場條件及不明確之地緣政治環境而受到影響。",
+    "•本公司之業務及營運在近期已經歷增長，若我們未能有效管理任何未來增長或無法改善我們之系統、流程及控制，本公司之營運結果可能會受到影響。",
+    "•本公司近期之收入增長率可能不足以反映本公司未來之表現，且我們可能無法維持盈利，這可能會導致本公司之業務、財務狀況及營運結果受損。",
+    "•本公司之營運結果可能會在各期之間有顯著之差異，這使得我們之結果難以預測，可能會導致我們之結果未能達及預期，且此等結果可能不足以反映未來之表現。"
+   ]
+  }
+ },
+ "translator": "qwen2.5-coder:7b（本機）"
+}

@@ -41,7 +41,11 @@ if hasattr(sys.stdout, "reconfigure"):
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_DIR = os.path.join(ROOT, "config", "narrative_zh")
 WORK_DIR = os.path.join(ROOT, "tools", "translate_out")
-API_BASE = os.environ.get("BAMHI_API", "http://localhost:3000")
+# 預設打**線上站**，不是本機 dev server。這支是離線批次工具，可能跑好幾天，
+# 綁在本機伺服器上等於多一個會半夜掛掉的依賴。打線上還有個副作用是好的：
+# 每翻一家就順便把那家的年報解析結果寫進線上的 Blob 快取，真的使用者就不用等。
+# 本機開發要改回來：BAMHI_API=http://localhost:3000
+API_BASE = os.environ.get("BAMHI_API", "https://bamhi-company-financials.vercel.app")
 COVERAGE = os.path.join(ROOT, "tools", "sweep_out", "coverage.jsonl")
 UA = os.environ.get("SEC_USER_AGENT", "BamHI frank940702@gmail.com")
 
@@ -459,6 +463,7 @@ def run_batch(targets: list, args, engine, tag: str) -> None:
     所以每家包一層 try，失敗記下來最後一起報。
     """
     total = len(targets)
+    print(f"章節來源 {API_BASE}／翻譯 {OLLAMA_MODEL} @ {OLLAMA}／共 {total} 家")
     skipped = failed = ok = empty = 0
     t0 = time.time()
     for i, t in enumerate(targets, 1):

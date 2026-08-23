@@ -72,3 +72,18 @@ export async function secFetchJson<T>(url: string, ttlMs = 24 * 3600 * 1000): Pr
 export async function secFetchText(url: string): Promise<string> {
   return (await secFetchRaw(url)).text()
 }
+
+/**
+ * 純文字取回，但**先看 Content-Length 決定要不要收**。
+ * 敘述性段落要讀 10-K 的 HTML 本文，少數公司（波克夏、保險業）單檔十幾 MB，
+ * 無上限地讀進記憶體會讓 serverless 實例 OOM —— 超過上限就直接放棄該公司，
+ * UI 顯示「檔案過大未解析」，不會拖垮整個函式。
+ */
+export async function secFetchTextLimited(url: string, maxBytes: number): Promise<string> {
+  const res = await secFetchRaw(url)
+  const len = Number(res.headers.get('content-length') || 0)
+  if (len && len > maxBytes) throw new Error(`too-large:${len}`)
+  const text = await res.text()
+  if (text.length > maxBytes) throw new Error(`too-large:${text.length}`)
+  return text
+}

@@ -12,7 +12,9 @@ export default defineEventHandler((event) => {
       tickers = JSON.parse(readFileSync(p, 'utf-8'))
     } catch { /* fallback */ }
   }
-  const urls = ['/', ...tickers.map((t) => `/stock/${t}`)]
+  // 個股頁的五個分頁都各自有標題與內容，分開收錄
+  const SUBPAGES = ['', '/profile', '/financials', '/funds', '/insider']
+  const urls = ['/', ...tickers.flatMap((t) => SUBPAGES.map((s) => `/stock/${t}${s}`))]
     .map((u) => `  <url><loc>${SITE}${u}</loc></url>`)
     .join('\n')
   setHeader(event, 'Content-Type', 'application/xml')

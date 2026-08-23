@@ -75,6 +75,7 @@ async function search() {
     result.value = r
     if (r.isForeignIssuer) {
       status.value = 'foreign'
+      if (r.ticker && r.ticker !== props.initialTicker) await navigateTo(`/stock/${r.ticker}`)
       return
     }
     // 由申報紀錄動態生成格子（有申報才可點選）
@@ -95,6 +96,12 @@ async function search() {
     anchor.value = null
     hoverIdx.value = null
     status.value = 'ok'
+    // 查成功就導到個股頁。首頁原本是就地載入、網址停在 `/`，
+    // 於是「公司簡介／財務報表／13F／內部人買賣」四個分頁完全走不到 ——
+    // 那幾頁只掛在 /stock/{ticker} 底下。順便讓網址可以直接分享。
+    if (r.ticker && r.ticker !== props.initialTicker) {
+      await navigateTo(`/stock/${r.ticker}`)
+    }
   } catch (e: any) {
     errMsg.value = e?.data?.message || '查詢失敗，請稍後再試'
     status.value = 'notfound'

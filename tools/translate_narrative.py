@@ -459,7 +459,7 @@ def run_batch(targets: list, args, engine, tag: str) -> None:
     所以每家包一層 try，失敗記下來最後一起報。
     """
     total = len(targets)
-    skipped = failed = ok = 0
+    skipped = failed = ok = empty = 0
     t0 = time.time()
     for i, t in enumerate(targets, 1):
         if not args.redo and already_done(t):
@@ -471,7 +471,17 @@ def run_batch(targets: list, args, engine, tag: str) -> None:
         print(f"[{i}/{total}] {t}（已完成 {ok}、跳過 {skipped}、失敗 {failed}{eta}）", flush=True)
         try:
             made = emit([t], args.paras)
-            if not made or not engine:
+            if not made:
+                # 網站掛掉的話每一家都會抽不到字串，然後這支工具會安靜地
+                # 「跳過」五百家跑完收工。連續空手太多次就停下來講清楚，
+                # 不要讓一場 28 小時的批次變成什麼都沒做
+                empty += 1
+                if empty >= 15:
+                    raise SystemExit(
+                        f"連續 {empty} 家都抽不到章節 —— 網站（{API_BASE}）還活著嗎？已中止")
+                continue
+            empty = 0
+            if not engine:
                 continue
             fill(made[0], args.batch, engine, tag, max(1, args.jobs))
             apply(made[0])

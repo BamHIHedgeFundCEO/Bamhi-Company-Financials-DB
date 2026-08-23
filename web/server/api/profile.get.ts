@@ -41,7 +41,11 @@ interface Submissions {
 }
 
 /** 年報表單：外國發行人是 20-F（章節結構與 10-K 不同，抽不出來會誠實說） */
-const ANNUAL = ['10-K', '20-F', '40-F', '10-K/A', '20-F/A']
+const ANNUAL = ['10-K', '20-F', '40-F']
+/** 修正案只在「完全沒有原始年報」時才用。10-K/A 多半只重申被修正的那幾項
+ *  （常常只有 Part III 的董監酬勞），裡面根本沒有 Item 1／1A／7 ——
+ *  TSLA 2026 年 4 月就補了一份 10-K/A，照申報日取最新會挑到它，三個章節全落空 */
+const ANNUAL_AMENDED = ['10-K/A', '20-F/A', '40-F/A']
 
 export default defineEventHandler(async (event) => {
   const q = getQuery(event)
@@ -62,18 +66,21 @@ export default defineEventHandler(async (event) => {
   const r = sub.filings.recent
   const biz = sub.addresses?.business ?? {}
 
-  let latest: { form: string; accession: string; reportDate: string; filingDate: string; url: string } | null = null
-  for (let i = 0; i < r.form.length; i++) {
-    if (!ANNUAL.includes(r.form[i])) continue
-    latest = {
-      form: r.form[i],
-      accession: r.accessionNumber[i],
-      reportDate: r.reportDate[i],
-      filingDate: r.filingDate[i],
-      url: filingUrl(ref.cik, r.accessionNumber[i], r.primaryDocument[i]),
+  type Annual = { form: string; accession: string; reportDate: string; filingDate: string; url: string }
+  const pick = (forms: string[]): Annual | null => {
+    for (let i = 0; i < r.form.length; i++) {
+      if (!forms.includes(r.form[i])) continue
+      return {
+        form: r.form[i],
+        accession: r.accessionNumber[i],
+        reportDate: r.reportDate[i],
+        filingDate: r.filingDate[i],
+        url: filingUrl(ref.cik, r.accessionNumber[i], r.primaryDocument[i]),
+      }
     }
-    break // filings.recent 已依申報日新到舊排序
+    return null   // filings.recent 已依申報日新到舊排序，第一筆就是最新
   }
+  const latest = pick(ANNUAL) ?? pick(ANNUAL_AMENDED)
 
   let narrative: Narrative | null = null
   const notes: string[] = []

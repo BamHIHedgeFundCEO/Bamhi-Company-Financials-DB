@@ -15,9 +15,17 @@ import { cacheGet, cacheSet } from './blobCache'
  */
 
 const MAX_HTML = 24 * 1024 * 1024
-/** 粗體標記。剝標籤會把粗體資訊一起剝掉，但風險因子的小標**就是**粗體，
- *  所以在剝的過程中先留下這個控制字元當記號，段落化時再拿掉。 */
-const B = ''
+/**
+ * 粗體標記。剝標籤會把粗體資訊一起剝掉，但風險因子的小標**就是**粗體，
+ * 所以在剝的過程中先留下這個記號，段落化時再拿掉。
+ *
+ * ⚠️ 這個字元**必須是 `\s` 匹配得到的空白**（垂直定位字元 U+000B），不能用
+ * `` 之類的控制字元。Alphabet 的 10-K 標題長成 `ITEM 1.<粗體>BUSINESS`，
+ * 記號正好卡在「Item 1.」與「Business」中間 —— 記號不算空白的話
+ * `item\s*1\s*\.?\s*business` 這個式子永遠比對不到，整份年報三個章節全部抓不到。
+ * 申報文件本身不會出現 U+000B，所以拿它當記號不會誤判。
+ */
+const B = ''
 
 export interface Section {
   id: 'business' | 'risk' | 'mdna'
@@ -299,7 +307,7 @@ async function attachZh(n: Narrative, cik10: string): Promise<void> {
 }
 
 export async function getNarrative(cik10: string, f: FilingMeta): Promise<Narrative> {
-  const key = `narr/v4/${cik10}/${f.accession}.json`
+  const key = `narr/v5/${cik10}/${f.accession}.json`
   const hit = await cacheGet<Narrative>(key)
   if (hit) {
     // 譯文不進 Blob 快取 —— 它會在快取之後才補上，每次都要重新掛

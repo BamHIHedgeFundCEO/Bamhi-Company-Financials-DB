@@ -18,6 +18,7 @@
 
 用法：
   python tools/translate_narrative.py --emit AAPL,NVDA --ollama  # 免費，跑本機模型
+  python tools/translate_narrative.py --emit AAPL --ollama --model qwen2.5-coder:7b  # 換模型
   python tools/translate_narrative.py --emit AAPL --api          # 需 ANTHROPIC_API_KEY（要錢）
   python tools/translate_narrative.py --apply tools/translate_out/pending-AAPL.json
   python tools/translate_narrative.py --status
@@ -42,7 +43,7 @@ API_BASE = os.environ.get("BAMHI_API", "http://localhost:3000")
 SECTIONS = ("business", "mdna", "risk")
 MODEL = os.environ.get("BAMHI_TRANSLATE_MODEL", "claude-opus-5")
 OLLAMA = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
-OLLAMA_MODEL = os.environ.get("BAMHI_OLLAMA_MODEL", "qwen2.5-coder:7b")
+OLLAMA_MODEL = os.environ.get("BAMHI_OLLAMA_MODEL", "qwen3:8b")
 
 GLOSSARY = ("component→零組件、gross margin→毛利率、net sales→淨銷售額、revenue→營業收入、"
             "macroeconomic→總體經濟、supply chain→供應鏈、outsourcing partner→委外夥伴、"
@@ -70,6 +71,10 @@ def _prompt(items: list) -> str:
 
 def _parse_array(text: str, n: int) -> list:
     """本機模型很愛加 code fence 與前言，寬鬆一點剖析，但**條數一定要對**"""
+    # 推理型模型（qwen3 等）會先吐一段 <think>…</think>，裡面常有中括號，
+    # 不先剝掉的話下面找 "[" 會抓到推理過程而不是答案
+    while "<think>" in text and "</think>" in text:
+        text = text[:text.index("<think>")] + text[text.index("</think>") + 8:]
     t = text.strip()
     if "```" in t:
         t = t.split("```")[1]
@@ -102,6 +107,15 @@ TW_FIXES = [
     (re.compile(r"平臺"), "平台"),
     # 台灣寫「佔比／佔營收」；「占卜」是唯一常見的例外
     (re.compile(r"占(?!卜)"), "佔"),
+    # 准／準 是兩個字：批准、核准、獲准用「准」，標準、準確用「準」。
+    # opencc 不是純逐字轉換、它有詞條，會把「核准」轉成「覈準」、「獲准」轉成
+    # 「獲準」（但「批准」又不動）。與其猜它的詞表，不如把轉錯的那幾個轉回來。
+    (re.compile(r"覈"), "核"),
+    (re.compile(r"批準"), "批准"),
+    (re.compile(r"核準"), "核准"),
+    (re.compile(r"獲準"), "獲准"),
+    (re.compile(r"照準"), "照准"),
+    (re.compile(r"準許"), "准許"),
 ]
 
 
@@ -137,8 +151,9 @@ def to_traditional(xs: list) -> list:
 
 # opencc 把這些字當成簡體，但它們在繁體中文裡本來就存在、意思也不同：
 #   台（平台，不寫平臺；TW_FIXES 還刻意產生它） 游（游泳 ≠ 遊歷） 里（公里 ≠ 裡面）
+#   准（批准／核准；該轉成「準」的情形上面 TW_FIXES 已經處理掉了）
 # 不排除的話警示會對正確的字一直亮。這個檢查是提示不是關卡，寧可少報也不要吵。
-TW_OK = set("台游里")
+TW_OK = set("台游里准")
 
 
 def simplified_left(x: str) -> set:
@@ -195,14 +210,25 @@ def translate_ollama(items: list) -> list:
     走本機 Ollama —— **零成本、零帳號、資料不離開這台機器**。
     實測 qwen2.5-coder:7b 模型載入後約 0.6 秒/條（一家公司 59 條約 40 秒）。
     """
-    body = json.dumps({
+    payload = {
         "model": OLLAMA_MODEL, "prompt": _prompt(items), "stream": False,
+        # 推理型模型預設會先產一大段思考再回答，翻譯用不到而且拖慢好幾倍。
+        # 不支援這個參數的模型會回 400，下面接住後重送一次不帶它的版本。
+        "think": False,
         "options": {"temperature": 0.2, "num_predict": 6000},
-    }).encode("utf-8")
-    req = urllib.request.Request(OLLAMA + "/api/generate", data=body,
-                                 headers={"content-type": "application/json"})
+    }
+
+    def post(p):
+        req = urllib.request.Request(
+            OLLAMA + "/api/generate", data=json.dumps(p).encode("utf-8"),
+            headers={"content-type": "application/json"})
+        return urllib.request.urlopen(req, timeout=1800).read().decode("utf-8")
+
     try:
-        raw = urllib.request.urlopen(req, timeout=1800).read().decode("utf-8")
+        raw = post(payload)
+    except urllib.error.HTTPError:
+        payload.pop("think", None)
+        raw = post(payload)
     except OSError as e:
         raise SystemExit("連不上 Ollama（%s）：%s。先確認 ollama 有在跑" % (OLLAMA, e))
     return to_traditional(_parse_array(json.loads(raw).get("response", ""), len(items)))

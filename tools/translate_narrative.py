@@ -17,13 +17,16 @@
 頁面退回英文，不會拿去年的翻譯套今年的財報。
 
 用法：
-  python tools/translate_narrative.py --emit AAPL,NVDA --ollama  # 免費，跑本機模型
+  python tools/translate_narrative.py --emit AAPL,NVDA --ollama  # 指定幾家
+  python tools/translate_narrative.py --top 500 --ollama         # 市值前 500 大，可續跑
+  python tools/translate_narrative.py --all --ollama             # 全母體
   python tools/translate_narrative.py --emit AAPL --ollama --model qwen2.5-coder:7b  # 換模型
   python tools/translate_narrative.py --emit AAPL --api          # 需 ANTHROPIC_API_KEY（要錢）
   python tools/translate_narrative.py --apply tools/translate_out/pending-AAPL.json
   python tools/translate_narrative.py --status
 """
 import argparse
+import concurrent.futures
 import io
 import json
 import os
@@ -39,6 +42,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_DIR = os.path.join(ROOT, "config", "narrative_zh")
 WORK_DIR = os.path.join(ROOT, "tools", "translate_out")
 API_BASE = os.environ.get("BAMHI_API", "http://localhost:3000")
+COVERAGE = os.path.join(ROOT, "tools", "sweep_out", "coverage.jsonl")
+UA = os.environ.get("SEC_USER_AGENT", "BamHI frank940702@gmail.com")
 
 SECTIONS = ("business", "mdna", "risk")
 MODEL = os.environ.get("BAMHI_TRANSLATE_MODEL", "claude-opus-5")
@@ -153,7 +158,15 @@ def to_traditional(xs: list) -> list:
 #   台（平台，不寫平臺；TW_FIXES 還刻意產生它） 游（游泳 ≠ 遊歷） 里（公里 ≠ 裡面）
 #   准（批准／核准；該轉成「準」的情形上面 TW_FIXES 已經處理掉了）
 # 不排除的話警示會對正確的字一直亮。這個檢查是提示不是關卡，寧可少報也不要吵。
-TW_OK = set("台游里准")
+# 這些字**在繁體中文裡本來就存在**，而且與 opencc 想轉成的那個字意思不同。
+# opencc 的 s2t 表把它們全當簡體，所以每次都會誤報。列在這裡不是放行簡體，
+# 真正的簡體字（产业务国际经济时间…）一個都不在裡面。看到新的就往下加。
+#   台/臺 平台        游/遊 游泳      里/裡 公里      准/準 批准
+#   干/幹乾 干擾      后/後 皇后      面/麵 表面      松/鬆 松樹
+#   志/誌 志願        制/製 制度      系/係繫 系統    表/錶 表格
+#   才/纔 人才        谷/穀 山谷      丑/醜 丑角      卜/蔔 占卜
+#   曲/麴 歌曲        沖/衝 沖洗
+TW_OK = set("台游里准干后面松志制系表才谷丑卜曲沖")
 
 
 def simplified_left(x: str) -> set:
@@ -161,6 +174,65 @@ def simplified_left(x: str) -> set:
     if not _cc:
         return set()
     return {c for c in x if c not in TW_OK and _cc.convert(c) != c}
+
+
+def universe() -> list:
+    """
+    要翻的代號，**依市值由大到小**。
+
+    SEC 的 `company_tickers.json` 本身就是照市值排序的（`generate-static.ts`
+    也靠這個排前 500 大），拿它當優先序、再與我們的母體取交集。
+    先翻大公司是因為流量集中在那裡 —— 全母體要跑很久，順序不對等於白等。
+    """
+    uni = []
+    with io.open(COVERAGE, encoding="utf-8") as f:
+        for line in f:
+            uni.append(json.loads(line)["ticker"])
+    have = set(uni)
+    try:
+        req = urllib.request.Request("https://www.sec.gov/files/company_tickers.json",
+                                     headers={"User-Agent": UA})
+        raw = json.loads(urllib.request.urlopen(req, timeout=120).read().decode("utf-8"))
+        order = [v["ticker"].upper() for v in raw.values()]
+    except Exception as e:
+        print(f"  取不到 SEC 排序（{e}），改用母體原順序")
+        return uni
+    ranked = [t for t in order if t in have]
+    return ranked + [t for t in uni if t not in set(ranked)]
+
+
+def done_key(cik: str, accession: str) -> str:
+    return os.path.join(OUT_DIR, f"{cik}-{accession}.json")
+
+
+def already_done(ticker: str) -> bool:
+    """
+    這家是不是已經翻過**這一份**年報。
+
+    比對的是申報書號不是代號 —— 公司出新的 10-K 就該重翻，舊譯文對不上新內容。
+    """
+    p = os.path.join(WORK_DIR, f"pending-{ticker}.json")
+    if not os.path.exists(p):
+        return False
+    try:
+        d = json.load(io.open(p, encoding="utf-8"))
+    except Exception:
+        return False
+    out = done_key(d.get("cik", ""), d.get("accession", ""))
+    if not os.path.exists(out):
+        return False
+    try:
+        z = json.load(io.open(out, encoding="utf-8"))
+    except Exception:
+        return False
+    for sid, sec in d.get("sections", {}).items():
+        t = z.get("sections", {}).get(sid)
+        if not t:
+            return False
+        for field in ("headings", "paragraphs"):
+            if len([x for x in (t.get(field) or []) if x]) < len(sec[field]):
+                return False
+    return True
 
 
 def api_get(path: str):
@@ -196,6 +268,16 @@ def emit(tickers: list, max_paras: int) -> list:
             "sections": {s["id"]: strings_of(s, max_paras) for s in n["sections"]},
             "zh": {},
         }
+        # 同一份年報之前翻到一半的話要接下去，不是從頭再翻一遍
+        p_old = os.path.join(WORK_DIR, f"pending-{t}.json")
+        if os.path.exists(p_old):
+            try:
+                prev = json.load(io.open(p_old, encoding="utf-8"))
+                if prev.get("accession") == doc["accession"]:
+                    doc["zh"] = prev.get("zh") or {}
+                    doc["translator"] = prev.get("translator")
+            except Exception:
+                pass
         p = os.path.join(WORK_DIR, f"pending-{t}.json")
         with io.open(p, "w", encoding="utf-8") as f:
             json.dump(doc, f, ensure_ascii=False, indent=1)
@@ -275,7 +357,7 @@ def robust(engine, items: list) -> list:
         return robust(engine, items[:mid]) + robust(engine, items[mid:])
 
 
-def fill(path: str, batch: int, engine, tag: str) -> None:
+def fill(path: str, batch: int, engine, tag: str, jobs: int = 1) -> None:
     with io.open(path, encoding="utf-8") as f:
         doc = json.load(f)
     for sid in SECTIONS:
@@ -289,16 +371,25 @@ def fill(path: str, batch: int, engine, tag: str) -> None:
             if len(done) >= len(src):
                 continue
             todo = src[len(done):]
-            for i in range(0, len(todo), batch):
-                chunk = todo[i:i + batch]
-                print(f"    {sid}.{field} {len(done) + 1}–{len(done) + len(chunk)}"
-                      f"／{len(src)} …", flush=True)
-                done = done + robust(engine, chunk)
+            chunks = [todo[i:i + batch] for i in range(0, len(todo), batch)]
+            # 併發只在「同一個欄位的多個批次」之間做 —— 批次之間沒有順序相依，
+            # 結果照原順序接回去即可。實測 8GB 顯卡上 2 執行緒約 1.6 倍，
+            # 4 執行緒沒有更快（模型與 KV cache 已經吃滿顯存）
+            for g in range(0, len(chunks), jobs):
+                group = chunks[g:g + jobs]
+                print(f"    {sid}.{field} {len(done) + 1}–"
+                      f"{len(done) + sum(len(c) for c in group)}／{len(src)} …", flush=True)
+                if len(group) == 1:
+                    got = [robust(engine, group[0])]
+                else:
+                    with concurrent.futures.ThreadPoolExecutor(max_workers=len(group)) as ex:
+                        got = list(ex.map(lambda c: robust(engine, c), group))
+                for r in got:
+                    done = done + r
                 zh[field] = done
                 doc["translator"] = tag
                 with io.open(path, "w", encoding="utf-8") as f:
                     json.dump(doc, f, ensure_ascii=False, indent=1)
-                time.sleep(0.5)
     print(f"  完成 → {os.path.relpath(path, ROOT)}（記得再跑 --apply）")
 
 
@@ -359,9 +450,50 @@ def status() -> None:
     print(f"共 {total} 條")
 
 
+def run_batch(targets: list, args, engine, tag: str) -> None:
+    """
+    一個指令跑完一整批，**中途出錯不中斷**、**重跑會接續**。
+
+    單一公司失敗的原因大多與其他公司無關（那份年報抓不到章節、網站剛好重啟、
+    模型某批吐不出合法 JSON）。整批中止的話等於前面幾小時的進度都要重來，
+    所以每家包一層 try，失敗記下來最後一起報。
+    """
+    total = len(targets)
+    skipped = failed = ok = 0
+    t0 = time.time()
+    for i, t in enumerate(targets, 1):
+        if not args.redo and already_done(t):
+            skipped += 1
+            continue
+        el = time.time() - t0
+        rate = el / max(1, ok)
+        eta = f"，預估剩 {(total - i) * rate / 3600:.1f} 小時" if ok >= 2 else ""
+        print(f"[{i}/{total}] {t}（已完成 {ok}、跳過 {skipped}、失敗 {failed}{eta}）", flush=True)
+        try:
+            made = emit([t], args.paras)
+            if not made or not engine:
+                continue
+            fill(made[0], args.batch, engine, tag, max(1, args.jobs))
+            apply(made[0])
+            ok += 1
+        except SystemExit as e:
+            print(f"  {t} 中止：{e}")
+            failed += 1
+        except Exception as e:
+            print(f"  {t} 失敗：{type(e).__name__} {e}")
+            failed += 1
+    mins = (time.time() - t0) / 60
+    print(f"\n完成 {ok}、跳過 {skipped}（已翻過）、失敗 {failed}，共 {mins:.0f} 分鐘")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--emit", help="代號清單（逗號分隔），抽出待翻譯字串")
+    ap.add_argument("--top", type=int, metavar="N",
+                    help="改翻市值前 N 大（依 SEC company_tickers.json 排序）")
+    ap.add_argument("--all", action="store_true", help="翻全母體（羅素 3000）")
+    ap.add_argument("--jobs", type=int, default=2, help="同時送幾個批次給模型（預設 2）")
+    ap.add_argument("--redo", action="store_true", help="已翻過的也重翻（預設跳過）")
     ap.add_argument("--apply", help="把 pending 檔的譯文寫進 config/narrative_zh/")
     ap.add_argument("--apply-all", action="store_true", help="套用 translate_out/ 下全部")
     ap.add_argument("--api", action="store_true",
@@ -382,13 +514,15 @@ def main() -> None:
         globals()["OLLAMA_MODEL"] = args.model
     engine = translate_ollama if args.ollama else (translate_api if args.api else None)
     tag = (OLLAMA_MODEL + "（本機）") if args.ollama else MODEL
+    targets = None
     if args.emit:
-        made = emit([t.strip().upper() for t in args.emit.split(",") if t.strip()], args.paras)
-        if engine:
-            for p in made:
-                print("  翻譯 %s（%s）" % (os.path.basename(p), tag))
-                fill(p, args.batch, engine, tag)
-                apply(p)
+        targets = [t.strip().upper() for t in args.emit.split(",") if t.strip()]
+    elif args.top or args.all:
+        targets = universe()
+        if args.top:
+            targets = targets[:args.top]
+    if targets is not None:
+        run_batch(targets, args, engine, tag)
         return
     if args.apply:
         apply(args.apply)

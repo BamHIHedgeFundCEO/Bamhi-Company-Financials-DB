@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.13",
  "updated": "2026-08-22",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -399,7 +399,10 @@
    "tags_ifrs": [
     "CurrentFinancialAssetsAtFairValueThroughProfitOrLoss",
     "CurrentFinancialAssetsAtAmortisedCost"
-   ]
+   ],
+   "zero_if_never_reported": {
+    "note": "整個查詢視窗一期都沒申報短期投資 → 視為 0（標記為推算值）。不是逐格補：逐格會出現有些季算得出、有些季 n/a 的斑駁比率。判準來自實測：2,132 家可判定的公司裡，59.6% 最近 20 期一期都沒申報、21.5% 八成以上的期都有申報，兩類分得很開；只有 18.9% 是零星申報，那種公司的缺格維持 n/a（那是真缺口不是沒有）。影響的是速動比率、淨負債、淨負債／EBITDA、每股現金及投資 —— 一個 + 短期投資 就讓半數公司這四個比率全空。沒有短投時速動比率 ＝（現金＋應收）÷ 流動負債，本來就是標準定義。"
+   }
   },
   {
    "id": "accounts_receivable",

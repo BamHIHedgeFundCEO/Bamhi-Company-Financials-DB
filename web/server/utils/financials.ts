@@ -76,6 +76,8 @@ export interface MapConcept {
     bound_minus: string[]
     max_share_of_market_cap: number
   }
+  /** 整個視窗一期都沒申報 → 視為 0（見 config 的 note）。逐格補會造成斑駁的比率 */
+  zero_if_never_reported?: { note?: string }
   dedupe_total_tags?: {
     tags: string[]
     against: string
@@ -1753,6 +1755,38 @@ export async function getFinancials(
       if (!na.has(li.id)) continue
       if (Object.values(li.values).some(v => typeof v?.value === 'number')) continue
       li.applicable = false
+    }
+  }
+
+  /**
+   * 「整列都沒有」→ 視為 0。
+   *
+   * 起因：VMC 沒有短期投資，於是速動比率、淨負債、淨負債／EBITDA、每股現金及投資
+   * 四個全部 n/a —— 公式裡只要有一個 `+ 短期投資`，那一格是文字就整條算不出來。
+   * 全母體有 1,444 家（50%）沒有短期投資，不是個案。
+   *
+   * 為什麼是整列判斷、不是逐格補：逐格用「上限守門」試過，VMC 五季的上限
+   * ÷ 流動負債是 0.068 / 0.119 / 0.202 / 0.854 / 0.783 —— 10% 門檻只會放行一季，
+   * 比率有些季算得出、有些季 n/a，比全空更難解讀。
+   *
+   * 整列判斷有實測支撐：2,132 家可判定的公司裡，**59.6% 最近 20 期一期都沒申報**、
+   * 21.5% 八成以上的期都有申報，兩類分得很開。只有 18.9% 是零星申報 ——
+   * 那種公司**只要有一期報過就不補**，缺的那幾格是真缺口，維持 n/a。
+   *
+   * 補出來的 0 一律標 `isEstimated`（橘底）並在 sourceTag 寫明依據，
+   * 不會被誤認為公司申報的數字。
+   */
+  for (const concept of map.concepts) {
+    if (!concept.zero_if_never_reported) continue
+    const li = lineItems.find((x) => x.id === concept.id)
+    if (!li) continue
+    if (periods.some((p) => li.values[p]?.value != null)) continue // 報過就不補
+    for (const p of periods) {
+      li.values[p] = {
+        value: 0,
+        isEstimated: true,
+        sourceTag: '整個期間都沒有申報這個科目，視為 0',
+      }
     }
   }
 

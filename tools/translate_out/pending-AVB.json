@@ -1,0 +1,152 @@
+{
+ "ticker": "AVB",
+ "cik": "0000915912",
+ "accession": "0000915912-26-000004",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [],
+   "paragraphs": [
+    "AvalonBay Communities, Inc. (the \"Company,\" \"we,\" \"our\" and \"us\" which terms, unless the context otherwise requires, refer to AvalonBay Communities, Inc. together with its subsidiaries), is a Maryland corporation that has elected to be treated as a real estate investment trust (\"REIT\") for federal income tax purposes. We develop, redevelop, acquire, own and operate apartment communities in New England, the New York/New Jersey metro area, the Mid-Atlantic, the Pacific Northwest, and Northern and Southern California, as well as in our expansion regions of Raleigh-Durham and Charlotte, North Carolina, Southeast Florida, Dallas and Austin, Texas, and Denver, Colorado. We use the term apartment communities to refer to properties that consist of apartment homes or townhomes or a combination of both. We focus on leading metropolitan areas that we believe have offered, and will continue to offer, the opportunity for superior risk-adjusted returns over the long-term on apartment community investments relative to other markets.",
+    "At January 31, 2026, we owned or held a direct or indirect ownership interest in:",
+    "•292 operating apartment communities containing 88,768 apartment homes in 11 states and the District of Columbia, of which 284 communities containing 86,374 apartment homes were consolidated for financial reporting purposes and eight communities containing 2,394 apartment homes were held by unconsolidated entities in which we hold an ownership interest.",
+    "•27 wholly-owned development apartment communities that are under construction or completed and in lease-up and are expected to contain an aggregate of 9,692 apartment homes when completed.",
+    "•Rights to develop an additional 33 communities that, if developed as expected, will contain 10,532 apartment homes.",
+    "We generally obtain ownership in an apartment community by developing a new community on either vacant land or land with improvements that we raze, or by acquiring an existing community. In selecting sites for development or acquisition, we favor locations that are near expanding employment centers and convenient to transportation, recreation areas, entertainment, shopping and dining.",
+    "Our principal financial goal is to increase long-term shareholder value through the development, redevelopment, acquisition, ownership, operation and asset management and, when appropriate, disposition of apartment communities in our markets. To help meet this goal, we regularly (i) monitor our investment allocation by geographic market and product type, (ii) develop, redevelop and acquire interests in apartment communities in our selected markets, (iii) efficiently operate our communities to maximize resident satisfaction and shareholder return, (iv) selectively sell apartment communities that no longer meet our long-term strategy or when opportunities are presented to realize a portion of the value created through our investment and redeploy the proceeds from those sales and (v) maintain a capital structure that we believe is aligned with our business risks and allows us to maintain continuous access to cost-effective capital. We also seek to generate additional shareholder value from investments in other real estate-related ventures, including through our Structured Investment Program (\"SIP\"), our platform to provide mezzanine loans or preferred equity to third-party apartment community developers in our existing regions. We undertake our development and redevelopment activities primarily through in-house development and redevelopment teams, and we buy and dispose of assets through our in-house investments platform. We believe that our organizational structure, which includes dedicated development and operational teams, and strong culture are key differentiators. We pursue our development, redevelopment, investment and operating activities with the purpose of \"Creating a Better Way to Live.\"",
+    "We seek to be the leading rental housing company in select U.S. markets by delivering distinctive experiences that customers value, creating a workplace where associates thrive, and achieving superior results for shareholders. We focus on markets that we believe are generally characterized by growing employment in high wage sectors of the economy, higher cost of home ownership, and a diverse and vibrant quality of life. From an operating perspective, we seek to deliver seamless, personalized experiences for our residents on an efficient and effective basis by our resident-focused on-site associates that are supported by our centralized shared services operating organization and flexible technology platform that incorporates automation and artificial intelligence (\"AI\"). We operate our apartment communities under four core brands:",
+    "•Avalon, our core \"Avalon\" brand, focuses on upscale apartment living and high end amenities and services;",
+    "•AVA targets customers in high-energy, transit-served neighborhoods and generally feature smaller apartments, many of which are designed for roommate living, and a variety of active common spaces that encourage socialization;",
+    "•eaves by Avalon is targeted to the cost conscious, \"value\" segment primarily in suburban areas; and",
+    "•Kanso is designed to create an apartment living experience that offers simplicity without sacrifice at a more moderate price point, featuring high-quality apartment homes, limited-to-no community amenities and a low-touch, largely self- service operating model that leverages technology and smart access.",
+    "We believe that this branding differentiation allows us to target our product offerings to multiple customer groups and submarkets within our existing geographic footprint.",
+    "During the three years ended December 31, 2025, we: •acquired 22 apartment communities, excluding unconsolidated investments;"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks related to investments through acquisitions, construction, development, and joint ventures",
+    "Risks related to liquidity and financing",
+    "Risks related to operations of our communities",
+    "Risks related to our REIT or tax status or reliance on various tax regulations",
+    "Risks that may not be insured in full or in part"
+   ],
+   "paragraphs": [
+    "Our operations involve various risks that could have adverse consequences, including those described below. This Item 1A. includes forward-looking statements. You should refer to our discussion of the qualifications and limitations on forward-looking statements in this Form 10-K.",
+    "Development, redevelopment and construction risks could affect our profitability. We intend to continue to develop and redevelop apartment communities which include apartment homes or townhomes or a combination of both. These activities can include long planning and entitlement timelines and can involve complex and costly activities, including significant environmental remediation or construction work in high-density urban areas. These activities may expose us to the following risks, among others:",
+    "•we have abandoned, and may in the future abandon, opportunities that we have already begun to explore for a number of reasons, including changes in local market conditions or increases in construction or financing costs or we may impair land held for development, and as a result, we may fail to recover expenses already incurred in exploring those opportunities;",
+    "•occupancy rates and rents at a community may fail to meet our original expectations for a number of reasons, including changes in market and economic conditions beyond our control and the development by competitors of competing communities;",
+    "•we may be unable to obtain, or experience delays in obtaining, necessary zoning, occupancy or other required governmental or third party permits and authorizations, which could result in increased costs, or the delay or abandonment of opportunities;",
+    "•we may incur costs that exceed our original estimates due to increased material, labor or other costs or supply chain disruptions, including as a result of tariffs or changes in immigration laws or their enforcement, which could impact our overall return from our development, redevelopment or construction activity;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "For the year ended December 31,",
+    "For the year ended",
+    "December 31, 2025",
+    "Residential revenue Average monthly revenue per occupied home Economic Occupancy (1)",
+    "2025 2024 2025 to 2024 2025 to 2024 2025 2024 2025 to 2024 2025 2024 2025 to 2024",
+    "$ Change % Change % Change % Change",
+    "January 31, 2026",
+    "rate (1) Principal",
+    "date Balance Outstanding (2) Scheduled Maturities",
+    "Debt 12/31/2024 12/31/2025 2026 2027 2028 2029 2030 Thereafter",
+    "Tax-exempt bonds",
+    "Conventional loans",
+    "Community name Location Apartment Homes Purchase price"
+   ],
+   "paragraphs": [
+    "Management's Discussion and Analysis of Financial Condition and Results of Operations (\"MD&A\") is intended to help provide an understanding of our business, financial condition and results of operations. This MD&A should be read in conjunction with our Consolidated Financial Statements and the accompanying Notes to Consolidated Financial Statements included elsewhere in this report. This report, including the following MD&A, contains forward-looking statements regarding future events or trends that should be read in conjunction with the factors described under \"Forward-Looking Statements\" included in this report. Actual results or developments could differ materially from those projected in such statements as a result of the factors described under \"Forward-Looking Statements\" as well as the risk factors described in Part I, Item 1A. \"Risk Factors\" of this report.",
+    "Capitalized terms used without definition have the meanings provided elsewhere in this Form 10-K.",
+    "Executive Overview 2025 Financial Highlights",
+    "Net income attributable to common stockholders for the year ended December 31, 2025 was $1,051,301,000, a decrease of $30,693,000, or 2.8%, from the prior year. The decrease was primarily attributable to an increase in depreciation expense from newly acquired or developed communities, a decrease in gains from real estate sales and increased interest expense, net over the prior year due to decreased interest income resulting from lower cash amounts invested at lower rates, increased commercial paper outstanding and increased effective interest expense for our unsecured indebtedness. These decreases were partially offset by increases in NOI from communities over the prior year.",
+    "Same Store NOI attributable to our apartment rental operations, including parking and other ancillary residential (\"Residential\") revenue, for the year ended December 31, 2025 was $1,860,407,000, an increase of $34,598,000, or 1.9%, over the prior year. The increase was due to an increase in Residential revenue of $66,107,000, or 2.5%, partially offset by an increase in Residential property operating expenses of $31,509,000, or 3.8%, over 2024.",
+    "During 2025, excluding the equity capital raised through forward sales of our common shares not yet settled, we raised approximately $2,253,402,000 of gross capital through the sale of wholly-owned real estate, the issuance of unsecured notes, the settlement of outstanding equity forward contracts entered into in 2024 and borrowings under a variable rate term loan (the \"Term Loan\"). We believe that our current capital structure will continue to provide financial flexibility to access capital on attractive terms.",
+    "We believe our portfolio management activity through dispositions, development and acquisitions will continue to create long-term value. During 2025, we:",
+    "•sold nine wholly-owned communities containing an aggregate of 2,102 apartment homes and 38,000 square feet of commercial space for $811,680,000;",
+    "•completed the construction of four wholly-owned communities containing an aggregate of 1,320 apartment homes and 32,000 square feet of commercial space for an aggregate total capitalized cost of $561,000,000;",
+    "•started the construction of eleven wholly-owned communities and expanded the development of two existing communities. These communities, including the expansions, are expected to contain an aggregate of 3,888 apartment homes when completed for an estimated total capitalized cost of $1,636,000,000;",
+    "•acquired 12 wholly-owned communities containing an aggregate of 3,378 apartment homes for an aggregate purchase price of $826,029,000; and",
+    "•acquired our joint venture partner's 50% interest in Avalon Alderwood Place, a 328 apartment home community in Lynnwood, WA, for a purchase price of $71,250,000. With the buyout of the joint venture partner's interest, Avalon Alderwood Place is now a wholly owned apartment community and consolidated for financial reporting purposes.",
+    "During 2025, we i) issued $800,000,000 principal amount of fixed rate unsecured notes, ii) repaid $825,000,000 principal amount of fixed rate unsecured notes, iii) entered into a $550,000,000 variable rate Term Loan, and iv) increased the borrowing capacity under our Credit Facility and Commercial Paper Program to $2,500,000,000 and $1,000,000,000, respectively.",
+    "We believe that our balance sheet strength, as measured by our current level of indebtedness, our current ability to service interest and other fixed charges, and our current moderate use of financial encumbrances (such as secured financing), provide us with adequate access to liquidity from the capital markets. We expect to be able to meet our reasonably foreseeable liquidity needs, as they arise, through a combination of one or more of the following sources: existing cash on hand; operating cash flows; the settlement of the outstanding equity forwards; borrowings under our Credit Facility and Commercial Paper Program; the issuance of corporate securities (which could include unsecured debt, preferred equity and/or additional common equity after considering the outstanding equity forwards); the sale of apartment communities; secured debt; or through the formation of joint ventures. See the discussion under \"Liquidity and Capital Resources.\""
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "paragraphs": [
+    "AvalonBay Communities, Inc. (the \"Company,\" \"we,\" \"our\" and \"us\" which terms, unless the context otherwise requires, refer to AvalonBay Communities, Inc. together with its subsidiaries), 是一間馬裏蘭州公司，已選擇被視為美國聯邦所得稅用途的不動產投資信託 (\"REIT\")。我們開發、重新開發、取得、擁有並營運位於新英格蘭地區、紐約/新澤西都會區、中大西洋地區、太平洋西北地區、北加州與南加州，以及我們擴張地區羅利-達勒姆與夏洛特，北卡羅來納州、佛羅裏達州東南部、德克薩斯州達拉斯與奧斯汀，以及科羅拉多州丹佛的公寓社區。我們使用 \"apartment communities\" 這個詞來指稱由公寓住宅或townhomes 或兩者組合而成的不動產。我們專注於我們認為能提供長期公寓社區投資相較於其他市場，具有優越風險調整回報的領先都會區。",
+    "於2026年1月31日，我們擁有或持有直接或間接的股權利益在：",
+    "•292個營運中的公寓社區，總共有88,768個公寓住宅，位於11個州與華盛頓特區，其中284個社區總共有86,374個公寓住宅已納入財務報導目的的合併，而8個社區總共有2,394個公寓住宅則由未合併的實體持有，我們持有這些實體的股權利益。",
+    "•27個完全-owned 的開發中或已完成並正在招租的公寓社區，預計完工後總共有9,692個公寓住宅。",
+    "•開發另外33個社區的權利，若按預期開發，這些社區將總共有10,532個公寓住宅。",
+    "我們通常透過開發新社區在空地或我們拆除已有改善設施的土地上，或透過取得現有社區來取得公寓社區的所有權。在選擇開發或取得的場地時，我們偏好位於擴張就業中心附近，且交通便利、接近休閒區、娛樂設施、購物與餐飲的地區。",
+    "我們的主要財務目標是透過開發、重新開發、取得、擁有、營運與資產管理公寓社區，並在適當的情況下處分這些社區，來增加長期股東價值。為達成此目標，我們定期 (i) 監測我們在地理市場與產品類型上的投資配置， (ii) 在我們選擇的市場中開發、重新開發與取得公寓社區的權益， (iii) 高效營運我們的社區以最大化住戶滿意度與股東回報， (iv) 選擇性出售不再符合我們長期策略或當有機會實現我們投資與重新開發所創造價值的公寓社區，並重新運用這些出售所得的資金，以及 (v) 保持我們認為與我們業務風險相符且能讓我們持續取得成本效益資金的資本結構。我們也透過投資其他與不動產相關的計畫，包括透過我們的結構化投資計畫 (\"SIP\")，我們的平台提供第三方公寓社區開發商在現有地區的中期貸款或優先股權益，來產生額外的股東價值。我們主要透過內部的開發與重新開發團隊進行開發與重新開發活動，並透過我們的內部投資平台買入與處分資產。我們認為我們的組織結構，包括專門的開發與營運團隊，以及強大的企業文化，是我們的關鍵差異點。我們進行開發、重新開發、投資與營運活動的目的是 \"創造更好的居住方式。\"",
+    "我們致力於成為美國特定市場中領先的租賃住宅公司，透過提供顧客珍視的獨特體驗、建立讓員工蓬勃發展的工作環境，以及為股東創造優越的成果。我們專注於我們認為通常具備高薪資產業就業成長、住宅擁有成本較高，以及多樣化且活躍的生活品質的市場。從營運角度而言，我們致力於透過我們專注於住戶的現場員工，並由我們中央化的共享服務營運組織與靈活的科技平台（包含自動化與人工智慧 (\"AI\")）支援，以高效且有效的方式提供順暢且個性化的住戶體驗。我們在四個核心品牌下營運我們的公寓社區：",
+    "•Avalon，我們的核心 \"Avalon\" 品牌，專注於高檔公寓住宅與高階設施與服務；",
+    "•AVA 面向高活躍度、捷運服務的社區客羣，通常為較小的公寓，許多為合租設計，並提供多樣化的活潑公共空間以促進社交；",
+    "•eaves by Avalon 面向注重成本效益的 \"價值\" 段位，主要為郊區地區；且",
+    "•Kanso 設計為提供簡約而不犧牲品質的公寓生活體驗，價格較為中等，特色為高品質公寓住宅、有限至無社區設施，以及低接觸、以自助服務為主的營運模式，並運用科技與智慧存取技術。",
+    "我們認為這種品牌差異化使我們能夠針對現有地理範圍內的多個客羣與次市場，提供產品組合；",
+    "在截至 2025 年 12 月 31 日的三年期間，我們： •取得 22 個公寓社區，不包括未合併投資；"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "會計年度終了於12月31日",
+    "會計年度終了於",
+    "12月31日, 2025",
+    "住宅營業收入 平均每月每戶營收 經濟佔用率 (1)",
+    "2025 2024 2025至2024 2025至2024 2025 2024 2025至2024 2025 2024 2025至2024",
+    "$ 變動 % 變動 % 變動 % 變動",
+    "2026年1月31日",
+    "利率 (1) 主要",
+    "日期 欠款餘額 (2) 計劃償還日",
+    "債務 12/31/2024 12/31/2025 2026 2027 2028 2029 2030 以後",
+    "免稅債券",
+    "常規貸款",
+    "社區名稱 位置 公寓住宅 購買價格"
+   ],
+   "paragraphs": [
+    "管理階層對於財務狀況與營運成果之討論與分析（\"MD&A\"）旨在協助瞭解本公司之業務、財務狀況與營運成果。本MD&A應與本公司合併財務報表及附註說明一併閱讀，此報告，包括以下MD&A，包含有關未來事件或趨勢之預測性陳述，應與本報告中所列\"預測性陳述\"部分所述因素一併閱讀。實際結果或發展可能與預測性陳述中所預期者有重大差異，原因包括本報告中\"預測性陳述\"部分所述因素，以及第一部分第1A項所述風險因素。",
+    "未經定義之專有名詞，其含義於本Form 10-K其他部分提供。",
+    "執行摘要 2025財務重點",
+    "截至2025年12月31日止之年度，歸屬於普通股股東之淨收入為1,051,301,000美元，較前一年減少30,693,000美元，或2.8%。此減少主要係因新取得或開發之社區之折舊費用增加、房地產銷售獲利減少，以及淨利息費用較前一年增加，此為因投資金額減少且利率較低所致，商業紙幣發行額增加，以及未擔保債務之有效利息費用增加所致。這些減少部分因社區之NOI增加而抵銷。",
+    "截至2025年12月31日止之年度，歸屬於公寓租賃營運之相同社區NOI，包括停車與其他附屬住宅（\"住宅\"）收入，為1,860,407,000美元，較前一年增加34,598,000美元，或1.9%。此增加係因住宅收入增加66,107,000美元，或2.5%，部分抵銷因住宅財產營運費用增加31,509,000美元，或3.8%，較2024年增加。",
+    "2025年，扣除尚未結算之普通股發行權證所籌得之權益資本，本公司透過出售全資擁有之房地產、發行未擔保債券、結算2024年所訂立之未結 equity forward contracts，以及變動利率貸款（\"貸款\"）之借款，籌得約2,253,402,000美元之總資本。本公司認為，目前之資本結構將持續提供財務彈性，以取得具吸引力之資金條件。",
+    "本公司相信，透過處分、開發與收購之資產管理活動，將持續創造長期價值。2025年，本公司：",
+    "•出售九個全資擁有之社區，總計包含2,102間公寓住宅與38,000平方英尺之商業空間，總計獲售價811,680,000美元；",
+    "•完成興建四處全資擁有社區，總計包含1,320戶公寓與32,000平方英呎商業空間，總計資本化成本為561,000,000美元;",
+    "•開始興建十一處全資擁有社區，並擴展兩處現有社區的開發。這些社區，包括擴建部分，預計在完工時總計包含3,888戶公寓，總計預估資本化成本為1,636,000,000美元;",
+    "•取得十二處全資擁有社區，總計包含3,378戶公寓，總計購置價格為826,029,000美元; 和",
+    "•取得我們合資夥伴的50%權益，位於華盛頓州林伍德的Avalon Alderwood Place社區，該社區包含328戶公寓，購置價格為71,250,000美元。透過買斷合資夥伴的權益，Avalon Alderwood Place社區現為全資擁有公寓社區，並已納入財務報導範疇。",
+    "2025年，我們i)發行800,000,000美元固定利率無擔保票據，ii)償還825,000,000美元固定利率無擔保票據，iii)簽訂550,000,000美元變動利率過橋貸款，iv)將我們信貸融資及商業紙鈔計畫的借款能力提高至2,500,000,000美元及1,000,000,000美元，分別。",
+    "我們認為，我們的資產負債表強度，以目前的負債水平、目前的利息及其他固定費用償付能力，以及目前適度使用財務擔保（如擔保融資），使我們有足夠的流動性來自資本市場。我們預期能透過以下一個或多個來源組合，來應對合理可預見的流動性需求：現金結餘；營運現金流；未結清的股票遠期契約結算；信貸融資及商業紙鈔計畫下的借款；發行公司證券（可能包括無擔保債務、優先股及/或額外普通股，考慮到未結清的股票遠期契約）；出售公寓社區；擔保債務；或透過設立合資企業。請參閱\"流動性及資本資源\"部分的討論。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與透過收購、建設、開發及合資企業進行投資相關之風險",
+    "與流動性及融資相關之風險",
+    "與我們社區營運相關之風險",
+    "與我們之REIT或稅務地位或依賴各項稅務規範相關之風險",
+    "可能未獲得全部或部分保險之風險"
+   ],
+   "paragraphs": [
+    "本公司營運涉及多種風險，這些風險可能導致不利後果，包括下列所述風險。本項目1A包含前瞻性陳述。您應參閱本Form 10-K中本公司對前瞻性陳述之限制與條件之說明。",
+    "開發、重建與建設風險可能影響本公司之獲利能力。本公司意圖持續開發與重建包含公寓住宅或聯排住宅或兩者結合之社區。這些活動可能包含長時間之規劃與許可程序，且可能涉及複雜且成本高昂之活動，包括在高密度都市地區進行重大環境整治或建設工程。這些活動可能使本公司面臨下列風險，但不限於：",
+    "•本公司已放棄，且可能在未來放棄已開始探討之機會，原因包括當地市場條件變動或建設或融資成本增加，或本公司可能對開發中之土地減值，因此可能無法彌補已支出之探討費用；",
+    "•社區之入住率與租金可能未達本公司原先預期，原因包括市場與經濟條件之變動超出本公司控制範圍，以及競爭對手開發之競爭社區；",
+    "•本公司可能無法取得，或遭遇延宕取得必要之使用權、佔用許可或其他所需政府或第三方許可與授權，這可能導致成本增加，或機會之延宕或放棄；",
+    "•本公司可能因材料、人工或其他成本增加或供應鏈中斷而產生成本高於原先預估之情況，包括因關稅或移民法規及其執行之變動所致，這可能影響本公司整體開發、重建或建設活動之回報；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

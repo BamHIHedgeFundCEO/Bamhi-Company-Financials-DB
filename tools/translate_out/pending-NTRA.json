@@ -1,0 +1,213 @@
+{
+ "ticker": "NTRA",
+ "cik": "0001604821",
+ "accession": "0001104659-26-020881",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Solution",
+    "Women's Health",
+    "Organ Health",
+    "Constellation",
+    "Commercial Capabilities",
+    "Enhanced User Experience",
+    "Phlebotomy Services",
+    "EMR Integration",
+    "Patient Affordability and Access Programs",
+    "Genetic Counselor Resources",
+    "Intellectual Property",
+    "Reimbursement",
+    "Government Regulations"
+   ],
+   "paragraphs": [
+    "Note: A glossary of terms used in this Form 10-K appears at the end of this Item 1. Overview",
+    "We are a diagnostics company with proprietary molecular and bioinformatics technology that we are applying to change disease management worldwide. Our cell-free DNA, or cfDNA, technology combines our novel molecular assays, which reliably measure many informative regions across the genome from samples as small as a single cell, with our statistical algorithms that incorporate data available from the broader scientific community to identify genetic variations covering a wide range of serious conditions with high accuracy and coverage. We aim to make personalized genetic testing and diagnostics part of the standard of care to protect health and inform earlier and provide more targeted interventions that help lead to longer, healthier lives.",
+    "We focus on applying our technology to three main areas of healthcare – oncology, women's health, and organ health. Since 2009, we have launched a comprehensive suite of products to improve patient care outcomes in these areas. In oncology, we commercialize personalized blood-based DNA tests designed to optimize therapy decisions from diagnosis to survivorship. In the women's health space, we develop and commercialize non- or minimally- invasive tests to support a range of women's health needs, from prenatal testing to hereditary cancer screening. In organ health, we offer tests to assess kidney, heart, and lung transplant rejection as well as genetic testing for chronic kidney disease. We intend to continue to enhance our existing products, expand our product portfolio, and launch new products in the future. In addition to our direct sales force in the United States, we have a global network of over 100 laboratory and distribution partners, including several of the largest international laboratories. We are committed to generating peer-reviewed clinical evidence for our tests, with over 350 peer-reviewed publications as of December 31, 2025, and to maintaining a strong intellectual property portfolio, with over 650 issued or pending patents as of December 31, 2025.",
+    "Our revenues were $2,306.1 million in 2025 compared to $1,696.9 million in 2024 and $1,082.6 million in 2023. Our product revenues were $2,295.8 million, $1,685.1 million, and $1,068.5 million for the years ended December 31, 2025, 2024, and 2023, respectively. Our net losses increased to $208.2 million in 2025, from $190.4 million in 2024 and decreased from $434.8 million in 2023. We processed approximately 3.5 million tests in 2025, compared to approximately 3.1 million tests in 2024 and 2.5 million tests in 2023.",
+    "We are headquartered in Austin, Texas, with laboratory facilities located in Austin, Texas, San Carlos, California and Boulder, Colorado.",
+    "In oncology, women's health, and organ health, the use of blood-based tests offers significant advantages over older and more invasive methods, but the significant technological challenge is that such testing often requires the measurement of very small amounts of relevant genetic material – tumor DNA in oncology, fetal DNA in reproductive health, and donor DNA in transplant rejection – circulating within a much larger blood sample. Our approach combines proprietary molecular biology and computational techniques to measure genomic variations in tiny amounts of DNA, as small as a single cell. Our core technology has, to date, been proven across these three diverse fields of oncology, women's health, and organ health.",
+    "DNA is the molecule that carries genetic information in an organism. Differences in the specific sequence and structure of the chemical building blocks, or bases, that make up DNA drive biological diversity, including genetic mutations; with certain variations causing disease. An example of genetic diversity is a change in a single chemical base. When single base changes are common in the population, that position on the chromosome is called a single nucleotide polymorphism, or SNP.",
+    "Our molecular biology techniques are based on measuring thousands of SNPs simultaneously, using massively multiplexed polymerase chain reaction, or mmPCR, to multiplex, or target, many thousands of regions of the genome simultaneously in a single test reaction. Our method avoids losing molecules, which can happen when samples are split into separate reaction tubes, so that all relevant variants can be detected. To make sense of the resulting deep and rich set of biological data and deliver a test result, we have developed computationally intensive algorithms that combine the data generated by mmPCR with our internal databases and the vast and growing sources of publicly available genomic information to build highly detailed models of the genomic regions of interest. Our technologies allow us to achieve a high signal-to-noise ratio when detecting fragments of DNA at frequencies as low as a single copy, which allows us to deliver tests with a high degree of specificity and sensitivity. Furthermore, our tests can be applied to assess a range of conditions and disease types, including a broad range of cancer types; common fetal aneuploidies, microdeletions, triploidy, and inherited genetic conditions that could be passed on from parent to child; rejection of heart, lung, and kidney transplants; and genetic bases of kidney disease.",
+    "We believe our approach represents a fundamental advance in molecular biology. For example, in oncology, with our Signatera circulating tumor DNA, or ctDNA, test that is custom designed for, informed by and specific to the tumor DNA for each patient, we have demonstrated the ability to detect ctDNA with a high degree of sensitivity and specificity. In women's health, our approach is distinct from the approach employed with other commercially available NIPTs, which use first-generation \"quantitative\", or counting, methods to compare the relative number of sequence reads from a chromosome of interest to a reference chromosome. Based on data published in journals including Obstetrics & Gynecology, American Journal of Obstetrics & Gynecology, and Prenatal Diagnosis, we believe Panorama is the most accurate NIPT commercially available in the United States. In organ health, we have demonstrated the ability of our technology to measure the fraction of cell-free DNA that is donor-derived, or dd-cfDNA, which is DNA that is shed from a transplanted organ into circulation, each demonstrating a high area under the curve, or AUC, in validation studies in each of heart, lung, and kidney.",
+    "Our technology is compatible with standard equipment used globally and a range of next generation sequencing, or NGS, platforms, and we have optimized our algorithms to enable laboratories around the world to run tests locally and access our algorithms in the cloud using our Constellation platform. We sell our tests directly and partner with other clinical laboratories to distribute our tests globally. Currently, all of our products other than our Constellation cloud software product are laboratory developed tests, or LDTs. We perform commercial testing in our CLIA-certified laboratories.",
+    "In oncology, we have been initially focused on detecting molecular residual disease, or MRD, and recurrence monitoring in solid tumors, where we have generated data in over a dozen different cancer types and have published data in, among others, colorectal, bladder, breast, and lung cancer, as well as multiple myeloma and other tumor types. Molecular residual disease is the presence of small traces of cancer in the blood, such as ctDNA or microscopic pieces of tumor DNA that are often undetectable with standard imaging techniques. If left untreated, residual cancer cells can multiply and cause recurrence. MRD testing and molecular monitoring offers the potential for physicians to change or escalate treatment in patients who are MRD-positive, and to de-escalate or avoid unnecessary treatment in patients who are MRD-negative. It also holds potential as a surrogate endpoint in clinical trials.",
+    "In December 2025, we acquired Foresight Diagnostics, a cancer diagnostics company whose ctDNA-based MRD tests leverage patented technology that targets phased variants. Phased variants are multiple genetic mutations that occur on the same DNA molecule; targeting phased variants has been shown to achieve test performance with a limit of detection, or LOD, 95 of 0.3 parts per million and detection below 0.1 part per million. In addition, with the acquisition, we have expanded our focus to include lymphoma.",
+    "The total addressable market in the United States for recurrence monitoring for solid tumor cancers, including immunotherapy treatment response monitoring, is estimated to be approximately $21 billion, and for blood cancers is estimated to be approximately $3 billion.",
+    "We are also leveraging our experience in MRD assay development to research, develop and clinically validate an early cancer detection test, with an initial focus on colorectal cancer."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business and Industry",
+    "We have incurred net losses since our inception and we anticipate that we will continue to incur losses for the near future, which could harm our future business prospects.",
+    "Uncertainty in the development and commercialization of our enhanced or new tests or services could materially adversely affect our business, financial condition and results of operations.",
+    "Our quarterly results may fluctuate from period to period, which could adversely impact the value of our common stock.",
+    "Competition in our industry is intense; if we are unable to compete successfully with respect to our current or future products or services, we may be unable to increase or sustain our revenues or achieve profitability.",
+    "We rely on internal and third-party data centers and platforms to host our laboratory and cloud-based software, and any interruptions of service or failures may impair our operations and harm our business.",
+    "If our products do not perform as expected, our operating results, reputation and business will suffer.",
+    "We rely on third-party laboratories to perform portions of our service offerings.",
+    "If our CLIA-certified laboratory facilities become inoperable, we will be unable to perform our tests and our business will be harmed.",
+    "We rely on commercial courier delivery services to transport samples to our facilities in a timely and cost-efficient manner and if these delivery services are disrupted, our business may be harmed.",
+    "We are incorporating artificial intelligence across various areas of our business, which presents risks that could adversely affect our business and results of operations.",
+    "The marketing, sale, and use of our tests could result in substantial damages arising from product liability, professional liability, or other claims that exceed our resources.",
+    "If we are unable to successfully scale our operations, our business could suffer."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. You should consider carefully the risks and uncertainties described below, together with all of the other information in this report, including the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and our consolidated financial statements and related notes, before investing in our common stock. The risks and uncertainties described below are not the only ones we face. If any of the following risks actually occurs, our business, financial condition, results of operations and prospects could be materially and adversely affected. In that event, the price of our common stock could decline and you could lose part or all of your investment.",
+    "If we are unable to successfully grow revenues for our products or services, and if our efforts to further increase the use and adoption of our products or to develop new products and services in the future do not succeed, our business will be harmed.",
+    "Our ability to successfully grow revenues for our products and services is uncertain and subject to many risks, as further described in these Risk Factors. In particular, the significant majority of our revenues are derived from sales of our Panorama NIPT, our Horizon carrier screening, or HCS, test, and our Signatera test, and we expect this to continue to be the case for the foreseeable future. As such, any adverse impact we experience with respect to these tests could result in an impact to our overall revenues, or a component of such overall revenues. For example, a decline in our reimbursement rates for, and therefore our average selling price of, Horizon, could result in a decline in our overall blended average selling price.",
+    "Continued and additional market demand for our tests, and reimbursement for our tests, particularly for NIPT for the average-risk population and for microdeletions, are key elements to our future success. The market demand for NIPTs, carrier screening tests and our other tests continue to evolve. We cannot guarantee that physicians will recommend and order our tests, and our laboratory distribution partners and licensees may not actively or effectively market our tests. Our ability to increase sales and establish significant levels of adoption and reimbursement for our tests is uncertain, and it may be challenging for us to achieve profitability for many reasons, including, among others:",
+    "the market for our tests may not grow as we expect; in particular, NIPTs may not gain acceptance for use as a screen for microdeletions, which would limit the market for Panorama, and we may fail to compete successfully in this market, whatever its size;",
+    "if we are unable to demonstrate that our tests are superior to competing tests, laboratories, clinics, clinicians, physicians, payers and patients may not adopt the use of our tests on a broad basis, and may not be willing to pay the price premium over competing tests that we have, to date, been able to achieve;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Components of the Results of Operations",
+    "Critical Accounting Policies",
+    "Product Revenues",
+    "Stock-Based Compensation Attributable to Performance-Based Awards",
+    "Valuation of Intangible Assets Acquired in a Business Combination",
+    "Recent Accounting Pronouncements",
+    "Results of Operations",
+    "Comparison of the years ended December 31, 2025, 2024, and 2023",
+    "Year Ended December 31,",
+    "Cost and expenses:",
+    "Loss from operations",
+    "Liquidity and Capital Resources",
+    "Credit Line Agreement",
+    "Convertible Notes",
+    "December 31,",
+    "Cash Provided by (Used in) Operating Activities",
+    "Cash (Used in) Provided by Investing Activities",
+    "Cash Provided by Financing Activities",
+    "Contractual Obligations and Other Commitments",
+    "Payments Due by Period",
+    "Off-Balance Sheet Arrangements"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations in conjunction with our consolidated financial statements and related notes included in Part II, Item 8 of this report. This discussion contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those discussed below. Factors that could cause or contribute to such differences include, but are not limited to, those identified below and those discussed in \"Risk Factors\" included elsewhere in this report.",
+    "We are a diagnostics company with proprietary molecular and bioinformatics technology that we are applying to change disease management worldwide. Our cell-free DNA, or cfDNA, technology combines our novel molecular assays, which reliably measure many informative regions across the genome, from samples as small as a single cell, with our statistical algorithms that incorporate data available from the broader scientific community to identify genetic variations, covering a wide range of serious conditions with high accuracy and coverage. We aim to make personalized genetic testing and diagnostics part of the standard of care to protect health and inform earlier and provide more targeted interventions that help lead to longer, healthier lives.",
+    "We provide a comprehensive suite of products to improve patient care outcomes in three main areas of healthcare – oncology, women's health, and organ health. We generate the majority of our revenues from the sale of Panorama, our non-invasive prenatal test (\"NIPT\") and Horizon, our genetic carrier screening test. In addition to Panorama, our product offerings in women's health include Fetal Focus, our noninvasive prenatal test for single-gene inherited conditions, Vistara, our single-gene NIPT that screens for conditions that may affect quality of life, and Anora, our test to help determine underlying reasons for occurrence of miscarriage, and Empower, our hereditary cancer screening test which we also offer through our oncology sales channel. In oncology, we offer Signatera, our personalized ctDNA blood test for MRD assessment, early recurrence monitoring, and evaluation of treatment response in patients previously diagnosed with cancer. We also offer Latitude, our blood-based MRD test for colorectal cancer that does not require a tumor tissue sample, as well as Altera, a comprehensive genomic profiling test to support treatment decisions and therapy selection.",
+    "We process tests in our laboratories certified under the Clinical Laboratory Improvement Amendments of 1988, or CLIA, primarily in Austin, Texas and San Carlos, California; our laboratory in Boulder, Colorado performs clinical trials testing. A portion of our testing is performed by third-party laboratories. Our customers include independent laboratories, national and regional reference laboratories, medical centers and physician practices for our screening tests, and research laboratories and pharmaceutical companies. We market and sell our tests through our direct sales force and, for our women's health tests, through our laboratory distribution partners. We bill clinics, laboratory distribution partners, patients, pharmaceutical companies and insurance payers for the tests we perform. In cases where we bill laboratory distribution partners, our partners in turn bill clinics, patients and insurers. The majority of our revenue comes from insurers with whom we have in-network contracts. Such insurers reimburse us for our tests pursuant to our in-network contracts with them, based on positive coverage determinations, which means that the insurer has determined that the test in general is medically necessary for this category of patient.",
+    "In addition to offering tests to be performed at our laboratories, either directly or through our laboratory distribution partners, we also establish licensing arrangements with laboratories under Constellation, our cloud-based distribution model, whereby our laboratory licensees run the molecular workflows themselves and then access our bioinformatics algorithms through our cloud-based software. This cloud-based distribution model results in lower revenues and gross profit per test than cases in which we process a test ourselves; however, because we do not incur the costs of processing the tests, our costs per test under this model are also lower.",
+    "The principal focus of our commercial operations is to offer our tests through both our direct sales force and laboratory distribution partners, and our Constellation licensees under our cloud-based distribution model. The number of tests that we accession is a key indicator that we use to assess our business. A test is accessioned when we receive the test at our laboratory, the relevant information about the test is entered into our computer system, and the test sample is routed into the appropriate workflow. This number is a subset of the number of tests that we process, which includes tests distributed through our Constellation licensees. The number of tests that we process is a key metric as it tracks overall volume growth, particularly as our laboratory partners may transition from sending samples to our laboratory to our cloud-based distribution model, as a result of which our tests accessioned would decrease but our tests processed would remain unchanged.",
+    "During the year ended December 31, 2025, we processed approximately 3,525,500 tests, comprised of approximately 3,468,700 tests accessioned in our laboratories. During the year ended December 31, 2024, we processed approximately 3,064,600 tests, comprised of approximately 3,001,900 tests accessioned in our laboratories. During the year ended December 31, 2023, we processed approximately 2,496,100 tests, comprised of approximately 2,426,500 tests accessioned in our laboratories. This increase in volume primarily represents continued commercial growth of Signatera, Panorama and Horizon, both as tests performed in our laboratories as well as through our Constellation software platform.",
+    "The percent of our revenues attributable to our U.S. direct sales force were 95%, 94% and 91% for the years ended December 31, 2025, 2024, and 2023, respectively. The percent of our revenues attributable to U.S. laboratory partners for the years ended December 31, 2025, 2024, and 2023, was 3%, 4% and 6%, respectively. Our ability to increase our revenues and gross profit will depend on our ability to further penetrate the U.S. market with our direct sales force. The percent of our revenues attributable to international laboratory partners and other international sales was 2%, 2% and 3% for the years ended December 31, 2025, 2024 and 2023, respectively.",
+    "For the year ended December 31, 2025, total revenues were $2,306.1 million, compared to $1,696.9 million and $1,082.6 million in the years ended December 31, 2024 and 2023, respectively. Product revenues generated from our testing accounted for $2,295.8 million or nearly 100% of total revenues for the year ended December 31, 2025, compared to $1,685.1 million or 99% of total revenues for the year ended December 31, 2024 and $1,068.5 million or 99% of total revenues for the year ended December 31, 2023. For the years ended December 31, 2025, 2024, and 2023, there were no customers exceeding 10% of the total revenues on an individual basis. Revenues from customers outside the United States were $41.8 million, representing 2% of total revenues for the year ended December 31, 2025. For the year ended December 31, 2024, revenues from customers outside the United States were $39.2 million, representing approximately 2% of total revenues. For the year ended December 31, 2023, revenues from customers outside the United States were $34.9 million, representing approximately 3% of total revenues. Most of our revenues have been denominated in U.S. dollars, though we generate some revenue in foreign currency, primarily denominated in Euros and Singapore Dollars.",
+    "Our net losses for the years ended December 31, 2025, 2024, and 2023, were $208.2 million, $190.4 million, and $434.8 million, respectively. This included non-cash stock compensation expense of $354.4 million, $274.4 million, and $191.8 million for the years ended December 31, 2025, 2024, and 2023, respectively. As of December 31, 2025, we had an accumulated deficit of $2.8 billion.",
+    "The section of this Management's Discussion and Analysis generally discusses year-to-year comparisons between 2025 and 2024. Discussions of year-to-year comparisons between 2024 and 2023 that are not included in this Annual Report on Form 10-K can be found in \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in Item 7 of Part II of our Annual Report on Form 10-K for the fiscal year ended December 31, 2024, filed with the SEC on February 27, 2025.",
+    "We generate revenues from the sale of our tests, primarily from the sale of our Signatera, Panorama and HCS tests. Our two primary distribution channels are our direct sales force and our laboratory partners. In cases where we promote our tests through our direct sales force, we generally bill directly to a patient, clinic or insurance carrier, or a combination of the insurance carrier and patient, for the fees.",
+    "Sales of our clinical tests are recorded as product revenues. Revenues recognized from tests processed through our Constellation model, and from our strategic partnership agreements, are reported in licensing and other revenues.",
+    "In cases where we sell our tests through our laboratory partners, the majority of our laboratory partners bill the patient, clinic or insurance carrier for the performance of our tests, and we are entitled to either a fixed price per test or a percentage of their collections."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Our Solution': 'Our Solution'}",
+    "{\"Women's Health\": \"Women's Health\"}",
+    "{'Organ Health': 'Organ Health'}",
+    "{'Constellation': 'Constellation'}",
+    "{'Commercial Capabilities': 'Commercial Capabilities'}",
+    "{'Enhanced User Experience': 'Enhanced User Experience'}",
+    "{'Phlebotomy Services': 'Phlebotomy Services'}",
+    "{'EMR Integration': 'EMR Integration'}",
+    "患者負擔與取得計畫",
+    "遺傳諮詢資源",
+    "智慧財產權",
+    "給付",
+    "政府規範"
+   ],
+   "paragraphs": [
+    "注意：本 Form 10-K 所使用之術語詞彙表，請參閱本項目 1. 總覽末尾",
+    "本公司為一診斷公司，擁有專屬的分子及生物資訊技術，並應用於改變全球疾病管理方式。我們的 cell-free DNA，或 cfDNA，技術結合我們的創新分子檢測方法，該方法能可靠地從僅單一細胞的樣本中測量許多資訊性區域，並搭配我們的統計演算法，整合來自廣泛科學社羣的資料，以高準確度與覆蓋率識別涵蓋廣泛嚴重疾病的遺傳變異。我們的目標是讓個人化遺傳檢測與診斷成為標準照護的一部分，以保護健康、提供更早且更具針對性的幹預措施，協助延長更健康的壽命。",
+    "我們專注於將我們的技術應用於醫療保健的三個主要領域 – 腫瘤學、婦女健康與器官健康。自 2009 年以來，我們已推出一套完整的產品，以改善這些領域的患者照護結果。在腫瘤學方面，我們商業化個人化血液基質 DNA 檢測，以優化從診斷至存活期的治療決策。在婦女健康領域，我們開發並商業化非侵入性或微侵入性檢測，以支持婦女健康需求，從產前檢測到遺傳性癌症篩檢。在器官健康方面，我們提供檢測以評估腎臟、心臟與肺臟移植排斥，以及慢性腎臟病的遺傳檢測。我們意圖持續改善現有產品、擴充產品組合，並未來推出新產品。除了美國的直接銷售團隊，我們還擁有超過 100 家實驗室與分銷夥伴的全球網路，包括數家國際最大實驗室。我們致力於為我們的檢測產生經過同儕審查的臨牀證據，截至 2025 年 12 月 31 日，已發表超過 350 篇同儕審查論文，並維持強大的智慧財產權組合，截至 2025 年 12 月 31 日，已取得或待審的專利超過 650 件。",
+    "我們的營業收入為 2025 年 23.061 億美元，較 2024 年的 16.969 億美元與 2023 年的 10.826 億美元有所成長。我們的產品收入為 2025 年 22.958 億美元、2024 年 16.851 億美元與 2023 年 10.685 億美元。我們的淨虧損增至 2025 年的 2.082 億美元，較 2024 年的 1.904 億美元有所增加，但較 2023 年的 4.348 億美元減少。我們在 2025 年處理了約 350 萬項檢測，較 2024 年的約 310 萬項與 2023 年的 250 萬項有所成長。",
+    "本公司總部設於德克薩斯州奧斯汀，實驗室設於德克薩斯州奧斯汀、加州聖卡洛斯與科羅拉多州鮑德爾。",
+    "在腫瘤學、婦女健康與器官健康領域，使用血液基質檢測相比較舊且更具侵入性的方法，具有顯著優勢，但技術上的重大挑戰在於，這種檢測通常需要測量極小量的相關遺傳物質 – 腫瘤 DNA 在腫瘤學、胎兒 DNA 在生殖健康、以及捐贈者 DNA 在移植排斥中 – 循環於較大的血液樣本中。我們的技術結合專屬的分子生物學與計算技術，以測量極小量的 DNA 中的基因組變異，小至單一細胞。我們的核心技術至今已在這三個不同的領域 – 腫瘤學、婦女健康與器官健康 – 得到驗證。",
+    "DNA 是攜帶生物體遺傳資訊的分子。遺傳資訊中化學構建塊，或稱為鹼基，的特定序列與結構差異驅動生物多樣性，包括遺傳變異；某些變異會導致疾病。遺傳多樣性的一個例子是單一化學鹼基的改變。當單一鹼基變異在人羣中常見時，該位置在染色體上被稱為單一核苷酸多態性，或 SNP。",
+    "我們的分子生物學技術基於同時測量數千個 SNP，使用大規模多重聚合酶鏈反應，或 mmPCR，以多重化或目標化同時測試數千個基因組區域。我們的方法避免了在樣本分為不同反應管時可能遺失分子，因此可以檢測所有相關變異。為瞭解釋由此產生的深度且豐富的生物資料並提供檢測結果，我們開發了計算密集型的演算法，將 mmPCR 產生的資料與我們的內部資料庫以及廣泛且持續增長的公開基因組資訊結合，以建立高度詳細的目標基因組區域模型。我們的技術使我們能夠在檢測頻率低至單一拷貝時實現高訊號對噪音比，這使我們能夠提供高特異性與靈敏度的檢測。此外，我們的檢測可以應用於評估多種條件與疾病類型，包括廣泛的癌症類型；常見的胎兒染色體異常、微缺失、三倍體以及可能從父母傳給子代的遺傳疾病；心臟、肺臟與腎臟移植排斥；以及腎臟疾病的遺傳基礎。",
+    "我們認為我們的作法代表分子生物學領域的根本進步。例如，在腫瘤學領域，我們的 Signatera 循環腫瘤 DNA，或 ctDNA，測試是根據每位病患的腫瘤 DNA 進行客製設計、受資訊啟示且專門針對該 DNA，我們已證明能夠以高度的靈敏度和特異性來檢測 ctDNA。在婦女健康領域，我們的作法與其他市售 NIPTs 所使用的第一代「定量」，或計數，方法不同，這些方法是透過比較目標染色體與參考染色體的序列讀取數量來進行。根據發表於《Obstetrics & Gynecology》、《American Journal of Obstetrics & Gynecology》和《Prenatal Diagnosis》等期刊的資料，我們相信 Panorama 是美國市售最準確的 NIPTs。在器官健康領域，我們已證明我們的技術能測量來自移植器官並進入循環的細胞遊離 DNA 的比例，或 dd-cfDNA，這是一種 DNA，每項在心臟、肺臟和腎臟的驗證研究中均顯示高曲線下面積，或 AUC。",
+    "我們的技術與全球使用的標準設備及一系列次世代定序，或 NGS，平台相容，我們已優化演算法，使世界各地的實驗室能於地端執行測試並透過我們的 Constellation 平台存取我們的演算法。我們直接銷售測試，並與其他臨牀實驗室合作，將測試推廣至全球。目前，我們的所有產品除 Constellation 雲端軟體產品外，皆為實驗室自發展測試，或 LDTs。我們在 CLIA 認證實驗室進行商業測試。",
+    "在腫瘤學領域，我們最初專注於檢測分子殘留疾病，或 MRD，以及實體腫瘤的復發監測，我們已在超過十二種不同的癌症類型中產生資料，並在結腸直腸癌、膀胱癌、乳癌、肺癌，以及多發性骨髓瘤及其他腫瘤類型中發表資料。分子殘留疾病是指血液中存在微量的癌細胞，例如 ctDNA 或微觀的腫瘤 DNA，這些通常無法透過標準影像技術偵測到。若未經治療，殘留癌細胞可能增殖並導致復發。MRD 測試和分子監測為醫師提供潛在的機會，可在 MRD 呈陽性患者中改變或加強治療，在 MRD 呈陰性患者中減少或避免不必要的治療。它也具有作為臨牀試驗中替代終點的潛力。",
+    "2025 年 12 月，我們收購了 Foresight Diagnostics，這是一家癌症診斷公司，其基於 ctDNA 的 MRD 測試利用專利技術，針對相位變異。相位變異是指同一 DNA 分子上發生的多種基因變異；針對相位變異已被證明能達到測試表現，其檢測極限，或 LOD，為 0.3 萬分之一，並能檢測低於 0.1 萬分之一的水平。此外，透過此次收購，我們已擴展重點至包含淋巴瘤。",
+    "美國在實體腫瘤癌症復發監測，包括免疫治療反應監測的總可達市場，估計約為 21 億美元，而在血液癌症的總可達市場估計約為 3 億美元。",
+    "我們也正在利用在 MRD 檢測試劑開發方面的經驗，研究、開發並臨牀驗證早期癌症檢測測試，初期重點為結腸直腸癌。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果之組成項目",
+    "關鍵會計政策",
+    "產品營收",
+    "與績效獎勵相關之股票基於報酬",
+    "於企業合併中取得之無形資產之評價",
+    "最近會計準則公告",
+    "營運成果",
+    "比較截至2025年12月31日、2024年12月31日及2023年12月31日之年度",
+    "會計年度終了於12月31日",
+    "成本及費用:",
+    "營運虧損",
+    "流動性及資本資源",
+    "信用線協議",
+    "可轉換票據",
+    "12月31日",
+    "營運活動所提供之現金（使用現金）",
+    "現金（用於）投資活動所產生之現金流入",
+    "融資活動所產生之現金流入",
+    "契約義務及其他承諾",
+    "按期間計提之付款",
+    "表外安排"
+   ],
+   "paragraphs": [
+    "您應配合本報告第二部分第 8 項所載之合併財務報表及相關附註，閱讀下列對我們財務狀況與營運成果之討論與分析。本討論包含風險與不確定性之預測性陳述。我們實際結果可能與下列討論有重大差異。導致此等差異之因素包括，但不僅限於，下列所列及本報告其他處所載之「風險因素」。",
+    "我們是一家擁有專屬分子與生物資訊技術之診斷公司，正應用這些技術改變全球疾病管理方式。我們之 cell-free DNA，或 cfDNA，技術結合我們之創新分子檢測方法，該方法能可靠地測量基因組中許多資訊區域，來自僅單一細胞之樣本，並搭配我們之統計演算法，整合來自廣泛科學社羣之資料，以識別遺傳變異，涵蓋廣泛之嚴重疾病，並具高準確度與覆蓋範圍。我們目標是使個人化遺傳檢測與診斷成為標準照護的一部分，以保護健康、提供更早且更具針對性的幹預措施，以幫助延長更健康之生命。",
+    "我們提供一套完整的產品，以改善患者照護成果，主要在三個醫療領域：腫瘤學、婦女健康與器官健康。我們之收入主要來自 Panorama 產品之銷售，即我們之無創產前檢測（\"NIPT\"），以及 Horizon 產品，即我們之遺傳載體篩檢測試。除了 Panorama 產品，我們在婦女健康領域之產品包括 Fetal Focus，即我們之無創產前檢測，用於單基因遺傳疾病；Vistara，即我們之單基因 NIPT，用於篩檢可能影響生活品質之疾病；Anora，即我們之測試，用以協助確定流產發生之潛在原因；以及 Empower，即我們之遺傳性癌症篩檢測試，我們亦透過我們之腫瘤學銷售通路提供此測試。在腫瘤學領域，我們提供 Signatera，即我們之個人化 ctDNA 血液檢測，用於 MRD 評估、早期復發監測及治療反應評估，針對先前診斷為癌症之患者。我們亦提供 Latitude，即我們之血液基質 MRD 檢測，用於結腸直腸癌，無需腫瘤組織樣本，以及 Altera，即一項全面基因組分析測試，用以支持治療決策與療法選擇。",
+    "我們在 1988 年臨牀實驗室改進法（CLIA）認證之實驗室進行檢測，主要位於德克薩斯州奧斯汀與加州聖卡洛斯；我們在科羅拉多州博爾德之實驗室進行臨牀試驗檢測。我們部分檢測由第三方實驗室執行。我們之客戶包括獨立實驗室、國家與區域參考實驗室、醫療中心與醫師診所，用於我們之篩檢測試，以及研究實驗室與製藥公司。我們透過我們之直接銷售團隊行銷與銷售我們之測試，並透過我們之實驗室分銷夥伴銷售我們之婦女健康測試。我們向診所、實驗室分銷夥伴、患者、製藥公司與保險給付者收取我們執行之測試費用。在我們向實驗室分銷夥伴收費之情況下，我們之夥伴會進一步向診所、患者與保險給付者收費。我們之收入主要來自與我們有在網路內合約之保險給付者。這些保險給付者根據我們與他們之在網路內合約，並基於正面覆蓋決定，即保險給付者已判定該測試對此類患者為醫療必要，向我們支付我們之測試費用。",
+    "除了提供在我們實驗室執行之測試，無論直接或透過我們之實驗室分銷夥伴，我們亦透過 Constellation，即我們之雲端分銷模式，與實驗室建立授權協議，使我們之實驗室授權人自行執行分子流程，並透過我們之雲端軟體存取我們之生物資訊演算法。此雲端分銷模式導致每測試之收入與毛利率較我們自行處理測試之情況為低；然而，由於我們不承擔處理測試之成本，此模式下每測試之成本亦較低。",
+    "我們商業運作之主要重點是透過我們之直接銷售團隊與實驗室分銷夥伴，以及透過我們之 Constellation 授權人之雲端分銷模式，提供我們之測試。我們之測試入庫數量是我們用以評估業務之關鍵指標。當我們收到測試於我們之實驗室，相關測試資訊輸入我們之電腦系統，且測試樣本導入適當之流程時，即視為測試入庫。此數量為我們處理之測試數量之子集，處理之測試數量包含透過我們之 Constellation 授權人分銷之測試。我們處理之測試數量為關鍵指標，因其追蹤整體體積成長，特別是當我們之實驗室夥伴可能從將樣本送至我們之實驗室轉為雲端分銷模式，因此我們之測試入庫數量將減少，但我們之測試處理數量將維持不變。",
+    "在截至 2025 年 12 月 31 日之會計年度，我們處理約 3,525,500 個測試，包含約 3,468,700 個在實驗室入庫之測試。在截至 2024 年 12 月 31 日之會計年度，我們處理約 3,064,600 個測試，包含約 3,001,900 個在實驗室入庫之測試。在截至 2023 年 12 月 31 日之會計年度，我們處理約 2,496,100 個測試，包含約 2,426,500 個在實驗室入庫之測試。此體積增加主要反映 Signatera、Panorama 與 Horizon 之持續商業成長，無論是於我們之實驗室執行之測試，或透過我們之 Constellation 軟體平台執行之測試。",
+    "我們之收入中，歸屬於美國直接銷售團隊之百分比為 95%、94% 與 91%，分別為截至 2025 年 12 月 31 日、2024 年 12 月 31 日與 2023 年 12 月 31 日之會計年度。歸屬於美國實驗室夥伴之收入百分比為 3%、4% 與 6%，分別為截至 2025 年 12 月 31 日、2024 年 12 月 31 日與 2023 年 12 月 31 日之會計年度。我們增加收入與毛利率之能力，將取決於我們能否進一步透過美國市場之直接銷售團隊擴張市場。歸屬於國際實驗室夥伴及其他國際銷售之收入百分比為 2%、2% 與 3%，分別為截至 2025 年 12 月 31 日、2024 年 12 月 31 日與 2023 年 12 月 31 日之會計年度。",
+    "會計年度終了日為2025年12月31日，本公司營業收入為2,306.1千萬美元，與2024年12月31日會計年度的1,696.9千萬美元及2023年12月31日會計年度的1,082.6千萬美元相比。本公司測試業務所產生的產品收入為2,295.8千萬美元，佔2025年12月31日會計年度總營業收入的近100%，與2024年12月31日會計年度的1,685.1千萬美元或總營業收入的99%及2023年12月31日會計年度的1,068.5千萬美元或總營業收入的99%相比。2025年、2024年及2023年會計年度終了日為12月31日，本公司未有任何客戶單獨佔總營業收入的10%以上。2025年12月31日會計年度終了日，來自美國以外客戶的營業收入為41.8千萬美元，佔總營業收入的2%。2024年12月31日會計年度終了日，來自美國以外客戶的營業收入為39.2千萬美元，佔總營業收入的大約2%。2023年12月31日會計年度終了日，來自美國以外客戶的營業收入為34.9千萬美元，佔總營業收入的大約3%。本公司絕大部分營業收入以美元計價，不過我們也會產生部分以外幣計價的營業收入，主要為歐元及新加坡幣。",
+    "2025年、2024年及2023年會計年度終了日為12月31日，本公司淨虧損分別為208.2千萬美元、190.4千萬美元及434.8千萬美元。此包括2025年、2024年及2023年會計年度終了日為12月31日的非現金股票薪酬費用分別為354.4千萬美元、274.4千萬美元及191.8千萬美元。截至2025年12月31日，本公司累計虧損為28.0千萬美元。",
+    "本管理層討論與分析部分一般討論2025年與2024年之間的年度比較。未包含於本10-K年度報告中的2024年與2023年之間的年度比較，可於本公司2024財年12月31日會計年度終了日的10-K年度報告，於第二部分第7項「管理層對財務狀況與營運結果之分析」中找到，該報告已於2025年2月27日提交至證券交易委員會。",
+    "本公司營業收入來自測試產品的銷售，主要來自Signatera、Panorama及HCS測試的銷售。本公司兩大主要銷售通路為直接銷售團隊及實驗室合作夥伴。在本公司透過直接銷售團隊推廣測試的情況下，我們通常會直接向患者、診所或電信業者，或電信業者與患者組合收取費用。",
+    "本公司臨牀測試的銷售被記入產品收入。來自透過Constellation模式處理測試，以及來自戰略合作協議的收入，則記入授權及其他收入。",
+    "在本公司透過實驗室合作夥伴銷售測試的情況下，大多數實驗室合作夥伴會向患者、診所或電信業者收取測試費用，而本公司則可獲得每項測試的固定價格或其收取金額的百分比。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務及產業相關之風險",
+    "自我們成立以來，我們已產生淨虧損，我們預期在不久的將來仍將持續產生虧損，這可能會損害我們未來的業務前景。",
+    "我們增強或新產品或服務的開發與商業化存在不確定性，可能會對我們的業務、財務狀況及營運成果產生重大不利影響。",
+    "我們的季度營運結果可能因期別不同而有所波動，這可能會對我們普通股的價值產生不利影響。",
+    "我們產業的競爭非常激烈；若我們無法就目前或未來的產品或服務與競爭對手成功競爭，我們可能無法增加或維持營收或實現盈利。",
+    "我們依賴內部及第三方資料中心與平台來主機我們的實驗室及雲端軟體，若服務中斷或系統故障，可能會影響我們的營運並損害我們的業務。",
+    "若我們的產品表現未達預期，將會對我們的營運成果、聲譽及業務造成損害。",
+    "我們依賴第三方實驗室來執行我們服務方案的部分內容。",
+    "若本公司經 CLIA 認證之實驗室設施無法運作，將無法執行測試，本公司業務將受到損害。",
+    "本公司依賴商業快遞運輸服務，以確保樣本能及時且成本效益地運送到本公司設施，若這些運輸服務受阻，本公司業務可能受到損害。",
+    "本公司正在各個業務領域整合人工智慧，這會帶來風險，可能對本公司業務及營運成果產生不利影響。",
+    "本公司測試之行銷、銷售及使用，可能導致因產品責任、專業責任或其他聲請而產生重大損失，且可能超過本公司資源。",
+    "若本公司無法成功擴大營運規模，本公司業務可能受到影響。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及高度風險。您應仔細考慮下列所描述的風險與不確定性，並配合本報告中所有其他資訊，包括「管理層對財務狀況與營運結果之討論與分析」一節以及我們的合併財務報表與相關附註，再決定是否投資本公司普通股。下列所描述的風險與不確定性並非我們唯一面臨的風險。若任何上述風險實際發生，將可能對本公司業務、財務狀況、營運結果與前景造成重大且不利的影響。在此情況下，本公司普通股的價格可能下跌，您可能損失部分或全部投資。",
+    "若我們無法成功增加產品或服務的營收，且我們未來努力增加產品使用與採用率或開發新產品與服務的行動未能成功，將會對本公司業務造成損害。",
+    "本公司成功增加產品或服務營收的能力存在不確定性，並受到許多風險影響，如後述風險因素所進一步說明。特別是，我們營收的絕大多數來自Panorama NIPT、Horizon carrier screening（HCS）測試以及Signatera測試的銷售，我們預期在可預見的未來，情況仍將如此。因此，若我們在這些測試方面遭遇任何不利影響，將可能對我們總體營收，或總體營收的某個組成部分造成影響。例如，若我們Horizon測試的補償率下降，進而導致我們的平均銷售價格下降，將可能導致我們總體平均銷售價格下降。",
+    "持續且增加的市場對我們測試的需求，以及對我們測試的補償，特別是對平均風險族羣的NIPT以及微缺失的補償，是我們未來成功的重要因素。對NIPT、carrier screening測試以及我們其他測試的市場需求持續在演變。我們無法保證醫師會推薦並開立我們的測試，且我們的實驗室分銷夥伴與經許可的代理商可能不會積極或有效地推廣我們的測試。我們增加銷售並建立顯著採用率與補償水平的能力存在不確定性，且我們可能因多種原因而難以實現盈利，包括但不限於：",
+    "我們的測試市場可能不會如我們預期般成長；特別是，NIPT可能不會被接受作為微缺失篩檢的工具，這將限制Panorama的市場，且我們可能無法在這個市場中成功競爭，不管這個市場規模多大；",
+    "若我們無法證明我們的測試優於競爭產品，實驗室、診所、臨牀醫生、醫師、付款方與患者可能不會廣泛採用我們的測試，且可能不會願意支付我們迄今所實現的競爭產品價格 premiums。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

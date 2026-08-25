@@ -1,0 +1,215 @@
+{
+ "ticker": "RIVN",
+ "cik": "0001874178",
+ "accession": "0001874178-26-000008",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Products and Services",
+    "Automotive Segment",
+    "Software and Services Segment",
+    "Manufacturing",
+    "Supply Chain",
+    "Environmental, Health and Safety Matters",
+    "Regulations in the United States",
+    "Emission Credit Programs",
+    "Automobile Manufacturer and Dealer Regulation",
+    "Federal and State Incentives in the United States",
+    "Intellectual Property",
+    "Our Approach to Impact",
+    "Sustainability",
+    "◦Renewable Energy. We are investing in purpose-driven renewable energy projects that seek to positively impact our communities, customers, climate, and industry.",
+    "Human Capital",
+    "Forever: Philanthropic Activities and Corporate Giving",
+    "Corporate Information",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Rivian is an American automotive technology company that develops and manufactures category-defining electric vehicles as well as vertically integrated technologies and services. Through innovation across its electrical architecture, end-to-end software, autonomous driving platform, artificial intelligence, and propulsion, the Company creates vehicles that excel at work and play with the goal of accelerating the global transition to zero-emission transportation and energy. Rivian vehicles are manufactured in the United States and are sold directly to consumer and commercial customers. Whether taking families on new adventures or electrifying fleets at scale, Rivian vehicles all share a common goal — preserving the natural world for generations to come.",
+    "We believe our competitive advantage stems from our product and brand differentiation through vertically integrated technologies as well as our direct-to-customer sales and service model. Product performance benefits from the ability to fully control and continually enhance virtually every aspect of our vehicle's software, digital experience, and driving dynamics. Our in-house autonomy system has been designed with an AI-centric end-to-end approach and leverages the large amount of miles driven by Rivian vehicles for training, enabling the Company to continuously improve the system. We believe our product performance is increasingly being recognized by customers and has helped Rivian earn some of the industry's most coveted owner experience awards.",
+    "Our zonal network architecture and software stack serves as the basis for Rivian and Volkswagen Group Technologies, LLC (the \"Joint Venture\"). The Joint Venture is working to develop industry-leading software-enabled features and capabilities to address global markets and segments across a variety of vehicle platforms.",
+    "Interconnected by our AI platform, Rivian unified intelligence underpins our products and suite of software and services including Autonomy+, designed to deliver fast-paced innovation cycles, structural cost advantages, and exceptional customer experiences.",
+    "The Company analyzes the results of the business through two reportable segments, Automotive and Software and Services.",
+    "We launched our consumer vehicle business with the R1 platform consisting of two vehicles: the R1T, a two-row, five-passenger pickup truck, and the R1S, a three-row, seven-passenger sport utility vehicle (\"SUV\").",
+    "The R1T and R1S are equipped with Rivian-designed technology including a zonal network architecture, electric powertrains and chassis, the Rivian Autonomy Platform, and digital user experience management via Connect+ which will include Rivian Assistant. These technologies can continuously improve and expand functionality through cloud-enabled over-the-air (\"OTA\") updates.",
+    "The R1T and R1S introduced our brand to the world and serve as our flagship vehicles as we continue to expand our offerings. We have also announced plans to manufacture our midsize platform (\"MSP\") which underpins the R2 and R3 product lines. The MSP is expected to address global market segments and is designed to build upon our industry-leading technology platform as well as our focus on reducing manufacturing complexity and improving cost efficiency.",
+    "R2 is Rivian's all-new midsize SUV that will deliver a combination of performance, capability and utility in a five-seat package optimized for big adventures and everyday use. The interior is designed for ease-of-use, while being uniquely Rivian through a combination of inviting design and premium, sustainable materials that are easy to clean. We believe R2 and our midsize platform will be foundational to Rivian's long-term growth and profit potential. We expect R2 to benefit from the key vertically integrated technologies developed for R1 including our software stack, propulsion technology, the Rivian Autonomy Platform, and electrical architecture. We expect customer deliveries of R2 vehicles to begin in the second quarter of 2026.",
+    "R3 is our future midsize crossover that is expected to be tidy on dimensions but delivers big in terms of performance, off-road capability, passenger comfort, and storage. R3X is a performance variant of R3 offering even more dynamic abilities both on and off road. The design of the exterior and interior of R3 are inviting and iconic. R3 demonstrates the scalability of Rivian's brand across different form factors while continuing to be immediately recognizable.",
+    "We launched the Rivian Commercial Van platform, which underpins the Electric Delivery Van (\"EDV\") variant, designed and engineered by Rivian in collaboration with Amazon.com, Inc. and its affiliates (collectively, \"Amazon\"), our first commercial customer. The Rivian Commercial Van is a long-range, electric commercial step-in van designed for large scale production and deployment in a centrally-managed fleet. Amazon has ordered an initial volume of 100,000 EDVs globally, subject to modification.",
+    "We have designed a 500 and 700 cubic foot version of the vans, optimized for various commercial uses, including last mile delivery use cases. Both the EDV and Rivian Commercial Van's features include a rear roll-up door, an integrated bulkhead door designed for safety and security, a tall roof to allow drivers to walk through the vehicle, driver-centric ergonomics, and a curb-side sliding door for safe vehicle access away from traffic. Developed to be comfortable and easy to operate for drivers, our commercial vans are designed to achieve lower total cost of ownership (\"TCO\") for customers while supporting a path to decarbonization.",
+    "We earn tradable credits in the operation of our business under various regulations related to zero-emission vehicles (\"ZEVs\"), greenhouse gas, fuel economy, and clean fuel in the United States and Canada. We sell these credits to other regulated entities who can use the credits to comply with emission standards and other regulatory requirements. As a result of changes to many of the programs governing such tradable credits, our ability to continue earning and selling the corresponding credits is uncertain at this time. For more information on risks related to our ability to sell regulatory credits, see Part I, Item 1A. Risk Factors.",
+    "Complementing our vehicles, we provide a suite of value-added software and services which we expect to continue to generate long-term brand loyalty while also creating a recurring revenue stream across the vehicle lifecycle. These services include vehicle electrical architecture and software development services provided by the Joint Venture, Autonomy+, remarketing, vehicle repair and maintenance, charging, software subscriptions, vehicle accessories, financing, insurance, and more, as described below."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business",
+    "We will require additional financings to raise capital to support our business, which may not be available in a timely manner, on terms that are acceptable, or at all.",
+    "The automotive and value added software and services markets in which we operate are highly competitive, and we may not be successful in competing in these markets.",
+    "Our future growth is dependent on the demand for, and upon customers' willingness to adopt, EVs.",
+    "We may be subject to risks associated with additional strategic alliances or acquisitions.",
+    "We have experienced, and could experience in the future, cost increases and disruptions in supply of raw materials, components or equipment used to produce our vehicles.",
+    "We are highly dependent on the services and reputation of Robert J. Scaringe, our Founder and CEO.",
+    "We may be unable to offer attractive financing and leasing options to vehicle purchasers, which would adversely affect demand and expose us to financial risks."
+   ],
+   "paragraphs": [
+    "Our business is subject to various risks and uncertainties, including those described below, that may cause actual results to differ materially from historical performance or projected future performance expressed in forward-looking statements made by us. We encourage you to consider carefully the risk factors described below in evaluating the information in this Form 10-K as the outcome of one or more of these risks and uncertainties could have a material adverse effect on our financial condition, results of operations, and cash flows as well as on our reputation, business, growth, future prospects, and ability to accomplish our strategic objectives.",
+    "We are a growth stage company with limited operating history and a history of losses. We expect to incur significant expenses and continuing losses for the foreseeable future and may not be able to achieve or maintain profitability in the future.",
+    "We have incurred net losses since our inception, including net losses of $5,432 million, $4,746 million, and $3,626 million for the years ended December 31, 2023, 2024 and 2025, respectively. We do not expect to be profitable for the foreseeable future as we continue to invest in our business, build capacity, and ramp up operations, and there is no assurance that we will ever achieve or be able to maintain profitability in the future. Our ability to become profitable in the future will depend on the continued successful development, commercial production and adoption of our vehicles, software and services, our ability to grow and maintain strong demand and to align production with such demand, our ability to maintain, and over time improve, the average selling prices for our vehicles, software and services, and our capability to source materials cost-effectively and manufacture our vehicle portfolio efficiently. In addition, we must effectively manage all aspects of our financial operations, including our sales and revenue flows, operating expenditures, capital expenditures, working capital, and cash flows. Further, we have in the past benefited from government incentives and tax credits and the sale of regulatory credits. Many of these programs have been modified or have been phased out. These changes have affected and, any additional changes could affect, our profitability and have had and could continue to have an adverse effect on our business, prospects, financial condition, results of operations, and cash flows. Additionally, we have experienced and will continue to experience cost increases as a result of changes to existing or future tariffs and other trade barriers. If we are unable to mitigate these cost increases, or if demand for our vehicles decreases due to the higher cost, economic uncertainty or global or domestic recession, our business, prospects, financial condition, results of operations, and cash flows could be materially and adversely affected. Any failure to adequately increase revenues or contain and/or reduce costs could prevent us from achieving or maintaining profitability in the future, in which case our business, prospects, financial condition, results of operations, and cash flows would be materially and adversely affected.",
+    "We expect to continue to incur significant cost of revenues, operating expenses, and capital expenditures, and we may underestimate or not effectively manage the cost of revenues, operating expenses, and capital expenditures associated with our business and operations.",
+    "As we have rapidly expanded the manufacture, sale, and support of our vehicles, software and services, we have required and expect to continue to require significant capital to develop and grow our business, including scaling our operations, growing our go-to-market, sales, and service operations, identifying and committing resources to consider and address new areas of demand, including new geographies, as well as building our brand and investing in our next generation technologies, products, services and manufacturing facilities and capabilities. These efforts may be more costly than we expect and may not result in sufficient increased revenues or growth in our business to offset such costs. In addition, tariffs by the United States government and the resulting environment of retaliatory tariffs and other trade barriers have increased, and will continue to increase our production costs. If we are unable to mitigate these increased production costs, our business, prospects, financial condition, results of operations, and cash flows could be materially and adversely affected. Our expenditures will continue to be significant in the foreseeable future and include costs related to our automotive segment such as production costs, including raw materials, labor, and logistics costs, research and development investments and expenses, costs associated with increasing sales, such as marketing, and advertising activities and expanding our retail customer engagement spaces (\"spaces\"), costs in connection with the expansion of our Normal Factory and construction of our manufacturing facility near Atlanta, Georgia (\"Stanton Springs North Facility\"), and costs related to our software and services segment, such as vehicle electrical architecture, software development costs, advanced driver assistance features, remarketing and vehicle repair and maintenance support expenses, and costs to expand our charging network. In addition, our level of capital requirements will also be significantly affected by customer demand for our current products and services along with anticipated demand for future products and services, and we have limited insight into trends that may emerge and affect our business. As a result, our future capital requirements are subject to uncertainty and our actual capital requirements may be different from or greater than those we currently anticipate. If we are unable to efficiently manage our cost of revenues, operating expenses, and capital expenditures, our business, prospects, financial condition, results of operations, and cash flows would be materially and adversely affected.",
+    "We expect that we will need to seek additional equity and/or debt financing in both the near- and long-term to finance a portion of our costs and capital expenditures. Our ability to obtain the necessary financing to carry out our business plan is subject to a number of factors. These include investor and customer acceptance of our business model, market confidence in our ability to execute against our business plans, industry wide EV adoption rates or slower growth in demand, delays, cutbacks or cancellations in EV production plans announced by other manufacturers, and general conditions in the global economy and financial markets, including volatility and disruptions in the capital and credit markets due to inflation, tariffs, interest rate changes, and global conflicts or other geopolitical events and any resulting economic uncertainty or global or domestic recession. These factors may make the timing, amount, terms and conditions of such financing unattractive or unavailable to us. In January 2025, the United States Department of Energy (\"DOE\") agreed to arrange a multi-draw term loan facility to be provided by the Federal Financing Bank to a Rivian subsidiary under DOE's Advanced Technology Vehicles Manufacturing Program (the \"DOE Loan\"). Our ability to receive advances under our DOE Loan is subject to certain conditions, including the achievement of certain milestones, which may not be achieved at the time that we anticipate or at all. Our existing debt has resulted in, and any additional indebtedness we incur, including under the DOE Loan would result in, increased debt service obligations and could involve additional restrictive covenants relating to our capital raising activities and other financial and operational matters. The sale of additional equity or equity-linked securities would result in dilution for our stockholders. If we are unable to receive funds under our existing financing arrangements, raise sufficient funds or obtain funding on terms satisfactory to us, we may have to significantly reduce our spending, delay or cancel our planned activities or substantially change our corporate structure, and we may not have sufficient resources to conduct our business as planned, which would materially and adversely affect our business, prospects, financial condition, results of operations, and cash flows."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Factors Affecting Our Performance",
+    "Components of Operating Results",
+    "Software and Services",
+    "Results of Operations",
+    "Years Ended December 31,",
+    "Comparison of the years ended December 31, 2024 and 2025",
+    "(in millions) 2025 %",
+    "Years Ended December 31, 2024 vs 2025 Change",
+    "Liquidity and Capital Resources",
+    "December 31, 2024 December 31, 2025",
+    "2031 Green Secured Notes",
+    "ABL Facility",
+    "Rivian and Volkswagen Group Technologies, LLC",
+    "Government Programs and Incentives",
+    "(in millions) 2023 2024 2025",
+    "Operating Activities",
+    "Investing Activities",
+    "Financing Activities",
+    "Critical Accounting Policies and Estimates",
+    "Warranty and Field Service Actions",
+    "Decrease in Warranty Reserve Increase in Warranty Reserve",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read together with the consolidated financial statements and related notes included in this Annual Report on Form 10-K (\"Form 10-K\"). This discussion contains forward-looking statements based upon current expectations that involve risks and uncertainties. Our actual results may differ materially from those anticipated in these forward-looking statements as a result of various factors, including those set forth under Part I, Item 1A. \"Risk Factors\" or in other parts of this Form 10-K. Our historical results are not necessarily indicative of the results that may be expected for any period in the future. The discussion of our financial condition and results of operations for the year ended December 31, 2023 is included in Part II, Item 7. \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in our Annual Report on Form 10-K for the year ended December 31, 2024.",
+    "Rivian is an American automotive technology company that develops and manufactures category-defining electric vehicles as well as vertically integrated technologies and services. Through innovation across its electrical architecture, end-to-end software, autonomous driving platform, artificial intelligence, and propulsion, the Company creates vehicles that excel at work and play with the goal of accelerating the global transition to zero-emission transportation and energy. Rivian vehicles are manufactured in the United States and are sold directly to consumer and commercial customers. Whether taking families on new adventures or electrifying fleets at scale, Rivian vehicles all share a common goal — preserving the natural world for generations to come.",
+    "We believe our competitive advantage stems from our product and brand differentiation through vertically integrated technologies as well as our direct-to-customer sales and service model. Product performance benefits from the ability to fully control and continually enhance virtually every aspect of our vehicle's software, digital experience, and driving dynamics. Our in-house autonomy system has been designed with an AI-centric end-to-end approach and leverages the large amount of miles driven by Rivian vehicles for training, enabling the Company to continuously improve the system. We believe our product performance is increasingly being recognized by customers and has helped Rivian earn some of the industry's most coveted owner experience awards.",
+    "Our zonal network architecture and software stack serves as the basis for Rivian and Volkswagen Group Technologies, LLC (the \"Joint Venture\"). The Joint Venture is working to develop industry-leading software-enabled features and capabilities to address global markets and segments across a variety of vehicle platforms.",
+    "Interconnected by our AI platform, Rivian unified intelligence underpins our products and suite of software and services including Autonomy+, designed to deliver fast-paced innovation cycles, structural cost advantages, and exceptional customer experiences.",
+    "We analyze the results of the business through two reportable segments, Automotive and Software and Services.",
+    "Additional information about our business, reportable segments, and products and services is included in Part I, Item 1. \"Business\". During the year ended December 31, 2025, we produced 42,284 vehicles and delivered 42,247 vehicles.",
+    "The growth and future success of our business depends on many factors. While these factors present significant opportunities for our business, they also pose risks and challenges, including those discussed below and in Part I, Item 1A. \"Risk Factors,\" that we must successfully address to achieve growth, improve our results of operations, and generate profits.",
+    "•Ability to Develop and Launch New Offerings. We believe the Rivian brand is becoming established in the most attractive consumer and commercial vehicle markets. However, our ability to grow revenues and expand margins will also depend on our ability to develop and launch new vehicle platforms and programs, including R2. Customers can make reservations for the R2 with a cancellable and fully refundable deposit of $100, and we expect customer deliveries of the R2 to begin in the second quarter of 2026. We believe R2 will be foundational to Rivian's long-term growth and profit potential, positioning Rivian to address new, global market segments and designed to build upon our industry-leading technology platform as well as our focus on driving down manufacturing complexity and improving cost efficiency. We expect R2 to benefit from the key vertically integrated technologies developed for R1",
+    "including our software stack, propulsion technology, network architecture, and vehicle electronics, and the platform has been designed for cost efficiency, with a focus on part consolidation or elimination. We continue to develop value-added technologies that enhance our customers' experience including our autonomy platform, which we believe represent an advantage to Rivian. Our future financial performance will also depend on our ability to offer software and services that profitably deliver an intuitive, seamless, and compelling customer experience.",
+    "•Ability to Attract New Customers. Our growth will depend in large part on our ability to attract new customers in the consumer and commercial vehicle markets. We have invested heavily in developing our ecosystem and plan to continue to do so. We currently have low brand awareness but expect investments in our marketing and communication strategy over the long term to translate into substantial increases in brand awareness, resulting in more sales of our vehicles and increasing our base of customers. Marketing activities include brand campaigns, community events, and partnerships along with digital marketing campaigns. To support demand generation, we have implemented new capabilities, such as expanding our retail customer engagement spaces (\"spaces\") and demonstration drives and building our sales and marketing team, technology, and infrastructure, which increases our costs. To generate and maintain demand, we may need to incur significantly higher and more sustained marketing and promotional expenditures than we have previously incurred.",
+    "•Ability to Manage Costs. Selling our vehicles profitably requires successful and timely execution against multiple cost reduction objectives across the vehicle and our manufacturing operations. The production capacity at our manufacturing facility in Normal, Illinois (\"Normal Factory\") is operating significantly below full vehicle production rate capacity. This lower utilization of plant capacity results in the cost of revenues to operate the plant being much higher per unit of production than would be the case if we were manufacturing at capacity. In late September and early October 2025, we completed upgrades to the paint shop in the Normal Factory, enabling an increase in production capacity to 215,000 units annually in preparation for the first customer deliveries of the R2 expected in the second quarter of 2026. Significant capital expenditures were required to support the integration of R2 into our Normal Factory, and our future profitability depends upon our ability to scale our production and delivery operations more efficiently at a lower cost per unit.",
+    "Achieving cost reductions requires, among other things, a timely launch and associated ramp of R2 and scaling our vehicle production volumes, timely introduction of new components and technologies into production, negotiation of unit price reductions with suppliers, management of our labor and logistics costs, and pursuing opportunities to drive down warranty costs. Should we not achieve such reductions in a timely manner, we could experience adverse impacts to our gross margin and overall profitability.",
+    "•Ability to Drive Adoption of our Software and Services. Software and services are a key part of our growth strategy. We offer a variety of software and services, including vehicle electrical architecture and software development services, advanced driver assistance capabilities, sales of vehicle trade-ins (\"remarketing\"), vehicle repair and maintenance, charging, software subscriptions, vehicle accessories, financing, insurance, and FleetOS solutions that we believe will grow our revenues additive to vehicle sales. We continue to develop value-added technologies that enhance our customers' experience including our autonomy platform, which we believe represent an advantage to Rivian. In 2024 we began offering Connect+, a subscription-based streaming and connectivity service, and we expect to offer Autonomy+, a premium expansion of automated driver assistance support, in the future. As we increase our base of Rivian customers and expand our software and services portfolio, including through partnerships or other opportunities, we expect our customers to expand their usage of our software and services offerings over the full lifecycle of their vehicle ownership. We believe the software and services portion of our business will have the benefit of enabling a higher-margin, recurring revenue stream for each vehicle, thereby improving our margin profile. Our ability to grow revenues and our long-term financial performance will depend in part on our ability to drive adoption of these offerings at profitable price points."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司產品與服務",
+    "汽車應報告分部",
+    "軟體與服務應報告分部",
+    "製造",
+    "供應鏈",
+    "環境、健康與安全事項",
+    "美國法規",
+    "排放信用計畫",
+    "汽車製造商及經銷商規範",
+    "美國聯邦及州政府的激勵措施",
+    "智慧財產權",
+    "我們的影響力策略",
+    "永續性",
+    "◦可再生能源。我們投資於具備使命導向的可再生能源專案，旨在正面影響我們的社區、客戶、氣候及產業。",
+    "人力資本",
+    "Forever：慈善活動與企業捐贈",
+    "公司資訊",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "Rivian 是一家美國汽車科技公司，開發與製造定義產業的電動車，以及垂直整合的技術與服務。透過在電氣架構、端到端軟體、自動駕駛平台、人工智慧與動力系統等領域的創新，本公司創造出在工作與休閒方面表現卓越的車輛，目標為加速全球向零排放運輸與能源的轉型。Rivian 車輛於美國製造，並直接銷售給消費者與商業客戶。無論是帶領家庭進行新冒險，或大規模電動化車隊，Rivian 車輛皆有共同目標 —— 為後代保護自然環境。",
+    "我們相信本公司競爭優勢來自於產品與品牌差異化，透過垂直整合的技術，以及直接對消費者銷售與服務模式。產品性能受益於能完全控制並持續提升車輛軟體、數位體驗與駕駛動態的各個方面。本公司內建的自動駕駛系統是以 AI 為中心的端到端方法設計，並利用 Rivian 車輛行駛的大量里程數進行訓練，使本公司能持續改善系統。我們相信產品性能正逐漸被消費者認可，並幫助 Rivian 獲得產業中最具聲望的所有者體驗獎項。",
+    "我們的區域網路架構與軟體堆疊為 Rivian 與 Volkswagen Group Technologies, LLC（\"合資公司\"）的基礎。合資公司正在開發業界領先的軟體功能與能力，以應對全球市場與各類車輛平台。",
+    "透過我們的 AI 平台連結，Rivian 的統一智慧成為我們產品與軟體與服務的基礎，包括 Autonomy+，旨在提供快速創新週期、結構性成本優勢與卓越的客戶體驗。",
+    "本公司透過兩個應報告分部分析業務結果，為汽車與軟體與服務。",
+    "我們以 R1 平台啟動消費者車輛業務，包含兩款車型：R1T，為兩排五人皮卡，以及 R1S，為三排七人運動休旅車（\"SUV\"）。",
+    "R1T 與 R1S 配備 Rivian 設計的技術，包括區域網路架構、電動動力系統與車架、Rivian 自動駕駛平台，以及透過 Connect+ 提供的數位用戶體驗管理，將包含 Rivian 助手。這些技術可透過雲端啟動的空中更新（\"OTA\"）持續改善與擴展功能。",
+    "R1T 與 R1S 向世界介紹了我們的品牌，並作為我們持續擴展產品線的旗艦車型。我們也已宣佈計畫製造我們的中型平台（\"MSP\"），此平台為 R2 與 R3 產品線的基礎。MSP 預期將應對全球市場區段，並設計為建立在本公司業界領先的科技平台之上，以及我們降低製造複雜度與提高成本效益的重點。",
+    "R2 是 Rivian 全新中型 SUV，將提供性能、能力與實用性的組合，以五人座設計優化大規模冒險與日常使用。內裝設計以易用性為主，同時透過 inviting design 與 premium、可持續性材料的結合，呈現獨特的 Rivian 風格，且易於清潔。我們相信 R2 與我們的中型平台將成為 Rivian 長期成長與獲利潛力的基礎。我們預期 R2 將受益於為 R1 開發的關鍵垂直整合技術，包括我們的軟體堆疊、動力技術、Rivian 自動駕駛平台，以及電氣架構。我們預期 R2 車輛的客戶交付將於 2026 年第二季開始。",
+    "R3 是我們未來的中型跨界車，預期在尺寸上整潔，但在性能、越野能力、乘客舒適性與儲存空間方面表現卓越。R3X 是 R3 的性能變體，提供更強的動態能力，無論是在道路上或越野環境中。R3 的外觀與內裝設計均具 inviting 與 icon 的特質。R3 顯示了 Rivian 品牌在不同造型因子上的可擴展性，同時仍能立即被辨識。",
+    "我們推出了 Rivian 商業貨車平台，此平台支撐了 Electric Delivery Van（\"EDV\"）變體，由 Rivian 與 Amazon.com, Inc. 及其子公司（合稱 \"Amazon\"）共同設計與工程，為我們的第一位商業客戶。Rivian 商業貨車是一款長距離電動商業貨車，設計用於大規模生產與部署，並在集中管理的車隊中運作。Amazon 已訂購全球首批 100,000 臺 EDVs，此數量可能根據情況調整。",
+    "我們設計了 500 和 700 立方英呎的貨車版本，以適應各種商業用途，包括最後一哩配送的應用場景。EDV 與 Rivian 商業貨車的特點均包含後方可翻起門、整合式隔板門以確保安全與防盜、高車頂以允許駕駛員穿過車輛、以駕駛者為中心的人體工學設計，以及側邊滑動門以確保駕駛員安全地遠離交通進行車輛進出。這些商業貨車設計為舒適且易於操作，以實現較低的總擁有成本（\"TCO\"），同時支持脫碳的路徑。",
+    "我們在營運中根據各種與零排放車輛（\"ZEVs\"）、溫室氣體、燃油經濟性及清潔燃料相關的規範，獲得可交易的信用額。我們將這些信用額出售給其他受規範的機構，這些機構可使用這些信用額以符合排放標準及其他規範要求。由於許多管理這些可交易信用額的計畫已進行變更，我們目前無法確定是否能繼續獲得並出售對應的信用額。有關我們出售管制信用額的風險，請參閱第一部分，第 1A 項風險因素。",
+    "除了我們的車輛，我們還提供一系列增值軟體與服務，我們預期這些服務將持續產生長期的品牌忠誠度，同時在車輛生命週期中創造持續的收入來源。這些服務包括由合資公司提供的車輛電氣架構與軟體開發服務、Autonomy+、再銷售、車輛維修與保養、充電、軟體訂閱、車輛配件、融資、保險等，如下列所述。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "影響我們營運表現的因素",
+    "營運成果的組成部分",
+    "軟體與服務",
+    "營運成果",
+    "截至12月31日的年度",
+    "截至12月31日的年度比較 2024年與2025年",
+    "(以千萬計) 2025年 %",
+    "2024年與2025年截至12月31日的年度比較 變動",
+    "流動性及資本資源",
+    "2024年12月31日 2025年12月31日",
+    "2031年綠色secured Notes",
+    "ABL授信設施",
+    "Rivian及Volkswagen Group Technologies, LLC",
+    "政府計畫及補貼",
+    "(以千萬為單位) 2023 2024 2025",
+    "營運活動",
+    "投資活動",
+    "籌資活動",
+    "關鍵會計政策與會計估計",
+    "保固與現場服務措施",
+    "保固備抵減項減少 保固備抵減項增加",
+    "最近會計準則聲明"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運成果的討論與分析，應與本年度年報（\"Form 10-K\"）所包含的合併財務報表及相關附註一併閱讀。本討論包含基於目前預期的展望性陳述，這些陳述涉及風險與不確定性。我們的實際結果可能與這些展望性陳述所預期的有重大差異，原因包括但不限於 Part I, Item 1A. \"風險因素\" 或本 Form 10-K 其他部分所列的各項因素。我們的歷史結果未必能代表未來任何期間的結果。有關 2023 年 12 月 31 日為結算日的財務狀況及營運成果討論，請參閱我們 2024 年 12 月 31 日為結算日年報的 Part II, Item 7. \"管理層對財務狀況及營運成果之討論與分析\"。",
+    "Rivian 是一家美國汽車科技公司，開發與製造定義產業的電動車，以及垂直整合的技術與服務。透過在電氣架構、端到端軟體、自動駕駛平台、人工智慧與動力系統等方面的創新，本公司創造出在工作與休閒方面表現卓越的車輛，目標為加速全球向零排放運輸與能源的轉變。Rivian 車輛於美國製造，並直接銷售給消費者與商業客戶。無論是帶領家庭進行新冒險，或大規模電動化車隊，Rivian 車輛皆有共同目標 —— 為後代保護自然世界。",
+    "我們認為我們的競爭優勢來自於產品與品牌差異化，透過垂直整合的技術，以及我們直接對客戶的銷售與服務模式。產品性能受益於能完全控制並持續提升車輛軟體、數位體驗與駕駛動態的各個方面。我們的內建自動駕駛系統是以 AI 為中心的端到端方法設計，並利用 Rivian 車輛行駛的大量里程數進行訓練，使本公司能持續改善系統。我們認為我們的產品性能正逐漸受到客戶的認可，並幫助 Rivian 獲得一些產業中最受推崇的擁有者體驗獎項。",
+    "我們的區域網路架構與軟體堆疊為 Rivian 與 Volkswagen Group Technologies, LLC（\"合資公司\"）所使用。合資公司正在開發行業領先的軟體功能與能力，以應對全球市場與各類車輛平台。",
+    "透過我們的 AI 平台連結，Rivian 的統一智慧為我們的產品與軟體與服務組合提供基礎，包括 Autonomy+，旨在提供快速創新週期、結構性成本優勢與卓越的客戶體驗。",
+    "我們透過兩個應報告分部，即汽車與軟體與服務，來分析業務的結果。",
+    "有關我們業務、應報告分部與產品與服務的額外資訊，請參閱 Part I, Item 1. \"業務\"。在 2025 年 12 月 31 日為結算日的年度內，我們生產了 42,284 輛車，並交付了 42,247 輛車。",
+    "我們業務的成長與未來成功取決於許多因素。雖然這些因素為我們業務帶來重大機會，但也伴隨著風險與挑戰，包括下文及 Part I, Item 1A. \"風險因素\" 所討論的風險與挑戰，我們必須成功應對以實現成長、改善營運成果並產生利潤。",
+    "•具備開發與推出新產品的能力。我們認為Rivian品牌正在建立於最吸引人的消費者與商用車市場。然而，我們的營收成長與邊際率擴張將依賴我們開發與推出新車平台與計畫，包括R2。客戶可預訂R2，預訂金為100美元，可取消且全額退款，我們預期R2的客戶交付將於2026年第二季開始。我們認為R2將是Rivian長期成長與獲利潛力的基礎，使Rivian能面對新的全球市場區段，並建立於我們業界領先的科技平台以及我們降低製造複雜度與提高成本效益的重點之上。我們預期R2將受益於為R1所開發的關鍵垂直整合科技",
+    "包括我們的軟體堆疊、動力科技、網路架構與車輛電子，且此平台已設計為成本效益，重點在於零件整合或消除。我們持續開發能提升客戶體驗的附加價值科技，包括我們的自動駕駛平台，我們認為這代表Rivian的優勢。我們未來的財務表現也將依賴我們提供能以盈利方式提供直覺、順暢且吸引人的客戶體驗的軟體與服務。",
+    "•具備吸引新客戶的能力。我們的成長將在很大程度上依賴我們在消費者與商用車市場吸引新客戶的能力。我們已大量投資於生態系統的發展，並計畫持續進行。目前我們的品牌知名度較低，但預期透過長期的行銷與溝通策略投資，將轉化為顯著的品牌知名度提升，進而增加我們車輛的銷售與擴大客戶基礎。行銷活動包括品牌活動、社區活動、合作夥伴關係以及數位行銷活動。為支持需求產生，我們已實施新功能，例如擴展零售客戶互動空間（\"空間\"）與試駕活動，並建立銷售與行銷團隊、科技與基礎建設，這會增加我們的成本。為產生與維持需求，我們可能需要支應顯著更高且更持續的行銷與促銷支出，與我們過去所支應的相比。",
+    "•具備管理成本的能力。成功且及時執行多項成本降低目標，是我們能以利潤方式銷售車輛的關鍵。我們在伊利諾州Normal的製造廠（\"Normal廠\"）的生產能力目前遠低於滿載車輛生產率。此較低的廠房使用率導致運作廠房的成本每單位生產遠高於我們在滿載生產時的情況。2025年9月下旬與10月上旬，我們完成Normal廠塗裝工廠的升級，使年生產能力提高至215,000單位，以準備2026年第二季預期的R2首個客戶交付。為支持將R2整合至Normal廠，我們需要大量資本支出，我們未來的獲利能力將取決於我們能否更有效率地擴大生產與交付作業，並以更低的單位成本進行。",
+    "實現成本降低需要，除了其他因素外，及時推出並與之相關的R2上線與生產規模擴張，及時將新零件與科技引入生產，與供應商協商單價降低，管理我們的勞動與物流成本，並尋求機會降低保養成本。若我們未能及時實現這些降低，我們可能會面臨對毛利率與整體獲利的不利影響。",
+    "•具備推動我們軟體與服務採用的能力。軟體與服務是我們成長策略的重要部分。我們提供多種軟體與服務，包括車輛電氣架構與軟體開發服務、先進駕駛輔助功能、車輛貿易進口（\"重售\"）、車輛維修與保養、充電、軟體訂閱、車輛配件、融資、保險以及FleetOS解決方案，我們認為這些將使我們的收入在車輛銷售之外成長。我們持續開發能提升客戶體驗的附加價值科技，包括我們的自動駕駛平台，我們認為這代表Riv,ian的優勢。2024年我們開始提供Connect+，這是一種訂閱制的串流與連線服務，我們預期未來會提供Autonomy+，這是一種高階的自動駕駛輔助支援擴展服務。隨著我們擴大Rivian客戶基礎並擴展軟體與服務產品組合，包括透過合作夥伴或其他機會，我們預期客戶會在其車輛擁有全生命週期中擴大使用我們的軟體與服務。我們認為我們業務中軟體與服務部分將能帶來更高邊際率、持續性的收入流，進而改善我們的邊際率表現。我們能成長營收與長期財務表現，將在很大程度上依賴我們能否在有利可圖的價格點推動這些產品的採用。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務相關的風險",
+    "我們將需要額外融資以籌措資金支持我們的業務，此資金可能無法及時取得、條件符合或完全無法取得。",
+    "我們所從事的汽車及增值軟體與服務市場競爭激烈，我們可能無法在這些市場中成功競爭。",
+    "我們未來的成長取決於電動車（EVs）的市場需求，以及客戶願意採用電動車的意願。",
+    "我們可能面臨與額外戰略聯盟或併購相關的風險。",
+    "我們已經驗過，且未來可能再次經驗成本增加及用以生產我們車輛的原材料、零組件或設備供應中斷的問題。",
+    "我們高度依賴創辦人兼首席執行官羅伯特·J·斯卡林格（Robert J. Scaringe）所提供的服務與聲譽。",
+    "我們可能無法提供具有吸引力的購車融資與租賃選項，這將不利於需求並使我們面臨財務風險。"
+   ],
+   "paragraphs": [
+    "本公司業務面臨多種風險與不確定性，包括下列所描述的風險，這些風險可能導致實際結果與歷史表現或向前看聲明中所表達的未來預測結果有重大差異。我們鼓勵您仔細考慮下列風險因素，以評估本Form 10-K所載資訊，因為其中一個或多個風險與不確定性之結果，可能對本公司財務狀況、營運成果與現金流，以及聲譽、業務、成長、未來展望與達成戰略目標的能力產生重大不利影響。",
+    "本公司為成長階段公司，營運歷史有限且有持續虧損的紀錄。我們預期在可預見的未來將產生重大費用與持續虧損，並可能無法在未來達成或維持獲利。",
+    "自本公司成立以來，我們已產生淨虧損，包括截至2023年12月31日、2024年12月31日及2025年12月31日止之年度淨虧損分別為54.32億美元、47.46億美元及36.26億美元。我們不預期在可預見的未來獲利，因為我們持續投資於業務、擴充產能與提升營運，且無法保證我們將能達成或維持獲利。我們未來能否獲利，將取決於我們車輛、軟體與服務之持續成功開發、商業生產與採用，我們能否成長並維持強勁需求，並與需求對應，我們能否維持並隨時間改善車輛、軟體與服務之平均售價，以及我們能否以具成本效益方式取得材料並高效製造車輛組合。此外，我們必須有效管理所有財務營運方面，包括銷售與收入流、營運費用、資本支出、營運資金與現金流。此外，我們過去曾受益於政府補貼與稅收抵免，並銷售調節信用。許多這些計畫已修改或已逐步廢止。這些變更已影響我們的獲利，任何進一步變更也可能影響我們的獲利，並已對我們的業務、展望、財務狀況、營運成果與現金流產生不利影響。此外，我們已經驗過並將持續經驗因現有或未來關稅與其他貿易障礙變更所導致的成本增加。若我們無法緩解這些成本增加，或因成本提高、經濟不確定性或全球或國內經濟衰退導致我們車輛需求減少，則我們的業務、展望、財務狀況、營運成果與現金流可能受到重大且不利的影響。任何未能充分增加收入或控制與/或減少成本的情況，可能使我們無法達成或維持未來獲利，進而對我們的業務、展望、財務狀況、營運成果與現金流造成重大且不利的影響。",
+    "我們預期將持續產生重大收入成本、營運費用與資本支出，且我們可能低估或無法有效管理與我們業務與營運相關的收入成本、營運費用與資本支出。",
+    "隨著我們快速擴展車輛、軟體與服務的製造、銷售與支援，我們已需要且預期將持續需要大量資金以發展與成長業務，包括擴充營運、成長市場推廣、銷售與服務營運、識別並投入資源以考慮與處理新需求領域，包括新地理區域，以及建立品牌與投資下一代科技、產品、服務與製造設施與能力。這些努力可能比預期更昂貴，且可能無法產生足夠的收入增加或業務成長以抵銷這些成本。此外，美國政府的關稅與由此產生的報復性關稅及其他貿易障礙已增加，並將持續增加我們的生產成本。若我們無法緩解這些增加的生產成本，則我們的業務、展望、財務狀況、營運成果與現金流可能受到重大且不利的影響。我們的支出將在可預見的未來持續高額，包括汽車業務相關成本，如生產成本，包括原材料、人工與物流成本，研究與開發投資與費用，與增加銷售相關的成本，如行銷與廣告活動，以及擴充零售客戶參與空間（\"空間\"），與擴充Normal Factory及建設位於喬治亞州亞特蘭大附近的製造廠（\"Stanton Springs North Facility\"）相關的成本，以及軟體與服務業務相關成本，如車輛電氣架構、軟體開發成本、先進駕駛輔助功能、再行銷與車輛維修與保養支援費用，以及擴充充電網路的成本。此外，我們的資金需求程度也將受到現有產品與服務客戶需求及未來產品與服務預期需求的顯著影響，而我們對可能影響業務的趨勢瞭解有限。因此，我們的未來資金需求受到不確定性影響，實際資金需求可能與我們目前預期不同或更高。若我們無法有效管理收入成本、營運費用與資本支出，則我們的業務、展望、財務狀況、營運成果與現金流將受到重大且不利的影響。",
+    "我們預期將需要在近程與長遠期尋求額外的權益與/或債務融資，以資助部分成本與資本支出。我們能否取得必要融資以執行業務計畫，取決於多種因素。這些因素包括投資者與客戶對我們商業模式的接受度、市場對我們執行業務計畫能力的信心、產業整體電動車採用率或需求成長較慢、其他製造商宣佈的電動車生產計畫的延誤、削減或取消，以及全球經濟與金融市場的一般狀況，包括因通貨膨脹、關稅、利率變動、全球衝突或其他地緣政治事件及由此產生的經濟不確定性或全球或國內經濟衰退所導致的資本與信貸市場波動與中斷。這些因素可能使融資的時間、金額、條款與條件對我們而言不具吸引力或無法取得。2025年1月，美國能源部（\"DOE\"）同意安排由聯邦融資銀行提供給Rivian子公司之多筆提款貸款設施，屬於DOE的先進技術車輛製造計畫（\"DOE Loan\"）。我們能否在DOE Loan下取得貸款，取決於某些條件，包括達成特定里程碑，這些里程碑可能在預期時間內或完全無法達成。我們現有債務已導致，任何進一步的負債，包括在DOE Loan下產生的負債，將導致增加的債務償還義務，並可能涉及與我們資金籌措活動及其他財務與營運事項相關的額外限制性契約條款。發行額外的權益或權益連動證券將導致股東的稀釋。若我們無法在現有融資安排下取得資金、籌集足夠資金或在符合我們滿意條件下取得資金，我們可能必須大幅減少支出、延遲或取消預定活動或大幅改變公司結構，且可能無法擁有足夠資源執行原定業務，這將對我們的業務、展望、財務狀況、營運成果與現金流造成重大且不利的影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,217 @@
+{
+ "ticker": "ZBRA",
+ "cik": "0000877212",
+ "accession": "0001628280-26-007668",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Operations and Technologies",
+    "Acquisitions",
+    "Connected Frontline",
+    "Asset Visibility and Automation",
+    "Our Competitive Strengths",
+    "An industry leader focused on digitizing and automating operations, and improving enterprise workflows on the frontline",
+    "High barriers to entry",
+    "Commitment to innovation and deep industry-specific expertise",
+    "Highly diversified business mix",
+    "Global reach and brand",
+    "Scale advantages",
+    "Our Business Strategies",
+    "Leverage our market leadership position and innovation to profitably grow our core business",
+    "Advance our vision",
+    "Increase our opportunity for growth through expansion in adjacent market segments",
+    "Enhance financial strength and flexibility",
+    "Sustainable business model",
+    "Year Ended December 31, 2025",
+    "Sales and Marketing",
+    "Manufacturing and Outsourcing",
+    "Research and Development",
+    "Intellectual Property",
+    "Human Capital",
+    "Regulatory Matters",
+    "Wireless Regulatory Matters",
+    "Other Regulatory Matters",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "We are a global leader in the Automatic Identification and Data Capture (\"AIDC\") industry. The AIDC market consists of mobile computing, data capture, radio frequency identification devices (\"RFID\"), thermal barcode printing, and other workflow automation products and services. The Company's products, services, and software solutions (\"offerings\") are proven to help our customers and end-users digitize and automate their workflows to achieve their critical business objectives, including improved productivity and operational efficiency, optimized regulatory compliance, and better customer experiences.",
+    "We design, manufacture, and sell a broad range of AIDC offerings, including: mobile computers, barcode scanners and imagers, RFID readers, specialty printers for barcode labeling and personal identification, real-time location systems (\"RTLS\"), related accessories and supplies, such as labels and other consumables, and related software applications. We also provide",
+    "machine vision and self-serve touchscreen solutions; a full range of services, including maintenance, technical support, repair, managed and professional services; as well as cloud-based software subscriptions. End-users of our offerings include those in retail and e-commerce, manufacturing, transportation and logistics, healthcare, hospitality, public sector, and other industries. We operate in 129 facilities with approximately 10,700 employees worldwide. We provide our offerings globally through a direct sales force and an extensive network of over 10,000 channel partners, operating in 179 countries.",
+    "We continue to evolve and advance our vision: frontline operations everywhere are digitized, automated and intelligent. Through continual innovation, we have expanded beyond the traditional AIDC market to transform activities such as factory production, packages moving through a supply chain, retail shopping, the hospital patient journey, restaurant self-service, and first responders addressing public safety and emergency situations. Data from enterprise assets, including status, condition, location, utilization, and preferences, is analyzed in the cloud to provide prioritized actionable insights and optimize activities.",
+    "The need to transform workflows is being driven by secular trends in technology, which include the creation of digital twins, cloud-based data analytics, automation, mobility, computer vision, artificial intelligence and machine learning. This transformation is powered by the proliferation of smart, connected devices that exchange an increasingly broad set of information in real time, enabling intelligent and responsive physical environments. The continued rapid growth of mobile computing devices and application software is also significantly expanding use cases throughout enterprises and supply chains. With these expanded capabilities, end-users can consume and act upon dynamic enterprise data and information anytime and anywhere. Additionally, artificial intelligence is further streamlining frontline workflows by providing insights and delivering actions using on-device vision, audio, location and RFID to automate parts of traditional workflows. Leveraging a combination of on-device and cloud-based AI, smart context-aware software companions are beginning to augment worker productivity, providing real-time assistance to get work done more quickly and accurately. Additionally, computer and machine vision technology, which enables the automatic extraction and understanding of useful information from a digital image or video, provides a key element in many of our offerings.",
+    "In the fourth quarter of 2025, the Company's reportable segments changed to Connected Frontline (\"CF\") and Asset Visibility and Automation (\"AVA\"). The CF segment consists of our mobile computing products, and related services and software-based offerings that were formerly part of our Enterprise Visibility & Mobility (\"EVM\") segment. The AVA segment consists of our barcode and card printing products and related supplies and sensors, RFID and RTLS offerings, and related services that collectively represented our former Asset Intelligence & Tracking (\"AIT\") segment, as well as our data capture, and machine vision offerings and related services that were formerly part of our EVM segment. This change aligns with how we are operating our business to advance our strategy.",
+    "Elo: On September 30, 2025, the Company acquired Elo Holdings, Inc. (\"Elo\") for $1,303 million in cash, net of Elo's cash on-hand. Elo is an innovator of solutions that engage customers, enhance self-service, and accelerate automation across a wide range of end markets. Through its acquisition, the Company expanded its portfolio of self-service and consumer-facing workflow offerings. The operating results of Elo are included in the CF segment.",
+    "Photoneo: On February 28, 2025, the Company acquired Photoneo for $62 million in cash, net of Photoneo's cash on-hand. Photoneo is a leading developer and manufacturer of 3D machine vision offerings. Through its acquisition, the Company expanded its machine vision offerings across several industries. The operating results of Photoneo are included in the AVA segment.",
+    "See Note 5, Business Acquisitions in the Notes to Consolidated Financial Statements for additional details.",
+    "The Connected Frontline segment is focused on unifying teams, customers, and AI agents to deliver enhanced frontline experiences. This segment brings together solutions that empower frontline workers with the information and tools they need to make smarter decisions and improve customer service. Principal product categories within the Connected Frontline segment include:",
+    "Mobile Computing: We design, manufacture, and sell rugged and enterprise-grade mobile computing products and accessories in a variety of specialized form factors and designs to meet a wide array of enterprise applications. Purpose-built handheld and wearable mobile computers, vehicle mounted computers, tablets and kiosks ensure reliable operations for targeted use cases, surviving years of rough handling and harsh environments. Industrial applications include inventory management in warehouses and distribution centers; field mobility applications include field service, post and parcel, and direct store delivery; and retail and customer facing applications include e-commerce, omnichannel, mobile point of sale, inventory look-up, staff collaboration, and analytics. Our mobile computing products primarily incorporate the Android™ operating system with",
+    "software extensions for the enterprise and support local-area and wide-area voice and data communications. Our products include software tools and services that enable secure data transmission while also supporting application development, device configuration, and field support to facilitate seamless, rapid deployment and maximum customer return on investment. Our products often incorporate barcode scanning, global position system and RFID features, and other sensory capabilities. Additionally, specialized features, such as advanced data capture technologies, data analytics technologies, voice and video collaboration tools, and advanced battery technologies, enable our customers to work more efficiently and better serve their own customers.",
+    "Elo: Recently acquired leader in technology solutions for customer-facing frontline workflows that modernize point-of-sale, streamline self-service & payment experiences, automate kitchen/industrial workflows, and optimize production and process management. Our offerings include a wide range of industry tailored solutions including point-of-sale solutions, self-serve kiosks and interactive touchscreen displays.",
+    "Workflow optimization solutions: We provide a portfolio of offerings that help our customers improve the agility and productivity of key workflows by analyzing and acting on operational data in real-time. Our primary focus is on frontline workers in Zebra's end markets, including retail, transportation and logistics, manufacturing, and healthcare. Our workflow optimization solutions include software-based offerings, which include workforce management, workflow execution and task management, communication and collaboration-based offerings, demand-sensing, price optimization, and prescriptive analytics. These offerings are typically delivered through cloud-based software subscriptions and leverage big data, artificial intelligence, and mobile and web applications to provide customers with real-time visibility and actionable insights about their business. By analyzing labor, inventory, transactional and real-time situational data, these offerings are able to forecast demand, prescribe actions, schedule workers, and enhance collaboration. We are leveraging artificial intelligence to automate the detailed generation of tasks within complex workflows, bring knowledge and product companions to workers and deliver conversational interfaces that power our overall frontline experience. Our software-based offerings are available with multiple service levels, often contracted through multi-year service agreements. We also provide managed service offerings comprised of software and hardware bundled together, which include a range of physical inventory management offerings for retail, including offerings for full store physical inventories, cycle counts, and analytics."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "General Business and Industry Risks",
+    "Operational Risks",
+    "Financial and Market Risks"
+   ],
+   "paragraphs": [
+    "Investors should carefully consider the risks, uncertainties, and other factors described below, as well as other disclosures in this report, including Management's Discussion and Analysis of Financial Condition and Results of Operations, because they could have a material adverse effect on our business, financial condition, operating results, cash flows, and growth prospects. These risks are not the only risks we face. Our business operations could also be affected by additional factors that are not presently known to us or that we currently consider to be immaterial. No priority or significance is intended by, nor should be attached to, the order in which the risk factors appear.",
+    "The Company is vulnerable to the potential difficulties associated with the increase in the complexity of our business. We have expanded operations and customer offerings over the last several years both organically and through acquisitions. This has caused increased complexities in the business. We believe our future success depends in part on our ability to manage our growth and increased complexities of our business. The following factors could present difficulties to us:",
+    "•Managing our distribution channel partners and end-user customers; •Managing our contract manufacturing and supply chain;",
+    "•Manufacturing an increased number of products; •Developing and managing custom offerings;",
+    "•Managing parties to whom we have outsourced portions of our business operations; •Managing administrative and operational burdens;",
+    "•Managing stakeholder interests including customer, investor and employee social responsibility matters;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "2025 Financial Summary and Other Recent Developments",
+    "Results of Operations: Year Ended 2025 versus 2024 and Year Ended 2024 versus 2023",
+    "Consolidated Results of Operations",
+    "Year Ended December 31, Percent",
+    "Change 2025 vs 2024 Percent",
+    "Year Ended December 31, As a Percentage of Net sales",
+    "Year Ended December 31,",
+    "Results of Operations by Segment",
+    "Connected Frontline (\"CF\")",
+    "Change 2025 vs 2024",
+    "Change 2024 vs 2023",
+    "Asset Visibility & Automation (\"AVA\")",
+    "Liquidity and Capital Resources",
+    "Year Ended December 31, $ Change 2025 vs 2024 $ Change 2024 vs 2023",
+    "Cash flow provided by (used in):",
+    "December 31,",
+    "Critical Accounting Estimates",
+    "New Accounting Pronouncements",
+    "Non-GAAP Measures"
+   ],
+   "paragraphs": [
+    "This section generally discusses fiscal 2025 and 2024 items and year-over-year comparisons between 2025 and 2024. Discussions of 2023 items and year-over-year comparisons between 2024 and 2023 are not included herein, other than within the Results of Operations by Segment which reflects the changes made to our segment reporting made in 2025. Refer to \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in Part II, Item 7 of the Company's Annual Report on Form 10-K for the fiscal year ended December 31, 2024 for that discussion.",
+    "The Company is a global leader in the Automatic Identification and Data Capture (\"AIDC\") industry, ensuring frontline operations everywhere are digitized, automated and intelligent. The AIDC market consists of mobile computing, data capture, radio frequency identification devices (\"RFID\"), thermal barcode printing, and other workflow automation offerings. Effective in the fourth quarter of 2025, we realigned our reportable segments from the former Enterprise Visibility & Mobility (EVM) and Asset Intelligence & Tracking (AIT) segments to two new segments: Connected Frontline (\"CF\") and Asset Visibility and Automation (\"AVA\"). Our CF and AVA segment results will also exclude share-based compensation expense from the measurement of segment operating income. Refer to Part I, Item 1 of this document for additional information.",
+    "•The CF segment is focused on unifying teams, customers, and AI agents to deliver enhanced frontline experiences. This segment brings together solutions that empower frontline workers with the information and tools they need to make smarter decisions and improve customer service. Principal product categories include mobile computing, point of sale solutions, self-service kiosks and interactive touchscreen displays, workflow optimization software solutions, and related services.",
+    "•The AVA segment provides solutions that track critical assets and automate workflows to provide the real-time, data-driven insights necessary to optimize supply chains, manufacturing, and logistics. The principal product categories include thermal barcode printing and related supplies and sensors, data capture, fixed industrial scanning, machine vision, RFID, real-time location systems (RTLS), and related services.",
+    "•Net sales were $5,396 million in the current year compared to $4,981 million in the prior year.",
+    "•Operating income was $700 million in the current year compared to $742 million in the prior year.",
+    "•Net income was $419 million, or $8.18 per diluted share in the current year, compared to Net income of $528 million, or $10.18 per diluted share in the prior year.",
+    "•We repurchased $587 million of common shares, including $303 million in the fourth quarter.",
+    "In the fourth quarter of 2025, we announced our intention to dispose of or exit our robotics automation solutions business in an effort to better align resources with our strategic priorities. In relation to this decision, we incurred approximately $55 million in one-time costs in the fourth quarter, principally consisting of long-lived asset impairments of $45 million, including an intangible asset impairment of $34 million, a right-of-use lease asset impairment of $8 million, and property, plant and equipment impairment of $3 million. The other one-time costs consisted of employee severance and working capital-related charges. These one-time costs are classified as Exit and restructuring on the Consolidated Statement of Operations. Additional costs may be incurred in 2026, as we complete the divestiture of this business.",
+    "In the fourth quarter of 2025, the Company committed to certain organizational changes designed to generate cost efficiencies while better aligning our organizational structure with the Company's long-term growth strategy (collectively referred to as the \"2025 Productivity Plan\"). The total cost under the 2025 Productivity Plan, which is expected to be substantially completed in 2026 and will primarily consist of employee severance costs, is estimated to be approximately $35- 40 million, including $21 million recognized in the fourth quarter of 2025. The costs of these actions are classified within Exit and restructuring on the Consolidated Statements of Operations.",
+    "We expect annualized pre-tax operating costs savings of at least $20 million from these actions, net of re-investment into advancing the Company's AI product portfolio, reorganizing our sales force, and absorbing increased employee-related costs.",
+    "On September 30, 2025, the Company acquired Elo Holdings, Inc. (\"Elo\") for $1,303 million in cash, net of cash on hand. Elo is an innovator of solutions that engage customers, enhance self-service, and accelerate automation across a wide range of end",
+    "markets. The Elo acquisition expands our portfolio of self-service and consumer-facing workflow offerings. The operating results of Elo are included in the CF segment.",
+    "On February 28, 2025, the Company acquired Photoneo for approximately $62 million in cash. Photoneo is a leading developer and manufacturer of 3D machine vision offerings. The Photoneo acquisition complements and expands our machine vision offerings across several industries. The operating results of Photoneo are included in the AVA segment."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "營運與科技",
+    "併購",
+    "連接前線",
+    "資產可視化與自動化",
+    "我們的競爭優勢",
+    "專注於數位化與自動化營運，並改善前線企業作業流程的產業領導者",
+    "高進入門檻",
+    "創新投入與深厚的產業特定專業知識",
+    "高度分散的業務組成",
+    "全球佈局與品牌",
+    "規模優勢",
+    "本公司業務策略",
+    "善用本公司在市場領導地位與創新能力，以獲利方式成長核心業務",
+    "實現本公司願景",
+    "透過擴展鄰近市場區段，增加成長機會",
+    "強化財務實力與靈活性",
+    "永續經營模式",
+    "截至2025年12月31日止會計年度",
+    "銷售與行銷",
+    "製造與委外",
+    "研究與發展",
+    "智慧財產權",
+    "人力資本",
+    "法規事項",
+    "{'Wireless Regulatory Matters': '無線規範事項'}",
+    "{'Other Regulatory Matters': '其他規範事項'}",
+    "{'Available Information': '可供查閱之資訊'}"
+   ],
+   "paragraphs": [
+    "本公司為自動辨識與資料捕獲（\"AIDC\"）產業的全球領導者。AIDC市場包含行動計算、資料捕獲、無線射頻辨識裝置（\"RFID\"）、熱感條碼列印，以及其他工作流程自動化產品與服務。本公司產品、服務與軟體解決方案（\"產品與服務\"）已證明能協助客戶與最終用戶數位化與自動化其工作流程，以達成其關鍵業務目標，包括提高生產力與運營效率、最佳化法規合規，以及改善客戶體驗。",
+    "本公司設計、製造與銷售廣泛的AIDC產品與服務，包括：行動電腦、條碼掃描器與影像辨識器、RFID讀取器、專用列印機用於條碼標籤與個人識別、即時定位系統（\"RTLS\"）、相關配件與耗材，如標籤與其他消耗品，以及相關軟體應用。本公司亦提供",
+    "機械視覺與自助式觸控螢幕解決方案；完整的服務範疇，包括維護、技術支援、修復、管理與專業服務；以及雲端軟體訂閱服務。本公司產品與服務的最終用戶包括零售與電商、製造業、運輸與物流、醫療、餐飲、公部門及其他產業。本公司在全球擁有129個營運據點，約有10,700名員工。本公司透過直接銷售團隊與超過10,000家經銷通路夥伴，於179個國家提供產品與服務。",
+    "本公司持續進化與推進其願景：所有前線作業皆為數位化、自動化與智慧化。透過持續創新，本公司已擴展至傳統AIDC市場之外，轉型廠房生產、包裝在供應鏈中移動、零售購物、醫院病患流程、餐廳自助服務，以及第一線應對公共安全與緊急情況的活動。企業資產的資料，包括狀態、條件、位置、使用率與偏好，會在雲端進行分析，以提供優先的行動見解，並最佳化活動。",
+    "轉型工作流程的需求是由科技的長期趨勢所驅動，包括數位雙生、雲端資料分析、自動化、行動化、電腦視覺、人工智慧與機器學習。此轉型由智慧連線裝置的普及所推動，這些裝置在實時交換越來越廣泛的資訊，使物理環境變得智慧且靈活。行動計算裝置與應用軟體的持續快速成長，也大幅擴展了企業與供應鏈的使用案例。透過這些擴展的技術能力，最終用戶可以隨時隨地使用與行動企業資料與資訊。此外，人工智慧進一步簡化前線工作流程，透過裝置上的視覺、音訊、位置與RFID提供見解與行動，自動化傳統工作流程的部分內容。透過結合裝置端與雲端的人工智慧，智慧情境感知軟體伴侶開始提升員工生產力，提供即時協助，使工作更快速且準確地完成。此外，電腦與機械視覺技術，能自動從數位影像或影片中提取與理解有用的資訊，是本公司許多產品與服務的重要組成部分。",
+    "在2025年第四季，本公司應報告分部變更為連線前線（\"CF\"）與資產可見性與自動化（\"AVA\"）。CF分部包含本公司行動計算產品，以及相關服務與軟體解決方案，這些原先屬於本公司企業可見性與行動（\"EVM\"）分部。AVA分部包含本公司條碼與卡片列印產品與相關耗材與感測器、RFID與RTLS解決方案，以及相關服務，這些 collectively 代表本公司原先的資產智慧與追蹤（\"AIT\"）分部，以及本公司資料捕獲與機械視覺解決方案與相關服務，這些原先屬於本公司EVM分部。此變更符合本公司營運方式，以推進其戰略。",
+    "Elo：於2025年9月30日，本公司以現金13億3千萬美元取得Elo Holdings, Inc.（\"Elo\"），扣除Elo現有現金。Elo為創新解決方案的開發者，能與客戶互動、提升自助服務，並加速各產業的自動化。透過此次收購，本公司擴展了其自助服務與面對消費者的工作流程解決方案。Elo的營運成果已納入CF分部。",
+    "Photoneo：於2025年2月28日，本公司以現金6千2百萬美元取得Photoneo，扣除Photoneo現有現金。Photoneo為3D機械視覺解決方案的領導開發與製造商。透過此次收購，本公司擴展了其機械視覺解決方案至多個產業。Photoneo的營運成果已納入AVA分部。",
+    "請參閱財務會計彙編附註第 5 項「企業併購」，以取得更多細節。",
+    "Connected Frontline 分部專注於統合團隊、客戶與 AI 代理人，以提供增強的前端體驗。此分部整合了各種解決方案，賦予前端工作人員所需的資訊與工具，使其能做出更明智的決策，並提升客戶服務。Connected Frontline 分部的主要產品類別包括：",
+    "行動計算：我們設計、製造並銷售堅固型與企業級行動計算產品與配件，以多種專門化的形狀與設計，符合廣泛的企業應用需求。專為應用而設計的手持式與穿戴式行動計算設備、車載計算設備、平板電腦與互動式服務站，確保在特定應用場景中可靠運作，能承受多年的粗暴使用與惡劣環境。工業應用包括倉庫與物流中心的存貨管理；現場移動應用包括現場服務、郵遞與直送商店配送；零售與面對客戶應用包括電商、全通路、行動收銀、存貨查詢、員工協作與分析。我們的行動計算產品主要採用 Android™ 作業系統",
+    "軟體延伸功能用於企業端，並支援區域及廣域語音與資料通訊。本公司產品包括軟體工具與服務，可實現資料安全傳輸，同時支援應用程式開發、裝置設定與現場支援，以實現順暢、快速部署與最大客戶投資回報。本公司產品常整合條碼掃描、全球定位系統與無線射頻辨識功能，以及其他感測能力。此外，專門功能，如先進資料擷取技術、資料分析技術、語音與視訊協作工具，以及先進電池技術，可協助客戶更有效率地工作，並更好地服務其客戶。",
+    "Elo: 最近收購的技術解決方案領導者，專注於改善面對客戶的前端作業流程，現代化銷售點、簡化自助服務與付款體驗、自動化廚房/工業作業流程，並優化生產與流程管理。本公司提供廣泛的產業客製化解決方案，包括銷售點解決方案、自助服務亭與互動式觸控螢幕顯示器。",
+    "作業流程最佳化解決方案: 本公司提供一系列解決方案，協助客戶透過分析與處理運營資料，提升關鍵作業流程的靈活性與生產力。本公司主要聚焦於Zebra的終端市場中的前端工作人員，包括零售、運輸與物流、製造業與醫療保健。本公司作業流程最佳化解決方案包括軟體解決方案，包含工作人員管理、作業流程執行與任務管理、以通訊與協作為基礎的解決方案、需求感測、價格最佳化與預測性分析。這些解決方案通常透過雲端軟體訂閱方式提供，並運用大數據、人工智慧與行動與網頁應用程式，為客戶提供即時的業務可視性與可操作的洞察。透過分析人力、存貨、交易性與即時情境資料，這些解決方案可預測需求、建議行動、排班工作人員並提升協作。本公司正運用人工智慧自動化複雜作業流程中詳細任務的產生，為工作人員提供知識與產品協助，並提供對話式介面以強化整體前端體驗。本公司軟體解決方案提供多種服務等級，通常透過多年期服務合約訂購。本公司也提供整合軟體與硬體的管理服務解決方案，包含零售業的多種實體存貨管理解決方案，包括完整店面實體存貨、週期盤點與分析。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "2025 財務摘要及其他近期發展",
+    "營運成果：2025 年度與 2024 年度及 2024 年度與 2023 年度比較",
+    "合併營運成果",
+    "2025 年 12 月 31 日，百分比",
+    "2025 年度與 2024 年度比較，百分比",
+    "2025 年 12 月 31 日，佔淨銷售額百分比",
+    "2025 年 12 月 31 日，",
+    "按分部營運成果",
+    "Connected Frontline (\"CF\")",
+    "Change 2025 vs 2024",
+    "Change 2024 vs 2023",
+    "Asset Visibility & Automation (\"AVA\")",
+    "流動性及資本資源",
+    "截至12月31日，$ 2025年與2024年變動 $ 2024年與2023年變動",
+    "現金流來自（使用於）：",
+    "12月31日,",
+    "重要會計估計",
+    "新會計準則",
+    "非GAAP指標"
+   ],
+   "paragraphs": [
+    "本節一般討論財務年度2025年與2024年的項目以及2025年與2024年之間的年對年比較。2023年的項目以及2024年與2023年之間的年對年比較未包含於本文件中，除非在各應報告分部的營運成果部分，該部分反映2025年對應報告分部的變更。請參閱本公司2024年12月31日財務年度的10-K年度報告，該報告位於第二部分第七項「管理層對財務狀況與營運成果之討論與分析」。",
+    "本公司為自動辨識與資料捕獲（\"AIDC\"）產業的全球領導者，確保各處的前端作業皆實現數位化、自動化與智慧化。AIDC市場包含行動計算、資料捕獲、無線射頻辨識裝置（\"RFID\"）、熱感條碼列印以及其他流程自動化方案。自2025年第四季起，我們將應報告分部從原先的企業可視性與移動性（EVM）與資產智慧化與追蹤（AIT）分部重新調整為兩個新的分部：連線前端（\"CF\"）與資產可視性與自動化（\"AVA\"）。我們的CF與AVA分部營運成果將不包含股票基數報酬費用於分部營運收入的計算中。請參閱本文件第一部分第一項以取得更多資訊。",
+    "•CF分部專注於統合團隊、客戶與AI代理，以提供增強的前端體驗。此分部整合了能賦予前端員工所需資訊與工具，使其做出更明智決策並提升客戶服務的解決方案。主要產品類別包括行動計算、銷售點解決方案、自助服務櫃檯與互動式觸控顯示螢幕、流程優化軟體解決方案以及相關服務。",
+    "•AVA分部提供解決方案，用以追蹤關鍵資產並自動化流程，以提供實時、資料驅動的洞察，用以優化供應鏈、製造與物流。主要產品類別包括熱感條碼列印與相關耗材與感測器、資料捕獲、固定工業掃描、機械視覺、RFID、實時定位系統（RTLS）以及相關服務。",
+    "•本年度淨銷售額為53億9600萬美元，較前一年的49億8100萬美元增加。",
+    "•本年度營運收入為7億美元，較前一年的7億4200萬美元減少。",
+    "•本年度淨收入為4億1900萬美元，或每股稀釋後收益8.18美元，較前一年的淨收入5億2800萬美元，或每股稀釋後收益10.18美元減少。",
+    "•本公司於本年度購回5億8700萬美元的普通股，其中第四季購回3億300萬美元。",
+    "2025 年第四季，本公司宣佈有意出售或退出我們的機械人自動化解決方案業務，以更好地將資源與本公司戰略優先事項對齊。與此決定相關，本公司在第四季產生約 5500 萬美元的一次性成本，主要為長期資產減損 4500 萬美元，包括無形資產減損 3400 萬美元、權利使用租賃資產減損 800 萬美元，以及廠房、機械與設備減損 300 萬美元。其他一次性成本包括員工遣散費用及營運資金相關費用。這些一次性成本在合併營運損益表中歸類為退出及重整。2026 年在完成此業務的出售時，可能產生額外成本。",
+    "2025 年第四季，本公司承諾進行某些組織變更，旨在產生成本效益，同時更好地將組織架構與本公司長期成長策略對齊（ collectively referred to as the \"2025 Productivity Plan\"）。2025 Productivity Plan 的總成本，預計在 2026 年 substantially 完成，主要為員工遣散費用，預估約為 3500 萬至 4000 萬美元，其中包括 2025 年第四季認列的 2100 萬美元。這些行動的成本在合併營運損益表中歸類為退出及重整。",
+    "本公司預期這些行動將產生至少 2000 萬美元的年化稅前營運成本節省，扣除重新投資以推動本公司 AI 產品組合、重整銷售團隊及吸收增加的員工相關成本後的淨額。",
+    "於2025年9月30日，本公司以現金1,303千萬美元取得Elo Holdings, Inc.（\"Elo\"），扣除現金及存款後之淨額。Elo為一家創新解決方案的供應商，其解決方案能與客戶互動、提升自助服務，並加速自動化應用於廣泛的終端應用領域",
+    "市場。Elo 的收購擴展了本公司自服務及面對消費者的工作流程產品組合。Elo 的營運成果已納入 CF 分部。",
+    "於 2025 年 2 月 28 日，本公司以約 6200 萬美元現金收購 Photoneo。Photoneo 是 3D 機械視覺產品的主要開發及製造商。Photoneo 的收購補強並擴展了本公司在多個產業的機械視覺產品組合。Photoneo 的營運成果已納入 AVA 分部。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "一般營運與產業風險",
+    "營運風險",
+    "財務與市場風險"
+   ],
+   "paragraphs": [
+    "投資人應謹慎考量下列所描述的風險、不確定性及其他因素，以及本報告中其他揭露資訊，包括管理層對財務狀況與營運成果之討論與分析，因為這些因素可能會對本公司之業務、財務狀況、營運結果、現金流及成長前景造成重大不利影響。這些風險並非本公司所面臨的唯一風險。本公司之業務運作也可能受到其他尚未為本公司所知或目前認為不重要之因素影響。風險因素出現之順序並無優先或重要性之考量，亦不應加以強調。",
+    "本公司易受業務複雜度增加所帶來之潛在困難影響。本公司在過去數年內透過內生成長與收購方式擴大了業務與客戶產品組合。此一擴張導致業務複雜度增加。本公司認為未來之成功在部分程度上取決於本公司管理成長與業務複雜度之能力。下列因素可能會對本公司造成困難：",
+    "•管理我們之通路經銷商與最終用戶客戶；•管理我們之委託製造與供應鏈；",
+    "•製造更多種產品；•開發與管理客製化產品組合；",
+    "•管理我們已委外部分業務運作之合作夥伴；•管理行政與運營負擔；",
+    "•管理利害關係人之利益，包括客戶、投資人與員工之社會責任事項；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

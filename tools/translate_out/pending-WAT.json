@@ -1,0 +1,132 @@
+{
+ "ticker": "WAT",
+ "cik": "0001000697",
+ "accession": "0001193125-26-062604",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Business Segments",
+    "Waters Products and Markets",
+    "High-Performance and Ultra-Performance Liquid Chromatography",
+    "Mass Spectrometry and Liquid Chromatography-Mass Spectrometry",
+    "Waters Services",
+    "TA Products and Markets",
+    "Thermal Analysis, Rheometry and Calorimetry",
+    "Global Customers",
+    "Sales and Service",
+    "Manufacturing and Distribution",
+    "Raw Materials",
+    "Research and Development",
+    "Human Capital",
+    "Talent Development",
+    "Culture of Inclusion",
+    "Health and Safety",
+    "Patents, Trademarks and Licenses",
+    "Environmental Matters and Climate Change",
+    "Available Information",
+    "Forward-Looking Statements"
+   ],
+   "paragraphs": [
+    "Waters Corporation (the \"Company,\" \"we,\" \"our,\" or \"us\"), a global leader in analytical instruments and software, has pioneered innovations in chromatography, mass spectrometry and thermal analysis serving life, materials and food sciences for more than 65 years. The Company primarily designs, manufactures, sells and services high-performance liquid chromatography (\"HPLC\"), ultra-performance liquid chromatography (\"UPLC\" and together with HPLC, referred to as \"LC\") and mass spectrometry (\"MS\") technology systems and support products, including chromatography columns, other consumable products and comprehensive post-warranty service plans. These systems are complementary products that are frequently employed together (\"LC-MS\") and sold as integrated instrument systems using common software platforms.",
+    "The Company's products are used by pharmaceutical, clinical, biochemical, industrial, nutritional safety, environmental, academic and governmental customers working in research and development, quality assurance and other laboratory applications. LC is a standard technique and is utilized in a broad range of industries to detect, identify, monitor and measure the chemical, physical and biological composition of materials, and to purify a full range of compounds. MS technology, principally in conjunction with chromatography, is employed in drug discovery and development, including clinical trial testing, the analysis of proteins in disease processes (known as \"proteomics\"), nutritional safety analysis and environmental testing. LC-MS instruments combine a liquid phase sample introduction and separation system with mass spectrometric compound identification and quantification. In addition, the Company designs, manufactures, sells and services thermal analysis, rheometry and calorimetry instruments through its TA Instruments (\"TA\") product line. These instruments are used in predicting the suitability and stability of fine chemicals, pharmaceuticals, water, polymers, metals and viscous liquids for various industrial, consumer goods and healthcare products, as well as for life science research. The Company is also a developer and supplier of advanced software-based products that interface with the Company's instruments, as well as other manufacturers' instruments.",
+    "Waters Corporation, organized as a Delaware corporation in 1991, is a holding company that owns all of the outstanding common stock of Waters Technologies Corporation, its operating subsidiary. Waters Corporation became a publicly traded company with its initial public offering (\"IPO\") in November 1995. Since the IPO, the Company has added four significant and complementary technologies to its range of products with the acquisitions of TA Instruments in May 1996, Micromass Limited in September 1997, Wyatt Technology in May 2023 and the BDS Business (as defined below) in February 2026.",
+    "Acquisition of BD Biosciences & Diagnostic Solutions Businesses",
+    "On February 9, 2026, the Company completed the acquisition (the \"BDS Business Acquisition\") of the Biosciences and Diagnostic Solutions businesses (the \"BDS Business\") of Becton, Dickinson and Company (\"BD\"), for a total purchase price, including assumed debt, of $16.8 billion. This transformative combination establishes an innovative global leader in life sciences and diagnostics, enhancing the Company's scale, broadening its capabilities and expanding its presence across attractive end markets. Following the BDS Business Acquisition, the Company now offers products for the safe collection and transport of diagnostics specimens, and instruments and reagent systems to detect a broad range of infectious diseases, healthcare-associated infections and cancers through BD's former Life Sciences business segment, as well as immunology and cancer research solutions and related clinical diagnostics, including flow cytometry instruments and reagents, and innovative multiomics tools through BD's former Biosciences and Diagnostic Solutions business units. Following the closing of the BDS Business Acquisition, the Company has reorganized the existing and new divisions into the following four segments: Waters Analytical Sciences, Waters Biosciences, Waters Advanced Diagnostics and Waters Materials Sciences.",
+    "The transaction was structured as a Reverse Morris Trust transaction.",
+    "Pursuant to the BDS Business Acquisition: (i)",
+    "BD transferred all of the rights, titles and interests to and under certain assets and liabilities relating to the BDS Business to Augusta SpinCo Corporation (\"SpinCo\"), a subsidiary of BD incorporated in connection with the transaction (the \"Spin-Off\");",
+    "BD distributed to its shareholders all of the issued and outstanding shares of common stock, $0.01 par value per share, of SpinCo (\"SpinCo Common Stock\") held by BD by way of a pro rata distribution (the \"Distribution\"); and",
+    "following the Distribution, a subsidiary of the Company (\"Merger Sub\") was merged with and into SpinCo, with SpinCo as the surviving entity (the \"Merger\"), and all SpinCo Common Stock was converted into the right to receive 38,541,852 shares of common stock, $0.01 par value per share, of the Company (\"Company Common Stock\").",
+    "As a result of the BDS Business Acquisition, SpinCo became a wholly owned subsidiary of Waters. Upon closing of the BDS Business Acquisition, BD's shareholders owned approximately 39.2% of the combined company and existing shareholders of the Company owned approximately 60.8% of the combined company.",
+    "In connection with the BDS Business Acquisition, BD received a cash distribution of approximately $4.0 billion from SpinCo prior to the completion of the transaction (the \"SpinCo Cash Distribution\"). To fund the SpinCo Cash Distribution, SpinCo incurred approximately $4.0 billion of new indebtedness substantially concurrently with the completion of the transaction, which indebtedness was assumed by Waters as a result of the transaction.",
+    "The Company's business activities, for which discrete financial information is available, are regularly reviewed and evaluated by the chief operating decision maker. Based on the evaluation of the Company's business as conducted in 2025, the Company determined that it has two operating segments: Waters and TA. The Waters operating segment is primarily in the business of designing, manufacturing, selling and servicing LC and MS instrument systems, columns and other precision chemistry consumables that can be integrated and used along with other analytical instruments. The TA operating segment is primarily in the business of designing, manufacturing, selling and servicing thermal analysis, rheometry and calorimetry instruments. The Company's two operating segments have similar economic characteristics: product processes, products and services, types and classes of customers, methods of distribution, and regulatory environments. Because of these similarities, the two segments have been aggregated into one reporting segment for financial statement purposes. Operations of the Wyatt business are part of the Waters operating segment.",
+    "Following the closing of the BDS Business Acquisition in February 2026, the Company has reorganized the existing and new business units into the following four segments: Waters Analytical Sciences, Waters Biosciences, Waters Advanced Diagnostics and Waters Materials Sciences. The Company will evaluate its business activities as currently organized to determine its operating segments and reporting segments for future reporting periods."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factor Summary",
+    "Risks Related to the BDS Business Acquisition",
+    "Risks Related to the Macroeconomic Conditions",
+    "Risks Related to our Business",
+    "Risks Related to Human Capital Management",
+    "Risks Related to Cybersecurity and Data Privacy",
+    "Risks Related to Compliance, Regulatory or Legal Matters"
+   ],
+   "paragraphs": [
+    "The Company's failure to successfully integrate the BDS Business within the expected timeline could adversely affect the Company's future results.",
+    "The Company may incur additional costs and charges as a result of restructuring activities and such restructuring activities may be disruptive to the Company's business and may not result in anticipated cost savings.",
+    "The amount of indebtedness that the Company assumed as a result of the BDS Business Acquisition is substantial and could adversely affect the Company's operational flexibility and increase its borrowing costs.",
+    "The Company and SpinCo are required to abide by potentially significant restrictions that could limit the Company's ability to undertake certain corporate actions that otherwise could be advantageous.",
+    "The Company may be unable to provide the same types and level of services to the BDS Business that historically have been provided by BD or may be unable to provide them at the same cost.",
+    "The Company's international operations may be negatively affected by political events, wars or terrorism, economic conditions, foreign currency fluctuation and regulatory changes which could have a material adverse effect on the Company's results of operations or financial condition."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "業務分部",
+    "Waters 產品與市場",
+    "高解析度與超解析度液相層析技術",
+    "質譜分析與液相層析-質譜聯用技術",
+    "Waters 服務",
+    "TA 產品與市場",
+    "熱分析、流變學與熱量計測",
+    "全球客戶",
+    "銷售與服務",
+    "製造與流通",
+    "原物料",
+    "研究與發展",
+    "人力資本",
+    "人才發展",
+    "包容文化",
+    "健康與安全",
+    "專利、商標及許可證",
+    "環境事項及氣候變遷",
+    "可取得資訊",
+    "前瞻性陳述"
+   ],
+   "paragraphs": [
+    "Waters Corporation (the \"Company,\" \"we,\" \"our,\" or \"us\"), 一間全球領先的分析儀器與軟體供應商，已於生命科學、材料科學與食品科學領域推動創新技術超過 65 年，主要為 chromatography、mass spectrometry 與 thermal analysis。本公司主要設計、製造、銷售與維修高階液體層析 (\"HPLC\"), 超高階液體層析 (\"UPLC\" 以及與 HPLC 合稱為 \"LC\") 與質譜分析 (\"MS\") 技術系統與支援產品，包括層析柱、其他消耗性產品與完整的保固後服務方案。這些系統為互補性產品，經常一起使用 (\"LC-MS\")，並以共同軟體平台銷售為整合式儀器系統。",
+    "本公司產品被用於藥物、臨牀、生化、工業、營養安全、環境、學術與政府機構的客戶，用於研究與開發、品質保證及其他實驗室應用。LC 是一種標準技術，被廣泛應用於各產業中，用以偵測、識別、監測與測量材料的化學、物理與生物組成，並純化各種化合物。MS 技術，主要與層析技術結合，被應用於藥物發現與開發，包括臨牀試驗測試、蛋白質在疾病過程中的分析 (稱為 \"proteomics\"), 營養安全分析與環境測試。LC-MS 儀器結合液相樣本引入與分離系統與質譜分析的化合物識別與量化。此外，本公司透過其 TA Instruments (\"TA\") 產品線設計、製造、銷售與維修熱分析、流變學與熱量計儀器。這些儀器被用於預測細化化學品、藥物、水、聚合物、金屬與黏性液體在各種工業、消費性商品與醫療產品中的適用性與穩定性，以及用於生命科學研究。",
+    "Waters Corporation 於 1991 年在特拉華州設立為公司，為一家控股公司，擁有 Waters Technologies Corporation 全部發行在外的普通股，為其營運子公司。Waters Corporation 於 1995 年 11 月透過首次公開發行 (\"IPO\") 成為上市公司。自 IPO 以來，本公司透過收購 TA Instruments 於 1996 年 5 月、Micromass Limited 於 1997 年 9 月、Wyatt Technology 於 2023 年 5 月以及 BDS Business 於 2026 年 2 月，將四項重要且互補的技術加入其產品範疇。",
+    "收購 BD 生物科學與診斷解決方案業務",
+    "本公司於 2026 年 2 月 9 日完成收購 (\"BDS Business Acquisition\") BD 公司 (\"BD\") 的生物科學與診斷解決方案業務 (\"BDS Business\")，總購併價格，包括承擔債務，為 168 億美元。此項轉型組合建立了一間創新全球領先的生物科學與診斷領導者，提升本公司的規模，擴展其能力，並加強其在具吸引力終端市場的佈局。完成 BDS Business Acquisition 後，本公司現在提供產品用以安全收集與運輸診斷樣本，並提供儀器與試劑系統用以檢測廣泛的傳染病、醫療相關感染與癌症，透過 BD 前生命科學業務部門，以及免疫學與癌症研究解決方案與相關臨牀診斷，包括流式細胞儀器與試劑，以及創新多組學工具，透過 BD 前生物科學與診斷解決方案業務單位。",
+    "此交易結構為一反向莫里斯信託交易 (Reverse Morris Trust transaction)。",
+    "根據 BDS Business Acquisition：(i)",
+    "BD 將與 BDS Business 相關的所有權利、標的與義務轉讓至 Augusta SpinCo Corporation (\"SpinCo\"), 一間為此交易設立的 BD 子公司 (\"Spin-Off\")",
+    "BD將其所有已發行及流通的普通股，每股面值$0.01，屬於SpinCo（\"SpinCo普通股\"）的股份，以比例方式分發給其股東（\"分發\"）；",
+    "分發後，本公司（\"Merger Sub\"）的子公司與SpinCo合併，以SpinCo為存續公司（\"合併\"），所有SpinCo普通股轉換為取得本公司普通股，每股面值$0.01，共38,541,853股（\"本公司普通股\"）之權利。",
+    "因BDS業務收購，SpinCo成為Waters的 wholly owned subsidiary。收購交易完成後，BD股東持有合併後公司約39.2%的股份，原有本公司股東持有約60.8%的股份。",
+    "配合BDS業務收購，BD在交易完成前從SpinCo獲得約$40億現金分紅（\"SpinCo現金分紅\"）。為資助此現金分紅，SpinCo於交易完成時同時增加約$40億新債務，此債務由Waters因交易而承擔。",
+    "本公司之業務活動，其財務資訊可明確區分，由最高階營運決策者定期評估與審查。根據2025年對本公司業務的評估，本公司判定其有兩個營運分部：Waters與TA。Waters營運分部主要從事設計、製造、銷售與維護LC與MS儀器系統、柱子及其他可與其他分析儀器整合使用的精確化學消耗品。TA營運分部主要從事設計、製造、銷售與維護熱分析、流變學與熱量計儀器。本公司兩個營運分部具有相似的經濟特性：產品製造流程、產品與服務類型、客戶類別與類型、分銷方式與監管環境。因這些相似性，兩個分部於財務報表目的被合併為一個報告分部。Wyatt業務運作屬於Waters營運分部。",
+    "在2026年2月BDS業務收購完成後，本公司已將現有與新設的業務單位重新組織為以下四個分部：Waters分析科學、Waters生物科學、Waters先進診斷與Waters材料科學。本公司將評估目前組織的業務活動，以確定未來會計期間的營運分部與報告分部。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因子總覽",
+    "與BDS業務收購相關的風險",
+    "與總體經濟環境相關的風險",
+    "與本公司業務相關的風險",
+    "與人力資源管理相關的風險",
+    "與網路安全及資料隱私權相關的風險",
+    "與合規、法規或法律事務相關的風險"
+   ],
+   "paragraphs": [
+    "本公司未能在預期時間內成功整合BDS業務，可能會對本公司未來的營運成果造成不利影響。",
+    "本公司可能因重整活動而產生額外的成本與費用，且這些重整活動可能幹擾本公司的業務運作，並未必能實現預期的成本節省。",
+    "本公司因取得BDS業務而承擔的負債金額相當龐大，可能會對本公司的營運彈性造成不利影響，並提高其借款成本。",
+    "本公司與SpinCo必須遵守可能相當重要的限制，這些限制可能會限制本公司執行某些原本可能有利的企業行動能力。",
+    "本公司可能無法提供與歷史表現相同類型與層級的服務予BDS業務，或無法以相同成本提供這些服務。",
+    "本公司國際業務可能因政治事件、戰爭或恐怖主義、經濟情況、外幣波動及法規變動而受到負面影響，這些因素可能會對本公司的營運成果或財務狀況造成重大不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

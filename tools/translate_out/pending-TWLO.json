@@ -1,0 +1,221 @@
+{
+ "ticker": "TWLO",
+ "cik": "0001447669",
+ "accession": "0001447669-26-000021",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Platform",
+    "Our Strategy",
+    "Research and Development",
+    "Sales and Marketing",
+    "Customer Support and Services",
+    "Intellectual Property",
+    "The Twilio Magic",
+    "Our Employees and Human Capital Resources",
+    "Corporate Information",
+    "Information about Geographic Revenue",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "We envision a world in which every digital interaction is amazing. By combining our leading communications capabilities with rich contextual data and artificial intelligence (\"AI\"), we provide the infrastructure for businesses of all sizes to revolutionize how they engage with their customers by delivering seamless, trusted, and personalized customer experiences at scale.",
+    "We offer highly customizable communications application programming interfaces (\"APIs\") that enable developers to embed numerous forms of messaging, voice, email, and video interactions into their customer-facing applications, as well as software products that target specific engagement needs, including our digital engagement centers, marketing campaigns, and user authentication and identity solutions. This combination of flexible APIs and software solutions, together with our customer data capabilities, helps businesses of all sizes and across numerous industries to benefit from smarter and more streamlined engagement at every step of the customer journey, including reduced customer acquisition costs, lasting loyalty, and increased customer value. The value proposition of our offerings has become stronger and our products have become more strategic to our customers as businesses are increasingly prioritizing building more personalized and differentiated customer engagement experiences through digital channels.",
+    "We have experienced substantial growth in our business since inception, and as of December 31, 2025, we had over 402,000 Active Customer Accounts representing organizations from small and medium-sized businesses to large enterprises across a broad range of industries. Our growth has predominantly been organic as a result of new customer acquisition, as well as customers increasing their usage of our products, extending their usage of our products to new applications, or adopting new products that we offer. We have also fueled our growth through strategic acquisitions and integrations of businesses that complemented our pre-existing products and allowed us to expand our platform and to add new customer accounts.",
+    "The Twilio platform combines our communications channels and software solutions with contextual data and AI-powered orchestration, enabling businesses to deliver amazing customer engagement across the entire customer journey. Our platform provides a trusted, simple, and smart infrastructure foundation that customers can build on. We help enable conversations that are two-way and omnichannel by default, providing customers a tailored experience — at scale.",
+    "We offer highly customizable APIs and products to build rich contextual communications within applications, allowing developers to build orchestrated engagements with customers worldwide. We also offer solutions for user authentication and identity, and advanced compliance and regulatory management software to support success within a changing ecosystem of regulations. Additionally, our customer data capabilities enable businesses to collect, contextualize, and leverage first-party and real-time customer data to create highly personalized experiences and campaigns across multiple channels. They also allow businesses to break down data silos across their organizations and to leverage a single unified source of customer data for their various business teams. Our products can be used individually or in combination to enable more personalized, timely, and impactful communications and engagements across the customer journey.",
+    "Our platform is connected to our Super Network, a software layer that enables our customers' applications to communicate with devices globally. The Super Network interconnects communications networks and inbox services providers around the world and continually analyzes billions of data points to optimize the quality and cost of communications that flow through our platform. The Super Network also contains a set of APIs that gives our customers access to additional foundational components offered through our platform, such as phone numbers and session initiation protocol trunking.",
+    "•Messaging. Twilio Programmable Messaging (\"Messaging\") is an API to send and receive SMS, MMS, RCS, and over-the-top (e.g., WhatsApp and Facebook Messenger) messages globally over a variety of sender types. Messaging uses intelligent sending features to ensure messages reliably reach end users wherever they are. Our customers use Messaging across numerous use cases, including account notifications, marketing, mass alerts, and order confirmations, as well as multi-party and conversational use cases, such as conversational marketing, sales support, and customer care.",
+    "•Voice. Twilio Programmable Voice (\"Voice\") is an API that allows developers to build solutions to make, manage, and receive phone calls globally through a browser, application, phone, or other methods. Our voice software, which works over both the traditional public switched telephone network and over Internet Protocol (\"VoIP\"), allows developers to incorporate advanced voice functionality such as integrations with AI-based virtual agents, text-to-speech and speech-to-text, global conferencing, emergency calling, call recording, and media streams, as well as address use cases such as contact centers, interactive voice response systems, call tracking, analytics solutions and anonymized communications.",
+    "•Email. Twilio SendGrid Email (\"Email\") is an API and no-code user interface that solves email delivery challenges at scale. Built on our proprietary mail transfer agent, Email enables customers to build customized solutions and optimize for inbox placement. Our Email API allows businesses to integrate with multiple leading development frameworks and client libraries in multiple languages as well as customize content. It also provides sender authentication, security, mailbox compliance, and delivery dashboards. Our Marketing Campaigns product, which features a no-code user interface and is built on top of our Email infrastructure, enables email campaign sending at scale. Marketing Campaigns includes email design and templates, list management, dynamic content and email testing. Businesses use our Email products for both marketing messages and transactional emails, including promotional offers, newsletters, shipping notifications, password resets, and sign-up confirmations.",
+    "•User Authentication and Identity. Our User Authentication and Identity solutions enable businesses to verify, authenticate, and manage users. Twilio Verify (\"Verify\") is a managed solution for multi-channel user verification, which effectively adds security at the point of new user activation and onwards, providing a low-friction and secure login experience. Using Verify, businesses can add an extra layer of security to their applications through a range of secure authentication methods, including one-time passwords over SMS, voice, email, push-based authentication, as well as phishing resistant authentication with passkeys. Verify includes Fraud Guard, which is aimed at automatically blocking fraudulent messages resulting from artificially inflated traffic or SMS pumping. Additionally, Twilio Lookup API provides real-time mobile-based identity intelligence that can reduce fraud risks and improve message delivery.",
+    "•Segment. Twilio Segment (\"Segment\") is our customer data platform that provides businesses with the tools to harness the power of contextual data by unifying real-time information collected throughout each customer's journey into a unique profile. Segment helps businesses create precise audiences, continuous experiences, and contextual personalization with a unified view of the customer, seamless journey orchestration, and easy-to-use AI based on trusted data to save time and achieve results. Segment offers hundreds of out-of-the-box connections to collect web and mobile app data via a single API, transform and load it into cloud warehouses, and activate it back to business tools with Reverse ETL (Extract, Transform, Load) and customizable pipelines. It also provides privacy and compliance tools, unifies cross-channel data into trusted customer profiles for enrichment and machine learning (\"ML\"), enables real-time personalization and journey orchestration, and uses generative and predictive AI to build targeted audiences and deliver 1:1 experiences at scale.",
+    "We generate revenue from our platform through a combination of usage-based and subscription-based fees. Revenue generated from Messaging, Voice, and User Authentication and Identity is primarily recognized on a usage basis. Revenue generated from Email and Segment is primarily recognized on a subscription basis. We experience seasonal trends due to increased consumer activity in the fourth quarter.",
+    "Our strategy is rooted in streamlining our platform and delivering a trusted, intuitive customer experience. With the Twilio platform serving as the foundational infrastructure layer that embeds communications, contextual data, and AI in one place, we aim to help businesses engage more effectively with fast, relevant, and personalized interactions. We are concentrating on the highest-impact product areas for our future, and we intend to pursue the following strategies:",
+    "•One Platform to Enable Amazing Customer Engagement. We are focused on harnessing Twilio's foundational strengths in communication channel offerings, global scale, developer loyalty, and contextual data assets to deliver a single cohesive platform for frictionless, context-driven interactions through trust at scale, simplified complexity, and smart engagement. Our investments in platform innovation include pre-built solutions and integrations, including cross-channel orchestration capabilities. These are designed to help customers reduce friction and streamline how they add communication channels, to deliver amazing customer engagement."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factor Summary",
+    "Risks Related to Our Business and Our Industry",
+    "Global economic and political conditions, including macroeconomic and political uncertainties, have had, and may continue to have, an adverse impact on our business, results of operations and financial condition.",
+    "If our customers terminate or reduce their usage of our products, our business, results of operations and financial condition would be adversely affected.",
+    "The success of our products depends, in part, on our ability to integrate them with third-party products used by us or our customers and to ensure that they operate effectively with evolving platforms and technologies.",
+    "If we fail to effectively manage our growth and strategic changes to our business, then our business, results of operations and financial condition could be adversely affected.",
+    "We have a history of losses and may not achieve or sustain profitability in the future.",
+    "If we are not able to maintain and enhance our brand and increase market awareness of our company and products, then our business, results of operations and financial condition may be adversely affected.",
+    "Failure to set optimal prices for our products could adversely impact our business, results of operations and financial condition.",
+    "Our international operations expose us to risks inherent in global operations.",
+    "We may not realize potential benefits from our acquisitions, partnerships and investments because of difficulties related to integration, the achievement of synergies, and other challenges.",
+    "Risks Related to Cybersecurity, Data Privacy and Intellectual Property"
+   ],
+   "paragraphs": [
+    "Investing in our Class A common stock (\"common stock\") involves a high degree of risk. A description of the risks and uncertainties associated with our business is set forth below. You should carefully consider the risks and uncertainties described below, together with all of the other information in this Annual Report on Form 10-K, including the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and our consolidated financial statements and related notes, before making a decision to invest in our common stock. The risks and uncertainties described below may not be the only ones we face. If any of the risks actually occur, our business, results of operations and financial condition could be adversely affected. In that event, the market price of our common stock could decline, and you could lose part or all of your investment.",
+    "Our business operations are subject to numerous risks and uncertainties, including those outside of our control, that could cause our business, results of operations, and financial condition to be harmed, including risks regarding the following:",
+    "Risks Related to Our Business and Industry",
+    "•the impact of global economic and political conditions, including macroeconomic and political uncertainties;",
+    "•fluctuations in our quarterly results and our ability to meet securities analysts' and investors' expectations;",
+    "•fluctuations in the levels of our customers' usage of our platform;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Factors Affecting Our Results of Operations",
+    "Key Business Metrics",
+    "108 % 104 % 103 % Active Customer Accounts",
+    "Dollar‑Based Net Expansion Rate",
+    "Key Components of Statements of Operations",
+    "Cost of Revenue and Gross Profit",
+    "Operating Expenses",
+    "Other Expenses, Net",
+    "Provision for Income Taxes",
+    "Results of Operations",
+    "Consolidated Statements of Operations Data: (In thousands, except share and per share amounts)",
+    "The following table sets forth our results of operations for each of the periods presented as a percentage of our total revenue: 2024 2023",
+    "Comparison of Fiscal Years Ended December 31, 2025, 2024 and 2023",
+    "2025 2024 2023 2024 to 2025 Change",
+    "2023 to 2024 Change",
+    "2024 2023 2024 to 2025 Change",
+    "Other Expenses, net",
+    "Non-GAAP Financial Measures",
+    "Non‑GAAP Gross Profit and Non‑GAAP Gross Margin",
+    "2024 2023 (In thousands)",
+    "Non‑GAAP Operating Expenses",
+    "Free Cash Flow and Free Cash Flow Margin",
+    "Liquidity and Capital Resources",
+    "Share Repurchase Program",
+    "2029 Notes and 2031 Notes",
+    "Critical Accounting Policies and Estimates",
+    "Revenue Recognition",
+    "Recent Accounting Pronouncements Not Yet Adopted"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our consolidated financial statements and related notes appearing elsewhere in this Annual Report on Form 10-K. In addition to historical financial information, the following discussion contains forward-looking statements that are based upon current plans, expectations and beliefs that involve risks and uncertainties. Our actual results may differ materially from those anticipated in these forward-looking statements as a result of various factors, including those set forth under Part I, Item 1A, \"Risk Factors\" in this Annual Report on Form 10-K. This Item generally discusses our results of operations for the year ended December 31, 2025, compared to the year ended December 31, 2024. For a discussion of our results of operations for the year ended December 31, 2024, compared to the year ended December 31, 2023, please refer to Part II, Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in our Annual Report on Form 10-K for the year ended December 31, 2024, filed with the SEC on February 26, 2025, and incorporated herein by reference.",
+    "We envision a world in which every digital interaction is amazing. By combining our leading communications capabilities with rich contextual data and AI, we provide the infrastructure for businesses of all sizes to revolutionize how they engage with their customers by delivering seamless, trusted, and personalized customer experiences at scale.",
+    "We offer highly customizable communications APIs that enable developers to embed numerous forms of messaging, voice, email, and video interactions into their customer-facing applications, as well as software products that target specific engagement needs, including our digital engagement centers, marketing campaigns, and user authentication and identity solutions. This combination of flexible APIs and software solutions, together with our customer data capabilities, helps businesses of all sizes and across numerous industries to benefit from smarter and more streamlined engagement at every step of the customer journey, including reduced customer acquisition costs, lasting loyalty, and increased customer value. The value proposition of our offerings has become stronger and our products have become more strategic to our customers as businesses are increasingly prioritizing building more personalized and differentiated customer engagement experiences through digital channels.",
+    "On January 1, 2025, we realigned our business unit structure into a functional support model under one organization. We believe that operating as one organization best positions us as we seek to deliver one trusted, smart and integrated platform that enables more personalized communications and engagements for customers. In the third quarter of 2025, we modified the presentation of the financial information that is regularly reviewed by our Chief Executive Officer, who is also our Chief",
+    "Operating Decision Maker (\"CODM\"), to reflect this realignment and the change in how management currently views and operates the business. These changes required us to re-evaluate our operating segment structure and resulted in the conclusion that starting with the third quarter of 2025 and as of December 31, 2025, we had one operating and reportable segment, which comprised all of the consolidated Company.",
+    "For a comprehensive overview of our business, our platform and our products refer to Part I, Item 1, \"Business,\" included elsewhere in this Annual Report on Form 10-K.",
+    "We are focused on innovation and durable, profitable growth. To increase revenue and grow market share, we intend to drive product innovation, leverage predictive and generative AI, further enhance our independent software vendor (\"ISV\"), reseller and other partner relationships, improve our self-service capabilities, cross-sell our products, and expand internationally. We also intend to optimize our business and take measures to reduce costs, including simplifying and further automating our business processes, modernizing our infrastructure, leveraging AI, enacting certain workforce planning initiatives, optimizing utilization of our distributed workforce and implementing other initiatives targeted at improving efficiencies in our business. We are focused on driving leverage through these cost savings and efficiency initiatives, as well as efforts to drive growth in higher margin products.",
+    "Our revenue is primarily derived from usage-based fees, which can lead to variability in our results of operations and at times create differences between our forecasts and actual results. Our usage-based revenue is also more immediately impacted by changes in consumer spending and macroeconomic conditions than our subscription-based revenue. We also experience seasonal trends due to increased consumer activity in the fourth quarter, which may result in lower sequential revenue in the first quarter.",
+    "Our gross profit and gross margin are impacted by a number of factors, including our product mix; our ability to manage our cloud infrastructure‑related and network service provider fees, including A2P messaging fees; changes in foreign exchange rates; the timing of amortization of capitalized software development costs and acquired intangibles; the extent to which we periodically choose to adjust prices of our products; and the timing and extent of our investments in our operations. Our gross margin is also impacted by the mix of U.S. messaging termination compared to international messaging termination, as international messaging has lower gross margins.",
+    "In June 2025, a major U.S. mobile carrier increased network service provider fees for A2P messages delivered to its subscribers. Other major U.S. carriers have since followed suit, with fee increases effective in January and April 2026. We pass these fees through to our customers at cost. As a result, we recognize an equal amount of revenue and cost of revenue related to these fees. The increased fees do not impact our gross profit, but they will create a modest headwind to our gross margins going forward. Such fees may increase further over time.",
+    "As of December 31, 2025, we had an accrued bonus liability of $136.2 million related to our company-wide bonus program recorded in accrued expenses and other current liabilities in our consolidated balance sheet included elsewhere in this Annual Report on Form 10-K. The bonus payout will be determined for each eligible recipient based on Company and individual performance metrics and paid in March 2026, which we expect to impact our cash flows in the first quarter of 2026.",
+    "Given our recent history of generating net income in the U.S., we believe that there is a reasonable possibility that within the next twelve months sufficient positive evidence may become available to allow us to determine that a significant portion of the valuation allowance recorded against our U.S. deferred tax assets should be released. The reversal would result in a significant income tax benefit for the period when we release the valuation allowance in the U.S. However, the exact timing and amount of the valuation allowance release are subject to change based on our actual operating results.",
+    "Our results of operations have in the past been, and could in the future be, impacted by adverse macroeconomic conditions. We are continuing to monitor actual and potential effects of recent macroeconomic and political conditions and uncertainty on our business. For additional details, see Part I, Item 1A, \"Risk Factors\" in this Annual Report on Form 10-K.",
+    "We review a number of operational and financial metrics, including Active Customer Accounts and Dollar-Based Net Expansion Rate, to evaluate our business, measure our performance, identify trends affecting our business, formulate business plans and make strategic decisions."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司平台",
+    "本公司策略",
+    "研究與發展",
+    "銷售與行銷",
+    "客戶支援與服務",
+    "智慧財產權",
+    "Twilio Magic",
+    "本公司員工與人力資源",
+    "公司資訊",
+    "地理區域營業收入資訊",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "我們預期一個世界，在這個世界中，每一次數位互動都令人驚嘆。透過結合我們領先的通訊能力與豐富的上下文資料和人工智慧（\"AI\"），我們提供基礎設施，讓各規模的企業都能革新他們與客戶互動的方式，透過提供無縫、可信任且個性化的客戶體驗。",
+    "我們提供高度可客製化的通訊應用程式程式設計介面（\"APIs\"），讓開發者能將多種形式的訊息、語音、電子郵件和視訊互動嵌入他們面對客戶的應用程式，以及針對特定互動需求的軟體產品，包括我們的數位互動中心、行銷活動和用戶認證與身分解決方案。這種結合靈活的API與軟體解決方案，加上我們的客戶資料能力，幫助各規模和各產業的企業在客戶旅程的每一步都能受益於更智慧且更簡化的互動，包括降低客戶獲取成本、建立長期忠誠度和提高客戶價值。我們產品的價值主張變得更強大，且產品對客戶而言更具戰略性，因為企業越來越重視透過數位渠道建立更具個性化和差異化的客戶互動體驗。",
+    "自我們成立以來，我們的業務經歷了顯著的成長，截至2025年12月31日，我們擁有超過402,000個活躍客戶帳號，代表來自各行各業的小型和中型企業到大型企業。我們的成長主要來自於新客戶的獲取，以及客戶增加對我們產品的使用，擴展對我們產品的使用至新應用，或採用我們提供的新產品。我們也透過戰略性的收購和整合與我們現有產品相輔相成的企業，來推動我們的成長，並擴展我們的平台，增加新的客戶帳號。",
+    "Twilio平台結合我們的通訊渠道與軟體解決方案，與上下文資料和AI驅動的協調功能，使企業能夠在整個客戶旅程中提供令人驚嘆的客戶互動。我們的平台提供一個可信任、簡單且智慧的基礎設施，讓客戶可以在此之上進行建設。我們協助啟動雙向且跨通訊渠道的對話，為客戶提供個性化的體驗 —— 在規模上實現。",
+    "我們提供高度可客製化的API和產品，用以在應用程式內建立豐富的上下文通訊，讓開發者能建立與全球客戶的協調互動。我們也提供用戶認證與身分解決方案，以及先進的合規與法規管理軟體，以支持在不斷變化的法規生態系中取得成功。此外，我們的客戶資料能力使企業能收集、上下文化並利用第一方和即時的客戶資料，以在多個通訊渠道中創造高度個性化的體驗與活動。他們也允許企業打破組織內的資料孤島，並利用單一統一的客戶資料來源，供其各個業務團隊使用。我們的產品可以單獨使用或組合使用，以實現更個性化、更及時且更具影響力的通訊與互動。",
+    "我們的平台與我們的Super Network連接，這是一個軟體層，使我們客戶的應用程式能與全球的裝置進行通訊。Super Network將全球的通訊網路與信箱服務供應商連接起來，並持續分析數十億個資料點，以優化流經我們平台的通訊品質與成本。Super Network也包含一組API，讓我們的客戶能透過我們的平台存取額外的基礎元件，例如電話號碼和會話啟動協議中繼。",
+    "•訊息。Twilio Programmable Messaging（\"Messaging\"）是一個API，用以在全球範圍內透過多種發送者類型傳送和接收簡訊（SMS）、多媒體簡訊（MMS）、 RCS 和過頂（例如WhatsApp 和 Facebook Messenger）訊息。Messaging 使用智慧發送功能，以確保訊息能可靠地傳達到用戶所在的位置。我們的客戶在多種使用情境中使用 Messaging，包括帳戶通知、行銷、大規模警報和訂單確認，以及多方和對話式使用情境，例如對話式行銷、銷售支援和客戶服務。",
+    "•語音。Twilio Programm, Voice（\"Voice\"）是一個API，讓開發者能建立解決方案，透過瀏覽器、應用程式、電話或其他方法在全球範圍內進行、管理及接收電話呼叫。我們的語音軟體，可在傳統公共交換電話網（\"PSTN\"）和網際網路協議（\"VoIP\"）上運作，讓開發者能整合基於AI的虛擬代理、文字轉語音和語音轉文字、全球會議、緊急通話、通話記錄、媒體流，以及處理如客服中心、互動語音回應系統、通話追蹤、分析解決方案和匿名通訊等使用情境。",
+    "•Email. Twilio SendGrid Email (\"Email\") 是一個 API 以及無程式碼使用者介面，解決大規模電子郵件傳遞的挑戰。建於我們專利的郵件傳輸代理之上，Email 讓客戶能建立客製化解決方案並優化收件箱置放。我們的 Email API 允許企業整合多種領先的開發框架與客戶端程式庫，並支援多種語言，同時也能客製化內容。它也提供發送者認證、安全性、郵箱合規性與傳遞儀錶板。我們的 Marketing Campaigns 產品，具備無程式碼使用者介面，並建於我們的 Email 基礎設施之上，可實現大規模的電子郵件行銷活動。Marketing Campaigns 包含電子郵件設計與樣板、名單管理、動態內容與電子郵件測試。企業使用我們的 Email 產品來發送行銷訊息與交易性電子郵件，包括促銷活動、電子報、運送通知、密碼重設與註冊確認。",
+    "•使用者認證與身分管理。我們的使用者認證與身分管理解決方案讓企業能驗證、認證與管理使用者。Twilio Verify (\"Verify\") 是一個管理解決方案，用於多通路使用者驗證，能有效在新使用者啟動時及之後增加安全性，提供低摩擦且安全的登入體驗。透過 Verify，企業可以透過多種安全的認證方法為其應用程式增加一層安全性，包括透過簡訊、語音、電子郵件、基於推播的認證，以及防釣魚的 passkeys 認證。Verify 包含 Fraud Guard，旨在自動阻止因人工增加流量或簡訊泵送所導致的詐欺訊息。此外，Twilio Lookup API 提供即時的行動身分智能資料，可降低詐欺風險並提高訊息傳遞率。",
+    "•Segment。Twilio Segment (\"Segment\") 是我們的客戶資料平台，提供企業工具來利用情境資料的強大功能，透過將每個客戶旅程中收集的即時資訊統一整合成獨特的使用者資料檔。Segment 幫助企業建立精準的目標羣組、持續的體驗與情境化的個人化，透過統一的客戶視圖、順暢的旅程協調以及基於可信資料的易用 AI 來節省時間並達成成果。Segment 提供數百種即開即用的連接方式，用以收集網頁與行動應用的資料，透過單一 API 進行轉換與載入至雲端資料倉庫，並透過反向 ETL (Extract, Transform, Load) 與可客製化的資料流，將資料重新激活至企業工具。它也提供隱私與合規工具，將跨通路資料統一整合至可信的客戶資料檔中以進行資料增強與機器學習 (\"ML\")，並實現即時個人化與旅程協調，同時利用生成式與預測式 AI 來建立目標羣組並實現大規模的 1:1 互動體驗。",
+    "我們透過平台的使用量計費與訂閱計費模式來產生收入。來自 Messaging、Voice 和 User Authentication and Identity 的收入主要以使用量為基礎確認。來自 Email 和 Segment 的收入則主要以訂閱為基礎確認。我們會因第四季消費者活動增加而出現季節性趨勢。",
+    "我們的策略根植於簡化平台並提供值得信賴且直覺的客戶體驗。以 Twilio 平台作為基礎設施層，整合通訊、情境資料與 AI，我們旨在協助企業透過快速、相關且個人化的互動更有效地與客戶互動。我們專注於未來最具影響力的產品領域，並計畫執行以下策略：",
+    "•打造一個能實現卓越客戶互動的平台。我們專注於利用 Twilio 在通訊渠道提供、全球規模、開發者忠誠度與情境資料資產方面的基礎優勢，來交付一個單一且協調的平台，透過規模化的信任、簡化複雜性與智慧互動，實現無摩擦、情境驅動的互動。我們在平台創新上的投資包括預建解決方案與整合，包括跨通路協調功能。這些功能旨在協助客戶減少摩擦並簡化他們添加通訊渠道的方式，以實現卓越的客戶互動。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "影響我們營運成果的因素",
+    "關鍵業務指標",
+    "108 % 104 % 103 % 活躍客戶帳戶",
+    "基於美元的淨擴張率",
+    "營運損益表的主要構成項目",
+    "營業收入成本及毛利",
+    "營運費用",
+    "其他費用，淨額",
+    "所得稅費用",
+    "營運成果",
+    "合併營運損益表資料：（單位為千美元，除股份及每股數額外）",
+    "下表顯示我們各期間的營運成果，以我們總營業收入的百分比表示：2024 2023",
+    "截至2025年12月31日、2024年12月31日及2023年12月31日的會計年度比較",
+    "2025 2024 2023 2024至2025年變動",
+    "2023至2024年變動",
+    "2024 2023 2024至2025年變動",
+    "其他費用，淨額",
+    "非GAAP財務指標",
+    "非GAAP毛利及非GAAP毛利率",
+    "2024 2023（單位：千美元）",
+    "非GAAP營運費用",
+    "自由現金流及自由現金流邊際率",
+    "流動性及資本資源",
+    "股票回購計畫",
+    "2029 債券與 2031 債券",
+    "重要會計政策與會計估計",
+    "收入確認",
+    "尚未採用之近期會計準則聲明"
+   ],
+   "paragraphs": [
+    "下列對我們財務狀況及營運成果之討論與分析，應與本年度10-K表報表所附之合併財務報表及相關附註一併閱讀。除歷史財務資訊外，下列討論包含基於目前計畫、預期與信念之展望性陳述，這些陳述涉及風險與不確定性。我們實際結果可能與這些展望性陳述所預期者有重大差異，原因包括本年度10-K表報表第一部分第1A項「風險因素」所列舉之因素。本項目一般討論我們截至2025年12月31日止之年度營運成果，與截至2024年12月31日止之年度比較。如欲瞭解我們截至2024年12月31日止之年度營運成果與截至2023年12月31日止之年度比較，請參閱我們2024年度10-K表報表之第二部分第7項「管理層對財務狀況及營運成果之討論與分析」，該報表於2025年2月26日提交至SEC，並 herein 予以引用。",
+    "我們預期一個世界，在其中每一次數位互動都令人驚嘆。透過結合我們領先的通訊能力與豐富的脈絡資料及AI，我們提供基礎設施，讓各規模企業都能革新與客戶互動的方式，透過提供無縫、受信任且個性化的客戶體驗來實現規模化。",
+    "我們提供高度可客製化之通訊API，使開發者能將多種形式的訊息、語音、電子郵件及視訊互動嵌入其面對客戶之應用程式，以及針對特定互動需求之軟體產品，包括我們的數位互動中心、行銷活動及用戶認證與身分解決方案。此種靈活API與軟體解決方案的組合，加上我們的客戶資料能力，協助各規模企業及多個產業在客戶旅程的每一步驟中受益於更智慧且更簡化之互動，包括降低客戶獲取成本、建立長期忠誠度及提高客戶價值。我們產品的價值主張已變得更強，且產品對客戶而言更具戰略性，因為企業正日益優先考慮透過數位渠道建立更具個性化與差異化之客戶互動體驗。",
+    "我們於2025年1月1日重新調整業務單位結構，轉為一個組織下的功能支援模式。我們認為以一個組織運作最能讓我們在追求提供一個受信任、智慧且整合的平台時，實現更個性化的客戶通訊與互動。在2025年第三季，我們修改了經常由我們首席執行長（同時也是我們首席",
+    "營運決策者 (\"CODM\")，用以反映此重新配置以及管理階層目前如何看待及運作業務的方式之變更。這些變更使我們必須重新評估營運分部結構，並得出結論，自2025年第三季起，並於2025年12月31日，我們僅有一個營運及應報告分部，該分部包含本公司所有合併財務報表中之業務。",
+    "如需對本公司業務、平台及產品之完整概述，請參閱本年度10-K表報中其他部分所包含的Part I, Item 1, \"Business\" 項目。",
+    "我們專注於創新與可持續、有盈利的成長。為增加營業收入與擴大市場佔有率，我們意圖推動產品創新、運用預測及生成式AI、進一步強化我們的獨立軟體供應商 (\"ISV\" )、經銷商及其他夥伴關係、改善我們的自助服務能力、跨銷售產品，並拓展國際市場。我們也意圖優化業務並採取措施降低成本，包括簡化及進一步自動化業務流程、現代化基礎設施、運用AI、實施某些人力資源規劃措施、優化分散式工作團隊的使用效率，並執行其他旨在提高業務效率的措施。我們專注於透過這些成本節省與效率提升措施，以及推動高毛利率產品成長的行動，來提高營運槓桿。",
+    "我們的營業收入主要來自基於使用量的費用，這可能導致我們營運結果的變動，並有時造成我們預測與實際結果之間的差異。我們的基於使用量收入也比基於訂閱的收入更立即受到消費者支出及總體經濟條件變動的影響。我們也因第四季消費者活動增加而經驗到季節性趨勢，這可能導致第一季營收較前一季為低。",
+    "我們的毛利及毛利率受多項因素影響，包括產品組合；我們管理雲端基礎設施相關及網路服務供應商費用的能力，包括A2P訊息費用；外匯匯率的變動；資本化軟體開發成本及取得無形資產的攤銷時點；我們定期調整產品價格的程度；以及我們對營運投資時點及程度。我們的毛利率亦受美國訊息終端與國際訊息終端比例的影響，因國際訊息終端的毛利率較低。",
+    "2025年6月，一家主要的美國行動電信業者提高針對其用戶傳送的A2P訊息的網路服務供應商費用。其他主要的美國電信業者隨後也跟進，費用提高自2026年1月及4月生效。我們將這些費用轉嫁給客戶，以成本計價。因此，我們會同時確認與這些費用相關的收入及成本。提高的費用不會影響我們的毛利，但會對我們未來的毛利率造成輕微的壓力。這些費用可能會隨時間進一步增加。",
+    "截至2025年12月31日，我們因公司-wide 經理人獎金計畫而產生$136.2千萬的應付獎金負債，記入合併財務報表的應付費用及其他流動負債項目，詳見本年度報告10-K表格中其他部分。獎金發放將根據公司及個人績效指標，於2026年3月發放，我們預期會影響2026年第一季的現金流。",
+    "根據我們近期在美國產生淨利潤的歷史，我們認為在未來十二個月內，可能有足夠的正面證據出現，使我們能判斷美國遞延所得稅資產所記錄的價值減損應予以釋放。此釋放將導致我們在釋放價值減損時產生重大所得稅利益。然而，價值減損釋放的確切時點及金額，將根據我們實際營運結果而有所變動。",
+    "我們的營運結果過去曾受到，且未來可能再次受到不利總體經濟條件的影響。我們持續監測近期總體經濟及政治條件及不確定性對我們業務的實際及潛在影響。如需更多細節，請參閱本年度報告10-K表格第一部分，第1A項，「風險因素」。",
+    "我們評估業務、衡量表現、識別影響業務的趨勢、擬定業務計畫及做出戰略決策時，會審視多項運營及財務指標，包括活躍客戶帳戶及基於美元的淨擴張率。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因子總覽",
+    "與我們業務及產業相關的風險",
+    "全球經濟與政治情勢，包括總體經濟與政治不確定性，已對我們的業務、營運結果與財務狀況產生負面影響，並可能持續產生負面影響。",
+    "若我們的客戶終止或減少使用我們的產品，將對我們的業務、營運結果與財務狀況產生負面影響。",
+    "我們產品的成功，在部分程度上取決於我們能否將其與我們或我們客戶所使用的第三方產品整合，並確保其能與不斷演進的平台與技術有效運作。",
+    "若我們無法有效管理業務成長與對業務策略的變更，將可能對我們的業務、營運結果與財務狀況產生負面影響。",
+    "我們有虧損的歷史，未來可能無法實現或維持盈利。",
+    "若我們無法維持並提升品牌聲譽，並增加公司與產品的市場認知度，將可能對我們的業務、營運結果與財務狀況產生負面影響。",
+    "未能為我們的產品設定最佳價格，可能對我們的業務、營運結果及財務狀況造成不利影響。",
+    "我們的國際業務使我們面臨全球運作中固有的風險。",
+    "我們可能無法實現來自併購、合作夥伴及投資潛在效益，因整合困難、實現協同效益及其他挑戰。",
+    "與網路安全、資料隱私及智慧財產權相關的風險"
+   ],
+   "paragraphs": [
+    "投資本公司的A類普通股（\"普通股\"）涉及高度風險。有關本公司業務相關風險與不確定性的說明如下。您應謹慎考慮下列所描述的風險與不確定性，並配合本年度報告表10-K中所有其他資訊，包括\"管理層對財務狀況與營運結果之討論與分析\"部分以及我們的合併財務報表與相關附註，再做投資決策。下列所描述的風險與不確定性可能並非我們唯一面臨的風險。若任何風險實際發生，將可能對本公司業務、營運結果與財務狀況造成不利影響。此情況下，本公司普通股的市場價格可能下跌，您可能損失部分或全部投資。",
+    "本公司業務運作面臨許多風險與不確定性，包括我們無法控制的風險，這些風險可能對本公司業務、營運結果與財務狀況造成損害，包括以下風險：",
+    "與本公司業務與產業相關的風險",
+    "•全球經濟與政治條件的影響，包括總體經濟與政治的不確定性；",
+    "•本公司每季營運結果的波動以及是否符合證券分析師與投資人預期的能力建議；",
+    "•客戶使用我們平台程度的波動；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

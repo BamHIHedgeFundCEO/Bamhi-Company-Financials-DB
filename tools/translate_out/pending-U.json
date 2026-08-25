@@ -1,0 +1,189 @@
+{
+ "ticker": "U",
+ "cik": "0001810806",
+ "accession": "0001810806-26-000011",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Create Solutions",
+    "Grow Solutions",
+    "Our Customers and Creator Community",
+    "Privacy and Data Security",
+    "Intellectual Property",
+    "Human Capital Management",
+    "Government Regulations",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Unity is the leading platform to develop, deploy, and grow games and interactive experiences. We offer a suite of tools across all major platforms from mobile, PC, and console, to extended reality (XR). Our comprehensive set of software, including AI solutions, supports developers through the entire development lifecycle – from prototyping to live service operation, user acquisition, and monetization. Our platform is used by creators of all types - such as developers, artists, and designers - to build content in gaming and non-gaming industries, including automotive, retail, manufacturing, healthcare, public sector, robotics, architecture, civil and mechanical engineering, design and construction.",
+    "Our platform consists of two complementary sets of solutions: Create Solutions and Grow Solutions.",
+    "Our Create Solutions are a robust set of tools and services used to build, ship and run high-definition, real-time 2D and 3D content. Designed for developers, these tools and services are used across a range of industries from games to automotive, retail, manufacturing, healthcare, public sector and robotics. Create Solutions includes our custom real-time 3D engine and development environment with a high-definition render pipeline; AI-driven content creation and workflow enhancements, graphics, animation, and audio tools; navigation, networking, user interface tools and more. Enhanced by cloud services including asset management, DevOps tools and multiplayer game support, creators can leverage our products and extensibility to easily edit, run, and iterate interactive real-time 2D and 3D experiences that can be created once and deployed to a variety of platforms.",
+    "Our Grow Solutions primarily consist of our ads products, which offer customers the ability to grow and engage their user base and monetize their content—from 2D puzzle games to multiplayer, multi-platform games, or other 3D interactive content—irrespective of whether the content was created in Unity. Many of our customers create games and applications with the purpose of building a profitable business. This requires both the acquisition of end-users at a reasonable cost and the monetization of these end-users as they engage with the content over time. We help our customers grow their businesses in the mobile app ecosystem by offering a comprehensive suite of products designed to help customers successfully scale their businesses, including our mediation platform, ad networks (like the Unity Ad Network, powered by Unity Vector), and offerwall. In addition, Supersonic from Unity is our publishing solution, which allows small studios and independent developers who require expertise in publishing their mobile games to launch their apps and maximize their commercial success, through the use of a combination of tools, full transparency, and a team of industry experts. Finally, Aura from Unity enables app developers to connect with users through a unique channel that offers on-device app discovery, while allowing telecom operators to better engage and monetize their users throughout the device lifecycle.",
+    "Our globally diverse customers range from the largest enterprises to mid-market companies, to government and non-profit institutions, to mid-sized, small, and independent businesses and individual developers across a variety of industries.",
+    "We have a very large, active, and highly engaged global community of real-time 3D (\"RT3D\") creators. The scale of our creator community provides us with a significant competitive advantage, and by incentivizing third-party platforms to strategically partner and integrate with us, we are able to further expand our community. Numerous third-party platforms partner with Unity to make it easy for our creators to deploy content seamlessly onto their platforms. These partnerships help us to maximize audience-reach for our customers and retain our platform's position as the leading hub for RT3D content creation.",
+    "We primarily compete with other content development tools and monetization services. Most of these competitors offer point solutions that represent a subset of the offerings on our platform:",
+    "•Create Solutions: We primarily compete against proprietary game engines built in-house by large game studios, as well as Cocos2d-x (Chukong Technologies), Godot, and Unreal Engine (Epic Games), which offer game development tools primarily serving the PC games and mobile games sectors, and, in the case of Unreal Engine (Epic Games), industries beyond gaming, as well as with various social entertainment platforms. Outside of gaming, we also compete with other development platforms and software solutions that offer 2D and 3D design products.",
+    "•Grow Solutions: We operate in a fragmented ecosystem composed of both privately-held companies and large, well-established public companies or their relevant divisions. The large companies in our ecosystem may play multiple different roles given the breadth of their business. Examples of these large companies are Amazon, Meta, Google, Microsoft, and Tencent. Most of these companies are also our partners and customers. Examples of other companies we compete against include AppLovin, Voodoo, Moloco, and Digital Turbine.",
+    "We believe that the principal competitive factors in our market are: •cross-platform deployability;",
+    "•the pace and quality of new product innovation, such as the rise of AI and machine learning and the increasing use of data and trained models;",
+    "•supply from publishers, who may also use channels beyond in-app advertising to grow revenue;",
+    "•product capabilities, including flexibility, scalability, performance, security, and reliability;",
+    "•integration with existing platforms; •high-quality customer support, training, and services;"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business, Operations, and Industry",
+    "We have a history of losses and may not achieve or sustain profitability on a GAAP basis in the future.",
+    "Our past results may not be indicative of future operating performance.",
+    "If we are not able to grow efficiently, and manage our costs, we may not achieve profitability on a GAAP basis.",
+    "If we fail to successfully execute our plans to reset our portfolio to focus on our Strategic Portfolio and to right-size our investments, our business will be harmed.",
+    "The markets in which we participate are highly competitive, and if we do not compete effectively, our business, financial condition, and results of operations could be harmed.",
+    "Our business relies in part on strategic relationships. If we are unable to maintain favorable terms and conditions and business relations with respect to our strategic relationships, our business could be harmed.",
+    "We are dependent on the success of our customers in the gaming market. Adverse events relating to our customers or their games could have a negative impact on our business.",
+    "We may fail to realize the possible platform advantages between our Create and Grow Solutions, or those advantages may take longer to realize than expected.",
+    "Operating system platform providers or application stores may change terms of service, policies or technical requirements applicable to us or our customers, which could adversely impact our business.",
+    "The actions of third parties with whom we do business may put our business and results of operations at risk.",
+    "Our direct sales force targets larger customers, and sales to these customers involve risks that may not be present or that are present to a lesser extent with respect to sales to smaller customers.",
+    "We provide service-level agreement commitments related to certain of our customers. If we fail to meet these contractual commitments, our business could be harmed.",
+    "If we fail to offer high-quality support, our ability to retain and attract customers could suffer.",
+    "Our business could be disrupted by catastrophic events, including natural disasters, health pandemics, militarization, or war.",
+    "Our current operations are and will continue to be global in scope, creating a variety of operational challenges.",
+    "We are exposed to collection and credit risks, which could impact our operating results.",
+    "Fluctuations in currency exchange rates could harm our operating results and financial condition.",
+    "We may require additional capital to support the growth of our business, and this capital might not be available on acceptable terms, if at all.",
+    "Risks Related to Our Platform and Technology"
+   ],
+   "paragraphs": [
+    "We have experienced significant net losses on a GAAP basis in each period since inception. In addition, our revenue has varied and, in certain periods, declined and could vary or decline in the future. We are not certain whether we will achieve or maintain profitability in the future. Our costs and expenses may increase in the long term on a GAAP basis, which could negatively affect our future results of operations. In addition, our investments in areas such as:",
+    "•research and development, including investments in our engineering teams and in further differentiating our platform, as well as the development of new solutions and features;",
+    "•our sales and marketing organizations to engage our existing and prospective customers, increase brand awareness and drive adoption and expansion of our platform and solutions;",
+    "•initiatives to grow our presence in new or adjacent industries and use cases beyond the gaming industry;",
+    "•our technology infrastructure, including systems architecture, hosting, scalability, availability, performance, and security;",
+    "•acquisitions or strategic investments; •global expansion or restructuring; and"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Recent Developments in Our Business",
+    "Results of Operations",
+    "Year Ended December 31,",
+    "December 31,",
+    "Cost of Revenue, Gross Profit, and Gross Margin",
+    "Operating Expenses",
+    "Interest Expense",
+    "Interest Income and Other Income (Expense), Net",
+    "Provision for (benefit from) Income taxes",
+    "Non-GAAP Financial Measures",
+    "Adjusted Gross Profit , Adjusted EBITDA, and Adjusted EPS",
+    "Free Cash Flow",
+    "Liquidity and Capital Resources",
+    "Cash Provided by Operating Activities",
+    "Cash Used in Investing Activities",
+    "Cash Provided by Financing Activities",
+    "Critical Accounting Policies and Estimates",
+    "Revenue Recognition",
+    "Income Taxes"
+   ],
+   "paragraphs": [
+    "In the year ended December 31, 2025, we had reductions to our workforce and our office footprint, that resulted in approximately $33 million in employee separation costs, and $14 million of non-employee charges associated with these reductions. We will continue to evaluate our facility needs.",
+    "For additional details, refer to the section titled \"Risk Factors.\""
+   ],
+   "focus": "Recent Developments in Our Business"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "創造解決方案",
+    "成長解決方案",
+    "我們的客戶與創作者社羣",
+    "隱私權與資料安全",
+    "智慧財產權",
+    "人力資本管理",
+    "政府規範",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "Unity 是開發、部署與成長遊戲及互動體驗的領導平台。我們提供一套工具，涵蓋所有主要平台，包括行動、個人電腦與主機，以及擴增實境（XR）。我們的軟體組合，包括人工智慧解決方案，支援開發者在整個開發週期中進行操作，從原型設計到即時服務運作、用戶取得與營收。我們的平台被各種類型的創作者使用，例如開發者、藝術家與設計師，用以在遊戲與非遊戲產業中建立內容，包括汽車、零售、製造、醫療、公部門、機械人、建築、土木與機械工程、設計與建設等產業。",
+    "我們的平台包含兩組相輔相成的解決方案：Create Solutions 與 Grow Solutions。",
+    "我們的 Create Solutions 是一套強大的工具與服務，用以建立、發行與執行高解析度、即時 2D 與 3D 內容。這些工具與服務是為開發者設計，應用於遊戲至汽車、零售、製造、醫療、公部門與機械人等多種產業。Create Solutions 包含我們自訂的即時 3D 引擎與開發環境，搭配高解析度渲染流程；人工智慧驅動的內容建立與工作流程增強、圖形、動畫與音訊工具；導航、網路、使用者介面工具與更多。搭配雲端服務，包括資產管理、DevOps 工具與多人遊戲支援，創作者可以利用我們的產品與擴展性，輕鬆編輯、執行與迭代即時 2D 與 3D 互動體驗，這些體驗可一次建立並部署至多種平台。",
+    "我們的 Grow Solutions 主要由我們的廣告產品組成，這些產品讓客戶能夠成長並與其用戶羣互動，並使其內容商業化，從 2D 拼圖遊戲到多人、跨平台遊戲，或其他 3D 互動內容，無論這些內容是否是在 Unity 中建立。許多客戶建立遊戲與應用程式的目的在於建立一個獲利的業務。這需要以合理的成本取得終端用戶，並在用戶與內容互動的過程中使其商業化。我們透過提供一套完整的產品組合，協助客戶在行動應用生態系中成長其業務，包括我們的中介平台、廣告網路（例如 Unity Ad Network，由 Unity Vector 驅動）與 offerwall。此外，Unity 的 Supersonic 是我們的發行解決方案，讓小型工作室與獨立開發者在需要發行其行動遊戲的專業知識時，透過結合工具、完整透明度與行業專家團隊，發佈其應用程式並最大化其商業成功。最後，Unity 的 Aura 讓應用程式開發者透過獨特的通路與用戶連結，提供裝置內的應用程式發現功能，同時讓電信業者能更有效地與用戶互動並使其商業化，於裝置生命週期中。",
+    "我們的全球多樣化客戶從最大企業到中型企業，再到政府與非營利機構，以及中型、小型與獨立企業與個人開發者，涵蓋多種產業。",
+    "我們擁有非常龐大的、活躍且高度參與的全球即時 3D（\"RT3D\"）創作者社羣。我們創作者社羣的規模為我們帶來顯著的競爭優勢，並透過激勵第三方平台戰略合作與整合我們，進一步擴展我們的社羣。許多第三方平台與 Unity 合作，讓我們的創作者能輕鬆地將內容部署至其平台。這些合作關係幫助我們最大化客戶的觀眾觸及率，並維持我們平台作為 RT3D 內容創作領導中心的地位。",
+    "我們主要與其他內容開發工具與商業化服務競爭。這些競爭對手大多提供點對點解決方案，僅代表我們平台所提供的部分功能：",
+    "•Create Solutions：我們主要與由大型遊戲工作室內建的專有遊戲引擎競爭，以及 Cocos2d-x（Chukong Technologies）、Godot 與 Unreal Engine（Epic Games），這些提供遊戲開發工具，主要服務 PC 遊戲與行動遊戲產業，而 Unreal Engine（Epic Games）則在遊戲產業之外，也服務其他產業，以及各種社交娛樂平台。在遊戲產業之外，我們也與其他開發平台與軟體解決方案競爭，這些解決方案提供 2D 與 3D 設計產品。",
+    "•Grow Solutions：我們營運於一個分散的生態系，包含 privately-held 公司與大型、具備規模的上市公司或其相關部門。我們生態系中的大型公司可能因業務範疇廣泛而擔任多種不同角色。這些大型公司的範例包括 Amazon、Meta、Google、Microsoft 和 Tencent。這些公司中的大多數同時也是我們的合作夥伴與客戶。我們競爭對手的其他公司範例包括 AppLovin、Voodoo、Moloco 和 Digital Turbine。",
+    "我們認為我們市場的主要競爭因素為：•跨平台部署能力；",
+    "•新產品創新速度與品質，例如人工智能（AI）與機器學習的興起，以及數據與訓練模型使用量的增加；",
+    "•發行商的供應能力，發行商可能透過應用程式內廣告以外的渠道來增加收入；",
+    "•產品功能，包括靈活性、可擴展性、效能、安全性與可靠性；",
+    "•與現有平台的整合；•高品質的客戶支援、培訓與服務；"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "本公司業務之近期發展",
+    "營運成果",
+    "截至12月31日之年度",
+    "12月31日",
+    "營業收入成本、毛利及毛利率",
+    "營運費用",
+    "利息費用",
+    "利息收入及其它收入（費用），淨額",
+    "所得稅之提列（受益於）",
+    "非GAAP財務指標",
+    "調整後毛利、調整後營業利益及調整後每股盈餘",
+    "自由現金流",
+    "流動性及資金來源",
+    "營運活動所提供之現金",
+    "投資活動所使用之現金",
+    "融資活動所提供之現金",
+    "重要會計政策與會計估計",
+    "收入確認",
+    "所得稅"
+   ],
+   "paragraphs": [
+    "於2025年12月31日財務年度，本公司進行了員工裁減及辦公空間縮減，導致約3300萬美元之員工離職成本，以及與此裁減相關之非員工費用約1400萬美元。本公司將持續評估辦公場地之需求。",
+    "如需更多詳細資訊，請參閱標題為『風險因素』之節."
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務、營運及產業相關之風險",
+    "我們有虧損的歷史，未來可能無法在一般會計準則（GAAP）基礎上達成或維持獲利。",
+    "我們過往的營運績效可能無法反映未來之營運表現。",
+    "若我們無法有效成長並控制成本，可能無法在一般會計準則（GAAP）基礎上達成獲利。",
+    "若我們未能成功執行重組資產組合以專注於戰略資產組合，並調整投資規模之計畫，將會對我們業務造成傷害。",
+    "我們參與之市場競爭激烈，若我們無法有效競爭，將會對我們業務、財務狀況及營運結果造成傷害。",
+    "我們業務部分依賴策略性合作關係。若我們無法維持有利之合作條款及商業關係，將會對我們業務造成傷害。",
+    "我們業務依賴於遊戲市場客戶之成功。與我們客戶或其遊戲相關之不利事件可能對我們業務造成負面影響。",
+    "我們可能無法實現 Create 與 Grow 解決方案之間的潛在平台優勢，或這些優勢可能需要比預期更長的時間才能實現。",
+    "作業系統平台供應商或應用程式商店可能變更適用於我們或我們客戶的服務條款、政策或技術要求，這可能會對我們的業務產生不利影響。",
+    "與我們有業務往來的第三方的行為可能使我們的業務及營運成果面臨風險。",
+    "我們的直接銷售團隊針對較大的客戶，銷售這些客戶的業務涉及風險，這些風險可能不存在，或與銷售較小客戶相比較為有限。",
+    "我們針對部分客戶提供服務等級協議承諾。如果我們未能履行這些契約承諾，可能會對我們的業務造成損害。",
+    "如果我們未能提供高品質的支援，可能會影響我們保留及吸引客戶的能力。",
+    "我們的業務可能因重大事件而受到幹擾，包括自然災害、健康大流行、軍事化或戰爭。",
+    "我們目前的業務運作及未來將持續為全球性，這會產生多種運營挑戰。",
+    "我們面臨收款及信用風險，這可能會影響我們的營運成果。",
+    "貨幣交換率波動可能損害我們的營運成果及財務狀況。",
+    "我們可能需要額外資金來支撐業務的成長，而此資金可能無法在可接受的條件下取得，甚至可能無法取得。",
+    "與我們平台及科技相關的風險"
+   ],
+   "paragraphs": [
+    "我們自成立以來每個會計期間均出現顯著的GAAP準則淨虧損。此外，我們的營業收入有所波動，某些期間甚至下降，未來也可能出現波動或下降。我們不確定未來是否能實現或維持盈利。我們的費用和支出在長遠來看可能根據GAAP準則增加，這可能會對我們未來的營運結果產生負面影響。此外，我們在以下領域的投資：",
+    "•研究與開發，包括對我們工程團隊的投資以及進一步區隔我們平台的投資，以及新解決方案和功能的開發；",
+    "•銷售與市場行銷組織，以與現有及潛在客戶互動，提高品牌知名度並推動我們平台與解決方案的採用與擴張；",
+    "•在遊戲產業以外的新產業或相關應用領域擴大我們的影響力的計畫；",
+    "•我們的科技基礎建設，包括系統架構、主機服務、可擴展性、可用性、效能與安全性；",
+    "•收購或戰略投資；•全球擴張或重整；以及"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

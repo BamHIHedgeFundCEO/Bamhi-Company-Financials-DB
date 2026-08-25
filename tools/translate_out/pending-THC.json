@@ -1,0 +1,195 @@
+{
+ "ticker": "THC",
+ "cik": "0000070318",
+ "accession": "0000070318-26-000012",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Massachusetts",
+    "South Carolina",
+    "Total Licensed Beds 12,494",
+    "Total 99,000"
+   ],
+   "paragraphs": [
+    "Tenet Healthcare Corporation (\"Tenet\") is a diversified healthcare services company with its headquarters in Dallas, Texas, and a Global Business Center (\"GBC\") in the Philippines that supports various enterprise-wide administrative functions. We operate our expansive, nationwide care delivery network through direct and indirect subsidiaries, as well as downstream partnerships and joint ventures; the terms \"we,\" \"our\" and \"us,\" as used in this report and unless otherwise stated or indicated by the context, refer to Tenet and these entities. Our business is organized into two separate reporting segments – Hospital Operations and Services (\"Hospital Operations\") and Ambulatory Care.",
+    "At December 31, 2025, our Hospital Operations segment was comprised of: (1) 50 acute care and specialty hospitals, a network of employed physicians, and 132 outpatient facilities, including urgent care centers (each, a \"UCC\"), imaging centers, off-campus hospital emergency departments (\"EDs\") and micro‑hospitals; and (2) the revenue cycle management and value‑based care services we provide to hospitals, health systems, physician practices, employers and other clients through Conifer Health Solutions, LLC. Our Ambulatory Care segment is comprised of the operations of USPI Holding Company, Inc. (together with its subsidiaries, \"USPI\"), which held ownership interests in 533 ambulatory surgery centers (each, an \"ASC\") and 26 surgical hospitals at December 31, 2025. Additional information about our reporting segments is provided below; statistical data for the segments can be found in Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations, of Part II of this report (\"MD&A\").",
+    "In 2025, we continued to strengthen our organization and expand the care we provide while remaining committed to quality, safety and operational excellence. We enhanced access to higher-acuity services in our communities, advanced ambulatory surgery care, invested in state-of-the-art technology and facilities, and welcomed new team members and physician partners. In September 2025, we opened the newly constructed, 54-bed Florida Coast Medical Center in Port St. Lucie, Florida. This acute care hospital offers specialized services, including advanced cardiac care, diagnostic services, an emergency care department, general surgery, neurosciences, orthopedics, robotics and urology.",
+    "Our subsidiaries operated 50 acute care and specialty hospitals serving primarily urban and suburban communities in eight states at December 31, 2025. We had sole ownership of 46 of these hospitals, two were owned by entities that are majority owned by a Tenet subsidiary, and two were owned by third parties and leased by our wholly owned subsidiaries.",
+    "Our general hospitals offer acute care services, operating and recovery rooms, radiology services, respiratory therapy services, clinical laboratories and pharmacies; in addition, most have: intensive care, critical care and/or coronary care units; cardiovascular, digestive disease, neurosciences, musculoskeletal and obstetrics services; and outpatient services, including physical therapy. Many of our hospitals provide tertiary care services, such as cardiothoracic surgery, complex spinal surgery, neonatal intensive care and neurosurgery, and our Children's Hospital of Michigan also offers pediatric quaternary care through its heart, kidney and liver transplant programs. Moreover, a number of our hospitals offer advanced treatment options for patients, including limb‑salvaging vascular procedures, acute level 1 trauma services, comprehensive intravascular stroke care, minimally invasive cardiac valve replacement, cutting‑edge imaging technology, surgical robotic capabilities and telemedicine access for select medical specialties.",
+    "All of the hospitals in our Hospital Operations segment are licensed under appropriate state laws, and each is accredited by The Joint Commission or, in the case of The Hospitals of Providence Rehabilitation Hospital East, with the Center for Improvement in Healthcare Quality. With such accreditation, our hospitals are deemed to meet the Medicare Conditions of Participation and Conditions for Coverage, and they are eligible to participate in Medicare, Medicaid and other government‑sponsored provider programs.",
+    "The following table lists, by state, the hospitals wholly owned, operated as part of a joint venture, or leased and operated by our wholly owned subsidiaries at December 31, 2025:",
+    "Hospital Location Licensed Beds Status Arizona Abrazo Arizona Heart Hospital(1) Phoenix 59 Owned",
+    "Abrazo Arrowhead Campus Glendale 229 Owned Abrazo Central Campus Phoenix 206 Owned Abrazo Scottsdale Campus",
+    "Phoenix 120 Owned Abrazo West Campus Goodyear 216 Owned Holy Cross Hospital(2) Nogales 25 Owned",
+    "St. Joseph's Hospital Tucson 451 Owned St. Mary's Hospital Tucson 400 Owned California Desert Regional Medical Center(3)",
+    "Palm Springs 385 Leased Doctors Hospital of Manteca Manteca 73 Owned Doctors Medical Center",
+    "Modesto 461 Owned Emanuel Medical Center Turlock 209 Owned Hi-Desert Medical Center(4) Joshua Tree 179 Leased",
+    "John F. Kennedy Memorial Hospital Indio 145 Owned San Ramon Regional Medical Center(5) San Ramon 123 JV/Owned"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Overall Operations",
+    "Recent and potential future changes to healthcare laws, regulations and policies could have an adverse effect on our business.",
+    "Changes to the Medicare and Medicaid programs or other government healthcare programs, including reductions in scale and scope, could have a material adverse effect on our business.",
+    "It is essential to our ongoing business that we attract an appropriate number of quality physicians in the specialties required to support our services and that we maintain good relations with those physicians.",
+    "Our labor costs have been, and may continue to be, adversely affected by competition for staffing, the shortage of experienced nurses and other healthcare professionals, and labor union activity.",
+    "Our hospitals, outpatient centers and other healthcare businesses operate in competitive environments, and this competition can adversely affect their performance.",
+    "We cannot predict the potential emergence and effects of a future pandemic, epidemic or outbreak of an infectious disease on our operations, financial condition and liquidity.",
+    "We are subject to operational cybersecurity risks that could materially impact our business.",
+    "There are risks associated with our current and potential future use of AI.",
+    "Alternative payment models and value-based purchasing initiatives may negatively impact our revenues.",
+    "Violations of existing regulations or failure to comply with new or changed regulations could harm our business and financial results.",
+    "Violations of existing consumer protection regulations or failure to comply with new or changed regulations could harm our revenue cycle management services business.",
+    "We could be subject to substantial uninsured liabilities or increased insurance costs as a result of significant legal actions.",
+    "Economic conditions and other factors have had, and may in the future have, an adverse impact on our business.",
+    "Any future cost-reduction initiatives may not deliver the benefits we expect, and actions taken may adversely affect our business.",
+    "Adverse financial trends affecting our actual or anticipated results may require us to record impairment and restructuring charges that may negatively impact our results of operations.",
+    "Risks Related to Acquisitions, Divestitures and Joint Ventures",
+    "When we acquire new assets or businesses, we become subject to various risks and uncertainties that could adversely affect our results of operations and financial condition.",
+    "We cannot provide any assurances that we will be successful in divesting assets we wish to sell.",
+    "Our joint venture arrangements are subject to operational risks that could have a material adverse effect on our business, results of operations and financial condition."
+   ],
+   "paragraphs": [
+    "Our business is subject to a number of risks and uncertainties, many of which are beyond our control, that may cause our actual operating results or financial performance to be materially different from our expectations and make an investment in our securities risky. The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future. References to past events are provided by way of example only and are not intended to be a complete listing or a representation as to whether or not such factors have occurred in the past. If one or more of the events discussed in this report were to occur, actual outcomes could differ materially from those expressed in or implied by any forward‑looking statements we make in this report or our other filings with the SEC, and our business, financial condition, results of operations or liquidity could be materially adversely affected; furthermore, the trading price of our common stock could decline and our shareholders could lose all or part of their investment. Additional risks and uncertainties not presently known, or currently deemed immaterial, may also constrain our business and operations.",
+    "If we are unable to enter into, maintain and renew managed care contractual arrangements on competitive terms, if we experience material reductions in the contracted rates we receive from managed care payers or if we have difficulty collecting from managed care payers, our results of operations could be adversely affected.",
+    "Our ability to enter into, maintain and renew favorable contracts with HMOs, insurers offering preferred provider arrangements and other managed care plans, as well as add new facilities to our existing agreements at contracted rates, significantly affects our revenues and operating results. For the year ended December 31, 2025, approximately 70%, or $9.696 billion, of our net patient service revenues for the hospitals and related outpatient facilities in our Hospital Operations segment was attributable to managed care payers, including Medicare and Medicaid managed care programs.",
+    "The ongoing trend toward consolidation among non‑government payers tends to increase their bargaining power over contract terms. Generally, we compete for these contracts on the basis of price, market reputation, geographic location, quality and range of services, caliber of the medical staff and convenience. If we are unable to negotiate increased reimbursement rates, maintain existing rates or other favorable contract terms, effectively respond to managed care payer cost controls and reimbursement policies, or comply with the terms of our contracts, the payments we receive for our services may be reduced. Also, in recent years, we have increasingly experienced payment denials from and other administrative challenges with managed care payers, both prospectively and retroactively.",
+    "We currently have thousands of managed care contracts with various HMOs and PPOs; however, our top 10 managed care payers generated 69% of our managed care net patient service revenues for the year ended December 31, 2025. Because of this concentration, we may experience a short‑ or long‑term adverse effect on our net operating revenues if we cannot renew, replace or otherwise mitigate the impact of expired contracts with significant payers. Furthermore, material payment delays and disputes between us and significant managed care payers could have a material adverse effect on our financial condition, results of operations or cash flows. At December 31, 2025, 67% of our Hospital Operations segment's net accounts receivable was due from managed care payers.",
+    "In addition, managed care payers continue to seek to control healthcare costs by encouraging patients to use certain facilities in exchange for discounts from the facilities' established charges, and through increased utilization reviews and greater enrollment in HMOs and PPOs. Any agreed-upon negotiated discount programs generally limit our ability to increase reimbursement rates to offset increasing costs. In addition, enrollment of individuals in high-deductible health plans has increased over the last decade. In comparison to traditional health plans, these plans have higher co-pays and deductibles due from patients, which subjects us to increased collection risk."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Three Months Ended December 31, Increase",
+    "Hospital Operations – hospitals and related outpatient facilities:",
+    "Ambulatory Care:",
+    "(Decrease) 2024",
+    "Hospital Operations:",
+    "Total $ 3,492 $ 3,299 5.9 %",
+    "Total $ 935 $ 804 16.3 %",
+    "Total $ 4,427 $ 4,103 7.9 %",
+    "Rent/lease expense(1):",
+    "Total $ 106 $ 98 8.2 %",
+    "Total per adjusted admission $ 16,259 $ 15,511 4.8 %",
+    "Years Ended December 31,",
+    "Recent and Potential Future Changes to Healthcare Policy",
+    "Regulatory and Legislative Updates"
+   ],
+   "paragraphs": [
+    "INTRODUCTION TO MANAGEMENT'S DISCUSSION AND ANALYSIS",
+    "The purpose of this section, Management's Discussion and Analysis of Financial Condition and Results of Operations (\"MD&A\"), is to provide a narrative explanation of our financial statements that enables investors to better understand our business, to enhance our overall financial disclosures, to give context to the analysis of our financial information, and to provide information about the quality of, and potential variability of, our financial condition, results of operations and cash flows. MD&A, which should be read in conjunction with the accompanying Consolidated Financial Statements, includes the following sections:",
+    "•Management Overview •Sources of Revenue for Our Hospital Operations and Services Segment •Results of Operations",
+    "•Liquidity and Capital Resources •Recently Issued Accounting Standards •Critical Accounting Estimates",
+    "Our business consists of our Hospital Operations and Services (\"Hospital Operations\") segment and our Ambulatory Care segment. Our Hospital Operations segment is comprised of our acute care and specialty hospitals, a network of employed physicians and ancillary outpatient facilities. At December 31, 2025, our subsidiaries operated 50 hospitals serving primarily urban and suburban communities in eight states. Our Hospital Operations segment also included 132 outpatient facilities, namely urgent care centers, imaging centers, off-campus hospital emergency departments and micro‑hospitals, at December 31, 2025. In addition, our Hospital Operations segment provides revenue cycle management and value‑based care services to hospitals, health systems, physician practices, employers and other clients through Conifer Health Solutions, LLC.",
+    "Our Ambulatory Care segment, through USPI Holding Company, Inc. (together with its subsidiaries, \"USPI\"), held ownership interests in 533 ambulatory surgery centers (each, an \"ASC\"), 401 of which are consolidated, and 26 surgical hospitals, eight of which are consolidated, in 37 states at December 31, 2025. USPI's facilities offer a range of procedures and service lines, including, among other specialties: orthopedics, total joint replacement, and spinal and other musculoskeletal procedures; gastroenterology; pain management; otolaryngology (ear, nose and throat); ophthalmology; and urology.",
+    "Unless otherwise indicated, all financial and statistical information included in MD&A relates to our continuing operations, with dollar amounts expressed in millions (except per adjusted admission and per adjusted patient day amounts). Continuing operations information includes the results of all facilities operated during any portion of the periods presented, and it reflects the performance of those facilities only for the time periods in which we operated them. Continuing operations information excludes the results of our hospitals and other businesses classified as discontinued operations for accounting purposes. We believe this presentation is useful to investors because continuing operations information reflects the impact of the addition or disposition of individual hospitals and other operations on our volumes, revenues and expenses.",
+    "In certain cases, information presented in MD&A for our Hospital Operations segment is described as presented on a same‑hospital basis, which includes facilities we operated for the entirety of the periods presented. For the years ended December 31, 2025 and 2024, information presented on a same-hospital basis includes the results of our same 47 hospitals and those outpatient centers we operated throughout both years, and excludes the results of: (1) three hospitals located in South Carolina and certain related operations (the \"SC Hospitals\") we sold in January 2024; (2) four hospitals and certain related operations located in Orange County and Los Angeles County, California (the \"OCLA CA Hospitals\") we sold in March 2024; (3) two hospitals and certain related operations located in San Luis Obispo County, California (the \"Central CA Hospitals\"), which we also sold in March 2024; (4) Westover Hills Baptist Hospital, the acute care hospital we opened in Texas in July 2024; (5) a rehabilitation hospital in El Paso, Texas, in which we acquired a majority ownership interest in September 2024; (6) five hospitals and certain related operations located in Alabama we divested in September 2024 (the \"AL Hospitals\" and, together with the SC Hospitals, OCLA CA Hospitals and Central CA Hospitals, the \"Divested Hospitals\"); (7) Florida Coast Medical Center, the acute care hospital we opened in Florida in September 2025; and (8) businesses classified as discontinued operations for accounting purposes during those periods, along with other ancillary facilities acquired or divested during the reporting periods that have a limited financial or operational impact. We present same‑hospital data because we believe it provides investors with useful information regarding the performance of our current portfolio of hospitals and other operations that are comparable for the periods presented. Furthermore, same‑hospital data may more clearly reflect recent",
+    "trends we are experiencing with respect to volumes, revenues and expenses exclusive of variations caused by the addition or disposition of individual hospitals and other operations.",
+    "Our Ambulatory Care segment reports growth data on a same-facility systemwide basis, which includes both consolidated and unconsolidated facilities held at the end of the period, as well as facilities acquired during the period on a pro forma basis as if owned for the full period. Divested facilities are generally excluded; however, management may include facilities sold near the end of the period when, in its judgment, their inclusion provides financial statement users with a better understanding of the segment's performance. This approach offers insights into the performance of our current portfolio by excluding variations from facility acquisitions or dispositions. Although we do not record the revenues of unconsolidated facilities, this information is important for understanding the financial performance of our Ambulatory Care segment, as these revenues form the basis for calculating management services revenues and equity in earnings of unconsolidated affiliates. Additionally, this presentation enhances comparability across periods.",
+    "We present certain operational metrics and statistics in order to provide additional insight into our operational performance efficiency and to help investors better understand management's view and strategic focus. We define these operational metrics and statistics as follows:",
+    "Adjusted admissions—represents actual admissions in the period adjusted to include outpatient services provided by facilities in our Hospital Operations segment by multiplying actual admissions by the sum of gross inpatient revenues and outpatient revenues and dividing the result by gross inpatient revenues;",
+    "Adjusted patient days—represents actual patient days in the period adjusted to include outpatient services provided by facilities in our Hospital Operations segment by multiplying actual patient days by the sum of gross inpatient revenues and outpatient revenues and dividing the result by gross inpatient revenues;",
+    "Utilization of licensed beds—represents patient days divided by the number of days in the period divided by average licensed beds; and"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "麻塞諸塞州",
+    "南卡羅來納州",
+    "總計授權病牀數 12,494",
+    "總計 99,000"
+   ],
+   "paragraphs": [
+    "Tenet Healthcare Corporation (\"Tenet\") 為一間多元化醫療服務公司，總部設於德州達拉斯，並在菲律賓設有全球業務中心 (\"GBC\")，用以支援各項企業行政功能。我們透過直接及間接子公司，以及下游合作夥伴與合資企業，運作我們廣泛的全國性照護網路；本報告中所使用的 \"we,\" \"our\" 和 \"us\"，除非另有說明或語境顯示，否則均指 Tenet 及這些實體。我們的業務分為兩個獨立的應報告分部 – 醫院運營與服務 (\"Hospital Operations\") 和門診照護。",
+    "截至 2025 年 12 月 31 日，我們的醫院運營與服務分部包含：(1) 50 間急診與專科醫院、一組受僱用的醫生網路，以及 132 間門診設施，包括急診中心 (each, a \"UCC\"), 影像中心、離-campus 醫院急診室 (\"EDs\") 和微型醫院；以及 (2) 我們透過 Conifer Health Solutions, LLC 向醫院、醫療系統、醫生診所、僱主及其他客戶提供的收入週期管理與價值基準照護服務。我們的門診照護分部包含 USPI Holding Company, Inc. (連同其子公司，\"USPI\") 的運營，該公司於 2025 年 12 月 31 日持有 533 間門診手術中心 (each, an \"ASC\") 和 26 間手術醫院的所有權權益。有關我們應報告分部的額外資訊請參閱下文；各分部的統計資料請參閱本報告第二部分 \"MD&A\"（管理層討論與分析財務狀況與營運成果）。",
+    "2025 年，我們持續強化組織並擴展所提供的照護服務，同時維持對品質、安全與運營卓越的承諾。我們增強了社區中高風險服務的可近性，推進門診手術照護，投資先進的科技與設施，並迎來新進的團隊成員與醫生夥伴。2025 年 9 月，我們在佛羅裏達州波特蘭聖路易斯開幕了新建的 54 牀 Florida Coast Medical Center 急診醫院。這間急診醫院提供專門化服務，包括先進的心臟照護、診斷服務、急診部門、一般外科、神經科學、骨科、機械人技術與泌尿學。",
+    "我們的子公司於 2025 年 12 月 31 日運作 50 間急診與專科醫院，主要服務美國八個州的都市與近郊社區。我們對其中 46 間醫院擁有完全所有權，兩間由屬 Tenet 子公司的主要所有權實體擁有，兩間則由第三方所有並由我們的 wholly owned 子公司租賃運作。",
+    "我們的綜合醫院提供急診服務、手術與復原室、放射學服務、呼吸治療服務、臨牀實驗室與藥房；此外，大多數醫院還設有：重症監護、重症照護與/或冠心病監護單位；心血管、消化系統疾病、神經科學、肌肉骨骼與婦產科服務；以及門診服務，包括物理治療。許多醫院提供三級照護服務，例如心胸外科手術、複雜脊椎手術、新生兒重症監護與神經外科手術，而我們的 Michigan Children's Hospital 也透過其心臟、腎臟與肝臟移植計畫提供兒童四級照護。此外，我們的許多醫院提供先進的治療選項，包括肢體保存血管手術、急性一級創傷服務、全面性腦血管意外照護、微創心臟瓣膜置換、尖端影像科技、手術機械人技術與特定醫療專科的遠距醫療存取。",
+    "我們 Hospital Operations 分部的所有醫院均依照適當州法律取得執照，並經 The Joint Commission 或 The Hospitals of Providence Rehabilitation Hospital East 的 Center for Improvement in Healthcare Quality 認證。取得此認證後，我們的醫院被認為符合 Medicare 參與條件與覆蓋條件，並有資格參與 Medicare、Medicaid 及其他政府贊助的供應商計畫。",
+    "下表列出截至 2025 年 12 月 31 日，我們全資擁有、作為合資企業運作，或由我們全資子公司租賃並運作的醫院，按州別分列：",
+    "醫院位置 取得執照牀位 數狀態 Arizona Abrazo Arizona Heart Hospital(1) Phoenix 59 全資擁有",
+    "Abrazo Arrowhead Campus Glendale 229 Owned Abrazo Central Campus Phoenix 206 Owned Abrazo Scottsdale Campus",
+    "Phoenix 120 Owned Abrazo West Campus Goodyear 216 Owned Holy Cross Hospital(2) Nogales 25 Owned",
+    "St. Joseph's Hospital Tucson 451 Owned St. Mary's Hospital Tucson 400 Owned California Desert Regional Medical Center(3)",
+    "Palm Springs 385 Leased Doctors Hospital of Manteca Manteca 73 Owned Doctors Medical Center",
+    "Modesto 461 Owned Emanuel Medical Center Turlock 209 Owned Hi-Desert Medical Center(4) Joshua Tree 179 Leased",
+    "John F. Kennedy Memorial Hospital Indio 145 Owned San Ramon Regional Medical Center(5) San Ramon 123 JV/Owned"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "前三季截至12月31日，增減",
+    "醫院營運 – 醫院及相關門診設施：",
+    "門診照護：",
+    "(減少) 2024",
+    "醫院營運：",
+    "總計 $ 3,492 $ 3,299 5.9 %",
+    "總計 $ 935 $ 804 16.3 %",
+    "總計 $ 4,427 $ 4,103 7.9 %",
+    "租金/租賃費用(1)：",
+    "總計 $ 106 $ 98 8.2 %",
+    "調整後每名入會者總計 $ 16,259 $ 15,511 4.8 %",
+    "截至12月31日年度終了",
+    "近期及未來可能的醫療政策變更",
+    "規範與立法更新"
+   ],
+   "paragraphs": [
+    "管理層討論與分析導論",
+    "本節，管理層討論與分析財務狀況與營運結果（\"MD&A\"），旨在提供一個敘述性的財務報表說明，使投資人更深入瞭解本公司業務，增強整體財務揭露，提供財務資訊分析的背景，並提供有關本公司財務狀況、營運結果與現金流品質及潛在變動性的資訊。MD&A 應與附屬的合併財務報表一併閱讀，包含以下各節：",
+    "•管理概覽 •醫院營運與服務分部的收入來源 •營運結果",
+    "•流動性與資本資源 •最近發佈的會計準則 •關鍵會計估計",
+    "本公司業務包含醫院營運與服務（\"醫院營運\"）分部與門診照護分部。醫院營運分部包含我們的急性照護與專科醫院、聘僱的醫生網路與附屬門診設施。截至2025年12月31日，我們的子公司經營50家醫院，主要服務美國八個州的都會與近郊社區。醫院營運分部亦包含132家門診設施，即急診中心、影像中心、離-campus 醫院急診部門與微型醫院，截至2025年12月31日。此外，醫院營運分部透過Conifer Health Solutions, LLC為醫院、醫療系統、醫生診所、僱主及其他客戶提供收入週期管理與價值-based 照護服務。",
+    "門診照護分部透過USPI Holding Company, Inc.（與其子公司合稱\"USPI\"）持有533家門診手術中心（每家稱為\"ASC\"）的所有權利益，其中401家為合併，26家手術醫院，8家為合併，於2025年12月31日分佈於37個州。USPI的設施提供一系列程序與服務線，包括但不限於：骨科、全關節置換與脊椎及其他肌肉骨骼程序；消化道內鏡學；疼痛管理；耳鼻喉科（耳、鼻與喉）；眼科；以及泌尿學。",
+    "除非另有說明，MD&A 中包含的所有財務與統計資訊均與本公司持續營運有關，金額以千萬美元為單位（除調整後每張病牀與調整後每病患日金額外）。持續營運資訊包含所有在任一期間內部分或全部營運的設施結果，並反映這些設施在本公司營運期間的表現。持續營運資訊排除根據會計準則歸類為已終止營運的醫院及其他業務的結果。我們認為這種呈現方式對投資人而言是有用的，因為持續營運資訊反映個別醫院及其他營運的增減對我們營運量、收入與費用的影響。",
+    "在某些情況下，MD&A 中關於醫院營運分部的資訊是以相同醫院基礎說明，包含我們在整個期間內營運的設施。截至2025年12月31日及2024年12月31日，以相同醫院基礎說明的資訊包含我們相同47家醫院與在兩年內均營運的門診中心的結果，並排除：(1) 位於南卡羅來納州的三家醫院及相關營運（\"SC Hospitals\"）於2024年1月出售；(2) 位於加州橙縣與洛杉磯縣的四家醫院及相關營運（\"OCLA CA Hospitals\"）於2024年3月出售；(3) 位於加州聖路易斯奧比斯波縣的兩家醫院及相關營運（\"Central CA Hospitals\"），我們亦於2024年3月出售；(4) 西過 Hills Baptist 醫院，我們於2024年7月在德克薩斯州開設的急性照護醫院；(5) 位於德克薩斯州埃爾帕索的復健醫院，我們於2024年9月取得過半數股權；(6) 位於亞拉巴馬州的五家醫院及相關營運（\"AL Hospitals\"），我們於2024年9月出售（與SC Hospitals、OCLA CA Hospitals及Central CA Hospitals合稱\"已出售醫院\"）；(7) 位於佛羅裏達州的佛羅裏達海岸醫療中心，我們於2025年9月開設的急性照護醫院；(8) 期間內根據會計準則歸類為已終止營運的業務，以及在報告期間內取得或出售的其他附屬設施，這些設施對財務或營運的影響有限。我們提供相同醫院資料，因為我們認為這為投資人提供有關我們目前醫院及其他營運表現的有用資訊，這些營運在報告期間內具有可比性。此外，相同醫院資料可能更清楚地反映近期",
+    "我們所經歷的趨勢，包括營業額與費用的變化，不包含因個別醫院及其他業務之增減所導致的變動。",
+    "我們的門診照護應報告分部報告成長數據時，是以同一家設施系統為基礎，包含在該期間末持有的已合併與未合併設施，以及在該期間內取得的設施，按合併財務報表基礎計算，如同該設施在整個期間內皆為本公司所有。已出售的設施通常不包含在內；然而，管理層可能在判斷認為包含這些設施能提供財務報表使用者更清楚的分部表現時，會包含在內。此方法能提供對我們現有資產組合表現的洞察，排除因設施取得或出售所導致的變動。雖然我們不計入未合併設施的收入，但此資訊對理解我們門診照護應報告分部的財務表現至關重要，因為這些收入是計算管理服務收入及未合併附屬公司的權益收入的基礎。此外，此呈現方式也增強了不同期間之間的可比性。",
+    "我們提供某些營運指標與統計數據，以提供對我們營運績效效率的進一步洞察，並幫助投資者更好地理解管理層的觀點與戰略重點。我們對這些營運指標與統計數據的定義如下：",
+    "調整後入院人數—代表該期間實際入院人數，經調整後包含我們醫院運營應報告分部設施所提供的門診服務，計算方式為將實際入院人數乘以總體住院收入與門診收入之和，再除以總體住院收入；",
+    "調整後病患天數—代表該期間實際病患天數，經調整後包含我們醫院運營應報告分部設施所提供的門診服務，計算方式為將實際病患天數乘以總體住院收入與門診收入之和，再除以總體住院收入；",
+    "已授權病牀使用率—代表病患天數除以該期間天數，再除以平均已授權病牀數；"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們整體營運相關的風險",
+    "近期及潛在未來對醫療保健法規與政策的變更，可能對我們的業務產生不利影響。",
+    "對醫療保險與醫療補助計劃或其他政府醫療保健計劃的變更，包括規模與範圍的縮減，可能對我們的業務產生重大不利影響。",
+    "我們持續營運的關鍵在於吸引適當數量的高品質專科醫師，以支撐我們的服務，並與這些醫師維持良好的關係。",
+    "我們的勞動成本已受到並可能繼續受到人力競爭、經驗豐富護理師及其他醫療專業人員短缺，以及勞工罷工委員會活動的不利影響。",
+    "我們的醫院、門診中心及其他醫療保健業務營運於競爭環境中，此競爭可能對其表現產生不利影響。",
+    "我們無法預測未來疫情、大規模傳染病或傳染病爆發對我們營運、財務狀況及流動性的潛在影響與效果。",
+    "我們面臨營運上的網路安全風險，這些風險可能對我們的業務產生重大影響。",
+    "本公司目前及未來可能使用人工智慧技術，存在相關風險。",
+    "替代性付款模式及以價值為基礎的採購計畫，可能對本公司營業收入產生負面影響。",
+    "違反現有法規或未能遵守新法規或法規變更，可能損害本公司業務及財務結果。",
+    "違反現有消費者保護法規或未能遵守新法規或法規變更，可能損害本公司收入週期管理服務業務。",
+    "因重大法律行動，本公司可能面臨重大未投保責任或增加保險成本。",
+    "經濟環境及其他因素，已對本公司業務產生負面影響，未來亦可能產生負面影響。",
+    "任何未來的成本削減計畫，可能無法達成本公司預期效益，且所採取行動可能對本公司業務產生負面影響。",
+    "影響本公司實際或預期結果的負面財務趨勢，可能導致本公司需提列減損及重整費用，此可能對本公司營運成果產生負面影響。",
+    "與收購、處置及合資企業相關之風險",
+    "當我們取得新資產或業務時，我們將面臨各種風險與不確定性，這些風險與不確定性可能對我們之營運成果與財務狀況產生不利影響。",
+    "我們無法保證我們將成功處置我們想要出售之資產。",
+    "我們之合資企業安排面臨營運風險，這些風險可能對我們之業務、營運成果與財務狀況產生重大不利影響。"
+   ],
+   "paragraphs": [
+    "本公司業務面臨許多風險與不確定性，許多因素超出本公司控制範圍，可能導致實際營運結果或財務表現與預期有重大差異，使投資本公司證券具有風險。本節揭露內容反映本公司對可能對本公司未來產生重大且不利影響因素的信念與意見。提及過去事件僅為範例，並非完整清單，亦不表示這些因素是否已於過去發生。若本報告中討論的事件有任何一項發生，實際結果可能與本報告或本公司向美國證券交易委員會（SEC）其他申報文件中所表達或暗示的預測性陳述有重大差異；此外，本公司業務、財務狀況、營運結果或流動性可能受到重大不利影響；同時，本公司普通股的交易價格可能下跌，股東可能喪失全部或部分投資。此外，尚有其他風險與不確定性，目前尚未知悉或認為不重要，也可能限制本公司業務與營運。",
+    "若本公司無法以具有競爭力的條件簽訂、維持並更新管理式醫療照護契約，若我們遭遇來自管理式醫療支付者的契約金額大幅減少，或若我們在收取管理式醫療支付者付款時遇到困難，則本公司營運結果可能受到不利影響。",
+    "本公司能與健康維護組織（HMOs）、提供優先供應商安排的保險公司及其他管理式醫療計畫簽訂、維持並更新有利契約的能力，以及能在現有契約中加入新設施並以契約金額為基礎，會顯著影響我們的收入與營運結果。截至2025年12月31日，約70%（即969億美元）的醫院及相關門診設施在醫院營運分部的淨病人服務收入來自管理式醫療支付者，包括醫療保險與醫療救助的管理式醫療計畫。",
+    "非政府支付者之間持續合併的趨勢，會增加他們在契約條款上談判的議價能力。通常，我們是以價格、市場聲譽、地理位置、服務品質與範圍、醫療團隊的水準及便利性等條件來競爭這些契約。若我們無法談判提高補償金額、維持現有金額或其他有利契約條款，或有效回應管理式醫療支付者的成本控制與補償政策，或遵守契約條款，我們所提供的服務所得的付款可能會減少。此外，近年來，我們在與管理式醫療支付者之間經歷了越來越多的付款拒絕及其他行政困難，包括事前與事後的問題。",
+    "目前，本公司與各種健康維護組織（HMOs）與PPOs簽訂了數千份管理式醫療契約；然而，我們前十大管理式醫療支付者在2025年12月31日當年度產生了約69%的管理式醫療淨病人服務收入。由於這種集中現象，若我們無法續約、替換或以其他方式緩衝與重要支付者契約到期的影響，我們可能在短期或長遠上對淨營運收入產生不利影響。此外，與重要管理式醫療支付者之間的重大付款延遲與爭議，可能對本公司財務狀況、營運結果或現金流產生重大不利影響。截至2025年12月31日，本公司醫院營運分部的淨應收款中，約67%來自管理式醫療支付者。",
+    "此外，管理式醫療支付者持續尋求透過鼓勵患者使用特定設施以換取設施既定收費的折扣，以及透過增加使用審查與更多人加入HMOs與PPOs來控制醫療成本。任何達成的談判折扣計畫通常會限制我們提高補償金額的能力，以彌補成本的增加。此外，過去十年中，個人加入高免付額健康計畫的數量增加。與傳統健康計畫相比，這些計畫的患者需支付更高的共付額與免付額，這使我們面臨更高的收款風險。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,126 @@
+{
+ "ticker": "ETN",
+ "cik": "0001551182",
+ "accession": "0001551182-26-000007",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Acquisitions and Divestiture of Businesses",
+    "Business Segment Information",
+    "Information Concerning Eaton's Business in General",
+    "Human Capital Management",
+    "Information about our Executive Officers"
+   ],
+   "paragraphs": [
+    "Eaton Corporation plc (Eaton or the Company) is an intelligent power management company dedicated to protecting the environment and improving the quality of life for people everywhere. We make products for the data center, utility, industrial, commercial, machine building, residential, aerospace and mobility markets. We are capitalizing on the megatrends of the electrification, digitalization, and the reindustrialization of and growth of megaprojects in North America and increased global infrastructure spending, all of which are expanding our end markets and positioning Eaton for growth for years to come. We are strengthening our participation across the entire electrical power value chain and benefiting from momentum in the data center and utility end markets as well as a growth cycle in the commercial aerospace and defense markets. We are guided by our commitment to operate sustainably and with the highest ethical standards. Our work is helping to solve the world's most urgent power management challenges and building a more sustainable society for people today and for future generations.",
+    "Founded in 1911, Eaton has continuously evolved to meet the changing and expanding needs of our stakeholders. With revenues of $27.4 billion in 2025, the Company serves customers in 180 countries.",
+    "Eaton electronically files or furnishes reports pursuant to Section 13(a) or 15(d) of the Securities Exchange Act of 1934 (Exchange Act) to the United States Securities and Exchange Commission (SEC), including annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and proxy and information statements, as well as any amendments to those reports. As soon as reasonably practicable, these reports are available free of charge through the Company's website at www.eaton.com. These filings are also accessible on the SEC's website at www.sec.gov.",
+    "In 2025, the Company acquired Fibrebond Corporation (Fibrebond) and Resilient Power Systems Inc. (Resilient), and announced an agreement to acquire Boyd Thermal. Additionally, on January 23, 2026, the Company closed the acquisition of Ultra PCS Limited (Ultra PCS). The acquisition of Resilient strengthens our power distribution offerings and accelerates the commercialization of solid-state transformer technology for future global applications in data centers and energy storage. Adding Fibrebond to the portfolio expands Eaton's presence in the growing market for modular solutions for multi-tenant and hyperscale data center customers. The acquisition of Ultra PCS expands and integrates Eaton's offerings in next-generation aerospace solutions. The agreement to acquire Boyd Thermal expands Eaton's existing portfolio of solutions for data center customers to include critical liquid cooling technology, enabling the Company to serve hyperscale and colocation customers from the chip to the grid.",
+    "On January 26, 2026, Eaton announced its intention to pursue a spin-off of its Mobility business, which consists of its Vehicle and eMobility operating segments, into an independent, publicly traded company.",
+    "More information regarding the Company's acquisitions and divestiture is presented in Note 2 of the Notes to the consolidated financial statements.",
+    "Information by business segment regarding principal products, principal markets, methods of distribution and net sales is presented in Note 18 of the Notes to the consolidated financial statements. Additional information regarding Eaton's segments and business is presented below.",
+    "During the first quarter of 2026, Eaton re-segmented certain reportable operating segments due to a reorganization of the Company's businesses. The new reportable segment is Mobility, which consists of the legacy Vehicle and eMobility segments. Financial information for this new reportable segment has not been provided as the re-segmentation occurred subsequent to the year ended December 31, 2025. The Company expects to provide financial information for this new reportable segment in the Quarterly Report on Form 10-Q for the period ended March 31, 2026.",
+    "Electrical Americas and Electrical Global",
+    "Eaton's Electrical sector helps customers manage power in a way that's reliable, efficient, safe and sustainable. From the grid to homes, buildings, data centers and industrials – Eaton plays a vital role in modernizing infrastructure and accelerating the electrification of society. As the world's demand for electricity grows, so does the need for Eaton's innovative technology and solutions.",
+    "Principal methods of competition in these segments are performance of products and systems, technology, customer service and support, and price. Eaton has a strong competitive position in these segments and, with respect to many products, is considered among the market leaders. In normal economic cycles, sales of these segments are historically lower in the first quarter and higher in the third and fourth quarters of a specific year. In 2025, 22% of these segments' sales were made to six large customers of electrical products and electrical systems and services.",
+    "Eaton's industry-leading portfolio of aerospace technologies elevates aircraft efficiency, safety and performance for customers across the commercial, military and space markets. As the demand for more electric and sustainable aviation solutions amplifies, the company is uniquely positioned to help power the next generation of platforms.",
+    "Principal methods of competition in this segment are total cost of ownership, product and system performance, quality, design engineering capabilities, and timely delivery. Eaton has a strong competitive position in this segment and, with respect to many products and platforms, is considered among the market leaders. In 2025, 20% of this segment's sales were made to three large original equipment manufacturers of aircraft.",
+    "Eaton provides differentiated technologies that improve safety, efficiency, and performance for customers in the automotive, commercial vehicle, aftermarket and off-road segments. The company is committed to enabling the transition to electrified vehicles (EVs) while also continuing to provide innovative and efficient internal combustion engine (ICE) solutions."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Operational Risks",
+    "We are subject to risks relating to acquisitions, joint ventures and investments, and risks relating to the integration of acquired companies.",
+    "Our operations depend on production facilities throughout the world, which subjects them to varying degrees of risk of disrupted production.",
+    "Significant inflation or shortages of raw materials, energy, components, and/or labor, or similar challenges for our customers, could continue to adversely impact our results of operations.",
+    "We rely on suppliers to provide raw materials, components, and services.",
+    "Risks and uncertainties related to the development and use of artificial intelligence may present business, compliance and reputational risks.",
+    "Weather disruptions and regulatory, market and social reactions to them create uncertainties that could negatively impact our business.",
+    "Our ability to identify, attract, develop, engage, and retain qualified employees could affect our ability to execute our strategy.",
+    "Industry and Market Risks",
+    "Technology disruption may impact our stock price and/or negatively impact our end markets.",
+    "Volatility of end markets that we serve could materially and adversely affect our business, financial condition and results of operations.",
+    "We are exposed to geopolitical, economic and other risks that arise from uncertainty in worldwide and regional economic conditions.",
+    "Legal and Regulatory Risks",
+    "Operating globally subjects us to risks and events beyond our control in countries where we operate.",
+    "Changes in countries' trade policies globally, including imposition of sanctions or tariffs, may have a material adverse impact on our business and results of operations.",
+    "We are subject to risks relating to changes in our tax rates, changes in global tax laws and regulations, or exposure to additional income tax liabilities.",
+    "As a provider of products to the U.S. government, we are subject to certain rules, regulations, audits and investigations and enhanced compliance risks.",
+    "We may be unable to adequately protect our intellectual property rights, which could affect our ability to compete.",
+    "We are subject to litigation and environmental regulations that could adversely impact our businesses."
+   ],
+   "paragraphs": [
+    "Among the risks that could materially adversely affect Eaton's businesses, financial condition or results of operations are the following:",
+    "As part of our strategy, we pursue strategic transactions, including but not limited to acquisitions, joint ventures, and investments. Acquisitions and investments may involve significant cash expenditures, debt incurrences, equity issuances, operating losses and expenses, in addition to integration challenges whether foreseen or unforeseen, which may be dilutive to earnings and unfavorably impact cash flow. Acquisitions also involve numerous other risks, including: the diversion of management attention to integration matters; difficulties in integrating operations and systems; challenges in conforming standards, controls, procedures and accounting and other policies, business cultures and compensation structures; difficulties in assimilating employees and in attracting and retaining key personnel; challenges in keeping existing customers and obtaining new customers; difficulties in achieving anticipated cost savings, synergies, business opportunities and growth prospects; contingent liabilities (including contingent tax liabilities and earn-out obligations) that are larger than expected; and potential unknown liabilities, adverse consequences and unforeseen increased expenses associated with acquired companies. Financial success of a strategic transaction requires balancing both short- and long-term inputs driven by internal and external factors difficult to fully identify prior to transaction consummation. Transactional challenges post-closing could materially and adversely impact our business, financial condition and results of operations.",
+    "Eaton manages businesses with manufacturing facilities worldwide. Our manufacturing facilities and operations could be disrupted by a natural disaster, labor strike, war, geopolitical instability and/or conflict, political unrest, terrorist activity, economic upheaval, or public health concerns. Any such disruption could cause delays in production and shipment of products and the loss of sales and customers, and insurance proceeds may not adequately compensate for losses.",
+    "We have been affected by supply chain disruptions and related inflationary pressures. Labor shortages persist broadly in select markets, and shortages of certain raw materials have continued to affect the prices that our businesses are charged, particularly commodities. Some of our suppliers have experienced the same conditions and, in response, have continued to increase their prices in response to increases in their costs of raw materials, energy, and/or labor. While we strive to recoup these increased costs through our pricing, product modifications or other mediating responses, if we are unable to do so without compromising the competitive position of our products and services, our results could continue to be impacted by this trend. Further, should these trends continue or worsen, the impact could have a material adverse impact on our operating results.",
+    "Our business requires that we buy raw materials, components, and services from third parties. Supplier relationships have in the past been and could in the future be interrupted or terminated. Our reliance on suppliers involves certain risks, including:",
+    "•shortages of commodities, components, or other materials, which could adversely affect our manufacturing efficiencies and ability to make timely delivery of our products, solutions, and services;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "併購與業務買賣",
+    "業務分部資訊",
+    "有關 Eaton 一般業務資訊",
+    "人力資本管理",
+    "關於我們高階主管之資訊"
+   ],
+   "paragraphs": [
+    "Eaton Corporation plc (Eaton 或 the Company) 是一家智能電力管理公司，致力於保護環境並改善世界各地人們的生活品質。我們為資料中心、電力公用事業、工業、商業、機械製造、住宅、航空與移動市場製造產品。我們正把握電氣化、數位化以及北美地區重工業化與大型基建投資成長的趨勢，這些趨勢正在擴大我們的終端市場，並為 Eaton 未來數年成長奠定基礎。我們正在強化對整個電力價值鏈的參與，並受益於資料中心與電力公用事業終端市場的動能，以及商業航空與防禦市場的成長週期。我們遵循對永續經營與最高倫理標準的承諾。我們的工作正在協助解決全球最迫切的電力管理挑戰，並為當前與未來世代建立更永續的社會。",
+    "Eaton 於 1911 年成立，持續進化以符合股東與其他利害關係人的變動與擴張需求。2025 年營收為 274 億美元，the Company 在 180 個國家服務客戶。",
+    "Eaton 電子化提交或提供根據 1934 年證券交易法 (Exchange Act) 第 13(a) 或 15(d) 節的報告，至美國證券交易委員會 (SEC)，包括年度報告表 10-K、季報表 10-Q、現況報告表 8-K、股東授權與資訊說明書，以及這些報告的任何修正案。這些報告在合理可行的範圍內，均可免費透過 the Company 的網站 www.eaton.com 取得。這些申報資料也可在 SEC 網站 www.sec.gov 取得。",
+    "2025 年，the Company 收購 Fibrebond Corporation (Fibrebond) 與 Resilient Power Systems Inc. (Resilient)，並宣佈與 Boyd Thermal 籤訂收購協議。此外，於 2026 年 1 月 23 日，the Company 完成收購 Ultra PCS Limited (Ultra PCS)。收購 Resilient 增強了我們的電力分配產品組合，並加速固態變壓器技術在未來全球資料中心與能源儲存應用的商業化。將 Fibrebond 加入產品組合，擴大 Eaton 在多租戶與超規模資料中心客戶的模組化解決方案市場的參與。收購 Ultra PCS 擴展並整合 Eaton 在下一代航空解決方案的產品組合。與 Boyd Thermal 籤訂收購協議，擴展 Eaton 現有的資料中心客戶解決方案組合，包含關鍵液冷技術，使 the Company 能夠為超規模與共用空間客戶從晶片到電網提供服務。",
+    "2026 年 1 月 26 日，Eaton 宣佈有意將其移動業務，包含 Vehicle 與 eMobility 業務部門，分拆為一家獨立且公開上市的公司。",
+    "關於 the Company 的收購與處分，更多資訊請參閱財務明細表註 2。",
+    "關於各業務部門的產品、市場、銷售方式與淨銷售額資訊，請參閱財務明細表註 18。關於 Eaton 的業務部門與業務的更多資訊請參閱以下內容。",
+    "在 2026 年第一季，Eaton 因公司業務重整，重新劃分部分應報告營運部門。新的應報告部門為 Mobility，包含原先的 Vehicle 與 eMobility 部門。此新應報告部門的財務資訊尚未提供，因重新劃分發生在 2025 年 12 月 31 日財年結束後。the Company 預期在 2026 年 3 月 31 日結業的季報表 10-Q 中提供此新應報告部門的財務資訊。",
+    "Electrical Americas and Electrical Global",
+    "Eaton 的電氣部門協助客戶以可靠、高效、安全且可持續的方式管理電力。從電網到住宅、建築、資料中心及工業 – Eaton 在現代化基礎建設與加速社會電氣化方面扮演關鍵角色。隨著全球對電力需求的成長，對 Eaton 的創新技術與解決方案的需求也同步增加。",
+    "這些分部的主要競爭方式為產品與系統的性能、技術、客戶服務與支援，以及價格。Eaton 在這些分部擁有強大的競爭優勢，針對許多產品而言，被視為市場領導者之一。在正常的經濟週期中，這些分部的銷售歷史性地在特定年份的第一季較低，第三季與第四季較高。在 2025 年，這些分部的銷售有 22% 是提供給電氣產品與電氣系統及服務的六大主要客戶。",
+    "Eaton 的航空業領先產品組合提升商業、軍事與太空市場客戶的飛機效率、安全與性能。隨著對更多電動與可持續航空解決方案的需求增加，該公司獨特地處於協助推動下一代平台的優勢位置。",
+    "此分部的主要競爭方式為總成本效益、產品與系統性能、品質、設計工程能力，以及及時交付。Eaton 在此分部擁有強大的競爭優勢，針對許多產品與平台而言，被視為市場領導者之一。在 2025 年，此分部的銷售有 20% 是提供給三大航空原廠設備製造商。",
+    "Eaton 提供差異化的技術，以提升汽車、商用車輛、後市場與越野分部客戶的安全性、效率與性能。該公司致力於協助轉型至電動車（EVs），同時持續提供創新且高效的內燃機（ICE）解決方案。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "營運風險",
+    "本公司面臨與收購、合資企業及投資相關的風險，以及與收購公司整合相關的風險。",
+    "本公司營運依賴全球各地的生產設施，因此面臨不同程度的生產中斷風險。",
+    "重大通貨膨脹或原材料、能源、零組件及/或勞動力短缺，或對我們客戶造成類似挑戰，可能會持續不利影響本公司營運結果。",
+    "本公司依賴供應商提供原材料、零組件及服務。",
+    "與人工智慧的開發及應用相關的風險與不確定性，可能帶來業務、合規及聲譽風險。",
+    "天氣中斷及對其的監管、市場與社會反應所造成的不確定性，可能對本公司業務產生負面影響。",
+    "本公司識別、吸引、培養、聘僱及留住合適員工的能力，可能影響本公司執行戰略的能力。",
+    "產業與市場風險",
+    "科技變革可能影響本公司股票價格及/或對我們的終端市場產生負面影響。",
+    "我們所服務的終端市場波動性可能對本公司業務、財務狀況及營運成果產生重大且不利的影響。",
+    "我們面臨來自全球及區域經濟狀況不確定性所產生的地緣政治、經濟及其他風險。",
+    "法律與法規風險",
+    "在全球營運使我們面臨無法控制的風險及事件，這些風險及事件發生在本公司營運的國家。",
+    "全球各國貿易政策的變更，包括制裁或關稅的實施，可能對本公司業務及營運成果產生重大且不利的影響。",
+    "本公司面臨因稅率變更、全球稅法及法規變更，或因產生額外所得稅負擔而產生的風險。",
+    "作為美國政府產品供應商，我們受某些規則、法規、審計及調查所約束，並面臨更高的合規風險。",
+    "我們可能無法充分保護智慧財產權，這可能會影響我們的競爭能力。",
+    "我們面臨訴訟及環境法規，這可能會對我們的業務產生不利影響。"
+   ],
+   "paragraphs": [
+    "本公司營運可能面臨的風險中，可能對本公司業務、財務狀況或營運成果造成重大不利影響的風險包括以下各項：",
+    "根據我們的策略，我們會進行策略性交易，包括但不限於收購、合資企業及投資。收購與投資可能涉及大量現金支出、負債增加、發行新股、營運虧損與費用，以及整合上的挑戰（無論是否預期），這些可能對獲利造成稀釋，並對現金流產生不利影響。收購還涉及許多其他風險，包括：管理層因整合事務而分散注意力；整合營運與系統的困難；符合標準、控制、程序及會計與其他政策、業務文化與薪酬結構的挑戰；吸引與留住關鍵人才的困難；維持現有客戶與獲得新客戶的困難；達成預期成本節省、協同效益、業務機會與成長前景的困難；實際負債（包括潛在稅務負債與 earn-out 擔保義務）高於預期；以及與收購公司相關的潛在未知負債、不利後果與未預期增加的費用。策略性交易的財務成功需要平衡短、長期投入，而這些投入受內外部因素影響，難以在交易完成前完全識別。交易完成後的挑戰可能對本公司業務、財務狀況與營運成果造成重大且不利的影響。",
+    "本公司在全球擁有製造設施與業務。製造設施與營運可能因天然災害、罷工、戰爭、地緣政治不穩定與衝突、政治動盪、恐怖活動、經濟動盪或公共衛生問題而中斷。任何中斷都可能導致產品生產與出貨延誤，並造成銷售與客戶流失，且保險賠償可能無法充分彌補損失。",
+    "本公司已受到供應鏈中斷與相關通貨膨脹壓力的影響。某些市場持續出現勞動力短缺，且某些原材料短缺持續影響本公司業務所支付的價格，特別是商品類別。部分供應商也經歷相同情況，並因原材料、能源與/或勞動力成本增加，持續提高其價格。雖然本公司努力透過價格調整、產品改良或其他緩衝措施來彌補這些成本增加，但如果無法在不影響本公司產品與服務競爭力的情況下做到，本公司營運成果仍可能持續受到此趨勢影響。此外，若此趨勢持續或惡化，對本公司營運成果的影響可能造成重大且不利的影響。",
+    "本公司業務需要從第三方購買原材料、零組件與服務。過去供應商關係曾受到幹擾或終止，未來也可能發生相同情況。本公司對供應商的依賴涉及以下風險：",
+    "• 商品、零組件或其他材料短缺，可能對本公司製造效率與及時交付產品、解決方案與服務的能力造成不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,203 @@
+{
+ "ticker": "TXN",
+ "cik": "0000097476",
+ "accession": "0000097476-26-000059",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Product information",
+    "Market Sector",
+    "Industrial Industrial automation",
+    "Automotive Infotainment & cluster",
+    "Data center Data center compute",
+    "Personal electronics Mobile phones",
+    "Communications equipment Wireless infrastructure",
+    "Market characteristics",
+    "Customers, sales and distribution",
+    "Manufacturing",
+    "Intellectual property",
+    "Information about our executive officers",
+    "Name Age Position",
+    "Human capital management",
+    "Available information"
+   ],
+   "paragraphs": [
+    "We design and manufacture semiconductors that we sell to electronics designers and manufacturers all over the world. Our operations began in 1930, and we are incorporated in Delaware. With headquarters in Dallas, Texas, we have design, manufacturing or sales operations in more than 30 countries. Our two reportable segments are Analog and Embedded Processing, and we report the results of our remaining business activities in Other. In 2025, we generated $17.68 billion of revenue.",
+    "For decades, we have operated with a passion to create a better world by making electronics more affordable through semiconductors. We were pioneers in the transition from vacuum tubes to transistors and then to integrated circuits. As each generation has become more reliable, more affordable and lower in power, semiconductors are used by a growing number of customers and markets. Our passion continues to be alive today as we help our customers develop electronics and new applications.",
+    "For many years, we have run our business with three overarching ambitions in mind. First, we will act like owners who will own the company for decades. Second, we will adapt and succeed in a world that is ever changing. And third, we will be a company that we are personally proud to be a part of and that we would want as our neighbor. Our ambitions are foundational to ensuring that we operate in a sustainable and environmentally responsible manner. When we are successful in achieving these ambitions, our employees, customers, communities and shareholders all win.",
+    "As engineers, we are fortunate to work on exciting technology that helps our customers innovate to create a better world. Technology is the foundation of our company, but ultimately, our objective and the best metric for owners to measure our progress is through the growth of free cash flow per share over the long term.",
+    "Our strategy to maximize long-term free cash flow per share growth has three elements:",
+    "The first element of our strategy is a business model that is focused on analog and embedded processing products and built around four competitive advantages. This business model is the result of a series of strategic decisions made over the years and that continue today. The four sustainable competitive advantages are a strong foundation of manufacturing and technology, a broad portfolio of analog and embedded processing products, the reach of our market channels, and diversity and longevity of our products, markets and customer positions. In combination, these four competitive advantages provide tangible benefits, are difficult to replicate and ultimately separate us from our best peers. Together, these competitive advantages help position TI in a unique class of companies capable of generating and returning significant amounts of cash for our owners. We make our investments with an eye towards long-term strengthening and leveraging of these advantages.",
+    "The second element of our strategy to maximize free cash flow per share growth is disciplined allocation of capital. This spans how we select R&D projects, develop new capabilities, invest in manufacturing capacity or how we think about acquisitions and returning cash to our owners. Over a 10-year period from 2016 to 2025, we allocated $109 billion, which reinforces the importance of discipline in capital allocation. The largest allocation over this period was to drive organic growth, which includes investments in R&D, sales and marketing, capital expenditures and working capital for inventory. In this period, we allocated about $24 billion to capital expenditures to support future revenue growth, which will be a greater component of free cash flow per share growth going forward, as we are near completion of our six-year elevated capital expenditures cycle. Beyond that, we also allocated capital to dividends and share repurchases. Dividends are designed to appeal to a broad set of investors, and share repurchases are made with the goal of the accretive capture of future free cash flow for long-term investors. Lastly, for inorganic growth, we consider acquisitions that meet our financial and strategic objectives.",
+    "The third element of our strategy is efficiency, which we think of as constantly striving for more output for every dollar spent. This is about investing in the most impactful areas to maximize the growth of long-term free cash flow per share; it is not just about optimizing cost cutting to get to the last dollar of expense. We bring this philosophy of efficiency and continuous improvement to all areas of the company, and this focus on efficiency contributes to revenue growth, improved gross margins, disciplined R&D and SG&A expense, free cash flow margins and ultimately to free cash flow per share growth.",
+    "We believe that our business model with the combined effect of our four competitive advantages sets TI apart from our peers and will for a long time to come. We will invest to strengthen our competitive advantages, be disciplined in capital allocation and stay diligent in our pursuit of efficiencies. Finally, we will remain focused on the belief that long-term growth of free cash flow per share is the ultimate measure to generate value.",
+    "Semiconductors are electronic components that serve as the building blocks inside modern electronic systems and equipment. Semiconductors, generally known as \"chips,\" combine multiple transistors to form a complete electronic circuit. We have a diverse product portfolio that is used to accomplish many different things, such as converting and amplifying signals, interfacing with other devices, managing and distributing power, and processing data. This broad portfolio includes more than 80,000 products that are integral to almost every type of electronic equipment.",
+    "Our segments represent groups of products that have similar design and development requirements, product characteristics and manufacturing processes. Our segments also reflect how management allocates resources and measures results.",
+    "Our Analog segment generated $14.01 billion of revenue in 2025. Analog semiconductors change real-world signals, such as sound, temperature, pressure or light, by conditioning them, amplifying them and often converting them to a stream of digital data that can be processed by other semiconductors, such as embedded processors. Analog semiconductors are also used to manage power in all electronic equipment by converting, distributing, storing, discharging, isolating and measuring electrical energy, whether the equipment is plugged into a wall or using a battery. As the digitization of electronics continues, there is a growing need and opportunity for analog chips to provide the power to run devices and the critical interfaces with human beings, the real world and other electronic devices. Our Analog products are used in many markets, including industrial, automotive, data center, personal electronics and communications equipment.",
+    "Sales of our Analog products generated about 79% of our revenue in 2025.",
+    "Our Analog segment includes the following major product lines: Power and Signal Chain. Power"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks related to our business and industry",
+    "Legal and regulatory risks",
+    "Risks related to our financing activities and other risks"
+   ],
+   "paragraphs": [
+    "You should read the following risk factors in conjunction with the factors discussed elsewhere in this and other of our filings with the Securities and Exchange Commission (SEC) and in materials incorporated by reference into these filings. These risk factors are intended to highlight certain factors that may affect our financial condition and results of operations and are not meant to be an exhaustive discussion of risks that apply to TI, a company with broad international operations. Like many companies, we are susceptible to a potential downturn associated with macroeconomic weakness, which may affect our performance and the performance of our customers. Similarly, the price of our securities is subject to volatility due to fluctuations in general market conditions, actual financial results that do not meet our and/or the investment community's expectations, changes in our and/or the investment community's expectations for our future results, dividends or share repurchases, and other factors, many of which are beyond our control.",
+    "Our global operations subject us to risks associated with domestic or international political, social, economic or other conditions.",
+    "We have facilities in more than 30 countries. About 60% of our revenue comes from customers with headquarter locations outside the United States. Revenue from end customers headquartered in China represented about 20% of our revenue in 2025, while revenue from products shipped into China represented about 50% of our revenue in 2025. We also continue to expand our offerings of online transactions and services worldwide.",
+    "The semiconductor industry has recently been the focus of increased regulatory activity and scrutiny, which has contributed to variability in global trade conditions and supply chains. Certain countries where we operate, particularly the United States and China, have experienced, and other countries may experience, geopolitical tensions and administrative measures that affect global trade and macroeconomic conditions through the imposition of tariffs, including tariffs specific to the products that we sell, import or export restrictions, trade embargoes and sanctions, restrictions on cross-border investment and other trade barriers applicable to the semiconductor industry. Geopolitical tensions and administrative measures could limit our access to markets or impact our ability to deliver products, support customers, purchase or receive manufacturing equipment or materials, limit our suppliers' and customers' access to our products, or cause customers to seek alternate suppliers, which could adversely affect our operations and financial results.",
+    "We are exposed to political, social and economic conditions, security risks, acts of war, terrorism or other hostile acts, pandemics, epidemics or other public health crises, labor conditions, climate change risks and possible disruptions in power, water supply, transportation, communications and information technology networks of the various countries in which we operate. Any of these factors could adversely affect our results of operations, financial condition and reputation. In addition, our global operations expose us to periods when the U.S. dollar significantly fluctuates in relation to the non-U.S. currencies in which we transact business. The remeasurement of non-U.S. dollar transactions can have an adverse effect on our results of operations and financial condition.",
+    "We face substantial competition that requires us to respond rapidly to product development and pricing pressures."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Results of operations",
+    "2025 2024 Change",
+    "Revenue $ 14,006 $ 12,161 15 %",
+    "Operating profit 5,412 4,608 17 %",
+    "Operating profit % of revenue 38.6 % 37.9 %",
+    "Revenue $ 2,697 $ 2,533 6 %",
+    "Operating profit 304 352 (14) %",
+    "Operating profit % of revenue 11.3 % 13.9 %",
+    "Revenue $ 979 $ 947 3 %",
+    "Operating profit * 307 505 (39) %",
+    "Operating profit % of revenue 31.4 % 53.3 %",
+    "Financial condition",
+    "Liquidity and capital resources",
+    "Non-GAAP financial information",
+    "For Years Ended December 31,",
+    "Cash flow from operations (GAAP) * $ 7,153 $ 6,318",
+    "Capital expenditures (4,550) (4,820)",
+    "Proceeds from CHIPS Act incentives 335 —",
+    "Free cash flow (non-GAAP) $ 2,938 $ 1,498",
+    "Revenue $ 17,682 $ 15,641",
+    "Cash flow from operations as a percentage of revenue (GAAP) 40.5 % 40.4 %",
+    "Free cash flow as a percentage of revenue (non-GAAP) 16.6 % 9.6 %",
+    "Critical accounting estimates",
+    "Commitments and contingencies"
+   ],
+   "paragraphs": [
+    "We design and manufacture semiconductors that we sell to electronics designers and manufacturers all over the world. Technology is the foundation of our company, but ultimately, our objective and the best metric for owners to measure our progress is through the growth of free cash flow per share over the long term.",
+    "Our strategy to maximize long-term free cash flow per share growth has three elements:",
+    "1.A great business model that is focused on analog and embedded processing products and built around four sustainable competitive advantages. The four sustainable competitive advantages are powerful in combination and provide tangible benefits:",
+    "(a)A strong foundation of manufacturing and technology that provides lower costs and greater control of our supply chain.",
+    "(b)A broad portfolio of analog and embedded processing products that offers more opportunity per customer and more value for our investments.",
+    "(c)The reach of our market channels that gives access to more customers and more of their design projects, leading to better insight and knowledge of customer needs and the opportunity to sell more of our products into each design.",
+    "(d)Diversity and longevity of our products, markets and customer positions that provide less single point dependency and longer returns on our investments.",
+    "Together, these competitive advantages help position TI in a unique class of companies capable of generating and returning significant amounts of cash for our owners. We make our investments with an eye towards long-term strengthening and leveraging of these advantages.",
+    "2.Discipline in allocating capital to the best opportunities. This spans how we select R&D projects, develop new capabilities, invest in manufacturing capacity or how we think about acquisitions and returning cash to our owners.",
+    "3.Efficiency, which means constantly striving for more output for every dollar spent.",
+    "We believe that our business model with the combined effect of our four competitive advantages sets TI apart from our peers and will for a long time to come. We will invest to strengthen our competitive advantages, be disciplined in capital allocation and stay diligent in our pursuit of efficiencies. Finally, we will remain focused on the belief that long-term growth of free cash flow per share is the ultimate measure to generate value.",
+    "For more information about market and business characteristics, see the Business discussion in Item 1 of this Form 10-K.",
+    "Management's discussion and analysis of financial condition and results of operations (MD&A) should be read in conjunction with the financial statements and the related notes that appear elsewhere in this document. In the following discussion of our results of operations:",
+    "•Our segments represent groups of similar products that are combined on the basis of similar design and development requirements, product characteristics, manufacturing processes and distribution channels, and how management allocates resources and measures results. See Note 1 to the financial statements for more information regarding our segments."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "產品資訊",
+    "市場區隔",
+    "工業 工業自動化",
+    "汽車 車用資訊娛樂與儀錶板",
+    "資料中心 資料中心計算",
+    "個人電子產品 手機",
+    "通訊設備 無線基礎建設",
+    "市場特性",
+    "客戶、銷售與銷售通路",
+    "製造",
+    "智慧財產權",
+    "關於我們高階主管之資訊",
+    "姓名 年齡 職位",
+    "人力資本管理",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "我們設計與製造半導體，並將其銷售給全球各地的電子設計師與製造商。我們的業務自1930年起開始運作，並在特拉華州註冊為公司。總部設於德克薩斯州達拉斯市，我們在超過30個國家設有設計、製造或銷售業務。我們的兩個應報告分部為類比與嵌入式處理，並將其餘業務活動的結果歸類為其他。在2025年，我們產生了1768億美元的營業收入。",
+    "數十年來，我們以熱忱經營業務，透過半導體使電子產品更加平價，進而創造更美好的世界。我們是從真空管轉向晶體管，再轉向積體電路的先驅者。隨著每一世代變得更可靠、更平價且耗電更低，半導體被越來越多的客戶與市場所使用。我們的熱忱至今仍然持續，協助客戶開發電子產品與新應用。",
+    "多年來，我們以三個主要願景來運作業務。第一，我們將像擁有公司的股東一樣行事，並持續擁有公司數十年。第二，我們將適應並在不斷變化的世界中取得成功。第三，我們將成為一個我們 personally 以為榮的公司，並希望成為我們鄰居的公司。這些願景是確保我們以可持續且環境責任的方式運作的基礎。當我們成功實現這些願景時，我們的員工、客戶、社區與股東皆能獲益。",
+    "作為工程師，我們有幸參與令人興奮的技術，協助客戶創新以創造更美好的世界。技術是我們公司的基礎，但最終，我們的目標以及股東衡量我們進展的最佳指標，是長期自由現金流每股的成長。",
+    "我們的策略以最大化長期自由現金流每股成長為目標，包含三個要素：",
+    "我們策略的第一個要素是專注於類比與嵌入式處理產品的商業模式，並建立在四項競爭優勢之上。這個商業模式是多年來一系列戰略決策的結果，並持續至今。這四項可持續的競爭優勢包括強大的製造與技術基礎、廣泛的類比與嵌入式處理產品組合、我們市場通路的廣度，以及產品、市場與客戶地位的多樣性與長久性。這四項競爭優勢結合後，能提供實際效益，難以複製，並最終使我們與最佳競爭對手區隔開來。這些競爭優勢共同幫助TI處於一類獨特的公司羣體，有能力為股東產生並回饋大量的現金。我們的投資以長期強化與利用這些優勢為目標。",
+    "我們策略的第二個要素是對資本的嚴謹配置。這包括我們如何選擇研發專案、發展新能力、投資製造能力，或如何思考收購與回饋現金給股東。從2016年至2025年的十年期間，我們配置了1090億美元，這強調了資本配置的嚴謹性。此期間最大的配置是推動內在成長，包括對研發、銷售與市場推廣、資本支出與存貨營運資金的投資。在這期間，我們配置了約240億美元用於資本支出，以支持未來營收成長，這將成為自由現金流每股成長的重要組成部分，因為我們已接近完成六年的高檔資本支出週期。除此之外，我們也將資本配置於股息與股票回購。股息旨在吸引廣泛的投資者，而股票回購則以捕捉未來自由現金流，為長期投資者創造價值為目標。最後，對於外在成長，我們會考慮符合我們財務與戰略目標的收購案。",
+    "我們策略的第三個要素是效率，我們認為這意味著不斷追求每花一美元能產生更多產出。這是關於投資於最具影響力的領域，以最大化長期自由現金流每股的成長；這並不只是關於優化成本削減以達到最後一美元的費用。我們將這種效率哲學與持續改進的觀念帶入公司的每個領域，這種對效率的關注有助於營收成長、毛利率改善、嚴謹的研發與營運及行政費用、自由現金流邊際，並最終實現自由現金流每股的成長。",
+    "我們相信，我們的商業模式結合四大競爭優勢的綜合作用，使本公司與同業相比獨樹一格，並將在可預見的未來持續保持此優勢。我們將投資以強化競爭優勢，並在資金配置上保持謹慎，同時持續追求效率提升。最後，我們將持續秉持長期每股自由現金流成長是創造價值的最終衡量標準的信念。",
+    "半導體為電子零組件，為現代電子系統與設備的基礎元件。半導體，一般稱為『晶片』，透過整合多個電晶體形成完整的電子電路。本公司擁有廣泛的產品組合，用以實現許多不同的功能，例如訊號的轉換與放大、與其他裝置的介面、電力的管理與分配，以及資料的處理。此廣泛的產品組合包含超過80,000種產品，為幾乎所有類型電子設備的重要組成部分。",
+    "我們的應報告分部代表具有相似設計與開發需求、產品特性與製造流程的產品羣組。我們的應報告分部也反映管理階層資源配置與績效衡量的方式。",
+    "本公司 Analog 分部於2025年產生了140.1億美元的營業收入。Analog 半導體用以改變現實世界中的訊號，例如聲音、溫度、壓力或光線，透過訊號的條件化、放大，並經常轉換為可由其他半導體（如嵌入式處理器）處理的數位資料流。Analog 半導體也用以管理所有電子設備中的電力，透過電能的轉換、分配、儲存、釋放、隔離與測量，無論設備是接上電源或使用電池供電。隨著電子設備的數位化持續進行，對 Analog 晶片的需求與機會不斷增加，以提供設備運作所需的電力，以及與人類、現實世界及其他電子設備之間關鍵的介面。",
+    "本公司 Analog 產品的銷售於2025年約佔本公司營業收入的79%。",
+    "本公司 Analog 分部包含以下主要產品線：Power 和 Signal Chain。Power"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果",
+    "2025 2024 變動",
+    "營業收入 $ 14,006 $ 12,161 15 %",
+    "營運獲利 5,412 4,608 17 %",
+    "營運獲利佔營業收入百分比 38.6 % 37.9 %",
+    "營業收入 $ 2,697 $ 2,533 6 %",
+    "營運獲利 304 352 (14) %",
+    "營運獲利佔營業收入百分比 11.3 % 13.9 %",
+    "營業收入 $ 979 $ 947 3 %",
+    "營運獲利 * 307 505 (39) %",
+    "營運獲利佔營業收入比例 31.4 % 53.3 %",
+    "財務狀況",
+    "流動性及資金來源",
+    "非GAAP財務資訊",
+    "截至12月31日年度",
+    "營運現金流 (GAAP) * $ 7,153 $ 6,318",
+    "資本支出 (4,550) (4,820)",
+    "來自 CHIPS Act 優惠措施的現金流入 335 —",
+    "自由現金流 (non-GAAP) $ 2,938 $ 1,498",
+    "營業收入 $ 17,682 $ 15,641",
+    "營運現金流佔營業收入比例 (GAAP) 40.5 % 40.4 %",
+    "自由現金流佔營業收入比例 (non-GAAP) 16.6 % 9.6 %",
+    "重要會計估計",
+    "承諾及或有事項"
+   ],
+   "paragraphs": [
+    "我們設計並製造半導體，銷售給全球各地的電子設計師與製造商。科技是本公司發展的基礎，但最終，我們的目標以及股東衡量我們進展的最佳指標，是長期每股自由現金流的成長。",
+    "我們的策略是最大化長期每股自由現金流的成長，這個策略包含三個要素：",
+    "1. 一個專注於類比與嵌入式處理產品的優秀商業模式，並建立在四項可持續的競爭優勢之上。這四項可持續的競爭優勢結合起來具有強大效果，並能帶來實際的效益：",
+    "(a) 一個強大的製造與科技基礎，提供較低的成本與對我們供應鏈更大的控制力。",
+    "(b) 一個廣泛的類比與嵌入式處理產品組合，為每位客戶提供更多的機會，並為我們的投資帶來更高的價值。",
+    "(c) 我們市場通路的廣度，提供接觸更多客戶與他們設計專案的機會，進而獲得更深入的客戶需求洞察與知識，並增加我們產品在每個設計中的銷售機會。",
+    "(d) 我們產品、市場與客戶定位的多樣性與長久性，提供較少的單一依賴點，並為我們的投資帶來更長的回報週期。",
+    "這些競爭優勢共同作用，有助於將 TI 定位在一個獨特的公司類別中，這些公司有能力為我們的股東產生並回饋大量的現金。我們進行投資時，著眼於長期強化與發揮這些優勢。",
+    "2.在資金配置上保持紀律，以抓住最佳的投資機會。這包括我們如何選擇研發專案、發展新能力、投資製造能力，或如何思考併購事宜以及將現金回饋給股東。",
+    "3.效率，意味著不斷追求每花一美元能產生更多的產出。",
+    "我們相信，我們的商業模式結合了我們四大競爭優勢的綜合作用，使德州儀器（TI）與同業區隔開來，並將持續長久。我們將投資以強化這些競爭優勢，並在資金配置上保持紀律，同時持續追求效率。最後，我們將持續秉持長期每股自由現金流成長是創造價值的最終衡量標準的信念。",
+    "如需更多有關市場與業務特徵的資訊，請參閱本Form 10-K第1項的業務討論部分。",
+    "管理層對財務狀況與營運結果的討論與分析（MD&A）應與本文件其他部分出現的財務報表及相關附註同時閱讀。在以下對我們營運結果的討論中：",
+    "•我們的應報告分部代表類似產品的組羣，這些組羣是根據相似的設計與開發需求、產品特性、製造流程與銷售通路，以及管理層如何配置資源與衡量結果來組合的。如需更多有關我們應報告分部的資訊，請參閱財務報表的附註1。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司業務及產業相關之風險",
+    "法律及法規相關風險",
+    "與本公司資金運用活動及其他風險相關之風險"
+   ],
+   "paragraphs": [
+    "你應配合本文件及其他我們向證券交易委員會（SEC）所提交的申報文件中討論的各項因素，以及納入本文件參考的資料，來閱讀下列風險因素。這些風險因素旨在強調可能影響我們財務狀況與營運結果的某些因素，並非針對TI這家擁有廣泛國際業務的公司，提供完整的風險討論。",
+    "我們的全球業務使我們面臨與國內或國際政治、社會、經濟或其他條件相關的風險。",
+    "我們在超過30個國家設有設施。約60%的我們營業收入來自於總部設於美國以外的客戶。2025年，總部設於中國的終端客戶所產生的營業收入約佔我們營業收入的20%，而我們產品運送到中國所產生的營業收入約佔我們營業收入的50%。我們也持續在全球擴展線上交易與服務的產品組合。",
+    "半導體產業近期成為監管機構關注與審查的焦點，這已導致全球貿易條件與供應鏈的變動。我們在某些國家營運，特別是美國與中國，已經經歷，其他國家也可能經歷地緣政治緊張與行政措施，這些措施透過課徵關稅（包括針對我們所銷售、進口或出口產品的特定關稅）、進出口限制、貿易禁運與制裁、跨境投資限制及其他適用於半導體產業的貿易障礙，影響全球貿易與總體經濟條件。地緣政治緊張與行政措施可能限制我們進入市場的機會，或影響我們交付產品、支援客戶、購買或取得製造設備與材料的能力，限制我們供應商與客戶使用我們產品的機會，或導致客戶尋求其他供應商，這可能會對我們的營運與財務結果產生不利影響。",
+    "我們面臨政治、社會與經濟條件、安全風險、戰爭行為、恐怖攻擊或其他敵對行為、疫情、流行病或其他公共衛生危機、勞動條件、氣候變遷風險，以及我們在各國營運所可能遭遇的電力、水資源、運輸、通訊與資訊科技網路中斷等風險。任何這些因素都可能對我們的營運結果、財務狀況與聲譽產生不利影響。此外，我們的全球業務使我們面臨美國美元與我們進行業務交易的非美國貨幣之間大幅波動的時期。非美國貨幣交易的重新計價可能對我們的營運結果與財務狀況產生不利影響。",
+    "我們面臨著激烈的競爭，這要求我們迅速回應產品開發與價格壓力。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

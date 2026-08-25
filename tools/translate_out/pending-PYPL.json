@@ -1,0 +1,207 @@
+{
+ "ticker": "PYPL",
+ "cik": "0001633917",
+ "accession": "0001633917-26-000024",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Consumer solutions",
+    "Merchant solutions"
+   ],
+   "paragraphs": [
+    "At PayPal Holdings, Inc., our mission is to revolutionize commerce globally. Our products are designed to enable digital payments and simplify commerce experiences for consumers and merchants to make selling, shopping, and sending and receiving money simple, personalized, and secure, whether online or in-person.",
+    "We operate a global, two-sided network at scale that connects consumers and merchants with 439 million active accounts across approximately 200 markets as of December 31, 2025.",
+    "•Consumers: We provide consumers with digital wallets and other solutions that allow them to shop and pay with PayPal and Venmo—both online and in-person—manage their finances (including saving and buying and selling cryptocurrencies), and send and receive money between friends and family. When shopping, we offer consumers flexibility in how they pay, which may include a bank account, a PayPal or Venmo account balance, PayPal-branded consumer credit and debit products, other credit and debit cards, certain cryptocurrencies, or other stored value products such as gift cards, and eligible rewards.",
+    "•Merchants: We help merchants connect with customers, increase conversion rates and sales, and grow their businesses in the markets where our services are available. We provide large enterprises and small and medium businesses with online branded checkout solutions, including PayPal and Venmo; online unbranded payments processing; PayPal buy now, pay later (\"BNPL\") solutions; in-person point of sale solutions; business financing; payouts capabilities; and risk tools.",
+    "We earn revenues primarily by charging fees for completing payment transactions for our customers and other payment-related services, which are typically based on the volume of activity processed on our payments platform. We also generate revenue from customers for currency conversion, for instant transfers from their PayPal or Venmo account to their bank account or debit card, and to facilitate the purchase and sale of cryptocurrencies; however, we generally do not charge customers to fund or draw from their accounts. We also earn revenue by providing other value-added services, which primarily comprise revenue earned through partnerships, interest and fees from our consumer and merchant credit products, interest earned on certain assets underlying customer balances, referral fees, subscription fees, and gateway services.",
+    "Unless otherwise expressly stated or the context otherwise requires, references to \"we,\" \"our,\" \"us,\" \"the Company,\" or \"PayPal\" refer to PayPal Holdings, Inc. and its consolidated subsidiaries.",
+    "FY 2025 FORM 10-K KEY PERFORMANCE METRICS",
+    "In 2025, we processed $1.79 trillion of total payment volume (\"TPV\"), an increase of 7% compared to 2024, and 25.4 billion payment transactions, a decrease of 4% compared to 2024. As of December 31, 2025, we had 439 million active accounts, an increase of 1% compared to December 31, 2024.",
+    "We measure the scale of our platform and the relevance of our products and services to our customers through certain metrics, including TPV, payment transactions, and active accounts:",
+    "TPV is the value of payments, net of payment reversals, successfully completed on our payments platform or enabled by PayPal via a partner payment solution, not including gateway-exclusive transactions.",
+    "Number of payment transactions is the total number of payments, net of payment reversals, successfully completed on our payments platform or enabled by PayPal via a partner payment solution, not including gateway-exclusive transactions.",
+    "An active account is an account registered directly with PayPal or a platform access partner that has completed a transaction on our platform, not including gateway-exclusive transactions, within the past 12 months. A platform access partner is a third party whose customers are provided access to PayPal's platform or services through such third-party's login credentials, including individuals and entities that utilize Hyperwallet's payout capabilities. A user may register on our platform to access different products and may register more than one account to access a product. Accordingly, a user may have more than one active account. The number of active accounts provides management with additional perspective on the overall scale of our platform, but may not have a direct relationship to our operating results.",
+    "Our business is built on a strong foundation designed to drive profitable growth and differentiate us from our competitors. We believe that our competitive strengths include the following:",
+    "•Two-sided platform—we facilitate online and offline transactions for millions of consumers and merchants. Our relationship on both sides of a transaction enables us to utilize data to innovate and offer unique product experiences designed to remove friction, drive sales, and enhance shopping experiences."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Cyberattacks and security vulnerabilities could result in serious harm to our reputation, business, and financial condition.",
+    "Business interruptions or systems failures may impair the availability of our websites, applications, products or services, or otherwise harm our business.",
+    "If we cannot keep pace with rapid technological developments to provide new and innovative products and services, the use of our products and services and, consequently, our revenues, could decline.",
+    "We are subject to regulatory scrutiny and may be subject to legal proceedings under antitrust and competition laws.",
+    "We are regularly subject to general litigation, regulatory scrutiny, and government inquiries.",
+    "Third parties may allege that we are infringing their patents and other intellectual property rights.",
+    "We may be unable to protect or enforce our intellectual property.",
+    "We face substantial and increasingly intense competition worldwide in the global payments industry.",
+    "Changes to payment card networks or bank fees, rules, or practices could harm our business.",
+    "Changes in how consumers fund their PayPal transactions could harm our business.",
+    "Our credit products expose us to additional risks.",
+    "We rely on third parties in many aspects of our business, which creates additional risk.",
+    "Any factors that reduce cross-border trade or make such trade more difficult could harm our business."
+   ],
+   "paragraphs": [
+    "You should carefully consider the risks and uncertainties described below, in addition to other information appearing in this Form 10-K, including our consolidated financial statements and related notes, for important information regarding risks and uncertainties that could affect us. These risk factors do not identify all risks we face, and additional risks and uncertainties that we are unaware of, or that we currently believe are not material, may also become important factors that adversely affect our business. If any of the following risks actually occur, our business, financial condition, results of operations, future prospects, and the trading price of our common stock could be materially and adversely affected.",
+    "Techniques used to attempt to obtain unauthorized or illegal access to systems and information (including customers' personal data), disable or degrade service, exploit vulnerabilities, or sabotage systems are continuously evolving. These attempts may not be recognized or detected until after they have been launched against a target. Unauthorized parties continuously attempt to gain access to our systems or facilities through various means, including through hacking into our systems or facilities or those of our customers, partners, or vendors, and attempting to fraudulently induce users of our systems (including customers, employees, and partner and vendor personnel) into disclosing user names, passwords, payment card information, multi-factor authentication application access or other sensitive information used to gain access to such systems or facilities. This information may, in turn, be used to access our customers' confidential personal or proprietary information and financial instrument data that are stored on or accessible through our information technology (\"IT\") systems and those of third parties with whom we partner. This information may also be used to execute fraudulent transactions or other activity. Numerous and evolving cybersecurity and related threats, including advanced and persisting cyberattacks, artificial intelligence (\"AI\")-enabled threats, cyberextortion, distributed denial-of-service attacks, ransomware, spear phishing and social engineering schemes, the introduction of computer viruses or other malware, and the destruction of all or portions of our IT and infrastructure and those of third parties with whom we partner or that are part of our IT supply chain, are becoming increasingly sophisticated and complex, may be difficult to detect, and could compromise the confidentiality, availability, and integrity of the data in our systems, as well as the systems themselves.",
+    "We believe that hostile actors, who may comprise individuals, coordinated groups, sophisticated organizations, or nation-state supported entities, may target PayPal due to our name, brand recognition, types of data (including sensitive payments- and identity-related data) that customers provide to us, and the widespread adoption and use of our products and services. We have experienced from time to time, and may experience in the future, cybersecurity incidents, including breaches of our security measures, network breaches, and compromise of personally identifiable customer information due to human error, deception, malfeasance, insider threats, system errors, defects, vulnerabilities, or other issues. Any of the foregoing events may subject us to fines, penalties, regulatory or other enforcement actions, and adversely affect our business, reputation, or financial condition.",
+    "Any cybersecurity incidents, including cyberattacks or data security breaches affecting the IT or infrastructure of our customers, partners, or vendors (including data center and cloud computing providers) or of companies we acquire, could have similar negative effects.",
+    "We have experienced, and may experience in the future, breaches involving customer information for which we have notified, and may notify, regulators, customers and other third parties. These or other cybersecurity breaches and other exploited security vulnerabilities have subjected us and could further subject us to significant costs and third-party liabilities, result in improper disclosure of data and violations of applicable privacy and other laws, require us to change our business practices, cause us to incur significant remediation costs, lead to loss of customer confidence in, or decreased use of, our products and services, damage our reputation and brands, divert the attention of management from the operation of our business, result in significant compensation or contractual penalties from us to our customers and their business partners as a result of losses to or claims by them, or expose us to litigation, regulatory investigations, and significant fines and penalties. Moreover, under payment card network rules and our contracts with our payment processors, if there is a breach of payment card information stored by us or our direct payment card processing vendors, we could be liable to the payment card issuing banks, including for their cost of issuing new cards and related expenses. While we maintain insurance to help offset the financial impact of these risks, our coverage may be insufficient to cover all our losses caused by security breaches and other damage to or unavailability of our systems.",
+    "Our systems and operations and those of our service providers and partners have experienced from time to time, and may experience in the future, business interruptions or degradation of service because of distributed denial-of-service and other cyberattacks, insider threats, hardware and software defects or malfunctions, human error, earthquakes, hurricanes, floods, fires, and other natural disasters, public health crises (including pandemics), power losses, disruptions in telecommunications services, fraud, military or political conflicts, terrorist attacks, computer viruses or other malware, or other events. The frequency and intensity of weather events related to climate change are increasing, which could increase the likelihood and severity of such disasters as well as related damage and business interruption. Our corporate headquarters are located in the San Francisco Bay Area, a seismically active region in California. A catastrophic event that results in a disruption to or failure of our systems or operations could result in significant losses and require substantial recovery time and significant expenditures to resume or maintain operations. Some of our systems, including those of companies that we have acquired, are not fully redundant and any failure of these systems, including due to a catastrophic event, may lead to operational outages or delays. While we engage in disaster recovery planning and testing intended to mitigate risks from outages or delays, our planning and testing may not be effective or sufficient for all possible outcomes or events. As a provider of payments solutions, we are also subject to heightened scrutiny by regulators that may require specific business continuity, resiliency and disaster recovery plans, and rigorous testing of such plans, which may be costly and time-consuming to implement, and may divert our resources from other business priorities. Any of the foregoing risks could have a material adverse impact on our business, financial condition, and results of operations."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Regulatory environment",
+    "Cybersecurity and information security",
+    "Year Ended December 31, Percent Increase/(Decrease)",
+    "(In millions, except percentages and per share amounts)",
+    "Year Ended December 31,",
+    "(In millions)",
+    "Net revenue analysis",
+    "Year Ended December 31, Percent Increase/",
+    "(In millions, except percentages)",
+    "Transaction expense",
+    "Transaction and credit losses",
+    "December 31,",
+    "Customer support and operations",
+    "Sales and marketing",
+    "Technology and development",
+    "General and administrative",
+    "Restructuring and other",
+    "Other income (expense), net",
+    "Income tax expense",
+    "Cash, cash equivalents, and investments",
+    "Available credit and debt",
+    "Credit ratings",
+    "Credit products",
+    "Customer protection programs",
+    "Capital return program",
+    "Future obligations",
+    "Leases Total",
+    "Payments Due During the Year Ending December 31, (In millions)",
+    "Other considerations"
+   ],
+   "paragraphs": [
+    "You should read the following \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in conjunction with the audited consolidated financial statements and the related notes that appear in this report. Unless otherwise expressly stated or the context otherwise requires, references to \"we,\" \"our,\" \"us,\" \"the Company,\" and \"PayPal\" refer to PayPal Holdings, Inc. and its consolidated subsidiaries.",
+    "This Management's Discussion and Analysis of Financial Condition and Results of Operations focuses on a discussion of 2025 results as compared to 2024 results. For a discussion of 2024 results as compared to 2023 results, see \"Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations\" within our Form 10-K for the year ended December 31, 2024 filed with the SEC on February 4, 2025.",
+    "At PayPal, our mission is to revolutionize commerce globally. Our products are designed to enable digital payments and simplify commerce experiences for consumers and merchants to make selling, shopping, and sending and receiving money simple, personalized, and secure, whether online or in-person. Our two-sided platform serves millions of consumers and merchants worldwide.",
+    "We operate globally and in a rapidly evolving regulatory environment characterized by a heightened focus by regulators globally on all aspects of the payments industry, including anti-money laundering, countering terrorist financing, privacy, cybersecurity, and consumer protection. The laws and regulations applicable to us, including those enacted prior to the advent of digital payments, continue to evolve through legislative and regulatory action and judicial interpretation. New or changing laws and regulations, including changes to their interpretation and implementation, as well as increased penalties and enforcement actions related to non-compliance, could have a material adverse impact on our business, results of operations, and financial condition. We monitor these areas closely and are focused on designing compliant solutions for our customers.",
+    "Cybersecurity and information security risks for global payments and technology companies like us have increased significantly in recent years. Although we have developed systems and processes designed to protect the data we manage, prevent data loss and other security incidents, and enable us to effectively respond to known and potential risks, and expect to continue to expend significant resources to bolster these protections, we have experienced and expect to continue to experience cybersecurity incidents and remain subject to these risks. There can be no assurance that our security measures will provide sufficient protection or security to prevent breaches or attacks. For additional information regarding our cybersecurity and information security risks, see \"Item 1A. Risk Factors—Cyberattacks and security vulnerabilities could result in serious harm to our reputation, business, and financial condition\" and \"Item 1C. Cybersecurity.\"",
+    "A deterioration in macroeconomic conditions resulting from uncertainties and effects from tariffs, inflation, international conflicts, and interest rates could continue to increase the risk of lower consumer spending, merchant and consumer bankruptcy, insolvency, business failure, higher credit losses, foreign exchange fluctuations, or other business interruption, which may adversely impact our business. We are unable to reasonably estimate the total potential impact on our financial results that may ultimately result from such changes in the macroeconomic environment.",
+    "FY 2025 FORM 10-K OVERVIEW OF RESULTS OF OPERATIONS",
+    "The following table provides a summary of our consolidated financial results for the years ended December 31, 2025, 2024, and 2023:",
+    "Net revenues $ 33,172 $ 31,797 $ 29,771 4 % 7 % Operating expenses 27,107 26,472 24,743 2 % 7 %",
+    "Operating income 6,065 5,325 5,028 14 % 6 % Operating margin 18 % 17 % 17 % ** ** Other income (expense), net 227 4 383 ** (99) %",
+    "Income tax expense 1,059 1,182 1,165 (10) % 1 % Effective tax rate 17 % 22 % 22 % ** ** Net income (loss) $ 5,233 $ 4,147 $ 4,246 26 % (2) %",
+    "Net income (loss) per diluted share $ 5.41 $ 3.99 $ 3.84 35 % 4 % Net cash provided by operating activities",
+    "All amounts in tables are rounded to the nearest million, except as otherwise noted. As a result, certain amounts may not recalculate using the rounded amounts provided.",
+    "Net revenues increased $1.4 billion, or 4%, in 2025 compared to 2024 driven primarily by growth in total payment volume (\"TPV\", as defined below under \"Key Metrics\") of 7% and an increase in interest and fee revenue earned on our loans receivable portfolio, partially offset by the unfavorable impact of hedging activities."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Consumer solutions': '消費者解決方案'}",
+    "{'Merchant solutions': '商家解決方案'}"
+   ],
+   "paragraphs": [
+    "在 PayPal Holdings, Inc.，我們的使命是革新全球商業。我們的產品設計用以實現數位支付，並簡化消費者與商家的商業體驗，使其在線上或線下都能輕鬆、個性化且安全地進行販售、購物以及轉帳與收款。",
+    "我們運營一個全球規模的雙邊網路，連接消費者與商家，截至 2025 年 12 月 31 日，我們在約 200 個市場擁有 4.39 億個活躍帳戶。",
+    "•消費者：我們為消費者提供數位錢包及其他解決方案，使其能透過 PayPal 和 Venmo 進行線上與線下購物與付款，管理財務（包括儲蓄與買賣加密貨幣），並在親友之間轉帳與收款。在購物時，我們為消費者提供多樣化的付款方式，可能包括銀行帳戶、PayPal 或 Venmo 帳戶餘額、PayPal 品牌消費者信用卡與借記卡、其他信用卡與借記卡、某些加密貨幣，或其它儲值產品如禮券，以及符合條件的獎勵。",
+    "•商家：我們協助商家與客戶建立聯繫，提高轉換率與銷售額，並在其服務可提供的市場中拓展業務。我們為大型企業與中小企業提供線上品牌結帳解決方案，包括 PayPal 和 Venmo；線上無品牌支付處理；PayPal 立即購、後付款（\"BNPL\"）解決方案；線下銷售點解決方案；商業融資；付款發放功能；以及風險管理工具。",
+    "我們主要透過為客戶完成支付交易收取費用及其他與支付相關的服務來獲取收入，這些費用通常根據我們支付平台處理的活動量來計算。我們也從客戶處獲取收入，用以進行貨幣兌換、從其 PayPal 或 Venmo 帳戶瞬間轉帳至銀行帳戶或借記卡，以及協助買賣加密貨幣；然而，我們通常不會向客戶收取費用以資助或提取其帳戶資金。我們也透過提供其他增值服務來獲取收入，這些收入主要來自合作夥伴、消費者與商家信用卡產品的利息與費用、某些客戶餘額基礎資產的利息、介紹費、訂閱費以及閘道服務。",
+    "除非另有明確說明或上下文另有要求，否則提及 \"我們\"、\"我們的\"、\"我們\"、\"本公司\" 或 \"PayPal\" 均指 PayPal Holdings, Inc. 及其合併子公司。",
+    "FY 2025 FORM 10-K 關鍵績效指標",
+    "在 2025 年，我們處理了總支付金額 1.79 兆美元（\"TPV\"），較 2024 年成長 7%，並處理了 254 億筆支付交易，較 2024 年減少 4%。截至 2025 年 12 月 31 日，我們擁有 4.39 億個活躍帳戶，較 2024 年 12 月 31 日成長 1%。",
+    "我們透過某些指標來衡量我們平台的規模以及我們的產品與服務對客戶的相關性，包括TPV、支付交易數量以及活躍帳戶：",
+    "TPV為成功完成於我們支付平台或透過PayPal經由委外支付解決方案啟動的支付金額，扣除支付退款後的淨值，不包含閘道獨佔交易。",
+    "支付交易數量為成功完成於我們支付平台或透過PayPal經由委外支付解決方案啟動的支付總數，扣除支付退款後的淨數，不包含閘道獨佔交易。",
+    "活躍帳戶為直接註冊於PayPal或平台存取夥伴的帳戶，且在過去12個月內於我們平台完成交易，不包含閘道獨佔交易。平台存取夥伴為第三方，其客戶透過該第三方的登入憑證存取PayPal的平台或服務，包括使用Hyperwallet payouts功能的個人及機構。用戶可能在我們平台註冊以存取不同產品，也可能註冊多個帳戶以存取某產品。因此，用戶可能擁有超過一個活躍帳戶。活躍帳戶數量為管理階層提供有關我們平台整體規模的額外觀點，但可能與我們的營運成果沒有直接關係。",
+    "我們的業務建立在強大的基礎上，旨在推動獲利成長並與競爭對手區隔。我們認為我們的競爭優勢包括以下內容：",
+    "•雙邊平台—we為數百萬消費者與商家促進線上及線下交易。我們在交易雙方的關係使我們能夠運用數據創新，並提供獨特的產品體驗，以減少摩擦、推動銷售並提升購物體驗。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "法規環境",
+    "網路安全與資訊安全",
+    "截至12月31日年度，增幅/（減幅）%",
+    "(以千萬美元為單位，除百分比及每股金額外)",
+    "截至12月31日年度，",
+    "(以千萬美元為單位)",
+    "營業收入分析",
+    "截至12月31日年度，增幅/",
+    "(以千萬為單位，除百分比)",
+    "交易費用",
+    "交易及信用損失",
+    "12月31日",
+    "客戶支援及運營",
+    "銷售及市場推廣",
+    "科技及開發",
+    "一般及行政",
+    "重整及其它",
+    "其它收入（費用），淨額",
+    "所得稅費用",
+    "現金、現金等價物及投資",
+    "可用信用及債務",
+    "信用評等",
+    "信用產品",
+    "客戶保護方案",
+    "資本回饋計畫",
+    "未來義務",
+    "租賃總計",
+    "本會計年度結算日為12月31日之年度內應支付金額（單位：千萬）",
+    "其他考量因素"
+   ],
+   "paragraphs": [
+    "您應配合閱讀下列「管理層對財務狀況與營運成果之討論與分析」，與本報告中之審計合併財務報表及相關附註一同參考。除非另有明確說明或上下文另有要求，否則「我們」、「我們的」、「我們」、「本公司」及「PayPal」均指 PayPal Holdings, Inc. 及其合併子公司。",
+    "本「管理層對財務狀況與營運成果之討論與分析」重點探討 2025 年結果與 2024 年結果之比較。如需瞭解 2024 年結果與 2023 年結果之比較，請參閱我們於 2025 年 2 月 4 日向 SEC 提交之 2024 年度 10-K 表單中之「項目 7. 管理層對財務狀況與營運成果之討論與分析」。",
+    "在 PayPal，我們的使命是革新全球商業。我們的產品設計用以實現數位支付，並簡化消費者與商家的商業體驗，使銷售、購物以及發送與接收金錢變得簡單、個性化且安全，無論是線上或線下。我們的雙邊平台服務全球數百萬的消費者與商家。",
+    "我們在全球運營，並處於一個快速變化的監管環境中，特徵為全球監管機構對支付產業各方面的關注度不斷提高，包括反洗錢、打擊恐怖主義融資、隱私權、資訊安全及消費者保護。適用於我們的法律與法規，包括在數位支付出現前所頒佈的法律，持續透過立法與監管行動及司法解釋而進化。新的或變化的法律與法規，包括其解釋與執行方式的變更，以及因不遵守而增加的處罰與執法行動，可能對我們的業務、營運成果與財務狀況造成重大不利影響。我們密切監測這些領域，並專注於為客戶設計符合法規的解決方案。",
+    "近年來，全球支付與科技公司如我們所面臨的網路安全與資訊安全風險顯著增加。雖然我們已發展出系統與流程，用以保護我們管理的資料、防止資料遺失及其他安全事件，並使我們能有效應對已知與潛在的風險，且預期會持續投入大量資源以強化這些防護措施，我們已經驗過並預期會持續經驗網路安全事件，且仍面臨這些風險。無法保證我們的安全措施能提供足夠的保護或安全，以防止資料外洩或遭受攻擊。有關我們的網路安全與資訊安全風險之更多資訊，請參閱「項目 1A. 風險因素—網路攻擊與安全漏洞可能對我們的聲譽、業務與財務狀況造成嚴重損害」及「項目 1C. 網路安全」。",
+    "總體經濟條件惡化，因關稅、通貨膨脹、國際衝突及利率等不確定性與影響，可能持續增加消費者支出減少、商家與消費者破產、財務困難、企業失敗、信貸損失增加、外匯波動或其它業務中斷的風險，這可能對我們的業務造成不利影響。我們無法合理預估這些總體經濟環境變動對我們財務結果可能產生的總體潛在影響。",
+    "2025 年度 10-K 表單 營運成果概覽",
+    "下表提供我們 2025 年 12 月 31 日、2024 年 12 月 31 日及 2023 年 12 月 31 日合併財務結果之總結：",
+    "淨銷售額 $ 33,172 $ 31,797 $ 29,771 4 % 7 % 營運費用 27,107 26,472 24,743 2 % 7 %",
+    "營運收入 6,065 5,325 5,028 14 % 6 % 營運毛利率 18 % 17 % 17 % ** ** 其他收入（費用），淨額 227 4 383 ** (99) %",
+    "所得稅費用 1,059 1,182 1,165 (10) % 1 % 實際稅率 17 % 22 % 22 % ** ** 稅後淨收入（虧損） $ 5,233 $ 4,147 $ 4,246 26 % (2) %",
+    "稅後每股淨收入（稀釋後） $ 5.41 $ 3.99 $ 3.84 35 % 4 % 營運活動所產生之現金流入",
+    "表格中所有金額均四捨五入至千萬位，除非另有說明。因此，某些金額可能無法使用所提供的四捨五入後金額重新計算。",
+    "淨銷售額於 2025 年較 2024 年增加 14 億美元，或成長 4%，主要為總支付金額（\"TPV\"，如後述 \"關鍵指標\" 所定義）成長 7% 以及我們貸款應收款投資組合所產生之利息及手續費收入增加，部分抵銷了避險活動所造成的不利影響。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "網路攻擊及安全漏洞可能導致本公司聲譽、業務及財務狀況遭受嚴重損害。",
+    "業務中斷或系統故障可能影響本公司網站、應用程式、產品或服務的可用性，或以其他方式損害本公司業務。",
+    "若本公司無法跟上快速的技術發展，提供新穎且創新產品與服務，則本公司產品與服務的使用率，以及因而產生的營業收入，可能下降。",
+    "本公司受監管機構審查，並可能因反壟斷及競爭法規而面臨法律程序。",
+    "本公司經常面臨一般性訴訟、監管機構審查及政府調查。",
+    "第三方可能聲稱本公司侵權其專利及其他智慧財產權。",
+    "本公司可能無法保護或執行本公司智慧財產權。",
+    "本公司在全球支付產業面臨來自世界各地的激烈且日益強烈的競爭。",
+    "支付卡網路或銀行費用、規則或作業方式的變更，可能對本公司業務造成損害。",
+    "消費者資金來源方式的改變，可能對本公司業務造成損害。",
+    "我們的信貸產品使我們面臨額外的風險。",
+    "我們在許多業務方面依賴第三方，這會產生額外的風險。",
+    "任何降低跨境貿易或使跨境貿易更加困難的因素，可能對本公司業務造成損害。"
+   ],
+   "paragraphs": [
+    "您應仔細考量下列所描述的風險與不確定性，並配合本 Form 10-K 其他資訊，包括我們的合併財務報表及相關附註，以取得對可能影響我們的重要風險與不確定性資訊。這些風險因素並未涵蓋我們所面臨的所有風險，且我們可能未察覺或目前認為不具重大影響的其他風險與不確定性，也可能成為影響我們業務的重要因素。若任何上述風險實際發生，將可能對我們的業務、財務狀況、營運成果、未來展望及普通股交易價格造成重大且不利的影響。",
+    "用以試圖取得未經授權或非法存取系統與資訊（包括客戶的個人資料）、中斷或降低服務品質、利用系統漏洞或破壞系統的技術，持續在進化。這些試圖行為可能在對目標發動攻擊後才被察覺。未經授權的當事人持續透過各種方式試圖取得我們的系統或設施，包括透過駭入我們的系統或設施，或我們客戶、合作夥伴或供應商的系統或設施，並試圖誘使我們系統的使用者（包括客戶、員工及合作夥伴與供應商人員）揭露使用者名稱、密碼、信用卡資訊、多重驗證應用程式存取權或其他用以取得系統或設施的敏感資訊。此資訊可能進一步用以存取我們客戶的機密個人或專屬資訊及財務工具資料，這些資料儲存在或可透過我們的資訊科技（\"IT\"）系統及我們合作的第三方系統中。此資訊也可能被用以執行詐欺交易或其他活動。許多且持續進化的網路安全與相關威脅，包括先進且持續的網路攻擊、人工智慧（\"AI\"）啟動的威脅、網路勒索、分散式拒絕服務攻擊、勒索軟體、定向釣魚與社會工程詐欺計畫、電腦病毒或其他惡意軟體的引入，以及我們的 IT 與基礎建設及我們合作的第三方 IT 供應鏈中所有或部分系統的破壞，正變得越來越複雜與高階，可能難以察覺，並可能影響我們系統中資料的機密性、可用性與完整性，以及系統本身。",
+    "我們認為，可能由個人、協調羣組、高階組織或國家支持的實體組成的敵對行為者，可能因我們的公司名稱、品牌認知度、客戶提供的資料種類（包括敏感的付款與身分資料）以及我們產品與服務的廣泛採用與使用而針對 PayPal 發動攻擊。我們曾有時經驗過，且未來可能經驗到網路安全事件，包括我們安全措施的滲漏、網路入侵及因人為錯誤、詐欺、不法行為、內部威脅、系統錯誤、缺陷、漏洞或其他問題導致的客戶個人資訊遭竊。上述任何事件都可能使我們面臨罰款、處罰、監管或其他執法行動，並對我們的業務、聲譽或財務狀況造成不利影響。",
+    "任何影響我們客戶、合作夥伴或供應商（包括資料中心與雲端計算供應商）或我們收購公司的 IT 或基礎建設的網路安全事件，包括網路攻擊或資料安全滲漏，都可能產生類似的負面影響。",
+    "我們曾經驗過，且未來可能經驗到涉及客戶資訊的資料外洩事件，我們已通知，或可能通知監管機構、客戶及其他第三方。這些或其他的網路安全事件及被利用的安全漏洞，已使我們面臨重大成本與第三方責任，並可能導致資料不當揭露與違反適用的隱私及其他法律，迫使我們改變業務作法，導致我們產生重大修復成本，造成客戶對我們產品與服務信心的喪失或使用量減少，損害我們的聲譽與品牌，使管理層的注意力從業務運作中轉移，導致我們對客戶及其商業夥伴產生重大賠償或契約處罰，因他們的損失或聲請，或使我們面臨訴訟、監管調查與重大罰款與處罰。此外，根據支付卡網路規則與我們與支付處理商的契約，若我們或我們直接支付卡處理商儲存的支付卡資訊遭竊，我們可能需對支付卡發卡銀行負起責任，包括他們發行新卡的成本與相關費用。雖然我們有保險以協助抵消這些風險的財務影響，但我們的保險範圍可能不足以涵蓋所有因安全事件或其他系統損害或無法使用所造成的損失。",
+    "我們的系統與運作，以及我們服務供應商與合作夥伴的系統與運作，曾有時經驗過，且未來可能經驗到因分散式拒絕服務與其他網路攻擊、內部威脅、硬體與軟體缺陷或故障、人為錯誤、地震、颶風、洪水、火災及其他自然災害、公共衛生危機（包括疫情）、電力中斷、通訊服務中斷、詐欺、軍事或政治衝突、恐怖攻擊、電腦病毒或其他惡意軟體，或其它事件所導致的業務中斷或服務品質下降。與氣候變遷相關的天氣事件頻率與強度正在增加，這可能提高這些災難的發生機率與嚴重性，以及相關損壞與業務中斷的風險。我們的總部位於加州的舊金山灣區，這是一個地震活動頻繁的地區。若發生導致我們系統或運作中斷或失效的災難性事件，將可能導致重大損失，並需要大量時間與支出以恢復或維持運作。我們的一些系統，包括我們收購公司的系統，並非完全備援，任何這些系統的失效，包括因災難性事件所致，可能導致運作中斷或延誤。雖然我們進行災難復原計畫與測試以降低中斷或延誤的風險，但我們的計畫與測試可能對所有可能的結果或事件而言並非有效或足夠。作為支付解決方案的提供者，我們也面臨監管機構的更高層次審查，可能要求特定的業務連續性、韌性與災難復原計畫，以及對這些計畫的嚴格測試，這可能耗費大量時間與金錢進行實施，並可能使我們的資源從其他業務優先事項中轉移。上述任何風險都可能對我們的業務、財務狀況與營運成果造成重大不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

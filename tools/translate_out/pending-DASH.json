@@ -1,0 +1,207 @@
+{
+ "ticker": "DASH",
+ "cik": "0001792789",
+ "accession": "0001792789-26-000013",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Commitment to Diversity and Inclusion"
+   ],
+   "paragraphs": [
+    "Our mission is to grow and empower local economies. We aim to do this by providing services that reduce friction in local commerce and help merchants better connect with consumers in their communities. Our primary offerings include the DoorDash Marketplace, the Wolt Marketplace, and the Deliveroo Marketplace (our \"Marketplaces\"), and our Commerce Platform.",
+    "Our Marketplaces operate in over 40 countries, including the United States, and account for the vast majority of our revenue today. Our Marketplaces serve three primary constituents: merchants, consumers, and Dashers1.",
+    "Our Marketplaces provide an integrated suite of services that help merchants establish an online presence, connect with consumers in their communities, and solve mission-critical challenges, such as customer acquisition, demand generation, order fulfillment, merchandising, payment processing, and customer support. We typically earn a fee from merchants for the services we provide based on the size of each transaction. We also offer advertising as a value-added service through our Marketplaces to help merchants and consumer packaged goods companies increase consumer engagement and drive incremental revenue.",
+    "Consumers access our Marketplaces through our apps and websites to discover, engage with, and purchase goods from merchants in their communities. We seek to attract and retain consumers based primarily on the selection, convenience, quality, affordability, and service we provide. We typically charge consumers fees for each transaction, inclusive of a fixed delivery fee and a service fee that varies based on the size of the transaction. Our Marketplaces also offer our consumer membership programs, DashPass, Wolt+, and Deliveroo Plus, which aim to lower transactional friction by reducing the delivery and service fees we charge, while providing additional membership benefits. In December 2025, our Marketplaces served over 56 million monthly active users2 and, as of December 31, 2025, we had over 35 million DashPass, Wolt+ and Deliveroo Plus members3.",
+    "In addition to our Marketplaces, we offer our Commerce Platform, which is a suite of services that help empower merchants to build, operate, and grow their businesses on their own channels. Within our Commerce Platform, we offer white-label delivery fulfillment services (\"Drive\") as well as services that help merchants establish online ordering, build branded mobile apps, manage reservations and in-store dining, manage consumer relationships, enable tableside order and pay, and improve customer support.",
+    "For Dashers, our Marketplaces and Drive provide opportunities to generate income that helps them achieve their goals. In most geographies, Dashers typically choose if, when, and where to dash, which tasks to accept, as well as how frequently and for how long to dash each time they choose to do so. We typically pay Dashers based on the amount of time they are active on our platform or the number of tasks they complete and the time, distance, and desirability associated with each task. We seek to attract Dashers primarily based on the accessibility, flexibility, and earnings opportunities we provide.",
+    "We believe we are most successful when we provide attractive services for each of our key constituents. Consequently, to grow our business, we intend to provide merchants with an expanding suite of services that help them build and grow successful omnichannel businesses, consumers with a broad selection of merchants and products to choose from, and Dashers with unique opportunities that compete effectively for their time and effort.",
+    "1 In this report, \"Dashers\" generally refers to the independent contractors that use our Marketplaces. In certain geographies, Dashers may be known locally as riders, courier partners, or similar. Dashers may also refer to employees or independent contractors of third-party service providers or employees of the local DoorDash entity, and those engaged as employees may not be subject to the full range of risks described in this Annual Report on Form 10-K that may be applicable in the context of independent contractors.",
+    "2 Based on the number of individual consumer accounts that have completed an order on our Marketplaces in the past month, measured as of December 31, 2025.",
+    "3 Based on the number of paid, trial, and partnership member accounts for the relevant membership programs, measured as of December 31, 2025.",
+    "The markets in which we operate are intensely competitive and characterized by shifting user preferences, fragmentation, and frequent introductions of new services and offerings. We compete for our constituencies on the following criteria:",
+    "•Merchants. We compete for merchants based on our ability to generate consumer demand and the quality of our business enablement and demand fulfillment services.",
+    "•Consumers. We compete for consumers based on a number of factors, including the selection of merchants and products available, the quality of the ordering, fulfillment and service experience, and affordability.",
+    "•Dashers. We compete to attract and retain Dashers based on a number of factors, including accessibility of our platform, flexibility in when, where, how much and how frequently to work, overall quality of the dashing experience, and earnings potential."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Summary",
+    "Risks Related to Our Business and Operations",
+    "We expect our results of operations to fluctuate on a quarterly and annual basis due to a number of factors, which may make it difficult to predict our future performance.",
+    "We have a history of net losses, we anticipate increasing expenses in the future, and we may not be able to consistently maintain or increase profitability in the future.",
+    "Our business may not continue to grow on pace with historical rates.",
+    "We face intense competition and if we are unable to compete effectively, our business, financial condition, and results of operations could be adversely affected.",
+    "If we fail to cost-effectively attract and retain Dashers or to increase the use of our platform by existing Dashers, our business, financial condition, and results of operations could be adversely affected.",
+    "If we are unable to make acquisitions and investments, or successfully integrate acquisitions into our business, our business, financial condition, and results of operations could be adversely affected.",
+    "Our international operations and any future international expansion will subject us to additional costs and risks and our plans may not be successful.",
+    "Our pricing methodologies are impacted by a number of factors, and we may not ultimately be successful in attracting and retaining merchants, consumers, and Dashers.",
+    "We face certain risks associated with our pay models for Dashers.",
+    "If we fail to manage our growth effectively, our brand, business, financial condition, and results of operations could be adversely affected."
+   ],
+   "paragraphs": [
+    "Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information in this Annual Report on Form 10-K, including the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and our consolidated financial statements and related notes, before making a decision to invest in our Class A common stock. Our business, financial condition, results of operations, or prospects could also be harmed by risks and uncertainties not currently known to us or that we currently do not believe are material. If any of the risks actually occur, our business, financial condition, results of operations, and prospects could be adversely affected. In that event, the market price of our Class A common stock could decline, and you could lose all or part of your investment.",
+    "Our business is subject to numerous risks and uncertainties, including those outside of our control, that could cause our actual results to be harmed. These risks include the following:",
+    "•We expect our results of operations to fluctuate on a quarterly and annual basis due to a number of factors, which may make it difficult to predict our future performance;",
+    "•We have a history of net losses, we anticipate increasing expenses in the future, and we may not be able to consistently maintain or increase profitability in the future;",
+    "•Our business may not continue to grow on pace with historical rates;",
+    "•We face intense competition and if we are unable to compete effectively, our business, financial condition, and results of operations could be adversely affected;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Financial and Operational Highlights",
+    "Year Ended December 31,",
+    "(in millions, except percentages) 2023 2024 2025",
+    "Total Orders. We define Total Orders as all orders completed through our Marketplaces and Commerce Platform over the period of measurement.",
+    "Net Revenue Margin. We define Net Revenue Margin as revenue expressed as a percentage of Marketplace GOV.",
+    "Free Cash Flow. We define Free Cash Flow as cash flows from operating activities less purchases of property and equipment and capitalized software and website development costs.",
+    "Results of Operations",
+    "(in millions) 2023 2024 2025",
+    "Comparison of the Years Ended 2025 and 2024",
+    "(in millions, except percentages) 2023 2024 2025 % Change",
+    "Non-GAAP Financial Measures",
+    "Adjusted Cost of Revenue",
+    "Adjusted Sales and Marketing Expense",
+    "Adjusted Research and Development Expense",
+    "Adjusted General and Administrative Expense",
+    "Contribution Profit",
+    "Adjusted Gross Profit",
+    "Adjusted EBITDA",
+    "Free Cash Flow",
+    "Credit Facility",
+    "Liquidity and Capital Resources",
+    "(In millions) 2023 2024 2025",
+    "Operating Activities",
+    "Investing Activities",
+    "Financing Activities",
+    "Critical Accounting Estimates",
+    "Revenue Recognition",
+    "Business Combinations",
+    "Insurance Reserves",
+    "Loss Contingencies",
+    "Income Taxes"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with the consolidated financial statements and related notes thereto included elsewhere in this Annual Report on Form 10-K. This discussion contains forward-looking statements that involve risks and uncertainties. Factors that could cause or contribute to such differences include those identified below and those discussed in the section titled \"Risk Factors\" and other sections of this Annual Report on Form 10-K. Our historical results are not necessarily indicative of the results that may be expected for any period in the future.",
+    "In addition, this \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" section generally discusses 2025 items and year-to-year comparisons between 2025 and 2024. Discussions of 2024 items and year-to-year comparisons between 2024 and 2023 are not included in this Annual Report on Form 10-K and can be found in \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended December 31, 2024, filed with the SEC on February 14, 2025.",
+    "DoorDash, Inc. is incorporated in Delaware with headquarters in San Francisco, California. Our mission is to grow and empower local economies. We aim to do this by providing services that reduce friction in local commerce and help merchants better connect with consumers in their communities.",
+    "Our primary offerings include the DoorDash Marketplace, the Wolt Marketplace, and the Deliveroo Marketplace (together, our \"Marketplaces\"), and our Commerce Platform. Our Marketplaces operate in over 40 countries and provide an integrated suite of services that help merchants establish an online presence, connect with consumers in their communities, and solve mission-critical challenges, such as customer acquisition, demand generation, order fulfillment, merchandising, payment processing, and customer support. We also offer advertising as a value-added service through our Marketplaces to help merchants and consumer packaged goods companies increase consumer engagement and drive incremental revenue.",
+    "Our Marketplaces seek to attract and retain consumers based primarily on the selection, convenience, quality, affordability, and service we provide. Our Marketplaces also offer our consumer membership programs, DashPass, Wolt+, and Deliveroo Plus, which aim to lower transactional friction by reducing the delivery and service fees we charge, while providing additional membership benefits.",
+    "In addition to our Marketplaces, we offer our Commerce Platform, which is a suite of services that help empower merchants to build, operate, and grow their businesses on their own channels. Within our Commerce Platform, we offer white-label delivery fulfillment services (\"Drive\") as well as services that help merchants establish online ordering, build branded mobile apps, manage reservations and in-store dining, manage consumer relationships, enable tableside order and pay, and improve customer support.",
+    "We use the below financial and operational metrics to help us evaluate our business, identify trends affecting our business, formulate business plans, and make strategic decisions. As we grow our business and expand our offerings, our success and the financial performance of our business will be dependent upon many factors. These factors include, but are not limited to, those highlighted in this Annual Report on Form 10-K, as well as the success of our growth strategies and the timing and size of investments and expenditures that we choose to undertake, such as our recent and continued investment in our non-U.S. operations, in our global technology platform, and to increase system capacity for Dashers and in support of longer distance and higher effort deliveries. Certain of these and other factors may not be within our control.",
+    "Total Orders 2,161 2,583 3,172 Total Orders Y/Y growth 24 % 20 % 23 % Marketplace GOV $ 66,771 $ 80,231 $ 102,018",
+    "Marketplace GOV Y/Y growth 25 % 20 % 27 % Revenue $ 8,635 $ 10,722 $ 13,717 Revenue Y/Y growth 31 % 24 % 28 %",
+    "Net Revenue Margin 12.9 % 13.4 % 13.4 % GAAP gross profit $ 3,860 $ 4,979 $ 6,686 GAAP gross profit as a % of Marketplace GOV 5.8 % 6.2 % 6.6 %",
+    "Contribution Profit(1) $ 2,482 $ 3,474 $ 4,840 Contribution Profit as a % of Marketplace GOV 3.7 % 4.3 % 4.7 %",
+    "GAAP net income (loss) attributable to DoorDash, Inc. common stockholders $ (558) $ 123 $ 935",
+    "GAAP net income (loss) attributable to DoorDash, Inc. common stockholders as a % of Marketplace GOV (0.8) % 0.2 % 0.9 %",
+    "Adjusted EBITDA(1) $ 1,190 $ 1,900 $ 2,779 Adjusted EBITDA as a % of Marketplace GOV 1.8 % 2.4 % 2.7 %"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司對多元與包容的承諾"
+   ],
+   "paragraphs": [
+    "本公司之使命為成長並強化地方經濟。我們旨在透過提供服務來降低地方商業的摩擦，並協助經銷商更有效地與社區消費者建立聯繫。本公司主要產品包括DoorDash Marketplace、Wolt Marketplace及Deliveroo Marketplace（簡稱\"Marketplaces\"），以及Commerce Platform。",
+    "本公司Marketplaces於超過40個國家運作，包括美國，並佔據本公司目前營業收入的絕大多數。本公司Marketplaces服務三大主要對象：經銷商、消費者及Dashers1。",
+    "本公司Marketplaces提供一套整合的服務，協助經銷商建立線上存在感、與社區消費者建立聯繫，並解決關鍵性的業務挑戰，例如客戶獲取、需求生成、訂單履行、商品管理、付款處理及客戶支援。我們通常根據每筆交易的規模，向經銷商收取服務費用。我們也透過Marketplaces提供廣告服務，作為附加價值服務，協助經銷商及消費者包裝商品公司提高消費者參與度並驅動額外收入。",
+    "消費者透過本公司Apps及網站，於Marketplaces中發現、與經銷商互動並購買商品。我們主要透過所提供的選項、便利性、品質、價格競爭力及服務來吸引及留住消費者。我們通常對每筆交易收取消費者費用，包含固定配送費用及根據交易規模而變動的服務費用。本公司Marketplaces也提供消費者會員計畫，包括DashPass、Wolt+及Deliveroo Plus，旨在降低交易摩擦，透過減少我們收取的配送及服務費用，同時提供額外的會員權益。2025年12月，本公司Marketplaces服務超過5600萬月活躍用戶2，截至2025年12月31日，本公司擁有超過3500萬DashPass、Wolt+及Deliveroo Plus會員3。",
+    "除了Marketplaces，我們也提供Commerce Platform，這是一套服務，協助經銷商在自己的通路上建立、運作及成長業務。在Commerce Platform中，我們提供白標配送履行服務（\"Drive\"），以及協助經銷商建立線上訂購、建立品牌行動應用程式、管理預訂及店內用餐、管理消費者關係、啟用桌邊點餐付款、以及改善客戶支援的服務。",
+    "對於Dashers，本公司Marketplaces及Drive提供機會讓他們賺取收入，以達成其目標。在大多數地區，Dashers通常會選擇是否、何時、何處進行配送，接受哪些任務，以及每次選擇進行配送時的頻率及持續時間。我們通常根據Dashers在平台上的活動時間或完成的任務數量及每項任務的時間、距離及任務吸引力來支付費用。我們主要透過提供的可近性、靈活性及收入機會來吸引Dashers。",
+    "我們認為當我們為所有關鍵對象提供有吸引力的服務時，本公司表現最為成功。因此，為成長業務，我們計畫為經銷商提供擴展的服務組合，協助他們建立並成長成功的全渠道業務，為消費者提供廣泛的經銷商及商品選擇，並為Dashers提供獨特的機會，以有效競爭其時間與努力。",
+    "1 在本報告中，\"Dashers\"通常指使用本公司Marketplaces的獨立承包商。在某些地區，Dashers可能被當地稱為騎士、速遞夥伴或類似稱呼。Dashers也可能指第三方服務供應商或當地DoorDash實體的員工或獨立承包商，而作為員工的Dashers可能不受本年度10-K表報中針對獨立承包商所描述的全部風險適用。",
+    "2 基於過去一個月內在本公司的市場平台完成訂單的個別消費者帳戶數量，以2025年12月31日為計算基準。",
+    "3 基於相關會員計畫中已付款、試用及合作夥伴帳戶數量，以2025年12月31日為計算基準。",
+    "我們所從事的市場競爭激烈，特徵為用戶偏好變化快速、市場碎片化以及新服務與產品頻繁推出。我們根據以下標準與競爭對手競爭：",
+    "• 商家。我們根據本公司能產生消費者需求的能力以及業務支援與需求履行服務的品質來與商家競爭。",
+    "• 消費者。我們根據多項因素與消費者競爭，包括可選商家與產品的種類、訂購、履行與服務體驗的品質，以及價格的合理性。",
+    "• 運送員。我們根據多項因素來吸引與留住運送員，包括平台的易用性、工作時間、地點、工作量與頻率的靈活性、整體運送體驗的品質，以及收入潛力。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "財務與營運亮點",
+    "會計年度終了於12月31日",
+    "(以千萬為單位，除百分比外) 2023 2024 2025",
+    "總訂單數。我們定義總訂單數為在測量期間內，透過我們的市場平台與通路平台完成的所有訂單。",
+    "淨營收邊際率。我們定義淨營收邊際率為營業收入以百分比形式表示為市場平台GOV的比率。",
+    "自由現金流。我們定義自由現金流為營運活動產生的現金流，扣除財產與設備購置及資本化軟體與網站開發成本。",
+    "營運成果",
+    "(以千萬為單位) 2023 2024 2025",
+    "2025 年與 2024 年之比較",
+    "(以千萬為單位，除百分比外) 2023 2024 2025 變動百分比",
+    "非GAAP財務指標",
+    "調整後的營業成本",
+    "調整後的銷售及市場推廣費用",
+    "調整後的研究與發展費用",
+    "調整後的總務及行政費用",
+    "貢獻利潤",
+    "調整後毛利",
+    "調整後營業現金流量",
+    "自由現金流",
+    "信貸融資",
+    "流動性及資本資源",
+    "(以千萬計) 2023 2024 2025",
+    "營運活動",
+    "投資活動",
+    "資金活動",
+    "關鍵會計估計",
+    "收入認列",
+    "企業併購",
+    "保險準備金",
+    "損失備抵",
+    "所得稅"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運成果的討論與分析，應與本年度10-K表報中所包含的合併財務報表及其相關附註一併閱讀。本討論包含前瞻性陳述，這些陳述涉及風險與不確定性。導致或促成這些差異的因素包括下列所列及在「風險因素」節及本年度10-K表報其他部分所討論的內容。我們的歷史表現未必能代表未來任何期間的表現。",
+    "此外，本「管理層對財務狀況及營運成果之討論與分析」節通常討論2025年項目及2025年與2024年之間的年對年比較。關於2024年項目及2024年與2023年之間的年對年比較，未包含於本年度10-K表報中，可於我們2024年財務年度（截至2024年12月31日）的年度報告「管理層對財務狀況及營運成果之討論與分析」部分，第II部第7項中找到，該報告於2025年2月14日提交至SEC。",
+    "DoorDash, Inc. 為德拉瓦州公司，總部設於美國加利福尼亞州舊金山。我們的使命是成長並賦能地方經濟。我們透過提供服務來實現此目標，這些服務能減少地方商業的摩擦，並幫助商家更好地與社區消費者建立聯繫。",
+    "我們的主要產品包括DoorDash Marketplace、Wolt Marketplace及Deliveroo Marketplace（合稱為「Marketplaces」），以及我們的Commerce Platform。我們的Marketplaces在超過40個國家運作，並提供一套整合的服務，幫助商家建立線上存在、與社區消費者建立聯繫，並解決關鍵任務挑戰，例如客戶獲取、需求生成、訂單履行、商品展示、付款處理及客戶支援。我們也透過Marketplaces提供廣告作為附加價值服務，以幫助商家及消費者包裝商品公司增加消費者參與度並推動額外收入。",
+    "我們的Marketplaces主要根據我們所提供的選擇、便利性、品質、價格合理性及服務來吸引並留住消費者。我們的Marketplaces也提供消費者會員計畫，包括DashPass、Wolt+及Deliveroo Plus，這些計畫旨在降低交易摩擦，透過減少我們收取的配送及服務費用，同時提供額外的會員權益。",
+    "除了我們的Marketplaces，我們還提供Commerce Platform，這是一套服務，幫助商家在自己的通路上建立、運作及成長其業務。在Commerce Platform中，我們提供白標配送履行服務（Drive），以及幫助商家建立線上訂購、建立品牌行動應用程式、管理預訂及店內用餐、管理消費者關係、啟用桌邊點餐付款，以及改善客戶支援的服務。",
+    "我們使用以下財務及營運指標來幫助我們評估業務、識別影響業務的趨勢、制定業務計畫及做出戰略決策。隨著我們業務的成長與產品的擴張，我們的成功及業務的財務表現將依賴許多因素。這些因素包括但不限於本年度10-K表報中所強調的內容，以及我們成長策略的成功，以及我們選擇進行的投資與支出的時間及規模，例如我們近期及持續對非美國業務、全球科技平台以及增加Dashers系統容量的投資，以支持長距離及高強度配送的支援。",
+    "總訂單數 2,161 2,583 3,172 總訂單年對年成長率 24 % 20 % 23 % Marketplace GOV $ 66,771 $ 80,231 $ 102,018",
+    "Marketplace GOV 年增 25 % 20 % 27 % 營業收入 $ 8,635 $ 10,722 $ 13,717 營業收入年增 31 % 24 % 28 %",
+    "淨營業收入邊際 12.9 % 13.4 % 13.4 % GAAP 毛利率 $ 3,860 $ 4,979 $ 6,686 GAAP 毛利率佔 Marketplace GOV 的百分比 5.8 % 6.2 % 6.6 %",
+    "貢獻利潤(1) $ 2,482 $ 3,474 $ 4,840 貢獻利潤佔 Marketplace GOV 的百分比 3.7 % 4.3 % 4.7 %",
+    "GAAP 淨收入 (損失) 歸屬於 DoorDash, Inc. 普通股股東 $ (558) $ 123 $ 935",
+    "GAAP 淨收入 (損失) 歸屬於 DoorDash, Inc. 普通股股東佔 Marketplace GOV 的百分比 (0.8) % 0.2 % 0.9 %",
+    "調整後 EBITDA(1) $ 1,190 $ 1,900 $ 2,779 調整後 EBITDA 佔 Marketplace GOV 的百分比 1.8 % 2.4 % 2.7 %"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與我們業務及運作相關的風險",
+    "我們預期營運成果將因多種因素而在每季及每年間波動，這可能使預測未來表現變得困難。",
+    "我們有淨虧損的歷史，預期未來支出將增加，且我們可能無法持續維持或提高利潤率。",
+    "我們的業務可能無法以歷史速率持續成長。",
+    "我們面臨激烈的競爭，若無法有效競爭，將可能對我們的業務、財務狀況及營運成果產生負面影響。",
+    "若我們無法以成本效益的方式吸引並留住Dashers，或無法提高現有Dashers對我們平台的使用率，將可能對我們的業務、財務狀況及營運成果產生負面影響。",
+    "若我們無法進行收購及投資，或成功整合收購至我們的業務，將可能對我們的業務、財務狀況及營運成果產生負面影響。",
+    "本公司之國際業務及未來國際擴張將使我們面臨額外成本與風險，且本公司之計畫可能無法成功。",
+    "本公司之定價模式受多項因素影響，且本公司可能最終無法成功吸引並留住商家、消費者及Dashers。",
+    "本公司面臨與Dashers之薪資模式相關之風險。",
+    "若本公司無法有效管理成長，將可能對本公司品牌、業務、財務狀況及營運成果造成不利影響。"
+   ],
+   "paragraphs": [
+    "投資本公司的A類普通股涉及高度風險。您應仔細考慮下列所描述的風險與不確定性，並配合本年度報告表10-K中所有其他資訊，包括「管理層對財務狀況與營運成果之討論與分析」部分以及我們的合併財務報表與相關附註，再做是否投資本公司A類普通股之決定。本公司之業務、財務狀況、營運成果或前景，也可能因目前未知或本公司目前認為不具重大影響之風險與不確定性而受損害。若任何風險實際發生，本公司之業務、財務狀況、營運成果與前景可能受到不利影響。在此情況下，本公司A類普通股之市場價格可能下跌，您可能損失全部或部分投資。",
+    "本公司業務面臨許多風險與不確定性，包括我們無法控制之因素，這些風險與不確定性可能導致實際結果受到損害。這些風險包括以下項目：",
+    "•我們預期營運成果將因多種因素而在每季與每年之間波動，這可能使預測未來表現變得困難；",
+    "•我們有淨虧損的歷史，預期未來費用將增加，且我們可能無法持續維持或提高未來的獲利能力；",
+    "•本公司業務可能無法以歷史速度持續成長；",
+    "•我們面臨激烈競爭，若我們無法有效競爭，本公司之業務、財務狀況與營運成果可能受到不利影響；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

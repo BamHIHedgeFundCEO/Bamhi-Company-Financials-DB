@@ -1,0 +1,211 @@
+{
+ "ticker": "HOOD",
+ "cik": "0001783879",
+ "accession": "0001783879-26-000023",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Overview",
+    "Our Products And Features",
+    "Investing. Our platforms allow our customers to invest commission-free in U.S.-listed stocks and ETFs, as well as related options and ADRs.",
+    "Instant Withdrawals. Our instant withdrawals feature enables eligible customers to withdraw money from their Robinhood accounts and instantly deposit it to their bank accounts or debit cards with a fee.",
+    "Staking. We offer staking on selected cryptocurrencies. Staking allows customers to earn rewards by locking up cryptocurrencies, subject to the network and cryptocurrency's requirements and bonding periods.",
+    "Robinhood Crypto",
+    "Staking. We offer staking for EU customers on selected cryptocurrencies.",
+    "Robinhood Strategies. We offer a tailored, expert-managed wealth management service that gives our customers expert financial advice and the knowledge to effectively plan for their future.",
+    "Ventures Fund I",
+    "Our Technology",
+    "Our Customers",
+    "Our Growth Strategies",
+    "Our Competitive Advantages",
+    "Human Capital",
+    "Intellectual Property"
+   ],
+   "paragraphs": [
+    "Robinhood was founded in 2013 on the belief that everyone should be welcome to participate in our financial system. We are creating modern financial services platforms for everyone, regardless of their wealth, income, or background.",
+    "Our mission is to democratize finance for all. We use technology to provide access to the financial system in a way that is simple and convenient for our customers. We believe the financial system should be built to work for everyone. That's why we create products that let our customers start investing at their own pace, on their own terms. We believe investing should be familiar and welcoming, with a simple design and an intuitive interface, so that customers are empowered to achieve their goals. We started with a revolutionary, bold brand and design in the Robinhood app which makes investing approachable for millions. Over the last decade, we have disrupted and changed the industry, becoming the first U.S. retail broker to offer commission-free stock trading with no account minimums, which was subsequently adopted by the rest of the industry. In recent years, we have continued to build relationships with our customers by introducing new products and diversifying our services that further expand access to the financial system, including focusing on products and tools for more seasoned investors. Through these efforts, we believe we have made investing culturally relevant and understandable, and that our platforms enable our customers to become long-term investors and take greater control of their finances.",
+    "At Robinhood, our values are in service of our customers. Our customers are why we exist. That is why we put what's best for our customers at the center of our decision-making in order to bring them the best technology coupled with real value. That is why at Robinhood, we push for progress without compromising quality. We also take our responsibility for our customers' finances seriously. We know that trust is hard earned and easily lost and that is why we prioritize compliance, approach risk thoughtfully, and never compromise trust for speed.",
+    "Additionally, we consider ourselves to be One Robinhood where we are all invested in the same mission. We invite contrary perspectives, support each other, and debate with energy and kindness. Once decisions are made, we move in unison with ownership and accountability, powered by the thrill of building something great together. We are also innovators and problem solvers. Our bold bets often make us a first mover, and we do what's right for customers - even if it hasn't been done before. We also strive to do more with less. To that end, constraint drives us to innovate through scalable technology - not excess resources.",
+    "Finally, we started a movement, breaking barriers so everyone - not just the wealthy - can access the financial system. Our job to \"democratize finance for all\" may never be complete as we seek to level the playing field - which is what makes what Robinhood does so fun.",
+    "We understand that millions of our customers have used Robinhood to enter the financial markets for the first time, and we take our responsibility to them seriously. We are passionate about operating Robinhood in a way that aligns with customer interests, applicable regulations, and with our own mission to democratize finance for all. We continue to create an ecosystem of financial products and services that will enable people across the world to become investors. We believe our products can transform the",
+    "relationship people have with the financial system and that the products on our roadmap will go a long way toward making that a reality.",
+    "We began by offering our customers the ability to buy and sell equities on a mobile-first platform and have since continued to expand our offerings to add new asset classes, products and features, while also growing internationally to better serve our customers. We designed our mobile platform to be an elegant, intuitive investing interface that provides our customers with trading functionality and market information such as historical prices, valuation multiples, recent news, analyst ratings, advanced charts, and more, at no additional cost. Robinhood Legend, built specifically for active traders, is a powerful, sleek browser-based desktop trading platform that is fully customizable and available at no additional cost to all U.S. and U.K. customers with a Robinhood account. Robinhood Legend now supports all major asset classes and we have committed to continue expanding its capabilities.",
+    "The core tenet of the Robinhood offering—expanding access to our financial system through products that empower people to learn, participate, and grow—underpins each of our offerings. We remain focused on building the best products and ultimately aim to serve all of our customers' financial needs.",
+    "Options Trading. We review eligibility for our customers who wish to trade options, including disclosure of investment experience and knowledge, investment objectives and financial information. Subject to approval from Robinhood, customers can access basic options strategies (Level 2), which permits buying calls and puts and selling covered calls and puts, or more advanced options strategies (Level 3), which permits fixed-risk spreads (such as credit spreads and iron condors) and other advanced trading strategies, depending on their individually disclosed preparedness. We conduct regular reviews of our customers' eligibility and take action to revoke access to trading options as appropriate, to ensure our customers are accessing the level of options strategies that are appropriate for them based on information such as their trading experience, investment objectives and financial situation.",
+    "In 2025, index option trading became available to all customers, allowing them to trade options on diversified indices like the S&P 500 and VIX, while gaining access to potential tax benefits and one of the lowest contract fees among leading brokerages.",
+    "Fractional Trading. Fractional trading allows customers to invest in fractions of a share of stock, rather than requiring them to buy and sell whole shares. This service enables customers to build a diversified portfolio regardless of their budget and removes a barrier to investing in higher-priced stocks, thereby providing access to a much greater selection of equities with as little as $1.",
+    "Recurring Investments. Our recurring investment feature enables our customers to automatically buy shares of equities and certain ETFs on a set schedule, allowing them to build positions over time and establish regular investing habits, even with small contributions. Our customers can also elect to automatically reinvest dividend income back into the underlying respective shares.",
+    "Access to Investing on Margin. Subject to approval upon meeting eligibility criteria set by Robinhood, customers can invest on margin. This allows eligible customers to borrow a limited amount of funds from Robinhood to use as additional investing capital. Robinhood decides whether to extend margin to each customer who applies for access based on information regarding customer activity, portfolio equity or net worth criteria, investment objectives, and investing experience reported by the customer. We offer an industry-leading tiered margin structure where customers receive a single low interest rate based on their total margin balance."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "We might not grow in line with historical rates.",
+    "Our results of operations and other operating metrics fluctuate from quarter to quarter, which makes these metrics difficult to predict.",
+    "In most full year periods since our inception, we have incurred operating losses and might not be profitable in the future.",
+    "Unfavorable media coverage and other events that harm our brand and reputation have in the past, and may in the future, adversely affect our revenue and the size, engagement, and loyalty of our customer base.",
+    "We could incur substantial losses from our cash and investment accounts if one or more of the financial institutions that we use fails or is taken over by the FDIC.",
+    "Our business has been and might continue to be harmed by changes in business, economic, or political conditions that impact global financial markets, or by a systemic market event.",
+    "Our future success depends on the continuing efforts of our key employees and our ability to attract and retain senior management and other highly skilled personnel."
+   ],
+   "paragraphs": [
+    "A description of the risks and uncertainties associated with our business is set forth below. You should carefully consider the risks and uncertainties described below, as well as the other information included in this Annual Report, including our consolidated financial statements and the related notes and \"Management's Discussion and Analysis of Financial Condition and Results of Operations.\" Our business, financial condition, results of operations, and prospects could be materially and adversely affected by any of these risks or uncertainties. In that case, the trading price of our Class A common stock could decline, and you could lose all or part of your investment. The risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties that we are unaware of or that we currently see as immaterial might also adversely affect our business. Some statements in this Annual Report, including statements in the following risk factors, constitute forward-looking statements. Please refer to \"Cautionary Note Regarding Forward-Looking Statements.\"",
+    "Our business is subject to a number of risks and uncertainties including those described at length in the Risk Factors section below. We consider the following to be our most material risks:",
+    "•We might not grow in line with historical rates.",
+    "•We have expanded and continue to expand our operations rapidly, including continuing to introduce new products and services on our platforms as well as geographic expansion, which subjects us to a number of uncertainties, risks, and difficulties that could adversely affect our business.",
+    "•Our results of operations and other operating metrics fluctuate from quarter to quarter, which makes these metrics difficult to predict.",
+    "•Factors that affect transaction-based revenue - such as reduced spreads in securities pricing, reduced levels of trading activity generally, changes in our business relationships with or disruption in the services provided by Liquidity Providers (as defined below), and any new regulation of, or any bans on, PFOF and similar practices - might result in reduced profitability, increased compliance costs, and negative publicity."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Financial Results and Performance",
+    "Recent Developments",
+    "Year Ended December 31,",
+    "Adjusted EBITDA",
+    "(in millions) 2024 2025",
+    "Operating Expenses",
+    "(in millions) Year Ended December 31,",
+    "Year Ended December 31, Year Ended December 31,",
+    "(in millions, except for percentages) 2024 2025 2024 to 2025",
+    "(in millions, except for percentages) 2025 2024 to 2025",
+    "Total interest-earning assets Securities lending, net Interest expenses related to credit facilities(5)",
+    "Other Total net interest revenues",
+    "Year ended December 31, 2025",
+    "December 31, 2025 $ 16,823 $ 10,995 $ 32,786 $ 1,040 $ 61,644 —",
+    "December 31, 2024 7,909 9,943 26,064 391 44,307",
+    "Revenue (expense) 573 486 229 64 $ 1,352 $ 190 $ (32) $ 4 $ 1,514",
+    "Year ended December 31, 2024",
+    "December 31, 2024 $ 7,909 $ 9,943 $ 26,064 $ 391 $ 44,307",
+    "December 31, 2023 3,458 10,107 16,352 205 30,122",
+    "Revenue (expense) 319 517 179 24 $ 1,039 $ 94 $ (24) $ — $ 1,109",
+    "(in millions) 2024 2025 2024 to 2025",
+    "Provision for (Benefit from) Income Taxes",
+    "Sources and Uses of Funds",
+    "Payments Due by Period",
+    "(in millions) Total",
+    "Regulatory Capital Requirements",
+    "December 31, 2025",
+    "(in millions) Net Capital Required Net Capital Net Capital in Excess of Required Net Capital",
+    "(in millions) 2025 2024 to 2025 Change",
+    "(in millions) 2024 to 2025 Change",
+    "Allowance for Credit Losses",
+    "Business Combinations",
+    "Income Taxes",
+    "Share-based Compensation"
+   ],
+   "paragraphs": [
+    "In November 2025, we established a joint venture, Rothera, in partnership with SIG, that acquired 90% of the issued and outstanding equity of MIAXdx in January 2026. Following closing, Rothera renamed MIAXdx to Rothera E&C.",
+    "On May 12, 2025, we entered into an agreement to acquire all outstanding equity of WonderFi, a Canadian leader in digital asset products and services, for C$0.36 per share, representing a total equity value of approximately $180 million. The pending acquisition is subject to customary closing conditions, including regulatory approvals.",
+    "In December 2025, we entered into agreements to acquire PT Buana Capital Sekuritas, an Indonesian brokerage, and PT Pedagang Aset Kripto, a licensed Indonesian digital financial asset trader. Both pending acquisitions are subject to customary closing conditions, including regulatory approvals.",
+    "Key performance metrics for the relevant periods were as follows:"
+   ],
+   "focus": "Recent Developments"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "公司簡介",
+    "我們的產品與功能",
+    "投資。我們的平台讓客戶可以免佣金投資美國上市股票與ETF，以及相關的選擇權與ADR。",
+    "即時提領。我們的即時提領功能讓符合資格的客戶可以將Robinhood帳戶中的資金提領，並立即存入其銀行帳戶或信用卡，並收取費用。",
+    "質押。我們針對部分加密貨幣提供質押服務。質押讓客戶透過鎖定加密貨幣來賺取獎勵，但需符合網路與加密貨幣的相關要求及質押期間。",
+    "Robinhood加密貨幣",
+    "質押。我們為歐盟客戶提供部分加密貨幣的質押服務。",
+    "Robinhood策略。我們提供一個量身打造、由專家管理的資產管理服務，讓客戶獲得專業的財務建議與規劃未來的知識。",
+    "Ventures Fund I",
+    "Our Technology",
+    "Our Customers",
+    "Our Growth Strategies",
+    "Our Competitive Advantages",
+    "Human Capital",
+    "Intellectual Property"
+   ],
+   "paragraphs": [
+    "Robinhood 於 2013 年成立，秉持著每個人都應該能參與我們的金融體系的信念。我們正在為所有人打造現代的金融服務平台，不論他們的財富、收入或背景如何。",
+    "我們的使命是讓金融民主化，讓所有人皆可參與。我們利用科技，以簡單且方便的方式提供客戶進入金融體系的管道。我們相信金融體系應該為所有人服務。因此，我們創造產品讓客戶能按照自己的節奏、條件開始投資。我們相信投資應該是熟悉的且歡迎的，具有簡單的設計與直覺的介面，讓客戶能實現自己的目標。我們從 Robinhood 應用程式開始，以革命性的大膽品牌與設計，讓數百萬人能輕鬆接觸投資。在過去十年，我們顛覆並改變了產業，成為美國第一家提供免手續費股票交易的零售券商，且無最低帳戶金額限制，此後被整個產業所採用。近年來，我們持續透過推出新產品與多樣化服務，與客戶建立關係，進一步擴大進入金融體系的管道，包括專注於為更有經驗的投資者提供的產品與工具。透過這些努力，我們相信我們已讓投資變得文化上相關且易懂，且我們的平台讓客戶能成為長期投資者，並更掌握自己的財務。",
+    "在 Robinhood，我們的價值觀是為客戶服務。客戶是我們存在的原因。因此，我們在做決策時，將客戶的最佳利益放在中心，以提供最好的科技與真實價值。我們在 Robinhood 堅持推動進步而不妥協品質。我們也認真看待對客戶財務的責任。我們知道信任是難以建立且容易失去的，因此我們優先考量合規，謹慎面對風險，絕不為速度而妥協信任。",
+    "此外，我們認為自己是 One Robinhood，我們都投入在相同的使命中。我們歡迎不同的觀點，互相支持，並以熱情與善意進行討論。一旦決策做出，我們便齊心協力，以擁有與責任感前進，並以共同打造偉大事物的熱情為動力。我們也是創新者與問題解決者。我們的大膽行動常使我們成為先驅者，我們為客戶做正確的事，即使這件事尚未被執行過。我們也努力以更少的資源做更多事。為此，我們以限制為動力，透過可擴展的科技創新，而非過多資源。",
+    "最後，我們發起了一場運動，打破壁壘，讓所有人—不只是富有的人—都能接觸金融體系。我們的使命「為所有人實現金融民主化」可能永遠不會完全達成，因為我們追求的是讓所有人擁有公平的機會，這正是 Robinhood 所做之事之所以有趣的原因。",
+    "我們瞭解，數百萬客戶已透過 Robinhood 首次進入金融市場，我們對他們的責任非常重視。我們熱衷於以符合客戶利益、適用的法規，以及我們自己的使命「為所有人實現金融民主化」的方式來運作 Robinhood。我們持續建立一個財務產品與服務的生態系統，讓世界各地的人們都能成為投資者。我們相信我們的產品能改變人們與金融體系的關係，且我們路線圖上的產品將大幅促進這一點成為現實。",
+    "我們最初提供客戶透過行動優先平台買賣股票的服務，並持續擴展服務內容，增加新的資產類別、產品與功能，同時也拓展國際市場，以更好地服務客戶。我們設計行動平台，使其成為一個優雅且直覺的投資介面，為客戶提供交易功能與市場資訊，例如歷史價格、評估倍數、最新新聞、分析師評級、進階圖表等，且完全不另外收費。Robinhood Legend 是專為活躍交易者設計的強大、簡潔的瀏覽器基於桌面交易平台，完全可自訂，且對所有擁有 Robinhood 帳戶的美國與英國客戶完全不另外收費。Robinhood Legend 現已支援所有主要資產類別，我們承諾持續擴展其功能。",
+    "Robinhood Legend 現已支援所有主要資產類別，我們承諾持續擴展其功能。",
+    "Robinhood 提供的核心理念—透過能協助人們學習、參與及成長的產品，擴大對金融體系的接觸—為我們所有產品的基礎。我們持續專注於打造最佳的產品，並最終目標是滿足所有客戶的財務需求。",
+    "選擇權交易。我們會審查有意進行選擇權交易的客戶資格，包括揭露投資經驗與知識、投資目標與財務資訊。經 Robinhood 批准後，客戶可使用基本選擇權策略（Level 2），此策略允許買進買權與賣權，以及賣出覆蓋買權與賣權；或更進階的選擇權策略（Level 3），此策略允許固定風險 spreads（例如信用 spreads 與鐵鈴 spreads）及其他進階交易策略，視客戶個別揭露的準備情況而定。我們會定期審查客戶資格，並在適當情況下採取行動，取消客戶進行選擇權交易的資格，以確保客戶能接觸到符合其投資經驗、投資目標與財務狀況的選擇權策略層級。",
+    "2025 年，指數選擇權交易對所有客戶開放，使他們能交易分散化的指數選擇權，例如 S&P 500 與 VIX，同時也能獲得潛在的稅務好處，並享有領先券商中之一的低合約費用。",
+    "分數交易。分數交易允許客戶投資股票的分數股份，而非必須買進與賣出整數股份。此服務讓客戶能根據其預算建立分散化的投資組合，並消除投資高價股票的門檻，從而讓客戶能以最低 $1 的金額，接觸到更廣泛的股票選擇。",
+    "定期投資。我們的定期投資功能讓客戶能根據設定的時間表自動買進股票與特定 ETF 的股份，讓他們能逐步建立投資部位，並養成定期投資的習慣，即使是以小額投資為主。客戶也能選擇自動將股息收入再投資回對應的股份。",
+    "以信用交易方式進行投資的接觸。經 Robinhood 批准，客戶在符合 Robinhood 所設置的資格標準後，可進行信用交易。此方式允許符合資格的客戶向 Robinhood 借貸有限的資金，作為額外的投資資金。Robinhood 會根據客戶的交易活動、投資組合權益或淨資產標準、投資目標與投資經驗等資訊，決定是否為申請接觸信用交易的客戶提供信用交易。我們提供業界領先的階層式信用交易結構，客戶根據其總信用交易餘額，獲得單一的低利率。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "財務結果與表現",
+    "近期發展",
+    "截至12月31日年度",
+    "調整後營運資金",
+    "(以千萬計) 2024 2025",
+    "營運費用",
+    "(以千萬計) 截至12月31日年度",
+    "截至12月31日年度 截至12月31日年度",
+    "(以千萬美元為單位，除百分比外) 2024 2025 2024 至 2025",
+    "(以千萬美元為單位，除百分比外) 2025 2024 至 2025",
+    "總計利息產生資產 擁有證券融通，淨值 與信用融資相關的利息費用(5)",
+    "其他 總計淨利息收入",
+    "截至 2025 年 12 月 31 日的會計年度",
+    "2025 年 12 月 31 日 $ 16,823 $ 10,995 $ 32,786 $ 1,040 $ 61,644 —",
+    "2024 年 12 月 31 日 7,909 9,943 26,064 391 44,307",
+    "收入 (費用) 573 486 229 64 $ 1,352 $ 190 $ (32) $ 4 $ 1,514",
+    "會計年度終了於2024年12月31日",
+    "2024年12月31日 $ 7,909 $ 9,943 $ 26,064 $ 391 $ 44,307",
+    "2023年12月31日 3,458 10,107 16,352 205 30,122",
+    "收入（費用） 319 517 179 24 $ 1,039 $ 94 $ (24) $ — $ 1,109",
+    "(以千萬為單位) 2024 2025 2024至2025",
+    "所得稅之提列（減除）",
+    "資金來源與運用",
+    "各期間應支付金額",
+    "（以千萬為單位）總計",
+    "監管資本要求",
+    "2025年12月31日",
+    "（以千萬為單位）淨資本要求 淨資本 淨資本超過要求淨資本",
+    "（以千萬為單位）2025年 2024年至2025年變動",
+    "（以千萬為單位）2024年至2025年變動",
+    "信貸損失備抵",
+    "企業併購",
+    "所得稅",
+    "股票-based 薪酬"
+   ],
+   "paragraphs": [
+    "2025年11月，本公司與SIG共同成立合資公司Rothera，於2026年1月取得MIAXdx已發行及流通股權的90%。交易完成後，Rothera將MIAXdx更名為Rothera E&C。",
+    "2025年5月12日，本公司與WonderFi簽訂協議，以每股加幣0.36元的價格取得該公司全部已發行股權，WonderFi為加拿大數位資產產品與服務的領導者，總股權價值約為1.8億美元。本次待完成的收購需符合慣常的交割條件，包括監管機構的批准。",
+    "2025年12月，本公司與印尼證券經紀商PT Buana Capital Sekuritas及經許可的印尼數位金融資產交易商PT Pedagang Aset Kripto簽訂協議，進行收購。兩筆待完成的收購均需符合慣常的交割條件，包括監管機構的批准。",
+    "相關期間的關鍵績效指標如下："
+   ]
+  },
+  "risk": {
+   "headings": [
+    "我們可能無法以歷史成長率成長。",
+    "我們的營運成果及其他營運指標會因季度而異，使得這些指標難以預測。",
+    "自我們成立以來，大多數完整的會計年度期間，我們都產生營運虧損，未來可能仍無法獲利。",
+    "不利的媒體報導及其他事件可能損害我們的品牌與聲譽，過去曾如此，未來也可能如此，這會對我們的營收以及客戶羣體的規模、參與度與忠誠度產生負面影響。",
+    "如果我們使用的其中一家金融機構無法營運或被FDIC接管，我們可能從現金及投資帳戶中產生重大虧損。",
+    "我們的業務已受到並可能持續受到影響，影響全球金融市場的商業、經濟或政治條件變動，或系統性市場事件。",
+    "我們未來的成功取決於關鍵員工的持續努力，以及我們吸引並留住高階管理人員及其他高技能人才的能力。"
+   ],
+   "paragraphs": [
+    "本公司業務所涉及之風險與不確定性說明如下。請謹慎考量下列所說明之風險與不確定性，以及本年度報告中包含之其他資訊，包括本公司合併財務報表及相關附註與「管理層對財務狀況與營運成果之討論與分析」。本公司業務、財務狀況、營運成果與前景，可能因任何上述風險或不確定性而受到重大且不利之影響。如是，本公司A類普通股之交易價格可能下跌，您可能損失全部或部分投資。下列所說明之風險與不確定性並非本公司所面臨之唯一風險。尚有其他風險與不確定性，可能是本公司未預見或目前認為不重要，也可能對本公司業務造成不利影響。本年度報告中之部分陳述，包括下列風險因素中之陳述，屬於前瞻性陳述。請參閱「關於前瞻性陳述之警示說明」。",
+    "本公司業務面臨許多風險與不確定性，包括下列在風險因素部分所詳細說明之風險。本公司認為下列為最主要之風險：",
+    "•本公司可能無法以歷史成長率成長。",
+    "•本公司已擴張並持續擴張業務，包括持續在平台上推出新產品與服務以及地理擴張，這使本公司面臨許多不確定性、風險與困難，可能對本公司業務造成不利影響。",
+    "•本公司營運成果及其他營運指標會因季度而異，使這些指標難以預測。",
+    "•影響交易型收入之因素，例如證券定價之利差減少、整體交易活動量減少、本公司與 Liquidity Providers（如下所定）之業務關係變化或其所提供之服務中斷，以及任何針對 PFOF 及類似做法之新規範或禁令，可能會導致利潤減少、合規成本增加與負面宣傳。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,209 @@
+{
+ "ticker": "ES",
+ "cik": "0000072741",
+ "accession": "0001628280-26-008461",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "For the Years Ended December 31,",
+    "2025 2024 Increase/",
+    "(Decrease) Return Included in Customer Rates",
+    "Retail Tariff Sales Revenues Amount % Amount %",
+    "Sources and Availability of Electric Power Supply",
+    "Wholesale Transmission Rates and Transmission Proceedings",
+    "Transmission Rate Base",
+    "FERC ROE Complaints",
+    "Sources and Availability of Natural Gas Supply",
+    "Sources and Availability of Water Supply"
+   ],
+   "paragraphs": [
+    "Please refer to the Glossary of Terms for definitions of defined terms and abbreviations used in this combined Annual Report on Form 10-K.",
+    "Eversource Energy (Eversource), headquartered in Boston, Massachusetts and Hartford, Connecticut, is a public utility holding company subject to regulation by the Federal Energy Regulatory Commission (FERC) under the Public Utility Holding Company Act of 2005. We are engaged primarily in the energy delivery business through the following wholly-owned utility subsidiaries:",
+    "•The Connecticut Light and Power Company (CL&P), a regulated electric utility that serves residential, commercial and industrial customers in parts of Connecticut;",
+    "•NSTAR Electric Company (NSTAR Electric), a regulated electric utility that serves residential, commercial and industrial customers in parts of eastern and western Massachusetts and owns solar power facilities, and its wholly-owned subsidiary Harbor Electric Energy Company (HEEC), also a regulated electric utility that distributes electric energy to its sole customer;",
+    "•Public Service Company of New Hampshire (PSNH), a regulated electric utility that serves residential, commercial and industrial customers in parts of New Hampshire;",
+    "•NSTAR Gas Company (NSTAR Gas), a regulated natural gas utility that serves residential, commercial and industrial customers in parts of Massachusetts;",
+    "•Eversource Gas Company of Massachusetts (EGMA), a regulated natural gas utility that serves residential, commercial and industrial customers in parts of Massachusetts;",
+    "•Yankee Gas Services Company (Yankee Gas), a regulated natural gas utility that serves residential, commercial and industrial customers in parts of Connecticut; and",
+    "•Aquarion Company (Aquarion), a utility holding company that owns five separate regulated water utility subsidiaries and collectively serves residential, commercial, industrial, and municipal and fire protection customers in parts of Connecticut, Massachusetts and New Hampshire. For information regarding the sale status of Aquarion, regulatory denial and subsequent appeal, see \"Business Development and Capital Expenditures – Aquarion Sale Status and Regulatory Denial\" in the accompanying Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations.",
+    "CL&P, NSTAR Electric and PSNH also serve New England customers through Eversource's electric transmission business. Along with NSTAR Gas, EGMA and Yankee Gas, each is doing business as Eversource Energy in its respective service territory.",
+    "Eversource, CL&P, NSTAR Electric and PSNH each report their financial results separately. We also include information in this report on a segment basis for Eversource. Eversource has four reportable segments: electric distribution, electric transmission, natural gas distribution and water distribution. These segments represent substantially all of Eversource's total consolidated revenues. CL&P, NSTAR Electric and PSNH do not report separate business segments.",
+    "Eversource's previous offshore wind business included 50 percent ownership interests in each of North East Offshore and South Fork Class B Member, LLC. In the third quarter of 2024, Eversource sold its interest in these entities, and in doing so, sold its interests in the Revolution Wind project, the South Fork Wind project, and the Sunrise Wind project. Eversource's current offshore wind business is now comprised only of a noncontrolling tax equity investment in South Fork Wind. For more information, see Note 13G, \"Commitments and Contingencies – Offshore Wind Sale and Contingent Liability,\" in the accompanying Item 8, Financial Statements and Supplementary Data.",
+    "Eversource's electric distribution segment consists of the distribution businesses of CL&P, NSTAR Electric and PSNH, which are engaged in the distribution of electricity to retail customers in Connecticut, Massachusetts and New Hampshire, respectively, and the solar power facilities of NSTAR Electric.",
+    "ELECTRIC DISTRIBUTION – CONNECTICUT – THE CONNECTICUT LIGHT AND POWER COMPANY"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Cybersecurity Risks:",
+    "Regulatory, Legislative and Compliance Risks:",
+    "The actions of regulators and legislators could result in outcomes that may adversely affect our earnings and liquidity.",
+    "Rate Regulation, Cost Recovery and Affordability",
+    "State-Level Risks",
+    "Federal-Level Risks",
+    "We are exposed to significant reputational risks, which make us vulnerable to increased regulatory oversight or other sanctions.",
+    "Costs of compliance with environmental laws and regulations, including those related to climate change, may increase and have an adverse effect on our business and results of operations.",
+    "Offshore Wind Contingent Liability and Tax Risk:",
+    "Risks Related to the Environment and Catastrophic Events:",
+    "The effects of climate change, including severe storms, could cause significant damage to any of our facilities or assets requiring extensive expenditures, the recovery for which is subject to approval by regulators.",
+    "Physical attacks, including acts of war or terrorism, both threatened and actual, could adversely affect our ability to operate our systems and could adversely affect our financial results and liquidity.",
+    "Business and Operational Risks:",
+    "Our transmission and distribution systems may not operate as expected, and could require unplanned expenditures, which could adversely affect our financial position, results of operations, and cash flows.",
+    "New technology and alternative energy sources could adversely affect our operations and financial results.",
+    "Financial, Economic, and Market Risks:",
+    "Limits on our access to, or increases in, the cost of capital may adversely impact our ability to execute our business plan.",
+    "Market performance or changes in assumptions may require us to make significant contributions to our pension and other postretirement benefit plans.",
+    "Goodwill and long-lived assets if impaired and written down, could adversely affect our future operating results and total capitalization.",
+    "Our counterparties may not meet their obligations to us or may elect to exercise their termination rights, which could adversely affect our earnings."
+   ],
+   "paragraphs": [
+    "In addition to the matters set forth under \"Safe Harbor Statement Under the Private Securities Litigation Reform Act of 1995\" included immediately prior to Item 1, Business, above, we are subject to a variety of material risks. Our susceptibility to certain risks, including those discussed in detail below, could exacerbate other risks. These risk factors should be considered carefully in evaluating our risk profile. There may be additional risks and uncertainties (either currently unknown or not currently believed to be material) that could adversely affect our financial position, results of operations, and cash flows.",
+    "Cyber events, including acts of war or terrorism, targeted directly on or indirectly affecting our systems or the systems of third parties on which we rely, could severely impair operations, negatively impact our business, lead to the disclosure of confidential information and adversely affect our reputation.",
+    "Cyberattacks that seek to exploit potential vulnerabilities in the utility industry and seek to disrupt electric, natural gas and water transmission and distribution systems are increasing in sophistication including artificial intelligence, magnitude and frequency. Various geo-political conflicts and acts of war around the world continue to result in increased cyberattacks against critical infrastructure. In addition to intentional attacks, we also face risks from other cybersecurity events, such as software defects, misconfigurations, system integration failures and problematic third-party software or firmware updates that can cause widespread outages or disruptions even in the absence of a deliberate attack. A successful cyberattack or other significant cyber event affecting technology systems that control our transmission, distribution, natural gas and water systems or other assets could impair or prevent us from managing these systems and facilities, operating our systems effectively, or properly managing our data, networks and programs. The breach or failure of certain information or operational technology systems could adversely affect our ability to correctly record, process and report financial information. A major cyber event could result in significant expenses to investigate and to repair system damage or security breaches and could lead to litigation, fines, other remedial action, heightened regulatory scrutiny and damage to our reputation.",
+    "We have instituted safeguards to protect our technology systems and assets; however, we cannot guarantee that our security efforts will prevent or deter cyberattacks. We deploy substantial technologies to system and application security, encryption and other measures to protect our computer systems and infrastructure from unauthorized access or misuse and to detect and respond to cyber events. Specifically, regarding vulnerabilities, we patch systems timely where patches are available to deploy and have technologies that detect exploits of vulnerabilities and proactively block the exploit when it happens. We also interface with numerous external entities to improve our cybersecurity situational awareness. The FERC, through the North American Electric Reliability Corporation (NERC), requires certain safeguards to be implemented to deter cyberattacks. These safeguards may not always be effective due to the evolving nature of cyberattacks. We maintain cyber insurance to cover damages, potential ransom and defense costs related to breaches of network or operational technology, but it may be insufficient in limits and coverage exclusions to cover all losses.",
+    "For further information, see Item 1C, Cybersecurity included in this Annual Report on Form 10-K.",
+    "The unauthorized access to, and the misappropriation of, confidential and proprietary Company, customer, employee, financial or system operating information could adversely affect our business operations and adversely impact our reputation."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Financial Condition and Business Analysis",
+    "For the Years Ended December 31,",
+    "(Millions of Dollars, Except Per Share Amounts) Amount Per Share Amount Per Share Amount Per Share",
+    "Borrowings Outstanding",
+    "as of December 31, Available Borrowing Capacity as of December 31, Weighted-Average Interest Rate as of December 31,",
+    "(Millions of Dollars) 2025 2024 2025 2024 2025 2024",
+    "Long-Term Debt Issuances and Repayments: The following table summarizes long-term debt issuances and repayments:",
+    "(Millions of Dollars) Interest Rate Issuance/",
+    "(Repayment) Issue Date or Repayment Date Maturity Date Use of Proceeds for Issuance/",
+    "(Millions of Dollars) 2026 2027 2028 2029 2030 Thereafter Total",
+    "S&P Moody's Fitch",
+    "Current Outlook Current Outlook Current Outlook",
+    "(Millions of Dollars) 2025 2024 2023",
+    "(Millions of Dollars)  CL&P  NSTAR Electric  PSNH  Total Electric  Natural Gas Water  Total",
+    "(Millions of Dollars) 2026 2027 2028 2029 2030 2026 - 2030 Total"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis should be read in conjunction with our consolidated financial statements and related combined notes included in this combined Annual Report on Form 10-K. References in this combined Annual Report on Form 10-K to \"Eversource,\" the \"Company,\" \"we,\" \"us,\" and \"our\" refer to Eversource Energy and its consolidated subsidiaries. All per-share amounts are reported on a diluted basis. The consolidated financial statements of Eversource, NSTAR Electric and PSNH and the financial statements of CL&P are herein collectively referred to as the \"financial statements.\" Our discussion of fiscal year 2025 compared to fiscal year 2024 is included herein. Unless expressly stated otherwise, for discussion and analysis of fiscal year 2023 items and of fiscal year 2024 compared to fiscal year 2023, please refer to Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations, in our combined 2024 Annual Report on Form 10-K, which is incorporated herein by reference.",
+    "Refer to the Glossary of Terms included in this combined Annual Report on Form 10-K for abbreviations and acronyms used throughout this Management's Discussion and Analysis of Financial Condition and Results of Operations.",
+    "The only common equity securities that are publicly traded are common shares of Eversource. Our earnings discussion includes financial measures that are not recognized under GAAP (non-GAAP) referencing our earnings and EPS excluding losses associated with our previous offshore wind investments, a loss on the pending sale of the Aquarion water distribution business, and a loss on the disposition of land that was initially acquired to construct the Northern Pass Transmission project and was subsequently abandoned. EPS by business is also a non-GAAP financial measure and is calculated by dividing the Net Income Attributable to Common Shareholders of each business by the weighted average diluted Eversource common shares outstanding for the period. The earnings and EPS of each business do not represent a direct legal interest in the assets and liabilities of such business, but rather represent a direct interest in our assets and liabilities as a whole.",
+    "We use these non-GAAP financial measures to evaluate and provide details of earnings results by business and to more fully compare and explain our results without including these items. This information is among the primary indicators we use as a basis for evaluating performance and planning and forecasting of future periods. We believe the impacts of the losses associated with our previous offshore wind investments, the loss on the pending sale of the Aquarion water distribution business, and the loss on the disposition of land associated with an abandoned project are not indicative of our ongoing costs and performance. We view these charges as not directly related to the ongoing operations of the business and therefore not an indicator of baseline operating performance. Due to the nature and significance of the effect of these items on Net Income Attributable to Common Shareholders and EPS, we believe that the non-GAAP presentation is a more meaningful representation of our financial performance and provides additional and useful information to readers of this report in analyzing historical and future performance of our business. These non-GAAP financial measures should not be considered as alternatives to reported Net Income Attributable to Common Shareholders or EPS determined in accordance with GAAP as indicators of operating performance.",
+    "Eversource Energy is a public utility holding company primarily engaged, through its wholly-owned regulated utility subsidiaries, in the energy delivery business. Eversource Energy's wholly-owned regulated utility subsidiaries consist of CL&P, NSTAR Electric and PSNH (electric utilities), Yankee Gas, NSTAR Gas and EGMA (natural gas utilities) and Aquarion (water utilities). Eversource is organized into the electric distribution, electric transmission, natural gas distribution, and water distribution reportable segments.",
+    "The following items in this executive summary are explained in more detail in this combined Annual Report on Form 10-K:",
+    "•We earned $1.69 billion, or $4.56 per share, in 2025, compared with $811.7 million, or $2.27 per share, in 2024. Our 2025 results include an aggregate, net after-tax charge resulting from our previous offshore wind investments of $75.0 million, or $0.20 per share. Our 2024 results include an aggregate, net after-tax loss on the sale of our offshore wind investments of $524.0 million, or $1.47 per share. These 2025 and 2024 charges were recorded within Eversource Parent and Other Companies. Our 2024 results also include an after-tax loss resulting from the expected sale of Aquarion of $298.3 million, or $0.83 per share. This 2024 charge was recorded within the Water Distribution segment. Excluding these charges, our 2025 non-GAAP earnings were $1.77 billion, or $4.76 per share, and our 2024 non-GAAP earnings of $1.63 billion, or $4.57 per share.",
+    "•We project that we will earn within a 2026 earning guidance range of between $4.80 per share and $4.95 per share. We also project that our long-term EPS growth rate through 2030 will be in a 5 to 7 percent range, using 2025 non-GAAP EPS of $4.76 per share as the base year.",
+    "•Cash flows provided by operating activities totaled $4.11 billion in 2025, compared with $2.16 billion in 2024. Investments in property, plant and equipment totaled $4.16 billion in 2025, compared with $4.48 billion in 2024.",
+    "•Cash totaled $135.4 million as of December 31, 2025, compared with $26.7 million as of December 31, 2024. Our available borrowing capacity under our commercial paper programs totaled $1.12 billion as of December 31, 2025.",
+    "•In 2025, we issued $2.94 billion of new long-term debt and we repaid $1.40 billion of long-term debt.",
+    "•In 2025, we paid dividends totaling $3.01 per common share, compared with dividends of $2.86 per common share in 2024. Our quarterly common share dividend payment was $0.7525 per share in 2025, as compared to $0.715 per share in 2024. On January 27, 2026, our Board of Trustees approved a common share dividend payment of $0.7875 per share, payable on March 31, 2026 to shareholders of record as of March 5, 2026.",
+    "•On May 30, 2025, we entered into an equity distribution agreement pursuant to which we may offer and sell up to $1.2 billion of our common shares from time to time through an \"at-the-market\" (ATM) equity offering program. In 2025, we issued 7,130,134 common shares, which resulted in proceeds of $465.4 million, net of issuance costs.",
+    "•We project to make capital expenditures of $26.51 billion from 2026 through 2030, of which we expect $11.24 billion to be in our electric distribution segment, $6.80 billion to be in our natural gas distribution segment, and $7.24 billion to be in our electric transmission segment. We also project to invest $1.23 billion in information technology and facilities upgrades and enhancements."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "會計年度終了於12月31日，",
+    "2025 2024 增減率/",
+    "（減少）回饋包含在客戶費率中",
+    "零售稅率銷售收入金額 % 金額 %",
+    "電力來源與供應可用性",
+    "批發輸電費率與輸電程序",
+    "輸電費率基準",
+    "FERC ROE 投訴",
+    "天然氣來源與供應情況",
+    "水來源與供應情況"
+   ],
+   "paragraphs": [
+    "請參閱本合併年度報告表 10-K 所使用的術語與縮寫詞之詞彙表，以取得相關術語與縮寫詞之定義。",
+    "Eversource Energy (Eversource) 總部設於麻薩諸塞州波士頓與康乃狄克州哈特福，為一公開上市的電力公用事業控股公司，受美國聯邦能源監管委員會 (FERC) 根據 2005 年公用事業控股公司法案所規範。我們主要從事能源配送業務，透過以下全資擁有之電力公用事業子公司進行業務：",
+    "•康乃狄克州光電公司 (Connecticut Light and Power Company, CL&P)，為一受規範之電力公用事業，服務康乃狄克州部分地區之住宅、商業與工業客戶；",
+    "•NSTAR 電力公司 (NSTAR Electric Company, NSTAR Electric)，為一受規範之電力公用事業，服務麻薩諸塞州東部與西部部分地區之住宅、商業與工業客戶，並擁有太陽能發電設施，其全資擁有之子公司 Harbor 電力能源公司 (Harbor Electric Energy Company, HEEC)，為一受規範之電力公用事業，向其唯一客戶配送電力；",
+    "•新罕布夏州公用服務公司 (Public Service Company of New Hampshire, PSNH)，為一受規範之電力公用事業，服務新罕布夏州部分地區之住宅、商業與工業客戶；",
+    "•NSTAR 天然氣公司 (NSTAR Gas Company, NST.TAR Gas)，為一受規範之天然氣公用事業，服務麻薩諸塞州部分地區之住宅、商業與工業客戶；",
+    "•馬薩諸塞州 Eversource 天然氣公司 (Eversource Gas Company of Massachusetts, EGMA)，為一受規範之天然氣公用事業，服務麻薩諸塞州部分地區之住宅、商業與工業客戶；",
+    "•揚基天然氣服務公司 (Yankee Gas Services Company, Yankee Gas)，為一受規範之天然氣公用事業，服務康乃狄克州部分地區之住宅、商業與工業客戶；",
+    "•Aquarion Company (Aquarion)，為一間公用事業控股公司，擁有五間各自獨立且受規範的水公用事業子公司，並共同為康乃狄克州、馬薩諸塞州與新罕布夏州的部分地區住宅、商業、工業及市政與消防保護客戶提供服務。有關Aquarion銷售狀態、規範機構拒絕批准及隨後上訴之資訊，請參閱附屬之第7項「業務發展與資本支出 – Aquarion銷售狀態與規範機構拒絕批准」，管理層對財務狀況與營運成果之討論與分析。",
+    "CL&P、NSTAR Electric與PSNH亦透過Eversource的電力輸電業務為新英格蘭地區客戶提供服務。與NSTAR Gas、EGMA與Yankee Gas一同在各自服務區域營運為Eversource Energy。",
+    "Eversource、CL&P、NSTAR Electric與PSNH各自獨立報告其財務結果。我們也在本報告中以應報告分部為基礎提供有關Eversource的資訊。Eversource有四個應報告分部：電力配電、電力輸電、天然氣配電與水配電。這些分部代表Eversource總合併營收的絕大部分。CL&P、NSTAR Electric與PSNA不報告獨立的業務分部。",
+    "Eversource先前的離岸風電業務包含對North East Offshore與South Fork Class B Member, LLC各50%的股權。於2024年第三季，Eversource出售了這些實體的股權，並在出售過程中，也出售了Revolution Wind專案、South Fork Wind專案與Sunrise Wind專案的權益。Eversource目前的離岸風電業務現在僅包含對South Fork Wind的非控制性稅務權益投資。如需更多資訊，請參閱附屬之第8項「財務報表與補充資料 – 第13G項『承諾與或有負債 – 離岸風電出售與或有負債』」。",
+    "Eversource的電力配電分部包含CL&P、NSTAR Electric與PSNH的配電業務，這些業務在康乃狄克州、馬薩諸塞州與新罕布夏州分別為零售客戶提供電力配電服務，並包含NSTAR Electric的太陽能發電設施。",
+    "電力配電 – 康乃狄克州 – 康乃狄克州光電公司（Connecticut Light and Power Company）"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "財務狀況與業務分析",
+    "截至12月31日止各年",
+    "(千萬美元, 除每股金額外) 每股金額 每股金額 每股金額",
+    "未償借款",
+    "截至12月31日, 可用借款額截至12月31日, 截至12月31日加權平均利率",
+    "(千萬美元) 2025 2024 2025 2024 2025 2024",
+    "長期債務發行與償還: 以下表格總結長期債務發行與償還:",
+    "(千萬美元) 利率 發行/",
+    "（償還）發行日期或償還日期 到期日 發行所得用途",
+    "（千萬美元） 2026 2027 2028 2029 2030 之後 總計",
+    "S&P 莫迪利亞尼 費奇",
+    "當前展望 當前展望 當前展望",
+    "（千萬美元） 2025 2024 2023",
+    "（千萬美元） CL&P NSTAR 電力 PSNH 總計 電力 燃氣 水 總計",
+    "（千萬美元） 2026 2027 2028 2029 2030 2026 - 2030 總計"
+   ],
+   "paragraphs": [
+    "以下討論與分析應與我們的合併財務報表及相關合併附註一併閱讀，包含於本合併年度報告表 10-K 中。本合併年度報告表 10-K 中提及的 \"Eversource\"、\"公司\"、\"我們\"、\"我們\"及 \"我們\" 指的是 Eversource Energy 及其合併子公司。所有每股金額均以稀釋後的基礎報告。Eversource、NSTAR Electric 及 PSNH 的合併財務報表，以及 CL&P 的財務報表， herein 合稱為 \"財務報表\"。我們對財政年 2025 與財政年 2024 的討論包含於 herein。除非另有明確說明，對於財政年 2023 項目及財政年 2024 與財政年 2023 的比較討論，請參閱我們合併 2024 年度報告表 10-K 中的項目 7，管理層對財務狀況與營運結果的討論與分析， herein 以參考方式納入。",
+    "請參閱本合併年度報告表 10-K 中包含的術語詞彙表，以瞭解本文中使用的縮寫與縮寫。",
+    "唯一公開交易的普通股證券為 Eversource 的普通股。我們的獲利討論包含未被 GAAP 承認的財務指標（非 GAAP）參考我們的獲利與 EPS，排除與我們先前離岸風電投資相關的損失、待售 Aquarion 水分佈業務的損失，以及與已放棄的 Northern Pass 傳輸專案相關土地處置的損失。各業務的 EPS 也為非 GAAP 財務指標，並計算為各業務的普通股股東應佔淨利潤除以該期間加權平均稀釋後的 Eversource 普通股數量。各業務的獲利與 EPS 不代表對該業務資產與負債的直接法律權益，而是代表對我們整體資產與負債的直接權益。",
+    "我們使用這些非 GAAP 財務指標來評估並提供各業務獲利結果的細節，以便更全面地比較與說明我們的結果，而不包含這些項目。此資訊為我們評估表現與規劃與預測未來期間的主要指標之一。我們認為與我們先前離岸風電投資相關的損失、待售 Aquarion 水分佈業務的損失，以及與已放棄專案相關土地處置的損失，並不代表我們持續的費用與表現。我們認為這些費用與業務持續營運無直接關聯，因此不反映基準營運表現。由於這些項目對普通股股東應佔淨利潤與 EPS 的影響性質與重要性，我們認為非 GAAP 表現更能反映我們的財務表現，並為讀者分析我們業務的歷史與未來表現提供額外且有用的資訊。這些非 GAAP 財務指標不應被視為替代 GAAP 計算的普通股股東應佔淨利潤或 EPS 的指標，以評估營運表現。",
+    "Eversource Energy 是一家公共電力控股公司，主要透過其完全擁有且受監管的電力子公司從事電力配送業務。Eversource Energy 的完全擁有且受監管的電力子公司包括 CL&P、NSTAR Electric 及 PSNH（電力公司）、Yankee Gas、NSTAR Gas 及 EGMA（天然氣公司）以及 Aquarion（水公司）。Eversource 組織為電力配送、電力輸送、天然氣配送及水配送應報告分部。",
+    "本執行摘要中下列項目在本合併年度報告表 10-K 中有更詳細說明：",
+    "•我們在 2025 年獲利 $16.9 億，或每股 $4.56，與 2024 年的 $8.117 億，或每股 $2.27 相比。我們 2025 年的結果包含來自我們先前離岸風電投資的總計、淨稅後費用 $75.0 億，或每股 $0.20。我們 2024 年的結果包含來自我們離岸風電投資出售的總計、淨稅後損失 $524.0 億，或每股 $1.47。這些 2025 年與 2024 年的費用已記入 Eversource 父公司與其他公司。我們 2024 年的結果也包含來自預期出售 Aquarion 的稅後損失 $298.3 億，或每股 $0.83。此 2024 年費用已記入水配送分部。扣除這些費用後，我們 2025 年的非 GAAP 獲利為 $17.7 億，或每股 $4.76，我們 2024 年的非 GAAP 獲利為 $16.3 億，或每股 $4.57。",
+    "•我們預期 2026 年的獲利將落在每股 $4.80 至 $4.95 的範圍內。我們也預期我們的長期每股盈餘成長率至 2030 年將在 5 到 7% 的範圍內，以 2025 年的非 GAAP 每股盈餘 $4.76 為基準年。",
+    "•營運活動產生的現金流入總計為 41.1 億美元，較 2024 年的 21.6 億美元增加。2025 年用於廠房、機械與設備的投資總計為 41.6 億美元，較 2024 年的 44.8 億美元減少。",
+    "•截至 2025 年 12 月 31 日，現金餘額為 13.54 億美元，較 2024 年 12 月 31 日的 2.67 億美元增加。根據我們的商業紙張融資計畫，我們的可 borrow 容量總計為 112 億美元，截至 2025 年 12 月 31 日。",
+    "•2025 年，我們發行了 29.4 億美元的新長期債務，並償還了 14 億美元的長期債務。",
+    "•2025 年，我們支付的普通股股息總計為每普通股 3.01 美元，較 2024 年的每普通股 2.86 美元增加。2025 年每季普通股股息支付為每普通股 0.7525 美元，較 2024 年的每普通股 0.715 美元增加。2026 年 1 月 27 日，我們的董事會批准了每普通股 0.7875 美元的普通股股息，於 2026 年 3 月 31 日支付給 2026 年 3 月 5 日截止登記的股東。",
+    "•2025 年 5 月 30 日，我們簽訂了一項股票發行協議，根據該協議，我們可隨時透過 \"at-the-market\" (ATM) 股票發行計畫，發行至多 12 億美元的普通股。2025 年，我們發行了 7,130,134 張普通股，產生淨收入 46.54 億美元（扣除發行費用）。",
+    "•我們預計從 2026 年至 2030 年進行資本支出總計為 265.1 億美元，其中預計 112.4 億美元將用於電力配電應報告分部，68 億美元將用於天然氣配電應報告分部，72.4 億美元將用於電力輸電應報告分部。我們也預計投資 12.3 億美元於資訊科技與設施升級與改善。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "資安風險:",
+    "法規、立法及合規風險:",
+    "監管機構與立法機關的作為可能導致對我們獲利與流動性產生不利影響的結果。",
+    "費率管制、成本回復與可負擔性",
+    "州級風險",
+    "聯邦級風險",
+    "我們面臨重大聲譽風險，這使我們更容易受到增加的監管審查或其他處罰。",
+    "遵守環境法規與法律的費用，包括與氣候變遷相關的費用，可能增加，並對我們的業務與營運成果產生不利影響。",
+    "離岸風力發電應計負債及稅務風險:",
+    "與環境及重大災害相關的風險:",
+    "氣候變遷的影響，包括強烈風暴，可能導致我們的設施或資產遭受重大損壞，需進行大量支出，而其賠償則需經主管機關核准。",
+    "物理攻擊，包括戰爭或恐怖行動，無論是否實際發生，都可能影響我們運作系統的能力，並對我們的財務結果及流動性產生負面影響。",
+    "營運與業務風險:",
+    "我們的輸電與配電系統可能無法如預期般運作，並可能需要未預期的支出，這可能對我們的財務狀況、營運結果及現金流產生負面影響。",
+    "新興科技與替代能源可能對我們的營運及財務結果產生負面影響。",
+    "財務、經濟及市場風險:",
+    "對我們取得資本或資本成本上升的限制，可能不利於我們執行業務計畫的能力。",
+    "市場表現或假設條件的變動，可能導致我們需對退休金及其他退休後福利計畫做出重大提撥。",
+    "商譽及長壽命資產若發生減損並進行減值處理，可能不利於我們未來的營運成果及總資本結構。",
+    "我們的交易對手可能無法履行對我們的義務，或可能選擇行使終止權，這可能不利於我們的營收。"
+   ],
+   "paragraphs": [
+    "除上述 \"Private Securities Litigation Reform Act of 1995\" 下之 Safe Harbor Statement 所載事項外，本公司面臨多種重大風險。本公司對某些風險的敏感度，包括下文詳細討論的風險，可能會加劇其他風險。在評估本公司風險特質時，應謹慎考慮這些風險因素。可能還有其他風險與不確定性（無論目前未知或目前認為不具重大性），可能會對本公司財務狀況、營運成果與現金流產生不利影響。",
+    "網路事件，包括對本公司系統或本公司所倚賴之第三方系統之戰爭或恐怖攻擊，可能嚴重影響營運，對本公司業務產生負面影響，導致機密資訊外泄，並對本公司聲譽造成不利影響。",
+    "針對電力、天然氣與水傳輸與分配系統之潛在弱點進行攻擊，並試圖幹擾這些系統的網路攻擊，其複雜度、規模與頻率正在增加，包括人工智慧的應用。世界各地的各種地緣政治衝突與戰爭持續導致針對關鍵基礎設施的網路攻擊增加。除了有意圖的攻擊外，本公司亦面臨其他網路安全事件的風險，例如軟體缺陷、設定錯誤、系統整合失敗及問題性的第三方軟體或韌體更新，即使沒有刻意攻擊，也可能導致廣泛的停機或中斷。成功的網路攻擊或其他重大網路事件影響控制本公司傳輸、分配、天然氣與水系統或其他資產的技術系統，可能導致本公司無法管理這些系統與設施、有效運作系統，或正確管理資料、網路與程式。資訊或運營技術系統的洩漏或失敗，可能對本公司正確記錄、處理與報告財務資訊的能力產生不利影響。重大網路事件可能導致調查與修復系統損壞或安全漏洞的顯著費用，並可能導致訴訟、罰款、其他補救措施、加強監管審查與聲譽損害。",
+    "本公司已實施防護措施以保護技術系統與資產；然而，本公司無法保證安全措施能防止或阻嚇網路攻擊。本公司部署大量技術以加強系統與應用程式安全、加密及其他措施，以防止未經授權的存取或濫用電腦系統與基礎設施，並偵測與回應網路事件。具體而言，針對弱點，本公司會在補丁可用時及時更新系統，並有技術可偵測弱點被利用，並在發生時主動阻斷利用。本公司亦與多個外部機構合作，以提升網路安全的即時資訊。FERC 透過北美洲電力可靠性委員會（NERC）要求實施某些防護措施以阻嚇網路攻擊。這些防護措施可能因網路攻擊的持續演進而無法完全有效。本公司維持網路保險，以覆蓋網路或運營技術遭入侵的損失、潛在贖金與防禦費用，但保險的賠償範圍與免責條款可能不足以覆蓋所有損失。",
+    "如需進一步資訊，請參閱本年度10-K表報中包含的第1C項，Cybersecurity（網路安全）。",
+    "未經授權存取本公司、客戶、員工、財務或系統運作資訊，並進行不當使用，可能對本公司營運產生不利影響，並對本公司聲譽造成不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

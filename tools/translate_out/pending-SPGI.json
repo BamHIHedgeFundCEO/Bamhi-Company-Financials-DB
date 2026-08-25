@@ -1,0 +1,219 @@
+{
+ "ticker": "SPGI",
+ "cik": "0000064040",
+ "accession": "0000064040-26-000013",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Businesses",
+    "Segment and Geographic Data",
+    "Human Capital",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "S&P Global Inc. (together with its consolidated subsidiaries, \"S&P Global,\" the \"Company,\" the \"Registrant,\" \"we,\" \"us\" or \"our\") is a global, diversified, and highly differentiated provider of benchmarks, data, analytics and workflow solutions in the global capital, energy and commodity, and automotive markets. The capital markets include asset managers, investment banks, commercial banks, insurance companies, exchanges, trading firms and issuers; the energy and commodity markets include producers, consumers, traders and intermediaries within energy, chemicals, shipping, metals, carbon and agriculture; and the automotive markets include manufacturers, suppliers, dealerships, service shops and customers. We serve our global customers through a broad range of products and services available through both third-party and proprietary distribution channels. We were incorporated in December of 1925 under the laws of the state of New York.",
+    "Our operations consist of five businesses: S&P Global Market Intelligence (\"Market Intelligence\"), S&P Global Ratings (\"Ratings\"), S&P Global Energy (\"Energy\"), S&P Global Mobility (\"Mobility\") and S&P Dow Jones Indices (\"Indices\"). As of May 2, 2023, we completed the sale of S&P Global Engineering Solutions (\"Engineering Solutions\"), a provider of engineering standards and related technical knowledge, and the results are included through that date. For a discussion on the competitive conditions and regulatory environment associated with our businesses, see \"MD&A – Segment Review\" contained in Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations, in this Annual Report on Form 10-K.",
+    "On April 29, 2025, we announced that our Board of Directors decided to pursue a full separation of our Mobility segment, creating a new publicly traded company. The transaction, which would be implemented through the spin-off of shares of the new company to S&P Global shareholders, is expected to be tax-free for U.S. federal income tax purposes for S&P Global shareholders and is expected to be completed mid-2026, subject to the satisfaction of customary legal and regulatory requirements and approvals.",
+    "Market Intelligence is a global provider of multi-asset-class data and analytics integrated with purpose-built workflow solutions. Market Intelligence's portfolio of capabilities are designed to help trading and investment professionals, government agencies, corporations and universities track performance, generate alpha, identify investment ideas, understand competitive and industry dynamics, perform valuations and manage credit risk. Key customers served by Market Intelligence include investment managers, investment banks, private equity firms, insurance companies, commercial banks, corporations, professional services firms, government agencies and regulators.",
+    "Market Intelligence includes the following business lines:",
+    "•Data, Analytics & Insights — a desktop product suite that provides data, analytics and third-party research for global finance and corporate professionals, which includes the Capital IQ platforms (which are inclusive of S&P Capital IQ Pro, Capital IQ, Office and Mobile products) and a broad range of research, reference data, market data, derived analytics and valuation services covering both the public and private capital markets, delivered through flexible feed-based or API delivery mechanisms. This also includes issuer solutions for public companies, a range of products for the maritime & trade market, data and insight into Financial Institutions, the telecoms, technology and media space as well as energy transition and sustainability and supply chain data analytics;",
+    "•Enterprise Solutions — software and workflow solutions that help our customers manage and analyze data; identify risk; reduce costs; and meet global regulatory requirements. The portfolio includes industry leading financial technology solutions like Wall Street Office, Enterprise Data Manager, Information Mosaic, and iLevel. Our Global Markets Group offering delivers bookbuilding platforms across multiple assets including municipal bonds, equities and fixed income; and",
+    "•Credit & Risk Solutions — commercial arm that sells Ratings' credit ratings and related data and research, advanced analytics, and financial risk solutions which includes subscription-based offerings, RatingsXpress®, RatingsDirect® and Credit Analytics.",
+    "Subscription revenue at Market Intelligence is primarily derived from distribution of data, valuation services, analytics, third party research, and credit ratings-related information through both feed and web-based channels. Subscription revenue also includes software and hosted product offerings which provide maintenance and continuous access to our platforms over the contract term. Recurring variable revenue at Market Intelligence represents revenue from contracts for services that specify a fee based on, among other factors, the number of trades processed, assets under management, or the number of positions valued. Non-subscription revenue at Market Intelligence is primarily related to certain advisory, pricing conferences and events, and analytical services.",
+    "Ratings is an independent provider of credit ratings, research, and analytics. Credit ratings are forward-looking opinions about an issuer's relative creditworthiness. They are one of several tools investors can use when making decisions about purchasing bonds and other fixed income investments. Our ratings express our opinion about the ability and willingness of an issuer, such as a corporation or state or city government, to meet its financial obligations in full and on time. Our credit ratings can also relate to the credit quality of an individual debt issue, such as a corporate or municipal bond, and the relative likelihood that the issue may default.",
+    "With offices in over 25 countries around the world, Ratings is an important part of the world's financial infrastructure and has played a leading role for over 150 years in providing investors with information and independent benchmarks for their investment and financial decisions as well as access to the capital markets. The key constituents Ratings serves are investors, corporations, governments, municipalities, commercial and investment banks, insurance companies, asset managers, and other debt issuers.",
+    "As the capital markets continue to evolve, Ratings is well-positioned to capitalize on opportunities, driven by continuing regulatory changes, through its global network, well-established position in corporate markets and strong investor reputation.",
+    "Ratings disaggregates its revenue between transaction and non-transaction. Transaction revenue primarily includes fees associated with:",
+    "•ratings related to new issuance of corporate and government debt instruments, as well as structured finance debt instruments; and"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Cybersecurity, Technology and Innovation Risks",
+    "Our inability to innovate and compete with new or enhanced products and services of our competitors could have a material adverse effect on our business, financial condition or results of operations.",
+    "Our inability to successfully develop, adapt, or implement new and improved processes and technology could materially adversely impact our business, financial condition or results of operations.",
+    "Artificial Intelligence (\"AI\") presents new and evolving risks, and our approach to AI may not be successful, which could materially and adversely affect our business, financial condition or results of operations.",
+    "Our use of open source software could result in litigation or impose unanticipated restrictions on our ability to commercialize our products and services.",
+    "Our inability to adequately obtain, protect and maintain our intellectual property and other proprietary rights could impact our competitive position.",
+    "We have been, and may in the future be, subject to intellectual property disputes, which are costly to defend and could harm our business and operating results.",
+    "We rely heavily on network systems and the Internet and any failures or disruptions may adversely affect our ability to serve our customers.",
+    "Our operations and infrastructure may malfunction or fail, which could have a material adverse effect on our business, financial condition or results of operations.",
+    "Legal and Regulatory Risks",
+    "Exposure to litigation and government and regulatory proceedings, investigations and inquiries could have a material adverse effect on our business, financial condition or results of operations.",
+    "Future legislation, regulatory reform or policy changes, especially abrupt changes, could have a material adverse effect on our business, financial condition or results of operations."
+   ],
+   "paragraphs": [
+    "The following risk factors and other information included in this annual report on Form 10-K should be carefully considered. The risks and uncertainties described below are not the only ones we face. These risks could materially and adversely affect our business, financial condition and results of operations. Additional risks and uncertainties not presently known to us or which we currently believe to be immaterial may also impair our business operations.",
+    "We are a global, diversified, and highly differentiated provider of benchmarks, data, analytics and workflow solutions in the global capital, energy and commodity, and automotive markets. The capital markets include asset managers, investment banks, commercial banks, insurance companies, exchanges, trading firms and issuers; the energy and commodity markets include producers, consumers, traders and intermediaries within energy, chemicals, shipping, metals, carbon and agriculture; and the automotive markets include manufacturers, suppliers, dealerships, service shops and customers. Certain risk factors are applicable to certain of our individual segments while other risk factors are applicable Company-wide.",
+    "Our size, scale and role in the global markets increases our exposure to cyber attacks and other cyber-security risks. Our information systems and networks and those of our third-party service providers are exposed to risks related to cybersecurity and protection of confidential information, including material non-public information, which could have a material adverse effect on our business, financial condition or results of operations.",
+    "•Our operations rely on the secure processing, storage and transmission of confidential, sensitive and other types of data and information by our information systems and networks and those of our third-party service providers, including our vendors, data partners and distribution partners. Cyber threats continue to evolve and are increasingly difficult to detect and successfully defend against. As a result, cyber threats have in the past and may in the future defeat the measures that we or our third-party service providers take to anticipate, detect, avoid, or mitigate such threats.",
+    "•Our businesses often have access to material non-public information concerning the Company's customers, including sovereigns, public and private companies, and other third parties around the world, the unauthorized disclosure of which could affect the trading markets for such customers' securities and could damage such customers' competitive positions. Some of our own products and services also include material non-public information that could affect trading markets. Unauthorized disclosure of this information as a result of cyber attacks and other unauthorized occurrences on our information systems and networks could cause our customers to lose faith in our ability to protect confidential information and therefore cause customers to cease doing business with us.",
+    "•The cyber threats we and our third-party service providers (including our vendors, data partners and distribution partners) face are rapidly evolving and are becoming increasingly sophisticated and include denial of service attacks, ransomware, spyware, misinformation, phishing/smishing/vishing attacks, business compromise attacks,"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "(in millions) Year ended December 31, % Change 1",
+    "2025 2024 2023 '25 vs '24 '24 vs '23",
+    "Operating profit 2",
+    "1 % changes in the tables throughout the MD&A are calculated off of the actual number, not the rounded number presented.",
+    "Our Strategy",
+    "Consolidated Review",
+    "(in millions) Year ended December 31, % Change",
+    "Revenue $ 15,336 $ 14,208 $ 12,497 8% 14%",
+    "Operating profit 6,478 5,580 4,020 16% 39%",
+    "Net income 4,820 4,167 2,893 16% 44%",
+    "Total Expenses",
+    "(in millions) 2025 2024 % Change",
+    "related expenses Selling and",
+    "general expenses Operating-",
+    "Market Intelligence 1",
+    "Corporate Unallocated expense 7",
+    "6 Intersegment eliminations primarily relate to a royalty charged to Market Intelligence for the rights to use and distribute content and data developed by Ratings.",
+    "(in millions) 2024 2023 % Change",
+    "Intersegment eliminations 6",
+    "Corporate Unallocated expense 8",
+    "(Gain) Loss on Dispositions, net",
+    "Operating Profit",
+    "Engineering Solutions 6",
+    "Equity in Income on Unconsolidated Subsidiaries 8",
+    "6 2023 includes amortization of intangibles from acquisitions of $1 million.",
+    "8 2023 includes an asset impairment of $2 million. 2025, 2024 and 2023 includes amortization of intangibles from acquisitions of $41 million, $56 million and $56 million, respectively.",
+    "Other (Income) Expense, net",
+    "Interest Expense, net",
+    "Provision for Income Taxes",
+    "Segment Review",
+    "Market Intelligence",
+    "2024 2023 '25 vs '24 '24 vs '23",
+    "Non-subscription revenue",
+    "12025 includes employee severance charges of $56 million, acquisition-related costs of $21 million, disposition-related costs of $10"
+   ],
+   "paragraphs": [
+    "The following Management's Discussion and Analysis (\"MD&A\") provides a narrative of the results of operations and financial condition of S&P Global Inc. (together with its consolidated subsidiaries, \"S&P Global,\" the \"Company,\" \"we,\" \"us\" or \"our\") for the years ended December 31, 2025 and 2024, respectively. The MD&A provides information on factors that we believe are important in understanding our results of operations and comparability and certain other factors that may affect our future results. The MD&A should be read in conjunction with the consolidated financial statements and accompanying notes included in this Annual Report on Form 10-K for the year ended December 31, 2025, which have been prepared in accordance with accounting principles generally accepted in the U.S. (\"U.S. GAAP\").",
+    "The MD&A includes the following sections: •Overview •Results of Operations •Liquidity and Capital Resources",
+    "•Reconciliation of Non-GAAP Financial Information •Critical Accounting Estimates •Recently Issued or Adopted Accounting Standards",
+    "Certain of the statements below are forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. In addition, any projections of future results of operations and cash flows are subject to substantial uncertainty. See Forward-Looking Statements on page 4 of this report.",
+    "We are a global, diversified, and highly differentiated provider of benchmarks, data, analytics and workflow solutions in the global capital, energy and commodity, and automotive markets. The capital markets include asset managers, investment banks, commercial banks, insurance companies, exchanges, trading firms and issuers; the energy and commodity markets include producers, consumers, traders and intermediaries within energy, chemicals, shipping, metals, carbon and agriculture; and the automotive markets include manufacturers, suppliers, dealerships, service shops and customers.",
+    "Our operations consist of five businesses: S&P Global Market Intelligence (\"Market Intelligence\"), S&P Global Ratings (\"Ratings\"), S&P Global Energy (\"Energy\"), S&P Global Mobility (\"Mobility\") and S&P Dow Jones Indices (\"Indices\").",
+    "•Market Intelligence is a global provider of multi-asset-class data and analytics integrated with purpose-built workflow solutions.",
+    "•Ratings is an independent provider of credit ratings, research and analytics.",
+    "•Energy is a leading independent provider of information and benchmark prices for the energy and commodity markets.",
+    "•Mobility is a leading provider of solutions serving the full automotive value chain including vehicle manufacturers (Original Equipment Manufacturers or OEMs), automotive suppliers, mobility service providers, retailers, consumers, and finance and insurance companies.",
+    "•Indices is a global index provider maintaining a wide variety of valuation and index benchmarks for investment advisors, wealth managers and institutional investors.",
+    "On April 29, 2025, we announced that our Board of Directors decided to pursue a full separation of our Mobility segment, creating a new publicly traded company. The transaction, which would be implemented through the spin-off of shares of the new company to S&P Global shareholders, is expected to be tax-free for U.S. federal income tax purposes for S&P Global shareholders and is expected to be completed mid-2026, subject to the satisfaction of customary legal and regulatory requirements and approvals.",
+    "As of May 2, 2023, we completed the sale of S&P Global Engineering Solutions (\"Engineering Solutions\"), a provider of engineering standards and related technical knowledge, and the results are included through that date. See Note 2 — Acquisitions and Divestitures to the consolidated financial statements under Item 8, Consolidated Financial Statements and Supplementary Data, in this Annual Report on Form 10-K for further discussion.",
+    "During the three years ended December 31, 2025, we have returned approximately $15.1 billion to our shareholders through a combination of share repurchases and our quarterly dividends: we completed share repurchases of approximately $11.6 billion and distributed regular quarterly dividends totaling approximately $3.5 billion. Also, on January 14, 2026, the Board of Directors approved a quarterly common stock dividend of $0.97 per share."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Our Businesses': '本公司業務'}",
+    "{'Segment and Geographic Data': '分部及地理資料'}",
+    "{'Human Capital': '人力資本'}",
+    "{'Available Information': '可供查閱資訊'}"
+   ],
+   "paragraphs": [
+    "S&P Global Inc.（與其合併子公司合稱為 \"S&P Global\"，\"本公司\"、\"登記人\"、\"我們\"、\"我們\" 或 \"我們的\"）為全球性、多元化且高度差異化的機構，提供全球資本市場、能源與商品市場以及汽車市場的指標、數據、分析及作業解決方案。資本市場包括資產管理公司、投資銀行、商業銀行、保險公司、交易所、交易機構與發行者；能源與商品市場包括能源、化學品、運輸、金屬、碳與農業的生產者、消費者、交易者與中介機構；汽車市場包括製造商、供應商、經銷商、服務中心與客戶。我們透過第三方與專屬的分銷渠道，提供廣泛的產品與服務來服務全球客戶。我們於1925年12月根據紐約州法律成立。",
+    "我們的業務包括五個業務部門：S&P Global Market Intelligence（\"Market Intelligence\"）、S&P Global Ratings（\"Ratings\"）、S&P Global Energy（\"Energy\"）、S&P Global Mobility（\"Mobility\"）以及S&P Dow Jones Indices（\"Indices\"）。截至2023年5月2日，我們已完成出售S&P Global Engineering Solutions（\"Engineering Solutions\"），這是一家提供工程標準及相關技術知識的機構，且其結果已包含至該日期。有關我們業務的競爭環境與監管環境的討論，請參閱本年度10-K表報表第7項「管理層對財務狀況與營運結果之討論與分析」（Management's Discussion and Analysis of Financial Condition and Results of Operations）中所附的「MD&A – 分部審查」部分。",
+    "2025年4月29日，我們宣佈本公司董事會決定推動Mobility部門的完全分離，成立一家新的上市公司。此交易將透過向S&P Global股東發放新公司股份的方式進行，預期對美國聯邦所得稅而言為稅務中性，且預計於2026年中完成，前提是符合常見的法律與監管要求與批准。",
+    "Market Intelligence為全球性提供多資產類別數據與分析，並整合專為作業設計的解決方案的機構。Market Intelligence的專業能力組合旨在協助交易與投資專業人士、政府機構、企業與大學追蹤表現、產生Alpha、識別投資點子、瞭解競爭與產業動態、執行評估與管理信用風險。Market Intelligence服務的關鍵客戶包括投資管理機構、投資銀行、私募股權機構、保險公司、商業銀行、企業、專業服務機構、政府機構與監管機構。",
+    "Market Intelligence包含以下業務線：",
+    "•數據、分析與洞察 — 一套桌面產品組合，提供數據、分析與第三方研究，服務全球金融與企業專業人士，包括Capital IQ平台（包含S&P Capital IQ Pro、Capital IQ、Office與Mobile產品）以及涵蓋公開與私有資本市場的廣泛研究、參考數據、市場數據、衍生分析與評估服務，透過靈活的資料流或API傳輸機制提供。此也包含對上市公司的發行者解決方案、針對海運與貿易市場的產品組合、對金融機構的數據與洞察、電信業者、資訊科技與媒體領域以及能源轉型與永續性與供應鏈數據分析；",
+    "•企業解決方案 — 軟體與作業解決方案，協助客戶管理與分析數據；識別風險；降低成本；並符合全球監管要求。此組合包括領先的金融科技解決方案，如Wall Street Office、Enterprise Data Manager、Information Mosaic與iLevel。我們的全球市場羣組提供跨多種資產的書籍建造平台，包括市政債券、股票與固定收益；",
+    "•信用與風險解決方案 — 一個商業部門，銷售Ratings的信用評級與相關數據與研究、先進分析與財務風險解決方案，包含訂閱制的產品，如RatingsXpress®、RatingsDirect®與Credit Analytics。",
+    "本公司於市場資訊業務的訂閱營業收入，主要來自透過資料分發、評價服務、分析、第三方研究及信用評級相關資訊的通訊及網頁渠道。訂閱營業收入亦包含軟體及雲端產品服務，提供合約期間內的維護及持續存取我們平台的權限。市場資訊業務的重複變動收入代表來自服務合約的收入，這些合約規定費用基於諸如處理交易數量、管理資產或評估部位數量等因素。市場資訊業務的非訂閱營業收入，主要與某些諮詢、定價會議及活動，以及分析服務相關。",
+    "信用評級為獨立提供信用評級、研究及分析的機構。信用評級為針對發行人的相對信用worthiness的預測意見。這些為投資者在購買債券及其他固定收益投資時可使用的工具之一。我們的信用評級表達我們對發行人（例如公司或州或市政府）履行其財務義務之能力與意願的意見。我們的信用評級亦可與個別債務工具（例如公司或市政債券）的信用品質相關，以及該工具可能違約的相對機率。",
+    " Ratings 在全球超過25個國家設有辦事處，為世界金融基礎設施的重要組成部分，並在過去150多年來在提供投資者資訊及獨立 benchmarks 以供其投資與財務決策，以及取得資本市場的管道方面發揮領導角色。 Ratings 服務的主要對象為投資者、公司、政府、市政府、商業與投資銀行、保險公司、資產管理公司及其他債務發行者。",
+    "隨著資本市場持續演進， Ratings 透過其全球網路、在企業市場的穩固地位及強大的投資者聲譽，處於有利位置以把握機會，並受惠於持續的監管變革。",
+    " Ratings 將其收入區分為交易收入與非交易收入。交易收入主要包含與以下相關的費用：",
+    "• 針對公司及政府債務工具，以及結構性融資債務工具的新發行之信用評級相關費用；以及"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "(以千萬為單位) 截至 12 月 31 日年度，% 變動 1",
+    "2025 2024 2023 '25 與 '24 '24 與 '23",
+    "營運獲利 2",
+    "1 % 變動在 MD&A 中的表格計算方式為基於實際數字，而非四捨五入後的數字。",
+    "我們的策略",
+    "合併審閱",
+    "(以千萬為單位) 截至 12 月 31 日年度，% 變動",
+    "營業收入 $ 15,336 $ 14,208 $ 12,497 8% 14%",
+    "營業利益 6,478 5,580 4,020 16% 39%",
+    "淨利潤 4,820 4,167 2,893 16% 44%",
+    "總費用",
+    "(以千萬為單位) 2025 2024 變動率",
+    "相關費用 壹、銷售費用",
+    "一般費用 營運-",
+    "市場情報 1",
+    "企業未分配費用 7",
+    "6 本公司各應報告分部間之消除項目，主要係指市場資訊部因使用及分發由評級所開發之內容及資料之權利而收取之 royalty。",
+    "(以千萬為單位) 2024 2023 變動百分比",
+    "分部間消除項目 6",
+    "公司未分配費用 8",
+    "(獲利) 處分損益，淨額",
+    "營運獲利",
+    "工程解決方案 6",
+    "未合併子公司之權益收益 8",
+    "6 2023 包含來自收購的無形資產攤銷費用 $1 千萬。",
+    "8 2023 包含資產減損費用 $2 千萬。2025、2024 和 2023 分別包含來自收購的無形資產攤銷費用 $41 千萬、$56 千萬和 $56 千萬。",
+    "其他（收入）費用，淨額",
+    "利息費用，淨額",
+    "所得稅費用",
+    "分部審閱",
+    "市場情報",
+    "2024 2023 '25 與 '24 '24 與 '23",
+    "非訂閱收入",
+    "12025 包含員工遣散費用 $56 十萬、併購相關費用 $21 十萬、處分相關費用 $10 十萬"
+   ],
+   "paragraphs": [
+    "以下為管理層討論與分析（\"MD&A\"）之內容，說明 S&P Global Inc.（含其合併子公司，以下簡稱 \"S&P Global\"、\"本公司\"、\"我們\"、\"我們的\" 或 \"我們的公司\"）於 2025 年 12 月 31 日及 2024 年 12 月 31 日會計年度之營運結果與財務狀況。MD&A 提供資訊，說明我們認為對理解營運結果與可比性及某些可能影響未來營運結果之因素具有重要性。MD&A 應與本年度 10-K 年度報告所附之合併財務報表及相關附註一併閱讀，該財務報表係依美國通用會計準則（\"U.S. GAAP\"）編製。",
+    "MD&A 包含以下各節：•總覽 •營運結果 •流動性與資本資源",
+    "•非 GAAP 財務資訊之彙整 •關鍵會計估計 •最近發佈或採用之會計準則",
+    "下列部分陳述係依照 1995 年私人證券 litigation 改革法案之意義所定之向前看陳述。此外，任何對未來營運結果與現金流之預測均面臨重大不確定性。請參閱本報告第 4 頁之向前看陳述。",
+    "本公司為全球性、多元化且高度差異化的供應商，提供全球資本市場、能源與商品市場及汽車市場之指標、數據、分析及作業解決方案。資本市場包括資產管理公司、投資銀行、商業銀行、保險公司、交易所、交易機構及發行者；能源與商品市場包括能源、化學品、運輸、金屬、碳及農業之生產者、消費者、交易者及中介機構；汽車市場包括製造商、供應商、經銷商、服務中心及客戶。",
+    "本公司營運包含五個業務部門：S&P Global Market Intelligence（\"Market Intelligence\"）、S&P Global Ratings（\"Ratings\"）、S&P Global Energy（\"Energy\"）、S&P Global Mobility（\"Mobility\"）及 S&P Dow Jones Indices（\"Indices\"）。",
+    "•Market Intelligence 為全球性多資產類別數據與分析之供應商，並整合專為特定用途設計之作業解決方案。",
+    "•Ratings 為獨立之信用評級、研究與分析供應商。",
+    "•能源為資訊及指標價格的主要獨立提供者，服務於能源與商品市場。",
+    "•移動性為服務於汽車產業完整價值鏈的領導解決方案供應商，包括車輛製造商（原廠或OEMs）、汽車零組件供應商、移動服務提供者、零售商、消費者以及金融與保險公司。",
+    "•指數為全球指數提供者，維護廣泛的評估與指數指標，服務於投資顧問、資產管理人及機構投資者。",
+    "2025年4月29日，本公司董事會宣佈決定推動移動性應報告分部的完全分離，成立一家新的上市公司。此交易將透過向S&P Global股東發放新公司股票的方式執行，預期對美國聯邦所得稅而言為稅務中性，預計於2026年中完成，但需符合常見的法律與法規要求及批准。",
+    "截至2023年5月2日，本公司已完成出售S&P Global Engineering Solutions（\"Engineering Solutions\"），一家提供工程標準及相關技術知識的供應商，且結果已包含至該日期。詳情請參見第2項註釋 — 收購與出售，於本年度報告10-K表單的財務報表與補充資料項（Item 8, Consolidated Financial Statements and Supplementary Data）中。",
+    "在2025年12月31日結止的三年期間，本公司透過股票回購與定期季度股息的組合方式，已向股東回饋約151億美元：完成股票回購約116億美元，並發放定期季度股息總計約35億美元。此外，2026年1月14日，董事會批准了每股0.97美元的定期普通股股息。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "資安、科技與創新風險",
+    "本公司若無法創新並與競爭對手的新產品或服務競爭，可能對本公司業務、財務狀況或營運成果造成重大不利影響。",
+    "本公司若無法成功開發、適應或實施新且改進的流程與科技，可能對本公司業務、財務狀況或營運成果造成重大不利影響。",
+    "人工智慧（\"AI\"）帶來新的且持續演變的風險，而本公司對AI的處理方式可能無法成功，這可能對本公司業務、財務狀況或營運成果造成重大且不利的影響。",
+    "本公司使用開放原始碼軟體可能導致訴訟，或對本公司商業化產品與服務的能力造成未預期的限制。",
+    "本公司若無法充分取得、保護及維護智慧財產權及其他專有權利，可能影響本公司競爭地位。",
+    "本公司已歷來並可能未來遭遇智慧財產權爭議，而這些爭議的辯護成本高昂，可能損害本公司業務與營運成果。",
+    "本公司高度依賴網路系統與互聯網，若發生系統故障或中斷，可能不利於本公司服務客戶的能力。",
+    "本公司之營運與基礎建設可能發生故障或失效，此情形可能對本公司之業務、財務狀況或營運成果造成重大不利影響。",
+    "法律與法規風險",
+    "面對訴訟及政府與法規程序、調查與詢問之風險，可能對本公司之業務、財務狀況或營運成果造成重大不利影響。",
+    "未來可能有新法規、法規改革或政策變動，尤其若是突然變動，可能對本公司之業務、財務狀況或營運成果造成重大不利影響。"
+   ],
+   "paragraphs": [
+    "下列風險因素及其他資訊包含於本年度報告書（Form 10-K）中，應謹慎考量。上述提及的風險與不確定性並非本公司唯一面臨的風險。這些風險可能會對本公司業務、財務狀況及營運成果造成重大且不利的影響。此外，尚有其他風險與不確定性，目前尚未為本公司所知或認為不重要，也可能影響本公司業務運作。",
+    "本公司為全球性、多元化且高度差異化的機構，提供全球資本市場、能源與商品市場以及汽車市場的指標、數據、分析及工作流程解決方案。資本市場包括資產管理公司、投資銀行、商業銀行、保險公司、交易所、交易機構與發行機構；能源與商品市場包括能源、化學品、運輸、金屬、碳排放與農業等領域的生產者、消費者、交易者與中介機構；汽車市場則包括製造商、供應商、經銷商、維修廠與消費者。某些風險因素適用於本公司個別應報告分部，而其他風險因素則適用於本公司整體。",
+    "本公司規模龐大且在全球市場中扮演重要角色，因此更容易受到網路攻擊及其他網路安全風險的影響。本公司資訊系統與網路，以及第三方服務供應商的資訊系統與網路，均面臨與網路安全及保護機密資訊（包括重大非公開資訊）相關的風險，這些風險可能對本公司業務、財務狀況或營運成果造成重大且不利的影響。",
+    "•本公司業務運作依賴資訊系統與網路安全處理、儲存與傳輸機密、敏感及其他類型的資料與資訊，包括本公司第三方服務供應商（包括供應商、數據合作夥伴與分銷合作夥伴）的資訊系統與網路。網路威脅持續演進，且越來越難以偵測與成功防禦。因此，網路威脅在過去曾成功突破本公司或第三方服務供應商所採取的預防、偵測、避免或緩衝措施，未來也可能發生。",
+    "•本公司業務常接觸本公司客戶（包括國家主權、上市公司與非上市公司及其他第三方機構）的重大非公開資訊，這些資訊未經授權披露可能影響相關客戶證券的交易市場，並損害其競爭地位。本公司部分產品與服務亦包含重大非公開資訊，可能影響交易市場。因網路攻擊或其他未經授權事件導致本公司資訊系統與網路的資訊未經授權披露，可能使客戶對本公司保護機密資訊的能力失去信心，進而導致客戶停止與本公司合作。",
+    "•本公司與第三方服務供應商（包括供應商、數據合作夥伴與分銷合作夥伴）所面對的網路威脅迅速演進，且變得越來越複雜，包括拒絕服務攻擊、勒索軟體、間諜軟體、虛假資訊、釣魚/簡訊釣魚/電話釣魚攻擊及企業詐騙攻擊"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

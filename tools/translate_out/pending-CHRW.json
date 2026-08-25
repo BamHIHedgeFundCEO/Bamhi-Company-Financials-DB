@@ -1,0 +1,201 @@
+{
+ "ticker": "CHRW",
+ "cik": "0001043277",
+ "accession": "0001043277-26-000009",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Markets and Resources",
+    "Government Regulation",
+    "Human Capital",
+    "North America Europe Asia and the Middle East Oceania South America Total",
+    "Total Employees",
+    "Environmental Sustainability",
+    "Information about our Executive Officers",
+    "Investor Information",
+    "Cautionary Statement Relevant to Forward-Looking Information"
+   ],
+   "paragraphs": [
+    "C.H. Robinson Worldwide, Inc. (\"C.H. Robinson,\" \"the company,\" \"we,\" \"us,\" or \"our\") is one of the largest global logistics providers in the world, with consolidated total revenues of $16.2 billion in 2025. As a leader in Lean artificial intelligence (\"AI\") supply chains, we deliver logistics like no one else. For more than a century, companies everywhere have looked to us to reimagine how goods move. We deliver tailored solutions across the world via truckload, less-than-truckload, ocean, air, and more. With our unique combination of human insight and Lean AI working as one, supply chains move faster, smarter, and more sustainably.",
+    "Operating throughout North America, Europe, Asia, Oceania, South America, and the Middle East, we help ensure the seamless delivery of goods across industries and continents. Our global suite of multimodal logistics services brings together the expertise of our people with custom technology differentiated by one of the largest datasets on shipments, routings, and carriers in the world.",
+    "The Robinson Operating Model is the foundation of our strategy, execution, and accountability throughout the organization. Rooted in Lean principles, it's a disciplined approach to continuous improvement, driving operational effectiveness that allows us to deliver greater value to our customers. Accelerated speed in decision-making allows us to more quickly identify and pursue opportunities. Rigorous measurement allows for more strategic problem-solving and course correction.",
+    "We apply that same rigor to our innovation. Lean AI is our unique and disciplined method of applying artificial intelligence, at scale, to achieve tangible business results. Our innovations with AI, machine learning, and data science benefit our customers, contract carriers, and employees and help power our growth strategy. We have expanded the use of generative and agentic AI in our industry, creating proprietary technology to perform work that defied automation for decades. Our customers get better service, faster speed-to-market and more cost savings. The contract carriers in our network get hyper-customized load recommendations and optimized appointment times for pickup and delivery, helping them run their businesses more efficiently. AI also frees our people from repetitive, mundane tasks so they can focus on more strategic work. Our enhancements to our dynamic costing and pricing models are key contributors to expanding our operating margins and growing volume and market share.",
+    "Our proprietary technology connects 75,000 customers and 450,000 contract carriers. We work closely with a global network of transportation companies, including motor carriers, railroads, and ocean and air carriers. We utilize those relationships to efficiently and cost-effectively arrange the transport of our customers' freight. In 2025, our customers trusted us to manage approximately 37 million shipments and $23 billion in freight. As an integral part of our transportation services, we also provide a wide range of value-added logistics services, such as freight consolidation, drop trailer, cross-border logistics, customs brokerage and trade compliance, supply chain consulting and design, and fully managed third-party logistics (\"3PL\") and fourth-party logistics (\"4PL\") solutions.",
+    "Our global team of supply chain experts, differentiated technology, and integrated product portfolio across ocean, air, rail, and truck shipping bring unique value to the marketplace. Our global perspective across all links in the supply chain is critical in supporting shippers through market volatility and global supply chain disruptions.",
+    "In addition to transportation and logistics services, we also provide sourcing services under the trade name Robinson Fresh® (\"Robinson Fresh\"). Our sourcing services consist primarily of the buying, selling, and/or marketing of fresh fruits, vegetables, and other value-added perishable items.",
+    "Segment information. We have two reportable segments, North American Surface Transportation (\"NAST\") and Global Forwarding, with our remaining operating segments reported as All Other and Corporate. The All Other and Corporate segment includes Robinson Fresh, Managed Solutions, Other Surface Transportation outside of North America, and other miscellaneous revenues and unallocated corporate expenses. See additional disclosure in Note 8, Segment Reporting, to our consolidated financial statements.",
+    "NAST provides transportation and logistics services across North America through a network of offices in the United States, Canada, and Mexico. The primary services provided by NAST include truckload and less than truckload (\"LTL\") transportation brokerage services.",
+    "Global Forwarding provides transportation and logistics services through an international network of offices in North America, Europe, Asia, Oceania, South America, and the Middle East and also contracts with independent agents worldwide. The primary services provided by Global Forwarding include ocean freight services, air freight services, and customs brokerage.",
+    "Robinson Fresh provides sourcing services that primarily include the buying, selling, and/or marketing of fresh fruits, vegetables, and other value-added perishable items. Robinson Fresh sources products from around the world.",
+    "In November 2024, we launched C.H. Robinson Managed Solutions™ to address a growing gap in the marketplace for shippers wanting seamless access to 4PL services, 3PL managed transportation, and transportation management system (\"TMS\") technology from one provider. Consulting services, logistics optimization, and day-to-day logistics management services formerly offered through our TMC division are now offered through Managed Solutions.",
+    "Other Surface Transportation revenues were primarily earned by our Europe Surface Transportation operating segment. Europe Surface Transportation provided transportation and logistics services, including truckload and LTL transportation services, across Europe. The sale of our Europe Surface Transportation business was announced in July 2024 and closed in February 2025.",
+    "Sales Transportation and Logistics Services"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Business environment and competition risk factors",
+    "Company risk factors",
+    "We may be subject to the negative impacts of climate change, which could adversely impact our business and financial results. The potential impacts of climate change may subject us to various risks, including:",
+    "Governmental, regulatory, and legal risk factors",
+    "General risk factors"
+   ],
+   "paragraphs": [
+    "The following are material factors that could affect our financial performance and could cause actual results for future periods to differ materially from our anticipated results or other expectations, including those expressed in any forward-looking statements made in this Annual Report on Form 10-K. We may also refer to this disclosure to identify factors that may cause actual results to differ from those expressed in other forward-looking statements, including those made in oral presentations such as telephone conferences and webcasts open to the public.",
+    "Economic recession could have a significant, adverse impact on our business. The transportation industry historically has experienced cyclical fluctuations in financial results due to economic recessions, downturns in business cycles of our customers, interest rate fluctuations, currency fluctuations, and other economic factors beyond our control. Deterioration in the economic environment subjects our business to various risks, which may have a material and adverse impact on our operating results and cause us to not reach our long-term growth goals:",
+    "•Decrease in volumes: A reduction in overall freight volumes in the marketplace may reduce our opportunities for growth. A significant portion of our freight is comprised of transactional or spot market opportunities. The market may be impacted by supply chain disruptions, overall economic conditions, or changes in trade policies such as tariffs. In addition, if a downturn in our customers' business cycles causes a reduction in the volumes of freight shipped by those customers, particularly in the retail, food, beverage, automotive, industrial, manufacturing, housing, chemicals, or technology industries, our operating results could be adversely affected.",
+    "•Credit risk and working capital: Some of our customers may face economic difficulties and may not be able to pay us, and some may go out of business. In addition, some customers may not pay us as quickly as they have in the past, which may cause our working capital needs to increase.",
+    "•Transportation provider failures: A significant number of our contracted transportation providers may go out of business, and we may be unable to secure sufficient equipment or other transportation services to meet our commitments to our customers.",
+    "•Expense management: We may not be able to appropriately adjust our expenses to changing market demands. In order to maintain high variability in our business model, it is necessary to adjust staffing levels to changing market demands. In periods of rapid change, it may be more difficult to match our staffing levels to our business needs. In addition, we have other expenses that are fixed for a period of time, and we may not be able to adequately adjust them in a period of rapid change in market demand."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Twelve Months Ended December 31,",
+    "Costs and expenses:",
+    "Total direct costs 13,561,611 15,004,250 15,025,455",
+    "Gross profits/Gross profit margin 2,671,152 16.5 % 2,720,706 15.3 % 2,570,988 14.6 %",
+    "Adjusted gross profits/Adjusted gross profit margin $ 2,729,410 16.8 % $ 2,765,014 15.6 % $ 2,604,608 14.8 %",
+    "2025 2024 % change 2023 % change",
+    "Total revenues",
+    "Total costs and expenses",
+    "Income from operations",
+    "Income before provision for income taxes",
+    "Diluted net income per share",
+    "Average employee headcount",
+    "Adjusted gross profit margin percentage(1)",
+    "Consolidated Results of Operations—Twelve Months Ended December 31, 2025 Compared to Twelve Months Ended December 31, 2024",
+    "NAST Segment Results of Operations",
+    "(dollars in thousands) 2025 2024 % change 2023 % change",
+    "Total revenues $ 11,562,714 $ 11,727,539 (1.4) % $ 12,471,075 (6.0) %",
+    "Service line volume statistics",
+    "Twelve Months Ended December 31, 2025 Compared to Twelve Months Ended December 31, 2024",
+    "Global Forwarding Segment Results of Operations",
+    "Total revenues $ 3,090,018 $ 3,805,018 (18.8) % $ 2,997,704 26.9 %",
+    "All Other and Corporate Segment Results of Operations",
+    "Description Carrying Value as of December 31, 2025 Borrowing Capacity Maturity",
+    "Twelve months ended December 31, 2025 2024 % change 2023 % change",
+    "Sources (uses) of cash:",
+    "GOODWILL. Goodwill represents the excess of the cost of acquired businesses over the net of the fair value of identifiable tangible assets and identifiable intangible assets purchased and liabilities assumed.",
+    "2026 2027 2028 2029 2030 Thereafter Total"
+   ],
+   "paragraphs": [
+    "C.H. Robinson Worldwide, Inc. (\"C.H. Robinson,\" \"the company,\" \"we,\" \"us,\" or \"our\") is one of the largest global logistics providers in the world, with consolidated total revenues of $16.2 billion in 2025. As a leader in Lean AI supply chains, we deliver logistics like no one else. For more than a century, companies everywhere have looked to us to reimagine how goods move. We deliver tailored solutions across the world via truckload, less-than-truckload, ocean, air, and more. With our unique combination of human insight and Lean AI working as one, supply chains move faster, smarter, and more sustainably.",
+    "Our adjusted gross profits and adjusted gross profit margin are non-GAAP financial measures. Adjusted gross profits is calculated as gross profits excluding amortization of internally developed software utilized to directly serve our customers and contracted carriers. Adjusted gross profit margin is calculated as adjusted gross profits divided by total revenues. We believe adjusted gross profits and adjusted gross profit margin are useful measures of our ability to source, add value, and sell services and products that are provided by third parties, and we consider adjusted gross profits to be a primary performance measurement. Accordingly, the discussion of our results of operations often focuses on the changes in our adjusted gross profits and adjusted gross profit margin. The reconciliation of gross profits to adjusted gross profits and gross profit margin to adjusted gross profit margin is presented below (dollars in thousands):",
+    "Revenues: Transportation $ 14,823,804 $ 16,353,745 $ 16,372,660 Sourcing 1,408,959 1,371,211 1,223,783",
+    "Total revenues 16,232,763 17,724,956 17,596,443",
+    "Purchased transportation and related services 12,235,163 13,719,935 13,886,024 Purchased products sourced for resale 1,268,190 1,240,007 1,105,811",
+    "Direct internally developed software amortization 58,258 44,308 33,620",
+    "Plus: Direct internally developed software amortization 58,258 44,308 33,620",
+    "Our adjusted operating margin is a non-GAAP financial measure calculated as operating income divided by adjusted gross profit. We believe adjusted operating margin is a useful measure of our profitability in comparison to our adjusted gross profit, which we consider a primary performance metric as discussed above. The reconciliation of operating margin to adjusted operating margin is presented below (dollars in thousands):",
+    "2025 2024 2023 Total revenues $ 16,232,763 $ 17,724,956 $ 17,596,443 Operating income 794,961 669,141 514,607",
+    "Operating margin 4.9 % 3.8 % 2.9 % Adjusted gross profit $ 2,729,410 $ 2,765,014 $ 2,604,608",
+    "Operating income 794,961 669,141 514,607 Adjusted operating margin 29.1 % 24.2 % 19.8 % MARKET TRENDS",
+    "Carrier capacity in the North America surface transportation market continued to contract toward the end of 2025 as carriers exited the market. This gradual tightening, coupled with disruptive weather events and incremental pressures from the enforcement of commercial driver regulations, contributed to upward pressure on transportation rates. As a result, the market has become increasingly sensitive, with spot market rates exhibiting sharper than typical reactions to changes in supply and demand conditions. Despite these emerging pressures, the market has not fully transitioned into a sustained upcycle. Key indicators, such as truckload routing guide depth within our Managed Solutions business, have remained at historically low levels for nearly two years. Routing guide depth represents the average number of carriers contacted prior to acceptance when procuring a transportation provider. Average routing guide depth was 1.3 in the fourth quarter of 2025, compared to 1.2 for much of the prior two years. While this increase reflects early signs of a tightening market, soft demand conditions and remaining excess capacity continue to temper the pace of the shift.",
+    "The global forwarding market continued to face a persistent imbalance in 2025, marked by excess vessel capacity and weak global demand. Despite carriers' ongoing avoidance of the Suez Canal, which has resulted in longer transit times and strain on global networks, vessel capacity has remained elevated. While short periods of rate volatility have occurred due to shifting trade and tariff policies, front‑loading, seasonal factors, and carriers' use of blank sailings, international freight rates have largely remained depressed as weak demand outweighed these pressures. Looking ahead, uncertainty persists due to geopolitical and macroeconomic factors, including evolving trade policies, the Red Sea conflict, and carriers' ability to effectively manage excess capacity. Despite this uncertainty, we expect ocean pricing to remain under pressure until global freight demand meaningfully improves. Similar dynamics continue to affect the air freight market. Although demand has shown resilience in certain technology‑focused sectors, overall air freight pricing remains sensitive to tariff developments and broader economic conditions, including cost-efficient ocean freight rates.",
+    "Our surface transportation results in 2025 reflected the challenging market conditions described above, including the increase in transportation rates as capacity tightened in the market near the end of the year. Throughout the year, we continued to advance our dynamic pricing and costing capabilities, navigating both the prolonged softness in demand and the rising cost environment that emerged toward year‑end. These enhanced capabilities allowed us to better react to changing market conditions and led to an improvement in adjusted gross profit per transaction in 2025 compared to 2024. Our average truckload linehaul rate charged to customers, excluding fuel surcharges, increased approximately 2.5 percent during 2025 reflecting our advanced dynamic pricing. Our average truckload linehaul cost per mile, excluding fuel surcharges, increased approximately 2.0 percent over the same period, reflecting our disciplined costing capabilities. Despite operating in a persistently soft market for much of the year, our combined North American Surface Transportation (\"NAST\") truckload and LTL volumes significantly outperformed the Cass Freight Index increasing 1.0 percent compared to 2024."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "市場與資源",
+    "政府管制",
+    "人力資本",
+    "北美歐洲亞洲及中東大洋洲南美洲總計",
+    "總計員工數",
+    "環境永續",
+    "關於我們高階主管之資訊",
+    "投資者資訊",
+    "{'original': 'Cautionary Statement Relevant to Forward-Looking Information', 'translated': '警示聲明與前瞻性資訊相關'}"
+   ],
+   "paragraphs": [
+    "C.H. Robinson Worldwide, Inc. (\"C.H. Robinson,\" \"the company,\" \"we,\" \"us,\" or \"our\") 為全球最大的物流服務供應商之一，在 2025 年的合併總營業收入為 162 億美元。作為 Lean 人工智慧 (\"AI\") 供應鏈的領導者，我們提供與其他公司不同的物流服務。超過一個世紀以來，世界各地的公司都仰賴我們重新思考貨物的運輸方式。我們透過貨櫃、零擔、海運、空運等方式，為全球提供量身打造的解決方案。憑藉我們獨特的人力洞察力與 Lean AI 的結合，供應鏈運作更快、更智慧、更可持續。",
+    "我們在北美、歐洲、亞洲、大洋洲、南美洲及中東等地運作，協助確保各產業與各大洲之間貨物的順暢運送。我們的全球多式聯運物流服務結合了我們人員的專業知識與獨特的技術，該技術以全球最大的貨運資料集、路線與電信業者資料為特色。",
+    "Robinson 營運模式為我們策略、執行與責任的基礎，貫穿整個組織。該模式根植於 Lean 原則，是一種持續改進的嚴謹方法，推動運營效率，使我們能為客戶創造更大價值。決策速度的提升使我們能更快識別與追求機會。嚴謹的衡量方式有助於更戰略性的問題解決與修正方向。",
+    "我們同樣將這種嚴謹精神應用於創新。Lean AI 是我們獨特且嚴謹的方法，用以大規模應用人工智慧，以實現可衡量的業務成果。我們在人工智慧、機器學習與數據科學方面的創新，使客戶、合約運輸業者與員工受益，並協助推動我們的成長策略。我們已擴展在生成式與代理式人工智慧在本產業的應用，創造專屬技術以執行過去數十年難以自動化的任務。客戶獲得更優質的服務、更快的市場進入速度與更多成本節省。我們網路中的合約運輸業者獲得高度客製化的載貨建議與最佳化的取貨與送貨預約時間，協助他們更有效率地運營業務。人工智慧也讓我們的人員從重複、瑣碎的任務中解放，專注於更具戰略性的任務。我們對動態成本與定價模型的改進，是擴大我們運營毛利率與成長運量與市場佔有率的關鍵因素。",
+    "我們的專屬技術連接了 75,000 個客戶與 450,000 個合約運輸業者。我們與全球運輸公司的網路密切合作，包括貨車運輸業者、鐵路公司與海運與空運業者。我們利用這些關係，以高效且成本效益的方式安排客戶貨物的運輸。在 2025 年，我們的客戶信任我們管理約 3700 萬筆貨運與 230 億美元的貨物。作為我們運輸服務的重要組成部分，我們也提供廣泛的附加價值物流服務，例如貨運集拼、拖板車卸貨、跨境物流、報關經紀與貿易合規、供應鏈諮詢與設計，以及完全管理的第三方物流 (\"3PL\") 與第四方物流 (\"4PL\") 解決方案。",
+    "我們全球的供應鏈專家團隊、獨特的技術與整合的產品組合，涵蓋海運、空運、鐵路與貨車運輸，為市場帶來獨特價值。我們對供應鏈各環節的全球視野，是協助貨運商應對市場波動與全球供應鏈中斷的關鍵。",
+    "除了運輸與物流服務，我們也提供採購服務，以 Robinson Fresh® (\"Robinson Fresh\") 為品牌名稱。我們的採購服務主要為鮮果、蔬菜及其他高價值易腐商品的買賣與/或行銷。",
+    "分部資訊。我們有兩個應報告分部，為北美陸運 (\"NAST\") 與全球運輸，其餘運營分部則歸類為其他與公司部門。其他與公司部門包括 Robinson Fresh、管理解決方案、北美以外的其他陸運分部，以及其他雜項收入與未分配的公司費用。請參閱附註 8，分部報告，以取得更多披露資訊，內容為我們合併財務報表的附加說明。",
+    "NAST 透過美國、加拿大及墨西哥的辦事處網路，提供北美地區的運輸與物流服務。NAST 主要提供的服務包括貨櫃運輸及小貨櫃（\"LTL\"）運輸經紀服務。",
+    "Global Forwarding 透過北美、歐洲、亞洲、大洋洲、南美洲及中東等地的國際辦事處網路，提供運輸與物流服務，並與全球各地的獨立經紀合作。Global Forwarding 主要提供的服務包括海運、空運及報關經紀服務。",
+    "Robinson Fresh 提供採購服務，主要包含新鮮水果、蔬菜及其他高價值易腐商品的買賣及/或行銷。Robinson Fresh 從世界各地採購產品。",
+    "2024 年 11 月，我們啟動了 C.H. Robinson Managed Solutions™，以回應市場上對貨主尋求來自單一供應商的 4PL 服務、3PL 管理運輸及運輸管理系統（\"TMS\"）技術的日益增長需求。原先透過我們 TMC 部門提供的諮詢服務、物流優化及日常物流管理服務，現已透過 Managed Solutions 提供。",
+    "其他表面運輸收入主要由我們的歐洲表面運輸營運分部產生。歐洲表面運輸提供包括貨櫃及小貨櫃運輸服務的運輸與物流服務，遍及歐洲。我們的歐洲表面運輸業務出售公告於 2024 年 7 月，並於 2025 年 2 月完成交易。",
+    "運輸與物流服務銷售"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "會計年度終了於12月31日",
+    "成本及費用：",
+    "總直接成本 13,561,611 15,004,250 15,025,455",
+    "毛利/毛利率 2,671,152 16.5 % 2,720,706 15.3 % 2,570,988 14.6 %",
+    "調整後毛利/調整後毛利率 $ 2,729,410 16.8 % $ 2,765,014 15.6 % $ 2,604,608 14.8 %",
+    "2025 2024 變動百分比 2023 變動百分比",
+    "總營業收入",
+    "總成本及費用",
+    "營業收入",
+    "稅前盈餘",
+    "稀釋每股淨收入",
+    "平均員工人數",
+    "調整後毛利率百分比(1)",
+    "合併營運成果—截至2025年12月31日十二個月與截至2024年12月31日十二個月比較",
+    "NAST應報告分部營運成果",
+    "(單位為千美元) 2025 2024 變動百分比 2023 變動百分比",
+    "總營業收入 $ 11,562,714 $ 11,727,539 (1.4) % $ 12,471,075 (6.0) %",
+    "服務線體積統計資料",
+    "2025 年 12 月 31 日止十二個月與 2024 年 12 月 31 日止十二個月比較",
+    "全球貨運分部營運成果",
+    "總營業收入 $ 3,090,018 $ 3,805,018 (18.8) % $ 2,997,704 26.9 %",
+    "其他及企業本部營運成果",
+    "說明 賦予價值為 2025 年 12 月 31 日 貸款能力 到期日",
+    "2025 年 12 月 31 日止十二個月 2024 年 12 月 31 日止十二個月 % 變動 2023 年 12 月 31 日止十二個月 % 變動",
+    "現金來源（使用）：",
+    "商譽。商譽代表取得企業的成本超過所購得可辨認有形資產及可辨認無形資產淨公平價值以及所承擔負債的差額。",
+    "2026 2027 2028 2029 2030 之後 總計"
+   ],
+   "paragraphs": [
+    "C.H. Robinson Worldwide, Inc. (\"C.H. Robinson,\" \"the company,\" \"we,\" \"us,\" or \"our\") 是全球最大的物流服務供應商之一，在 2025 年的合併總營業收入為 162 億美元。作為 Lean AI 供應鏈的領導者，我們提供與其他公司不同的物流服務。超過一個世紀以來，世界各地的公司都仰賴我們重新思考貨物的運輸方式。我們透過貨櫃車、零擔貨運、海運、空運等方式，為全球提供量身打造的解決方案。憑藉我們獨特的人力洞察力與 Lean AI 的結合，供應鏈運作更快速、更智慧且更可持續。",
+    "我們的調整後毛利率為非 GAAP 財務指標。調整後毛利率計算方式為：營業毛利扣除用以直接服務客戶與 contracted carriers 的內部開發軟體之攤銷費用。調整後毛利率計算方式為調整後毛利除以總營業收入。我們認為調整後毛利與調整後毛利率是衡量我們從第三方取得服務與產品、並加以銷售能力的重要指標，我們將調整後毛利視為主要績效指標。因此，我們的營運成果討論通常會聚焦於調整後毛利與調整後毛利率的變化。毛利與調整後毛利、毛利率與調整後毛利率的轉換關係如下（單位為千美元）：",
+    "營業收入：運輸 $ 14,823,804 $ 16,353,745 $ 16,372,660 來源 1,408,959 1,371,211 1,223,783",
+    "總營業收入 16,232,763 17,724,956 17,596,443",
+    "購入運輸及相關服務 12,235,163 13,719,935 13,886,024 購入用以轉售的產品 1,268,190 1,240,007 1,105,811",
+    "直接內部開發軟體攤銷費用 58,258 44,308 33,620",
+    "加：直接內部開發軟體攤銷費用 58,258 44,308 33,620",
+    "我們的調整後營運毛利為非 GAAP 財務指標，計算方式為營運收入除以調整後毛利。我們認為調整後營運毛利是衡量我們盈利能力的重要指標，與我們視為主要績效指標的調整後毛利相比較。營運毛利與調整後營運毛利的轉換關係如下（單位為千美元）：",
+    "2025 2024 2023 總計營業收入 $ 16,232,763 $ 17,724,956 $ 17,596,443 營運獲利 794,961 669,141 514,607",
+    "營運毛利率 4.9 % 3.8 % 2.9 % 調整後毛利 $ 2,729,410 $ 2,765,014 $ 2,604,608",
+    "營運獲利 794,961 669,141 514,607 調整後營運毛利率 29.1 % 24.2 % 19.8 % 市場趨勢",
+    "北美地面運輸市場的電信業者運力持續下降，至2025年底為止，電信業者持續退出市場。這種逐漸緊縮的情況，加上幹擾性天氣事件以及商業駕駛規範執行所帶來的壓力，導致運輸價格上漲壓力增加。因此，市場變得更加敏感，散貨市場價格對供需條件的變化反應更加明顯。儘管這些新興壓力持續存在，市場尚未完全轉型為持續上漲的週期。關鍵指標，例如本公司 Managed Solutions 事業的貨車路線指南深度，已經維持在歷史低水平近兩年。路線指南深度代表在尋求運輸服務時，平均接觸的電信業者數量。2025年第四季的平均路線指南深度為1.3，與過去兩年的大多數時間相比為1.2。雖然這個增加反映市場緊縮的早期跡象，但軟弱的運輸需求與剩餘過度運力仍持續影響轉變的速度。",
+    "全球貨運市場在2025年持續面對供過於求的失衡情況，特徵為過度的船舶運力與弱化的全球需求。儘管電信業者持續避免使用蘇伊士運河，導致運輸時間延長並對全球運輸網路造成壓力，船舶運力仍維持在高位。雖然因貿易與關稅政策變動、季節性因素以及電信業者使用空白航次，短暫出現過率波動，但國際貨運價格整體仍處於低迷，因弱化的需求大於這些壓力。展望未來，因地緣政治與總體經濟因素，包括貿易政策的變化、紅海衝突以及電信業者有效管理過度運力的能力，不確定性持續存在。儘管如此，我們預期海洋運價將持續受到壓力，直到全球貨運需求有顯著改善為止。類似的情況也持續影響航空貨運市場。雖然某些以科技為主的領域需求表現出強韌性，但整體航空貨運價格仍對關稅發展與更廣泛的經濟條件敏感，包括成本效益高的海洋運價。",
+    "我們在2025年的地面運輸結果反映了上述的挑戰性市場條件，包括運力緊縮導致運輸價格上漲，尤其是在年底市場接近尾聲時。全年來，我們持續提升動態定價與成本計算能力，應對需求持續疲軟以及年底出現的上升成本環境。這些增強的能力使我們能更好地應對變動的市場條件，並導致2025年調整後每筆交易的毛利相比2024年有所改善。我們對客戶收取的平均貨車載貨運價（不含燃油附加費）在2025年約上升了2.5%，反映我們先進的動態定價能力。我們的平均貨車載貨運價每英里成本（不含燃油附加費）在相同期間約上升了2.0%，反映我們嚴謹的成本計算能力。儘管全年大多數時間處於持續疲軟的市場，我們的北美地面運輸（\"NAST\"）貨車載貨與LTL（輕貨）運量顯著超越Cass Freight指數，增長1.0%相比2024年。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "營運環境與競爭風險因素",
+    "公司風險因素",
+    "我們可能面臨氣候變遷的負面影響，這可能會對我們的業務與財務結果產生不利影響。氣候變遷的潛在影響可能使我們面臨各種風險，包括:",
+    "政府、法規與法律風險因素",
+    "一般風險因素"
+   ],
+   "paragraphs": [
+    "以下為可能影響本公司財務表現之重大因素，且可能導致未來期間之實際結果與本公司預期結果或其他預期情形有重大差異，包括於本年度報告表 10-K 中所發表之任何前瞻性陳述。本公司亦可能引用此揭露以識別可能導致實際結果與其他前瞻性陳述中所表達結果有重大差異之因素，包括於口頭簡報中所發表之陳述，例如電話會議及公開網頁簡報。",
+    "經濟衰退可能對本公司業務造成重大且不利的影響。運輸業歷來因經濟衰退、客戶商業週期下滑、利率波動、貨幣波動及其他超出本公司控制範圍之經濟因素，而經歷財務結果之週期性波動。經濟環境惡化將使本公司業務面臨各種風險，可能對本公司營運結果造成重大且不利的影響，並導致本公司無法達成長期成長目標：",
+    "• 運輸量減少：市場整體貨運量減少可能降低本公司成長機會。本公司貨運業務的大部分為交易性或即時市場機會。市場可能受供應鏈中斷、整體經濟狀況或貿易政策變動（例如關稅）影響。此外，若客戶商業週期下滑導致這些客戶所運送貨運量減少，特別是在零售、食品、飲料、汽車、工業、製造、住宅、化學品或科技產業，本公司營運結果可能受到不利影響。",
+    "• 信用風險與營運資金：部分客戶可能面臨經濟困難，無法支付本公司費用，且部分客戶可能歇業。此外，部分客戶可能無法如過往般迅速支付本公司費用，可能導致本公司營運資金需求增加。",
+    "• 運輸服務提供者失敗：本公司所簽約之運輸服務提供者中，有相當數量可能歇業，本公司可能無法取得足夠設備或其他運輸服務以履行對客戶之承諾。",
+    "• 費用管理：本公司可能無法適時調整費用以因應市場需求變動。為維持本公司商業模式之高變動性，必須根據市場需求變動調整人力配置。在市場需求快速變動期間，可能更難以匹配人力配置與業務需求。此外，本公司有部分費用在一段期間內為固定費用，本公司可能無法在市場需求快速變動期間適時調整這些費用。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

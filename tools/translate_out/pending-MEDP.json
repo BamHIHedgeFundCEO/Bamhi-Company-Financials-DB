@@ -1,0 +1,219 @@
+{
+ "ticker": "MEDP",
+ "cik": "0001668397",
+ "accession": "0001668397-26-000006",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Revenues: Markets and Clinical Development Services",
+    "Sales and Marketing",
+    "Government Regulation",
+    "Development of Drugs, Biologics and Medical Devices",
+    "Health Information Privacy",
+    "Health Industry Arrangements",
+    "Environmental Regulation and Liability",
+    "Intellectual Property",
+    "Human Capital",
+    "Recruitment and Retention",
+    "Liability and Insurance",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "We are one of the world's leading clinical contract research organizations, or CROs, by revenue, solely focused on providing scientifically-driven outsourced clinical development services to the biotechnology, pharmaceutical and medical device industries. Our mission is to accelerate the global development of safe and effective medical therapeutics. We differentiate ourselves from our competitors by our disciplined operating model centered on providing full-service Phase I-IV clinical development services and our therapeutic expertise. We believe this combination results in timely and cost-effective delivery of clinical development services for our customers. We believe that we are a partner of choice for small and mid-sized biopharmaceutical companies based on our ability to consistently utilize our full-service, disciplined operating model to deliver timely and high-quality results for our customers. Accordingly, our business strategy aims to continue to expand our market share in the growing Phase I-IV CRO market as we conduct clinical trials across all major therapeutic areas, with particular strength in Oncology, Metabolic, Cardiology, Antiviral and Anti-infective (AVAI) and Central Nervous System (CNS).",
+    "Before a new drug can be commercialized, it often must undergo extensive pre-clinical and clinical testing and regulatory review to verify safety and efficacy. CROs provide a comprehensive range of product development services for Phase I-IV clinical trials. These clinical trials are separated into distinct phases in order to thoroughly evaluate the product. We generate our revenues by providing a full suite of services supporting the entire clinical development process from Phase I to Phase IV across a wide range of therapeutic areas.",
+    "Medical Department: Our medical department consists of therapeutic leads who provide strategic direction for study design and planning, train operational staff, work with primary investigators, provide medical monitoring and meet with regulatory agencies.",
+    "Clinical Trial Management: Our team of clinical trial managers (CTMs) lead all aspects of study execution and drive accountability across the functional team members. Our CTMs use ClinTrak, our proprietary information management system for clinical trials, which is integrated with our standard operating procedures (SOPs), allowing the CTMs to access real-time study metrics.",
+    "Data-Driven Feasibility: Our dedicated feasibility team of clinical experts analyze specific protocols, using many data sources to determine countries and sites that are most appropriate for the study.",
+    "Study Start-Up: Our global Study Start-Up staff conducts trial start up activities, including study documentation submission processes to independent Institutional Review Boards, or IRBs, ethics committees and to ex-US competent authorities. Our study start-up team includes fully dedicated budget and legal associates to ensure focused negotiations and execution of site contracts.",
+    "Patient Recruitment and Retention: We navigate the complexities of patient recruitment and retention by providing strategic solutions that address clinical program needs. Our patient recruitment and retention department identify patient motivators and any potential barriers to join and remain in the clinical research study.",
+    "Clinical Monitoring: Our clinical research associates, or CRAs, provide site management services including in-house, onsite and virtual monitoring. Their knowledge of local regulations and laws, in addition to Good Clinical Practice, or GCP, and International Council on Harmonisation of Technical Requirements for Registration of Pharmaceuticals for Human Use, or ICH, guidelines ensure compliance and data quality. CRAs report into a global matrix structure and receive comprehensive, hands-on training in an individualized curriculum consisting of in-house and field-based training, supplemented with clinical research department core rotations and ongoing study-specific training.",
+    "Risk-Based Monitoring: We support a comprehensive approach to monitoring to ensure adequate protection of the rights, welfare, and safety of human subjects and the quality and integrity of the study. This approach",
+    "focuses on prevention and mitigation of important and likely risks and is part of the overarching surveillance utilized to manage studies.",
+    "Regulatory Affairs: We provide expert strategic, operational, and tactical regulatory guidance, and create thorough scientifically-grounded regulatory compliant documentation at each stage of the drug and biologics development process to regulatory agencies around the globe.",
+    "Medical Writing: Medical writers work closely with our medical experts, biostatisticians, and other members of the study team to develop study protocols, clinical and statistical study reports, and integrated submission documents according to regulatory guidelines.",
+    "Biometrics and Data Sciences: We provide high-quality data collected during clinical trials that supports regulatory submissions, including NDAs or Biologics License Application for approval by the FDA, or a similar marketing authorization application for approval by non-U.S. regulatory agencies. Our data science team develops detailed specifications for the collection, organization, validation, analysis and quality control of clinical trial data. Our biostatisticians provide trial design consulting, statistical methodology recommendations, programming expertise and reporting accuracy.",
+    "Pharmacovigilance: Our safety and pharmacovigilance group collects, evaluates, analyzes and reports safety information. We provide global adverse event management, physician reviewed safety narrative writing and custom safety surveillance."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factor Summary",
+    "Business and Economic Risks",
+    "The potential loss, delay or non-renewal of our contracts, or the non-payment by our customers for services that we have performed, could adversely affect our results.",
+    "Our backlog may not convert to net revenue at our historical conversion rates.",
+    "Our operating results have historically fluctuated between fiscal quarters and years and may continue to fluctuate in the future, which may adversely affect the market price of our stock.",
+    "Our operating margins could decrease due to increased pricing pressure or other pressures, if we are unable to either achieve efficiencies in our operating expenses or grow revenues at a rate faster than expenses.",
+    "Our customer or therapeutic area concentration may have a material adverse effect on our business, financial condition, results of operations or cash flows.",
+    "Our business and operations may be impacted in the future by epidemics, pandemics or widespread public health crisis.",
+    "If we are unable to successfully execute our growth strategies or manage our growth effectively, our results of operations or financial condition could be adversely affected.",
+    "If we are unable to recruit suitable investigators and enroll patients for our customers' clinical trials, our clinical development business may suffer.",
+    "The failure of third parties to provide us critical support services could materially adversely affect our business, financial condition, results of operations, cash flows or reputation.",
+    "Current or potential future investments by the Company in our customers' businesses or products could have a negative impact on our financial results.",
+    "Technical and Cybersecurity Risks",
+    "If the security of confidential information used in connection with our services is breached or otherwise subject to unauthorized access, our reputation and business may be materially harmed.",
+    "International Risks",
+    "Our business is subject to international economic, political and other risks that could negatively affect our results of operations and financial condition.",
+    "Industry Risks",
+    "Outsourcing trends in the biopharmaceutical industry and changes in aggregate expenditures and R&D budgets could adversely affect our operating results and growth rate.",
+    "Consolidation in the biopharmaceutical industry could lead to a reduction in our revenues.",
+    "The biopharmaceutical industry has a history of patent and other intellectual property litigation, and we might be involved in costly intellectual property lawsuits.",
+    "If we do not keep pace with rapid technological changes, including AI, our services may become less competitive or obsolete.",
+    "Circumstances beyond our control could cause the CRO industry to suffer reputational or other harm that could result in an industry-wide reduction in demand for CRO services, which could harm our business.",
+    "Other Legal, Regulatory, Insurance and Tax Risks"
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. You should consider carefully the risks and uncertainties described below, together with the other information included in this report. The occurrence of any of the following risks may materially and adversely affect our business, financial condition, results of operations and future prospects. In these circumstances, the market price of our common stock could decline. Other events that we do not currently anticipate or that we currently deem immaterial may also affect our business, prospects, financial condition and results of operations.",
+    "The following summarizes the most material risks that make an investment in our common stock risky.",
+    "•The potential loss, delay or non-renewal of our contracts, or the non-payment by our customers for services that we have performed, could adversely affect our results.",
+    "•Our backlog may not convert to net revenue at our historical conversion rates. - 11 -",
+    "•Our operating results have historically fluctuated between fiscal quarters and years and may continue to fluctuate in the future, which may adversely affect the market price of our stock.",
+    "•Our operating margins could decrease due to increased pricing pressure or other pressures, if we are unable to either achieve efficiencies in our operating expenses or grow revenues at a rate faster than expenses."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Business Overview",
+    "How We Generate Revenue",
+    "Costs and Expenses",
+    "Total Direct Costs",
+    "Selling, General and Administrative",
+    "Depreciation",
+    "Amortization",
+    "Income Tax Provision",
+    "Key Performance Metrics",
+    "Net New Business Awards and Backlog",
+    "Exchange Rate Fluctuations",
+    "Year Ended December 31,",
+    "Results of Operations",
+    "Year Ended December 31, 2025 compared to Year Ended December 31, 2024",
+    "(Amounts in thousands, except percentages) 2025 2024 Change % Change",
+    "Liquidity and Capital Resources",
+    "Cash Flows (Amounts in thousands) 2025 2024",
+    "Cash Flows from Operating Activities",
+    "Cash Flow from Investing Activities",
+    "Cash Flow from Financing Activities",
+    "Share Repurchases",
+    "Indebtedness",
+    "Critical Accounting Policies and Estimates",
+    "Revenue Recognition",
+    "Income Taxes",
+    "Stock Based Compensation",
+    "Effect of Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "We are one of the world's leading CROs by revenue, solely focused on providing scientifically-driven outsourced clinical development services to the biotechnology, pharmaceutical and medical device industries. Our mission is to accelerate the global development of safe and effective medical therapeutics. We differentiate ourselves from our competitors by our disciplined operating model centered on providing full-service Phase I-IV clinical development services and our therapeutic expertise. We believe this combination results in timely and cost-effective delivery of clinical development services for our customers. We believe that we are a partner of choice for small- and mid-sized biopharmaceutical companies based on our ability to consistently utilize our full-service, disciplined operating model to deliver timely and high-quality results for our customers.",
+    "We focus on conducting clinical trials across all major therapeutic areas, with particular strength in Oncology, Metabolic Disease, Cardiology, Central Nervous System, or CNS, and Antiviral and Anti-infective, or AVAI. Our global platform includes approximately 6,200 employees across 46 countries, providing our customers with broad access to diverse markets and patient populations as well as local regulatory expertise and market knowledge."
+   ],
+   "focus": "Business Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司營業收入：市場與臨牀開發服務",
+    "銷售與行銷",
+    "政府規範",
+    "藥物、生物製品及醫療器材之開發",
+    "醫療資訊隱私權",
+    "醫療產業合作安排",
+    "環境規範與責任",
+    "智慧財產權",
+    "人力資本",
+    "招募與留任",
+    "責任與保險",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "本公司為全球領先的臨牀試驗委外研究機構，或 CROs，以營業收入為準，專注於為生物科技、製藥及醫療器材產業提供科學驅動的委外臨牀開發服務。本公司使命為加速全球開發安全有效的醫療療法。本公司透過嚴謹的經營模式，以提供完整的 Phase I-IV 臨牀開發服務及治療領域專業知識，與競爭對手區隔。本公司相信此組合可為客戶提供及時且成本效益高的臨牀開發服務。本公司相信，基於本公司能持續運用完整的服務及嚴謹的經營模式，為客戶提供及時且高品質的結果，本公司為中小型生物科技製藥公司首選的合作夥伴。因此，本公司業務策略旨在持續擴大在成長中的 Phase I-IV CRO 市場的市佔率，並於各主要治療領域進行臨牀試驗，尤其在腫瘤學、代謝、心臟學、抗病毒及抗感染（AVAI）及神經系統（CNS）領域具有優勢。",
+    "在新藥可進行商業化之前，通常必須經過廣泛的預臨牀及臨牀測試及法規審查，以驗證安全性及有效性。CROs 提供涵蓋 Phase I-摘IV 臨牀試驗的完整產品開發服務。這些臨牀試驗會分為不同的階段，以徹底評估產品。本公司透過提供涵蓋 Phase I 至 Phase IV 全程臨牀開發過程的完整服務，來產生營收，服務範疇涵蓋廣泛的治療領域。",
+    "醫療部門：本公司醫療部門由治療領域主管組成，提供研究設計與規劃的戰略方向，培訓作業人員，與主要研究者合作，提供醫療監測並與法規機構會面。",
+    "臨牀試驗管理：本公司臨牀試驗管理團隊（CTMs）領導所有研究執行工作，並推動功能性團隊成員的責任落實。本公司 CTMs 使用 ClinTrak，本公司專屬的資訊管理系統，用於臨牀試驗，並與標準作業程序（SOPs）整合，使 CTMs 可以存取即時的研究指標。",
+    "數據驅動可行性：本公司專門的可行性團隊由臨牀專家組成，分析特定試驗方案，利用多種數據來源，以確定最適合進行研究的國家及研究機構。",
+    "試驗啟動：本公司全球試驗啟動團隊執行試驗啟動活動，包括向獨立機構倫理委員會（IRBs）、倫理委員會及美國境外主管機關提交試驗文件。本公司試驗啟動團隊包含專注於預算及法律的專職人員，以確保專注於協商及執行研究機構契約。",
+    "受試者招募與留存：本公司透過提供策略性解決方案來應對受試者招募與留存的複雜性，以符合臨牀計畫需求。本公司受試者招募與留存部門識別受試者動機及任何可能影響參與並持續留在臨牀研究的潛在障礙。",
+    "臨牀監測：本公司臨牀研究協調員（CRAs）提供研究機構管理服務，包括內部、現場及遠距監測。他們對當地法規及法律的瞭解，加上良好臨牀實踐（GCP）及國際人用藥品註冊技術要求 harmonization（ICH）指南，確保符合法規及數據品質。CRAs 報告至全球矩陣結構，並接受全面且實務的培訓，培訓內容包含內部及現場培訓，並搭配臨牀研究部門核心輪調及持續的試驗特定培訓。",
+    "風險基準監測：我們支持一個全面的監測方法，以確保人類受試者的權利、福利與安全，以及研究的品質與完整性。此方法",
+    "著重於預防與緩解重要且可能發生的風險，並為管理研究所使用的整體監測措施之一部分。",
+    "法規事務：我們提供專家策略、運作及戰術性的法規指導，並在藥物與生物製品開發過程的每個階段，為全球各法規機構製作詳盡且科學基礎的法規合規文件。",
+    "醫療寫作：醫療寫作者與我們的醫療專家、生物統計學家及其他研究團隊成員密切合作，根據法規指引，制定研究計畫、臨牀與統計研究報告，以及整合式提交文件。",
+    "生物統計與數據科學：我們提供在臨牀試驗中收集的高品質數據，以支持法規提交，包括向美國食品藥物管理局（FDA）申請核准的新藥申請（NDA）或生物製品許可申請（Biologics License Application），或向非美國法規機構申請核准的類似市場核准申請。我們的數據科學團隊會制定詳細的規範，用以收集、整理、驗證、分析與品質控制臨牀試驗數據。我們的生物統計學家提供試驗設計諮詢、統計方法建議、程式設計專業知識與報告準確性。",
+    "藥物警戒：我們的安全與藥物警戒團隊會收集、評估、分析與報告安全資訊。我們提供全球不良事件管理、經醫生審閱的安全敘述寫作以及客製化安全監測。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "業務概覽",
+    "我們如何產生收入",
+    "成本與費用",
+    "總直接成本",
+    "銷售、一般及行政費用",
+    "折舊",
+    "攤銷",
+    "所得稅費用",
+    "關鍵績效指標",
+    "新業務獲獎與待執行訂單",
+    "匯率波動",
+    "截至12月31日年度",
+    "營運成果",
+    "截至12月31日2025年與截至12月31日2024年比較",
+    "(金額以千計，除百分比外) 2025 2024 變動 % 變動",
+    "流動性及資本資源",
+    "現金流量（金額單位為千美元） 2025 2024",
+    "營運活動現金流量",
+    "投資活動現金流量",
+    "籌資活動現金流量",
+    "股票回購",
+    "負債",
+    "關鍵會計政策與會計估計",
+    "收入認列",
+    "所得稅",
+    "股票基於報酬",
+    "近期會計準則公告之影響"
+   ],
+   "paragraphs": [
+    "本公司為全球營業收入排名前幾的CRO公司，專注於為生物科技、製藥及醫療器材產業提供科學驅動的委外臨牀開發服務。本公司使命為加速全球開發安全且有效的醫療療法。本公司透過以提供完整服務的Phase I-IV臨牀開發服務及治療領域專業知識為核心的嚴謹營運模式，與競爭對手區隔。本公司相信此組合可為客戶提供及時且成本效益高的臨牀開發服務。本公司相信，本公司是中小型生物科技製藥公司的首選合作夥伴，基於本公司能持續運用完整的服務及嚴謹營運模式，為客戶提供及時且高品質的結果。",
+    "本公司專注於於所有主要治療領域進行臨牀試驗，尤其在腫瘤學、代謝疾病、心臟學、中央神經系統，或CNS，以及抗病毒及抗感染，或AVAI領域有特別強項。本公司全球平台包含約6,200名員工，分佈於46個國家，為客戶提供廣泛的市場及患者族羣接觸機會，以及當地法規專業知識與市場知識。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因子總結",
+    "營運與經濟風險",
+    "我們合約之潛在損失、延誤或未續約，或客戶未支付我們已執行之服務費用，可能會對我們之營運成果產生不利影響。",
+    "我們之待執行訂單可能無法依照歷史轉換率轉為淨銷售額。",
+    "我們之營運成果過去曾於會計年度與會計季之間波動，未來可能持續波動，此情形可能會對本公司股票之市場價格產生不利影響。",
+    "我們之營運毛利可能因價格壓力增加或其他壓力而下降，若我們無法在營運費用上達成效率提升，或營收成長速度超過費用成長速度，則可能發生此情形。",
+    "我們之客戶或治療領域集中度可能對本公司之營運、財務狀況、營運成果或現金流產生重大不利影響。",
+    "本公司之營運與業務未來可能因疫情、大規模流行病或廣泛公共衛生危機而受到影響。",
+    "若本公司無法成功執行成長策略或有效管理成長，將可能對營運成果或財務狀況造成不利影響。",
+    "若本公司無法招募合適的研究人員並為客戶的臨牀試驗納入病患，將可能影響臨牀開發業務。",
+    "第三方未能提供關鍵支援服務，可能對本公司業務、財務狀況、營運成果、現金流或聲譽造成重大不利影響。",
+    "本公司對客戶業務或產品的現有或潛在未來投資，可能對財務結果產生負面影響。",
+    "技術與網路安全風險",
+    "若在提供服務過程中所使用的機密資訊安全性遭破壞或遭未經授權存取，將可能對本公司聲譽及業務造成重大損害。",
+    "國際風險",
+    "本公司業務面臨國際經濟、政治及其他風險，這些風險可能對營運成果及財務狀況造成負面影響。",
+    "產業風險",
+    "生技製藥產業的委外趨勢及整體支出與研發預算的變動，可能不利於我們的營運成果與成長率。",
+    "生技製藥產業的整併可能導致我們的營收減少。",
+    "生技製藥產業有進行專利及其他智慧財產權訴訟的歷史，我們可能涉及昂貴的智慧財產權訴訟。",
+    "若我們無法跟上快速的技術變革，包括人工智慧，我們的服務可能變得較不具競爭力或過時。",
+    "我們無法控制的情況可能導致CRO產業遭受聲譽或其他損害，進而導致CRO服務需求全產業減少，這可能對我們的業務造成傷害。",
+    "其他法律、法規、保險及稅務風險"
+   ],
+   "paragraphs": [
+    "投資本公司的普通股涉及高度風險。您應謹慎考慮下列所描述的風險與不確定性，並配合本報告中包含的其他資訊。上述任何風險的發生，可能會對本公司業務、財務狀況、營運成果及未來展望造成重大且不利的影響。在這種情況下，本公司普通股的市場價格可能會下跌。其他我們目前未預期或認為不重要的事件，也可能影響本公司業務、前景、財務狀況及營運成果。",
+    "下列為最重大且使投資本公司普通股具風險性的風險總結。",
+    "•我們的契約可能遭損失、延遲或未續約，或我們的客戶未支付我們已執行的服務費用，可能會對我們的營運成果造成不利影響。",
+    "•我們的待執行訂單可能無法以我們歷史的轉換率轉為淨銷售額。 - 11 -",
+    "•我們的營運成果過去在會計年度與會計季之間有所波動，未來可能持續波動，這可能會對本公司股票的市場價格造成不利影響。",
+    "•我們的營運邊際率可能因價格壓力增加或其他壓力而下降，若我們無法在營運費用上達成效率提升，或收入成長速度超過費用成長速度，則可能發生此情況。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

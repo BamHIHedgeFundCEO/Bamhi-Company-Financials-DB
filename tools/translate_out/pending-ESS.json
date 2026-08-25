@@ -1,0 +1,183 @@
+{
+ "ticker": "ESS",
+ "cik": "0000920522",
+ "accession": "0000920522-26-000003",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Business Strategies",
+    "Acquisitions of Real Estate Interests",
+    "Property Name Location Date Apartment Homes Essex Ownership Percentage Contract Price at Pro Rata Share",
+    "Dispositions of Real Estate Interests",
+    "Property Name Location Date Apartment Homes Sale Price at Pro Rata Share",
+    "Development Pipeline",
+    "Long Term Debt",
+    "Equity Transactions",
+    "Co-investments",
+    "Certain Policies of the Company"
+   ],
+   "paragraphs": [
+    "Essex Property Trust, Inc. (\"Essex\"), a Maryland corporation, is an S&P 500 company that operates as a self-administered and self-managed real estate investment trust (\"REIT\"). Essex owns all of its interest in its real estate and other investments directly or indirectly through Essex Portfolio, L.P. (the \"Operating Partnership\" or \"EPLP\"). Essex is the sole general partner of the Operating Partnership and as of December 31, 2025, had an approximately 96.6% general partner interest in the Operating Partnership. In this report, the terms \"Company,\" \"we,\" \"us,\" and \"our\" also refer to Essex Property Trust, Inc., the Operating Partnership and those entities/subsidiaries owned or controlled by Essex and/or the Operating Partnership.",
+    "Essex has elected to be treated as a REIT for federal income tax purposes commencing with the year ended December 31, 1994. Essex completed its initial public offering on June 13, 1994. In order to maintain compliance with REIT tax rules, the Company utilizes taxable REIT subsidiaries for various revenue generating or investment activities. A domestic taxable REIT subsidiary is subject to federal income tax as a regular C Corporation. All taxable REIT subsidiaries are consolidated by the Company for financial reporting purposes.",
+    "The Company is engaged primarily in the ownership, operation, management, acquisition, development and redevelopment of predominantly apartment communities, located along the West Coast of the United States. As of December 31, 2025, the Company owned or had ownership interests in 259 operating apartment communities, aggregating 63,077 apartment homes, excluding the Company's ownership in preferred equity co-investments, loan investments, two operating commercial buildings, and a development pipeline comprised of one consolidated project and various predevelopment projects (collectively, the \"Portfolio\").",
+    "The Company's website address is https://www.essex.com. The Company's annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K and all amendments to those reports, and the Proxy Statement for its Annual Meeting of Stockholders are available, free of charge, on its website as soon as practicable after the Company files the reports with the U.S. Securities and Exchange Commission (\"SEC\"). The information contained on the Company's website shall not be deemed to be incorporated into this report.",
+    "The following is a discussion of the Company's business strategies in regards to real estate investment and management.",
+    "Research Driven Approach to Investments – The Company believes that successful real estate investment decisions and portfolio growth begin with extensive regional economic research and local market knowledge. The Company continually assesses markets where the Company operates, as well as markets where the Company considers future investment opportunities by evaluating markets and focusing on the following strategic criteria:",
+    "•Major metropolitan areas that have regional population in excess of one million;",
+    "•Constraints on new supply driven by: (i) low availability of developable land sites where competing housing could be economically built; (ii) political growth barriers, such as protected land, urban growth boundaries, and potential lengthy and expensive development permit processes; and (iii) natural limitations to development, such as mountains or waterways;",
+    "•Rental demand enhanced by affordability of rents relative to costs of for-sale housing; and",
+    "•Housing demand based on job growth, proximity to jobs, high median incomes and the quality of life including related commuting factors.",
+    "Recognizing that all real estate markets are cyclical, the Company regularly evaluates the results of its regional, economic, and local market research, and adjusts the geographic focus of its portfolio accordingly. The Company seeks to increase its portfolio allocation in markets projected to have the strongest local economies and to decrease allocations in markets projected to have declining economic conditions. Likewise, the Company also seeks to increase its portfolio allocation in markets that have attractive property valuations and to decrease allocations in markets that have inflated valuations and low relative yields.",
+    "Property Operations – The Company manages its communities by focusing on activities that may generate above-average rental growth, tenant retention/satisfaction and long-term asset appreciation. The Company intends to achieve this by utilizing the strategies set forth below:",
+    "•Property Management – Oversee delivery and quality of the housing provided to our tenants and manage the properties' financial performance.",
+    "•Capital Preservation – The Company's asset management services are responsible for the planning, budgeting and completion of major capital improvement projects at the Company's communities."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Real Estate Investments and Operations",
+    "Risks Related to Our Indebtedness and Financings"
+   ],
+   "paragraphs": [
+    "For purposes of this section, the term \"stockholders\" means the holders of shares of Essex Property Trust, Inc.'s common stock. Set forth below are the risks that we believe are material to Essex Property Trust, Inc.'s stockholders and Essex Portfolio, L.P.'s unitholders. You should carefully consider the following factors in evaluating our Company, our properties and our business.",
+    "Our business, results of operations, cash flows and financial condition are subject to various risks and uncertainties, including, without limitation, those set forth below, any one of which could cause our actual results of operations to vary materially from recent results or from our anticipated future results.",
+    "General real estate investment risks may materially adversely affect property income and values, and therefore our stock price may be materially adversely affected. If the communities and other real estate investments, including development and redevelopment properties, do not generate sufficient income to meet operating and financing expenses, cash flow and the ability to make distributions will be materially adversely affected. Income and growth from the communities may be further materially adversely affected by, among other things, the following factors, in addition to the other risk factors listed in this Item 1A:",
+    "•changes in the general or local economic climate that could affect demand for housing, including changing demographics or policies governing legal immigration, which could lead to a relative decrease in the renting population, an increase in the use of new technologies and artificial intelligence to replace workers, and other events negatively impacting local employment rates, tenant dispersion, wages and the local economy;",
+    "•changes in economic conditions, such as high or sustained inflationary periods in which our operating and financing costs may increase at a rate greater than our ability to increase rents, thereby compressing our operating margins which may have a material adverse effect on our business, or deflationary periods where rents may decline more quickly relative to operating and financing costs; and",
+    "•the appeal and desirability of our communities to tenants relative to other housing alternatives, including cost, size and amenity offerings, safety and location convenience, and our technology offerings."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Southern California (primarily Los Angeles, Orange, San Diego, and Ventura counties)",
+    "Northern California (the San Francisco Bay Area)",
+    "Seattle Metro (Seattle metropolitan area)",
+    "Northern California Region: As of December 31, 2025, this region represented 38% of the Company's consolidated operating apartment homes. 2025 Same-Property revenues increased 3.6% in 2025 as compared to 2024.",
+    "Seattle Metro Region: As of December 31, 2025, this region represented 20% of the Company's consolidated operating apartment homes. 2025 Same-Property revenues increased 2.8% in 2025 as compared to 2024.",
+    "December 31, 2025 December 31, 2024",
+    "Apartment Homes % Apartment Homes %",
+    "Market Considerations",
+    "Comparison of Year Ended December 31, 2025 to the Year Ended December 31, 2024",
+    "Year Ended December 31,",
+    "Number of Apartment Homes Year Ended",
+    "December 31, Dollar Change Percentage Change",
+    "Comparison of Year Ended December 31, 2024 to the Year Ended December 31, 2023",
+    "Liquidity and Capital Resources",
+    "Number of Properties Investment Remaining Unfunded Commitment",
+    "Variable Interest Entities",
+    "Critical Accounting Estimates",
+    "Funds from Operations Attributable to Common Stockholders and Unitholders",
+    "Net Operating Income",
+    "Forward-Looking Statements"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis should be read in conjunction with the accompanying consolidated financial statements and notes thereto. These consolidated financial statements include all adjustments which are, in the opinion of management, necessary to reflect a fair statement of the results and all such adjustments are of a normal recurring nature.",
+    "Essex is a self-administered and self-managed REIT that acquires, develops, redevelops, and manages apartment home communities in selected residential areas located on the West Coast of the United States. Essex owns all of its interests in its real estate investments, directly or indirectly, through the Operating Partnership. Essex is the sole general partner of the Operating Partnership and, as of December 31, 2025, had an approximately 96.6% general partner interest in the Operating Partnership.",
+    "The Company's investment strategy has two components: constant monitoring of existing markets, and evaluation of new markets to identify areas with the characteristics that underlie rental growth. The Company's strong financial condition supports its investment strategy by enhancing its ability to quickly shift acquisition, development, redevelopment, and disposition activities to markets that will optimize the performance of the Company's portfolio.",
+    "As of December 31, 2025, the Company owned or had ownership interests in 259 operating apartment communities, comprising 63,077 apartment homes, excluding the Company's ownership in preferred equity co-investments, loan investments, two operating commercial buildings and a development pipeline comprised of one consolidated project and various predevelopment projects.",
+    "The Company's apartment home communities are predominately located in the following major regions:",
+    "By region, the Company's operating results for 2025 and 2024 and projection for 2026 new housing supply (defined as new multifamily apartment homes and single family homes, excluding developments with fewer than 50 apartment homes as well as student, senior and 100% affordable housing) are as follows:",
+    "Southern California Region: As of December 31, 2025, this region represented 42% of the Company's consolidated operating apartment homes. Revenues for \"2025 Same-Properties\" (as defined below), or \"Same-Property revenues,\" increased 3.3% in 2025 as compared to 2024.",
+    "In each of these regions, projected 2026 growth in new residential supply of apartment homes and single family homes is expected to be less than 1% of the total housing stock.",
+    "The Company's consolidated operating communities as of December 31, 2025 and 2024 were as follows:",
+    "Southern California 23,598 42 % 23,817 44 % Northern California 21,097 38 % 19,747 36 % Seattle Metro 10,899 20 % 10,899 20 %",
+    "Co-investments, including Wesco I, Wesco III, Wesco IV, Wesco V, Wesco VI, BEX IV, and other co-investments, developments under construction, and preferred equity interest co-investment communities are not included in the table presented above for both periods.",
+    "Domestic and international policy actions, including tariff and trade policy, as well as continuing geopolitical tensions and regional conflicts have the potential to trigger broad market uncertainty. The long-term impact of these developments on our company will largely depend on the impact on broader trends in job growth, inflation, the economy, and reactions by consumers, companies, governmental entities and capital market participants.",
+    "The foregoing macroeconomic conditions have not negatively impacted the Company's ability to access traditional funding sources which have been historically available to it. The Company is not at material risk of failing to meet the covenants in its credit agreements and is able to timely service its debt and other obligations.",
+    "The average financial occupancy for the Company's 2025 Same-Property portfolio (stabilized properties consolidated by the Company for the years ended December 31, 2025 and 2024) was 96.2% for each of the years ended December 31, 2025 and 2024. Financial occupancy is defined as the percentage resulting from dividing actual rental income by total scheduled rental income. Actual rental income represents contractual rental income pursuant to leases without considering delinquency and concessions. Total scheduled rental income represents the value of all apartment homes, with occupied apartment homes valued at contractual rental rates pursuant to leases and vacant apartment homes valued at estimated market rents. The Company believes that financial occupancy is a meaningful measure of occupancy because it considers the value of each vacant apartment home at its estimated market rate."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "營運策略",
+    "取得不動產權益",
+    "不動產名稱 位置 日期 公寓住宅 Essex 所有權比例 合約價格按比例分享",
+    "處分不動產權益",
+    "不動產名稱 位置 日期 公寓住宅 售價按比例分享",
+    "開發進行中項目",
+    "長期債務",
+    "股東權益交易",
+    "共同投資",
+    "本公司特定會計政策"
+   ],
+   "paragraphs": [
+    "Essex Property Trust, Inc. (\"Essex\"), 一間馬裏蘭州公司，為一間納入S&P 500指數的公司，經營模式為自營及自管的不動產投資信託(\"REIT\")。Essex直接或間接透過Essex Portfolio, L.P. (\"營運合夥企業\"或\"EPLP\")擁有其所有不動產及其他投資權益。Essex為營運合夥企業的唯一普通合夥人，截至2025年12月31日，Essex在營運合夥企業中擁有約96.6%的普通合夥人權益。在本報告中，\"本公司\"、\"我們\"、\"我們\"及\"我們的\"這幾個詞也指代Essex Property Trust, Inc.、營運合夥企業以及由Essex及/或營運合夥企業擁有或控制的各公司/子公司。",
+    "Essex已選擇以REIT身份進行美國聯邦所得稅的處理，自1994年截至12月31日的會計年度開始。Essex於1994年6月13日完成首次公開發行。為維持符合REIT稅務規則，本公司利用可課稅REIT子公司進行各種收入產生或投資活動。一間美國境內的可課稅REIT子公司需以一般C公司身份納美國聯邦所得稅。所有可課稅REIT子公司均被本公司納入財務報導中。",
+    "本公司主要從事不動產的擁有、營運、管理、取得、開發及重建，主要集中於美國西海岸的公寓社區。截至2025年12月31日，本公司擁有或持有權益的運作中的公寓社區數為259個，總計63,077戶公寓住宅，不包括本公司在優先股權益共同投資、貸款投資、兩座運作中的商業大樓以及一個已合併的開發項目與多個預開發項目（合稱為\"資產組合\"）的權益。",
+    "本公司網站網址為https://www.essex.com。本公司年度報告表10-K、季報表10-Q、現況報告表8-K以及所有這些報告的更正文件，以及年度股東大會的股東權變更聲明書，均會在本公司網站上免費提供，自本公司向美國證券交易委員會(\"SEC\")提交報告後儘速提供。本公司網站上的資訊不應被視為已納入本報告。",
+    "以下為本公司在不動產投資與管理方面的業務策略討論。",
+    "以研究為導向的投資方式 – 本公司認為成功的不動產投資決策與資產成長應從深入的區域經濟研究與當地市場知識開始。本公司持續評估其運作的市場，以及考慮未來投資機會的市場，透過評估市場並著重於以下戰略標準：",
+    "•人口超過一百萬的都會區；",
+    "•新供給受到限制，原因包括：(i) 可開發土地場地不足，無法經濟性地興建競爭性住宅；(ii) 政治成長障礙，例如保護性土地、都市成長邊界及可能耗時且費用高昂的開發許可程序；以及(iii) 自然發展限制，例如山脈或水道；",
+    "•租賃需求因租金相對於現售住宅成本的可負擔性而提升；且",
+    "•住房需求基於就業成長、距離就業地點的近距離、高中位收入以及生活品質包括相關通勤因素。",
+    "認知到所有不動產市場皆具有週期性，本公司定期評估其區域、經濟及地方市場研究的結果，並根據此調整其資產組合的地理重點。本公司旨在增加其資產組合在預期擁有最強勁地方經濟的市場之配置，並減少在預期經濟條件惡化的市場之配置。同樣地，本公司也旨在增加其資產組合在擁有吸引人房地產價值的市場之配置，並減少在價值過高且相對報酬率低的市場之配置。",
+    "不動產營運 – 本公司透過專注於可能產生高於平均租賃成長、租客留存/滿意度及長期資產增值的活動來管理其社區。本公司意圖透過以下策略實現此目標：",
+    "•不動產管理 – 管理本公司租客所提供的住宅的交付與品質，並管理不動產的財務表現。",
+    "•資本保存 – 本公司資產管理服務負責規劃、預算及完成本公司社區的重大資本改善專案。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "Southern California (主要為洛杉磯、橙縣、聖地牙哥及文圖拉縣)",
+    "Northern California (舊金山灣區)",
+    "Seattle Metro (西雅圖都會區)",
+    "Northern California Region: 截至2025年12月31日，此區域佔本公司合併營運公寓住宅的38%。2025年同-property收入較2024年成長3.6%。",
+    "Seattle Metro Region: 截至2025年12月31日，此區域佔本公司合併營運公寓住宅的20%。2025年同-property收入較2024年成長2.8%。",
+    "2025年12月31日 2024年12月31日",
+    "公寓住宅 % 公寓住宅 %",
+    "市場考量因素",
+    "比較 2025 年 12 月 31 日財年與 2024 年 12 月 31 日財年",
+    "2024 年 12 月 31 日財年",
+    "公寓住宅數量 2024 年 12 月 31 日財年",
+    "2024 年 12 月 3 財年 美金變動  percentage change",
+    "比較 2024 年 12 月 31 日財年與 2023 年 12 月 31 日財年",
+    "流動性與資本資源",
+    "投資物業數量 未資金承諾",
+    "變動權益實體",
+    "重要會計估計",
+    "歸屬於普通股股東及單位持有人之經營活動現金流",
+    "淨營業收入",
+    "前瞻性陳述"
+   ],
+   "paragraphs": [
+    "以下討論與分析應配合附屬之合併財務報表及其附註一併閱讀。這些合併財務報表包含所有在管理層認為必要以反映公平財務狀況之調整，且所有調整均屬正常重複性事項。",
+    "Essex 為一自營自管之 REIT，專門取得、開發、重建及管理美國西海岸特定住宅地區之公寓住宅社區。Essex 透過營運合夥企業直接或間接擁有其所有不動產投資權益。Essex 為營運合夥企業之唯一普通合夥人，截至 2025 年 12 月 31 日，其在營運合夥企業擁有約 96.6% 之普通合夥人權益。",
+    "本公司之投資策略包含兩項零組件：持續監測現有市場，以及評估新市場以識別具備租金成長特徵之區域。本公司強健之財務狀況支持其投資策略，透過增強其迅速轉移取得、開發、重建及處分活動至能最佳化本公司資產組合之市場之能力。",
+    "截至 2025 年 12 月 31 日，本公司擁有或持有權益之營運公寓住宅社區數量為 259 個，包含 63,077 個公寓住宅，不計本公司在優先股權益共同投資、貸款投資、兩座營運商業大樓及一個開發管道，包含一個合併項目及多個預開發項目之權益。",
+    "本公司之公寓住宅社區主要位於以下主要地區：",
+    "按地區分類，本公司 2025 年及 2024 年之營運成果與 2026 年預測之新住宅供給（定義為新多單位公寓住宅及單戶住宅，不計少於 50 個公寓住宅之開發項目以及學生、長者及 100% 住宅優惠住房）如下：",
+    "南加州地區：截至 2025 年 12 月 31 日，此地區代表本公司合併營運公寓住宅之 42%。2025 年「2025 同一物業」（如下所定義）或「同一物業營收」之營業收入，較 2024 年成長 3.3%。",
+    "在這些地區中，預測 2026 年新住宅供給（公寓住宅及單戶住宅）之成長率將低於總住宅存量之 1%。",
+    "本公司於2025年12月31日及2024年12月31日之合併營運社區如下：",
+    "南加州 23,598 42 % 23,817 44 % 北加州 21,097 38 % 19,747 36 % 西雅圖都會區 10,899 20 % 10,899 20 %",
+    "共同投資項目，包括Wesco I、Wesco III、Wesco IV、Wesco V、Wesco VI、BEX IV及其他共同投資項目、正在興建中的開發項目與優先股權益共同投資社區，未包含於上述表格中，適用於兩期。",
+    "國內與國際政策措施，包括關稅與貿易政策，以及持續的國際政治緊張關係與區域衝突，可能引發廣泛市場不確定性。這些發展對本公司長期影響，將 largely 取決於對就業成長、通貨膨脹、總體經濟及消費者、企業、政府機構與資本市場參與者反應的影響。",
+    "前述總體經濟條件未對本公司取得傳統資金來源的能力造成負面影響，這些資金來源歷來皆可取得。本公司並未面臨重大風險，無法遵守信用協議中的契約條款，且能如期償還債務及其他義務。",
+    "本公司2025年同屬物業組合（穩定物業，於2025年及2024年12月31日合併財務報表中列示）之平均財務佔用率為96.2%，適用於2025年及2024年12月31日結帳年度。財務佔用率係指實際租金收入除以總預計租金收入所得到的百分比。實際租金收入係指根據租賃契約所產生的租金收入，不考慮逾期與讓步。總預計租金收入係指所有公寓住宅的價值，已佔用公寓住宅以根據租賃契約所訂租金價值計算，未佔用公寓住宅則以預估市場租金價值計算。本公司認為財務佔用率為衡量佔用率的重要指標，因其考量每間未佔用公寓住宅的預估市場租金價值。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'original': 'Risks Related to Our Real Estate Investments and Operations', 'translated': '與本公司不動產投資及營運相關之風險'}",
+    "{'original': 'Risks Related to Our Indebtedness and Financings', 'translated': '與本公司負債及融資相關之風險'}"
+   ],
+   "paragraphs": [
+    "為本節之目的，\"股東\"一詞係指持有 Essex Property Trust, Inc. 普通股之持有人。下列為我們認為對 Essex Property Trust, Inc. 股東及 Essex Portfolio, L.P. 合夥人具有重大影響之風險。您在評估本公司、我們之不動產及業務時，應謹慎考量下列因素。",
+    "本公司之業務、營運成果、現金流及財務狀況受多種風險與不確定性影響，包括但不限於下列風險，任何一項均可能導致本公司實際營運成果與近期成果或預期未來成果有重大差異。",
+    "一般不動產投資風險可能對不動產收入與價值造成重大不利影響，因此本公司股票價格亦可能因此遭受重大不利影響。若社區及其他不動產投資，包括開發與重建不動產，無法產生足夠收入以支應營運與融資費用，則現金流與發放現金紅利之能力將受到重大不利影響。社區之收入與成長可能因下列因素而進一步受到重大不利影響，除本項目 1A 所列之其他風險因素外，尚包括：",
+    "•總體經濟或地方經濟氣候之變化，可能影響住宅需求，包括人口結構變化或有關合法移民之政策，這可能導致租賃人口相對減少，新技術與人工智慧用以取代勞工之使用增加，以及其他對地方就業率、租客分散、工資與地方經濟產生負面影響之事件；",
+    "•經濟條件之變化，例如高或持續性通貨膨脹時期，本公司營運與融資成本可能以高於租金上漲幅度之速率增加，從而壓縮本公司營運毛利，這可能對本公司業務造成重大不利影響，或在通貨緊縮時期，租金可能較營運與融資成本更快下降；",
+    "•本公司社區相對於其他住宅選擇之吸引力與可取性，包括成本、規模與設施提供、安全與地點便利性，以及本公司之科技服務。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,140 @@
+{
+ "ticker": "PGR",
+ "cik": "0000080661",
+ "accession": "0000080661-26-000086",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "General Development of Business",
+    "Description of Business",
+    "Organization",
+    "Personal Lines",
+    "Commercial Lines",
+    "Policy for claims occurring in the year ended December 31, 2026 2025",
+    "Coverage terms (millions) First Layer Second Layer Third Layer Modeled Loss First Layer Second Layer",
+    "Competitive Factors",
+    "Insurance Licenses",
+    "Insurance Regulation",
+    "Service Businesses",
+    "Liability for Property-Casualty Losses and Loss Adjustment Expenses",
+    "Human Capital"
+   ],
+   "paragraphs": [
+    "The Progressive Corporation, an insurance holding company, has insurance and non-insurance subsidiaries and affiliates (references in this Item to subsidiaries include affiliates as well). Our insurance subsidiaries write personal and commercial auto insurance, personal residential property insurance, and insurance for motorcycles, watercraft, and other recreational vehicles. We also offer business-related general liability and commercial property insurance predominantly for small businesses, workers' compensation insurance primarily for the transportation industry, and other specialty property-casualty insurance and provide related services. Our non-insurance subsidiaries generally support our insurance and investment operations. We operate throughout the United States. Unless noted, references to \"state(s)\" throughout this report include the District of Columbia. The Progressive Corporation, together with its insurance and non-insurance subsidiaries, comprise what we refer to as Progressive.",
+    "Progressive's vision is to become consumers', agents', and business owners' number one destination for insurance and other financial needs. Progressive's four strategic pillars of people and culture, broad needs of our customers, leading brand, and competitive prices serve as the foundation of how we will achieve our vision.",
+    "Our Chief Executive Officer (CEO) assesses performance and makes key operating decisions for our insurance, investment, and service operations and is supported by the following management team that oversees the business and corporate functions that support all areas of our organization.",
+    "Chief Executive Officer •Chief Financial Officer •Chief Marketing Officer •Chief Investment Officer",
+    "•Personal Lines President •Chief Strategy and Finance Management Officer •Commercial Lines President",
+    "•Chief Human Resources Officer •Claims President •Chief Information Officer •Customer Relationship Management President",
+    "Our insurance and claims organizations are generally managed on a state-by-state basis due to the nature of insurance, legal and regulatory requirements, and other local factors, and are supplemented by national operations and supported by our corporate functions. State-specific organizations typically report to a regional general manager, who then reports to the applicable group president. In California, we operate a separate agency auto organization with its own management and customer relationship management organization.",
+    "Our Personal Lines operating segment writes insurance for personal autos and special lines products (e.g., recreational vehicles, such as motorcycles, RVs, and watercraft), collectively referred to as our personal vehicle business, and personal residential property insurance for homeowners and renters. The Personal Lines segment accounted for 87% of our total net premiums written in 2025, 85% in 2024, and 84% in 2023.",
+    "For 2025, our personal vehicle products represented 96% of our total Personal Lines net premiums written, 95% for 2024, and 94% for 2023. We write our personal vehicle insurance in all states, however, our special lines products are not written in the District of Columbia.",
+    "•Personal auto insurance represented 95% of our total personal vehicle net premiums written in both 2025 and 2024, and 94% in 2023. We ranked second in market share in the U.S. private passenger auto insurance market, based on 2024 premiums written, and we believe we continue to hold that position for 2025. There are approximately 230 competitors in this market. Progressive and the other leading 15 private passenger auto insurers, each of which writes over $3 billion of premiums annually, comprise about 85% of this market. All industry data, including ranking and market share, based on premiums written, has been obtained directly from data reported by either S&P Global Market Intelligence or A.M. Best Company, Inc. (A.M. Best), or was estimated using A.M. Best data as the primary source.",
+    "•Special lines products represented the remaining personal vehicle net premiums written for the years mentioned above. Due to the seasonal nature of these products, we typically experience higher losses during the warmer weather months. Our competitors are specialty companies and large multi-line insurance carriers. Although industry figures are not available, based on our analysis of this market, we believe that we are the market share leader for both the motorcycle and boat products and that we are one of the largest providers of RV insurance.",
+    "In addition to writing residential property insurance for homeowners and renters, in virtually all states, our personal property business offers insurance for manufactured homes, personal umbrella insurance, and primary and excess flood insurance. We also act as a participant in the \"Write Your Own\" program for the National Flood Insurance Program (NFIP) under which we write flood insurance in virtually all states; 100% of this business is reinsured with the NFIP.",
+    "Our personal property business represented 4% of our total Personal Lines net premiums written in 2025, 5% in 2024, and 6% in 2023, with about 95% of the total personal property net premiums written attributable to the homeowners and renters products. We were the twelfth largest homeowners carrier in the U.S., based on 2024 premiums written, and we are currently unable to determine if we will hold that ranking for 2025. There are approximately 360 competitors in the homeowners insurance market nationwide and we compete with many of these companies. Progressive and the other leading 28 large companies/groups, each with over $1 billion of premiums written annually, comprise about 80% of the market.",
+    "We tend to see more personal property business written during the second and third quarters of the year based on the cyclical nature of property sales. Losses also tend to be higher during the warmer weather months when storms are more prevalent. As a property insurer, we have exposure to losses from catastrophes, including hurricanes, and other severe weather events. See Item 1A, Risk Factors – II. Insurance Risks below for more information. To help mitigate these risks, we enter into reinsurance arrangements. See the \"Reinsurance\" section below for further discussion of our reinsurance programs."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Our success depends on our ability to underwrite and price risks accurately and to charge adequate rates to policyholders.",
+    "Our success depends on our ability to establish accurate loss reserves.",
+    "Our business depends on the secure and uninterrupted operation of our systems, facilities, and business functions and the operation of various third-party systems.",
+    "Our business could be materially adversely affected by a security breach or other attack involving our technology systems or the systems of one or more of our vendors.",
+    "We must maintain a brand and reputation that is recognized and trusted by consumers.",
+    "Our success depends on our ability to innovate effectively and respond to our competitors' initiatives.",
+    "We must effectively manage complexity as we develop and deliver high-quality products and customer experiences.",
+    "We compete in property and casualty insurance markets that are highly competitive.",
+    "Our success depends on our ability to adjust claims accurately.",
+    "We are subject to a variety of complex laws and regulations.",
+    "Misconduct or fraudulent acts by employees, agents, and third parties may expose us to financial loss, disruption of business, and/or regulatory assessments.",
+    "Our ability to attract, develop, and retain talent, including employees, managers, and executives, and to maintain appropriate staffing levels, is critical to our success.",
+    "Lawsuits challenging our business practices, and those of our competitors and other companies, are pending and more may be filed in the future.",
+    "Our long-term business strategy and efforts to acquire or develop new products or enter new areas of business may not be successful and may create enhanced risks.",
+    "Intellectual property rights could affect our competitiveness and our business operations.",
+    "Our development and use of new technology, such as generative and agentic artificial intelligence, may present additional risks, may not be successful, and could have a material adverse effect on our business.",
+    "The performance of our fixed-income and equity investment portfolios is subject to a variety of investment risks.",
+    "The inability to access our cash accounts or to convert investments into cash on favorable terms when we desire to do so may materially and adversely affect our business, cash flows, and capital position."
+   ],
+   "paragraphs": [
+    "Our business involves various risks and uncertainties, certain of which are discussed in this section. Management divides these risks into five broad categories in assessing how they may affect our financial condition, cash flows, and results of operations, as well as our ability to achieve our strategic business goals and objectives. Our risk categories include:",
+    "•Insurance Risks - risks associated with assuming, or indemnifying for, the losses or liabilities incurred by policyholders,",
+    "•Operating Risks - risks stemming from external or internal events or circumstances that may affect our insurance operations directly or indirectly,",
+    "•Market Risks - risks that may cause changes in the value of assets held in our investment portfolios,",
+    "•Liquidity Risk - risk that our financial condition will be adversely affected by the inability to meet our short-term cash, collateral, or other financial obligations, and",
+    "•Credit and Other Financial Risks - risks that the other party to a transaction will fail to perform according to the terms of a contract, or that we will be unable to satisfy our obligations when due or obtain capital when necessary."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "營運業務概況",
+    "業務說明",
+    "組織架構",
+    "個人保險",
+    "企業保險",
+    "2026 年度截至 12 月 31 日發生之聲請賠償政策",
+    "保障條款（千萬）第一層 第二層 第三層 模擬損失 第一層 第二層",
+    "競爭因素",
+    "{'Insurance Licenses': '保險執照'}",
+    "{'Insurance Regulation': '保險監管'}",
+    "{'Service Businesses': '服務業務'}",
+    "{'Liability for Property-Casualty Losses and Loss Adjustment Expenses': '財產-意外損失及損失調整費用負擔'}",
+    "{'Human Capital': '人力資本'}"
+   ],
+   "paragraphs": [
+    "The Progressive Corporation, 一間保險控股公司，擁有保險及非保險子公司與附屬公司（本項目中提及子公司時亦包含附屬公司）。我們的保險子公司提供個人與商業汽車保險、個人住宅財產保險，以及摩托車、船隻及其他休閒車輛的保險。我們亦提供與業務相關的總體責任與商業財產保險，主要針對小型企業，並提供工人補償保險，主要針對運輸業，以及其它專業財產-意外保險，並提供相關服務。我們的非保險子公司通常支援我們的保險與投資業務。我們的業務遍及美國全境。除非另有說明，本報告中提及的「州（s）」均包含華盛頓特區。The Progressive Corporation，連同其保險與非保險子公司，組成我們所稱的Progressive。",
+    "Progressive的願景是成為消費者、經紀人與企業所有者的保險及其他財務需求的首選目的地。Progressive的四大戰略支柱，即人才與文化、客戶的廣泛需求、領導品牌與競爭性價格，為我們實現願景的基礎。",
+    "我們的首席執行長（CEO）評估我們保險、投資與服務業務的表現，並做出關鍵營運決策，並由以下管理團隊支援，該團隊監督支援我們組織各個部門的業務與企業功能。",
+    "首席執行長 •首席財務長 •首席行銷長 •首席投資長",
+    "•個人業務總經理 •首席策略與財務管理長 •商業業務總經理",
+    "•首席人力資源長 •理賠總經理 •首席資訊長 •客戶關係管理總經理",
+    "我們的保險與理賠組織通常根據各州的狀況進行管理，這是因為保險業務的性質、法律與法規要求，以及其他地方因素，並由全國性業務與我們的企業功能支援。州別組織通常向區域總經理報告，而區域總經理則向相關的集團總經理報告。在加州，我們設有獨立的汽車業務組織，擁有自己的管理與客戶關係管理組織。",
+    "我們的個人業務營運分部提供個人汽車保險與特殊線產品（例如休閒車輛，如摩托車、RV與船隻）的保險， collectively 稱為我們的個人車輛業務，並提供個人住宅財產保險給房東與租客。個人業務分部在2025年佔我們總淨保費寫入的87%，在2024年為85%，在2023年為84%。",
+    "2025 年，我們的個人車輛產品佔總個人業務淨保費寫入的 96%，2024 年為 95%，2023 年為 94%。我們在所有州份寫入個人車輛保險，然而，我們的特殊業務產品並未在華盛頓特區寫入。",
+    "•個人汽車保險在 2025 年及 2024 年佔總個人車輛淨保費寫入的 95%，2023 年為 94%。根據 2024 年寫入的保費，我們在美國私人乘客汽車保險市場的市佔率為第二名，我們認為我們在 2025 年仍維持此地位。此市場約有 230 家競爭對手。Progressive 及其他前 15 大私人乘客汽車保險公司，每家公司每年寫入的保費均超過 30 億美元，約佔此市場的 85%。所有產業數據，包括排名與市佔率，均根據寫入的保費取得，資料直接來自 S&P Global Market Intelligence 或 A.M. Best Company, Inc.（A.M. Best）所報告的數據，或以 A.M. Best 的數據為主要來源進行估算。",
+    "•特殊業務產品佔上述年份總個人車輛淨保費寫入的剩餘部分。由於這些產品具有季節性，我們通常在較溫暖的天氣月份經歷較高的損失。我們的競爭對手為專業公司及大型多線保險電信業者。雖然產業數據並不可用，根據我們對此市場的分析，我們認為我們在機車與船隻產品的市佔率為領先，且我們是 RV 保險的主要提供者之一。",
+    "除了為房東與租客寫入住宅財產保險外，我們在幾乎所有州份也提供製造房屋、個人 umbrella 保險、以及主要與過度洪水保險。我們也參與國家洪水保險計畫（NFIP）的 \"Write Your Own\" 計畫，透過此計畫我們在幾乎所有州份寫入洪水保險；此業務 100% 與 NFIP 再保險。",
+    "我們的個人財產業務在 2025 年佔總個人業務淨保費寫入的 4%，2024 年為 5%，2023 年為 6%，其中約 95% 的總個人財產淨保費寫入來自房東與租客產品。根據 2024 年寫入的保費，我們是美國第 12 大房東保險電信業者，目前我們無法確定我們是否在 2025 年仍維持此排名。美國全國約有 360 家房東保險競爭對手，我們與其中許多公司競爭。Progressive 及其他前 28 大公司/集團，每家公司每年寫入的保費均超過 10 億美元，約佔市場的 80%。",
+    "我們通常在每年的第二與第三季看到較多的個人財產業務，這是因為財產銷售具有週期性。損失也通常在較溫暖的天氣月份增加，當時風暴較為頻繁。作為財產保險電信業者，我們會因颱風及其他嚴重天氣事件而面臨損失風險。請參閱第 1A 項，風險因素 – II. 保險風險，以取得更多資訊。為協助降低這些風險，我們會與再保險公司簽訂再保險協議。請參閱下方的 \"再保險\" 節，以取得更多關於我們再保險計畫的資訊。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "本公司之成功取決於本公司能否準確評估及訂定風險之價格，並對保單持有人收取足夠之費用。",
+    "本公司之成功取決於本公司能否建立準確之損失準備金。",
+    "本公司之業務取決於本公司系統、設施及業務功能之安全且無間斷運作，以及各項第三方系統之運作。",
+    "本公司之業務可能因本公司科技系統或一個或多個供應商系統遭受到安全入侵或其他攻擊而受到重大不利影響。",
+    "本公司必須維持一個被消費者所認知且信賴之品牌與聲譽。",
+    "本公司之成功取決於本公司能否有效創新並回應競爭對手之行動。",
+    "本公司必須有效管理複雜性，以開發並提供高品質之產品與客戶體驗。",
+    "本公司在財產與責任保險市場中進行競爭，而這些市場具有高度競爭性。",
+    "本公司之成功取決於能否準確調整聲請事項。",
+    "本公司受多種複雜法律與法規之制約。",
+    "員工、代理人及第三方之不當行為或詐欺行為，可能使本公司面臨財務損失、業務中斷及/或監管處罰。",
+    "本公司吸引、培訓及留住人才，包括員工、經理及高階主管，並維持適當人力配置之能力，對本公司之成功至關重要。",
+    "挑戰本公司營運模式及競爭對手及其他公司營運模式之訴訟目前尚在進行，未來可能有更多訴訟被提出。",
+    "本公司長期營運策略及取得或開發新產品或進入新業務領域之努力，可能無法成功，並可能產生更高風險。",
+    "智慧財產權之權利可能影響本公司之競爭力及營運。",
+    "本公司開發及應用新技術，例如生成式及代理式人工智慧，可能帶來額外風險，可能無法成功，並可能對本公司營運造成重大不利影響。",
+    "本公司固定收益及股權投資組合之表現受多種投資風險影響。",
+    "無法存取本公司現金帳戶或在欲進行時以有利條件將投資轉換為現金，可能重大且不利地影響本公司營運、現金流及資本狀況。"
+   ],
+   "paragraphs": [
+    "本公司業務涉及多種風險與不確定性，其中部分已在本節中討論。管理階層在評估這些風險可能如何影響本公司財務狀況、現金流及營運成果，以及本公司達成戰略業務目標與計畫的能力時，將這些風險分為五大類別。本公司風險類別包括：",
+    "•保險風險 - 與承擔或賠償保單持有人所遭受損失或負債相關的風險，",
+    "•營運風險 - 來自外部或內部事件或情況，可能直接或間接影響本公司保險營運的風險，",
+    "•市場風險 - 可能導致本公司投資組閤中所持資產價值變動的風險，",
+    "•流動性風險 - 本公司財務狀況因無法履行短期現金、擔保品或其他財務義務而受到不利影響的風險，且",
+    "•信用及其他財務風險 - 交易對方未依照合約條款履行義務的風險，或本公司無法在到期時履行義務或取得必要資金的風險。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

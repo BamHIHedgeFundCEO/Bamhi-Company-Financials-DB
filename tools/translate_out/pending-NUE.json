@@ -1,0 +1,193 @@
+{
+ "ticker": "NUE",
+ "cik": "0000073309",
+ "accession": "0001193125-26-071575",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Segments, Principal Products Produced, and Markets and Marketing",
+    "Customers and Markets",
+    "General Development of Our Business in Recent Years",
+    "Capital Allocation Strategy",
+    "Sources and Availability of Raw Materials",
+    "Energy Consumption and Costs",
+    "Reducing GHG Emissions",
+    "Human Capital Resources"
+   ],
+   "paragraphs": [
+    "Nucor Corporation, a Delaware corporation incorporated in 1958, and its affiliates (\"Nucor,\" the \"Company,\" \"we,\" \"us\" or \"our\") manufacture steel and steel products. The Company also produces and procures ferrous and non-ferrous materials primarily for use in its steel manufacturing business. Most of the Company's operating facilities and customers are located in North America. The Company's operations include international trading and sales companies that buy and sell steel and steel products manufactured by the Company and others.",
+    "Nucor is North America's largest recycler, using scrap steel as the primary raw material in producing steel and steel products. In 2025, we recycled approximately 20 million gross tons of scrap steel.",
+    "Nucor reports its results in three segments: steel mills, steel products and raw materials. The steel mills segment is Nucor's largest segment, representing 62% of the Company's sales to external customers in the year ended December 31, 2025.",
+    "We market products from the steel mills and steel products segments mainly through in-house sales forces. We also utilize our internal distribution and trading companies to market our products abroad. The markets for these products are largely tied to end-use markets such as nonresidential construction, durable goods and capital spending that are affected by changes in general economic conditions.",
+    "We are a leading domestic provider for most of the products we supply, and, in many cases (e.g., structural steel, merchant bar steel, steel joist and deck, pre-engineered metal buildings, steel piling, cold finish bar steel, steel electrical conduit pipe and insulated metal panels), we are the leading supplier.",
+    "In recent years we have embarked on a strategy to advance Nucor's capabilities and further its value creation, as summarized in our Mission Statement: Grow the Core, Expand Beyond and Live Our Culture.",
+    "We have examined and prioritized growth opportunities across our core steelmaking, steel products and raw materials operations, and we have identified and executed on several acquisitions and investments to expand the products and services we offer beyond our traditional capabilities. We believe that the growth opportunities we are pursuing leverage our core competency as a highly efficient, industrial manufacturer working primarily with steel and steel products.",
+    "In the steel mills segment, Nucor produces sheet steel (hot-rolled, cold-rolled and galvanized), plate steel, structural steel (wide-flange beams, beam blanks, H-piling and sheet piling) and bar steel (blooms, billets, concrete reinforcing bar, merchant bar and engineered special bar quality (\"SBQ\")). Nucor manufactures steel principally from scrap steel and scrap steel substitutes using electric arc furnaces (\"EAFs\") along with continuous casting and automated rolling mills. The steel mills segment also includes Nucor's equity method investment in NuMit LLC (\"NuMit\") (see \"Steel joint venture\"- below), as well as international trading and distribution companies that buy and sell steel manufactured by the Company and other steel producers.",
+    "The steel mills segment sells its products primarily to steel service centers, fabricators and manufacturers located throughout the United States, Canada and Mexico. The steel mills segment sold approximately 19,848,000 tons to outside customers in 2025. In 2025, 79% of the shipments made by our",
+    "steel mills segment were to external customers. The remaining 21% of the steel mills segment's shipments went to our steel products segment.",
+    "• Bar mills - Nucor has 15 bar mills located across the United States that manufacture a broad range of products, including concrete reinforcing bars, hot-rolled bars, rounds, light shapes, structural angles, channels, wire rod and highway products in carbon and alloy steels. Four of the bar mills have a significant focus on manufacturing SBQ and wire rod products.",
+    "Steel produced by our bar mills has a wide usage serving end markets, including the agricultural, automotive, construction, energy, infrastructure, machinery, metal building, railroad, recreational equipment, shipbuilding, heavy truck and trailer market segments. Considering Nucor's production capabilities and the mix of bar products generally produced and marketed, the capacity of the bar mills is estimated at approximately 9,800,000 tons per year.",
+    "Reinforcing and merchant bar steel are sold in standard sizes and grades, which allows us to maintain inventory levels of these products to meet our customers' expected orders. Our SBQ products are hot-rolled to exacting specifications primarily servicing the automotive, energy, agricultural, heavy equipment and transportation sectors.",
+    "In April 2022, Nucor announced that it would build a new rebar micro mill, with spooling capabilities, in Lexington, North Carolina. Construction of the new rebar micro mill is complete and the facility is in the production ramp-up phase. Additionally, Nucor Wire Products Connecticut, Inc. (formerly Nucor Steel Connecticut, Inc.) no longer produces bar products and will be represented in the wire group going forward."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Overcapacity in the global steel industry could increase the level of steel imports into the United States, which may negatively affect our business, results of operations, financial condition and cash flows.",
+    "Our industry is cyclical and both recessions and prolonged periods of slow economic growth may negatively affect our business, results of operations, financial condition and cash flows.",
+    "Competition from other steel producers, imports or alternative materials may negatively affect our business, results of operations, financial condition and cash flows.",
+    "Our business requires substantial capital investment and maintenance expenditures, and our capital resources may not be adequate to provide for all of our cash requirements.",
+    "Changes in the availability and cost of electricity and natural gas are subject to volatile market conditions which may negatively affect our business, results of operations, financial condition and cash flows.",
+    "Our business and results of operations may be negatively affected by volatility in steel prices and the cost and availability of raw materials, particularly scrap steel.",
+    "Environmental regulation compliance and remediation could result in substantially increased costs and materially adversely impact our competitive position.",
+    "Emerging customer preferences for greater product transparency and less GHG intensive materials may put us at a competitive disadvantage as a carbon steel producer.",
+    "We are subject to information technology and cybersecurity threats which could have an adverse effect on our business and results of operations.",
+    "Our operations are subject to business interruptions and casualty losses.",
+    "We acquire businesses and enter into joint ventures from time to time and we may encounter difficulties in integrating businesses we acquire.",
+    "Risks associated with operating in international markets may negatively affect our business, results of operations, financial condition and cash flows.",
+    "Pandemics, epidemics and other public health emergencies in the future, could have a material adverse effect on our business, results of operations, financial condition and cash flows.",
+    "The accounting treatment of equity method investments, goodwill and other long-lived assets could result in future asset impairments, which would reduce our earnings.",
+    "Tax increases and changes in tax laws and regulations or exposure to additional tax liabilities may negatively affect our business, results of operations, financial conditions and cash flows.",
+    "We are subject to legal proceedings and legal compliance risks."
+   ],
+   "paragraphs": [
+    "Many of the factors that affect our business and operations involve risk and uncertainty. The factors described below are some of the risks that could materially negatively affect our business, results of operations, financial condition and cash flows.",
+    "Global steel production overcapacity continues to be an ongoing risk to Nucor and the entire steel industry. The Organisation for Economic Co-operation and Development (the \"OECD\") has estimated global steel production overcapacity to be approximately 704 million net tons in 2025. This level of excess capacity is eight times the current annual steel production in the United States. China continues to be a significant contributor to excess steelmaking capacity, producing more than one billion net tons of steel in each of the past eight years, despite experiencing slower economic growth. Chinese steel producers are also investing in new steelmaking capacity in several countries in southeast Asia and Africa. As a result, the OECD projects that excess global steel capacity could increase nearly 20% to an estimated 795 million net tons by 2027.",
+    "During periods of global economic weakness, the effects of this overcapacity are amplified because of weaker global demand for steel and steel products. Steel manufacturers in non-market economies, such as China, tend not to adjust their production levels in line with regional demand and instead export significant amounts of steel and steel products at prices that can be at or below their costs of production. In countries with non-market economies, the steel industry is often subsidized or owned in whole or in part by the government, which can provide these producers with cost advantages or cause their production decisions to be driven by political or social factors rather than price and demand signals. Surplus output from steel producers in these countries can flow into the U.S. market. These exports to the U.S. can result in downward pressure on realized steel prices for Nucor, adversely affecting our business, results of operations, financial condition and cash flows.",
+    "After recent years of weakened effectiveness due to country exemptions and product exclusions, steel tariffs first imposed in 2018 under Section 232 of the Trade Expansion Act were fully reinstated in 2025 without exceptions or exclusions, and were broadened to cover approximately 600 fabricated steel products. These comprehensive tariffs have been more effective in combating circumvention behaviors and keeping unfairly traded imports out of the U.S. market. There can be no assurance as to when or if the Section 232 or other import tariffs, quotas or other duties may be enacted, enforced, extended, modified or terminated in the future. If the Section 232 or other import tariffs, quotas or duties expire or if others are further relaxed or repealed, or if relatively higher U.S. steel prices or a stronger U.S. dollar make it attractive for foreign steelmakers to export their steel products to the United States, despite the presence of import tariffs, quotas or duties, the resurgence of substantial imports of foreign steel could create downward pressure on U.S. steel prices.",
+    "Demand for most of our products is cyclical in nature and sensitive to general economic conditions. Our business supports cyclical industries, such as the construction, energy, metals service centers, appliance and automotive industries. As a result, downturns in the U.S. economy or any of these industries could materially adversely affect our results of operations, financial condition and cash flows.",
+    "We are unable to predict the duration of current economic conditions or the magnitude or timing of changes in economic activity. Future economic downturns, prolonged slow growth or stagnation in the economy, a sector-specific slowdown in one of our key end-use markets, such as nonresidential construction, or changes in inflation could materially adversely affect our business, results of operations, financial condition and cash flows, especially in light of the capital-intensive nature of our business."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Comparison of 2025 to 2024",
+    "Results of Operations",
+    "Year Ended December 31,",
+    "Liquidity and Capital Resources",
+    "(Dollars in millions)",
+    "December 31,",
+    "(in millions)",
+    "Contractual Obligations and Other Commercial Commitments",
+    "Payments Due By Period",
+    "Contractual Obligations",
+    "Total contractual obligations",
+    "Critical Accounting Policies and Estimates",
+    "Cautionary Note Regarding Forward-Looking Statements"
+   ],
+   "paragraphs": [
+    "The following Management's Discussion and Analysis of Financial Condition and Results of Operations of Nucor Corporation should be read in conjunction with the consolidated financial statements of the Company and the accompanying notes to the consolidated financial statements.",
+    "Management's Discussion and Analysis of Financial Condition and Results of Operations included in this report discusses our financial condition and results of operations as of and for the years ended December 31, 2025 and 2024. Information concerning the year ended December 31, 2024 and a comparison of the years ended December 31, 2024 and 2023 may be found under \"Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations\" in the Company's Annual Report on Form 10-K for the year ended December 31, 2024, filed with the SEC on February 27, 2025.",
+    "Nucor's operating performance in 2025 reflected modest domestic steel demand growth and lower import levels. Operating rates at our steel mills for the full year 2025 increased to 83% as compared to 76% for the full year 2024, with higher shipments across our sheet, bar, plate, and structural mills. Demand was strong in several key end markets, including infrastructure, data centers, energy, and advanced manufacturing, while interest rate sensitive markets such as automotive and residential construction experienced softer conditions.",
+    "Global steel production overcapacity continues to be an ongoing risk to Nucor and the entire steel industry. The OECD has estimated that global steel production overcapacity in 2025 is approximately 704 million net tons. This level of excess capacity is eight times the current annual steel production in the United States. However, additional capacity continues to come online and China's steel production, the largest steel producing country, is still near record levels. In 2025, China's steel production was more than 1 billion net tons for the eighth consecutive year, and China exported a record 131 million net tons to offset weak domestic consumption. Circumvention of trade duties also continues to pose a risk, as countries route products through third-party countries to evade duties. Increasingly, China is seeking to evade trade duties by building new steelmaking capacity in other countries with a focus on neighboring countries in southeast Asia, as well as Africa.",
+    "An uncertainty we continue to face in our business is the price of our principal raw material, ferrous scrap, which is volatile and often increases or decreases rapidly in response to changes in domestic demand, unanticipated events that affect the flow of scrap into scrap yards, the availability of scrap substitutes, currency fluctuations and changes in foreign demand for scrap. In periods of rapidly increasing raw material prices in the industry, which are often also associated with periods of stronger or rapidly improving steel market conditions, being able to increase our prices for the products we sell quickly enough to offset increases in the prices we pay for ferrous scrap is challenging but critical to maintaining our profitability. We attempt to mitigate the scrap price risk by managing scrap inventory levels at the steel mills to match the anticipated demand over the next several weeks. Certain scrap substitutes, including pig iron, have longer lead times for delivery than scrap, which can make this inventory management strategy difficult to achieve. Continued successful implementation of our raw material strategy, including key investments in DRI production, coupled with the scrap brokerage and processing services performed by our team at DJJ, give us greater control over our metallic inputs and thus also helps us to mitigate this risk. See \"Item 1A. Risk Factors-Industry Specific Risk Factors\" for further discussion of raw material risks.",
+    "During periods of stronger or rapidly improving steel market conditions, we are more likely to be able to pass through to our customers, relatively quickly, the increased costs of ferrous scrap and scrap substitutes, protecting our gross margins from significant erosion. During periods of weaker or rapidly deteriorating steel market conditions, weak steel demand, low industry utilization rates and the impact of",
+    "imports create an even more intensified competitive environment and increased pricing pressure. All of those factors, to some degree, impact pricing, which increases the likelihood that Nucor will experience lower gross margins.",
+    "Although the majority of our steel sales are to spot market customers in North America who place their orders each month based on their business needs and our pricing competitiveness compared to both domestic and global producers and trading companies, we also sell contract tons, most notably in our sheet operations. Approximately 85% of our sheet sales were to contract customers in 2025, with the balance being sold in the spot market at the prevailing prices at the time of sale. Steel contract sales outside of our sheet operations are not significant. The amount of tons sold to contract customers at any given time depends on the overall market conditions at the time, how the end-use customers see the market moving forward and the strategy that Nucor management believes is appropriate to the upcoming period.",
+    "Nucor management considerations include maintaining an appropriate balance of spot and contract tons based on market projections and appropriately supporting our diversified customer base. The percentage of tons that is placed under contract also depends on the overall market dynamics and customer negotiations. In years of strengthening demand, we typically see an increase in the percentage of sheet sales sold under contract as our customers have an expectation that transaction prices will rapidly rise, and available capacity will quickly be sold out. To mitigate this risk, customers prefer to enter into contracts in order to obtain committed volumes of supply from the mills. The vast majority of our contracts include a method of adjusting prices on a periodic basis to reflect changes in the market pricing for steel and/or scrap. Market indices for steel generally trend with scrap pricing changes, but, during periods of steel market weakness, the more intensified competitive steel market environment can cause the sales price indices to decrease resulting in reduced gross margins and profitability. Furthermore, since the selling price adjustments are not immediate, there will always be a timing difference between changes in the prices we pay for raw materials and the adjustments we make to our contract selling prices. Contract sales typically have terms ranging from six to 12 months.",
+    "We are North America's most diversified steel producer. As a result, our short-term performance is not tied to any one market. We have numerous, large, strategic capital projects at various stages of progress that we believe will help us further diversify our product offerings and expand the markets that we serve. We expect these investments to grow our long-term earnings power by increasing our channels to market, expanding our product portfolio into higher value-added offerings, improving our cost structure and further building upon our market leadership positions.",
+    "We believe that Nucor's raw material supply chain is another important strength. Our investment in DRI production facilities and scrap brokerage and processing businesses provides Nucor with significant flexibility in optimizing our raw materials costs. Additionally, having a portion of our raw materials supply under our control reduces risk associated with the global sourcing of raw materials.",
+    "Our highly variable, low-cost structure, combined with our financial strength and liquidity, have allowed us to successfully navigate cyclical steel industry market conditions in the past. In such times, our incentive-based pay system reduces our payroll costs, both hourly and salary, which helps to offset lower selling prices. Our pay-for-performance system that is closely tied to our levels of production also allows us to keep our highly experienced workforce intact and to continue operating our facilities when some of our competitors with greater fixed costs are compelled to shut down some of their facilities. Because we use EAFs to produce our steel, we can easily vary our production levels to match short-term changes in demand.",
+    "We report our results of operations in three segments: steel mills, steel products and raw materials. Most of the steel we produce in our mills is sold to outside customers (80% in both 2025 and 2024), but a",
+    "significant percentage is used internally by many of the facilities in our steel products segment (20% in both 2025 and 2024)."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "分部、主要產品與市場與行銷",
+    "客戶與市場",
+    "近年業務之一般發展",
+    "資金配置策略",
+    "原材料之來源與可取得性",
+    "能源消耗與成本",
+    "減少溫室氣體排放",
+    "人力資本資源"
+   ],
+   "paragraphs": [
+    "Nucor Corporation, 一間在德克薩斯州註冊的公司，於1958年成立，及其附屬公司（\"Nucor,\" \"本公司,\" \"我們,\" \"我們\" 或 \"我們的\"）製造鋼鐵與鋼鐵製品。本公司亦生產與採購鐵與非鐵材料，主要用於其鋼鐵製造業務。本公司絕大多數營運設施與客戶位於北美洲。本公司營運包括國際貿易與銷售公司，這些公司買賣本公司與其他公司製造的鋼鐵與鋼鐵製品。",
+    "Nucor 是北美洲最大的回收商，以廢鋼作為製造鋼鐵與鋼鐵製品的主要原料。2025年，我們回收了約2000萬公噸的廢鋼。",
+    "本公司將其營運結果分為三個應報告分部：鋼鐵廠、鋼鐵製品與原材料。鋼鐵廠分部為本公司最大的分部，佔本公司對外部客戶銷售額的62%，於2025年12月31日財務年度。",
+    "我們透過內部銷售團隊主要行銷鋼鐵廠與鋼鐵製品分部的產品。我們亦利用內部的物流與貿易公司行銷產品至海外。這些產品的市場與終端用途市場如非住宅建設、耐用消費品與資本支出緊密相關，這些市場受總體經濟變動的影響。",
+    "我們是我們所供應產品的主要國內供應商，且在許多情況下（例如結構鋼、商貿鋼棒、鋼製桁架與樓板、預製金屬建築、鋼製樁、冷加工鋼棒、鋼製電氣管與絕緣金屬板），我們是主要供應商。",
+    "近年來，我們已啟動策略以提升 Nucor 的能力，並進一步創造價值，如我們的使命聲明所總結：強化核心業務、拓展至其他領域與實踐我們的文化。",
+    "我們已評估並優先考慮我們核心鋼鐵製造、鋼鐵製品與原材料業務的成長機會，並已識別並執行了數項收購與投資，以拓展我們所提供的產品與服務，超越傳統能力。我們相信我們所追求的成長機會，利用我們作為高效率工業製造商的核心優勢，主要與鋼鐵與鋼鐵製品合作。",
+    "在鋼鐵廠分部，Nucor 生產鋼板（熱軋、冷軋與鍍鋅）、鋼板、結構鋼（寬翼緣樑、樑坯、H型樁與板樁）與鋼棒（鑄錠、鋼坯、混凝土加強鋼棒、商貿鋼棒與工程特殊鋼質（\"SBQ\"））。Nucor 主要以廢鋼與廢鋼替代品製造鋼鐵，使用電弧爐（\"EAFs\"）配合連續鑄造與自動化軋機。鋼鐵廠分部亦包括 Nucor 對 NuMit LLC（\"NuMit\"）的權益法投資（見 \"鋼鐵合資公司\"- 下方），以及國際貿易與物流公司，這些公司買賣本公司與其他鋼鐵製造商所製造的鋼鐵。",
+    "鋼鐵廠應報告分部主要將其產品銷售給位於美國、加拿大及墨西哥的鋼鐵服務中心、製造商及加工廠。鋼鐵廠應報告分部於2025年向外部客戶銷售約19,848,000公噸產品。在2025年，本公司鋼鐵廠應報告分部約79%的出貨為銷售給外部客戶。",
+    "鋼鐵廠應報告分部的剩餘21%出貨則為銷售給本公司鋼鐵產品應報告分部。",
+    "• 螺紋鋼廠 - Nucor 在美國擁有15座螺紋鋼廠，製造廣泛的產品，包括混凝土加強鋼筋、熱軋鋼筋、圓鋼、輕型型鋼、結構用角鋼、槽鋼、線材及高速公路用產品，皆為碳鋼及合金鋼製造。其中4座螺紋鋼廠有著顯著的製造重點在SBQ及線材產品。",
+    "本公司螺紋鋼廠所生產的鋼鐵，應用於多種終端市場，包括農業、汽車、建設、能源、基礎建設、機械、金屬建築、鐵路、休閒器材、造船、重型卡車及拖車市場。考慮到Nucor的生產能力及一般所製造與行銷的螺紋鋼產品組合，螺紋鋼廠的產能估計為每年約9,800,000公噸。",
+    "加強鋼筋及商貿鋼筋鋼鐵以標準尺寸及等級銷售，使我們能維持這些產品的庫存量以符合客戶預期的訂單。我們的SBQ產品為熱軋製造，符合嚴格的規格，主要服務於汽車、能源、農業、重型設備及運輸產業。",
+    "2022年4月，Nucor 宣佈將在北卡羅來納州萊剋星頓建設一座新的鋼筋微鋼廠，具備捲繞能力。新鋼筋微鋼廠的建設已經完成，目前該廠正在進行生產爬坡階段。此外，Nucor Wire Products Connecticut, Inc.（原為Nucor Steel Connecticut, Inc.）不再生產螺紋鋼產品，未來將歸屬於線材組別進行營運。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "2025 年與 2024 年比較",
+    "營運成果",
+    "截至 12 月 31 日年度",
+    "流動性及資本資源",
+    "(金額單位為千萬美元)",
+    "12 月 31 日",
+    "(以千萬美元為單位)",
+    "契約義務及其他商業承諾",
+    "應於各期間支付之金額",
+    "契約義務",
+    "總契約義務",
+    "關鍵會計政策與會計估計",
+    "關於未來展望陳述之警示說明"
+   ],
+   "paragraphs": [
+    "下列本公司管理層對財務狀況與營運成果之討論分析應配合本公司合併財務報表及相關會計附註一併閱讀。",
+    "本報告所包含之管理層對財務狀況與營運成果之討論分析，說明本公司截至2025年12月31日及2024年12月31日之財務狀況與營運成果。有關2024年12月31日之年度資料及2024年與2023年年度資料之比較，請參閱本公司於2025年2月27日向SEC提交之2024年度10-K表報表中「第7項 管理層對財務狀況與營運成果之討論分析」。",
+    "2025年本公司營運表現反映國內鋼鐵需求小幅成長及進口水準降低。2025年全年鋼鐵廠運轉率提高至83%，較2024年全年76%為高，且各鋼板、棒材、板坯及結構鋼廠之出貨量均有增加。需求在多個關鍵終端市場表現強勁，包括基礎建設、資料中心、能源及先進製造，而利率敏感型市場如汽車與住宅建設則表現較弱。",
+    "全球鋼鐵產能過度擴張持續為本公司與整個鋼鐵產業帶來風險。OECD估計2025年全球鋼鐵產能過度擴張約為704百萬淨噸。此過度產能規模為美國年鋼鐵產能的八倍。然而，新增產能持續增加，中國為全球最大鋼鐵生產國，其鋼鐵產能仍接近歷史高點。2025年中國鋼鐵產能連續第八年超過10億淨噸，且中國出口鋼鐵創下131百萬淨噸新高，以彌補國內需求疲弱。避開貿易關稅的風險持續存在，因國家透過第三方國家轉運產品以避免關稅。中國 increasingly 透過在東南亞及非洲等鄰近國家建設新鋼鐵生產設施，以避免貿易關稅。",
+    "我們持續面臨的不確定性之一為主要原材料鐵礦 scrap 的價格，其價格波動且常因國內需求變化、未預期事件影響 scrap 流入回收場、scrap 替代品的可得性、貨幣兌換率變動及外國對 scrap 的需求變化而快速上升或下降。在產業原材料價格快速上升的時期，通常也伴隨鋼鐵市場條件強化或快速改善，我們能迅速提高所銷售產品的價格以抵銷原材料成本的增加，這對維持利潤率至關重要，但挑戰性亦高。我們透過管理鋼鐵廠的 scrap 存貨水準，以符合未來數週的預期需求，來緩解 scrap 價格風險。部分 scrap 替代品，如生鐵，其交貨時間較 scrap 更長，這使得此存貨管理策略難以實現。持續成功執行我們的原材料策略，包括關鍵投資於DRI生產，加上我們在DJJ團隊執行的 scrap 資源經紀及處理服務，使我們對金屬原料有更大控制力，也幫助我們緩解此風險。有關原材料風險之進一步討論，請參閱「第1A項 風險因素-產業特定風險因素」。",
+    "在鋼鐵市場條件強化或快速改善的時期，我們更有可能迅速將鐵礦 scrap 及 scrap 替代品的增加成本轉嫁給客戶，保護我們的毛利率不受顯著影響。在鋼鐵市場條件較弱或快速惡化的時期，鋼鐵需求疲弱、產業利用率低及進口影響會造成更激烈的競爭環境與更高的定價壓力。所有這些因素，或多或少會影響定價，增加本公司遭遇毛利率下降的可能性。",
+    "儘管我們絕大多數鋼鐵銷售為對北美現貨市場客戶，這些客戶每月根據其業務需求及我們與國內外生產商及貿易公司的價格競爭力下訂單，我們也銷售合約噸數，特別是在鋼板業務中。2025年約85%的鋼板銷售為對合約客戶，其餘則在銷售時以當時的市場價格銷售於現貨市場。我們鋼板業務以外的合約銷售不顯著。任何時間點銷售給合約客戶的噸數取決於當時的市場條件、終端客戶對市場未來的看法以及本公司管理層認為適合未來時期的策略。",
+    "在鋼鐵市場條件強化或快速改善的時期，我們更有可能迅速將鐵礦 scrap 及 scrap 替代品的增加成本轉嫁給客戶，保護我們的毛利率不受顯著影響。在鋼鐵市場條件較弱或快速惡化的時期，鋼鐵需求疲弱、產業利用率低及進口影響會造成更激烈的競爭環境與更高的定價壓力。所有這些因素，或多或少會影響定價，增加本公司遭遇毛利率下降的可能性。",
+    "Nucor 管理考量包括維持適當的現貨與合約噸數平衡，基於市場預測，並適當地支援我們多樣化的客戶羣。所佔合約噸數的百分比也取決於總體經濟動態及客戶談判。在需求強勁的年份，我們通常會看到鋼板銷售合約比例增加，因為客戶預期交易價格將迅速上漲，且可用產能將迅速售罄。為降低此風險，客戶傾向簽訂合約以獲得來自鋼廠的承諾供應量。我們絕大多數的合約包含一種定期調整價格的方法，以反映鋼鐵及/或廢鋼的市場價格變動。鋼鐵市場指數通常與廢鋼價格變動趨勢一致，但在鋼鐵市場疲軟期間，更激烈的競爭環境可能導致銷售價格指數下降，進而導致毛利率及利潤減少。此外，因為銷售價格調整不會立即生效，因此總會存在價格變動與我們調整合約銷售價格之間的時間差。合約銷售的合約期間通常為六至十二個月。",
+    "我們是北美最多元化鋼鐵生產商。因此，我們的短期表現與任何一個市場無關。我們有許多大型戰略性資本項目處於不同進展階段，我們認為這些項目將有助於我們進一步多元化產品組合，並擴展我們服務的市場。我們預期這些投資將透過增加我們的市場通路、將產品組合擴展至更高價值的產品、改善我們的成本結構，以及進一步強化我們的市場領導地位，來提升我們的長期獲利能力。",
+    "我們認為 Nucor 的原材料供應鏈是另一個重要優勢。我們在 DRI 生產設施及廢鋼經紀與處理業務上的投資，使 Nucor 能夠在優化原材料成本方面擁有顯著的靈活性。此外，將部分原材料供應納入我們的控制之下，可降低全球採購原材料的相關風險。",
+    "本公司高度變動、低成本的結構，結合財務強健與流動性，已使我們成功應對過去鋼鐵產業的週期性市場條件。在這種情況下，我們的基於激勵的薪資制度可降低我們的 payroll 成本，包括時薪與薪資，這有助於抵消較低的銷售價格。我們的績效付薪制度與生產水平緊密連結，也使我們能維持高度經驗的員工，並在部分競爭對手因固定成本較高而被迫關閉部分設施時，持續運作我們的設施。因為我們使用電弧爐（EAFs）來生產鋼鐵，我們可以輕易調整生產量以配合短期需求的變化。",
+    "我們將營運成果分為三個應報告分部：鋼鐵廠、鋼鐵產品與原材料。我們在鋼鐵廠生產的鋼鐵，大多數銷售給外部客戶（2025 年與 2024 年皆為 80%），但",
+    "相當大的比例被我們鋼鐵產品分部的許多設施內部使用（2025 年與 2024 年皆為 20%）"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "全球鋼鐵產業的過度生產可能增加鋼鐵進口至美國的數量，這可能會對我們的業務、營運結果、財務狀況及現金流產生負面影響。",
+    "我們的產業具有週期性，且經濟衰退或長時間的經濟成長遲緩時期可能會對我們的業務、營運結果、財務狀況及現金流產生負面影響。",
+    "來自其他鋼鐵生產者、進口產品或替代材料的競爭可能會對我們的業務、營運結果、財務狀況及現金流產生負面影響。",
+    "我們的業務需要大量的資本投資與維護支出，且我們的資本資源可能不足以應付所有的現金需求。",
+    "電力與天然氣的可得性與成本變動受到市場波動的影響，這可能會對我們的業務、營運結果、財務狀況及現金流產生負面影響。",
+    "鋼鐵價格波動及原材料（特別是廢鋼）的成本與可得性可能會對我們的業務與營運結果產生負面影響。",
+    "環境法規的遵循與整治可能導致顯著增加的成本，並對我們的競爭地位造成重大不利影響。",
+    "客戶對更高產品透明度與較低溫室氣體排放材料的偏好，可能使我們作為碳鋼生產者的競爭優勢受到威脅。",
+    "本公司面臨資訊科技與網路安全威脅，這些威脅可能對本公司業務及營業成果產生不利影響。",
+    "本公司運作可能受到業務中斷及意外損失的影響。",
+    "本公司偶爾會取得新公司並成立合資企業，並可能在整合所取得之業務時遇到困難。",
+    "在國際市場營運所涉及的風險可能對本公司業務、營業成果、財務狀況及現金流產生負面影響。",
+    "未來可能發生的疫情、傳染病或其他公共衛生緊急事件，可能對本公司業務、營業成果、財務狀況及現金流產生重大不利影響。",
+    "權益法投資、商譽及其他長壽命資產的會計處理方式，可能導致未來資產減損，進而降低本公司獲利。",
+    "稅率提高及稅法與稅務規範的變更，或因暴露於額外稅務負擔而產生的影響，可能對本公司業務、營業成果、財務狀況及現金流產生負面影響。",
+    "本公司面臨法律訴訟及法律合規風險。"
+   ],
+   "paragraphs": [
+    "許多影響本公司業務與運作的因素涉及風險與不確定性。下列所述的因素是可能對本公司業務、營業成果、財務狀況與現金流產生重大負面影響的風險之一。",
+    "全球鋼鐵產能過度擴張持續為 Nucor 及整個鋼鐵產業帶來風險。經濟合作與發展組織（the \"OECD\"）預估 2025 年全球鋼鐵產能過度擴張約為 704 億淨公噸。此等過度產能是美國年鋼鐵產能的八倍。中國持續為過度鋼鐵產能的主要貢獻者，過去八年每年生產超過 10 億淨公噸鋼鐵，即使經濟成長速度減緩。中國鋼鐵製造商也在東南亞與非洲多個國家投資建設新的鋼鐵產能。因此，OECD 預測 2027 年全球鋼鐵過度產能可能增加近 20%，預估達到 795 億淨公噸。",
+    "在全球經濟疲弱期間，此過度產能的影響會被放大，因為全球對鋼鐵與鋼鐵製品的需求較弱。非市場經濟體的鋼鐵製造商，例如中國，通常不會根據區域需求調整產能，而是大量出口鋼鐵與鋼鐵製品，價格可能低於或等於其生產成本。在非市場經濟體，鋼鐵產業常受到補貼或由政府全數或部分擁有，這可能為這些製造商提供成本優勢，或使其生產決策由政治或社會因素驅動，而非價格與需求信號。這些國家的鋼鐵製造商過剩產能可能流入美國市場。這些出口至美國的鋼鐵製品可能對 Nucor 的實際鋼鐵價格造成下行壓力，不利於本公司業務、營業成果、財務狀況與現金流。",
+    "在 2018 年根據《貿易擴張法案》第 232 條項首次課徵的鋼鐵關稅，因國家豁免與產品除外條款而效果削弱，於 2025 年完全恢復，無任何除外或除外條款，並擴展至約 600 種製造鋼鐵產品。這些全面性的關稅在對抗規避行為與防止不公平貿易進口進入美國市場方面更為有效。無法預測未來是否會課徵、執行、延長、修改或終止第 232 條項或其他進口關稅、配額或其他稅收。如果第 232 條項或其他進口關稅、配額或其他稅收到期，或進一步放寬或廢除，或相對較高的美國鋼鐵價格或強勢美元使外國鋼鐵製造商有動機將其鋼鐵製品出口至美國，即使存在進口關稅、配額或其他稅收，外國鋼鐵大量進口可能對美國鋼鐵價格造成下行壓力。",
+    "我們大多數產品的需求具有週期性，且對總體經濟狀況敏感。本公司業務支持週期性產業，例如建築、能源、金屬服務中心、家電與汽車產業。因此，美國經濟或這些產業的衰退可能對本公司營業成果、財務狀況與現金流產生重大負面影響。",
+    "我們無法預測目前經濟狀況的持續時間或經濟活動變動的幅度與時間。未來經濟衰退、經濟長時間低速成長或停滯、本公司關鍵最終用途市場之一（例如非住宅建築）的產業特定減速，或通貨膨脹的變化，可能對本公司業務、營業成果、財務狀況與現金流產生重大負面影響，尤其考量本公司業務的資本密集性。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

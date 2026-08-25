@@ -1,0 +1,223 @@
+{
+ "ticker": "SLB",
+ "cik": "0000087347",
+ "accession": "0001193125-26-021017",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "All Other – This category primarily consists of the following:",
+    "Corporate Strategy",
+    "Sustainability",
+    "Human Capital",
+    "Intellectual Property",
+    "Governmental Regulations",
+    "Corporate Information",
+    "Available Information",
+    "Information About Our Executive Officers",
+    "Section 16 Officers",
+    "Current Position and Five-Year Business Experience",
+    "Other Corporate Officers"
+   ],
+   "paragraphs": [
+    "All references in this report to \"Registrant,\" \"Company,\" \"SLB,\" \"we\" or \"our\" are to SLB N.V. (SLB Limited) and its consolidated subsidiaries.",
+    "SLB is a global technology company driving energy innovation for a balanced planet. With a global presence in more than 100 countries and employees representing almost twice as many nationalities, we work each day on innovating energy technology, delivering digital at scale, decarbonizing industries, and developing and scaling new energy systems that accelerate the energy transition.",
+    "The world faces the challenge of providing secure and affordable energy to meet growing demand, while rapidly decarbonizing for a sustainable future. With nearly a century of market and technology leadership, SLB is well positioned and committed to being a leader in providing solutions to address this trilemma.",
+    "SLB is primarily organized under four Divisions that combine and integrate SLB's technologies, enhancing our ability to support the emerging long-term growth opportunities in each of these market segments. The four Divisions are:",
+    "• Digital • Reservoir Performance • Well Construction • Production Systems",
+    "Digital – Comprised of SLB's industry-leading digital solutions and data products that span the energy value chain from subsurface characterization through field development and hydrocarbon production to carbon management and the integration of adjacent energy systems. Revenue is generated from four key solutions — Platforms & Applications, Digital Operations, Digital Exploration and Professional Services.",
+    "• Platforms & Applications: Includes SLB's cloud technologies such as the Delfi and Lumi platforms, along with a suite of specialized, domain-focused applications such as Petrel and Techlog offered as SaaS subscription or perpetual licenses. These platforms and applications automate complex models to simulate the impact of reservoir development plans and aid in the planning of key operations such as drilling, completion, and production designs. Additionally, they unlock data and utilize artificial intelligence (\"AI\") and machine learning to reduce cycle time and improve efficiency of workflows to allow customers to make better, faster decisions to improve their project economics and reservoir performance.",
+    "• Digital Operations: Combines the strengths of SLB's oilfield services with advanced digital technologies to deliver more reliable, efficient, and autonomous field operations. By integrating connected solutions with Performance Live digital service delivery centers, customers gain real-time monitoring, remote decision making and automated execution across their workflows from autonomous drilling to automated well intervention, all while reducing costs and improving project economics. Revenue is generated from the same customer base as SLB's Core divisions of Well Construction, Reservoir Performance, and Production Systems. To incentivize the Core divisions and Digital to develop and promote digital operations, the resulting revenue is recognized in both the respective Core division as well as in the Digital Division. This effect is eliminated in consolidation.",
+    "• Digital Exploration: Represents SLB's exploration data business. The exploration data library is a differentiated asset library of seismic surveys and other subsurface data that customers rely on for better exploration and development decisions. These licensed datasets also support carbon storage design and monitoring. The library covers key exploration and producing basins worldwide and datasets are refreshed and reprocessed to benefit from the latest imaging algorithms and AI technologies, enabled by high performance cloud computing.",
+    "• Professional Services: Includes consulting and other services required to support customers' digital transformations. These services include transition support from on-prem to cloud-based digital solutions, data clean-up and migration, workflow automation — including deployment of workflow solutions built within SLB's global network of Innovation Factori workspaces — and training to further enable customers' digital transformations.",
+    "Reservoir Performance – Consists of reservoir-centric technologies and services that are critical to optimizing reservoir productivity and performance. Reservoir Performance develops and deploys innovative technologies and services to evaluate, intervene, and stimulate reservoirs providing customers with greater insights into their assets and maximizing their return on investment.",
+    "The primary offerings comprising this Division are:",
+    "• Evaluation: Provides the measurement, interpretation, and insights necessary to understand the subsurface geology and fluids through wireline logging, downhole testing, and rock and fluid analysis services.",
+    "• Stimulation: Provides services to restore or enhance well productivity through hydraulic fracturing, matrix stimulation, and water treatment."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Business and Operational Risks",
+    "Our operations are subject to cyber incidents that could have a material adverse effect on our reputation, business, financial condition, results of operations, and cash flows.",
+    "We may fail to realize the anticipated benefits of the ChampionX acquisition.",
+    "Failure to effectively and timely address the energy transition could adversely affect our reputation, business, results of operations, and cash flows.",
+    "We operate in a highly competitive environment. If we are unable to maintain technology leadership, this could adversely affect any competitive advantage we hold.",
+    "Limitations on our ability to obtain, maintain, protect, or enforce our intellectual property rights, including our trade secrets, could cause a loss in revenue and any competitive advantage we hold.",
+    "Third parties may claim that we have infringed upon or otherwise violated their intellectual property rights.",
+    "Legal and Regulatory Risks",
+    "Our operations require us to comply with numerous laws and regulations, violations of which could have a material adverse effect on our reputation, financial condition, results of operations or cash flows.",
+    "Existing or future laws, regulations, court orders or other public- or private-sector initiatives to limit greenhouse gas emissions or relating to climate change may reduce demand for our products and services.",
+    "Environmental compliance costs and liabilities arising as a result of environmental laws and regulations could have a material adverse effect on our business, financial condition, results of operations, and cash flows.",
+    "We could be subject to substantial liability claims, including as a result of well incidents, which could adversely affect our reputation, financial condition, results of operations, and cash flows.",
+    "General Risk Factors",
+    "Our aspirations, goals, and initiatives related to sustainability and emissions reduction, and our public statements and disclosures regarding them, expose us to numerous risks.",
+    "Failure to attract and retain qualified personnel could impede our operations.",
+    "Severe weather events, including extreme weather conditions associated with climate change, have in the past and may in the future adversely affect our operations and financial results."
+   ],
+   "paragraphs": [
+    "The following discussion of risk factors known to us contains important information for the understanding of our \"forward-looking statements,\" which are discussed immediately following Item 7A. of this Form 10-K and elsewhere. These risk factors should also be read in conjunction with Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations, and the Consolidated Financial Statements and related notes included in Item 8. Financial Statements and Supplementary Data of this Form 10-K.",
+    "Please carefully consider the risks described below, which discuss the material factors that make an investment in our securities speculative or risky, other material included or incorporated by reference in this Form 10-K, and other reports and materials that we file with the SEC. Additional risks and uncertainties not currently known to us or that we currently deem immaterial could also materially adversely affect our business, reputation, financial condition, results of operations, cash flows, and prospects.",
+    "Demand for our products and services is substantially dependent on the levels of expenditures by our customers, which can change based on many factors, including fluctuations in oil and gas prices. Oil and gas industry downturns have resulted in reduced demand for oilfield products and services and lower expenditures by our customers, which has in the past had, and may in the future have, a material adverse effect on our financial condition, results of operations and cash flows.",
+    "Demand for our products and services depends substantially on expenditures by our customers for the exploration, development and production of oil and gas reserves. These expenditures are generally dependent on our customers' views of future demand for oil and gas and future oil and gas prices, as well as our customers' ability to access capital. In addition, the transition of the global energy sector from a primarily fossil fuel-based system to a diverse system which includes renewable energy sources could affect our customers' levels of expenditures.",
+    "Actual and anticipated declines in oil and gas prices have in the past resulted in, and may in the future result in, lower capital expenditures, project modifications, delays or cancellations, general business disruptions, and delays in payment of, or nonpayment of, amounts that are owed to us. These effects have had, and may in the future have, a material adverse effect on our financial condition, results of operations and cash flows.",
+    "Historically, oil and gas prices have experienced significant volatility and can be affected by a variety of factors, including:"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "2025 Executive Overview",
+    "Fourth Quarter 2025 Results",
+    "Fourth Quarter 2025",
+    "Reservoir Performance",
+    "Well Construction",
+    "Production Systems",
+    "Full-Year 2025 Results",
+    "Full-Year 2024 Results",
+    "Interest & Other Income",
+    "Charges and Credits",
+    "Liquidity and Capital Resources",
+    "Components of Liquidity:",
+    "Changes in Liquidity:",
+    "Cash flow from operations",
+    "Free cash flow (3)",
+    "Change in net debt before impact of changes in foreign exchange rates",
+    "Decrease in Net Debt",
+    "Net Debt, End of period",
+    "Total Number",
+    "Average Price",
+    "Fixed rate debt",
+    "Variable rate debt",
+    "Critical Accounting Estimates",
+    "Change in Assumption"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis contains forward-looking statements, including, without limitation, statements relating to our plans, strategies, objectives, expectations, intentions, and resources. Such forward-looking statements should be read in conjunction with our disclosures under \"Item 1A. Risk Factors\" of this Annual Report on Form 10-K.",
+    "SLB previously reported its results on the basis of four Divisions: Digital & Integration, Reservoir Performance, Well Construction, and Production Systems. Commencing the third quarter of 2025, SLB's Digital business is reported as a separate Division. Additionally, SLB's Asset Performance Solutions (\"APS\"), Data Center Solutions, and SLB Capturi businesses are now reported in the All Other category. The acquired ChampionX businesses are predominantly reported in SLB's Production Systems Division, with the exception of its digital business, which is reported in SLB's Digital Division. Prior periods have been recast to conform to the current presentation.",
+    "Although 2025 presented a challenging backdrop for the industry—with lower commodity prices, geopolitical uncertainty and an oversupplied oil market—we continued to build resilience across our portfolio by accelerating our strategy. We completed the acquisition of ChampionX during the third quarter in an all-stock transaction valued at $4.9 billion. The combined portfolio, technology capabilities and digital leadership positions SLB to create value for its customers and stakeholders by increasing its exposure to the growing production and recovery market while delivering best-in-class workflow integration across production chemicals and artificial lift. In addition to growing our emphasis on production and recovery, we also increased deployment of AI solutions and the rapid expansion of our Data Center Solutions business.",
+    "Amidst lower upstream spending, global revenue of $35.7 billion declined 2% year on year, while we generated $6.5 billion of cash flow from operations and $4.1 billion of free cash flow, enabling us to return $4.0 billion to shareholders.",
+    "Excluding the $1.5 billion of revenue from the acquisition of ChampionX, revenue declined 6% year on year as growth in our Digital and Data Center Solutions businesses were more than offset by declines in Saudi Arabia, Mexico and offshore Sub-Saharan Africa.",
+    "International revenue declined 5% year on year due to the lower activity in Saudi Arabia, Mexico and Sub-Saharan Africa while North America revenue grew 12% driven by the ChampionX acquisition. Excluding the impact of this transaction, North American revenue declined 2% despite a 5% drop in upstream spending, supported by growth in Data Center Solutions which grew 121% year on year. This business is expanding rapidly as we strengthen strategic partnerships with hyperscalers to leverage our modular data center manufacturing capabilities.",
+    "Digital revenue increased 9% on a full-year basis driven by significant uptake in Digital Operations as well as steady growth in Platforms & Applications as customers continued to invest in automated solutions to improve performance and efficiency.",
+    "SLB concluded the year with a very strong fourth quarter driven by Production Systems, Digital and Reservoir Performance. Notably, fourth quarter revenue increased sequentially across each of our four geographies for the first time since the second quarter of 2024, reflecting stabilized global upstream activity. We experienced sequential organic revenue growth both in North America and in the international markets, driven by higher offshore activity and strong year-end product and digital sales in Latin America, the Middle East and Asia, across Sub-Saharan Africa and in North America Offshore.",
+    "As we move into 2026, we believe the headwinds we experienced in key regions in 2025 are behind us. In particular, we expect rig activity in the Middle East, to increase compared to today's level, and our footprint in the region puts us in a strong position to benefit from this recovery.",
+    "As economics remain challenged, production and recovery activity is becoming a strategic priority for our customers to unlock incremental barrels at the lowest cost. This is translating into higher demand particularly for intervention services, artificial lift, production chemicals and SLB OneSubsea.",
+    "We expect that Data Center Solutions will be our fastest growing business for years to come, and Digital will continue to grow at highly accretive margins. Both present differentiated growth opportunities for SLB in 2026 and beyond.",
+    "SLB has consistently proven that the unique strengths of our portfolio enable us to create differentiated value and generate significant cash flows in varied market conditions.",
+    "As we move through the year, we anticipate that activity will gradually improve in the key markets where we operate, giving us the confidence that we will generate strong cash flows, once again, in 2026.",
+    "Aligned with our clear priority to create value for investors, we are committed to returning more than $4 billion to shareholders in 2026 through dividends and share repurchases."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "其他項目 – 此類別主要包含以下內容：",
+    "企業戰略",
+    "永續發展",
+    "人力資本",
+    "智慧財產權",
+    "政府法規",
+    "企業資訊",
+    "可取得資訊",
+    "有關本公司高階主管之資訊",
+    "第 16 節 高階主管",
+    "現任職務與過去五年商業經驗",
+    "其他公司高階主管"
+   ],
+   "paragraphs": [
+    "本報告中所有提及 \"Registrant,\" \"Company,\" \"SLB,\" \"we\" 或 \"our\" 皆指 SLB N.V. (SLB Limited) 及其合併子公司。",
+    "SLB 是一家全球科技公司，推動能源創新以實現平衡的地球。SLB 在超過 100 個國家擁有全球據點，員工代表的國籍幾乎是其數量的兩倍，我們每天都在創新能源科技、大規模交付數位化、產業去碳化，以及開發和擴展加速能源轉型的新能源系統。",
+    "世界面臨的挑戰是，在滿足日益增長的能源需求同時，快速去碳化以實現可持續的未來。憑藉近一個世紀的市場與科技領導地位，SLB 有條件且致力於成為解決此三重困境的領導者。",
+    "SLB 主要根據四個部門組織，這些部門結合並整合 SLB 的科技，增強我們支持這些市場領域長期增長機會的能力。這四個部門為：",
+    "• 數位化 • 資源性能 • 開鑽工程 • 生產系統",
+    "數位化 – 包含 SLB 的行業領先數位解決方案與資料產品，涵蓋從地質特徵到油田開發與石化產品，再到碳管理及整合鄰近能源系統的整個能源價值鏈。收入來自四個關鍵解決方案 — 平台與應用程式、數位運作、數位探勘與專業服務。",
+    "• 平台與應用程式：包含 SLB 的雲端科技，例如 Delfi 和 Lumi 平台，以及一系列專門針對特定領域的應用程式，例如 Petrel 和 Techlog，以 SaaS 訂閱或永久授權方式提供。這些平台與應用程式自動化複雜模型，以模擬儲層開發計畫的影響，並協助規劃鑽井、完井與生產設計等關鍵作業。此外，它們能解鎖資料並利用人工智慧（\"AI\"）與機器學習，以減少週期時間並提高作業流程效率，使客戶能做出更佳、更快的決策，以改善其專案經濟效益與儲層表現。",
+    "• 數位運作：結合 SLB 的油氣服務優勢與先進數位科技，以提供更可靠、更高效且更自動化的現場運作。透過整合連線解決方案與 Performance Live 數位服務交付中心，客戶可獲得即時監測、遠端決策與自動執行其作業流程，從自動鑽井到自動井 Intervention，同時降低成本並提高專案經濟效益。收入來自與 SLB 的核心部門（開鑽工程、資源性能與生產系統）相同的客戶羣。為鼓勵核心部門與數位化部門開發與推廣數位運作，所產生的收入會同時計入相應的核心部門與數位化部門。此影響在合併時會消除。",
+    "• 數位探索：代表 SLB 的探勘資料業務。探勘資料庫為一項差異化的資產庫，包含地震調查及其他地下資料，客戶依賴這些資料以做出更優的探勘與開發決策。這些授權資料集也支援碳封存設計與監測。資料庫涵蓋全球重要的探勘與生產盆地，資料集會定期更新與重新處理，以利用最新的影像演算法與 AI 技術，並透過高性能雲端計算實現。",
+    "• 專業服務：包含協助客戶進行數位轉型所需的諮詢及其他服務。這些服務包括從內部系統轉移至雲端數位解決方案的過渡支援、資料清理與遷移、工作流程自動化 — 包含在 SLB 全球創新工廠網路內部署工作流程解決方案 — 以及培訓，以進一步協助客戶進行數位轉型。",
+    "儲層表現 – 包含對優化儲層生產力與表現至關重要的儲層中心技術與服務。儲層表現開發並部署創新技術與服務，用以評估、幹擾與刺激儲層，為客戶提供更深入的資產洞察，並最大化其投資回報。",
+    "組成此部門的主要產品為：",
+    "• 評估：提供透過電線電阻率測井、井下測試及岩石與流體分析服務，用以測量、解釋及獲得對地下地質與流體的洞察。",
+    "• 刺激：提供服務以恢復或提升井的生產力，包括水力壓裂、基質刺激及水處理。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "2025 高管摘要",
+    "2025 年第四季營運結果",
+    "2025 年第四季",
+    "儲層表現",
+    "井構造",
+    "生產系統",
+    "2025 年全年營運結果",
+    "2024 年全年營運結果",
+    "利息及其它收入",
+    "費用及信貸",
+    "流動性及資本資源",
+    "流動性組成項目:",
+    "流動性變動:",
+    "營運現金流",
+    "自由現金流 (3)",
+    "淨負債變動前之外匯匯率變動影響",
+    "淨負債減少",
+    "期末淨負債",
+    "總數量",
+    "平均價格",
+    "固定利率負債",
+    "變動利率負債",
+    "關鍵會計估計",
+    "假設變更"
+   ],
+   "paragraphs": [
+    "以下討論與分析包含前瞻性聲明，包括但不限於與我們計畫、策略、目標、預期、意圖及資源相關之陳述。此等前瞻性聲明應與本年度報告表10-K之「第1A項 風險因素」部分之揭露同時參考。",
+    "SLB先前依四個部門報告其結果：數位與整合、儲層效能、井建造及生產系統。自2025年第三季起，SLB之數位業務已作為獨立部門報告。此外，SLB之資產效能解決方案（\"APS\"）、資料中心解決方案及SLB Capturi業務現已歸類於其他業務類別。取得之ChampionX業務主要歸類於SLB之生產系統部門，除外其數位業務，已歸類於SLB之數位部門。先前期間已重新整理以符合目前之呈現方式。",
+    "儘管2025年產業面臨挑戰性環境—包括較低之商品價格、地緣政治不確定性及過度供給之油市場—我們仍持續透過加速策略來強化資產組合之韌性。我們於第三季完成對ChampionX之收購，以全股票交易方式進行，價值為49億美元。結合後之資產組合、技術能力及數位領導地位，使SLB能透過增加對生產與回收市場之曝光度，同時提供最佳之工作流程整合，為客戶與利害關係人創造價值。此外，我們亦加強對生產與回收之重視，同時增加AI解決方案之部署，以及資料中心解決方案業務之快速擴張。",
+    "在上游支出減少之情況下，全球營收為357億美元，較去年同期減少2%，而我們產生65億美元之營運現金流及41億美元之自由現金流，使我們得以回饋40億美元予股東。",
+    "扣除ChampionX收購所產生15億美元營收後，營收較去年同期減少6%，因數位及資料中心解決方案業務之成長，被沙特阿拉伯、墨西哥及離岸撒哈拉非洲之減少所抵銷。",
+    "國際營收較去年同期減少5%，因沙特阿拉伯、墨西哥及撒哈拉非洲之活動減少，而北美營收成長12%，主要受益於ChampionX收購。扣除此交易之影響，北美營收減少2%，儘管上游支出減少5%，但受益於資料中心解決方案業務成長121%之表現。此業務正快速擴張，因我們強化與超規模企業之戰略合作關係，以善用我們之模組化資料中心製造能力。",
+    "數位營收較去年同期成長9%，因數位運作之大幅採用，以及平台與應用之穩定成長，因客戶持續投資自動化解決方案以提升表現與效率。",
+    "SLB以非常強勁之第四季作結，由生產系統、數位及儲層效能帶動。值得注意的是，第四季營收在各個地理區域均較前一季度成長，這是自2024年第二季以來首次，反映全球上游活動已穩定。我們在北美及國際市場均實現順勢營收成長，因離岸活動增加及拉丁美洲、中東及亞洲、撒哈拉非洲及北美離岸之年底產品與數位銷售表現強勁。",
+    "隨著我們邁向2026年，我們認為我們在2025年所經歷的主要地區的逆風已經過去了。特別是，我們預期中東地區的鑽井活動將較目前水平有所增加，而我們在該地區的業務佈局使我們處於強大地位，能夠從這一波復甦中受益。",
+    "隨著經濟情況仍然困難，生產與復甦活動正成為我們客戶的戰略優先事項，以以最低成本挖掘額外的產量。這轉化為對幹擾服務、人工提舉、生產化學品以及SLB OneSubsea的更高需求。",
+    "我們預期資料中心解決方案將成為我們未來數年成長最快的業務，而數位業務將持續以高度獲利邊際成長。這兩者為SLB在2026年及以後提供了不同的成長機會。",
+    "SLB一直證明，我們產品組合的獨特優勢使我們能夠在不同市場環境中創造差異化的價值並產生顯著的現金流。",
+    "隨著我們逐步邁入本年度，我們預期在我們運作的主要市場中，活動將逐漸改善，這使我們對我們將在2026年再次產生強勁現金流的信心。",
+    "與我們明確的優先事項即為為投資人創造價值一致，我們承諾在2026年透過股息與股票回購，回饋給股東超過40億美元。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "營運與作業風險",
+    "本公司營運可能面臨網路安全事件，此等事件可能對本公司聲譽、營運、財務狀況、營業成果及現金流造成重大不利影響。",
+    "本公司可能無法實現 ChampionX 收購預期的效益。",
+    "若本公司未能有效且及時應對能源轉型，可能對本公司聲譽、營運、營業成果及現金流造成不利影響。",
+    "本公司營運於高度競爭環境中。若本公司無法維持技術領導地位，可能對本公司所持有的競爭優勢造成不利影響。",
+    "本公司取得、維持、保護或執行智慧財產權之權利，包括專利技術，可能受到限制，此等限制可能導致營收減少及競爭優勢喪失。",
+    "第三方可能聲稱本公司侵犯其智慧財產權或以其他方式違反其智慧財產權之權利。",
+    "法律與法規風險",
+    "本公司營運需遵守眾多法律及法規，違反這些法律及法規可能對本公司聲譽、財務狀況、營運成果或現金流造成重大不利影響。",
+    "現行或未來法律、法規、法院命令或其他公部門或私部門的措施，用以限制溫室氣體排放或與氣候變遷相關，可能降低本公司產品及服務的需求。",
+    "因應環境法規而產生的環境合規成本及潛在責任，可能對本公司營運、財務狀況、營運成果及現金流造成重大不利影響。",
+    "本公司可能面臨重大賠償聲請，包括因油井事故所導致的責任，可能對本公司聲譽、財務狀況、營運成果及現金流造成不利影響。",
+    "一般風險因素",
+    "本公司與永續性及排放量減少相關的願景、目標及計畫，以及本公司對這些事項的公開聲明及披露，使本公司面臨許多風險。",
+    "未能吸引並留住合適的人員，可能影響本公司營運。",
+    "嚴重天氣事件，包括與氣候變遷相關的極端天氣狀況，過去曾對本公司營運及財務結果造成不利影響，未來也可能造成同樣影響。"
+   ],
+   "paragraphs": [
+    "以下對風險因素的討論為本公司所知的重要資訊，用以說明我們的「預測性陳述」，這些預測性陳述於本 Form 10-K 第 7A 項後立即討論，並於其他地方提及。這些風險因素應與第 7 項「管理層對財務狀況與營運結果之討論與分析」，以及包含於第 8 項「財務報表與補充資料」的合併財務報表及相關附註一併閱讀。",
+    "請謹慎考慮下列風險，這些風險討論了使投資本公司證券成為投機或風險因素的關鍵因素，以及其他包含或援引於本 Form 10-K 的重要資訊，以及本公司向 SEC 提交的其他報告與資料。目前未知或本公司認為不重要的其他風險與不確定性，也可能對我們的業務、聲譽、財務狀況、營運結果、現金流與前景產生重大不利影響。",
+    "我們產品與服務的需求在很大程度上取決於客戶的支出水平，而這些支出可能因多種因素而變化，包括原油與天然氣價格的波動。原油與天然氣產業的衰退已導致對油田產品與服務的需求減少，以及客戶支出減少，這在過去已對我們的財務狀況、營運結果與現金流產生重大不利影響，未來也可能產生相同影響。",
+    "我們產品與服務的需求在很大程度上取決於客戶在探勘、開發與生產原油與天然氣儲量方面的支出。這些支出通常取決於客戶對未來原油與天然氣需求的預期以及未來原油與天然氣價格，以及客戶取得資金的能力。此外，全球能源產業從以化石燃料為主的系統轉向包含可再生能源的多元系統，也可能影響客戶的支出水平。",
+    "實際或預期的原油與天然氣價格下跌在過去已導致，並可能在未來導致，資本支出減少、專案修改、延遲或取消、一般營運中斷，以及應收帳款延遲支付或未支付。這些影響在過去已對我們的財務狀況、營運結果與現金流產生重大不利影響，未來也可能產生相同影響。",
+    "歷史資料顯示，原油與天然氣價格曾出現顯著波動，且可能受到多種因素的影響，包括："
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

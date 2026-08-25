@@ -1,0 +1,197 @@
+{
+ "ticker": "WDC",
+ "cik": "0000106040",
+ "accession": "0001628280-26-057139",
+ "form": "10-K",
+ "reportDate": "2026-07-03",
+ "sections": {
+  "business": {
+   "headings": [
+    "Research and Technology",
+    "Business Strategy",
+    "Patents, Licenses and Proprietary Information",
+    "Manufacturing and Suppliers",
+    "Sales and Distribution",
+    "Cyclicality and Seasonality",
+    "Service and Warranty",
+    "Human Capital",
+    "Government Regulation",
+    "Corporate Responsibility and Sustainability",
+    "Environmental Stewardship: We help protect the planet and the environment by setting and delivering robust environmental targets and driving innovation, accountability, and partnerships for systemic impact.",
+    "Stakeholder Empowerment: We engage stakeholders across our value chain, including our workforce, customers, suppliers, and communities.",
+    "Responsible Business: We build trust through principled leadership, embedding accountability, integrity, and sustainability into decision-making processes.",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Western Digital was founded in 1970 and is a Standard & Poor's 500 (\"S&P 500\") company headquartered in San Jose, California. We are a leading developer, manufacturer, and provider of data storage devices and solutions based on hard disk drive (\"HDD\") technology. HDDs are critical components in the worldwide data infrastructure market, powering the AI-driven digital economy. HDDs provide reliable, cost-effective, high-capacity storage needs for a wide range of applications, ranging from cloud data centers, enterprise storage systems, edge computing, and smart video to client and consumer devices.",
+    "At Western Digital, we believe that data storage provides the strategic foundation for the AI-driven data economy. We focus on designing and building data storage solutions that are intelligent, efficient, and reliable. We execute on this mission through rigorous scientific research, engineering excellence, and deep customer collaboration, so that each product advancement provides value for our customers and shareholders.",
+    "With much of the world's data stored on Western Digital products, our innovation helps drive the global storage technology ecosystem, anchored in the cloud, and extending from consumer devices to the edge.",
+    "Our broad portfolio of technology and products, sold under the Western Digital® and WD® brands, addresses our customers' storage needs through multiple end markets: \"Cloud,\" \"Client\" and \"Consumer\".",
+    "Cloud. Cloud represents our largest and fastest growing end market comprised primarily of products for public or private cloud environments and enterprise customers. We enable cloud, Internet and social media infrastructure players to build more powerful, cost-effective and efficient data centers. We provide the Cloud end market with an array of high-capacity enterprise HDDs. Our high-capacity enterprise HDDs address growing storage demands with high reliability, easy scalability, and lower time to value for our customers — all while delivering a low total cost of ownership for cloud data center and smart video system markets. These drives are primarily for use in data storage systems, in tiered storage models and where data must be stored reliably for years.",
+    "Client. Through the Client end market, we provide our original equipment manufacturer (\"OEM\") and channel customers a broad array of high-performance HDD solutions across desktop and notebooks. Our products are designed for use in devices requiring high performance, reliability and capacity with various attributes such as low cost per gigabyte, quiet acoustics, and low power consumption.",
+    "Consumer. We have also built strong consumer brand recognition with tools to help individuals manage vast libraries of personal content and to push the limits of what is possible for storage. We serve the Consumer end market with a portfolio of HDD external storage products that we offer globally through our retail and channel partners.",
+    "We operate in the data storage industry. The ability to access, store and share data from anywhere on any device is increasingly important to our customers and end users. From the intelligent edge to the cloud, data storage is not just foundational to AI, but also a fundamental component underpinning global technology architecture. Our strengths in innovation, areal density and cost leadership provide a foundation upon which we are solidifying our position as an essential building block of the AI-driven data economy. We believe there is tremendous market opportunity created by the rapid global adoption of technology built with cloud infrastructure, connected intelligent devices, and high-performance networks.",
+    "The increase in computing complexity and advancements in AI, along with growth in cloud computing applications, connected mobile devices and Internet-connected products and edge devices is driving rapid growth in the volume of digital content to be stored and used. While this growth has led to the creation of several form factors for data storage and an increasing use of a tiered architecture approach, HDDs occupy a unique place in the market by providing an economical means to create, store and utilize an increasing amount of data in the age of AI. We believe HDDs provide a sustainable total cost of ownership advantage to our cloud customers to meet their storage needs.",
+    "The strong growth in the amount, value and use of data continues to create a global need for larger, faster and more capable storage solutions. We have extensive customer, partner and channel relationships across our end markets and geographies and a rich heritage of innovation and operational excellence. We have a wide range of intellectual property (\"IP\") assets, including patent portfolios containing approximately 4,700 active patents, covering groundbreaking data storage technologies, magnetic recording and other technology building blocks. We have broad research and development (\"R&D\") capabilities and devote substantial resources to the development of new products and the improvement of existing products. We focus our engineering efforts on optimizing our product design and manufacturing processes to bring our products to market in a cost-effective and timely manner. We continue to transform ourselves to address the growth in data by providing what we believe to be the broadest range of storage technologies in the industry with a comprehensive product portfolio and global reach. For a discussion of associated risks, see Part I, Item 1A, Risk Factors, of this Annual Report on Form 10-K.",
+    "HDD products provide non-volatile data storage by recording magnetic information on rotating disks. We design and manufacture substantially all of the recording head and magnetic media in our HDD products, positioning us as an industry leader in innovations that drive higher areal density and superior performance. Our improvements in HDD capacity, which lower product costs over time, have been enabled largely through advancements in magnetic recording head and media technologies. Our multi-year product roadmap for high-capacity HDDs, which include ePMR, OptiNAND, UltraSMR, heat-assisted magnetic recording (\"HAMR\") and triple stage actuators to deliver a cutting-edge portfolio of drives, in commercial volumes, at a wide variety of capacity points, puts Western Digital in a strong position to capitalize on the opportunities presented by the large and growing storage markets. We invest considerable resources in R&D, manufacturing infrastructure and capital equipment for recording head and media technology, as well as other aspects of the magnetic recording system such as HDD mechanics, controller and firmware technology, in order to secure our competitive position and cost structure. Our products generally leverage a common platform for various products within product families, and in some cases across product families, resulting in the commonality of components which reduces our exposure to changes in demand, facilitates inventory management and allows us to achieve lower costs through purchasing economies. This platform strategy also enables our customers to leverage their qualification efforts onto successive product models.",
+    "We believe we are well-positioned in a competitive industry with our leading product portfolio, differentiated innovation engine, global manufacturing footprint, and leadership in driving areal density and cost efficiency. Nevertheless, we face strong competition from several manufacturers of storage products and storage systems and solutions, whether directly or indirectly. Our competitors include HDD competitors such as Seagate Technology Holdings plc, and Toshiba Electronic Devices & Storage Corporation along with NAND flash suppliers that provide and enable alternative storage technologies, as well as storage systems and solutions providers.",
+    "Our vision is to unleash the power and value of data. Our mission is to be the market leader in data storage by delivering storage solutions for now and the future. By understanding our customers' needs, together we can help them unlock the value and power of data that we are starting to see come to the fore, especially in this age of AI.",
+    "Our overall strategy focuses on leadership, innovation and execution, based on our core capabilities grounded in magnetics and photonics expertise and our strength in nano-feature fabrication. Our goal is to further WD as an industry-leading and broad-based developer, manufacturer and provider of advanced technology storage devices and solutions that support and enable the proliferation of data. We believe this positions us well for emerging opportunities in adjacent and new technology markets. Our strategy reflects the following foundational elements: (1) Enhanced customer focus for driving greater customer advocacy and deeper customer engagement across our current and future addressable markets, (2) Product and technology leadership for realizing the best total cost of ownership through disciplined product management and for enabling innovation in new product categories, (3) Rigorous financial discipline by having a clear capital allocation strategy, ambitious financial targets and prudent capital investment, (4) Operational excellence for driving best-in-class cost to achieve industry-leading margin profiles with strong execution, (5) Innovation and growth for creating new products and applications and identifying new market opportunities, and (6) High performance teams with the skill sets to meet go-forward business needs."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Loss of revenue from Cloud or other key customers could harm our operating results.",
+    "If we do not properly manage technology transitions and product development and introduction, our competitiveness and operating results may be negatively affected.",
+    "We are dependent on a limited number of qualified suppliers who provide critical services, materials or components, and a disruption in our supply chain could negatively affect our business.",
+    "Long-term agreements expose us to certain execution, financial, and market risks, which could be significant.",
+    "The loss of our key management, staff and skilled employees or the inability to hire and develop new employees could negatively impact our business prospects.",
+    "Failure to successfully execute on strategic initiatives including acquisitions, divestitures or cost saving measures may negatively impact our future results.",
+    "Our strategic relationships subject us to risks and uncertainties that could harm our business.",
+    "Adverse global or regional conditions could harm our business.",
+    "Changes in U.S. trade policy and the impact of tariffs and retaliatory actions may have a material adverse effect on our business and results of operations.",
+    "Our industry is subject to variations in demand, pricing and competitive factors, which can negatively impact our business.",
+    "Our operations, and those of certain of our suppliers and customers, are subject to substantial risk of damage or disruption.",
+    "We may be adversely affected by the risks, challenges, and evolving regulatory landscape associated with the use of AI in our operations, product development, and business practices.",
+    "Our incurrence of additional debt may negatively impact our liquidity, restrict our operations and ability to respond to business opportunities, and increase our vulnerability to adverse economic and industry conditions.",
+    "Tax matters may materially affect our financial position and results of operations.",
+    "If the completed Separation of Sandisk were to fail to qualify as a transaction that is generally tax-free for U.S. federal income tax purposes, we and our stockholders could be subject to significant tax liabilities.",
+    "Fluctuations in currency exchange rates as a result of our international operations may negatively affect our operating results."
+   ],
+   "paragraphs": [
+    "Our business can be affected by a number of risks and uncertainties, any of which could cause material harm to our actual operating results and financial condition. The risks discussed below are not the only ones facing our business but represent risks that we believe are material to us. Additional risks not presently known to us or that we currently deem immaterial may also negatively affect our business.",
+    "There is significant revenue concentration in our Cloud end market and among our top customers. For the year ended July 3, 2026, the Cloud end market accounted for 89% of our net revenue and our top 10 customers accounted for 73% of our net revenue, with three customers each accounting for 10% or more of our net revenue.",
+    "If demand declines for any reason, and/or we fail to respond to changes in demand, in Cloud or other key customers, our business could suffer. The impact of generative AI on the storage and data management markets and regulation thereof is still unfolding and could evolve unpredictably, and it could be difficult to accurately forecast related demands. As it evolves, our hyperscale customers could lower their investment in AI infrastructure. Our ability to maintain strong relationships with our principal customers is essential to our future performance. We have experienced and may in the future experience events such as the loss of a key customer, prohibition or restriction of sales to a key customer by law, regulation or other government action, reductions in sales to or orders by a key customer, customer requirements to reduce our prices before we are able to reduce costs or the acquisition of a key customer by one of our competitors. Further, government authorities may implement laws or regulations or take other actions that could result in significant changes to the business or operating models of our key customers. Any of these events could negatively impact our operating results.",
+    "The markets for our products continuously undergo technology transitions that can impact our product roadmaps and that we must anticipate in order to adapt our existing products or develop new products effectively. If we fail to adapt to or implement new technologies (including the transition to areal density recording technologies that use HAMR technology to increase HDD capacities), if we fail to quickly and cost-effectively develop new products that meet the specifications and requirements intended or desired by our customers or if technology transitions negatively impact our existing product roadmaps, our business may be harmed.",
+    "As we compete in new product areas, the overall complexity of our business may increase and may result in increases in R&D expenses and substantial investments in manufacturing capability, technology enhancements and go-to-market capability. Our gross margin could also face pressure if we are unable to achieve the desired manufacturing yields when we ramp our new technologies. Further, technological changes can reduce the volume and profitability of sales of existing products.",
+    "We must also qualify our products with customers through potentially lengthy testing processes with uncertain results. The success of our technology transitions and product development depends on a number of other factors, including difficulties faced in manufacturing ramp; market acceptance/qualification; effective management of inventory levels in line with anticipated product demand; the vertical integration of some of our products, which may result in more capital expenditures and greater fixed costs than if we were not vertically integrated; our ability to cost effectively respond to customer requests for new products or features (including requests for more efficient and efficiently-produced products with reduced environmental impacts) and software associated with our products; our ability to increase our software development capability; and the effectiveness of our go-to-market capability in selling new products."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Key Developments",
+    "Results of Operations",
+    "Liquidity and Capital Resources",
+    "Off-Balance Sheet Arrangements",
+    "Short- and Long-term Liquidity",
+    "Total 1 Year (2027) 2-3 Years (2028-2029) 4-5 Years (2030-2031) More than 5 Years (Beyond 2031)",
+    "2026 June 27,",
+    "Recent Accounting Pronouncements",
+    "Critical Accounting Policies and Estimates"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis contains forward-looking statements within the meaning of the federal securities laws and should be read in conjunction with the disclosures we make concerning risks and other factors that may affect our business and operating results. You should read this information in conjunction with the Consolidated Financial Statements and the notes thereto included in Part II, Item 8, Financial Statements and Supplementary Data, of this Annual Report on Form 10-K. See also \"Forward-Looking Statements\" immediately prior to Part I, Item 1, Business, of this Annual Report on Form 10-K.",
+    "We are a leading developer, manufacturer, and provider of data storage devices and solutions based on HDD technology. HDDs are critical components of the global data infrastructure market and play an essential role in enabling the AI-driven data economy. They provide reliable, cost-effective, high-capacity storage for a broad range of applications, including cloud data centers, enterprise storage systems, edge computing, smart video, client and consumer devices.",
+    "Our broad portfolio of technology and products, sold under the Western Digital® and WD® brands, addresses our customers' storage needs through multiple end markets: \"Cloud,\" \"Client\" and \"Consumer\". Cloud is our largest and fastest growing end market comprised primarily of products for public or private cloud environments and enterprise customers. Through the Client end market, we provide our OEM and channel customers a broad array of high-performance HDD solutions across desktop and notebooks. The Consumer end market offers a comprehensive portfolio of HDD external storage products that we offer globally through our retail and channel partners.",
+    "Our fiscal year ends on the Friday nearest to June 30 and typically consists of 52 weeks. Approximately every five to six years, we report a 53-week fiscal year to align the fiscal year with the foregoing policy. Fiscal year 2026, which ended on July 3, 2026, comprised 53 weeks, with the first quarter consisting of 14 weeks and the remaining quarters consisting of 13 weeks. Fiscal years 2025 and 2024, which ended on June 27, 2025 and June 28, 2024, respectively, each comprised 52 weeks, with all quarters presented consisting of 13 weeks.",
+    "The increasing long-term demand for data storage in the cloud is benefiting our HDD business. The adoption of AI and workloads driven by hybrid data are propelling growth in data storage as well. This creates an accelerated demand for higher-capacity drives, which have greater manufacturing complexity and longer production lead times. In response, customers are partnering with us earlier to support their future growth requirements and are extending the duration of their commercial arrangements, which improves our long-term visibility of demand.",
+    "Separation of Business Units and Monetization of Sandisk Shares",
+    "In the previous fiscal year, on February 21, 2025, we completed the Separation to create two independent public companies, with WD continuing our existing HDD business and Sandisk, formerly a wholly-owned subsidiary of the Company, operating the Flash business. We believe the Separation has better positioned us as a pure-play HDD company that can execute innovative technology and product development, capitalize on unique growth opportunities, extend our leadership position, operate more efficiently, and pursue capital allocation strategies to maximize long-term shareholder value. As part of the Separation, we initially retained 28.8 million shares of Sandisk common stock. In June 2025, we used 21.3 million shares of Sandisk common stock in a tax-free exchange to reduce approximately $800 million in principal amount of our term loan A-3 (the \"Term Loan A-3\"). In February 2026, we executed a series of transactions pursuant to which we used 5.8 million shares of Sandisk common stock to further reduce our debt and fully redeem our previously outstanding 4.75% senior unsecured notes due 2026, 2.85% senior notes due 2029, 3.10% senior notes due 2032 and Term Loan A-3 through a tax-free exchange. In the fourth quarter of 2026, we completed two separate equity-for-equity exchanges, which used our remaining 1.7 million shares of Sandisk common stock to acquire 4.8 million shares of our common stock, thereby reducing our share count. As of July 3, 2026, we no longer held shares of Sandisk common stock.",
+    "In addition to the actions taken to monetize our initial retained interest in shares of Sandisk, as noted above, we have continued to take significant actions to deleverage our business, reduce dilution and return capital to our investors.",
+    "In February 2026, we converted all remaining outstanding shares of our Preferred Shares, in accordance with their terms, into 7 million shares of our common stock.",
+    "In June 2026, we fully settled the conversion obligation on $32 million in aggregate principal amount of our 2028 Convertible Notes that were tendered in March 2026 (the \"Tendered Notes\"). We used $32 million of cash to settle the principal amount of the Tendered Notes, as required by the indenture, and elected to use an additional $328 million of cash to settle the conversion premium instead of settling the premium with 0.8 million shares of our common stock.",
+    "Also in June 2026, we entered into separate, privately negotiated exchange agreements with certain holders of $858 million in aggregate principal of our 2028 Convertible Notes. Pursuant to these agreements, we fully settled the obligation for $860 million in cash (which reflected principal amount and a small inducement cost) and 21.3 million shares of our common stock.",
+    "During our previous fiscal year, our Board of Directors authorized the adoption of a quarterly cash dividend program. Under the cash dividend program, holders of our common stock will receive dividends when and as declared by our Board of Directors. During the year ended July 3, 2026, we paid aggregate cash dividends of $0.50 per share of our outstanding common stock, totaling $174 million, plus $2 million paid to holders of our then-outstanding Preferred Shares in accordance with their participation rights.",
+    "Subsequent to year-end, on August 4, 2026, our Board of Directors declared a cash dividend of $0.15 per share of our common stock, which will be paid on September 17, 2026 to our shareholders of record as of the close of business on September 8, 2026.",
+    "During our previous fiscal year, our Board of Directors authorized a Share Repurchase Program for the repurchase of up to $2.0 billion of our common stock, and in February 2026, our Board of Directors authorized the repurchase of up to an additional $4.0 billion of our common stock. During the year ended July 3, 2026, we repurchased 14.7 million shares for a total cost of $2.59 billion. As of July 3, 2026, we had $3.26 billion available for repurchases under the Share Repurchase Program. Repurchases under the Share Repurchase Program may be made in the open market or in privately negotiated transactions and may be made under a Rule 10b5-1 plan. We expect shares repurchased under the Share Repurchase Program to be funded primarily by operating cash flows."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "研究與科技",
+    "商業策略",
+    "專利、許可證及專有資訊",
+    "製造與供應商",
+    "銷售與行銷",
+    "週期性與季節性",
+    "服務與保固",
+    "人力資本",
+    "政府規範",
+    "企業社會責任與永續性",
+    "環境永續：我們透過設定並達成嚴謹的環境目標，並推動創新、責任感與夥伴關係，以產生系統性的正面影響，來協助保護地球與環境。",
+    "利害關係人賦權：我們在價值鏈中與各項利害關係人進行互動，包括我們的員工、客戶、供應商與社區。",
+    "負責任的企業經營：我們透過具原則的領導方式，將責任感、誠信與永續性內建於決策過程中，以建立信任。",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "Western Digital 於 1970 年成立，為 Standard & Poor's 500 (\"S&P 500\") 公司，總部設於美國加州聖荷西。我們為硬碟機 (\"HDD\") 技術的領導開發者、製造商與服務提供者，提供資料儲存裝置與解決方案。HDD 是全球資料基礎設施市場的關鍵零組件，驅動 AI 經濟的數位經濟。HDD 提供可靠、成本效益高且容量大的儲存解決方案，應用範圍從雲端資料中心、企業儲存系統、邊緣運算、智慧視訊，到客戶端與消費者裝置。",
+    "在 Western Digital，我們認為資料儲存為 AI 經濟的戰略基礎。我們專注於設計與開發具備智慧化、效率與可靠性的資料儲存解決方案。我們透過嚴謹的科學研究、工程卓越與深入的客戶合作，執行此使命，使每一項產品進步都能為客戶與股東創造價值。",
+    "由於全球許多資料儲存在 Western Digital 產品上，我們的創新有助於驅動全球儲存技術生態系，以雲端為核心，並延伸至消費者裝置與邊緣運算。",
+    "我們的廣泛技術與產品組合，以 Western Digital® 與 WD® 品牌銷售，透過多個終端市場來解決客戶的儲存需求：\"雲端\"、\"客戶端\"與\"消費者\"。",
+    "雲端。雲端為我們最大且成長最快的終端市場，主要由用於公有或私有雲端環境與企業客戶的產品組成。我們協助雲端、網路與社交媒體基礎設施的業者建立更強大、成本效益高且效率佳的資料中心。我們為雲端終端市場提供一系列高容量企業 HDD。這些高容量企業 HDD 能夠因應日益成長的儲存需求，具備高可靠性、易於擴充與較短的投資回報週期，同時為雲端資料中心與智慧視訊系統市場提供低總擁有成本。",
+    "客戶端。透過客戶端終端市場，我們為原始設備製造商 (\"OEM\") 與通路客戶提供一系列高效能 HDD 解決方案，應用於桌上型與筆記型電腦。我們的產品設計用於需要高效能、可靠性與容量的裝置，並具備諸如每 GB 成本低、低噪音與低功耗等特性。",
+    "消費者。我們也建立了強大的消費者品牌認知，提供工具協助個人管理龐大的個人內容庫，並突破儲存的極限。我們透過零售與通路夥伴在全球提供 HDD 外部儲存產品，服務消費者終端市場。",
+    "我們經營於資料儲存產業。客戶與終端使用者對於從任何裝置任何地點存取、儲存與分享資料的需求日益增加。從智慧邊緣到雲端，資料儲存不僅是 AI 的基礎，也是全球科技架構的關鍵零組件。我們在創新、面積密度與成本領導方面的優勢，為我們奠定基礎，以強化我們在 AI 經濟資料儲存產業中的關鍵建設性角色。我們相信，雲端基礎設施、連線智慧裝置與高效能網路的快速全球採用，創造了巨大的市場機會。",
+    "計算機複雜度的提升與人工智慧（AI）的進步，以及雲端計算應用、連線行動裝置與網路裝置的成長，正驅動數位內容儲存與使用的體積快速成長。雖然這種成長已導致資料儲存的多種形式出現，並增加階層式架構的使用，但硬碟機（HDDs）在市場上佔有獨特地位，因其提供一種經濟的方式，用以在AI時代創造、儲存與使用越來越多的資料。我們認為HDDs為我們的雲端客戶提供可持續的總成本優勢，以滿足其儲存需求。",
+    "資料的數量、價值與使用持續成長，繼續創造全球對更大、更快且更強大儲存解決方案的需求。我們在各終端市場與地理區域擁有廣泛的客戶、合作夥伴與通路關係，並擁有創新與運營卓越的豐富歷史。我們擁有廣泛的智慧財產權（\"IP\"）資產，包括包含約4,700項活躍專利的專利組合，涵蓋突破性的資料儲存技術、磁性記錄及其他技術基礎元件。我們擁有廣泛的研究與開發（\"R&D\"）能力，並投入大量資源於新產品的開發與現有產品的改進。我們的工程努力重點在於優化產品設計與製造流程，以成本效益且及時的方式將產品推向市場。我們持續進行轉型，以應對資料成長，提供我們認為產業中最廣泛的儲存技術，並擁有完整的產品組合與全球影響力。有關相關風險的討論，請參閱本年度報告10-K表格第I部，第1A項，風險因素。",
+    "HDD產品透過在旋轉磁碟上記錄磁性資訊，提供非揮發性資料儲存。我們設計並製造HDD產品中絕大部分的錄寫頭與磁性媒體，使我們在推動更高單位面積密度與優越性能的創新方面處於產業領先地位。我們在HDD容量的改進，使產品成本隨時間降低，這主要透過磁性記錄頭與媒體技術的進步實現。我們針對高容量HDD的多年產品路線圖，包括ePMR、OptiNAND、UltraSMR、熱輔助磁性記錄（\"HAMR\"）與三階段執行器，以提供一系列先進的硬碟產品，於商業規模下，於多種容量點上推出，使西部資料儲存（Western Digital）在龐大且持續成長的儲存市場中處於強大優勢。我們投入大量資源於錄寫頭與媒體技術的研究與開發、製造基礎設施與資本設備，以及磁性記錄系統的其他方面，如HDD機械結構、控制器與固件技術，以確保我們的競爭地位與成本結構。我們的產品通常利用共同平台，於不同產品家族內，有時甚至跨產品家族，導致零組件的共通性，降低我們對需求變動的暴露，並有助於庫存管理，使我們能透過採購規模經濟達到較低成本。此平台策略也使客戶能將其認證努力轉移到後續產品型號上。",
+    "我們認為，在競爭激烈的產業中，我們憑藉領先的產品組合、差異化的創新引擎、全球製造據點，以及在推動單位面積密度與成本效益方面的領導地位，處於優勢位置。然而，我們仍面臨來自多個儲存產品與儲存系統及解決方案製造商的強烈競爭，無論是直接或間接競爭。我們的競爭對手包括HDD競爭對手，如Seagate Technology Holdings plc、Toshiba Electronic Devices & Storage Corporation，以及提供並啟動替代儲存技術的NAND快閃記憶體供應商，以及儲存系統與解決方案供應商。",
+    "我們的願景是釋放資料的潛力與價值。我們的使命是成為資料儲存市場的領導者，提供現在與未來的儲存解決方案。透過瞭解客戶的需求，我們可以協助他們釋放資料的價值與潛力，這正是我們在AI時代開始看到的趨勢。",
+    "我們的整體策略聚焦於領導地位、創新與執行，基於我們在磁性與光學領域的專業知識，以及在納米特徵製造方面的強項。我們的目標是進一步將西部資料儲存（WD）打造成產業領先且廣泛的資料儲存設備與解決方案的開發者、製造者與供應商，以支持並啟動資料的普及。我們認為這使我們在鄰近與新興技術市場的未來機會中處於優勢位置。我們的策略反映以下基礎要素：(1) 增強客戶關注，以推動更高的客戶忠誠度與更深的客戶參與，於我們現有與未來可達市場中；(2) 產品與技術領導地位，以實現最佳總成本效益，透過嚴謹的產品管理，並啟動新產品類別的創新；(3) 嚴謹的財務紀律，透過明確的資本配置策略、雄心勃勃的財務目標與謹慎的資本投資；(4) 優秀的運營表現，以推動最佳成本，實現產業領先的毛利率與強大的執行能力；(5) 創新與成長，以創造新產品與應用，並識別新的市場機會；(6) 高效能團隊，具備符合未來業務需求的技能組合。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "重大發展",
+    "營運成果",
+    "流動性及資本資源",
+    "表外契約安排",
+    "短、長期流動性",
+    "總計 1 年 (2027) 2-3 年 (2028-2029) 4-5 年 (2030-2031) 5 年以上 (2031 之後)",
+    "2026 年 6 月 27 日",
+    "最近會計準則公告",
+    "重要會計政策與會計估計"
+   ],
+   "paragraphs": [
+    "以下討論與分析包含根據聯邦證券法所界定之向前看陳述，應與我們所披露之風險及其他可能影響我們業務與營運結果之因素一併閱讀。請配合本年度10-K表報表第二部分，第8項，財務資料與補充資料，以及財務報表與補充資料一併閱讀。請參閱本年度10-K表報表第一部分，第1項，業務，前的「向前看陳述」。",
+    "我們為以HDD技術為基礎的數據儲存裝置與解決方案之領導開發者、製造商與供應商。HDD為全球數據基礎設施市場之關鍵零組件，並在推動AI驅動數據經濟中扮演關鍵角色。它們為廣泛應用提供可靠、成本效益高且容量大的儲存解決方案，包括雲端資料中心、企業儲存系統、邊緣計算、智慧影片、客戶與消費者裝置。",
+    "我們以Western Digital®與WD®品牌銷售的廣泛技術與產品組合，透過多個終端市場來解決客戶的儲存需求：「雲端」、「客戶」與「消費者」。雲端為我們最大且成長最快的終端市場，主要由用於公有或私有雲端環境與企業客戶的產品組成。透過客戶終端市場，我們為OEM與通路客戶提供涵蓋桌上型與筆記型電腦的高性能量產HDD解決方案。消費者終端市場提供一套完整的HDD外接儲存產品組合，我們透過零售與通路夥伴在全球進行銷售。",
+    "我們的會計年度結算日為6月30日最近的星期五，通常為52週。約每五到六年，我們會報告一個53週的會計年度，以符合上述政策。2026會計年度，於2026年7月3日結算，包含53週，其中第一季為14週，其餘季度為13週。2025會計年度與2024會計年度，分別於2025年6月27日與2024年6月28日結算，各為52週，所有季度均為13週。",
+    "雲端數據儲存長期需求的增加，使我們的HDD業務受益。AI的採用與混合數據驅動的工作負載正在推動數據儲存的成長。這創造了對更高容量硬碟的加速需求，這些硬碟具有更高的製造複雜度與更長的生產週期。為回應此情況，客戶與我們更早合作，以支持他們未來的成長需求，並延長其商業協議的期限，這提高了我們對需求的長期可見度。",
+    "業務單位分離與Sandisk股票的資本化",
+    "在上一個會計年度，我們於2025年2月21日完成分離，以創建兩間獨立的上市公司，WD繼續我們現有的HDD業務，而Sandisk，原為本公司之 wholly-owned subsidiary，則經營Flash業務。我們相信此分離使我們更符合純粹HDD公司的定位，能執行創新技術與產品開發，把握獨特成長機會，延續領導地位，運作更有效率，並追求資本配置策略以最大化長期股東價值。作為分離的一部分，我們最初保留了28.8萬 shares 的Sandisk普通股。2025年6月，我們使用21.3萬 shares 的Sandisk普通股進行無稅務交換，以減少約8億美元本金的Term Loan A-3（\"Term Loan A-3\"）。2026年2月，我們執行一系列交易，使用5.8萬 shares 的Sandisk普通股進一步減少債務，並透過無稅務交換完全贖回先前發行的4.75%高收益無擔保票據（2026年到期）、2.85%高收益無擔保票據（2029年到期）、3.10%高收益無擔保票據（2032年到期）以及Term Loan A-3。在2026年第四季，我們完成兩項獨立的股權交換，使用我們剩餘的1.7萬 shares 的Sandisk普通股以取得4.8萬 shares 的本公司普通股，從而減少我們的股數。截至2026年7月3日，我們不再持有Sandisk普通股。",
+    "除了上述行動以資本化我們最初保留的Sandisk股票權益外，如上所述，我們也持續採取重大行動以減少負債、減少稀釋並回饋資本給投資者。",
+    "2026 年 2 月，我們依照其條款，將所有未兌換的優先股轉換為 700 萬股普通股。",
+    "2026 年 6 月，我們完成了 3200 萬美元本金金額的 2028 年可轉換票據的兌換義務，這些票據於 2026 年 3 月遞交（稱為 \"遞交票據\"）。我們使用 3200 萬美元現金償還遞交票據的本金，如契約所規定，並選擇使用額外 32.8 億美元現金償還兌換 premium，而非以 80 萬股普通股償還 premium。",
+    "2026 年 6 月，我們與持有 85.8 億美元本金金額的 2028 年可轉換票據的某些持有人簽訂了獨立的私下協議。根據這些協議，我們以 86 億美元現金（包含本金金額及一小筆誘因費用）及 21.3 萬股普通股完全償還了義務。",
+    "在上一個會計年度，我們董事會批准了每季現金股息計畫。根據現金股息計畫，持有我們普通股的股東將根據董事會宣佈的時間與條件獲得股息。在截至 2026 年 7 月 3 日的會計年度內，我們支付了 0.50 美元每股的現金股息，總計 17.4 億美元，另加 200 萬美元支付給當時持有優先股的股東，以符合其參與權利。",
+    "在會計年度結尾後，2026 年 8 月 4 日，我們董事會宣佈了每股 0.15 美元的現金股息，將於 2026 年 9 月 17 日支付給截至 2026 年 9 月 8 日收市時登記在冊的股東。",
+    "在上一個會計年度，我們董事會批准了最高 20 億美元的普通股買回計畫，並在 2026 年 2 月批准了額外最高 40 億美元的普通股買回計畫。在截至 2026 年 7 月 3 日的會計年度內，我們買回了 1470 萬股，總成本為 259 億美元。截至 2026 年 7 月 3 日，我們在買回計畫下仍有 326 億美元可用。買回計畫下的買回作業可能在公開市場或私下協議中進行，也可能根據 Rule 10b5-1 計畫進行。我們預期買回計畫下的買回作業將主要由營運現金流資助。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "來自 Cloud 或其他重要客戶的收入減少可能影響我們的營運成果。",
+    "若我們未能妥善管理科技轉型與產品開發及推出，我們的競爭力與營運成果可能受到負面影響。",
+    "我們依賴有限數量的合格供應商提供關鍵服務、材料或零組件，供應鏈中斷可能對我們的業務造成負面影響。",
+    "長期契約使我們面臨某些執行、財務與市場風險，這些風險可能相當重大。",
+    "關鍵管理層、員工及技術人員的流失，或無法聘僱與培訓新員工，可能對我們的業務前景造成負面影響。",
+    "若未能成功執行戰略計畫，包括收購、出售資產或節省成本措施，可能對我們未來的成果造成負面影響。",
+    "我們的戰略合作關係使我們面臨風險與不確定性，這些可能對我們的業務造成損害。",
+    "不利的全球或區域情勢可能對我們的業務造成損害。",
+    "美國貿易政策的變動以及關稅與報復性行動的影響，可能對本公司業務及營運結果造成重大不利影響。",
+    "本公司所屬產業受需求、價格及競爭因素的變動影響，可能對本公司業務造成負面影響。",
+    "本公司及其部分供應商與客戶的營運，可能面臨重大損壞或中斷的風險。",
+    "本公司可能因在營運、產品開發及業務作法中使用人工智能所涉及的風險、挑戰及不斷演變的監管環境而受到不利影響。",
+    "本公司增加債務可能對流動性造成負面影響，限制營運及應對業務機會的能力，並增加對不利經濟及產業環境的敏感度。",
+    "稅務事項可能對本公司財務狀況及營運結果造成重大影響。",
+    "若已完成的Sandisk分離交易未能符合美國聯邦所得稅目的稅務無償稅交易標準，本公司及其股東可能面臨重大稅務負擔。",
+    "因國際營運所致的貨幣兌換率波動，可能對本公司營運結果造成負面影響。"
+   ],
+   "paragraphs": [
+    "本公司業務可能受到多種風險與不確定性影響，任何一種都可能對本公司實際營運成果與財務狀況造成重大損害。下列討論的風險並非本公司唯一面臨的風險，但本公司認為這些風險對本公司而言屬重要風險。此外，尚有其他未被本公司目前知悉或目前認為不重要的風險，也可能對本公司業務造成負面影響。",
+    "我們的雲端終端市場收入集中度相當高，且主要客戶亦集中。截至2026年7月3日財年終，雲端終端市場佔本公司淨銷售額的89%，而本公司前十大客戶則佔淨銷售額的73%，其中三個客戶各自佔淨銷售額10%或以上。",
+    "若因任何原因導致需求下降，且/或本公司未能因應需求變動，於雲端或其他重要客戶，本公司業務可能受損。生成式AI對儲存與資料管理市場的影響及相關規範仍在進行中，且可能出現不可預測的變化，因此難以準確預測相關需求。隨著技術演進，本公司超規模客戶可能降低對AI基礎設施的投資。本公司維持與主要客戶良好關係的能力，對本公司未來表現至關重要。本公司已經驗過且未來可能經驗過諸如失去關鍵客戶、因法律、規範或其他政府行動而被禁止或限制對關鍵客戶銷售、關鍵客戶銷售減少或訂單減少、客戶要求在本公司能降低成本前就降低價格，或關鍵客戶被本公司競爭對手收購等事件。此外，政府機關可能實施法律或規範或採取其他行動，導致本公司關鍵客戶的業務或營運模式產生重大變化。上述任何事件都可能對本公司營運成果造成負面影響。",
+    "本公司產品所屬市場持續進行技術轉型，這可能影響本公司產品路線圖，且本公司必須預測這些轉變以有效調整現有產品或開發新產品。若本公司未能適應或實施新技術（包括轉向使用HAMR技術以提高HDD容量的面密度記錄技術），若本公司未能快速且成本效益地開發符合客戶預期或期望規格與需求的新產品，或技術轉型對本公司現有產品路線圖造成負面影響，本公司業務可能受損。",
+    "隨著我們在新產品領域進行競爭，本公司業務整體複雜度可能增加，並導致研發費用增加及在製造能力、技術升級與市場推廣能力上的重大投資。若本公司在推廣新技術時無法達到預期的製造良率，本公司毛利率也可能面臨壓力。此外，技術變更可能降低現有產品的銷售量與利潤率。",
+    "本公司亦必須透過可能耗時且結果不確定的測試程序，使產品獲得客戶認證。本公司技術轉型與產品開發的成功取決於多種因素，包括製造量產時所面臨的困難；市場接受度/認證；有效管理存貨水準以符合預期產品需求；部分產品的垂直整合，這可能導致較高的資本支出與固定成本，若本公司未進行垂直整合；本公司以成本效益方式回應客戶對新產品或功能的請求（包括對更高效且更有效生產、環境影響較低的產品的請求，以及與產品相關的軟體）的能力；本公司提升軟體開發能力的能力；以及本公司市場推廣能力在銷售新產品方面的有效性。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,219 @@
+{
+ "ticker": "CMS",
+ "cik": "0000811156",
+ "accession": "0000811156-26-000004",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Business Segments",
+    "Gas Utility Properties: Consumers' gas transmission, storage, and distribution system consists of:",
+    "Independent Power Production: Presented in the following table is information about the independent power plants in which CMS Energy had an ownership interest at December 31, 2025:",
+    "CMS Energy and Consumers Regulation",
+    "CMS Energy and Consumers Environmental Strategy and Compliance",
+    "Human Capital",
+    "CMS Energy, including Consumers",
+    "Information About CMS Energy's and Consumers' Executive Officers",
+    "Garrick J. Rochow (age 51)",
+    "Rejji P. Hayes (age 51)",
+    "Tonya L. Berry (age 53)",
+    "Shaun M. Johnson (age 47)",
+    "Brandon J. Hofmeister (age 49)",
+    "Lauren Snyder (age 44)",
+    "Scott B. McIntosh (age 50)",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "CMS Energy was formed as a corporation in Michigan in 1987 and is an energy company operating primarily in Michigan. It is the parent holding company of several subsidiaries, including Consumers, an electric and gas utility, and NorthStar Clean Energy, primarily a domestic independent power producer and marketer. Consumers' customer base consists of a mix of primarily residential, commercial, and diversified industrial customers. NorthStar Clean Energy, through its subsidiaries and equity investments, is engaged in domestic independent power production, including the development and operation of renewable generation, and the marketing of independent power production.",
+    "CMS Energy manages its businesses by the nature of services each provides, and operates principally in three business segments: electric utility; gas utility; and NorthStar Clean Energy, its non‑utility operations and investments. Consumers' consolidated operations account for the substantial majority of CMS Energy's total assets, income, and operating revenue. CMS Energy's consolidated operating revenue was $8.5 billion in 2025, and $7.5 billion in 2024 and 2023.",
+    "For further information about operating revenue, income, and assets and liabilities attributable to all of CMS Energy's business segments and operations, see Item 8. Financial Statements and Supplementary Data—CMS Energy Consolidated Financial Statements and Notes to the Consolidated Financial Statements.",
+    "Consumers has served Michigan customers since 1886. Consumers was incorporated in Maine in 1910 and became a Michigan corporation in 1968. Consumers owns and operates electric generation and distribution facilities and gas transmission, storage, and distribution facilities. It provides electricity and/or natural gas to 6.8 million of Michigan's 10 million residents. Consumers' rates and certain other aspects of its business are subject to the jurisdiction of the MPSC and FERC, as well as to NERC reliability standards, as described in CMS Energy and Consumers Regulation.",
+    "Consumers' consolidated operating revenue was $8.1 billion in 2025, and $7.2 billion in 2024 and 2023. For further information about operating revenue, income, and assets and liabilities attributable to Consumers' electric and gas utility operations, see Item 8. Financial Statements and Supplementary Data—Consumers Consolidated Financial Statements and Notes to the Consolidated Financial Statements.",
+    "Consumers owns its principal properties in fee, except that most electric lines, gas mains, and renewable generation projects are located below or adjacent to public roads or on land owned by others and are accessed by Consumers through easements, leases, and other rights. Almost all of Consumers' properties are subject to the lien of its First Mortgage Bond Indenture. For additional information on Consumers' properties, see Business Segments—Consumers Electric Utility—Electric Utility Properties and Consumers Gas Utility—Gas Utility Properties.",
+    "In 2025, Consumers served 1.9 million electric customers and 1.8 million gas customers in Michigan's Lower Peninsula. Presented in the following map are Consumers' service territories:",
+    "Electric service territory Gas service territory Combination electric and gas service territory",
+    "CMS Energy and Consumers—The Triple Bottom Line",
+    "For information regarding CMS Energy's and Consumers' purpose and impact on the \"triple bottom line\" of people, planet, and prosperity, see Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations—Executive Overview.",
+    "Electric Utility Operations: Consumers' electric utility operations, which include the generation, purchase, distribution, and sale of electricity, generated operating revenue of $5.6 billion in 2025, $5.1 billion in 2024, and $4.7 billion in 2023. Consumers' electric utility customer base consists of a mix of primarily residential, commercial, and diversified industrial customers in Michigan's Lower Peninsula.",
+    "Presented in the following illustration is Consumers' 2025 electric utility operating revenue of $5.6 billion by customer class:",
+    "Consumers' electric utility operations are not dependent on a single customer, or even a few customers, and the loss of any one or even a few of Consumers' largest customers is not reasonably likely to have a material adverse effect on Consumers' financial condition.",
+    "In 2025, Consumers' electric deliveries were 37 billion kWh, which included ROA deliveries of 3 billion kWh, resulting in net bundled sales of 34 billion kWh. In 2024, Consumers' electric deliveries were 37 billion kWh, which included ROA deliveries of 4 billion kWh, resulting in net bundled sales of 33 billion kWh."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "CMS Energy depends on dividends from its subsidiaries to meet its debt service obligations.",
+    "CMS Energy has indebtedness that could limit its financial flexibility and its ability to meet its debt service obligations.",
+    "CMS Energy and Consumers have financing needs and could be unable to obtain bank financing or access the capital markets.",
+    "Market performance and other changes could decrease the value of employee benefit plan assets, which then could require substantial funding.",
+    "Changes to ROA could have a material adverse effect on CMS Energy's and Consumers' businesses.",
+    "Distributed energy resources could have a material adverse effect on CMS Energy's and Consumers' businesses.",
+    "CMS Energy and Consumers are subject to rate regulation, which could have a material adverse effect on financial results.",
+    "Utility regulation, state or federal legislation, regulation, and compliance could have a material adverse effect on CMS Energy's and Consumers' businesses.",
+    "Changes in taxation as well as the inherent difficulty in quantifying potential tax effects of business decisions could negatively impact CMS Energy and Consumers.",
+    "CMS Energy and its subsidiaries, including Consumers, must comply with the Dodd-Frank Act and its related regulations.",
+    "CMS Energy and Consumers could incur substantial costs to comply with environmental requirements.",
+    "CMS Energy's and Consumers' businesses could be affected adversely by any delay in meeting environmental requirements.",
+    "CMS Energy and Consumers expect to incur additional substantial costs related to environmental remediation of former sites.",
+    "There are risks associated with Consumers' substantial capital investment program planned for the next five years.",
+    "CMS Energy and Consumers could be affected adversely by legacy litigation and retained liabilities.",
+    "Consumers is exposed to risks related to general economic conditions in its service territories.",
+    "Consumers is exposed to changes in customer usage that could impact financial results.",
+    "CMS Energy's and Consumers' energy sales and operations are affected by seasonal factors and varying weather conditions from year to year.",
+    "Demand for electricity associated with data center expansion could have a material effect on CMS Energy and Consumers.",
+    "CMS Energy and Consumers are subject to information security risks, risks of unauthorized access to their systems, and technology failures.",
+    "CMS Energy's and Consumers' businesses have liability risks.",
+    "CMS Energy and Consumers might not be able to obtain an adequate supply of natural gas or coal, which could limit their ability to operate electric generation facilities or serve Consumers' natural gas customers.",
+    "Unplanned outages or maintenance could be costly for CMS Energy or Consumers.",
+    "CMS Energy and Consumers are exposed to counterparty risk.",
+    "CMS Energy and Consumers are exposed to significant reputational risks.",
+    "A work interruption or other union actions could adversely affect CMS Energy and Consumers.",
+    "Failure to attract and retain an appropriately qualified workforce could adversely impact CMS Energy's and Consumers' results of operations."
+   ],
+   "paragraphs": [
+    "CMS Energy and Consumers are exposed to a variety of factors, often beyond their control, that are difficult to predict and that involve uncertainties that may materially adversely affect CMS Energy's or Consumers' business, liquidity, financial condition, or results of operations. Additional risks and uncertainties not presently known or that management believes to be immaterial may also adversely affect CMS Energy or Consumers. The risk factors described in the following sections, as well as the other information included in this report and in other documents filed with the SEC, should be considered carefully before making an investment in securities of CMS Energy or Consumers. Risk factors of Consumers are also risk factors of CMS Energy.",
+    "Due to its holding company structure, CMS Energy depends on dividends from its subsidiaries to meet its debt service and other payment obligations. If sufficient dividends were not paid to CMS Energy by its subsidiaries, CMS Energy might not be able to generate the funds necessary to fulfill its payment obligations.",
+    "Consumers' ability to pay dividends or acquire its own stock from CMS Energy is limited by restrictions contained in Consumers' preferred stock provisions and potentially by other legal restrictions, such as certain terms in its articles of incorporation and FERC requirements.",
+    "The level of CMS Energy's present and future indebtedness could have several important effects on its future operations, including, among others, that:",
+    "•a significant portion of CMS Energy's cash flow from operations could be dedicated to the payment of principal and interest on its indebtedness and would not be available for other purposes",
+    "•covenants contained in CMS Energy's existing debt arrangements, which require it to meet certain financial tests, could affect its flexibility in planning for, and reacting to, changes in its business"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Executive Overview",
+    "Results of Operations",
+    "Cash Position, Investing, and Financing",
+    "CMS Energy, including Consumers",
+    "Capital Resources and Liquidity",
+    "CMS Energy, parent only",
+    "NorthStar Clean Energy"
+   ],
+   "paragraphs": [
+    "CMS Energy is an energy company operating primarily in Michigan. It is the parent holding company of several subsidiaries, including Consumers, an electric and gas utility, and NorthStar Clean Energy, primarily a domestic independent power producer and marketer. Consumers' electric utility operations include the generation, purchase, distribution, and sale of electricity, and Consumers' gas utility operations include the purchase, transmission, storage, distribution, and sale of natural gas. Consumers' customer base consists of a mix of primarily residential, commercial, and diversified industrial customers. NorthStar Clean Energy, through its subsidiaries and equity investments, is engaged in domestic independent power production, including the development and operation of renewable generation, and the marketing of independent power production.",
+    "CMS Energy and Consumers manage their businesses by the nature of services each provides. CMS Energy operates principally in three business segments: electric utility; gas utility; and NorthStar Clean Energy, its non‑utility operations and investments. Consumers operates principally in two business segments: electric utility and gas utility. CMS Energy's and Consumers' businesses are affected primarily by:",
+    "•regulation and regulatory matters •state and federal legislation •economic conditions •load growth",
+    "•weather •energy commodity prices •interest rates •their securities' credit ratings The Triple Bottom Line",
+    "CMS Energy's and Consumers' purpose is to provide safe, reliable, affordable, clean, and equitable energy in service of their customers. In support of this purpose, CMS Energy and Consumers couple digital transformation with the \"CE Way,\" a lean operating system designed to improve safety, quality, cost, delivery, and employee morale.",
+    "CMS Energy and Consumers measure their progress toward the purpose by considering their impact on the \"triple bottom line\" of people, planet, and prosperity; this consideration takes into account not only the economic value that CMS Energy and Consumers create for customers and investors, but also their responsibility to social and environmental goals. The triple bottom line balances the interests of employees, customers, suppliers, regulators, creditors, Michigan's residents, the investment community, and other stakeholders, and it reflects the broader societal impacts of CMS Energy's and Consumers' activities.",
+    "CMS Energy's Sustainability Report, which is available to the public, describes CMS Energy's and Consumers' progress toward world class performance measured in the areas of people, planet, and prosperity.",
+    "People: The people element of the triple bottom line represents CMS Energy's and Consumers' commitment to their employees, their customers, the residents of local communities in which they do business, and other stakeholders.",
+    "The safety of co-workers, customers, and the general public is a priority of CMS Energy and Consumers. Accordingly, CMS Energy and Consumers have worked to integrate a set of safety principles into their business operations and culture. These principles include complying with applicable safety, health, and security regulations and implementing programs and processes aimed at continually improving safety and security conditions.",
+    "CMS Energy and Consumers also place a high priority on customer value and on providing reliable, affordable, and equitable energy in service of their customers. Consumers' customer-driven investment program is aimed at improving safety and increasing electric and gas reliability.",
+    "In the electric rate case it filed with the MPSC in June 2025, Consumers updated its Reliability Roadmap, a five‑year strategy to improve Consumers' electric distribution system and the reliability of the grid. The plan proposes spending through 2029 for projects designed to reduce the number and duration of power outages to customers through investment in infrastructure upgrades, vegetation management, and grid",
+    "modernization. Consumers has requested rate recovery of the investments needed to achieve the Reliability Roadmap's key objectives in its electric rate cases.",
+    "Central to Consumers' commitment to its customers are the initiatives it has undertaken to keep electricity and natural gas affordable, including:",
+    "•replacement of coal-fueled generation and PPAs with a cost-efficient and reliable mix of renewable energy, less-costly dispatchable generation sources, and energy waste reduction and demand response programs"
+   ],
+   "focus": "Executive Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "業務分部",
+    "天然氣公用設施：消費者之天然氣輸送、儲存與分配系統包含：",
+    "獨立發電廠：以下表格顯示 CMS Energy 於 2025 年 12 月 31 日擁有權益之獨立發電廠之資訊：",
+    "CMS Energy 與 Consumers 規範",
+    "CMS Energy 與 Consumers 環境策略與合規",
+    "人力資本",
+    "CMS Energy（包括 Consumers）",
+    "關於 CMS Energy 與 Consumers 之高階主管資訊",
+    "Garrick J. Rochow (年齡 51)",
+    "Rejji P. Hayes (年齡 51)",
+    "Tonya L. Berry (年齡 53)",
+    "Shaun M. Johnson (年齡 47)",
+    "Brandon J. Hofmeister (年齡 49)",
+    "Lauren Snyder (年齡 44)",
+    "Scott B. McIntosh (年齡 50)",
+    "可供查閱資訊"
+   ],
+   "paragraphs": [
+    "CMS Energy 於 1987 年在密歇根州成立為一家公司，並為一家主要在密歇根州營運的能源公司。本公司為多家子公司之母公司，包括 Consumers，一家電力與天然氣公用事業，以及 NorthStar Clean Energy，主要為一家美國獨立發電與行銷商。Consumers 的客戶羣體為主要為住宅、商業及多元化工業客戶之混合組成。NorthStar Clean Energy 透過其子公司與股權投資，從事美國獨立發電業務，包括可再生能源發電之開發與營運，以及獨立發電之行銷。",
+    "CMS Energy 依各營運單位所提供之服務類型來管理其業務，並主要營運於三個業務分部：電力公用事業；天然氣公用事業；以及 NorthStar Clean Energy，其非公用事業之營運與投資。Consumers 統合營運佔 CMS Energy 總資產、收入與營運收入之絕大多數。CMS Energy 統合營運收入於 2025 年為 85 億美元，於 2024 年及 2023 年為 75 億美元。",
+    "如需進一步資訊關於營運收入、收入及資產與負債歸屬於 CMS Energy 所有業務分部與營運，請參閱第 8 項：財務報表與補充資料—CMS Energy 統合財務報表與統合財務報表附註。",
+    "Consumers 自 1886 年起為密歇根州客戶提供服務。Consumers 於 1910 年在緬因州設立，並於 1968 年成為密歇根州公司。Consumers 擁有並營運電力發電與配電設施以及天然氣輸送、儲存與配電設施。其為密歇根州 1,000 萬居民中約 680 萬人提供電力與/或天然氣。Consumers 之費用與某些其他業務方面受密歇根州公共服務委員會（MPSC）與美國聯邦能源管理局（FERC）之管轄，以及受 NERC 可靠性標準之規範，如 CMS Energy 與 Consumers 規則所述。",
+    "Consumers 統合營運收入於 2025 年為 81 億美元，於 2024 年及 2023 年為 72 億美元。如需進一步資訊關於營運收入、收入及資產與負債歸屬於 Consumers 之電力與天然氣公用事業營運，請參閱第 8 項：財務報表與補充資料—Consumers 統合財務報表與統合財務報表附註。",
+    "Consumers 之主要資產為自有產權，除大部分電力線路、天然氣主管與可再生能源發電專案位於公共道路下方或旁邊或為他人所有之土地，並透過使用權、租賃及其他權利由 Consumers 進行使用。Consumers 之幾乎所有資產均受其第一抵押債券契約之擔保。如需進一步資訊關於 Consumers 之資產，請參閱業務分部—Consumers 電力公用事業—電力公用事業資產與 Consumers 天然氣公用事業—天然氣公用事業資產。",
+    "2025 年，Consumers 在密歇根州下半島服務 190 萬電力客戶與 180 萬天然氣客戶。以下地圖顯示 Consumers 之服務範圍：",
+    "電力服務範圍 天然氣服務範圍 電力與天然氣服務範圍",
+    "CMS Energy and Consumers—The Triple Bottom Line",
+    "有關 CMS Energy 及 Consumers 之目的及其對「三重底線」（people, planet, and prosperity）之影響之資訊，請參閱第 7 項 管理層對財務狀況與營運成果之討論與分析—執行長簡介。",
+    "電力公用事業營運：Consumers 之電力公用事業營運，包括電力之發電、購電、配電與銷售，於 2025 年產生營業收入 56 億美元，2024 年為 51 億美元，2023 年為 47 億美元。Consumers 之電力公用事業客戶羣主要為 Michigan 下半島之住宅、商業及多元化工業客戶之組合。",
+    "以下圖示顯示 Consumers 2025 年電力公用事業營運收入 56 億美元，按客戶類別分列：",
+    "Consumers 之電力公用事業營運不依賴單一客戶，或甚至少數客戶，且任何單一或少數之 Consumers 最大客戶之流失，對 Consumers 之財務狀況造成重大不利影響之可能性並不高。",
+    "2025 年，Consumers 之電力供應為 370 億千瓦時，其中包括 ROA 供應 3 億千瓦時，產生淨捆綁銷售 340 億千瓦時。2024 年，Consumers 之電力供應為 370 億千瓦時，其中包括 ROA 供應 4 億千瓦時，產生淨捆綁銷售 330 億千瓦時。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "執行長概觀",
+    "營運成果",
+    "現金狀況、投資與資金運用",
+    "CMS Energy，包括消費者",
+    "資本資源與流動性",
+    "CMS Energy，母公司單獨",
+    "NorthStar Clean Energy"
+   ],
+   "paragraphs": [
+    "CMS Energy 為一能源公司，主要營運於密歇根州。其為多家子公司之母公司，包括 Consumers，為一電力與天然氣公用事業，以及 NorthStar Clean Energy，主要為一美國獨立發電與行銷公司。Consumers 電力公用事業營運包含電力之發電、購入、分配與銷售，其天然氣公用事業營運包含天然氣之購入、輸送、儲存、分配與銷售。Consumers 之客戶羣包含主要為住宅、商業與多元化工業客戶。NorthStar Clean Energy 透過其子公司與股權投資，從事美國獨立發電業務，包含再生能源發電之開發與運營，以及獨立發電之行銷。",
+    "CMS Energy 與 Consumers 依其所提供之服務類型管理其業務。CMS Energy 主要營運於三個業務分部：電力公用事業；天然氣公用事業；以及 NorthStar Clean Energy，其非公用事業業務與投資。Consumers 主要營運於兩個業務分部：電力公用事業與天然氣公用事業。CMS Energy 與 Consumers 之業務主要受以下因素影響：",
+    "• 規管與規管事項 • 州與聯邦立法 • 經濟條件 • 負載成長",
+    "• 天氣 • 能源商品價格 • 利率 • 其證券之信用評級 The Triple Bottom Line",
+    "CMS Energy 與 Consumers 之目標為為其客戶提供安全、可靠、經濟、清潔且公平之能源。為支持此目標，CMS Energy 與 Consumers 以數位轉型搭配 \"CE Way\"，為一精簡作業系統，旨在提升安全、品質、成本、交付與員工士氣。",
+    "CMS Energy 與 Consumers 以考量其對 \"三重底線\" 之影響，衡量其朝目標之進展；此考量不僅包含 CMS Energy 與 Consumers 對客戶與投資人所創造之經濟價值，亦包含其對社會與環境目標之責任。三重底線平衡員工、客戶、供應商、規管機構、債權人、密歇根州居民、投資社羣及其他利害關係人之利益，並反映 CMS Energy 與 Consumers 之活動對社會之廣泛影響。",
+    "CMS Energy 之永續發展報告，可供公眾取得，說明 CMS Energy 與 Consumers 朝世界級表現之進展，並以人、地球與繁榮三方面衡量。",
+    "人：三重底線之人之要素代表 CMS Energy 與 Consumers 對其員工、客戶、其營運所在地之地方居民及其他利害關係人之承諾。",
+    "本公司與消費者均將同仁、客戶及一般大眾的安全視為首要事項。因此，本公司與消費者已努力將一組安全原則整合至其業務運作與文化中。這些原則包括遵守適用的安全、健康與安全規範，並實施旨在持續改善安全與安全條件的方案與流程。",
+    "本公司與消費者亦非常重視客戶價值，並致力於為客戶提供可靠、經濟且公平的能源服務。消費者所推動的以客戶為導向的投資方案，旨在提升安全並增加電力與天然氣的可靠性。",
+    "在2025年6月向密歇根公共服務委員會（MPSC）提出的電力費率案中，消費者更新了其可靠性路線圖，這是一項五年策略，旨在改善消費者的電力配電系統與電網的可靠性。該計畫提出從2029年為期的投資，用以透過基礎設施升級、植被管理與電網現代化，減少對客戶的電力中斷次數與持續時間。",
+    "消費者已於其電力費率案中請求回饋實現可靠性路線圖關鍵目標所需的投資。",
+    "消費者對客戶的承諾，核心在於其為維持電力與天然氣價格合理所採取的措施，包括：",
+    "•以成本效益高且可靠的再生能源、較低成本的可調度發電來源，以及能源浪費減少與需求回應方案，取代燃煤發電與PPAs"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "CMS Energy 依賴其子公司之股息以償付其債務償還義務。",
+    "CMS Energy 有債務負擔，可能限制其財務彈性及償付債務償還義務之能力。",
+    "CMS Energy 與 Consumers 有資金需求，可能無法取得銀行融資或進入資本市場。",
+    "市場表現及其他變動可能降低員工福利計畫資產之價值，進而可能需要大量資金補足。",
+    "ROA 之變動可能對 CMS Energy 與 Consumers 之業務產生重大不利影響。",
+    "分散式能源資源可能對 CMS Energy 與 Consumers 之業務產生重大不利影響。",
+    "CMS Energy 與 Consumers 受利率管制影響，可能對財務結果產生重大不利影響。",
+    "電力業管制、州或聯邦立法、管制及合規要求可能對 CMS Energy 與 Consumers 之業務產生重大不利影響。",
+    "稅制變更以及難以量化商業決策潛在稅務影響的固有困難，可能對 CMS Energy 和 Consumers 產生負面影響。",
+    "CMS Energy 及其子公司，包括 Consumers，必須遵守 Dodd-Frank 法案及其相關規範。",
+    "CMS Energy 和 Consumers 可能因符合環境要求而產生重大成本。",
+    "CMS Energy 和 Consumers 的業務可能因未能如期符合環境要求而受到不利影響。",
+    "CMS Energy 和 Consumers 預期因前屬場地的環境整治而產生額外的重大成本。",
+    "與 Consumers 計畫於未來五年進行的重大資本投資計劃相關的風險存在。",
+    "CMS Energy 和 Consumers 可能因遺留訴訟及保留負債而受到不利影響。",
+    "Consumers 在其服務區域所面臨的總體經濟狀況相關風險存在。",
+    "Consumers 面臨客戶使用情況的變動，此等變動可能影響財務結果。",
+    "CMS Energy 以及 Consumers 的能源銷售及營運受季節性因素及年度間氣候條件變動影響。",
+    "與資料中心擴張相關的電力需求可能對 CMS Energy 及 Consumers 產生重大影響。",
+    "CMS Energy 及 Consumers 面臨資訊安全風險、未經授權存取其系統的風險及科技系統故障的風險。",
+    "CMS Energy 及 Consumers 的業務涉及賠償責任的風險。",
+    "CMS Energy 及 Consumers 可能無法取得足夠的天然氣或燃煤，此情況可能限制其運作電力發電設施或服務 Consumers 的天然氣客戶的能力。",
+    "CMS Energy 或 Consumers 可能因未預期的停機或維護而產生高昂成本。",
+    "CMS Energy 及 Consumers 面臨交易對方風險。",
+    "{'original': 'CMS Energy and Consumers are exposed to significant reputational risks.', 'translated': 'CMS Energy 以及 Consumers 面臨重大聲譽風險。'}",
+    "{'original': 'A work interruption or other union actions could adversely affect CMS Energy and Consumers.', 'translated': '工作中斷或其他工會行動可能對 CMS Energy 以及 Consumers 產生不利影響。'}",
+    "{'original': \"Failure to attract and retain an appropriately qualified workforce could adversely impact CMS Energy's and Consumers' results of operations.\", 'translated': '未能吸引並留住合適資格的員工可能對 CMS Energy 以及 Consumers 的營運成果產生不利影響。'}"
+   ],
+   "paragraphs": [
+    "CMS Energy and Consumers 面臨多種因素的影響，這些因素往往超出其控制範圍，且難以預測，並涉及可能對 CMS Energy 或 Consumers 的業務、流動性、財務狀況或營運結果造成重大不利影響的不確定性。此外，尚有其他未被目前知悉或管理層認為不重要的風險與不確定性，也可能對 CMS Energy 或 Consumers 造成不利影響。在考慮投資 CMS Energy 或 Consumers 的證券前，應仔細審閱後續各節所描述的風險因素，以及本報告及其他向 SEC 提交文件中包含的其他資訊。Consumers 的風險因素同時也是 CMS Energy 的風險因素。",
+    "由於 CMS Energy 係採用控股公司結構，因此其依賴子公司支付股息以履行債務償還及其他付款義務。若子公司未能足額支付股息給 CMS Energy，CMS Energy 可能無法產生足夠資金以履行其付款義務。",
+    "Consumers 向 CMS Energy 支付股息或購回其股票的能力受到 Consumers 優先股條款所規定的限制，並可能受到其他法律限制的影響，例如其章程中的某些條款及 FERC 的要求。",
+    "CMS Energy 現有及未來的負債水平可能對其未來營運產生多項重要影響，包括但不限於：",
+    "• CMS Energy 從營運中產生的大量現金流量可能用於償還負債的本金與利息，而無法用於其他用途",
+    "• CMS Energy 現有債務協議中所包含的契約條款，要求其達成特定財務指標，可能會影響其規劃及應對業務變動的靈活性"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

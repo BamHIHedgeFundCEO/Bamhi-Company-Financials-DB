@@ -1,0 +1,215 @@
+{
+ "ticker": "MDB",
+ "cik": "0001441816",
+ "accession": "0001628280-26-016799",
+ "form": "10-K",
+ "reportDate": "2026-01-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "The MongoDB Advantage",
+    "Key Customer Benefits",
+    "Our Products",
+    "Our Growth Strategy",
+    "Human Capital Management",
+    "Our Customers",
+    "Sales and Marketing",
+    "Research and Development",
+    "Intellectual Property",
+    "Corporate Information",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "MongoDB is the developer data platform company whose mission is to empower developers to create, transform, and disrupt industries by unleashing the power of software and data. Our developer data platform is a globally distributed operational database integrated with a set of data services that allow development teams to address the growing variety of application requirements, all in a unified and consistent user experience.",
+    "The foundation of our platform is the world's leading, modern general purpose database. Built on our unique document-based architecture, our database is designed to handle unstructured data and meet the needs of organizations for performance, scalability, flexibility and reliability while maintaining the strengths of relational databases.Every software application requires a database to store, organize and process data. Large organizations can have tens of thousands of applications and associated databases. A database directly impacts an application's performance, scalability, flexibility and reliability. As a result, selecting a database is a highly strategic decision that directly affects developer productivity, application performance and organizational competitiveness.",
+    "The global database market is dominated by legacy relational databases, which were first developed in the 1970s. Their underlying architecture remains largely unchanged even though the nature of applications, how they are deployed and their role in business has evolved dramatically. Modern software development is highly iterative and requires flexibility. Relational databases were not built to support the volume, variety and speed of data being generated today, hindering application performance and developer productivity. In a relational database environment, developers are often required to spend significant time fixing and maintaining the linkages between modern applications and the rigid database structures that are inherent in relational offerings. Further, relational databases were built before cloud computing and were not designed for \"always-on\" globally distributed deployments. These factors have left developers and their organizations in need of more agile and effective database alternatives. A number of non-relational database alternatives have attempted to address the limitations of relational databases, but they have not achieved widespread developer mindshare and marketplace adoption due to technical trade-offs in their product architectures and the resulting compromises developers are required to make in application development.",
+    "Our database combines the best of both relational and non-relational databases. We believe our core platform differentiation is driven by our ability to address the needs of organizations for performance, scalability, flexibility and reliability while maintaining the strengths of relational databases. Our document-based architecture enables developers to manage data more naturally, making it easy and intuitive for developers to rapidly and cost-effectively build, modernize, deploy and maintain applications, thereby increasing the pace of innovation within an organization. Customers can run our database in any environment, depending on their operational requirements: fully managed as a service or self-managed in the cloud, on-premises or in a hybrid environment.",
+    "In 2023, generative artificial intelligence (\"AI\") emerged as a significant technology trend. Generative AI is the process of generating original content by using foundation models (\"FMs\"), which are trained on large amounts of generally available data. Organizations of all sizes are looking at how to use their proprietary data in concert with FMs to drive better, AI-powered experiences for their customers. Organizations need a modern database to securely build, deploy, and scale generative AI applications. AI-driven workloads require the underlying database to be capable of processing queries against rich and complex data structures quickly and efficiently. Our flexible document model is uniquely positioned to help customers build sophisticated AI applications because it is designed to handle different data types (source data, vector data, metadata and generated data) right alongside live operational data, negating the need for multiple database systems and complex back-end architectures.",
+    "In addition to the database offering, our developer data platform includes additional capabilities that allow developers to address a broader range of application requirements. Our platform's integrated capabilities allow organizations to reduce the need for disparate, single-purpose data technologies, thereby lowering the cost and complexity of their application infrastructure. These complementary capabilities of our platform include:",
+    "•Search. Extends the developer interface for working with the database to seamlessly implement relevance-based search operations, simplifying the development of rich search experiences in applications. It also eliminates the need to run a separate search engine alongside the database and maintains the sync between the two systems.",
+    "•Vector search. Enables customers to easily and securely use pre-trained foundation models to leverage their own proprietary, up-to-date data for more accurate and trustworthy AI applications. Atlas Vector Search allows the integration of an operational database and vector search in a unified, fully managed platform.",
+    "•Time series. Supports the entire end-to-end cycle of applications that leverage time series data, from ingestion, storage and querying to native data visualization and automated data archival in a single platform, which removes the need for complex integration, thereby increasing efficiency and reducing cost.",
+    "•Data lifecycle. Includes capabilities that help users more effectively manage the lifecycle of their application data. For example, Atlas Online Archive helps users automatically tier aged data out of the database while keeping the data fully accessible.",
+    "•Application-driven analytics. Includes a wide range of capabilities to help development teams build richer application experiences that rely on automatic, low-latency analytical processing of live data. This includes rich aggregations and indexing strategies, as well as dedicated analytics nodes for workload isolation.",
+    "•Stream processing. Simplifies processing high-volume, high-velocity streams of data, transforming how developers build responsive, real-time applications. Use cases include personalization, anomaly detection, and predictive maintenance.",
+    "•Queryable encryption. Allows a database to search and filter data while it remains fully encrypted. This technology increases security and compliance by ensuring sensitive information is never visible to database administrators, cloud providers, or potential hackers.",
+    "In February 2025, we acquired all outstanding shares of Voyage AI Innovations, Inc. (\"Voyage AI\"). Voyage AI was a pioneer in state-of-the-art embedding and reranking models that power next-generation AI applications. These models improve the accuracy of data retrieval and reduce the risk of AI hallucinations, which has been a primary factor limiting generative AI adoption. Integrating Voyage AI's technology with MongoDB's data platform capabilities will enable organizations to confidently, cost effectively, and securely build trustworthy, AI powered applications that deliver more accurate and reliable results at scale."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Summary",
+    "Risks Related to Our Business and Industry",
+    "Unfavorable conditions in our industry or the global economy or reductions in information technology spending could limit our ability to grow our business and materially and adversely affect our results of operations.",
+    "We have a limited operating history at our current scale, which makes it difficult to predict our future results of operations.",
+    "We have a history of losses and as our costs increase, we may not be able to generate sufficient revenue to achieve or sustain profitability.",
+    "We currently face significant competition and expect that intense competition will continue.",
+    "If we do not effectively expand our sales and marketing organization, we may be unable to add new customers or increase sales to our existing customers.",
+    "Our adoption strategies include offering Community Server and a free tier of Atlas and we may not be able to realize the intended benefits of these strategies.",
+    "Our decision to offer Community Server under the SSPL, may harm the adoption of Community Server.",
+    "We could be negatively impacted if the AGPL, the SSPL and other open source licenses under which some of our software is licensed are not enforceable.",
+    "Our licensing model for Community Server could negatively affect our ability to monetize and protect our intellectual property rights.",
+    "Our software incorporates third-party open source software, which could negatively affect our ability to sell our products and subject us to possible litigation.",
+    "If we are not able to introduce new features or services successfully and to make enhancements to our software or services, our business and results of operations could be adversely affected.",
+    "Our success is highly dependent on our ability to penetrate the existing market for database products, as well as the growth and expansion of the market for database products.",
+    "Our future quarterly results may fluctuate significantly and if we fail to meet the expectations of analysts or investors, our stock price could decline substantially."
+   ],
+   "paragraphs": [
+    "Our operations and financial results are subject to various risks and uncertainties including those described below. You should consider carefully the risks and uncertainties described below, in addition to other information contained in this Form 10-K, including our consolidated financial statements and related notes. The risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties that we are unaware of, or that we currently believe are not material, may also become important factors that adversely affect our business. If any of the following risks or others not specified below materialize, our business, financial condition and results of operations could be materially and adversely affected. In that case, the trading price of our common stock could decline.",
+    "Investing in our common stock involves a high degree of risk because we are subject to numerous risks and uncertainties that could negatively impact our business, financial condition and results of operations, as more fully described below. These risks and uncertainties include, but are not limited to, the following:",
+    "•Unfavorable conditions in our industry or the global economy or reductions in information technology spending could limit our ability to grow our business and materially and adversely affect our results of operations.",
+    "•Our business and results of operations depend substantially on our customers renewing their subscriptions with us and expanding their usage of software and related services. Any decline in our customer renewals or failure to convince our customers to broaden their usage of subscription offerings and related services could materially and adversely harm our business, results of operations and financial condition.",
+    "•We may fail to meet our publicly announced guidance or other expectations about our business and future operating results, which would cause our stock price to decline.",
+    "•We have a limited operating history at our current scale, which makes it difficult to predict our future results of operations."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Macroeconomic and Other Factors",
+    "Share Repurchase Program",
+    "Business Acquisition",
+    "Factors Affecting Our Performance",
+    "Components of Results of Operations",
+    "Highlights for the Years Ended January 31, 2026, 2025 and 2024",
+    "Results of Operations",
+    "Years Ended January 31,",
+    "% of Revenue",
+    "Consolidated Statements of Operations Data:",
+    "Comparison of the Years Ended January 31, 2026 and 2025",
+    "(in thousands)",
+    "Cost of Revenue, Gross Profit and Gross Margin Percentage",
+    "Operating Expenses",
+    "Other Income, Net",
+    "Provision for (Benefit From) Income Taxes",
+    "Comparison of the Years Ended January 31, 2025 and 2024",
+    "Liquidity and Capital Resources",
+    "Contractual Obligations and Commitments",
+    "Payments Due by Period",
+    "Total Less Than 1 Year 1 to 3 Years 3 to 5 Years More Than 5 Years",
+    "Critical Accounting Estimates"
+   ],
+   "paragraphs": [
+    "The following discussion should be read in conjunction with the consolidated financial statements and notes thereto included in Part II, Item 8, Financial Statements and Supplementary Data, of this Form 10-K. All information presented herein is based on our fiscal calendar. Unless otherwise stated, references to particular years, quarters, months or periods refer to our fiscal years ended January 31 and the associated quarters, months and periods of those fiscal years.",
+    "MongoDB is the developer data platform company whose mission is to empower developers to create, transform, and disrupt industries by unleashing the power of software and data. The foundation of our offering is the world's leading, modern general purpose database. Organizations can deploy our database at scale in the cloud, on-premises, or in a hybrid environment. Built on our unique document-based architecture, our database is designed to meet the needs of organizations for performance, scalability, flexibility and reliability while maintaining the strengths of relational databases. In addition to the database, our developer data platform includes a set of, tightly integrated, capabilities such as search, time series, data lifecycle, application-driven analytics and stream processing that allow developers to address a broader range of application requirements. Our business model combines the developer mindshare and adoption benefits of open source with the economic benefits of a proprietary software subscription business model.",
+    "We generate revenue primarily from sales of subscriptions, which accounted for 97% of our total revenue for the year ended January 31, 2026 and 97% for the years ended January 31, 2025 and 2024.",
+    "Atlas is our hosted multi-cloud database-as-a-service (\"DBaaS\") offering, which we run and manage in the cloud, and includes comprehensive infrastructure and management, as well as a host of additional features, such as Atlas Search, Vector Search, time series, data lifecycle, application-driven analytics, and stream processing. During the year ended January 31, 2026, Atlas revenue represented 73% of our total revenue, as compared to 70% in the prior year, reflecting the continued growth of Atlas since its introduction in June 2016. We have experienced strong growth in self-serve customers of Atlas, which are charged monthly in arrears based on their usage. We have also seen growth in Atlas customers sold by our sales force, which typically sign annual contracts and pay in advance or are invoiced monthly in arrears based on usage. Customers sold by our sales force may also sign contracts that remain in effect until terminated and are invoiced monthly in arrears based on usage. We expect to continue to see a higher portion of our Atlas contracts to be billed monthly in arrears based on usage without requiring upfront commitments.",
+    "MongoDB Enterprise Advanced is our proprietary commercial database server offering for enterprise customers that can run in the cloud, on-premises or in a hybrid environment. MongoDB Enterprise Advanced revenue represented 21%, 24% and 26% of our subscription revenue for the years ended January 31, 2026, 2025 and 2024, respectively. We sell subscriptions directly through our field and inside sales teams, as well as indirectly through channel partners. The majority of our subscription contracts are one year in duration and are invoiced upfront. When we enter into multi-year subscriptions, the customer is typically invoiced on an annual basis or pays upfront.",
+    "Many of our enterprise customers initially get to know our software by using Community Server, which is our free-to-download version of our database that includes the core functionality developers need to get started with MongoDB without all the features of our commercial platform. Our platform has been downloaded from our website more than 700 million times since February 2009. We also offer a free tier of Atlas, which provides access to our hosted database solution with limited processing power and storage, as well as certain operational limitations. As a result, with the availability of both Community Server and Atlas free tier offerings, our direct sales prospects are often familiar with our platform and may have already built applications using our technology. A core component of our growth strategy for Atlas and MongoDB Enterprise Advanced is to convert developers and their organizations who are already using Community Server or the free tier of Atlas to become customers of our commercial products and enjoy the benefits of either a self-managed or hosted offering.",
+    "We also generate revenue from services, which consist primarily of fees associated with consulting and training services. Revenue from services accounted for 3% of our total revenue for the year ended January 31, 2026 and 3% for the year ended January 31, 2025 and 2024. We expect to continue to invest in our services organization as we believe it plays an important role in accelerating our customers' realization of the benefits of our platform, which helps drive customer retention and expansion.",
+    "We believe the market for our offerings is large and growing. We have experienced rapid growth and have made substantial investments in developing our platform and expanding our sales and marketing footprint. We intend to continue to invest to grow our business to take advantage of our market opportunity.",
+    "Our operational and financial performance is subject to risks including those caused by the adverse macroeconomic environment and the geopolitical landscape.",
+    "Adverse macroeconomic conditions include slower or negative economic growth and higher inflation. While the impact of these macroeconomic conditions on our business, results of operations and financial position remain uncertain over the long term, we expect to experience macroeconomic headwinds on growth rate for our existing Atlas applications in the short term.",
+    "We continue to monitor the developments of the macroeconomic environment and the geopolitical landscape. As these factors develop and we evaluate their impact on our business, we may adjust our business practices accordingly. For further discussion of the potential impacts of these factors on our business, operating results, and financial condition, see the section titled \"Risk Factors\" included in Part I, Item 1A of this Form 10-K. Other factors affecting our performance are discussed below.",
+    "In February 2025, the Company's Board of Directors authorized a program to repurchase up to $200.0 million of the Company's common stock. In June 2025, the Company's Board of Directors authorized an additional $800.0 million in repurchases under the Share Repurchase Program, bringing the aggregate authorized repurchase amount to $1.0 billion. During the year ended January 31, 2026, the Company repurchased 1,576,109 shares of common stock for $400.3 million. The average price per share for the year ended January 31, 2026 was $306.87. All repurchases were made in open market transactions and recorded in treasury stock. As of January 31, 2026, our total remaining authorization under our stock repurchase plan is $599.7 million.",
+    "The timing and amount of any repurchases will be determined by management based on an evaluation of market conditions and other factors. The program does not obligate us to acquire any particular amount of common stock, and the repurchase program may be suspended or discontinued at any time at our discretion.",
+    "On February 17, 2025, we acquired all of the outstanding shares of Voyage AI Innovations, Inc. (\"Voyage AI\"), an AI-powered software company that specializes in embedding and reranking models. The acquisition date fair value of the purchase consideration was $160.9 million, which was comprised of 484,169 shares of our common stock valued at $141.4 million as of the acquisition date and $19.5 million in cash. In addition, we also issued to certain of Voyage AI's employees a total of 213,023 shares of restricted stock awards and 35,152 shares of restricted stock units in exchange for a portion of their Voyage AI stock. These shares are subject to vesting agreements contingent upon each of these employees' continued employment with us or our affiliates, pursuant to which the shares will vest over the weighted-average requisite service period of 2.7 years. The $62.2 million fair value of these restricted stock awards and $10.3 million fair value of these restricted stock units are accounted for as post-combination stock-based compensation expense over the weighted-average requisite service period."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "MongoDB 的優勢",
+    "主要客戶好處",
+    "我們的產品",
+    "我們的成長策略",
+    "人力資源管理",
+    "我們的客戶",
+    "銷售與行銷",
+    "研究與發展",
+    "智慧財產權",
+    "公司資訊",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "MongoDB 是一家開發者資料平台公司，其使命是透過釋放軟體與資料的力量，賦能開發者創造、轉型並顛覆產業。我們的開發者資料平台是一種全球分散式運作的資料庫，整合一組資料服務，使開發團隊能夠應對日益多樣化的應用需求，並在統一且一致的使用者體驗中完成所有操作。",
+    "我們平台的基礎是目前全球領先的現代通用資料庫。建於我們獨特的文件式架構之上，我們的資料庫設計用以處理非結構化資料，並符合組織對效能、可擴展性、靈活性與可靠性的需求，同時保留關聯式資料庫的優勢。每一個軟體應用程式都需要資料庫來儲存、整理與處理資料。大型組織可能擁有數萬個應用程式與相關資料庫。資料庫會直接影響應用程式的效能、可擴展性、靈活性與可靠度。因此，選擇資料庫是一項高度戰略性的決定，會直接影響開發者的生產力、應用程式的效能與組織的競爭力。",
+    "全球資料庫市場由傳統的關聯式資料庫主導，這些資料庫最早於1970年代開發。其基礎架構至今幾乎未變，儘管應用程式的性質、部署方式與其在商業中的角色已大幅改變。現代軟體開發具有高度迭代性，需要靈活性。關聯式資料庫並未設計用以支援目前資料產生的體積、種類與速度，這會影響應用程式的效能與開發者的生產力。在關聯式資料庫環境中，開發者往往必須花費大量時間修復與維護現代應用程式與僵硬資料庫結構之間的連結。此外，關聯式資料庫是在雲端計算出現之前建立的，並未設計用以支援「全天候」的全球分散式部署。這些因素使開發者及其組織需要更靈活且有效的資料庫替代方案。雖然已有許多非關聯式資料庫的替代方案試圖解決關聯式資料庫的限制，但由於其產品架構的技術取捨，導致開發者在應用程式開發中必須做出妥協，因此這些方案尚未廣泛被開發者接受與市場採用。",
+    "我們的資料庫結合了關聯式與非關聯式資料庫的優點。我們相信，我們核心平台的差異化來自於我們能同時滿足組織對效能、可擴展性、靈活性與可靠性的需求，同時保留關聯式資料庫的優勢。我們的文件式架構使開發者能更自然地管理資料，讓開發者能輕鬆且直覺地快速且成本效益地建立、現代化、部署與維護應用程式，進而提升組織內的創新速度。客戶可根據其運營需求，在任何環境中運行我們的資料庫：作為完全管理的服務，或自管理的雲端、本地或混合環境。",
+    "2023年，生成式人工智慧（\"AI\"）成為一項重要的科技趨勢。生成式AI是透過基礎模型（\"FMs\"）來產生原創內容的過程，這些模型是以大量一般可取得的資料進行訓練。各規模的組織都在探討如何利用其專屬資料與FMs結合，以提供更優質的AI驅動客戶體驗。組織需要現代化的資料庫，以安全地建立、部署並擴展生成式AI應用程式。AI驅動的作業負載需要資料庫能快速且高效地處理針對豐富且複雜資料結構的查詢。我們的靈活文件模型獨特地定位於協助客戶建立複雜的AI應用程式，因為它設計用以處理不同類型的資料（來源資料、向量資料、元資料與生成資料），與即時運作資料一同處理，無需多個資料庫系統與複雜的後端架構。",
+    "除了資料庫服務，我們的開發者資料平台還包含其他功能，使開發者能應對更廣泛的應用需求。我們平台整合的功能使組織能減少對多種單一用途資料技術的依賴，進而降低應用程式基礎架構的成本與複雜度。這些補充功能包括：",
+    "•搜尋。擴展開發者與資料庫互動的介面，以順暢實現基於相關性的搜尋操作，簡化應用程式中豐富搜尋體驗的開發。同時也無需在資料庫旁運行獨立的搜尋引擎，並維持兩系統之間的同步。",
+    "•向量搜尋。讓客戶能輕鬆且安全地使用預訓練的基礎模型，以利用其專屬、最新資料，打造更準確且可信的AI應用程式。Atlas Vector Search 允許將運作資料庫與向量搜尋整合於一個統一、完全管理的平台中。",
+    "•時間序列。支援應用程式整個端到端週期，從資料吸入、儲存與查詢，到原生資料視覺化與自動資料歸檔，皆可在單一平台完成，這可消除複雜整合的需要，從而提高效率並降低成本。",
+    "•資料生命週期。包含協助用戶更有效管理應用程式資料生命週期的功能。例如，Atlas Online Archive 可協助用戶自動將過期資料從資料庫中分層，同時保持資料完全可存取。",
+    "•應用驅動分析。包含廣泛的功能，協助開發團隊建立更豐富的應用程式體驗，這些體驗依賴於對即時資料的自動、低延遲分析處理。這包括豐富的聚合與索引策略，以及專用分析節點用以工作負載隔離。",
+    "•資料流處理。簡化處理大量、高速資料流的過程，改變開發者建立反應迅速、即時應用程式的方式。應用案例包括個人化、異常偵測與預測性維護。",
+    "•可查詢加密。允許資料庫在資料保持完全加密的情況下進行搜尋與過濾。此技術透過確保敏感資訊從來不對資料庫管理員、雲端服務供應商或潛在駭客可見，來提高安全性與合規性。",
+    "2025 年 2 月，本公司取得 Voyage AI Innovations, Inc.（\"Voyage AI\"）所有發行在外的股權。Voyage AI 是先進嵌入式與重新排序模型的先驅，這些模型驅動下一代 AI 應用程式。這些模型提高資料檢索的準確性，並降低 AI 幻覺的風險，這一直是限制生成式 AI 採用的主要因素。將 Voyage AI 的技術與 MongoDB 的資料平台功能整合，將使組織能以更具信心、成本效益且安全的方式，建立值得信賴的 AI 驅動應用程式，並在規模上提供更準確且可靠的結果。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "總體經濟及其他因素",
+    "股票回購計畫",
+    "企業併購",
+    "影響我們績效的因素",
+    "營運成果的組成項目",
+    "2026年、2025年及2024年截至1月31日止年度重點",
+    "營運成果",
+    "截至1月31日止年度",
+    "營業收入佔比",
+    "合併營運績效摘要:",
+    "截至2026年1月31日及2025年1月31日之年度比較",
+    "(單位：千美元)",
+    "營業成本、毛利及毛利率百分比",
+    "營運費用",
+    "其他收入（淨額）",
+    "所得稅費用（收益）",
+    "比較截至2025年1月31日及2024年1月31日之年度",
+    "流動性及資本資源",
+    "契約義務及承諾",
+    "按期間計之應付款項",
+    "總計 少於1年 1至3年 3至5年 超過5年",
+    "關鍵會計估計"
+   ],
+   "paragraphs": [
+    "以下討論應配合本表10-K文件第二部分，第8項「財務報表及補充資料」所包含之合併財務報表及附註一併閱讀。 herein 所有資訊均基於本公司財務曆程。除非另有說明，提及特定年份、季度、月份或期間，均指本公司財務年度結算日為1月31日，以及該財務年度相關之季度、月份及期間。",
+    "MongoDB 為開發者資料平台公司，其使命為賦能開發者，使其能創造、轉型並顛覆產業，透過軟體與資料的強大力量。本公司產品的基礎為全球領先的現代通用資料庫。機構可於雲端、內部部署或混合環境中大量部署此資料庫。此資料庫建於我們獨特的文件式架構之上，設計用以符合機構對效能、可擴展性、靈活性與可靠性的需求，同時保留關聯式資料庫的優勢。除了資料庫，本公司開發者資料平台還包含一組緊密整合的機能，例如搜尋、時間序列、資料生命週期、應用驅動分析與流處理，使開發者能應對更廣範圍的應用需求。本公司商業模式結合開放原始碼的開發者聲量與採用優勢，以及專有軟體訂閱模式的經濟效益。",
+    "本公司主要透過訂閱銷售產生收入，此類銷售佔本公司2026年1月31日財務年度總收入的97%，且佔2025年及2024年1月31日財務年度總收入的97%。",
+    "Atlas 為本公司提供的多雲端資料庫即服務（\"DBaaS\"）方案，我們在雲端運行並管理此方案，並包含完整的基礎設施與管理，以及多項附加功能，例如 Atlas 搜尋、向量搜尋、時間序列、資料生命週期、應用驅動分析與流處理。2026年1月31日財務年度，Atlas 收入佔本公司總收入的73%，與前一年度的70%相比，反映自2016年6月推出以來Atlas持續成長。我們已觀察到Atlas自服務客戶的快速成長，這些客戶根據其使用量每月後收費。我們也觀察到Atlas客戶透過銷售團隊銷售的成長，這些客戶通常簽訂年度合約並預付費用，或根據使用量每月後收費。透過銷售團隊銷售的客戶也可能簽訂在終止前持續有效的合約，並根據使用量每月後收費。我們預期未來會看到更高比例的Atlas合約根據使用量每月後收費，而無需預付承諾。",
+    "MongoDB Enterprise Advanced 為本公司針對企業客戶提供的專有商業資料庫伺服器方案，可在雲端、內部部署或混合環境中執行。MongoDB Enterprise Advanced 收入在2026年1月31日財務年度、2025年及2024年1月31日財務年度分別佔本公司訂閱收入的21%、24%及26%。我們透過現場及內部銷售團隊直接銷售訂閱，也透過通路夥伴間接銷售。本公司大多數訂閱合約為一年期，並在預付費用時開票。當我們簽訂多年訂閱合約時，客戶通常每年開票或預付費用。",
+    "許多企業客戶最初透過使用 Community Server 來認識我們的軟體，Community Server 為我們資料庫的免費下載版本，包含開發者開始使用 MongoDB 所需的核心功能，但不包含我們商業平台的所有功能。自2009年2月以來，我們平台已透過網站下載超過70億次。我們也提供 Atlas 的免費層級，提供有限處理能力與儲存空間的雲端資料庫解決方案，以及某些運營限制。因此，隨著 Community Server 及 Atlas 免費層級的可用性，我們的直接銷售潛在客戶往往已熟悉我們的平台，可能已使用我們的技術建立應用程式。Atlas 及 MongoDB Enterprise Advanced 成長策略的核心組成部分，是將已使用 Community Server 或 Atlas 免費層級的開發者及其組織轉化為我們商業產品的客戶，並享受自管理或雲端託管方案的優勢。",
+    "我們也透過服務產生收入，主要為諮詢與培訓服務相關費用。服務收入在2026年1月31日財務年度佔本公司總收入的3%，且在2025年及2024年1月31日財務年度也佔3%。我們預期會持續投資於服務團隊，因為我們認為服務團隊在加速客戶實現我們平台效益方面扮演重要角色，這有助於提高客戶留存率與擴張。",
+    "我們相信本公司產品的市場規模龐大且持續成長。我們已經歷快速成長，並在開發平台與擴展銷售與行銷版圖方面進行大量投資。我們有意繼續投資以成長業務，以把握市場機會。",
+    "本公司之營運及財務表現受風險影響，包括因總體經濟環境惡化及地緣政治情勢所導致之風險。",
+    "總體經濟條件惡化包括經濟成長減緩或為負成長，以及通貨膨脹升高。雖然這些總體經濟條件對本公司業務、營運結果及財務狀況之長期影響仍不確定，但我們預期在短期內將面臨總體經濟因素對現有Atlas應用程式成長率之壓力。",
+    "本公司持續監測總體經濟環境及地緣政治情勢之發展。隨著這些因素之變化，並評估其對本公司業務之影響，我們可能根據情況調整營運作法。有關這些因素對本公司業務、營運結果及財務狀況之潛在影響之進一步討論，請參閱本Form 10-K第一部分第1A項所載之「風險因素」節。其他影響本公司表現之因素如下所述。",
+    "2025年2月，本公司董事會批准了一項計畫，授權以最高2億美元購回本公司普通股。2025年6月，本公司董事會批准在購回計畫下再追加8億美元之購回金額，使總計授權購回金額達10億美元。在截至2026年1月31日之會計年度內，本公司購回1,576,109股普通股，總金額為4億3千萬美元。截至2026年1月31日之會計年度內，每股平均價格為306.87美元。所有購回交易均透過公開市場進行，並計入庫藏股。截至2026年1月31日，本公司購回計畫下尚餘授權金額為5億9千9百萬美元。",
+    "任何購回之時機及金額將由管理階層根據市場狀況及其他因素評估後決定。此計畫並無義務本公司必須購回特定金額之普通股，且本公司得隨時決定暫停或終止此購回計畫。",
+    "2025年2月17日，本公司購入Voyage AI Innovations, Inc.（\"Voyage AI\"）所有發行在外之股權，Voyage AI為一家專門從事嵌入及重新排序模型之AI軟體公司。購併日之買賣總價之公允價值為1億6千萬9百萬美元，包含於購併日價值為1億4千1百萬美元之本公司普通股484,169股，以及現金1億9千5百萬美元。此外，本公司亦向Voyage AI部分員工發行總計213,023股限制性股票獎勵及35,152股限制性股票單位，作為其Voyage AI股票之對價。這些股票依員工持續為本公司或其關係企業服務之條件，依加權平均必要服務期間2.7年分期認購。這些限制性股票獎勵之公允價值6億2千2百萬美元及限制性股票單位之公允價值1億零3百萬美元，將計入購併後之股票基於報酬費用，分期計提至加權平均必要服務期間。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與我們業務及產業相關的風險",
+    "我們產業或全球經濟不景氣或資訊科技支出減少，可能會限制我們擴張業務的能力，並對我們的營運成果造成重大且不利的影響。",
+    "我們在目前規模下營運歷史有限，使預測未來營運成果變得困難。",
+    "我們有虧損的歷史，且隨著成本增加，我們可能無法產生足夠的收入以達成或維持獲利。",
+    "我們目前面臨激烈的競爭，並預期未來競爭將持續激烈。",
+    "若我們無法有效擴充銷售與行銷組織，我們可能無法增加新客戶或提高現有客戶的銷售額。",
+    "我們的採用策略包括提供 Community Server 以及 Atlas 的免費層級，我們可能無法實現這些策略的預期效益。",
+    "本公司決定在 SSPL 許可條款下提供 Community Server，可能不利於 Community Server 的採用。",
+    "若 AGPL、SSPL 及其他開放原始碼授權條款無法執行，本公司可能受到負面影響。",
+    "本公司對於 Community Server 的授權模式，可能不利於本公司實現商業價值及保護智慧財產權。",
+    "本公司軟體 incorporates 第三方開放原始碼軟體，可能不利於本公司銷售產品，並使本公司面臨可能的訴訟。",
+    "若本公司無法成功推出新功能或服務，並對軟體或服務進行改進，本公司業務及營運成果可能受到不利影響。",
+    "本公司成功高度依賴本公司穿透現有資料庫產品市場的能力，以及資料庫產品市場的成長與擴張。",
+    "本公司未來每季營運成果可能有顯著波動，若本公司未能符合分析師或投資人的預期，本公司股票價格可能大幅下跌。"
+   ],
+   "paragraphs": [
+    "本公司之營運及財務表現受多種風險與不確定因素影響，包括下列所列之風險與不確定因素。您應謹慎考量下列所列之風險與不確定因素，並配合本Form 10-K 其他資訊，包括本公司合併財務報表及其相關附註。下列所列之風險與不確定因素並非本公司所面臨之唯一風險。尚有其他風險與不確定因素，可能尚未為本公司所知悉，或本公司目前認為不具重大性，但這些風險與不確定因素可能成為影響本公司營運之重要因素。若任何下列所列之風險或其他未明確說明之風險實現，將可能對本公司之營運、財務狀況及營運成果造成重大且不利之影響。在此情況下，本公司普通股之交易價格可能下跌。",
+    "投資本公司普通股涉及高度風險，因為本公司受多種風險與不確定因素影響，這些風險與不確定因素可能對本公司之營運、財務狀況及營運成果造成負面影響，如後文更詳細說明。",
+    "•本公司產業或全球經濟之不利條件或資訊科技支出減少，可能限制本公司擴展業務之能力，並對本公司營運成果造成重大且不利之影響。",
+    "•本公司之營運及營運成果 substantially 依賴客戶續約本公司之訂閱服務，並擴大使用軟體及相關服務。若本公司客戶續約率下降，或無法說服客戶擴大使用訂閱服務及相關服務，將可能對本公司之營運、營運成果及財務狀況造成重大且不利之影響。",
+    "•本公司可能無法達成公開宣佈之財務指引或其他關於本公司營運及未來營運成果之預期，此將導致本公司股票價格下跌。",
+    "•本公司目前規模之營運歷史有限，使預測未來營運成果變得困難。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

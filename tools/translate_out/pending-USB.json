@@ -1,0 +1,67 @@
+{
+ "ticker": "USB",
+ "cik": "0000036104",
+ "accession": "0000036104-26-000011",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Forward-Looking Statements",
+    "General Business Description",
+    "Pending Acquisition of BTIG",
+    "Business Segments",
+    "Human Capital",
+    "Government Policies",
+    "Supervision and Regulation"
+   ],
+   "paragraphs": [
+    "The following information appears in accordance with the Private Securities Litigation Reform Act of 1995: This report contains forward-looking statements about U.S. Bancorp (\"U.S. Bancorp\" or the \"Company\"). Statements that are not historical or current facts, including statements about beliefs and expectations, are forward-looking statements and are based on the information available to, and assumptions and estimates made by, management as of the date hereof. These forward-looking statements cover, among other things, future economic conditions and the anticipated future revenue, expenses, financial condition, asset quality, capital and liquidity levels, plans, prospects, targets, initiatives and operations of U.S. Bancorp. Forward-looking statements often use words such as \"anticipates,\" \"targets,\" \"expects,\" \"hopes,\" \"estimates,\" \"projects,\" \"forecasts,\" \"intends,\" \"plans,\" \"goals,\" \"believes,\" \"continue\" and other similar expressions or future or conditional verbs such as \"will,\" \"may,\" \"might,\" \"should,\" \"would\" and \"could.\"",
+    "Forward-looking statements involve inherent risks and uncertainties that could cause actual results to differ materially from those set forth in forward-looking statements, including the following risks and uncertainties:",
+    "•Deterioration in general business, political and economic conditions or turbulence in domestic or global financial markets, which could adversely affect U.S. Bancorp's revenues and the values of its assets and liabilities, reduce the availability of funding to certain financial institutions, lead to a tightening of credit, and increase stock price volatility;",
+    "•Changes to statutes, regulations, or regulatory policies or practices, including capital and liquidity requirements and any credit card interest caps, and the enforcement and interpretation of such laws and regulations, and U.S. Bancorp's ability to address or satisfy those requirements and other requirements or conditions imposed by regulatory entities;",
+    "•Changes in trade policy, including the imposition of tariffs or the impacts of retaliatory tariffs;",
+    "•Changes in interest rates; •Increases in unemployment rates;",
+    "•Deterioration in the credit quality of U.S. Bancorp's loan portfolios or in the value of the collateral securing those loans;",
+    "•Changes in commercial real estate occupancy rates;",
+    "•Increases in Federal Deposit Insurance Corporation (\"FDIC\") assessments, including due to bank failures;",
+    "•Actions taken by governmental agencies to stabilize or reform the financial system and the effectiveness of such actions;",
+    "•Turmoil and volatility in the financial services industry;",
+    "•Risks related to originating and selling mortgages, including repurchase and indemnity demands, and related to U.S. Bancorp's role as a loan servicer;",
+    "•Impacts of current, pending or future litigation and governmental proceedings; •Increased competitive pressure;",
+    "•Effects of climate change and related physical and transition risks;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "展望性陳述",
+    "公司業務概述",
+    "待完成之 BTIG 收購",
+    "業務分部",
+    "人力資本",
+    "政府政策",
+    "監督與規範"
+   ],
+   "paragraphs": [
+    "以下資訊係依照1995年私人訴訟改革法案之規定提供：本報告包含有關美國銀行控股公司（\"U.S. Bancorp\" 或 \"the Company\"）之預測性陳述。非歷史或現狀之陳述，包括有關信念與預期之陳述，均屬預測性陳述，係根據截至本報告日管理階層所掌握之資訊、所作之假設與預估而作出。這些預測性陳述涵蓋諸如未來經濟狀況、預期未來營業收入、費用、財務狀況、資產品質、資本與流動性水準、計畫、展望、目標、倡議與營運等事項。預測性陳述常使用如 \"anticipates\"、\"targets\"、\"expects\"、\"hopes\"、\"estimates\"、\"projects\"、\"forecasts\"、\"intends\"、\"plans\"、\"goals\"、\"believes\"、\"continue\" 等詞彙，或未來或條件式動詞如 \"will\"、\"may\"、\"might\"、\"should\"、\"would\"、\"could\" 等。",
+    "預測性陳述涉及內在風險與不確定性，可能導致實際結果與預測性陳述所載內容有重大差異，包括下列風險與不確定性：",
+    "•總體經濟、商業、政治條件惡化或國內或國際財務市場動盪，可能不利於U.S. Bancorp之營收與資產與負債價值，減少特定金融機構之資金可得性，導致信貸緊縮，並增加股票價格波動性；",
+    "•法律、法規或監管政策與做法之變更，包括資本與流動性要求及任何信用卡利率上限，以及這些法律與法規之執行與解釋，以及U.S. Bancorp應對或符合這些要求及其他監管機構所施加之要求或條件之能力；",
+    "•貿易政策之變更，包括課徵關稅或報復性關稅之影響；",
+    "•利率之變動；•失業率之上升；",
+    "•U.S. Bancorp貸款組合之信用品質惡化或用以擔保這些貸款之抵押品價值下降；",
+    "•商業不動產使用率之變動；",
+    "•聯邦存款保險公司（\"FDIC\"）評估金額增加，包括因銀行破產所致；",
+    "•政府機構為穩定或改革金融體系所採取的行動及其行動成效；",
+    "•金融服務業的動盪與波動性；",
+    "•與發放及銷售房貸相關的風險，包括買回及賠償要求，以及與美國銀行控股公司（U.S. Bancorp）作為貸款服務商的角色相關的風險；",
+    "•現行、待處理或未來訴訟及政府程序的影響；•競爭壓力增加；",
+    "•氣候變遷及其相關的實體與過渡風險的影響；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

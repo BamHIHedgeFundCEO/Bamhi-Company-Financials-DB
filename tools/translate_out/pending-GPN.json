@@ -1,0 +1,223 @@
+{
+ "ticker": "GPN",
+ "cik": "0001123360",
+ "accession": "0001123360-26-000008",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Introduction",
+    "Business Transformation",
+    "Recent Business Acquisitions and Dispositions",
+    "Business Segments",
+    "Merchant Solutions Segment",
+    "Issuer Solutions",
+    "Industry Overview",
+    "Competitive Strengths",
+    "Safeguarding Our Business",
+    "Intellectual Property",
+    "Human Capital Management",
+    "Government Regulation",
+    "Sustainability",
+    "Where to Find More Information"
+   ],
+   "paragraphs": [
+    "Global Payments Inc. and its consolidated subsidiaries are referred to collectively as \"Global Payments,\" the \"Company,\" \"we,\" \"our\" or \"us,\" unless the context requires otherwise.",
+    "We are a leading payments technology company delivering innovative software and services to our customers globally, with worldwide reach spanning North America, Europe, Asia-Pacific and Latin America. The payments technology industry provides financial institutions, businesses and consumers with payment processing services, merchant acceptance solutions and related business management software and value-added services. Our technologies, services and team member expertise allow us to provide a broad range of solutions that enable our customers to operate their businesses more efficiently across a variety of channels around the world. Headquartered in Georgia with approximately 26,000 team members worldwide, Global Payments is a Fortune 500 company and is a member of the S&P 500. Our common stock is traded on the New York Stock Exchange under the symbol \"GPN.\"",
+    "In 2024, we launched a holistic review of our business to examine our strategy, operations and ability to deliver sustainable performance. We have refreshed our strategy and are focusing our resources, efforts and investments on the areas of the business that will drive the best opportunities for growth.",
+    "We are in the process of streamlining our organization and operating environments through our transformation program to deliver a global, unified operating company. We are aligning the Global Payments brand identity across our assets and solidifying go-to-market activities under a simplified technology environment. We are harmonizing capabilities to deliver our full suite of differentiated software and commerce enablement solutions to clients globally.",
+    "We have consolidated our technology organizations and teams under common leadership to enhance speed and quality of product development with a customer-centric, solutions-led mindset. We have also centralized our operations functions to enhance our servicing model and focus on improving the client journey, leveraging best-in-class technology and providing differentiated service experiences.",
+    "In executing and delivering on our transformation initiatives, we have incurred and anticipate incurring incremental expenses related to this program through the first half of 2027, including but not limited to changes to the recoverability of assets and our estimates of remaining useful lives. We also continue to assess our business portfolio to evaluate potential assets for disposition to further streamline our business and create value for shareholders.",
+    "Acquisition of Worldpay Holdco, LLC and Disposition of Issuer Solutions",
+    "In January 2026, we acquired 100% of Worldpay Holdco, LLC (\"Worldpay\") from Fidelity National Information Services, Inc. (\"FIS\") and affiliates of GTCR LLC (\"GTCR\") (\"Worldpay Acquisition\") and divested our Issuer Solutions business to FIS. Worldpay is an industry-leading payments technology and solutions company. Consideration paid to GTCR for its ownership interest in Worldpay consisted of (1) approximately $6.2 billion in cash and (2) 43.3 million shares of Global Payments common stock. Consideration received for the divestiture of our Issuer Solutions business consisted of (1) approximately $7.7 billion in cash and (2) FIS' ownership interest in Worldpay. The acquisition of Worldpay and divestiture of our Issuer Solutions business occurred simultaneously. Both transactions are subject to customary working capital and other adjustments. We are providing certain transition services to support the Issuer Solutions business as it is integrated with FIS and are also receiving certain transition services from FIS in support of our integration of Worldpay.",
+    "Disposition of Heartland Payroll Solutions, Inc.",
+    "In September 2025, we completed the sale of Heartland Payroll Solutions, Inc. (\"Payroll Solutions\"), our payroll business included in our Merchant Solutions segment prior to disposition, to Acrisure, LLC (\"Acrisure\") for approximately $1.1 billion, including up to $75 million of contingent consideration. In connection with the transaction, we entered into a mutual referral agreement and long-term commercial partnership with Acrisure.",
+    "In December 2024, we completed the sale of AdvancedMD, Inc. (\"AdvancedMD\") for approximately $1.1 billion and up to $125 million of contingent consideration. AdvancedMD is a provider of software-as-a-service solutions to small-to-medium sized ambulatory physician practices in the United States and was included in our Merchant Solutions segment prior to disposition.",
+    "See \"Note 2—Acquisitions\" and \"Note 3—Business Dispositions and Discontinued Operations\" in the notes to the accompanying consolidated financial statements for further discussion of these and other recent transactions.",
+    "Beginning in the second quarter of 2025, the results of our Issuer Solutions business have been reported as discontinued operations and therefore, no longer presented as a reportable segment. Segment information presented is based on our Merchant Solutions reportable segment prior to the acquisition of Worldpay. See \"Note 3—Business Dispositions and Discontinued Operations\" in the notes to the accompanying consolidated financial statements for further discussion regarding the divestiture of our Issuer Solutions business and \"Note 18—Segment Information\" for additional information about our segments, including revenues, operating expenses, operating income and depreciation and amortization by segment, as well as financial information about geographic areas in which we operate.",
+    "In connection with the acquisition of Worldpay in 2026, we will be revising our organizational structure and related internal management reporting. Therefore, beginning in the first quarter of 2026, our reportable segments will align with that revised structure."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Factors Summary",
+    "Risks Related to Our Business Model and Operations",
+    "Legal, Regulatory Compliance and Tax Risks",
+    "Financial Risks",
+    "Intellectual Property Risks",
+    "Risks Related to Our Capital Structure",
+    "Risks Related to General Economic Conditions",
+    "General Risk Factors",
+    "Increased merchant, referral partner, ISO or payment facilitator attrition could cause our financial results to decline.",
+    "There may be a decline in the use of cards and other digital payments as a payment mechanism for consumers, or other adverse developments affecting the card industry in general.",
+    "Fraud by merchants or others and losses from overdrawn cardholder accounts could have an adverse effect on our business, financial condition, results of operations and cash flows.",
+    "If our enterprise segment merchants direct significant transaction volume away from us to other providers, it could adversely affect our business, financial condition, results of operations and cash flows.",
+    "Increases in card network fees may result in the loss of customers and/or a reduction in our earnings.",
+    "Our inability to complete certain dispositions or the effects of disposing a business could have a material adverse effect on our business, financial condition and results of operations.",
+    "Our business may be affected by current and future laws and regulations governing the development, use and deployment of AI technologies, as well as potentially related private litigation."
+   ],
+   "paragraphs": [
+    "An investment in our common stock involves a high degree of risk. You should consider carefully the following risks and other information contained in this Annual Report on Form 10-K and other SEC filings before you decide to buy or sell our common stock. The risks identified below are not all encompassing but should be considered in establishing an opinion of our future operations. If any of the events or conditions contemplated by the following discussion of risks should occur, our business, financial condition, liquidity, results of operations and cash flows could suffer significantly.",
+    "The following is a summary of the principal risks that could materially and adversely affect our business, financial condition, liquidity, results of operations and cash flows.",
+    "•Our inability to protect our systems and data from continually evolving cybersecurity threats or other technological risks could adversely affect our ability to deliver our services; damage our reputation among our customers, card issuers, financial institutions, card networks, partners and cardholders; adversely affect our continued card network registration or membership and financial institution sponsorship; and expose us to lost revenues, penalties, fines, liabilities, legal claims and defense costs.",
+    "•Software and hardware defects, failures, undetected errors and development delays could affect our ability to deliver our services, damage customer relations, expose us to liability and have an adverse effect on our business, financial condition and results of operations.",
+    "•We depend on relationships with third parties. Our systems or our third-party providers' systems may fail, or we may be unable to renew or renegotiate agreements with key suppliers, which could interrupt our service, cause us to lose business, increase our costs and expose us to liability.",
+    "•We may be unable to integrate the business of Worldpay successfully or realize the anticipated benefits of the Worldpay Acquisition, which could adversely affect our business, financial condition, results of operations and cash flows."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Executive Overview",
+    "Strategy and Business Transformation",
+    "Continuing and Emerging Trends",
+    "Macroeconomic Effects and Other Global Conditions",
+    "Results of Operations",
+    "Key Drivers of our Results of Operations",
+    "Operating Expenses",
+    "Operating Income and Operating Margin",
+    "Equity in Income of Equity Method Investments",
+    "Continuing Operations",
+    "Year Ended December 31, 2025 Compared to Year Ended December 31, 2024",
+    "Year Ended December 31, Year Ended December 31,",
+    "(dollar amounts in thousands) 2025 % of Revenue(1)",
+    "2024 % of Revenue(1)",
+    "Change % Change",
+    "Operating expenses(2):",
+    "Consolidated operating expenses $ 5,951,254 77.2 % $ 5,761,470 74.5 % $ 189,784 3.3 %",
+    "Consolidated operating income $ 1,754,624 22.8 % $ 1,974,500 25.5 % $ (219,876) (11.1) %",
+    "Operating margin(2):",
+    "Other Income and Expense, Net",
+    "Income Tax Expense",
+    "Equity in Income of Equity Method Investments, Net of Tax",
+    "Income from Continuing Operations",
+    "Diluted Earnings per Share - Continuing Operations",
+    "Discontinued Operations",
+    "(dollar amounts in thousands) 2025 % of Revenue 2024 % of Revenue Change % Change",
+    "Revenues $ 2,509,698 $ 2,393,183 $ 116,515 4.9 %",
+    "Operating income $ 696,665 27.8 % $ 359,105 15.0 % $ 337,560 94.0 %",
+    "Operating margin 27.8 % 15.0 % 12.8 %",
+    "Liquidity and Capital Resources",
+    "Long-Term Debt and Lines of Credit"
+   ],
+   "paragraphs": [
+    "We are a leading payments technology company delivering innovative software and services to our customers globally. Our technologies, services and team member expertise allow us to provide a broad range of solutions that enable our customers to operate their businesses more efficiently across a variety of channels around the world.",
+    "We have grown organically, as well as through acquisitions, and continue to invest in new technology solutions and infrastructure to support our growing business and the ongoing consolidation and enhancement of our operating platforms. These investments include new product development and innovation to further enhance and differentiate our suite of technology and software solutions available to customers, along with migration of certain underlying technology platforms to cloud environments to enhance performance, improve speed to market and drive cost efficiencies. We also continue to execute on integration and business transformation activities, such as combining business operations, streamlining technology infrastructure, eliminating duplicative corporate and operational support structures and realizing scale efficiencies.",
+    "Highlights related to our results of operations for the year ended December 31, 2025 include the following:",
+    "•Revenues for the year ended December 31, 2025 were essentially flat at $7,705.9 million, compared to $7,736.0 million for the prior year despite the effects of the dispositions of the Advanced MD and Payroll Solutions businesses.",
+    "•Merchant Solutions segment operating income and operating margin for the year ended December 31, 2025 increased compared to the prior year primarily due to the favorable effect of cost reduction activities associated with our transformation program.",
+    "•Consolidated operating income for the year ended December 31, 2025 reflects an increase in transformation costs we incurred in preparation for the divestiture of our Issuer Solutions business and in positioning ourselves for the future integration of Worldpay."
+   ],
+   "focus": "Executive Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "導論",
+    "業務轉型",
+    "近期業務收購與處分",
+    "業務分部",
+    "通路解決方案分部",
+    "發行解決方案",
+    "產業概況",
+    "競爭優勢",
+    "保護我們的業務",
+    "智慧財產權",
+    "人力資源管理",
+    "政府規範",
+    "永續發展",
+    "如何取得更多資訊"
+   ],
+   "paragraphs": [
+    "Global Payments Inc. 以及其合併子公司 collectively 稱為 \"Global Payments,\" the \"Company,\" \"we,\" \"our\" 或 \"us,\" 除非上下文另有要求。",
+    "我們是一家領先的支付科技公司，為全球客戶提供創新軟體與服務，業務範圍橫跨北美、歐洲、亞太及拉丁美洲。支付科技產業為金融機構、企業與消費者提供支付處理服務、商家受理解決方案以及相關業務管理軟體與附加價值服務。我們的技術、服務與員工專業知識使我們能夠提供廣泛的解決方案，協助客戶在全球多種通路中更有效率地運作。總部設於喬治亞州，全球約有 26,000 名員工，Global Payments 是《財富》500 大企業，並為標準普爾 500 指數成分股。我們的普通股在紐約證券交易所交易，代碼為 \"GPN.\"",
+    "2024 年，我們啟動了一項全面的業務審視，以評估我們的戰略、營運及實現可持續表現的能力。我們已更新戰略，並將資源、努力與投資集中在能帶來最佳成長機會的業務領域。",
+    "我們正在透過轉型計畫簡化組織與營運環境，以建立一個全球統一的運作公司。我們正在將 Global Payments 品牌識別統一至所有資產，並在簡化後的科技環境下強化市場推廣活動。我們正在協調能力，以向全球客戶提供完整的差異化軟體與商業啟動解決方案。",
+    "我們已將科技組織與團隊統一於共同領導之下，以提升產品開發的速度與品質，並以客戶為中心、解決方案為導向的思維模式。我們也已將營運功能集中，以強化服務模式，並專注於改善客戶體驗，運用最佳科技並提供差異化的服務。",
+    "在執行並交付我們轉型計畫的過程中，我們已產生並預期在 2027 年上半年產生與此計畫相關的額外費用，包括但不限於資產可收回性與剩餘使用壽命的估計變動。我們也持續評估業務組合，以評估潛在資產是否適合出售，以進一步簡化業務並為股東創造價值。",
+    "收購 Worldpay Holdco, LLC 並出售 Issuer Solutions 事業",
+    "2026 年 1 月，我們從 Fidelity National Information Services, Inc. (\"FIS\") 及 GTCR LLC 的 affiliates (\"GTCR\") 收購了 Worldpay Holdco, LLC (\"Worldpay\") 的 100% 股權 (\"Worldpay 收購\")，並將我們的 Issuer Solutions 事業出售給 FIS。Worldpay 是一家領先的支付科技與解決方案公司。支付給 GTCR 的對價為 (1) 約 62 億美元現金，以及 (2) 4330 萬股 Global Payments 普通股。出售我們 Issuer Solutions 事業所收到的對價為 (1) 約 77 億美元現金，以及 (2) FIS 在 Worldpay 的股權。Worldpay 收購與 Issuer Solutions 事業出售同時進行。兩筆交易均受常見的營運資金及其他調整條款約束。我們正在提供某些過渡服務，以支援 Issuer Solutions 事業與 FIS 整合，同時我們也從 FIS 獲得某些過渡服務，以支援我們整合 Worldpay。",
+    "Heartland Payroll Solutions, Inc. 之處分",
+    "2025 年 9 月，我們完成將 Heartland Payroll Solutions, Inc.（\"Payroll Solutions\"）出售給 Acrisure, LLC（\"Acrisure\"），價格約為 11 億美元，包含最高達 7500 萬美元之附條件補償金。與此交易同時，我們與 Acrisure 簽訂相互推薦協議及長遠商業合作夥伴關係。",
+    "2024 年 12 月，我們完成將 AdvancedMD, Inc.（\"AdvancedMD\"）出售，價格約為 11 億美元，包含最高達 1.25 億美元之附條件補償金。AdvancedMD 是美國提供軟體即服務解決方案給中小型門診診所之供應商，並在出售前屬於我們 Merchant Solutions 業務分部。",
+    "有關這些及其他近期交易之進一步說明，請參閱財務報表附註中之 \"Note 2—Acquisitions\" 及 \"Note 3—Business Dispositions and Discontinued Operations\"。",
+    "自 2025 年第二季起，我們 Issuer Solutions 業務之結果已列為已終止營運，因此不再作為應報告分部呈現。所呈現之分部資訊係基於我們在收購 Worldpay 之前之 Merchant Solutions 應報告分部。有關我們 Issuer Solutions 業務之處分及相關分部資訊，請參閱財務報表附註中之 \"Note 3—Business Dispositions and Discontinued Operations\"，以及 \"Note 18—Segment Information\" 以取得更多關於我們分部之資訊，包括各分部之營業收入、營運費用、營運獲利及折舊與攤銷，以及我們營運之地理區域之財務資訊。",
+    "與 2026 年收購 Worldpay 有關，我們將重新調整組織架構及相關內部管理報告。因此，自 2026 年第一季起，我們之應報告分部將與此重新調整之架構一致。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "高階管理摘要",
+    "策略與業務轉型",
+    "持續與新興趨勢",
+    "總體經濟影響及其他全球情勢",
+    "營運成果",
+    "影響營運成果之關鍵因素",
+    "營運費用",
+    "營運收入與營運毛利率",
+    "權益法投資之淨利",
+    "持續運作業務",
+    "2025 年 12 月 31 日財務年度與 2024 年 12 月 31 日財務年度比較",
+    "2025 年 12 月 31 日財務年度, 2025 年 12 月 31 日財務年度,",
+    "（金額單位為千美元）2025 年 收入佔比(1)",
+    "2024 年 收入佔比(1)",
+    "變動 % 變動",
+    "營運費用(2)：",
+    "合併營運費用 $ 5,951,254 77.2 % $ 5,761,470 74.5 % $ 189,784 3.3 %",
+    "合併營運收入 $ 1,754,624 22.8 % $ 1,974,500 25.5 % $ (219,876) (11.1) %",
+    "營運毛利(2)：",
+    "其他收入及費用，淨額",
+    "所得稅費用",
+    "權益法投資之淨收入，已扣除稅務",
+    "持續經營業務之收入",
+    "持續經營業務之每股稀釋收益",
+    "已終止營運",
+    "(金額單位為千美元) 2025 年 收入佔營業收入百分比 2024 年 收入佔營業收入百分比 變動百分比",
+    "收入 $ 2,509,698 $ 2,393,183 $ 116,515 4.9 %",
+    "營運收入 $ 696,665 27.8 % $ 359,105 15.0 % $ 337,560 94.0 %",
+    "營運毛利率 27.8 % 15.0 % 12.8 %",
+    "流動性及資本資源",
+    "長期債務及信用線"
+   ],
+   "paragraphs": [
+    "本公司為全球提供創新軟體及服務的領先支付科技公司。我們的技術、服務與員工專業知識，使我們能提供廣泛的解決方案，協助客戶在全球多種通路中更有效率地運作其業務。",
+    "我們透過內生成長及收購持續成長，並持續投資於新技術解決方案與基礎建設，以支持我們日益成長的業務，以及持續整合與強化我們的運營平台。這些投資包括新產品開發與創新，以進一步提升並區隔我們提供給客戶的科技與軟體解決方案，同時遷移部分基礎技術平台至雲端環境，以提升效能、加快市場上市速度並驅動成本效益。我們也持續執行整合與業務轉型活動，例如結合業務運作、簡化技術基礎建設、消除重複的企業與運營支援架構，並實現規模效益。",
+    "與2025年12月31日財年營運結果相關的重點如下：",
+    "•2025年12月31日財年營業收入幾乎與前一年相同，為77.059億美元，較前一年的77.36億美元，儘管受到出售Advanced MD與Payroll Solutions業務的影響。",
+    "•2025年12月31日財年Merchant Solutions應報告分部營運收入與營運毛利率較前一年增加，主要因我們轉型計劃相關的成本削減活動產生有利影響。",
+    "•2025年12月31日財年整體營運收入反映我們為出售Issuer Solutions業務所做的轉型成本增加，以及為未來整合Worldpay所做的準備。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與本公司商業模式及營運相關之風險",
+    "法律、法規合規及稅務風險",
+    "財務風險",
+    "智慧財產權風險",
+    "與本公司資本結構相關之風險",
+    "與總體經濟環境相關之風險",
+    "一般性風險因素",
+    "增加的商家、推薦夥伴、ISO 或付款經辦商流失，可能導致本公司的財務結果下降。",
+    "消費者使用卡片及其他數位支付方式作為支付手段的用量可能下降，或可能發生影響卡片產業整體的其他不利發展。",
+    "商家或其他人詐欺及信用卡持卡人帳戶超貸造成的損失，可能對本公司業務、財務狀況、營運成果及現金流產生不利影響。",
+    "若本公司企業分部的商家將大量交易流量轉移至其他提供者，可能對本公司業務、財務狀況、營運成果及現金流產生不利影響。",
+    "卡片網路費用增加，可能導致客戶流失及/或本公司獲利減少。",
+    "本公司無法完成某些資產處置，或處置業務的影響，可能對本公司業務、財務狀況及營運成果產生重大不利影響。",
+    "本公司業務可能受現行及未來有關AI技術開發、使用及部署的法律法規，以及相關私人訴訟的影響。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及高度風險。您在決定買賣本公司普通股前，應謹慎考慮下列風險及其他資訊，並參考本年度報告表10-K及其他美國證券交易委員會（SEC） filings。下列所列風險並非全部，但在評估本公司未來營運時應加以考量。若下列風險討論中所提及的事件或情況發生，將可能對本公司業務、財務狀況、流動性、營運結果及現金流造成重大影響。",
+    "下列為可能對本公司業務、財務狀況、流動性、營運結果及現金流產生重大且不利影響的主要風險摘要。",
+    "•本公司無法保護系統及資料免受持續演進的網路安全威脅或其他科技風險，可能影響本公司提供服務的能力；損害客戶、信用卡發卡機構、金融機構、信用卡網路、合作夥伴及持卡人對本公司的聲譽；影響本公司持續參與信用卡網路註冊或會員資格及金融機構贊助；並使本公司面臨收入損失、處罰、罰款、責任、法律聲請及辯護費用。",
+    "•軟體及硬體缺陷、故障、未被發現的錯誤及開發延誤，可能影響本公司提供服務的能力，損害客戶關係，使本公司面臨責任，並對本公司業務、財務狀況及營運結果產生不利影響。",
+    "•本公司依賴與第三方的合作關係。本公司系統或第三方供應商系統可能發生故障，或本公司可能無法續約或重新協商與關鍵供應商的契約，這可能中斷本公司服務，導致本公司失去業務，增加成本，並使本公司面臨責任。",
+    "•本公司可能無法成功整合Worldpay的業務，或實現Worldpay收購預期的效益，這可能對本公司業務、財務狀況、營運結果及現金流產生不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

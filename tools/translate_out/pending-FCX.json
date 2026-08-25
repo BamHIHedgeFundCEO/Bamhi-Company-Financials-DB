@@ -1,0 +1,67 @@
+{
+ "ticker": "FCX",
+ "cik": "0000831259",
+ "accession": "0000831259-26-000012",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "risk": {
+   "headings": [
+    "Risk Factor Summary",
+    "Financial risks",
+    "International risks",
+    "Operational risks",
+    "Human capital risks",
+    "Risks related to development projects and mineral reserves",
+    "Regulatory, environmental and social risks",
+    "Risks related to our common stock",
+    "Our debt and other financial commitments may limit our financial and operating flexibility.",
+    "Changes in or the failure to comply with the requirements of mine closure and reclamation regulations could have a material adverse effect on our business.",
+    "Unanticipated legal proceedings or negative developments in pending legal proceedings or other contingencies could have a material adverse effect on our financial condition.",
+    "Changes in and interpretations of tax laws and regulations could have a material adverse effect on our financial condition.",
+    "Our operations are subject to evolving geopolitical, economic, regulatory and social risks.",
+    "Because our operations in Indonesia are material to our business, our business may be adversely affected by political, economic, regulatory and social uncertainties in Indonesia.",
+    "Our management of waste rock and tailings are subject to significant environmental, safety and engineering challenges and risks that could adversely affect our business."
+   ],
+   "paragraphs": [
+    "This report contains forward-looking statements in which we discuss our potential future performance, operations and projects. Forward-looking statements are all statements other than statements of historical facts, such as plans, projections or expectations relating to business outlook, strategy, goals or targets; repair and remediation efforts, and phased restart and ramp-up of production and downstream processing following the September 2025 mud rush incident at PT Freeport Indonesia's (PTFI) Grasberg Block Cave underground mine and the anticipated impact on",
+    "our business, production, sales, results of operations and operating plans, and recoveries under insurance policies; global market conditions, including trade policies; ore grades and milling rates; production and sales volumes; higher variability between PTFI production and sales; unit net cash costs (credits) and operating costs; capital expenditures; operating plans, including mine sequencing; cash flows; liquidity; potential extension of PTFI's special mining business license (IUPK) beyond 2041; timing of shipments of inventoried production; our sustainability-related commitments and targets; our overarching commitment to deliver responsibly produced copper and molybdenum, including plans to implement, validate and maintain validation of our operating sites under specific frameworks; achievement of our 2030 climate targets and our 2050 net zero aspiration; improvements in operating procedures and technology innovations and applications; exploration efforts and results; development and production activities, rates and costs; future organic growth opportunities; tax rates; the impact of copper, gold and molybdenum price changes; the impact of deferred intercompany profits on earnings; mineral reserve and mineral resource estimates; final resolution of settlements associated with ongoing legal and environmental proceedings; debt repurchases; and the ongoing implementation of our financial policy and future returns to shareholders, including dividend payments (base or variable) and share repurchases.",
+    "We undertake no obligation to update any forward-looking statements, which speak only as of the date made. We caution readers that forward-looking statements are not guarantees of future performance and actual results may differ materially from those anticipated, expected, projected or assumed in the forward-looking statements. Important factors that can cause our actual results to differ materially from those anticipated in the forward-looking statements are included below.",
+    "Investing in our securities involves a high degree of risk and uncertainties. You should carefully consider the risks described below and the information included in other sections of this annual report on Form 10-K, including, but not limited to, Items 1. and 2. \"Business and Properties,\" Item 1C. \"Cybersecurity,\" Items 7. and 7A. \"Management's Discussion and Analysis of Financial Condition and Results of Operations and Quantitative and Qualitative Disclosures About Market Risk\" (MD&A) and Item 3. \"Legal Proceedings\" prior to investing in our securities. If any of the following risks occur, they may have a material adverse impact on our business, financial performance, stock price, results of operations, operating flexibility, reputation, costs or liabilities and you could lose part or all of your investment. The summary and risks that follow are organized under headings as determined to be most applicable, but such risks also may be relevant to other headings. Moreover, the risk factors described herein are not all of the risks we may face and there may be other risks not presently known to us or that we currently believe are immaterial or general risks that apply to all companies operating in the United States (U.S.) and globally, which may emerge or become material.",
+    "•Fluctuations or extended material declines in the market prices of the commodities we produce;",
+    "•Fluctuations in price and availability of consumables and components we purchase as well as constraints on supply and logistics, and transportation services;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "risk": {
+   "headings": [
+    "風險因子總結",
+    "財務風險",
+    "國際風險",
+    "營運風險",
+    "人力資本風險",
+    "開發專案及礦產儲備相關風險",
+    "法規、環境及社會相關風險",
+    "本公司普通股相關風險",
+    "本公司債務及其他財務承諾可能限制本公司財務及營運彈性。",
+    "礦場關閉及復育規範之要求變更或未能遵守該等要求，可能對本公司業務造成重大不利影響。",
+    "未預期之法律訴訟或待決法律訴訟之負面發展或其他或有事項，可能對本公司財務狀況造成重大不利影響。",
+    "稅法及稅務規範之變更及解釋，可能對本公司財務狀況造成重大不利影響。",
+    "本公司營運受不斷演進之國際政治、經濟、法規及社會風險影響。",
+    "因本公司在印尼之營運對本公司業務為重要部分，故本公司業務可能因印尼之政治、經濟、法規及社會不確定性而受到不利影響。",
+    "本公司對廢石及尾礦之管理面臨重大環境、安全及工程挑戰及風險，可能對本公司業務造成不利影響。"
+   ],
+   "paragraphs": [
+    "本報告包含前瞻性陳述，我們討論我們潛在的未來表現、營運及專案。前瞻性陳述為所有非歷史事實的陳述，例如計畫、預測或與業務展望、策略、目標或指標相關的預期，以及修復與改善措施，以及在2025年9月PT Freeport Indonesia（PTFI）Grasberg Block Cave地下礦場泥流事件後，生產與下游處理的分階段重啟與增加產能，以及預期影響",
+    "我們的業務、生產、銷售、營運結果與營運計畫，以及保險政策下的賠償；全球市場條件，包括貿易政策；礦石品位與磨礦率；生產與銷售數量；PTFI生產與銷售之間的變動性增加；單位淨現金成本（信用額）與營運成本；資本支出；營運計畫，包括礦區開採順序；現金流；流動性；PTFI特殊礦業營業許可證（IUPK）延長至2041年後的潛在延長；庫存生產的出貨時間；我們與永續發展相關的承諾與目標；我們對負責任生產銅與鉬的總體承諾，包括計畫實施、驗證並維持驗證我們營運場地於特定框架下的計畫；達成我們2030年氣候目標與2050年淨零願景；營運程序改進與科技創新與應用；探勘努力與結果；開發與生產活動、速率與成本；未來內生成長機會；稅率；銅、黃金與鉬價格變動的影響；遞延內部利潤對獲利的影響；礦物儲備與資源估計；與持續進行法律與環境程序相關的和解最終解決；債務買回；以及我們財務政策的持續實施與未來對股東的回報，包括股息支付（基本或變動）與股票買回。",
+    "本公司不負有任何更新任何前瞻性陳述的義務，這些陳述僅於作出當日有效。我們提醒讀者，前瞻性陳述並非未來表現的保證，實際結果可能與前瞻性陳述中預期、預測或假設的結果有重大差異。可能導致我們實際結果與前瞻性陳述中預期結果有重大差異的重要因素已於下文列出。",
+    "投資本公司證券涉及高度風險與不確定性。您應仔細考慮下文所述風險與本年度報告表10-K其他部分所包含的資訊，包括但不僅限於項目1.與2.「業務與財產」、項目1C.「網路安全」、項目7.與7A.「管理層對財務狀況與營運結果的討論與分析，以及市場風險的定性與定量披露」（MD&A）與項目3.「法律程序」，在投資本公司證券前。如果以下任何風險發生，可能對我們的業務、財務表現、股票價格、營運結果、營運彈性、聲譽、成本或負債產生重大不利影響，您可能損失部分或全部投資。下列摘要與風險為根據最適用的標題分類，但這些風險也可能與其他標題相關。此外， herein所述的風險因素並非我們可能面臨的所有風險，且可能有其他風險尚未為我們所知或目前認為不重要或適用於所有在美國（U.S.）與全球營運公司的普遍風險，這些風險可能出現或變得重要。",
+    "•我們所生產商品市場價格的波動或持續重大下跌；",
+    "•我們所購買消耗品與零組件的價格與可得性波動，以及供應與物流、運輸服務的限制；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

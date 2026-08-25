@@ -1,0 +1,215 @@
+{
+ "ticker": "MRVL",
+ "cik": "0001835632",
+ "accession": "0001835632-26-000011",
+ "form": "10-K",
+ "reportDate": "2026-01-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Recent Developments",
+    "Available Information",
+    "Our Markets and Products",
+    "Customer products and applications",
+    "2026 % of Total February 1,",
+    "2025 % of Total February 3,",
+    "2024 % of Total",
+    "Financial Information about Segments and Geographic Areas",
+    "Customers, Sales and Marketing",
+    "2026 February 1,",
+    "2025 February 3,",
+    "Direct Customer:",
+    "Distributor:",
+    "Inventory and Working Capital",
+    "Research and Development",
+    "Manufacturing",
+    "Integrated Circuit Fabrication",
+    "Assembly and Test",
+    "Governmental Regulations",
+    "Environmental Management",
+    "Intellectual Property",
+    "Sustainability",
+    "Human Capital",
+    "Attracting and Retaining the Best Talent",
+    "Growing and Developing Our People",
+    "Building a Great Place to Work",
+    "Fostering Organizational and Team Health",
+    "Climate Change"
+   ],
+   "paragraphs": [
+    "Marvell Technology, Inc., together with its consolidated subsidiaries (\"Marvell,\" \"MTI,\" the \"Company,\" \"we,\" or \"us\") is a leading supplier of data infrastructure semiconductor solutions, spanning the data center core to network edge. We are a fabless supplier of high-performance semiconductor products with core strengths in developing and scaling complex System-on-a-Chip architectures, integrating analog, mixed-signal and digital signal processing functionality. Leveraging leading intellectual property and deep system-level expertise, as well as highly innovative security firmware, our solutions are empowering the data economy and enabling the data center and communications and other end markets.",
+    "We currently are incorporated in Delaware, United States. Our corporate headquarters is 1000 N. West Street, Suite 1200 Wilmington, Delaware 19801, and our telephone number is (302) 295-4840. We also have operations in many countries, including Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan and Vietnam. Our fiscal year ends on the Saturday nearest January 31.",
+    "On August 14, 2025, we completed the sale of our automotive ethernet business to Infineon Technologies AG for $2.5 billion in cash. In connection with the transaction, during the third quarter of fiscal 2026, we recorded a pre-tax gain on sale of $1.8 billion.",
+    "Subsequent to our fiscal 2026 year end, on February 2, 2026, we completed the previously announced acquisition of Celestial AI, Inc. (\"Celestial\"), a provider of a Photonic FabricTM technology platform purpose-built for next-generation scale-up interconnect. The acquisition of Celestial is expected to accelerate our connectivity strategy for next-generation AI and cloud data centers. At acquisition close, we paid approximately $1.3 billion in cash (or $1.0 billion, net of cash acquired of approximately $300.0 million) and issued approximately 24.5 million shares of our common stock. Contingent on the achievement of specified revenue milestones, we may be required to pay additional cash and issue additional shares of our common stock through fiscal 2029.",
+    "Subsequent to our fiscal 2026 year end, on February 10, 2026, we completed the previously announced acquisition of XConn Technologies Holdings, Ltd. (\"XConn\"), a provider of advanced PCIe and CXL switching silicon, which expands our switching portfolio and augments our Ultra Accelerator LinkTM (\"UALinkTM\") scale-up switch team. At acquisition close, we paid approximately $280.0 million in cash and issued approximately 2.1 million shares of our common stock.",
+    "Our website address is www.marvell.com. The information contained on any website referred to in this Form 10-K does not form any part of this Annual Report on Form 10-K and is not incorporated by reference herein unless expressly noted. We make available free of charge through our website our annual reports on Form 10-K, our quarterly reports on Form 10-Q, our current reports on Form 8-K and amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"), as soon as reasonably practicable after we electronically file these materials with, or furnish them to, the U.S. Securities and Exchange Commission (\"SEC\"). In addition, the SEC's website, www.sec.gov, contains reports, proxy statements, and other information that we file electronically with the SEC.",
+    "Our product solutions serve two end markets: (i) data center and (ii) communications and other. These markets and their corresponding customer products and applications are noted in the table below:",
+    "Data center •Cloud and on-premise Artificial intelligence (\"AI\") systems •Cloud and on-premise ethernet switching",
+    "•Cloud and on-premise network-attached storage (\"NAS\") •Cloud and on-premise AI servers •Cloud and on-premise general-purpose servers",
+    "•Cloud and on-premise storage area networks •Cloud and on-premise storage systems •Data center interconnect (\"DCI\")",
+    "Communications and other Enterprise networking •Campus and small medium enterprise routers",
+    "•Campus and small medium enterprise ethernet switches •Campus and small medium enterprise wireless access points (\"WAPs\")",
+    "•Network appliances (firewalls, and load balancers) •Workstations Carrier infrastructure •Broadband access systems",
+    "•Ethernet switches •Optical transport systems •Routers •Wireless radio access network (\"RAN\") systems"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Unfavorable or uncertain conditions in the Data Center and Communications markets may cause fluctuations in our rate of revenue growth or financial results.",
+    "Advances in artificial intelligence could disrupt our business model and materially adversely affect our results of operations and financial condition.",
+    "We face risks related to recessions, inflation, stagflation and other macroeconomic conditions.",
+    "We operate in intensely competitive markets. Our failure to compete effectively would harm our results of operations.",
+    "We may experience increased actual and opportunity costs as a result of our transition to smaller geometry process technologies.",
+    "If we are unable to develop and introduce new and enhanced products that achieve market acceptance in a timely and cost-effective manner, our results of operations and competitive position will be harmed."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. You should carefully consider the material risks and uncertainties described below and all information contained in this report before you decide to purchase our common stock. Many of these risks and uncertainties are beyond our control, including business cycles and seasonal trends of the computing, infrastructure, semiconductor and related industries and end markets. A manifestation of any of the following risks and uncertainties could, in circumstances we may or may not be able to accurately predict, render us unable to conduct our business as currently planned and materially and adversely affect our reputation, business, prospects, financial condition, cash flows, liquidity and operating results. In addition, the trading price of our common stock could decline due to the occurrence of any of these risks, and you could lose all or part of your investment. It is not possible to predict or identify all such risks and uncertainties; our operations could also be affected by risks or uncertainties that are not presently known to us or that we currently do not consider to present significant risks to our operations. Therefore, you should not consider the following discussion to be a complete statement of all the potential risks or uncertainties that we face.",
+    "SUMMARY OF FACTORS THAT MAY AFFECT OUR FUTURE RESULTS",
+    "The following summarizes the principal factors that make an investment in the Company speculative or risky. This summary should be read in conjunction with the remainder of this \"Risk Factors\" section and should not be relied upon as an exhaustive summary of the material risks facing our business. The occurrence of any of these risks could harm our business, financial condition, results of operations and/or growth prospects or cause our actual results to differ materially from those contained in forward-looking statements we have made in this report and those we may make from time to time. You should consider all of the risk factors described in our public filings when evaluating our business.",
+    "•risks related to our ability to design, develop and introduce new and enhanced products, in particular in the Data Center and Communications markets, in a timely and effective manner, as well as our ability to anticipate and adapt to changes in technology;",
+    "•risks related to our dependence on a few customers for a significant portion of our revenue, particularly as our major customers comprise an increasing percentage of our revenue, as well as risks related to a significant portion of our sales being concentrated in the data center end market, and risks related to the gain or loss of design wins with our key customers;",
+    "•risks related to changes in general macroeconomic conditions such as economic slowdowns, inflation, stagflation, high or rising interest rates, financial institution instability, and recessions, as well as risks related to global economic conditions such as the current armed conflict in Israel and the Middle East;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Critical Accounting Policies and Estimates",
+    "Results of Operations",
+    "Years Ended January 31, 2026 and February 1, 2025",
+    "2026 February 1,",
+    "2025 % Change",
+    "(in millions, except percentage)",
+    "(in millions, except percentages)",
+    "(in millions)",
+    "Liquidity and Capital Resources",
+    "Cash Flows from Operating Activities",
+    "Cash Flows from Investing Activities",
+    "Cash Flows from Financing Activities",
+    "Recent Accounting Pronouncements",
+    "Related Party Transactions"
+   ],
+   "paragraphs": [
+    "The following discussion of our financial condition and results of operations should be read in conjunction with the financial statements and related notes included in this Annual Report on Form 10-K. This discussion contains forward-looking statements based upon current expectations that involve risks and uncertainties, including those discussed under Part I, Item 1A, \"Risk Factors.\" These risks and uncertainties may cause actual results to differ materially from those discussed in the forward-looking statements.",
+    "We are a leading supplier of data infrastructure semiconductor solutions, spanning the data center core to network edge. We are a fabless supplier of high-performance semiconductor products with core strengths in developing and scaling complex System-on-a-Chip architectures, integrating analog, mixed-signal and digital signal processing functionality. Leveraging leading intellectual property and deep system-level expertise, as well as highly innovative security firmware, our solutions are empowering the data economy and enabling the data center and communications and other end markets.",
+    "Our fiscal year is the 52- or 53-week period ending on the Saturday closest to January 31. Accordingly, every fifth or sixth fiscal year will have a 53-week period. The additional week in a 53-week period is added to the fourth quarter, making such quarter consist of 14 weeks. Fiscal 2026 and fiscal 2025 each had a 52-week period. Fiscal 2024 had a 53-week period.",
+    "Net revenue in fiscal 2026 was $8.2 billion, 42% higher than net revenue of $5.8 billion in fiscal 2025. This was due to increases in sales from the data center end market by 46% and from the communications and other end market by 31%. The increase was partially offset by a decrease in sales from our automotive ethernet product portfolio due to the divestiture of our automotive ethernet business at the beginning of the third quarter of fiscal 2026.",
+    "Strong revenue growth from our data center market was driven by AI-related demand for our custom products and electro-optics portfolio. Additionally, following a period of inventory correction, we have continued to see revenue recovery in our communication and other end market growing significantly compared to fiscal 2025.",
+    "On August 14, 2025, we completed the sale of our automotive ethernet business to Infineon Technologies AG for $2.5 billion in cash. During the third quarter of fiscal 2026, we recorded a pre-tax gain on sale of $1.8 billion, which is included in interest income and other, net in the Consolidated Statements of Operations.",
+    "Subsequent to our fiscal 2026 year end, on February 2, 2026, we completed the previously announced acquisition of Celestial AI, Inc. (\"Celestial\"), a provider of a Photonic FabricTM technology platform purpose-built for next-generation scale-up interconnect. The acquisition of Celestial is expected to accelerate our connectivity strategy for next-generation AI and cloud data centers. At acquisition close, we paid approximately $1.3 billion in cash (or $1.0 billion, net of cash acquired of approximately $300.0 million) and issued approximately 24.5 million shares of our common stock. Contingent on the achievement of specified revenue milestones, we may be required to pay additional cash and issue additional shares of our common stock through fiscal 2029.",
+    "Subsequent to our fiscal 2026 year end, on February 10, 2026, we completed the previously announced acquisition of XConn Technologies Holdings, Ltd. (\"XConn\"), a provider of advanced PCIe and CXL switching silicon, which expands our switching portfolio and augments our Ultra Accelerator Link (\"UALinkTM\") scale-up switch team. At acquisition close, we paid approximately $280.0 million in cash and issued approximately 2.1 million shares of our common stock.",
+    "We continue to monitor the environment for potential long-term impact on supply and demand from tariffs.",
+    "We expect that the U.S. government's export restrictions on certain Chinese customers to continue to impact our revenue. Moreover, concerns that U.S. companies may not be reliable suppliers as a result of these and other actions has caused, and may in the future cause, some of our customers in China to amass large inventories of our products well in advance of need or cause some of our customers to replace our products in favor of products from other suppliers. Customers in China may also choose to develop indigenous solutions, as replacements for products that are subject to U.S. export controls. In addition, there may be indirect impacts to our business that we cannot easily quantify such as the fact that some of our other customers' products which use our solutions may also be impacted by export restrictions. See also Part I, Item IA, \"Risk Factors,\" including, but not limited to, the risk detailed under the caption \"Adverse changes in the political, regulatory and economic policies of governments in connection with trade with China and Chinese customers have reduced the demand for our products and damaged our business.\"",
+    "Government Incentives and Grants. We continue to benefit from lower income tax rates in certain jurisdictions through statutory elections or agreements with governmental agencies, which may include a commitment to maintain, or increase, headcount and business investment levels in those jurisdictions. The tax benefits associated with these reduced income tax rates are recorded through our income tax provision for the periods in which such incentive tax rates are effective. However, changes in international taxation, notably the enactment by numerous countries of minimum tax legislation modeled after the Organization for Economic Cooperation and Development's Pillar Two tax framework, could significantly reduce the income tax benefit associated with these tax incentives. In addition, certain jurisdictions in which we operate are pursuing alternative incentive programs, which operate within the Pillar Two tax framework.",
+    "On May 1, 2025, we received notification that our application for government incentives in a foreign jurisdiction in which we operate had been approved by the necessary government agencies. For the duration of the incentive period from February 2, 2025, through February 1, 2030, qualifying expenditures and certain qualifying purchases will result in the generation of credits that will reduce qualifying cost of sales and operating expenses by the incentives earned, and the credits may be used to offset income taxes payable or be refunded in cash. We believe there is reasonable assurance that we will meet the conditions of the incentive agreement and that the credits will ultimately be received and thus have recognized benefits associated with qualifying expenditures incurred in the current fiscal year.",
+    "Ultimate realization of the incentives is subject to satisfying certain minimum investment levels over the course of the incentive period and government agency reviews and audits of qualifying expenditures. We cannot guarantee that we will achieve the agreed upon investment levels over the incentive period and any failure to meet these investment levels or any change in the current law or government regulations may result in a clawback of some or all of the incentives and a corresponding reversal of any benefit recognized.",
+    "Capital Return Program. We remain committed to delivering stockholder value through our stock repurchase and dividend programs. Under the program authorized by our Board of Directors, we may repurchase shares of our common stock in the open-market or through privately negotiated transactions. On September 24, 2025, we executed an accelerated share repurchase agreement (\"ASR Agreement\") with a counterparty financial institution to repurchase shares of our common stock in exchange for an upfront payment of $1.0 billion. See \"Note 10 – Stockholders' Equity\" in the Notes to Consolidated Financial Statements for additional information. The extent to which we repurchase our stock and the timing of such repurchases will depend upon market conditions, legal rules and regulations, and other corporate considerations, as determined by our management team. During fiscal 2026, we repurchased 26.6 million shares of our common stock for $2.0 billion. As of January 31, 2026, $5.5 billion remained available for future stock repurchases."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "近期發展",
+    "可取得資訊",
+    "我們的市場與產品",
+    "客戶產品與應用",
+    "2026 年 2 月 1 日 % 總體",
+    "2025 年 2 月 3 日 % 總體",
+    "2024 年 % 總體",
+    "分部與地理區域之財務資訊",
+    "客戶、銷售與行銷",
+    "2026 年 2 月 1 日",
+    "2025 年 2 月 3 日",
+    "直接客戶:",
+    "經銷商:",
+    "存貨與營運資金",
+    "研究與發展",
+    "製造",
+    "積體電路製造",
+    "組裝與測試",
+    "政府規範",
+    "環境管理",
+    "智慧財產權",
+    "永續性",
+    "人力資本",
+    "吸引與留住優秀人才",
+    "持續培育與發展我們的員工",
+    "建立優良的工作環境",
+    "促進組織與團隊的健康",
+    "氣候變遷"
+   ],
+   "paragraphs": [
+    "Marvell Technology, Inc., 連同其合併子公司（\"Marvell,\" \"MTI,\" \"本公司,\" \"我們,\" 或 \"我們的\"）為數據基礎設施半導體解決方案的領導供應商，涵蓋資料中心核心至網路邊緣。我們為無晶圓廠半導體產品供應商，核心優勢在於開發與擴展複雜的系統晶片（System-on-a-Chip）架構，整合類比、混合訊號與數位訊號處理功能。透過領先的智慧財產權與深厚的系統層級專業知識，以及高度創新性的安全固件，我們的解決方案正賦能數據經濟，並推動資料中心與通訊及其他終端市場。",
+    "我們目前於美國德拉瓦州註冊設立。本公司總部位於1000 N. West Street, Suite 1200, Wilmington, Delaware 19801，電話為(302) 295-4840。我們也在許多國家設有營運據點，包括阿根廷、中國、印度、以色列、日本、新加坡、韓國、臺灣與越南。我們的會計年度於每年1月31日最近的星期六結束。",
+    "於2025年8月14日，我們完成將汽車乙太網路業務出售給英飛凌科技股份有限公司（Infineon Technologies AG），交易金額為25億美元現金。配合此交易，於財務年度2026年第三季，我們確認了20億美元的出售預稅獲利。",
+    "在財務年度2026年結算後，於2026年2月2日，我們完成先前宣佈的收購Celestial AI, Inc.（\"Celestial\"），一家提供Photonic FabricTM技術平台的公司，此平台專為下一代規模擴展連接而設計。收購Celestial預期將加速我們在下一代人工智慧與雲端資料中心的連接策略。於收購完成時，我們支付約13億美元現金（或淨支付約10億美元，扣除約3億美元取得的現金），並發行約2450萬股本公司普通股。若達成特定營收里程碑，我們可能需額外支付現金並發行更多本公司普通股，直至財務年度2029年。",
+    "在財務年度2026年結算後，於2026年2月10日，我們完成先前宣佈的收購XConn Technologies Holdings, Ltd.（\"XConn\"），一家提供先進PCIe與CXL交換晶片的公司，此收購將擴展我們的交換產品組合，並強化我們的Ultra Accelerator LinkTM（\"UALinkTM\"）規模擴展交換團隊。於收購完成時，我們支付約2.8億美元現金，並發行約210萬股本公司普通股。",
+    "本公司網站網址為www.marvell.com。任何在本Form 10-K中提及的網站所包含的資訊，並非本年度報告Form 10-K的一部分，除非明確註明，否則不視為本文件之引用。我們透過網站提供免費取得年度報告Form 10-K、季報Form 10-Q、現況報告Form 8-K以及根據證券交易法第13(a)或15(d)條項所提交或提供之報告之更正版本，我們在電子提交至美國證券交易委員會（\"SEC\"）後盡速提供。此外，SEC的網站www.sec.gov包含我們向SEC提交的報告、股東說明書及其他資訊。",
+    "我們的產品解決方案服務兩個終端市場：(i) 資料中心，以及 (ii) 通訊及其他。這些市場及其對應的客戶產品與應用如下表所示：",
+    "資料中心 •雲端與內部部署人工智慧（\"AI\"）系統 •雲端與內部部署乙太網路交換",
+    "•雲端及本機網路附加儲存（\"NAS\"） •雲端及本機人工智慧伺服器 •雲端及本機一般用途伺服器",
+    "•雲端及本機儲存區域網路 •雲端及本機儲存系統 •資料中心互連（\"DCI\"）",
+    "通訊及其它企業網路 •校園及中小型企業路由器",
+    "•校園及中小型企業乙太網路交換器 •校園及中小型企業無線存取點（\"WAPs\"）",
+    "•網路裝置（防火牆，及負載平衡器） •工作站 電信基礎建設 •寬頻存取系統",
+    "•乙太網路交換器 •光纖傳輸系統 •路由器 •無線射頻存取網路（\"RAN\"）系統"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "重要會計政策與會計估計",
+    "營運成果",
+    "截至2026年1月31日及2025年2月1日之年度",
+    "2026年2月1日",
+    "2025年變動百分比",
+    "(以千萬為單位，除百分比外)",
+    "(以千萬為單位，除百分比外)",
+    "(以千萬為單位)",
+    "流動性及資本資源",
+    "營運活動之現金流",
+    "投資活動之現金流",
+    "籌資活動之現金流",
+    "最近會計準則公告",
+    "關聯當事人交易"
+   ],
+   "paragraphs": [
+    "以下有關本公司財務狀況及營運成果之討論應配合本年度10-K表報表所附之財務報表及其相關附註一併閱讀。此討論包含基於目前預期之展望性陳述，涉及風險與不確定性，包括於第一部分第1A項「風險因素」中所討論之風險與不確定性。這些風險與不確定性可能導致實際結果與展望性陳述中所討論者有重大差異。",
+    "本公司為資料基礎設施半導體解決方案之領導供應商，涵蓋資料中心核心至網路邊緣。本公司為無廠半導體供應商，專注於高效能半導體產品之開發與擴展複雜之系統晶片架構，整合類比、混合訊號與數位訊號處理功能。透過領先之智慧財產權與深厚的系統層級專業知識，以及高度創新之安全固件，本公司解決方案正推動資料經濟，並啟動資料中心與通訊及其他終端市場。",
+    "本公司會計年度為52週或53週之期間，於1月31日最近之星期六結束。因此，每第五或第六會計年度將包含53週。53週會計年度中之額外週數會加入第四季，使該季包含14週。財務年度2026年與財務年度2025年各自為52週期間。財務年度2024年為53週期間。",
+    "財務年度2026年之淨營收為82億美元，較財務年度2025年淨營收58億美元成長42%。此為資料中心終端市場銷售成長46%與通訊及其他終端市場銷售成長31%所致。此成長部分抵銷因於財務年度2026年第三季初出售汽車乙太網路業務所致之汽車乙太網路產品組合銷售減少。",
+    "資料中心市場之強勁營收成長由AI相關需求所驅動，該需求為本公司客製化產品與電光產品組合。此外，經歷庫存修正後，我們持續觀察到通訊及其他終端市場之營收恢復，與財務年度2025年相比成長顯著。",
+    "2025年8月14日，本公司完成將汽車乙太網路業務出售給英飛凌科技股份有限公司（Infineon Technologies AG），交易金額為25億美元現金。於財務年度2026年第三季，本公司確認出售所得之稅前獲利為18億美元，此金額已計入綜合損益表之利息收入及其他，淨額中。",
+    "本公司財務年度2026年結算後，於2026年2月2日，本公司完成先前公告之Celestial AI, Inc.（\"Celestial\"）之收購，Celestial為提供Photonic FabricTM技術平台之供應商，該平台專為下一代規模擴展連接而設計。收購Celestial預期將加速本公司在下一代AI與雲端資料中心之連接策略。於收購完成時，本公司支付約13億美元現金（或淨支付約10億美元，扣除約3億美元所取得之現金）並發行約2450萬股本公司普通股。若達成特定營收里程碑，本公司可能需額外支付現金並發行額外之本公司普通股至財務年度2029年。",
+    "本公司財務年度2026年結算後，於2026年2月10日，本公司完成先前公告之XConn Technologies Holdings, Ltd.（\"XConn\"）之收購，XConn為提供先進PCIe與CXL交換晶片之供應商，此收購將擴展本公司交換產品組合並強化本公司Ultra Accelerator Link（\"UALinkTM\"）規模擴展交換團隊。於收購完成時，本公司支付約2.8億美元現金並發行約210萬股本公司普通股。",
+    "我們持續監測環境，以評估關稅對供應與需求的長期潛在影響。",
+    "我們預期美國政府對部分中國客戶的出口限制會持續影響我們的營業收入。此外，由於這些及其他行動，美國公司可能被視為不可靠的供應商，這已導致，且可能未來也會導致，部分中國客戶提前大量囤積我們的產品，或導致部分客戶改用其他供應商的產品。中國客戶也可能選擇發展本土解決方案，以取代受美國出口管制的產品。此外，我們的業務可能也會間接受到影響，而這些影響我們難以輕易衡量，例如部分其他客戶使用我們解決方案的產品也可能受到出口限制的影響。請參閱第一部分，項目 IA，\"風險因素\"，包括但不限於 \"與中國及中國客戶貿易相關的政府政治、法規及經濟政策變動，已降低我們產品的需求並損害我們業務\" 的風險說明。",
+    "政府補貼與補助。我們持續從某些司法管轄區的稅率優惠中受益，這些稅率優惠可能透過法定選項或與政府機構的協議取得，可能包括承諾維持或增加該司法管轄區的員工數與業務投資水平。與這些降低所得稅率相關的稅務利益，會在這些優惠稅率生效期間，透過我們的所得稅費用中列示。然而，國際稅務的變化，特別是許多國家實施的最低稅立法，其模式參考了經濟合作與發展組織（Organization for Economic Cooperation and Development）的 Pillar Two 稅框架，可能會顯著降低與這些稅務優惠相關的所得稅利益。此外，我們運作的某些司法管轄區正在推行其他補助計畫，這些計畫運作於 Pillar Two 稅框架內。",
+    "2025 年 5 月 1 日，我們收到通知，我們在一個運作的外國司法管轄區申請政府補助已獲相關政府機構批准。在補助期間內，即 2025 年 2 月 2 日至 2030 年 2 月 1 日，符合資格的支出與某些符合資格的採購將產生抵減資格成本與營運費用的信用額，並可用於抵減所得稅應繳款或以現金退款。我們認為我們有合理的把握符合補助協議的條件，且最終會收到這些信用額，因此已認列與符合資格支出相關的效益。",
+    "補助的最終實現取決於在補助期間內達到某些最低投資水平，以及政府機構對符合資格支出的審查與稽核。我們無法保證在補助期間內達成協議的投資水平，任何未能達成這些投資水平，或現行法律或政府法規的變動，都可能導致部分或全部補助被追回，並對應地反轉已認列的任何效益。",
+    "資本回饋計畫。我們仍致力於透過股票回購與股息計畫來回饋股東。根據董事會授權的計畫，我們可能在公開市場或私下協議交易中回購我們的普通股。2025 年 9 月 24 日，我們與一家對應機構金融機構簽訂加速股票回購協議（\"ASR 協議\"），以換取 10 億美元的預付金回購我們的普通股。請參閱 \"附註 10 – 股東權益\" 以取得更多資訊。我們回購股票的程度與時間點，將取決於市場條件、法律規則與法規，以及其他企業考量，由我們管理團隊決定。在 2026 財年，我們回購了 2,660 萬股普通股，總金額為 20 億美元。截至 2026 年 1 月 31 日，尚有 55 億美元可用於未來的股票回購。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "不利或不確定的條件可能影響資料中心與通訊市場，導致我們營業收入成長率或財務結果產生波動。",
+    "人工智慧的進步可能幹擾我們的商業模式，並對我們的營運結果與財務狀況造成重大不利影響。",
+    "我們面臨與經濟衰退、通貨膨脹、停滯通脹及其他總體經濟條件相關的風險。",
+    "我們所處的市場競爭激烈。若我們無法有效競爭，將會對營運結果造成損害。",
+    "我們可能因轉型至較小製程技術而面臨實際與機會成本的增加。",
+    "若我們無法在具成本效益且及時的時間內開發並推出獲市場接受的新產品與增強型產品，將會對營運結果與競爭地位造成損害。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及高度風險。您應仔細考慮下列所描述的重大風險與不確定性，以及本報告中所包含的所有資訊，再決定是否購買本公司普通股。許多這些風險與不確定性超出本公司控制範圍，包括計算機、基礎建設、半導體及相關產業與終端市場的商業週期與季節性趨勢。任何上述風險與不確定性之表現，可能在本公司可能或無法準確預測的情況下，使本公司無法按目前計畫進行業務，並對本公司聲譽、業務、前景、財務狀況、現金流、流動性及營運成果造成重大且不利的影響。此外，本公司普通股的交易價格可能因上述任何風險之發生而下跌，您可能損失全部或部分投資。無法預測或識別所有這些風險與不確定性；本公司運作也可能受到目前未為本公司所知或本公司目前認為對運作不具重大風險之風險或不確定性之影響。因此，您不應將下列討論視為所有潛在風險或不確定性之完整陳述。",
+    "可能影響我們未來結果之重要因素總覽",
+    "下列總結了使投資本公司成為投機性或風險性之主要因素。此總覽應與本節「風險因素」之其餘部分一併閱讀，不得視為對本公司業務所面臨重大風險之完整總覽。上述任何風險之發生可能損害本公司業務、財務狀況、營運結果及/或成長前景，或導致本公司實際結果與本報告中所做之預測性陳述以及本公司未來可能做出之預測性陳述產生重大差異。評估本公司業務時，您應考量我們公開檔中所描述的所有風險因素。",
+    "•與本公司設計、開發並推出新產品與增強產品（特別是在資料中心與通訊市場）之能力相關之風險，以及本公司預測並適應技術變革之能力；",
+    "•與本公司對少數客戶之依賴，特別是當本公司主要客戶佔據本公司收入之重大比例時，以及與本公司銷售集中於資料中心終端市場之風險，以及與本公司與關鍵客戶之設計勝利獲取或喪失相關之風險；",
+    "•與總體經濟條件變動相關之風險，例如經濟減速、通貨膨脹、停滯通脹、高或上升利率、金融機構不穩定，以及經濟衰退，以及與全球經濟條件相關之風險，例如目前以色列與中東地區之武裝衝突；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

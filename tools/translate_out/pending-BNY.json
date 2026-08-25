@@ -1,0 +1,59 @@
+{
+ "ticker": "BNY",
+ "cik": "0001390777",
+ "accession": "0001390777-26-000033",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Description of Business",
+    "Human Capital Management",
+    "Supervision and Regulation"
+   ],
+   "paragraphs": [
+    "The Bank of New York Mellon Corporation, a Delaware corporation (NYSE symbol: BK), is a global financial services platforms company headquartered in New York, New York, with $59.3 trillion in assets under custody and/or administration and $2.2 trillion in assets under management as of Dec. 31, 2025. With its subsidiaries, BNY has been in business since 1784.",
+    "We divide our businesses into three principal business segments: Securities Services, Market and Wealth Services and Investment and Wealth Management. We also have an Other segment, which includes the corporate treasury activities (including our securities portfolio), tax credit investments and other corporate investments, corporate and bank-owned life insurance, derivatives and other trading activity, and certain business exits.",
+    "For a further discussion of BNY's lines of business, products and services, see the \"Overview,\" \"Summary of financial highlights,\" \"Fee and other revenue,\" \"Review of business segments\" and \"International operations\" sections in the MD&A section in the Annual Report and Notes 23 and 24 of the Notes to Consolidated Financial Statements in the Annual Report, of which portions are incorporated herein by reference. See the \"Available Information\" section on page 1 of this Form 10-K, which is incorporated herein by reference, for a description of how to access financial and other information regarding BNY.",
+    "Our two principal U.S. banking subsidiaries engage in trust and custody activities, investment management services, banking services and various securities-related activities. Our two principal U.S. banking subsidiaries are:",
+    "•The Bank of New York Mellon, a New York state-chartered bank, which houses our Securities Services businesses, including Asset Servicing and Issuer Services and certain Market and Wealth Services businesses, including Payments and Trade and Clearance and Collateral Management, as well as the bank-advised business of Investment Management; and",
+    "•BNY Mellon, National Association (\"BNY Mellon, N.A.\"), a national bank, which houses",
+    "our Wealth Management business and certain activities of our Pershing businesses.",
+    "We have four other U.S. bank and/or trust company subsidiaries concentrating on trust products and services across the United States: The Bank of New York Mellon Trust Company, National Association, BNY Mellon Trust of Delaware, BNY Mellon Investment Servicing Trust Company and BNY Mellon Trust Company of Illinois. Most of our Investment Management business and Pershing businesses are direct or indirect non-bank subsidiaries of BNY.",
+    "Each of our bank and trust company subsidiaries is subject to regulation by the applicable bank regulatory authority. The deposits of our U.S. banking subsidiaries are insured by the Federal Deposit Insurance Corporation to the extent provided by law.",
+    "BNY's banking subsidiaries outside the United States are subject to regulation by non-U.S. regulatory authorities in addition to the Board of Governors of the Federal Reserve System (the \"Federal Reserve\"). The Bank of New York Mellon SA/NV (\"BNY SA/NV\") is the main banking subsidiary of The Bank of New York Mellon in continental Europe. It is authorized and regulated as a credit institution by the European Central Bank and the National Bank of Belgium under the Single Supervisory Mechanism and is also supervised by the Belgian Financial Services and Markets Authority for conduct of business rules. BNY SA/NV has its principal office in Brussels and branches in Amsterdam, the Netherlands; Copenhagen, Denmark; Dublin, Ireland; Frankfurt, Germany; the City of Luxembourg, Luxembourg; Madrid, Spain; Milan, Italy; Paris, France; and Wroclaw, Poland. BNY SA/NV's activities are in the Securities Services and Market and Wealth Services segments of BNY with a focus on global custody, asset servicing and collateral management. For additional discussion, see the \"MD&A – Supervision and Regulation\" section in the Annual Report.",
+    "Exhibit 21.1 to this Form 10-K presents a list of BNY's primary subsidiaries as of Dec. 31, 2025.",
+    "Our enduring ambition is to build the best global team—one that includes varying perspectives, backgrounds and experiences, and reflects the increasingly varied markets and clients we serve. Our core objective is to empower our teams to do their best work, make unique contributions and build purposeful careers in an environment where they are treated with fairness, dignity and respect.",
+    "Our culture is an important part of what makes BNY successful. We want the best people to work here, and to contribute to our success, regardless of their background. Creating an environment where everyone belongs is essential – that's how we succeed.",
+    "We seek to attract and retain employees by providing a rewarding employee experience. We recognize that employees seek a supportive and safe workplace, and we continually evaluate our employee engagement and wellbeing programs in an effort to meet those expectations. We offer a 401(k) plan for U.S. employees and other defined contribution retirement plans worldwide, where consistent with market practice. We also maintain defined benefit plans for certain current and former employees, some of which are frozen (including in the U.S.)."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "業務說明",
+    "人力資本管理",
+    "監督與規範"
+   ],
+   "paragraphs": [
+    "紐約梅隆銀行股份有限公司（The Bank of New York Mellon Corporation），為一間設立於紐約州紐約市的特拉華州公司（紐約證券交易所代碼：BK），截至2025年12月31日，其保管及/或管理的資產規模為59.3兆美元，管理的資產規模為2.2兆美元。透過其子公司，BNY 自1784年起即開始營運。",
+    "我們將業務分為三大主要業務分部：證券服務、市場與財富服務以及投資與財富管理。我們亦設有其他業務分部，包含企業財務活動（包括本公司證券投資組合）、稅收信用投資及其他企業投資、企業及銀行所有壽險、衍生性商品及其他交易活動，以及某些業務退出。",
+    "有關BNY各業務線、產品與服務之進一步說明，請參閱年度報告中「概觀」、「財務重點摘要」、「費用及其他收入」、「業務分部回顧」及「國際業務」等部分，以及年度報告中財務會計準則附註第23及第24項，其中部分內容已於本10-K文件中引用。請參閱本10-K文件第1頁的「可取得資訊」部分，以瞭解如何取得BNY之財務及其他資訊，該部分內容已於本文件中引用。",
+    "我們兩大主要美國銀行子公司從事信託與保管業務、投資管理服務、銀行服務及各種證券相關業務。我們兩大主要美國銀行子公司為：",
+    "•紐約梅隆銀行（The Bank of New York Mellon），一間紐約州特許銀行，其存放我們的證券服務業務，包括資產服務與發行服務，以及部分市場與財富管理服務業務，包括付款與交易結算及擔保管理，以及銀行建議的投資管理業務；以及",
+    "•紐約梅隆國家協會（\"BNY Mellon, N.A.\"），一間全國性銀行，其存放",
+    "我們的財富管理業務以及我們的Pershing業務的部分活動。",
+    "我們還有四間其他美國銀行及/或信託公司子公司，專注於美國境內的信託產品與服務：紐約梅隆銀行信託公司國家協會、紐約梅隆信託公司（德拉華州）、紐約梅隆投資服務信託公司以及紐約梅隆信託公司（伊利諾州）。我們大多數的投資管理業務與Pershing業務都是BNY的直接或間接非銀行子公司。",
+    "本公司之銀行與信託子公司均受適用之銀行監管機關監督。本公司美國銀行子公司之存款，依法律規定之範圍，由美國聯邦存款保險公司提供保險。",
+    "BNY 位於美國境外之銀行子公司，除美國聯邦儲備委員會（\"Federal Reserve\"）外，亦受非美國監管機關之監督。BNY 在歐洲大陸之主要銀行子公司為 Bank of New York Mellon SA/NV（\"BNY SA/NV\"）。BNY SA/NV 經核准並受歐洲中央銀行與比利時國家銀行根據單一監管機制監督，同時亦受比利時金融服務與市場管理局監督，以確保業務行為符合規範。BNY SA/NV 之總部設於布魯塞爾，並在荷蘭阿姆斯特丹、丹麥哥本哈根、愛爾蘭都柏林、德國法蘭克福、盧森堡盧森堡市、西班牙馬德里、義大利米蘭、法國巴黎及波蘭弗羅茨瓦夫設有分行。BNY SA/NV 之業務屬於 BNY 之證券服務與市場及財富服務分部，重點在於全球保管、資產服務與擔保管理。有關更多討論，請參閱年度報告之 \"MD&A – 監督與監管\" 節。",
+    "本表單 10-K 之附錄 21.1 顯示截至 2025 年 12 月 31 日為止 BNY 之主要子公司清單。",
+    "本公司持續的願景是建立最佳之全球團隊—包含多樣化之觀點、背景與經驗，並反映我們服務之日益多樣化之市場與客戶。本公司核心目標是賦予團隊成員發揮最佳表現、做出獨特貢獻並在一個公平、尊嚴與尊重之環境中建立有意義之職業生涯。",
+    "本公司文化是使 BNY 成功的重要因素之一。我們希望最優秀之人才能加入本公司，並為我們的成功做出貢獻，不論其背景如何。建立一個讓每個人都能歸屬之環境是至關重要—這就是我們成功之道。",
+    "我們致力於吸引並留住員工，透過提供有價值之員工體驗。我們認知員工尋求一個支持性與安全之工作環境，並持續評估員工參與與福祉計畫，以符合這些期望。我們為美國員工提供 401(k) 計畫，並在全球其他地區提供符合市場慣例之其他確定提撥退休計畫。我們亦為部分現任與前員工維護確定給付退休計畫，其中部分計畫已凍結（包括美國在內）。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

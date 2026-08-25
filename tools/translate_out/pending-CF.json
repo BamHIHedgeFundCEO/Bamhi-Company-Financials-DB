@@ -1,0 +1,221 @@
+{
+ "ticker": "CF",
+ "cik": "0001324404",
+ "accession": "0001324404-26-000007",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Strategy",
+    "Decarbonizing our existing network",
+    "Blue Point joint venture",
+    "Low-carbon ammonia demand",
+    "Company History",
+    "Product Tons and Nutrient Tons",
+    "Reportable Segments",
+    "Our Products",
+    "Sales Volume (tons) Net Sales Sales Volume (tons) Net Sales Sales Volume (tons) Net Sales",
+    "(tons in thousands; dollars in millions)",
+    "Average Annual Capacity(1)",
+    "(tons in thousands)",
+    "December 31,",
+    "Manufacturing Facilities",
+    "Nitrogen Product Raw Materials",
+    "Nitrogen Product Distribution",
+    "Storage Facilities and Other Properties",
+    "Ammonia Granular Urea UAN(1)",
+    "Facilities Capacity",
+    "(000 Tons) Number of",
+    "Environmental, Health and Safety",
+    "Human Capital Resources"
+   ],
+   "paragraphs": [
+    "All references to \"CF Holdings,\" \"we,\" \"us,\" \"our\" and \"the Company,\" refer to CF Industries Holdings, Inc. and its subsidiaries, except where the context makes clear that the reference is to CF Industries Holdings, Inc. only and not its subsidiaries. All references to \"CF Industries\" refer to CF Industries, Inc., a 100% owned subsidiary of CF Industries Holdings, Inc. References to tons refer to short tons. Notes referenced throughout this document refer to consolidated financial statement note disclosures that are found in Item 8. Financial Statements and Supplementary Data—Notes to Consolidated Financial Statements.",
+    "Our mission is to provide clean energy to feed and fuel the world sustainably. With our employees focused on safe and reliable operations, environmental stewardship, and disciplined capital and corporate management, we are on a path to decarbonize our ammonia production network – the world's largest – to enable low-carbon hydrogen and nitrogen products for energy, fertilizer, emissions abatement and other industrial activities. Our value chain consists of manufacturing complexes in the United States, Canada and the United Kingdom, an extensive storage, transportation and distribution network in North America, and logistics capabilities enabling a global reach. In July 2025, we completed a significant decarbonization project at our Donaldsonville, Louisiana, complex to enable the production of low-carbon ammonia. Additionally, we are executing further decarbonization projects in our existing network and constructing a greenfield low-carbon ammonia plant at our Blue Point complex to drive our strategy to leverage our unique capabilities to accelerate the world's transition to clean energy.",
+    "Our principal customers are cooperatives, retailers, independent fertilizer distributors, traders, wholesalers and industrial users. Our core product is anhydrous ammonia (ammonia), which contains 82% nitrogen and 18% hydrogen. Products derived from ammonia that are most often used as nitrogen fertilizers include granular urea, urea ammonium nitrate solution (UAN) and ammonium nitrate (AN). AN is also used extensively by the commercial explosives industry as a component of explosives. Products derived from ammonia that are sold primarily to industrial customers include diesel exhaust fluid (DEF), urea liquor, nitric acid and aqua ammonia. In addition, our low-carbon products are expected to be used for existing and new applications, such as power generation and steel production in Japan, and to help customers reduce the economic impact of European regulations on the price of carbon.",
+    "Our principal assets as of December 31, 2025 include:",
+    "•six U.S. manufacturing facilities, located in Donaldsonville, Louisiana (the largest ammonia production complex in the world); Sergeant Bluff, Iowa (our Port Neal complex); Yazoo City, Mississippi; Claremore, Oklahoma (our Verdigris complex); Woodward, Oklahoma; and Waggaman, Louisiana. The Waggaman facility is wholly owned by us, and the other five U.S. manufacturing facilities are wholly owned directly or indirectly by CF Industries Nitrogen, LLC (CFN), of which we own approximately 89% and CHS Inc. (CHS) owns the remainder;",
+    "•two Canadian manufacturing facilities, located in Medicine Hat, Alberta (the largest ammonia production complex in Canada) and Courtright, Ontario;",
+    "•a United Kingdom manufacturing facility located in Billingham;",
+    "•an extensive system of terminals and associated transportation equipment located primarily in the Midwestern United States;",
+    "•a 50% interest in Point Lisas Nitrogen Limited (PLNL), an ammonia production joint venture located in Trinidad and Tobago (Trinidad) that we account for under the equity method; and",
+    "•a 40% interest in Blue Point Number One, LLC, a joint venture formed on April 8, 2025 (the Blue Point joint venture), to construct a manufacturing plant at our Blue Point complex located in Modeste, Louisiana. The joint venture entity is a variable interest entity (VIE) of which we are the primary beneficiary. As a result, we consolidate this entity in our consolidated financial statements, with the combined 60% equity interest owned by our joint venture partners recorded as noncontrolling interests. See \"Our Strategy—Blue Point joint venture,\" below, for additional information.",
+    "We have a strategic venture with CHS under which CHS owns an equity interest in CFN, a subsidiary of CF Holdings, which represents approximately 11% of the membership interests of CFN. We own the remaining membership interests. CHS also receives deliveries pursuant to a supply agreement under which CHS has the right to purchase annually from CFN up to approximately 1.1 million tons of granular urea and 580,000 tons of UAN at market prices. As a result of its minority equity",
+    "interest in CFN, CHS is entitled to semi-annual cash distributions from CFN. We are also entitled to semi-annual cash distributions from CFN. See Note 18—Noncontrolling Interests for additional information on our strategic venture with CHS.",
+    "For the years ended December 31, 2025, 2024 and 2023, we sold 19.1 million, 18.9 million and 19.1 million product tons generating net sales of $7.08 billion, $5.94 billion and $6.63 billion, respectively.",
+    "Our principal executive offices are located outside of Chicago, Illinois, at 2375 Waterview Drive, Northbrook, Illinois 60062, and our telephone number is 847-405-2400. Our Internet website address is www.cfindustries.com. Information made available on our website does not constitute part of this Annual Report on Form 10-K."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Market Risks",
+    "Nitrogen products are global commodities, and we face intense global competition from other producers.",
+    "A decline in agricultural production, limitations on the use of our products for agricultural purposes or developments in crop technology could materially adversely affect the demand for our products.",
+    "Our business is dependent on natural gas, the prices of which are subject to volatility.",
+    "Our operating results fluctuate due to seasonality. Our inability to predict future seasonal fertilizer demand accurately could result in our having excess inventory, potentially at costs in excess of market value.",
+    "Operational Risks",
+    "Our operations are dependent upon raw materials and utilities provided by third parties, and any delay or interruption in the delivery of raw materials or utilities may adversely affect our business.",
+    "We are reliant on a limited number of key facilities.",
+    "Failure, inadequacy, breach of, or unauthorized access to, our information technology systems or those of third-party service providers or customers could negatively affect our business and operations.",
+    "Acts of terrorism and regulations to combat terrorism could negatively affect our business.",
+    "Our international operations and business activities expose us to risks that could negatively affect our business, financial condition, results of operations and cash flows.",
+    "Financial Risks",
+    "Our indebtedness could adversely affect our cash flow, prevent us from fulfilling our obligations and impair our ability to pursue or achieve other business objectives.",
+    "Tax matters, including changes in tax laws or rates, adverse determinations by taxing authorities and imposition of new taxes could adversely affect our results of operations and financial condition.",
+    "Our business is subject to risks involving derivatives and the risk that our hedging activities might not prevent losses."
+   ],
+   "paragraphs": [
+    "In addition to the other information contained in this Annual Report on Form 10-K, you should carefully consider the factors discussed below in evaluating the Company and before deciding to invest in any of our securities. These risks and uncertainties, individually or in combination, could materially and adversely affect our business, financial condition, results of operations and cash flows. Additional risks and uncertainties not presently known to us or that we currently do not believe to be material could also adversely affect our business, financial condition, results of operations and cash flows.",
+    "Our industry is cyclical, and our operating results are highly dependent upon and fluctuate based upon changes in supply and demand of nitrogen products, and our business, financial condition, results of operations and cash flows tend to be negatively affected in periods of industry oversupply.",
+    "Selling prices for our products, which are global commodities or derived from global commodities, have fluctuated in response to periodic changes in supply and demand conditions. Supply of nitrogen products is affected primarily by available production capacity and operating rates, raw material costs and availability, energy prices, government policies and global trade. Demand for nitrogen products is affected by planted acreage, crop selection and fertilizer application rates, driven by population changes, economic growth, changes in dietary habits and non-food use of crops, such as production of ethanol and other biofuels. Demand also includes industrial uses of nitrogen, for example, chemical manufacturing and emissions reductants such as diesel exhaust fluid (DEF). Many factors affecting supply and demand of global nitrogen products are out of our control and could significantly impact our business, financial condition, results of operations and cash flows.",
+    "Periods, or anticipated periods, of strong demand, high-capacity utilization or increasing operating margins tend to stimulate global investment in production capacity. During such periods, nitrogen manufacturers, including the Company, have built new production capacity or expanded capacity of existing production assets, or have announced plans to do so. Construction of new production capacity in the industry, and improvements to increase output from existing production assets, increase nitrogen supply availability and place downward pressure on nitrogen selling prices, particularly when supply growth outpaces demand growth. For example, in the two-year period ended December 31, 2017, additional production capacity came online, and the average selling price for our products declined 34%, from $314 per ton in 2015 to $207 per ton in 2017.",
+    "Additional nitrogen production capacity has come online in the past 12 months and is expected to continue to do so globally over the next 12 months. In addition, we and other companies have announced plans to build new facilities for low-carbon ammonia, such as our ongoing development of a low-carbon ammonia production facility at our Blue Point complex in Louisiana. We cannot predict the impact of this additional capacity on nitrogen selling prices. Additionally, global or local economic, political and financial conditions or changes in such conditions, or other factors, may cause acceleration of announced and/or ongoing projects, which could further impact nitrogen selling prices. Similarly, lower energy prices can spur increases in production, which would result in increased supply and pressure on selling prices. Additionally, if imports increase into an oversupplied region, that region could experience lower prices.",
+    "During periods of industry oversupply, our financial condition, results of operations and cash flows tend to be affected negatively due to a decline in the price at which we sell our products. As a result, we may experience reduced profit margins, write-downs in the value of our inventory and temporary or permanent curtailments of production. Due to the cyclical nature of our industry, we have experienced periods of industry oversupply, which impacted our financial performance, credit ratings and the trading price for our common stock. We cannot predict the timing or duration of such periods of industry oversupply or the degree to which oversupply conditions would impact our business, financial condition, results of operations and cash flows."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Overview of CF Holdings",
+    "Our Strategy",
+    "Industry Factors",
+    "Market Conditions and Current Developments",
+    "Government Policies",
+    "U.S. Tax Legislation",
+    "Nitrogen Selling Prices and Sales Volume",
+    "Sales Volume (tons) Net Sales Sales Volume (tons) Net Sales Sales Volume (tons) Net Sales",
+    "(tons in thousands; dollars in millions)",
+    "Year ended December 31,",
+    "2025 2024 2023 2025 v. 2024 2024 v. 2023",
+    "Low-carbon Ammonia Production Section 45Q Tax Credits",
+    "Yazoo City Incident",
+    "Abandonment of Electrolyzer Project",
+    "Financial Executive Summary",
+    "Items Affecting Comparability of Results",
+    "Pre-Tax After-Tax(1)",
+    "Consolidated Results of Operations",
+    "(in millions, except as noted)"
+   ],
+   "paragraphs": [
+    "Our mission is to provide clean energy to feed and fuel the world sustainably. With our employees focused on safe and reliable operations, environmental stewardship, and disciplined capital and corporate management, we are on a path to decarbonize our ammonia production network – the world's largest – to enable low-carbon hydrogen and nitrogen products for energy, fertilizer, emissions abatement, and other industrial activities. Our value chain consists of manufacturing complexes in the United States, Canada and the United Kingdom, an extensive storage, transportation and distribution network in North America, and logistics capabilities enabling a global reach. In July 2025, we completed a significant decarbonization project at our Donaldsonville, Louisiana, complex to enable the production of low-carbon ammonia. Additionally, we are executing further decarbonization projects in our existing network and constructing a greenfield low-carbon ammonia plant at our Blue Point complex to drive our strategy to leverage our unique capabilities to accelerate the world's transition to clean energy.",
+    "Our principal customers are cooperatives, retailers, independent fertilizer distributors, traders, wholesalers and industrial users. Our core product is anhydrous ammonia (ammonia), which contains 82% nitrogen and 18% hydrogen. Products derived from ammonia that are most often used as nitrogen fertilizers include granular urea, urea ammonium nitrate solution (UAN) and ammonium nitrate (AN). AN is also used extensively by the commercial explosives industry as a component of explosives. Products derived from ammonia that are sold primarily to industrial customers include diesel exhaust fluid (DEF), urea liquor, nitric acid and aqua ammonia. In addition, our low-carbon products are expected to be used for existing and new applications, such as power generation and steel production in Japan, and to help customers reduce the economic impact of European regulations on the price of carbon.",
+    "Our principal assets as of December 31, 2025 include:",
+    "•six U.S. manufacturing facilities, located in Donaldsonville, Louisiana (the largest ammonia production complex in the world); Sergeant Bluff, Iowa (our Port Neal complex); Yazoo City, Mississippi; Claremore, Oklahoma (our Verdigris complex); Woodward, Oklahoma; and Waggaman, Louisiana. The Waggaman facility is wholly owned by us, and the other five U.S. manufacturing facilities are wholly owned directly or indirectly by CF Industries Nitrogen, LLC (CFN), of which we own approximately 89% and CHS Inc. (CHS) owns the remainder (see Note 18—Noncontrolling Interests for additional information on our strategic venture with CHS);",
+    "•two Canadian manufacturing facilities, located in Medicine Hat, Alberta (the largest ammonia production complex in Canada) and Courtright, Ontario;",
+    "CF INDUSTRIES HOLDINGS, INC. •a United Kingdom manufacturing facility located in Billingham;",
+    "•an extensive system of terminals and associated transportation equipment located primarily in the Midwestern United States;",
+    "•a 50% interest in Point Lisas Nitrogen Limited (PLNL), an ammonia production joint venture located in Trinidad and Tobago (Trinidad) that we account for under the equity method; and",
+    "•a 40% interest in Blue Point Number One, LLC, a joint venture formed on April 8, 2025 (the Blue Point joint venture), to construct a manufacturing plant at our Blue Point complex located in Modeste, Louisiana. The joint venture entity is a variable interest entity (VIE) of which we are the primary beneficiary. As a result, we consolidate this entity in our consolidated financial statements, with the combined 60% equity interest owned by our joint venture partners recorded as noncontrolling interests. See \"Our Strategy—Blue Point joint venture,\" below, for additional information."
+   ],
+   "focus": "Overview of CF Holdings"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司策略",
+    "現有網路減碳",
+    "Blue Point 合資企業",
+    "低碳氨需求",
+    "公司沿革",
+    "產品噸數與營養素噸數",
+    "應報告分部",
+    "本公司產品",
+    "銷售數量（公噸） 淨銷售額 銷售數量（公噸） 淨銷售額 銷售數量（公噸） 淨銷售額",
+    "(公噸以千計；美元以百萬計)",
+    "平均年產能(1)",
+    "(公噸以千計)",
+    "12月31日",
+    "製造設施",
+    "氮氣產品 原材料",
+    "氮氣產品 配送",
+    "{'Storage Facilities and Other Properties': '儲存設施及其他不動產'}",
+    "{'Ammonia Granular Urea UAN(1)': '液氨粒狀尿素 UAN(1)'}",
+    "{'Facilities Capacity': '設施容量'}",
+    "{'(000 Tons) Number of': '(千噸) 數量'}",
+    "{'Environmental, Health and Safety': '環境、健康與安全'}",
+    "{'Human Capital Resources': '人力資源'}"
+   ],
+   "paragraphs": [
+    "所有提及 \"CF Holdings,\" \"we,\" \"us,\" \"our\" 和 \"the Company,\" 的地方，均指 CF Industries Holdings, Inc. 及其子公司，除非上下文清楚顯示該提及僅指 CF Industries Holdings, Inc. 而非其子公司。所有提及 \"CF Industries\" 的地方，均指 CF Industries, Inc.，為 CF Industries Holdings, Inc. 的 100% 佔有子公司。提及 \"tons\" 均指短噸。本文檔中提及的註解，均指於第 8 項財務報表及補充資料—財務報表附註中所載的合併財務報表註解。",
+    "我們的使命是提供清潔能源，以可持續的方式餵養與驅動世界。透過我們員工專注於安全可靠的運作、環境管理及嚴謹的資本與企業管理，我們正朝向實現全球最大氨生產網路的減碳化，以製造低碳氫氣與氮氣產品，用於能源、肥料、減排及其他工業活動。我們的價值鏈包含美國、加拿大與英國的製造基地，廣泛的儲存、運輸與配送網路於北美地區，以及物流能力以實現全球覆蓋。2025 年 7 月，我們完成於路易斯安那州唐納森維爾廠區的重大減碳計畫，以實現低碳氨氣的生產。此外，我們正在現有網路中執行進一步的減碳計畫，並於藍點廠區建設一個新興低碳氨氣廠區，以推動我們運用獨特能力加速全球向清潔能源轉型的戰略。",
+    "我們的主要客戶為合作社、零售商、獨立肥料經銷商、貿易商、經銷商與工業用戶。我們的核心產品為無水氨氣（氨氣），其含有 82% 氮氣與 18% 氫氣。由氨氣衍生的產品，最常作為氮肥使用，包括粒狀尿素、尿素氨硝酸鹽溶液（UAN）與硝酸銨（AN）。AN 也廣泛用於商業炸藥產業作為炸藥的零組件。由氨氣衍生的產品，主要銷售給工業客戶，包括柴油廢氣流體（DEF）、尿素液、硝酸與水合氨。此外，我們的低碳產品預期將用於現有與新興應用，例如日本的發電與鋼鐵生產，並協助客戶減少歐洲碳規範對碳價格的經濟影響。",
+    "我們截至 2025 年 12 月 31 日的主要資產包括：",
+    "•六座美國製造廠區，位於路易斯安那州唐納森維爾（全球最大氨氣生產複合體）；愛荷華州塞德布爾夫（我們的波特奈爾廠區）；密西西比州亞扎城；俄克拉荷馬州克萊莫爾（我們的維迪格里斯廠區）；俄克拉荷馬州伍德沃德；以及路易斯安那州瓦格曼。瓦格曼廠區為我們全資擁有，而其他五座美國製造廠區則為 CF Industries Nitrogen, LLC（CFN）全資擁有，我們持有約 89% 的股份，CHS Inc.（CHS）持有其餘股份；",
+    "•兩座加拿大製造廠區，位於亞伯達省麥迪遜哈特（加拿大最大氨氣生產複合體）與安大略省柯特里；",
+    "•一處英國製造廠區，位於比林厄姆；",
+    "•一處廣泛的碼頭系統與相關運輸設備，主要位於美國中西部地區；",
+    "•持有 Point Lisas Nitrogen Limited (PLNL) 50% 的權益，PLNL 是位於特立尼達與託巴哥 (Trinidad) 的氨生產合資企業，我們以權益法計入帳內；",
+    "•持有 Blue Point Number One, LLC 40% 的權益，該合資企業於 2025 年 4 月 8 日成立 (Blue Point 合資企業)，用以在位於路易斯安那州 Modeste 的 Blue Point 製造廠進行建設。該合資企業為一變動權益實體 (VIE)，我們為其主要受益人。因此，我們將此實體納入合併財務報表，合資企業夥伴持有的 60% 優先權益則列為非控制性權益。有關 Blue Point 合資企業的更多資訊，請參閱下方 \"我們的策略—Blue Point 合資企業\" 部分。",
+    "我們與 CHS 有戰略合作關係，CHS 持有 CFN 的權益，CFN 為 CF Holdings 的子公司，代表 CFN 會員權益約 11%。我們持有其餘的會員權益。CHS 也根據供應協議獲得交付，根據協議，CHS 有權每年從 CFN 購買約 1.1 億噸粒狀尿素及 58 萬噸 UAN，價格為市場價格。由於其在 CFN 的少數權益，CHS 有權獲得 CFN 的半年度現金分紅。我們也有權獲得 CFN 的半年度現金分紅。有關我們與 CHS 的戰略合作關係的更多資訊，請參閱附註 18—非控制性權益。",
+    "截至 2025 年 12 月 31 日、2024 年 12 月 31 日及 2023 年 12 月 31 日，我們分別銷售了 19.1 萬噸、18.9 萬噸及 19.1 萬噸產品，產生淨銷售額為 70.8 億美元、59.4 億美元及 66.3 億美元。",
+    "我們的總部位於美國伊利諾州芝加哥市外，地址為 2375 Waterview Drive, Northbrook, Illinois 60062，電話號碼為 847-405-2400。我們的網站網址為 www.cfindustries.com。我們網站上提供的資訊不構成本年 10-K 年度報告的一部分。",
+    "我們的總部位於美國伊利諾州芝加哥市外，地址為 2375 Waterview Drive, Northbrook, Illinois 60062，電話號碼為 847-405-2400。我們的網站網址為 www.cfindustries.com。我們網站上提供的資訊不構成本年 10-K 年度報告的一部分。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "CF Holdings 總覽",
+    "本公司策略",
+    "產業因素",
+    "市場狀況與當前發展",
+    "政府政策",
+    "美國稅法",
+    "氮氣售價與銷售量",
+    "銷售量（公噸） 淨銷售額 銷售量（公噸） 淨銷售額 銷售量（公噸） 淨銷售額",
+    "(公噸以千計；美元以百萬計)",
+    "會計年度截止12月31日",
+    "2025 2024 2023 2025 與 2024 比較 2024 與 2023 比較",
+    "低碳氨生產部門 45Q 稅抵減",
+    "亞扎城事件",
+    "放棄電解槽專案",
+    "財務高階摘要",
+    "影響結果可比性的項目",
+    "稅前稅後(1)",
+    "合併營運成果",
+    "(以千萬為單位，除非另有說明)"
+   ],
+   "paragraphs": [
+    "本公司之使命為提供潔淨能源，以永續方式餵養與推動世界。本公司員工專注於安全且可靠的運作、環境管理及嚴謹的資金與企業管理，我們正朝向減碳我們的氨生產網路 – 全球最大的氨生產網路 – 前進，以啟動低碳氫與氮產品，用於能源、肥料、減排及其他工業活動。本公司價值鏈包含美國、加拿大與英國的製造基地，北美地區廣泛的儲存、運輸與配送網路，以及物流能力以實現全球範圍的服務。2025年7月，我們完成一項重要的減碳計畫，於路易斯安那州唐納森維爾廠區啟動低碳氨的生產。此外，我們正在現有網路中執行進一步的減碳計畫，並於藍點廠區建設一座綠能低碳氨生產廠，以推動我們運用獨特能力加速世界轉型至潔淨能源的策略。",
+    "本公司主要客戶為合作社、零售商、獨立肥料經銷商、貿易商、經銷商與工業用戶。本公司核心產品為無水氨（氨），其含有82%氮與18%氫。由氨衍生的產品，最常作為氮肥使用，包括顆粒尿素、尿素硝酸銨溶液（UAN）與硝酸銨（AN）。AN亦廣泛用於商業炸藥產業作為炸藥的零組件。由氨衍生的產品，主要銷售給工業客戶，包括柴油廢氣流體（DEF）、尿素液、硝酸與水合氨。此外，本公司低碳產品預期將用於現有與新興應用，例如日本的發電與鋼鐵生產，並協助客戶降低歐洲對碳價格的經濟影響。",
+    "本公司截至2025年12月31日的主要資產包括：",
+    "•六座美國製造廠區，位於路易斯安那州唐納森維爾（全球最大氨生產複合體）；愛荷華州塞德爾布夫（我們的波特奈爾廠區）；密西西比州亞扎城；奧克拉荷馬州克萊莫爾（我們的維爾迪格里斯廠區）；奧克拉荷馬州伍德沃德；以及路易斯安那州瓦格曼。瓦格曼廠區為本公司全資擁有，其餘五座美國製造廠區則為CF Industries Nitrogen, LLC（CFN）全資擁有，本公司持有CFN約89%股權，CHS Inc.（CHS）持有剩餘股權（詳見附註18—非控制權益以取得更多有關與CHS戰略合作的資訊）；",
+    "•兩座加拿大製造廠區，位於亞伯達省麥迪根哈特（加拿大最大氨生產複合體）與安大略省庫特里格；",
+    "CF INDUSTRIES HOLDINGS, INC. •一處位於英國比林厄姆的製造廠區；",
+    "•一項廣泛的碼頭系統與相關運輸設備，主要位於美國中西部地區；",
+    "•於特立尼達與託巴哥（特立尼達）的氨生產合資企業Point Lisas Nitrogen Limited（PLNL）持有50%權益，本公司以權益法會計處理；",
+    "•持有 Blue Point Number One, LLC 40% 的權益，該公司為於 2025 年 4 月 8 日成立的合資企業（Blue Point 合資企業），用以在位於路易斯安那州 Modeste 的 Blue Point 製造廠進行建設。該合資企業為一變動權益實體（VIE），本公司為其主要受益人。因此，本公司將此實體納入合併財務報表，與合資企業夥伴持有的 60% 優先權益一同記入非控制性權益。有關更多資訊，請參見下方 \"我們的策略—Blue Point 合資企業\" 部分。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "市場風險",
+    "氮氣產品為全球性商品，我們面臨來自其他生產者的激烈國際競爭。",
+    "農業生產減少、對我們產品用於農業用途的限制，或作物科技的發展，可能會對我們產品的需求造成重大不利影響。",
+    "我們的業務依賴天然氣，其價格會出現波動。",
+    "我們的營運結果因季節性而有所變動。我們若無法準確預測未來的肥料需求，可能會導致存貨過多，且可能以高於市場價值的成本持有這些存貨。",
+    "營運風險",
+    "我們的營運依賴第三方提供的原材料及公用設施，若原材料或公用設施的供應出現延誤或中斷，可能會對我們的業務造成不利影響。",
+    "我們依賴有限數量的關鍵設施。",
+    "資訊科技系統或第三方服務提供者或客戶之系統發生故障、不足、違約、或未經授權存取，可能對本公司之業務及營運產生負面影響。",
+    "恐怖攻擊行為及反制恐怖攻擊之規範，可能對本公司之業務產生負面影響。",
+    "本公司之國際營運及業務活動，使本公司面臨可能對業務、財務狀況、營運結果及現金流產生負面影響之風險。",
+    "財務風險",
+    "本公司之負債可能對現金流產生負面影響，使本公司無法履行債務義務，並影響本公司追求或達成其他業務目標之能力。",
+    "稅務相關事項，包括稅法或稅率之變更、稅務機關不利之裁定，以及新稅種之課徵，可能對本公司之營運結果及財務狀況產生負面影響。",
+    "本公司業務涉及衍生性商品之風險，以及本公司避險活動可能無法防止損失之風險。"
+   ],
+   "paragraphs": [
+    "除本年度報告書第 10-K 表單所包含的其他資訊外，您應謹慎考量下列所討論的各項因素，以評估本公司並在決定投資本公司任何證券前。這些風險與不確定性，無論單獨或共同作用，都可能對我們的業務、財務狀況、營運結果與現金流產生重大且不利的影響。此外，尚有其他風險與不確定性，目前我們尚未知悉或認為其為重大，也可能對我們的業務、財務狀況、營運結果與現金流產生不利影響。",
+    "我們所屬的產業具有週期性，營運結果高度依賴並隨氮氣產品供需的變化而波動，因此，我們的業務、財務狀況、營運結果與現金流在產業供過於求的時期通常會受到負面影響。",
+    "我們的產品價格因屬全球性商品或衍生自全球性商品，已根據供需條件的週期性變化而波動。氮氣產品的供給主要受可用生產能力與運作率、原材料成本與可得性、能源價格、政府政策與全球貿易的影響。氮氣產品的需求則受種植面積、作物選擇與肥料施用量的影響，這些因素由人口變動、經濟成長、飲食習慣的改變以及非食用作物的使用，例如乙醇及其他生物燃料的生產所驅動。需求也包括氮氣的工業用途，例如化學製造與排放減量劑，如柴油排氣流體（DEF）。影響全球氮氣產品供需的許多因素均超出我們的控制範疇，可能對我們的業務、財務狀況、營運結果與現金流產生重大影響。",
+    "強勁需求、高產能利用率或營運毛利率上升的時期或預期時期，通常會刺激全球對生產能力的投資。在這些時期，氮氣製造商，包括本公司，已建立新的生產能力或擴充現有生產設施，或已宣佈將進行此類行動。產業內新生產能力的建設，以及對現有生產設施進行改進以提高產出，會增加氮氣供應的可得性，並對氮氣銷售價格產生向下壓力，特別是在供應增長快於需求增長的情況下。例如，在截至 2017 年 12 月 31 日的兩年期間，新增的生產能力已啟用，我們產品的平均銷售價格從 2015 年的每公噸 314 美元下降至 2017 年的每公噸 207 美元，降幅為 34%。",
+    "過去 12 個月內已新增氮氣生產能力，預期未來 12 個月內全球將持續新增。此外，我們與其他公司已宣佈計畫建設低碳氨生產設施，例如我們正在開發位於路易斯安那州藍點複合體的低碳氨生產設施。我們無法預測此新增生產能力對氮氣銷售價格的影響。此外，全球或地方經濟、政治與財務條件或這些條件的變動，或其他因素，可能導致已宣佈或進行中的計畫加速進行，進而進一步影響氮氣銷售價格。同樣地，較低的能源價格可能促使生產增加，導致供應增加與銷售價格的壓力。此外，若進口增加至供過於求的地區，該地區可能經歷較低的價格。",
+    "在產業供過於求的時期，我們的財務狀況、營運結果與現金流通常會因產品銷售價格下降而受到負面影響。因此，我們可能經歷較低的利潤率、存貨價值減損以及暫時或永久的生產削減。由於我們產業的週期性，我們已歷經產業供過於求的時期，這些時期影響了我們的財務表現、信用評級與普通股的交易價格。我們無法預測產業供過於求時期的時間或持續時間，或供過於求條件對我們的業務、財務狀況、營運結果與現金流影響的程度。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

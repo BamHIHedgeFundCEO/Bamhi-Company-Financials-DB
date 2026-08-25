@@ -1,0 +1,201 @@
+{
+ "ticker": "ONTO",
+ "cik": "0000704532",
+ "accession": "0001193125-26-066937",
+ "form": "10-K",
+ "reportDate": "2026-01-03",
+ "sections": {
+  "business": {
+   "headings": [
+    "Semilab USA Acquisition",
+    "Industry Background",
+    "Onto Innovation's Products",
+    "December 28,",
+    "December 30,",
+    "Sales, Customer Service and Application Support",
+    "Manufacturing",
+    "Research and Development",
+    "Intellectual Property",
+    "Human Capital and Talent",
+    "Purpose and Culture. All of our employees are expected to uphold the following core values which are foundational to our culture:",
+    "Corporate Social Responsibility",
+    "Compliance with Governmental Regulations",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Onto Innovation® is a worldwide leader in the design, development, manufacture and support of metrology and inspection tools for the semiconductor industry, including process control tools that perform optical metrology and inspection on patterned and unpatterned wafers, including macro defect inspection of both 2D and 3D wafer features, wafer substrate and panel substrate lithography systems, and process control analytical software. Our products are primarily used by silicon wafer manufacturers, semiconductor integrated circuit (\"IC\") fabricators, and advanced packaging manufacturers operating in the semiconductor market. Our products are also used for process control in a number of other specialty device manufacturing markets, including light emitting diodes (\"LED\"), vertical-cavity surface-emitting lasers (\"VCSEL\"), micro-electromechanical systems (\"MEMS\"), CMOS image sensors (\"CIS\"), silicon and compound semiconductor (SiC and GaN) power devices, analog devices, RF filters, data storage, and certain industrial and scientific applications.",
+    "We provide process and yield management solutions used in bare silicon wafer production and wafer processing facilities, often referred to as \"front-end\" manufacturing, and advanced packaging of chips and test facilities, or \"back-end\" manufacturing, through a portfolio of standalone systems for optical metrology, macro-defect inspection, packaging lithography, as well as transparent and opaque thin film measurements. Our automated and integrated metrology systems measure critical dimensions, device structures, topography, shape, and various thin film compositions, including three-dimensional features and film thickness, as well as optical and material properties. Our primary areas of focus include products that provide critical yield-enhancing and actionable information, which is used by microelectronic device manufacturers to improve yield and time to market of their next-generation devices. Our systems feature sophisticated software and production-worthy automation. In addition, our advanced process control software portfolio includes powerful solutions for standalone tools, groups of tools, and factory-wide and enterprise-wide suites to enhance productivity and achieve significant cost savings. Our systems are backed by worldwide customer service and applications support.",
+    "In the fourth quarter of 2025, the Company acquired Semilab USA, which was a subsidiary of Semilab International Zrt., which added three advanced product lines—FAaST®, CnCV® and MBIR—to Onto Innovation's portfolio, enhancing the Company's capabilities in inline wafer contamination monitoring, materials characterization and unique surface charge metrology. For more information regarding these product lines, please see \"Onto Innovation's Products\" below.",
+    "We participate in the sale, design, manufacture, marketing and support of process control systems across all major segments of the semiconductor industry for optical critical dimension (\"OCD\") metrology, thin film metrology, silicon wafer inspection, including 2D and 3D macro inspection and lithography tools for advanced packaging and advanced analytical software for semiconductor manufacturing as well as inspection systems for certain industrial applications and scientific research. Our principal market is semiconductor capital equipment. Semiconductors packaged as ICs, or \"chips\", are used in consumer electronics, server and enterprise systems, mobile computing (including smart phones and tablets), data storage devices, and embedded automotive and control systems. Our core focus is the measurement and control of the structure, composition, and geometry of semiconductor devices as they are fabricated on silicon wafers to improve device performance and manufacturing yields. Our end customers manufacture many types of ICs for a multitude of applications, each having unique manufacturing challenges. This includes ICs to enable information processing and management (logic ICs), memory storage (NAND, 3D-NAND, and DRAM), analog devices (e.g., Wi-Fi and 5G radio ICs, power devices), MEMS sensor devices (accelerometers, pressure sensors, microphones), CMOS image sensors, and other specialty end markets including components for hard disk drives, LEDs, and power management devices.",
+    "Advanced Nodes. \"Advanced nodes\" refers to leading-edge ICs where the sizes of transistors and other features continue to shrink. Advanced nodes are associated with transistor dimensions less than 10 nanometers (nm), with the most advanced logic devices now in production using 3nm and 2nm transistor dimensions. Our metrology systems used to measure and characterize these small features are generally purchased when a customer is beginning development at a new, smaller node, in order to set up and test new manufacturing equipment being installed for production at the new node. Our process control/metrology equipment is generally installed prior to the installation of the actual process equipment for that reason. Additional process control equipment is normally purchased when the initial process yields have been stabilized and more",
+    "manufacturing capacity is required to meet production demands. Therefore, our sales to customers for advanced nodes is generally higher when manufacturing lines for new nodes are being established and may not represent continuous sales revenue until our initial systems reach high levels of utilization driven by the need for greater capacity.",
+    "The growth in artificial intelligence (\"AI\") based applications has generated significant demand and new technology requirements in the advanced node segment, including for both logic and memory devices. Demand for our products also continues to be driven by our customers' desire for higher overall chip performance enabled by a greater number of transistors per square millimeter, while improving power efficiency, logic processing capability, data storage volume and manufacturing yield. To achieve these goals, our customers have increased their use of more complex materials and processing methods in their manufacturing flow. The primary path for performance gains is geometric scaling, known as node shrinks, or scaling of transistor dimensions. In some cases, our customers are implementing new materials and methods in high volume manufacturing, including materials and device architectures to reduce power consumption. To scale NAND memory, for example, a 3D layered architecture has been implemented for several customers with more than 700 storage cell layers for devices in production. Additional innovation continues in Data Storage, Power Devices, MEMS, and Image Sensors. We believe the use of these new materials and manufacturing methods has increased demand for our products such as the Atlas® product line, which is capable of measuring advanced nodes as certain features shrink beyond 7nm, to 5nm, 3nm and in the most advanced of cases, 2 nm or less.",
+    "To shrink features, new methods, including multiple patterning lithography and extreme ultra-violet (\"EUV\") lithography, have been developed. The EUV process is driving significantly higher requirements for the silicon wafers that are entering the EUV chamber. Small particles on the backside of the wafer measuring a few micrometers (microns) can distort the images being projected onto the top side. Our NovusEdge® inspection tool has been installed at major silicon wafer manufacturers to detect backside contamination and edge cracking as a final quality control mechanism before wafers are shipped to the semiconductor fabrication processes. The top side of wafers used for the EUV process is covered with an epitaxial layer, which must also be scanned for any impurities. This compositional analysis may be measured using our Element® system using Fourier Transform Infrared (\"FTIR\") algorithms.",
+    "Advanced Packaging. \"Advanced packaging\" refers to a variety of technologies on either wafer or panel level substrates (or both) that enable the miniaturization of electronic products, such as smartphones, watches, and tablets. Historically, IC packaging refers to the final stage of semiconductor device fabrication, in which a single circuit made from semiconducting material (a die or chip) is encased in a molded package using small wires to provide connections to a carrier that can be soldered to a printed circuit board and also prevents physical damage and corrosion to the chip.  Advanced packaging refers loosely to the multi-layer conductors and chip structures (other than wires) that often interconnect multiple die, feed them with electric power and create signal paths to and from the Printed Circuit (\"PC\") board, dissipate their heat, and protect them from damage.  Today, the drive to pack more functions into a small space and reduce their power requirements demands that chip packages do much more than ever before to combine multiple chips and functions into a single molded package.",
+    "One example of the technology used in advanced packaging is the 3D integration of semiconductors. This technology involves stacking individual chips in one integrated package. Through-silicon vias (\"TSVs\") are vertical copper interconnects that are embedded from the bottom surface of a die to the top surface and use small copper/solder \"bumps\" to connect one chip to another. TSVs allow power and communication to be shared among the individually stacked components. This offers the advantages of shorter signal paths and, in turn, reduced power consumption, enhanced bandwidths, integration of heterogeneous components such as memory and logic chips, and smaller surface area. The processes required for 3D integration vary from one manufacturer to another and many continue to be optimized for yield and to ensure the functioning of individual stacked chips.",
+    "Heterogeneous integrated (\"HI\") packaging is another advanced packaging technology using copper pillars/bumps to vertically connect a wide variety of stacked die for 2.5D, and 3D integration techniques as well as horizontally connected chips and is considered the next disruptive technology for several reasons. First, HI packages using 3D stacking can significantly reduce the space needed inside an electronic device, such as a smartphone, by combining multiple chips/functions into a \"system in a package\" (\"SIP\"). Next, HI packages also improve a system's performance by reducing power and signal conductor lengths, which previously were routed from package to package through a PC board using thin redistribution layers (\"RDLs\") to connect chips that are side-by-side. Lastly, the technology is currently considered the preferred vehicle for next generation uses, such as SIP, and package on package formats. As a result of the small overall form factor, HI packages provide the functionality needed in high-end mobile and wearable products.",
+    "Our inspection systems and software are used for process control and detection of potential reliability failures in nearly all of these packages. Inspection rates for advanced packages are high throughout the assembly process to avoid a single defective chip from being assembled into a relatively expensive package. Thus, unlike the cyclical nature of our metrology equipment associated with node shrinks, our sales revenue for advanced packaging is generally driven by assembly volumes.",
+    "Recently, the growth in AI applications has generated significant demand and new technology requirements in the advanced packaging segment at both the wafer process and panel process levels.",
+    "Panel Substrate Manufacturing. One current process to manufacture advanced packaging involves attaching known good die to a 300mm wafer. SIP packages can often contain side-by-side die, meaning the package can be large and limit the number of packages being placed on a wafer. In order to meet the growing demand at reduced average selling prices, manufacturers are looking to scalable technology. Advanced packaging facilities looking to improve Cost of Ownership and increase productivity are transitioning from 300mm wafers to large rectangular panels, which can be as large as 650mm x 650mm. This larger size enables companies manufacturing large area packages to increase the number of devices being processed at each step as they are no longer limited to operating within the constraints of a round wafer. By responding to market opportunities and addressing the stringent demands of customers' technical roadmaps, we believe that Onto Innovation is optimally positioned to capitalize on the emerging market of high-volume manufacturing of advanced IC substrates. For example, the JetStep® X500 lithography system, having emerged from the flat panel display market, is readily capable of processing RDLs on very thin advanced organic laminate panels in the semiconductor advanced packaging market. The Firefly® series of panel level macro inspection tools, designed for high resolution inspection, can provide defect detection and location information to the JetStep X500 tool for each die, which greatly improves lithography throughput using our exclusive StepFAST process. It also delivers a combination of defect classification and process throughput in a single software platform. It reduces capital investment requirements and provides a reliable pathway to transition from wafer to panel-based processes."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Operations",
+    "Variations in the amount of time it takes for us to sell our systems may cause fluctuations in our operating results, which could cause our stock price to decline.",
+    "We are subject to order and shipment uncertainties. Our profitability will decline if we fail to accurately forecast customer demand when managing inventory.",
+    "If we deliver systems with defects, our credibility will be harmed, and the sales and market acceptance of our systems will decrease.",
+    "Any prolonged disruption in the operations of our manufacturing facilities could have a material adverse effect on our revenue.",
+    "Our ability to fulfill our backlog may have an effect on our long-term ability to procure contracts and fulfill current contracts.",
+    "We recently implemented a new enterprise resource planning system. Our failure to effectively operate and maintain the new system could have a material adverse effect on us.",
+    "The use or anticipated use of new and evolving technologies, such as AI, by us or third parties may increase or create new operational risks.",
+    "Risks Related to Our Customers",
+    "Risks Related to Product Development",
+    "If we are not successful in developing new and enhanced products for the semiconductor device manufacturing industry, we will lose sales and market share to our competitors.",
+    "If new products developed by us do not gain general market acceptance, we will be unable to generate revenue and recover our investments, which may result in a write down of inventory.",
+    "Even if we are able to develop new products that gain market acceptance, sales of these new products could impair our ability to sell existing products.",
+    "If our relationships with our large customers deteriorate, our product development activities could be adversely affected.",
+    "Risks Related to Intellectual Property and Data Security",
+    "We may fail to adequately protect our intellectual property and, therefore, lose our competitive advantage.",
+    "Risks Related to Competition",
+    "Some of our current and potential competitors have significantly greater resources than we do, and increased competition could impair sales of our products or cause us to reduce our prices.",
+    "Because of the high cost of switching equipment vendors in our markets, it is sometimes difficult for us to win new customers from our competitors even if our systems are superior to theirs.",
+    "Risks Related to Our International Operations"
+   ],
+   "paragraphs": [
+    "Below is a summary of the principal factors and uncertainties that make investing in our company risky. You should read this summary together with the more detailed description of each risk factor contained further below.",
+    "• If we do not manage our supply chain effectively, our operating results may be adversely affected, and any increases in material, labor, supplier, logistics and other operating costs, or supply chain delays and shortages, could lower our margins or result in lost sales.",
+    "• Variations in the amount of time it takes for us to sell our systems may cause fluctuations in our operating results, which could cause our stock price to decline.",
+    "• We are subject to order and shipment uncertainties. Our profitability will decline if we fail to accurately forecast customer demand when managing inventory.",
+    "• If we deliver systems with defects, our credibility will be harmed, and the sales and market acceptance of our systems will decrease.",
+    "• Our integrated metrology systems are integrated with systems sold independently by wafer fabrication equipment suppliers, and a decrease in sales by these suppliers, or the development of competing systems by these suppliers, could harm our business."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Executive Summary",
+    "December 28,",
+    "(in thousands, except for percentages",
+    "Results of Operations",
+    "December 30,",
+    "Results of Operations for 2025, 2024 and 2023",
+    "(in thousands, except for percentages)",
+    "Liquidity and Capital Resources",
+    "(in thousands)",
+    "Sources and Uses of Cash",
+    "Operating Activities",
+    "Investing Activities",
+    "Financing Activities",
+    "Contractual Obligations",
+    "Payments due by period",
+    "Critical Accounting Estimates"
+   ],
+   "paragraphs": [
+    "We are a worldwide leader in the design, development, manufacture and support of process control tools that perform macro-defect inspection and metrology, lithography systems, and process control analytical software used by semiconductor and advanced packaging device manufacturers. We deliver comprehensive solutions throughout the semiconductor fabrication process with our families of proprietary products that provide critical yield-enhancing information, enabling microelectronic device manufacturers to drive down costs and time to market of their devices. We provide process and yield management solutions used in both wafer processing facilities, often referred to as \"front-end\" manufacturing, and in device packaging and test facilities, commonly referred to as \"back-end\" manufacturing. Our advanced process control software portfolio includes powerful solutions for standalone tools, groups of tools, or factory-wide suites to enhance productivity and achieve significant cost savings.",
+    "Our principal market is semiconductor capital equipment. Semiconductors packaged as ICs, or \"chips,\" are used in consumer electronics, server and enterprise systems, mobile computing (including smart phones and tablets), data storage devices, and embedded automotive and control systems. Our core focus is the measurement and control of the structure, composition, and geometry of semiconductor devices as they are fabricated on silicon wafers to improve device performance and manufacturing yields.",
+    "Our products and services are used by our customers who manufacture many types of ICs for a multitude of applications, each having unique manufacturing challenges. This includes ICs to enable information processing and management (logic ICs), memory storage (NAND, 3D-NAND, NOR, and DRAM), analog devices (e.g., Wi-Fi and 5G radio ICs, power devices), MEMS sensor devices (accelerometers, pressure sensors, microphones), image sensors, and other end markets including components for AI, hard disk drives, LEDs, and power management.",
+    "The semiconductor and electronics industries have also been characterized by constant technological innovation. We believe that, over the long term, our customers will continue to invest in advanced technologies and new materials to enable smaller design rules and higher density applications that fuel demand for process control equipment.",
+    "The following table summarizes certain key financial information for the periods indicated below:"
+   ],
+   "focus": "Executive Summary"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "Semilab USA Acquisition",
+    "產業背景",
+    "Onto Innovation 的產品",
+    "12月28日",
+    "12月30日",
+    "銷售、客戶服務與應用支援",
+    "製造",
+    "研究與開發",
+    "智慧財產權",
+    "人力資本與人才",
+    "目的與文化。所有員工均被期待遵循以下核心價值觀，這些價值觀是我們文化的根本：",
+    "企業社會責任",
+    "遵守政府法規",
+    "可供查閱資訊"
+   ],
+   "paragraphs": [
+    "Onto Innovation® 是全球在半導體產業中設計、開發、製造與支援量測與檢測工具的領導者，包括用於晶圓製程控制的工具，這些工具可執行光學量測與檢測，針對有圖案與無圖案的晶圓，包括 2D 與 3D 晶圓特徵的宏觀缺陷檢測、晶圓基板與面板基板光刻系統，以及製程控制分析軟體。我們的產品主要用於硅晶圓製造商、半導體整合電路（\"IC\"）製造廠與先進封裝製造商，這些廠商從事半導體市場的業務。我們的產品也用於其他多種專業設備製造市場的製程控制，包括發光二極體（\"LED\"）、垂直腔表面發射雷射（\"VCSEL\"）、微電機系統（\"MEMS\"）、CMOS 影像感測器（\"CIS\"）、矽與複合半導體（SiC 與 GaN）功率元件、類比元件、射頻濾波器、資料儲存，以及某些工業與科學應用。",
+    "我們提供用於裸硅晶圓生產與晶圓製程設施的製程與良率管理解決方案，這些設施通常被稱為 \"前段\" 製造，以及晶片先進封裝與測試設施，或 \"後段\" 製造，透過一系列獨立運作的系統，包括光學量測、宏觀缺陷檢測、封裝光刻，以及透明與不透明薄膜測量。我們的自動化與整合式量測系統可測量關鍵尺寸、裝置結構、表面形貌、形狀與各種薄膜組成，包括三維特徵與薄膜厚度，以及光學與材料特性。我們的主要關注領域包括提供關鍵良率提升與可操作資訊的產品，這些資訊被微電子裝置製造商用來改善其下一代裝置的良率與上市時間。我們的系統具備先進的軟體與生產級自動化。此外，我們的先進製程控制軟體產品組合包括強大的解決方案，用於獨立工具、工具羣組，以及廠區與企業級套件，以提升生產力並實現顯著的成本節省。我們的系統由全球客戶服務與應用支援背書。",
+    "在 2025 年第四季，本公司收購 Semilab USA，該公司為 Semilab International Zrt. 的子公司，為 Onto Innovation 的產品組合增添了三個先進產品線—FAaST®、CnCV® 與 MBIR，增強了本公司在晶圓線上污染監測、材料特性分析與獨特表面電荷量測方面的能力。如需有關這些產品線的更多資訊，請參閱下方的 \"Onto Innovation 的產品\" 部分。",
+    "我們參與光學關鍵尺寸（\"OCD\"）量測、薄膜量測、硅晶圓檢測、包括 2D 與 3D 宏觀檢測與先進封裝光刻工具，以及半導體製造的先進分析軟體，以及某些工業應用與科學研究的檢測系統的銷售、設計、製造、行銷與支援。我們的主要市場為半導體資本設備。以 IC 形式封裝的半導體（\"晶片\"）用於消費性電子產品、伺服器與企業系統、行動計算（包括智慧型手機與平板電腦）、資料儲存裝置，以及嵌入式汽車與控制系統。我們的核心關注點在於測量與控制半導體裝置在硅晶圓上製造時的結構、組成與幾何形狀，以提升裝置性能與製造良率。我們的最終客戶製造許多種類的 IC，用於多種應用，每種應用都有獨特的製造挑戰。這包括用於資訊處理與管理（邏輯 IC）、記憶體儲存（NAND、3D-NAND 與 DRAM）、類比元件（例如 Wi-Fi 與 5G 射頻 IC、功率元件）、MEMS 感測器元件（加速計、壓力感測器、麥克風）、CMOS 影像感測器，以及其他專業終端市場，包括硬碟驅動器的元件、LED 與功率管理元件。",
+    "先進節點。\"先進節點\" 指的是領先的 IC，其中晶體管與其他特徵的尺寸持續縮小。先進節點與晶體管尺寸小於 10 奈米（nm）相關，目前最先進的邏輯裝置已投入生產，使用 3nm 與 2nm 的晶體管尺寸。我們用來測量與特徵化這些微小特徵的量測系統，通常是客戶在開始開發新、更小節點時購入，以設定與測試新製造設備，這些設備將用於新節點的生產。我們的製程控制/量測設備通常在實際製程設備安裝之前安裝，這是因為這個原因。當初始製程良率已穩定，且需要更多製造能力以滿足生產需求時，通常會再購入額外的製程控制設備。",
+    "因此，我們對先進節點客戶的銷售通常在新節點製造線建立時較高，但可能直到我們的初始系統達到高使用率水平，由對更大容量的需求所驅動，纔不會代表持續的銷售收入。",
+    "人工智慧（\"AI\"）基於應用的成長已產生對先進節點領域的顯著需求與新技術需求，包括邏輯與記憶體裝置。對我們產品的需求也持續受到客戶追求更高整體晶片性能的驅動，這是由每平方毫米晶片上更多晶體管所實現，同時提升電力效率、邏輯處理能力、資料儲存容量與製造良率。為達成這些目標，客戶已在其製造流程中增加使用更複雜的材料與製程方法。實現性能提升的主要途徑是幾何縮小，這稱為節點縮小，或晶體管尺寸的縮小。在某些情況下，客戶正在高產能製造中實施新材料與方法，包括用以降低電力消耗的材料與裝置架構。例如，為縮小 NAND 記憶體，已為多個客戶實作 3D 層疊架構，這些裝置在生產中擁有超過 700 儲存單元層。在資料儲存、功率元件、MEMS 與影像感測器方面，持續有創新發展。我們相信這些新材料與製造方法的應用已提高對我們產品的需求，例如 Atlas® 產品線，該產品線能測量先進節點，當某些特徵縮小至 7nm 以下，至 5nm、3nm，甚至在最先進的案例中，至 2nm 以下。",
+    "為縮小特徵，已發展出新方法，包括多重圖案光刻與極紫外光（\"EUV\"）光刻。EUV 製程正在推動對進入 EUV 空間的硅晶圓產生顯著更高的要求。晶圓背面的微小粒子，測量幾微米（微米）的大小，會扭曲投影到晶圓正面的影像。我們的 NovusEdge® 檢測工具已安裝在主要硅晶圓製造商處，用以檢測晶圓背面的污染與邊緣裂紋，作為晶圓出廠前的最終品質控制機制。用於 EUV 製程的晶圓正面覆蓋一層外延層，此層也必須掃描以檢測任何雜質。此組成分析可使用我們的 Element® 系統，透過傅立葉變換紅外線（\"FTIR\"）演算法進行測量。",
+    "先進封裝。\"先進封裝\"指在晶片或面板層次（或兩者皆有）的各種技術，用以實現電子產品的微型化，例如智慧型手機、手錶和平板電腦。歷史上，IC封裝指的是半導體裝置製造的最後階段，其中由半導體材料製成的單一電路（晶片）會被包覆在一個模製封裝中，使用細小的電線來提供與電信業者連接的接點，並可焊接至印刷電路板，同時防止晶片受到物理損壞和腐蝕。先進封裝 loosely 指的是多層導體和晶片結構（不包含電線），這些結構通常會連接多個晶片，提供電力，建立與印刷電路（\"PC\"）板之間的訊號路徑，散熱，並保護晶片免受損壞。今天，為了在小空間內整合更多功能並降低功耗需求，晶片封裝必須做比以往更多事情，以將多個晶片和功能整合至單一模製封裝中。",
+    "用在先進封裝中的一種技術是半導體的3D整合。這種技術涉及將個別晶片堆疊至一個整合封裝中。穿晶片通孔（\"TSVs\"）是垂直銅導體，從晶片底部表面嵌入至頂部表面，並使用小銅/錫 \" bumps \" 來連接一個晶片至另一個晶片。TSVs 允許電力和通訊在個別堆疊的元件之間共享。這提供了較短的訊號路徑，進而減少功耗、提高頻寬、整合異質元件如記憶體和邏輯晶片，以及減少表面佔據面積。3D整合所需的製程因製造商而異，許多製造商仍在優化製程以提高良率並確保個別堆疊晶片的正常運作。",
+    "異質整合（\"HI\"）封裝是另一種先進封裝技術，使用銅柱/ bumps 來垂直連接大量堆疊的晶片，用於2.5D和3D整合技術，以及水平連接的晶片，並被視為幾種原因的下一個顛覆性技術。首先，使用3D堆疊的HI封裝可以顯著減少電子裝置（如智慧型手機）內部所需空間，透過將多個晶片/功能整合至 \"系統於封裝\"（\"SIP\"）中。其次，HI封裝也能提升系統性能，透過減少電力和訊號導體長度，這在過去是透過PC板使用薄層重新分佈層（\"RDLs\"）來連接側邊排列的晶片。最後，這種技術目前被視為下一代應用（如SIP和封裝於封裝格式）的首選方案。由於整體尺寸較小，HI封裝能提供高階行動和穿戴式產品所需的功能。",
+    "我們的檢測系統和軟體用於這些封裝的製程控制和潛在可靠性問題的檢測。先進封裝在組裝過程中的檢測率很高，以避免單一缺陷晶片被組裝至相對昂貴的封裝中。因此，與我們與節點縮小相關的測量設備週期性特徵不同，我們先進封裝的銷售收入通常由組裝量所驅動。",
+    "最近，AI應用的成長已產生先進封裝領域在晶片製程和麪板製程層次上的顯著需求和新技術需求。",
+    "面板基板製造。目前製造先進封裝的一種製程是將已知良品晶片附著至300mm晶片上。SIP封裝通常包含側邊排列的晶片，意味著封裝可能較大，限制每片晶片上可放置的封裝數量。為了滿足日益增長的需求並降低平均售價，製造商正在尋求可擴展的技術。先進封裝廠為了改善成本效益並提高生產力，正從300mm晶片轉向較大的矩形面板，面板大小可達650mm x 650mm。這種較大的尺寸使製造大面積封裝的公司能在每一步驟中處理更多裝置，不再受圓形晶片的限制。透過回應市場機會並解決客戶技術路線圖的嚴格需求，我們認為Onto Innovation已處於最佳位置，以抓住先進IC基板高產能製造的興起市場。例如，JetStep® X500光刻系統，從平面顯示面板市場發展而來，已能輕鬆處理半導體先進封裝市場中非常薄的先進有機層壓板上的RDLs。Firefly®系列的面板層次宏觀檢測工具，設計用於高解析度檢測，可為JetStep X500工具提供每個晶片的缺陷檢測與定位資訊，大幅提高我們專屬StepFAST製程的光刻吞吐量。它也提供單一軟體平台的缺陷分類與製程吞吐量組合。它減少資本投資需求，並提供從晶片轉向面板製程的可靠途徑。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "執行摘要",
+    "12月28日",
+    "(以千為單位，除百分比外",
+    "營運成果",
+    "12月30日",
+    "2025年、2024年及2023年營運成果",
+    "(以千為單位，除百分比外)",
+    "流動性及資本資源",
+    "（以千為單位)",
+    "現金來源與運用",
+    "營運活動",
+    "投資活動",
+    "籌資活動",
+    "契約義務",
+    "按期間應支付金額",
+    "關鍵會計估計"
+   ],
+   "paragraphs": [
+    "本公司為全球在設計、開發、製造及支援用以執行總體經濟缺陷檢測與量測、光刻系統，以及半導體與先進封裝裝置製造商所使用的製程控制分析軟體的領導廠商。我們透過我們的專利產品系列，提供半導體製造流程中完整的解決方案，這些產品提供關鍵的良率提升資訊，使微電子裝置製造商得以降低其產品的成本與上市時間。我們提供製程與良率管理解決方案，應用於晶圓製造廠，通常稱為「前段」製造，以及裝置封裝與測試廠，通常稱為「後段」製造。我們的先進製程控制軟體產品組合包含強大的解決方案，可用於單一工具、工具羣組或廠區-wide 套件，以提升生產力並實現顯著的成本節省。",
+    "我們的主要市場為半導體設備。以 IC（或稱為「晶片」）形式封裝的半導體，應用於消費性電子產品、伺服器與企業系統、行動計算（包括智慧型手機與平板電腦）、資料儲存裝置，以及嵌入式汽車與控制系統。我們的核心重點在於測量與控制半導體裝置在矽晶圓上製造時的結構、組成與幾何形狀，以提升裝置性能與製造良率。",
+    "我們的產品與服務被我們的客戶用於製造許多種類的 IC，應用於多種應用領域，每個領域都有其獨特的製造挑戰。這包括用以實現資訊處理與管理（邏輯 IC）、記憶體儲存（NAND、3D-NAND、NOR 與 DRAM）、類比裝置（例如 Wi-Fi 與 5G 收發器 IC、功率裝置）、MEMS 傳感器裝置（加速計、壓力感測器、麥克風）、影像感測器，以及其他終端市場，包括用於 AI、硬碟機、LED 與電源管理的零組件。",
+    "半導體與電子產業也一直以持續的技術創新為特徵。我們認為，在長遠的觀點下，我們的客戶將持續投資於先進技術與新材料，以實現更小的設計規則與更高密度的應用，這將推動對製程控制設備的需求。",
+    "下表總結了特定關鍵財務資訊，針對以下所列期間："
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們營運相關的風險",
+    "我們銷售系統所需時間的變動可能導致我們營運成果出現波動，這可能會導致我們股票價格下跌。",
+    "我們面臨訂單與出貨的不確定性。若我們在管理存貨時未能準確預測客戶需求，將會影響我們的獲利能力。",
+    "若我們交付有瑕疵的系統，將會損害我們的聲譽，並導致我們系統的銷售與市場接受度下降。",
+    "我們製造設施若出現持續性的運作中斷，可能會對我們的營業收入造成重大不利影響。",
+    "我們履行待辦訂單的能力可能會影響我們長期取得契約及履行現有契約的能力。",
+    "我們最近實施了一套新的企業資源規劃系統。若我們未能有效運作與維護該新系統，可能會對我們造成重大不利影響。",
+    "我們或第三方使用或預期使用新興技術，如人工智能（AI），可能會增加或產生新的運作風險。",
+    "與本公司客戶相關之風險",
+    "與產品開發相關之風險",
+    "若本公司未能成功開發半導體製造業之新產品與增強型產品，將導致銷售與市佔率流失至競爭對手。",
+    "若本公司所開發之新產品未能獲得廣泛市場接受，將無法產生收入並回收投資，可能導致存貨減損。",
+    "即使本公司能成功開發獲市場接受之新產品，這些新產品之銷售可能影響本公司銷售現有產品之能力。",
+    "若本公司與主要客戶之關係惡化，將可能對產品開發活動產生負面影響。",
+    "與智慧財產權及資料安全相關之風險",
+    "本公司可能未能充分保護智慧財產權，因而喪失競爭優勢。",
+    "與競爭有關的風險",
+    "部分我們目前及潛在的競爭對手擁有遠較我們更多的資源，競爭增加可能影響我們產品的銷售或導致我們降低產品價格。",
+    "由於我們所處市場中更換設備供應商的成本很高，即使我們的系統優於競爭對手，有時仍難以從競爭對手那裡獲得新客戶。",
+    "與我們國際業務有關的風險"
+   ],
+   "paragraphs": [
+    "以下為主要影響投資本公司風險的因素與不確定性之總結。您應配合下方更詳細說明每個風險因素之內容一併閱讀。",
+    "• 若本公司無法有效管理供應鏈，將可能對營運成果造成負面影響，且任何原材料、人工、供應商、物流及其他營運成本之增加，或供應鏈之延遲與短缺，均可能降低本公司之毛利率，或導致銷售額流失。",
+    "• 本公司系統銷售所需時間之變動，可能導致營運成果之波動，進而導致本公司股票價格下跌。",
+    "• 本公司受訂單與出貨之不確定性影響。若本公司在管理存貨時無法準確預測客戶需求，將導致利潤下降。",
+    "• 若本公司交付之系統存在瑕疵，將損害本公司之聲譽，且本公司系統之銷售與市場接受度將下降。",
+    "• 本公司之整合式量測系統與晶圓製造設備供應商所銷售之獨立系統整合，若這些供應商之銷售減少，或這些供應商開發出競爭系統，將可能對本公司業務造成損害。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

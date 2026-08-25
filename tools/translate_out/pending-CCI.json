@@ -1,0 +1,195 @@
+{
+ "ticker": "CCI",
+ "cik": "0001051470",
+ "accession": "0001051470-26-000016",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Industry Overview",
+    "Sustainability",
+    "Human Capital",
+    "Regulatory and Environmental Matters",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "We own, operate and lease shared communications infrastructure that is geographically dispersed throughout the U.S., including (1) more than 40,000 towers and other structures, such as rooftops (collectively, \"towers\"), (2) approximately 105,000 small cell nodes either currently generating revenue or under contract and (3) approximately 90,000 route miles of fiber primarily supporting small cells and fiber solutions. We refer to our towers, small cells and fiber assets collectively as \"communications infrastructure,\" and, at times, to our customers on our communications infrastructure as \"tenants.\" Our operating segments historically consisted of (1) Towers and (2) Fiber, which includes both small cells and fiber solutions.",
+    "On March 13, 2025, management signed a definitive agreement (\"Strategic Fiber Agreement\") to sell our Fiber segment, together with certain supporting assets and personnel (\"Fiber Business\"), with Zayo Group Holdings Inc. (\"Zayo\") acquiring the fiber solutions business and EQT Active Core Infrastructure fund (\"EQT\") acquiring the small cell business (\"Strategic Fiber Transaction\"). Under the agreement, we will receive $8.5 billion in aggregate, subject to certain closing adjustments. The Strategic Fiber Transaction is expected to close in the first half of 2026, subject to certain closing conditions and regulatory approvals.",
+    "As the aforementioned sale represents a material strategic shift for the Company, the Fiber Business' results and net assets are presented herein as discontinued operations and comparable prior periods have been recast to reflect this change. Pending the closing of the Strategic Fiber Transaction, we will continue to operate the Fiber Business in accordance with the Strategic Fiber Agreement. Following the classification of the Fiber Business as discontinued operations, the Company has one reportable segment, which is also its operating segment, that constitutes consolidated results consisting of its towers operations. Unless otherwise noted, all activities and amounts reported in this document relate to the continuing operations of the Company and exclude activities and amounts related to the Fiber Business.",
+    "Our core business is providing access, including space or capacity, to our towers via long-term contracts in various forms, including lease, license, sublease and service agreements (collectively, \"tenant contracts\"). We seek to increase our site rental revenues by adding more tenants on our towers, which we expect to result in significant incremental cash flows due to our low incremental operating costs. We operate as a REIT for U.S. federal income tax purposes. See \"Item 1. Business—REIT Status\" and notes 2 and 10 to our consolidated financial statements.",
+    "Approximately 56% and 71% of our towers are located in the 50 and 100 largest U.S. basic trading areas (\"BTAs\"), respectively. Our towers have a significant presence in each of the top 100 BTAs. We derive approximately 40% of our towers Adjusted Site Rental Gross Margin from towers located on land that we own, including through fee interests and perpetual easements, and we derive approximately 60% of our towers Adjusted Site Rental Gross Margin from towers located on land that we lease, sublease, manage or license. The contracts for the land under our towers have an average total remaining life of approximately 35 years (including all renewal terms exercisable at our option), weighted based on towers Adjusted Site Rental Gross Margin.",
+    "Our largest tenants are T-Mobile, AT&T and Verizon Wireless, which collectively accounted for approximately 90% of our 2025 site rental revenues. See note 15 to our consolidated financial statements for further information regarding our largest tenants. Site rental revenues represented 95% of our 2025 net revenues. The vast majority of our site rental revenues are of a recurring nature and are derived from long-term tenant contracts. See \"Item 1. Business—The Company\" for further information. As of December 31, 2025, exclusive of renewals exercisable at the tenants' option, our tenant contracts had a weighted-average remaining life of approximately six years and represented $23.7 billion of expected future cash inflows, exclusive of amounts owed from DISH Wireless L.L.C. (\"DISH\"). See note 18 to our consolidated financial statements for a discussion of the notice of default and termination delivered to DISH.",
+    "As part of our effort to provide comprehensive tower solutions, as an ancillary business, we also offer certain services relating to our towers predominately consisting of pre-construction site development services relating to existing or new tenant equipment installations, including: site acquisition, architectural and engineering, or zoning and permitting (collectively, \"site development services\").",
+    "See note 17 to our consolidated financial statements for a discussion of the July 2023 restructuring (\"2023 Restructuring Plan\"), which included discontinuing tenant equipment installations and subsequent augmentations (collectively, \"installation services\") as a towers product offering and (2) the June 2024 restructuring plan (\"2024 Restructuring Plan,\" and together with the 2023 Restructuring Plan, \"2023 and 2024 Restructuring Plans\"). In February 2026, we initiated a restructuring plan (\"2026 Restructuring Plan\") as part of our efforts to enhance the efficiency and effectiveness of our tower business. See note 18 to our consolidated financial statements for a discussion of the 2026 Restructuring Plan.",
+    "As a leading provider of towers in the U.S., our strategy is to create long-term stockholder value via a combination of (1) growing cash flows generated from our existing portfolio of towers, (2) returning a meaningful portion of our cash generated by operating activities to our common stockholders in the form of dividends and (3) investing capital efficiently to grow cash flows and long-term dividends per share. Our strategy is based, in part, on our belief that the U.S. is the most attractive market for tower investment with the greatest long-term growth potential. We measure our efforts to create \"long-term stockholder value\" by the combined payment of dividends to stockholders and growth in our per-share results. The key elements of our strategy are to:",
+    "•Grow cash flows from our existing towers. We are focused on maximizing the recurring site rental cash flows generated from providing our tenants with long-term access to our towers, which we believe is the core driver of value for our stockholders. Tenant additions or modifications of existing tenant equipment (collectively, \"tenant additions\") enable our tenants to expand coverage and capacity in order to meet increasing demand for data while generating high incremental returns for our business. We believe our towers provide an efficient and cost-effective solution for our wireless tenants' growing networks that provides an opportunity to generate cash flows and increase stockholder return.",
+    "•Return cash generated by operating activities to stockholders in the form of dividends and share repurchases. We believe that distributing a meaningful portion of our cash generated by operating activities appropriately provides stockholders with increased certainty for a portion of expected long-term stockholder value while still allowing us to retain sufficient flexibility to invest in our business and deliver growth. We believe this decision reflects the translation of the high-quality, long-term contractual cash flows of our business into stable capital returns to stockholders.",
+    "•Invest capital efficiently to grow cash flows and long-term dividends per share. In addition to adding tenants to existing towers, we seek to invest our available capital, including the net cash generated by our operating activities and external financing sources, in a manner that will increase long-term stockholder value on a risk-adjusted basis. These investments include constructing and acquiring new towers that we expect will generate future cash flow growth and attractive long-term returns by adding tenants to those assets over time. Our historical investments have included the following (in no particular order):",
+    "◦acquisitions of land interests (which primarily relate to land assets under towers); ◦construction of towers;",
+    "◦acquisitions of towers; ◦improvements and structural enhancements to our existing towers;"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Summary of Risk Factors",
+    "Risks Relating to Our Business and Industry:",
+    "Risks Relating to Our Pending Sale of the Fiber Business:",
+    "Risks Relating to Our Debt and Equity",
+    "Risks Relating to Corporate Compliance",
+    "Risks Relating to Our REIT Status",
+    "Risks Relating to Our Business and Industry",
+    "Failure to timely, efficiently and safely execute on our construction projects could adversely affect our business.",
+    "New technologies may reduce demand for our communications infrastructure or negatively impact our revenues.",
+    "Our services business has historically experienced significant volatility in demand, which reduces the predictability of our results.",
+    "As a result of competition in our industry, we may find it more difficult to negotiate favorable rates on our new or renewing tenant contracts.",
+    "New wireless technologies may not deploy or be adopted by tenants as rapidly or in the manner projected.",
+    "Cybersecurity breaches or other information technology disruptions could adversely affect our operations, business, and reputation.",
+    "Our business may be adversely impacted by climate-related events, natural disasters, including wildfires, and other unforeseen events.",
+    "Failure to attract, recruit and retain qualified and experienced employees could adversely affect our business, operations and costs.",
+    "Changes to management, including turnover of our top executives, could have an adverse effect on our business.",
+    "Actions that we are taking, or have completed, to restructure our business in alignment with our strategic priorities may not be as effective as anticipated.",
+    "Actions of activist stockholders could impact the pursuit of our business strategies and adversely affect our results of operations, financial condition, or stock price.",
+    "Risks Relating to Our Pending Sale of the Fiber Business",
+    "The pendency of the sale of our Fiber Business to Zayo and EQT may have an adverse effect on our business, results of operations, cash flows and financial position."
+   ],
+   "paragraphs": [
+    "You should carefully consider all of the risks described below, as well as the other information contained in this document, when evaluating your investment in our securities.",
+    "The following summarizes our material risk factors, including risk factors relating to our Fiber Business. However, this summary is not intended to be a comprehensive and complete list of all risk factors identified by the Company. Refer to the following pages of this section for additional details regarding these summarized risk factors.",
+    "•Our business depends on the demand for our communications infrastructure (including towers, small cells and fiber), driven primarily by demand for data, and we may be adversely affected by any slowdown in such demand. Additionally, a reduction in the amount or change in the mix of network investment by our tenants may materially and adversely affect our business (including reducing demand for our communications infrastructure or services).",
+    "•A substantial portion of our revenues is derived from a small number of tenants, and the loss, consolidation or financial instability of any of such tenants may materially decrease revenues, reduce demand for our communications infrastructure and services and impact our dividend per share growth.",
+    "•The expansion or development of our business, including through acquisitions, increased product offerings or other strategic opportunities, may cause disruptions in our business, which may have an adverse effect on our business, operations or financial results.",
+    "•Our Fiber business model contains certain differences from our Towers business model, resulting in different operational risks. If we do not successfully operate our Fiber business model or identify or manage the related operational risks through the closing of the Strategic Fiber Transaction, such operations may produce results that are lower than anticipated."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "General Overview",
+    "Results of Operations",
+    "Years Ended December 31, Percent Change",
+    "(In millions of dollars) 2025 2024 2023 2025 vs. 2024",
+    "2024 vs. 2023",
+    "Liquidity and Capital Resources",
+    "Years Ended December 31,",
+    "(In millions of dollars) 2025 2024 2023",
+    "(In millions of dollars) Years Ending December 31,",
+    "Material Cash Requirements 2026 2027 2028 2029 2030 Thereafter Totals",
+    "Borrower / Issuer Financial Maintenance Covenant(a)(b)",
+    "Covenant Level Requirement As of December 31, 2025",
+    "Accounting and Reporting Matters"
+   ],
+   "paragraphs": [
+    "We own, operate and lease shared communications infrastructure. See \"Item 1. Business\" for a further discussion of our business, including our long-term strategy, our REIT status, certain key terms of our tenant contracts and growth trends in the demand for data.",
+    "On March 13, 2025, management signed the Strategic Fiber Agreement to sell our Fiber Business, with Zayo acquiring the fiber solutions business and EQT acquiring the small cell business. Under the Strategic Fiber Agreement, we will receive $8.5 billion in aggregate, subject to certain closing adjustments. The Strategic Fiber Transaction is expected to close in the first half of 2026, subject to certain closing conditions and regulatory approvals. See \"Item 1. Business—Overview\" for further discussion of the pending sale of the Fiber Business.",
+    "As the aforementioned sale represents a material strategic shift for the Company, the Fiber Business' results and net assets are presented herein as discontinued operations and comparable prior periods have been recast to reflect this change. Related to the classification of the Fiber Business as \"held for sale\", we have recognized a loss from disposal of discontinued operations of approximately $1.6 billion, inclusive of estimated transaction fees, for the year ended December 31, 2025.",
+    "Following the classification of the Fiber Business as discontinued operations, we have one reportable segment that constitutes consolidated results of our tower operations. See notes 3 and 15 to our consolidated financial statements for a discussion of discontinued operations and our operating segment. Unless otherwise noted, all activities and amounts reported in this document relate to continuing operations and exclude activities and amounts related to discontinued operations.",
+    "Highlights of Business Fundamentals and Results",
+    "•Site rental revenues represented 95% of our 2025 net revenues. The vast majority of our site rental revenues is of a recurring nature and has been contracted for in prior years.",
+    "•We operate as a REIT for U.S. federal income tax purposes (see \"Item 1. Business—REIT Status\" and notes 2 and 10 to our consolidated financial statements)",
+    "•Potential growth resulting from the increasing demand for data",
+    "◦We expect existing and potential new tenant demand for our towers will result from (1) new technologies, (2) increased usage of mobile entertainment, mobile internet, and machine-to-machine applications, (3) adoption of other emerging and embedded wireless devices (including smartphones, laptops, tablets, wearables and other devices), (4) increasing smartphone penetration, (5) wireless carrier focus on expanding both network quality and capacity, (6) the adoption of other bandwidth-intensive applications (such as cloud services, artificial intelligence and video communications), (7) the availability of additional spectrum and (8) increased government initiatives to support connectivity throughout the U.S.",
+    "◦We expect U.S. wireless carriers will continue to focus on improving network quality and expanding capacity (including through 5G initiatives). We believe our towers provide an efficient and cost-effective solution to our wireless tenants' growing infrastructure needs.",
+    "◦Tenant additions on our towers are achieved at a low incremental operating cost, delivering high incremental returns.",
+    "◦Substantially all of our towers can accommodate additional tenancy, either as currently constructed or with appropriate modifications.",
+    "•Returning cash flows provided by operations to stockholders in the form of dividends (see also \"Item 1. Business—Strategy\")",
+    "◦During 2025, we paid common stock dividends totaling approximately $2.1 billion. •Investing capital efficiently to grow cash flows"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "產業概觀",
+    "永續性",
+    "人力資本",
+    "法規與環境事項",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "本公司擁有、營運及出租分散於美國各地的共用通訊基礎建設，包括（1）超過40,000座塔及其他結構，如屋頂（合稱為\"塔\"），（2）約105,000個小型基地臺節點，目前已有收入或已簽約，以及（3）約90,000英里光纖，主要支援小型基地臺與光纖解決方案。本公司將塔、小型基地臺與光纖資產 collectively 稱為\"通訊基礎建設\"，並有時將使用本公司通訊基礎建設的客戶稱為\"租戶\"。本公司歷史上的營運分部為（1）塔與（2）光纖，包含小型基地臺與光纖解決方案。",
+    "2025年3月13日，管理層簽訂了最終協議（\"戰略光纖協議\"），將本公司光纖分部，連同某些支援資產與人員（\"光纖業務\"），出售給Zayo Group Holdings Inc.（\"Zayo\"）取得光纖解決方案業務，以及EQT Active Core Infrastructure基金（\"EQT\"）取得小型基地臺業務（\"戰略光纖交易\"）。根據協議，本公司將收到總計85億美元，視 closing 調整而定。戰略光纖交易預計於2026年上半年完成，視 closing 條件與監管批准而定。",
+    "如上所述的出售代表本公司重大的戰略轉變，因此光纖業務的結果與淨資產在此呈現為已終止營運，並重新整理過往期間以反映此變動。待戰略光纖交易完成前，本公司將依照戰略光纖協議繼續營運光纖業務。光纖業務被歸類為已終止營運後，本公司僅有一個應報告分部，同時也是其營運分部，該分部包含本公司整體的塔營運結果。除非另有說明，本文件中報告的活動與金額均與本公司持續營運有關，並排除與光纖業務相關的活動與金額。",
+    "本公司核心業務是透過長期契約，提供塔的空間或容量給租戶，契約形式包括租賃、授權、次租賃與服務協議（合稱為\"租戶契約\"）。本公司旨在透過增加更多租戶於塔上，提高其場地租賃收入，我們預期這將導致顯著的現金流增加，因為我們的增量營運成本極低。本公司作為美國聯邦所得稅用途的REIT運作。請參閱\"項目1.業務—REIT地位\"以及我們合併財務報表的附註2與附註10。",
+    "約56%與71%的塔位於美國前50與前100大基本交易區（\"BTAs\"）。我們的塔在每個前100大BTAs均有顯著的佈局。我們約40%的塔調整後場地租賃毛利率來自我們自有的土地上的塔，包括透過費用權益與永續使用權，而我們約60%的塔調整後場地租賃毛利率來自我們租賃、次租賃、管理或授權的土地上的塔。塔所佔土地的契約平均總剩餘使用年限約為35年（包含所有可由本公司選擇行使的續約條款），以塔調整後場地租賃毛利率加權計算。",
+    "我們最大的租戶為T-Mobile、AT&T與Verizon Wireless，這三家合計佔我們2025年場地租賃收入約90%。請參閱我們合併財務報表的附註15以取得更多關於我們最大租戶的資訊。場地租賃收入佔我們2025年淨收入的95%。我們絕大多數場地租賃收入為持續性收入，來自長期租戶契約。請參閱\"項目1.業務—本公司\"以取得更多資訊。截至2025年12月31日，不計租戶選擇行使的續約，我們的租戶契約加權平均剩餘使用年限約為六年，並預計未來現金流入為237億美元，不計DISH Wireless L.L.C.（\"DISH\"）應付的金額。請參閱我們合併財務報表的附註18以取得關於對DISH發出違約通知與終止通知的討論。",
+    "作為提供全面塔解決方案的一部分，作為附屬業務，我們也提供與塔相關的某些服務，主要為預建場地開發服務，與現有或新租戶設備安裝相關，包括：場地取得、建築與工程，或 zoning 與許可（合稱為\"場地開發服務\"）。",
+    "請參閱我們合併財務報表的附註17以取得關於2023年7月重組計畫（\"2023重組計畫\"），其中包括終止租戶設備安裝與隨後增強（合稱為\"安裝服務\"）作為塔產品的提供，以及2024年6月重組計畫（\"2024重組計畫\"，與2023重組計畫合稱為\"2023與2024重組計畫\"）的討論。2026年2月，我們啟動了一項重組計畫（\"2026重組計畫\"），作為我們提升塔業務效率與效果的措施之一。請參閱我們合併財務報表的附註18以取得關於2026重組計畫的討論。",
+    "作為美國主要的電塔供應商，我們的策略是透過以下方式創造長期股東價值：(1) 來自現有電塔組合所產生的現金流之成長、(2) 將我們營運活動所產生之現金流的一部分以股息形式回饋給普通股股東，以及(3) 有效地運用資本以成長現金流與長期每股股息。我們的策略部分基於我們相信美國是電塔投資最具吸引力的市場，擁有最大的長期成長潛力。我們透過支付股息給股東與每股結果的成長來衡量我們創造『長期股東價值』的成效。我們策略的關鍵要素為：",
+    "•成長來自現有電塔的現金流。我們專注於最大化提供租戶長期使用我們電塔之現金流，我們認為這是股東價值的核心驅動因素。租戶增加或修改現有租戶設備（合稱為『租戶增加』）使租戶得以擴展覆蓋範圍與容量，以應對資料需求的增加，同時為我們的業務產生高額的增量回報。我們認為我們的電塔為無線租戶日益成長的網路提供高效且成本效益高的解決方案，這提供了產生現金流與提高股東回報的機會。",
+    "•將營運活動所產生的現金流以股息與股票回購形式回饋給股東。我們認為適當分配我們營運活動所產生現金流的一部分，可為股東提供對預期長期股東價值的一部分確定性，同時仍允許我們保留足夠的靈活性以投資業務並實現成長。我們認為這個決定反映了我們業務高品質、長期契約現金流轉換為穩定資本回報給股東的過程。",
+    "•有效地運用資本以成長現金流與長期每股股息。除了增加現有電塔的租戶外，我們尋求以風險調整後的方式運用我們的現有資金，包括營運活動所產生的淨現金與外部融資來源，以增加長期股東價值。這些投資包括建設與取得新的電塔，我們預期這些電塔將透過隨時間增加租戶而產生未來現金流成長與有吸引力的長期回報。我們的歷史投資包括以下（無特定順序）：",
+    "◦取得土地權益（主要為電塔下的土地資產）；◦建設電塔；",
+    "◦取得電塔；◦改善與結構性增強我們現有的電塔；"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "總體概覽",
+    "營運成果",
+    "截至12月31日年度，百分比變動",
+    "(以千萬美元為單位) 2025 2024 2023 2025 vs. 2024",
+    "2024 vs. 2023",
+    "流動性及資本資源",
+    "截至12月31日年度，",
+    "(以千萬美元為單位) 2025 2024 2023",
+    "（以千萬美元為單位）會計年度終了於12月31日",
+    "重大現金需求 2026 2027 2028 2029 2030 之後 總計",
+    "借款人／發行方財務維持契約(a)(b)",
+    "契約層級 要求 2025年12月31日為基準",
+    "會計及報導事項"
+   ],
+   "paragraphs": [
+    "本公司擁有、營運及出租共用通訊基礎設施。請參閱「項目 1. 經營業務」以取得有關本公司業務的進一步討論，包括長期策略、本公司 REIT 狀態、租賃契約的某些關鍵條款以及對數據需求成長趨勢。",
+    "2025 年 3 月 13 日，管理層簽署了戰略光纖協議，出售本公司光纖業務，Zayo 收購光纖解決方案業務，EQT 收購小型基地臺業務。根據戰略光纖協議，本公司將獲得總計 85 億美元，扣除某些關閉調整後的金額。戰略光纖交易預計於 2026 年上半年關閉，視某些關閉條件及監管批准而定。請參閱「項目 1. 經營業務—概覽」以取得有關待售光纖業務的進一步討論。",
+    "如上所述的出售代表本公司一項重大戰略轉變，因此光纖業務的結果及淨資產於本文件中列為已終止營運，並已重新調整以往期間以反映此變動。與將光纖業務歸類為「待售」有關，本公司於 2025 年 12 月 31 日會計年度中確認約 160 億美元的已終止營運處置損失，包含預估交易費用。",
+    "光纖業務被歸類為已終止營運後，本公司僅剩一個應報告分部，即本公司塔式運營的合併結果。請參閱本公司合併財務報表的附註 3 與附註 15 以取得有關已終止營運及運營分部的討論。除非另有說明，本文件中報告的所有活動及金額均與持續營運有關，並排除與已終止營運相關的活動及金額。",
+    "業務基本要素與結果重點",
+    "• 站點租賃收入佔本公司 2025 年淨營收的 95%。本公司絕大多數站點租賃收入為重複性收入，且已於前幾年簽訂契約。",
+    "• 本公司以美國聯邦所得稅用途為 REIT 狀態（請參閱「項目 1. 經營業務—REIT 狀態」及本公司合併財務報表的附註 2 與附註 10）",
+    "• 來自數據需求增加所帶來的潛在成長",
+    "◦我們預期現有及潛在的新租戶對我們電塔的需求將來自 (1) 新技術、(2) 移動娛樂、移動互聯網及機器對機器應用的使用增加、(3) 其他新興及內建無線裝置的採用（包括智慧型手機、筆記型電腦、平板電腦、穿戴式裝置及其他裝置）、(4) 智慧型手機滲透率增加、(5) 無線電信業者對擴充網路品質與容量的關注、(6) 其他帶寬密集型應用（如雲端服務、人工智慧及視訊通訊）的採用、(7) 額外頻譜的可用性及 (8) 政府增加支持美國連接性的計畫。",
+    "◦我們預期美國無線電信業者將持續著重於改善網路品質並擴充容量（包括透過 5G 計畫）。我們認為我們的電塔為無線租戶日益增長的基礎設施需求提供高效且成本效益高的解決方案。",
+    "◦我們電塔的租戶增加可在低額運營成本下達成，帶來高額的邊際回報。",
+    "◦我們的電塔幾乎全部均可容納額外租戶，無論是現有結構或經適當修改後。",
+    "•以股息形式將營運產生的現金流回饋給股東（詳見 \"Item 1. Business—Strategy\"）",
+    "◦2025 年，我們支付普通股股息總計約 21 億美元。•有效運用資本以增長現金流"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與本公司業務及產業相關之風險：",
+    "與本公司待處理的光纖業務出售相關之風險：",
+    "與本公司債務及權益相關之風險",
+    "與本公司企業合規相關之風險",
+    "與本公司REIT地位相關之風險",
+    "與本公司業務及產業相關之風險",
+    "未能及時、高效且安全地執行本公司建設專案，可能對本公司業務造成不利影響。",
+    "新技術可能降低對我們通訊基礎建設的需求，或對我們的營業收入產生負面影響。",
+    "我們的服務業務歷來經歷顯著的 demand 波動，這會降低我們結果的可預測性。",
+    "由於我們產業中的競爭，我們可能在與新或續約租戶簽訂合約時，更難以協議有利的費用率。",
+    "新的無線技術可能不會如預期般快速部署或被租戶採用。",
+    "網路安全事件或其他資訊科技中斷情況可能對我們的營運、業務及聲譽產生負面影響。",
+    "我們的業務可能因氣候相關事件、自然災害，包括野火，及其他未預見的事件而受到負面影響。",
+    "無法吸引、招募及留住合格且經驗豐富的員工，可能對我們的業務、營運及成本產生負面影響。",
+    "管理層的變動，包括我們高階主管的離職，可能對我們的業務產生負面影響。",
+    "我們為符合戰略優先順序而進行或已完成的業務重整措施，可能無法達到預期的效果。",
+    "活躍股東的行為可能影響我們業務策略的執行，並對我們的營運成果、財務狀況或股票價格產生不利影響。",
+    "與我們待售光纖業務相關的風險",
+    "我們光纖業務待售給 Zayo 和 EQT 的情況，可能對我們的業務、營運成果、現金流及財務狀況產生不利影響。"
+   ],
+   "paragraphs": [
+    "您應仔細審慎評估下列所列之風險，以及本文件中所包含之其他資訊，以評估對本公司證券之投資。",
+    "以下為我們重大風險因素之總結，包括與我們光纖業務相關之風險因素。然而，此總結並非本公司所識別之所有風險因素之完整與詳盡清單。請參閱本節後續頁面以取得有關這些總結風險因素之更多詳細資訊。",
+    "• 我們之業務依賴於我們通訊基礎建設（包括電塔、小型基地臺與光纖）之需求，此需求主要由資料需求所驅動，我們可能因該需求減緩而受到不利影響。此外，我們租戶所進行之網路投資金額減少或投資組成改變，可能對我們業務產生重大且不利的影響（包括降低對我們通訊基礎建設或服務之需求）。",
+    "• 我們收入之相當大一部分來自少數租戶，若任何該等租戶發生虧損、合併或財務不穩定，可能導致收入大幅減少，降低對我們通訊基礎建設與服務之需求，並影響我們每股股息成長。",
+    "• 我們業務之擴張或發展，包括透過收購、增加產品線或其它戰略機會，可能導致我們業務之幹擾，此可能對我們業務、營運或財務結果產生不利影響。",
+    "• 我們光纖業務模式與我們電塔業務模式存在某些差異，導致不同之營運風險。若我們未能成功運作光纖業務模式，或未能在戰略光纖交易關閉前識別或管理相關營運風險，則該等營運可能產生低於預期之結果。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

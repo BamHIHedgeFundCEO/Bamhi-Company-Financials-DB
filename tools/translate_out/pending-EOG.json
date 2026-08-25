@@ -1,0 +1,221 @@
+{
+ "ticker": "EOG",
+ "cik": "0000821189",
+ "accession": "0000821189-26-000054",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Exploration and Production",
+    "United States Operations",
+    "Area of Operation Crude Oil & Condensate Volumes",
+    "Natural Gas Liquids Volumes",
+    "Natural Gas Volumes",
+    "Total Net Acres (in thousands) Net Well Completions Expected Net Well Completions",
+    "Operations Outside the United States",
+    "Volumes and Prices",
+    "Year Ended December 31 2025 2024 2023",
+    "Total 190.5 179.9 173.7",
+    "Total 105.2 90.0 81.7",
+    "Total 924 713 625",
+    "Total 449.8 388.7 359.4",
+    "Composite 65.63 77.40 79.17",
+    "Composite 22.58 23.40 23.07",
+    "Composite 3.02 2.17 2.79",
+    "Human Capital Management",
+    "Other Matters",
+    "Information About Our Executive Officers",
+    "Name Age Position"
+   ],
+   "paragraphs": [
+    "EOG Resources, Inc., a Delaware corporation organized in 1985, together with its subsidiaries (collectively, EOG), explores for, develops, produces and markets crude oil, natural gas liquids (NGLs) and natural gas primarily in major producing basins in the United States of America (United States or U.S.), the Republic of Trinidad and Tobago (Trinidad) and, from time to time, select other international areas, including the Kingdom of Bahrain and the United Arab Emirates. EOG's principal producing areas are further described in \"Exploration and Production\" below. EOG's Annual Reports on Form 10-K, Quarterly Reports on Form 10‑Q, Current Reports on Form 8-K and any amendments to those reports (including related exhibits and supplemental schedules) filed or furnished pursuant to Section 13(a) or 15(d) of the Securities Exchange Act of 1934 (as amended) are made available, free of charge, through EOG's website, as soon as reasonably practicable after such reports have been filed with, or furnished to, the United States Securities and Exchange Commission (SEC). EOG's website address is www.eogresources.com. Information on our website is not incorporated by reference into, and does not constitute a part of, this report.",
+    "At December 31, 2025, EOG's total estimated net proved reserves were 5,514 million barrels of oil equivalent (MMBoe), of which 1,905 million barrels (MMBbl) were crude oil and condensate reserves, 1,510 MMBbl were NGLs reserves and 12,592 billion cubic feet (Bcf), or 2,099 MMBoe, were natural gas reserves (see \"Supplemental Information to Consolidated Financial Statements\"). At such date, approximately 99% of EOG's net proved reserves, on a crude oil equivalent basis, were located in the United States and 1% in Trinidad. Crude oil equivalent volumes are determined using a ratio of 1.0 barrel of crude oil and condensate or NGLs to 6.0 thousand cubic feet (Mcf) of natural gas.",
+    "EOG's operations are all crude oil and natural gas exploration and production related. For information regarding the risks associated with EOG's domestic and foreign operations, see ITEM 1A, Risk Factors.",
+    "EOG is focused on being among the highest return and lowest cost producers, committed to strong environmental performance and playing a significant role in the long-term future of energy. EOG operates under a consistent business and operational strategy that focuses on a comprehensive approach to developing acreage through industry cycles. EOG evaluates rate of return, net present value, margins, payback period and other key metrics. This strategy is intended to enhance the generation of cash flow and earnings from each unit of production on a cost-efficient basis, allowing EOG to maximize long-term growth in shareholder value and maintain a strong balance sheet. EOG is also focused on innovation and cost-effective utilization of advanced technology associated with three-dimensional seismic and microseismic data, the development of reservoir simulation models and the use of improved drilling equipment and completion technologies for horizontal drilling and formation evaluation. These advanced technologies are used, as appropriate, throughout EOG to reduce the risks and costs associated with all aspects of oil and gas exploration, development and exploitation. EOG implements its strategy primarily by emphasizing the drilling of internally generated prospects in order to find and develop low-cost reserves. Maintaining the lowest possible operating cost structure, coupled with efficient and safe operations and robust environmental stewardship practices and performance, is integral in the implementation of EOG's strategy.",
+    "With respect to information on EOG's working interest in wells or acreage, \"net\" oil and gas wells or acreage are determined by multiplying \"gross\" oil and gas wells or acreage by EOG's working interest in the wells or acreage.",
+    "EOG's operations are located in most of the productive basins in the United States with a focus on crude oil and natural gas plays.",
+    "At December 31, 2025, on a crude oil equivalent basis, 35% of EOG's net proved reserves in the United States were crude oil and condensate, 27% were NGLs and 38% were natural gas. The majority of these reserves are in long-lived fields with well-established production characteristics. EOG believes opportunities exist to increase production through continued development in and around many of these fields and through the utilization of applicable technologies. EOG also maintains an active exploration program designed to extend fields and add new trends and resource plays to its already broad portfolio.",
+    "The following is a summary of volume statistics and net well completions for the year ended December 31, 2025, total net acres at December 31, 2025, and expected net well completions planned for 2026 for certain areas of EOG's United States operations.",
+    "Delaware Basin 318.7 199.4 1,179 395 393 300 South Texas 121.3 32.3 581 1,313 149 155 Appalachian Basin",
+    "32.4 32.7 340 1,736 55 85 Rocky Mountain 40.7 14.0 143 748 34 45 Other Areas 7.4 9.8 56 474 10 —",
+    "(1)Thousand barrels per day or million cubic feet per day, as applicable.",
+    "In the Delaware Basin, EOG completed 393 net wells in 2025, primarily in the Wolfcamp, Bone Spring and Leonard plays. Activity in 2026 will remain focused on the Wolfcamp, Bone Spring and Leonard plays, where EOG expects to complete approximately 300 net wells.",
+    "The South Texas area includes the Eagle Ford play and the Dorado gas play. EOG holds approximately 565,000 net acres in the Eagle Ford play and approximately 160,000 net acres in the Dorado gas play. In 2025, EOG completed 122 net wells in the Eagle Ford play and 27 net wells in the Dorado gas play. In 2026, EOG expects to complete approximately 115 net Eagle Ford play wells and 40 net Dorado gas play wells.",
+    "The Appalachian Basin includes the Utica play where EOG holds approximately 1,100,000 net acres, including 135,000 net mineral acres. In 2025, EOG completed 55 net wells in the Utica play. In 2026, EOG expects to complete approximately 85 net wells in the Utica play. For discussion regarding EOG's August 2025 acquisition of Encino Acquisition Partners, LLC, see ITEM 7, Management's Discussion and Analysis of Financial Condition and Results of Operations – Overview – Operations and Note 16 to Consolidated Financial Statements."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to our Financial Condition, Results of Operations and Cash Flows",
+    "Risks Related to our Operations",
+    "Risks Related to Sustainability, Regulatory and Legal Matters",
+    "Risks Related to Our International Operations",
+    "Risks Related to Cybersecurity and Other External Factors"
+   ],
+   "paragraphs": [
+    "Our business and operations are subject to many risks. The risks described below may not be the only risks we face, as our business and operations may also be subject to risks that we do not yet know of, or that we currently believe are immaterial. If any of the events or circumstances described below actually occurs, our business, financial condition, results of operations and/or cash flows could be materially and adversely affected and the trading price of our common stock could decline. The following risk factors should be read in conjunction with the other information contained herein, including the consolidated financial statements and the related notes. Unless the context requires otherwise, \"we,\" \"us,\" \"our\" and \"EOG\" refer to EOG Resources, Inc. and its subsidiaries.",
+    "Crude oil, NGLs and natural gas prices are volatile, and a substantial and extended decline in commodity prices can have a material and adverse effect on us.",
+    "Prices for crude oil and natural gas (including prices for natural gas liquids (NGLs) and condensate) fluctuate widely. Among the interrelated factors that can or could cause these price fluctuations are:",
+    "•domestic and worldwide supplies of, and consumer and industrial/commercial demand for, crude oil, NGLs and natural gas;",
+    "•domestic and international drilling activity;",
+    "•the actions of crude oil producing and exporting nations, including the Organization of Petroleum Exporting Countries;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Results of Operations",
+    "Year Ended December 31 2025 2024 2023",
+    "Total 521.9 491.4 475.8",
+    "Composite 65.63 77.40 79.17",
+    "Total 288.2 245.9 223.8",
+    "Composite 22.58 23.40 23.07",
+    "Total 2,533 1,948 1,711",
+    "Composite 3.02 2.17 2.79",
+    "Total 1,232.2 1,062.1 984.8",
+    "Total MMBoe (4)",
+    "Total $ 843 $ 391",
+    "Capital Resources and Liquidity",
+    "Expenditure Category",
+    "Total Expenditures $ 13,703 $ 6,653 $ 6,818",
+    "Natural Gas Financial Price Swap Contracts",
+    "Contracts Sold",
+    "Period Settlement Index Volume",
+    "(MMBtud in thousands) Weighted Average Price",
+    "Natural Gas Basis Swap Contracts",
+    "Natural Gas Collar Contracts",
+    "Weighted Average Price",
+    "(MMBtud in thousands) Ceiling Price Floor Price",
+    "Ethane Financial Price Swap Contracts",
+    "(MBbld) Weighted Average Price",
+    "Butane Financial Price Swap Contracts",
+    "Propane Financial Price Swap Contracts",
+    "Total Cash Requirements $ 2,246",
+    "Summary of Critical Accounting Policies and Estimates",
+    "Information Regarding Forward-Looking Statements"
+   ],
+   "paragraphs": [
+    "EOG prepares its financial statements and the accompanying notes in conformity with accounting principles generally accepted in the United States, which require management to make estimates and assumptions about future events that affect the reported amounts in the financial statements and the accompanying notes. EOG identifies certain accounting policies and estimates as critical based on, among other things, their impact on EOG's financial condition, results of operations or liquidity, and the degree of difficulty, subjectivity and complexity in their application. Critical accounting policies and estimates cover accounting matters that are inherently uncertain because the future resolution of such matters is unknown. Management routinely discusses the development, selection and disclosure of each of the critical accounting policies and estimates. Following is a discussion of EOG's most critical accounting policies and estimates:",
+    "EOG's engineers estimate proved oil and gas reserves in accordance with United States Securities and Exchange Commission (SEC) regulations, which directly impact financial accounting estimates, including depreciation, depletion and amortization and impairments of proved properties and related assets. Proved reserves represent estimated quantities of crude oil and condensate, NGLs and natural gas that geological and engineering data demonstrate, with reasonable certainty, to be economically producible in future years from known reservoirs under economic and operating conditions existing at the time the estimates were made.",
+    "The process of estimating quantities of proved oil and gas reserves is complex, requiring significant subjective decisions in the evaluation of available geological, engineering and economic data for each reservoir. The data for a given reservoir may also change substantially over time as a result of numerous factors including, but not limited to, additional development activity, evolving production history, crude oil and condensate, NGLs and natural gas prices, continual reassessment of the viability of production under varying economic conditions and improvements and other changes in geological, geophysical and engineering evaluation methods. Proved reserves are estimated using a trailing 12-month average price, in accordance with SEC rules. Crude oil, NGLs and natural gas prices have exhibited significant volatility in the past, and EOG expects that volatility to continue in the future. Consequently, material revisions (upward or downward) to existing reserve estimates may occur from time to time. For related discussion, see ITEM 1A, Risk Factors, and \"Supplemental Information to Consolidated Financial Statements.\"",
+    "Depreciation, Depletion and Amortization for Oil and Gas Properties",
+    "The quantities of estimated proved oil and gas reserves are a significant component of EOG's calculation of depreciation, depletion and amortization expense, and revisions in such estimates may alter the rate of future expense. Holding all other factors constant, if reserves are revised upward or downward, earnings will increase or decrease, respectively.",
+    "Depreciation, depletion and amortization of the cost of proved oil and gas properties is calculated using the unit-of-production method. The reserve base used to calculate depreciation, depletion and amortization for leasehold acquisition costs and the cost to acquire proved properties is the sum of proved developed reserves and proved undeveloped reserves. With respect to lease and well equipment costs, which include development costs and successful exploration drilling costs, the reserve base used includes only proved developed reserves.",
+    "Oil and gas lease acquisition costs are capitalized when incurred. Unproved properties with acquisition costs that are not individually significant are aggregated, and the portion of such costs estimated to be nonproductive is amortized over the remaining lease term. Unproved properties with individually significant acquisition costs are reviewed individually for impairment. If the unproved properties are determined to be productive, the appropriate related costs are transferred to proved oil and gas properties.",
+    "When circumstances indicate that proved oil and gas properties may be impaired, EOG compares expected undiscounted future cash flows at a DD&A group level to the unamortized capitalized cost of the group. If the expected undiscounted future cash flows, based on EOG's estimate of (and assumptions regarding) future crude oil, NGLs and natural gas prices, operating costs, development expenditures, anticipated production from proved reserves and other relevant data (all Level 3 inputs as defined by ASC 820), are lower than the unamortized capitalized cost, the capitalized cost is reduced to fair value. Fair value is generally calculated using the Income Approach described in ASC 820. In certain instances, EOG utilizes accepted offers from third-party purchasers as the basis for determining fair value.",
+    "Crude oil, NGLs and natural gas prices have exhibited significant volatility in the past, and EOG expects that volatility to continue in the future. During the five years ended December 31, 2025, WTI crude oil spot prices have fluctuated from approximately $47.47 per barrel to $123.64 per barrel, and Henry Hub natural gas spot prices have ranged from approximately $1.21 per MMBtu to $23.86 per MMBtu. Market prices for NGLs are influenced by the components extracted, including ethane, propane, butane and natural gasoline, among others, and the respective market pricing for each component.",
+    "EOG uses the five-year NYMEX futures strip for WTI crude oil and Henry Hub natural gas and the five-year Oil Price Information Services futures strip for NGLs components (in each case as of the applicable balance sheet date) as a basis to estimate future crude oil, NGLs and natural gas prices. EOG's proved reserves estimates, including the timing of future production, are also subject to significant assumptions and judgment, and are frequently revised (upwards and downwards) as more information becomes available. In the future, if any combination of crude oil prices, NGLs prices, natural gas prices or estimated proved reserves diverge negatively from EOG's current estimates, impairment charges may be necessary.",
+    "These estimates, which factor into EOG's unproved and proved property impairment calculations, involve the use of various assumptions and judgment. Differing assumptions could impact the timing and amount of an impairment in any given period. Any impairment will decrease earnings in the period in which it is recognized. See Notes 13 and 14 to Consolidated Financial Statements for further discussion of impairments of oil and gas properties and other assets."
+   ],
+   "focus": "Summary of Critical Accounting Policies and Estimates"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "探勘與生產",
+    "美國運營",
+    "運營區域原油與凝析油產量",
+    "天然氣液體產量",
+    "天然氣產量",
+    "總淨英畝數（以千計）淨完井井數預期淨完井井數",
+    "美國以外運營",
+    "產量與價格",
+    "會計年度結算日為 2025 年 12 月 31 日 2025 2024 2023",
+    "總計 190.5 179.9 173.7",
+    "總計 105.2 90.0 81.7",
+    "總計 924 713 625",
+    "總計 449.8 388.7 359.4",
+    "複合 65.63 77.40 79.17",
+    "複合 22.58 23.40 23.07",
+    "複合 3.02 2.17 2.79",
+    "人力資源管理",
+    "其他事項",
+    "關於我們高階主管之資訊",
+    "姓名 年齡 職位"
+   ],
+   "paragraphs": [
+    "EOG Resources, Inc., 一間於1985年成立的特拉華州公司，與其子公司（合稱為EOG），於美國（美國或美國）的主要產油盆地、特立尼達與多巴哥共和國（特立尼達）以及不時於其他國際地區，包括巴林國王國及阿拉伯聯合大公國，從事原油、天然氣液體（NGLs）及天然氣的探勘、開發、生產與行銷。EOG的主要生產區域於下文「探勘與生產」中進一步說明。EOG的年度報告表10-K、季報表10-Q、現況報告表8-K及任何對這些報告的更正（包括相關附屬文件及補充資料表），均依證券交易法1934年（經修正）第13(a)或15(d)條之規定，於美國證券交易委員會（SEC）提交或提供後，盡速於EOG的網站上免費提供。EOG的網站地址為www.eogresources.com。本公司網站上的資訊未經引用於本報告，亦不構成本報告的一部分。",
+    "於2025年12月31日，EOG的總估計淨證實儲量為5,514百萬桶油當量（MMBoe），其中1,905百萬桶（MMBbl）為原油及凝析油儲量，1,510 MMBbl為NGLs儲量，以及12,592十億立方英尺（Bcf），或2,099 MMBoe為天然氣儲量（請參閱「合併財務報表補充資訊」）。於該日期，EOG的淨證實儲量，以原油當量計算，約有99%位於美國，1%位於特立尼達。原油當量體積係以1.0桶原油及凝析油或NGLs對應6.0千立方英尺（Mcf）天然氣的比率計算。",
+    "EOG的業務為與原油及天然氣探勘與生產相關。有關EOG國內與國際業務所涉及的風險資訊，請參閱項目1A，風險因素。",
+    "EOG致力於成為高回報與低成本的生產者，並承諾強化環境表現，並在能源的長期未來扮演重要角色。EOG遵循一致的業務與運營策略，專注於透過產業週期全面發展土地。EOG評估回報率、淨現值、毛利率、回本期及其他關鍵指標。此策略旨在以成本效益的方式提升每單位生產的現金流與獲利，使EOG能最大化長期股東價值的成長並維持強勁的資產負債表。EOG亦專注於創新與有效利用三維地震與微震資料、儲層模擬模型的開發，以及改進鑽井設備與完井技術以進行水平鑽井與地層評估。這些先進技術於適當情況下應用於EOG，以降低石油與天然氣探勘、開發與開採各方面的風險與成本。EOG主要透過強調內部產生的潛在目標鑽井，以尋找並開發低成本儲量來落實其策略。維持最低可能的運營成本結構，配合高效且安全的運營及強勁的環境管理實踐與表現，是落實EOG策略的關鍵。",
+    "關於EOG在井或土地的權益資訊，「淨」油氣井或土地係以「總」油氣井或土地乘以EOG在該井或土地的權益計算。",
+    "EOG的業務位於美國大多數的生產盆地，專注於原油與天然氣的生產區塊。",
+    "於2025年12月31日，以原油當量計算，EOG在美國的淨證實儲量中，35%為原油及凝析油，27%為NGLs，38%為天然氣。這些儲量的絕大多數位於長壽命的油田，具有成熟的生產特性。EOG認為有機會透過持續開發這些油田及其周圍地區，以及應用相關技術，來提高生產量。EOG亦維持積極的探勘計畫，以擴展油田並增加新的趨勢與資源區塊至其已有的廣泛資源組閤中。",
+    "以下為2025年12月31日結算年度的體積統計資料與淨井完井數總計、2025年12月31日的總淨英畝數，以及2026年預計的淨井完井數，針對EOG美國業務的某些地區。",
+    "Delaware Basin 318.7 199.4 1,179 395 393 300 South Texas 121.3 32.3 581 1,313 149 155 Appalachian Basin",
+    "32.4 32.7 340 1,736 55 85 Rocky Mountain 40.7 14.0 143 748 34 45 Other Areas 7.4 9.8 56 474 10 —",
+    "(1) Thousand barrels per day or million cubic feet per day, as applicable.",
+    "在 Delaware Basin，EOG 在 2025 年完成 393 口淨井，主要位於 Wolfcamp、Bone Spring 和 Leonard 石油區。2026 年的活動將繼續聚焦於 Wolfcamp、Bone Spring 和 Leonard 石油區，EOG 預期完成約 300 口淨井。",
+    "South Texas 區域包括 Eagle Ford 石油區和 Dorado 天然氣區。EOG 在 Eagle Ford 石油區持有約 565,000 口淨英畝，在 Dorado 天然氣區持有約 160,000 口淨英畝。2025 年，EOG 在 Eagle Ford 石油區完成 122 口淨井，在 Dorado 天然氣區完成 27 口淨井。2026 年，EOG 預期在 Eagle Ford 石油區完成約 115 口淨井，在 Dorado 天然氣區完成約 40 口淨井。",
+    "Appalachian Basin 包括 Utica 石油區，EOG 在 Utica 石油區持有約 1,100,000 口淨英畝，包括 135,000 口淨礦業英畝。2025 年，EOG 在 Utica 石油區完成 55 口淨井。2026 年，EOG 預期在 Utica 石油區完成約 85 口淨井。有關 EOG 於 2025 年 8 月收購 Encino Acquisition Partners, LLC 的討論，請參閱 ITEM 7，管理層對財務狀況與營運成果之分析 – 總覽 – 運營，以及第 16 註釋至合併財務報表。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果",
+    "會計年度終了於12月31日 2025 2024 2023",
+    "總計 521.9 491.4 475.8",
+    "複合 65.63 77.40 79.17",
+    "總計 288.2 245.9 223.8",
+    "複合 22.58 23.40 23.07",
+    "總計 2,533 1,948 1,711",
+    "複合 3.02 2.17 2.79",
+    "總計 1,232.2 1,062.1 984.8",
+    "總計 MMBoe (4)",
+    "總計 $ 843 $ 391",
+    "資本資源與流動性",
+    "支出類別",
+    "總支出 $ 13,703 $ 6,653 $ 6,818",
+    "天然氣財務價格期貨合約",
+    "合約已售出",
+    "期間結算指數成交量",
+    "(MMBtu 在千單位) 加權平均價格",
+    "天然氣基準掉期合約",
+    "天然氣避險合約",
+    "加權平均價格",
+    "(MMBtu 在千單位) 屬限價格 底價",
+    "乙烷財務價格掉期合約",
+    "(MBbl 在千單位) 加權平均價格",
+    "Butane Financial Price Swap Contracts",
+    "Propane Financial Price Swap Contracts",
+    "Total Cash Requirements $ 2,246",
+    "Summary of Critical Accounting Policies and Estimates",
+    "Information Regarding Forward-Looking Statements"
+   ],
+   "paragraphs": [
+    "EOG 依美國通用會計原則編製財務報表及相關附註，此原則要求管理階層針對影響財務報表及相關附註中所列金額的未來事件做出估計與假設。EOG 依據其對 EOG 財務狀況、營運成果或流動性的影響，以及其應用之困難度、主觀性與複雜性，辨識某些會計政策與估計為關鍵會計政策。關鍵會計政策與估計涵蓋會計事項，因其未來解決結果未知，故具有內在不確定性。管理階層 routinely 討論每個關鍵會計政策與估計之發展、選擇與揭露。以下為 EOG 最關鍵會計政策與估計之討論：",
+    "EOG 工程師依美國證券交易委員會（SEC）規範估計已證實油氣儲量，此規範直接影響財務會計估計，包括折舊、耗竭與攤銷及已證實財產與相關資產之減損。已證實儲量代表根據地質與工程資料，合理確定可於未來年份自已知儲層，在估計時之經濟與營運條件下，經濟性開採之原油、凝析油、天然氣液體（NGLs）與天然氣之預估數量。",
+    "估計已證實油氣儲量數量之過程複雜，需在評估各儲層之可用地質、工程與經濟資料時做出重大主觀判斷。某儲層之資料亦可能因多種因素而大幅變動，包括但不限於額外開發活動、生產歷史之演變、原油與凝析油、天然氣液體與天然氣價格、持續評估在不同經濟條件下生產之可行性，以及地質、地球物理與工程評估方法之改進及其他變更。已證實儲量依 SEC 規則使用過去 12 個月平均價格進行估計。原油、天然氣液體與天然氣價格過去表現出顯著波動，EOG 預期未來亦將持續如此。因此，現有儲量估計可能不時出現重大修正（上調或下調）。有關相關討論，請參閱項目 1A，風險因素，以及「合併財務報表之補充資訊。」",
+    "油氣財產之折舊、耗竭與攤銷",
+    "預估已證實油氣儲量數量為 EOG 計算折舊、耗竭與攤銷費用之重要組成部分，而此等估計之修正可能改變未來費用之比率。在其他條件不變之情況下，若儲量修正為上調或下調，則獲利將分別增加或減少。",
+    "已證實油氣財產之成本折舊、耗竭與攤銷係以單位產量法計算。用以計算折舊、耗竭與攤銷之儲量基礎，對於租賃取得成本及取得已證實財產之成本，為已證實已開發儲量與已證實未開發儲量之總和。至於租賃與井設備成本（包括開發成本及成功探勘鑽井成本），所使用之儲量基礎僅包含已證實已開發儲量。",
+    "油氣租賃取得成本於發生時資本化。未證實財產中，取得成本個別不具重大性者，予以合併，並將預估非生產部分之成本於剩餘租賃期間內攤銷。未證實財產中，取得成本個別具重大性者，則個別評估其減損。若判定未證實財產為生產性，則相關成本將轉移至已證實油氣財產。",
+    "當情況顯示已證實油氣財產可能減損時，EOG 會將預期未折現未來現金流（於 DD&A 羣組層級）與羣組之未攤銷資本化成本進行比較。若根據 EOG 對（及假設）未來原油、天然氣液體與天然氣價格、營運成本、開發支出、預期自已證實儲量之生產及其他相關資料（皆為 ASC 820 所定義之 Level 3 輸入）之估計，預期未折現未來現金流低於未攤銷資本化成本，則資本化成本將調整至公允價值。公允價值通常依 ASC 820 所述之收入法計算。在某些情況下，EOG 會利用第三方買家之接受報價作為決定公允價值之基礎。",
+    "原油、NGLs 以及天然氣價格在過去表現出顯著的波動性，EOG 預期這種波動性將在未來持續。在截至 2025 年 12 月 31 日的五年的期間內，WTI 原油現貨價格已從每桶約 47.47 美元波動至 123.64 美元，亨利指數天然氣現貨價格則從每 MMBtu 約 1.21 美元波動至 23.86 美元。NGLs 的市場價格受所提取的零組件影響，包括乙烷、丙烷、丁烷及天然汽油等，以及各零組件的相應市場價格。",
+    "EOG 使用五年的 NYMEX 期貨曲線作為 WTI 原油及亨利指數天然氣的基礎，並使用五年的 Oil Price Information Services 期貨曲線作為 NGLs 零組件的基礎（在每種情況下均為適用的資產負債表日期），以估計未來的原油、NGLs 及天然氣價格。EOG 的已證實儲量估計，包括未來生產的時間安排，也受到許多重大假設與判斷的影響，並隨著更多資訊的取得而經常進行修正（向上或向下）。未來，如果任何一種原油價格、NGLs 價格、天然氣價格或估計的已證實儲量與 EOG 當前估計產生負面偏差，可能需要提列減損費用。",
+    "這些估計值，會影響 EOG 的未證實及已證實財產減損計算，涉及使用各種假設與判斷。不同的假設可能會影響某一期間內減損的時間與金額。任何減損將在認列的期間內減少營業收入。請參閱合併財務報表附註 13 與 14，以取得關於石油與天然氣財產及其他資產減損的進一步討論。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'original': 'Risks Related to our Financial Condition, Results of Operations and Cash Flows', 'translated': '與本公司財務狀況、營運成果及現金流相關之風險'}",
+    "{'original': 'Risks Related to our Operations', 'translated': '與本公司營運相關之風險'}",
+    "{'original': 'Risks Related to Sustainability, Regulatory and Legal Matters', 'translated': '與永續性、法規及法律事項相關之風險'}",
+    "{'original': 'Risks Related to Our International Operations', 'translated': '與本公司國際營運相關之風險'}",
+    "{'original': 'Risks Related to Cybersecurity and Other External Factors', 'translated': '與網路安全及其他外部因素相關之風險'}"
+   ],
+   "paragraphs": [
+    "本公司之業務及營運面臨許多風險。下列所描述之風險可能並非本公司所面臨之唯一風險，因為本公司之業務及營運亦可能面臨尚未知悉或目前認為不重要之風險。若下列所描述之任何事件或情況實際發生，將可能對本公司之業務、財務狀況、營運成果及/或現金流造成重大且不利之影響，並可能導致本公司普通股之交易價格下跌。請配合本文件其他資訊一併閱讀，包括合併財務報表及相關附註。除非文意另有要求，否則「我們」、「我們」、「我們」及「EOG」均指 EOG Resources, Inc. 及其子公司。",
+    "原油、NGLs 及天然氣價格波動性高，若出現大幅且持續之商品價格下跌，將對本公司造成重大且不利之影響。",
+    "原油及天然氣之價格（包括天然氣液體（NGLs）及凝結物之價格）波動極大。造成這些價格波動之相關因素包括：",
+    "•國內及國際原油、NGLs 及天然氣之供給，以及消費者及工業/商業對原油、NGLs 及天然氣之需求；",
+    "•國內及國際鑽探活動；",
+    "•原油生產及出口國之行動，包括石油輸出國組織（Organization of Petroleum Exporting Countries）；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

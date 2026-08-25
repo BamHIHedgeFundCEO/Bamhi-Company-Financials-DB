@@ -1,0 +1,215 @@
+{
+ "ticker": "DHR",
+ "cik": "0000313616",
+ "accession": "0000313616-26-000062",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Intellectual Property",
+    "Human Capital",
+    "Research and Development",
+    "Government Contracts",
+    "Regulatory Matters",
+    "International Operations",
+    "Sustainability",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Danaher is a global science and technology innovator committed to accelerating the power of science and technology to improve human health. Danaher is comprised of more than 15 operating companies with leadership positions in the biotechnology, life sciences and diagnostics sectors, organized under three segments (Biotechnology, Life Sciences and Diagnostics). United by the DANAHER BUSINESS SYSTEM (\"DBS\"), our businesses are also typically characterized by a high level of products and services that are sold on a recurring basis, primarily through a direct sales model and to a geographically diverse customer base. Our business' research and development, manufacturing, sales, distribution, service and administrative facilities are located in approximately 50 countries.",
+    "Danaher strives to create shareholder value primarily through three strategic priorities:",
+    "•strengthening our competitive advantage through consistent application of DBS tools and culture;",
+    "•enhancing our portfolio in attractive science and technology markets through strategic capital allocation; and",
+    "•consistently attracting and retaining exceptional talent.",
+    "Danaher measures its progress against these strategic priorities over the long-term based primarily on financial metrics relating to revenue growth, profitability, cash flow and capital returns, as well as certain non-financial metrics. To further the strategic objectives set forth above, the Company also acquires businesses and makes investments that either complement its existing business portfolio or expand its portfolio into new markets that the Company deems attractive. Given the rapid pace of technological development and the specialized expertise typical of Danaher's served markets, acquisitions as well as strategic alliances and investments can provide the Company access to important new technologies and domain expertise, and Danaher continues to pursue acquisition and investment opportunities within its targeted markets. The extent to which we identify, consummate and effectively integrate appropriate acquisitions and consummate appropriate investments affects our overall growth and operating results. Danaher also continually assesses the strategic fit of its existing businesses and may separate or otherwise dispose of businesses based on strategic and other considerations.",
+    "DBS is not only the set of business processes and tools our operating companies use on a daily basis in the pursuit of continuous improvement, but also represents our culture, which is guided by the following core values (the \"Core Values\"):",
+    "1.The Best Team Wins 2.Customers Talk, We Listen 3.Kaizen is our Way of Life 4.Innovation Defines our Future",
+    "Underpinned by these five Core Values, the DBS tools are organized into four pillars that are designed to apply to every aspect of our business: Growth, Lean, Leadership and the DBS Fundamentals.",
+    "The idea for Danaher originated in the early 1980s when the Company's founders, Steven M. and Mitchell P. Rales, envisioned a business that would generate sustainable long-term value for customers, associates and shareholders. Through a series of acquisitions and divestitures, Danaher has evolved over time into the science and technology innovator it is today. While the operating companies that make up Danaher have changed over time, DBS continues to be the guiding philosophy for the Company.",
+    "Sales in 2025 by geographic destination (geographic destination refers to the geographic area where the final sale to the Company's unaffiliated customer is made) and by revenue type (revenue type refers to categorizing the Company's products between those typically sold to a customer on a recurring basis and those typically sold to a customer on a nonrecurring basis) as a percentage of total 2025 sales were:",
+    "Sales in North America includes 41% in the United States. The Company defines North America as the United States and Canada. The Company defines high-growth markets as Eastern Europe, the Middle East, Africa, Latin America (including Mexico) and Asia (with the exception of Japan, Australia and New Zealand). The Company defines developed markets as all markets of the world that are not high-growth markets.",
+    "The Biotechnology segment offers a broad range of equipment, consumables, software and services that are primarily used by customers to advance and accelerate the research, development, manufacture and delivery of biological medicines. The Company's solutions support a broad range of biotherapeutics including monoclonal antibodies, recombinant proteins, replacement therapies such as insulin and vaccines, as well as novel cell, gene, mRNA and other nucleic acid therapies. Sales in 2025 for this segment by geographic destination and by revenue type (as a percentage of total 2025 sales) were:",
+    "Danaher established the Biotechnology segment through the acquisition of Pall in 2015 and expanded the business through the acquisition of Cytiva in 2020. The Biotechnology segment consists of the bioprocessing business and the discovery and medical business."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Business and Strategic Risks",
+    "Conditions in the global economy, the particular markets we serve and the financial markets can adversely affect our business and financial statements.",
+    "We face intense competition and if we are unable to compete effectively, we may experience decreased demand and decreased market share. Even if we compete effectively, we may be required to reduce the prices we charge.",
+    "Our growth depends in part on the timely development and commercialization, and customer acceptance, of new and enhanced products and services based on technological innovation.",
+    "Non-U.S. economic, political, legal, compliance, social and business factors can negatively affect our business and financial statements.",
+    "Our growth can suffer if the markets into which we sell our products and services decline, do not grow as anticipated or experience cyclicality.",
+    "Uncertainties with respect to the development, deployment, and use of AI in our business and products may result in harm to our business and reputation.",
+    "Global health crises, pandemics, epidemics or other outbreaks can adversely impact certain elements of our business and financial statements.",
+    "Acquisition, Divestiture and Investment Risks",
+    "Failing to consummate acquisitions at our historical rate and at appropriate prices, and to make appropriate investments that support our long-term strategy, can negatively impact our business.",
+    "Our acquisition of businesses, investments, joint ventures and other strategic relationships can negatively impact our business and financial statements.",
+    "The indemnification provisions of acquisition agreements by which we have acquired companies may not fully protect us and as a result we may face unexpected liabilities.",
+    "We could incur significant liability if our dispositions of any of Fortive Corporation, Envista Holdings Corporation or Veralto Corporation is determined to be a taxable transaction.",
+    "Operational Risks",
+    "Significant disruptions in, or breaches in security of, our IT systems or data or violation of data privacy laws can adversely affect our business and financial statements.",
+    "Defects and unanticipated use or inadequate disclosure with respect to our products or services, or allegations thereof, can adversely affect our business and financial statements.",
+    "If we suffer loss to our facilities, supply chains, distribution systems or IT systems due to catastrophe or other events, our operations could be seriously harmed.",
+    "The manufacture of many of our products is a highly exacting and complex process, and if we directly or indirectly encounter problems manufacturing products, our business and financial statements could suffer.",
+    "Our financial results are subject to fluctuations in the cost and availability of the supplies that we use in, and the labor we need for, our operations.",
+    "Our success depends on our ability to recruit, retain and motivate talented employees.",
+    "Intellectual Property Risks"
+   ],
+   "paragraphs": [
+    "You should carefully consider the risks and uncertainties described below, together with the information included elsewhere in this Annual Report on Form 10-K and other documents we file with the SEC. We have identified the risks and uncertainties described below, some of which we have experienced and any of which may occur in the future, as material, but they are not the only risks and uncertainties facing us. Our business is also subject to general risks and uncertainties that affect many other companies, such as market conditions, economic conditions, geopolitical events, changes in laws, regulations or accounting rules, fluctuations in interest rates, terrorism, wars or conflicts, major health concerns including pandemics, natural disasters or other disruptions of expected business conditions. Additional risks and uncertainties not currently known to us or that we currently believe are immaterial also may impair our business and financial statements, including our results of operations, liquidity and financial condition and our stock price.",
+    "Our business is sensitive to general economic conditions, such as elevated inflation and interest rates that have been experienced in domestic and international markets in recent years as well as the policy disruptions and uncertainties that have followed the 2025 change in administration in the U.S. Our operational costs, including the cost of energy, materials, labor, distribution and our other operational and facilities costs are subject to market conditions, including inflationary pressures. In addition to inflation and interest rates, slower economic growth in the domestic and/or international markets, actual or anticipated default on sovereign debt, volatility in the currency and credit markets, high levels of unemployment or underemployment, labor availability constraints, reduced levels of capital expenditures, changes or anticipation of potential changes in government trade, fiscal, tax and monetary policies (including as a result of the 2025 change in administration in the U.S.), government stimulus measures and the anticipation thereof, changes in capital requirements for financial institutions, government budget negotiation dynamics, sequestration or government shut-downs, austerity measures and other challenges that affect economies of the world have in the past adversely affected, and may in the future adversely affect, the Company and its distributors, customers and suppliers, including having the effect of:",
+    "•reducing demand for our products and services, limiting the financing available to our customers and suppliers, increasing order cancellations and resulting in longer sales cycles and slower adoption of new technologies;",
+    "•increasing the difficulty in collecting accounts receivable and the risk of excess and obsolete inventories;",
+    "•increasing price competition in our served markets;",
+    "•supply interruptions, delays or cost increases, which can disrupt our ability to produce or deliver our products and/or increase our costs;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Business Performance",
+    "Sales Growth and Core Sales Growth (Decline)",
+    "2025 vs. 2024 2024 vs. 2023",
+    "2025 Sales Compared to 2024",
+    "Operating Profit Performance",
+    "Business Segments",
+    "Biotechnology Selected Financial Data",
+    "Year Ended December 31",
+    "($ in millions) 2025 2024 2023",
+    "Sales Growth (Decline) and Core Sales Growth (Decline)",
+    "Life Sciences Selected Financial Data",
+    "Sales Growth and Core Sales Decline",
+    "Diagnostics Selected Financial Data",
+    "Sales Growth and Core Sales Growth",
+    "Interest Rate Risk",
+    "Currency Exchange Rate Risk",
+    "Equity Price Risk",
+    "Commodity Price Risk",
+    "Overview of Cash Flows and Liquidity"
+   ],
+   "paragraphs": [
+    "Management's Discussion and Analysis of Financial Condition and Results of Operations (\"MD&A\") is designed to provide material information relevant to an assessment of Danaher's financial condition and results of operations, including an evaluation of the amounts and certainty of cash flows from operations and from outside sources. The MD&A is designed to focus specifically on material events and uncertainties known to management that are reasonably likely to cause reported financial information not to be necessarily indicative of future operating results or of future financial condition. This includes descriptions and amounts of matters that have had a material impact on reported operations, as well as matters that are reasonably likely based on management's assessment to have a material impact on future operations. The Company's MD&A is divided into five sections:",
+    "•Overview •Results of Operations •Liquidity and Capital Resources •Critical Accounting Estimates",
+    "This discussion and analysis should be read together with Danaher's audited financial statements and related Notes thereto as of December 31, 2025 and 2024 and for each of the three years in the period ended December 31, 2025 included in this Annual Report. Management's discussion and analysis of financial condition and results of operations for 2023 is included in Item 7 of the Company's Annual Report on Form 10-K with respect to the year ended December 31, 2024 filed with the Securities and Exchange Commission, and should be referred to for information regarding that period.",
+    "Unless otherwise indicated, all financial results in this report refer to continuing operations.",
+    "Refer to \"Item 1. Business—General\" for a discussion of Danaher's strategic objectives and methodologies for delivering long-term shareholder value. Danaher is a multinational business with global operations. During 2025, approximately 59% of Danaher's sales were derived from customers outside the United States. As a diversified, global business, Danaher's operations are affected by worldwide, regional and industry-specific economic, political and geopolitical factors. Danaher's geographic and industry diversity, as well as the range of its products and services, help mitigate the impact of any one industry or the economy of any single country, other than the United States, on its consolidated operating results. The Company's individual businesses monitor key competitors and customers, including to the extent possible their sales, to gauge relative performance and the outlook for the future.",
+    "As a result of the Company's geographic and industry diversity, the Company faces a variety of opportunities and challenges, including rapid technological development (particularly with respect to computing, automation, AI, mobile connectivity and digitization) in most of the Company's served markets, the expansion and evolution of opportunities in high-growth markets, trends and costs associated with a global labor force, consolidation of the Company's competitors, increasing regulation and a rapidly evolving trade environment. The Company operates in a highly competitive business environment in most markets, and the Company's long-term growth and profitability will depend in particular on its ability to expand its business in high-growth geographies and higher-growth market segments, identify, consummate and integrate appropriate acquisitions and identify and consummate appropriate investments and strategic partnerships, develop innovative and differentiated new products and services with higher gross profit margins, expand and improve the effectiveness of the Company's sales force, continue to reduce costs and improve operating efficiency and quality, and effectively address the demands of an increasingly regulated global environment and the rapidly evolving trade environment. The Company is making significant investments, organically and through acquisitions and investments, to address the rapid pace of technological change in its served markets and to position its manufacturing, R&D and customer-facing resources to be responsive to the Company's customers throughout the world and improve the efficiency of the Company's operations.",
+    "In 2025, the Company's overall revenues and core sales increased 3.0% and 2.0%, respectively, compared to 2024. The increase in core sales is primarily due to higher core sales in the Biotechnology segment and, to a lesser extent, the Diagnostics segment, partially offset by lower core sales in the Life Sciences segment. Additionally, the impact of currency translation increased reported sales by 1.0% in 2025 compared to 2024. For the definition of \"core sales\" refer to \"—Results of Operations\" below.",
+    "Geographically, the Company's sales in developed markets in 2025 increased 3% compared to 2024 and core sales in developed markets were up low-single digits driven primarily by mid-single digit core sales increases in Western Europe. The increase in core sales in developed markets was primarily driven by increases in the Biotechnology and Diagnostics segments, partially offset by decreased year-over-year core sales in the Life Sciences segment. For the same period, sales in high-growth markets increased year-over-year by 2% and core sales in high-growth markets were up low-single digits as a mid-single digit decline in core revenue in China was more than offset by increased core sales in other regions. In the high-growth markets, the Biotechnology and Life Sciences segments' increase in core sales was partially offset by core sales declines in the Diagnostics segment. High-growth markets represented approximately 29% of the Company's total sales in 2025.",
+    "The Company's net earnings from continuing operations for the year ended December 31, 2025 totaled approximately $3.6 billion or $5.03 per diluted common share, compared to approximately $3.9 billion or $5.29 per diluted common share for the year ended December 31, 2024. 2025 intangible asset impairments net of 2024 intangible asset impairments, increased other expenses and decreased interest income, net of increased gross profit, drove the year-over-year decline in net earnings from continuing operations and diluted net earnings per common share from continuing operations. Refer to \"—Results of Operations\" for further discussion of the year-over-year changes in net earnings and diluted net earnings per common share for the years ended December 31, 2025 and 2024.",
+    "Danaher operates a diversified global supply chain and sources parts and materials globally. Since early 2025, the U.S. government has implemented significant new tariffs on imports from a wide range of countries, which has also prompted retaliatory tariffs and other actions by a number of countries, including tariffs and export restrictions on certain manufacturing components imposed by China and tariffs pursuant to trade agreements the U.S. has entered into with certain countries. In addition, a number of new tariffs have been threatened by the U.S. and other countries, including tariffs in certain industry sectors. The U.S. and other countries continue to negotiate trade arrangements and tariff levels. In February 2026, the U.S. Supreme Court ruled that the International Emergency Economic Powers Act (\"IEEPA\"), which the U.S. administration relied on to impose certain tariffs, does not authorize the administration to impose tariffs. In response, the administration announced plans to implement new tariffs under alternative statutory authority. The full impact of the U.S. Supreme Court's ruling and the administration's response remain uncertain; as of the date of this Annual Report, a number of tariffs issued by the United States and other countries remain in effect.",
+    "Based on the tariffs enacted and in effect as of December 31, 2025 (the \"enacted tariffs\"), the Company incurred incremental tariff costs for 2025 of less than $300 million. These incremental costs reflect increased costs of parts and materials used by the Company to produce products, as well as increased costs the Company incurred on finished goods shipped to customers. The Company largely offset the 2025 operating profit impact of the enacted tariffs with manufacturing footprint changes, supply chain adjustments, surcharges and additional productivity and cost savings actions.",
+    "To the extent the Company is unable to continue to largely offset the incremental cost from the enacted tariffs, enacted or threatened tariffs negatively impact future demand or the export restrictions negatively impact manufacturing, the Company's revenue and profitability would be adversely impacted. If delayed or additional tariffs are implemented, the Company would incur additional tariff costs that could be material and the Company's revenue and profitability could be adversely impacted.",
+    "In addition to changes in trade policy, the U.S. government has implemented a number of other regulatory, policy and personnel changes, including the elimination, downsizing and reduced funding of certain government agencies and programs and the cancellation or delay of government contracts and research grants. In addition, the U.S. government has changed the composition of and guidance from advisory panels on healthcare practices.",
+    "The full impact of the matters noted above on the Company, our customers, end-users and business partners, the overall economy and capital markets remains uncertain. In 2026 within the Biotechnology segment, the Company is assuming that the Bioprocessing sales growth trend will be similar to 2025, including continued growth in consumables driven by monoclonal antibody demand and the Company's product offerings across the biologics workflow. In the Life Sciences segment, the Company assumes a modest improvement in end markets in 2026 compared to 2025, but anticipates sales growth rates will remain below historical levels given the current macro environment. In the Diagnostics segment, the Company assumes higher sales growth in 2026 compared to 2025 as the Company moves past the peak of headwinds from policy changes in China."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "智慧財產權",
+    "人力資本",
+    "研究與發展",
+    "政府契約",
+    "法規事項",
+    "國際營運",
+    "永續性",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "Danaher 是一家全球科學與科技創新公司，致力於加速科學與科技的力量以改善人類健康。Danaher 由超過 15 家營運公司組成，在生物科技、生命科學與診斷領域擁有領導地位，並分為三個應報告分部（生物科技、生命科學與診斷）。我們的業務皆以 DANAHER BUSINESS SYSTEM（\"DBS\"）為核心，通常以高比例的產品與服務銷售，主要透過直接銷售模式，並服務於地理上多樣化的客戶羣。我們的業務在研究與開發、製造、銷售、配送、服務與行政設施皆位於約 50 個國家。",
+    "Danaher 主要透過以下三個戰略優先事項來創造股東價值：",
+    "•透過持續應用 DBS 工具與文化來強化我們的競爭優勢；",
+    "•透過戰略性資本配置來強化我們在具吸引力的科學與科技市場的產品組合；以及",
+    "•持續吸引並留住優秀人才。",
+    "Danaher 依據長期財務指標，如營業收入成長、獲利能力、現金流與資本回報，以及某些非財務指標，來衡量其在這些戰略優先事項上的進展。為進一步實現上述戰略目標，本公司也會取得企業與進行投資，這些企業或投資或是補強現有業務組合，或是將業務拓展至本公司認為具吸引力的新市場。考慮到科技發展的快速節奏以及 Danaher 服務市場中常見的專業知識，收購以及戰略合作夥伴與投資可以為本公司提供重要的新科技與專業領域知識，Danaher 會持續在目標市場中尋求收購與投資機會。我們辨識、完成並有效整合適當收購與完成適當投資的程度，會影響我們整體的成長與營運成果。Danaher 也會持續評估現有業務的戰略契合度，並根據戰略及其他考量因素，可能分拆或以其他方式處置某些業務。",
+    "DBS 不僅是我們營運公司日常追求持續改善所使用的業務流程與工具組合，也代表我們的文化，此文化由以下核心價值觀（\"Core Values\"）所引導：",
+    "1. 最佳團隊勝出 2. 客戶說的話，我們聽 3. 持續改善是我們的生活方式 4. 創新定義我們的未來",
+    "以這五項核心價值為基礎，DBS 工具被組織為四大支柱，設計用於本公司業務的每個方面：成長、精簡、領導力以及 DBS 基礎知識。",
+    "Danaher 的想法起源於 1980 年代初期，當時本公司創辦人 Steven M. 和 Mitchell P. Rales 想象出一個能為客戶、員工和股東創造可持續長期價值的企業。透過一系列的併購與出售，Danaher 隨著時間的推移逐漸發展成為今日的科學與科技創新者。雖然組成 Danaher 的營運公司隨時間有所變動，但 DBS 仍持續作為本公司指導哲學。",
+    "2025 年按地理目的地（地理目的地指最終銷售至本公司無關聯客戶的地理區域）及按收入類型（收入類型指將本公司產品分為通常以定期方式銷售給客戶與通常以非定期方式銷售給客戶的類別）計算的銷售額佔總 2025 年銷售額的百分比為：",
+    "北美地區的銷售額包含美國的 41%。本公司將北美地區定義為美國與加拿大。本公司將高成長市場定義為東歐、中東、非洲、拉丁美洲（包括墨西哥）及亞洲（除外日本、澳洲與紐西蘭）。本公司將成熟市場定義為全世界所有非高成長市場的地區。",
+    "生物科技部門提供廣泛的設備、消耗品、軟體及服務，主要用於協助客戶推進及加速生物藥物的研究、開發、製造與交付。本公司解決方案支持多種生物製藥，包括單克隆抗體、重組蛋白、替代療法如胰島素與疫苗，以及新型的細胞、基因、mRNA 及其他核酸療法。2025 年此部門按地理目的地及按收入類型（佔總 2,025 年銷售額的百分比）計算的銷售額為：",
+    "Danaher 透過 2015 年收購 Pall 而建立生物科技部門，並透過 2020 年收購 Cytiva 來擴大業務。生物科技部門包含生物製造業務與發現及醫療業務。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運表現",
+    "銷售成長與核心銷售成長（衰退）",
+    "2025 與 2024 2024 與 2023",
+    "2025 年銷售與 2024 年比較",
+    "營運利潤表現",
+    "營運部門",
+    "生物科技選項財務資料",
+    "截至 12 月 31 日財年",
+    "($ 億) 2025 2024 2023",
+    "銷售成長（衰退）及核心銷售成長（衰退）",
+    "生命科學選項財務資料",
+    "銷售成長及核心銷售衰退",
+    "診斷選項財務資料",
+    "銷售成長及核心銷售成長",
+    "利率風險",
+    "貨幣兌換率風險",
+    "股價風險",
+    "原物料價格風險",
+    "現金流與流動性概覽"
+   ],
+   "paragraphs": [
+    "管理階層對財務狀況與營運結果之討論與分析（\"MD&A\"）旨在提供與評估丹納赫財務狀況與營運結果相關的重要資訊，包括對營運活動及來自外部來源之現金流數額與確定性的評估。MD&A 旨在專注於管理階層所知之可能導致報告財務資訊未必反映未來營運結果或財務狀況之重大事件與不確定性。此包括對已對報告營運產生重大影響之事項之描述與金額，以及根據管理階層評估，可能對未來營運產生重大影響之事項。丹納赫之 MD&A 分為五個部分：",
+    "•總覽 •營運結果 •流動性與資本資源 •關鍵會計估計",
+    "本討論與分析應與丹納赫經審計之財務報表及其相關附註，截至 2025 年 12 月 31 日及 2024 年 12 月 31 日，以及 2025 年 12 月 31 日為期末之三年期間內之財務資料一併閱讀。管理階層對財務狀況與營運結果之討論與分析，關於 2023 年之資料，包含於本公司於 2024 年 12 月 31 日為期末之 10-K 年度報告中之第 7 項，應參考此資料以取得關於該期間之資訊。",
+    "除非另有說明，本報告中所有財務結果均指持續營運。",
+    "請參考 \"第 1 項. 事業—總覽\" 以取得丹納赫之戰略目標與實現長期股東價值之方法論。丹納赫為一國際性企業，擁有全球營運。2025 年，丹納赫約 59% 之銷售來自美國以外之客戶。作為一多元化、全球性企業，丹納赫之營運受全球、區域及產業特定之經濟、政治與地緣政治因素影響。丹納赫之地理與產業多元化，以及其產品與服務之範圍，有助於緩衝任何單一產業或除美國以外之單一國家經濟對其合併營運結果之影響。丹納赫各個業務單位監測關鍵競爭對手與客戶，包括盡可能取得其銷售資料，以評估相對表現與未來展望。",
+    "由於丹納赫之地理與產業多元化，該公司面臨多樣化之機會與挑戰，包括在該公司所服務之市場中，快速之科技發展（特別是計算、自動化、AI、行動連線與數位化），高成長市場之擴張與演進，全球勞動力相關之趨勢與成本，競爭對手之合併，增加之規範與快速演變之貿易環境。該公司在大多數市場中營運於高度競爭之商業環境，該公司之長期成長與獲利將特別依賴其擴展業務於高成長地理區域與高成長市場區段，識別、完成與整合適當之併購與投資與戰略夥伴關係，開發創新且差異化之新產品與服務，具有較高毛利率，擴展與改善該公司之銷售團隊之有效性，持續降低成本與改善營運效率與品質，並有效應對日益規範之全球環境與快速演變之貿易環境。該公司正在進行重大投資，透過內生成長與併購與投資，以應對其所服務市場中快速之科技變革，並定位其製造、研發與面對客戶之資源，以對應該公司全球客戶之需求，並改善該公司營運之效率。",
+    "2025 年，該公司之總體營收與核心銷售分別較 2024 年成長 3.0% 與 2.0%。核心銷售成長主要來自生物技術部門之核心銷售增加，以及較少程度之診斷部門，部分抵銷生命科學部門之核心銷售減少。此外，貨幣兌換影響使 2025 年之報告銷售額較 2024 年增加 1.0%。有關 \"核心銷售\" 之定義，請參閱下方 \"營運結果\" 部分。",
+    "從地理觀點來看，該公司 2025 年在成熟市場之銷售較 2024 年成長 3%，成熟市場之核心銷售成長低個位數，主要由西歐地區中個位數成長所驅動。成熟市場之核心銷售成長主要來自生物技術與診斷部門之成長，部分抵銷生命科學部門之年對年核心銷售減少。於相同期間，高成長市場之銷售較前一年成長 2%，高成長市場之核心銷售成長低個位數，因中國核心收入中個位數減少，被其他地區核心銷售成長所抵銷。在高成長市場中，生物技術與生命科學部門之核心銷售成長部分抵銷診斷部門之核心銷售減少。高成長市場在 2025 年約佔該公司總銷售額之 29%。",
+    "本公司連續營運之淨獲利，於2025年12月31日財務年度總計約為36億美元或每股稀釋普通股5.03美元，與2024年12月31日財務年度約為39億美元或每股稀釋普通股5.29美元相比。2025年無形資產減損扣除2024年無形資產減損後，加上其他費用增加與利息收入減少，以及毛利增加，導致連續營運之淨獲利與每股稀釋普通股淨獲利較去年同期下降。有關2025年與2024年12月31日財務年度淨獲利與每股稀釋普通股淨獲利之年度變動，請參閱「—營運成果」部分。",
+    "Danaher經營一個多元化全球供應鏈，並在全球採購零件與材料。自2025年初以來，美國政府已對來自多個國家的進口商品實施重大新關稅，這也促使若干國家採取報復性關稅及其他行動，包括中國對某些製造零組件所實施的關稅與出口限制，以及美國與某些國家簽訂貿易協議所產生的關稅。此外，美國及其他國家也威脅要實施新的關稅，包括某些產業部門的關稅。美國及其他國家持續進行貿易協議與關稅水準的談判。2026年2月，美國最高法院裁定國際緊急經濟權力法（\"IEEPA\"），該法為美國政府實施某些關稅所依賴的法律，並不授權政府實施關稅。作為回應，美國政府宣佈計畫在其他法定授權下實施新關稅。美國最高法院裁決的完整影響與政府的回應仍不確定；截至本年度報告日，美國及其他國家所實施的若干關稅仍為有效。",
+    "根據截至2025年12月31日已實施並生效的關稅（\"已實施關稅\"），本公司於2025年因關稅產生的額外成本低於3億美元。這些額外成本反映本公司用以生產產品的零件與材料成本增加，以及本公司將完工產品運送到客戶所產生的成本增加。本公司透過製造設施調整、供應鏈變更、附加費用與額外生產力與成本節省措施， largely 抵消了已實施關稅對2025年營運獲利的影響。",
+    "若本公司無法持續 largely 抵消已實施關稅所產生的額外成本，已實施或威脅實施的關稅將對未來需求產生負面影響，或出口限制對製造產生負面影響，則本公司之營業收入與獲利將受到不利影響。若延遲或新增關稅被實施，本公司將產生額外關稅成本，該成本可能重大，且本公司之營業收入與獲利可能受到不利影響。",
+    "除了貿易政策的變更外，美國政府也實施了其他若干規範、政策與人事變更，包括削減或減少某些政府機構與計畫的經費，以及取消或延後政府契約與研究補助金。此外，美國政府也改變了有關醫療實踐的諮詢委員會成員組成與指導意見。",
+    "上述事項對本公司、客戶、最終用戶與商業夥伴、總體經濟與資本市場的完整影響仍不確定。在2026年生物技術業務部門，本公司假設生物製造銷售成長趨勢將與2025年相似，包括單克隆抗體需求所驅動的消耗品成長，以及本公司在生物製品工作流程中產品組合的貢獻。在生命科學業務部門，本公司假設2026年終端市場將較2025年有小幅改善，但預期銷售成長率將低於歷史水平，考慮到目前的總體經濟環境。在診斷業務部門，本公司假設2026年銷售成長將高於2025年，因本公司已度過中國政策變更所產生的風暴高峯。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "營運與戰略風險",
+    "全球經濟、我們服務的特定市場以及金融市場的情況可能對我們的業務與財務報表產生不利影響。",
+    "我們面臨激烈的競爭，若我們無法有效競爭，可能會導致需求減少與市佔率下降。即使我們能有效競爭，我們仍可能被要求降低所收取的價格。",
+    "我們的成長部分取決於基於科技創新所開發與商業化的新產品與服務，以及客戶的接受度。",
+    "非美國的經濟、政治、法律、合規、社會與商業因素可能對我們的業務與財務報表產生負面影響。",
+    "若我們銷售產品與服務的市場出現衰退、成長未達預期或經驗到週期性波動，可能會影響我們的成長。",
+    "關於我們業務與產品中人工智慧（AI）的發展、部署與使用所產生的不確定性，可能對我們的業務與聲譽造成損害。",
+    "全球健康危機、疫情、疫情或其它疫情爆發可能對我們業務與財務報表的某些部分產生不利影響。",
+    "收購、處置及投資風險",
+    "未能以我們歷史上的速度及適當價格完成收購，並做出支持我們長期戰略的適當投資，可能對我們的業務產生負面影響。",
+    "本公司收購企業、投資、合資企業及其他戰略關係，可能對我們的業務及財務報表產生負面影響。",
+    "我們透過收購協議取得公司的賠償條款可能無法完全保護我們，因此我們可能面臨未預期的負債。",
+    "若我們對 Fortive Corporation、Envista Holdings Corporation 或 Veralto Corporation 的處置被判定為課稅交易，我們可能面臨重大負債。",
+    "營運風險",
+    "我們資訊科技系統或資料的重大中斷，或資料安全遭入侵，或違反資料隱私權法規，可能對我們的業務及財務報表產生負面影響。",
+    "我們產品或服務的瑕疵、未預期使用或資訊披露不足，或相關指控，可能對我們的業務及財務報表產生負面影響。",
+    "若因災難或其他事件導致我們的廠房、供應鏈、配送系統或資訊科技系統遭受損失，我們的營運可能會受到嚴重影響。",
+    "我們許多產品的製造是一項高度嚴謹且複雜的過程，若我們直接或間接遭遇製造產品的問題，我們的業務與財務報表可能會受到影響。",
+    "我們的財務結果會受到我們在營運中所使用物料的成本與可得性，以及所需勞動力的影響。",
+    "我們的成功取決於我們招募、留住並激勵優秀員工的能力。",
+    "智慧財產權風險"
+   ],
+   "paragraphs": [
+    "您應謹慎考量下列所描述的風險與不確定性，並與本年度10-K形式年度報告中其他地方所包含的資訊以及我們向SEC提交的其他文件中的資訊一併考量。我們已識別下列風險與不確定性，其中一些我們已經經歷過，任何一種都可能在未來發生，這些被我們認為是重要的，但並非我們所面臨的唯一風險與不確定性。我們的業務也受到影響許多其他公司的普遍風險與不確定性，例如市場條件、經濟條件、地緣政治事件、法律、法規或會計準則的變更、利率波動、恐怖主義、戰爭或衝突、重大健康問題包括大流行病、自然災害或其他預期商業條件的中斷。",
+    "我們的業務對總體經濟條件敏感，例如近年來國內外市場所經歷的高通貨膨脹與利率，以及美國2025年行政部門變更所引發的政策中斷與不確定性。我們的營運成本，包括能源、材料、勞動力、配送以及我們其他營運與設施成本，均受市場條件影響，包括通貨膨脹壓力。除了通貨膨脹與利率外，國內與/或國際市場較慢的經濟成長、實際或預期的主權債務違約、貨幣與信貸市場的波動、高失業率或半失業率、勞動力供應限制、資本支出減少、政府貿易、財政、稅收與貨幣政策的變更或預期變更（包括因美國2025年行政部門變更所導致的）、政府刺激措施與其預期、金融機構的資本要求變更、政府預算協商動態、緊縮措施或政府停擺、撙節措施以及其他影響世界經濟的挑戰，過去已對本公司及其經銷商、客戶與供應商造成不利影響，並可能在未來對本公司及其經銷商、客戶與供應商造成不利影響，包括產生以下影響：",
+    "•減少我們產品與服務的需求，限制客戶與供應商的融資選擇，增加訂單取消，導致銷售週期延長與新技術採用速度變慢；",
+    "•增加收取應收帳款的困難與過多與過時存貨的風險；",
+    "•增加我們所服務市場中的價格競爭；",
+    "•供應中斷、延誤或成本增加，這可能會干擾我們生產或交付產品的能力，或增加我們的成本；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

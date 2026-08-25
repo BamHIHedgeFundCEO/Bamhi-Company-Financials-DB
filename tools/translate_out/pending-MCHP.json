@@ -1,0 +1,199 @@
+{
+ "ticker": "MCHP",
+ "cik": "0000827054",
+ "accession": "0000827054-26-000016",
+ "form": "10-K",
+ "reportDate": "2026-03-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Industry Background",
+    "Our Products",
+    "Manufacturing",
+    "Sales and Distribution",
+    "Patents, Licenses and Trademarks",
+    "Environmental Regulation",
+    "Human Capital Resources",
+    "Information About our Executive Officers",
+    "Name Age Position",
+    "Available Information",
+    "All of our SEC filings on our website are available free of charge. The information on our website is not incorporated into this Form 10-K."
+   ],
+   "paragraphs": [
+    "We develop, manufacture and sell smart, connected and secure embedded control solutions used by our customers for a wide variety of applications. With over 35 years of technology leadership, our broad product portfolio offers a Total System Solution for our customers that can provide a large portion of the silicon requirements in their applications. TSS is a combination of hardware, software and services which help our customers increase their revenue, reduce their costs and manage their risks compared to other solutions. Our strategic focus includes general purpose and specialized mixed-signal microcontrollers, microprocessors, analog, FPGA, data center, networking, and memory products. In July 2024, we entered the 64-bit mixed-signal microprocessor market furthering our expansion beyond 32-bit architecture. Our synergistic product portfolio empowers disruptive growth trends, including AI/ML, data centers, edge computing and IoT, E-mobility, networking and connectivity, and sustainability in key end markets such as automotive, aerospace and defense, communications, consumer appliances, data centers and computing, and industrial.",
+    "Competitive pressures require OEMs to expand product functionality and provide differentiation while maintaining or reducing cost. To address these requirements, manufacturers often use integrated circuit-based embedded control systems that enable them to:",
+    "•differentiate their products •replace less efficient electromechanical control devices •reduce the number of components in their system",
+    "•add product functionality •reduce the system level energy consumption •make systems safer to operate",
+    "•reduce the consumption of natural resources •connect their products to other devices •add security to their products",
+    "•decrease time to market for their products •significantly reduce product cost",
+    "Embedded control systems have been incorporated into thousands of products and subassemblies in a wide variety of applications and markets worldwide, including:",
+    "•actuators •applications requiring touch buttons, touch screens and graphical user interfaces",
+    "•automotive comfort, safety, advanced driver assistance systems, networking, information and entertainment applications",
+    "•avionics •communication infrastructure systems •consumer electronics •data center solutions",
+    "•defense and military hardware •electric vehicles •handheld tools •home and building automation",
+    "•industrial automation •IP routers and Ethernet switches •large and small home appliances •medical devices",
+    "•motor controls units •portable computers and accessories •power supplies •residential and commercial security systems",
+    "•robotics •satellites and spacecrafts •scale-up and scale-across systems for AI infrastructure"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "When evaluating Microchip and its business, you should give careful consideration to the factors below, as well as the information provided elsewhere in this Form 10-K and in other filings we make with the SEC.",
+    "Risk Factor Summary",
+    "Risks Related to Our Business, Operations, and Industry",
+    "Risks Related to Cybersecurity, Products, Privacy, Intellectual Property, and Litigation",
+    "Risks Related to Taxation, Laws and Regulations",
+    "Risks Related to Capitalization and Financial Markets",
+    "Our operating results are impacted by global economic conditions and may fluctuate in the future due to a number of factors that could reduce our net sales and profitability.",
+    "Our operating results may be adversely impacted by the inability of our key suppliers to provide us with necessary raw materials, components, or equipment.",
+    "We may lose sales if critical materials from concentrated sources become restricted or subject to export controls.",
+    "We are dependent on wafer foundries and other contractors, as are our SuperFlash and other licensees.",
+    "Our operating results may be adversely impacted by the financial viability and performance of our licensees, customers, distributors, resellers or suppliers.",
+    "We are highly dependent on foreign sales, suppliers, and operations, which exposes us to foreign political and economic risks.",
+    "Geopolitical instability in the Middle East may disrupt critical semiconductor materials, increase fuel costs, and adversely affect our ability to meet customer demand.",
+    "We depend on orders that are received and shipped in the same quarter and have limited visibility to product shipments other than orders placed under certain LTSAs.",
+    "Intense competition in the markets we serve may lead to pricing pressures, reduced sales or reduced market share.",
+    "Our success depends on our ability to introduce new products on a timely basis.",
+    "Our operating results will suffer if we ineffectively utilize our manufacturing capacity or fail to maintain manufacturing yields.",
+    "Our operating results are impacted by seasonality and wide fluctuations of supply and demand in the industry.",
+    "Our business is dependent on distributors to service our end customers.",
+    "Business interruptions to our operations or those of our key vendors, licensees or customers could harm our business.",
+    "Our technology licensing business exposes us to various risks.",
+    "Sales into governmental projects, and compliance with associated regulations, could have a material adverse effect on our results of operations."
+   ],
+   "paragraphs": [
+    "•impact of global economic conditions on our operating results, net sales and profitability;",
+    "•impact of economic conditions on the financial viability and performance of our licensees, customers, distributors, or suppliers;",
+    "•impact of supplier disruptions affecting the availability and cost of raw materials, components, or equipment;",
+    "•impact of restrictions, export controls, or other limitations on critical materials sourced from concentrated suppliers reducing sales;",
+    "•dependence on wafer foundries and other contractors by our licensees and ourselves;",
+    "•dependence on foreign sales, suppliers, and operations, which exposes us to foreign political and economic risks;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Note Regarding Forward-looking Statements",
+    "Introduction",
+    "Business and Macroeconomic Environment",
+    "Critical Accounting Policies and Estimates",
+    "Results of Operations",
+    "Liquidity and Capital Resources",
+    "Recently Issued Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "This report, including \"Item 1. Business,\" \"Item 1A. Risk Factors,\" and \"Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations,\" contains certain forward-looking statements that involve risks and uncertainties, including statements regarding our strategy, financial performance and revenue sources. We use words such as \"anticipate,\" \"believe,\" \"can,\" \"continue,\" \"could,\" \"expect,\" \"future,\" \"intend,\" \"plan,\" and similar expressions to identify forward-looking statements. Our actual results could differ materially from the results anticipated in these forward-looking statements as a result of certain factors including those set forth under \"Risk Factors,\" beginning at page 14 and elsewhere in this Form 10-K. Although we believe that the expectations reflected in the forward-looking statements are reasonable, we cannot guarantee future results, levels of activity, performance or achievements. You should not place undue reliance on these forward-looking statements. We disclaim any obligation to update information contained in any forward-looking statement. These forward-looking statements include, without limitation, statements regarding the following:",
+    "•Our expectation that we will experience period-to-period fluctuations in operating results, gross margins, and product mix;",
+    "•The effects that uncertain global economic conditions and fluctuations in the global credit and equity markets may have on our financial condition and results of operations;",
+    "•The effects and amount of competitive pricing pressure on our product lines and modest pricing declines in certain of our more mature proprietary product lines;",
+    "•Our ability to moderate future average selling price declines; •Our expectations regarding our inventory levels and revenue growth;",
+    "•The amount of, and changes in, demand for our products and those of our customers;",
+    "•The impact of national security protections, trade restrictions and changes in tariffs, including those impacting China;",
+    "•Our intent to vigorously defend our legal positions and our expectations of the impact of litigation on our operations;",
+    "•The future impact on our business in response to public health concerns;",
+    "•Our goal to continue to be more efficient with our selling, general and administrative expenses;",
+    "•Our belief that customers recognize our products and brand name and our use of distributors as an effective supply channel;",
+    "•Our belief that familiarity with and adoption of development tools from us and from our third-party development tool partners will be an important factor in the future selection of our embedded control products;",
+    "•The accuracy of our estimates of the useful life and values of our property, assets and other liabilities;",
+    "•The possibility of future pricing fluctuations in our analog product line; •The impact of any supply disruption we may experience;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "產業背景",
+    "本公司產品",
+    "製造",
+    "銷售與分銷",
+    "專利、許可與商標",
+    "環境法規",
+    "人力資源",
+    "本公司高階主管資訊",
+    "姓名 年齡 職位",
+    "可取得資訊",
+    "本公司所有向 SEC 提交的申報文件皆於網站上提供免費下載。網站上的資訊未納入本 Form 10-K 之中。"
+   ],
+   "paragraphs": [
+    "本公司開發、製造及銷售智慧、連線且安全的嵌入式控制解決方案，用於客戶的多種應用場景。擁有超過35年的技術領導地位，本公司廣泛的產品組合可為客戶提供總體系統解決方案，可滿足其應用中大部分的晶片需求。總體系統解決方案（TSS）為硬體、軟體及服務的組合，可協助客戶相較於其他解決方案，提高營業收入、降低營運成本並管理風險。本公司戰略重點包括通用型及專業化混合訊號微控制器、微處理器、類比、FPGA、資料中心、網路及記憶體產品。2024年7月，本公司進軍64位元混合訊號微處理器市場，進一步擴展至32位元架構以外的領域。本公司協同的產品組合可推動顛覆性成長趨勢，包括人工智慧/機器學習（AI/ML）、資料中心、邊緣運算及物聯網（IoT）、電動車（E-mobility）、網路及連線性、以及在汽車、航空及防禦、通訊、消費性家電、資料中心及運算、以及工業等關鍵終端市場的永續性。",
+    "競爭壓力促使OEM必須擴展產品功能並提供差異化，同時維持或降低成本。為應對這些需求，製造商常使用基於積體電路的嵌入式控制系統，以實現：",
+    "• 提供產品差異化 • 取代較低效率的電機控制裝置 • 減少系統中零組件數量",
+    "• 增加產品功能 • 減少系統層級的能源消耗 • 提升系統操作安全性",
+    "• 減少自然資源的消耗 • 連線其產品至其他裝置 • 增加產品安全性",
+    "• 縮短產品上市時間 • 明顯降低產品成本",
+    "嵌入式控制系統已應用於全球各類應用及市場中數千種產品與子組裝件，包括：",
+    "• 驅動器 • 需要觸控按鈕、觸控螢幕及圖形使用者介面的應用",
+    "•汽車舒適性、安全、先進駕駛輔助系統、網路、資訊與娛樂應用",
+    "•飛航電子系統 •通訊基礎設施系統 •消費性電子產品 •資料中心解決方案",
+    "•防禦與軍事硬體 •電動車 •手持工具 •住宅與建築自動化",
+    "•工業自動化 •IP路由器與乙太網路交換器 •大型與小型家用電器 •醫療器材",
+    "•馬達控制單元 •筆記型電腦與配件 •電源供應器 •住宅與商用安全系統",
+    "•機械人 •衛星與太空飛行器 •人工智慧基礎設施的規模擴張與跨領域系統"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "有關未來展望聲明之說明",
+    "導言",
+    "業務與總體經濟環境",
+    "關鍵會計政策與會計估計",
+    "營運成果",
+    "流動性與資本資源",
+    "最近發佈之會計準則"
+   ],
+   "paragraphs": [
+    "本報告，包括「項目 1. 經營業務」、「項目 1A. 風險因素」及「項目 7. 管理層對財務狀況與營運成果之討論與分析」，包含某些展望性陳述，涉及風險與不確定性，包括關於我們策略、財務表現與收入來源之陳述。我們使用如「預期」、「相信」、「可以」、「持續」、「可能」、「期望」、「未來」、「意圖」、「計畫」等詞彙來識別展望性陳述。我們實際結果可能與這些展望性陳述所預期的結果有重大差異，原因包括某些因素，包括於「風險因素」部分所述，自第 14 頁開始，並於本 Form 10-K 其他地方。雖然我們相信展望性陳述所反映的預期是合理的，但我們無法保證未來結果、活動水準、表現或成就。您不應過度依賴這些展望性陳述。我們聲明對更新任何展望性陳述中所包含資訊之義務。這些展望性陳述包括但不限於以下內容：",
+    "• 我們預期將經歷期與期之間營運結果、毛利率及產品組合之波動；",
+    "• 不確定之全球經濟情況及全球信貸與股權市場波動對我們財務狀況與營運成果之影響；",
+    "• 產品線所受競爭性價格壓力之影響與金額，以及我們某些較成熟之專有產品線之小幅價格下降；",
+    "• 我們調節未來平均售價下降之能力；• 我們關於存貨水準與收入成長之預期；",
+    "• 我們產品與客戶產品之需求金額與變動；",
+    "• 國家安全保護措施、貿易限制及關稅變動，包括影響中國之情形之影響；",
+    "• 我們意圖積極捍衛我們法律立場，以及我們對訴訟對我們營運影響之預期；",
+    "•未來因應公共衛生議題對本公司業務的影響;",
+    "•本公司持續提升銷售、一般及行政費用效益的目標;",
+    "•本公司相信客戶認可本公司產品與品牌名稱，並認可本公司使用經銷商作為有效的供應鏈;",
+    "•本公司相信對本公司及第三方開發工具夥伴開發工具的熟悉度與採用率將是未來選擇本公司嵌入式控制產品的重要因素;",
+    "•本公司對資產、其他負債之使用年限及價值之估計準確性;",
+    "•本公司類比產品線未來價格波動的可能性; •本公司可能遭遇供應中斷的影響;"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "評估 Microchip 及其業務時，您應謹慎考慮下列因素，以及本 Form 10-K 文件及其他向 SEC 提交的文件中所提供的資訊。",
+    "風險因素總覽",
+    "與我們業務、營運及產業相關的風險",
+    "與網路安全、產品、隱私權、智慧財產權及訴訟相關的風險",
+    "與稅務、法律及法規相關的風險",
+    "與資本結構及財務市場相關的風險",
+    "我們的營運成果受全球經濟條件影響，未來可能因多種因素而波動，這些因素可能降低我們的淨銷售額及利潤。",
+    "我們的營運成果可能因關鍵供應商無法提供必要的原材料、零組件或設備而受到不利影響。",
+    "我們可能因關鍵材料來自集中來源而受到限制或受到出口管制而失去銷售額。",
+    "我們依賴晶圓代工廠及其他承包商，這也適用於我們的 SuperFlash 及其他授權使用人。",
+    "我們的營運成果可能因授權使用人、客戶、經銷商、經銷商或供應商的財務健全性及表現而受到不利影響。",
+    "我們高度依賴海外銷售、供應商及運營，這使我們面臨海外政治及經濟風險。",
+    "中東地區的地緣政治不穩定可能幹擾關鍵半導體材料，提高燃料成本，並不利於我們滿足客戶需求的能力。",
+    "我們依賴在同一個會計季節內收到並發送的訂單，且對除特定 LTSAs 下訂購外的產品發送情況缺乏可見度。",
+    "我們所服務的市場中競爭激烈，可能導致價格壓力、銷售減少或市佔率下降。",
+    "我們的成功取決於我們能否及時推出新產品。",
+    "本公司營運成果若無法有效運用製造能力或未能維持製造良率，將受影響。",
+    "本公司營運成果受季節性及產業供應與需求大幅波動影響。",
+    "本公司業務依賴經銷商為最終客戶提供服務。",
+    "本公司營運或關鍵供應商、授權商或客戶之營運中斷，可能對本公司業務造成損害。",
+    "本公司科技授權業務面臨多種風險。",
+    "對政府專案的銷售，以及符合相關法規之要求，可能對本公司營運成果產生重大不利影響。"
+   ],
+   "paragraphs": [
+    "•全球經濟情勢對本公司營運成果、淨銷售額及獲利能力的影響;",
+    "•經濟情勢對本公司授權使用人、客戶、經銷商或供應商財務健全性及營運表現的影響;",
+    "•供應商中斷對原材料、零組件或設備之可得性及成本的影響;",
+    "•因關鍵材料來源於集中供應商，而受到限制、出口管制或其他限制措施，導致銷售減少的影響;",
+    "•本公司及授權使用人對晶圓代工廠及其他承包商的依賴性;",
+    "•對海外銷售、供應商及營運的依賴，使本公司面臨海外政治與經濟風險;"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

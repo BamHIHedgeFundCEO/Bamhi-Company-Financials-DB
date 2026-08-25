@@ -5,6 +5,7 @@
 版面：A 欄中文、B 欄英文、C 欄起季度；凍結 C2；缺值 n/a 絕不寫 0；
 Q4 推算值淺橘底；關鍵指標全公式。
 """
+import re
 from datetime import datetime, timezone
 from io import BytesIO
 
@@ -33,6 +34,50 @@ def _fmt(unit: str, th: dict) -> str:
         "shares": nf["shares"],
         "USD/shares": nf["per_share"],
     }.get(unit, nf["usd"])
+
+
+_IDENT = re.compile(r"[A-Za-z_][A-Za-z0-9_]*")
+_NOT_CONCEPT = {"avg", "t"}
+
+
+def _inputs(formula: str) -> set:
+    """公式用到的科目 id（`avg`、`t` 之類的語法字不算）"""
+    return {x for x in _IDENT.findall(formula) if x not in _NOT_CONCEPT}
+
+
+def _metric_inapplicable(formula: str, applicable: dict, metric_ids: set) -> bool:
+    """
+    這個指標對這家公司「本來就不存在」嗎？
+
+    三大報表早就分「n/a（該揭露卻查不到）」與「—（不適用）」了，關鍵指標卻沒有繼承：
+    水泥公司的研發費用率、銀行的存貨週轉天數都寫成 n/a，讀者會以為是我們漏抓。
+    實測 13 家跨產業：研發費用率 69% 是 n/a、存貨週轉天數 47%、毛利率 41%，
+    其中絕大多數其實是「這家公司沒有這一行」。
+
+    規則：公式用到的**任何一個**科目對這家公司不適用 → 整個指標不適用。
+    存貨不適用的公司算不出存貨週轉天數，這是定義問題不是資料問題。
+    指標引用指標時要一起傳遞：EBITDA 是「—」而 EBITDA 利潤率寫 n/a 就自相矛盾。
+    `_metric_na_map` 用迭代解，不遞迴（避免循環引用打轉）。
+    """
+    return any(applicable.get(i) is False
+               for i in _inputs(formula) - metric_ids)
+
+
+def _metric_na_map(derived: list, applicable: dict) -> dict:
+    """每個指標適不適用。科目層判完後，沿著「指標引用指標」再傳幾輪直到穩定"""
+    ids = {m["id"] for m in derived}
+    na = {m["id"]: _metric_inapplicable(m["formula"], applicable, ids) for m in derived}
+    for _ in range(len(derived)):          # 最多傳 n 輪，穩定就停
+        changed = False
+        for m in derived:
+            if na[m["id"]]:
+                continue
+            if any(na.get(i) for i in _inputs(m["formula"]) & ids):
+                na[m["id"]] = True
+                changed = True
+        if not changed:
+            break
+    return na
 
 
 def _metric_fmt(formula: str, mid: str, th: dict) -> str:
@@ -304,6 +349,11 @@ def build_workbook(payload: dict) -> bytes:
     row = 1
     current_group = None
     group_members: dict[str, list[str]] = {}
+    # 三大報表的適用性旗標（applicable=False ＝ 這家公司沒有這一行）
+    applicable_by_id = {li["id"]: li.get("applicable", True) for li in fin["lineItems"]}
+    metric_ids = {x["id"] for x in fin["derived"]}
+    metric_na_by_id = _metric_na_map(fin["derived"], applicable_by_id)
+    inapplicable_metric = th["layout"].get("inapplicable_value", "—")
     for m in fin["derived"]:
         if m["group"] != current_group:
             current_group = m["group"]
@@ -324,10 +374,19 @@ def build_workbook(payload: dict) -> bytes:
         # 滑鼠移入指標名稱顯示判讀說明（desc）
         name_cell.comment = Comment(m["desc"], "BamHI", height=160, width=360)
         fmt = _metric_fmt(m["formula"], m["id"], th)
+        metric_na = metric_na_by_id[m["id"]]
         for i in range(n):
             col = FIRST_DATA_COL + i
             cell = ws.cell(row=row, column=col)
             cell.border = ROW_BORDER
+            if metric_na:
+                # 不適用要在**產公式之前**判掉。這些指標的公式產得出來
+                # （科目那一列存在，只是每格都是 n/a），算出來仍是 n/a，
+                # 讀者看到的還是「查不到」而不是「這家公司沒有這一行」。
+                cell.value = inapplicable_metric
+                cell.font = na_font
+                cell.alignment = Alignment(horizontal="right")
+                continue
             if m["id"] == "ccc":
                 # 現金轉換循環 = DSO + DIO − DPO。
                 #
@@ -348,7 +407,19 @@ def build_workbook(payload: dict) -> bytes:
                               zero_guard=m.get("inapplicable_if_zero"),
                               inapplicable=th["layout"].get("inapplicable_value", "—"))
             if f is None:
-                cell.value = missing
+                # 兩種留白要分開：
+                #   「—」不適用 —— 該科目對這家公司不存在，或比較基期落在所選區間之外
+                #   「n/a」查不到 —— 該有卻抓不到，讀者要去 EDGAR 對
+                # 比較基期那一種以前也寫 n/a：營收年增率前四欄、季增率第一欄
+                # 看起來像抓不到，其實只是使用者沒有選那麼早的期間。
+                lag = 4 if "[t-4]" in m["formula"] else (1 if "[t-1]" in m["formula"] else 0)
+                if annual and lag == 4:
+                    lag = 1
+                out_of_window = lag and (col - lag) < FIRST_DATA_COL
+                if out_of_window or metric_na:
+                    cell.value = inapplicable_metric
+                else:
+                    cell.value = missing
                 cell.font = na_font
                 cell.alignment = Alignment(horizontal="right")
             else:

@@ -3,12 +3,34 @@
 const props = defineProps<{ ticker: string; company?: string | null; zh?: string; meta?: string[] }>()
 
 const TABS = [
-  { to: '', label: '財報下載', hint: 'SEC 原始檔 + Excel' },
-  { to: '/profile', label: '公司簡介', hint: '業務・高管・風險' },
-  { to: '/financials', label: '財務報表', hint: '損益・資產負債・瀑布' },
-  { to: '/funds', label: '13F', hint: '機構持股' },
-  { to: '/insider', label: '內部人買賣', hint: 'Form 4' },
-]
+  { to: '', label: '財報下載', hint: 'SEC 原始檔 + Excel', api: null },
+  { to: '/profile', label: '公司簡介', hint: '業務・高管・風險', api: 'profile' },
+  { to: '/financials', label: '財務報表', hint: '損益・資產負債・瀑布', api: 'financials' },
+  { to: '/funds', label: '13F', hint: '機構持股', api: 'funds' },
+  { to: '/insider', label: '內部人買賣', hint: 'Form 4', api: 'insider' },
+] as const
+
+/**
+ * 滑過分頁就先把那一頁的資料抓起來放進瀏覽器快取。
+ *
+ * 每個分頁都是掛載後才 client-side 取資料，所以第一次點進去要等一趟往返；
+ * 內部人買賣冷啟動實測 5.1 秒（30 份 Form 4 × 限速 100ms）。
+ * 滑鼠移到分頁到真的點下去中間有幾百毫秒，拿來預抓剛好。
+ * API 端已經帶 Cache-Control，預抓的結果瀏覽器與 CDN 都會留著，不會白抓。
+ */
+const prefetched = new Set<string>()
+const thisYear = new Date().getFullYear()
+function prefetch(api: string | null) {
+  if (!api || !props.ticker) return
+  const url = api === 'financials'
+    ? `/api/financials?ticker=${props.ticker}&from=${thisYear - 6}Q1&to=${thisYear + 1}Q4&valuation=0&lean=1`
+    : api === 'insider'
+      ? `/api/insider?ticker=${props.ticker}&limit=30`
+      : `/api/${api}?ticker=${props.ticker}`
+  if (prefetched.has(url)) return
+  prefetched.add(url)
+  $fetch(url).catch(() => prefetched.delete(url))
+}
 const base = computed(() => `/stock/${props.ticker}`)
 const route = useRoute()
 const cur = computed(() => {
@@ -29,7 +51,8 @@ const cur = computed(() => {
         </span>
       </div>
       <nav class="tabs">
-        <NuxtLink v-for="t in TABS" :key="t.to" :to="base + t.to" :class="{ on: cur === t.to }">
+        <NuxtLink v-for="t in TABS" :key="t.to" :to="base + t.to" :class="{ on: cur === t.to }"
+                  @mouseenter="prefetch(t.api)" @focus="prefetch(t.api)">
           <b>{{ t.label }}</b><small>{{ t.hint }}</small>
         </NuxtLink>
       </nav>

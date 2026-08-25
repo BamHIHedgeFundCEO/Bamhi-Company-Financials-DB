@@ -15,7 +15,7 @@ const thisYear = new Date().getFullYear()
 // 一次抓滿 7 年，季數選擇只是前端切片 —— 改期間不必重打 API
 const { data, pending, error } = await useAsyncData(
   `fin-${ticker}`,
-  () => $fetch<any>(`/api/financials?ticker=${ticker}&from=${thisYear - 6}Q1&to=${thisYear + 1}Q4&valuation=0`),
+  () => $fetch<any>(`/api/financials?ticker=${ticker}&from=${thisYear - 6}Q1&to=${thisYear + 1}Q4&valuation=0&lean=1`),
   { server: false },
 )
 

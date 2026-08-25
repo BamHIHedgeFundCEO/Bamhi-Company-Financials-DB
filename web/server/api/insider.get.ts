@@ -1,4 +1,4 @@
-import { defineEventHandler, getQuery, createError } from 'h3'
+import { defineEventHandler, getQuery, createError, setHeader } from 'h3'
 import { resolveCompany } from '../utils/cik'
 import { getInsider } from '../utils/insider'
 
@@ -7,6 +7,8 @@ import { getInsider } from '../utils/insider'
  * → Form 3/4/5 交易明細 + 高管名冊（公司簡介分頁的高管來源也是這支）
  */
 export default defineEventHandler(async (event) => {
+  // Form 4 隨時可能有新的，但冷啟動要 5 秒 —— 快取讓只有第一個人等
+  setHeader(event, 'Cache-Control', 'public, s-maxage=1800, stale-while-revalidate=86400')
   const q = getQuery(event)
   const t = String(q.ticker || '').trim().toUpperCase()
   if (!t) throw createError({ statusCode: 400, message: '缺少 ticker' })

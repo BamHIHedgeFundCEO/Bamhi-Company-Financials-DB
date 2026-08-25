@@ -62,6 +62,51 @@
     "•shortages of commodities, components, or other materials, which could adversely affect our manufacturing efficiencies and ability to make timely delivery of our products, solutions, and services;"
    ],
    "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Portfolio Changes",
+    "Summary of Results of Operations",
+    "Non-GAAP Financial Measures",
+    "Acquisition and Divestiture Charges",
+    "Restructuring Programs",
+    "Intangible Asset Amortization Expense",
+    "Consolidated Financial Results",
+    "Gross Profit",
+    "Income Taxes",
+    "Business Segment Results of Operations",
+    "Electrical Americas",
+    "Electrical Global",
+    "Corporate Expense",
+    "Liquidity and Financial Condition",
+    "Operating Cash Flow",
+    "Investing Cash Flow",
+    "Financing Cash Flow",
+    "Uses of Cash",
+    "Purchases of Goods and Services",
+    "Capital Expenditures",
+    "Share Repurchases",
+    "Acquisition of Businesses and Investments in Associate Companies",
+    "Unrecognized Income Tax Benefits",
+    "Defined Benefits Plans",
+    "Supply Chain Finance Program",
+    "Guaranteed Debt",
+    "Issuers, Guarantors and Guarantor Structure",
+    "Terms of Guarantees of Registered Securities",
+    "Future Guarantors",
+    "Summarized Financial Information of Guarantors and Issuers",
+    "Revenue Recognition",
+    "Impairment of Goodwill and Indefinite Life Intangible Assets",
+    "Acquisitions of Businesses",
+    "Recoverability of Deferred Income Tax Assets"
+   ],
+   "paragraphs": [
+    "A summary of Eaton's Net sales, Net income attributable to Eaton ordinary shareholders, and Net income per share attributable to Eaton ordinary shareholders - diluted is as follows:",
+    "(In millions except for per share data) 2025 2024 2023 Net sales $ 27,448 $ 24,878 $ 23,196",
+    "Net income attributable to Eaton ordinary shareholders 4,087 3,794 3,218",
+    "Net income per share attributable to Eaton ordinary shareholders - diluted $ 10.45 $ 9.50 $ 8.02"
+   ],
+   "focus": "Summary of Results of Operations"
   }
  },
  "zh": {
@@ -119,6 +164,50 @@
     "本公司已受到供應鏈中斷與相關通貨膨脹壓力的影響。某些市場持續出現勞動力短缺，且某些原材料短缺持續影響本公司業務所支付的價格，特別是商品類別。部分供應商也經歷相同情況，並因原材料、能源與/或勞動力成本增加，持續提高其價格。雖然本公司努力透過價格調整、產品改良或其他緩衝措施來彌補這些成本增加，但如果無法在不影響本公司產品與服務競爭力的情況下做到，本公司營運成果仍可能持續受到此趨勢影響。此外，若此趨勢持續或惡化，對本公司營運成果的影響可能造成重大且不利的影響。",
     "本公司業務需要從第三方購買原材料、零組件與服務。過去供應商關係曾受到幹擾或終止，未來也可能發生相同情況。本公司對供應商的依賴涉及以下風險：",
     "• 商品、零組件或其他材料短缺，可能對本公司製造效率與及時交付產品、解決方案與服務的能力造成不利影響。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "投資組合變動",
+    "營運成果概要",
+    "非GAAP財務指標",
+    "併購及資產處置費用",
+    "重整計畫",
+    "無形資產攤銷費用",
+    "合併財務結果",
+    "毛利",
+    "所得稅",
+    "業務分部營運成果",
+    "電氣美洲",
+    "電氣全球",
+    "公司費用",
+    "流動性及財務狀況",
+    "營運現金流",
+    "投資現金流",
+    "資金籌措現金流",
+    "現金運用",
+    "商品及服務購置",
+    "資本支出",
+    "股票回購",
+    "企業併購及聯營公司投資",
+    "未認列之所得稅優惠",
+    "確定福利計畫",
+    "供應鏈金融方案",
+    "擔保債務",
+    "發行者、擔保人及擔保人結構",
+    "已註冊證券擔保條款",
+    "未來擔保人",
+    "擔保人及發行者財務資訊摘要",
+    "收入認列",
+    "商譽及無限期壽命無形資產減損",
+    "事業買賣",
+    "遞延所得稅資產之可收回性"
+   ],
+   "paragraphs": [
+    "本公司淨銷售額、歸屬於 Eaton 普通股東的淨收入及歸屬於 Eaton 普通股東的每股淨收入（稀釋後）概要如下：",
+    "(單位為千萬，除每股資料外) 2025 2024 2023 淨銷售額 $ 27,448 $ 24,878 $ 23,196",
+    "歸屬於 Eaton 普通股東的淨收入 4,087 3,794 3,218",
+    "歸屬於 Eaton 普通股東的每股淨收入（稀釋後） $ 10.45 $ 9.50 $ 8.02"
    ]
   }
  },

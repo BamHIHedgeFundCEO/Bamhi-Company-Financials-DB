@@ -1,4 +1,4 @@
-import { defineEventHandler, getQuery, createError } from 'h3'
+import { defineEventHandler, getQuery, createError, setHeader } from 'h3'
 import { resolveCompany } from '../utils/cik'
 
 /**
@@ -57,6 +57,8 @@ const safeName = (t: string) => (RESERVED.has(t) ? `${t}_` : t)
 let indexCache: Record<string, unknown> | null = null
 
 export default defineEventHandler(async (event): Promise<FundsResult> => {
+  // 13F 一季才換一次資料 —— CDN 放一天、過期後一週內先給舊的再背景更新
+  setHeader(event, 'Cache-Control', 'public, s-maxage=86400, stale-while-revalidate=604800')
   const q = getQuery(event)
   const t = String(q.ticker || '').trim().toUpperCase()
   if (!t) throw createError({ statusCode: 400, message: '缺少 ticker' })

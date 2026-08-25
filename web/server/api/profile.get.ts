@@ -1,4 +1,4 @@
-import { defineEventHandler, getQuery, createError } from 'h3'
+import { defineEventHandler, getQuery, createError, setHeader } from 'h3'
 import { resolveCompany } from '../utils/cik'
 import { secFetchJson } from '../utils/secFetch'
 import { filingUrl } from '../utils/filings'
@@ -48,6 +48,8 @@ const ANNUAL = ['10-K', '20-F', '40-F']
 const ANNUAL_AMENDED = ['10-K/A', '20-F/A', '40-F/A']
 
 export default defineEventHandler(async (event) => {
+  // 公司檔案與年報章節變動很慢（一年一份 10-K）
+  setHeader(event, 'Cache-Control', 'public, s-maxage=3600, stale-while-revalidate=86400')
   const q = getQuery(event)
   const t = String(q.ticker || '').trim().toUpperCase()
   if (!t) throw createError({ statusCode: 400, message: '缺少 ticker' })

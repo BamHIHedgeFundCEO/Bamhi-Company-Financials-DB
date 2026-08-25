@@ -192,27 +192,38 @@ def simplified_left(x: str) -> set:
 
 def universe() -> list:
     """
-    要翻的代號，**依市值由大到小**。
+    要翻的代號，**依規模由大到小**。先翻大公司是因為流量集中在那裡；
+    全母體要跑很久，順序不對等於白等。
 
-    SEC 的 `company_tickers.json` 本身就是照市值排序的（`generate-static.ts`
-    也靠這個排前 500 大），拿它當優先序、再與我們的母體取交集。
-    先翻大公司是因為流量集中在那裡 —— 全母體要跑很久，順序不對等於白等。
+    ⚠️ **不要用 SEC 的 `company_tickers.json` 當排序。** 它只有開頭幾千筆大致依
+    市值排，尾巴是任意順序 —— 實測美光（MU）排在第 **7,080** 名，夾在幾檔封閉式
+    基金中間，所以「前 500 大」整批漏掉了它。`generate-static.ts` 的註解寫
+    「該檔已依市值排序」，那是錯的。
+
+    改用 `config/f13/` 的機構持股總市值當規模代理：那是 13F 申報加總出來的
+    真實金額，離線就有、零請求，而且排出來的前 25 名與市值排名一致
+    （MU 回到第 20 名）。沒有 13F 資料的（多為多股別代號）排在後面。
     """
     uni = []
     with io.open(COVERAGE, encoding="utf-8") as f:
         for line in f:
             uni.append(json.loads(line)["ticker"])
-    have = set(uni)
-    try:
-        req = urllib.request.Request("https://www.sec.gov/files/company_tickers.json",
-                                     headers={"User-Agent": UA})
-        raw = json.loads(urllib.request.urlopen(req, timeout=120).read().decode("utf-8"))
-        order = [v["ticker"].upper() for v in raw.values()]
-    except Exception as e:
-        print(f"  取不到 SEC 排序（{e}），改用母體原順序")
+
+    f13 = os.path.join(ROOT, "config", "f13")
+    size = {}
+    if os.path.isdir(f13):
+        for fn in os.listdir(f13):
+            if fn.startswith("_"):
+                continue
+            try:
+                d = json.load(io.open(os.path.join(f13, fn), encoding="utf-8"))
+                size[d["ticker"]] = d.get("totalValue") or 0
+            except Exception:
+                pass
+    if not size:
+        print("  找不到 config/f13/，改用母體原順序（先跑 tools/f13.py 可得規模排序）")
         return uni
-    ranked = [t for t in order if t in have]
-    return ranked + [t for t in uni if t not in set(ranked)]
+    return sorted(uni, key=lambda t: -size.get(t, -1))
 
 
 def done_key(cik: str, accession: str) -> str:

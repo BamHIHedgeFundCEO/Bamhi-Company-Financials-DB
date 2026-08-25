@@ -237,6 +237,88 @@ function riskDensity(seg: string): number {
   return (seg.match(RISK_WORDS)?.length ?? 0) / Math.max(1, seg.length / 1000)
 }
 
+/* ── 頁首式標題（Intel、Synchrony）────────────────────────
+   還有一種更麻煩的：章節標題**不是粗體**，而是每一頁重複的頁首。
+   Intel 的 10-K 裡「Our Business」「Risk Factors」各出現十幾次，
+   第一次後面接的是內文，其餘後面接的都是頁碼。
+   判準就用這個事實：**後面幾行之內要有內文**（≥40 字元且不是純數字）。
+
+   三個章節都用這條路，但**每一個都要通過自己的驗證器**才收：
+     風險   風險用語密度 ≥ 0.75（同上，七份已知正確的年報校準出來的）
+     MD&A   逐年比較用語密度 ≥ 0.12（六份真 MD&A 的最低值）
+     業務   反向驗證：不像風險段、不像 MD&A、且至少有 5 段長內文
+   MD&A 的驗證器不是裝飾：JPM 的「Item 7 見第 46–160 頁」那段併入參照聲明
+   長度有 3 萬字元，形狀跟章節一模一樣，只有密度驗證擋得住（實測被擋下）。 */
+const TITLE_START: Record<Section['id'], RegExp> = {
+  business: /^[\W_]*(our\s+)?business(\s+overview)?[\W_]*$/i,
+  risk: /^[\W_]*(risk\s*factors|risks)[\W_]*$/i,
+  mdna: /^[\W_]*management[’']?s?\s+discussion\s+and\s+analysis.*$/i,
+}
+const TITLE_END: Record<Section['id'], RegExp[]> = {
+  business: [TITLE_START.risk, /^[\W_]*unresolved\s+staff\s+comments[\W_]*$/i,
+             /^[\W_]*propert(y|ies)[\W_]*$/i],
+  risk: [/^[\W_]*unresolved\s+staff\s+comments[\W_]*$/i, /^[\W_]*cybersecurity[\W_]*$/i,
+         /^[\W_]*propert(y|ies)[\W_]*$/i, /^[\W_]*legal\s+proceedings[\W_]*$/i,
+         /^[\W_]*management[’']?s?\s+discussion.*$/i],
+  mdna: [/^[\W_]*quantitative\s+and\s+qualitative.*$/i,
+         /^[\W_]*(consolidated\s+)?financial\s+statements(\s+and\s+supplementary\s+data)?[\W_]*$/i],
+}
+const MDNA_WORDS = /(compared (to|with) (the )?(prior|fiscal|year)|increased? \d|decreased? \d|year[- ]over[- ]year|results of operations|net revenues? (increased|decreased)|primarily (due|driven|attributable) to)/gi
+const MDNA_MIN = 0.12
+
+function density(re: RegExp, seg: string): number {
+  return (seg.match(re)?.length ?? 0) / Math.max(1, seg.length / 1000)
+}
+function longParas(seg: string): number {
+  return seg.split('\n').filter((l) => l.split(B).join('').trim().length >= 200).length
+}
+function validSection(id: Section['id'], seg: string): boolean {
+  if (id === 'risk') return riskDensity(seg) >= MIN_RISK_DENSITY
+  if (id === 'mdna') return density(MDNA_WORDS, seg) >= MDNA_MIN
+  // 業務段沒有正面特徵可測（蘋果的 Item 1 連 "we design" 都不出現）→ 用排除法
+  return riskDensity(seg) < MIN_RISK_DENSITY && density(MDNA_WORDS, seg) < MDNA_MIN
+    && longParas(seg) >= 5
+}
+
+/** 整行等於標題，且「該行是粗體」或「後面幾行內有內文」——兩者皆非就是頁首或目錄行 */
+function headingLines(text: string, re: RegExp): number[] {
+  const lines = text.split('\n')
+  const out: number[] = []
+  let pos = 0
+  for (let i = 0; i < lines.length; i++) {
+    const bare = lines[i].split(B).join('').trim()
+    if (bare && re.test(bare)) {
+      const bold = lines[i].includes(B)
+      let prose = false
+      for (let k = i + 1; k < Math.min(i + 5, lines.length) && !prose; k++) {
+        const b = lines[k].split(B).join('').trim()
+        if (!b) continue
+        prose = b.length >= 40 && !/^[\d\s.,%$()-]+$/.test(b)
+      }
+      if (bold || prose) out.push(pos)
+    }
+    pos += lines[i].length + 1
+  }
+  return out
+}
+
+export function locateByTitle(text: string, id: Section['id']): { from: number; to: number } | null {
+  const starts = headingLines(text, TITLE_START[id])
+  if (!starts.length) return null
+  const ends = TITLE_END[id].flatMap((r) => headingLines(text, r)).sort((a, b) => a - b)
+  const limit = text.length * MAX_SHARE
+  const cands: { from: number; to: number }[] = []
+  for (const from of starts) {
+    const to = ends.find((x) => x > from + 30) ?? text.length
+    if (to - from >= 1200 && to - from <= limit) cands.push({ from, to })
+  }
+  cands.sort((a, b) => (b.to - b.from) - (a.to - a.from))
+  for (const c of cands) {
+    if (validSection(id, text.slice(c.from, Math.min(c.to, c.from + MAX_CHARS)))) return c
+  }
+  return null
+}
+
 export function locateRiskByTitle(text: string): { from: number; to: number } | null {
   const starts = titleLines(text, RISK_TITLE)
   if (!starts.length) return null
@@ -380,7 +462,7 @@ async function attachZh(n: Narrative, cik10: string): Promise<void> {
 }
 
 export async function getNarrative(cik10: string, f: FilingMeta): Promise<Narrative> {
-  const key = `narr/v6/${cik10}/${f.accession}.json`
+  const key = `narr/v7/${cik10}/${f.accession}.json`
   const hit = await cacheGet<Narrative>(key)
   if (hit) {
     // 譯文不進 Blob 快取 —— 它會在快取之後才補上，每次都要重新掛
@@ -396,8 +478,10 @@ export async function getNarrative(cik10: string, f: FilingMeta): Promise<Narrat
     for (const spec of SPECS) {
       let loc = locateSection(text, spec)
       let viaTitle = false
-      if (!loc && spec.id === 'risk') {
-        loc = locateRiskByTitle(text)
+      if (!loc) {
+        // 兩條退路都留著：粗體式（花旗那種）與頁首式（Intel 那種）各自抓得到
+        // 對方抓不到的文件，取先命中的
+        loc = (spec.id === 'risk' ? locateRiskByTitle(text) : null) ?? locateByTitle(text, spec.id)
         viaTitle = !!loc
       }
       if (!loc) {

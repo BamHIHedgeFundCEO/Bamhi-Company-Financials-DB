@@ -74,6 +74,12 @@ useHead({ title: `${ticker} 公司簡介｜業務概況、經營層討論、主�
       </p>
 
       <template v-else-if="data">
+        <p v-if="(data.narrative?.sections || []).some((s: any) => s.viaTitle)" class="caution">
+          這份年報採用「交叉索引式」排版：正文沒有 <span class="mono">Item 1A</span> 這種編號錨點，
+          最前面只放一張「項次 → 頁碼」對照表。標示<b>「以標題定位」</b>的章節是以標題比對找到、
+          並通過內容檢查後才採用的，請以 EDGAR 原文為準。
+        </p>
+
         <div v-if="data.narrative" class="langbar">
           <template v-if="hasZh">
             <span class="lb">內文語言</span>
@@ -126,6 +132,9 @@ useHead({ title: `${ticker} 公司簡介｜業務概況、經營層討論、主�
           <div class="blockhead">
             <span class="num">§2</span><h2>業務概況</h2>
             <span class="tagsrc">{{ business.anchor }}</span>
+            <span v-if="business.viaTitle" class="tagsrc alt" title="這份年報正文沒有 Item 編號錨點">
+              以標題定位
+            </span>
             <a class="edgar" :href="data.narrative.url" target="_blank" rel="noopener">
               {{ data.narrative.form }} · {{ data.narrative.reportDate }} ↗
             </a>
@@ -156,6 +165,9 @@ useHead({ title: `${ticker} 公司簡介｜業務概況、經營層討論、主�
           <div class="blockhead">
             <span class="num">§3</span><h2>未來發展</h2>
             <span class="tagsrc">{{ mdna.anchor }}</span>
+            <span v-if="mdna.viaTitle" class="tagsrc alt" title="這份年報正文沒有 Item 編號錨點">
+              以標題定位
+            </span>
             <a class="edgar" :href="data.narrative.url" target="_blank" rel="noopener">
               {{ data.narrative.form }} · {{ data.narrative.reportDate }} ↗
             </a>
@@ -218,11 +230,6 @@ useHead({ title: `${ticker} 公司簡介｜業務概況、經營層討論、主�
           <button v-if="risk.paragraphs.length" class="more" @click="open.risk = !open.risk">
             {{ open.risk ? '收合導言' : '讀這一章的導言' }}
           </button>
-          <p v-if="risk.viaTitle" class="excerpt">
-            這份年報採用「交叉索引式」排版：正文沒有 <span class="mono">Item 1A</span> 這種編號錨點，
-            最前面只放一張「項次 → 頁碼」對照表。本段是以章節標題定位、並通過風險用語密度檢查後才採用的，
-            請以 EDGAR 原文為準。
-          </p>
           <p class="excerpt">
             上面每一條就是公司自己下的風險標題（原文約 {{ risk.chars.toLocaleString() }} 字元，
             逐條展開通常有幾十頁）。

@@ -329,10 +329,20 @@ def build_workbook(payload: dict) -> bytes:
             cell = ws.cell(row=row, column=col)
             cell.border = ROW_BORDER
             if m["id"] == "ccc":
-                # 現金轉換循環：存貨不適用（軟體公司）時 DIO 以 0 計，仍算得出 DSO−DPO
+                # 現金轉換循環 = DSO + DIO − DPO。
+                #
+                # 存貨不適用（軟體、服務業）時 DIO 以 0 計，仍算得出 DSO−DPO；
+                # 但 **DSO 或 DPO 缺一個就整格 n/a** —— 應收與應付每家公司都有，
+                # 缺代表我們沒對到標籤，不是「等於零」。少算 DPO 會讓循環天數
+                # 憑空變長（VMC 少 48 天）。
+                #
+                # ⚠️ 不能寫 `IFERROR(dio,0)`：IFERROR 只吃**錯誤**，而缺值格放的是
+                # **文字** "n/a"，會原封不動穿過去，外層的加減就變成 #VALUE!。
+                # 要把文字轉 0 得用 N()，要判斷是不是缺值得用 ISTEXT()。
                 dso, dio, dpo = (resolver.cell(x, col) for x in ("dso", "dio", "dpo"))
-                f = (f'IFERROR({dso},0)+IFERROR({dio},0)-IFERROR({dpo},0)'
-                     if dso and dpo else None)
+                f = (f'IFERROR(IF(OR(ISTEXT({dso}),ISTEXT({dpo})),"n/a",'
+                     f'{dso}+N({dio})-{dpo}),"n/a")'
+                     if dso and dio and dpo else None)
             else:
                 f = translate(m["formula"], resolver, col, annual=annual,
                               zero_guard=m.get("inapplicable_if_zero"),

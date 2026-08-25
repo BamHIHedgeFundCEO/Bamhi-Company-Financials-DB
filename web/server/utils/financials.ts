@@ -328,6 +328,36 @@ function inferFyEnds(gaap: FactTags, fyeMonth: number): Map<number, number> {
 }
 
 /**
+ * 推算 Q4 時要用「和前三季同一個申報版本」的年度值，不是最新重編值。
+ *
+ * 為什麼：Q4 = 全年 − Q1 − Q2 − Q3。公司處分事業之後會把**年度**數字重編成
+ * 繼續營業部門，但**季度**數字通常停在當時的版本，兩邊相減就會得到鬼數字。
+ * BW 的 FY2023 營收有三個版本 —— 999M（2024-03 原始）、727M（2025-03 重編）、
+ * 587M（2026-03 再重編）—— 而前三季是 2024 年那一版的 772M。
+ * 取最新的 587M 相減得到 **−185M 的營收**；取同版本的 999M 得到 227M，
+ * 與公司當年財報一致。
+ *
+ * 判準是「申報日最接近前三季的中位申報日」，不是「哪個算出來比較好看」。
+ * 季度也被重編的公司，季度的申報日會一起往後移，這條規則自然就會選到新的年度值，
+ * 行為不變。只有一個年度版本時完全不作用。
+ */
+function consistentAnnual(
+  annual: FactPoint & { _alts?: FactAlt[] },
+  src: ({ filed: string } | null)[],
+): number {
+  const alts = annual._alts
+  if (!alts || alts.length < 2) return annual.val
+  const qf = [1, 2, 3].map((q) => src[q]?.filed).filter(Boolean).sort() as string[]
+  if (!qf.length) return annual.val
+  const mid = qf[Math.floor(qf.length / 2)]
+  const days = (a: string, b: string) =>
+    Math.abs(Date.parse(a) - Date.parse(b)) / 86400000
+  let pick = alts[0]
+  for (const a of alts) if (days(a.filed, mid) < days(pick.filed, mid)) pick = a
+  return pick.val
+}
+
+/**
  * 從單一 tag 的 point 陣列整理出各 fiscal period 的值。
  * key：
  *   Q:{fy}:{q} — 單季（流量）或期末快照（存量）
@@ -335,15 +365,26 @@ function inferFyEnds(gaap: FactTags, fyeMonth: number): Map<number, number> {
  *   A:{fy}     — 全年
  * 同期間多筆（重編）→ filed 最新。
  */
+interface FactAlt { val: number; filed: string; form?: string }
+
 function collect(points: FactPoint[], flow: boolean, fyeMonth: number,
                  fyEnds: Map<number, number>) {
-  const best = new Map<string, FactPoint & { _origFiled?: string }>()
+  const best = new Map<string, FactPoint & { _origFiled?: string; _alts?: FactAlt[] }>()
   const put = (key: string, p: FactPoint) => {
     const prev = best.get(key)
     // 取 filed 最新（重編值）；同時記該期最早申報日（原始申報，供稽核）
     const orig = prev?._origFiled && prev._origFiled < p.filed ? prev._origFiled : p.filed
-    if (!prev || p.filed > prev.filed) best.set(key, { ...p, _origFiled: orig })
-    else if (prev) prev._origFiled = orig
+    // 年度事實**每一個版本都留著**。Q4 是用「全年 − 前三季」推算的，
+    // 而年度值可能被重編好幾次、季度值卻停在舊版本，兩邊版本不同相減就會出鬼數字
+    // （BW 2023：年度重編成繼續營業部門的 587M 減掉原始三季 772M ＝ 營收 −185M）。
+    const alts = key.startsWith('A:')
+      ? [...(prev?._alts ?? []), { val: p.val, filed: p.filed, form: p.form }]
+      : undefined
+    if (!prev || p.filed > prev.filed) best.set(key, { ...p, _origFiled: orig, _alts: alts })
+    else if (prev) {
+      prev._origFiled = orig
+      if (alts) prev._alts = alts
+    }
   }
   for (const p of points) {
     if (!p.end) continue
@@ -824,7 +865,7 @@ export async function getFinancials(
     // tags 依優先序逐期 fallback：高優先標籤已有的期間不被覆蓋，
     // 缺的期間由後續標籤補（公司中途換標籤時——如 NVDA 營收——單一標籤涵蓋不了全期間）
     const negate = new Set(concept.negate_tags ?? [])
-    const best = new Map<string, FactPoint & { _tag: string }>()
+    const best = new Map<string, FactPoint & { _tag: string; _alts?: FactAlt[] }>()
     for (const tag of tags) {
       const units = ns[tag]?.units
       let points = unitPrefs(concept.unit).map((u) => units?.[u]).find((p) => p?.length)
@@ -891,8 +932,10 @@ export async function getFinancials(
 
       // cum[q] = 年初到第 q 季末的累計值（優先直接申報，其次以單季相加）
       const cum: (number | null)[] = [0, null, null, null, null]
-      const src: (FactPoint & { _tag: string } | null)[] = [null, null, null, null, null]
-      const setCum = (q: number, val: number, p: FactPoint & { _tag: string }) => {
+      const src: (FactPoint & { _tag: string; _alts?: FactAlt[] } | null)[] =
+        [null, null, null, null, null]
+      const setCum = (q: number, val: number,
+                      p: FactPoint & { _tag: string; _alts?: FactAlt[] }) => {
         cum[q] = val
         src[q] = p
       }
@@ -902,7 +945,7 @@ export async function getFinancials(
         if (c) setCum(n, c.val, c)
         else if (s && cum[n - 1] != null) setCum(n, cum[n - 1]! + s.val, s)
       }
-      if (annual) setCum(4, annual.val, annual)
+      if (annual) setCum(4, consistentAnnual(annual, src), annual)
       else if (qd(4) && cum[3] != null) {
         const q4 = qd(4)!
         // 10-K 一定會申報全年數字。該年度找不到「年度長度」的事實、卻有一筆來自 10-K 的

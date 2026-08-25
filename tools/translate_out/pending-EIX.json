@@ -1,0 +1,223 @@
+{
+ "ticker": "EIX",
+ "cik": "0000827052",
+ "accession": "0000827052-26-000012",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Subsidiaries of Edison International",
+    "SCE – Public Utility",
+    "Trio – Energy Service Provider",
+    "Regulation of Edison International as a Holding Company",
+    "Human Capital",
+    "Diversity, Equity and Inclusion",
+    "Workforce Continuity",
+    "Other Regulatory Agencies",
+    "Compliance with Government Regulations",
+    "Overview of Ratemaking Process",
+    "Retail Rates Structure and Residential Rate Design",
+    "Purchased Power and Fuel Supply",
+    "Natural Gas Supply",
+    "CAISO Wholesale Energy Market",
+    "Net Energy Metering"
+   ],
+   "paragraphs": [
+    "BUSINESS CORPORATE STRUCTURE, INDUSTRY AND OTHER INFORMATION",
+    "Edison International was incorporated in 1987 as the parent holding company of SCE, a California public utility incorporated in 1909. Edison International also owns Trio, a global energy advisory firm providing integrated sustainability and energy solutions to commercial, industrial and institutional customers.",
+    "The principal executive office of Edison International is located at 2244 Walnut Grove Avenue, P.O. Box 976, Rosemead, California 91770, and Edison International's telephone number is (626) 302-2222. The principal executive office of SCE is located at 2244 Walnut Grove Avenue, P.O. Box 800, Rosemead, California 91770, and SCE's telephone number is (626) 302-1212.",
+    "This is a combined Annual Report on Form 10-K for Edison International and SCE. Edison International and SCE make available at edisoninvestor.com: Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, Proxy Statements and amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Securities Exchange Act, as soon as reasonably practicable after Edison International and SCE electronically file such material with, or furnishes it to, the SEC. Such reports are also available on the SEC's internet website at sec.gov. The information contained on, or connected to, the Edison investor website is not incorporated by reference into this report.",
+    "SCE is an investor-owned public utility primarily engaged in the business of supplying and delivering electricity through SCE's electrical infrastructure to an approximately 50,000 square-mile area of southern California. SCE serves approximately 5 million customers in its service area. As of December 31, 2025, SCE's total number of customers by class were as follows:",
+    "(in thousands) 2025 2024 2023 Residential 4,672 4,618 4,576 Commercial 625 611 610 Industrial 4 5 5",
+    "Public authorities 70 69 69 Agricultural and other 18 18 19 Total 5,389 5,321 5,279",
+    "CPUC and FERC rates decouple authorized revenue from the volume of electricity sales and the price of energy procured so that SCE has the opportunity to receive revenue equal to amounts authorized by the relevant regulatory agencies. As a result, the volume of electricity sold does not have a direct impact on SCE's financial results. See \"SCE—Overview of Ratemaking Process—CPUC\" and \"—FERC\" for further information.",
+    "Trio is a global energy advisory firm providing integrated sustainability and energy solutions to commercial, industrial and institutional customers. Trio aims to provide energy solutions that address cost, carbon and complex choices for its customers.",
+    "As a public utility holding company, Edison International is subject to the Public Utility Holding Company Act. The Public Utility Holding Company Act primarily obligates Edison International and its utility subsidiaries to provide access to their books and records to the FERC and the CPUC for ratemaking purposes.",
+    "Edison International is not a public utility and its capital structure is not regulated by the CPUC. The 1988 CPUC decision authorizing SCE to reorganize into a holding company structure, however, imposed certain obligations on Edison International and its affiliates. These obligations include a requirement that SCE's dividend policy continue to be established by the SCE Board of Directors as though SCE were a stand-alone utility company, and that the capital requirements of SCE, as deemed to be necessary to meet SCE's electricity service obligations, shall receive first priority from the Boards of Directors of Edison International and SCE. The CPUC has also promulgated Affiliate Transaction Rules, which, among other requirements, prohibit holding companies from (1) being used as a conduit to provide non-public information to a utility's affiliates and (2) causing or abetting a utility's violation of the rules, including providing preferential treatment to its affiliates.",
+    "At December 31, 2025, Edison International had an aggregate of 13,725 employees (excluding interns and employees on leaves of absence), of which 13,235 were full-time employees of SCE or its subsidiaries. In addition to employees, SCE's workforce includes a significant number of contract workers who support SCE's operations. Among these contract workers are Safety Tier 1 Contractors. SCE estimates, based on contractors' self-reported hours worked and a 2,080-hour work year, that there were approximately 9,151 full-time equivalent Safety Tier 1 Contractors supporting SCE operations during 2025. All Safety Tier 1 Contractors engaged in decommissioning activities at San Onofre are managed by the DGC. In addition to Safety Tier 1 Contractors, SCE also uses other contract workers to support its transmission and distribution, vegetation management, information technology and customer service activities.",
+    "Approximately 4,600 of SCE's employees are represented by the International Brotherhood of Electrical Workers (\"IBEW\") under collective bargaining agreements that expire December 31, 2027. In addition, in June 2025, approximately 1,100 of SCE's employees agreed to be represented by the Engineers and Scientists of California Local 20, International Federation of Professional and Technical Engineers (\"ESC 20\"). As of February 11, 2026, negotiations between ESC 20 and SCE for a collective bargaining agreement are pending. A substantial number of SCE's contract workers are also unionized.",
+    "Edison International focuses on various human capital measures and objectives in managing its business, including measures and objectives related to safety, diversity, equity and inclusion and workforce continuity."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Regulatory and Legislative Risks",
+    "SCE's financial results depend upon its ability to recover its costs and to earn a reasonable rate of return on capital investments in a timely manner from its customers through regulated rates.",
+    "SCE is subject to extensive regulation and the risk of adverse regulatory and legislative decisions, delays in regulatory or legislative decisions, and changes in applicable regulations or legislation.",
+    "SCE's energy procurement activities are subject to regulatory and market risks, including availability, that could materially affect its financial condition and liquidity.",
+    "Operating Risks",
+    "Damage claims against SCE for wildfire-related losses may materially affect SCE's financial condition and results of operations.",
+    "SCE's insurance coverage for wildfires may not be sufficient.",
+    "SCE may not effectively implement its wildfire mitigation plans.",
+    "SCE will not benefit from all of the features of the California Wildfire Legislation if the Wildfire Fund is exhausted.",
+    "For more information on the California Wildfire Legislation , see \"Business—Southern California Wildfires and Mudslides—Recovery of Wildfire-Related Costs—California Wildfire Legislation.\"",
+    "Climate change exacerbated weather-related incidents and other natural disasters have and could continue to materially affect SCE's financial condition and results of operations.",
+    "The generation, transmission and distribution of electricity are dangerous and involve inherent risks of damage to private property and injury to SCE's workforce and the general public.",
+    "SCE's financial condition and results of operations could be materially affected if it is unable to successfully manage the risks inherent in constructing, operating, and maintaining its facilities and workforce.",
+    "SCE's distribution of water and propane gas on Catalina Island involves inherent risks of damage to private property and the environment and injury to employees and the general public.",
+    "Financing Risks",
+    "Competitive and Market Risks",
+    "Cybersecurity and Physical Security Risks",
+    "Successful attacks on SCE information and operational technology systems and infrastructure could have a material impact on SCE's operations or financial condition",
+    "SCE's security program cannot prevent all attacks or incidents",
+    "SCE's transition to a more network-connected grid and increased deployment of new technologies increases the number of systems adversaries can target",
+    "Vendors and other third parties may be used to target and attack SCE",
+    "Global and Regional Risks",
+    "Edison International's and SCE's business activities are concentrated in one industry and in one region."
+   ],
+   "paragraphs": [
+    "RISK FACTORS RISKS RELATING TO EDISON INTERNATIONAL",
+    "Edison International's liquidity and ability to pay dividends depends on its ability to borrow funds, access to bank and capital markets, monetization of tax benefits held by Edison International, and SCE's ability to pay dividends and tax allocation payments to Edison International. Edison International is a holding company and, as such, it has no material operations of its own. Edison International's ability to meet its financial obligations, make investments, and to pay dividends on its common stock is primarily dependent on the earnings and cash flows of SCE and SCE's ability to make upstream distributions. If SCE does not make upstream distributions to Edison International and Edison International is unable to access the bank and capital markets on reasonable terms, Edison International may be unable to continue to pay dividends to its shareholders or meet its financial obligations.",
+    "Prior to paying dividends to Edison International, SCE has financial and regulatory obligations that must be satisfied, including, among others, debt service and preference stock dividends. Further, Edison International and SCE cannot pay dividends if California law requirements for the declaration of dividends are not met. For information on CPUC and California law requirements related to the declaration of dividends, see \"Notes to Consolidated Financial Statements—Note 1. Summary of Significant Accounting Policies—SCE Dividends.\" SCE may also owe tax-allocation payments to Edison International under applicable tax-allocation agreements.",
+    "Edison International's ability to obtain financing, as well as its ability to refinance debt and make scheduled payments of principal and interest, are dependent on numerous factors, including its levels of indebtedness, maintenance of acceptable credit ratings, financial performance, liquidity and cash flow, and other market conditions. In addition, the factors affecting SCE's business will impact Edison International's ability to obtain financing. Edison International's inability to borrow funds from time to time could have a material effect on Edison International's liquidity and operations.",
+    "See \"Risks Relating to Southern California Edison Company\" below for further discussion. RISKS RELATING TO SOUTHERN CALIFORNIA EDISON COMPANY",
+    "SCE's ongoing financial results depend on its ability to recover its costs from its customers, including the costs of electricity purchased for its customers, through the rates it charges its customers as approved by the CPUC and FERC. SCE's financial results also depend on its ability to earn a reasonable return on capital, including long-term debt and equity. SCE's ability to recover its costs and earn a reasonable rate of return can be affected by many factors, including the time lag between when costs are incurred and when those costs are recovered in customers' rates and differences between the forecast or authorized costs embedded in rates (which are set on a prospective basis) and the amount of actual costs incurred."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Highlights of Operating Results",
+    "Electricity Industry Trends",
+    "Cost of Capital Application",
+    "Capital Program",
+    "Capital Expenditures",
+    "Southern California Wildfires and Mudslides",
+    "2017/2018 Wildfire/Mudslide Events",
+    "Other Wildfire Events",
+    "Impact of 2025 GRC",
+    "Years ended December 31, 2025 and 2024",
+    "2025 vs 2024",
+    "Edison International Parent and Other",
+    "Loss from Operations",
+    "Available Liquidity",
+    "Regulatory Proceedings"
+   ],
+   "paragraphs": [
+    "Edison International is the ultimate parent holding company of SCE and Edison Energy, LLC, doing business as Trio. SCE is an investor-owned public utility primarily engaged in the business of supplying and delivering electricity to an approximately 50,000 square mile area across Southern, Central and Coastal California. Trio is a global energy advisory firm providing integrated sustainability and energy solutions to commercial, industrial and institutional customers. Trio's business activities are currently not material to report as a separate business segment.",
+    "Edison International's earnings are prepared in accordance with GAAP. Management uses core earnings (loss) internally for financial planning and for analysis of performance. Core earnings (loss) are also used when communicating with investors and analysts regarding Edison International's earnings results to facilitate comparisons of the company's performance from period to period. Core earnings (loss) are a non-GAAP financial measure and may not be comparable to those of other companies. Core earnings (loss) are defined as earnings available to Edison International shareholders less non-core items. Non-core items include income or loss from discontinued operations and income or loss from significant discrete items that management does not consider representative of ongoing earnings, such as write downs, asset impairments and other income and expense related to changes in law, outcomes in tax, regulatory or legal proceedings, and exit activities, including sale of certain assets and other activities that are no longer continuing.",
+    "SCE implemented a customer-funded wildfire self-insurance program in July 2023. With the commencement of this program, Edison International and SCE no longer consider wildfire-related claim losses to be representative of ongoing earnings and treat such costs as non-core items.",
+    "2025 2024 2025 vs. 2024 Change $ 4,889 $ 1,619 $ 3,270 (430) (335) (95) 4,459 1,284 3,175 2,961 (493) 3,454",
+    "(15) — (15) (1) (162) 161 (144) (146) 2 (76) — (76) — (50) 50 1 (747) 238 (985) 1,978 (613) 2,591",
+    "(39) (3) (36) 1,939 (616) 2,555 2,911 2,232 679 (391) (332) (59) $ 2,520 $ 1,900 $ 620 1SCE and Edison International Parent and Other non-core items are tax-effected at an estimated statutory rate of approximately 28%; wildfire claims insured by EIS insurance contract are tax-effected at the federal statutory rate of 21%.",
+    "Edison International's 2025 earnings increased $3,175 million, driven by an increase in SCE's earnings of $3,270 million, partially offset by an increase in Edison International Parent and Other loss of $95 million. SCE's higher net income consisted of $679 million of higher core earnings and $2,591 million of higher non-core earnings. Edison International Parent and Other's higher net loss consisted of $59 million of higher core loss and $36 million of higher non-core loss.",
+    "In January and December 2025, the CPUC approved the TKM Settlement Agreement and the Woolsey Settlement Agreement, respectively. As a result, in the year ended 2025, SCE recorded cost recoveries through CPUC electric rates authorized under both the TKM Settlement Agreement and the Woolsey Settlement Agreement. These cost recoveries are reflected either as core earnings or non-core items, as discussed below. This classification is consistent with the original classification when the respective costs were incurred.",
+    "The increase in SCE's core earnings in 2025 was primarily due to higher revenue from the 2025 GRC final decision and a benefit to interest expense related to cost recoveries authorized under the TKM and Woolsey Settlement Agreements. The increase in Edison International Parent and Other's core loss in 2025, was primarily due to higher interest expense and preferred stock redemption loss.",
+    "Consolidated non-core items for 2025 and 2024 for Edison International included:",
+    "•2017/2018 Wildfire/Mudslide Events claims and expenses, net of recoveries:",
+    "•Net earnings recorded in 2025 related to the TKM Settlement Agreement, including ongoing legal expenses: $1,341 million ($966 million after-tax) of claim costs and $55 million ($40 million after-tax) of legal expenses authorized for recovery, partially offset by shareholder-funded wildfire mitigation expenses of $50 million ($36 million after-tax) and impairment of incremental restoration-related assets of $8 million ($6 million after-tax).",
+    "•Net earnings recorded in 2025 related to the Woolsey Settlement Agreement, including ongoing legal expenses: $1,603 million ($1,154 million after-tax) of claim costs and $35 million ($25 million after-tax) of legal expenses authorized for recovery, partially offset by impairment of incremental restoration-related assets of $10 million ($7 million after-tax)."
+   ],
+   "focus": "Highlights of Operating Results"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "愛迪生國際的子公司",
+    "SCE – 公共電力事業",
+    "Trio – 能源服務供應商",
+    "愛迪生國際作為控股公司的規範",
+    "人力資本",
+    "多元、公平與包容",
+    "員工持續性",
+    "其他監管機構",
+    "符合政府規範",
+    "費率制定程序概觀",
+    "零售費率結構與住宅費率設計",
+    "購電與燃料供應",
+    "天然氣供應",
+    "CAISO 電力市場",
+    "淨電量計費"
+   ],
+   "paragraphs": [
+    "業務 公司組織結構、產業及其他資訊",
+    "Edison International 於 1987 年成立，為 SCE（一家於 1909 年成立的加州公共電力公司）的母公司控股公司。Edison International 亦擁有 Trio，為一全球能源諮詢公司，為商業、工業及機構客戶提供整合式永續性與能源解決方案。",
+    "Edison International 的主要營業據點位於 2244 Walnut Grove Avenue, P.O. Box 976, Rosemead, California 91770，電話為 (626) 302-2222。SCE 的主要營業據點位於 2244 Walnut Grove Avenue, P.O. Box 800, Rosemead, California 91770，電話為 (626) 302-1212。",
+    "此為 Edison International 與 SCE 的合併年度報告表 10-K。Edison International 與 SCE 於 edisoninvestor.com 提供：年度報告表 10-K、季報表 10-Q、現況報告表 8-K、股東會資料及這些報告的修正案，於 Edison International 與 SCE 電子提交至 SEC 或提供給 SEC 後盡速提供。這些報告亦可於 SEC 的網站 sec.gov 查閱。Edison investor 網站上的資訊並未納入本報告中。",
+    "SCE 為一投資人所有之公共電力公司，主要業務為透過 SCE 的電力基礎設施，向南加州約 50,000 平方英里的區域供應與配送電力。SCE 在其服務區域約服務 500 萬位客戶。截至 2025 年 12 月 31 日，SCE 各類客戶總數如下：",
+    "(以千為單位) 2025 2024 2023 居民 4,672 4,618 4,576 商業 625 611 610 工業 4 5 5",
+    "公營機構 70 69 69 農業及其他 18 18 19 總計 5,389 5,321 5,279",
+    "CPUC 與 FERC 的電價解耦制度已授權 SCE 的收入與電力銷售量及購電價格脫鉤，使 SCE 有機會獲得與相關監管機構授權金額相等的收入。因此，電力銷售量對 SCE 的財務結果並無直接影響。有關 SCE 的電價制定程序資訊，請參閱 \"SCE—電價制定程序概述—CPUC\" 及 \"—FERC\"。",
+    "Trio 是一家全球能源諮詢公司，為商業、工業及機構客戶提供整合性的永續性與能源解決方案。Trio 的目標是為客戶提供能源解決方案，以應對成本、碳排放及複雜的選擇。",
+    "作為一家公共電業控股公司，Edison International 受 Public Utility Holding Company Act 的規範。Public Utility Holding Company Act 主要義務 Edison International 及其電業子公司，必須向 FERC 及 CPUC 提供其帳冊與記錄，以供訂定費用率之用。",
+    "Edison International 不屬於公共電業，其資本結構亦不受 CPUC 規範。然而，1988 年 CPUC 批准 SCE 改組為控股公司結構的決定，已對 Edison International 及其附屬公司施加某些義務。這些義務包括要求 SCE 的股息政策持續由 SCE 理事會依照 SCE 為獨立電業公司的情況下制定，且 SCE 所需的資本需求，應優先由 Edison International 及 SCE 理事會提供。CPUC 亦已制定 Affiliate Transaction Rules，其中包含若干要求，例如禁止控股公司（1）被用作提供非公開資訊給電業附屬公司的管道，以及（2）導致或協助電業違反規則，包括對其附屬公司提供優惠待遇。",
+    "截至 2025 年 12 月 31 日，Edison International 總計有 13,725 名員工（不含實習生及休假員工），其中 13,235 名為 SCE 或其子公司之全職員工。除了員工，SCE 的工作人員還包括大量支援其運作的合約工。這些合約工中包括 Safety Tier 1 Contractors。SCE 基於合約工自報的工作時數及 2,080 小時的工作年，估計 2025 年支援其運作的 Safety Tier 1 Contractors 約有 9,151 名全職等效人員。所有在 San Onofre 進行除役作業的 Safety Tier 1 Contractors 均由 DGC 管理。除了 Safety Tier 1 Contractors，SCE 亦使用其他合約工支援其輸電與配電、植被管理、資訊科技及客戶服務活動。",
+    "約有 4,600 名 SCE 員工由國際電工工會（\"IBEW\"）代表，根據到期日為 2027 年 12 月 31 日的集體談判協議。此外，2025 年 6 月，約有 1,100 名 SCE 員工同意由加利福尼亞工程師與科學家協會 Local 20（\"ESC 20\"）代表。截至 2026 年 2 月 11 日，ESC 20 與 SCE 之間的集體談判協議談判仍在進行中。SCE 的許多合約工亦為工會成員。",
+    "Edison International 在管理其業務時，著重於各種人力資本指標與目標，包括與安全、多元、公平與包容性及人力資源持續性相關的指標與目標。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果重點",
+    "電力產業趨勢",
+    "資本成本應用",
+    "資本計畫",
+    "資本支出",
+    "南加州野火與泥石流",
+    "2017/2018 野火/泥石流事件",
+    "其他野火事件",
+    "2025 年 GRC 影響",
+    "2025 年 12 月 31 日及 2024 年 12 月 31 日之年度",
+    "2025 年與 2024 年比較",
+    "Edison International 父公司及其他",
+    "營運虧損",
+    "可用流動性",
+    "監管程序"
+   ],
+   "paragraphs": [
+    "Edison International 是 SCE 及 Edison Energy, LLC 的最終母公司，並以 Trio 之名營運。SCE 是一家由投資人擁有之公共電力公司，主要從事向南加州、中部及海岸地區約 50,000 平方英里範圍內提供及配送電力之業務。Trio 是一家全球能源顧問公司，為商業、工業及機構客戶提供整合式永續與能源解決方案。Trio 目前的業務活動尚不具足夠重要性，需作為獨立業務分部報告。",
+    "Edison International 的獲利係依美國通用會計準則（GAAP）編製。管理階層內部使用核心獲利（損失）進行財務規劃及績效分析。核心獲利（損失）亦用於與投資人及分析師溝通 Edison International 獲利結果，以利比較公司各期之績效。核心獲利（損失）為非 GAAP 財務指標，可能與其他公司之指標不具可比性。核心獲利（損失）係指可供 Edison International 股東使用的獲利，扣除非核心項目。非核心項目包括已終止營運之損益，以及管理階層認為不具代表性的持續營運獲利之重大個別項目，例如減損、資產減值及其他與法律變更、稅務、監管或法律程序結果相關之收入與費用，以及退出活動，包括特定資產之出售及其他已停止營運之活動。",
+    "SCE 於 2023 年 7 月實施了一項由客戶資助的野火自保保險計畫。自該計畫啟動後，Edison International 及 SCE 不再認為與野火相關之賠償損失為持續營運獲利之代表，並將此類成本視為非核心項目。",
+    "2025 2024 2025 與 2024 變動 $ 4,889 $ 1,619 $ 3,270 (430) (335) (95) 4,459 1,284 3,175 2,961 (493) 3,454",
+    "(15) — (15) (1) (162) 161 (144) (146) 2 (76) — (76) — (50) 50 1 (747) 238 (985) 1,978 (613) 2,591",
+    "(39) (3) (36) 1,939 (616) 2,555 2,911 2,232 679 (391) (332) (59) $ 2,520 $ 1,900 $ 620 1SCE 及 Edison International 母公司與其他非核心項目，適用約 28% 的預估稅率；由 EIS 保險契約所承保之野火賠償，則適用聯邦稅率 21% 之稅率。",
+    "Edison International 2025 年獲利增加 3,175 億美元，主因 SCE 獲利增加 3,270 億美元，部分抵銷 Edison International 母公司與其他項目之損失增加 95 億美元。SCE 獲利增加係因核心獲利增加 679 億美元，以及非核心獲利增加 2,591 億美元。Edison International 母公司與其他項目之損失增加係因核心損失增加 59 億美元，以及非核心損失增加 36 億美元。",
+    "2025 年 1 月及 12 月，CPUC 通過 TKM 和 Woolsey 訴訟和解協議。因此，在 2025 年結算年度，SCE 記錄了透過 CPUC 批准之電力費用率，以反映 TKM 和 Woolsey 訴訟和解協議所允許之費用回收。這些費用回收在下文中說明，分別列為核心獲利或非核心項目。此分類與當初費用產生時之分類一致。",
+    "SCE 的核心獲利在 2025 年增加，主要係因 2025 年 GRC 最終決定帶來的營業收入增加，以及因 TKM 與 Woolsey 訴訟和解協議核准的成本回復而使利息支出受益。Edison International Parent and Other 的核心損失在 2025 年增加，主要係因利息支出增加及優先股贖回損失。",
+    "Edison International 統合非核心項目於 2025 年及 2024 年包含：",
+    "•2017/2018 野火/泥石流事件的賠償及費用，扣除賠償後淨額：",
+    "•2025 年記錄的與 TKM 訴訟和解協議相關的淨獲利，包括持續性法律費用：$1,341 億美元（稅後 $966 億美元）的賠償費用及 $55 億美元（稅後 $40 億美元）的法律費用核准回復，部分抵銷因股東資助的野火防範費用 $50 億美元（稅後 $36 億美元）及增量復原相關資產減損 $8 億美元（稅後 $6 億美元）。",
+    "•2025 年記錄的與 Woolsey 訴訟和解協議相關的淨獲利，包括持續性法律費用：$1,603 億美元（稅後 $1,154 億美元）的賠償費用及 $35 億美元（稅後 $25 億美元）的法律費用核准回復，部分抵銷因增量復原相關資產減損 $10 億美元（稅後 $7 億美元）。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "法規與立法風險",
+    "SCE 的財務表現取決於其能否從客戶處透過管制費率及時回收成本，並獲得合理的資本投資回報率。",
+    "SCE 面臨廣泛的法規監管，並有遭遇不利法規與立法決議、法規或立法決議延遲，以及適用法規或立法變更的風險。",
+    "SCE 的能源採購活動面臨法規與市場風險，包括供應量，這些風險可能對其財務狀況與流動性產生重大影響。",
+    "營運風險",
+    "SCE 可能因野火相關損失而面臨重大賠償聲請，這可能對其財務狀況與營運成果產生重大影響。",
+    "SCE 對野火的保險覆蓋可能不足。",
+    "SCE 可能無法有效執行其野火防範計畫。",
+    "SCE 將無法享有加州野火法案的所有優點，若野火基金耗盡。",
+    "如需瞭解加州野火法案的更多資訊，請參閱 \"業務—南加州野火與泥石流—恢復野火相關成本—加州野火法案。\"",
+    "氣候變遷加劇了天氣相關事件及其他自然災害，這些事件已並可能繼續對 SCE 的財務狀況及營運結果產生重大影響。",
+    "電力的發電、輸電及配電過程具有危險性，並涉及對私人財產造成損害及對 SCE 員工及一般大眾造成傷害的內在風險。",
+    "若 SCE 無法成功管理在建設、營運及維護其設施及員工過程中所涉及的內在風險，其財務狀況及營運結果可能受到重大影響。",
+    "SCE 在卡塔利娜島上供水及丙烷氣體的配送涉及對私人財產及環境造成損害，以及對員工及一般大眾造成傷害的內在風險。",
+    "融資風險",
+    "競爭及市場風險",
+    "網路安全與實體安全風險",
+    "成功攻擊 SCE 的資訊與作業技術系統及基礎建設，可能對 SCE 的營運或財務狀況造成重大影響",
+    "SCE 的安全方案無法防止所有攻擊或事件",
+    "SCE 向更網路連線的電網轉型，並增加新技術的部署，會增加敵對者可攻擊的系統數量",
+    "供應商及其他第三方可能被用來針對並攻擊 SCE",
+    "全球與區域風險",
+    "Edison International 的及 SCE 的業務活動集中於一個產業及一個區域"
+   ],
+   "paragraphs": [
+    "風險因素 風險與愛迪生國際公司相關",
+    "愛迪生國際公司的流動性及支付股息的能力取決於其取得資金的能力、銀行及資本市場的存取、愛迪生國際公司持有的稅務好處的實現，以及南加州愛迪生公司（SCE）支付股息及稅務分配款項至愛迪生國際公司的能力。愛迪生國際公司為一控股公司，因此其本身並無重大營運活動。愛迪生國際公司履行財務義務、進行投資及支付普通股股息的能力，主要取決於南加州愛迪生公司的營收與現金流，以及南加州愛迪生公司能否進行上遊分配。若南加州愛迪生公司無法進行上遊分配至愛迪生國際公司，且愛迪生國際公司無法在合理條件下取得銀行及資本市場資金，愛迪生國際公司可能無法持續支付股息給股東或履行財務義務。",
+    "在支付股息至愛迪生國際公司之前，南加州愛迪生公司必須滿足若干財務與監管義務，包括但不限於債務償還及優先股股息。此外，若加州法律對於宣告股息的條件未達成，愛迪生國際公司與南加州愛迪生公司均無法支付股息。有關加州公共事業委員會（CPUC）及加州法律與宣告股息相關的條件，請參閱「合併財務報表附註—附註 1. 重要會計政策摘要—南加州愛迪生公司股息」。南加州愛迪生公司也可能根據適用的稅務分配協議，欠愛迪生國際公司稅務分配款項。",
+    "愛迪生國際公司取得融資的能力，以及其重組債務及償付本金與利息的定期付款能力，取決於多種因素，包括其負債水平、維持可接受的信用評級、財務表現、流動性及現金流，以及其他市場條件。此外，影響南加州愛迪生公司業務的因素也會影響愛迪, 生國際公司取得融資的能力。愛迪生國際公司偶爾無法取得資金，可能會對其流動性及營運產生重大影響。",
+    "請參閱下方「與南加州愛迪生公司相關的風險」以取得進一步討論。與南加州愛迪生公司相關的風險",
+    "南加州愛迪生公司持續的財務結果取決於其能否從客戶處收回成本，包括為客戶購買電力的成本，透過其向客戶收取的費用，而這些費用已獲加州公共事業委員會（CPUC）及美國聯邦能源管理局（FERC）批准。南加州愛迪生公司的財務結果也取決於其能否獲得合理的資本回報率，包括長期債務及權益。南加州愛迪生公司收回成本及獲得合理回報率的能力，可能受到許多因素的影響，包括成本發生與收回至客戶費用之間的時間差，以及預測或核准成本嵌入費用（以前瞻性方式設定）與實際發生成本之間的差異。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,181 @@
+{
+ "ticker": "INTC",
+ "cik": "0000050863",
+ "accession": "0000050863-26-000011",
+ "form": "10-K",
+ "reportDate": "2025-12-27",
+ "sections": {
+  "business": {
+   "headings": [],
+   "paragraphs": [
+    "We are a global leader in the design and manufacturing of CPUs and other semiconductor products. Our products are designed and marketed by our Intel Products business, which includes our CCG and DCAI operating segments, and are manufactured by our Intel Foundry operating segment and third-party suppliers. Our Intel Foundry operating segment also offers semiconductor design and manufacturing services to external customers. We leverage our talent, IP, manufacturing assets and other resources to run our business and execute our strategic priorities.",
+    "We report our business results in three reportable segments: CCG, DCAI and Intel Foundry. In addition to these reportable segments, we present an \"all other\" category, which is not a reportable segment. On September 12, 2025, we completed the divestiture of 51% of Altera. As of that date, Altera's results of operations were no longer included in our consolidated or segment results. Altera's financial results were reported within our \"all other\" category for all periods presented through September 11, 2025. There are no changes to our Consolidated Financial Statements or segment results for any prior periods resulting from the Altera transaction, which is further described below.",
+    "Intel Products consists substantially of the design, development, marketing, sale, support and servicing of CPUs and related products. Intel Products is composed of two operating segments: CCG and DCAI.",
+    "CCG delivers platforms and processors that power PCs and edge devices, enabling enhanced performance, connectivity and user experiences for consumer and commercial markets, with capabilities that also support retail, industrial robotics and AI ecosystems at the edge. Our direct customers include distributors and OEMs that design and sell PCs and related devices. Our platforms and processors are included in products sold to consumers and to commercial enterprises across industries such as education, healthcare, finance and government. We address demand for desktops, notebooks and emerging AI PCs, while expanding into edge computing markets through partnerships with solution providers and independent software vendors.",
+    "The PC market in 2025 was driven by a hardware refresh cycle, increased demand for and adoption of AI PCs and expanding PC adoption outside the U.S. End-of-support for Windows 10 and aging devices from the COVID era drove PC refresh activity, while the introduction of AI PC capabilities also contributed to higher demand. Individual users sought powerful, energy-efficient systems for productivity and entertainment, while enterprises modernized fleets to improve employee productivity and security. Additionally, educational institutions increased PC adoption, particularly in international markets. We believe AI integration will remain a key differentiator, and we are aiming to address these trends through our latest and future generations of Intel Core Ultra processors designed to enable advanced AI capabilities and high performance.",
+    "CCG's primary competitor is AMD, which like us designs processors based on the x86 architecture. Client CPUs utilizing the x86 architecture remain the foundational computing platform for the majority of PCs, enabling a heterogeneous environment from which a deep and extensive software ecosystem has developed. We also face significant competition from companies that design processors based on the ARM architecture, such as Apple with its M series products, Qualcomm with its Snapdragon products and MediaTek with its Kompanio products. We operate in a highly competitive market and expect this environment to further intensify in 2026.",
+    "DCAI delivers workload-optimized solutions based upon our x86 architecture for data centers, including CPUs, AI accelerators, NICs, IPUs, and custom ASICs, enabling performance and scalability for cloud, enterprise, telecommunication and HPC environments. Our direct customers include global CSP/hyperscalers and OEMs. Our OEM customers, in turn, sell to multinational corporations, small- and medium-sized enterprises, independent hardware and software vendors, systems integrators, communications service providers and government entities. Our DCAI offerings are designed to support key workloads such as AI, analytics and networking and edge computing through a combination of hardware and software offerings.",
+    "The data center market in 2025, consistent with the last few years, was driven by rapid growth in data generation and widespread adoption of AI across industries. AI workloads, spanning enterprise data centers to edge environments, have driven increased demand for power-efficient infrastructure and low-latency performance as automation continues to expand within business operations. Organizations sought scalable, secure and energy-efficient solutions to manage rising complexity and performance needs, prioritizing GPU systems offered by certain of our competitors to handle compute-heavy generative AI workloads, often at the expense of CPU investment. In addition, competition in the data center CPU market in which we compete remained intense. We believe system-level integration of hardware and software will continue to be essential, and we intend to address these trends through product development investments in heterogeneous compute, networking, memory technologies and open standards to enable capabilities such as AI to be deployed at scale.",
+    "DCAI competitors include AMD, which utilizes the x86 architecture and competes with us across the full spectrum of CPUs, GPUs, accelerators and other products; providers of GPU systems such as NVIDIA, whose GPU systems have experienced the highest demand in the market as AI workloads have become the dominant source of compute demand; companies developing their own custom silicon, including many hyperscalers such as Amazon, Google, Meta and Microsoft; and both new entrants and incumbents developing ARM- and RISC-V-based products tailored to specific data center and AI workloads. We also compete with Broadcom in the custom ASICs development market. We expect this competitive landscape to continue to evolve and to become increasingly intense.",
+    "Intel Foundry, comprised of technology development, manufacturing and foundry services, develops new leading-edge semiconductor process technologies and advanced packaging technologies and provides manufacturing, assembly and test and advanced packaging capacity and design enablement solutions across multiple nodes and platforms. We continue to innovate and advance leading-edge semiconductor process technology and manufacturing in the U.S., where we are the only company conducting both leading-edge logic R&D and high-volume manufacturing. We believe our foundry offerings benefit from our systems-of-chips capabilities, U.S.-based manufacturing leadership and global operational scale, supported by a robust design ecosystem. At present, nearly all of our Intel Foundry business supports internal manufacturing for Intel Products; however, we are offering our Intel Foundry services to external customers and aim to develop a more significant external foundry business in the future.",
+    "In 2025, the semiconductor foundry market was shaped by rapid growth in AI and high-performance computing workloads. These applications drove demand for higher computational performance and greater power efficiency, accelerating a shift in semiconductor designs from traditional monolithic chips to disaggregated architectures built on interconnected chiplets optimized for specific workloads and integrated through advanced packaging technologies to support increasingly complex systems. At the same time, customers and manufacturers are reconfiguring supply chains to enhance resiliency.",
+    "The capital intensity of leading-edge semiconductor manufacturing has increased significantly in recent years, particularly with advanced nodes utilizing EUV lithography, limiting competition to only a few manufacturers with sufficient scale. Historically, improvements in performance, power efficiency and cost-effectiveness were achieved primarily through transistor scaling to increase density. While scaling continues at advanced nodes, manufacturers now complement it with innovations such as advanced packaging, chiplet architectures and new transistor designs to deliver additional performance and efficiency gains. We believe we are one of three companies (the others being TSMC and Samsung) investing in 2nm lithography and next-generation transistor architectures to deliver continued improvements in performance and efficiency for semiconductor logic chips. Leading-edge foundries seek to amortize these investments over extended periods, initially seeking to maximize volume and pricing on leading-edge designs that benefit from the most performant transistors and later prioritizing ease of design and cost optimization as technologies mature. We intend to address these trends through continued investment in our leading-edge process technologies, packaging innovation and ecosystem partnerships to enable next-generation compute solutions.",
+    "Intel Foundry competitors include semiconductor foundries that deliver wafers and packaging technologies from fabrication plants located primarily in Asia. Our primary competitor in leading-edge semiconductor process technology is TSMC, which holds a leading position in manufacturing at scale for the most advanced nodes. We also compete directly with Samsung in this market. Other Intel Foundry competitors include GlobalFoundries, UMC and SMIC, which primarily focus on mature process technologies.",
+    "Our \"all other\" category includes the results of operations from non-reportable segments, start-up businesses that support our initiatives, and historical results of operations from divested businesses. A summary of the largest businesses within this category for 2025, 2024 and 2023 includes:"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [],
+   "paragraphs": [
+    "The following summarizes what we believe to be the material factors that make an investment in our securities speculative or risky. When any one or more of the following risks materialize from time to time, our business, reputation, financial condition, cash flows and results of operations may be materially and adversely affected, and the trading price of our common stock could decline. These risk factors do not identify all risks that we face; we may also be affected by factors that are not presently known to us or that we currently consider to be immaterial, or by various risks that are generally applicable to most companies. Due to risks and uncertainties, known and unknown, our past financial results may not be a reliable indicator of future performance, and historical trends should not be used to anticipate results or trends in future periods. Some of the factors, events and contingencies discussed below may have occurred in the past, and while we highlight certain noteworthy examples from recent years where occurrences of such factors, events or contingencies had a material adverse effect on our business, such examples do not represent all of the instances where the factors, events or contingencies have occurred. Refer also to the other information set forth in this Form 10-K, including in the MD&A and Financial Statements and Supplemental Details sections.",
+    "We are in a highly competitive and rapidly changing industry.",
+    "The industry in which we operate is highly competitive and subject to rapid technological, geopolitical and market developments; changes in industry standards; changes in customer and end-user needs, expectations and preferences; and frequent product introductions and improvements. When we do not anticipate or respond to these developments, our competitive position can weaken and our products or technologies can become uncompetitive or obsolete. Our competitive environment has intensified in recent years, and we expect it to continue to do so in the future, including as a result of the proliferation of AI and high demand for AI-related products and services. In addition, many of our competitors have substantially greater financial resources than us. If we are not able to compete effectively, or if our external foundry strategy is unsuccessful, our financial results will be adversely affected, including through reduced revenue and gross margin, and we may be required to accelerate the write-down of the value of certain assets.",
+    "We face intense competition across our product portfolio. Our competitors include companies offering platform products, such as AMD and Qualcomm; accelerator products such as GPUs, including those offered by NVIDIA and AMD; other accelerator products such as ASICs, application-specific standard products and FPGAs; memory and storage products; connectivity and networking products; and other semiconductor products. Some of these competitors have developed or utilize competing computing architectures and platforms, such as the ARM architecture, and these architectures and platforms can produce beneficial network effects for competitors when an ecosystem of customers and application developers for such architectures and platforms grows at scale. ARM-based products and the ARM ecosystem have seen increased development and adoption in recent years. We also compete with internally developed semiconductors from OEMs, cloud service providers, and others, some of whom are customers. Some of these customers vertically integrate their own semiconductor designs with their software assets and/or customize their designs for specific computing workloads. For example, in 2020, Apple introduced PC products utilizing its own internally developed ARM-based semiconductor designs in place of our client CPUs, and we face increasing competition from Apple's products and ecosystem. More recently, a number of hyperscaler customers have increasingly developed their in-house semiconductor design capabilities and moved to using custom or semi-custom products.",
+    "Most of our competitors rely on third-party foundries, such as TSMC or Samsung, for the manufacture and assembly and test of their semiconductor components and products. Manufacturing process and assembly and test improvements introduced by such foundries have contributed, and may continue to contribute, to increasingly competitive offerings by our competitors. Our process technology roadmap to regain transistor performance and power performance competitiveness is subject to a number of risks, and we could fail to realize our goals, including due to changes in competitor technology roadmaps, changes affecting our projections regarding our technology or competing technology, and the risks inherent in the development and implementation of new semiconductor products and manufacturing process technologies. As an integrated device manufacturer, we have higher capital expenditures and R&D spending than many of our fabless competitors due to the high ongoing investments required to maintain leading-edge process technology and manufacturing capacity. We also face new sources of competition as a result of changes in industry participants through, for example, acquisitions or business collaborations, as well as new entrants, including in China, which could have a significant impact on our competitive position. For example, we could face increased competition as a result of China's programs to promote a domestic semiconductor industry and supply chains.",
+    "Our products compete based on a number of factors, including performance, energy efficiency, ease-of-integration, ease-of-use, innovative design, features, workload optimization, price, quality, reliability, security, software ecosystem and developer support, time-to-market, reliable product roadmap execution, brand recognition, customer support and customization and availability. The importance of these factors varies by product and market segment. To the extent our products do not meet our customers' requirements across these factors in an increasingly competitive landscape, our business and results of operations can be harmed. For example, we have lost market share in recent years, including in both client and data center markets, in the market for x86-based semiconductor products, and more generally in the markets for semiconductor compute products, as competitors have introduced highly competitive data center and client platform products. Our data center business has been further negatively impacted in the past few years by the significant shift of customer spend toward GPUs optimized for AI workloads, a rapidly developing and very significant compute market where we have been unsuccessful to date in becoming a meaningful participant. Additionally, to the extent we rely upon third party foundries for our products, our margins may be negatively impacted."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Dec 27, 2025",
+    "Year Ended ($ In Millions) CCG",
+    "Revenue $ 32,228 $ 16,919 $ 49,147",
+    "Operating income",
+    "Dec 28, 2024",
+    "Revenue $ 33,346 $ 16,125 $ 49,471",
+    "Dec 30, 2023",
+    "Revenue $ 32,305 $ 15,980 $ 48,285",
+    "Years Ended ($ In Millions) Dec 27, 2025 Dec 28, 2024 Dec 30, 2023",
+    "Revenue $ 3,563 $ 3,601 $ 5,463",
+    "Operating income (loss) $ 264 $ (57) $ 1,507",
+    "(In Millions, Except Per Share Amounts) December 27, 2025 December 28, 2024 December 30, 2023",
+    "Amount % of Net",
+    "Net revenue $ 52,853 100.0 % $ 53,101 100.0 % $ 54,228 100.0 %",
+    "Gross profit 18,375 34.8 % 17,345 32.7 % 21,711 40.0 %",
+    "Income (loss) before taxes 1,557 2.9 % (11,210) (21.1) % 762 1.4 %",
+    "Net income (loss) 26 — % (19,233) (36.2) % 1,675 3.1 %",
+    "Net income (loss) attributable to Intel $ (267) (0.5) % $ (18,756) (35.3) % $ 1,689 3.1 %",
+    "Earnings (loss) per share attributable to Intel—diluted",
+    "Years Ended (In Millions) Dec 27, 2025 Dec 28, 2024 Dec 30, 2023",
+    "Unrealized gains (losses) on equity investments, net (121) (473) (296)",
+    "Gains (losses) on equity investments, net $ 514 $ 242 $ 40",
+    "Interest and other, net $ 3,257 $ 226 $ 629",
+    "Years Ended ($ In Millions)",
+    "Dec 27, 2025 Dec 28, 2024 Dec 30, 2023",
+    "Net cash provided by (used for) operating activities $ 9,697 $ 8,288 $ 11,471",
+    "Net cash provided by (used for) investing activities $ (14,821) $ (18,256) $ (24,041)",
+    "Net cash provided by (used for) financing activities $ 11,587 $ 11,138 $ 8,505",
+    "(In Millions) Dec 27, 2025 Dec 28, 2024",
+    "Total debt $ 46,585 $ 50,011",
+    "Square Feet (In Millions)",
+    "States Other",
+    "Countries Total",
+    "Total facilities 37 28 65"
+   ],
+   "paragraphs": [
+    "Management's Discussion and Analysis Overview",
+    "Our MD&A begins with an overview of significant events and key developments in 2025 that meaningfully impacted our financial results and/or business. We then provide a detailed discussion of our operating segment results, followed by our consolidated results of operations and other required disclosures for 2025, 2024 and 2023. We conclude with a discussion of our critical accounting estimates.",
+    "Significant Events and Trends Impacting Results",
+    "The following discussion highlights significant events, key developments, and trends that we believe meaningfully impacted our consolidated financial results and financial position during 2025 and that we believe may continue to influence our future operating results and financial position, as well as specific matters that occurred in 2024 that impact the comparability of our results.",
+    "On August 22, 2025, we entered into a Warrant and Common Stock Agreement (U.S. Government Agreement) with the U.S. Department of Commerce (DOC) to support the continued expansion of U.S. semiconductor technology and manufacturing leadership. On August 27, 2025, pursuant to the terms of the U.S. Government Agreement:",
+    "▪we entered into an amendment to our commercial CHIPS Act agreement with the DOC removing the prior project milestone requirements and other conditions to disbursements under the agreement, as well as substantially all other requirements under the agreement other than those required by law, including those associated with the $2.3 billion previously received and recognized by us as government incentives pursuant to our government grant accounting policy;",
+    "▪we received the full amount of the accelerated disbursements remaining under the commercial CHIPS Act agreement of $5.7 billion;",
+    "▪we issued to the DOC 275 million shares of our common stock and a warrant to purchase up to 241 million shares of our common stock at $20.00 per share if we were to cease to directly or indirectly own at least 51% of our Intel Foundry business; and",
+    "▪we issued into escrow 159 million shares of our common stock, to be released to the U.S. government on a $20.00 per share basis as we receive the $3.2 billion of disbursements contemplated by our existing agreement and related performance obligations with the U.S. government under the CHIPS Act's Secure Enclave program. As of December 27, 2025, we had released 3 million Escrowed Shares upon our receipt of cash proceeds for our performance under Secure Enclave.",
+    "Our accounting conclusion for the U.S. Government Agreement as presented in our Consolidated Condensed Financial Statements that were included in our Q3 2025 Form 10-Q was subsequently adjusted based upon our consultation with the staff of the SEC on this matter, which concluded in our fourth quarter of fiscal 2025, subsequent to our Q3 2025 Form 10-Q filing date of November 6, 2025. Our results in this Annual Report on Form 10-K for the fiscal year ended December 27, 2025 are reflective of this consultation. We have concluded that such adjustments are immaterial to our Consolidated Condensed Financial Statements included in our Q3 2025 Form 10-Q. Refer to \"Note 5: Earnings (Loss) Per Share and Stockholders' Equity\" within Notes to Consolidated Financial Statements and to our Risk Factors section for additional details.",
+    "In Q3 2025, we entered into two agreements for the issuance and sale of shares of our common stock in private placements to support our strategic investments in advanced manufacturing, AI infrastructure and long-term growth initiatives:",
+    "▪on August 18, 2025, we entered into an agreement with SoftBank Group to issue and sell to SoftBank Group 87 million shares of our common stock at $23.00 per share, representing an aggregate cash purchase price of $2.0 billion. The issuance and sale of the shares was completed on September 26, 2025; and",
+    "▪on September 15, 2025, we entered into an agreement with NVIDIA to issue and sell to NVIDIA 215 million shares of our common stock at $23.28 per share for an aggregate cash purchase price of $5.0 billion. The issuance and sale of the shares was completed on December 26, 2025.",
+    "On April 14, 2025, we signed a transaction agreement with SLP VII Gryphon Aggregator, L.P., an affiliate of SLP, to sell 51% of all issued and outstanding common stock of Altera, our wholly owned subsidiary as of that date. On September 12, 2025, we completed the divestiture of 51% of Altera for net purchase consideration of $4.3 billion, consisting of $4.8 billion in cash proceeds received within the third quarter of 2025, $500 million in deferred cash proceeds payable to us no later than December 31, 2027, an offset of $400 million for cash transferred to Altera with the sale, an offset of approximately $469 million in separation and employee-related costs we have agreed to fund to the purchaser, and an offset for other direct and incremental costs incurred in connection with the sale. As of December 27, 2025, we recorded $463 million within other long-term assets for the present value of deferred consideration outstanding from SLP and $327 million and $97 million within other accrued liabilities and other long-term liabilities, respectively, for amounts payable to SLP for separation and employee-related costs that have not yet been paid."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "paragraphs": [
+    "本公司為全球在設計與製造CPU及其他半導體產品領域的領導者。我們的產品由Intel Products業務設計與行銷，包含CCG與DCAI運營分部，並由Intel Foundry運營分部及第三方供應商製造。Intel Foundry運營分部亦為外部客戶提供半導體設計與製造服務。我們透過人才、智慧財產權、製造設施及其他資源運作業務並執行戰略優先事項。",
+    "我們將業務成果分為三個應報告分部：CCG、DCAI與Intel Foundry。除了這些應報告分部，我們亦呈現一個「其他」類別，該類別並非應報告分部。2025年9月12日，我們完成出售Altera 51%股權。自該日期起，Altera的營運成果不再包含於我們的合併或分部結果中。Altera的財務結果在2025年9月11日之前的所有期間均歸類於我們的「其他」類別。Altera交易對任何前期的合併財務報表或分部結果均無影響，進一步說明如下。",
+    "Intel Products主要為設計、開發、行銷、銷售、支援與維護CPU及相關產品。Intel Products由兩個運營分部組成：CCG與DCAI。",
+    "CCG提供平台與處理器，用以驅動個人電腦與邊緣裝置，實現消費者與企業市場的增強性能、連線性與使用者體驗，其功能亦支援零售、工業機械人與邊緣AI生態系統。我們的直接客戶包括設計與銷售個人電腦及相關裝置的經銷商與原始設備製造商。我們的平台與處理器包含於銷售給消費者與各產業如教育、醫療、金融與政府的商業企業的產品中。我們應對桌上型電腦、筆記型電腦與新興AI個人電腦的需求，同時透過與解決方案供應商與獨立軟體開發商的合作，拓展邊緣計算市場。",
+    "2025 年的筆記型電腦市場受到硬體更新週期、對 AI 筆記型電腦需求與採用增加以及筆記型電腦在美國以外地區的採用擴張所驅動。Windows 10 支援終結與 COVID 期間的過時裝置促使筆記型電腦更新活動，而 AI 筆記型電腦功能的推出也促進了更高需求。個人用戶尋求強大且節能的系統用於生產力與娛樂，而企業則現代化其裝備以提高員工生產力與安全性。此外，教育機構也增加了筆記型電腦的採用，尤其是在國際市場。我們認為 AI 整合將持續是關鍵差異點，我們正透過最新及未來世代的 Intel Core Ultra 處理器來應對這些趨勢，這些處理器設計用以啟動先進的 AI 功能與高表現。",
+    "CCG 的主要競爭對手是 AMD，與我們一樣，他們設計基於 x86 架構的處理器。使用 x86 架構的客戶端 CPU 儘管仍是大多數筆記型電腦的基礎計算平台，使異質環境得以建立，並發展出深且廣的軟體生態系統。我們也面臨來自設計基於 ARM 架構處理器的公司的激烈競爭，例如 Apple 的 M 系列產品、Qualcomm 的 Snapdragon 產品以及 MediaTek 的 Kompanio 產品。我們處於高度競爭的市場中，預期此環境在 2026 年將進一步加劇。",
+    "DCAI 提供基於我們 x86 架構的負載最佳化解決方案，用於資料中心，包括 CPU、AI 加速器、NICs、IPUs 和客製化 ASICs，以實現雲端、企業、電信與 HPC 環境的表現與可擴展性。我們的直接客戶包括全球 CSP/超規模資料中心與 OEM。我們的 OEM 客戶則轉售給跨國企業、中小型企業、獨立硬體與軟體供應商、系統整合商、電信服務供應商與政府機構。我們的 DCAI 提供方案設計用以透過硬體與軟體的組合支援關鍵負載，例如 AI、分析與網路及邊緣計算。",
+    "2025 年的資料中心市場，與過去幾年一致，受到資料生成快速成長與 AI 在各產業廣泛採用所驅動。跨越企業資料中心至邊緣環境的 AI 負載，已驅動對節能基礎設施與低延遲表現的更高需求，隨著自動化在商業運作中持續擴張。機構尋求可擴展、安全且節能的解決方案，以管理日益增加的複雜性與表現需求，優先採用某些競爭對手提供的 GPU 系統來處理計算密集型的生成 AI 負載，往往以 CPU 投資為代價。此外，我們所處的資料中心 CPU 市場競爭依然激烈。我們認為硬體與軟體的系統級整合將持續是關鍵，我們預計透過在異質計算、網路、記憶體技術與開放標準上的產品開發投資來應對這些趨勢，以實現如 AI 等功能的大規模部署。",
+    "DCAI 競爭對手包括 AMD，其使用 x86 架構，並在 CPU、GPU、加速器及其他產品的全範疇與我們競爭；提供 GPU 系統的供應商，例如 NVIDIA，其 GPU 系統在市場上經歷最高的需求，因 AI 工作負載已成為計算需求的主要來源；開發自有客製化晶片的公司，包括許多超大型資料中心，例如 Amazon、Google、Meta 和 Microsoft；以及開發基於 ARM 和 RISC-V 的產品以符合特定資料中心和 AI 工作負載的新進企業與現有企業。我們也與 Broadcom 在客製化 ASIC 開發市場競爭。我們預期此競爭環境將持續演化並變得更加激烈。",
+    "Intel Foundry，包含技術開發、製造與代工服務，開發新的先進半導體製程技術與先進封裝技術，並提供製造、組裝與測試及先進封裝容量與設計啟動解決方案，涵蓋多種節點與平台。我們持續創新並進步先進半導體製程技術與製造，在美國，我們是唯一同時進行先進邏輯研發與高產能製造的公司。我們相信我們的代工服務受益於我們的系統晶片能力、美國製造領導地位與全球運營規模，並由強大的設計生態系統支撐。目前，我們幾乎所有的 Intel Foundry 事業支援英特爾產品的內部製造；然而，我們正向外部客戶提供 Intel Foundry 服務，並計畫未來發展更顯著的外部代工業務。",
+    "2025 年，半導體代工市場受到 AI 與高性能計算工作負載快速成長的影響。這些應用驅動對更高計算效能與更大電力效率的需求，加速了半導體設計從傳統單一晶片向拆分架構的轉變，此架構基於互連的晶片組件，針對特定工作負載進行優化，並透過先進封裝技術整合，以支援日益複雜的系統。同時，客戶與製造商正在重新配置供應鏈以增強韌性。",
+    "先進半導體製造的資本密集度在近年顯著增加，特別是使用 EUV 光刻技術的先進節點，限制競爭僅限於規模足夠的少數製造商。歷史上，性能、電力效率與成本效益的改進主要透過晶體管縮小以增加密度來實現。雖然在先進節點持續縮小，製造商現在透過先進封裝、晶片組件架構與新晶體管設計等創新，來提供額外的性能與效率提升。我們相信我們是三家投資 2nm 光刻技術與下一代晶體管架構的公司之一（其他兩家為 TSMC 與 Samsung），以實現半導體邏輯晶片持續的性能與效率改進。先進代工廠試圖將這些投資分攤至長時期，初期致力於最大化先進設計的產能與價格，因這些設計受益於最優化的晶體管，隨後則優先考慮設計易用性與成本優化，隨著技術成熟。我們計畫透過持續投資於先進製程技術、封裝創新與生態系統合作夥伴關係，來應對這些趨勢，以實現下一代計算解決方案。",
+    "Intel Foundry 競爭對手包括提供晶圓與封裝技術的半導體代工廠，這些代工廠主要位於亞洲。我們在先進半導體製程技術的主要競爭對手是 TSMC，其在最先進節點的大規模製造方面處於領先地位。我們也在此市場與 Samsung 直接競爭。其他 Intel Foundry 競爭對手包括 GlobalFoundries、UMC 與 SMIC，這些公司主要專注於成熟製程技術。",
+    "我們的 \"其他業務\" 類別包括非應報告分部的營運結果、支援我們計畫的起動企業，以及已出售企業的歷史營運結果。2025 年、2024 年與 2023 年此類別中最大的業務概要包括："
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "2025年12月27日",
+    "會計年度結算（單位：千萬美元）CCG",
+    "營業收入 $ 32,228 $ 16,919 $ 49,147",
+    "營運收入",
+    "2024年12月28日",
+    "營業收入 $ 33,346 $ 16,125 $ 49,471",
+    "2023年12月30日",
+    "營業收入 $ 32,305 $ 15,980 $ 48,285",
+    "會計年度結算 ($ 萬美元) 2025年12月27日 2024年12月28日 2023年12月30日",
+    "營業收入 $ 3,563 $ 3,601 $ 5,463",
+    "營運收入 (損失) $ 264 $ (57) $ 1,507",
+    "(萬美元, 除每股金額外) 2025年12月27日 2024年12月28日 2023年12月30日",
+    "金額 % 的淨銷售額",
+    "淨銷售額 $ 52,853 100.0 % $ 53,101 100.0 % $ 54,228 100.0 %",
+    "毛利 18,375 34.8 % 17,345 32.7 % 21,711 40.0 %",
+    "所得 (損失) 前 1,557 2.9 % (11,210) (21.1) % 762 1.4 %",
+    "淨收入（損失） 26 — % (19,233) (36.2) % 1,675 3.1 %",
+    "淨收入（損失）歸屬於 Intel $ (267) (0.5) % $ (18,756) (35.3) % $ 1,689 3.1 %",
+    "歸屬於 Intel 的每股盈虧（稀釋後）",
+    "會計年度結算（以千萬為單位） 2025 年 12 月 27 日 2024 年 12 月 28 日 2023 年 12 月 30 日",
+    "權益投資未實現損益（淨額） (121) (473) (296)",
+    "權益投資損益（淨額） $ 514 $ 242 $ 40",
+    "利息及其他，淨額 $ 3,257 $ 226 $ 629",
+    "會計年度結算（以千萬為單位）",
+    "2025年12月27日 2024年12月28日 2023年12月30日",
+    "營運活動所提供之淨現金（使用於營運活動之淨現金） $ 9,697 $ 8,288 $ 11,471",
+    "投資活動所提供之淨現金（使用於投資活動之淨現金） $ (14,821) $ (18,256) $ (24,041)",
+    "籌資活動所提供之淨現金（使用於籌資活動之淨現金） $ 11,587 $ 11,138 $ 8,505",
+    "(以千萬為單位) 2025年12月27日 2024年12月28日",
+    "總負債 $ 46,585 $ 50,011",
+    "平方英呎 (以千萬為單位)",
+    "各州 其他",
+    "{'original': 'Countries Total', 'translated': '國家總計'}",
+    "{'original': 'Total facilities 37 28 65', 'translated': '總設施 37 28 65'}"
+   ],
+   "paragraphs": [
+    "管理層討論與分析概覽",
+    "我們的MD&A 以2025年對我們財務結果及/或業務有重大影響的重要事件與關鍵發展為開頭。我們隨後會詳細說明我們各營運分部的結果，再說明我們整體營運結果及其他2025、2024及2023年所需的揭露資訊。最後，我們會討論我們重要的會計估計事項。",
+    "影響結果的重要事件與趨勢",
+    "以下討論重點說明我們認為對2025年整體財務結果與財務狀況有重大影響的重要事件、關鍵發展與趨勢，以及我們認為可能持續影響我們未來營運結果與財務狀況的事項，同時也說明2024年發生的特定事件對我們結果可比性所造成影響。",
+    "2025年8月22日，我們與美國商務部（DOC）簽訂了認股權證與普通股協議（美國政府協議），以支持美國半導體技術與製造領導地位的持續擴張。2025年8月27日，根據美國政府協議的條款：",
+    "▪我們與DOC簽訂了商業CHIPS法案協議的修正案，刪除先前的專案里程碑要求及其他發放款項的條件，以及協議下幾乎所有其他要求，除了法律所要求的條件，包括與我們先前已收到並根據政府補助金會計政策認列的23億美元相關的條件；",
+    "▪我們收到了商業CHIPS法案協議下剩餘加速發放款項的全部金額，總計為57億美元；",
+    "▪我們向DOC發行了2.75億股本公司普通股，並發行認股權證，允許以每股20.00美元的價格購買最多2.41億股本公司普通股，條件為我們若不再直接或間接擁有至少51%的英特爾製造業務。",
+    "▪我們已發行159 million shares 的普通股至託管帳戶，將根據我們收到$3.2 billion 的撥款，依每股$20.00 的價格釋放給美國政府，此為我們現有協議及與美國政府在CHIPS Act 的Secure Enclave 計畫下相關履行義務所預期的撥款。截至2025年12月27日，我們已因收到現金款項以履行Secure Enclave 的義務，釋放3 million Escrowed Shares。",
+    "我們在財務報表中對於美國政府協議的會計結論，包含在2025年第三季的Form 10-Q 應計財務摘要中，經與SEC 員工諮詢後，於2025會計年度第四季進行調整，此調整是在2025年11月6日提交Q3 2025 Form 10-Q 後進行。本年度報表中2025會計年度截至2025年12月27日的結果已反映此諮詢結果。我們已結論此調整對我們包含在Q3 2025 Form 10-Q 中的財務摘要無重大影響。請參閱「附註5：每股盈虧及股東權益」及「風險因素」部分以取得更多細節。",
+    "在2025年第三季，我們簽訂兩份協議，用以發行及銷售普通股，以支持我們在先進製造、AI 基礎建設及長期成長計畫的戰略投資：",
+    "▪於2025年8月18日，我們與SoftBank Group 簽訂協議，發行及銷售87 million shares 的普通股給SoftBank Group，每股$23.00，總計現金購股價為$20.00 billion。股份發行及銷售於2025年9月26日完成；且",
+    "▪於2025年9月15日，我們與NVIDIA 簽訂協議，發行及銷售215 million shares 的普通股給NVIDIA，每股$23.28，總計現金購股價為$5.0 billion。股份發行及銷售於2025年12月26日完成。",
+    "於2025年4月14日，我們與SLP VII Gryphon Aggregator, L.P.（為SLP 的附屬公司）簽訂交易協議，出售我們100% 持有的子公司Altera 所有已發行及流通普通股的51%。於2025年9月12日，我們完成出售Altera 的51%，總計現金購股價為$4.3 billion，包含2025年第三季收到的$4.8 billion 現金款項、$500 million 預計於2027年12月31日前支付的延後現金款項、$400 million 現金轉移至Altera 的抵銷項目、約$469 million 的分離及員工相關費用，我們同意支付給買方、以及其他直接及追加費用的抵銷項目。截至2025年12月27日，我們於其他長期資產中計提$463 million 作為來自SLP 的延後考慮金的現值，並於其他應付帳款及其他長期負債中計提$327 million 及$97 million，作為尚未支付給SLP 的分離及員工相關費用。"
+   ]
+  },
+  "risk": {
+   "paragraphs": [
+    "以下為我們認為對投資本公司證券具有高度風險或投機性的重要因素總結。當任何一個或數個風險因素時常發生時，可能對本公司業務、聲譽、財務狀況、現金流及營運成果造成重大且不利的影響，並可能導致本公司普通股的交易價格下跌。這些風險因素並未涵蓋本公司所面臨的所有風險；本公司也可能受到目前尚未知悉或目前認為不具重大影響的因素，或普遍適用於大多數公司的風險所影響。由於存在風險與不確定性，已知或未知的因素，本公司過去的財務表現可能無法作為未來表現的可靠指標，且歷史趨勢亦不應用來預測未來期間的結果或趨勢。部分在下文中討論的因素、事件及潛在情況可能已發生於過去，而我們強調某些近期年份中，這些因素、事件或潛在情況對本公司業務造成重大不利影響的值得注意範例，但這些範例並不代表所有這些因素、事件或潛在情況發生的案例。請同時參閱本Form 10-K中其他資訊，包括在MD&A與財務資料及補充說明部分。",
+    "本公司所處的產業為高度競爭且快速變動的產業。",
+    "本公司所處的產業為高度競爭，且受到快速技術、地緣政治與市場發展的影響；產業標準的變更；客戶與終端使用者需求、期望與偏好的改變；以及頻繁的新產品推出與改進。當我們未能預期或回應這些發展時，我們的競爭地位可能削弱，且我們的產品或技術可能變得缺乏競爭力或過時。我們的競爭環境在近年來已顯著加劇，且我們預期未來也會持續如此，包括因人工智慧（AI）的普及與對AI相關產品與服務的高需求所致。此外，許多競爭對手擁有遠高於我們的財務資源。若我們無法有效競爭，或若我們的外部晶圓代工策略失敗，將對我們的財務表現造成不利影響，包括透過營收與毛利率的減少，且我們可能需要加速記提某些資產的價值減損。",
+    "我們在產品組閤中面臨強烈的競爭。競爭對手包括提供平台產品的公司，例如AMD與Qualcomm；加速器產品，例如GPU，包括NVIDIA與AMD所提供的GPU；其他加速器產品，例如ASICs、應用特定標準產品與FPGAs；記憶體與儲存產品；連接與網路產品；以及其他半導體產品。這些競爭對手中的一些已開發或使用競爭的計算架構與平台，例如ARM架構，這些架構與平台在客戶與應用開發者生態系規模擴張時，可能對競爭對手產生有益的網路效應。ARM-based產品與ARM生態系在近年來已見增加的開發與採用。我們也與OEMs、雲端服務供應商及其他公司內建的半導體競爭，其中一些為我們的客戶。這些客戶中的一些已垂直整合其自身的半導體設計與軟體資產，或為特定計算工作負載客製化其設計。例如，在2020年，Apple推出了使用其自身內建ARM-based半導體設計的PC產品，取代我們的客戶CPU，我們面臨來自Apple產品與生態系的競爭壓力持續增加。最近，一些超大型雲端客戶已 increasingly 發展其內部半導體設計能力，並轉向使用客製或半客製產品。",
+    "我們的大多數競爭對手依賴第三方晶圓代工廠，例如TSMC或Samsung，來製造與組裝與測試其半導體零組件與產品。這些晶圓代工廠所引進的製造流程與組裝與測試改進，已貢獻並可能持續貢獻於競爭對手日益強勁的產品。我們的製程技術路線圖以恢復晶體管性能與電力性能的競爭力為目標，但此目標面臨許多風險，我們可能無法實現目標，包括因競爭對手技術路線圖的變更、影響我們對技術或競爭技術預測的變動，以及開發與實施新半導體產品與製造流程技術所固有的風險。作為整合式設備製造商，我們的資本支出與研發支出高於許多無晶圓廠競爭對手，這是因維持領先製程技術與製造能力所需的高持續投資所致。我們也因產業參與者的變動，例如透過收購或商業合作，以及新進企業，包括中國，而面臨新的競爭來源，這些企業可能對我們的競爭地位產生重大影響。例如，我們可能因中國推動本土半導體產業與供應鏈的計畫而面臨增加的競爭。",
+    "我們的產品競爭基於多種因素，包括性能、能源效率、易整合性、易用性、創新設計、功能、工作負載最佳化、價格、品質、可靠性、安全性、軟體生態系與開發者支援、上市時間、可靠產品路線圖執行、品牌認知度、客戶支援與客製化與可取得性。這些因素的重要性因產品與市場區段而異。若我們的產品在這些因素上未能符合客戶需求，尤其在日益激烈的競爭環境中，將可能對我們的業務與營運成果造成損害。例如，我們近年來已失去市場佔有率，包括在客戶與資料中心市場，以及x86-based半導體產品市場，更廣泛地在半導體計算產品市場，因競爭對手已推出高度競爭的資料中心與客戶平台產品。我們的資料中心業務在過去幾年進一步受到影響，因客戶支出大幅轉向針對AI工作負載優化的GPU，這是一個快速發展且非常重要的計算市場，而我們至今尚未成功成為其中的重要參與者。此外，若我們依賴第三方晶圓代工廠製造產品，我們的毛利率可能受到負面影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

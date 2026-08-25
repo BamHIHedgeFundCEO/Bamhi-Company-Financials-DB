@@ -477,7 +477,11 @@ def run_batch(targets: list, args, engine, tag: str) -> None:
     skipped = failed = ok = empty = 0
     t0 = time.time()
     for i, t in enumerate(targets, 1):
-        if not args.redo and already_done(t):
+        # --recheck：不吃 pending 快照的快速路徑，一律重新抽一次章節。
+        # 抽取器改進之後（例如新支援了頁首式標題）章節會變多，但 already_done
+        # 比對的是上一輪存下來的快照，會誤判成「已翻完」而跳過。
+        # 重抽之後 emit 仍會把既有譯文接過去，所以只有新增的條目要翻。
+        if not args.redo and not args.recheck and already_done(t):
             skipped += 1
             continue
         el = time.time() - t0
@@ -519,6 +523,8 @@ def main() -> None:
     ap.add_argument("--all", action="store_true", help="翻全母體（羅素 3000）")
     ap.add_argument("--jobs", type=int, default=2, help="同時送幾個批次給模型（預設 2）")
     ap.add_argument("--redo", action="store_true", help="已翻過的也重翻（預設跳過）")
+    ap.add_argument("--recheck", action="store_true",
+                    help="重新抽章節再比對（抽取器改進後用；既有譯文會保留）")
     ap.add_argument("--apply", help="把 pending 檔的譯文寫進 config/narrative_zh/")
     ap.add_argument("--apply-all", action="store_true", help="套用 translate_out/ 下全部")
     ap.add_argument("--api", action="store_true",

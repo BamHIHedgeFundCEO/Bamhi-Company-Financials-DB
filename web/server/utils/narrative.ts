@@ -42,6 +42,8 @@ export interface Section {
   headingsZh?: string[]
   /** MD&A 專用：節錄的是哪一個小節（例如 "Executive Overview"）。null = 退回開頭幾段 */
   focus?: string | null
+  /** true = 這份 10-K 沒有 `Item N.` 錨點，是靠標題比對 + 內容驗證救回來的 */
+  viaTitle?: boolean
   /** 原章節的字元數（節錄前）—— 讓讀者知道自己看的是多大一份的節錄 */
   chars: number
   truncated: boolean
@@ -115,8 +117,20 @@ interface ItemSpec {
   missingHint?: string
 }
 
+/**
+ * `Item 1A. Risk Factors` 這個錨點，各家中間塞的東西不一樣：
+ *   AIG   `ITEM 1A | Risk Factors`      直線
+ *   LVS   `ITEM 1A. — RISK FACTORS`     句點加破折號
+ *   AMCR  `Item 1A. - Risk Factors`     句點加連字號
+ * 原本只允許「零或一個分隔字元」，這三家全部比對不到、而且不會報錯。
+ * 改成「零或多個」之後這幾家一次修好，且七份已知正確的年報逐字元不變。
+ */
+const SEP = '[\\s.．:：\\-–—|]*'
 const ITEM = (n: string, title: string) =>
-  new RegExp(`item\\s*${n}\\s*[.．:：\\-–—]?\\s*${title}`, 'gi')
+  new RegExp(`item${SEP}${n}${SEP}${title}`, 'gi')
+
+/** 有些公司把章節標題寫成 `Part I. Item 1A. Risk Factors`，前綴不算「行中引用」 */
+const PART_PREFIX = /^part\s+[ivx]+\s*[.．:：\-–—|]*$/i
 
 const SPECS: ItemSpec[] = [
   {
@@ -158,7 +172,8 @@ function headingStarts(re: RegExp, text: string): number[] {
     const i = m.index
     if (re.lastIndex === m.index) re.lastIndex++
     const ls = text.lastIndexOf('\n', i) + 1
-    if (text.slice(ls, i).split(B).join('').trim()) continue
+    const pre = text.slice(ls, i).split(B).join('').trim()
+    if (pre && !PART_PREFIX.test(pre)) continue
     const after = text.slice(m.index + m[0].length, m.index + m[0].length + 3).split(B).join('')
     if (['”', '"', ',', ';'].includes(after.slice(0, 1))) continue
     let le = text.indexOf('\n', m.index + m[0].length)
@@ -181,6 +196,64 @@ export function locateSection(text: string, spec: ItemSpec): { from: number; to:
   }
   // 短於 1200 字的一定是目錄或交叉引用，不是章節本文
   return best && best.to - best.from >= 1200 ? best : null
+}
+
+/* ── 交叉索引式 10-K 的退路（只做風險章節）──────────────────
+   有一類 10-K 正文完全沒有 `Item N.`：最前面放一張「項次 → 頁碼」對照表，
+   內文標題是公司自己的寫法（Intel、摩根士丹利、花旗、麥當勞、漢威都是這樣，
+   Intel 自己在文件裡寫明「the order and presentation of content ... differ
+   from the traditional SEC Form 10-K format」）。
+
+   對這類文件只救**風險章節**，而且**要通過內容驗證才收**。原因是驗證器只有
+   風險段落分得開：拿七份已知抽對的年報量「風險用語密度」，風險段 0.82–1.92、
+   業務段 0.00–0.56、MD&A 段 0.10–0.41，門檻 0.75 可以完全分開；
+   業務與 MD&A 的密度重疊，驗不了就不收 —— 半對的章節比沒有更糟。 */
+const RISK_TITLE = /^risk\s*factors$/i
+const RISK_END = [
+  /^unresolved\s+staff\s+comments$/i,
+  /^cybersecurity$/i,
+  /^propert(y|ies)$/i,
+  /^legal\s+proceedings$/i,
+  /^(quantitative|management[’']?s?\s+discussion)/i,
+]
+const RISK_WORDS = /(adversely affect|materially adverse|could harm|may be harmed|risks?\b|uncertaint)/gi
+/** 章節不可能佔整份 10-K 的三成以上 —— 超過就是抓到跨章節的一大段 */
+const MAX_SHARE = 0.30
+const MIN_RISK_DENSITY = 0.75
+
+/** 整行等於某個標題、且該行是粗體的位置 */
+function titleLines(text: string, re: RegExp): number[] {
+  const out: number[] = []
+  let pos = 0
+  for (const line of text.split('\n')) {
+    const bare = line.split(B).join('').trim()
+    if (bare && line.includes(B) && re.test(bare)) out.push(pos)
+    pos += line.length + 1
+  }
+  return out
+}
+
+function riskDensity(seg: string): number {
+  return (seg.match(RISK_WORDS)?.length ?? 0) / Math.max(1, seg.length / 1000)
+}
+
+export function locateRiskByTitle(text: string): { from: number; to: number } | null {
+  const starts = titleLines(text, RISK_TITLE)
+  if (!starts.length) return null
+  const ends = RISK_END.flatMap((r) => titleLines(text, r)).sort((a, b) => a - b)
+  const limit = text.length * MAX_SHARE
+  const cands: { from: number; to: number }[] = []
+  for (const from of starts) {
+    const to = ends.find((x) => x > from + 30) ?? text.length
+    if (to - from >= 1200 && to - from <= limit) cands.push({ from, to })
+  }
+  cands.sort((a, b) => (b.to - b.from) - (a.to - a.from))
+  for (const c of cands) {
+    if (riskDensity(text.slice(c.from, Math.min(c.to, c.from + MAX_CHARS))) >= MIN_RISK_DENSITY) {
+      return c
+    }
+  }
+  return null
 }
 
 const MAX_CHARS = 60000
@@ -307,7 +380,7 @@ async function attachZh(n: Narrative, cik10: string): Promise<void> {
 }
 
 export async function getNarrative(cik10: string, f: FilingMeta): Promise<Narrative> {
-  const key = `narr/v5/${cik10}/${f.accession}.json`
+  const key = `narr/v6/${cik10}/${f.accession}.json`
   const hit = await cacheGet<Narrative>(key)
   if (hit) {
     // 譯文不進 Blob 快取 —— 它會在快取之後才補上，每次都要重新掛
@@ -321,7 +394,12 @@ export async function getNarrative(cik10: string, f: FilingMeta): Promise<Narrat
     const html = await secFetchTextLimited(f.url, MAX_HTML)
     const text = htmlToText(html)
     for (const spec of SPECS) {
-      const loc = locateSection(text, spec)
+      let loc = locateSection(text, spec)
+      let viaTitle = false
+      if (!loc && spec.id === 'risk') {
+        loc = locateRiskByTitle(text)
+        viaTitle = !!loc
+      }
       if (!loc) {
         notes.push(`${spec.anchor}：在這份 ${f.form} 裡找不到可辨識的章節標題。${spec.missingHint ?? ''}`)
         continue
@@ -330,7 +408,7 @@ export async function getNarrative(cik10: string, f: FilingMeta): Promise<Narrat
       const { paragraphs, headings, focus } = paragraphize(raw, spec.id)
       sections.push({
         id: spec.id, anchor: spec.anchor, zh: spec.zh,
-        paragraphs, headings, focus,
+        paragraphs, headings, focus, viaTitle,
         chars: loc.to - loc.from,
         truncated: true,
       })

@@ -44,6 +44,9 @@ export interface FundsResult {
   pendingIn?: number
   pendingOut?: number
   reorgs?: number
+  /** 重組配對是多對一：`reorgs` 是配對數（＝移入的新主體數），
+   *  `reorgsOut` 是被移出的舊主體數。上季家數的對帳要用後者 */
+  reorgsOut?: number
   /** 本期資料是否已經從 EDGAR 申報索引即時補過（否則會落後到批次資料集的發布時程） */
   live?: boolean
   filedAny?: number

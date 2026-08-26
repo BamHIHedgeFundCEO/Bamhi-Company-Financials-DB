@@ -134,6 +134,21 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
           </div>
         </section>
 
+        <!-- 對帳：這些數字必須自己加得起來 -->
+        <p class="recon">
+          <b>對帳</b>　
+          本季 {{ nf.format(data.holders) }}
+          ＝ 增持 {{ data.increased }} ＋ 減持 {{ data.decreased }} ＋ 不變 {{ data.unchanged }}
+          ＋ 建倉 {{ data.opened }} ＋ 尚未申報 {{ data.pendingIn }}
+          <template v-if="data.reorgs">＋ 重組移入 {{ data.reorgs }}</template>
+          <br>
+          <span class="pad" />
+          上季 {{ nf.format(data.holdersPrev) }}
+          ＝ 增持 {{ data.increased }} ＋ 減持 {{ data.decreased }} ＋ 不變 {{ data.unchanged }}
+          ＋ 清倉 {{ data.closed }} ＋ 尚未申報 {{ data.pendingOut }}
+          <template v-if="data.reorgsOut">＋ 重組移出 {{ data.reorgsOut }}</template>
+        </p>
+
         <!-- 申報主體重組 -->
         <section v-if="data.reorgs" class="cardblock warn">
           <div class="blockhead">
@@ -243,6 +258,10 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
 .caution { font-size: 12.5px; color: var(--ink-2); border-left: 2px solid var(--sig);
   padding-left: 10px; margin-bottom: 18px; line-height: 1.8; }
 .caution.vintage { border-left-color: var(--rule); margin-top: -8px; }
+.recon { font-family: var(--mono); font-size: 11px; color: var(--ink-3); line-height: 2;
+  border: 1px solid var(--rule); padding: 8px 11px; margin-bottom: 18px; }
+.recon b { color: var(--ink-2); font-weight: 600; }
+.recon .pad { display: inline-block; width: 34px; }
 .caution .mono { font-family: var(--mono); font-size: 11.5px; }
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px;
   margin-bottom: 20px; }

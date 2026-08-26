@@ -696,6 +696,10 @@ def compare(cur: dict, prev: dict, cusips: set, names: dict,
     split = detect_split(c, p, yahoo)
     if split != 1.0:
         p = {k: (sh * split, val) for k, (sh, val) in p.items()}
+    # 正規化之後不能再用「完全相等」判斷持股不變：倍數是 1/3、1.0371 這種非整數的話，
+    # 浮點相乘不會剛好等於原值，沒動的人會全部被誤分到增持或減持
+    # （實測 DD 與 PHG 的「持股不變」直接變成 0 家）。給 0.2% 的相對容差
+    tol = 0.002 if split != 1.0 else 0.0
     nm = lambda k: names.get(k, k)
     inc, dec, new, exited, flat = [], [], [], [], 0
     for k, (sh, val) in c.items():
@@ -703,6 +707,8 @@ def compare(cur: dict, prev: dict, cusips: set, names: dict,
             new.append({"cik": k, "name": nm(k), "shares": sh, "value": val})
         else:
             d = sh - p[k][0]
+            if abs(d) <= p[k][0] * tol:
+                d = 0.0
             if d > 0:
                 inc.append({"cik": k, "name": nm(k), "shares": sh, "delta": d, "value": val})
             elif d < 0:
@@ -740,7 +746,11 @@ def compare(cur: dict, prev: dict, cusips: set, names: dict,
         "increased": len(inc), "decreased": len(dec),
         "opened": len(opened), "closed": len(closed), "unchanged": flat,
         "pendingIn": len(pend_in), "pendingOut": len(pend_out),
+        # 配對是**多對一**（一個舊主體可以拆成好幾個新主體），所以「移出的家數」
+        # 比「配對數」少。上季家數的恆等式要用 reorgsOut，用配對數會多算
+        # ——實測 582 檔對不起來，AAPL 差 6
         "reorgs": len(reorg),
+        "reorgsOut": len(moved_out),
         "topOpened": top(opened, lambda x: x["value"]),
         "topClosed": top(closed, lambda x: x["value"]),
         "topIncreased": top(inc, lambda x: x["delta"]),

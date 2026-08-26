@@ -1,0 +1,223 @@
+{
+ "ticker": "CHRD",
+ "cik": "0001486159",
+ "accession": "0001486159-26-000005",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Business Strategy",
+    "Competitive Strengths",
+    "Exploration and Production Operations",
+    "Estimated net proved reserves",
+    "At December 31,",
+    "(In millions)",
+    "Production, price and cost history",
+    "Year Ended December 31, 2025 2024 2023 56,500 48,479 36,427 19,149 16,338 13,047 151,903 122,193 82,953 100,966 85,182 63,300 276,620 232,737 173,425 $ 62.78 $ 73.67 $ 77.85 (1) (per Bbl)",
+    "Undeveloped acres expiring",
+    "Productive wells",
+    "Drilling and completion activity",
+    "Year ended December 31,",
+    "Gross Net Gross Net Gross Net",
+    "Description of properties",
+    "Delivery commitments",
+    "Title to Properties",
+    "Regulation of production",
+    "Regulation of transportation of oil",
+    "Regulation of transportation of natural gas",
+    "Regulation of sales of crude oil, NGL, and natural gas",
+    "Environmental and occupational health and safety regulation"
+   ],
+   "paragraphs": [
+    "Chord Energy Corporation, a Delaware Corporation (together with our consolidated subsidiaries, the \"Company,\" \"Chord,\" \"we,\" \"us,\" or \"our\"), is an independent exploration and production (\"E&P\") company engaged in the acquisition, exploration, development and production of crude oil, NGL and natural gas primarily in the Williston Basin with limited non-operated interests in the Marcellus Shale. Our mission is to responsibly produce hydrocarbons while exercising capital discipline, operating efficiently, improving continuously and providing a fun and rewarding environment for our employees. We are ideally positioned to generate strong free cash flow and enhance return of capital, while being responsible stewards of the communities and environment where we operate.",
+    "On May 31, 2024, we acquired Enerplus Corporation, a corporation existing under the laws of the Province of Alberta, Canada (\"Enerplus\") in a stock-and-cash transaction (such transaction, the \"Arrangement\"). The results of operations and reserves data presented herein report the results of legacy Chord from January 1, 2023 through May 30, 2024 and the results of Chord (including legacy Enerplus) from May 31, 2024 through December 31, 2025, unless otherwise noted.",
+    "As of December 31, 2025, we had 1,302,921 net leasehold acres in the Williston Basin, approximately all of which is held by production. We are currently exploiting significant resource potential from the Middle Bakken and Three Forks formations, which are present across a substantial portion of our acreage. We believe the locations, size and concentration of our acreage in the Williston Basin creates an opportunity for us to achieve cost, recovery and production efficiencies through the development of our project inventory. Our management team has a proven record of accomplishment in identifying, acquiring and executing large, repeatable development drilling programs and has substantial experience in the Williston Basin.",
+    "As of December 31, 2025, we had 5,025 gross (3,937.3 net) operated producing wells. Our working interest for producing wells averaged 78% in the wells we operate. During the year ended December 31, 2025, we had average daily production of 276,620 net Boepd. As of December 31, 2025, Netherland, Sewell & Associates, Inc. (\"NSAI\"), our independent reserve engineers, estimated our net proved reserves to be 917.5 MMBoe, of which 69% were classified as proved developed and 56% were crude oil.",
+    "Our operational and financial strategy is focused on rigorous capital discipline and generating significant, sustainable free cash flow by executing on the following strategic priorities:",
+    "•Maximize returns. We intend to efficiently execute our development program and optimize capital allocation, while evaluating our performance and focusing on continuous improvement. We have established a strong capital allocation framework with the objective of balancing stockholder returns and reinvestment of capital. We are focused on conservative capital allocation, delivering low reinvestment rates and returning significant capital to stockholders at mid-cycle oil prices. Since introducing our return of capital program in 2021, we have declared an aggregate amount of cash dividends to our stockholders of $61.19 per share of common stock and repurchased an aggregate amount of $1.3 billion shares of common stock.",
+    "Our scale and high-quality assets in the Williston Basin allow us to generate significant, sustainable cash flow to support maximizing returns at mid-cycle oil prices. We expect that our business strategy will continue to provide sizable cash flow generation which will enable us to return capital to our stockholders and continue to pursue acquisitions that add to or lengthen our inventory, while maintaining a strong balance sheet. We have a return of capital program designed to provide peer-leading, sustainable stockholder returns. The return of capital plan includes a base cash dividend of $1.30 per share per quarter ($5.20 per share annualized) and a $1 billion share repurchase program, which the Board of Directors authorized during the third quarter of 2025.",
+    "As of December 31, 2025, we had $952.2 million remaining under this share repurchase program. We plan to return capital through the base dividend payout, supplemented by opportunistic share repurchases and variable dividends.",
+    "We expect to return a certain percentage of adjusted free cash flow (\"Adjusted FCF\") each quarter, with the targeted percentage based on free cash flow generated during the previous quarter and projected leverage (defined as the ratio of (i) the sum of our aggregate outstanding debt, less cash and cash equivalents held as of the balance sheet date, to (ii) our estimated earnings before interest, taxes, depreciation and amortization for the next twelve months at $65/Bbl WTI and $3/MMBtu Henry Hub, excluding the impact of commodity derivative instruments) under the following framework:",
+    "•Below 0.5x leverage: 75%+ of Adjusted FCF",
+    "•Below 1.0x leverage: 50%+ of Adjusted FCF",
+    "•>1.0x leverage: Base dividend+ ($5.20 per share annualized)",
+    "•Financial strength. Our management team is focused on maintaining a solid risk management process to preserve a strong balance sheet and protect our cash generation capabilities. Recognizing the oil and gas industry is cyclical, our business is designed to navigate challenging environments while preserving sufficient liquidity in an effort to be opportunistic in low commodity price cycles.",
+    "As of December 31, 2025, we had $2,156.7 million of liquidity available, including $189.5 million of cash and cash equivalents and $1,967.2 million of unused borrowing base capacity available under the Credit Facility (defined in \"Part II, Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations\")."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks related to the oil and gas industry and our business",
+    "Global geopolitical tensions may create heightened volatility in crude oil, NGL and natural gas prices and could adversely affect our business, financial condition and results of operations.",
+    "The ability or willingness of OPEC+ to set and maintain production levels has a significant impact on oil prices.",
+    "If crude oil, NGL and natural gas prices decline, or for an extended period of time remain at depressed levels, we may be required to take write-downs of the carrying values of our oil and gas properties.",
+    "Substantially all of our producing properties and operations are located in the Williston Basin, making us vulnerable to risks associated with operating in a concentrated geographic area.",
+    "Our business depends on third-party transportation and processing facilities and other assets that are owned by third parties.",
+    "Limited takeaway capacity can result in significant discounts to our realized prices.",
+    "The development of our PUD reserves may take longer and may require higher levels of capital expenditures than we currently anticipate. Therefore, our undeveloped reserves may not be ultimately developed or produced.",
+    "Unless we replace our crude oil, NGL and natural gas reserves, our reserves and production will decline, which could adversely affect our business, financial condition and results of operations.",
+    "Our business is subject to operating risks that could result in substantial losses or liability claims, and we may not be insured for, or our insurance may be inadequate to protect us against these risks.",
+    "Drilling locations are scheduled to be drilled over several years and may not yield crude oil, NGL or natural gas in commercially viable quantities.",
+    "Our potential drilling locations are scheduled to be drilled over several years, making them susceptible to uncertainties that could materially alter the occurrence or timing of their drilling.",
+    "Our financial results could be impacted by uncertainty in U.S. trade policy, including uncertainty surrounding changes in tariffs, trade agreements or other trade restrictions imposed by the U.S. or other governments.",
+    "Failure to comply with federal, state and local laws and regulations could adversely affect our ability to produce, gather and transport our crude oil, NGL and natural gas and may result in substantial penalties.",
+    "Stakeholder and market attention to matters related to corporate responsibility, including in the oil and gas industry, may impact our business and ability to secure financing."
+   ],
+   "paragraphs": [
+    "Our business involves a high degree of risk. If any of the following risks, or any risk described elsewhere in this Annual Report on Form 10-K, actually occurs, our business, financial condition, results of operations or cash flows could suffer. The risks described below are not the only ones facing us. Additional risks not presently known to us or which we currently consider immaterial also may adversely affect us.",
+    "Oil and gas prices are impacted by geopolitical tensions and conflict, such as conflicts between Russia and Ukraine, hostilities in the Middle East and political and military developments in South America. Although the length, impact and outcome of the military conflicts between Russia and Ukraine and elsewhere in the Middle East are highly unpredictable, these conflicts could lead to significant market and other disruptions, including significant volatility in commodity prices and supply of energy resources, instability in financial markets, supply chain interruptions, political and social instability and other material and adverse effects on macroeconomic conditions. It is not possible at this time to predict or determine the ultimate consequence of these regional conflicts. These conflicts and their broader impacts could have a lasting impact on the short- and long-term operations and financial condition of our business and the global economy.",
+    "Adverse developments affecting the financial markets, such as bank failures, the potential for the Federal Reserve to increase interest rates or an extended period of elevated interest rates, as well as the potential for a U.S. government shutdown, could adversely affect our current and projected business operations, financial condition, results of operations and liquidity.",
+    "Events involving limited liquidity, defaults, non-performance or other adverse developments that affect financial institutions, transactional counterparties or other companies in the financial services industry or the financial services industry generally, or concerns or rumors about any events of these kinds or other similar risks, have in the past and may in the future lead to market-wide liquidity problems. The failure of a bank, or events involving limited liquidity, defaults, non-performance or other adverse conditions in the financial markets impacting the financial institutions with which we conduct business, or concerns or rumors about such events, may lead to disruptions in access to our bank deposits, impair the ability of the banks participating in our current or future credit agreements from honoring their commitments to us or otherwise adversely impact our liquidity and financial performance. We regularly maintain domestic cash deposits in FDIC-insured banks, which exceed the FDIC insurance limits. There can be no assurance that our deposits in excess of the FDIC or other comparable insurance limits will be backstopped by the U.S. or applicable foreign government, or that any bank or financial institution with which we do business will be able to obtain needed liquidity from other banks, government institutions or by acquisition in the event of a failure or liquidity crisis.",
+    "Disruptions to the broader economy and financial markets, including the Federal Reserve's actions with respect to interest rates and the timing of any anticipated decrease in rates or government shutdowns may also reduce our ability to access capital or result in such capital being available on less favorable terms. Higher interest rates or costs and tighter financial and operating covenants may make it more difficult to acquire financing on acceptable terms or at all. Any of these impacts, or any other impacts resulting from the factors described above or other related or similar factors, could have material adverse impacts on our liquidity, financial condition, results of operations and cash flows.",
+    "A substantial or extended decline in commodity prices, for crude oil and, to a lesser extent, NGL and natural gas, may adversely affect our business, financial condition or results of operations and our ability to meet our capital expenditure obligations and financial commitments."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Recent Developments",
+    "2025 Williston Basin Acquisition",
+    "Market Conditions",
+    "2025 Year Ended December 31, 2025",
+    "2024 Year Ended December 31, 2024",
+    "Results of Operations",
+    "Comparability of Financial Statements",
+    "Operational and Financial Highlights",
+    "Shareholder Return Highlights",
+    "Expenses and other income (expense)",
+    "Year Ended December 31,",
+    "(In thousands, except per Boe of production)",
+    "Operating expenses",
+    "Other income (expense)",
+    "Costs and expenses (per Boe of production)",
+    "Liquidity and Capital Resources",
+    "Weighted Average Prices",
+    "Commodity Settlement Period Derivative Instrument Volumes Fixed-Price Swaps Sub-Floor Floor Ceiling",
+    "Material cash requirements",
+    "Long-term debt",
+    "The following table summarizes our changes in cash flows for the years presented: Year Ended December 31, 2025 2024 $ 2,040,657 $ 2,097,227",
+    "Capital expenditures",
+    "Share Repurchase Program",
+    "Critical accounting policies and estimates",
+    "Method of accounting for oil and gas properties",
+    "Estimated quantities of reserves",
+    "Business combinations",
+    "Impairment of proved oil and gas properties"
+   ],
+   "paragraphs": [
+    "On September 15, 2025, we entered into a definitive agreement to acquire certain developed and undeveloped oil and gas assets located in the Williston Basin from XTO Energy Inc. and affiliates (collectively, \"XTO\"), subsidiaries of Exxon Mobil Corporation, for total cash consideration of $550.0 million, subject to customary purchase price adjustments (the \"2025 Williston Basin Acquisition\").",
+    "On October 31, 2025, we completed the 2025 Williston Basin Acquisition for total cash consideration of $542.2 million, including a cash deposit of $55.0 million to XTO upon execution of the purchase and sale agreement and $487.2 million paid to XTO at closing (including customary preliminary purchase price adjustments). We funded the 2025 Williston Basin Acquisition with proceeds from the issuance of the 2030 Senior Notes (defined in \"Liquidity and Capital Resources—Long-Term Debt\" below) and cash on hand. The effective date of the 2025 Williston Basin Acquisition was September 1, 2025."
+   ],
+   "focus": "Recent Developments"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "營運策略",
+    "競爭優勢",
+    "探勘與生產作業",
+    "預估淨證實儲量",
+    "於12月31日",
+    "(以千萬為單位)",
+    "生產、價格與成本歷史",
+    "截至12月31日止之年度 2025 2024 2023 56,500 48,479 3,6427 19,149 16,338 13,047 151,903 122,193 82,953 100,966 85,182 63,300 276,620 232,737 173,425 $ 62.78 $ 73.67 $ 77.85 (1) (每桶)",
+    "未開發英畝數到期",
+    "生產井",
+    "鑽井及完井活動",
+    "截至12月31日的會計年度",
+    "毛額淨額毛額淨額毛額淨額",
+    "不動產說明",
+    "交付承諾",
+    "不動產權屬",
+    "生產規範",
+    "原油運輸規範",
+    "天然氣運輸規範",
+    "原油、NGL 及天然氣銷售規範",
+    "環境及職業健康安全規範"
+   ],
+   "paragraphs": [
+    "Chord Energy Corporation, 一間 Delaware 公司 (包含我們合併子公司, 稱為 \"本公司,\" \"Chord,\" \"我們,\" \"我們,\" 或 \"我們的\"), 是一間獨立的探勘與生產 (\"E&P\") 公司, 從事原油、NGL 與天然氣的取得、探勘、開發與生產, 主要在 Williston Basin 進行, 並在 Marcellus Shale 有有限的非經營權益。我們的使命是負責任地生產氫碳化合物, 同時實踐資本紀律、高效運作、持續改進, 並為員工提供一個有趣且有回報的工作環境。我們處於一個理想的位置, 可以產生強勁的自由現金流, 提升資本回報, 同時負責任地照顧我們運作的社區與環境。",
+    "2024 年 5 月 31 日, 我們透過股票與現金交易 (此交易稱為 \"Arrangement\") 收購了 Alberta 省法律下存在的 Enerplus Corporation (\"Enerplus\"). 本文件中所呈現的運作結果與儲量資料, 顯示 legacy Chord 從 2023 年 1 月 1 日至 2024 年 5 月 30 日的結果, 以及 Chord (包含 legacy Enerplus) 從 2024 年 5 月 31 日至 2025 年 12 月 31 日的結果, 除非另有說明。",
+    "截至 2025 年 12 月 31 日, 我們在 Williston Basin 擁有 1,302,921 網路租賃英畝, 約為全部由生產所持有。我們目前正在開發 Middle Bakken 與 Three Forks 層的大量資源潛力, 這些層廣泛分佈於我們的英畝數中。我們相信, 我們在 Williston Basin 的位置、規模與集中度, 為我們提供機會, 透過開發我們的項目庫存, 來實現成本、回收與生產效率。我們的管理團隊在識別、取得與執行大型、可重複的開發鑽井計畫方面有成功的紀錄, 並在 Williston Basin 有豐富的經驗。",
+    "截至 2025 年 12 月 31 日, 我們擁有 5,025 口總計 (3,937.3 口網路) 運作生產井。我們在生產井中的運作權益平均為 78%。在 2025 年 12 月 31 日結訖的會計年度中, 我們的平均每日生產量為 276,620 網路 Boepd。截至 2025 年 12 月 31 日, 我們的獨立儲量工程師 Netherland, Sewell & Associates, Inc. (\"NSAI\") 預估我們的淨證實儲量為 917.5 MMBoe, 其中 69% 被歸類為證實開發儲量, 56% 為原油。",
+    "我們的運作與財務策略聚焦於嚴謹的資本紀律, 並透過執行以下戰略優先事項, 產生大量且可持續的自由現金流：",
+    "•最大化回報。我們意圖高效執行我們的開發計畫, 優化資本配置, 同時評估我們的表現並專注於持續改進。我們已建立強大的資本配置架構, 目標為平衡股東回報與資本再投資。我們專注於保守的資本配置, 提供低再投資率, 在中週期油價下回饋大量資本給股東。自 2021 年推出回饋資本計畫以來, 我們已向股東宣告總計每股 61.19 美元的現金股息, 並回購總計 13 億美元的普通股。",
+    "我們在 Williston Basin 的規模與高品質資產使我們能夠產生大量且可持續的現金流, 以在中週期油價下最大化回報。我們預期我們的業務策略將繼續產生大量現金流, 使我們能夠回饋資本給股東, 並持續追求能增加或延長我們庫存的收購, 同時維持強勁的資產負債表。我們有一個回饋資本計畫, 設計為提供業界領先且可持續的股東回報。回饋資本計畫包括每季每股 1.30 美元的基礎現金股息 (年化每股 5.20 美元) 以及 10 億美元的股票回購計畫, 此計畫已於 2025 年第三季由董事會批准。",
+    "截至 2025 年 12 月 31 日, 我們在這個股票回購計畫下尚有 9.522 億美元的餘額。我們計畫透過基礎股息支付, 並配合機會性的股票回購與變動股息, 來回饋資本。",
+    "我們預期每個季度將回饋一定比例的調整後自由現金流（\"Adjusted FCF\"），目標比例基於前一個季度產生的自由現金流與預測的槓桿率（定義為（i）我們總體未償還債務總額，減去截至資產負債表日所持有的現金及現金等價物，除以（ii）我們預估下十二個月的稅前營業利潤，以每桶65美元的WTI原油價格及每千萬英熱單位3美元的亨利中心天然氣價格計算，並排除商品衍生工具的影響）根據以下框架：",
+    "• 負債率低於0.5倍：回饋調整後自由現金流的75%以上",
+    "• 負債率低於1.0倍：回饋調整後自由現金流的50%以上",
+    "• 負債率高於1.0倍：基礎股息+（年化$5.20每股）",
+    "• 財務強韌性。我們的管理團隊專注於維持強固的風險管理流程，以維護強勁的資產負債表並保護現金產生能力。認知到油氣產業具有週期性，我們的業務設計旨在應對困難環境，同時保持足夠流動性，以在低商品價格週期中把握機會。",
+    "截至2025年12月31日，我們擁有$2,156.7千萬的流動性，包括$189.5千萬的現金及現金等價物，以及根據信貸協議（定義於\"第二部分，第7項。管理層對財務狀況與營運成果之討論與分析\"）未使用的借款基礎容量$1,967.2千萬。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "近期發展",
+    "2025 年 Williston Basin 收購",
+    "市場狀況",
+    "2025 年 12 月 31 日財年",
+    "2024 年 12 月 31 日財年",
+    "營運成果",
+    "財務報表之可比性",
+    "營運與財務重點",
+    "股東回報亮點",
+    "費用及其他收入（費用）",
+    "截至12月31日年度",
+    "(以千美元為單位，除每桶油當量之生產量)",
+    "營運費用",
+    "其他收入（費用）",
+    "成本及費用（每桶油當量之生產量）",
+    "流動性及資本資源",
+    "加權平均價格",
+    "商品結算期間衍生工具交易量 固定價格期貨合約 子地板 地板 天花板",
+    "重大現金需求",
+    "長期債務",
+    "下表總結我們在所列會計年度的現金流變動：會計年度結息日為 2025 年 12 月 31 日 2024 年 $ 2,040,657 $ 2,097,227",
+    "資本支出",
+    "股票回購計畫",
+    "重要會計政策與會計估計",
+    "油氣資產會計處理方法",
+    "儲備量之估計數量",
+    "企業合併",
+    "已證實油氣資產之減損"
+   ],
+   "paragraphs": [
+    "於2025年9月15日，本公司與XTO Energy Inc.及其附屬公司（合稱\"XTO\"），為Exxon Mobil Corporation之子公司，簽訂最終協議，以總計現金$550.0百萬取得位於Williston Basin之開發中及未開發之油氣資產，並受制於慣常之買賣價格調整條款（\"2025 Williston Basin收購\"）。",
+    "於2025年10月31日，本公司完成2025 Williston Basin收購，總計現金$542.2百萬，包含於簽訂買賣協議時支付給XTO之現金押金$55.0百萬，以及於交割時支付給XTO之$487.2百萬（包含慣常之初步買賣價格調整）。本公司以發行2030年高級債券（於\"流動性及資本資源—長期債務\"部分定義）之所得及現金償付2025 Williston Basin收購之資金。2025 Williston Basin收購之生效日期為2025年9月1日。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與石油和天然氣產業及本公司業務相關的風險",
+    "全球地緣政治緊張關係可能導致原油、NGL 以及天然氣價格出現高度波動，並可能對本公司業務、財務狀況及營運成果產生不利影響。",
+    "OPEC+ 能否設定並維持生產水平，對原油價格有重大影響。",
+    "若原油、NGL 以及天然氣價格下跌，或在一段長時間內維持低水平，本公司可能需要對本公司石油和天然氣資產的帳面價值進行減記。",
+    "本公司 substantially all 的生產資產及營運設施位於 Williston Basin，使本公司易受集中於特定地理區域所產生的風險影響。",
+    "本公司業務依賴第三方運輸及處理設施及其他由第三方所有之資產。",
+    "有限的 takeaway 能力可能導致本公司實現價格出現顯著折扣。",
+    "本公司 PUD 資源的開發可能需要更長時間，且可能需要更高水平的資本支出，而目前本公司預期可能低於此水平。因此，本公司未開發資源可能最終無法開發或生產。",
+    "除非我們替換我們的原油、NGL 及天然氣儲備，否則我們的儲備及產量將下降，這可能會對我們的業務、財務狀況及營運成果產生不利影響。",
+    "我們的業務面臨營運風險，這些風險可能會導致重大損失或賠償聲請，我們可能未投保，或我們的保險可能不足以保護我們免受這些風險的影響。",
+    "鑽井位置將在數年內進行鑽探，這些位置可能無法以商業上可行的數量產生原油、NGL 或天然氣。",
+    "我們的潛在鑽井位置將在數年內進行鑽探，使其容易受到不確定性影響，這些不確定性可能會重大影響這些鑽井的發生或時間。",
+    "我們的財務結果可能受到美國貿易政策不確定性影響，包括對關稅、貿易協議或其他貿易限制措施變動的不確定性。",
+    "未能遵守聯邦、州及地方法律及法規，可能會對我們生產、收集及運輸原油、NGL 及天然氣的能力產生不利影響，並可能導致重大處罰。",
+    "股東及市場對企業責任相關事項的關注，包括在石油及天然氣產業，可能會影響我們的業務及取得融資的能力。"
+   ],
+   "paragraphs": [
+    "本公司業務涉及高度風險。若任何下列風險，或本年度報告表10-K其他處所描述的風險實際發生，將可能使本公司業務、財務狀況、營運成果或現金流遭受影響。下列所描述的風險並非本公司唯一面臨的風險。尚有其他風險，目前本公司尚未知悉，或目前認為不重要，也可能對本公司造成不利影響。",
+    "油氣價格受地緣政治緊張與衝突影響，例如俄羅斯與烏克蘭之間的衝突、中東地區的敵對行動，以及南美洲的政治與軍事發展。儘管俄羅斯與烏克蘭之間的軍事衝突及其他中東地區衝突的持續時間、影響與結果極為難以預測，但這些衝突可能導致市場及其他方面的重大中斷，包括商品價格與能源資源供應的重大波動、金融市場不穩定、供應鏈中斷、政治與社會不穩定，以及其他對總體經濟條件的重大不利影響。目前無法預測或判斷這些區域衝突的最終後果。這些衝突及其廣泛影響可能對本公司業務與全球經濟的短期與長期營運及財務狀況造成持續影響。",
+    "影響金融市場的不利發展，例如銀行失敗、聯邦儲備銀行提高利率或長時間高利率、以及美國政府停擺的可能性，可能對本公司目前與預期的業務營運、財務狀況、營運成果與流動性造成不利影響。",
+    "涉及流動性有限、違約、未履行或其他不利發展，影響金融機構、交易對手或金融服務業其他公司的事件，或對這些事件或類似風險的擔憂或流言，過去曾導致市場範圍的流動性問題，未來也可能導致市場範圍的流動性問題。銀行失敗，或涉及流動性有限、違約、未履行或其他不利條件的金融市場事件，影響本公司進行業務的金融機構，或對這些事件的擔憂或流言，可能導致本公司銀行存款的取用中斷，影響參與本公司現有或未來信貸協議的銀行履行對本公司的承諾，或以其他方式對本公司流動性與財務表現造成不利影響。本公司定期在受FDIC保險的銀行存放國內現金存款，且金額超過FDIC保險上限。目前無法保證本公司存放超過FDIC或其他類似保險上限的存款將由美國或相關外國政府提供保障，或任何與本公司進行業務的銀行或金融機構將能在銀行失敗或流動性危機時，從其他銀行、政府機構或透過收購取得所需流動性。",
+    "對廣泛經濟與金融市場的中斷，包括聯邦儲備銀行對利率的措施，以及預期利率下降時間或政府停擺的時間，也可能降低本公司取得資本的能力，或使取得的資本以較不利的條件提供。較高的利率或成本與較嚴格的財務與營運約束條件，可能使本公司更難以在可接受的條件或完全無法取得融資。任何這些影響，或任何其他因上述因素或其他相關或類似因素所導致的影響，可能對本公司流動性、財務狀況、營運成果與現金流造成重大不利影響。",
+    "原油價格，以及較少程度的NGL與天然氣價格，出現顯著或持續下跌，可能對本公司業務、財務狀況或營運成果，以及本公司履行資本支出義務與財務承諾的能力造成不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

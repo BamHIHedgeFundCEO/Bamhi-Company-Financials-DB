@@ -1,0 +1,193 @@
+{
+ "ticker": "MDGL",
+ "cik": "0001157601",
+ "accession": "0001628280-26-009514",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Key 2025 and Recent Highlights",
+    "Our Strategy",
+    "Rezdiffra for Patients with MASH",
+    "Approval of Rezdiffra",
+    "Market Opportunity for Rezdiffra in MASH",
+    "Clinical Trial Overview",
+    "Primary Endpoint",
+    "Resmetirom 80 mg",
+    "Resmetirom 100 mg",
+    "Key Secondary Endpoint",
+    "Collaborations",
+    "Manufacturing, Supply and Distribution",
+    "Intellectual Property",
+    "Government Regulation",
+    "Government Regulation and Product Approval",
+    "United States Drug Development Process"
+   ],
+   "paragraphs": [
+    "We are a biopharmaceutical company focused on delivering novel therapeutics for metabolic dysfunction-associated steatohepatitis (\"MASH\"), a serious liver disease with high unmet medical need that can lead to cirrhosis, liver failure, liver cancer, need for liver transplantation and premature mortality. MASH was previously known as nonalcoholic steatohepatitis (\"NASH\"). MASH is the leading cause of liver transplantation in women, the second leading cause of all liver transplantation in the United States and the fastest-growing indication for liver transplantation in Europe. Our medication, Rezdiffra (resmetirom), is a once-daily, oral, liver-directed thyroid hormone receptor beta (\"THR-β\") agonist designed to target key underlying causes of MASH. In March 2024, Rezdiffra became the first therapy approved by the FDA for patients with MASH and was commercially available in the United States beginning in April 2024. Following receipt of conditional marketing authorization (\"CMA\") from the European Commission (\"EC\"), we launched Rezdiffra in Germany in September 2025. Rezdiffra was the first medication approved by both the FDA and EC for the treatment of adults with noncirrhotic MASH with moderate to advanced liver fibrosis (F2 to F3 fibrosis). We are also evaluating Rezdiffra in patients with compensated MASH cirrhosis (consistent with F4c fibrosis) in our MAESTRO-NASH OUTCOMES trial, that, if successful, could expand the eligible patient population for Rezdiffra.",
+    "In addition, we are advancing a focused pipeline to lead the evolution of MASH treatment for patients for decades to come. Through our business development efforts, we have acquired rights to MGL-2086, an oral glucagon-like peptide-1 (\"GLP-1\") receptor agonist, ervogastat, an oral diacylglycerol O-acyltransferase 2 (\"DGAT2\") inhibitor, six small interfering RNA (\"siRNA\") programs and additional preclinical MASH candidates. We plan to evaluate these candidates with the goal of delivering best-in-disease therapies for the treatment of MASH. As we continue to build our pipeline, we will evaluate mechanisms that fit scientifically, strategically and commercially to enhance our leading position in MASH care.",
+    "We experienced tremendous growth in 2025, highlighted by our strong commercial execution. For the year ended December 31, 2025, we generated $958.4 million in product revenue from sales of Rezdiffra. In addition, 2025 featured the following key achievements:",
+    "•In May 2025, we announced positive two-year results from the open-label compensated MASH cirrhosis (F4c) arm of the Phase 3 MAESTRO-NAFLD-1 trial of Rezdiffra. Patients (n=122) achieved significant improvements from baseline in liver stiffness, liver fat, fibrosis biomarkers, liver volume and risk scores for clinically significant portal hypertension (\"CSPH\"). The results were presented in a late-breaking oral abstract at the European Association for the Study of the Liver (\"EASL\") Congress. In addition, in November 2025, we announced additional data showing Rezdiffra's impact in patients with more advanced compensated MASH cirrhosis (those with a platelet count of <100,000/µL at baseline). In this patient population, Rezdiffra demonstrated improvements from baseline across multiple imaging tests and biomarkers including liver stiffness, liver enzymes and lipids, as well as Baveno risk scores for CSPH.",
+    "•In July 2025, we announced that we received a Notice of Allowance from the U.S. Patent and Trademark Office for a new U.S. patent covering the FDA-approved use of Rezdiffra. The patent, which was issued on August 5, 2025, includes claims directed to Rezdiffra's commercial weight-threshold dosing regimen as prescribed in the FDA-approved label. The U.S. patent provides protection to February 2045 and was listed in the FDA's Approved Drug Products with Therapeutic Equivalence Evaluations, commonly known as the Orange Book, in August 2025.",
+    "•In July 2025, we entered into a Financing Agreement (as amended, the \"Financing Agreement\") with certain funds managed by Blue Owl Capital Corporation as the lenders (the \"Lenders\") and LSI Financing LLC as the administrative agent for the Lenders (the \"Administrative Agent\"). Under the Financing Agreement, the Lenders committed up to $500.0 million in senior secured credit facilities, consisting of (a) an initial term loan in an aggregate principal amount equal to $350.0 million (the \"Initial Term Loan\") and (b) delayed draw term loans in an aggregate principal amount not to exceed $150.0 million (the loans thereunder, if any, the \"Delayed Draw Term Loans\"). In addition, the Financing Agreement includes an uncommitted incremental facility in an aggregate principal amount not to exceed $250.0 million (the loans thereunder, if any, the \"Incremental Term Loans,\" and together with the Initial Term Loan and any Delayed Draw Term Loans, collectively, the \"Term Loans\"), subject to the satisfaction of certain terms and conditions set forth in the Financing Agreement. The Initial Term Loan was funded on July 17, 2025. Delayed Draw Term Loans are available at our election from time to time until December 31, 2027. Incremental Term Loans are available at our and the Lenders' mutual consent from time to time.",
+    "•In July 2025, we entered into an exclusive global license agreement (the \"CSPC License Agreement\") with CSPC Pharmaceutical Group Limited (\"CSPC\") for MGL-2086 (formerly SYH2086), an oral GLP-1 receptor agonist. Pursuant to the CSPC License Agreement, CSPC granted us an exclusive global license to develop, manufacture and commercialize MGL-2086. We expect to initiate a single ascending dose study of MGL-2086 in the second quarter of 2026.",
+    "•In August 2025, we announced that the EC granted a CMA for Rezdiffra for the treatment of MASH with moderate to advanced liver fibrosis. We launched Rezdiffra in Germany in September 2025. Rezdiffra was the first medication approved for patients with MASH in the European Union and is included in the European MASH treatment guidelines.",
+    "•In January 2026, we announced the expansion of our pipeline with an exclusive global license for ervogastat, a Phase 2 oral DGAT-2 inhibitor. DGAT-2 inhibitors work by blocking the final step in triglyceride assembly and storage, resulting in lower hepatic triglycerides, reduced lipotoxic fat and decreased inflammation. In 2026, we plan to conduct a drug-to-drug interaction study with resmetirom and consult with the FDA on the design of a Phase 2 combination trial.",
+    "•In February 2026, we announced an exclusive global license agreement (the \"Ribocure License Agreement\") with Suzhou Ribo Life Science Co. Ltd. and Ribocure Pharmaceuticals AB (together, \"Ribocure\") for six novel siRNA programs designed to silence certain genes implicated in MASH disease progression. By pairing the precision of gene-silencing with Rezdiffra, we are exploring",
+    "whether reducing drivers of disease at the genetic level can complement Rezdiffra's therapeutic effects. IND-enabling activities in initial candidates are expected to begin in 2026.",
+    "The critical components of our business strategy include the following:",
+    "Maximize the value of Rezdiffra. We generated $958.4 million in net product revenue from sales of Rezdiffra in 2025. With quarterly sales now annualizing at greater than $1.0 billion as of December 31, 2025 and a low market penetration rate, we believe we are well positioned to continue to deliver on this strategic priority. We have secured broad first-line access across commercial payers through our payer contracting efforts and believe that we will continue to steadily add patients through 2026. In the United States, we continue to educate healthcare providers and patients on the risks of MASH and the potential clinical benefits and appropriate use of Rezdiffra and believe that the MASH market will continue to grow significantly over time given low MASH diagnosis rates today. We also launched Rezdiffra in Germany in September 2025 and expect to launch Rezdiffra in other international markets over time. We continue to believe that Rezdiffra's product profile as a liver-directed, once-daily, generally well-tolerated oral therapy, as well as its first-to-market position, provide meaningful points of differentiation in the MASH competitive landscape.",
+    "Deliver transformational outcomes data in F4c. A key component of our strategy is to expand Rezdiffra's label to treat patients with compensated MASH cirrhosis (F4c), which currently has no approved treatments available. We have fully enrolled our Phase 3 MAESTRO-NASH OUTCOMES trial evaluating Rezdiffra in patients with compensated MASH cirrhosis, and we expect a data readout from this trial in 2027. A positive outcome from this trial is expected to support the full approval of Rezdiffra in the United States for moderate to advanced liver fibrosis (F2 to F3 fibrosis) and an additional indication for Rezdiffra in patients with F4c, which we believe could double Rezdiffra's commercial opportunity. In 2025, we announced positive two-year data from a 122-patient open label cohort from our MAESTRO-NAFLD-1 trial evaluating Rezdiffra in the F4c patient population, reinforcing our confidence in receiving positive results from our OUTCOMES trial. We plan to continue to evaluate opportunities to expand Rezdiffra's label and generate new data to maintain our leadership position in the MASH treatment landscape."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to the Commercialization and Continued Approval of Rezdiffra",
+    "The commercial success of Rezdiffra will depend on the degree of market acceptance by physicians, patients, third-party payors and others in the health care community.",
+    "If the sales and marketing capabilities we have established for the commercialization of Rezdiffra are not effective, Rezdiffra may not be successfully commercialized.",
+    "Federal legislative and regulatory efforts to implement reference pricing or most-favored-nation pricing models could impact our product revenues and harm our business.",
+    "Rezdiffra could develop unexpected safety or efficacy concerns, which would likely have a material adverse effect on us.",
+    "We operate in a highly competitive and changing environment, and if we are unable to adapt to our environment, we may be unable to compete successfully.",
+    "If we do not obtain regulatory approval of Rezdiffra in foreign jurisdictions, we will not be able to market Rezdiffra in other jurisdictions, which will limit our commercial revenues.",
+    "EU pricing and reimbursement regulations may materially affect our ability to market and receive coverage for Rezdiffra in the EU Member States.",
+    "If the FDA or other applicable regulatory authorities approve generic products that compete with Rezdiffra, the sales of Rezdiffra would be adversely affected.",
+    "Product liability lawsuits brought against us could cause us to incur substantial liabilities and could limit commercialization of Rezdiffra or any future product candidates that we may develop.",
+    "Risks Related to Product Development and Regulatory Approval",
+    "If we fail to successfully develop and commercialize our other product candidates, we may be unable to grow our business."
+   ],
+   "paragraphs": [
+    "You should carefully consider the risks described below, together with all of the other information included in or incorporated by reference into this Annual Report and in other documents we file with the SEC, before making an investment decision. The risks and uncertainties described below are not intended to be exhaustive and are not the only risks and uncertainties we face. Additional risks and uncertainties not presently known to us or that we do not currently believe are material to an investor may also harm our business, and it is not possible to predict the impact that any factor or combination of factors may have on our business, prospects, financial condition and results of operations. If any of the events, contingencies, circumstances or conditions described in the following risk factors actually occur, our business, financial condition or our results of operations could be materially and adversely affected, which may cause the trading price of our common stock to decline and you may lose part or all of the value of any of our shares that you hold.",
+    "Our prospects are highly dependent on the success of our only approved product, Rezdiffra, which was approved in the United States under the Subpart H accelerated approval pathway for new drugs for serious or life-threatening illnesses and has received a CMA in the EU. If we are unable to successfully commercialize or maintain approval for Rezdiffra, our business, financial condition, results of operations and prospects and the value of our common stock will be materially adversely affected.",
+    "In March 2024, the FDA granted accelerated approval for Rezdiffra in conjunction with diet and exercise for the treatment of adults with noncirrhotic MASH with moderate to advanced liver fibrosis (consistent with stages F2 to F3 fibrosis), and in August 2025, the EC granted a CMA for Rezdiffra in the EU. We have invested, and continue to invest, significant efforts and financial resources in the launch of Rezdiffra. We have never, as an organization, launched or commercialized any other product, and there is no guarantee that we will continue to successfully commercialize Rezdiffra. There are numerous examples of failures to meet high expectations of market potential, including by pharmaceutical companies with more experience and resources than us. We believe that the commercial success of Rezdiffra depends on many factors, including the following:",
+    "•our ability to effectively educate healthcare providers and patients on the risks of MASH and the potential clinical benefits of Rezdiffra;",
+    "•the efficacy, cost, approved use, and side-effect profile of Rezdiffra relative to competitive treatment regimens for the treatment of MASH;",
+    "•Rezdiffra may compete with the off-label use of currently marketed products and other therapies in development that may in the future obtain approval for MASH;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Executive Overview",
+    "Financial Overview",
+    "Key Components of Our Operating Results",
+    "Product Revenue, Net",
+    "Cost of Sales",
+    "Research and Development Expenses",
+    "Selling, General and Administrative Expenses",
+    "Interest Income",
+    "Interest Expense",
+    "Critical Accounting Policies and Estimates",
+    "Revenue Recognition",
+    "Results of Operations",
+    "Discussion of Results of Operations",
+    "2025 vs 2024",
+    "2024 vs 2023",
+    "Comparison of the Years Ended December 31, 2024 and 2023",
+    "Liquidity and Capital Resources",
+    "Year Ended December 31,",
+    "Contractual Obligations and Commercial Commitments",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "We are a biopharmaceutical company focused on delivering novel therapeutics for MASH, a serious liver disease with high unmet medical need that can lead to cirrhosis, liver failure, liver cancer, need for liver transplantation and premature mortality. MASH is the leading cause of liver transplantation in women, the second leading cause of all liver transplantation in the United States and the fastest-growing indication for liver transplantation in Europe. Our medication, Rezdiffra (resmetirom), is a once-daily, oral, liver-directed THR-β agonist designed to target key underlying causes of MASH. In March 2024, Rezdiffra became the first therapy approved by the FDA for patients with MASH and was commercially available in the United States beginning in April 2024. Following receipt of CMA from the EC, we launched Rezdiffra in Germany in September 2025. Rezdiffra was the first medication approved by both the FDA and EC for the treatment of adults with noncirrhotic MASH with moderate to advanced liver fibrosis (F2 to F3 fibrosis). We are also evaluating Rezdiffra in patients with compensated MASH cirrhosis (consistent with F4c fibrosis) in our MAESTRO-NASH OUTCOMES trial, that, if successful, could expand the eligible patient population for Rezdiffra.",
+    "In addition, we are advancing a focused pipeline to lead the evolution of MASH treatment for patients for decades to come. Through our business development efforts, we have acquired rights to MGL-2086, an oral GLP-1 receptor agonist, ervogastat, an oral DGAT2 inhibitor, six siRNA programs and additional preclinical MASH candidates. We plan to evaluate these candidates with the goal of delivering best-in-disease therapies for the treatment of MASH. As we continue to build our pipeline, we will evaluate mechanisms that fit scientifically, strategically and commercially to enhance our leading position in MASH care.",
+    "See \"Part I, Item 1. Business\" for a summary of our commercial and clinical activities."
+   ],
+   "focus": "Executive Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "2025 年重要重點與近期亮點",
+    "本公司策略",
+    "針對 MASH 患者之 Rezdiffra",
+    "Rezdiffra 許可核准",
+    "Rezdiffra 在 MASH 領域之市場機會",
+    "臨牀試驗概觀",
+    "主要評估指標",
+    "Resmetirom 80 mg",
+    "Resmetirom 100 mg",
+    "關鍵次要評估指標",
+    "合作夥伴關係",
+    "製造、供應與銷售",
+    "智慧財產權",
+    "政府規範",
+    "政府規範與產品核准",
+    "美國藥物開發程序"
+   ],
+   "paragraphs": [
+    "本公司為一家生技藥品公司，專注於開發新型治療藥物，用以治療代謝功能障礙相關脂肪肝炎（\"MASH\"），一種嚴重的肝臟疾病，具有高度未滿足的醫療需求，可能導致肝硬化、肝衰竭、肝癌、需要肝臟移植及早逝。MASH 以前稱為非酒精性脂肪肝炎（\"NASH\"）。MASH 是女性肝臟移植的主要原因，是美國所有肝臟移植的第二大原因，也是歐洲肝臟移植最快成長的適應症。本公司開發的藥物 Rezdiffra（resmetirom）為一種每日一次、口服、針對肝臟的甲狀腺激素受體 beta（\"THR-β\"）激動劑，設計用以針對 MASH 的關鍵根本病因。2024 年 3 月，Rezdiffra 成為美國食品藥物管理局（FDA）批准的第一種治療 MASH 患者的療法，並於 2024 年 4 月開始在美國上市販售。在取得歐盟委員會（\"EC\"）的條件性市場許可（\"CMA\"）後，本公司於 2025 年 9 月在德國推出 Rezdiffra。Rezdiffra 是第一種同時獲得 FDA 與 EC 批准用以治療非肝硬化 MASH 且具有中度至進展性肝纖維化（F2 至 F3 纖維化）成年患者的藥物。本公司也正在 MAESTRO-NASH OUTCOMES 試驗中評估 Rezdiffra 在具有代償性 MASH 肝硬化（符合 F4c 纖維化）患者的療效，若成功，將可擴大 Rezdiffra 的適應症患者羣。",
+    "此外，本公司正積極推動專注的藥物研發管道，以引領 MASH 治療的未來發展。透過本公司業務發展努力，我們已取得 MGL-2086 的權利，MGL-2086 為一種口服的胰高血糖素類似物-1（\"GLP-1\"）受體激動劑；ervogastat，為一種口服的二醯甘油 O-醯轉移酶 2（\"DGAT2\"）抑制劑；六種小幹擾 RNA（\"siRNA\"）計畫及額外的預臨牀 MASH 候選藥物。我們計畫評估這些候選藥物，目標是提供最佳的疾病治療方案，用以治療 MASH。隨著我們持續建立藥物研發管道，我們將評估符合科學、戰略及商業價值的機制，以強化我們在 MASH 照護領域的領導地位。",
+    "本公司在 2025 年經歷了巨大的成長，這一點由我們強大的商業執行能力所凸顯。截至 2025 年 12 月 31 日，我們從 Rezdiffra 的銷售中產生了 9.584 億美元的產品收入。此外，2025 年的重點成就包括：",
+    "•2025 年 5 月，我們宣佈 Rezdiffra 在 Phase 3 MAESTRO-NAFLD-1 試驗的開放標籤代償性 MASH 肝硬化（F4c）組的兩年結果為正面。患者（n=122）從基線值顯著改善了肝臟硬度、肝脂肪、纖維化生物指標、肝臟體積及臨牀顯著門靜脈高壓（\"CSPH\"）風險評分。這些結果在歐洲肝臟學會（\"EASL\"）大會上以晚間重點口述摘要形式發表。此外，2025 年 11 月，我們宣佈了更多數據，顯示 Rezdiffra 在更具進展性的代償性 MASH 肝硬化患者（基線時血小板計數 <100,000/µL）中的影響。在這一羣體中，Rezdiffra 在多種影像測試和生物指標（包括肝臟硬度、肝酶和血脂，以及 CSPH 的 Baveno 風險評分）中顯示出從基線值的改善。",
+    "•2025 年 7 月，我們收到了美國專利及商標局（USPTO）的專利核准通知，核准了一項新的美國專利，涵蓋 Rezdiffra 的 FDA 批准用途。該專利於 2025 年 8 月 5 日發行，包含針對 Rezdiffra 的商業用量門檻給藥方案的主張，該方案符合 FDA 批准的標籤。該美國專利保護至 2045 年 2 月，並於 2025 年 8 月被列入美國食品藥物管理局（FDA）的核准藥品產品與治療等效評估評估（Orange Book）。",
+    "•2025 年 7 月，我們與由 Blue Owl Capital Corporation 管理的某些基金（\"Lenders\"）及 LSI Financing LLC（\"Administrative Agent\"）簽訂了融資協議（\"Financing Agreement\"）。根據融資協議，Lenders 承諾提供最高 5 億美元的優先 secured 儲蓄信貸設施，包括（a）一筆初始貸款，總本金為 3.5 億美元（\"Initial Term Loan\"）及（b）延後發放貸款，總本金不超過 1.5 億美元（\"Delayed Draw Term Loans\"）。此外，融資協議包含一筆未承諾的增量設施，總本金不超過 2.5 億美元（\"Incremental Term Loans\"），視條件符合情況而定。初始貸款於 2025 年 7 月 17 日完成。延後發放貸款可在 2027 年 12 月 31 日前，根據本公司選擇隨時發放。增量貸款可在本公司與 Lenders 同意的情況下隨時發放。",
+    "•2025 年 7 月，我們與 CSPC Pharmaceutical Group Limited（\"CSPC\"）簽訂了獨家全球許可協議（\"CSPC License Agreement\"），取得 MGL-2086（原為 SYH2086）的獨家全球許可，MGL-2086 為一種口服 GLP-1 受體激動劑。根據 CSPC License Agreement，CSPC 同意我們獨家開發、製造及商業化 MGL-2086。我們預計於 2026 年第二季啟動 MGL-2086 的單劑遞增研究。",
+    "•2025 年 8 月，我們宣佈 EC 批准 Rezdiffra 用以治療具有中度至進展性肝纖維化的 MASH。我們於 2025 年 9 月在德國推出 Rezdiffra。Rezdiffra 是第一種獲得歐盟批准用以治療 MASH 的藥物，並被納入歐洲 MASH 治療指南。",
+    "•2026年1月，本公司宣佈擴充產品線，取得ervogastat的獨家全球授權，此藥物為Phase 2口服DGAT-2抑制劑。DGAT-2抑制劑透過阻斷三酸甘油酯組裝與儲存的最終步驟，達到降低肝臟三酸甘油酯、減少脂毒性脂肪及降低發炎的效果。2026年，本公司計畫進行與resmetirom的藥物間作用研究，並與FDA討論設計Phase 2組合試驗的方案。",
+    "•2026年2月，本公司宣佈與蘇州Ribo Life Science Co. Ltd.及Ribocure Pharmaceuticals AB（合稱\"Ribocure\"）簽訂獨家全球授權協議（\"Ribocure授權協議\"），取得六項新型siRNA計畫的授權，這些計畫旨在沉默與MASH疾病進展相關的特定基因。透過基因沉默的精準性與Rezdiffra的結合，本公司正在探索",
+    "是否在基因層面減少疾病驅動因素，可以補強Rezdiffra的治療效果。初始候選藥物的IND啟動活動預計於2026年開始。",
+    "本公司業務策略的關鍵零組件包括以下內容：",
+    "最大化Rezdiffra的價值。本公司於2025年透過Rezdiffra的銷售產生了9.584億美元的淨產品收入。隨著2025年12月31日每季銷售額年化達10億美元以上，且市場滲透率仍低，本公司相信我們在持續履行此戰略優先事項上處於優勢位置。透過支付方契約努力，本公司已取得廣泛的一線支付方准入，並相信我們將持續在2026年穩定增加患者數量。在美國，本公司持續教育醫療專業人員與患者關於MASH的風險與Rezdiffra的潛在臨牀效益與適當使用，並相信隨著目前MASH診斷率仍低，MASH市場將會隨時間顯著成長。本公司亦於2025年9月在德國推出Rezdiffra，並預期將在未來逐步於其他國際市場推出Rezdiffra。本公司持續相信Rezdiffra作為一種肝臟定向、每日一次、通常耐受性良好的口服治療藥物的產品特性，以及其首創市場地位，為MASH競爭環境中提供重要的差異化優勢。",
+    "在F4c領域提供變革性成果數據。本公司策略的關鍵零組件之一是擴展Rezdiffra的標籤，用以治療具有代償性MASH肝硬化（F4c）的患者，目前尚無核准的治療方式。本公司已完全招募Phase 3 MAESTRO-NASH OUTCOMES試驗的參與者，評估Rezdiffra在具有代償性MASH肝硬化患者中的效果，並預期於2027年取得此試驗的數據。此試驗的正面結果預期將支持Rezdiffra在美國對中度至進展性肝纖維化（F2至F3纖維化）的完全核准，並為Rezdiffra增加另一個適應症，即F4c患者，本公司相信這可能將Rezdiffra的商業機會翻倍。2025年，本公司宣佈從MAESTRO-NAFLD-1試驗中122名患者的開放標籤隊列中取得兩年的正面數據，評估Rezdiffra在F4c患者羣體中的效果，強化我們對OUTCOMES試驗取得正面結果的信心。本公司計畫持續評估擴展Rezdiffra標籤的機會，並產生新數據以維持本公司在MASH治療領域的領導地位。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "執行長摘要",
+    "財務摘要",
+    "營運成果主要零組件",
+    "產品營收，淨額",
+    "銷售成本",
+    "研究與發展費用",
+    "營銷、一般及行政費用",
+    "利息收入",
+    "利息支出",
+    "關鍵會計政策與會計估計",
+    "收入確認",
+    "營運成果",
+    "營運成果討論",
+    "2025 年與 2024 年比較",
+    "2024 年與 2023 年比較",
+    "2024 年 12 月 31 日與 2023 年 12 月 31 日之年度比較",
+    "流動性及資本資源",
+    "截至12月31日之會計年度",
+    "契約義務及商業承諾",
+    "近期會計準則聲明"
+   ],
+   "paragraphs": [
+    "本公司為一家生技藥品公司，專注於開發創新療法，用以治療MASH（一種嚴重的肝臟疾病，具有高度未被滿足的醫療需求，可能導致肝硬化、肝衰竭、肝癌、需要肝臟移植及早逝）。MASH為女性肝臟移植的主要原因，為美國所有肝臟移植的第二大原因，且為歐洲肝臟移植最快成長的適應症。本公司藥物Rezdiffra（resmetirom）為一種每日一次、口服、針對肝臟的THR-β激動劑，設計用以針對MASH的關鍵根本病因。2024年3月，Rezdiffra成為美國食品藥物管理局（FDA）批准的第一種用於治療MASH患者的療法，並於2024年4月開始在美國上市銷售。在獲得歐盟委員會（EC）CMA後，本公司於2025年9月在德國推出Rezdiffra。Rezdiffra為第一種同時獲得美國食品藥物管理局（FDA）與歐盟委員會（EC）批准用於治療非肝硬化MASH成人患者，且具有中度至進展性肝纖維化（F2至F3纖維化）的藥物。本公司亦正在MAESTRO-NASH OUTCOMES試驗中評估Rezdiffra用於治療具有代償性MASH肝硬化（符合F4c纖維化）患者，若成功，將可擴大Rezdiffra的適應症患者族羣。",
+    "此外，本公司正積極推進專注的藥物開發管道，以引領MASH治療的未來數十年發展。透過本公司業務發展努力，我們已取得MGL-2086（一種口服GLP-1受體激動劑）、ervogastat（一種口服DGAT2抑制劑）、六種siRNA計畫及其它預臨牀MASH候選藥物的權利。我們計畫評估這些候選藥物，目標是提供治療MASH的最佳療法。隨著我們持續建立藥物開發管道，我們將評估符合科學、戰略及商業考量的機制，以強化本公司在MASH照護領域的領導地位。",
+    "請參閱「第一部分，項目1. 事業」以取得本公司商業與臨牀活動的總結。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與 Rezdiffra 商業化及持續核准相關的風險",
+    "Rezdiffra 的商業成功將取決於醫師、患者、第三方支付者及其他醫療界人士對該產品的市場接受度。",
+    "若我們為 Rezdiffra 商業化所建立的銷售與行銷能力無法有效運作，Rezdiffra 可能無法成功商業化。",
+    "聯邦立法與監管機構推行參考定價或最優惠國定價模式的措施，可能影響我們的產品收入，並對我們的業務造成損害。",
+    "Rezdiffra 可能出現未預期的安全性或有效性問題，這將對我們產生重大不利影響。",
+    "我們處於一個高度競爭且不斷變化的環境中，若我們無法適應此環境，可能無法成功競爭。",
+    "若我們未能在海外司法管轄區取得 Rezdiffra 的監管核准，將無法在該地區行銷 Rezdiffra，這將限制我們的商業收入。",
+    "歐盟的 pricing 和 reimbursement 規範可能對我們在歐盟成員國行銷並取得 Rezdiffra 覆蓋範圍的能力產生重大影響。",
+    "若美國食品藥物管理局或其它適用之監管機關核准與 Rezdiffra 競爭之仿製藥品，將可能對 Rezdiffra 之銷售造成不利影響。",
+    "針對我們提起之產品責任訴訟可能使我們面臨重大負債，並可能限制 Rezdiffra 或任何未來產品候選藥物之商業化。",
+    "與產品開發及監管核准相關之風險",
+    "若我們未能成功開發並商業化其它產品候選藥物，我們可能無法拓展業務成長。"
+   ],
+   "paragraphs": [
+    "您應仔細審慎評估下列所列風險，並與本年度報告中所包含或參考的其他資訊，以及本公司向美國證券交易委員會（SEC）所提交的其他文件一併考量，以作為投資決策之依據。下列所列風險與不確定性並非完整無遺，亦非本公司所面臨的唯一風險與不確定性。尚有其他風險與不確定性，可能尚未為本公司所知悉，或本公司目前認為對投資人而言並不重要，這些風險與不確定性亦可能對本公司業務造成損害，且無法預測任何因素或因素組合對本公司業務、前景、財務狀況與營運成果可能產生的影響。若下列風險因素中所描述的任何事件、待決事項、情況或條件實際發生，將可能對本公司業務、財務狀況或營運成果造成重大且不利的影響，這可能會導致本公司普通股的交易價格下跌，您所持有的本公司股票價值可能部分或全部喪失。",
+    "本公司前景高度依賴本公司唯一獲批准的產品 Rezdiffra 的成功。Rezdiffra 在美國已根據新藥針對嚴重或威脅生命的疾病之 Subpart H 加速批准途徑獲批准，並已在歐盟獲得了 CMA。若本公司無法成功推廣 Rezdiffra 或維持其批准，將會對本公司業務、財務狀況、營運成果與前景以及本公司普通股價值造成重大且不利的影響。",
+    "2024 年 3 月，美國食品藥物管理局（FDA）批准 Rezdiffra 與飲食及運動結合，用於治療非纖維化 MASH 成人患者，其肝臟纖維化程度為中度至進展性（與 F2 至 F3 纖維化階段一致）；2025 年 8 月，歐盟委員會（EC）批准 Rezdiffra 在歐盟獲 CMA。本公司已投入並持續投入大量努力與財務資源於 Rezdiffra 的上市推廣。本公司作為一個組織，從來未曾推出或商業化任何其他產品，且無法保證本公司將持續成功商業化 Rezdiffra。許多案例顯示未能達到市場潛力的高期望，包括由擁有更多經驗與資源的藥物公司所發生的案例。本公司認為 Rezdiffra 的商業成功取決於許多因素，包括以下各項：",
+    "•本公司能否有效地教育醫療提供者與患者關於 MASH 的風險以及 Rezdiffra 的潛在臨牀效益；",
+    "•Rezdiffra 的療效、成本、核准用途與副作用與治療 MASH 的競爭性治療方案相比的表現；",
+    "•Rezdiffra 可能與目前市售產品的非核准用途及其他正在開發的療法競爭，這些療法未來可能獲得 MASH 的核准。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

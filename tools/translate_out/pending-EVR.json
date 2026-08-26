@@ -1,0 +1,217 @@
+{
+ "ticker": "EVR",
+ "cik": "0001360901",
+ "accession": "0001628280-26-010273",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Investment Banking & Equities",
+    "Investment Banking",
+    "Investment Management",
+    "Our Strategies for Growth",
+    "Human Capital Management"
+   ],
+   "paragraphs": [
+    "Evercore is the leading independent investment banking firm in the world based on the dollar volume of announced worldwide merger and acquisition (\"M&A\") transactions on which we have advised in the last five years(1). When we use the term \"independent investment banking firm,\" we mean an investment banking firm that directly, or through its affiliates, does not engage in commercial banking or significant proprietary trading activities. We were founded on the belief that there is an opportunity within the investment banking industry for a firm free of the potential conflicts of interest created within large, multi-product, capital intensive financial institutions. We believe that maintaining standards of excellence and integrity in our core businesses demands a spirit of cooperation and hands-on participation more commonly found in smaller organizations. Since our inception, we have set out to build—in the employees we choose and in the projects we undertake—an organization dedicated to the highest caliber of professionalism and integrity.",
+    "We operate globally through our two business segments: (i) Investment Banking & Equities and (ii) Investment Management.",
+    "Our Investment Banking & Equities segment includes our investment banking business and our equities business. In 2025, our Investment Banking & Equities segment generated $3.69 billion, or 98% of our revenues, excluding Other Revenue, net, ($2.81 billion, or 97%, in 2024 and $2.28 billion, or 97%, in 2023) and earned 806 fees from clients for advisory and underwriting transactions.",
+    "As we begin the year in 2026, our Investment Banking & Equities segment has 171 Investment Banking Senior Managing Directors and 39 Equities Senior Managing Directors with expertise and client relationships in a wide variety of industry sectors and a broad geographic reach.(2)",
+    "Our investment banking business provides strategic advisory, liability management and restructuring, capital markets advisory and private capital advisory and fundraising services. Through this business, we provide clients with differentiated strategic and tactical advice, as well as execution to financial sponsors and both public and private companies across a broad range of industry sectors and geographies. We help our clients identify and pursue strategic priorities, devise strategies to enhance shareholder value, and develop new ideas and deeper perspective to achieve their goals. We also serve as a leading advisor to clients on many of the largest and most complex capital transactions in the global capital markets. Our flexible and integrated teams develop trust with clients by focusing on their objectives. Functionally, we can act as an independent advisor, placement agent, or underwriter based on each client's circumstances and preferences.",
+    "•Strategic Advisory. We provide advisory services on a full range of matters, including mergers, sales, acquisitions, leveraged buyouts, joint ventures, strategic, defense and shareholder advisory, divestitures and other tax efficient combinations.",
+    "•Mergers and Acquisitions. In advising companies on mergers, sales, or acquisitions, we evaluate potential targets and acquirers, provide valuation analyses, and evaluate and propose financial and strategic alternatives. We provide boards, management teams and financial sponsors with independent judgment and deep expertise as they navigate their most important transactions and strategic decisions. We also advise as to the timing, structure, financing and pricing of a proposed transaction, as well as assist in negotiating and closing the deal.",
+    "•Strategic, Defense and Shareholder Advisory. Our extensive experience, insights into activist tactics, expertise in assisting companies with shareholder engagement and innovative defense strategies are instrumental in helping clients prepare for, avoid, and, if required, defend against activist investors and hostile takeover attempts. In public company situations, our strategic shareholder advice is an integral part of our practice and is a decisive edge for clients seeking to solve complicated issues and obtain shareholder support for their transactions.",
+    "(2) Senior Managing Director headcount as of December 31, 2025, inclusive of new hires that have joined year-to-date and additionally adjusted to include four incoming Investment Banking Senior Managing Directors committed to join in 2026.",
+    "•Special Committee Assignments. We have a leading special committee practice, which is driven by, and exemplifies, our overall commitment to independence, discretion, objectivity, and the delivery of unconflicted advice. Our team has a long history of offering impartial advice to special committees and assisting them to meet fiduciary duties and obligations in significant situations.",
+    "•Real Estate Strategic Advisory. Through our Real Estate Strategic Advisory (\"RESA\") team, we provide comprehensive strategic advisory and capital raising solutions to public and private companies, sponsors and investors globally. The team assists with advice and execution across the spectrum of clients and transaction types, including public mergers and acquisitions, portfolio sales and recapitalizations, continuation vehicles, joint ventures, funds, equity capital markets and other bespoke advisory engagements.",
+    "•Liability Management & Restructuring. We provide independent financial restructuring advice to companies, sponsors, creditors, shareholders and other stakeholders, both in-and out-of-court. We specialize in providing critical and unbiased advice to clients on complex balance sheet issues and transformational situations.",
+    "•Equity Capital Markets. We structure and execute equity and equity-linked capital markets and advisory services for the firm's corporate and financial sponsor clients. Our team provides its clients with execution expertise, independent advice, experienced judgment and key insights on all aspects of capital formation and capital markets transactions. Our Equity Capital Markets team has the flexibility to engage with our corporate and financial sponsor clients in an underwriting, placement agent or advisory capacity.",
+    "•Private Capital Markets and Debt Advisory. We provide corporate finance advisory services, including advisory services relating to private credit, growth equity and structured equity. This includes structuring and executing private market transactions for corporate and sponsor clients across equity, credit, structured equity or hybrid financing solutions."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business",
+    "Our growth has placed, and will continue to place, significant demands on our administrative, operational and financial resources.",
+    "Our revenue and profits are highly volatile, which may make it difficult for us to achieve steady earnings growth on a quarterly basis and may cause the price of our Class A common stock to decline.",
+    "Our failure to deal appropriately with actual, potential or perceived conflicts of interest could damage our reputation and materially adversely affect our business.",
+    "Employee misconduct, which is difficult to detect and deter, could harm us by impairing our ability to attract and retain clients while subjecting us to significant legal liability and reputational harm.",
+    "The financial services industry faces substantial litigation and regulatory risks, and we may face damage to our professional reputation and legal liability.",
+    "We may face damage to our professional reputation if our services are not regarded as satisfactory or for other reasons.",
+    "Extensive and evolving regulation of our businesses exposes us to the potential for significant penalties and fines due to compliance failures, increases our costs and limits our ability to engage in certain activities.",
+    "Our business is subject to various cybersecurity risks.",
+    "We are exposed to risks and costs associated with protecting the integrity and security of our clients', employees' and others' personal data and other sensitive information.",
+    "Our business is subject to various operational risks.",
+    "We may not be able to generate sufficient cash to service all of our indebtedness.",
+    "Our clients may be unable to pay us for our services.",
+    "Failure to maintain effective internal controls in accordance with Section 404 of the Sarbanes-Oxley Act could materially adversely affect our business.",
+    "We may not realize the cost savings, revenue enhancements or other benefits that we expected from our growth initiatives.",
+    "Risks Related to Our Investment Banking & Equities Business",
+    "Our Equities business relies on non-affiliated third-party service providers.",
+    "Underwriting and trading activities expose us to risks.",
+    "Risks Relating to Our Investment Management Business",
+    "The amount and mix of our AUM are subject to significant fluctuations.",
+    "If the funds we manage or invest in perform poorly, we will suffer a decline in our investment management revenue and earnings, and our Investment Management business may be adversely affected.",
+    "Our Investment Management business' reliance on non-affiliated third-party service providers subjects the Company to operational risks.",
+    "Risks Related to Our International Operations",
+    "A meaningful portion of our revenues are derived from our international operations, which are subject to certain risks."
+   ],
+   "paragraphs": [
+    "Difficult market conditions may adversely affect our business in many ways, including reducing the volume and value of the transactions involving our Investment Banking & Equities business, which may materially reduce our revenue or income.",
+    "As a financial services firm, our businesses are materially affected by conditions in the financial markets and economic conditions in the U.S. and throughout the world. Financial markets and economic conditions can be negatively impacted by many factors beyond our control, such as the inability to access credit markets, rising interest rates or inflation, the imposition or threatened imposition of tariffs, terrorism, political uncertainty, supply chain disruptions, uncertainty in the federal fiscal or monetary policy of U.S. or foreign governments, an evolving regulatory environment (and the timing and nature of regulatory",
+    "reform), climate change, extreme weather events or natural disasters, the emergence or continuation of widespread health emergencies or pandemics, cyberattacks or campaigns, military conflicts or other geopolitical events. Unfavorable market or economic conditions, as well as volatility in the financial markets, can materially reduce the demand for our services and present challenges.",
+    "Revenue generated by our Investment Banking & Equities business is related to the volume and value of the transactions in which we are involved. The majority of our bankers are focused on covering clients in the context of providing M&A services and those activities generate a substantial portion of our revenues. During periods of unfavorable market and economic conditions, our operating results may be adversely affected by a decrease in the volume and value of M&A transactions and increasing price competition among financial services companies seeking advisory engagements. Our clients engaging in M&A transactions often rely on access to the credit and/or capital markets to finance their transactions. The uncertainty of available credit and interest rates and the volatility of the capital markets, and the fact that we do not provide financing or otherwise commit capital to clients, can adversely affect the size, volume, timing and ability of such clients to successfully complete M&A transactions and adversely affect our Investment Banking & Equities business. In addition, our profitability would be adversely affected due to our fixed costs and the possibility that we would be unable to reduce our variable costs without reducing revenue or within a timeframe sufficient to offset any decreases in revenue relating to changes in market and economic conditions.",
+    "We also seek to generate greater business from our liability management and restructuring and capital markets services and our Equities business. However, we cannot be certain that we will be able to significantly offset lower revenues from a decline in our M&A activities with increased revenues generated from liability management and restructuring and capital markets services or from our Equities business. Our liability management and restructuring services, which provide financial advice and investment banking services to companies in financial transition, as well as to creditors, shareholders and potential acquirers, our capital markets services, which provide corporations and financial sponsors with advice relating to a broad array of financing issues, and our Equities business, which provides equity research and agency securities trading for institutional investors, are smaller than our M&A advisory business and we expect that they will remain that way for the foreseeable future.",
+    "Unfavorable market conditions may also lead to a reduction in revenues from our underwriting and placement agent activities, our private funds advisory and private capital markets businesses, and the demand for the research and other services provided by our Equities business could correspondingly decline."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Key Financial Measures",
+    "Results of Operations",
+    "2024 2023 2025 v. 2024 2024 v. 2023",
+    "2025 versus 2024",
+    "Impairment of Assets",
+    "Business Segments",
+    "Investment Banking & Equities",
+    "Change 2024 2023 2025 v. 2024 2024 v. 2023 3,267,087 $ 2,440,605 $ 1,963,857 34 % 24 % 157,067 111,016 14 % 41 % 214,045 202,789 13 % 6 % (1)(2)",
+    "Non-Compensation 106,309 $ 88,604 $ 82,180 20 % 8 %",
+    "Change 2024 2023 2025 v. 2024 2024 v. 2023 (1)",
+    "Investment Management",
+    "Change 2024 2023 2025 v. 2024 2024 v. 2023 87,356 $ 79,550 $ 67,041 10 % 19 % (1)",
+    "Non-Compensation 2,475 $ 2,349 $ 2,149 5 % 9 %",
+    "(dollars in millions) $ 12,272 1,241 (1,043) 1,428",
+    "For the Years Ended December 31,",
+    "(dollars in thousands)",
+    "Cash Provided By (Used In)",
+    "Net Increase (Decrease) in Cash, Cash Equivalents and Restricted Cash 554,033 276,623 (66,639)",
+    "Cash, Cash Equivalents and Restricted Cash",
+    "Liquidity and Capital Resources"
+   ],
+   "paragraphs": [
+    "The following discussion should be read in conjunction with Evercore Inc.'s consolidated financial statements and the related notes included elsewhere in this Form 10-K.",
+    "Total revenues reflect revenues from our Investment Banking & Equities and Investment Management business segments that include fees for services, transaction-related client reimbursements and other revenue. Net revenues reflect total revenues less interest expense.",
+    "Investment Banking & Equities. Our Investment Banking & Equities segment earns fees from its clients for providing advice on mergers, acquisitions, divestitures, capital raising, leveraged buyouts, liability management and restructurings, private funds advisory and private capital markets services, activism and defense and similar corporate finance matters, and from underwriting and private placement activities, as well as commissions, fees and principal revenues from research and sales and trading activities. The amount and timing of the fees paid vary by the type of engagement or services provided. In general, advisory fees are paid at the time we sign an engagement letter, during the course of the engagement or when an engagement is completed. The majority of our revenue consists of advisory fees for which realizations are dependent on the successful completion of client transactions. A transaction can fail to be completed for many reasons which are outside of our control, including failure of parties to agree upon final terms with the counterparty, to secure necessary board or shareholder approvals, to secure necessary financing, to achieve necessary regulatory approvals, or due to adverse market conditions. In the case of bankruptcy engagements, fees may be subject to court approval. Underwriting fees are recognized when the offering has been deemed to be completed and placement fees are generally recognized at the time of the client's acceptance of capital or capital commitments. Commissions and Related Revenue includes commissions, which are recorded on a trade-date basis or, in the case of payments under commission sharing arrangements, on the date earned. Commissions and Related Revenue also includes subscription fees for the sale of research, as well as revenues from trades primarily executed on a riskless principal basis. Cash received before the subscription period ends is initially recorded as deferred revenue (a contract liability) and recognized as revenue over the remaining subscription period.",
+    "Revenue trends in our advisory business generally are correlated to the volume of M&A activity, restructuring activity, which generally tends to be counter-cyclical to M&A, and capital advisory activity. Demand for these capabilities can vary in any given year or quarter for a number of reasons. For example, changes in our market share or the ability of our clients to close certain large transactions can cause our revenue results to diverge from the level of overall M&A, restructuring or capital advisory activity. Revenue trends in our equities business are correlated, in part, to market volumes, which generally decrease in periods of low market volatility or unfavorable market or economic conditions. See \"Liquidity and Capital Resources\" below for further information.",
+    "Investment Management. Our Investment Management segment includes operations related to the Wealth Management business and interests in private equity funds which we do not manage. Revenue sources primarily include management fees, fiduciary fees and gains (or losses) on our investments.",
+    "Management fees for third party clients generally represent a percentage of AUM. Fiduciary fees, which are generally a function of the size and complexity of each engagement, are individually negotiated. Gains and losses include both realized and unrealized gains and losses on principal investments, including those arising from our equity interest in investment partnerships.",
+    "Transaction-Related Client Reimbursements. In our Investment Banking & Equities segment, we incur various transaction-related expenditures, such as travel expenses and professional fees, in the course of performing our services. Pursuant to the engagement letters with our advisory clients, these expenditures may be reimbursable. We define these expenses, which are associated with revenue activities earned over time, as transaction-related expenses and record such expenditures as incurred and record revenue when it is determined that clients have an obligation to reimburse us for such transaction-related expenses. Client expense reimbursements are recorded as revenue on the Consolidated Statements of Operations on the later of the date an engagement letter is executed or the date we pay or accrue the expense.",
+    "Other Revenue and Interest Expense. Other Revenue includes the following:",
+    "•Interest income, including accretion, and income (losses) on investment securities, including our investment funds (which are used as an economic hedge against our deferred cash compensation program), certificates of deposit, cash and cash equivalents and long-term accounts receivable",
+    "•A gain on the sale of the remaining portion of our interest in ABS Investment Management Holdings LP and ABS Investment Management GP LLC (collectively, \"ABS\") in 2024. See Note 10 to our consolidated financial statements for further information",
+    "•A loss related to the release of cumulative foreign exchange losses resulting from the redemption of our interest in Luminis in 2024. See Note 10 to our consolidated financial statements for further information",
+    "•Gains (losses) resulting from foreign currency exchange rate fluctuations and foreign currency exchange forward contracts used as an economic hedge against exchange rate risk for foreign currency denominated accounts receivable or other commitments",
+    "•Realized and unrealized gains and losses on interests in private equity funds which we do not manage",
+    "•Adjustments to amounts due pursuant to our tax receivable agreement, subsequent to its initial establishment, related to changes in enacted tax rates"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "投資銀行與證券業務",
+    "投資銀行業務",
+    "投資管理業務",
+    "成長策略",
+    "人力資本管理"
+   ],
+   "paragraphs": [
+    "Evercore 是全球領先的獨立投資銀行，根據我們在過去五年內所建議的全球合併與收購（\"M&A\"）交易的美元交易量來評估。(1) 當我們使用 \"獨立投資銀行\" 這個詞時，我們指的是不直接或透過其附屬公司從事商業銀行或重大自有交易活動的投資銀行。我們成立的信念是，在投資銀行業中存在一個機會，讓一家不受大型、多產品、資本密集型金融機構所產生潛在利益衝突影響的公司。我們認為，維持核心業務的卓越標準與誠信，需要一種更常見於小型組織中的合作精神與親自參與。自我們成立以來，我們致力於建立一個專注於最高專業水準與誠信的組織，這體現在我們所選擇的員工與所執行的專案中。",
+    "我們透過兩個業務分部在全球運作：(i) 投資銀行與證券業務，以及 (ii) 投資管理業務。",
+    "我們的投資銀行與證券業務分部包括我們的投資銀行業務與證券業務。在 2025 年，我們的投資銀行與證券業務分部產生了 369 億美元，或我們營業收入的 98%，扣除其他收入後（281 億美元，或 97%，在 2024 年；228 億美元，或 97%，在 2023 年），並從客戶處獲得了 806 億美元的顧問與發行費用。",
+    "在 2026 年開始時，我們的投資銀行與證券業務分部擁有 171 名投資銀行高級管理董事與 39 名證券高級管理董事，他們在多種產業領域擁有專業知識與客戶關係，並具備廣泛的地理覆蓋範圍。(2)",
+    "我們的投資銀行業務提供戰略諮詢、負債管理與重整、資本市場諮詢與私人資本諮詢與融資服務。透過此業務，我們為客戶提供差異化的戰略與執行建議，以及在廣泛產業領域與地理範圍內，為財務機構與公開與非公開公司提供執行服務。我們協助客戶識別並追求戰略優先事項，制定提升股東價值的策略，並發展新想法與更深入的觀點以實現其目標。我們也擔任客戶在全球最大且最複雜的資本市場交易中的主要顧問。我們靈活且整合的團隊透過專注於客戶目標來建立與客戶的信賴。功能上，我們可以根據客戶的狀況與偏好，擔任獨立顧問、 placements agent 或發行者。",
+    "•戰略諮詢。我們提供涵蓋合併、出售、收購、槓桿收購、合資企業、戰略、防禦與股東諮詢、資產處分及其他稅務效率組合等全範圍的諮詢服務。",
+    "•合併與收購。在為公司提供合併、出售或收購建議時，我們評估潛在目標與買方，提供估值分析，並評估與提出財務與戰略替代方案。我們為董事會、管理團隊與財務機構提供獨立判斷與深厚專業知識，協助他們處理最重要的交易與戰略決策。我們也建議交易的時機、結構、融資與定價，並協助談判與完成交易。",
+    "•戰略、防禦與股東諮詢。我們廣泛的經驗、對行動投資者策略的洞察、協助公司進行股東參與與創新防禦策略的專業知識，對幫助客戶準備、避免，並在必要時防禦行動投資者與敵意收購企圖至關重要。在公開公司的情況下，我們的戰略股東諮詢是我們實務的重要組成部分，並為客戶解決複雜問題與獲得股東對其交易的支持提供了關鍵優勢。",
+    "（2）2025 年 12 月 31 日之高階管理董事人數，包含本年迄今新進員工，並另外調整包含四位預計於 2026 年加入的投資銀行高階管理董事。",
+    "•特別委員會任務。我們擁有領先的特別委員會任務業務，此業務由我們對獨立性、 discretion、客觀性以及提供無利益衝突建議的總體承諾所驅動，並體現此承諾。我們團隊擁有長久的歷史，提供中立建議給特別委員會，協助他們在重大情況下履行信託義務與責任。",
+    "•房地產戰略諮詢。透過我們的房地產戰略諮詢（\"RESA\"）團隊，我們為全球上市與非上市企業、發起人及投資者提供全面的戰略諮詢與資金籌集解決方案。該團隊協助客戶在不同類型的客戶與交易中提供建議與執行，包括公開市場的併購、資產出售與重資本化、持續經營工具、合資企業、基金、股權資本市場及其他個性化諮詢業務。",
+    "•負債管理與重整。我們為企業、發起人、債權人、股東及其他相關方提供獨立的財務重整建議，無論是否在法院程序內。我們專注於為客戶提供對複雜資產負債表問題與轉型情境的關鍵且無偏見的建議。",
+    "•股權資本市場。我們為公司的企業客戶與財務發起人客戶結構並執行股權及股權相關的資本市場與諮詢服務。我們團隊為客戶提供執行專業、獨立建議、經驗判斷與關鍵洞察，涵蓋資本形成與資本市場交易的各方面。我們的股權資本市場團隊有彈性與公司的企業客戶與財務發起人客戶以經銷商、 placements agent 或諮詢方式合作。",
+    "•私人資本市場與債務諮詢。我們提供企業財務諮詢服務，包括與私人信貸、成長型股權及結構化股權相關的諮詢服務。這包括為企業與發起人客戶結構並執行私人市場交易，涵蓋股權、信貸、結構化股權或混合融資解決方案。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "關鍵財務指標",
+    "營運成果",
+    "2024 2023 2025 與 2024 2024 與 2023",
+    "2025 與 2024",
+    "資產減損",
+    "業務分部",
+    "投資銀行與證券",
+    "變動 2024 2023 2025 與 2024 2024 與 2023 3,267,087 $ 2,440,605 $ 1,963,857 34 % 24 % 157,067 111,016 14 % 41 % 214,045 202,789 13 % 6 % (1)(2)",
+    "非薪酬 106,309 美元 88,604 美元 82,180 20 % 8 %",
+    "變動 2024 2023 2025 與 2024 年比較 2024 與 2023 年比較 (1)",
+    "投資管理",
+    "變動 2024 2023 2025 與 2024 年比較 2024 與 2023 年比較 87,356 美元 79,550 美元 67,041 10 % 19 % (1)",
+    "非薪酬 2,475 美元 2,349 美元 2,149 5 % 9 %",
+    "(美元以千萬計) $ 12,272 1,241 (1,043) 1,428",
+    "截至 12 月 31 日年度",
+    "(美元以千計)",
+    "現金來源（使用於）",
+    "現金、現金等價物及受限現金淨增加（減少） 554,033 276,623 (66,639)",
+    "現金、現金等價物及受限現金",
+    "流動性及資本資源"
+   ],
+   "paragraphs": [
+    "以下討論應配合 Evercore Inc. 之合併財務報表及相關附註資料一併閱讀，附註資料載於本 Form 10-K 其他處。",
+    "總營業收入反映本公司投資銀行與證券業務及投資管理業務分部之收入，包含服務費用、交易相關客戶補償及其它收入。淨營業收入反映總營業收入減去利息費用。",
+    "投資銀行與證券業務。本公司投資銀行與證券業務分部透過為客戶提供合併、收購、資產處置、資本籌集、槓桿收購、負債管理及重整建議、私人基金顧問服務及私人資本市場服務、 activism 及防禦等企業財務事務建議，以及擔任發行及私募發行活動之承銷商，以及從研究與買賣交易活動中收取的佣金、費用及本金收入來獲取費用。費用金額及時點因提供之服務類型而異。通常，建議費用在本公司簽訂委託書時、在委託期間內或委託完成時支付。本公司絕大多數收入為建議費用，其實現取決於客戶交易之成功完成。交易可能因許多原因未能完成，這些原因通常超出本公司控制範圍，包括委託方與交易對手未能達成最終條款、未能取得必要的董事會或股東批准、未能取得必要的融資、未能取得必要的監管批准，或因不利之市場條件。在破產委託情況下，費用可能需經法院批准。承銷費用在發行被認為已完成時確認，而 placements 費用通常在客戶接受資本或資本承諾時確認。佣金及相關收入包含佣金，佣金按交易日記帳，或在佣金共享安排下按實際取得日期記帳。佣金及相關收入也包含銷售研究報告之訂閱費用，以及主要以無風險本金方式執行之交易收入。在訂閱期結束前收到之現金，會先記入遞延收入（為合同負債），並在剩餘訂閱期內逐步確認為收入。",
+    "本公司建議業務之收入趨勢通常與合併與收購活動量、重整活動量（通常與合併與收購活動呈反向關係）及資本建議活動量相關。這些能力之需求在任何一年或季度可能因多種原因而有所不同。例如，市場佔有率之變化或客戶能否完成某些大型交易，可能導致本公司收入結果與整體合併、重整或資本建議活動量有所差異。本公司證券業務之收入趨勢部分與市場交易量相關，通常在市場波動低或市場或經濟條件不利之期間，市場交易量會減少。有關進一步資訊，請參閱下方 \"流動性及資本資源\" 部分。",
+    "投資管理。本公司投資管理業務分部包含與財富管理業務相關之運作，以及本公司未管理之私人股權基金權益。收入來源主要為管理費、受託費及投資之獲利（或虧損）。",
+    "第三方客戶之管理費通常為 AUM 之百分比。受託費通常根據每筆委託之規模及複雜度而 individually negotiated。獲利與虧損包含本公司投資本金之已實現及未實現獲利與虧損，包括因本公司在投資合夥企業中之權益而產生之獲利與虧損。",
+    "交易相關客戶補償。在本公司投資銀行與證券業務分部，我們在執行服務過程中會產生各種交易相關支出，例如差旅費用及專業費用。根據與我們建議客戶之委託書，這些支出可能可獲得補償。我們將這些與隨時間產生收入活動相關之費用定義為交易相關費用，並在支出發生時記錄，並在確認客戶有義務補償我們這些交易相關費用時確認收入。客戶費用補償記錄為合併營運費用表之收入，於委託書簽訂日或我們支付或累計該費用之日後較晚者確認。",
+    "其他收入及利息費用。其他收入包含以下內容：",
+    "•利息收入，包括累計利息，以及投資證券的收入（損失），包括我們的投資基金（用作對我們延後現金報酬計劃的經濟對沖），存款憑證、現金及現金等價物以及長期應收款",
+    "•2024 年出售我們在 ABS 投資管理控股有限公司及 ABS 投資管理有限責任公司（合稱 \"ABS\"）剩餘權益所產生的收益。有關進一步資訊，請參閱我們合併財務報表的附註 10",
+    "•與 2024 年贖回我們在 Luminis 的權益所導致累積外幣兌換損失釋放有關的損失。有關進一步資訊，請參閱我們合併財務報表的附註 10",
+    "•因外幣兌換匯率波動以及用作對外幣計價應收款或其他承諾的外幣兌換遠期合約所產生的收益（損失）",
+    "•對我們未管理的私人股權基金權益所產生的已實現及未實現收益（損失）",
+    "•根據我們稅收應收款協議，於其初始建立後，因已實施稅率變動而產生的應計金額調整"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務相關的風險",
+    "我們的成長已對我們的行政、運營及財務資源造成重大壓力，並將持續如此。",
+    "我們的營業收入與利潤具有高度波動性，這可能使我們難以在每季實現穩定的獲利成長，也可能導致本公司 A 級普通股的價格下跌。",
+    "我們若未能適當處理實際、潛在或被認為存在的利益衝突，可能損害我們的聲譽，並對我們的業務造成重大不利影響。",
+    "員工不當行為，難以察覺與防範，可能透過削弱我們吸引及留住客戶的能力，同時使我們面臨重大法律責任與聲譽損害。",
+    "金融服務業面臨重大訴訟與監管風險，我們可能因此遭受專業聲譽損害與法律責任。",
+    "若我們的服務未被視為滿意或因其他原因，我們可能遭受專業聲譽損害。",
+    "我們業務所面對的廣泛且不斷演進的監管，使我們面臨因合規失敗而遭受重大處罰與罰款的潛在風險，增加我們的成本，並限制我們進行某些活動的能力。",
+    "本公司業務面臨各種網路安全風險。",
+    "我們面臨保護客戶、員工及其他人士個人資料及其它敏感資訊之完整性與安全性所產生之風險與成本。",
+    "本公司業務面臨各種營運風險。",
+    "我們可能無法產生足夠現金以償付所有債務。",
+    "客戶可能無法支付我們之服務費用。",
+    "未能依照薩班斯-奧克斯利法案第404條項維持有效內控，可能對本公司業務造成重大不利影響。",
+    "我們可能無法實現我們成長計畫所預期的成本節省、收入提升或其他好處。",
+    "與本公司投資銀行及證券業務相關之風險",
+    "本公司證券業務依賴非關係企業第三方服務提供者。",
+    "承銷與交易活動使本公司面臨風險。",
+    "與本公司投資管理業務相關的風險",
+    "本公司管理或投資的資產規模與組成會有顯著波動。",
+    "若本公司所管理或投資的基金錶現不佳，將導致本公司投資管理收入與獲利下降，且投資管理業務可能受到不利影響。",
+    "本公司投資管理業務依賴非關係企業第三方服務提供者，使本公司面臨運營風險。",
+    "與本公司國際業務相關的風險",
+    "本公司營收中有相當一部分來自國際業務，而國際業務面臨某些風險。"
+   ],
+   "paragraphs": [
+    "困難的市場環境可能以多種方式對本公司業務產生不利影響，包括降低涉及本公司投資銀行與證券業務之交易數量與價值，這可能會顯著降低本公司之營業收入或所得。",
+    "作為一家金融服務機構，本公司業務受到美國及全球金融市場狀況與經濟條件的重大影響。金融市場與經濟條件可能因許多超出本公司控制範圍的因素而受到負面影響，例如無法取得信貸市場、利率或通貨膨脹上升、課徵或威脅課徵關稅、恐怖主義、政治不確定性、供應鏈中斷、美國或外國政府財政或貨幣政策之不確定性、不斷演進之監管環境（以及監管改革之時間與性質）、氣候變遷、極端天氣事件或自然災害、廣泛健康危機或疫情之出現或持續、網路攻擊或行動、軍事衝突或其他地緣政治事件。不利之市場或經濟條件，以及金融市場之波動，可能會顯著降低本公司服務之需求並帶來挑戰。",
+    "不利之市場或經濟條件，以及金融市場之波動，可能會顯著降低本公司服務之需求並帶來挑戰。",
+    "本公司投資銀行與證券業務所產生的營業收入與我們參與交易的交易量及交易價值有關。本公司絕大多數的銀行家專注於為客戶提供合併與收購（M&A）服務的背景下覆蓋客戶，而這些活動產生了我們營業收入的相當大一部分。在市場與經濟條件不利的時期，我們的營運結果可能因交易量與交易價值的減少以及金融服務公司之間價格競爭的增加而受到不利影響。參與M&A交易的客戶往往依賴對信貸及/或資本市場的存取來籌措交易資金。信貸與利率的不確定性及資本市場的波動性，以及我們不提供融資或否則承諾資本給客戶的事實，可能會不利影響這些客戶完成M&A交易的規模、交易量、時間及能力，並不利影響我們的投資銀行與證券業務。此外，由於我們的固定成本，以及我們可能無法在不減少營收或在足夠的時間內減少變動成本的情況下抵消市場與經濟條件變動所導致的營收減少，因此我們的利潤率可能會受到不利影響。",
+    "我們也致力於從我們的負債管理與重整及資本市場服務以及我們的證券業務中產生更多業務。然而，我們無法確定我們是否能透過負債管理與重整及資本市場服務或我們的證券業務所產生的增加收入，顯著彌補M&A活動減少所導致的收入減少。我們的負債管理與重整服務，為處於財務轉型階段的公司以及債權人、股東及潛在收購方提供財務建議與投資銀行服務；我們的資本市場服務，為公司與財務投資人提供與廣泛融資問題相關的建議；我們的證券業務，為機構投資人提供股權研究與代理證券交易服務。這些業務規模均小於我們的M&A諮詢業務，我們預期在可預見的未來，這些業務規模將維持現狀。",
+    "不利的市場條件也可能導致我們的承銷與 placements agent 活動、私人基金諮詢與私人資本市場業務的收入減少，以及我們的證券業務所提供的研究及其他服務的需求可能相應減少。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

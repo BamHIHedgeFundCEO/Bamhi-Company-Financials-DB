@@ -1,0 +1,209 @@
+{
+ "ticker": "WTRG",
+ "cik": "0000078128",
+ "accession": "0000078128-26-000050",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Operating Revenues and Segments",
+    "Customers and Seasonality of Business",
+    "Acquisitions and Other Growth Ventures",
+    "Capital Investment",
+    "Supply and Facilities",
+    "Economic Regulation",
+    "Environmental, Health and Safety Regulation and Compliance"
+   ],
+   "paragraphs": [
+    "Essential Utilities, Inc., referred to as \"Essential Utilities\", \"Essential\", the \"Company\", \"we\", \"us\", or \"our\", a Pennsylvania corporation, is the holding company for regulated utilities providing water, wastewater, or natural gas services to an estimated 5.5 million people in Pennsylvania, Ohio, Texas, Illinois, North Carolina, New Jersey, Indiana, Virginia, and Kentucky under the Aqua and Peoples brands. One of our largest operating subsidiaries, Aqua Pennsylvania, Inc., or Aqua Pennsylvania, accounted for approximately 57% of operating revenues and approximately 72% of income for our Regulated Water segment in 2025. As of December 31, 2025, Aqua Pennsylvania provided water or wastewater services to approximately one-half of the total number of water and wastewater customers we serve. Aqua Pennsylvania's service territory is located in the suburban areas in counties north and west of the City of Philadelphia and in 28 other counties in Pennsylvania. Our other regulated water or wastewater utility subsidiaries provide similar services in seven additional states. Our Peoples subsidiaries provide natural gas service to approximately 747,000 customers in western Pennsylvania and Kentucky. Approximately 95% of the total number of natural gas utility customers we serve are in western Pennsylvania. The Company also operates market-based activities, conducted through its non-regulated subsidiaries, that provide utility service line protection solutions and repair services to households and gas marketing and production activities. Currently, the Company seeks to acquire businesses in the U.S. regulated sector, focusing on water and wastewater utilities and to opportunistically pursue growth ventures in select market-based activities, such as infrastructure opportunities that are supplementary and complementary to our regulated water utility businesses.",
+    "On October 26, 2025, we entered into an Agreement and Plan of Merger (the \"Merger Agreement\") with American Water Works Company, Inc. (\"American Water\") and Alpha Merger Sub, Inc., a direct wholly owned subsidiary of American Water (\"Merger Sub\"). The Merger Agreement provides that upon the terms and subject to the conditions set forth in the Merger Agreement, Merger Sub will merge with and into the Company (the \"Merger\"), with the Company surviving the Merger as a wholly owned subsidiary of American Water. Under the terms of the agreement, Essential shareholders will receive 0.305 shares of American Water common stock, par value $0.01 per share, (\"American Water Common Stock\") for each share of our common stock, par value $0.50 per share, they own at the closing of the Merger. The Company currently estimates that the closing of the proposed Merger will occur by the end of the first quarter of 2027, subject to the remaining customary closing conditions, including, among others, clearance under the Hart-Scott-Rodino Act, and regulatory approvals, including approval from the applicable public utility commissions. On February 10, 2026, at the respective special shareholder meetings of the Company and American Water, each company's shareholders approved the Merger-related proposals, satisfying certain of the conditions to closing. See Item 1A – Risk Factors for a discussion of risks related to the Merger and Item 8 –Note 1 - Summary of Significant Accounting Policies of this Annual Report for additional information.",
+    "The following table reports our operating revenues, by principal state, for our Regulated Water segment, which includes both water and wastewater utility services, Regulated Natural Gas segment, and Other and eliminations for the year ended December 31, 2025:",
+    "Operating Revenues (000's) Operating Revenues (%) Pennsylvania 750,575 30.3% Ohio 142,970 5.8%",
+    "Texas 107,290 4.3% Illinois 115,831 4.7% North Carolina 89,796 3.6% Other states (1) 120,167",
+    "4.9% Regulated Water segment total 1,326,629 53.6% Pennsylvania 1,049,834 42.4% Kentucky 68,041",
+    "2.8% Regulated Natural Gas segment total 1,117,875 45.2% Other and eliminations 30,111 1.2%",
+    "(1)Includes our water operating subsidiaries in the following states: New Jersey, Indiana, and Virginia.",
+    "The Company has identified eleven operating segments and has two reportable segments, the Regulated Water segment and the Regulated Natural Gas segment. The Regulated Water segment is comprised of eight operating segments for the Company's water and wastewater regulated utility companies, aligned with the states where we provide these services. These operating segments are aggregated into one reportable segment since each of the Company's operating segments has the following similarities: economic characteristics, nature of services, production processes, customers, water distribution or wastewater collection methods, and the nature of the regulatory environment. The Regulated Natural Gas segment is comprised of one operating segment representing natural gas utility companies, for which the Company provides natural gas distribution services. In addition to the Company's two reportable segments, the Company includes two of its operating segments in \"Other\". These businesses represent its non-regulated water, wastewater, and natural gas operations, which are not quantitatively significant to be reportable and therefore are included as a component of \"Other\". In addition, \"Other\" and eliminations include corporate costs that have not been allocated to the Regulated Water and Regulated Natural Gas",
+    "segments, because they would not be recoverable as a cost of utility service, and intersegment eliminations. Information concerning revenues, net income, significant segment expenses and related financial information for the Regulated Water and Regulated Natural Gas segments and Other and eliminations for 2025, 2024, and 2023, is set forth in Management's Discussion and Analysis of Financial Condition and Results of Operations and in Note 19 – Segment Information in the Notes to Consolidated Financial Statements which is contained in Item 8 of this Annual Report.",
+    "The following table summarizes our operating revenues, by utility customer class, for the Regulated Water and Regulated Natural Gas segments and Other and eliminations for the year ended December 31, 2025:",
+    "Operating Revenues (000's) Operating Revenues (%) Residential water 731,818 29.6% Commercial water",
+    "208,617 8.4% Fire protection 46,998 1.9% Industrial water 41,619 1.7% Other water 63,537 2.6%",
+    "Total water 1,092,589 44.2% Wastewater 223,103 9.0% Other utility 10,937 0.4% Regulated Water segment total"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factor Summary",
+    "Risks Related to the Proposed Merger",
+    "The Merger may cause suppliers, strategic partners, certain customers, or others to delay or defer decisions regarding our business, and may adversely affect our ability to effectively manage our business.",
+    "We may be the target of securities class action and derivative lawsuits which could result in substantial costs and may delay or prevent the Merger from being completed.",
+    "If completed, the Merger may not achieve its anticipated results, and American Water may not be able to integrate our operations and/or operate the combined company in the manner expected.",
+    "The companies may incur substantial and/or unexpected transaction fees and Merger-related costs in connection with the Merger.",
+    "The shares of American Water Common Stock to be received by our shareholders upon completion of the Merger will have different rights from shares of our common stock.",
+    "Current shareholders of each company will have reduced ownership and voting interests in their respective companies after the Merger.",
+    "The Merger may not be accretive to the combined company's earnings and may adversely affect the combined company's earnings per share, which may negatively affect the market price of the combined company's common stock.",
+    "Risks Related to the Operation and Regulation of our Business",
+    "General economic conditions may affect our financial condition and results of operations.",
+    "Inflation, and the potential impact of new or sustained changes to tariffs, could adversely impact our ability to control costs, including operating expenses and capital costs.",
+    "Changes in our earnings per share may differ from changes in our rate base.",
+    "Any failure of our water and wastewater treatment plants, network of water and wastewater pipes, or water reservoirs could result in damages that may harm our business, financial condition, and results of operations.",
+    "Our facilities could be the target of a possible terrorist or other deliberate attack which could harm our business, financial condition and results of operations.",
+    "Our business is impacted by weather conditions and is subject to seasonal fluctuations, which could harm demand for water and natural gas services and our business, financial condition, and results of operations.",
+    "The failure of, or the requirement to repair, upgrade or dismantle any of our dams or reservoirs may harm our business, financial condition, and results of operations.",
+    "Our operations are geographically concentrated in Pennsylvania, which make us susceptible to risks affecting Pennsylvania.",
+    "Our water or wastewater utility systems may be subject to condemnations or other methods of taking by governmental entities."
+   ],
+   "paragraphs": [
+    "In addition to the other information included in this Annual Report, the following factors should be considered in evaluating our business and future prospects. Any of the following risks, either alone or taken together, could materially harm our business, financial condition, and results of operations. If one or more of these or other risks or uncertainties materialize, or if our underlying assumptions prove to be incorrect, our business, financial condition, and results of operations could be materially harmed.",
+    "Our business is subject to many risks and uncertainties. The following are the types of forward-looking statements we make throughout this Annual Report, including in these Risk Factors, and a summary of the types of risks that could impact us and cause actual results to differ from those described in such forward-looking statements:",
+    "expected timing and likelihood of completion of our proposed Merger with American Water;",
+    "opportunities for future acquisitions, both within and outside the water and wastewater industries, the success of pending acquisitions and the impact of future acquisitions;",
+    "Merger or acquisition-related costs and synergies;",
+    "the impact of decisions of governmental and regulatory bodies, including decisions to raise or lower rates and decisions regarding potential acquisitions and our proposed Merger with American Water;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Recent Developments",
+    "Economic Regulation",
+    "Regulatory Mechanism",
+    "States Allowed",
+    "Effective Date",
+    "Annualized Revenue Increase",
+    "Total Base Rate Case Authorizations in 2025",
+    "Growth Through Acquisitions and Capital Investment",
+    "Operating Statistics",
+    "Consolidated Results of Operations Comparison for 2025 and 2024",
+    "Operating expenses - Operations and maintenance expenses increased in 2025, as compared to 2024, by $52,354 or 8.9%, primarily due to:",
+    "Net income -",
+    "Segment Results of Operations Comparison for 2025 and 2024",
+    "Regulated Water Segment",
+    "Operating expenses - Operations and maintenance expense increased by $23,929 or 6.3% primarily due to the following:",
+    "Other expense, net – Interest expense, net of interest income, increased by $10,677 or 7.6% primarily due to the increase in average borrowings and increased borrowing costs.",
+    "Regulated Natural Gas Segment",
+    "Operating revenues – Operating revenues from the Regulated Natural Gas segment increased by $274,884 or 32.6% primarily due to:",
+    "Operating expenses – Operations and maintenance expense for the year ended December 31, 2025 increased by $20,480 or 9.9% primarily due to the following:",
+    "Consolidated Cash Flow and Capital Expenditures",
+    "Acquisitions",
+    "Dispositions"
+   ],
+   "paragraphs": [
+    "Execution of Agreement and Plan of Merger with American Water",
+    "On October 26, 2025, American Water Works Company, Inc. (\"American Water\"), Alpha Merger Sub, Inc., a direct wholly owned subsidiary of American Water (\"Merger Sub\"), and the Company, entered into an Agreement and Plan of Merger (the \"Merger Agreement\"). The Merger Agreement provides that upon the terms and subject to the conditions set forth in the Merger Agreement, Merger Sub will merge with and into the Company (the \"Merger\"), with the Company surviving the Merger as a wholly owned subsidiary of American Water. Subject to the terms and conditions of the Merger Agreement, at the time at which the Merger becomes effective (the \"Effective Time\"), each share of the Company's common stock, par value $0.50 per share (\"Essential Common Stock\"), issued and outstanding immediately prior to the Effective Time, other than any shares of Essential Common Stock owned by American Water or Merger Sub or by the Company as treasury stock (in each case, other than restricted shares), will be converted into the right to receive 0.305 shares of validly issued, fully paid and nonassessable shares of common stock, par value $0.01 per share, of American Water (\"American Water Common Stock\") (the aggregate number of such shares of American Water Common Stock to be issued in the Merger). On February 10, 2026, at the respective special shareholder meetings of the Company and American Water, each company's shareholders approved the merger-related proposals, satisfying certain of the conditions to closing.",
+    "Consummation of the Merger is subject to certain remaining customary conditions, including the receipt of certain governmental approvals, including (a) the expiration or termination of the applicable waiting period under the Hart-Scott-Rodino Antitrust Improvements Act of 1976, and (b) the approval of certain public utility commissions, in each case on such terms and conditions that would not, individually or in the aggregate, result in a \"Burdensome Effect\" (as defined in the Merger Agreement). There can be no guarantee that all of the remaining closing conditions and approvals will be satisfied, and the failure to complete the proposed Merger on a timely basis or at",
+    "(In thousands of dollars, except per share amounts)",
+    "all may adversely affect the Company's financial condition and results of operations. The Company currently estimates that the closing of the proposed Merger will occur by the end of the first quarter of 2027.",
+    "The Merger Agreement provides that American Water will retain its current name, maintain its headquarters and principal corporate office in Camden, New Jersey, and maintain substantial operations in Pennsylvania.",
+    "Our business is subject to various economic factors that affect our customers and our industry. The recent changes in government fiscal policies and regulations introduced by the new administration have resulted in heightened uncertainty for businesses and consumers, as well as volatility in financial markets. We will continue to evaluate the evolving macroeconomic environment, including those impacts resulting from the recent imposition, or proposed imposition, of tariffs and potential changes to environmental regulations, and to take action to mitigate the impact on our business, consolidated results of operations, and financial condition. Timely and adequate rate relief is important to our continued profitability and in providing a fair return to our shareholders. We continue to pursue enhancements to our regulatory practices to facilitate the efficient recovery of the increased cost of providing services and infrastructure improvements in our rates and mitigate the inherent regulatory lag associated with traditional rate making processes.",
+    "On August 27, 2025, the Company, through its wholly owned subsidiary, Aqua Infrastructure, entered into a convertible promissory note purchase agreement with IEP Hummingbird Energy LLC (\"IEP\") whereby the Company agreed to purchase convertible notes (\"Convertible Note Investment\") in the aggregate principal amount of $26,000 through January 2026. IEP, a subsidiary of International Electric Power III, LLC, shall use the proceeds for the development of a gas-fired plant to power a data center being developed Greene County, PA (the \"Project\"). The Convertible Note Investment bears zero interest, includes a fixed $16,500 loan fee concurrently payable to the Company at maturity with the principal amount of the notes on September 30, 2026, and contains conversion rights into equity at any time on or after maturity or upon certain triggering events, such as a project financial closing or equity financing, as defined in the agreement. The agreement also grants the Company the right of first refusal to certain water and gas business opportunities and additional equity kickers upon the occurrence of a financing event or change of control. As of December 31, 2025, the fair value of the Convertible Note receivable amounts to $25,125.",
+    "Due to a change in Project scope to focus on grid provided power, on January 20, 2026, the Company received $20,000, representing the reimbursement of the deposit paid to the gas turbine manufacturer. The Company continues to be an investor in the Project via its remaining convertible notes holdings and continues to have a right of first refusal to certain water and gas business opportunities. The Company's involvement in this Project underscores its commitment to innovation, sustainability, and regional economic development. As of December 31, 2025, $20,000 of the Convertible Note Investment is presented within Prepayments and other current assets, and the remaining $5,125 is classified as a long-term asset in the accompanying consolidated balance sheets.",
+    "(In thousands of dollars, except per share amounts) Multi-District Litigation Class Action Settlement",
+    "A number of the Company's water and wastewater subsidiaries are parties to a multi-district litigation (the \"MDL\") lawsuit in the United States District Court for the District of South Carolina against manufacturers of certain per- and polyfluoroalkyl substances or compounds (\"PFAS\") for damages, contribution and reimbursement of costs incurred and continuing to be incurred to address the presence of such PFAS in public water supply systems. One such suit to which the Company is a party is a multi-district litigation (the \"MDL\") lawsuit which commenced on December 7, 2018, in the United States District Court for the District of South Carolina. Several defendants in such lawsuit have agreed to settle. During the second half of 2025, the Company received a portion of the settlement payments from 3M and DuPont totaling $46,166, net of legal fees and administrative costs. The Company recorded $84 as a credit to claims expense and $9,739 of the proceeds allocated to its North Carolina and Virginia water and wastewater subsidiaries as a regulatory liability, pursuant to regulatory orders issued by the public utility commissions from such states regarding the treatment of PFAS settlement costs. The remaining proceeds that were allocated to the Company's other water and wastewater subsidiaries totaling $36,343 were recorded within Deferred Credits and Other Non-current liabilities in the accompanying consolidated balance sheets, pending recommendation or order from the respective public utility commissions on treatment of the amounts. The Company anticipates receiving additional settlement payments from the MDL lawsuit defendants over the next ten years."
+   ],
+   "focus": "Recent Developments"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "營運收入與分部",
+    "客戶與營運季節性",
+    "併購及其他成長計畫",
+    "資本投資",
+    "供應與設施",
+    "經濟規範",
+    "環境、健康與安全規範及合規"
+   ],
+   "paragraphs": [
+    "Essential Utilities, Inc., 稱為 \"Essential Utilities\", \"Essential\", \"本公司\", \"我們\", \"我們\", 或 \"我們的\", 一家賓夕法尼亞州公司, 是一家提供水、廢水或天然氣服務的受監管公用事業公司, 服務人口約為 550 萬人, 位於賓夕法尼亞州、俄亥俄州、德克薩斯州、伊利諾州、北卡羅來納州、新澤西州、印地安那州、維吉尼亞州和肯塔基州, 並以 Aqua 和 Peoples 品牌營運。我們最大的營運子公司之一, Aqua Pennsylvania, Inc., 或 Aqua Pennsylvania, 在 2025 年為我們的受監管水服務分部貢獻了約 57% 的營運收入, 以及約 72% 的收入。截至 2025 年 12 月 31 日, Aqua Pennsylvania 約為我們服務的總水和廢水客戶數的一半提供水或廢水服務。Aqua Pennsylvania 的服務範圍位於費城北部和西部的郊區, 以及賓夕法尼亞州的 28 個其他縣。我們的其他受監管水或廢水公用事業子公司在另外七個州提供類似服務。我們的 Peoples 子公司為賓夕法尼亞州西部和肯塔基州的約 747,000 個客戶提供天然氣服務。我們服務的天然氣公用事業客戶總數約有 95% 位於賓夕法尼亞州西部。本公司也透過其非受監管子公司營運市場導向活動, 提供家庭用的公用設施保護解決方案和修復服務, 以及天然氣行銷和生產活動。目前, 本公司尋求在美國受監管部門收購業務, 聚焦於水和廢水公用事業, 並有機地追求在特定市場導向活動中的成長機會, 例如補充且與我們受監管水公用事業業務相輔相成的基礎設施機會。",
+    "2025 年 10 月 26 日, 我們與 American Water Works Company, Inc. (\"American Water\") 及其直接全資子公司 Alpha Merger Sub, Inc. (\"Merger Sub\") 簽訂了合併協議 (\"合併協議\"). 合併協議規定, 在符合合併協議條款及條件的情況下, Merger Sub 將與本公司合併, 本公司將作為 American Water 的全資子公司存續。根據協議條款, Essential 股東將根據合併完成時所持有的本公司普通股, 獲得 0.305 股 American Water 普通股, 面值為每股 0.01 美元 (\"American Water 普通股\"). 本公司目前預估, 所提出的合併將在 2027 年第一季末前完成, 並符合剩餘的慣例合併條件, 包括, 其他如 Hart-Scott-Rodino 法案的審查, 以及監管批准, 包括相關公用事業委員會的批准。2026 年 2 月 10 日, 本公司與 American Water 的股東大會分別批准了與合併相關的提案, 滿足了部分合併條件。請參閱第 1A 項 - 風險因素, 以瞭解與合併相關的風險, 並參閱本年度報告第 8 項 - 註 1 - 重要會計政策摘要, 以取得更多資訊。",
+    "下表顯示我們的營運收入, 按主要州別分列, 針對我們的受監管水服務分部, 包括水和廢水公用服務, 受監管天然氣服務分部, 以及其他及消除項目, 並為 2025 年 12 月 31 日為止的會計年度:",
+    "營運收入 (千美元) 營運收入 (%) 賓夕法尼亞州 750,575 30.3% 俄亥俄州 142,970 5.8%",
+    "德克薩斯州 107,290 4.3% 伊利諾州 115,831 4.7% 北卡羅來納州 89,796 3.6% 其他州 (1) 120,167",
+    "4.9% 受監管水服務分部總計 1,326,629 53.6% 賓夕法尼亞州 1,049,834 42.4% 肯塔基州 68,041",
+    "2.8% 受監管天然氣服務分部總計 1,117,875 45.2% 其他及消除項目 30,111 1.2%",
+    "(1) 包含我們在以下州的水營運子公司: 新澤西州、印地安那州和維吉尼亞州。",
+    "本公司已識別十一個營運分部，並有兩個應報告分部，分別為受規範水業分部及受規範天然氣分部。受規範水業分部包含本公司水及污水處理受規範公用事業公司的八個營運分部，與我們提供這些服務的州份對應。這些營運分部被歸納為一個應報告分部，因為本公司每個營運分部具有以下相似之處：經濟特性、服務性質、生產流程、客戶、水供應或污水收集方式，以及規範環境的性質。受規範天然氣分部包含一個營運分部，代表天然氣公用事業公司，本公司為其提供天然氣配氣服務。除了本公司兩個應報告分部外，本公司將兩個營運分部歸入『其他』。這些業務代表其非受規範水、污水處理及天然氣業務，這些業務在數量上不具足夠重要性，因此被歸入『其他』之內。此外，『其他』及抵銷項目包含未分配至受規範水業及受規範天然氣分部的公司費用，因為這些費用無法作為公用服務成本收回，以及內部分部抵銷項目。有關2025年、2024年及2023年受規範水業及受規範天然氣分部，以及『其他』及抵銷項目之收入、淨收入、重要分部費用及相關財務資訊，請參閱管理層對財務狀況及營運成果之討論與分析，以及財務報表附註第19項－分部資訊，內容載於本年度報告第8項項目中。",
+    "下列表格總結了本公司於2025年12月31日財年終結，按公用客戶類別分列之營運收入，包括受規範水業及受規範天然氣分部，以及『其他』及抵銷項目之資料：",
+    "下列表格總結了本公司於2025年12月31日財年終結，按公用客戶類別分列之營運收入，包括受規範水業及受規範天然氣分部，以及『其他』及抵銷項目之資料：",
+    "營運收入（千美元） 營運收入（%）住宅用水 731,818 29.6% 商業用水",
+    "208,617 8.4% 消防保護 46,998 1.9% 工業用水 41,619 1.7% 其他用水 63,537 2.6%",
+    "總用水 1,092,589 44.2% 污水處理 223,103 9.0% 其他公用設施 10,937 0.4% 受規範用水分部總計"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "近期發展",
+    "經濟規範",
+    "監管機制",
+    "允許州份",
+    "生效日期",
+    "年增營收",
+    "2025 年總基礎費率授權數",
+    "透過併購與資本投資成長",
+    "營運統計資料",
+    "合併營運成果比較（2025 年與 2024 年）",
+    "營運費用 - 營運及維護費用在 2025 年相比 2,024 年增加 $52,354 或 8.9%，主要由於：",
+    "淨收入 -",
+    "分部營運成果比較（2025 年與 2024 年）",
+    "受規範水業分部",
+    "營運費用 - 營運及維護費用增加 $23,929 或 6.3%，主要由於以下原因：",
+    "其他費用，淨額 – 利息費用，扣除利息收入後，增加 $10,677 或 7.6%，主要由於平均借款金額增加及借款成本上升",
+    "受規範天然氣應報告分部",
+    "營運收入 – 營運收入來自受規範天然氣應報告分部，較前一年度增加 $274,884 或 32.6%，主要由於：",
+    "營運費用 – 本年 12 月 31 日止年度之營運及維護費用增加 $20,480 或 9.9%，主要由於以下原因：",
+    "合併現金流量及資本支出",
+    "併購",
+    "處分"
+   ],
+   "paragraphs": [
+    "執行合約與合併計畫與 American Water",
+    "於 2025 年 10 月 26 日，American Water Works Company, Inc. (\"American Water\"), Alpha Merger Sub, Inc., 為 American Water 直屬 wholly owned 子公司 (\"Merger Sub\"), 以及本公司，簽訂了合約與合併計畫 (\"Merger Agreement\"). Merger Agreement 規定，依其條款及條件，Merger Sub 將與本公司合併 (\"Merger\"), 本公司將為合併後的存續公司，為 American Water 的 wholly owned 子公司。依 Merger Agreement 的條款及條件，於合併生效時 (\"Effective Time\"), 本公司發行在外且於 Effective Time 前發行的普通股，每股面值 0.50 美元 (\"Essential Common Stock\"), 除 American Water 或 Merger Sub 或本公司持有的 treasury stock (不包括 restricted shares) 以外，將轉換為取得 0.305 張有效發行、完全繳足且無追索權的 American Water 普通股，每股面值 0.01 美元 (\"American Water Common Stock\") (於合併中發行的 American Water Common Stock 總數). 於 2,026 年 2 月 10 日，本公司與 American Water 各自召開特別股東大會，批准與合併相關的提案，滿足部分關閉條件.",
+    "合併的完成依賴某些常見的條件，包括取得某些政府批准，包括 (a) 依 1976 年 Hart-Scott-Rodino 反壟斷改進法案的適用等待期屆滿或終止，以及 (b) 某些公共事業委員會的批准，於各項條件下，不會導致 \"Burdensome Effect\" (如 Merger Agreement 所定義). 無法保證所有剩餘關閉條件及批准將被滿足，未能及時完成預期的合併或於",
+    "(以千美元計，除每股金額外)",
+    "所有可能不利於本公司財務狀況及營運結果。本公司目前預估，預期的合併將於 2027 年第一季末前完成。",
+    "Merger Agreement 規定，American Water 將保留其現有名稱，維持其總部及主要營業據點於新澤西州坎登，並維持在賓夕法尼亞州的大量營運。",
+    "本公司業務受各種經濟因素影響，這些因素影響客戶及產業。新政府所推行的財政政策與規範的變更，導致企業與消費者面臨更高的不確定性，以及財務市場的波動。本公司將持續評估正在演變的總體經濟環境，包括因近期課徵或擬課徵關稅及環境規範變更所產生的影響，並採取行動以緩解對本公司業務、合併營運結果及財務狀況的影響。及時且足夠的費用調整是本公司持續獲利及提供公平回報給股東的重要因素。本公司持續追求改善監管實務，以促進費用及基礎設施改善成本的高效回收，並緩解傳統費用調整程序所固有的監管延遲問題。",
+    "於 2025 年 8 月 27 日，本公司透過其 wholly owned 子公司 Aqua Infrastructure，與 IEP Hummingbird Energy LLC (\"IEP\") 簽訂可轉換貸款協議，同意購買總金額為 26,000 美元的可轉換貸款 (\"Convertible Note Investment\")，於 2026 年 1 月前完成。IEP 為 International Electric Power III, LLC 的子公司，將使用所得資金用於開發位於賓夕法尼亞州格林縣的資料中心所使用的氣體發電廠 (\"Project\"). 可轉換貸款投資無利息，包含於貸款到期時一次性支付給本公司 16,500 美元的貸款費用，與貸款本金於 2026 年 9 月 30 日一同支付，並包含於到期後或特定觸發事件 (如項目財務關閉或權益融資) 發生時，可轉換為權益的權利。協議亦授予本公司在發生融資事件或控制權變更時，對某些水與氣業務機會及額外權益的優先購買權。截至 2025 年 12 月 31 日，可轉換貸款應收款的公允價值為 25,125 美元。",
+    "因專案範疇變更以著重於供電網提供的電力，於2026年1月20日，本公司收到$20,000，代表已支付給氣渦輪機製造商的押金之補償。本公司持續透過其餘未轉換的可轉換票據持有權投資於該專案，並持續擁有對某些水與氣業務機會的優先購買權。本公司參與此專案顯示其對創新、可持續性及區域經濟發展的承諾。截至2025年12月31日，$20,000的可轉換票據投資列示於預付款及其他流動資產，而餘下$5,125則列為長期資產，於隨附的合併資產負債表中。",
+    "(以千美元為單位，除每股金額外) 多管區訴訟羣體行動和解",
+    "本公司若干水與廢水子公司為美國南卡羅萊納州聯邦地方法院對某些全氟烷基物質或化合物（\"PFAS\"）製造商提起的多管區訴訟（\"MDL\"）被告，聲請損害賠償、貢獻及賠償為應對公共供水系統中PFAS存在所產生的費用及持續產生的費用。本公司為其中一項多管區訴訟（\"MD, L\"）被告，該訴訟於2018年12月7日於美國南卡羅萊納州聯邦地方法院提起。該訴訟中若干被告已同意和解。於2025年下半年，本公司從3M與杜邦收到部分和解款項，總計$46,166，扣除法律費用及行政費用後。本公司將$84列為聲請費用的貸方，並將$9,739的和解款分配至其北卡羅萊納州與弗吉尼亞州水與廢水子公司，作為規範義務，依各州公共事業委員會所頒發的規範命令，處理PFAS和解費用。本公司其他水與廢水子公司所分配的和解款項總計$36,343，則列於遞延負債及其他非流動負債，待各相關公共事業委員會對處理金額的建議或命令後，再進行處理。本公司預期將於未來十年內從MDL訴訟被告處收到額外的和解款項。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總結",
+    "與建議合併相關的風險",
+    "合併可能導致供應商、策略夥伴、某些客戶或其他相關方延後或推遲對本公司業務的決策，並可能不利於本公司有效管理業務的能力。",
+    "本公司可能成為證券集體訴訟及衍生訴訟的目標，這可能會導致重大成本，並可能延宕或阻止合併完成。",
+    "若合併完成，可能無法達成預期的結果，且American Water可能無法整合本公司業務及/或以預期方式運作合併後的公司。",
+    "兩家公司可能在與合併相關的過程中產生重大且/或未預期的交易費用及合併相關成本。",
+    "合併完成後，本公司股東將收到的American Water普通股將具有與本公司普通股不同的權利。",
+    "各公司的現有股東在合併後將持有其 respective 公司較低的股權及投票權益。",
+    "該併購可能不會對合併後公司的獲利產生正面影響，並可能對合併後公司的每股盈餘產生負面影響，這可能對合併後公司普通股的市場價格產生負面影響。",
+    "與我們業務運作及監管相關的風險",
+    "總體經濟狀況可能影響我們的財務狀況及營運成果。",
+    "通貨膨脹，以及新或持續的關稅變動潛在影響，可能會對我們控制成本的能力產生負面影響，包括營運費用及資本支出。",
+    "我們每股盈餘的變動可能與我們的資本基礎變動不同。",
+    "我們的水及廢水處理廠、水及廢水管道網路或水貯水池若發生故障，可能會導致損失，進而損害我們的業務、財務狀況及營運成果。",
+    "我們的設施可能成為恐怖攻擊或其他蓄意攻擊的目標，這可能會損害我們的業務、財務狀況及營運成果。",
+    "我們的業務受天氣條件影響，並面臨季節性波動，這可能會影響水及天然氣服務的需求，以及我們的業務、財務狀況及營運成果。",
+    "若本公司水壩或水庫無法運作，或需進行修復、升級或拆除，可能影響本公司業務、財務狀況及營運成果。",
+    "本公司營運地點集中於賓夕法尼亞州，因此易受影響賓夕法尼亞州相關風險之影響。",
+    "本公司供水或廢水處理系統可能面臨政府機構徵收或其它形式之強製取得之風險。"
+   ],
+   "paragraphs": [
+    "除本年度報告中包含的其他資訊外，評估我們的業務及未來展望時，應考慮下列因素。上述任何風險，無論單獨或共同發生，都可能對我們的業務、財務狀況及營運成果造成重大損害。若其中一項或更多風險或不確定性實現，或我們的基礎假設被證明錯誤，則我們的業務、財務狀況及營運成果可能受到重大影響。",
+    "我們的業務面臨許多風險與不確定性。以下為我們在本年度報告中所做出的預測性陳述類型，包括在這些風險因素中，以及影響我們並導致實際結果與預測性陳述中所述結果不同的風險類型總結：",
+    "預期我們與 American Water 所提出合併的完成時間及可能性；",
+    "未來收購的機會，包括在水與廢水產業內外的收購、待決收購的成功以及未來收購的影響；",
+    "與合併或收購相關的成本與協同效益；",
+    "政府與監管機構的決策影響，包括調整費用率的決策以及與潛在收購及我們與 American Water 所提出合併相關的決策；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,213 @@
+{
+ "ticker": "TECH",
+ "cik": "0000842023",
+ "accession": "0001104659-26-100322",
+ "form": "10-K",
+ "reportDate": "2026-06-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "Protein Sciences Segment Products and Markets",
+    "Protein Sciences Segment Customers and Distribution Methods",
+    "Diagnostics and Spatial Biology Segment Products",
+    "Diagnostics and Spatial Biology Segment Customers and Distribution Methods",
+    "Culture and Governance",
+    "Engagement and Belonging",
+    "Recruitment and Retention",
+    "Talent Development and Learning and Development",
+    "Well-Being and Safety",
+    "Medical Device Regulations",
+    "Other Healthcare Laws",
+    "Data Privacy and Security Laws",
+    "Environmental Health and Safety Laws",
+    "Other Laws and Regulations Governing Our Sales, Marketing and Shipping Activities",
+    "Officer Since"
+   ],
+   "paragraphs": [
+    "Bio-Techne and its subsidiaries, collectively doing business as Bio-Techne Corporation (\"Bio-Techne\", \"we\", \"our\", \"us\" or the \"Company\"), develop, manufacture and sell life science reagents, instruments and services for the research, diagnostics and bioprocessing markets worldwide. Our broad product portfolio and application expertise enables scientific investigations into biological processes and molecular diagnostics, revealing the nature, diagnosis, etiology and progression of specific diseases. Our products aid in drug discovery efforts and provide the means for accurate clinical tests and diagnoses.",
+    "We manage the business in two operating segments – our Protein Sciences segment and our Diagnostics and Spatial Biology segment. Our Protein Sciences segment is a leading developer and manufacturer of high-quality biological reagents used in all aspects of life science research, diagnostics and cell and gene therapy. This segment also includes proteomic analytical tools, both manual and automated, that offer researchers and pharmaceutical manufacturers efficient and streamlined options for protein analysis, automated western blot, and multiplexed ELISA workflows. Our Diagnostics and Spatial Biology segment develops and manufactures diagnostic products, including controls, calibrators, and diagnostic assays for the regulated diagnostics market, advanced tissue-based in-situ hybridization assays and instrumentation for spatial genomic and tissue biopsy analysis, and genetic and oncology kits for research and clinical applications.",
+    "We are a Minnesota corporation with our global headquarters in Minneapolis, Minnesota. We were founded in 1976 as Research and Diagnostic Systems, Inc. We became a publicly traded company in 1985 through a merger with Techne Corporation, now Bio-Techne Corporation. Our common stock is listed on the NASDAQ under the symbol \"TECH.\" We operate globally, with offices in many locations throughout North America, Europe and Asia. Today, our product lines include hundreds of thousands of diverse products, most of which we manufacture ourselves in multiple locations in North America, as well as locations in the U.K., Canada, Switzerland and China.",
+    "We have implemented a disciplined strategy to accelerate growth in part by acquiring businesses and product portfolios that leveraged and diversified our existing product lines, filled portfolio gaps with differentiated high growth businesses, and expanded our geographic scope. A recent example includes the acquisition of Lunaphore SA (\"Lunaphore\") at the beginning of fiscal 2024. We also completed a 19.9% investment in Wilson Wolf Corporation (\"Wilson Wolf\") in fiscal 2023, and will acquire the remaining ownership in Wilson Wolf by the end of calendar year 2027, if not earlier due to its achievement of revenue or earnings before interest, taxes, depreciation, and amortization (\"EBITDA\") targets. Recognizing the importance of an integrated, global approach to meeting our mission and accomplishing our strategies, we have maintained many of the brands of the companies we have acquired, but unified under a single global brand -- Bio-Techne.",
+    "We are committed to providing the life sciences community with innovative, high-quality scientific tools that allow our customers to make extraordinary discoveries and treat and diagnose diseases. We intend to build on Bio-Techne's past accomplishments, high product quality reputation and sound financial position by executing strategies that position us to serve as the standard for biological content in the research market, and to leverage that leadership position to enter the diagnostics and other adjacent markets. Our strategic pillars include:",
+    "Grow & Leverage the Core. Through collaborations with key opinion leaders, participation in scientific discussions and societies, and leveraging our internal talent we expect to be able to convert our continued significant investment in our research and development activities to be first-to-market with quality products that are at the leading edge of life science researchers' needs.",
+    "Capitalize on High Potential Markets. We will continue to leverage our strong balance sheet to gain access to new and differentiated technologies and products that improve our competitiveness in the current market, meet customers' expanding workflow needs and allow us to enter adjacent markets.",
+    "Market Expansion Through Innovation & Acquisition. We will leverage our existing portfolio to expand our product offerings into novel research fields and further penetrate diagnostics and therapeutics markets. Acquisitions have, and will likely continue to play, an important role in our efforts to expand our portfolio of innovative tools and bioactive reagents, and support our initiatives to enter adjacent markets.",
+    "Deliver Best-in-Class Customer Experience. We will continue to expand our sales staff and distribution channels globally in order to increase our global presence and make it easier for customers to transact with us. We strive for every interaction to be seamless, personalized, and exceeding expectations. We aim to deeply understand customers' wants and needs while simultaneously offering high-quality service at every touchpoint.",
+    "Develop People Through a Transformative Culture. As we continue to grow both organically and through acquisition, we are intentionally fostering an \"EPIC\" culture based on the ideals of Empowerment, Passion, Innovation and Collaboration. We strive to recruit, train and retain the most talented staff, who share these EPIC ideals to effectively implement our global strategies.",
+    "The Protein Sciences segment is the larger of our two segments, representing approximately 72% of our net sales in fiscal 2026. It is comprised of two divisions with complementary product offerings serving many of the same customers – the Reagent Solutions division and the Analytical Solutions division.",
+    "The Reagent Solutions division consists of specialized proteins, such as cytokines and growth factors, antibodies, small molecules, tissue culture sera and cell selection technologies traditionally used by researchers to further their life science experimental activities and by companies developing next generation diagnostics and therapeutics, including cell- and gene-based therapeutics. We believe we are the world leader in providing high quality proteins, both for research use and under current Good Manufacturing Practices, or cGMP. Key product brands include R&D Systems, Tocris Biosciences and Novus Biologicals. Our combined chemical and biological reagents portfolio provides high quality tools that customers can use in solving complex biological pathways and to glean knowledge that may lead to a more complete understanding of biological processes, and, ultimately, to the development of novel therapeutic strategies to address different pathologies. In recent years, we have made several acquisitions and investments that have expanded our product offerings for the cell and gene therapy market. These include a significant investment in state-of-the art facilities for production of both proteins and small molecules in large quantities manufactured in accordance with cGMP, as well as a 19.9% investment in, and eventual acquisition of, Wilson Wolf, a leading provider of cell culture devices for cell-based therapies. Through a collaborative marketing venture with Wilson Wolf, we have leveraged the products we have or are developing to provide a more complete offering for the cell and gene therapy market.",
+    "The Analytical Solutions division includes manual and automated protein analysis instruments and immunoassays that are used in quantifying proteins in a variety of biological fluids. Products in this division include traditional manual plate-based immunoassays, fully automated multiplex immunoassays on various instrument platforms, and automated western blotting and isoelectric focusing analysis of complex protein samples. Key product brands include R&D Systems and ProteinSimple. A number of our products have been demonstrated to have the potential to serve as predictive biomarkers and therapeutic targets for a variety of human diseases and conditions including cancer, autoimmunity, diabetes, hypertension, obesity, inflammation, neurological disorders, and kidney failure. Immunoassays can also be useful in clinical diagnostics. In fact, we have received Food and Drug Administration (FDA) marketing clearance for a few of our immunoassays for use as in vitro diagnostic devices.",
+    "Our customers for this segment include researchers in academia and industry (chiefly pharmaceutical and biotech companies as well as contract research organizations). This segment also sells to diagnostic/companion diagnostic and therapeutic customers, including those engaged in the development of cell- and gene-based therapies. Our biologics line of products in the Analytical Solutions division is used chiefly by production and quality control departments at biotech"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Economic and Industry Risks",
+    "Conditions in the global economy, the particular markets we serve and the financial markets, whether brought about by material global crises or other factors, may adversely affect our business and financial results.",
+    "International political, compliance and business factors, including the military conflicts and trade tensions, can negatively impact our operations and financial results.",
+    "Acquisition and Investment Risks",
+    "Our inability to complete acquisitions at our historical rate and at appropriate prices, and to make appropriate investments that support our long-term strategy, could negatively impact our growth rate and stock price.",
+    "Our acquisition of businesses, investments, joint ventures and other strategic relationships, if not properly implemented or integrated, could negatively impact our business and financial results.",
+    "Strategic and Operational Risks",
+    "Our success will be dependent on recruiting and retaining highly qualified and diverse personnel and creating and maintaining a culture that successfully integrates the employees joining through acquisitions.",
+    "We face intense competition, and if we are unable to compete effectively, we may experience decreased demand and decreased market share or need to reduce prices to remain competitive.",
+    "If we suffer loss to our supply chains, distribution systems or information technology systems due to catastrophe or other events, our operations could be seriously harmed.",
+    "Climate change and/or related environmental risks, or legal or regulatory measures to address climate change and/or related environmental risks, may negatively affect us.",
+    "Defects, unanticipated use of, or inadequate disclosure with respect to our products, or allegations thereof, can adversely affect our business and financial results.",
+    "The proposed acquisition of the Company by Merck KGaA, Darmstadt, Germany may disrupt or adversely affect our business, prospects, financial condition and results of operations.",
+    "We have incurred and expect to continue to incur substantial transaction-related fees and costs in connection with the Merger.",
+    "The Merger may not be completed within the expected timeframe, or at all, and a significant delay in or the failure to complete the Merger could adversely affect our business and the market price of our common stock.",
+    "The Merger Agreement contains provisions that could discourage a potential competing acquirer of the Company or could result in a competing proposal being made at a lower price than it otherwise might have been.",
+    "Intellectual Property Risks",
+    "Financial and Tax Risks",
+    "Our business and financial results can be adversely affected by foreign currency exchange rates, changes in our tax rates and tax liabilities and assessments (including as a result of changes in tax laws)."
+   ],
+   "paragraphs": [
+    "Set forth below are risks and uncertainties we believe are material to our investors. You should refer to the explanation of the qualifications and limitations on forward-looking statements in the section titled Information Relating to Forward-Looking Statements at the beginning of this Annual Report on Form 10-K.",
+    "Our business is sensitive to global economic conditions. Slower economic growth in the domestic or international markets, inflation, recession, volatility in the credit and currency markets, high levels of unemployment or underemployment, labor availability constraints, public health crises, changes or anticipation of potential changes in government trade, fiscal, tax or monetary policies, government budget dynamics (particularly in the healthcare and scientific research areas), and other challenges in the global economy have in the past adversely affected, and may in the future adversely affect, the Company and its distributors, customers, and suppliers.",
+    "Without limiting the foregoing, we have experienced and/or may in the future experience:",
+    "● adverse impacts on customer orders and purchases and unpredictable reductions in demand for many of our products;",
+    "● constraints on the movement of our products through the supply chain, which can disrupt our ability to produce or deliver our products;",
+    "● adverse impacts on our collections of accounts receivable, including delays in collections and increases in uncollectible receivables, as well as the risk of excess or obsolete inventory;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Year Ended June 30,",
+    "Gross Margins",
+    "Selling, General and Administrative Expenses",
+    "Research and Development Expenses",
+    "Net Interest Expense",
+    "Other Non-Operating Income / (Expense), Net",
+    "Income Taxes",
+    "Net Earnings",
+    "Cash Flows From Operating Activities",
+    "Cash Flows From Investing Activities",
+    "Cash Flows From Financing Activities",
+    "Business Combinations",
+    "Impairment of Goodwill"
+   ],
+   "paragraphs": [
+    "The following management discussion and analysis (\"MD&A\") provides information that we believe is useful in understanding our operating results, cash flows and financial condition. We provide quantitative information about the material sales drivers including the effect of acquisitions and changes in foreign currency at the corporate and segment level. We also provide quantitative information about discrete tax items and other significant factors we believe are useful for understanding our results. The MD&A should be read in conjunction with the consolidated financial information and related notes included in this Form 10-K. This discussion contains various \"Non-GAAP Financial Measures\" and also contains various \"Forward-Looking Statements\" within the meaning of the Private Securities Litigation Reform Act of 1995. We refer readers to the statements entitled \"Non-GAAP Financial Measures\" located at the end of this MD&A and \"Forward-Looking Information and Cautionary Statements\" and \"Risk Factors\" within Items 1 and 1A of this Form 10-K.",
+    "Bio-Techne develops, manufactures and sells life science reagents, instruments and services for the research and clinical diagnostic markets worldwide. With our deep product portfolio and application expertise, we sell integral components of scientific investigations into biological processes and molecular diagnostics, revealing the nature, diagnosis, etiology and progression of specific diseases. Our products aid in drug discovery efforts and provide the means for accurate clinical tests and diagnoses.",
+    "We manage the business in two operating segments – our Protein Sciences segment and our Diagnostics and Spatial Biology segment. Our Protein Sciences segment is a leading developer and manufacturer of high-quality biological reagents used in all aspects of life science research, diagnostics and cell and gene therapy. This segment also includes proteomic analytical tools, both manual and automated, that offer researchers and pharmaceutical manufacturers efficient and streamlined options for automated western blot and multiplexed ELISA workflow. Our Diagnostics and Spatial Biology segment develops and manufactures diagnostic products, including controls, calibrators, and diagnostic assays for the regulated diagnostics market, advanced tissue-based in-situ hybridization assays and instrumentation for spatial genomic and tissue biopsy analysis, and genetic and oncology kits for research and clinical applications.",
+    "PENDING MERGER WITH MERCK KGAA, DARMSTADT, GERMANY",
+    "On June 25, 2026, the Company entered into the Agreement and Plan of Merger (the \"Merger Agreement\"), with Merck KGaA, Darmstadt, Germany, a German corporation with general partners (\"Parent\"), and EMD Holdings NewCo, Inc., a Minnesota corporation and a wholly-owned subsidiary of Parent (\"Merger Sub\"). The Merger Agreement provides that, on the terms and subject to the conditions of the Merger Agreement, Merger Sub will merge with and into the Company (the \"Merger\"), with the Company surviving as a wholly-owned subsidiary of Parent.",
+    "At the effective time of the Merger (the \"Effective Time\"), each share of the Company's common stock, par value $0.01 per share, (each, a \"Share\") (other than Company Restricted Stock (as defined in the Merger Agreement)) issued and outstanding immediately prior to the Effective Time (other than Excluded Shares (as defined in the Merger Agreement)) will automatically be converted into the right to receive $73.00 in cash (the \"Merger Consideration\"), without any interest thereon and less any required tax withholdings and all of such Shares will cease to be outstanding and cease to exist.",
+    "If the Merger Agreement is terminated under certain specified circumstances, we or Parent will be required to pay a termination fee to the other party. The Company will be required to pay Parent a termination fee of approximately $230.5 million under specified circumstances, including termination of the Merger Agreement in connection with our entry into an agreement with respect to a Superior Proposal (as defined in the Merger Agreement) at any time prior to us receiving shareholder approval of the Merger Agreement, or termination by Parent if the Company's Board of Directors effects a Change of Company Recommendation (as defined in the Merger Agreement). Parent will be required to pay the Company a termination fee of approximately $576.1 million under specified circumstances, including termination of the Merger Agreement due to the failure to consummate the Merger by the Outside Date (as defined in the Merger Agreement) as a",
+    "result of the failure to obtain certain required regulatory approvals or due to a permanent injunction arising from Antitrust Laws or Investment Screening Laws (each as defined in the Merger Agreement) if certain other conditions are met.",
+    "Consummation of the Merger is subject to customary closing conditions, including: (i) the approval of the Merger Agreement (including the \"plan of merger\" for purposes of the Minnesota Business Corporation Act) by the affirmative vote of the holders of a majority of the voting power of all of the Shares outstanding and entitled to vote thereon at the meeting of the Company's shareholders held for the purpose of voting upon the approval of the Merger Agreement; (ii) the expiration or termination of the required waiting period under the Hart-Scott-Rodino Antitrust Improvements Act of 1976, and all other scheduled antitrust or investment screening law approvals having been obtained (or the applicable waiting periods having expired or terminated) (such approvals, collectively, the \"Required Approvals\"); (iii) no governmental entity of competent jurisdiction having issued or entered any order, injunction or decree or enacted, enforced, issued, promulgated, entered or adopted any law, in each case, that is continuing in effect and that prohibits, enjoins or otherwise prevents the consummation of the Merger; (iv) accuracy of the other party's representations and warranties, subject to certain customary materiality or de minimis standards set forth in the Merger Agreement; (v) the other party's compliance with its obligations and covenants required under the Merger Agreement, subject to certain materiality standards; and (vi) with respect to the obligations of Parent and Merger Sub, the Required Approvals not containing, individually or in the aggregate, a Burdensome Condition (as defined in the Merger Agreement). The Merger is expected to close by late 2026 or early 2027.",
+    "A key component of the Company's strategy is to augment internal growth at existing businesses with complementary acquisitions. As disclosed in Note 4, the Company completed the acquisition of Lunaphore in fiscal 2024 for $169.7 million, in a cash-free, debt-free acquisition.",
+    "For fiscal 2026, consolidated net sales remained flat at $1.2 billion as compared to fiscal 2025. Organic revenue remained flat from the prior year. Foreign currency translation had a favorable impact of 2% and a business held-for-sale had an unfavorable impact of 2%.",
+    "Consolidated net earnings for fiscal 2026 increased 148% compared to fiscal 2025. The increase in earnings was favorably impacted by a non-recurring impairment charge in the prior year, a non-recurring arbitration award in the prior year, and a recovery of assets held-for-sale. After adjusting for cost recognized upon sale of acquired inventory, intangibles amortization, acquisition-related costs, certain litigation charges, investment loss and other non-operating loss, stock-based compensation, restructuring and restructuring-related costs, impairment (recovery) of assets held-for-sale, and impact of businesses held-for-sale, adjusted net earnings decreased 1% in fiscal 2026 as compared to fiscal 2025. Adjusted net earnings was primarily impacted by unfavorable product mix and pricing pressures.",
+    "For fiscal 2025, consolidated net sales increased 5% as compared to fiscal 2024. Organic growth was 5% and foreign currency translation and a business held-for-sale did not have a material impact. Organic revenue growth was primarily driven by strong commercial execution in our Protein Sciences segment.",
+    "Consolidated net earnings for fiscal 2025 decreased 56% compared to fiscal 2024. The decrease in earnings was impacted by a non-recurring loss on an arbitration award, impairment of assets held-for-sale, and restructuring and restructuring-related charges. After adjusting for cost recognized upon sale of acquired inventory, intangibles amortization, acquisition-related costs, certain litigation charges, gain on sale of investments, stock-based compensation, restructuring and restructuring-related costs, impairment of assets held-for-sale, and impact of business held-for-sale, adjusted net earnings increased 8% in fiscal 2025 as compared to fiscal 2024. Adjusted net earnings was primarily impacted by favorable volume leverage within Protein Sciences."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "蛋白質科學應報告分部產品與市場",
+    "蛋白質科學應報告分部客戶與銷售方式",
+    "診斷與空間生物學應報告分部產品",
+    "診斷與空間生物學應報告分部客戶與銷售方式",
+    "公司文化與治理",
+    "員工參與與歸屬感",
+    "招募與留任",
+    "人才發展與學習與發展",
+    "健康與安全",
+    "醫療器材規範",
+    "其他醫療相關法規",
+    "資料隱私權與安全法規",
+    "環境健康與安全法規",
+    "其他規範本公司銷售、行銷與運送活動的法規",
+    "自董事長以來"
+   ],
+   "paragraphs": [
+    "Bio-Techne 以及其子公司，合稱為 Bio-Techne Corporation (\"Bio-Techne\", \"we\", \"our\", \"us\" 或 the \"Company\"), 開發、製造與銷售用於全球研究、診斷及生物製造市場的生技零組件、儀器與服務。我們廣泛的產品組合與應用專業知識，使科學家得以探討生物過程與分子診斷，揭示特定疾病的本質、診斷、病因與發展過程。我們的產品協助藥物研發工作，並提供準確的臨牀測試與診斷手段。",
+    "我們以兩個營運分部來管理業務 – 我們的蛋白質科學分部與診斷與空間生物學分部。蛋白質科學分部為生命科學研究、診斷與細胞與基因治療領域中高品質生物零組件的主要開發與製造者。此分部也包含手動與自動化的蛋白質分析工具，為研究者與製藥廠提供高效且簡化的方法，用於蛋白質分析、自動化 Western blot 以及多重 ELISA 工作流程。診斷與空間生物學分部開發與製造診斷產品，包括用於管制診斷市場的控制物、校準物與診斷試劑，先進的組織基質原位雜交試劑與儀器，用於空間基因組與組織活檢分析，以及用於研究與臨牀應用的遺傳與腫瘤試劑盒。",
+    "我們是 Minnesota 的公司，全球總部設於 Minnesota 的 Minneapolis。我們於 1976 年成立為 Research and Diagnostic Systems, Inc。我們於 1985 年透過與 Techne Corporation 合併成為上市公司，現為 Bio-Techne Corporation。我們的普通股於 NASDAQ 上市，代號為 \"TECH\"。我們在全球運作，於北美、歐洲與亞洲多個地點設有辦公室。目前，我們的產品線包含數十萬種多樣化的產品，其中大多數我們在北美多個地點自行製造，並在英國、加拿大、瑞士與中國設有製造廠。",
+    "我們已實施嚴謹的策略以加速成長，部分透過收購業務與產品組合，以整合與多元化我們現有的產品線，填補產品組合缺口，並擴展地理範圍。最近的例子包括於財務年度 2024 開始時收購 Lunaphore SA (\"Lunaphore\")。我們也在財務年度 2023 完成對 Wilson Wolf Corporation (\"Wilson Wolf\") 的 19.9% 投資，並預計在 2,027 年底前取得其剩餘股權，若未提前因達成收入或營收前利息、稅務、折舊與攤銷 (\"EBITDA\") 目標則除外。我們認知到整合、全球化的做法對實現我們使命與達成戰略目標的重要性，因此保留我們收購公司的許多品牌，但統一於單一全球品牌 – Bio-Techne 下。",
+    "我們致力於為生技科學界提供創新、高品質的科學工具，使客戶得以做出非凡的發現並治療與診斷疾病。我們意圖透過執行策略，以延續 Bio-Techne 過去的成就、高品質產品聲譽與穩健的財務狀況，使我們成為研究市場中生物內容的標準，並利用此領導地位進入診斷及其他相關市場。我們的戰略支柱包括：",
+    "成長與運用核心。透過與關鍵意見領袖合作、參與科學討論與學會，以及運用我們內部人才，我們預期能將持續的重大研究與開發投資轉化為市場先機的高品質產品，以符合生命科學研究者的需求。",
+    "把握高潛力市場。我們將持續運用強大的資產負債表，以取得新的、差異化的技術與產品，提升我們在現有市場的競爭力，滿足客戶擴展的工作流程需求，並使我們能進入相關市場。",
+    "透過創新與收購進行市場擴張。我們將運用現有產品組合，將產品線擴展至新興研究領域，並進一步滲透診斷與治療市場。收購在過去已發揮重要作用，並可能持續在未來發揮作用，以擴展我們創新工具與生物活性零組件的產品組合，並支持我們進入相關市場的計畫。",
+    "提供最佳等級的客戶體驗。我們將持續擴展銷售團隊與全球通路渠道，以增加我們的全球存在感，並使客戶更容易與我們進行交易。我們致力於每一次互動都能順暢、個性化且超越預期。我們旨在深入瞭解客戶的需求與期望，同時在每個接觸點提供高品質的服務。",
+    "透過轉型文化培養人才。隨著我們持續以內生成長與收購方式擴張，我們有意識地培育一種基於「賦權、熱情、創新與合作」理念的「EPIC」文化。我們致力於招募、培訓並留住最優秀的員工，這些員工共享這些EPIC理念，以有效落實我們的全球策略。",
+    "蛋白科學應報告分部為我們兩個應報告分部中較大的一個，佔我們財務年度2026年淨銷售額約72%。該分部包含兩個具有補充性產品組合的部門，服務許多相同客戶——零組件解決方案部門與分析解決方案部門。",
+    "零組件解決方案部門包含專門的蛋白質，如細胞激素與生長因子、抗體、小分子、組織培養血清與細胞選擇技術，這些傳統上被研究人員用來進一步進行生命科學實驗活動，也被開發下一代診斷與治療的公司所使用，包括基於細胞與基因的治療。我們相信我們是提供高品質蛋白質的世界領導者，無論是用於研究用途或符合現行良好製造實務（cGMP）的用途。主要產品品牌包括R&D Systems、Tocris Biosciences與Novus Biologicals。我們結合化學與生物零組件的產品組合，提供高品質的工具，讓客戶能用來解決複雜的生物路徑，並獲得知識，以更完整地瞭解生物過程，最終發展出針對不同病理的創新治療策略。近年來，我們已進行多項收購與投資，擴展我們在細胞與基因治療市場的產品組合。這些包括對先進製造設施的重大投資，用以大量生產符合cGMP的蛋白質與小分子，以及對Wilson Wolf（一家領先的細胞培養設備供應商）進行19.9%的投資，並最終取得其控制權。透過與Wilson Wolf的合作行銷合作計畫，我們已利用我們現有或正在開發的產品，為細胞與基因治療市場提供更完整的解決方案。",
+    "分析解決方案部門包含用於量化生物液體中蛋白質的手動與自動化蛋白質分析儀器與免疫分析試劑。該部門的產品包括傳統的手動板式免疫分析試劑、各種儀器平台上的完全自動化多重免疫分析試劑，以及自動化西方墨點分析與複雜蛋白質樣本的等電聚焦分析。主要產品品牌包括R&D Systems與ProteinSimple。我們的一些產品已被證明具有潛力，可用作多種人類疾病與狀況（包括癌症、自身免疫、糖尿病、高血壓、肥胖、發炎、神經系統疾病與腎衰竭）的預測生物標記與治療目標。免疫分析試劑也可用於臨牀診斷。事實上，我們已獲得美國食品藥物管理局（FDA）對部分免疫分析試劑的市場許可，用於體外診斷設備。",
+    "本分部的客戶包括學術與產業界的研究人員（主要是藥品與生物科技公司以及合同研究機構）。本分部也銷售給診斷/伴診斷與治療客戶，包括從事細胞與基因治療開發的客戶。本分部分析解決方案部門的生物製品主要由生物科技公司的生產與品質控制部門使用"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "會計年度終了於6月30日",
+    "毛利率",
+    "營銷、一般及行政費用",
+    "研究與發展費用",
+    "淨利息費用",
+    "其他非營業收入/(費用), 網路",
+    "所得稅",
+    "淨收益",
+    "營運活動之現金流",
+    "投資活動之現金流",
+    "籌資活動之現金流",
+    "企業併購",
+    "商譽減損"
+   ],
+   "paragraphs": [
+    "以下管理討論與分析（\"MD&A\"）提供資訊，我們認為這些資訊有助於理解本公司的營運成果、現金流及財務狀況。我們提供有關主要銷售驅動因素的量化資訊，包括併購及外幣變動的影響，於公司層級及各應報告分部層級。我們亦提供有關離散稅務項目及其他我們認為有助於理解本公司結果的重要因素的量化資訊。MD&A 應與本 Form 10-K 所包含的合併財務資訊及相關附註一併閱讀。本討論包含多種 \"非GAAP財務指標\"，並包含根據1995年私人證券 litigation 改革法案定義的多種 \"展望性陳述\"。我們請讀者參閱本 MD&A 結尾的 \"非GAAP財務指標\" 說明，以及本 Form 10-K 第1項及第1A項內的 \"展望性資訊與警示陳述\" 及 \"風險因素\"。",
+    "Bio-Techne 開發、製造及銷售用於全球研究及臨牀診斷市場的生物科學試劑、儀器及服務。憑藉我們深厚的產品組合及應用專業知識，我們銷售科學研究生物過程及分子診斷的關鍵零組件，揭示特定疾病的性質、診斷、病因及發展過程。我們的產品協助藥物研發工作，並提供準確臨牀測試與診斷的手段。",
+    "我們以兩個營運分部來管理業務 – 我們的蛋白質科學分部及診斷與空間生物學分部。蛋白質科學分部是高品質生物試劑的領導開發與製造者，這些試劑用於所有生物科學研究、診斷及細胞與基因治療方面。此分部亦包含蛋白質組學分析工具，無論是手動或自動化，為研究人員及藥物製造商提供高效且簡化的方法，用於自動化 Western blot 及多重 ELISA 工作流程。診斷與空間生物學分部開發及製造診斷產品，包括控制試劑、校準試劑及診斷試劑，用於受管制的診斷市場，先進的組織基質原位雜交試劑及儀器，用於空間基因組學及組織活檢分析，以及用於研究及臨牀應用的遺傳學及腫瘤學試劑盒。",
+    "待與德國達姆施塔特的 MERCK KGAA 合併",
+    "於 2026 年 6 月 25 日，本公司與德國慕尼黑 KGaA 公司（位於德國達姆施塔特，為一家德國公司，並設有普通合夥人（\"母公司\"）），以及明尼蘇達州的 EMD Holdings NewCo, Inc. 公司（為母公司之 wholly-owned subsidiary（\"合併子公司的\"））簽訂了合併與協議（\"合併協議\"）。合併協議規定，於符合合併協議所訂條件及依合併協議所訂條款，合併子公司將與本公司合併（\"合併\"），本公司將作為母公司之 wholly-owned subsidiary 繼續存續。",
+    "於合併生效時間（\"生效時間\"），本公司每股普通股，每股面值 0.01 美元（每股稱為 \"一股\"）（除本公司限制性股票（如合併協議所定義）外），於生效時間前發行且流通中之每股（除 Excluded Shares（如合併協議所定義）外），將自動轉換為取得現金 73.00 美元之權利（\"合併對價\"），不計利息，扣除任何所需稅務扣 withholdings，且所有該等股票將停止流通並停止存在。",
+    "若合併協議因特定情況而終止，本公司或母公司將需向對方支付終止費用。本公司將因特定情況需向母公司支付約 230.5 萬美元之終止費用，包括因本公司與第三方簽訂有關 Superiors Proposal（如合併協議所定義）之協議，而終止合併協議，且於本公司尚未取得合併協議之股東批准前，或因本公司董事會改變公司推薦意見（如合併協議所定義）而終止合併協議。母公司將因特定情況需向本公司支付約 576.1 萬美元之終止費用，包括因未能於 Outside Date（如合併協議所定義）前完成合併，而終止合併協議，且因未能取得特定所需監管批准，或因因反壟斷法規或投資篩查法規（如合併協議所定義）而產生之永久禁令，且其他條件已符合時。",
+    "因未能取得特定所需監管批准，或因因反壟斷法規或投資篩查法規（如合併協議所定義）而產生之永久禁令，且其他條件已符合時。",
+    "合併完成需符合慣常的交割條件，包括：(i) 合併協議經本公司股東會以表決權過半數股東同意批准，並符合明尼蘇達州商業公司法所定之「合併計畫」；(ii) 依照1976年哈特-斯科特-羅丁反壟斷改進法案所規定之等待期已屆滿或終止，並取得所有其他預定反壟斷或投資審查法規之批准（或適用之等待期已屆滿或終止）（上述批准，統稱為「必要批准」）；(iii) 任何有管轄權之政府機關未發佈或頒布任何命令、禁令或裁定，或未制定、執行、頒布、頒行、採納任何法律，且該法律持續有效，且禁止、禁止或以其他方式阻礙合併之完成；(iv) 另一方之陳述與保證準確，但受合併協議中所定之某些慣常重大性或微不足道標準之限制；(v) 另一方遵守其根據合併協議所應履行之義務與契約，但受某些重大性標準之限制；以及(vi) 就母公司與合併子公司的義務而言，必要批准不包含，個別或合計，任何負擔性條件（如合併協議所定義）。預期合併將於2026年底或2027年初完成。",
+    "本公司策略的關鍵零組件是透過補充性收購來增強現有業務的內部成長。如附註4所披露，本公司於財務年度2024年以1.697億美元現金無負債方式完成對Lunaphore的收購。",
+    "財務年度2026年，合併後淨銷售額與財務年度2025年持平，為12億美元。來自前一財年之營業收入亦持平。外幣換算產生有利影響2%，而持有待售之業務產生不利影響2%。",
+    "財務年度2026年，合併後淨利潤較財務年度2025年增加148%。利潤增加受到前一財年非經常性資產減損費用、前一財年非經常性仲裁賠償金以及持有待售資產之回復影響。扣除銷售取得之採購存貨成本、無形資產攤銷、收購相關費用、某些訴訟費用、投資損失及其他非營運損失、股票基於薪酬、重組及重組相關費用、持有待售資產之減損（回復）以及持有待售業務之影響後，調整後淨利潤較財務年度2025年減少1%。調整後淨利潤主要受到產品組合不利及價格壓力影響。",
+    "財務年度2025年，合併後淨銷售額較財務年度2024年增加5%。內生成長為5%，外幣換算及持有待售業務未產生重大影響。內生營收成長主要來自蛋白質科學部門強勁的商業執行表現。",
+    "財務年度2025年，合併後淨利潤較財務年度2024年減少56%。利潤減少受到前一財年非經常性仲裁賠償金、持有待售資產減損及重組與重組相關費用影響。扣除銷售取得之採購存貨成本、無形資產攤銷、收購相關費用、某些訴訟費用、投資出售收益、股票基於薪酬、重組與重組相關費用、持有待售資產減損及持有待售業務之影響後，調整後淨利潤較財務年度2024年增加8%。調整後淨利潤主要受到蛋白質科學部門有利的體積槓桿影響。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "經濟與產業風險",
+    "全球經濟情勢、我們所服務的特定市場以及財務市場，無論是否因重大全球危機或其他因素所導致，可能會對我們的業務與財務結果產生負面影響。",
+    "國際政治、合規與商業因素，包括軍事衝突與貿易緊張關係，可能會對我們的營運與財務結果產生負面影響。",
+    "收購與投資風險",
+    "我們若無法以歷史速度及適當價格完成收購，並做出支持我們長期戰略的適當投資，可能會對我們的成長速度與股票價格產生負面影響。",
+    "我們的收購、投資、合資企業及其他戰略關係，若未能妥善執行或整合，可能會對我們的業務與財務結果產生負面影響。",
+    "戰略與營運風險",
+    "我們的成功將取決於招募與留住高素質且多元化的專業人才，並建立與維持一種能成功整合收購所帶來員工的企業文化。",
+    "我們面臨激烈的競爭，若我們無法有效競爭，可能會導致需求下降及市場佔有率減少，或需降低價格以維持競爭力。",
+    "若因災難或其他事件導致我們的供應鏈、配送系統或資訊科技系統遭受損失，我們的營運可能會受到嚴重影響。",
+    "氣候變遷及/或相關環境風險，或為應對氣候變遷及/或相關環境風險而採取的法律或法規措施，可能會對我們產生負面影響。",
+    "產品的瑕疵、未預期的使用，或對我們產品的不當揭露，或相關指控，可能會對我們的業務及財務結果產生不利影響。",
+    "本公司被默克 KGaA，德國達姆施塔特收購的提案，可能會干擾或對我們的業務、前景、財務狀況及營運成果產生負面影響。",
+    "我們已產生並預期將持續產生與併購有關的重大交易相關費用及成本。",
+    "併購可能不會在預期時間內完成，或根本無法完成，若出現重大延誤或未能完成併購，可能會對我們的業務及本公司普通股的市場價格產生負面影響。",
+    "併購協議包含一些條款，可能會阻卻潛在的競爭買家，或導致以較低價格提出競爭性提案。",
+    "智慧財產權風險",
+    "財務及稅務風險",
+    "本公司業務及財務結果可能因外幣匯率變動、稅率及稅務負擔變更及評估（包括因稅法變更所致）而受到不利影響。"
+   ],
+   "paragraphs": [
+    "下列為我們認為對投資人具重大影響的風險與不確定性。您應參閱本年度10-K申報表開頭「與預測性陳述相關之說明」部分，該部分說明了預測性陳述之限制與條件。",
+    "我們的業務對全球經濟狀況相當敏感。國內或國際市場經濟成長放緩、通貨膨脹、經濟衰退、信用與貨幣市場波動、失業率或半失業率過高、勞動力供應限制、公共衛生危機、政府貿易、財政、稅收或貨幣政策之變動或預期變動、政府預算動態（特別是在醫療與科學研究領域），以及其他全球經濟挑戰，過去曾對本公司及其經銷商、客戶與供應商造成不利影響，未來亦可能造成不利影響。",
+    "除上述內容外，我們已經驗過，或未來可能經驗到：",
+    "● 客戶訂單與購買之不利影響，以及許多產品需求之不可預測減少；",
+    "● 我們產品在供應鏈中流通之限制，這可能會干擾我們生產或交付產品的能力；",
+    "● 我們對應收款項之回收遭遇不利影響，包括回收延遲與應收款項無法回收之增加，以及過多或過時存貨之風險；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

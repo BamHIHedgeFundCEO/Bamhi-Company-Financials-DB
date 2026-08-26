@@ -1,0 +1,195 @@
+{
+ "ticker": "GGG",
+ "cik": "0000042888",
+ "accession": "0000042888-26-000081",
+ "form": "10-K",
+ "reportDate": "2025-12-26",
+ "sections": {
+  "business": {
+   "headings": [
+    "Manufacturing and Distribution",
+    "Product Development",
+    "Business Segments",
+    "Contractor Segment",
+    "Industrial Segment",
+    "Expansion Markets Segment",
+    "Raw Materials",
+    "Intellectual Property",
+    "Compliance with Government Regulations",
+    "Human Capital Resources",
+    "Health, Wellness & Safety",
+    "Total Rewards"
+   ],
+   "paragraphs": [
+    "Graco Inc., together with its subsidiaries (\"Graco,\" \"us,\" \"we,\" or \"our Company\"), is a multi-national manufacturing company. We supply technology and expertise for the management of fluids and coatings in industrial and commercial applications. We design, manufacture and market systems and equipment used to move, measure, mix, control, dispense and spray fluid and powder materials. Our equipment is used in manufacturing, processing, construction and maintenance industries. Graco is a Minnesota corporation and was incorporated in 1926.",
+    "We specialize in providing equipment solutions for difficult-to-handle materials with high viscosities, abrasive or corrosive properties, and multiple component materials that require precise ratio control. We aim to serve niche markets, providing high customer value through product differentiation. Our products enable customers to reduce their use of labor, material and energy, improve quality and environmental performance.",
+    "We make significant investments in developing innovative, high-quality products. We strive to grow into new geographic markets by strategically adding commercial and technical resources and third-party distribution in growing and emerging markets. We have grown our third-party distribution to have specialized experience in particular end-user applications. We leverage our product technologies for new applications and industries.",
+    "We also make targeted acquisitions to broaden our product offerings, enhance our capabilities in the end-user markets we serve, expand our manufacturing and distribution base and potentially strengthen our geographic presence. These acquisitions may be integrated into existing Graco operations or may be managed as stand-alone operations. In 2025, we completed two acquisitions within the Contractor and Industrial segments. These acquisitions provide new product offerings, including mixing, shaking and automated material handling equipment for the Contractor segment and automated dosing systems for powder and liquid applications for the Industrial segment, while also expanding our manufacturing capabilities and strengthening our channel partner network. Note 12 (Acquisitions) to the Consolidated Financial Statements of this Form 10-K has additional information on recent acquisitions.",
+    "We have particularly strong manufacturing, engineering and customer service capabilities that enhance our ability to provide premium customer experience, produce high-quality and reliable products and drive ongoing cost savings.",
+    "Our investment in new products, targeted acquisitions and strong manufacturing, engineering and customer service capabilities comprise our long-term growth strategies, which we coordinate and drive across our geographic regions. Values central to our identity - growth, product innovation, premium customer service, quality and continuous improvement - are leveraged to integrate and expand the capabilities of acquired businesses.",
+    "Effective January 1, 2025, the Company began to classify its business into three reportable segments: Contractor, Industrial and Expansion Markets. The Industrial segment consists of the newly formed Industrial Division and the Powder Division. The Company's former Industrial and Lubrication Equipment Divisions, along with the Process Transfer Equipment business that was part of the Company's former Process Division, were combined to form the new global Industrial Division. The Powder Division remains unchanged. The Expansion Markets segment consists of the Expansion Markets Division. The Company's environmental, semiconductor, high-pressure valves and electric motors businesses, together with select future ventures and acquisitions, reside within this division. The Contractor segment, consisting of the Contractor Division, remains unchanged as a reportable segment relative to prior periods.",
+    "Each segment sells its products in North, Central and South America (the \"Americas\"), Europe, Middle East and Africa (\"EMEA\"), and Asia Pacific. For 2025, sales in the Americas represented approximately 60 percent of our Company's total sales. Sales in EMEA represented approximately 24 percent and sales in Asia Pacific represented approximately 16 percent. We provide marketing and product design in each of these geographic regions. Our Company also provides application assistance to distributors and employs sales personnel in each of these geographic regions.",
+    "Financial information concerning our segments and geographic markets is set forth in Part II, Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations and Note 2 (Segment Information) to the Consolidated Financial Statements of this Form 10-K.",
+    "For information about our Company and our products, services and solutions, visit our website at www.graco.com. The information on the website is not part of this report nor any other report filed or furnished to the Securities and Exchange Commission (\"SEC\").",
+    "We manufacture a majority of our products in the United States (\"U.S.\"). We also manufacture products in Switzerland (Industrial segment), Italy (Industrial and Contractor segments), the People's Republic of China (\"P.R.C.\", or \"China\") (all segments), India (Contractor segment), Belgium (all segments) and Romania (Industrial segment). Our manufacturing is aligned with our business segments and is co-located with product development to accelerate technology improvements and improve our cost structure. We perform critical machining, assembly and testing in-house for most of our products to control quality, improve response time and maximize cost-effectiveness. We make our products in focused factories and product cells. We source raw materials and components from suppliers around the world.",
+    "For all segments, we primarily sell our equipment through third-party distributors worldwide, positioned throughout our geographic regions, and through selected retailers. Our products are sold from our warehouse to our third-party distributors or retailers who sell our products to end users. Certain of our businesses sell their products directly to end-user customers and have direct relationships with customers.",
+    "Outside of the U.S., our operations located in Australia, Belgium, Spain, Japan, Italy, Korea, India, the P.R.C., the United Kingdom and Brazil distribute our Company's products and reinforce our commitment to those regions.",
+    "Our manufacturing capacity is sufficient for current business demand levels. In 2024 and 2023, we completed a number of significant expansion projects within the U.S., Switzerland and Romania. The completion of these projects represents the culmination of a period of significant investment in expansion and modernization of our key manufacturing and distribution facilities. Production requirements in the immediate future are expected to be met through existing facilities, the installation of new automatic and semi-automatic machine tools, efficiency and productivity improvements, the use of leased space and available subcontract services. For more details on our facilities, see Item 2, Properties."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Economic, Financial and Political Risks",
+    "Economic Environment – Demand for our products depends on the level of commercial and industrial activity worldwide.",
+    "Currency – Changes in currency translation rates could adversely impact our revenue, earnings and the valuation of assets denominated in foreign currencies.",
+    "Operational Risks",
+    "Information Systems – Interruption of or intrusion into information systems may impact our business.",
+    "Foreign Operations – Conducting business internationally exposes our Company to risks that could harm our business.",
+    "Catastrophic Events – Our operations are at risk of damage, destruction or disruption by natural disasters and other unexpected events.",
+    "Personnel – Our success may be affected if we are not able to attract, develop and retain qualified personnel.",
+    "Public health – Crises, such as an epidemic or pandemic, could have a material and adverse effect on our business, results of operations and financial condition.",
+    "Strategic Risks",
+    "Growth Strategies and Acquisitions – Our growth strategies may not provide the return on investment desired if we are not successful in implementation of these strategies.",
+    "Impairment – If acquired businesses do not meet performance expectations, acquired assets could be subject to impairment.",
+    "Competition – Our success depends upon our ability to develop or acquire, and market and sell, new products that meet our customers' evolving needs and desires, and anticipate industry and market changes.",
+    "Cyclical Industries – Our success may be affected by variations in the construction, automotive, electronics, aerospace, semiconductor, and agriculture and construction equipment industries.",
+    "Legal, Regulatory and Compliance Risks",
+    "Laws and Regulations – Changes in laws and regulations, and the imposition of new or additional laws and regulations, may impact how we can do business and the cost of doing business around the world.",
+    "Climate-Related Laws, Regulations and Accords – Climate-related laws, regulations and accords may adversely impact our operations, the industries in which we operate, and increase our cost of doing business.",
+    "Anti-Corruption and Trade Laws – We may incur costs and suffer damages if our employees, agents, distributors or suppliers violate anti-bribery, anti-corruption or trade laws and regulations.",
+    "Tax Rates and New Tax Legislation – Changes in tax rates or the adoption of new tax legislation may affect our results of operations, cash flows and financial condition.",
+    "Legal Proceedings – Costs associated with claims, litigation, administrative proceedings and regulatory reviews, and potentially adverse outcomes, may affect our profitability."
+   ],
+   "paragraphs": [
+    "As a global manufacturer of systems and equipment designed to move, measure, mix, control, dispense and spray fluid and powder materials, our business is subject to various risks and uncertainties. Below are risk factors that could materially and adversely affect our business, financial condition and results of operations.",
+    "The demand for our products depends, in part, on the general economic conditions of the industries, geographies or economies in which our customers operate. An economic downturn, recession, depression, sustained inflationary pressures or financial market turmoil may depress demand for our equipment in all or some major geographies and markets. Economic uncertainty and volatility in various geographies and industries in which we conduct business may adversely affect our net sales and earnings. If any participant in our sales channel, including end users, are unable to, or have a diminished ability to, purchase our products because of unavailable credit or unfavorable credit terms, depressed end-user demand, or are simply unwilling to purchase our products, our net sales and earnings will be adversely affected. An economic downturn may have an adverse effect on our results of operations and financial condition and affect our ability to satisfy the financial covenants in the terms of our financing arrangements. We cannot predict the timing, severity or duration of any such downturn, or the timing of any recovery.",
+    "A significant number of routine transactions to which we are a party are conducted in foreign currencies. Changes and volatility in exchange rates have impacted, and in the future may impact, our sales, cost of materials and earnings and the valuation of assets denominated in foreign currencies. A majority of our manufacturing and cost structure is based in the U.S. In addition, the decreased value of local currency may make it difficult for some of our distributors and end users to purchase our products. A significant fluctuation in exchange rates may negatively impact our financial condition and results of operations.",
+    "Political Instability – Uncertainty surrounding political leadership, as well as geopolitical unrest, could cause economic conditions in the U.S. or abroad to deteriorate, which could limit our growth opportunities and otherwise harm our business.",
+    "Domestic political instability, including government shutdowns, may limit our ability to grow our business. International political instability (including tensions or conflicts between the U.S. and the countries in which we conduct business, rumors or threats of war, terrorism and other hostilities, and geopolitical activity or trade disruptions, such as those caused by the Russia-Ukraine and Israel-Hamas conflicts, or any conflict or threatened conflict between China and Taiwan) may cause economic conditions in the U.S. or abroad to deteriorate. The occurrence of any of these events could result in a prolonged economic slowdown, prevent us or our customers from expanding into certain geographies or limit our ability to grow our business. Civil disturbances may also harm our business.",
+    "Interest Rate Fluctuations and Credit Markets – Declines in interest rates, asset values and investment returns could increase our pension costs and required pension contributions. Increases in interest rates, or the reduced availability of credit due to instability in the financial markets, could limit our ability to pursue growth initiatives and our customers' ability to invest in their businesses, which could adversely impact demand for our products."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Results of Operations",
+    "Segment Results",
+    "Financial Condition and Cash Flow",
+    "Working Capital. The following table highlights several key measures of asset performance (dollars in millions):",
+    "Cash Flow. A summary of cash flow follows (in millions):",
+    "Critical Accounting Estimates"
+   ],
+   "paragraphs": [
+    "The following Management's Discussion and Analysis reviews significant factors affecting the Company's consolidated results of operations, financial condition and liquidity. This discussion should be read in conjunction with our financial statements and the accompanying notes to the financial statements. A discussion of changes in our financial condition and the results of operations from the year ended December 27, 2024 compared to December 29, 2023 can be found in Part II, Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations of our Annual Report on Form 10-K for the year ended December 27, 2024. The discussion is organized in the following sections:",
+    "•Overview •Results of Operations •Segment Results •Financial Condition and Cash Flow •Critical Accounting Estimates",
+    "Graco designs, manufactures and markets systems and equipment used to move, measure, mix, control, dispense and spray a wide variety of fluid and powder materials. The Company specializes in equipment for applications that involve difficult-to-handle materials with high viscosities, materials with abrasive or corrosive properties and multiple-component materials that require precise ratio control. Graco sells primarily through independent third-party distributors worldwide to industrial and contractor end users. Graco's business is classified by management into three reportable segments: Contractor, Industrial and Expansion Markets. Each segment is responsible for product development, manufacturing, marketing and sales of their products.",
+    "Graco's key strategies include developing and marketing new products, leveraging products and technologies into additional, growing end-user markets, expanding distribution globally and completing strategic acquisitions that provide additional channels and technologies. Long-term financial growth targets accompany these strategies, including our objectives of 10 percent revenue growth and 12 percent consolidated net earnings growth per annum. We continue to develop new products in each operating segment that are expected to drive incremental sales growth, as well as continued refreshes and upgrades of existing product lines. Graco has made a number of strategic acquisitions that expand and complement organically developed products and provide new market and channel opportunities.",
+    "Manufacturing is a key competency of the Company. Our management team in Minneapolis provides strategic manufacturing expertise and is also responsible for factories not fully aligned with a single division. Our largest manufacturing facilities are in the U.S. We also manufacture some of our products in Switzerland (Industrial segment), Italy (Industrial and Contractor segment), the P.R.C. (all segments), India (Contractor segment), Belgium (all segments) and Romania (Industrial segment). Our primary distribution facilities are located in the U.S., Belgium, Switzerland, United Kingdom, P.R.C., Japan, Italy, South Korea, India, Australia and Brazil.",
+    "A summary of financial results follows (in millions except per share amounts): 2025 2024 Net Sales $ 2,236.6 $ 2,113.3",
+    "Operating Earnings 624.8 570.1 Net Earnings 521.8 486.1 Diluted Net Earnings per Common Share $ 3.08 $ 2.82",
+    "Adjusted (non-GAAP)(1): Operating Earnings, adjusted $ 610.7 $ 577.8 Net Earnings, adjusted 498.8 477.1",
+    "Diluted Net Earnings per Common Share, adjusted $ 2.95 $ 2.77",
+    "(1) Excludes the impact of excess tax benefits from stock option exercises, contingent consideration fair value adjustments, certain non-recurring tax provision adjustments and prior year business reorganization charges. See",
+    "Financial Results Adjusted for Comparability below for a reconciliation of adjusted non-GAAP financial measures to GAAP.",
+    "Certain events in the last two years caused fluctuations in financial results. Excess tax benefits related to stock option exercises reduced income taxes by $6 million in 2025 and $15 million in 2024. Other non-recurring tax provision adjustments from tax planning activities further reduced income taxes by $3 million in 2025. Operating earnings were increased by contingent consideration fair value adjustments of $14 million in 2025 and reduced by business reorganization charges of $8 million in 2024. Excluding the impacts of those items presents a more consistent basis for comparison of financial results, which management believes is useful information to help investors and others evaluate the Company's performance relative to other similarly-situated companies. A calculation of the non-GAAP adjusted measurements of operating earnings, earnings before income taxes, income taxes, effective income tax rates, net earnings and diluted earnings per share follows (in millions except per share amounts):",
+    "2025 2024 Operating earnings, as reported $ 624.8 $ 570.1 Contingent consideration (14.1) —",
+    "— 7.7 Operating earnings, adjusted $ 610.7 $ 577.8 Earnings before income taxes, as reported $ 641.2 $ 589.3"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "製造與流通",
+    "產品開發",
+    "業務分部",
+    "承包商分部",
+    "工業分部",
+    "擴張市場分部",
+    "原物料",
+    "智慧財產權",
+    "遵守政府規範",
+    "人力資源",
+    "健康、 wellness 與安全",
+    "總體報酬"
+   ],
+   "paragraphs": [
+    "Graco Inc., together with its subsidiaries (\"Graco,\" \"us,\" \"we,\" or \"our Company\"), 是一家多國製造公司。我們提供技術與專業知識，用以管理工業與商業應用中的流體與塗層。我們設計、製造與行銷用以移動、測量、混合、控制、分散與噴灑流體與粉末材料的系統與設備。我們的設備應用於製造、加工、建設與維護產業。Graco 是一家 Minnesota 公司，於 1926 年成立。",
+    "我們專注於提供處理難以處理材料的設備解決方案，這些材料具有高黏度、磨損性或腐蝕性，或需要精確比例控制的多組分材料。我們致力於服務利基市場，透過產品差異化提供高客戶價值。我們的產品使客戶能減少勞動力、材料與能源的使用，並提升品質與環境表現。",
+    "我們在開發創新且高品質的產品上進行重大投資。我們透過戰略性增加商業與技術資源，以及第三-party 配銷，來拓展至新地理市場。我們已拓展第三-party 配銷，使其具備特定終端用戶應用的專業經驗。我們利用產品技術拓展至新應用與產業。",
+    "我們也進行目標性收購，以拓展產品組合、強化我們服務的終端用戶市場能力、擴展製造與配銷基礎，並可能強化我們的地理存在。這些收購可能整合至現有 Graco 操作中，或可能作為獨立操作管理。於 2025 年，我們在 Contractor 與 Industrial 分部內完成了兩項收購。這些收購提供了新的產品組合，包括 Contractor 分部的混合、搖晃與自動化材料處理設備，以及 Industrial 分部的粉末與液體應用自動化計量系統，同時也擴展了我們的製造能力並強化了我們的通路夥伴網路。本 Form 10-K 的財務會計彙編財務報表附註 12（收購）有更多關於近期收購的資訊。",
+    "我們特別具備強大的製造、工程與客戶服務能力，這有助於我們提供 premium 客戶體驗、製造高品質且可靠的產品，並推動持續的成本節省。",
+    "我們在新產品的投資、目標性收購與強大製造、工程與客戶服務能力，組成了我們的長期成長策略，我們在各地理區域內協調並推動這些策略。我們的核心價值觀 - 成長、產品創新、premium 客戶服務、品質與持續改善 - 被運用以整合並擴展收購公司的能力。",
+    "自 2025 年 1 月 1 日起，本公司開始將業務分為三個應報告分部：Contractor、Industrial 與 Expansion Markets。Industrial 分部包含新成立的 Industrial 分部與 Powder 分部。本公司原先的 Industrial 與 Lubrication Equipment 分部，以及原先 Process 分部的 Process Transfer Equipment 事業，被合併為新的全球 Industrial 分部。Powder 分部保持不變。Expansion Markets 分部包含 Expansion Markets 分部。本公司環境、半導體、高壓閥門與電動馬達事業，加上未來的選擇性投資與收購，均位於此分部。Contractor 分部包含 Contractor 分部，作為應報告分部與過往期間相比保持不變。",
+    "每個分部在北美、中美與南美（\"Americas\"）、歐洲、中東與非洲（\"EMEA\"），以及亞太地區（\"Asia Pacific\"）銷售其產品。於 2,025 年，Americas 區域的銷售佔本公司總銷售額約 60%。EMEA 區域的銷售佔約 24%，亞太地區的銷售佔約 16%。我們在這些地理區域內提供市場行銷與產品設計。本公司也為經銷商提供應用協助，並在這些地理區域內僱用銷售人員。",
+    "有關我們各應報告分部及地理市場的財務資訊，請參閱本 Form 10-K 第二部分，第 7 項，管理層對財務狀況與營運成果之討論與分析，以及本合併財務報表之附註 2（分部資訊）。",
+    "如需瞭解本公司與產品、服務及解決方案的資訊，請造訪本公司網站 www.graco.com。網站上的資訊並非本報告或其他任何向美國證券交易委員會（\"SEC\"）所提交或提供之報告的一部分。",
+    "我們主要於美國（\"U.S.\"）製造我們的產品。我們也在瑞士（工業分部）、義大利（工業與承包分部）、人民共和國中國（\"P.R.C.\"，或稱 \"中國\"）（所有分部）、印度（承包分部）、比利時（所有分部）和羅馬尼亞（工業分部）製造產品。我們的製造活動與業務分部對應，並與產品開發共置，以加速技術改進並改善成本結構。我們對大多數產品進行關鍵的機械加工、組裝與測試，以控制品質、改善應答時間並最大化成本效益。我們在專注的工廠與產品細胞中製造產品。我們從全球各地的供應商處取得原材料與零組件。",
+    "對於所有分部，我們主要透過全球各地的第三方經銷商銷售設備，這些經銷商位於我們的地理區域內，並透過選擇性的零售商銷售。我們的產品由倉庫運送到第三方經銷商或零售商，再由這些經銷商或零售商銷售給最終用戶。部分業務直接向最終用戶客戶銷售產品，並與客戶有直接的關係。",
+    "除了美國之外，我們在澳洲、比利時、西班牙、日本、義大利、韓國、印度、P.R.C.、英國和巴西的業務運作，分銷本公司產品，並強化我們對這些地區的承諾。",
+    "我們的製造能力足以應對目前的業務需求。2024 年及 2023 年，我們在美國、瑞士和羅馬尼亞完成了多項重要的擴張計畫。這些計畫的完成代表了一段期間內對關鍵製造與配送設施擴張與現代化投資的總結。未來短期內的生產需求預期將透過現有設施、新自動與半自動機械工具的安裝、效率與生產力的改善、租賃空間的使用以及可用的委外服務來滿足。如需更多有關我們設施的資訊，請參閱第 2 項，財產。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果",
+    "分部成果",
+    "財務狀況與現金流",
+    "營運資產。下表突顯幾個資產表現的重要指標（單位為千萬美元）：",
+    "現金流。現金流摘要如下（單位為千萬美元）：",
+    "關鍵會計估計"
+   ],
+   "paragraphs": [
+    "以下為管理層討論與分析，審視影響本公司合併營運成果、財務狀況與流動性的重大因素。此討論應與我們的財務報表及財務報表附註一併閱讀。有關我們財務狀況與營運成果與截至2024年12月27日止年度相比截至2023年12月29日止年度之變動情形，請參閱我們2024年12月27日止年度10-K財務報告之第二部分，第7項，財務狀況與營運成果之管理層討論與分析。此討論依下列各節進行：",
+    "•總覽 •營運成果 •分部成果 •財務狀況與現金流 •關鍵會計估計",
+    "Graco設計、製造與行銷用以移動、測量、混合、控制、分散與噴灑各種液體與粉末材料之系統與設備。本公司專門從事處理難以處理之材料之設備，包括高黏度材料、具有磨蝕性或腐蝕性之材料，以及需精確比例控制之多組分材料。Graco主要透過獨立第三方經銷商在全球銷售產品至工業與承包商終端用戶。本公司之業務由管理層分為三個應報告分部：承包商、工業與擴張市場。每個分部負責其產品之產品開發、製造、行銷與銷售。",
+    "Graco之關鍵策略包括開發與行銷新產品、將產品與技術拓展至更多成長中的終端用戶市場、在全球擴展經銷網路，以及完成提供額外通路與技術之戰略收購。這些策略伴隨長期財務成長目標，包括我們之目標為每年營收成長10％與合併淨利潤成長12％。我們持續在各營運分部開發新產品，預期能推動增量銷售成長，同時持續更新與升級現有產品線。Graco已進行多項戰略收購，以擴展並補強內生發展之產品，並提供新的市場與通路機會。",
+    "製造為本公司之關鍵專長。我們明尼阿波利斯之管理團隊提供戰略製造專業知識，同時也負責與單一部門不完全對應之工廠。我們最大之製造設施位於美國。我們也在瑞士（工業分部）、義大利（工業與承包商分部）、中國（所有分部）、印度（承包商分部）、比利時（所有分部）與羅馬尼亞（工業分部）製造部分產品。我們主要之配送設施位於美國、比利時、瑞士、英國、中國、日本、義大利、韓國、印度、澳洲與巴西。",
+    "財務結果摘要如下（除每股金額外，單位為千萬美元）：2025 2024 淨銷售額 $ 2,236.6 $ 2,113.3",
+    "營運獲利 624.8 570.1 淨利潤 521.8 486.1 每股基本淨利潤 $ 3.08 $ 2.82",
+    "調整後（非GAAP）(1)：營運獲利，調整後 $ 610.7 $ 577.8 淨利潤，調整後 498.8 477.1",
+    "稀釋後每股普通股淨收益，調整後 $ 2.95 $ 2.77",
+    "(1) 排除股票選擇權行權產生之過度稅益、附條件考量之公允價值調整、特定非經常性稅務準備調整及前一年度業務重整費用的影響。詳見",
+    "財務結果調整後的可比性說明，以下為調整後非GAAP財務指標與GAAP財務指標的對應說明。",
+    "過去兩年發生的某些事件導致財務結果出現波動。股票選擇權行權產生的過度稅益於2025年減少所得稅費用$6千萬，於2024年減少所得稅費用$15千萬。其他非經常性稅務準備調整來自稅務規劃活動，進一步於2025年減少所得稅費用$3千萬。附條件考量之公允價值調整於2025年增加營運獲利$14千萬，而業務重整費用於2024年減少營運獲利$8千萬。排除這些項目後，提供更一致的財務結果比較基礎，管理層認為此資訊對投資人及其他人士評估本公司表現相對於其他類似公司是有幫助的。以下為非GAAP調整後指標的計算方式（以千萬為單位，每股金額除外）：",
+    "2025 2024 營運獲利，報告數字 $ 624.8 $ 570.1 附條件考量 (14.1) —",
+    "— 7.7 營運獲利，調整後 $ 610.7 $ 577.8 營業收入前稅務費用，報告數字 $ 641.2 $ 589.3"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "經濟、財務與政治風險",
+    "經濟環境 – 我們產品的需求取決於全球商業與工業活動的程度。",
+    "貨幣 – 貨幣兌換率的變動可能對我們的營業收入、獲利及以外幣計價資產的評價產生不利影響。",
+    "運營風險",
+    "資訊系統 – 資訊系統的中斷或遭入侵可能影響我們的業務。",
+    "海外業務 – 在國際市場進行業務會使本公司面臨可能損害我們業務的風險。",
+    "重大事件 – 我們的業務可能因自然災害及其他未預期事件而遭受損壞、破壞或中斷。",
+    "人力 – 若我們無法吸引、培訓及留住合格的人力，可能影響我們的成功。",
+    "公共衛生 – 如疫情或大流行等危機，可能對本公司的業務、營運結果及財務狀況造成重大且不利的影響。",
+    "戰略風險",
+    "成長策略與併購 – 若本公司未能成功落實這些策略，成長策略可能無法達到所期望的投資回報。",
+    "減損 – 若取得的企業未能達成績效目標，取得的資產可能面臨減損風險。",
+    "競爭 – 本公司能否成功，取決於本公司能否開發或取得，並行銷與銷售符合客戶不斷變化的需要與願望的新產品，並預測產業與市場的變化。",
+    "週期性產業 – 本公司能否成功，可能受到建築、汽車、電子、航空、半導體以及農業與建築設備產業變動的影響。",
+    "法律、法規與合規風險",
+    "法律與法規 – 法律與法規的變更，以及新法或附加法規的實施，可能影響本公司在全球範圍內的營運方式與營運成本。",
+    "氣候相關法律、法規與協議 – 氣候相關法律、法規與協議可能不利於本公司營運、所從事產業，並提高本公司營運成本。",
+    "反貪腐與貿易法律 – 若本公司員工、代理人、經銷商或供應商違反反賄賂、反貪腐或貿易法律與法規，本公司可能產生成本並遭受損失。",
+    "稅率與新稅法 – 稅率變動或新稅法的實施可能影響本公司營運成果、現金流與財務狀況。",
+    "法律程序 – 與聲請、訴訟、行政程序及監管審查相關的成本，以及潛在不利結果，可能影響本公司獲利能力。"
+   ],
+   "paragraphs": [
+    "作為一家全球性系統與設備製造商，專門設計用來移動、測量、混合、控制、分配與噴灑液體與粉末材料，我們的業務面臨各種風險與不確定性。以下為可能對我們業務、財務狀況與營運成果造成重大且不利影響的風險因素。",
+    "我們產品的銷售需求，部分取決於我們客戶所處產業、地理區域或經濟體的一般經濟狀況。經濟衰退、蕭條、持續的通貨膨脹壓力或財務市場動盪，可能會壓抑我們設備在所有或某些主要地理區域與市場的銷售需求。我們所從事業務的各個地理區域與產業的經濟不確定性與波動，可能會對我們的淨銷售額與獲利造成不利影響。若任何銷售通路參與者（包括最終用戶）因信貸不足或信貸條款不利，而無法或減少了購買我們產品的意願，或單純不願購買我們產品，將會對我們的淨銷售額與獲利造成不利影響。經濟衰退可能會對我們的營運成果與財務狀況造成不利影響，並影響我們履行融資協議中財務契約的能力。我們無法預測任何這種衰退的時間、嚴重程度或持續時間，或任何復甦的時間。",
+    "我們參與的許多日常交易是以外幣進行的。匯率的變動與波動已影響，且未來可能繼續影響，我們的銷售、材料成本與獲利，以及以外幣計價資產的價值。我們的大多數製造與成本結構均位於美國。此外，當地貨幣價值的下降，可能使部分我們的經銷商與最終用戶難以購買我們的產品。匯率的重大波動可能會對我們的財務狀況與營運成果造成負面影響。",
+    "政治動盪 – 政治領導層的不確定性，以及地緣政治動盪，可能會導致美國或海外的經濟狀況惡化，從而限制我們的成長機會，並對我們的業務造成其他損害。",
+    "國內政治動盪，包括政府停擺，可能會限制我們擴張業務的能力。國際政治動盪（包括美國與我們從事業務國家之間的緊張關係或衝突、戰爭或恐怖襲擊等威脅與敵對行動，以及地緣政治活動或貿易中斷，例如由俄烏與以巴衝突所導致，或任何與中國與臺灣之間的衝突或威脅衝突）可能會導致美國或海外的經濟狀況惡化。這些事件的發生，可能會導致經濟成長減緩延長，使我們或我們的客戶無法擴張至某些地理區域，或限制我們擴張業務的能力。動盪事件也可能對我們的業務造成損害。",
+    "利率波動與信用市場 – 利率下降、資產價值與投資回報減少，可能會增加我們的退休金成本與所需退休金提撥。利率上升，或因金融市場不穩定而導致信貸供應減少，可能會限制我們追求成長計畫的能力，以及我們客戶投資其業務的能力，這可能會對我們產品的需求造成不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

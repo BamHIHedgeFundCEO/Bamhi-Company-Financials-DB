@@ -1,0 +1,221 @@
+{
+ "ticker": "CRL",
+ "cik": "0001100682",
+ "accession": "0001100682-26-000022",
+ "form": "10-K",
+ "reportDate": "2025-12-27",
+ "sections": {
+  "business": {
+   "headings": [
+    "Corporate History",
+    "Discovery and Safety Assessment",
+    "Manufacturing Solutions",
+    "Biologics Solutions. Our Biologics Solutions (Biologics) business is comprised of our Biologics Testing Services business and CDMO business.",
+    "Our Strategy"
+   ],
+   "paragraphs": [
+    "This Annual Report on Form 10-K contains forward-looking statements regarding future events and the future results of Charles River Laboratories International, Inc. that are based on our current expectations, estimates, forecasts and projections about the industries in which we operate and the beliefs and assumptions of our management. Words such as \"expect,\" \"anticipate,\" \"target,\" \"goal,\" \"project,\" \"intend,\" \"plan,\" \"believe,\" \"seek,\" \"estimate,\" \"will,\" \"likely,\" \"may,\" \"designed,\" \"would,\" \"future,\" \"can,\" \"could\" and other similar expressions, which are predictions of, indicate future events and trends or which do not relate to historical matters are intended to identify such forward-looking statements. These statements are based on our current expectations and beliefs and involve a number of risks, uncertainties and assumptions that are difficult to predict. For example, we may use forward-looking statements when addressing topics such as: our expectations regarding the availability of non-human primates and our ability to diversify our non-human primate (NHP) supply chain; the outcome of (1) the putative securities class action lawsuit filed against us and certain current/former officers on May 19, 2023; (2) the derivative lawsuit filed against members of the Board of Directors and certain current/former officers on November 8, 2023; and (3) the derivative lawsuit filed against certain current/former members of the Board of Directors and certain current/former officers on August 2, 2024; the timing and impact of the development and implementation of enhanced procedures to reasonably ensure that non-human primates we import are purpose-bred; changes and uncertainties in the global economy and financial markets; client demand, particularly future demand for drug discovery and development products and services, including the outsourcing of these services; our expectations with respect to our ability to meet financial targets; the Company's plans or prospects, expectations and long-term goals associated with our business; the Company's expectations concerning future financial and operating performance, including the Company's commitment to, and ability to create long-term value for shareholders and to successfully execute on the Board of Directors' comprehensive strategic review and evaluation of Charles River's business and prospects; our expectations regarding stock repurchases, including the number of shares to be repurchased, expected timing and duration, the amount of capital that may be expended and the treatment of repurchased shares; our ability to successfully execute our business strategy; our ability to timely build infrastructure to satisfy capacity needs and support business growth; our ability to fund our operations for the foreseeable future; the impact of unauthorized access into our information systems, including the timing and effectiveness of any enhanced security and monitoring present spending trends and other cost reduction activities by our clients; future actions by our management; the outcome of contingencies; changes in our business strategy, business practices and methods of generating revenue; the development and performance of our services and products; market and industry conditions, including competitive and pricing trends and the impact of those conditions, including on our allowances for credit losses; our strategic relationships with leading pharmaceutical and biotechnology companies, venture capital investments, and opportunities for future similar arrangements; our cost structure; our expectations regarding our acquisitions and divestitures, including their impact, terms, projected timing, and planned funding; our expectations with respect to revenue growth and operating synergies (including the impact of specific actions intended to cause related improvements); the nature, timing and impact of specific actions intended to improve overall operating efficiencies and profitability (and our ability to accommodate future demand with our infrastructure), including actions to optimize our global footprint, and gains and losses attributable to businesses we plan to close, consolidate, divest or repurpose and the impact of operations and restructuring actions (including as estimated on an annualized basis); our expectations with respect to study cancellation rates and the impact of such cancellations; our expectations with respect to tax rates and benefits, including the impact of tax legislation on our operations; changes in our expectations regarding future stock option, restricted stock, performance share units and other equity grants to employees and directors; expectations with respect to foreign currency exchange; assessing (or changing our assessment of) our tax positions for financial statement purposes; our liquidity; the impact of newly issued accounting pronouncements on our consolidated financial statements and related disclosures; and the impact of litigation, including our ability to successfully defend litigation against us. In addition, these statements include the impact of economic and market conditions on us and our clients, the effects of our cost-saving actions, including on an annualized basis, and the steps to optimize returns to shareholders on an effective and timely basis; and our ability to withstand the current market conditions.",
+    "Forward-looking statements are predictions and are subject to risks, uncertainties and assumptions that are difficult to predict. Therefore, actual results may differ materially and adversely from those expressed in any forward-looking statements. You are cautioned not to place undue reliance on these forward-looking statements, which speak only as of the date of this document or, in the case of statements incorporated by reference, on the date of the document incorporated by reference. Factors that might cause or contribute to such differences include, but are not limited to, those discussed in this Form 10-K under the sections entitled \"Our Strategy,\" \"Risk Factors,\" \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" in our press releases and other financial filings with the SEC. We have no obligation to publicly update or revise any forward-looking statements, whether as a result of new information, future events or risks. New information, future events or risks may cause the forward-looking events we discuss in this report not to occur.",
+    "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+    "We began operating in 1947 and, since then, have undergone several changes to our business structure. Charles River Laboratories International, Inc. was incorporated in 1994 and we completed our initial public offering in 2000. Our stock is traded on the New York Stock Exchange under the symbol \"CRL\" and is included in the Standard & Poor's 500 and Composite 1500 indices, the New York Stock Exchange (NYSE) Arca Biotechnology Index, the NYSE Composite and many of the Russell indices, among others. We are headquartered in Wilmington, Massachusetts. Our headquarters mailing address is 251 Ballardvale Street, Wilmington, MA, 01887, and the telephone number at that location is (781) 222-6000. Our Internet site is www.criver.com. Material contained on our Internet site is not incorporated by reference into this Form 10-K. Unless the context otherwise requires, references in this Form 10-K to \"Charles River,\" \"we,\" \"us,\" \"the Company\" or \"our\" refer to Charles River Laboratories International, Inc. and its subsidiaries.",
+    "This Form 10-K, as well as all other reports filed with the SEC, is available free of charge through the Investor Relations section of our Internet site (www.criver.com) as soon as practicable after we electronically file such material with, or furnish it to, the SEC. The SEC maintains an Internet site (http://www.sec.gov) that contains reports, proxy and information statements, and other information regarding issuers that file electronically with the SEC.",
+    "We are a leading, full service, non-clinical global drug development partner with a mission to create healthier lives. We have built upon our original core competency of laboratory animal medicine and science (research model technologies) to develop a diverse portfolio of discovery and safety assessment services, both Good Laboratory Practice (GLP) and non-GLP, that supports our clients from target identification through non-clinical development. We also provide a suite of products and services to support our clients' manufacturing activities. Utilizing our broad portfolio of products and services enables our clients to create a more efficient and flexible drug development model, which reduces their costs, enhances their productivity and effectiveness, and increases speed to market.",
+    "The development of new drugs requires a steadily increasing investment of time and money. Various studies and reports estimate that it takes between 10 to 15 years, up to $2.6 billion excluding time costs and exploration of between 10,000 and 15,000 drug molecules to produce a single Food and Drug Administration (FDA)-approved drug.",
+    "Discovery represents the earliest stages of research in the life sciences, directed at the identification, screening, and selection of a lead molecule for future drug development. Discovery activities typically extend anywhere from 4 to 7 years in conventional pharmaceutical research and development (R&D) timelines.",
+    "Development activities, which follow, and which can take up to 7 to 10 years, are directed at demonstrating the safety, tolerability and clinical efficacy of the selected drug candidates. During the non-clinical stage of the development process, a drug candidate is tested in vitro (non-animal, typically on a cellular or sub-cellular level in a test tube or multi-well petri plate) and in vivo (in research models) to establish drug safety prior to and in support of human clinical trials.",
+    "For over 75 years, we have been in the business of providing the research models required in the research and development of new drugs, devices and therapies. Over this time, we have built upon our core competency of in vivo biology to develop a diverse and continuously expanding portfolio of products and services, which now encompasses the broader non-clinical drug research process. We are positioned to leverage our leading portfolio in non-clinical drug research in an efficient and cost-effective way to aid our clients in bringing their drugs to market faster.",
+    "Our client base includes major global pharmaceutical companies, many biotechnology companies; agricultural and industrial chemical, life science, veterinary medicine, medical device, diagnostic and consumer product companies; contract research and contract manufacturing organizations; and other commercial entities, as well as leading hospitals, academic institutions, and government agencies around the world. In recent years, we have focused our efforts on improving the efficiency of our global operations to enhance our ability to support our clients. Our pharmaceutical and biotechnology clients are increasingly seeking full service, \"one-stop\" global partners to whom they can outsource more of their drug discovery and development efforts. It is estimated that the market for regulated safety assessment services is 60% outsourced or more, while emerging growth areas such as discovery and certain research model services are currently believed to be less outsourced.",
+    "We currently operate in over 120 sites and in over 20 countries worldwide (excluding certain Insourcing Solutions sites). Our products and services, supported by our global infrastructure and deep scientific expertise, enable our clients to overcome many of the challenges of non-clinical life sciences research. In 2025, our total revenue was $4.0 billion. As part of our efforts to manage the Company through the current demand environment, we have undertaken a comprehensive review of our global footprint. Through these optimization initiatives, we expect to close or consolidate approximately 12 additional sites over the next two years, principally focused on the DSA and RMS segments. These footprint optimization efforts will enhance the efficiency and economies of scale in our global infrastructure, leading to a more disciplined operating model.",
+    "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+    "We have three reportable segments: Research Models and Services (RMS), Discovery and Safety Assessment (DSA) and Manufacturing Solutions (Manufacturing)."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factor Summary",
+    "Business and Operational Risks",
+    "Industry Risk Factors",
+    "Legal and Regulatory Risk Factors",
+    "Labor and Employment Risk Factors",
+    "Financial and Accounting Risk Factors",
+    "General Risk Factors",
+    "Risk Factors",
+    "We bear financial risk for contracts that may be terminated or reduced in scope, underpriced, subject to cost overruns or delays.",
+    "Upgrading and integrating our business systems could result in implementation issues and business disruptions.",
+    "We have in the past experienced and in the future could experience unauthorized access into our information systems.",
+    "Uncertainties with respect to the development, deployment, and use of artificial intelligence present new risks and challenges and could adversely affect our business and reputation.",
+    "Failure to execute our business strategy could adversely impact our growth and profitability.",
+    "Failure to successfully realize cost savings from our restructuring initiatives would adversely impact our growth and profitability.",
+    "Our business is subject to risks relating to operating internationally, including changes in foreign currency exchange rates.",
+    "Our operations might be affected by the occurrence of a natural disaster or other catastrophic event.",
+    "Negative attention from special interest groups may impair our business.",
+    "Several of our product and service offerings, including our non-human primate supply, are dependent on a limited source of supply that, when interrupted, adversely affects our business.",
+    "Demand volatility and risk of credit losses from clients may adversely affect our business.",
+    "A reduction or delay in government funding of R&D may adversely affect our business.",
+    "Changes in government regulation or in practices relating to the pharmaceutical or biotechnology industries, including potential healthcare reform, could decrease the need for the services we provide.",
+    "Our Biologics Solutions business, financial condition and results of operations may be adversely affected if the products we manufacture and/or test for our customers do not gain market acceptance.",
+    "CDMO services are highly complex and failure to provide quality and timely services to our CDMO customers, could adversely impact our business."
+   ],
+   "paragraphs": [
+    "Set forth below, elsewhere in this Form 10-K, and in other documents we file with the SEC are risks and uncertainties that could cause actual results to differ materially from the results contemplated by the forward-looking statements contained in this Form 10-K. We note that factors set forth below, individually or in the aggregate, as well as additional risks and uncertainties either not presently known or that are currently believed to not be material to the business, may cause our actual results to differ materially from expected and historical results. You should understand that it is not possible to predict or identify all such factors. Consequently, you should not consider the following to be a complete discussion of all potential risks or uncertainties and the risks described below should be carefully considered together with the other information set forth in this report and in future documents we file with the SEC.",
+    "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+    "As noted above, we are subject to a number of risks that if realized could cause actual results to differ materially from the results contemplated herein. Some of the more significant risks and uncertainties we face include those summarized below. The summary below is not exhaustive and is qualified by reference to the full set of risk factors set forth in this \"Risk Factors\" section. Please carefully consider all of the information in this Form 10-K, including the full set of risks set forth in this \"Risk Factors\" section, and in our other filings with the SEC before making an investment decision regarding Charles River.",
+    "•We bear financial risk for contracts that may be terminated or reduced in scope, underpriced, subject to cost overruns or delays.",
+    "•Upgrading and integrating our business systems could result in implementation issues and business disruptions.",
+    "•We have in the past experienced and in the future could experience unauthorized access into our information systems."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Segment Reporting",
+    "Fiscal Quarters",
+    "Business Trends",
+    "Recent Acquisitions",
+    "U.S. Government Investigations into Non-Human Primate Supply Chain",
+    "Critical Accounting Policies and Estimates",
+    "Revenue Recognition",
+    "Business Combinations",
+    "Valuation and Impairment of Long-Lived Assets",
+    "Income Taxes",
+    "New Accounting Pronouncements",
+    "Results of Operations",
+    "Consolidated Results of Operations and Liquidity",
+    "Revenue and Operating Income (Loss)",
+    "2025 2024 $ change % change",
+    "(in thousands, except percentages)",
+    "2025 2024 $ change % change Impact of FX",
+    "Analysis of Segment Results",
+    "Other Income (Expense)",
+    "Liquidity and Capital Resources",
+    "December 27, 2025 December 28, 2024",
+    "(in thousands)",
+    "Financing and Market Risk"
+   ],
+   "paragraphs": [
+    "The following discussion should be read in conjunction with our consolidated financial statements and related notes appearing in Item 8, \"Financial Statements and Supplementary Data\" in this Annual Report on Form 10-K. A discussion of our results of operations for the fiscal year ended December 28, 2024 and a comparison of our results for the fiscal years ended December 28, 2024 and December 30, 2023 was included in Item 7. \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" of our Annual Report on Form 10-K for the fiscal year ended December 28, 2024, filed with the SEC on February 19, 2025. In addition to historical consolidated financial information, the following discussion contains forward-looking statements. Actual results may differ significantly from those projected in the forward-looking statements. Factors that might cause future results to differ materially from those projected in the forward-looking statements include, but are not limited to, those discussed in Item 1A, \"Risk Factors\" and elsewhere in this Annual Report on Form 10-K. Certain percentage changes may not recalculate due to rounding.",
+    "We are a leading, full service, non-clinical global drug development partner. For over 75 years, we have been in the business of providing the research models required in the research and development of new drugs, devices, and therapies. Over this time, we have built upon our original core competency of laboratory animal medicine and science (research model technologies) to develop a diverse portfolio of discovery and safety assessment services, both Good Laboratory Practice (GLP) and non-GLP, that supports our clients from target identification through non-clinical development. We also provide a suite of products and services to support our clients' manufacturing activities. Utilizing our broad portfolio of products and services enables our clients to create a more efficient and flexible drug development model, which reduces their costs, enhances their productivity and effectiveness, and increases speed to market.",
+    "Our client base includes major global pharmaceutical companies, many biotechnology companies; agricultural and industrial chemical, life science, veterinary medicine, medical device, diagnostic and consumer product companies; contract research and contract manufacturing organizations; and other commercial entities, as well as leading hospitals, academic institutions, and government agencies around the world. We currently operate in over 120 sites and in over 20 countries worldwide, which numbers exclude certain Insourcing Solutions (IS) sites.",
+    "Our three reportable segments are Research Models and Services (RMS), Discovery and Safety Assessment (DSA), and Manufacturing Solutions (Manufacturing).",
+    "Our RMS reportable segment includes the products and services offered within Research Models, Research Model Services, and Cell Solutions. Research Models includes the commercial production and sale of small research models, as well as the supply of large research models. Research Model Services includes: Insourcing Solutions (IS), which provides colony management of our clients' research operations (including recruitment, training, staffing, and management services) within our clients' facilities as well as our own vivarium space, utilizing our Charles River Accelerator and Development Lab (CRADL™) offerings, Genetically Engineered Models and Services (GEMS), which performs contract breeding and other services associated with genetically engineered models; and Research Animal Diagnostic Services (RADS), which provides health monitoring and diagnostics services related to research models; and Cell Solutions, which provides controlled, consistent, customized primary cells and blood components derived from normal and mobilized peripheral blood and bone marrow as well as cells from disease state donors.",
+    "Our DSA segment is comprised of Discovery Services and Safety Assessment services. We provide regulated and non-regulated DSA services to support the discovery, development, and regulatory-required safety testing of potential new drugs, including in vitro (non-animal) and in vivo (in research models) studies, laboratory support services, including bioanalytical and strategic non-clinical consulting and program management to support product development.",
+    "Our Manufacturing reportable segment includes Microbial Solutions, which provides in vitro lot-release testing products, microbial detection products, and species identification services and Biologics Solutions (Biologics), which performs specialized testing of biologics (Biologics Testing) as well as contract development and manufacturing products and services (CDMO).",
+    "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+    "Our fiscal year is typically based on 52-weeks, with each quarter composed of 13 weeks ending on the last Saturday on, or closest to, March 31, June 30, September 30, and December 31. A 53rd week in the fourth quarter of the fiscal year is occasionally necessary to align with a December 31 calendar year-end, which occurred in fiscal year 2022.",
+    "In fiscal year 2025, demand from biopharmaceutical clients stabilized and began to show early signs of improvement as clients continued to navigate a challenging and evolving environment. Demand from larger biopharmaceutical clients began to improve early in the year following the prior year's constrained budgetary spending as a result of restructuring initiatives and reprioritization of their drug development programs. Meanwhile, small and mid-sized biotechnology clients experienced a gradual improvement in funding over the course of fiscal year 2025, particularly in the second half of the year, that led to an improvement in DSA demand trends as we exited the year.",
+    "Despite the current, challenging market environment, many of our pharmaceutical and biotechnology clients continued to benefit from the long-term value of strategic outsourcing to improve their operating efficiency and to access capabilities that they do not maintain internally. Many of our large biopharmaceutical clients have continued to rely on relationships with outsourced partners like Charles River to enhance their drug discovery and early-stage development efforts, and biotechnology companies to assist them in bringing new drugs to market. Because of a continued cautious view with regard to early-stage R&D spending, revenue to both large biopharmaceutical clients and small and mid-sized biotechnology clients declined in fiscal year 2025. However, our ability to continue to deliver our leading suite of research, non-clinical development, and clinical bioanalytical solutions has endeavored our clients to continue to choose to partner with us for our flexible and efficient outsourcing solutions, broad scientific capabilities, and global scale.",
+    "Revenue for DSA declined in fiscal year 2025 as demand trends resulted in lower study volumes in both discovery and safety assessment services, driven by both large biopharmaceutical and small and mid-sized biotechnology clients. Despite the revenue declines, DSA demand trends, including net bookings, for large biopharmaceutical clients meaningfully improved in fiscal year 2025 as clients worked through a period of restructuring and pipeline reprioritization. Net bookings from small and mid-sized biotechnology clients showed modest improvement, consistent with improving funding levels later in the year. DSA backlog decreased to $1.9 billion as of December 27, 2025 from $2.0 billion as of December 28, 2024.",
+    "Revenue for RMS increased in fiscal year 2025 due largely to higher revenue from large research models and increased pricing for small research models. Additionally, revenue from research model services improved modestly driven by the IS and GEMS businesses. Despite pressures from early-stage biotechnology and government funding in North America, as well as a focus on alternative methodologies, we are confident that research models and services will remain essential tools for our clients' drug discovery and early-stage development efforts.",
+    "Within the Manufacturing segment, the Microbial Solutions business saw robust growth benefitting from strong demand across the comprehensive manufacturing quality-control testing portfolio, including Accugenix® microbial identification services, led by increased AxxessTM instrument placements; share gains for our Endosafe® endotoxin testing platform; and higher sales of Celsis® microbial detection products. Biologics Testing was impacted by lower sample volumes from both biopharmaceutical and CDMO clients, particularly several large clients facing project delays or regulatory challenges. The CDMO business was challenged due to lower commercial revenue in fiscal year 2025, including a relationship with one commercial cell therapy client that ended during the year."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "公司沿革",
+    "發現與安全性評估",
+    "製造解決方案",
+    "生物製品解決方案。我們的生物製品解決方案（Biologics）業務包含我們的生物製品測試服務業務與 CDMO 業務。",
+    "我們的策略"
+   ],
+   "paragraphs": [
+    "本年度10-K申報書包含有關Charles River Laboratories International, Inc.未來事件及未來結果的預測性陳述，這些陳述基於我們目前的預期、估計、預測及對我們所從事產業的信念與假設。詞語如\"expect\"、\"anticipate\"、\"target\"、\"goal\"、\"project\"、\"intend\"、\"plan\"、\"believe\"、\"seek\"、\"estimate\"、\"will\"、\"likely\"、\"may\"、\"designed\"、\"would\"、\"future\"、\"can\"、\"could\"及其他類似表達，這些詞語預測未來事件與趨勢，或與歷史事項無關，旨在識別這些預測性陳述。這些陳述基於我們目前的預期與信念，並涉及許多難以預測的風險、不確定性與假設。例如，我們可能在討論以下主題時使用預測性陳述：我們對非人類靈長類動物供應的可得性及我們能多元化非人類靈長類動物（NHP）供應鏈的預期；（1）2023年5月19日對我們及某些現任或前任高階主管提出的證券集體訴訟；（2）2023年11月8日對董事會成員及某些現任或前任高階主管提出的衍生訴訟；（3）2024年8月2日對某些現任或前任董事會成員及某些現任或前任高階主管提出的衍生訴訟；增強程序的開發與實施時間及影響，以確保我們進口的非人類靈長類動物為專門繁殖；全球經濟與金融市場的變化與不確定性；客戶需求，特別是未來對藥物發現與開發產品與服務的需求，包括這些服務的委外；我們對達成財務目標的預期；本公司業務相關的計畫、展望與長期目標；本公司對未來財務與營運表現的預期，包括本公司對創造長期股東價值的承諾與能力，以及成功執行董事會對Charles River業務與前景的綜合戰略評估與審查；我們對股票回購的預期，包括回購股數、預期時間與持續時間、可能支出的資金數額及回購股票的處理方式；我們成功執行業務策略的能力；我們能及時建立基礎設施以滿足容量需求並支持業務成長的能力；我們在可預見的未來資金營運的能力；未經授權訪問我們資訊系統的影響，包括增強安全與監控措施的時間與效果，以及客戶的現有支出趨勢及其他成本降低活動；我們管理層未來的行動；未決事項的結果；我們業務策略、業務作法與收入產生方式的變化；我們服務與產品的開發與表現；市場與產業條件，包括競爭與價格趨勢及這些條件的影響，包括對我們信用減損允許的影響；我們與領先的製藥與生物科技公司的戰略關係、風險投資與未來類似安排的機會；我們的成本結構；我們對收購與出售的預期，包括其影響、條款、預期時間與計畫資金；我們對收入成長與營運協同效應的預期（包括特定行動的影響，以導致相關改善）；改善整體營運效率與獲利的特定行動的性質、時間與影響（以及我們能以基礎設施應對未來需求的能力），包括優化全球據點的行動，以及我們計畫關閉、合併、出售或重新定位的業務所產生的利得與損失，以及營運與重整行動的影響（包括按年化估算）；我們對研究取消率的預期及這些取消的影響；我們對稅率與稅務優惠的預期，包括稅法對我們營運的影響；我們對未來股票選擇權、限制性股票、績效股票單位及其他股權授予的預期；對外幣匯率的預期；評估（或改變我們對財務陳述目的的稅務立場）；我們的流動性；新發佈會計準則對我們合併財務報表及相關揭露的影響；以及訴訟的影響，包括我們成功防禦訴訟的能力。此外，這些陳述包含經濟與市場條件對我們與客戶的影響，我們成本節省行動的影響（包括按年化估算），以及我們優化股東回報的行動；以及我們抵禦目前市場條件的能力。",
+    "預測性陳述為預測，並受風險、不確定性與假設影響，這些因素難以預測。因此，實際結果可能與任何預測性陳述所表達的結果有顯著且不利的差異。您應謹慎勿過度依賴這些預測性陳述，這些陳述僅反映本文件或在引用文件中所引用文件的日期。導致這些差異的因素包括，但不僅限於，本10-K申報書中「我們的戰略」、「風險因素」、「管理層對財務狀況與營運結果的討論與分析」部分，以及我們的新聞稿及其他向SEC提交的財務申報文件中所討論的內容。我們無義務公開更新或修正任何預測性陳述，無論是因新資訊、未來事件或風險所致。新資訊、未來事件或風險可能導致本報告中討論的預測性事件未發生。",
+    "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+    "我們自1947年起開始營運，並經歷了多項業務結構的變更。Charles River Laboratories International, Inc.於1994年設立，並於2000年完成首次公開發行。我們的股票在紐約證券交易所（NYSE）交易，代碼為\"CRL\"，並納入標準普爾500指數與綜合1500指數、紐約證券交易所（NYSE）Arca生物科技指數、紐約證券交易所綜合指數及許多羅素指數，其中包括。我們的總部設於馬薩諸塞州威明頓市。總部郵遞地址為251 Ballardvale Street, Wilmington, MA, 01887，該地的電話號碼為(781) 222-6000。我們的網站為www.criver.com。網站上的資訊未經引用納入本10-K申報書。除非上下文另有說明，本10-K申報書中提及\"Charles River\"、\"we\"、\"us\"、\"the Company\"或\"our\"均指Charles River Laboratories International, Inc.及其子公司。",
+    "本10-K申報書，以及所有向SEC提交的其他報告，均可透過我們網站的投資者關係部分（www.criver.com）免費取得，自我們電子提交這些資料至SEC或提供這些資料給SEC後即刻起。SEC維護一個網站（http://www.sec.gov），其中包含報告、股東權利與資訊聲明，以及其他向SEC電子提交資料的發行人的資訊。",
+    "我們是一家領先的、提供全面非臨牀藥物開發服務的全球性合作夥伴，我們的使命是創造更健康的未來。我們已建立在原始核心專業領域——實驗動物醫學與科學（研究模型技術）的基礎上，發展出一個多樣化的藥物發現與安全性評估服務組合，包括符合良好實驗室規範（GLP）與非GLP的服務，以支持客戶從目標識別到非臨牀開發的各階段。我們也提供一系列產品與服務，以支持客戶的製造活動。利用我們廣泛的產品與服務組合，使客戶能建立更高效且靈活的藥物開發模式，這可降低其成本、提高其生產力與效果，並加快上市速度。",
+    "開發新藥需要持續增加的時間與金錢投入。各種研究與報告估計，開發一款美國食品藥物管理局（FDA）核准的藥物，需要10至15年，費用高達26億美元（不含時間成本與探索10,000至15,000種藥物分子的費用）。",
+    "發現代表生命科學研究的最早階段，目標是識別、篩選與選擇未來藥物開發的領導分子。發現活動通常在傳統藥物研究與開發（R&D）時間表中持續4至7年。",
+    "研發作業，其過程可能耗時7至10年，主要用以證明所選藥物候選品的安全性、耐受性及臨牀療效。在非臨牀階段的研發過程中，藥物候選品會在體外（非動物，通常在試管或多孔培養皿中於細胞或亞細胞層面）及體內（於研究模型中）進行測試，以在人體臨牀試驗前及支持人體臨牀試驗時建立藥物的安全性。",
+    "我們自超過75年前便從事提供新藥、裝置及療法研究所需研究模型的業務。在這段時間內，我們已建立於體內生物學的核心優勢，發展出多樣且持續擴展的產品與服務組合，現已涵蓋更廣泛的非臨牀藥物研究過程。我們具備能力以高效且成本效益的方式運用我們在非臨牀藥物研究領域的領導產品組合，協助客戶加速將藥物推向市場。",
+    "我們的客戶包括主要的全球製藥公司、許多生物科技公司；農業與工業化學、生命科學、獸醫醫學、醫療器材、診斷與消費性產品公司；合同研究與合同製造組織；以及其他商業機構，以及全球各地的領導醫院、學術機構與政府機關。近年來，我們致力於提升全球運作的效率，以增強支援客戶的能力。我們的製藥與生物科技客戶正 increasingly 尋求全面服務的「一站式」全球夥伴，以委外更多藥物發現與開發作業。據估計，受規範的安全評估服務市場約有60%以上為委外，而新興成長領域如發現及某些研究模型服務，目前相信仍較少委外。",
+    "我們目前在全球超過120個場地及20個國家運作（不包括某些委外解決方案場地）。我們的產品與服務，透過全球基礎設施與深厚的科學專業知識支持，使客戶能克服許多非臨牀生命科學研究的挑戰。2025年，我們的總營業收入為40億美元。為應對當前需求環境，我們已進行一項全面的全球據點評估。透過這些優化措施，我們預期在未來兩年內關閉或合併約12個額外場地，主要集中在DSA及RMS分部。這些據點優化措施將提升我們全球基礎設施的效率與規模經濟，進而建立更嚴謹的運營模式。",
+    "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+    "我們有三個應報告分部：研究模型與服務（RMS）、發現與安全評估（DSA）及製造解決方案（製造）。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "應報告分部",
+    "會計年度季度",
+    "業務趨勢",
+    "近期併購",
+    "美國政府對非人類靈長類動物供應鏈之調查",
+    "關鍵會計政策與會計估計",
+    "收入認列",
+    "企業併購",
+    "長期資產評價及減值",
+    "所得稅",
+    "新會計準則",
+    "營運成果",
+    "合併營運成果及流動性",
+    "營業收入及營運收入（損失）",
+    "2025 2024 美金變動 百分比變動",
+    "(以千美元為單位，除百分比外)",
+    "2025 2024 異動金額 % 變動 影響匯率",
+    "分部結果分析",
+    "其他收入（費用）",
+    "流動性及資本資源",
+    "2025年12月27日 2024年12月28日",
+    "(以千為單位)",
+    "融資及市場風險"
+   ],
+   "paragraphs": [
+    "下列討論應與我們的合併財務報表及相關附註，見本年度10-K表報第8項「財務報表及補充資料」一併閱讀。有關我們財務年度截至2024年12月28日止的營運結果討論，以及比較財務年度截至2024年12月28日及2023年12月30日的結果，已包含於本年度10-K表報第7項「管理層對財務狀況及營運結果之討論與分析」中，該報告為財務年度截至2024年12月28日止，並於2025年2月19日提交至證券交易委員會。除了歷史合併財務資訊外，下列討論包含前瞻性陳述。實際結果可能與前瞻性陳述中預測的結果有顯著差異。可能導致未來結果與前瞻性陳述中預測結果有重大差異的因素，包括但不限於第1A項「風險因素」及其他地方所討論的內容。某些百分比變動可能因四捨五入而無法重新計算。",
+    "我們是一家領先的、提供全方位非臨牀藥物開發服務的全球性夥伴。在超過75年的經營歷史中，我們一直從事提供新藥、裝置及療法研究與開發所需的研發模型業務。在這段時間內，我們已建立在原始核心專長實驗動物醫學與科學（研究模型技術）的基礎上，發展出多樣化的發現與安全性評估服務，包括符合良好實驗室操作規範（GLP）與非GLP的服務，以支援客戶從目標識別至非臨牀開發的各階段。我們也提供一系列產品與服務，以支援客戶的製造活動。利用我們廣泛的產品與服務組合，使客戶能建立更有效率且靈活的藥物開發模式，從而降低其成本、提高其生產力與效果，並加快產品上市速度。",
+    "我們的客戶羣包括主要的全球製藥公司、許多生物科技公司；農業與工業化學、生命科學、獸醫醫學、醫療裝置、診斷與消費性產品公司；合同研究與合同製造組織；以及其他商業機構，以及世界各地的領先醫院、學術機構與政府機構。我們目前在全球超過120個場地及20個國家運營，這些數字不包含某些內部解決方案（IS）場地。",
+    "我們的三個應報告分部為研究模型與服務（RMS）、發現與安全性評估（DSA）以及製造解決方案（製造）。",
+    "我們的RMS應報告分部包括研究模型、研究模型服務與細胞解決方案所提供的產品與服務。研究模型包括小型研究模型的商業生產與銷售，以及大型研究模型的供應。研究模型服務包括：內部解決方案（IS），提供客戶研究作業的內部管理（包括招募、培訓、人力配置與管理服務）在其場地內，以及我們自己的實驗動物場地，利用我們的Charles River加速與開發實驗室（CRADL™）服務；基因工程模型與服務（GEMS），執行基因工程模型的合同繁殖及其他相關服務；以及研究動物診斷服務（RADS），提供與研究模型相關的健康監測與診斷服務；以及細胞解決方案，提供受控、一致、客製化的原始細胞與血液成分，來自正常與動員外周血液與骨髓，以及來自疾病狀態捐贈者的細胞。",
+    "我們的DSA分部由發現服務與安全性評估服務組成。我們提供受規範與不受規範的DSA服務，以支援潛在新藥的發現、開發及法規要求的安全性測試，包括體外（非動物）與體內（在研究模型中）研究、實驗室支援服務，包括生物分析與戰略非臨牀諮詢及專案管理，以支援產品開發。",
+    "我們的製造應報告分部包括微生物解決方案，提供體外批次放行測試產品、微生物檢測產品及種屬鑑定服務，以及生物製品解決方案（生物製品），執行生物製品（生物製品測試）的專門測試，以及合同開發與製造產品與服務（CDMO）。",
+    "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+    "本公司會計年度通常以 52 週為基礎，每季由 13 週組成，結束於 3 月 31 日、6 月 30 日、9 月 30 日及 12 月 31 日最近的星期六。會計年度第四季偶爾需要增加 53 週，以符合 12 月 31 日的會計年度結算日，這在 2022 年會計年度發生過。",
+    "2025 年會計年度，生物製藥客戶的需求趨於穩定，並開始顯示早期改善跡象，因為客戶持續應對挑戰性且不斷變化的環境。較大型的生物製藥客戶在該年度初期開始改善需求，這是在前一年因重整計畫及重新優先排序藥物開發計畫而導致預算支出受限後的結果。同時，中小型生物科技客戶在 2025 年會計年度中，特別是在第二季後半段，資金逐漸改善，導致 DSA 需求趨勢改善，我們在該年度結束時觀察到此現象。",
+    "儘管目前市場環境嚴峻，許多我們的藥品與生物科技客戶仍持續受益於長遠戰略委外合作的價值，以提高營運效率並取得其內部不具備的能力。許多大型生物製藥客戶持續依賴與委外夥伴如 Charles River 的關係，以強化其藥物發現與早期階段開發工作，並透過生物科技公司協助其將新藥推向市場。由於對早期階段研究與開發支出持續保持謹慎觀點，2025 年會計年度大型生物製藥客戶與中小型生物科技客戶的收入均出現下降。然而，我們持續提供領先的研發、非臨牀開發與臨牀生物分析解決方案的能力，使客戶持續選擇與我們合作，以利用我們靈活且高效的委外解決方案、廣泛的科學能力與全球規模。",
+    "2025 年會計年度 DSA 收入下降，因需求趨勢導致發現與安全性評估服務的研製項目數量減少，這是由於大型生物製藥與中小型生物科技客戶共同驅動。儘管收入下降，大型生物製藥客戶的 DSA 需求趨勢，包括淨訂單，於 2025 年會計年度有顯著改善，因客戶正在處理重整與產品線重新優先排序的階段。中小型生物科技客戶的淨訂單顯示小幅改善，與該年度後期資金改善的情況一致。截至 2025 年 12 月 27 日，DSA 延遲訂單減少至 19 億美元，較 2024 年 12 月 28 日的 20 億美元為少。",
+    "2025 年會計年度 RMS 收入增加，主要是因大型研究模型的收入增加及小型研究模型的價格上漲。此外，研究模型服務的收入也小幅改善，這是由 IS 與 GEMS 事業所驅動。儘管受到北美早期階段生物科技與政府資金的壓力，以及對替代方法論的關注，我們對研究模型與服務仍具信心，認為這些將持續是客戶藥物發現與早期階段開發工作的關鍵工具。",
+    "在製造業務部門內，微生物解決方案業務因強勁需求而實現強勁成長，受益於全面製造品質控制測試組合的強勁需求，包括 Accugenix® 微生物鑑定服務，這是由於 AxxessTM 裝置的安裝增加所驅動；Endosafe® 內毒素測試平台的市佔率提升；以及 Celsis® 微生物檢測產品的銷售增加。生物製品測試受到來自生物製藥與 CDMO 客戶的樣本數量減少影響，特別是幾個大型客戶因專案延遲或法規挑戰而導致樣本數量減少。CDMO 事業因 2025 年會計年度商業收入減少而面臨挑戰，包括與一位商業細胞治療客戶的關係在該年度結束時終止。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因子總覽",
+    "業務與營運風險",
+    "產業風險因子",
+    "法律與法規風險因子",
+    "勞動與就業風險因子",
+    "財務與會計風險因子",
+    "一般風險因子",
+    "風險因子",
+    "我們對於可能被終止或縮減範圍、訂價過低、受成本超支或延誤影響的契約，承擔財務風險。",
+    "升級與整合我們的業務系統可能會導致執行問題與業務中斷。",
+    "我們過去曾經驗過且未來可能經驗到未經授權存取我們資訊系統的情況。",
+    "關於人工智慧的發展、部署與使用的不確定性，會帶來新的風險與挑戰，並可能對我們的業務與聲譽產生負面影響。",
+    "未能成功執行我們的業務策略，可能會對我們的成長與獲利產生負面影響。",
+    "未能成功實現我們重整計畫的成本節省，將會對我們的成長與獲利產生負面影響。",
+    "我們的業務面臨與國際運營相關的風險，包括外幣匯率變動。",
+    "我們的業務可能受到自然災害或其他重大事故的影響。",
+    "特殊利益團體的負面關注可能影響本公司業務。",
+    "我們若干產品與服務方案，包括非人類靈長類動物供應，皆依賴有限的供應來源，一旦中斷，將對本公司業務產生不利影響。",
+    "需求波動及客戶信用損失風險可能對本公司業務產生不利影響。",
+    "政府對研究與開發的經費減少或延遲，可能對本公司業務產生不利影響。",
+    "政府規範或與製藥或生物技術產業相關作業方式的變更，包括潛在的醫療衛生改革，可能降低我們所提供服務的需求。",
+    "若我們為客戶製造與/或測試的產品未能獲得市場接受度，將可能對本公司生物製劑解決方案業務、財務狀況及營運成果產生不利影響。",
+    "合同製藥（CDMO）服務具有高度複雜性，若未能為CDMO客戶提供具備品質與時效的服務，可能對本公司業務產生不利影響。"
+   ],
+   "paragraphs": [
+    "下列所列風險與不確定性，以及本表10-K 其他部分與本公司向 SEC 檔案之其他文書中所載之風險與不確定性，可能導致實際結果與本表10-K 所含之預測性陳述所預期之結果有重大差異。本公司指出，下列所列因素，單獨或合計，以及目前尚未知悉或認為對業務不具重大影響之其他風險與不確定性，可能導致實際結果與預期及歷史結果有重大差異。您應瞭解，無法預測或識別所有這些因素。因此，您不應將下列內容視為對所有潛在風險或不確定性之完整討論，且應仔細考量下列所列風險，並與本報告及其他未來向 SEC 檔案之文書中所載資訊一併參考。",
+    "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+    "如上所述，本公司面臨許多風險，若實現，可能導致實際結果與本表10-K 所預期之結果有重大差異。我們所面臨的一些較為重要的風險與不確定性包括下列所列摘要。下列摘要並非完整，且以參考本「風險因素」節所載完整風險因素為準。請在做出有關 Charles River 之投資決定前，仔細考量本表10-K 全部資訊，包括本「風險因素」節所載完整風險因素，以及本公司其他向 SEC 檔案之文書。",
+    "•本公司對於可能終止或縮減範圍、訂價過低、受成本超支或延誤影響之契約，負有財務風險。",
+    "•本公司業務系統之升級與整合可能導致實作問題與業務中斷。",
+    "•本公司過去曾經驗過，未來也可能經驗過未經授權之人士進入本公司資訊系統。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

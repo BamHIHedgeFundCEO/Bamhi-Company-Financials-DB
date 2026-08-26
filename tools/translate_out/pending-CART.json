@@ -1,0 +1,213 @@
+{
+ "ticker": "CART",
+ "cik": "0001579091",
+ "accession": "0001579091-26-000018",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Instacart Marketplace",
+    "Instacart Enterprise Platform",
+    "Instacart Ads",
+    "Compensating and Supporting Our Employees",
+    "Supporting a High-Performing Workforce"
+   ],
+   "paragraphs": [
+    "Instacart is the leading technology and enablement partner for the grocery industry — helping consumers save time, retailers run their businesses online and in-store, and connect brands with customers. Since our founding, Instacart has powered more than 1.6 billion orders.",
+    "Instacart is built for the entire grocery ecosystem, improving the experiences for each of our constituents and helping them succeed:",
+    "•Retailers. We enable more than 2,200 retail banners as of December 31, 2025 to grow by providing technology that can accelerate the digital transformation of their entire business both online and in-store. Retailers reach customers through both Instacart Marketplace, where customers can shop from their favorite retailers through our app or website, and retailers' owned and operated online storefronts that are powered by Instacart Enterprise platform, our end-to-end technology solution encompassing e-commerce, fulfillment, Connected Stores, ads and marketing, and insights.",
+    "•Customers. When shopping for groceries, consumers want selection, quality, affordability, and convenience, and they shop in many different ways. Customers can place orders for delivery or pickup across a variety of use cases including the weekly shop, bulk stock-up, convenience, special occasions, from restaurants, and using our in-store technologies. As of December 31, 2025, we reach over 98% of households in North America, and help our customers shop at their favorite retailers, order from their favorite restaurants, and enjoy selection, quality, affordability, and convenience. Our membership program, Instacart+, offers expanded customer benefits including unlimited $0 delivery fees on orders over a certain size, and other exclusive benefits.",
+    "•Brands. Instacart Ads offers brands a highly measurable ads offering that leverages first-party transaction data to move products off store shelves more efficiently. As of December 31, 2025, we provide discovery and attractive return on investment for over 9,000 active brands through our industry-leading advertising tools and insights purpose-built for the online grocery category.",
+    "•Shoppers. As of December 31, 2025, we offer approximately 600,000 shoppers an immediate, flexible earnings opportunity that allows them to choose when and how much to work.(1) Shoppers are deeply valued members of the Instacart community, and we strive to make the shopping experience as seamless as possible so they can continue to deliver superior customer service.",
+    "We built Instacart to serve the entire grocery ecosystem. The key pillars of our technology are Instacart Marketplace, Instacart Enterprise platform, and Instacart Ads. Our solutions are underpinned by a shared foundation of technology, infrastructure, data insights, and fulfillment that leverages our scale and expertise specific to the grocery category. Supporting all of this is AI, which helps us build smarter products, better tools, and more accurate insights across our solutions. Our technology solutions are better together. Our technology and data insights drive efficiencies for retailers, customers, brands, and shoppers.",
+    "Through Instacart Marketplace, we help retailers serve their customers' needs as to how and where they want to shop by supporting a wide array of fulfillment options, shopping occasions, and categories. We help customers find their favorite products, provide an innovative ad offering that inspires people to try new brands, connect customers to our dedicated shopper community, and help retailers and customers build deeper relationships.",
+    "(1) Based on shoppers who completed at least one order during the month ended December 31, 2025.",
+    "Instacart Enterprise platform is an end-to-end technology solution that powers retailers across all aspects of their business. Our offerings are modular, allowing retail partners to pick and choose which technologies best fit their needs. These solutions work seamlessly together, so retailers can more efficiently integrate with Instacart than they can with multiple separate technologies. Key components of Instacart Enterprise platform include:",
+    "•e-commerce. Our storefront technology powers more than 380 grocers' e-commerce sites(2) — and it's built to scale, as we expand into new categories and regions.",
+    "•Fulfillment. We help retailers fulfill grocery orders directly from their stores through a community of dedicated shoppers. Retailers — from national and regional retailers to local mainstays — can leverage our fulfillment API to help fulfill orders that are placed through their owned and operated online storefronts. In most instances, Instacart shoppers pick, pack, and deliver these orders, but retailers can also use our technology to enable orders that are picked and packed by their own employees, or use a combination of the two.",
+    "•Connected Stores. Instacart helps retailers create a unified, seamless, and personalized experience across their online and in-store footprints by leveraging technologies like Caper Carts, Carrot Tags, Eversight, FoodStorm, In-Store mode, Out of Stock Insights, and Storefront.",
+    "•Ads and Marketing. Carrot Ads, our enterprise ads offering, brings the best of Instacart Ads to retailers' and other partners' owned and operated online storefronts and apps. Our retail partners can also utilize our suite of marketing solutions, from self-serve tools to fully customized strategic partnerships, to grow their business by serving targeted promotions to customers."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Summary",
+    "Risks Related to Our Business and Industry",
+    "Historical trends relating to our growth and financial performance may not be indicative of future performance.",
+    "If we fail to cost-effectively acquire new customers or increase the engagement of our existing customers, including through effective marketing strategies, our business would be harmed.",
+    "We have a history of losses, and we may be unable to sustain or increase profitability or generate profitable growth in the future.",
+    "The success of our business is dependent on our relationships with retailers. The loss of one or more of our retail partners or reduction in their engagement with Instacart could harm our business.",
+    "We are continuing to build our Instacart Ads offerings. If we fail to grow our advertising revenue, our business, financial condition, and results of operations would be negatively impacted.",
+    "If we fail to cost-effectively engage, attract, or retain shoppers on Instacart, our business could be harmed."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk because our business is subject to numerous risks and uncertainties, as further described below. You should consider and read carefully all of the risks and uncertainties described below, as well as other information included in this Annual Report on Form 10-K, including the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and our consolidated financial statements and related notes appearing elsewhere in this Annual Report on Form 10-K, before making an investment decision. The risks described below are not the only ones we face. The occurrence of any of the following risks or additional risks and uncertainties not presently known to us or that we currently believe to be immaterial could materially and adversely affect our business, financial condition, results of operations, or prospects. In such case, the trading price of our common stock could decline, and you may lose some or all of your original investment. You should not interpret our disclosure of any of the following risks to imply that such risks have not already materialized.",
+    "Our business is subject to numerous risks and uncertainties, including those outside of our control, that could cause our actual results to be harmed. These risks include the following:",
+    "•Historical trends relating to our growth and financial performance may not be indicative of future performance.",
+    "•If we fail to cost-effectively acquire new customers or increase the engagement of our existing customers, including through effective marketing strategies, our business would be harmed.",
+    "•We have a limited history operating our business at its current scale, scope, and complexity in an evolving market and economic environment, which makes it difficult to plan for future operations and strategic initiatives, predict future results, and evaluate our future prospects and the risks and challenges we may encounter.",
+    "•We have a history of losses, and we may be unable to sustain or increase profitability or generate profitable growth in the future."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Initial Public Offering and Private Placement",
+    "Macroeconomic Impacts",
+    "Shopper Classification Developments",
+    "Leadership Transition",
+    "Key Financial and Operational Highlights",
+    "Year Ended December 31,",
+    "2023 to 2024",
+    "2024 to 2025",
+    "(in millions, except percentages)",
+    "Gross Transaction Value",
+    "Gross Profit, Gross Margin, and Gross Profit as a Percent of GTV",
+    "Adjusted EBITDA, Adjusted EBITDA as a Percent of GTV, and Adjusted EBITDA Margin",
+    "Components of Results of Operations",
+    "Cost of Revenue",
+    "Gross Profit and Gross Margin",
+    "Operations and Support Expense",
+    "Research and Development Expense",
+    "Sales and Marketing Expense",
+    "General and Administrative Expense",
+    "Other Income (Expense), Net",
+    "Interest Income",
+    "Provision for (Benefit from) Income Taxes",
+    "Results of Operations",
+    "(in millions)",
+    "(as a percent of revenue) (1)",
+    "Comparison of the Years Ended December 31, 2024 and 2025",
+    "Non-GAAP Financial Measures",
+    "Adjusted Cost of Revenue and Adjusted Cost of Revenue as a Percent of GTV",
+    "Adjusted Operations and Support Expense and Adjusted Operations and Support Expense as a Percent of GTV",
+    "Adjusted Research and Development Expense and Adjusted Research and Development Expense as a Percent of GTV",
+    "Adjusted Sales and Marketing Expense and Adjusted Sales and Marketing Expense as a Percent of GTV",
+    "Adjusted General and Administrative Expense and Adjusted General and Administrative Expense as a Percent of GTV",
+    "Adjusted Total Operating Expenses and Adjusted Total Operating Expenses as a Percent of GTV",
+    "Liquidity and Capital Resources"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our consolidated financial statements and related notes included elsewhere in this Annual Report on Form 10-K. The following discussion contains forward looking statements that are based on current plans, expectations and beliefs that involve risks and uncertainties. Our actual results may differ materially from those anticipated in these forward looking statements as a result of various factors, including, but not limited to, those identified below and those discussed in the section titled \"Risk Factors\" and other sections, including the \"Special Note Regarding Forward-Looking Statements,\" of this Annual Report on Form 10-K. Our historical results are not necessarily indicative of the results that may be expected for any period in the future.",
+    "In addition, this section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" generally discusses 2025 and 2024 items and year-to-year comparisons between 2025 and 2024. Discussions of 2023 items and year-to-year comparisons between 2024 and 2023 are not included in this Annual Report on Form 10-K and can be found in the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in Part II, Item 7 of this Annual Report on Form 10-K for the fiscal year ended December 31, 2024, filed with the SEC on February 28, 2025.",
+    "For purposes of clarity and ease of presentation, numbers presented within this section may not sum precisely to the totals provided. The underlying data used in the calculations, including percentages, is not rounded.",
+    "Instacart is the leading technology and enablement partner for the grocery industry — helping consumers save time, retailers run their businesses online and in-store, and connect brands with customers.",
+    "We enable retail banners to grow by providing technology that can accelerate digital transformation of their business both online and in-store. Retailers reach customers through both Instacart Marketplace, where customers can shop from their favorite retailers through our app or website, and retailers' owned and operated online storefronts that are powered by Instacart Enterprise platform, our end-to-end technology solution encompassing e-commerce, fulfillment, Connected Stores, ads and marketing, and insights.",
+    "When shopping for groceries, consumers want selection, quality, affordability, and convenience, and they shop in many different ways. Customers can place orders for delivery or pickup across a variety of use cases including the weekly shop, bulk stock-up, convenience, special occasions, from restaurants, and using our in-store technologies. We help our customers shop at their favorite retailers, order from their favorite restaurants, and enjoy selection, quality, affordability, and convenience. Our membership program, Instacart+, offers expanded customer benefits including unlimited $0 delivery fees on orders over a certain size, and other exclusive benefits.",
+    "Instacart Ads offers brands a highly measurable ads offering that leverages first-party transaction data to move products off store shelves more efficiently. We provide discovery and attractive return on investment through our industry-leading advertising tools and insights purpose-built for the online grocery category.",
+    "We offer shoppers an immediate, flexible earnings opportunity that allows them to choose when and how much to work. Shoppers are deeply valued members of the Instacart community, and we strive to make the shopping experience as seamless as possible so they can continue to deliver superior customer service.",
+    "On September 21, 2023, we completed our IPO in which we issued and sold 14,100,000 shares of our common stock at an IPO price of $30.00 per share. We received net proceeds from the IPO of $392 million after deducting underwriting discounts and offering costs. Immediately subsequent to the closing of the IPO, we issued and sold 5,833,333 shares of our Series A Preferred Stock in a private placement at $30.00 per share and received $175 million in proceeds. For additional information, see Note 1 — Business included elsewhere in this Annual Report on Form 10-K.",
+    "Our business, financial condition, customer acquisition and retention, and key business metrics, including GTV and orders, may be impacted by macroeconomic trends affecting our markets and industry and consumer shopping habits, such as inflation and interest rate fluctuations, the effects of supply chain challenges, the impact of trade policies enacted or proposed by the United States, such as tariffs or other trade restrictions, and uncertainty related thereto, geopolitical conflicts, regulatory changes, uncertainty regarding an economic recession and its impact on consumer behavior, and the effects of severe weather patterns.",
+    "The state of the law regarding independent contractor status of Instacart shoppers varies from jurisdiction to jurisdiction and among governmental agencies and is subject to change based on court decisions, administrative or agency determinations, new or changing regulations, and other legal and regulatory proceedings.",
+    "Some jurisdictions have adopted, and may adopt in the future, regulations that impact whether we can or should classify shoppers as independent contractors. For example, Proposition 22 in California provides a framework that offers more legal certainty regarding the status of independent workers offering delivery services and entitles shoppers in California to certain pay standards and benefits, which increases costs for us to operate in California. However, there may continue to be legal challenges, or legislative or other attempts to amend or otherwise invalidate the benefits, protections, or independent worker status provided by Proposition 22. To date, no such challenges have been successful. Additionally, we may face allegations that certain of our business practices do not satisfy all the elements of Proposition 22.",
+    "We also experience and expect to continue experiencing challenges to the independent contractor classification of shoppers who use Instacart in other jurisdictions in which we operate, as well as the imposition of additional requirements on the use of contractors. Any successful challenges, changes in law, or other legal uncertainty with respect to independent contractor classification, or requirements related to the use of contractors, may adversely impact our financial condition, business, and results of operations. For additional information about the risks to our business related to independent contractor classification, see the section titled \"Risk Factors—Risks Related to Our Legal and Regulatory Environment—Our business is subject to various laws and regulations, which may change or increase over time and subject us to increased compliance costs and liabilities.\"",
+    "As previously announced, Fidji Simo resigned as our Chief Executive Officer and President on August 15, 2025, and we appointed Chris Rogers as our Chief Executive Officer, President, and a member of our board of directors, all effective as of that date. Ms. Simo initially continued to serve as Chair of our board of directors in order to ensure a smooth transition. On November 24, 2025, Ms. Simo resigned as Chair and a member of our board of directors, and Chris Rogers was appointed as Chair."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "Instacart Marketplace",
+    "Instacart Enterprise Platform",
+    "Instacart Ads",
+    "Compensating and Supporting Our Employees",
+    "Supporting a High-Performing Workforce"
+   ],
+   "paragraphs": [
+    "Instacart 是零售業的領導科技與啟動夥伴 — 幫助消費者節省時間、零售商線上與實體店面經營業務，並連結品牌與消費者。自公司成立以來，Instacart 已處理超過 16 億筆訂單。",
+    "Instacart 是為整個零售生態系統所設計，改善我們所有相關方的體驗並幫助他們成功：",
+    "•零售商。我們為截至 2025 年 12 月 31 日的 2,200 多個零售品牌提供科技，以加速其整個業務的數位轉型，無論是線上或實體店面。零售商透過 Instacart Marketplace 來觸及消費者，消費者可以透過我們的 App 或網站，在他們喜愛的零售品牌商店購物，同時零售商也可以透過他們自有的線上門店來服務消費者，這些門店由 Instacart Enterprise 平台所支援，這是我們的端到端科技解決方案，涵蓋電商、物流、Connected Stores、廣告與行銷，以及洞察分析。",
+    "•消費者。當消費者購物時，他們希望有選擇性、品質、價格合理與便利性，而且他們會以多種方式進行購物。消費者可以透過多種使用情境下進行訂購，包括週常採購、大量補貨、便利性、特殊場合、從餐廳訂購，以及使用我們的實體店面科技。截至 2025 年 12 月 31 日，我們已觸及北美地區超過 98% 的家庭，並幫助消費者在他們喜愛的零售品牌購物、從他們喜愛的餐廳訂購，並享受選擇性、品質、價格合理與便利性。我們的會員計畫 Instacart+ 提供擴充的消費者權益，包括在訂單達到特定金額時免收 $0 配送費用，以及其他獨家權益。",
+    "•品牌。Instacart Ads 提供品牌一個高度可衡量的廣告服務，利用第一方交易資料，更有效地將產品從零售架上移除。截至 2025 年 12 月 31 日，我們透過我們行業領先的廣告工具與洞察分析，為超過 9,000 個活躍品牌提供發現與吸引人的投資回報。",
+    "•購物者。截至 2025 年 12 月 31 日，我們為約 60 萬名購物者提供立即且靈活的收入機會，讓他們選擇何時以及工作多久。(1) 購物者是 Instacart 社羣中深具價值的成員，我們致力於讓購物體驗盡可能順暢，以便他們持續提供優質的客戶服務。",
+    "我們建立 Instacart 是為了服務整個零售生態系統。我們科技的關鍵支柱包括 Instacart Marketplace、Instacart Enterprise 平台以及 Instacart Ads。我們的解決方案建立在共享的科技基礎、基礎設施、數據洞察與物流之上，這利用了我們在零售類別中的規模與專業知識。支援所有這些的是 AI，它幫助我們打造更聰明的產品、更好的工具與更準確的洞察分析。我們的科技解決方案彼此相輔相成。我們的科技與數據洞察為零售商、消費者、品牌與購物者帶來效率。",
+    "透過 Instacart Marketplace，我們協助零售商根據消費者希望如何與何處購物的需求，支援多樣化的物流選項、購物情境與類別。我們協助消費者找到他們喜愛的產品，提供創新廣告服務以激勵人們嘗試新品牌，連結消費者與我們的專屬購物者社羣，並協助零售商與消費者建立更深層的關係。",
+    "（1）基於在2025年12月31日當月完成至少一筆訂單的消費者。",
+    "Instacart Enterprise平台為一項端到端的科技解決方案，可協助零售商在其業務各個層面運作。我們的產品為模組化設計，使零售夥伴能根據自身需求選擇最適合的科技。這些解決方案可順暢整合，因此零售商透過Instacart整合其系統，將比使用多種獨立科技更為高效。Instacart Enterprise平台的主要零組件包括：",
+    "•電商。我們的門店科技支援超過380家雜貨店的電商網站（2）—— 並具備擴展性，隨著我們拓展至新類別與地區而持續升級。",
+    "•物流。我們協助零售商透過一羣專注的消費者，直接在其門店內完成雜貨訂單。零售商，從全國性與區域性零售商到地方性主要商家，均可利用我們的物流API協助完成透過其自有與經營的線上門店所下的訂單。在大多數情況下，Instacart消費者會進行採購、打包與配送這些訂單，但零售商也可以使用我們的科技，使訂單由其員工進行採購與打包，或兩者結合使用。",
+    "•連線門店。Instacart協助零售商透過Caper Carts、Carrot Tags、Eversight、FoodStorm、In-Store模式、Out of Stock Insights與Storefront等科技，創造線上與實體門店之間統一、順暢且個性化的體驗。",
+    "•廣告與行銷。Carrot Ads為我們的企業廣告解決方案，將Instacart Ads的最佳功能帶入零售商及其他合作夥伴的自有與經營線上門店與應用程式。我們的零售夥伴也可利用我們的行銷解決方案組合，從自服務工具到完全客製化的戰略合作夥伴關係，透過對目標客戶投放促銷活動來拓展業務。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "首次公開發行與私募發行",
+    "總體經濟影響",
+    "購物者分類發展",
+    "領導層轉換",
+    "重要財務與營運重點",
+    "截至12月31日年度",
+    "2023年至2024年",
+    "2024年至2025年",
+    "(以千萬美元計，除百分比)",
+    "總交易價值",
+    "總收入、毛利率及總收入佔總交易價值百分比",
+    "調整後營運資金、調整後營運資金佔總交易價值百分比及調整後營運資金率",
+    "營運成果之組成項目",
+    "收入成本",
+    "毛利及毛利率",
+    "營運及支援費用",
+    "研究與開發費用",
+    "銷售及市場推廣費用",
+    "一般及行政費用",
+    "其他收入（費用），淨額",
+    "利息收入",
+    "所得稅費用（利益）",
+    "營運成果",
+    "(以千萬為單位)",
+    "（以營業收入百分比表示）（1）",
+    "截至2024年12月31日及2025年12月31日之年度比較",
+    "非GAAP財務指標",
+    "調整後的營業成本及調整後營業成本佔GTV百分比",
+    "調整後的營運及支援費用及調整後營運及支援費用佔GTV百分比",
+    "調整後的研究與發展費用及調整後的研究與發展費用佔GTV百分比",
+    "調整後的銷售及行銷費用及調整後的銷售及行銷費用佔GTV百分比",
+    "調整後的總務及行政費用及調整後的總務及行政費用佔GTV百分比",
+    "調整後總營運費用及調整後總營運費用佔GTV比例",
+    "流動性及資本資源"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運成果的討論與分析，應與我們的合併財務報表及其相關附註一併閱讀，這些財務報表及附註載於本年度報告表 10-K 的其他部分。以下討論包含前瞻性陳述，這些陳述是基於目前的計畫、預期與信念，這些計畫、預期與信念涉及風險與不確定性。我們的實際結果可能與這些前瞻性陳述中預期的結果有重大差異，原因可能包括但不限於下列所列的風險因素，以及本年度報告表 10-K 中「風險因素」部分及其他部分，包括「關於前瞻性陳述的特別說明」所討論的風險因素。我們的歷史結果未必能代表未來任何期間的結果。",
+    "此外，本節標題為「管理層對財務狀況及營運成果的討論與分析」，一般討論 2025 年與 2024 年的項目及 2025 年與 2024 年的年對年比較。關於 2023 年的項目及 2024 年與 2023 年的年對年比較，未包含於本年度報告表 10-K 中，可於本年度報告表 10-K 的「管理層對財務狀況及營運成果的討論與分析」部分，於第二部分，項目 7，財務年度截至 2024 年 12 月 31 日，於 2025 年 2 月 28 日提交至 SEC 的部分中找到。",
+    "為明確與簡化呈現，本節內所呈現的數字可能無法精確總計至所提供的總額。計算所使用的基礎資料，包括百分比，均未四捨五入。",
+    "Instacart 是零售業的領導科技與啟動夥伴 — 幫助消費者節省時間、零售商線上與實體店面經營業務，並連結品牌與消費者。",
+    "我們透過提供科技，協助零售品牌成長，加速其業務的數位轉型，無論是線上或實體店面。零售商透過 Instacart Marketplace 來接觸消費者，消費者可透過我們的應用程式或網站，在他們喜愛的零售商處購物，同時零售商也可透過其自有與經營的線上門店來接觸消費者，這些門店由 Instacart Enterprise 平台驅動，這是我們的端到端科技解決方案，涵蓋電商、物流、Connected Stores、廣告與行銷，以及洞察。",
+    "當消費者購物時，他們希望有選擇性、品質、價格合理與便利性，他們的購物方式也多樣化。消費者可以透過多種使用情境下下單，包括週常購物、大量補貨、便利性、特殊場合、從餐廳，以及使用我們的實體店面科技。我們協助消費者在他們喜愛的零售商處購物，從他們喜愛的餐廳訂餐，並享受選擇性、品質、價格合理與便利性。我們的會員計畫 Instacart+ 提供擴充的消費者權益，包括在訂單達到特定金額時無限次 $0 配送費用，以及其他獨家權益。",
+    "Instacart Ads 提供品牌一個高度可衡量的廣告方案，利用第一方交易資料，更有效地將產品從商店架上移除。我們透過行業領先的廣告工具與洞察，為線上雜貨類別量身打造，提供發現與吸引人的投資回報率。",
+    "我們為消費者提供立即且靈活的收入機會，讓他們選擇何時以及多長時間工作。消費者是 Instacart 社羣中極具價值的成員，我們致力於讓購物體驗盡可能順暢，以便他們持續提供優質的客戶服務。",
+    "於 2023 年 9 月 21 日，我們完成首次公開發行（IPO），發行並銷售 14,100,000 股本公司普通股，每股發行價格為 30.00 美元。我們從 IPO 中獲得的淨資金為 3.92 億美元，扣除經紀折扣及發行費用後計算。IPO 交易完成後，我們又發行並銷售 5,833,333 股 Series A 優先股於私人 placements，每股價格為 30.00 美元，獲得 1.75 億美元資金。有關更多資訊，請參閱本年度報告 10-K 中的附註 1 — 事業說明。",
+    "我們的業務、財務狀況、客戶獲取與留存，以及關鍵業務指標，包括總交易額（GTV）與訂單數，可能受總體經濟趨勢影響，而這些趨勢可能影響我們所處的市場與產業，以及消費者購物習慣，例如通貨膨脹與利率波動、供應鏈挑戰的影響、美國政府所頒佈或提出的貿易政策的影響，例如關稅或其他貿易限制，以及相關不確定性、地緣政治衝突、法規變動、對經濟衰退的不確定性及其對消費者行為的影響，以及極端天氣模式的影響。",
+    "有關 Instacart 小幫手是否為獨立承包商的法律地位，各司法管轄區的法律規定不一，且各政府機關的認定亦有差異，並可能因法院判決、行政機關或機構的決定、新法規或法規變動，以及其他法律與法規程序而有所改變。",
+    "某些司法管轄區已採納，或未來可能採納，影響我們是否能或應將小幫手歸類為獨立承包商的法規。例如，加州的 Proposition 22 提供一個框架，使提供配送服務的獨立工作者的法律地位更具確定性，並賦予加州的小幫手特定的薪資標準與福利，這會增加我們在加州運營的成本。然而，可能仍會有法律挑戰，或立法或其他努力以修改或廢除 Proposition 22 所提供的福利、保護或獨立工作者地位。截至目前為止，尚無任何挑戰成功。此外，我們可能面臨某些業務作法未符合 Proposition 22 所有要件的指控。",
+    "我們也經驗並預期將持續經驗其他司法管轄區中使用 Instacart 的小幫手被歸類為獨立承包商的挑戰，以及對使用承包商的額外要求。任何成功的挑戰、法律變動或其他與獨立承包商歸類相關的法律不確定性，或與使用承包商相關的要求，都可能對我們的財務狀況、業務與營運成果產生負面影響。有關與獨立承包商歸類相關的業務風險，請參閱本年度報告 10-K 中標題為 \"風險因素—與我們法律與法規環境相關的風險—我們的業務受多種法律與法規影響，這些法律與法規可能隨時間改變或增加，使我們面臨更高的合規成本與責任\" 的部分。",
+    "如先前所公告，Fidji Simo 於 2025 年 8 月 15 日辭去本公司首席執行官與董事長職務，並任命 Chris Rogers 為本公司首席執行官、董事長及董事會成員，自該日期起生效。Ms. Simo 初期繼續擔任董事會主席，以確保過渡順利。於 2025 年 11 月 24 日，Ms. Simo 辭去董事會主席及董事會成員職務，Chris Rogers 被任命為董事會主席。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與我們業務及產業相關的風險",
+    "我們過去的成長與財務表現歷史趨勢可能無法反映未來的表現。",
+    "若我們未能以成本效益的方式取得新客戶或提高現有客戶的參與度，包括透過有效的行銷策略，將會對我們的業務造成損害。",
+    "我們有虧損的歷史，且我們可能無法維持或提高利潤率，或未來無法產生獲利性成長。",
+    "我們業務的成功取決於我們與零售商的關係。若我們失去一個或數個零售夥伴，或他們與Instacart的參與度降低，將會對我們的業務造成損害。",
+    "我們持續在建立Instacart Ads產品。若我們未能增長廣告收入，將會對我們的業務、財務狀況及營運結果產生負面影響。",
+    "若我們未能以成本效益的方式吸引、留住或參與Instacart的購物者，將會對我們的業務造成損害。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及高度風險，因為我們的業務面臨許多風險與不確定性，如後文進一步說明。您應仔細考慮並閱讀下列所有風險與不確定性，以及本年度報告表10-K中包含的其他資訊，包括標題為「管理層對財務狀況與營運結果之討論與分析」的章節，以及我們合併財務報表與相關附註，以作為投資決策之參考。下列所描述的風險並非我們唯一面臨的風險。任何下列風險或目前未知、或我們認為不重要之其他風險與不確定性發生，可能會對我們的業務、財務狀況、營運結果或前景造成重大且不利的影響。在此情況下，本公司普通股的交易價格可能會下跌，您可能損失部分或全部原始投資。您不應將我們對下列風險之揭露解釋為這些風險已經實現。",
+    "我們的業務面臨許多風險與不確定性，包括我們無法控制的風險，這些風險可能會對我們的實際結果造成損害。這些風險包括以下內容：",
+    "•我們的成長與財務表現歷史趨勢可能無法反映未來表現。",
+    "•若我們無法以成本效益的方式取得新客戶或增加現有客戶的參與度，包括透過有效的行銷策略，我們的業務將受到損害。",
+    "•我們在當前規模、範圍與複雜度下於不斷變化的市場與經濟環境中經營業務的經驗有限，這使我們難以規劃未來營運與戰略計畫、預測未來結果，並評估我們的未來前景與可能遇到的風險與挑戰。",
+    "•我們有虧損的歷史，我們可能無法維持或提高利潤率，或未來無法產生獲利成長。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

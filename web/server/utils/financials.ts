@@ -76,8 +76,9 @@ export interface MapConcept {
     bound_minus: string[]
     max_share_of_market_cap: number
   }
-  /** 整個視窗一期都沒申報 → 視為 0（見 config 的 note）。逐格補會造成斑駁的比率 */
-  zero_if_never_reported?: { note?: string }
+  /** 缺值視為 0 的規則（見 config 的 note）：整列都沒報就直接記 0；
+   *  有報過的話，只有在「最近一期報過的金額 ÷ relative_to ≤ max_share」時才補 */
+  zero_if_absent_bounded?: { relative_to: string; max_share: number; note?: string }
   dedupe_total_tags?: {
     tags: string[]
     against: string
@@ -1777,15 +1778,39 @@ export async function getFinancials(
    * 不會被誤認為公司申報的數字。
    */
   for (const concept of map.concepts) {
-    if (!concept.zero_if_never_reported) continue
+    const rule = concept.zero_if_absent_bounded
+    if (!rule) continue
     const li = lineItems.find((x) => x.id === concept.id)
     if (!li) continue
-    if (periods.some((p) => li.values[p]?.value != null)) continue // 報過就不補
+    const reported = periods.filter((p) => li.values[p]?.value != null)
+
+    if (!reported.length) {
+      // 情形一：整個期間一次都沒申報 → 這家公司沒有這個科目
+      for (const p of periods) {
+        li.values[p] = { value: 0, isEstimated: true, sourceTag: '整個期間都沒有申報這個科目，視為 0' }
+      }
+      continue
+    }
+
+    // 情形二：有報過但某幾期缺。拿**最近一期報過的金額**當「若還持有」的估計，
+    // 只有在它小到補 0 也不會改變判讀時才補。
+    // 一律補 0 的話，24,760 個缺格有 18.1% 會被低估超過 0.5（P90 = 1.303）——
+    // 速動比率 2.0 寫成 1.4，那已經足以翻轉「付不付得出短期債務」的結論。
+    const denomLi = lineItems.find((x) => x.id === rule.relative_to)
+    if (!denomLi) continue
+    const dist = (a: string, b: string) => Math.abs(periods.indexOf(a) - periods.indexOf(b))
     for (const p of periods) {
+      if (li.values[p]?.value != null) continue
+      const denom = denomLi.values[p]?.value
+      if (denom == null || denom <= 0) continue
+      const near = reported.reduce((best, x) => (dist(x, p) < dist(best, p) ? x : best))
+      const amt = li.values[near]!.value!
+      const share = amt / denom
+      if (share > rule.max_share) continue      // 可能很大 → 維持 n/a，不猜
       li.values[p] = {
         value: 0,
         isEstimated: true,
-        sourceTag: '整個期間都沒有申報這個科目，視為 0',
+        sourceTag: `這一期沒有申報；最近一期只有流動負債的 ${(share * 100).toFixed(1)}%，視為 0`,
       }
     }
   }

@@ -1,0 +1,221 @@
+{
+ "ticker": "HPQ",
+ "cik": "0000047217",
+ "accession": "0000047217-25-000071",
+ "form": "10-K",
+ "reportDate": "2025-10-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Personal Systems",
+    "Corporate Investments",
+    "Sales, Marketing and Distribution",
+    "Manufacturing and Materials",
+    "Research and Development",
+    "Intellectual Property",
+    "Sustainable Impact Activities",
+    "Human Capital",
+    "Information about our Executive Officers",
+    "Manpreet S. Grewal; age 46; Chief Accounting Officer and Global Controller",
+    "Julie Jacobs; age 59; Chief Legal Officer and General Counsel",
+    "Enrique Lores; age 60; President and Chief Executive Officer",
+    "David McQuarrie; age 50; Chief Commercial Officer",
+    "Anneliese Olson; age 54; President, Imaging, Printing & Solutions",
+    "Karen L. Parkhill; age 60; Chief Financial Officer",
+    "Ketan Patel; age 51; President, Personal Systems",
+    "Available Information",
+    "Additional Information"
+   ],
+   "paragraphs": [
+    "HP is a global technology leader and creator of solutions that enable people to bring their ideas to life and connect to the things that matter most. Operating in more than 170 countries, HP delivers innovative and sustainable devices, services and subscriptions for personal computing, printing, 3D printing, hybrid work, gaming and other related technologies.",
+    "We believe artificial intelligence (\"AI\") is playing a critical role in the transformation of how people live and work, and customers are beginning to recognize the benefits in security, speed and cost. Our high-performing product portfolio includes HP's new line of AI PCs and workstations built with the computing power to enable local AI processing for enhanced performance and features as well as intelligent print features incorporated into our home, office and graphics solutions.",
+    "Our broad range of security capabilities are designed to protect an increasingly distributed user base through security enhanced PCs and printers, hardware-enforced endpoint security software (for both HP and non-HP PCs), and endpoint security services. Our security solutions provide layered resiliency using enhanced features such as containment and isolation technology as well as the use of AI deep-learning to identify and remove malware threats.",
+    "We have three reportable segments: Personal Systems, Printing and Corporate Investments.",
+    "Personal Systems offers desktops, notebooks, and workstations (including HP's portfolio of AI PCs and workstations), thin clients, retail point-of-sale (\"POS\") systems, displays, hybrid systems, software, solutions including endpoint security and services. We provide lifecycle services including support and deployment, configurations, and extended warranty services. We support a multi-operating system and multi-architecture strategy, primarily using Microsoft Windows and Google Chrome operating systems. Our platforms incorporate processors from Intel, and AMD, including integrated AI acceleration, as well as NVIDIA GPUs for advanced graphics and compute workloads.",
+    "Personal Systems groups its global business capabilities into the following business units when reporting business performance:",
+    "•Commercial PS consists of endpoint computing devices and hybrid systems, for use by enterprise, public sector (which includes education), and small- and medium-sized business (\"SMB\") customers. These devices include our Pro and Elite commercial PC portfolio, our Z line of workstations, thin clients, retail POS systems, and HP's Dragonfly and Chromebook PCs. HP offers a range of secure services and solutions to commercial customers to help them manage the lifecycle of their PCs and mobility installed base.",
+    "• Consumer PS consists of devices, accessories and services which are designed for consumer usage, focusing on gaming, learning and working remotely, consuming multi-media for entertainment, managing personal life activities, sharing information and staying connected, informed, and secure. These devices include our new Omni consumer PC portfolio, the Omen and Victus gaming lines, and HP's Spectre, Envy, Pavilion and Chromebook PCs.",
+    "Printing provides consumer and commercial printer hardware, supplies, services and solutions. Printing is also focused on Graphics and 3D Printing and Personalization in the commercial and industrial markets. Our global business capabilities within Printing are described below:",
+    "•Office Printing Solutions delivers HP's security enhanced office printers, supplies, services, and solutions to SMBs, public sector and large enterprises. It also includes Original Equipment Manufacturer (\"OEM\") hardware and solutions.",
+    "•Home Printing Solutions delivers innovative and security enhanced printing products, supplies, services and solutions for the home, home business and micro business customers.",
+    "•Graphics Solutions delivers large-format, commercial and industrial solutions and supplies to print service providers and packaging converters through a wide portfolio of printers and presses.",
+    "•3D Printing & Personalization offers a portfolio of additive manufacturing solutions and supplies to help customers succeed in their additive and digital manufacturing journey. HP offers complete solutions in collaboration with an ecosystem of partners.",
+    "Printing groups its global business capabilities into the following business units when reporting business performance:"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "If we cannot successfully execute our strategy and continue to develop, manufacture and market innovative products, services and solutions, our business and financial performance may suffer.",
+    "We expect the proliferation of AI to have a significant impact on our industry and the markets in which we compete, and the development and use of AI presents competitive, reputational, and liability risks.",
+    "We are heavily dependent on third-party suppliers and supply chain issues have adversely affected, and could adversely affect in the future, our financial results.",
+    "Our business and financial performance could suffer if we do not manage the risks associated with our services businesses properly.",
+    "We operate in an intensely competitive industry and competitive pressures could harm our business and financial performance.",
+    "If we cannot continue to produce high-quality and secure products and services, our reputation, business and financial performance may suffer.",
+    "Third-party claims of IP infringement are commonplace in our industry and may limit or disrupt our ability to sell our products and services.",
+    "Our operating results have historically varied and may not be indicative of future results.",
+    "If we fail to manage the distribution of our products and services properly, our business and financial performance could suffer.",
+    "Our uneven sales cycle makes planning and inventory management difficult and future financial results less predictable.",
+    "In order to be successful, we must attract, retain, train, motivate, develop and transition key employees, and failure to do so could seriously harm us.",
+    "Our financial performance may suffer if we cannot develop, obtain, license or enforce the intellectual property rights on which our businesses depend.",
+    "We may not achieve some or all of the expected benefits of our restructuring and other plans and such plans may adversely affect our business.",
+    "We may not be able to execute acquisitions, divestitures and other significant transactions successfully and we may have dif"
+   ],
+   "paragraphs": [
+    "The following discussion of risk factors contains forward-looking statements. These risk factors may be important for understanding any statement in this Form 10-K or elsewhere. The following information should be particularly read in conjunction with Part I, Item I, \"Business\" and Part II, Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and the Consolidated Financial Statements and related notes in Part II, Item 8, \"Financial Statements and Supplementary Data\" of this Form 10-K. Some of the factors, events and contingencies discussed below may have occurred in the past, but the disclosures below are not representations as to whether or not the factors, events or contingencies have occurred in the past and instead reflect our beliefs and opinions as to the factors, events or contingencies that could materially and adversely affect us in the future.",
+    "The risks we describe in this Form 10-K or in our other SEC filings or additional risks and uncertainties not presently known to us or that we currently believe to be immaterial could, in ways we may not be able to accurately predict, recognize or control, have a material adverse effect on our business, reputation, financial position, results of operations, cash flows and stock price, and they could cause our future results to be materially different than we presently anticipate.",
+    "To execute our strategy, we must, among other things, optimize our cost structure, make long-term investments, develop or acquire and appropriately protect intellectual property, commit significant research and development and other resources, evolve our go-to-market strategy and business model to meet changing market dynamics, forces and demand. In addition, we need to innovate, develop and execute on evolutionary strategies in a rapidly changing and increasingly hybrid environment, seize on disruptive opportunities and effectively respond to secular trends and shifts in customer preferences. Our financial performance will depend in part on our ability to remain competitive in offerings geared towards new or emerging market trends, such as artificial intelligence, hybrid consumption and digital employee experience. For example, in fiscal year 2025 we experienced challenges from changing customer behaviors and we believe we and others in our industry face continuing secular challenges related to, among other things, decreased demand for printing products and solutions as a result of increased digitization, hybrid work, increasing competition from generic alternatives and customer preferences shifting from traditional disposable ink cartridge printers to refillable big tank printers. We also seek to ensure our existing offerings in this space, such as managed services and print software, remain sufficiently differentiated and profitable. Our efforts to mitigate the impact of these challenges, such as by seeking to increase our margin and market share, particularly in big tank printers, and drive demand in software and subscription services or other recurring-revenue based business models, offering higher profitability, may not be successful. While our big tank printers typically have a higher initial margin than our traditional in cartridge printers, they do not result in follow-on sales of high margin traditional ink cartridges and, as a result, may have lower overall device lifetime profitability. Also, shifting to recurring-revenue based business may require us to forego upfront revenue and invest in platforms and systems that enable subscription sales. In addition, we may be unable to successfully execute our strategy, sufficiently invest in, prioritize research and development, market and scale, or accurately project the financial performance of our key growth areas, other strategic growth initiatives and existing offerings, accurately predict technological or business trends or control costs. Moreover, the process of developing new high-technology products, services and solutions and enhancing existing products, services and solutions, including through the introduction of AI capabilities, is complex, costly and uncertain, and we may be unable to anticipate or respond to customers' changing needs, accurately identify emerging technological trends or accurately project the demand, pricing, or other market dynamics of such trends. Our ability to successfully offer our products, services and solutions in this rapidly evolving market requires an effective planning, forecasting, and management process to enable us to effectively calibrate and adjust our business and business models in response to fluctuating market opportunities and conditions. This effort includes execution of effective go-to-market plans, which may require us to evolve our talent and capabilities, incentive plans (especially for evolution to recurring revenue business), and coverage models. In addition, we may be unable to appropriately prioritize and balance our initiatives or effectively manage change throughout our organization.",
+    "Our industry is subject to rapid and substantial innovation, technological change and customer preferences. Even if we successfully develop new products, future products, solutions and technologies, including those created by our competitors, may eventually supplant ours if we are unable to keep pace with technological advances and end-user requirements and preferences and timely enhancement of our existing products and technologies or develop new ones. As a result, we could lose market share and certain of our products, solutions and technologies may be rendered uneconomical or obsolete.",
+    "After we develop a product, we must be able to quickly manufacture appropriate volumes while also managing costs and preserving or improving margins. To accomplish this, we must accurately forecast volumes, mixes of products and configurations that meet customer and legal requirements, and we may not succeed in doing so within a given product's lifecycle or at all. Any delay in the development, production or marketing of a new product, service or solution could result in us not being among the first to market, which could further harm our competitive position. Moreover, new products and services may replace or supersede existing offerings and may not be profitable. Even if they are profitable, the operating margins may not be as high as the historical or anticipated margins.",
+    "We believe the proliferation of AI, especially as it relates to our product and solutions offerings, will continue to have a significant impact on customer preferences and market dynamics in our industry, and our ability to effectively compete in this space will be critical to our financial performance. We also believe that the effective use of AI in our internal operations is important to our long-term success. We are working to incorporate AI capabilities into our consumer and commercial products and solutions, as well as across the company in our own internal operations, and our research into and continued development of such technologies remain ongoing. As with many innovations, AI presents risks, challenges, and unintended consequences that could affect its rate and success of adoption, and therefore our business, and there is no guarantee that our use of AI or incorporation of AI capabilities into our products and solutions will benefit our business operations or result in products and solutions that are preferred by our customers. We have invested, and expect to continue to invest, significant resources to build and support our AI products. If our AI products fail to operate as anticipated or as well as competing products or otherwise do not meet customer needs or if we are unable to bring AI-enabled products and solutions to market as effectively, or with the same speed or in the same volumes, as our competitors, we may fail to recoup our investments in AI or improve our financial performance, our competitive position may be harmed, and our business and reputation may be adversely impacted. For example, the accelerated rate of innovation of components from our suppliers may result in higher defects or failure of our offerings to perform, which could cause us to incur increased warranty costs, inventory provisions or impairments and could impact future sales. Moreover, our actions to drive demand to AI products may result in cannibalization of demand for our traditional, non-AI products, which may result in lower net revenues and/or profit margins."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Management's Discussion and Analysis of",
+    "Financial Condition and Results of Operations",
+    "Macroeconomic Environment",
+    "Transformation Update",
+    "For the fiscal years ended October 31",
+    "Dollars % of Net Revenue Dollars % of Net Revenue Dollars % of Net Revenue",
+    "Dollars in millions",
+    "Gross Margin",
+    "Operating Expenses",
+    "Segment Information",
+    "Personal Systems",
+    "Net Revenue Weighted Net Revenue Change Percentage Points(1)",
+    "Corporate Investments",
+    "As of October 31",
+    "Share repurchases and dividends",
+    "Capital resources",
+    "2025 2024 Dollars in millions",
+    "Financial Condition and Results of Operations (Continued)",
+    "Payments Due by Period Total Short-term Long-term In millions"
+   ],
+   "paragraphs": [
+    "The discussion of financial condition and results of our operations that follows provides information that will assist the reader in understanding our Consolidated Financial Statements, the changes in certain key items in those financial statements from year to year, and the primary factors that accounted for those changes, as well as how certain accounting principles, policies and estimates affect our Consolidated Financial Statements. This discussion should be read in conjunction with our Consolidated Financial Statements and the related notes that appear elsewhere in this document. This section generally discusses the results of operations for the fiscal year ended October 31, 2025 compared to the fiscal year ended October 31, 2024. For a discussion of fiscal year ended October 31, 2024 compared to the fiscal year ended October 31, 2023, please refer to Part II, Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in our Annual Report on Form 10-K for the fiscal year ended October 31, 2024.",
+    "HP delivers innovative and sustainable devices, services, and subscriptions for personal computing, printing, 3D printing, hybrid work, gaming and other related technologies. We have three reportable segments: Personal Systems, Printing, and Corporate Investments. The Personal Systems segment offers commercial and consumer desktops, notebooks and workstations (including HP's portfolio of AI PCs and workstations), thin clients, retail POS systems, displays, hybrid systems, software, solutions including endpoint security, and services. The Printing segment provides consumer and commercial printer hardware, supplies, solutions and services. Corporate Investments include certain business incubation and investment projects.",
+    "•In Personal Systems, our long-term strategic focus is on:",
+    "◦profitable growth through innovation, market segmentation and simplification of our portfolio;",
+    "◦enhanced innovation in multi-operating systems, multi-architecture, customer segments and other key attributes;",
+    "◦investing in endpoint services and solutions. We are focused on services, including Device-as-a-Service, as the market shifts to subscription-based solutions, and accelerating in attractive adjacencies such as hybrid systems; and",
+    "◦driving innovation to enable productivity and collaboration, with AI PCs and workstations playing a critical role in the transformation of how people live and work.",
+    "•In Printing, our long-term strategic focus is on:",
+    "◦offering innovative, intelligent printing experiences and subscription-based solutions designed to securely serve consumer and SMB customers through our Instant Ink Services and HP All-In Plan, as well as large enterprises through our Managed Print Services solutions;",
+    "◦providing digital printing solutions for industrial graphics segments and applications including commercial publishing, labels, packaging, and textiles; and",
+    "◦expanding our footprint in 3D printing across digital manufacturing and strategic applications.",
+    "We are focused on driving further growth, recurring revenue and investment in strategic areas and believe we are well positioned to lead the future of work with our competitive product lineup and enhanced portfolio of hybrid systems, remote-computing solutions, and intelligent print solutions. We are driving innovation by accelerating the delivery of AI across our product portfolio and focusing on growth opportunities in commercial, solutions, and premium consumer and gaming markets. We have consolidated all our software resources under the Technology and Innovation Organization to evolve from a transactional hardware company to a more experience-led organization, further strengthening our ability to capture these opportunities.",
+    "We continue to experience challenges that are representative of the trends and uncertainties that may affect our industry, generally, and our business and financial results, specifically, and we expect these challenges to continue in the short-term. One set of challenges relates to the current macroeconomic environment and the adverse impact on demand for certain of our products. A second set of challenges relates to changes in the competitive landscape. Our primary competitors are exerting competitive pressure in targeted areas and are entering new markets, our emerging competitors are introducing new technologies and business models, and our alliance partners in some businesses are increasingly becoming our competitors in others. A third set of challenges relates to business model changes and our go-to-market execution in an evolving distribution and reseller landscape, with increasing online and omnichannel presence. Specific challenges we face at the segment level are set forth below.",
+    "•In Personal Systems, we face challenges with a competitive pricing environment, variability in commodity costs, especially increasing memory and storage costs, and the uncertainty of the market's ability to absorb price increases."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "個人電腦系統",
+    "企業投資",
+    "銷售、行銷與通路",
+    "製造與原物料",
+    "研究與發展",
+    "智慧財產權",
+    "永續影響活動",
+    "人力資本",
+    "有關我們高階主管的資訊",
+    "Manpreet S. Grewal; 年齡 46; 財務總監及全球總經理",
+    "Julie Jacobs; 年齡 59; 法務總監及總法律顧問",
+    "Enrique Lores; 年齡 60; 總裁及首席執行官",
+    "David McQuarrie; 年齡 50; 首席營銷官",
+    "Anneliese Olson; 年齡 54; 影像、列印與解決方案總裁",
+    "Karen L. Parkhill; 年齡 60; 財務長",
+    "Ketan Patel; 年齡 51; 個人電腦系統總裁",
+    "可取得資訊",
+    "其他資訊"
+   ],
+   "paragraphs": [
+    "HP 為全球科技領導者，並創造解決方案，使人們得以實現想法並連接至最重要的事物。在超過 170 個國家運營，HP 提供創新且可持續的裝置、服務與訂閱方案，用於個人計算、列印、3D 列印、混合工作、遊戲及其他相關科技。",
+    "我們認為人工智慧（\"AI\"）在改變人們生活與工作的方式中扮演關鍵角色，客戶開始認知到其在安全性、速度與成本方面的優勢。我們的高績效產品組合包括 HP 新推出的 AI 個人電腦與工作站，這些產品具備計算能力，可實現本地 AI 處理，以提升效能與功能，並在家庭、辦公室與圖形解決方案中整合智慧列印功能。",
+    "我們廣泛的保安能力旨在保護日益分散的用戶羣體，透過具備增強安全功能的個人電腦與列印機、硬體強制執行的端點安全軟體（適用於 HP 與非 HP 個人電腦），以及端點安全服務。我們的保安解決方案透過增強功能如隔離與隔離技術，以及使用 AI 深度學習來識別並移除惡意軟體威脅，提供分層的韌性。",
+    "我們有三個應報告分部：個人計算系統、列印與企業投資。",
+    "個人計算系統提供桌上型電腦、筆記型電腦與工作站（包括 HP 的 AI 個人電腦與工作站）、薄客戶端、零售點銷售（\"POS\"）系統、顯示器、混合系統、軟體、解決方案包括端點安全與服務。我們提供生命週期服務，包括支援與部署、配置與延長保固服務。我們支援多作業系統與多架構策略，主要使用 Microsoft Windows 與 Google Chrome 作業系統。我們的平台整合 Intel 與 AMD 的處理器，包括整合式 AI 加速，以及 NVIDIA GPU 用於先進的圖形與計算工作負載。",
+    "個人計算系統在報告業務表現時，將其全球業務能力分為以下業務單位：",
+    "• 商業 PS 包括端點計算裝置與混合系統，供企業、公共部門（包括教育）與中小企業（\"SMB\"）客戶使用。這些裝置包括我們的 Pro 與 Elite 商業個人電腦組合、Z 系列工作站、薄客戶端、零售 POS 系統，以及 HP 的 Dragonfly 與 Chromebook 個人電腦。HP 向商業客戶提供一系列安全服務與解決方案，協助其管理個人電腦與移動裝置的生命週期。",
+    "• 消費者 PS 包括裝置、配件與服務，專為消費者使用設計，著重於遊戲、學習與遠端工作、娛樂用多媒體內容、管理個人生活活動、分享資訊與保持連線、資訊更新與安全。這些裝置包括我們的新 Omni 消費者個人電腦組合、Omen 與 Victus 遊戲系列，以及 HP 的 Spectre、Envy、Pavilion 與 Chromebook 個人電腦。",
+    "印刷業務提供消費者與商用印表機硬體、耗材、服務與解決方案。印刷業務也聚焦於圖形與3D列印及個人化領域，應用於商用與工業市場。我們在印刷領域的全球業務能力如下：",
+    "•辦公室列印解決方案提供HP具安全增強功能的辦公室印表機、耗材、服務與解決方案，服務於中小企業、公部門與大型企業。此業務也包含原廠設備製造商（\"OEM\"）硬體與解決方案。",
+    "•家庭列印解決方案提供創新且具安全增強功能的列印產品、耗材、服務與解決方案，服務於家庭、家庭企業與微型企業客戶。",
+    "•圖形解決方案提供大型格式、商用與工業解決方案與耗材，透過廣泛的印表機與印刷機產品組合，服務於列印服務供應商與包裝轉換商。",
+    "•3D列印與個人化提供一組加成製造解決方案與耗材，協助客戶在加成與數位製造旅程中取得成功。HP與生態系夥伴合作，提供完整的解決方案。",
+    "印刷業務將其全球業務能力分為以下業務單位，以報告業務表現："
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "管理層對財務狀況與營運成果之分析",
+    "財務狀況與營運成果之分析",
+    "總體經濟環境",
+    "轉型進展更新",
+    "截至10月31日財務年度",
+    "美元 % of 淨銷售額 美元 % of 淨銷售額 美元 % of 淨銷售額",
+    "以千萬美元為單位",
+    "毛利率",
+    "營運費用",
+    "分部資訊",
+    "個人電腦系統",
+    "淨營收加權淨營收變動百分比點(1)",
+    "企業投資",
+    "截至10月31日",
+    "股票回購及股息",
+    "資本資源",
+    "{'original': '2025 2024 Dollars in millions', 'translated': '2025 2024 美元以千萬為單位'}",
+    "財務狀況與營運成果（續）",
+    "各期間應付款項總計 短期 長期 萬美元"
+   ],
+   "paragraphs": [
+    "後續對財務狀況及營運結果的討論，提供資訊以協助讀者瞭解本公司的合併財務報表、那些財務報表中某些關鍵項目與年度的變動情形，以及造成這些變動的主要因素，以及某些會計原則、會計政策與會計估計如何影響本公司的合併財務報表。此討論應與本公司的合併財務報表及相關附註說明一併閱讀，這些附註說明出現在本文件的其他地方。本節一般討論財務年度截至2025年10月31日止的營運結果與財務年度截至2024年10月31日止的營運結果之比較。如需瞭解財務年度截至2024年10月31日止與財務年度截至2023年10月31日止的比較，請參閱本公司2024年財務年度（截至2024年10月31日）的10-K年度報告，第II部，第7項「財務狀況與營運結果之管理層討論與分析」。",
+    "HP提供創新且可持續的個人電腦、列印、3D列印、混合工作、遊戲及其他相關科技的設備、服務與訂閱方案。我們有三個應報告分部：個人電腦系統、列印與企業投資。個人電腦系統分部提供商業與消費性桌面電腦、筆記型電腦與工作站（包括HP的AI個人電腦與工作站產品組合）、薄客戶端、零售POS系統、顯示器、混合系統、軟體、端點安全解決方案及相關服務。列印分部提供消費性與商業列印硬體、耗材、解決方案及服務。企業投資包括某些業務育成與投資專案。",
+    "•在個人電腦系統分部，我們的長期戰略重點為：",
+    "◦透過創新、市場區隔與簡化產品組合來實現獲利成長；",
+    "◦在多作業系統、多架構、客戶區隔及其他關鍵屬性上加強創新；",
+    "◦投資於端點服務與解決方案。我們專注於服務，包括設備即服務（Device-as-a-Service），因市場轉向訂閱式解決方案，並加速在混合系統等有吸引力的相關領域；",
+    "◦推動創新以提升生產力與協作，AI個人電腦與工作站在此轉變人們生活與工作方式的過程中扮演關鍵角色。",
+    "•在列印分部，我們的長期戰略重點為：",
+    "◦提供創新且智慧化的列印體驗與訂閱制解決方案，以安全地服務消費者與中小企業客戶，透過我們的 Instant Ink Services 和 HP All-In Plan，以及透過我們的 Managed Print Services 解決方案服務大型企業；",
+    "◦為工業圖形領域及應用提供數位列印解決方案，包括商業出版、標籤、包裝與紡織品；以及",
+    "◦在數位製造與戰略應用領域擴大我們在 3D 列印的足跡。",
+    "我們致力於推動進一步成長、持續性收入以及在戰略領域的投資，並相信我們已處於有利位置，能領導未來的工作模式，透過我們具有競爭力的產品線與強化後的混合系統、遠端計算解決方案與智慧列印解決方案。我們透過加速 AI 在產品線的應用來推動創新，並聚焦於商業、解決方案與高階消費者及遊戲市場的成長機會。我們已將所有軟體資源整併至 Technology and Innovation Organization，以從交易性硬體公司轉型為更以體驗為導向的組織，進一步強化我們把握這些機會的能力。",
+    "我們持續面臨挑戰，這些挑戰反映了可能影響我們產業的一般趨勢與不確定性，以及我們業務與財務結果的特定影響，我們預期這些挑戰在短時間內會持續存在。一組挑戰與當前總體經濟環境以及對某些產品需求的負面影響有關。第二組挑戰與競爭格局的變化有關。我們的主要競爭對手在特定領域施加競爭壓力，並進入新市場，我們的潛在競爭對手正在推出新技術與商業模式，而在某些業務領域，我們的聯盟夥伴正逐漸成為我們的競爭對手。第三組挑戰與業務模式的變化以及在不斷演變的通路與經銷商環境中我們的市場推廣執行有關，隨著線上與全通路存在感的增加而變得更加重要。在各個分部層面，我們面臨的具體挑戰如下。",
+    "•在個人系統部門，我們面臨競爭性價格環境、原物料成本的波動，特別是記憶體與儲存成本的增加，以及市場對價格上漲的吸收能力不確定。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "若我們無法成功執行策略並持續開發、製造與行銷創新產品、服務與解決方案，本公司業務與財務表現可能受影響。",
+    "我們預期人工智慧（AI）的普及將對我們所處產業及競爭市場產生重大影響，而人工智慧的發展與應用可能帶來競爭、聲譽與責任風險。",
+    "我們高度依賴第三方供應商，供應鏈問題已對本公司財務結果造成負面影響，未來亦可能造成負面影響。",
+    "若我們無法妥善管理服務業務相關風險，本公司業務與財務表現可能受影響。",
+    "我們所處產業為高度競爭，競爭壓力可能損害本公司業務與財務表現。",
+    "若我們無法持續提供高品質且安全的產品與服務，本公司聲譽、業務與財務表現可能受影響。",
+    "第三方智慧財產權侵權聲請在本公司產業中相當常見，可能限制或中斷我們銷售產品與服務的能力。",
+    "本公司營運成果歷來有顯著波動，可能無法反映未來結果。",
+    "若我們未能妥善管理產品與服務的分銷，將可能影響我們的業務與財務表現。",
+    "我們不均的銷售週期使規劃與存貨管理困難，且未來財務結果較難預測。",
+    "為確保成功，我們必須吸引、留住、培訓、激勵、發展並轉移關鍵員工，若未能做到，將嚴重影響我們。",
+    "若我們無法開發、取得、授權或執行我們業務所依賴的智慧財產權，將可能影響財務表現。",
+    "我們可能無法實現重組及其他計畫所預期的部分或全部效益，且這些計畫可能對我們的業務產生負面影響。",
+    "我們可能無法成功執行併購、資產處分及其他重大交易，且我們可能有"
+   ],
+   "paragraphs": [
+    "以下風險因素之討論包含向前看之陳述。這些風險因素可能對理解本Form 10-K或其他地方之任何陳述為重要。以下資訊應與本Form 10-K之Part I, Item I, \"Business\"及Part II, Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations\"及本Form 10-K之Part II, Item 8, \"Financial Statements and Supplementary Data\"中之合併財務報表及相關附註一併閱讀。部分因素、事件及潛在情況在下文中提及，可能已發生於過去，但下文之揭露並非表示這些因素、事件或潛在情況是否已發生於過去，而是反映我們對可能對我們未來產生重大且不利影響之因素、事件或潛在情況之看法與意見。",
+    "我們在本Form 10-K或我們其他SEC申報文件中所描述之風險，或其它未為我們所知之風險與不確定性，可能以我們無法準確預測、識別或控制之方式，對我們之業務、聲譽、財務狀況、營運結果、現金流及股票價格產生重大不利影響，並可能導致我們未來之結果與我們目前預期之結果有重大差異。",
+    "為執行我們之策略，我們必須，除其他事項外，優化成本結構、進行長期投資、開發或取得並適當保護智慧財產權、投入大量研究與開發及其他資源、進化我們之市場進入策略與商業模式以應對市場動態、力量與需求之變化。此外，我們需要創新、開發並執行演化策略於快速變化的且日益混合之環境中，把握顛覆性機會，並有效回應產業趨勢與客戶偏好之變化。我們之財務表現將部分取決於我們能否在針對新興市場趨勢之產品與服務中保持競爭力，例如人工智慧、混合式消費與數位員工體驗。例如，在財務年度2025年，我們經歷了客戶行為之變化所帶來的挑戰，我們認為我們與產業內其他公司仍面臨持續的產業性挑戰，包括因數位化、混合式工作增加而導致打印產品與解決方案之需求下降、來自通用替代品之競爭增加，以及客戶偏好從傳統一次性墨盒列印機轉向可重灌大容量墨水箱列印機。我們也致力於確保我們在這領域之現有產品與服務，例如管理服務與列印軟體，能保持足夠之差異化與利潤。我們努力緩解這些挑戰之影響，例如透過增加我們之毛利率與市場佔有率，特別是在大容量墨水箱列印機，並推動軟體與訂閱服務或其他基於持續收入之商業模式之需求，以提高利潤，但這些努力可能不會成功。雖然我們之大容量墨水箱列印機通常具有較高之初始毛利率，但其並不會產生高毛利率之傳統墨盒之續購銷售，因此可能導致整體設備生命週期之利潤較低。此外，轉向基於持續收入之商業模式可能需要我們放棄前期收入，並投資於平台與系統以支持訂閱銷售。此外，我們可能無法成功執行我們之策略，足夠投資於、優先研究與開發、市場與規模擴張，或準確預測我們關鍵成長領域、其他戰略成長計畫與現有產品之財務表現，準確預測技術或商業趨勢，或控制成本。此外，開發新高技術產品、服務與解決方案，以及增強現有產品、服務與解決方案的過程，包括透過引入AI能力，是複雜、成本高昂且不確定的，我們可能無法預見或回應客戶需求之變化，準確識別新興技術趨勢，或準確預測這些趨勢之需求、價格或其他市場動態。我們在這快速變化的市場中成功提供產品、服務與解決方案的能力，需要有效的規劃、預測與管理流程，以使我們能有效校準與調整業務與商業模式，以回應市場機會與條件之波動。此努力包括執行有效的市場進入計畫，這可能需要我們進化人才與能力、激勵計畫（特別是轉向持續收入業務），以及覆蓋模式。此外，我們可能無法適當優先與平衡我們之計畫，或有效管理組織內之變革。",
+    "我們所屬產業面臨快速且顯著的創新、技術變革與客戶偏好。即使我們成功開發新產品、未來產品、解決方案與技術，包括由競爭對手所開發之產品，這些產品最終仍可能取代我們的產品，如果我們無法跟上技術進步與終端用戶需求與偏好，並及時提升現有產品與技術，或開發新產品。因此，我們可能失去市場佔有率，並某些產品、解決方案與技術可能變得不經濟或過時。",
+    "在開發產品後，我們必須能快速製造適當之數量，同時管理成本並維持或提高毛利率。為達成此目標，我們必須準確預測數量、產品組合與符合客戶與法律要求之配置，我們可能無法在特定產品之生命週期內或任何時候成功做到此點。任何延遲開發、生產或行銷新產品、服務或解決方案，都可能導致我們無法成為首發上市者，這可能進一步損害我們之競爭地位。此外，新產品與服務可能取代或超越現有產品，且可能不具盈利性。即使具盈利性，其營運毛利率可能不如歷史或預期之毛利率。",
+    "我們認為AI之普及，特別是與我們產品與解決方案之關係，將持續對我們產業之客戶偏好與市場動態產生重大影響，我們在這領域之競爭能力將對我們之財務表現至關重要。我們也認為在內部運作中有效運用AI對我們之長期成功至關重要。我們正在努力將AI能力整合至我們之消費者與企業產品與解決方案，以及公司內部運作中，我們對此技術之研究與持續開發仍在進行中。如同許多創新一樣，AI帶來風險、挑戰與未預期之後果，可能影響其採用速度與成功，進而影響我們之業務，且無法保證我們運用AI或將AI能力整合至產品與解決方案將對我們之業務運作有益，或產生客戶偏好的產品與解決方案。我們已投資，並預期持續投資大量資源以建立與支援我們之AI產品。如果我們之AI產品未能如預期運作，或不如競爭產品，或未能符合客戶需求，或我們無法如競爭對手般有效地將AI功能產品與解決方案推向市場，或以相同速度或數量，我們可能無法回收在AI之投資，或改善財務表現，我們之競爭地位可能受損，且業務與聲譽可能受到不利影響。例如，供應商所提供之零組件創新速度加快，可能導致我們之產品出現更多缺陷或無法正常運作，這可能導致我們產生更高的保固成本、存貨提列或減損，並可能影響未來銷售。此外，我們推動AI產品之需求之行動，可能導致傳統非AI產品之需求被取代，這可能導致淨銷售額與/或利潤率下降。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

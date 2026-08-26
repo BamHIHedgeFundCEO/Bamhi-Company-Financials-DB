@@ -1,0 +1,213 @@
+{
+ "ticker": "DOC",
+ "cik": "0000765880",
+ "accession": "0001628280-26-005044",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "General Overview",
+    "Segment Adjusted NOI by Reportable Segment(1)",
+    "Business Strategy",
+    "Tenant Percentage of",
+    "Segment Revenues Percentage of",
+    "Government Regulation, Licensing, and Enforcement",
+    "Sustainability and Corporate Impact",
+    "Human Capital Matters",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Healthpeak Properties, Inc. is a Standard & Poor's (\"S&P\") 500 company that owns, operates, and develops high-quality real estate focused on healthcare discovery and delivery in the United States (\"U.S.\"). Our company was originally founded in 1985. We are organized as an umbrella partnership REIT (\"UPREIT\"). We hold substantially all of our assets and conduct our operations through our operating subsidiary, Healthpeak OP, a consolidated subsidiary of which we are the managing member. We are a Maryland corporation and qualify as a self-administered REIT. We are headquartered in Denver, Colorado, with additional corporate offices in California, Tennessee, Wisconsin, and Massachusetts and property management offices in several locations throughout the U.S.",
+    "We have a diversified portfolio of high-quality healthcare properties across three core asset classes of outpatient medical, lab, and senior housing real estate. Under the outpatient medical and lab segments, we own, operate, and develop outpatient medical buildings, hospitals, and lab buildings. Under the senior housing segment, our properties are operated through RIDEA structures. We have other non-reportable segments that are comprised primarily of: (i) loans receivable, (ii) a preferred equity investment, and (iii) three other properties. These non-reportable segments have been presented on a combined basis herein.",
+    "On March 1, 2024 (the \"Closing Date\"), we completed our merger with Physicians Realty Trust (the \"Merger\"). Subsequent to the Closing Date, the \"Combined Company\" means Healthpeak and its subsidiaries. As a result of the Merger, we acquired 299 outpatient medical buildings. See Note 3 to the Consolidated Financial Statements for additional information.",
+    "In December 2025, we confidentially submitted a draft registration statement on Form S-11 to the SEC relating to the proposed initial public offering (the \"Offering\" or \"Janus Living Offering\") of shares of common stock of a newly formed company, Janus Living, Inc. (\"Janus Living\"), which will be dedicated to senior housing and which intends to elect and qualify to be taxed as a REIT. We will contribute our 34-community, 10,422-unit senior housing portfolio to Janus Living in exchange for a majority ownership interest in Janus Living. Immediately following the Janus Living Offering, we will serve as its external manager and we intend to retain a substantial majority interest in Janus Living, with new public shareholders owning the remaining interest. Based on the anticipated ownership share and terms of the management agreement, we expect to continue to consolidate Janus Living subsequent to the Offering. We expect to complete the Offering in the first half of 2026, subject to market conditions, receipt of regulatory approvals, completion of related financings, completion of the SEC's review, and other customary conditions.",
+    "During the fourth quarter of 2025, in connection with the planned Offering of Janus Living, our chief operating decision maker (\"CODM\"), the President and Chief Executive Officer (\"CEO\"), began evaluating our life plan communities (formerly known as continuing care retirement communities, or CCRCs) and our unconsolidated joint venture with a sovereign wealth fund that owns 19 senior housing properties (our \"SWF SH JV\") as a single operating and reportable segment, referred to as senior housing. Also during the fourth quarter of 2025, two other properties were reclassified from the outpatient medical segment to the other non-reportable segments as these properties are not representative of the characteristics of the outpatient medical segment and therefore, are no longer evaluated by the CODM in conjunction with the outpatient medical properties. Also included in other non-reportable segments as of December 31, 2025 is one other property that was acquired as part of the Gateway Crossing acquisition, as described below. Accordingly, all prior period segment information has been recast to conform to the current period presentation.",
+    "At December 31, 2025, our portfolio of investments, including properties in certain of our unconsolidated joint ventures, consisted of interests in 689 properties: (i) Outpatient medical – 507 properties; (ii) Lab – 145 properties; (iii) Senior housing – 34 properties; and (iv) Other non-reportable – 3 properties. The following table summarizes information for our reportable segments for the year ended December 31, 2025 (dollars in thousands):",
+    "Outpatient medical $ 795,843 Lab 567,358 Senior housing 176,741 _______________________________________",
+    "(1)Our Adjusted NOI for our reportable segments, which we also refer to as Total Portfolio Adjusted NOI for our reportable segments, includes results of operations from disposed properties through the disposition date. See Note 16 to the Consolidated Financial Statements for a reconciliation of Adjusted NOI by reportable segment to income (loss) before income taxes and equity income (loss) from unconsolidated joint ventures. See our Segment Analysis below for additional information.",
+    "For a description of our significant activities during 2025, see \"Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations—Company Highlights\" in this report.",
+    "Our strategy is to own, operate, and develop high-quality real estate focused on healthcare discovery and delivery. We manage our real estate portfolio for the long-term to maximize risk-adjusted returns and support the growth of our dividends. Our strategy consists of four core elements:",
+    "(i)Our real estate: Our portfolio consists of high-quality properties in desirable locations. Our portfolio is primarily focused on outpatient medical and lab buildings, favorable sectors that benefit from the universal desire for improved health, as well as life plan community and senior housing facilities, which benefit from favorable demographic trends. We have built scale and fostered deep industry relationships, two unique factors that provide us with a competitive advantage.",
+    "(ii)Our financials: We maintain a strong investment-grade balance sheet with ample liquidity as well as long-term fixed-rate debt financing with staggered maturities to reduce our exposure to interest rate volatility and refinancing risk.",
+    "(iii)Our partnerships: We work with leading pharmaceutical, biotechnology, and medical device companies, as well as healthcare delivery systems, specialty physician groups, and other healthcare service providers and senior housing operators and managers, to meet their real estate needs. We provide high-quality property management services to encourage tenants to renew, expand, and relocate into our properties, which drives increased occupancy, rental rates, and property values.",
+    "(iv)Our platform: We have a people-first culture that we believe attracts, develops, and retains top talent. We continually strive to create and maintain an industry-leading platform, with systems and tools that allow us to effectively and efficiently manage our assets and investment activity."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business and Operations",
+    "Changes to regulatory, funding, staffing, trade, and other policies and actions by the U.S. political administration could adversely affect our business operations or the operations of our tenants or operators.",
+    "We may be negatively impacted by macroeconomic trends that may increase borrowing, construction, labor, and other operating or administrative costs for us and our tenants, operators, and borrowers.",
+    "Life science industry changes could have a material adverse effect on our business, results of operations, and financial condition.",
+    "Our lab tenants face significant regulation, funding requirements, and uncertainty.",
+    "We may be negatively impacted by the insolvency or bankruptcy of, or the inability to obtain funding by, one or more of our major tenants, operators, or borrowers.",
+    "The illiquidity of our real estate investments may prevent us from timely responding to economic or investment performance changes.",
+    "Identifying and securing new or replacement tenants or operators can be time consuming and costly.",
+    "Property development, redevelopment, and tenant improvement risks can render a project less profitable or unprofitable and delay or prevent its undertaking or completion.",
+    "We assume operational risks with respect to our senior housing properties managed in RIDEA structures that could have a material adverse effect on our business, results of operations, and financial condition.",
+    "Required regulatory approvals can delay or prohibit transfers of our senior housing properties.",
+    "Compliance with the Americans with Disabilities Act and fire, safety, and other regulations may require us to make expenditures that adversely affect our cash flows.",
+    "Uninsured or underinsured losses could result in a significant loss of capital invested in a property, lower than expected future revenues, and unanticipated expenses.",
+    "Our use of joint ventures may limit our returns on and our flexibility with jointly owned investments.",
+    "Rent escalators or contingent rent provisions in our leases could hinder our profitability and growth.",
+    "We may be required to recognize reserves, allowances, credit losses, or impairment charges."
+   ],
+   "paragraphs": [
+    "The section below discusses the risk factors that may materially adversely affect our business, results of operations, and financial condition. Additional risks not presently known to us or that we currently deem immaterial may also adversely affect our business.",
+    "As set forth below, we believe that the risks we face generally fall into the following categories:",
+    "•risks related to our business and operations; •risks related to our capital structure and market conditions;",
+    "•risks related to the pending Janus Living Offering and our relationship with Janus Living if the Janus Living Offering is completed; and",
+    "•risks related to tax, including REIT-related risks, and related to our jurisdiction of incorporation and our structure as an UPREIT.",
+    "Recent and ongoing changes in U.S. federal government policy have introduced uncertainty to the capital markets, as well as within our industry and the industries of our tenants and operators. These policy changes include, but are not limited to, workforce reductions at federal agencies; executive actions impacting National Institutes of Health (\"NIH\") grant funding; changes to visa policies affecting the scientific workforce; efforts to cap NIH indirect cost reimbursements; tariffs and potential tariff actions; and changes to drug pricing policies. For example, recent policy shifts and administration priorities affecting research funding, drug pricing, drug review and approval processes, and tariffs, among other policies, have created uncertainty in the life science ecosystem in which our lab tenants operate. This uncertainty has adversely impacted, and in the future may adversely impact, the ability of life science companies obtain investor funding, which could lead to setbacks in research and development timelines, advancement of drug pipelines, or achievement of commercial viability. In addition, competitive international biotech sectors, including in China, supported by favorable regulatory conditions and costs there, may also divert research and development activity and investment away from the U.S., reducing long-term demand for domestic life science real estate. These policy shifts and other dynamics may affect our lab tenants' ability to make rent payments to us or expand within our properties, which, as a result, could negatively impact our operating and financial results."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Market Trends and Uncertainties",
+    "Company Highlights",
+    "Real Estate Transactions",
+    "Development and Redevelopment Activities",
+    "Financing Activities",
+    "Other Activities",
+    "Results of Operations",
+    "Non-GAAP Financial Measures",
+    "Comparison of the Year Ended December 31, 2025 to the Year Ended December 31, 2024",
+    "Segment Analysis",
+    "Outpatient Medical",
+    "Merger-Combined SS(1)",
+    "Total Portfolio(2)",
+    "Year Ended December 31, Year Ended December 31,",
+    "2025 2024 Change 2025 2024 Change",
+    "2024 2023 Change 2024 2023 Change",
+    "Merger-Combined SS Total Portfolio(1)",
+    "Senior Housing",
+    "Merger-Combined SS Total Portfolio",
+    "Other Income and Expense Items",
+    "Year Ended December 31,",
+    "2025 2024 Change"
+   ],
+   "paragraphs": [
+    "The information set forth in this Item 7 is intended to provide readers with an understanding of our financial condition, changes in financial condition, and results of operations. This section generally discusses the results of our operations for the year ended December 31, 2025 compared to the year ended December 31, 2024. Other than retrospective updates for changes to our reportable segments as more fully described in this Form 10-K, please refer to Part II, Item 7. \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in our Annual Report on Form 10-K for the fiscal year ended December 31, 2024 filed with the SEC on February 4, 2025 for a discussion of the year ended December 31, 2024 compared to the year ended December 31, 2023.",
+    "The discussion below contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those anticipated in these forward-looking statements as a result of various factors, including those which are discussed in \"Item 1A, Risk Factors.\" See also \"Cautionary Language Regarding Forward-Looking Statements\" preceding Part I.",
+    "The following discussion and analysis should be read in conjunction with our accompanying, consolidated financial statements and the notes thereto.",
+    "We will discuss and provide our analysis in the following order: •Market Trends and Uncertainties",
+    "•Company Highlights •Dividends •Results of Operations •Liquidity and Capital Resources •Non-GAAP Financial Measures Reconciliations",
+    "•Critical Accounting Estimates •Recent Accounting Pronouncements",
+    "Our operating results have been and will continue to be impacted by global and national economic and market conditions generally and by the local economic conditions where our properties are located.",
+    "We continuously monitor the effects of domestic and global events on our operations and financial position, and on the operations and financial position of our tenants, operators, and borrowers, to enable us to remain responsive and adaptable to the dynamic changes in our operating environment. These events include, but are not limited to, the following, any of which could negatively impact our business: inflation; recession; interest rates; challenges in the financial markets; availability of private capital and funding in the life science industry; and actions by the U.S. political administration and regulatory agencies that affect healthcare policy, life science research and innovation, labor supply, procurement and construction costs, and general economic conditions (such as budget reconciliation actions, tariff actions, changes in healthcare regulation, decreases in government funding and staffing, and immigration reform).",
+    "To the extent our tenants and/or operators have experienced, or will experience, increased costs, liquidity constraints, and financing difficulties due to the foregoing macroeconomic and market conditions, they may be unable or unwilling to make payments or perform their obligations when due, and occupancy of our properties could be adversely affected.",
+    "In addition, uncertainty in public and private equity and fixed income markets and elevated interest rates have directly led to increased costs and limitations on the availability of capital to us. Elevated interest rates have and could continue to adversely impact our borrowing costs, the fair value of our fixed rate instruments, transaction volume, and real estate values generally, including our real estate.",
+    "We have also been affected by increased costs relating to tenant improvements and construction, which, together with higher costs of capital and tariff actions (or potential tariff actions), have adversely affected, and in the future may adversely affect, construction starts and the expected yields on our capital projects, including our developments and redevelopments.",
+    "See \"Item 1A, Risk Factors\" in this report for additional discussion of the risks posed by macroeconomic conditions, as well as the uncertainties we and our tenants, operators, and borrowers may face as a result.",
+    "•During the year ended December 31, 2025, we completed the Gateway Crossing acquisition where we acquired 100% of a lab building in South San Francisco, California for consideration paid, net of discounts and closing costs, of $295 million and a 50% interest in a joint venture that owns five lab buildings and one other property on the same campus (the \"Gateway Crossing JV\") for consideration paid, net of discounts and closing costs, of $132 million. In January 2026, we acquired the remaining 50% interest in the Gateway Crossing JV for consideration paid, net of discounts and closing costs, of $132 million, bringing our equity ownership in these six buildings to 100%.",
+    "•During the year ended December 31, 2025, we also acquired: (i) a portfolio of three outpatient medical buildings in New York for $17 million, (ii) a lab land parcel in Cambridge, Massachusetts for $20 million, (iii) nine suites within an outpatient medical building in Atlanta, Georgia for $7 million, and (iv) an outpatient medical land parcel in Huntsville, Alabama for $7 million, and (v) formed two outpatient medical development joint ventures."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "總體概覽",
+    "應報告分部調整後的營運收入(1)",
+    "業務策略",
+    "租戶佔比",
+    "分部營收佔比",
+    "政府規範、許可與執行",
+    "永續發展與企業影響",
+    "人力資本事項",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "Healthpeak Properties, Inc. 為一間 Standard & Poor's (\"S&P\") 500 公司，專注於美國 (\"U.S.\") 醫療研究與醫療服務之高品質不動產之擁有、營運與開發。本公司於 1985 年成立。本公司為一間傘型合夥 REIT (\"UPREIT\")。本公司 substantially all 之資產與營運活動均透過本公司營運子公司 Healthpeak OP 進行，而本公司為該子公司之管理合夥人。本公司為一間馬裏蘭州公司，並符合自營 REIT 之資格。本公司總部設於科羅拉多州丹佛市，並於加州、田納西州、威斯康辛州與馬薩諸塞州設有其他營業據點，並於美國多處設有不動產管理據點。",
+    "本公司擁有跨三個核心資產類別之高品質醫療不動產多元化投資組合，包括門診醫療、實驗室與長照住宅不動產。於門診醫療與實驗室分部下，本公司擁有、營運與開發門診醫療大樓、醫院與實驗室大樓。於長照住宅分部下，本公司之不動產透過 RIDEA 結構進行營運。本公司其他非應報告分部主要由：(i) 應收貸款、(ii) 一股優先股投資，以及 (iii) 三個其他不動產組成。這些非應報告分部於 herein 以合併方式呈現。",
+    "於 2024 年 3 月 1 日 (\"閉幕日\")，本公司完成與 Physicians Realty Trust (\"合併\") 之合併。閉幕日後，\"合併後公司\" 指 Healthpeak 及其子公司。因合併關係，本公司取得 299 門診醫療大樓。有關更多資訊，請參閱財務報表附註 3。",
+    "於 2025 年 12 月，本公司已向 SEC 密切提交一項 Form S-11 之草案註冊聲明，與預計之首次公開發行 (\"發行\" 或 \"Janus Living 發行\") 有關，該發行為 Janus Living, Inc. (\"Janus Living\") 之普通股，該公司專注於長照住宅，並預計選取並符合 REIT 之稅務資格。本公司將以其 34 個社區、10,422 個單位之長照住宅投資組合換取 Janus Living 之多數股權。Janus Living 發行後，本公司將擔任其外部管理人，並預計保留 Janus Living 之重大多數股權，而新進公開股東將持有剩餘股權。根據預期之股權比例與管理契約條款，本公司預計將於發行後繼續將 Janus Living 合併入帳。本公司預計於 2026 年上半年完成發行，視市場條件、取得監管批准、完成相關融資、SEC 審查完成及其他慣例條件而定。",
+    "於 2025 年第四季，配合 Janus Living 發行計畫，本公司首席營運決策者 (\"CODM\")，即總裁與首席執行官 (\"CEO\")，開始評估本公司之生命計畫社區 (原稱為持續照護退休社區，或 CCRCs) 以及與一國有財富基金之未合併合資企業，該基金擁有 19 間長照住宅不動產 (本公司之 \"SWF SH JV\")，作為單一營運與應報告分部，稱為長照住宅。同時於 2025 年第四季，兩間其他不動產自門診醫療分部重新歸類至其他非應報告分部，因這些不動產不具門診醫療分部之特性，因此不再由 CODM 與門診醫療不動產一併評估。截至 2025 年 12 月 31 日，其他非應報告分部亦包含一間於 Gateway Crossing 收購中取得之不動產。因此，所有先前期間之分部資訊已重新整理以符合當前期間之呈現方式。",
+    "截至 2025 年 12 月 31 日，本公司之投資組合，包括部分未合併合資企業之不動產，包含 689 間不動產：(i) 門診醫療 – 507 間；(ii) 實驗室 – 145 間；(iii) 長照住宅 – 34 間；以及 (iv) 其他非應報告 – 3 間。下表總結本公司應報告分部於 2025 年 12 月 31 日財年之資訊（金額以千美元為單位）：",
+    "門診醫療 $ 795,843 實驗室 567,358 長照住宅 176,741 ________________________________________",
+    "(1)本公司應報告分部之調整後 NOI，我們亦稱為應報告分部之總投資組合調整後 NOI，包含已處分不動產至處分日之營運結果。有關調整後 NOI 由應報告分部至稅前收入 (損失) 及未合併合資企業之權益收入 (損失) 之重新計算，請參閱財務報表附註 16。有關更多資訊，請參閱我們之分部分析部分。",
+    "有關本公司於 2025 年重大業務活動之說明，請參閱本報告之「項目 7、管理層對財務狀況與營運成果之討論與分析—公司重點」。",
+    "本公司策略為擁有、經營及發展高品質之不動產，專注於醫療研究與服務之領域。本公司管理不動產資產以長遠為導向，以最大化風險調整後之報酬，並支持本公司股息之成長。本公司策略包含四大核心要素：",
+    "(i)本公司不動產：本公司資產組合包含位於優質地區之高品質不動產。本公司資產組合主要聚焦於門診醫療與實驗室大樓，為受益於普遍改善健康需求之有利產業，以及生命規劃社區與長照機構，這些產業受益於有利之人口結構趨勢。本公司已建立規模並培養深厚產業關係，為兩項獨特因素，提供本公司競爭優勢。",
+    "(ii)本公司財務：本公司維持強固之投資等級資產負債表，擁有充足流動性，以及長期固定利率債務融資，且債務到期日分散，以降低本公司對利率波動及再融資風險之曝險。",
+    "(iii)本公司合作夥伴：本公司與領先之藥品、生物科技與醫療器材公司，以及醫療服務系統、專科醫師集團及其他醫療服務提供者與長照機構經營者及管理者合作，以滿足其不動產需求。本公司提供高品質之不動產管理服務，以鼓勵租戶續約、擴充及遷入本公司不動產，此舉可提升租賃率、使用率與不動產價值。",
+    "(iv)本公司平台：本公司擁有以人為本之文化，本公司認為此文化可吸引、培養及留住優秀人才。本公司持續努力建立並維持產業領先之平台，擁有系統與工具，使本公司能有效且高效地管理資產與投資活動。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'Market Trends and Uncertainties': '市場趨勢與不確定性'}",
+    "{'Company Highlights': '公司亮點'}",
+    "{'Real Estate Transactions': '不動產交易'}",
+    "{'Development and Redevelopment Activities': '開發與重建活動'}",
+    "{'Financing Activities': '籌資活動'}",
+    "{'Other Activities': '其他活動'}",
+    "{'Results of Operations': '營運成果'}",
+    "{'Non-GAAP Financial Measures': '非GAAP財務指標'}",
+    "比較 2025 年 12 月 31 日財年與 2024 年 12 月 31 日財年",
+    "分部分析",
+    "門診醫療",
+    "合併-SS(1)",
+    "總投資組合(2)",
+    "2025 年 12 月 31 日 財年 2024 年 12 月 31 日 財年",
+    "2025 2024 變動 2025 2024 變動",
+    "2024 2023 變動 2024 2023 變動",
+    "合併-合併SS總資產組合(1)",
+    "高齡住宅",
+    "合併-合併SS總資產組合",
+    "其他收入及費用項目",
+    "截至12月31日年度",
+    "2025 2024 變動"
+   ],
+   "paragraphs": [
+    "本節所述資訊旨在讓讀者瞭解本公司的財務狀況、財務狀況之變動及營運成果。本節一般討論本公司於2025年12月31日財務年度之營運成果與2024年12月31日財務年度之比較。除本Form 10-K中更詳細說明之應報告分部變動之回溯性更新外，請參閱我們於2025年2月4日提交至SEC之2024財務年度年報Form 10-K中「管理層對財務狀況與營運成果之討論與分析（Management's Discussion and Analysis of Financial Condition and Results of Operations）」部分，以瞭解2024年12月31日財務年度與2023年12月31日財務年度之比較。",
+    "以下討論包含風險與不確定性之預測性陳述。本公司實際結果可能與這些預測性陳述所預期者有重大差異，原因可能包括多種因素，包括在「項目1A，風險因素（Item 1A, Risk Factors）」中所討論者。另請參閱「預測性陳述之警示語言（Cautionary Language Regarding Forward-Looking Statements）」，其位於第I部之前。",
+    "以下討論與分析應與本公司附屬之合併財務報表及其附註一併閱讀。",
+    "我們將依下列順序討論並提供分析：•市場趨勢與不確定性",
+    "•公司亮點 •股息 •營運成果 •流動性與資本運用 •非GAAP財務指標之調整說明",
+    "•關鍵會計估計 •近期會計準則公告",
+    "本公司營運成果已受到全球及國家經濟與市場條件之影響，並持續受到本公司營運所在地之地方經濟條件之影響。",
+    "我們持續監測國內與國際事件對本公司營運與財務狀況，以及對本公司租戶、營運者與借款人的營運與財務狀況之影響，以使本公司能對營運環境之動態變動保持靈活與適應。這些事件包括，但不僅限於以下任何一項，任何一項都可能對本公司業務造成負面影響：通貨膨脹；經濟衰退；利率；金融市場之挑戰；生命科學產業中私人資本與資金之可得性；以及美國政治當局與監管機構對醫療政策、生命科學研究與創新、勞動供給、採購與建設成本，以及總體經濟條件（例如預算協調行動、關稅行動、醫療保健規範之變更、政府經費與人力之減少，以及移民改革）之行動。",
+    "就本公司租戶及/或營運者因前述總體經濟與市場情況而遭遇或將遭遇增加的成本、流動性限制及融資困難而言，其可能無法或不願於到期時支付款項或履行其義務，而本公司不動產的使用率可能受到不利影響。",
+    "此外，公眾與私人股權及固定收益市場的不確定性以及利率上揚，已直接導致我們的費用增加，並限制了我們的資金可取得性。利率上揚已並可能持續對我們的借款成本、固定利率工具的公允價值、交易量以及不動產價值（包括我們的不動產）產生不利影響。",
+    "我們亦受到租戶改善與建設成本增加的影響，加上較高的資金成本與關稅措施（或潛在關稅措施），已對建設開工及我們資本計畫的預期報酬率產生不利影響，未來亦可能產生不利影響。",
+    "請參閱本報告中「項目 1A、風險因素」，以取得有關總體經濟條件所帶來風險的更多討論，以及我們與租戶、營運者及借款人的相關不確定性。",
+    "•在截至 2025 年 12 月 31 日的會計年度內，我們完成了 Gateway Crossing 收購，取得位於加州南舊金山的實驗室大樓 100% 的權益，以扣除折扣與交易費用後的總金額 $295 億取得，並取得一個合資公司的 50% 權益，該合資公司擁有五座實驗室大樓及一處其他不動產（稱為 \"Gateway Crossing JV\"），以扣除折扣與交易費用後的總金額 $132 億取得。於 2026 年 1 月，我們以扣除折扣與交易費用後的總金額 $132 億取得 Gateway Crossing JV 剩餘的 50% 權益，使我們對這六處不動產的權益達到 100%。",
+    "•在截至 2025 年 12 月 31 日的會計年度內，我們亦取得：(i) 位於紐約的三座門診醫療大樓組合，總金額為 $17 億，(ii) 位於馬薩諸塞州劍橋的實驗室土地，總金額為 $20 億，(iii) 位於佐治亞州亞特蘭大的門診醫療大樓內的九間套房，總金額為 $7 億，(iv) 位於阿拉巴馬州亨茨維爾的門診醫療土地，總金額為 $7 億，以及 (v) 成立兩家門診醫療開發合資公司。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司業務及營運相關之風險",
+    "美國政治當局對規範、資金、人力、貿易及其他政策與行動之變更，可能對本公司業務營運或租戶或營運者之營運造成不利影響。",
+    "總體經濟趨勢可能增加本公司及其租戶、營運者及借款人的借款、建設、勞動及其他營運或行政成本，對本公司造成負面影響。",
+    "生技產業之變動可能對本公司業務、營運結果及財務狀況造成重大不利影響。",
+    "本公司之實驗室租戶面臨嚴格之規範、資金需求及不確定性。",
+    "本公司可能因一個或多個主要租戶、營運者或借款人的財務困難或無法取得資金而受到負面影響。",
+    "本公司不動產投資之流動性不足，可能使本公司無法及時應對經濟或投資表現之變化。",
+    "尋找並取得新租戶或替代營運者可能耗時且成本高昂。",
+    "不動產開發、重建及租客改善等風險可能使專案變得較不獲利或無利可圖，並延誤或阻止專案的進行或完成。",
+    "我們在 RIDEA 結構下管理的高齡住宅不動產，承擔營運風險，這些風險可能對本公司業務、營運結果及財務狀況造成重大不利影響。",
+    "所需之法規審批可能延誤或禁止我們轉讓高齡住宅不動產。",
+    "遵守美國殘障法案及防火、安全及其他法規，可能需要我們進行支出，而這些支出可能對我們的現金流造成不利影響。",
+    "未投保或投保不足的損失，可能導致在不動產中投入的資本大幅減損、未來收入低於預期，以及未預見的費用。",
+    "我們使用合資企業，可能限制我們對共同投資之回報及靈活性。",
+    "我們租賃契約中的租金調漲或附條件租金條款，可能影響我們的獲利與成長。",
+    "我們可能需要認列備抵減損、信用減損或減值費用。"
+   ],
+   "paragraphs": [
+    "下列段落討論了可能對我們業務、營運結果及財務狀況造成重大不利影響的風險因素。此外，尚有其他風險，目前我們尚未知悉或認為不重要，也可能對我們業務造成不利影響。",
+    "如下列所列，我們認為我們所面臨的風險大致可歸納為以下幾個類別：",
+    "•與我們業務及營運相關的風險；•與我們資本結構及市場狀況相關的風險；",
+    "•與待定的Janus Living發行及我們與Janus Living的關係相關的風險，若Janus Living發行完成；以及",
+    "•與稅務相關的風險，包括與REIT相關的風險，以及與我們註冊地及我們作為UPREIT的結構相關的風險。",
+    "美國聯邦政府政策的近期及持續變化，已為資本市場以及我們所屬產業及我們租戶與營運商產業帶來不確定性。這些政策變化包括，但不僅限於：聯邦機構的員工裁減；影響國家衛生研究院（\"NIH\"）補助金的行政措施；影響科學 workforce 的簽證政策變更；限制NIH間接費用補償的措施；關稅及潛在關稅措施；以及藥物價格政策的變更。例如，近期的政策轉變及行政優先事項，影響研究經費、藥物價格、藥物審查與核准程序及關稅等，已為我們實驗室租戶所處的生技生態系帶來不確定性。這種不確定性已對，且未來可能繼續對，生技公司取得投資資金的能力造成負面影響，這可能會導致研究與開發時程延宕、藥物開發進度受阻或商業可行性達成困難。此外，由有利的監管環境及成本所支撐的國際生技產業，包括中國，也可能將研究與開發活動及投資轉移至海外，減少對美國本土生技不動產的長期需求。這些政策轉變及其他動態，可能影響我們實驗室租戶支付租金給我們或在我們的物業內擴張的能力，進而對我們的營運及財務結果造成負面影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

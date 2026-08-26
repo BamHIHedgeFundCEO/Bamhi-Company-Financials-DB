@@ -39,10 +39,10 @@ const holderDelta = computed(() => {
   return d?.available ? (d.holders ?? 0) - (d.holdersPrev ?? 0) : 0
 })
 const TABLES = [
-  { key: 'topOpened', zh: '本季建倉', desc: '上季完全沒有、本季開始持有', hot: true, col: '持股' },
-  { key: 'topClosed', zh: '本季清倉', desc: '上季持有、本季完全出清', hot: true, col: '原持股' },
-  { key: 'topIncreased', zh: '本季增持', desc: '依增加股數排序', hot: false, col: '增加' },
-  { key: 'topDecreased', zh: '本季減持', desc: '依減少股數排序', hot: false, col: '減少' },
+  { key: 'topOpened', zh: '建倉', desc: '上一季完全沒有、這一季開始持有', hot: true, col: '持股', delta: false },
+  { key: 'topClosed', zh: '清倉', desc: '上一季持有、這一季完全出清', hot: true, col: '原持股', delta: false },
+  { key: 'topIncreased', zh: '增持', desc: '依增加股數排序；市值是整個部位的，不是加碼的那一段', hot: false, col: '增加', delta: true },
+  { key: 'topDecreased', zh: '減持', desc: '依減少股數排序；市值是整個部位的，不是減碼的那一段', hot: false, col: '減少', delta: true },
 ] as const
 
 const zhNames: Record<string, string> = {
@@ -82,6 +82,17 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
           <b>②</b> 只揭露<b>多頭部位</b> —— 放空、選擇權空方、非美股都不在裡面。
           另外「家數」是一票一家，一家小型基金建倉和 Vanguard 加碼在家數上等重。
         </p>
+        <p class="caution vintage">
+          本頁比較的是 <b>{{ periodZh(data.period) }} 季末</b> 對 <b>{{ periodZh(data.periodPrev) }} 季末</b>。
+          <template v-if="data.live">
+            資料直接來自 EDGAR 申報索引，涵蓋到索引建立日 {{ data.generated }} 為止已送出的申報。
+          </template>
+          <template v-else>
+            資料來自 SEC 的 13F 批次資料集，而那是<b>滾動三個月的申報視窗</b>、發布有時差
+            —— 季末後 45 天的申報截止日剛過的那一個月，這裡會還停在<b>再前一季</b>。
+            要拿到最新一季得用 <span class="mono">python tools/f13.py --live</span> 重跑。
+          </template>
+        </p>
 
         <!-- 概況 -->
         <section class="cards">
@@ -103,7 +114,10 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
             <div><dt>清倉</dt><dd class="down">{{ data.closed }}</dd></div>
             <div><dt>增持</dt><dd>{{ data.increased }}</dd></div>
             <div><dt>減持</dt><dd>{{ data.decreased }}</dd></div>
-            <p class="foot">持股不變 {{ data.unchanged }} 家</p>
+            <p class="foot">
+              持股不變 {{ data.unchanged }} 家<template v-if="data.pendingIn || data.pendingOut">
+              ／本期尚未申報 {{ (data.pendingIn || 0) + (data.pendingOut || 0) }} 家</template>
+            </p>
           </div>
         </section>
 
@@ -130,17 +144,53 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
           </table>
         </section>
 
+        <!-- 本期尚未申報 -->
+        <section v-if="data.pendingOut || data.pendingIn" class="cardblock warn">
+          <div class="blockhead">
+            <span class="num">◔</span>
+            <h2>{{ (data.pendingIn || 0) + (data.pendingOut || 0) }} 家的申報還沒進來</h2>
+          </div>
+          <p class="lead">
+            13F 的截止日是季末後 45 天。遲交的、改交 13F-NT（持股由母公司代為申報）的、
+            以及<b>申請保密延後揭露</b>的（挪威主權基金 Norges Bank 每年 Q1／Q3 都只交一份
+            一列的殘缺申報，滿一年後才補完整版），在原始資料上長得跟真的賣光一模一樣 ——
+            <b>{{ data.pendingOut }} 家</b>只是這一季還沒交，照算就會變成 {{ data.pendingOut }} 筆假清倉，
+            但沒有人賣過任何一股。
+            <template v-if="data.pendingIn">
+              反過來另有 <b>{{ data.pendingIn }} 家</b>這一季有、但上一季查無申報
+              （遲交、或第一次達到 1 億美元門檻），無從判斷是新建倉還是本來就持有。
+            </template>
+            判準是硬事實（那家那一期到底有沒有交過任何一份 13F），不是名稱推測，
+            所以<b>已經從上面的建倉／清倉家數扣掉</b>；上面的重組配對則相反，
+            只移出排行榜、不動家數。
+          </p>
+          <table v-if="(data.topPendingOut || []).length" class="tab">
+            <thead><tr><th>機構</th><th class="r">上一季持股</th><th class="r">上一季市值</th><th class="r">CIK</th></tr></thead>
+            <tbody>
+              <tr v-for="x in data.topPendingOut" :key="x.cik">
+                <td>{{ x.name }}</td>
+                <td class="r mono">{{ sh(x.shares) }}</td>
+                <td class="r mono">{{ money(x.value) }}</td>
+                <td class="r mono cik">{{ x.cik }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
         <!-- 四張榜 -->
         <section v-for="(t, i) in TABLES" :key="t.key" class="cardblock">
           <div class="blockhead">
-            <span class="num">§{{ i + 1 }}</span><h2>{{ t.zh }}前 {{ (data[t.key] || []).length }} 大</h2>
+            <span class="num">§{{ i + 1 }}</span>
+            <h2>{{ periodZh(data.period) }} {{ t.zh }}前 {{ (data[t.key] || []).length }} 大</h2>
             <span class="hint">{{ t.desc }}</span>
             <span v-if="t.hot" class="flag">主動決策</span>
           </div>
           <table v-if="(data[t.key] || []).length" class="tab">
             <thead>
               <tr><th class="idx">#</th><th>機構</th><th class="r">{{ t.col }}（股）</th>
-                <th class="r">申報市值</th><th class="r">CIK</th></tr>
+                <th v-if="t.delta" class="r">期末持股</th>
+                <th class="r">{{ t.key === 'topClosed' ? '原申報市值' : '期末申報市值' }}</th>
+                <th class="r">CIK</th></tr>
             </thead>
             <tbody>
               <tr v-for="(x, k) in data[t.key]" :key="x.cik">
@@ -149,20 +199,22 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
                 <td class="r mono" :class="{ up: t.key === 'topIncreased', down: t.key === 'topDecreased' }">
                   {{ x.delta != null ? signed(x.delta) : sh(x.shares) }}
                 </td>
+                <td v-if="t.delta" class="r mono">{{ sh(x.shares) }}</td>
                 <td class="r mono">{{ money(x.value) }}</td>
                 <td class="r mono cik">{{ x.cik }}</td>
               </tr>
             </tbody>
           </table>
-          <p v-else class="tinynote">本季沒有{{ t.zh }}紀錄。</p>
+          <p v-else class="tinynote">{{ periodZh(data.period) }} 沒有{{ t.zh }}紀錄。</p>
         </section>
       </template>
 
       <p class="disclaim">
-        資料來源：SEC Form 13F Data Sets（機構持股申報）與 SEC 交割失敗檔（CUSIP 對照），
+        資料來源：SEC EDGAR 申報索引與 Form 13F Data Sets（機構持股申報）、SEC 交割失敗檔（CUSIP 對照），
         由離線批次 <span class="mono">tools/f13.py</span> 建立索引，本頁查詢不向 SEC 發出任何請求。
         僅計普通股部位：選擇權（PUTCALL）與債券本金（PRN）已排除。
-        修正申報已依 SEC 規則解析（RESTATEMENT 整份取代、NEW HOLDINGS 與原申報相加）。
+        修正申報已依 SEC 規則解析（RESTATEMENT 整份取代、NEW HOLDINGS 與原申報相加），
+        且一律在所有來源收齊之後才解析 —— 原申報與它的補充申報常常分屬不同批次。
         索引建立日 {{ data?.generated || '—' }}。
       </p>
     </main>
@@ -177,6 +229,8 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
 @keyframes d { 0% { content: '' } 25% { content: '.' } 50% { content: '..' } 75% { content: '...' } }
 .caution { font-size: 12.5px; color: var(--ink-2); border-left: 2px solid var(--sig);
   padding-left: 10px; margin-bottom: 18px; line-height: 1.8; }
+.caution.vintage { border-left-color: var(--rule); margin-top: -8px; }
+.caution .mono { font-family: var(--mono); font-size: 11.5px; }
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px;
   margin-bottom: 20px; }
 .card { background: var(--surface); border: 1px solid var(--rule); padding: 14px 16px 15px; }

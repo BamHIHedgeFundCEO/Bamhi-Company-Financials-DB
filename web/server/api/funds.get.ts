@@ -37,11 +37,18 @@ export interface FundsResult {
   opened?: number
   closed?: number
   unchanged?: number
+  /** 這一期還沒交 13F（或改交 13F-NT）的持有人。**不是**建倉／清倉 —— 見 tools/f13.py 第 5 點 */
+  pendingIn?: number
+  pendingOut?: number
   reorgs?: number
+  /** 本期資料是否已經從 EDGAR 申報索引即時補過（否則會落後到批次資料集的發布時程） */
+  live?: boolean
+  filedAny?: number
   topOpened?: FundHolder[]
   topClosed?: FundHolder[]
   topIncreased?: FundHolder[]
   topDecreased?: FundHolder[]
+  topPendingOut?: FundHolder[]
   topReorgs?: { into: FundHolder; outof: FundHolder }[]
 }
 
@@ -93,6 +100,8 @@ export default defineEventHandler(async (event): Promise<FundsResult> => {
     available: true,
     generated: meta.generated as string | undefined,
     filers: meta.filers as number | undefined,
+    filedAny: meta.filedAny as number | undefined,
+    live: meta.live as boolean | undefined,
     ...(doc as object),
   } as FundsResult
 })

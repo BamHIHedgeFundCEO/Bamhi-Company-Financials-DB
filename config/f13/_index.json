@@ -1,8 +1,10 @@
 {
- "generated": "2026-08-23",
- "period": "31-MAR-2026",
- "periodPrev": "31-DEC-2025",
- "filers": 8309,
- "tickers": 2848,
- "source": "SEC Form 13F Data Sets + CNS Fails-to-Deliver（CUSIP 對照）"
+ "generated": "2026-08-26",
+ "period": "30-JUN-2026",
+ "periodPrev": "31-MAR-2026",
+ "filers": 8398,
+ "filedAny": 10769,
+ "tickers": 2860,
+ "live": true,
+ "source": "SEC EDGAR 申報索引（即時）＋ Form 13F Data Sets + CNS Fails-to-Deliver（CUSIP 對照）"
 }

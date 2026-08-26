@@ -23,7 +23,10 @@ export interface FundsResult {
   reason?: string
   ticker: string
   company?: string
-  cusip?: string
+  /** 換過號的公司會對到不只一個 CUSIP（Carnival 2026Q2 重新註冊） */
+  cusip?: string | string[]
+  /** 這一季偵測到的股票分割倍數；比較增減持前已把上一季股數乘過它 */
+  splitFactor?: number | null
   period?: string
   periodPrev?: string
   generated?: string

@@ -34,6 +34,11 @@ function periodZh(p?: string) {
   return `${m[3]} ${q[m[2].toUpperCase()] ?? m[2]}`
 }
 
+/** 換過號的公司會對到不只一個 CUSIP（Carnival 2026Q2 重新註冊就是） */
+const cusips = computed(() => {
+  const c = data.value?.cusip
+  return Array.isArray(c) ? c.join(' / ') : c
+})
 const holderDelta = computed(() => {
   const d = data.value
   return d?.available ? (d.holders ?? 0) - (d.holdersPrev ?? 0) : 0
@@ -55,7 +60,7 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
 <template>
   <div>
     <TickerTabs :ticker="ticker" :company="data?.company" :zh="zhNames[ticker]"
-                :meta="data?.available ? [`CUSIP ${data.cusip}`, `${periodZh(data.period)} 季末`,
+                :meta="data?.available ? [`CUSIP ${cusips}`, `${periodZh(data.period)} 季末`,
                                           `${nf.format(data.filers || 0)} 家機構申報`] : []" />
 
     <main class="wrap funds">
@@ -92,6 +97,14 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
             —— 季末後 45 天的申報截止日剛過的那一個月，這裡會還停在<b>再前一季</b>。
             要拿到最新一季得用 <span class="mono">python tools/f13.py --live</span> 重跑。
           </template>
+        </p>
+
+        <!-- 這一季有分割 -->
+        <p v-if="data.splitFactor" class="caution">
+          這一季有一次<b>沒有人買賣、但每個人股數都變了</b>的公司行為 —— 分割、反向分割、
+          分拆或股票股利，倍數 <b>{{ data.splitFactor }}</b>。直接比較的話全體會變成同一個方向
+          （實測 KLAC 是 1,919 家增持對 9 家減持、HON 是 1,889 家減持對 95 家增持）。
+          下面的增減持已把<b>上一季的股數乘上倍數</b>再比，市值不動 —— 這類事件不改變市值。
         </p>
 
         <!-- 概況 -->

@@ -67,11 +67,12 @@ import io
 import json
 import os
 import re
+import statistics
 import sys
 import time
 import urllib.request
 import zipfile
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -137,9 +138,24 @@ def safe_name(ticker: str) -> str:
 
 # ── CUSIP ↔ 代號 ────────────────────────────────────────────
 def build_cusip_map(n_files: int) -> dict:
-    """回傳 {cusip9: ticker}。多期聯集 —— 單一 FTD 檔只涵蓋當期有交割失敗的證券"""
+    """
+    回傳 {cusip9: {看過的代號}}。多期聯集 —— 單一 FTD 檔只涵蓋當期有交割失敗的證券。
+
+    **一個代號可以對到不只一個 CUSIP**，而且一定要全收：公司重新註冊、換上市地、
+    改組控股架構的時候會換 CUSIP，兩季之間就會斷掉。Carnival 2026Q2 就是這樣 ——
+    2026Q1 大家報 `143658300`（1,446 家、9.39 億股），Q2 換成 `G2004J103`
+    （1,440 家、9.50 億股）。只認新號的話上一季只剩 27 家 → 945 筆假建倉。
+    交割失敗檔本身認得舊號（4、5 月的檔案裡 `143658300 → CCL`），所以只要不丟掉
+    舊的對應就修好了。
+
+    ⚠️ **不能取「最新檔案的代號」當答案。** CUSIP 要退場時 NSCC 會把代號改寫成
+    `HONZZZZ`／`TRIXXXX`／`6205REGWAY` 這種東西 —— 而那正好是換號的那幾檔。
+    霍尼韋爾舊號 `438516106` 在 4、5 月是 `HON`、6 月起變成 `HONZZZZ`，取最新的話
+    它就對到一個不存在的代號、被整個丟掉 → HON 上一季只剩 4 家持有、
+    2,032 家全變成建倉。所以這裡回傳**看過的所有代號**，由呼叫端只採用母體裡有的。
+    """
     urls = links(FTD_PAGE, "cnsfails")[:n_files]
-    out = {}
+    out = defaultdict(set)
     for u in urls:
         p = download(u, os.path.join(CACHE, u.rsplit("/", 1)[-1]))
         with zipfile.ZipFile(p) as z:
@@ -151,11 +167,25 @@ def build_cusip_map(n_files: int) -> dict:
                     p_ = line.split("|")
                     if len(p_) < 4:
                         continue
-                    cusip, sym = p_[1].strip(), p_[2].strip()
-                    # 同一個 CUSIP 只會對到一個代號；後見的不覆蓋先見的（先見＝較新）
-                    if cusip and sym and cusip not in out:
-                        out[cusip] = sym
+                    cusip, sym = p_[1].strip(), p_[2].strip().upper()
+                    if cusip and sym:
+                        out[cusip].add(sym)
     return out
+
+
+def sec_tickers() -> dict:
+    """
+    SEC 掛牌公司清單 {代號: 公司名}。13F 的母體要用它，不能用羅素 3000 ——
+    網站的財報頁對任何一個查得到的代號都能用，13F 卻只有羅素 3000 有資料，
+    使用者看到的是「BW 沒有機構持股紀錄」，但 BW 的 CUSIP 在 2026Q2 有 287 家
+    機構申報持有。TSM、ASML 這些外國發行人也一樣完全落空。
+    """
+    p = os.path.join(CACHE, "company_tickers.json")
+    if not os.path.exists(p) or os.path.getsize(p) < 1000:
+        with open(p, "wb") as f:
+            f.write(fetch("https://www.sec.gov/files/company_tickers.json"))
+    d = json.load(io.open(p, encoding="utf-8"))
+    return {v["ticker"].upper(): v.get("title", "") for v in d.values()}
 
 
 # ── 收件匣：所有來源都寫進同一組結構，最後才一次解析修正案 ────
@@ -568,11 +598,75 @@ def pair_reorgs(new: list, exited: list) -> list:
     return out
 
 
-def compare(cur: dict, prev: dict, cusip: str, names: dict,
-            filed_cur: set, filed_prev: set) -> dict:
+def pick(holdings: dict, cusips: set) -> dict:
+    """{cik: {cusip: (sh, val)}} → {cik: (sh, val)}，一個代號的多個 CUSIP 相加"""
+    out = {}
+    for k, v in holdings.items():
+        sh = val = 0.0
+        for cu in cusips:
+            t = v.get(cu)
+            if t:
+                sh += t[0]
+                val += t[1]
+        if sh or val:
+            out[k] = (sh, val)
+    return out
+
+
+def detect_split(c: dict, p: dict, yahoo) -> float:
+    """
+    分割、反向分割、股票股利：所有「沒有人買賣、但每個人的股數都變了」的事。
+    不處理的話 KLAC 會是 1,919 家增持對 9 家減持、HON 是 1,889 家減持對 95 家增持
+    —— 沒有人動過。
+
+    **偵測**用兩期都持有的人的股數比：中位數偏離 1 超過 2%，且「緊密度」
+    （落在中位數 ±0.5% 的人佔比）夠高。緊密度的意思是「有多少人的比值一模一樣」，
+    只有公司行為做得到。2026Q2 實測（兩期都持有 ≥30 家的 4,489 檔）：
+
+        真的     PPLT 36.3%、PALL 33.3%、CDLX 26.7%、DD 20.5%、NXDT 19.8%、
+                 HON 19.2%、NVRI 19.1%、PHG 18.1%、KLAC 16.9%、BKNG 16.5%、
+                 POWL 16.4%、BARK 15.2%、CVNA 14.6%、SBS 13.3%
+        雜訊     以下最高 11.4%，且多是 30–80 家的小樣本
+
+    所以門檻取「緊密度 ≥12% 且兩期都持有 ≥100 家」。中位比接近 1 的 4,053 檔
+    緊密度中位也有 23.4%（那是這季沒動的人），所以緊密度只在中位比已經偏離時才看。
+
+    **倍數**一律取眾數，不取中位數，也不取雅虎的：
+    - 中位數會被零股與小額進出拉歪（CUE 中位 0.0449，實際 1:30 ＝ 0.0333）
+    - 雅虎的 `events=split` 對**分拆**回報的是價格調整因子不是股數比
+      （HON 回 0.9535，實際股數比是 0.5000）
+    雅虎只用來替小樣本背書：它在這一季有事件、方向一致，就採信 13F 算出來的眾數。
+
+    只正規化**股數**，市值不動（分割不改變市值）。
+    """
+    both = [k for k in set(c) & set(p) if c[k][0] > 0 and p[k][0] > 0]
+    if len(both) < 30:
+        return 1.0
+    rs = [c[k][0] / p[k][0] for k in both]
+    m = statistics.median(rs)
+    if abs(m - 1) <= 0.02:
+        return 1.0
+    tight = sum(1 for x in rs if abs(x / m - 1) <= 0.005) / len(rs)
+    strong = tight >= 0.12 and len(both) >= 100
+    if not strong:
+        y = yahoo(m) if yahoo else None   # 小樣本：雅虎有同方向的事件才採信
+        if y is None:
+            return 1.0
+    cnt = Counter(round(x, 6) for x in rs)
+    for ratio, _ in cnt.most_common():
+        if ratio != 1.0:
+            return ratio
+    return 1.0
+
+
+def compare(cur: dict, prev: dict, cusips: set, names: dict,
+            filed_cur: set, filed_prev: set, yahoo=None) -> dict:
     """cur/prev: {cik: {cusip: (sh, val)}} → 這一檔的持有人變化"""
-    c = {k: v[cusip] for k, v in cur.items() if cusip in v}
-    p = {k: v[cusip] for k, v in prev.items() if cusip in v} if prev else {}
+    c = pick(cur, cusips)
+    p = pick(prev, cusips) if prev else {}
+    split = detect_split(c, p, yahoo)
+    if split != 1.0:
+        p = {k: (sh * split, val) for k, (sh, val) in p.items()}
     nm = lambda k: names.get(k, k)
     inc, dec, new, exited, flat = [], [], [], [], 0
     for k, (sh, val) in c.items():
@@ -610,6 +704,10 @@ def compare(cur: dict, prev: dict, cusip: str, names: dict,
         "holdersPrev": len(p),
         "totalShares": sum(v[0] for v in c.values()),
         "totalValue": sum(v[1] for v in c.values()),
+        # 上季的合計要在**分割正規化之後**才有可比性，所以取 p（已乘過倍數）的值
+        "totalSharesPrev": sum(v[0] for v in p.values()),
+        "totalValuePrev": sum(v[1] for v in p.values()),
+        "splitFactor": split if split != 1.0 else None,
         "increased": len(inc), "decreased": len(dec),
         "opened": len(opened), "closed": len(closed), "unchanged": flat,
         "pendingIn": len(pend_in), "pendingOut": len(pend_out),
@@ -621,6 +719,106 @@ def compare(cur: dict, prev: dict, cusip: str, names: dict,
         "topPendingOut": top(pend_out, lambda x: x["value"], 5),
         "topReorgs": sorted(reorg, key=lambda r: -r["outof"]["shares"])[:5],
     }
+
+
+def build_leaders(rows: list, cur_p: str, prev_p: str, splits: dict) -> dict:
+    """
+    首頁的「本季機構在做什麼」。
+
+    **只用家數排會全部變成大公司**，因為持有機構本來就多的標的，建倉、清倉的
+    絕對家數自然也多。所以每一種行為都同時給兩張榜：
+
+      絕對   建倉家數本身 —— 看的是「多少家一起動」
+      相對   建倉家數 ÷ 上季持有家數 —— 小型股才排得進來
+
+    再加上按規模分三段各出一張，規模用**機構申報市值**當代理（不需要另外抓股價）。
+
+    **上季持有不到 20 家的一律排除在所有榜之外**，另立一張「新上市／分拆」。
+    分拆出來的新公司會霸佔建倉榜 —— 2026Q2 的 HONA（霍尼韋爾分拆）上季 0 家、
+    本季 2,055 家，FDXF 0 → 1,129，那是股東**收到**股票不是有人買進，
+    跟「一群機構默默在建倉」是兩回事。而且 20 家這條線也擋掉了比率的假象：
+    3 家變 6 家就是 +100%。
+    """
+    def top(pool, key, n=20):
+        return [r["t"] for r in sorted(pool, key=key, reverse=True)[:n]]
+
+    idx = {r["t"]: r for r in rows}
+    fresh = [r for r in rows if r["holdersPrev"] < 20 and r["holders"] >= 50]
+    rows = [r for r in rows if r["holdersPrev"] >= 20]
+    solid = rows
+    # 清倉比例榜要擋掉破產殼股（代號帶 Q 的那些）—— 它們確實被清光了，但那是下市
+    alive = [r for r in rows if r["totalValue"] >= 5e7]
+    # 「合計持股」是股數的季增率，微型股會爆掉（PMI 上季 39.6 萬股 → 本季 760 萬股，
+    # 持有家數 41 → 41、其中 21 家建倉 19 家清倉）。門檻拉到「上季 ≥100 家、
+    # 機構持股市值 ≥ $3 億」才看得到 SVC、EDIT、AMC、DVN 這種有基底的
+    deep = [r for r in rows if r["holdersPrev"] >= 100 and r["totalValue"] >= 3e8]
+    big = [r for r in solid if r["totalValue"] >= 1e10]
+    mid = [r for r in solid if 1e9 <= r["totalValue"] < 1e10]
+    small = [r for r in solid if r["totalValue"] < 1e9]
+
+    def net_share(r):
+        p = r["totalSharesPrev"]
+        return (r["totalShares"] - p) / p if p > 0 else 0.0
+
+    return {
+        "period": cur_p, "periodPrev": prev_p,
+        "generated": time.strftime("%Y-%m-%d"),
+        "splits": splits,
+        "rows": {r["t"]: [r["n"], r["holders"], r["holdersPrev"], r["opened"], r["closed"],
+                          r["increased"], r["decreased"], round(r["totalValue"]),
+                          round(net_share(r), 4)] for r in idx.values()},
+        "boards": {
+            "openedAbs": top(rows, lambda r: r["opened"]),
+            "openedRel": top(solid, lambda r: r["opened"] / r["holdersPrev"]),
+            "closedAbs": top(rows, lambda r: r["closed"]),
+            "closedRel": top(alive, lambda r: r["closed"] / r["holdersPrev"]),
+            "netHolders": top(rows, lambda r: r["holders"] - r["holdersPrev"]),
+            "netHoldersDown": top(rows, lambda r: r["holdersPrev"] - r["holders"]),
+            "netSharesUp": top(deep, net_share),
+            "netSharesDown": top(deep, lambda r: -net_share(r)),
+            "openedBig": top(big, lambda r: r["opened"] / r["holdersPrev"]),
+            "openedMid": top(mid, lambda r: r["opened"] / r["holdersPrev"]),
+            "openedSmall": top(small, lambda r: r["opened"] / r["holdersPrev"]),
+            "fresh": top(fresh, lambda r: r["holders"]),
+        },
+    }
+
+
+def yahoo_splits(cur_p: str, prev_p: str):
+    """
+    只在 `detect_split` 已經從 13F 自己看出可疑倍數時，才去雅虎核對那一檔
+    —— 一季只有個位數的候選，不是每檔都查。與股價那條路同一個來源、同一條規則：
+    雅虎只回答「這段期間有沒有發生過一次分割、倍數多少」，不提供任何數值。
+    抓不到就退回 13F 自己的判斷。
+    """
+    lo = time.strptime(prev_p, "%d-%b-%Y")
+    hi = time.strptime(cur_p, "%d-%b-%Y")
+    lo_ts, hi_ts = time.mktime(lo), time.mktime(hi) + 86400
+    memo = {}
+
+    def q(ticker: str, ratio: float):
+        if ticker not in memo:
+            memo[ticker] = None
+            url = (f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
+                   f"?range=2y&interval=1d&events=split")
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                d = json.loads(urllib.request.urlopen(req, timeout=30).read())
+                ev = (d["chart"]["result"][0].get("events") or {}).get("splits", {}) or {}
+                for v in ev.values():
+                    if lo_ts < v["date"] <= hi_ts and v["denominator"]:
+                        memo[ticker] = v["numerator"] / v["denominator"]
+                        break
+            except Exception:
+                memo[ticker] = None
+        f = memo[ticker]
+        # **只看方向、不取倍數**：分拆的時候雅虎回的是價格調整因子
+        # （HON 0.9535），股數比其實是 0.5000。倍數一律由 13F 自己算
+        if f and (f - 1) * (ratio - 1) > 0:
+            return f
+        return None
+
+    return q
 
 
 def recent_quarters(n: int) -> list:
@@ -650,38 +848,40 @@ def main() -> None:
     want = None
     if args.tickers:
         want = {t.strip().upper() for t in args.tickers.split(",")}
-    universe = []
+    # 母體＝SEC 掛牌公司清單 ∪ 羅素 3000（後者含少數 SEC 清單漏掉的多股別寫法）
+    names_of = sec_tickers()
+    uni = set(names_of)
     with io.open(COVERAGE, encoding="utf-8") as f:
         for line in f:
-            d = json.loads(line)
-            if want is None or d["ticker"] in want:
-                universe.append(d["ticker"])
-    print(f"母體 {len(universe)} 檔")
+            uni.add(json.loads(line)["ticker"])
+    if want is not None:
+        uni &= want
+    universe = sorted(uni)
+    print(f"母體 {len(universe):,} 檔（SEC 掛牌公司清單 {len(names_of):,} ＋ 羅素 3000）")
 
     print("── CUSIP ↔ 代號")
     cmap = build_cusip_map(args.ftd)
-    uni = set(universe)
-    by_sym = {}
-    for cusip, sym in cmap.items():
-        by_sym.setdefault(sym, cusip)
-    cusip_of = {}
-    for t in universe:
-        if t in by_sym:
-            cusip_of[t] = by_sym[t]
+    # 只採用**母體裡有的**代號，退場代號（HONZZZZ、TRIXXXX、6205REGWAY）自動被濾掉
+    cusips_of = defaultdict(set)
+    for cusip, syms in cmap.items():
+        for sym in syms:
+            if sym in uni:
+                cusips_of[sym].add(cusip)
     # 多股別代號在交割失敗檔裡沒有點（BRK.B 寫成 BRKB、BF.A 寫成 BFA）。
     # 只在「去點後的寫法沒有被母體裡另一檔佔用」時才採用，避免 BF.C → BFC 這種認錯
+    flat_of = {}
     for t in universe:
-        if t in cusip_of or "." not in t:
-            continue
-        flat = t.replace(".", "")
-        if flat in by_sym and flat not in uni:
-            cusip_of[t] = by_sym[flat]
-    print(f"    對照表 {len(cmap):,} 個代號，母體命中 {len(cusip_of)}／{len(universe)}")
-    missing = sorted(uni - set(cusip_of))
-    if missing:
-        print(f"    對不到 CUSIP 的 {len(missing)} 檔（這些不會有 13F 資料）："
-              + " ".join(missing[:20]) + (" …" if len(missing) > 20 else ""))
-    wanted_cusips = set(cusip_of.values())
+        if "." in t and t.replace(".", "") not in uni:
+            flat_of[t.replace(".", "")] = t
+    for cusip, syms in cmap.items():
+        for sym in syms:
+            if sym in flat_of:
+                cusips_of[flat_of[sym]].add(cusip)
+    cusips_of = {t: s for t, s in cusips_of.items() if s}
+    multi = sum(1 for s in cusips_of.values() if len(s) > 1)
+    print(f"    對照表 {len(cmap):,} 個 CUSIP，母體命中 {len(cusips_of):,}／{len(universe):,}"
+          f"（其中 {multi:,} 檔對到不只一個 CUSIP —— 換過號的）")
+    wanted_cusips = {c for s in cusips_of.values() for c in s}
 
     box = Inbox()
     live_used = False
@@ -724,11 +924,21 @@ def main() -> None:
     if not args.dry_run:
         os.makedirs(OUT_DIR, exist_ok=True)
     written = 0
-    for ticker, cusip in sorted(cusip_of.items()):
-        r = compare(periods[cur_p], periods[prev_p], cusip, names, filed_cur, filed_prev)
+    splits, leaders = {}, []
+    yq = yahoo_splits(cur_p, prev_p)
+    for ticker, cusips in sorted(cusips_of.items()):
+        r = compare(periods[cur_p], periods[prev_p], cusips, names, filed_cur, filed_prev,
+                    yahoo=lambda ratio, t=ticker: yq(t, ratio))
         if not r["holders"] and not r["holdersPrev"]:
             continue
-        doc = {"ticker": ticker, "cusip": cusip,
+        cusip = sorted(cusips)[0] if len(cusips) == 1 else sorted(cusips)
+        if r["splitFactor"]:
+            splits[ticker] = r["splitFactor"]
+        leaders.append({"t": ticker, "n": names_of.get(ticker, ""),
+                        **{k: r[k] for k in ("holders", "holdersPrev", "opened", "closed",
+                                             "increased", "decreased", "totalValue",
+                                             "totalShares", "totalSharesPrev")}})
+        doc = {"ticker": ticker, "cusip": cusip, "company": names_of.get(ticker, ""),
                "period": cur_p, "periodPrev": prev_p, **r}
         if args.dry_run:
             print(f"\n{ticker} {cusip} 持有人 {r['holders']}（上季 {r['holdersPrev']}）"
@@ -761,6 +971,11 @@ def main() -> None:
                            if live_used else "SEC Form 13F Data Sets")
                           + " + CNS Fails-to-Deliver（CUSIP 對照）",
             }, f, ensure_ascii=False, indent=1)
+        with io.open(os.path.join(OUT_DIR, "_leaders.json"), "w", encoding="utf-8") as f:
+            json.dump(build_leaders(leaders, cur_p, prev_p, splits), f,
+                      ensure_ascii=False, separators=(",", ":"))
+        print(f"    分割正規化：{len(splits)} 檔 —— "
+              + "、".join(f"{k} {v:g}:1" for k, v in sorted(splits.items())))
         print(f"\n寫出 {written} 檔 → config/f13/")
         print(f"總大小 {sum(os.path.getsize(os.path.join(OUT_DIR, x)) for x in os.listdir(OUT_DIR)) / 1e6:.1f} MB")
 

@@ -2,36 +2,44 @@
 /**
  * 首頁的「本季機構在做什麼」。
  *
- * 為什麼每一種行為都要兩張榜：**只用家數排會全部變成大公司**。
- * 持有機構本來就多的標的，建倉、清倉的絕對家數自然也多，前 20 名永遠是
- * 那幾檔權值股，看不到「一群機構默默在小型股上建倉」這種事。
- * 所以絕對榜（多少家一起動）與相對榜（佔上一季持有家數的比例）並排，
- * 再加上按規模分三段各出一張。
+ * 兩件事決定了這個介面長什麼樣：
  *
- * 相對榜一律要求上一季至少 20 家持有 —— 3 家變 6 家就是 +100%，那不是訊號。
+ * ① **排序依據一定要是看得見的一欄。** 之前「建倉·大型」是按
+ *   「建倉家數 ÷ 上季持有家數」排的，畫面上卻只有建倉家數（250 → 696 → 387），
+ *   看起來就像沒排序。現在第一個數字欄一律是那張榜的排序鍵，欄名跟著換。
+ *
+ * ② **規模是篩選器，不是更多張榜。** 只用家數排的話前 20 名永遠是持有機構
+ *   本來就多的那些。規模切換套在任何一張榜上，比開 12×4 張榜好維護。
+ *   規模用**機構申報持股市值**分段（不是公司市值）—— 在外流通股數那筆事實不可靠，
+ *   companyfacts 裡 Visa 最新的一筆是 2010 年的。
  */
+const size = ref<'all' | 'big' | 'mid' | 'small'>('all')
 const { data, pending } = await useAsyncData(
   'f13-leaders',
-  () => $fetch<any>('/api/f13leaders'),
-  { server: false },
+  () => $fetch<any>(`/api/f13leaders?size=${size.value}`),
+  { server: false, watch: [size] },
 )
+
+const SIZES = [
+  { k: 'all', zh: '全部', hint: '不分規模' },
+  { k: 'big', zh: '大型', hint: '機構持股市值 ≥ $100 億' },
+  { k: 'mid', zh: '中型', hint: '$10–100 億' },
+  { k: 'small', zh: '小型', hint: '< $10 億' },
+] as const
 
 const GROUPS = [
   {
     id: 'open', zh: '建倉', hint: '上一季完全沒有、這一季開始持有',
     tabs: [
       { key: 'openedAbs', zh: '依家數', desc: '多少家機構一起建倉' },
-      { key: 'openedRel', zh: '依比例', desc: '建倉家數 ÷ 上季持有家數' },
-      { key: 'openedBig', zh: '大型股', desc: '機構持股市值 ≥ $100 億，依比例' },
-      { key: 'openedMid', zh: '中型股', desc: '$10–100 億，依比例' },
-      { key: 'openedSmall', zh: '小型股', desc: '< $10 億，依比例' },
+      { key: 'openedRel', zh: '依比例', desc: '同樣是 50 家建倉，本來只有 100 家持有的那一檔意義大得多' },
     ],
   },
   {
     id: 'close', zh: '清倉', hint: '上一季持有、這一季完全出清',
     tabs: [
       { key: 'closedAbs', zh: '依家數', desc: '多少家機構一起出清' },
-      { key: 'closedRel', zh: '依比例', desc: '清倉家數 ÷ 上季持有家數' },
+      { key: 'closedRel', zh: '依比例', desc: '已排除機構持股市值 < $5,000 萬的破產殼股' },
     ],
   },
   {
@@ -44,7 +52,7 @@ const GROUPS = [
   {
     id: 'shares',
     zh: '合計持股',
-    hint: '所有機構申報持股加總的季增率（分割與股票股利已正規化）。'
+    hint: '所有機構申報持股加總的季增率。分割與股票股利已正規化；'
       + '限上季 ≥100 家持有、機構持股市值 ≥ $3 億 —— 微型股的股數比率會爆掉',
     tabs: [
       { key: 'netSharesUp', zh: '增幅最大', desc: '也可能來自公司增資或換股併購，不只是買進' },
@@ -52,9 +60,9 @@ const GROUPS = [
     ],
   },
   {
-    id: 'fresh', zh: '新上市／分拆', hint: '上一季還不存在（或幾乎沒人持有）的標的，依本季持有家數排',
+    id: 'fresh', zh: '新上市／分拆', hint: '上一季還不存在（或不到 20 家持有）的標的',
     tabs: [
-      { key: 'fresh', zh: '本季新出現', desc: '股東是「收到」股票，不是有人買進 —— 所以不放進建倉榜' },
+      { key: 'fresh', zh: '本季新出現', desc: '股東是「收到」股票不是買進，所以不放進建倉榜' },
     ],
   },
 ] as const
@@ -64,16 +72,19 @@ const tab = ref(0)
 watch(group, () => (tab.value = 0))
 const tabs = computed(() => GROUPS[group.value].tabs)
 const active = computed(() => tabs.value[tab.value])
-const rows = computed<any[]>(() => data.value?.boards?.[active.value.key] || [])
+const board = computed<any>(() => data.value?.boards?.[active.value.key] || null)
+const rows = computed<any[]>(() => board.value?.rows || [])
 
 const nf = new Intl.NumberFormat('en-US')
+const signed = (v: number) => `${v >= 0 ? '+' : ''}${nf.format(Math.round(v))}`
 const pct = (v: number) => `${v >= 0 ? '+' : ''}${(v * 100).toFixed(1)}%`
-const money = (v: number) => {
-  if (v >= 1e9) return `$${(v / 1e9).toFixed(0)} 億`.replace('億', '0 億')
-  return `$${nf.format(Math.round(v / 1e6))} 百萬`
-}
-const bnUSD = (v: number) => (v >= 1e10 ? `$${(v / 1e8).toFixed(0)} 億`
-  : v >= 1e8 ? `$${(v / 1e8).toFixed(1)} 億` : `$${(v / 1e6).toFixed(0)} 百萬`)
+/** 排序鍵：家數就寫家數，比例寫百分比 */
+const metric = (r: any) => (board.value?.metricKind === 'pct'
+  ? `${(r.metric * 100).toFixed(1)}%`
+  : nf.format(Math.round(r.metric)))
+const usd = (v: number) => (v >= 1e10 ? `$${(v / 1e8).toFixed(0)} 億`
+  : v >= 1e8 ? `$${(v / 1e8).toFixed(1)} 億`
+    : v >= 1e6 ? `$${(v / 1e6).toFixed(0)} 百萬` : `$${nf.format(Math.round(v))}`)
 function periodZh(p?: string) {
   if (!p) return ''
   const m = p.match(/^(\d{2})-([A-Z]{3})-(\d{4})$/i)
@@ -85,7 +96,7 @@ const splitList = computed(() => Object.entries(data.value?.splits || {}) as [st
 </script>
 
 <template>
-  <section v-if="pending || data?.available" class="flow">
+  <section class="flow">
     <div class="blockhead">
       <span class="num">§F</span>
       <h2>本季機構在做什麼</h2>
@@ -94,16 +105,15 @@ const splitList = computed(() => Object.entries(data.value?.splits || {}) as [st
       </span>
     </div>
 
-    <p v-if="pending" class="state">讀取 13F 榜單<span class="dots" /></p>
+    <p v-if="pending && !data" class="state">讀取 13F 榜單<span class="dots" /></p>
 
-    <template v-else>
+    <template v-else-if="data?.available">
       <p class="caution">
-        排行榜有一個先天陷阱：<b>只用家數排，前 20 名永遠是那幾檔權值股</b>
-        —— 持有機構本來就多的標的，建倉與清倉的絕對家數自然也多。
-        所以每一種行為都同時給「依家數」與「依比例」兩張榜，建倉再多給三張分規模的。
-        所有榜都要求上一季至少 20 家持有 —— 一來 3 家變 6 家就是 +100%，
-        二來分拆出來的新公司會霸佔建倉榜（HONA 上季 0 家、本季 2,055 家，
-        那是股東收到股票不是有人買進）。那一類另立一張榜。
+        排行榜有一個先天陷阱：<b>只用家數排，前 20 名永遠是持有機構本來就多的那些</b>。
+        所以每一種行為都同時給「依家數」與「依比例」兩張榜，再加上規模篩選。
+        表格<b>第一個數字欄就是那張榜的排序依據</b>，欄名會跟著換。
+        所有榜都要求上一季至少 20 家持有 —— 3 家變 6 家就是 +100%，
+        而分拆出來的新公司（HONA 上季 0 家、本季 2,055 家）會霸佔建倉榜，另立一張。
       </p>
 
       <nav class="groups">
@@ -114,18 +124,29 @@ const splitList = computed(() => Object.entries(data.value?.splits || {}) as [st
       </nav>
       <p class="ghint">{{ GROUPS[group].hint }}</p>
 
-      <nav class="tabs">
-        <button
-          v-for="(t, i) in tabs" :key="t.key"
-          :class="['tbtn', { on: tab === i }]" @click="tab = i"
-        >{{ t.zh }}</button>
-        <span class="tdesc">{{ active.desc }}</span>
-      </nav>
+      <div class="controls">
+        <nav class="tabs">
+          <button
+            v-for="(t, i) in tabs" :key="t.key"
+            :class="['tbtn', { on: tab === i }]" @click="tab = i"
+          >{{ t.zh }}</button>
+        </nav>
+        <nav class="sizes">
+          <span class="slab">規模</span>
+          <button
+            v-for="s in SIZES" :key="s.k"
+            :class="['sbtn', { on: size === s.k }]" :title="s.hint"
+            @click="size = s.k as any"
+          >{{ s.zh }}<em v-if="data.counts">{{ nf.format(data.counts[s.k]) }}</em></button>
+        </nav>
+      </div>
+      <p class="tdesc">{{ active.desc }}</p>
 
       <table class="tab">
         <thead>
           <tr>
             <th class="idx">#</th><th>代號</th><th class="co">公司</th>
+            <th class="r key">{{ board?.metricLabel }}</th>
             <th class="r">持有家數</th><th class="r">建倉</th><th class="r">清倉</th>
             <th class="r">合計持股</th><th class="r">機構持股市值</th>
           </tr>
@@ -135,32 +156,34 @@ const splitList = computed(() => Object.entries(data.value?.splits || {}) as [st
             <td class="idx">{{ String(i + 1).padStart(2, '0') }}</td>
             <td class="tk"><NuxtLink :to="`/stock/${r.ticker}/funds`">{{ r.ticker }}</NuxtLink></td>
             <td class="co">{{ r.company }}</td>
+            <td class="r mono key">{{ metric(r) }}</td>
             <td class="r mono">
               {{ nf.format(r.holders) }}
               <em :class="r.holders >= r.holdersPrev ? 'up' : 'down'">
-                {{ r.holders - r.holdersPrev >= 0 ? '+' : '' }}{{ r.holders - r.holdersPrev }}
+                {{ signed(r.holders - r.holdersPrev) }}
               </em>
             </td>
-            <td class="r mono up">{{ r.opened }}</td>
-            <td class="r mono down">{{ r.closed }}</td>
+            <td class="r mono up">{{ nf.format(r.opened) }}</td>
+            <td class="r mono down">{{ nf.format(r.closed) }}</td>
             <td class="r mono" :class="r.netShares >= 0 ? 'up' : 'down'">{{ pct(r.netShares) }}</td>
-            <td class="r mono">{{ bnUSD(r.totalValue) }}</td>
+            <td class="r mono">{{ usd(r.totalValue) }}</td>
           </tr>
         </tbody>
       </table>
-      <p v-if="!rows.length" class="tinynote">這張榜沒有資料。</p>
+      <p v-if="!rows.length" class="tinynote">這個規模級距下沒有符合條件的標的。</p>
 
       <p v-if="splitList.length" class="tinynote">
         這一季偵測到並已正規化的分割／反向分割／股票股利（{{ splitList.length }} 檔）：
         <b v-for="([t, f], i) in splitList" :key="t">
           <template v-if="i">、</template>{{ t }} ×{{ f }}
         </b>。
-        不修正的話，那些標的的持有人會全體被算成同一個方向 —— 但沒有人買賣過。
+        不修正的話那些標的的持有人會全體被算成同一個方向 —— 但沒有人買賣過。
       </p>
       <p class="tinynote">
+        規模用<b>機構申報持股市值</b>分段，不是公司市值 —— 在外流通股數那筆事實不可靠
+        （companyfacts 裡 Visa 最新的一筆是 2010 年的），而 13F 自己就帶市值。
         13F 只揭露多頭部位，且是季末後 45 天內申報的<b>上一季末</b>快照，不是現在。
-        遲交、改交 13F-NT、申請保密延後揭露的機構已排除在建倉／清倉之外
-        （否則會變成假訊號），個股頁另有一區列出。
+        遲交、改交 13F-NT、申請保密延後揭露的機構已排除在建倉／清倉之外，個股頁另有一區列出。
       </p>
     </template>
   </section>
@@ -176,16 +199,21 @@ const splitList = computed(() => Object.entries(data.value?.splits || {}) as [st
 .state { font-family: var(--mono); font-size: 13px; color: var(--ink-2); padding: 30px 0; }
 .caution { font-size: 12.5px; color: var(--ink-2); border-left: 2px solid var(--sig);
   padding-left: 10px; margin-bottom: 14px; line-height: 1.8; }
-.groups { display: flex; gap: 0; border-bottom: 1px solid var(--rule); }
+.groups { display: flex; border-bottom: 1px solid var(--rule); flex-wrap: wrap; }
 .gbtn { appearance: none; background: none; border: 0; border-bottom: 2px solid transparent;
   padding: 7px 14px; font-size: 13px; color: var(--ink-2); cursor: pointer; font-weight: 500; }
 .gbtn.on { color: var(--ink); border-bottom-color: var(--ink); }
-.ghint { font-size: 11.5px; color: var(--ink-3); margin: 7px 0 0; }
-.tabs { display: flex; align-items: center; gap: 6px; margin: 9px 0 12px; flex-wrap: wrap; }
-.tbtn { appearance: none; background: var(--surface); border: 1px solid var(--rule);
+.ghint { font-size: 11.5px; color: var(--ink-3); margin: 7px 0 0; line-height: 1.7; }
+.controls { display: flex; align-items: center; gap: 14px; margin: 9px 0 4px; flex-wrap: wrap; }
+.tabs, .sizes { display: flex; align-items: center; gap: 6px; }
+.sizes { margin-left: auto; }
+.slab { font-size: 11px; color: var(--ink-3); }
+.tbtn, .sbtn { appearance: none; background: var(--surface); border: 1px solid var(--rule);
   padding: 4px 11px; font-size: 12px; color: var(--ink-2); cursor: pointer; }
-.tbtn.on { background: var(--ink); color: var(--surface); border-color: var(--ink); }
-.tdesc { margin-left: auto; font-size: 11.5px; color: var(--ink-3); }
+.tbtn.on, .sbtn.on { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.sbtn em { font-style: normal; font-size: 9.5px; margin-left: 5px; opacity: .6;
+  font-family: var(--mono); }
+.tdesc { font-size: 11.5px; color: var(--ink-3); margin: 0 0 11px; }
 .tab { width: 100%; border-collapse: collapse; font-size: 12.5px; }
 .tab th { text-align: left; font-weight: 500; font-size: 11px; color: var(--ink-3);
   border-bottom: 1px solid var(--rule); padding: 5px 8px; white-space: nowrap; }
@@ -194,15 +222,18 @@ const splitList = computed(() => Object.entries(data.value?.splits || {}) as [st
 .tab .idx { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); width: 30px; }
 .tab .tk a { font-family: var(--mono); font-weight: 600; color: var(--ink); text-decoration: none; }
 .tab .tk a:hover { text-decoration: underline; }
-.tab .co { color: var(--ink-2); max-width: 300px; overflow: hidden;
+.tab .co { color: var(--ink-2); max-width: 260px; overflow: hidden;
   text-overflow: ellipsis; white-space: nowrap; }
+/* 排序依據那一欄：畫面上一定要看得出來是它在排 */
+.tab th.key { color: var(--ink); font-weight: 600; }
+.tab td.key { font-weight: 600; color: var(--ink); background: var(--surface); }
 .mono { font-family: var(--mono); }
 .tab em { font-style: normal; font-size: 10.5px; margin-left: 5px; }
 .up { color: var(--pos, #0a7); }
 .down { color: var(--sig, #c33); }
 .tinynote { font-size: 11.5px; color: var(--ink-3); margin-top: 9px; line-height: 1.75; }
-@media (max-width: 720px) {
+@media (max-width: 760px) {
   .tab .co, .tab th.co { display: none; }
-  .tdesc { display: none; }
+  .sizes { margin-left: 0; }
 }
 </style>

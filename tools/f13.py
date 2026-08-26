@@ -598,12 +598,40 @@ def pair_reorgs(new: list, exited: list) -> list:
     return out
 
 
-def pick(holdings: dict, cusips: set) -> dict:
-    """{cik: {cusip: (sh, val)}} → {cik: (sh, val)}，一個代號的多個 CUSIP 相加"""
+def cusip_stats(holdings: dict) -> dict:
+    """{cusip: (申報家數, 每股價格中位數)}。價格 = 申報市值 ÷ 申報股數"""
+    px = defaultdict(list)
+    for v in holdings.values():
+        for cu, (sh, val) in v.items():
+            if sh > 0 and val > 0:
+                px[cu].append(val / sh)
+    return {cu: (len(a), statistics.median(a)) for cu, a in px.items()}
+
+
+def pick(holdings: dict, cusips: set, stats: dict) -> dict:
+    """
+    {cik: {cusip: (sh, val)}} → {cik: (sh, val)}，一個代號的多個 CUSIP 相加。
+
+    ⚠️ **只合併股數基準相同的 CUSIP。** 反向分割會換號，而換號前後的兩個號碼
+    在同一期裡可能都有人報 —— 少數幾家還在用舊號、用的是分割前的股數。
+    直接相加的話股數會被灌爆（CUE 舊號每股 $0.55、新號 $31.56，差 57 倍；
+    EZRA 差 115 倍）。實測 73 檔兩個號都有人報的標的裡有 16 檔是這樣。
+
+    判準是每股價格：同一家公司同一天的價格只有一個，差超過 25% 就不是同一個基準。
+    以「申報家數最多的那個號」為準，對不上的那幾家整筆不計入
+    （**不換算**：換算等於自己造數字，寧可少算幾家）。
+    """
+    use = cusips
+    if len(cusips) > 1:
+        dom = max(cusips, key=lambda c: stats.get(c, (0, 0))[0])
+        base = stats.get(dom, (0, 0))[1]
+        if base > 0:
+            use = {c for c in cusips
+                   if c not in stats or 0.8 <= stats[c][1] / base <= 1.25}
     out = {}
     for k, v in holdings.items():
         sh = val = 0.0
-        for cu in cusips:
+        for cu in use:
             t = v.get(cu)
             if t:
                 sh += t[0]
@@ -660,10 +688,11 @@ def detect_split(c: dict, p: dict, yahoo) -> float:
 
 
 def compare(cur: dict, prev: dict, cusips: set, names: dict,
-            filed_cur: set, filed_prev: set, yahoo=None) -> dict:
+            filed_cur: set, filed_prev: set, yahoo=None,
+            stats_cur: dict = None, stats_prev: dict = None) -> dict:
     """cur/prev: {cik: {cusip: (sh, val)}} → 這一檔的持有人變化"""
-    c = pick(cur, cusips)
-    p = pick(prev, cusips) if prev else {}
+    c = pick(cur, cusips, stats_cur or {})
+    p = pick(prev, cusips, stats_prev or {}) if prev else {}
     split = detect_split(c, p, yahoo)
     if split != 1.0:
         p = {k: (sh * split, val) for k, (sh, val) in p.items()}
@@ -723,39 +752,12 @@ def compare(cur: dict, prev: dict, cusips: set, names: dict,
 
 def build_leaders(rows: list, cur_p: str, prev_p: str, splits: dict) -> dict:
     """
-    首頁的「本季機構在做什麼」。
+    首頁「本季機構在做什麼」的**原始資料**。排行榜本身在 API 端算
+    （`web/server/api/f13leaders.get.ts`）—— 因為規模級距是使用者可以切換的篩選器，
+    先算好的話 12 張榜 × 4 個級距要存 48 份，而且改門檻就得重跑整批。
 
-    **只用家數排會全部變成大公司**，因為持有機構本來就多的標的，建倉、清倉的
-    絕對家數自然也多。所以每一種行為都同時給兩張榜：
-
-      絕對   建倉家數本身 —— 看的是「多少家一起動」
-      相對   建倉家數 ÷ 上季持有家數 —— 小型股才排得進來
-
-    再加上按規模分三段各出一張，規模用**機構申報市值**當代理（不需要另外抓股價）。
-
-    **上季持有不到 20 家的一律排除在所有榜之外**，另立一張「新上市／分拆」。
-    分拆出來的新公司會霸佔建倉榜 —— 2026Q2 的 HONA（霍尼韋爾分拆）上季 0 家、
-    本季 2,055 家，FDXF 0 → 1,129，那是股東**收到**股票不是有人買進，
-    跟「一群機構默默在建倉」是兩回事。而且 20 家這條線也擋掉了比率的假象：
-    3 家變 6 家就是 +100%。
+    這裡只負責把每一檔壓成一列。7,034 檔約 0.8 MB，API 讀一次留在記憶體。
     """
-    def top(pool, key, n=20):
-        return [r["t"] for r in sorted(pool, key=key, reverse=True)[:n]]
-
-    idx = {r["t"]: r for r in rows}
-    fresh = [r for r in rows if r["holdersPrev"] < 20 and r["holders"] >= 50]
-    rows = [r for r in rows if r["holdersPrev"] >= 20]
-    solid = rows
-    # 清倉比例榜要擋掉破產殼股（代號帶 Q 的那些）—— 它們確實被清光了，但那是下市
-    alive = [r for r in rows if r["totalValue"] >= 5e7]
-    # 「合計持股」是股數的季增率，微型股會爆掉（PMI 上季 39.6 萬股 → 本季 760 萬股，
-    # 持有家數 41 → 41、其中 21 家建倉 19 家清倉）。門檻拉到「上季 ≥100 家、
-    # 機構持股市值 ≥ $3 億」才看得到 SVC、EDIT、AMC、DVN 這種有基底的
-    deep = [r for r in rows if r["holdersPrev"] >= 100 and r["totalValue"] >= 3e8]
-    big = [r for r in solid if r["totalValue"] >= 1e10]
-    mid = [r for r in solid if 1e9 <= r["totalValue"] < 1e10]
-    small = [r for r in solid if r["totalValue"] < 1e9]
-
     def net_share(r):
         p = r["totalSharesPrev"]
         return (r["totalShares"] - p) / p if p > 0 else 0.0
@@ -764,23 +766,10 @@ def build_leaders(rows: list, cur_p: str, prev_p: str, splits: dict) -> dict:
         "period": cur_p, "periodPrev": prev_p,
         "generated": time.strftime("%Y-%m-%d"),
         "splits": splits,
+        # [公司名, 本季家數, 上季家數, 建倉, 清倉, 增持, 減持, 機構申報市值, 合計持股季增率]
         "rows": {r["t"]: [r["n"], r["holders"], r["holdersPrev"], r["opened"], r["closed"],
                           r["increased"], r["decreased"], round(r["totalValue"]),
-                          round(net_share(r), 4)] for r in idx.values()},
-        "boards": {
-            "openedAbs": top(rows, lambda r: r["opened"]),
-            "openedRel": top(solid, lambda r: r["opened"] / r["holdersPrev"]),
-            "closedAbs": top(rows, lambda r: r["closed"]),
-            "closedRel": top(alive, lambda r: r["closed"] / r["holdersPrev"]),
-            "netHolders": top(rows, lambda r: r["holders"] - r["holdersPrev"]),
-            "netHoldersDown": top(rows, lambda r: r["holdersPrev"] - r["holders"]),
-            "netSharesUp": top(deep, net_share),
-            "netSharesDown": top(deep, lambda r: -net_share(r)),
-            "openedBig": top(big, lambda r: r["opened"] / r["holdersPrev"]),
-            "openedMid": top(mid, lambda r: r["opened"] / r["holdersPrev"]),
-            "openedSmall": top(small, lambda r: r["opened"] / r["holdersPrev"]),
-            "fresh": top(fresh, lambda r: r["holders"]),
-        },
+                          round(net_share(r), 4)] for r in rows},
     }
 
 
@@ -926,9 +915,11 @@ def main() -> None:
     written = 0
     splits, leaders = {}, []
     yq = yahoo_splits(cur_p, prev_p)
+    st_cur, st_prev = cusip_stats(periods[cur_p]), cusip_stats(periods[prev_p])
     for ticker, cusips in sorted(cusips_of.items()):
         r = compare(periods[cur_p], periods[prev_p], cusips, names, filed_cur, filed_prev,
-                    yahoo=lambda ratio, t=ticker: yq(t, ratio))
+                    yahoo=lambda ratio, t=ticker: yq(t, ratio),
+                    stats_cur=st_cur, stats_prev=st_prev)
         if not r["holders"] and not r["holdersPrev"]:
             continue
         cusip = sorted(cusips)[0] if len(cusips) == 1 else sorted(cusips)

@@ -68,14 +68,26 @@ PROMPT = """你是財經文件翻譯者。把下列美股 10-K 的段落翻成**
 3. 用語對照：%s
 4. 語氣維持申報文件的中性陳述，不要加強語氣、不要加形容詞
 5. **一律使用繁體字**，不得出現任何簡體字
-6. 輸出**純 JSON 陣列**，長度與輸入完全相同，第 i 個對應輸入第 i 個，不要有其他文字
+6. **數字一律原樣照抄，嚴禁換算單位或改變位數**。
+   million 譯成「百萬」、billion 譯成「十億」、thousand 譯成「千」，數字本身不動：
+     $224 million   →  224 百萬美元    （不可寫成 224 億、2.24 億）
+     $17.8 billion  →  17.8 十億美元   （不可寫成 178 億）
+     720,000        →  720,000        （不可寫成 72 萬）
+   百分比、日期、股數、每股金額同理，一個位數都不能動。
+7. 輸出**純 JSON 陣列**，長度與輸入完全相同，第 i 個對應輸入第 i 個，不要有其他文字
 
 輸入（JSON 陣列）：
 %s"""
 
+STRICT_SUFFIX = """
 
-def _prompt(items: list) -> str:
-    return PROMPT % (GLOSSARY, json.dumps(items, ensure_ascii=False))
+⚠ 上一次翻譯把這些數字換算或寫錯了：%s
+這一次**把數字連同單位字原封不動抄過去**，不要做任何換算。"""
+
+
+def _prompt(items: list, strict: str = "") -> str:
+    base = PROMPT % (GLOSSARY, json.dumps(items, ensure_ascii=False))
+    return base + (STRICT_SUFFIX % strict if strict else "")
 
 
 def _parse_array(text: str, n: int) -> list:
@@ -312,13 +324,13 @@ def emit(tickers: list, max_paras: int) -> list:
     return made
 
 
-def translate_ollama(items: list) -> list:
+def translate_ollama(items: list, strict: str = "") -> list:
     """
     走本機 Ollama —— **零成本、零帳號、資料不離開這台機器**。
     實測 qwen2.5-coder:7b 模型載入後約 0.6 秒/條（一家公司 59 條約 40 秒）。
     """
     payload = {
-        "model": OLLAMA_MODEL, "prompt": _prompt(items), "stream": False,
+        "model": OLLAMA_MODEL, "prompt": _prompt(items, strict), "stream": False,
         # 推理型模型預設會先產一大段思考再回答，翻譯用不到而且拖慢好幾倍。
         # 不支援這個參數的模型會回 400，下面接住後重送一次不帶它的版本。
         "think": False,
@@ -341,7 +353,7 @@ def translate_ollama(items: list) -> list:
     return to_traditional(_parse_array(json.loads(raw).get("response", ""), len(items)))
 
 
-def translate_api(items: list) -> list:
+def translate_api(items: list, strict: str = "") -> list:
     """走 Anthropic API。沒有金鑰就直接說，不要靜默失敗"""
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
@@ -349,7 +361,7 @@ def translate_api(items: list) -> list:
     body = json.dumps({
         "model": MODEL,
         "max_tokens": 8000,
-        "messages": [{"role": "user", "content": _prompt(items)}],
+        "messages": [{"role": "user", "content": _prompt(items, strict)}],
     }).encode("utf-8")
     req = urllib.request.Request(
         "https://api.anthropic.com/v1/messages", data=body,
@@ -361,6 +373,132 @@ def translate_api(items: list) -> list:
     return to_traditional(_parse_array(text, len(items)))
 
 
+# ── 數字守門員 ────────────────────────────────────────────
+#
+# 翻譯是這個專案裡唯一會說謊的一層，而它最會說的謊是**單位換算**。
+# 實測（qwen3:8b，396 份譯文、2,724 個帶單位的金額）：**24.2% 換算錯誤**，
+# 幾乎都是整整差 10 倍或 100 倍 ——
+#   AAL  $224 million    → 「224 億美元」   （100 倍）
+#   AIR  $2,384.1 million→ 「2,384.1 億美元」（100 倍）
+#   NE   $951.7 million  → 「95.17 億美元」 （10 倍）
+#   PSA  28.2 million 平方英呎 → 「28.2 億平方英呎」（100 倍）
+# 錯了不會報錯、讀者也查不出來，因為旁邊沒有可以對帳的東西。
+#
+# Prompt 裡叫模型別換算只是「請求」，這裡才是「保證」：譯完逐條驗算，
+# 對不上就帶著錯在哪重譯一次，還是對不上就留空 —— 那一條在頁面上顯示英文原文
+# 並標「原文」，比一句數字錯掉的中文安全得多。
+
+EN_SCALE = {"thousand": 1e3, "million": 1e6, "billion": 1e9, "trillion": 1e12}
+ZH_SCALE = {"兆": 1e12, "百億": 1e10, "十億": 1e9, "億": 1e8,
+            "千萬": 1e7, "百萬": 1e6, "十萬": 1e5, "萬": 1e4, "千": 1e3}
+NUM_TOKEN = re.compile(r"\d[\d,]*(?:\.\d+)?")
+EN_AFTER = re.compile(r"\s*(thousand|million|billion|trillion)\b", re.I)
+ZH_AFTER = re.compile(r"\s*(兆|百億|十億|億|千萬|百萬|十萬|萬|千)")
+# 沒帶單位字又小於這個值的數字不驗：日期的「31」、季別 Q3（中文寫「第三季」）
+# 會一直誤報。校準時這一條把誤報從 5.7% 壓到 3.6%，而抽樣看到的每一筆都是真錯。
+MIN_BARE = 1000
+NUM_TOL = 0.005
+
+
+def _num(tok: str):
+    try:
+        return float(tok.replace(",", ""))
+    except ValueError:
+        return None
+
+
+def en_numbers(text: str) -> list:
+    """[(量值, 有沒有帶單位字, 原始數字串)]"""
+    out = []
+    for m in NUM_TOKEN.finditer(text):
+        v = _num(m.group(0))
+        if v is None:
+            continue
+        s = EN_AFTER.match(text, m.end())
+        raw = m.group(0).replace(",", "")
+        out.append((v * EN_SCALE[s.group(1).lower()], True, raw) if s else (v, False, raw))
+    return out
+
+
+def zh_magnitudes(text: str) -> list:
+    """
+    中文側的量值。三件事一定要處理，否則誤報會蓋過真正的錯：
+    ① **複合數詞**：「2億1800萬美元」是 2e8 ＋ 1.8e7，逐段讀會變成兩個不相干的數
+    ② **英文單位字殘留**：譯文照抄「€704.3 million」正是我們要的行為，不能反判它錯
+    ③ 量詞與數字之間可能有一個空白（「28.2 億」）
+    """
+    out, i, n = [], 0, len(text)
+    while i < n:
+        m = NUM_TOKEN.search(text, i)
+        if not m:
+            break
+        v = _num(m.group(0))
+        i = m.end()
+        if v is None:
+            continue
+        s = ZH_AFTER.match(text, i)
+        if s:
+            total, i = v * ZH_SCALE[s.group(1)], s.end()
+            while True:                                  # ① 複合數詞
+                m2 = NUM_TOKEN.match(text, i)
+                if not m2:
+                    break
+                s2 = ZH_AFTER.match(text, m2.end())
+                v2 = _num(m2.group(0)) if s2 else None
+                if not s2 or v2 is None or ZH_SCALE[s2.group(1)] >= ZH_SCALE[s.group(1)]:
+                    break
+                total += v2 * ZH_SCALE[s2.group(1)]
+                s, i = s2, s2.end()
+            out.append(total)
+            continue
+        e = EN_AFTER.match(text, i)                      # ② 英文單位字原樣留著
+        if e:
+            out.append(v * EN_SCALE[e.group(1).lower()])
+            i = e.end()
+            continue
+        out.append(v)
+    return out
+
+
+def numeric_drift(en: str, zh: str) -> list:
+    """回傳對不上的英文數字 [(原始串, 量值)]；空清單＝通過。譯文留空視為通過（本來就退回原文）"""
+    if not zh or not zh.strip():
+        return []
+    zmag = zh_magnitudes(zh)
+    zraw = {m.group(0).replace(",", "").rstrip(".") for m in NUM_TOKEN.finditer(zh)}
+    bad = []
+    for mag, scaled, raw in en_numbers(en):
+        if not scaled and mag < MIN_BARE and "." not in raw:
+            continue
+        if any(abs(z - mag) <= max(abs(mag) * NUM_TOL, 1e-9) for z in zmag):
+            continue
+        if not scaled and raw in zraw:      # 沒帶單位字的，數字原樣出現就算過
+            continue
+        bad.append((raw, mag))
+    return bad
+
+
+def numeric_gate(engine, items: list, got: list) -> list:
+    """逐條驗算 → 帶著錯在哪重譯一次 → 還是不對就留空（頁面顯示英文原文）"""
+    out = list(got)
+    for i, (en, zh) in enumerate(zip(items, out)):
+        bad = numeric_drift(en, zh)
+        if not bad:
+            continue
+        hint = "、".join(r for r, _ in bad[:6])
+        try:
+            again = engine([en], hint)
+        except Exception:
+            again = None
+        if again and not numeric_drift(en, again[0]):
+            out[i] = again[0]
+            print(f"      數字重譯成功（{hint}）")
+        else:
+            out[i] = ""
+            print(f"      數字對不上，留英文原文（{hint}）")
+    return out
+
+
 def robust(engine, items: list) -> list:
     """
     條數對不上時**對半拆開重試**，不要原封不動地重送。
@@ -368,7 +506,14 @@ def robust(engine, items: list) -> list:
     本機模型對某幾批就是會固定多吐一條（實測 KO 那批連送三次都是「送 10 收 11」），
     重試同一批只是把同一個錯誤做三遍。拆到單條就一定是 1 對 1；單條還失敗就
     留空字串 —— 那一條在頁面上顯示英文原文，比硬塞一句對不上的譯文好。
+
+    條數對上之後還要過**數字守門員**（`numeric_gate`）：單位換算錯掉的譯文
+    條數是對的、讀起來也順，但金額差 10 倍或 100 倍。
     """
+    return numeric_gate(engine, items, _split_retry(engine, items))
+
+
+def _split_retry(engine, items: list) -> list:
     try:
         return engine(items)
     except (ValueError, json.JSONDecodeError):
@@ -379,7 +524,7 @@ def robust(engine, items: list) -> list:
                 print("      放棄一條（維持英文原文）")
                 return [""]
         mid = len(items) // 2
-        return robust(engine, items[:mid]) + robust(engine, items[mid:])
+        return _split_retry(engine, items[:mid]) + _split_retry(engine, items[mid:])
 
 
 def fill(path: str, batch: int, engine, tag: str, jobs: int = 1) -> None:
@@ -392,25 +537,32 @@ def fill(path: str, batch: int, engine, tag: str, jobs: int = 1) -> None:
         zh = doc["zh"].setdefault(sid, {})
         for field in ("headings", "paragraphs"):
             src = sec[field]
-            done = zh.get(field) or []
-            if len(done) >= len(src):
+            done = list(zh.get(field) or [])
+            done += [""] * (len(src) - len(done))
+            done = done[:len(src)]
+            # **依索引續跑，不是依長度**。守門員擋下的那一條會被清成空字串留在
+            # 原位（不是砍掉尾巴），只看 len(done) 的話它永遠不會被重譯。
+            todo_idx = [i for i, x in enumerate(done) if not x]
+            if not todo_idx:
                 continue
-            todo = src[len(done):]
-            chunks = [todo[i:i + batch] for i in range(0, len(todo), batch)]
+            chunks = [todo_idx[i:i + batch] for i in range(0, len(todo_idx), batch)]
             # 併發只在「同一個欄位的多個批次」之間做 —— 批次之間沒有順序相依，
             # 結果照原順序接回去即可。實測 8GB 顯卡上 2 執行緒約 1.6 倍，
             # 4 執行緒沒有更快（模型與 KV cache 已經吃滿顯存）
             for g in range(0, len(chunks), jobs):
                 group = chunks[g:g + jobs]
-                print(f"    {sid}.{field} {len(done) + 1}–"
-                      f"{len(done) + sum(len(c) for c in group)}／{len(src)} …", flush=True)
+                flat = [i for c in group for i in c]
+                print(f"    {sid}.{field} 第 {flat[0] + 1}–{flat[-1] + 1} 條"
+                      f"（待譯 {len(todo_idx)}／全 {len(src)}）…", flush=True)
+                texts = [[src[i] for i in c] for c in group]
                 if len(group) == 1:
-                    got = [robust(engine, group[0])]
+                    got = [robust(engine, texts[0])]
                 else:
                     with concurrent.futures.ThreadPoolExecutor(max_workers=len(group)) as ex:
-                        got = list(ex.map(lambda c: robust(engine, c), group))
-                for r in got:
-                    done = done + r
+                        got = list(ex.map(lambda t: robust(engine, t), texts))
+                for c, r in zip(group, got):
+                    for i, x in zip(c, r):
+                        done[i] = x
                 zh[field] = done
                 doc["translator"] = tag
                 with io.open(path, "w", encoding="utf-8") as f:
@@ -454,6 +606,74 @@ def apply(path: str) -> None:
                 left |= simplified_left(x)
     warn = f"  ⚠ 仍有簡體字 {''.join(sorted(left))}" if left else ""
     print(f"  {doc['ticker']}: {n} 條 → config/narrative_zh/{os.path.basename(p)}{warn}")
+
+
+def _blank_output(doc: dict, holes: dict) -> None:
+    """把 config/narrative_zh/ 那一份的同樣索引清成空字串（頁面顯示英文原文）"""
+    out = done_key(doc.get("cik", ""), doc.get("accession", ""))
+    if not os.path.exists(out):
+        return
+    try:
+        with io.open(out, encoding="utf-8") as f:
+            d = json.load(f)
+    except Exception:
+        return
+    for sid, fields in holes.items():
+        sec = d.get("sections", {}).get(sid)
+        if not sec:
+            continue
+        for field, idxs in fields.items():
+            arr = sec.get(field) or []
+            for i in idxs:
+                if i < len(arr):
+                    arr[i] = ""
+            sec[field] = arr
+    with io.open(out, "w", encoding="utf-8") as f:
+        json.dump(d, f, ensure_ascii=False, separators=(",", ":"))
+
+
+def revalidate(paths: list, write: bool = True) -> tuple:
+    """
+    把**已經翻好**的譯文用數字守門員掃一遍，對不上的清成空字串。
+
+    守門員是後來才加的，先前翻好的 1,137 份沒有經過它。整批重翻要好幾個鐘頭，
+    但實測只有 3.6% 的段落有問題 —— 清掉那 3.6% 讓下一輪 `--all` 補回來就好，
+    正確的譯文不必重做。清空而不是砍掉，是因為 `fill()` 依索引續跑，
+    空字串留在原位才找得回來（砍掉會讓後面每一條都錯位）。
+    """
+    bad_items = bad_files = 0
+    for path in paths:
+        try:
+            with io.open(path, encoding="utf-8") as f:
+                doc = json.load(f)
+        except Exception:
+            continue
+        zh, hit, holes = doc.get("zh") or {}, 0, {}
+        for sid in SECTIONS:
+            sec, t = doc["sections"].get(sid), zh.get(sid)
+            if not sec or not t:
+                continue
+            for field in ("headings", "paragraphs"):
+                src, got = sec[field], list(t.get(field) or [])
+                for i in range(min(len(src), len(got))):
+                    if got[i] and numeric_drift(src[i], got[i]):
+                        got[i] = ""
+                        holes.setdefault(sid, {}).setdefault(field, []).append(i)
+                        hit += 1
+                t[field] = got
+        if hit:
+            bad_files += 1
+            bad_items += hit
+            if write:
+                with io.open(path, "w", encoding="utf-8") as f:
+                    json.dump(doc, f, ensure_ascii=False, indent=1)
+                # 已產出的譯文檔**同樣位置清空就好，不要整份刪掉**：
+                # 刪掉的話那家在網站上會整個章節退回英文，而問題只有幾條。
+                # 清空之後 already_done 會看到「非空條數 < 原文條數」→ 下一輪自動補譯。
+                _blank_output(doc, holes)
+            print(f"  {doc['ticker']}: 清掉 {hit} 條數字對不上的譯文")
+    print(f"revalidate：{len(paths)} 份裡 {bad_files} 份有問題，共清掉 {bad_items} 條")
+    return bad_files, bad_items
 
 
 def status() -> None:
@@ -545,6 +765,8 @@ def main() -> None:
     ap.add_argument("--model", help="覆寫模型名稱")
     ap.add_argument("--paras", type=int, default=14, help="每個章節最多翻幾段")
     ap.add_argument("--batch", type=int, default=20, help="每次送幾條給模型")
+    ap.add_argument("--revalidate", action="store_true",
+                    help="用數字守門員重掃既有譯文，對不上的清空（之後再跑 --all 補回來）")
     ap.add_argument("--status", action="store_true")
     args = ap.parse_args()
 
@@ -556,6 +778,10 @@ def main() -> None:
         globals()["OLLAMA_MODEL"] = args.model
     engine = translate_ollama if args.ollama else (translate_api if args.api else None)
     tag = (OLLAMA_MODEL + "（本機）") if args.ollama else MODEL
+    if args.revalidate:
+        revalidate(sorted(os.path.join(WORK_DIR, x) for x in os.listdir(WORK_DIR)
+                          if x.startswith("pending-") and x.endswith(".json")))
+        return
     targets = None
     if args.emit:
         targets = [t.strip().upper() for t in args.emit.split(",") if t.strip()]

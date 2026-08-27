@@ -63,7 +63,9 @@ assert "損益表" in f
 assert m.cell(gm_row, 1).comment is not None, "指標名稱要有 hover 註解"
 
 yoy_row = next(r for r in range(2, 60) if m.cell(r, 1).value == "營收年增率")
-assert m.cell(yoy_row, 3).value == "n/a", "期數不足時 YoY 應為 n/a"
+# 比較基期落在所選區間之外 → 「—」（不適用），不是 n/a（該有卻查不到）。
+# 這條在 workbook.py 判「不適用」時就分流了，測試曾停留在舊語意。
+assert m.cell(yoy_row, 3).value == "—", "比較基期不在區間內時 YoY 應為「—」"
 assert str(m.cell(yoy_row, 3 + 4).value).startswith("=IFERROR("), m.cell(yoy_row, 7).value
 
 roe_row = next(r for r in range(2, 60) if m.cell(r, 1).value == "股東權益報酬率")

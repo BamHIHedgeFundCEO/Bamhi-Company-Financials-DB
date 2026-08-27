@@ -39,15 +39,22 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
   if (series.currency && fin.currency && series.currency !== fin.currency) return null
 
   const periods = fin.periods
+  const annual = fin.periodicity === 'annual'
   const li = new Map(fin.lineItems.map((x) => [x.id, x]))
   const val = (id: string, p: string) => li.get(id)?.values[p]?.value ?? null
   const endDate = (p: string) =>
     li.get('total_assets')?.values[p]?.endDate ?? li.get('revenue')?.values[p]?.endDate ?? null
 
   // TTM（近四季合計）；任一季缺 → null
+  //
+  // ⚠ 外國發行人（20-F，`periodicity: 'annual'`）一欄就是一整年，再加四欄等於四年。
+  //   不分流的話 P/E 會變成實際的四分之一，而且看起來完全正常：SHEL FY2025 顯示
+  //   4.26 倍（實際約 17 倍）。整條估值分頁的流量科目都吃這個函式，錯一次錯全部。
+  const step = annual ? 1 : 4
   const idx = (p: string) => periods.indexOf(p)
   const ttm = (id: string, p: string): number | null => {
     const i = idx(p)
+    if (annual) return val(id, p)
     if (i < 3) return null
     let s = 0
     for (let k = i - 3; k <= i; k++) {
@@ -155,7 +162,8 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
     // PEG = PE / (TTM 淨利年增率 %)；成長須為正
     const niN = ttm('net_income', p)
     const i = idx(p)
-    const niPrev = i >= 4 ? ttm('net_income', periods[i - 4]) : null
+    // 去年同期：季度往前四欄、年度往前一欄（PEG 的成長率同樣不能寫死 4）
+    const niPrev = i >= step ? ttm('net_income', periods[i - step]) : null
     const g = niN != null && niPrev != null && niPrev > 0 ? (niN / niPrev - 1) * 100 : null
     peg[p] = pe[p] != null && pos(g) ? pe[p]! / (g as number) : null
   }

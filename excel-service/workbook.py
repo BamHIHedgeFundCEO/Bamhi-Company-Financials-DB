@@ -230,8 +230,27 @@ def build_workbook(payload: dict) -> bytes:
             "訂閱制公司（遞延收入大）差距明顯，銀行更極端：負債總計主要是存款。")]
           if (fin.get("valuation") or {}).get("rows") else []),
         *([("「待輸入」是什麼", "估值倍數分頁的前瞻估值與反推目標價要用 FY+1／FY+2 每股盈餘預估，"
-            "那是分析師預估值，SEC 不提供，只能自己填在該分頁的假設區（藍字格）。填之前那幾格寫"
-            "「待輸入」——與 n/a 不同：n/a 是 SEC 該有卻查不到，「待輸入」是等你決定要用什麼預估。")]
+            "情景估值分頁的三個情境參數也一樣，那些是預估值，SEC 不提供，"
+            "只能自己填在該分頁的藍字格。填之前那幾格寫「待輸入」"
+            "——與 n/a 不同：n/a 是 SEC 該有卻查不到，「待輸入」是等你決定要用什麼預估。"
+            "「待輸入」會自動往下游傳遞：上游沒填，下游不會拿空白當 0 算出假的 $0.00。")]
+          if (fin.get("valuation") or {}).get("rows") else []),
+        *([("情景估值分頁", "樂觀 Bull／中性 Base／悲觀 Bear 三條獨立流水線，五個關卡："
+            "①目標年營收 × EBITDA 利潤率 ＝ 目標年 EBITDA；②× 終端 EV/EBITDA 倍數 ＝ 企業價值 EV；"
+            "③EV ＋ 現金 − 有息負債 ＋ 認股權證履約流入 ＝ 股權價值；④÷ 完全稀釋股數 ＝ "
+            "目標年每股價值；⑤按發生機率加權後，用權益成本折現回今天。"
+            "目標年固定為最近一個會計年度 + 3 年，折現年數用 YEARFRAC 由今日起算（會自己更新）。"
+            "⚠ 這一頁與其他所有分頁性質不同：其餘分頁的數字 100% 來自 SEC 申報，"
+            "這一頁的輸出是你自己填的假設經過算術的結果，可信度完全取決於那幾格藍字。"
+            "右側「歷史參考」欄全部是公式（近 12 個月營收、近 3 年營收 CAGR、"
+            "歷史 EBITDA 利潤率中位數、歷史 EV/EBITDA 中位數、最新現金與有息負債、最新稀釋股數），"
+            "刻意不預填進輸入格 —— 預填會讓人把「拿過去當未來」誤當成有根據的預測。"
+            "認股權證／選擇權的數量與履約價藏在 10-K 附註本文，companyfacts 沒有這個欄位，"
+            "本站的數字一律不從 HTML 取，所以那一列沒有參考值，要自己去 EDGAR 查；"
+            "履約會同時增加股數與現金，兩邊都要填，只填股數目標價會系統性偏低。"
+            "機率合計不等於 100% 時，加權那兩格直接不出數字。"
+            "另有敏感度表：終端倍數 × EBITDA 利潤率 對今日合理價的二維影響，"
+            "其餘假設固定在中性情境。")]
           if (fin.get("valuation") or {}).get("rows") else []),
         *([("上市前資料", f"{pre_ipo} 之前的季度已顯示為 n/a。此公司經 SPAC 借殼／IPO 上市，"
             "上市前為私有公司，股數基礎與上市後不可比（每股數值會嚴重失真），故不列出。")]
@@ -254,7 +273,10 @@ def build_workbook(payload: dict) -> bytes:
             "兩種情形會出現「—」：①該軸只有年度揭露（ASC 280 對地區／產品別多半不要求季度）；"
             "②公司改組報導分部、成員標籤整組換掉，新舊結構各自成一個區塊、各自合計，"
             "區塊標題會寫「報導結構 1／2」。")]
-          if payload.get("segments", {}).get("axes") else []),
+          # `.get("segments", {})` 在 key 存在但值是 None 時回 None（不是預設值），
+          # 而 main.py 的 pydantic model 一定會把 segments 補成 None →
+          # 分部抽取失敗的公司整本活頁簿 500。必須用 `or {}`。
+          if (payload.get("segments") or {}).get("axes") else []),
         ("圖表", "各報表分頁：前段為 chart_spec.json 定義的組合圖，後段為每一科目各一張圖。"
          "分部數據分頁：每個分部軸各一組（營收堆疊圖＋佔比／毛利率／營業利益率折線圖），"
          "定義在同一份設定檔的 segment_charts。"
@@ -451,7 +473,9 @@ def build_workbook(payload: dict) -> bytes:
     valuation = fin.get("valuation")
     if valuation and valuation.get("rows"):
         _build_valuation_sheet(wb, valuation, locations, periods, th,
-                               data_start, n_display, chart_jobs)
+                               data_start, n_display, chart_jobs, annual)
+        # 情景估值必須排在估值倍數之後：它引用 val_eve 的歷史中位數與 估值倍數!$B$3
+        _build_scenario_sheet(wb, fin, locations, periods, th, data_start, n_display, annual)
 
     # ── 5c. 分部數據（companyfacts 無維度，資料來自 XBRL instance）────
     segments = payload.get("segments")
@@ -549,6 +573,9 @@ def build_workbook(payload: dict) -> bytes:
         sheet_no = wb.sheetnames.index("估值倍數") + 1
         end_col = get_column_letter(max(data_start + n_display - 1, data_start + 3))
         data = _inject_ignored_errors(data, sheet_no, f"A1:{end_col}33")
+    # 情景估值：整頁公式都引用可能還空著的輸入格，不關掉會滿版綠色三角
+    if SCENARIO_SHEET in wb.sheetnames:
+        data = _inject_ignored_errors(data, wb.sheetnames.index(SCENARIO_SHEET) + 1, "A1:H60")
     return data
 
 
@@ -582,7 +609,8 @@ BLUE_FILL = PatternFill("solid", fgColor="FFFFCC")  # 黃底
 GREEN_LINK = Font(color="0E6B5A")           # 綠字＝跨表連結
 
 
-def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_display, chart_jobs):
+def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_display, chart_jobs,
+                           annual=False):
     """
     估值分頁＝財務模型：股價是唯一硬值（藍字輸入格），市值/PE/PS/EV… 全部公式。
     版面：假設區(前瞻用) → 反推目標價 → 歷史逐季倍數(全公式，TTM 引用含 lookback 欄)。
@@ -626,6 +654,10 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
         return f"'{sheet}'!{g(col)}{row}"
 
     def ttm(sheet, row, col):
+        # 外國發行人（20-F）一欄就是一整年，再加四欄等於四年 —— P/E 會變成實際的
+        # 四分之一而且看起來完全正常（SHEL FY2025 4.26 倍，實際約 17 倍）。
+        if annual:
+            return f"'{sheet}'!{g(col)}{row}"
         # 使用者要的起始季剛好是公司最早有資料的季時（麥當勞 from=2022Q1，資料也是
         # 從 FY2022 Q1 開始）→ lookback 是 0，前面根本沒有四季可加，`col - 3` 會算出
         # 欄索引 0 讓 openpyxl 直接拋 ValueError，整本活頁簿 500。
@@ -839,6 +871,382 @@ def _build_valuation_sheet(wb, valuation, locations, periods, th, data_start, n_
                            ("pfcf", "P/FCF"), ("eve", "EV/EBITDA")]]
     chart_jobs.append((vws, vspecs, row0 + len(rows_spec) + 3))
 
+
+
+SCENARIO_SHEET = "情景估值"
+SCENARIO_HORIZON = 3          # 目標年 ＝ 最近一個會計年度 + 3 年
+
+
+def _target_year_end(fin: dict, periods: list[str], horizon: int):
+    """
+    目標年期末日 ＝ 最近一個**會計年度**期末 + horizon 年。
+
+    不能拿 `periods[-1]`（最新一季）加三年：AAPL 最新是 6 月底的 Q3，那樣目標年
+    會落在 2029-06-30，但 AAPL 的會計年度是 9 月結 —— 折現年數與「FY2029」這個
+    標籤會各說各話。季度模式取標籤是 Q4 的那一欄，年度發行人每一欄都是年度。
+    """
+    ends: dict = {}
+    for li in fin["lineItems"]:
+        for p, c in li["values"].items():
+            if c and c.get("endDate") and p not in ends:
+                ends[p] = c["endDate"]
+    fy = [p for p in periods if p.endswith("Q4")] or list(periods)
+    base = next((ends[p] for p in reversed(fy) if ends.get(p)), None)
+    if not base:
+        return None, None
+    y, m, d = int(base[:4]), int(base[5:7]), int(base[8:10])
+    from datetime import date
+    try:
+        t = date(y + horizon, m, d)
+    except ValueError:                     # 2/29 之類
+        t = date(y + horizon, m, 28)
+    return t, y + horizon
+
+
+def _build_scenario_sheet(wb, fin, locations, periods, th, data_start, n_display, annual):
+    """
+    情景估值法：樂觀／中性／悲觀三條獨立流水線，五個關卡串起來，機率加權後折現。
+
+    這一頁與其他七頁性質不同 —— **輸出不是 SEC 事實，是使用者假設的算術結果**。
+    所以三件事必須成立，少一件這頁就會生出看起來很權威的假數字：
+
+    ① 每個推導格都要擋空輸入。Excel 把空白當 0，`營收 × 利潤率` 碰到空格不會出錯，
+       會安靜地算出 EBITDA = 0 → 目標價 $0.00 → 上漲空間 −100%（還套上紅底）。
+       一律用 `IF(COUNT(依賴格)<n,"待輸入",…)`，COUNT 只數數值，文字與空白都不算，
+       所以「待輸入」會自己往下游傳遞，不會半路變成 0。
+    ② 機率合計必須是 100%。SUMPRODUCT 不會因為機率加起來只有 80% 就報錯，
+       它只會給你一個小 20% 的期望值。加總不等於 1 時，加權那兩格直接不出數字。
+    ③ 歷史參考欄全部是公式（引用其他分頁），**不預填進輸入格**。預填的話使用者會
+       把「我拿過去當未來」當成有根據的預測 —— 與 n/a 絕不寫 0 是同一條規則。
+
+    折現率只有一格、三情境共用：情境法的風險已經體現在參數與機率上，
+    再對悲觀情境加折現率是把同一個風險算兩次。折的是股權價值，填的是權益成本
+    （cost of equity）不是 WACC，標籤寫死免得混淆。
+    """
+    from openpyxl.utils import get_column_letter as g
+    from openpyxl.formatting.rule import CellIsRule
+
+    target_date, target_fy = _target_year_end(fin, periods, SCENARIO_HORIZON)
+    if not target_date:
+        return None
+
+    pal = th["palette"]
+
+    def _c(key, fallback):
+        return pal.get(key, fallback).lstrip("#")
+
+    accent = pal["accent"].lstrip("#")
+    TITLE_F = Font(bold=True, color=accent)
+    SECT_F = Font(bold=True, color=_c("header_font", "15171A"))
+    SECT_FILL = PatternFill("solid", fgColor=_c("header_fill", "F2F3F0"))
+    NOTE_F = Font(size=9, color="8C9199")
+    INPUT_F = Font(color=_c("input_font", "0000FF"))
+    INPUT_FILL = PatternFill("solid", fgColor=_c("input_fill", "FFFFCC"))
+    LINK_F = Font(color=_c("link_font", "0E6B5A"))
+    WAIT = "待輸入"
+    USD = th["number_formats"]["usd"]
+    PCT = th["number_formats"]["ratio"]
+    MULT = th["number_formats"]["multiple"]
+    SHARES = th["number_formats"]["shares"]
+
+    ws = wb.create_sheet(SCENARIO_SHEET)
+    ws.sheet_view.showGridLines = False
+    ws.sheet_properties.tabColor = accent
+    for col, w in (("A", 36), ("B", 32), ("C", 18), ("D", 18), ("E", 18), ("F", 22), ("G", 15)):
+        ws.column_dimensions[col].width = w
+
+    last = data_start + n_display - 1          # 其他分頁的最新一欄
+    first = data_start
+
+    def sheet_row(cid):
+        loc = locations.get(cid)
+        return (loc[0].title, loc[1]) if loc else (None, None)
+
+    def cell(cid, col=None):
+        s, r = sheet_row(cid)
+        return f"'{s}'!{g(col or last)}{r}" if s else None
+
+    def rng(cid):
+        s, r = sheet_row(cid)
+        return f"'{s}'!{g(first)}{r}:{g(last)}{r}" if s else None
+
+    def ttm(cid, col=None):
+        """近 12 個月。年度發行人一欄就是一年，再加四欄等於四年。"""
+        s, r = sheet_row(cid)
+        if not s:
+            return None
+        col = col or last
+        if annual:
+            return f"'{s}'!{g(col)}{r}"
+        if col - 3 < FIRST_DATA_COL:
+            return None
+        return f"SUM('{s}'!{g(col - 3)}{r}:{g(col)}{r})"
+
+    # ── 版面 ────────────────────────────────────────────────
+    ws["A2"] = "■ 情景估值法　Scenario Valuation"
+    ws["A2"].font = TITLE_F
+    ws["A3"] = (f"目標年 FY{target_fy}（期末 {target_date.isoformat()}）　·　"
+                "本頁每一個數字都由你在藍字格填的假設推導而來，不是 SEC 申報事實")
+    ws["A3"].font = NOTE_F
+
+    HDR = 4
+    for j, zh in enumerate(["項目", "英文", "樂觀 Bull", "中性 Base", "悲觀 Bear",
+                            "歷史參考（公式）"], start=1):
+        _header_cell_at(ws, HDR, j, zh, th)
+
+    SC = {"C": 3, "D": 4, "E": 5}              # 三個情境欄
+    REF = 6                                    # 歷史參考欄
+
+    def label(r, zh, en=""):
+        ws.cell(row=r, column=1, value=zh)
+        if en:
+            ws.cell(row=r, column=2, value=en).font = Font(color="8C9199")
+
+    def section(r, zh):
+        for j in range(1, REF + 1):
+            c = ws.cell(row=r, column=j)
+            c.fill = SECT_FILL
+            c.border = CELL_BOX
+        ws.cell(row=r, column=1, value=zh).font = SECT_F
+
+    def inputs(r, vals, fmt):
+        for k, col in SC.items():
+            c = ws.cell(row=r, column=col, value=vals.get(k))
+            c.number_format = fmt
+            c.font = INPUT_F
+            c.fill = INPUT_FILL
+            c.border = ROW_BORDER
+
+    def formulas(r, f, fmt):
+        for k in SC:
+            c = ws.cell(row=r, column=SC[k], value=f(k))
+            c.number_format = fmt
+            c.border = ROW_BORDER
+
+    def reference(r, value, fmt=None):
+        c = ws.cell(row=r, column=REF, value=value if value is not None else "n/a")
+        if fmt:
+            c.number_format = fmt
+        c.font = LINK_F
+        c.border = ROW_BORDER
+
+    def guard(deps, expr):
+        """依賴格任一為空或文字（＝上游還沒填）就整格「待輸入」，不讓 Excel 把空白當 0"""
+        return f'=IF(COUNT({",".join(deps)})<{len(deps)},"{WAIT}",IFERROR({expr},"n/a"))'
+
+    R_PROB, R_REV, R_CAGR, R_MARGIN, R_EBITDA = 5, 7, 8, 9, 10
+    R_MULT, R_EV = 12, 13
+    R_CASH, R_DEBT, R_WARRANT, R_EQUITY = 15, 16, 17, 18
+    R_SHARES, R_SHARES_REF, R_PPS = 20, 21, 22
+    R_RATE, R_TDATE, R_YEARS, R_PV = 24, 25, 26, 27
+
+    # 發生機率
+    label(R_PROB, "發生機率", "Probability")
+    inputs(R_PROB, {"C": 0.25, "D": 0.50, "E": 0.25}, PCT)
+    ws.cell(row=R_PROB, column=REF,
+            value=f'=IF(ABS(SUM($C${R_PROB}:$E${R_PROB})-1)<0.0001,"合計 100%（OK）",'
+                  f'"合計 "&TEXT(SUM($C${R_PROB}:$E${R_PROB}),"0.0%")&"，不等於 100%")').font = LINK_F
+
+    # ① 核心獲利
+    section(6, "① 核心獲利　目標年營收 × EBITDA 利潤率 ＝ 目標年 EBITDA")
+    label(R_REV, f"目標年營收（FY{target_fy}）", "Projected Revenue")
+    inputs(R_REV, {}, USD)
+    _rev_ttm = ttm("revenue")
+    reference(R_REV, f'=IFERROR({_rev_ttm},"n/a")' if _rev_ttm else None, USD)
+
+    label(R_CAGR, f"隱含年化成長率（{SCENARIO_HORIZON} 年）", "Implied Revenue CAGR")
+    formulas(R_CAGR, lambda k: guard([f"${k}${R_REV}", f"$F${R_REV}"],
+                                     f"(${k}${R_REV}/$F${R_REV})^(1/{SCENARIO_HORIZON})-1"), PCT)
+    back = last - (SCENARIO_HORIZON if annual else SCENARIO_HORIZON * 4)
+    _rev_back = ttm("revenue", back) if back >= FIRST_DATA_COL else None
+    reference(R_CAGR,
+              (f'=IFERROR(({_rev_ttm}/{_rev_back})^(1/{SCENARIO_HORIZON})-1,"n/a")'
+               if _rev_ttm and _rev_back else None), PCT)
+
+    label(R_MARGIN, "EBITDA 利潤率", "EBITDA Margin")
+    inputs(R_MARGIN, {}, PCT)
+    _m = rng("ebitda_margin")
+    reference(R_MARGIN, f'=IFERROR(MEDIAN({_m}),"n/a")' if _m else None, PCT)
+
+    label(R_EBITDA, f"目標年 EBITDA（FY{target_fy}）", "Projected EBITDA")
+    formulas(R_EBITDA, lambda k: guard([f"${k}${R_REV}", f"${k}${R_MARGIN}"],
+                                       f"${k}${R_REV}*${k}${R_MARGIN}"), USD)
+
+    # ② 企業價值
+    section(11, "② 企業價值　目標年 EBITDA × 終端 EV/EBITDA 倍數 ＝ 企業價值 EV")
+    label(R_MULT, "終端 EV/EBITDA 倍數", "Terminal EV/EBITDA")
+    inputs(R_MULT, {}, MULT)
+    _e = rng("val_eve")
+    reference(R_MULT, f'=IFERROR(MEDIAN({_e}),"n/a")' if _e else None, MULT)
+
+    label(R_EV, "預估企業價值 EV", "Enterprise Value")
+    formulas(R_EV, lambda k: guard([f"${k}${R_EBITDA}", f"${k}${R_MULT}"],
+                                   f"${k}${R_EBITDA}*${k}${R_MULT}"), USD)
+
+    # ③ 股權橋樑
+    section(14, "③ 股權橋樑　EV ＋ 現金 − 有息負債 ＋ 認股權證履約流入 ＝ 股權價值")
+    label(R_CASH, "目標年現金與約當現金", "Projected Cash")
+    inputs(R_CASH, {}, USD)
+    csh, sti = cell("cash"), cell("short_term_investments")
+    reference(R_CASH, f'=IFERROR({csh}+IFERROR({sti},0),"n/a")' if csh else None, USD)
+
+    label(R_DEBT, "目標年有息負債", "Projected Interest-Bearing Debt")
+    inputs(R_DEBT, {}, USD)
+    std, ltd = cell("short_term_debt"), cell("long_term_debt")
+    reference(R_DEBT, f'=IFERROR({std}+{ltd},"n/a")' if std and ltd else None, USD)
+
+    label(R_WARRANT, "認股權證／選擇權履約流入", "Warrant / Option Proceeds")
+    inputs(R_WARRANT, {"C": 0, "D": 0, "E": 0}, USD)
+    # ⚠ 履約會**同時**帶進現金：行使 200 萬股、履約價 $11.50 → 股數 +200 萬、現金 +2,300 萬。
+    #    只把股數加進第 20 列而漏掉這一列，目標價會系統性偏低。
+    #    數量與履約價藏在 10-K 附註本文（HTML），依專案硬規則數字不得從 HTML 取，
+    #    所以這一列沒有歷史參考值 —— 要自己去 EDGAR 查，不是我們漏抓。
+    ws.cell(row=R_WARRANT, column=REF, value="n/a（10-K 附註，companyfacts 無此欄位）").font = NOTE_F
+
+    label(R_EQUITY, "預估股權價值", "Projected Equity Value")
+    formulas(R_EQUITY, lambda k: guard([f"${k}${R_EV}", f"${k}${R_CASH}", f"${k}${R_DEBT}"],
+                                       f"${k}${R_EV}+${k}${R_CASH}-${k}${R_DEBT}+N(${k}${R_WARRANT})"), USD)
+
+    # ④ 每股價值
+    section(19, "④ 每股價值　股權價值 ÷ 完全稀釋股數")
+    label(R_SHARES, "完全稀釋股數", "Fully Diluted Shares")
+    inputs(R_SHARES, {}, SHARES)
+    _sd = cell("shares_diluted")
+    reference(R_SHARES, f'=IFERROR({_sd},"n/a")' if _sd else None, SHARES)
+
+    label(R_SHARES_REF, "（參考）最新期末流通股數", "Shares Outstanding")
+    _so = cell("shares_outstanding")
+    reference(R_SHARES_REF, f'=IFERROR({_so},"n/a")' if _so else None, SHARES)
+
+    label(R_PPS, f"目標年每股價值（FY{target_fy}）", "Target Price at Horizon")
+    formulas(R_PPS, lambda k: guard([f"${k}${R_EQUITY}", f"${k}${R_SHARES}"],
+                                    f"${k}${R_EQUITY}/${k}${R_SHARES}"), '$0.00')
+
+    # ⑤ 折現
+    section(23, "⑤ 折現　目標年每股價值 ÷ (1 ＋ 折現率) ^ 折現年數")
+    label(R_RATE, "折現率（權益成本 Cost of Equity，三情境共用）", "Discount Rate")
+    c = ws.cell(row=R_RATE, column=3, value=0.12)
+    c.number_format = PCT
+    c.font = INPUT_F
+    c.fill = INPUT_FILL
+    c.border = ROW_BORDER
+
+    label(R_TDATE, "目標年期末日", "Horizon Date")
+    c = ws.cell(row=R_TDATE, column=3, value=target_date)
+    c.number_format = "yyyy-mm-dd"
+    c.font = LINK_F
+    c.border = ROW_BORDER
+
+    label(R_YEARS, "折現年數（自今日起算）", "Years to Horizon")
+    c = ws.cell(row=R_YEARS, column=3, value=f'=IFERROR(YEARFRAC(TODAY(),$C${R_TDATE}),"n/a")')
+    c.number_format = '0.00"年"'
+    c.border = ROW_BORDER
+
+    label(R_PV, "折現後每股價值（今日）", "Discounted Value per Share")
+    formulas(R_PV, lambda k: guard([f"${k}${R_PPS}", f"$C${R_RATE}", f"$C${R_YEARS}"],
+                                   f"${k}${R_PPS}/(1+$C${R_RATE})^$C${R_YEARS}"), '$0.00')
+
+    # ── 加權結論 ────────────────────────────────────────────
+    R_T, R_W1, R_W2, R_PX, R_UP = 29, 30, 31, 32, 33
+    ws.cell(row=R_T, column=1, value="■ 機率加權結論　Probability-Weighted").font = TITLE_F
+    prob_ok = f"ABS(SUM($C${R_PROB}:$E${R_PROB})-1)<0.0001"
+
+    def weighted(r, zh, en, src_row, fmt):
+        label(r, zh, en)
+        c = ws.cell(row=r, column=3,
+                    value=f'=IF(NOT({prob_ok}),"機率合計不等於 100%",'
+                          f'IF(COUNT($C${src_row}:$E${src_row})<3,"{WAIT}",'
+                          f'SUMPRODUCT($C${R_PROB}:$E${R_PROB},$C${src_row}:$E${src_row})))')
+        c.number_format = fmt
+        c.font = Font(bold=True)
+        c.border = ROW_BORDER
+
+    weighted(R_W1, f"機率加權目標價（FY{target_fy}）", "Weighted Target Price", R_PPS, '$0.00')
+    weighted(R_W2, "機率加權今日合理價", "Weighted Present Value", R_PV, '$0.00')
+
+    label(R_PX, "目前股價", "Current Price")
+    c = ws.cell(row=R_PX, column=3, value="='估值倍數'!$B$3")
+    c.number_format = '$0.00'
+    c.font = LINK_F
+    c.border = ROW_BORDER
+
+    label(R_UP, "上漲空間", "Upside")
+    c = ws.cell(row=R_UP, column=3,
+                value=f'=IF(COUNT($C${R_W2},$C${R_PX})<2,"{WAIT}",IFERROR($C${R_W2}/$C${R_PX}-1,"n/a"))')
+    c.number_format = PCT
+    up_f, up_fill = _c("upside_positive", "107C41"), _c("upside_positive_fill", "C6EFCE")
+    dn_f, dn_fill = _c("upside_negative", "9C0006"), _c("upside_negative_fill", "FFC7CE")
+    c.font = Font(bold=True, color=up_f)
+    c.border = ROW_BORDER
+    for op, fc, fill in (("greaterThan", up_f, up_fill), ("lessThan", dn_f, dn_fill)):
+        ws.conditional_formatting.add(f"C{R_UP}", CellIsRule(
+            operator=op, formula=["0"], font=Font(bold=True, color=fc),
+            fill=PatternFill("solid", fgColor=fill, bgColor=fill)))
+
+    ws.cell(row=35, column=1,
+            value="藍字＝你要填的假設；黑字＝公式；綠字＝跨表連結或歷史參考").font = NOTE_F
+    ws.cell(row=36, column=1,
+            value="歷史參考欄只是「過去長這樣」，刻意不預填進藍字格 —— 預填會讓人把"
+                  "「拿過去當未來」誤當成有根據的預測。EBITDA 口徑為 營業利益＋折舊攤銷，"
+                  "與同業揭露的 adjusted EBITDA 可能不同，對照倍數時要留意。").font = NOTE_F
+
+    # ── 敏感度：終端倍數 × EBITDA 利潤率 → 今日合理價（中性情境其餘假設固定）──
+    S0 = 39
+    ws.cell(row=S0, column=1,
+            value="■ 敏感度　今日合理價（中性情境的營收／現金／負債／股數固定）").font = TITLE_F
+    ws.cell(row=S0 + 1, column=1, value="↓ 終端 EV/EBITDA 倍數　／　EBITDA 利潤率 →").font = NOTE_F
+    m_steps = (-0.02, -0.01, 0.0, 0.01, 0.02)
+    x_steps = (-2, -1, 0, 1, 2)
+    HR = S0 + 2
+    for j, dm in enumerate(m_steps):
+        c = ws.cell(row=HR, column=3 + j,
+                    value=f'=IF(COUNT($D${R_MARGIN})<1,"{WAIT}",$D${R_MARGIN}{dm:+g})')
+        c.number_format = PCT
+        c.font = Font(bold=True)
+        c.fill = SECT_FILL
+        c.border = CELL_BOX
+    for i, dx in enumerate(x_steps):
+        r = HR + 1 + i
+        c = ws.cell(row=r, column=2, value=f'=IF(COUNT($D${R_MULT})<1,"{WAIT}",$D${R_MULT}{dx:+g})')
+        c.number_format = MULT
+        c.font = Font(bold=True)
+        c.fill = SECT_FILL
+        c.border = CELL_BOX
+        for j in range(len(m_steps)):
+            L = g(3 + j)
+            deps = [f"$D${R_REV}", f"$D${R_CASH}", f"$D${R_DEBT}", f"$D${R_SHARES}",
+                    f"$C${R_RATE}", f"$C${R_YEARS}", f"{L}${HR}", f"$B{r}"]
+            expr = (f"($D${R_REV}*{L}${HR}*$B{r}+$D${R_CASH}-$D${R_DEBT}"
+                    f"+N($D${R_WARRANT}))/$D${R_SHARES}/(1+$C${R_RATE})^$C${R_YEARS}")
+            cc = ws.cell(row=r, column=3 + j, value=guard(deps, expr))
+            cc.number_format = '$0.00'
+            cc.border = ROW_BORDER
+            if dm == 0.0 and dx == 0:      # 中央＝中性情境本身，備註有講就要看得出來
+                cc.font = Font(bold=True, color=accent)
+    ws.cell(row=HR + len(x_steps) + 2, column=1,
+            value="中央那一格＝中性情境本身；橫向看倍數壓縮／擴張，縱向看利潤率。"
+                  "這張表只動這兩個變數，營收與股權橋樑固定在中性情境。").font = NOTE_F
+
+    # ── 圖：三情境 + 加權 vs 目前股價（長條，左軸含 0）──
+    CH = HR + len(x_steps) + 4
+    heads = ["樂觀", "中性", "悲觀", "機率加權", "目前股價"]
+    vals = [f"=C{R_PV}", f"=D{R_PV}", f"=E{R_PV}", f"=$C${R_W2}", f"=$C${R_PX}"]
+    for j, (h, v) in enumerate(zip(heads, vals)):
+        ws.cell(row=CH, column=2 + j, value=h).font = NOTE_F
+        c = ws.cell(row=CH + 1, column=2 + j, value=v)
+        c.number_format = '$0.00'
+        c.font = NOTE_F
+    chart = build_range_chart(ws, {"type": "bar", "title": "每股價值"},
+                              [("折現後每股價值", CH + 1)], 2, len(heads), header_row=CH)
+    if chart is not None:
+        # build_range_chart 的長條預設走「百萬美元」金額軸，這裡是每股金額要改回來
+        chart.title = "情景估值：折現後每股價值（美元）"
+        chart.y_axis.number_format = '$0.00'
+        chart.y_axis.numFmt = '$0.00'
+        ws.add_chart(chart, f"A{CH + 3}")
+
+    ws.freeze_panes = "C5"
+    return ws
 
 def rows_spec_map(rows_spec):
     return [((key or "price"), fmt) for zh, en, fmt, key in rows_spec]

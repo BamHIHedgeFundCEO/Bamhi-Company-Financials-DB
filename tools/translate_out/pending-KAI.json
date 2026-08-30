@@ -1,0 +1,177 @@
+{
+ "ticker": "KAI",
+ "cik": "0000886346",
+ "accession": "0000886346-26-000018",
+ "form": "10-K",
+ "reportDate": "2026-01-03",
+ "sections": {
+  "business": {
+   "headings": [
+    "Description of Our Business",
+    "Business Segments and Products",
+    "Dependency on a Single Customer",
+    "(In millions) January 3, 2026 December 28, 2024",
+    "Research and Development",
+    "Sales and Marketing",
+    "Raw Materials",
+    "Patents, Licenses, and Trademarks",
+    "Government Regulations",
+    "Seasonal Influences",
+    "Human Capital Resources",
+    "Available Information",
+    "Information about our Executive Officers",
+    "Name Age Present Title (Fiscal Year First Became Executive Officer)"
+   ],
+   "paragraphs": [
+    "Throughout this Annual Report on Form 10-K, when we use the terms \"we,\" \"us,\" \"our,\" \"Registrant,\" and the \"Company,\" we mean Kadant Inc., and its consolidated subsidiaries, taken as a whole, unless the context otherwise indicates. Kadant Inc. trades on the New York Stock Exchange under the ticker symbol \"KAI.\"",
+    "Unless otherwise noted, references to 2025, 2024, and 2023 in this Annual Report on Form 10-K are to our fiscal years ended January 3, 2026, December 28, 2024, and December 30, 2023, respectively.",
+    "We are a global supplier of technologies and engineered systems that drive Sustainable Industrial Processing®. Our products and services play an integral role in enhancing efficiency, optimizing energy utilization, and maximizing productivity in process industries while helping our customers advance their sustainability initiatives with products that reduce waste or generate more yield with fewer inputs, particularly fiber, energy, and water. Producing more while consuming less is a core aspect of Sustainable Industrial Processing and a major element of the strategic focus of our three reportable segments: Flow Control, Industrial Processing, and Material Handling.",
+    "We have a long and well-established history of developing, manufacturing, and servicing a range of products and equipment used in process industries such as paper, packaging, and tissue; wood products; mining; metals; food processing; and recycling and waste management, among others. Some of our businesses or their predecessor companies have been in operation for more than 100 years. Our diverse customer base includes global and regional industrial manufacturers and distributors who participate in the broader resource transformation sector. We believe we have one of the largest installed bases of equipment in the markets we serve around the globe.",
+    "We expect that a significant driver of our long-term growth will be the acquisition of businesses and technologies that complement or augment our existing products and services or may involve entry into a new process industry. We have completed acquisitions in each of our three reportable segments in recent years and continue to pursue acquisition opportunities.",
+    "On July 9, 2025, we acquired all the outstanding equity securities of Babbini S.p.A and G.P.S. Engineering S.r.l (collectively, Babbini), two Italy-based companies specializing in industrial dewatering and engineered power transmission solutions, for approximately $16.5 million, net of cash acquired. On October 7, 2025, we acquired all the outstanding equity securities of Clyde Industries Holdings, Inc. and its subsidiaries (collectively, Clyde Industries), a manufacturer of highly engineered boiler efficiency and cleaning system technologies for $173.7 million, net of cash acquired. Babbini and Clyde Industries are both part of our Industrial Processing segment.",
+    "On January 29, 2026, we entered into a definitive agreement to acquire the shares of voestalpine BÖHLER Profil GmbH & Co KG and voestalpine BÖHLER Profil VerwaltungsGmbH (collectively, voestalpine BÖHLER Profil), a global supplier of tailor-made special profiles with complex geometries and high-performance industrial knives for approximately 157.0 million euros in cash, subject to certain customary adjustments. The closing of this acquisition is subject to receipt of certain Austrian regulatory approvals and the satisfaction of customary closing conditions. Upon closing, voestalpine BÖHLER Profil will become part of our Industrial Processing segment and its name will change to Kadant Profil GmbH & Co KG.",
+    "We report our financial results by combining operating entities into three reportable segments consisting of our Flow Control segment, Industrial Processing segment, and Material Handling segment. See Note 11, Business Segment and Geographical Information, in the accompanying consolidated financial statements for financial information regarding our segments.",
+    "Through our Flow Control segment, we provide custom-engineered products, systems, and technologies that control the flow of fluids used in industrial and commercial applications to keep critical processes running efficiently in the packaging, paper and tissue, food, energy, defense and numerous other industrial sectors. The Flow Control segment consists of our fluid-handling and doctoring, cleaning, & filtration product lines.",
+    "We develop, manufacture and market fluid-handling systems, equipment and integrated technologies used in industrial piping systems to compensate for movement and to efficiently transfer fluid, power, and data. Our products are used primarily in the production of fiber-based packaging, energy, food, metals, chemicals, and in factory automation. Our principal fluid-handling systems and equipment include:",
+    "– Rotary joints: Our rotary sealing devices, used with rotating shafts, allow the transfer of pressurized fluid from a stationary source into and out of rotating or oscillating machinery for heating, cooling, or the transfer of fluid, power and data.",
+    "– Syphons: Our devices, installed inside rotating cylinders, are used to remove fluids from the rotating cylinders through rotary joints or unions located on either end of the cylinder.",
+    "– Turbulator® bars: Our steel or stainless steel axial bars, installed on the inside of cylinders, are used to induce turbulence in the condensate layer to improve the uniformity and rate of heat transfer through the cylinders.",
+    "– Expansion joints: Our rubber, metal, fabric, and other types of expansion joints are used to compensate for movement in industrial piping systems due to thermal expansion, vibration and other causes."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to our Business and Industry",
+    "Risks Related to our Foreign Operations",
+    "Risks Related to Regulation of our Business and Industry"
+   ],
+   "paragraphs": [
+    "Our business, results of operations and financial condition, and an investment in our securities, are subject to a number of risks. The risks and uncertainties described below are those that we have identified as material, but are not the only risks and uncertainties we face. Our business is also subject to general risks and uncertainties that affect many other companies, including overall economic and industry conditions. Additional risks and uncertainties not currently known to us or that we currently believe are not material may also impair our business, consolidated financial condition and results of operations.",
+    "Adverse changes in global and local economic conditions may negatively affect our industry, business and results of operations.",
+    "We sell products worldwide to global process industries and a significant portion of our revenue is from customers based in North America, Europe and China. Uncertainties in global and regional economic outlooks have negatively affected, and may in the future negatively affect, demand for our customers' products and, as a consequence, our products and services, especially our capital equipment systems and products, and our operating results. Also, uncertainty regarding economic conditions has caused, and may in the future cause, liquidity and credit issues for many businesses, including our customers and suppliers, and may result in their inability to fund projects, capacity expansion plans, and to some extent, routine operations and capital expenditures. These conditions, as well as other global events such as wars or global health crises, have resulted, and may in the future result, in a number of structural changes in process industries, including decreased spending, mill closures, consolidations, and bankruptcies, all of which negatively affect our business, revenue, and profitability. Financial and economic",
+    "turmoil affecting the worldwide economy or the banking system and financial markets, in particular due to political or economic developments, have negatively affected, and may in the future negatively affect, our business and cause our results of operations to differ materially from our current expectations.",
+    "Revenues from the sale of large capital equipment and systems projects are often difficult to predict accurately, especially in periods of economic uncertainty, and large capital equipment projects require significant investment requiring our customers to secure financing, which may be difficult.",
+    "We manufacture capital equipment and systems used in process industries, including the paper, fluid handling, wood processing and material handling industries. Approximately 29% of our revenue in 2025 was from the sale of capital equipment to be used in process industries. The demand for capital equipment is variable and depends on a number of factors, including consumer demand for end products, existing manufacturing capacity, the level of capital spending by our customers and economic conditions. As a consequence, our bookings and revenues for capital projects tend to be variable and hard to predict. It is especially difficult to accurately forecast our operating results during periods of economic uncertainty. Our customers curtail their capital and operating spending during periods of economic uncertainty and are cautious about resuming spending as market conditions improve. Levels of consumer spending on non-durable goods, demand for food and beverage packaging, and demand for new housing and remodeling are all factors that affect paper and wood processing companies' demand for our products. Expansion of bulk material handling capacity and infrastructure spending are factors that affect demand for material handling equipment. Reductions in demand levels in any of these areas can negatively impact our business. As companies in our customers' industries consolidate operations in response to market weakness, they frequently reduce capacity, increase downtime, defer maintenance and upgrades, and postpone or even cancel capacity additions or expansion projects. Capacity growth and investment can be uneven and our customers have delayed, and may in the future delay, additional new capacity start-ups in reaction to softer market conditions. In general, as significant capacity additions come online and the economic growth rate slows, our customers have deferred and could in the future defer further investments or the delivery of previously-ordered equipment until the market absorbs the new production."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Results of Operations",
+    "2025 Compared to 2024",
+    "(In thousands, except percentages) January 3,",
+    "2026 December 28,",
+    "2024 Increase (Decrease)",
+    "% Change Acquisitions Currency Translation  Increase (Decrease) % Change",
+    "2024 Basis Point Change",
+    "2024 Increase % Change",
+    "(In thousands) January 3,",
+    "2024 December 30,",
+    "Liquidity and Capital Resources",
+    "Application of Critical Accounting Estimates"
+   ],
+   "paragraphs": [
+    "Management's Discussion and Analysis of Financial Condition and Results of Operations should be read together with the consolidated financial statements and related notes set forth in Item 8, \"Financial Statements and Supplementary Data.\" The following discussion also contains forward-looking statements, including the outlook for our business, that involve a number of risks and uncertainties. See Part I, \"Forward-Looking Statements,\" for a discussion of the forward-looking statements contained below and Part I, Item 1A, \"Risk Factors,\" for a discussion of certain risks that could cause our actual results to differ materially from the results anticipated in such forward-looking statements.",
+    "A detailed discussion of the year-over-year results for 2024 compared with 2023 can be found in Part II, Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" of our Annual Report on Form 10-K for the fiscal year ended December 28, 2024, filed with the SEC.",
+    "We are a global supplier of technologies and engineered systems that drive Sustainable Industrial Processing®. Our products and services play an integral role in enhancing efficiency, optimizing energy utilization, and maximizing productivity in process industries while helping our customers advance their sustainability initiatives with products that reduce waste or generate more yield with fewer inputs, particularly fiber, energy, and water. Producing more while consuming less is a core aspect of Sustainable Industrial Processing and a major element of the strategic focus of our businesses.",
+    "Our financial results are reported in three reportable segments consisting of our Flow Control segment, Industrial Processing segment, and Material Handling segment. We have aggregated our operating segments into reportable segments where they contained similar products and economic characteristics, and shared similar types of customers, and production and distribution methods. Our Flow Control segment consists of our fluid-handling and doctoring, cleaning, & filtration operating segments and our Industrial Processing segment consists of our wood processing and fiber processing operating segments. See Note 11, Business Segment and Geographical Information, in the accompanying consolidated financial statements for a description of and financial information on our reportable segments.",
+    "Our consolidated bookings increased 5% to a record $1.034 billion in 2025 compared to 2024, driven by strong demand for our parts and consumables products and contributions from our recent acquisitions. Demand for our capital equipment products in 2025 was consistent with the prior year, as market uncertainty impacted our customers' capital investment decisions. This uncertainty was driven by escalating tariff rates and economic policies impacting manufacturers' operating costs. Persistent tariff uncertainty and ongoing trade negotiations continue to impact market conditions. This evolving trade environment has resulted in longer quote-to-order conversion times for capital orders. While customers continue to invest in maintenance and mission-critical equipment, those with discretion over project timing are deferring capital expenditures pending greater clarity regarding input costs and broader economic conditions. This impact is more pronounced in our Industrial Processing segment, where average capital order values are significantly higher than in our other segments.",
+    "From a geographic perspective, volatility in tariffs and trade policies has contributed to market uncertainty in North America, leading to cautious spending by manufacturers. In Europe, cost pressures and ongoing economic uncertainty related to trade tensions and geopolitical risks continue to impact market activity. In China, although government-led initiatives to stimulate domestic demand and manufacturing activity have been implemented, escalating trade tensions with the United States are generally expected to have a negative impact.",
+    "Overall, we anticipate higher bookings in 2026 compared to 2025, especially in our Industrial Processing segment where customer delays associated with pending orders from 2025 have resulted in a number of capital orders in the pipeline. We continue to see long-term strength in our end markets as customers rely on our products to enhance productivity through more efficient production processes. In addition, we anticipate growth opportunities resulting from both proposed and enacted legislation in the United States and internationally that is designed to stimulate investment.",
+    "An overview of our business by reportable segment is as follows:",
+    "•Flow Control – Our Flow Control segment bookings increased 4% in 2025 compared to 2024. This increase was primarily driven by strong demand for our parts and consumables products, especially in North America, partially offset by weaker demand for our capital equipment products in all regions. While quote activity related to capital projects remains strong, there have been delays in the timing for securing orders as customers remain cautious regarding their capital spending decisions. In certain European markets, excess production capacity and declining demand have resulted in the closure of several mills, adversely affecting demand for our capital equipment products. We expect steady demand in our Flow Control segment in 2026 and long-term strength in our end markets.",
+    "•Industrial Processing – Our Industrial Processing segment bookings increased 6% in 2025 compared to 2024, while organic bookings remained flat as strong performance at our wood processing product line was offset by weaker results in our fiber processing product line. Within our wood processing product line, capital equipment bookings increased 66% in 2025 compared to 2024, primarily driven by demand from the engineered wood industry in North America, where customers select our products for their ability to maximize wood fiber utilization. Despite these positive results, overall demand for our capital equipment in the wood processing product line was constrained by uncertain market conditions. While quote activity for large capital projects remains active, economic and tariff-related uncertainty has led to a lengthening in quote-to-order times as customers await improved market conditions, with some customers delaying capital orders into 2026. Capital bookings at our fiber processing product line decreased 26% in 2025 compared to 2024 due to constrained capital spending related to macroeconomic conditions. These conditions have resulted in the deferral of capital orders into 2026. Tariff-related uncertainty has had a greater impact in this segment due to higher average capital order values and our customers' ability to delay the timing of large capital projects. Despite these factors, demand for our aftermarket parts in our Industrial Processing segment has remained strong as customers prioritize maintenance spending. We expect steady demand for our aftermarket parts to continue in 2026. In addition, we anticipate a strengthening in demand for our capital equipment products in this segment in 2026, supported by the expected receipt of several large capital orders currently in the pipeline.",
+    "•Material Handling – Our Material Handling segment bookings increased 6% in 2025 compared to 2024, due to increased demand for our capital equipment products at our conveying and vibratory business. This increase was driven by underground mineral mining projects where customers placed substantial equipment orders to meet their operational requirements, partially offset by a decrease in demand for parts and consumables. In addition, there was higher demand at our baling business for both capital equipment and aftermarket products. In 2026, we expect steady demand for aftermarket parts and increased demand for capital equipment products in this segment.",
+    "Our global operations have been and continue to be impacted by complex market conditions fueled by tariff-related uncertainty, inflationary pressures, and geopolitical tensions. We expect our operating environment to continue to be challenging, resulting in continued uncertainty for 2026. However, we believe that the fundamentals of our business remain strong, supported by our solid market position in key product lines, experienced global operations teams, and the long-term strength of our end markets. For more information related to these challenges, and other factors impacting our business, please see Part I, Item 1A, \"Risk Factors.\"",
+    "Approximately half of our sales are to customers outside the United States, mainly in Europe, Asia, and Canada. As a result, our financial performance can be materially affected by currency exchange rate fluctuations between the U.S. dollar and foreign currencies. To mitigate the impact of foreign currency fluctuations, we generally seek to charge our customers in the same currency in which our operating costs are incurred. Additionally, we may enter into forward currency exchange contracts to hedge certain firm purchase and sale commitments denominated in currencies other than our subsidiaries' functional currencies. We currently do not use derivative instruments to hedge our exposure to exchange rate fluctuations created by the translation into the U.S. dollar of our foreign subsidiaries' results that are in functional currencies other than the U.S. dollar.",
+    "The United States has imposed tariffs in the past and more recently proposed and implemented new tariffs on certain countries and imports, which has and will continue to increase the cost of some of the parts and equipment we import. In addition, foreign countries have implemented and may in the future implement additional retaliatory tariffs in response to these actions by the United States, which have negatively impacted and may in the future negatively impact our operations. Although we are working to mitigate the impact of tariffs through pricing and sourcing strategies, we cannot be sure these strategies will effectively mitigate the impact of these costs. For more information on risks associated with our global operations, including tariffs, please see Part I, Item 1A, \"Risk Factors.\""
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "業務說明",
+    "業務分部與產品",
+    "對單一客戶之依賴",
+    "(以千萬為單位) 2026年1月3日 2024年12月28日",
+    "研究與發展",
+    "銷售與行銷",
+    "原物料",
+    "專利、許可與商標",
+    "政府規範",
+    "季節性影響",
+    "人力資源",
+    "可取得資訊",
+    "關於我們高階主管之資訊",
+    "姓名 年齡 現任職務（財務年度首次成為高階主管）"
+   ],
+   "paragraphs": [
+    "本年度10-K申報書中，當我們使用\"we\"、\"us\"、\"our\"、\"Registrant\"及\"Company\"這些詞語時，我們指的是Kadant Inc.及其合併子公司，整體而言，除非文意另有說明。Kadant Inc.在紐約證券交易所上市，股票代碼為\"KAI.\"",
+    "除非另有說明，本年度10-K申報書中提及的2025年、2024年及2023年，指的是我們財務年度分別為2026年1月3日、2024年12月28日及2023年12月30日。",
+    "我們是一家全球供應技術與工程系統的公司，推動Sustainable Industrial Processing®。我們的產品與服務在過程產業中扮演關鍵角色，提升效率、優化能源使用並最大化生產力，同時協助客戶推動永續計畫，透過減少浪費或以較少的投入產生更多產出，特別是纖維、能源與水。在消耗更少的同時產生更多，是Sustainable Industrial Processing的核心要素，也是我們三個應報告分部：Flow Control、Industrial Processing與Material Handling的戰略重點。",
+    "我們有長期且穩固的歷史，開發、製造與維護用於過程產業（如紙張、包裝與衛生紙；木材產品；礦業；金屬；食品加工；以及回收與廢棄物管理等）的產品與設備。我們的一些業務或其前身公司已營運超過100年。我們多樣化的客戶羣包括全球與區域性的工業製造商與經銷商，參與較廣的資源轉型產業。我們相信我們在全球服務市場中擁有其中一個規模最大的設備安裝基礎。",
+    "我們預期，長期成長的重要驅動力將來自於收購與我們現有產品與服務補充或增強的企業與技術，或可能進入新的過程產業。我們在過去幾年已於我們三個應報告分部完成多項收購，並持續尋求收購機會。",
+    "2025年7月9日，我們以約1,650萬美元（扣除現金）收購了位於義大利的Babbini S.p.A與G.P.S. Engineering S.r.l（合稱Babbini）所有發行的股權，這兩家公司專門從事工業脫水與工程傳動解決方案。2025年10月7日，我們以約1.737億美元（扣除現金）收購了Clyde Industries Holdings, Inc.及其子公司（合稱Clyde Industries）的所有發行股權，這家公司是高工程化鍋爐效率與清潔系統技術的製造商。Babbini與Clyde Industries均屬於我們的Industrial Processing分部。",
+    "2026年1月29日，我們與voestalpine BÖHLER Profil GmbH & Co KG與voestalpine BÖHLER Profil VerwaltungsGmbH（合稱voestalpine BÖHLER Profil）簽訂了最終協議，以約1.57億歐元現金（扣除常見調整）收購其股份，這是一家全球供應客製化特殊型材與複雜幾何形狀及高性能工業刀具的供應商。此收購的完成需取得某些奧地利監管機構的批准，並符合常見的交割條件。交割後，voestal.Ler Profil將成為我們Industrial Processing分部的一部分，其名稱將變更為Kadant Profil GmbH & Co KG。",
+    "我們將財務結果透過將運營實體合併為三個應報告分部，分別為Flow Control分部、Industrial Processing分部與Material Handling分部進行報告。請參閱隨附財務報表的附註11，Business Segment與Geographical Information，以取得有關我們分部的財務資訊。",
+    "透過我們的 Flow Control 分部，我們提供客製化工程產品、系統與技術，用以控制工業與商業應用中流體的流動，以確保關鍵流程能高效運作於包裝、紙張與衛生紙、食品、能源、防禦及許多其他工業領域。Flow Control 分部包含我們的流體處理與刮刀、清潔、與過濾產品線。",
+    "我們開發、製造與行銷用於工業管路系統的流體處理系統、設備與整合技術，用以補償移動並高效轉移流體、動力與數據。我們的產品主要應用於纖維基材包裝、能源、食品、金屬、化學品以及工廠自動化領域。我們的主要流體處理系統與設備包括：",
+    "– Rotary joints：我們的 rotary sealing 設備，用於旋轉軸，允許從靜止來源將加壓流體轉移至旋轉或擺動機械中，用以加熱、冷卻或轉移流體、動力與數據。",
+    "– Syphons：我們的設備安裝於旋轉圓筒內，用以透過旋轉接頭或接頭從圓筒的兩端移除流體。",
+    "– Turbulator® bars：我們的鋼製或不鏽鋼軸向條，安裝於圓筒內側，用以在冷凝層中引發渦流，以提高圓筒內熱傳導的均勻性與速度。",
+    "– Expansion joints：我們的橡膠、金屬、織物及其他類型的膨脹接頭，用以補償工業管路系統因熱膨脹、震動及其他原因造成的移動。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果",
+    "2025 年與 2024 年比較",
+    "(以千美元為單位，除百分比外) 1 月 3 日",
+    "2026 年 12 月 28 日",
+    "2024 增加（減少）",
+    "% 變動 收購 貨幣換算 增加（減少） % 變動",
+    "2024 基點變動",
+    "2024 增加 % 變動",
+    "(以千為單位) 1月3日",
+    "2024年12月30日",
+    "流動性及資本資源",
+    "關鍵會計估計的應用"
+   ],
+   "paragraphs": [
+    "本公司管理層對財務狀況與營運結果之討論與分析應與第 8 項「財務報表與補充資料」所載之合併財務報表及相關附註一併閱讀。以下討論亦包含前瞻性陳述，包括本公司業務展望，這些陳述涉及若干風險與不確定性。請參閱第一部分「前瞻性陳述」，以瞭解以下所載前瞻性陳述之討論，並參閱第一部分第 1A 項「風險因素」，以瞭解可能導致本公司實際結果與前瞻性陳述所預期結果有重大差異之某些風險。",
+    "2024 年與 2023 年年對年結果之詳細討論，請參閱本公司於 2024 年財務年度（截至 2024 年 12 月 28 日）所提交之 10-K 年度報告，第 II 部分第 7 項「管理層對財務狀況與營運結果之討論與分析」。",
+    "本公司為全球性技術與工程系統供應商，推動 Sustainable Industrial Processing®。本公司產品與服務在提升效率、優化能源使用及最大化生產力於流程產業中扮演關鍵角色，同時協助客戶透過減少浪費或以較少投入產生更多產出之產品，推進其永續發展計畫，特別是纖維、能源與水。以較少資源產生更多產出為 Sustainable Industrial Processing 之核心要素，亦為本公司業務之重要戰略重點。",
+    "本公司財務結果分為三個應報告分部，包括 Flow Control 分部、Industrial Processing 分部與 Material Handling 分部。本公司已將營運分部歸類為應報告分部，因這些分部具有相似之產品與經濟特性，且擁有相似類型之客戶，以及相似之生產與分銷方式。Flow Control 分部包括本公司之流體處理與 doctoring、清潔、與過濾營運分部，Industrial Processing 分部包括本公司之木材處理與纖維處理營運分部。請參閱附註 11，「業務分部與地理資訊」，以瞭解本公司應報告分部之描述與財務資訊。",
+    "本公司合併訂單金額於 2025 年較 2024 年成長 5%，達歷史新高 10.34 億美元，主要受益於對本公司零組件與消耗品產品之強勁需求，以及近期併購之貢獻。2025 年本公司資本設備產品之需求與前一年度相當，因市場不確定性影響客戶之資本投資決策。此不確定性係因關稅率持續升高與影響製造商營運成本之經濟政策所致。持續存在的關稅不確定性與持續進行之貿易談判繼續影響市場條件。此不斷變化的貿易環境已導致資本訂單之報價至訂購轉化時間延長。雖然客戶持續投資於維護與關鍵業務設備，但擁有項目時程決定權之客戶則延後資本支出，待對投入成本與整體經濟條件有更多明確資訊為止。此影響在 Industrial Processing 分部更為顯著，因該分部之平均資本訂單價值遠高於其他分部。",
+    "從地理觀點來看，關稅與貿易政策之波動已導致北美地區市場不確定性增加，使製造商支出變得謹慎。在歐洲，成本壓力與持續存在的經濟不確定性，因貿易緊張關係與地緣政治風險，繼續影響市場活動。在中國，雖然政府已推行刺激內需與製造活動之政策，但與美國持續升級之貿易緊張關係預期將產生負面影響。",
+    "總體而言，本公司預期 2026 年之訂單金額將較 2025 年更高，特別是在 Industrial Processing 分部，因 2025 年待處理訂單所導致之客戶延遲，已使許多資本訂單進入管道。本公司持續觀察到終端市場之長期強勢，因客戶依賴本公司產品以提升生產力，透過更有效率之生產流程。此外，本公司預期因美國與國際所提出與實施之立法，將產生成長機會，這些立法旨在刺激投資。",
+    "本公司依應報告分部所呈現之業務概況如下：",
+    "•Flow Control – 我們 Flow Control 應報告分部的訂單金額在 2025 年相比 2024 年成長 4%。此成長主要由我們零組件與消耗品產品的強勁需求所驅動，特別是在北美地區，部分抵銷了我們資本設備產品在所有地區較弱的需求。雖然與資本工程項目相關的詢價活動仍然強勁，但客戶在取得訂單的時間上出現延遲，因客戶對其資本支出決策仍保持謹慎。在某些歐洲市場，過度的生產能力與需求下降導致數家廠礦關閉，不利於我們資本設備產品的需求。我們預期 2026 年 Flow Control 應報告分部的需求將保持穩定，並在長期的終端市場中表現強勁。",
+    "•Industrial Processing – 我們 Industrial Processing 應報告分部的訂單金額在 2025 年相比 2024 年成長 6%，而內生性訂單金額則維持穩定，因木製品處理產品線的強勁表現抵銷了纖維處理產品線較弱的結果。在木製品處理產品線中，資本設備訂單金額在 2025 年相比 2024 年成長 66%，主要由北美地區工程木材產業對我們產品的強勁需求所驅動，客戶選擇我們產品因其能最大化木材纖維利用率。儘管有這些正面結果，木製品處理產品線的資本設備整體需求仍受到市場不確定性所限制。雖然大型資本工程項目的詢價活動仍然活躍，但經濟與關稅相關的不確定性導致詢價至訂單的時間延長，客戶等待市場條件改善，部分客戶將資本訂單延後至 2026 年。纖維處理產品線的資本訂單金額在 2025 年相比 2024 年減少 26%，因宏觀經濟條件導致資本支出受到限制。這些條件導致資本訂單延後至 2026 年。關稅相關的不確定性對此應報告分部的影響更大，因平均資本訂單價值較高，且客戶有能力延後大型資本工程項目的執行時間。儘管有這些因素，我們 Industrial Processing 應報告分部的後市場零組件需求仍保持強勁，因客戶優先考慮維護支出。我們預期 2026 年後市場零組件的需求將持續穩定。此外，我們預期 2026 年此應報告分部的資本設備產品需求將強化，因預期將收到數筆大型資本訂單。",
+    "•Material Handling – 我們 Material Handling 應報告分部的訂單金額在 2025 年相比 2024 年成長 6%，因 conveying 與 vibratory 事業的資本設備產品需求增加。此成長由地下礦物開採專案所驅動，客戶放置大量設備訂單以滿足其運營需求，部分抵銷了零組件與消耗品需求的減少。此外，baling 事業對資本設備與後市場產品的需求也提高。在 2026 年，我們預期此應報告分部的後市場零組件需求將保持穩定，並增加資本設備產品的需求。",
+    "我們的全球運營已受到並持續受到複雜市場條件的影響，這些條件由關稅相關的不確定性、通貨膨脹壓力與地緣政治緊張所驅動。我們預期運營環境將持續具有挑戰性，導致 2026 年持續存在不確定性。然而，我們相信我們業務的基本面仍然強勁，這由我們在關鍵產品線中的穩固市場地位、經驗豐富的全球運營團隊，以及終端市場的長期強勢所支撐。如需更多有關這些挑戰及其他影響我們業務的因素資訊，請參閱第一部分，第 1A 項，\"風險因素。\"",
+    "我們約一半的銷售額來自美國以外的客戶，主要在歐洲、亞洲與加拿大。因此，我們的財務表現可能因美國美元與外幣之間的匯率波動而受到重大影響。為降低外幣波動的影響，我們通常會以我們運營成本產生的相同貨幣向客戶收費。此外，我們可能與其他貨幣訂立遠期外匯合約，以對沖某些以非子公司功能貨幣計價的確定買賣承諾。目前，我們不使用衍生工具來對沖因外幣子公司結果轉換為美元而產生的匯率波動風險，這些子公司使用的是非美元的功能貨幣。",
+    "美國過去已徵收關稅，並最近提出並實施對某些國家與進口商品的新關稅，這已並會繼續增加我們進口的一些零組件與設備的成本。此外，外國國家已實施並可能在未來實施額外的報復性關稅，以回應美國的這些行動，這已並可能未來對我們的運營產生負面影響。儘管我們正在透過價格與來源策略來緩解關稅的影響，但我們無法確定這些策略是否能有效緩解這些成本的影響。如需更多有關我們全球運營相關風險的資訊，包括關稅，請參閱第一部分，第 1A 項，\"風險因素。\""
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司及產業相關之風險",
+    "與本公司海外營運相關之風險",
+    "與本公司產業監管相關之風險"
+   ],
+   "paragraphs": [
+    "本公司業務、營運成果與財務狀況，以及投資本公司證券之風險，均受到許多風險影響。下列所描述之風險與不確定性，為本公司已識別為重大者，但並非本公司所面臨之唯一風險與不確定性。本公司業務亦受到影響許多其他公司之普遍風險與不確定性，包括總體經濟與產業條件。此外，尚有其他未被本公司知悉或目前認為不具重大性之風險與不確定性，亦可能影響本公司業務、合併財務狀況與營運成果。",
+    "全球與地方經濟條件之惡化，可能對本公司產業、業務與營運成果產生負面影響。",
+    "本公司將產品銷售至全球流程產業，且我們營收之重大部分來自設立於北美、歐洲與中國之客戶。全球與區域經濟展望之不確定性已對我們客戶產品之需求產生負面影響，並可能在未來繼續產生負面影響，進而影響我們之產品與服務，尤其是我們之資本設備系統與產品，以及我們之營運成果。此外，對經濟條件之不確定性已導致，並可能在未來導致，許多企業，包括我們之客戶與供應商，產生流動性與信貸問題，並可能導致其無法資助專案、擴充計畫，以及在一定程度上，日常營運與資本支出。這些條件，以及其它全球事件，例如戰爭或全球健康危機，已導致，並可能在未來導致，流程產業中出現許多結構性變動，包括支出減少、磨坊關閉、併購與破產，所有這些均對本公司業務、營收與獲利產生負面影響。財務與經濟",
+    "動盪影響全球經濟或銀行體系與金融市場，特別是因政治或經濟發展所導致，已對本公司業務產生負面影響，並可能在未來繼續產生負面影響，導致我們之營運成果與目前預期有重大差異。",
+    "銷售大型資本設備與系統專案之收入，往往難以準確預測，尤其是在經濟不確定時期，且大型資本設備專案需要客戶進行重大投資，客戶必須取得融資，這可能困難。",
+    "本公司製造用於流程產業之資本設備與系統，包括紙業、流體處理、木材加工與物料處理產業。2025 年本公司營收約有 29% 來自銷售用於流程產業之資本設備。對資本設備之需求會變動，並取決於許多因素，包括終端產品之消費者需求、現有製造能力、客戶之資本支出水平與經濟條件。因此，我們資本專案之訂單與營收往往會變動且難以預測。在經濟不確定時期，尤其難以準確預測我們之營運成果。在經濟不確定時期，我們之客戶會減少資本與營運支出，並對市場條件改善後恢復支出持謹慎態度。消費者對非耐用品之支出、食品與飲料包裝之需求，以及新住宅與翻修之需求，均為影響紙業與木材加工公司對我們產品需求之因素。.bulk material handling 能力之擴張與基礎建設支出，為影響物料處理設備需求之因素。任何這些領域之需求減少，均可能對本公司業務產生負面影響。在客戶產業中，面對市場疲弱時，公司常會整併營運，並經常減少產能、增加停機時間、延後維護與升級，並延後或甚至取消產能增加或擴張專案。產能成長與投資可能不均，客戶已延後，並可能在未來延後，新增產能啟動，以應對較弱之市場條件。總體而言，當重大產能增加啟用且經濟成長率減緩時，客戶已延後，並可能在未來延後進一步投資或交付先前訂購之設備，直到市場吸收新生產。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

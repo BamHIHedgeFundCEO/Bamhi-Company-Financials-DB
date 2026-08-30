@@ -1,0 +1,110 @@
+{
+ "ticker": "RUSHA",
+ "cik": "0001012019",
+ "accession": "0001437749-26-005424",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Access to Company Information",
+    "Our Business Strategy",
+    "Management of Our Dealerships",
+    "Human Capital Management",
+    "Sales and Marketing",
+    "Facility Management",
+    "Recent Acquisitions",
+    "Dealership Franchise Agreements",
+    "Floor Plan Financing",
+    "Lease and Rental Fleet Financing",
+    "Product Warranties",
+    "Environmental Standards and Other Governmental Regulations"
+   ],
+   "paragraphs": [
+    "References herein to \"the Company,\" \"Rush Enterprises,\" \"we,\" \"our\" or \"us\" mean Rush Enterprises, Inc., a Texas corporation, and its subsidiaries unless the context requires otherwise.",
+    "We electronically file annual reports, quarterly reports, proxy statements and other reports and information statements with the SEC. You may read and copy any of the materials that we have filed with the SEC at the SEC's Public Reference Room at 100 F Street NE, Washington, DC 20549. You may obtain information about the Public Reference Room by calling the SEC at 1-800-SEC-0330. Our filings are also available to you on the SEC's website at www.sec.gov.",
+    "We make certain of our SEC filings available, free of charge, through our website, including annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K and all amendments to these reports. These filings are available as soon as reasonably practicable after such material is electronically filed with, or furnished to, the SEC. Our website address is www.rushenterprises.com. The information contained on our website, or on other websites linked to our website, is not incorporated into this report or otherwise made part of this report.",
+    "Rush Enterprises, Inc. was incorporated in Texas in 1965 and consists of one reportable segment, the Truck Segment, and conducts business through its subsidiaries. Our principal offices are located at 555 IH 35 South, New Braunfels, Texas 78130.",
+    "We are a full-service, integrated retailer of commercial vehicles and related services. The Truck Segment includes our operation of a network of commercial vehicle dealerships under the name \"Rush Truck Centers.\" Rush Truck Centers primarily sell commercial vehicles manufactured by Peterbilt, International, Hino, Ford, Isuzu, IC Bus, Blue Bird, Blue Arc and Battle Motors. Through our strategically located network of Rush Truck Centers, we provide one-stop service for the needs of our commercial vehicle customers, including retail sales of new and used commercial vehicles, aftermarket parts sales, service and repair facilities, financing, leasing and rental, and insurance products.",
+    "Our Rush Truck Centers are principally located in high traffic areas throughout the United States and Ontario, Canada. Since commencing operations as a Peterbilt heavy-duty truck dealer in 1966, we have grown to operate 126 franchised Rush Truck Centers in 23 states. We own an 80% equity interest in Rush Truck Centres of Canada Limited (\"RTC Canada\"). RTC Canada currently owns and operates 12 International dealerships and 2 IC Bus dealerships in Ontario. RTC Canada also sells IC Buses in the province of Quebec and the provinces of New Brunswick, Nova Scotia and Prince Edward Island (collectively, the \"Maritimes\"). The operating results of RTC Canada are consolidated in the Consolidated Statements of Operations, the Statements of Comprehensive Income, the Consolidated Balance Sheets and commercial vehicle unit sales data.",
+    "Our business strategy consists of providing solutions to the commercial vehicle industry through our network of commercial vehicle dealerships. We offer an integrated approach to meeting customer needs by providing service, parts and collision repairs in addition to new and used commercial vehicle sales and leasing, plus financial services, vehicle upfitting, CNG fuel systems through our joint venture with Cummins and vehicle telematics products. We intend to continue to implement our business strategy, reinforce customer loyalty and remain a market leader by continuing to develop our Rush Truck Centers as we expand our product offerings and extend our dealership network through strategic acquisitions of new locations and opening new dealerships in our existing areas of operation to enable us to better serve our customers.",
+    "Through certain of our Rush Truck Centers and several stand-alone locations, we operate 55 franchised Rush Truck Leasing locations in 21 states and 5 locations in Ontario. We provide a broad line of product selections for lease or rent, including Class 4 through Class 8 commercial vehicles, heavy-duty cranes and refuse vehicles. Our lease and rental fleets are offered to customers on a daily, monthly or long-term basis. Substantially all of our long-term leases also contain a service provision, whereby we agree to service the vehicle through the life of the lease. In addition to the product selections for lease or rent, Rush Truck Leasing also provides full-service maintenance on customers' vehicles at several of our customers' facilities.",
+    "The following chart reflects the locations of our operations by state or province as of December 31, 2025:",
+    "Market Number of Owned Locations (1) Number of Leased Locations (1) Number of Other Locations",
+    "(2) Number of Franchises (3) Texas Ontario, CAN Georgia Ohio Illinois Florida California Missouri",
+    "Arkansas Kansas Idaho Utah Arizona North Carolina Oklahoma Colorado Virginia Tennessee Indiana",
+    "New Mexico Nevada Nebraska Quebec, CAN Alabama Kentucky Totals (1) Includes Rush Truck Centers and Rush Truck Leasing",
+    "Includes House of Trucks, Perfection Equipment, Chrome Country, Custom Vehicle Solutions, World Wide Tires and Rush Truck Insurance Services"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business Operations",
+    "Risks Related to Financial and Economic Matters",
+    "Risks Related to Legal and Regulatory Matters",
+    "Risks Related to Our Common Stock"
+   ],
+   "paragraphs": [
+    "An investment in our common stock is subject to certain risks inherent to our business. In addition to the other information contained in this Form 10-K, we recommend that you carefully consider the following risk factors in evaluating our business. If any of the following risks occur, our financial condition and results of operations could be materially adversely affected. If this were to happen, the value of our common stock could decline significantly, and you could lose all or part of your investment. This report is qualified in its entirety by these risk factors.",
+    "We are dependent upon PACCAR for the supply of Peterbilt trucks and parts, as well as the financing of Peterbilt trucks, the sale of which generates the majority of our revenues.",
+    "At certain Rush Truck Centers, we operate as a dealer of Peterbilt trucks and parts pursuant to dealership agreements with Peterbilt, a division of PACCAR. We have no control over the management or operation of Peterbilt or PACCAR. During 2025, the majority of our revenues resulted from sales of trucks purchased from Peterbilt and parts purchased from PACCAR Parts. Due to our dependence on PACCAR and Peterbilt, we believe that our long-term success depends, in large part, on the following:",
+    "our ability to maintain our dealership agreements with Peterbilt;",
+    "the manufacture and delivery of competitively priced, technologically current, emissions-compliant, high-quality Peterbilt trucks in quantities sufficient to meet our requirements;",
+    "the overall success of PACCAR and Peterbilt; PACCAR's continuation of its Peterbilt division; and"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "取得本公司資訊",
+    "本公司營運策略",
+    "經銷商管理",
+    "人力資本管理",
+    "銷售與行銷",
+    "廠場管理",
+    "近期併購",
+    "經銷商特許經營協議",
+    "Floor Plan Financing",
+    "Lease and Rental Fleet Financing",
+    "Product Warranties",
+    "Environmental Standards and Other Governmental Regulations"
+   ],
+   "paragraphs": [
+    "本文件所稱 \"本公司\"、\"Rush Enterprises\"、\"我們\"、\"我們的\" 或 \"我們\"，均指 Rush Enterprises, Inc.，為一家德克薩斯州公司，及其子公司，除非文意另有明確要求。",
+    "我們透過電子方式向美國證券交易委員會（SEC）提交年度報告、季報、股東權益說明書及其他報告與資訊說明書。您可前往 SEC 的公開參考室閱覽及複製我們向 SEC 提交的任何資料，該公開參考室位於華盛頓特區 100 F Street NE，郵遞區號 20549。您可透過撥打 SEC 的電話 1-800-SEC-0330 獲取有關公開參考室的資訊。我們的資料亦可於 SEC 的網站 www.sec.gov 查閱。",
+    "我們透過網站提供部分 SEC 提交資料，免費供公眾使用，包括年度報告（Form 10-K）、季報（Form 10-Q）、現況報告（Form 8-K）及所有對這些報告的修正案。這些資料在資料電子提交或傳送至 SEC 後，盡速可供公眾使用。我們的網站網址為 www.rushenterprises.com。我們網站或連結至我們網站的其他網站的資訊，並未納入本報告，亦未成為本報告的一部分。",
+    "Rush Enterprises, Inc. 於 1965 年在德克薩斯州成立，包含一個應報告分部，即貨車分部，並透過其子公司進行營運。我們的總部位於德克薩斯州紐布蘭費爾斯市 555 IH 35 South，郵遞區號 78130。",
+    "我們是一家提供商業車輛及相關服務的全服務整合型零售商。貨車分部包含我們透過 \"Rush Truck Centers\" 名稱經營的商業車輛經銷網路。Rush Truck Centers 主要銷售由 Peterbilt、International、Hino、Ford、Isuzu、IC Bus、Blue Bird、Blue Arc 及 Battle Motors 所製造的商業車輛。透過我們 strategically located 的 Rush Truck Centers 網路，我們為商業車輛客戶提供一站式服務，包括新舊商業車輛的零售銷售、後市場零件銷售、服務與維修設施、融資、租賃及租借，以及保險產品。",
+    "我們的 Rush Truck Centers 主要位於美國及加拿大安大略省的高流量地區。自 1966 年開始作為 Peterbilt 重型貨車經銷商營運以來，我們已擴展至在 23 個州經營 126 家特許 Rush Truck Centers。我們持有 Rush Truck Centres of Canada Limited（\"RTC Canada\"）80% 的權益。RTC Canada 目前在安大略省擁有並營運 12 家 International 經銷商及 2 家 IC Bus 經銷商。RTC Canada 亦在魁北克省及新 Brunswick、諾瓦 Scotia 及 Prince Edward Island 省（合稱 \"馬更些地區\"）銷售 IC Buses。RTC Canada 的營運結果已納入綜合損益表、綜合收入表、綜合資產負債表及商業車輛單位銷售資料中。",
+    "我們的業務策略為透過商業車輛經銷網路為商業車輛產業提供解決方案。我們透過提供服務、零件及碰撞修復，以及新舊商業車輛銷售與租賃、金融服務、車輛裝備、與 Cummins 合資公司提供的 CNG 燃料系統及車輛遠端通訊產品，提供整合型方案以滿足客戶需求。我們意圖持續實施業務策略，強化客戶忠誠度，並保持市場領導地位，透過持續發展 Rush Truck Centers 來擴展產品種類，並透過戰略性收購新據點及在現有營運區域內開設新經銷商，以更好地服務客戶。",
+    "透過部分 Rush Truck Centers 及多個獨立據點，我們經營 55 家特許 Rush Truck Leasing 機構，位於 21 個州及安大略省 5 個據點。我們提供廣泛的產品選擇供租賃或租借，包括 Class 4 至 Class 8 商業車輛、重型起重機及垃圾車。我們的租賃及租借車隊可根據客戶需求，提供每日、每月或長期租賃。幾乎所有長期租賃均包含服務條款，即我們同意在租賃期間內為車輛提供服務。除了租賃或租借的產品選擇外，Rush Truck Leasing 亦在部分客戶的設施內提供完整的車輛維護服務。",
+    "下述圖表反映截至2025年12月31日，本公司各營運據點所在地之州或省份",
+    "市場自有據點數量 (1) 租賃據點數量 (1) 其他據點數量",
+    "(2) 特許經營權數量 (3) 德克薩斯州 安大略省, 加拿大 佐治亞州 俄亥俄州 印第安納州 佛羅裏達州 加利福尼亞州 密蘇裏州",
+    "阿肯色州、堪薩斯州、愛達荷州、猶他州、亞利桑那州、北卡羅來納州、奧克拉荷馬州、科羅拉多州、維吉尼亞州、田納西州、印第安那州",
+    "新墨西哥州、內華達州、內布拉斯加州、魁北克, 加拿大、阿拉巴馬州、肯塔基州 總計 (1) 包含 Rush Truck Centers 與 Rush Truck Leasing",
+    "包含 House of Trucks、Perfection Equipment、Chrome Country、Custom Vehicle Solutions、World Wide Tires 與 Rush Truck Insurance Services"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司營運相關之風險",
+    "與財務及經濟事項相關之風險",
+    "與法律及法規事項相關之風險",
+    "與本公司普通股相關之風險"
+   ],
+   "paragraphs": [
+    "投資本公司的普通股股票，將面臨與本公司業務相關的某些風險。除本Form 10-K所包含的其他資訊外，我們建議您在評估本公司業務時，應謹慎考慮下列風險因素。若有任何下列風險發生，將可能對本公司財務狀況及營運結果造成重大不利影響。若發生此情況，本公司普通股股票的價值可能顯著下跌，您可能損失全部或部分投資。本報告全部內容均受這些風險因素所限制。",
+    "我們依賴PACCAR提供Peterbilt卡車與零組件，以及Peterbilt卡車的融資，而Peterbilt卡車的銷售產生我們絕大多數的營業收入。",
+    "在某些Rush Truck Centers，我們根據與Peterbilt的經銷協議，作為Peterbilt卡車與零組件的經銷商，而Peterbilt為PACCAR的一個部門。我們對Peterbilt或PACCAR的管理與營運毫無控制權。在2025年，我們絕大多數的營業收入來自於從Peterbilt購入的卡車與從PACCAR Parts購入的零組件銷售。由於我們對PACCAR與Peterbilt的依賴，我們認為本公司長期的成功，在很大程度上取決於以下因素：",
+    "我們維持與Peterbilt經銷協議的能力；",
+    "製造並交付具競爭價格、技術上最新、符合排放標準、高品質的Peterbilt卡車，數量足夠以滿足我們的需求；",
+    "PACCAR與Peterbilt整體的成功；PACCAR持續經營其Peterbilt部門；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

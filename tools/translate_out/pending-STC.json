@@ -1,0 +1,195 @@
+{
+ "ticker": "STC",
+ "cik": "0000094344",
+ "accession": "0000094344-26-000007",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Title Segment",
+    "Real Estate Solutions Segment",
+    "Corporate Segment"
+   ],
+   "paragraphs": [
+    "Founded in 1893, Stewart Information Services Corporation (NYSE:STC) (Stewart) is a customer-focused, global title insurance and real estate services company offering products and services through our direct operations, network of approved agencies and other companies within the Stewart family. One of the largest global title insurance companies and underwriters in the industry, Stewart provides services to homebuyers and sellers, residential and commercial real estate professionals, mortgage lenders and servicers, title agencies, real estate attorneys and home builders. Stewart also provides credit and real estate data services, property preservation and field services, valuation management services, online notarization and closing services, search services, home and personal insurance services, tax-deferred exchanges, and technology services to streamline the real estate process. Stewart is headquartered in Houston, Texas and operates primarily throughout the United States (U.S.) and has regional offices in Australia, Canada and the United Kingdom.",
+    "Our companies are industry leaders in the spaces they operate in and while each is unique in service offerings, they all share a common belief in providing a high level of services through team focus and customer-centric mindset. For more information on various Stewart companies and brands, refer to our website, www.stewart.com/en/about-stewart/stewart-brands.html.",
+    "We currently report our business in three segments: title insurance and related services (title), real estate solutions, and corporate. Refer to Note 18 to our audited consolidated financial statements and Item 7 – Management's Discussion and Analysis of Financial Condition and Results of Operations (MD&A) for financial information related to our segments.",
+    "Title insurance and related services include the functions of searching, examining, closing and insuring the condition of the title to real property. The title segment also includes home and personal insurance services, Internal Revenue Code Section 1031 tax-deferred (Section 1031) exchanges, and digital customer engagement platform services.",
+    "Examination and closing. The purpose of a title examination is to ascertain the ownership of the property being transferred, debts that are owed on it and the scope of the title policy coverage. This involves searching for and examining documents such as deeds, mortgages, wills, divorce decrees, court judgments, liens, assessments and tax records.",
+    "At the closing or settlement of a sale transaction, the seller executes and delivers a deed to the new owner. The buyer typically signs new mortgage documents and closing funds are disbursed to the seller, the prior lender, real estate brokers, the title company and others. Certain documents, such as the deed and mortgage or deed of trust, are then recorded in the public records. A title insurance policy is generally issued to both the new lender and the owner at the closing of the transaction.",
+    "At the closing or settlement of a refinance transaction, the borrower executes and delivers a mortgage or deed of trust to the lender. The borrower typically signs the mortgage documents and closing funds are ordinarily disbursed to the prior lender, the title company and others. Certain documents are then recorded in the public records. A title insurance policy is generally issued to the new lender at the closing or recording of the transaction.",
+    "Title insurance policies. Lenders in the United States generally require title insurance as a condition to making a loan on real estate, including securitized lending, as this assures lenders of the priority of their lien position on the real estate property. Also, the purchasers of the real estate property want insurance to protect against claims that may arise against the title to the property. The face amount of the owner's policy is normally the purchase price in a purchase transaction, while the face amount of the lender's policy is the amount of the related loan when financing is involved in either a purchase or refinance transaction.",
+    "Title insurance is substantially different from other types of insurance. Fire, auto, health and life insurance policies protect against future losses and events. In contrast, title insurance generally insures against losses from past events and seeks to protect the policyholder or lender by eliminating covered risks through the examination and settlement process. In essence, subject to its exceptions, conditions and exclusions, an owner's title insurance policy provides a warranty to the policyholder that the title to the property is free from defects that might impair ownership rights, or in the case of a lender's policy, that there is priority of lien position. Most other forms of insurance provide protection for a limited period of time and, hence the policy must be periodically renewed. Title insurance, however, is issued for a one-time premium and the owner's policy provides protection for as long as the owner owns the property, or has liability in connection with the property, or a lender under its policy has its insured lien on the property. Also, a title insurance policy does not have a finite contract term, whereas most other lines of insurance have definite beginning and ending dates for coverage. Although an owner's title insurance policy provides protection for as long as the owner owns the property being covered, the title insurance company generally does not have information about which policies are still effective. Most other lines of insurance receive periodic premium payments and policy renewals thereby allowing the insurance company to know which policies are effective. In certain circumstances, we may provide post-policy coverage and we may provide coverage against certain known risks after analyzing the underwriting risks.",
+    "Losses. Losses on policies occur when a title defect is not discovered during the examination and settlement process and the policyholder makes a claim under the policy. Reasons for losses include, but are not limited to, forgeries, misrepresentations, unrecorded or undiscovered liens, the failure to pay off existing liens, mortgage lending fraud, mishandling or defalcation of settlement funds, issuance by independent agencies of unauthorized coverage and defending policyholders when covered claims are filed against an owner's or lender's interest in the property. Losses may also occur for coverage that we may provide under closing protection letters.",
+    "Some claimants seek damages in excess of policy limits. Those claims are based on various legal theories. We vigorously defend against spurious claims and provide protection for covered claims up to the limits set forth in the policy. We have from time-to-time incurred losses in excess of policy limits. Experience shows that most policy claims and claim payments are made in the first eight years after the policy has been issued, although claims can also be reported and paid many years later. By their nature, claims are often complex, vary greatly in dollar amounts and are affected by economic and market conditions, the specific facts of the individual claim and the legal environment existing at the time claims are processed.",
+    "Our liability for estimated title losses comprises estimates of both known claims and incurred but unreported claims expected to be paid in the future for policies issued as of the balance sheet date. The amount of our loss reserve represents the aggregate future payments (net of recoveries) that we expect to make on policy losses and in costs to settle claims. In accordance with industry practice, these amounts have not been discounted to their present values. Estimating future title loss payments is difficult due to the complex nature of title claims, the length of time over which claims are paid, the significant variance in dollar amounts of individual claims and other factors. The amounts provided for policy losses are based on reported claims, historical loss payment experience and the current legal and economic environment. Estimated provisions for current year policy losses are charged to income in the same year the related premium revenues are recognized. Annual provisions for policy losses also include changes in the estimated aggregate liability on policies issued in prior years.",
+    "Amounts shown as our estimated liability for future loss payments are continually reviewed by us for reasonableness and adjusted as appropriate. We have consistently followed the same basic method of estimating and recording our loss reserves for more than 30 years. As part of our process, we also obtain input from third-party actuaries regarding our methodology and resulting reserve calculations. While we are responsible for determining our loss reserves, we utilize this actuarial input to assess the overall reasonableness of our estimated reserves.",
+    "See Critical Accounting Estimates - Title Loss Reserves under Item 7 - MD&A for information on current year policy losses and consolidated balance sheet reserves."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Strategic Risk Factors",
+    "Acquisitions or strategic investments we have made or may make could turn out to be unsuccessful.",
+    "Innovations and title insurance waivers and alternatives introduced by real estate industry participants, including our competitors, lenders and investors may be potentially disruptive and could adversely affect Stewart.",
+    "Stewart's risk management program may not effectively assess, identify, and manage risks, which could negatively impact our business, financial condition and results of operations.",
+    "Operational Risk Factors",
+    "Adverse changes in economic conditions, especially those affecting the levels of real estate and mortgage activity, may reduce our revenues.",
+    "Our claims experience may require us to increase our provision for title losses or to record additional reserves, either of which would adversely affect our earnings.",
+    "The issuance of our title insurance policies and related activities by title agents, which operate with substantial independence from us, could adversely affect our operations.",
+    "Competition in the title insurance industry may affect our revenues.",
+    "Information technology (IT) systems present potential targets for cybersecurity attacks.",
+    "Errors and fraud relating to fund transfers may adversely affect us.",
+    "It may become difficult to acquire necessary data used in our business, or we may experience increased costs related to acquiring and utilizing such data.",
+    "Failure to attract, develop, and retain qualified personnel could adversely affect our business.",
+    "Climate change and extreme weather events could adversely affect our operations and financial performance.",
+    "Widespread health crises could adversely impact our business operations.",
+    "Regulatory and Compliance Risk Factors",
+    "A downgrade of our underwriters by rating agencies may reduce our revenues.",
+    "Our insurance subsidiaries must comply with extensive government regulations. These regulations and the enforcement environment could adversely affect our ability to increase our revenues and operating results.",
+    "Dividends from our insurance underwriting subsidiaries are an important source for capital planning.",
+    "Financial Risk Factors",
+    "Availability and cost of credit may reduce our liquidity and negatively impact our ability to fund operations.",
+    "Unfavorable economic or other business conditions could cause us to record an impairment of all or a portion of our goodwill, other intangible assets and other long-lived assets.",
+    "Our investment portfolio is subject to interest rate and other risks and could experience losses.",
+    "Claims by large classes of claimants may impact our financial condition or results of operations.",
+    "Failures at financial institutions at which we deposit funds could adversely affect us.",
+    "Risks Related to Our Common Stock",
+    "The price of our Common Stock historically has been volatile, which may affect the price at which our investors can sell their common stock.",
+    "Anti-takeover provisions in our charter and bylaws and Delaware law may delay or prevent an acquisition of our Company.",
+    "General Risk Factor",
+    "Our business could be disrupted as a result of a threatened proxy contest and other actions of activist stockholders."
+   ],
+   "paragraphs": [
+    "You should consider the following risk factors, as well as the other information presented in this report and our other filings with the SEC, in evaluating our business and any investment in Stewart. These risks could materially and adversely affect our business, financial condition and results of operations. In that event, the trading price of our Common Stock could decline materially.",
+    "As part of our investment and growth strategy, we frequently monitor and analyze opportunities to acquire or make a strategic investment in new or other businesses where we believe we can have sustained success and improve Stewart's scale and profitability. The negotiation of potential acquisitions or strategic investments as well as the integration of an acquired business or new personnel, could result in a substantial diversion of management resources. Future acquisitions could likewise involve numerous additional risks such as potential losses from unanticipated litigation or levels of claims and inability to generate sufficient revenue to offset acquisition costs. Additionally, certain of the investments that we frequently make are in regulated entities that are required to comply with various governmental regulatory requirements, which may impose significant costs on such entities or otherwise impact the value of our investments therein. As we pursue or consummate a strategic transaction or investment, we may value the acquired or funded company or operations incorrectly, fail to integrate the acquired operations appropriately into our own operations, fail to successfully manage our operations as our product and geographical diversity increases, expend unforeseen costs during the acquisition or integration process, or encounter other unanticipated risks or challenges. If we succeed in consummating a strategic investment, we may fail to value it accurately or divest it or otherwise realize the value which we originally invested or have subsequently reflected in our consolidated financial statements. Any failure by us to effectively limit such risks or implement our acquisitions or strategic investment strategies could have a material adverse effect on our business, financial condition or results of operations.",
+    "Various initiatives and alternatives to traditional title insurance and settlement products and services are or may be introduced by real estate industry participants, including our competitors, lenders and investors, which may change the demand for our products and services, the manner our products and services are ordered or fulfilled, and the revenue or profitability derived from our products and services. Innovation initiatives include implementing advanced technologies, use of artificial intelligence (AI), processes and techniques to automate and streamline certain manual processes during title search, insurance policy issuance and real estate transaction settlement to improve the manner and timeliness of delivering products and services, increase efficiency, reduce costs, improve product and service quality and customer experience, and enhance risk management. The title insurance industry may experience increased competition and disruption from alternative title products and government initiatives. Title insurance waivers and alternatives to title insurance policies, such as an attorney opinion letter which may not provide the same level of protection as traditional title policies but may be a more cost-effective option, may become widely used and accepted which can affect the demand for our products and services.",
+    "Further, in developing and implementing our own innovation initiatives, we have made and will likely continue to make significant investments. Depending on factors relating to our operations, the real estate industry and the macroeconomic environment, these innovative investments may not be successful, may result in increased claims, damage to our reputation or other material impacts on Stewart, or could disrupt our business operations by significantly diverting management's attention.",
+    "Rapid changes in our industry require secure, timely and cost-effective technological responses. Our earnings may be adversely affected if we are unable to effectively use technology to address regulatory changes and increase productivity.",
+    "We believe that our future success depends, in part, on our ability to anticipate changes in the industry and to offer products and services that meet evolving standards on a timely and cost-effective basis. To do so requires a flexible and secure technology architecture, such as title production systems, which can continuously comply with changing regulations, improve productivity, lower costs, reduce risk and enhance the customer experience. Further, the regulatory landscape surrounding the use of AI is rapidly evolving and remains uncertain, with potential for new laws, regulations or industry standards that could restrict the use of AI systems, impose compliance obligations, or result in enforcement actions or litigation. Our adoption of new technologies may be hindered by the development of industry-wide standards and an evolving legal and regulatory landscape. Inability to meet these requirements and any unanticipated downtime in our technology may have a material adverse effect on our earnings."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Title segment. Summary results of the title segment are as follows (in $ millions, except pretax margin and % change):",
+    "Real estate solutions segment. Summary results of the real estate solutions segment are as follows (in $ millions, except pretax margin and % change):",
+    "Title revenues. Direct title revenue information is presented below:",
+    "Net realized and unrealized gains. Refer to Note 6 to our audited consolidated financial statements for details.",
+    "Expenses. Our employee costs and certain other operating expenses are sensitive to inflation. An analysis of expenses is shown below:"
+   ],
+   "paragraphs": [
+    "Net income attributable to Stewart for 2025 was $115.5 million, or $4.05 per diluted share, compared to $73.3 million, or $2.61 per diluted share, in 2024. Pretax income before noncontrolling interests in 2025 was $165.6 million (5.7% pretax margin) compared to $114.3 million (4.6% pretax margin) in 2024. During 2025, total operating revenues increased 18% to $2.86 billion compared to $2.42 billion in 2024, while total expenses increased 16% to $2.76 billion, compared to $2.38 billion in 2024, primarily driven by higher revenues in the title and real estate solutions services operations. Refer to \"Results of Operations\" for detailed year-to-year income statement discussions, and \"Liquidity and Capital Resources\" for an analysis of Stewart's financial condition.",
+    "For the fourth quarter 2025, we reported net income attributable to Stewart of $36.3 million ($1.25 per diluted share), compared to net income attributable to Stewart of $22.7 million ($0.80 per diluted share) for the fourth quarter 2024. Fourth quarter 2025 pretax income before noncontrolling interests was $51.7 million (6.5% pretax margin) compared to pretax income before noncontrolling interests of $35.4 million (5.3% pretax margin) for the prior year quarter.",
+    "Fourth quarter 2025 results included $3.8 million of pretax net realized and unrealized losses, primarily recorded in the title segment, while the fourth quarter 2024 results included $1.7 million of pretax net realized and unrealized gains, comprised of $2.8 million net gains in the title segment and $1.1 million net losses in the corporate segment.",
+    "During the fourth quarter 2025, we completed the largest acquisition in Stewart history by acquiring Mortgage Contracting Services (MCS), an industry leader in providing property preservation and field services to mortgage servicers. This acquisition broadens Stewart's servicer customer base and expands our full suite of lender services. MCS is included in our real estate solutions segment. Refer to Note 8 to our audited consolidated financial statements for details.",
+    "2025 2024 % Change 668.4 562.7 19 % 14.0 14.5 (3) % (3.7) 2.8 (236) % 58.0 45.2 28 % 8.5 % 7.8 %",
+    "Segment operating revenues in the fourth quarter 2025 increased $105.7 million, or 19%, driven by strong performances by our direct and agency title operations with operating revenue growth of 18% and 20%, respectively, compared to the fourth quarter 2024. Segment total operating expenses increased $85.9 million, or 16%, compared to the fourth quarter 2024 driven by the $43.9 million, or 19%, higher agency retention expenses and $40.3 million, or 15%, increased combined employee costs and other operating expenses, consistent with the title revenue growth. As a percentage of operating revenues, total title segment employee costs and other operating expenses improved to 47.0% in the fourth quarter 2025 compared to 48.7% in the prior year quarter, primarily due to increased title operating revenues.",
+    "Title loss expense in the fourth quarter 2025 increased $2.3 million, or 11%, compared to the fourth quarter 2024, primarily driven by higher title revenues. As a percentage of title operating revenues, title loss expense improved to 3.4% in the fourth quarter 2025 compared to 3.7% in the prior year quarter, primarily as a result of our continued overall favorable claims experience.",
+    "Direct title revenue information is presented below (in $ millions, except % change): For the Three Months",
+    "Ended December 31, 2025 2024 % Change 180.2 162.5 11 % 31.0 25.9 20 % 188.4 12 % 116.1 84.1 38 % 7.5 11.1 (32) % 95.2 30 % 334.8 283.6 18 %",
+    "Domestic commercial revenues in the fourth quarter 2025 improved by $32.0 million, or 38%, primarily driven by increased sizes of commercial closed transactions, principally related to data center and energy asset classes, while domestic non-commercial revenues increased $17.7 million, or 11%, primarily driven by higher combined purchase and refinancing closed transactions and increased average fee per file compared to the prior year quarter. Fourth quarter 2025 average domestic commercial fee per file was $27,300, or 39% higher compared to $19,600 in the fourth quarter 2024, while average domestic residential fee per file improved 13% to $3,300, compared to $2,900 in the fourth quarter 2024. Total international revenues in the fourth quarter 2025 increased by $1.5 million, or 4%, primarily due to higher residential transaction volumes compared to the prior year quarter.",
+    "2025 2024 % Change 111.9 87.0 29 % 3.9 0.9 317 % 3.5 % 1.1 %",
+    "The segment's fourth quarter 2025 operating revenues improved $24.9 million, or 29%, primarily driven by our credit information services business. Combined employee costs and other operating expenses in the fourth quarter 2025 increased $21.6 million, or 27%, primarily due to increased costs of services related to revenue growth. The segment's pretax income included acquisition intangible asset amortization expenses of $5.6 million and $5.5 million in the fourth quarters 2025 and 2024, respectively.",
+    "Corporate segment. The segment's net expenses for the fourth quarter 2025 slightly increased to $10.1 million, compared to $9.7 million in the fourth quarter 2024, primarily due to higher interest expense on increased debt balances. The segment recorded a $1.1 million realized loss related to an investment impairment during the fourth quarter 2024.",
+    "Actual results can differ from our accounting estimates. While we do not anticipate significant changes in our estimates, there is a risk that such changes could have a material impact on our consolidated financial condition or results of operations for future periods. The discussion of critical accounting estimates below should be read in conjunction with the related accounting policies disclosed within Note 1 to our audited consolidated financial statements in Part IV of this annual report."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Title Segment': '標題分部'}",
+    "{'Real Estate Solutions Segment': '不動產解決方案分部'}",
+    "{'Corporate Segment': '企業分部'}"
+   ],
+   "paragraphs": [
+    "於1893年成立的Stewart Information Services Corporation (NYSE:STC) (Stewart) 是一家以客戶為中心的全球不動產保險與不動產服務公司，透過我們的直接營運、經核准的代理網路及其他Stewart家族公司提供產品與服務。Stewart為全球最大的不動產保險公司與承銷商之一，為房屋買賣雙方、住宅與商業不動產專業人士、房貸貸款人與貸款服務機構、不動產代理機構、不動產律師與房屋建商提供服務。Stewart亦提供信用與不動產資料服務、不動產保存與現場服務、評估管理服務、線上驗證與交易服務、搜尋服務、住宅與個人保險服務、稅務遞延交換服務，以及科技服務以簡化不動產流程。Stewart總部設於德克薩斯州休士頓市，主要營運範圍為美國（U.S.），並在澳洲、加拿大與英國設有區域辦事處。",
+    "我們的公司在其所處的產業領域中為領導者，雖然每家公司所提供的服務各有不同，但它們皆秉持相同的理念，即透過團隊合作與以客戶為中心的思維，提供高水準的服務。如需瞭解各Stewart公司與品牌資訊，請參閱我們的網站，www.stewart.com/en/about-stewart/stewart-brands.html。",
+    "我們目前將業務分為三個應報告分部：不動產保險與相關服務（不動產保險）、不動產解決方案與企業部門。請參閱我們經審計合併財務報表的附註18，以及財務狀況與營運成果（MD&A）項目7，以取得與各分部相關的財務資訊。",
+    "不動產保險與相關服務包含搜尋、審查、結案與保險不動產所有權的條件等功能。不動產保險分部亦包含住宅與個人保險服務、內政部稅務條款第1031項（Section 1031）稅務遞延交換服務，以及數位客戶互動平台服務。",
+    "審查與結案。進行不動產審查的目的是確認正在轉移的不動產所有權、應償還的債務以及不動產保險政策的範圍。此過程涉及搜尋與審查文件，例如地契、房貸、遺囑、離婚判決、法院判決、負債、評估與稅收記錄。",
+    "在買賣交易結案或完成時，賣方會執行並交付地契給新所有者。買方通常會簽署新的房貸文件，結案資金會支付給賣方、先前貸款機構、不動產經紀與不動產保險公司等。某些文件，例如地契與房貸或地契擔保，會在公開記錄中進行登記。不動產保險政策通常在交易結案時發給新貸款機構與所有者。",
+    "在房貸重組交易結案或完成時，借款人會執行並交付房貸或地契擔保給貸款機構。借款人通常會簽署房貸文件，結案資金通常會支付給先前貸款機構、不動產保險公司及其他相關機構。某些文件會在公開記錄中進行登記。不動產保險政策通常在交易結案或登記時發給新貸款機構。",
+    "不動產保險政策。美國的貸款機構通常將不動產保險視為貸款不動產的條件，包括資產證券化貸款，因為這可確保貸款機構在不動產上的優先擔保權。此外，不動產買方也希望透過保險來保護其對不動產所有權的權利，以防出現對不動產所有權的聲請。買方的保險政策金額通常為買賣交易中的購屋價格，而貸款機構的保險政策金額則為貸款金額，此為買方貸款或房貸重組交易中涉及的貸款金額。",
+    "不動產保險與其他類型的保險有顯著的不同。火災、汽車、健康和人壽保險單主要保障未來的損失與事件。相較之下，不動產保險通常保障的是過去事件所造成的損失，並透過檢查與結清程序消除被保障的風險，以保護保單持有人或貸款人。簡而言之，在其除外責任、條件與排除事項的範圍內，所有權不動產保險單提供給保單持有人一個保證，即該不動產的所有權無瑕疵，不會影響所有權權益；或在貸款人保險單的情況下，即該貸款人對不動產有優先的抵押權。大多數其他類型的保險僅提供一段有限時間的保障，因此保單必須定期續保。然而，不動產保險則是一次性收取保費，所有權保險單在保單持有人擁有該不動產，或對該不動產有責任，或貸款人根據其保單對該不動產有保險抵押權時，均提供保障。此外，不動產保險單沒有明確的合約期限，而大多數其他類型的保險則有明確的保障起始與結束日期。雖然所有權不動產保險單在保單持有人擁有被保障的不動產期間提供保障，但不動產保險公司通常不會知道哪些保單仍然有效。大多數其他類型的保險則會定期收取保費與續保，使保險公司能知悉哪些保單仍然有效。在某些情況下，我們可能提供保單後的保障，並在分析承保風險後，提供針對某些已知風險的保障。",
+    "損失。保單的損失發生在檢查與結清程序中未發現不動產瑕疵，而保單持有人根據保單提出索償的情況。損失的原因包括但不限於：偽造文件、不實陳述、未記載或未發現的抵押權、未償還現有抵押權、房貸貸款詐欺、結清資金的處理失誤或侵吞、獨立機構發行未經授權的保障、以及在所有權人或貸款人對不動產的權益被提出索償時，為保單持有人進行辯護。損失也可能發生在我們根據結清保護書提供的保障範圍內。",
+    "一些索賠人要求的賠償金額超過保單的賠償上限。這些索賠是基於各種法律理論。我們積極對抗不實的索賠，並為符合保障範圍的索賠提供至保單所規定賠償上限的保護。我們有時會因索賠金額超過保單賠償上限而產生損失。經驗顯示，大多數保單的索賠與賠償金額是在保單發行後的前八年內產生，雖然索賠也可能在多年後才被提出並支付。由於索賠的本質，索賠通常複雜，金額差異很大，且會受到經濟與市場條件、個別索賠的具體情況以及索賠處理時的法律環境影響。",
+    "我們對預估不動產損失的賠償責任，包括已知索賠與已發生但尚未報告的索賠，這些索賠預期將在保單發行日至財務報表日之間支付。我們的損失準備金金額代表我們預期在保單損失與結清索賠費用上需支付的總額（扣除回收金額）。根據業界慣例，這些金額未折現至現值。預估未來不動產損失支付金額困難，是因為不動產索賠的性質複雜、索賠支付的時間長、個別索賠金額差異大，以及其他因素。預估的保單損失準備金金額是根據已報告的索賠、歷史損失支付經驗以及當前的法律與經濟環境計算。預估當年保單損失的準備金在當年相關保費收入確認的同時計入收入。年度保單損失準備金也包括對前一年度發行保單的預計總賠償責任的變動。",
+    "我們持續審查我們預估未來損失支付金額的合理性，並根據需要進行調整。我們已持續遵循相同的基本方法來估算並記錄我們的損失準備金超過30年。作為我們的程序的一部分，我們也會從第三方精算師那裡獲得我們方法與結果的意見。雖然我們負責確定我們的損失準備金，但我們會利用這些精算意見來評估我們預估準備金的整體合理性。",
+    "請參閱第7項MD&A中的關鍵會計估計—不動產損失準備金，以瞭解當年保單損失與合併財務報表準備金的資訊。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "標題分部。標題分部之總結結果如下（以百萬美元為單位，除稅前毛利率及變動百分比外）：",
+    "不動產解決方案分部。不動產解決方案分部之總結結果如下（以百萬美元為單位，除稅前毛利率及變動百分比外）：",
+    "標題營收。直接標題營收資訊如下：",
+    "淨實現及未實現獲利。有關詳細資訊，請參閱我們經審計合併財務報表之附註 6。",
+    "費用。我們之員工成本及某些其他營運費用對通貨膨脹較為敏感。費用分析如下："
+   ],
+   "paragraphs": [
+    "2025 年本公司歸屬於 Stewart 的淨收入為 115.5 百萬美元，或每股稀釋後普通股 4.05 美元，較 2024 年的 73.3 百萬美元，或每股稀釋後普通股 2.61 美元為高。2025 年扣除非控制權益前的稅前收入為 165.6 百萬美元（稅前邊際為 5.7%），較 2024 年的 114.3 百萬美元（稅前邊際為 4.6%）為高。2025 年總營業收入增加 18% 至 2.86 十億美元，較 2024 年的 2.42 十億美元為高，同時總費用增加 16% 至 2.76 十億美元，較 2024 年的 2.38 十億美元為高，主要因標題及不動產解決方案服務業務收入增加所致。有關詳細年度營業收入說明，請參閱 \"營運成果\" 部分，並有關 Stewart 財務狀況分析，請參閱 \"流動性及資本資源\" 部分。",
+    "2025 年第四季，本公司報告的淨收入為 36.3 百萬美元（每股稀釋後普通股 1.25 美元），較 2024 年第四季的 22.7 百萬美元（每股稀釋後普通股 0.80 美元）為高。2025 年第四季稅前收入（扣除非控制權益）為 51.7 百萬美元（稅前毛利率為 6.5%），較 2024 年第四季的 35.4 百萬美元（稅前毛利率為 5.3%）為高。",
+    "2025 年第四季結果包含 3.8 百萬美元的稅前淨實現與未實現損失，主要記入標的業務分部，而 2024 年第四季結果則包含 1.7 百萬美元的稅前淨實現與未實現獲利，包含標的業務分部的 2.8 百萬美元淨獲利及公司分部的 1.1 百萬美元淨損失。",
+    "2025 年第四季，本公司完成歷史上規模最大的一筆收購，收購 Mortgage Contracting Services（MCS），為抵押貸款經紀機構提供財產保護及現場服務的行業領導者。此收購擴大本公司抵押貸款經紀機構客戶羣體，並拓展我們完整的貸款人服務組合。MCS 被歸類於我們的不動產解決方案分部。請參閱我們經審計合併財務報表的附註 8 以取得詳細資訊。",
+    "2025 2024 變動百分比 668.4 562.7 19% 14.0 14.5 (3)% (3.7) 2.8 (236)% 58.0 45.2 28% 8.5% 7.8%",
+    "2025 年第四季分部營運收入增加 105.7 百萬美元，或成長 19%，主要因本公司直接與代理標的業務營運表現強勁，營運收入分別成長 18% 與 20%，較 2024 年第四季為高。分部總營運費用增加 85.9 百萬美元，或成長 16%，較 2024 年第四季為高，主要因代理標的業務保留費用增加 43.9 百萬美元，或成長 19%，以及員工費用及其他營運費用增加 40.3 百萬美元，或成長 15%，與標的業務營收成長一致。營運收入佔營運收入的百分比，總標的業務員工費用及其他營運費用改善至 2025 年第四季的 47.0%，較 2024 年第四季的 48.7% 為低，主要因標的業務營運收入增加所致。",
+    "2025 年第四季標的業務損失費用增加 2.3 百萬美元，或成長 11%，較 2024 年第四季為高，主要因標的業務營收增加。標的業務營運收入佔標的業務營運收入的百分比，標的業務損失費用改善至 2025 年第四季的 3.4%，較 2024 年第四季的 3.7% 為低，主要因本公司持續整體有利的聲請經驗所致。",
+    "直接標的業務收入資訊如下（以百萬美元為單位，百分比變動除外）：針對三個月",
+    "截至 2025 年 12 月 31 日 2024 年 % 變動 180.2 162.5 11 % 31.0 25.9 20 % 188.4 12 % 116.1 84.1 38 % 7.5 11.1 (32) % 95.2 30 % 334.8 283.6 18 %",
+    "2025 年第四季國內商業營收增加 32.0 百萬美元，或 38%，主要因商業閉單交易規模增加，主要與資料中心及能源資產類別相關，而國內非商業營收增加 17.7 百萬美元，或 11%，主要因合併購買新增及重新融資閉單交易增加，以及每筆檔案平均費用較前一季增加。2025 年第四季平均國內商業每筆檔案費用為 27,300 美元，較 2024 年第四季的 19,600 美元增加 39%，而平均國內住宅每筆檔案費用提高 13% 至 3,300 美元，較 2024 年第四季的 2,900 美元增加。2025 年第四季總國際營收增加 1.5 百萬美元，或 4%，主要因住宅交易量較前一季增加。",
+    "2025 2024 % 變動 111.9 87.0 29 % 3.9 0.9 317 % 3.5 % 1.1 %",
+    "該應報告分部 2025 年第四季營運營收增加 24.9 百萬美元，或 29%，主要因我們的信用資訊服務業務。2025 年第四季合併員工成本及其他營運費用增加 21.6 百萬美元，或 27%，主要因與營收成長相關的服務成本增加。該應報告分部的稅前淨利包含 2025 年第四季 5.6 百萬美元及 2024 年第四季 5.5 百萬美元的取得智慧財產權資產減損費用。",
+    "企業應報告分部。該應報告分部 2025 年第四季淨費用略微增加至 10.1 百萬美元，較 2024 年第四季的 9.7 百萬美元增加，主要因增加的債務餘額導致利息費用增加。該應報告分部於 2024 年第四季因投資減損產生 1.1 百萬美元的實現虧損。",
+    "實際結果可能與我們的會計估計不同。雖然我們不預期會有重大變動，但存在變動可能對我們未來期間的合併財務狀況或營運結果產生重大影響的風險。請參閱下列關鍵會計估計的討論，並配合我們年度會計政策於本年度報告第四部分「Note 1」中披露的相關會計政策一併閱讀。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "戰略風險因素",
+    "我們已進行或可能進行的併購或戰略投資，可能最終未能成功。",
+    "不動產業者，包括我們的競爭對手、貸款人及投資人所引進的創新與不動產保險豁免或替代方案，可能具有潛在幹擾性，並可能對Stewart造成不利影響。",
+    "Stewart的風險管理方案可能無法有效評估、識別及管理風險，這可能會對我們的業務、財務狀況及營運成果產生負面影響。",
+    "營運風險因素",
+    "總體經濟條件的不利變化，特別是影響不動產及房貸活動水準的變化，可能會降低我們的收入。",
+    "我們的聲譽經驗可能需要我們提高不動產保險損失提撥或記錄額外準備金，無論哪一種情況，都可能對我們的獲利產生不利影響。",
+    "由不動產保險代理所發行的不動產保險政策及相關活動，這些代理機構與我們有相當程度的獨立性，可能對我們的營運產生不利影響。",
+    "題保業者之間的競爭可能影響我們的營業收入。",
+    "資訊科技（IT）系統可能成為網路安全攻擊的目標。",
+    "與資金轉移有關的錯誤及詐欺行為可能對我們造成不利影響。",
+    "取得用於我們業務的必要資料可能變得困難，或我們可能面臨與取得及使用這些資料相關的費用增加。",
+    "無法吸引、培訓及留住合資格的人員可能對我們的業務造成不利影響。",
+    "氣候變遷及極端天氣事件可能對我們的營運及財務表現造成不利影響。",
+    "廣泛的健康危機可能對我們的業務營運造成不利影響。",
+    "法規及合規風險因素",
+    "本公司保險承銷子公司之信用評等遭評級機構降級，可能降低本公司之營業收入。",
+    "本公司保險子公司必須遵守廣泛之政府規範。這些規範及執法環境可能不利於本公司增加營業收入及營運成果之能力。",
+    "本公司保險承銷子公司之股息為資本規劃之重要來源。",
+    "財務風險因素",
+    "信貸之可取得性及成本可能降低本公司之流動性，並對本公司資金營運之能力產生負面影響。",
+    "不利之經濟或其他商業環境可能導致本公司需對全部或部分之商譽、其他無形資產及其他長期資產進行減值提列。",
+    "本公司投資組合受利率及其他風險影響，可能產生虧損。",
+    "來自大規模索賠人之索賠可能影響本公司之財務狀況或營運成果。",
+    "金融機構若發生問題，可能導致我們存放資金的機構無法正常運作，進而對本公司造成不利影響。",
+    "與我們普通股相關的風險",
+    "本公司普通股的歷史價格波動性較高，這可能會影響投資人出售其普通股的價格。",
+    "本公司章程及章程規則中所設置的反 takeover 條款，以及特拉華州法律，可能延宕或阻止對本公司的收購。",
+    "一般風險因素",
+    "由於威脅發起代理權競選及其他 activist 股東的行動，本公司業務可能受到幹擾。"
+   ],
+   "paragraphs": [
+    "您應考量下列風險因素，以及本報告及我們向美國證券交易委員會（SEC）提交的其他資料，以評估我們的業務及對 Stewart 進行投資的相關風險。這些風險可能對我們的業務、財務狀況及營運成果造成重大且不利的影響。在此情況下，我們的普通股交易價格可能大幅下跌。",
+    "根據我們的投資與成長策略，我們經常監測與分析取得新業務或對其他業務進行戰略投資的機會，我們相信這些業務能帶來持續的成功，並提升 Stewart 的規模與獲利能力。洽談潛在的併購或戰略投資，以及整合取得的業務或新進人員，可能會導致管理資源的重大分散。未來的併購也可能涉及許多額外風險，例如因未預見的法律訴訟或聲請數量而產生潛在損失，或無法產生足夠的收入來彌補併購成本。此外，我們經常進行的某些投資，係針對受監管的機構，這些機構必須遵守各項政府監管要求，這可能會對這些機構產生重大成本，或以其他方式影響我們投資的價值。當我們進行或完成戰略交易或投資時，我們可能錯誤評估取得或資助的公司或業務，未能適當整合取得的業務至我們的業務中，未能成功管理我們的業務，因產品與地理多樣性增加而導致，或在併購或整合過程中產生未預見的成本，或遭遇其他未預見的風險或挑戰。若我們成功完成戰略投資，我們可能未能正確評估其價值，或無法出售該投資，或未能實現我們最初投資或後續反映在合併財務報表中的價值。我們未能有效控制這些風險或執行併購或戰略投資策略，可能對我們的業務、財務狀況或營運成果造成重大不利影響。",
+    "房地產業者，包括我們的競爭對手、貸款人及投資者，可能推出各種替代傳統地產保險與結案產品及服務的創新方案與替代方案，這可能會改變我們產品與服務的需求、訂購或履行方式，以及從我們產品與服務中獲得的收入或獲利能力。創新方案包括實施先進技術、使用人工智慧（AI）、流程與技術來自動化與簡化地產搜查、保險單發行及房地產交易結案的某些手動流程，以改善產品與服務的交付方式與時效性、提高效率、降低成本、改善產品與服務品質與客戶體驗，並強化風險管理。地產保險業可能因替代性地產產品與政府方案的出現而面臨增加的競爭與產業變動。地產保險豁免與替代地產保險單，例如律師意見書，可能不提供與傳統地產保險單相同層級的保障，但可能更符合成本效益，這些方案可能廣泛被使用與接受，這會影響我們產品與服務的需求。",
+    "此外，在發展與執行我們自己的創新方案時，我們已進行並可能持續進行重大投資。根據我們業務運作、房地產業與總體經濟環境的相關因素，這些創新投資可能無法成功，可能導致聲請增加、損害我們聲譽或其他對 Stewart 產生重大影響，或可能因大幅分散管理層的注意力而幹擾我們的業務運作。",
+    "我們產業的快速變動需要安全、及時且成本效益高的科技應對方案。若我們無法有效運用科技來應對規範變動並提高生產力，可能會對我們的獲利造成不利影響。",
+    "我們認為未來的成功，在部分程度上取決於我們預測產業變動並提供符合演進標準的產品與服務的能力，且能以及時且成本效益的方式進行。要做到這一點，需要靈活且安全的科技架構，例如地產生產系統，這些系統能持續符合變動的規範，提高生產力，降低成本，降低風險，並提升客戶體驗。此外，圍繞人工智慧（AI）使用的監管環境正在快速演變且仍不確定，潛在可能有新的法律、規範或產業標準，這些可能限制 AI 系統的使用，施加合規義務，或導致執法行動或法律訴訟。我們對新科技的採用可能受到產業標準的發展及不斷演變的法律與監管環境的阻礙。無法符合這些要求，或任何未預見的科技中斷，可能對我們的獲利造成重大不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

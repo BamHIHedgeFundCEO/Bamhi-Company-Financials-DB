@@ -1,0 +1,157 @@
+{
+ "ticker": "EFSC",
+ "cik": "0001025835",
+ "accession": "0001025835-26-000058",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Forward-Looking Information",
+    "General Development and Description of Our Business",
+    "Supervision and Regulation",
+    "Bank Subsidiary",
+    "Human Capital Management"
+   ],
+   "paragraphs": [
+    "Some of the information in this Annual Report on Form 10-K may contain \"forward-looking statements\" within the meaning of and intended to be covered by the safe harbor provisions of the Private Securities Litigation Reform Act of 1995, and by Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended. Such forward-looking statements are based on management's current expectations and beliefs concerning future developments and their potential effects on the Company, and include, without limitation, statements about the Company's plans, strategies, goals, objectives, expectations, or consequences of statements about the future performance, operations, products and services of the Company, as well as statements about the Company's expectations regarding revenue and asset growth, financial performance and profitability, loan and deposit growth, yields and returns, loan diversification and credit management, products and services, stockholder value creation and the impact of acquisitions. Forward-looking statements typically are identified with use of terms such as \"may,\" \"might,\" \"will, \"would,\" \"should,\" \"expect,\" \"plan,\" \"anticipate,\" \"outlook,\" \"forecast,\" \"project,\" \"pro forma\", \"pipeline,\" \"believe,\" \"estimate,\" \"predict,\" \"intend,\" \"potential,\" \"could,\" \"continue,\" and the negative and other variations of these terms and similar words, although some forward-looking statements may be expressed differently. Forward-looking statements are subject to numerous assumptions, risks and uncertainties, which change over time. Forward-looking statements speak only as of the date they are made. Because forward-looking statements are subject to assumptions and uncertainties, actual results or future events could differ, possibly materially, from those anticipated in the forward-looking statements and future results could differ materially from historical performance. They are neither statements of historical fact nor guarantees or assurances of future performance. While there is no assurance that any list of risks and uncertainties or risk factors is complete, important factors that could cause actual results to differ materially from those in the forward-looking statements include the following, without limitation: the Company's ability to efficiently integrate acquisitions into its operations, retain the clients of these businesses and grow the acquired operations, the Company's ability to collect insurance proceeds from claims made related to tax recapture events, credit risk, changes in the appraised valuation of real estate securing impaired loans, outcomes of litigation and other contingencies, exposure to general and local economic and market conditions, high unemployment rates, higher inflation and its impacts (including U.S. federal government measures to address higher inflation), U.S. fiscal debt, budget and tax matters (including the effect of a prolonged U.S. federal government shutdown), and any slowdown in global economic growth, risks associated with rapid increases or decreases in prevailing interest rates, our ability to attract and retain deposits and access to other sources of liquidity, consolidation in the banking industry, competition from banks and other financial institutions, the Company's ability to attract and retain relationship officers and other key personnel, burdens imposed by federal and state regulation, changes in legislative or regulatory requirements, as well as current, pending or future legislation or regulation that could have a negative effect on our revenue and businesses, including rules and regulations relating to bank products and financial services, changes in accounting policies and practices or accounting standards, natural disasters (such as wildfires and earthquakes), terrorist activities, war and geopolitical matters (including the war in Israel and potential for a broader regional conflict, and the war in Ukraine and the imposition of additional sanctions and export controls in connection therewith), or pandemics, and their effects on economic and business environments in which we operate, including the related disruption to the financial market and other economic activity; and other risks discussed under the caption \"Risk Factors\" in Item 1A of this Annual Report on Form 10-K, all of which could cause actual results to differ from those set forth in the forward-looking statements. The Company cautions that the preceding list is not exhaustive of all possible risk factors and other factors could also adversely affect the Company's results.",
+    "Readers are cautioned not to place undue reliance on forward-looking statements, which reflect management's analysis and expectations only as of the date of such statements. Forward-looking statements speak only as of the date they are made, and the Company does not intend, and undertakes no obligation, to publicly revise or update forward-looking statements after the date of this report, whether as a result of new information, future events or otherwise, except as required by federal securities law. You should understand that it is not possible to predict or identify all risk factors. Readers should carefully review all disclosures we file from time to time with the SEC which are available on the Company's website at www.enterprisebank.com under \"Investor Relations.\"",
+    "Enterprise Financial Services Corp, headquartered in Clayton, Missouri, is a financial holding company incorporated under Delaware law in December 1994. EFSC is the holding company for Enterprise Bank & Trust, a full-service financial institution offering banking and wealth management services to individuals and corporate clients primarily located in Arizona, California, Florida, Kansas, Missouri, Nevada, and New Mexico, in addition to loan and deposit production offices throughout the United States. Our executive offices are located at 150 North Meramec Avenue, Clayton, Missouri 63105, and our telephone number is (314) 725-5500.",
+    "Our stated mission is \"Guiding people to a lifetime of financial success.\" We have established an accompanying corporate vision, \"To be a company where our associates are proud to work, that delivers ease of navigation to our clients and value to our investors, while helping our communities flourish.\" These tenets are fundamental to our business strategies and operations.",
+    "Our business objective is to generate attractive stockholder returns by providing comprehensive financial services primarily to privately-held businesses, their owner families, and other success-minded individuals. To achieve these objectives we have developed a business strategy that leverages a focused and relationship-oriented distribution and sales approach, with an emphasis on niche businesses, while maintaining prudent credit and interest rate risk management, opportunities for fee income, appropriate supporting technology, and controlling expenses. We believe this strategy allows us to maximize organic growth opportunities, which we supplement and enhance through disciplined growth through acquisition.",
+    "As described in greater detail below, the Company offers a broad range of business and personal banking services, including wealth management services. Lending services include C&I, CRE, real estate construction and development, residential real estate, SBA, and consumer loan products. A wide variety of deposit products, along with a complete suite of treasury management and international trade services, complement our lending capabilities.",
+    "Building long-term client relationships – Our growth strategy is first and foremost client relationship driven. We continuously seek to add clients who fit our target market of businesses, business owners, professionals, and associated relationships. Those relationships are maintained, cultivated, and expanded over time by experienced banking officers and other trained professionals. We fund loan growth primarily with core deposits from our business and professional clients in addition to consumers in our branch market areas. This is supplemented by borrowing or other deposit sources, including advances from the FHLB and brokered certificates of deposits.",
+    "Specialized lending and product niches – We have focused our lending activities in specialty markets where we believe our expertise and experience as a commercial lender provides advantages over other competitors. In addition, we have developed expertise in certain product niches. These specialty niche activities focus on the following areas:",
+    "•SBA 7(a). We have a team of experienced bankers in production offices across the country that originate loans through the SBA 7(a) program. These loans are primarily owner-occupied, CRE loans secured by a first lien. These loans predominantly have a 75% portion guaranteed by the SBA. By focusing on this specific product type, we have developed an expertise that differentiates us based upon speed and reliability of execution.",
+    "•Life Insurance Premium Finance. We specialize in financing whole life insurance premiums utilized in high net worth estate planning through relationships with boutique estate planners throughout the country.",
+    "•Sponsor Finance. We support mid-market company mergers and acquisitions in many domestic markets. We market directly to targeted private equity firms, principally SBICs, and provide primarily senior debt financing to the portfolio companies. In addition, the Company has both financing and depository relationships with the sponsors of the portfolio companies.",
+    "•Tax Credit Related Lending. We are a secured lender on affordable housing projects funded through the use of federal and state low income housing tax credits. In addition, we provide leveraged and other loans on projects funded through the U.S. Department of the Treasury Community Development Financial Institution (\"Treasury CDFI\") New Markets Tax Credit (\"NMTC\") Program. In 2024 and 2025, we were awarded $50.0 million and $80.0 million, respectively, in NMTC allocations from the Treasury CDFI. These were our seventh and eighth NMTC allocations, respectively, and brings the total amount of these allocations to $433.0 million. We will continue to participate in the application process for future awards, as well as serve as a secured lender to other allocatees.",
+    "•Tax Credit Brokerage. We have a minority ownership in a partnership that acquires, invests and sells, state low income housing tax credits. We lend to the partnership and receive interest income and fee income as projects close or credits are sold.",
+    "Deposit verticals – In addition to commercial operating accounts for our C&I clients, we offer deposit vertical accounts to clients in certain industries with complex account needs. Our focus areas include community associations, property management, legal industry and escrow services. These accounts are primarily demand accounts and have a low overall interest cost. Clients in our deposit vertical products will typically receive an earnings credit that is used to offset the cost of maintaining the deposit accounts. Payments made by the Company through the application of the earnings credit is reflected as a component of noninterest expense in the Consolidated Statement of Income."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Relating to General Economic and Market Conditions",
+    "Legal, Regulatory and Tax Risks",
+    "Financial Risks",
+    "Credit and Liquidity Risks",
+    "Competitive and Reputational Risks",
+    "Acquisition Risks",
+    "Technology and Cybersecurity Risks",
+    "Risks Relating to Our Common Stock and Depositary Shares"
+   ],
+   "paragraphs": [
+    "An investment in our common or depositary stock is subject to risks inherent to our business. Before making an investment decision, you should carefully consider the risks and uncertainties described below together with all of the other information included or incorporated by reference in this report. The value of our common and depositary stock could decline due to any of these risks, and you could lose all or part of your investment.",
+    "An economic downturn could adversely affect our financial condition, results of operations or cash flows.",
+    "Recessionary conditions and/or negative developments in the domestic and international credit markets may significantly affect the markets in which we do business, the value of our loans and investments, and our ongoing operations and profitability. If the communities in which we operate do not grow, or if prevailing economic conditions locally or nationally are unfavorable, our business may not succeed. Unpredictable economic conditions may have an adverse effect on the quality of our loan portfolio and our financial performance. Adverse changes in the economies in our market areas may have a material adverse effect on our financial condition, results of operations or cash flows. We bear increased risk of unfavorable local economic conditions. Moreover, we cannot give any assurance we will benefit from any market growth or favorable economic conditions in our primary market areas even if they do occur.",
+    "We face potential risk from changes in governmental monetary and fiscal policies.",
+    "Our earnings are affected by domestic economic conditions and the monetary and fiscal policies of the U.S. government and its agencies. The Federal Reserve's monetary policies have had, and are likely to continue to have, an important impact on the operating results of commercial banks through its power to implement national monetary policy in order, among other things, to curb inflation or combat a recession. The monetary policies of the Federal Reserve affect the levels of bank loans, investments, and deposits through its control over the issuance of U.S. government securities, its regulation of the discount rate applicable to member banks, and its influence over reserve requirements to which member banks are subject. Trade policy, including tariffs and potential trade wars, may affect our clients and the communities in which we operate in unpredictable ways, which could negatively affect our result of operations or cash flows. We cannot predict the nature or impact of future changes in monetary and fiscal policies.",
+    "Adverse developments affecting the banking industry, and resulting media coverage, could eroded client confidence"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Introduction",
+    "Executive Summary",
+    "Financial Performance Highlights",
+    "2025 Financial Highlights",
+    "2024 Financial Highlights",
+    "Net Interest Income",
+    "Average Balance Sheet",
+    "Noninterest Income",
+    "Noninterest Expense",
+    "Income Taxes",
+    "Summary Balance Sheet",
+    "Loans by Type",
+    "Provision and ACL",
+    "Nonperforming loans and assets",
+    "Investment Securities",
+    "Stockholders' equity",
+    "Liquidity and Capital Resources",
+    "Capital Resources"
+   ],
+   "paragraphs": [
+    "The Company offers a broad range of business and personal banking services including wealth management. Lending services include C&I, CRE, real estate construction and development, residential real estate, specialty, and consumer loans. A wide variety of deposit products and a complete suite of treasury management and international trade services complement our lending capabilities. The Company's results of operations are also affected by prevailing economic conditions, competition, government policies and other actions of regulatory agencies.",
+    "The Company's financial condition, operating results and liquidity in 2025 continued to be impacted by monetary policy actions. The Federal Reserve decreased the target federal funds rate 75 basis points in 2025, following a 100 basis point decrease in 2024. This follows the period of 2022 to 2023 when the Federal Reserve increased the target federal funds rate 525 basis points."
+   ],
+   "focus": "Executive Summary"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "前瞻性資訊",
+    "業務發展與本公司業務之說明",
+    "監督與規範",
+    "銀行子公司",
+    "人力資本管理"
+   ],
+   "paragraphs": [
+    "本年度報告表10-K中部分資訊可能包含所謂的「向前看聲明」，根據1995年私人證券訴訟改革法案的避風港條款，以及1933年證券法第27A節及1934年證券交易所法第21E節的規定，這些向前看聲明係基於管理階層對未來發展及其對本公司潛在影響的當前預期與信念，並包含但不限於本公司計畫、策略、目標、願景、預期或對本公司未來表現、營運、產品與服務的陳述，以及本公司對營收與資產成長、財務表現與獲利能力、貸款與存款成長、利潤率與回報率、貸款多元化與信貸管理、產品與服務、股東價值創造及併購影響的預期。向前看聲明通常會使用如「可能」、「或許」、「將」、「會」、「應該」、「預期」、「計畫」、「預期」、「展望」、「預測」、「預估」、「合併」、「管道」、「相信」、「估計」、「預測」、「意圖」、「潛在」、「可能」、「持續」等詞彙，以及這些詞彙的否定形式或其他相似詞彙，雖然有些向前看聲明可能以不同方式表達。向前看聲明受到許多假設、風險與不確定性影響，這些因素會隨時間而改變。向前看聲明僅針對其發表當日的狀況而言。由於向前看聲明受到假設與不確定性影響，實際結果或未來事件可能與向前看聲明所預期的有所不同，甚至可能產生重大影響。這些並非歷史事實的陳述，也非未來表現的保證或承諾。雖然無法保證風險與不確定性清單或風險因素完整，但可能導致實際結果與向前看聲明所預期的有重大差異的重要因素包括以下，但不限於：本公司有效整合併購業務至營運、保留這些業務的客戶並成長所取得的業務能力、本公司從與稅收追繳事件相關的索賠中收取保險賠款的能力、信貸風險、不動產抵押貸款的評估價值變動、訴訟與其他事項的結果、對總體經濟與地方經濟與市場條件的暴露、高失業率、高通貨膨脹及其影響（包括美國聯邦政府為應對高通貨膨脹所採取的措施）、美國財政債務、預算與稅務事項（包括美國聯邦政府長期停擺的影響）、以及全球經濟成長減緩的風險、與快速增加或減少利率相關的風險、本公司吸引與保留存款及取得其他流動性來源的能力、銀行業的併購、與銀行及其他金融機構的競爭、本公司吸引與保留關係經理及其他關鍵人員的能力、聯邦與州政府規範所造成的負擔、立法或規範要求的變更，以及目前、待審或未來的立法或規範可能對我們的營收與業務產生負面影響，包括與銀行產品與金融服務相關的規則與規範、會計政策與實務或會計準則的變更、天然災害（如野火與地震）、恐怖活動、戰爭與地緣政治事項（包括以色列戰爭與可能擴大區域衝突，以及烏克蘭戰爭與額外製裁與出口管制的實施），或大流行病，以及這些對我們營運的經濟與商業環境的影響，包括相關對金融市場與其他經濟活動的幹擾；以及在本年度報告表10-K第1A項「風險因素」標題下討論的其他風險，所有這些都可能導致實際結果與向前看聲明所陳述的不同。本公司提醒讀者，上述清單並非所有可能風險因素的完整清單，其他因素也可能對本公司結果產生負面影響。",
+    "讀者應謹慎勿過度依賴向前看聲明，這些聲明僅反映管理階層在聲明當日的分析與預期。向前看聲明僅針對其發表當日的狀況而言，本公司並無意，也無義務在本報告日期後，因新資訊、未來事件或其他原因，公開修訂或更新向前看聲明，除非根據聯邦證券法有此要求。讀者應瞭解，無法預測或識別所有風險因素。讀者應仔細審閱本公司不時向美國證券交易委員會提交的所有披露資料，這些資料可在本公司網站www.enterprisebank.com的「投資者關係」部分取得。",
+    "Enterprise Financial Services Corp,總部設於密蘇裏州克萊頓市，為一家財務控股公司，於1994年12月根據德國法規設立。EFSC為Enterprise Bank & Trust的控股公司，Enterprise Bank & Trust為一家提供全方位財務服務的金融機構，主要為位於亞利桑那州、加利福尼亞州、佛羅裏達州、堪薩斯州、密蘇裏州、內華達州及新墨西哥州的個人及企業客戶提供銀行及資產管理服務，並在美國各處設有貸款與存款業務辦公室。本公司總部地址為密蘇裏州克萊頓市北梅拉梅克大道150號63105，電話為(314) 725-5500。",
+    "我們的宗旨為「引導人們實現一生的財務成功」。我們已建立相應的企業願景，即「成為一個讓員工為之自豪的公司，為客戶提供易於使用的服務，為投資者創造價值，同時協助社區繁榮」。這些核心價值觀是我們業務策略與營運的基礎。",
+    "我們的業務目標是透過提供全面的金融服務，為私營企業、其企業主家庭及其他追求成功的人士，產生有吸引力的股東回報。為達成此目標，我們已發展出一項業務策略，透過專注且以關係為導向的分銷與銷售方式，強調特定市場的企業，同時維持謹慎的信貸與利率風險管理、費用收入機會、適當的支援科技，以及控制成本。我們認為此策略使我們能最大化內生成長機會，並透過有紀律的併購成長加以補充與提升。",
+    "如後文更詳細說明，本公司提供廣泛的企業與個人銀行服務，包括財富管理服務。貸款服務包括商業與工業貸款（C&I）、商業不動產貸款（CRE）、不動產建設與開發貸款、住宅不動產貸款、SBA貸款與消費者貸款產品。廣泛的存款產品，以及完整的財務管理與國際貿易服務，補足我們的貸款能力。",
+    "建立長期客戶關係 – 我們的成長策略首要是以客戶關係為導向。我們持續尋求加入符合我們目標市場的客戶，包括企業、企業主、專業人士及其相關關係。這些關係由經驗豐富的銀行經理及其他受過訓練的專業人士維護、培育與擴展。我們主要透過來自我們企業與專業客戶的基礎存款，以及我們分行市場區域的消費者存款來資助貸款成長，並輔以借款或其他存款來源，包括從房地產信貸銀行（FHLB）取得的貸款及經紀人發行的存款證。",
+    "專門貸款與產品利基 – 我們已將貸款業務專注於我們認為作為商業貸款人具備優勢的專業市場。此外，我們在某些產品利基領域也建立了專業知識。這些專業利基活動專注於以下領域：",
+    "•SBA 7(a)。我們在全國各地的分行設有經驗豐富的銀行家團隊，透過 SBA 7(a) 計畫發放貸款。這些貸款主要為業主自用的 CRE 貸款，以首優先權抵押。這些貸款大多數有 75% 的部分由 SBA 保證。透過專注於此特定產品類型，我們已發展出專門的專業知識，使我們在執行速度與可靠性方面有所區別。",
+    "•壽險保費融資。我們專注於為高淨值財產規劃所使用的整體壽險保費融資，透過與全國各地的精品財產規劃機構的關係來提供相關服務。",
+    "•贊助人融資。我們支持國內多個市場中中型市場公司的合併與收購。我們直接行銷給目標私營股權機構，主要是 SBICs，並為投資組合公司提供主要的債務融資。此外，本公司與投資組合公司的贊助人之間同時有融資與存款關係。",
+    "•稅收抵免相關貸款。我們是透過聯邦與州政府低收入住宅稅收抵免資金支持的可負擔住宅專案的擔保貸款人。此外，我們也為透過美國財政部社區發展金融機構（\"Treasury CDFI\"）新市場稅收抵免計畫（\"NMTC\"）資金支持的專案提供槓桿貸款及其他貸款。2024 年及 2025 年，我們分別獲得來自 Treasury CDFI 的 50.0 百萬美元及 80.0 百萬美元 NMTC 分配金額。這是我們分別獲得的第七與第八筆 NMTC 分配金額，總計這些分配金額為 433.0 百萬美元。我們將持續參與未來獎勵的申請程序，並擔任其他獲分配金額機構的擔保貸款人。",
+    "•稅收抵免經紀。我們在一個合夥企業中持有少數股權，該企業從事取得、投資及銷售州政府低收入住宅稅收抵免。我們貸款給該合夥企業，並在專案完成或抵免權銷售時收取利息收入及手續費收入。",
+    "存款垂直業務 – 除了為我們 C&I 客戶提供的商業營運帳戶外，我們也為某些產業中具有複雜帳戶需求的客戶提供存款垂直帳戶。我們的重點領域包括社區協會、物業管理、法律產業及託管服務。這些帳戶主要為現金帳戶，整體利息成本較低。我們存款垂直業務的客戶通常會獲得一個獲利信用額，用以抵銷維護存款帳戶的成本。本公司透過應用獲利信用額所支付的金額，會反映為綜合損益表中非利息費用的組成部分。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'Introduction': '導言'}",
+    "{'Executive Summary': '執行摘要'}",
+    "{'Financial Performance Highlights': '財務表現重點'}",
+    "{'2025 Financial Highlights': '2025 財務重點'}",
+    "{'2024 Financial Highlights': '2024 財務重點'}",
+    "{'Net Interest Income': '淨利息收入'}",
+    "{'Average Balance Sheet': '平均資產負債表'}",
+    "{'Noninterest Income': '非利息收入'}",
+    "{'original': 'Noninterest Expense', 'translated': '非利息支出'}",
+    "{'original': 'Income Taxes', 'translated': '所得稅'}",
+    "{'original': 'Summary Balance Sheet', 'translated': '資產負債表摘要'}",
+    "{'original': 'Loans by Type', 'translated': '按類別分列之貸款'}",
+    "{'original': 'Provision and ACL', 'translated': '提列準備及貸款減值準備'}",
+    "{'original': 'Nonperforming loans and assets', 'translated': '非 Performing 貸款及資產'}",
+    "{'original': 'Investment Securities', 'translated': '投資證券'}",
+    "{'original': \"Stockholders' equity\", 'translated': '股東權益'}",
+    "流動性及資本資源",
+    "資本資源"
+   ],
+   "paragraphs": [
+    "本公司提供廣泛的企業及個人銀行服務，包括財富管理。貸款服務包括公司貸款、商業不動產貸款、不動產開發與建設貸款、住宅不動產貸款、專業貸款及消費貸款。多樣化的存款產品及完整的財務管理與國際貿易服務，補強我們的貸款能力。本公司的營運成果亦受總體經濟情況、競爭、政府政策及其他監管機構行動之影響。",
+    "本公司的財務狀況、營運成果及流動性於 2025 年持續受到貨幣政策行動之影響。美國聯邦準備理事會於 2025 年將目標聯邦資金利率降低 75 基點，繼 2024 年降低 100 基點之後。此為 2022 年至 2023 年期間，美國聯邦準備理事會將目標聯邦資金利率提高 525 基點之後的時期。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'translated_text': '與總體經濟及市場條件相關之風險'}",
+    "{'translated_text': '法律、法規及稅務風險'}",
+    "{'translated_text': '財務風險'}",
+    "{'translated_text': '信用及流動性風險'}",
+    "{'translated_text': '競爭及聲譽風險'}",
+    "{'translated_text': '併購風險'}",
+    "{'translated_text': '科技及網路安全風險'}",
+    "{'translated_text': '與本公司普通股及託管股份相關之風險'}"
+   ],
+   "paragraphs": [
+    "投資本公司普通股或託管股，將面臨與本公司業務內在相關的風險。在做出投資決定前，應仔細考慮下列所描述的風險與不確定性，並配合本報告所包含或參考的其他資訊。本公司普通股與託管股的價值可能因這些風險而下跌，您可能損失全部或部分投資。",
+    "經濟衰退可能對本公司財務狀況、營運成果或現金流產生不利影響。",
+    "經濟蕭條情況與/或國內外信貸市場的負面發展，可能顯著影響我們所從事的市場、貸款與投資的價值，以及我們的持續營運與獲利能力。若我們營運的地區未能成長，或當地或國家的經濟條件不利，本公司業務可能無法成功。不可預測的經濟條件可能對我們貸款組合的品質與財務表現產生不利影響。我們市場區域內經濟的不利變化，可能對本公司財務狀況、營運成果或現金流產生重大不利影響。本公司面臨較高的地方經濟條件不利風險。此外，即使主要市場區域出現市場成長或有利的經濟條件，本公司無法保證會因此受益。",
+    "我們面臨因政府貨幣與財政政策變動而產生的潛在風險。",
+    "本公司獲利受國內經濟狀況與美國政府及其機構的貨幣與財政政策影響。聯邦儲備銀行的貨幣政策已對商業銀行的營運成果產生重要影響，並可能持續產生影響，因其擁有執行國家貨幣政策的權力，以達到控制通貨膨脹或對抗經濟衰退等目標。聯邦儲備銀行的貨幣政策透過控制美國政府證券的發行、調節成員銀行適用的貼現率，以及影響成員銀行的準備金率要求，影響銀行貸款、投資與存款的水準。貿易政策，包括關稅與潛在貿易戰，可能以不可預測的方式影響我們的客戶與營運地區，這可能對我們的營運成果或現金流產生負面影響。本公司無法預測未來貨幣與財政政策變動的性質與影響。",
+    "影響銀行業的負面發展與相關媒體報導，可能削弱客戶信心"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

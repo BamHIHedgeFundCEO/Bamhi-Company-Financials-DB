@@ -1,0 +1,217 @@
+{
+ "ticker": "ALNT",
+ "cik": "0000046129",
+ "accession": "0001104659-26-024123",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Recent Events",
+    "Sales and Marketing",
+    "Major Customers",
+    "Competitive Environment",
+    "Availability and Prices of Parts and Raw Materials",
+    "Patents, Trademarks, Licenses, Franchises and Concessions",
+    "Working Capital Items",
+    "Engineering and Development Activities",
+    "Sustainability",
+    "International Operations",
+    "Human Capital"
+   ],
+   "paragraphs": [
+    "We are a global company that designs, manufactures and sells precision and specialty controlled motion components and systems used in a broad range of industries. Our target markets include Industrial, Vehicle, Medical, and Aerospace & Defense (A&D). We are headquartered in Amherst, NY, and have global production operations and sell to markets across the United States, Canada, South America, Europe and Asia-Pacific. We are known worldwide for our expertise in electro-magnetic, mechanical and electronic motion technology. We sell component and integrated controlled motion solutions to end customers and OEMs through our own direct sales force and authorized manufacturers' representatives and distributors. Our products and solutions include nano precision positioning systems, servo control systems, motion controllers, digital servo amplifiers and drives, brushless servo, torque, and coreless motors, brush motors, integrated motor-drives, gear motors, gearing, incremental and absolute optical encoders, active (electronic) and passive (magnetic) filters for power quality and harmonic issues, Industrial safety rated input/output Modules, Universal Industrial Communications Gateways, light-weighting technologies, and other controlled motion-related products.",
+    "Allient was established in 1962 under the laws of Colorado and operates in the United States, Canada, Mexico, Europe and Asia-Pacific. We are headquartered in Amherst, New York and the mailing address of our corporate headquarters is 495 Commerce Drive, Amherst, New York 14228. The telephone number at this location is (716) 242-8634. Our website is www.allient.com. We trade under the ticker symbol \"ALNT\" on the NASDAQ exchange.",
+    "The Company maintains a website at www.allient.com. We make available, free of charge on or through our website our annual reports on Form 10 K, quarterly reports on Form 10 Q, current reports on Form 8 K, and amendments to those reports as soon as reasonably practicable after we electronically file or furnish such materials to the SEC.",
+    "We have a Code of Ethics for our chief executive officer and president and senior financial officers regarding their obligations in the conduct of Company affairs. We also have a Code of Ethics and Business Conduct that is applicable to all directors, officers and employees. The Codes are available on our website. We intend to disclose on our website any amendment to, or waiver of, the Codes that would otherwise be required to be disclosed under the rules of the SEC and the Nasdaq Global Market. A copy of both Codes is also available in print to any stockholder upon written request addressed to Allient Inc., 495 Commerce Drive, Amherst, NY 14228-2313, Attention: Secretary.",
+    "During 2024, the Company commenced the Simplify to Accelerate NOW program. This included initiatives to realign the Company's manufacturing footprint and streamline the organization to enhance operational efficiency and drive profitability. These initiatives are expected to position Allient to emerge from the current challenging macroeconomic environment and industrial headwinds with stronger earnings power, improved operational flexibility, and enhanced capacity to capitalize on future growth opportunities.",
+    "On February 6, 2025, the Company announced that consistent with its Simplify to Accelerate NOW strategy, it will expand upon current capabilities and skillsets to create a state-of-the-art Machining Center of Excellence at its facility in Dothan, Alabama. The Company transferred current assembly operations from Dothan and merged these capabilities into its facilities in Tulsa, Oklahoma and Reynosa, Mexico where Final Assembly, Integration and Test capabilities are the core competencies.",
+    "The realignment will improve business focus and better leverage the Company's footprint to deliver high-precision system solutions for demanding applications in various served markets including Aerospace and Defense, Medical and Electronic Test and Assembly Equipment. One-time costs required to implement the changes in 2025 were approximately $4 million, primarily related to employee severance and other personnel related expenses, and have been substantially incurred and paid during 2025. The initiative supported our goal in driving over $6 million in additional annualized cost savings.",
+    "Throughout 2024 and into 2025, we continue to refine our strategy to expand our vertical market focus to accelerate our growth. Throughout its history, the Company has expanded our capabilities to be a leading global provider of motion solutions. More recently, we have been building our controls and power technologies, both organically and through acquisitions. The evolution of these additional pillars of our business enhances our overall value proposition, expands our addressable markets and is aligned with mega technology trends. These advancements required us to refine our strategy to leverage the value opportunity that exists in three technology pillars – Motion, Controls and Power. In addition, we are structuring our organization with focused market selling and support teams to increase solution sales opportunities under our new brand - Allient. This refined strategy is reflected in the 2023 change of our corporate name from Allied Motion Technologies Inc. to Allient Inc., short for Allied Nexus Technologies. Allient captures the opportunity that exists at the nexus of these three technology pillars and recognizes the unique capabilities the combination offers.",
+    "In recent years, inflation negatively impacted our input costs and pricing, primarily for labor and materials. We, our customers, and our suppliers also experienced the effect of a higher interest rate environment. While gross domestic products began to rebound in 2023 from the widespread impacts of inflation, increasing interest rates, and other restrictive financial conditions in 2022, the factors contributing to supply chain disruptions, labor shortages, and global inflation remained persistent, along with continued elevated geopolitical instability. There are varying degrees of impact on our customers, and thus our business around the world.",
+    "The U.S government has proposed and implemented certain updates to existing foreign trade policies. These updates include new and increased tariffs, or potential tariffs, on a wide range of products and goods imported to the U.S., and certain countries have responded with reciprocal tariffs and/or trade restrictions. We have manufacturing operations in Mexico, China, and Europe, amongst other locations globally throughout the world, and source certain components from locations that may be impacted by these policy changes. U.S. government tariffs and trade policies, as well as court rulings and their implications, continue to be closely monitored and our operations remain agile in making adjustments to minimize potential impacts to our business.",
+    "The current geopolitical conflicts are creating higher levels of economic uncertainty and increased volatility with respect to energy prices, interest rates, our supply chain (in particular, with respect to proposed changes to tariffs and trade policies), and certain customer ordering patterns. We are closely monitoring the developments and continue to adjust our production platform to react to changing customer ordering patterns and realize efficiencies. The impact of the conflicts on our operational and financial performance will depend on future developments that cannot be predicted.",
+    "Changing order patterns, supply chain disruptions, and the evolution of our business required us to carry larger inventories in recent years to meet the needs of our customers. In addition, aerospace and defense customers ordering patterns continue to change quickly based on the geopolitical conflicts and sovereign governments priorities and budgets to address those conflicts.",
+    "SNC: On January 11, 2024, the Company acquired 100% of the interest in SNC Manufacturing Co., Inc. (\"SNC\"), a privately-owned premier designer and global manufacturer of electrical transformers serving blue-chip customers in defense, industrial automation, alternative power generation and energy, including electric utilities and renewable energy. SNC has experience in industrial automation, defense, medical, and alternative energy markets, and their offerings are complementary to existing power quality capabilities and provide additional low-cost manufacturing capacity.",
+    "Sierramotion: On September 22, 2023, the Company acquired 100% of the interest in Sierramotion Inc. (\"Sierramotion\"), a privately-owned company specializing in designing and engineering turn-key motion components and mechatronic (mechanical, electrical, and control) solutions for robotic, medical, industrial, defense, semiconductor, and other precision applications. Sierramotion has experience and know-how designing and applying products in electro-mechanical systems with moving magnets or moving coils for rotary, linear, and arc shaped applications. They provide customized design and integration capabilities, testing, performance simulations, prototype development, and low volume production for a variety of high precision and custom critical applications."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Our global sales and operations are subject to a variety of economic, market and financial risks and costs that could affect our profitability and operating results.",
+    "Our growth could suffer if the markets into which we sell our products and solutions decline.",
+    "We rely on suppliers to provide equipment, components and services, which creates certain risks and uncertainties that may adversely affect our business.",
+    "Our profits may decline if the price of raw materials increase and we cannot recover the increases from our customers.",
+    "We face competition that could harm our business and we may be unable to compete successfully against new entrants and established companies with greater resources.",
+    "Quality problems with our products and solutions could harm our reputation, erode our competitive advantage and could result in warranty claims and additional costs.",
+    "If we are unable to attract and retain qualified personnel, our ability to operate and grow our company will be in jeopardy.",
+    "Our future success depends in part on the continued service of our engineering and technical personnel and our ability to identify, hire and retain personnel.",
+    "We depend heavily upon a limited number of customers, and if we lose any of them or they reduce their business with us, we would lose a substantial portion of our revenues.",
+    "If we do not respond to changes in technology, our products and solutions may become obsolete and we may experience a loss of customers and lower revenues.",
+    "We face the challenge of accurately aligning our capacity with our demand.",
+    "We face the potential harm of natural disasters, pandemics, acts of war, terrorism, international conflicts or other disruptions to our operations.",
+    "We face potential operational impacts associated with volatility in energy markets.",
+    "The indemnification provisions of acquisition agreements by which we have acquired companies may not fully protect us and as a result we may face unexpected liabilities.",
+    "We intend to develop new products and solutions and expand into new markets, which may not be successful and could harm our operating results.",
+    "Our competitiveness depends on successfully executing our growth initiatives and our global optimization strategies.",
+    "Foreign currency exchange rates may adversely affect our financial results.",
+    "Economic and credit market uncertainty could interrupt our access to capital markets, borrowings, or financial transactions to hedge certain risks, which could adversely affect our financial condition.",
+    "Our indebtedness may limit our operations and our use of our cash flow, and any failure to comply with the covenants that apply to our indebtedness could adversely affect our liquidity and financial results.",
+    "Unforeseen exposure to additional income tax liabilities may negatively affect our operating results.",
+    "Our operating results could fluctuate significantly.",
+    "We may never realize the full value of our substantial intangible assets.",
+    "Increased healthcare, pension and other costs under the Company's benefit plans could adversely affect the Company's financial condition and results of operations.",
+    "Failure of our internal controls over financial reporting could limit our ability to report our financial results accurately and timely or prevent fraud.",
+    "Our international operations expose us to legal and regulatory risks, which could have a material effect on our business.",
+    "Our inability to adequately enforce and protect our intellectual property or defend against assertions of infringement could prevent or restrict our ability to compete.",
+    "We are subject to a variety of litigation and other legal and regulatory proceedings in the normal course of our business that could adversely affect our financial results.",
+    "Our business is subject to environmental regulations that could negatively affect our operating results."
+   ],
+   "paragraphs": [
+    "In the ordinary course of our business, we face various strategic, operating, compliance and financial risks. These risks could have a material impact on our business, reputation, financial condition or results of operations. Our most significant risks are set forth below and elsewhere in this Report. These risk factors should be considered in addition to our cautionary comments concerning forward-looking statements in this Report, including statements related to markets for our products and trends in our business that involve a number of risks and uncertainties.",
+    "We do business around the world and are continuing our strategy of enhancing our global optimization. Our international sales are primarily to customers in Europe, Canada and Asia-Pacific. In addition, our manufacturing operations, suppliers and employees are located in many places around the world. The future success of our business includes growth in our sales in non-U.S. markets. Our global operations are subject to numerous financial, legal and operating risks, such as political and economic instability; imposition of trade or foreign exchange restrictions, including in the U.S.; trade protection measures such as the imposition of or increase in tariffs and other trade barriers, including in the U.S.; unexpected changes in regulatory requirements, including in the U.S., prevalence of corruption in certain countries; enforcement of contract and intellectual property rights and compliance with existing and future laws, regulations and policies, including those related to tariffs, investments, taxation, trade controls, product content and performance, employment and repatriation of earnings. In addition, we are affected by changes in foreign currency exchange rates, inflation rates and interest rates.",
+    "Our growth depends in part on the growth of the markets which we serve. Any decline or lower than expected growth in our served markets could diminish demand for our products and solutions, which would adversely affect our financial results. We operate in industries that may experience periodic, cyclical downturns. Demand for our products and solutions is also sensitive to changes in customer order patterns, which may be affected by announced price changes, changes in incentive programs, new product introductions and customer inventory levels. Any of these factors could adversely affect our growth and results of operations in any given period.",
+    "We could experience a failure of a key information technology system, process or site or a breach of information security, including a cybersecurity breach or failure of one or more key information technology systems, networks, processes, associated sites or service providers.",
+    "We rely extensively on information technology (\"IT\") systems for the storage, processing, and transmission of our electronic, business-related information assets used in or necessary to conduct business. We leverage our internal information technology infrastructures, and those of our business partners, to enable, sustain, and support our global business activities. In addition, we rely on networks and services, including internet sites, data hosting and processing facilities and tools and other hardware, software and technical applications and platforms, some of which are managed, hosted, provided and/or used by third-parties or their vendors, to assist in conducting our business. All third parties contracted by the Company have been vetted and have significant reputations in the industry. As such, controls from the third party vendors have been deemed to be adequate prior to any goods or services having been provided. The data we store and process may include customer payment information, personal information concerning our employees, confidential financial information, and other types of sensitive business-related information. Numerous and evolving cybersecurity threats pose potential risks to the security of our IT systems, networks and services, as well as the confidentiality, availability and integrity of our technology systems and data. In addition, the laws and regulations governing security of data on IT systems are evolving and adding another layer of complexity in the form of new requirements. In the past, we have had cybersecurity incidents and we have made and continue to make investments, seeking to address these threats, including monitoring of networks and systems, hiring of experts to evaluate and test our systems, employee training and security policies for employees and third-party providers.",
+    "The frequency and the techniques used in these attacks have increased significantly and may be difficult to detect for periods of time and we may face difficulties in anticipating and implementing adequate preventative measures. While the breaches of our IT systems to date have not been material to our business or results of operations, the costs of attempting to protect our IT systems and data will increase, and there can be no assurance that these added security efforts will prevent all breaches of our IT systems or thefts of our data. If our IT systems are damaged or cease to function properly, the networks or service providers we rely upon fail to function properly, or we or one of our third-party providers suffer a loss or disclosure of our business or stakeholder information due to any number of causes ranging from catastrophic events or power outages to improper data handling or security breaches (including ransomware, denial-of-service attacks, a malicious website, the use of social engineering and other means to affect the confidentiality, integrity and availability of our technology systems and data) and our business continuity plans do not effectively address these failures on a timely basis, we may be exposed to potential disruption in operations, loss of customers, reputational, competitive and business harm as well as significant costs from remediation, ransom payments, litigation and regulatory actions."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Amounts presented in Item 7 are in thousands, except per share data.",
+    "Financial Overview",
+    "Our Strategy",
+    "Outlook for 2026",
+    "Critical Accounting Policies and Estimates",
+    "Revenue Recognition",
+    "Evaluation of Goodwill for impairment",
+    "Business Combinations",
+    "Impact of Recently Issued Accounting Pronouncements",
+    "Operating Results",
+    "Year 2025 compared to 2024",
+    "For the year ended",
+    "2025 vs. 2024",
+    "December 31,",
+    "(Dollars in thousands, except per share data)",
+    "Non-GAAP Measures",
+    "December 31, 2025",
+    "Liquidity and Capital Resources",
+    "Year Ended December 31,",
+    "Foreign Currency",
+    "Interest Rates"
+   ],
+   "paragraphs": [
+    "In 2025, we successfully executed on our strategic initiatives, delivering improved margins, stronger cash flow, and enhanced balance sheet flexibility. Strength in industrial automation and power quality solutions supporting data center infrastructure, combined with the disciplined execution of structural cost and margin improvements from our Simplify to Accelerate NOW program, have yielded durable margin expansion.",
+    "Allient is an applied technology/know-how company, and to grow, we will continue to invest in the technical resources to ensure we can execute on our mantra to \"create game changing solutions that adds tangible value for our customers\".",
+    "As we look into 2026, while we remain mindful of macroeconomics variability in certain end markets, our diversified portfolio, improved cost structure and enhanced financial flexibility support disciplined growth and long-term value creation."
+   ],
+   "focus": "Outlook for 2026"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'translatedText': '近期事件', 'originalText': 'Recent Events'}",
+    "{'translatedText': '銷售與行銷', 'originalText': 'Sales and Marketing'}",
+    "{'translatedText': '主要客戶', 'originalText': 'Major Customers'}",
+    "{'translatedText': '競爭環境', 'originalText': 'Competitive Environment'}",
+    "{'translatedText': '零組件及原物料的取得與價格', 'originalText': 'Availability and Prices of Parts and Raw Materials'}",
+    "{'translatedText': '專利、商標、許可證、特許經營權與特許權', 'originalText': 'Patents, Trademarks, Licenses, Franchises and Concessions'}",
+    "{'translatedText': '營運資金項目', 'originalText': 'Working Capital Items'}",
+    "{'translatedText': '工程與開發活動', 'originalText': 'Engineering and Development Activities'}",
+    "{'original': 'Sustainability', 'translated': '永續發展'}",
+    "{'original': 'International Operations', 'translated': '國際營運'}",
+    "{'original': 'Human Capital', 'translated': '人力資本'}"
+   ],
+   "paragraphs": [
+    "本公司為一間全球性公司，設計、製造並銷售用於廣泛產業的高精度與專業控制運動零組件與系統。我們的目標市場包括工業、車用、醫療以及航空與防禦（A&D）。本公司總部設於紐約阿默斯特（Amherst, NY），在全球擁有生產設施，並銷售至美國、加拿大、南美洲、歐洲及亞太地區。本公司在全球以電磁、機械與電子運動技術的專業知識聞名。我們透過自有直接銷售團隊及經授權的製造商代表與經銷商，向終端客戶與OEM客戶銷售零組件與整合式控制運動解決方案。我們的產品與解決方案包括納米精度定位系統、伺服控制系統、運動控制器、數位伺服放大器與驅動器、無刷伺服、扭矩與無鐵芯馬達、刷馬達、整合式馬達驅動器、齒輪馬達、齒輪、增量與絕對光學編碼器、主動（電子）與被動（磁性）濾波器用於電力品質與諧波問題、工業安全等級的輸入/輸出模組、工業通訊閘道器、輕量化技術，以及其他與控制運動相關的產品。",
+    "Allient 於1962年根據科羅拉多州法律成立，並在美國、加拿大、墨西哥、歐洲及亞太地區營運。本公司總部設於紐約阿默斯特，本公司總部的郵遞地址為495 Commerce Drive, Amherst, New York 14228。此處的電話號碼為(716) 242-8634。本公司網站為www.allient.com。我們在NASDAQ交易所以「ALNT」為股票代碼進行交易。",
+    "本公司維護一個網站，網址為www.allient.com。我們透過網站免費提供年度報告（Form 10-K）、季報（Form 10-Q）、現況報告（Form 8-K）及這些報告的更正版本，自我們電子提交或提供這些資料給美國證券交易委員會（SEC）後，盡速提供。",
+    "本公司制定了一套道德準則，適用於首席執行長與總裁及高階財務官員，規範他們在處理公司事務時的義務。我們也制定了一套適用於所有董事、高階主管與員工的道德與商業行為準則。這些準則可在本公司網站上取得。我們有意在網站上揭露任何需根據美國證券交易委員會（SEC）及納斯達克全球市場規則進行披露的準則修正或豁免事項。任何股東如以書面請求寄送至Allient Inc., 495 Commerce Drive, Amherst, NY 14228-2313, 注意事項：祕書，即可取得這兩套準則的紙本複製本。",
+    "在2024年，本公司啟動了簡化以加速NOW計畫。此計畫包括重新調整製造設施與簡化組織結構，以提高運營效率並推動獲利能力。這些措施預期將使Allient在當前困難的總體經濟環境與產業逆風中，以更強的獲利能力、改善的運營靈活性與增強的未來成長機會來應對。",
+    "於2025年2月6日，本公司宣佈，根據其簡化以加速NOW策略，將擴展現有能力與技能，於亞拉巴馬州多 THAN 市的廠區設立一間先進的機械加工中心卓越中心。本公司已將現有的組裝作業從多 THAN 轉移至俄克拉荷馬州塔爾薩與墨西哥雷約納的廠區，並將這些能力整合至這些廠區，這些廠區的最終組裝、整合與測試能力為核心優勢。",
+    "此重新調整將提升業務重點，並更有效地利用本公司設施，以提供高精度系統解決方案，用於各個服務市場中對嚴格應用需求的領域，包括航空與防禦、醫療及電子測試與組裝設備。2025年為實施變更所需的單次成本約為4百萬美元，主要與員工遣散費及其他人事相關費用有關，且這些費用已在2025年 substantially 支付。此計畫支持我們推動每年節省約6百萬美元的年度化成本目標。",
+    "在2024年及2025年期間，我們持續優化策略，以擴展垂直市場重點，加速成長。在公司歷史上，本公司已擴展能力，成為全球領先的運動解決方案供應商。最近，我們透過內生與收購方式，建立控制與電力技術。這些業務支柱的演進增強了我們整體的價值主張，擴大了我們可接觸的市場，並與宏觀科技趨勢一致。這些進步促使我們優化策略，以善用運動、控制與電力這三個科技支柱的價值機會。此外，我們正在以專注市場的銷售與支援團隊結構化組織，以增加在新品牌Allient下的解決方案銷售機會。此優化策略反映在2023年本公司將公司名稱從Allied Motion Technologies Inc. 更改為Allient Inc.，簡稱為Allied Nexus Technologies。Allient捕捉了這三個科技支柱交會點的機會，並認可組合所帶來的獨特能力。",
+    "近年來，通貨膨脹對我們的投入成本與價格造成負面影響，主要為勞動力與材料。我們、客戶與供應商也經歷了較高利率環境的影響。雖然美國國內生產總值（Gross Domestic Product）在 2023 年開始從 2022 年廣泛的通貨膨脹、利率上揚及其他限制性財務條件的影響中復甦，但導致供應鏈中斷、勞動力短缺與全球通貨膨脹的因素仍然持續存在，並伴隨持續升高的地緣政治不穩定性。我們的客戶受到不同程度的影響，因此我們在全球的業務也受到影響。",
+    "美國政府已提出並實施某些現有貿易政策的更新。這些更新包括對進口至美國的廣泛產品與商品的新增或潛在關稅，以及某些國家已以反制關稅與/或貿易限制作為回應。我們在墨西哥、中國與歐洲等地設有製造業務，並在全球其他地區也有設廠，且從可能受這些政策變動影響的地區取得部分零組件。美國政府的關稅與貿易政策，以及法院判決及其影響，持續受到密切監測，我們的業務運作仍保持靈活，以做出調整，以降低對我們業務的潛在影響。",
+    "目前的地緣政治衝突正在創造更高的經濟不確定性，並增加能源價格、利率、我們的供應鏈（特別是與關稅與貿易政策變動相關的部分）以及某些客戶訂單模式的波動性。我們密切關注發展動態，並持續調整生產平台，以應對變動的客戶訂單模式並實現效率。衝突對我們運營與財務表現的影響將取決於未來發展，而這些發展無法預測。",
+    "變動的訂單模式、供應鏈中斷以及我們業務的演進，使我們在近年來必須持有較多的存貨以滿足客戶需求。此外，航空與防禦客戶的訂單模式持續因地緣政治衝突與主權政府的優先事項與預算以應對這些衝突而快速變動。",
+    "SNC：於 2024 年 1 月 11 日，本公司取得 SNC Manufacturing Co., Inc.（\"SNC\"）100% 的股權。SNC 為一傢俬人所有、首屈一指的電氣變壓器設計與全球製造商，服務於防禦、工業自動化、替代能源發電與能源（包括電力公用事業與可再生能源）等藍籌客戶。SNC 在工業自動化、防禦、醫療與替代能源市場有經驗，其產品與服務與現有電力品質能力相輔相成，並提供額外的低成本製造能力。",
+    "Sierramotion：於 2023 年 9 月 22 日，本公司取得 Sierramotion Inc.（\"Sierramotion\"）100% 的股權。Sierramotion 為一傢俬人所有公司，專門從事設計與工程整合的運動零組件與機電（機械、電氣與控制）解決方案，應用於機械人、醫療、工業、防禦、半導體及其他高精度應用。Sierramotion 在電機械繫統中設計與應用具有移動磁鐵或移動線圈的產品方面有經驗與技術，適用於旋轉、線性與弧形應用。他們提供客製化設計與整合能力、測試、性能模擬、原型開發與低量產，用於多種高精度與客製化關鍵應用。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'original': 'Amounts presented in Item 7 are in thousands, except per share data.', 'translated': '第 7 項所列金額以千為單位表示，除每股資料外，均為如此。'}",
+    "{'original': 'Financial Overview', 'translated': '財務概覽'}",
+    "{'original': 'Our Strategy', 'translated': '本公司策略'}",
+    "{'original': 'Outlook for 2026', 'translated': '2026 年展望'}",
+    "{'original': 'Critical Accounting Policies and Estimates', 'translated': '關鍵會計政策與會計估計'}",
+    "{'original': 'Revenue Recognition', 'translated': '收入認列'}",
+    "{'original': 'Evaluation of Goodwill for impairment', 'translated': '商譽減損評估'}",
+    "{'original': 'Business Combinations', 'translated': '企業併購'}",
+    "最近發佈會計準則之影響",
+    "營運成果",
+    "2025 年與 2024 年比較",
+    "截至 2025 年 12 月 31 日",
+    "2025 年與 2024 年比較",
+    "12 月 31 日",
+    "(金額單位為千美元，除每股資料外)",
+    "非 GAAP 指標",
+    "2025年12月31日",
+    "流動性及資本資源",
+    "截至2025年12月31日年度",
+    "外幣",
+    "利率"
+   ],
+   "paragraphs": [
+    "2025 年，我們成功執行了我們的戰略方案，實現了改善的毛利率、強化現金流以及提升資產負債表的靈活性。工業自動化與電力品質解決方案在資料中心基礎設施方面的強勢表現，加上我們 Simplify to Accelerate NOW 程式所執行的結構性成本與毛利率改善，已帶來持續的毛利率擴張。",
+    "Allient 是一家應用技術/知識公司，為持續成長，我們將繼續投資技術資源，以確保我們能落實我們的口號『創造改變遊戲規則的解決方案，為客戶帶來可見的價值』。",
+    "展望 2026 年，雖然我們仍謹慎看待某些終端市場的總體經濟變動性，但我們多元化的產品組合、改善的成本結構以及提升的財務靈活性，支持我們進行謹慎的成長與長期價值創造。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "本公司全球銷售與營運業務面臨多種經濟、市場與財務風險與成本，這些因素可能影響本公司利潤率與營運成果。",
+    "若本公司銷售產品與解決方案之市場出現衰退，將可能影響本公司成長。",
+    "本公司依賴供應商提供設備、零組件與服務，此情形可能產生某些風險與不確定性，可能對本公司業務造成不利影響。",
+    "若原材料價格上漲，而本公司無法從客戶處轉嫁成本增加，則本公司利潤可能下降。",
+    "本公司面臨競爭，可能對本公司業務造成損害，且本公司可能無法成功對抗新進企業與資源較為充足的既有企業。",
+    "本公司產品與解決方案若出現品質問題，可能損害本公司聲譽、削弱本公司競爭優勢，並可能導致保固聲請與額外成本。",
+    "若本公司無法吸引並留住合適人才，將可能影響本公司營運與成長能力。",
+    "本公司未來之成功在部分程度上取決於工程與技術人員之持續服務，以及本公司識別、招募與留住人才之能力。",
+    "我們嚴重依賴有限數量的客戶，若我們失去任何客戶或他們減少與我們的業務合作，我們將失去相當大一部分的營業收入。",
+    "若我們未能回應科技的變革，我們的產品與解決方案可能變得過時，我們可能面臨客戶流失與營收減少的風險。",
+    "我們面臨準確匹配我們生產能力與需求的挑戰。",
+    "我們面臨自然災害、疫情、戰爭行為、恐怖主義、國際衝突或其他幹擾我們營運的潛在危害。",
+    "我們面臨能源市場波動所導致的運營影響的潛在風險。",
+    "我們透過收購取得公司的契約中關於賠償條款，可能無法完全保護我們，因此我們可能面臨未預期的負債。",
+    "我們有意開發新產品與解決方案，並拓展至新市場，這些計畫可能無法成功，並可能影響我們的營運成果。",
+    "我們的競爭力取決於成功執行我們的成長計畫與全球最佳化策略。",
+    "外幣交換匯率可能不利影響本公司的財務結果。",
+    "經濟與信貸市場的不確定性可能幹擾本公司取得資本市場、借款或進行財務交易以對衝某些風險的能力，這可能不利影響本公司的財務狀況。",
+    "本公司的負債可能限制本公司的營運及現金流的使用，任何未能遵守適用於本公司負債的契約條款，可能不利影響本公司的流動性及財務結果。",
+    "未預見的額外所得稅負擔可能不利影響本公司的營運結果。",
+    "本公司的營運結果可能出現顯著波動。",
+    "本公司可能永遠無法實現本公司重大智慧財產權的全部價值。",
+    "本公司福利計畫下的醫療保健、退休金及其他費用增加，可能不利影響本公司的財務狀況及營運結果。",
+    "本公司內部控制制度未能有效執行，可能限制本公司準確且及時報導財務結果的能力，或防止詐欺發生。",
+    "本公司之國際業務使我們面臨法律及法規風險，此等風險可能對本公司業務產生重大影響。",
+    "本公司若無法充分執行及保護智慧財產權，或無法防禦侵權聲請，可能影響或限制本公司競爭能力。",
+    "本公司因業務本質而面臨多種訴訟及其他法律及法規程序，此等程序可能對本公司財務結果產生不利影響。",
+    "本公司業務受環境法規所規範，此等法規可能對本公司營運成果產生負面影響。"
+   ],
+   "paragraphs": [
+    "本公司在日常營運中，面臨各種戰略、營運、合規及財務風險。這些風險可能對本公司業務、聲譽、財務狀況或營運成果產生重大影響。本公司最重要的風險已於下文及本報告其他部分說明。在考量本報告中關於向前看陳述的警示語句時，應同時參考這些風險因素，包括與本公司產品市場及業務趨勢相關的陳述，這些陳述涉及多種風險與不確定性。",
+    "本公司在全球營運，並持續執行強化全球最佳化策略。國際銷售主要為歐洲、加拿大及亞太地區的客戶。此外，本公司製造作業、供應商及員工位於世界各地。本公司未來業務的成功包括在非美國市場銷售的成長。本公司全球營運面臨許多財務、法律及營運風險，例如政治與經濟不穩定；貿易或外匯限制的施加，包括美國；貿易保護措施，如貿易稅或其它貿易障礙的施加或增加，包括美國；未預期的法規要求變更，包括美國；某些國家貪腐的普遍性；契約與智慧財產權權利的執行及符合現行與未來法律、法規及政策，包括與貿易稅、投資、稅收、貿易管制、產品內容與性能、就業及匯回收益相關的法規。此外，本公司受外幣匯率、通貨膨脹率及利率變動的影響。",
+    "本公司成長部分取決於所服務市場的成長。若所服務市場出現下降或低於預期的成長，可能降低對本公司產品與解決方案的需求，進而對本公司財務結果產生不利影響。本公司所處產業可能經歷週期性衰退。對本公司產品與解決方案的需求也受到客戶訂單模式變動的影響，而此等變動可能受公告價格變動、激勵計畫變更、新產品推出及客戶存貨水準影響。任何這些因素都可能對任何特定期間的本公司成長及營運結果產生不利影響。",
+    "本公司可能遭遇關鍵資訊科技系統、流程或場地的失敗，或資訊安全的違規，包括網路安全違規或關鍵資訊科技系統、網路、流程、相關場地或服務供應商的失敗。",
+    "本公司極度依賴資訊科技（\"IT\"）系統，用以儲存、處理及傳輸用於營運或營運所必需的電子業務相關資訊資產。本公司利用內部資訊科技基礎建設，以及合作夥伴的資訊科技基礎建設，以支援、維持及支持全球業務活動。此外，本公司依賴網路與服務，包括網站、資料存放與處理設施及工具及其他硬體、軟體與技術應用與平台，部分由第三方或其供應商管理、存放、提供或使用，以協助營運。本公司所聘任的第三方均已進行審查，且在產業中具有良好的聲譽。因此，在提供任何商品或服務前，已評估第三方供應商的控制措施為足夠。本公司所儲存與處理的資料可能包括客戶付款資訊、員工個人資訊、機密財務資訊及其他類型的敏感業務相關資訊。許多且不斷演進的網路安全威脅，可能對本公司資訊科技系統、網路與服務的安全性，以及技術系統與資料的機密性、可用性與完整性造成潛在風險。此外，規範資訊科技系統資料安全的法律與法規不斷演進，並增加新的要求，使情況更為複雜。過去，本公司曾遭遇網路安全事件，並已進行投資，持續進行投資，以應對這些威脅，包括監測網路與系統、聘請專家評估與測試系統、員工訓練及員工與第三方供應商的安全政策。",
+    "這些攻擊的頻率與技術已顯著增加，可能在一段時間內難以察覺，本公司可能面臨預測與實施適當預防措施的困難。雖然截至目前為止，本公司資訊科技系統的違規並未對業務或營運結果造成重大影響，但試圖保護資訊科技系統與資料的成本將增加，且無法保證這些增強的安全措施能防止所有資訊科技系統的違規或資料竊取。若本公司資訊科技系統受損或無法正常運作，所依賴的網路或服務供應商無法正常運作，或本公司或第三方供應商因多種原因導致業務或利害關係人資訊的遺失或揭露（包括災難性事件或電力中斷、不當資料處理或安全違規（包括勒索軟體、拒絕服務攻擊、惡意網站、使用社會工程等手段影響資訊科技系統與資料的機密性、完整性與可用性）），且業務連續性計畫未能在及時基礎上有效應對這些失敗，本公司可能面臨營運中斷、客戶流失、聲譽、競爭與業務損害，以及從修復、贖金支付、訴訟與監管行動產生的重大成本。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

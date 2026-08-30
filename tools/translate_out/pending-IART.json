@@ -1,0 +1,211 @@
+{
+ "ticker": "IART",
+ "cik": "0000917520",
+ "accession": "0000917520-26-000011",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "United States Food and Drug Administration",
+    "Medical Device Regulation",
+    "510(k) Clearance Process",
+    "De Novo Classification Process",
+    "Exempt Devices",
+    "Device Modifications Post-clearance or Approval",
+    "Postmarket Requirements",
+    "Human Cells, Tissues and Cellular and Tissue-Based Products",
+    "Regulations Outside of the U.S.",
+    "Regulations Governing Reimbursement"
+   ],
+   "paragraphs": [
+    "Integra LifeSciences Holdings Corporation is a global medical technology company dedicated to restoring lives. We are advancing transformational care through impactful innovation and our portfolio of highly differentiated technologies is trusted by healthcare professionals to deliver transformative care.",
+    "We manufacture and sell medical technologies and products in two reportable business segments: Codman Specialty Surgical (\"CSS\") and Tissue Technologies (\"TT\"). The CSS segment, which represents approximately 70% of our total revenue, consists of market-leading technologies and instrumentation used for a wide range of specialties, such as neurosurgery, neurocritical care, and otolaryngology, commonly referred to as ear, nose, and throat (\"ENT\"). We are the world leader in neurosurgery and one of the top three providers in the U.S. in instruments used in precision, specialty, and general surgical procedures. Our TT segment generates about 30% of our overall revenue and focuses on wound reconstruction and care and private label.",
+    "We were the first company to receive an FDA claim for regeneration of dermal tissue and are a world leader in regenerative technology. We have developed numerous product lines from this technology for applications ranging from burn and deep tissue wounds to the repair of dura mater in the brain, as well as nerves and tendons. We have expanded our base regenerative technology business to include neurosurgical products, ENT, surgical instruments and advanced wound care through global acquisitions and product development to meet the evolving needs of our customers and enhance patient care. Each of these categories and the key products sold therein are described in more detail below. We include financial information regarding our reportable business segments and certain geographic information under \"Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations\" and Note 16. Segment and Geographic Information to the Notes to Consolidated Financial Statements (Part IV, Item 15 of this Annual Report on Form 10-K).",
+    "Neurosurgery: In neurosurgery, we are a global leader in neuro-access, neuro-surgical and neuro-monitoring technologies. Our product portfolio represents a continuum of care from pre-operative, to the neurosurgery operating room, to the neuro-critical care unit and post care for both adult and pediatric patients suffering from brain tumors, brain injury, cerebrospinal fluid pressure complications and other neurological conditions",
+    "We offer leading technologies in dural repair, ultrasonic tissue ablation, intracranial pressure (\"ICP\") monitoring, hydrocephalus management, and cranial stabilization systems, while providing a rich research and development pipeline for growth.",
+    "•CUSA® (Cavitron Ultrasonic Surgical Aspirator) Platform: An ultrasonic surgical aspirator platform, including the CUSA Clarity, which is used in various surgical procedures, primarily for the fragmentation, emulsification, and aspiration of soft and hard tissues;",
+    "•CereLink® intercranial pressure (\"ICP\") Monitor: An advanced, digital intracranial pressure monitoring platform, designed for use in neuro-intensive care and operating room environments, which offers uncompromised advanced continuous ICP monitoring — with minimal drift, MRI conditional capability, durable, flexible ICP sensors, and advanced data presentation features;",
+    "•Codman® Neurosurgical Accessories: A portfolio of surgical consumables for use in the protection of tissue, including brain and other tissues of the central nervous system, during surgery and disposable perforators for use in perforating the cranium;",
+    "•DuraGen® Dural Graft Matrix: An absorbable implant for sutureless repair of dural defects after cranial or spinal surgery and which acts as an onlay dural graft which provide a highly porous scaffold for the purpose of patching large gaps in the dura and facilitating patient recovery;",
+    "•DuraSeal® Dural Sealant System: An absorbable polyethylene glycol (\"PEG\") hydrogel designed to provide a watertight seal, particularly around suture lines or at the edge of an onlay graft, for cranial and spinal surgery patients;",
+    "•Mayfield® Standard Cranial Stabilization System: A surgical device used to stabilize the patient's head during neurosurgical procedures;",
+    "•Bactiseal® Anti-Microbial Catheters: Antimicrobial external ventricular drainage (\"EVD\") catheters and shunts designed to allow for the draining or shunting of cerebrospinal fluid (\"CSF\") while reducing the risk of surgical site infections; and",
+    "•Certas® Plus Programmable Valve: A programable shunt valve which is designed to provide constant intraventricular pressure and drainage of CSF for the management of hydrocephalus",
+    "Specialty Instrumentation: Our specialty instrumentation portfolio includes a catalog of surgical headlamps, surgical instruments, as well as after-market service. With thousands of surgical instrument products, comprised of a comprehensive portfolio of reusable and disposable instruments, including forceps, retractors, scissors, and curettes, tailored for neurosurgery and spine surgery including specialty surgical instruments, we call on the central sterile processing unit of hospitals and acute care surgical centers. Additionally, through a strong U.S. distribution model, we can serve the needs of medical offices."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "The continuing worldwide macroeconomic and geopolitical uncertainty may adversely affect our business and prospects.",
+    "Our operating results may fluctuate.",
+    "The industry and market segments in which we operate are highly competitive, and we may be unable to compete effectively with other companies.",
+    "We cannot guarantee that any of our acquisitions, investments or alliances will be successful.",
+    "Our global business exposes us to certain operational, compliance and economic risks.",
+    "The current tensions in international trade and rising international political tensions and uncertainties may materially adversely affect our business, financial condition, and results of operations.",
+    "Exchange rate fluctuations and foreign currency hedges could adversely affect our financial results.",
+    "Our future financial results could be adversely affected by impairments or other charges.",
+    "We may experience difficulties, delays, performance impact or unexpected costs from consolidation of facilities and transfer of manufacturing facilities.",
+    "If any of our facilities or those of our suppliers were damaged and/or our manufacturing or business processes interrupted, we could experience lost revenues and our business could be seriously harmed.",
+    "We may have significant product liability exposure and our insurance may not cover all potential claims.",
+    "Our private label product lines depend significantly on key relationships with third parties, which we could be unable to establish and maintain.",
+    "Some of our activities may subject us to risks under federal and state laws prohibiting \"kickbacks\" and false or fraudulent claims.",
+    "Our medical device products are subject to reporting requirements and recalls, even after receiving regulatory clearance, approval or certification, which could harm our reputation, business and financial results.",
+    "The adoption of healthcare reform in the U.S. and initiatives sponsored by other governments may adversely affect our business, results of operations and/or financial condition.",
+    "Certain of our products contain materials derived from animal sources and may become subject to additional regulation."
+   ],
+   "paragraphs": [
+    "Our business faces significant risks. These risks include those described below and may include additional risks and uncertainties not presently known to us or that we currently deem immaterial. Our business, financial condition and results of operations could be materially adversely affected by any of these risks, and the trading prices of our common stock could decline by virtue of these risks. Some of the factors, events and contingencies discussed below may have occurred in the past, but the disclosures below are not representations as to whether or not the factors, events or contingencies have occurred in the past and instead reflect our beliefs and opinions as to the factors, events or contingencies that could materially and adversely affect our business in the future.",
+    "GLOBAL CHALLENGES AND MACROECONOMIC CONDITIONS",
+    "The United States and foreign countries have experienced recessionary pressures and face continued concerns about the systemic impacts of adverse economic conditions and geopolitical issues. Any negative impact on economic conditions and international markets, including increased geopolitical instability and other macroeconomic factors, including heightened inflation, trade barriers and related restrictions (including tariffs and related countermeasures), import or export licensing requirements, armed conflict and acts of terrorism, geopolitical tension and instability, supply chain disruptions, interest rate and foreign currency rate fluctuations, and volatility in the capital markets could negatively impact our business, financial condition, and results of operations.",
+    "Our business and results of operations have been and may continue to be adversely impacted by changes in macroeconomic conditions, including inflation, rising interest rates, bank failures and the accessibility of capital markets. Uncertainty about global economic and geopolitical conditions may also cause decreased demand for our products and services and increased competition, which could result in lower sales volume and downward pressure on the prices for our products, longer sales cycles, and slower adoption of new technologies. Such conditions may also constrain the liquidity of hospitals and other customers or limit their access to financing, which could further delay or reduce capital equipment purchases. A weakening of macroeconomic conditions may also adversely affect our suppliers, which could result in interruptions in supply. In addition, heightened macroeconomic and geopolitical uncertainty may impair our ability to accurately forecast demand and plan our business and operational activities.",
+    "Market acceptance of our medical products in the U.S. and other countries is dependent upon the medical equipment purchasing and procurement practices of our customers, patient need for our products and procedures and the reimbursement of patients' medical expenses by government healthcare programs and third-party payors. The continuing uncertainty surrounding global economic conditions and financial markets may cause the purchasers of medical equipment to decrease their procurement activities, particularly the sales of capital equipment such as our ultrasonic surgical aspirators, neuro monitors and cranial stabilization products. Economic uncertainty, an increase in unemployment rates, as well as increasing health insurance premiums, co-payments and deductibles may adversely affect demand for our products and elective or non-reimbursed procedures. Furthermore, governments and other third-party payors around the world facing tightening budgets could move to further reduce the reimbursement rates or the scope of coverage offered, which could adversely affect the sales of our products.",
+    "Our operating results, including components of operating results such as gross margin and operating expenses, may fluctuate from time to time. Our operating results have fluctuated in the past and can be expected to do so from time to time in the future. Some of the factors that may cause these fluctuations include:"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Acquisitions",
+    "Durepair® Acquisition",
+    "Acclarent, Inc. Acquisition",
+    "Executive Summary",
+    "Years Ended December 31,",
+    "Dollars in thousands 2025 2024",
+    "Revenues and Gross Margin",
+    "Segment Net Revenues",
+    "Operating Expenses",
+    "Research and Development",
+    "Selling, General and Administrative",
+    "Intangible Asset Amortization",
+    "Non-Operating Income and Expenses",
+    "Interest Income",
+    "Interest Expense",
+    "Other (Expense) Income, Net",
+    "Income Taxes",
+    "Working Capital",
+    "Cash and Marketable Securities",
+    "Short Term Investments",
+    "Cash Flows Provided by Operating Activities",
+    "Cash Flows Used in Investing Activities",
+    "Cash Flows (Used in) Provided by Financing Activities",
+    "Tariffs and Macroeconomic Environment",
+    "Credit Agreement, Convertible Senior Notes, Securitization and Related Hedging Activities",
+    "Share Repurchase Plan",
+    "Dividend Policy",
+    "Capital Resources",
+    "Off-Balance Sheet Arrangements",
+    "Contractual Obligations and Commitments",
+    "Business Combinations",
+    "Goodwill and Identifiable Intangible Assets"
+   ],
+   "paragraphs": [
+    "Net loss for the year ended December 31, 2025 was $(516.5) million, or $(6.74) per diluted share, compared to a net loss of $(6.9) million, or $(0.09) per diluted share for the year ended December 31, 2024. The net loss increased for the year ended December 31, 2025 as compared to prior periods, primarily driven by the impact of the goodwill impairment of $511.4 million recorded in the second quarter of the current year.",
+    "Income before income taxes includes the following special charges:"
+   ],
+   "focus": "Executive Summary"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "美國食品藥物管理局",
+    "醫療器材規範",
+    "510(k) 清單審查程序",
+    "新分類審查程序",
+    "免於審查器材",
+    "清單審查或核准後器材變更",
+    "上市後要求事項",
+    "人體細胞、組織及基於細胞和組織的產品",
+    "{'original': 'Regulations Outside of the U.S.', 'translated': '美國以外之規範'}",
+    "{'original': 'Regulations Governing Reimbursement', 'translated': '給付規範'}"
+   ],
+   "paragraphs": [
+    "Integra LifeSciences Holdings Corporation 為一間全球醫療科技公司，專注於恢復生命。我們透過具影響力的創新，推動轉型性照護，並以高度差異化的技術產品組合，被醫療專業人員信任，以提供轉型性照護。",
+    "我們在兩個應報告分部製造與銷售醫療科技與產品：Codman Specialty Surgical (\"CSS\") 與 Tissue Technologies (\"TT\")。CSS 分部約佔本公司總營業收入的 70%，包含用於神經外科、神經重症照護與耳鼻喉科（\"ENT\"）等多種專科領域的市場領先技術與儀器設備。我們為全球神經外科領域的領導者，也是美國在精準、專科與一般手術手術儀器領域的前三大供應商之一。TT 分部約佔本公司總營業收入的 30%，專注於傷口重建與照護以及自有品牌產品。",
+    "我們是首間獲得 FDA 聲明可用於真皮組織再生的公司，並為再生科技領域的全球領導者。我們已從此技術發展出多種產品線，應用範圍從燒傷與深層組織傷口修復，到腦部硬腦膜修復，以及神經與韌帶修復。我們已將基礎再生科技業務拓展至包含神經外科產品、ENT、手術儀器與先進傷口照護，透過全球收購與產品開發，以符合客戶的不斷演進需求並提升病患照護。這些類別與其中銷售的關鍵產品將在下文中更詳細說明。我們包含應報告分部與部分地理資訊的財務資訊，請參閱 \"Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations\" 以及 \"Note 16. Segment and Geographic Information\" 至合併財務報表附註 (Part IV, Item 15 of this Annual Report on Form 10-K)。",
+    "神經外科：在神經外科領域，我們為全球神經接觸、神經手術與神經監測技術的領導者。我們的產品組合涵蓋從術前、神經外科手術室、神經重症照護單位至術後照護的連續照護流程，用以照顧患有腦瘤、腦損傷、腦脊液壓力問題及其他神經系統疾病的成人與兒童患者。",
+    "我們提供在硬腦膜修復、超聲波組織消融、顱內壓（\"ICP\"）監測、腦積水管理與顱骨穩定系統等方面的領先技術，同時提供豐富的研究與開發管道以促進成長。",
+    "•CUSA® (Cavitron Ultrasonic Surgical Aspirator) 平台：一項超聲波手術吸引平台，包含 CUSA Clarity，用於各種手術程序，主要用於軟組織與硬組織的碎裂、乳化與吸引；",
+    "•CereLink® 頭顱內壓（\"ICP\"）監測器：一項先進的數位頭顱內壓監測平台，設計用於神經重症照護與手術室環境，提供不受妥協的連續 ICP 監測 — 具備極小漂移、MRI 條件使用能力、耐用且靈活的 ICP 傳感器，以及先進的資料呈現功能；",
+    "•Codman® 神經外科配件：一組用於手術中保護組織（包括大腦及其他中樞神經系統組織）的外科消耗品，以及用於鑽穿顱骨的一次性鑽頭。",
+    "•DuraGen® Dural Graft Matrix: 一種可吸收的植入物，用於顱腦或脊椎手術後無縫縫合顱骨缺損的修復，並作為一層覆蓋性顱骨移植物，提供高度多孔的支架，用以修補顱骨大範圍缺口並促進病患復原;",
+    "•DuraSeal® Dural Sealant System: 一種可吸收的聚乙二醇（\"PEG\"）水凝膠，設計用以提供防水密封，特別是在縫合線或覆蓋性移植物邊緣處，用於顱腦及脊椎手術病患;",
+    "•Mayfield® Standard Cranial Stabilization System: 一種用於神經外科手術中穩定病患頭部的醫療器材;",
+    "•Bactiseal® Anti-Microbial Catheters: 抗微生物性外部腦脊液（\"EVD\"）導管及分流管，設計用以引流或分流腦脊液（\"CSF\"），同時降低手術部位感染的風險; 和",
+    "•Certas® Plus Programmable Valve: 一種可程式化分流閥，設計用以維持穩定的腦室內壓力並引流腦脊液，用於治療腦積水",
+    "Specialty Instrumentation: 我們的專業醫療器材產品線包含一系列的外科頭燈、外科器械以及後市場服務。擁有數千種外科器械產品，包含重複使用與一次性使用的完整產品組合，包括止血鉗、牽引鉗、剪刀及刮匙，專為神經外科與脊椎外科手術設計，並符合專門外科器械需求，我們服務醫院中央無菌處理單位及急性照護手術中心。此外，透過強大的美國分銷模式，我們也能服務醫療診所的需要。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "併購",
+    "Durepair® 併購",
+    "Acclarent, Inc. 併購",
+    "管理摘要",
+    "截至12月31日年度",
+    "金額單位為千美元 2025 2024",
+    "營業收入與毛利率",
+    "分部淨營收",
+    "營運費用",
+    "研究與發展",
+    "營銷、一般及行政",
+    "無形資產攤銷",
+    "非營運收入及費用",
+    "利息收入",
+    "利息支出",
+    "其他（費用）收入，淨額",
+    "所得稅",
+    "營運資金",
+    "現金及交易性證券",
+    "短期投資",
+    "營運活動所產生之現金流",
+    "投資活動所使用之現金流",
+    "籌資活動所產生（或使用）之現金流",
+    "關稅及總體經濟環境",
+    "信用協議、可轉換優先無擔保債券、資產證券化及相關避險活動",
+    "股票回購計畫",
+    "股息政策",
+    "資本資源",
+    "表外安排",
+    "契約義務及承諾",
+    "企業併購",
+    "商譽及可辨認無形資產"
+   ],
+   "paragraphs": [
+    "",
+    "所得稅前收入包含以下特殊費用："
+   ]
+  },
+  "risk": {
+   "headings": [
+    "持續的全球總體經濟與地緣政治不確定性可能對我們的業務與前景產生不利影響。",
+    "我們的營運結果可能出現波動。",
+    "我們所從事的產業與市場分部具有高度競爭性，我們可能無法有效與其他公司競爭。",
+    "我們無法保證任何一項我們的併購、投資或聯盟會成功。",
+    "我們的全球業務使我們面臨某些營運、合規與經濟風險。",
+    "國際貿易當前的緊張關係與國際政治緊張與不確定性可能對我們的業務、財務狀況與營運結果產生重大不利影響。",
+    "匯率波動與外幣避險措施可能對我們的財務結果產生不利影響。",
+    "我們未來的財務結果可能因減損或其他費用而受到不利影響。",
+    "我們可能因廠區整併及製造廠區轉移而遭遇困難、延誤、效能影響或未預期的成本。",
+    "若任何我們的廠區或我們供應商的廠區受損且/或我們的製造或營運流程中斷，我們可能遭遇收入損失，且業務可能受到嚴重影響。",
+    "我們可能面臨重大產品責任風險，且我們的保險可能無法涵蓋所有潛在聲請。",
+    "我們的自有品牌產品線嚴重依賴與第三方的重要關係，我們可能無法建立及維持這些關係。",
+    "我們的部分活動可能使我們面臨美國聯邦及州政府禁止「回扣」及虛假或詐欺聲請的法律風險。",
+    "我們的醫療器材產品需遵守報告要求及召回程序，即使已獲得相關監管核准、批准或認證，這可能會損害我們的聲譽、業務及財務結果。",
+    "美國醫療改革的實施及其他政府主導的改革方案可能對我們的業務、營運結果及/或財務狀況產生不利影響。",
+    "我們的部分產品含有來自動物來源的材料，可能面臨額外的監管要求。"
+   ],
+   "paragraphs": [
+    "本公司業務面臨重大風險。這些風險包括下列所描述的風險，也可能包含目前尚未知悉或本公司目前認為不重要之其他風險與不確定性。本公司業務、財務狀況與營運成果可能因任何這些風險而受到重大不利影響，本公司普通股之交易價格也可能因這些風險而下跌。下列所討論之部分因素、事件與潛在情況，有些可能已發生於過去，但下列揭露並非表示這些因素、事件或潛在情況是否已發生於過去，而是反映本公司對這些因素、事件或潛在情況可能對本公司未來業務造成重大且不利影響之看法。",
+    "全球性挑戰與總體經濟條件",
+    "美國與外國國家已經歷衰退壓力，並面臨持續對不利經濟條件與地緣政治問題之系統性影響之擔憂。任何對經濟條件與國際市場之負面影響，包括增加的地緣政治不穩定性及其他總體經濟因素，包括通貨膨脹、貿易壁壘與相關限制（包括關稅與相關反制措施）、進口或出口許可要求、武裝衝突與恐怖攻擊、地緣政治緊張與不穩定、供應鏈中斷、利率與外幣匯率波動，以及資本市場之波動，可能會對本公司業務、財務狀況與營運成果造成負面影響。",
+    "本公司業務與營運成果已受到並可能繼續受到總體經濟條件變動之影響，包括通貨膨脹、利率上漲、銀行機構破產與資本市場之可接近性。對全球經濟與地緣政治條件之不確定性，也可能導致對本公司產品與服務之需求減少與競爭增加，這可能會導致銷售量減少與產品價格向下壓力，銷售週期延長，以及新技術採用速度變慢。這些條件也可能限制醫院及其他客戶之流動性或限制其取得融資之能力，這可能會進一步延遲或減少資本設備之採購。總體經濟條件之惡化也可能對本公司供應商造成不利影響，這可能會導致供應中斷。此外，總體經濟與地緣政治之不確定性增加，可能會影響本公司準確預測需求與規劃業務與營運活動之能力。",
+    "本公司醫療產品在美國及其他國家之市場接受度，取決於客戶之醫療設備採購與採購作業方式、患者對本公司產品與程序之需求，以及政府醫療計畫與第三方付款機構對患者醫療費用之補償。全球經濟條件與金融市場之持續不確定性，可能會導致醫療設備採購者減少其採購活動，特別是資本設備如本公司超聲波手術吸引器、神經監測器與顱骨固定產品之銷售。經濟不確定性、失業率增加，以及健康保險 premiums、共付額與免付額增加，可能會對本公司產品之需求與選擇性或未補償程序造成不利影響。此外，全球各國政府與其他第三方付款機構面對財務預算緊縮，可能會進一步降低補償率或覆蓋範圍，這可能會對本公司產品之銷售造成不利影響。",
+    "本公司營運成果，包括營運成果之組成部分如毛利率與營運費用，可能時常變動。本公司營運成果過去已出現變動，未來也可能時常出現變動。導致這些變動之部分因素包括："
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,219 @@
+{
+ "ticker": "ALT",
+ "cik": "0001326190",
+ "accession": "0001326190-26-000018",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Pemvidutide mechanism of action",
+    "Pemvidutide Demonstrates Statistically Significant MASH Resolution at 24 Weeks",
+    "Additional Pemvidutide Indications",
+    "Our Strategy",
+    "Intellectual Property",
+    "Patent Rights Related to EuPort Technology",
+    "EuPort Technology — In-Licensed from Mederis Diabetes, LLC",
+    "Patent Rights Related to our Product Candidates",
+    "Pemvidutide, Dual GLP-1/Glucagon Dual Agonist for MASH, AUD and ALD",
+    "United States Government Regulation",
+    "Drug and Biological Products Development Process",
+    "Review and Approval Processes"
+   ],
+   "paragraphs": [
+    "Altimmune, Inc. is a late clinical-stage biopharmaceutical company developing novel therapies for serious liver diseases. Our lead product candidate, pemvidutide (formerly known as ALT-801), is a balanced 1:1 glucagon/GLP-1 dual receptor agonist in development for the treatment of metabolic dysfunction-associated steatohepatitis (\"MASH\"), alcohol use disorder (\"AUD\") and alcohol-associated liver disease (\"ALD\"). We may also pursue additional indications for pemvidutide that leverage its differentiated clinical profile. Except where the context indicates otherwise, references to \"we,\" \"us,\" \"our,\" \"Altimmune\", or the \"Company\" refer to the company and its subsidiaries.",
+    "We obtained pemvidutide as part of the acquisition Spitfire Pharma Inc., in July of 2019. Pemvidutide was designed as a MASH therapeutic based on the understanding that targeting both metabolic and liver-specific effects could lead to an improved and differentiated candidate. Early work provided compelling preclinical efficacy data obtained from a mouse model of MASH. Following a first-in-human clinical trial where we observed initial signs of weight loss and pronounced liver effects, we evaluated pemvidutide in participants with fatty liver disease, or metabolic-dysfunction associated liver disease (MASLD), where we observed robust reductions in liver fat content and weight loss. These results confirmed the earlier study and paved the way for the biopsy-driven IMPACT Phase 2b trial in MASH. To better characterize the quality of the weight loss and cardiometabolic effects of pemvidutide, the MOMENTUM Phase 2 trial in overweight and obese participants was conducted and showed significant weight loss characterized by relative sparing of lean muscle mass and improvements in serum lipids associated with cardiovascular disease. In addition to the recently completed IMPACT trial, pemvidutide is currently being evaluated in participants with AUD and, separately, ALD. There is evidence that pemvidutide may decrease the craving for alcohol in these individuals, with the added benefit that pemvidutide may reverse the harmful effects that alcohol has on the liver in these patients.",
+    "Pemvidutide is a novel, investigational peptide with balanced 1:1 glucagon/GLP-1 dual receptor agonist activity in clinical development for the treatment of MASH, AUD and ALD. We believe pemvidutide is the only glucagon/GLP-1 dual receptor agonist with a balanced 1:1 potency at glucagon and the GLP-1 receptors, in effect placing glucagon activity on an even footing with GLP-1 activity. The activation of glucagon receptors results in direct effects on the liver, including reductions in liver fat, inflammation and fibrosis, whereas the activation of GLP-1 receptors mediates suppression of appetite and reduction of cravings as well as metabolic effects such as weight loss.",
+    "As of December 31, 2025, over 700 patients have been exposed to pemvidutide in 8 completed studies and 2 ongoing studies. In clinical trials to date, pemvidutide has demonstrated rapid reductions in liver fat, markers of liver inflammation, and early MASH resolution along with improvements in non-invasive tests (\"NITs\") such as Enhanced Liver Fibrosis (\"ELF\") score and Liver Stiffness Measurement (\"LSM\") demonstrating antifibrotic activity. In addition, pemvidutide has shown clinically meaningful weight loss while exhibiting class-leading lean mass preservation. Pemvidutide has also shown a favorable tolerability and safety profile in clinical trials to date. Based on the clinical data we have accumulated, we believe pemvidutide may be able to address several serious liver diseases, and pemvidutide has received Breakthrough Therapy Designation for MASH from the FDA based on data obtained from IMPACT trial at 24 weeks, indicating it has shown early clinical evidence of substantial improvement over existing therapies.",
+    "Pemvidutide is protected by a robust patent portfolio covering its composition, formulation, methods of use and treatment with patent expiration dates extending into the 2040s when the expected patent term extension is included.",
+    "MASH is caused by multiple metabolic pathways that lead to an abnormal accumulation of liver fat, toxic lipid metabolites, and inflammation, that leads to liver fibrosis and increased risk of death due to cardiovascular disease and liver failure. Accumulating clinical evidence suggests that reduction in liver fat and liver inflammation is associated with MASH resolution and improvement in liver fibrosis. Furthermore, considering 80-90% of individuals with MASH are also overweight, we believe that combining a direct liver acting mechanism with weight loss could provide a compelling treatment for MASH patients. In recognition of pemvidutide's potential differentiating benefits, the U.S. Food and Drug Administration (\"FDA\") has granted both Breakthrough Therapy Designation and Fast Track designation to pemvidutide for the treatment of MASH.",
+    "IMPACT Phase 2b MASH Trial – 24 Week Results",
+    "On June 26, 2025, we released 24-week topline efficacy results from the IMPACT Phase 2b trial of pemvidutide in MASH and subsequently published those results in the journal Lancet (Noureddin M., et al., Lancet. 2025 Dec 6;406(10520):2644-2655). The Phase 2b trial enrolled 212 subjects with biopsy-confirmed MASH and fibrosis stages F2/F3 with and without diabetes randomized 1:2:2 to receive weekly subcutaneous doses of pemvidutide at 1.2 mg, 1.8 mg or placebo.",
+    "In an intent-to-treat (\"ITT\") analysis, in which subjects with missing biopsies were considered non-responders, the proportions of subjects achieving MASH resolution without worsening of fibrosis at 24 weeks were 58.2% and 52.1%, for pemvidutide 1.2 mg and 1.8 mg, respectively versus 19.9% for placebo (p< 0.0001 both doses). The effects on fibrosis improvement without worsening of MASH in an ITT analysis were 32.6% and 35.7% for pemvidutide 1.2 mg and 1.8 mg, respectively compared with 27.9% for placebo (differences not statistically significant). A supplemental AI-based analysis demonstrated statistically significant reductions in fibrosis, including 31% of subjects receiving pemvidutide 1.8 mg achieving a 60% or more reduction in fibrosis compared to 8% receiving placebo (p< 0.001). Statistically significant changes in well-established non-invasive tests (\"NITs\") of fibrosis, including Enhanced Liver Fibrosis (\"ELF\") score and Liver Stiffness Measurement (\"LSM\") were also observed compared with placebo at both doses. Together, these data suggest strong evidence of MASH resolution and anti-fibrotic activity of pemvidutide in the MASH population after 24 weeks of treatment.",
+    "Note: **** indicates p<0.0001 vs. placebo (Chi-Square Test). 1. For ITT Analysis, patients without a biopsy at 24 weeks, or those who did not complete treatment, are treated as non-responders. 2. NS vs. placebo (Chi-Square Test).",
+    "Pemvidutide also demonstrated a favorable safety and tolerability profile, with low overall treatment discontinuation rates due to adverse events of less than 1% and 1.2% in the pemvidutide 1.2 mg and 1.8 mg groups versus 2.4% in the placebo group, despite that no dose titration was used in the trial. There were no serious adverse events related to study medication.",
+    "IMPACT Phase 2b MASH Trial – 48 Week Results",
+    "On December 19, 2025, we announced positive 48-week topline results from the IMPACT Phase 2b trial of pemvidutide in patients with MASH.",
+    "The topline 48-week data from the IMPACT trial, which, by design, did not include histological readout, showed that treatment with pemvidutide achieved statistically significant improvements across treatment arms versus placebo in the key anti-fibrosis NITs of ELF and LSM. Importantly, these data exhibited continued reductions from week 24 in multiple tests including ELF and LSM and provide evidence of improvement in antifibrotic activity. These are well-established markers of fibrosis and are strongly associated with histological changes and liver related events. At 48 weeks, mean weight loss in pemvidutide-treated subjects was observed at the 1.2 mg and 1.8 mg doses, respectively, with no evidence of plateauing in the 1.8mg dose group. The 48-week data also maintained the favorable tolerability profile seen at 24 weeks, including a lower discontinuation rate due to adverse events versus placebo."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business, Financing Requirements, Product Development and Clinical Trials",
+    "We have incurred significant losses since our founding and anticipate that we will continue to incur significant losses for the foreseeable future and may never achieve or maintain profitability.",
+    "Our profitability depends on our ability to develop and commercialize our current and future product candidates.",
+    "Future conditions might require us to make substantial write-downs in our assets, which would adversely affect our balance sheet and results of operations.",
+    "Our ability to raise capital may be limited by applicable laws and regulations.",
+    "Raising additional capital may cause dilution to stockholders, restrict our operations or require us to relinquish rights to our technologies or product candidates on unfavorable terms.",
+    "Our product candidates are still in development, there is a high risk of failure, and we may never succeed in developing marketable products or generating product revenue.",
+    "We may encounter substantial delays in our clinical trials, or our clinical trials may fail to demonstrate the safety and efficacy of our product candidates to the satisfaction of applicable regulatory authorities.",
+    "We may find it difficult to enroll patients in our clinical trials, which could delay or prevent clinical trials of our product candidates.",
+    "It may be difficult to predict the time and cost of product development for our product candidates, and unforeseen problems may prevent further development or approval of our product candidates.",
+    "We face substantial competition from other pharmaceutical and biotechnology companies, which may result in others discovering, developing or commercializing products before, or more successfully, than we do.",
+    "We may not be able to comply with the requirements of foreign jurisdictions in conducting trials within the United Kingdom, European Union (\"EU\") or any other foreign country.",
+    "If we fail to attract and keep senior management and key scientific personnel, we may be unable to successfully develop our products, conduct our clinical trials and commercialize our product candidates.",
+    "Labor shortages and constraints in the supply chain could adversely affect our results of operations.",
+    "Our overall performance depends in part on worldwide economic conditions and uncertainties.",
+    "Tax laws could change.",
+    "We may not be able to utilize a significant portion of our net operating loss carryforwards, which could harm our results of operations.",
+    "Risks Related to the Regulatory Approval Process",
+    "Our product candidates may cause undesirable side effects or have other properties that delay or prevent their regulatory approval or limit their commercial potential."
+   ],
+   "paragraphs": [
+    "In addition to the other information included in this Annual Report, the following risk factors should be carefully considered when evaluating an investment in us. These risk factors and other uncertainties may cause our actual future results or performance to differ materially from any future results or performance expressed or implied in the forward-looking statements contained in this report and in other public statements we make. In addition, because of these risks and uncertainties, as well as other variables affecting our operating results, our past financial performance is not necessarily indicative of future performance. See \"Forward-Looking statements\" in Item 1 of this Annual Report.",
+    "We are a late clinical-stage biotechnology company and have not yet generated revenues from product sales. To date, substantially all of our revenues have been derived from past grants and contracts with governmental agencies. We have incurred net losses in most periods since our inception, including a net loss of $88.1 million and $95.1 million for the years ended December 31, 2025 and 2024, respectively. As of December 31, 2025, we have an accumulated deficit of $649.5 million. To date, we have not received regulatory approvals for any products or generated any revenues from the sale of products, and we do not expect to generate any product revenues in the foreseeable future. We do not know whether or when we will generate product revenues or become profitable.",
+    "We have devoted most of our financial resources to research and development, including preclinical and clinical development of our product candidates. We have not completed pivotal clinical trials for any product candidate. Our lead product candidate, pemvidutide, has completed Phase 2 development, and we are planning for Phase 3 clinical development but it may be several years, if ever, before we have a product candidate ready for commercialization. Even if we obtain regulatory approval to market a product candidate, our future revenues will depend upon the size of any markets in which our product candidates have received approval, our ability to achieve sufficient market acceptance, reimbursement from third-party payers and other factors.",
+    "The net losses we incur may fluctuate significantly from quarter to quarter and year to year, such that a period-to-period comparison of our results of operations may not be a good indication of our future performance. In any particular quarter or quarters, our operating results could be below the expectations of securities analysts or investors, which could cause our stock price to decline.",
+    "To become and remain profitable, we must succeed in developing and eventually commercializing products that generate significant revenue. This will require us to be successful in a range of challenging activities, including completing preclinical studies and clinical trials of our product candidates, discovering additional product candidates, obtaining regulatory approval for these product candidates, forming strategic partnerships and alliances with third parties and manufacturing, marketing and selling any products for which we may obtain regulatory approval. We are only in the preliminary stages of most of these activities. We may never succeed in these activities and, even if we do, we may never generate revenues that are significant enough to achieve profitability. If some or all of our product candidates do not prove to be safe, pure and efficacious, then we may have to abandon those product candidates altogether and we will be unable to generate revenues from sales of such products.",
+    "We expect to continue to incur significant expenses and increasing operating losses for the foreseeable future. We anticipate that our expenses will increase significantly if and as we:"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Fiscal Year 2025 Business Update",
+    "Recent Global Events",
+    "Financial Operations Overview",
+    "Research and development expenses",
+    "General and Administrative Expenses",
+    "Results of Operations",
+    "Comparison of years ended December 31, 2025 and December 31, 2024 (in thousands):",
+    "Year Ended December 31,",
+    "Increase (Decrease)",
+    "General and administrative expenses",
+    "Total other income (expense), net",
+    "Income tax expense (benefit)",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "Loan Financing",
+    "Capital Resources",
+    "Critical Accounting Estimates",
+    "Research and Development",
+    "Stock-based Compensation"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read together with our consolidated financial statements and related notes appearing elsewhere in this Annual Report. Some of the information contained in this discussion and analysis contains forward-looking statements that involve substantial risks and uncertainties. See \"Forward-looking statements\" in Part I of this Annual Report and the section entitled \"Risk Factors\" in Part I, Item 1A of this Annual Report for a discussion of certain factors that could cause actual results or events to differ materially from the forward-looking statements that we make.",
+    "Altimmune, Inc. is a late clinical-stage biopharmaceutical company developing novel therapies for serious liver diseases. Our lead product candidate, pemvidutide (formerly known as ALT-801), is a balanced 1:1 glucagon/GLP-1 dual receptor agonist in development for the treatment of MASH, AUD and ALD. We may also pursue additional indications for pemvidutide that leverage its differentiated clinical profile. Except where the context indicates otherwise, references to \"we,\" \"us,\" \"our,\" \"Altimmune\", or the \"Company\" refer to the company and its subsidiaries.",
+    "On June 26, 2025, we released 24-week topline efficacy results from IMPACT, a Phase 2b trial of pemvidutide in patients with MASH. The Phase 2b trial enrolled 212 subjects with biopsy-confirmed MASH and fibrosis stages F2/F3 with and without diabetes randomized 1:2:2 to receive weekly subcutaneous doses of pemvidutide at 1.2 mg, 1.8 mg or placebo. The topline 24-week data showed that treatment with pemvidutide achieved statistically significant improvements in MASH resolution without worsening of fibrosis, improvements in fibrosis without worsening of MASH, and statistically significant changes in well-established NITs of fibrosis, including ELF score and LSM compared with placebo at both doses.",
+    "On December 11, 2025, we held an End-of-Phase 2 meeting with the FDA to discuss and align on the parameters for a registrational Phase 3 trial of pemvidutide for MASH patients with moderate to advanced fibrosis with biopsy driven endpoints. The FDA agreed to the use of AIM-MASH AI Assist, the first FDA-qualified AI pathology tool for MASH clinical trials, in our Phase 3 trial. We received final minutes from the End-of-Phase 2 meeting in January 2026, which we believe describe a clear regulatory path for a Phase 3 trial in MASH. We also intend to seek scientific advice from European regulators to further inform the final Phase 3 protocol. See Item 1. Business for additional information.",
+    "On December 19, 2025, we announced positive 48-week topline results from the IMPACT Phase 2b trial of pemvidutide in patients with MASH. The topline 48-week data from the IMPACT trial showed that treatment with pemvidutide achieved statistically significant improvements across treatment arms versus placebo in the key anti-fibrosis NITs of ELF and LSM.",
+    "On March 13, 2025, we announced that we are pursuing two additional indications for our lead product candidate, pemvidutide. The new indications are AUD and ALD.",
+    "On May 19, 2025, we announced the enrollment of the first subject in the RECLAIM Phase 2 trial evaluating the efficacy and safety of pemvidutide in subjects with AUD. RECLAIM is a randomized, placebo-controlled trial conducted across approximately 15 sites in the United States, targeting enrollment of approximately 100 subjects.",
+    "On August 19, 2025, we announced that the U.S. Food and Drug Administration has granted Fast Track designation to pemvidutide for the treatment of AUD. Fast Track designation is intended to accelerate the development and review of new drugs that target serious conditions and address unmet medical needs.",
+    "On November 3, 2025, we announced the completion of enrollment in the RECLAIM Phase 2 trial. Enrollment completed ahead of schedule, underscoring strong interest from the patient community in a new therapeutic option for AUD. We are on track to complete the 24-week treatment period and announce topline results in 2026.",
+    "On July 9, 2025, we announced the enrollment of the first patient in the RESTORE Phase 2 trial evaluating the efficacy and safety of pemvidutide in subjects with ALD. RESTORE is a randomized, placebo-controlled trial enrolling approximately 100 patients across 34 sites in the United States. See Item 1. Business for additional information.",
+    "The United States recently imposed reciprocal and additional tariffs on many countries around the world. Such tariffs and counter tariffs by other countries against the U.S. have been causing uncertainties in the global markets and supply chain. If the tariffs and counter tariffs continue or escalate, they could have a significant negative effect on the global economy or on our operations, including continued inflationary pressures on raw materials, supply chain and logistics disruptions, and volatility in the capital markets, foreign exchange rates and interest rates.",
+    "Inflation generally affects us by increasing our employee-related costs and clinical trial expenses, as well as other operating expenses. Our financial condition and results of operations may also be impacted by other factors we may not be able to control, such as public health crises, global supply chain disruptions, uncertain global economic conditions, global trade disputes or political instability as further discussed in the section \"Risk Factors\" in this Annual Report on Form 10-K.",
+    "The consolidated financial information presented below includes the accounts of Altimmune, Inc., Altimmune UK, Ltd, Spitfire Pharma, LLC. and Altimmune AU Pty, Ltd. All intercompany accounts and transactions have been eliminated in consolidation.",
+    "We have not generated any revenue from the sale of any products to date. Our revenues in previous years consisted primarily of government and foundation grants and contracts that supported our efforts on specific research projects."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "Pemvidutide 作用機制",
+    "Pemvidutide 在 24 週顯示統計上顯著的 MASH 解決情況",
+    "Pemvidutide 其他適應症",
+    "我們的策略",
+    "智慧財產權",
+    "與 EuPort 技術相關的專利權",
+    "EuPort 技術 — 從 Mederis Diabetes, LLC 獲得授權",
+    "與我們的產品候選藥物相關的專利權",
+    "{'Pemvidutide, Dual GLP-1/Glucagon Dual Agonist for MASH, AUD and ALD': 'Pemvidutide，雙GLP-1/葡萄糖素雙效激動劑，用於MASH、AUD及ALD'}",
+    "{'United States Government Regulation': '美國聯邦政府規範'}",
+    "{'Drug and Biological Products Development Process': '藥物及生物製品開發程序'}",
+    "{'Review and Approval Processes': '審查及核准程序'}"
+   ],
+   "paragraphs": [
+    "Altimmune, Inc. 為一家晚期臨牀階段的生物科技公司，開發用以治療嚴重肝臟疾病的創新療法。我們的領先產品候選藥物，pemvidutide（曾稱為 ALT-801），為一種平衡的 1:1 胰高血糖素/GLP-1 雙受體激動劑，正在開發中，用以治療代謝功能障礙相關脂肪肝炎（\"MASH\"）、酒精使用疾患（\"AUD\"）以及酒精相關肝病（\"ALD\"）。我們也可能追求其他適應症，以利用 pemvidutide 的差異化臨牀特性。除非上下文另有說明，否則提及 \"we\"、\"us\"、\"our\"、\"Altimmune\" 或 \"the Company\" 時，均指本公司及其子公司。",
+    "我們於 2019 年 7 月透過收購 Spitfire Pharma Inc. 獲得 pemvidutide。Pemvidutide 被設計為一種 MASH 治療藥物，基於對同時針對代謝和肝臟特異性效果可能導致改善且差異化的候選藥物的理解。早期研究提供了來自 MASH 小鼠模型的強烈預臨牀療效數據。在首次人體臨牀試驗中，我們觀察到初步的體重減輕和顯著的肝臟效果後，我們評估 pemvidutide 在脂肪肝病變，或代謝功能障礙相關肝病變（MASLD）患者中使用，觀察到肝脂肪含量顯著降低和體重減輕。這些結果確認了早期研究，並為 biopsy-driven IMPACT 第二期b試驗在 MASH 患者中鋪路。為更好地 characterize pemvidutide 的體重減輕和心血管代謝效果的品質，進行了 MOMENTUM 第二期試驗在過重和肥胖患者中，並顯示出顯著的體重減輕，特徵為相對保留瘦體肌肉質量和改善與心血管疾病相關的血清脂質。除了最近完成的 IMPACT 試驗外，pemvidutide 目前正在評估用於 AUD 患者，以及分別用於 ALD 患者。有證據顯示 pemvidutide 可能減少這些個體對酒精的渴望，且附加的好處是 pemvidutide 可能逆轉酒精對這些患者肝臟的有害影響。",
+    "Pemvidutide 是一種新型、正在研究中的肽，具有平衡的 1:1 胰高血糖素/GLP-1 雙受體激動劑活性，正在臨牀開發中，用以治療 MASH、AUD 和 ALD。我們認為 pemvidutide 是唯一具有平衡的 1:1 活性於胰高血糖素和 GLP-1 受體的胰高血糖素/GLP-1 雙受體激動劑，實際上使胰高血糖素的活性與 GLP-1 的活性處於同等地位。胰高血糖素受體的活化會對肝臟產生直接效果，包括減少肝脂肪、發炎和纖維化，而 GLP-1 受體的活化則調節食慾抑制和減少渴望，以及代謝效果如體重減輕。",
+    "截至 2025 年 12 月 31 日，已有超過 700 名患者在 8 個已完成的試驗和 2 個進行中的試驗中接觸到 pemvidutide。在目前的臨牀試驗中，pemvidutide 顯示出快速減少肝脂肪、肝發炎指標以及早期 MASH 解決，並改善非侵入性測試（\"NITs\"）如增強肝纖維化（\"ELF\"）分數和肝硬度測量（\"LSM\"），顯示出抗纖維化活性。此外，pemvidutide 也顯示出臨牀意義的體重減輕，同時表現出該類別領先的瘦體肌肉質量保留。pemvidutide 在目前的臨牀試驗中也顯示出良好的耐受性和安全性。根據我們累積的臨牀數據，我們認為 pemvidutide 可能能解決多種嚴重的肝臟疾病，且 pemvidutide 已獲得美國食品藥物管理局（\"FDA\"）針對 MASH 的突破性療法指定，基於來自 IMPACT 試驗在 24 週時取得的數據，顯示其已顯示出早期臨牀證據，顯示出顯著改善於現有療法。",
+    "Pemvidutide 由強大的專利組合保護，涵蓋其組成、製劑、使用方法及治療，專利到期日延長至 2040 年代，包含預期專利期限延長後的日期。",
+    "MASH 是由多種代謝途徑導致肝脂肪異常累積、有毒脂質代謝物和發炎，導致肝纖維化和因心血管疾病和肝衰竭而增加死亡風險。累積的臨牀證據顯示減少肝脂肪和肝發炎與 MASH 解決和改善肝纖維化有關。此外，考慮到 80-90% 的 MASH 患者同時過重，我們認為將直接作用於肝臟的機制與體重減輕結合，可能為 MASH 患者提供強大的治療方案。基於 pemvidutide 的潛在差異化好處，美國食品藥物管理局（\"FDA\"）已授予 pemvidutide 突破性療法指定和快速通道指定，用以治療 MASH。",
+    "IMPACT 第二期b MASH 試驗 – 24 週結果",
+    "我們於 2025 年 6 月 26 日釋出 pemvidutide 在 MASH 的 IMPACT 第二期b試驗 24 週的初步療效結果，並隨後在期刊 Lancet 發表這些結果（Noureddin M., et al., Lancet. 2025 Dec 6;406(10520):2644-2655）。第二期b試驗納入 212 名經活檢確認的 MASH 患者，且纖維化分期為 F2/F3，有或無糖尿病，並以 1:2:2 的比例隨機分配接受每週皮下注射的 pemvidutide 1.2 mg、1.8 mg 或安慰劑。",
+    "在有意圖治療（\"ITT\"）分析中，對於缺失活檢資料的受試者視為非應答者，於24週時達成無纖維化惡化之脂肪肝炎（MASH）解決比例為1.2 mg pemvidutide為58.2%、1.8 mg pemvidutide為52.1%，相較於安慰劑的19.9%（p< 0.0001，兩劑量）。在ITT分析中，對於無纖維化惡化之MASH改善效果，1.2 mg pemvidutide為32.6%、1.8 mg pemvidutide為35.7%，相較於安慰劑的27.9%（差異無統計顯著性）。補充的基於人工智慧分析顯示統計顯著的纖維化減少，包括31%接受1.8 mg pemvidutide的受試者達成60%或以上的纖維化減少，相較於接受安慰劑的8%（p< 0.001）。與安慰劑相比，在兩劑量下，也觀察到統計顯著的已建立非侵入性纖維化測試（\"NITs\"）變化，包括增強肝纖維化（\"ELF\"）分數及肝硬度量測（\"LSM\"）。總體而言，這些數據顯示在24週治療後，pemvidutide在MASH族羣中具有強烈的MASH解決及抗纖維化活性的證據。",
+    "說明：**** 表示 p<0.0001 與安慰劑比較（卡方檢定）。1. 在ITT分析中，24週未進行活檢或未完成治療的患者，視為非應答者。2. NS 與安慰劑比較（卡方檢定）。",
+    "pemvidutide 也顯示出良好的安全性與耐受性，因不良事件導致的總體治療中止率低於1%及1.2%在1.2 mg及1.8 mg組，相較於安慰劑組的2.4%，儘管試驗中未使用劑量調整。沒有與研究藥物相關的嚴重不良事件。",
+    "IMPACT 第二期b MASH 試驗 – 48 週結果",
+    "於2025年12月19日，我們宣佈在MASH患者中pemvidutide的IMPACT第二期b試驗中，48週的初步結果為正面。",
+    "來自IMPACT試驗的48週初步數據，設計上未包含組織學讀值，顯示pemvidutide治療在關鍵抗纖維化NITs（ELF及LSM）與安慰劑相比，達到統計顯著的改善。重要的是，這些數據顯示在多項測試（包括ELF及LSM）中，從第24週持續減少，並提供抗纖維化活性改善的證據。這些是已建立的纖維化指標，且與組織學變化及肝臟相關事件有強烈關聯。在48週時，接受pemvidutide治療的受試者在1.2 mg及1.8 mg劑量下觀察到平均體重下降，且在1.8 mg劑量組中未見平台期現象。48週的數據也維持了24週時良好的耐受性表現，包括因不良事件導致的中止率較安慰劑為低。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "財務年度 2025 商業更新",
+    "近期全球事件",
+    "財務營運概覽",
+    "研究與發展費用",
+    "一般及行政費用",
+    "營運成果",
+    "截至 2025 年 12 月 31 日與 2024 年 12 月 31 日之年度比較（單位：千）：",
+    "截至 2025 年 12 月 31 日",
+    "增加（減少）",
+    "一般及行政費用",
+    "其他收入（費用）總計",
+    "所得稅費用（利益）",
+    "流動性及資本資源",
+    "流動性來源",
+    "貸款融資",
+    "資本資源",
+    "{'Critical Accounting Estimates': '重要會計估計項目'}",
+    "{'Research and Development': '研究與發展'}",
+    "{'Stock-based Compensation': '股票基於報酬'}"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運成果的討論與分析，應與本年度報告中其他處所出現的合併財務報表及相關附註一併閱讀。部分資訊包含在本討論與分析中，為前瞻性陳述，涉及重大風險與不確定性。請參閱本年度報告第一部分的「前瞻性陳述」及第一部分第 1A 項「風險因素」，以瞭解可能導致實際結果或事件與我們所作前瞻性陳述有重大差異的某些因素。",
+    "Altimmune, Inc. 是一家處於臨牀晚期的生物科技公司，專注於開發用以治療嚴重肝臟疾病的創新療法。我們的領先產品候選藥物 pemvidutide（曾稱為 ALT-801）是一種平衡的 1:1 胰高血糖素/GLP-1 雙受體激動劑，正在開發中，用以治療 MASH、AUD 和 ALD。我們也可能尋求為 pemvidutide 採取其他適應症，以利用其差異化的臨牀表現。除非上下文另有說明，否則提及「我們」、「我們」、「我們」、「Altimmune」或「本公司」均指本公司及其子公司。",
+    "於 2025 年 6 月 26 日，我們釋出來自 IMPACT 試驗的 24 週初步療效結果，該試驗為 pemvidutide 在 MASH 患者中的第二期 2b 階段試驗。第二期 2b 階段試驗納入 212 名經活檢確認患有 MASH 且纖維化階段為 F2/F3 的受試者，並隨機以 1:2:2 分配接受每週皮下注射 pemvidutide 1.2 mg、1.8 mg 或安慰劑。初步 24 週數據顯示，使用 pemvidutide 治療可達成統計顯著的 MASH 解決改善，不伴隨纖維化惡化，纖維化改善不伴隨 MASH 惡化，以及統計顯著的纖維化標準 NITs 改變，包括 ELF 得分和 LSM，與安慰劑相比在兩種劑量下均有改善。",
+    "於 2025 年 12 月 11 日，我們與美國食品藥物管理局舉行第二期結束會議，討論並協調針對 pemvidutide 在 MASH 患者中進行註冊性第三期試驗的參數，這些患者具有中度至晚期纖維化，且以活檢為基礎的終點。美國食品藥物管理局同意在我們的第三期試驗中使用 AIM-MASH AI Assist，這是第一個獲得美國食品藥物管理局認可的 AI 病理工具，用於 MASH 臨牀試驗。我們於 2026 年 1 月收到該第二期結束會議的最終會議記錄，我們認為這描述了在 MASH 中進行第三期試驗的明確監管路徑。我們也計畫尋求歐洲監管機構的科學意見，以進一步說明最終的第三期試驗方案。請參閱第 1 項「業務」以取得更多資訊。",
+    "於 2025 年 12 月 19 日，我們宣佈來自 pemvidutide 在 MASH 患者中的 IMPACT 第二期 2b 試驗的 48 週初步結果。來自 IMPACT 試驗的 48 週數據顯示，使用 pemvidutide 治療在關鍵抗纖維化 NITs 的 ELF 和 LSM 中，各治療組與安慰劑相比均達成統計顯著的改善。",
+    "於 2025 年 3 月 13 日，我們宣佈我們正在尋求為我們的領先產品候選藥物 pemvidutide 採取兩個額外適應症。這些新適應症為 AUD 和 ALD。",
+    "於 2025 年 5 月 19 日，我們宣佈在 RECLAIM 第二期試驗中納入首位受試者，該試驗評估 pemvidutide 在 AUD 患者中的療效與安全性。RECLAIM 是一個隨機、安慰劑控制的試驗，於美國約 15 個試驗點進行，目標納入約 100 名受試者。",
+    "於 2025 年 8 月 19 日，我們宣佈美國食品藥物管理局已授予 pemvidutide 快速通道指定，用以治療 AUD。快速通道指定旨在加速針對嚴重疾病且解決未滿足醫療需求的新藥物的開發與審查。",
+    "於 2025 年 11 月 3 日，我們宣佈完成 RECLAIM 第二階段試驗的入組。入組工作提前完成，顯示患者羣體對 AUD 新治療選項有強烈的興趣。我們預計能按時完成 24 週治療期，並於 2026 年公佈初步結果。",
+    "於 2025 年 7 月 9 日，我們宣佈 RESTORE 第二階段試驗首名患者入組，該試驗評估 pemvidutide 在 ALD 患者中的療效與安全性。RESTORE 是一項隨機、安慰劑對照試驗，於美國 34 個試驗點入組約 100 名患者。有關更多資訊，請參閱本 10-K 年度報告第 1 項「業務」。",
+    "美國近期對許多國家課徵相互對等及額外關稅。其他國家對美國課徵的反制關稅，已造成全球市場與供應鏈的不確定性。若關稅與反制關稅持續或升級，可能對全球經濟或我們的營運產生顯著負面影響，包括原材料的持續通貨膨脹壓力、供應鏈與物流中斷，以及資本市場、外匯匯率與利率的波動。",
+    "通貨膨脹通常會增加我們的員工相關成本與臨牀試驗費用，以及其他營運費用。我們的財務狀況與營運成果也可能受到其他我們無法控制的因素影響，例如公共衛生危機、全球供應鏈中斷、不確定的全球經濟環境、全球貿易爭議或政治不穩定，詳情請參閱本 10-K 年度報告中「風險因素」一節。",
+    "下列呈現的合併財務資訊包含 Altimmune, Inc.、Altimmune UK, Ltd、Spitfire Pharma, LLC 及 Altimmune AU Pty, Ltd 的帳戶。所有公司間帳戶與交易已在合併時抵銷。",
+    "截至目前為止，我們尚未從產品銷售中產生任何收入。我們過去的收入主要來自政府與基金會的補助與契約，用以支持特定研究專案的進行。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務、資金需求、產品開發及臨牀試驗相關的風險",
+    "自我們成立以來，我們已產生顯著虧損，並預期在可預見的未來，我們仍將產生顯著虧損，可能永遠無法達成或維持獲利。",
+    "我們的獲利能力取決於我們開發及商業化現有及未來產品候選藥物的能力。",
+    "未來情況可能導致我們必須對資產進行重大減值，這將不利於我們的資產負債表及營運成果。",
+    "我們籌資的能力可能受到適用法律及法規的限制。",
+    "籌集額外資金可能導致股東權益稀釋，限制我們的營運，或要求我們在不利條件下放棄我們的技術或產品候選藥物權利。",
+    "我們的產品候選藥物仍處於開發階段，失敗風險極高，我們可能永遠無法成功開發可銷售的產品或產生產品收入。",
+    "我們可能在臨牀試驗中遭遇重大延誤，或臨牀試驗可能無法充分證明我們的產品候選藥物的安全性及有效性，以符合適用的監管機構的要求。",
+    "我們可能難以於臨牀試驗中納入病患，這可能會延誤或阻礙我們產品候選藥物的臨牀試驗。",
+    "我們可能難以預測產品開發所需時間與成本，且未預見的問題可能阻礙進一步開發或核准我們的產品候選藥物。",
+    "我們面臨來自其他製藥與生物科技公司的激烈競爭，這可能會導致他人在我們之前，或更成功地發現、開發或商業化產品。",
+    "我們可能無法遵守於英國、歐盟（\"EU\"）或任何其他國家進行試驗的外國法規要求。",
+    "若我們無法吸引並留住高階管理階層與關鍵科學人員，我們可能無法成功開發產品、進行臨牀試驗及商業化產品候選藥物。",
+    "勞動力短缺及供應鏈限制可能會對我們的營運成果造成不利影響。",
+    "我們整體表現部分取決於全球經濟狀況與不確定性。",
+    "稅法可能會變更。",
+    "我們可能無法運用我們淨營業虧損結轉額的重大部分，這可能會影響我們的營運成果。",
+    "與監管審批程序相關的風險",
+    "我們的產品候選藥物可能導致不希望的副作用或具有其他特性，可能會延宕或阻止其獲得監管審批，或限制其商業潛力。"
+   ],
+   "paragraphs": [
+    "除本年度報告中包含的其他資訊外，評估投資本公司時，應謹慎考慮下列風險因素。這些風險因素及其他不確定性可能導致本公司實際未來結果或表現與本報告及其他公開聲明中所表達或暗示的未來結果或表現有重大差異。此外，由於這些風險與不確定性，以及影響本公司營運結果的其他變數，本公司過去的財務表現並不一定能反映未來表現。請參閱本年度報告第 1 項的「向前看聲明」。",
+    "本公司為一家臨牀三期後的生物科技公司，尚未從產品銷售中產生收入。截至目前為止，本公司幾乎所有收入均來自過去與政府機構的補助及契約。自本公司成立以來，我們在大多數期間均產生淨虧損，包括截至 2025 年 12 月 31 日及 2024 年 12 月 31 日的年度淨虧損分別為 88.1 百萬美元及 95.1 百萬美元。截至 2025 年 12 月 31 日，本公司累計虧損為 649.5 百萬美元。截至目前為止，本公司尚未獲得任何產品的監管核准，也未從產品銷售中產生任何收入，且本公司不預期在可預見的未來會產生產品收入。本公司無法確定是否或何時會產生產品收入或實現盈利。",
+    "我們已將大部分財務資源投入研究與開發，包括我們產品候選藥物的前期臨牀及臨牀開發。我們尚未完成任何產品候選藥物的關鍵臨牀試驗。我們的領先產品候選藥物 pemvidutide 已完成二期開發，我們正計畫進行三期臨牀開發，但可能需要數年時間，甚至可能永遠無法讓產品候選藥物準備好進行商業化。即使我們獲得核准上市產品候選藥物，我們未來的收入將取決於產品候選藥物獲得核准的市場規模、我們能否獲得足夠的市場接受度、第三方付款者的賠償及其他因素。",
+    "我們所產生的淨虧損可能在季度與年度之間大幅波動，因此以期間對期間比較我們的營運結果可能無法作為未來表現的良好指標。在任何特定季度或幾個季度中，我們的營運結果可能低於證券分析師或投資者的預期，這可能會導致本公司股票價格下跌。",
+    "要成為並持續保持盈利，我們必須成功開發並最終商業化能產生重大收入的產品。這需要我們在一系列具有挑戰性的活動中取得成功，包括完成我們產品候選藥物的前期臨牀研究及臨牀試驗、發現更多產品候選藥物、獲得這些產品候選藥物的監管核准、與第三方建立戰略合作夥伴關係與聯盟，以及製造、行銷與銷售我們可能獲得監管核准的任何產品。我們目前大多數活動僅處於初步階段。我們可能永遠無法成功完成這些活動，即使我們成功完成，也可能永遠無法產生足夠的收入以實現盈利。如果某些或所有產品候選藥物被證明不安全、不純淨或無效，我們可能不得不完全放棄這些產品候選藥物，且將無法從這些產品的銷售中產生收入。",
+    "我們預期將持續產生重大費用及增加營運虧損，至少在可預見的未來。我們預期，如果我們："
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

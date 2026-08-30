@@ -1,0 +1,201 @@
+{
+ "ticker": "TDC",
+ "cik": "0000816761",
+ "accession": "0001628280-26-012671",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "History. Teradata was incorporated in 1979 as a Delaware corporation. Teradata became a publicly traded company named Teradata Corporation (NYSE: TDC) on September 30, 2007.",
+    "Sales, Marketing, Customer Services and Partners",
+    "Human Capital",
+    "Information About Our Executive Officers. The following table and biographies sets forth information as of February 27, 2026 regarding the individuals who are serving as our executive officers.",
+    "Name Age Position(s)"
+   ],
+   "paragraphs": [
+    "Overview. At Teradata Corporation (\"we,\" \"us,\" \"Teradata,\" or the \"Company\"), we are focused on helping organizations activate the intelligence in their enterprise and turn the insights from across their organization into outcomes. In the agentic future, AI agents have enterprise context, can act on it in milliseconds and address continuous decisions at enterprise scale. This new landscape demands a new system of intelligence, and we believe Teradata is uniquely suited to provide this with our autonomous AI and knowledge platform as well as our data and analytics capabilities.",
+    "We believe that we have architected our platform for autonomous AI operations and organizations' toughest data and analytics challenges, particularly as enterprises are evaluating how to cost effectively deploy agentic AI. We also saw a resurgence of hybrid environments that reflected a growing understanding of how enterprises can best leverage both on-premises and cloud deployment options to meet their diverse business needs. Our platform is designed for data and analytics that can give customers the opportunity to run agentic AI at scale wherever that data resides in their business – whether public cloud, on-premises, private cloud, or a combination.",
+    "With our AI and knowledge platform, underpinned by our extensive patented workload management optimization technology, we believe we are well positioned to help enterprises become autonomous enterprises, with a governance layer that is intended to provide the ability for customers to focus on managing, securing, and providing trustworthy data for AI and analytics across hybrid and multi-cloud environments.",
+    "We believe our technology strengths are the foundation for agentic AI at scale. Our platform is designed for enterprise-grade workloads. It is built on a massively parallel architecture, with patented workload management, query optimization, and predictable costs that are designed to deliver the most complex workloads. The industry data models available on our platform are built on decades of experience working with global organizations that are large-scale users of data, and can enable our customers to bring deep context to the language models they choose to use. Our platform includes a semantic layer intended to bridge AI and data, giving AI agents the context they need to reason and act. We believe that our platform provides the best price performance, whether deployed on-premises or in the cloud, or a hybrid combination. Our MCP Server, AI Agents, and always-on compute are designed to deliver the reliability and agility needed for autonomous reasoning, planning, and action. Our Autonomous Customer Intelligence empowers organizations to turn raw data and customer signals into context-aware, real-time engagement.",
+    "We believe that our deployment and compute flexibility set Teradata apart. Our differentiated approach spans deployments in the top public cloud service provider platforms of AWS, Microsoft Azure, and Google Cloud, as well as private cloud platform instances, on-premises, and hybrid environments. We also provide Teradata AI Factory, designed to bring AI and machine learning capabilities to on-premises environments for organizations in regulated industries, with data sovereignty requirements, or that want to manage and contain their AI infrastructure costs. It integrates with Nvidia NIM Services and GPUs, and Teradata AI Workbench and ClearScape Analytics™ , which support BYOM/BYO-LLM (bring your own model / large-language model), in-engine analytics, and model endpoints. We also offer always-on and elastic compute flexibility, designed to ensure governance, security, and performance at scale.",
+    "Open, connected, and future-ready. Teradata's partner ecosystem collaborates across cloud, AI, infrastructure, and application partners, providing choice and interoperability for organizations to innovate and deliver outcomes. Our patented QueryGrid data analytics fabric provides seamless, high-performing data access, processing, and movement across multiple data sources, as well as data and workload migration tools and services. Teradata ClearScape Analytics is designed to integrate seamlessly with third-party LLMs and AI agents, leveraging Teradata's Enterprise Vector Store and Enterprise Feature Store, to orchestrate multi-agent systems. We also provide Teradata AgentBuilder, which is designed to allow customers to rapidly design, deploy, and manage autonomous agents. We also believe that we offer a competitive and compelling total cost of ownership by building out best-in-class capabilities that are designed to provide an easy experience for ingestion, exploration, development, consumption, and operationalization of data analytics and AI/ML.",
+    "Expertise, innovation, and industry leadership. Teradata brings more than four decades of domain expertise and proven industry knowledge models to support our customers. With our AI Services, enterprises can rapidly productionize AI workloads—reducing time to market, accelerating deployment cycles, and unlocking business value faster. This integrated services offering combines embedded experts with proven methodology and our AI and knowledge platform to guide organizations in developing and scaling AI agents across their business.",
+    "Our Teradata AI services consultants and our forward-deployed engineers work with customers to assist in their transition from concept to production in their AI deployments.",
+    "Across Teradata, we are executing and advancing in our transformation as a modern, leading AI and knowledge platform. Our transition has earned recognition from numerous industry analyst firms, and we delivered more than 150 AI engagements at customer accounts in 2025. Companies have data both in the cloud and on-premises in their data estates, with increasing leverage of hybrid architectures. It is no longer about choosing between environments—it's about effectively operating across both in order to meet diverse business needs and drive faster decision-making, at the scale they require. We believe we address these customer needs with our hybrid capabilities and our open and connected platform approach.",
+    "2025 was a year of significant innovation at Teradata in support of our transformation into a leading AI and knowledge platform. We announced a considerable set of technology innovations throughout 2025. These announcements included:",
+    "•Enterprise Vector Store that combines structured and unstructured data in order to improve AI use cases,",
+    "•Teradata AI Factory supporting on-premises AI, •ModelOps updates were added to ClearScape Analytics,",
+    "•MCP Server that connects AI systems with interactive access to the enterprise data, context, and predictive, AI capabilities necessary to provide meaningful outcomes,",
+    "•Teradata AgentBuilder with capabilities designed to deploy AI agents, and"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Failure to successfully execute our strategy and realize the anticipated benefits of our business transformation, including R&D investments, could have a material adverse effect on our business.",
+    "We may experience variability in our operating results based on the purchasing behavior of our customers.",
+    "A cybersecurity incident, disruption, or failure of our information systems or those of our third-party providers could adversely impact our reputation, business, and financial results.",
+    "If our existing customers fail to renew, or cancel their subscription license arrangements or support agreements, or if customers do not renew on terms favorable to us, our business could be adversely affected.",
+    "Our future results depend in part on our relationships with strategic partners, key suppliers, and other third parties.",
+    "Demand for the offerings and services we sell could decline if we fail to maintain positive brand perception and recognition.",
+    "Increases in the cost, or reduced availability, of components used in our product, and/or increases in our other costs of doing business, have, and could continue to, adversely affect our profit margins.",
+    "Challenges with our new enterprise resource planning (\"ERP\") system could adversely impact our business and operations.",
+    "Failure to successfully complete reorganization activities in connection with our transformation activities or otherwise could negatively affect our operations.",
+    "Our business is affected by the global economies in which we operate and the economic climate of the industries we serve.",
+    "Generating substantial revenues from our international operations pose several risks.",
+    "Inadequate internal control over financial reporting and accounting practices could lead to errors, which could adversely impact our ability to assure timely and accurate financial reporting.",
+    "The IT industry, particularly for data analytics and AI solutions, is intensely competitive and evolving, and competitive pressures could adversely affect our pricing practices or demand for our offerings and services.",
+    "We depend on key employees and face competition in hiring and retaining qualified employees.",
+    "We face uncertainties regarding legal proceedings, complex and changing laws and regulations, and other related matters.",
+    "Gaps in protection of Teradata's intellectual property or unlicensed use of third-party intellectual property could impact our business and financial condition.",
+    "A change in our effective tax rate can have a significant adverse impact on our business."
+   ],
+   "paragraphs": [
+    "You should carefully consider each of the following risk factors and all other information set forth in this Annual Report. Based on the information currently known to us, we believe that the following information identifies the most significant risk factors affecting our company in each of these categories of risks. However, the risks and uncertainties our Company faces are not limited to those set forth in the risk factors described below. Additional risks and uncertainties not presently known to us or that we currently believe to be immaterial may also adversely affect our business.",
+    "In addition, past financial performance may not be a reliable indicator of future performance, and historical trends should not be used to anticipate results or trends in future periods.",
+    "If any of the following risks and uncertainties develops into actual events or occurrences, these events could have a material adverse effect on our business, financial condition or results of operations. In such case, the trading price of our common stock could decline.",
+    "RISKS RELATED TO OUR BUSINESS AND OPERATIONS",
+    "Our strategy and ongoing business transformation, including with regard to our cloud, hybrid, on-premises, AI/ML and related offerings, involve significant execution risk. We may not successfully develop, launch, scale, or operate our offerings as planned, including enabling our platform and offerings to operate effectively across cloud, hybrid, on-premises environments, or within the environments of our cloud service provider partners. The execution of our strategy and transformation initiatives presents organizational, operational, and technological challenges, including those related to organizational alignment, technology integration, skilled personnel availability, resource allocation, cost management and internal controls. We may not be able to implement or execute all aspects of our strategy as planned, or realize the anticipated benefits within expected timeframes. Even if certain benefits are achieved, there may be unforeseen consequences, including operational disruptions, which could occur. Any such outcomes could have a material adverse effect on our business, brand and reputation, competitive position, financial condition, results of operations, growth prospects and cash flows.",
+    "Shortened product life cycles driven by rapid technological change, competitive pressures, and evolving customer expectations require us to continuously innovate to keep pace with emerging customer use cases and technology trends. We must innovate both internally and in coordination with third-party technology providers whose components are included in our offerings. Bringing new offerings or enhancements to market can be costly and time consuming and may increase our exposure to significant technical, legal, regulatory or other risks. Furthermore, as"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "In millions 2025 Revenue 2024 Revenue",
+    "Total revenue $ 1,663 100.0 % $ 1,750 100.0 %",
+    "Financial and Performance Measures",
+    "Total ARR $ 1,522 $ 1,474",
+    "Cloud Net Expansion rate 108 % 117 %",
+    "Gross Profit",
+    "Total gross profit $ 987 59.4 % $ 1,058 60.5 %",
+    "2025 compared to 2024 - The decrease in gross profit as a percentage of revenue was primarily driven by a higher mix of Public Cloud revenue, offset in part by improving Public Cloud gross profit rates year-over-year.",
+    "Operating Expenses",
+    "Provision for Income Taxes",
+    "Results by Operating Segment",
+    "In millions 2025 2024",
+    "Total 2027- 2029- 2031 and",
+    "In millions Amounts 2026 2028 2030 Thereafter",
+    "Revenue Recognition",
+    "Income Taxes",
+    "Stock-based Compensation",
+    "Goodwill and Acquired Intangible Assets",
+    "Pension and Postemployment Benefits"
+   ],
+   "paragraphs": [
+    "You should read the following discussion in conjunction with the consolidated financial statements and the notes to those statements included in this Annual Report on Form 10-K (\"Annual Report\"). This Annual Report contains certain statements that are forward-looking within the meaning of the Private Securities Litigation Reform Act of 1995. Certain statements contained in the MD&A are forward-looking statements that involve risks and uncertainties. The forward-looking statements are not historical facts, but rather are based on current expectations, estimates, assumptions and projections about our industry, business and future financial results. Our actual results could differ materially from the results contemplated by these forward-looking statements due to several factors, including those discussed in other sections of this Annual Report. See \"Risk Factors\" and \"Forward-looking Statements.\"",
+    "At Teradata Corporation (\"we,\" \"us,\" \"Teradata,\" or the \"Company\"), we are focused on helping organizations activate the intelligence in their enterprise and turn the insights from across their organization into outcomes. We believe that we have architected our platform for autonomous AI operations and organizations' toughest data and analytics challenges, particularly as enterprises are evaluating how to cost effectively deploy agentic AI. We've also seen a resurgence of hybrid environments that reflected a growing understanding of how enterprises can best leverage both on-premises and cloud deployment options to meet their diverse business needs. With our AI and knowledge platform, underpinned by our extensive patented workload management optimization technology, we believe we are well positioned to help enterprises become more autonomous, while enabling our customers to focus on managing, securing, and providing trustworthy data for AI and analytics across hybrid and multi-cloud environments.",
+    "Teradata's business, key priorities, and strategy is discussed under Part I, Item I of this Annual Report on Form 10-K.",
+    "To allow for greater transparency regarding the progress we are making toward achieving our strategic objectives, we utilize the following financial and performance metrics:",
+    "•Total Annual Recurring Revenue (\"Total ARR\") - annual contract value for all active and contractually binding term-based contracts at the end of the period, including cloud, recurring AI services, subscriptions, hardware rental, maintenance and software upgrade rights.",
+    "•Public Cloud ARR (included within Total ARR) - annual contract value for all active and contractually binding term-based contracts at the end of the period that are operated in a public cloud environment.",
+    "•Cloud Net Expansion Rate - Teradata calculates its last-twelve months dollar-based cloud net expansion rate as of a fiscal quarter end as follows:",
+    "◦We identify the ARR for active cloud customers in the fiscal quarter ending one year prior to the given fiscal quarter (the \"base period\");",
+    "◦We then identify the public cloud ARR in the given fiscal quarter (the \"current period\") from the same set of active cloud customers as the base period, including increases in usage, as well as reductions and cancellations, and additional conversions of on-premises revenues to the cloud for customers active in the base period, all in constant currency; and",
+    "◦The quarterly dollar-based, cloud net expansion rate is calculated by taking the ARR from the current period and dividing by the ARR from the base period.",
+    "The last twelve-month dollar-based cloud net expansion rate is calculated by taking the average of the quarterly dollar-based cloud net expansion rate from the last fiscal quarter and the prior three fiscal quarters.",
+    "As more fully discussed in later sections of this MD&A, the following are the financial highlights for 2025:",
+    "•Revenue of $1,663 million decreased by 5% in 2025 as compared to 2024, with a 2% decrease in recurring revenue. Foreign currency fluctuations had no impact on total revenue and a 1% positive impact on recurring revenue compared to the prior year. The recurring revenue decline was primarily driven by a decrease in revenue from on-premises solutions, which was offset in part by an increase in Public Cloud revenue. Perpetual software licenses, hardware and other revenue decreased by 26% and Consulting Services revenue decreased by 19%. Revenues from perpetual software licenses, hardware and other decreased primarily due to our strategic shift towards recurring revenue. The decline in consulting service revenue was additionally due to our focus on higher-margin engagements and purposeful decrease in Consulting Services given the development of our strategic partner ecosystem.",
+    "•Gross profit as a percent of revenue was 59.4% in 2025, a decrease from 60.5% in 2024, primarily due to a higher mix of Public Cloud revenue, and declines in Consulting Services revenue outpacing associated cost reductions. These factors were partially offset by an improvement in Public Cloud margins year-over-year."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "歷史沿革。Teradata 於 1979 年在特拉華州成立為一家公司。Teradata 於 2007 年 9 月 30 日成為公開上市公司，公司名稱為 Teradata Corporation（紐約證券交易所：TDC）。",
+    "銷售、市場營銷、客戶服務與夥伴關係",
+    "人力資本",
+    "我們執行長的資訊。以下表格及簡歷說明截至 2026 年 2 月 27 日，擔任我們執行長的人員之資訊。",
+    "姓名 年齡 職務（職務）"
+   ],
+   "paragraphs": [
+    "總覽。在 Teradata Corporation（\"我們\"、\"我們\"、\"Teradata\" 或 \"本公司\"）中，我們專注於協助企業活用其企業內的智慧，並將組織內的洞察轉化為實際成果。在代理型未來，AI 代理具有企業情境，能在毫秒內根據情境進行行動，並在企業規模上處理持續性的決策。這個新環境需要一種新的智慧系統，我們相信 Teradata 非常適合提供此種系統，透過我們的自主 AI 與知識平台，以及我們的數據與分析能力。",
+    "我們相信我們的平台已為自主 AI 運作及企業最困難的數據與分析挑戰進行架構設計，特別是當企業評估如何以成本效益的方式部署代理型 AI。我們也觀察到混合環境的復甦，反映出企業對如何最佳利用本地部署與雲端部署選項以滿足其多樣化業務需求的成長理解。我們的平台設計用以處理數據與分析，讓客戶有機會在數據所在之處執行代理型 AI，無論是公有雲、本地部署、私有雲或混合組合。",
+    "透過我們的 AI 與知識平台，基於我們廣泛的專利工作負載管理優化技術，我們相信我們非常適合協助企業成為自主企業，並透過治理層提供客戶管理、保護及提供可信數據以供 AI 與分析之用的能力，無論是在混合或多雲環境中。",
+    "我們相信我們的技術優勢是實現大規模代理型 AI 的基礎。我們的平台設計用以處理企業級工作負載。其基於大規模平行架構，並具專利的工作負載管理、查詢最佳化與可預測的成本，以處理最複雜的工作負載。我們平台上的產業數據模型建立在與全球大型數據使用者組織合作數十年的經驗之上，並能協助客戶為其選擇使用的語言模型提供深度的上下文。我們的平台包含一層語義層，用以橋接 AI 與數據，為 AI 代理提供其所需的上下文以進行推理與行動。我們相信，無論是本地部署或雲端部署，或混合組合，我們的平台都提供最佳的性價比。我們的 MCP Server、AI 代理與持續運行的計算能力，設計用以提供自主推理、規劃與行動所需的可靠性與靈活性。我們的自主客戶智慧能協助企業將原始數據與客戶訊號轉化為情境感知的即時互動。",
+    "我們相信我們的部署與計算靈活性使 Teradata 區別於其他競爭對手。我們的獨特方法涵蓋在 AWS、Microsoft Azure 與 Google Cloud 等頂級公有雲服務供應商平台的部署，以及私有雲平台實例、本地部署與混合環境。我們也提供 Teradata AI 工廠，用以將 AI 與機器學習能力引入本地部署環境，以符合受規範產業的組織，或有數據主權需求，或希望管理與控制其 AI 基礎設施成本的組織。它整合 Nvidia NIM 服務與 GPU，以及 Teradata AI 工作臺與 ClearScape Analytics™，支援 BYOM/BYO-LLM（帶自己的模型/大型語言模型）、內建分析與模型端點。我們也提供持續運行與彈性計算的靈活性，設計用以確保在大規模下治理、安全與性能。",
+    "開放、連結且面向未來。Teradata 的合作夥伴生態系與雲端、AI、基礎設施與應用程序夥伴協作，為企業提供選擇與互操作性，以創新並交付成果。我們的專利 QueryGrid 數據分析織網提供無縫、高性能的數據存取、處理與移動，跨越多個數據來源，以及數據與工作負載遷移工具與服務。Teradata ClearScape Analytics 設計用以與第三方 LLMs 與 AI 代理無縫整合，利用 Teradata 的企業向量儲存與企業特徵儲存，以協調多代理系統。我們也提供 Teradata AgentBuilder，設計用以讓客戶快速設計、部署與管理自主代理。我們也相信，透過建立最佳類別的技術能力，我們能提供具競爭力且吸引人的總擁有成本，設計用以提供數據分析與 AI/ML 的資料吸入、探索、開發、使用與運作的簡易體驗。",
+    "專業知識、創新與產業領導地位。Teradata 帶來超過四十年的領域專業知識與經過驗證的產業知識模型，以支持我們的客戶。透過我們的 AI 服務，企業能快速將 AI 工作負載投入生產，減少上市時間，加速部署週期，並更快釋放商業價值。這個整合服務方案結合內嵌專家與經過驗證的方法論，以及我們的 AI 與知識平台，引導企業在業務中開發與擴展 AI 代理。",
+    "我們的 Teradata AI 服務顧問與前線工程師與客戶合作，協助他們在 AI 部署中從概念轉化為生產。",
+    "在 Teradata，我們正在執行並推動轉型為現代、領先的 AI 與知識平台。我們的轉型已獲得多家產業分析機構的認可，並在 2025 年為客戶帳戶交付超過 150 個 AI 服務案例。企業的資料同時存在雲端與內部資料中心，並日益採用混合架構。現在的重點已不再是選擇環境，而是有效運作於兩者之間，以符合多樣化的商業需求並加速決策，達到他們所需的規模。我們相信我們透過混合能力與開放且連接的平台方法，來解決這些客戶需求。",
+    "2025 年是 Teradata 在支持我們轉型為領先的 AI 與知識平台方面的重要創新年。我們在 2025 年宣佈了一組重要的技術創新。這些公告包括：",
+    "• 企業向量儲存庫，結合結構化與非結構化資料，以改善 AI 使用案例，",
+    "• Teradata AI 工廠支援內部 AI，• ModelOps 更新已加入 ClearScape Analytics，",
+    "• MCP 伺服器連結 AI 系統與互動存取企業資料、情境與預測、AI 能力，以提供有意義的結果，",
+    "• Teradata AgentBuilder 具備部署 AI 代理的設計能力，和"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "以百萬計 2025 營業收入 2024 營業收入",
+    "總營業收入 美元 1,663 100.0 % 美元 1,750 100.0 %",
+    "財務及績效指標",
+    "總年付訂約金 美元 1,522 美元 1,474",
+    "雲端 淨擴張率 108 % 117 %",
+    "毛利",
+    "總毛利 美元 987 59.4 % 美元 1,058 60.5 %",
+    "2025 相較於 2024 - 毛利佔營業收入百分比下降，主要因 Public Cloud 營業收入佔比提高，部分抵銷年度 Public Cloud 毛利率改善",
+    "{'Operating Expenses': '營運費用'}",
+    "{'Provision for Income Taxes': '所得稅費用'}",
+    "{'Results by Operating Segment': '按營運分部之結果'}",
+    "{'In millions 2025 2024': '以百萬計 2025 2024'}",
+    "{'Total 2027- 2029- 2031 and': '總計 2027- 2029- 2031 以及'}",
+    "{'In millions Amounts 2026 2028 2030 Thereafter': '以百萬計金額 2026 2028 2030 之後'}",
+    "{'Revenue Recognition': '收入認列'}",
+    "{'Income Taxes': '所得稅'}",
+    "股票基於報酬",
+    "商譽及取得無形資產",
+    "退休金及離職後福利"
+   ],
+   "paragraphs": [
+    "您應配合本年度報告表 10-K 所附的合併財務報表及相關附註，閱讀下列討論。本年度報告表包含某些符合 1995 年私人證券訴訟改革法案意義的向前看聲明。MD&A 中某些陳述為向前看聲明，涉及風險與不確定性。向前看聲明並非歷史事實，而是基於目前預期、估計、假設與對我們產業、業務及未來財務結果的預測。我們實際結果可能因多種因素而與這些向前看聲明所預期的結果有重大差異，包括其他部分本年度報告表中所討論的各項因素。請參閱「風險因素」及「向前看聲明」。",
+    "Teradata Corporation（\"我們\"、\"我們公司\"、\"Teradata\" 或 \"本公司\"）致力於協助企業啟動其企業內的智慧，並將組織內的洞察轉化為實際成果。我們相信我們已設計出一個自主 AI 運作的平台，以解決企業最困難的資料與分析挑戰，特別是在企業評估如何以成本效益方式部署代理 AI 時。我們也觀察到混合環境的復甦，反映出企業對如何最佳利用內部與雲端部署選項以滿足其多樣化業務需求的瞭解不斷增加。透過我們的 AI 與知識平台，基於我們廣泛的專利工作負載管理最佳化技術，我們相信我們已處於有利位置，協助企業變得更自主，同時讓客戶專注於管理、保護並提供可信的資料供 AI 與分析使用，於混合與多雲環境中。",
+    "Teradata 的業務、關鍵優先事項與策略於本年度報告表表 10-K 的第一部分、項目一中討論。",
+    "為提高對我們實現戰略目標進展的透明度，我們使用以下財務與績效指標：",
+    "•總年度經常性收入（\"總 ARR\"）- 期末所有活躍且具有契約約束力的定期合約的年度合約價值，包括雲端、經常性 AI 服務、訂閱、硬體租賃、維護及軟體升級權。",
+    "•公共雲端 ARR（包含於總 ARR 內）- 期末所有活躍且具有契約約束力的定期合約的年度合約價值，這些合約是在公共雲端環境中運作。",
+    "•雲端淨擴張率 - Teradata 計算其財務季度末的前十二個月以美元計算的雲端淨擴張率如下：",
+    "◦我們識別財務季度結束前一年的活躍雲端客戶的 ARR（\"基準期間\"）；",
+    "◦我們首先從相同組合的活躍雲端客戶中，識別出當前會計期間（\"當前期間\"）的公開雲端 ARR，包括使用量的增加、減少及取消，以及來自當前期間活躍客戶的本地端收入轉為雲端的額外轉換，所有計算均以固定貨幣為基準；",
+    "◦每季以美元為基礎的雲端淨擴張率，係以當前期間的 ARR 除以基準期間的 ARR 來計算。",
+    "過去十二個月以美元為基礎的雲端淨擴張率，係以過去會計期間及前三個會計期間的每季以美元為基礎的雲端淨擴張率的平均值來計算。",
+    "如後續本 MD&A 章節中更詳細說明，2025 年的財務亮點如下：",
+    "•2025 年的營業收入為 1,663 百萬美元，較 2024 年減少 5%，其中反覆性收入減少 2%。外幣波動對總營業收入無影響，但對反覆性收入產生 1% 的正面影響。反覆性收入的減少主要由於來自本地端解決方案的收入減少，但部分被公開雲端收入的增加所抵銷。永續軟體授權、硬體及其他收入減少 26%，諮詢服務收入減少 19%。永續軟體授權、硬體及其他收入的減少主要由於我們戰略轉向反覆性收入。諮詢服務收入的減少也由於我們專注於高毛利率的業務，並有意減少諮詢服務，以配合我們戰略夥伴生態系統的發展。",
+    "•2025 年的毛利佔營業收入百分比為 59.4%，較 2024 年的 60.5% 下降，主要由於公開雲端收入佔比提高，以及諮詢服務收入的減少速度快於相關成本的減少。這些因素部分被公開雲端毛利率較去年同期改善所抵銷。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "未能成功執行我們的策略並實現業務轉型預期的效益，包括研究與開發投資，可能會對我們的業務造成重大不利影響。",
+    "我們的營運成果可能會因客戶的購買新行為而產生變動。",
+    "網路安全事件、中斷或資訊系統或第三方服務提供者的系統失敗，可能會對我們的聲譽、業務及財務結果造成不利影響。",
+    "若現有客戶未能續約，或取消其訂閱授權協議或支援協議，或客戶未能以對我們有利的條件續約，可能會對我們的業務造成不利影響。",
+    "我們未來的營運成果部分取決於與戰略夥伴、關鍵供應商及其他第三方的關係。",
+    "若我們未能維持正面的品牌形象與認知度，我們所銷售的產品與服務需求可能會下降。",
+    "用於我們產品的零組件成本增加，或零組件供應減少，以及我們其他營運成本增加，已並可能繼續對我們的毛利率造成不利影響。",
+    "我們新的企業資源規劃（\"ERP\"）系統遇到困難，可能會對我們的業務與營運造成不利影響。",
+    "未能成功完成與我們轉型活動相關的重整活動，或因其他原因，可能對我們的營運產生負面影響。",
+    "我們的業務受我們營運的全球經濟體以及我們服務產業的經濟環境影響。",
+    "從國際業務產生大量營收可能面臨多項風險。",
+    "財務報導與會計作業內部控制不充分，可能導致錯誤，進而對我們確保財務報導及時且準確的能力產生負面影響。",
+    "資訊科技產業，特別是在資料分析與人工智慧解決方案方面，競爭激烈且持續演進，競爭壓力可能對我們的價格策略或產品與服務的需求產生負面影響。",
+    "我們依賴關鍵員工，並面臨在招募與留任合格員工方面的競爭。",
+    "我們面臨法律訴訟、複雜且不斷變化的法律法規及其他相關事項的不確定性。",
+    "Teradata 智慧財產權保護不足或未經授權使用第三方智慧財產權，可能影響我們的業務與財務狀況。",
+    "{'original': 'A change in our effective tax rate can have a significant adverse impact on our business.', 'translated': '本公司有效稅率之變動，可能對本公司營運產生重大不利影響。'}"
+   ],
+   "paragraphs": [
+    "您應仔細審閱下列風險因素，以及本年度報告中所載的其他資訊。根據我們目前所知的資訊，我們認為下列資訊識別出影響本公司在這些風險類別中最重大的風險因素。然而，本公司所面臨的風險與不確定性並不限於下列所描述的風險因素。此外，目前我們所不知或認為不重要的其他風險與不確定性，也可能對本公司業務產生不利影響。",
+    "此外，過去的財務表現可能無法作為未來表現的可靠指標，歷史趨勢也不應用來預測未來期間的結果或趨勢。",
+    "若任何下列風險與不確定性發展為實際事件或發生，這些事件可能對本公司業務、財務狀況或營運成果產生重大不利影響。在此情況下，本公司普通股的交易價格可能下跌。",
+    "與本公司業務與營運相關的風險",
+    "本公司策略與持續的業務轉型，包括與雲端、混合、本地部署、AI/ML及相關產品與服務有關的部分，涉及重大執行風險。我們可能無法按照計畫成功開發、發佈、擴展或運營我們的產品與服務，包括使我們的平台與產品與服務能在雲端、混合、本地部署環境中有效運作，或在雲端服務供應商夥伴的環境中運作。執行我們的策略與轉型計畫，會面臨組織、營運與技術上的挑戰，包括與組織協調、技術整合、具備專業技能的人員可得性、資源配置、成本管理與內部控制相關的問題。我們可能無法按照計畫執行或實現策略的所有方面，或在預期時間內實現預期的效益。即使某些效益已實現，也可能產生未預見的後果，包括營運中斷，這些後果可能發生。任何上述結果都可能對本公司業務、品牌與聲譽、競爭地位、財務狀況、營運成果、成長前景與現金流產生重大不利影響。",
+    "由快速技術變革、競爭壓力與不斷演進的客戶期望所驅動的產品生命週期縮短，要求我們持續創新，以跟上新興的客戶使用案例與技術趨勢。我們必須在內部創新，並與第三方技術供應商協調創新，這些供應商的零組件包含在本公司產品與服務中。將新產品或增強功能推向市場可能成本高昂且耗時，並可能增加我們面對重大技術、法律、法規或其他風險的敞口。此外，隨著"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

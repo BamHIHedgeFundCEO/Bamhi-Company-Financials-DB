@@ -1,0 +1,223 @@
+{
+ "ticker": "VSEC",
+ "cik": "0000102752",
+ "accession": "0000102752-26-000015",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "History and Organization",
+    "Purpose, Vision and Core Values",
+    "Purpose and Vision Statement",
+    "Business Operations",
+    "Federal and Defense",
+    "Products and Services",
+    "Human Capital Management",
+    "Workforce Demographics",
+    "Talent Acquisition, Retention and Development",
+    "Employee Health and Safety",
+    "Code of Business Conduct and Ethics",
+    "Regulation and Supervision",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "VSE Corporation, through its subsidiaries (collectively, \"VSE\" or the \"Company\") is a leading provider of aftermarket distribution and maintenance, repair and overhaul (\"MRO\") services for air transportation assets for commercial and government markets. VSE was incorporated in Delaware in 1959.",
+    "We deliver trusted solutions to inspire the performance of tomorrow.",
+    "The Company is focused on enhancing the productivity and longevity of its customer's high-value, business-critical assets. The Company strives to achieve this through dedication to creating better solutions, anticipating global needs, and building stronger relationships with customers.",
+    "Core Values •Customer Obsessed: Our exceptional service sets us apart •Own It: Accountability is our responsibility",
+    "•Speak Up: Our experience and our voice matters •Better Together: We collaborate to win •Results Matter: We inspire and deliver our key results",
+    "The Company's business operations are managed as a single reportable operating segment: Aviation. Prior to the sales of the Federal and Defense and Fleet segments, as discussed below, the Company operated under three reportable operating segments.",
+    "The Aviation segment is a leading provider of aftermarket parts distribution and MRO services for components and engine accessories supporting commercial, business and general aviation (\"B&GA\") operators. This business offers a range of services to a diversified global client base of commercial airlines, regional airlines, air cargo transporters, MRO integrators and providers, aviation manufacturers, corporate and private aircraft owners, and fixed-base operators (\"FBOs\").",
+    "On January 29, 2026, the Company entered into a stock purchase agreement (the \"Purchase Agreement\") to acquire Precision Aviation Group (\"PAG\"), a portfolio company of GenNx360 Capital Partners, for total upfront consideration of approximately $2.025 billion in cash and equity (the \"PAG Acquisition\"). In addition, the Purchase Agreement provides for up to $125 million in additional contingent earn-out consideration, payable in cash or equity consideration at the Company's sole discretion, based on PAG's 2026 adjusted EBITDA performance. The PAG Acquisition is expected to be funded in part by the Company's February 2026 Offerings (as defined below). The PAG Acquisition is subject to customary closing conditions and approvals and is expected to close in the second quarter of 2026.",
+    "Prior to its sale, the Fleet segment specialized in parts distribution, engineering solutions, and mission critical supply chain management services supporting the medium and heavy-duty fleet market. In April 2025, the Company completed the sale of the Fleet segment (the \"Fleet Sale\"). The Company has reflected the results of operations for this business as discontinued operations for all periods presented. See Note (3) \"Discontinued Operations\" to the Consolidated Financial Statements included in Item 8 of this annual report on Form 10-K for further information.",
+    "Prior to its sale, the Federal and Defense segment provided aftermarket refurbishment and sustainment services to extend and maintain the life cycle of military vehicles, ships and aircraft for the United States Department of Defense (\"DoD\"). In February 2024, the Company entered into two separate agreements to sell substantially all of the Federal and Defense segment assets (the \"FDS Sale\"). The Company has reflected the results of operations for this business as discontinued operations for all periods presented. See Note (3) \"Discontinued Operations\" to the Consolidated Financial Statements included in Item 8 of this annual report on Form 10-K for further information.",
+    "The Company provides a broad array of aftermarket parts distribution and service capabilities to support clients' aircraft fleets. The Company focuses on creating value by sustaining and extending the life and improving the performance of client air transportation assets through core offerings in parts supply and distribution, supply chain management, and MRO services.",
+    "The Company supplies parts through global distribution centers of excellence and provides MRO services from strategically positioned repair facilities ensuring expedient delivery and turn-around of customers products enabling aircraft and fleet vehicles to return to service on time. See Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" for more information regarding the Company's business operations.",
+    "The Company's marketing activities are conducted by sales representatives and professional marketing and business development staff. New customer contacts and information concerning new parts or programs, requirements and opportunities become available through sales calls and client visits, negotiations with key customer and supplier business partners, and formal and informal briefings. The Company participates in various professional organizations and trade associations, and attends global industry trade shows and events in order to increase brand awareness and strengthen the Company's service offerings.",
+    "The Company's human capital management strategy is designed to support its business objectives by attracting, developing, and retaining a skilled workforce while promoting safety, ethical conduct, and an inclusive workplace culture. The Company's employees are critical to executing its strategy and delivering value to customers and stakeholders."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Operational Risks",
+    "Acquisitions, which are a part of the Company's business strategy, present certain risks.",
+    "Global economic conditions and political factors could adversely affect the Company's revenues.",
+    "U.S. and foreign trade policies, including the assessment of tariffs and other impositions on imported goods, may have a material adverse impact on the Company's business.",
+    "Supply chain delays, disruptions, and potential geopolitical uncertainty could adversely affect the Company's business operations and expenses.",
+    "Competition from existing and new competitors may harm the Company's business.",
+    "Investments in inventory and facilities could cause losses if certain work is disrupted or discontinued.",
+    "The Company's business could be adversely affected by incidents that could cause an interruption in operations or impose a significant financial liability.",
+    "The Company has material customer concentration within its business operations with a single customer group accounting for a material portion of its revenues.",
+    "The nature of the Company's operations and work performed by employees presents certain challenges related to workforce management.",
+    "The Company is dependent on access to and the performance of third-party package delivery companies.",
+    "Prolonged periods of inflation where the Company does not have adequate inflation protections in customer contracts may adversely affect the Company by increasing costs beyond what it can recover through price increases.",
+    "Circumstances associated with divestitures could adversely affect the Company's results of operations and financial condition.",
+    "Intellectual property risks could affect the Company's commercial relationships.",
+    "Risks Related to the PAG Acquisition",
+    "The PAG Acquisition may not occur at all or may not occur in the expected time frame, which may negatively affect the trading price of the Company's common stock and the Company's future business and financial results.",
+    "The Company may not realize the strategic benefits and cost synergies that are anticipated from the planned PAG Acquisition.",
+    "PAG may have liabilities that are not known to the Company.",
+    "The Company has made certain assumptions relating to the PAG Acquisition, which may prove to be materially inaccurate.",
+    "The Company has incurred and will continue to incur significant expenses in connection with the PAG Acquisition, regardless of whether the PAG Acquisition is completed.",
+    "Legal and Regulatory Risks",
+    "The Company is subject to numerous government rules and regulations that could expose the Company to potential liabilities or work loss.",
+    "Due to the nature of the Company's work, the Company could potentially be exposed to legal actions arising from operations.",
+    "Environmental and pollution risks could potentially impact the Company's financial results.",
+    "Technology Risks",
+    "Technology and cybersecurity threats, risks, and incidents could potentially impact the Company's financial results.",
+    "Financial Risks",
+    "The Company's debt exposes the Company to certain risks.",
+    "There can be no assurance the Company will continue to pay dividends at current levels or in the future."
+   ],
+   "paragraphs": [
+    "The Company's future results may differ materially from past results and from those projected in the forward-looking statements contained in this Form 10-K due to various uncertainties and risks, including those risks set forth below, nonrecurring events and other important factors disclosed previously and from time to time in the Company's other reports filed with the SEC.",
+    "The Company's success is highly dependent on the performance of the aviation aftermarket, which could be impacted by lower demand for business aviation and commercial air travel or airline fleet changes causing lower demand for the Company's goods and services.",
+    "General global industry and economic conditions that affect the aviation industry may also affect the Company's business. The Company is subject to macroeconomic cycles, and when recessions occur, the Company may experience reduced orders, payment delays, supply chain disruptions or other factors as a result of the economic challenges faced by customers, prospective customers and suppliers. Further, the aviation industry has historically, from time to time, been subject to downward cycles which reduce the overall demand for jet engine and aircraft component replacement parts and repair and overhaul services, and such downward cycles result in lower sales and greater credit risk. Demand for commercial air travel can be influenced by airline industry profitability, world trade policies, government-to-government relations, terrorism, political unrest, war (including the ongoing Russia-Ukraine conflict and Middle East conflicts), disease outbreaks, environmental constraints imposed upon aircraft operations, technological changes, price, and other competitive factors. These global industry and economic conditions may have a material adverse effect on the Company's business, financial condition, and results of operations.",
+    "A key element of the Company's business strategy is growth through the acquisition of additional companies. The Company is focused on acquiring complementary assets that add new products, new customers, and new capabilities or new geographic and/or operational competitive advantages in both new and existing markets within the Company's core competencies. The Company's acquisition strategy is affected by a number of challenges and risks, including the availability of suitable acquisition candidates, availability of capital, diversion of management's time and attention from the Company's core business, effective integration of the operations and personnel of acquired companies, potential write downs of acquired intangible assets, potential loss of key employees of acquired companies, use of a significant portion of available cash, compliance with debt covenants and consummation of acquisitions on terms satisfactory to the Company.",
+    "The Company may not be able to successfully execute its acquisition strategy, and the failure to do so could have a material adverse effect on the Company's business, financial condition, and results of operations.",
+    "Revenues for work performed in, or products delivered to, foreign countries are subject to economic conditions in those countries and to political risks posed by ongoing conditions or foreign conflicts, including the continuing Russia-Ukraine and Middle East conflicts, potential terrorist activity, and evolving global trade tensions, including those involving China. The Company is also subject to U.S. and foreign export control laws and regulations, trade sanctions, and other compliance requirements, which may restrict the markets in which it may operate or the parties with whom it may transact. Changes in export control regulations, sanctions regimes, licensing requirements, or their interpretation or enforcement could delay or prevent the Company from delivering or receiving products or services, result in fines or penalties, or otherwise adversely affect the Company's business, financial condition, and results of operations. Changes in government policies or regimes in these regions may affect the Company's ability to continue ongoing work or initiate new projects. Political and economic conditions in both the United States and abroad, as well as global prices and availability of oil and other commodities, could also influence demand for certain of the Company's products and services."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Business Overview",
+    "Recent Developments",
+    "Business Trends",
+    "Results of Operations",
+    "Financial Condition",
+    "Liquidity and Capital Resources",
+    "Other Obligations and Commitments",
+    "Inflation and Pricing",
+    "Off-Balance Sheet Arrangements",
+    "Critical Accounting Estimates and Judgments",
+    "Revenue Recognition",
+    "Inventory Valuation",
+    "Business Combinations",
+    "Valuation of Goodwill and Intangible Assets",
+    "Accounting for Income Taxes",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "VSE Corporation, through its subsidiaries (collectively, \"VSE\" or the \"Company\"), is a leading provider of aftermarket distribution and maintenance, repair and overhaul (\"MRO\") services for air transportation assets for commercial and government markets. The Company operates as a single reportable segment aligned with the Company's operating segment: Aviation.",
+    "In April 2025, the Company completed the sale of its Fleet segment. See Note (3) \"Discontinued Operations\" to the consolidated financial statements for further information.",
+    "In May 2025, the Company entered into a new credit agreement, which fully replaced its previous credit agreement. See Note (7) \"Debt\" to the consolidated financial statements for further information.",
+    "In May 2025, the Company completed the acquisition of Turbine Weld Industries, LLC (\"Turbine Weld\"), a specialized MRO provider of complex technical and proprietary engine components for business and general aviation platforms.",
+    "In December 2025, the Company entered into an Asset Purchase and License Agreement with an original equipment manufacturer to exclusively manufacture, sell, market, and distribute certain fuel pumps for use on the Pratt & Whitney PT6 engine series.",
+    "In December 2025, the Company completed the acquisition of GenNx/AeroRepair IntermediateCo Inc., the parent company of Aero 3, Inc. (\"Aero 3\"), a diversified global MRO service provider and distributor supporting the wheel and brake aftermarket.",
+    "See Note (2) \"Acquisitions\" to the consolidated financial statements for further information.",
+    "In January 2026, the Company entered into a stock purchase agreement (the \"Purchase Agreement\") to acquire Precision Aviation Group (\"PAG\"), a portfolio company of GenNx360 Capital Partners. PAG is a leading global provider of aviation aftermarket MRO, distribution, and supply chain services supporting B&GA, rotorcraft, and defense markets (such acquisition, the \"PAG Acquisition\"). See Note (19) \"Subsequent Events\" to the consolidated financial statements for further information."
+   ],
+   "focus": "Business Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "歷史與組織",
+    "目的、願景與核心價值",
+    "目的與願景聲明",
+    "營運業務",
+    "聯邦與防禦",
+    "產品與服務",
+    "人力資本管理",
+    "員工人口統計",
+    "人才招募、留任與發展",
+    "員工健康與安全",
+    "商業行為準則與倫理",
+    "法規與監督",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "VSE Corporation, 透過其子公司（合稱為 \"VSE\" 或 \"本公司\"）為商業與政府市場的航空運輸資產提供後市場分銷與維護、保養與修理（\"MRO\"）服務，為業界領先的供應商。VSE 於 1959 年在特拉華州成立。",
+    "我們提供值得信賴的解決方案，以啟發明日的表現。",
+    "本公司專注於提升客戶高價值、業務關鍵資產的生產力與使用壽命。本公司透過致力於創造更好的解決方案、預見全球需求，以及與客戶建立更強的關係，來達成此目標。",
+    "核心價值 •以客戶為中心：我們卓越的服務使我們脫穎而出 •責任歸屬：責任是我們的義務",
+    "•表達意見：我們的經驗與聲音很重要 •攜手共創：我們合作以獲勝 •結果至關重要：我們激勵並達成關鍵結果",
+    "本公司的業務運作被視為一個應報告分部：航空業。在討論如下所述的 Federal 和 Defence 與 Fleet 分部銷售之前，本公司曾運作於三個應報告分部。",
+    "航空業分部為商業、企業與一般航空運輸（\"B&GA\"）營運者提供後市場零組件分銷與 MRO 服務，支援引擎配件。此業務為一多元化全球客戶羣體提供廣泛的服務，包括商業航空公司、區域航空公司、航空貨運運輸商、MRO 統合商與供應商、航空製造商、企業與私人飛機所有者，以及固定基地運營商（\"FBOs\"）。",
+    "2026 年 1 月 29 日，本公司與 Precision Aviation Group（\"PAG\"）簽訂股票購買協議（\"購買協議\"），以總計約 20.25 億美元現金與股票（\"PAG 收購\"）購入 PAG，為 GenNx360 Capital Partners 的投資組合公司。此外，購買協議提供最高達 1.25 億美元的附加條件性 earn-out 考慮金，以現金或股票形式支付，由本公司單方面決定，基於 PAG 2026 年調整後的 EBITDA 表現。PAG 收購預計部分資金來自本公司 2026 年 2 月的發行（如後文所定義）。PAG 收購需符合慣例的關閉條件與批准，預計於 2026 年第二季關閉。",
+    "在出售前，Fleet 業務部門專門從事零組件分銷、工程解決方案以及支援中型及重型車隊市場的關鍵供應鏈管理服務。2025 年 4 月，本公司完成出售 Fleet 業務部門（\"Fleet Sale\"）。本公司已將此業務的營運結果列為已終止營運，適用所有期間。有關進一步資訊，請參閱本年度 10-K 報告第 8 項所附的財務報表附註 (3) \"已終止營運\"。",
+    "在出售前，Federal and Defense 業務部門為美國國防部（\"DoD\"）提供後市場翻新及維護服務，以延長及維持軍用車輛、艦艇及飛機的壽命週期。2024 年 2 月，本公司與兩家獨立機構簽訂兩份協議，出售 substantially all 的 Federal and Defense 業務部門資產（\"FDS Sale\"）。本公司已將此業務的營運結果列為已終止營運，適用所有期間。有關進一步資訊，請參閱本年度 10-K 報告第 8 項所附的財務報表附註 (3) \"已終止營運\"。",
+    "本公司提供廣泛的後市場零組件分銷與服務能力，以支援客戶的飛機艦隊。本公司專注於透過零組件供應與分銷、供應鏈管理及 MRO 服務的核心業務，來延長客戶航空運輸資產的壽命並提升其性能。",
+    "本公司透過全球分銷中心提供零組件，並透過戰略位置的維修設施提供 MRO 服務，確保客戶產品的快速交付與處理，使飛機及車隊車輛能準時恢復運作。有關本公司業務運作的更多資訊，請參閱第 7 項 \"管理層對財務狀況與營運成果的討論與分析\"。",
+    "本公司透過銷售代表及專業行銷與業務發展人員進行行銷活動。透過銷售拜訪與客戶訪問、與關鍵客戶及供應商業務夥伴的談判，以及正式與非正式簡報，可獲得新客戶聯繫及有關新零組件或計畫、需求與機會的資訊。本公司參與多種專業組織與產業協會，並參加全球產業展覽與活動，以提高品牌知名度並強化本公司服務方案。",
+    "本公司的人力資源管理策略旨在透過吸引、培訓與保留具備技能的員工，來支援其業務目標，同時促進安全、倫理作風及包容性的工作文化。本公司員工對執行其策略及為客戶與利害關係人創造價值至關重要。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營業概況",
+    "近期發展",
+    "營業趨勢",
+    "營運成果",
+    "財務狀況",
+    "流動性及資本運用",
+    "其他義務與承諾",
+    "通貨膨脹與價格",
+    "Off-Balance Sheet Arrangements",
+    "Critical Accounting Estimates and Judgments",
+    "Revenue Recognition",
+    "Inventory Valuation",
+    "Business Combinations",
+    "Valuation of Goodwill and Intangible Assets",
+    "Accounting for Income Taxes",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "VSE Corporation, 透過其子公司（合稱為 \"VSE\" 或 \"本公司\"），為商業與政府市場的航空運輸資產提供後市場的零組件銷售與維修、保養及翻修（\"MRO\"）服務。本公司運作為一個應報告分部，與本公司營運分部：航空業一致。",
+    "2025年4月，本公司完成其Fleet分部的出售。有關進一步資訊，請參閱財務報表附註（3） \"已終止營運\"。",
+    "2025年5月，本公司與銀行簽訂新信貸協議，完全取代其先前的信貸協議。有關進一步資訊，請參閱財務報表附註（7） \"債務\"。",
+    "2025年5月，本公司完成對Turbine Weld Industries, LLC（\"Turbine Weld\"）的收購，Turbine Weld為專門提供複雜技術與專利引擎零組件的MRO服務供應商，服務於商業與一般航空平台。",
+    "2025年12月，本公司與原廠製造商簽訂資產買賣與授權協議，獨家製造、銷售、行銷與分銷特定燃料泵，用於Pratt & Whitney PT6引擎系列。",
+    "2025年12月，本公司完成對GenNx/AeroRepair IntermediateCo Inc.的收購，該公司為Aero 3, Inc.（\"Aero 3\"）的母公司，Aero 3為一家多元化的全球MRO服務與零組件供應商，支援輪胎與剎車後市場。",
+    "有關進一步資訊，請參閱財務報表附註（2） \"收購\"。",
+    "2026年1月，本公司與股票買賣協議（\"買賣協議\"）簽訂，以收購Precision Aviation Group（\"PAG\"），PAG為GenNx360 Capital Partners的投資組合公司。PAG為全球領先的航空後市場MRO、零組件銷售與供應鏈服務供應商，支援B&GA、旋翼機與防禦市場（此收購，稱為 \"PAG收購\"）。有關進一步資訊，請參閱財務報表附註（19） \"後續事件\"。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "營運風險",
+    "收購為本公司業務策略之一環，可能伴隨某些風險。",
+    "全球經濟情勢與政治因素可能對本公司的營業收入產生不利影響。",
+    "美國與外國貿易政策，包括對進口商品課徵關稅及其他課稅措施，可能對本公司業務產生重大不利影響。",
+    "供應鏈延誤、中斷及潛在的國際政治不確定性可能對本公司業務運作及費用產生不利影響。",
+    "來自現有及新興競爭對手的競爭可能損害本公司業務。",
+    "對存貨與設施的投資若因某些工作受阻或終止，可能導致損失。",
+    "本公司業務可能因造成運作中斷或產生重大財務責任的事件而受到不利影響。",
+    "本公司在營運過程中對客戶集中度較高，單一客戶羣體佔其營業收入之重要部分。",
+    "本公司營運性質及員工所執行之工作，會面臨與人力資源管理相關之挑戰。",
+    "本公司依賴第三方包裝運送公司之服務及表現。",
+    "若長時間處於通貨膨脹，而本公司未能在客戶契約中取得足夠之通貨膨脹保護機制，可能會因成本增加而無法透過價格上漲來彌補，進而對本公司造成不利影響。",
+    "與資產處分相關之情況，可能對本公司之營運成果與財務狀況造成不利影響。",
+    "智慧財產權之風險可能影響本公司之商業關係。",
+    "與PAG收購相關之風險",
+    "PAG收購可能不會發生，或可能不會在預期時間內發生，這可能會對本公司普通股之交易價格及未來營運與財務結果造成負面影響。",
+    "本公司可能無法實現預期自 planned PAG Acquisition 所帶來的戰略效益及成本協同效益。",
+    "PAG 可能有本公司尚未知悉的負債。",
+    "本公司已針對 PAG Acquisition 作出某些假設，這些假設可能證明與實際情況有重大差異。",
+    "本公司已產生並將持續產生與 PAG Acquisition 相關的重大費用，無論 PAG Acquisition 是否完成。",
+    "法律與法規風險",
+    "本公司受許多政府規則及法規所制約，這些規則及法規可能使本公司面臨潛在的負債或營運損失。",
+    "由於本公司業務性質，本公司可能因營運活動而面臨潛在的法律訴訟。",
+    "環境及污染風險可能影響本公司之財務結果。",
+    "科技風險",
+    "科技與網路安全威脅、風險及事件，可能影響本公司的財務結果。",
+    "財務風險",
+    "本公司的債務使本公司面臨某些風險。",
+    "本公司無法保證將持續以目前或未來的水準發放股息。"
+   ],
+   "paragraphs": [
+    "本公司未來的結果可能與過去結果及本Form 10-K 所含之預測性陳述有所差異，原因包括各種不確定性及風險，包括下列所列風險、非經常性事件及其他重要因素，這些因素已於本公司其他向SEC提交之報告中披露。",
+    "本公司之成功高度依賴航空後市場之表現，該表現可能因商務航空及商業航空旅行需求下降或航空公司機隊變動，導致本公司商品及服務之需求下降而受到影響。",
+    "影響航空產業之全球產業及經濟條件，也可能影響本公司業務。本公司受總體經濟週期影響，當經濟衰退發生時，本公司可能因客戶、潛在客戶及供應商所面臨之經濟挑戰，而遭遇訂單減少、付款延遲、供應鏈中斷或其他因素。此外，航空產業歷來偶爾會受到向下週期影響，此等向下週期會降低整體對噴射引擎及飛機零組件更換零件及維修與翻修服務之需求，導致銷售減少及信用風險增加。商業航空旅行需求可能受航空公司產業獲利能力、世界貿易政策、政府間關係、恐怖主義、政治動盪、戰爭（包括持續進行之俄羅斯-烏克蘭衝突及中東衝突）、疾病爆發、對飛機運作所施加之環境限制、技術變革、價格及其他競爭因素影響。這些全球產業及經濟條件可能對本公司業務、財務狀況及營運成果造成重大不利影響。",
+    "本公司業務策略的關鍵要素之一是透過收購其他公司來實現成長。本公司專注於收購能增加新產品、新客戶、新能力或新地理及/或運營競爭優勢之補充性資產，這些資產可在本公司核心專長領域之新舊市場中。本公司收購策略受多種挑戰及風險影響，包括合適收購目標之可得性、資金之可得性、管理層時間及注意力從核心業務之分散、成功整合收購公司之運營及人員、收購無形資產之潛在減值、收購公司關鍵員工之流失、使用大量現金、遵守債務契約及在符合本公司滿意條件之條款下完成收購。",
+    "本公司可能無法成功執行其收購策略，若無法做到，可能對本公司業務、財務狀況及營運成果造成重大不利影響。",
+    "本公司為在海外國家執行工作或交付產品所產生之收入，受這些國家之經濟條件及持續進行之條件或外國衝突所帶來之政治風險影響，包括持續進行之俄羅斯-烏克蘭及中東衝突、潛在恐怖活動及正在演變之全球貿易緊張關係，包括涉及中國之關係。本公司亦受美國及外國出口管制法律及規範、貿易制裁及其他合規要求之影響，這些法律及規範可能限制本公司運作之市場或與之交易之對象。出口管制規範、制裁制度、許可要求或其解釋或執行之變更，可能延遲或阻止本公司交付或接收產品或服務，導致罰款或處罰，或以其他方式對本公司業務、財務狀況及營運成果造成不利影響。這些地區之政府政策或制度之變更，可能影響本公司繼續進行現有工作或啟動新專案之能力。美國及國際之政治及經濟條件，以及全球石油及其他商品之價格及可得性，也可能影響本公司某些產品及服務之需求。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

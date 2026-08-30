@@ -1,0 +1,209 @@
+{
+ "ticker": "WU",
+ "cik": "0001365135",
+ "accession": "0001193125-26-061340",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Year Ended December 31,",
+    "Consumer Money Transfer",
+    "Consumer Services",
+    "Money Transfer and Payment Instrument Licensing and Regulation",
+    "Consumer Protection Regulations",
+    "Derivatives Regulations",
+    "Unclaimed Property Regulations",
+    "Privacy Regulations and Information Security Standards",
+    "Attracting, Developing, and Engaging Employees",
+    "Compensation, Benefits, and Wellness"
+   ],
+   "paragraphs": [
+    "The Western Union Company (the \"Company,\" \"Western Union,\" \"we,\" \"our,\" or \"us\") is a leader in cross-border, cross-currency money movement, payments, and digital financial services, empowering consumers, businesses, financial institutions, and governments with fast, reliable, and convenient ways to send money and make payments around the world. Our goal is to offer accessible financial services that help people and communities prosper. The Western Union brand is globally recognized and represents speed, reliability, trust, and convenience.",
+    "As we continue to seek to meet the needs of our customers for fast, reliable, and convenient global money movement and payment services while focusing on regulatory compliance, we are also working to go beyond these services by providing consumers and our business clients with access to an expanding portfolio of financial services and to increase the ways our services can be accessed, including through the launch of our digital wallet in certain countries.",
+    "Our business strategy centers on leveraging our global retail network and growing digital platforms to provide cross‑border money movement and related financial services to customers worldwide, while increasingly operating as a digital‑first company. Building on our traditional strength in consumer remittances, we are focused on expanding higher‑growth digital channels alongside our physical agent locations to create a two‑sided global financial services network. In November 2025, we announced our \"Beyond\" strategy, in which we intend to serve customers by broadening our consumer services offerings and modernizing our payments infrastructure. This strategy emphasizes technology‑led innovation, including expansion of digital wallets, consumer financial services, and a digital asset network supported by a U.S. dollar‑denominated stablecoin initiative.",
+    "On August 10, 2025, we entered into an agreement to purchase the entire share capital of International Money Express, Inc. (NASDAQ: IMXI) (\"Intermex\") for approximately $500 million in cash. This transaction is expected to close in the second quarter of 2026, subject to the satisfaction of customary closing conditions, including receipt of remaining regulatory approvals. Intermex is a leading omnichannel money transfer provider, focused primarily on the United States (\"U.S.\") to Latin America and the Caribbean corridors, through a network of agent retail locations, Intermex-operated stores, its mobile app, and websites.",
+    "On October 28, 2025, we announced plans to launch the U.S. Dollar Payment Token (\"USDPTTM\"). USDPT will be a U.S. dollar-backed stablecoin that will be issued on the Solana blockchain by Anchorage Digital Bank, N.A., a national trust bank. We anticipate that Anchorage Digital Bank will be issuing USDPT in conformity with the requirements of the Guiding and Establishing National Innovation for U.S. Stablecoins Act (\"GENIUS Act\"). We plan for users to be able to buy and sell USDPT through licensed cryptocurrency exchanges, which is expected to allow broad accessibility and ease of use. We also expect to offer a credit card to consumers that is funded and secured by USDPT, and we plan to utilize USDPT to facilitate high-speed payments between Western Union and its agents. We anticipate that USDPT will be issued and available in licensed cryptocurrency exchanges during the first half of 2026. In October 2025, we also announced an innovative Digital Asset Network, which would permit licensed cryptocurrency exchanges to integrate Western Union money transfer services into their consumer mobile apps. This would permit customers of the exchanges to receive cash payouts in fiat currency at a Western Union location. Both the USDPT and Digital Asset Network initiatives are designed to expand the ways we move money for customers, agents, and partners.",
+    "We manage our business around the consumers and businesses we serve and the types of services we offer. We operate through two segments: Consumer Money Transfer and Consumer Services.",
+    "Our Consumer Money Transfer service enables people to use our well-recognized brands to send money around the world, usually within minutes. We believe that brand strength, reach of our global network, convenience, reliability, and value have been important to our business. As of December 31, 2025, our global network included agent locations in more than 200 countries and territories and many Western Union branded websites. Each location in our agent network is capable of facilitating a consumer's use of one or more of our services, with the significant majority offering a Western Union branded service. As of December 31, 2025, approximately 360,000 of our locations had conducted money transfer activity in the previous 12 months.",
+    "Our Consumer Services segment includes our bill payment services, money order services, travel money services, check acceptance services, media network, prepaid cards, lending partnerships, and digital wallets.",
+    "The table below presents the components of our consolidated revenue:",
+    "2025 2024 2023 Consumer Money Transfer Consumer Services Business Solutions(a)",
+    "(a) On August 4, 2021, we entered into an agreement to sell our Business Solutions business to Goldfinch Partners LLC and The Baupost Group LLC, and the final closing for this transaction occurred on July 1, 2023. Accordingly, we no longer report Business Solutions as a separate segment.",
+    "Money transfers from one consumer to another are the core of our business, representing 87% of our total consolidated revenues for 2025. A substantial majority of these transfers were cross-border transactions. Our money transfer service is mainly conducted through our retail agent locations and locations we operate worldwide but also includes our websites and mobile applications and our third-party digital partners' websites and mobile applications marketed under our brands (\"Branded Digital\"). This segment includes five geographic regions whose functions are primarily related to generating, managing, and maintaining agent relationships and localized marketing activities. We include Branded Digital transactions in our regions. By means of common processes and systems, these regions, including Branded Digital, create one interconnected global network for consumer transactions, thereby constituting one Consumer Money Transfer business and one operating segment.",
+    "Our revenues are primarily derived from consideration paid by customers to transfer money. These revenues vary by transaction based upon factors such as channel, send and receive locations, send and receive funding method, the principal amount sent, and, when the money transfer involves different send and receive currencies, the difference between the exchange rate we set to the customer and a rate available in the wholesale foreign exchange market.",
+    "In a typical money transfer transaction, a consumer provides information, either at one of our agent or subagent locations or online, specifying, among other things, the name and other identifying information regarding the recipient and the principal amount of the transfer. The consumer also provides funds for the transaction, including the fee determined and set by us. Certain of these processes are streamlined for consumers who participate in our loyalty programs or are registered Branded Digital customers. This information is entered into our money transfer system, and the funds are made available for pick-up by the recipient within our system, usually within minutes, in the country or territory specified by the consumer, or paid into the designated account of the recipient. Consumers then receive a unique identifying number assigned by our system, which the consumer must communicate to the recipient in order to obtain a payout in cash. In this situation, the recipient generally enters an agent location in the designated receiving country or territory, presents the"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Relating to our Business Model and Competition",
+    "Risks related to foreign currency exposure could adversely affect our business, financial condition, results of operations, and cash flows.",
+    "Legal restrictions, political and economic instability, and infrastructure limitations in certain countries could limit or disrupt our money transfer and payment services and adversely affect our business.",
+    "We face credit, liquidity, and fraud risks from our agents, consumers, businesses, and third-party processors that could adversely affect our business, financial condition, results of operations, and cash flows.",
+    "Risks Relating to Cybersecurity, Third-Party Vendors, and Artificial Intelligence",
+    "Breaches of our information security safeguards could adversely affect our ability to operate and could damage our reputation and adversely affect our business, financial condition, results of operations, and cash flows.",
+    "Interruptions in our systems, including as a result of cyber attacks, or disruptions in our workforce may have a significant adverse effect on our business.",
+    "Risks Relating to Acquisitions, Divestitures, and Restructuring Activities",
+    "Acquisitions and integration of new businesses create risks and may affect operating results.",
+    "Divestitures and contingent liabilities from divested businesses could adversely affect our business and financial results.",
+    "We may not realize the anticipated benefits from the introduction of new business services, and we may experience disruptions in our Company and our workforce as a result of attempting these initiatives.",
+    "General Risks",
+    "Changes in tax laws, or their interpretation, and unfavorable resolution of tax contingencies could adversely affect our tax expense.",
+    "Our business, financial condition, results of operations, and cash flows could be harmed by adverse rating actions by credit rating agencies.",
+    "There can be no guarantee that we will continue to make dividend payments or repurchase stock.",
+    "Material changes in the market value or liquidity of the securities we hold may adversely affect our results of operations and financial condition.",
+    "We have substantial debt and other obligations that could restrict our operations."
+   ],
+   "paragraphs": [
+    "The following is a summary of certain key risk factors with respect to our Company. You should read this summary together with the more detailed descriptions of risks relating to our Company below.",
+    "Risks Relating to Our Business and Industry",
+    "• Demand for our services is dependent on a number of factors that could be materially impacted by adverse changes in the global economy.",
+    "• We operate in highly competitive and rapidly evolving industries and face competition from a wide variety of service providers.",
+    "• Our business depends on consumer confidence and migration patterns, which could be adversely affected by a number of factors, many of which are outside of our control.",
+    "• Our Consumer Money Transfer business is highly dependent on our ability to maintain our agent network under terms consistent with or more advantageous than those currently in place."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "International Money Express, Inc. Acquisition",
+    "Year Ended December 31,",
+    "(in millions, except per share amounts)",
+    "Revenues Overview",
+    "(dollars in millions)",
+    "Operating Expenses Overview",
+    "Consumer Money Transfer",
+    "(dollars and transactions in millions)",
+    "Year Ended December 31, 2025",
+    "as Reported -",
+    "(Decline)(a) -",
+    "Consumer Services",
+    "Cash and Investment Securities",
+    "Cash Flows from Operating Activities",
+    "Financing Resources",
+    "Credit Ratings and Debt Covenants",
+    "Cash Priorities",
+    "Material Cash Requirements"
+   ],
+   "paragraphs": [
+    "The following discussion should be read in conjunction with the consolidated financial statements and the notes to those statements included in Part II, Item 8, Financial Statements and Supplementary Data in this Annual Report on Form 10‑K. This Annual Report on Form 10‑K contains certain statements that are forward-looking within the meaning of the Private Securities Litigation Reform Act of 1995. Certain statements contained in the Management's Discussion and Analysis of Financial Condition and Results of Operations are forward-looking statements that involve risks and uncertainties. The forward-looking statements are not historical facts, but rather are based on current expectations, estimates, assumptions, and projections about our industry, business, and future financial results. Our actual results could differ materially from the results contemplated by these forward-looking statements due to a number of factors, including those discussed in other sections of this Annual Report on Form 10‑K. See the discussion under the heading \"Risk Factors\" in Part I, Item 1A of this Annual Report on Form 10-K and under the heading \"Forward-Looking Statements\" below.",
+    "We are a leading provider of cross-border, cross-currency money movement, payments, and digital financial services and conduct business in the following operating segments:",
+    "• Consumer Money Transfer - Our Consumer Money Transfer segment facilitates money transfers, which are primarily sent from our retail agent and Company-operated locations worldwide or through websites and mobile devices. Our money transfer service is provided through one interconnected global network. This service is available for international cross-border transfers and, in certain countries, intra-country transfers.",
+    "• Consumer Services - Our Consumer Services segment includes our bill payment services, money order services, travel money services, check acceptance services, media network, prepaid cards, lending partnerships, and digital wallets.",
+    "Additional information regarding our segments is provided in the Segment Discussion below.",
+    "On August 10, 2025, we entered into an agreement to purchase the entire share capital of International Money Express, Inc. (\"Intermex\") for approximately $500 million in cash. This transaction is expected to close in the second quarter of 2026, subject to the satisfaction of customary closing conditions, including receipt of remaining regulatory approvals. Intermex is a leading omnichannel money transfer provider, focused primarily on the United States to Latin America and the Caribbean corridors, through a network of agent retail locations, Intermex-operated stores, its mobile app, and websites.",
+    "The following discussion of our consolidated results of operations and segment results refers to the year ended December 31, 2025 compared to the same period in 2024. For discussion of our consolidated results of operations and segment results for the year ended December 31, 2024 compared to the same period in 2023, refer to Part II, Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations in our Annual Report on Form 10-K for the year ended December 31, 2024, filed with the SEC on February 20, 2025.",
+    "The results of operations should be read in conjunction with the discussion of our segment results of operations, which provides more detailed discussions concerning certain components of the Consolidated Statements of Income. All significant intercompany accounts and transactions between our segments have been eliminated. The below information has been prepared in conformity with generally accepted accounting principles in the United States of America (\"GAAP\") unless otherwise noted. All amounts provided in this section are rounded to the nearest tenth of a million, except as otherwise noted. As a result, the percentage changes and margins disclosed herein may not recalculate precisely using the rounded amounts provided.",
+    "The following table sets forth our consolidated results of operations for the years ended December 31, 2025 and 2024:",
+    "2025 2024 % Change Revenues 4,050.7 4,209.7 (4 )%",
+    "Expenses: Cost of services 2,550.6 2,620.5 (3 )% Selling, general, and administrative 742.8",
+    "863.4 (14 )% Total expenses 3,293.4 3,483.9 (5 )% Operating income 757.3 725.8",
+    "Other income/(expense): Interest income 7.9 11.9 (33 )% Interest expense (143.0 (119.8 Other income, net",
+    "3.5 0.7 (a) Total other expense, net (131.6 (107.2 Income before income taxes 625.7 618.6 Provision for/(benefit from) income taxes"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "會計年度終了於12月31日",
+    "消費者金錢轉帳",
+    "消費者服務",
+    "金錢轉帳及支付工具許可與規範",
+    "消費者保護規範",
+    "衍生性商品規範",
+    "未領取財產規範",
+    "隱私權規範及資訊安全標準",
+    "{'original': 'Attracting, Developing, and Engaging Employees', 'translated': '吸引、培訓及留住員工'}",
+    "{'original': 'Compensation, Benefits, and Wellness', 'translated': '薪酬、福利及員工健康'}"
+   ],
+   "paragraphs": [
+    "The Western Union Company (the \"Company,\" \"Western Union,\" \"we,\" \"our,\" or \"us\") 是跨境、跨貨幣資金轉移、付款及數位金融服務的領導者，為消費者、企業、金融機構及政府提供快速、可靠且便利的資金轉移與付款方式，以協助個人與社區實現繁榮。The Western Union 品牌在全球廣為認知，象徵速度、可靠性、信任與便利。",
+    "我們持續尋求滿足客戶對快速、可靠且便利的全球資金轉移與付款服務的需求，同時著重於合規事項。我們同時也在拓展這些服務，為消費者與企業客戶提供擴展的金融服務組合，並增加服務的接觸方式，包括在某些國家推出數位錢包。",
+    "我們的業務策略聚焦於運用全球零售網路與成長中的數位平台，為全球客戶提供跨境資金轉移及相關金融服務，同時逐漸轉型為以數位為先的公司。基於我們在消費者匯款方面的傳統優勢，我們致力於拓展高成長的數位通路，與實體代理點並行，以建立雙邊的全球金融服務網路。2025 年 11 月，我們宣佈了我們的 \"Beyond\" 策略，意圖透過擴展消費者服務組合與現代化付款基礎設施，來服務客戶。此策略強調以科技為導向的創新，包括數位錢包的擴展、消費者金融服務，以及由美國美元定價穩定幣計畫支撐的數位資產網路。",
+    "2025 年 8 月 10 日，我們與 International Money Express, Inc. (NASDAQ: IMXI) (\"Intermex\") 籤訂協議，以約 500 百萬美元現金購入其全部股權。此交易預計於 2026 年第二季完成，視常規關閉條件是否達成，包括取得剩餘的監管批准。Intermex 是一家主要服務美國 (\"U.S.\") 至拉丁美洲及加勒比地區的多通路資金轉移服務供應商，透過代理零售點、Intermex 自營商店、其行動應用程式及網站進行業務。",
+    "2025 年 10 月 28 日，我們宣佈計畫推出美國美元付款代幣 (\"USDPTTM\"). USDPT 將是一種以美元為後盾的穩定幣，由 Anchorage Digital Bank, N.A. (一家國家信託銀行) 在 Solana 區塊鏈上發行。我們預期 Anchorage Digital Bank 將依照「美國穩定幣指導與創新法案」(\"GENIUS Act\") 的要求發行 USDPT。我們計畫讓用戶透過經許可的加密貨幣交易所買賣 USDPT，預期能提供廣泛的可及性與易用性。我們也預期會為消費者提供一種由 USDPT 資金支持並擔保的信用卡，並計畫利用 USDPT 來促進 Western Union 與其代理之間的高速付款。我們預期 USDPT 將於 2026 年第一季在經許可的加密貨幣交易所發行與上市。2025 年 10 月，我們也宣佈了一項創新數位資產網路，將允許經許可的加密貨幣交易所將 Western Union 的資金轉移服務整合至其消費者行動應用程式中。這將允許交易所的用戶在 Western Union 的據點以法幣現金提款。USDPT 與數位資產網路的計畫皆旨在擴展我們為客戶、代理與合作夥伴轉移資金的方式。",
+    "我們以服務的消費者與企業，以及所提供的服務類型來管理業務。我們透過兩個應報告分部進行運作：消費者資金轉移與消費者服務。",
+    "我們的消費者資金轉移服務使個人能運用我們廣為認知的品牌，將資金轉移至世界各地，通常在數分鐘內完成。我們認為品牌強度、全球網路的覆蓋範圍、便利性、可靠性與價值對我們的業務至關重要。截至 2025 年 12 月 31 日，我們的全球網路包含超過 200 個國家與地區的代理據點，以及許多 Western Union 品牌的網站。我們代理網路中的每個據點都能協助消費者使用我們的一項或多項服務，其中絕大多數提供 Western Union 品牌的服務。截至 2025 年 12 月 31 日，約有 360,000 個據點在過去 12 個月內進行過資金轉移活動。",
+    "我們的消費者服務分部包括我們的帳單付款服務、錢-order 服務、旅行資金服務、支票受理服務、媒體網路、預付卡、貸款合作夥伴及數位錢包。",
+    "下表呈現本公司合併營業收入的零組件：",
+    "2025 2024 2023 消費者錢轉 消費者服務 商務解決方案(a)",
+    "(a) 2021年8月4日，本公司與Goldfinch Partners LLC及The Baupost Group LLC簽訂協議，出售本公司商務解決方案業務，此交易最終完成為2023年7月1日。因此，本公司不再將商務解決方案作為獨立分部報告。",
+    "消費者之間的錢轉為本公司核心業務，佔本公司2025年合併營業收入的87%。這些轉帳中，絕大多數為跨境交易。本公司錢轉服務主要透過零售代理據點及本公司在全球運營的據點進行，也包括本公司網站與行動應用程式，以及第三方數位夥伴網站與行動應用程式，並以本公司品牌（\"Branded Digital\"）行銷。此分部包含五大地理區域，其功能主要為產生、管理及維護代理關係與本地化行銷活動。本公司將Branded Digital交易納入各區域內。透過共同的流程與系統，這些區域，包括Branded Digital，建立一個相互連接的全球消費者交易網路，因此組成一個消費者錢轉業務與一個運營分部。",
+    "本公司收入主要來自客戶為轉帳金錢所支付的費用。這些收入根據交易而有所不同，取決於因素如通路、發送與接收地點、發送與接收資金方式、發送金額，以及當轉帳涉及不同發送與接收貨幣時，本公司設定給客戶的匯率與現貨外匯市場匯率之間的差異。",
+    "在典型的錢轉交易中，消費者會在本公司代理或子代理據點或線上提供資訊，說明受款人姓名及其他識別資訊與轉帳金額。消費者也會提供交易資金，包括本公司所決定與設定的費用。部分流程已為參與本公司忠誠計畫或註冊Branded Digital的消費者簡化。此資訊會輸入至本公司錢轉系統，資金通常在數分鐘內於消費者指定的國家或地區可供領取，或支付至受款人指定帳戶。消費者隨後會收到一個由系統指派的獨特識別號碼，消費者必須將此號碼傳達給受款人以取得現金付款。在這種情況下，受款人通常會前往指定接收國家或地區的代理據點，出示"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'text': 'International Money Express, Inc. 收購', 'translatedText': 'International Money Express, Inc. 收購'}",
+    "{'text': '會計年度終了於12月31日,', 'translatedText': '會計年度終了於12月31日,'}",
+    "{'text': '(以百萬為單位，除每股金額外)', 'translatedText': '(以百萬為單位，除每股金額外)'}",
+    "{'text': '營業收入概覽', 'translatedText': '營業收入概覽'}",
+    "{'text': '(美元以百萬為單位)', 'translatedText': '(美元以百萬為單位)'}",
+    "{'text': '營運費用概覽', 'translatedText': '營運費用概覽'}",
+    "{'text': '消費者金錢轉帳', 'translatedText': '消費者金錢轉帳'}",
+    "{'text': '(美元及交易以百萬為單位)', 'translatedText': '(美元及交易以百萬為單位)'}",
+    "截至2025年12月31日止會計年度",
+    "依申報資料 -",
+    "(減損)(a) -",
+    "消費服務",
+    "現金及投資證券",
+    "營運活動所產生之現金流",
+    "資金來源",
+    "信用評等與債務契約",
+    "現金優先事項",
+    "重大現金需求"
+   ],
+   "paragraphs": [
+    "下列討論應配合本年度報告表 10-K 中 Part II, Item 8, 財務報表及補充資料所載之合併財務報表與相關附註一併閱讀。本年度報告表 10-K 含有某些符合 1995 年私人證券訴訟改革法案意義之預測性陳述。管理層對財務狀況與營運結果之討論與分析中包含某些預測性陳述，這些陳述涉及風險與不確定性。預測性陳述並非歷史事實，而是基於目前預期、估計、假設與對我們產業、業務與未來財務結果之預測。我們實際結果可能因多種因素而與這些預測性陳述所預期之結果有重大差異，包括其他部分所討論之因素。請參閱本年度報告表 10-K 中 Part I, Item 1A 所載之「風險因素」討論，以及下列所載之「預測性陳述」部分。",
+    "我們是提供跨境、跨貨幣資金移轉、付款及數位金融服務之領導供應商，並在以下營運分部進行業務：",
+    "• 消費者資金移轉－我們之消費者資金移轉分部提供資金移轉服務，主要由我們零售代理與本公司營運之全球據點或透過網站與行動裝置發送。我們之資金移轉服務透過一個互聯之全球網路提供。此服務可用於國際跨境資金移轉，並在某些國家提供國內資金移轉。",
+    "• 消費者服務－我們之消費者服務分部包含我們之帳單支付服務、現金支票服務、旅行現金服務、支票受理服務、媒體網路、預付卡、貸款合作夥伴及數位錢包。",
+    "關於我們分部之額外資訊請參閱下列之分部討論部分。",
+    "2025 年 8 月 10 日，我們與 International Money Express, Inc.（\"Intermex\"）簽訂協議，以約 500 百萬美元現金購入其全部股權。此交易預計於 2026 年第二季完成，視是否符合慣常關閉條件，包括取得剩餘法規核准而定。Intermex 是一家領導的多渠道資金移轉供應商，主要專注於美國至拉丁美洲及加勒比地區走廊，透過零售代理據點、Intermex 營運商店、其行動應用程式及網站進行業務。",
+    "下列對我們合併營運結果與分部營運結果之討論，係比較 2025 年 12 月 31 日財年與 2024 年相同期間。如需討論我們 2024 年 12 月 31 日財年與 2023 年相同期間之合併營運結果與分部營運結果，請參閱我們 2024 年 12 月 31 日財年年度報告表 10-K 中 Part II, Item 7，管理層對財務狀況與營運結果之討論與分析，該報告已於 2025 年 2 月 20 日向 SEC 提交。",
+    "營運結果應配合我們分部營運結果之討論一併閱讀，該討論提供更詳細有關合併損益表某些組成部分之說明。我們各分部間所有重大內部帳戶與交易均已消除。下列資訊係依照美國通用會計準則（\"GAAP\"）編製，除非另有說明。本節所提供之金額均四捨五入至最近之千萬分之一，除非另有說明。因此，本節所披露之百分比變動與毛利率可能無法使用所提供之四捨五入金額精確計算。",
+    "下表顯示本公司於2025年12月31日及2024年12月31日會計年度之整體營運成果：",
+    "2025 2024 變動百分比 營業收入 4,050.7 4,209.7 (4 )%",
+    "費用： 服務成本 2,550.6 2,620.5 (3 )% 銷售、一般及行政費用 742.8",
+    "863.4 (14 )% 總費用 3,293.4 3,483.9 (5 )% 營運收入 757.3 725.8",
+    "其他收入/(費用)： 利息收入 7.9 11.9 (33 )% 利息費用 (143.0 (119.8 其他收入，淨額",
+    "3.5 0.7 (a) 總其他費用，淨額 (131.6 (107.2 稅前收入 625.7 618.6 所得稅費用/(利益)"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們商業模式及競爭相關的風險",
+    "與外幣 exposures 相關的風險可能會對我們的業務、財務狀況、營運結果及現金流產生不利影響。",
+    "某些國家的法律限制、政治與經濟不穩定以及基礎建設限制可能會限制或幹擾我們的匯款與支付服務，並對我們的業務產生不利影響。",
+    "我們從代理商、消費者、企業及第三方處理商面臨信用、流動性及詐欺風險，這些風險可能會對我們的業務、財務狀況、營運結果及現金流產生不利影響。",
+    "與網路安全、第三方供應商及人工智慧相關的風險",
+    "我們資訊安全防護措施的違規可能會影響我們的營運能力，並損害我們的聲譽，進而對我們的業務、財務狀況、營運結果及現金流產生不利影響。",
+    "我們系統的中斷，包括因網路攻擊所致，或我們員工的中斷，可能會對我們的業務產生重大不利影響。",
+    "與併購、資產處置及重整活動相關的風險",
+    "收購與整合新業務可能產生風險，並可能影響營運成果。",
+    "出售資產及出售資產後的或有負債可能對本公司業務與財務結果產生不利影響。",
+    "本公司可能無法實現新業務服務導入預期的效益，並可能因試圖執行這些計畫而導致本公司與員工出現營運與人力的中斷。",
+    "一般風險",
+    "稅法或其解釋的變更，或稅務爭議的不利解決，可能對本公司稅務費用產生不利影響。",
+    "信用評等機構不利的評等行動可能損害本公司業務、財務狀況、營運成果與現金流。",
+    "本公司無法保證將持續發放股息或回購股票。",
+    "本公司所持有證券的市場價值或流動性產生重大變動，可能對本公司營運成果與財務狀況產生不利影響。",
+    "{'translated_text': '本公司擁有大量債務及其他義務，可能限制本公司營運。'}"
+   ],
+   "paragraphs": [
+    "以下為本公司某些關鍵風險因素之總結。您應配合下方更詳細說明本公司相關風險之內容一併閱讀。",
+    "與本公司業務及產業相關之風險",
+    "• 我們服務之需求取決於多項因素，這些因素可能因全球經濟惡化而受到重大影響。",
+    "• 我們經營於高度競爭且快速變化的產業，並面臨來自多種服務供應商之競爭。",
+    "• 我們之業務依賴消費者信心及遷移模式，這些可能因多項因素而受到不利影響，許多因素為我們所無法控制。",
+    "• 我們之消費者金錢轉帳業務高度依賴我們維持代理網路之能力，且其條款需與現行條款一致或更具優勢。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

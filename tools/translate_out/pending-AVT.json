@@ -1,0 +1,217 @@
+{
+ "ticker": "AVT",
+ "cik": "0000008858",
+ "accession": "0001104659-26-096346",
+ "form": "10-K",
+ "reportDate": "2026-06-27",
+ "sections": {
+  "business": {
+   "headings": [
+    "Organizational Structure",
+    "Electronic Components",
+    "Major Products",
+    "Competition & Markets",
+    "Human Capital",
+    "Available Information",
+    "Avnet Website"
+   ],
+   "paragraphs": [
+    "Avnet, Inc. and its consolidated subsidiaries (collectively, the \"Company\" or \"Avnet\"), is a leading global electronic component technology distributor and solutions provider that has served customers' evolving needs for more than a century. Founded in 1921, the Company works with electronic component manufacturers (suppliers) in every major electronic component segment to serve customers in more than 140 countries.",
+    "Avnet serves a wide range of customers: from startups and mid-sized businesses to enterprise-level original equipment manufacturers (\"OEMs\"), electronic manufacturing services (\"EMS\") providers, and original design manufacturers (\"ODMs\").",
+    "Avnet has two primary operating groups — Electronic Components (\"EC\") and Farnell (\"Farnell\"). Both operating groups have operations in each of the three major economic regions of the world: (i) the Americas, (ii) Europe, Middle East, and Africa (\"EMEA\") and (iii) Asia/Pacific (\"Asia\"). Each operating group has its own management team, who manage various functions within each operating group. Each operating group also has distinct financial reporting to the executive level, which informs operating decisions, strategic planning, and resource allocation for the Company as a whole. Regional divisions (\"business units\") within each operating group serve primarily as sales and marketing units to streamline sales efforts and enhance each operating group's ability to work with its customers and suppliers, generally along more specific geographies or product lines. However, each business unit relies heavily on support services from the operating groups, as well as centralized support at the corporate level.",
+    "A description of each operating group is presented below. Further financial information by operating group is provided in Note 16 \"Segment information\" to the consolidated financial statements appearing in Item 8 of this Annual Report on Form 10-K.",
+    "Avnet's EC operating group primarily supports high and medium-volume customers. It markets, sells, and distributes electronic components from many of the world's leading electronic component manufacturers, including semiconductors, IP&E components (interconnect, passive and electromechanical components), and other integrated and embedded components.",
+    "EC serves a variety of markets ranging from industrial to automotive to defense and aerospace. It offers an array of customer support options throughout the entire product lifecycle, including both turnkey and customized design, supply chain, programming, logistics, and post-sales services.",
+    "Within the EC operating group for 2026, net sales of approximately 83% consist of semiconductor products, approximately 15% consist of interconnect, passive, and electromechanical components, and 2% consist of computers and others.",
+    "EC offers design support that provides engineers with a host of technical design solutions, which helps EC support a broad range of customers seeking to create complex products that incorporate electronic components. With access to a suite of design tools and engineering support, customers can get product specifications along with evaluation kits and",
+    "reference designs that enable a broad range of applications from any point in the design cycle. EC also offers engineering and technical resources deployed globally to support product design, bill of materials development, and technical education and training. By utilizing EC's design chain support, customers can optimize their electronic component selection and accelerate their time to market. EC's extensive electronic component offerings provide customers access to a diverse range of products from a complete spectrum of suppliers.",
+    "EC's supply chain solutions provide procurement support and warehousing and logistics services to OEMs, EMS providers, and electronic component manufacturers, enabling them to optimize supply chains on a local, regional, or global basis. EC's internal competencies in supply chain, global warehousing and logistics, information technology, and inventory and asset management, combined with its global footprint and extensive supplier relationships, allows EC to develop supply chain solutions that provide for a deeper level of engagement with its customers. These customers can manage their supply chains to meet the demands of a competitive global environment without a commensurate investment in physical assets, systems, and personnel. With supply chain planning tools and a variety of electronic component management solutions, EC provides various solutions that meet a customer's requirements and minimize supply chain risk in a variety of scenarios.",
+    "Avnet Embedded and Avnet Integrated Solutions",
+    "EC provides embedded solutions, including technical design and integration and assembly of embedded products, systems, and solutions for a variety of end markets, including industrial and healthcare. EC also provides embedded display solutions, including touch and passive displays. In addition, EC develops and produces standard board and industrial subsystems and application-specific devices that enable it to produce specialized systems tailored to specific customer requirements. EC serves OEMs that require embedded systems and solutions, including engineering, product prototyping, integration, and other value-added services in the medical, telecommunications, industrial, and digital editing markets.",
+    "EC also provides integrated solutions and services for software companies that bring their intellectual property to market via hardware solutions, including custom-built servers.",
+    "Avnet's Farnell operating group primarily supports lower-volume customers that need electronic components quickly to develop, prototype, and test their products. It distributes a comprehensive portfolio of kits, tools, electronic components, industrial automation components, and test and measurement products to both engineers and entrepreneurs, primarily through an e-commerce channel. Farnell also distributes new product introductions for its suppliers across their various product categories."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Forward-Looking Statements and Risk Factors",
+    "Changes in customer needs and consumption models",
+    "Disruptions to key supplier and customer relationships",
+    "Risks related to international operations",
+    "Internal information systems failures",
+    "Logistics disruptions",
+    "Data security and privacy threats",
+    "Financial Risks",
+    "Inventory value decline",
+    "Accounts receivable defaults",
+    "Liquidity and capital resources constraints",
+    "Financing covenants and restrictions may limit management discretion",
+    "Tax law changes and compliance",
+    "Constraints on internal controls",
+    "Acquisition expected benefits shortfall",
+    "Legal and Regulatory Risks",
+    "Legal proceedings costs and damages",
+    "Regulatory non-compliance",
+    "General Risk Factors",
+    "Negative impacts of economic or geopolitical uncertainty, or a health crisis, on operations and financial results",
+    "Employee retention and hiring constraints"
+   ],
+   "paragraphs": [
+    "This Report contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (\"Securities Act\"), and Section 21E of the Securities Exchange Act of 1934, as amended (the \"Exchange Act\") with respect to the financial condition, results of operations, and business of Avnet. These statements are generally identified by words like \"believes,\" \"plans,\" \"projects,\" \"expects,\" \"anticipates,\" \"should,\" \"will,\" \"may,\" \"estimates,\" or similar expressions. Forward-looking statements are subject to numerous assumptions, risks, and uncertainties, and actual results and other outcomes could differ materially from those expressed or implied in the forward-looking statements. Any forward-looking statement speaks only as of the date on which that statement is made. Except as required by law, the Company does not undertake any obligation to update any forward-looking statements to reflect events or circumstances that occur after the date on which the statement is made.",
+    "Risks and uncertainties that may cause actual results to differ materially from those contained in the forward-looking statements include the risk factors discussed below as well as risks and uncertainties not presently known to the Company or that management does not currently consider material. Such factors make the Company's operating results for future periods difficult to predict and, therefore, prior results do not necessarily indicate results in future periods. Some of the risks disclosed below may have already occurred, but not to a degree that management considers material unless otherwise noted. Any of the below factors, or any other factors discussed elsewhere in this Report, may have an adverse effect on the Company's financial condition, operating results, prospects, and liquidity. Similarly, the price of the Company's common stock is subject to volatility due to fluctuations in general market conditions; actual financial results that do not meet the Company's or the investment community's expectations; changes in the Company's or the investment community's expectations for the Company's future results, dividends, or share repurchases; and other factors, many of which are beyond the Company's control.",
+    "Changes in customer product demands and consumption models may cause a decline in the Company's billings, which would have a negative impact on the Company's financial results. Changes in technology (such as artificial intelligence) could reduce the types or quantity of services that customers require from the Company. While the Company attempts to identify changes in market conditions as soon as possible, the dynamics of the industries in which it operates make it difficult to predict and timely react to such changes, including those relating to product shortages or excess supply. Also, future downturns, inflation, or supply chain challenges, including in the semiconductor, embedded solutions, maintenance, and test and measurement industries, could adversely affect the Company's relationships with its customers, operating results, and profitability.",
+    "Specifically, the semiconductor industry experiences periodic fluctuations in product supply and demand (often associated with changes in economic conditions, technology, and manufacturing capacity) and suppliers may not adequately predict or meet customer demand. Geopolitical uncertainty (including from military conflicts, health-related crises, and international trade disputes) has led, and may continue to lead, to shortages, extended lead times, and unpredictability in the supply of certain semiconductors and other electronic components. In reaction, customers may over order to ensure sufficient inventory, which, when the shortage lessens, may result in order cancellations and decreases. In cases where customers have non-cancellable/ non-returnable orders, customers may not be able or willing to carry out the terms of the orders. The Company's prices to customers depend on many factors, including product availability, supplier costs, and competitive pressures. The Company may be unable to increase prices to customers to offset higher internal costs, which could reduce margins. During fiscal 2026, 2025, and 2024, sales of semiconductors represented approximately 79%, 78%, and 80% of the Company's consolidated sales, respectively, and the Company's sales closely follow the strength or weakness of the semiconductor industry. These conditions make it more difficult to manage the Company's business and predict future performance.",
+    "One of the Company's competitive strengths is the breadth and quality of the suppliers whose products the Company distributes. For fiscal 2026, one supplier accounted for over 10% of the Company's consolidated billings. The Company's contracts with its suppliers vary in duration and are generally terminable by either party at will and upon notice. The Company's suppliers may terminate or significantly reduce their volume of business with the Company because of a product shortage, an unwillingness to do business with the Company, changes in strategy, or otherwise.",
+    "Shortages of products or loss of a supplier may negatively affect the Company's business and relationships with its customers, as customers depend on the Company's timely delivery of technology hardware and software from the industry's leading suppliers. In addition, shifts in suppliers' strategies, or performance and delivery issues, may negatively affect the Company's financial results. These conditions make it more difficult to manage the Company's business and predict future performance. The competitive landscape has also experienced consolidation among suppliers and capacity constraints, which could negatively impact the Company's profitability and customer base."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Industry outlook",
+    "Results of Operations",
+    "Other Metrics",
+    "Analysis of Sales: By Operating Group and Geography",
+    "($ in millions)",
+    "Sales by Operating Group:",
+    "Sales by Geographic Region:",
+    "Gross Profit",
+    "Selling, General and Administrative Expenses",
+    "Restructuring, Integration and Other Expenses",
+    "Operating Income",
+    "Interest and Other Financing Expenses, Net and Other Expense, Net",
+    "Liquidity and Capital Resources",
+    "Financing Transactions",
+    "Covenants and Conditions",
+    "Payments due by period",
+    "Contractual Obligations",
+    "Critical Accounting Policies",
+    "Valuation of Inventories",
+    "Accounting for Income Taxes",
+    "Recently Issued Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "For a description of the Company's critical accounting policies and an understanding of Avnet and the significant factors that influenced the Company's performance during the past three fiscal years, the following discussion should be read in conjunction with the description of the business appearing in Item 1 of this Report and the consolidated financial statements, including the related notes and schedule, and other information appearing in Item 8 of this Report. Discussions of fiscal 2024 items and year-to-year comparisons between fiscal years 2025 and 2024 are not included in this Form 10-K and can be found in \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in Part II, Item 7 of the Company's Annual Report on Form 10-K for the fiscal year ended June 28, 2025. The Company operates on a \"52/53 week\" fiscal year. Fiscal years 2026, 2025 and 2024 each contained 52 weeks.",
+    "The discussion of the Company's results of operations includes references to the impact of foreign currency translation. When the U.S. Dollar strengthens and the stronger exchange rates are used to translate the results of operations of Avnet's subsidiaries denominated in foreign currencies, the result is a decrease in U.S. Dollars of reported results. Conversely, when the U.S. Dollar weakens, the weaker exchange rates result in an increase in U.S. Dollars of reported results. In the discussion that follows, results excluding this impact, primarily for subsidiaries in EMEA and Asia, are referred to as \"constant currency.\"",
+    "In addition to disclosing financial results that are determined in accordance with generally accepted accounting principles in the U.S. (\"GAAP\"), the Company also discloses certain non-GAAP financial information, including:",
+    "* \"Adjusted operating income,\" which is operating income excluding (i) restructuring, integration and other expenses, and (ii) amortization of acquired intangible assets.",
+    "The following table provides a reconciliation of operating income to adjusted operating income:",
+    "Years Ended ​ ​ ​ June 27, ​ ​ ​ June 28, ​ ​ ​ June 29, 2026 2025 2024 (Thousands) Operating income",
+    "724,782 514,254 844,367 Restructuring, integration, and other expenses 134,706 108,316 52,550",
+    "Amortization of acquired intangible assets 1,457 1,463 3,130 Adjusted operating income 860,945",
+    "Management believes that providing this additional information is useful to financial statement users to better assess and understand operating performance, especially when comparing results with prior periods or forecasting performance for future periods, primarily because management typically monitors the business with and without these adjustments to GAAP results. Management also uses these non-GAAP measures to establish operational goals and, in many cases, for measuring performance for compensation purposes. However, any analysis of results on a non-GAAP basis should be used in conjunction with results presented in accordance with GAAP.",
+    "The Company's operations subject it to tariffs and other trade protection measures. The U.S. administration has instituted certain changes, and may make additional changes, in trade policies that include the negotiation or termination of trade agreements, higher tariffs on imports into the U.S., and other measures affecting trade between the U.S. and other countries from which the Company imports. Due in part to these measures, some countries are changing their trade policies relating to goods imported from the U.S. These global trade disruptions and geopolitical tensions, together with",
+    "any related downturns in the global economy, could dampen customer demand, increase market volatility, and impact currency exchange rates, all of which could materially and adversely affect the Company's financial performance.",
+    "In February 2026, the U.S. Supreme Court issued a ruling striking down tariffs imposed under the International Emergency Economic Powers Act (IEEPA), including, among others, tariffs on imports of certain Canadian, Chinese, and Mexican goods, a universal baseline tariff on imports from most countries, and reciprocal tariffs on select countries. The global tariff landscape continues to shift rapidly, with changes impacting businesses and markets around the world.",
+    "The Company continues to monitor the situation, including any potential refunds of such tariffs, and evaluate the impact on its results of operations. No potential refunds have been recorded in the Consolidated Financial Statements as the Company cannot reasonably estimate the financial impact.",
+    "Sales related to customer billings for various tariffs were less than one percent of total sales for fiscal 2026, fiscal 2025 and fiscal 2024."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "組織架構",
+    "電子零組件",
+    "主要產品",
+    "競爭與市場",
+    "人力資本",
+    "可取得資訊",
+    "Avnet 網站"
+   ],
+   "paragraphs": [
+    "Avnet, Inc. 以及其合併子公司（合稱為 \"本公司\" 或 \"Avnet\"），為全球知名的電子零組件科技經銷商與解決方案供應商，已服務客戶不斷變化的需求超過一個世紀。成立於1921年，本公司與各主要電子零組件領域的電子零組件製造商（供應商）合作，服務超過140個國家的客戶。",
+    "Avnet 服務的客戶範圍廣泛：從新創公司與中型企業，到企業級原廠設備製造商（\"OEMs\"）、電子製造服務（\"EMS\"）供應商，以及原廠設計製造商（\"ODMs\"）。",
+    "Avnet 有兩個主要營運單位 — 電子零組件（\"EC\"）與 Farnell（\"Farn,ell\"）。每個營運單位在世界三大經濟區域均有業務：(i) 美洲，(ii) 歐洲、中東與非洲（\"EMEA\"），以及 (iii) 亞洲/太平洋（\"Asia\"）。每個營運單位均有自己的管理團隊，負責管理各營運單位內的各項功能。每個營運單位也進行獨立的財務報表，提供執行層級資訊，以協助營運決策、戰略規劃與資源配置。每個營運單位內的區域部門（\"業務單位\"）主要作為銷售與行銷單位，以簡化銷售作業並提升各營運單位與客戶及供應商合作的效率，通常根據更明確的地理區域或產品線進行。然而，每個業務單位高度依賴營運單位提供的支援服務，以及公司層級的集中支援。",
+    "以下將說明每個營運單位的內容。有關各營運單位的進一步財務資訊，請參閱本年度10-K表報第8項「財務報表」中附註16 \"分部資訊\"。",
+    "Avnet 的 EC 營運單位主要服務高與中等體積的客戶。它行銷、銷售與經銷來自許多全球知名電子零組件製造商的電子零組件，包括半導體、IP&E 零組件（連接器、被動元件與電機機械元件），以及其他整合與嵌入式元件。",
+    "EC 服務的市場範圍從工業到汽車，再到防禦與航空航太。它提供整個產品生命週期內的多種客戶支援選項，包括完整的解決方案與客製化設計、供應鏈、程式設計、物流與售後服務。",
+    "在2026年EC營運單位的淨銷售額中，約有83%為半導體產品，約15%為連接器、被動元件與電機機械元件，以及2%為電腦及其他產品。",
+    "EC 提供設計支援，協助工程師取得多種技術設計解決方案，以協助EC支援廣泛的客戶，這些客戶希望製造複雜的產品，並整合電子零組件。透過使用一整套設計工具與工程支援，客戶可以取得產品規格與評估套件與",
+    "參考設計可讓客戶從設計週期的任何階段進行廣泛應用。EC 也提供全球部署的工程與技術資源，以支援產品設計、物料清單開發以及技術教育與培訓。透過利用 EC 的設計週期支援，客戶可優化其電子零組件選擇，並加速其上市時程。EC 廣泛的電子零組件產品組合，使客戶能從完整的供應商範疇中取得多樣化的產品。",
+    "EC 的供應鏈解決方案提供採購支援與倉儲與物流服務給 ODM 廠商、電信服務商及電子零組件製造商，使他們能在本地、區域或全球層面優化其供應鏈。EC 在供應鏈、全球倉儲與物流、資訊科技以及存貨與資產管理方面的內部專業能力，結合其全球佈局與廣泛的供應商關係，使 EC 能夠發展出提供更深入客戶互動的供應鏈解決方案。這些客戶可管理其供應鏈以應對競爭激烈的全球環境，而無需相應的物理資產、系統與人力投資。透過供應鏈規劃工具與多種電子零組件管理解決方案，EC 提供多種解決方案以符合客戶需求，並在多種情境下降低供應鏈風險。",
+    "Avnet Embedded 與 Avnet Integrated Solutions",
+    "EC 提供嵌入式解決方案，包括技術設計與整合及組裝嵌入式產品、系統與解決方案，適用於多種終端市場，包括工業與醫療。EC 也提供嵌入式顯示解決方案，包括觸控與被動顯示。此外，EC 開發與製造標準板與工業子系統及應用特定裝置，使其能製造符合特定客戶需求的專用系統。EC 服務需要嵌入式系統與解決方案的 ODM 廠商，包括工程、產品原型設計、整合及其他增值服務在醫療、電信、工業與數位編輯市場。",
+    "EC 也為軟體公司提供整合解決方案與服務，這些公司透過硬體解決方案將其智慧財產權推向市場，包括客製化建置的伺服器。",
+    "Avnet 的 Farnell 操作部門主要支援低用量客戶，這些客戶需要快速取得電子零組件以進行產品開發、原型設計與測試。Farn,ell 分配一個完整的套件、工具、電子零組件、工業自動化元件及測試與量測產品給工程師與創業者，主要透過電子商務渠道。Farnell 也為其供應商在各個產品類別中分配新產品介紹。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "產業展望",
+    "營運成果",
+    "其他指標",
+    "銷售分析：依營運部門及地理區域",
+    "（單位：千萬美元）",
+    "依營運部門之銷售額：",
+    "依地理區域之銷售額：",
+    "毛利",
+    "銷售、一般及行政費用",
+    "重整、整合及其他費用",
+    "營運收入",
+    "利息及其他融資費用、淨及其他費用",
+    "流動性及資金來源",
+    "融資交易",
+    "契約及條件",
+    "按期間應支付之款項",
+    "契約義務",
+    "關鍵會計政策",
+    "存貨評價",
+    "所得稅會計處理",
+    "最近發佈的會計準則"
+   ],
+   "paragraphs": [
+    "為瞭解本公司的關鍵會計政策及對 Avnet 以及影響本公司過去三年財務表現的重大因素，請配合本報告第 1 項所述業務說明、合併財務報表（包括相關附註及明細表）及其他資訊，閱讀本段討論。有關財務年度 2024 年的項目說明及財務年度 2025 與 2024 年間的年對年比較資訊，未包含於本 Form 10-K 中，可於本公司於 2025 年 6 月 28 日結訖之財務年度所出具之 Form 10-K 年度報告，第 II 項第 7 項「管理層對財務狀況與營運成果之分析」中找到。本公司採用「52/53 週」財務年度。財務年度 2026、2025 及 2024 各為 52 週。",
+    "本公司營運成果之討論包含對外幣換算影響之參考。當美元升值時，使用較強之匯率換算 Avnet 子公司以外幣計價之營運成果，將導致以美元表示之報表結果減少。相反地，當美元貶值時，使用較弱之匯率將導致以美元表示之報表結果增加。在後續討論中，排除此影響之結果，主要為 EMEA 及亞洲之子公司，稱為「固定匯率」。",
+    "除揭露依美國通用會計準則（\"GAAP\"）所訂定之財務結果外，本公司亦揭露部分非 GAAP 財務資訊，包括：",
+    "* \"調整後營運獲利\"，即營運獲利扣除 (i) 重整、整合及其他費用，以及 (ii) 收購取得之智慧財產權之攤銷費用。",
+    "下述表格提供營運獲利與調整後營運獲利之對應關係：",
+    "{'Years Ended \\u200b \\u200b \\u200b June 27, \\u200b \\u200b \\u200b June 28, \\u200b \\u200b \\u200b June 29, 2026 2025 2024 (Thousands) Operating income': '會計年度結算日為 6 月 27 日、6 月 28 日、6 月 29 日，2026 年、2025 年、2024 年（單位為千美元）營業利益'}",
+    "724,782 514,254 844,367 重整、整合及其他費用 134,706 108,316 52,550",
+    "收購取得之智慧財產權之攤銷費用 1,457 1,463 3,130 調整後營運獲利 860,945",
+    "本公司認為提供此額外資訊對財務報表使用者評估與瞭解營運表現是有幫助的，尤其在與往期結果比較或預測未來表現時，主要是因為本公司通常會以這些調整後的GAAP結果來監控業務表現。本公司也使用這些非GAAP指標來設定營運目標，並在許多情況下用來衡量績效以作為薪酬計算的依據。然而，任何以非GAAP基礎分析結果的分析，應與根據GAAP呈報的結果結合使用。",
+    "本公司營運業務會受到關稅及其他貿易保護措施的影響。美國政府已實施某些變更，並可能做出更多變更，涉及貿易政策的變更，包括貿易協議的談判或終止、對進口至美國的商品提高關稅，以及其他影響美國與本公司進口國之間貿易的措施。部分原因在於這些措施，一些國家正在改變與進口自美國商品相關的貿易政策。這些全球貿易中斷與地緣政治緊張，加上",
+    "任何相關的總體經濟下滑，可能會降低客戶需求、增加市場波動性，並影響匯率，所有這些都可能對本公司財務表現造成重大且不利的影響。",
+    "2026年2月，美國最高法院作出裁決，廢除了根據國際緊急經濟權力法案（IEEPA）所課徵的關稅，包括進口自加拿大、中國與墨西哥商品的關稅，以及對進口自大多數國家商品的普遍基準關稅，以及對特定國家的反制關稅。全球關稅環境持續快速變動，變動影響全球各個企業與市場。",
+    "本公司持續監測此情況，包括任何可能的關稅退款，並評估此對營運結果的影響。由於本公司無法合理預估財務影響，因此尚未在合併財務報表中記錄任何潛在退款。",
+    "與各項關稅相關的客戶帳款銷售收入，在財務年度2026、財務年度2025及財務年度2024的總銷售額中均低於1%。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "展望性陳述與風險因素",
+    "客戶需求與消費模式的變化",
+    "關鍵供應商與客戶關係的中斷",
+    "國際業務相關風險",
+    "內部資訊系統故障",
+    "物流中斷",
+    "資料安全與隱私權威脅",
+    "財務風險",
+    "存貨價值下降",
+    "應收帳款違約",
+    "流動性及資金資源限制",
+    "融資契約及限制可能限制管理層裁量權",
+    "稅法變更及合規",
+    "內部控制限制",
+    "併購預期效益未達",
+    "法律及法規風險",
+    "法律程序費用及賠償金額",
+    "法規非合規",
+    "一般風險因素",
+    "經濟或地緣政治不確定性，或健康危機，對營運及財務結果的負面影響",
+    "員工留任及招募限制"
+   ],
+   "paragraphs": [
+    "本報告包含根據1933年證券法第27A條項（\"證券交易法\"）及1934年證券交易所法第21E條項（\"證券交易所法\"）所定義的前瞻性陳述，有關Avnet的財務狀況、營運結果及業務。這些陳述通常會使用如\"相信\"、\"計畫\"、\"預期\"、\"預估\"、\"可能\"、\"將\"、\"會\"、\"估計\"等詞彙來識別。前瞻性陳述受到許多假設、風險與不確定性影響，實際結果及其他結果可能與前瞻性陳述中所表達或暗示的結果有重大差異。任何前瞻性陳述僅適用於該陳述作出的日期。除非法律要求，本公司不承擔更新任何前瞻性陳述以反映該陳述作出後發生的事件或情況的義務。",
+    "可能導致實際結果與前瞻性陳述中所包含的結果有重大差異的風險與不確定性，包括下列討論的風險因素，以及本公司目前未知或管理層目前未視為重要的風險與不確定性。這些因素使本公司未來期間的營運結果難以預測，因此過去的結果未必能反映未來的結果。下列部分披露的風險可能已經發生，但除非另有說明，否則管理層認為不具重大影響。任何下列因素，或本報告其他部分討論的任何因素，都可能對本公司的財務狀況、營運結果、前景及流動性產生不利影響。同樣地，本公司普通股的價格會因一般市場條件的波動、實際財務結果未達本公司或投資界預期、本公司或投資界對本公司未來結果、股息或股票回購的預期變動，以及其他因素而波動，許多因素超出了本公司的控制範疇。",
+    "客戶產品需求與消費模式的變化可能導致本公司的營收減少，這將對本公司的財務結果產生負面影響。科技的變化（例如人工智慧）可能減少客戶對本公司服務的類型或數量。雖然本公司會盡快識別市場條件的變化，但其經營的產業動態使其難以預測並及時應對這些變化，包括與產品短缺或供過於求相關的變化。此外，未來的經濟衰退、通貨膨脹或供應鏈挑戰，包括半導體、嵌入式解決方案、維護及測試與測量產業，可能對本公司的客戶關係、營運結果及利潤率產生不利影響。",
+    "特別是，半導體產業會經歷產品供應與需求的週期性波動（通常與經濟條件、科技及製造能力的變化有關），供應商可能無法準確預測或滿足客戶需求。地緣政治不確定性（包括軍事衝突、健康危機及國際貿易爭議）已導致，且可能繼續導致某些半導體及其他電子零組件的供應短缺、交貨時間延長及供應的不可預測性。作為回應，客戶可能過度訂購以確保足夠的存貨，當短缺情況減輕時，可能導致訂單取消及銷售減少。在客戶有不可取消/不可退回訂單的情況下，客戶可能無法或不願履行訂單條款。本公司對客戶的價格取決於許多因素，包括產品可得性、供應商成本及競爭壓力。本公司可能無法提高對客戶的價格以彌補更高的內部成本，這可能會降低毛利率。在財務年度2026年、2025年及2024年，半導體銷售分別約佔本公司合併銷售額的79%、78%及80%，且本公司銷售密切跟隨半導體產業的強弱。這些情況使本公司更難以管理業務並預測未來表現。",
+    "本公司競爭優勢之一在於其分銷產品的供應商廣度與品質。在財務年度2026年，一家供應商佔本公司合併營收的10%以上。本公司與供應商的契約期限各不相同，通常雙方可隨時終止契約，並在通知後終止。本公司供應商可能因產品短缺、不願與本公司合作、策略變更或其他原因終止或大幅減少與本公司合作的業務量。",
+    "產品短缺或失去供應商可能對本公司業務及與客戶的關係產生負面影響，因為客戶依賴本公司及產業領先供應商的技術硬體與軟體及時交付。此外，供應商策略的變動，或其表現與交付問題，可能對本公司財務結果產生負面影響。這些情況使本公司更難以管理業務並預測未來表現。供應商的競爭環境也經歷了合併與容量限制，這可能會對本公司利潤率及客戶羣產生負面影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

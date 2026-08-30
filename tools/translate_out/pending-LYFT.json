@@ -1,0 +1,213 @@
+{
+ "ticker": "LYFT",
+ "cik": "0001759509",
+ "accession": "0001628280-26-006960",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Transportation Network",
+    "Our Technology Infrastructure and Operations",
+    "Our Proprietary Data-Driven Technology Platform",
+    "Our Intellectual Property",
+    "Our Brand and Marketing",
+    "Our Commitment to Safety",
+    "Government Regulation",
+    "Human Capital",
+    "Corporate Information",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Lyft, Inc. (the \"Company\" or \"Lyft\") operates as a global mobility platform offering a mix of rideshare, taxis, private hire vehicles, executive chauffeur services, car sharing, bikes and scooters. Our established, scaled network of users is brought together by our robust technology platform (the \"Lyft Platform\") that powers rides and connections every day. Our Lyft mobile application (\"Lyft App\") connect riders with drivers for on-demand ride services and supports a variety of other multimodal solutions.",
+    "Substantially all of our revenue is generated from our ridesharing marketplace that connects drivers and riders. We collect service fees and commissions from drivers for their use of our ridesharing marketplace. We also generate revenue from licensing and data access agreements, the sale of bikes and bike station software and hardware, advertising services, riders renting through our network of shared bikes and scooters, drivers renting vehicles through Express Drive and by making our ridesharing marketplace available to organizations through our Lyft Business offerings.",
+    "In 2025, we expanded our operations beyond North America and strengthened our global footprint. We entered nine new countries and more than 180 cities through our acquisition of Intelligent Apps GmbH (d/b/a Freenow) in July 2025, a leading European multimodal app with taxi offering at its core. In October 2025, we acquired TheBookingRoomGroup Limited (d/b/a TBR Global Chauffeuring, or \"TBR\"), a global luxury chauffeuring company that operates in thousands of cities worldwide. As a result of these acquisitions, as well as additional expansion of our business, we now operate in thousands of cities across six continents. For additional information, see Note 4 \"Acquisitions\" included in Part II, Item 8, \"Financial Statements and Supplementary Data,\" of this Annual Report on Form 10-K.",
+    "Our transportation network is primarily comprised of:",
+    "•Ridesharing Marketplace. Our core offering connects drivers with riders. The scale of our network enables us to predict demand and proactively incentivize drivers to be available for rides in the right place at the right time. This allows us to optimize earning opportunities for drivers and offer convenient rides for riders, creating sustainable value to both sides of our marketplace. Our ridesharing marketplace, inclusive of taxis, private hire vehicles, executive chauffeur services and car sharing, connects drivers with riders in cities across six continents in select cities. In addition to our standard rideshare offering, riders can select a variety of other offerings which include, but are not limited to, Wait & Save, Priority Pickup, XL, Extra Comfort, Black, Black SUV, and Green.",
+    "•Express Drive. Our car rental program for drivers, including those who want to drive using our platform but do not have access to a vehicle that meets our requirements. Through our Express Drive program, drivers can enter into rental agreements with our independently managed subsidiary, Flexdrive Services, LLC (\"Flexdrive\"), and our rental car partners for vehicles that may be used to provide ridesharing services on the Lyft Platform.",
+    "•Bikes and Scooters. We have a network of shared bikes and scooters in a number of cities to address the needs of users who are looking for options that are more active and often more cost-effective and efficient for shorter trips. These transportation modes can also help supplement the first-mile and last-mile of a multimodal trip with public transit.",
+    "The drivers on our platform are active members of their communities. They are parents, students, business owners, retirees and everything in between. We work hard to serve the community of drivers on our platform, empowering them to drive on their own flexible terms while providing them the opportunity to focus their time on what matters most. Drivers on our platform also generally have key benefits, which include:",
+    "•Flexibility. We offer drivers the flexibility to generate income on their own schedule, so they can best prioritize what is important in their lives.",
+    "•Technology. Our predictive technology around ride volume and demand enables us to share key information with drivers about when and where to drive to maximize their earnings on a real-time basis.",
+    "•Transparent and Consistent Pay. We've released multiple products over the years such as upfront pay where drivers can see ride information and what they'll earn before accepting a ride. We also remain committed to a differentiated, fair and transparent approach to driver earnings.",
+    "•Insurance. We procure insurance as required by transportation network company (\"TNC\") regulations to protect drivers against financial losses related to automobile accidents while on the platform.",
+    "•Community Standards. To help us uphold high community standards, we give both drivers and riders the opportunity to rate each other after a ride booked through the Lyft apps.",
+    "•Support. We offer drivers access to 24/7 support and earnings tools as well as education resources and other support to meet their personal goals."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factor Summary",
+    "Risks Related to Operational Factors",
+    "Our evolving business makes it difficult to evaluate our future prospects and the risks and challenges we may encounter.",
+    "Our financial performance in recent periods may not be indicative of future performance, and we may not be able to achieve or maintain profitability in the future.",
+    "We face intense competition and could lose market share to our competitors, which could adversely affect our business, financial condition and results of operations.",
+    "If our markets do not continue to grow, grow more slowly than we expect or fail to grow as large or otherwise develop as we expect, our business, financial condition and results of operations could be adversely affected.",
+    "If we fail to cost-effectively attract new riders, or to increase utilization of our platform by existing riders, our business, financial condition and results of operations could be harmed.",
+    "Our actual losses may exceed our insurance reserves, which could adversely affect our financial condition and results of operations.",
+    "Changes to our pricing could adversely affect our ability to attract or retain qualified drivers and riders.",
+    "Challenges relating to the supply chain for our network of shared bikes and scooters could adversely affect our business, financial condition and results of operations."
+   ],
+   "paragraphs": [
+    "Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information in this Annual Report on Form 10-K, including the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and our consolidated financial statements and related notes, before making a decision to invest in our Class A common stock. Our business, financial condition, results of operations or prospects could also be harmed by risks and uncertainties not currently known to us or that we currently do not believe are material. If any of the risks actually occur, our business, financial condition, results of operations and prospects could be adversely affected. In that event, the market price of our Class A common stock could decline, and you could lose part or all of your investment. For the purposes of this \"Item 1A. Risk Factors\" section, riders are passengers who request rides from drivers on our platform and renters of a shared bike or scooter.",
+    "Our business operations are subject to numerous risks, factors and uncertainties, including those outside of our control, that could cause our actual results to be harmed, including risks regarding the following:",
+    "•uncertainty regarding the growth of ridesharing and other markets and the unpredictability of our results of operations;",
+    "•our financial performance and any inability to maintain profitability in the future; •competition in our industries;",
+    "•our ability to attract and retain qualified drivers and riders;",
+    "•our insurance coverage, the adequacy of our insurance reserves, and the ability of third-party insurance providers to service our auto-related insurance claims;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Financial and Operational Results for the Year Ended December 31, 2025",
+    "Year Ended December 31,",
+    "2025 2024 % Change",
+    "GAAP Financial Measures",
+    "Key Metrics and Non-GAAP Financial Measures",
+    "Recent Developments",
+    "Definitions of Key Metrics",
+    "Active Riders",
+    "Gross Bookings and Adjusted EBITDA margin (calculated as a percentage of Gross Bookings)",
+    "Components of Results of Operations",
+    "Cost of Revenue",
+    "Operations and Support",
+    "Research and Development",
+    "Sales and Marketing",
+    "General and Administrative",
+    "Interest Expense",
+    "Other Income, Net",
+    "(Benefit from) Provision for Income Taxes",
+    "Results of Operations",
+    "Comparison of Years Ended December 31, 2025 and 2024",
+    "Year Ended December 31, % Change",
+    "Non-GAAP Financial Measures",
+    "Adjusted EBITDA and Adjusted EBITDA margin (calculated as a percentage of Gross Bookings)",
+    "Free Cash Flow",
+    "Reconciliation of Non-GAAP Financial Measures",
+    "Operating Activities",
+    "Investing Activities",
+    "Financing Activities",
+    "Liquidity and Capital Resources",
+    "Contractual Obligations and Commitments",
+    "Payments Due by Period",
+    "12 months or less Thereafter",
+    "Critical Accounting Policies and Estimates",
+    "Revenue Recognition",
+    "Insurance Reserves and Insurance-related Accruals",
+    "Business Combinations",
+    "Loss Contingencies",
+    "Income Taxes",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "On July 31, 2025, we completed the previously announced acquisition of Freenow, a European multimodal application with a taxi offering at its core. The acquisition marked Lyft's first expansion outside of North America, beyond bikes and scooters. The Company paid approximately €205.9 million ($236.8 million) in cash, inclusive of closing adjustments. Refer to Note 4 \"Acquisitions\" to the consolidated financial statements included in Part II, Item 8 of this Annual Report on Form 10-K for information regarding the acquisition.",
+    "On October 14, 2025, we completed the acquisition of TBR, a global premium ground transportation and chauffeur service company, for a total purchase price of approximately £86.4 million ($115.2 million), inclusive of an immaterial amount of contingent consideration. Refer to Note 4 \"Acquisitions\" to the consolidated financial statements included in Part II, Item 8 of this Annual Report on Form 10-K for information regarding the acquisition."
+   ],
+   "focus": "Recent Developments"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司運輸網路",
+    "本公司科技基礎建設及營運",
+    "本公司自有資料驅動技術平台",
+    "本公司智慧財產權",
+    "本公司品牌及行銷",
+    "本公司對安全的承諾",
+    "政府規範",
+    "人力資本",
+    "公司資訊",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "Lyft, Inc. (the \"Company\" or \"Lyft\") 營運為全球移動平台，提供計程車、計程車、專車、高階司機服務、車輛共享、自行車與滑板車等多元的交通服務。我們已建立且規模化的用戶網路，透過我們強大的科技平台 (the \"Lyft Platform\") 來支撐每日的搭乘與連線。我們的 Lyft 手機應用程式 (\"Lyft App\") 連接乘客與司機，提供即時搭乘服務，並支援多種其他多模式解決方案。",
+    "我們絕大部分的營業收入來自於我們的計程車分享市場，該市場連接司機與乘客。我們從司機使用我們的計程車分享市場中收取服務費用與佣金。我們也從授權與資料存取協議、自行車與自行車站軟體與硬體的銷售、廣告服務、乘客透過我們的共享自行車與滑板車網路租賃、司機透過 Express Drive 租車，以及透過 Lyft Business 提供服務給組織中產生收入。",
+    "在 2025 年，我們擴展了業務至北美洲以外的地區，並強化了全球足跡。我們透過 2025 年 7 月收購 Intelligent Apps GmbH (d/b/a Freenow)，一家以計程車服務為核心的領先歐洲多模式應用程式，在九個新國家與超過 180 個城市拓展業務。在 2025 年 10 月，我們收購 TheBookingRoomGroup Limited (d/b/a TBR Global Chauffeuring, 或 \"TBR\")，一家全球豪華司機服務公司，業務遍及全球數千個城市。由於這些收購，以及我們業務的進一步擴張，我們現在在六大洲的數千個城市運營。如需更多資訊，請參閱本年度報告 10-K 表單的第二部分，第 8 項 \"財務資料與補充資料\" 中的註 4 \"收購\"。",
+    "我們的運輸網路主要由以下組成：",
+    "•計程車分享市場。我們的核心服務連接司機與乘客。我們網路的規模使我們能夠預測需求，並主動激勵司機在正確的時間與地點待命，這讓我們能為司機優化收入機會，並為乘客提供便利的搭乘服務，為我們市場的雙方創造可持續的價值。我們的計程車分享市場，包括計程車、專車、高階司機服務與車輛共享，連接司機與乘客在六大洲的選定城市。除了我們標準的計程車服務外，乘客也可以選擇多種其他服務，包括但不限於 Wait & Save、Priority Pickup、XL、Extra Comfort、Black、Black SUV 與 Green。",
+    "•Express Drive。我們為司機提供的車輛租賃計畫，包括那些希望使用我們平台但沒有符合我們要求的車輛的司機。透過我們的 Express Drive 計畫，司機可以與我們獨立管理的子公司 Flexdrive Services, LLC (\"Flexdrive\") 以及我們的租車合作夥伴簽訂租賃協議，以取得可用於 Lyft 平台計程車服務的車輛。",
+    "•自行車與滑板車。我們在多個城市設有共享自行車與滑板車網路，以滿足那些尋求更活躍且通常更經濟、更高效的短途交通選擇的用戶需求。這些交通方式也可以補足多模式行程中與大眾運輸的首段與末段路程。",
+    "我們平台上的司機是他們社區的活躍成員。他們是父母、學生、企業主、退休人士，以及各種身份。我們努力服務我們平台上的司機社羣，讓他們能依照自己的靈活時間駕駛，同時提供他們專注於最重要的事的機會。平台上的司機通常也享有以下關鍵福利：",
+    "•靈活性。我們提供司機自行安排收入產生時間的彈性，使其能根據自身生活優先順序進行安排。",
+    "•科技。我們的預測科技可預測載客量與需求，使我們能與司機分享關鍵資訊，告知其在何時、何處駕駛以實時最大化其收入。",
+    "•透明且一致的薪資。我們多年來已推出多項產品，例如預付薪資，使司機可在接受載客前查看載客資訊與預期收入。我們也持續致力於以差異化、公平且透明的方式處理司機收入。",
+    "•保險。我們依運輸網路公司（\"TNC\"）規範取得保險，以保護司機免於平台使用期間汽車事故所導致的財務損失。",
+    "•社區標準。為協助我們維持高標準的社區規範，我們提供司機與乘客在透過Lyft應用程式預訂載客後，有機會互相評分。",
+    "•支援。我們為司機提供24小時全天候支援與收入工具，以及教育資源和其他支援，以協助其達成個人目標。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "財務與營運結果（截至2025年12月31日止之會計年度）",
+    "截至2025年12月31日止之會計年度",
+    "2025 2024 變動百分比",
+    "GAAP財務指標",
+    "關鍵指標與非GAAP財務指標",
+    "近期發展",
+    "關鍵指標之定義",
+    "現行附加險",
+    "毛利率（計算為毛利率之百分比）",
+    "營運成果之組成項目",
+    "營業收入成本",
+    "營運及支援",
+    "研究與發展",
+    "銷售及行銷",
+    "一般及行政",
+    "利息支出",
+    "其他收入，淨額",
+    "(受益於) 所得稅費用",
+    "營運成果",
+    "截至2025年12月31日與2024年12月31日年度之比較",
+    "截至2025年12月31日年度之年增減百分比",
+    "非GAAP財務指標",
+    "調整後營業利益與調整後營業利益率（計算方式為營業收入之百分比）",
+    "自由現金流",
+    "非GAAP財務指標之彙總",
+    "營運活動",
+    "投資活動",
+    "籌資活動",
+    "流動性及資本資源",
+    "契約義務及承諾",
+    "按期間應支付之金額",
+    "12個月或更短時間後",
+    "重要會計政策與會計估計",
+    "收入確認",
+    "保險備抵與保險相關應計",
+    "企業併購",
+    "損失備抵",
+    "所得稅",
+    "近期會計準則聲明"
+   ],
+   "paragraphs": [
+    "於 2025 年 7 月 31 日，本公司完成先前公告的收購 Freenow，一家以計程車服務為核心的歐洲多模式應用程式。此收購標誌著 Lyft 首次擴張至北美以外的地區，超越自行車與滑板車業務。本公司以約 €205.9 百萬（236.8 百萬美元）現金進行收購，包含交割後調整。有關此收購之資訊，請參閱本年度 10-K 報告第二部分，第 8 項「綜合財務報表」所附註 4「收購」。",
+    "於 2025 年 10 月 14 日，本公司完成收購 TBR，一家全球高階地面運輸及計程車服務公司，總購買價格約為 £86.4 百萬（115.2 百萬美元），包含一筆微不足道的或有對價。有關此收購之資訊，請參閱本年度 10-K 報告第二部分，第 8 項「綜合財務報表」所附註 4「收購」。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因子總結",
+    "與營運因素相關的風險",
+    "我們持續演進的業務使評估我們未來展望及可能遇到的風險與挑戰變得困難。",
+    "我們近期的財務表現可能無法反映未來的表現，且我們可能無法在未來達成或維持獲利。",
+    "我們面臨強烈的競爭，可能失去市場佔有率給競爭對手，這可能會對我們的業務、財務狀況及營運成果產生不利影響。",
+    "若我們的市場未能持續成長、成長速度低於我們預期，或未能成長至我們預期的規模或以其他方式發展，可能會對我們的業務、財務狀況及營運成果產生不利影響。",
+    "若我們無法以成本效益的方式吸引新騎士，或無法提高現有騎士對我們平台的使用率，可能會對我們的業務、財務狀況及營運成果造成損害。",
+    "我們實際的虧損可能高於我們的保險準備金，這可能會對我們的財務狀況及營運成果產生不利影響。",
+    "本公司價格變動可能不利於吸引或留住合格的司機與乘客。",
+    "與本公司共享腳踏車與滑板車網路供應鏈相關的挑戰，可能不利於本公司業務、財務狀況及營運成果。"
+   ],
+   "paragraphs": [
+    "投資本公司的A類普通股涉及高度風險。您應仔細考慮下列所描述的風險與不確定性，並配合本年度報告表10-K中所有其他資訊，包括標題為「管理層對財務狀況與營運成果之討論與分析」的章節，以及我們的合併財務報表與相關附註，再做是否投資本公司A類普通股的決定。本公司營運、財務狀況、營運成果或前景，也可能因目前未知或我們認為不具重大影響的風險與不確定性而受到損害。若任何風險實際發生，將可能對本公司營運、財務狀況、營運成果與前景造成不利影響。在此情況下，本公司A類普通股的市場價格可能下跌，您可能損失部分或全部投資。為此「項目1A. 風險因素」部分之目的，乘客是指透過平台向司機請求搭乘服務的乘客，以及共享單車或機械車的租賃者。",
+    "本公司營運業務面臨許多風險、因素與不確定性，包括我們無法控制的風險，這些都可能導致實際結果受到損害，包括與下列相關的風險：",
+    "•對計程車共享及其他市場成長的不確定性，以及我們營運成果的不可預測性；",
+    "•財務表現與未來維持獲利能力的問題；•我們產業中的競爭；",
+    "•我們吸引並留住合格司機與乘客的能力；",
+    "•我們的保險覆蓋範圍、保險準備金是否充足，以及第三方保險機構處理與我們相關的汽車保險聲請的能力；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

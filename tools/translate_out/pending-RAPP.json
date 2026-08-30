@@ -1,0 +1,207 @@
+{
+ "ticker": "RAPP",
+ "cik": "0002012593",
+ "accession": "0001193125-26-099360",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Pipeline",
+    "Introduction to RAP-219",
+    "Introduction to Our Discovery-Stage Nicotinic Acetylcholine Receptor Programs",
+    "Our Company's History and Our Team",
+    "Our Strategy",
+    "Our RAP Technology Platform",
+    "RAP-219, Our TARP8 Specific Product Candidate",
+    "Background to Focal Onset Seizures",
+    "Preclinical Studies Supportive of RAP-219",
+    "RAP-219 Phase 1 Trials in Healthy Adult Volunteers",
+    "Proof-of-Concept Approach for RAP-219 in Drug-Resistant Focal Onset Seizures",
+    "Results from Phase 2a proof-of-concept study of RAP-219 in Focal Onset Seizures",
+    "Key Efficacy Results",
+    "Outcome Measures for 8-Week Treatment Period",
+    "Key Safety and Tolerability Results",
+    "Trial Demographics and Baseline Characteristics",
+    "Planned Phase 3 Trial in Focal Onset Seizures",
+    "Opportunities to Expand the Potential for RAP-219 in Epilepsy - Primary Generalized Tonic-Clonic Seizures",
+    "Bipolar Disorder Background and TARPg8 as a Potential Treatment",
+    "Long-Acting Injectable Background and TARP8 as a Potential Treatment",
+    "Our nAChR Programs",
+    "Our 6β4 nAChR Program"
+   ],
+   "paragraphs": [
+    "We are a clinical-stage biotechnology company dedicated to the discovery and development of small molecule precision medicines for patients with neurological or psychiatric disorders. Our foundational science has elucidated the complexities of neuronal receptor biology and enables us to map and target certain neuronal receptor complexes. Neuronal receptors are complex assemblies of proteins, comprising receptor principal subunits and their receptor associated proteins (\"RAPs\"), the latter of which play crucial roles in regulating receptor expression and function. We believe that our deep expertise in RAP biology provides an opportunity for us to interrogate previously inaccessible targets and develop neurological and psychiatric drugs that are specific for receptor variants and neuroanatomical regions associated with certain diseases. Most neuroactive drugs lack this specificity, often resulting in undesired and intolerable side effects. Leveraging our expertise, we are developing a portfolio of precision product candidates that we believe has the potential to transform the standard of care of many neurological and psychiatric disorders.",
+    "Our founders have made pioneering discoveries related to the function of RAPs in the brain. Their findings form the basis of our RAP technology platform, which enables a differentiated approach to generate precision small molecule product candidates with the potential to overcome many limitations of conventional neurology drug discovery. RAP-219, our most advanced product candidate, is an AMPA receptor (\"AMPAR\") negative allosteric modulator (\"NAM\"). RAP-219 is designed to achieve neuroanatomical specificity through its selective targeting of a RAP known as TARP8, which is associated with the neuronal AMPARs. Whereas AMPARs are distributed widely in the central nervous system (\"CNS\"), TARP8 is expressed only in discrete regions, including the neocortex and mesial temporal lobe, where focal onset seizures (\"FOS\") often originate. By contrast, TARP8 has low expression in the hindbrain, where drug effects are often associated with adverse events. As such, we believe RAP-219 has the potential for a differentiated profile as compared to traditional neuroscience medications. Due to the role of AMPA biology in various neurological disorders and our precision approach of selectively targeting TARP8, we believe RAP-219 has pipeline-in-a-product potential and we are evaluating it as a potentially transformational treatment for patients with FOS, primary generalized tonic-clonic seizures (\"PGTCS\"), and bipolar mania.",
+    "Several Phase 1 trials in RAP-219 have been conducted in healthy adult volunteers, including a single ascending dose (\"SAD\") trial; a multiple ascending dose (\"MAD\") trial; a second MAD trial (\"MAD-2\"); and a positron emission tomography (\"PET\") trial, which utilized a companion PET radiotracer to confirm brain target receptor occupancy (\"RO\") and brain region specificity across a range of dosing and exposure levels.",
+    "In September 2025, we announced positive topline results from our Phase 2a proof-of-concept trial of RAP-219 in adult patients with drug-resistant FOS. The trial met its primary and secondary endpoints. The trial demonstrated a statistically significant reduction in long episodes—an objective electrographic biomarker for clinical seizure reduction—compared with baseline over the 8-week treatment period. In the trial, RAP-219 also demonstrated a statistically significant and clinically meaningful reduction in clinical seizures compared with baseline. RAP-219 was generally well tolerated. In December 2025, we presented post-hoc analysis from the Phase 2a proof-of-concept trial showing treatment with RAP-219 had consistent effects in the first and second four-week segments of the treatment period. This demonstrates that there was a rapid onset of efficacy, and a consistent reduction in long episodes, and a consistent, clinically meaningful reduction in clinical seizures throughout the 8-week treatment period. We expect to present 8-week follow-up results in the second quarter of 2026. In late 2025, we initiated an open-label long term safety trial to allow patients enrolled in our Phase 2a proof-of-concept FOS trial to resume taking RAP-219. Data from the open-label trial are expected in the second half of 2026. In December 2025, we received U.S. Food and Drug Administration (\"FDA\") feedback from an end-of-phase 2 meeting supporting advancement into two Phase 3 trials of RAP-219 in patients with drug-resistant FOS and expect to initiate the Phase 3 program in FOS in the second quarter of 2026.",
+    "We are also expanding our epilepsy portfolio into PGTCS, the most common type of generalized seizure and an important next step in addressing unmet need in patients with seizure disorders. With proof-of-concept established in FOS, we plan to initiate a Phase 3 trial in PGTCS in the first half of 2027.",
+    "We believe RAP-219 also has therapeutic potential in bipolar disorder. Our Phase 2 proof-of-concept trial in bipolar mania is currently enrolling patients, with topline results expected in the first half of 2027.",
+    "We also previously submitted an Investigational New Drug (\"IND\") application to the FDA for initiation of a Phase 2 proof-of-concept trial in RAP-219 for the treatment of diabetic peripheral neuropathic pain (\"DPNP\"), which was placed on clinical hold by the FDA in the fourth quarter of 2024. Following further interactions with the FDA, the FDA removed its clinical hold on the DPNP IND in December 2025. We are deferring further investment in the RAP-219 DPNP program at this time to prioritize",
+    "our a6ß4 program, which we believe has significant potential in chronic pain and migraine, as described below.",
+    "Additionally, we continue to develop a long-acting injectable (\"LAI\") formulation of RAP-219. We believe an LAI formulation has the potential to improve patient adherence and expand the potential clinical utility across all of the RAP-219 indications. We have initiated IND-enabling activities to support a Phase 1 clinical study in healthy volunteers, with initial pharmacokinetics (\"PK\") results expected in 2027.",
+    "We also have two advanced discovery-stage nicotinic acetylcholine receptor (\"nAChR\") programs stemming from our RAP technology platform. nAChRs have been clinically validated in patient-reported neuropathic pain and our first advanced discovery-stage nAChR program comprises agonists of the α6ß4 nAChR. α6ß4 nAChRs are selectively expressed in sensory neurons, and the α6 subunit has human genetic validation in chronic pain. We have initiated IND-enabling activities for our α6ß4 nAChR agonist development candidate, RAP-641, a genetically validated precision target that we are pursuing as a potential novel non-opiate, non-CNS approach for chronic pain and migraine. The second advanced discovery-stage nAChR program comprises modulators of the α9α10 nAChR. Third-party preclinical genetic data suggests that this nAChR could be an attractive target in treating hearing and vestibular disorders. We continue to leverage our RAP technology platform to discover additional product candidates that we believe have the potential to provide transformative benefits for large patient populations with neurological or psychiatric diseases.",
+    "Our current portfolio of programs from our RAP technology platform is summarized in the pipeline chart below:",
+    "RAP-219 is an investigational small molecule designed to inhibit TARP8-containing AMPARs with picomolar (\"pM\") affinity, which implies tight binding. Given RAP-219's mechanism of action, neuroanatomical specificity and target potency observed to date in preclinical and clinical studies, and positive topline results in a Phase 2 proof-of-concept study in patients with FOS, we believe it has the potential to be a differentiated therapy for FOS, PGTCS, and bipolar mania.",
+    "Epilepsy is estimated to affect 50 million people worldwide, including approximately 3.0 million adults in the United States (\"United States\" or \"U.S.\"). In 2022, the total branded market for epilepsy was approximately $2.8 billion, and this is expected to grow to approximately $3.6 billion by 2028. There are an estimated 1.8 million people in the United States who suffer from FOS, accounting for approximately 60 percent of patients with epilepsy. FOS are a form of epilepsy characterized by seizures caused by intermittent abnormal electrical activity. It is believed that the vast majority of focal seizures originate in the neocortex and mesial temporal lobe.",
+    "Epilepsy has profound negative impacts on a patient's quality of life, including limitations on social engagement, physical activity and independence. Recent studies have also found that epilepsy can result in cognitive impairment. The treatment goal for all patients with epilepsy, including FOS, is complete freedom from seizures. Despite there being more than 20 antiseizure medications (\"ASMs\") approved by the FDA, 30 to 40 percent of patients with epilepsy continue to experience recurring seizures"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Limited Operating History, Financial Condition and Need for Additional Capital",
+    "Raising additional capital may cause dilution to our stockholders, restrict our operations or require us to relinquish rights to our product candidates.",
+    "The obligations from our license agreement with Janssen may be a drain on our cash resources, or may cause us to incur debt obligations or equity dilution to satisfy the payment obligations.",
+    "Risks Related to Our Business",
+    "The successful development of pharmaceutical products involves a lengthy and expensive process and is highly uncertain."
+   ],
+   "paragraphs": [
+    "Our business involves significant risks. Stockholders should carefully consider the risks and uncertainties described below and the other information in this Annual Report on Form 10-K (this \"Annual Report\") and in the other documents that we file with the SEC. Our business, financial condition, results of operations, or prospects could be materially and adversely affected if any of these risks occur, and as a result, the market price of our common stock could decline and stockholders could lose all or part of their investment. This Annual Report also contains forward-looking statements that involve risks and uncertainties not presently known to us or that we currently deem to be immaterial. See \"Special Note Regarding Forward-Looking Statements\" on page 1 for more information. Our actual results could differ materially and adversely from those anticipated in these forward-looking statements as a result of certain important factors, including those set forth below.",
+    "We are a clinical-stage biotechnology company with a limited operating history, which may make it difficult to evaluate our current business and predict our future success and viability. We have incurred significant financial losses since our inception and anticipate that we will continue to incur significant financial losses for the foreseeable future.",
+    "We are a clinical-stage biotechnology company with a limited operating history. We were formed in February 2022 and our operations to date have been limited to organizing and staffing our company, business planning, raising capital, developing our RAP technology platform and technology, identifying potential product candidates, securing intellectual property rights, and planning and undertaking preclinical studies and clinical trials. Substantially all of our product candidates were initially developed by Janssen, which we in-licensed pursuant to the Janssen License, entered into shortly after our formation. We have not yet demonstrated an ability to generate revenues, obtain regulatory approvals, manufacture any product on a commercial scale or arrange for a third party to do so on our behalf or conduct sales and marketing activities necessary for successful product commercialization. Our limited operating history as a company makes any assessment of our future success and viability subject to significant uncertainty. We will encounter risks and difficulties frequently experienced by early-stage biotechnology companies in rapidly evolving fields, and we have not yet demonstrated an ability to successfully overcome such risks and difficulties. If we do not address these risks and difficulties successfully, our business will suffer.",
+    "The success of our business depends primarily upon our ability to identify, develop, and commercialize product candidates based on our RAP technology platform. We do not know whether we will be able to develop any product candidates that succeed through preclinical and clinical development or products of commercial value. We have no products approved for commercial sale and have not generated any revenue from product sales to date. We will continue to incur significant research and development and other expenses related to our preclinical and clinical development and ongoing operations. As a result, we are not profitable and have incurred losses in each period since our inception. Net losses and negative cash flows have had, and will continue to have, an adverse effect on our stockholders' equity and working capital. Our net losses totaled $111.5 million and $78.3 million for the years ended December 31, 2025 and 2024, respectively. As of December 31, 2025, we have not yet generated revenues and had an accumulated deficit of $235.2 million. We expect to continue to incur significant losses for the foreseeable future, and we expect these losses to increase as we continue our research and development of, and seek regulatory approvals for, our product candidates.",
+    "We anticipate that our expenses will increase substantially if, and as, we:",
+    "• advance our product candidates through clinical development, including as we advance RAP-219 into later-stage clinical trials;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "License and Collaboration Agreements",
+    "Components of Results of Operations",
+    "Operating Expenses",
+    "Other Income (Expense)",
+    "Income Taxes",
+    "Results of Operations",
+    "Comparison of the years ended December 31, 2025 and 2024",
+    "For the year",
+    "(in thousands)",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "For the twelve months ended",
+    "Future Funding Requirements",
+    "Contractual Obligations and Commitments",
+    "Critical Accounting Estimates",
+    "Research and Development Expenses and Accruals",
+    "Stock-Based Compensation"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations in conjunction with our consolidated financial statements and related notes and other financial information included elsewhere in this Annual Report on Form 10-K (this \"Annual Report\"). This discussion and analysis and other parts of this Annual Report contain forward-looking statements based upon our current plans and expectations that involve risks, uncertainties and assumptions, such as statements regarding our plans, strategies, objectives, expectations, intentions and beliefs. Our actual results and the timing of events could differ materially from those anticipated in these forward-looking statements as a result of various factors, including those set forth under \"Risk Factors\" and elsewhere in this Annual Report. You should carefully read the \"Risk Factors\" section of this Annual Report to gain an understanding of the important factors that could cause actual results to differ materially from our forward-looking statements. Please also see \"Special Note Regarding Forward-Looking Statements.\" Our historical results are not necessarily indicative of the results that may be expected for any period in the future.",
+    "We are a clinical-stage biotechnology company dedicated to the discovery and development of small molecule precision medicines for patients with neurological or psychiatric disorders. Our foundational science has elucidated complexities of neuronal receptor biology and enables us to map and target certain neuronal receptor complexes. Neuronal receptors are complex assemblies of proteins, comprising receptor principal subunits and their receptor associated proteins (\"RAPs\"), the latter of which play crucial roles in regulating receptor expression and function. We believe that our deep expertise in RAP biology provides an opportunity for us to interrogate previously inaccessible targets and develop neurological and psychiatric drugs that are specific for receptor variants and neuroanatomical regions associated with certain diseases. Most neuroactive drugs lack this specificity, often resulting in undesired and intolerable side effects. Leveraging our expertise, we are developing a portfolio of precision product candidates that we believe has the potential to transform the standard of care of many neurological and psychiatric disorders.",
+    "Our founders have made pioneering discoveries related to the function of RAPs in the brain. Their findings form the basis of our RAP technology platform, which enables a differentiated approach to generate precision small molecule product candidates with the potential to overcome many limitations of conventional neurology drug discovery. RAP-219, our most advanced product candidate, is an AMPA receptor (\"AMPAR\") negative allosteric modulator (\"NAM\"). RAP-219 is designed to achieve neuroanatomical specificity through its selective targeting of a RAP known as TARP8, which is associated with the neuronal AMPARs. Whereas AMPARs are distributed widely in the central nervous system (\"CNS\"), TARP8 is expressed only in discrete regions, including the neocortex and mesial temporal lobe, where focal onset seizures (\"FOS\") often originate. By contrast, TARP8 has minimal expression in the hindbrain, where drug effects are often associated with adverse events. As such, we believe RAP-219 has the potential for a differentiated profile as compared to traditional neuroscience medications. Due to the role of AMPA biology in various neurological disorders and our precision approach of selectively targeting TARP8, we believe RAP-219 has pipeline-in-a-product potential and we are evaluating it as a potentially transformational treatment for patients with FOS, primary generalized tonic-clonic seizures (\"PGTCS\"), and bipolar mania.",
+    "Several Phase 1 trials in RAP-219 have been conducted in healthy adult volunteers, including a single ascending dose (\"SAD\") trial; a multiple ascending dose (\"MAD\") trial; a second MAD trial (\"MAD-2\"), to assess alternative dosing regimens that may accelerate time to reach therapeutic exposure; a positron emission tomography (\"PET\") trial, which utilized a companion PET radiotracer to confirm brain target receptor occupancy (\"RO\") and brain region specificity across a range of dosing and exposure levels.",
+    "In September 2025, we announced positive topline results from our Phase 2a proof-of-concept trial of RAP-219 in adult patients with drug-resistant FOS. The trial met its primary and secondary endpoints. The trial demonstrated a statistically significant reduction in long episodes—an objective electrographic biomarker for clinical seizure reduction—compared with baseline over the 8-week treatment period. In the trial, RAP-219 also demonstrated a statistically significant and clinically meaningful reduction in clinical seizures compared with baseline. RAP-219 was generally well tolerated. In December 2025, we presented post-hoc analysis from the Phase 2a proof-of-concept trial showing treatment with RAP-219 had consistent effects in the first and second four-week segments of the treatment period. This demonstrates that there was a rapid onset of efficacy, and a consistent reduction in long episodes, and a consistent, clinically meaningful reduction in clinical seizures throughout the 8-week treatment period. We expect to present 8-week follow-up results in the second quarter of 2026. In late 2025, we initiated an open-label long term safety trial to allow patients enrolled in our Phase 2a proof-of-concept FOS trial to resume taking RAP-219. Data from the open-label trial are expected in the second half of 2026. In December 2025, we received U.S. Food and Drug Administration (\"FDA\") feedback from an end-of-phase 2 meeting supporting advancement into two Phase 3 trials of RAP-219 in patients with drug-resistant FOS and expect to initiate the Phase 3 program in FOS in the second quarter of 2026.",
+    "We are also expanding our epilepsy portfolio into PGTCS, the most common type of generalized seizure and an important next step in addressing unmet need in patients with seizure disorders. With proof-of-concept established in FOS, we plan to initiate a Phase 3 trial in PGTCS in the first half of 2027.",
+    "We believe RAP-219 also has therapeutic potential in bipolar disorder. Our Phase 2 proof-of-concept trial in bipolar mania is currently enrolling patients, with topline results expected in the first half of 2027.",
+    "Additionally, we continue to develop a long-acting injectable (\"LAI\") formulation of RAP-219. We believe an LAI formulation has the potential to improve patient adherence and expand the potential clinical utility across all of the RAP-219 indications. We have initiated IND-enabling activities to support a Phase 1 clinical study in healthy volunteers, with initial pharmacokinetics (\"PK\") results expected in 2027.",
+    "We also have two advanced discovery-stage nicotinic acetylcholine receptor (\"nAChR\") programs stemming from our RAP technology platform. nAChRs have been clinically validated in patient-reported neuropathic pain and our first advanced discovery-stage nAChR program comprises agonists of the α6ß4 nAChR. α6ß4 nAChRs are selectively expressed in sensory neurons, while the α6 subunit has human genetic validation in chronic pain. We have initiated IND-enabling activities for our α6ß4 nAChR agonist development candidate, RAP-641, a genetically validated precision target that we are pursuing as a potential novel non-opiate, non-CNS approach for chronic pain and migraine. The second advanced discovery-stage nAChR program comprises modulators of the α9α10 nAChR. Third-party preclinical genetic data suggest that this nAChR could be an attractive target in treating hearing and vestibular disorders. We continue to leverage our RAP technology platform to discover additional product candidates that we believe have the potential to provide transformative benefits for large patient populations with neurological or psychiatric diseases.",
+    "We have incurred significant operating losses in each year since our inception. Our ability to generate product revenue sufficient to achieve profitability will depend heavily on the successful development and eventual commercialization of any product candidates we may develop. Our net losses were $111.5 million and $78.3 million for the years ended December 31, 2025 and 2024, respectively. As of December 31, 2025, we had an accumulated deficit of $235.2 million. We expect our expenses and operating losses will increase substantially as we:",
+    "• continue to conduct our ongoing clinical trials of RAP-219, including advancement into late-stage global clinical trials, as well as initiate and complete additional clinical trials of future product candidates or current product candidates in new indications or patient populations;",
+    "• conduct our ongoing preclinical studies and ongoing and planned clinical trials;",
+    "• utilize third parties to manufacture our potential future product candidates and related raw materials;",
+    "• continue our early research and development activities;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "我們的產品線",
+    "RAP-219 簡介",
+    "我們處於發現階段的尼古丁乙醯膽鹼受體計畫簡介",
+    "本公司歷史與我們的團隊",
+    "我們的策略",
+    "RAP 技術平台",
+    "RAP-219，我們的 TARP8 特定產品候選藥物",
+    "焦慮性發作性癲癇背景",
+    "預臨牀研究支持RAP-219",
+    "RAP-219第一期試驗於健康成人志願者",
+    "RAP-219在抗藥性焦點發作性癲癇的證據概念方法",
+    "RAP-219在焦點發作性癲癇的第二期a證據概念研究結果",
+    "關鍵療效結果",
+    "8週治療期間的結果指標",
+    "關鍵安全性與耐受性結果",
+    "試驗人口統計與基線特徵",
+    " Planned Phase 3 Trial in Focal Onset Seizures ",
+    " Opportunities to Expand the Potential for RAP-219 in Epilepsy - Primary Generalized Tonic-Clonic Seizures ",
+    " Bipolar Disorder Background and TARPg8 as a Potential Treatment ",
+    " Long-Acting Injectable Background and TARP8 as a Potential Treatment ",
+    " Our nAChR Programs ",
+    " Our 6β4 nAChR Program "
+   ],
+   "paragraphs": [
+    "本公司為一臨牀階段生技公司，專注於為患有神經系統或精神科疾病的病患開發小分子精準藥物。我們的基礎科學已釐清神經元受體生物學的複雜性，並使我們能繪製及針對特定神經元受體複合體。神經元受體為由蛋白質組成的複雜組裝體，包含受體主要亞基及其受體相關蛋白（\"RAPs\"），後者在調控受體表現與功能上扮演關鍵角色。我們相信，我們在RAP生物學方面的深厚專業知識，提供我們機會探討先前難以接觸的目標，並開發針對特定受體變異體及與某些疾病相關神經解剖區域的神經系統與精神科藥物。大多數作用於神經系統的藥物缺乏這種專一性，往往導致不想要且難以忍受的副作用。透過我們的專業知識，我們正在開發一系列精準產品候選藥物，我們相信這些產品有潛力改變許多神經系統與精神科疾病的治療標準。",
+    "我們的創始人已做出與RAP在大腦功能相關的開創性發現。這些發現成為我們RAP技術平台的基礎，該平台使我們能以差異化的方式產生精準的小分子產品候選藥物，並有潛力克服傳統神經學藥物發現的許多限制。RAP-219為我們最進展的產品候選藥物，為一種AMPA受體（\"AMPAR\"）負向別構調節劑（\"NAM\"）。RAP-219設計為透過選擇性針對一種稱為TARP8的RAP，來實現神經解剖學專一性，該RAP與神經元AMPARs相關。雖然AMPARs在中樞神經系統（\"CNS\"）廣泛分佈，但TARP8僅在某些區域表達，包括新皮質與內側顳葉，而這些區域往往是局竈性發作（\"FOS\"）的起源地。相較之下，TARP8在後腦的表達量低，而藥物作用常與不良事件相關。因此，我們相信RAP-219有潛力與傳統神經科學藥物產生差異化的特性。由於AMPA生物學在多種神經系統疾病中的作用，以及我們選擇性針對TARP8的精準方法，我們相信RAP-219具有產品內含藥物開發潛力，並正在評估其作為FOS、原發性廣泛性強直-陣發性發作（\"PGTCS\"）及雙相躁狂症患者的潛在轉變性治療。",
+    "已在健康成人志願者中進行了多項RAP-219的第一期臨牀試驗，包括單次遞增劑量（\"SAD\"）試驗；多次遞增劑量（\"MAD\"）試驗；第二次MAD試驗（\"MAD-2\"）；以及正子發射斷層造影（\"PET\"）試驗，該試驗使用伴隨的PET放射性追蹤劑確認腦部目標受體佔有（\"RO\"）及在不同劑量與暴露水平下的腦部區域專一性。",
+    "2025年9月，我們宣佈RAP-219在成人藥物難治性FOS患者的第二期a階段概念驗證試驗中取得正面的初步結果。該試驗達成其主要與次要終點。試驗顯示，在8週治療期間，與基線相比，長發作（一種電生理生物標記，用以衡量臨牀癲癇減少）顯著減少。在試驗中，RAP-219也顯示與基線相比，臨牀癲癇顯著且臨牀意義重大的減少。RAP-219通常耐受性良好。2025年12月，我們展示來自第二期a階段概念驗證試驗的後見分析，顯示RAP-219的治療在治療期間的第一與第二個四週段落中均有持續效果。這顯示有快速的療效起始，且在8週治療期間長發作持續減少，並在臨牀上有持續且意義重大的臨牀癲癇減少。我們預計在2026年第二季展示8週追蹤結果。2025年底，我們啟動了一項開放標籤長期安全性試驗，讓參與我們第二期a階段概念驗證FOS試驗的患者重新服用RAP-219。開放標籤試驗的數據預計在2026年下半年公佈。2025年12月，我們收到美國食品藥物管理局（\"FDA\"）在第二期結束會議中的反饋，支持進展至RAP-219在藥物難治性FOS患者的兩項第三期試驗，並預計在2026年第二季啟動FOS的第三期計畫。",
+    "我們也在擴展我們的癲癇產品組合至PGTCS，這是廣泛性癲癇中最常見的類型，也是解決癲癇疾病患者未滿足需求的重要下一步。在FOS中建立概念驗證後，我們計畫在2027年上半年啟動PGTCS的第三期試驗。",
+    "我們相信RAP-219在雙相障礙治療上也有治療潛力。我們在雙相躁狂症的第二期概念驗證試驗目前正在招募患者，預計在2027年上半年公佈初步結果。",
+    "我們先前已向美國食品藥物管理局（\"FDA\"）提交了一項新藥研究申請（\"IND\"），以啟動RAP-219在治療糖尿病周圍神經痛（\"DPNP\"）的第二期概念驗證試驗，該試驗在2024年第四季被FDA暫停臨牀試驗。在與FDA進一步互動後，FDA於2025年12月移除了對DPNP IND的臨牀暫停。我們目前暫時延後對RAP-219 DPNP計畫的進一步投資，以優先",
+    "我們的a6ß4計畫，我們相信該計畫在慢性疼痛與偏頭痛方面有顯著潛力，如以下所述。",
+    "此外，我們持續開發一種長效注射劑型（\"LAI\"）的 RAP-219。我們認為 LAI 劑型有潛力改善患者的服藥順從性，並擴展 RAP-219 在所有適應症中的臨牀應用潛力。我們已啟動 IND 使能活動，以支持在健康志願者中進行第一期臨牀研究，預計 2027 年可取得初步藥動學（\"PK\"）結果。",
+    "我們也擁有兩個進階發現階段的煙鹼型乙醯膽鹼受體（\"nAChR\"）計畫，源自我們的 RAP 技術平台。nAChRs 在患者報告的神經病變性疼痛中已獲得臨牀驗證，我們的第一個進階發現階段 nAChR 計畫包含 α6ß4 nAChR 的激動劑。α6ß4 nAChRs 會選擇性地表達在感覺神經元中，且 α6 亞基在慢性疼痛中已獲得人類基因驗證。我們已啟動 IND 使能活動，針對我們的 α6ß4 nAChR 激動劑開發候選藥物 RAP-641，這是一個經過基因驗證的精準標的，我們正在追求作為一種潛在的新非阿片類、非 CNS 方式，用以治療慢性疼痛和偏頭痛。第二個進階發現階段的 nAChR 計畫包含 α9α10 nAChR 的調節劑。第三方預臨牀基因資料顯示，這種 nAChR 可能是治療聽力及前庭障礙的有吸引力標的。我們持續利用 RAP 技術平台發現其他產品候選藥物，我們認為這些產品有潛力為患有神經系統或精神疾病的大規模患者羣體帶來轉變性的效益。",
+    "我們目前來自 RAP 技術平台的計畫組合如下圖所示：",
+    "RAP-219 是一種正在研究的小分子藥物，設計用以抑制含 TARP8 的 AMPARs，具有皮摩爾（\"pM\"）親和力，這表示其結合力非常強。根據 RAP-219 的作用機制、神經解剖學特異性以及在預臨牀和臨牀研究中觀察到的標的強度，以及在 FOS 患者中進行的第二期概念驗證研究的初步結果為正，我們認為其有潛力成為 FOS、PGTCS 和雙極躁狂症的差異化治療方式。",
+    "癲癇據估計影響全球約 5000 萬人，包括美國（\"美國\"或\"U.S.\"）約 300 萬成年人。2022 年，癲癇的標籤藥物市場總額約為 28 億美元，預計到 2028 年將成長至約 36 億美元。美國約有 180 萬人患有 FOS，佔癲癇患者的約 60%。FOS 是一種癲癇類型，特徵為由間歇性異常電活動引起的癲癇。據信，大多數局竈性癲癇的起點在新皮質和內側顳葉。",
+    "癲癇對患者的品質生活有深遠的負面影響，包括對社交參與、身體活動和獨立性的限制。最近的研究也發現，癲癇可能導致認知功能障礙。所有癲癇患者的治療目標，包括 FOS，是完全免除癲癇發作。儘管美國食品藥物管理局（FDA）已批准超過 20 種抗癲癇藥物（\"ASMs\"），仍有 30 到 40% 的癲癇患者持續經歷反覆發作"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "授權與合作協議",
+    "營運成果之組成項目",
+    "營運費用",
+    "其他收入（費用）",
+    "所得稅",
+    "營運成果",
+    "截至2025年12月31日及2024年12月31日之年度比較",
+    "年度",
+    "(以千為單位)",
+    "流動性與資本資源",
+    "流動性來源",
+    "截至十二個月結止",
+    "未來資金需求",
+    "契約義務與承諾",
+    "關鍵會計估計",
+    "研究與發展費用及應計項目",
+    "{'original': 'Stock-Based Compensation', 'translated': '股票基於報酬'}"
+   ],
+   "paragraphs": [
+    "您應閱讀下列對我們財務狀況及營運成果之討論與分析，並配合我們合併財務報表及相關附註，以及其他財務資訊，這些資訊包含於本年度報告表 10-K（本「年度報告」）。本討論與分析以及本年度報告之其他部分包含前瞻性陳述，這些陳述基於我們目前的計畫與預期，涉及風險、不確定性與假設，例如關於我們計畫、策略、目標、預期、意圖與信念之陳述。我們實際結果與事件的時間點可能與這些前瞻性陳述所預期的有重大差異，原因包括那些於「風險因素」部分及本年度報告其他地方所列舉的因素。您應仔細閱讀本年度報告的「風險因素」部分，以瞭解可能導致實際結果與我們前瞻性陳述有重大差異的重要因素。請同時參閱「關於前瞻性陳述之特別說明」。我們的歷史結果並不一定代表未來任何期間的結果。",
+    "我們是一家臨牀階段的生物科技公司，專注於為患有神經系統或精神疾病患者開發小分子精準藥物。我們的基礎科學已釐清神經元受體生物學的複雜性，並使我們能夠繪製與針對特定神經元受體複合體。神經元受體是蛋白質的複雜組裝，包含受體主要亞基及其受體相關蛋白（\"RAPs\"），後者在調節受體表達與功能上扮演關鍵角色。我們相信，我們在RAP生物學方面的深厚專業知識，提供了我們探討先前難以接觸目標的機會，並開發針對特定受體變體與與某些疾病相關的神經解剖區域的神經系統與精神疾病藥物。大多數神經活化藥物缺乏這種專一性，往往導致不想要且無法忍受的副作用。透過我們的專業知識，我們正在開發一套精準產品候選藥物，我們相信這些產品有潛力改變許多神經系統與精神疾病的治療標準。",
+    "我們的創始人已做出與腦中RAP功能相關的開創性發現。這些發現形成了我們RAP技術平台的基礎，使我們能以差異化的方式產生精準的小分子產品候選藥物，這些藥物有潛力克服傳統神經學藥物發現的許多限制。RAP-219為我們最進展的產品候選藥物，是一種AMPA受體（\"AMPAR\"）負向別構調節劑（\"NAM\"）。RAP-219設計為透過選擇性針對一種稱為TARP8的RAP，來實現神經解剖學專一性，這種RAP與神經元AMPARs相關。雖然AMPARs在中樞神經系統（\"CNS\"）中廣泛分佈，但TARP8僅在特定區域表達，包括新皮質與內側顳葉，這些區域通常是焦點發作性癲癇（\"FOS\"）的來源。相較之下，TARP8在後腦的表達極為有限，而後腦通常是藥物效果與不良事件相關的區域。因此，我們相信RAP-219有潛力與傳統神經科學藥物有差異化的特性。由於AMPA生物學在多種神經系統疾病中的作用，以及我們選擇性針對TARP8的精準方法，我們相信RAP-219具有產品內的藥物開發潛力，並正在評估其作為治療FOS、原發性廣泛性強直-陣發性癲癇（\"PGTCS\"）及雙相躁狂症患者的潛在變革性治療。",
+    "已在健康成人志願者中進行了RAP-219的多項第一期試驗，包括單次遞增劑量（\"SAD\"）試驗；多次遞增劑量（\"MAD\"）試驗；第二個MAD試驗（\"MAD-2\"），以評估可能加速達到治療暴露的替代劑量方案；正子發射斷層掃描（\"PET\"）試驗，該試驗使用了一種伴隨的PET放射性追蹤劑，以確認腦部目標受體佔有（\"RO\"）及在不同劑量和暴露水平下的腦部區域專一性。",
+    "2025年9月，我們宣佈RAP-219在成人藥物難治性FOS患者的第二期a期概念驗證試驗中取得了正面的初步結果。該試驗達到了主要和次要終點。試驗顯示，在8週治療期間，與基線相比，長發作（一種電生理生物標記，用以衡量臨牀癲癇減少）顯著減少。在試驗中，RAP-219也顯示與基線相比，臨牀癲癇顯著且臨牀意義重大的減少。RAP-219通常耐受性良好。2025年12月，我們展示了來自第二期a期概念驗證試驗的後見分析，顯示RAP-219的治療在治療期間的第一和第二四週段中具有一致的效果。這顯示了療效的快速起效，以及長發作的持續減少，以及在8週治療期間臨牀癲癇的持續且臨牀意義重大的減少。我們預計在2026年第二季展示8週追蹤結果。2025年底，我們啟動了一項開放標籤長期安全性試驗，允許參與我們第二期a期概念驗證FOS試驗的患者重新服用RAP-219。開放標籤試驗的數據預計在2026年下半年公佈。2025年12月，我們收到了美國食品藥物管理局（\"FDA\"）在第二期結束會議中的反饋，支持進展至RAP-219在藥物難治性FOS患者的兩項第三期試驗，預計在2026年第二季啟動第三期試驗。",
+    "我們同時也在擴展我們的癲癇產品組合至PGTCS，這是廣泛性癲癇中最常見的類型，也是解決癲癇患者未滿足需求的重要下一步。在FOS中建立概念驗證後，我們計畫在2027年上半年啟動PGTCS的第三期試驗。",
+    "我們相信RAP-219在雙相障礙治療上也有治療潛力。我們在雙相躁狂症的第二期概念驗證試驗目前正在招募患者，預計在2027年上半年公佈初步結果。",
+    "此外，我們持續開發RAP-219的長效注射劑（\"LAI\"）製劑。我們相信長效注射劑有潛力改善患者服藥順從性，並擴展RAP-219在所有適應症中的臨牀應用潛力。我們已啟動IND啟動活動，以支持在健康志願者中的第一期臨牀研究，預計在2027年獲得初步藥代動力學（\"PK\"）結果。",
+    "我們亦有兩個進階發現階段的煙鹼型乙醯膽鹼受體（\"nAChR\"）計畫，源自我們的RAP技術平台。nAChRs已在病患報告的神經病變性疼痛中臨牀驗證，我們的第一個進階發現階段nAChR計畫包含α6ß4 nAChR的激動劑。α6ß4 nAChRs會選擇性地表達於感覺神經元，而α6亞基在慢性疼痛中具有人類遺傳學驗證。我們已啟動IND啟動活動，針對我們的α6ß4 nAChR激動劑開發候選藥物RAP-641，這是一個經過遺傳學驗證的精準目標，我們正在追求作為一種潛在的新非阿片類、非中樞神經系統的慢性疼痛和偏頭痛治療方式。第二個進階發現階段的nAChR計畫包含α9α10 nAChR的調節劑。第三方預臨牀遺傳學資料顯示，這種nAChR可能是治療聽力與前庭障礙的有吸引力的目標。我們持續利用RAP技術平台來發現其他產品候選藥物，我們認為這些產品有潛力為患有神經學或精神科疾病的大量病患提供變革性的效益。",
+    "自我們成立以來，我們每年均產生顯著的營運虧損。我們能否產生足夠的產品收入以實現盈利，將嚴重依賴我們成功開發並最終商業化任何產品候選藥物的成效。我們的淨虧損為2025年12月31日財年終結為111.5百萬美元，2024年12月31日財年終結為78.3百萬美元。截至2025年12月31日，我們累積虧損為235.2百萬美元。我們預期我們的費用及營運虧損將大幅增加，因為我們：",
+    "• 繼續進行RAP-219的臨牀試驗，包括進展至晚期全球臨牀試驗，以及啟動並完成未來產品候選藥物或現有產品候選藥物在新適應症或病患族羣的臨牀試驗；",
+    "• 進行我們持續的預臨牀研究及持續進行與計畫中的臨牀試驗；",
+    "• 利用第三方製造我們潛在未來產品候選藥物及相關原料；",
+    "• 繼續進行我們的早期研究與開發活動；"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司有限營運歷史、財務狀況及需額外資金相關之風險",
+    "籌措額外資金可能導致股東持股稀釋、限制本公司營運或要求本公司放棄對產品候選藥物之權利。",
+    "本公司與Janssen之授權協議所產生之義務，可能對本公司現金資源造成壓力，或可能導致本公司產生債務義務或股本稀釋以履行付款義務。",
+    "與本公司業務相關之風險",
+    "藥物產品之成功開發涉及漫長且昂貴的過程，且具有高度不確定性。"
+   ],
+   "paragraphs": [
+    "本公司業務涉及重大風險。股東應謹慎考量下列所描述的風險與不確定性，以及本年度報告表10-K（本「年度報告」）及其他我們向SEC提交之文件內容。若任何上述風險發生，將可能對本公司業務、財務狀況、營運結果或前景造成重大且不利的影響，進而導致本公司普通股之市場價格下跌，股東可能損失全部或部分投資。本年度報告亦包含涉及風險與不確定性之預測性陳述，這些風險與不確定性目前尚未為本公司所知，或本公司認為目前不重要。有關「預測性陳述之特別說明」請參閱第1頁。本公司實際結果可能與這些預測性陳述所預期者有重大且不利之差異，原因在於某些重要因素，包括下列所列者。",
+    "本公司為臨牀階段生物技術公司，營運歷史有限，這可能使評估本公司目前業務與預測未來成功與可持續性變得困難。自本公司成立以來，我們已產生重大財務虧損，並預期在可預見之未來，我們仍將持續產生重大財務虧損。",
+    "本公司為臨牀階段生物技術公司，營運歷史有限。本公司於2022年2月成立，截至目前為止，營運活動主要限於組織與僱用員工、業務規劃、籌資、發展RAP技術平台與技術、尋找潛在產品候選物、取得智慧財產權、以及規劃與進行臨牀前研究與臨牀試驗。我們產品候選物中， substantially all 係由Janssen最初開發，我們已透過Janssen License（於本公司成立後不久簽訂）取得授權。我們尚未展示出產生收入、取得監管批准、於商業規模製造任何產品或委請第三方代為製造，或進行銷售與行銷活動以實現產品商業化之能力。本公司作為一家營運歷史有限之公司，對本公司未來成功與可持續性之評估皆面臨重大不確定性。我們將經常面臨早期階段生物技術公司於快速變遷領域中常見之風險與困難，而我們尚未展示出成功克服這些風險與困難之能力。若我們未能成功處理這些風險與困難，本公司業務將受損。",
+    "本公司業務之成功主要取決於我們識別、開發與商業化基於RAP技術平台之產品候選物之能力。我們不確定是否能開發出任何產品候選物，使其通過臨牀前與臨牀開發，或製造出具商業價值之產品。本公司目前尚未有產品獲准商業銷售，亦未從產品銷售中產生任何收入。我們將持續產生與臨牀前與臨牀開發及持續營運相關之重大研究與開發及其他費用。因此，本公司尚未獲利，自成立以來每個期間皆產生虧損。淨虧損與負現金流已對股東權益與營運資金造成不利影響，並持續造成此等影響。本公司淨虧損於2025年12月31日止年度為111.5 百萬美元，2024年12月31日止年度為78.3 百萬美元。截至2025年12月31日，本公司尚未產生收入，累計虧損為235.2 百萬美元。我們預期在可預見之未來，持續產生重大虧損，且隨著我們持續進行產品候選物之研究與開發，並尋求監管批准，這些虧損將增加。",
+    "我們預期，若我們：",
+    "• 將產品候選物推進至臨牀開發階段，包括將RAP-219推進至後期臨牀試驗階段；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

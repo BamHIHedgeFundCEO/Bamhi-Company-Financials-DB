@@ -1,0 +1,132 @@
+{
+ "ticker": "AKTS",
+ "cik": "0002035832",
+ "accession": "0001193125-26-131748",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our proprietary miniprotein radioconjugate platform",
+    "Manufacturing and supply",
+    "Our pipeline",
+    "[225Ac]Ac-AKY-1189 targeting Nectin-4 expressing tumors",
+    "[225Ac]Ac-AKY-2519 targeting B7-H3 expressing tumors",
+    "Eli Lilly collaboration",
+    "Expanding the potential of radiopharmaceuticals",
+    "Anticancer activity of alpha-emitting radioconjugates in patients with tumors that did not respond to beta-emitting radioconjugates",
+    "Iterative process optimizing miniprotein discovery combines computational design, biological evolution and medicinal chemistry.",
+    "Enhancing our discovery efforts by utilizing AI",
+    "[225Ac]Ac-AKY-1189: Our lead product candidate targeting Nectin-4 expressing tumors",
+    "Nectin-4: a clinically validated oncology target",
+    "Elevated Nectin-4 mRNA expression expressed in multiple tumor types",
+    "Background on UC and other Nectin-4 expressing solid tumors",
+    "Our solution: [225Ac]Ac-AKY-1189",
+    "AKY-1189&#x2019;s rapid tumor uptake and kidney washout 22 hours after administration compared with previous miniproteins",
+    "In vivo preclinical studies",
+    "Nectin-4 expression in the modified HT-1376 cell line matched that observed in a representative biopsy from a metastatic UC patient that has high levels of Nectin-4 expression",
+    "AKY-1189 was localized and retained in tumors, while being rapidly washed out from the kidneys",
+    "Dosimetry scaling suggests that the radiation exposure to the kidney in humans will be well within the range generally considered to be acceptable in the field and below thresholds associated with kidney toxicity"
+   ],
+   "paragraphs": [
+    "We are a clinical-stage oncology company focused on expanding the breakthrough potential of targeted radiopharmaceuticals to large patient populations, including those not addressed by existing platform technologies. The field of targeted radiopharmaceuticals is currently led by two marketed products that illustrated transformative survival outcomes and quality of life benefits can be conferred by delivering radioisotopes to solid tumors. These leading products, which target prostate specific membrane antigen or somatostatin-2 receptor, are each currently approved in only one tumor type, yet have seen considerable commercial uptake and have become fundamental pillars of cancer treatment. Despite these advances, we believe that the field of radiopharmaceuticals is still in its infancy, with many emerging companies still primarily focused on these same two targets. In contrast, we see a significant opportunity to broaden the cancer patient populations benefiting from targeted radiopharmaceuticals by developing next-generation technologies that expand the scope of tumor targets for which it is possible to safely deliver a powerful payload of an alpha-emitting radioisotope. To ensure patient demand is reliably met, we are also establishing efficient end-to-end supply, with a combination of critical internal capabilities paired with established external vendors. Through these efforts, we seek to maximize clinical utility across multiple indications in multiple tumor types, and to expand the commercial uptake of radiopharmaceuticals beyond the traditional nuclear medicine setting and into the more expansive clinical oncology setting.",
+    "We have built a proprietary miniprotein radioconjugate platform that aims to safely confer breakthrough efficacy to a broad range of patient populations. Our miniprotein radioconjugates are designed to selectively deliver the tumor-killing properties of radioisotopes to targeted tumors with high tumor penetration and prolonged tumor retention, while being rapidly cleared from normal organs and tissues to minimize systemic radiation exposure. Our miniproteins have demonstrated the ability to potently bind to tumor targets outside the scope of current delivery technologies such as peptide-based radioconjugates. We are leveraging the capabilities of our platform technology, together with our expertise and know-how in radiopharmaceutical development, supply chain and manufacturing, to address these challenges with the aim of advancing a deep pipeline of programs against a broad range of tumor targets that have not been successfully targeted with radiopharmaceuticals.",
+    "Our platform capabilities have generated a pipeline of several novel product candidates. Our most advanced program is a radiopharmaceutical targeting Nectin-4. It is a miniprotein radioconjugate with multi-indication potential across multiple tumor types, in clinical development for the treatment of locally advanced or metastatic urothelial cancer, or UC, and multiple other Nectin-4 expressing solid tumor types. The learnings from the optimization of our Nectin-4 program, the first miniprotein radioconjugate ever advanced into human investigational studies, are being applied to benefit the development of our robust pipeline of several other unpartnered miniprotein radioconjugate programs, which are designed to address other clinically-validated targets.",
+    "Our lead product candidate, [225Ac]Ac-AKY-1189, contains a miniprotein, AKY-1189, that specifically binds to Nectin-4, and is conjugated via chelation to actinium-225, 225Ac. 225Ac, is an alpha-emitting radioisotope that when conjugated to a prostate specific membrane antigen, or PSMA, binding peptide has been shown to confer increased anticancer activity in the post-chemotherapy setting of metastatic castration-resistant prostate cancer compared to an identical PSMA binding peptide with beta-emitting Lutetium-177, or 177Lu. Nectin-4 is a surface protein found on a wide variety of tumors and has very limited expression in normal adult tissues. Nectin-4 is also the target of Padcev, an antibody-drug conjugate, or ADC, approved worldwide for the treatment of locally advanced or metastatic UC. Padcev has an annualized treatment cost of approximately $500,000 and had worldwide sales of $1.9 billion in 2024, with estimated peak sales of up to $7.0 billion.",
+    "Despite the commercial success of Padcev, its impact beyond UC has been limited likely due to the need to develop a companion diagnostic for tissue testing when utilizing an ADC. In contrast, we intend to use imaging radioisotopes conjugated to AKY-1189 to select patients most likely to benefit from therapeutic treatment with [225Ac]Ac-AKY-1189. We believe the commercial impact of Padcev validates Nectin-4 as an anticancer target in UC and that significant unmet medical need exists for our lead product candidate in post-Padcev UC. Additionally, we see potential to treat several non-UC Nectin-4-expressing tumor types such as breast cancers and lung cancers. We believe that the therapeutic potential of [225Ac]Ac-AKY-1189 across multiple tumor types is supported by our preclinical studies and data collected by a third-party physician in South Africa pursuant to Section 21 of the Medicines and Related Substances Act, or MRSA, which demonstrated the ability of radiolabeled AKY-1189 to specifically localize to Nectin-4 expressing tumors and rapidly clear from normal organs and tissues. In April 2025, the U.S. Food and Drug Administration, or the FDA, cleared our investigational new drug, or IND, application for [225Ac]Ac-AKY-1189 for the treatment of locally advanced or metastatic UC and other Nectin-4 expressing tumors. We have commenced a multi-site Phase 1b clinical trial in the United States and anticipate preliminary results from the Part-1 dose escalation portion of this trial in the first quarter of 2027.",
+    "To overcome the manufacturing challenges and supply chain reliability issues that have historically hindered the development and commercialization of radiopharmaceuticals, we are focused on investing in manufacturing and ensuring supply chain continuity and reliability. We have built significant internal capabilities, including subject matter expertise for our product manufacturing processes and a state-of-the-art radiopharmaceutical development suite. Additionally, we have partnered with multiple domestic and international isotope suppliers that provides us priority access to 225Ac, and with multiple contract manufacturers for the production of our drug product, which collectively are designed to create redundancies across all components of our supply chain. We are also establishing our own current good manufacturing practice, or cGMP, facility to enhance flexibility, increase control, and establish a hybrid internal and external clinical supply chain. We believe our team&#x2019;s expertise and experience in the development of radiopharmaceuticals will allow us to address the challenges presented by the half-life of radioactive isotopes and establish an efficient supply chain from production to patient administration.",
+    "We believe that radiopharmaceuticals represent one of the most promising modalities for the treatment of solid tumors. Approved radiopharmaceuticals have demonstrated the ability to overcome the challenges of conventional cancer treatments and provide patients with targeted therapies that have superior efficacy and better tolerability. We believe our approach is validated by, and builds upon, the clinical and commercial success of current radiopharmaceuticals and that our approach has the potential to further transform the cancer treatment paradigm for large patient populations.",
+    "&#x2022; Clinical validation of targeted radiopharmaceuticals. Approved beta-emitting radiopharmaceuticals, Pluvicto and Lutathera, have demonstrated statistically significant and clinically meaningful overall survival, progression-free survival and quality of life benefits in global registrational clinical trials. Early-stage clinical trials have also demonstrated that the use of alpha-emitting 225Ac radioconjugates can deliver more profound anticancer activity than beta-emitting 177Lu conjugates in similar patient populations, and in patients whose disease has progressed on prior beta-emitting targeted therapies. These promising early clinical data have led to the advancement of 225Ac-based radioconjugates to pivotal clinical trials, though none yet have filed for approval by the FDA.",
+    "&#x2022; Commercial validation of approved radiopharmaceuticals. Pluvicto achieved a first full year of sales of approximately $1 billion, with an annualized treatment cost of approximately $300,000, representing the strongest oncology commercial launch since Ibrance in 2015, which demonstrates the patient impact potential and rapid adoption of radiopharmaceuticals into clinical practice. The estimated global peak sales for Pluvicto are approximately $5.4 billion in prostate cancer alone. The global radiopharmaceuticals market is one of the fastest growing categories among anticancer medicines, and is projected to grow to over $26 billion in sales by 2032. The therapeutic segment of this market is estimated to achieve a total addressable market of $25 billion to $60 billion post-2030.",
+    "&#x2022; Strategic validation of radiopharmaceuticals. The commercial success of radiopharmaceuticals, paired with significant increases in investment in innovative approaches, has led to significant value creation through partnering and acquisitions. Aggregate transaction values over the last 10 years are approximately $33 billion. Several large multinational biopharmaceutical oncology leaders have also been significantly investing in radiopharmaceutical operations globally. We believe that the continued capital investment and expansion of operations and the advancement of supply chain capabilities represent recognition of the significant medical and commercial opportunity for radiopharmaceuticals.",
+    "We created our proprietary miniprotein radioconjugate platform to build on the successes of currently available radiopharmaceuticals and enable the discovery of next-generation precision radiopharmaceuticals. We are leveraging our platform to discover and develop radiopharmaceutical therapies that selectively deliver the tumor-killing properties of radioisotopes to targeted tumors with high tumor penetration and prolonged retention, with the goal of enhancing the safety and tolerability profile by rapidly clearing from normal organs and tissues to minimize systemic radiation exposure. Our miniprotein radioconjugates are designed for use with either imaging isotopes to select patients expressing the target, or therapeutic isotopes to treat tumors. The radioconjugates are formed by a chelation reaction to bind the isotopes to DOTA, which is covalently linked to the tumor-targeting miniprotein. This approach will enable clinicians to first visualize and verify target tumor engagement using an imaging radioisotope, thereby identifying the patients who are most likely to benefit from our therapy.",
+    "Our platform has enabled us to engineer potent, precision miniprotein-based radioconjugates that bind to the surface targets on tumor cells to localize radioisotope payloads. Miniproteins are polypeptides of less than one hundred amino acids that are amenable to biologic and medicinal chemistry optimization methods. We are prioritizing miniprotein binders of 40 to 70 amino acids in length, which are classified as biologics from a regulatory perspective providing a twelve-year exclusivity period for approved products. Miniproteins have differentiated and highly attractive properties as radioconjugates based on their antibody-like ability to potently and selectively bind to a highly diverse set of tumor targets, while having the pharmacologic profile of small peptides to enable high tumor penetration and rapid clearance from the body. We believe that miniproteins have many of the advantages of larger biologics like antibodies, as well as advantages of the smallest binders like peptides, without the limitations specific to either",
+    "class. In particular, based on our preclinical studies, we believe miniproteins have the following beneficial characteristics for use in radiopharmaceuticals:",
+    "&#x2022; Enhanced anticancer activity. Tumor killing is achieved through delivery of absorbed radiation dose, which is enhanced by high tumor penetration, high binding affinity for tumor targets, and prolonged retention of drug in the tumor."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks related to our limited operating history, financial condition and need for additional capital",
+    "We have incurred significant losses since our inception, have no products approved for sale, and we expect to incur losses for the foreseeable future.",
+    "Our limited operating history may make it difficult for you to evaluate our prospects and likelihood of success.",
+    "We have not generated any revenue to date and may never be profitable.",
+    "Raising additional capital may cause dilution to our stockholders restrict our operations or require us to relinquish rights to our technologies or product candidates.",
+    "Risks related to our business and development of our product candidates",
+    "Results of preclinical studies, dosimetry assessments, and early-stage clinical trials may not be predictive of the results of future preclinical studies or clinical trials."
+   ],
+   "paragraphs": [
+    "You should carefully consider the risks and uncertainties described below, as well as the other information in this Annual Report, including our consolidated financial statements and the related notes appearing elsewhere in this Annual Report and the sections of this Annual Report titled &#x201c;Special Note Regarding Forward-Looking Statements&#x201d; and &#x201c;Management&#x2019;s Discussion and Analysis of Financial Condition and Results of Operations&#x201d; before you make an investment decision in our common stock. The risks described below are not the only risks that we face. The occurrence of any of the following risks, or of additional risks and uncertainties not presently known to us or that we currently believe to be immaterial, could materially and adversely affect our business, financial condition, results of operations and prospects.",
+    "Development of radiopharmaceutical product candidates is a highly speculative undertaking and involves a substantial degree of risk. We are still in the early stages of development of our product candidates and our lead product candidate, [225Ac]Ac-AKY-1189, is being evaluated in a Phase 1b clinical trial for locally advanced or metastatic urothelial cancer, or UC, and other Nectin-4 expressing tumors. We have no products licensed for commercial sale and have not generated any revenues from product sales to date, and we continue to incur significant research and development and other expenses related to our ongoing operations. As such, we have incurred significant losses since inception, and have financed our operations principally through equity financings. We expect that it will be several years, if ever, before we have a commercialized product candidate and generate revenue from sales.",
+    "Our net losses for the years ended December 31, 2025 and 2024 were $63.7 million and $44.0 million, respectively. As of December 31, 2025, we had an accumulated deficit of $156.6 million. We anticipate that our expenses and operating losses will increase substantially as we:",
+    "&#x2022; advance our lead product candidate, [225Ac]Ac-AKY-1189 for Nectin-4 expressing tumors, through clinical trials;",
+    "&#x2022; advance our second product candidate, [225Ac]Ac-AKY-2519 for B7-H3 expressing tumors, into clinical trials;",
+    "&#x2022; continue to advance our miniprotein radioconjugate platform;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司自有之微型蛋白放射性標記平台",
+    "製造與供應鏈",
+    "本公司藥物研發管道",
+    "[225Ac]Ac-AKY-1189 靶向 Nectin-4 表達腫瘤",
+    "[225Ac]Ac-AKY-2519 靶向 B7-H3 表達腫瘤",
+    "與 Eli Lilly 合作",
+    "拓展放射性藥物之潛力",
+    "在對 beta 放射性標記物無反應之腫瘤患者中， alpha 放射性標記物之抗癌活性",
+    "迭代式流程優化微型蛋白質發現，結合計算設計、生物進化及藥物化學。",
+    "透過運用人工智能提升我們的發現工作",
+    "[225Ac]Ac-AKY-1189：我們的領先產品候選藥物，針對表達 Nectin-4 的腫瘤",
+    "Nectin-4：一個已臨牀驗證的癌症治療標的",
+    "Nectin-4 mRNA 表達量在多種腫瘤類型中顯著升高",
+    "關於 UC 及其他表達 Nectin-4 的實體腫瘤背景",
+    "我們的解決方案：[225Ac]Ac-AKY-1189",
+    "",
+    "體內預臨牀研究",
+    "修改後的 HT-1376 細胞株中 Nectin-4 表達情形與來自一位 Nectin-4 表達水平較高的轉移性 UC 患者代表性活檢組織觀察到的情形相符",
+    "AKY-1189 在腫瘤中會被定位並保留，但會迅速從腎臟中洗去",
+    "劑量比例推測顯示，人類腎臟所接受的輻射暴露將在該領域一般認為可接受的範圍內，且低於與腎臟毒性相關的門檻"
+   ],
+   "paragraphs": [
+    "本公司為一家臨牀階段的腫瘤學公司，專注於拓展標靶放射藥物的突破潛力，以服務更大規模的病患族羣，包括現有平台技術未涵蓋的族羣。目前標靶放射藥物領域由兩種市售產品領先，這些產品已展示出可大幅改善病患存活率與生活品質的潛力，透過將放射性同位素送達實體腫瘤。這些領先產品，分別針對前列腺特異性膜抗原或somatostatin-2受體，目前僅核准用於單一腫瘤類型，但已獲得相當的商業接受度，並成為癌症治療的基礎支柱。儘管有這些進展，本公司認為放射藥物領域仍處於初期階段，許多新興公司仍主要聚焦於這兩個目標。相較之下，本公司認為有機會透過開發下一代技術，擴展受益於標靶放射藥物的癌症病患族羣，以擴展可安全送達強力放射性同位素載荷的腫瘤目標範圍。為確保病患需求能可靠地被滿足，本公司也正在建立高效的端到端供應鏈，結合關鍵的內部能力與已建立的外部供應商。透過這些努力，本公司旨在最大化多種適應症與多種腫瘤類型的臨牀效益，並將放射藥物的商業接受度擴展至傳統核醫學設定之外，進入更廣泛的臨牀腫瘤學設定。",
+    "本公司已建立專屬的miniprotein放射藥物平台，旨在安全地提供廣泛病患族羣突破性的療效。本公司設計的miniprotein放射藥物可選擇性地將放射性同位素的腫瘤殺傷特性送達目標腫瘤，具有高腫瘤穿透力與延長的腫瘤保留時間，同時快速清除正常器官與組織，以減少全身放射暴露。本公司開發的miniprotein已展示出能強效結合現有遞送技術無法涵蓋的腫瘤目標。本公司正利用平台技術的能力，結合在放射藥物開發、供應鏈與製造方面的專業知識與技術，以解決這些挑戰，目標是推動針對廣泛腫瘤目標的深層產品管道，這些目標尚未成功被放射藥物針對。",
+    "本公司平台能力已產生數種新型產品候選藥物。本公司最進展的產品為針對Nectin-4的放射藥物。這是一種miniprotein放射藥物，具有多適應症潛力，適用於多種腫瘤類型，目前在臨牀開發中，用於治療局部晚期或轉移性尿路上皮癌，或UC，以及多種其他Nectin-4表現的實體腫瘤類型。從本公司Nectin-4產品的優化經驗，這是第一種miniprotein放射藥物被推進至人體臨牀研究，這些經驗正應用於本公司其他未與合作夥伴合作的miniprotein放射藥物產品管道的開發，這些產品設計用以針對其他已驗證的臨牀目標。",
+    "本公司領先的產品候選藥物[225Ac]Ac-AKY-1189，包含一種miniprotein AKY-1189，能特異性地結合Nectin-4，並透過螯合方式與actinium-225（225Ac）結合。225Ac是一種發射α粒子的放射性同位素，當與前列腺特異性膜抗原（PSMA）結合肽結合時，已被證明在化療後的轉移性去勢抵抗性前列腺癌患者中，其抗癌活性高於相同PSMA結合肽與發射β粒子的lutetium-177（177Lu）結合。Nectin-4是一種在多種腫瘤中廣泛存在的表面蛋白，在正常成人組織中表現極為有限。Nectin-4也是Padcev的目標，Padcev是一種抗體藥物偶聯物（ADC），已在全球核准用於治療局部晚期或轉移性UC。Padcev的年度治療費用約為500,000美元，2024年的全球銷售額為1.9十億美元，預估高峯銷售額可達7.0十億美元。",
+    "儘管Padcev商業成功，其對UC以外的影響有限，可能由於需要開發配套診斷工具以進行組織檢測。相較之下，本公司計畫使用與AKY-1189結合的影像放射性同位素，以選擇最可能受益於[225Ac]Ac-AKY-1189治療的病患。本公司認為Padcev的商業成功驗證了Nectin-4在UC中的抗癌目標，且在Padcev治療後的UC中存在顯著未滿足的醫療需求。此外，本公司認為有潛力治療多種非UC的Nectin-4表現腫瘤類型，如乳癌與肺癌。本公司相信[225Ac]Ac-AKY-1189在多種腫瘤類型中的治療潛力，已由我們的臨牀前研究以及南非一名第三方醫師根據《藥物及相關物質法》（MRSA）第21條所收集的數據支持，這些數據顯示放射標記的AKY-1189能特異性地定位至Nectin-4表現的腫瘤，並快速清除正常器官與組織。2025年4月，美國食品藥物管理局（FDA）核准了我們針對[225Ac]Ac-AKY-1189用於治療局部晚期或轉移性UC及其他Nectin-4表現腫瘤的臨牀新藥申請（IND）。我們已啟動美國多中心的Phase 1b臨牀試驗，預計在2027年第一季取得第一階段劑量遞增部分的初步結果。",
+    "",
+    "本公司認為放射藥物是治療實體腫瘤最具有潛力的治療方式之一。核准的放射藥物已展示出能克服傳統癌症治療的挑戰，並為病患提供具有更優越療效與更好耐受性的標靶治療。本公司認為我們的策略已由現有放射藥物的臨牀與商業成功所驗證，並在此基礎上進一步發展，有潛力為大規模病患族羣轉變癌症治療的模式。",
+    "",
+    "",
+    "",
+    "我們創建了專屬的 mini 蛋白質放射性藥物平台，以建構在現有放射性藥物成功基礎上，並啟動下一代精準放射性藥物的發現。我們正利用此平台來發現與開發放射性藥物療法，這些療法能選擇性地將放射性同位素的腫瘤殺傷特性傳遞至目標腫瘤，具有高腫瘤穿透力與延長的保留時間，目標為透過快速從正常器官與組織清除，來提升安全性與耐受性，以減少全身放射線暴露。我們的 mini 蛋白質放射性藥物設計用於搭配影像同位素以選擇表達目標的患者，或用於治療腫瘤的治療同位素。放射性藥物透過螯合反應與 DOTA 結合，而 DOTA 則共價連結至腫瘤標的 mini 蛋白質。此方法將使臨牀醫生能先使用影像放射性同位素來視覺化並確認目標腫瘤的參與，從而識別最可能受益於我們療法的患者。",
+    "我們的平台使我們得以工程設計出強效且精準的迷你蛋白基放射性藥物，這些藥物能與腫瘤細胞表面的目標結合，以定位放射性同位素載荷。迷你蛋白是一種少於一百個胺基酸的多肽，可以應用生物學和藥物化學優化方法。我們優先考慮長度為40至70個胺基酸的迷你蛋白結合物，從監管角度而言，這些結合物被歸類為生物製品，為核准產品提供十二年的獨佔期。迷你蛋白作為放射性藥物具有區別性且極具吸引力的特性，基於其類似抗體的能力，能強效且選擇性地與高度多樣化的腫瘤目標結合，同時具有小肽的藥理特性，以實現高腫瘤穿透力和快速從體內清除。我們認為迷你蛋白具有許多較大生物製品（如抗體）的優勢，以及最小結合物（如肽）的優勢，而不受其中任何一種的限制。",
+    "特別是，根據我們的預臨牀研究，我們認為迷你蛋白在放射性藥物中的應用具有以下有益特性：",
+    ""
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司有限經營歷史、財務狀況及需額外資金相關之風險",
+    "自本公司成立以來，我們已產生重大虧損，尚無產品獲准銷售，且預期在可預見之未來仍將產生虧損。",
+    "本公司有限之經營歷史可能使您難以評估本公司之前景及成功之可能性。",
+    "截至目前為止，本公司尚未產生任何收入，且可能永遠無法實現盈利。",
+    "籌措額外資金可能導致股東持股稀釋、限制本公司運作或要求本公司放棄對智慧財產權或產品候選藥物之權利。",
+    "與本公司業務及產品候選藥物發展相關之風險",
+    "前臨牀研究、劑量評估及早期臨牀試驗之結果，可能無法預測未來前臨牀研究或臨牀試驗之結果"
+   ],
+   "paragraphs": [
+    "",
+    "放射性藥物產品候選品的開發是一項高度投機性的活動，並涉及相當程度的風險。我們仍處於產品候選品的早期開發階段，我們的領先產品候選品 [225Ac]Ac-AKY-1189 正在進行 Phase 1b 臨牀試驗，用以評估其對局部晚期或轉移性尿路上皮癌（UC）或其他 Nectin-4 表達腫瘤的療效。我們目前尚未有產品取得商業銷售許可，也尚未從產品銷售中產生任何收入，且我們持續產生與持續運作相關的重大研究與開發及其他費用。因此，我們自成立以來已產生重大虧損，並主要透過 equity financings 財務支應運作。我們預期在數年後，甚至可能永遠無法取得商業化產品候選品並產生銷售收入。",
+    "我們在 2025 年 12 月 31 日及 2024 年 12 月 31 日的淨虧損分別為 63.7 百萬美元及 44.0 百萬美元。截至 2025 年 12 月 31 日，我們累計虧損為 156.6 百萬美元。我們預期隨著我們：",
+    "",
+    "",
+    ""
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,185 @@
+{
+ "ticker": "ANGO",
+ "cik": "0001275187",
+ "accession": "0001628280-26-048138",
+ "form": "10-K",
+ "reportDate": "2026-05-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "VenaCure EVLT laser system",
+    "United States FDA Regulation",
+    "Other U.S. Regulatory Bodies",
+    "International Regulation",
+    "United States",
+    "International",
+    "Executive Officers of the Company",
+    "Name Age Position"
+   ],
+   "paragraphs": [
+    "AngioDynamics is a dynamic, diversified medical technology company committed to expanding treatment options and improving patient outcomes and quality of life by designing, manufacturing and selling products and technologies which aid clinicians in the treatment of patients with cardiovascular disease and cancer diagnoses. Our execution strategy is built on innovative R&D, clinical and regulatory pathway expansion and customer centric sales performance.",
+    "AngioDynamics was founded in Queensbury, N.Y., U.S., in 1988 and began manufacturing and shipping product in the early 1990s. The Company is headquartered in Latham, N.Y., with manufacturing primarily out of the Queensbury facility. Initially dedicated to the research and development of products used in interventional radiology, the Company soon became well established as a producer of diagnostic catheters for non-coronary angiography and thrombolytic delivery systems.",
+    "The Company grew over the following years as a result of acquisitions of companies including RITA Medical Systems in January 2007, Oncobionic in May 2008, the assets of Diomed in June 2008, Vortex Medical, Inc. in October 2012, the assets of Microsulis Medical Limited in January 2013, and Clinical Devices in August 2013. These acquisitions added product lines including ablation and NanoKnife systems, vascular access products, angiographic products and accessories, dialysis products, drainage products, thrombolytic products, embolization products and venous products. In May 2012, the Company acquired Navilyst Medical's Fluid Management business, which the Company sold in May 2019 to Medline Industries, Inc. pursuant to an asset purchase agreement.",
+    "In August 2018, the Company acquired the BioSentry product line from Surgical Specialties, LLC, which the Company sold in June 2023 to Merit Medical Systems, Inc. pursuant to an asset purchase agreement. In September 2018, the Company acquired RadiaDyne, which included endorectal and vaginal balloons. On October 2, 2019, the Company acquired Eximo Medical, Ltd., a pre-commercial stage medical device company and its proprietary 355nm laser atherectomy technology (now called Auryon), which treats Peripheral Artery Disease. On December 17, 2019, the Company acquired the C3 Wave tip location asset from Medical Components Inc. On July 27, 2021, AngioDynamics acquired the Camaro Support Catheter asset from QX Medical, LLC.",
+    "On June 8, 2023, the Company completed the sale of the dialysis and BioSentry businesses to Merit Medical Systems, Inc. On February 15, 2024, the Company completed the sale of its PICC and Midline businesses, which included the C3 Wave tip location asset, to Spectrum Vascular. As of February 29, 2024, the Company discontinued the RadioFrequency Ablation and Syntrax product lines.",
+    "AngioDynamics is publicly traded on the NASDAQ stock exchange under the symbol ANGO. PRODUCTS",
+    "Our product offerings fall within two segments, Med Tech and Med Device. All products discussed below have been cleared for sale in the United States by the Food and Drug Administration. International regulatory clearances vary by product and jurisdiction.",
+    "The Auryon Atherectomy System represents one of our latest advancements in the treatment of peripheral arterial disease. The device is engineered to deliver an optimized wavelength and short pulse width to remove a wide range of lesion types while minimizing damage to the vessel wall endothelium. Incorporating integrated aspiration, the Auryon System enhances procedural safety by helping remove plaque from the vasculature. The device delivers safe, effective and versatile treatment across a broad spectrum of lesion types and anatomical locations including above and below the knee. Designed for flexibility, the device supports femoral, pedal or radial access allowing physicians to expand treatment options for their patients. The Auryon system delivers a safe, efficient and comprehensive treatment option on one single platform.",
+    "Our Thrombus Management portfolio includes the AlphaVac Mechanical Thrombectomy System, AngioVac venous drainage cannula and circuit, as well as catheter directed thrombolytic devices, including the Uni-Fuse system and the Uni-Fuse+ system. AngioDynamics offers a range of options when treating thrombus and removing fresh, soft thrombi or emboli.",
+    "Our AngioVac venous drainage system includes a Venous Drainage Cannula and Extracorporeal Circuit. The cannula is indicated for use as a venous drainage cannula and for removal of fresh, soft thrombi or emboli during extracorporeal bypass. The AngioVac circuit is indicated for use in procedures requiring extracorporeal circulatory support for periods of up to six hours. AngioVac devices are for use with other manufacturers' off-the-shelf pump, filter and reinfusion cannula, to facilitate venous drainage as part of an extracorporeal bypass procedure.",
+    "The AngioVac venous drainage cannula is a 22 French flat coil-reinforced cannula designed with a proprietary self-expanding nitinol reinforced funnel shaped distal tip. The funnel shaped tip enhances venous drainage flow when the distal tip is exposed by retracting the sheath, helps prevent clogging of the cannula with commonly encountered undesirable intravascular material, and facilitates embolic removal of such extraneous material.",
+    "The AlphaVac System is an emergent mechanical aspiration device that eliminates the need for perfusionist support. AlphaVac is offered in both a 22 French flat coil-reinforced cannula and an 18 French braided reinforced cannula each designed with a proprietary self-expanding nitinol reinforced funnel shaped distal tip. AlphaVac is indicated for the non-surgical removal of thrombi or emboli from vasculature as well as aspiration of contrast media and other fluids from the vasculature. The cannula is intended for use in the venous system. The handle is indicated as a vacuum source for the AlphaVac MMA system. The AlphaVac F18 system is indicated for the treatment of pulmonary embolism and allows for the utilization in the non-surgical removal of thrombi or emboli from the venous vasculature, reducing thrombus burden and improving right ventricular function in patients with PE.",
+    "Thrombolytic catheters are used to deliver thrombolytic agents, which are drugs that dissolve blood clots in hemodialysis access grafts, arteries, veins and surgical bypass grafts. AngioDynamics' Uni-Fuse infusion catheter features pressure response outlets, a proprietary slit technology that provides a consistent, even distribution of fluid volume along the entire length of the infusion pattern, designed to provide an advantage over standard side-hole catheters.",
+    "The NanoKnife IRE Ablation System is an alternative to traditional thermal ablation that received 510(k) clearance from the Food and Drug Administration for the surgical ablation of soft tissue. The system utilizes low energy direct current electrical pulses to permanently open pores in target cell membranes. These permanent pores or nano-scale defects in the cell membranes result in cell death. The treated tissue is then removed by the body's natural processes in a matter of weeks, mimicking natural cell death. Unlike other ablation technologies, the NanoKnife System does not achieve tissue ablation using thermal energy."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Our inability to continue to effectively develop, acquire and/or market new products and technologies could have a material adverse effect on our business, financial condition and/or results of operations.",
+    "If we do not maintain our reputation with interventional physicians, interventional and surgical oncologists, and critical care nurses, our growth will be limited and our business could be harmed.",
+    "We are dependent on single and limited source suppliers which subjects our business and results of operations to risks of supplier business interruptions.",
+    "We face currency and other risks associated with international sales.",
+    "Pending or future product liability claims brought against us, especially if our product liability insurance coverage is inadequate, could adversely impact our business, operations and financial results.",
+    "We may be exposed to risks associated with product line divestitures as we may never realize the expected benefits and could cause operational disruptions with personnel, systems and infrastructure changes.",
+    "International and national economic and industry conditions constantly change, and could materially and adversely affect our business, financial condition and results of operations.",
+    "Our business could be harmed if we cannot hire or retain qualified personnel or fail to successfully manage the transition to a new Chief Executive Officer.",
+    "If we are unable to manage our growth profitably, our business, financial results and stock price could suffer.",
+    "Inflationary pressure and unfavorable economic conditions could negatively affect our operations and business.",
+    "We may be limited in our ability to utilize, or may not be able to utilize, net operating loss carryforwards to reduce our future tax liability.",
+    "Artificial intelligence based platforms present new risks and challenges to our business.",
+    "Any disaster at our manufacturing facilities or those of our suppliers could disrupt our ability to manufacture our products for a substantial amount of time.",
+    "Global health cris"
+   ],
+   "paragraphs": [
+    "In addition to the other information contained in this Annual Report on Form 10-K and in our other filings with the Securities and Exchange Commission, the following risk factors should be considered carefully by investors in evaluating our business. Our financial and operating results are subject to a number of risks and uncertainties, including those set forth below, many of which are not within our control. Our business, financial condition, results of operations and/or liquidity could be materially and adversely affected by any of these risks or by additional risks not presently known to us or that we currently deem immaterial.",
+    "RISKS RELATED TO OUR BUSINESS AND INDUSTRY",
+    "We face intense competition in the medical device industry which continues to experience consolidation. We may be unable to compete effectively with respect to technological innovation and price which may have a material adverse effect on our revenues, financial condition, results of operations and/or liquidity.",
+    "The markets for our products are highly competitive and we expect competition to continue to intensify, in part due to the trend of increased consolidation, which may result in companies with greater scale and market power. The medical device industry is characterized by rapid technological change, frequent product introductions and evolving customer requirements. Our customers consider many factors when choosing products, including technology, features and benefits, quality, reliability, ease of use, clinical or economic outcomes, availability, price and customer service. We face competition globally from a wide range of companies, many of whom have substantially greater financial, marketing and other resources than us. We may not be able to compete effectively, and we may lose market share to our competitors.",
+    "Our competitors may succeed in adapting faster than us to changing customer needs or requirements, in developing and introducing technologies and products earlier, in obtaining patent protection (which could create barriers to market entry for us) or regulatory clearance earlier, or in commercializing new products or technologies more rapidly than us. Our competitors may also develop products and technologies that are superior to ours or that otherwise could render our products obsolete or noncompetitive. We may also face competition from providers of other medical therapies, such as pharmaceutical companies, that may offer non-surgical therapies for conditions that are currently, or in the future may be, treated using our products. If we are not able to compete effectively, our market share and revenue may decline.",
+    "In addition, the increasing purchasing power of health systems, group purchasing organizations (\"GPOs\") and integrated health delivery networks (\"IDNs\"), together with increased competition and declining reimbursement rates, has resulted increasingly with the Company competing on the basis of price. Due to the highly competitive nature of the GPO and IDN contracting processes, we may not be able to obtain market prices for our products or obtain or maintain contract positions with major GPOs and IDNs, which could adversely impact our profitability. Also, sales through a GPO or IDN can be significant to our business and our inability to retain contracts with our customers, or acquire additional contracts, could have a material adverse effect on our business, financial condition, results of operations and/or liquidity."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Company and Market",
+    "Strategic Initiatives to Drive Growth",
+    "◦Enrolled the first patients in both the AMBITION BTK and RECOVER-AV trials;",
+    "Critical Accounting Policies and Use of Estimates",
+    "Results of Operations for the years ended May 31, 2026 and 2025",
+    "Gross Margin",
+    "Operating Expenses and Other Income (Expense)",
+    "Income Tax Expense (Benefit)",
+    "Liquidity and Capital Resources",
+    "Results of Operations for the years ended May 31, 2025 and 2024",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "The following information should be read together with the audited consolidated financial statements and the notes thereto and other information included elsewhere in this annual report on Form 10-K. This discussion may contain forward-looking statements related to future events and our future financial performance that are based on current expectation and are subject to risks and uncertainties. Our actual results may differ materially from those anticipated in any forward-looking statements as a result of many factors, including those set forth in Part I, Item 1A, \"Risk Factors\" and \"Disclosure Regarding Forward-Looking Statements\" included in this Annual Report on Form 10-K.",
+    "AngioDynamics is a dynamic, diversified medical technology company committed to expanding treatment options and improving patient outcomes and quality of life by focusing on cardiovascular disease and cancer. Our execution strategy is built on innovative R&D, clinical and regulatory pathway expansion and customer centric sales performance. We design, manufacture and sell a wide range of medical, surgical and diagnostic devices used by professional healthcare providers for vascular access, for the treatment of peripheral vascular disease and for use in oncology and surgical settings. Our devices are generally used in minimally invasive, image-guided procedures. Many of our products are intended to be used once and then discarded, or they may be temporarily implanted for short- or long-term use.",
+    "Our business operations cross a variety of markets. Our financial performance is impacted by changing market dynamics, which have included an emergence of value-based purchasing by healthcare providers, consolidation of healthcare providers, the increased role of the consumer in health care decision-making and an aging population, among others. In addition, our growth is impacted by changes within our sector, such as the merging of competitors to gain scale and influence; changes in the regulatory environment for medical device; and fluctuations in the global economy.",
+    "Our sales and profitability growth also depends, in part, on the introduction of new and innovative products, together with ongoing enhancements to our existing products. Expansions of our product offerings are created through internal and external product development, technology licensing and strategic alliances. We recognize the importance of, and intend to continue to make investments in research and development activities and selective business development opportunities to provide growth opportunities.",
+    "We sell our products in the United States primarily through a direct sales force, and outside the U.S. mainly through distributor relationships. Our end users include interventional radiologists, interventional cardiologists, vascular surgeons, urologists, interventional and surgical oncologists and critical care nurses. We expect our businesses to grow in both sales and profitability by expanding geographically, penetrating new markets, introducing new products and increasing our presence internationally.",
+    "The current macroeconomic environment continues to impact our business and may continue to pose future risks. The Company's ability to manufacture products, the reliability of our supply chain, labor shortages, backlog, inflation (including the cost and availability of raw materials, direct labor and shipping) and tariffs have impacted our business, trends that may continue. Accordingly, management continues to evaluate the Company's liquidity position, communicate with and monitor the actions of our customers and suppliers, and review our near-term financial performance.",
+    "On January 5, 2024, the Company announced a restructuring to optimize its manufacturing efficiency, capabilities and footprint (the \"Plan\"). In the second quarter of fiscal year 2025, the Company announced a modification to the Plan to maintain a presence in Queensbury, NY for the manufacturing of select products, customer service, logistics, shipping, quality and regulatory operations. The restructuring activities associated with the modified Plan are expected to be completed in the first quarter of fiscal year 2027. The modified Plan is still expected to generate $15.0 million in annual cost savings starting in fiscal year 2027.",
+    "On July 16, 2024, the Board of Directors approved a share repurchase program (the \"Repurchase Program\") under which they authorized the Company the option to repurchase up to $15.0 million of its outstanding common stock. The timing and amount of any share repurchases under the authorization will be determined by management within certain parameters and based on market conditions and other considerations. There were no shares repurchased during the twelve months ended May 31, 2026. During fiscal year 2025, the Company repurchased 243,847 shares of common stock in the open market at an aggregate cost of $1.7 million under the Repurchase Program. As of May 31, 2026, $13.3 million remained available for repurchase under the Repurchase Program.",
+    "On December 24, 2024, the Company entered into an agreement to sell the manufacturing facilities in Queensbury, NY and Glens Falls, NY for a purchase price of $5.5 million and $1.2 million, respectively, and net proceeds of $5.2 million and $1.1 million, respectively. The Company simultaneously entered into lease agreements with future lease payments of $4.6 million over seven years for the Queensbury, NY facility and $0.4 million over three years for the Glens Falls, NY facility.",
+    "On May 28, 2025, the Company entered into a new Credit Agreement (the \"Credit Agreement\") with JPMorgan Chase Bank, N.A. The Credit Agreement has a two-year maturity and provides for a $25.0 million secured revolving credit facility (the \"Revolving Facility\"), which is subject to a borrowing base comprised of certain working capital assets of the Company. As of May 31, 2026, there is no outstanding balance on the Revolving Facility.",
+    "In evaluating the operating performance of our business, management focuses on revenue, gross margin, operating income, earnings per share and cash flow from operations. A summary of these key financial metrics for the year ended May 31, 2026 compared to the year ended May 31, 2025 follows:",
+    "Year ended May 31, 2026: •Revenue increased by 9.5% to $320.2 million •Med Tech and Med Device growth of 18.4% and 2.6%, respectively",
+    "•Gross margin increased by 70 bps to 54.6% •Net loss increased by $2.7 million to $36.7 million",
+    "•Loss per share increased by $0.05 to a loss of $0.88"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "VenaCure EVLT 激光系統",
+    "美國聯邦食品藥物管理局規範",
+    "其他美國監管機構",
+    "國際規範",
+    "美國",
+    "國際",
+    "本公司高階主管",
+    "姓名 年齡 職位"
+   ],
+   "paragraphs": [
+    "AngioDynamics 是一家動態且多元化之醫療科技公司，致力於拓展治療選擇並改善病患治療結果與生活品質，透過設計、製造與銷售用以協助臨牀醫護人員治療心血管疾病及癌症病患之產品與技術。本公司之執行策略建立於創新之研發、臨牀與法規途徑拓展以及以客戶為中心之銷售表現。",
+    "AngioDynamics 於 1988 年在美國紐約州 Queensbury 成立，並於 1990 年代初期開始製造與發貨產品。本公司總部設於紐約州 Latham，製造業務主要來自 Queensbury 工廠。初期專注於介入放射學產品之研究與開發，隨後迅速成為診斷導管之知名生產商，用於非冠狀動脈造影與溶血栓治療系統。",
+    "本公司在隨後幾年間因收購多家公司而持續成長，包括 2007 年 1 月收購 RITA Medical Systems、2008 年 5 月收購 Oncobionic、2008 年 6 月收購 Diomed 之資產、2012 年 10 月收購 Vortex Medical, Inc.、2013 年 1 月收購 Microsulis Medical Limited 之資產、以及 2013 年 8 月收購 Clinical Devices。這些收購增加了包括消融與 NanoKnife 系統、血管通路產品、造影產品與配件、透析產品、引流產品、溶血栓產品、栓塞產品與靜脈產品等產品線。2012 年 5 月，本公司收購 Navilyst Medical 之 Fluid Management 商業，並於 2019 年 5 月根據資產買賣協議出售給 Medline Industries, Inc。",
+    "2018 年 8 月，本公司收購 Surgical Specialties, LLC 之 BioSentry 產品線，並於 2023 年 6 月根據資產買賣協議出售給 Merit Medical Systems, Inc。2018 年 9 月，本公司收購 RadiaDyne，包含內臟及陰道氣球。2019 年 10 月 2 日，本公司收購 Eximo Medical, Ltd.，一家處於預商業階段之醫療器材公司及其專屬 355nm 激光旋切技術（現稱為 Auryon），用以治療週邊動脈疾病。2019 年 12 月 17 日，本公司收購 Medical Components Inc. 之 C3 Wave 尖端定位資產。2021 年 7 月 27 日，AngioDynamics 收購 QX Medical, LLC 之 Camaro 支持導管資產。",
+    "2023 年 6 月 8 日，本公司完成將透析與 BioSentry 事業出售給 Merit Medical Systems, Inc。2024 年 2 月 15 日，本公司完成將 PICC 與 Midline 事業（包含 C3 Wave 尖端定位資產）出售給 Spectrum Vascular。截至 2024 年 2 月 29 日，本公司已終止 RadioFrequency 消融與 Syntrax 產品線。",
+    "AngioDynamics 在 NASDAQ 股票交易所上市，股票代碼為 ANGO。產品",
+    "本公司產品組合分為兩大應報告分部，為 Med Tech 與 Med Device。下列所討論之所有產品均已獲得美國食品藥物管理局核准銷售。國際法規核准則因產品與管轄區域而異。",
+    "Auryon 旋切系統為本公司在治療週邊動脈疾病方面最新之進展。該裝置設計用以提供最佳化波長與短脈衝寬度，以去除廣泛之病變類型同時降低對血管壁內皮之損傷。結合整合式抽吸功能，Auryon 系統提升手術安全性，協助移除血管內之斑塊。該裝置提供安全、有效且靈活之治療選擇，適用於廣泛之病變類型與解剖位置，包括膝上與膝下部位。設計具備靈活性，該裝置支援股動脈、足部或徑動脈通路，使醫師能為病患拓展更多治療選擇。Auryon 系統提供安全、高效且全面之治療選擇，整合於單一平台。",
+    "本公司之血栓管理產品組合包含 AlphaVac 零組件血栓切除系統、AngioVac 靜脈引流導管及循環系統，以及導管導向血栓溶解裝置，包括 Uni-Fuse 系統及 Uni-Fuse+ 系統。AngioDynamics 在治療血栓及移除新鮮、軟質血栓或栓塞物時，提供多種選擇。",
+    "本公司之 AngioVac 靜脈引流系統包含靜脈引流導管及體外循環系統。導管用於靜脈引流導管，並用於在體外循環中移除新鮮、軟質血栓或栓塞物。AngioVac 循環系統用於需要體外循環支持的程序，持續時間最多六小時。AngioVac 裝置用於與其他製造商的標準泵、過濾器及再輸注導管搭配使用，以協助靜脈引流作為體外循環程序的一部分。",
+    "AngioVac 靜脈引流導管為 22 法國平coil加強導管，設計有專利的自擴張 nitinol 加強 funnel 形狀的遠端端點。funnel 形狀的端點在遠端端點暴露時可提高靜脈引流流量，有助於防止導管被常見的不希望出現的血管內材料堵塞，並有助於移除這些外來材料。",
+    "AlphaVac 系統為一種緊急機械吸引裝置，可消除對灌注師支援的需求。AlphaVac 提供 22 法國平coil加強導管及 18 法國編織加強導管兩種選擇，每種導管皆設計有專利的自擴張 nitinol 加強 funnel 形狀的遠端端點。AlphaVac 用於非手術移除血管中的血栓或栓塞物，以及吸引造影劑及其他液體。導管用於靜脈系統。手柄用作 AlphaVac MMA 系統的真空來源。AlphaVac F18 系統用於治療肺栓塞，並允許非手術移除靜脈血管中的血栓或栓塞物，減少血栓負擔並改善肺栓塞患者右心室功能。",
+    "血栓溶解導管用於輸送血栓溶解藥劑，這些藥劑為可溶解血液凝塊的藥物，用於血液透析通路移植物、動脈、靜脈及手術繞道移植物。AngioDynamics 的 Uni-Fuse 注入導管具壓力反應出口，專利的縫隙技術可沿注入模式的整個長度提供一致且均勻的液體體積分佈，設計上可提供優於標準側孔導管的優勢。",
+    "NanoKnife IRE 消融系統為傳統熱能消融的替代方案，已獲得美國食品藥物管理局（Food and Drug Administration）的 510(k) 許可，用於手術消融軟組織。該系統利用低能量直流電脈衝，永久打開目標細胞膜的孔洞。這些永久孔洞或細胞膜上的納米尺度缺陷會導致細胞死亡。治療後的組織會經由身體的自然過程在數週內被移除，模擬自然細胞死亡。與其他消融技術不同，NanoKnife 系統不使用熱能來實現組織消融。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "公司與市場",
+    "推動成長的戰略方案",
+    "◦在AMBITION BTK與RECOVER-AV試驗中入組首批病患;",
+    "關鍵會計政策與會計估計之使用",
+    "截至2026年5月31日及2025年5月31日之營運成果",
+    "毛利率",
+    "營運費用及其他收入（費用）",
+    "所得稅費用（利益）",
+    "{'original': 'Liquidity and Capital Resources', 'translated': '流動性及資本運用'}",
+    "{'original': 'Results of Operations for the years ended May 31, 2025 and 2024', 'translated': '各年度營運成果（截至2025年5月31日及2024年5月31日）'}",
+    "{'original': 'Recent Accounting Pronouncements', 'translated': '最近發佈之會計準則'}"
+   ],
+   "paragraphs": [
+    "下列資訊應與經審計之合併財務報表及其附註，以及其他包含於本年度報告表 10-K 其他處之資訊一併閱讀。本討論可能包含與未來事件及本公司未來財務表現相關之預測性陳述，這些陳述係基於目前預期，並受風險與不確定性影響。本公司實際結果可能與任何預測性陳述所預期者有重大差異，原因在於許多因素，包括於本年度報告表 10-K 中「風險因素」及「預測性陳述揭露」部分所列述者。",
+    "AngioDynamics 為一家動態且多元化之醫療科技公司，致力於擴展治療選項並改善病患結果與生活品質，專注於心血管疾病與癌症。我們的執行策略係建立於創新之研發、臨牀與法規途徑擴張以及以客戶為中心之銷售表現。我們設計、製造並銷售用於專業醫療提供者之血管通路、用以治療週邊血管疾病以及用於腫瘤學與手術環境之廣泛醫療、手術與診斷設備。我們之設備通常用於微創、影像導引之手術程序。許多我們之產品係設計為一次性使用後丟棄，或可能暫時植入用於短期或長期使用。",
+    "我們之業務運作橫跨多種市場。我們之財務表現受變動之市場動態影響，其中包括醫療提供者之價值醫療採購興起、醫療提供者之合併、消費者在醫療決策中之角色增加以及人口老化，等等。此外，我們之成長亦受我們產業內之變動影響，例如競爭對手合併以取得規模與影響力；醫療器材之法規環境變動；以及全球經濟之波動。",
+    "我們之銷售與獲利成長亦部分取決於新穎創新產品之推出，以及現有產品之持續改進。產品線之擴張係透過內部與外部產品開發、技術授權與戰略合作夥伴關係所創造。我們認知到研究與開發活動之重要性，並有意繼續投資於研究與開發活動及選擇性之商業發展機會，以提供成長機會。",
+    "我們主要透過直接銷售團隊在美國銷售產品，而在美國以外地區則主要透過經銷商關係銷售。我們之最終用戶包括介入放射學家、介入心臟學家、血管外科醫生、泌尿科醫生、介入與手術腫瘤學家以及重症護理護士。我們預期我們之業務在銷售與獲利方面將因地理擴張、進入新市場、推出新產品以及增加國際存在感而成長。",
+    "目前總體經濟環境持續影響我們之業務，並可能繼續帶來未來風險。本公司製造產品之能力、供應鏈之可靠性、勞動力短缺、積壓、通貨膨脹（包括原材料、直接勞動與運輸之成本與可得性）以及關稅已影響我們之業務，這些趨勢可能持續。因此，管理層持續評估本公司之流動性地位，與客戶與供應商溝通並監控其行動，並審查我們之短期財務表現。",
+    "於 2024 年 1 月 5 日，本公司宣佈進行重整以優化其製造效率、能力及據點（稱為「計畫」）。在 2025 年會計年度第二季，本公司宣佈對計畫進行修改，以維持在紐約皇后區進行部分產品製造、客戶服務、物流、運輸、品質及法規作業的據點。與修改後計畫相關的重整活動預計於 2027 年會計年度第一季完成。修改後計畫預計自 2027 年會計年度起每年可產生 15.0 百萬美元的費用節省。",
+    "於 2024 年 7 月 16 日，董事會批准了一項股票回購計畫（\"回購計畫\"），授權本公司可回購最高 15.0 百萬美元的流通普通股。回購股票的時間與數量將由管理層根據市場情況及其他考量，在特定範圍內決定。在截至 2026 年 5 月 31 日的十二個月期間，沒有進行任何股票回購。在 2025 年會計年度，本公司根據回購計畫在公開市場回購 243,847 股普通股，總成本為 1.7 百萬美元。截至 2026 年 5 月 31 日，回購計畫下尚有 13.3 百萬美元可用於回購。",
+    "於 2024 年 12 月 24 日，本公司與買方簽訂協議，出售位於紐約州皇后鎮（Queensbury, NY）及紐約州格倫斯菲爾斯（Glens Falls, NY）的製造廠房，購置價格分別為 5.5 百萬美元及 1.2 百萬美元，淨現金流入分別為 5.2 百萬美元及 1.1 百萬美元。本公司同時與買方簽訂租賃契約，未來七年內皇后鎮（Queensbury, NY）廠房的租賃付款為 4.6 百萬美元，以及未來三年內格倫斯菲爾斯（Glens Falls, NY）廠房的租賃付款為 0.4 百萬美元。",
+    "於 2025 年 5 月 28 日，本公司與 JP摩根大通銀行（JPMorgan Chase Bank, N.A.）簽訂新的信用協議（\"信用協議\"）。該信用協議有兩年到期日，並提供 25.0 百萬美元的擔保循環信貸融資（\"循環信貸融資\"），此信貸融資以本公司部分營運資金資產為借款基礎。截至 2026 年 5 月 31 日，循環信貸融資無餘額。",
+    "在評估本公司營運績效時，管理階層關注營業收入、毛利率、營運收入、每股盈虧及營運現金流。以下為 2026 年 5 月 31 日財年與 2025 年 5 月 31 日財年這些關鍵財務指標之總結：",
+    "2026 年 5 月 31 日財年：•營業收入增加 9.5%，至 320.2 百萬美元 •醫療科技（Med Tech）及醫療器材（Med Device）分別成長 18.4% 及 2.6%",
+    "•毛利率增加 70 基點，至 54.6% •淨虧損增加 2.7 百萬美元，至 36.7 百萬美元",
+    "•每股虧損增加 0.05 美元，至每股虧損 0.88 美元"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "本公司無法持續有效地開發、取得及/或行銷新產品與技術，可能對本公司業務、財務狀況及/或營運成果造成重大不利影響。",
+    "若本公司無法維持與介入性醫師、介入性及手術腫瘤學家及重症護理護士的聲譽，將限制本公司成長，並可能對業務造成損害。",
+    "本公司依賴單一及有限來源供應商，使業務及營運成果面臨供應商營運中斷的風險。",
+    "本公司面臨與國際銷售相關的貨幣及其他風險。",
+    "待決或未來可能提出的產品責任訴訟，特別是若本公司產品責任保險覆蓋範圍不足，可能對業務、營運及財務結果造成不利影響。",
+    "本公司可能面臨與產品線出售相關的風險，因本公司可能無法實現預期效益，且可能因人員、系統及基礎建設變更而造成營運中斷。",
+    "國際及國家經濟與產業條件持續變動，可能對本公司業務、財務狀況及營運成果造成重大且不利影響。",
+    "若本公司無法聘僱或留住合格人員，或未能成功過渡至新任首席執行官，業務可能受到損害。",
+    "若我們無法以獲利方式管理成長，將可能影響我們的業務、財務表現與股票價格。",
+    "通貨膨脹壓力及不利的經濟環境可能對我們的營運與業務產生負面影響。",
+    "我們可能受限於無法運用，或無法運用，淨營業損失結轉來減少未來的稅務負擔。",
+    "基於人工智慧的平台對我們的業務帶來新的風險與挑戰。",
+    "我們製造廠房或供應商廠房若發生災難，可能在相當長一段時間內影響我們製造產品的能力。",
+    "全球健康危機"
+   ],
+   "paragraphs": [
+    "除本年度報告表 10-K 以及其他向證券交易委員會所提交之其他申報文件所載之資訊外，投資人應謹慎考量下列風險因素，以評估本公司業務。本公司之財務與營運結果受許多風險與不確定性影響，包括下列所列之風險，其中許多為本公司所無法控制。本公司業務、財務狀況、營運結果與/或流動性可能因任何上述風險或因其他尚未為本公司所知或目前認為不重要之風險而受到重大且不利之影響。",
+    "與本公司業務及產業相關之風險",
+    "我們在醫療器材產業面臨極度競爭，而該產業持續經歷合併現象。我們可能無法就技術創新與價格方面有效競爭，這可能會對我們之營收、財務狀況、營運結果與/或流動性造成重大且不利之影響。",
+    "我們產品之市場高度競爭，我們預期競爭將持續加劇，部分原因在於合併趨勢增加，這可能會導致擁有更大規模與市場力量之公司出現。醫療器材產業特徵為技術快速變遷、產品頻繁推出與客戶需求不斷演進。客戶在選擇產品時會考量許多因素，包括技術、功能與效益、品質、可靠性、易用性、臨牀或經濟結果、可取得性、價格與客戶服務。我們在全球面臨來自廣泛公司之競爭，其中許多公司擁有遠高於我們之財務、行銷及其他資源。我們可能無法有效競爭，也可能失去市場佔有率至競爭對手。",
+    "我們之競爭對手可能比我們更快適應客戶需求或要求之變化，或更早開發與推出技術與產品，或更早取得專利保護（這可能會為我們建立市場進入障礙）或取得監管核准，或更快速地商業化新產品或技術。我們之競爭對手也可能開發出比我們更優秀之產品與技術，或以其他方式使我們之產品過時或失去競爭力。我們也可能面臨來自其他醫療療法提供者之競爭，例如製藥公司，這些公司可能提供非手術療法，用以治療目前或未來可能以我們產品治療之病症。若我們無法有效競爭，我們之市場佔有率與營收可能會下降。",
+    "此外，醫療系統之購買力增加、團體採購組織（\"GPOs\"）與整合式醫療交付網路（\"IDNs\"）以及競爭增加與報酬率下降，已導致本公司 increasingly 以價格為基礎進行競爭。由於 GPO 與 IDN 約定過程之高度競爭性，我們可能無法取得我們產品之市場價格，或取得或維持與主要 GPO 與 IDNs 之契約地位，這可能會對我們之獲利能力造成不利影響。此外，透過 GPO 或 IDN 進行銷售對我們業務而言可能相當重要，而我們若無法維持與客戶之契約，或取得額外契約，可能會對我們業務、財務狀況、營運結果與/或流動性造成重大且不利之影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

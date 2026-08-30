@@ -1,0 +1,205 @@
+{
+ "ticker": "SLS",
+ "cik": "0001390478",
+ "accession": "0001390478-26-000003",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Galinpepimut-S: Highly Novel and Engineered Immunotherapy Targeting the WT1 Antigen",
+    "SLS009: Highly Selective Next Generation CDK9 Inhibitor",
+    "Our Strategy",
+    "Products/Pipeline",
+    "Galinpepimut-S (GPS): Innovative WT1 Targeting Immunotherapy",
+    "Mechanism of Action in Immune System",
+    "Key Features",
+    "Key features of an Optimal Cancer",
+    "Active Immunizer Therapeutic",
+    "GPS Properties and Clinical Strategy",
+    "Potential Key Differentiators",
+    "Development Program for GPS",
+    "Program Status",
+    "AML as lead indication for GPS Program"
+   ],
+   "paragraphs": [
+    "We are a late-stage clinical biopharmaceutical company focused on the development of novel therapeutics for a broad range of cancer indications. Our product candidates currently include galinpepimut-S, or GPS, a peptide immunotherapy directed against the Wilms tumor 1, or WT1, antigen, and SLS009 (tambiciclib), a highly selective small molecule cyclin-dependent kinase 9, or CDK9, inhibitor.",
+    "Our lead product candidate, GPS, is a cancer immunotherapeutic agent licensed from Memorial Sloan Kettering Cancer Center, or MSK, that targets the WT1 protein, which is present in 20 or more cancer types. Based on its mechanism of action as a directly immunizing agent, GPS has potential as a monotherapy or in combination with other immunotherapeutic agents to address a broad spectrum of hematologic, or blood, cancers, and solid tumor indications.",
+    "We have an ongoing open label randomized Phase 3 clinical trial, the REGAL study, for GPS monotherapy in patients with acute myeloid leukemia, or AML, in the maintenance setting after achievement of second complete remission, or CR2, following successful completion of second-line antileukemic therapy. Patients are randomized to receive either GPS or best available treatment, or BAT. We expect this study will be used as the basis for submission of a Biologics License Application, or BLA, subject to a statistically significant and clinically meaningful trial outcome and agreement with the U.S. Food and Drug Administration, or the FDA. The primary endpoint of the REGAL study is overall survival, or OS. We planned to enroll approximately 125 to 140 patients at approximately 95 clinical sites in North America, Europe and Asia with a planned interim safety, efficacy and futility analysis after 60 events (deaths). In March 2024, we announced the completion of enrollment. In December 2024, we announced that the pre-specified threshold of 60 events (deaths) per the protocol had been reached, triggering the interim analysis to be conducted by the Independent Data Monitoring Committee, or IDMC. In January 2025, we announced that the IDMC had completed pre-specified interim analysis of the REGAL study and had recommended that the study continue without modifications. The next and final analysis will be conducted once 80 events (deaths) are reached. In December 2025, we announced that our contract research organization informed us that the pooled number of events was 72 as of December 26, 2025. We remain blinded to all efficacy and survival data outcomes and, as no outcomes analyses were performed and no statistical penalty has been incurred, this one-time update on the aggregate number of events does not impact future statistical analyses. Because the final analysis is event driven, it is difficult to predict with any certainty and it may occur at a different time than currently expected. We will announce the 80th event when it occurs.",
+    "In December 2020, we entered into an exclusive license agreement, or the 3D Medicines Agreement, with 3D Medicines Inc., or 3D Medicines, a China-based biopharmaceutical company developing next-generation immuno-oncology drugs, for the development and commercialization of GPS, as well as the Company's next generation heptavalent immunotherapeutic GPS+, which is at preclinical stage, across all therapeutic and diagnostic uses in mainland China, Hong Kong, Macau and Taiwan, which we refer to as Greater China. We have retained sole rights to GPS and GPS+ outside of Greater China. In November 2022, we announced that we had agreed with 3D Medicines for 3D Medicines to participate in the REGAL study through the inclusion of approximately 20 patients from mainland China. In December 2022, we entered into a Side Letter Agreement with 3D Medicines, or Side Letter, which together with the 3D Medicines Agreement, details the terms and conditions of 3D Medicines' participation in the REGAL study. Although the REGAL study has completed enrollment as announced in March 2024, in accordance with the predetermined statistical analysis plan, 3D Medicines may still enroll patients in mainland China. The timing of such participation and patient enrollment by 3D Medicines, if at all, cannot be predicted with certainty. As of December 31, 2025, we have received an aggregate of $10.5 million in upfront and milestone payments under our license agreement with 3D Medicines, or the 3D Medicines Agreement, and a total of $191.5 million in potential future development, regulatory and sales milestones, not including future royalties, remains under the license agreement, which milestones are variable in nature and not under our control. In December 2023, we announced that we had commenced a binding arbitration proceeding against 3D Medicines to",
+    "resolve a dispute regarding, among other things, the trigger and payment of relevant milestone payments due to us under the 3D Medicines Agreement. See Item 3. Legal Proceedings.",
+    "GPS was granted Orphan Drug Designations, or ODD, from the FDA, as well as orphan medicines designations from the European Medicines Agency, or EMA, in AML, malignant pleural mesothelioma, or MPM, and multiple myeloma, or MM, as well as Fast Track designations for AML, MPM, and MM from the FDA. In October 2024, the FDA granted Rare Pediatric Disease, or RPD, designation to GPS for the treatment of pediatric AML.",
+    "On March 31, 2022, we entered into an exclusive license agreement, or the GenFleet Agreement, with GenFleet Therapeutics (Shanghai), Inc., or GenFleet, a clinical-stage biotechnology company developing cutting-edge therapeutics in oncology and immunology, that grants rights to us for the development and commercialization of SLS009, a highly selective small molecule CDK9 inhibitor, across all therapeutic and diagnostic uses worldwide, except for Greater China.",
+    "CDK9 activity has been shown to correlate negatively with OS in a number of cancer types, including hematologic cancers, such as AML and lymphomas, as well as solid cancers, such as osteosarcoma, pediatric soft tissue sarcomas, melanoma, endometrial, lung, prostate, breast and ovarian. As demonstrated in preclinical and clinical data, to date, SLS009's high selectivity has the potential to reduce toxicity as compared to older CDK9 inhibitors and other next-generation CDK9 inhibitors currently in clinical development and to potentially be more efficacious.",
+    "We completed a Phase 1 dose-escalating clinical trial in the United States and China for SLS009 in mid-2023 and reported positive safety and efficacy data for both patient cohorts, that is relapsed and/or refractory AML and refractory lymphoma. We also established in the trial a recommended Phase 2 dose, or RP2D, of 60 mg once weekly or 30 mg twice weekly for AML and 100 mg once weekly for lymphomas.",
+    "In the second quarter of 2023, we commenced an open label, single arm, multi-center Phase 2a clinical trial with SLS009 in combination with venetoclax and azacitidine, or aza/ven, in patients with AML who failed or did not respond to treatment with venetoclax-based therapies. The trial evaluated safety, tolerability, and efficacy at two dose levels of SLS009, 45 mg once weekly, and 60 mg once weekly or 30 mg twice a week, in combination with aza/ven. In December 2024, we announced positive data from the first 3 cohorts in the Phase 2a trial.",
+    "In July 2025, we announced that the Phase 2 trial of SLS009 in r/r AML met all primary endpoints and received FDA guidance to advance into a first-line therapy study. The overall response rate, or ORR, in 54 evaluable patients was 33% across all cohorts and dose levels, 40% for the 30 mg BIW dose level, and 44% in the 30 mg BIW dose among patients with myelodysplasia-related molecular mutations, or AML MR, all exceeding the pre-specified ORR threshold of 20%. The highest efficacy was observed among patients with ASXL1 mutations, with an ORR of 50% (9/18) at 30 mg BIW dose levels, and AML MR with Myelomonocytic/Myelomonoblastic markers, or M4/M5 per FAB classification, patients with an ORR of 50% (6/12). The median overall survival, or mOS, reached 8.9 months in patients with AML MR and 8.8 months in patients r/r to venetoclax-based regimens at a 30 mg BIW dose level, surpassing the historical benchmark of ~2.4 months. SLS009 was well-tolerated with no new safety signals observed. No dose-limiting toxicities were observed across all dose levels.",
+    "Following a productive end of Phase 2 meeting, the FDA recommended that we proceed into a clinical trial to include newly diagnosed, first-line AML patients eligible for aza/ven therapy, where the FDA noted clinical benefit might be greatest. The randomized 80-patient Phase 2 clinical trial is currently ongoing and began enrollment in the first quarter of 2026. The clinical trial will include two groups: predictive biomarker cohort (newly diagnosed patients unlikely to benefit from standard aza/ven therapy based on molecular profiling) and early venetoclax resistance cohort (patients who initiate treatment with aza/ven, but demonstrate confirmed lack of any response after two treatment cycles).",
+    "In January 2026, we announced that we entered into an agreement with IMPACT-AML, a European collaborative initiative dedicated to advancing innovative treatments for patients with AML. Under the agreement, the IMPACT-AML network will conduct a clinical study evaluating SLS009, enabling access to multiple European clinical sites and patients. IMPACT-AML is a pan-European project and builds an inclusive clinical network (STREAM platform)",
+    "that connects patients, clinicians, and researchers to test novel AML therapies and improve patient outcomes. It is part of the prestigious EU Mission Cancer program and a top-tier scientific cluster. The IMPACT-AML project is led by a consortium of major research and clinical institutions in Europe, including IRST (IRCCS Istituto Romagnolo per lo Studio dei Tumori \"Dino Amadori\"), the University of Bologna, IIS LA FE (Health Research Institute Hospital La Fe), several European AML collaborative groups, and supranational organizations under the umbrella of the European Leukemia Net (ELN), as well as various university hospitals across Europe. By leveraging IMPACT-AML's existing infrastructure and expertise, we expect to expand European patient access to SLS009 in a highly cost-efficient manner while supporting broader participation across the clinical program."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Financial Position and Capital Needs",
+    "We have incurred substantial losses since our inception and anticipate that we will continue to incur substantial and increasing losses for the foreseeable future.",
+    "We currently have no source of revenues from product sales. We may never generate such revenues or achieve profitability.",
+    "Raising additional capital may cause dilution to our existing stockholders, restrict our operations or require us to relinquish rights to our product candidates on unfavorable terms to us.",
+    "Risks Related to the Development and Regulatory Approval of Our Product Candidates",
+    "Clinical-stage biopharmaceutical companies with product candidates in clinical development face a wide range of challenging activities which may entail substantial risk.",
+    "Our lead product candidate, GPS, represents a new therapeutic approach that presents significant challenges.",
+    "We are developing and may continue to develop our programs in combination with other therapies, which exposes us to additional risks.",
+    "Clinical drug development involves a lengthy and expensive process with an uncertain outcome.",
+    "Risks associated with operating in foreign countries could materially adversely affect our product development.",
+    "Global, market and economic conditions may negatively impact our business, financial condition and share price.",
+    "Our partnerships in China subject us to risks and uncertainties relating to the laws and regulations of China and the changes in relations between the United States and China.",
+    "Climate change or legal, regulatory or market measures to address climate change may negatively affect our business, results of operations, cash flows and prospects.",
+    "Our future success is dependent on the regulatory approval of our product candidates.",
+    "Our current and future product candidates could fail to receive regulatory approval from the FDA or comparable foreign regulatory authorities."
+   ],
+   "paragraphs": [
+    "You should carefully consider the risks and uncertainties described below, together with all of the other information in this Annual Report on Form 10-K. We operate in a dynamic and rapidly changing industry that involves numerous risks and uncertainties. The risks and uncertainties described below are not the only ones we face. Other risks and uncertainties, including those that we do not currently consider material, may impair our business. If any of the risks discussed below actually occur, our business, financial condition, operating results or cash flows could be materially adversely affected. This Annual Report on Form 10-K also contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those anticipated in these forward-looking statements as a result of certain factors, including the risks we face as described below and elsewhere in this Annual Report on Form 10-K.",
+    "Investment in biopharmaceutical product development is highly speculative because it entails substantial upfront capital expenditures and significant risk that a product candidate will fail to prove effective, gain regulatory approval or become commercially viable. We do not have any products approved by regulatory authorities, have not generated any product revenues to date, and have incurred significant research, development and other expenses related to our ongoing operations. As a result, we have not been profitable and have incurred significant operating losses in every reporting period since our inception. For the years ended December 31, 2025 and 2024, we reported a net loss of $26.9 million and $30.9 million, respectively. As of December 31, 2025 and 2024, we had an accumulated deficit of $275.0 million and $248.1 million, respectively.",
+    "We do not expect to generate product revenues for many years, if at all. We expect to continue to incur significant expenses and operating losses for the foreseeable future. We anticipate these losses to increase as we continue to research, develop and seek regulatory approvals for our product candidates and any additional product candidates we may acquire, and potentially begin to commercialize product candidates that may achieve regulatory approval. We may also encounter unforeseen expenses, difficulties, complications, delays and other unknown factors that may adversely affect our business. The size of our future net losses will depend, in part, on the rate of future growth of our expenses and our ability to generate revenues. Our expenses will further increase as we:",
+    "•conduct additional clinical trials of our lead product, GPS, including the Phase 3 clinical trial evaluating GPS for AML, and our second clinical candidate, SLS009;",
+    "•seek marketing approval for any of our product candidates that successfully complete clinical trials;",
+    "•develop our outsourced manufacturing activities and establish sales, marketing and distribution capabilities, if we receive, or expect to receive, marketing approval for any product candidates;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Components of Results of Operations",
+    "Research and Development",
+    "General and Administrative Expense",
+    "Non-Operating Income",
+    "Results of Operations for the Years Ended December 31, 2025 and 2024",
+    "General and Administrative",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "Funding Requirements",
+    "Components of Cash, Cash Equivalents, Restricted Cash, and Restricted Cash Equivalents",
+    "Net Cash Used in Operating Activities",
+    "Net Cash Flow from Financing Activities",
+    "Contractual Obligations and Other Commitments",
+    "Critical Accounting Policies and Estimates"
+   ],
+   "paragraphs": [
+    "The purpose of this Management's Discussion and Analysis is to better allow our investors to understand and view our company from management's perspective. We are providing an overview of our business and strategy including a discussion of our financial condition and results of operations. You should read the following discussion in conjunction with the consolidated financial statements and the notes to the consolidated financial statements included elsewhere in this Annual Report on Form 10-K. This discussion contains forward-looking statements within the meaning of federal securities laws. Such forward-looking statements are subject to risks and uncertainties that could cause actual results to differ materially from those contained in such forward-looking statements, including those discussed in the section \"Risk Factors\" in Part I — Item 1A of this Annual Report on Form 10-K.",
+    "We are a late-stage clinical biopharmaceutical company focused on the development of novel therapeutics for a broad range of cancer indications. Our product candidates currently include galinpepimut-S, or GPS, a peptide immunotherapy directed against the Wilms tumor 1, or WT1, antigen, and SLS009 (formerly GFH009), a highly selective small molecule cyclin-dependent kinase 9, or CDK9, inhibitor.",
+    "Galinpepimut-S, or GPS: Highly Novel and Engineered Immunotherapy Targeting the WT1 Antigen",
+    "Our lead product candidate, GPS, is a cancer immunotherapeutic agent licensed from Memorial Sloan Kettering Cancer Center, or MSK, that targets the WT1 protein, which is present in 20 or more cancer types. Based on its mechanism of action as a directly immunizing agent, GPS has potential as a monotherapy or in combination with other immunotherapeutic agents to address a broad spectrum of hematologic, or blood, cancers, and solid tumor indications.",
+    "We have an ongoing open label randomized Phase 3 clinical trial, the REGAL study, for GPS monotherapy in patients with acute myeloid leukemia, or AML, in the maintenance setting after achievement of second complete remission, or CR2, following successful completion of second-line antileukemic therapy. Patients are randomized to receive either GPS or best available treatment, or BAT. We expect this study will be used as the basis for submission of a Biologics License Application, or BLA, subject to a statistically significant and clinically meaningful trial outcome and agreement with the U.S. Food and Drug Administration, or the FDA. The primary endpoint of the REGAL study is overall survival, or OS. We planned to enroll approximately 125 to 140 patients at approximately 95 clinical sites in North America, Europe and Asia with a planned interim safety, efficacy and futility analysis after 60 events (deaths). In March 2024, we announced the completion of enrollment. In December 2024, we announced that the pre-specified threshold of 60 events (deaths) per the protocol had been reached, triggering the interim analysis to be conducted by the Independent Data Monitoring Committee, or IDMC. In January 2025, we announced that the IDMC had completed pre-specified interim analysis of the REGAL study and had recommended that the study continue without modifications. The next and final analysis will be conducted once 80 events (deaths) are reached. In December 2025, we announced that our contract research organization informed us that the pooled number of events was 72 as of December 26, 2025. We remain blinded to all efficacy and survival data outcomes and, as no outcomes analyses were performed and no statistical penalty has been incurred, this one-time update on the aggregate number of events does not impact future statistical analyses. Because the final analysis is event driven, it is difficult to predict with any certainty and it may occur at a different time than currently expected. We will announce the 80th event when it occurs.",
+    "In December 2020, we entered into an exclusive license agreement, or the 3D Medicines Agreement, with 3D Medicines Inc., or 3D Medicines, a China-based biopharmaceutical company developing next-generation immuno-oncology drugs, for the development and commercialization of GPS, as well as the Company's next generation heptavalent immunotherapeutic GPS+, which is at preclinical stage, across all therapeutic and diagnostic uses in mainland China, Hong Kong, Macau and Taiwan, which we refer to as Greater China. We have retained sole rights to GPS and GPS+ outside of Greater China. In November 2022, we announced that we had agreed with 3D Medicines for 3D Medicines to participate in the REGAL study through the inclusion of approximately 20 patients from mainland China. In December 2022, we entered into a Side Letter Agreement with 3D Medicines, or Side Letter, which together with the 3D Medicines Agreement, details the terms and conditions of 3D Medicines' participation in the REGAL study. Although the REGAL study has completed enrollment as announced in March 2024, in accordance with the predetermined statistical analysis plan, 3D Medicines may still enroll patients in mainland China. The timing of such participation and patient enrollment by 3D Medicines, if at all,",
+    "cannot be predicted with certainty. As of December 31, 2025, we have received an aggregate of $10.5 million in upfront and milestone payments under our license agreement with 3D Medicines, or the 3D Medicines Agreement, and a total of $191.5 million in potential future development, regulatory and sales milestones, not including future royalties, remains under the license agreement, which milestones are variable in nature and not under our control. In December 2023, we announced that we had commenced a binding arbitration proceeding against 3D Medicines to resolve a dispute regarding, among other things, the trigger and payment of relevant milestone payments due to us under the 3D Medicines Agreement. See Item 3. Legal Proceedings.",
+    "GPS was granted Orphan Drug Designations, or ODD, from the FDA, as well as orphan medicines designations from the European Medicines Agency, or EMA, in AML, malignant pleural mesothelioma, or MPM, and multiple myeloma, or MM, as well as Fast Track designations for AML, MPM, and MM from the FDA. In October 2024, the FDA granted Rare Pediatric Disease, or RPD, designation to GPS for the treatment of pediatric AML.",
+    "SLS009, or Tambiciclib: Highly Selective Next Generation CDK9 Inhibitor",
+    "On March 31, 2022, we entered into an exclusive license agreement, or the GenFleet Agreement, with GenFleet Therapeutics (Shanghai), Inc., or GenFleet, a clinical-stage biotechnology company developing cutting-edge therapeutics in oncology and immunology, that grants rights to us for the development and commercialization of SLS009, a highly selective small molecule CDK9 inhibitor, across all therapeutic and diagnostic uses worldwide, except for Greater China.",
+    "CDK9 activity has been shown to correlate negatively with overall survival in a number of cancer types, including hematologic cancers, such as AML and lymphomas, as well as solid cancers, such as osteosarcoma, pediatric soft tissue sarcomas, melanoma, endometrial, lung, prostate, breast and ovarian. As demonstrated in preclinical and clinical data, to date, SLS009's high selectivity has the potential to reduce toxicity as compared to older CDK9 inhibitors and other next-generation CDK9 inhibitors currently in clinical development and to potentially be more efficacious.",
+    "We completed a Phase 1 dose-escalating clinical trial in the United States and China for SLS009 in mid-2023 and reported positive safety and efficacy data for both patient cohorts, that is relapsed and/or refractory AML and refractory lymphoma. We also established in the trial a recommended Phase 2 dose, or RP2D, of 60 mg once weekly or 30 mg twice weekly for AML and 100 mg once weekly for lymphomas.",
+    "In the second quarter of 2023, we commenced an open label, single arm, multi-center Phase 2a clinical trial with SLS009 in combination with venetoclax and azacitidine, or aza/ven, in patients with AML who failed or did not respond to treatment with venetoclax-based therapies. The trial is evaluating safety, tolerability, and efficacy at two dose levels of SLS009, 45 mg once weekly, and 60 mg once weekly or 30 mg twice a week, in combination with aza/ven. In December 2024, we announced positive data from the first 3 cohorts in the Phase 2a trial.",
+    "In July 2025, we announced that the Phase 2 trial of SLS009 in r/r AML met all primary endpoints and received FDA guidance to advance into a first-line therapy study. The overall response rate, or ORR, in 54 evaluable patients was 33% across all cohorts and dose levels, 40% for the 30 mg BIW dose level, and 44% in the 30 mg BIW dose among patients with myelodysplasia-related molecular mutations, or AML MR, all exceeding the pre-specified ORR threshold of 20%. The highest efficacy was observed among patients with ASXL1 mutations, with an ORR of 50% (9/18) at 30 mg BIW dose levels, and AML MR with Myelomonocytic/Myelomonoblastic markers, or M4/M5 per FAB classification, patients with an ORR of 50% (6/12). The median overall survival, or mOS, reached 8.9 months in patients with AML MR and 8.8 months in patients r/r to venetoclax-based regimens at a 30 mg BIW dose level, surpassing the historical benchmark of ~2.4 months. SLS009 was well-tolerated with no new safety signals observed. No dose-limiting toxicities were observed across all dose levels."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "Galinpepimut-S: 高度創新且工程化之免疫治療藥物，針對 WT1 抗原",
+    "SLS009: 高度選擇性下一代 CDK9 抑製劑",
+    "我們的策略",
+    "產品/開發管道",
+    "Galinpepimut-S (GPS): 創新 WT1 針對性免疫治療藥物",
+    "免疫系統中的作用機制",
+    "關鍵特性",
+    "優質癌症治療的關鍵特性",
+    "主動免疫治療藥物",
+    "GPS 資產與臨牀策略",
+    "潛在關鍵差異點",
+    "GPS 開發計畫",
+    "計畫進度",
+    "AML 為 GPS 計畫的主要適應症"
+   ],
+   "paragraphs": [
+    "本公司為一家臨牀晚期生物製藥公司，專注於開發用以治療多種癌症適應症的創新療法。本公司目前的產品候選品包括 galinpepimut-S，或稱 GPS，一種針對 Wilms 腎瘤 1，或 WT1，抗原的肽免疫療法，以及 SLS009 (tambiciclib)，一種高度選擇性的小分子週期素依賴性蛋白激酶 9，或 CDK9，抑制劑。",
+    "本公司主要產品候選品 GPS，是一種癌症免疫療法藥物，由 Memorial Sloan Kettering Cancer Center，或 MSK，授權取得，其目標為 WT1 蛋白質，此蛋白質存在於 20 種或更多種癌症中。根據其作為直接免疫化療藥物的作用機制，GPS 有潛力作為單一療法或與其他免疫療法藥物組合，用以治療廣泛的血液癌症，或血液相關癌症，以及實體腫瘤適應症。",
+    "本公司進行一項持續進行的開放標籤隨機 Phase 3 臨牀試驗，稱為 REGAL 研究，用於 GPS 單一療法治療急性骨髓性白血病，或 AML，患者在完成第二線抗白血病治療後，於達成第二完全緩解，或 CR2，後的維持治療階段。患者被隨機分為接受 GPS 或最佳可用治療，或 BAT。本公司預期此試驗將作為提交生物製品許可申請，或 BLA，的基礎，前提是試驗結果具有統計學顯著性且臨牀意義，並與美國食品藥物管理局，或 FDA，達成協議。REGAL 研究的主要終點為總體存活率，或 OS。本公司原計畫在北美、歐洲和亞洲約 95 個臨牀試驗中心 enrol 約 125 到 140 名患者，並在 60 個事件（死亡）後進行中期安全性、有效性與無效性分析。2024 年 3 月，本公司宣佈 enrol 活動已完成。2024 年 12 月，本公司宣佈根據協議，達成預設的 60 個事件（死亡）門檻，觸發獨立資料監測委員會，或 IDMC，進行中期分析。2025 年 1 月，本公司宣佈 IDMC 已完成預設的中期分析，並建議繼續進行試驗，不進行修改。下一次且最終的分析將在達成 80 個事件（死亡）時進行。2025 年 12 月，本公司宣佈本公司委託研究機構告知，截至 2025 年 12 月 26 日，事件總數為 72。本公司對所有療效與存活率數據結果保持盲態，且因尚未進行任何結果分析，也未產生任何統計學處罰，此一次性更新事件總數不會影響未來的統計分析。由於最終分析為事件驅動，因此很難預測其確切時間，且可能與目前預期的時間不同。本公司將在達成 80 個事件時宣佈。",
+    "2020 年 12 月，本公司與 3D Medicines Inc.，或 3D Medicines，一家中國的生物製藥公司，開發新一代免疫腫瘤藥物，簽訂獨家授權協議，或 3D Medicines 協議，授權本公司在中國大陸、香港、澳門及臺灣，我們稱為 Greater China，開發與商業化 GPS，以及本公司下一代七價免疫療法 GPS+，其目前處於臨牀前階段，所有治療與診斷用途。本公司保留 GPS 和 GPS+ 在 Greater China 以外的獨家權利。2022 年 11 月，本公司宣佈已與 3D Medicines 籤訂協議，讓 3D Medicines 參與 REGAL 研究，包含約 20 名來自中國大陸的患者。2022 年 12 月，本公司與 3D Medicines 籤訂側邊協議，或 Side Letter，與 3D Medicines 協議共同說明 3D Medicines 參與 REGAL 研究的條款與條件。雖然 REGAL 研究已在 2024 年 3 月宣佈 enrol 活動已完成，但根據預定的統計分析計畫，3D Medicines 可能仍會 enrol 來自中國大陸的患者。3D Medicines 參與及 enrol 患者的時間點，若有的話，很難預測。截至 2025 年 12 月 31 日，本公司已根據與 3D Medicines 的授權協議，或 3D Medicines 協議，收到總計 10.5 百萬美元的預付及里程碑付款，且根據授權協議，總計 191.5 百萬美元的潛在未來開發、監管及銷售里程碑付款，不包括未來的版稅，仍待實現，這些里程碑付款的性質為變動，且不在本公司控制範圍內。2023 年 12 月，本公司宣佈已針對與 3D Medicines 之間的爭議，啟動一項具有約束力的仲裁程序，",
+    "以解決有關根據 3D Medicines 協議，應支付給本公司的相關里程碑付款的觸發與支付問題。請參閱第 3 項 法律程序。",
+    "GPS 已獲得美國食品藥物管理局，或 FDA，授予罕見疾病藥物指定，或 ODD，以及歐洲藥物管理局，或 EMA，授予罕見疾病藥物指定，在 AML、惡性胸膜間皮瘤，或 MPM，以及多發性骨髓瘤，或 MM，適應症，並獲得 FDA 的快速通道指定，用於 AML、MPM 和 MM。2024 年 10 月，FDA 授予 GPS 罕見兒童疾病，或 RPD，指定，用於治療兒童 AML。",
+    "2022 年 3 月 31 日，本公司與 GenFleet Therapeutics (Shanghai), Inc.，或 GenFleet，一家臨牀階段的生物科技公司，開發癌症與免疫學的創新療法，簽訂獨家授權協議，或 GenFleet 協議，授權本公司在全球範圍內，除 Greater China 外，開發與商業化 SLS009，一種高度選擇性的小分子 CDK9 抑制劑，所有治療與診斷用途。",
+    "CDK9 活動已被顯示與多種癌症類型的總體存活率，包括血液癌症，如 AML 和淋巴瘤，以及實體癌症，如骨肉瘤、兒童軟組織肉瘤、黑色素瘤、子宮內膜、肺、前列腺、乳癌及卵巢癌，呈負相關。根據預臨牀及臨牀數據顯示，SLS009 的高選擇性有潛力較舊的 CDK9 抑制劑及其他目前臨牀開發中的新一代 CDK9 抑制劑減少毒性，並可能更具療效。",
+    "我們於2023年中完成美國與中國的SLS009第一期劑量遞增臨牀試驗，並針對復發及/或難治性急性骨髓性白血病（AML）與難治性淋巴瘤患者族羣，報告出正面的安全性與療效數據。我們亦在試驗中確立建議的第二期試驗劑量，或RP2D，為AML患者每週一次60毫克或每週兩次30毫克，以及淋巴瘤患者每週一次100毫克。",
+    "2023年第二季，我們啟動一項開放標籤、單臂、多中心的第二期a臨牀試驗，以SLS009與venetoclax及azacitidine（aza/ven）組合方式，用於治療對venetoclax基準療法無效或未反應的AML患者。該試驗評估SLS009在兩種劑量水平（每週一次45毫克及每週一次60毫克或每週兩次30毫克）與aza/ven組合下的安全性、耐受性與療效。2024年12月，我們宣佈該第二期a試驗的第一個3個族羣數據為正面。",
+    "2025年7月，我們宣佈SLS009在復發/難治性AML（r/r AML）的第二期試驗達成所有主要終點，並獲得FDA指導進展至一線治療研究。在54名可評估患者中，整體反應率（ORR）為33%，所有族羣及劑量水平，30毫克每週兩次劑量水平為40%，在具有骨髓異常相關分子突變（AML MR）的患者中為44%，皆超過預設的ORR門檻20%。在具有ASXL1突變的患者中觀察到最高療效，30毫克每週兩次劑量水平的ORR為50%（9/18），在具有Myelomonocytic/Myelomonoblastic標記（M4/M5）的AML MR患者中，ORR為50%（6/12）。在30毫克每週兩次劑量水平的AML MR患者中，中位數總體存活時間（mOS）達8.9個月，在對venetoclax基準療法復發的患者中為8.8個月，超過歷史基準約2.4個月。SLS009耐受性良好，未觀察到新的安全性訊號。所有劑量水平均未觀察到劑量限制性毒性。",
+    "在第二期試驗結束後的建設性會議中，FDA建議我們進行包含新診斷、一線AML患者的臨牀試驗，這些患者符合aza/ven治療條件，FDA認為此處可能有最大的臨牀效益。目前進行中的隨機化80名患者的第二期臨牀試驗，於2026年第一季開始納入受試者。該臨牀試驗將包含兩個組別：預測生物標記族羣（根據分子分析，預期對標準aza/ven治療無效益的新診斷患者）與早期venetoclax抗藥性族羣（開始接受aza/ven治療，但經確認在兩個治療週期後無任何反應的患者）。",
+    "2026年1月，我們宣佈已與IMPACT-AML簽訂協議，IMPACT-AML為專注於進展創新治療方案的歐洲合作計畫，用於治療AML患者。根據協議，IMPACT-AML網路將進行評估SLS009的臨牀研究，使我們能接觸多個歐洲臨牀試驗場所與患者。IMPACT-AML為跨歐洲專案，並建立一個包容性的臨牀網路（STREAM平台）。",
+    "該平台連結患者、臨牀醫生與研究者，用以測試創新AML治療方案並改善患者結果。IMPACT-AML為聲譽卓著的歐盟癌症使命計畫的一部分，並為頂級科學集羣。IMPACT-AML專案由歐洲主要研究與臨牀機構組成的聯盟領導，包括IRST（IRCCS Istituto Romagnolo per lo Studio dei Tumori \"Dino Amadori\"）、博洛尼亞大學、IIS LA FE（健康研究機構醫院La Fe）、多個歐洲AML合作羣組，以及歐洲白血病網（ELN）旗下的超國家組織，以及歐洲各大學醫院。透過運用IMPACT-AML現有的基礎設施與專業知識，我們預期能以高度成本效益的方式擴展歐洲患者對SLS009的接觸，同時支持臨牀計畫的廣泛參與。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果之組成項目",
+    "研究與發展",
+    "一般及行政費用",
+    "非營業收入",
+    "截至2025年12月31日及2024年12月31日之營運成果",
+    "一般及行政",
+    "流動性及資本資源",
+    "流動性來源",
+    "資金需求",
+    "現金、現金等價物、受限現金及受限現金等價物之組成",
+    "營運活動所使用之淨現金",
+    "籌資活動所產生之淨現金流",
+    "契約義務及其他承諾",
+    "關鍵會計政策與會計估計"
+   ],
+   "paragraphs": [
+    "本項管理層討論與分析之目的為協助投資人從管理層的觀點更深入瞭解與看待本公司。我們提供有關本公司業務與策略的概覽，包括對本公司財務狀況與營運成果的討論。請配合本年報 10-K 表格所附之合併財務報表與合併財務報表附註閱讀本項討論。本項討論包含根據聯邦證券法所定義之預測性陳述。這些預測性陳述受風險與不確定性影響，可能導致實際結果與預測性陳述中所載內容有重大差異，包括在本年報 10-K 表格第一部分 — 第 1A 項「風險因素」中所討論的風險。",
+    "本公司為一家臨牀晚期生物製藥公司，專注於開發用以治療多種癌症適應症之創新療法。本公司目前的產品候選藥物包括 galinpepimut-S，或稱 GPS，一種針對 Wilms 瘤 1，或 WT1，抗原之肽免疫療法，以及 SLS009（原為 GFH009），一種高度選擇性之小分子週期素依賴性蛋白激酶 9，或 CDK9，抑制劑。",
+    "Galinpepimut-S，或 GPS：高度創新且工程化之免疫療法，針對 WT1 抗原",
+    "本公司主要產品候選藥物 GPS，為一種癌症免疫療法藥物，由 Memorial Sloan Kettering 癌症中心，或 MSK，授權取得，其目標為 WT1 蛋白，該蛋白存在於 20 種或更多種癌症中。根據其作為直接免疫化療藥物的機制，GPS 有潛力作為單一療法或與其他免疫療法藥物組合，用以治療廣泛的血液學，或血液，癌症及實體瘤適應症。",
+    "我們進行一項持續進行的開放標籤隨機 III 期臨牀試驗，名為 REGAL 研究，用於 GPS 單一療法治療急性骨髓性白血病，或 AML，患者在達成第二完全緩解，或 CR2，後於完成第二線抗白血病治療後的維持治療階段。患者被隨機分為接受 GPS 或最佳可用治療，或 BAT。我們預期此試驗將作為提交生物製品許可申請，或 BLA，的基礎，前提是試驗結果具有統計學意義且臨牀意義重大，並與美國食品藥物管理局，或 FDA，達成協議。REGAL 研究的主要終點為總體存活率，或 OS。我們計畫在北美、歐洲及亞洲約 95 個臨牀試驗中心 enrol 約 125 至 140 名患者，並計畫在 60 個事件（死亡）後進行中期安全性、有效性與無效性分析。2024 年 3 月，我們宣佈 enrol 活動已完成。2024 年 12 月，我們宣佈根據試驗計畫，達成預設的 60 個事件（死亡）門檻，觸發獨立數據監測委員會，或 IDMC，進行中期分析。2025 年 1 月，我們宣佈 IDMC 已完成預設的中期分析，並建議繼續進行試驗，不進行修改。最終分析將在達成 80 個事件（死亡）時進行。2025 年 12 月，我們宣佈我們的合同研究機構告知我們，截至 2025 年 12 月 26 日，事件總數為 72。我們對所有有效性與存活率數據結果保持盲態，且因未進行任何結果分析，也未產生統計學處罰，此一時點的事件總數更新不會影響未來的統計分析。因為最終分析為事件驅動，因此很難預測其發生時間，可能與目前預期的時間不同。我們將在發生第 80 個事件時宣佈。",
+    "2020 年 12 月，我們與 3D Medicines Inc.，或 3D Medicines，一家中國生物製藥公司，專門開發下一代免疫腫瘤藥物，簽訂獨家授權協議，或 3D Medicines 協議，授權開發與商業化 GPS，以及本公司下一代七價免疫療法 GPS+，目前處於臨牀前階段，於中國大陸、香港、澳門及臺灣，我們稱為大中華地區，的所有治療與診斷用途。我們保留 GPS 與 GPS+ 在大中華地區以外的獨家權利。2022 年 11 月，我們宣佈與 3D Medicines 達成協議，允許 3D Medicines 在大中華地區納入約 20 名患者參與 REGAL 研究。2022 年 12 月，我們與 3D Medicines 簽訂附屬協議，或 Side Letter，與 3D Medicines 協議共同說明 3D Medicines 參與 REGAL 研究的條款與條件。雖然 REGAL 研究已在 2024 年 3 月宣佈 enrol 活動已完成，但根據預定的統計分析計畫，3D Medicines 仍可能在大中華地區 enrol 患者。3D Medicines 參與及 enrol 患者的時間點，若有的話，無法預測。",
+    "無法預測。截至 2025 年 12 月 31 日，我們已根據與 3D Medicines 的授權協議，或 3D Medicines 協議，收到總計 10.5 百萬美元的預付金與里程碑付款，且根據該授權協議，總計尚有 191.5 百萬美元的潛在未來開發、監管與銷售里程碑付款，不包括未來的版稅，尚未收到，這些里程碑付款為變動性，且不在我們控制之下。2023 年 12 月，我們宣佈已針對與 3D Medicines 之間的爭議，啟動一項具有約束力的仲裁程序，以解決有關應支付給我們的里程碑付款觸發與支付的爭議。請參見第 3 項「法律程序」。",
+    "GPS 已獲得美國食品藥物管理局，或 FDA，授予罕見疾病藥物指定，或 ODD，以及歐洲藥物管理局，或 EMA，授予罕見疾病藥物指定，於急性骨髓性白血病，或 AML，惡性胸膜間皮瘤，或 MPM，以及多發性骨髓瘤，或 MM，同時也獲得 FDA 授予的快速通道指定，於 AML、MPM 和 MM。2024 年 10 月，FDA 授予 GPS 罕見兒童疾病，或 RPD，指定，用於治療兒童 AML。",
+    "SLS009, 或稱 Tambiciclib：高度選擇性新一代 CDK9 抑製劑",
+    "於 2022 年 3 月 31 日，本公司與 GenFleet Therapeutics (Shanghai), Inc.，或稱 GenFleet，一家臨牀階段生物科技公司，專門開發癌症及免疫學領域的尖端療法，簽訂獨家授權協議，或稱 GenFleet 協議，授權本公司於全球範圍內，除中國大陸外，開發及商業化 SLS009，一種高度選擇性小分子 CDK9 抑製劑，用於所有治療及診斷用途。",
+    "CDK9 活性已被顯示與多種癌症類型的總體存活率呈負相關，包括血液癌症，如急性骨髓性白血病（AML）及淋巴瘤，以及實體癌症，如骨肉瘤、兒童軟組織肉瘤、黑色素瘤、子宮內膜、肺、前列腺、乳癌及卵巢癌。根據預臨牀及臨牀數據顯示，截至目前為止，SLS009 的高度選擇性有潛力較舊的 CDK9 抑製劑及其他目前臨牀開發中的新一代 CDK9 抑製劑減少毒性，並可能更具療效。",
+    "本公司於 2023 年中完成 SLS009 在美國及中國的 Phase 1 劑量遞增臨牀試驗，並報導了兩組患者（復發及/或對治療無反應的 AML 及對治療無反應的淋巴瘤）的安全性及有效性數據。本公司亦在試驗中確定了建議的 Phase 2 劑量，或稱 RP2D，為 AML 患者 60 mg 週一次或 30 mg 週二次，以及淋巴瘤患者 100 mg 週一次。",
+    "於 2023 年第二季，本公司啟動了一項開放標籤、單臂、多中心的 Phase 2a 臨牀試驗，以 SLS009 與 venetoclax 及 azacitidine，或稱 aza/ven，組合治療對 venetoclax 基礎療法無反應或治療失敗的 AML 患者。該試驗評估 SLS009 在兩種劑量水平（45 mg 週一次，及 60 mg 週一次或 30 mg 週二次）與 aza/ven 組合的安全性、耐受性及有效性。於 2024 年 12 月，本公司宣佈 Phase 2a 試驗中前三個隊列的正面數據。",
+    "於 2025 年 7 月，本公司宣佈 SLS009 在 r/r AML 的 Phase 2 試驗達成所有主要終點，並獲得 FDA 指導意見進展至一線治療研究。54 名可評估患者的總體反應率（ORR）為 33%，所有隊列及劑量水平，30 mg 週二次劑量水平為 40%，在具有 myelodysplasia 相關分子突變（AML MR）的患者中為 44%，均超過預設的 ORR 閾值 20%。在具有 ASXL1 突變的患者中，觀察到最高的療效，30 mg 週二次劑量水平的 ORR 為 50%（9/18），在具有 Myelomonocytic/Myelomonoblastic 標記（M4/M5 按 FAB 分類）的 AML MR 患者中，ORR 為 50%（6/12）。在 AML MR 患者中，中位總體存活時間（mOS）達 8.9 個月，在對 venetoclax 基礎療法無反應的患者中，mOS 為 8.8 個月，超過歷史基準約 2.4 個月。SLS009 被認為耐受性良好，未觀察到新的安全性訊號。所有劑量水平均未觀察到劑量限制性毒性。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司財務狀況及資金需求相關之風險",
+    "自本公司成立以來，我們已產生大量虧損，並預期在可預見的未來，我們將持續產生大量且不斷增加的虧損。",
+    "目前本公司尚無來自產品銷售之收入來源。我們可能永遠無法產生此類收入或實現盈利。",
+    "籌措額外資金可能導致現有股東權益稀釋，限制本公司營運，或要求我們在不利於本公司之條件下放棄產品候選藥物之權利。",
+    "與產品候選藥物之開發及監管核准相關之風險",
+    "處於臨牀階段之生物製藥公司，其產品候選藥物處於臨牀開發階段，將面臨廣泛且具有挑戰性之活動，這些活動可能伴隨重大風險。",
+    "我們之主要產品候選藥物 GPS 代表一種新穎之治療方法，並帶來顯著之挑戰。",
+    "我們正在開發且可能持續開發我們之計畫與其他療法組合，這使我們面臨額外之風險。",
+    "臨牀藥物開發涉及一個漫長且昂貴的過程，且結果不確定。",
+    "在海外國家營運所涉及的風險可能重大且不利地影響我們的產品開發。",
+    "全球、市場及經濟情勢可能對我們的業務、財務狀況及股價產生負面影響。",
+    "我們在中國的合作夥伴關係使我們面臨與中國法律及法規相關的風險與不確定性，以及美國與中國關係變動的風險。",
+    "氣候變遷或為應對氣候變遷所採取的法律、法規或市場措施，可能對我們的業務、營運成果、現金流及前景產生負面影響。",
+    "我們的未來成功取決於我們產品候選藥物的監管批准。",
+    "我們目前及未來的產品候選藥物可能無法獲得FDA或相應的外國監管機構的監管批准。"
+   ],
+   "paragraphs": [
+    "您應仔細審閱下列所描述的風險與不確定性，並配合本年度報告表10-K中所有其他資訊。我們所處的產業為動態且快速變化的產業，涉及許多風險與不確定性。下列所描述的風險與不確定性並非我們所面臨的唯一風險。其他風險與不確定性，包括目前我們認為不具重大性者，可能會影響我們的業務。若任何上述所討論的風險實際發生，可能會對我們的業務、財務狀況、營運成果或現金流造成重大不利影響。本年度報告表10-K亦包含涉及風險與不確定性的展望性陳述。我們實際的結果可能與這些展望性陳述中預期的結果有重大差異，原因包括我們所面臨的風險，以及本年度報告表10-K其他地方所描述的風險。",
+    "投入生物製藥產品開發的投資具有高度風險性，因為其涉及大量的前期資金支出，且產品候選藥物可能無法證明其有效性、獲得監管核准或成為商業可行的產品。我們目前尚無任何產品獲得監管機關核准，至今亦未產生任何產品收入，且已產生與持續營運相關的重大研究、開發及其他費用。因此，我們尚未實現盈利，且自成立以來每個會計期間均產生重大營運虧損。截至2025年12月31日及2024年12月31日，我們分別報告淨虧損為26.9 百萬美元及30.9 百萬美元。截至2025年12月31日及2024年12月31日，我們的累積虧損分別為275.0 百萬美元及248.1 百萬美元。",
+    "我們不預期在許多年內，甚至可能永遠無法產生產品收入。我們預期將持續產生重大費用及營運虧損，至少在可預見的未來。我們預期這些虧損將隨著我們持續研究、開發並尋求監管核准我們的產品候選藥物，以及任何我們可能取得的其他產品候選藥物，並可能開始商業化獲得監管核准的產品候選藥物而增加。我們也可能遭遇未預見的費用、困難、複雜問題、延誤及其他未知因素，可能對我們的業務造成不利影響。我們未來的淨虧損規模，部分取決於未來費用成長的速度及我們產生收入的能力。我們的費用將進一步增加，因為我們：",
+    "•進行我們主要產品GPS的額外臨牀試驗，包括評估GPS用於AML的第三期臨牀試驗，以及我們第二個臨牀候選藥物SLS009；",
+    "•尋求任何成功完成臨牀試驗的產品候選藥物的市場核准；",
+    "•發展我們的委外製造活動，並建立銷售、行銷與分銷能力，若我們獲得，或預期將獲得任何產品候選藥物的市場核准時。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

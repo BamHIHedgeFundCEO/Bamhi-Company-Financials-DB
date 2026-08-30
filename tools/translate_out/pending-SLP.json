@@ -1,0 +1,223 @@
+{
+ "ticker": "SLP",
+ "cik": "0001023459",
+ "accession": "0001023459-25-000060",
+ "form": "10-K",
+ "reportDate": "2025-08-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "◦MedChem Designer™: free chemical sketching software tool that combines innovative molecule drawing features with some of the fast and accurate ADMET property predictions from ADMET Predictor.",
+    "◦GastroPlus®: mechanistically based simulation software that predicts absorption, biopharmaceutics, pharmacokinetics, and pharmacodynamics in humans and animals.",
+    "◦DDDPlus™: software for modeling the in vitro dissolution of active pharmaceutical ingredients (APIs) and formulation excipients under various experimental conditions.",
+    "◦MembranePlus™: software for in vitro permeability and hepatocyte modeling.",
+    "◦DILIsym®: software for predicting potential drug-induced liver injury (DILI) hazards and providing insight into mechanisms responsible for observed DILI responses.",
+    "◦ILDsym™: software for predicting efficacy of treatment modalities developed for interstitial lung disease (ILD) associated with systemic sclerosis (SSc).",
+    "◦IPFsym®: software for predicting efficacy of treatment modalities developed for idiopathic pulmonary fibrosis (IPF) and other lung diseases.",
+    "◦RENAsym®: software for predicting the likelihood of renal injury and providing insight into the biological mechanisms behind observed renal safety signals.",
+    "◦MITOsym®: software focused on representing in vitro experimental assessment of mitochondrial function.",
+    "◦OBESITYsym™: software for predicting drug efficacy for weight loss and nausea side effects.",
+    "◦Thales™: end-to-end quantitative systems pharmacology (QSP) software for building models, optimizing simulated populations to reported clinical efficacy, and visualizing and analyzing simulation results.",
+    "Clinical Operations",
+    "◦Pro-ficiency®: adaptive learning/simulation-based training software supporting protocol compliance during clinical trials.",
+    "Commercialization",
+    "ADMET Predictor®",
+    "MonolixSuite™",
+    "Pro-ficiency®",
+    "Compensation, Training, and Awareness Programs",
+    "Health & Safety",
+    "Environmental Matters",
+    "Social Impact and Supporting Our Communities",
+    "Client Privacy & Data Security",
+    "Business Ethics",
+    "Human Rights"
+   ],
+   "paragraphs": [
+    "As used in this Report, each of the terms \"we,\" \"us,\" \"our,\" the \"Company,\" and \"Simulations Plus\" refers to Simulations Plus, Inc. and its wholly owned subsidiaries (both current and previous, as applicable).",
+    "Simulations Plus, Inc. was incorporated in California on July 17, 1996. The Company is a global leader and premier provider in the biopharma sector, offering advanced software and consulting services that enhance drug discovery and development, clinical trial operations, and commercialization. The Company supports its clients across the drug development lifecycle from early discovery through all phases of clinical research and development (\"R&D\"), including clinical operations, to product commercialization. The Company serves clients as a strategic partner throughout the entire drug development lifecycle, offering solutions that integrate scientific software platforms, artificial intelligence-augmented insights, and expert consulting. This optimizes efficiency, costs, and time-to-market for our clients, thereby enhancing our competitive position.",
+    "Our clients face many challenges. Developing new therapies is time-consuming and expensive, requiring an average of 10-15 years at an average cost of $2.2 billion to develop a single drug according to Drug Discovery Today. Drug sponsors must prioritize not only the safety and efficacy of the drug, but also navigate issues such as drug-drug interactions, inclusion of diverse populations, evolving regulatory policies, increasing compliance during clinical trials, and achieving commercial success.",
+    "Our model-informed drug development (\"MIDD\") software and services solutions allow clients to use modeling and simulation to accelerate the drug development timeline, minimize animal testing, reduce the costs of R&D, comply with regulatory guidance and best practices, and increase confidence in the safety and efficacy of their drugs. Our clinical operations solutions support the success of clinical trials by enhancing participant diversity and retention of participants and driving competency and compliance with trial protocols. Meanwhile, our commercialization solutions provide support in obtaining regulatory approval and post-regulatory commercialization of new treatments.",
+    "Through these offerings, we fulfill our mission to create value for our clients by accelerating and reducing the costs of R&D through innovative science-based software and consulting solutions that optimize treatment options and improve patient lives.",
+    "At the beginning of the fourth quarter of fiscal year 2025, the Company reorganized its internal structure to create a more integrated and cohesive operating platform based on product and service solutions. This reorganization reflects a shift from a business unit to a function-based organizational structure including:",
+    "•Services; •Operations; •Product and Technology; •Research and Development; •Sales and Marketing; and",
+    "The Company's U.S. headquarters is in Research Triangle Park, NC and its European office is in Paris, France. Our common stock has traded on the Nasdaq Global Select Market under the symbol \"SLP\" since May 13, 2021, prior to which it traded on the Nasdaq Capital Market under the same symbol.",
+    "We provide end-to-end offerings across the drug development lifecycle, including guiding early drug discovery, establishing pre-clinical protocols, contributing to the design of clinical programs, enabling clinical trial operations, facilitating regulatory submissions for product approval, and supporting commercial market launches. We are a premier developer of modeling and simulation software for drug discovery and development, including the prediction of properties of molecules utilizing both artificial intelligence (\"AI\") and machine-learning (\"ML\") technologies. Our software and consulting services are provided to major pharmaceutical, biotechnology, agrochemical, cosmetics, and food industry companies and academic and regulatory agencies worldwide for use in conducting industry-based research. Our clients use our software programs and scientific consulting services during the drug discovery and development stages to enhance their understanding of the properties of potential new therapies and to use emerging data to improve formulations, select and justify dosing regimens, support generic pharmaceutical product development, optimize clinical trial designs, and simulate outcomes in special populations, such as elderly and pediatric patients. Our clients also leverage our software and consulting services to optimize their clinical trial operations and commercial market launches.",
+    "We currently offer software products for discovery, development, clinical operations, and commercialization, as follows:",
+    "•Two biosimulation products that predict and analyze static properties of chemicals utilizing both AI and ML technologies:",
+    "◦ADMET Predictor® : AI/ML software for absorption, distribution, metabolism, excretion, and toxicity (ADMET) modeling, with extended capabilities for data analysis, extensive metabolism predictions, AI-driven drug design, integrated HT-PBPK simulations, and rapid mechanistic liver safety risk assessments.",
+    "•Three biosimulation products that provide time-dependent results based on solving large sets of mechanistic differential equations:",
+    "•Eight biosimulation products that are based on mechanistic, mathematical models and differential equations:"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Certain Risks Related to Our Marketplace and Environment",
+    "Our ability to sustain or increase revenues will depend upon our success in entering new markets, continuing to increase our client base, and in deriving additional revenues from our existing clients.",
+    "We face strong competition in the life science market for modeling and simulation software and for cheminformatics products.",
+    "We are subject to price pressures in the markets we serve.",
+    "Impairment of goodwill or intangible assets may adversely impact future results of operations.",
+    "Certain Risks Related to Our Operations",
+    "Delays in the release of new or enhanced products or services or undetected errors in our products or services may result in increased cost to us, delayed market acceptance of our products, and delayed or lost revenue.",
+    "We are subject to various risks associated with the operation of a global business.",
+    "Changes in applicable U.S. and international tax laws or regulations and the resolution of tax disputes could negatively affect our financial results.",
+    "Contract research services create a risk of liability.",
+    "The drug discovery and development industry has a history of patent and other intellectual property litigation, involvement in intellectual property lawsuits is often very costly.",
+    "We may not be able to successfully develop and market new services and products.",
+    "We depend on key personnel and may not be able to retain these employees or recruit additional qualified personnel, which could harm our business.",
+    "If we are not successful in selecting and integrating the businesses and technologies we acquire, or in managing our current and future divestitures, our business may suffer.",
+    "We conduct business outside the U.S., which exposes us to foreign currency exchange rate risk, amongst other risk, and could have a negative impact on our financial results.",
+    "A significant portion of our operating expenses are relatively fixed and planned expenditures are based in part on expectations regarding future revenues.",
+    "If our clients cancel their contracts or terminate or delay their clinical trials, we may lose or delay revenues and our business may be adversely impacted.",
+    "If our security is breached, our business could be disrupted, our operating results could be harmed, and clients could be deterred from using our products and services.",
+    "results of operations.",
+    "Defects or errors in our software applications could harm our reputation, result in significant cost to us and impair our ability to market our solutions.",
+    "Some of our software solutions and services utilize open-source software, and any failure to comply with the terms of one or more of these open-source licenses could adversely affect our business.",
+    "We may be unable to adequately enforce or defend our ownership and use of our intellectual property and other proprietary rights.",
+    "Current and future litigation against us, which may arise in the ordinary course of our business, could be costly and time-consuming to defend.",
+    "We could incur substantial costs resulting from product liability claims relating to our products or services or our clients' use of our products or services.",
+    "Our business depends on the clinical trial market, and a downturn in this market could cause our revenues to decrease.",
+    "Certain Risks Related to Ownership of Our Common Stock",
+    "We have discontinued the quarterly dividends on shares of our common stock and do not expect to pay any cash dividends for the foreseeable future.",
+    "If our operating and financial performance in any given period does not meet any guidance that we provide to the public, the market price of our common stock may decline."
+   ],
+   "paragraphs": [
+    "You should carefully consider the risks described below, as well as the other information in this Annual Report, including our financial statements and the related notes and the section entitled \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" before investing in our securities. The occurrence of any of the events or developments described below could harm our business, financial condition, operating results, and/or growth prospects. The risks described below are not the only ones we face. Our business is also subject to the risks that affect many other companies, such as competition, technological obsolescence, labor relations, general economic conditions, geopolitical changes, artificial intelligence growth, and international operations. We operate in a rapidly changing environment that involves a number of risks, some of which are beyond our control. Additional risks not currently known to us or that we currently believe are immaterial also may impair our business operations and our liquidity. The risks described below could cause our actual results to differ materially from those contained in the forward-looking statements we have made in this Annual Report, the information incorporated herein by reference, and those forward-looking statements we may make from time to time. You should understand that it is not possible to predict or identify all such factors. Consequently, you should not consider the following to be a complete discussion of all potential risks or uncertainties.",
+    "Our products are currently used primarily by modeling and simulation specialists in companies involved in pharmaceuticals, biotechnology, agrotechnology, and cosmetics, as well as universities, hospitals, and government research organizations. One component of our overall business strategy is to derive more revenues from our existing clients by expanding their use of our products and services. In addition, we seek to expand into new markets, and new areas within our existing markets, by acquiring businesses in these markets, attracting and retaining personnel knowledgeable in these markets, identifying the needs of these markets, and developing marketing programs to address these needs. If successfully implemented, these strategies would increase the usage of our software and services by pharmacologists or pharmacometricians operating within our existing pharmaceutical, biotechnology, and chemical clients, as well as by new clients in other industries. However, if our strategies are not successfully implemented, our products and services may not achieve market acceptance or penetration in targeted new departments within our existing clients or in new industries. As a result, we may incur additional costs and expend additional resources without being able to sustain or increase revenue.",
+    "A decrease in, or resistance to, the acceptance of model-informed drug development and development by regulatory authorities or academic institutions could damage our reputation or reduce the demand for our products and services.",
+    "In recent years, there has been a steady increase in the recognition by regulatory agencies and academic institutions of the role that modeling and simulation can play in the biopharmaceutical development and approval process, as demonstrated by new regulations and guidance encouraging the use of modeling and simulation in the drug development and approval process, which has positively impacted our business. Changes in government or regulatory policy, or a stagnation or reversal in the trend toward increasing the acceptance of and reliance upon use of computer modeling and simulation in the drug development and approval process, could decrease the demand for our products and services or lead our clients to cease use of, or to recommend against the use of, our products and services. This, in turn, could negatively impact our reputation and/or have a material adverse impact on our business prospects and results of operations.",
+    "Increasing competition and increasing costs within the pharmaceutical and biotechnology industries, drug development and services industry, and the life science market for modeling and simulation software and cheminformatics products may affect the demand for our products and services, which may affect our results of operations and financial condition.",
+    "Our pharmaceutical and biotechnology clients' demand for our products is impacted by continued demand for their products and by their research and development costs. Demand for our clients' products could decline, and prices charged by our clients for their products may decline, as a result of governmental regulations and/or increasing competition, including competition from companies manufacturing generic drugs. In addition, our clients' expenses could continue to increase as a result of increasing costs of complying with government regulations and other factors. A decrease in demand for our clients' products, pricing pressures associated with the sales of these products, and additional costs associated with product development, could cause our clients to reduce research and development expenditures. Although our products increase productivity and reduce costs in many areas, because our products and services depend on such research and development expenditures, our revenues may be significantly reduced."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Executive Overview",
+    "Results of Operations",
+    "Comparison of fiscal years ended 2025 and 2024",
+    "(in thousands) Years ended % of Revenue",
+    "August 31, 2024 August 31, 2025 August 31, 2024 $ Change % Change",
+    "Comparison of fiscal years ended 2024 and 2023",
+    "Years ended % of Revenue",
+    "August 31, 2024 August 31, 2023 August 31, 2024 August 31, 2023 $ Change % Change",
+    "Liquidity and Capital Resources",
+    "Critical Accounting Estimates",
+    "Former reporting unit New reporting unit"
+   ],
+   "paragraphs": [
+    "Our clients face many challenges. Developing new therapies is time-consuming and expensive, requiring an average of 10-15 years and an average cost of approximately $2.2 billion to develop a single drug. Drug sponsors must prioritize not only efficacy and safety of the drug, but also issues like drug-drug interactions, inclusion of patients representative of the indicated population, regulatory approvals, minimization of animal testing, safety and compliance during clinical trials, and commercial success.",
+    "Our MIDD software and services allow clients to use modeling and simulation to accelerate drug development, reduce the costs of R&D, comply with regulatory guidance and best practices, and increase confidence in the safety and efficacy of their drugs and biologics. Our adaptive learning solutions support the success of clinical trials by accelerating recruitment of an appropriate patient population, increasing retention of participants, and by driving competency and compliance with trial protocols, while our medical communications solutions provide support in obtaining regulatory approval and commercialization of drugs.",
+    "The Company was previously headquartered in Southern California; however, in support of the Company's remote work culture and plan to reduce excess office space to achieve its carbon footprint reduction targets, the Company fully exited four office locations in Lancaster, California; Raleigh, North Carolina; Buffalo, New York; and Pittsburgh, Pennsylvania. As a result, the company moved its headquarters from Lancaster, California, to Research Triangle Park, North Carolina, and also maintains a European office in Paris, France."
+   ],
+   "focus": "Executive Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "◦MedChem Designer™: 無償化學草圖軟體工具，結合創新分子繪圖功能與 ADMET 預測器部分快速且準確的 ADMET 屬性預測。",
+    "◦GastroPlus®: 基於機制的模擬軟體，預測人類及動物的吸收、生物藥劑學、藥動學與藥效學。",
+    "◦DDDPlus™: 軟體用以模擬活性藥物成分（APIs）及製劑賦形劑在不同實驗條件下的體外溶解度。",
+    "◦MembranePlus™: 軟體用以體外透性及肝細胞模擬。",
+    "◦DILIsym®: 軟體用以預測潛在的藥物誘導肝損傷（DILI）風險，並提供觀察到 DILI 回應的機制洞察。",
+    "◦ILDsym™: 軟體用以預測針對間質性肺病（ILD）相關之全身性硬皮症（SSc）所開發治療方式的療效。",
+    "◦IPFsym®: 軟體用以預測針對特發性肺纖維化（IPF）及其他肺部疾病所開發治療方式的療效。",
+    "◦RENAsym®: 軟體用以預測腎臟損傷的可能性，並提供觀察到腎臟安全性訊號的生物機制洞察。",
+    "◦MITOsym®: 軟體專注於表現體外實驗評估線粒體功能。",
+    "◦OBESITYsym™: 軟體用以預測藥物對減重及噁心副作用的療效。",
+    "◦Thales™: 結尾到結尾的定量系統藥理學（QSP）軟體，用以建模、最佳化模擬族羣至報告臨牀療效，並視覺化與分析模擬結果。",
+    "臨牀作業",
+    "◦Pro-ficiency®: 自適性學習/模擬基準的訓練軟體，支援臨牀試驗期間的協議遵循。",
+    "商業化",
+    "ADMET Predictor®",
+    "MonolixSuite™",
+    "Pro-ficiency®",
+    "薪酬、訓練與意識提升方案",
+    "健康與安全",
+    "環境事項",
+    "社會影響與支持社區",
+    "客戶隱私權與資料安全",
+    "商業倫理",
+    "人權"
+   ],
+   "paragraphs": [
+    "如本報告所用，各項「我們」、「我們」、「我們的」、「本公司」及「Simulations Plus」均指 Simulations Plus, Inc. 及其全資子公司（包括現有及過去的子公司，視情況而定）。",
+    "Simulations Plus, Inc. 於 1996 年 7 月 17 日在加州註冊成立。本公司為生技藥品產業的全球領導者與首選服務提供者，提供先進的軟體與諮詢服務，以提升藥物發現與開發、臨牀試驗作業及商業化流程。本公司支援客戶於藥物開發全週期，從早期發現至臨牀研究與開發（\"R&D\"）各階段，包括臨牀作業，至產品商業化。本公司作為策略夥伴，服務客戶於藥物開發全週期，提供整合科學軟體平台、人工智慧增強見解及專家諮詢的解決方案。此舉可優化客戶的效率、成本與上市時間，進而強化本公司的競爭優勢。",
+    "",
+    "我們的模型導向藥物開發（\"MIDD\"）軟體與服務解決方案，使客戶能運用建模與模擬加速藥物開發時程，減少動物試驗，降低 R&D 成本，符合法規指引與最佳實務，並提升其藥物的安全性與有效性之信心。我們的臨牀作業解決方案透過提升參與者多樣性與參與者留存率，並推動試驗協議的專業能力與合規性，支援臨牀試驗的成功。同時，我們的商業化解決方案提供協助取得法規核准及法規後的商業化新療法的支援。",
+    "透過這些產品與服務，我們實現使命，即透過創新科學基礎的軟體與諮詢解決方案，加速並降低 R&D 成本，為客戶創造價值，優化治療選項並改善病患生活。",
+    "在財務年度 2025 年第四季之初，本公司重新組織內部結構，以建立基於產品與服務解決方案的更整合且協調的運作平台。此重新組織反映從業務單位轉向以功能為基礎的組織結構，包括：",
+    "•服務；•運作；•產品與科技；•研究與開發；•銷售與行銷；以及",
+    "本公司美國總部位於北卡羅來納州研究三角園區，歐洲辦事處位於法國巴黎。我們的普通股自 2021 年 5 月 13 日起在納斯達克全球選択市場（Nasdaq Global Select Market）以符號 \"SLP\" 交易，此前則在納斯達克資本市場（Nasdaq Capital Market）以相同符號交易。",
+    "本公司提供藥物開發全生命週期的解決方案，包括引導早期藥物發現、建立臨牀前研究協議、參與臨牀試驗計畫設計、啟動臨牀試驗作業、協助產品核准的法規申請，以及支援商業市場上市。本公司為藥物發現與開發領域的首選建模與模擬軟體開發商，包含利用人工智慧（\"AI\"）與機器學習（\"ML\"）技術預測分子特性。本公司軟體與諮詢服務提供給全球主要的製藥、生物科技、農化、化妝品與食品產業公司，以及學術與法規機構，用以進行產業研究。客戶在藥物發現與開發階段使用本公司軟體與科學諮詢服務，以提升對潛在新療法特性之理解，並運用新興數據改善製劑、選擇與說明劑量方案、支援仿製藥品開發、優化臨牀試驗設計，並模擬特殊族羣（如長者與兒童患者）的結果。客戶亦運用本公司軟體與諮詢服務優化臨牀試驗作業與商業市場上市。",
+    "本公司目前提供用於發現、開發、臨牀作業與商業化之軟體產品，如下：",
+    "• 兩種生物模擬產品，利用AI與ML技術預測與分析化學物質的靜態特性：",
+    "◦ ADMET Predictor® ：AI/ML軟體，用於吸收、分佈、代謝、排泄與毒性（ADMET）建模，並具備資料分析功能、廣泛代謝預測、AI驅動藥物設計、整合高通量PBPK模擬以及快速機制性肝臟安全性風險評估。",
+    "• 三種生物模擬產品，提供基於解決大量機制性微分方程組的時間依賴性結果：",
+    "• 八種生物模擬產品，基於機制性數學模型與微分方程："
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "執行長摘要",
+    "營運成果",
+    "比較財務年度終了於2025年與2024年",
+    "(以千為單位) 年度終了 % 的營業收入",
+    "2024年8月31日 2025年8月31日 2024年8月31日 美元變動 % 變動",
+    "比較財務年度終了於2024年與2023年",
+    "年度終了 % 的營業收入",
+    "2024年8月31日 2023年8月31日 2024年8月31日 2023年8月31日 美元變動 % 變動",
+    "流動性及資本資源",
+    "關鍵會計估計",
+    "先前報告單位 新報告單位"
+   ],
+   "paragraphs": [
+    "本公司客戶面臨許多挑戰。開發新療法耗時且費用高昂，平均需要 10-15 年時間，且單一藥物的平均開發成本約為 2.2 十億美元。藥物申辦人必須不僅考量藥物的療效與安全性，還必須處理藥物間交互作用、納入代表目標族羣的病患、取得法規核准、減少動物實驗、臨牀試驗期間的安全性與合規性，以及商業成功等問題。",
+    "本公司 MIDD 軟體與服務可協助客戶運用建模與模擬技術加速藥物開發，降低研發成本，符合法規指引與最佳實務，並提升其藥物與生物製品的安全性與療效信心。本公司適應性學習解決方案可透過加速適當病患族羣的招募、提高參與者留存率，以及推動試驗協議的專業能力與合規性，來支持臨牀試驗的成功；而本公司醫療溝通解決方案則可提供協助，以取得藥物的法規核准與商業化。",
+    "本公司先前總部設於美國南加州；然而，為配合本公司遠端工作文化與減少過度辦公室空間以達成減碳目標，本公司已完全退出位於加州蘭開斯特、北卡羅來納州雷利爾、紐約布法羅與賓夕法尼亞州匹茲堡的四處辦公室。因此，本公司已將總部從加州蘭開斯特遷至北卡羅來納州研究三角園區，並同時維持法國巴黎的歐洲辦公室。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "某些與我們交易平台及環境相關的風險",
+    "本公司持續或提高營業收入的能力，將取決於本公司在進入新市場、持續擴大客戶羣體，以及從現有客戶獲得額外收入的成效。",
+    "我們在生命科學市場的建模與模擬軟體以及化學資訊產品方面面臨強烈的競爭。",
+    "我們在所服務的市場面臨價格壓力。",
+    "商譽或無形資產減損可能對未來營運成果產生不利影響。",
+    "某些與我們營運相關的風險",
+    "新產品或服務發佈的延遲或產品或服務中未察覺的錯誤，可能導致本公司增加成本、延遲產品市場接受度，以及延遲或喪失收入。",
+    "我們面臨與營運全球業務相關的各種風險",
+    "適用於美國及國際的稅法或規範之變更，或稅務爭議之解決，可能對我們之財務結果產生負面影響。",
+    "合同研究服務可能產生責任風險。",
+    "藥物發現與開發產業有歷史上專利及其他智慧財產權訴訟之紀錄，參與智慧財產權訴訟往往非常耗費成本。",
+    "我們可能無法成功開發並行銷新之服務與產品。",
+    "我們依賴關鍵人員，可能無法留住這些員工或招募更多合格之人才，這可能會對我們之業務造成損害。",
+    "若我們未能成功選擇並整合所取得之業務與技術，或在管理我們目前及未來之資產處分，我們之業務可能會受影響。",
+    "我們在美國境外進行業務，這使我們面臨外幣匯率風險，以及其他風險，並可能對我們之財務結果產生負面影響。",
+    "我們營運費用之相當大一部分屬相對固定，預算規劃部分係基於對未來營收之預期。",
+    "若我方客戶終止契約或中止或延遲其臨牀試驗，我方可能失去或延遲收入，且我方業務可能受到不利影響。",
+    "若我方安全遭入侵，我方業務可能受影響，營運成果可能受損，且客戶可能因而放棄使用我方產品與服務。",
+    "營運成果。",
+    "我方軟體應用程式若有瑕疵或錯誤，可能損害我方聲譽，導致我方產生重大成本，並影響我方推廣解決方案的能力。",
+    "我方部分軟體解決方案與服務使用開放原始碼軟體，若未能遵守任一或數個開放原始碼授權條款，可能對我方業務造成不利影響。",
+    "我方可能無法充分執行或防禦我方智慧財產權及其他專有權利的所有權與使用權。",
+    "現有及未來可能針對我方提起的訴訟，即使係因業務常規運作而產生，也可能導致我方產生高昂成本且耗費大量時間進行辯護。",
+    "我方可能因產品責任聲請，涉及我方產品或服務或客戶使用我方產品或服務，而產生重大成本。",
+    "本公司業務依賴臨牀試驗市場，若該市場出現衰退，可能導致本公司營業收入減少。",
+    "持有本公司普通股之風險",
+    "本公司已停止發放普通股之季節性股息，且在可預見之未來，不預期支付任何現金股息。",
+    "若本公司在任一期間之營運及財務表現未達對外提供之指引，則本公司普通股之市場價格可能下跌。"
+   ],
+   "paragraphs": [
+    "您應仔細審閱下列所列風險，以及本年度報告中的其他資訊，包括財務報表及相關附註，以及標題為「管理層對財務狀況與營運成果之討論與分析」的章節，再考慮投資本公司證券。上述所列任何事件或發展若發生，可能會對本公司業務、財務狀況、營運成果及/或成長前景造成損害。下列所列風險並非本公司所面臨的唯一風險。本公司業務亦受許多其他公司所面臨的風險影響，例如競爭、技術淘汰、勞資關係、總體經濟狀況、地緣政治變動、人工智慧成長，以及國際營運。本公司營運環境快速變動，涉及許多風險，其中一些風險超出本公司控制範圍。此外，尚有其他風險，目前本公司尚未知悉，或目前認為不重要，這些風險亦可能影響本公司業務營運及流動性。下列所列風險可能導致本公司實際結果與本年度報告、 herein 所引用資訊，以及本公司未來可能做出的預測性陳述之間產生重大差異。您應瞭解，無法預測或識別所有這些因素。因此，您不應將下列內容視為所有潛在風險或不確定性的完整討論。",
+    "本公司產品目前主要用於藥物模型與模擬專門人士所屬的公司，這些公司涉及製藥、生物科技、農業科技與化妝品產業，以及大學、醫院與政府研究機構。本公司整體業務策略之一，是透過擴大客戶使用本公司產品與服務的範圍，以增加來自現有客戶的收入。此外，本公司亦尋求透過收購這些產業的公司、吸引並留住熟悉這些產業的人員、識別這些產業的需求，以及發展行銷方案以應對這些需求，來拓展新市場，以及在現有市場中拓展新領域。若這些策略成功實施，將會增加藥物學家或藥物模型與模擬專家在本公司現有製藥、生物科技與化學客戶中，以及在其他產業的新客戶中使用本公司軟體與服務的程度。然而，若本公司策略未能成功實施，則本公司產品與服務可能無法在現有客戶的目標新部門或新產業中獲得市場接受度或滲透率。因此，本公司可能產生額外成本並耗用更多資源，卻無法維持或增加收入。",
+    "若對模型導向藥物開發及藥物開發過程的接受度減少或產生抵觸，可能會損害本公司聲譽，或降低對本公司產品與服務的需求。",
+    "近年來，監管機構與學術機構對模型與模擬在生物製藥開發與核准程序中所扮演角色的認知持續增加，這一點透過新規範與指引鼓勵在藥物開發與核准程序中使用模型與模擬而得到體現，這已對本公司業務產生正面影響。政府或監管政策的變動，或對增加接受並依賴電腦模型與模擬在藥物開發與核准程序中使用的趨勢出現停滯或逆轉，可能會降低對本公司產品與服務的需求，或導致客戶停止使用，或建議不使用本公司產品與服務。這將進一步對本公司聲譽造成負面影響，或對本公司業務前景與營運成果產生重大不利影響。",
+    "製藥與生物科技產業、藥物開發與服務產業，以及模型與模擬軟體與化學資訊產品在生命科學市場中的競爭增加與成本上升，可能影響對本公司產品與服務的需求，進而影響本公司營運成果與財務狀況。",
+    "本公司製藥與生物科技客戶對本公司產品的需求，受到其產品持續需求及研究與開發成本的影響。客戶產品的需求可能下降，且客戶對其產品所收取的價格也可能下降，這是因為政府規範及/或競爭增加，包括來自製造仿製藥公司的競爭。此外，客戶的費用可能因遵守政府規範的成本增加及其他因素而持續上升。客戶產品需求下降、這些產品銷售所產生的價格壓力，以及與產品開發相關的額外成本，可能會導致客戶減少研究與開發支出。雖然本公司產品在許多領域能提高生產力並降低成本，但因為本公司產品與服務依賴這些研究與開發支出，因此本公司收入可能大幅減少。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

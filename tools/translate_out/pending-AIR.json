@@ -1,0 +1,205 @@
+{
+ "ticker": "AIR",
+ "cik": "0000001750",
+ "accession": "0001104659-26-085459",
+ "form": "10-K",
+ "reportDate": "2026-05-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Business Segments",
+    "Raw Materials and Procurement of Repair and Other Services",
+    "Terms of Sale",
+    "Sales to Government and Defense Customers",
+    "Government Regulation and Certificates",
+    "Human Capital Resources",
+    "Available Information",
+    "Information about our Executive Officers",
+    "Current Position with the Company"
+   ],
+   "paragraphs": [
+    "AAR CORP. and its subsidiaries are referred to herein collectively as \"AAR,\" \"Company,\" \"we,\" \"us,\" and \"our\" unless the context indicates otherwise. AAR was incorporated in 1955 and we are a leading independent provider of solutions to the global aviation aftermarket. We offer a broad line of products and services to commercial and government aerospace customers and operate globally in over 20 countries.",
+    "During the fourth quarter of fiscal 2026, we changed our operating segment structure to realign our Integrated Solutions segment which resulted in the following changes:",
+    "● Combined our government programs activities and our Mobility Systems business, previously reported as Expeditionary Services, into a new operating segment named Government Solutions;",
+    "● Re-positioned our software platform to our Repair and Engineering segment, which was renamed Repair, Engineering, and Software; and",
+    "● Legacy Commercial Programs, the remaining business unit within the Integrated Solutions segment, is now separately reported as its own operating segment.",
+    "These changes resulted in the following four operating segments:",
+    "● Parts Supply remains unchanged from the prior structure, primarily consisting of new parts Distribution and sales of used serviceable material, including aircraft, engine and airframe parts and components (\"USM\");",
+    "● Repair, Engineering, and Software primarily consists of maintenance, repair, and overhaul (\"MRO\") of airframes (\"Airframe MRO\"), certain other components (\"Component MRO\"), and our software platforms, including Trax, Aerostrat, Airvoyant and Airinmar;",
+    "● Government Solutions primarily consists of our fleet management and operations of customer-owned aircraft, customized performance-based supply chain logistics programs in support of the U.S. Department of War (\"DoW\"), the U.S. Department of State (\"DoS\") and foreign governments and the engineering, design, integration, manufacture, and repair of pallets, shelters, and containers (\"Mobility Systems\"); and",
+    "● Legacy Commercial Programs consists of asset-heavy flight hour-based component pool and repair programs for commercial airlines and distribution of consumables and expendables inventory. During the fourth quarter of fiscal 2026, we also announced our intention to exit our Legacy Commercial Programs business as it requires significant asset pools and no longer meets our capital return thresholds. We anticipate that the wind-down of this segment will take approximately three to four years as the Legacy Commercial Programs' existing customer contracts are terminated and its rotable assets are sold.",
+    "In fiscal 2026, we completed one acquisition in our Parts Supply segment and three acquisitions in our Repair, Engineering, and Software segment to further expand our products and services portfolio and our global footprint:",
+    "● In September 2025, we acquired American Distributors Holding Co., LLC (\"ADI\") for $137.1 million. ADI is a leading distributor of electronic components and assemblies to original equipment manufacturers (\"OEMs\") across the aerospace and defense industry,",
+    "● In November 2025, we acquired HAECO Americas for $78.0 million. HAECO Americas is a provider of heavy aircraft MRO and modification services across its hangars located in Greensboro, North Carolina and Lake City, Florida. Prior to its acquisition, HAECO Americas was the second largest heavy maintenance provider in North America and immediately expanded our maintenance footprint. Related to the transaction, we also secured multi-year heavy maintenance contracts with key customers.",
+    "● In April 2026, we acquired Aircraft Reconfig Technologies (\"ART\") for $36.0 million. ART is a leading aircraft interiors engineering company which adds Federal Aviation Administration (\"FAA\") Organization Designation Authorization to our engineering services capabilities. This enables us to issue supplemental type certificates and Parts Manufacturer Approval (\"PMA\") without reliance on third parties."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business and Industry",
+    "We are affected by factors that adversely impact the commercial aviation industry.",
+    "Adverse events that occur in the aviation industry generally may adversely affect our reputation, which may adversely affect our business, financial results, financial condition and stock price.",
+    "Our U.S. government contracts may not continue at present sales levels, which may have a material adverse effect on our financial condition and results of operations.",
+    "We use estimates when accounting for long-term contracts and face risks of cost overruns and losses on these contracts.",
+    "If our subcontractors or suppliers fail to perform their contractual obligations, our contract profitability and our ability to win new contracts may be adversely affected.",
+    "The success of our Repair, Engineering, and Software segment is dependent upon our ability to manage our operational footprint.",
+    "The success of our Repair, Engineering, and Software business segment is dependent upon continued outsourcing by the airlines.",
+    "Our operations may be adversely affected by a shortage of skilled personnel or work stoppages.",
+    "We operate in highly competitive markets, and competitive pressures may adversely affect us.",
+    "We are exposed to risks associated with operating internationally.",
+    "Acquisitions, which are a part of our business strategy, expose us to risks, including the risk that we may be unable to achieve the anticipated benefits from the acquired businesses.",
+    "Circumstances associated with divestitures could adversely affect our results of operations and financial condition.",
+    "Market values for our aviation products fluctuate and we may be unable to recover our costs incurred on engines, rotable components and other aircraft parts.",
+    "Risks Related to Technology and Intellectual Property",
+    "Our business could be negatively affected by cyber or other security threats or other disruptions.",
+    "We may need to make significant capital expenditures to keep pace with technological developments in our industry and we may not be successful in doing so.",
+    "We do not own certain intellectual property and tooling that is important to our business, and we may be unable to protect the value of our intellectual property.",
+    "Risks Related to Financial Matters",
+    "Our debt exposes us to certain risks.",
+    "We are dependent upon continued availability of financing to manage our business and to execute our business strategy, and additional financing may not be available on terms acceptable to us.",
+    "Risks Related to Legal and Regulatory Matters",
+    "If we fail to comply with laws and regulations governing federal contractors, we could lose business and be liable for various penalties or sanctions."
+   ],
+   "paragraphs": [
+    "The following is a description of the principal risks inherent in our business. Any of the risks and uncertainties described below could materially and adversely affect our business, financial condition, and results of operations and should be considered in evaluating us. You should not interpret the disclosure of any risk factor to imply that the risk has not already materialized. Although the risks are organized by heading, and each risk is described separately, many of the risks are interrelated. While we believe we have identified and discussed below the material risks affecting our business, there may be additional risks and uncertainties that we do not presently know or that we do not currently believe to be material that may adversely affect our business, financial condition, or results of operations in the future.",
+    "Our sales to commercial customers, including major airlines and related OEM suppliers, were $2,384.1 million (72.1% of consolidated sales) in fiscal 2026. As a provider of products and services to the commercial aviation industry, we are greatly affected by the overall economic conditions and other trends that affect our customers in that industry, including any decrease in outsourcing by aircraft operators or projected market growth that may not materialize or be sustainable. The commercial aviation industry is historically cyclical and has been negatively affected in the past, and could be negatively affected in future periods, by geopolitical events, ongoing conflicts and wars (including the ongoing Russia-Ukraine conflict and Middle East conflicts), trade wars, the imposition or increase in tariffs or retaliatory countermeasures or changes in trade policies, terrorism, weather-related events, natural disasters, pandemics, disruption to fuel and oil production and supply shortages, high fuel and oil prices, other supply chain disruptions, labor issues and strikes (such as the union work stoppage at Boeing), environmental concerns (including climate change), lack of capital, cost inflation, high interest rates, and weak economic conditions, among other things.",
+    "As a result of these and other events, from time to time, certain of our customers have filed for bankruptcy protection or ceased operation. The impact of instability in the global financial markets has led, and may in the future lead, airlines to reduce domestic or international capacity. In addition, certain of our airline customers have in the past been impacted by tight credit markets, which limited their ability to buy parts, services, engines, and aircraft. Economic and other factors that adversely affect the aviation industry lead to reduced overall customer demand for our products and services, which decreases our operating income.",
+    "A reduction in the operating fleet or flight activity of aircraft both in the U.S. and abroad has resulted in, and may again result in, reduced demand for parts support and maintenance activities for the type of aircraft affected, which decreases our operating income. A deteriorating airline environment may also result in our inability to fully collect outstanding accounts receivable, which we experienced during the height of the pandemic in 2020 and 2021.",
+    "Reduced demand from customers caused by weak economic conditions, including tight credit conditions and customer bankruptcies, may adversely impact our financial condition or results of operations. If any of the customers with whom we do business become insolvent or experience substantial financial difficulties, we may be unable to timely collect amounts owed to us by such customers, and we may not be able to sell the inventory we have purchased for such customers, which may adversely affect our results of operations and financial condition. A slowdown in the global economy, or a recession, would negatively impact the commercial aviation industry, and may have a material adverse effect on our business, results of operations, financial condition and liquidity.",
+    "In addition, recent increases in energy costs and the price of fuel to the airlines resulting from conflicts in the Middle East have been placing additional pressure on the operating costs of airlines, which are our largest customers. The market for jet fuel is inherently volatile and is subject to, among other things, changes in government policy on jet fuel production, fluctuations in the global supply of crude oil, disruptions in oil production or delivery caused by hostility in oil-producing areas, or potential legislation or strategic initiatives to address climate change by reducing greenhouse gas emissions, creating carbon taxes, or implementing or otherwise participating in cap and trade programs. Airlines are sometimes unable to pass on increases in fuel prices to customers by increasing fares due to the competitive nature of the airline industry, and this compounds the pressure on operating costs, and in turn, the airlines' ability to do business with us."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "(Dollars in millions)",
+    "Background and Forward-Looking Statements",
+    "General Overview",
+    "Business Trends and Outlook",
+    "Discussion of Results of Operations",
+    "Year Ended May 31,",
+    "Operating Segment Results of Operations",
+    "Liquidity, Capital Resources and Financial Position",
+    "Contractual Obligations and Off-Balance Sheet Arrangements",
+    "Payments Due by Period",
+    "Critical Accounting Policies and Significant Estimates"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations, and quantitative and qualitative disclosures about market risk should be read in conjunction with our consolidated financial statements and the related notes included in this Annual Report on Form 10-K. For a discussion of the comparison of fiscal 2025 and 2024, refer to Part II, Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations of our Annual Report on Form 10-K for the year ended May 31, 2025 (filed with the SEC on July 22, 2025).",
+    "Management's Discussion and Analysis of Financial Condition and Results of Operations contains certain statements relating to future results, which are forward-looking statements as that term is defined in the Private Securities Litigation Reform Act of 1995. Forward-looking statements may also be identified because they contain words such as ‘‘anticipate,'' ‘‘believe,'' ‘‘continue,'' ‘‘could,'' ‘‘estimate,'' ‘‘expect,'' ‘‘intend,'' ‘‘likely,'' ‘‘may,'' ‘‘might,'' ‘‘plan,'' ‘‘potential,'' ‘‘predict,'' ‘‘project,'' ‘‘seek,'' ‘‘should,'' ‘‘target,'' ‘‘will,'' ‘‘would,'' or similar expressions and the negatives of those terms. These forward-looking statements are based on the beliefs of management, as well as assumptions and estimates based on information available to us as of the dates such assumptions and estimates are made, and are subject to certain risks and uncertainties, including those factors discussed under Item 1A, \"Risk Factors,\" that could cause actual results to differ materially from those anticipated. Should one or more of those risks or uncertainties materialize adversely, or should underlying assumptions or estimates prove incorrect, actual results may vary materially from those described. Those events and uncertainties are difficult or impossible to predict accurately and many are beyond our control. We assume no obligation to update any forward-looking statements to reflect events or circumstances after the date of such statements or to reflect the occurrence of anticipated or unanticipated events.",
+    "During the fourth quarter of fiscal 2026, we changed our operating segment structure to realign our Integrated Solutions segment which resulted in the following changes:",
+    "● Combined our government programs activities and our Mobility Systems business, previously reported as Expeditionary Services, into a new operating segment named Government Solutions;",
+    "● Re-positioned our software platform to our Repair and Engineering segment, which is renamed Repair, Engineering, and Software; and",
+    "● Legacy Commercial Programs, the remaining business unit within the Integrated Solutions segment, is now separately reported as its own operating segment.",
+    "These changes resulted in the following four operating segments:",
+    "● Parts Supply remains unchanged from the prior structure, primarily consisting of new parts Distribution and sales of used serviceable material, including aircraft, engine and airframe parts and components (\"USM\");",
+    "● Repair, Engineering, and Software primarily consists of Airframe MRO, Component MRO, and our software platforms, including Trax, Aerostrat, Airvoyant and Airinmar;",
+    "● Government Solutions primarily consists of our fleet management and operations of customer-owned aircraft, customized performance-based supply chain logistics programs in support of the U.S. Department of War (\"DoW\"), the U.S. Department of State (\"DoS\") and foreign governments and the engineering, design, integration, manufacture, and repair of pallets, shelters, and containers (\"Mobility Systems\"); and",
+    "● Legacy Commercial Programs consists of asset-heavy flight hour-based component repair programs for commercial airlines and distribution of consumables and expendables inventory. During the fourth quarter of fiscal 2026, we also announced our intention to exit our Legacy Commercial Programs business as it requires significant asset pools and no longer meets our capital return thresholds. We anticipate that the wind-down of the segment will take approximately three to four years as the Legacy Commercial Programs' existing customer contracts are terminated and its rotable assets are sold.",
+    "Our chief operating decision making officer (\"CODM\") is our Chief Executive Officer and he evaluates performance on our operating segments using operating income as the primary profitability measure. Our operating segments are aligned principally around differences in products and services. The Company has not aggregated operating segments for purposes of identifying reportable segments. Inter-segment sales are recorded at fair value which results in intercompany profit on inter-segment sales that is eliminated in consolidation. Corporate selling, general and administrative expenses include centralized functions such as legal, finance, treasury and human resources with a portion of the costs allocated to our operating segments.",
+    "In fiscal 2026, we completed one acquisition in our Parts Supply segment and three acquisitions in our Repair, Engineering, and Software segment to further expand our products and services portfolio and our global footprint:",
+    "● In September 2025, we acquired American Distributors Holding Co., LLC (\"ADI\") for $137.1 million. ADI is a leading distributor of electronic components and assemblies to original equipment manufacturers (\"OEMs\") across the aerospace and defense industry,"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "業務分部",
+    "原物料與維修及其他服務之採購",
+    "銷售條款",
+    "銷售至政府與防禦性客戶",
+    "政府規範與證照",
+    "人力資源",
+    "可取得資訊",
+    "本公司高階主管之資訊",
+    "現有與本公司的關係"
+   ],
+   "paragraphs": [
+    "AAR CORP. 以及其子公司在此文中 collectively 稱為 \"AAR,\" \"Company,\" \"we,\" \"us,\" 和 \"our\"，除非上下文另有說明。AAR 於 1955 年成立，我們是全球航空後市場領域的領導獨立解決方案供應商。我們為商業與政府航空航天客戶提供廣泛的產品與服務，並在全球超過 20 個國家進行營運。",
+    "在財務年度 2026 年第四季，我們調整了營運分部結構，以重新定位 Integrated Solutions 分部，導致以下變更：",
+    "● 將政府計畫業務與 Mobility Systems 商業，先前歸類為 Expeditionary Services，合併為一個新營運分部，名為 Government Solutions;",
+    "● 將我們的軟體平台重新定位至 Repair and Engineering 分部，該分部已更名為 Repair, Engineering, and Software; 以及",
+    "● Legacy Commercial Programs，為 Integrated Solutions 分部中剩餘的業務單位，現已獨立報告為其自身的營運分部。",
+    "這些變更導致以下四個營運分部：",
+    "● Parts Supply 儘管結構未變更，主要由新零件 Distribution 與銷售使用中可服務材料（包括飛機、發動機與機體零件與零組件（\"USM\"）組成；",
+    "● Repair, Engineering, and Software 主要由飛機（\"Airframe MRO\"）維護、修理與大修（\"MRO\"）、某些其他零組件（\"Component MRO\"）以及我們的軟體平台，包括 Trax, Aerostrat, Airvoyant 和 Airinmar 組成；",
+    "● 政府解決方案主要包含本公司飛機隊伍管理及客戶所有飛機的運作，為美國國防部（\"DoW\"）、美國國務院（\"DoS\"）及外國政府提供的客製化績效基準供應鏈物流方案，以及貨架、遮蔽物與容器（\"Mobility Systems\"）的工程、設計、整合、製造與維修；",
+    "● 遺留商業方案包含為商業航空公司提供的資產密集型飛行小時基準零組件池與維修方案，以及消耗性存貨與消耗品的分銷。在財務年度2026年第四季，我們也宣佈有意退出遺留商業方案業務，因其需要大量資產池，且已無法符合我們的資本回報門檻。我們預期此應報告分部的收縮過程將耗時約三至四年，因遺留商業方案現有客戶契約將終止，且其可更換資產將被出售。",
+    "在財務年度2026年，我們在零組件供應應報告分部完成一項收購，並在維修、工程與軟體應報告分部完成三項收購，以進一步擴充我們的產品與服務組合及全球據點：",
+    "● 2025年9月，我們以1.371億美元收購美國分銷控股公司（\"ADI\"）。ADI為航空與防衛產業中，為原始設備製造商（\"OEMs\"）提供電子零組件與組裝的領導分銷商，",
+    "● 2025年11月，我們以7,800萬美元收購HAECO美洲分公司。HAECO美洲分公司為其位於北卡羅來納州格林斯堡與佛羅裏達州拉基城的機庫中，提供大型飛機維修與修改服務的供應商。在收購前，HAECO美洲分公司為北美第二大重型維修服務供應商，並立即擴大我們的維修據點。與此交易相關，我們也與關鍵客戶簽訂了多年重型維修契約。",
+    "● 2026年4月，我們以3,600萬美元收購飛機重新配置科技公司（\"ART\"）。ART為一家領先的飛機內部工程公司，其取得聯邦航空管理局（\"FAA\"）組織設計授權，增強我們的工程服務能力。此舉使我們能夠在不依賴第三方的情況下，發行補充型號證書與零組件製造批准（\"PMA\"）。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "（金額以千萬美元為單位)",
+    "背景與展望性陳述",
+    "總體概覽",
+    "業務趨勢與展望",
+    "營運成果討論",
+    "截至5月31日年度",
+    "營運分部成果",
+    "流動性、資金來源與財務狀況",
+    "契約義務及表外財務安排",
+    "按期間應支付金額",
+    "關鍵會計政策及重要會計估計"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運成果的討論與分析，以及關於市場風險的量化與質化揭露，應與本年度10-K申報表所附之合併財務報表及相關附註一併閱讀。有關財務年度2025年與2024年比較之說明，請參閱本年度10-K申報表「Part II, Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations」部分，該部分係於2025年5月31日財務年度終了後，於2025年7月22日提交至美國證券交易委員會（SEC）。",
+    "Management's Discussion and Analysis of Financial Condition and Results of Operations 中包含若干與未來結果相關之陳述，屬根據1995年私人證券 litigation 改革法案所定義之預測性陳述。預測性陳述亦可能因包含如「anticipate」「believe」「continue」「could」「estimate」「expect」「intend」「likely」「may」「might」「plan」「potential」「predict」「project」「seek」「should」「target」「will」「would」等詞彙或其否定形式而被識別。這些預測性陳述係基於管理階層的信念，以及根據當時可得資訊所作之假設與估計，並受某些風險與不確定性影響，包括於Item 1A「Risk Factors」中所討論之因素，這些因素可能導致實際結果與預期有重大差異。若其中之一或數個風險或不確定性惡化，或基礎假設與估計證明錯誤，實際結果可能與所述有重大差異。這些事件與不確定性難以或無法準確預測，且許多因素已超出本公司控制範圍。本公司不承擔更新任何預測性陳述以反映該陳述日期後發生之事件或情況，或反映預期或未預期事件之義務。",
+    "在財務年度2026年第四季，我們調整了營運分部結構，以重新定位整合解決方案分部，導致以下變更：",
+    "● 將政府計畫活動與移動系統業務（先前歸類於Expeditionary Services）合併，成立一個新營運分部，名為Government Solutions;",
+    "● 將軟體平台重新定位至修復與工程分部，該分部更名為Repair, Engineering, and Software; 以及",
+    "● 遺留商業計畫（Integrated Solutions分部內的剩餘業務單位）現已作為獨立營運分部報告。",
+    "這些變更導致以下四個營運分部：",
+    "● Parts Supply維持與先前結構相同，主要由新零件的分銷與二手可服務物料（包括飛機、發動機與機身零件與零組件（\"USM\"））的銷售組成。",
+    "● 修復、工程與軟體業務主要包含飛機維修保養（Airframe MRO）、零組件維修保養（Component MRO）以及我們的軟體平台，包括Trax、Aerostrat、Airvoyant 和 Airinmar;",
+    "● 政府解決方案業務主要包含我們的機隊管理與客戶所有飛機的運營，為美國國防部（\"DoW\"）、美國國務院（\"DoS\"）及外國政府量身打造的績效基準供應鏈物流方案，以及貨架、掩體與容器（\"Mobility Systems\"）的工程、設計、整合、製造與修復;",
+    "● 既往商業計畫業務包含為商業航空公司提供的資產密集型飛行小時基準零組件修復計畫，以及消耗品與消耗性存貨的分銷。在財務年度2026年第四季，我們也宣佈有意退出既往商業計畫業務，因其需要大量資產池，且已無法符合我們的資本回報門檻。我們預期該業務的收縮將耗時約三至四年，因既往商業計畫業務現有客戶合約將終止，且其可更換資產將被出售。",
+    "我們的首席營運決策主管（\"CODM\"）為我們的首席執行官，他以營運獲利（operating income）作為主要的獲利衡量指標來評估各營運分部的表現。我們的營運分部主要根據產品與服務的差異進行劃分。本公司未將營運分部進行合併，以確認應報告分部。分部間銷售採用公允價值計價，導致分部間銷售產生的內部利潤在合併時予以抵銷。公司營運費用包含集中管理的職能，如法律、財務、財務與人力資源，其中部分費用已分攤至各營運分部。",
+    "在財務年度2026年，我們在零件供應分部完成一項收購，並在修復、工程與軟體分部完成三項收購，以進一步擴展我們的產品與服務組合及全球業務版圖：",
+    "● 2025年9月，我們以1.371億美元收購美國分銷控股公司（American Distributors Holding Co., LLC，\"ADI\"）。ADI 是航空與防衛產業中，為原始設備製造商（\"OEMs\"）提供電子零組件與組裝的領導分銷商,"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務及產業相關之風險",
+    "我們受到影響，而此影響會對商業航空產業造成負面影響。",
+    "航空產業中發生之不利事件，通常會對我們之聲譽造成不利影響，進而對我們之業務、財務結果、財務狀況及股票價格造成不利影響。",
+    "我們美國政府之契約可能無法維持目前之銷售水準，此可能會對我們之財務狀況及營運結果造成重大不利影響。",
+    "我們在會計長遠契約時會使用估計數，因此面臨成本超支及這些契約產生虧損之風險。",
+    "若我們之分包商或供應商未能履行其契約義務，將會對我們之契約獲利能力及獲取新契約之能力造成不利影響。",
+    "我們之維修、工程及軟體分部之成功取決於我們管理營運據點之能力。",
+    "我們之維修、工程及軟體業務分部之成功取決於航空公司持續委外合作。",
+    "本公司之營運可能因缺乏具專業技能之人力或工會罷工而受到不利影響。",
+    "本公司營運於高度競爭之市場，競爭壓力可能對本公司造成不利影響。",
+    "本公司面臨與國際營運相關之風險。",
+    "收購為本公司業務策略之一環，因此本公司面臨相關風險，包括無法從收購之企業獲得預期效益之風險。",
+    "與出售資產相關之情況可能對本公司營運成果與財務狀況造成不利影響。",
+    "本公司航空產品之市價波動，且本公司可能無法回收於引擎、可更換零組件及其他飛機零件所發生之成本。",
+    "與科技及智慧財產權相關之風險",
+    "本公司業務可能因網路或其它安全威脅或其他中斷事件而受到負面影響。",
+    "我們可能需要進行重大資本支出以跟上我們產業中科技發展的腳步，且我們可能無法成功做到這一點。",
+    "我們不擁有對我們業務至關重要的某些智慧財產權及工具，且我們可能無法保護我們智慧財產權的價值。",
+    "與財務相關的風險",
+    "我們的債務使我們面臨某些風險。",
+    "我們依賴持續取得融資以經營我們的業務並執行我們的業務策略，且可能無法在符合我們條件的條款下取得額外融資。",
+    "與法律及法規相關的風險",
+    "若我們未能遵守規範聯邦承包商的法律及法規，我們可能失去業務，並需承擔各種處罰或制裁。"
+   ],
+   "paragraphs": [
+    "以下為本公司業務中主要風險之說明。任何上述風險與不確定性，均可能對本公司之業務、財務狀況及營運成果造成重大且不利之影響，評估本公司時應加以考量。您不應將任何風險因素之揭露解釋為該風險尚未實現。雖然風險已依標題分類，且每項風險皆獨立說明，但許多風險彼此相關。儘管本公司相信已識別並討論了影響本公司業務之重大風險，但仍可能有其他風險與不確定性，本公司目前尚未知悉或認為其為重大，這些風險可能在未來對本公司之業務、財務狀況或營運成果造成不利影響。",
+    "本公司對商業客戶的銷售額，包括主要航空公司及相關OEM供應商，於財務年度2026年為2,384.1 百萬美元（佔合併銷售額的72.1%）。作為商業航空產業的產品與服務供應商，本公司受總體經濟狀況及其他影響該產業客戶的趨勢所影響，包括航空運營商委外減少、預期市場成長未能實現或無法持續等情況。商業航空產業歷來具有週期性，過去曾因地緣政治事件、持續衝突與戰爭（包括俄羅斯與烏克蘭衝突及中東衝突）、貿易戰、關稅或報復性措施的增加或貿易政策變動、恐怖主義、天氣相關事件、自然災害、疫情、燃料與石油生產及供應中斷、燃料與石油價格高昂、其他供應鏈中斷、勞動問題與罷工（例如波音公司的工會停工）、環境問題（包括氣候變遷）、資金不足、成本膨脹、高利率及弱勢經濟狀況等因素而受到負面影響，未來亦可能受到這些因素的影響。",
+    "由於上述及其他事件，有時本公司部分客戶已申請破產保護或停止營運。全球金融市場不穩定的影響已導致，且未來可能導致航空公司減少國內或國際運力。此外，本公司部分航空公司客戶過去曾受嚴峻信貸市場影響，限制其購買零件、服務、引擎及飛機之能力。影響航空產業之經濟及其他因素導致對本公司產品與服務之整體客戶需求減少，進而降低本公司營運收入。",
+    "美國與海外航空器運力或飛行活動減少，已導致，且可能再次導致受影響航空器類型之零件支援與維護活動需求減少，進而降低本公司營運收入。航空業環境惡化亦可能導致本公司無法完全回收應收帳款，此情形於2020年與2021年疫情高峯時已發生。",
+    "因經濟條件不佳導致客戶需求減少，包括信貸條件緊縮及客戶破產，可能對本公司財務狀況或營運成果造成不利影響。若與本公司有業務往來之客戶成為無清償能力或遭遇重大財務困難，本公司可能無法及時收回客戶應付本公司之金額，且可能無法銷售已為該客戶購入之存貨，此可能對本公司營運成果與財務狀況造成不利影響。全球經濟減速，或經濟衰退，將對商業航空產業造成負面影響，並可能對本公司業務、營運成果、財務狀況與流動性造成重大不利影響。",
+    "此外，近期中東地區衝突導致航空業能源成本與燃料價格上漲，已對航空公司之營運成本造成額外壓力，而航空公司為本公司最大客戶。噴氣燃料市場本質上為波動性市場，受政府對噴氣燃料生產之政策變動、全球原油供應量波動、因油產區敵對關係導致之石油生產或運輸中斷，或為應對氣候變遷而減少溫室氣體排放、課徵碳稅或參與或實施碳交易制度等潛在立法或戰略措施影響。航空公司有時因航空業競爭激烈，無法將燃料價格上漲轉嫁至客戶，提高票價，此情況使營運成本壓力增加，進而影響航空公司與本公司之業務能力。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

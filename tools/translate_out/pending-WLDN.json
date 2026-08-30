@@ -1,0 +1,219 @@
+{
+ "ticker": "WLDN",
+ "cik": "0001370450",
+ "accession": "0001104659-26-020767",
+ "form": "10-K",
+ "reportDate": "2026-01-02",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Services",
+    "Contract Structure",
+    "Government Regulation, Licensing, and Enforcement",
+    "Human Capital Resources",
+    "Environmental Stewardship",
+    "Intellectual Property",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Willdan Group, Inc. (\"Willdan\") is a provider of professional, technical and consulting services to utilities, private industry, and public agencies at all levels of government. As resource and infrastructure needs undergo continuous change, we help organizations and their communities evolve and thrive by providing a wide range of technical services for energy solutions, greenhouse gas reduction, and government infrastructure needs. Through engineering, program management, policy advisory, and software and data analytics, we plan, design and deliver comprehensive, innovative, cost-effective and proven solutions to improve efficiency, resiliency, and sustainability in energy and infrastructure to our clients.",
+    "The company was founded in 1964 to serve public agencies in communities with populations ranging from 10,000 to 300,000 people. Willdan, a Delaware corporation, was formed in 2006 to serve as our holding company for the expanding subsidiary operations. We commenced providing energy efficiency services in 2008 and since then, through organic growth and acquisitions, our client base has grown to include investor-owned and other public utilities, as well as substantial energy users in government and business.",
+    "Our overall growth strategy revolves around a combination of strong organic expansion and strategic acquisitions which provides us the ability to expand the breadth and depth of the services we provide to new and existing clients. We believe that we are well positioned to capitalize on the ongoing expansion and transformation of the energy and infrastructure environments as they adapt to climate change and other environmental challenges, electrification, and technology advancements, including the growing demand in load growth being fueled by artificial intelligence (\"AI\") data centers, electric vehicles and other political and technological changes.",
+    "We operate our business through a nationwide network of offices spread across 22 states, the District of Columbia, the Canadian province of Alberta, and the Commonwealth of Puerto Rico. We serve a majority of the largest investor-owned electric utilities and over half of the largest municipal utilities in the United States (\"U.S.\"). Our business with public and private utilities has concentrations in California and New York, but includes numerous other utilities in the Midwest, Northeast, Southeast and Mountain states. Additional acquisitions may continue to expand our geographic footprint. Our business with public agencies is concentrated in California, New York, and Nevada with ongoing expansion into Texas, Florida, Kentucky, and South Carolina. We also serve special districts, school districts, and a large range of public agencies and private industry throughout the U.S.",
+    "Our broad portfolio of services operates within two financial reporting segments: (i) Energy and (ii) Engineering and Consulting. The interfaces and synergies between these segments are important elements of our strategy to design and deliver trusted, comprehensive, innovative, and proven solutions and services for our customers.",
+    "We operate in the energy services market and the engineering and consulting market. We provide a wide variety of services related to energy planning and analysis, energy efficiency and sustainability, engineering, construction management, and economic and financial consulting services primarily to public agencies, utilities, and commercial/industrial firms.",
+    "We believe the energy services market will continue to expand in response to the increasing awareness of sustainability issues, including global warming and climate change, and the advent of new technologies in renewable energy generation and the electrification of the nation's economy through technology advances and changing consumption patterns. In addition, the rapid growth in AI is creating increased power demand from data centers and thus becoming a key driver in expanding the energy services market. Private industry and public agencies increasingly seek out cost-effective, turnkey solutions that provide innovative plans, tools, and solutions to address energy efficiency, renewable energy, water conservation and sustainability. State and local governments frequently turn to specialized resource conservation firms to help strike the balance between environmental responsibility and economic competitiveness. The use of energy services, including audits, program design, benchmark analyses, metering and",
+    "incentivized sale and installation of energy efficiency measures provides public agencies, utilities, and commercial/industrial firms with the ability to realize long-term energy savings and greenhouse gas reductions.",
+    "The engineering and consulting market has grown as public agencies and utilities, as well as private utilities and commercial/industrial firms, find it more efficient to outsource design, construction oversight, advisory, and training services to contract providers, rather than maintain the necessary staff and resources to provide such services themselves. For example, we serve as municipal engineers and building and safety departments for local governments. We also design and provide construction oversight of various infrastructure projects for state and local governments to address environmental goals and mandates, population shifts, changes in local and state funding and aging infrastructure. We also provide consulting services to public agencies as they raise the necessary funds to develop such infrastructure projects and provide other services. Relatedly, we provide local government staffing, traffic and transportation engineering, studies, plan reviews, grant support, and inspections.",
+    "We are a professional services firm focused on transformational growth and value creation for our clients, employees and shareholders. We seek to establish long-term close working relationships with our clients and expand the breadth and depth of the services we provide to them over time. We believe the market for these services is, and will be, driven by a number of factors, including:",
+    "● Demand for services and solutions that provide energy efficiency, greenhouse gas reduction, sustainability, electrification, water conservation, infrastructure development and renewable energy in the public and private sectors;",
+    "● Changes in technology, such as AI and related data centers, battery storage and electric vehicles that affect the generation, distribution and consumption of energy;",
+    "● Ongoing efforts to upgrade aging energy infrastructure to meet power, transmission, and environmental goals and requirements;",
+    "● The increasing challenge to balance energy demand from electrification and trends toward electric vehicles with the changing sources of energy from wind, solar, and distributed energy resources;"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Relating to Our Business and Industry",
+    "Risks Related to Operations",
+    "Our use of the percentage-of-completion method of revenue recognition on our fixed price contracts could result in a reduction or reversal of previously recorded revenue and profits.",
+    "Our revenues are primarily derived from the energy services industry and, therefore, we are highly susceptible to risks relating to such industry.",
+    "Our backlog is subject to cancellation, adjustments and changing economic conditions and is an uncertain indicator of future operating results.",
+    "Supply chain constraints and labor shortages could negatively impact our business, financial condition and results of operations.",
+    "Our profitability could suffer if we are not able to maintain adequate utilization of our workforce.",
+    "The loss of key personnel or our inability to attract and retain qualified personnel could impair our ability to provide services to our clients and otherwise conduct our business effectively.",
+    "Unavailability or cancellation of third-party insurance coverage would increase our overall risk exposure as well as disrupt the management of our business operations.",
+    "Product liability and personal injury claims could have a material adverse effect on our business, results of operations and financial condition.",
+    "We have only a limited ability to protect our intellectual property rights, and our failure to protect our intellectual property rights could adversely affect our competitive position.",
+    "Our failure to implement and comply with our safety program could adversely affect our operating results or financial condition.",
+    "Risks Related to Liquidity and Indebtedness",
+    "Our leverage and debt service obligations due to debt incurred in connection with our acquisitions could adversely affect our business, results of operations and financial condition.",
+    "We may not be able to obtain capital when desired on favorable terms, if at all, or without dilution to our stockholders, which may impact our ability to execute on our current or future business strategies.",
+    "Restrictive covenants in our Credit Agreement may restrict our ability to pursue certain business strategies.",
+    "Risks Related to Our Clients and Our Projects",
+    "If we have a loss or reduction of business from a key customer or key utility programs, it could result in significant harm to our revenue, profitability and financial condition.",
+    "Our failure to win new contracts and renew existing contracts with private and public sector clients could adversely affect our business, results of operations and financial condition.",
+    "Our contracts may contain provisions that are unfavorable to us and permit our clients to, among other things, terminate our contracts partially or completely at any time prior to completion.",
+    "Changes to tax laws and regulations, including changes to the energy efficient building deduction, could adversely affect our business, results of operations and financial condition.",
+    "Because we primarily provide services to municipalities, public utilities and other public agencies, we are more susceptible to the unique risks associated with government contracts.",
+    "We derive significant revenue and profit from contracts awarded through a competitive bidding process, which can impose substantial costs on us, and we will lose revenue and profit if we fail to compete effectively.",
+    "Changes in elected or appointed officials could have a material adverse effect on our ability to retain an existing contract with or obtain additional contracts from a public agency.",
+    "If our business partners fail to perform their contractual obligations on a project, we could be exposed to legal liability, loss of reputation and profit reduction or loss on the project.",
+    "We may be required to pay liquidated damages if we fail to meet milestone requirements in our contracts.",
+    "Risks Related to Growth and Acquisitions",
+    "If we are not able to successfully manage our growth strategy, our business, results of operations and financial condition may be adversely affected.",
+    "Our acquired businesses may underperform relative to our expectations.",
+    "If our goodwill or other intangible assets become impaired, then our profits may be significantly reduced.",
+    "Risks Related to Our Regulatory Environment"
+   ],
+   "paragraphs": [
+    "We operate in a changing environment that involves numerous known and unknown risks and uncertainties that could materially adversely affect our operations. Set forth below and elsewhere in this report and in other documents we file with the SEC are descriptions of risks and uncertainties that could cause our actual results to differ materially from the results and expectations contained in this report. Additional risks we do not yet know of or that we currently think are immaterial may also affect our business operations. If any of the events or circumstances described in the following risks actually occurs, our business, financial condition or results of operations could be materially adversely affected.",
+    "If we fail to complete a project in a timely manner, miss a required performance standard, or otherwise fail to adequately perform on a project, then we may incur a loss on that project, which may reduce or eliminate our overall profitability.",
+    "Our engagements often involve large-scale, complex projects. The quality of our performance on such projects depends in large part upon our ability to manage the relationship with our clients and our ability to effectively manage the project and deploy appropriate resources, including third-party contractors and our own personnel, in a timely manner. We may commit to a client that we will complete a project by a scheduled date or that, when completed, a project will achieve specified performance standards (e.g., some of our contracts stipulate certain energy savings requirements). If the project is not completed by the scheduled date or fails to meet required performance standards, we may either incur significant additional costs or be held responsible for the costs incurred by the client to rectify damages due to late completion or failure to achieve the required performance standards. The uncertainty of the timing of a project can present difficulties in planning the amount of personnel needed for the project. If the project is delayed or canceled, we may bear the cost of an underutilized workforce that was dedicated to fulfilling the project. In addition, performance of projects can be affected by a number of factors beyond our control, including, among other things, unavoidable delays from government inaction, public opposition, inability to obtain financing, weather conditions, unavailability of vendor materials (including but not limited to import restrictions or pandemics or other public health emergencies), changes in the project scope of services requested by our clients, industrial accidents, environmental hazards, and labor disruptions. To the extent these events occur, the total costs of the project could exceed our estimates, and we could experience reduced profits or, in some cases, incur a loss on a project, which may reduce or eliminate our overall profitability. Further, any defects or errors, or failures to meet our clients' expectations, could result in claims for damages against us. Failure to meet performance standards or complete performance on a timely basis could also adversely affect our reputation and client base.",
+    "If we are unable to accurately estimate and control our contract costs, then we may incur losses on our contracts, which could decrease our operating margins and reduce our profits. In particular, our fixed-price contracts could increase the unpredictability of our earnings.",
+    "Under fixed-price contracts, we receive a fixed price irrespective of the actual costs we incur (which protects clients) and, consequently, we are exposed to a number of risks that are generally not included under time-and-materials and unit-based contracts. We realize a profit on fixed­ price contracts only if we can control our costs and prevent cost overruns on our contracts. Fixed­ price contracts require cost and scheduling estimates that are based on a number of assumptions, including those about future economic conditions, costs, and availability of labor, equipment and materials, and other exigencies. We could experience cost overruns if these estimates were initially inaccurate as a result of errors or ambiguities in the contract specifications, or become inaccurate as a result of a change in circumstances following the submission of the estimate due to, among other things, unanticipated technical or equipment problems, difficulties in obtaining permits or approvals, changes in local laws or labor conditions, weather delays, changes in costs of raw materials as a result of elevated inflation, supply chain shortages or otherwise, or the inability of our vendors or subcontractors to perform their obligations. If cost overruns occur, we could experience reduced profits or, in some cases, a loss for that project. If a project is significant, or if there are one or more common issues that impact multiple projects, costs overruns could increase the unpredictability of our earnings, as well as have a material adverse impact on our business, results of operations and financial condition.",
+    "Under our time-and-material contracts, we are generally paid for our efforts at negotiated hourly billing rates for our staff, plus reimbursement for subcontractors and other direct costs. Profitability on these contracts is driven by control over the number of hours required to execute the tasks, the mix of staff utilized and the percentage of staff time expended on directly billable activities. Many of our time-and-materials contracts are subject to maximum contract values. In the event that we estimate the potential to exceed those maximum contract values at the contracted rates, revenue relating to these contracts is recognized as if these contracts were fixed-price contracts."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Results of Operations",
+    "Engineering and",
+    "Contract Type",
+    "Geography (3)",
+    "Liquidity and Capital Resources",
+    "Short and Long-term Uses of Cash",
+    "Contractual Obligations",
+    "Impact of Inflation",
+    "Components of Revenue and Expense",
+    "Critical Accounting Policies",
+    "Revenue Recognition Method",
+    "Recent Accounting Standards"
+   ],
+   "paragraphs": [
+    "We are a provider of professional, technical and consulting services to utilities, private industry, and public agencies at all levels of government. As resource and infrastructure needs undergo continuous change, we help organizations and their communities evolve and thrive by providing a wide range of technical services for energy solutions, greenhouse gas reduction, and government infrastructure. Through engineering, program management, policy advisory, and software and data analytics, we plan, design and deliver comprehensive, innovative, cost-effective, and proven solutions to improve efficiency, resiliency, and sustainability in energy and infrastructure to our clients.",
+    "Our broad portfolio of services operates within two financial reporting segments: (1) Energy and (2) Engineering and Consulting. The interfaces and synergies between these segments are important elements of our strategy to design and deliver trusted, comprehensive, innovative, and proven solutions and services for our customers.",
+    "Our Energy segment provides specialized, innovative, comprehensive energy solutions to businesses, utilities, state agencies, municipalities, and non-profit organizations. Our experienced engineers, consultants, and staff help our clients realize cost and energy savings by tailoring efficient and cost-effective solutions to assist in optimizing energy spend. Our energy services include comprehensive audit and surveys, program design, master planning, demand reduction, grid optimization, benchmarking analyses, design engineering, AI data center power solutions, construction management, performance contracting, installation, alternative financing, measurement and verification services, and advances in software and data analytics for long-term planning.",
+    "Our Engineering and Consulting segment provides civil engineering and construction management, building and safety services, city engineering and planning support, civil design, geotechnical services, and material testing. Our capabilities span traffic, bridges, rail, port, water systems, and other major infrastructure projects. In addition to technical expertise, we provide economic and financial consulting that helps agencies plan, fund, and maintain both daily operations and long-term capital programs. We also support the mandated reporting and other requirements associated with these financings. We provide financial advisory services for municipal securities but do not provide underwriting services.",
+    "Summary comparison of fiscal years 2025, 2024, and 2023",
+    "The following table sets forth, for the periods indicated, certain information derived from our consolidated statements of comprehensive income(1):",
+    "Fiscal Year 2025 2024 2023 (in thousands, except percentages) Contract revenue 681,552 100.0",
+    "Direct costs of contract revenue: Salaries and wages 109,098 16.0 93,543 16.5 89,915 17.6 Subcontractor services and other direct costs",
+    "316,772 46.5 269,473 47.6 240,413 47.1 Total direct costs of contract revenue 425,870 62.5",
+    "363,016 64.2 330,328 64.8 Gross profit 255,682 37.5 202,782 35.8 179,767 35.2",
+    "General and administrative expenses: Salaries and wages, payroll taxes and employee benefits",
+    "125,736 18.4 105,373 18.6 95,556 18.7 Facilities and facilities related 9,717 1.4 9,718 1.7",
+    "9,565 1.9 Stock-based compensation 11,825 1.7 7,388 1.3 5,323 1.0 Depreciation and amortization",
+    "18,686 2.7 14,745 2.6 16,431 3.2 Other 45,571 6.7 34,205 6.0 30,818 6.0 Total general and administrative expenses"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Our Services': '本公司服務'}",
+    "{'Contract Structure': '契約結構'}",
+    "{'Government Regulation, Licensing, and Enforcement': '政府規範、許可與執行'}",
+    "{'Human Capital Resources': '人力資源'}",
+    "{'Environmental Stewardship': '環境永續'}",
+    "{'Intellectual Property': '智慧財產權'}",
+    "{'Available Information': '可取得資訊'}"
+   ],
+   "paragraphs": [
+    "Willdan Group, Inc. (\"Willdan\") 為提供專業、技術及諮詢服務給電力公司、私人產業及各級政府機關之公司。隨著資源與基礎建設需求持續變動，我們協助組織及其社區進化與繁榮，透過提供能源解決方案、減緩溫室氣體排放及政府基礎建設需求之廣泛技術服務。透過工程、專案管理、政策諮詢及軟體與資料分析，我們規劃、設計並交付全面性、創新性、成本效益佳且已驗證之解決方案，以提升客戶在能源與基礎建設之效率、韌性與永續性。",
+    "本公司於 1964 年成立，服務人口數從 10,000 到 300,000 之地方政府機關。Willdan，為德拉瓦州公司，於 2006 年成立，作為我們擴張子公司業務之控股公司。我們於 2008 年開始提供能源效率服務，自那之後，透過內生成長與收購，客戶羣已擴展至包括投資人所有及其它公共電力公司，以及政府與企業中大量能源使用者。",
+    "本公司整體成長策略圍繞強大內生擴張與戰略收購之組合，使我們能擴展對新舊客戶所提供之服務廣度與深度。我們相信，我們處於有利位置，可把握能源與基礎建設環境持續擴張與轉型之機會，因應氣候變遷及其他環境挑戰、電氣化及科技進步，包括由人工智慧 (\"AI\") 資料中心、電動車等政治與科技變動所驅動之負載成長需求。",
+    "我們透過全國性辦公室網路，橫跨 22 個州、華盛頓特區、加拿大亞伯達省及波多黎各邦，進行業務運作。我們服務美國 (\"U.S.\") 大部分最大投資人所有電力公司，以及超過一半最大市立電力公司。與公共與私人電力公司之業務集中於加利福尼亞州與紐約州，但包含中西部、東北部、南部與山區州之許多電力公司。未來可能持續進行收購，以擴展我們之地理足跡。與公共機關之業務集中於加利福尼亞州、紐約州與內華達州，並持續擴展至德克薩斯州、佛羅裏達州、肯塔基州與南卡羅來納州。我們亦服務特殊區、學區及美國各處之廣泛公共機關與私人產業。",
+    "我們廣泛之服務組合運作於兩個財務報告分部：(i) 能源及 (ii) 工程與諮詢。這些分部之間之界面與協同效應為我們策略中重要元素，用以設計與交付受信賴、全面性、創新性及已驗證之解決方案與服務給客戶。",
+    "我們運作於能源服務市場與工程與諮詢市場。我們提供廣泛之服務，包括能源規劃與分析、能源效率與永續性、工程、建設管理及經濟與財務諮詢服務，主要針對公共機關、電力公司及商業/工業公司。",
+    "我們相信能源服務市場將持續擴張，因應對永續性議題之意識提高，包括全球變暖與氣候變遷，以及再生能源發電新科技之出現，以及透過科技進步與消費模式改變所推動之國家經濟電氣化。此外，人工智慧 (AI) 快速成長，導致資料中心之電力需求增加，因而成為擴張能源服務市場之關鍵驅動力。私人產業與公共機關日益尋求成本效益佳、一站式解決方案，以提供創新計畫、工具與解決方案，以應對能源效率、再生能源、水資源保存與永續性。州與地方政府經常轉向專業資源保存公司，以協助在環境責任與經濟競爭力之間取得平衡。使用能源服務，包括稽核、計畫設計、指標分析、計量與",
+    "鼓勵性銷售與安裝能源效率措施，使公共機關、電力公司與商業/工業公司得以實現長期能源節省與溫室氣體減量。",
+    "工程與顧問市場因公共機構與電力公司，以及私人電力公司與工商業企業發現將設計、施工監督、諮詢與培訓服務委外給合約供應商，比維持必要的人員與資源來提供這些服務更有效率而持續成長。例如，我們擔任地方政府的工程師與建築與安全部門。我們也為州與地方政府設計並提供各種基礎建設專案的施工監督，以達成環境目標與命令、人口移動、地方與州政府資金變動以及基礎建設老化的問題。我們也為公共機構提供諮詢服務，協助其籌措開發這些基礎建設專案所需資金並提供其他服務。相關地，我們為地方政府提供人事、交通與運輸工程、研究、計畫審查、補助金支持與檢查。",
+    "我們是一家專業服務公司，專注於為客戶、員工與股東創造轉型成長與價值。我們致力於與客戶建立長期且密切的合作關係，並隨著時間的推移，擴展並深化我們所提供的服務範疇。我們認為這些服務市場的動能，以及未來的動能，將由多種因素所驅動，包括：",
+    "● 公共與私人部門對提供能源效率、溫室氣體減少、永續性、電氣化、水資源保存、基礎建設發展與可再生能源的服務與解決方案的需求；",
+    "● 技術的變革，例如人工智慧與相關資料中心、電池儲能與電動車，這些技術影響能源的產生、分配與消費；",
+    "● 維持老舊能源基礎建設的升級努力，以符合電力、輸電與環境目標與要求；",
+    "● 在電氣化與電動車趨勢下，平衡能源需求與能源來源（風能、太陽能與分散式能源資源）變化的挑戰；"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'translated_text': '營運成果', 'original_text': 'Results of Operations'}",
+    "{'translated_text': '工程與', 'original_text': 'Engineering and'}",
+    "{'translated_text': '契約類型', 'original_text': 'Contract Type'}",
+    "{'translated_text': '地理區域 (3)', 'original_text': 'Geography (3)'}",
+    "{'translated_text': '流動性及資本運用', 'original_text': 'Liquidity and Capital Resources'}",
+    "{'translated_text': '現金之短期及長期用途', 'original_text': 'Short and Long-term Uses of Cash'}",
+    "{'translated_text': '契約義務', 'original_text': 'Contractual Obligations'}",
+    "{'translated_text': '通貨膨脹之影響', 'original_text': 'Impact of Inflation'}",
+    "收入與費用的組成項目",
+    "重要會計政策",
+    "收入確認方法",
+    "最近會計準則"
+   ],
+   "paragraphs": [
+    "本公司為提供專業、技術及諮詢服務的公司，服務對象包括電力、民間產業及各級政府機關。隨著資源與基礎建設需求持續變動，我們協助機構及其社區進化與繁榮，透過提供能源解決方案、減緩溫室氣體排放及政府基礎建設等廣泛技術服務。透過工程、專案管理、政策諮詢及軟體與資料分析，我們規劃、設計並交付全面性、創新性、成本效益佳且已驗證的解決方案，以提升客戶在能源與基礎建設的效率、韌性與永續性。",
+    "我們的服務組合分為兩個財務報告分部：(1) 能源與 (2) 工程與諮詢。這兩個分部之間的界面與協同效應，是我們設計與交付受信賴、全面性、創新性及已驗證解決方案與服務的策略重要元素。",
+    "我們的能源分部為企業、電力公司、州政府機構、市鎮政府及非營利組織提供專門化、創新性與全面性的能源解決方案。我們經驗豐富的工程師、諮詢顧問及員工協助客戶實現成本與能源節省，透過量身打造高效且成本效益佳的解決方案，協助客戶優化能源支出。我們的能源服務包括全面性審計與調查、專案設計、總體規劃、需求減少、電網最佳化、基準分析、設計工程、AI資料中心電力解決方案、建設管理、績效契約、安裝、替代融資、測量與驗證服務，以及軟體與資料分析的進步技術，用以長期規劃。",
+    "我們的工程與諮詢分部提供土木工程與建設管理、建築與安全服務、市區工程與規劃支援、土木設計、地質服務及材料測試。我們的能力涵蓋交通、橋樑、鐵路、港口、水系統及其他重大基礎建設專案。除了技術專業外，我們也提供經濟與財務諮詢服務，協助機構規劃、籌措並維護日常運作與長期資本計畫。我們也支援這些融資所涉及的強制性報告及其他相關要求。我們提供市政債券的財務諮詢服務，但不提供承銷服務。",
+    "2025 財年、2024 財年及 2023 財年的總結比較",
+    "下述表格列示，針對所標示期間，某些資訊係取自我們的綜合損益表(1)：",
+    "財年 2025 2024 2023（以千為單位，除百分比外）契約收入 681,552 100.0",
+    "契約收入之直接成本：薪資與工資 109,098 16.0 93,543 16.5 89,915 17.6  subcontractor services and other direct costs",
+    "316,772 46.5 269,473 47.6 240,413 47.1 總直接成本 425,870 62.5",
+    "363,016 64.2 330,328 64.8 毛利 255,682 37.5 202,782 35.8 179,767 35.2",
+    "一般及行政費用：薪資及福利、薪資稅及員工福利",
+    "125,736 18.4 105,373 18.6 95,556 18.7 廠房及相關費用 9,717 1.4 9,718 1.7",
+    "9,565 1.9 股權激勵費用 11,825 1.7 7,388 1.3 5,323 1.0 折舊及攤銷",
+    "18,686 2.7 14,745 2.6 16,431 3.2 其他 45,571 6.7 34,205 6.0 30,818 6.0 總一般及行政費用"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "營運與產業相關風險",
+    "營運相關風險",
+    "本公司於固定價格合約中使用百分比完工法認列營業收入，可能導致先前已認列之營業收入與利潤減少或回轉。",
+    "本公司之收入主要來自能源服務產業，因此本公司對該產業之風險具有高度敏感性。",
+    "本公司之待執行訂單可能因取消、調整及經濟條件變動而有所影響，並非未來營運成果之確定指標。",
+    "供應鏈限制及勞動力短缺可能對本公司之營運、財務狀況及營運成果產生負面影響。",
+    "若本公司無法維持勞動力之充足利用率，將可能影響本公司之獲利能力。",
+    "關鍵人員之流失或本公司無法吸引並留住合格人才，可能影響本公司對客戶提供服務之能力，並影響本公司營運之有效性。",
+    "第三方保險覆蓋之不可用或取消，將增加我方整體風險敞口，並幹擾我方業務運作之管理。",
+    "產品責任及個人傷害聲請，可能對我方業務、營運結果及財務狀況造成重大不利影響。",
+    "我方對智慧財產權之權利保護能力有限，若未能保護我方智慧財產權，可能對我方競爭地位造成不利影響。",
+    "若未能實施並遵守我方安全計畫，可能對我方營運結果或財務狀況造成不利影響。",
+    "與流動性及負債相關之風險",
+    "因與併購相關之負債而產生之負債率及債務償還義務，可能對我方業務、營運結果及財務狀況造成不利影響。",
+    "我方可能無法在有利條件下或如願之時取得資金，或需對股東進行稀釋，這可能影響我方執行現有或未來業務策略之能力。",
+    "我方信貸協議中之限制性契約可能限制我方追求某些業務策略之能力。",
+    "與我們客戶及專案相關的風險",
+    "若我們因主要客戶或主要公用事業專案遭遇損失或業務減少，可能會對我們的營業收入、獲利能力及財務狀況造成重大影響。",
+    "我們若無法與私人及公部門客戶簽訂新合約或續約現有合約，可能會對我們的業務、營運結果及財務狀況產生不利影響。",
+    "我們的合約可能包含對我們不利的條款，允許客戶在專案完成前隨時部分或完全終止合約。",
+    "稅法及規範的變更，包括對節能建築減稅的變更，可能會對我們的業務、營運結果及財務狀況產生不利影響。",
+    "因為我們主要為地方政府、公用事業及其他公營機構提供服務，我們更容易面臨與政府合約相關的獨特風險。",
+    "我們來自競標過程所取得合約的收入及獲利佔有相當比例，此過程可能對我們造成重大成本負擔，若我們無法有效競爭，將導致收入及獲利減少。",
+    "選舉或任命的公職人員變動，可能會對我們維持現有合約或取得公營機構新合約的能力產生重大不利影響。",
+    "若我方商業夥伴未能履行專案契約義務，我們可能面臨法律責任、聲譽損失及專案利潤減少或虧損。",
+    "若我們未能達成契約中的里程碑目標，我們可能需支付違約金。",
+    "與成長及併購相關的風險",
+    "若我們無法成功執行成長策略，我方業務、營運結果及財務狀況可能受到不利影響。",
+    "我們所取得的企業可能表現低於我方預期。",
+    "若我方商譽或其他無形資產發生減損，則我方利潤可能大幅減少。",
+    "與我方監管環境相關的風險"
+   ],
+   "paragraphs": [
+    "我們營運於一個不斷變化的環境中，涉及許多已知及未知的風險與不確定性，這些因素可能對我們的營運造成重大不利影響。下列段落及本報告其他部分，以及我們向 SEC 提交的其他文件中，皆有對風險與不確定性的說明，這些說明可能導致我們的實際結果與本報告所載的結果及預期產生重大差異。我們可能尚不知曉的其他風險，或目前認為不重要的風險，也可能影響我們的業務營運。如果任何在下列風險中所描述的事件或情況實際發生，可能對我們的業務、財務狀況或營運結果造成重大不利影響。",
+    "如果我們未能按時完成專案、未達成所需的績效標準，或以其他方式未能妥善執行專案，則我們可能在該專案上產生損失，這可能降低或消除我們整體的獲利。",
+    "我們的專案往往涉及大型且複雜的專案。我們在這些專案上的表現品質，很大程度取決於我們管理與客戶關係的能力，以及我們有效管理專案並及時部署適當資源（包括第三方承包商及我們自己的員工）的能力。我們可能承諾客戶會在預定日期完成專案，或在完成後專案將達成特定的績效標準（例如，我們的一些契約規定特定的節能要求）。如果專案未在預定日期完成或未能達成所需的績效標準，我們可能必須承擔額外的顯著成本，或對客戶因專案延誤或未達成所需績效標準而產生的損失負責任。專案時間的不確定性可能在規劃專案所需人數時造成困難。如果專案延誤或取消，我們可能需承擔專案專屬員工未充分利用的費用。此外，專案的執行可能受到許多超出我們控制範疇的因素影響，包括但不限於政府不作為導致的不可避免延誤、公眾反對、無法取得融資、天氣條件、供應商材料無法取得（包括但不限於進口限制或疫情或其他公共衛生緊急事件）、客戶要求的服務範疇變更、工業事故、環境危害及勞動罷工。若這些事件發生，專案總成本可能高於我們的預估，我們可能面臨獲利減少，甚至在某些情況下產生專案損失，這可能降低或消除我們整體的獲利。此外，任何缺陷、錯誤或未能達成客戶預期的情況，可能導致我們面臨損害賠償的聲請。未能達成績效標準或未能按時完成專案，也可能對我們的聲譽及客戶羣造成不利影響。",
+    "如果我們無法準確預估並控制專案成本，則我們可能在專案上產生損失，這可能降低我們的營運毛利率並減少我們的獲利。特別是，我們的固定價格專案可能增加我們獲利的不確定性。",
+    "在固定價格專案中，我們會根據實際發生的成本收取固定價格（這對客戶而言具有保護作用），因此我們面臨許多在時間與材料專案或單位計價專案中通常不包含的風險。我們在固定價格專案中僅有在能控制成本並防止專案成本超支的情況下才能獲利。固定價格專案需要基於多種假設的費用與排程預估，包括未來經濟狀況、成本、勞動力、設備與材料的可得性及其他因素。如果這些預估最初不準確，例如因契約規格中的錯誤或含糊導致，或因事後情況變更而變得不準確，例如未預見的技術或設備問題、取得許可或批准的困難、地方法律或勞動條件的變更、天氣延誤、原材料成本因高通貨膨脹而變動、供應鏈短缺或其他因素，或我們的供應商或分包商無法履行其義務，我們可能面臨成本超支。如果發生成本超支，我們可能面臨獲利減少，甚至在某些情況下產生專案損失。如果專案規模重大，或有影響多個專案的共同問題，成本超支可能增加我們獲利的不確定性，並對我們的業務、營運結果及財務狀況造成重大不利影響。",
+    "在時間與材料專案中，我們通常根據與客戶協議的每小時計費率為我們員工的工作時間收費，並補償分包商及其他直接成本。這些專案的獲利取決於對執行任務所需小時數的控制、所使用的員工組合以及員工時間中直接可計費活動所佔的比例。我們許多時間與材料專案受到專案總價值上限的限制。如果我們預估在合約價格下可能超過這些專案總價值上限，則這些專案的收入將視同為固定價格專案進行確認。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

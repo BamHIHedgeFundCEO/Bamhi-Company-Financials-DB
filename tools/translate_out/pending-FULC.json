@@ -1,0 +1,191 @@
+{
+ "ticker": "FULC",
+ "cik": "0001680581",
+ "accession": "0001193125-26-065197",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Pipeline",
+    "Our Strategy",
+    "License Agreements and Collaborations",
+    "Intellectual Property",
+    "Manufacturing",
+    "Government Regulation and Product Approvals",
+    "Approval and Regulation of Drugs in the United States",
+    "Expanded Access to an Investigational Drug for Treatment Use"
+   ],
+   "paragraphs": [
+    "We are a clinical-stage biopharmaceutical company focused on developing small molecules to improve the lives of patients with genetically defined rare diseases in areas of high unmet medical need.",
+    "Our lead product candidate, pociredir, is an oral small molecule designed to induce fetal hemoglobin, or HbF, and is in clinical development for the treatment of sickle cell disease, or SCD. We completed dosing in the PIONEER trial, a Phase 1b clinical trial evaluating pociredir in adults with SCD. The PIONEER trial included 12 mg and 20 mg once-daily dose cohorts, and evaluated subjects over a 12-week treatment period. We have reported clinical data demonstrating clinically relevant HbF induction, including progression toward pan-cellular distribution, and improvements in markers of hemolysis and anemia. We are currently activating sites in an open-label extension trial to evaluate longer-term safety and pharmacodynamic, or PD, durability in patients who completed the PIONEER trial. We plan to provide details regarding the design of the next trial in the second quarter of 2026 following receipt of meeting minutes from our End-of-Phase meeting with the FDA. Pending feedback from the FDA, we plan to initiate a potential registration-enabling trial in the second half of 2026.",
+    "In addition to our product candidates, we have developed a discovery approach that we use to identify and validate cellular drug targets that may modulate gene expression to treat the root causes of genetically defined rare diseases. Our discovery approach led to the identification of pociredir for SCD, as well as other drug candidates. We are applying our discovery capabilities to explore additional mechanisms that may complement pociredir's mechanism of action to induce HbF for the potential treatment of SCD. We also presented preclinical data for FTX-6274, an oral EED inhibitor candidate, at the European Society for Medical Oncology (ESMO) Congress 2025, demonstrating tumor growth inhibition in preclinical prostate cancer models.",
+    "Based on results from IND-enabling studies, we have decided not to advance our program for bone marrow failure syndromes into clinical development and will focus our resources on advancing pociredir and our core benign hematology programs.",
+    "Using our discovery approach, we have generated a pipeline of potentially disease-modifying therapies that are designed to address the known root causes of rare genetic diseases. The following chart summarizes key information about our pipeline of clinical stage and pre-clinical programs.",
+    "Through our focus on the development of small molecules, including our product candidate for the treatment of SCD, our aim is to address unmet need in patients with genetically defined rare diseases that are debilitating and, in the case of SCD, life-threatening. The key components of our strategy include:",
+    "• Rapidly develop pociredir for the treatment of SCD. We aim to rapidly complete the clinical development of pociredir for the treatment of SCD to support regulatory approval. We have completed dosing in the Phase 1b PIONEER trial, and plan to engage with regulators (both FDA and the European Medicines Agency, or EMA) on our next trial. We plan to provide details regarding the design of the next trial in the second quarter of 2026 following receipt of meeting minutes from our End-of-Phase meeting with the FDA. Pending feedback from the FDA, we plan to initiate a potential registration-enabling trial in the second half of 2026.",
+    "• Continue to apply our discovery efforts including pursuing in-licensing or acquisition opportunities to grow our portfolio of product candidates for the treatment of genetically defined rare diseases. We have developed a discovery approach that we use to identify and validate cellular drug targets that may modulate gene expression to treat known root causes of genetically defined rare diseases, with a primary focus on hematology diseases. We also seek to explore opportunities to acquire or in-license complementary technologies or therapies, such as our exclusive global license agreement with CAMP4.",
+    "• Maximize the commercial potential of our product candidates. We have retained all rights to our lead product candidate, and we plan to commercialize any approved product for such rare genetically defined diseases using a targeted commercial infrastructure. We may in the future pursue commercialization partnerships for certain product candidates and/or markets outside the United States.",
+    "We are developing pociredir, which is designed to elevate the level of HbF for the treatment of people with SCD. We also believe that people with some types of ß-thalassemia may benefit from treatment with pociredir.",
+    "We have completed dosing in a Phase 1b clinical trial that evaluated pociredir in adults with SCD, including in 12 mg and 20 mg once-daily dose cohorts. Clinical data reported to date demonstrated clinically relevant HbF induction, including progression toward pan-cellular distribution, and improvements in markers of hemolysis and anemia. We are currently activating sites in an open-label extension trial to evaluate longer-term safety and PD durability in patients who completed the PIONEER trial. We plan to provide details regarding the design of the next trial in the second quarter of 2026 following receipt of meeting minutes from our End-of-Phase meeting with the FDA. Pending feedback from the FDA, we plan to initiate a potential registration-enabling trial in the second half of 2026. We also plan to engage with the EMA in mid-2026 to obtain protocol assistance and feedback on the design of the next trial.",
+    "Pociredir has received orphan drug designation and fast track designation from the FDA for the treatment of SCD.",
+    "Sickle cell disease is a genetic disorder of red blood cells, or RBCs. The root cause of SCD is a mutant hemoglobin that polymerizes in low oxygen conditions. This polymerization leads to the abnormal sickle shape of RBCs and ultimately results in hemolysis and vascular injury that causes major morbidities and significantly limits lifespan in people with SCD. People with SCD typically suffer from serious clinical consequences, which may include vaso-occlusive crises, or VOCs, anemia, pain, infections, stroke, heart disease, pulmonary hypertension, kidney failure, liver disease and reduced life expectancy. According to a study published by the Journal of the American Medical Association, approximately 32.5% of adults with SCD were hospitalized three or more times per year due to pain crises. SCD is reported to shorten life expectancy by approximately 20 to 30 years. People with SCD are primarily treated by hematologists.",
+    "In the United States, where newborn screening for SCD is mandatory, the estimated prevalence is approximately 100,000 individuals. In Europe, the estimated prevalence is approximately 50,000 individuals. According to the World Health Organization, the global incidence is estimated to be approximately 300,000 births annually. SCD is most prevalent in Africa and the Middle East."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to our Financial Position and Need for Additional Capital",
+    "We have incurred significant losses since our inception. We expect to incur losses over the next several years and may never achieve or maintain profitability.",
+    "We will need substantial additional funding. If we are unable to raise capital when needed, we could be forced to delay, reduce or eliminate our product development programs or commercialization efforts.",
+    "Raising additional capital may cause dilution to our stockholders, restrict our operations or require us to relinquish rights to our technologies or product candidates.",
+    "Changes in tax laws or in their implementation or interpretation may adversely affect our business and financial condition.",
+    "Our ability to use our net operating losses and research and development tax credit carryforwards to offset future taxable income may be subject to certain limitations.",
+    "Risks Related to the Discovery and Development of our Product Candidates",
+    "We may not be successful in our efforts to build a pipeline of product candidates.",
+    "If we experience delays or difficulties in the enrollment of patients in clinical trials, our receipt of necessary regulatory approvals could be delayed or prevented.",
+    "If serious adverse events or unacceptable side effects are identified during the development of our product candidates, we may need to abandon or limit our development of our product candidate.",
+    "We are conducting a clinical trial of pociredir in patients with SCD that includes clinical trial sites in Africa, and the FDA may not accept data from these trial sites or others located outside the United States.",
+    "Risks Related to the Commercialization of our Product Candidates"
+   ],
+   "paragraphs": [
+    "Our future operating results could differ materially from the results described in this Annual Report on Form 10-K due to the risks and uncertainties described below. You should consider carefully the following information about risks below in evaluating our business. If any of the following risks actually occur, our business, financial conditions, results of operations and future growth prospects would likely be materially and adversely affected. In these circumstances, the market price of our common stock would likely decline. In addition, we cannot assure investors that our assumptions and expectations will prove to be correct. Important factors could cause our actual results to differ materially from those indicated or implied by forward-looking statements. See \"Cautionary Note Regarding Forward-Looking Statements\" on page i of this Annual Report on Form 10-K for a discussion of some of the forward-looking statements that are qualified by these risk factors. Factors that could cause or contribute to such differences include those factors discussed below.",
+    "Since inception, we have incurred significant operating losses. Our net loss was $74.9 million for the year ended December 31, 2025 and $9.7 million for the year ended December 31, 2024. As of December 31, 2025, we had an accumulated deficit of $594.3 million. To date, we have funded our operations primarily from the sale of shares of our capital stock and from upfront payments received under our collaboration and license agreements. We have devoted substantially all of our financial resources and efforts to research and development, including clinical trials and preclinical studies. We are still in the early stages of development of our product candidates, and we have not completed development of any product candidates. We expect to continue to incur significant expenses and operating losses over the next several years. Our net losses may fluctuate significantly from quarter to quarter and year to year. We anticipate that our expenses will increase substantially as we:",
+    "• continue our clinical development of pociredir and any future product candidates; • continue our ongoing preclinical studies;",
+    "• pursue the discovery of drug targets for other genetically-defined rare diseases and the subsequent development of any resulting product candidates;",
+    "• seek regulatory approvals for any product candidates that successfully complete clinical trials;",
+    "• acquire or in-license products, product candidates, technologies and/or data referencing rights, such as our agreement with CAMP4;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Components of Results of Operations",
+    "Operating Expenses",
+    "(in thousands)",
+    "Other Income, Net",
+    "Results of Operations",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "Funding Requirements",
+    "Critical Accounting Policies and Estimates",
+    "Collaborative Arrangements",
+    "Revenue Recognition",
+    "Accrued Research and Development Expenses",
+    "Stock-Based Compensation",
+    "Income Taxes",
+    "Recently Issued Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read together with our consolidated financial statements and related notes appearing at the end of this Annual Report on Form 10-K. Some of the information contained in this discussion and analysis or set forth elsewhere in this Annual Report on Form 10-K, including information with respect to our plans and strategy for our business, includes forward-looking statements that involve risks and uncertainties. As a result of many factors, including those factors set forth in the \"Risk Factors\" section of this Annual Report on Form 10-K, our actual results could differ materially from the results described in or implied by the forward-looking statements contained in the following discussion and analysis.",
+    "We are a clinical-stage biopharmaceutical company focused on developing small molecules to improve the lives of patients with genetically defined rare diseases in areas of high unmet medical need. Our lead product candidate, pociredir, is in clinical development for the potential treatment of SCD.",
+    "In February 2026, we announced updated 20 mg cohort results from the PIONEER trial as of the December 23, 2025 data cut off date showing:",
+    "• Mean absolute HbF increased by 12.2% at 12 weeks of treatment with pociredir (vs. 8.6% at Week 12 in the 12 mg cohort), increasing from a baseline of 7.1% to 19.3%. Seven of 12 patients (58%) achieved absolute HbF levels ≥20% at Week 12, and all patients demonstrated a clinically relevant HbF increase. HbF levels of 20% are associated with ~90% of patients experiencing zero VOCs per year, based on real-world data that we presented at the 20th Annual Sickle Cell & Thalassemia Conference in October 2025.",
+    "• The proportion of HbF-containing red blood cells, or F-cells, increased from a mean of 31% at baseline to 63% at Week 12 (n=10), indicating progression toward pan-cellular HbF induction (HbF distributed across a substantial proportion of RBCs). F-cells are more resistant to sickling and hemolysis because of HbF-mediated inhibition of HbS polymerization. Higher proportions of F-cells are associated with improved RBC health.",
+    "• Mean changes in markers of hemolysis and erythropoiesis improved during the 12-week treatment period:",
+    "o Indirect bilirubin decreased by 40% (vs. 37% at Week 12 in the 12 mg cohort) o Lactate dehydrogenase decreased by 34% (vs. 28% at Week 12 in the 12 mg cohort)",
+    "o RBC distribution width decreased by 26% (vs. 27% at Week 12 in the 12 mg cohort) o Reticulocyte counts decreased by 42% (vs. 31% at Week 12 in the 12 mg cohort)",
+    "• Mean hemoglobin increased by 1.1 g/dL at Week 12 (vs. 0.9 g/dL at Week 12 in the 12 mg cohort), increasing from a baseline of 7.3 g/dL to 8.4 g/dL.",
+    "• Based on treating physician-documented medical records from the 6-12 months prior to enrollment, approximately 16 VOCs would have been expected during the 12-week treatment period. During the 12-week treatment period, six VOCs were reported. Seven of 12 patients (58%) reported no VOCs during the treatment period.",
+    "• Through the completion of the 20 mg dose cohort, pociredir has been dosed in 148 adults, including 89 subjects in multiple dose cohorts up to 12 weeks.",
+    "o 103 healthy subjects, including 44 who received pociredir for 10 to 14 days treatment duration",
+    "o 45 SCD patients who received pociredir for up to 12 weeks treatment duration",
+    "• The safety profile observed in the 20 mg dose cohort as of the December 23, 2025 data cut off date remained consistent with previously reported safety data. Pociredir was generally well-tolerated, with no treatment-related serious adverse events and no discontinuations due to treatment-related adverse events through the December 23, 2025 data cut off date."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'translatedText': '本公司的產品線'}",
+    "{'translatedText': '本公司策略'}",
+    "{'translatedText': '授權合約與合作關係'}",
+    "{'translatedText': '智慧財產權'}",
+    "{'translatedText': '製造'}",
+    "{'translatedText': '政府規範與產品核准'}",
+    "{'translatedText': '美國藥物核准與規範'}",
+    "{'translatedText': '擴展使用 Investigational Drug 用於治療用途'}"
+   ],
+   "paragraphs": [
+    "本公司為一家臨牀階段生技製藥公司，專注於開發小分子藥物，以改善患有遺傳性罕見疾病的患者生活，尤其在醫療需求未被滿足的領域。",
+    "我們的主要產品候選藥物 pociredir 是一種口服小分子藥物，設計用以誘導胎兒血紅蛋白，或 HbF，目前正進行臨牀開發，用以治療地中海貧血，或 SCD。我們已完成在 PIONEER 試驗中的給藥，該試驗為一項評估 pociredir 在 SCD 成人患者中療效的 Phase 1b 臨牀試驗。PIONEER 試驗包含 12 mg 與 20 mg 每日一次劑量組別，並評估受試者在 12 週治療期間的反應。我們已報告臨牀數據，顯示 clinically relevant 的 HbF 誘導，包括朝向全細胞分佈的進展，以及改善血紅素分解與貧血的指標。我們目前正啟動開放標籤延長試驗，以評估完成 PIONEER 試驗的患者在長期安全性與藥物動力學，或 PD，持續性的表現。我們預計在 2026 年第二季提供下一項試驗設計的詳細資訊，待取得與 FDA 會談紀錄後。待取得 FDA 反饋後，我們預計在 2026 年第二季末啟動一項可能的註冊啟動試驗。",
+    "除了我們的產品候選藥物，我們已發展出一種發現方法，用以識別與驗證可能調控基因表達的細胞藥物標的，以治療遺傳性罕見疾病的根源。我們的發現方法導致了 pociredir 用以治療 SCD 的識別，以及其他的藥物候選品。我們正應用我們的發現能力，以探索可能補充 pociredir 誘導 HbF 作用機制的其他機制，用以潛在治療 SCD。我們也在 2025 年歐洲醫學腫瘤學會（ESMO）大會上展示 FTX-6274，一種口服 EED 抑製劑候選藥物的預臨牀數據，顯示在預臨牀前列腺癌模型中對腫瘤生長的抑制。",
+    "根據 IND 啓動研究的結果，我們決定不將我們的骨髓衰竭症候羣計畫進展至臨牀開發，並將資源專注於推進 pociredir 與我們的核心良性血液學計畫。",
+    "透過我們的發現方法，我們已產生一系列可能的疾病修正療法，設計用以解決罕見遺傳疾病的已知根源。以下圖表總結了我們臨牀階段與預臨牀計畫的關鍵資訊。",
+    "透過我們專注於小分子藥物的開發，包括我們用以治療 SCD 的產品候選藥物，我們的目標是解決患有遺傳性罕見疾病的患者未被滿足的醫療需求，這些疾病會導致嚴重的後果，而在 SCD 的情況下，甚至可能致命。我們策略的關鍵組成包括：",
+    "• 快速開發 pociredir 用以治療 SCD。我們的目標是快速完成 pociredir 用以治療 SCD 的臨牀開發，以支持藥物核准。我們已完成 Phase 1b PIONEER 試驗的給藥，並計畫與監管機構（包括 FDA 與歐洲藥物管理局，或 EMA）討論下一項試驗的設計。我們預計在 2026 年第二季提供下一項試驗設計的詳細資訊，待取得與 FDA 會談紀錄後。待取得 FDA 反饋後，我們預計在 2026 年第二季末啟動一項可能的註冊啟動試驗。",
+    "• 繼續應用我們的發現努力，包括尋求進口許可或收購機會，以擴展我們用以治療遺傳性罕見疾病的產品候選藥物組合。我們已發展出一種發現方法，用以識別與驗證可能調控基因表達的細胞藥物標的，以治療已知的遺傳性罕見疾病的根源，主要聚焦於血液學疾病。我們也尋求探索收購或進口許可補充性技術或療法的機會，例如我們與 CAMP4 籤訂的獨家全球許可協議。",
+    "• 使我們的產品候選品項商業潛力最大化。我們已保留所有主要產品候選品項的權利，並計畫在獲得核准後，透過針對性的商業基礎設施來商業化該產品。未來我們可能針對某些產品候選品項及/或美國以外的市場，尋求商業化合作夥伴。",
+    "我們正在開發 pociredir，此藥物設計用以提高 HbF 水準，用於治療患有 SCD 的患者。我們也認為，某些類型的 ß-thalassemia 患者可能也會受益於 pociredir 的治療。",
+    "我們已完成在 Phase 1b 臨牀試驗中對 pociredir 的劑量評估，該試驗評估 pociredir 在 SCD 成人患者中的效果，包括 12 mg 和 20 mg 每日一次劑量組別。截至目前為止報告的臨牀數據顯示 clinically relevant 的 HbF 激發，包括朝向 pan-cellular 分佈的進展，以及改善血紅素分解和貧血的指標。我們目前正啟動開放標籤延伸試驗的試驗場地，以評估完成 PIONEER 試驗的患者在長期安全性及 PD 持續性。我們計畫在 2026 年第二季提供下一試驗設計的詳細資訊，此資訊將在收到與 FDA 會議紀要後公佈。待收到 FDA 的意見後，我們計畫在 2026 年第二季後半段啟動潛在的註冊啟動試驗。我們也計畫在 2026 年中與 EMA 進行接觸，以取得下一試驗設計的協議協助與意見。",
+    "pociredir 已獲得 FDA 對治療 SCD 的或phan 藥物指定及快速通道指定。",
+    "SCD 是一種紅血球（RBCs）的遺傳性疾病。SCD 的根本原因是突變的血紅蛋白在低氧條件下會聚合。這種聚合會導致紅血球呈現異常的鐮刀形狀，並最終導致血紅素分解和血管損傷，造成 SCD 患者的主要病變並顯著縮短壽命。SCD 患者通常會遭受嚴重的臨牀後果，可能包括血管閉塞危機（VOCs）、貧血、疼痛、感染、中風、心臟病、肺動脈高壓、腎衰竭、肝病及壽命縮短。根據《美國醫學會雜誌》發表的一項研究，約有 32.5% 的 SCD 成人患者每年因疼痛危機而住院三次或以上。SCD 被報導會使壽命縮短約 20 到 30 年。SCD 患者主要由血液學家進行治療。",
+    "在美國，由於 SCD 的新生兒篩檢為強制性，預估患者數量約為 100,000 人。在歐洲，預估患者數量約為 50,000 人。根據世界衛生組織的資料，全球每年約有 300,000 個 SCD 新生兒。SCD 最常見於非洲和中東地區。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果之組成項目",
+    "營運費用",
+    "(以千美元為單位)",
+    "其他收入，淨額",
+    "營運成果",
+    "截至2025年12月31日及2024年12月31日之年度比較",
+    "流動性及資本資源",
+    "流動性來源",
+    "資金需求",
+    "重要會計政策與會計估計",
+    "合作安排",
+    "收入確認",
+    "累計研究與開發費用",
+    "股票基於報酬",
+    "所得稅",
+    "最近發佈的會計準則"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運成果的討論與分析，應與本年度10-K表報表所附之合併財務報表及相關附註一併閱讀。部分資訊包含於本年度10-K表報表之討論與分析中，或於本年度10-K表報表其他處所提及，包括有關我們業務計畫與策略之資訊，均為前瞻性陳述，涉及風險與不確定性。由於許多因素，包括本年度10-K表報表「風險因素」部分所列之因素，我們實際結果可能與以下討論與分析中所描述或暗示之結果有重大差異。",
+    "本公司為一家臨牀階段生技藥品公司，專注於開發小分子藥物，以改善患有基因定義罕見疾病的患者生活，這些疾病在醫療需求未被滿足之領域。我們的領先產品候選藥物pociredir，正在進行臨牀開發，用以潛在治療SCD。",
+    "2026年2月，我們公佈來自PIONEER試驗的更新20毫克組結果，截至2025年12月23日資料截止日顯示：",
+    "• 平均絕對HbF在治療 pociredir 12週後增加12.2%（與12毫克組在第12週的8.6%相比），從基線的7.1%增加至19.3%。12名患者中有7名（58%）在第12週達到絕對HbF水平≥20%，所有患者均顯示出臨牀相關的HbF增加。根據我們在2025年10月第20屆貧血細胞與地中海貧血會議上發表的實際資料，HbF水平達20%時，約有90%的患者每年零次VOCs。",
+    "• 含有 HbF 的紅血球比例，或稱為 F 細胞，從基線值平均 31% 增加至第 12 週的 63% (n=10)，顯示朝向全體細胞 HbF 激活的進展 (HbF 分佈於相當比例的紅血球)。F 細胞因 HbF 所介導的 HbS 聚合抑制，而對 Sickling 與溶血更具抵抗力。F 細胞比例越高，與紅血球健康狀況改善有關。",
+    "• 在 12 週治療期間，溶血與紅血球生成指標的平均變化有所改善：",
+    "o 間接膽紅素下降 40%（相較於 12 mg 羣組於第 12 週的 37%）o 乳酸脫氫酶下降 34%（相較於 12 mg 羣組於第 12 週的 28%）",
+    "o 紅血球分佈寬度下降 26%（相較於 12 mg 羣組於第 12 週的 27%）o 網織紅血球計數下降 42%（相較於 12 mg 羣組於第 12 週的 31%）",
+    "• 平均血紅蛋白在第 12 週增加 1.1 g/dL（與 12 mg 組在第 12 週的 0.9 g/dL 相比），從基線值 7.3 g/dL 增加至 8.4 g/dL。",
+    "• 根據治療醫師記錄的入組前 6 至 12 個月的醫療紀錄，預期在 12 週治療期間約有 16 次 VOCs。在 12 週治療期間，報告了 6 次 VOCs。在 12 位病患中，有 7 位（58%）表示在治療期間未出現 VOCs。",
+    "• 透過完成 20 mg 組的劑量族羣，pociredir 已經在 148 名成人中給藥，包括 89 名在多劑量族羣中接受至 12 週治療的受試者。",
+    "o 103 名健康受試者，包括 44 名接受 pociredir 進行 10 至 14 天治療的受試者",
+    "o 45 名 SCD 病患接受 pociredir 進行至多 12 週治療的受試者",
+    "• 截至 2025 年 12 月 23 日的數據截止日期，20 mg 組觀察到的安全性資料與先前報告的安全性資料保持一致。pociredir 通常耐受良好，截至 2025 年 12 月 23 日的數據截止日期，未發生與治療相關的嚴重不良事件，也未因與治療相關的不良事件而中止治療。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司財務狀況相關的風險及對額外資金的需求",
+    "自本公司成立以來，我們已產生顯著虧損。我們預期在未來幾年內仍將產生虧損，並可能永遠無法實現或維持盈利。",
+    "我們將需要大量額外資金。若我們無法在需要時籌集資金，我們可能被迫延遲、減少或終止產品開發計畫或商業化努力。",
+    "籌集額外資金可能導致股東持股稀釋，限制我們的營運，或要求我們放棄對我們技術或產品候選藥物的權利。",
+    "稅法的變更或其執行與解釋的變化可能對我們的業務與財務狀況產生不利影響。",
+    "本公司利用淨營業虧損及研究開發稅額抵減結轉來抵減未來應稅所得的能力，可能受到某些限制。",
+    "與產品候選藥物發現與開發相關的風險",
+    "我們可能無法成功建立產品候選藥物的開發管道",
+    "若我們在臨牀試驗中遭遇患者入組延遲或困難，我們取得必要的監管核准可能會延遲或受阻。",
+    "若在產品候選藥物的開發過程中發現嚴重不良事件或無法接受的副作用，我們可能需要放棄或限制產品候選藥物的開發。",
+    "我們正在進行一項針對SCD患者之pociredir臨牀試驗，包含非洲地區的臨牀試驗場地，且美國食品藥物管理局（FDA）可能不會接受來自這些試驗場地或其他位於美國以外地區的試驗數據。",
+    "與產品候選藥物商業化相關的風險"
+   ],
+   "paragraphs": [
+    "本公司未來營運成果可能與本年度10-K表報表中所描述的結果有重大差異，原因在於下列所列的風險與不確定性。您在評估本公司業務時，應謹慎考慮下列風險資訊。若有任何上述風險實際發生，將可能對本公司業務、財務狀況、營運成果與未來成長前景造成重大且不利的影響。在這種情況下，本公司普通股的市場價格可能下跌。此外，本公司無法保證投資者本公司假設與預期會證明正確。重要因素可能導致本公司實際結果與前展望性陳述所顯示或暗示的結果有重大差異。請參閱本年度10-K表報表第i頁的「關於前展望性陳述的警示說明」，以瞭解部分受這些風險因素限制的前展望性陳述討論。導致這種差異的因素包括下列所列的因素。",
+    "自設立以來，我們已產生顯著的營運虧損。我們的淨虧損為 74.9 百萬美元，為截至 2025 年 12 月 31 日止之會計年度，以及 9.7 百萬美元，為截至 2024 年 12 月 31 日止之會計年度。截至 2025 年 12 月 31 日，我們累計虧損為 594.3 百萬美元。截至目前為止，我們主要透過出售本公司資本股票以及根據我們的合作與授權協議所收到的預付款項來資助營運。我們已將幾乎所有財務資源與努力投入於研究與開發，包括臨牀試驗與前期臨牀研究。我們仍處於產品候選藥物開發的早期階段，且尚未完成任何產品候選藥物的開發。我們預期在接下來的幾年內仍將持續產生顯著的費用與營運虧損。我們的淨虧損可能在每季與每年之間大幅波動。我們預期隨著我們：",
+    "• 繼續進行pociredir及任何未來產品候選藥物的臨牀開發； • 繼續進行我們的前期臨牀研究；",
+    "• 尋求針對其他基因定義罕見疾病的藥物標的發現，以及隨後開發任何由此產生的產品候選藥物；",
+    "• 尋求對任何成功完成臨牀試驗的產品候選藥物取得監管批准；",
+    "• 收購或授權取得產品、產品候選藥物、技術與/或資料參考權，例如我們與CAMP4的協議；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

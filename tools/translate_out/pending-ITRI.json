@@ -1,0 +1,223 @@
+{
+ "ticker": "ITRI",
+ "cik": "0000780571",
+ "accession": "0000780571-26-000033",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Available Information",
+    "Our Business",
+    "In millions Total Bookings Total Backlog 12-Month Backlog",
+    "As of December 31, 2025",
+    "Region Male Female Other",
+    "Total Number of Employees Percentage of Total Employees",
+    "Name Age Position"
+   ],
+   "paragraphs": [
+    "Documents we provide to the Securities and Exchange Commission (SEC) are available free of charge under the Investors section of our website at www.itron.com as soon as practicable after they are filed with or furnished to the SEC. In addition, these documents are available at the SEC's website (http://www.sec.gov). The information posted on or accessible through our website is not part of or incorporated by reference into this Annual Report.",
+    "Itron is a global leader in grid edge intelligence, energy and water management, smart city applications, Industrial Internet of Things (IIoT) and critical infrastructure and related services. Our intelligent infrastructure solutions help utilities and cities improve efficiency, build resilience and deliver safe, reliable, and affordable service. With edge intelligence, we connect people, data insights, and devices so communities can better manage the essential resources they rely on.",
+    "Itron provides an integrated, intelligent portfolio of endpoints (such as sensors, switches, and meters) that collect and analyze data, control devices, and take action in the field. Our multi-purpose multi-tenant communication networks harvest that data and deliver where and when needed; our software and services then turn that data into insights for analysis and action. With Itron, our customers achieve more efficient operations, improve operating resilience, better engage consumers, increase capacity, and enhance profitability.",
+    "We have nearly 50 years of experience supporting utilities and cities in the management of their data and critical infrastructure needs. Incorporated in 1977 with an initial focus on meter reading services and technology, we entered the electricity meter manufacturing business with the acquisition of Schlumberger Electricity Metering in 2004. In 2007, we expanded our presence in global meter manufacturing and systems with the acquisition of Actaris Metering Systems SA. In 2017, we completed our acquisition of Comverge, which enabled us to offer integrated cloud-based demand response, energy efficiency, and customer",
+    "engagement solutions. In 2018, we strengthened our ability to deliver a broader set of solutions and increased our pace of growth and innovation in the utility, smart city, and broader IIoT markets with the acquisition of Silver Spring Networks, Inc. During 2025, we broadened our software-oriented resiliency offerings with the acquisition of Urbint, Inc.",
+    "Through acquisitions, organic growth, and our focus on innovation, Itron remains a leading provider of technology to support better decision making, visibility, and control at the grid edge. By digitizing and automating infrastructure, Itron helps utilities and cities operate more efficiently, increase grid resilience and reliability, integrate distributed energy resources, enhance community services such as lighting, and provide responsible energy and water management.",
+    "We continue to innovate and support open standards and interoperability with a flexible technology platform that enables our customers to meet their needs directly or via our ecosystem of partners. We support a worldwide network of connected devices and sensors, and we will continue to develop more applications, new opportunities, and value-added outcomes for our customers in the future.",
+    "The following is a discussion of our solutions, markets, and reportable segments. Refer to Part II, Item 7: Management's Discussion and Analysis of Financial Condition and Results of Operations and Part II, Item 8: Financial Statements and Supplementary Data for specific segment results.",
+    "Itron is transforming how the world manages energy, water, and city services. Our intelligent infrastructure connects people, data, and devices to improve efficiency, resilience, and sustainability. Amid changing demand and evolving challenges, we help utilities and cities deliver safe, reliable, and affordable services. By leveraging smart endpoints and data insights, we enable cost-effective collaboration and innovation on a reliable, intelligent platform—creating a more resourceful world.",
+    "Itron helps our customers adapt to a rapidly changing world and address a number of macro trends, including:",
+    "•Infrastructure – such as aging utility infrastructure, grid complexity, grid security, safety, asset monitoring and management, increased energy demand from electrification and data centers, and incorporating the proliferation of distributed energy resources, including electric vehicles, renewable energy, and storage, into the grid",
+    "•Environmental – such as extreme weather, resource scarcity, and societal demand for greater sustainability and decarbonization of energy and power",
+    "•Social – such as enhanced customer experience, consumers with critical needs, privacy, urbanization, population increase, and the management of data and incorporating IIoT technology into utilities' and municipalities' existing operations",
+    "Our solutions include smart networks, software, services, devices, sensors, and data analytics operating upon a flexible technology platform that allows our customers to address the changing macro trends listed above, as well as the pressing industry challenges to better manage and control assets, intelligently benchmark, secure revenue, lower operational costs, improve customer service, enhance consumer engagement, develop new business models and revenue streams, improve safety, and enable efficient, sustainable management of valuable resources."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Business and Industry Risks",
+    "Risks Related to Our Corporate Structure and Organization",
+    "Risks Related to Our Technology and Intellectual Property",
+    "Financial and Market Risks"
+   ],
+   "paragraphs": [
+    "The risks described below could materially and adversely affect our business, results of operations, cash flows, and financial condition. These risk factors do not identify all risks that we face; we could also be affected by other risks that are not presently known to us or that we currently consider to be immaterial. These factors should be carefully reviewed in conjunction with Part II, Item 7: Management's Discussion and Analysis of Financial Condition and Results of Operations. Many factors affect more than one category, and the factors are not in order of significance or probability of occurrence because they have been grouped by categories.",
+    "Our primary customers are within the utility industry, which has exhibited lengthy sales cycles and irregular capital spending patterns, each of which could cause our operating results to fluctuate significantly.",
+    "We derive the majority of our revenues from sales of products and services to utilities. Purchases of our products may be deferred as a result of many factors, including economic downturns, slowdowns in new residential and commercial construction, customers' access to capital, the timing and availability of government subsidies or other incentives, utility specific financial circumstances, mergers and acquisitions, governmental and regulatory decisions, weather conditions, climate disruption, and fluctuating interest rates. We have experienced, and may in the future experience, variability in operating results on an annual and a quarterly basis as a result of these factors.",
+    "The industries in which we sell our products and services, in particular the utility industry, are subject to substantial government regulation. For example, regulations have often influenced the frequency of customer meter replacements. Sales cycles for our standalone meter products have typically been based on annual or biennial bid-based agreements. Utilities place purchase orders against these agreements as their inventories decline, which can create fluctuations in our sales volumes.",
+    "Sales cycles for smart metering solutions are generally long and unpredictable due to several factors, including budgeting, purchasing, and regulatory approval processes that can take several years to complete. Our utility customers typically issue requests for quotes and proposals, establish evaluation processes, review different technical options with vendors, analyze performance and cost/benefit justifications, and perform a regulatory review, in addition to applying the normal budget approval process. Today, governments around the world are implementing new laws and regulations to promote increased energy efficiency, slow or reverse growth in the consumption of scarce resources, reduce carbon dioxide emissions, and protect the environment. Many legislative and regulatory initiatives encourage utilities to develop a smart grid infrastructure, and some of these initiatives provide for government subsidies, grants, or other incentives to utilities and other participants in their industry to promote transition to smart grid technologies. If government regulations regarding the smart grid and smart metering are delayed, revised to permit lower or different investment levels in metering infrastructure, or terminated altogether, this could have a material adverse effect on our results of operations, cash flows, and financial condition.",
+    "We must continually shift and adapt our products and services mix, which requires substantial judgment and investment."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Total Company Highlights",
+    "Total Company GAAP, Non-GAAP Highlights, and Annual Recurring Revenue:",
+    "Year Ended December 31,",
+    "In thousands, except margin and per share data 2025 % Change 2024",
+    "Results of Operations",
+    "Revenues and Gross Margin",
+    "Effect of Changes in Foreign Currency Exchange Rates Constant Currency Change Total Change",
+    "In thousands 2025 2024",
+    "Total Company",
+    "Operating Expenses",
+    "Other Income (Expense)",
+    "In thousands 2025 % Change 2024 $ 48,376 40% $ 34,577 (7,077) 29% (5,489) (15,374) 55% (9,890) (22,451) 46% (15,379) 3,274 168% 1,223 $ 29,199 43% $ 20,421",
+    "Income Tax Provision",
+    "Reportable Segment Results",
+    "In thousands 2025 % Change 2024",
+    "Segment revenues",
+    "In thousands Adjusted Gross",
+    "Adjusted Gross",
+    "Segment adjusted gross profit and margin",
+    "In thousands Adjusted Operating",
+    "Income (loss)",
+    "Adjusted Operating",
+    "Segment adjusted operating income (loss) and operating margin",
+    "Device Solutions",
+    "Device Solutions Segment",
+    "Networked Solutions",
+    "Networked Solutions Segment",
+    "Outcomes Segment",
+    "Resiliency Solutions",
+    "Resiliency Solutions Segment",
+    "Corporate unallocated",
+    "Financial Condition",
+    "Cash Flow Information",
+    "In thousands 2025 2024 2023",
+    "In thousands 2025 2024 $ 405,952 $ 238,175 (22,891) (30,562) $ 383,061 $ 207,613",
+    "Off-balance sheet arrangements",
+    "Liquidity and Capital Resources",
+    "In thousands Next 12 months Beyond the next",
+    "In thousands 2025 2024 $ 29,000 $ 42,224 8,595 9,250 18,721 28,698 $ 56,316 $ 80,172",
+    "Contingencies",
+    "Critical Accounting Estimates"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis compares the change in the consolidated financial statements for fiscal years 2025 and 2024 and should be read in conjunction with Item 8: Financial Statements and Supplementary Data. For comparisons of fiscal years 2024 and 2023, see our Management's Discussion and Analysis of Financial Condition and Results of Operations in Part II, Item 7 of our 2024 Annual Report on Form 10-K, filed with the Securities and Exchange Commission (SEC) on February 25, 2025, and incorporated herein by reference.",
+    "The objective of Management's Discussion and Analysis is to provide our assessment of the financial condition and results of operations, including an evaluation of our liquidity and capital resources along with material events occurring during the year. The discussion and analysis focuses on material events and uncertainties known to management that are reasonably likely to cause reported financial information not to be necessarily indicative of future operating results or of future financial condition. In addition, we address matters that are reasonably likely, based on management's assessment, to have a material impact on future operations. We expect the analysis will enhance a reader's understanding of our financial condition, cash flows, and other changes in financial condition and results of operations.",
+    "We are a technology, solutions, and service company, and we are a leader in the Industrial Internet of Things (IIoT). We offer solutions that enable utilities and municipalities to safely, securely, and reliably operate their critical infrastructure. Our solutions include the deployment of smart networks, software, services, devices, sensors, and data analytics that allow our customers to manage assets, secure revenue, lower operational costs, improve customer service, improve safety, and enable efficient management of valuable resources. Our comprehensive solutions and data analytics address the unique challenges facing the energy, water, and municipality sectors, including increasing demand on resources, non-technical loss, leak detection, environmental and regulatory compliance, and improved operational reliability.",
+    "We operate under the Itron brand worldwide and manage and report under four reportable segments: Device Solutions, Networked Solutions, Outcomes, and Resiliency Solutions. Resiliency Solutions is a new reportable segment starting in the fourth quarter of 2025. The product and operating definitions of the four segments are as follows:",
+    "Device Solutions – This segment primarily includes hardware products used for measurement, control, or sensing. Examples from the Device Solutions portfolio include: standard endpoints that are shipped without Itron communications, such as our standard electricity, gas, and water meters for a variety of global markets and adhering to regulations and standards within those markets, as well as our heat and allocation products; communicating meters designed to operate outside of Itron end-to-end solutions and designed to meet market requirements; and the implementation and installation of associated devices.",
+    "Networked Solutions – This segment primarily includes a combination of communicating endpoints (e.g., smart meters, modules, endpoints, and sensors), network infrastructure, network design services, and associated headend management and application software designed and sold as a complete solution for acquiring and transporting robust application-specific data. Networked Solutions includes products, software and services for the implementation, installation, and management of communicating endpoints and data networks. The Industrial Internet of Things (IIoT) solutions supported by this segment include automated meter reading (AMR) and advanced metering infrastructure (AMI) for electricity, water, and gas; distributed energy resource management (DERMs); grid edge devices; distribution automation communications; smart lighting; and smart city sensors and applications. Our IIoT platform allows utility and smart city applications to be run and managed on a flexible, secure, and interoperable multi-purpose network.",
+    "Outcomes – This segment primarily includes our value-added, enhanced software and services in which we utilize distributed compute to manage, organize, analyze, and interpret raw, anonymized data using artificial intelligence, machine learning, statistical modeling, and other analytics. This delivers new value for utilities, municipalities, and cities through improving decision making, maximizing operational profitability, engaging consumers, ensuring safety, enhancing resource efficiency, and improving grid resiliency and reliability. Outcomes supports high-value use cases, such as data management, grid planning and operations, AMI operations, gas distribution safety, non-revenue water reduction, revenue assurance, distributed energy resources (DER) management, energy forecasting, consumer engagement, and smart payment. Utilities leverage these outcomes to unlock the capabilities of their networks and devices, improve the productivity of their workforce, increase the reliability of their operations, manage and optimize the proliferation of DERs, address grid complexity, and enhance the customer experience. Revenue from these offerings are primarily recurring in nature and would include any direct management of Device Solutions, Networked Solutions, and other third-parties' products on behalf of our end customers.",
+    "Resiliency Solutions – This segment primarily includes software and services focused on worker safety, emergency preparedness and response, and damage prevention for critical infrastructure providers and their supporting contractors. These solutions are enhanced through the use of artificial intelligence-based models to predict events to aid in compliance, incident remedy, and prevention.",
+    "We use adjusted operating income (margin) as the primary measure of segment performance. In addition, we believe adjusted gross profit (margin) provides further understanding of our segments' performance. Intersegment revenues are minimal. Certain operating expenses are allocated to the reportable segments based upon internally established allocation methodologies. Interest income, interest expense, other income (expense), the income tax provision (benefit), and certain corporate operating expenses are neither allocated to the segments nor included in the measures of segment performance.",
+    "To supplement our consolidated financial statements, which are prepared in accordance with accounting principles generally accepted in the United States (GAAP), we use certain adjusted or non-GAAP financial measures, including non-GAAP operating expense, non-GAAP operating income, non-GAAP net income, non-GAAP diluted earnings per share (EPS), adjusted EBITDA, free cash flow, adjusted gross profit, adjusted operating income, and constant currency. We provide these non-GAAP financial measures because we believe they provide greater transparency and represent supplemental information used by management in its financial and operational decision making. We exclude certain costs in our non-GAAP financial measures as we believe the net result is a measure of our core business. We believe these measures facilitate operating performance comparisons from period to period by eliminating potential differences caused by the existence and timing of certain expense items that would not otherwise be apparent on a GAAP basis. Non-GAAP performance measures should be considered in addition to, and not as a substitute for, results prepared in accordance with GAAP. We strongly encourage investors and shareholders to review our financial statements and publicly-filed reports in their entirety and not to rely on any single financial measure. Our non-GAAP financial measures may be different from those reported by other companies.",
+    "In our discussions of the operating results below, we may refer to the impact of foreign currency exchange rate fluctuations, which are references to the differences between the foreign currency exchange rates we use to convert operating results from local currencies into U.S. dollars for reporting purposes. We also use the term \"constant currency\", which represents results adjusted to exclude foreign currency exchange rate impacts. We calculate the constant currency change as the difference between the current period results translated using the current period currency exchange rates and the comparable prior period's results restated using current period currency exchange rates. We believe the reconciliations of changes in constant currency provide useful supplementary information to investors in light of fluctuations in foreign currency exchange rates.",
+    "Refer to the Non-GAAP Measures section below on pages 43-46 for information about these non-GAAP measures and the detailed reconciliation of items that impacted non-GAAP operating expenses, non-GAAP operating income, non-GAAP net income, non-GAAP diluted EPS, adjusted EBITDA, and free cash flow in the periods presented.",
+    "Highlights and significant developments for the year ended December 31, 2025 compared with the year ended December 31, 2024",
+    "•Revenues were $2.4 billion in both periods •Gross margin was 37.7% compared with 34.4% last year"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "可取得資訊",
+    "本公司業務",
+    "以千萬計 Total Bookings Total Backlog 12-Month Backlog",
+    "截至 2025 年 12 月 31 日",
+    "地區 男性 女性 其他",
+    "總員工數量 總員工數百分比",
+    "姓名 年齡 職位"
+   ],
+   "paragraphs": [
+    "本公司提供給美國證券交易委員會（SEC）的文件，可於本公司網站的投資人專區（www.itron.com）免費取得，自這些文件向SEC提交或提供後儘速公開。此外，這些文件亦可於SEC網站（http://www.sec.gov）取得。本公司網站上或可存取的資訊並非本年度報告的一部分，亦未經引用納入本年度報告。",
+    "Itron為全球在電網邊緣智慧、能源與水資源管理、智慧城鄉應用、工業物聯網（IIoT）及關鍵基礎建設與相關服務的領導廠商。我們的智慧基礎建設解決方案協助電力供應商與城鄉提高效率、建立韌性，並提供安全、可靠且經濟的服務。透過邊緣智慧，我們連結人、數據洞察與裝置，使社區能更有效管理其倚賴的關鍵資源。",
+    "Itron提供整合且智慧化的端點產品組合（如感測器、開關與計量器），用以收集與分析數據、控制裝置並在現場採取行動。我們的多功能多租戶通訊網路可收集這些數據並在需要時於適當位置傳送；我們的軟體與服務則將這些數據轉化為洞察，用以分析與行動。透過Itron，我們的客戶可實現更高效的運作、提升運營韌性、更好地與消費者互動、增加容量並提高利潤率。",
+    "本公司擁有近50年的經驗，協助電力供應商與城鄉管理其數據與關鍵基礎建設需求。本公司於1977年成立，初期專注於計量器讀取服務與技術，於2004年透過收購Schlumberger Electricity Metering進入電力計量器製造業務。2007年，本公司透過收購Actaris Metering Systems SA擴大在全球計量器製造與系統的業務版圖。2017年，本公司完成收購Comverge，使本公司能提供整合的雲端基準需求回應、能源效率與消費者",
+    "互動解決方案。2018年，本公司透過收購Silver Spring Networks, Inc.，強化提供更廣泛解決方案的能力，並加快在電力供應、智慧城鄉與更廣泛IIoT市場的成長與創新速度。2025年，本公司透過收購Urbint, Inc.，拓展軟體導向的韌性解決方案。",
+    "透過收購、內生成長與對創新之重視，Itron持續為支持更優質決策、可視化與控制的技術領導廠商。透過數位化與自動化基礎建設，Itron協助電力供應商與城鄉更有效運作、提升電網韌性與可靠性、整合分散式能源資源、提升社區服務如照明，並提供負責任的能源與水資源管理。",
+    "本公司持續創新並支持開放標準與互通性，透過靈活的技術平台，使客戶能直接或透過我們的生態系合作夥伴滿足其需求。我們支持全球連接裝置與感測器的網路，並會持續為客戶未來開發更多應用、新機會與附加價值的成果。",
+    "以下為本公司解決方案、市場與應報告分部之說明。請參閱第二部分，第7項：管理層對財務狀況與營運成果之討論與分析，以及第二部分，第8項：財務報表與補充資料，以取得特定分部之結果。",
+    "Itron 正在改變世界管理能源、水資源及城市服務的方式。我們的智慧基礎設施連結人們、數據與裝置，以提升效率、韌性與永續性。面對需求變動與持續演進的挑戰，我們協助電力供應商與城市提供安全、可靠且經濟的服務。透過運用智慧端點與數據洞察，我們能於穩定、智慧的平台上實現成本效益的合作與創新—創造更有效利用資源的世界。",
+    "Itron 幫助客戶適應快速變化的世界，並應對多項總體經濟趨勢，包括：",
+    "• 基礎建設 – 例如老舊電力基礎建設、電網複雜性、電網安全、安全、資產監測與管理、電氣化與資料中心所帶來的能源需求增加，以及將電動車、可再生能源與儲能等分散能源資源納入電網",
+    "• 環境 – 例如極端天氣、資源匱乏，以及社會對更大永續性與能源與電力去碳化的需求",
+    "• 社會 – 例如提升客戶體驗、有關鍵需求的消費者、隱私、都市化、人口增加，以及數據管理與將 IIoT 技術納入電力供應商與地方政府現有作業",
+    "我們的解決方案包括智慧電網、軟體、服務、裝置、感測器與數據分析，運作於一個靈活的技術平台之上，讓客戶能應對上述變動的總體經濟趨勢，以及迫切的產業挑戰，以更好地管理與控制資產、智慧化比較、確保收入安全、降低營運成本、改善客戶服務、提升消費者參與度、發展新業務模式與收入來源、提升安全性，並實現對珍貴資源的高效、永續管理。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "總體公司亮點",
+    "總體公司 GAAP、非 GAAP 亮點及年度經常性收入：",
+    "截至 12 月 31 日年度",
+    "以千為單位，除毛利率及每股資料外 2025 年變動率 2024",
+    "營運成果",
+    "收入與毛利率",
+    "外幣交換率變動影響 億幣變動率 總變動率",
+    "以千為單位 2025 2024",
+    "總公司",
+    "營運費用",
+    "其他收入（費用）",
+    "千美元 2025 年增減率 2024 年 $ 48,376 40% $ 34,577 (7,077) 29% (5,489) (15,374) 55% (9,890) (22,451) 46% (15,379) 3,274 168% 1,223 $ 29,199 43% $ 20,421",
+    "所得稅費用",
+    "應報告分部結果",
+    "千美元 2025 年增減率 2024 年",
+    "分部營收",
+    "以千計調整後毛額",
+    "調整後毛額",
+    "分部調整後毛利及毛利率",
+    "以千計調整後營運",
+    "損益",
+    "調整後營運",
+    "分部調整後營運損益及營運毛率",
+    "裝置解決方案",
+    "{'Device Solutions Segment': '零組件解決方案應報告分部'}",
+    "{'Networked Solutions': '網路解決方案'}",
+    "{'Networked Solutions Segment': '網路解決方案應報告分部'}",
+    "{'Outcomes Segment': '成果應報告分部'}",
+    "{'Resiliency Solutions': '韌性解決方案'}",
+    "{'Resiliency Solutions Segment': '韌性解決方案應報告分部'}",
+    "{'Corporate unallocated': '公司未分配項目'}",
+    "{'Financial Condition': '財務狀況'}",
+    "現金流量資訊",
+    "千美元 2025 2024 2023",
+    "千美元 2025 2024 $ 405,952 $ 238,175 (22,891) (30,562) $ 383,061 $ 207,613",
+    "離於資產負債表之安排",
+    "流動性及資本資源",
+    "千美元 下一 12 個月 超過下一",
+    "千美元 2025 2024 $ 29,000 $ 42,224 8,595 9,250 18,721 28,698 $ 56,316 $ 80,172",
+    "或有事項",
+    "重要會計估計"
+   ],
+   "paragraphs": [
+    "以下討論與分析比較財務報表合併後之財務狀況於財務年度2025與2024之變動，應與第8項：財務報表與補充資料一併閱讀。有關財務年度2024與2023之比較，請參閱我們於2024年年度報告表Form 10-K中第II部第7項「管理層對財務狀況與營運結果之討論與分析」，該報告於2025年2月25日提交至證券交易委員會（SEC），並 hereby 並入參考。",
+    "管理層討論與分析之目標為提供本公司對財務狀況與營運結果之評估，包括對流動性與資本資源之評估，以及年度內發生之重大事件。討論與分析聚焦於管理層所知之重大事件與不確定性，這些事件與不確定性合理可能導致報告之財務資訊未必能反映未來營運結果或財務狀況。此外，我們亦探討基於管理層評估，合理可能對未來營運產生重大影響之事項。我們預期此分析將增強讀者對本公司財務狀況、現金流及其他財務狀況與營運結果變動之理解。",
+    "本公司為一科技、解決方案與服務公司，並為工業物聯網（IIoT）之領導者。我們提供解決方案，使電力與地方政府能安全、穩健且可靠地運作其關鍵基礎設施。我們的解決方案包括部署智慧網路、軟體、服務、裝置、感測器與資料分析，使客戶能管理資產、確保收入、降低營運成本、改善客戶服務、提升安全性，並有效管理珍貴資源。我們的全面解決方案與資料分析，針對能源、水與地方政府部門所面臨的獨特挑戰，包括資源需求增加、非技術性損失、漏損偵測、環境與法規合規，以及改善營運可靠性。",
+    "本公司於全球以Itron品牌運作，並管理與報告為四個應報告分部：裝置解決方案、網路解決方案、成果與韌性解決方案。韌性解決方案為一個新設立的應報告分部，自2025年第四季開始運作。四個分部之產品與營運定義如下：",
+    "裝置解決方案 – 此分部主要包含用於測量、控制或感測之硬體產品。裝置解決方案產品組合之範例包括：標準端點產品，這些產品在出貨時不包含Itron通訊，例如我們為多種全球市場所製造的標準電力、天然氣與水錶，並符合該市場之法規與標準，以及我們的熱能與分配產品；可通訊電表，設計用於在Itron端到端解決方案之外運作，並符合市場需求；以及相關裝置之實施與安裝。",
+    "網路解決方案 – 此分部主要包含可通訊端點（例如智慧電表、模組、端點與感測器）、網路基礎設施、網路設計服務，以及相關前端管理與應用軟體，這些產品與服務被設計與銷售為完整解決方案，用以取得與傳輸強固的應用特定資料。網路解決方案包含產品、軟體與服務，用以實施、安裝與管理可通訊端點與資料網路。此分部支援之工業物聯網（IIo.T）解決方案包括自動電表讀取（AMR）與先進電表基礎設施（AMI）用於電力、水與天然氣；分散式能源資源管理（DERMs）；電網邊緣裝置；配電自動化通訊；智慧照明；以及智慧城市感測器與應用。我們的IIoT平台允許電力與智慧城市應用在靈活、安全且互通的多功能網路中執行與管理。",
+    "成果 – 此分部主要包含我們的增值、增強軟體與服務，我們利用分散式計算來管理、組織、分析與解釋原始、匿名化資料，使用人工智慧、機器學習、統計模型及其他分析技術。這為電力、地方政府與城市帶來新價值，透過改善決策、最大化營運利潤、與消費者互動、確保安全性、提升資源效率，以及改善電網韌性與可靠性。成果支援高價值應用案例，例如資料管理、電網規劃與營運、AMI營運、天然氣分配安全性、非收入水減少、收入保證、分散式能源資源（DER）管理、能源預測、消費者互動，以及智慧付款。電力公司利用這些成果來發揮其網路與裝置的潛能，提高其員工的生產力，提高其營運的可靠性，管理與優化分散式能源資源（DER）的擴張，應對電網複雜性，並提升客戶體驗。這些產品的收入主要為重複性收入，包括任何為終端客戶直接管理裝置解決方案、網路解決方案及其他第三方產品的服務。",
+    "韌性解決方案 – 此分部主要包含專注於工作者安全、緊急應變與應對，以及關鍵基礎設施供應商及其支援承包商之損壞預防之軟體與服務。這些解決方案透過使用基於人工智慧之模型預測事件，以協助符合法規、處理事故與預防事故。",
+    "我們以調整後的營運收入（邊際）作為衡量各應報告分部績效的主要指標。此外，我們認為調整後的毛利（邊際）可進一步說明各應報告分部的績效。分部間的收入為微不足道。某些營運費用根據內部建立的分配方法，分配至應報告分部。利息收入、利息費用、其他收入（費用）、所得稅提列（減免）以及某些公司營運費用，並未分配至分部，也未包含在分部績效的衡量指標中。",
+    "為補充我們根據美國通用會計準則（GAAP）編製的合併財務報表，我們使用某些調整後或非GAAP財務指標，包括非GAAP營運費用、非GAAP營運收入、非GAAP淨收入、非GAAP稀釋每股盈餘（EPS）、調整後EBITDA、自由現金流、調整後毛利、調整後營運收入以及固定貨幣。我們提供這些非GAAP財務指標，因為我們認為這些指標能提供更高的透明度，並代表管理階層在財務與營運決策中使用的補充資訊。我們在非GAAP財務指標中排除某些費用，因為我們認為淨結果是衡量我們核心業務的指標。我們認為這些指標有助於透過消除某些費用項目存在時間與時點可能造成的差異，來比較各期間的營運績效。非GAAP績效指標應與根據GAAP編製的結果一併考量，而非作為替代。我們強烈建議投資人與股東審閱我們的財務報表與公開檔案報告的完整內容，並勿依賴任何單一財務指標。我們的非GAAP財務指標可能與其他公司報告的指標不同。",
+    "在以下對營運結果的討論中，我們可能提及外幣交換率波動的影響，這是指我們用來將營運結果從當地貨幣轉換為美元以進行報告用途的外幣交換率差異。我們也使用「固定貨幣」一詞，這代表已調整以排除外幣交換率影響的結果。我們計算固定貨幣變動為當前期間結果使用當前期間貨幣交換率轉換與可比前一期間結果使用當前期間貨幣交換率重新表述的差異。我們認為固定貨幣變動的調整能為投資人提供有用的補充資訊，以應對外幣交換率的波動。",
+    "請參閱下方第43至46頁的非GAAP指標部分，以取得這些非GAAP指標的資訊以及對報告期間內影響非GAAP營運費用、非GAAP營運收入、非GAAP淨收入、非GAAP稀釋每股盈餘（EPS）、調整後EBITDA與自由現金流的項目之詳細調整資料。",
+    "2025年12月31日財年與2024年12月31日財年的重要亮點與重大發展",
+    "• 2025年營收為24億美元，與2024年相同 • 毛利率為37.7%，與去年的34.4%相比"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "營業與產業風險",
+    "與本公司組織結構與組織相關之風險",
+    "與本公司科技與智慧財產權相關之風險",
+    "財務與市場風險"
+   ],
+   "paragraphs": [
+    "下列風險描述可能對本公司業務、營運結果、現金流及財務狀況造成重大且不利的影響。這些風險因素並未涵蓋本公司所面臨的所有風險；本公司也可能受到其他尚未知悉或目前認為不重要的風險影響。這些因素應與第二部分，第七項：管理層對財務狀況與營運結果之討論與分析一併審閱。許多因素會影響多個類別，且這些因素並未按重要性或發生機率排序，因為它們已按類別分組。",
+    "本公司主要客戶為電力業者，該產業表現出長時間的銷售週期與不規則的資本支出模式，這些因素都可能導致本公司營運結果大幅波動。",
+    "本公司絕大多數的營業收入來自向電力業者銷售產品與服務。購買本公司產品的行為可能因多種因素而延後，包括經濟衰退、住宅與商業建設減緩、客戶取得資金的難易程度、政府補貼或其他激勵措施的時機與可取得性、電力業者特定的財務狀況、合併與收購、政府與監管決策、天氣條件、氣候變動以及利率波動。本公司已經驗過，且未來可能再次經驗，因這些因素而導致營運結果在年度與季度之間產生變動。",
+    "我們銷售產品與服務的產業，特別是電力業者，受到政府嚴格規範。例如，規範往往會影響客戶水電表更換的頻率。我們單獨銷售的水電表產品銷售週期通常基於年度或每兩年一次的招標合約。電力業者會根據這些合約的庫存減少情況下達採購訂單，這可能導致我們銷售量產生波動。",
+    "智慧電表解決方案的銷售週期通常較長且難以預測，這是因為涉及多種因素，包括預算、採購與規範批准程序，這些程序可能需要數年才能完成。電力業者客戶通常會發出詢價與提案請求，建立評估程序，與供應商討論不同的技術選項，分析性能與成本效益合理性，並進行規範審查，同時也進行正常的預算批准程序。目前，世界各地政府正在實施新法律與規範，以促進提高能源效率、減緩或逆轉稀缺資源的消耗增長、減少二氧化碳排放，並保護環境。許多立法與規範措施鼓勵電力業者發展智慧電網基礎設施，其中一些措施提供政府補貼、補助金或其他激勵措施，以促進電力業者及其他產業參與者轉型至智慧電網技術。如果有關智慧電網與智慧電表的政府規範延遲、修正以允許較低或不同的投資水平於計量基礎設施，或完全終止，這可能會對本公司營運結果、現金流及財務狀況造成重大且不利的影響。",
+    "我們必須持續調整與適應產品與服務的組合，這需要大量的判斷與投資。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

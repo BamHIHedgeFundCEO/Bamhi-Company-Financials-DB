@@ -1,0 +1,205 @@
+{
+ "ticker": "MSA",
+ "cik": "0000066570",
+ "accession": "0000066570-26-000005",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Fire Service",
+    "Industrial PPE and Other"
+   ],
+   "paragraphs": [
+    "Overview—MSA Safety Incorporated (the \"Company\" or \"MSA\") is the global leader in advanced safety products, technology and solutions. Driven by its singular mission of safety, the Company has been at the forefront of safety innovation since 1914, protecting workers and facility infrastructure around the world across a broad range of diverse end markets while creating sustainable value for shareholders. The Company's comprehensive product line, which is governed by rigorous safety standards across highly regulated industries, is used to protect workers and facility infrastructures around the world in a broad range of markets, including fire service, energy, utility, construction, and industrial manufacturing applications as well as heating, ventilation, air conditioning and refrigeration (\"HVAC-R\"). The Company's principal product categories are detection, fire service and industrial personal protective equipment (\"PPE\").",
+    "In addition to its principal product categories, MSA continues to deploy and grow its MSA+™ ecosystem, its turnkey approach to MSA hardware, software, and services to simplify and improve safety operations for customers while delivering recurring revenue.",
+    "The Company's leading market positions across various products in our portfolio are supported and enabled by a strong commitment to investing in new product development that continually raises the bar for safety equipment performance, all while upholding an unwavering commitment to integrity. We dedicate significant resources to research and development, which allows us to produce innovative safety products and solutions that are often first to market and usually protected by intellectual property. Our global product development teams include cross-functional associates throughout the Company, including research and development, marketing, sales, operations and quality management. Our engineers and technical associates work closely with the safety industry's leading standards-setting groups and trade associations to develop industry-specific product standards and to anticipate their impact on our product line.",
+    "We leverage the MSA Business System (\"MBS\") to develop and introduce innovative safety solutions, secure new business opportunities, and operate with greater efficiency. The MBS is our approach to working at our best - at our most efficient and most empowered. It is a combination of behaviors, processes and tools that provide a framework to run the business and continuously improve. We strive to serve our customers and help them solve their safety and compliance challenges while creating value for our shareholders. As part of our differentiated development process, we embed ourselves with our customers to deeply understand their processes, pain points and desired outcomes. Our commitment to MBS has enabled us to drive customer satisfaction and profitable growth while generating significant improvements in operating results.",
+    "Segments—We tailor our product and solution offerings and distribution strategy to satisfy distinct customer preferences that vary across geographic regions. To best serve these customer preferences, we have organized our business into four geographic operating segments that are aggregated into two reportable segments: Americas and International. Segment information is presented in Note 9—Segment Information of the consolidated financial statements in Part II Item 8 of this Form 10-K.",
+    "Because our consolidated financial statements are stated in U.S. dollars and much of our business is conducted outside the U.S., currency fluctuations may affect our results of operations and financial position and may affect the comparability of our results between financial periods.",
+    "Products and solutions —We design, manufacture, and sell a comprehensive line of safety products and solutions to protect workers and facility infrastructures around the world. Our products and solutions protect people and critical infrastructure against a wide variety of hazardous or life-threatening situations.",
+    "The following is a brief description of our primary products within each of our Detection, Fire Service and Industrial PPE product categories, each of which we sell in both our Americas and International Segments:",
+    "FGFD systems. Our permanently installed fixed gas and flame detection (\"FGFD\") products and solutions are used in energy and utility applications, HVAC-R, water and wastewater, food retail and general industrial production facilities to detect the presence or absence of various gases in the air. Typical applications of these systems include detecting combustible or toxic gases as well as leaks of refrigerants. FGFD products and solutions generate a meaningful portion of overall revenue from recurring business including replacement components and related service. Key products and solutions include:",
+    "•Fixed gas detection monitoring systems. This product line is used to monitor for combustible and toxic gases and oxygen deficiency in a wide variety of applications where continuous monitoring is required. Our systems are used for gas detection in energy, pulp and paper, wastewater, refrigerant monitoring, pharmaceutical production and general industrial applications. Some of our flagship products in this category include the Ultima®X5000 and S5000 gas monitors, which utilize a wide array of sensor technologies to enhance facility and worker safety.",
+    "•Flame detectors and open-path infrared gas detectors. These instruments are used for plant-wide monitoring of toxic gases and for detecting the presence of flames. These systems use sensor technology to detect potentially hazardous conditions across long distances, making them suitable for use in applications such as processing industries, storage vessels and HVAC ducts.",
+    "•Refrigerant detection and identification. Our refrigerant leak detection monitors, such as the MSA Bacharach® Multi-Zone Gas Monitor and the MSA Chillgard® 5000 Refrigerant Leak Monitor, help identify and mitigate refrigerant leaks. Users can enhance their leak detection and mitigation efforts by utilizing MSA+ solutions, like the MSA Parasense Refrigerant Tracking and Compliance software and the MSA Parasense Enterprise Leak Detection software. These solutions provide users with real-time monitoring and alerts.",
+    "In 2025, we acquired M&C TechGroup and its affiliated companies (\"M&C\"). Headquartered in Ratingen, Germany, M&C provides a comprehensive range of gas analysis systems that detect, measure and monitor gases in critical environments. M&C's product portfolio includes systems and solutions for gas sampling, gas conditioning, as well as advanced process control. Refer to Note 15—Acquisitions to the consolidated financial statements in Part II Item 8 of this Form 10-K for further information.",
+    "Portable gas detection instruments. Our handheld portable gas detection instruments are used to detect the presence or absence of various gases in the air. The product line is used by energy, utility, general industrial workers as well as first responders or anyone working in a confined space environment. Our single and multi-gas detectors provide portable solutions for detecting the presence of oxygen, combustible gases and various toxic gases, including hydrogen sulfide, carbon monoxide, ammonia and chlorine, either singularly or up to six gases at once. Our multi-gas detectors include the ALTAIR® 2X, ALTAIR 4XR and ALTAIR 5X, all of which utilize our internally developed XCell® sensor technology for fast response times. Our newest multi-gas detectors, the ALTAIR io™ 4 and ALTAIR io 6, are portable gas detection wearables designed with fully integrated connectivity through MSA+ solutions for real-time visibility across worksites."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Claims of injuries or potential safety issues or quality concerns could be made against our various subsidiaries.",
+    "Our subsidiaries may experience losses from product liability claims, which could have a material adverse effect on our business, operating results, financial condition and liquidity.",
+    "We are subject to various federal, state and local laws and regulations across our global organization and any violation of these laws or regulations could adversely affect our results of operations.",
+    "We are subject to various environmental laws, regulations and ordinances, any violation of which could adversely affect our results of operations.",
+    "We are subject to risks related to our sustainability activities and disclosures.",
+    "We are subject to various U.S. and foreign tax laws and any changes in these laws related to the taxation of businesses and resolutions of tax disputes could adversely affect our results of operations.",
+    "Unfavorable economic and market conditions could materially and adversely affect our business, results of operations and financial condition.",
+    "Our plans to improve future profitability through restructuring programs may not be successful and could lead to unintended consequences.",
+    "If we fail to introduce successful new products or solutions or extend our existing portfolio, we could lose our market position and our financial performance could be materially and adversely affected.",
+    "A failure of our information systems or a cybersecurity breach could materially and adversely affect our business, results of operations and financial condition.",
+    "Our continued success depends on our ability to protect our intellectual property. If we are unable to protect our intellectual property, our business could be materially and adversely affected.",
+    "We have significant international operations, are subject to the risks of doing business in foreign countries and global supply chains, and may be impacted by external factors including those we may be unable to control.",
+    "We benefit from free trade laws and regulations, such as the United States-Mexico-Canada Agreement and any changes to these laws and regulations could adversely affect our results of operations.",
+    "Damage to the reputation of MSA or to one or more of our Company brands could adversely affect our business.",
+    "If our goodwill, other intangible assets and long-lived assets become impaired, we may be required to record significant non-cash charges to earnings.",
+    "Failure to effectively harness and/or protect Company data or to incorporate, or improperly incorporating, Artificial Intelligence (AI) could damage our business.",
+    "Risks related to our defined benefit pension and other post-retirement plans could adversely affect our results of operations and cash flow."
+   ],
+   "paragraphs": [
+    "Our products and solutions are often used in high-risk and unpredictable environments and our mission, reputation and business success rely on our ability to design and provide safe, high quality and reliable products that earn and maintain customer trust. In the event that those using our products and solutions are injured, or if any of our products or solutions are alleged to have contributed, we could be subject to claims or suffer reputational harm. In addition, we may be required to or may voluntarily recall, redesign, or update certain products, components, or solutions due to concern about product safety, quality, ease of use or customer confidence. We continue to review, update, and execute the Company's quality management processes appropriately to meet changing market demands, technology, and product standards. Any significant claims, recalls or field actions that result in significant expense or negative publicity against us could have a material adverse effect on our business, operating results, financial condition and liquidity, including any successful claim brought against us in excess or outside of available insurance coverage.",
+    "Our subsidiaries face an inherent business risk of exposure to product liability or other legal claims or penalties related to the design, manufacture, marketing, or sale of any of our current or former products and solutions. Our subsidiaries are named periodically in single incident lawsuits, or, at times, in cumulative trauma product liability lawsuits which may be numerous, and the number of claims newly asserted in any given period is difficult to predict and may aggregate or escalate suddenly. Any type of product injury claim may result in losses in excess of limits or beyond the coverage afforded by available insurance and have a material adverse effect on our business, reputation, operating results, financial condition and liquidity.",
+    "On January 5, 2023, the Company divested Mine Safety Appliances Company, LLC (\"MSA LLC\"), a wholly owned subsidiary that holds legacy product liability claims relating to coal dust, asbestos, silica, and other exposures to a joint venture between R&Q Insurance Holdings Ltd. and Obra Capital, Inc. (the \"Purchaser\"). The transaction is subject to risks related to counterparty commercial risk as well as agreement enforcement and interpretation. Third parties also could seek to assert claims against us for which MSA LLC is the legally responsible party, and we may be required to incur fees and expenses to enforce that wrongly asserted claims are properly redirected to MSA LLC. The divested subsidiary MSA LLC and the Purchaser each have agreed to indemnify us with respect to MSA LLC's cumulative trauma product liability losses and other defined exposures. The ability of MSA LLC and the Purchaser to honor their indemnity obligations is subject to commercial risk and, in addition, in the event of a dispute, the transaction, negotiated indemnities, and the extent of other legally available protections may be subject to future judicial interpretation. MSA and its remaining subsidiaries continue to be responsible for claims relating to any current or former products and solutions that were not transferred as part of the divestiture.",
+    "Our ability to market and sell our products and solutions is subject to existing government laws, regulations and standards. Changes in such laws, regulations and standards or our failure to comply with them could materially and adversely affect our results of operations.",
+    "Most of our products are required to meet performance and test standards designed to protect the safety of people and infrastructures around the world, and many of our products and solutions are required to comply with other various laws and regulations in the applicable markets where sold. Our inability to comply with these standards and regulations could result in declines in revenue, profitability and cash flow. Changes in laws, regulations, or the standards themselves, including changes resulting from the outcome of federal, national, state or provincial elections, could reduce the demand for our products or require us to re-engineer our products, thereby creating opportunities for our competitors. Regulatory approvals for our products may be delayed or denied for a variety of reasons that are outside of our control. Additionally, market anticipation of significant new standards can cause customers to accelerate or delay buying decisions.",
+    "We are subject to numerous, and sometimes conflicting, laws and regulations on matters as diverse as anti-corruption, import/export controls, product content requirements, trade restrictions, tariffs, taxation, sanctions, internal and disclosure control obligations, securities regulation, anti-competition, data privacy and security, and labor relations, among others. This includes laws and regulations in emerging markets where legal systems may be less developed or familiar to us. Compliance with diverse legal requirements is costly, time-consuming and requires significant resources, and in some cases may require us to obtain relevant information from our vendors and suppliers, which may be difficult to obtain in a timely manner or at all. In addition, if we are required to transition away from components made with regulated materials, we could incur substantial costs to identify and transition to alternative components or product designs, or where feasible alternatives are not readily available. Violations of one or more of these laws or regulations in the conduct of our business could result in significant fines, criminal prosecution or sanctions and/or civil penalties or civil litigation against us or our officers or other personnel, prohibitions on doing business and damage to our reputation. These actions could result in liability for significant monetary damages, unfavorable publicity and other reputational damage and have a material adverse effect on our business, consolidated results of operations and financial condition."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Year Ended December 31, 2025, Compared to Year Ended December 31, 2024",
+    "Net Sales 2025 2024 Dollar",
+    "Increase Percent",
+    "(In millions)",
+    "Consolidated $1,874.8 $1,808.1 $66.7 3.7%",
+    "Net Sales Year Ended December 31, 2025, versus December 31, 2024",
+    "(Percent Change) Americas International Consolidated",
+    "GAAP reported sales change 1.2% 9.2% 3.7%",
+    "Selling, general, and administrative expenses Year Ended",
+    "(Percent Change) Consolidated",
+    "GAAP reported change 5.0%",
+    "(In thousands) Americas International Total Reportable Segments Corporate Consolidated",
+    "Year ended December 31, 2025",
+    "Year ended December 31, 2024",
+    "Year ended December 31,",
+    "(In thousands) 2025 2024",
+    "Net income. Net income was $278.9 million for the year ended December 31, 2025, or $7.09 per diluted share, compared to $285.0 million, or $7.21 per diluted share, for the year ended December 31, 2024.",
+    "Non-GAAP Financial Measures",
+    "(In millions) Total 2026 2027 2028 2029 2030 Thereafter",
+    "Impact of Changes in Actuarial Assumptions",
+    "Change in Discount",
+    "Rate Change in Expected",
+    "Return Change in Market Value of Assets",
+    "(In thousands) 1% (1)% 1% (1)% 5% (5)%"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis should be read in conjunction with the historical financial statements and other financial information included elsewhere in this annual report on Form 10-K. This discussion may contain forward-looking statements that involve risks and uncertainties. The forward-looking statements are not historical facts, but rather are based on current expectations, estimates, assumptions and projections about our industry, business and future financial results. Our actual results could differ materially from the results contemplated by these forward-looking statements due to a number of factors, including those discussed in the sections of this annual report entitled \"Forward-Looking Statements\" and \"Risk Factors.\"",
+    "This section generally discusses the results of our operations for the year ended December 31, 2025, compared to the year ended December 31, 2024. For a discussion on the year ended December 31, 2024, compared to the year ended December 31, 2023, please refer to Part II, Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in our Annual Report on Form 10-K for the year ended December 31, 2024, filed with the Securities and Exchange Commission on February 14, 2025.",
+    "MSA Safety Incorporated (\"MSA\") is organized into four geographical operating segments that are aggregated into two reportable segments: Americas and International. The Americas segment is comprised of our operations in North America and Latin America geographies. The International segment is comprised of our operations of all geographies outside of the Americas. Certain global expenses are allocated to each segment in a manner consistent with where the benefits from the expenses are derived. Please refer to Note 9—Segment Information of the consolidated financial statements in Part II Item 8 of this Form 10-K for further information.",
+    "On May 6, 2025, we acquired M&C TechGroup and its affiliated companies (\"M&C\") in a transaction valued at approximately $189 million, net of cash acquired. Headquartered in Ratingen, Germany, M&C provides a comprehensive range of gas analysis systems that detect, measure and monitor gases in critical environments. M&C's product portfolio includes systems and solutions for gas sampling, gas conditioning, as well as advanced process control. Refer to Note 15—Acquisitions to the consolidated financial statements in Part II Item 8 of this Form 10-K for further information.",
+    "MSA is the global leader in advanced safety products, technology and solutions. Driven by its singular mission of safety, the Company has been at the forefront of safety innovation since 1914, protecting workers and facility infrastructure around the world across a broad range of diverse end markets while creating sustainable value for shareholders.",
+    "We tailor our product and solution offerings and distribution strategy to satisfy distinct customer preferences that vary across geographic regions. To best serve these customer preferences, we have organized our business into four geographical operating segments that are aggregated into two reportable segments: Americas and International. In 2025, 67% and 33% of our net sales were made by our Americas and International segments, respectively.",
+    "Americas. Our largest manufacturing and research and development facilities are located in the United States. We serve our markets across the Americas with manufacturing facilities in the U.S., Mexico and Brazil. Operations in the other countries within the Americas segment focus primarily on sales and distribution in their respective home country markets.",
+    "International. Our International segment includes companies in Europe, the Middle East and Africa (\"EMEA\") and the Asia Pacific region. In our largest International subsidiaries (in Germany, France, U.K., Ireland and China), we develop, manufacture and sell a wide variety of products. In China, the products manufactured are sold primarily in China as well as in regional markets. Operations in other International segment countries focus primarily on sales and distribution in their respective home country markets. Although some of these companies may perform limited production, most of their sales are of products manufactured in our plants in Germany, France, the U.S., U.K., Ireland, Mexico, Morocco and China or are purchased from third-party vendors.",
+    "Corporate. Corporate expenses not allocated to the reportable segments consist of general and administrative expenses incurred in our corporate headquarters, costs associated with corporate development initiatives, legal expense, interest expense, foreign exchange gains or losses and other centrally-managed costs. General and administrative costs and overhead comprise the majority of the corporate related expenses. During the years ended December 31, 2025, and 2024, corporate expenses were $43.4 million and $50.4 million, respectively. The decrease is related to lower professional service fees and variable compensation as well as other discretionary expense management partially offset by inflation.",
+    "We leverage the MSA Business System (\"MBS\") to develop and introduce innovative safety solutions, secure new business opportunities, and operate with greater efficiency. The MBS is our approach to working at our best - at our most efficient and most empowered. It is a combination of behaviors, processes and tools that provide a framework to run the business and continuously improve. Our commitment to MBS has enabled us to drive customer satisfaction and profitable growth while generating significant improvements in operating results.",
+    "Americas 1,261.8 1,246.6 15.2 1.2% International 613.0 561.5 51.5 9.2%",
+    "Net Sales. Net sales for the year ended December 31, 2025, were $1.87 billion, an increase of $66.7 million from $1.81 billion for the year ended December 31, 2024. Please refer to the Net Sales table below for a reconciliation of the year over year sales change.",
+    "Currency translation effects 0.3% (2.8)% (0.7)% Less: Acquisitions (1.0)% (5.0)% (2.3)% Organic sales change 0.5% 1.4% 0.7%",
+    "Note: Organic sales change is a non-GAAP financial measure. See the \"Non-GAAP Financial Measures\" section below."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'original': 'Fire Service', 'translated': '消防服務'}",
+    "工業用個人防護裝備及其他"
+   ],
+   "paragraphs": [
+    "概觀—MSA Safety Incorporated (the \"Company\" or \"MSA\") 是全球在先進安全產品、技術與解決方案的領導者。基於其單一的使命為安全，本公司自 1914 年來一直是安全創新領域的先驅，保護全球的工作者與設施基礎設施，應用於多樣化的終端市場，同時為股東創造可持續的價值。本公司完整的產品線，根據嚴格的安全標準，應用於高度管制的產業，用以保護全球的工作者與設施基礎設施，應用於多樣化的市場，包括消防服務、能源、公用事業、建設與工業製造應用，以及供暖、通風、空調與冷氣（\"HVAC-R\"）。本公司主要的產品類別為偵測、消防服務與工業個人防護裝備（\"PPE\"）。",
+    "除了主要的產品類別，MSA 並持續部署與成長其 MSA+™ 生態系統，其為一整套的解決方案，包含 MSA 的硬體、軟體與服務，以簡化並提升客戶的安全作業，同時帶來持續性的收入。",
+    "本公司在各產品線中的領導市場地位，受到對新產品開發的強大投入所支持與啟動，持續提升安全設備的性能，同時維持對誠信的堅定承諾。我們投入大量資源於研究與開發，使我們能生產創新安全產品與解決方案，這些產品與解決方案通常是市場首發，且通常受到智慧財產權保護。我們的全球產品開發團隊包含本公司內跨功能的同仁，包括研究與開發、行銷、銷售、運營與品質管理。我們的工程師與技術同仁密切與安全產業的標準制定機構與產業協會合作，以發展產業特定的產品標準，並預測其對我們產品線的影響。",
+    "我們運用 MSA 商業系統（\"MBS\"）來開發與推出創新安全解決方案、取得新業務機會，並以更高的效率運作。MBS 是我們追求最佳表現的方式—以最有效率與最賦有權力的方式。它是一種行為、流程與工具的組合，提供一個框架來運作業務並持續改善。我們致力於服務客戶，協助他們解決安全與合規的挑戰，同時為股東創造價值。作為我們差異化開發流程的一部分，我們深入客戶的作業流程，以深入瞭解其痛點與期望的結果。我們對 MBS 的承諾使我們能提升客戶滿意度與獲利成長，同時產生顯著的營運成果改善。",
+    "應報告分部—我們根據不同地理區域的客戶偏好，調整我們的產品與解決方案提供與分銷策略。為最佳服務這些客戶偏好，我們將業務組織為四個地理營運分部，並歸納為兩個應報告分部：美洲與國際。分部資訊請參閱財務報表附註 9—分部資訊，位於本 10-K 表單第二部分第 8 項的合併財務報表中。",
+    "由於我們的合併財務報表以美金為單位，且許多業務是在美國境外進行，匯率波動可能影響我們的營運成果與財務狀況，也可能影響我們在不同財務期間的結果可比性。",
+    "產品與解決方案—我們設計、製造與銷售一整套的安全產品與解決方案，用以保護全球的工作者與設施基礎設施。我們的產品與解決方案用以保護人員與關鍵基礎設施，對抗多種危險或威脅生命的狀況。",
+    "以下為我們在偵測、消防服務與工業個人防護裝備（\"PPE\"）各產品類別中主要產品的簡要說明，我們在美洲與國際分部均銷售這些產品：",
+    "FGFD 系統。本公司永久安裝的固定氣體與火焰偵測（\"FGFD\"）產品與解決方案，用於能源與公用設施應用、HVAC-R、水與廢水、食品零售以及一般工業生產設施，用以偵測空氣中各種氣體的存在或缺失。這些系統的典型應用包括偵測可燃性或有毒氣體，以及冷媒洩漏。FGFD 產品與解決方案產生相當一部分總營業收入，來自於持續性業務，包括更換零組件與相關服務。主要產品與解決方案包括：",
+    "•固定氣體偵測監測系統。此產品線用於監測可燃性與有毒氣體以及氧氣不足，在需要持續監測的廣泛應用中。本公司系統用於能源、紙漿與紙張、廢水、冷媒監測、藥品生產以及一般工業應用。此類別中的一些旗艦產品包括 Ultima®X5000 與 S5000 氣體監測器，這些產品利用廣泛的感測技術來提升設施與工作人員的安全。",
+    "•火焰偵測器與開放路徑紅外線氣體偵測器。這些儀器用於廠區範圍內的有毒氣體監測，以及偵測火焰的存在。這些系統利用感測技術，在長距離內偵測潛在危險狀況，使其適用於加工產業、儲存容器與 HVAC 風管等應用。",
+    "•冷媒偵測與辨識。本公司冷媒洩漏偵測監測器，例如 MSA Bacharach® 多區氣體監測器與 MSA Chillgard® 5000 冷媒洩漏監測器，協助辨識與緩解冷媒洩漏。用戶可透過 MSA+ 解決方案，例如 MSA Parasense 冷媒追蹤與合規軟體與 MSA Parasense 企業洩漏偵測軟體，來增強其洩漏偵測與緩解努力。這些解決方案為用戶提供即時監測與警報。",
+    "2025 年，本公司收購 M&C TechGroup 及其附屬公司（\"M&C\"）。M&C 設立於德國 Ratingen，提供涵蓋氣體分析系統的全面範疇，用以偵測、測量與監測關鍵環境中的氣體。M&C 的產品組合包括氣體採樣、氣體調節以及先進過程控制的系統與解決方案。有關進一步資訊，請參閱本 Form 10-K 第二部分第 8 項「合併財務報表」附註 15—收購。",
+    "便攜式氣體偵測儀器。本公司手持式便攜式氣體偵測儀器用於偵測空氣中各種氣體的存在或缺失。此產品線被能源、公用設施、一般工業工作人員以及第一 responders 或任何在密閉空間環境中工作的人員使用。本公司單氣體與多氣體偵測器提供便攜式解決方案，用以偵測氧氣、可燃性氣體與各種有毒氣體的存在，包括硫化氫、一氧化碳、氨與氯氣，單獨或同時偵測最多六種氣體。本公司多氣體偵測器包括 ALTAIR® 2X、ALTAIR 4XR 與 ALTAIR 5X，皆採用本公司 internally developed XCell® 感測技術，以實現快速回應。本公司最新多氣體偵測器 ALTAIR io™ 4 與 ALTAIR io 6 是便攜式氣體偵測穿戴裝置，設計為透過 MSA+ 解決方案實現完全整合的連線，以實現工作現場的即時可視化。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "2025 年 12 月 31 日財年與 2024 年 12 月 31 日財年比較",
+    "淨銷售額 2025 2024 美金",
+    "增加百分比",
+    "(以千萬為單位)",
+    "合併 $1,874.8 $1,808.1 $66.7 3.7%",
+    "淨銷售額 2025 年 12 月 31 日財年與 2024 年 12 月 31 日財年比較",
+    "(變動百分比) 美洲 國際 合併",
+    "GAAP 報告銷售變動 1.2% 9.2% 3.7%",
+    "銷售、一般及行政費用 年度結算",
+    "(變動百分比) 總體",
+    "GAAP 報告變動 5.0%",
+    "(單位：千美元) 美洲 國際 總計 應報告分部 企業總部 總計",
+    "年度結算 2025 年 12 月 31 日",
+    "年度結算 2024 年 12 月 31 日",
+    "年度結算 2024 年 12 月 31 日",
+    "(單位：千美元) 2025 2024",
+    "淨收入。淨收入為 2025 年 12 月 31 日會計年度計為 2.789 億美元，或每股稀釋後普通股 7.09 美元，與 2024 年 12 月 31 日會計年度計為 2.85 億美元，或每股稀釋後普通股 7.21 美元相比。",
+    "非 GAAP 財務指標",
+    "(以千萬計) 總計 2026 2027 2028 2029 2030 之後",
+    "精算假設變動的影響",
+    "折現率變動",
+    "預期回報率變動",
+    "資產市場價值變動",
+    "(以千計) 1% (1)% 1% (1)% 5% (5)%"
+   ],
+   "paragraphs": [
+    "以下討論與分析應與本年度報表上 Form 10-K 所包含的歷史財務資料及其他財務資訊一併閱讀。此討論可能包含涉及風險與不確定性的展望性陳述。這些展望性陳述並非歷史事實，而是基於目前的預期、估計、假設與對我們產業、業務及未來財務結果的預測。我們的實際結果可能因多種因素而與這些展望性陳述所預期的結果有重大差異，包括在本年度報表中標題為 \"展望性陳述\" 和 \"風險因素\" 的部分所討論的那些因素。",
+    "本節一般討論我們在 2025 年 12 月 31 日為結算日的年度營運結果，與 2024 年 12 月 31 日為結算日的年度比較。如需瞭解 2024 年 12 月 31 日為結算日的年度與 2023 年 12 月 31 日為結算日的年度比較，請參閱我們 2024 年 12 月 31 日為結算日的年度報表上 Form 10-K 的 Part II, Item 7, \"管理層對財務狀況與營運結果之討論與分析\"，該報表已於 2025 年 2 月 14 日向證券交易委員會提交。",
+    "MSA Safety Incorporated (\"MSA\") 依地理區域劃分為四個營運分部，並歸納為兩個應報告分部：美洲與國際。美洲分部包含我們在北美與拉丁美洲地理區域的營運。國際分部包含我們在美洲以外所有地理區域的營運。某些全球性費用會根據費用所產生的效益所在區域進行分配。如需進一步資訊，請參閱本 Form 10-K 的 Part II Item 8 中的 Note 9—分部資訊的合併財務資料。",
+    "於 2025 年 5 月 6 日，我們以約 1.89 億美元（扣除所取得現金）的價值收購 M&C TechGroup 及其附屬公司 (\"M&C\")。M&C 位於德國 Ratingen，提供涵蓋氣體分析系統的完整範疇，用以偵測、測量與監測關鍵環境中的氣體。M&C 的產品組合包括氣體採樣、氣體調節系統與先進的過程控制解決方案。如需進一步資訊，請參閱本 Form 10-K 的 Part II Item 8 中的 Note 15—收購的合併財務資料。",
+    "MSA 是全球在先進安全產品、技術與解決方案的領導者。基於其單一使命為安全，本公司自 1914 年來一直是安全創新領域的先驅，保護全球各產業與設施基礎設施，並在廣泛的多樣性終端市場中創造對股東的永續價值。",
+    "我們根據不同地理區域的客戶偏好，調整我們的產品與解決方案提供及分銷策略。為最佳服務這些客戶偏好，我們將業務組織為四個地理區域營運分部，並歸納為兩個應報告分部：美洲與國際。2025 年，我們美洲分部與國際分部的淨銷售額分別佔 67% 與 33%。",
+    "美洲。我們最大的製造與研究與發展設施位於美國。我們透過美國、墨西哥與巴西的製造設施服務美洲市場。美洲分部其他國家的營運主要著重於其各自國家市場的銷售與分銷。",
+    "國際。我們的國際分部包含歐洲、中東與非洲 (\"EMEA\") 及亞太地區的公司。在我們最大的國際子公司（德國、法國、英國、愛爾蘭與中國），我們開發、製造並銷售多種產品。在中國，製造的產品主要在中國銷售，也在區域市場銷售。國際分部其他國家的營運主要著重於其各自國家市場的銷售與分銷。雖然這些公司中有些可能進行有限製造，但大多數銷售的產品是由我們在德國、法國、美國、英國、愛爾蘭、墨西哥、摩洛哥與中國的工廠製造，或由第三方供應商購入。",
+    "企業體. 未分配至應報告分部之企業體費用包含本公司總部所產生之總體行政費用、與企業體發展計畫相關之成本、法律費用、利息費用、外匯損益及其他由公司中心管理之成本。總體行政費用及營運費用佔企業體相關費用之大多數。於截至2025年12月31日及2024年12月31日之會計年度，企業體費用分別為4,340萬美元及5,040萬美元。費用減少係因專業服務費用及變動薪資較低，以及其他酌情費用管理，部分抵銷了通貨膨脹之影響。",
+    "我們運用MSA商業系統（\"MBS\"）來開發並推出創新之安全解決方案、開拓新業務機會，並以更高的效率運作。MBS為我們追求最佳表現的方式－在最有效率且最具權力的狀態下運作。它是由行為、流程及工具所組成，提供一個架構來運作企業並持續改善。我們對MBS的承諾使我們得以推動客戶滿意度與獲利性成長，同時產生顯著的營運績效改善。",
+    "美洲 1,261.8 1,246.6 15.2 1.2% 國際 613.0 561.5 51.5 9.2%",
+    "",
+    "貨幣換算影響 0.3% (2.8)% (0.7)% 減：併購 (1.0)% (5.0)% (2.3)% 本體銷售額變動 0.5% 1.4% 0.7%",
+    "附註：本體銷售額變動為非GAAP財務指標。請參閱下方之\"非GAAP財務指標\"部分。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "對我們各項子公司可能提出的傷害聲請或潛在安全問題或品質疑慮之聲請，可能產生影響。",
+    "我們之子公司可能因產品責任聲請而產生損失，此等損失可能對本公司之業務、營運結果、財務狀況及流動性產生重大不利影響。",
+    "本公司在全球組織中需遵守各項聯邦、州及地方之法律與法規，任何違反這些法律與法規之情形，可能對本公司之營運結果產生不利影響。",
+    "本公司需遵守各項環境法規、法規及條例，任何違反這些法規之情形，可能對本公司之營運結果產生不利影響。",
+    "本公司需面對與永續發展活動及揭露相關之風險。",
+    "本公司需遵守各項美國及外國稅法，任何與企業稅收及稅務爭議解決相關之法規變動，可能對本公司之營運結果產生不利影響。",
+    "不利之經濟與市場條件，可能對本公司之業務、營運結果及財務狀況產生重大且不利之影響。",
+    "本公司透過重整計畫改善未來獲利之計畫，可能無法成功，並可能導致未預期之後果。",
+    "若我們未能推出成功的新產品或解決方案，或未能拓展現有產品組合，我們可能會失去市場地位，且財務表現可能受到重大且不利的影響。",
+    "我們資訊系統的失敗或網路安全事件的發生，可能會對我們的業務、營運結果及財務狀況造成重大且不利的影響。",
+    "我們持續的成功取決於我們保護智慧財產權的能力。若我們無法保護智慧財產權，可能會對我們的業務造成重大且不利的影響。",
+    "我們擁有廣泛的國際業務，並面臨在海外國家從事業務及全球供應鏈的風險，且可能受到外部因素的影響，包括我們可能無法控制的那些因素。",
+    "我們受益於自由貿易法規，例如美國-墨西哥-加拿大協議，而這些法規的任何變更都可能對我們的營運結果造成不利影響。",
+    "MSA 或我們公司品牌之一的聲譽受損，可能會對我們的業務造成不利影響。",
+    "若我們的商譽、其他無形資產及長壽命資產發生減值，我們可能需要記錄對營收的重大非現金費用。",
+    "若無法有效運用及/或保護公司資料，或未正確整合，或錯誤整合人工智慧（AI），可能會對我們的業務造成損害。",
+    "{'original': 'Risks related to our defined benefit pension and other post-retirement plans could adversely affect our results of operations and cash flow.', 'translated': '與本公司認定受益金退休金及其他退休後福利計畫相關之風險，可能不利於本公司營運成果及現金流。'}"
+   ],
+   "paragraphs": [
+    "本公司產品與解決方案常應用於高風險且難以預測的環境，本公司使命、聲譽與業務成功取決於我們設計與提供安全、高品質且可靠產品的能力，以獲得並維持客戶信任。若使用本公司產品與解決方案的使用者受傷，或有任何產品或解決方案被聲稱與之有關，本公司可能面臨索賠或遭受聲譽損害。此外，本公司可能因對產品安全、品質、易用性或客戶信心的擔憂，而被要求或自願召回、重新設計或更新某些產品、零組件或解決方案。本公司持續審查、更新並執行本公司品質管理程序，以符合變動的市場需求、技術與產品標準。任何重大索賠、召回或場外行動導致重大費用或對本公司造成負面宣傳，都可能對本公司業務、營運成果、財務狀況與流動性產生重大不利影響，包括任何對本公司提出的成功索賠，且超出或超出可投保範圍。",
+    "本公司子公司面臨產品責任或其他法律索賠或處罰的內在業務風險，這些風險與設計、製造、行銷或銷售任何現有或過去產品與解決方案有關。本公司子公司偶爾會被單一事件訴訟名為被告，有時也會被多起累積性傷害產品責任訴訟名為被告，這些訴訟可能數量眾多，且任何期間內新提出的索賠數量難以預測，可能突然累積或升級。任何類型的產品傷害索賠都可能導致損失超過保險賠償上限或超出可投保範圍，並對本公司業務、聲譽、營運成果、財務狀況與流動性產生重大不利影響。",
+    "本公司於2023年1月5日，將Mine Safety Appliances Company, LLC（\"MSA LLC\"），一家全資子公司，該子公司持有與煤塵、石棉、矽塵及其他暴露相關的遺留產品責任索賠，轉讓給R&Q Insurance Holdings Ltd.與Obra Capital, Inc.（\"買方\"）所設立的合資企業。此交易涉及對手商業風險，以及協議執行與解釋的風險。第三方也可能聲稱對本公司提出索賠，而MSA LLC為法律上負責任的當事人，本公司可能需支出費用與成本，以確保這些錯誤提出的索賠正確轉移至MS, LLC。已轉讓的子公司MSA LLC與買方均已同意就MSA LLC的累積性傷害產品責任損失及其他明確定義的風險進行賠償。MSA LLC與買方履行賠償義務的能力受商業風險影響，此外，若發生爭議，此交易、協議賠償及其他法律可得保護範圍可能需經未來司法解釋。MSA及其剩餘子公司仍對未轉讓的任何現有或過去產品與解決方案的索賠負責任。",
+    "本公司行銷與銷售產品與解決方案的能力受現有政府法律、法規與標準所限制。若法律、法規與標準變更，或本公司未能遵守，可能對本公司營運成果產生重大且不利的影響。",
+    "本公司大多數產品需符合設計用以保護全球人與基礎設施安全的性能與測試標準，且許多產品與解決方案需符合銷售市場的其他各項法律與法規。本公司若無法遵守這些標準與法規，可能導致營收、獲利與現金流下降。法律、法規或標準本身的變更，包括因聯邦、國家、州或省級選舉結果而產生的變更，可能降低對本公司產品的需求，或要求本公司重新設計產品，從而為競爭對手創造機會。本公司產品的監管批准可能因多種原因而延遲或被拒絕，這些原因超出本公司控制範疇。此外，市場對重大新標準的預期可能導致客戶加速或延後購買決策。",
+    "本公司受多項、有時相互衝突的法律與法規所制約，範疇包括反貪腐、進出口管制、產品內容要求、貿易限制、關稅、稅務、制裁、內部與披露控制義務、證券法規、反壟斷、資料隱私與安全、勞資關係等，以及其他領域。這包括在新興市場的法律，這些市場的法律體系可能較不發達或對本公司而言較不熟悉。遵守多樣化的法律要求成本高昂、耗時且需要大量資源，有時還需向供應商與經銷商取得相關資訊，這可能難以在合理時間內或完全取得。此外，若本公司需轉離使用管制材料製造的零組件，可能需支出大量成本以識別並轉換至替代零組件或產品設計，或在可行替代方案不易取得的情況下。本公司業務若違反其中一項或多項法律或法規，可能導致重大罰款、刑事 prosecution 或處罰，以及民事處罰或民事訴訟，或對本公司或高層管理人員的禁令，並損害本公司聲譽。這些行動可能導致重大財務賠償責任、負面宣傳及其他聲譽損害，並對本公司業務、合併營運成果與財務狀況產生重大不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

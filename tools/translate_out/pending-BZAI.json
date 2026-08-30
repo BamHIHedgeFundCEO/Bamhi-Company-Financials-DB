@@ -1,0 +1,221 @@
+{
+ "ticker": "BZAI",
+ "cik": "0001871638",
+ "accession": "0001871638-26-000011",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Merger and Reverse Recapitalization",
+    "Available Information",
+    "Principal Products and Services",
+    "Sales and Marketing",
+    "Manufacturing",
+    "Government Regulation",
+    "Intellectual Property"
+   ],
+   "paragraphs": [
+    "Blaize Holdings, Inc. (\"Blaize,\" the \"Company,\" \"we,\" \"us,\" and \"our\") develops purpose-built AI-enabled computing solutions comprised of both our proprietary hardware and software, and complementary third-party hardware solutions, as further described below. Our computing solutions are designed for efficient processing of AI inference workloads across edge and data center environments. Our architecture supports AI workloads where latency, power efficiency, and cost efficiency are important considerations. Our systems can process data locally at the edge or within data center infrastructure, depending on deployment requirements. Local processing can reduce bandwidth usage and support latency-sensitive applications requiring real-time decision making.",
+    "In addition to our internally developed products, we also deliver third-party hardware solutions that complement and enhance our core offerings. By integrating certain third-party hardware components, we believe that we are able to provide customers with comprehensive and flexible computing solutions tailored to their specific needs. These third-party hardware solutions typically are substantially comprised of servers, which are selected to ensure optimal compatibility and performance with our products and our AI-enabled platforms.",
+    "We are a Delaware corporation, incorporated in 2010, headquartered in El Dorado Hills, California.",
+    "On January 13, 2025, BurTech completed the Merger, pursuant to the Merger Agreement, whereby Merger Sub merged with and into Legacy Blaize, with Legacy Blaize being the surviving company and a wholly owned subsidiary of BurTech.",
+    "In connection with the de-SPAC, we changed our name from \"BurTech Acquisition Corporation\" to \"Blaize Holdings, Inc.,\" and the Merger was accounted for as a reverse merger and recapitalization, with BurTech considered the acquired company, and Legacy Blaize considered the acquirer, for financial statement reporting purposes.",
+    "We file our annual, periodic and current reports, and other required information, electronically with the SEC. The SEC maintains a website at www.sec.gov that contains reports, proxy and information statements and other information that we file with the SEC electronically. We also make available on our website at https://ir.blaize.com, free of charge, copies of these reports and other information as soon as reasonably practicable after we electronically file such material with, or furnish it to, the SEC. The contents of our website referenced herein are not incorporated by reference into this Annual Report on Form 10-K.",
+    "We have created an AI computing accelerator, the GSP. This processor has been designed from the ground up for compute-intensive data parallel workloads, such as computer vision, machine learning, and AI applications. It is fully programmable, making it flexible and adaptable. The GSP leverages a data streaming mechanism to enable efficient parallelism at the data, instruction, task, chip, and system level, streamlining execution processing and enabling low energy consumption, high performance, and scalability.",
+    "Additionally, our hardware offerings include compute cards (PCIe cards and other cards) that incorporate our GSP and come in a comprehensive set of commonly used form factors. We work closely with our vendors to qualify these cards to add AI compute acceleration to their systems, with the intention to deliver solutions across a broad spectrum of performance points and deployment verticals, from the edge to the data center.",
+    "In addition to our internally developed products, we deliver third-party hardware solutions, primarily comprised of servers and small form factor stand-alone systems, that host our proprietary technology. We support industry standard APIs and frameworks, enabling customers to execute AI models and develop new applications on our hardware.",
+    "Our software suite includes a software development kit which complies with open standards and can be used by customers to program their own models and algorithms. We also provide a comprehensive software suite, Blaize AI Studio (\"AI Studio\"). AI Studio provides a visual no-code or low-code environment intended to simplify the creation and deployment of AI models and features a robust set of tools and libraries designed to streamline the software development lifecycle.",
+    "We also offer strategic consulting services to configure our hardware and licensed intellectual property to a customer's needs.",
+    "Our commercial organization utilizes research to identify key markets and sales opportunities across our target markets. Our marketing activities focus on integrating our branded products into complementary hardware, promoting our branded products, and raising awareness of our product offerings to prospects in selected target markets. This includes participation at trade events, demonstrations of our technology, collaborations and co-promotions with ecosystem partners, social campaigns, competitive positioning and other marketing activities.",
+    "Our revenue has been generated from a limited number of significant customers, some of whom have been, and may in the future be, related parties. For the year ended December 31, 2025, two major customers located in China accounted for 61% and 27% of our total revenue, respectively. Neither of these customers was a related party. In 2025, all of our revenue was attributable to sales of hardware and software products, with no revenue generated from services.",
+    "In 2024, 98% of our revenue was attributable to two different customers, located in the United States and Japan, both of whom were related parties. In 2024, substantially all of our revenue was derived from providing strategic consulting services, and these service contracts have since expired."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Summary",
+    "Risks Related to our Business and Industry",
+    "We have a history of operating losses, and we may not be able to generate sufficient revenue to achieve and sustain profitability.",
+    "We depend on a small number of customers, including related parties, for a significant portion of our revenue, and our accounts receivable balances are similarly concentrated.",
+    "Development of our next-generation chip may be delayed or may not be feasible due to financial constraints.",
+    "Our customer pipeline may take time to mature and may not result in revenue opportunities.",
+    "Our partnerships with certain automotive OEMs and Tier-1 suppliers are long-term in nature, and we will not receive firm purchase order commitments until we deliver our automotive-grade chip.",
+    "Our future revenue and operating results could be harmed if we are unable to acquire new customers, retain existing customers, or expand sales to our existing customers.",
+    "We may not be able to successfully implement our growth strategy on a timely basis or at all.",
+    "Failure to effectively develop and expand our marketing and sales capabilities could harm our ability to increase our customer base and achieve broader market acceptance of our platform and products.",
+    "The sales cycle with large enterprise customers can be long and unpredictable, and our sales efforts require considerable time and expense.",
+    "If we fail to offer high quality support, our business and reputation could suffer.",
+    "We depend on timely supply of materials sourced from a limited number of suppliers, and are directly impacted by unexpected delays or problems from our third-party manufacturers.",
+    "We may not be successful in driving the global deployment and customer adoption of digital offerings characterized by digital applications and solutions.",
+    "If we fail to manage our growth effectively, we may be unable to execute our business plan, maintain high levels of service and customer satisfaction or adequately address competitive challenges.",
+    "We may need to reduce or change our pricing model to remain competitive.",
+    "If we fail to adapt and respond effectively to rapidly changing technology, evolving industry standards, and changing customer needs or preferences, our platform and products may become less competitive.",
+    "If our software or hardware contains serious errors or defects, we may lose revenue and market acceptance and may incur costs to defend or settle claims with our customers.",
+    "We depend on third-party data hosting and transmission services. Increases in cost, interruptions in service, latency or poor service from our t"
+   ],
+   "paragraphs": [
+    "The following risk factors should be considered in addition to the other information, including Item 7. and Item 8. of this Annual Report on Form 10-K. The following risks could harm our business, financial condition, results of operations or reputation, which could cause our stock price to decline. Additional risks, trends and uncertainties not presently known to us or that we currently believe are immaterial may also harm our business, financial condition, results of operations or reputation. Our actual results could differ materially and adversely from those anticipated in these forward-looking statements as a result of certain factors, including those set forth below.",
+    "The following is a summary of the principal risks and uncertainties described in more detail in this Annual Report on Form 10-K:",
+    "•We have a history of operating losses, and we may not be able to generate sufficient revenue to achieve and sustain profitability.",
+    "•We depend on a small number of customers, including related parties, for a significant portion of our revenue, and our accounts receivable balances are similarly concentrated.",
+    "•Our business may depend on our ability to expand sales to customers located outside of the United States, and we may experience difficulties in collections of our accounts receivable, or other matters that could adversely affect our revenue.",
+    "•Development of our next-generation chip may be delayed or may not be feasible due to financial constraints."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Trends and Recent Developments",
+    "Key Business Metrics",
+    "Results of Operations",
+    "For the Year Ended December 31, Change",
+    "(Amounts in thousands, except for percentages) 2025 2024 $ %",
+    "For the Year Ended December 31,",
+    "(Amounts in thousands, except for percentages) 2025 % 2024 %",
+    "Costs and Expenses",
+    "Other Expense, net",
+    "Non-GAAP Measures",
+    "Liquidity and Capital Resources",
+    "Going Concern",
+    "Issuance of Common Stock During the Current Year",
+    "Future Commitments to Issue Shares of Our Common Stock",
+    "As of December 31,",
+    "Previously Utilized Financing Facilities",
+    "Cash Flows for the Years Ended December 31, 2025 and 2024",
+    "Material Cash Requirements, Cash Collections, and Cash Availability",
+    "Emerging Growth Company and Smaller Reporting Company Status",
+    "Critical Accounting Estimates",
+    "Merger and Reverse Recapitalization",
+    "Valuation of Accounts Receivable",
+    "Net Realizable Value of Inventories",
+    "Classification of Complex Financial Instruments",
+    "Valuation of Financial Instruments"
+   ],
+   "paragraphs": [
+    "Unless otherwise indicated, references to \"we\", \"us\", \"our\", \"Blaize\" or the \"Company\" in this Management's Discussion and Analysis of Financial Condition and Results of Operations are to Blaize Holdings, Inc. The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our consolidated financial statements and related notes thereto, included in Part 1I, Item 8. of this Annual Report on Form 10-K, and risk factors, included in Part I, Item 1A. of this Annual Report on Form 10-K.",
+    "We provide purpose-built, transformative AI-enabled edge computing solutions comprised of both our proprietary hardware and software, and complementary third-party hardware solutions, as further described below. Our computing solutions are designed for efficient processing of AI inference workloads across edge and data center environments. Our architecture supports AI workloads where latency, power efficiency, and cost efficiency are important considerations. Our systems can process data locally at the edge or within data center infrastructure, depending on deployment requirements. Local processing can reduce bandwidth usage and support latency-sensitive applications requiring real-time decision making.",
+    "In addition to our internally developed products, we also deliver third-party hardware solutions that complement and enhance our core offerings. By integrating certain third-party hardware components, we believe that we are able to provide customers with comprehensive and flexible computing solutions tailored to their specific needs. These third-party hardware solutions typically are substantially comprised of servers, which are selected to ensure optimal compatibility and performance with our products and our AI-enabled platforms.",
+    "Our portfolio includes highly efficient, programmable AI processors in a broad range of form factors, deployable across several verticals, including smart city, defense, retail and enterprise markets. Our accelerated AI computing platforms enable applications such as computer vision, advanced video analytics, and AI inference, and our software tools allow non-expert practitioners to deploy existing and novel AI applications on our hardware without the need to learn or use source code.",
+    "On January 13, 2025, BurTech completed the Merger, pursuant to the Merger Agreement, whereby Merger Sub merged with and into Legacy Blaize, with Legacy Blaize being the surviving company and a wholly owned subsidiary of BurTech.",
+    "In connection with the de-SPAC, we changed our name from \"BurTech Acquisition Corporation\" to \"Blaize Holdings, Inc.\". BurTech was considered the acquired company and Legacy Blaize was considered the acquirer for financial statement reporting purposes, and the Merger was accounted for as a reverse merger and recapitalization.",
+    "On July 16, 2025, we entered into a Strategic Cooperation Agreement (the \"Starshine Agreement\") with Starshine Computing Power Technology Limited, a Hong Kong company (\"Starshine\"). Pursuant to the terms of the Starshine Agreement, we entered into a strategic partnership with Starshine to develop business opportunities for the sale of our hybrid AI platform and other products and services through Starshine in the Asia Pacific region. Starshine agreed to deliver a minimum of $120.0 million in revenue to us over the first 18 months of the Starshine Agreement. Any such commitments made by Starshine are subject to issuance of purchase orders by Starshine. Starshine initiated one purchase order to us in the third quarter of 2025 for $10.4 million. Starshine paid $1.6 million to us in regards to its account receivable, and the remainder of $8.8 million of its account receivable remains outstanding as of March 24, 2026. As of March 24, 2026, we have not received any further purchase orders from Starshine.",
+    "On November 10, 2025, Blaize and affiliates of Polar Asset Management Partners Inc. (\"Polar\") entered into a Securities Purchase Agreement (the \"Polar Private Placement\"). Pursuant to the Polar Private Placement, we agreed to the direct sale of 9,375,000 shares of our common stock at a purchase price of $3.20 per share and the issuance of 9,375,000 warrants to purchase additional shares of our common stock, resulting in aggregate gross proceeds of approximately $30.0 million, before deducting offering expenses. The warrants have a term of five years and are immediately exercisable, with an exercise price of $5.00 per share.",
+    "We have identified potential future business opportunities that we believe could accelerate our growth through near-term customer implementations. Although we have no contractual arrangement(s) with respect to such pipeline and we cannot predict with certainty any future contractual arrangement(s), the pipeline contains target accounts and opportunities that have been identified as potential customers for our products and services. We classify certain key metrics related to our pipeline into the following categories: proof of concept stage, partners, and design wins.",
+    "A proof-of-concept stage (\"POC\") represents that a proposal for a proof of concept has either been initiated or is in progress with a potential customer or partner. We utilize POCs to demonstrate our technology's value proposition along with its tailored use scenarios and satisfaction of customer and/or partner requirements. As of December 31, 2025, 25 POCs were initiated or in progress with a potential customer.",
+    "A partner (\"Partner\") consists of either an independent software vendor or independent hardware vendor with whom we are working to integrate our products and services into the vendor's offerings for their customers. Such vendors may include original equipment manufacturers (\"OEMs\"), original design manufacturers, system integrators, or hardware resellers or distributors, among others. As of December 31, 2025, we had a total of 30 Partners.",
+    "A design win (\"Design Win\") represents that a Partner or a customer has selected our products and/or services to be incorporated into a product that it intends to produce or consume, as applicable, and has confirmed that our offerings integrate into such product accordingly. As of December 31, 2025, 20 Design Wins had been confirmed with a Partner or customer.",
+    "We currently derive revenue through a combination of:",
+    "•Hardware revenue — encompasses the sale of our semiconductor products and/or third-party hardware products which support our semiconductor products through various supply agreements."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "合併與反向資本結構重組",
+    "可取得資訊",
+    "主要產品與服務",
+    "銷售與行銷",
+    "製造",
+    "政府規範",
+    "智慧財產權"
+   ],
+   "paragraphs": [
+    "Blaize Holdings, Inc. (\"Blaize,\" the \"Company,\" \"we,\" \"us,\" and \"our\") 開發專為 AI 用途設計的計算解決方案，包含本公司自有智慧財產權的零組件與軟體，以及補充性的第三方零組件解決方案，如後文進一步說明。我們的計算解決方案設計用以在邊緣與資料中心環境中，高效處理 AI 推論工作負載。我們的架構支援 AI 工作負載，其中延遲、電力效率與成本效率為重要考量因素。我們的系統可根據部署需求，在邊緣端或資料中心基礎設施中處理資料。本地端處理可減少頻寬使用，並支援需要即時決策的延遲敏感應用。",
+    "除了我們自行開發的產品外，我們也提供補充並增強我們核心產品的第三方零組件解決方案。透過整合某些第三方零組件，我們認為我們能為客戶提供符合其特定需求的全面且靈活的計算解決方案。這些第三方零組件解決方案通常主要由伺服器組成，這些伺服器會被選擇以確保與我們產品及 AI 用途平台的最佳相容性與性能。",
+    "本公司為德拉瓦州公司，於 2010 年成立，總部設於美國加利福尼亞州艾爾多羅德山。",
+    "於 2025 年 1 月 13 日，BurTech 完成合併，根據合併協議，Merger Sub 合併進 Legacy Blaize，Legacy Blaize 為存續公司，並為 BurTech 的 wholly owned subsidiary。",
+    "與 de-SPAC 有關，我們將公司名稱從 \"BurTech Acquisition Corporation\" 改為 \"Blaize Holdings, Inc.\", 且此合併被視為反向合併與資本結構重組，於財務報表報導目的，BurTech 被視為被收購公司，而 Legacy Blaize 被視為收購方。",
+    "我們會將年度、定期與現況報告，以及其他所需資訊，以電子方式向美國證券交易委員會（SEC）提交。SEC 保有網站 www.sec.gov，其中包含我們以電子方式提交的報告、股東通函與資訊說明書及其他資訊。我們亦於網站 https://ir.blaize.com 提供這些報告及其他資訊的免費副本，於我們以電子方式提交或傳送這些資料至 SEC 後盡速提供。本年度報告中提及的網站內容並未被引用為本 10-K 年度報告的一部分。",
+    "我們已開發出一項 AI 計算加速器，名為 GSP。此處理器從設計階段起即專為計算密集型的資料平行工作負載而設計，例如電腦視覺、機器學習與 AI 應用。此處理器為完全可程式化，使其具備靈活性與適應性。GSP 藉助資料流機制，以在資料、指令、任務、晶片與系統層級實現高效的平行處理，簡化執行流程，並實現低能耗、高性能與可擴展性。",
+    "此外，我們的硬體產品組合包含計算卡（PCIe 卡及其他卡），這些卡整合了我們的 GSP，並提供常見的完整形式因素組合。我們與供應商密切合作，以驗證這些卡，使其能為其系統增加 AI 計算加速功能，並有意提供涵蓋廣泛性能範圍與部署垂直領域的解決方案，從邊緣端至資料中心。",
+    "除本公司自行開發的產品外，我們亦提供第三方硬體解決方案，主要為伺服器及小型機架式獨立系統，這些系統會載入我們的專有技術。我們支援產業標準的 API 與框架，使客戶得以在本公司硬體上執行 AI 模型並開發新的應用程式。",
+    "我們的軟體組合包含一個符合開放標準的軟體開發工具包，可讓客戶自行程式設計其模型與演算法。我們亦提供完整的軟體組合，名為 Blaize AI Studio（\"AI Studio\"）。AI Studio 提供視覺化無程式設計或低程式設計環境，旨在簡化 AI 模型的建立與部署，並具備強大的工具與函式庫，用以簡化軟體開發生命週期。",
+    "我們亦提供策略性諮詢服務，以符合客戶需求的方式配置我們的硬體與授權智慧財產權。",
+    "我們的營銷部門利用研究以識別關鍵市場與銷售機會。我們的行銷活動著重於將本公司品牌產品整合至補充性硬體、推廣本公司品牌產品，並提高目標市場潛在客戶對本公司產品的認知度。這包括參與產業展會、展示本公司技術、與生態系夥伴合作與共推、社交媒體活動、競爭定位及其他行銷活動。",
+    "我們的營業收入來自有限數量的重要客戶，其中一些客戶曾為或未來可能為關聯方。截至 2025 年 12 月 31 日，兩家位於中國的重大客戶分別佔本公司總營業收入的 61% 與 27%。這兩家客戶均非關聯方。在 2025 年，本公司所有營業收入均來自硬體與軟體產品的銷售，未產生任何來自服務的收入。",
+    "在 2024 年，本公司 98% 的營業收入來自兩位不同客戶，分別位於美國與日本，這兩位客戶均為關聯方。在 2024 年，本公司幾乎所有營業收入均來自提供策略性諮詢服務，而這些服務合約已於之後到期。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "趨勢與近期發展",
+    "關鍵營運指標",
+    "營運成果",
+    "截至12月31日年度之變動",
+    "(金額單位為千美元，除百分比外) 2025 2024 $ %",
+    "截至12月31日年度之",
+    "(金額單位為千美元，除百分比外) 2025 % 2024 %",
+    "成本與費用",
+    "其他費用，淨額",
+    "非GAAP指標",
+    "流動性及資本資源",
+    "持續經營",
+    "本會計年度發行普通股",
+    "未來發行普通股的承諾",
+    "截至12月31日",
+    "先前使用過的融資設施",
+    "現金流量（截至2025年12月31日及2024年12月31日）",
+    "重大現金需求、現金收款及現金可用性",
+    "新興成長公司及小型報告公司資格",
+    "關鍵會計估計",
+    "合併與逆向資本結構重組",
+    "應收帳款評價",
+    "存貨的淨實現價值",
+    "複雜金融工具之分類",
+    "{'original': 'Valuation of Financial Instruments', 'translated': '金融工具之評價'}"
+   ],
+   "paragraphs": [
+    "除非另有說明，本「管理層對財務狀況與營運成果之討論與分析」中所提及的「我們」、「我們」、「我們」、「Blaize」或「本公司」均指 Blaize Holdings, Inc. 以下對我們財務狀況與營運成果之討論與分析，應與我們合併財務報表及其相關附註，包含於本年度報告表 10-K 第 1I 項、第 8 項，以及風險因素，包含於本年度報告表 10-K 第 1A 項，一併閱讀。",
+    "我們提供專為用途設計、具變革性的 AI 使能邊緣計算解決方案，包含我們自有智慧財產權之硬體與軟體，以及補充性的第三方硬體解決方案，如後述。我們的計算解決方案設計用以在邊緣與資料中心環境中，高效處理 AI 推論工作負載。我們的架構支援 AI 工作負載，其中延遲、電力效率與成本效率為重要考量。我們的系統可根據部署需求，在邊緣處或資料中心基礎設施中處理資料。本地處理可減少頻寬使用，並支援需要即時決策的延遲敏感應用。",
+    "除了我們自行開發的產品，我們也提供補充並增強我們核心產品的第三方硬體解決方案。透過整合某些第三方硬體零組件，我們相信我們能為客戶提供符合其特定需求的全面且靈活的計算解決方案。這些第三方硬體解決方案通常主要由伺服器組成，這些伺服器會被選擇以確保與我們產品及我們的 AI 使能平台的最佳相容性與性能。",
+    "我們的產品組合包含高度高效能、可程式設計的 AI 處理器，形式因子廣泛，可部署於多個垂直領域，包括智慧城鄉、防禦、零售與企業市場。我們的加速 AI 計算平台可支援電腦視覺、先進影片分析與 AI 推論應用，而我們的軟體工具允許非專業人員在不需學習或使用原始碼的情況下，於我們的硬體上部署現有與創新 AI 應用。",
+    "2025 年 1 月 13 日，BurTech 完成合併，根據合併協議，Merger Sub 合併進 Legacy Blaize，Legacy Blaize 為存續公司，並為 BurTech 的 wholly owned subsidiary。",
+    "在與 de-SPAC 有關的過程中，我們將公司名稱從「BurTech Acquisition Corporation」更名為「Blaize Holdings, Inc.」。BurTech 被視為被收購公司，Legacy Blaize 被視為收購方，用以財務報表報告目的，而此合併被視為反向合併與重組。",
+    "2025 年 7 月 16 日，我們與位於香港的 Starshine Computing Power Technology Limited（「Starshine」）簽訂「戰略合作協議」（「Starshine 協議」）。根據 Starshine 協議的條款，我們與 Starshine 籤訂戰略合作關係，以在亞太地區透過 Starshine 銷售我們的混合 AI 平台及其他產品與服務。Starshine 同意在 Starshine 協議的前 18 個月內，向我們交付至少 120.0 百萬美元的營收。Starshine 所做出的任何承諾，均以 Starshine 發出採購訂單為前提。Starshine 於 2025 年第三季向我們發出一筆採購訂單，金額為 10.4 百萬美元。Starshine 於 2026 年 3 月 24 日已支付 1.6 百萬美元至我們，其餘 8.8 百萬美元的應收款項仍為未結清。截至 2026 年 3 月 24 日，我們尚未收到 Starshine 的任何進一步採購訂單。",
+    "2025 年 11 月 10 日，Blaize 與 Polar Asset Management Partners Inc. 的關係企業（「Polar」）簽訂「證券購買協議」（「Polar 私募 placements」）。根據 Polar 私募 placements，我們同意直接出售 9,375,000 份我們的普通股，每股價格為 3.20 美元，並發行 9,375,000 份認購權證，以購買我們的普通股，導致總計約 30.0 百萬美元的毛收入，扣除發行費用前。這些權證的期限為五年，立即可行使，行使價格為每股 5.00 美元。",
+    "我們已識別出潛在的未來業務機會，我們認為這些機會可能透過近期客戶的實作來加速我們的成長。雖然我們對於這些潛在業務管道並無任何契約安排，且無法確定任何未來的契約安排，但該管道包含目標客戶與機會，這些客戶與機會已被識別為我們產品與服務的潛在客戶。我們將與管道相關的某些關鍵指標分為以下類別：證明概念階段、合作夥伴與設計勝利。",
+    "證明概念階段（\"POC\"）表示已針對潛在客戶或合作夥伴啟動或正在進行一個證明概念的提案。我們利用POC來展示我們技術的價值主張，以及其個性化使用情境，並符合客戶與/或合作夥伴的需求。截至2025年12月31日，有25個POC已啟動或正在進行中，與潛在客戶。",
+    "合作夥伴（\"Partner\"）包括與我們合作將我們的產品與服務整合至其提供給客戶的產品與服務中的獨立軟體供應商或獨立硬體供應商。這些供應商可能包括原始設備製造商（\"OEMs\"）、原始設計製造商、系統整合商、硬體經銷商或經銷商，以及其他類似者。截至2025年12月31日，我們總共有30個合作夥伴。",
+    "設計勝利（\"Design Win\"）表示合作夥伴或客戶已選用我們的產品與/或服務，以整合至其預計生產或使用的產品中，並已確認我們的產品與服務能與該產品相容。截至2025年12月31日，有20個設計勝利已與合作夥伴或客戶確認。",
+    "我們目前透過以下方式來產生收入：",
+    "•硬體收入 — 包含我們半導體產品與/或第三方硬體產品的銷售，這些產品透過各種供應契約來支援我們的半導體產品。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與我們業務及產業相關的風險",
+    "本公司有持續營運虧損的歷史，且可能無法產生足夠的收入以達成並維持獲利。",
+    "我們依賴少數客戶，包括關係企業，來獲取我們收入的大部分，且應收帳款亦呈現類似集中情形。",
+    "次世代晶片的開發可能因財務限制而延遲或無法實現。",
+    "我們的客戶管道可能需要時間成熟，且未必會產生收入機會。",
+    "與部分汽車OEM及一級供應商的合作關係屬長期性質，且在本公司交付汽車級晶片前，不會獲得確定的採購訂單承諾。",
+    "若本公司無法取得新客戶、留住現有客戶或擴大對現有客戶的銷售，未來收入與營運結果可能會受到損害。",
+    "本公司可能無法按時或完全執行成長策略。",
+    "若無法有效發展與擴展行銷與銷售能力，將可能影響本公司擴大客戶羣與實現平台與產品更廣泛市場接受度的能力。",
+    "與大型企業客戶的銷售週期可能長且難以預測，且銷售工作需要大量時間與費用。",
+    "若無法提供高品質的支援，將可能影響本公司業務與聲譽。",
+    "本公司依賴有限數量供應商所取得的材料及時供應，並直接受到第三方製造商未預期延誤或問題的影響。",
+    "本公司可能無法成功推動數位產品與解決方案的全球部署與客戶採用。",
+    "若無法有效管理成長，將可能無法執行業務計畫、維持高水平的服務與客戶滿意度，或妥善應對競爭挑戰。",
+    "本公司可能需要降低或改變價格模式以維持競爭力。",
+    "若本公司未能有效適應並回應快速變化的技術、演進中的產業標準以及變動中的客戶需求或偏好，本公司平台及產品可能變得較不具競爭力。",
+    "若本公司軟體或硬體包含嚴重錯誤或缺陷，本公司可能失去營收與市場接受度，並可能產生成本以應對或解決與客戶的爭議。",
+    "本公司依賴第三方資料 hosting 與傳輸服務。成本增加、服務中斷、延遲或服務品質不佳等情況可能影響本公司"
+   ],
+   "paragraphs": [
+    "下列風險因素應與本年度10-K表格年報的第7項及第8項資訊一併考量。下列風險可能對本公司業務、財務狀況、營運成果或聲譽造成損害，進而導致本公司股票價格下跌。此外，尚有其他未為本公司所知或目前認為不具重大影響的風險、趨勢與不確定性，也可能對本公司業務、財務狀況、營運成果或聲譽造成損害。本公司實際結果可能與這些預測性陳述中所預期的有重大且不利的差異，原因在於某些因素，包括下列所列述者。",
+    "下列為本年度10-K表格年報中更詳細說明的主要風險與不確定性摘要：",
+    "•本公司有營運虧損的歷史，且可能無法產生足夠的營業收入以達成並維持獲利。",
+    "•本公司依賴少數客戶，包括關係企業，以產生重大部分的營業收入，且應收帳款餘額亦呈現集中情形。",
+    "•本公司業務可能依賴本公司擴展銷售至美國以外地區客戶的能力，且可能遭遇應收帳款回收困難，或其他可能對本公司營收造成不利影響的事項。",
+    "•本公司次世代晶片的開發可能因財務限制而延遲或無法實現。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -95,7 +95,7 @@
     "•Remodulin® (treprostinil) 注射劑 (Remodulin)；以及 Remunity® 和 RemunityPRO™ 電動泵用以注射 Remodulin (Remunity)；",
     "•Orenitram® (treprostinil) 延長釋放片劑 (Orenitram)；以及",
     "在美國，我們亦市場銷售一種腫瘤產品 Unituxin® (dinutuximab) 注射劑 (Unituxin)，此產品已獲得 FDA 批准用以治療高風險神經母細胞瘤。在美國以外地區，我們透過銷售 Nebulized Tyvaso、Remodulin 及 Unituxin 來產生收入。",
-    "本公司主要營業據點位於馬裏蘭州銀泉市 Spring Street 1000 號及北卡羅萊納州杜蘭德市 T.W. Alexander Drive 55 號。除非文意另有要求或另有說明，否則本年度報告表 10-K（本報告）中所有提及 \"United Therapeutics\" 及 \"公司\"、\"我們\"、\"我們\" 或 \"我們\" 之參考，均指 United Therapeutics Corporation 及其子公司。",
+    "{'original': 'Our principal executive offices are located at 1000 Spring Street, Silver Spring, Maryland 20910 and at 55 T.W. Alexander Drive, Durham, North Carolina 27713. Unless the context requires otherwise or unless otherwise noted, all references in this Annual Report on Form 10-K (this Report) to \"United Therapeutics\" and to the \"company\", \"we\", \"us\" or \"our\" are to United Therapeutics Corporation and its subsidiaries.', 'translated': '本公司主要營業據點位於馬裏蘭州銀春(Spring)街1000號，郵遞區號20910，以及北卡羅萊納州杜蘭(Durham)市55號T.W. Alexander大道，郵遞區號27713。除非上下文另有要求或另有說明，否則本10-K年報（本報告）中所有提及「United Therapeutics」及「公司」、「我們」、「我們」或「我們的」均指United Therapeutics Corporation及其子公司。'}",
     "2025 年度年報 我們的商業產品",
     "我們的商業產品組合包含以下項目：",
     "Tyvaso DPI 無菌粉末經預裝、單次使用 cartridges 用於 PAH 和 PH-ILD 商業銷售於美國 全球",
@@ -145,7 +145,8 @@
     "我們treprostinil基質療法之銷售 — Tyvaso DPI、Nebulized Tyvaso、Remodulin 及 Orenitram — 約佔我們收入之絕大多數。若這些產品之銷售大幅減少，將對我們營運產生重大不利影響。許多可能導致這些產品銷售大幅下降，或成長速度低於預期之事件，例如撤回監管許可或大幅改變處方習慣或用藥模式，許多已在其他風險因素中說明。我們之淨收入亦可能因競爭挑戰、IRA 及其他藥物價格減免計畫所導致之價格壓力而受到負面影響。我們產品之仿製藥版本之上市已對我們收入造成負面影響，這些及未來可能上市之其他仿製藥亦可能持續造成影響。新療法之核准與上市可能對我們現有及潛在新產品之銷售產生重大負面影響。若任何製造、行銷、分銷或銷售我們商業產品之第三方無法妥善執行，或我們無法管理內部製造流程，銷售可能減少。最後，若我們Tyvaso產品之需求未達預期，則我們treprostinil產品之收入機會可能遠低於預期。",
     "若我們產品在臨牀試驗中失敗，我們將無法銷售這些產品。",
     "為取得美國食品藥物管理局（FDA）及國際監管機構核准銷售新產品、擴展現有產品之標籤，或發佈現有產品之新給藥裝置，我們必須進行臨牀試驗以證明我們產品之安全性與有效性。監管機構對核准程序有相當大的裁量權。監管機構可能要求我們修改進行中之試驗或執行額外試驗，這些在過去及未來可能導致重大延宕與額外成本，且可能失敗。與監管機構要求修改或增加試驗相關之延宕與成本，有時已導致我們放棄開發特定產品之努力，未來亦可能再次發生。若我們之臨牀試驗未成功，或我們未能充分解決已識別之缺失，我們將無法取得新產品或新適應症之核准。我們無法確定完成必要臨牀試驗或取得目前或未來產品之監管核准所需時間或成本。完成臨牀試驗及取得監管核准所需時間與成本因產品、適應症及國家而異。此外，未能取得或延宕取得核准，過去已導致我們需認列減損費用，未來亦可能如此。"
-   ]
+   ],
+   "headings": []
   }
  },
  "translator": "qwen3:8b（本機）"

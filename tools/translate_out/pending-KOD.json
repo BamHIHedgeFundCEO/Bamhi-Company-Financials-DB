@@ -1,0 +1,211 @@
+{
+ "ticker": "KOD",
+ "cik": "0001468748",
+ "accession": "0001193125-26-134887",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Zenkuda (tarcocimab) Clinical Program Summary",
+    "Ongoing Phase 3 Studies",
+    "Completed Studies",
+    "KSI-501 Clinical Program Summary",
+    "KSI-101 Clinical Program Summary",
+    "Antibody Biopolymer Conjugate Drug Substance Manufacturing",
+    "KSI-501 and KSI-101 Manufacturing",
+    "ABC Platform Development and Pipeline",
+    "Digital Health Platform Development",
+    "Government Regulation",
+    "U.S. Drug Development",
+    "Preclinical Studies and IND",
+    "Clinical Trials",
+    "NDA/BLA Review Process",
+    "Expedited Development and Review Programs",
+    "Abbreviated Licensure Pathway of Biological Products as Biosimilar or Interchangeable",
+    "Post-Approval Requirements"
+   ],
+   "paragraphs": [
+    "Since its founding in 2009, Kodiak Sciences Inc. (\"Kodiak,\" the \"Company,\" \"we\" or \"our\") has developed a new technology platform, the Antibody Biopolymer Conjugate (\"ABC\") platform, for retinal medicines. Our goal is to prevent and treat the major causes of blindness by developing and commercializing next-generation therapeutics to address multiple unmet needs on the spectrum of retinal diseases.",
+    "Kodiak has developed three late-stage clinical programs based on its internal discovery and development engine. The lead investigational medicine, tarcocimab tedromer (\"Zenkuda\" or \"KSI-301\" or \"tarcocimab\"), is an anti-VEGF therapy built on Kodiak's proprietary ABC platform. Zenkuda has a mean ocular half-life in humans of 20 days, approximately three times longer than approved anti-vascular endothelial growth factor (\"VEGF\") therapies, and is designed to maintain effective drug levels in ocular tissues for longer. Zenkuda is being developed as a mainstay intravitreal biologic monotherapy that provides high immediacy, driven by the enhanced formulation, and high durability, driven by the ABC platform and our science of durability, with the ultimate objective of providing, once approved, a flexible 1-month through 6-month label for all patients with retinal vascular disease (treatment-naïve, treatment-experienced, mild patients and severe patients).",
+    "Zenkuda has completed four successful Phase 3 pivotal studies: the Phase 3 GLOW1 and GLOW2 studies in diabetic retinopathy (\"DR\"), the Phase 3 BEACON study in retinal vein occlusion (\"RVO\"), and the Phase 3 DAYLIGHT study in wet AMD. In the GLOW1 and GLOW2 studies, Zenkuda successfully treated DR patients and prevented disease progression with 100% of patients on extended 6-month dosing at Year 1. In the BEACON study, during the first 6 months, Zenkuda-treated patients were dosed at 8-week intervals (as opposed to 4-week intervals for aflibercept). In the second 6 months, identical retreatment criteria were used for the Zenkuda and aflibercept arms, and nearly half of Zenkuda patients did not require any treatment while achieving similar vision and anatomical outcomes as the aflibercept group at one year. In the DAYLIGHT study, Zenkuda demonstrated non-inferior efficacy results and compelling safety and tolerability at a once-monthly dosing interval. Zenkuda is currently being studied in the Phase 3 DAYBREAK study in wet AMD, the final anticipated Phase 3 study in the program. In DAYBREAK, patients are treated on an every 1-month through every 6-month treatment interval, depending on an AI-driven assessment of disease activity. DAYBREAK has completed enrollment. DAYBREAK uses Zenkuda's enhanced commercial 50 mg/mL formulation containing both conjugated and unconjugated antibody that is intended to balance immediacy and durability. Topline results for the DAYBREAK one-year primary endpoint are expected in 3Q 2026.",
+    "Kodiak's second investigational medicine, KSI-501, is an anti-interleukin 6, or IL-6, VEGF-trap bispecific therapy built on the ABC platform and is being developed for high prevalence retinal vascular diseases and intended to address the leading unmet needs of extended durability and targeting disease biology beyond VEGF for differentiated efficacy. KSI-501 is designed to provide high immediacy/efficacy, driven by the enhanced formulation, and high durability, driven by the ABC platform and our science of durability. In preclinical models, KSI-501 was shown to be a potent inhibitor of VEGF and IL-6 and, further, was shown to normalize the blood retinal barrier, opening up the possibility that KSI-501 may be a disease-modifying therapy for retinal vascular diseases. Furthermore, higher intraocular levels of IL-6 correlated with poorer best corrected visual acuity (\"BCVA\") outcomes over time in wet AMD patients treated with anti-VEGF monotherapy, which may indicate that IL-6 inhibition in combination with anti-VEGF therapy could lead to improved outcomes. Kodiak has advanced KSI-501 into the Phase 3 study DAYBREAK to evaluate its efficacy and safety in wet AMD. DAYBREAK has completed enrollment. DAYBREAK uses KSI-501's enhanced 50 mg/mL formulation containing both conjugated and unconjugated antibody that is intended to balance immediacy and durability. Topline results for the DAYBREAK one-year primary endpoint are expected in 3Q 2026.",
+    "Kodiak's third investigational medicine, KSI-101, is a high strength (100 mg/mL) bispecific protein targeting IL-6 and VEGF. We are developing KSI-101 for patients with macular edema (retinal fluid) secondary to inflammation (\"MESI\"). MESI is a heterogenous group of diseases that clinically present with macular edema and visual impairment which are caused by a common pathophysiology–inflammation and blood retinal barrier disruption. The clinical presentation of retinal fluid and visual impairment is a mainstay in these patients, irrespective of the location of the inflammation inside of the eye (anterior, intermediate, posterior, or all intraocular compartments) or the specific etiology (defined autoimmune associated, idiopathic, post-procedural, or inflammatory choroidal neovascularization). Currently there are no available intravitreal biologic therapies addressing the spectrum of MESI diseases. We believe that MESI represents a new market segment separate from the established anti-VEGF market. Our completed dose-finding Phase 1b study APEX evaluated KSI-101 in two cohorts, Cohort 1 in patients with diabetic macular edema (\"DME\") and Cohort 2 in patients with MESI. APEX indicated that KSI-101 provided meaningful visual and anatomical gains in both DME and MESI and that KSI-101 was well tolerated. Meaningful treatment responses were seen in the MESI population, irrespective of the location of inflammation and",
+    "specific MESI etiology, opening up the potential for KSI-101 to become a unifying treatment for this patient population. Based on APEX, the top two dose levels tested were selected to advance into the Phase 3 program. The PEAK and PINNACLE Phase 3 studies are actively enrolling MESI subjects at the 5 mg and 10 mg dose levels versus sham. Topline data readouts for PEAK and PINNACLE are expected in 4Q 2026 and 2Q 2027, respectively.",
+    "Beyond its clinical pipeline, Kodiak is advancing its platform technology to embed small molecules and other active pharmaceutical ingredients (\"API\"), into Kodiak's proprietary biopolymer backbone to enable high drug-antibody ratio (\"DAR\") medicines. The diverse APIs are designed to be released over time to achieve targeted, multi-specific and tailored modulation of biological pathways. We believe this unique combination of high DAR and extended therapeutic benefit offers potential for broad and important utility for multifactorial ophthalmic and systemic diseases. We call this platform extension our Antibody Biopolymer Conjugate Drug (\"ABCD\") Platform because we are extending our platform capabilities to include the conjugation of small molecule drugs whereas historically we primarily conjugated biologics such as antibodies. Our ABCD platform is advancing a next set of investigational therapies for high prevalence retinal diseases, including our novel \"duet\" technology for glaucoma and geographic atrophy.",
+    "In addition to advancing our pipeline, we have made progress in process development and commercial scale manufacturing, including the commissioning and regulatory approval of Ursus, our dedicated commercial-scale drug substance manufacturing facility that was custom-designed and built in collaboration with Lonza, a leading drug contract manufacturing firm. We believe these manufacturing efforts could position Kodiak for potential market share capture if tarcocimab and KSI-501 are approved.",
+    "To date, we have retained all global rights to make, use and sell its product candidates, which we believe preserves future value and allows for agile decision-making. Our objective is to develop our retina-focused product candidates, seek FDA approval and ultimately commercialize our product candidates in major markets.",
+    "Kodiak's lead clinical program Zenkuda is an investigational anti-VEGF therapy built on Kodiak's ABC platform and is designed to maintain potent and effective drug levels in ocular tissues for longer than existing available agents. It is being developed as a mainstay intravitreal biologic monotherapy intended to provide high immediacy, driven by its enhanced formulation and high durability from our ABC platform. Our ultimate objective is to provide a flexible 1-month through 6-month label to enable earlier treatment and prevention of vision loss for patients with diabetic retinopathy and to develop a new high immediacy and high durability agent to improve outcomes for patients with other retinal vascular diseases.",
+    "To date, the original, clinical formulation of tarcocimab was studied in six pivotal clinical studies: Phase 3 GLOW1 study in diabetic retinopathy (\"DR\"), Phase 3 BEACON study in retinal vein occlusion (\"RVO\"), Phase 3 DAYLIGHT study in wet AMD, Phase 3 GLEAM and GLIMMER studies with identical study design in diabetic macular edema (\"DME\"), and Phase 2/3 DAZZLE study in wet AMD. Of the six registrational studies, GLOW1, BEACON and DAYLIGHT successfully met the primary endpoint. An enhanced, commercial formulation of tarcocimab was studied in one Phase 3 clinical trial, GLOW2, and is currently being studied in a second Phase 3 clinical trial DAYBREAK. The GLOW2 study in DR successfully met the primary endpoint, and DAYBREAK has completed enrollment. We anticipate being in a position to announce topline data for the primary endpoint for DAYBREAK in 3Q 2026 and intend to file a BLA for tarcocimab in DR, RVO and wet AMD.",
+    "Both GLOW2 and DAYBREAK use tarcocimab's enhanced 50 mg/mL formulation containing both conjugated and unconjugated antibody that is intended to deliver high immediacy and high durability.",
+    "More information about study design and results, if completed, from each individual pivotal study are summarized next.",
+    "DAYBREAK – Phase 3 Study in Patients with Wet Age-Related Macular Degeneration"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to the Discovery, Development and Commercialization of Our Product Candidates",
+    "The failure of pivotal studies to meet their primary efficacy endpoints may lead us to pause, change or discontinue development of other product candidates based on our ABC Platform.",
+    "Our plans for the development of tarcocimab, KSI-501 or KSI-101 may be unsuccessful.",
+    "Preliminary, interim and ongoing data from our preclinical studies and clinical trials is subject to a number of risks and uncertainties and may change as more patient data become available.",
+    "We may encounter substantial delays in our clinical trials or may not be able to conduct or complete our clinical trials on the timelines we expect, if at all.",
+    "We may encounter difficulties enrolling patients in our clinical trials and our clinical development activities could thereby be delayed or otherwise adversely affected.",
+    "The manufacture of our product candidates is highly complex and requires substantial lead time to produce.",
+    "Changes in methods of manufacturing or formulation of product candidates may result in additional costs or delay.",
+    "The development program and timeline of tarcocimab may impact our ability to use the Ursus Facility as intended, which could be costly."
+   ],
+   "paragraphs": [
+    "You should consider carefully the following risk factors, together with all the other information in this report, including the section of this report titled \"Part II, Item 7 — Management's Discussion and Analysis of Financial Condition and Results of Operations\" and our consolidated financial statements and notes thereto. The occurrence of any events described in the following risk factors and the risks described elsewhere in this report could harm our business, operating results, financial condition or growth prospects or cause our actual results to differ materially from those contained in forward-looking statements that we have made in this report and that we may make from time to time. You should consider all of the risk factors described when evaluating our business. The risks described below are not intended to be exhaustive and are not the only risks that we face. New risk factors can emerge from time to time, and it is not possible to predict the impact that any factor or combination of factors may have on our business, operating results, financial condition, and/or growth prospects.",
+    "We are in the clinical stage of drug development and have a limited operating history and no products approved for commercial sale, which may make it difficult to evaluate our current business and predict our future success and viability.",
+    "We are a clinical stage biopharmaceutical company committed to researching, developing and commercializing transformative therapeutics to treat a broad spectrum of retinal diseases. We commenced operations in June 2009, have no products approved for commercial sale and have not generated any revenue. Drug development is a highly uncertain undertaking and involves a substantial degree of risk. We have conducted clinical trials, including Phase 3 pivotal clinical trials, of tarcocimab in patients with wet AMD, DME, DR and RVO. We completed enrollment for the Phase 3 DAYBREAK clinical trial of tarcocimab and KSI-501 in patients with wet AMD. We are continuing enrollment for the on-going Phase 3 PEAK and PINNACLE clinical trials of KSI-101 in patients with MESI.",
+    "To date, we have not obtained marketing approval for any of our product candidates or conducted sales and marketing activities necessary for successful product commercialization. Our limited operating history as a company and stage of drug development make any assessment of our future success and viability subject to significant uncertainty. We will encounter risks and difficulties frequently experienced by biopharmaceutical companies in rapidly evolving fields, and we have not yet demonstrated an ability to successfully overcome such risks and difficulties. If we do not address these risks and difficulties successfully, our business will suffer.",
+    "Our prospects are heavily dependent on our ability to successfully develop, obtain regulatory approval for and successfully commercialize tarcocimab, KSI-501 and KSI-101, our product candidates, which are currently in clinical development for multiple indications.",
+    "Our prospects are heavily dependent on our ability to successfully develop, obtain regulatory approval for and successfully commercialize tarcocimab, KSI-501 and KSI-101, our product candidates. We cannot be certain that our product candidates will be successful in any of the planned or pending clinical trials."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Recent Updates",
+    "Zenkuda (tarcocimab) Clinical Program Update",
+    "KSI-501 Clinical Program Update",
+    "KSI-101 Clinical Program Update",
+    "Pipeline Programs",
+    "Digital Health Platform Development",
+    "Financial Operations Overview",
+    "Components of Operating Results",
+    "Results of Operations",
+    "Year Ended December 31,",
+    "Liquidity and Capital Resources; Plan of Operations",
+    "Sources of Liquidity",
+    "Public Offering",
+    "Future Funding Requirements",
+    "Summary Statement of Cash Flows",
+    "Material Cash Requirements and Material Known Contractual Obligations and Commitments",
+    "Critical Accounting Policies, Significant Judgments and Use of Estimates",
+    "Accrued Research and Development",
+    "Stock-Based Compensation",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations together with our consolidated financial statements and the related notes included elsewhere in this Annual Report on Form 10-K. This discussion and analysis and other parts of this Annual Report on Form 10-K contain forward-looking statements based upon current beliefs, plans and expectations related to future events and our future financial performance that involve risks, uncertainties and assumptions, such as statements regarding our intentions, plans, objectives, expectations, forecasts and projections. Our actual results and the timing of selected events could differ materially from those anticipated in these forward-looking statements as a result of several factors, including those set forth under the section titled \"Part I, Item 1A — Risk Factors\" and elsewhere in this Annual Report on Form 10-K.",
+    "We are a precommercial retina focused biotechnology company committed to researching, developing and commercializing transformative therapeutics. We are focused on bringing new science to the design and manufacture of next generation retinal medicines to prevent and treat the leading causes of blindness globally. Our Antibody Biopolymer Conjugate (\"ABC\") Platform uses molecular engineering to merge the fields of protein-based and chemistry-based therapies and has been at the core of Kodiak's discovery engine. We are developing a portfolio of three late-stage clinical programs, two of which are derived from our ABC platform and one which is platform-independent.",
+    "Kodiak's lead investigational medicine, Zenkuda (tarcocimab), is an anti-VEGF antibody biopolymer conjugate under development for the treatment of high prevalence retinal vascular diseases. Zenkuda is being developed as a mainstay intravitreal biologic monotherapy that provides high immediacy, driven by the enhanced formulation, and high durability, driven by the ABC platform and our science of durability, with the ultimate objective of providing, once approved, a flexible 1-month through 6-month label for all patients with retinal vascular disease (treatment-naïve, treatment-experienced, mild patients and severe patients). Zenkuda has completed four successful Phase 3 pivotal studies: the Phase 3 GLOW1 and GLOW2 studies in diabetic retinopathy (DR), the Phase 3 BEACON study in retinal vein occlusion (RVO) and the Phase 3 DAYLIGHT study in wet AMD. Zenkuda is currently being studied in one Phase 3 clinical trial, DAYBREAK in patients with wet AMD. DAYBREAK has completed enrollment. We intend to file a Biologics License Application (\"BLA\") in DR, retinal vein occlusion (\"RVO\") and wet AMD in 2026.",
+    "KSI-501, our second investigational medicine, is a first-in-class anti-IL-6, VEGF-trap bispecific therapy built on our ABC platform and is being developed for high prevalence retinal vascular diseases to address the leading unmet needs of extended durability and targeting disease biology beyond VEGF for differentiated efficacy. KSI-501 is designed to provide high immediacy/efficacy and high durability. KSI-501 is currently being studied in the Phase 3 DAYBREAK study in patients with wet AMD. DAYBREAK has completed enrollment.",
+    "KSI-101, our third investigational medicine, is a high strength (100 mg/mL) antibody-based therapy with a bispecific mechanism of action targeting both interleukin-6 (IL-6) and VEGF. We are developing KSI-101 for patients with macular edema (retinal fluid) secondary to inflammation (\"MESI\"). Data from our dose-finding Phase 1b APEX study demonstrated robust anatomical and visual responses across MESI patients. More than half of patients achieved ≥15-letter gains in best corrected visual acuity (\"BCVA\"), with additional benefit at higher dose levels. Rapid vision improvements and anatomical response was observed with 10-letter gains by Week 4 in top dose groups and OCT CST <325 microns achieved as early as Week 1 in top dose groups. Continued anatomical improvement was observed over time with >90% resolution of intraretinal (\"IRF\") and subretinal fluid (\"SRF\") by Week 8 and 20/25 Snellen visual acuity by Week 20. In top dose groups, ≥90% achieved complete absence of IRF and SRF, indicating retinal dryness and normalization of retinal architecture. KSI-101 also continued to be well tolerated with a favorable safety profile. The top two dose levels in APEX have been advanced into the Phase 3 pivotal studies, PEAK and PINNACLE. The PEAK and PINNACLE studies are actively enrolling.",
+    "With regards to our pipeline programs, dual cytokine-targeting bispecific antibody programs KSI-102 (anti-TNFa/IL-6) and KSI-103 (anti-IL-1/IL-6) continue to progress through pre-IND activities, targeting diseases of ocular inflammation. Retina duet programs in glaucoma and geographic atrophy built with ABC platform continue to progress.",
+    "Our VETi (Visual Engagement Technology and imager) program has achieved significant advancements in hardware, software and algorithms development. VETi is our AI- and machine-learning-enabled wearable headset with applications in retina care alongside broader opportunities in identity security and cognitive sciences.",
+    "We have a dedicated commercial-scale drug substance manufacturing facility that was custom-designed and built in collaboration with Lonza. We believe these manufacturing capabilities could position us for potential market share capture if tarcocimab and KSI-501 are approved.",
+    "Zenkuda is an investigational anti-VEGF therapy built on Kodiak's proprietary ABC platform. Zenkuda has a mean ocular half-life in humans of 20 days, approximately three times longer than approved anti-VEGF therapies, and is designed to maintain effective drug levels in ocular tissues for longer. Zenkuda is being developed as a mainstay intravitreal biologic monotherapy that provides high immediacy, driven by the enhanced formulation, and high durability, driven by the ABC platform and our science of durability, with the ultimate objective of providing, once approved, a flexible 1-month through 6-month label for all patients with retinal vascular disease (treatment-naïve, treatment-experienced, mild patients, and severe patients).",
+    "Zenkuda has completed four successful Phase 3 pivotal studies: the Phase 3 GLOW1 and GLOW2 studies in diabetic retinopathy (\"DR\"), the Phase 3 BEACON study in retinal vein occlusion (\"RVO\") and the Phase 3 DAYLIGHT study in wet AMD. In the GLOW1 and GLOW2 studies, Zenkuda successfully treated DR patients and prevented disease progression with 100% of patients on extended 6-month dosing at Year 1. In the BEACON study, during the first 6 months, Zenkuda-treated patients were dosed at 8-week intervals (as opposed to 4-week intervals for aflibercept). In the second 6 months, identical retreatment criteria were used for the Zenkuda and aflibercept arms, and nearly half of Zenkuda patients did not require any treatment while achieving similar vision and anatomical outcomes as the aflibercept group at one year. In the DAYLIGHT study, Zenkuda demonstrated non-inferior efficacy results and compelling safety and tolerability at a once-monthly dosing interval. Zenkuda is currently being studied in the Phase 3 DAYBREAK study in wet AMD, the final anticipated Phase 3 study in the program. In DAYBREAK, patients are treated on an every 1-month through every 6-month treatment interval, depending on an AI-driven assessment of disease activity. Topline results for the DAYBREAK one-year primary endpoint are expected in 3Q 2026.",
+    "GLOW1 and GLOW2 were prospective, randomized, double-masked, sham-controlled, multicenter Phase 3 studies evaluating Zenkuda 5mg in participants with diabetic retinopathy. Both studies employed extended-interval dosing regimens with an ultimate treatment interval of every six months. The primary endpoint was the proportion of eyes improving by ≥2 steps on the Diabetic Retinopathy Severity Scale (\"DRSS\") from baseline to Week 48. Additional outcome measures include the proportion of eyes developing a sight-threatening complication of diabetic retinopathy and the proportion of eyes improving ≥3 steps on DRSS from baseline to Week 48.",
+    "In the GLOW1 study, patients were randomized 1:1 to receive either sham injections or Zenkuda via intravitreal injection at baseline, Week 8, Week 20 and Week 44, for a planned four injections in year one. The Phase 3 GLOW1 study demonstrated that, with extended 6-month dosing in every patient, Zenkuda can achieve strong efficacy both in treating existing disease (primary endpoint) and preventing vision threatening complications and disease progression (key secondary endpoint). In GLOW1, Zenkuda met its primary endpoint of the proportion of patients with at least a 2-step improvement on the DRSS score with 41.1% of Zenkuda-treated patients demonstrating at least a 2-step improvement versus 1.4% of patients in the sham group, a 29-fold increased response rate ratio (p-value < 0.0001). Zenkuda also met all key secondary endpoints, including greater reductions in the proportion of patients developing sight-threatening complications (such as diabetic macular edema and proliferative diabetic retinopathy) versus sham, demonstrating an 89% decreased risk (2.3% with Zenkuda versus 21.0% with sham, p-value < 0.0001).",
+    "The Phase 3 GLOW2 study was designed as a confirmatory study to the Phase 3 GLOW1 study. Patients were randomized 1:1 to receive either sham injections or Zenkuda via intravitreal injection at baseline, Week 4, Week 8, Week 20 and Week 44, for a planned five injections in year one. The Phase 3 GLOW2 study confirmed findings from GLOW1 that, with extended 6-month dosing in all Zenkuda-treated patients, Zenkuda can achieve strong efficacy both in treating existing disease (primary endpoint) and preventing vision threatening complications and disease progression (key secondary endpoint). In GLOW2, Zenkuda met its primary endpoint of the proportion of patients with at least a 2-step improvement on the DRSS, with 62.5% of Zenkuda-treated patients demonstrating at least a 2-step improvement versus 3.3% of patients in the sham group, a 19-fold increased response rate ratio (p-value < 0.0001). Zenkuda also met all key secondary endpoints, including greater reductions in the proportion of patients developing sight-threatening complications (such as diabetic macular edema and proliferative diabetic retinopathy), versus sham, demonstrating an 85% decreased risk (2.4% with Zenkuda versus 15.8% with sham, p-value ≤ 0.0001). Zenkuda also demonstrated strong efficacy independent of concomitant GLP-1 receptor agonist use. In Zenkuda-treated patients, the proportion achieving a ≥2-step improvement in DRSS was 60.0% among those using GLP-1 medications versus 64.3% among those not using GLP-1 medications, supporting Zenkuda's efficacy profile in a real-world diabetic population. Zenkuda was well-tolerated with low rates of common ocular adverse events. No cases of intraocular inflammation were reported in the study, and no cases of retinal vasculitis or occlusive retinal vasculitis were",
+    "observed. The incidence of cataract in the study eye was low (2.3% with Zenkuda versus 1.6% with sham) and in line with expected background rates in patients with DR."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'translated_text': 'Zenkuda (tarcocimab) 臨牀計畫總結'}",
+    "{'translated_text': '進行中第三期臨牀試驗'}",
+    "{'translated_text': '已完成之試驗'}",
+    "{'translated_text': 'KSI-501 臨牀計畫總結'}",
+    "{'translated_text': 'KSI-101 臨牀計畫總結'}",
+    "{'translated_text': '抗體生物聚合物結合藥物原料製造'}",
+    "{'translated_text': 'KSI-501 與 KSI-101 製造'}",
+    "{'translated_text': 'ABC 平台開發與藥物開發管道'}",
+    "數位健康平台開發",
+    "政府規範",
+    "美國藥物開發",
+    "前臨牀研究及IND",
+    "臨牀試驗",
+    "NDA/BLA審查程序",
+    "加速開發與審查計畫",
+    "生物製品簡化許可途徑作為生物相似藥或可交換藥品",
+    "{'original': 'Post-Approval Requirements', 'translated': '審批後要求'}"
+   ],
+   "paragraphs": [
+    "自2009年成立以來，Kodiak Sciences Inc.（\"Kodiak\"、\"本公司\"、\"我們\"或\"我們的\"）已開發出一種新的技術平台，即抗體生物聚合物結合（\"ABC\"）平台，用於治療視網膜疾病。我們的目標是預防及治療導致失明的主要原因，透過開發與商業化下一代治療藥物，以解決視網膜疾病的多種未滿足需求。",
+    "Kodiak已根據其內部發現與開發引擎，開發出三個晚期臨牀試驗計畫。主要研究藥物，tarcocimab tedromer（\"Zenkuda\"或\"KSI-301\"或\"tarcocimab\"），是一種抗VEGF治療藥物，基於Kodiak專有的ABC平台。Zenkuda在人類體內的平均眼內半衰期為20天，約為核准的抗血管內皮生長因子（\"VEGF\"）治療藥物的三倍長，並設計為能維持較長時間的有效藥物濃度於眼內組織。Zenkuda正被開發為一種主要的玻璃體內生物單一療法，提供高即時性，由增強的配方驅動，以及高持久性，由ABC平台與我們的持久性科學驅動，最終目標是，在核准後，為所有患有視網膜血管疾病的患者（包括未治療、已治療、輕度患者與重度患者）提供靈活的1個月至6個月的標籤。",
+    "Zenkuda已完成四項成功的第三期關鍵臨牀試驗：第三期GLOW1與GLOW2試驗在糖尿病性視網膜病變（\"DR\"），第三期BEACON試驗在視網膜靜脈阻塞（\"RVO\"），以及第三期DAYLIGHT試驗在濕性AMD。在GLOW1與GLOW2試驗中，Zenkuda成功治療DR患者並防止疾病進展，於第一年延長6個月給藥後，100%的患者表現良好。在BEACON試驗中，前6個月，Zenkuda治療的患者每8週給藥一次（與aflibercept每4週給藥一次相比）。在後6個月，Zenkuda與aflibercept組使用相同的重複治療標準，近一半的Zenkuda患者在一年內不需要任何治療，同時達到與aflibercept組相似的視力與解剖學結果。在DAYLIGHT試驗中，Zenkuda顯示出非劣效性療效結果，並在每月一次給藥間隔下表現出強大的安全性與耐受性。Zenkuda目前正進行第三期DAYBREAK試驗，用於濕性AMD，這是該計畫預期的最後一期第三期試驗。在DAYBREAK中，患者根據AI驅動的疾病活動評估，接受每1個月至每6個月的治療間隔。DAYBREAK已完成入組。DAYBREAK使用Zenkuda增強的商業50 mg/mL配方，包含結合與未結合的抗體，旨在平衡即時性與持久性。DAYBREAK一年主要終點的初步結果預計在2026年第三季公佈。",
+    "Kodiak的第二個研究藥物，KSI-501，是一種抗IL-6（或IL-6）VEGF-trap雙特異性治療藥物，基於ABC平台，正被開發用於高發病率的視網膜血管疾病，並旨在解決延長持久性與針對疾病生物學超越VEGF的未滿足需求，以實現差異化的療效。KSI-501設計為提供高即時性/療效，由增強的配方驅動，以及高持久性，由ABC平台與我們的持久性科學驅動。在動物模型中，KSI-501被顯示為VEGF與IL-6的強效抑制劑，進一步顯示其能正常化血視網膜屏障，這為KSI-501可能成為視網膜血管疾病的疾病修正治療藥物提供了可能性。此外，在接受抗VEGF單一療法的濕性AMD患者中，較高的眼內IL-6水平與隨時間推移的較差最佳校正視力（\"BCVA\"）結果相關，這可能表示IL-6抑制與抗VEGF治療結合可能導致改善的結果。Kodiak已將KSI-501進展至第三期DAYBREAK試驗，以評估其在濕性AMD中的療效與安全性。DAYBREAK已完成入組。DAYBREAK使用KSI-501增強的50 mg/mL配方，包含結合與未結合的抗體，旨在平衡即時性與持久性。DAYBREAK一年主要終點的初步結果預計在2026年第三季公佈。",
+    " Kodiak 的第三項臨牀前藥物 KSI-101 是一種高濃度（100 mg/mL）的雙功能蛋白質，針對 IL-6 與 VEGF。我們正在開發 KSI-101 用於治療因發炎所導致的黃斑部水腫（視網膜液體）患者（\"MESI\"）。MESI 是一羣臨牀表現為黃斑部水腫與視力障礙的異質性疾病，這些症狀是由共同的病理解剖機制所引起 – 發炎與視網膜-血液屏障的破壞。視網膜液體與視力障礙的臨牀表現是這些患者的主要特徵，不論發炎位於眼內的哪個部位（前段、中段、後段或全部眼內腔室）或特定病因（定義為自身免疫相關、特發性、手術後、或發炎性脈絡膜新生血管）。目前尚無可用的玻璃體內生物製劑用以治療 MESI 疾病範疇。我們認為 MESI 代表一個與已建立的抗 VEGF 市場不同的新市場區段。我們已完成的劑量探尋 Phase 1b 研究 APEX 評估了 KSI-101 在兩組患者中的表現，第一組為糖尿病性黃斑部水腫（\"DME\"）患者，第二組為 MESI 患者。APEX 顯示 KSI-101 在 DME 與 MESI 患者中提供了有意義的視力與解剖學改善，且 KSI-101 被認為耐受性良好。在 MESI 羣體中觀察到有意義的治療反應，不論發炎的部位與特定 MESI 病因，這為 KSI-101 成為此患者羣體的統一治療方案提供了潛力。",
+    "根據 APEX 研究結果，選擇了前兩種劑量層次用以進展至 Phase 3 研究計畫。PEAK 與 PINNACLE Phase 3 研究正在招募 MESI 患者，劑量為 5 mg 與 10 mg，對照為偽手術。PEAK 與 PINNACLE 的初步數據預計於 2026 年第四季與 2027 年第二季公佈。",
+    "除了臨牀開發路線，Kodiak 正在推進其平台技術，將小分子與其他活性藥物成分（\"API\"）嵌入 Kodiak 的專利生物聚合物骨架中，以製造高藥物-抗體比例（\"DAR\"）的藥物。這些多樣化的 API 被設計為隨時間釋放，以達到針對性、多特異性與個別調節生物途徑的效果。我們認為這種高 DAR 與延長治療效益的獨特組合，為多因素性眼疾與全身性疾病的廣泛與重要用途提供了潛力。我們稱此平台延展為「抗體生物聚合物共價藥物（\"ABCD\"）平台」，因為我們正在擴展平台能力，包含小分子藥物的共價結合，而過去我們主要結合的是生物製劑如抗體。我們的 ABCD 平台正在開發一組新的臨牀前療法，用以治療高發性視網膜疾病，包括我們的新型「雙重」技術用於青光眼與地理性視網膜萎縮。",
+    "除了推進開發路線，我們在製程開發與商業規模製造方面也取得進展，包括啟用並取得監管批准的 Ursus，這是我們專門用於商業規模藥物原料製造的廠房，與 Lonza 這家領先的藥物合同製造公司合作設計與建造。我們認為這些製造努力可能使 Kodiak 在 tarcocimab 與 KSI-501 被核准後，取得潛在的市場佔有率。",
+    "截至目前為止，本公司已保留所有全球權利，用以製造、使用及銷售其產品候選品，本公司認為此舉可維護未來價值，並允許靈活的決策。本公司目標為開發專注於視網膜的產品候選品，尋求FDA核准，並最終在主要市場商業化其產品候選品。",
+    "Kodiak的領先臨牀計畫Zenkuda為一種研究中的抗VEGF療法，基於Kodiak的ABC平台，設計用以在視網膜組織中維持強效且有效的藥物濃度，時間長於現有可用藥物。其正在開發為一種主要的玻璃體內生物單一療法，旨在提供高即時性，此效益來自其增強的配方及來自我們ABC平台的高耐久性。本公司最終目標為提供一個靈活的1個月至6個月標籤，以允許較早治療及預防糖尿病性視網膜病變患者的視力喪失，並開發一種新的高即時性及高耐久性藥物，以改善其他視網膜血管疾病的患者治療結果。",
+    "截至目前為止，原版的臨牀配方tarcocimab已在六項關鍵臨牀研究中進行研究：糖尿病性視網膜病變（\"DR\"）的第三期GLOW1研究，視網膜靜脈阻塞（\"RVO\"）的第三期BEACON研究，濕性AMD的第三期DAYLIGHT研究，糖尿病性黃斑水腫（\"DME\"）的第三期GLEAM和GLIMMER研究（具有相同研究設計），以及濕性AMD的第二期/第三期DAZZLE研究。在這六項註冊研究中，GLOW1、BEACON和DAYLIGHT成功達成主要終點。增強版的商業配方tarcocimab已在一項第三期臨牀試驗GLOW2中進行研究，目前正進行第二項第三期臨牀試驗DAYBREAK。GLOW2在DR的試驗成功達成主要終點，且DAYBREAK已完成入組。本公司預期在2026年第三季宣佈DAYBREAK的主要終點初步數據，並有意為tarcocimab在DR、RVO及濕性AMD提出BLA申請。",
+    "GLOW2和DAYBREAK均使用tarcocimab增強版的50 mg/mL配方，包含結合與未結合的抗體，旨在提供高即時性及高耐久性。",
+    "關於各項個別關鍵研究的試驗設計及結果（若已完成），已於下文進行總結。",
+    "DAYBREAK – 第三期試驗於濕性年齡相關性黃斑變性患者中進行"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "近期更新",
+    "Zenkuda (tarcocimab) 臨牀計畫更新",
+    "KSI-501 臨牀計畫更新",
+    "KSI-101 臨牀計畫更新",
+    "產品管線計畫",
+    "數位健康平台開發",
+    "財務作業概覽",
+    "營運成果組成",
+    "{'translated_text': '營運成果'}",
+    "{'translated_text': '截至12月31日止會計年度'}",
+    "{'translated_text': '流動性及資本資源；營運計畫'}",
+    "{'translated_text': '流動資金來源'}",
+    "{'translated_text': '公開發行'}",
+    "{'translated_text': '未來資金需求'}",
+    "{'translated_text': '現金流量摘要表'}",
+    "{'translated_text': '重大現金需求及重大已知契約義務及承諾'}",
+    "{'Critical Accounting Policies, Significant Judgments and Use of Estimates': '重要會計政策、重大判斷及會計估計之使用'}",
+    "{'Accrued Research and Development': '累計研發費用'}",
+    "{'Stock-Based Compensation': '股票基於報酬'}",
+    "{'Recent Accounting Pronouncements': '最近會計準則公告'}"
+   ],
+   "paragraphs": [
+    "您應閱讀以下對我們財務狀況及營運成果之分析，並與我們合併財務報表及相關附註說明一併參考。本討論與分析，以及本年度10-K申報書之其他部分，包含有關未來事件及我們未來財務表現之預測性陳述，這些陳述基於目前的信念、計畫與預期，涉及風險、不確定性與假設，例如有關我們意圖、計畫、目標、預期、預測與預測之陳述。我們實際結果及部分事件的時間點，可能與這些預測性陳述中所預期的有重大差異，原因包括但不限於本年度10-K申報書「第一部分，第1A項 — 風險因素」所列之因素及其他地方。",
+    "我們是一家尚未商業化的專注於視網膜的生物科技公司，致力於研究、開發與商業化具有變革性的治療藥物。我們專注於將新科學應用於下一代視網膜藥物的設計與製造，以預防及治療全球導致失明的主要原因。我們的抗體生物聚合物共價物（\"ABC\"）平台利用分子工程學，將蛋白質基與化學基治療結合，並為Kodiak的發現引擎核心。我們正在開發包含三個晚期臨牀階段的產品組合，其中兩個來自我們的ABC平台，另一個則為平台無關的產品。",
+    "Kodiak的領導性研究藥物Zenkuda（tarcocimab）是一種抗VEGF抗體生物聚合物共價物，正在開發用於治療高發性視網膜血管疾病。Zenkuda被開發為一種主要的玻璃體內生物單一療法，提供高即時性，由增強的配方所驅動，並提供高耐久性，由ABC平台及我們的耐久性科學所驅動，最終目標是，在獲得批准後，為所有患有視網膜血管疾病（治療未經驗者、治療經驗者、輕度患者及重度患者）提供一個靈活的1個月至6個月的標籤。Zenkuda已完成四項成功的第三期關鍵臨牀試驗：第三期GLOW1及GLOW2試驗在糖尿病視網膜病變（DR）中，第三期BEACON試驗在視網膜靜脈阻塞（RVO）中，以及第三期DAYLIGHT試驗在濕性AMD中。Zenkuda目前正在進行一項第三期臨牀試驗DAYBREAK，用於治療濕性AMD患者。DAYBREAK已完成納入受試者。我們預計在2026年提交生物製品許可申請（\"BLA\"）用於DR、視網膜靜脈阻塞（\"RVO\"）及濕性AMD。",
+    "KSI-501為我們的第二個研究藥物，是一種第一類抗IL-6、VEGF-trap雙重作用療法，基於我們的ABC平台，正在開發用於高發性視網膜血管疾病，以解決延長耐久性及針對疾病生物學超出VEGF的未滿足需求，以實現差異化的療效。KSI-501被設計為提供高即時性/療效及高耐久性。KSI-501目前正在DAYBREAK試驗中進行第三期臨牀研究，用於治療濕性AMD患者。DAYBREAK已完成納入受試者。",
+    "KSI-101為我們的第三個研究藥物，是一種高濃度（100 mg/mL）的抗體基治療藥物，具有雙重作用機制，針對 interleukin-6（IL-6）及 VEGF。我們正在開發KSI-101用於治療因發炎所導致的黃斑水腫（視網膜液體）患者（\"MESI\"）。我們在劑量探索期的Phase 1b APEX試驗中所獲得的數據顯示，在MESI患者中，有顯著的解剖學與視力反應。超過一半的患者在最佳校正視力（\"BCVA\"）中達到≥15字母的改善，更高劑量組別有更多益處。在第4週，最高劑量組別觀察到10字母的視力改善，且在第1週，最高劑量組別的OCT CST <325微米。隨著時間推移，持續觀察到解剖學改善，第8週及第20週時，>90%的患者達到IRF（視網膜內液）及SRF（視網膜下液）的完全消退，且視力達到20/25 Snellen視力。在最高劑量組別中，≥90%的患者達到IRF及SRF的完全消退，顯示視網膜乾燥及視網膜結構的正常化。KSI-101也持續具有良好耐受性，且具有良好的安全性。APEX試驗中的前兩個劑量層級已進入第三期關鍵臨牀試驗PEAK及PINNACLE。PEAK及PINNACLE試驗正在積極納入受試者。",
+    "關於我們的產品線，雙重細胞因子目標雙重作用抗體計畫KSI-102（anti-TNFa/IL-6）及KSI-103（anti-IL-1/IL-6）持續進行IND前的活動，目標為治療眼內發炎疾病。基於ABC平台的視網膜雙重計畫在青光眼及地理性視網膜萎縮中持續進行。",
+    "我們的VETi（視覺參與技術及影像器）計畫在硬體、軟體及演算法開發方面取得顯著進展。VETi為我們的AI及機器學習驅動的可穿戴頭戴裝置，應用於視網膜照護，同時也擁有更廣泛的應用機會，包括身分安全及認知科學。",
+    "我們擁有專門的商業規模藥物原料製造廠房，與Lonza合作設計與建造。我們認為這些製造能力可能使我們在tarcocimab及KSI-501獲得批准後，有機會取得市場份額。",
+    "Zenkuda 是一種正在研發中的抗 VEGF 治療藥物，基於 Kodiak 自有 ABC 平台開發。Zenkuda 在人類體內的平均眼內半衰期為 20 天，約為已核准抗 VEGF 治療藥物的三倍長，並設計用以維持眼內組織中有效藥物濃度更久。Zenkuda 正被開發為一種主要的玻璃體內注射生物製劑單一療法，提供高即時性，由增強的配方驅動，以及高持久性，由 ABC 平台與我們的持久性科學驅動，最終目標為在核准後，為所有患有視網膜血管疾病（治療未經驗者、治療經驗者、輕度患者及重度患者）的患者提供靈活的 1 個月至 6 個月標籤。",
+    "Zenkuda 已完成四項成功的第三期關鍵臨牀試驗：第三期 GLOW1 與 GLOW2 試驗在糖尿病性視網膜病變（\"DR\"），第三期 BEACON 試驗在視網膜靜脈阻塞（\"RVO\"），以及第三期 DAYLIGHT 試驗在濕性黃斑變性（\"wet AMD\"）。在 GLOW1 與 GLOW2 試驗中，Zenkuda 成功治療 DR 患者並防止疾病進展，於第一年延長 6 個月給藥間隔的 100% 患者。在 BEACON 試驗中，前 6 個月，Zenkuda 治療患者每 8 週給藥一次（與 aflibercept 每 4 週給藥一次相比）。在第二 6 個月，Zenkuda 與 aflibercept 組的相同重複治療標準被使用，近一半的 Zenkuda 患者在一年內不需要任何治療，同時達到與 aflibercept 組相似的視力與解剖學結果。在 DAYLIGHT 試驗中，Zenkuda 展現出非劣效的療效結果，並在每月一次給藥間隔下顯示出強大的安全性與耐受性。Zenkuda 目前正在第三期 DAYBREAK 試驗中研究，為該計畫預期的最終第三期試驗。在 DAYBREAK 中，患者根據 AI 驅動的疾病活動評估，接受每 1 個月至每 6 個月的治療間隔。DAYBREAK 試驗一年主要終點的初步結果預計於 2026 年第三季公佈。",
+    "GLOW1 與 GLOW2 是前瞻性、隨機、雙盲、假手術控制、多中心第三期試驗，評估 Zenkuda 5mg 在糖尿病性視網膜病變患者的應用。兩項試驗均採用延長間隔給藥方案，最終治療間隔為每 6 個月一次。主要終點為從基線至第 48 週，眼睛改善 ≥2 個步驟在糖尿病性視網膜病變嚴重度量表（\"DRSS\"）的比例。其他結果指標包括眼睛發展為視力威脅性糖尿病性視網膜病變的比率，以及從基線至第 48 週，眼睛改善 ≥3 個步驟在 DRSS 的比例。",
+    "在 GLOW1 試驗中，患者被隨機 1:1 分配至接受假注射或透過玻璃體內注射接受 Zenkuda，於基線、第 8 週、第 20 週及第 44 週進行，預計一年內進行四次注射。第三期 GLOW1 試驗顯示，對所有患者進行延長 6 個月給藥，Zenkuda 可以在治療現有疾病（主要終點）及預防視力威脅性併發症與疾病進展（關鍵次要終點）方面達到強大的療效。在 GLOW1 中，Zenkuda 達成其主要終點，即基線至第 48 週，至少改善 2 個步驟在 DRSS 分數的患者比例，41.1% 的 Zenkuda 治療患者顯示至少改善 2 個步驟，對照組為 1.4%，反應率增加 29 倍（p 值 < 0.0001）。Zenkuda 也達成所有關鍵次要終點，包括減少基線至第 48 週，患者發展為視力威脅性併發症（如糖尿病性黃斑水腫及增殖性糖尿病性視網膜病變）的比例，顯示風險降低 89%（Zenkuda 為 2.3% vs. 對照組為 21.0%，p 值 < 0.0001）。",
+    "第三期 GLOW2 試驗設計為對 GLOW1 試驗的確認試驗。患者被隨機 1:1 分配至接受假注射或透過玻璃體內注射接受 Zenkuda，於基線、第 4 週、第 8 週、第 20 週及第 44 週進行，預計一年內進行五次注射。第三期 GLOW2 試驗確認 GLOW1 的結果，即對所有 Zenkuda 治療患者進行延長 6 個月給藥，Zenkuda 可以在治療現有疾病（主要終點）及預防視力威脅性併發症與疾病進展（關鍵次要終點）方面達到強大的療效。在 GLOW2 中，Zenkuda 達成其主要終點，即基線至第 48 週，至少改善 2 個步驟在 DRSS 的患者比例，62.5% 的 Zenkuda 治療患者顯示至少改善 2 個步驟，對照組為 3.3%，反應率增加 19 倍（p 值 < 0.0001）。Zenkuda 也達成所有關鍵次要終點，包括減少基線至第 48 週，患者發展為視力威脅性併發症（如糖尿病性黃斑水腫及增殖性糖尿病性視網膜病變）的比例，對照組顯示風險降低 85%（Zenkuda 為 2.4% vs. 對照組為 15.8%，p 值 ≤ 0.0001）。Zenkuda 也顯示出與同時使用 GLP-1 受體激動劑無關的強大療效。在 Zenkuda 治療患者中，使用 GLP-1 藥物的患者達到 ≥2 個步驟改善在 DRSS 的比例為 60.0%，未使用 GLP-1 藥物的患者為 64.3%，支持 Zenkuda 在真實糖尿病人口中的療效表現。Zenkuda 被認為耐受性良好，常見的眼部不良事件發生率低。試驗中未報導任何眼內發炎案例，也未觀察到視網膜血管炎或阻塞性視網膜血管炎案例。",
+    "觀察到的白內障發生率在試驗眼中為低（Zenkuda 為 2.3% vs. 對照組為 1.6%），與糖尿病性視網膜病變患者的預期背景率一致。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們產品候選藥物之發現、開發及商業化相關之風險",
+    "若關鍵研究未能達成其主要療效終點，我們可能因此暫停、改變或終止基於我們 ABC 平台之其他產品候選藥物之開發。",
+    "我們對於 tarcocimab、KSI-501 或 KSI-101 之開發計畫可能無法成功。",
+    "我們預備研究及臨牀試驗之初步、中期及進行中資料，受許多風險與不確定因素影響，且可能因更多病患資料可供使用而有所改變。",
+    "我們可能遭遇臨牀試驗之重大延誤，或可能無法按預期時程進行或完成臨牀試驗，甚至可能無法進行。",
+    "我們可能遭遇病患招募困難，因而使臨牀開發活動延誤或受到其他不利影響。",
+    "我們產品候選藥物之製造過程極其複雜，且需大量預備時間以進行生產。",
+    "製造方法或產品候選藥物之配方變更，可能導致額外成本或延誤。",
+    "tarcocimab 的開發計畫及時程可能影響本公司運用 Ursus 裝置之能力，此情形可能產生高昂成本。"
+   ],
+   "paragraphs": [
+    "您應謹慎考慮下列風險因素，並配合本報告中所有其他資訊，包括本報告標題為「第二部分，項目 7 — 管理層對財務狀況與營運成果之分析」的節，以及我們的合併財務報表及其附註。發生下列風險因素中所描述的事件，以及本報告其他地方所描述的風險，可能會對我們的業務、營運結果、財務狀況或成長前景造成損害，或導致我們的實際結果與本報告中所做出的預測性陳述，以及我們可能在其他時間做出的預測性陳述有重大差異。評估我們的業務時，您應考慮所有所描述的風險因素。下列所描述的風險並非完整無遺，也非我們所面臨的唯一風險。隨時間推移，可能出現新的風險因素，且無法預測任何因素或因素組合對我們的業務、營運結果、財務狀況和/或成長前景可能產生的影響。",
+    "我們目前處於藥物開發的臨牀階段，擁有有限的營運歷史，且尚未有任何產品獲得商業銷售許可，這可能會使評估我們目前的業務及預測我們未來的成功與生存能力變得困難。",
+    "我們是一家處於臨牀階段的生物製藥公司，致力於研究、開發及商業化具有變革性的治療方案，用以治療廣泛的視網膜疾病。我們於 2009 年 6 月開始營運，目前尚未有任何產品獲得商業銷售許可，也尚未產生任何收入。藥物開發是一項高度不確定的任務，並涉及相當程度的風險。我們已進行臨牀試驗，包括針對濕性 AMD、DME、DR 和 RVO 患者的 Phase 3 關鍵臨牀試驗，於 tarcocimab。我們已完成 wet AMD 患者 tarcocimab 和 KSI-501 的 Phase 3 DAYBREAK 臨牀試驗的入組。我們正在持續進行 KSI-101 在 MESI 患者中的 Phase 3 PEAK 和 PINNACLE 臨牀試驗的入組。",
+    "截至目前為止，我們尚未獲得任何產品候選藥物的市場許可，也尚未進行成功產品商業化所需的銷售與市場推廣活動。我們作為公司的有限營運歷史及藥物開發階段，使我們未來的成功與生存能力評估面臨顯著的不確定性。我們將經常面臨生物科技公司於快速變遷領域中常見的風險與困難，而我們尚未證明我們有能力成功克服這些風險與困難。如果我們未能成功解決這些風險與困難，將會對我們的業務造成損害。",
+    "我們的前景高度依賴於我們成功開發、獲得監管批准並成功商業化 tarcocimab、KSI-501 和 KSI-101，這些產品候選藥物目前正進行多種適應症的臨牀開發。",
+    "我們的前景高度依賴於我們成功開發、獲得監管批准並成功商業化 tarcocimab、KSI-501 和 KSI-101，這些產品候選藥物。我們無法確定這些產品候選藥物會在任何預期或進行中的臨牀試驗中成功。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

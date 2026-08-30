@@ -1,0 +1,144 @@
+{
+ "ticker": "NEON",
+ "cik": "0000087050",
+ "accession": "0001437749-26-008759",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Non-recurring Engineering Services",
+    "Strategy and Focus Areas",
+    "Printers and Office Equipment",
+    "Holographic Interaction",
+    "New Business Development",
+    "Customers by Market",
+    "Geographical Data",
+    "Intellectual Property",
+    "Research and Development",
+    "Human Capital",
+    "Additional Information"
+   ],
+   "paragraphs": [
+    "Neonode provides software solutions for machine perception that feature advanced machine learning algorithms to detect and track persons and objects in video streams from cameras and other types of imagers. We base our machine perception solutions on our MultiSensing® technology platform. We market and sell our solutions to customers mainly in the automotive market. However, our solution can also be used in many other markets, and we plan to expand our solutions into new markets in the future.",
+    "Neonode also provides advanced optical sensing solutions for touch, contactless touch, and gesture sensing using our zForce® technology platform. In 2010, we began licensing to Original Equipment Manufacturers (\"OEMs\") and automotive Tier 1 suppliers who embed our technology into products they develop, manufacture, and sell. Since 2010, our licensing customers have sold over 95 million products that feature our technology. In October 2017, we augmented our licensing business and began manufacturing and shipping touch sensor modules (\"TSMs\") that incorporate our patented technology. On December 12, 2023, we announced a new, sharpened strategy with full focus on the licensing business. Consequently, we phased out the TSM product business during 2024 through licensing of the TSM technology to strategic partners and in parallel we sold parts of the remaining TSMs. The phase out of our TSM product business meets the criteria to be reported as discontinued operations. Refer to Note 2 of Notes to the Consolidated Financial Statements for additional discussion of discontinued operations. All following information presents continuing operations. In September 2025, we made the strategic decision to transition the zForce platform into maintenance mode. We are no longer selling the zForce technology to new customers but will continue supporting existing customers in various markets and segments such as office equipment, automotive, industrial automation, medical, military, and avionics.",
+    "We license our MultiSensing and zForce technology to OEMs and automotive Tier 1 suppliers who embed our technology into products that they develop, manufacture and sell. Since 2010, our licensing customers have sold over 95 million devices that use our patented technology.",
+    "As of December 31, 2025, we had 36 valid technology license agreements with global OEMs, Original Design Manufacturers (\"ODMs\") and automotive Tier 1 suppliers.",
+    "Our licensing customer base is primarily in the automotive and printer segments. Nine of our licensing customers are currently shipping products that embed our technology. We anticipate current customers will continue to ship products with our technology in 2026 and in future years. We also expect to expand our customer base with a number of new customers who will be looking to ship new products incorporating our MultiSensing technologies as they complete final product development and release cycles. We typically earn our license fees on a per unit basis when our customers ship products using our technology, but in the future, we may use other business models as well.",
+    "We also offer non-recurring engineering (\"NRE\") services related to application development linked to our technology platform on a flat rate or hourly rate basis.",
+    "Typically, our licensing customers require engineering support during the development and initial manufacturing phase for their products using our technology.",
+    "Our customers use machine perception technologies to grow their businesses, drive efficiencies, and seek competitive advantages. Our strategy is to deliver value-adding human-machine interaction (\"HMI\") and machine perception solutions that enable our customers to achieve these targets. We offer specialized NRE services related to the integration of our solutions into customer systems and products to ensure that optimal functionality and performance is achieved.",
+    "With the strategic decision in September 2025 to transition the zForce platform into maintenance mode, we are no longer selling the zForce technology to new customers. We instead aim to capture a significant share of the growing automotive driver and in-cabin monitoring market by developing our machine perception business. We are innovators in the HMI and machine perception areas and our goal is to introduce next-generation products in these areas that offer better price, performance, and architectural advantages compared to our current offers and those of our competitors. We intend to execute on this strategy through portfolio transformation, internal innovation, and co-development of products with our customers and the building of strategic partnerships with other technology companies.",
+    "The automotive value chain consists of OEMs (vehicle manufacturers) and tiered suppliers (Tier 1 system suppliers, Tier 2 component suppliers and etc.). In this market, we mainly act as a Tier 2 technology provider to Tier 1 suppliers who license our technology and deliver different types of systems to OEMs (e.g. our driver and in-cabin monitoring solution or our touch technology). In some cases, we are also engaged directly by OEMs, following the trend that OEMs are insourcing more and more of their systems and software development.",
+    "During 2025 and 2024, our automotive customers shipped approximately 0.3 million and 0.5 million products with our technology, respectively. Accumulated, since 2014, our automotive customers have shipped approximately 8.8 million products featuring our technology.",
+    "Multi-function printers typically feature touch displays for user interaction with feature-rich menus and settings. We have operational license agreements with three of the leading global printers and office equipment OEMs. During 2025 and 2024, our customers shipped approximately 1.7 million and 2.4 million printers using our touch technology, respectively, and since mid-2014 they have shipped approximately 58.9 million printers using our touch technology.",
+    "Following the announcement that Nexty Electronics has selected Neonode's TSM technology for sensor development and manufacturing of the next-generation slot machines for a leading manufacturer in Japan's amusement market, we see further potential to deliver our technology to companies in the Japanese amusement market as well as in other markets that desire high quality, cost-effective touch functionality on large displays and surfaces.",
+    "Using our TSM technology to facilitate interaction with a hologram allows us to create immersive experiences with a \"wow factor\" in the infotainment sector, e.g. museums, receptions, AI avatars and etc. We also see an increasing potential for surgical planning and education, enabling virtual explorations and interactive learning."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business",
+    "We have had a history of losses and may require additional capital to fund our operations, which may not be available to us on commercially attractive terms or at all.",
+    "We are dependent on a limited number of customers.",
+    "We rely on the ability of our customers to design, manufacture and sell their products that incorporate our touch technology.",
+    "Our license customers rely upon component suppliers to manufacture and sell products containing our technology and limited availability of components may adversely affect our and our customers' businesses.",
+    "It can be difficult for us to verify royalty amounts owed to us under licensing agreements, and this may cause us to lose potential revenue.",
+    "If we fail to develop and introduce new technology successfully, and in a cost-effective and timely manner, we will not be able to compete effectively and our ability to generate revenues will suffer.",
+    "Our operating results may fluctuate significantly as a result of a variety of factors, many of which are outside of our control.",
+    "We may make acquisitions and strategic investments that are dilutive to existing stockholders, result in unanticipated accounting charges or otherwise adversely affect our results of operations.",
+    "We are dependent on the services of our key personnel.",
+    "We may not be successful in our strategic efforts around patent monetization.",
+    "If third parties infringe upon our intellectual property, we may expend significant resources enforcing our rights or suffer competitive injury.",
+    "We have an international presence in countries and must manage currency risks.",
+    "We have concentration of cash balance at various banks in the United States, Japan and Sweden.",
+    "Third parties that maintain our confidential and proprietary information could experience a cybersecurity incident.",
+    "While we have identified material weaknesses in our internal control, if we are unable to detect additional material weaknesses in our internal control, our financial reporting and our business may be adversely affected.",
+    "Risks Related to Owning Our Stock",
+    "Future sales of our common stock by us or our insiders could adversely affect the trading price of our common stock and dilute your investment.",
+    "Our stock price has been volatile, and your investment in our common stock could suffer a decline in value.",
+    "A limited number of stockholders, including directors, hold a significant number of shares of our outstanding common stock.",
+    "Our certificate of incorporation and bylaws and the Delaware General Corporation Law contain provisions that could delay or prevent a change in control.",
+    "If securities analysts do not publish research or if securities analysts or other third parties publish inaccurate or unfavorable research about us, the price of our common stock could decline."
+   ],
+   "paragraphs": [
+    "An investment in our common stock involves a high degree of risk. Before deciding to purchase, hold, or sell our common stock, you should consider carefully the risks described below in addition to the cautionary statements and risks described elsewhere in this Annual Report and in our other filings with the SEC, including subsequent reports on Forms 10-Q and 8-K. The risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties not presently known to us or that we currently deem immaterial may also impair our business operations. If any of these known or unknown risks or uncertainties actually occur, our business, financial condition, results of operations or cash flows could be seriously harmed. This could cause the trading price of our common stock to decline, resulting in a loss of all or part of your investment.",
+    "We have experienced substantial net losses in each fiscal period since our inception, except for fiscal year 2025, in which we recorded a gain related to a patent assignment. These net losses have resulted from a lack of substantial revenues and the significant costs incurred in the development and commercial acceptance of our technologies. Our ability to continue as a going concern is dependent on our ability to implement our business plan. If our operations do not become cash flow positive, we may be forced to seek sources of capital to continue operations. No assurances can be given that we will be successful in obtaining such additional financing on reasonable terms, or at all. If adequate funds are not available when needed on acceptable terms, or at all, we may be unable to adequately fund our business plan, which could have a negative effect on our business, results of operations, and financial condition.",
+    "We may, in the short and long-term, seek to raise capital through the issuance of equity securities or through other financing sources. To the extent that we raise additional funds by issuing equity securities, our stockholders may experience significant dilution. Any debt financing, if available, may include financial and other covenants that could restrict our use of the proceeds from such financing or impose other business and financial restrictions on us. In addition, we may consider alternative approaches such as licensing, joint ventures, or partnership arrangements to provide long-term capital.",
+    "Our licensing revenues for the year ended December 31, 2025 were earned from eight OEM, ODM and Tier 1 customers. We generated NRE revenues from two customers for the year ended December 31, 2025. During the year ended December 31, 2025, four customers represented approximately 95.4% of our consolidated net revenues. Our customer concentration may change significantly from period-to-period depending on a customer's product cycle and changes in our industry. The loss of a major customer, a reduction in net revenues of a major customer for any reason, or a failure of a major customer to fulfill its financial or other obligations due to us could have a material adverse effect on our business, financial condition, and future revenue stream. The new business strategy with 100% focus on technology and software licensing that we launched in December 2023 is likely to trigger changes in our customer composition and an overall reduction of the number of customers we have active engagements with.",
+    "We have historically generated revenue through technology licensing agreements with companies that design, manufacture, and sell their own products incorporating our touch technology. The majority of our license fees earned in 2025 and 2024 were from customer shipments of printer products and automotive infotainment systems. We continue to rely on licensing revenues from current and new customers whose products are still in the development cycle. If our customers are not able to design, manufacture and sell their products, or are delayed in producing and selling their products, our revenues, profitability, and liquidity, as well as our brand image, may be adversely affected.",
+    "The length of a customer's product development and release cycle depends on many factors outside of our control and any delays could cause us to incur significant expenses without offsetting revenues, or revenues that vary significantly from quarter to quarter."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Non-recurring Engineering Services': '非經常性工程服務'}",
+    "{'Strategy and Focus Areas': '策略與重點領域'}",
+    "{'Printers and Office Equipment': '印表機與辦公設備'}",
+    "{'Holographic Interaction': '全息互動'}",
+    "{'New Business Development': '新業務發展'}",
+    "{'Customers by Market': '按市場分類的客戶'}",
+    "{'Geographical Data': '地理資料'}",
+    "{'Intellectual Property': '智慧財產權'}",
+    "{'Research and Development': '研究與開發'}",
+    "{'Human Capital': '人力資本'}",
+    "{'Additional Information': '其他資訊'}"
+   ],
+   "paragraphs": [
+    "Neonode 提供用於機器感知的軟體解決方案，其特點為進階的機器學習演算法，用以偵測並追蹤人與物在攝影機及其他類型影像感測器的視訊流中。我們的機器感知解決方案是基於我們的 MultiSensing® 技術平台。我們主要將解決方案行銷並銷售給汽車市場的客戶。然而，我們的解決方案也可用於許多其他市場，我們計畫在未來擴展至新的市場。",
+    "Neonode 同時也提供先進的光學感測解決方案，用於觸控、無觸控及手勢感測，使用我們的 zForce® 技術平台。2010 年，我們開始將技術授權給原始設備製造商（\"OEMs\"）及汽車一級供應商，這些供應商將我們的技術嵌入他們開發、製造及銷售的產品中。自 2010 年以來，我們的授權客戶已銷售超過 95 百萬件產品，這些產品採用了我們的技術。2017 年 10 月，我們擴充了我們的授權業務，開始製造並發送整合我們專利技術的觸控感測模組（\"TSMs\"）。2023 年 12 月 12 日，我們宣佈了一項新的、更明確的策略，專注於授權業務。因此，我們在 2024 年逐步停產 TSM 產品業務，透過將 TSM 技術授權給戰略夥伴，同時並行銷售剩餘的 TSM 部分。我們 TSM 產品業務的停產符合應報告為終止營運的條件。請參閱財務報表附註第 2 項，以取得更多關於終止營運的討論。以下資訊均為持續營運的資訊。2025 年 9 月，我們做出戰略決定，將 zForce 平台轉為維護模式。我們不再向新客戶銷售 zForce 技術，但會繼續支援各個市場與產業的現有客戶，例如辦公設備、汽車、工業自動化、醫療、軍事及航電。",
+    "我們將 MultiSensing 和 zForce 技術授權給 OEMs 及汽車一級供應商，這些供應商將我們的技術嵌入他們開發、製造及銷售的產品中。自 2010 年以來，我們的授權客戶已銷售超過 95 百萬件使用我們專利技術的設備。",
+    "截至 2025 年 12 月 31 日，我們與全球 OEMs、原始設計製造商（\"ODMs\"）及汽車一級供應商簽有 36 筆有效的技術授權協議。",
+    "我們的授權客戶主要來自汽車及列印機產業。目前有九家授權客戶正在發送嵌入我們技術的產品。我們預期現有客戶會在 2026 年及未來年度持續發送使用我們技術的產品。我們也預期會透過若干新客戶擴大客戶羣，這些新客戶在完成最終產品開發與發佈週期後，將會發送整合我們 MultiSensing 技術的新產品。我們通常在客戶發送使用我們技術的產品時，按單元收取授權費用，但未來我們也可能使用其他商業模式。",
+    "我們也提供非經常性工程（\"NRE\"）服務，與我們的技術平台相關的應用開發，按固定費用或小時費用計費。",
+    "我們的授權客戶通常在使用我們技術的產品開發與初始製造階段需要工程支援。",
+    "我們的客戶使用機器感知技術來拓展業務、提高效率，並尋求競爭優勢。我們的策略是提供增加價值的人機互動（\"HMI\"）及機器感知解決方案，以協助客戶達成這些目標。我們提供專門的 NRE 服務，用於將我們的解決方案整合至客戶的系統與產品中，以確保最佳的功能與性能。",
+    "於2025年9月做出戰略決定，將zForce平台轉為維護模式，我們不再向新客戶銷售zForce技術。我們轉而致力於透過發展機器感知業務，以取得成長中的汽車駕駛與車內監測市場的重要市佔率。我們在HMI與機器感知領域為創新者，目標是推出這些領域的下一代產品，提供比現有產品及競爭對手產品更佳的價格、性能與架構優勢。我們預計透過產品組合轉型、內部創新，以及與客戶共同開發產品，並與其他科技公司建立戰略合作夥伴關係來執行此策略。",
+    "汽車價值鏈包含OEM（車輛製造商）與階層供應商（一級系統供應商、二級零組件供應商等）。在這個市場中，我們主要作為二級技術供應商，為一級供應商提供技術授權，並交付不同類型的系統給OEM（例如我們的駕駛與車內監測解決方案或我們的觸控技術）。在某些情況下，我們也會直接被OEM委託，這符合OEM越來越將其系統與軟體開發內製的趨勢。",
+    "2025年及2024年，我們的汽車客戶分別使用我們的技術出貨約0.3百萬與0.5百萬產品。累計自2014年起，我們的汽車客戶已使用我們的技術出貨約8.8百萬產品。",
+    "多功能印表機通常具備觸控顯示螢幕，以供使用者操作功能豐富的選單與設定。我們與三家全球領先的印表機與辦公設備OEM簽有營運授權協議。2025年及2024年，我們的客戶分別使用我們的觸控技術出貨約1.7百萬與2.4百萬印表機，自2014年中以來，他們已使用我們的觸控技術出貨約58.9百萬印表機。",
+    "繼Nexty Electronics宣佈選用Neonode的TSM技術用於日本娛樂市場領先製造商的下一代-slot機器的感測器開發與製造後，我們看到進一步將我們的技術提供給日本娛樂市場及其他需要在大型顯示螢幕與表面提供高品質、成本效益的觸控功能的市場的潛力。",
+    "利用我們的TSM技術來促進與全息影像的互動，使我們能在資訊娛樂領域創造沉浸式體驗，並帶來驚豔效果，例如博物館、接待區、AI虛擬人物等。我們也看到在手術規劃與教育領域的潛力增加，使虛擬探索與互動學習成為可能。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務相關的風險",
+    "我們過去有虧損的歷史，可能需要額外資金來支應我們的營運，而此資金可能無法以商業上具有吸引力的條件或完全取得。",
+    "我們依賴極少數的客戶。",
+    "我們依賴客戶能設計、製造及銷售其產品，這些產品整合了我們的觸控技術。",
+    "我們的授權客戶依賴零組件供應商製造及銷售包含我們技術的產品，零組件供應有限可能對我們及我們的客戶業務產生負面影響。",
+    "我們難以確認根據授權協議應支付給我們的版稅金額，這可能會導致我們遺失潛在收入。",
+    "如果我們未能成功地開發並推出新技術，且以成本效益及時的方式進行，我們將無法有效競爭，且我們產生收入的能力將受到影響。",
+    "我們的營運結果可能因多種因素而大幅波動，其中許多因素為我們所無法控制。",
+    "本公司可能進行收購及戰略投資，此等行為可能對現有股東造成稀釋，導致未預期的會計費用，或以其他方式不利於本公司營運成果。",
+    "本公司依賴關鍵人員之服務。",
+    "本公司可能無法成功執行專利 monetization 之戰略努力。",
+    "若第三方侵權本公司智慧財產權，本公司可能需投入大量資源以維護權利，或遭受競爭傷害。",
+    "本公司在多個國家擁有國際業務，必須管理貨幣風險。",
+    "本公司在美國、日本及瑞典等地之銀行存放大量現金，具有集中風險。",
+    "維護本公司機密及專有資訊之第三方可能遭遇網路安全事件。",
+    "雖然本公司已識別內部控制之重大弱點，若本公司無法發現更多內部控制之重大弱點，將可能不利於財務報導及業務。",
+    "與持有本公司股票相關的風險",
+    "本公司或本公司 insiders 未來出售普通股，可能不利於本公司普通股的交易價格，並稀釋您的投資。",
+    "本公司股票價格波動性高，您的普通股投資可能面臨價值下跌的風險。",
+    "少數股東，包括董事，持有本公司流通普通股的大量股份。",
+    "本公司章程及章程細則，以及特拉華州一般公司法，包含可能延遲或阻止控制權變更的條款。",
+    "若證券分析師未發表研究報告，或證券分析師或其他第三方發表不正確或不利的關於本公司的研究報告，本公司普通股的價格可能下跌。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及高度風險。在決定買進、持有或賣出本公司普通股前，應謹慎考慮下列所描述的風險，以及本年度報告及本公司其他向美國證券交易委員會（SEC）提交的文件中所提及的警示聲明與風險，包括後續提交的10-Q表與8-K表。下列所描述的風險與不確定性並非本公司所面臨的唯一風險。尚有其他風險與不確定性，目前尚未為本公司所知或本公司認為不重要，也可能影響本公司業務運作。若任何已知或未知的風險與不確定性實際發生，將可能嚴重影響本公司業務、財務狀況、營運結果或現金流。這可能會導致本公司普通股交易價格下跌，造成您投資的全部或部分損失。",
+    "自本公司成立以來，每個會計期間我們都經歷了顯著的淨虧損，除了2025會計年度，當時我們因專利讓與而錄得收益。這些淨虧損是因缺乏足夠收入，以及在開發與商業化我們技術時產生的重大成本所致。本公司持續營運的能力，取決於我們能否實現業務計畫。若本公司業務無法轉為現金流入，我們可能被迫尋求資金來源以維持營運。無法保證我們能成功以合理條件或任何條件取得額外融資。若在需要時無法以可接受的條件或任何條件取得足夠資金，我們可能無法充分支應業務計畫，這可能會對本公司業務、營運結果與財務狀況產生負面影響。",
+    "我們可能在短期與長期內透過發行股票或其它融資來源來籌集資金。若我們透過發行股票來取得額外資金，股東可能會經歷顯著的稀釋。若能取得債務融資，可能包含財務與其它契約條款，這些條款可能限制我們對融資所得資金的使用，或對我們施加其它業務與財務限制。此外，我們可能考慮其他方法，如授權、合作或合作關係，以提供長期資金。",
+    "我們在2025年12月31日財務年度的授權收入來自八家OEM、ODM與Tier 1客戶。我們在2025年12月31日財務年度的NRE收入來自兩家客戶。在2025年12月31日財務年度，四家客戶代表約95.4%的合併淨收入。我們的客戶集中度可能根據客戶的產品週期與產業變動而大幅改變。若失去主要客戶、主要客戶淨收入減少，或主要客戶未能履行其財務或其他義務，可能對本公司業務、財務狀況與未來收入流產生重大不利影響。我們在2023年12月啟動的新業務策略，專注於技術與軟體授權，可能導致客戶組成的變動，以及我們活躍合作客戶數量的整體減少。",
+    "我們歷來透過與設計、製造與銷售其產品並 incorporates 我們觸控技術的公司簽訂技術授權協議來產生收入。2025與2024年我們所賺取的授權費用主要來自客戶發貨的印表機產品與汽車資訊娛樂系統。我們持續依賴來自現有與新客戶的授權收入，這些客戶的產品仍處於開發週期。若我們的客戶無法設計、製造與銷售其產品，或延遲生產與銷售其產品，將可能對我們的收入、獲利能力與流動性，以及我們的品牌形象產生不利影響。",
+    "客戶產品開發與發佈週期的長度取決於許多我們無法控制的因素，任何延誤都可能導致我們產生重大費用而沒有相應收入，或收入在季度之間大幅波動。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

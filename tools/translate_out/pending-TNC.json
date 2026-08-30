@@ -1,0 +1,197 @@
+{
+ "ticker": "TNC",
+ "cik": "0000097134",
+ "accession": "0000097134-26-000008",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "General Development of Business",
+    "Principal Products, Markets and Distribution",
+    "Raw Materials and Component Parts",
+    "Intellectual Property",
+    "Research and Development",
+    "Major Customers",
+    "Human Capital",
+    "Female Male Total",
+    "Available Information",
+    "Information About Our Executive Officers"
+   ],
+   "paragraphs": [
+    "Founded in 1870 by George H. Tennant, Tennant Company (\"the Company, we, us, or our\"), headquartered in Eden Prairie, Minnesota, is a world leader in designing, manufacturing and marketing of solutions that help create a cleaner, safer and healthier world. Tennant was incorporated as a Minnesota corporation in 1909 and began as a one-man woodworking business, eventually evolving into a successful wood flooring and wood products company, and finally into a manufacturer of floor cleaning equipment. Throughout its history, the Company has remained focused on advancing its industry by aggressively pursuing new technologies and creating a culture that celebrates innovation.",
+    "Today, the Company has 11 global manufacturing locations and operates in three geographic areas including the Americas, Europe, Middle East and Africa (\"EMEA\") and Asia Pacific (\"APAC\"). We aggregate our operating segments into one reportable segment that consists of the design, manufacture, sale and servicing of products used primarily in the maintenance of nonresidential surfaces.",
+    "Our commitment to innovation and excellence extends across every aspect of our business—from product development and customer service to manufacturing and marketing. We prioritize delivering high-performance solutions that minimize waste, lower costs, enhance safety, and advance sustainability objectives. By dedicating resources to research, development and engineering, we continuously refine existing products and introduce new ones that align with evolving market demands.",
+    "Over the past century, we have expanded our brand portfolio, diversified our product offerings, and advanced our technologies through innovation and strategic acquisitions. This disciplined approach to growth ensures that each acquisition complements our existing capabilities and adds value by enhancing our product range or improving technological expertise.",
+    "The Company offers products and solutions consisting of manual and autonomous mechanized cleaning equipment for both industrial and commercial use, detergent-free and other sustainable cleaning technologies, aftermarket parts and consumables, equipment maintenance and repair services, and business solutions such as financing, rental and leasing programs, and machine-to-machine asset management solutions. The Company is committed to developing cleaning technologies which increase cleaning productivity. We have strong brand presence in the global markets we serve, offering both premium and mid-tier products for each region to meet customer needs.",
+    "The Company's products are used in many types of environments including: retail establishments, distribution centers, factories and warehouses, public venues such as arenas and stadiums, office buildings, schools and universities, hospitals and clinics, and more. The Company markets its offerings under the following brands: Tennant®, Nobles®, Alfa Uma Empresa Tennant™, IPC, Gaomei and Rongen brands as well as private-label brands. The Company has a portfolio of differentiated technology solutions that includes an expanding portfolio of robotic cleaning equipment, IRIS® as an asset management solution, ec-H2O NanoClean® as a detergent-free cleaning solution, and ReadySpace® as a rapid-drying carpet cleaning technology. The Company's more than 40,000 customers include contract cleaners to whom organizations outsource facilities maintenance, as well as businesses that perform facilities maintenance themselves. The Company reaches these customers through the industry's largest direct sales and service organization and through a strong and well-supported network of authorized distributors worldwide.",
+    "The Company has an extensive global field service network. We sell products directly in 21 countries and through distributors in more than 100 countries.",
+    "Steel, metal alloys and resin are the primary raw materials used to manufacture our mechanized cleaning equipment. We purchase various component parts, electronics and services used in production and product development processes from third parties.",
+    "Operations and input costs are influenced by global macroeconomic conditions, including trade policies, tariffs on certain imported materials, interest rate levels, and regional supply-demand dynamics. While supply chain conditions have generally stabilized compared to prior periods, input costs remain subject to variability driven by tariff regimes, competitive market conditions, and regulatory requirements in certain jurisdictions.",
+    "The Company seeks to mitigate these risks through regional manufacturing and sourcing strategies, diversified supplier relationships, longer-term supply arrangements, and ongoing engineering and platform design initiatives intended to increase sourcing flexibility and supply chain resilience.",
+    "The Company owns a broad range of intellectual property rights in both the United States and a number of foreign countries. Our patents, proprietary technologies and trade secrets, customer relationships, licenses, trademarks, trade names and brand names in the aggregate constitute a valuable asset, but we do not regard our business as being materially dependent upon any single item or category of intellectual property. We take appropriate measures to protect our intellectual property to the extent such intellectual property can be protected.",
+    "Research and development expenses include scientific research costs such as salaries, prototypes, shop supplies, testing, technical information technology and administrative expenditures as well as an allocation of corporate costs. We conduct research and development activities to develop new products and to enhance the functionality, effectiveness, ease of use and reliability of our existing products. We believe that our research and development efforts have been, and continue to be, key drivers of our success in the marketplace, and we continue to explore new technologies and methodologies that help improve the efficiency and sustainability of our products.",
+    "Although the Company's business is not seasonal in the traditional sense, the percentage of revenues in each quarter typically ranges from 22% to 28% of the total year. The first quarter tends to be at the low end of the range reflecting customers' initial slow ramp up of capital purchases and the Company's efforts to close out orders at the end of each year. The second and fourth quarters tend to be toward the high end of the range and the third quarter is typically in the middle of the range.",
+    "The Company sells a wide range of products to a diversified base of customers around the world and has no material concentration of credit risk or significant payment terms extended to customers."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Macroeconomic Risks",
+    "Changes in trade policy in the U.S. and other countries may adversely affect our business and results of operations.",
+    "Adverse global economic conditions and geopolitical issues could have a negative effect on our business, and results of operations and financial condition.",
+    "Our global operations are subject to laws and regulations that impose significant compliance costs and create reputational and legal risk.",
+    "Changes in foreign currency exchange rates could adversely impact our net sales and earnings.",
+    "Industry Risks",
+    "We may be unable to take advantage of product pricing due to the competitive marketplace and increased price sensitivity.",
+    "Increasing cost pressures could negatively impact our ability to achieve our strategic objectives and affect our financial results.",
+    "We are subject to product liability claims and product quality issues that could adversely affect our operating results or financial condition.",
+    "Operational Risks",
+    "Complications with the design or implementation of our new Enterprise Resource Planning (\"ERP\") system that could adversely impact our business and operations.",
+    "We may be unable to conduct business if we experience a significant business interruption in our IT systems, manufacturing plants or distribution facilities for a significant period of time.",
+    "Our ability to manage the health and safety of our global workforce may lead to increased business disruption and financial penalties.",
+    "Inadequate funding or insufficient innovation of new technologies may result in an inability to develop and commercialize new innovative products and services.",
+    "We may encounter risks related to our business transformation and strategic initiatives."
+   ],
+   "paragraphs": [
+    "The following are risk factors known to us that could materially adversely affect our business, financial condition or operating results.",
+    "We may encounter financial difficulties if the United States or other global economies experience an additional or continued long-term economic downturn, decreasing the demand for our products and negatively affecting our sales growth.",
+    "Our product sales are sensitive to declines in capital spending by our customers. Decreased demand for our products could result in decreased revenues, profitability and cash flows and may impair our ability to maintain our operations and fund our obligations to others. In the event of a continued long-term economic downturn in the U.S. or other global economies, our revenues could decline to the point that we may have to take cost-saving measures. In addition, other fixed costs would have to be reduced to a level that is in line with a lower level of sales. A long-term economic downturn that puts downward pressure on sales could also negatively affect investor perception relative to our publicly stated profit targets.",
+    "Our business is exposed to a dynamic and uncertain global trade environment. Changes in U.S. or foreign trade policies, including the imposition of new, increased, or retaliatory tariffs, as well as potential amendments to trade agreements, may increase the cost of imported raw materials and components, disrupt established supply chains, and force us to seek alternative sourcing or manufacturing arrangements, which could be costly or time-consuming. Such measures could also reduce the attractiveness of certain markets, make our products less competitive, compress profit margins, and reduce demand, which in turn could adversely affect our financial condition, results of operations, and cash flows. The future relationship between the United States and other countries remains uncertain, and recent trade actions, including tariffs on multiple countries and retaliatory measures, highlight the unpredictable nature and potential volatility of the trade landscape. These developments may also contribute to broader financial market volatility, affect the availability and cost of capital, and create uncertainty in planning long-term investments or strategies. The ultimate impact of trade policy changes is difficult to predict and could materially and adversely affect our business, results of operations, financial condition, and prospects.",
+    "On February 20, 2026, the United States Supreme Court issued a decision concluding that the International Emergency Economic Powers Act does not provide authority for the President to impose tariffs. During 2025, certain tariffs that affected us were imposed under this statute pursuant to presidential executive order. The ultimate financial impact of this decision cannot be reasonably estimated at this time. The extent and timing of any potential recoveries of tariffs previously paid remain subject to further legal interpretation and administrative processes. We will continue to monitor developments and will evaluate the effect of the ruling on future reporting periods as additional information becomes available.",
+    "Our business depends on a global supply chain for components, manufacturing, and distribution. Adverse global economic conditions and geopolitical developments, including armed conflicts, rising trade protectionism, economic sanctions, and political instability, may affect our operations. Such events include, but are not limited to, the war in Ukraine, the conflict in the Middle East, and tensions among major trading nations. These developments could disrupt or delay the sourcing, manufacture, or shipment of components and finished products. Such disruptions could impair our ability to deliver equipment to customers in a timely manner or at all, reduce product availability, and increase supply‑chain complexity. These factors could reduce our revenues, compress margins and cash flows, and impair our ability to meet customer demand. Because the timing, scope, and duration of geopolitical or macroeconomic events are inherently unpredictable, they could materially and adversely affect our business, financial condition, results of operations, and prospects."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Macroeconomic Events",
+    "Enterprise Resource Planning (ERP) System Implementation",
+    "Historical Results",
+    "Twelve Months Ended December 31,",
+    "2025 vs. 2024",
+    "Gross Profit",
+    "Operating Expenses",
+    "Total Other Expense, Net",
+    "Income Taxes",
+    "Liquidity and Capital Resources",
+    "Cash Requirements",
+    "Newly Issued Accounting Guidance",
+    "Critical Accounting Policies and Estimates",
+    "Cautionary Factors Relevant to Forward-Looking Information"
+   ],
+   "paragraphs": [
+    "The following Management's Discussion and Analysis of Financial Condition and Results of Operations (\"MD&A\") provides a comparison of the Company's results of operations, as well as liquidity and capital resources for the years ended December 31, 2025 and 2024. The MD&A should be read in conjunction with the Company's consolidated financial statements and notes included in Item 8 of this Annual Report. Throughout this MD&A, the Company refers to measures used by management to evaluate performance, including financial measures that are not defined under generally accepted accounting principles (\"GAAP\") in the U.S. Net sales excluding foreign currency translation (i.e., organic sales) is not a measure of financial performance under GAAP; however, the Company believes it is useful in understanding its financial results and provides comparable measures for understanding the operating results of the Company between different periods.",
+    "The year-over-year comparisons in this MD&A are as of and for the years ended December 31, 2025 and December 31, 2024, unless stated otherwise. The discussion of 2023 results and related year-over-year comparisons as of and for the years ended December 31, 2024 and December 31, 2023 are found in Part II, Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" of our Form 10-K for the year ended December 31, 2024.",
+    "Tennant Company is a world leader in designing, manufacturing and marketing solutions that help create a cleaner, safer, healthier world. The Company is committed to creating and commercializing breakthrough, sustainable cleaning innovations to enhance its broad suite of products, including floor maintenance and cleaning equipment, detergent-free and other sustainable cleaning technologies, aftermarket parts and consumables, equipment maintenance and repair service, and asset management solutions. Our products are used in many types of environments, including factories and warehouses, distribution centers, office buildings, public venues such as arenas and stadiums, schools and universities, hospitals and clinics, and more. Customers include contract cleaners to whom organizations outsource facilities maintenance as well as businesses that perform facilities maintenance themselves. The Company reaches these customers through the industry's largest direct sales and service organization and through a strong and well-supported network of authorized distributors worldwide.",
+    "As a global company, we continue to be exposed to risks and uncertainties stemming from macroeconomic and geopolitical conditions. These factors include inflationary pressures, interest rate volatility, foreign currency exchange rate volatility, changes in capital markets conditions, and shifts in international trade policy. Collectively, these conditions create a dynamic operating environment that may affect the Company's ability to drive growth, restore margins, and advance its transformation initiatives",
+    "While overall inflationary pressures have generally moderated, the Company continues to experience a more concentrated and direct impact on the cost components of its products, which remain significant to its cost structure. Changes in trade policy, particularly tariffs, pose a significant risk to our operations. Tariff increases, changes to trade agreements, or potential retaliatory actions could raise supplier costs, weaken demand, and disrupt the Company's operations. The Company has implemented, and expects to continue implementing, pricing actions, cost management initiatives, and supply chain measures to mitigate these pressures; however, such efforts may not fully offset the impact.",
+    "Global geopolitical instability continues to contribute to economic and operational uncertainty. Ongoing conflicts in Ukraine and the Middle East, rising tensions involving China and Taiwan, and the possibility of escalation in regions where the United States may be involved have increased the risk of wider economic disruption. These developments could result in supply chain volatility, logistics constraints, higher input costs, and changes in customer purchasing behavior. The timing, duration, and severity of these potential effects are uncertain and difficult to predict.",
+    "Demand trends across our major markets were mixed throughout the year. In China, after a period marked by uneven economic recovery and pricing pressure, organic growth returned late in the year. In EMEA and the broader APAC region, organic growth also improved in the latter part of the year, reversing earlier declines and",
+    "reflecting resilience in select markets and effective responses to customer needs despite ongoing macroeconomic and competitive pressures.",
+    "In the first week of November 2025, the Company went live with the ERP system in its largest region, North America. The transition introduced unexpected challenges that constrained operating capacity post go-live, including order‑management and fulfillment disruptions, manufacturing scheduling issues, and reduced inventory visibility, particularly within Parts & Consumables and Service. The system transition also resulted in the loss of three weeks of machine order entry and parts shipping capability, as well as contributing to slower transaction processing and prolonged customer delays.",
+    "In response, the Company deployed cross‑functional recovery teams, implemented manual and system‑based workarounds, increased on‑site support, and adjusted production scheduling. Although December showed improvement as our mitigation efforts took hold, we were unable to fully offset the impact of the November disruptions.",
+    "While primary system issues have been addressed, certain customer‑related impacts and incremental support needs continued into early 2026, and we expect some temporary inefficiencies to persist as teams acclimate to the new platform and as optimization efforts continue.",
+    "See the \"Risk Factors\" section in Part I, Item 1A of this Annual Report for further discussion of the possible impact of the above conflicts and macroeconomic events on our business and financial results.",
+    "The Company expects the macroeconomic and demand environment in 2026 to generally reflect the conditions experienced during 2025. Tariff‑related cost increases and inflationary input costs are expected to remain key elements of the cost structure. The Company has implemented targeted pricing and cost‑out initiatives intended to moderate these impacts, though the timing and magnitude of benefits may vary.",
+    "Following the North America ERP implementation in late 2025, certain operational inefficiencies and elevated support needs are expected to persist into the second quarter of 2026. As part of broader system‑stabilization efforts, the Company conducted a comprehensive physical inventory that required a two‑week shutdown of manufacturing operations in early January, which is expected to weigh on first‑quarter sales and costs. The Company also anticipates continued operating inefficiencies during the early stages of system stabilization, resulting in higher costs and margin pressure, most notably in the first quarter. As stabilization progresses and processes mature, the Company expects to transition toward a more normalized operating rhythm by mid‑year."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'General Development of Business': '一般營運發展情況'}",
+    "{'Principal Products, Markets and Distribution': '主要產品、市場與銷售通路'}",
+    "{'Raw Materials and Component Parts': '原材料與零組件'}",
+    "{'Intellectual Property': '智慧財產權'}",
+    "{'Research and Development': '研究與開發'}",
+    "{'Major Customers': '主要客戶'}",
+    "{'Human Capital': '人力資本'}",
+    "{'Female Male Total': '女性 男性 總計'}",
+    "{'original': 'Available Information', 'translated': '可供查閱之資訊'}",
+    "{'original': 'Information About Our Executive Officers', 'translated': '關於我們高階主管之資訊'}"
+   ],
+   "paragraphs": [
+    "於1870年由George H. Tennant創立，Tennant Company（\"本公司、我們、我們或我們的\"），總部設於美國明尼蘇達州Eden Prairie，為設計、製造與行銷解決方案的全球領導者，這些解決方案有助於創造更乾淨、更安全與更健康的環境。Tennant於1909年在明尼蘇達州設立為股份有限公司，最初為一家單人木工業務，隨後發展成為成功的木地板與木製產品公司，最後進化為地板清潔設備製造商。在公司歷史上，本公司始終專注於透過積極追求新技術，進步產業，並建立一個慶賀創新文化。",
+    "目前，本公司在全球擁有11個製造據點，並在三個地理區域營運，包括美洲、歐洲、中東與非洲（\"EMEA\"）以及亞太地區（\"APAC\"）。我們將營運分部歸納為一個應報告分部，主要包含設計、製造、銷售與維修用於維護非住宅表面的產品。",
+    "本公司對創新與卓越的承諾，貫穿我們業務的每個方面，從產品開發與客戶服務，到製造與行銷。我們優先提供高績效解決方案，以減少浪費、降低成本、提升安全性，並促進永續目標。透過投入資源於研究、開發與工程，我們持續改進現有產品，並推出符合市場需求變化的全新產品。",
+    "過去一個世紀，我們擴充了品牌組合，多元化產品組合，並透過創新與戰略收購，進步了技術。這種謹慎的成長方式確保每次收購都能補強我們現有能力，並透過擴充產品組合或提升技術專業知識來增加價值。",
+    "本公司提供產品與解決方案，包括手動與自動化機械清潔設備，用於工業與商業用途，無化學清潔劑及其他永續清潔技術，後市場零件與消耗品，設備維護與修理服務，以及商業解決方案，如融資、租賃與租借計畫，以及機器對機器資產管理解決方案。本公司致力於開發提高清潔生產力的清潔技術。我們在全球市場中擁有強大的品牌存在感，提供各區域的高階與中階產品，以符合客戶需求。",
+    "本公司產品用於許多類型的環境，包括零售場所、配送中心、工廠與倉庫、公共場所如體育場與體育館、辦公大樓、學校與大學、醫院與診所等。本公司透過以下品牌行銷其產品：Tennant®、Nobles®、Alfa Uma Empresa Tennant™、IPC、Gaomei 和 Rongen 品牌，以及私標品牌。本公司擁有差異化技術解決方案的組合，包括擴展的機械清潔設備組合、IRIS® 作為資產管理解決方案、ec-H2O NanoClean® 作為無化學清潔劑解決方案，以及 ReadySpace® 作為快速乾燥地毯清潔技術。本公司超過40,000名客戶包括委外維護設施的清潔承包商，以及自行執行設施維護的企業。本公司透過產業最大的直接銷售與服務組織，以及強大且受支持的全球授權經銷商網路來接觸這些客戶。",
+    "本公司擁有廣泛的全球現場服務網路。我們在21個國家直接銷售產品，並透過經銷商在超過100個國家銷售產品。",
+    "鋼鐵、金屬合金與樹脂為製造我們機械清潔設備的主要原材料。我們從第三方購買用於生產與產品開發過程中的各種零組件、電子零件與服務。",
+    "營運及投入成本受全球總體經濟條件影響，包括貿易政策、特定進口材料的關稅、利率水準以及區域供需動態。雖然與前一時期相比，供應鏈條件已大致穩定，但投入成本仍會因關稅制度、競爭市場條件以及某些司法管轄區的法規要求而產生變動。",
+    "本公司透過區域製造與採購策略、多元化的供應商關係、長期供應協議以及持續的工程與平台設計計畫，來降低這些風險，這些計畫旨在提高採購靈活性與供應鏈韌性。",
+    "本公司在美國及多個外國國家擁有廣泛的智慧財產權。我們的專利、專有技術與商業機密、客戶關係、許可證、商標、商號及品牌名稱，整體而言是重要的資產，但我們並不認為本公司業務在任何單一項或類別的智慧財產權上具有重大依賴性。我們會針對可受保護的智慧財產權，採取適當的保護措施。",
+    "研究與開發費用包括科學研究成本，例如薪資、原型、辦公用品、測試、技術資訊科技及行政支出，以及企業總部成本的分攤。我們進行研究與開發活動，以開發新產品並提升現有產品的功能、效果、易用性與可靠性。我們認為，本公司研究與開發的投入，過去一直是並持續為本公司在市場上的成功關鍵因素，我們持續探索新技術與方法，以提高產品的效率與永續性。",
+    "雖然本公司的業務在傳統意義上並非季節性，但每個季度的營收佔比通常介於全年總營收的 22% 至 28% 之間。第一季通常處於這個範圍的低端，反映客戶在初期對資本購買新設備的緩慢啟動，以及本公司在每個財年結束時努力結清訂單的作法。第二季與第四季則通常處於這個範圍的高端，而第三季則通常處於這個範圍的中間。",
+    "本公司向全球多樣化的客戶銷售廣泛的產品，且對客戶的信用風險或付款條件並無重大集中。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "總體經濟事件",
+    "企業資源規劃 (ERP) 系統實施工程",
+    "歷史財務結果",
+    "最近十二個月截至12月31日",
+    "2025年與2024年比較",
+    "毛利",
+    "營運費用",
+    "總其他費用，淨額",
+    "{'original': 'Income Taxes', 'translated': '所得稅'}",
+    "{'original': 'Liquidity and Capital Resources', 'translated': '流動性及資本資源'}",
+    "{'original': 'Cash Requirements', 'translated': '現金需求'}",
+    "{'original': 'Newly Issued Accounting Guidance', 'translated': '新發佈會計指引'}",
+    "{'original': 'Critical Accounting Policies and Estimates', 'translated': '關鍵會計政策與會計估計'}",
+    "{'original': 'Cautionary Factors Relevant to Forward-Looking Information', 'translated': '與前瞻性資訊相關的警示因素'}"
+   ],
+   "paragraphs": [
+    "以下為管理層對財務狀況與營運結果之分析（\"MD&A\"），提供本公司於2025年12月31日及2024年12月31日財務年度之營運結果、流動性及資本資源之比較。MD&A應與本公司合併財務報表及附註，包含於本年度報告第8項中一併閱讀。於本MD&A中，本公司提及管理層用以評估績效之指標，包括未依照美國一般會計準則（\"GAAP\"）定義之財務指標。淨銷售額扣除外幣換算（即為內在銷售額）並非依照GAAP定義之財務績效指標；然而，本公司認為此指標有助於理解其財務結果，並提供可比較之指標，以瞭解本公司於不同期間之營運結果。",
+    "本MD&A中之年對年比較係截至及針對2025年12月31日及2024年12月31日財務年度，除非另有說明。2023年度之結果及相關年對年比較，請參閱本公司2024年12月31日財務年度10-K表格之第二部分，第7項『管理層對財務狀況與營運結果之分析』。",
+    " Tennant Company為設計、製造及行銷解決方案的世界領導者，這些解決方案有助於創造更乾淨、更安全、更健康的環境。本公司致力於開發及商業化突破性的永續清潔創新，以提升其廣泛產品組合，包括地板維護與清潔設備、無化學清潔劑及其他永續清潔科技、後市場零件與消耗品、設備維護與修理服務，以及資產管理解決方案。本公司產品應用於許多類型之環境，包括工廠與倉庫、配送中心、辦公大樓、公共場所如體育場與體育館、學校與大學、醫院與診所等。客戶包括將設施維護委外給第三方之契約清潔公司，以及自行執行設施維護之企業。本公司透過產業最大之直接銷售與服務組織，以及全球強而有力且獲得支持之經銷商網路來接觸這些客戶。",
+    "作為一家全球性公司，本公司持續面臨來自總體經濟與地緣政治條件之風險與不確定性。這些因素包括通貨膨脹壓力、利率波動、外幣交換率波動、資本市場條件變動，以及國際貿易政策之改變。這些條件 collectively 創造出動態之營運環境，可能影響本公司推動成長、恢復毛利率，以及推進其轉型計畫之能力。",
+    "雖然總體通貨膨脹壓力已普遍趨緩，但本公司持續面臨產品成本組成之更集中且直接影響，這些成本對本公司成本結構而言仍屬重大。貿易政策之變動，特別是關稅，對本公司營運構成重大風險。關稅增加、貿易協議之變動，或潛在之報復性行動，可能提高供應商成本、削弱需求，並幹擾本公司營運。本公司已實施，並預期持續實施，價格調整措施、成本管理計畫及供應鏈措施，以緩解這些壓力；然而，這些努力可能無法完全抵消其影響。",
+    "全球地緣政治不穩定持續導致經濟與營運之不確定性。烏克蘭與中東地區持續衝突、中華人民共和國與臺灣之間緊張關係升高，以及美國可能參與地區發生衝突之可能性增加，使更廣泛之經濟動盪風險提高。這些發展可能導致供應鏈波動、物流限制、輸入成本提高，以及客戶購買新行為之改變。這些潛在影響之時間、持續時間與嚴重程度均不確定且難以預測。",
+    "本公司主要市場之需求趨勢於本年度表現不一。在中國，經過一段經濟復甦不均與價格壓力為主之時期後，內在成長於本年度末恢復。在EMEA及更廣泛之APAC地區，內在成長亦於本年度末改善，反轉先前之減幅，",
+    "反映部分市場之韌性，以及面對持續總體經濟與競爭壓力時，對客戶需求之有效回應。",
+    "2025年11月第一週，本公司在最大區域北美地區啟用ERP系統。此過渡過程引發了未預期的挑戰，限制了過渡後的營運能力，包括訂單管理與履行的中斷、製造排程問題，以及存貨可見度降低，特別是在零組件與服務部門。系統過渡也導致機器訂單輸入與零組件發貨能力喪失三週，並造成交易處理速度變慢與客戶延遲時間延長。",
+    "為應對此情況，本公司部署了跨功能的復原團隊，實施手動與系統基準的應對措施，增加現場支援，並調整生產排程。儘管12月顯示出改善，因我們的緩衝措施已生效，但我們仍無法完全抵銷11月中斷的影響。",
+    "雖然主要系統問題已解決，但某些與客戶相關的影響與額外支援需求持續至2026年初，我們預期某些暫時性低效率會持續，直到團隊適應新平台，且優化措施持續進行為止。",
+    "請參閱本年度報告第一部分第1A項「風險因素」節，以進一步討論上述衝突與總體經濟事件對本公司業務與財務結果可能的影響。",
+    "本公司預期2026年的總體經濟與需求環境將大致反映2025年的狀況。與關稅相關的成本增加與通貨膨脹的投入成本，預期會持續為成本結構的主要因素。本公司已實施針對性的定價與成本控制措施，旨在緩和這些影響，不過效益的時間與幅度可能有所不同。",
+    "在2025年底北美地區ERP系統實施後，某些營運低效率與提高的支援需求預期會持續至2026年第二季。作為廣泛系統穩定化努力的一部分，本公司進行了一次全面的實體存貨清查，這需要在2026年1月初關閉製造作業兩週，預期會對第一季的銷售與成本產生負面影響。本公司也預期在系統穩定化初期階段會持續出現營運低效率，導致成本增加與毛利率壓力，特別是在第一季。隨著穩定化進展與流程成熟，本公司預期會在年中轉向更正常的營運節奏。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "總體經濟風險",
+    "美國及其他國家貿易政策的變動可能對我們的業務及營運成果產生不利影響。",
+    "不利的全球經濟情勢及地緣政治問題可能對我們的業務、營運成果及財務狀況產生負面影響。",
+    "我們的全球營運業務受制於法律及法規，這些法律及法規會產生顯著的合規成本，並造成聲譽及法律風險。",
+    "外幣交換率的變動可能對我們的淨銷售額及獲利產生不利影響。",
+    "產業風險",
+    "我們可能因競爭市場及價格敏感度提高而無法有效利用產品價格策略。",
+    "成本壓力的增加可能對我們達成戰略目標的能力產生負面影響，並影響我們的財務結果。",
+    "本公司可能面臨產品責任爭議及產品品質問題，這些問題可能對本公司營運成果或財務狀況造成不利影響。",
+    "營運風險",
+    "本公司新企業資源規劃（\"ERP\"）系統的設計或實施可能遇到困難，這些困難可能對本公司業務及營運造成不利影響。",
+    "若本公司資訊科技系統、製造廠或配送設施遭遇重大業務中斷，且持續一段相當長的時間，本公司可能無法正常進行業務活動。",
+    "本公司管理全球員工健康與安全的能力，可能導致業務中斷增加及財務處罰。",
+    "資金不足或新技術創新不夠，可能導致本公司無法開發及商業化創新產品與服務。",
+    "本公司可能面臨與業務轉型及戰略計畫相關的風險。"
+   ],
+   "paragraphs": [
+    "下列為本公司所知，可能重大且不利影響本公司業務、財務狀況或營運成果之風險因素。",
+    "若美國或其他全球經濟體經歷額外或持續的長期經濟衰退，將降低對本公司產品之需求，並對本公司銷售成長產生負面影響，本公司可能遭遇財務困難。",
+    "本公司產品銷售對客戶資本支出之變動相當敏感。客戶對本公司產品之需求減少，可能導致收入、獲利與現金流減少，並影響本公司維持營運及履行對他人義務之能力。若美國或其他全球經濟體持續經歷長期經濟衰退，本公司收入可能下降至必須採取節省成本措施之程度。此外，其他固定成本亦必須降低至與較低銷售水準相符之程度。長期經濟衰退對銷售之向下壓力，也可能對投資人對本公司公開宣示獲利目標之看法產生負面影響。",
+    "本公司業務面臨動態且不確定之全球貿易環境。美國或外國貿易政策之變更，包括新、增加或報復性關稅之課徵，以及潛在貿易協議之修正，可能提高進口原材料與零組件之成本，幹擾既有的供應鏈，並迫使本公司尋求替代來源或製造安排，此過程可能昂貴且耗時。這些措施也可能降低某些市場之吸引力，使本公司產品較不具競爭力，壓縮利潤邊際，並減少需求，進而對本公司財務狀況、營運成果與現金流產生負面影響。美國與其他國家之間的未來關係仍不確定，近期貿易行動，包括對多個國家課徵關稅與報復措施，凸顯貿易環境之不可預測性與潛在波動性。這些發展也可能導致更廣泛之金融市場波動，影響資金之可取得性與成本，並造成長期投資或策略規劃之不確定性。貿易政策變更之最終影響難以預測，可能重大且不利影響本公司業務、營運成果、財務狀況與前景。",
+    "2026 年 2 月 20 日，美國最高法院作出判決，認為國際緊急經濟權力法並未賦予總統課徵關稅之權限。2025 年間，某些影響本公司之關稅係根據總統行政命令，依此法規課徵。目前尚無法合理預估此判決之最終財務影響。已支付關稅之潛在回復範圍與時間，仍須進一步法律解釋與行政程序。本公司將持續監測發展，並在取得更多資訊後評估此判決對未來會計期間之影響。",
+    "本公司業務依賴全球供應鏈以取得零組件、製造與配送。不利之全球經濟條件與地緣政治發展，包括軍事衝突、貿易保護主義升高、經濟制裁與政治不穩定，可能影響本公司營運。此類事件包括但不限於烏克蘭戰爭、中東衝突與主要貿易國之間之緊張關係。這些發展可能幹擾或延宕零組件與成品之來源、製造或運送。此類中斷可能影響本公司能否及時或完全交付設備給客戶，減少產品供應，並增加供應鏈複雜度。這些因素可能減少本公司收入、壓縮邊際與現金流，並影響本公司滿足客戶需求之能力。由於地緣政治或總體經濟事件之時間、範圍與持續時間本質上難以預測，可能重大且不利影響本公司業務、財務狀況、營運成果與前景。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

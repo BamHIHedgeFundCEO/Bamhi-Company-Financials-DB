@@ -1,0 +1,173 @@
+{
+ "ticker": "DAN",
+ "cik": "0000026780",
+ "accession": "0001437749-26-006076",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Recent Strategic Actions",
+    "Overview of our Business",
+    "Geographic Operations",
+    "Customer Dependence",
+    "Sources and Availability of Raw Materials",
+    "Intellectual Property",
+    "Engineering and Research and Development",
+    "Human Capital",
+    "Environmental Compliance",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Dana Incorporated (Dana), with history dating back to 1904, is headquartered in Maumee, Ohio. We are a world leader in providing power-conveyance and energy-management solutions for on-highway vehicles. The company's portfolio improves the efficiency, performance, and sustainability of light and commercial vehicles. From axles, driveshafts, transmissions, sealing and thermal products to electrification products including motors, inverters, controllers, e-sealing, e-thermal and digital solutions, we enable the propulsion of internal combustion engine (ICE), hybrid and electric powered vehicles by supplying nearly every major on-highway vehicle manufacturer in the world. As of December 31, 2025 excluding the Off-Highway business which is presented as a discontinued operation, we employed approximately 26,900 people and operated in 24 countries.",
+    "The terms \"Dana,\" \"we,\" \"our\" and \"us\" are references to Dana. These references include the subsidiaries of Dana unless otherwise indicated or the context requires otherwise.",
+    "Cost reduction initiatives — During the fourth quarter of 2024, we announced further actions to support sustained long-term profitability and enhanced cash flow generation. This includes substantial reduction in selling, general and administrative costs and aligning engineering expenses to match current industry dynamics,",
+    "including the ongoing delay in the adoption of electric vehicles. We expect to deliver annualized savings of $325 through 2026. Approximately $260 of annualized savings was realized through 2025 with an additional $65 to be realized in 2026. See Summary of Consolidated Results and Segment Results of Operations in Item 7 and Note 4 of our consolidated financial statements in Item 8 for additional information.",
+    "Segment realignment — Through December 2024, we managed our operations globally through four operating segments. Our Light Vehicle and Power Technologies segments primarily supported light vehicle original equipment manufacturers (OEMs) with products for light trucks, SUVs, CUVs, vans and passenger cars. Our Commercial Vehicle segment supported the OEMs of on-highway commercial vehicles (primarily trucks and buses), while our Off-Highway segment supported OEMs of off-highway vehicles (primarily wheeled vehicles used in construction, mining and agricultural applications). In the first quarter of 2025, our Power Technologies segment was integrated into our Light Vehicle and Commercial Vehicle segments, streamlining the business, enhancing our go-to-market approach and serving our customers more efficiently. The OEM-facing business was integrated into our Light Vehicle segment while the aftermarket business was integrated into our Commercial Vehicle segment. See Note 20 of our consolidated financial statements in Item 8 for additional information.",
+    "Divestiture of Off-Highway Business — Dana has embarked on a strategic plan to focus on our core on-highway markets, creating a more focused and nimble Dana through the divestiture of our Off-Highway business. In June 2025, we entered into a definitive agreement to sell our Off-Highway business to Allison Transmission Holdings, Inc. We analyzed the quantitative and qualitative factors relevant to the pending divestiture of our Off-Highway business and determined that the conditions for discontinued operations presentation have been met. As such, the financial position, results of operations and cash flows of that business are reported as discontinued operations in the accompanying consolidated financial statements. Prior period amounts have been recast to reflect discontinued operations presentation. See Note 1 and Note 2 of our consolidated financial statements in Item 8 for additional information. The transaction closed on January 1, 2026, with Dana receiving initial cash proceeds of $2,664. The sale price is subject to adjustment based on net working capital and net indebtedness balances as of the closing date.",
+    "Capital Structure Initiatives — Net cash proceeds from the Off-Highway business divestiture will be used to pay down debt, strengthening Dana's financial position, and provide capital returns to shareholders. On January 7, 2026, we purchased, via a net proceeds tender offer, $138 of our November 2027 Notes, $142 of our June 2028 Notes, €141 of our July 2029 Notes ($164 as of January 7, 2026), $173 of our September 2030 Notes, €9 of our 2031 Notes ($10 as of January 7, 2026) and $152 of our February 2032 Notes at prices equal to 100.00% plus accrued and unpaid interest. On January 8, 2026, we redeemed the remaining $262 of our November 2027 Notes and the remaining $258 of our June 2028 Notes at prices equal to 100.00% plus accrued and unpaid interest. In addition, on January 2, 2026, we repaid the $225 outstanding balance on the Term A Facility. See Note 13 of our consolidated financial statements in Item 8 for additional information. On June 8, 2025, Dana's board of directors approved a program to provide up to a $1,000 return of capital to shareholders through common stock share repurchases and/or special dividends through the end of 2027. On February 11, 2026, Dana's board of directors increased and extended the share repurchase program to a total of $2,000 through the end of 2030. Through January 31, 2026, we have spent $750 to repurchase 37,943,413 shares under the approved stock repurchase program. See Note 8 of our consolidated financial statements in Item 8 for additional information.",
+    "We have aligned our organization around two operating segments: Light Vehicle Drive Systems (Light Vehicle) and Commercial Vehicle Drive and Motion Systems (Commercial Vehicle). These operating segments have global responsibility and accountability for business commercial activities and financial performance.",
+    "External sales by operating segment for the years ended December 31, 2025, 2024 and 2023 were as follows:",
+    "2025 2024 2023 Dollars % of Total Dollars % of Total Dollars % of Total Light Vehicle 5,217",
+    "70.0 5,250 67.9 4,989 65.5 Commercial Vehicle 2,283 30.0 2,484 32.1 2,624 34.5 Total 7,500",
+    "Refer to Segment Results of Operations in Item 7 and Note 20 to our consolidated financial statements in Item 8 for further financial information about our operating segments.",
+    "Our business is diversified across end-markets, products and customers. The following table summarizes the markets, products and largest customers of each of our operating segments as of December 31, 2025:",
+    "Segment Markets Products Largest Customers Light Vehicle"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Related to the Markets We Serve",
+    "Company-Specific Risk Factors",
+    "Risk Factors Related to our Securities"
+   ],
+   "paragraphs": [
+    "We are impacted by events and conditions that affect the light vehicle and commercial vehicle markets that we serve, as well as by factors specific to Dana. Among the risks that could materially adversely affect our business, financial condition or results of operations are the following, many of which are interrelated.",
+    "A downturn in the global economy could have a substantial adverse effect on our business.",
+    "Our business is tied to general economic and industry conditions as demand for vehicles depends largely on the strength of the economy, employment levels, consumer confidence levels, the availability and cost of credit and the cost of fuel. These factors have had and could continue to have a substantial impact on our business. Adverse global economic conditions could also cause our customers and suppliers to experience severe economic constraints in the future, including bankruptcy, which could have a material adverse impact on our financial position and results of operations.",
+    "Our results of operations could be adversely affected by climate change, natural catastrophes or public health crises, in the locations in which we, our customers or our suppliers operate.",
+    "There is global scientific consensus that emissions of greenhouse gases (GHG) continue to alter the composition of Earth's atmosphere in ways that are affecting and are expected to continue to affect the global climate. These considerations may lead to new international, national, regional, or local legislative or regulatory responses. Various stakeholders, including legislators and regulators, shareholders, and non-governmental organizations, as well as companies in many business sectors, including Dana, are continuing to look for ways to reduce GHG emissions. The regulation of GHG emissions from certain stationary or mobile sources or the imposition of carbon pricing mechanisms could result in additional costs to Dana in the form of taxes or emission allowances, facilities improvements, and energy costs, which would increase Dana's operating costs through higher utility, transportation, and materials costs. Because the impact of any future climate change-related legislative, regulatory, or product standard requirements on Dana's global businesses and products is dependent on the timing and design of mandates or standards, Dana is unable to predict their potential impact at this time. The potential physical impacts of climate change on Dana's facilities, suppliers, and customers and therefore on Dana's operations are highly uncertain and will be particular to the circumstances developing in various geographic regions. These may include extreme weather events and long-term changes in temperature levels and water availability. These potential physical effects may adversely affect the demand for Dana's products and the cost, production, sales, and financial performance of Dana's operations.",
+    "A natural disaster could disrupt our operations, or our customers' or suppliers' operations and could adversely affect our results of operations and financial condition. Although we have continuity plans designed to mitigate the impact of natural disasters on our operations, those plans may be insufficient, and any catastrophe may disrupt our ability to manufacture and deliver products to our customers, resulting in an adverse impact on our business and results of operations."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Management Overview",
+    "Operational and Strategic Initiatives",
+    "Recent Strategic Actions",
+    "Other Initiatives",
+    "Trends in Our Markets",
+    "Sales, Earnings and Cash Flow Outlook",
+    "Consolidated Results of Operations",
+    "Summary Consolidated Results of Operations (2025 versus 2024)",
+    "Summary Consolidated Results of Operations (2024 versus 2023)",
+    "Segment Results of Operations (2025 versus 2024)",
+    "Segment Results of Operations (2024 versus 2023)",
+    "Non-GAAP Financial Measures",
+    "Net increase (decrease) in cash, cash equivalents and restricted cash",
+    "Contractual Obligations",
+    "Contingencies",
+    "Critical Accounting Estimates"
+   ],
+   "paragraphs": [
+    "2025 2024 % of % of Increase/ Dollars Net Sales Dollars Net Sales (Decrease) Net sales 7,500",
+    "7,734 (234 Cost of sales 6,898 92.0 7,356 95.1 (458 Gross margin 8.0 4.9 Selling, general and administrative expenses",
+    "5.2 5.5 (42 Amortization of intangibles (1 Restructuring charges, net (47 Loss on disposal group previously held for sale",
+    "(26 Other income (expense), net (46 (21 (25 Earnings (loss) before interest and income taxes",
+    "(176 Interest income (3 Interest expense Loss before income taxes (32 (321 Income tax expense",
+    "Equity in earnings of affiliates Net loss from continuing operations (53 (342 Net income from discontinued operations",
+    "(138 Net income (loss) (49 Less: Noncontrolling interests net income from continuing operations",
+    "(4 Less: Redeemable noncontrolling interests net loss from continuing operations (13 Net income (loss) attributable to the parent company",
+    "Sales — The following table shows changes in our sales by geographic region. Amount of Change Due To",
+    "Increase/ Currency Organic 2025 2024 (Decrease) Effects Divestiture Change North America 4,515",
+    "4,657 (142 (7 (135 Europe 1,489 1,489 (49 South America (56 (18 (38 Asia Pacific (36 (5 (35",
+    "Sales in 2025 were $234 lower than in 2024. Stronger international currencies increased sales by $28, principally due to a stronger euro and Thai baht, partially offset by a weaker Brazilian real and Indian rupee. The organic sales decrease of $257, or 3%, resulted primarily from lower full-frame light-truck production volumes in North America and lower medium/heavy-truck production volumes in North America and South America, partially offset by the conversion of sales backlog. Pricing actions and recoveries, including material commodity price and tariff and inflationary costs adjustments, increased sales by $202."
+   ],
+   "focus": "Summary Consolidated Results of Operations (2025 versus 2024)"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "近期戰略作為",
+    "業務概覽",
+    "地理營運",
+    "客戶依存度",
+    "原物料來源及可取得性",
+    "智慧財產權",
+    "工程及研究與發展",
+    "人力資本",
+    "環境合規",
+    "可供查閱資訊"
+   ],
+   "paragraphs": [
+    "Dana Incorporated (Dana)，擁有自1904年起的歷史，總部設於俄亥俄州馬姆希，本公司為全球在提供公路車輛用動力傳輸與能源管理解決方案的領導者。本公司產品組合可提升輕型與商用車輛的效率、性能與永續性。從軸承、驅動軸、變速箱、密封與熱管理產品到電動化產品，包括馬達、變頻器、控制器、電動密封、電動熱管理與數位解決方案，本公司透過供應全球幾乎所有主要公路車輛製造商，使內燃機（ICE）、混合動力與電動車輛得以驅動。截至2025年12月31日，扣除已終止營運的非公路業務，本公司約僱用26,900名員工，並在24個國家營運。",
+    "「Dana」「我們」「我們的」與「我們」均指 Dana。這些參考詞包括 Dana 的子公司，除非另有說明或上下文另有要求。",
+    "成本削減措施 — 在2024年第四季，我們宣佈進一步行動，以支持長期持續的獲利與提升現金流產生。這包括大幅降低銷售、一般及行政費用，並使工程費用與當前產業動態相符，",
+    "包括電動車採用的持續延遲。我們預期將於2026年實現每年節省約325美元。截至2025年，已實現每年節省約260美元，預計2026年將再節省65美元。有關更多資訊，請參閱第7項「綜合營運結果摘要及分部營運結果」與第8項「綜合財務報表」第4項附註。",
+    "分部重整 — 截至2024年12月，我們透過四個營運分部在全球管理營運。我們的輕型車輛與動力科技分部主要支援輕型車輛原廠裝備製造商（OEMs），提供輕型貨車、SUV、CUV、貨車與乘用車的產品。我們的商用車輛分部支援商用車輛原廠裝備製造商（主要為貨車與巴士），而我們的非公路分部則支援非公路車輛原廠裝備製造商（主要為用於建築、礦業與農業應用的輪式車輛）。在2025年第一季，我們的動力科技分部被整併至輕型車輛與商用車輛分部，以簡化業務、提升市場接觸策略並更有效地服務客戶。面對原廠業務被整併至輕型車輛分部，而後市場業務則被整併至商用車輛分部。有關更多資訊，請參閱第8項「綜合財務報表」第20項附註。",
+    "非公路業務出售 — Dana 已啟動戰略計畫，專注於我們的核心公路市場，透過出售非公路業務，使 Dana 更具聚焦與靈活性。在2025年6月，我們與Allison Transmission Holdings, Inc.簽訂最終協議，出售我們的非公路業務。我們分析了與待出售非公路業務相關的量化與質化因素，並確認符合中止營運呈報條件。因此，該業務的財務狀況、營運結果與現金流在隨附的綜合財務報表中列為中止營運。過往期間的金額已重新調整以反映中止營運呈報。有關更多資訊，請參閱第8項「綜合財務報表」第1項與第2項附註。交易於2026年1月1日完成，Dana 預收現金約2,664美元。出售價格將根據閉市日的淨營運資金與淨負債金額進行調整。",
+    "資本結構措施 — 從非公路業務出售所獲得的淨現金將用於償還債務，強化 Dana 的財務狀況，並為股東提供資本回報。於2026年1月7日，我們透過淨現金標單購回價值138美元的11月2027年債券、142美元的6月2028年債券、141歐元的7月2029年債券（截至2026年1月7日為164美元）、173美元的9月2030年債券、9歐元的2031年債券（截至2026年1月7日為10美元）以及152美元的2月2032年債券，價格為100.00%加上應計未付利息。於2026年1月8日，我們以100.00%加上應計未付利息的價格贖回剩餘的11月2027年債券262美元與6月2028年債券258美元。此外，於2026年1月2日，我們償還了Term A Facility的225美元現金餘額。有關更多資訊，請參閱第8項「綜合財務報表」第13項附註。於2025年6月8日，Dana 董事會批准了一項計畫，透過普通股回購與/或特別股息，至2027年底為股東提供最高1,000美元的資本回報。於2026年2月11日，Dana 董事會將回購計畫增加並延長至至2030年底總計2,000美元。截至2026年1月31日，我們已根據批准的股票回購計畫，花費750美元購回37,943,413股股票。有關更多資訊，請參閱第8項「綜合財務報表」第8項附註。",
+    "我們已將組織結構圍繞兩個營運分部：輕型車輛驅動系統（輕型車輛）與商用車輛驅動與運動系統（商用車輛）。這些營運分部對全球商業活動與財務表現負有責任與承擔。",
+    "各運營分部之外部銷售額於2025年、2024年及2023年12月31日止之年度如下：",
+    "2025 2024 2023 美元 % 總額 美元 % 總額 美元 % 總額 輕型車 5,217",
+    "70.0 5,250 67.9 4,989 65.5 商用車 2,283 30.0 2,484 32.1 2,624 34.5 總計 7,500",
+    "請參閱第7項之運營分部營運成果，以及第8項之合併財務報表附註20，以取得有關我們運營分部之更多財務資訊。",
+    "本公司業務分散於終端市場、產品及客戶。下表總結了截至2025年12月31日，各運營分部之市場、產品及最大客戶：",
+    "運營分部 市場 產品 最大客戶 輕型車"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "管理概覽",
+    "營運與戰略措施",
+    "近期戰略行動",
+    "其他措施",
+    "我們市場的趨勢",
+    "銷售、獲利與現金流量展望",
+    "綜合營運成果",
+    "綜合營運成果摘要（2025 年與 2024 年比較）",
+    "綜合營運成果摘要（2024 年與 2023 年比較)",
+    "分部營運成果（2025 年與 2024 年比較)",
+    "分部營運成果（2024 年與 2023 年比較)",
+    "非GAAP財務指標",
+    "現金、現金等價物及受限制現金淨增加（減少）",
+    "契約義務",
+    "或有事項",
+    "關鍵會計估計"
+   ],
+   "paragraphs": [
+    "2025 2024 % of % of Increase/ Dollars Net Sales Dollars Net Sales (Decrease) 淨銷售額 7,500",
+    "7,734 (234 成本費用 6,898 92.0 7,356 95.1 (458 毛利率 8.0 4.9 銷售、一般及行政費用",
+    "5.2 5.5 (42 攤銷費用 (1 重組費用，淨 (47 處置前持有以出售為目的之組合之損失",
+    "(26 其他收入（費用），淨 (46 (21 (25 營業收入（虧損）前之利息及所得稅",
+    "(176 利息收入 (3 利息費用 營業虧損前之所得稅 (32 (321 所得稅費用",
+    "合資公司之權益 收益來自持續營運業務 (53 (342 來自終止營運業務之淨收益",
+    "(138 淨收益（虧損） (49 減：非控制性權益之淨收益來自持續營運業務",
+    "(4 減：可贖回非控制性權益之淨虧損來自持續營運業務 (13 淨收益（虧損）歸屬於母公司",
+    "銷售 — 以下表格顯示我們按地理區域的銷售變動。變動金額原因",
+    "增加/貨幣影響 2025 2024 (減少) 效果 資產減損 變動 北美洲 4,515",
+    "4,657 (142 (7 (135 歐洲 1,489 1,489 (49 南美洲 (56 (18 (38 東南亞 (36 (5 (35",
+    "2025 年銷售額較 2024 年減少 $234。較強的國際貨幣使銷售額增加 $28，主要係因歐元與泰銖升值，部分抵銷巴西雷亞爾與印度盧比貶值。營運銷售減少 $257，或 3%，主要係因北美洲全架輕型貨車生產量減少，以及北美洲與南美洲中型/重型貨車生產量減少，部分抵銷銷售積壓轉為出貨。價格調節與回收，包括主要原材料價格與關稅與通貨膨脹成本調整，使銷售額增加 $202。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素與我們所服務的市場相關",
+    "與本公司相關的風險因素",
+    "與我們證券相關的風險因素"
+   ],
+   "paragraphs": [
+    "本公司受制於影響我們所服務的輕型車與商用車市場之事件與條件，以及影響 Dana 的特定因素。許多可能對本公司業務、財務狀況或營運成果造成重大不利影響的風險，如下所述，許多風險彼此相互關聯。",
+    "全球經濟衰退可能對本公司業務造成重大不利影響。",
+    "本公司業務與總體經濟與產業條件緊密相關，因車輛需求很大程度取決於經濟強弱、就業率、消費者信心、信貸可得性與成本，以及燃料成本。這些因素已對本公司業務造成重大影響，並可能持續造成重大影響。不利的全球經濟條件也可能導致本公司客戶與供應商未來面臨嚴重的經濟限制，包括破產，這可能對本公司財務狀況與營運成果造成重大不利影響。",
+    "本公司營運成果可能因氣候變遷、自然災害或公共衛生危機而受到不利影響，這些事件可能發生在本公司、客戶或供應商營運的地區。",
+    "全球科學界已達成共識，認為溫室氣體（GHG）排放持續改變地球大氣層組成，影響並預期持續影響全球氣候。這些考量可能導致新的國際、國家、區域或地方立法或監管回應。包括立法者與監管機構、股東與非政府組織，以及許多產業部門的公司，包括 Dana，持續尋求減少 GHG 排放的方法。對某些固定或移動來源的 GHG 排放進行監管，或對碳價機制的實施，可能導致 Dana 面臨額外成本，形式包括稅收或排放許可證、設施改善與能源成本，這將透過更高的電力、運輸與材料成本，提高 Dana 的營運成本。由於任何未來氣候變遷相關立法、監管或產品標準要求對 Dana 全球業務與產品的影響，取決於命令或標準的時程與設計，Dana 無法預測其潛在影響。",
+    "自然災難可能幹擾本公司營運，或客戶與供應商的營運，並可能對本公司營運成果與財務狀況造成不利影響。雖然本公司已制定應變計畫以緩解自然災難對營運的影響，但這些計畫可能不足，任何災難都可能幹擾本公司製造與交付產品給客戶的能力，導致對本公司業務與營運成果造成不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

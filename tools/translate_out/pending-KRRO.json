@@ -1,0 +1,219 @@
+{
+ "ticker": "KRRO",
+ "cik": "0001703647",
+ "accession": "0001193125-26-104156",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Pipeline",
+    "KRRO-121 – Hyperammonemia Program",
+    "Our AATD Program",
+    "Our OPERA Platform",
+    "Our Strategy",
+    "Positioned for Value Creation in 2026 and Beyond",
+    "Expanding the Frontiers of Genetic Medicines: RNA Editing",
+    "ADAR-mediated RNA editing",
+    "Oligonucleotide-based ADAR-mediated RNA Editing",
+    "Key Advantages of Oligonucleotide-Based ADAR-Mediated RNA Editing as a Therapeutic Modality",
+    "Our OPERA – Oligonucleotide Promoted Editing of RNA – Platform",
+    "Our Pipeline Demonstrates the Versatility of the OPERA Platform",
+    "Our Hyperammonemia Program: KRRO-121 – Stabilizing Glutamine Synthetase to Clear Ammonia",
+    "Hyperammonemia Overview"
+   ],
+   "paragraphs": [
+    "We are a biopharmaceutical company with a mission to discover, develop and commercialize a new class of genetic medicines based on editing RNA, enabling the treatment of both rare and highly prevalent diseases. We are generating a portfolio of differentiated programs that are designed to harness the body's natural RNA editing process to effect a precise yet transient change to a single nucleoside (adenosine to an inosine edit). By editing RNA instead of DNA, we are expanding the reach of genetic medicines by delivering additional precision and tunability, which has the potential for increased specificity and improved long-term tolerability. We use an oligonucleotide-based approach and expect to bring our medicines to patients by leveraging our proprietary platform with precedented delivery modalities, including N-acetylgalactosamine, or GalNAc, -conjugated delivery for subcutaneous administration, manufacturing know-how, and established regulatory pathways of approved oligonucleotide medicines. However, the scientific evidence to support the feasibility of developing lead candidates using our RNA editing technology is both preliminary and limited. Moreover, regulators have not yet established any definitive guidelines related to overall development considerations for RNA editing therapies and limited clinical data has been generated to date.",
+    "The versatility of RNA editing combined with our OPERA platform broadens the therapeutic target space significantly. The advent of large-scale genome sequencing has progressively revealed causal genetic variation underlying several human diseases, both rare and highly prevalent. Genetic mutations, including single nucleotide variants, or SNVs, implicated in disease have been found to be diverse in nature and can affect the function of genes and their associated downstream biochemical pathways. Data correlating DNA to RNA to disease phenotype have demonstrated that SNVs lead to a loss-of-function or a gain-of-function of the gene. In addition, the majority of SNVs implicated in complex diseases are due to modulation of gene function. By editing RNA to mimic a SNV, we believe we will be able to address unmet patient need by transiently modifying gene expression and the resultant protein function.",
+    "As our understanding of genetic drivers of disease has increased, significant advances have been made in technologies designed to introduce specific yet permanent changes at the DNA level to treat diseases. While these DNA editing approaches offer great promise for the treatment of certain rare diseases, they present significant risks from potential permanent adverse \"off-target\" edits. Additionally, the complex nature of DNA editing drug products presents multiple challenges including lack of efficient delivery to target cells and scalable manufacturing, impeding their application to treat complex highly prevalent diseases of larger patient populations. These potential limitations have spurred exploration of alternative approaches to genetic medicine development, such as RNA editing.",
+    "Mammals and other lower species like cephalopods have an endogenous process of modifying single nucleosides on RNA, referred to as RNA editing. RNA editing is a natural physiological process, similar to RNA interference, or RNAi, that occurs in cells, including a mechanism mediated by an enzyme called Adenosine Deaminase Acting on RNA, or ADAR. Our RNA editing approach involves co-opting this endogenous editing system via proprietary engineered oligonucleotides to introduce precise edits to RNA. We iteratively optimize the editing efficiency of our oligonucleotides using a combination of ADAR biology, chemistry and machine learning expertise. Using this approach, we can edit the transcriptome with high efficiency and specificity. The application of such an approach can provide the ability to alter a nucleoside and affect biology in meaningful ways.",
+    "As opposed to gene silencing with small interfering RNA, or siRNA, or antisense oligonucleotide, or ASO, gapmers, where oligonucleotides are used to silence and knock-down genes and proteins, we intend to either repair or activate biological pathways by editing RNA. Our pipeline has multiple programs, all of which are focused on modifying proteins to provide clinical benefit. These modification approaches can unlock validated target classes that have historically been difficult to drug, enabling us to pursue a broad range of diseases with potentially large addressable patient populations traditionally out-of-scope for other genetic medicine approaches and current traditional drug modalities. Each of our programs demonstrates the versatility of the oligonucleotide-based RNA editing approach to bring additional precision and tunability to address a broad range of rare and highly prevalent diseases.",
+    "• Enabling synthetic rescue through engineering de novo versions of existing proteins: A SNV observed in human genetic association studies has the potential to inform how to transiently modify a small amount of native protein. We can generate this de novo protein with preferred properties using our RNA editing oligonucleotides. In most cases, 10 – 50% of modified version of the native protein is sufficient to provide significant benefit, rather than needing 100% modification. This synthetic rescue approach is designed to restore cellular function without repairing the primary disease-causing genetic mutation. Our lead program, KRRO-121, exemplifies this approach by engineering a de novo version of glutamine synthetase, or GS, that is designed to stabilize the protein and enhance ammonia clearance, overcoming the challenges with a dysfunctional urea cycle.",
+    "• Repairing pathogenic variants: A SNV that is a pathogenic G-to-A mutation, leading to an aberrant amino acid on a protein, can be repaired using our RNA editing approach. Such an approach is relevant when the patient population has a heterogenous spectrum of disease manifestations from mild-to-severe, and the willingness and utility of a transient repair of the protein is preferable to a DNA modification. Our next-generation GalNAc conjugated lead candidate targeting patients with AATD exemplifies this approach.",
+    "• Activating protein pathways: A single SNV observed in human genetic association studies has the potential to inform how to transiently activate a protein pathway. We can generate this protein transiently using our RNA editing approach with an oligonucleotide, thereby engineering a de novo protein with preferred properties. Our longevity and liver health program targeting AMP-activated protein kinase gamma 1 protein, or AMPKγ1, exemplifies this approach.",
+    "• Other target classes: There are multiple other target classes that can be addressed such as preventing protein aggregation, selectively modulating ion channels and activating kinases that have been traditionally hard to leverage for developing medicines.",
+    "Figure 1: RNA editing, just a single A-to-I nucleoside change, can have profound impact on biological pathways. The applications span a multitude of avenues to impact biology. We are focused on activating and repairing pathways rather than competing with RNA interference technologies.",
+    "The pipeline chart below demonstrates the breadth of indications, with an initial focus on four wholly-owned programs:",
+    "• KRRO-121, our hyperammonemia program, targeting the increased clearance of ammonia in multiple indications;",
+    "• Our AATD (GalNAc-conjugated delivery) program targeting the repair of the alpha-1 antitrypsin, or AAT, protein;",
+    "• Our longevity and liver health program targeting the activation of AMPKγ1 pathway (GalNAc-conjugated delivery); and"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business",
+    "We have incurred significant losses since inception. We expect to incur losses for the foreseeable future and may never achieve or maintain profitability.",
+    "We have never generated revenue from product sales and may never become profitable.",
+    "Our business is substantially dependent on the success of KRRO-121, our lead development candidate, and if KRRO-121 fails to advance successfully, our business would be materially and adversely affected.",
+    "If we experience delays or difficulties in the enrollment of patients in clinical trials, or other delays in our clinical trials, our receipt of necessary regulatory approvals could be delayed or prevented.",
+    "Risks Related to Discovery, Development and Commercialization",
+    "RNA editing is a novel technology with limited clinical validation for human therapeutic use. The approaches we take to discover and develop novel therapeutics are unproven and may never lead to marketable products.",
+    "Any development candidates we develop may fail in preclinical or clinical development or be delayed to a point where they do not become commercially viable.",
+    "We may not be able to conduct clinical trials successfully due to various process-related factors that could negatively impact our business plans.",
+    "The process of manufacturing oligonucleotides is complex and we may encounter difficulties in production, particularly with respect to process development or scaling-up of our manufacturing capabilities."
+   ],
+   "paragraphs": [
+    "You should consider carefully the risks and uncertainties described below, together with all of the other information in this Annual Report on Form 10-K and in our other filings with the Securities and Exchange Commission, or SEC. We operate in a dynamic and rapidly changing industry that involves numerous risks and uncertainties. The risks and uncertainties described below are not the only ones we face. Other risks and uncertainties, including those that we do not currently consider material, may impair our business. If any of the risks discussed below actually occur, our business, financial condition, operating results or cash flows could be materially adversely affected. This Annual Report on Form 10-K also contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those anticipated in these forward-looking statements as a result of certain factors, including the risks we face as described below and elsewhere in this Annual Report on Form 10-K. See \"Cautionary Statement Regarding Forward Looking Statements.\".",
+    "Since inception, we have incurred significant operating losses. Our net loss was $117.3 million and $83.6 million for the years ended December 31, 2025 and 2024, respectively. As of December 31, 2025, we had an accumulated deficit of $383.8 million. We have financed our operations primarily through private placements of our convertible preferred stock and more recently, common stock in our November 2023, April 2024 and March 2026 private placements, and sales under our at-the-market offering program. Substantially all of our losses have resulted from expenses incurred in connection with our research and development and from general and administrative costs associated with our operations, and most recently, a $30.9 million impairment charge in the fourth quarter of 2025 related to our operating lease right-of-use asset and fixed assets. We expect to continue to incur significant expenses, increasing operating losses, and negative operating cash flows for the foreseeable future. The net losses we incur may fluctuate significantly from quarter to quarter. We anticipate that our expenses will increase substantially if and as we:",
+    "• progress our development candidates, including KRRO-121, through clinical development;",
+    "• continue current research programs and preclinical and clinical development of any lead candidates or development candidates we may identify;",
+    "• seek to identify additional research programs and lead candidates and nominate development candidates;",
+    "• further develop OPERA, our RNA editing platform; • maintain, expand, enforce, defend and protect our intellectual property portfolio;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Recent Developments",
+    "At-the-Market Offering Program",
+    "March 2026 Private Placement",
+    "Financial Operations Overview",
+    "Operating Expenses",
+    "Other Income, Net",
+    "Results of Operations",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "Year Ended December 31,",
+    "(in thousands)",
+    "Collaboration Revenue",
+    "Research and Development Expenses",
+    "Development candidate expenses",
+    "Unallocated research and development expenses",
+    "Total research and development expenses",
+    "General and Administrative Expenses",
+    "Long-lived Asset Impairment Charges",
+    "Restructuring Charges",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "Funding Requirements",
+    "Critical Accounting Policies and Estimates",
+    "Long-lived Assets",
+    "Contractual Obligations and Other Commitments",
+    "Recent Accounting Pronouncements",
+    "Smaller Reporting Company Status"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations together with our audited consolidated financial statements and related notes included elsewhere in this Annual Report on Form 10-K. Some of the information contained in this discussion and analysis, including information with respect to our plans and strategy for our business and related financing, includes forward-looking statements that involve risks and uncertainties. As a result of many factors, including those factors set forth under the heading \"Risk Factors\" in Part I, Item 1A of this Annual Report on Form 10-K our actual results could differ materially from the results described in or implied by the forward-looking statements contained in the following discussion and analysis. See also \"Cautionary Statement Regarding Forward-Looking Statements.\"",
+    "We are a biopharmaceutical company with a mission to discover, develop and commercialize a new class of genetic medicines based on editing RNA, enabling the treatment of both rare and highly prevalent diseases.",
+    "We are generating a portfolio of differentiated programs that are designed to harness the body's natural RNA editing process to effect a precise yet transient change to a single nucleoside (adenosine to an inosine edit). By editing RNA instead of DNA, we are expanding the reach of genetic medicines by delivering additional precision and tunability, which has the potential for increased specificity and improved long-term tolerability. We use an oligonucleotide-based approach and expect to bring our medicines to patients by leveraging our proprietary platform with precedented delivery modalities, including N-acetylgalactosamine, or GalNAc, -conjugated delivery for subcutaneous administration, manufacturing know-how, and established regulatory pathways of approved oligonucleotide medicines. However, the scientific evidence to support the feasibility of developing our development candidates using our RNA editing technology is both preliminary and limited. Moreover, regulators have not yet established any definitive guidelines related to overall development considerations for RNA editing therapies and limited clinical data has been generated to date.",
+    "The versatility of RNA editing combined with our OPERA platform broadens the therapeutic target space significantly. The advent of large-scale genome sequencing has progressively revealed causal genetic variation underlying several human diseases, both rare and highly prevalent. Genetic mutations, including SNVs implicated in disease have been found to be diverse in nature and can affect the function of genes and their associated downstream biochemical pathways. Data correlating DNA to RNA to disease phenotype have demonstrated that SNVs lead to a loss-of-function or a gain-of-function of the gene. In addition, the majority of SNVs implicated in complex diseases are due to modulation of gene function. By editing RNA to mimic a SNV, we believe we will be able to address unmet patient need by transiently modifying gene expression and the resultant protein function.",
+    "We continue to make meaningful advancements across our programs, including KRRO-121 as a potential first-in-class treatment for hyperammonemia that has the potential to address substantial unmet need in patients with poor ammonia control, including those with UCD and HE. KRRO-121 is an RNA-editing oligonucleotide conjugated with GalNAc in development for the potential treatment of UCDs of any mutational background in adults and adolescents. Utilizing our proprietary platform, we designed KRRO-121 to edit the GLUL transcript (the gene for the GS protein), to generate a stabilized, de novo variant of GS with enhanced ammonia clearance capacity. This synthetic rescue approach creates a compensating protein rather than repairing the underlying urea cycle defect. By editing GS mRNA to create a de novo protein with a single amino acid change that prevents glutamine-induced proteasomal degradation, we aim to maintain consistent ammonia clearance capacity irrespective of the specific enzyme deficiency in patients with UCD and to reduce ammonia levels in patients with HE. We anticipate a regulatory filing to enable commencement of a first-in-human trial in the second half of 2026.",
+    "In November 2025, we announced that KRRO-110 did not reach projected levels of functional protein following a single administration and pivoted to GalNAc delivery for patients with AATD with development candidate nomination expected in the second quarter of 2026. We are developing a next-generation GalNAc-conjugated RNA editing oligonucleotide for the treatment of AATD that has the potential to be disease-modifying and provide a differentiated therapeutic option.",
+    "In May 2025, we announced a strategic plan to streamline our operations, including a reduction in workforce by 19%, or 21 positions. In November 2025, we implemented a strategic restructuring to extend cash runway, including a further workforce reduction of approximately 34%. Please see Note 16 to our audited consolidated financial statements included elsewhere in this Annual Report on Form 10-K.",
+    "Since inception, we have focused primarily on organizing and staffing our company, business planning, raising capital, securing related intellectual property, and conducting research and development activities for our potential programs and development candidates. Since inception, we have funded our operations primarily through the private placement of our equity securities. To date, we have raised approximately $223.6 million of aggregate gross proceeds from the sale of our convertible preferred stock, $117.3 million from the sale of shares of common stock issued in a private placement that closed immediately",
+    "prior to the November 2023 business combination, $70.0 million from the April 2024 private placement of shares of our common stock, $5.1 million from sales under our at-the-market offering program, and $85.0 million from the March 2026 private placement.",
+    "We have incurred significant operating losses since inception. Our net losses were $117.3 million and $83.6 million for the years ended December 31, 2025 and 2024, respectively. We had an accumulated deficit of $383.8 million as of December 31, 2025. We expect to continue to incur significant and increasing expenses and operating losses and negative operating cash flows for the foreseeable future as we continue our research and development efforts, advance development candidates into and through clinical development, and seek regulatory approvals for our development candidates. Our net losses may fluctuate significantly from quarter-to-quarter and year-to-year, depending on the timing of our preclinical studies, initiation and conduct of any clinical trials, and our expenditures on other research and development activities, including the expansion of our pipeline.",
+    "We do not have any development candidates approved for sale and have not generated any revenue from product sales. We will not generate revenue from product sales unless and until we successfully obtain regulatory approval for our development candidates, if ever, and as appropriate, move pipeline candidates into the clinic and complete clinical development. If we obtain regulatory approval for our development candidates and do not enter into third-party commercialization partnerships, we expect to incur significant expenses related to developing commercialization capabilities to support product sales, marketing, manufacturing and distribution activities. As a result, we will need substantial additional funding to support our continuing operations and pursue our development and growth strategy. Until we can generate significant revenue from product sales, if ever, we expect to finance our operations through a combination of public or private offerings of securities, debt financings or other sources, such as potential collaboration agreements, strategic alliances and licensing arrangements. We may be unable to raise additional funds or enter into such other agreements or arrangements when needed on acceptable terms, or at all. Our failure to raise capital or enter into such agreements as, and when needed, could have a negative effect on our business, results of operations and financial condition.",
+    "In January 2026, we issued 501,861 shares of common stock under our December 2024 at-the-market sales agreement for gross proceeds of $5.1 million, before deducting estimated offering expenses.",
+    "On March 9, 2026, we entered into a subscription agreement with certain new and existing accredited investors to issue and sell in a private placement an aggregate of 4,501,928 shares of our common stock at a purchase price of $11.11 per share and pre-funded warrants to purchase up to an aggregate of 3,148,836 shares of our common stock (at an exercise price of $0.001 per share) at a price of $11.109 per pre-funded warrant. The private placement, which closed March 10, 2026, resulted in gross proceeds of approximately $85.0 million before deducting placement agent fees and estimated offering expenses.",
+    "We have not generated any revenue from product sales, and do not expect to generate any revenue from the sale of products in the near future. During the year ended December 31, 2025 and 2024, we recognized $6.4 million and $2.3 million of collaboration revenue, respectively, which is related to our research collaboration and license agreement with Novo Nordisk. In"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "我們的產品線",
+    "KRRO-121 – 超高氨血癥計畫",
+    "我們的 AATD 計畫",
+    "我們的 OPERA 平台",
+    "我們的策略",
+    "為 2026 年及以後的價值創造定位",
+    "擴展遺傳藥物的邊界：RNA 編輯",
+    "ADAR 編輯 RNA",
+    "{'translatedText': '基於寡核苷酸的 ADAR 編輯 RNA 修飾技術'}",
+    "{'translatedText': '基於寡核苷酸的 ADAR 編輯 RNA 修飾技術作為治療方式的關鍵優勢'}",
+    "{'translatedText': '本公司 OPERA – 基於寡核苷酸促進 RNA 編輯 – 平台'}",
+    "{'translatedText': '本公司產品線顯示 OPERA 平台的多樣性'}",
+    "{'translatedText': '本公司高氨血癥計畫：KRRO-121 – 穩定谷氨醯胺合成酶以清除氨'}",
+    "{'translatedText': '高氨血癥概觀'}"
+   ],
+   "paragraphs": [
+    "本公司為一生物科技公司，其使命為發現、開發及商業化基於編輯RNA的新一代遺傳藥物，以治療罕見及高度普遍的疾病。本公司正在建立一組差異化的專案組合，這些專案設計用以利用人體自然的RNA編輯過程，以對單一核苷酸（腺嘌呤轉為肌苷）進行精確卻暫時的改變。透過編輯RNA而非DNA，本公司擴展了遺傳藥物的應用範圍，透過提供更高的精準度與可調性，有潛力提高專一性與改善長期耐受性。本公司採用寡核苷酸為基礎的技術，預期透過本公司專利平台與先進的遞送方式，包括N-乙醯半乳糖胺（GalNAc）結合遞送方式，用於皮下注射、製造技術知識及已核准的寡核苷酸藥物的監管途徑，將本公司藥物帶給病患。然而，支持使用本公司RNA編輯技術開發領導候選藥物的科學證據仍屬初步且有限。此外，監管機構尚未建立任何關於RNA編輯療法整體開發考量的明確指引，且至今產生的臨牀數據仍有限。",
+    "RNA編輯的靈活性結合本公司OPERA平台，大幅拓展了治療目標範疇。大規模基因組測序的出現，逐步揭示了多種人類疾病（包括罕見及高度普遍的疾病）的遺傳變異原因。與疾病相關的遺傳變異，包括單一核苷酸變異（SNVs），已被發現具有多樣性，可能影響基因及其相關下游生化途徑的功能。將DNA與RNA與疾病表現型相關聯的數據顯示，SNVs會導致基因的喪失功能或獲得功能。此外，大多數與複雜疾病相關的SNVs是因調控基因功能所致。透過編輯RNA以模擬SNV，本公司相信可以解決未被滿足的病患需求，透過暫時修改基因表現及相關蛋白質功能。",
+    "隨著對疾病遺傳驅動因素的瞭解增加，已取得重大進展的技術，用以在DNA層面引入特定且永久的改變，以治療疾病。雖然這些DNA編輯方法對某些罕見疾病的治療具有極大的潛力，但其潛在風險包括可能造成永久性的不良「脫標」編輯。此外，DNA編輯藥物產品的複雜性帶來多重挑戰，包括缺乏有效的遞送至目標細胞及可擴充的製造，這限制了其應用於治療複雜且高度普遍的疾病，尤其是患者羣體較大的情況。這些潛在限制促使探索其他遺傳藥物開發方法，例如RNA編輯。",
+    "哺乳動物及其他較低等生物如頭足類動物，具有內在的過程可修改RNA上的單一核苷酸，這種過程稱為RNA編輯。RNA編輯是一種自然生理過程，類似於RNA幹擾（RNAi），在細胞中發生，包括由一種稱為腺苷脫氨酶作用於RNA（ADAR）的酶所介導的機制。本公司RNA編輯方法涉及利用專利工程的寡核苷酸，以借用此內在編輯系統，引入精確的RNA編輯。本公司透過結合ADAR生物學、化學及機械學習專業知識，持續優化寡核苷酸的編輯效率。使用此方法，本公司可高效率且高專一性地編輯轉錄組。應用此方法可提供改變核苷酸並影響生物學的潛力。",
+    "與使用小幹擾RNA（siRNA）或反義寡核苷酸（ASO）及gapmers（寡核苷酸用以沉默及抑制基因與蛋白質）的基因沉默技術不同，本公司意圖透過編輯RNA來修復或活化生物途徑。本公司專案組合包含多個專案，所有專案均著重於修改蛋白質以提供臨牀效益。這些修改方法可啟動已驗證的目標類別，這些目標類別過去難以開發藥物，使本公司得以追求廣泛的疾病範疇，這些疾病傳統上超出其他遺傳藥物方法及現有傳統藥物模式的治療範圍。每個專案均顯示出寡核苷酸為基礎的RNA編輯方法的靈活性，以提供更高的精準度與可調性，以解決廣泛的罕見及高度普遍疾病。",
+    "• 透過工程新版本的現有蛋白質實現合成拯救：在人類遺傳關聯研究中觀察到的SNV，有潛力說明如何暫時修改少量的原生蛋白質。本公司可利用RNA編輯寡核苷酸生成具有優先屬性的此新版本蛋白質。在大多數情況下，修改後的原生蛋白質約10 – 50%即足以提供顯著效益，而非需要100%的修改。此合成拯救方法旨在恢復細胞功能，而不修復導致疾病的原始遺傳變異。本公司領導專案KRRO-121即為此方法的範例，透過工程新版本的谷氨醯胺合成酶（GS），設計用以穩定蛋白質並增強氨清除，克服功能異常的尿素循環的挑戰。",
+    "• 修復病原性變異：一個導致蛋白質中異常氨基酸的病原性G-to-A SNV，可透過本公司RNA編輯方法進行修復。此方法在患者族羣具有從輕度至嚴重的疾病表現譜系時特別相關，且暫時修復蛋白質的意願與效益優於DNA修改。本公司下一代GalNAc結合領導候選藥物，針對AATD患者，即為此方法的範例。",
+    "• 激活蛋白質途徑：在人類遺傳關聯研究中觀察到的單一SNV，有潛力說明如何暫時激活蛋白質途徑。本公司可利用RNA編輯方法，透過寡核苷酸生成此暫時性蛋白質，從而工程出具有優先屬性的新版本蛋白質。本公司針對AMP-活化蛋白激酶γ1蛋白質（AMPKγ1）的長壽與肝臟健康專案，即為此方法的範例。",
+    "• 其他目標類別：尚有多種其他目標類別可被處理，例如預防蛋白質聚合作用、選擇性調節離子通道以及活化傳統上難以利用來開發藥物的激酶。",
+    "圖 1：RNA 編輯，僅需單一 A-to-I 核苷酸改變，即可對生物途徑產生深遠影響。其應用範疇橫跨多種途徑，以影響生物學。我們專注於活化與修復途徑，而非與 RNA 幹擾技術競爭。",
+    "下圖的管線圖顯示了多種適應症的範疇，初期重點為四項完全擁有之計畫：",
+    "• KRRO-121，我們的高氨血癥計畫，針對多種適應症中氨的清除增加；",
+    "• 我們的 AATD（GalNAc 聯結遞送）計畫，針對修復 alpha-1 抗胰蛋白酶（AAT）蛋白；",
+    "• 我們的長壽與肝臟健康計畫，針對活化 AMPKγ1 途徑（GalNAc 聯結遞送）；"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'translatedText': '近期發展', 'originalText': 'Recent Developments'}",
+    "{'translatedText': '公開發售計畫', 'originalText': 'At-the-Market Offering Program'}",
+    "{'translatedText': '2026 年 3 月私人 placements', 'originalText': 'March 2026 Private Placement'}",
+    "{'translatedText': '財務營運概覽', 'originalText': 'Financial Operations Overview'}",
+    "{'translatedText': '營運費用', 'originalText': 'Operating Expenses'}",
+    "{'translatedText': '其他收入，淨額', 'originalText': 'Other Income, Net'}",
+    "{'translatedText': '營運成果', 'originalText': 'Results of Operations'}",
+    "{'translatedText': '截至 2025 年 12 月 31 日及 2024 年 12 月 31 日之年度比較', 'originalText': 'Comparison of the Years Ended December 31, 2025 and 2024'}",
+    "會計年度終了於12月31日",
+    "(以千為單位)",
+    "合作營收",
+    "研究與發展費用",
+    "開發候選項目費用",
+    "未分配研究與發展費用",
+    "總研究與發展費用",
+    "一般及行政費用",
+    "長期資產減損費用",
+    "重整費用",
+    "流動性及資金來源",
+    "資金來源",
+    "資金需求",
+    "關鍵會計政策與會計估計",
+    "長期資產",
+    "契約義務及其他承諾",
+    "{'original': 'Recent Accounting Pronouncements', 'translated': '最近會計準則公告'}",
+    "{'original': 'Smaller Reporting Company Status', 'translated': '小型報告公司資格狀態'}"
+   ],
+   "paragraphs": [
+    "您應閱讀下列對我們財務狀況與營運成果之討論與分析，並與我們經審計之合併財務報表及相關附註資料一併參考。本討論與分析中包含部分資訊，包括有關我們業務與相關資金計畫與策略之資訊，包含風險與不確定性之預測性陳述。由於許多因素，包括於本年度報告表 10-K 第一部分第 1A 項標題為「風險因素」所列之因素，我們實際結果可能與下列討論與分析中所描述或暗示之預測性陳述之結果有重大差異。請參閱「預測性陳述之警示聲明」。",
+    "我們是一家生物科技公司，目標是發現、開發與商業化基於編輯 RNA 之新類別遺傳藥物，以治療罕見與高度普遍之疾病。",
+    "我們正在建立一個差異化之產品組合，設計用以利用身體之自然 RNA 編輯過程，以對單一核苷酸（腺嘌呤至肌苷編輯）產生精確卻暫時之改變。透過編輯 RNA 而非 DNA，我們擴展了遺傳藥物之應用範圍，透過提供額外之精準度與調控性，具有提高特異性與改善長期耐受性之潛力。我們使用寡核苷酸為基礎之方法，並預期透過我們專利平台與先進之遞送模式，包括 N-乙醯半乳糖胺（GalNAc）結合遞送方式，用於皮下注射、製造知識、以及已核准之寡核苷酸藥物之既定監管途徑，來為患者提供藥物。然而，支持我們開發候選藥物使用我們 RNA 編輯技術之科學證據，目前仍為初步且有限。此外，監管機構尚未建立任何關於 RNA 編輯療法整體開發考量之明確指引，且至今產生之臨牀數據仍為有限。",
+    "RNA 編輯之靈活性結合我們 OPERA 平台，大幅擴展了治療目標範圍。大規模基因組測序的出現，逐步揭示了多種人類疾病，包括罕見與高度普遍之疾病，其背後的致病遺傳變異。遺傳變異，包括與疾病相關之 SNVs，已被發現具有多樣性，且可能影響基因及其相關下游生化途徑的功能。將 DNA 與 RNA 與疾病表型相關聯之數據已顯示 SNVs 會導致基因之功能喪失或功能增強。此外，大多數與複雜疾病相關之 SNVs 是由於調控基因功能所致。透過編輯 RNA 來模擬 SNVs，我們認為將能透過暫時改變基因表現及結果蛋白功能，來解決未被滿足之患者需求。",
+    "我們持續在各項計畫中取得重大進展，包括 KRRO-121 作為治療高氨血癥之潛在第一類治療藥物，有潛力解決氨控制不佳之患者，包括 UCD 和 HE 患者之重大未被滿足之需求。KRRO-121 是一種 RNA 編輯寡核苷酸，與 GalNAc 結合，正在開發中，用於治療任何基因變異背景之 UCDs，在成人與青少年中。透過我們專利平台，我們設計 KRRO-121 來編輯 GLUL 轉錄本（GS 蛋白之基因），以產生穩定之新 GS 突變體，具有增強之氨清除能力。這種合成拯救方法會產生補償性蛋白，而非修復基礎之尿素循環缺陷。透過編輯 GS mRNA 來產生具有單一氨基酸改變之新蛋白，以防止谷氨醯胺誘導之蛋白酶體降解，我們旨在維持患者 UCD 之氨清除能力，不論其特定酶缺乏，並降低 HE 患者之氨水平。我們預期進行監管申請，以啟動第一個人類試驗，預計於 2026 年第二季進行。",
+    "2025 年 11 月，我們宣佈 KRRO-110 在單次給藥後未達預期之功能性蛋白水平，並轉向 GalNAc 遞送方式，用於 AATD 患者，預計於 2026 年第二季進行開發候選藥物之提名。我們正在開發新一代 GalNAc 結合之 RNA 編輯寡核苷酸，用於治療 AATD，有潛力為疾病修正並提供差異化之治療選項。",
+    "2025 年 5 月，我們宣佈了簡化運營之戰略計畫，包括裁員 19%，即 21 個職位。2025 年 11 月，我們實施了戰略重整以延長現金流，包括進一步裁員約 34%。請參閱本年度報告表 10-K 其他處所附之經審計合併財務報表附註 16。",
+    "自成立以來，我們主要專注於組織與僱用公司、業務計畫、籌集資金、取得相關智慧財產權，以及進行潛在計畫與開發候選藥物之研究與開發活動。自成立以來，我們主要透過私募發行本公司 equity securities 來資助運營。截至目前為止，我們已透過發行可轉換優先股，籌得約 223.6 百萬美元之總計 gross proceeds，以及透過發行私募發行之普通股，籌得約 117.3 百萬美元",
+    "於 2023 年 11 月之業務組合前，來自 2024 年 4 月發行普通股之私人 placements 約 70.0 百萬美元，來自 2024 年 at-the-market offering 程式之銷售約 5.1 百萬美元，以及來自 2026 年 3 月之私人 placements 約 85.0 百萬美元。",
+    "自設立以來，我們已產生顯著之營運虧損。我們之淨虧損於 2025 年 12 月 31 日止年度為 117.3 百萬美元，於 2024 年 12 月 31 日止年度為 83.6 百萬美元。截至 2025 年 12 月 31 日，我們之累積虧損為 383.8 百萬美元。我們預期將持續產生顯著且增加之費用與營運虧損及負面營運現金流，於可預見之未來，因我們持續進行研究與開發工作，推進開發候選品進入並通過臨牀開發，並尋求對我們開發候選品之監管批准。我們之淨虧損可能因我們之預臨牀研究時程、任何臨牀試驗之啟動與進行，以及我們在其他研究與開發活動之支出，包括我們管線之擴張，而顯著波動。",
+    "我們目前沒有任何已批准銷售之開發候選品，也未產生任何來自產品銷售之收入。我們將不會產生來自產品銷售之收入，除非且僅在我們成功取得對我們開發候選品之監管批准，若有可能，並適當進行管線候選品進入臨牀並完成臨牀開發。若我們取得對我們開發候選品之監管批准，且未與第三方商業化合作夥伴簽訂協議，我們預期將產生與開發商業化能力以支持產品銷售、行銷、製造與分銷活動相關之顯著費用。因此，我們將需要大量額外資金以支持我們持續之營運與追求我們之開發與成長策略。在我們能產生來自產品銷售之顯著收入之前，若有的話，我們預期將透過公開或私人發行證券、債務融資或其他來源，如潛在合作協議、戰略聯盟與授權安排，來資金融通我們之營運。我們可能無法在需要時以可接受之條件，或甚至無法取得額外資金或簽訂這些其他協議或安排。我們未能在需要時取得資金或簽訂這些協議，將對我們之業務、營運結果與財務狀況產生負面影響。",
+    "於 2026 年 1 月，我們根據我們 2024 年 12 月之 at-the-market 賣約，發行 501,861 份普通股，總計淨收入為 5.1 百萬美元，扣除預估發行費用前。",
+    "於 2026 年 3 月 9 日，我們與若干新舊認可投資者簽訂認購協議，發行並銷售總計 4,501,928 份普通股，每股價格為 11.11 美元，並發行預先資金權證，可購買總計 3,148,836 份普通股（每股行使價格為 0.001 美元），預先資金權證價格為每份 11.109 美元。此私人 placements 於 2026 年 3 月 10 日完成，總計淨收入約為 85.0 百萬美元，扣除經紀人費用及預估發行費用前。",
+    "我們尚未產生任何來自產品銷售之收入，也預期在近期內不會產生來自產品銷售之收入。於 2025 年 12 月 31 日止年度及 2024 年 12 月 31 日止年度，我們分別確認 6.4 百萬美元及 2.3 百萬美元之合作收入，此為與 Novo Nordisk 之研究合作與授權協議相關。在"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務相關的風險",
+    "自成立以來，我們已產生重大虧損。我們預期在可預見的未來將持續產生虧損，並可能永遠無法達成或維持獲利狀態。",
+    "我們從未從產品銷售中產生收入，並可能永遠無法實現獲利。",
+    "我們的業務高度依賴於我們的主要開發候選藥物KRRO-121的成功，若KRRO-121未能順利推進，將對我們的業務造成重大且不利的影響。",
+    "若我們在臨牀試驗中遭遇患者招募延遲或困難，或其他臨牀試驗的延誤，我們取得必要監管許可的時間可能被延遲或無法取得。",
+    "與發現、開發及商業化相關的風險",
+    "RNA編輯是一項新興技術，對於人類治療用途的臨牀驗證尚有限。我們用以發現及開發新療法的方法尚未經證實，可能永遠無法產生可上市的產品。",
+    "我們所開發的任何開發候選藥物可能在臨牀前或臨牀開發階段失敗，或被延誤至無法具商業可行性。",
+    "我們可能無法成功進行臨牀試驗，因各種與流程相關的因素可能對我們的業務計畫產生負面影響。",
+    "寡核苷酸的製造過程複雜，我們可能在生產過程中遇到困難，特別是在流程開發或擴充製造能力方面。"
+   ],
+   "paragraphs": [
+    "您應仔細考慮下列所描述的風險與不確定性，並配合本年度報告表10-K及其他資訊，以及我們向證券交易委員會，或SEC所提交的其他申報文件。我們所處的產業為動態且快速變化的產業，涉及許多風險與不確定性。下列所描述的風險與不確定性並非我們所面臨的唯一風險。其他風險與不確定性，包括我們目前尚未認為重要的風險，可能會影響我們的業務。若任何上述所討論的風險實際發生，可能會對我們的業務、財務狀況、營運結果或現金流造成重大不利影響。本年度報告表10-K亦包含涉及風險與不確定性的展望性陳述。我們的實際結果可能與這些展望性陳述中預期的結果有重大差異，原因包括我們所面臨的風險，以及本年度報告表10-K其他部分所描述的風險。請參閱「關於展望性陳述的警示聲明。」",
+    "自設立以來，我們已產生顯著的營運虧損。我們的淨虧損為 117.3 百萬美元及 83.6 百萬美元，分別為 2025 年 12 月 31 日及 2024 年 12 月 31 日所終結之會計年度。截至 2025 年 12 月 31 日，我們累計虧損為 383.8 百萬美元。我們主要透過私募發行本公司可轉換優先股及近期發行普通股來資金融通營運，包括 2023 年 11 月、2024 年 4 月及 2026 年 3 月之私募發行，以及透過本公司於市場現貨發行計劃下之銷售。我們幾乎所有虧損皆來自與我們研究與開發相關之費用，以及與我們營運相關之總體營運及行政費用，且最近一次為 2025 年第四季與我們營運租賃權使用資產及固定資產相關之 30.9 百萬美元減損費用。我們預期將持續產生顯著費用、增加營運虧損及負面營運現金流，至少在可預見之未來。我們所產生之淨虧損可能在各季度間大幅波動。我們預期若我們：",
+    "• 推進我們的開發候選藥物，包括KRRO-121，進行臨牀開發；",
+    "• 繼續目前的研究計畫及任何主要候選藥物或開發候選藥物的前期臨牀及臨牀開發；",
+    "• 嘗試識別額外的研究計畫及主要候選藥物，並提名開發候選藥物；",
+    "• 進一步發展我們的RNA編輯平台OPERA；• 維護、擴張、執行、防禦及保護我們的智慧財產權組合；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,203 @@
+{
+ "ticker": "HUMA",
+ "cik": "0001818382",
+ "accession": "0001818382-26-000004",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Business Overview",
+    "Executive Summary",
+    "Our Approach",
+    "Our Proprietary Scientific Technology Platform",
+    "Our Novel Manufacturing Paradigm",
+    "Our Market Opportunity",
+    "Our Product Pipeline",
+    "Clinical Trial",
+    "Design/Phase",
+    "Vascular Trauma",
+    "Dialysis Access",
+    "Peripheral Artery Disease",
+    "Indication #1: Use of ATEV to Repair Extremity Vascular Trauma",
+    "V005 Trial Results:",
+    "30-Day Endpoint",
+    "ATEV Extremity Group (n=51)",
+    "Synthetic Graft Benchmark (%)",
+    "ATEV Extremity Group (n=54) (%)*",
+    "Adverse Event",
+    "V005 Trial - ATEV Extremity Group (n=51)",
+    "Number of Patients (%)",
+    "V017 Background and Results:",
+    "ATEV Extremity Group (%)",
+    "V017 Trial - ATEV Extremity Group (n=16)",
+    "Outcome Day 30",
+    "Combined ATEV (n=67)",
+    "Synthetic Graft",
+    "Proposed Indication #2: Use of the ATEV for AV Access for Hemodialysis",
+    "Synthetic Grafts"
+   ],
+   "paragraphs": [
+    "Humacyte, Inc. is a commercial-stage biotechnology platform company developing universally implantable, bioengineered human tissues at commercial scale, and in the first quarter of 2025 commenced the United States commercial launch of our first FDA-approved product. We are pioneering the development and manufacture of off-the-shelf, universally implantable, bioengineered human tissues, advanced tissue constructs and organ systems with the goal of improving the lives of patients and transforming the practice of medicine. We believe our regenerative medicine technology has the potential to overcome limitations in existing standards of care and address the lack of significant innovation in products that support tissue repair, reconstruction and replacement. We are leveraging our novel, scalable technology platform to develop proprietary, bioengineered, acellular human tissues for use in the treatment of diseases and conditions across a range of anatomic locations in multiple therapeutic areas.",
+    "We are initially using our proprietary, scientific technology platform to engineer and manufacture acellular tissue engineered vessels, or ATEVs. On December 19, 2024, the FDA granted full approval for the ATEV under the brand name Symvess® for use in adults as a vascular conduit for extremity arterial injury when urgent revascularization is needed to avoid imminent limb loss, and autologous vein graft is not feasible. Our ATEVs are designed to be easily implanted into any patient without inducing a foreign body response or leading to immune rejection. We are developing a portfolio, or \"cabinet\", of ATEVs with varying diameters and lengths. The ATEV cabinet is initially targeting the vascular repair, reconstruction and replacement market, including vascular trauma, arteriovenous (\"AV\") access for hemodialysis, and peripheral artery disease (\"PAD\"). We are also developing the ATEV for coronary artery bypass grafting (\"CABG\") and pediatric heart surgery. Over the longer term, we are developing our ATEV for the delivery of cellular therapies, including pancreatic islet cell transplantation to treat Type 1 diabetes (our BioVascular Pancreas or \"BVPTM\"). We will continue to explore the application of our technology across a broad range of markets and indications including the development of urinary conduit, trachea, esophagus and other novel cell delivery systems.",
+    "For the ATEV, we believe there is substantial clinical demand for safe and effective vascular conduits to replace and repair blood vessels throughout the body. Vascular injuries resulting from trauma are common in civilian and military populations, frequently resulting in the loss of either life or limb. Existing treatment options in the vascular repair, reconstruction and replacement market include the use of autologous vessels and synthetic grafts, which we believe suffer from significant limitations. For example, the use of autologous veins to repair traumatic vascular injuries can lead to significant morbidity associated with the surgical wounds created for vein harvest and prolonged times to restore blood flow to injured limbs, leading to an increased risk of complications such as amputation and reperfusion injury. In addition, in many instances of vascular trauma the patient may not have adequate vein available, or the time between injury and treatment is too long to make autologous graft repair feasible. Synthetic grafts are often contraindicated in the setting of vascular trauma due to wound contamination that contributes to higher infection risk that can lead to prolonged hospitalization and limb loss. Given the competitive advantages our ATEVs are designed to have over existing vascular substitutes, we believe that ATEVs have the potential to become the standard of care and lead to improved patient outcomes and lower healthcare costs.",
+    "As of December 31, 2025, our ATEVs have been implanted in approximately 636 patients in clinical trials as well as additional patients following the U.S. commercial launch of Symvess in the vascular trauma indication. In addition to vascular trauma, we are currently conducting a Phase 3 trial of our 6 millimeter ATEV in AV access for hemodialysis, and previously completed Phase 2 trials in PAD. We were granted Fast Track designation by the FDA for our 6 millimeter ATEV for use in AV access for hemodialysis in 2014. We also received the first Regenerative Medicine Advanced Therapy (\"RMAT\") designation from the FDA, for the creation of vascular access for performing hemodialysis, in March 2017. In May 2023, we were granted the RMAT designation for the ATEV for urgent arterial repair following extremity vascular trauma, and in June 2024, we were granted the RMAT designation for the ATEV for patients with advanced PAD. In addition, in 2018 our ATEV product candidate was assigned a priority designation by the Secretary of Defense under Public Law 115-92, enacted to expedite the FDA's review",
+    "of products that are intended to diagnose, treat or prevent serious or life-threatening conditions facing American military personnel. We received our first FDA approval of the ATEV on December 19, 2024, a full approval for Symvess (acellular tissue engineered vessel-tyod) for use in adults as a vascular conduit for extremity arterial injury when urgent revascularization is needed to avoid imminent limb loss, and autologous vein graft is not feasible.",
+    "In April 2023, we announced completion of enrollment of our V007 Phase 3 trial of the ATEV for use in AV access for hemodialysis. In July 2024, we announced positive topline results from our V007 Phase 3 trial, where the ATEV met the co-primary endpoints in the study. Dependent upon interim results from our ongoing V012 Phase 3 trial of the ATEV for use in AV access for hemodialysis in women, we plan to submit a supplemental BLA for the ATEV to the FDA for an indication in AV access for hemodialysis in the second half of 2026.",
+    "We have developed a novel paradigm for manufacturing human tissues that is intended to mimic key aspects of human physiology. We have an 83,000 square foot bioprocessing facility housing our modular manufacturing process with the ability to manufacture ATEVs of different diameters and lengths at commercial scale. As we continue to expand production, we believe we will have the ability to take advantage of economies of scale to reduce costs of production. We believe our established, controlled manufacturing process demonstrates a significant competitive advantage in the regenerative medicine market.",
+    "Our technology is protected by our patent portfolio, which includes certain patents licensed from parties as well as intellectual property generated internally at Humacyte. Our patent portfolio is comprised of 15 families of patents, many of which generally relate to the scaffolds used to make Symvess and our product candidates, the composition of Symvess and our product candidates and systems and methods of manufacturing Symvess and our product candidates. For more information, see \"— Intellectual Property\" below.",
+    "We intend to continue to shape our commercial and distribution strategy by indication and pursue collaborations with partners in markets where such partners provide strategic opportunities in launching our product candidates and enabling access to specific patient populations.",
+    "Our world-class senior management team and board of directors will be instrumental in helping us achieve our goals. Our President and Chief Executive Officer, Laura Niklason M.D., PhD., who founded Legacy Humacyte (as defined below), is an internationally respected physician scientist and a world leader in regenerative medicine technologies. Dr. Niklason is also a member of three national academies — Inventors, Medicine and Engineering. Our current Chair of the Board is Kathleen Sebelius, the former Secretary of the Department of Health and Human Services (\"HHS\"), and the former Governor of Kansas.",
+    "On August 26, 2021 (the \"Closing Date\"), Humacyte, Inc. (\"Legacy Humacyte\") and Alpha Healthcare Acquisition Corp. (\"AHAC\"), consummated a merger pursuant to that certain Business Combination Agreement, dated as of February 17, 2021 (the \"Merger Agreement\"), by and among Legacy Humacyte, AHAC and Hunter Merger Sub (\"Merger Sub\"), a wholly owned subsidiary of AHAC. As contemplated by the Merger Agreement, Merger Sub merged with and into Legacy Humacyte, with Legacy Humacyte continuing as the surviving corporation and as a wholly owned subsidiary of AHAC (the \"Merger\" and collectively with the other transactions described in the Merger Agreement, the \"Reverse Recapitalization\"). On the Closing Date, AHAC changed its name to Humacyte, Inc. and Legacy Humacyte changed its name to Humacyte Global, Inc.",
+    "Unless the context indicates otherwise, references in this Annual Report on Form 10-K to the \"Company,\" \"Humacyte,\" \"we,\" \"us,\" \"our\" and similar terms refer to Humacyte, Inc. (formerly known as Alpha Healthcare Acquisition Corp.) and its consolidated subsidiaries (including Humacyte Global, Inc.) following the Merger. References to \"AHAC\" refer to Alpha Healthcare Acquisition Corp. prior to the Merger.",
+    "We have developed an approach that relies on two key complementary elements to address the significant market opportunity for the global treatment of patients in need of vascular replacement, repair and reconstruction, vascular access for dialysis and potential future indications including complex tissue and organ replacement and treatment of Type-1 diabetes:",
+    "• our proprietary scientific and engineering technology platform allows us to grow human tissues, which are ultimately decellularized and therefore expected to be non-immunogenic and universally implantable; and"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Summary of Risk Factors",
+    "Risks Related to the Development of Symvess and Commercialization of Our Product Candidates",
+    "Symvess and our product candidates, if approved, may fail to achieve the degree of market acceptance by physicians, patients, third-party payors and others in the medical community necessary for commercial success.",
+    "We may be subject to enforcement action, civil liability, regulatory investigation and penalties if we engage in the off-label promotion of Symvess.",
+    "If SAEs occur at an unacceptable rate or other unacceptable side effects are identified in our ATEVs we may need to delay, abandon or limit development and marketing of our product candidates.",
+    "We may experience delays or difficulties in the enrollment of patients in our clinical trials, which may delay or prevent additional clinical trials and our receipt of necessary marketing approvals.",
+    "We may not be successful in our efforts to use our proprietary scientific technology platform to build a pipeline of additional product candidates.",
+    "Our distribution agreement with Fresenius Medical Care imposes obligations on us that may restrict our ability to operate our business in ways we believe to be in our long-term best interest.",
+    "Risks Related to Manufacturing Symvess and Our Product Candidates",
+    "Risks Related to Our Reliance on Third Parties"
+   ],
+   "paragraphs": [
+    "Our operations and financial results are subject to a high degree of risk. These risks include, but are not limited to, those described below, each of which may have a material and adverse effect on our business, prospects, operating results, financial condition and the trading price of our securities. You should carefully consider the risks described below, together with all of the other information included in this Annual Report on Form 10-K. The risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties not presently known to us or that we currently believe to be immaterial may also adversely affect our business. In that event, the trading price of our securities could decline and you could lose all or part of your investment.",
+    "The following is a summary of the principal risks to which our business, operations and financial performance are subject. Each of these risks is more fully described in the individual risk factors immediately following this summary.",
+    "• We have incurred significant losses to date. We expect to continue to incur losses for the foreseeable future and may never generate significant product revenue or be profitable. We will need to raise additional capital to finance our operations, which we may not be able to do on acceptable terms or at all.",
+    "• Our near-term prospects are dependent on the success of Symvess, our sole FDA-approved product, and if we are unable to increase sales in the vascular trauma indication and obtain regulatory approval for Symvess in additional indications, our business, operating results and financial condition will be materially harmed.",
+    "• Symvess and our product candidates, if approved, may fail to achieve the degree of market acceptance by physicians, patients, third-party payors and others in the medical community necessary for commercial success.",
+    "• If we are found or alleged to have improperly promoted off-label uses, we may become subject to significant liability."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Cautionary Statement Regarding Forward-Looking Statements",
+    "Recent Developments",
+    "Components of Results of Operations",
+    "Results of Operations",
+    "Year Ended December 31,",
+    "($ in thousands)",
+    "Operating expenses:",
+    "Loss from operations",
+    "Direct Expenses",
+    "Unallocated Expenses",
+    "Total research and development expenses",
+    "Liquidity and Capital Resources",
+    "Critical Accounting Estimates"
+   ],
+   "paragraphs": [
+    "On March 4, 2026, we received a minimum purchase commitment of approximately $1.48 million of the Symvess ATEV to enable the education of surgeons, and the evaluation of Symvess by hospitals, in the Kingdom of Saudi Arabia (the \"KSA\"). The evaluation of Symvess is planned to be conducted in parallel with ongoing negotiations with a KSA-based entity for establishment of a joint venture and license to commercialize Symvess within the country. We have agreed to not engage in negotiation of commercialization rights within the KSA with any other party through July 2, 2026. Although the purchase commitment described above is binding, the establishment of a joint venture and license and the finalization of definitive terms are subject to further negotiation between the parties as well as the execution of definitive agreements between the KSA-based entity and us.",
+    "On March 16, 2026, we filed a Marketing Authorization Application (\"MAA\") with the Ministry of Health of the State of Israel for approval of Symvess for the vascular trauma indication. In response to requests from surgeons, we are also pursuing methods of making Symvess available on a hospital-by-hospital basis in advance of any future MAA approval in Israel.",
+    "On March 19, 2026, we delivered written notice to TD Securities (USA) LLC, as agent (\"TD Cowen\"), that we were suspending and terminating the prospectus, dated December 16, 2025 (the \"ATM Prospectus\"), relating to the sale of up to $60 million of Common Stock, that may be issued and sold pursuant to the Sales Agreement, dated as of December 16, 2025, by and between us and TD Cowen (the \"Sales Agreement\"). We will not make any further sales of Common Stock pursuant to the Sales Agreement unless and until a new prospectus, prospectus supplement or registration statement is filed. Other than the suspension and termination of the ATM Prospectus, the Sales Agreement remains in full force and effect.",
+    "Also on March 19, 2026, we entered into certain securities purchase agreements, pursuant to which we agreed to issue and sell to certain investors in a registered direct offering 25,000,000 shares of Common Stock at a price of $0.80 per share. The net proceeds to us were approximately $18.4 million, after deducting the placement agent's fees and estimated offering expenses payable by us. The offering closed on March 20, 2026."
+   ],
+   "focus": "Recent Developments"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Business Overview': '業務概覽'}",
+    "{'Executive Summary': '執行摘要'}",
+    "{'Our Approach': '我們的策略'}",
+    "{'Our Proprietary Scientific Technology Platform': '我們的專有科學技術平台'}",
+    "{'Our Novel Manufacturing Paradigm': '我們的創新製造模式'}",
+    "{'Our Market Opportunity': '我們的市場機會'}",
+    "{'Our Product Pipeline': '我們的產品開發路線圖'}",
+    "{'Clinical Trial': '臨牀試驗'}",
+    "設計/階段",
+    "血管創傷",
+    "透析通路",
+    "外周動脈疾病",
+    "適應症 #1: 使用 ATEV 修復肢體血管創傷",
+    "V005 試驗結果:",
+    "30 天終點",
+    "ATEV 肢體組 (n=51)",
+    "合成移植物基準 (%)",
+    "ATEV 下肢羣組 (n=54) (%) *",
+    "不良事件",
+    "V005 試驗 - ATEV 下肢羣組 (n=51)",
+    "患者數 (%)",
+    "V017 背景與結果:",
+    "ATEV 下肢羣組 (%)",
+    "V017 試驗 - ATEV 下肢羣組 (n=16)",
+    "第30天結果",
+    "合併ATEV（n=67）",
+    "{'original': 'Synthetic Graft', 'translated': '合成移植物'}",
+    "{'original': 'Proposed Indication #2: Use of the ATEV for AV Access for Hemodialysis', 'translated': '擬議適應症 #2：ATEV 用於血液透析之動靜脈通路'}",
+    "{'original': 'Synthetic Grafts', 'translated': '合成移植物'}"
+   ],
+   "paragraphs": [
+    "Humacyte, Inc. 為一家商業階段的生物科技平台公司，開發可廣泛植入、生物工程製造的人類組織，於2025年第一季開始在美國商業發售我們首款美國食品藥物管理局（FDA）核准的產品。我們正在開創性地開發與製造現成、可廣泛植入、生物工程製造的人類組織、先進組織結構與器官系統，目標為改善病患生活並革新醫療實踐。我們相信我們的再生醫學技術有潛力克服現有醫療標準的限制，並解決支持組織修復、重建與替換產品中缺乏重大創新問題。我們正利用我們的創新、可擴充技術平台，開發專屬的生物工程製造、無細胞人類組織，用於治療多種解剖部位的疾病與病症。",
+    "我們最初使用我們專屬的科學技術平台，工程製造無細胞組織工程血管（ATEVs）。2024年12月19日，美國食品藥物管理局（FDA）核准ATEV在品牌名稱Symvess®下，用於成人作為血管導管，用於肢體動脈傷害時，若需緊急再灌流以避免即將失去肢體，且自體靜脈移植不可行的情況。我們的ATEVs設計為可輕易植入任何病患，不會引發異物反應或導致免疫排斥。我們正在開發一個產品組合（或稱為\"櫃\"），包含不同直徑與長度的ATEVs。ATEV櫃最初目標為血管修復、重建與替換市場，包括血管外傷、動靜脈（\"AV\"）通路用於血液透析，以及外周動脈疾病（\"PAD\"）。我們也在開發ATEV用於冠狀動脈繞道手術（\"CABG\"）與小兒心臟手術。長期而言，我們正在開發ATEV用於細胞治療的遞送，包括胰島細胞移植以治療第一型糖尿病（我們的BioVascular Pancreas或\"BVPTM\"）。我們將持續探索我們技術在廣泛市場與適應症中的應用，包括尿道導管、氣管、食道及其他新型細胞遞送系統的開發。",
+    "對於ATEV，我們相信對安全有效的血管導管有顯著的臨牀需求，用於替換與修復全身血管。血管傷害在平民與軍事人口中相當常見，經常導致生命或肢體的喪失。現有血管修復、重建與替換市場的治療選項包括使用自體血管與合成移植物，我們認為這些選項有顯著的限制。例如，使用自體靜脈修復外傷性血管傷害可能導致與靜脈採集手術相關的重大併發症，以及恢復受傷肢體血液流動的時間延長，導致截肢與再灌流傷害的風險增加。此外，在許多血管外傷案例中，患者可能缺乏足夠的靜脈，或傷後至治療的時間過長，使自體移植物修復不可行。合成移植物在血管外傷情況下常被禁忌，因傷口污染會增加感染風險，導致住院時間延長與肢體喪失。考慮到我們ATEVs相比現有血管替代品的競爭優勢，我們相信ATEVs有潛力成為標準療法，並改善病患結果與降低醫療成本。",
+    "截至2025年12月31日，我們的ATEVs已在臨牀試驗中植入約636名病患，以及在美國Symvess商業發售後的其他病患，用於血管外傷適應症。除了血管外傷，我們目前正在進行6毫米ATEV的第三期試驗，用於血液透析的動靜脈（\"AV\"）通路，並已完成PAD的第二期試驗。我們在2014年獲得FDA對6毫米ATEV用於血液透析的動靜脈（\"AV\"）通路的快速通道（Fast Track）認可。我們也在2017年3月獲得美國食品藥物管理局（FDA）對血管通路用於血液透析的再生醫學先進療法（\"RMAT\"）認可。2023年5月，我們獲得FDA對ATEV用於緊急動脈修復後肢體血管外傷的RMAT認可，2024年6月，我們獲得FDA對ATEV用於晚期PAD患者的RMAT認可。此外，2018年我們的ATEV產品候選品被國防部部長根據公共法115-92賦予優先認可，該法旨在加速FDA對診斷、治療或預防美國軍事人員所面臨的嚴重或致命疾病的產品審查。",
+    "2024年12月19日，我們獲得ATEV的首個FDA核准，核准Symvess（無細胞組織工程血管）用於成人作為血管導管，用於肢體動脈傷害時，若需緊急再灌流以避免即將失去肢體，且自體靜脈移植不可行的情況。",
+    "2023年4月，我們宣佈完成用於血液透析動靜脈（\"AV\"）通路的ATEV V007第三期試驗的入組。2024年7月，我們宣佈在V007第三期試驗中，ATEV達成研究的共同主要終點。根據我們持續進行的V012第三期試驗在女性中對用於血液透析動靜脈（\"AV\"）通路的ATEV的中期結果，我們計畫於2026年下半年向FDA提交ATEV的附加新藥申請（BLA），以核准用於血液透析動靜脈（\"AV\"）通路的適應症。",
+    "我們已開發出一種製造人類組織的新模式，旨在模擬人類生理的關鍵方面。我們擁有83,000平方英尺的生物製造設施，內含我們的模組化製造流程，可於商業規模製造不同直徑與長度的ATEVs。隨著我們持續擴大生產，我們相信我們將能利用規模經濟來降低生產成本。我們相信我們已建立、受控的製造流程在再生醫學市場中具有顯著的競爭優勢。",
+    "我們的技術受到我們專利組的保護，包括從第三方取得的專利以及Humacyte內部產生的智慧財產權。我們的專利組包含15組專利，許多專利與製造Symvess及我們產品候選品所使用的支架、Symvess及我們產品候選品的組成、以及製造Symvess及我們產品候選品的系統與方法有關。如需更多資訊，請參閱\"—智慧財產權\"部分。",
+    "我們意圖持續透過指標來塑造我們的商業與分銷策略，並尋求與在特定市場中能提供戰略機會的夥伴合作，以推動我們的產品候選品項上市，並使我們能接觸特定病患族羣。",
+    "我們的世界級高階管理團隊與董事會將在協助我們達成目標上扮演關鍵角色。我們的總裁兼首席執行長 Laura Niklason 醫學博士、哲學博士，為 Legacy Humacyte（如下所定）的創辦人，是一位國際知名的醫學科學家，也是再生醫學技術的全球領導者。Niklason 博士同時也是三個國家學會的成員 —— 發明家學會、醫學學會與工程學會。我們現任董事會主席為 Kathleen Sebelius，曾任美國衛生與人服務部（\"HHS\"）部長，並曾任堪薩斯州州長。",
+    "於 2021 年 8 月 26 日（\"成交日\"），Humacyte, Inc.（\"Legacy Humacyte\"）與 Alpha Healthcare Acquisition Corp.（\"AHAC\"）根據 2021 年 2 月 17 日簽訂的業務合併協議（\"合併協議\"），完成合併。合併協議由 Legacy Humacyte、AHAC 與 Hunter Merger Sub（\"合併子公司\"）簽訂，合併子公司為 AHAC 的全資子公司。根據合併協議的預期，合併子公司與 Legacy Humacyte 合併，Legacy Humacyte 繼續作為存續公司，並成為 AHAC 的全資子公司（\"合併\"），與合併協議中所描述的其他交易 collectively 稱為 \"反向重組\"（\"Reverse Recapitalization\"）。於成交日，AHAC 更名為 Humacyte, Inc.，Legacy Humacyte 更名為 Humacyte Global, Inc.",
+    "除非文意另有明確指示，否則本年度報告 10-K 中提及 \"本公司\"、\"Humacyte\"、\"我們\"、\"我們\"、\"我們\" 及類似詞彙，均指 Humacyte, Inc.（原名為 Alpha Healthcare Acquisition Corp.）及其合併後的子公司（包括 Humacyte Global, Inc.）。提及 \"AHAC\" 則指合併前的 Alpha Healthcare Acquisition Corp.",
+    "我們已發展出一種方法，透過兩個關鍵且互補的要素來應對血管替代、修復與重建、血液透析用血管通路，以及未來潛在指徵（包括複雜組織與器官替代，以及 Type-1 糖尿病治療）的全球市場機會：",
+    "• 我們的專有科學與工程技術平台使我們能夠生長人類組織，這些組織最終會被去細胞化，因此預期不會引發免疫反應，且可普遍植入。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "警示聲明：關於未來展望之陳述",
+    "近期發展",
+    "營運成果之組成項目",
+    "營運成果",
+    "截至12月31日之會計年度",
+    "（金額單位為千美元）",
+    "營運費用：",
+    "營運虧損",
+    "直接費用",
+    "未分配費用",
+    "總研究與開發費用",
+    "流動性及資本資源",
+    "關鍵會計估計"
+   ],
+   "paragraphs": [
+    "於 2026 年 3 月 4 日，本公司收到約 1.48 百萬美元的 Symvess ATEV 最低購買承諾，用以協助外科醫生教育及讓醫院評估 Symvess 在沙特阿拉伯王國（\"KSA\"）的應用。Symvess 的評估計畫將與與 KSA 本地機構進行設立合資企業及取得商業化許可的談判同時進行。本公司已同意在 2026 年 7 月 2 日前不與任何其他方進行 KSA 內商業化權利的談判。雖然上述購買承諾為具約束力，但設立合資企業及取得許可以及最終條款的確定仍需雙方進一步談判，以及 KSA 本地機構與本公司之間簽訂最終協議。",
+    "於 2026 年 3 月 16 日，本公司向以色列國衛生部提交 Marketing Authorization Application（\"MAA\"），以取得 Symvess 用於血管創傷適應症的批准。應外科醫生的要求，本公司也正在尋求方法，使 Symvess 能在任何未來 MAA 批准前，以醫院為單位提前提供。",
+    "於 2026 年 3 月 19 日，本公司向 TD Securities (USA) LLC（作為代理人（\"TD Cowen\"））發出書面通知，表示本公司將中止並終止 2025 年 12 月 16 日簽訂的、關於發行及銷售最高 60 百萬美元普通股的 prospectus（\"ATM Prospectus\"），該 prospectus 係根據 2025 年 12 月 16 日本公司與 TD Cowen 簽訂的 Sales Agreement（\"Sales Agreement\"）所發行及銷售。除非並直到本公司提交新的 prospectus、prospectus supplement 或註冊聲明，否則本公司不會根據 Sales Agreement 進行任何進一步的普通股銷售。除了 ATM Prospectus 的中止及終止外，Sales Agreement 預期仍完全有效。",
+    "同時於 2026 年 3 月 19 日，本公司與部分投資者簽訂某些證券購買協議，根據協議，本公司同意發行並銷售 25,000,000 股普通股，每股價格為 0.80 美元。扣除 Placement Agent 費用及本公司預計支付的發行費用後，本公司所收取的淨資金約為 18.4 百萬美元。該發行於 2026 年 3 月 20 日完成。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與 Symvess 開發及產品候選藥物商業化相關的風險",
+    "Symvess 及我們的產品候選藥物，即使獲得批准，可能無法獲得醫療界包括醫生、病人、第三方付款者及其他相關人士所需的市場接受度，以實現商業成功。",
+    "如果我們從事 Symvess 的非標籤宣傳，我們可能面臨執行行動、民事責任、監管調查及處罰。",
+    "如果 ATEVs 中嚴重不良事件發生率過高，或發現其他不可接受的副作用，我們可能需要延遲、放棄或限制我們產品候選藥物的開發與行銷。",
+    "我們可能在臨牀試驗中遭遇患者招募的延遲或困難，這可能延遲或阻止進一步的臨牀試驗及我們取得必要行銷許可。",
+    "我們可能無法成功運用我們的專有科學技術平台來建立更多產品候選藥物的開發管道。",
+    "我們與 Fresenius Medical Care 的分銷協議對我們設有義務，可能限制我們以我們認為符合長期最佳利益的方式經營業務。",
+    "{'translatedText': '與製造 Symvess 以及我們產品候選品相關的風險'}",
+    "{'translatedText': '與我們依賴第三方相關的風險'}"
+   ],
+   "paragraphs": [
+    "本公司之營運及財務結果面臨高度風險。這些風險包括但不限於下列所列，每一項都可能對本公司之業務、前景、營運結果、財務狀況及證券交易價格造成重大且不利之影響。請您謹慎考量下列所列風險，並與本年度10-K表報表中所包含之其他資訊一併考量。下列所列風險與不確定性並非本公司所面臨之唯一風險。尚有其他風險與不確定性，目前本公司尚未知悉，或目前認為不重要，但亦可能對本公司業務造成不利影響。若發生此種情況，本公司證券之交易價格可能下跌，您可能損失全部或部分投資。",
+    "下列為對本公司業務、營運及財務表現所面臨之主要風險之總結。這些風險在下列所列個別風險因素中均有更詳細之說明。",
+    "• 本公司迄今已產生重大虧損。本公司預期將在可預見之未來持續產生虧損，並可能永遠無法產生重大產品收入或實現盈利。本公司將需要籌措額外資金以支應營運，而本公司可能無法在合適之條件下或完全無法做到此項。",
+    "• 本公司短期前景依賴於本公司唯一獲FDA核准之產品Symvess之成功。若本公司無法在血管傷害適應症中增加銷售，並取得Symvess在其他適應症之監管核准，將對本公司之業務、營運結果及財務狀況造成重大損害。",
+    "• Symvess及本公司之產品候選藥物，若獲核准，可能無法達到醫界包括醫師、病人、第三方付款者及其他相關人士所必需之市場接受度，以實現商業成功。",
+    "• 若本公司被認為或被指控不當促銷未經核准之用途，本公司可能面臨重大法律責任。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

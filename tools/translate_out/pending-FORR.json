@@ -1,0 +1,189 @@
+{
+ "ticker": "FORR",
+ "cik": "0001023313",
+ "accession": "0001193125-26-105114",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Market Overview",
+    "Forrester's Strategy and Business Model",
+    "Our Products and Services",
+    "Sales and Marketing",
+    "Pricing and Contracts",
+    "Intellectual Property",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Forrester Research, Inc. is a global independent research and advisory firm. We empower leaders in technology, customer experience, digital, marketing, sales, and product functions to accelerate growth through customer obsession. Forrester's unique research and continuance guidance model helps executives and their teams achieve their initiatives and outcomes faster and with confidence.",
+    "Our common stock is listed on Nasdaq Global Select Market under the symbol \"FORR\".",
+    "We believe that market dynamics — from empowered customers and changing business-to-business buying behaviors to rapid advancements in AI — have fundamentally changed the business and technology landscape. These dynamics demand that leaders architect change rather than react to disruption.",
+    "In this era of continuous disruption, AI and public large language models (\"LLMs\") are increasingly positioned as decision support partners, despite lacking the accuracy, the human judgment, and the reliability needed to make confident business decisions. To win, serve, and retain customers in this environment, we believe that organizations and their leaders have an increasing need for trusted guidance and insights grounded in objective sources, and rigorous data and research analysis, to help them make confident decisions that put customer value first. We believe that Forrester is well positioned to address this need through its complementary combination of trusted human intelligence (\"HI\") and AI.",
+    "The foundation of our business model is our ability to help business and technology leaders and their teams tackle their most pressing priorities and drive growth through customer obsession. Forrester's offerings are rooted in rigorous methodologies, extensive surveys, proprietary data, and trusted human insights. Our proprietary research, consulting, and events portfolio, combined with our generative AI capabilities, equip clients with trusted insights and advice to help them to go faster, to win, serve and retain customers, and to reduce risk and costs. This, in turn, creates a system to expand contract value (\"CV\"), which we view as our most significant business metric.",
+    "Generally speaking, we define CV products as those services that our clients use over a year's time and that are renewable periodically, usually on an annual basis. Our CV products primarily consist of our subscription research products, while our non-CV businesses, consulting and events, play critical complementary roles in driving our CV growth.",
+    "With respect to our clients, multi-year CV product relationships enable us to help our clients formulate their vision for the future and then translate those plans into implementation and outcomes over time. For our investors, we believe that CV growth will result in predictable and profitable revenue streams.",
+    "Our business model is built on the premise that an increase in CV generates more cash which can then be invested in improving our go-to-market structure (activities including sales, product, and marketing) and creating CV products that clients renew year after year—repeating the cycle and driving the model forward. We refer to this model as our \"CV growth engine\" and to the difference in CV between two points in time as net contract value increase, or \"NCVI.\"",
+    "We strive to be an indispensable source that business and technology leaders and their teams across functions, including technology, customer experience, digital, marketing, sales, and product, worldwide turn to for ongoing guidance to plan and operate more effectively.",
+    "We deliver our products and services globally through three business segments – Research, Consulting and Events.",
+    "For more than 40 years, Forrester has been providing objective, independent and data-driven research insights utilizing both qualitative and quantitative data. We adhere to rigorous, unbiased research methodologies that are transparent and publicly accessible to ensure consistent research quality across markets, technologies, and geographies.",
+    "Our primary subscription research service is Forrester Decisions. This portfolio of research services is designed to provide business and technology leaders with a proven path to growth through customer obsession. Key content available via online access includes:",
+    "• future trends, predictions, and market forecasts; • deep consumer and business buyer data and insights;",
+    "• curated best practice models and tools to run business functions; • operational and performance benchmarking data; and"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Specific to our Business",
+    "General Risk Factors"
+   ],
+   "paragraphs": [
+    "We operate in a rapidly changing and competitive environment that involves risks and uncertainties, certain of which are beyond our control. These risks and uncertainties could have a material adverse effect on our business and our results of operations and financial condition. These risks and uncertainties include, but are not limited to:",
+    "A Decline in Renewals or Demand for Our Subscription-Based Research Services. Our success depends in large part upon retaining (on both a client company and contract value basis) existing subscriptions for our Research products and services, and increasing the contract value of subscriptions for our Research products and services from both existing and new clients. This success depends on a variety of factors, including our ability to continue to provide credible and reliable information and insight that is useful to our clients. Regardless of cause, our results of operations and financial condition would be adversely impacted if we are not able to retain existing subscriptions or generate demand for and new sales of our subscription-based products and services.",
+    "Demand for Our Consulting Services. Consulting revenues comprised 22% of our total revenues in 2025 and 23% of our total revenues in 2024. Consulting engagements generally are project-based and non-recurring. A decline in our ability to fulfill existing or generate new consulting engagements to replace expiring consulting agreements could have an adverse effect on our results of operations and financial condition.",
+    "Our Business May be Adversely Affected by the Economic Environment. Our business is in part dependent on technology spending and is impacted by economic conditions such as inflation, slowing growth, changes in interest rates, trade policies and tariffs, threat of recession and supply chain issues that may impact us and our customers. The economic environment may materially and adversely affect demand for our products and services. If conditions in the United States and the global economy were to lead to a decrease in technology spending, or in demand for our products and services, this could have an adverse effect on our results of operations and financial condition. Although we do not have any employees or material client relationships in Russia or Ukraine and only a limited presence in the Middle East, the conflicts between Russia and Ukraine, between Israel and Gaza, and between United States and Iran, may cause negative effects on both the United States and the global economy that could materially and adversely affect our business.",
+    "Our International Operations Expose Us to a Variety of Operational Risks which Could Negatively Impact Our Results of Operations. As of December 31, 2025, we have clients in approximately 68 countries and approximately 23% of our revenues come from international sales. Our operating results are subject to the risks inherent in international business activities, including general political and economic conditions in each country, challenges in staffing and managing foreign operations, changes in regulatory requirements, compliance with numerous foreign laws and regulations, differences between U.S. and foreign tax rates and laws, trade policies and tariffs, fluctuations in currency exchange rates, difficulty of enforcing client agreements, collecting accounts receivable and protecting intellectual property rights in international jurisdictions, and potential disruptions caused by foreign wars and conflicts. Furthermore, we rely on local independent sales representatives in some international locations. If any of these arrangements are terminated by our representatives or us, we may not be able to replace the arrangement on beneficial terms or on a timely basis, or clients sourced by the local sales representative may not want to continue to do business with us or our new representative.",
+    "Ability to Develop and Offer New Products and Services. Our future success will depend in part on our ability to offer new products and services. These new products and services must successfully gain market acceptance by anticipating and identifying changes in client requirements and changes in the technology industry and by addressing specific industry and business organization sectors. The process of internally researching, developing, launching, and gaining client acceptance of a new product or service, or assimilating and marketing an acquired product or service, is risky and costly. We may not be able to introduce new, or assimilate acquired, products or services successfully. Our failure to do so would adversely affect our ability to maintain a competitive position in our market and continue to grow our business."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "December 31,",
+    "Critical Accounting Estimates",
+    "Results of Operations for the years ended December 31, 2025 and 2024",
+    "2025 compared to 2024",
+    "(dollars in millions)",
+    "Cost of Services and Fulfillment",
+    "Selling and Marketing",
+    "General and Administrative",
+    "Depreciation",
+    "Amortization of Intangible Assets",
+    "Goodwill Impairment",
+    "Restructuring",
+    "Loss From Sale of Divested Operation",
+    "Interest Expense",
+    "Other Income, Net",
+    "Credit Loss Expense on Note Receivable",
+    "Gains on Investments, Net",
+    "Income Tax Expense (Benefit)",
+    "Segment Results",
+    "Consolidated",
+    "Year Ended December 31, 2025",
+    "(In thousands, except percentages)",
+    "Year Ended December 31, 2024",
+    "(In thousands)",
+    "Liquidity and Capital Resources",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "We derive revenues from subscriptions to our Research products and services, subscriptions to, and individual licenses of, electronic \"reprints\" of our Research, performing consulting projects and advisory services, and hosting events. We offer contracts for our products as either multi-year contracts or annual contracts, which are typically payable in advance on an annual basis. For certain contracts, we offer to invoice the contract price in multiple invoices throughout the year. Billings in excess of revenue recognized are recorded as deferred revenue. Subscription products are recognized as revenue over the term of the contract. Individual reprint licenses include an obligation to deliver a customer-selected research document and certain usage data provided through our platform, which represents two performance obligations. We recognize revenue for the performance obligation for the data portion of the reprint ratably over the license term. We recognize revenue for the performance obligation for the research document at the time of providing access to the document. Clients purchase consulting projects and advisory services independently and/or to supplement their access to our subscription-based products. Consulting project revenues, which are based upon fixed-fee agreements, are recognized as the services are provided. Advisory service revenues, such as speeches and advisory days, are recognized when the service is complete. Events revenues consist of ticket and sponsorship sales for a Forrester-hosted event, and revenue is recognized upon completion of each event.",
+    "Our primary operating expenses consist of cost of services and fulfillment, selling and marketing expenses, and general and administrative expenses. Cost of services and fulfillment represents the costs associated with the production and delivery of our products and services, including salaries, bonuses, employee benefits, and stock-based compensation expense for all personnel that produce and deliver our products and services, including all associated editorial, travel, and support services. Selling and marketing expenses include salaries, sales commissions, bonuses, employee benefits, stock-based compensation expense, travel expenses, promotional costs, and other costs incurred in marketing and selling our products and services. General and administrative expenses include the costs of the technology, operations, finance, and human resources groups and our other administrative functions, including salaries, bonuses, employee benefits, and stock-based compensation expense. Overhead costs such as facilities, net of sublease income, and annual fees for cloud-based information technology systems are allocated to these categories according to the number of employees in each group.",
+    "Our key metrics focus on our contract value (\"CV\") products. We are focusing on CV products as these products are our most profitable products and historically our contracts for CV products have renewed at high rates (as measured by our client retention and wallet retention metrics). Our CV products make up essentially all of our research revenues, and research revenues as a percentage of total revenues increased from approximately 73% in 2024 to approximately 75% in 2025.",
+    "We calculate CV at the foreign currency rates used for internal planning purposes each year. For comparative purposes, we have recast historical CV and wallet retention at the planned 2026 foreign currency rates. We have included the recast metrics below for the period ended December 31, 2024, and we have also provided recast metrics dating back to the fourth quarter of 2023 on the investor relations section of our website.",
+    "Contract value, client retention, wallet retention, and number of clients are metrics that we believe are important to understanding our research business. We define these metrics as follows:",
+    "• Contract value (CV) — is defined as the value attributable to all of our recurring research-related contracts. Contract value is calculated as the annualized value of all contracts in effect at a specific point in time, without regard to how much revenue has already been recognized. Contract value primarily consists of subscription-based products for which revenue is recognized on a ratable basis, except for the entitlements embedded in our subscription products, such as event tickets and advisory sessions, for which the revenue is recognized when the item is delivered. Contract value also includes our reprint products, as these products are used throughout the year by our clients and are typically renewed.",
+    "• Client retention — represents the percentage of client companies (defined as all clients that buy a CV product) at the prior year measurement date that have active contracts at the current year measurement date.",
+    "• Wallet retention — represents a measure of the CV we have retained with clients over a twelve-month period, including increases or decreases in retained client CV during the period. Wallet retention is calculated on a percentage basis by dividing the annualized contract value of our current clients, who were also clients a year ago, by the total annualized contract value from a year ago.",
+    "• Clients — is calculated at the enterprise level as all clients that have an active CV contract.",
+    "Client retention and wallet retention are not necessarily indicative of the rate of future retention of our revenue base. A summary of our key metrics is as follows (dollars in millions):",
+    "Increase Increase 2025 2024 (Decrease) (Decrease) Contract value 292.4 311.9 (19.5 (6 %) Client retention",
+    "4 points Wallet retention (2) points Number of clients 1,797 1,942 (145 (7 %)",
+    "Contract value during 2025 decreased by 6% compared to 2024 due to wallet retention being at 87% for the period (representing retention and enrichment of the prior year CV base) and new client acquisition not fully offsetting the net retention loss. Client retention increased by 4 percentage points compared to the prior year period, and increased by 3 percentage points compared to the prior quarter. We attribute the increase in client retention to our ongoing retention initiatives and to the launch of our AI Access product in the third quarter of 2025. Wallet retention decreased by 2 percentage points compared to the prior year period, however it increased by 1 percentage point compared to the prior quarter. The decline in wallet retention compared to the prior year period was primarily due to lower enrichment of contracts as they renewed during the current year period.",
+    "Management's discussion and analysis of financial condition and results of operations are based upon our consolidated financial statements, which have been prepared in accordance with generally accepted accounting principles in the United States of America (\"GAAP\"). The preparation of these financial statements requires us to make estimates and judgments that affect the reported amounts of assets, liabilities, revenues and expenses, and related disclosure of contingent assets and liabilities. On an ongoing basis, we evaluate our estimates, including but not limited to, those related to our revenue recognition, credit loss on note receivable, and goodwill. Management bases its estimates on historical experience, data available at the time the estimates are made, and various assumptions that are believed to be reasonable under the circumstances, the results of which form the basis for making judgments about the carrying values of assets and liabilities that are not readily apparent from other sources. Actual results may differ from these estimates under different assumptions or conditions."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Market Overview': '市場概觀'}",
+    "{\"Forrester's Strategy and Business Model\": 'Forrester 的策略與商業模式'}",
+    "{'Our Products and Services': '我們的產品與服務'}",
+    "{'Sales and Marketing': '銷售與行銷'}",
+    "{'Pricing and Contracts': '價格與合約'}",
+    "{'Intellectual Property': '智慧財產權'}",
+    "{'Available Information': '可供查閱資訊'}"
+   ],
+   "paragraphs": [
+    "Forrester Research, Inc. 為一間全球性獨立研究與顧問機構。我們協助科技、客戶體驗、數位、行銷、銷售與產品等領域的領導者，透過客戶至上的方式加速成長。Forrester 獨特的研究與持續性指導模式，協助企業高層與其團隊更快且更具信心地達成目標與成果。",
+    "本公司普通股於 Nasdaq Global Select Market 上市，股票代碼為 \"FORR\"。",
+    "我們認為市場動態 — 從賦權的客戶與企業間買方行為的改變，到人工智慧的快速進展 — 已根本改變了商業與科技的環境。這些動態要求領導者主動設計變革，而非被幹擾所動。",
+    "在持續變革的時代，人工智慧與公開大型語言模型（\"LLMs\"）正逐漸被定位為決策支援夥伴，儘管它們缺乏做出自信商業決策所需的準確性、人類判斷力與可靠性。要勝出、服務並留住客戶，我們認為組織與其領導者在這個環境中對基於客觀來源與嚴謹數據與研究分析的可信指導與見解有越來越迫切的需求。我們相信 Forrester 透過其結合可信人類智慧（\"HI\"）與人工智慧的補充組合，能有效回應此需求。",
+    "我們商業模式的基礎，在於我們協助企業與科技領導者及其團隊解決他們最迫切的優先事項，並透過客戶至上的方式推動成長。Forrester 的產品建立在嚴謹的方法論、廣泛的問卷調查、專屬數據與可信人類見解之上。我們的專屬研究、諮詢與活動組合，加上我們的生成式人工智慧能力，為客戶提供可信的見解與建議，協助他們加快速度、勝出、服務並留住客戶，並降低風險與成本。這進而創造出一個擴展契約價值（\"CV\"）的系統，我們視此為最重要的商業指標。",
+    "總體而言，我們將 CV 產品定義為客戶在一年內使用的服務，且通常會定期續約，通常為每年續約一次。我們的 CV 產品主要由我們的訂閱研究產品組成，而我們的非 CV 事業，諮詢與活動，則在推動我們的 CV 成長中扮演關鍵的補充角色。",
+    "就我們的客戶而言，多年期的 CV 產品關係使我們能協助客戶制定未來的願景，並將這些計畫轉化為實踐與成果。就我們的投資者而言，我們認為 CV 成長將產生可預測且獲利的收入來源。",
+    "我們的商業模式建立在一個前提之上，即契約價值的增加會產生更多現金，這些現金可以投資於改善我們的市場推廣結構（包括銷售、產品與行銷活動），並創造客戶每年續約的 CV 產品 — 重複這個循環並推動模式前進。我們將此模式稱為我們的 \"CV 成長引擎\"，並將兩個時間點之間的契約價值差異稱為淨契約價值增加，或 \"NCVI\"。",
+    "我們致力於成為全球各個領域的企業與科技領導者及其團隊，包括科技、客戶體驗、數位、行銷、銷售與產品等部門，持續尋求指導以更有效地規劃與運作的不可或缺來源。",
+    "我們透過三個業務分部 globally 提供產品與服務 – 研究、諮詢與活動。",
+    "超過 40 年來，Forrester 一直提供客觀、獨立且基於數據的研究見解，運用質性與量化數據。我們遵循嚴謹、無偏見的研究方法，並具透明度且公開可取得，以確保在各市場、科技與地理區域的研究品質一致。",
+    "我們的主要訂閱研究服務為 Forrester Decisions。此組研究服務旨在為企業與科技領導者提供已證實的成長路徑，透過客戶至上的方式。線上存取的關鍵內容包括：",
+    "• 未來趨勢、預測與市場預測； • 深入的消費者與企業買家數據與見解；",
+    "• 精選的最佳實踐模型與工具以運作業務功能； • 運作與績效基準數據；以及"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "12月31日，",
+    "重要會計估計",
+    "截至12月31日之年度營運成果，2025年及2024年",
+    "2025年與2024年比較",
+    "(金額單位為百萬美元)",
+    "服務及履行成本",
+    "銷售及行銷費用",
+    "一般及行政費用",
+    "折舊",
+    "無形資產攤銷",
+    "商譽減損",
+    "重整費用",
+    "出售已剝離營運之損失",
+    "利息支出",
+    "其他收入，淨額",
+    "應收款信用減損費用",
+    "投資收益（淨額）",
+    "所得稅費用（利益）",
+    "分部結果",
+    "合併",
+    "截至2025年12月31日止年度",
+    "(除百分比外，單位為千)",
+    "截至2024年12月31日止年度",
+    "(單位為千)",
+    "{'original': 'Liquidity and Capital Resources', 'translated': '流動性及資本資源'}",
+    "{'original': 'Recent Accounting Pronouncements', 'translated': '近期會計準則聲明'}"
+   ],
+   "paragraphs": [
+    "我們的營業收入來自於客戶訂閱我們的 Research 產品與服務、訂閱及單獨授權我們的 Research 電子「重印」文件、執行顧問專案與諮詢服務，以及舉辦活動。我們的產品是以多年度合約或年度合約方式提供，通常為每年預付費用。對於某些合約，我們提供在一年內分多次發票的選擇。超過已確認收入的帳款則列為遞延收入。訂閱產品的收入是在合約期間內逐步確認。單獨重印授權包含交付客戶選擇的研究文件及透過我們平台提供的使用數據，這代表兩個績效義務。我們對於重印數據部分的績效義務，會在授權期間內按比例確認收入。我們對於研究文件的績效義務則是在提供文件存取時確認收入。客戶會獨立或搭配訂閱產品使用我們的諮詢專案與諮詢服務。諮詢專案收入基於固定費用協議，是在服務提供時確認收入。諮詢服務收入，例如演講與諮詢日，是在服務完成時確認收入。活動收入包含 Forrester 主辦活動的門票與贊助銷售，收入是在每個活動完成時確認。",
+    "我們的主要營運費用包括服務與履行成本、銷售與行銷費用，以及一般及行政費用。服務與履行成本代表與我們產品與服務的生產與交付相關的成本，包括所有參與生產與交付產品與服務人員的薪資、獎金、員工福利與股票基於報酬費用，包括所有相關的編輯、差旅與支援服務。銷售與行銷費用包括薪資、銷售佣金、獎金、員工福利、股票基於報酬費用、差旅費用、促銷成本及其他行銷與銷售產品與服務的費用。一般及行政費用包括科技、運作、財務與人力資源部門及其他行政功能的成本，包括薪資、獎金、員工福利與股票基於報酬費用。如辦公室租金（扣除次租賃收入）與年度雲端資訊科技系統費用等間接費用，則根據各部門員工人數分攤至這些類別。",
+    "我們的關鍵指標聚焦於我們的合約價值（\"CV\"）產品。我們著重於 CV 產品，因為這些產品是我們最獲利的產品，且歷史上我們的 CV 產品合約續約率很高（以客戶留存與客戶價值留存指標衡量）。我們的 CV 產品幾乎佔據我們所有研究收入，研究收入佔總收入的百分比從 2024 年約 73% 增加至 2025 年約 75%。",
+    "我們以每年用於內部規劃的外幣匯率計算 CV。為比較起見，我們已將歷史 CV 與客戶價值留存以預計 2026 年的外幣匯率重新計算。我們已包含重新計算的指標如下，為截至 2024 年 12 月 31 日的期間，我們也於網站投資者關係頁面提供從 2023 年第四季起的重新計算指標。",
+    "合約價值、客戶留存、客戶價值留存與客戶數量是我們認為瞭解我們研究業務重要的指標。我們對這些指標的定義如下：",
+    "• 合約價值（CV）—— 定義為與我們所有重複性研究相關合約價值。合約價值計算為特定時間點所有有效合約的年度化價值，不考慮已確認的收入。合約價值主要由訂閱產品組成，這些產品的收入是按比例確認，除了我們訂閱產品中內嵌的權益，例如活動門票與諮詢會，這些收入是在交付時確認。合約價值也包含我們的重印產品，因為這些產品會被客戶全年使用，且通常會續約。",
+    "• 客戶留存 — 代表前一年度測量日為客戶公司的百分比（定義為所有購買 CV 產品的客戶），在當年測量日仍擁有活躍合約。",
+    "• 客戶價值留存 — 代表我們在十二個月內與客戶保留的 CV 量，包括期間內保留客戶 CV 的增加或減少。客戶價值留存是以百分比計算，將我們目前客戶的年度化合約價值（這些客戶也是前一年的客戶）除以前一年的總年度化合約價值。",
+    "• 客戶 — 系於企業層級計算，為所有具有活躍 CV 合約的客戶。",
+    "客戶留存與客戶價值留存並不必然反映我們營收基礎未來留存率。我們關鍵指標概要如下（金額以百萬美元為單位）：",
+    "增加 增加 2025 2024 (減少) (減少) 合約價值 292.4 311.9 (19.5 (6 %) 客戶留存",
+    "4點錢包留存 (2)點客戶數 1,797 1,942 (145 (7 %)",
+    "2025年合約價值較2024年減少6%，這是因為錢包留存率為87%，代表前一年合約基礎的留存與增值，且新客戶獲取未能完全彌補淨留存損失。客戶留存率較前一年期間增加4個百分點，且較前一季增加3個百分點。我們歸因於持續的客戶留存計畫，以及2025年第三季推出AI Access產品所致。錢包留存率較前一年期間減少2個百分點，但較前一季增加1個百分點。錢包留存率較前一年期間下降，主要是因為合約在當前期間重續時增值較少。",
+    "管理層對財務狀況及營運成果的討論與分析，係基於我們合併財務報表，這些財務報表係依照美國通用會計準則（\"GAAP\"）編製。編製這些財務報表需要我們做出影響資產、負債、收入與費用金額以及相關或有資產與負債揭露的估計與判斷。我們持續評估這些估計，包括但不限於與收入認列、應收票據信用損失及商譽相關的估計。管理層的估計係基於歷史經驗、估計時可取得的資料以及在特定情況下認為合理的假設，這些結果成為判斷非易得自其他來源的資產與負債攜帶價值的基礎。實際結果可能因不同假設或條件而與這些估計不同。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'original': 'Risk Factors Specific to our Business', 'translated': '風險因素特定於本公司業務'}",
+    "{'original': 'General Risk Factors', 'translated': '一般風險因素'}"
+   ],
+   "paragraphs": [
+    "本公司營運環境為快速變動且競爭激烈，涉及風險與不確定性，其中部分風險與不確定性為本公司所無法控制。這些風險與不確定性可能對本公司業務及營運成果與財務狀況造成重大不利影響。這些風險與不確定性包括，但不僅限於：",
+    "訂閱式研究服務的續約或需求下降。本公司成功關鍵在於維持（以客戶公司及合約價值為基準）現有訂閱式研究產品與服務，並從現有與新客戶增加訂閱式研究產品與服務的合約價值。此成功取決於多種因素，包括本公司持續提供可信且可靠的資訊與見解，以對客戶有所幫助。不論原因如何，若本公司無法維持現有訂閱或產生訂閱式產品與服務的需求與新銷售，將對本公司營運成果與財務狀況造成不利影響。",
+    "對我們諮詢服務的需求。諮詢收入在2025年佔總收入的22%，在2024年佔總收入的23%。諮詢專案通常為項目為主且非重複性。若本公司無法履行現有或產生新諮詢專案以取代到期的諮詢合約，可能對本公司營運成果與財務狀況造成不利影響。",
+    "本公司業務可能受經濟環境影響。本公司業務部分取決於科技支出，並受經濟條件如通貨膨脹、成長放緩、利率變動、貿易政策與關稅、經濟衰退威脅與供應鏈問題等影響，這些因素可能影響本公司與客戶。經濟環境可能對我們產品與服務的需求造成重大且不利的影響。若美國與全球經濟條件導致科技支出減少，或對我們產品與服務的需求減少，將對本公司營運成果與財務狀況造成不利影響。雖然本公司在俄羅斯與烏克蘭沒有員工或重要客戶關係，且在中東地區僅有有限存在，但俄羅斯與烏克蘭之間、以色列與加沙之間、美國與伊朗之間的衝突，可能對美國與全球經濟造成負面影響，進而對本公司業務造成重大且不利的影響。",
+    "國際業務運作使本公司面臨多種營運風險，可能對營運成果造成負面影響。截至2025年12月31日，本公司客戶遍及約68個國家，約23%的收入來自國際銷售。營運成果受國際業務活動內在風險影響，包括各國的一般政治與經濟條件、外派人員與管理海外業務的困難、法規要求的變動、遵守眾多外國法律與法規、美國與外國稅率與法律的差異、貿易政策與關稅、貨幣兌換率波動、執行客戶合約的困難、收取應收帳款與保護智慧財產權權利在國際司法管轄區的困難，以及外國戰爭與衝突可能造成的中斷。此外，本公司在一些國際地區依賴當地獨立銷售代表。若任何這些安排被銷售代表或本公司終止，本公司可能無法在有利條件或及時基礎上取代這些安排，或由當地銷售代表所服務的客戶可能不願繼續與本公司或新銷售代表合作。",
+    "開發與提供新產品與服務的能力。本公司未來的成功在一定程度上取決於本公司提供新產品與服務的能力。這些新產品與服務必須成功獲得市場接受，預測並識別客戶需求的變化與科技產業的變化，並針對特定產業與企業組織部門進行解決。 internally 研究、開發、發佈與獲得客戶接受新產品或服務的過程，或吸收與行銷取得的產品或服務的過程，是風險與成本高昂的。本公司可能無法成功推出新產品或服務，或吸收取得的產品或服務。本公司若無法做到此點，將對本公司維持市場競爭地位與持續擴大業務造成不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,94 @@
+{
+ "ticker": "MAN",
+ "cik": "0000871763",
+ "accession": "0001193125-26-064113",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Introduction and History",
+    "Our Operations",
+    "Legal Regulations",
+    "Human Capital"
+   ],
+   "paragraphs": [
+    "ManpowerGroup Inc. is a global leader in innovative workforce solutions. Through our network of approximately 2,100 offices in more than 70 countries and territories, we put millions of people to work each year with our global, multinational and local clients across all major industry segments. Our strong and distinct brands provide specialized solutions that drive organizations forward, accelerate individual success and help build more sustainable communities. We power the future of work.",
+    "By offering a comprehensive range of workforce solutions and services, we help companies improve strategy, quality, and efficiency, increase productivity and reduce costs across their workforce to achieve their business goals. ManpowerGroup's offerings of innovative workforce solutions and services include:",
+    "• Recruitment and Assessment – By leveraging our trusted brands, industry knowledge and expertise, we identify the right talent in the right place to help our clients quickly access the people and skills they need when they need them. Through our industry-leading and AI-enabled assessments, we help people and organizations understand their strengths and potential, resulting in better job matches, higher retention and a stronger workforce.",
+    "• Upskilling, Reskilling, Training and Development – Our global insights around evolving employer needs and our expertise in training and development help us prepare candidates and associates to succeed in today's competitive marketplace. We offer an extensive portfolio of training courses and leadership development solutions that help clients maximize talent and optimize performance.",
+    "• Career Management – We help individuals find meaningful work and manage their career journey through outplacement services and targeted skills development. By helping individuals and organizations manage workforce transitions and career changes, we unleash human potential.",
+    "• Outsourcing – We provide clients with outsourcing services related to human resources functions primarily in the areas of large-scale recruiting and workforce-intensive initiatives that are outcome-based, thereby sharing in the risk and reward with our clients.",
+    "• Workforce Consulting – We help clients create and transform their workforce strategy to achieve their business strategy, increase business agility and flexibility, and accelerate individuals' and business success.",
+    "Our expert family of global brands - Manpower, Experis and Talent Solutions - provide innovative workforce solutions across the globe for hundreds of thousands of organizations every year.",
+    "Manpower is a global leader in contingent staffing and permanent recruitment, providing strategic and operational flexibility to organizations and connecting people to meaningful work while helping them develop skills to stay employable. With our data driven insight into people's motivation, skills adjacencies, and performance potential, we provide learning programs, on the job training and market based certifications for rapid reskilling and upskilling at scale.",
+    "Experis is a global leader in information technology (IT) professional resourcing and project services specializing in Enterprise Applications, Business Transformation, Cloud and Infrastructure, Digital Workspace and Cyber Security. As digital transformation and skills shortages continue in the technology field, Experis provides talent with the combination of in-demand technical skills together with the soft skills that are critical for business success.",
+    "Talent Solutions Talent Solutions delivers integrated and data-driven workforce solutions to help clients more effectively attract, acquire, develop and retain qualified talent. Our lines of business — RPO, TAPFIN-MSP and Right Management — are seamlessly integrated with our PowerSuite HR tech stack to deliver workforce solutions that span the talent lifecycle across multiple countries at scale. The rapid expansion and application of AI across our enterprise is enhancing these offerings, making them increasingly predictive, precise and efficient.",
+    "Our leadership position enables us to be a pathway to quality employment opportunities for people at all points in their career journey and we have connected people to meaningful work for over 75 years. Governments and policy makers in the markets where we operate look to us to provide employment advice, opportunities and training to assist the unemployed in gaining the skills they need to enter the workforce, providing a bridge to employment and helping build more sustainable communities.",
+    "We, and our predecessors, have been in business since 1948 when we were incorporated as a Wisconsin corporation, and have had our shares listed on the New York Stock Exchange since 1967.",
+    "Our website is www.manpowergroup.com. The Investor Relations section (investor.manpowergroup.com) provides our annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and amendments to those reports filed or furnished pursuant to Section 13(a) of the Securities Exchange Act of 1934 as soon as reasonably practicable after we electronically file such material with, or furnish it to, the Securities and Exchange Commission. In addition, we also make available through our website:"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Company and Operational Risks",
+    "Strategic Risks",
+    "Financial and Market Risks",
+    "Regulatory and Legal Risks"
+   ],
+   "paragraphs": [
+    "This Annual Report on Form 10-K contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Exchange Act of 1934, as amended, (each a \"forward-looking statement\"). Statements made in this report that are not statements of historical fact are forward-looking statements. In addition, from time to time, we and our representatives may make statements that are forward-looking. Forward-looking statements are based on management's current assumptions and expectations and are subject to risks and uncertainties that are beyond our control. This section provides you with cautionary statements identifying, for purposes of the safe harbor provisions of the Private Securities Litigation Reform Act of 1995, important factors that could materially adversely affect our business, operational and financial results and cash flows. In addition, these factors could cause our actual results to differ materially from those contained in forward-looking statements made in this report or otherwise made by us or on our behalf. You can identify these forward-looking statements by forward-looking words such as \"expect\", \"anticipate\", \"intend\", \"plan\", \"may\", \"will\", \"believe\", \"seek\", \"estimate\", and similar expressions. You are cautioned not to place undue reliance on these forward-looking statements. We caution that any forward-looking statement reflects only our belief at the time the statement is made. We undertake no obligation to update any forward-looking statements to reflect subsequent events or circumstances.",
+    "The following are some of the factors that could materially adversely affect our business, operational and financial results and cash flows or cause actual results to differ materially from estimates contained in our forward-looking statements. Risks in this section are grouped in the following categories: (1) Company and Operational Risks; (2) Strategic Risks; (3) Financial and Market Risks; and (4) Regulatory and Legal Risks. Many risks affect more than one category, and the risks are not in order of significance or probability of occurrence because they have been grouped by categories.",
+    "• Volatile, negative or uncertain economic conditions; • Inability to timely operate our business or respond to the needs of our clients;",
+    "• Competition in the worldwide employment services industry limiting our ability to maintain or increase market share or profitability;",
+    "• Cyberattack or improper disclosure or loss of sensitive or confidential company, employee, associate or client data, including personal data;",
+    "• Disruption, increased costs and reputational risk from outsourcing various aspects of our business;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'original': 'Introduction and History', 'translated': '導論與歷史'}",
+    "{'original': 'Our Operations', 'translated': '本公司營運'}",
+    "{'original': 'Legal Regulations', 'translated': '法律規範'}",
+    "{'original': 'Human Capital', 'translated': '人力資本'}"
+   ],
+   "paragraphs": [
+    "ManpowerGroup Inc. 是創新人力解決方案的全球領導者。透過我們在超過 70 個國家及地區約 2,100 個辦公室的網路，我們每年為數百萬人提供工作機會，協助我們的全球、多國及本地客戶在所有主要產業部門中實現目標。我們強而有力且獨特的品牌提供專業解決方案，推動組織發展、加速個人成功並協助建立更可持續的社區。我們驅動工作的未來。",
+    "透過提供全面的人力解決方案與服務，我們協助企業改善策略、品質與效率，提高勞動力生產力並降低成本，以達成其商業目標。ManpowerGroup 提供創新的人力解決方案與服務，包括：",
+    "• 招募與評估 – 透過我們受信賴的品牌、產業知識與專業經驗，我們能識別合適的人才於合適的地區，協助客戶迅速取得所需的人力與技能。透過我們行業領先且具 AI 功能的評估工具，我們協助個人與組織瞭解其優勢與潛力，進而獲得更佳的職務匹配、更高的留任率與更強大的勞動力。",
+    "• 技能提升、再培訓、培訓與發展 – 我們對演變中的僱主需求的全球洞察與在培訓與發展方面的專業知識，協助我們準備候選人與員工在競爭激烈的市場中取得成功。我們提供廣泛的培訓課程與領導力發展方案，協助客戶最大化人才潛力並優化表現。",
+    "• 職業管理 – 我們協助個人尋找有意義的工作並管理其職業旅程，透過離職服務與針對性的技能發展。透過協助個人與組織管理勞動力轉型與職業變動，我們釋放人類潛能。",
+    "• 委外 – 我們為客戶提供與人力資源功能相關的委外服務，主要集中在大規模招募與勞動力密集型的項目，這些項目以結果為導向，因此與客戶共同承擔風險與回報。",
+    "• 勞動力諮詢 – 我們協助客戶建立與轉型其勞動力策略，以達成其商業策略，提高商業靈活性與適應力，並加速個人與企業的成功。",
+    "我們的專家品牌家族 - Manpower、Experis 和 Talent Solutions - 每年為數百萬組織提供創新的人力解決方案。",
+    "Manpower 是全球在臨時人力派遣及永久僱用招募領域的領導者，提供組織戰略與運營的靈活性，並連結人們至有意義的工作，同時協助他們發展技能以維持就業能力。透過我們以數據為基礎的洞察力，瞭解人們的動機、技能相關性與表現潛力，我們提供學習方案、在職訓練及市場導向的認證，以實現大規模的快速技能重構與提升。",
+    "Experis 是全球在資訊科技（IT）專業人才資源與專案服務領域的領導者，專注於企業應用程式、業務轉型、雲端與基礎建設、數位工作空間及網路安全。隨著數位轉型與科技領域的技能缺口持續存在，Experis 提供人才兼具高需求的技術技能與對業務成功至關重要的軟技能組合。",
+    "Talent Solutions 提供整合且以數據為基礎的 workforce 解決方案，協助客戶更有效地吸引、招募、培訓與保留合適人才。我們的業務線 — RPO、TAPFIN-MSP 與 Right Management — 與我們的 PowerSuite 人力科技堆疊無縫整合，提供跨越多個國家的 workforce 解決方案，涵蓋人才全生命週期。企業內 AI 的快速擴張與應用，正提升這些服務的預測性、精準度與效率。",
+    "我們的領導地位使我們成為人們在其職業旅程各階段獲得高品質就業機會的途徑，我們已連結人們至有意義的工作超過 75 年。我們所處市場的政府與政策制定者，會向我們尋求就業建議、機會與培訓，協助失業者獲得進入勞動市場所需的技能，建立就業橋樑，並協助建立更可持續的社區。",
+    "我們與我們的前身自 1948 年開始營運，當時我們在威斯康辛州設立為公司，並自 1967 年起將股份於紐約證券交易所上市。",
+    "我們的網站為 www.manpowergroup.com。投資者關係部分（investor.manpowergroup.com）提供我們的年度報告（Form 10-K）、季報（Form 10-Q）、現況報告（Form 8-K）以及這些報告的更正檔，這些報告依證券交易法 1934 年版第 13(a) 節規定，於我們電子提交這些資料至，或提供給證券交易委員會後盡速提供。此外，我們也透過網站提供以下資訊："
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'original': 'Company and Operational Risks', 'translated': '本公司與營運風險'}",
+    "{'original': 'Strategic Risks', 'translated': '策略風險'}",
+    "{'original': 'Financial and Market Risks', 'translated': '財務與市場風險'}",
+    "{'original': 'Regulatory and Legal Risks', 'translated': '法規與法律風險'}"
+   ],
+   "paragraphs": [
+    "本年度10-K表報表包含根據1933年證券交易法第27A條款（經修正）及1934年證券交易法第21E條款（經修正）（各稱為「預測性陳述」）所定義之預測性陳述。本報告中所載非歷史事實之陳述為預測性陳述。此外，我們與我們之代表偶爾亦會發表預測性陳述。預測性陳述係基於管理階層目前之假設與預期，並受一些超出我們控制範圍之風險與不確定性影響。本節提供您一些警示性陳述，用以識別根據1995年私人證券 litigation 改革法案之安全港條款，可能對我們之業務、營運與財務結果及現金流造成重大不利影響之重要因素。此外，這些因素可能導致我們之實際結果與本報告或其他由我們或代表我們所發表之預測性陳述中所載之預期有重大差異。您可透過預測性詞彙如「預期」、「預期」、「意圖」、「計畫」、「可能」、「將」、「相信」、「追求」、「估計」及類似表達方式來辨識這些預測性陳述。您應謹慎勿過度依賴這些預測性陳述。我們謹提醒您，任何預測性陳述僅反映該陳述發表時之我們之看法。我們不負有更新任何預測性陳述以反映後續事件或情況之義務。",
+    "以下為可能對我們之業務、營運與財務結果及現金流造成重大不利影響或導致實際結果與我們預測性陳述中所載之預期有重大差異之因素。本節所列風險已分為以下四類：（1）公司與營運風險；（2）戰略風險；（3）財務與市場風險；（4）法規與法律風險。許多風險可能影響多個類別，且風險並未按重要性或發生機率排序，因為它們已按類別分組。",
+    "• 經濟條件波動、負面或不確定；• 無法及時運作業務或回應客戶需求；",
+    "• 全球就業服務產業之競爭限制我們維持或增加市場佔有率或獲利能力；",
+    "• 資訊系統遭攻擊或未妥善揭露或遺失敏感或機密之公司、員工、合作夥伴或客戶資料，包括個人資料；",
+    "• 將業務各項方面委外所導致之中斷、成本增加及聲譽風險；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,217 @@
+{
+ "ticker": "NWL",
+ "cik": "0000814453",
+ "accession": "0000814453-26-000008",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Organizational Structure",
+    "Segment Key Brands Description of Primary Products",
+    "Home and Commercial Solutions Ball(a), Calphalon, Chesapeake Bay, Crockpot, FoodSaver, Mapa, Mr. Coffee, Oster, Rubbermaid, Rubbermaid Commercial Products, Sistema, Spontex, Sunbeam, WoodWick and Yankee Candle",
+    "Outdoor and Recreation Bubba, Campingaz, Coleman, Contigo and Marmot Active lifestyle products for outdoor and outdoor-related activities; technical apparel and on-the-go beverageware"
+   ],
+   "paragraphs": [
+    "\"Newell Brands\" or the \"Company\" refers to Newell Brands Inc. alone or with its wholly owned subsidiaries, as the context requires. When this report uses the words \"we,\" \"us\" or \"our,\" it refers to the Company and its subsidiaries unless the context otherwise requires. The Company was founded in Ogdensburg, New York in 1903 and is incorporated in Delaware.",
+    "Website Access to Securities and Exchange Commission Reports",
+    "The Company makes available free of charge on or through its website its annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Securities Exchange Act of 1934 (the \"Exchange Act\") as soon as practicable after the Company files them with, or furnishes them to, the United States Securities and Exchange Commission (\"SEC\"). The Company's website can be found at www.newellbrands.com. The information on the Company's website is not incorporated by reference into this Annual report on Form 10-K.",
+    "Newell Brands is a leading global consumer goods company with a strong portfolio of well-known brands, including Rubbermaid, Sharpie, Graco, Coleman, Rubbermaid Commercial Products, Yankee Candle, Paper Mate, FoodSaver, Dymo, EXPO, Elmer's, Oster, NUK, Spontex and Campingaz. Newell Brands is focused on delighting consumers by lighting up everyday moments. The Company sells its products in over 150 countries around the world and has operations on the ground in more than 45 of these countries, excluding third-party distributors.",
+    "The Company is actively advancing the strategic priorities identified through its comprehensive capability assessment completed in 2023. These priorities are based on a clear set of \"where to play\" and \"how to win\" strategic choices with the goal of improving the Company's top line, expanding margins and improving cash flows with a new operating model, critical talent upgrades and a culture redesign.",
+    "In 2025, the Company continued to strengthen the foundational capabilities needed to compete effectively, and began to see progress across innovation, brand building, productivity and commercial execution. While meaningful progress has been made, the Company remains in the execution phase of its multi-year transformation and expects the benefits of these capability improvements to continue to phase in over time.",
+    "The Company continues to implement this strategy while addressing key global challenges such as shifting consumer preferences and behaviors; a highly competitive operating environment; a rapidly changing retail and consumer landscape including evolving retailer inventory, sourcing and promotional patterns and increased adoption of digital and artificial intelligence-enabled tools by consumers and retailers; continued macroeconomic and geopolitical volatility; a soft macro backdrop; significant cumulative inflationary pressures on consumers; new tariffs imposed in 2025 by the United States of America (\"U.S.\") presidential administration as well as other countries' retaliatory actions in response to such tariffs; and an evolving regulatory landscape. The Company continues to deploy a comprehensive mitigation strategy in response to these exposures through pricing optimization, productivity enhancements and strategic manufacturing relocations where appropriate.",
+    "In order to successfully navigate these challenges and deliver strong performance, the Company is focused on continuing to create and leverage scale to unlock the full potential of the Company's portfolio of leading brands through maintaining a disciplined approach and executing congruent with the Company's key priorities, which also aligns with the Company's operating focus for 2026, including:",
+    "•Igniting top-line improvement over time through product and commercial innovation, brand building, distribution expansion and tariff-advantaged sourcing opportunities, while recognizing that category trends, consumer spending patterns and retailer behaviors may influence the pace and timing of top-line recovery;",
+    "•Building a strong defense through margin discipline, productivity, procurement savings and overhead management, while acknowledging that year-to-year margin progression may be impacted by tariffs, competitive dynamics, inflationary pressures, volume trends and planned reinvestment, including advertising and promotion;",
+    "•Further deleveraging the balance sheet and improving cash flow efficiency through disciplined working capital management and capital allocation;",
+    "•Strengthening commercial and operational excellence and execution discipline through continued complexity reduction, technology standardization, Enterprise Resource Planning System (ERP) consolidation, stock-keeping unit (SKU) optimization and supply chain optimization; and",
+    "•Winning through accountability, urgency and the Company's values, while continuing to strengthen a high-performance culture that emphasizes accountability, innovation and inclusion.",
+    "The Company remains committed to advancing its turnaround and positioning the business for sustainable, profitable growth over time, while maintaining a balanced and disciplined view of external conditions and factors outside the Company's control."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Strategic and Operational Risks",
+    "The Company is subject to intense competition in a marketplace dominated by large omni-channel and e-commerce retailers.",
+    "The Company's customers may further consolidate, which could materially adversely affect the Company's sales and margins.",
+    "If the Company is unable to innovate and commercialize a continuing stream of new products that create demand, the Company's ability to compete in the marketplace and financial results may be adversely impacted.",
+    "If the Company does not continue to develop and maintain leading brands or realize the anticipated benefits of advertising and promotion spend over the long term, its operating results may suffer.",
+    "Failure to further expand the Company's e-commerce business, despite e-commerce investments, may materially and adversely affect the Company's market position, net sales and financial performance.",
+    "The Company's plans to execute its turnaround plan and restructuring initiatives, improve productivity and reduce complexity and costs may not be successful, which would materially adversely affect its financial results.",
+    "The Company's operations are dependent upon third-party vendors and suppliers whose failure to perform adequately could disrupt the Company's business operations.",
+    "A cyber-attack or failure of one or more key information technology systems, networks, processes, associated sites or service providers could have a material adverse impact on the Company's business or reputation.",
+    "The Company may face particular data protection and privacy risks in connection with privacy laws and regulations globally.",
+    "The Company's operating results can be adversely affected by inflation, changes in the cost or availability of raw materials, labor, energy, transportation and other necessary supplies and services.",
+    "The Company's operations and financial condition can be adversely impacted by global macroeconomic environment, including the impact of tariffs imposed by the U.S. and retaliatory tariffs imposed by other countries.",
+    "Unfavorable shifts in industry-wide demand for the Company's products could result in inventory valuation risk.",
+    "The Company's ability to attract, retain and develop critical talent, including readiness for emerging technologies such as AI, is essential to executing its strategic objectives and sustaining long-term performance.",
+    "Damage to the Company's reputation or loss of consumer confidence could have an adverse effect on the Company's business.",
+    "A deterioration in labor relations could adversely impact the Company's global business.",
+    "Financial Risks",
+    "Reductions in the Company's credit ratings could materially and adversely affect its business, availability of future borrowings, financial condition and results of operations.",
+    "The Company is exposed to both foreign currency translation and transaction risks that may materially adversely affect the Company's operating results, financial condition and liquidity.",
+    "Circumstances associated with divestitures and brand or product line exits could adversely affect the Company's results of operations and financial condition.",
+    "Legal, Tax and Regulatory Risks",
+    "Governmental investigations or actions by other third parties could have a material adverse effect on management and the Company's business operations.",
+    "The Company's businesses and operations are subject to regulation in the U.S. and abroad."
+   ],
+   "paragraphs": [
+    "Ownership of the Company's securities involves a number of risks and uncertainties. Potential investors should carefully consider the risks and uncertainties described below and the other information in this Annual Report on Form 10-K before deciding whether to invest in the Company's securities. The Company's business, financial condition or results of operations could be materially adversely affected by any of these risks. The risks described below are not the only ones the Company faces. Additional risks that are currently unknown to the Company or that the Company currently considers immaterial may also impair its business or adversely affect its financial condition or results of operations.",
+    "The Company competes with numerous other manufacturers and distributors of consumer and commercial products, many of which are large and well-established. A proliferation of digitally native brands has further intensified the competitive landscape. The Company's principal customers are large mass merchandisers, discount stores, home centers, warehouse clubs, office superstores, specialty retailers, wholesalers, commercial distributors, direct-to-consumer channels, and e-commerce retailers. The dominant share of the market represented by these large retailers, together with changes in consumer shopping patterns, and the integration of brick and mortar and e-commerce operations at major retailers, has contributed to the formation of dominant multi-category omni-channel and e-commerce retailers that have strong negotiating power with suppliers. These retailers have and may continue to foster high levels of competition among suppliers, reduce inventory levels, demand innovative new products and products tailored to each of their unique specifications, require suppliers to maintain or reduce product prices in response to competitive, economic or other factors, and require product delivery with shorter lead times. Retailers have imported and may continue to import products directly from foreign sources and source and sell products under their own private label brands, typically at lower prices, that compete with the Company's products.",
+    "The combination of these market influences and retailer consolidation has created an intensely competitive environment in which the Company's principal customers continuously evaluate which product suppliers to use, resulting in downward pricing pressures and the need for consumer-meaningful brands, the ongoing introduction and commercialization of innovative new products, continuing improvements in category management and customer service, and the maintenance of strong relationships with large, high-volume purchasers. The Company also faces the risk of changes in the strategy or structure of its major customers, such as overall store and inventory reductions. The intense competition in the traditional retail and e-commerce sectors may result in a number of customers experiencing financial difficulty or failing in the future. To address these challenges, the Company must be able to respond to competitive factors and the potential loss of customers in the future, and the failure to respond effectively could result in a loss of sales, reduced profitability and a limited ability to recover cost increases through price increases.",
+    "The Company's customers have steadily consolidated over time. The Company expects any customers that consolidate will take actions to harmonize pricing from their suppliers, close retail outlets, reduce inventory, and rationalize their supply chain, which could adversely affect the Company's business and results of operations. There can be no assurance that, following consolidation, the Company's large customers will continue to buy from the Company across different product categories or geographic regions, or at the same levels as prior to consolidation, which could negatively impact the Company's financial results. Further, if the consolidation trend continues, it could result in additional increase in the customers' negotiating power with suppliers, as well as pricing and other competitive pressures that could reduce the Company's sales and profitability.",
+    "The Company's sales are dependent on purchases by several large customers and any significant decline in these purchases or pressure from these customers to reduce prices could have a negative effect on the Company's future financial performance.",
+    "Although the Company has long-established relationships with many customers, the Company generally does not have long-term supply or binding contracts or guarantees of minimum purchases with its largest customers. Purchase commitments by these customers are generally made using individual purchase orders. As a result, these customers may cancel their orders, change purchase quantities from forecast volumes, delay purchases for a number of reasons beyond the Company's control or change other terms of the business relationship. Significant or numerous cancellations, reductions, delays in purchases or changes in business practices by customers could have a material adverse effect on the Company's business, results of operations and financial condition. In addition, because many of the Company's costs are fixed, a reduction in customer demand due to decreased sales to end consumers could have an adverse effect on the Company's profitability. The retail landscape in many of the Company's markets continues to be impacted by the rapid growth of e-commerce retailers, changing consumer preferences (including shopping online and through mobile commerce and social applications) and the emergence of alternative retail channels, such as subscription services and direct-to-consumer businesses. The rapid growth in e-commerce and emergence of alternative retail channels may adversely affect the Company's relationships with its key retailers, whereby the number of products it sells will no longer be a reliable indicator of the amount of future business the Company can expect."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Business Strategy",
+    "Recent Developments",
+    "Results of Operations",
+    "Consolidated Operating Results 2025 vs. 2024",
+    "Years Ended December 31,",
+    "(in millions, except per share data) 2025 2024 $ Change % Change",
+    "Operating income 39 67 (28) (41.8)%",
+    "Loss before income taxes (301) (260) (41) (15.8)%",
+    "Net loss $ (285) $ (216) (69) (31.9)%",
+    "Diluted loss per share $ (0.68) $ (0.52)",
+    "(in millions) 2025 2024 $ Change",
+    "(in millions) 2025 2024",
+    "Business Segment Operating Results 2025 vs. 2024",
+    "Home and Commercial Solutions",
+    "(in millions) 2025 2024 $ Change % Change",
+    "Learning and Development",
+    "Outdoor and Recreation",
+    "Liquidity and Capital Resources",
+    "Capital Resources",
+    "Risk Management",
+    "Contractual Obligations, Commitments and Off-Balance Sheet Arrangements",
+    "Total 1 year 2-3 years 4-5 years After",
+    "Critical Accounting Estimates",
+    "Goodwill and Indefinite-Lived Intangibles",
+    "Recent Accounting Pronouncements",
+    "International Operations",
+    "Forward-Looking Statements"
+   ],
+   "paragraphs": [
+    "The current U.S. presidential administration has announced and/or imposed a series of new tariffs on foreign imports into the U.S., including without limitation significant tariffs on products manufactured in China. Tariffs on imports into the U.S., most significantly from China, and any retaliatory tariffs on exports from the U.S. to other countries, have increased costs for the Company and could impact the level of trade between the U.S. and its various trading partners around the globe in general.",
+    "We believe that the Company is well-positioned to respond to the current tariff environment, primarily because the Company maintains a significant U.S. manufacturing presence of 15 production facilities and manufacturers, in the U.S. and two of its facilities in Mexico, products representing over half of the Company's U.S. revenues that are not presently subject to the recently announced U.S. tariffs. This manufacturing presence is expected to provide a competitive advantage to the Company in certain categories where its competitors are exposed to import tariffs. The Company also has a scaled, centralized procurement team that is proficient in sourcing raw materials and finished products from over 50 countries around the world.",
+    "The Company incurred incremental cash tariff cost of approximately $174 million in 2025 due to the currently announced and imposed tariffs as well as retaliatory tariffs on U.S. exports, prior to any offsetting impact from mitigating actions. There will be a timing difference between the operating cash outflow and the recognition of cost of products sold arising from the tariffs. As a result, the Company recognized approximately $114 million of incremental costs of products sold in the Consolidated Statement of Operations in 2025. The Company continues to deploy a mitigation strategy designed to offset the impact of this tariff exposure through a number of actions, including pricing, productivity and in some cases relocation of manufacturing. At this time, it is difficult to predict the rate or duration of these tariffs, and there can be no assurance as to the extent to which the Company will be able to offset the impact through mitigation actions. Additional tariffs or further increases to the U.S. tariffs, retaliatory actions taken by other countries, or failure to effectively deploy the Company's mitigation plans could have a significant negative impact on the Company.",
+    "In December 2025, the Company announced the Productivity Plan, as further described in the preceding section. The Company expects to record $75 million to $90 million of restructuring and restructuring-related charges in connection with the Productivity Plan, primarily for severance and related costs, with most of the charges to be recognized by the end of 2026. The Company commenced separation of professional and clerical employees during December 2025 and recorded $40 million of restructuring charges for severance and other termination benefits and restructuring-related charges. See Risk Factors in Item 1A, and Footnote 3 of the Notes to Consolidated Financial Statements for further information.",
+    "Indefinite-Lived Intangible Asset Impairment",
+    "During the fourth quarter of 2025, as a result of the Company's annual impairment testing, the Company recorded an aggregate non-cash impairment charge of $340 million related to two tradenames in the H&CS segment and one in the L&D segment, as the carrying values of the tradenames exceeded their fair values. The decline in the fair values resulted primarily from a downward revision of the forecasted cash flows and an increase in the reporting unit's discount rate, primarily due to the increased risk premium applied to enable reconciliation to the Company's total enterprise value given the decline in the Company's stock price since the last annual impairment test. See Critical Accounting Estimates and Footnotes 1 and 6 of the Notes to Consolidated Financial Statements for further information.",
+    "In November 2025, the Company repaid the outstanding principal amount of its 3.900% senior notes due 2025 (the \"2025 Notes\"), plus accrued and unpaid interest upon maturity for total consideration of $48 million.",
+    "During the fourth quarter of 2025, Moody's further downgraded the Company's senior unsecured debt rating to \"B2\", without any further impact to the interest rates on any of the Company's senior notes, as the Company has reached the maximum provision on the affected bonds.",
+    "See Footnote 8 of the Notes to Consolidated Financial Statements for further information on debt redemption and debt rating downgrades."
+   ],
+   "focus": "Recent Developments"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "組織架構",
+    "應報告分部關鍵品牌說明主要產品",
+    "居家與商業解決方案 Ball(a), Calphalon, Chesapeake Bay, Crockpot, FoodSaver, Mapa, Mr. Coffee, Oster, Rubbermaid, Rubbermaid Commercial Products, Sistema, Spontex, Sunbeam, WoodWick 和 Yankee Candle",
+    "戶外與休閒活動 Bubba, Campingaz, Coleman, Contigo 和 Marmot 主要為戶外及戶外相關活動的活躍生活方式產品；技術性服裝及隨身飲品容器"
+   ],
+   "paragraphs": [
+    "『Newell Brands』或『本公司』指 Newell Brands Inc. 單獨或與其全資子公司，視情況而定。當本報告使用『我們』、『我們』或『我們的』時，指的是本公司及其子公司，除非上下文另有說明。本公司於 1903 年在紐約奧格登斯堡成立，並在特拉華州註冊為公司。",
+    "網站存取證券交易委員會報告",
+    "本公司於其網站上或透過其網站免費提供年度報告（10-K 表格）、季報（10-Q 表格）、現況報告（8-K 表格）以及這些報告的更正版本，這些報告係根據 1934 年證券交易法第 13(a) 或 15(d) 節規定，於本公司向美國證券交易委員會（SEC）提交後盡速提供。本公司網站為 www.newellbrands.com。本公司網站上的資訊未經引用於本年度報告（10-K 表格）。",
+    "Newell Brands 是一家全球領先的消費品公司，擁有強大的知名品牌組合，包括 Rubbermaid、Sharpie、Graco、Coleman、Rubbermaid Commercial Products、Yankee Candle、Paper Mate、FoodSaver、Dymo、EXPO、Elmer's、Oster、NUK、Spontex 和 Campingaz。Newell Brands 致力於透過點亮日常時刻來讓消費者感到滿意。本公司產品銷售至全球超過 150 個國家，並在其中超過 45 個國家設有本地運營，不包括第三方經銷商。",
+    "本公司積極推動 2023 年完成的全面能力評估所識別的戰略優先事項。這些優先事項基於明確的『應在哪個市場競爭』與『如何勝出』的戰略選擇，目標為提升本公司營收、擴大毛利率與改善現金流，透過新的運營模式、關鍵人才升級與文化重塑。",
+    "2025 年，本公司持續強化競爭所需的基礎能力，並開始在創新、品牌建設、生產力與商業執行方面看到進展。雖然已取得顯著進展，本公司仍處於多年轉型的執行階段，預期這些能力提升的效益將隨時間逐步實現。",
+    "本公司持續落實此策略，同時應對關鍵全球挑戰，例如消費者的偏好與行為轉變；高度競爭的營運環境；快速變化的零售與消費景觀，包括零售商存貨、來源與促銷模式的變化，以及消費者與零售商對數位與人工智慧工具的採用增加；持續的總體經濟與地緣政治波動；軟弱的總體經濟背景；對消費者顯著的累積通貨膨脹壓力；2025 年美國總統行政當局所實施的新關稅，以及其他國家對這些關稅的報復性行動；以及不斷演變的法規環境。本公司持續透過價格優化、生產力提升與適當的戰略製造轉移，對應這些風險，並部署全面的緩衝策略。",
+    "為成功應對這些挑戰並實現強勁表現，本公司專注於持續創造與運用規模，以發揮本公司領先品牌組合的全部潛力，透過維持嚴謹的作風並與本公司關鍵優先事項一致執行，這也與本公司 2026 年的運營重點相呼應，包括：",
+    "•透過產品與商業創新、品牌建設、通路擴張及關稅優勢的來源機會，持續推動營業收入改善，同時承認類別趨勢、消費者支出模式及零售商行為可能影響營業收入恢復的速度與時間點;",
+    "•透過毛利率管控、生產力、採購節省及營運費用管理，建立強固防線，同時承認年度間毛利率進展可能受關稅、競爭態勢、通貨膨脹壓力、銷售量趨勢及預計重投資（包括廣告與促銷）影響;",
+    "•透過嚴謹的營運資金管理及資本配置，進一步降低資產負債表槓桿並提高現金流效率;",
+    "•透過持續簡化複雜度、技術標準化、企業資源規劃系統（ERP）整合、庫存單位（SKU）優化及供應鏈優化，強化商業與營運卓越及執行紀律; 和",
+    "•透過責任感、緊迫感及本公司價值觀取得成功，同時持續強化高績效文化，強調責任感、創新與包容性。",
+    "本公司持續致力於推動扭轉計畫，並為業務實現可持續且獲利的成長，同時維持對外部環境及本公司無法控制因素的平衡與嚴謹看法。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運策略",
+    "近期發展",
+    "營運成果",
+    "合併營運成果 2025 年 vs. 2024 年",
+    "截至 12 月 31 日年度",
+    "(以百萬美元計，除每股資料) 2025 2024 美元變動 % 變動",
+    "營運收入 39 67 (28) (41.8)%",
+    "稅前虧損 (301) (260) (41) (15.8)%",
+    "淨虧損 285 216 (69) (31.9)%",
+    "稀釋後每股虧損 0.68 0.52",
+    "(以百萬計) 2025 2024 美元變動",
+    "(以百萬計) 2025 2024",
+    "業務分部營運結果 2025 與 2024",
+    "居家與商用解決方案",
+    "(以百萬計) 2025 2024 美元變動 % 變動",
+    "學習與發展",
+    "{'Outdoor and Recreation': '戶外與休閒'}",
+    "{'Liquidity and Capital Resources': '流動性與資本資源'}",
+    "{'Capital Resources': '資本資源'}",
+    "{'Risk Management': '風險管理'}",
+    "{'Contractual Obligations, Commitments and Off-Balance Sheet Arrangements': '契約義務、承諾及表外安排'}",
+    "{'Total 1 year 2-3 years 4-5 years After': '總計 1 年 2-3 年 4-5 年 後'}",
+    "{'Critical Accounting Estimates': '關鍵會計估計'}",
+    "{'Goodwill and Indefinite-Lived Intangibles': '商譽及無限期壽命無形資產'}",
+    "最近會計準則公告",
+    "國際營運",
+    "前瞻性陳述"
+   ],
+   "paragraphs": [
+    "目前美國總統行政團隊已宣佈並/或實施一系列針對進口至美國的外國產品的新關稅，包括但不限於針對中國製造產品的重大關稅。進口至美國的關稅，尤其是來自中國的關稅，以及任何針對美國出口至其他國家的報復性關稅，已提高本公司的成本，並可能影響美國與其各個貿易夥伴之間的貿易水準。",
+    "本公司認為本公司在當前關稅環境中處於有利位置，主要原因是本公司維持著15個生產設施及製造商的美國製造存在，並在墨西哥設有兩個設施，這些設施生產的產品代表本公司美國營收過半數，目前尚未受到最近宣佈的美國關稅影響。此製造存在預期將為本公司在某些類別中提供競爭優勢，而其競爭對手則可能面臨進口關稅的影響。本公司亦擁有規模化、集中的採購團隊，擅長從全球超過50個國家尋求原材料及成品的來源。",
+    "",
+    "2025年12月，本公司宣佈了生產力計畫，如前一節所述。本公司預計因生產力計畫而記錄約75 百萬至90 百萬美元的重組及相關重組費用，主要為遣散費及相關費用，其中大部分費用預計在2026年底前認列。本公司於2025年12月開始分離專業及事務性員工，並記錄了40 百萬美元的重組費用，用以支付遣散費及其他終止福利及相關重組費用。有關進一步資訊，請參閱第1A項風險因素，以及合併財務報表附註第3項。",
+    "無限期存續無形資產減損",
+    "在2025年第四季，根據本公司的年度減損測試，本公司記錄了總計340 百萬美元的非現金減損費用，與H&CS分部的兩個商標及L&D分部的一個商標相關，因這些商標的帳面價值超過其公允價值。公允價值的下降主要來自對預計現金流的向下修正，以及報告單位折現率的提高，主要是由於應用較高的風險 premium 以實現本公司總企業價值的調整，因自上次年度減損測試以來，本公司股票價格已下跌。有關進一步資訊，請參閱關鍵會計估計及合併財務報表附註第1項及第6項。",
+    "2025年11月，本公司償還了其3.900%優先票據於2025年到期（\"2025票據\"）的未償還本金金額，並支付到期時積累且未付的利息，總共支付48 百萬美元。",
+    "在2025年第四季，穆迪進一步將本公司優先無擔保債務評級降至\"B2\"，但對本公司任何優先票據的利率沒有進一步影響，因為本公司已達到受影響債券的最高條款。",
+    "{'translated_text': '請參閱財務會計彙編附註第 8 項，以取得有關債務贖回及債務評級降級的進一步資訊。'}"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "戰略與運營風險",
+    "本公司面臨激烈的競爭，市場由大型全渠道及電商零售商主導。",
+    "本公司客戶可能進一步集中，這可能會對本公司的銷售及毛利率造成重大不利影響。",
+    "若本公司無法創新並商業化持續的新產品以創造需求，本公司在市場中的競爭能力及財務結果可能會受到不利影響。",
+    "若本公司無法持續發展及維護領先品牌，或無法在長遠期間實現廣告及推廣支出的預期效益，其營運結果可能會受損。",
+    "儘管有電商投資，若本公司無法進一步擴大電商業務，可能會對本公司市場地位、淨銷售額及財務表現造成重大且不利的影響。",
+    "本公司執行扭轉計畫及重整方案、提高生產力及降低複雜度與成本的計畫可能無法成功，這將會對其財務結果造成重大不利影響。",
+    "本公司運營依賴第三方廠商及供應商，若這些廠商無法妥善履行其責任，可能會干擾本公司業務運作。",
+    "網路攻擊或關鍵資訊科技系統、網路、流程、相關場所或服務提供者之故障，可能對本公司之業務或聲譽造成重大不利影響。",
+    "本公司在全球隱私權法規與規範下，可能面臨特定之資料保護與隱私權風險。",
+    "本公司之營運成果可能因通貨膨脹、原材料、勞動力、能源、運輸及其他必要物料與服務之成本或可得性變動而受到不利影響。",
+    "本公司之營運及財務狀況可能因全球總體經濟環境而受到不利影響，包括美國所課徵關稅及其他國家所課徵報復性關稅之影響。",
+    "本公司產品產業-wide 需求之不利變動，可能導致存貨評價風險。",
+    "本公司吸引、留住並培育關鍵人才之能力，包括對新興科技如人工智慧之準備，對執行其戰略目標及維持長期表現至關重要。",
+    "本公司聲譽受損或消費者信心喪失，可能對本公司業務造成不利影響。",
+    "勞資關係惡化可能對本公司之全球業務造成不利影響。",
+    "財務風險",
+    "本公司信用評級降低可能對其業務、未來借款能力、財務狀況及營運成果造成重大且不利的影響。",
+    "本公司面臨外幣換算及交易風險，這些風險可能對本公司營運成果、財務狀況及流動性造成重大且不利的影響。",
+    "與資產處分及品牌或產品線退出相關的情況可能對本公司營運成果及財務狀況造成不利影響。",
+    "法律、稅務及法規風險",
+    "政府調查或第三方機構採取行動可能對管理階層及本公司業務營運造成重大且不利的影響。",
+    "本公司業務及營運受美國及國際法規監管"
+   ],
+   "paragraphs": [
+    "本公司證券之持有涉及許多風險與不確定性。潛在投資人應仔細考慮下列所描述之風險與不確定性，以及本年度報告表10-K中之其他資訊，再決定是否投資本公司證券。本公司業務、財務狀況或營運成果可能因任何上述風險而受到重大不利影響。下列所描述之風險並非本公司所面臨之唯一風險。其他目前未知或本公司認為不重要之風險，也可能影響其業務或對其財務狀況或營運成果造成不利影響。",
+    "本公司與許多其他消費者及商業產品之製造商與經銷商競爭，其中許多為大型且具規模之企業。數位原生品牌之興起進一步加劇了競爭環境。本公司之主要客戶為大型百貨商、折扣商店、家居中心、倉儲俱樂部、辦公室超級商店、專業零售商店、經銷商、商業經銷商、直接對消費者通路及電商零售商。這些大型零售商所代表之市場佔有率，加上消費購物模式之變化，以及大型零售商整合實體門市與電商業務，已促成具多類別通路與電商業務之大型零售商之形成，這些零售商對供應商有強大談判力。這些零售商已並可能持續促進供應商之間高程度之競爭，降低存貨水準，要求創新之新產品及符合其獨特規格之產品，要求供應商根據競爭、經濟或其他因素調整產品價格，並要求縮短產品交貨時間。零售商已從外國來源直接進口產品，並可能持續進口，同時以自有品牌銷售產品，通常價格較低，與本公司產品競爭。",
+    "這些市場影響與零售商整併之結合，已創造出極度競爭之環境，使本公司之主要客戶持續評估使用哪些產品供應商，導致價格壓力下降，並需要具消費者價值之品牌，持續推出與商業化創新產品，持續改善類別管理與客戶服務，以及維持與大型高用量買家之強大關係。本公司亦面臨其主要客戶之策略或結構變動之風險，例如整體商店與存貨減少。傳統零售與電商領域之激烈競爭，可能導致許多客戶未來出現財務困難或破產。為應對這些挑戰，本公司必須能應對競爭因素及未來客戶流失之風險，若未能有效應對，將導致銷售減少、利潤降低及難以透過提價來彌補成本增加。",
+    "本公司之客戶已隨時間持續整併。本公司預期任何整併之客戶將採取行動使其供應商價格統一，關閉零售據點，減少存貨，並理順其供應鏈，這可能會對本公司業務及營運成果造成不利影響。無法保證整併後，本公司之大型客戶會繼續在不同產品類別或地理區域購買，或與整併前相同之規模，這可能會對本公司財務結果造成負面影響。此外，若整併趨勢持續，可能會導致客戶對供應商之談判力進一步增加，以及價格與其他競爭壓力，這可能會降低本公司之銷售與利潤。",
+    "本公司之銷售依賴於數個大型客戶之採購，任何這些客戶之採購大幅減少或要求降低價格之壓力，都可能對本公司未來財務表現造成負面影響。",
+    "雖然本公司與許多客戶有長期建立之關係，但本公司通常並無與其最大客戶之長期供應或具有約束力之契約，或保證最低採購量。這些客戶之採購承諾通常是透過個別採購訂單進行。因此，這些客戶可能取消訂單、改變採購數量與預測數量不同、因多種原因延遲採購，或改變商業關係之其他條款。客戶之重大取消、減少、延遲採購或改變商業作法，可能對本公司業務、營運成果與財務狀況造成重大不利影響。此外，因許多本公司之成本為固定成本，若因對終端消費者銷售減少而導致客戶需求減少，將對本公司之利潤造成不利影響。本公司許多市場之零售環境持續受到電商零售商快速成長、消費者偏好改變（包括線上購物與行動通訊及社交應用程式購物）以及替代零售通路（如訂閱服務與直接對消費者業務）之影響。電商快速成長與替代零售通路之興起，可能對本公司與關鍵零售商之關係造成不利影響，使得本公司所銷售產品數量不再為未來業務預期之可靠指標。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

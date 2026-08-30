@@ -1,0 +1,215 @@
+{
+ "ticker": "ALG",
+ "cik": "0000897077",
+ "accession": "0000897077-26-000016",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Sales and Marketing Strategy",
+    "Products and Distribution Channels",
+    "Vegetation Management Division",
+    "Industrial Equipment Division",
+    "Replacement Parts",
+    "Product Development",
+    "Unfilled Orders",
+    "Sources of Supply",
+    "Patents, Trademarks and Trade Names",
+    "Environmental and Other Governmental Regulations",
+    "Human Capital Resources and Management",
+    "Available Information",
+    "Forward-Looking Information",
+    "Information About our Executive Officers",
+    "Name Age Position"
+   ],
+   "paragraphs": [
+    "Unless the context otherwise requires, the terms \"the Company,\" \"Alamo Group,\" \"we,\" \"our\" and \"us\" refer to Alamo Group Inc. and its subsidiaries on a consolidated basis.",
+    "The Company is a leader in the manufacture and sale of high-quality, purpose-built industrial and vegetation management equipment. We serve end-markets such as infrastructure building and maintenance, industrial construction, public works, land maintenance, agriculture and tree care. Our products are sold to independent equipment dealers and directly to contractors and municipalities. Product categories include vocational products (vacuum trucks, street sweepers, roadside safety equipment, excavators, and snow removal equipment) and light machinery (tractor mounted mowing equipment, land maintenance and recycling equipment) as well as related after-market parts and services. The Company operates two divisions: the Industrial Equipment Division and the Vegetation Management Division. Founded in 1969, the Company has approximately 3,800 employees and operates 27 manufacturing facilities in North America, Canada, Europe, Brazil and Australia. The corporate offices of Alamo Group Inc. are located in Seguin, Texas.",
+    "The predecessor corporation to Alamo Group Inc. was incorporated in the State of Texas in 1969, as a successor to a business that began selling mowing equipment in 1955, and Alamo Group Inc. was reincorporated in the State of Delaware in 1987.",
+    "Since its founding in 1969, the Company has focused on satisfying customer needs through geographic market expansion, product development and refinement, and selected acquisitions. The Company's first products were based on rotary cutting technology. Through acquisitions, the Company added flail cutting technology in 1983 and sickle-bar cutting technology in 1984.",
+    "The Company entered the agricultural mowing markets in 1986 with the acquisition of Rhino Products Inc. (\"Rhino\"), a leading manufacturer in this field. With this acquisition, the Company embarked on a strategy to increase the Rhino dealer distribution network during a period of industry contraction. The addition of M&W Gear Company (\"M&W\") in early 1995 allowed the Company to enter into the manufacturing and distribution of tillage equipment, which complements the Rhino distribution network. M&W is part of the vegetation management marketing group.",
+    "In 1991, the Company began its international expansion with the acquisition of McConnel Ltd. (\"McConnel\"), a United Kingdom (\"U.K.\") manufacturer of vegetation maintenance equipment, principally hydraulic boom-mounted hedge and grass cutters and related parts. Bomford-Turner Ltd. (\"Bomford\"), also a U.K. company, was acquired in 1993. Bomford is a manufacturer of heavy-duty, tractor-mounted grass and hedge mowing equipment. McConnel and Bomford sell their products to dealers and distributors through their respective sales forces.",
+    "The Company added to its presence in the industrial and governmental vegetation markets with the acquisition of Tiger Corporation (\"Tiger\") in 1994. Tiger manufactures a wide variety of durable rotary and flail boom mowers, side mowers and rear mowing equipment, along with truck mounted boom mowers and a full line of specialty mowing equipment and attachments.",
+    "In 1994, the Company acquired Signalisation Moderne Autoroutiere S.A. (\"SMA\") located in Orleans, France. SMA manufactures and sells principally a line of heavy-duty, tractor-mounted grass and hedge mowing-equipment and associated replacement parts primarily to departments of the French government. This acquisition, along with the acquisitions of Forges Gorce (\"Forges Gorce\"), a flail blade manufacturer in France, in 1996 and Rousseau Holdings S.A. (\"Rousseau\"), a leading French manufacturer of hedge and verge mowers, in 2004, when combined with McConnel and Bomford, has made the Company one of the largest manufacturers in the European market for the kind of vegetation management equipment sold by the Company.",
+    "In 1995, the Company expanded its business in the agricultural market with the acquisition of Herschel Corporation (\"Herschel\"), a manufacturer and distributor of aftermarket farm equipment replacement and wear parts. In 2024, the Company sold substantially all of the assets of its Herschel business.",
+    "In 2000, the Company acquired Schwarze Industries, Inc. (\"Schwarze\"). Schwarze is a manufacturer of a broad range of street sweeping equipment which is sold to governmental agencies and contractors. The Company believes the Schwarze sweeper products fit the Company's strategy of identifying product offerings with brand recognition in the industrial markets the Company serves. In 2004, the Company purchased the pothole patcher product line from Wildcat Manufacturing, Inc. This product line was merged into the Schwarze operation and, in 2023, the product line assets were sold.",
+    "In 2000, the Company purchased the product line and associated assets of Twose of Tiverton Ltd. (\"Twose\") a small regional manufacturer of power arm flail mowers and parts, as well as harrows and rollers, in the U.K. Twose consolidated its operations into the existing facilities at McConnel and Bomford and its brand name has been merged into the McConnel product line.",
+    "In 2000, the Company acquired Schulte Industries Ltd. and its related entities (\"Schulte\"). Schulte is a Canadian manufacturer of mechanical rotary mowers, snow blowers, and rock removal equipment. Schulte strengthened the Company's Canadian presence in both marketing and manufacturing. It also expanded the Company's range of large, heavy-duty rotary mowers.",
+    "In 2002, the Company purchased inventory, fixed assets and certain other assets of Valu-Bilt Tractor Parts (\"Valu-Bilt\"), a subsidiary of Quality Stores, Inc., located in Des Moines, Iowa. Valu-Bilt is a distributor of new, used and rebuilt tractor parts and other agricultural spare and wear parts sold directly to customers through its catalog and the internet and on a wholesale basis to dealers. Subsequent to the purchase, the operations of Valu-Bilt in Des Moines, Iowa, were consolidated into the Company's Herschel facility in Indianola, Iowa.",
+    "In 2005, the Company acquired 100% of the issued and outstanding stock of Spearhead Machinery Limited (\"Spearhead\") and subsequently merged its manufacturing operations into Bomford's facility. Spearhead manufactures a range of tractor-mounted vegetation maintenance equipment, including reach mowers, flail mowers and rotary cutters. This acquisition extended our product lines and market coverage in Europe."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks related to our business",
+    "A downturn in general economic conditions and outlook in the United States and around the world could adversely affect our net sales and earnings.",
+    "Deterioration of industry conditions could harm our business, results of operations and financial condition.",
+    "Our dependence on, and the price and availability of, raw materials as well as purchased components may adversely affect our business, results of operations and financial condition.",
+    "Skilled labor shortages or our inability to retain qualified employees could adversely affect our operations.",
+    "We depend on governmental sales, and a decrease in such sales could adversely affect our business, results of operations and financial condition.",
+    "Significant changes in trade policy and related trade wars could have a material adverse impact on our results of operations.",
+    "Impairment in the carrying value of goodwill could negatively impact our consolidated results of operations and net worth.",
+    "We are significantly dependent on information technology and our business may suffer from disruptions associated with information technology, cyber-attacks or other catastrophic losses affecting our IT infrastructure.",
+    "Changes in the regulatory environment regarding privacy and data protection regulations could have a material adverse impact on our results of operations.",
+    "We operate in a highly competitive industry, and some of our competitors and potential competitors have greater resources than we do.",
+    "Failure to develop new products or keep pace with technological developments may have a material adverse impact on our results of operations.",
+    "We operate and source internationally, which exposes us to the political, economic and other risks of doing business abroad.",
+    "Our acquisition strategy may not be successful, which may adversely affect our business, results of operations and financial condition.",
+    "We may not be able to realize the potential or strategic benefits of the acquisitions we complete, and the businesses we have acquired, or may acquire in the future, may not perform as expected.",
+    "We may not achieve anticipated cost savings or synergies associated with restructuring some of our business operations.",
+    "Disposal of non-core assets may adversely affect our business, results of operations and financial condition.",
+    "The agricultural industry and the infrastructure maintenance industry are seasonal, and seasonal fluctuations may cause our results of operations and working capital to fluctuate from quarter to quarter.",
+    "Extreme weather conditions may impact demand for some of our products and impact our business, results of operations and financial condition.",
+    "Our business and operations are subject to risks related to climate change.",
+    "If we do not retain key personnel and attract and retain other highly skilled employees, our business may suffer.",
+    "We are subject to environmental, health and safety and employment laws and regulations and related compliance expenditures and liabilities.",
+    "We are subject on an ongoing basis to the risk of product liability claims and other litigation arising in the ordinary course of business.",
+    "If we are unable to comply with the terms of our credit arrangements, especially the financial covenants, our credit arrangements could be terminated.",
+    "Fluctuations in currency exchange rates may adversely affect our financial results.",
+    "Risks related to investing in our common stock",
+    "Because the price of our common stock may fluctuate significantly, it may be difficult for you to resell our common stock when desired or at attractive prices.",
+    "You may experience dilution of your ownership interests due to the future issuance of additional shares of our common stock.",
+    "There is no assurance that we will continue declaring dividends or have the available cash to make dividend payments.",
+    "Provisions of our corporate documents may have anti-takeover effects that could prevent a change in control.",
+    "Future sales, or the possibility of future sales, of a substantial amount of our common stock may depress the price of the shares of our common stock.",
+    "Certain stockholders own a significant amount of our common stock, and their interests may conflict with those of our other stockholders."
+   ],
+   "paragraphs": [
+    "You should carefully consider each of the risks described below, together with all of the other information contained in this Annual Report on Form 10-K, before making an investment decision with respect to the Company's securities. If any of the following risks develop into actual events, the Company's business, financial condition or results from operations could be materially and adversely affected and you could lose all or part of your investment.",
+    "The strength and profitability of our business depends on the overall demand for our products and upon economic conditions and outlook, including but not limited to economic growth rates, consumer spending levels, financing availability, pricing and terms for our dealers and end-users, employment rates, interest rates, inflation, consumer confidence and general economic and political conditions and expectations in the United States and the other economies in which we conduct business. Slow or negative growth rates, inflationary/deflationary pressures, higher commodity costs and energy prices, reduced credit availability or unfavorable credit terms for our dealers and end-user customers, increased unemployment rates, and recessionary economic conditions and outlook could cause consumers to reduce spending, which may cause them to delay or forgo purchases of our products and could have an adverse effect on our net sales and earnings.",
+    "Our business depends to a large extent upon the prospects for the infrastructure maintenance, vegetation management and agricultural markets in general. Future prospects of the industry depend largely on factors outside of our control. Any of those factors could adversely impact demand for our products, which could adversely impact our business, results of operations and financial condition. These factors include the following:",
+    "•weakness in the worldwide economy; •the price and availability of raw materials, purchased components and energy;",
+    "•budget constraints and revenue shortfalls for our governmental customers;",
+    "•changes in domestic and foreign governmental policies and laws, including increased levels of governmental regulation and associated liabilities;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Executive Summary and Outlook",
+    "2025 Performance",
+    "Fiscal Year Ended December 31,",
+    "Net sales (data in thousands): 2025 2024 2023",
+    "Results of Operations",
+    "Fiscal 2025 compared to Fiscal 2024",
+    "Fiscal 2024 compared to Fiscal 2023",
+    "Liquidity and Capital Resources",
+    "New Accounting Pronouncements",
+    "Payment due by period",
+    "Critical Accounting Estimates",
+    "Critical Accounting Policies",
+    "Business Combinations"
+   ],
+   "paragraphs": [
+    "This report contains forward-looking statements that are based on Alamo Group's current expectations. Actual results in future periods may differ materially from those expressed or implied because of a number of risks and uncertainties which are discussed below and in the Forward-Looking Information section beginning on page 14.",
+    "We continued to experienced strong demand for industrial equipment products in 2025, while demand for vegetation products was mixed. Agricultural, tree care and recycling markets remained weak. Operating margins declined as strong performance in the Industrial Equipment Division only partially offset lower margins in the Vegetation Management Division. Market conditions continue to be mixed. Demand for governmental and industrial products is healthy and vegetation product demand remains weak by soft commodity pricing, elevated interest rates, and reduced housing construction activity."
+   ],
+   "focus": "Executive Summary and Outlook"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Sales and Marketing Strategy': '銷售與行銷策略'}",
+    "{'Products and Distribution Channels': '產品與通路管道'}",
+    "{'Vegetation Management Division': '植生管理部門'}",
+    "{'Industrial Equipment Division': '工業設備部門'}",
+    "{'Replacement Parts': '更換零件'}",
+    "{'Product Development': '產品開發'}",
+    "{'Unfilled Orders': '未完成訂單'}",
+    "{'Sources of Supply': '供應來源'}",
+    "{'original': 'Patents, Trademarks and Trade Names', 'translated': '專利、商標及商號'}",
+    "{'original': 'Environmental and Other Governmental Regulations', 'translated': '環境及其他政府規範'}",
+    "{'original': 'Human Capital Resources and Management', 'translated': '人力資源及管理'}",
+    "{'original': 'Available Information', 'translated': '可供查閱之資訊'}",
+    "{'original': 'Forward-Looking Information', 'translated': '前瞻性資訊'}",
+    "{'original': 'Information About our Executive Officers', 'translated': '關於我們高階主管之資訊'}",
+    "{'original': 'Name Age Position', 'translated': '姓名 年齡 職位'}"
+   ],
+   "paragraphs": [
+    "除非文意另有所指，否則 \"the Company,\" \"Alamo Group,\" \"we,\" \"our\" 以及 \"us\" 皆指 Alamo Group Inc. 以及其子公司，以合併財務報表為準。",
+    "本公司為高品質、專門用途的工業及植被管理設備製造與銷售的領導者。我們服務的終端市場包括基礎建設與維護、工業建設、公共工程、土地維護、農業及樹木照顧。本公司產品銷售給獨立設備經銷商，並直接銷售給承包商與地方政府。產品類別包括職業用產品（吸塵車、街道清潔車、道路安全設備、挖掘機及除雪設備）與輕型機械（拖拉機裝載割草設備、土地維護與回收設備）以及相關後市場零件與服務。本公司經營兩大部門：工業設備部門與植被管理部門。本公司於 1969 年成立，約有 3,800 名員工，並在北美、加拿大、歐洲、巴西及澳洲設有 27 個製造廠。Alamo Group Inc. 的總部設於德州 Seguin 市。",
+    "Alamo Group Inc. 的前身公司於 1969 年在德州註冊成立，為一家繼承自 1955 年開始銷售割草設備的企業，而 Alamo Group Inc. 於 1987 年重新在特拉華州註冊。",
+    "自 1969 年成立以來，本公司一直專注於透過地理市場擴張、產品開發與改良及選擇性收購來滿足客戶需求。本公司最初的產品基於旋轉切割技術。透過收購，本公司於 1983 年加入了旋風切割技術，並於 1984 年加入了鋤刀切割技術。",
+    "本公司於 1986 年透過收購 Rhino Products Inc.（\"Rhino\"），一家此領域的領導製造商，進入農業割草市場。透過此次收購，本公司開始執行擴展 Rhino 經銷商銷售網路的策略，當時產業處於收縮期。於 1995 年初收購 M&W Gear Company（\"M&W\"）後，本公司得以進入翻耕設備的製造與銷售，這與 Rhino 經銷商銷售網路相輔相成。M&W 屬於植被管理行銷羣組。",
+    "本公司於 1991 年開始國際擴張，透過收購 McConnel Ltd.（\"McConnel\"），一家英國（\"U.K.\"）的植被維護設備製造商，主要製造液壓臂裝載的灌木與草葉切割機及相關零件。Bomford-Turner Ltd.（\"Bomford\"），另一家英國公司，於 1993 年被收購。Bomford 是一家製造重型拖拉機裝載草葉與灌木切割機的公司。McConnel 與 Bomford 透過各自的銷售團隊將產品銷售給經銷商與代理商。",
+    "本公司於 1994 年透過收購 Tiger Corporation（\"Tiger\"）加強其在工業與政府植被市場的佈局。Tiger 製造各式耐用的旋轉與旋風臂裝載割草機、側邊割草機與後置割草設備，以及載重車裝載臂裝載割草機與完整線路的專業割草設備與配件。",
+    "本公司於 1994 年收購位於法國奧爾良的 Signalisation Moderne Autoroutiere S.A.（\"SMA\"）。SMA 主要製造與銷售重型拖拉機裝載草葉與灌木切割設備及相關更換零件，主要銷售對象為法國政府部門。此收購，加上 1996 年收購法國的 Forges Gorce（\"Forges Gorce\"），一家旋風刀片製造商，以及 2004 年收購法國的 Rousseau Holdings S.A.（\"Rousseau\"），一家此領域的領導製造商，與 McConnel 與 Bomford 組合後，使本公司成為歐洲市場此類植被管理設備的主要製造商之一。",
+    "1995 年，本公司擴展其在農業市場的業務，透過收購 Herschel Corporation（\"Herschel\"），一家農業機械後市場零組件製造與經銷商。2024 年，本公司出售其 Herschel 事業 substantially all 的資產。",
+    "2000 年，本公司收購 Schwarze Industries, Inc.（\"Schwarze\"）。Schwarze 是一家製造廣泛街頭清潔機械的公司，銷售對象為政府機構與承包商。本公司認為 Schwarze 的清潔機械產品符合本公司策略，即識別具有品牌認知度的產品線，以符合本公司服務的工業市場。2004 年，本公司購入 Wildcat Manufacturing, Inc. 的 pothole patcher 產品線。此產品線已併入 Schwarze 作業，2023 年，此產品線資產已出售。",
+    "2000 年，本公司購入 Twose of Tiverton Ltd.（\"Twose\"）的產品線與相關資產，Twose 是一家位於英國的小規模區域性製造商，製造電動臂式鏟草機與零組件，以及耙與滾筒。Twose 將其作業整合至 McConnel 和 Bomford 現有廠區，其品牌名稱已併入 McConnel 產品線。",
+    "2000 年，本公司收購 Schulte Industries Ltd. 及其相關企業（\"Schulte\"）。Schulte 是一家加拿大製造機械旋轉割草機、雪地清潔機與岩石清除設備的公司。Schulte 增強本公司在加拿大市場的行銷與製造據點。同時也擴展本公司大型、重-duty 旋轉割草機的產品線。",
+    "2002 年，本公司購入 Valu-Bilt Tractor Parts（\"Valu-Bilt\"）的存貨、固定資產及某些其他資產，Valu-Bilt 是 Quality Stores, Inc. 的子公司，位於愛荷華州迪莫因。Valu-Bilt 是一家新、二手與重組拖拉機零組件及其他農業備用品與磨損零件的經銷商，直接透過其目錄與網際網路銷售給客戶，並以整批方式銷售給經銷商。購入後，Valu-Bilt 在愛荷華州迪莫因的作業已併入本公司在愛荷華州印第安諾拉的 Herschel 廠區。",
+    "2005 年，本公司收購 Spearhead Machinery Limited（\"Spearhead\"）100% 發行在外的股票，並隨後將其製造作業併入 Bomford 的廠區。Spearhead 製造一系列拖拉機-mounted 植被維護設備，包括伸展式割草機、臂式鏟草機與旋轉切割器。此收購擴展本公司在歐洲的產品線與市場覆蓋範圍。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "執行摘要與展望",
+    "2025 年績效",
+    "會計年度終了於 12 月 31 日",
+    "淨銷售額（資料單位為千美元）：2025 2024 2023",
+    "營運成果",
+    "2025 會計年度與 2024 會計年度比較",
+    "2024 會計年度與 2023 會計年度比較",
+    "流動性與資本資源",
+    "新會計準則宣佈",
+    "各期間應償付金額",
+    "關鍵會計估計",
+    "關鍵會計政策",
+    "企業併購"
+   ],
+   "paragraphs": [
+    "本報告包含根據阿拉摩集團目前預期所作出之展望性陳述。未來期間之實際結果可能因多項風險與不確定性而與所表達或暗示者有重大差異，有關風險與不確定性已於下文及第14頁開始之展望性資訊部分進行討論。",
+    "我們在2025年持續經歷工業設備產品之強勁需求，而植被產品之需求則呈現混合態勢。農業、樹木護理及回收市場持續低迷。營運邊際下降，因工業設備部門之強勁表現僅部分抵銷植被管理部門之較低邊際。市場情況持續呈現混合態勢。政府與工業產品之需求健康，而植被產品需求因軟性商品價格低迷、利率高企及住宅建設活動減少而持續低迷。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務相關的風險",
+    "美國及全球總體經濟狀況與展望惡化，可能不利於我們的淨銷售額與獲利。",
+    "產業條件惡化可能損害我們的業務、營運結果與財務狀況。",
+    "我們對原物料及購入零組件的依賴，以及其價格與可取得性，可能不利於我們的業務、營運結果與財務狀況。",
+    "技術性勞工短缺或我們無法留住合適員工，可能不利於我們的營運。",
+    "我們依賴政府採購，若此類採購減少，可能不利於我們的業務、營運結果與財務狀況。",
+    "重要貿易政策變動及相關貿易戰，可能對我們的營運結果產生重大不利影響。",
+    "商譽攜帶價值減損，可能對我們的合併營運結果與淨資產產生負面影響。",
+    "本公司對資訊科技有高度依賴，且營運可能因資訊科技、網路攻擊或其他導致IT基礎建設受損之重大損失而受到幹擾。",
+    "有關隱私權及資料保護之監管環境變動，可能對本公司營運成果產生重大不利影響。",
+    "本公司所處產業為高度競爭，部分競爭對手或潛在競爭對手擁有較本公司更多資源。",
+    "若無法開發新產品或跟上科技發展，可能對本公司營運成果產生重大不利影響。",
+    "本公司營運及採購均為國際化，因此面臨海外營運之政治、經濟及其他風險。",
+    "本公司收購策略可能無法成功，此可能對本公司營運、營運成果及財務狀況產生不利影響。",
+    "本公司可能無法實現已完成或未來可能完成之收購之潛在效益或戰略優勢，且已收購或未來可能收購之業務可能未達預期表現。",
+    "本公司可能無法實現因重整部分營運作業而預期之成本節省或協同效益。",
+    "非核心資產處置可能不利於本公司業務、營運結果及財務狀況。",
+    "農業產業及基礎設施維護產業具有季節性，季節性變動可能導致本公司營運結果及營運資金按季別浮動。",
+    "極端天氣條件可能影響部分產品的需求，並影響本公司業務、營運結果及財務狀況。",
+    "本公司業務及營運面臨與氣候變遷相關之風險。",
+    "若本公司無法留住關鍵人才並吸引及留住其他高技能員工，本公司業務可能受影響。",
+    "本公司受環境、健康與安全及就業相關法律法規之約束，並需承擔相關合規支出及責任。",
+    "本公司持續面臨產品責任索償及其他商業常規中衍生之訴訟風險。",
+    "若本公司無法遵守信用協議之條款，特別是財務契約條款，本公司之信用協議可能被終止。",
+    "外匯匯率波動可能不利於我們的財務結果。",
+    "投資本公司普通股的風險",
+    "由於本公司普通股價格可能大幅波動，因此在您希望時或以具吸引力的價格出售本公司普通股可能會困難。",
+    "您可能因未來發行更多本公司普通股而導致您的股權稀釋。",
+    "本公司無持續宣佈股息或擁有足夠現金以支付股息的保證。",
+    "本公司章程的規定可能具有防禦敵意收購的效果，可能阻止控制權的變更。",
+    "未來銷售，或未來可能銷售，大量本公司普通股可能壓低本公司普通股的價格。",
+    "部分股東持有大量本公司普通股，其利益可能與本公司其他股東的利益產生衝突。"
+   ],
+   "paragraphs": [
+    "你應仔細審慎評估下列所列之風險，並與本年度10-K表報表中所載之其他資訊一併考量，以作為投資本公司證券之決策依據。若上述任一風險成為實際事件，將可能對本公司之業務、財務狀況或營運成果造成重大且不利之影響，你可能因此喪失全部或部分投資。",
+    "本公司業務之強弱與獲利能力，取決於我們產品之整體需求，以及總體經濟狀況與展望，包括但不限於經濟成長率、消費者支出水準、融資可得性、我們經銷商與最終用戶之價格與條款、就業率、利率、通貨膨脹、消費者信心以及美國及其他我們營運之經濟體之總體經濟與政治狀況與展望。成長率遲緩或為負值、通貨膨脹/通貨緊縮壓力、較高之原物料成本與能源價格、較少之信貸可得性或對我們經銷商與最終用戶客戶之信貸條款不利，以及失業率上升與經濟衰退之展望，可能導致消費者減少支出，這可能會使他們延後或放棄購買我們之產品，並對我們之淨銷售額與獲利造成不利影響。",
+    "本公司業務在很大程度上依賴於基礎設施維護、植被管理及農業市場之整體前景。產業未來之展望 largely 取決於我們無法控制之因素。任何這些因素都可能對我們產品之需求造成不利影響，進而對我們之業務、營運成果與財務狀況造成不利影響。這些因素包括以下內容：",
+    "• 全球經濟疲弱； • 原物料、購入零組件與能源之價格與可得性；",
+    "• 我們政府客戶之預算限制與收入短絀；",
+    "• 國內與國外政府政策與法律之變動，包括增加之政府規範與相關責任；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,217 @@
+{
+ "ticker": "BCML",
+ "cik": "0001730984",
+ "accession": "0001730984-26-000016",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Borrower Type",
+    "Sources of Funds"
+   ],
+   "paragraphs": [
+    "The disclosures set forth in this item are qualified by \"Item 1A. Risk Factors\" below and the section captioned \"Special Note Regarding Forward-Looking Statements\" above and other cautionary statements set forth elsewhere in this Form 10-K.",
+    "General. BayCom is a bank holding company headquartered in Walnut Creek, California. BayCom's wholly owned banking subsidiary, United Business Bank, provides a broad range of financial services to businesses and business owners, as well as individual consumers, through its network of 34 full-service branches, with 16 locations in California, one in Nevada, one in Washington, five in New Mexico and 11 in Colorado. The Company's business activities generally are limited to passive investment activities and the monitoring of its investment in the Bank. Accordingly, the information set forth in this Form 10-K, including the consolidated financial statements and related data, relate primarily to the Bank.",
+    "Our principal business objective is to enhance shareholder value and generate consistent earnings growth by expanding our commercial banking franchise through both strategic acquisitions and organic growth. Since 2010, we have expanded our geographic footprint through ten strategic acquisitions. We believe that our selective acquisition of community banks has yielded economies of scale and improved our efficiency. We have also grown organically by leveraging the potential within metropolitan and community markets where we operate. These markets have offered significant opportunities to expand our commercial client base, increase interest-earning assets, and enhance market share. We believe our geographic footprint, which now includes the San Francisco Bay area, the metropolitan markets of Los Angeles, California; Seattle, Washington; Denver, Colorado; and Las Vegas, Nevada, and community markets including Albuquerque, New Mexico, and Custer, Delta, and Grand Counties, Colorado, provides us access to low cost, stable core deposits in community markets that we can use to fund commercial loan growth. We strive to provide an enhanced banking experience for our clients by providing them with a comprehensive suite of sophisticated products and services tailored to meet their needs, while delivering the high-quality, relationship-based client service of a community bank. As of December 31, 2025, we had, on a consolidated basis, assets of $2.6 billion, loans of $2.0 billion (net of allowances), deposits of $2.2 billion and shareholders' equity of $338.6 million. At that date, our total loan portfolio included $224.9 million, or 10.9%, of acquired loans (all of which were recorded to their estimated fair values at the time of acquisition), and the remaining $1.8 billion, or 89.1%, consisted of loans we originated.",
+    "The profitability of our operations depends primarily on our net interest income after provision for credit losses, which is the difference between interest earned on interest earning assets and interest paid on interest bearing liabilities less provision for credit losses. Our net income is also affected by other factors, including noninterest income and noninterest expense.",
+    "Our History and Growth. In January 2017, the Company became the holding company for the Bank. The Bank commenced operations as Bay Commercial Bank in July 2004 and changed its name to United Business Bank in April 2017, following our acquisition of United Business Bank, FSB in April 2017.",
+    "The Bank was founded in March 2004 as a California state chartered commercial bank, by a group of Walnut Creek business and community leaders, including George Guarini, who serves as our Chief Executive Officer. The severe economic recession beginning in 2008 and the ongoing consolidation in the banking industry created an opportunity for our management team and board to build an attractive commercial banking franchise and create long-term value for our shareholders by employing an acquisition strategy focused on opportunities to grow our product portfolio and expand our business geographically.",
+    "Since 2010, we have implemented our vision of becoming a strategic consolidator of community banks, attracting seasoned bankers and businesspersons who share our entrepreneurial spirit. While not without risk, we believe there are certain advantages arising from mergers and acquisitions. These advantages include, among others, the diversification of our loan portfolio with seasoned loans, the expansion of our market areas and an effective method to augment our growth",
+    "and risk management infrastructure through the retention of local lending personnel and credit administration personnel to manage the client relationships of the banks being acquired.",
+    "We believe we have a successful track record of selectively acquiring, integrating and consolidating community banks. Since 2010, we have completed ten acquisitions, with aggregate total assets acquired of approximately $2.3 billion and total deposits assumed of approximately $1.9 billion. We have sought to integrate the acquired banks into our existing operational platform to create operational efficiencies within the combined operations, all geared towards enhancing shareholder value. Continuing our vision, in August 2023, we opened a de novo branch in Las Vegas, Nevada to expand our geographic footprint and market areas and augment our deposit and loan growth.",
+    "In April 2017, we completed our largest acquisition to date when we acquired First ULB Corp (\"FULB\"), the holding company for United Business Bank, FSB, headquartered in Oakland, California. This acquisition increased our deposits by approximately $428.0 million. At the time of acquisition, United Business Bank, FSB had total assets of approximately $473.1 million, which significantly increased our asset size and provided us with nine full-service banking offices in Long Beach, Oakland, Sacramento, San Francisco, San Jose and Glendale, California; Seattle, Washington and Albuquerque, New Mexico. This acquisition expanded our geographic footprint and added low cost, stable deposits associated with a strong network of relationship with labor unions.",
+    "In November 2017, we acquired Plaza Bank, with one branch located in Seattle, Washington. At the time of the acquisition, Plaza Bank had approximately $75.8 million in total assets and $54.2 million in deposits.",
+    "In November 2018, we acquired Bethlehem Financial Corporation (\"BFC\"), the holding company for MyBank, headquartered in Belin, New Mexico, and paid a total of $23.5 million in cash for all of the outstanding equity securities of BFC. MyBank operated through five branches serving Central New Mexico. At the time of acquisition, MyBank had approximately $157.8 million in total assets and $135.5 million in deposits.",
+    "In May 2019, we acquired Uniti Financial Corporation (\"UFC\"), the holding company for Uniti Bank, headquartered in Buena Park, California, which had three branch offices located in Southern California. At the time of acquisition, UFC had approximately $318.0 million in total assets and $265.8 million in deposits.",
+    "In October 2019, we acquired TIG Bancorp (\"TIG\"), the holding company for First State Bank of Colorado, headquartered in Greenwood Village, Colorado, which had seven branch offices and served the Denver metropolitan area and other Colorado communities. At the time of acquisition, TIG had approximately $235.6 million in total assets and $202.8 million in total deposits."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Macroeconomic Conditions",
+    "Our business may be adversely affected by downturns in the national economy and the regional economies in which we operate.",
+    "Monetary policy, inflation, deflation, and other external economic factors could adversely impact our financial performance and operations.",
+    "Risks Related to Our Lending Activities",
+    "Nonperforming assets take significant time to resolve and adversely affect our results of operations and financial condition and could result in further losses in the future.",
+    "Many of our loans are to commercial borrowers, which have a higher degree of risk than other types of loans.",
+    "Construction loans are based upon estimates of costs and values associated with the completed project. These estimates may be inaccurate, and we may be exposed to significant losses on loans for these projects.",
+    "Our business may be adversely affected by credit risk associated with residential property.",
+    "Agricultural lending and volatility in government regulations may adversely affect our financial condition and results of operations.",
+    "To meet our growth objectives, we may originate or purchase loans outside our market areas, which could affect the level of our net interest margin and nonperforming loans.",
+    "Our allowance for credit losses may prove to be insufficient to absorb losses in our loan portfolio.",
+    "Risks Related to Market and Interest Rate Changes",
+    "Our profitability is vulnerable to interest rate fluctuations.",
+    "We may incur losses on our securities portfolio as a result of increases in interest rates.",
+    "Risks Related to our Merger and Acquisition Strategy",
+    "Any expansion into new markets or new lines of business might not be successful.",
+    "Risks Related to Accounting Matters",
+    "We may experience future goodwill impairment, which could reduce our earnings.",
+    "Our reported financial results depend on management's selection of accounting methods and certain assumptions and estimates, which, if incorrect, could cause unexpected losses in the future.",
+    "We are subject to an extensive body of accounting rules and best practices. Periodic changes to such rules may change the treatment and recognition of critical financial line items and affect our profitability.",
+    "Risks Related to Cybersecurity, Third Parties and Technology",
+    "We are subject to certain risks in connection with our use of technology.",
+    "Our current and future uses of Artificial Intelligence (AI) and other emerging technologies may create additional risks.",
+    "We are subject to certain risks in connection with our data management or aggregation.",
+    "Our business may be adversely affected by an increasing prevalence of fraud and other financial crimes.",
+    "The financial services market is undergoing rapid technological changes, and if we are unable to stay current with those changes, we will not be able to effectively compete.",
+    "Risks Related to Regulatory and Compliance Matters",
+    "The level of our commercial real estate loan portfolio may subject us to additional regulatory scrutiny.",
+    "We operate in a highly regulated environment and may be adversely affected by changes in federal and state laws and regulations that could increase our costs of operations.",
+    "Non-compliance with the USA PATRIOT Act, Bank Secrecy Act, or other laws and regulations could result in fines or sanctions and limit our ability to get regulatory approval of acquisitions.",
+    "If our enterprise risk management framework is not effective at mitigating risk and loss to us, we could suffer unexpected losses.",
+    "Climate change and related legislative and regulatory initiatives may materially affect the Company's business and results of operations."
+   ],
+   "paragraphs": [
+    "An investment in our common stock is subject to risks inherent in our business. Before making an investment decision, you should carefully consider the risks and uncertainties described below together with all the other information included in this Form 10-K. The risks described below are not the only ones we face. Additional risks and uncertainties not currently known to us or that we may currently deem to be immaterial may also materially and adversely affect our business, financial condition, capital levels, cash flows, liquidity, results of operations and prospects. The market price of our common stock could decline significantly due to any of these identified or other risks, and you could lose some or all of your investment. The risks discussed below include forward-looking statements, and our actual results may differ substantially from those discussed in these forward-looking statements. This Form 10-K is qualified in its entirety by these risk factors.",
+    "We provide banking and financial services primarily to businesses and individuals in the states of California, Colorado, Nevada, New Mexico, and Washington. All our branches and most of our deposit clients are located in these five states. Adverse economic conditions in our market areas could impact our growth rate, reduce our customers' ability to repay loans, and adversely impact our business, financial condition, and results of operations.",
+    "Broader economic factors such as inflation, unemployment, money supply fluctuations, changes in monetary policy, and volatility in interest rate markets also may adversely affect our profitability. Uncertainty regarding the timing, magnitude or pace of potential interest rate changes by the Federal Reserve, particularly following a prolonged period of elevated rates or increased interest rate volatility, may negatively affect borrowing demand, asset yields, deposit pricing, credit performance, and overall economic activity in our market areas. Furthermore, trade disputes, tariffs, or shifts in trade policies between the United States and other nations could disrupt supply chains, increase costs for businesses, and reduce export opportunities for our customers. These developments may, in turn, negatively impact our customers' operations and, consequently, our financial performance.",
+    "A downturn in economic conditions in the market areas we serve, in particular the San Francisco Bay Area, Southern California, Denver, Colorado, Seattle, Washington, Central New Mexico and the agricultural region of the California Central Valley, whether due to inflation, recessionary trends, geopolitical instability or conflicts, or environmental and climate-related events such as wildfires, floods, or other factors, could have a material adverse effect on our business, financial condition, liquidity, and results of operations, including but not limited to:",
+    "● Reduced demand for our products and services, potentially leading to a decline in our overall loans or assets.",
+    "● Elevated levels of loan delinquencies, problem assets, and foreclosures."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "History and Overview",
+    "Business Strategy",
+    "Critical Accounting Estimates",
+    "Comparison of Financial Condition at December 31, 2025 and 2024",
+    "Amount Due or Repricing Within:",
+    "to Five Years",
+    "to Ten Years",
+    "As of December 31,",
+    "San Francisco Bay",
+    "Total in State of",
+    "Other California(2)",
+    "All Other States(3)",
+    "After Fifteen",
+    "Years ended December 31,",
+    "December 31,"
+   ],
+   "paragraphs": [
+    "This discussion and analysis reviews our consolidated financial statements and other relevant statistical data and is intended to enhance your understanding of our financial condition and results of operations. The information in this section has been derived from the Consolidated Financial Statements and footnotes thereto that appear in \"Item 8. Financial Statements and Supplementary Data\" of this Form 10-K. The information contained in this section should be read in conjunction with these Consolidated Financial Statements and footnotes and the business and financial information provided in this Form 10-K. Unless otherwise indicated, the financial information presented in this section reflects the consolidated financial condition and results of operations of BayCom Corp and its subsidiary, United Business Bank. Because we conduct all of our material business operations through the Bank, the entire discussion relates to activities primarily conducted by the Bank.",
+    "BayCom is a bank holding company headquartered in Walnut Creek, California. The Company's wholly owned banking subsidiary, United Business Bank, provides a broad range of financial services primarily to businesses and business owners, as well as individual consumers, through its branch network. At December 31, 2025, the Bank had 34 full-service branches, with 16 locations in California, one in Nevada, one in Washington, five in New Mexico and 11 in Colorado.",
+    "Our principal objective is to enhance shareholder value and generate consistent earnings growth by expanding our commercial banking franchise through both strategic acquisitions and organic growth. Since 2010, we have expanded our geographic footprint through ten strategic acquisitions, which includes our most recent acquisition of PEB, which closed in February 2022. We believe our strategy of selectively acquiring and integrating community banks has yielded economies of scale and improved our overall franchise efficiency. Looking forward, we expect to continue pursuing strategic acquisitions, believing our targeted market areas present us with many and varied acquisition opportunities. We are also committed to organic growth, leveraging the potential within metropolitan and community markets where we",
+    "currently operate. These markets offer significant opportunities to expand our commercial client base, increase interest-earning assets, and enhance market share. We believe our geographic footprint, which now includes the San Francisco Bay area, the metropolitan markets of Los Angeles, California; Seattle, Washington; Denver, Colorado; and Las Vegas, Nevada, and community markets including Albuquerque, New Mexico and Custer, Delta and Grand counties, Colorado, provides us access to low cost, stable core deposits that we can use to fund commercial loan growth. We strive to enhance our clients' banking experience by providing them with a comprehensive suite of sophisticated products and services tailored to meet their needs, while delivering the high-quality, relationship-based service of a community bank. At December 31, 2025, the Company, on a consolidated basis, had total assets of $2.6 billion, loans receivable, net of $2.0 billion, deposits of $2.2 billion and shareholders' equity of $338.6 million.",
+    "We continue to focus on growing our commercial loan portfolios through both acquisitions and organic growth. At December 31, 2025, our $2.0 billion total loan portfolio included $224.9 million, or 10.9%, of acquired loans (all of which were recorded to their estimated fair values at the time of acquisition), and the remaining $1.8 billion, or 89.1%, consisted of loans we originated.",
+    "The profitability of our operations depends primarily on our net interest income after provision for credit losses, which is the difference between interest earned on interest earning assets and interest paid on interest bearing liabilities less the provision for credit losses. Changes in market interest rates, the slope of the yield curve, and interest we earn on interest earning assets or pay on interest bearing liabilities, as well as the volume and types of interest earning assets, interest bearing and noninterest bearing liabilities and shareholders' equity, usually have the largest impact on changes in our net interest spread, net interest margin and net interest income during a reporting period.",
+    "Changes in market interest rates, the slope of the yield curve, and the rates we earn on interest earning assets or pay on interest bearing liabilities have a significant impact on our net interest spread, net interest margin and net interest income. During 2025, the Federal Open Market Committee of the Federal Reserve (\"FOMC\") lowered the target range for the federal funds rate in response to continued moderation in inflation and evolving economic conditions. The FOMC reduced the target range by 75 basis points, from 4.25%–4.50% at December 31, 2024, to 3.50%–4.25% by year-end 2025. All reductions occurred between September and December 2025. Correspondingly, the prime rate, which generally moves in relation to the federal funds rate, was approximately 6.75% at year-end 2025. These rate levels influenced both asset yields and funding costs during the year.",
+    "Net interest margin increased to 3.82% for the year ended December 31, 2025, compared to 3.74% for the previous year and was driven by lower average costs of interest-bearing liabilities, particularly on money market and time deposits, and the redemption of subordinated debt. Based on the current composition of our balance sheet, we believe net interest margin could improve if interest rates remain at or near current levels; however, a decline in interest rates would likely negatively impact our net interest income.",
+    "The provision for credit losses is dependent on changes in our loan portfolio and management's assessment of the collectability of our loan portfolio, as well as prevailing economic and market conditions. We recorded a $4.1 million provision for credit losses for the year ended December 31, 2025, primarily driven by loan growth and increases in specific reserves. Net charge-offs totaled $948,000 for the year ended December 31, 2025. The lower net charge-offs primarily reflect fewer nonaccrual loan charge-offs, as well as payoffs and collections on previously nonaccrual loans.",
+    "Our net income is also affected by noninterest income and noninterest expenses. Noninterest income consists of, among other things: (i) service charges on loans and deposits; (ii) gain on sale of loans; and (iii) gain (loss) on equity securities and (iv) other noninterest income. Our noninterest income decreased $291,000 during the year ended December 31, 2025, as compared to 2024. Noninterest expense consists of, among other things: (i) salaries and related benefits; (ii) occupancy and equipment expense; (iii) data processing; (iv) FDIC and state assessments; (v) outside and professional services; (vi) amortization of intangibles; and (vii) other general and administrative expenses. Our noninterest expenses decreased $278,000 during the year ended December 31, 2025, as compared to 2024. Noninterest income and noninterest expenses are influenced by growth of our banking operations and loan and deposit volumes.",
+    "Our strategy is to continue to make strategic acquisitions of financial institutions within the Western United States, grow organically and preserve our strong asset quality through disciplined lending practices. We seek to achieve these results by focusing on the following:",
+    "● Strategic Consolidation of Community Banks. We believe our strategy of selectively acquiring and integrating community banks has provided us with economies of scale and improved our overall franchise efficiency. We expect to continue to pursue strategic acquisitions of financial institutions and believe our target market areas present us with numerous acquisition opportunities as many of these financial institutions will continue to be burdened and challenged by new and more complex banking regulations, resource constraints, competitive limitations, rising technological and other business costs, management succession issues and liquidity concerns. In addition, we believe that the breadth of our operating experience and successful track record of integrating prior acquisitions increases the potential acquisition opportunities available to us. We will continue to employ a disciplined approach to our acquisition strategy and only seek to identify and partner with financial institutions that possess attractive market share, low-cost deposit funding and compelling noninterest income generating businesses. Our disciplined approach to acquisitions, consolidations and integrations, includes the following: (i) selectively acquiring community banking franchises only at appropriate valuations, after taking into account risks that we perceive with respect to the targeted bank; (ii) completing comprehensive due diligence and developing an appropriate plan to address any non-acquired credit problems of the targeted institution; (iii) identifying an achievable cost savings estimate; (iv) executing definitive acquisition agreements that we believe provide adequate protections to us; (v) installing our credit procedures, audit and risk management policies and procedures, and compliance standards upon consummation of the acquisition; (vi) collaborating with the target's management team to execute on synergies and cost saving opportunities related to the acquisition; and (vii) involving a broader management team across multiple departments in order to help ensure the successful integration of all business functions. We believe this approach allows us to realize the benefits of our acquisition and consolidation strategy. We also expect to continue to manage our branch network in order to ensure effective coverage for clients while minimizing any geographic overlap and driving corporate efficiency.",
+    "● Enhance the Performance of the Banks We Acquire. We strive to successfully integrate the banks we acquire into our existing operational platform and enhance shareholder value through the creation of efficiencies within the combined operations. We seek to realize operating efficiencies from our recently completed acquisitions by utilizing technology to streamline our operations. We continue to centralize the back-office functions of our acquired banks as well as realize cost savings using third-party vendors and technology to take advantage of economies of scale as we continue to grow. We intend to focus on initiatives that we believe will provide opportunities to enhance earnings, including the continued rationalization of our retail banking footprint through the evaluation of possible branch consolidations or opportunities to sell branches.",
+    "● Focus on Lending Growth in Our Metropolitan Markets While Increasing Deposits in Our Community Markets. Our banking footprint has given us experience operating in small communities and large cities. We believe that our presence in smaller communities gives us a relatively stable source of low-cost core deposits, while our more metropolitan markets represent strong long term growth opportunities to expand our commercial client base and increase our current market share through organic growth. In acquiring United Business Bank, FSB in 2017, we acquired a large deposit base from the local and regional unionized labor community. As of December 31, 2025, our top ten depositors, which included 10 labor unions, accounted for roughly 11.7% of our total deposits. At that date, nearly 26.1% of our deposit base was comprised of noninterest bearing demand deposit accounts, significantly lowering our aggregate cost of funds."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'original': 'Borrower Type', 'translated': '借款人類型'}",
+    "{'original': 'Sources of Funds', 'translated': '資金來源'}"
+   ],
+   "paragraphs": [
+    "本節所載之揭露內容受下列「項目 1A. 風險因素」及上文標題為「特別提醒前瞻性陳述」之節以及本 Form 10-K 其他處所載之警示聲明所限制。",
+    "總體說明。BayCom 為一家總部設於加州核桃溪之銀行控股公司。BayCom 全資擁有之銀行子公司 United Business Bank，透過其 34 間全功能分行網路（其中加州有 16 間分行，內華達州 1 間，華盛頓州 1 間，新墨西哥州 5 間，科羅拉多州 11 間），為企業與企業主以及個人消費者提供廣泛之金融服務。本公司之業務活動一般限於被動投資活動及監督其在銀行之投資。因此，本 Form 10-K 所載之資訊，包括合併財務報表及相關資料，主要與銀行有關。",
+    "本公司之主要業務目標為透過戰略收購與內生成長，提升股東價值並產生穩定之獲利成長。自 2010 年起，我們透過十項戰略收購擴大地理覆蓋範圍。我們認為，我們選擇性收購社區銀行已帶來規模經濟並提升效率。我們亦透過運用我們在經營之都會區與社區市場之潛力，實現內生成長。這些市場提供了擴大商業客戶羣、增加獲利資產及提升市場佔有率之顯著機會。我們認為，我們目前之地理覆蓋範圍，包括舊金山灣區、加州洛杉磯都會區、華盛頓州西雅圖、科羅拉多州丹佛以及內華達州拉斯維加斯，以及包括新墨西哥州阿爾伯克基與科羅拉多州杜斯特、戴爾塔與格蘭德縣之社區市場，使我們能取得低成本、穩定之核心存款，用以資助商業貸款成長。我們致力於為客戶提供更優質之銀行體驗，透過提供一套符合其需求之綜合性高階產品與服務，同時提供社區銀行所具之高品質、關係導向之客戶服務。截至 2025 年 12 月 31 日，我們合併後之資產為 2.6 十億美元，貸款為 2.0 十億美元（減提撥備後），存款為 2.2 十億美元，股東權益為 338.6 百萬美元。於該日期，我們總貸款組閤中包含 224.9 百萬美元，或 10.9% 之取得貸款（全部於取得時已按其預期公平價值入帳），其餘 1.8 十億美元，或 89.1%，為我們所發放之貸款。",
+    "我們營運之獲利性主要取決於淨利息收入扣除信貸損失撥備後之數額，即為利息收入與利息支出之差額，扣除信貸損失撥備。我們之淨收入亦受其他因素影響，包括非利息收入與非利息費用。",
+    "我們的歷史與成長。2017 年 1 月，本公司成為銀行之控股公司。銀行於 2004 年 7 月開始營運，名為 Bay Commercial Bank，並於 2017 年 4 月更名為 United Business Bank，隨後我們於 2017 年 4 月收購 United Business Bank, FSB。",
+    "銀行於 2004 年 3 月成立，為一家加州州立特許商業銀行，由一羣核桃溪之企業與社區領袖組成，包括現任本公司首席執行官 George Guarini。自 2008 年開始之嚴重經濟衰退以及銀行業持續合併，為我們管理階層與董事會創造機會，以建立具吸引力之商業銀行業務，並透過採用以擴大產品組合與地理業務覆蓋為重點之收購策略，為股東創造長期價值。",
+    "自 2010 年起，我們已實現成為社區銀行戰略整合者的願景，吸引具經驗之銀行家與企業人士，他們與我們共享創業精神。雖然不無風險，我們認為透過收購與合併可帶來某些優勢。這些優勢包括，但不僅限於，貸款組合之多元化、市場範圍之擴張，以及透過保留當地貸款人員與信用管理人員以管理被收購銀行之客戶關係，有效增強我們之成長與風險管理架構。",
+    "以及風險管理架構。",
+    "我們相信我們有成功的紀錄，選擇性地收購、整合與併購社區銀行。自 2010 年以來，我們已完成十次收購，累計取得總資產約 2.3 十億美元，總存款約 1.9 十億美元。我們致力於將收購的銀行整合至現有運營平台，以在合併後的運營中創造運營效率，所有措施皆旨在提升股東價值。根據我們的願景，於 2023 年 8 月，我們在內華達州拉斯維加斯開設了一家新設分行，以擴大我們的地理足跡與市場區域，並促進存款與貸款的成長。",
+    "2017 年 4 月，我們完成了迄今為止最大的一筆收購，收購了 First ULB Corp（\"FULB\"），該公司為位於加州奧克蘭的 United Business Bank, FSB 的控股公司。此收購使我們的存款增加約 428.0 百萬美元。在收購時，United Business Bank, FSB 的總資產約為 473.1 百萬美元，這顯著增加了我們的資產規模，並為我們在加州長灘、奧克蘭、沙加緬託、舊金山、聖荷西與格萊內爾德，以及華盛頓州西雅圖與新墨西哥州阿爾伯克基設有九家全功能銀行分行；此收購擴大了我們的地理足跡，並增加了與勞工工會強大關係網路相關的低成本、穩定存款。",
+    "2017 年 11 月，我們收購了 Plaza Bank，該銀行在華盛頓州西雅圖設有一家分行。在收購時，Plaza Bank 的總資產約為 75.8 百萬美元，存款約為 54.2 百萬美元。",
+    "2018 年 11 月，我們收購了 Bethlehem Financial Corporation（\"BFC\"），該公司為位於新墨西哥州貝林的 MyBank 的控股公司，並以總計 23.5 百萬美元現金購入 BFC 所有流通在外的股權證券。MyBank 透過五家分行服務中央新墨西哥地區。在收購時，MyBank 的總資產約為 157.8 百萬美元，存款約為 135.5 百萬美元。",
+    "2019 年 5 月，我們收購了 Uniti Financial Corporation（\"UFC\"），該公司為位於加州布埃納帕克的 Uniti Bank 的控股公司，該銀行在南加州設有三家分行。在收購時，UFC 的總資產約為 318.0 百萬美元，存款約為 265.8 百萬美元。",
+    "2019 年 10 月，我們收購了 TIG Bancorp（\"TIG\"），該公司為位於科羅拉多州格林伍德村的 First State Bank of Colorado 的控股公司，該銀行設有七家分行，服務丹佛都會區及其他科羅拉多州社區。在收購時，TIG 的總資產約為 235.6 百萬美元，總存款約為 202.8 百萬美元。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "歷史與概覽",
+    "商業策略",
+    "關鍵會計估計",
+    "2025 年 12 月 31 日與 2024 年 12 月 31 日財務狀況比較",
+    "五年內應償付或重新定價金額",
+    "至五年",
+    "至十年",
+    "2025 年 12 月 31 日",
+    "{'original': 'San Francisco Bay', 'translated': '舊金山灣'}",
+    "{'original': 'Total in State of', 'translated': '本州總計'}",
+    "{'original': 'Other California(2)', 'translated': '其他加州(2)'}",
+    "{'original': 'All Other States(3)', 'translated': '其他各州(3)'}",
+    "{'original': 'After Fifteen', 'translated': '十五年後'}",
+    "{'original': 'Years ended December 31,', 'translated': '截至12月31日止年度'}",
+    "{'original': 'December 31,', 'translated': '12月31日,'}"
+   ],
+   "paragraphs": [
+    "本討論與分析審閱我們的合併財務報表及其他相關統計資料，旨在增進您對我們財務狀況與營運成果的瞭解。本節資訊係根據本表單 10-K 中「項目 8. 財務報表與補充資料」所載的合併財務報表及其附註資料所衍生。本節資訊應與這些合併財務報表及其附註資料，以及本表單 10-K 所提供的業務與財務資訊一併閱讀。除非另有說明，本節所呈現的財務資訊反映 BayCom Corp 及其子公司 United Business Bank 的合併財務狀況與營運成果。由於我們所有重大業務活動均透過銀行進行，因此本節討論內容主要與銀行所進行的活動有關。",
+    "BayCom 為一間總部設於加州核桃溪的銀行控股公司。本公司百分之百擁有之銀行子公司 United Business Bank，透過其分行網路，提供廣泛的金融服務，主要服務企業與企業主，以及個人消費者。截至 2025 年 12 月 31 日，銀行擁有 34 組全功能分行，其中加州有 16 組，內華達州 1 組，華盛頓州 1 組，新墨西哥州 5 組，科羅拉多州 11 組。",
+    "我們的主要目標是透過戰略收購與內生成長，提升股東價值並產生穩定的獲利成長。自 2010 年以來，我們透過十次戰略收購擴展地理版圖，包括我們最近收購 PEB，該收購於 2022 年 2 月完成。我們相信選擇性收購與整合社區銀行的策略已帶來規模經濟，並提升我們整體品牌的效率。展望未來，我們預期會繼續進行戰略收購，相信我們目標市場提供許多且多樣的收購機會。我們也致力於內生成長，善用我們目前經營的都會與社區市場的潛力。",
+    "這些市場提供我們擴展商業客戶基礎、增加獲利資產與提升市場佔有率的顯著機會。我們相信我們的地理版圖，目前包括舊金山灣區、加州洛杉磯都會區、華盛頓州西雅圖、科羅拉多州丹佛以及內華達州拉斯維加斯，以及包括新墨西哥州阿爾伯克基與科羅拉多州杜斯特、戴爾塔與格蘭德縣的社區市場，使我們能取得低成本、穩定的核心存款，用以資助商業貸款成長。我們致力於透過提供符合客戶需求的全面性高階產品與服務，來提升客戶的銀行體驗，同時提供社區銀行的高品質、關係導向的服務。截至 2025 年 12 月 31 日，本公司合併後總資產為 2.6 十億美元，淨貸款餘額為 2.0 十億美元，存款為 2.2 十億美元，股東權益為 338.6 百萬美元。",
+    "我們持續透過收購與內生成長來擴展商業貸款組合。截至 2025 年 12 月 31 日，我們 2.0 十億美元總貸款組閤中，包含 224.9 百萬美元，或 10.9% 的收購貸款（所有貸款均於收購時按其預期公平價值入賬），其餘 1.8 十億美元，或 89.1%，為我們所發放的貸款。",
+    "我們營運的獲利性主要取決於淨利息收入扣除信貸減損準備後的結果，即為利息收入與利息支出之間的差額，扣除信貸減損準備。市場利率的變動、收益率曲線的傾斜度，以及我們在利息收入資產上所賺取的利率或在利息負債上所支付的利率，以及利息收入資產、利息負債與非利息負債的數量與類型，以及股東權益，通常會對報告期間內我們的淨利息差、淨利息 margin 與淨利息收入的變動產生最大影響。",
+    "市場利率的變動、收益率曲線的傾斜度，以及我們在利息收入資產上所賺取的利率或在利息負債上所支付的利率，會對我們的淨利息差、淨利息 margin 與淨利息收入產生重大影響。在 2025 年，美國聯邦儲備委員會（FOMC）因持續緩和的通貨膨脹與經濟條件的變化，將目標聯邦基金利率範圍調降。FOMC 將目標範圍從 2024 年 12 月 31 日的 4.25%–4.50% 調降至 2025 年年底的 3.50%–4.25%，總計調降 75 基點。所有調降均發生在 2025 年 9 月至 12 月之間。相應地，通常與聯邦基金利率同步變動的 prime 利率，在 2025 年年底約為 6.75%。這些利率水平在當年影響了資產收益率與資金成本。",
+    "淨利息 margin 在 2025 年 12 月 31 日的年度報告中增加至 3.82%，較前一年的 3.74% 提高，主要因利息負債的平均成本降低，特別是貨幣市場與定期存款，以及子公司債務的贖回。根據我們目前資產負債表的組成，我們認為若利率維持在目前水平或接近目前水平，淨利息 margin 可能會改善；然而，利率下降可能會對我們的淨利息收入產生負面影響。",
+    "呆帳提列係取決於我們貸款組合的變動以及管理階層對貸款組合可收回性的評估，以及當前的總體經濟與市場條件。我們於2025年12月31日財年計提了4.1百萬美元的呆帳提列，主要係因貸款成長及特定備抵提列增加所致。2025年12月31日財年總計列呆帳損失為948,000美元。較低的總計列呆帳損失主要反映較少的非應計貸款呆帳損失，以及先前非應計貸款的償還與回收。",
+    "我們的淨收入亦受非利息收入與非利息費用的影響。非利息收入包含，但不限於：(i)貸款與存款的服務費用；(ii)貸款出售獲利；以及(iii)權益證券的獲利(損失)與(iv)其他非利息收入。我們於2025年12月31日財年非利息收入較2024年減少291,000美元。非利息費用包含，但不限於：(i)薪資與相關福利；(ii)營運與設備費用；(iii)資料處理；(iv)FDIC與州政府費用；(v)外部與專業服務；(vi)無形資產攤銷；以及(vii)其他一般與行政費用。我們於2025年12月31日財年非利息費用較2024年減少278,000美元。非利息收入與非利息費用受我們銀行營運成長與貸款與存款規模的影響。",
+    "我們的策略為持續在美國西部地區進行財務機構的戰略收購，並透過有計畫的貸款作業維持強勁的資產品質。我們追求這些目標的方式為著重於以下重點：",
+    "● 戰略性整合社區銀行。我們相信我們選擇性收購與整合社區銀行的策略，已為我們帶來規模經濟並提升整體品牌效益。我們預期會持續進行財務機構的戰略收購，並認為我們的目標市場有許多收購機會，因為許多這些財務機構將持續面臨新且更複雜的銀行監管、資源限制、競爭限制、技術與其他業務成本上升、管理繼任問題與流動性問題的負擔與挑戰。此外，我們相信我們的營運經驗與成功整合先前收購的紀錄，已增加我們的潛在收購機會。我們會持續採用嚴謹的收購策略，只尋找具備吸引人市場佔有率、低成本存款資金與具吸引力非利息收入業務的財務機構合作。我們對收購、整合與併購的嚴謹策略，包含以下內容：(i)僅在適當的估值下選擇性收購社區銀行，並考量目標銀行的風險；(ii)完成全面的盡職調查，並制定適當計畫以處理目標機構的非收購信貸問題；(iii)識別可達成的成本節省預估；(iv)執行我們認為能提供充分保護的正式收購協議；(v)在收購完成時安裝我們的信貸程序、審計與風險管理政策與程序，以及合規標準；(vi)與目標機構的管理團隊合作，執行與收購相關的協同效益與成本節省機會；以及(vii)讓跨多部門的廣泛管理團隊參與，以確保所有業務功能的成功整合。我們相信此方法能讓我們實現收購與整合策略的效益。我們也預期會持續管理我們的分行網路，以確保對客戶的有效覆蓋，同時減少地理重疊並提高企業效率。",
+    "● 提升我們收購的銀行的表現。我們致力於成功將所收購的銀行整合至我們現有的營運平台，並透過結合營運的效率來提升股東價值。我們希望從最近完成的收購中實現營運效率，透過技術來簡化營運流程。我們持續將所收購銀行的後臺作業集中，並透過第三方供應商與技術來實現成本節省，以利用規模經濟，同時持續成長。我們的意圖是著重於我們認為能提升獲利的計畫，包括持續評估可能的分行合併或出售分行機會，以精簡我們的零售銀行據點。",
+    "● 聚焦於我們都會區市場的貸款成長，同時增加我們社區市場的存款。我們的銀行據點已讓我們擁有在小社區與大城市運作的經驗。我們相信我們在小社區的據點能提供相對穩定的低成本核心存款來源，而我們的都會區市場則代表強勁的長期成長機會，以擴大我們的企業客戶羣並透過內生成長提高我們的現有市場佔有率。在2017年收購United Business Bank, FSB時，我們獲得了來自當地與區域性工會社區的大量存款基礎。截至2025年12月31日，我們的前十大存款人，其中包括10個工會，約佔我們總存款的11.7%。在該日期，我們的存款基礎中約有26.1%為非利息產生的活期存款帳戶，顯著降低我們的總資金成本。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與總體經濟條件相關的風險",
+    "本公司業務可能因國家經濟及我們營運之區域經濟出現衰退而受到不利影響。",
+    "貨幣政策、通貨膨脹、通貨收縮及其他外部經濟因素可能對本公司財務表現及營運造成不利影響。",
+    "與本公司貸款業務相關的風險",
+    "不良資產需要相當長的時間才能解決，並對本公司營運結果及財務狀況造成不利影響，未來亦可能導致進一步的損失。",
+    "許多我們的貸款係提供給商業借款人，其風險程度高於其他類型貸款。",
+    "建設貸款係基於已完成項目之成本與價值之估計，這些估計可能不準確，我們可能對這些項目貸款面臨重大損失。",
+    "本公司業務可能因住宅不動產相關信用風險而受到不利影響。",
+    "農業貸款及政府規範的不確定性可能不利於本公司財務狀況及營運結果。",
+    "為達成我們的成長目標，我們可能在本公司營運區域以外發放或購入貸款，這可能會影響本公司淨利息-margin 以及不良貸款的水準。",
+    "本公司信用損失撥備可能不足以吸收貸款組閤中的損失。",
+    "與市場及利率變動相關的風險",
+    "本公司獲利能力易受利率波動的影響。",
+    "利率上升可能會導致本公司證券投資組合產生損失。",
+    "與本公司併購策略相關的風險",
+    "任何進入新市場或新業務領域的擴張可能不會成功。",
+    "與會計事項相關的風險",
+    "我們可能遭遇未來的商譽減損，這可能會降低我們的營業收入。",
+    "我們的財務報表結果取決於管理階層對會計方法及某些假設與估計的選擇，若這些假設與估計不正確，可能會導致未來出現意外損失。",
+    "我們受到廣泛的會計規則與最佳實務的規範。這些規則的定期變更，可能改變關鍵財務項目之處理與認列方式，並影響我們的獲利能力。",
+    "與網路安全、第三方及科技相關的風險",
+    "我們在使用科技方面會面臨某些風險。",
+    "我們目前及未來對人工智慧（AI）及其他新興科技的應用，可能會產生額外的風險。",
+    "我們在資料管理或資料整合方面會面臨某些風險。",
+    "本公司業務可能因詐欺及其他財務犯罪事件頻繁發生而受到不利影響。",
+    "財務服務市場正經歷快速的科技變革，若本公司無法跟上這些變革，將無法有效競爭。",
+    "與監管及合規事項相關的風險",
+    "本公司商業不動產貸款 portfolio 的規模可能使本公司面臨額外的監管審查。",
+    "本公司營運於高度監管的環境中，可能因聯邦及州政府法律及法規的變更而受到不利影響，並增加本公司營運成本。",
+    "若本公司未能遵守 USA PATRIOT Act、Bank Secrecy Act 或其他法律及法規，可能會招致罰款或處罰，並限制本公司取得監管機構對併購案的批准能力。",
+    "若本公司企業風險管理架構未能有效降低風險及損失，本公司可能會遭受未預期的損失。",
+    "氣候變遷及相關的立法與監管措施可能對本公司業務及營運成果產生重大影響。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股有風險，這些風險與本公司業務內在相關。在做出投資決定前，您應仔細考慮下列所描述的風險與不確定性，並配合本Form 10-K所包含的所有其他資訊。下列所描述的風險並非本公司唯一面臨的風險。尚有其他風險與不確定性，目前我們尚未知悉，或目前認為不重要，但這些風險可能對本公司業務、財務狀況、資本水準、現金流、流動性、營運成果與前景產生重大且不利的影響。本公司普通股的市場價格可能因任何這些已識別或其它風險而顯著下跌，您可能損失部分或全部投資。下列所討論的風險包含前瞻性陳述，而實際結果可能與這些前瞻性陳述有顯著差異。本Form 10-K全文均受這些風險因素所限制。",
+    "本公司主要為美國加利福尼亞州、科羅拉多州、內華達州、新墨西哥州與華盛頓州的企業與個人提供銀行與金融服務。所有分行與大多數存款客戶均位於這五個州。我們市場區域的經濟條件惡化可能影響我們的成長速度，降低客戶償還貸款的能力，並對我們的業務、財務狀況與營運成果產生不利影響。",
+    "較廣泛的經濟因素，例如通貨膨脹、失業率、貨幣供應量波動、貨幣政策變動，以及利率市場的波動，也可能對我們的獲利能力產生不利影響。對於聯邦儲備銀行可能調整利率的時間、幅度或速度的不確定性，特別是在經歷一段長時間高利率或利率波動增加的時期後，可能對我們市場區域的借款需求、資產收益率、存款利率、信貸表現與整體經濟活動產生負面影響。此外，美國與其他國家之間的貿易爭議、關稅或貿易政策的變動，可能幹擾供應鏈，提高企業成本，並減少客戶的出口機會。這些發展可能進而對客戶的營運產生負面影響，並進一步影響我們的財務表現。",
+    "我們所服務市場區域的經濟條件下滑，特別是舊金山灣區、南加州、科羅拉多州丹佛、華盛頓州西雅圖、新墨西哥州中部、以及加州中央谷地的農業地區，無論是因通貨膨脹、經濟衰退趨勢、地緣政治不穩定或衝突，或是環境與氣候相關事件，例如野火、洪水或其他因素，都可能對我們的業務、財務狀況、流動性與營運成果產生重大且不利的影響，包括但不限於：",
+    "● 我們產品與服務的需求減少，可能導致我們總貸款或資產減少。",
+    "● 貸款違約率升高、問題資產與法拍屋數量增加。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

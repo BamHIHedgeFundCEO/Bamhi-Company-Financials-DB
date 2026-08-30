@@ -1,0 +1,219 @@
+{
+ "ticker": "ACRE",
+ "cik": "0001529377",
+ "accession": "0001628280-26-006635",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Investment Strategy",
+    "Direct Origination",
+    "Investment Strategy",
+    "Our Target Assets",
+    "Investment Portfolio",
+    "Targeted Investments",
+    "Ares Commercial Real Estate Management LLC and Ares Management Corporation",
+    "Financing Agreements",
+    "Securitizations"
+   ],
+   "paragraphs": [
+    "The following description of the business of Ares Commercial Real Estate Corporation (\"ACRE\") should be read in conjunction with the information included elsewhere in this annual report on Form 10-K for the year ended December 31, 2025. We refer to ACRE together with our consolidated subsidiaries as \"we,\" \"us,\" \"Company,\" or \"our,\" unless we specifically state otherwise or the context indicates otherwise. We refer to our manager, Ares Commercial Real Estate Management LLC, as our \"Manager\" or \"ACREM,\" and the parent company of our Manager, Ares Management Corporation, together with its consolidated subsidiaries, as \"Ares Management.\"",
+    "We are a specialty finance company primarily engaged in directly originating and investing in commercial real estate (\"CRE\") loans and related investments. We are externally managed by Ares Commercial Real Estate Management LLC (\"ACREM\" or our \"Manager\"), a subsidiary of Ares Management Corporation (NYSE: ARES) (\"Ares Management\"), a publicly traded, leading global alternative investment manager, pursuant to the terms of the Amended and Restated Management Agreement dated July 26, 2022, between us and our Manager (the \"Management Agreement\"). From the commencement of our operations in late 2011, we have been primarily focused on directly originating and managing a diversified portfolio of CRE debt-related investments for our own account.",
+    "We are a Maryland corporation and completed our initial public offering in May 2012. We have elected and qualified to be taxed as a real estate investment trust (\"REIT\") for United States federal income tax purposes under the Internal Revenue Code of 1986, as amended (the \"Code\"), commencing with our taxable year ended December 31, 2012. We generally will not be subject to United States federal income taxes on our REIT taxable income, as long as we annually distribute to stockholders an amount at least equal to our REIT taxable income prior to the deduction for dividends paid and comply with various other requirements as a REIT. We also operate our business in a manner that is intended to permit us to maintain our exemption from registration under the Investment Company Act of 1940, as amended (the \"1940 Act\").",
+    "We target borrowers whose capital needs are not being suitably met by traditional bank or capital markets sources by offering these borrowers customized financing solutions. We implement a strategy focused on direct origination combined with experienced portfolio management. Targeted borrowers are generally pursuing value improving business plans on commercial real estate which we believe often face challenges in raising capital to meet their financing needs through traditional bank and capital markets sources. As a result, we continue to find demand from borrowers and sponsors for customized solutions in this segment of the market. We act as a single \"one stop\" source of financing for our customers through our customized financing solutions. We generally hold our loans for investment and earn interest and interest-related income.",
+    "We generally source new investments through our Manager's national direct origination platform consisting of four offices across the United States as of December 31, 2025.",
+    "In pursuing investment opportunities with attractive risk-reward profiles, our Manager incorporates our views of the current and future economic environment, our outlook for real estate in general and particular asset classes and our assessment of the risk-reward profile derived from our underwriting. Our Manager's underwriting standards center on the creditworthiness and valuation of the asset collateralizing the loan as well as the strength of the borrower and the underlying sponsor of a given asset, with particular focus on an asset's business plan, competitive positioning within the market, existing capital structure and potential exit opportunities. All investment decisions seek to ensure that we maintain our qualification as a REIT and our exemption from registration under the 1940 Act.",
+    "In addition, as part of our investment strategy, we may from time to time engage in discussions with counterparties with respect to various potential strategic transactions, including potential investments in, and acquisitions of, other real estate or finance companies or asset portfolios. In connection with evaluating potential strategic transactions and assets, we may incur significant expenses for the evaluation and due diligence investigation and negotiation of any potential transaction.",
+    "Our investment strategy may be amended from time to time without the approval of our stockholders, if recommended by our Manager and approved by our board of directors. We expect to disclose any material changes to our investment strategy in the periodic quarterly and annual reports that we file with the SEC.",
+    "Our target investments primarily include whole and co-invested senior mortgage loans, subordinated debt, mezzanine loans and preferred equity, as well as other CRE investment opportunities, including commercial mortgage-backed securities.",
+    "For information about our investment portfolio, see \"Management's Discussion and Analysis of Financial Condition and Results of Operations—Loans Held for Investment Portfolio\" and Note 3 to our consolidated financial statements included in this annual report on Form 10-K.",
+    "•Senior Mortgage Loans: These mortgage loans are typically secured by first liens on commercial properties, including the following property types: office, multifamily, self storage, retail, hotel, healthcare, student housing, industrial, mixed-use, residential and residential condominium. Our senior mortgage loans may include construction loans. In some cases, first lien mortgages may be divided into an A-Note, a B-Note and a C-Note. The A-Note is typically a privately negotiated loan that is secured by a first mortgage on a commercial property or group of related properties that is senior to a B-Note and a C-Note secured by the same first mortgage property or group.",
+    "•Subordinated Debt: These loans may include structurally subordinated first mortgage loans and junior participations in first mortgage loans or participations in these types of assets. As noted above, a B-Note and a C-Note are typically privately negotiated loans that are secured by a first mortgage on a commercial property or group of related properties and are subordinated to an A-Note, and in the case of a C-Note, to a B-Note, each secured by the same first mortgage property or group. The subordination of a B-Note, C-Note or junior participation typically is evidenced by participations or intercreditor agreements with other holders of interests in the note. B-Notes and C-Notes are subject to more credit risk with respect to the underlying mortgage collateral than the corresponding A-Note.",
+    "•Mezzanine Loans: Like B‑Notes and C-Notes, these loans are also subordinated CRE loans, but are usually secured by a pledge of the borrower's equity ownership in the entity that owns the property or by a second lien mortgage on the property. In a liquidation, these loans are generally junior to any mortgage liens on the underlying property, but senior to any preferred equity or common equity interests in the entity that owns the property. Investor rights are usually governed by intercreditor agreements.",
+    "•Preferred Equity: Real estate preferred equity investments are subordinate to first mortgage loans and are not collateralized by the property underlying the investment. As a holder of preferred equity, we seek to enhance our position with covenants that limit the activities of the entity in which we have an interest and protect our equity by obtaining an exclusive right to control the underlying property after an event of default, should such a default occur on our investment."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "A global economic slowdown or further declines in real estate values could impair our investments and have a significant adverse effect on our business, financial condition and results of operations.",
+    "Macroeconomic conditions, including those adversely impacting office properties, have resulted and may continue to result in increases to our CECL Reserve and could have an adverse effect on our financial results.",
+    "Changes in interest rates and credit spreads could adversely impact our financial condition.",
+    "Our board of directors may change our investment strategy or guidelines, financing strategy or leverage policies without stockholder consent.",
+    "Technological developments in artificial intelligence could disrupt the markets in which we and our borrowers operate and subject us to increased competition, legal and regulatory risks and compliance costs.",
+    "State licensing requirements causes us to incur expenses and our failure to comply with such requirements may have a material adverse effect on us and our operations.",
+    "We incur significant debt, which subjects us to increased risk of loss and reduces cash available for distributions to our stockholders.",
+    "The Financing Agreements impose, and any additional lending facilities will impose, restrictive covenants and other restrictions.",
+    "The Financing Agreements and any bank credit facilities and repurchase agreements that we may use in the future to finance our investments may require us to provide additional collateral or pay down debt.",
+    "Our access to sources of financing may be limited and thus our ability to grow our business and to maximize our returns may be adversely affected.",
+    "Lender consent rights under warehouse facilities we may utilize may limit our ability to originate or acquire assets.",
+    "We have utilized and may continue to utilize in the future non-recourse long-term securitizations. Such structures expose us to risks which could result in losses."
+   ],
+   "paragraphs": [
+    "The following is a summary of the principal risks that you should carefully consider before investing in our securities:",
+    "•A global economic slowdown or further declines in real estate values could impair our investments and have a significant adverse effect on our business, financial condition and results of operations;",
+    "•Macroeconomic conditions, including those adversely impacting office properties, have resulted and may continue to result in increases to our CECL Reserve and could have an adverse effect on our financial results;",
+    "•Changes in interest rates and credit spreads could adversely impact our financial condition;",
+    "•Our board of directors may change our investment strategy or guidelines, financing strategy or leverage policies, and such changes could affect our financial condition, results of operations and the market price of our common stock;",
+    "•We are dependent upon certain key personnel of our Manager for our future success and upon their access to other Ares investment professionals;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Developments During the First Quarter of 2025:",
+    "Developments During the Second Quarter of 2025:",
+    "Developments During the Third Quarter of 2025:",
+    "Developments During the Fourth Quarter of 2025:",
+    "Trends Affecting Our Business",
+    "Factors Impacting Our Operating Results",
+    "Stock Repurchase Program",
+    "Loans Held for Investment Portfolio",
+    "As of December 31, 2025",
+    "Carrying Amount (1) Outstanding Principal (1) Weighted Average Unleveraged Effective Yield Weighted Average Remaining Life (Years) (4)",
+    "Critical Accounting Estimates",
+    "Current Expected Credit Losses",
+    "Real Estate Owned",
+    "For the years ended December 31, 2025 and 2024",
+    "Income (loss) before income taxes (35,011)",
+    "Net income (loss) attributable to common stockholders (902) $ (34,993)",
+    "Net Interest Margin",
+    "Revenue From Real Estate Owned",
+    "Operating Expenses",
+    "Total expenses 41,409 $ 37,930",
+    "Related Party Expenses",
+    "Other Expenses",
+    "Expenses From Real Estate Owned",
+    "Expenses from real estate owned 18,157 $ 12,964",
+    "(Provision for) Reversal of Current Expected Credit Losses, Net",
+    "Realized Losses on Loans",
+    "Change in Unrealized Losses on Loans Held for Sale",
+    "Realized Gain (Loss) on Sale of Real Estate Owned",
+    "For the years ended December 31, 2024 and 2023"
+   ],
+   "paragraphs": [
+    "We are a specialty finance company primarily engaged in directly originating and investing in CRE loans and related investments. We are externally managed by ACREM, a subsidiary of Ares Management, a publicly traded, leading global alternative investment manager, pursuant to the terms of the Management Agreement. From the commencement of our operations in late 2011, we have been primarily focused on directly originating and managing a diversified portfolio of CRE debt-related investments for our own account.",
+    "We were formed and commenced operations in late 2011. We are a Maryland corporation and completed our initial public offering in May 2012. We have elected and qualified to be taxed as a REIT for United States federal income tax purposes under the Internal Revenue Code of 1986, as amended, commencing with our taxable year ended December 31, 2012. We generally will not be subject to United States federal income taxes on our REIT taxable income as long as we annually distribute to stockholders an amount at least equal to our REIT taxable income prior to the deduction for dividends paid and comply with various other requirements as a REIT. We also operate our business in a manner that is intended to permit us to maintain our exemption from registration under the 1940 Act.",
+    "Below are significant developments during the year ended December 31, 2025 presented by quarter:",
+    "•We exercised our redemption option under the FL3 collateralized loan obligation (\"CLO\") securitization on March 17, 2025 and in connection therewith, all of the outstanding notes of the FL3 CLO securitization held by a third party were repaid in full at par through a refinancing of certain remaining underlying loans held for investment under the Wells Fargo Facility and the Citibank Facility.",
+    "•We amended the Wells Fargo Facility to, among other things, extend the initial maturity date and funding period of the Wells Fargo Facility to February 10, 2028. The maturity date of the Wells Fargo Facility continues to be subject to two 12-month extensions, each of which may be exercised at our option, subject to the satisfaction of certain conditions and applicable extension fees being paid, which, if both were exercised, would extend the maturity date of the Wells Fargo Facility to February 10, 2030.",
+    "•We exercised our 12-month extension option to extend the maturity date of the CNB Facility to March 10, 2026.",
+    "•We amended the Morgan Stanley Facility to, among other things, (1) reduce the commitment from $250.0 million to $150.0 million and include an accordion provision such that the maximum commitment may be increased to up to $250.0 million at our option, subject to the satisfaction of certain conditions, including payment of an upsize fee and (2) extend the initial maturity date to July 16, 2026, subject to one 12-month extension, which may be exercised at our option assuming no existing defaults under the Morgan Stanley Facility and the applicable extension fee being paid, which, if exercised, would extend the maturity date to July 16, 2027.",
+    "•We received a discounted payoff of a $51.5 million senior mortgage loan, which was collateralized by an office (life sciences) property in Massachusetts, in conjunction with a sale of the office (life sciences) property by the borrower. At the time of the discounted payoff, the senior mortgage loan was on non-accrual status. For the three and six months ended June 30, 2025, we received $1.1 million and $2.1 million, respectively, of interest payments in cash on the senior Massachusetts loan that was recognized as a reduction to the carrying value of the loan and the borrower was current on all contractual interest payments. We recognized a realized loss of $33.0 million as the carrying value, not including the CECL Reserve, exceeded the net proceeds from the payoff of the loan.",
+    "•We closed a $12.3 million senior mortgage loan on a self storage property located in Florida.",
+    "•We closed an $11.2 million senior mortgage loan on a self storage property located in Arizona.",
+    "•We closed a $9.9 million senior mortgage loan on a self storage property located in Florida.",
+    "•We closed a $9.1 million senior mortgage loan on a self storage property located in Pennsylvania.",
+    "•We closed a $50.0 million senior mortgage loan as part of a co-investment on a multifamily property located in Massachusetts.",
+    "•We previously held a senior A-Note loan with an outstanding principal balance of $59.0 million and a subordinated B-Note loan with an outstanding principal balance of $10.6 million, which were both collateralized by an office property located in New York. The subordinated B-Note loan was subordinate to new borrower equity related to additional capital contributions. In September 2025, we entered into a modification and extension agreement with the borrower to, among other things, (1) transfer $6.0 million of the outstanding principal balance from the subordinated B-Note loan to the senior A-Note loan, which increased the outstanding principal balance of the senior A-Note loan from $59.0 million to $65.0 million and (2) extinguish the remaining $4.6 million of outstanding principal balance of the subordinated B-Note loan."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司投資策略",
+    "直接發放",
+    "投資策略",
+    "本公司目標資產",
+    "投資組合",
+    "目標投資",
+    "Ares Commercial Real Estate Management LLC 和 Ares Management Corporation",
+    "融資協議",
+    "{'original': 'Securitizations', 'translated': '證券化'}"
+   ],
+   "paragraphs": [
+    "下列有關 Ares Commercial Real Estate Corporation（\"ACRE\"）業務之描述，應與本年度報表 10-K 中其他部分所載資訊一併閱讀，本年度報表 10-K 系於 2025 年 12 月 31 日截止。我們稱 ACRE 及其合併子公司為 \"我們\"、\"我們\"、\"公司\" 或 \"我們\"，除非我們特別說明或語境另有顯示。我們稱我們之經理 Ares Commercial Real Estate Management LLC 為 \"經理\" 或 \"ACREM\"，並稱經理之母公司 Ares Management Corporation，及其合併子公司為 \"Ares Management\"。",
+    "我們為一家專門從事商業不動產 (\"CRE\") 貸款及相關投資之財務公司，主要業務為直接發起及投資於商業不動產貸款及相關投資。我們由 Ares Commercial Real Estate Management LLC (\"ACREM\" 或 \"Manager\") 進行外部管理，該公司為 Ares Management Corporation (紐約證券交易所上市：ARES) (\"Ares Management\") 之子公司，為一家公開上市的全球領先替代性投資管理公司，根據 2022 年 7 月 26 日簽訂之修正重述管理協議 (\"Management Agreement\") 進行管理。自 2011 年下半年開始營運以來，我們主要專注於為本公司帳戶直接發起並管理多元化的商業不動產債務相關投資組合。",
+    "我們為馬裏蘭州公司，於 2012 年 5 月完成首次公開發行。我們已選擇並符合美國聯邦所得稅法規 (1986 年內政部稅法，後經修正) (\"Code\") 之規定，自 2012 年 12 月 31 日結算之課稅年度起，被視為不動產投資信託 (\"REIT\")。我們一般不會因 REIT 可課稅所得而負擔美國聯邦所得稅，只要我們每年向股東發放至少等於 REIT 可課稅所得（扣除已支付紅利前）之金額，並符合其他作為 REIT 之要求。我們亦以符合 1940 年投資公司法 (後經修正) (\"1940 Act\") 之註冊豁免為目標經營業務。",
+    "我們目標為那些傳統銀行或資本市場來源無法適當滿足其資金需求之借款人，透過提供這些借款人客製化融資方案來服務。我們執行以直接發起為主，結合經驗豐富之投資組合管理之策略。目標借款人通常正在追求能提升價值之商業不動產業務計畫，我們認為這些計畫往往在透過傳統銀行及資本市場來源籌集資金時會面臨困難。因此，我們持續在該市場區段中發現借款人及發起人對客製化解決方案之需求。我們透過我們之客製化融資方案，為客戶提供單一 \"一站式\" 之融資來源。我們一般持有貸款以進行投資，並獲取利息及與利息相關之收入。",
+    "我們一般透過我們管理人之全國直接發起平台來尋找新投資，該平台截至 2025 年 12 月 31 日為美國境內四個辦公室所組成。",
+    "在追求具吸引力之風險回報投資機會時，我們管理人會納入我們對當前及未來經濟環境之看法，對不動產整體及特定資產類別之展望，以及我們對風險回報評估之分析。我們管理人之發起標準以貸款擔保之資產信用worthiness及價值為中心，並考量借款人及特定資產之發起人之財務強度，特別著重於資產之業務計畫、市場競爭地位、現有資本結構及潛在退出機會。所有投資決策均旨在確保我們維持 REIT 資格及 1940 年投資公司法之註冊豁免。",
+    "此外，根據我們之投資策略，我們有時會與對手方進行討論，以評估各種潛在戰略交易，包括對其他不動產或財務公司或資產組合之投資及收購。在評估潛在戰略交易及資產時，我們可能為評估及盡職調查及任何潛在交易之談判而產生重大費用。",
+    "我們之投資策略可能不時進行修改，無需股東批准，只要經管理人建議並經董事會批准即可。我們預期會在向 SEC 提交之定期季度及年度報告中披露任何重大投資策略變更。",
+    "我們的主要投資目標包括整筆及共同投資的高收益房貸貸款、次級債務、梅扎尼貸款及優先股，以及其他的不動產投資機會，包括商業抵押貸款支持證券。",
+    "有關我們投資組合的資訊，請參閱「管理層對財務狀況與營運成果之討論與分析—投資組合貸款」，以及本年度報告表 10-K 所包含之合併財務報表附註 3。",
+    "•高收益房貸貸款：這些房貸貸款通常以商業不動產的首優先權抵押品為擔保，包括以下不動產類型：辦公室、多單位住宅、自用儲物空間、零售、飯店、醫療、學生宿舍、工業、混合用途、住宅及住宅大樓。我們的高收益房貸貸款可能包含建設貸款。在某些情況下，首優先權房貸可能被分為 A-Note、B-Note 和 C-Note。A-Note 通常是私人協議貸款，以商業不動產或相關不動產羣的首優先權抵押品為擔保，優先於 B-Note 和 C-Note，後者以相同首優先權抵押品為擔保。",
+    "•次級債務：這些貸款可能包括結構上次級的首優先權房貸貸款，以及在首優先權房貸貸款或這些類型資產中的次級參與。如上所述，B-Note 和 C-Note 通常是私人協議貸款，以商業不動產或相關不動產羣的首優先權抵押品為擔保，並次於 A-Note，而在 C-Note 的情況下，亦次於 B-Note，後者皆以相同首優先權抵押品為擔保。B-Note、C-Note 或次級參與的次級性通常透過參與或其他權益持有人的協議來證明。相對於對應的 A-Note，B-Note 和 C-Note 對於基礎房貸擔保的信貸風險較高。",
+    "•梅扎尼貸款：與 B-Note 和 C-Note 一樣，這些貸款也是次級的不動產貸款，但通常以借款人對擁有不動產之實體的股權擔保，或以不動產的第二優先權抵押品為擔保。在清算時，這些貸款通常優先於任何不動產的抵押權，但次於該實體的優先股或普通股權益。投資者權利通常由協議來規範。",
+    "•優先股：不動產優先股投資次於首優先權房貸貸款，且不以投資所涉不動產為擔保。作為優先股持有人，我們透過契約限制我們所投資實體的活動，並在發生違約時取得對該不動產的獨佔控制權，以保護我們的權益。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "2025 年第一季發展情況：",
+    "2025 年第二季發展情況：",
+    "2025 年第三季發展情況：",
+    "2025 年第四季發展情況：",
+    "影響我們業務的趨勢",
+    "影響我們營運結果的因素",
+    "股票買回計畫",
+    "持有以投資為目的的貸款",
+    "截至2025年12月31日",
+    "攜帶金額(1) 未償本金(1) 加權平均無擔保有效收益率 加權平均剩餘期限(年)(4)",
+    "關鍵會計估計",
+    "當前預期信用減損",
+    "實質資產",
+    "截至2025年12月31日及2024年12月31日",
+    "所得(損失)課稅前(35,011)",
+    "歸屬於普通股股東的淨所得(損失)(902) $ (34,993)",
+    "淨利息邊際率",
+    "自有不動產收入",
+    "營運費用",
+    "總費用 41,409 美元 37,930 美元",
+    "關聯方費用",
+    "其他費用",
+    "自有不動產費用",
+    "自有不動產費用 18,157 美元 12,964 美元",
+    "（備抵）現行預期信用損失之提列（或減損）淨額",
+    "貸款之實現損失",
+    "出售持有待售貸款之未實現損失變動",
+    "所有權實質不動產之出售實現損益",
+    "截至2024年12月31日及2023年12月31日之年度"
+   ],
+   "paragraphs": [
+    "本公司為一家專業財務公司，主要業務為直接發起及投資於商業不動產貸款及相關投資。本公司由ACREM管理，ACREM為Ares Management之子公司，為一家上市的全球領先替代性投資管理公司，根據管理協議之條款進行管理。自2011年底本公司開始營運以來，我們主要專注於為本公司帳戶直接發起並管理多元化的商業不動產債務相關投資組合。",
+    "本公司於2011年底成立並開始營運。本公司為馬裏蘭州公司，並於2012年5月完成首次公開發行。本公司已選擇並符合美國聯邦所得稅法（Internal Revenue Code of 1986，經修正）之規定，自2012年12月31日結業之會計年度起，被課徵為REIT（不動產投資信託）。在符合REIT之各種其他條件下，本公司一般不會就REIT應課稅所得負擔美國聯邦所得稅，只要本公司每年向股東發放之金額至少等於REIT應課稅所得（扣除已支付股息前），且符合REIT之相關規定。本公司亦以符合1940年法案之註冊豁免為目標進行業務運作。",
+    "以下為2025年12月31日結業年度之重大發展，按季別呈現：",
+    "•本公司於2025年3月17日行使FL3擔保貸款過手證券（\"CLO\"）之贖回選擇權，並於此同時，所有由第三方持有之FL3 CLO過手證券之現行票據已透過重新融資某些投資用之剩餘基礎貸款，以面值全數償還。此重新融資係透過Wells Fargo融資計畫及Citibank融資計畫進行。",
+    "•本公司修改Wells Fargo融資計畫，其中包含將Wells Fargo融資計畫之初始到期日及融資期間延長至2028年2月10日。Wells Fargo融資計畫之到期日仍可再延長兩次12個月，每次延長皆可由本公司選擇行使，但須符合特定條件並支付適用之延長費用，若兩次延長皆行使，則Wells Fargo融資計畫之到期日將延長至2030年2月10日。",
+    "•本公司行使12個月延長選擇權，將CNB融資計畫之到期日延長至2026年3月10日。",
+    "•本公司修改Morgan Stanley融資計畫，其中包含（1）將承諾金額由250.0百萬美元減至150.0百萬美元，並包含一項擴張條款，使本公司可選擇在符合特定條件（包括支付擴張費用）下，將最大承諾金額提高至最高250.0百萬美元，以及（2）將初始到期日延長至2026年7月16日，並可再延長12個月，若本公司在Morgan Stanley融資計畫下無現有違約情況且支付適用之延長費用，則可選擇行使此延長選擇權，使到期日延長至2027年7月16日。",
+    "•本公司收到一筆51.5百萬美元之優先房貸貸款之折價償還，該貸款以馬薩諸塞州之辦公（生命科學）不動產為擔保，並與借款人出售該辦公（生命科學）不動產之交易同時進行。在折價償還時，該優先房貸貸款已處於非應計狀態。於2025年6月30日止三個月及六個月期間，本公司分別收到1.1百萬美元及2.1百萬美元之現金利息收入，此利息收入被認列為貸款帳面價值之減項，且借款人已按合約條件支付所有應計利息。本公司認列實現損失33.0百萬美元，因貸款帳面價值（不包括CECL準備金）超過貸款償還所得之淨金額。",
+    "•我們於佛羅裏達州一處自用儲物設施所在地取得一筆12.3 百萬美元的高階房貸貸款。",
+    "•我們完成一筆11.2 百萬美元的優先房貸貸款，貸款物件為位於亞利桑那州的自用儲物空間不動產。",
+    "•我們完成一筆9.9 百萬美元的優先房貸貸款，貸款物件為位於佛羅裏達州的自用儲物空間不動產。",
+    "•我們完成一筆9.1 百萬美元的優先房貸貸款，貸款物件為位於賓夕法尼亞州的自用儲物空間不動產。",
+    "•我們完成一筆50.0 百萬美元的優先房貸貸款，作為共同投資的一部分，貸款物件為位於馬薩諸塞州的多戶住宅不動產。",
+    "•我們先前持有優先A級貸款，貸款餘額為59.0 百萬美元，以及次級B級貸款，貸款餘額為10.6 百萬美元，兩筆貸款皆以位於紐約州的辦公室不動產為擔保。次級B級貸款優先順位低於新借款人權益，該權益與額外資本投入有關。2025年9月，我們與借款人簽訂修改與延長協議，內容包括（1）將次級B級貸款的貸款餘額6.0 百萬美元轉移至優先A級貸款，使優先A級貸款的貸款餘額從59.0 百萬美元增至65.0 百萬美元，以及（2）終結次級B級貸款剩餘4.6 百萬美元的貸款餘額。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "全球經濟減速或房地產價值進一步下跌，可能導致我們的投資減損，並對我們的業務、財務狀況及營運成果產生重大不利影響。",
+    "總體經濟環境，包括對辦公大樓產業產生負面影響的情況，已導致並可能持續導致我們的CECL準備金增加，並對我們的財務結果產生不利影響。",
+    "利率與信用利差的變動可能對我們的財務狀況產生不利影響。",
+    "我們的董事會可能在股東未同意的情況下，改變我們的投資策略或指引、融資策略或槓桿政策。",
+    "人工智慧技術的發展可能幹擾我們與借款人所從事的市場，並使我們面臨增加的競爭、法律與監管風險及合規成本。",
+    "州級執照要求使我們產生費用，我們未能遵守這些要求，可能對我們及我們的營運產生重大不利影響。",
+    "我們負擔大量債務，這使我們面臨更高的損失風險，並減少可供分配給股東的現金。",
+    "融資協議設有，且任何額外的貸款設施將設有，限制性契約及其他限制性條款。",
+    "本公司之融資契約及未來可能用以籌資之銀行信貸設施及購回協議，可能要求本公司提供額外擔保品或償還債務。",
+    "本公司取得資金來源之能力可能受到限制，因此本公司擴張業務及最大化回報之能力可能受到不利影響。",
+    "本公司於未來可能使用之倉儲設施下之貸款人同意權，可能限制本公司發起或取得資產之能力。",
+    "本公司已運用且可能於未來持續運用非 recourse 長期證券化結構。此等結構使本公司面臨風險，可能導致損失。"
+   ],
+   "paragraphs": [
+    "下列為您投資本公司證券前應謹慎考慮的主要風險摘要：",
+    "•全球經濟減速或房地產價值進一步下跌，可能影響本公司投資，並對本公司業務、財務狀況及營運成果產生重大不利影響；",
+    "•總體經濟情勢，包括對辦公大樓產生不利影響的情況，已導致並可能繼續導致本公司 CECL 資產減值準備金增加，並可能對本公司財務結果產生不利影響；",
+    "•利率及信用 spreads 的變動可能對本公司財務狀況產生不利影響；",
+    "•本公司董事會可能改變投資策略或指引、融資策略或槓桿政策，此等變動可能影響本公司財務狀況、營運成果及普通股市場價格；",
+    "•本公司未來的成功依賴於本公司管理人之關鍵人員，並依賴其對其他 Ares 投資專業人士的接觸；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

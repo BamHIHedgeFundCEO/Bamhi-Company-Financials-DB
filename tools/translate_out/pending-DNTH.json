@@ -1,0 +1,217 @@
+{
+ "ticker": "DNTH",
+ "cik": "0001690585",
+ "accession": "0001690585-26-000006",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Pipeline",
+    "Our Pipeline-in-a-Product Potential for Claseprubart, a Next-Generation Complement Therapeutic",
+    "Overview of Development Plans of Claseprubart in Target Indications",
+    "Efficacy Results",
+    "Efficacy Summary at Week 13",
+    "Claseprubart 300mg Q2W",
+    "Claseprubart 600mg Q2W",
+    "Placebo-Adjusted",
+    "Safety and Tolerability Results",
+    "Claseprubart Phase 1 Healthy Volunteer Data",
+    "Our First and Potentially Best-In-Class Bifunctional BDCA2 and BAFF/APRIL Inhibitor (DNTH212)",
+    "Our Strategy",
+    "Overview of the Complement System",
+    "The Complement System—Three Main Pathways",
+    "Classical Pathway and the Role of C1s",
+    "Claseprubart for the Treatment of Generalized Myasthenia Gravis",
+    "Claseprubart for the Treatment of Other Autoimmune and Inflammatory Diseases",
+    "Intellectual Property",
+    "Manufacturing",
+    "Collaboration, License and Services Agreements",
+    "Government Regulation"
+   ],
+   "paragraphs": [
+    "We are a clinical-stage biotechnology company dedicated to developing potentially best-in-class therapies for patients living with severe autoimmune diseases. Our lead clinical-stage candidate, claseprubart, is a monoclonal antibody that is purposefully engineered with extended half-life, improved potency, and high selectivity for only the active C1s complement protein (\"C1s\") – enabling less frequent and more convenient self-administered subcutaneous (\"S.C.\") injections suitable for a pre-filled pen. Additionally, selective inhibition of the classical complement pathway may lower patient risk of infection from encapsulated bacteria by preserving immune activity of the lectin and alternative pathways. We believe claseprubart has the potential to address a broad array of complement-dependent diseases as currently available therapies and those in development leave room for improvements in efficacy, safety, and/or dosing convenience.",
+    "Our second clinical-stage candidate, DNTH212, is a first and potentially best-in-class, bifunctional fusion protein that targets plasmacytoid dendritic cell (\"pDC\") BDCA2 to reduce Type 1 interferon production, while simultaneously inhibiting BAFF/APRIL to suppress B cell function. By targeting both the innate and adaptive immune systems via two clinically validated pathways that are known drivers of autoimmune disease pathogenesis, this complementary and differentiated approach has the potential to address multiple autoimmune indications with improved outcomes. DNTH212 is also designed with the potential for patient friendly convenient, infrequent, self-administered S.C. injections suitable for a pre-filled pen.",
+    "Our most advanced product candidate, claseprubart, is a clinical-stage, highly potent, highly selective and fully human monoclonal immunoglobulin G4 with picomolar binding affinity that is designed to selectively bind only to the active form of C1s. The active form of C1s is generated during complement activation by cleavage of the inactive proC1s. As a validated complement target in the autoimmune and inflammatory field, C1s inhibition prevents further progression of the classical pathway cascade. Claseprubart is engineered with YTE half-life extension technology, a specific three amino acid change in the Fc domain, and has a pharmacokinetic (\"PK\") profile designed to support less frequent, lower dose, self-administration as a convenient S.C. injection.",
+    "We are currently conducting three mid- to late-stage clinical trials with claseprubart in generalized Myasthenia Gravis (\"gMG\"), Chronic Inflammatory Demyelinating Polyneuropathy (\"CIDP\"), and Multifocal Motor Neuropathy (\"MMN\").",
+    "In September 2025, we reported positive top-line results from the Phase 2 MaGic trial of claseprubart in patients with gMG and subsequently held an end-of-Phase 2 meeting with the FDA in the first quarter of 2026. We expect to initiate a Phase 3 registrational trial in gMG in mid-2026 and report top-line results in the second half of 2028.",
+    "In March 2026, we made an early GO announcement in the interim responder analysis for our Phase 3 CAPTIVATE trial of claseprubart in patients with CIDP due to achieving a target of 20 confirmed responders with less than the planned 40 participants completing Part A.",
+    "Claseprubart is also being evaluated in the Phase 2 MoMeNtum trial for patients with MMN, and we anticipate initial top-line results from this trial will be available in the second half of 2026.",
+    "The MaGic trial is a global, randomized, double-blind, placebo-controlled Phase 2 trial of claseprubart that enrolled 65 acetylcholine receptor positive (\"AChR+\") participants with gMG. Following an initial loading dose, claseprubart was administered every two weeks (\"Q2W\") via S.C. injection at a dose of 300mg/2mL or 600mg/4mL. The initial randomized treatment duration was 13 weeks, followed by a 52-week open-label extension (\"OLE\"). The primary endpoint of the study was safety and tolerability. Secondary and exploratory efficacy endpoints included Myasthenia Gravis Activities of Daily Living Scale (\"MG-ADL\") and Quantitative Myasthenia Gravis (\"QMG\") score assessments, as well as Minimal Symptom Expression (\"MSE\"), Myasthenia Gravis Composite (\"MGC\") score, and the Myasthenia Gravis Quality of Life Scale (\"MG-QOL-15r\").",
+    "In September 2025, we announced positive top-line data from the Phase 2 MaGic trial. Claseprubart 300mg and 600mg demonstrated rapid, statistically significant and clinically meaningful improvements over placebo as measured by both MG-ADL and QMG, including at week 1 and at week 13. The claseprubart 300mg Q2W dose was also statistically significant and clinically meaningful across other key efficacy endpoints, including MSE, MGC, and MG-QoL-15r.",
+    "Claseprubart was generally well tolerated with no drug-related serious adverse events (\"SAE\") or discontinuations due to any related adverse event. Claseprubart had a favorable clinical safety profile comparable to placebo with no treatment-related serious bacterial infections and no clinical symptoms of emergent autoimmune disorders observed.",
+    "• Claseprubart dosed at 300mg S.C. Q2W achieved a statistically significant and clinically meaningful mean improvement from baseline of 4.6 points in MG-ADL score at Week 13 (placebo-adjusted improvement: 1.8 points; P=0.0113). A statistically significant improvement in the MG-ADL was also seen as early as Week 1 with 300mg.",
+    "• Claseprubart dosed at 600mg S.C. Q2W achieved a statistically significant and clinically meaningful mean improvement from baseline of 5.4 points in MG-ADL score at Week 13 (placebo-adjusted improvement: 2.6 points; P=0.0006). A statistically significant improvement in the MG-ADL was also seen as early as Week 1 with 600mg.",
+    "• As expected, there was no statistically significant difference between the claseprubart 300mg and 600mg arms in MG-ADL score at any time point.",
+    "• Claseprubart dosed at 300mg S.C. Q2W achieved a statistically significant and clinically meaningful mean improvement from baseline of 4.4 points in QMG score at Week 13 (placebo-adjusted improvement: 2.4; P=0.0144). A statistically significant improvement in QMG was also seen as early as Week 1 with 300mg."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Limited Operating History, Financial Position and Capital Requirements",
+    "Risks Related to Discovery, Development and Commercialization",
+    "We face competition from entities that have developed or may develop programs for the diseases we plan to address with claseprubart, DNTH212 or other product candidates.",
+    "We are substantially dependent on the success of our most advanced product candidate, claseprubart, and our anticipated clinical trials of such candidate may not be successful.",
+    "Our approach to the discovery and development of product candidates is unproven, and we may not be successful in our efforts to build a pipeline of product candidates with commercial value.",
+    "We may not be successful in our efforts to identify or discover additional product candidates in the future.",
+    "If we encounter difficulties enrolling patients in our current and future clinical trials, our clinical development activities could be delayed or otherwise adversely affected.",
+    "Preliminary, \"top-line\" or interim data from our clinical trials that we announce or publish from time to time may change as more patient data becomes available and are subject to audit and verification procedures.",
+    "We may expend our limited resources to pursue a particular product candidate, such as claseprubart, and fail to capitalize on candidates that may be more profitable or for which there is a greater likelihood of success.",
+    "We have never commercialized a product candidate and may lack the necessary expertise, personnel and resources to successfully commercialize a product candidate on our own or together with suitable collaborators."
+   ],
+   "paragraphs": [
+    "In evaluating our business, you should carefully consider the following discussion of material risks, events and uncertainties that make an investment in us speculative or risky in addition to the other information included in this Annual Report on Form 10-K. A manifestation of any of the following risks and uncertainties could, in circumstances we may or may not be able to accurately predict, materially and adversely affect our business and operations, growth, reputation, prospects, operating and financial results, financial condition, cash flows, liquidity and stock price. Some of the factors, events and contingencies discussed below may have occurred in the past, but the disclosures below are not representations as to whether or not the factors, events or contingencies have occurred in the past and instead reflect our beliefs and opinions as to the factors, events, or contingencies that could materially and adversely affect us in the future. The risks and uncertainties described below are not the only ones we face. Our operations could also be affected by factors, events or uncertainties that are not presently known to us or that we currently do not consider to present significant risks to our business. Therefore, you should not consider the following risks to be a complete statement of all the potential risks or uncertainties that we face.",
+    "• We have a limited operating history, have not completed any late-stage clinical trials and have no products approved for commercial sale, which may make it difficult for you to evaluate our current business and likelihood of success and viability;",
+    "• We will require substantial additional capital to finance our operations in the future. If we are unable to raise such capital when needed, or on acceptable terms, we may be forced to delay, reduce or eliminate clinical trials, product development programs or future commercialization efforts;",
+    "• We have incurred significant losses since inception, and we expect to incur significant losses for the foreseeable future and may not be able to achieve or sustain profitability in the future. We have no products for sale, have not generated any product revenue and may never generate product revenue or become profitable;",
+    "• We face competition from entities that have developed or may develop programs for the diseases we plan to address with claseprubart, DNTH212 or other product candidates;",
+    "• Claseprubart, DNTH212 and our other programs are in varying stages of development and may fail in development or suffer delays that materially and adversely affect their commercial viability. If we or our current or future collaborators are unable to complete development of, or commercialize, our product candidates, or experience significant delays in doing so, our business will be materially harmed;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Our Pipeline-in-a-Product Potential for Claseprubart, a Next-Generation Complement Therapeutic",
+    "Our First and Potentially Best-In-Class Bifunctional BDCA2 and BAFF/APRIL Inhibitor (DNTH212)",
+    "Corporate Update",
+    "Global and Macroeconomic Developments",
+    "Components of Results of Operations",
+    "Licensing Agreements",
+    "Operating Expenses",
+    "Results of Operations",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "(in thousands)",
+    "Operating expenses:",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "Future Capital Requirements",
+    "Contractual Obligations and Commitments",
+    "Critical Accounting Policies and Estimates",
+    "Research and Development Expenses",
+    "Revenue Recognition - Licensing Agreements"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations together with our consolidated financial statements and related notes included elsewhere in this Annual Report on Form 10-K. This discussion contains forward-looking statements that involve risks and uncertainties, including those described in the section titled \"Special Note Regarding Forward Looking Statements\" included elsewhere in this Annual Report on Form 10-K. Our actual results and the timing of selected events could differ materially from those discussed below. Factors that could cause or contribute to such differences include, but are not limited to, those identified below and those set forth under the section titled \"Item 1A. Risk Factors\" included elsewhere in this Annual Report on Form 10-K.",
+    "We are a clinical-stage biotechnology company dedicated to developing potentially best-in-class therapies for patients living with severe autoimmune diseases. Our lead clinical-stage candidate, claseprubart, is a monoclonal antibody that is purposefully engineered with extended half-life, improved potency, and high selectivity for only the active C1s complement protein (\"C1s\") – enabling less frequent and more convenient self-administered subcutaneous (\"S.C.\") injections suitable for a pre-filled pen. Additionally, selective inhibition of the classical complement pathway may lower patient risk of infection from encapsulated bacteria by preserving immune activity of the lectin and alternative pathways. We believe claseprubart has the potential to address a broad array of complement-dependent diseases as currently available therapies and those in development leave room for improvements in efficacy, safety, and/or dosing convenience.",
+    "Our second clinical-stage candidate, DNTH212, is a first and potentially best-in-class, bifunctional fusion protein that targets plasmacytoid dendritic cell (\"pDC\") BDCA2 to reduce Type 1 interferon production, while simultaneously inhibiting BAFF/APRIL to suppress B cell function. By targeting both the innate and adaptive immune systems via two clinically validated pathways that are known drivers of autoimmune disease pathogenesis, this complementary and differentiated approach has the potential to address multiple autoimmune indications with improved outcomes. DNTH212 is also designed with the potential for patient friendly convenient, infrequent, self-administered S.C. injections suitable for a pre-filled pen.",
+    "Our most advanced product candidate, claseprubart, is a clinical-stage, highly potent, highly selective and fully human monoclonal immunoglobulin G4 with picomolar binding affinity that is designed to selectively bind only to the active form of C1s. The active form of C1s is generated during complement activation by cleavage of the inactive proC1s. As a validated complement target in the autoimmune and inflammatory field, C1s inhibition prevents further progression of the classical pathway cascade. Claseprubart is engineered with YTE half-life extension technology, a specific three amino acid change in the Fc domain, and has a pharmacokinetic (\"PK\") profile designed to support less frequent, lower dose, self-administration as a convenient S.C. injection.",
+    "We are currently conducting three mid- to late-stage clinical trials with claseprubart in generalized Myasthenia Gravis (\"gMG\"), Chronic Inflammatory Demyelinating Polyneuropathy (\"CIDP\"), and Multifocal Motor Neuropathy (\"MMN\").",
+    "In September 2025, we reported positive top-line results from the Phase 2 MaGic trial of claseprubart for patients with gMG and subsequently held an end-of-Phase 2 meeting with the FDA in the first quarter of 2026. We expect to initiate a Phase 3 registrational trial in gMG in mid-2026 and report top-line results in the second half of 2028.",
+    "In March 2026, we made an early GO announcement in the interim responder analysis for our Phase 3 CAPTIVATE trial of claseprubart in patients with CIDP due to achieving a target of 20 confirmed responders with less than the planned 40 participants completing Part A.",
+    "Claseprubart is also being evaluated in the Phase 2 MoMeNtum trial for patients with MMN, and we anticipate initial top-line results from this trial will be available in the second half of 2026.",
+    "The MaGic trial is a global, randomized, double-blind, placebo-controlled Phase 2 trial of claseprubart that enrolled 65 acetylcholine receptor positive (\"AChR+\") participants with gMG. Following an initial loading dose, claseprubart was administered every two weeks (\"Q2W\") via S.C. injection at a dose of 300mg/2mL or 600mg/4mL. The initial randomized treatment duration was 13 weeks, followed by a 52-week open-label extension (\"OLE\"). The primary endpoint of the study was safety and tolerability. Secondary and exploratory efficacy endpoints included Myasthenia Gravis Activities of Daily Living Scale (\"MG-ADL\") and Quantitative Myasthenia Gravis (\"QMG\") score assessments, as well as Minimal Symptom Expression (\"MSE\"), Myasthenia Gravis Composite (\"MGC\") score, and the Myasthenia Gravis Quality of Life Scale (\"MG-QOL-15r\").",
+    "In September 2025, we announced positive top-line data from the Phase 2 MaGic trial. Claseprubart 300mg and 600mg demonstrated rapid, statistically significant and clinically meaningful improvements over placebo as measured by both MG-ADL and QMG, including at week 1 and at week 13. The claseprubart 300mg Q2W dose was also statistically significant and clinically meaningful across other key efficacy endpoints, including MSE, MGC, and MG-QoL-15r.",
+    "Claseprubart was generally well tolerated with no drug-related serious adverse events (\"SAE\") or discontinuations due to any related adverse event. Claseprubart had a favorable clinical safety profile comparable to placebo with no treatment-related serious bacterial infections and no clinical symptoms of emergent autoimmune disorders observed.",
+    "In the OLE portion of the MaGic trial, patients who were on placebo during the randomized controlled portion of the trial received claseprubart 600mg Q2W without a loading dose. Data from the OLE demonstrate that after two doses of claseprubart 600mg Q2W, participants experienced robust reductions in MG-ADL and QMG at PK levels far below the steady state of the 300mg Q2W dose, supporting the potential for dosing of 300mg claseprubart every four weeks (\"Q4W\").",
+    "Based on the outcome of our end-of-Phase 2 meeting with the FDA held in the first quarter of 2026, we expect to initiate a registrational Phase 3 trial of claseprubart evaluating 300mg Q2W and 300mg Q4W in gMG patients in mid-2026 and report top-line results in the second half of 2028.",
+    "The CAPTIVATE trial is a single, two-part, randomized withdrawal global Phase 3 trial of claseprubart in patients with CIDP. In the open label Part A of this trial, participants will be administered claseprubart with a loading dose followed by 300mg/2mL administered Q2W via S.C. injection for up to 13 weeks. Only participants who respond to claseprubart in Part A, as measured as greater than or equal to one point decrease (improvement) in adjusted Inflammatory Neuropathy Cause and Treatment (\"INCAT\") disability score compared to Part A baseline, are randomized into Part B, a double-blind, placebo-controlled treatment period of up to 52 weeks, where they will be assessed for prevention of relapse, safety and tolerability, followed by an OLE period. Part A included an interim responder analysis of the first 40 participants to complete Part A. Our target for the Part A interim responder analysis was a response rate of 50% or greater (i.e., ≥20 confirmed responders out of first 40 participants to complete Part A) based on precedent set with aC1s inhibition. In March 2026, we announced that we achieved our target of 20 confirmed responders in Part A early, with less than 40 participants completing Part A. We believe that this single pivotal trial will support a Biologics License Application (\"BLA\") filing in adult patients with CIDP."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "我們的產品線",
+    "我們的產品內建潛力：Claseprubart，下一代補充治療藥物",
+    "Claseprubart 在目標適應症的開發計畫概覽",
+    "療效結果",
+    "第13週療效總結",
+    "Claseprubart 300mg 每兩週一次",
+    "Claseprubart 600mg 每兩週一次",
+    "安慰劑調整後",
+    "安全性與耐受性結果",
+    "Claseprubart 第一期健康志工數據",
+    "本公司第一且具潛力為同類最佳的雙功能 BDCA2 與 BAFF/APRIL 抑製劑（DNTH212）",
+    "本公司策略",
+    "補體系統概述",
+    "補體系統—三大主要途徑",
+    "經典途徑與 C1s 之角色",
+    "Claseprubart 用於治療廣泛性重症肌無力",
+    "Claseprubart 用於治療其他自身免疫及發炎性疾病",
+    "智慧財產權",
+    "製造",
+    "合作、授權及服務契約",
+    "政府規範"
+   ],
+   "paragraphs": [
+    "本公司為一家臨牀階段生技公司，專注於開發潛在最佳等級的療法，用以治療患有嚴重自體免疫疾病的病患。本公司主要臨牀階段候選藥物，claseprubart，為一種單株抗體，經過刻意設計，具有延長半衰期、提升效力及高選擇性，僅針對活化中的C1s補體蛋白（\"C1s\"）– 使病患能進行較少頻率且更便利的自體皮下（\"S.C.\"）注射，適合使用預裝筆型注射器。此外，選擇性抑制經典補體路徑，可能降低病患因包覆細菌感染的風險，同時保留lectin及替代路徑的免疫活動。本公司認為claseprubart有潛力治療多種補體依賴性疾病，目前可用療法及正在開發中的療法仍有改善療效、安全性及/或給藥便利性的空間。",
+    "本公司第二個臨牀階段候選藥物，DNTH212，為一種第一且潛在最佳等級的雙功能融合蛋白，針對漿細胞樹突狀細胞（\"pDC\"）BDCA2，以降低Type 1 幹擾素的產生，同時抑制BAFF/APRIL以抑制B細胞功能。透過同時針對先天及適應性免疫系統，經由兩種已臨牀驗證的路徑，而這些路徑為自體免疫疾病發病機制的已知驅動因素，這種補充且差異化的策略，有潛力治療多種自體免疫疾病，並帶來改善的治療結果。DNTH212也設計為具有患者友善、頻率較低、自體注射的便利性，適合使用預裝筆型注射器。",
+    "本公司最進展的產品候選藥物，claseprubart，為一種臨牀階段、高效力、高選擇性且完全人源的單株免疫球蛋白G4，具有皮摩爾級的結合親和力，設計為僅與活化形式的C1s結合。活化形式的C1s是在補體活化過程中，由無活性的proC1s裂解產生。作為自體免疫及發炎領域中已驗證的補體目標，C1s的抑制可防止經典路徑的進一步進行。claseprubart經過設計，具有YTE半衰期延長技術，為Fc域中特定的三個胺基酸變異，並具有藥動學（\"PK\"）特性，以支持較少頻率、較低劑量的自體注射，作為便利的皮下注射。",
+    "本公司目前正進行三項中至後期臨牀試驗，以claseprubart治療廣泛性重症肌無力（\"gMG\"）、慢性發炎性脫髓鞘多發性神經病變（\"CIDP\"）及多發性運動神經病變（\"MMN\"）。",
+    "2025年9月，我們報告了在gMG患者中進行的Phase 2 MaGic試驗的正面營收結果，並於2026年第一季與FDA舉行了Phase 2期末會議。我們預期於2026年下半年啟動gMG的Phase 3登記試驗，並在2028年下半年報告初步結果。",
+    "2026年3月，我們因在CIDP患者中進行的Phase 3 CAPTIVATE試驗的中期應答分析中達成目標（20名確認應答者，且參與Part A的人數少於預計的40人），而提前發佈GO公告。",
+    "Claseprubart 亦正在 Phase 2 MoMeNtum 專案中進行評估，用於治療 MMN 患者，我們預期此專案的初步主要結果將於 2026 年第二季取得。",
+    "MaGic 專案為一全球性、隨機分配、雙盲、安慰劑對照的 Phase 2 專案，評估 claseprubart，納入 65 位乙醯膽鹼受體陽性（\"AChR+\") 的 gMG 患者。在初始劑量後，claseprubart 每兩週（\"Q2W\"）經皮下注射給予，劑量為 300mg/2mL 或 600mg/4mL。初始隨機治療期為 13 週，後續為 52 週的開放標籤延長期（\"OLE\"）。本專案的主要評估指標為安全性與耐受性。次要及探索性有效性評估指標包括重症肌無力日常活動量表（\"MG-ADL\"）與定量重症肌無力（\"QMG\"）評估，以及最小症狀表現（\"MSE\"）、重症肌無力複合量表（\"MGC\"）評估，以及重症肌無力生活品質量表（\"MG-QOL-15r\"）。",
+    "2025年9月，本公司宣佈Phase 2 MaGic試驗的正面頂線數據。Claseprubart 300mg與600mg在MG-ADL與QMG兩項指標中，與安慰劑相比顯示快速、統計上顯著且臨牀意義重大的改善，包括第1週與第13週的數據。Claseprubart 300mg每兩週一次皮下注射劑量在其他關鍵療效指標中，包括MSE、MGC與MG-QoL-15r，也顯示統計上顯著且臨牀意義重大的改善。",
+    "Claseprubart整體耐受性良好，無與藥物相關的嚴重不良事件（\"SAE\"）或因相關不良事件而中止治療的情形。Claseprubart的臨牀安全性表現良好，與安慰劑相當，無與治療相關的嚴重細菌感染，也未觀察到臨牀症狀顯示潛在自身免疫性疾病。",
+    "• Claseprubart以300mg皮下注射每兩週一次劑量，於第13週時，MG-ADL評分從基線值平均改善4.6分（安慰劑調整後改善1.8分；P=0.0113）。300mg劑量在第1週即觀察到統計上顯著的MG-ADL改善。",
+    "• Claseprubart以600mg皮下注射每兩週一次劑量，於第13週時，MG-ADL評分從基線值平均改善5.4分（安慰劑調整後改善2.6分；P=0.0006）。600mg劑量在第1週即觀察到統計上顯著的MG-ADL改善。",
+    "• 如預期般，Claseprubart 300mg與600mg組在任何時間點的MG-ADL評分均無統計上顯著差異。",
+    "• Claseprubart以300mg皮下注射每兩週一次劑量，於第13週時，QMG評分從基線值平均改善4.4分（安慰劑調整後改善2.4分；P=0.0144）。300mg劑量在第1週即觀察到統計上顯著的QMG改善。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "本公司 Pipeline-in-a-Product 潛力於 Claseprubart，一項次世代補充治療藥物",
+    "本公司首項且 potentially Best-In-Class 雙功能 BDCA2 與 BAFF/APRIL 抑製劑 (DNTH212)",
+    "公司最新消息",
+    "全球與總體經濟發展",
+    "營運成果之組成項目",
+    "授權協議",
+    "營運費用",
+    "營運成果",
+    "比較截至2025年12月31日及2024年12月31日之年度",
+    "(以千美元為單位)",
+    "營運費用：",
+    "流動性及資本資源",
+    "流動性來源",
+    "未來資本需求",
+    "契約義務及承諾",
+    "關鍵會計政策及會計估計",
+    "研究與開發費用",
+    "收入確認 - 授權合約"
+   ],
+   "paragraphs": [
+    "您應閱讀以下對我們財務狀況與營運成果的討論與分析，並與本年度10-K表報表所附之合併財務報表及相關附註一併參考。本討論包含風險與不確定性，包括在本年度10-K表報表其他部分標題為\"特別說明前瞻性陳述\"的段落中所描述的風險與不確定性。我們實際的結果與某些事件的時間點可能與以下討論有顯著差異。導致這種差異的因素包括，但不僅限於，以下所列及在本年度10-K表報表其他部分標題為\"項目1A. 風險因素\"的段落中所列的那些因素。",
+    "我們是一家臨牀階段的生物科技公司，專注於開發潛在最佳治療方案，用以治療患有嚴重自身免疫疾病的患者。我們的主要臨牀階段候選藥物claseprubart是一種單株抗體，經過特別設計，具有延長半衰期、提高效力及對僅活躍的C1s補體蛋白（\"C1s\"）高選擇性，使患者能進行較少頻率且更方便的自體皮下（\"S.C.\"）注射，適合使用預填充筆。此外，選擇性抑制經典補體路徑可能降低患者因包覆細菌感染的風險，同時保留講述路徑與替代路徑的免疫活動。我們認為claseprubart有潛力解決目前可用治療方案及正在開發中的治療方案在療效、安全性及/或給藥便利性方面仍有改進空間的補體依賴性疾病。",
+    "我們的第二個臨牀階段候選藥物DNTH212是一種第一且潛在最佳的雙功能融合蛋白，目標為漿細胞樹突狀細胞（\"pDC\"）BDCA2，以減少Type 1幹擾素的產生，同時抑制BAFF/APRIL以抑制B細胞功能。透過同時針對先天與適應性免疫系統，利用兩種已臨牀驗證的路徑，這些已知為自身免疫疾病發病機制的驅動因素，這種補充且差異化的策略有潛力解決多種自身免疫指標，並帶來改善的治療結果。DNTH212也設計為具有患者友善、頻率低、自體注射的便利性，適合使用預填充筆。",
+    "我們最進展的產品候選藥物claseprubart是一種臨牀階段、高效力、高選擇性且完全人源的單株免疫球蛋白G4，具有皮摩爾級的結合親和力，設計為僅與活躍形式的C1s結合。活躍形式的C1s是在補體活化過程中由無活性的proC1s裂解產生。作為自動免疫與發炎領域中已驗證的補體目標，C1s的抑制可防止經典路徑的進一步發展。claseprubart經過工程設計，具有YTE半衰期延長技術，為Fc域中特定的三個胺基酸變異，並具有藥動學（\"PK\"）特性，以支持較少頻率、較低劑量的自體注射，作為方便的皮下注射。",
+    "目前我們正在進行三項中至晚期臨牀試驗，以claseprubart治療廣泛性重症肌無力（\"gMG\"）、慢性發炎性脫髓鞘多發性神經病變（\"CIDP\"）及多焦點運動神經病變（\"MMN\"）患者。",
+    "2025年9月，我們報告了claseprubart在gMG患者中進行的Phase 2 MaGic試驗的初步正面結果，並於2026年第一季與FDA舉行了Phase 2期末會議。我們預計於2026年中啟動gMG的Phase 3登記試驗，並於2028年下半年報告初步結果。",
+    "2026年3月，我們因在Phase 3 CAPTIVATE試驗中針對CIDP患者的中期應答分析達成目標，即在少於預計40名參與者完成Part A的情況下，取得20名確認應答者，而提前宣佈了進展公告。",
+    "claseprubart也在Phase 2 MoMeNtum試驗中評估用於治療MMN患者，我們預計此試驗的初步結果將於2026年下半年公佈。",
+    "MaGic 臨牀二期試驗為一項全球性、隨機、雙盲、安慰劑對照試驗，評估 claseprubart 對重症肌無力（gMG）患者的療效，共納入 65 位乙醯膽鹼受體陽性（\"AChR+\") 受試者。在初始劑量後，每兩週（\"Q2W\"）經皮下注射（S.C.）給予 300mg/2mL 或 600mg/4mL 的 claseprubart。初始隨機治療期為 13 週，隨後為 52 週的開放標籤延長期（\"OLE\"）。本試驗的主要評估指標為安全性與耐受性。次要及探索性療效指標包括重症肌無力日常生活活動量表（\"MG-ADL\"）與定量重症肌無力（\"QMG\"）評估，以及最小症狀表現（\"MSE\"）、重症肌無力複合量表（\"MGC\"）評分，以及重症肌無力生活品質量表（\"MG-QOL-15r\"）。",
+    "2025 年 9 月，我們宣佈 MaGic 二期試驗的初步結果為正面。300mg 與 600mg 的 claseprubart 在 MG-ADL 與 QMG 測評中，顯示出快速、統計上顯著且臨牀上有意義的改善，包括第 1 週與第 13 週的結果。300mg Q2W 的 claseprubart 在其他關鍵療效指標中，也顯示出統計上顯著且臨牀上有意義的改善，包括 MSE、MGC 與 MG-QoL-15r。",
+    "claseprubart 通常耐受性良好，無與藥物相關的嚴重不良事件（\"SAE\"）或因任何相關不良事件而中止治療。claseprubart 的臨牀安全性表現良好，與安慰劑相當，無與治療相關的嚴重細菌感染，也未觀察到臨牀症狀顯示急性自身免疫性疾病。",
+    "在 MaGic 試驗的 OLE 部分，那些在隨機控制期使用安慰劑的受試者，在此後接受 600mg Q2W 的 claseprubart 而無初始劑量。OLE 的數據顯示，在接受兩劑 600mg Q2W 的 claseprubart 後，受試者在 PK 水平遠低於 300mg Q2W 劑量的穩定狀態下，MG-ADL 與 QMG 有顯著改善，支持每四週（\"Q4W\"）給予 300mg 的 claseprubart 的潛力。",
+    "根據我們在 2026 年第一季與 FDA 進行的二期結束會議結果，我們預期於 2026 年中啟動 claseprubart 的註冊三期試驗，評估 300mg Q2W 與 300mg Q4W 在 gMG 患者中的療效，並於 2028 年下半年報告初步結果。",
+    "CAPTIVATE 試驗為一項單一、兩階段、隨機撤藥的全球三期試驗，評估 claseprubart 對慢性炎症性脫髓鞘性神經病變（CIDP）患者的療效。在本試驗的開放標籤第一階段（Part A），受試者將接受初始劑量後，每兩週（\"Q2W\"）經皮下注射（S.C.）給予 300mg/2mL 的 claseprubart，持續至多 13 週。僅在第一階段（Part A）中對 claseprubart 有反應的受試者（根據調整後的炎症性神經病變原因與治療（\"INCAT\"）失能評分較基線改善至少 1 點），才會被隨機分派至第二階段（Part B），為一項雙盲、安慰劑對照的治療期，持續至多 52 週，評估預防復發、安全性與耐受性，並進行開放標籤延長期（OLE）。第一階段（Part A）包含前 40 位完成第一階段的受試者的中期反應分析。我們在第一階段（Part A）中期反應分析的目標反應率為 50% 或更高（即前 40 位完成第一階段的受試者中至少 20 位確認反應），基於 aC1s 抑製的先例。2026 年 3 月，我們宣佈在第一階段（Part A）中，我們已達成目標，確認 20 位反應者，且完成第一階段（Part A）的受試者少於 40 人。我們認為此單一關鍵試驗將支持在成人 CIDP 患者中提交生物製劑許可申請（\"BLA\"）的申請。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司有限營運歷史、財務狀況及資金需求相關之風險",
+    "與發現、開發及商業化相關之風險",
+    "我們面臨來自已開發或可能開發用以治療我們計畫以claseprubart、DNTH212或其他產品候選藥物所針對之疾病的機構之競爭",
+    "我們極度依賴我們最進展性產品候選藥物claseprubart之成功，且我們預期針對此產品候選藥物進行之臨牀試驗可能無法成功",
+    "我們對於產品候選藥物之發現與開發方法尚未經證實，且我們可能無法成功建立具商業價值之產品候選藥物管線",
+    "我們可能無法成功識別或發現未來之產品候選藥物",
+    "若我們在目前及未來之臨牀試驗中遭遇招募病患之困難，則我們之臨牀開發活動可能延遲或受其他不利影響",
+    "我們自臨牀試驗中公佈或發佈之初步、\"top-line\" 或中期數據可能隨更多病患數據之取得而有所變動，且這些數據將接受審計及驗證程序",
+    "我們可能將有限的資源用於追求某特定產品候選品，例如 claseprubart，而未能把握可能更具盈利潛力或成功機率更高的候選品。",
+    "我們從來未商業化任何產品候選品，可能缺乏成功商業化產品候選品所需的專業知識、人力與資源，無論是自行進行或與合適的合作夥伴共同進行。"
+   ],
+   "paragraphs": [
+    "在評估我們的業務時，您應謹慎考慮下列有關重大風險、事件及不確定性因素的討論，這些因素使投資我們的業務具有投機性或風險，除了本年度報告書所包含的其他資訊。任何上述風險及不確定性因素的表現，可能在我們可能預測或無法準確預測的情況下，對我們的業務與營運、成長、聲譽、前景、營運與財務結果、財務狀況、現金流、流動性及股票價格產生重大且不利的影響。下列討論中提及的一些因素、事件及待解決事項可能已發生在過去，但以下披露並非表示這些因素、事件或待解決事項是否已發生在過去，而是反映我們對可能對我們未來產生重大且不利影響的因素、事件或待解決事項的觀點與看法。下列所描述的風險與不確定性因素並非我們所面臨的唯一風險。我們的營運也可能受到目前未知或我們目前認為對業務不具重大風險的因素、事件或不確定性因素的影響。因此，您不應將下列風險視為我們所面臨所有潛在風險或不確定性因素的完整陳述。",
+    "• 我們的營運歷史有限，尚未完成任何後期臨牀試驗，且目前沒有獲批准可進行商業銷售的產品，這可能使您難以評估我們目前的業務及成功與可持續性的可能性；",
+    "• 我們將需要大量額外資金以支應未來的營運。如果我們無法在需要時或在可接受的條件下籌集資金，我們可能被迫延遲、減少或終止臨牀試驗、產品開發計畫或未來的商業化努力；",
+    "• 自成立以來，我們已產生重大虧損，且預期在可預見的未來仍將產生重大虧損，並可能無法實現或維持未來的盈利。我們目前沒有可銷售的產品，尚未產生任何產品收入，且可能永遠無法產生產品收入或實現盈利；",
+    "• 我們面臨來自已開發或可能開發針對我們預計以claseprubart、DNTH212或其他產品候選藥物所針對疾病的計畫之機構的競爭；",
+    "• claseprubart、DNTH212及我們的其他計畫處於不同開發階段，可能在開發過程中失敗或遭遇延誤，對其商業可行性產生重大且不利的影響。如果我們或我們目前或未來的合作夥伴無法完成這些產品候選藥物的開發或商業化，或遭遇重大延誤，將對我們的業務產生重大損害；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

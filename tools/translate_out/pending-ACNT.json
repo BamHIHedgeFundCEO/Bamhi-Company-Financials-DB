@@ -1,0 +1,215 @@
+{
+ "ticker": "ACNT",
+ "cik": "0000095953",
+ "accession": "0000095953-26-000040",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "General Information",
+    "Our Strategy",
+    "Sales. Marketing and Supply Chain",
+    "Research and Development",
+    "Mergers, Acquisitions and Dispositions",
+    "Environmental",
+    "Human Capital",
+    "Available information"
+   ],
+   "paragraphs": [
+    "Ascent Industries Co. (\"Ascent\" or the \"Company\") is a specialty chemicals platform delivering differentiated, performance-driven chemical solutions to a diverse set of end markets. The Company develops, manufactures, and supplies tailored formulations and intermediates that enhance product performance and optimize industrial processes.",
+    "Ascent operates three production facilities located in Cleveland, Tennessee; Fountain Inn, South Carolina; and Danville, Virginia. These facilities support customers across energy, household, industrial and institutional (\"HII\"), personal care, coatings, adhesives, sealants and elastomers (\"CASE\"), agriculture, water treatment, pulp and paper, construction, automotive, and other industrial markets.",
+    "The Company's core product portfolio includes surfactants, defoamers, lubricating agents, flame retardants, and specialty intermediates, offered in both petroleum-based and bio-based formulations. Ascent's products are used as critical ingredients and process aids in applications such as cleaning formulations, coatings systems, oilfield production chemicals, agrochemical formulations, metalworking fluids, water treatment solutions, and industrial textiles.",
+    "Beyond its product portfolio, Ascent provides comprehensive custom manufacturing services spanning product development, process optimization, scale-up, and commercial production. The Company operates both customer-dedicated assets and flexible multi-purpose manufacturing systems capable of blending, complex reaction chemistry, and multi-step processing. This flexible operating model enables customers to accelerate commercialization while avoiding the capital investment and operational complexity of building and maintaining their own manufacturing infrastructure. The Company has one reportable segment: Specialty Chemicals.",
+    "The Company was incorporated in 1958 as the successor to a chemical manufacturing business founded in 1945 known as Blackman Uhler Industries, Inc. The Company's common stock is listed on the NASDAQ Global Market - ticker symbol \"ACNT\".",
+    "For additional information about the Company's performance and financial condition, see Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations\", of this Annual Report.",
+    "In 2025, the Company introduced its Chemicals-as-a-Service (\"CaaS\") strategy, focused on building a differentiated specialty chemicals platform that solves customer problems across the value chain. Rather than competing solely on products or manufacturing capacity, the Company offers an integrated suite of services that includes formulation development, reaction capabilities, blending and packaging, logistics, regulatory support, and delivery.",
+    "The CaaS strategy is designed to create value at critical points in the customer relationship—where performance, reliability, and execution matter most. Management believes these \"moments that matter\" are where long-term customer relationships are established through consistent delivery and problem-solving rather than price or availability alone.",
+    "The Company's strategy is organized around four core pillars:",
+    "•Discovery & Development: Accelerating speed to solution through collaborative formulation, application, and process development",
+    "•Commercial & Contracting: Simplifying how customers engage with the Company through responsive and flexible commercial structures",
+    "•Manufacturing and Fulfillment: Delivering consistent, reliable, and efficient production and supply",
+    "•Service & Lifecycle Support: Providing technical, regulatory, and operational support throughout the product lifecycle",
+    "The Company operates an agile business model designed to serve customers in the manner they require, including when, where, and how products and services are developed, manufactured, and delivered. Management believes this flexibility enhances customer satisfaction, supports long-term relationships, and enables sustainable growth."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Industry and Segment Risks",
+    "Variations in our product, customer, and geographic sales mix make it difficult to predict future performance.",
+    "Industry dynamics, technological changes, and customer trends may lead to volatility in our results.",
+    "Operations and Supply Chain Risks",
+    "Any interruption in our ability to procure raw materials, or significant volatility in the price of raw materials, could adversely affect our business and results of operations.",
+    "The financial health of our customers or suppliers could impair demand, pricing, collections, or our supply chain.",
+    "Our operating results are sensitive to the availability and cost of energy and freight, which are important in the manufacture and transport of our products.",
+    "We are dependent upon the continued operation of our production facilities, which are subject to a number of hazards.",
+    "Capital projects are complex and subject to delays, cost overruns, or underperformance.",
+    "Ascent relies on information technology systems that are vulnerable to disruption and cybersecurity threats.",
+    "If we fail to maintain an efficient cost structure, our profitability may suffer.",
+    "Natural disasters, pandemics, or other catastrophic events could disrupt operations and materially affect our results.",
+    "Government Regulation Risks",
+    "Evolving ESG expectations and requirements could increase costs and create new risks.",
+    "Our operations expose us to the risk of environmental, health and safety liabilities and obligations, which could have a material adverse effect on our financial condition or results of operations.",
+    "We may be adversely affected by changes in tax laws or tax rates.",
+    "Tariff and Trade Environment may significantly affect our industry and business, and economic decline can materially impact our financial results.",
+    "Human Capital Risks",
+    "Certain of our employees are covered by collective bargaining agreements, and the failure to renew these agreements could result in labor disruptions and increased labor costs.",
+    "Failure to attract and retain key personnel may adversely impact our strategy and execution and financial results.",
+    "Our operations present significant risk of injury and other liabilities.",
+    "Financial and Strategic Risks",
+    "Our recent exit from the Tubular Products Segment may result in unexpected costs, liabilities, or disruptions that could adversely affect our financial condition and results of operations.",
+    "The inability to successfully complete or integrate future acquisitions or strategic investments may harm our results.",
+    "We may repurchase or redeem our equity or debt securities, which could affect market dynamics for those securities and reduce our liquidity.",
+    "Growth and transformation initiatives may demand substantial resources and, if unsuccessful, could materially harm our business.",
+    "Impairment in the carrying value of our fixed assets or intangible assets could adversely affect our financial condition and consolidated results of operations.",
+    "Intellectual Property Risks",
+    "Protecting our intellectual property is critical to our success.",
+    "General Risk Factors",
+    "Our business is exposed to risks associated with the use of Artificial Intelligence (AI) tools."
+   ],
+   "paragraphs": [
+    "There are inherent risks and uncertainties associated with our business that could adversely affect our operating performance and financial condition. Set forth below are descriptions of those risks and uncertainties that we believe to be material, but the risks and uncertainties described are not the only risks and uncertainties that could affect our business. Reference should be made to \"Forward-Looking Statements\" above, \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in Item 7 and our consolidated financial statements and related notes in Item 8 below.",
+    "Our industry is highly competitive, and demand for our products and our financial results may be negatively impacted by changes in industry capacity utilization, shifts in production geography, raw material dynamics, and competition from other specialty chemical providers.",
+    "We operate in a highly competitive specialty chemicals marketplace. Our financial performance is sensitive to fluctuations in industry capacity utilization; pricing often declines when overall capacity exceeds demand, leading to underutilization and pressure on margins. Overcapacity in regions such as Asia, particularly when production is exported to other markets, can disrupt supply-demand balances globally and reduce demand for our products in key regions.",
+    "Our ability to compete effectively depends on maintaining advanced technical capabilities and continuously developing and commercializing innovative, high-value specialty chemical solutions for current and prospective customers. Growing competition from alternative products, especially those with enhanced environmental profiles or lower costs, or from substitutes that deliver similar performance could reduce demand for our offerings and adversely affect our market position, pricing power, and growth opportunities.",
+    "Our net sales and gross margins fluctuate based on the specific mix of products, customers, and regions in any period, which can differ significantly from prior or expected periods. Gross margins are heavily influenced by this mix, as well as by competitive dynamics, product commoditization, rising input or logistics costs, inflation, regulatory changes, and other market factors. These variations have historically caused material period-to-period differences in results (particularly during economic downturns) and can complicate assessments of how external conditions or internal changes may impact our business. As a result, forecasting operating results remains challenging.",
+    "A substantial portion of our sales is dependent upon a limited number of customers with the top five customers accounting for approximately 51% of revenues for 2025 and 35% of revenues for 2024. An adverse change in, or termination of, the relationship with one or more of our top customers could materially and adversely affect our results of operations."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Executive Overview",
+    "Results of Operations",
+    "Basis Point Increase/(Decrease) in Percentage of Net Sales",
+    "2025 2024 2025 vs. 2024",
+    "Comparison of 2025 to 2024 – Continuing Operations",
+    "Comparison of 2025 to 2024 – Specialty Chemicals",
+    "(in thousands) Amount % Amount %",
+    "Comparison of 2025 to 2024 - Corporate",
+    "Non-GAAP Financial Measures",
+    "Year Ended December 31,",
+    "($ in thousands) 2025 2024",
+    "Consolidated",
+    "Specialty Chemicals",
+    "Liquidity and Capital Resources",
+    "2024 977 (1,120) (1,318) (17,758) $ (1,461) Operating Activities",
+    "Material Cash Requirements from Contractual and Other Obligations",
+    "Critical Accounting Policies and Estimates",
+    "Income Taxes"
+   ],
+   "paragraphs": [
+    "Ascent Industries Co. is a specialty chemicals platform focused on the development, production, and distribution of tailored, performance-driven chemical solutions with three production facilities located in Cleveland, Tennessee, Fountain Inn, South Carolina and Danville, Virginia. These facilities produce critical ingredients and process aids for the oil & gas, household, industrial and institutional (\"HII\"), personal care, coatings, adhesives, sealants and elastomers (\"CASE\"), pulp and paper, textile, automotive, agricultural, water treatment, construction and other industries. The Company produces specialty formulations and intermediates for use in a wide variety of applications and industries with primary product lines focusing on the production of surfactants, defoamers, lubricating agents, flame retardants and chemical intermediates while offering products that are petroleum derived, as well as bio-based alternatives. End users include companies that use our products as raw materials or process aids in the manufacturing of products such as cleaners, coatings, water treatment chemicals, metal working fluids, textiles, oilfield production chemicals, agrochemical formulations and other applications",
+    "The Company was incorporated in 1958 as the successor to a chemical manufacturing business founded in 1945 known as Blackman Uhler Industries, Inc. The Company's common stock is listed on the NASDAQ Global Market - ticker symbol \"ACNT\".",
+    "On March 12, 2025, the Company and its wholly-owned subsidiaries Synalloy Metals, Inc. (\"Synalloy Metals\") and Bristol Metals, LLC. (\"BRISMET\"), entered into an Asset Purchase Agreement (the \"Purchase Agreement\") pursuant to which they sold substantially all of the assets related to BRISMET to Bristol Pipe and Tube, Inc., a Delaware corporation and wholly-owned subsidiary of Ta Chen International, Inc. (the \"Purchaser\"). Ascent and Purchaser also entered into a Transition Services Agreement (the \"TSA\") dated March 12, 2025, pursuant to which Ascent has agreed to provide certain transition services to Purchaser immediately after the closing for certain agreed upon transition periods. On April 4, 2025, the Company and Purchaser completed the transaction contemplated by the Purchase Agreement. The consideration for the transaction was approximately $45 million of cash proceeds, of which $4.5 million was placed in an escrow account to be received in 18 months from the closing date.",
+    "On June 23, 2025, the Company and its wholly-owned subsidiary American Stainless Tubing, Inc. (\"ASTI\"), entered into an Asset Purchase Agreement (the \"Purchase Agreement\") pursuant to which they sold substantially all of the assets related to ASTI to First Tube, LLC., a Texas limited liability company and wholly-owned subsidiary of Triple-S Steel Holdings, Inc (the \"Purchaser\"). On June 30, 2025, the Company and Purchaser completed the transaction contemplated by the Purchase Agreement. The consideration for the transaction was approximately $16 million of cash proceeds, of which $0.8 million was placed in an escrow account to be received in 12 months from the closing date.",
+    "We continue to monitor macroeconomic trends and uncertainties such as key material inflation, the effects of recently implemented tariffs, and the potential imposition of modified or additional tariffs, which may have adverse effects on net sales and profitability. As a result of the recent tariffs announced by the U.S. presidential administration and potential tariff modifications or the imposition of tariffs or export controls by other countries, we have worked with our suppliers to mitigate supply chain challenges, cost volatility, and consumer and economic uncertainty due to rapid changes in global trade policies. Much of our raw material used in production is domestically sourced and while we do not expect these factors to result in a material negative effect on our net sales or profitability in the near future, we are continuing to evaluate these factors and their potential effects as well as our ability to potentially offset all or a portion of cost increases through pricing actions and additional cost savings efforts. Economic pressures on customers and consumers, including the challenges of high inflation and the effects of increased tariffs, may negatively affect our net sales and profitability in the future."
+   ],
+   "focus": "Executive Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'General Information': '一般資訊'}",
+    "{'Our Strategy': '我們的策略'}",
+    "{'Sales. Marketing and Supply Chain': '銷售. 廣告與供應鏈'}",
+    "{'Research and Development': '研究與發展'}",
+    "{'Mergers, Acquisitions and Dispositions': '併購與資產處置'}",
+    "{'Environmental': '環境'}",
+    "{'Human Capital': '人力資本'}",
+    "{'Available information': '可供查閱之資訊'}"
+   ],
+   "paragraphs": [
+    "Ascent Industries Co. (\"Ascent\" or the \"Company\") 為一間專業化化學品平台，提供差異化、以性能為導向的化學解決方案，服務於多樣化的最終市場。The Company 開發、製造與供應客製化配方與中間體，以提升產品性能並優化工業流程。",
+    "Ascent 運作三座生產設施，分別位於 Cleveland, Tennessee; Fountain Inn, South Carolina; 和 Danville, Virginia。這些設施支援客戶於能源、家庭、工業與機構（\"HII\"）、個人護理、塗料、黏合劑、密封劑與橡膠彈性體（\"CASE\"）、農業、水處理、紙漿與紙張、建設、汽車及其他工業市場。",
+    "The Company 的核心產品組合包括表面活性劑、消泡劑、潤滑劑、阻燃劑與專用中間體，提供石油基與生物基兩種配方。Ascent 的產品被用作清潔配方、塗料系統、油田生產化學品、農化配方、金屬加工液、水處理解決方案與工業織物等應用中的關鍵原料與製程輔助材料。",
+    "除了產品組合，Ascent 提供涵蓋產品開發、製程優化、規模擴充與商業生產的全面客製化製造服務。The Company 運作專屬客戶的資產與靈活多用途製造系統，具備混合、複雜反應化學與多步驟製程的能力。此靈活的運作模式使客戶能加速商品化，同時避免自建與維護製造基礎設施所需的資本投資與運營複雜性。The Company 有一個應報告分部：專業化學品。",
+    "The Company 於 1958 年成立，為 1945 年成立的化學製造業務 Blackman Uhler Industries, Inc. 的繼承者。The Company 的普通股於 NASDAQ Global Market 上市，股票代碼為 \"ACNT\"。",
+    "如需更多關於 The Company 營運表現與財務狀況的資訊，請參閱本年度報告的第 7 項 \"管理層對財務狀況與營運結果之分析\"。",
+    "2025 年，The Company 推出其 Chemicals-as-a-Service（\"CaaS\"）策略，專注於建立一個差異化的專業化學品平台，解決價值鏈中客戶的問題。The Company 不僅僅以產品或製造能力競爭，而是提供整合的服務組合，包括配方開發、反應能力、混合與包裝、物流、法規支援與交付。",
+    "CaaS 策略旨在在客戶關係中關鍵的時點創造價值—這些時點性能、可靠性與執行成效至關重要。管理層認為這些 \"重要時刻\" 是透過持續交付與解決問題建立長期客戶關係的地方，而非僅僅依靠價格或可得性。",
+    "本公司策略係以四大核心支柱為組織架構：",
+    "•發現與開發：透過協同製定、應用及製程開發，加速解決方案的實現速度",
+    "•商業與契約：透過靈活且具彈性的商業架構，簡化客戶與本公司互動的方式",
+    "•製造與配送：提供穩定、可靠且高效的生產與供應",
+    "•服務與生命週期支援：於產品生命週期內提供技術、法規及運營支援",
+    "本公司運作一項靈活的商業模式，以符合客戶所需的方式服務客戶，包括產品與服務的開發、製造及配送時機、地點與方式。管理階層認為此靈活性可提升客戶滿意度，支持長期關係，並實現可持續成長。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "執行長摘要",
+    "營運結果",
+    "淨銷售額百分比的基點增加/(減少)",
+    "2025 2024 2025 與 2024 比較",
+    "2025 與 2024 比較 – 繼續營運",
+    "2025 與 2024 比較 – 特殊化學品",
+    "(以千為單位) 金額 % 金額 %",
+    "2025 與 2024 比較 – 本公司",
+    "非GAAP財務指標",
+    "截至12月31日年度",
+    "（金額單位為千美元） 2025 2024",
+    "合併",
+    "專業化化工產品",
+    "流動性及資本資源",
+    "2024 977 (1,120) (1,318) (17,758) $ (1,461) 營運活動",
+    "來自契約及其他義務的現金需求",
+    "{'original': 'Critical Accounting Policies and Estimates', 'translated': '重要會計政策與會計估計'}",
+    "{'original': 'Income Taxes', 'translated': '所得稅'}"
+   ],
+   "paragraphs": [
+    "Ascent Industries Co. 為一間專門化學品平台，專注於開發、生產與分銷客製化、性能導向的化學解決方案，擁有位於克里夫蘭、田納西州、福恩特因、南卡羅來納州與丹維爾、維吉尼亞州的三個生產設施。這些設施生產油氣、家庭、工業與機構（\"HII\"）、個人護理、塗料、黏合劑、密封劑與橡膠（\"CASE\"）、紙漿與紙張、紡織、汽車、農業、水處理、建設及其他產業所需的關鍵原料與製程輔助材料。本公司生產專用配方與中間體，用於廣泛的應用與產業，主要產品線著重於表面活性劑、消泡劑、潤滑劑、阻燃劑與化學中間體的生產，同時也提供石油衍生與生物基替代產品。最終用戶包括使用本公司產品作為原料或製程輔助材料製造清潔劑、塗料、水處理化學品、金屬加工液、紡織品、油田生產化學品、農化配方及其他應用的公司",
+    "本公司於1958年成立，為1945年成立的化學製造業務 Blackman Uhler Industries, Inc. 的繼承者。本公司普通股於NASDAQ Global Market上市，股票代碼為 \"ACNT\"。",
+    "2025年3月12日，本公司與其全資子公司 Synalloy Metals, Inc.（\"Synalloy Metals\"）與 Bristol Metals, LLC.（\"BRISMET\"）簽訂資產買賣協議（\"買賣協議\"），根據該協議，他們將與 BRISMET 相關的幾乎所有資產出售給 Bristol Pipe and Tube, Inc.，一家位於德國的公司，為 Ta Chen International, Inc. 的全資子公司（\"買方\"）。本公司與買方同時簽訂過渡服務協議（\"過渡服務協議\"），根據該協議，本公司同意在交易完成後為買方提供特定的過渡服務，持續一段協議約定的過渡期間。2025年4月4日，本公司與買方完成買賣協議所預期的交易。該交易的對價為約 45 百萬美元現金，其中 4.5 百萬美元存入保証金帳戶，於交易完成後 18 個月內支付。",
+    "2025年6月23日，本公司與其全資子公司 American Stainless Tubing, Inc.（\"ASTI\"）簽訂資產買賣協議（\"買賣協議\"），根據該協議，他們將與 ASTI 相關的幾乎所有資產出售給 First Tube, LLC.，一家位於德克薩斯州的有限責任公司，為 Triple-S Steel Holdings, Inc. 的全資子公司（\"買方\"）。2025年6月30日，本公司與買方完成買賣協議所預期的交易。該交易的對價為約 16 百萬美元現金，其中 0.8 百萬美元存入保証金帳戶，於交易完成後 12 個月內支付。",
+    "我們持續監測總體經濟趨勢與不確定性，例如關鍵材料通貨膨脹、最近實施的關稅影響，以及可能實施的修改或新增關稅，這些因素可能對淨銷售額與獲利能力產生不利影響。由於美國總統行政團隊最近宣佈的關稅與潛在的關稅修改或其它國家實施關稅或出口管制，我們已與供應商合作，以緩解供應鏈挑戰、成本波動與因全球貿易政策快速變動所導致的消費者與經濟不確定性。我們生產所使用的大部分原材料為國內來源，雖然我們不預期這些因素會在近期對我們的淨銷售額或獲利能力造成重大負面影響，但我們仍在評估這些因素及其潛在影響，以及我們是否有能力透過價格調整與額外的成本節省措施來抵消全部或部分的成本增加。客戶與消費者所面臨的經濟壓力，包括高通貨膨脹與增加關稅的影響，可能在未來對我們的淨銷售額與獲利能力產生負面影響。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "產業與分部風險",
+    "我們產品、客戶及地理銷售組成的變動，使預測未來表現變得困難。",
+    "產業動態、技術變革及客戶趨勢可能導致我們的結果出現波動。",
+    "營運與供應鏈風險",
+    "若我們無法取得原物料或原物料價格出現顯著波動，可能會對我們的業務及營運結果產生負面影響。",
+    "我們的客戶或供應商財務狀況若出現問題，可能影響需求、價格、收款或我們的供應鏈。",
+    "我們的營運結果對能源及運輸成本的可用性與價格敏感，這些成本在製造與運輸我們的產品時非常重要。",
+    "我們依賴生產設施的持續運作，而這些設施可能面臨許多風險。",
+    "資本工程為複雜項目，可能遭遇延誤、成本超支或表現未達預期。",
+    "Ascent 依賴資訊科技系統，而這些系統可能受到中斷及網路安全威脅的影響。",
+    "若我們未能維持高效的成本結構，利潤率可能受到影響。",
+    "天然災害、疫情或其他重大事件可能幹擾營運，並對我們的營運成果產生重大影響。",
+    "政府規範風險",
+    "演進中的 ESG 期待與要求可能增加成本，並產生新的風險。",
+    "我們的營運可能面臨環境、健康與安全責任及義務的風險，這可能對我們的財務狀況或營運成果產生重大不利影響。",
+    "我們可能因稅法或稅率的變動而受到負面影響。",
+    "關稅與貿易環境可能顯著影響我們的產業與業務，且經濟衰退可能對我們的財務結果造成重大影響。",
+    "人力資源風險",
+    "部分我們的員工受集體談判協議所規範，若未能續約這些協議，可能導致勞工動亂及勞動成本增加。",
+    "未能吸引並留住關鍵人才可能對我們的策略與執行及財務結果造成不利影響。",
+    "我們的營運可能面臨重大傷害及其他責任的風險。",
+    "財務與戰略風險",
+    "我們近期退出管狀產品分部，可能導致未預見的成本、責任或中斷，這些情況可能對我們的財務狀況及營運結果造成不利影響。",
+    "無法成功完成或整合未來的併購或戰略投資，可能損害我們的營運結果。",
+    "我們可能買回或贖回本公司股權或債務證券，這可能會影響這些證券的市場動態並降低我們的流動性。",
+    "成長與轉型計畫可能需要大量資源，若未能成功，可能會對本公司業務造成重大損害。",
+    "我們固定資產或無形資產的攜帶價值減損，可能會對本公司財務狀況及合併營運成果造成不利影響。",
+    "智慧財產權風險",
+    "保護我們的智慧財產權對我們的成功至關重要。",
+    "一般風險因素",
+    "本公司業務面臨與使用人工智慧（AI）工具相關的風險。"
+   ],
+   "paragraphs": [
+    "本公司業務本身具備內在風險與不確定性，可能對營運表現與財務狀況造成不利影響。以下為我們認為具重大性之風險與不確定性之說明，但所敘述之風險與不確定性並非唯一可能影響本公司業務之風險與不確定性。請參閱上方之「前瞻性陳述」、「管理層對財務狀況與營運成果之討論與分析」（第7項）及本公司合併財務報表與相關附註（第8項）。",
+    "本公司所屬產業為高度競爭，產品需求與財務結果可能因產業產能利用率之變動、生產地點之改變、原物料動態，以及來自其他專業化化學產品供應商之競爭而受到負面影響。",
+    "本公司營運於高度競爭之專業化化學產品市場。營運表現對產業產能利用率之波動相當敏感；當整體產能超過需求時，價格常會下降，導致產能未充分利用並對毛利率造成壓力。亞洲等地區之過度產能，特別是在生產出口至其他市場時，可能幹擾全球供需平衡，並降低本公司產品在關鍵地區之需求。",
+    "本公司能否有效競爭，取決於維持先進之技術能力，並持續開發與商業化創新、高價值之專業化化學產品解決方案，以服務現有與潛在客戶。來自替代產品（特別是具有增強環境表現或較低成本之產品）或提供相似性能之替代品之競爭，可能降低本公司產品之需求，並對本公司之市場地位、價格權力與成長機會造成不利影響。",
+    "本公司之淨銷售額與毛利率會根據各時期產品組成、客戶與地區之不同而有所變動，這些變動可能與過去或預期之時期有顯著差異。毛利率受此組成影響甚鉅，同時也受到競爭動態、產品商品化、投入成本或物流成本上升、通貨膨脹、法規變動及其他市場因素之影響。這些變動歷來已導致結果在不同時期間出現重大差異（特別是在經濟衰退期間），並可能使評估外部環境或內部變動如何影響本公司業務變得困難。因此，預測營運結果仍屬困難。",
+    "本公司銷售收入之相當大一部分依賴於有限數量之客戶，其中前五大客戶於2025年約佔營收之51%，於2024年約佔營收之35%。與一個或多個主要客戶之關係若發生不利變動或終止，可能對本公司營運成果造成重大且不利之影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

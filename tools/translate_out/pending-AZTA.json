@@ -1,0 +1,154 @@
+{
+ "ticker": "AZTA",
+ "cik": "0000933974",
+ "accession": "0001437749-25-036931",
+ "form": "10-K",
+ "reportDate": "2025-09-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "Multiomics. The Multiomics business resources operate as a single business unit offering genomic and other sample analysis services, including gene sequencing, gene synthesis and related services.",
+    "Sales, Marketing and Customer Support",
+    "Research and Development",
+    "Manufacturing and Services",
+    "Patents and Proprietary Rights",
+    "Environmental Matters and Government Regulations",
+    "Human Capital",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "We are a leading global provider of biological and chemical compound sample exploration and management solutions for the life sciences industry. We entered the life sciences market in 2011, leveraging our in-house precision automation and cryogenics capabilities that we were then applying in the semiconductor manufacturing market. This led us to develop and provide solutions for automated ultra-cold storage. Since then, we have expanded our life sciences offerings through internal investments and through a series of acquisitions. We support our customers from research and clinical development to commercialization with our sample management and automated storage systems, as well as genomic services expertise to help our customers bring impactful therapies to market faster. We understand the importance of sample integrity and offer a broad portfolio of products and services supporting customers at every stage of the life cycle of samples, including procurement, automated storage systems, genomic services and a multitude of sample consumables, informatics and data software, along with sample repository services. Our expertise, global footprint, and leadership positions enable us to be a trusted global partner to pharmaceutical, biotechnology and life sciences research institutions. In total, we employ approximately 3,000 full-time employees, part-time employees and contingent workers worldwide as of September 30, 2025 and have sales in approximately 95 countries. We are headquartered in Burlington, Massachusetts and have operations in North America, Asia and Europe.",
+    "Our Company was founded in 1978 and became a leading automation provider and partner to the global semiconductor manufacturing industry. We divested the last of our semiconductor businesses in February 2022 for $2.9 billion in cash and since then operate solely as a life sciences company. On December 1, 2021, we changed our corporate name from \"Brooks Automation, Inc.\" to \"Azenta, Inc.\" and our common stock started to trade on the Nasdaq Global Select Market under the symbol \"AZTA\". During the first quarter of fiscal year 2025, we announced that we are pursuing a sale of our B Medical Systems business, a manufacturer and global distributor of medical refrigeration devices based in Luxembourg. This strategic action is intended to simplify our portfolio and allow management to focus on driving revenue growth and profitability in our core Sample Management Solutions and Multiomics segments. The B Medical Systems business has been classified as held for sale and a discontinued operation under generally accepted accounting principles in the United States, or GAAP. Both the semiconductor automation results and the B Medical Systems business results are classified as discontinued operations, and, unless otherwise noted, the description of our business in this Annual Report on Form 10-K relates solely to our continuing operations.",
+    "Our portfolio includes product and service offerings developed by us internally, as well as obtained through acquisitions, designed to provide comprehensive capabilities to our customers, addressing their needs in sample exploration and management, automated storage and multiomics. We continue to develop new product and service offerings and enhance existing and acquired offerings through the expertise of our research and development resources. We believe our acquisition, investment, and integration approach has allowed us to accelerate internal development and significantly accelerate time to market for our life sciences solutions.",
+    "For further information on our acquisitions, please refer to Note 4, Business Combinations to our consolidated financial statements included under Part II, Item 8, \"Financial Statements and Supplementary Data\" of this Annual Report on Form 10-K.",
+    "Our businesses serve a broad range of end markets within the life sciences industry to help our customers advance the development of therapies to improve people's lives and cure diseases. With the advent of biologics and personalized medicine, biological samples have become critical assets to the success of drug and therapy pipelines, and the proper management and protection of these samples are important to our customers. As a result, we believe there is a sizable market opportunity for us to provide comprehensive sample management and genomic solutions.",
+    "Since the successful mapping of the full human genome at the turn of this century, the market for genomic services has grown in support of research in biologic drug development, personalized medicine, and cell and gene therapy, or CGT. Top pharmaceutical and biotechnology companies and institutions can use their in-house laboratory resources to sequence millions of genes as part of their research workflow. Many companies and institutions, however, look to outsource all or a part of their gene sequencing to independent laboratories that provide expedited results and expert consultation services. We participate in this market as a value-added laboratory services provider, offering high quality genetic testing services with fast turnaround times and expert customer support.",
+    "We have approximately 14,000 customers globally and believe we are well positioned to expand our customer base. We serve top pharmaceutical and biotechnology companies, the most advanced research hospitals performing clinical research and therapy development, as well as some of the newest and leading-edge start-ups in the biotech space. In addition, we serve academic and government institutions. We believe that the sample-based services and products businesses will continue to demonstrate a growth trajectory.",
+    "Our operating and reportable segments consist of the following:",
+    "Sample Management Solutions. The Sample Management Solutions business resources operate as a single business unit offering end-to-end sample management products and services, including Sample Repository Services, or SRS, and Core Products (Automated Stores, Cryogenic Systems, Automated Sample Tube, Consumables and Instruments and Controlled Rate Thawing Devices).",
+    "For further information on our reportable and operating segments, please refer to Note 18, Segment and Geographic Information to our consolidated financial statements included under Part II, Item 8, \"Financial Statements and Supplementary Data\" of this Annual Report on Form 10‑K.",
+    "Within our Sample Management Solutions segment, we operate as a single business unit offering end-to-end sample management products and services, including SRS and Core Products (Automated Stores, Cryogenic Systems, Automated Sample Tube, Consumables and Instruments and Controlled Rate Thawing Devices). This portfolio provides customers with a high level of sample quality, security, availability, intelligence and integrity throughout the lifecycle of samples, providing customers with complete end-to-end \"cold chain of custody\" capabilities. We also offer expert-level consultation services to our clients throughout their experimental design and implementation processes.",
+    "SRS – Our SRS services include a complete range of services consisting of on-site and off-site sample storage, cold chain logistics, sample transport and collection relocation, bio-processing solutions (inclusive of sample preparation and laboratory-based sample analysis), disaster recovery and business continuity, and project management and consulting. Our informatics solutions provide sample intelligence software solutions, and support laboratory workflow scheduling for life science tools and instrument work cells, sample inventory and logistics, environmental and temperature monitoring, clinical trial and consent management, and planning, data management, virtualization, and visualization of sample collections. We offer enhanced on-site and off-site management of biological sample inventories and integration solutions to our customers for their increasingly distributed workflows.",
+    "Automated Stores – Our automated stores product includes stand-alone systems that can store over 20 million samples in temperature ranges from ambient to -80°C. Our automated stores have a unique design that allows controlled temperature storage down to -80°C with the industry's highest throughput of sample retrieval. Our automated stores provide high throughput capability and optimized storage of multi-format tubes and plates while maintaining consistent temperature profiles across stored samples. We also offer a portfolio of services designed to optimize the productivity of our automated storage offerings.",
+    "Cryogenic Systems – Our cryogenic systems provide cryogenic storage ranging from high efficiency LN2 vapor-based cryogenic freezers to fully automated systems that preserve sample integrity and chain of custody, as well as the storage materials needed to keep samples safe during every step of the cold chain. Our cryogenic systems provide long-term cryogenic storage with accurate record-keeping and dependable temperature control, even during transport. The systems combine well-documented sample protection and comprehensive inventory management with superior user experience and enable our customers to plan a scalable cryogenic infrastructure to maintain quality and documentation."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Factors That May Affect Future Results",
+    "Risk Factor Summary",
+    "Macroeconomic and External Risks",
+    "Risks Relating to Our Operations",
+    "Risks Related to Gene Synthesis",
+    "Risks Related to Cybersecurity and Data Privacy",
+    "Risks Related to Geopolitical Tensions and Supply Chain",
+    "Risks Related to Artificial Intelligence",
+    "Risks Related to Intellectual Property",
+    "Risks Related to Reliance on Third Parties",
+    "Risks Relating to Our Customers",
+    "Risks Relating to Owning Our Securities",
+    "A prolonged downturn in macroeconomic conditions may materially adversely affect our business.",
+    "We are subject to risks associated with public health threats and epidemics.",
+    "Global climate change and related legal and regulatory developments could negatively affect our business, financial condition and results of operations.",
+    "Our business could be negatively impacted by environmental, social and governance (ESG) matters.",
+    "Our operating results could fluctuate significantly, which could negatively impact our business.",
+    "If we do not achieve our transformation initiative goals, our financial results could be negatively impacted.",
+    "The global nature of our business exposes us to multiple risks.",
+    "Our business could be materially harmed if we fail to adequately integrate the operations of the businesses that we have acquired or may acquire.",
+    "Expanding within current markets introduces new competitors and commercial risks.",
+    "Changes in key personnel could impair our ability to execute our business strategy.",
+    "Unexpected events could disrupt our sample storage operations and adversely affect our reputation and results of operations.",
+    "If our facilities were to experience a significant disruption in operations, our business could be materially harmed, while the failure to estimate customer demand accurately could result in excess or obsolete inventory.",
+    "Our goodwill and intangible assets may become impaired.",
+    "Changes in tax rates or tax regulation could affect results of operations.",
+    "We may face NOL limitations due to insufficient profits in relevant jurisdictions.",
+    "We are subject to numerous governmental regulations.",
+    "Regulations and customer demands related to conflict minerals may adversely affect us.",
+    "Our actual or perceived failure to comply with data protection laws and regulations could lead to government enforcement actions, private litigation and/or adverse publicity and could negatively affect our business."
+   ],
+   "paragraphs": [
+    "Investing in Azenta common stock involves a high degree of risk. You should carefully consider the following risks and uncertainties, together with the other information in this Annual Report on Form 10-K, including our consolidated financial statements and related notes included under Part II, Item 8, \"Financial Statements and Supplementary Data,\" and Part II, Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" before investing in our common stock. The risks described below are material to our business and could materially adversely affect our business, financial condition, or operating results, and cause the trading price of our common stock to decline. Additional risks not presently known to us or that we currently deem immaterial may also impair our business operations. The forward-looking statements in this report are qualified by these risk factors.",
+    "The following is a summary of the material risks that could adversely affect our business, financial condition, or operating results. This summary should be read in conjunction with the full discussion of risk factors that follows.",
+    "A prolonged economic downturn, reductions in government funding for scientific research, increases in interest rates, inflation, or other macroeconomic pressures may reduce customer purchases, leading to lower sales and cash flows.",
+    "Public health threats, epidemics, or pandemics could disrupt operations, reduce demand, or impair our ability to meet obligations.",
+    "Global climate change, environmental regulations, or related developments could increase costs, disrupt operations, or reduce demand for our products and services.",
+    "Currency exchange rate fluctuations may impact foreign holdings, lower margins, or require price increases that reduce sales."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "多組學。多組學業務資源運作為單一業務單位，提供基因組及其他樣本分析服務，包括基因定序、基因合成及相關服務。",
+    "銷售、行銷與客戶支援",
+    "研究與開發",
+    "製造與服務",
+    "專利與專有權利",
+    "環境事項與政府規範",
+    "人力資本",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "本公司為生命科學產業提供生物及化學化合物樣本探索與管理解決方案的全球領導供應商。我們於2011年進入生命科學市場，利用當時在半導體製造市場應用的內部精準自動化與冷卻技術。這使我們得以開發並提供自動超冷儲存解決方案。此後，我們透過內部投資及一系列收購擴展生命科學產品組合。我們透過樣本管理與自動儲存系統，以及基因組服務專業知識，協助客戶從研究與臨牀開發到商業化，加速推出具有影響力的療法。我們瞭解樣本完整性的重要性，並提供涵蓋客戶樣本生命週期各階段的廣泛產品與服務，包括採購、自動儲存系統、基因組服務及多種樣本消耗品、資訊軟體與資料軟體，以及樣本倉庫服務。我們的專業知識、全球據點與領導地位，使我們成為藥品、生物科技與生命科學研究機構的可靠全球夥伴。截至2025年9月30日，我們在全球約僱用3,000名全職員工、兼職員工與臨時工，並在約95個國家有銷售業務。本公司總部設於馬薩諸塞州伯靈頓市，並在北美、亞洲與歐洲設有營運據點。",
+    "本公司於1978年成立，成為全球半導體製造業的領導自動化供應商與合作夥伴。我們於2022年2月出售最後一家半導體業務，獲取現金2.9十億美元，並自該時起專注於生命科學業務。2021年12月1日，我們將公司名稱從\"Brooks Automation, Inc.\"更名為\"Azenta, Inc.\"，並於納斯達克全球選選市場（Nasdaq Global Select Market）以符號\"AZTA\"開始交易。在財務年度2025的第一季，我們宣佈正在尋求出售B Medical Systems業務，該業務為位於盧森堡的醫療冷卻設備製造商與全球經銷商。此戰略行動旨在簡化我們的產品組合，並讓管理層專注於推動我們核心樣本管理解決方案與多組學業務的營收成長與獲利能力。B Medical Systems業務已根據美國通用會計準則（GAAP）歸類為待售資產與已終止營運。半導體自動化業務與B Medical Systems業務結果均已歸類為已終止營運，除非另有說明，本年度報告10-K文件中對我們業務的描述僅針對我們持續營運的部分。",
+    "我們的產品與服務組合包含由我們內部開發，以及透過收購取得的解決方案，旨在為客戶提供全面的能力，以應對樣本探索與管理、自動儲存與多組學的相關需求。我們持續透過研究與開發資源的專業知識，開發新的產品與服務，並提升現有與收購後的產品與服務。我們相信，我們的收購、投資與整合策略已使我們能加速內部開發，並大幅縮短生命科學解決方案的上市時間。",
+    "如需進一步瞭解我們的收購，請參閱本年度報告10-K文件中Part II, Item 8, \"財務報表與補充資料\"所包含的財務報表之附註4，商業組合。",
+    "我們的業務服務生命科學產業廣泛的終端市場，協助客戶推進療法的開發，以改善人們的生活並治療疾病。隨著生物製劑與個性化醫療的興起，生物樣本已成為藥物與療法開發成功的重要資產，正確管理與保護這些樣本對客戶至關重要。因此，我們相信有相當大的市場機會，提供全面的樣本管理與基因組解決方案。",
+    "自本世紀初成功繪製完整人類基因組以來，基因組服務市場已隨著生物藥物開發、個性化醫療與細胞與基因療法（CGT）的研究而成長。頂級的藥品與生物科技公司與機構可以利用其內部實驗室資源，進行數百萬基因的測序，作為其研究工作流程的一部分。然而，許多公司與機構則選擇將其基因測序全部或部分委外，交由提供快速結果與專業諮詢服務的獨立實驗室。我們作為價值增加的實驗室服務供應商參與此市場，提供高品質的遺傳測試服務，具有快速的處理時間與專業的客戶支援。",
+    "我們在全球約有14,000名客戶，並相信我們有優勢擴展客戶羣。我們服務頂級的藥品與生物科技公司、進行臨牀研究與療法開發的最先進研究醫院，以及部分最新且領先的生物科技新創公司。此外，我們也服務學術與政府機構。我們相信，以樣本為基礎的服務與產品業務將持續顯示成長趨勢。",
+    "我們的營運與應報告分部如下：",
+    "樣品管理解決方案。樣品管理解決方案業務資源運作為單一業務單位，提供端到端的樣品管理產品與服務，包括樣品倉庫服務，或 SRS，以及核心產品（自動化儲存設備、液氮冷凍系統、自動化樣品管、消耗品與儀器及控制速率解凍裝置）。",
+    "如需進一步瞭解我們的應報告分部與運營分部，請參閱本年度報告 10-K 表單中 Part II, Item 8, \"財務報表與補充資料\" 所包含的財務報表附註 18，段落與地理資訊。",
+    "在樣品管理解決方案分部內，我們運作為單一業務單位，提供端到端的樣品管理產品與服務，包括 SRS 與核心產品（自動化儲存設備、液氮冷凍系統、自動化樣品管、消耗品與儀器及控制速率解凍裝置）。此產品組合為客戶提供樣品在整個生命週期內的高品質、安全性、可取得性、智慧性與完整性，提供客戶完整的端到端 \"冷鏈保管\" 能力。我們也為客戶在實驗設計與實踐過程提供專家級的諮詢服務。",
+    "SRS – 我們的 SRS 服務包括完整的服務範疇，包含現場與非現場樣品儲存、冷鏈物流、樣品運輸與採集移動、生物處理解決方案（包含樣品準備與實驗室樣品分析）、災難復原與業務持續性、以及專案管理與諮詢。我們的資訊解決方案提供樣品智慧軟體解決方案，並支援生命科學工具與儀器工作單元的實驗室工作流程排程、樣品存貨與物流、環境與溫度監測、臨牀試驗與同意管理，以及計畫、資料管理、虛擬化與樣品集合的視覺化。我們為客戶提供增強的現場與非現場生物樣品存貨管理與整合解決方案，以應對其日益分散的工作流程。",
+    "自動化儲存設備 – 我們的自動化儲存設備產品包含可儲存超過 20 百萬樣品的獨立系統，溫度範圍從常溫至 -80°C。我們的自動化儲存設備具有獨特設計，可在 -80°C 進行受控溫度儲存，並擁有業界最高的樣品取用吞吐量。我們的自動化儲存設備提供高吞吐量能力，並優化多格式管與板的儲存，同時維持儲存樣品的溫度一致性。我們也提供一系列服務，以優化我們自動化儲存設備的生產力。",
+    "液氮冷凍系統 – 我們的液氮冷凍系統提供從高效能 LN2 蒸汽基冷凍冷凍櫃到完全自動化系統的冷凍儲存，以維護樣品完整性與冷鏈保管，以及儲存樣品所需的材料，以確保樣品在冷鏈每一步驟中安全。我們的液氮冷凍系統提供長期冷凍儲存，並具備精確的記錄與可靠的溫度控制，即使在運輸過程中也能保持穩定。這些系統結合了完善的樣品保護與全面的存貨管理，並提供優越的用戶體驗，使客戶能規劃可擴展的冷凍基礎設施，以維持品質與文件記錄。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'translated_text': '可能影響未來結果的因素'}",
+    "{'translated_text': '風險因素總覽'}",
+    "{'translated_text': '總體經濟與外部風險'}",
+    "{'translated_text': '與本公司營運相關的風險'}",
+    "{'translated_text': '與基因合成相關的風險'}",
+    "{'translated_text': '與網路安全及資料隱私權相關的風險'}",
+    "{'translated_text': '與地緣政治緊張與供應鏈相關的風險'}",
+    "{'translated_text': '與人工智慧相關的風險'}",
+    "智慧財產權相關風險",
+    "依賴第三方相關風險",
+    "客戶相關風險",
+    "持有本公司證券相關風險",
+    "總體經濟條件長時間惡化可能對本公司業務造成重大不利影響。",
+    "本公司面臨與公共衛生威脅及疫情相關的風險。",
+    "全球氣候變遷及相關法律與法規發展可能對本公司業務、財務狀況及營運成果造成負面影響。",
+    "本公司可能因環境、社會及治理（ESG）議題而受到負面影響。",
+    "本公司營運成果可能大幅波動，可能對本公司業務造成負面影響。",
+    "若本公司未能達成轉型計畫目標，財務成果可能受到負面影響。",
+    "本公司業務的全球性使其面臨多重風險。",
+    "若本公司未能充分整合已取得或可能取得之業務之運作，本公司業務可能受到重大損害。",
+    "在現有市場擴張可能引入新競爭者與商業風險。",
+    "關鍵人員變動可能影響本公司執行業務策略之能力。",
+    "未預見事件可能幹擾本公司樣本儲存運作，並對本公司聲譽及營運成果造成負面影響。",
+    "若本公司設施遭遇重大運作中斷，本公司業務可能受到重大損害，而未能準確預估客戶需求可能導致存貨過多或過時。",
+    "本公司的商譽及無形資產可能發生減值。",
+    "稅率或稅務規範的變動可能影響營運結果。",
+    "我們可能因相關管轄地區利潤不足而面臨NOL限制。",
+    "我們受許多政府規範所制約。",
+    "與衝突礦物相關的規範及客戶需求可能對我們產生不利影響。",
+    "本公司實際或被認為未符合資料保護法規，可能導致政府執法行動、私人訴訟及/或負面宣傳，並可能對本公司業務產生負面影響。"
+   ],
+   "paragraphs": [
+    "投資 Azenta 普通股涉及高度風險。您應仔細考慮下列風險與不確定性，並配合本年度報告表 10-K 中的其他資訊，包括我們的合併財務報表及相關附註，內容包含於第二部分，第 8 項「財務報表與補充資料」，以及第二部分，第 7 項「管理層對財務狀況與營運成果之分析」，再決定是否投資本公司普通股。下列所描述的風險對本公司業務為重大，可能對本公司業務、財務狀況或營運成果造成重大不利影響，並導致本公司普通股交易價格下跌。尚有其他未為本公司所知或目前認為不重要之風險，也可能影響本公司業務營運。",
+    "下列為可能對本公司業務、財務狀況或營運成果造成不利影響之重大風險總結。此總結應配合後續完整風險因素討論內容一併閱讀。",
+    "長時間經濟衰退、政府對科學研究經費減少、利率上升、通貨膨脹或其他總體經濟壓力，可能降低客戶採購，導致銷售額與現金流減少。",
+    "公共衛生威脅、疫情或大流行病可能幹擾營運、降低需求，或影響本公司履行義務之能力。",
+    "全球氣候變遷、環境法規或相關發展，可能提高成本、幹擾營運，或降低本公司產品與服務之需求。",
+    "貨幣兌換率波動可能影響外幣資產、降低毛利率，或要求提高價格導致銷售額減少。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

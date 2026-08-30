@@ -1,0 +1,114 @@
+{
+ "ticker": "SNFCA",
+ "cik": "0000318673",
+ "accession": "0001493152-26-010228",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "and Mortuary",
+    "Acquisitions and Other Business Activities",
+    "Capital Management"
+   ],
+   "paragraphs": [
+    "National Financial Corporation (the \"Company\") operates in three reportable business segments: life insurance, cemetery and",
+    "mortuary, and mortgages. The life insurance segment is engaged in the business of selling and servicing selected lines of life insurance,",
+    "annuity products, and accident and health insurance. These products are marketed in 42 states through a commissioned sales force of independent",
+    "licensed insurance agents who may also sell insurance products of other companies. The cemetery and mortuary segment consists of eleven",
+    "mortuaries and five cemeteries in the state of Utah, one cemetery in the state of California, and one cemetery and four mortuaries in",
+    "the state of New Mexico. The Company also engages in pre-need selling of funeral, cemetery, mortuary, and cremation services through",
+    "its cemetery and mortuary locations. The mortgage segment originates and underwrites or otherwise purchases residential and commercial",
+    "loans for new construction, existing homes, and other real estate projects. The mortgage segment operates through 85 retail offices in",
+    "25 states and is an approved mortgage lender in several other states. The",
+    "Company's design and structure are that each business segment is related to the other business segments and contributes to the",
+    "profitability of the other segments. The Company's cemetery and mortuary segment provides a level of public awareness that assists",
+    "in the sales and marketing of insurance and pre-need cemetery and funeral products. The Company's insurance segment invests its",
+    "assets (including, in part, pre-need funeral products and services) in investments authorized by the respective insurance departments",
+    "of their states of domicile. The Company also pursues growth through acquisitions. The Company's mortgage segment provides mortgage"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "7. Management's Discussion and Analysis of Financial Condition and Results of Operations",
+    "and Mortuary Operations",
+    "Accounting Policies and Estimates",
+    "of Consolidated Operations",
+    "Compared to 2024",
+    "and Capital Resources",
+    "Insurance Participation"
+   ],
+   "paragraphs": [
+    "Company's operations over the last several years generally reflect three strategies which the Company expects to continue: (i)",
+    "increased attention to \"niche\" insurance products, such as the Company's funeral plan policies and traditional whole",
+    "life products; (ii) increased emphasis on cemetery and mortuary business; and (iii) capitalizing on the housing market by originating",
+    "following table shows the condensed financial results for the Company's insurance operations for 2025, and 2024. See Note 20 of",
+    "the Notes to Consolidated Financial Statements. See Note 1 of the Notes to Consolidated Financial Statements regarding the adoption of",
+    "ASU 2018-12. Years ended December 31 (in thousands of dollars) 2025 2024 2025 vs 2024 % Increase (Decrease)",
+    "Revenues from external customers: Insurance premiums $ 119,757 $ 119,656 0 % Net investment income",
+    "76,379 68,255 12 % Gains on investments and other assets 3,229 2,055 57 % Other revenues 1,904",
+    "1,564 22 % Intersegment revenues 6,996 7,272 (4 )% Total segment revenues $ 208,265 $ 198,802",
+    "5 % Segment net earnings $ 29,439 $ 27,435 7 % Profitability",
+    "for 2025 increased due to (a) a $8,124,000 increase in net investment income, (b) a $1,174,000 increase in gains on investments and other",
+    "assets, (c) a $340,000 increase in other revenues, (d) a $219,000 decrease in intersegment expenses, and (e) a $101,000 increase in insurance",
+    "premiums and other considerations, which were partially offset by (i) a $6,134,000 increase in selling, general and administrative expenses,",
+    "(ii) a $711,000 increase in amortization of deferred policy acquisition costs, (iii) a $621,000 increase in income tax expense, (iv)"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "及殯儀館",
+    "併購及其他營業活動",
+    "資本運用"
+   ],
+   "paragraphs": [
+    "National Financial Corporation (the \"Company\") 從事三個應報告分部：人壽保險、墓園及殯葬服務，以及房貸。人壽保險分部從事銷售及服務特定類型的人壽保險業務，",
+    "以及相關服務。",
+    "{'original': 'annuity products, and accident and health insurance. These products are marketed in 42 states through a commissioned sales force of independent', 'translated': '年金產品，以及意外及健康保險。這些產品透過獨立的佣金銷售團隊，在42州進行行銷'}",
+    "{'original': 'licensed insurance agents who may also sell insurance products of other companies. The cemetery and mortuary segment consists of eleven', 'translated': '經許可的保險經紀人，可能同時銷售其他公司的保險產品。殯葬與殯儀業應報告分部包含十一個'}",
+    "在猶他州有殯儀館及五座墓園，在加州有一座墓園，且在新墨西哥州有一座墓園及四間殯儀館。本公司亦透過其墓園及殯儀館據點從事預先需求銷售，銷售喪葬、墓園、殯儀館及火葬相關服務。",
+    "房貸業務部門發放並承做或以其他方式購入住宅及商業貸款，用以資助新建房屋、現有住宅及其他不動產項目。房貸業務部門透過85間零售據點運作。",
+    "在猶他州有殯儀館及五座墓園，在加州有一座墓園，且在新墨西哥州有一座墓園及四間殯儀館。本公司亦透過其墓園及殯儀館據點從事預先需求銷售，銷售喪葬、墓園、殯儀館及火葬相關服務。",
+    "房貸業務部門發放並承做或以其他方式購入住宅及商業貸款，用以資助新建房屋、現有住宅及其他不動產項目。房貸業務部門透過85間零售據點運作。",
+    "25 美國州份，並在其他數個州份獲准成為房貸貸款機構。本公司之設計與結構為各業務分部之間相互關聯，並對其他業務分部之獲利有所貢獻。",
+    "本公司之墓園與殯儀館業務分部提供一定程度之公共認知，協助",
+    "其他業務分部之營運績效",
+    "在保險及預備喪葬與殯儀產品的銷售與行銷業務。本公司之保險業務部門投資其資產（包括部分預備喪葬產品與服務）於各州籍貫保險部門授權之投資項目。",
+    "本公司亦透過收購來追求成長。本公司之房貸業務部門提供房貸",
+    "相關服務"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'original': \"7. Management's Discussion and Analysis of Financial Condition and Results of Operations\", 'translated': '7. 管理層對財務狀況與營運成果之討論與分析'}",
+    "{'original': 'and Mortuary Operations', 'translated': '及殯葬業務'}",
+    "{'original': 'Accounting Policies and Estimates', 'translated': '會計政策與會計估計'}",
+    "整體營運狀況",
+    "與 2024 年比較",
+    "及資本資源",
+    "保險參與"
+   ],
+   "paragraphs": [
+    "本公司近年來的營運 generally reflect 三個策略，本公司預期將持續進行：(i)",
+    "加強對 \"niche\" 保險產品的關注，例如本公司的喪葬計畫保險及傳統終身壽險產品；(ii) 加強對墓園及殯儀館業務的重視；以及(iii) 透過發起房貸業務來利用房地產市場",
+    "下表顯示本公司保險業務於 2025 年及 2024 年的簡化財務結果。請參閱附註 20 的",
+    "following table shows the condensed financial results for the Company's insurance operations for 2025, and 2024. See Note 20 of",
+    "會計師核閱之合併財務會計資料。請參閱會計師核閱之合併財務會計資料之附註 1，關於採用 ASU 2018-12 之說明。",
+    "年度結算日為 12 月 31 日（以千美元為單位） 2025 2024 2025 與 2024 年之變動百分比（增加或減少）",
+    "來自外部客戶之營業收入：保險 premiums $ 119,757 $ 119,656 0 % 網路投資收入",
+    "76,379 68,255 12 % 投資及其它資產之獲利 3,229 2,055 57 % 其他收入 1,904",
+    "1,564 22 % 公司間收入 6,996 7,272 (4 )% 總分部收入 $ 208,265 $ 198,802",
+    "5 % 分部淨利潤 $ 29,439 $ 27,435 7 % 盈利能力",
+    "於 2025 年增加係因 (a) 網路投資收入增加 $8,124,000，(b) 投資及其它獲利增加 $1,174,000",
+    "資產, (c) 其他收入增加 340,000 美元, (d) 本部間費用減少 219,000 美元, 以及 (e) 保險費用增加 101,000 美元",
+    "premiums and other considerations, which were partially offset by (i) a 6,134,000 美元增加在銷售、一般及行政費用，",
+    "(ii) a 711,000 美元增加在遞延保單取得成本攤銷費用, (iii) a 621,000 美元增加在所得稅費用， (iv)"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

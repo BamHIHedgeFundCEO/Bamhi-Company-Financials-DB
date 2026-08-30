@@ -1,0 +1,71 @@
+{
+ "ticker": "SLSN",
+ "cik": "0000883107",
+ "accession": "0001999371-26-007345",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "mdna": {
+   "headings": [
+    "7. Management's Discussion and Analysis of Financial Condition and Results of Operations",
+    "Accounting Estimates",
+    "of Operations",
+    "Ended December 31, 2025 and 2024",
+    "Significant Customers",
+    "For the years ended",
+    "December 31,",
+    "and Capital Resources",
+    "For the year ended December 31,"
+   ],
+   "paragraphs": [
+    "following discussion and analysis should be read in conjunction with risks discussed in the financial statements and related notes",
+    "thereto appearing elsewhere in this Form 10-K. When used in the following discussions, the words \"anticipates,\" \"believes,\"",
+    "\"estimates,\" \"expects,\" \"plans,\" \"intends\" and similar expressions are intended",
+    "to identify forward-looking statements. Such statements are subject to certain risks, uncertainties and contingencies that could",
+    "cause actual results, performance or achievements to differ materially from those expressed in, or implied by, such statements.",
+    "See the \"Forward Looking Statements\" section in Part 1, Item 1, of this Form 10-K. Overview",
+    "is a health-oriented, science-driven company, focused on various skin health, beauty and wellness markets. Our primary skin health",
+    "products are fully developed prestige skin care formulations with mineral-based UV protection enabled by our proprietary Active",
+    "Pharmaceutical Ingredients (\"APIs\"), which are also marketed as APIs for sale to manufacturers of other types of skin",
+    "health products, including sunscreens and daily care products. Additionally, we continue to sell products in legacy markets",
+    "including medical diagnostics, architectural coatings, industrial coating applications, abrasion-resistant additives, and plastics",
+    "additives applications— all of which currently fall into the advanced materials product category.",
+    "monitors the value of inventory for the effects of aging, obsolescence, and seasonality. Consistent with the provisions in FASB",
+    "ASC 330-10-35, we adjust inventory valuation upon management's determination that the potential for obsolete materials exist."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "mdna": {
+   "headings": [
+    "7. 管理層對財務狀況與營運成果之討論與分析",
+    "會計估計",
+    "營運成果",
+    "截至 2025 年 12 月 31 日及 2024 年 12 月 31 日",
+    "重要客戶",
+    "截至各年 12 月 31 日",
+    "12 月 31 日",
+    "及資本資源",
+    "{'original': 'For the year ended December 31,', 'translated': '會計年度終了於 12 月 31 日,'}"
+   ],
+   "paragraphs": [
+    "下列討論與分析應與財務報表及相關附註中所討論之風險一併閱讀，該財務報表及相關附註出現於本 Form 10-K 其他處。",
+    "在後續討論中，用以表示「預期」、「認為」、「估計」、「預期」、「計畫」、「意圖」及類似詞彙，係用以標示前瞻性陳述。",
+    "此類陳述可能受某些風險、不確定性及意外事件影響，",
+    "而這些風險、不確定性及意外事件可能導致實際結果與預期結果有所差異。",
+    "實際結果、表現或成就可能與該等陳述所表達或暗示者有重大差異。",
+    "請參閱本 Form 10-K 第一部分第 1 項之 \"Forward Looking Statements\" 節。",
+    "為一以健康為導向、科學為驅動力之公司，專注於多種皮膚健康、美容與 wellness 市場。我們主要之皮膚健康產品為完整發展之高階皮膚護理配方，其具礦物基質紫外線防護功能，係透過我們專利之 Active 技術所實現。",
+    "產品為完整發展之高階皮膚護理配方，其具礦物基質紫外線防護功能，係透過我們專利之 Active 技術所實現。",
+    "藥物活性成分（\"APIs\"），亦以 API 名稱銷售給其他類型皮膚健康產品製造商",
+    "包括防曬產品及日常護理產品。此外，我們持續在傳統市場銷售產品",
+    "包括醫療診斷、建築塗料、工業塗料應用、耐磨耗添加劑及塑膠",
+    "添加劑應用—所有這些目前均屬於高階材料產品類別。",
+    "監測存貨價值受老化、過時及季節性影響的情形。依循 FASB ASC 330-10-35 的規定，本公司在管理層判斷可能有過時材料時，會調整存貨價值。",
+    "監測存貨價值受老化、過時及季節性影響的情形。依循 FASB ASC 330-10-35 的規定，本公司在管理層判斷可能有過時材料時，會調整存貨價值。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,207 @@
+{
+ "ticker": "SLAB",
+ "cik": "0001038074",
+ "accession": "0001038074-26-000005",
+ "form": "10-K",
+ "reportDate": "2026-01-03",
+ "sections": {
+  "business": {
+   "headings": [
+    "Pending Merger with Texas Instruments",
+    "Industry Background",
+    "Target Market Applications",
+    "Industrial & Commercial",
+    "Customers, Sales and Marketing",
+    "Research and Development",
+    "Manufacturing",
+    "Intellectual Property",
+    "Human Capital",
+    "Corporate Sustainability",
+    "Governmental Regulations",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Silicon Laboratories Inc. is a leader in secure, intelligent wireless technology for a more connected world. Our integrated hardware and software platforms, intuitive development tools, industry-leading ecosystem, and robust support help customers build advanced devices for industrial, commercial, home, and life applications. We make it easy for developers to solve complex wireless challenges throughout the product lifecycle and get to market quickly with innovative solutions that transform industries, grow economies, and improve lives.",
+    "We are pioneers in wireless innovation and have spent over two decades simplifying the complexity of radio frequency (\"RF\") from silicon to cloud. Our leading platform, purpose-built for the Internet of Things (\"IoT\"), helps customers quickly create secure, intelligent, wireless connected devices. Our team and technology assist customers in solving development challenges, including energy efficiency, to build connected devices for applications that support better health, innovative infrastructure, and sustainable cities.",
+    "Our semiconductor devices leverage standard complementary metal oxide semiconductor (\"CMOS\"), a low-cost, widely available process technology. CMOS technology enables smaller, more cost-effective, and energy-efficient solutions. Our software expertise allows us to develop products for markets where intelligent data capture, high-performance processing, and communication are increasingly important product differentiators. We also focus design and engineering efforts on technologies that simplify and accelerate customer adoption of security features engineered into our silicon chips. Our expertise in analog-intensive, mixed-signal integrated chip (\"IC\") design in CMOS, as well as in software development allows us to create new and innovative products that are highly integrated and secure, simplifying our customers' designs and improving their time-to-market.",
+    "On February 4, 2026, we entered into an Agreement and Plan of Merger (the \"Merger Agreement\") with Texas Instruments Incorporated, a Delaware corporation (\"Parent\"), and Caldwell Merger Corp., a Delaware corporation and wholly-owned direct subsidiary of Parent (\"Merger Subsidiary\"), pursuant to which Merger Subsidiary will merge with and into Silicon Laboratories Inc. (the \"Merger\"), and we will survive the Merger as a wholly-owned direct subsidiary of Parent. At the effective time of the Merger, each share of our common stock outstanding as of immediately prior to the effective time (other than dissenting shares or any shares of our common stock held by us as treasury stock or owned by Parent or any of our or Parent's subsidiaries) will be cancelled and converted into the right to receive $231.00 in cash, without interest. The transactions contemplated by the Merger Agreement were unanimously approved by our board of directors, and the Merger is expected to close in the first half of 2027, subject to customary closing conditions, including approval by our stockholders and the receipt of required regulatory approvals.",
+    "The Internet of Things is about connecting embedded applications to the Internet. The phrase IoT describes the myriad of smart, connected devices that surround us today, deployed in a variety of home, life, commercial, and industrial applications. When MIT's Kevin Ashton first used the phrase in 1999, he was promoting the possibilities of RFID, but today, the IoT describes an impressive array of devices and capabilities. Machine learning is bringing greater intelligence to the edge on battery-powered devices. The IoT is monitoring patients' health 24/7 to send rich data to doctors miles away. Smart, connected devices detect water leaks to improve sustainability. It's an industry of variety and impact. Whether in a door lock or a heart monitor, a smart home thermostat, or a municipal energy grid, our solutions are improving life and the planet's sustainability.",
+    "The IoT requires interaction between the analog world we live in and the digital world of computing, which drives the need for analog-intensive, mixed-signal circuits in a wide range of electronic products. Traditional mixed-signal designs relied upon solutions built with numerous, complex discrete analog and digital components. While these traditional designs provide the required functionality, they are often inefficient and inadequate for use in markets where size, cost, power consumption, performance, and security are increasingly important product differentiators. To improve their competitive position, electronics manufacturers must reduce the cost and complexity of their systems and enable new features or functionality to differentiate themselves from their competitors.",
+    "Simultaneously, these manufacturers face accelerating time-to-market demands and must rapidly adapt to evolving industry standards and new technologies. Because analog-intensive, mixed-signal design expertise is difficult to find, these manufacturers increasingly are turning to third parties, like us, to provide advanced mixed-signal solutions. Mixed-signal design requires specific expertise and relies on creative, experienced engineers to deliver solutions that optimize speed, power, and performance despite the noisy digital environment and within the constraints of standard manufacturing processes. The development of this design expertise typically requires years of practical analog design experience under the guidance of a senior engineer, and engineers with the required level of skill and expertise are in short supply.",
+    "Many IC solution providers lack sufficient analog expertise to develop compelling mixed-signal products. As a result, manufacturers of electronic devices value providers that can supply them with mixed-signal solutions offering greater functionality, smaller size, and lower power requirements at a reduced cost and shorter time-to-market. We have the breadth in our portfolio, depth of wireless connectivity expertise, and the focus on IoT to help our customers quickly bring their innovative ideas to market.",
+    "We provide analog-intensive, mixed-signal solutions for use in a variety of electronic products in a broad range of applications for the IoT. We have built a leading wireless development platform and product portfolio for the IoT based on Bluetooth®, sub-GHz proprietary technologies, Wi - SUN, Thread, Wi-Fi®, Zigbee®, and Z-Wave®. Our products integrate complex mixed-signal functions that are frequently performed by numerous discrete components in competing products into a single chip, chipset or system-on-chip (\"SoC\"). By doing so, we create products that, when compared to many competing products, offer the following benefits:",
+    "•Require less printed circuit board (\"PCB\") space; •Reduce the use of external components lowering the system cost and simplifying design;",
+    "•Offer superior performance improving our customers' end products; •Provide increased reliability and manufacturability, improving customer yields; and/or",
+    "•Reduce system power requirements enabling smaller form factors and/or longer battery life.",
+    "We have continued to diversify our product portfolio and introduce new products and solutions through both organic investment and acquisitions. The life cycles of our products are relatively long, given the amount of effort and time required in the design-in process for our customers.",
+    "Revenues during fiscal 2025, 2024 and 2023 were generated predominately by sales of our mixed-signal products. The following summarizes the products that we have introduced to customers:"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Summary",
+    "Risks Related to the Proposed Merger",
+    "Global Business Risks",
+    "Intellectual Property Risks",
+    "Liquidity and Credit Risks",
+    "Stock and Governance Risks",
+    "Risk Factors",
+    "We may not complete the proposed Merger within the time frame we anticipate, or at all, which could have an adverse effect on our business, financial condition, results of operations, cash flows and stock price",
+    "Uncertainties associated with the Merger could adversely affect our business, results of operations, cash flows and financial condition",
+    "The Merger Agreement contains provisions that limit our ability to pursue alternatives to the Merger and that could deter or discourage a competing acquirer from making a favorable alternative transaction proposal",
+    "While the Merger Agreement is in effect, we are subject to restrictions on our business activities",
+    "Lawsuits may arise in connection with the Merger, which could delay or prevent completion of the Merger and adversely affect our business, results of operations, cash flows and financial condition",
+    "We may be the victim of business disruptions and security breaches, including cyber-attacks, which could lead to liability or could damage our reputation and financial results",
+    "We may be subject to information technology failures that could damage our reputation, business operations and financial condition",
+    "Competition within the numerous markets we target may reduce sales of our products and reduce our market share",
+    "If we are unable to develop or acquire new and enhanced products that achieve market acceptance in a timely manner, our operating results and competitive position could be harmed",
+    "We have limited resources compared to some of our current and potential competitors and we may not be able to compete effectively and increase market share",
+    "Our business, financial condition, and results of operations could be materially and adversely affected by tariffs, trade restrictions, and other barriers to international trade",
+    "We rely on third parties to manufacture, assemble and test our products, which subjects us to risks of disruptions in our supply chain",
+    "We are a global company, which subjects us to additional business risks including logistical and financial complexity, supply disruption, political instability and currency fluctuations",
+    "We are subject to the cyclical nature of the semiconductor industry, which has been subject to significant fluctuations",
+    "We may not be able to maintain our historical growth and may experience significant period-to-period fluctuations in our revenues and operating results, which may result in volatility in our stock price",
+    "Our inability to manage growth could materially and adversely affect our business",
+    "Any acquisitions we make could disrupt our business and harm our financial condition",
+    "The average selling prices of our products could decrease rapidly which may negatively impact our revenues and gross profit",
+    "Failure to manage our distribution channel relationships could impede our future growth",
+    "We do not have long-term commitments from our customers"
+   ],
+   "paragraphs": [
+    "•We may not complete the proposed Merger within the time frame we anticipate, or at all, which could have an adverse effect on our business, financial condition, results of operations, cash flows and stock price",
+    "•Uncertainties associated with the Merger could adversely affect our business, results of operations, cash flows and financial condition",
+    "•The Merger Agreement contains provisions that limit our ability to pursue alternatives to the Merger and that could deter or discourage a competing acquirer from making a favorable alternative transaction proposal",
+    "•While the Merger Agreement is in effect, we are subject to restrictions on our business activities",
+    "•Lawsuits may arise in connection with the Merger, which could delay or prevent completion of the Merger and adversely affect our business, results of operations, cash flows and financial condition",
+    "•We may be the victim of business disruptions and security breaches, including cyber-attacks, which could lead to liability or could damage our reputation and financial results"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Recent Developments",
+    "Impact of Macroeconomic Conditions",
+    "Current Period Highlights",
+    "Results of Operations",
+    "Comparison of Fiscal 2025 to Fiscal 2024",
+    "(in millions) 2025 2024 Change % Change",
+    "Gross Profit",
+    "(in millions) 2025 2024 Change",
+    "Research and Development",
+    "Selling, General and Administrative",
+    "Interest Income and Other, Net",
+    "Interest Expense",
+    "Provision for Income Taxes",
+    "Liquidity and Capital Resources",
+    "Comparison of Fiscal 2024 to Fiscal 2023",
+    "Critical Accounting Estimates",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "As announced on February 4, 2026, we entered into an Agreement and Plan of Merger (the \"Merger Agreement\") with Texas Instruments Incorporated (\"Parent\") and Caldwell Merger Corp., a wholly-owned direct subsidiary of Parent (\"Merger Subsidiary\"), pursuant to which Merger Subsidiary will merge with and into Silicon Laboratories Inc. (the \"Merger\"), and we will survive the Merger as a wholly-owned direct subsidiary of Parent. At the effective time of the Merger, each share of our common stock outstanding as of immediately prior to the effective time (other than dissenting shares or any shares of our common stock held by us as treasury stock or owned by Parent or any of our or Parent's subsidiaries) will be cancelled and converted into the right to receive $231.00 in cash, without interest. The transactions contemplated by the Merger Agreement were unanimously approved by our board of directors, and the Merger is expected to close in the first half of 2027, subject to customary closing conditions, including approval by our stockholders and the receipt of required regulatory approvals.",
+    "In connection with the proposed Merger, we have incurred significant costs in the first quarter of fiscal 2026 and expect to continue to incur financial advisory, legal, accounting, and other professional fees prior to the completion of the Merger, which could be significant."
+   ],
+   "focus": "Recent Developments"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "待合併與德州儀器",
+    "產業背景",
+    "目標市場應用",
+    "工業及商業",
+    "客戶、銷售與行銷",
+    "研究與發展",
+    "製造",
+    "智慧財產權",
+    "{'Human Capital': '人力資本'}",
+    "{'Corporate Sustainability': '企業永續發展'}",
+    "{'Governmental Regulations': '政府法規'}",
+    "{'Available Information': '可供查閱資訊'}"
+   ],
+   "paragraphs": [
+    "Silicon Laboratories Inc. 是在安全、智慧無線技術領域的領導者，致力於打造更連結的世界。我們整合的硬體與軟體平台、直覺的開發工具、行業領先的生態系統以及強大的支援，協助客戶開發用於工業、商業、家庭及生活應用的先進裝置。我們讓開發者能輕鬆解決產品生命週期中複雜的無線挑戰，並透過創新解決方案快速上市，轉型產業、成長經濟並改善生活。",
+    "我們是無線創新領域的先驅，已投入超過二十年的時間簡化從晶片到雲端的無線頻率（\"RF\"）複雜性。我們專為物聯網（\"IoT\"）設計的領先平台，協助客戶快速開發安全、智慧、無線連線的裝置。我們的團隊與技術協助客戶解決開發挑戰，包括能源效率，以建立支援更健康、創新基礎建設與永續城市的連線裝置。",
+    "我們的半導體裝置利用標準的補償金屬氧化物半導體（\"CMOS\"）技術，這是一種低成本、廣泛可用的製程技術。CMOS 技術使解決方案更小、更具成本效益且更節能。我們的軟體專業知識使我們能開發產品，用於需要智慧資料擷取、高性能處理與通訊的市場，這些已成為越來越重要的產品區隔。我們也專注於設計與工程努力，簡化並加速客戶採用我們晶片中工程的保安功能。我們在類比密集型、混合訊號整合晶片（\"IC\"）設計於 CMOS，以及軟體開發方面的專業知識，使我們能創造新穎且創新產品，這些產品高度整合且安全，簡化客戶的設計並改善他們的上市時間。",
+    "2026 年 2 月 4 日，我們與德州儀器股份有限公司（\"Parent\"），一家特拉華州公司，以及 Caldwell Merger Corp.，一家特拉華州公司且為 Parent 的 wholly-owned 直屬子公司（\"Merger Subsidiary\"）簽訂了合併協議（\"Merger Agreement\"），根據該協議，Merger Subsidiary 將與 Silicon Laboratories Inc.（\"Merger\"）合併，我們將在合併後作為 Parent 的 wholly-owned 直屬子公司存續。在合併生效時間，我們所有在生效時間前（不包括反對股權或我們持有的庫藏股或由 Parent 或其任何子公司持有的股權）發行的普通股將被取消並轉換為獲取現金 231.00 美元之權利，不計利息。合併協議所預期的交易已獲我們董事會一致批准，且預計於 2027 年上半年完成，以符合常見的關閉條件，包括股東批准及取得必要的監管許可。",
+    "物聯網（IoT）是關於將嵌入式應用與互聯網連接。IoT 這個詞描述了我們今天周圍的各種智慧、連線裝置，應用於多種家庭、生活、商業及工業應用。當 MIT 的 Kevin Ashton 在 1999 年首次使用這個詞時，他是在推廣 RFID 的可能性，但如今，IoT 描述了令人驚嘆的裝置與功能組合。機器學習正在為電池供電的裝置帶來更高的智慧。IoT 正在監測病患的健康狀況 24/7，並將豐富的資料傳送給遠處的醫生。智慧、連線裝置能偵測水漏，以改善永續性。這是一個多樣且影響力強大的產業。無論是門鎖或心電圖監測器，智慧家庭溫控器或市政能源電網，我們的解決方案都在改善生活與地球的永續性。",
+    "IoT 需要互動於我們生活的類比世界與計算的數位世界，這驅動了在廣泛電子產品中對類比密集型、混合訊號電路的需求。傳統的混合訊號設計依賴於由許多複雜的離散類比與數位元件組成的解決方案。雖然這些傳統設計能提供所需的功能，但它們往往效率低下且不適合用於市場中尺寸、成本、電力消耗、性能與安全越來越重要的產品區隔。為提高競爭優勢，電子製造商必須降低系統的成本與複雜度，並啟用新功能或功能以與競爭對手區隔。",
+    "同時，這些製造商面臨加速上市時間的壓力，必須迅速適應不斷演進的產業標準與新技術。由於類比密集型、混合訊號設計專業知識難以尋找，這些製造商越來越依賴第三方，如我們，來提供先進的混合訊號解決方案。混合訊號設計需要特定的專業知識，並依賴具創造力與經驗的工程師來交付解決方案，以在噪聲數位環境中優化速度、電力與性能，並在標準製造流程的限制內達成目標。這類設計專業知識的發展通常需要多年實務類比設計經驗，並在高階工程師指導下進行，而具備所需技能與專業知識的工程師供應嚴重不足。",
+    "許多 IC 解決方案供應商缺乏足夠的類比專業知識，以開發有吸引力的混合訊號產品。因此，電子裝置製造商看重能提供混合訊號解決方案的供應商，這些解決方案能提供更高的功能、更小的尺寸、更低的電力需求，並以更低的成本與更短的上市時間。我們擁有廣泛的產品組合、深厚的無線連接專業知識，以及對 IoT 的專注，協助客戶快速將創新想法推向市場。",
+    "本公司提供類比密集型、混合訊號解決方案，用於各種電子產品在廣泛應用的物聯網（IoT）領域。本公司已建立基於藍牙®、次GHz自有技術、Wi-SUN、Thread、Wi-Fi®、Zigbee®及Z-Wave®的物聯網（IoT）領先無線開發平台與產品組合。本公司產品將經常由競爭產品中許多離散零組件執行的複雜混合訊號功能，整合至單一晶片、晶片組或系統晶片（\"SoC\"）。透過此方式，本公司創造出的產品，與許多競爭產品相比，提供以下優勢：",
+    "• 需要較少的印刷電路板（\"PCB\"）空間； • 減少外部零組件的使用，降低系統成本並簡化設計；",
+    "• 提供優越的性能，提升客戶的終端產品； • 提供更高的可靠度與製造性，提高客戶良率；以及/或",
+    "• 減少系統功耗需求，使產品具更小的體積及/或更長的電池壽命。",
+    "本公司持續透過內生投資與收購，來擴展產品組合並推出新產品與解決方案。由於客戶設計入（design-in）過程所需的努力與時間，本公司產品的生命週期相對較長。",
+    "財務年度2025、2024及2023的收入，主要來自本公司混合訊號產品的銷售。以下為本公司已推出並提供給客戶的產品總結："
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "近期發展",
+    "總體經濟條件的影響",
+    "本期重點",
+    "營運成果",
+    "會計年度2025與會計年度2024比較",
+    "(以千萬為單位) 2025 2024 變動 % 變動",
+    "毛利",
+    "(以千萬為單位) 2025 2024 變動",
+    "研究與發展",
+    "銷售、一般及行政費用",
+    "利息收入及其他，淨額",
+    "利息支出",
+    "所得稅費用",
+    "流動性及資本資源",
+    "財務年度2024與財務年度2023之比較",
+    "關鍵會計估計",
+    "最近會計準則公告"
+   ],
+   "paragraphs": [
+    "如於2026年2月4日所公告，本公司已與德州儀器股份有限公司（\"母公司\"）及Caldwell Merger Corp.（為母公司之 wholly-owned direct subsidiary，\"合併子公司\"）簽訂合併協議與合併計畫（\"合併協議\"），根據該協議，合併子公司將與Silicon Laboratories Inc.合併，本公司將在合併後作為母公司之 wholly-owned direct subsidiary 繼續存續。於合併生效時，本公司所有在生效時點前發行在外之普通股（不包括反對股或本公司持有之庫藏股或母公司或其子公司所持有之本公司普通股）將被取消並轉換為取得現金$231.00之權利，不計利息。合併協議所預期之交易已獲本公司董事會一致批准，預計於2027年上半年完成合併，但需符合常見之關閉條件，包括股東批准及取得必要之監管許可。",
+    "配合預期之合併，本公司於財務年度2026年第一季已產生重大成本，並預期在合併完成前持續產生財務顧問、法律、會計及其他專業費用，該費用可能相當重大。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與建議合併有關的風險",
+    "全球業務風險",
+    "智慧財產權風險",
+    "流動性及信貸風險",
+    "股票與治理風險",
+    "風險因素",
+    "我們可能無法在預期時間內完成建議的合併，或根本無法完成，這可能會對我們的業務、財務狀況、營運成果、現金流及股票價格產生不利影響",
+    "與合併相關的不確定性可能會對我們的業務、營運結果、現金流量及財務狀況產生負面影響",
+    "合併協議包含限制我們追求合併替代方案的條款，且可能阻止或嚇退競爭對手提出有利的替代交易方案",
+    "在合併協議生效期間，我們的業務活動受到限制",
+    "與合併相關的訴訟可能會導致合併延誤或無法完成，並對我們的業務、營運結果、現金流量及財務狀況產生負面影響",
+    "我們可能成為業務中斷及安全事件的受害者，包括網路攻擊，這可能會導致我們負擔責任，或損害我們的聲譽及財務結果",
+    "我們可能面臨資訊科技系統故障，這可能會損害我們的聲譽、業務營運及財務狀況",
+    "我們所針對的眾多市場中的競爭可能會降低我們產品的銷售量及市場佔有率",
+    "如果我們無法及時開發或取得獲得市場接受的新產品與增強型產品，我們的營運結果及競爭地位可能會受到損害",
+    "我們的資源較一些現有及潛在競爭對手有限，我們可能無法有效地競爭並增加市場佔有率",
+    "我們的業務、財務狀況及營運成果可能因關稅、貿易限制及其他國際貿易障礙而受到重大且不利的影響",
+    "我們依賴第三方製造、組裝及測試我們的產品，這使我們面臨供應鏈中斷的風險",
+    "我們是一家全球性公司，這使我們面臨額外的業務風險，包括物流及財務複雜性、供應中斷、政治不穩定及貨幣波動",
+    "我們受到半導體產業週期性特質的影響，而該產業已歷經顯著的波動",
+    "我們可能無法維持歷史上的成長，並可能經歷營收及營運成果在不同期間的重大波動，這可能導致我們股票價格的波動",
+    "我們若無法管理成長，可能對我們的業務造成重大且不利的影響",
+    "我們進行的任何併購都可能幹擾我們的業務，並損害我們的財務狀況",
+    "我們產品的平均售價可能迅速下降，這可能會對我們的營業收入及毛利率產生負面影響",
+    "未能管理我們的通路渠道關係，可能阻礙我們未來的成長",
+    "我們與客戶之間沒有長期的承諾"
+   ],
+   "paragraphs": [
+    "•我們可能無法在預期的時間內完成所建議的合併，或根本無法完成，這可能會對我們的業務、財務狀況、營運結果、現金流及股票價格產生不利影響",
+    "•與合併相關的不確定性可能會對我們的業務、營運結果、現金流及財務狀況產生不利影響",
+    "•合併協議包含限制我們追求合併替代方案的條款，且這些條款可能會阻卻或抑制競爭買家提出有利的替代交易提案",
+    "•在合併協議生效期間，我們的業務活動受到限制",
+    "•與合併相關的訴訟可能會導致合併延宕或無法完成，並對我們的業務、營運結果、現金流及財務狀況產生不利影響",
+    "•我們可能成為業務中斷及安全事件的受害者，包括網路攻擊，這可能會導致我們負起責任，或損害我們的聲譽及財務結果"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

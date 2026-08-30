@@ -1,0 +1,185 @@
+{
+ "ticker": "NVCT",
+ "cik": "0001875558",
+ "accession": "0001104659-26-013044",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Scientific Background",
+    "NXP900's Novel Mechanism of Action",
+    "NXP900 License Agreement",
+    "NXP800 License Agreement",
+    "Supply and Manufacturing",
+    "Preclinical and clinical trials for drugs",
+    "Expedited development and review programs",
+    "Other regulatory matters",
+    "Other healthcare laws",
+    "Current and future healthcare reform legislation",
+    "Other U.S. environmental, health and safety laws and regulations",
+    "Government regulation of drugs outside of the United States"
+   ],
+   "paragraphs": [
+    "We are a clinical-stage biopharmaceutical company focused on the development of innovative precision medicines for the treatment of serious conditions of unmet medical need in oncology. We seek to develop drug candidates in the precision medicine space, and our processes for selection and clinical development of drug candidates are based on scientific data into cancer-promoting factors, as well as our understanding of the clinical landscape and regulatory requirements.",
+    "We were incorporated in July 2020 under the laws of the State of Delaware under the name Centry Pharma, Inc., and changed our name to Nuvectis Pharma, Inc. in July 2021. Our office is located at 1 Bridge Plaza, 2nd Floor, Fort Lee, NJ 07024, and our telephone number is (201) 614-3150.",
+    "We maintain a website with the address www.nuvectis.com. We make available free of charge through our website our annual reports on Form 10-K, quarterly reports on Form 10-Q and current reports on Form 8-K, and any amendments to these reports, as soon as reasonably practicable after we electronically file such material with, or furnish such material to, the Securities and Exchange Commission (\"SEC\"). We are not including the information on our website as a part of, nor incorporating it by reference into, this report. Additionally, the SEC maintains a website that contains annual, quarterly, and current reports, proxy statements, and other information that issuers (including us) file electronically with the SEC. The SEC's website address is http://www.sec.gov.",
+    "In August 2021, we licensed worldwide commercial rights to NXP900 from the University of Edinburgh in Scotland. NXP900 is a targeted-therapy, small molecule drug candidate that inhibits the proto-oncogene c-Src (\"SRC\") and YES1 kinases, the key members of the SRC kinase family. In May 2023, we announced the Investigational New Drug application (\"IND\") was cleared by the U.S. Food and Drug Administration (\"FDA\") which included a Phase 1 protocol and comprised of two parts: a dose-escalation Phase 1a and an expansion Phase 1b. In July 2025, we announced the completion of the Phase 1a part of the clinical trial in which we evaluated the safety, tolerability and pharmacokinetic properties of NXP900 in patients with advanced solid tumors to identify potential doses and dosing schedules for the Phase 1b. In this Phase 1a portion of the study, a dose range of 20 to 300 mg/day was evaluated, and the dose-limiting toxicity level was not reached in that dose range. The most common treatment emergent adverse events were primarily gastrointestinal-related and were mild to moderate in intensity. Systemic exposure to NXP900 increased with higher doses, and a robust pharmacodynamic response of approximately 90% inhibition of SRC kinase phosphorylation was elicited at doses of 150 mg/day and higher, suggesting a potentially wide therapeutic window. The results of the Phase 1a study support once-daily oral dosing of NXP900. In August 2025, we announced the initiation of the Phase 1b expansion portion of the study. The ongoing Phase 1b study will evaluate the safety, tolerability and preliminary efficacy of NXP900 both as a single agent targeting specific tumor types and in combination with market-leading epidermal growth factor receptor (\"EGFR\") and anaplastic lymphoma kinase (\"ALK\") inhibitors.",
+    "In July 2025, in advance of exploring combinations of NXP900 with EGFR and ALK inhibitors, we announced the completion and topline results from our clinical drug-drug interaction (\"DDI\") study in healthy volunteers. The NXP900 DDI study was conducted to evaluate the potential of NXP900 to induce the activity of cytochrome P450 enzyme CYP3A, which showed NXP900's effect on the CYP3A enzyme is classified as a weak inhibitor according to the International Council for Harmonization M12 guidelines. There were no serious or severe adverse events reported in the DDI study. Diarrhea and non-infection related increases in white blood cell counts were the most common adverse events reported, all mild to moderate in intensity.",
+    "SRC is aberrantly activated in many cancer types, including solid tumor cancers such as breast, colon, prostate, pancreatic and ovarian cancers, while remaining predominantly inactive in non-cancerous cells. Increased SRC activity is generally associated with late-stage cancers with metastatic potential and resistance to therapies and correlates with poor clinical prognosis. To date, no kinase inhibitor has been approved for the treatment of SRC-active solid tumor malignancies.",
+    "YES1 is a nonreceptor tyrosine kinase that belongs to the SRC family of kinases and controls multiple cancer signaling pathways. YES1 is amplified and overexpressed in many tumor types, where it promotes cell proliferation, survival, and invasiveness. In addition, YES1 directly phosphorylates and activates yes-associated protein 1 (\"YAP1\"), the main effector of the Hippo pathway, which has been identified as a promoter of drug resistance, cancer progression, and metastasis in several cancer types, including squamous cell, mesothelioma and papillary kidney cancers.",
+    "SRC pathway activation is regulated by a switch between inactive and active conformations. The inactive conformation of SRC family kinases is associated with the lack of membrane binding, the lack of phosphorylation of the activation loop, and is characterized by a \"closed conformation.\" The active \"open\" conformation allows for the binding of SRC to signaling partners and enables full activation of the pathway via SRC's kinase catalytic activity and the scaffolding property.",
+    "NXP900 is a targeted therapy that inhibits the SRC and YES1 kinases. Unlike the approved and clinical-stage kinase inhibitors that inhibit only the catalytic (enzymatic) activity of SRC, NXP900 induces and locks SRC in its native inactive conformation, therefore inhibiting both the catalytic and scaffolding functions of the kinase, thus preventing phosphorylation and complex formation with its primary partners. NXP900 is also highly selective, a property typically associated with an improved therapeutic window.",
+    "In vivo, treatment with NXP900 inhibited primary and metastatic tumor growth in xenograft models of breast, esophageal, head and neck cancers and medulloblastoma, and demonstrated on-target pharmacodynamic effects. Moreover, publications in the scientific literature have outlined opportunities to potentially reverse resistance to osimertinib (active ingredient of Tagrisso®) in non-small cell lung cancer and enzalutamide (active ingredient of Xtandi®) in metastatic, castration resistant prostate cancer, in combination with these agents, further validating the potential importance of NXP900's key targets, YES1 and SRC kinases, in these disease settings.",
+    "Gene amplification of the site containing the YES1 gene has been reported in clinical samples in several tumors including lung, head and neck, bladder and esophageal cancers. YES1-dependent oncogenic transformation has also been reported, suggesting that YES1 may play a key role in these solid tumors. The transforming ability of YES1 has been demonstrated via several experimental methods, for example down-regulating YES1 by short hairpin RNA (shRNA) significantly inhibited cell growth in several malignancies, including colon carcinoma, rhabdomyosarcoma, and basal-like breast cancer suggesting YES1 may play a key role in these solid tumors. Furthermore, it has been found that YES1 gene amplification is a mechanism of resistance to EGFR, ALK and human epidermal growth factor receptor 2 (\"HER2\") inhibitors.",
+    "There are no FDA-approved selective YES1 inhibitors. We plan to conduct additional in vivo studies to better understand the effects of YES1 inhibition in solid tumors driven by YES1 overexpression or gene amplification.",
+    "We have a mission-driven strategy to build a global biopharmaceutical company through the identification, licensing, development, and commercialization of therapeutics intended to address serious conditions of unmet medical needs. The key elements driving our business strategy include:",
+    "● developing NXP900 as a potential differentiated YES1/SRC kinase inhibitor with improved therapeutic activity in solid tumors and advancing it through clinical development towards regulatory approval;"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Finances and Capital Requirements",
+    "Our limited operating history may make it difficult for you to evaluate the success of our business to date and to assess our future viability.",
+    "We have incurred losses since inception and anticipate that we will continue to incur losses for the foreseeable future. We may never achieve or maintain profitability.",
+    "Tariffs and other trade measures could adversely affect our business, results of operations, financial position and cash flows.",
+    "Risks Related to the Development of our Product Candidates",
+    "Our development approach may never lead to marketable products.",
+    "Difficulty in enrolling patients could delay or prevent clinical trials of our current or future product candidates.",
+    "The FDA and comparable foreign regulatory authorities may not accept data from any preclinical or clinical trials we may conduct in foreign countries.",
+    "We may not be able to submit IND applications to commence additional clinical trials based on the timelines that we expect, and even if we are able to do so, the FDA may not permit us to proceed.",
+    "We face substantial competition, which may result in others discovering, developing or commercializing products before or more successfully than we do.",
+    "Risks Related to Government Regulation",
+    "Denial of or delay in our receipt of required regulatory approvals may prevent or delay commercialization of our current or future product candidates and our ability to generate revenue may be materially impaired.",
+    "A variety of risks associated with marketing our current or future product candidates internationally could materially adversely affect our business."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. You should consider carefully the risks and uncertainties described below, together with all of the other information in this report, including the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and our financial statements and related notes, before making a decision to invest in our common stock. Our business, results of operations, financial condition and prospects could also be harmed by risks and uncertainties that are not presently known to us or that we currently believe are not material. If any of the risks actually occur, our business, platform, reputation, brand, results of operations, financial condition and prospects could be materially and adversely affected. In such event, the market price of our common stock could decline, and you could lose all or part of your investment.",
+    "We are a clinical-stage biopharmaceutical company with a limited operating history. We were incorporated in Delaware in July 2020, and our operations to date have been limited to organizing and staffing our company, business planning, raising capital, identifying, investigating, licensing and evaluating potential product candidates, establishing arrangements with third parties for the manufacture of initial quantities of our lead product candidate and component materials, and conducting research and development activities. Two of our product candidates have reached early clinical development, one of which is in active development. We have not yet demonstrated our ability to successfully conduct or complete any clinical development program for our drug candidates, obtain marketing approvals, manufacture a commercial-scale product or arrange for a third party to do so on our behalf, or conduct sales, marketing and distribution activities necessary for successful product commercialization. Consequently, any predictions about our future success or viability may not be accurate.",
+    "We may need to transition at some point in time from a company with a research and development focus to a company capable of supporting commercial activities related to the full product life cycle. We may not be successful in such a transition.",
+    "Investment in biopharmaceutical product development is a highly speculative undertaking and entails substantial upfront capital expenditures and significant risk that our current or potential future product candidates will fail to demonstrate adequate efficacy or an acceptable safety profile, gain regulatory approval and become commercially viable. We are still in the early stages of development of our product candidates and initiated our first clinical trial in December 2021. We have no products approved for commercial sale and have not generated any revenue from product sales to date. We continue to incur significant research and development and other expenses related to our ongoing operations. In addition, as a business with a limited operating history, we may encounter unforeseen expenses, difficulties, complications, delays and other known and unknown factors, such as the COVID-19 pandemic.",
+    "We have incurred losses in each period since we incorporated in July 2020. Since inception through the end of December 31, 2025, we had an accumulated deficit of $99.7 million. We expect to continue to incur significant losses for the foreseeable future, and we expect these losses to increase substantially if and as we continue our research and development efforts for our lead product candidate; conduct preclinical studies and clinical trials for our current and future product candidates; seek marketing approvals for any current or future product candidate that successfully completes clinical trials; experience any delays or encounter any issues with any of the above; establish a sales, marketing and distribution infrastructure and scale-up manufacturing capabilities to commercialize any current or future product candidates for which we may obtain regulatory approval; obtain, expand, maintain, enforce and protect our intellectual property portfolio; hire additional clinical, regulatory and scientific personnel; and operate as a public company.",
+    "Our pipeline product candidate NXP900, is in clinical development. NXP900 and any future product candidates that we may develop will require additional preclinical and clinical studies, regulatory review and approval, substantial investment, access to sufficient clinical and commercial manufacturing capacity and significant marketing efforts before we can potentially generate any revenue from product sales. To date, we have not generated any revenue from our product candidate. Our ability to generate revenue will depend on a number of factors, including, but not limited to:"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Results of Operations",
+    "Liquidity and Capital Resources",
+    "Contractual obligations and other commitments",
+    "Critical Accounting Policies and Significant Judgments and Estimates",
+    "Accrued Research and Development Expense",
+    "Share-based compensation",
+    "Income Taxes",
+    "Emerging Growth Company and Smaller Reporting Company Status"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations together with our financial statements and related notes appearing elsewhere in this report. Some of the information contained in this discussion and analysis or set forth elsewhere in this report, including information with respect to our plans and strategy for our business and related financing, includes forward-looking statements that involve risks and uncertainties. As a result of many factors, including those factors set forth in the \"Risk Factors\" section of this report, our actual results could differ materially from the results described in or implied by the forward-looking statements contained in the following discussion and analysis.",
+    "We are a clinical-stage biopharmaceutical company focused on the development of novel targeted small molecule therapeutics for the treatment of cancer in genetically defined patient populations. Our precision medicine approach translates key scientific insights relating to the oncogenic drivers and pathway addiction of cancer into potent and highly selective anticancer drugs. In addition, we will investigate the relevance of specific mutations and other DNA alterations as a potential patient selection marker and identify synthetic lethality targets. This work could support our use of a tumor agnostic development strategy wherein we enroll patients based on the cancer's genetic and molecular features without regard to the type or location of the cancer. Since our inception in 2020, we have devoted substantially",
+    "all of our efforts and financial resources to organizing and staffing our company, business planning, raising capital, acquiring, discovering product candidates and securing related intellectual property rights and conducting research and development activities for our programs. We do not have any products approved for sale and have not generated any revenue from product sales. We may never be able to develop or commercialize a marketable product. We have not yet successfully completed any pivotal clinical trials, obtained any regulatory approvals, manufactured a commercial-scale drug, or conducted sales and marketing activities.",
+    "Our focus has been on progressing the pipeline and executing financing activities to fund pipeline development. Management's primary evaluation of the success of our company is the ability to progress its pipeline assets forward towards commercialization. This success depends on not only the operational execution of the programs, but also the ability to secure sufficient funding to support the programs. We believe the ability to achieve the anticipated milestones as presented in the section entitled \"Business\" in Item 1 of this Annual Report on Form 10-K represents our most immediate evaluation points.",
+    "From our inception on July 27, 2020, through December 31, 2025, we did not generate any revenue. Our main activities through December 31, 2025 have been organizational and capital raising activities and the completion of the in-license agreements for, NXP800 and NXP900, regulatory filings with the MHRA and FDA, preparation and execution for the Phase 1a and Phase 1b clinical trial for NXP800, which commenced in December 2021 and May 2023, respectively, and Phase 1a, Phase 1b (single agent) and Phase 1b (combination study with osimertinib) clinical trial for NXP900, which commenced in September 2023, August 2025 and December 2025, respectively. During July 2025, we provided the final clinical data update for NXP800 and decided to cease development activities at this time.",
+    "For the year ended December 31, 2025, research and development expenses were approximately $18.2 million, compared to approximately $12.9 million for the year ended December 31, 2024, an increase of $5.3 million.",
+    "The current period research and development expenses primarily consisted of $8.0 million related to employee compensation including $3.5 million related to non-cash stock compensation, $5.5 million related to clinical trial expenses for our product candidates, $2.4 million related to license milestone fees and expenses, $2.1 million related to the manufacturing costs of our product candidates. For the year ended December 31, 2024, research and development expenses primarily consisted of $6.8 million related to employee compensation including $3.0 million related to non-cash stock compensation, $4.3 million related to clinical trial expenses, and $1.5 million related to the manufacturing costs of our product candidates.",
+    "For the year ended December 31, 2025, general and administrative expenses were approximately $9.4 million, compared to approximately $6.9 million for the year ended December 31, 2024, an increase of $2.5 million. The current period general and administrative expenses primarily consisted of $5.3 million paid to certain professional and consulting services, including $1.5 million non-cash stock compensation expense primarily related to Director grants, $2.4 million in employee compensation, including non-cash stock compensation expense of $1.0 million, and $0.3 million related to director and officer insurance. For the year ended December 31, 2024, general and administrative expenses primarily consisted of $3.5 million paid to certain professional and consulting services, $2.1 million in employee compensation including non-cash stock compensation expense of $1.9 million, and $0.6 million related to director and officer insurance.",
+    "As a result of the foregoing, our loss from operations for the year ended December 31, 2025 was $27.6 million, compared to a loss from operations of $19.8 million for the year ended December 31, 2024.",
+    "We expect our research and development and general and administrative expenses to increase gradually in the future as we continue the execution of our development program for our pipeline product candidate, NXP900, and continue to build out our infrastructure to support such research and development activities.",
+    "As of December 31, 2025, we had $31.6 million of cash and cash equivalents.",
+    "During the year ended December 31, 2023, we sold a total of 371,743 shares of common stock under the At-the-Market (\"ATM\") offering program for aggregate total gross proceeds of approximately $5.3 million at an average selling price of $14.23 per share, resulting in net proceeds of approximately $5.1 million after deducting commissions and other transaction costs.",
+    "During the year ended December 31, 2024, we sold a total of 1,504,270 shares of common stock under the ATM offering program for aggregate total gross proceeds of approximately $12.0 million at an average selling price of $8.00 per share, resulting in net proceeds of approximately $11.7 million after deducting commissions and other transaction costs.",
+    "During the year ended December 31, 2025, we sold a total of 1,996,028 shares of common stock under the ATM offering program for aggregate total gross proceeds of approximately $15.7 million at an average selling price of $7.86 per share, resulting in net proceeds of approximately $15.2 million after deducting commissions and other transaction costs."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "科學背景",
+    "NXP900 的創新作用機制",
+    "NXP900 授權協議",
+    "NXP800 授權協議",
+    "供應與製造",
+    "藥物之預臨牀及臨牀試驗",
+    "加速開發與審查計畫",
+    "其他法規事項",
+    "其他醫療衛生法規",
+    "現行及未來的醫療改革立法",
+    "其他美國環境、健康與安全法規",
+    "美國境外藥物的政府管制"
+   ],
+   "paragraphs": [
+    "本公司為一間臨牀階段生技藥品公司，專注於開發創新精準醫療藥物，用以治療癌症領域中未被滿足的嚴重疾病。本公司致力於開發精準醫療領域的藥物候選品，並透過科學數據探討促癌因子，以及對臨牀環境與監管要求的瞭解，作為藥物候選品選擇與臨牀開發的流程。",
+    "本公司於2020年7月根據特拉華州法律成立，公司名為Centry Pharma, Inc.，並於2021年7月更名為Nuvectis Pharma, Inc.。本公司辦公室位於新澤西州Fort Lee市Bridge Plaza 2樓，郵遞區號為07024，電話為(201) 614-3150。",
+    "本公司維護一個網站，網址為www.nuvectis.com。本公司透過網站提供年度10-K表報表、季報10-Q表及現況報告8-K表，以及這些報表的修正版本，於本公司電子提交或提供這些資料給證券交易委員會（SEC）後盡速提供。本公司未將網站資訊納入本報告，亦未將其作為參考資料。此外，SEC維護一個網站，包含年度、季報及現況報告、股東說明書及其他發行者（包括本公司）向SEC電子提交的資料。SEC的網站網址為http://www.sec.gov。",
+    "2021年8月，本公司自蘇格蘭愛丁堡大學取得NXP900的全球商業授權。NXP900為一種標靶治療的.small molecule藥物候選品，可抑制proto-oncogene c-Src（SRC）及YES1激酶，為SRC激酶家族的關鍵成員。2023年5月，本公司宣佈美國食品藥物管理局（FDA）已核准 Investigational New Drug（IND）申請，包含Phase 1協議，並分為兩部分：Phase 1a為劑量遞增研究，Phase 1b為擴展研究。2025年7月，本公司宣佈完成Phase 1a臨牀試驗，評估NXP900在晚期實體腫瘤病患中的安全性、耐受性及藥動學特性，以識別Phase 1b的潛在劑量與給藥計畫。在Phase 1a研究中，評估劑量範圍為每日20至300毫克，該劑量範圍內未達致毒劑量。最常見的治療相關不良事件為胃腸道相關，且為輕度至中度。NXP900的全身暴露量隨劑量增加而增加，在每日150毫克及更高劑量時，可觀察到約90%的SRC激酶磷酸化抑制，顯示潛在廣泛的治療窗。Phase 1a研究結果支持NXP900每日一次口服給藥。2025年8月，本公司宣佈啟動Phase 1b擴展研究。持續進行的Phase 1b研究將評估NXP900的安全性、耐受性及初步療效，作為單一藥物針對特定腫瘤類型，以及與市場領先的表皮生長因子受體（EGFR）及間變性淋巴瘤激酶（ALK）抑制劑組合使用。",
+    "2025年7月，在探討NXP900與EGFR及ALK抑制劑組合前，本公司宣佈完成並公佈臨牀藥物藥物交互作用（DDI）研究的結果。NXP900 DDI研究為評估NXP900對細胞色素P450酶CYP3A活性的影響，結果顯示NXP900對CYP3A酶的影響被歸類為弱抑制劑，根據國際調和委員會M12指南。DDI研究中未報告嚴重或嚴重不良事件。最常見的不良事件為腹瀉及非感染性白血球計數上升，所有事件皆為輕度至中度。",
+    "SRC在許多癌症類型中異常活化，包括實體腫瘤癌症如乳癌、結腸癌、前列腺癌、胰腺癌及卵巢癌，而在非癌細胞中則主要處於不活化狀態。SRC活性增加通常與晚期癌症、具有轉移潛力及治療抵抗性相關，並與不良臨牀預後相關。截至目前為止，尚無激酶抑制劑獲准用於治療SRC活化之實體腫瘤惡性腫瘤。",
+    "YES1為一種非受體酪胺酸激酶，屬於SRC家族激酶，並控制多種癌症信號路徑。YES1在許多腫瘤類型中被擴增並過度表現，促進細胞增殖、存活及侵襲性。此外，YES1直接磷酸化並活化yes-associated protein 1（YAP1），為 Hippo 路徑的主要作用者，已被識別為促進藥物抵抗、癌症進展及轉移的因子，包括鱗狀細胞癌、間皮瘤及乳頭狀腎癌。",
+    "SRC路徑活化由無活性與活化構象之間的切換所調控。SRC家族激酶的無活性構象與膜結合缺失、活化環磷酸化缺失有關，並特徵為「關閉構象」。活化「開放」構象允許SRC與信號夥伴結合，並透過SRC的激酶催化活性及支架特性啟動完整路徑。",
+    "NXP900 是一種針對性治療藥物，會抑制 SRC 與 YES1 的絲氨酸/蘇氨酸蛋白激酶。與已核准及臨牀階段的絲氨酸/蘇氨酸蛋白激酶抑制劑不同，這些藥物僅抑制 SRC 的催化（酵素）活性，NXP900 會誘導並固定 SRC 在其天然無活性構象，因此同時抑制該激酶的催化與支架功能，從而防止其與主要夥伴的磷酸化及複合體形成。NXP900 也具有高度選擇性，這通常是改善治療窗的特性。",
+    "在體內，使用 NXP900 治療會抑制乳癌、食道癌、頭頸癌及髓母細胞瘤的原發性與轉移性腫瘤生長，並顯示出針對性藥物動力學效果。此外，科學文獻中的研究已指出，NXP900 可能與標靶藥物（如 Tagrisso® 的活性成分 osimertinib）結合，用以逆轉非小細胞肺癌的抗藥性，以及與標靶藥物（如 Xtandi® 的活性成分 enzalutamide）結合，用以逆轉轉移性、荷爾蒙療法抵抗性前列腺癌的抗藥性，進一步驗證 NXP900 的關鍵標靶 YES1 與 SRC 激酶在這些疾病情境中的潛在重要性。",
+    "YES1 基因所在區域的基因擴增已在多種腫瘤臨牀樣本中被報導，包括肺癌、頭頸癌、膀胱癌及食道癌。YES1 依賴性的致癌轉變也已被報導，顯示 YES1 可能在此類實體腫瘤中扮演關鍵角色。YES1 的轉化能力已透過多種實驗方法證明，例如透過短髮狀 RNA（shRNA）降低 YES1 表達，會顯著抑制多種惡性腫瘤（包括結腸癌、橫紋肌肉瘤及基底樣乳癌）的細胞生長，顯示 YES1 可能在此類實體腫瘤中扮演關鍵角色。此外，已發現 YES1 基因擴增是對 EGFR、ALK 及人類表皮生長因子受體 2（\"HER2\"）抑制劑產生抗藥性的機制之一。",
+    "目前尚無 FDA 核准的選擇性 YES1 抑制劑。我們計畫進行更多體內研究，以更深入瞭解 YES1 抑制在由 YES1 表達過度或基因擴增驅動的實體腫瘤中的效果。",
+    "我們的策略是以使命為導向，透過識別、授權、開發及商業化用以解決未滿足醫療需求的治療藥物，建立全球生物製藥公司。推動我們商業策略的關鍵要素包括：",
+    "● 將 NXP900 開發為一種潛在的差異化 YES1/SRC 激酶抑制劑，提升其在實體腫瘤中的治療活性，並推動其進行臨牀開發，朝向監管核准進展。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果",
+    "流動性及資本資源",
+    "契約義務及其他承諾",
+    "關鍵會計政策及重要判斷與估計",
+    "累計研究與開發費用",
+    "股票基於報酬",
+    "所得稅",
+    "新興成長公司及小型申報公司資格"
+   ],
+   "paragraphs": [
+    "您應閱讀下列對我們財務狀況及營運成果之討論與分析，並與本報告中其他處所出現之財務報表及相關附註一併參考。本討論與分析中包含之資訊，或於本報告其他處所出現之資訊，包括有關我們業務與相關資金之計畫與策略，包含風險與不確定性之預測性陳述。由於許多因素，包括本報告「風險因素」部分所列之因素，我們實際結果可能與下列討論與分析中所描述或暗示之預測性陳述之結果有重大差異。",
+    "我們是一家臨牀階段生物製藥公司，專注於開發新型標的性小分子治療藥物，用以治療具遺傳特徵之癌症患者。我們的精準醫療方法將與癌症相關之致癌驅動因子及路徑依賴性之關鍵科學見解轉化為強效且高度選擇性之抗癌藥物。此外，我們將探討特定突變及其他DNA變異是否為潛在患者選擇標記，並識別合成致死目標。此工作可能支持我們採用無癌種依賴之開發策略，即根據癌症之遺傳與分子特徵納入患者，而不考慮癌症類型或部位。自我們2020年成立以來，我們已投入大量努力與財務資源用於組織與僱用公司、業務規劃、籌資、取得與發現產品候選物及取得相關智慧財產權，並進行各項研究與開發活動。",
+    "我們目前尚未有任何產品獲准上市銷售，也未從產品銷售中產生任何收入。我們可能永遠無法開發或商業化可銷售之產品。我們尚未成功完成任何關鍵臨牀試驗、取得任何監管核准、製造商業規模之藥物，或進行銷售與行銷活動。",
+    "我們的重點為推動產品開發路線圖並執行資金籌措活動以資助路線圖之發展。管理階層評估本公司成功之主要標準為能否將產品開發路線圖資產推進至商業化。此成功取決於不僅各項計畫之運作執行，也取決於能否取得足夠資金以支應各項計畫。我們認為能否達成「業務」部分所列之預期里程碑，為我們最即時之評估重點。",
+    "自我們2020年7月27日成立，至2025年12月31日，我們未產生任何收入。至2025年12月31日為止，我們主要活動為組織與資金籌措活動，以及完成NXP800與NXP900之授權協議、向MHRA與FDA提交監管文件、準備並執行NXP800之第一期a與第一期b臨牀試驗（分別於2021年12月與2023年5月啟動），以及NXP900之第一期a、第一期b（單一藥物）與第一期b（與osimertinib組合研究）臨牀試驗（分別於2023年9月、2025年8月與2025年12月啟動）。於2025年7月，我們提供NXP800之最終臨牀資料更新，並決定在此時停止開發活動。",
+    "會計年度終了為 2025 年 12 月 31 日，研究與開發費用約為 18.2 百萬美元，與會計年度終了為 2024 年 12 月 31 日的約 12.9 百萬美元相比，增加 5.3 百萬美元。",
+    "本期間之研究與開發費用主要為員工薪資費用8.0 百萬美元，其中包含非現金股票薪酬費用3.5 百萬美元，臨牀試驗費用5.5 百萬美元，授權里程碑費用及費用2.4 百萬美元，以及產品候選物製造成本2.1 百萬美元。截至2024年12月31日之年度，研究與開發費用主要為員工薪資費用6.8 百萬美元，其中包含非現金股票薪酬費用3.0 百萬美元，臨牀試驗費用4.3 百萬美元，以及產品候選物製造成本1.5 百萬美元。",
+    "截至2025年12月31日之年度，一般及行政費用約為9.4 百萬美元，與截至2024年12月31日之年度約為6.9 百萬美元相比，增加2.5 百萬美元。本期間之一般及行政費用主要為支付專業與諮詢服務費用5.3 百萬美元，其中包含非現金股票薪酬費用1.5 百萬美元，主要與董事會授予之股票有關，員工薪資費用2.4 百萬美元，其中包含非現金股票薪酬費用1.0 百萬美元，以及董事與高階管理人保險費用0.3 百萬美元。截至2024年12月31日之年度，一般及行政費用主要為支付專業與諮詢服務費用3.5 百萬美元，員工薪資費用2.1 百萬美元，其中包含非現金股票薪酬費用1.9 百萬美元，以及董事與高階管理人保險費用0.6 百萬美元。",
+    "因前述原因，我們於2025年12月31日財年營運虧損為27.6 百萬美元，較2024年12月31日財年營運虧損19.8 百萬美元為高。",
+    "我們預期未來研究與發展及一般及行政費用將逐步增加，因我們持續執行我們管線產品候選品NXP900的開發計畫，並持續建置基礎設施以支撐相關研究與發展活動。",
+    "截至2025年12月31日，我們持有現金及現金等價物為31.6 百萬美元。",
+    "於2023年12月31日財年，我們透過At-the-Market（\"ATM\"）發行計畫出售總計371,743股普通股，總計 gross proceeds 約為5.3 百萬美元，平均 selling price 為每股市價14.23美元，扣除佣金及其他交易費用後，淨所得約為5.1 百萬美元。",
+    "於2024年12月31日財年，我們透過ATM發行計畫出售總計1,504,270股普通股，總計 gross proceeds 約為12.0 百萬美元，平均 selling price 為每股市價8.00美元，扣除佣金及其他交易費用後，淨所得約為11.7 百萬美元。",
+    "於2025年12月31日財年，我們透過ATM發行計畫出售總計1,996,028股普通股，總計 gross proceeds 約為15.7 百萬美元，平均 selling price 為每股市價7.86美元，扣除佣金及其他交易費用後，淨所得約為15.2 百萬美元。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們財務及資金需求相關的風險",
+    "我們有限的營運歷史可能使您難以評估我們至今的業務成功情況，並評估我們未來的生存能力。",
+    "我們自成立以來已產生虧損，並預期在可預見的未來持續產生虧損。我們可能永遠無法實現或維持盈利。",
+    "關稅及其他貿易措施可能對我們的業務、營運結果、財務狀況及現金流產生不利影響。",
+    "與我們產品候選藥物開發相關的風險",
+    "我們的開發方法可能永遠無法導致可上市的產品。",
+    "難以招募病患可能延誤或阻止我們目前或未來產品候選藥物的臨牀試驗進行。",
+    "美國食品藥物管理局（FDA）及相當的外國監管機構可能不接受我們在海外國家進行的任何非臨牀或臨牀試驗的資料。",
+    "我們可能無法依照預期時程提交IND申請以啟動額外的臨牀試驗，即使我們能夠提交，美國食品藥物管理局（FDA）也可能不允許我們進行。",
+    "我們面臨著激烈的競爭，這可能會導致他人在我們之前或更成功地發現、開發或商業化產品。",
+    "與政府監管相關的風險",
+    "拒絕或延遲我們取得所需監管核准，可能會阻礙或延遲我們現有或未來產品候選藥物的商業化，並可能嚴重影響我們產生收入的能力。",
+    "與國際市場我們現有或未來產品候選藥物相關的多種風險，可能會嚴重不利於我們的業務。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及高度風險。您應仔細考慮下列所描述的風險與不確定性，並配合本報告中所有其他資訊，包括標題為「管理層對財務狀況與營運結果之討論與分析」及我們的財務報表與相關附註，再做投資決策。本公司營運、營運結果、財務狀況與前景亦可能因目前未知或我們認為不具重大影響之風險與不確定性而受損。若任何風險實際發生，本公司營運、平台、聲譽、品牌、營運結果、財務狀況與前景可能受到重大且不利影響。在此情況下，本公司普通股之市場價格可能下跌，您可能損失全部或部分投資。",
+    "本公司為一家臨牀階段生技藥品公司，營運歷史有限。本公司於2020年7月在特拉華州設立，截至目前為止，營運活動僅限於組織與僱用員工、營運規劃、籌措資金、辨識、調查、取得授權與評估潛在產品候選物、與第三方建立製造初始數量之主要產品候選物與零組件材料之安排，以及進行研究與開發活動。我們兩種產品候選物已進入早期臨牀開發階段，其中一種正在進行開發。我們尚未證明本公司能成功進行或完成任何產品候選物之臨牀開發計畫、取得行銷核准、製造商業規模產品或委請第三方代為製造，或進行銷售、行銷與分銷活動以實現產品商業化。因此，任何對本公司未來成功或存續之預測可能並不準確。",
+    "我們可能在某個時間點必須從以研究與開發為重點之公司，轉型為能支持與全產品生命週期相關商業活動之公司。我們可能無法成功進行此轉型。",
+    "投資生技藥品產品開發是一項高度投機性活動，並涉及大量前期資金支出與重大風險，即我們目前或未來潛在產品候選物可能無法顯示足夠療效或可接受之安全性，取得監管核准並實現商業可行性。我們目前仍處於產品候選物開發之初期階段，並於2021年12月啟動首個臨牀試驗。我們目前尚無核准上市之產品，且至今尚未從產品銷售中產生任何收入。我們持續產生大量研究與開發及其他費用，與本公司持續進行之營運活動相關。此外，作為一家營運歷史有限之公司，我們可能遭遇未預見之費用、困難、複雜問題、延誤及其他已知與未知因素，例如新型冠狀病毒疫情（COVID-19）。",
+    "",
+    "我們之產品候選物NXP900，目前處於臨牀開發階段。NXP900及我們未來可能開發之任何產品候選物，均需進行額外之非臨牀與臨牀研究、監管審查與核准、大量投資、取得足夠之臨牀與商業製造能力及進行大量行銷活動，我們纔可能產生任何來自產品銷售之收入。截至目前為止，我們尚未從產品候選物產生任何收入。我們產生收入之能力將取決於多種因素，包括但不限於："
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

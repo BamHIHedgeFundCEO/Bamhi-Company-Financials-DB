@@ -1,0 +1,221 @@
+{
+ "ticker": "SUPN",
+ "cik": "0001356576",
+ "accession": "0001356576-26-000011",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Strategy",
+    "Commercial Products",
+    "Research and Development",
+    "Sales and Marketing",
+    "Manufacturing",
+    "Our Proprietary Technology Platforms",
+    "Intellectual Property and Exclusivity",
+    "Patent Portfolio",
+    "Other Intellectual Property Rights",
+    "U.S. Patent Application Process",
+    "Collaborations and Licensing Arrangements"
+   ],
+   "paragraphs": [
+    "Supernus Pharmaceuticals, Inc. (the Company) is a biopharmaceutical company focused on developing and commercializing products for the treatment of central nervous system (CNS) diseases. The Company's diverse neuroscience portfolio includes approved treatments for attention-deficit hyperactivity disorder (ADHD), dyskinesia in Parkinson's Disease (PD) patients receiving levodopa-based therapy, hypomobility in PD, postpartum depression (PPD), epilepsy, migraine, cervical dystonia, and chronic sialorrhea. The Company is developing a broad range of novel product candidates for CNS disorders.",
+    "The Company was incorporated in Delaware, commenced operations in 2005, became publicly traded in 2012, and is listed on the NASDAQ Stock Exchange under the ticker symbol SUPN. Our principal executive offices are located in Rockville, Maryland. Our extensive expertise in product development has been built over the past 30 years: initially as a stand-alone development organization; then, as a United States (U.S.) subsidiary of Shire Plc (Shire, a subsidiary of Takeda Pharmaceutical Company Ltd.); then upon our acquisition of substantially all of the assets of Shire Laboratories, Inc. in 2005, as Supernus Pharmaceuticals, Inc.",
+    "Acquisition of Sage Therapeutics, Inc. and Reorganization",
+    "On June 13, 2025, the Company entered into a Merger Agreement to acquire Sage Therapeutics, Inc (Sage). Under the terms of the Merger Agreement, the Company commenced a tender offer to acquire all outstanding shares of Sage, par value $0.001 per share (the Shares and each, a Share), at an offer price of (i) $8.50 per share in cash, less any applicable withholding taxes and without interest (the Cash Amount; an aggregate of approximately $561 million paid as of the acquisition date), plus (ii) one contingent value right per Share (the CVR; an aggregate of approximately $234 million, subject to the achievement of",
+    "specific contingencies), which represents the right to receive up to $3.50 and is governed by the terms of a contingent value rights agreement entered into between the Company and the CVR agent (the CVR Agreement). Any amount payable pursuant to the CVRs is payable, in cash, less any applicable withholding taxes and without interest (the Cash Amount plus the CVR, collectively; or any higher amount per Share paid pursuant to the Offer, the Offer Price).",
+    "Subject to the terms of the CVR Agreement, (1) $1.00 per share would be payable if in any calendar year between closing and end of 2027, annual net sales (as defined in the CVR Agreement) of ZURZUVAE allocable to Supernus or any of its affiliates reach $250 million or more in the U.S., (2) $1.00 per share would be payable if in any calendar year between closing and end of 2028, annual net sales (as defined in the CVR Agreement) of ZURZUVAE allocable to Supernus or any of its affiliates reach $300 million or more in the U.S., (3) $1.00 per share would be payable if in any calendar year between closing and end of 2030, annual net sales (as defined in the CVR Agreement) of ZURZUVAE allocable to Supernus or any of its affiliates reach $375 million or more in the U.S., and (4) $0.50 per share would be payable upon the first commercial sale in Japan to a third-party customer after regulatory approval for ZURZUVAE for the treatment of major depressive disorder (MDD) in Japan by June 30, 2026. The maximum amount payable with respect to a CVR issued in respect to each Share is $3.50. The transaction closed and the Company completed the acquisition of Sage on July 31, 2025.",
+    "Following the Sage Acquisition, during the third quarter of 2025, Sage Therapeutics, Inc. was reorganized into Sage Therapeutics, LLC.",
+    "Our mission is to improve the lives of patients suffering from CNS diseases. Our vision is to be a leader in the CNS industry by developing and commercializing new medicines for the treatment of CNS diseases. Key elements of our strategy to achieve this vision include:",
+    "•Drive growth and profitability. Using dedicated sales and marketing resources in the U.S., we continue to drive the revenue growth of our key marketed products.",
+    "•Advance product candidates toward commercialization. Several product candidates are in various stages of development.",
+    "•Continue to grow our pipeline. We continue to evaluate and develop additional CNS product candidates that we believe have significant commercial potential through our internal research and development efforts.",
+    "•Target strategic business development opportunities. We actively explore a broad range of strategic opportunities. This includes in-licensing products and entering into co-promotion and co-development partnerships for our commercial products and product candidates, as well as acquisitions of businesses with either or both commercial products and product candidates.",
+    "Our commercial products, including those sold by or through our subsidiaries, include: Qelbree®",
+    "Qelbree (viloxazine extended-release capsules) is a novel non-stimulant product indicated for the treatment of ADHD in adults and pediatric patients 6 years and older. On April 2, 2021, the FDA approved Qelbree for the treatment of ADHD in pediatric patients 6 to 17 years of age. In May 2021, the Company launched Qelbree for pediatric patients in the U.S. On April 29, 2022, the FDA approved Qelbree for treatment of ADHD in adult patients. The Company launched Qelbree for adult patients in May 2022. In January 2025, the FDA approved an expanded label update for Qelbree to include new data on the pharmacodynamics and use in breastfeeding mothers."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Industry and Business",
+    "Risks Related to Our Finances and Capital Requirements",
+    "Risks Related to Securities Markets and Investment in Our Stock",
+    "General Risk Factors",
+    "We are dependent on the commercial success of our products in the U.S.",
+    "We are subject to uncertainty relating to payment or managed care reimbursement policies, which, if not favorable for our products or product candidates, could hinder or prevent our commercial success.",
+    "We may not be able to effectively market and sell our product candidates, if approved, in the U.S.",
+    "If we do not obtain marketing exclusivity for our product candidates, our business may suffer.",
+    "If our competitors develop or market alternatives for the treatment of our target indications, our commercial opportunities will be reduced or eliminated.",
+    "Our products and our product candidates may be subject to restrictions or withdrawal from the market. We may be subject to penalties if we fail to comply with regulatory requirements."
+   ],
+   "paragraphs": [
+    "Any investment in our business involves a high degree of risk. Before making an investment decision, you should carefully consider the risks described below, with all of the other information we include in this report and the additional information in the other reports we file with the Securities and Exchange Commission (the \"SEC\" or the \"Commission\"). These risks may result in material harm to our business, our financial condition, and the results of our operations. If a material, adverse event was to occur, the market price of our common stock may decline, and you could lose part or all of your investment.",
+    "We are subject to a variety of risks and uncertainties, including risks related to our industry and business, risks related to our finances and capital requirements, risks related to securities markets and investment in our stock, and certain general risks, which could have a material adverse effect on our business, financial condition, results of operations and cash flows. The summary below is not exhaustive and is qualified by reference to the full set of risk factors set forth in this \"Risk Factors\" section.",
+    "• We are dependent on the commercial success of our products in the U.S.",
+    "• If generics or other versions of our products including generics containing one or more of the active pharmaceutical ingredients present in our products are approved and successfully commercialized, our business could be materially harmed.",
+    "• We are subject to uncertainty relating to payment or managed care reimbursement policies, which, if not favorable for our products or product candidates, could hinder or prevent our commercial success.",
+    "• We depend on wholesalers, distributors, and specialty pharmacies for the distribution of our products. If we lose any of our significant wholesaler, distributor, or specialty pharmacy accounts, our business could be harmed."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Research and Development",
+    "Product Pipeline Update",
+    "Critical Accounting Policies and the Use of Estimates",
+    "Revenue Recognition",
+    "Business Combinations and Valuation of Acquired Assets",
+    "Valuation of Contingent Consideration",
+    "Impairment of Definite-Lived Intangible Assets",
+    "Results of Operations",
+    "Year Ended December 31, Change",
+    "2025 2024 Amount Percent",
+    "Accrued Product Returns and Rebates",
+    "Returns Product",
+    "Sales Discounts",
+    "Cost of Revenues",
+    "Research and Development Expense",
+    "Year Ended December 31,",
+    "Selling, General, and Administrative Expense",
+    "Amortization of Intangible Assets",
+    "Contingent Consideration Loss (Gain)",
+    "Other Income (Expense)",
+    "Income Tax Expense (Benefit)",
+    "The following table provides information regarding our income tax expense (benefit) during the periods indicated (dollars in thousands): Change 2024 Dollar Percent",
+    "Net Earnings (Loss)",
+    "Financial Condition, Liquidity and Capital Resources",
+    "Summary of Cash Flows",
+    "2025 2024 Amount",
+    "Cash, Cash Equivalents, Marketable Securities, and Restricted Cash",
+    "December 31, 2025 December 31, 2024",
+    "Material Cash Requirements",
+    "Off-Balance Sheet Arrangements"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations together with our consolidated financial statements and related notes thereto, appearing elsewhere in this Annual Report on Form 10-K. In addition to historical information, some of the information in this discussion and analysis contains forward-looking statements reflecting our current expectations and involving risk and uncertainties. For example, statements regarding our expectations as to our plans and strategy for our business, future financial performance, expense levels, and liquidity sources are forward-looking statements. Our actual results and the timing of those events could differ materially from those discussed in our forward-looking statements because of many factors, including those set forth under the \"Risk Factors\" section and elsewhere in this report.",
+    "Unless the content requires otherwise, the words \"Supernus,\" \"we,\" \"our\" and \"the Company\" refer to Supernus Pharmaceuticals, Inc. and/or one or more of its subsidiaries, as the case may be. These terms are used solely for the convenience of the reader. Supernus Pharmaceuticals, Inc. and each of its subsidiaries are distinct legal entities. For example, MDD US Operations, LLC, a wholly-owned indirect subsidiary of Supernus Pharmaceuticals, Inc., is the exclusive licensee and distributor of APOKYN in the United States and its territories. Adamas Operations, LLC, a wholly-owned indirect subsidiary of Supernus Pharmaceuticals, Inc., wholly owns the patents and patent applications related to GOCOVRI and Osmolex ER and has a license agreement with Supernus Pharmaceuticals, Inc., granting Supernus Pharmaceuticals, Inc. rights to market and sell GOCOVRI and Osmolex ER. Sage Therapeutics, LLC, a wholly-owned indirect subsidiary of Supernus Pharmaceuticals, Inc., has granted Supernus Pharmaceuticals, Inc. a license to market and sell zuranolone in the United States.",
+    "We are a biopharmaceutical company focused on developing and commercializing products for the treatment of central nervous system (CNS) diseases. Our diverse neuroscience portfolio includes approved treatments for attention-deficit hyperactivity disorder (ADHD), dyskinesia in Parkinson's Disease (PD) patients receiving levodopa-based therapy, hypomobility in PD, postpartum depression (PPD), epilepsy, migraine, cervical dystonia, and chronic sialorrhea. We are developing a broad range of novel CNS product candidates including new potential treatments for epilepsy, depression, and other CNS disorders.",
+    "2025 Acquisition of Sage Therapeutics, Inc. (Sage) and Reorganization",
+    "On July 31, 2025, the Company completed its previously announced acquisition of Sage when Saphire, Inc., a Delaware corporation and wholly owned subsidiary of the Company (Purchaser), was merged with and into Sage (the Merger), with Sage continuing as the surviving corporation in the Merger as a wholly owned subsidiary of the Company (the Sage Acquisition). At the time of the Sage Acquisition, Sage had an established commercial product in its portfolio, ZURZUVAE.",
+    "Following the Sage Acquisition, during the third quarter of 2025, Sage Therapeutics, Inc. was reorganized into Sage Therapeutics, LLC.",
+    "We have a portfolio of commercial products and product candidates. Commercial Products",
+    "•Qelbree® (viloxazine) extended-release capsules are a novel non-stimulant product indicated for the treatment of ADHD in adults and pediatric patients 6 years and older. The United States Food and Drug Administration (FDA) approved Qelbree for the treatment of ADHD in pediatric patients 6 to 17 years of age in April 2021, and in adult patients in April 2022. The Company launched Qelbree for pediatric patients in May 2021 and for adult patients in May 2022 in the United States (U.S.). In January 2025, the FDA approved an expanded label update for Qelbree to include new data on the pharmacodynamics and use in breastfeeding mothers.",
+    "•GOCOVRI® (amantadine) extended-release capsules are the first and only FDA approved medicine indicated for the treatment of dyskinesia in patients with PD receiving levodopa-based therapy, with or without concomitant dopaminergic medications, and as an adjunctive treatment to levodopa/carbidopa with PD experiencing \"OFF\" episodes.",
+    "•ONAPGOTM (apomorphine hydrochloride) injection is the first and only subcutaneous apomorphine infusion device for the treatment of motor fluctuations in adults with advanced PD. ONAPGO was approved by the FDA in February 2025. ONAPGO was launched in April 2025.",
+    "•ZURZUVAE® (zuranolone) capsules are the first and only FDA approved oral medicine indicated for the treatment of PPD in adults. ZURZUVAE is a neuroactive steroid that is a positive allosteric modulator of GABAA receptors, targeting",
+    "both synaptic and extrasynaptic GABAA receptors, and is the first oral, once-daily, 14-day treatment specifically indicated for adults with PPD. ZURZUVAE became commercially available in the U.S. in December 2023 as a treatment option for women with PPD. We and our collaboration partner, Biogen, are jointly commercializing ZURZUVAE in the U.S. under a collaboration agreement (Biogen Collaboration Agreement). The Company and Biogen equally share in all operating profits and losses arising from sales of ZURZUVAE in the U.S., with Biogen recording such product sales.",
+    "•APOKYN® (apomorphine hydrochloride injection) is a product indicated for the acute, intermittent treatment of hypomobility, \"OFF\" episodes (\"end-of-dose wearing off\" and unpredictable \"ON/OFF\" episodes) in patients with advanced PD.",
+    "•Trokendi XR® (topiramate) is the first once-daily extended-release topiramate product indicated for the treatment of epilepsy in patients 6 years of age and older in the U.S. market. It is also indicated for the prophylaxis of migraine headache in adults and adolescents 12 years and older."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Our Strategy': '本公司策略'}",
+    "{'Commercial Products': '商業產品'}",
+    "{'Research and Development': '研究與發展'}",
+    "{'Sales and Marketing': '銷售與行銷'}",
+    "{'Manufacturing': '製造'}",
+    "{'Our Proprietary Technology Platforms': '本公司專有科技平台'}",
+    "{'Intellectual Property and Exclusivity': '智慧財產權與獨佔權'}",
+    "{'Patent Portfolio': '專利組合'}",
+    "{'original': 'Other Intellectual Property Rights', 'translated': '其他智慧財產權'}",
+    "{'original': 'U.S. Patent Application Process', 'translated': '美國專利申請程序'}",
+    "{'original': 'Collaborations and Licensing Arrangements', 'translated': '合作與授權安排'}"
+   ],
+   "paragraphs": [
+    "Supernus Pharmaceuticals, Inc. (the Company) 為一間專注於開發與商業化用以治療中樞神經系統 (CNS) 疾病產品的生物製藥公司。本公司多元的神經科學產品組合包含已核准用以治療注意力不足過動症 (ADHD)、帕金森氏症 (PD) 患者接受左旋多巴基質治療時的運動障礙、PD 的活動減少、產後憂鬱症 (PPD)、癲癇、偏頭痛、頸部肌張力障礙及慢性流涎的治療方案。本公司正在開發涵蓋 CNS 疾病廣泛範疇的創新產品候選品。",
+    "本公司於德拉瓦州設立，2005 年開始營運，2012 年成為上市公司，並於 NASDAQ 股票交易所上市，股票代碼為 SUPN。本公司主要營運總部位於馬裏蘭州洛克維爾市。本公司在產品開發領域的廣泛專業知識，已累積達 30 年：最初為一間獨立的開發組織；之後，作為美國 (U.S.) 的子公司 Shire Plc (Shire，為 Takeda Pharmaceutical Company Ltd. 的子公司)；再之後，於 2005 年本公司取得 Shire Laboratories, Inc. 大部分資產後，成為 Supernus Pharmaceuticals, Inc。",
+    "收購 Sage Therapeutics, Inc. 及重組",
+    "2025 年 6 月 13 日，本公司與 Sage Therapeutics, Inc. (Sage) 籤訂合併協議，以收購 Sage。根據合併協議的條款，本公司開始進行收購 Sage 所有流通在外股權的要約，每股面額為 0.001 美元 (Shares 以及每一 Shares)，以每股 8.50 美元現金為要約價格，扣除適用的所得稅後，不計利息 (Cash Amount；截至收購日，總計約支付 561 百萬美元)，加上 (ii) 每 Shares 一項條件式價值權 (CVR；總計約 234 百萬美元，視是否達成",
+    "特定的或有事項)，代表可收取最高達 3.50 美元之權利，並受本公司與 CVR 代理機構間所訂立之或有價值權利協議（CVR 協議）條款約束。依 CVR 所應支付之金額，應以現金支付，扣除適用之扣繳稅款，且不計利息（現金金額加上 CVR，合計；或依要約所支付之任何較高金額每股，要約價格）。",
+    "依 CVR 協議條款，(1) 若於交易完成後至 2027 年底之任何會計年度，ZURZUVAE 之年度淨銷售額（依 CVR 協議定義）歸屬於 Supernus 或其任何附屬公司，在美國達 250 百萬美元或以上，則每股應支付 1.00 美元；(2) 若於交易完成後至 2028 年底之任何會計年度，ZURZUVAE 之年度淨銷售額（依 CVR 協議定義）歸屬於 Supernus 或其任何附屬公司，在美國達 300 百萬美元或以上，則每股應支付 1.00 美元；(3) 若於交易完成後至 2030 年底之任何會計年度，ZURZUVAE 之年度淨銷售額（依 CVR 協議定義）歸屬於 Supernus 或其任何附屬公司，在美國達 375 百萬美元或以上，則每股應支付 1.00 美元；(4) 若於 2026 年 6 月 30 日前日本取得 ZURZUVAE 用於治療重大抑鬱症（MDD）之藥物核准後，對第三方客戶進行首次商業銷售，則每股應支付 0.50 美元。針對每一股份所發行之 CVR，最高可支付金額為 3.50 美元。交易已完成，本公司於 2025 年 7 月 31 日完成對 Sage 之收購。",
+    "於 Sage 收購後，於 2025 年第三季，Sage Therapeutics, Inc. 重新組織為 Sage Therapeutics, LLC。",
+    "我們的使命是改善罹患 CNS 疾病之病患的生活品質。我們的願景是成為 CNS 行業的領導者，透過開發與商業化用以治療 CNS 疾病的新藥物。實現此願景的關鍵策略要素包括：",
+    "•推動成長與獲利。透過在美國專注的銷售與行銷資源，我們持續推動我們主要 marketed 產品的營業收入成長。",
+    "•推動產品候選品向商業化進展。多個產品候選品處於不同發展階段。",
+    "•持續擴充我們的產品管道。我們持續評估並發展額外的 CNS 產品候選品，我們認為這些產品具有顯著的商業潛力，透過我們內部的研究與開發努力。",
+    "•著力於戰略性業務發展機會。我們積極探尋廣泛的戰略機會。這包括進授權產品、與合作推廣與合作開發夥伴關係，以及收購擁有商業產品或產品候選品或兩者皆有的企業。",
+    "我們的商業產品，包括由或透過我們子公司銷售的產品，包括：Qelbree®",
+    "Qelbree (viloxazine extended-release capsules) 是一種新型非興奮劑產品，用於治療 6 歲以上成人及兒童患者的 ADHD。2021 年 4 月 2 日，FDA 批准 Qelbree 用於治療 6 至 17 歲兒童患者的 ADHD。2021 年 5 月，本公司於美國推出 Qelbree 用於治療兒童患者的 ADHD。2022 年 4 月 29 日，FDA 批准 Qelbree 用於治療成人患者的 ADHD。本公司於 2022 年 5 月推出 Qelbree 用於治療成人患者的 ADHD。2025 年 1 月，FDA 批准 Qelbree 的擴充標籤更新，包含有關藥物動力學及用於哺乳母親的新資料。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "研究與發展",
+    "產品管線更新",
+    "關鍵會計政策及會計估計之使用",
+    "收入確認",
+    "企業併購及取得資產之評估",
+    "或有對價之評估",
+    "有限使用年限無形資產之減值",
+    "營運成果",
+    "會計年度終了於12月31日，變動",
+    "2025 2024 金額 百分比",
+    "應計產品退貨及折扣",
+    "退貨產品",
+    "銷售折扣",
+    "收入成本",
+    "研究與發展費用",
+    "會計年度終了於12月31日,",
+    "銷售、一般及行政費用",
+    "無形資產攤銷",
+    "或有對價損失（收益）",
+    "其他收入（費用）",
+    "所得稅費用（收益）",
+    "下表提供有關我們在所指明期間內所得稅費用（收益）的資訊（單位為千美元）：變動 2024 美元 百分比",
+    "淨收益（虧損）",
+    "財務狀況、流動性及資本資源",
+    "現金流量摘要",
+    "2025 2024 金額",
+    "現金、現金等價物、有價證券及受限現金",
+    "2025 年 12 月 31 日 2024 年 12 月 31 日",
+    "重大現金需求",
+    "離表財務安排"
+   ],
+   "paragraphs": [
+    "您應閱讀下列對我們財務狀況與營運成果之討論與分析，並配合我們合併財務報表及其相關附註，這些內容出現在本年度報告表10-K之其他處。除了歷史資訊外，本討論與分析中部分資訊包含向前看的陳述，反映我們目前的預期，並涉及風險與不確定性。例如，關於我們對業務計畫與策略、未來財務表現、費用水準與流動性來源之預期，屬於向前看的陳述。我們實際結果與這些事件的時間點可能與向前看陳述中所討論者有重大差異，原因可能包括那些於「風險因素」部分及其他處所列舉的各項因素。",
+    "除非內容另有要求，否則「Supernus」、「我們」、「我們的」與「本公司」這幾個詞是指Supernus Pharmaceuticals, Inc.及其一個或多個子公司（視情況而定）。這些詞僅為讀者方便使用。Supernus Pharmaceuticals, Inc.及其各子公司為獨立的法律實體。例如，MDD US Operations, LLC為Supernus Pharmaceuticals, Inc.的 wholly-owned indirect subsidiary，為APOKYN在美國及其屬地的獨家經銷商。Adamas Operations, LLC為Supernus Pharmaceuticals, Inc.的 wholly-owned indirect subsidiary，完全擁有與GOCOVRI及Osmolex ER相關的專利與專利申請，並與Supernus Pharmaceuticals, Inc.簽有授權協議，使Supernus Pharmaceuticals, Inc.得以行銷與銷售GOCOVRI及Osmolex ER。Sage Therapeutics, LLC為Supernus Pharmaceuticals, Inc.的 wholly-owned indirect subsidiary，已授權Supernus Pharmaceuticals, Inc.在美國行銷與銷售zuranolone。",
+    "我們是一家專注於開發與商業化用以治療中樞神經系統（CNS）疾病的生物製藥公司。我們的神經科學產品組合包含已核准的治療注意力不足過動症（ADHD）、帕金森氏症（PD）患者接受左旋多巴療法時的運動障礙、PD患者的活動減少、產後憂鬱症（PPD）、癲癇、偏頭痛、頸部肌張力障礙與慢性流涎的治療方案。我們正在開發一系列新型CNS產品候選藥物，包括用於癲癇、憂鬱症及其他CNS疾病的潛在新治療方案。",
+    "2025年收購Sage Therapeutics, Inc.（Sage）與重整",
+    "於2025年7月31日，本公司完成先前宣佈的收購Sage，當時Saphire, Inc.為一家 Delaware 公司，為本公司之 wholly owned subsidiary（買方），與Sage（目標公司）合併，Sage成為合併後之存續公司，為本公司之 wholly owned subsidiary（Sage收購）。於Sage收購時，Sage已擁有其產品組閤中之已建立商業產品ZURZUVAE。",
+    "Sage收購後，於2025年第三季，Sage Therapeutics, Inc.被重整為Sage Therapeutics, LLC。",
+    "我們擁有商業產品與產品候選藥物之組合。商業產品",
+    "•Qelbree®（viloxazine）延效膠囊為一種新型非刺激性產品，用於治療6歲以上兒童與成人之ADHD。美國食品藥物管理局（FDA）於2021年4月核准Qelbree用於治療6至17歲兒童之ADHD，於2022年4月核准用於治療成人之ADHD。本公司於2021年5月在美國（U.S.）推出Qelbree用於治療兒童，於2022年5月推出用於治療成人。於2025年1月，FDA核准Qelbree之擴充標籤更新，包含有關藥物動力學與用於哺乳母親之新資料。",
+    "•GOCOVRI® (amantadine) extended-release capsules 是美國食品藥物管理局 (FDA) 首個且唯一核准用於治療帕金森氏症 (PD) 患者在接受左旋多巴基質治療時，出現運動障礙症狀 (dyskinesia)，且可與多巴胺受體藥物同時使用，或作為左旋多巴/卡比多巴治療的輔助治療藥物。",
+    "•ONAPGOTM (apomorphine hydrochloride) injection 是美國食品藥物管理局 (FDA) 首個且唯一核准用於治療晚期帕金森氏症 (PD) 患者運動波動 (motor fluctuations) 的皮下注射 apomorphine 持續輸注裝置。ONAPGO 於 2025 年 2 月獲 FDA 核准。ONAPGO 於 2025 年 4 月上市。",
+    "•ZURZUVAE® (zuranolone) capsules 是美國食品藥物管理局 (FDA) 首個且唯一核准用於治療成人憂鬱症後創傷症候羣 (PPD) 的口服藥物。ZURZUVAE 是一種神經活性類固醇，為 GABAA 受體的正向別構調節劑，針對",
+    "兩種突觸與非突觸 GABAA 受體，並為首個口服、每日一次、14 天治療方案，專門用於治療成人 PPD。ZURZUVAE 於 2023 年 12 月在美國上市，作為女性 PPD 患者的治療選擇。本公司與合作夥伴 Biogen 共同在美國市場推廣 ZURZUVAE，根據合作協議 (Biogen Collaboration Agreement)。本公司與 Biogen 對美國市場 ZURZUVAE 銷售所產生的營運利潤與損失均均分，Biogen 記錄該產品銷售。",
+    "•APOKYN® (apomorphine hydrochloride injection) 是用於治療帕金森氏症 (PD) 患者急性、間歇性運動減退 (hypomobility)、\"OFF\" 期 (\"end-of-dose wearing off\" 及無法預測的 \"ON/OFF\" 期) 的藥物。",
+    "•Trokendi XR® (topiramate) 是美國市場首個每日一次、緩釋型 topiramate 藥物，用於治療 6 歲以上患者的癲癇。它也用於預防 12 歲以上成人及青少年的偏頭痛。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "產業與營運相關風險",
+    "財務與資金需求相關風險",
+    "證券市場與投資本公司股票相關風險",
+    "一般風險因素",
+    "我們的營運依賴於我們產品在美國的商業成功",
+    "我們面臨與付款或管理照護給付政策相關的不確定性，若這些政策對我們的產品或產品候選藥物不利，可能會阻礙或阻止我們的商業成功",
+    "我們可能無法有效行銷並銷售我們的產品候選藥物（若獲得核准）於美國",
+    "若我們未能為我們的產品候選藥物取得行銷獨佔權，我們的業務可能會受損",
+    "若競爭對手開發或行銷用以治療我們目標適應症之替代方案，將導致我方商業機會減少或完全消失。",
+    "我方產品及產品候選藥物可能受到市場限制或遭撤市。若我方未能遵守相關法規要求，可能面臨處罰。"
+   ],
+   "paragraphs": [
+    "投資本公司業務涉及高度風險。在做出投資決定前，您應仔細考慮下列所描述的風險，並配合本報告中所包含的其他資訊，以及本公司向證券交易委員會（Securities and Exchange Commission，簡稱 SEC 或委員會）所提交的其他報告中所包含的額外資訊。這些風險可能對本公司業務、財務狀況及營運成果造成重大損害。若發生重大不利事件，本公司普通股的市場價格可能下跌，您可能損失部分或全部投資。",
+    "本公司面臨多種風險與不確定性，包括與產業及業務相關的風險、與財務與資金需求相關的風險、與證券市場及投資本公司股票相關的風險，以及某些一般性風險，這些風險可能對本公司業務、財務狀況、營運成果及現金流造成重大不利影響。以下摘要並非完整，且應參考本「風險因素」節中所列的完整風險因素。",
+    "• 本公司業務依賴於我們產品在美國的商業成功。",
+    "• 若 generic 或其他版本的我們產品，包括含有我們產品中一種或多種活性藥物成分的 generic 產品被核准並成功商業化，本公司業務可能遭受重大損害。",
+    "• 本公司面臨與付款或醫療照護給付政策相關的不確定性，若這些政策對我們的產品或產品候選藥物不利，可能阻礙或阻止我們的商業成功。",
+    "• 我們依賴經銷商、代理商及專門藥房來分銷我們的產品。若我們失去任何重要的經銷商、代理商或專門藥房客戶，本公司業務可能受損。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -463,7 +463,7 @@
     "（e）淨利息邊際係以總淨利息收入調整為全職等效基礎後計算，假設法定聯邦所得稅率為 21%，並計入適用的州所得稅。",
     "（f）比率係非利息收入扣除證券獲利（損失）除以總營業收入扣除證券獲利（損失）。",
     "（g）比率係非利息費用除以總營業收入扣除證券獲利（損失）。",
-    "FHN 2025 年 12 月 31 日財年實現普通股股東可分配淨收入 956 億美元，或每股稀釋後 1.87 美元，較 2024 年同期 738 億美元，或每股稀釋後 1.36 美元，增加 218 億美元。"
+    "{'FHN reported net income available to common shareholders of $956 million, or $1.87 per diluted share, for the year ended December 31, 2025, an increase of $218 million compared to $738 million, or $1.36 per diluted share, for the same period of 2024.': 'FHN 本年營業收入可供普通股股東使用的淨利為 956 百萬美元，或每股稀釋後普通股 1.87 美元，係指 2025 年 12 月 31 日為結算日之會計年度，較 2024 年相同期間之 738 百萬美元，或每股稀釋後普通股 1.36 美元，增加 218 百萬美元。'}"
    ]
   },
   "risk": {

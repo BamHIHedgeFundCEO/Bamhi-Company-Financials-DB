@@ -1,0 +1,217 @@
+{
+ "ticker": "MSGE",
+ "cik": "0001952073",
+ "accession": "0001628280-26-056286",
+ "form": "10-K",
+ "reportDate": "2026-06-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Strengths",
+    "Our Strategy",
+    "Our Business",
+    "Our Bookings Business",
+    "Our Productions",
+    "Intellectual Property",
+    "Our Community",
+    "Human Capital Resources",
+    "Financial Information about Geographic Areas"
+   ],
+   "paragraphs": [
+    "Madison Square Garden Entertainment Corp. is a Nevada corporation with its principal executive offices at Two Pennsylvania Plaza, New York, NY, 10121. Unless the context otherwise requires, all references to \"we,\" \"us,\" \"our,\" \"MSG Entertainment\" or the \"Company\" refer collectively to Madison Square Garden Entertainment Corp., a holding company, and its direct and indirect subsidiaries. We conduct substantially all of our business activities discussed in this Annual Report on Form 10-K through MSG Entertainment Holdings, LLC and its direct and indirect subsidiaries.",
+    "The Company was originally incorporated in the state of Delaware on September 15, 2022 as a direct, wholly-owned subsidiary of Sphere Entertainment Co. (\"Sphere Entertainment\"), formerly known as Madison Square Garden Entertainment Corp. On March 29, 2023, Sphere Entertainment's board of directors approved the distribution of approximately 67% of the outstanding common stock of the Company to its stockholders (the \"MSGE Distribution\"), with Sphere Entertainment retaining approximately 33% of the outstanding common stock of the Company (in the form of our Class A common stock, $0.01 par value per share (\"Class A common stock\")) immediately following the MSGE Distribution, which occurred on April 20, 2023 (the \"MSGE Distribution Date\"). Following the completion of secondary offerings by Sphere Entertainment in 2023, Sphere Entertainment no longer owns any of the Company's Class A common stock. On June 9, 2025, the Company completed its conversion from a corporation organized under the laws of the State of Delaware to a corporation organized under the laws of the State of Nevada.",
+    "Unless the context otherwise requires, all references to Sphere Entertainment refer to Sphere Entertainment together with its direct and indirect subsidiaries.",
+    "The Company reports on a fiscal year basis ending on June 30th. In this Annual Report on Form 10-K, the fiscal years ended on June 30, 2026, 2025 and 2024 are referred to as \"Fiscal Year 2026,\" \"Fiscal Year 2025,\" and \"Fiscal Year 2024,\" respectively, and the fiscal year ending June 30, 2027 is referred to as \"Fiscal Year 2027.\"",
+    "MSG Entertainment is a leader in live entertainment experiences, comprised of iconic venues and marquee entertainment content. Utilizing the Company's powerful brands and live entertainment expertise, the Company delivers unique experiences that set the standard for excellence and innovation while forging deep connections with diverse and passionate audiences. As of June 30, 2026, we managed our business through one reportable segment.",
+    "Our company includes (i) our portfolio of venues: Madison Square Garden (\"The Garden\"), the Infosys Theater at Madison Square Garden, Radio City Music Hall, the Beacon Theatre, and The Chicago Theatre, (ii) the original production, the Christmas Spectacular Starring the Radio City Rockettes (\"Christmas Spectacular\"), and (iii) our entertainment and sports bookings business, which showcases a broad array of compelling concerts, family shows and special events, as well as a diverse mix of sporting events, for millions of guests annually.",
+    "•Strong position in live entertainment through: ▪A portfolio of world-renowned venues; and",
+    "▪Marquee live entertainment brands and content; •Significant presence in New York, the leading live entertainment market;",
+    "•Deep industry relationships that drive top-tier performers and a wide variety of events to the Company's venues;",
+    "•Proven track record of delivering significant value for partners through innovative sponsorships and premium hospitality;",
+    "•Reputation for world-class customer experience driven by decades of expertise in sales and marketing, and venue operations;",
+    "•Expertise in utilizing data to drive decisions to maximize revenue and the experience of our guests;",
+    "•Long-term agreements to host home games at The Garden for two of the most recognized franchises in professional sports — the New York Knicks (the \"Knicks\") of the National Basketball Association (the \"NBA\") and the New York Rangers (the \"Rangers\") of the National Hockey League (the \"NHL\"); and",
+    "Our strategy is to create world-class live experiences for our guests and partners by leveraging (i) our Company's unique portfolio of live entertainment assets and brands; (ii) our expertise in venue management, bookings and productions, sponsorship, ticketing, marketing and premium hospitality and content development; (iii) our deep relationships across the entertainment and sports industries; and (iv) our strong connection with diverse and passionate audiences. We believe this strategy enables us to generate long-term value creation for our stockholders."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business",
+    "Our business faces intense and wide-ranging competition that may have a material negative effect on our business and results of operations.",
+    "Our business strategy may, in the future, include the development of new productions, which could require us to make considerable investments for which there can be no guarantee of success.",
+    "Our properties are subject to, and benefit from, certain easements, the availability of which may not continue on terms favorable to us or at all.",
+    "A change to or withdrawal of a New York City real estate tax exemption for the Madison Square Garden Complex may have a material negative effect on our business and results of operations.",
+    "Economic and Operational Risks",
+    "Our business has been adversely impacted and may, in the future, be materially adversely impacted by an economic downturn, recession, financial instability, inflation or changes in consumer tastes and preferences.",
+    "Our operations and operating results have been, and may in the future be, materially impacted by a pandemic or other public health emergency.",
+    "We do not own all of our venues and are subject to risks associated with leasing these venues and our corporate office space, any of which may have a material negative effect on our business and results of operations.",
+    "The geographic concentration of our business could subject us to greater risk than our competitors and have a material negative effect on our business and results of operations.",
+    "Our business could be adversely affected by terrorist activity or the threat of terrorist activity, weather and other conditions that discourage congregation at prominent places of public assembly.",
+    "We may pursue acquisitions and other strategic transactions and/or investments to complement or expand our business that may not be successful.",
+    "The redevelopment of Penn Station may disrupt the operations of The Garden, which may adversely affect our business and results of operations.",
+    "We are subject to extensive governmental regulation and our failure to comply with these regulations may have a material negative effect on our business and results of operations.",
+    "Our business is subject to seasonal fluctuations, and our operating results and cash flows have in the past varied, and could in the future, vary substantially from period to period.",
+    "Labor matters may have a material negative effect on our business and results of operations.",
+    "Risks Related to Indebtedness and Financial Condition",
+    "We have substantial indebtedness and are highly leveraged, which could adversely affect our business.",
+    "Risks Related to Cybersecurity and Intellectual Property",
+    "We have in the past and may in the future become subject to infringement or other claims relating to our content or technology.",
+    "Theft of our intellectual property may have a material negative effect on our business and results of operations."
+   ],
+   "paragraphs": [
+    "Our business competes, in certain respects and to varying degrees, with other leisure-time activities and entertainment options, such as television, radio, motion pictures, sporting events, music festivals and other live performances, restaurants and nightlife venues, the Internet, social media and social networking platforms, and online and mobile services, including sites for online content distribution, video on demand and other alternative sources of entertainment and information, in addition to competing for concerts, family shows, sporting events and other events with other event venues, for total entertainment dollars in our marketplace.",
+    "The success of our business is largely dependent on the continued success of the Christmas Spectacular, and the availability of, and our venues' ability to attract concerts, family shows, sporting events and other events, competition for which is intense, and the ability of performers to attract strong attendance at our venues. For example, The Garden, the Infosys Theater at Madison Square Garden, Radio City Music Hall and the Beacon Theatre all compete with other entertainment options in the New York City metropolitan area and elsewhere. The Chicago Theatre faces similar competition from other entertainment options in its market and elsewhere.",
+    "In addition, our business is highly sensitive to customer tastes and depends on our ability to attract artists and events. The success of our business depends in part upon our ability to offer live entertainment that is popular with customers. We contract with promoters and others to provide performers and events at our venues. There may be a limited number of popular artists, groups or events that can attract audiences to our venues, and our business would suffer to the extent that we are unable to continue to attract such artists, groups and events to perform at our venues.",
+    "In order to maintain the competitive positions of The Garden and our other venues, we must invest on a continuous basis in state-of-the-art technology. In addition, we must maintain a competitive pricing structure for events that may be held in our venues, many of which have alternative venue options available to them in New York and other cities. We invest in our Christmas Spectacular production to continue to attract audiences. We cannot be assured that such investments will generate revenues that are sufficient to justify our investment or even that exceed our expenses.",
+    "The success of our business depends on the continued popularity of the Christmas Spectacular production, and the entertainment and sporting events we host at our venues, the decline of which could have a material negative effect on our business and results of operations.",
+    "The financial results of our business are dependent on the Christmas Spectacular production, for which the 2025 production represented 18% of our revenues in Fiscal Year 2026. Fan and consumer tastes also change frequently and it is a challenge to anticipate what will be successful at any point in time. The popularity of the Christmas Spectacular has in the past declined, for example, as a result of the COVID-19 pandemic, and if it were to decline in the future (including, for example, due to an economic downturn or another pandemic or other public health emergency), our revenues from ticket sales and concession and merchandise sales would decline, possibly materially as they did during the COVID-19 pandemic, and we might not be able to replace the lost revenue with revenues from other sources."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Introduction",
+    "Business Overview",
+    "Description of Our Business",
+    "Revenue Sources",
+    "Revenues from Entertainment Offerings",
+    "Food, Beverage, and Merchandise Revenues",
+    "Arena License Fees and Other Leasing Revenue",
+    "Factors Affecting Results of Operations",
+    "Results of Operations",
+    "Consolidated Results of Operations",
+    "Comparison of Fiscal Year 2026 versus Fiscal Year 2025",
+    "Years Ended June 30, Change",
+    "2026 2025 Amount Percentage",
+    "Direct Operating Expenses Associated with Entertainment Offerings, Arena License Fees and Other Leasing",
+    "Direct Operating Expenses Associated with Food, Beverage, and Merchandise",
+    "Comparison of Fiscal Year 2025 versus Fiscal Year 2024",
+    "Liquidity and Capital Resources",
+    "Financing Agreements",
+    "Letters of Credit",
+    "Cash Flow Discussion",
+    "2026 2025 $ 351,435 $ 115,297 (29,786) (23,693) (71,029) (81,621) $ 250,620 $ 9,983 Operating Activities",
+    "Contractual Obligations",
+    "Payments Due by Period (c)",
+    "Total Year 1 Years 2-3 Years 4-5 More Than",
+    "Off Balance Sheet Arrangements",
+    "Seasonality of Our Business",
+    "Recently Issued Accounting Pronouncements and Critical Accounting Estimates",
+    "Recently Issued Accounting Pronouncements",
+    "Critical Accounting Estimates"
+   ],
+   "paragraphs": [
+    "We are a live entertainment company comprised of iconic venues and marquee entertainment content. Utilizing the Company's powerful brands and live entertainment expertise, the Company delivers unique experiences that set the standard for excellence and innovation while forging deep connections with diverse and passionate audiences.",
+    "We manage our business through one reportable segment. The Company's portfolio of venues includes: The Garden, the Infosys Theater at Madison Square Garden, Radio City Music Hall, the Beacon Theatre, and The Chicago Theatre. The Company's business includes the original production, the Christmas Spectacular. The Company also has an entertainment and sports bookings business, which showcases a broad array of compelling concerts, family shows and special events, as well as a diverse mix of sporting events, for millions of guests annually.",
+    "The Company conducts a significant portion of its operations at venues that it either owns or operates under long-term leases. The Company owns The Garden, the Infosys Theater at Madison Square Garden and The Chicago Theatre, and leases Radio City Music Hall and the Beacon Theatre.",
+    "All of the Company's revenues and assets are attributed to or located in the United States and are primarily concentrated in New York City."
+   ],
+   "focus": "Business Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Our Strengths': '我們的優勢'}",
+    "{'Our Strategy': '我們的策略'}",
+    "{'Our Business': '我們的業務'}",
+    "{'Our Bookings Business': '我們的預訂業務'}",
+    "{'Our Productions': '我們的製作'}",
+    "{'Intellectual Property': '智慧財產權'}",
+    "{'Our Community': '我們的社羣'}",
+    "{'Human Capital Resources': '人力資源'}",
+    "{'original': 'Financial Information about Geographic Areas', 'translated': '財務資訊關於地理區域'}"
+   ],
+   "paragraphs": [
+    "Madison Square Garden Entertainment Corp. 為一間內華達州公司，其主要營運辦公室位於紐約州紐約市兩 Pennsylvania Plaza，郵遞區號 10121。除非文意另有明確說明，所有提及「我們」、「我們」、「我們」、「MSG Entertainment」或「公司」之參考，均指 Madison Square Garden Entertainment Corp.，為一間控股公司，及其直接與間接之子公司。我們透過 MSG Entertainment Holdings, LLC 及其直接與間接之子公司，執行本 10-K 年度報告中所討論之幾乎所有營運活動。",
+    "該公司最初於 2022 年 9 月 15 日在特拉華州註冊成立，為 Sphere Entertainment Co.（「Sphere Entertainment」）之直接、完全擁有之子公司，Sphere Entertainment 原名為 Madison Square Garden Entertainment Corp.。2023 年 3 月 29 日，Sphere Entertainment 董事會批准將該公司約 67% 流通普通股分發給股東（「MSGE 分紅」），於 MSGE 分紅後，Sphere Entertainment 繼續持有該公司約 33% 流通普通股（以我們之 Class A 普通股，每股面值 0.01 美元（「Class A 普通股」）形式持有），此分紅於 2023 年 4 月 20 日完成（「MSGE 分紅日」）。於 2023 年 Sphere Entertainment 完成二次發行後，Sphere Entertainment 不再持有該公司任何 Class A 普通股。2025 年 6 月 9 日，該公司完成從特拉華州法規之公司轉變為內華達州法規之公司。",
+    "除非文意另有明確說明，所有提及 Sphere Entertainment 之參考，均指 Sphere Entertainment 連同其直接與間接之子公司。",
+    "該公司以財務年度為基礎進行會計報表，財務年度結算日為 6 月 30 日。於本 10-K 年度報告中，財務年度結算日為 2026 年 6 月 30 日、2025 年 6 月 30 日及 2024 年 6 月 30 日分別稱為「財務年度 2026」、「財務年度 2025」及「財務年度 2024」，而財務年度結算日為 2027 年 6 月 30 日則稱為「財務年度 2027」。",
+    "MSG Entertainment 是現場娛樂體驗的領導者，包含標誌性場地與知名娛樂內容。透過該公司強大品牌與現場娛樂專業知識，該公司提供獨特體驗，設定卓越與創新之標準，同時與多樣且熱情的觀眾建立深厚連結。截至 2026 年 6 月 30 日，我們透過一個應報告分部執行業務。",
+    "我們的公司包括：(i) 我們的場地組合：Madison Square Garden（「The Garden」）、Madison Square Garden 內之 Infosys Theater、Radio City Music Hall、Beacon Theatre 及 The Chicago Theatre；(ii) 原創製作，即 Christmas Spectacular Starring the Radio City Rockettes（「Christmas Spectacular」）；以及 (iii) 我們的娛樂與運動活動預訂業務，展示多樣且吸引人的音樂會、家庭節目與特別活動，以及多樣運動賽事，每年服務數百萬名旅客。",
+    "•在現場娛樂領域擁有強大地位：▪一組世界聞名的場地；以及",
+    "▪標誌性的現場娛樂品牌與內容；•在紐約擁有顯著地位，紐約為領先的現場娛樂市場；",
+    "•深厚的產業關係，驅動頂級表現者及多樣化的活動至本公司場地；",
+    "•已驗證的紀錄，透過創新贊助與高階會務服務為合作夥伴創造顯著價值；",
+    "•以數十年銷售與行銷經驗，以及場地營運專業，建立世界級的客戶體驗聲譽；",
+    "•善用數據驅動決策的專業，以最大化營收與賓客體驗；",
+    "•長期協議於The Garden舉辦兩大知名職業運動聯盟球隊主場賽事 —— 美國國家籃球協會（NBA）紐約尼克隊（\"Knicks\"）與美國國家冰球聯盟（NHL）紐約遊騎兵隊（\"Rangers\"）；",
+    "本公司策略為透過（i）本公司獨特的現場娛樂資產與品牌組合；（ii）在場地管理、預訂與製作、贊助、售票、行銷與高階會務及內容開發方面的專業能力；（iii）在娛樂與運動產業的深厚關係；以及（iv）與多樣且熱情的觀眾羣的強大連結，為賓客與合作夥伴創造世界級的現場體驗。我們相信此策略能為股東創造長期價值。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'Introduction': 'Introduction'}",
+    "{'Business Overview': '業務概覽'}",
+    "{'Description of Our Business': '業務說明'}",
+    "{'Revenue Sources': '收入來源'}",
+    "{'Revenues from Entertainment Offerings': '娛樂服務收入'}",
+    "{'Food, Beverage, and Merchandise Revenues': '餐飲、飲料及商品收入'}",
+    "{'Arena License Fees and Other Leasing Revenue': '場地授權費用及其他租賃收入'}",
+    "{'Factors Affecting Results of Operations': '影響營運成果的因素'}",
+    "營運成果",
+    "合併營運成果",
+    "財務年度2026年與財務年度2025年比較",
+    "截至6月30日止各年，變動",
+    "2026 2025 金額 百分比",
+    "與娛樂服務相關之直接營運費用、體育場館授權費用及其他租賃費用",
+    "與餐飲、飲料及商品相關之直接營運費用",
+    "財務年度2025年與財務年度2024年比較",
+    "流動性及資本資源",
+    "融資協議",
+    "信用證",
+    "現金流討論",
+    "2026 2025 $ 351,435 $ 115,297 (29,786) (23,693) (71,029) (81,621) $ 250,620 $ 9,983 營運活動",
+    "契約義務",
+    "按期間應支付金額 (c)",
+    "總計 第1年 第2-3年 第4-5年 超過",
+    "{'Off Balance Sheet Arrangements': '離財務報表表外之安排'}",
+    "{'Seasonality of Our Business': '業務之季節性'}",
+    "{'Recently Issued Accounting Pronouncements and Critical Accounting Estimates': '最近發佈之會計準則與關鍵會計估計'}",
+    "{'Recently Issued Accounting Pronouncements': '最近發佈之會計準則'}",
+    "{'Critical Accounting Estimates': '關鍵會計估計'}"
+   ],
+   "paragraphs": [
+    "本公司為一間現場娛樂公司，包含具有代表性的場地與標誌性的娛樂內容。透過本公司強大的品牌與現場娛樂專業知識，本公司提供獨特的體驗，設定卓越與創新之標準，同時與多樣且熱情的觀眾建立深厚連結。",
+    "本公司透過一個應報告分部經營業務。本公司場地組合包含：The Garden、Madison Square Garden 的 Infosys Theater、Radio City Music Hall、Beacon Theatre 與 The Chicago Theatre。本公司業務包含原創製作、聖誕奇觀演出。本公司亦擁有娛樂與體育活動預訂業務，展示廣泛且吸引人的音樂會、家庭演出與特別活動，以及多樣化的體育賽事，每年服務數百萬名旅客。",
+    "本公司在許多場地進行業務運作，這些場地為本公司所有或根據長期租賃協議經營。本公司擁有 The Garden、Madison Square Garden 的 Infosys Theater 與 The Chicago Theatre，並租賃 Radio City Music Hall 與 Beacon Theatre。",
+    "本公司所有收入與資產均歸屬於或位於美國，且主要集中在紐約市。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務相關的風險",
+    "我們的業務面臨激烈且範圍廣泛的競爭，可能對我們的業務及營運成果產生重大負面影響。",
+    "我們的業務策略未來可能包含新產品的開發，這可能需要我們進行大量投資，但無法保證一定成功。",
+    "我們的不動產受到某些權利的限制，並受益於這些權利，但這些權利的可用性可能無法持續以對我們有利的條件或完全無法使用。",
+    "紐約市對麥迪遜廣場花園複合體的實業稅豁免政策變更或取消，可能對我們的業務及營運成果產生重大負面影響。",
+    "經濟與營運風險",
+    "我們的業務已受到不利影響，未來可能進一步受到經濟衰退、金融危機、通貨膨脹或消費者品味與偏好變動等經濟因素的重大不利影響。",
+    "我們的營運及營運成果已受到，且未來可能進一步受到疫情或其他公共衛生緊急事件的重大影響。",
+    "本公司並未擁有所有場地，且因租賃這些場地及本公司總部辦公空間而面臨相關風險，任何風險均可能對本公司業務及營運成果造成重大負面影響。",
+    "本公司業務的地理集中性可能使其面臨較競爭對手更高的風險，並可能對本公司業務及營運成果造成重大負面影響。",
+    "本公司業務可能因恐怖攻擊或恐怖攻擊威脅、天氣及其他使民眾避免聚集於重要公共場所的條件而受到不利影響。",
+    "本公司可能進行收購及其他戰略交易及/或投資，以補充或擴展本公司業務，但這些交易可能無法成功。",
+    "賓州車站的重建可能幹擾「The Garden」的運作，可能對本公司業務及營運成果造成重大負面影響。",
+    "本公司受廣泛政府規範所制約，若本公司未能遵守這些規範，可能對本公司業務及營運成果造成重大負面影響。",
+    "本公司業務受季節性波動影響，過去營運成果及現金流已有所變動，未來亦可能出現大幅波動。",
+    "勞動事務可能對本公司業務及營運成果造成重大負面影響。",
+    "與負債及財務狀況相關的風險",
+    "本公司負債相當重大且財務槓桿極高，可能對本公司業務產生不利影響。",
+    "與網路安全及智慧財產權相關的風險",
+    "本公司過去曾且未來可能成為涉及本公司內容或技術之侵權或其他聲請之對象。",
+    "本公司智慧財產權遭竊可能對本公司業務及營運成果產生重大負面影響。"
+   ],
+   "paragraphs": [
+    "本公司業務在某些方面及不同程度上與其他休閒活動及娛樂選項競爭，例如電視、廣播、電影、體育賽事、音樂節及其它現場表演、餐廳及夜生活場所、網際網路、社交媒體及社交網路平台，以及線上和行動服務，包括線上內容分發網站、影音隨選及其它娛樂和資訊來源，此外也與其它活動場地競爭舉辦演唱會、家庭表演、體育賽事及其他活動，以爭取我們市場中的總娛樂開支。",
+    "本公司業務的成功在很大程度上取決於聖誕節特別演出的持續成功，以及該演出的可得性，以及我們場地吸引演唱會、家庭表演、體育賽事及其他活動的能力，競爭非常激烈，且表演者吸引觀眾的能力也至關重要。例如，The Garden、Infosys Theater at Madison Square Garden、Radio City Music Hall 和 Beacon Theatre 都在紐約市都會區及其他地區與其他娛樂選項競爭。芝加哥劇院在其市場及其它地區也面臨類似的競爭。",
+    "此外，本公司業務高度依賴顧客品味，並取決於我們吸引藝人和活動的能力。本公司業務的成功在一定程度上取決於我們能否提供受顧客歡迎的現場娛樂。我們與 promoters 及其他人合作，以在本公司場地提供表演者和活動。可能只有極少數受歡迎的藝人、團體或活動能吸引觀眾來本公司場地，若我們無法持續吸引這些藝人、團體和活動在本公司場地演出，本公司業務將受到影響。",
+    "為維持 The Garden 及其他場地的競爭地位，我們必須持續投資最先進的科技。此外，我們必須維持在本公司場地舉辦活動的競爭性價格結構，許多活動在紐約及其他城市都有替代場地選擇。我們投資於聖誕節特別演出的製作，以持續吸引觀眾。我們無法確保這些投資會產生足夠的收入來回報我們的投資，甚至可能超過我們的費用。",
+    "本公司業務的成功取決於聖誕節特別演出的持續人氣，以及我們在場地舉辦的娛樂和體育賽事，這些活動的衰退可能對本公司業務及營運成果產生重大負面影響。",
+    "本公司業務的財務表現取決於聖誕節特別演出，其中 2025 年的演出在財務年度 2026 年佔本公司營業收入的 18%。顧客及消費者品味也經常變動，預測何時會成功是一項挑戰。例如，過去聖誕節特別演出的人氣曾因 COVID-19 疫情而下降，若未來人氣再度下降（包括例如因經濟衰退或另一場疫情或其他公共衛生危機），我們的票務收入及附屬商品與服務收入將下降，可能大幅下降，如同 COVID-19 疫情期間一樣，我們可能無法用其他來源的收入來取代所損失的收入。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

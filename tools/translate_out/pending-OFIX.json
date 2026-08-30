@@ -1,0 +1,179 @@
+{
+ "ticker": "OFIX",
+ "cik": "0000884624",
+ "accession": "0001193125-26-065189",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Overview",
+    "Available Information and Orthofix Website",
+    "Business Segments",
+    "Global Spine",
+    "Primary Application",
+    "Product Categories",
+    "Global Limb Reconstruction",
+    "Products and Software",
+    "Product Development",
+    "Patents, Trade Secrets, Assignments and Licenses",
+    "Compliance and Ethics Program",
+    "Government Regulation"
+   ],
+   "paragraphs": [
+    "In this Annual Report, the terms \"we,\" \"us,\" \"our,\" \"Orthofix,\" and \"the Company\" refer to the combined operations of Orthofix Medical Inc. and its consolidated subsidiaries and affiliates, unless the context requires otherwise.",
+    "Orthofix is a global medical technology company headquartered in Lewisville, Texas. By providing medical technologies that heal musculoskeletal pathologies, Orthofix delivers exceptional experiences and life-changing solutions to patients around the world. Orthofix offers a comprehensive portfolio of spinal hardware, bone growth therapies, limb reconstruction solutions, biologics and enabling technologies, including the 7D FLASH Navigation System.",
+    "The Company was founded in Verona, Italy in 1980 and formally incorporated in 1987 in Curaçao as \"Orthofix International N.V.\" In 2018, we completed a change in our jurisdiction of organization from Curaçao to the State of Delaware and changed our name to \"Orthofix Medical Inc.\" As a result, we are a corporation existing under the laws of the State of Delaware.",
+    "In January 2023, we completed a \"merger of equals\" transaction with SeaSpine Holdings Corporation (\"SeaSpine\") whereby we acquired SeaSpine via an all-stock merger (the \"Merger\"). As a result of the Merger, each share of SeaSpine common stock issued and outstanding immediately prior to the closing of the Merger was converted into 0.4163 shares of Orthofix common stock. Following the Merger, the shares of common stock of Orthofix, as the corporate parent entity in the combined company structure, continued to trade on NASDAQ under the symbol \"OFIX\".",
+    "Our filings with the Securities and Exchange Commission (\"SEC\"), including our Annual Report on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, Proxy Statements for Meetings of Shareholders, registration statements, and amendments to those filings, are available free of charge on our website as soon as reasonably practicable after they are filed with, or furnished to, the SEC. Information contained on our website or connected to our website is not incorporated by reference into this Annual Report. Our website is located at www.orthofix.com. Our SEC filings are also available on the SEC website at www.sec.gov.",
+    "Orthofix operates the business through two reporting segments, Global Spine and Global Limb Reconstruction (formerly \"Global Orthopedics\"), which accounted for 84% and 16% of our total net sales in 2025, respectively. The chart below presents reported net sales, which includes product sales and marketing service fees, by reporting segment for each of the years ended December 31, 2025, 2024, and 2023.",
+    "Financial information regarding our reportable business segments and certain geographic information is included in Part II, Item 7 of this Annual Report under the heading \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" and Note 16 of the Notes to the Consolidated Financial Statements in Item 8 of this Annual Report.",
+    "Within the Global Spine segment, we provide implantable medical devices, biologics, enabling technologies, and other regenerative solutions which aim to restore the quality of life of patients suffering from diseases and traumas of the spine. We offer a variety of treatment solutions that uniquely incorporate multiple treatment modalities, such as mechanical, biological, and electromagnetic modes, to achieve desired clinical outcomes.",
+    "Our strategy for the Global Spine segment is to drive business growth through organic and inorganic innovation, physician collaboration, and partnerships with dedicated and high-performing commercial sales channels. Growth initiatives include:",
+    "• a regular cadence of new and differentiated product launches supporting our spinal implants and enabling technologies, biologics, and bone growth therapies portfolios;",
+    "• ongoing, global sales channel optimization and expansion;",
+    "• reinforcement of our bone growth stimulation business through the collection and dissemination of clinical evidence, and the delivery of new and novel value-added services;",
+    "• conducting clinical research to support and broaden our spinal implants, biologics, and bone growth stimulation portfolios;",
+    "• acquiring or licensing products and technologies, and acquiring or collaborating with other entities to further expand and enhance our spine portfolio;"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to our Business and Industry"
+   ],
+   "paragraphs": [
+    "In addition to the other information contained in this Annual Report and the exhibits hereto, you should carefully consider the risks described below. These risks are not the only ones that we may face. Additional risks not presently known to us or that we currently consider immaterial may also impair our business operations. This Annual Report also contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those anticipated in these forward-looking statements as a result of certain factors, including the risks faced by us described below or elsewhere in this Annual Report. Investing in our common stock involves a high degree of risk and if any of these risks or uncertainties occur, the trading price of our common stock could decline, and you could lose part or all of your investment.",
+    "We continue to integrate legacy businesses that operate in different market segments, and we may not be able to achieve all of our intended synergies between such legacy businesses.",
+    "In early 2023, we completed an all-stock merger whereby we acquired our SeaSpine business, which forms significant portions of the spinal implants and enabling technologies and biologics technologies portions of our Global Spine reporting segment. During the 3-year period since the merger closed, we have worked to gradually integrate these businesses into our existing operations. Such integration activities have included, among other things, rationalizing overlapping products, consolidating customer, distributor and other contracts from legacy businesses, addressing change in control, termination, buyout or other provisions in certain distributor, customer and other agreements, and unifying our employee base and various functional departments (e.g., such as research and development, human resources, finance, accounting, intellectual property, manufacturing, legal, regulatory and information technology). We have incurred substantial expenses in connection with these integration activities. While we have made substantial progress integrating these businesses, we continue to work to further integrate the businesses. There can be no assurance that we will be successful in integrating the businesses to the extent we plan or desire, or that we will realize the operating efficiencies, cost savings and other benefits that we seek to achieve through such activities.",
+    "Our business may be adversely affected if consolidation in the healthcare industry leads to demand for price concessions or if a GPO or similar entity excludes us from being a supplier.",
+    "Because healthcare costs have risen significantly over the past decade, numerous initiatives and reforms have been launched by legislators, regulators, and third-party payors to curb these costs. As a result, there has been a trend toward healthcare cost containment through aggregating purchasing decisions and industry consolidation, along with the growth of managed care organizations, all of which has placed increased emphasis on the delivery of more cost-effective medical therapies. For example:",
+    "• There has been consolidation among healthcare facilities and purchasers of medical devices, particularly in the U.S. One of the results of such consolidation is that GPOs, IDNs, and large single accounts use their market power to consolidate purchasing decisions, which intensifies competition to provide products and services to healthcare providers and other industry participants, resulting in greater pricing pressures and the exclusion of certain suppliers from important market segments. For example, some GPOs negotiate pricing for their member hospitals and require us to discount, or limit our ability to increase, prices for certain of our products. In particular, certain of our DBM products are priced at a premium to competitors' DBM products and a significant price reduction could result in a material adverse effect on our profitability."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Executive Summary",
+    "Results of Operations",
+    "Year ended December 31,",
+    "Net Sales by Reporting Segment",
+    "Percentage Change",
+    "(U.S. Dollars, in thousands)",
+    "Constant Currency",
+    "Gross Profit",
+    "Sales, General, and Administrative Expense",
+    "Research and Development Expense",
+    "Acquisition-related Amortization, Impairment, and Remeasurement",
+    "Non-operating Income (Expense)",
+    "Income Tax Expense",
+    "Liquidity and Capital Resources",
+    "Year Ended December 31,",
+    "Operating Activities",
+    "Investing Activities",
+    "Financing Activities",
+    "Unremitted Foreign Earnings",
+    "Contractual Obligations",
+    "Off-balance Sheet Arrangements",
+    "Critical Accounting Estimates",
+    "Non-GAAP Financial Measures"
+   ],
+   "paragraphs": [
+    "Orthofix is a global medical technology company headquartered in Lewisville, Texas. By providing medical technologies that heal musculoskeletal pathologies, we deliver exceptional experiences and life-changing solutions to patients around the world. Orthofix offers a comprehensive portfolio of spinal hardware, bone growth therapies, specialized orthopedic solutions, biologics, and enabling technologies, including the 7D FLASH navigation system.",
+    "In January 2023 we completed a \"merger of equals\" transaction with SeaSpine whereby we acquired SeaSpine via an all-stock merger. For additional discussion of the merger with SeaSpine, see Note 4 of the Notes to the Consolidated Financial Statements in Item 8 of this Annual Report. The shares of common stock of Orthofix, as the corporate parent entity in the combined company structure, continue to trade on NASDAQ under the symbol \"OFIX\".",
+    "In February 2025, we announced our intent to discontinue our M6-C artificial cervical disc and M6-L artificial lumbar disc product lines (together, the \"M6 artificial discs\" or \"M6 product lines\") in order to allocate associated resources and investments to more profitable growth opportunities. All pro forma measures contained within this discussion of our operating results exclude the impact of this decision to discontinue the product lines.",
+    "Notable financial results in 2025 include the following:",
+    "• Net sales of $822.3 million, including sales from our M6 artificial cervical and lumbar discs, and pro forma net sales of $811.9 million, excluding net sales from our M6 discs, representing an increase of 2.9% on a reported basis and 4.1% on a pro forma constant currency basis compared to the prior year",
+    "• Global Spine Fixation net sales growth of 10.1% on both a reported and pro forma constant currency basis over the prior year, inclusive of U.S. Spine Fixation net sales growth of 5.5% compared to prior year",
+    "• Bone Growth Therapies (\"BGT\") net sales of $247.2 million, representing growth of 5.9% compared to the prior year",
+    "• Global Limb Reconstruction net sales of $134.7 million, representing growth of 8.4% on a reported basis and 5.3% on a constant currency basis over the prior year, inclusive of U.S. Limb Reconstruction growth of 15.8% compared to the prior year"
+   ],
+   "focus": "Executive Summary"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Company Overview': '公司簡介'}",
+    "{'Available Information and Orthofix Website': '可取得資訊及 Orthofix 網站'}",
+    "{'Business Segments': '業務分部'}",
+    "{'Global Spine': '全球脊椎'}",
+    "{'Primary Application': '主要應用'}",
+    "{'Product Categories': '產品類別'}",
+    "{'Global Limb Reconstruction': '全球肢體重建'}",
+    "{'Products and Software': '產品與軟體'}",
+    "產品開發",
+    "專利、商業機密、讓與及授權",
+    "合規與倫理方案",
+    "政府規範"
+   ],
+   "paragraphs": [
+    "本年度年報中，\"we,\" \"us,\" \"our,\" \"Orthofix,\" 以及 \"the Company\" 一詞，係指 Orthofix Medical Inc. 以及其合併子公司與附屬公司的營運，除非文意另有要求。",
+    "Orthofix 為一全球醫療科技公司，總部設於德州 Lewisville。透過提供治療肌肉骨骼疾病之醫療科技，Orthofix 向全球患者提供卓越的醫療體驗與改變生命的解決方案。Orthofix 提供涵蓋脊椎硬體、骨生成療法、肢體重建解決方案、生物製品及啟動科技等完整產品組合，包括 7D FLASH 導航系統。",
+    "本公司於 1980 年在義大利 Verona 成立，並於 1987 年正式在庫拉索（Curaçao）註冊為 \"Orthofix International N.V.\"。2018 年，本公司完成組織管轄地從庫拉索至美國特拉華州的變更，並更名為 \"Orthofix Medical Inc.\" 因此，本公司為依據特拉華州法律設立之公司。",
+    "2023 年 1 月，本公司完成與 SeaSpine Holdings Corporation（\"SeaSpine\"）之 \"merger of equals\" 交易，透過全股票合併（\"Merger\"）取得 SeaSpine。根據 Merger，SeaSpine 每一股普通股於交易完成前發行且流通者，轉換為 0.4163 股 Orthofix 普通股。交易後，Orthofix 普通股，作為合併公司結構之母公司，繼續於 NASDAQ 以 \"OFIX\" 編碼交易。",
+    "本公司向美國證券交易委員會（\"SEC\"）提交之檔，包括年度報告表 10-K、季報表 10-Q、現況報告表 8-K、股東大會代理書、註冊聲明書及這些檔之更正檔，均可於本公司網站上免費取得，自這些檔提交或提供給 SEC 之後，盡速提供。本公司網站上或連結至本公司網站之資訊，並未納入本年度年報之參考。本公司網站為 www.orthofix.com。本公司向 SEC 提交之檔亦可於 SEC 網站 www.sec.gov 查閱。",
+    "Orthofix 透過兩應報告分部經營業務，Global Spine 與 Global Limb Reconstruction（原為 \"Global Orthopedics\"），分別佔本公司 2025 年總淨銷售額之 84% 與 16%。下圖顯示各年截至 2025 年 12 月 31 日、2024 年 12 月 31 日及 2023 年 12 月 31 日之應報告分部所報告之淨銷售額，包含產品銷售及行銷服務費用。",
+    "關於本公司應報告分部之財務資訊及部分地理資訊，請參閱本年度年報第二部分，第 7 項 \"管理層對財務狀況與營運結果之分析\"，以及本年度年報第八部分之財務明細表註 16。",
+    "在 Global Spine 分部內，本公司提供植入式醫療器材、生物製品、啟動科技及其他再生解決方案，旨在恢復患有脊椎疾病與創傷之患者之生活品質。本公司提供多種治療解決方案，獨特結合機械、生物及電磁等多種治療模式，以達成預期之臨牀結果。",
+    "本公司全球脊椎分部的策略為透過內生與外生創新、醫療人員合作，以及與專注且表現優異的商業銷售通路合作，推動業務成長。成長計畫包括：",
+    "• 以定期節奏推出新產品與差異化產品，支持本公司脊椎植入物與啟動技術、生物製品與骨頭生長療法產品組合；",
+    "• 持續進行全球銷售通路的優化與擴張；",
+    "• 透過收集與散佈臨牀證據，以及提供新穎且具附加價值的服務，強化本公司骨頭生長刺激業務；",
+    "• 進行臨牀研究，以支持並拓展本公司脊椎植入物、生物製品與骨頭生長刺激產品組合；",
+    "• 收購或授權產品與技術，以及與其他公司合作或併購，以進一步擴展與提升本公司脊椎產品組合；"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "執行摘要",
+    "營運成果",
+    "截至12月31日年度",
+    "應報告分部之淨銷售額",
+    "變動百分比",
+    "(美國美元, 萬)",
+    "固定貨幣",
+    "毛利",
+    "營銷、一般及行政費用",
+    "研究與發展費用",
+    "併購相關之攤銷、減值及重新衡量",
+    "非營運收入（費用）",
+    "所得稅費用",
+    "流動性及資本資源",
+    "截至12月31日年度",
+    "營運活動",
+    "{'Investing Activities': '投資活動'}",
+    "{'Financing Activities': '籌資活動'}",
+    "{'Unremitted Foreign Earnings': '未匯回之海外所得'}",
+    "{'Contractual Obligations': '契約義務'}",
+    "{'Off-balance Sheet Arrangements': '表外安排'}",
+    "{'Critical Accounting Estimates': '關鍵會計估計'}",
+    "{'Non-GAAP Financial Measures': '非GAAP財務指標'}"
+   ],
+   "paragraphs": [
+    "Orthofix 是一家全球醫療科技公司，總部設於德克薩斯州 Lewisville。透過提供治療肌肉骨骼疾病之醫療科技，我們為全球患者帶來卓越的體驗與改變生命的解決方案。Orthofix 提供完整的脊椎硬體、骨生長療法、專業骨科解決方案、生物製品及啟動科技，包括 7D FLASH 導航系統。",
+    "2023 年 1 月，我們完成一項「同等合併」交易，與 SeaSpine 合併，並以股票交換方式取得 SeaSpine。有關與 SeaSpine 合併之更多討論，請參閱本年度報告第 8 項「財務報表附註」第 4 註。Orthofix 作為合併後公司結構之母公司，其普通股繼續在 NASDAQ 交易，代碼為 \"OFIX\"。",
+    "2025 年 2 月，我們宣佈有意停止 M6-C 人工頸椎間盤與 M6-L 人工腰椎間盤產品線（合稱為 \"M6 人工間盤\" 或 \"M6 產品線\"），以將相關資源與投資轉向更具盈利潛力的成長機會。本討論中所有財務指標之 pro forma 測算均排除此停止產品線之影響。",
+    "2025 年重要財務結果如下：",
+    "• 淨銷售額為 822.3 百萬美元，包含 M6 人工頸椎間盤與腰椎間盤之銷售額，以及排除 M6 產品線之 pro forma 淨銷售額為 811.9 百萬美元，較上一年度報告基礎成長 2.9%，且以 pro forma 程度固定貨幣基礎成長 4.1%。",
+    "• 全球脊椎固定淨銷售額成長 10.1%，以報告基礎與 pro forma 程度固定貨幣基礎均較上一年度成長，包含美國脊椎固定淨銷售額成長 5.5% 與上一年度比較。",
+    "• 骨生長療法（\"BGT\"）淨銷售額為 247.2 百萬美元，較上一年度成長 5.9%。",
+    "• 全球肢體重建淨銷售額為 134.7 百萬美元，以報告基礎成長 8.4%，且以固定貨幣基礎成長 5.3%，包含美國肢體重建成長 15.8% 與上一年度比較"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'original': 'Risks Related to our Business and Industry', 'translated': '與本公司及產業相關之風險'}"
+   ],
+   "paragraphs": [
+    "除本年度年報及 herein 所附附屬文件中所包含之其他資訊外，您應謹慎考量下列所描述之風險。這些風險並非我們可能面臨之唯一風險。尚有其他風險，目前我們尚未知悉，或目前認為不重要，也可能影響我們之業務運作。本年度年報亦包含前瞻性陳述，這些陳述涉及風險與不確定性。我們實際之結果可能與這些前瞻性陳述所預期者有重大差異，原因在於某些因素，包括我們所面臨之風險，或本年度年報其他部分所描述之風險。投資本公司普通股涉及高度風險，若任何這些風險或不確定性發生，本公司普通股之交易價格可能下跌，您可能損失部分或全部之投資。",
+    "我們持續整合運作於不同市場區段之遺留業務，我們可能無法實現這些遺留業務之間所有預期之協同效益。",
+    "2023年初，我們完成一項全股票合併，以收購我們之 SeaSpine 事業，該事業構成我們 Global Spine 報告分部之脊椎植入物及啟動技術與生物技術之重要部分。自合併完成後的 3 年期間，我們已逐步將這些業務整合至現有運作中。此整合活動包括，但不僅限於，理清重疊產品、統合來自遺留業務之客戶、經銷商及其他契約、處理某些經銷商、客戶及其他契約中之控制權變更、終止、買斷或其他條款，以及統一我們之員工基礎與各項功能部門（例如研究與發展、人力資源、財務、會計、智慧財產權、製造、法律、法規與資訊科技）。我們已因這些整合活動產生大量費用。雖然我們已在整合這些業務方面取得顯著進展，我們仍持續努力進一步整合這些業務。無法保證我們能成功整合這些業務至我們預期或期望之程度，或能實現透過這些活動所尋求之運作效益、成本節省及其他利益。",
+    "本公司業務若因醫療保健產業整併導致需求價格讓步，或某個醫療採購聯盟（GPO）或類似機構排除本公司為供應商，將可能受到不利影響。",
+    "由於醫療成本在過去十年顯著上升，立法者、監管機構及第三方付款方已啟動許多計畫與改革措施，以控制這些成本。因此，已出現透過集中採購決策與產業整併來控制醫療成本的趨勢，並伴隨管理式醫療組織的成長，這些因素均使提供更具成本效益的醫療療法變得更加重要。例如：",
+    "• 醫療設施與醫療器材採購方已出現整併現象，尤其是在美國。此整併結果之一為醫療採購聯盟（GPO）、整合式醫療網路（IDN）及大型單一帳戶利用其市場力量集中採購決策，這加劇了向醫療提供者及其他產業參與者提供產品與服務的競爭，導致價格壓力增加，並使某些供應商被排除於重要市場區段之外。例如，某些GPO為其成員醫院談判價格，並要求本公司對部分產品進行折扣，或限制本公司提高價格的空間。特別是，本公司某些DBM產品的價格較競爭對手的DBM產品為高，若出現顯著價格減讓，將可能對本公司獲利能力造成重大不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

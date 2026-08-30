@@ -1,0 +1,180 @@
+{
+ "ticker": "WEYS",
+ "cik": "0000106532",
+ "accession": "0001104659-26-027690",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [],
+   "paragraphs": [
+    "The Company is a Wisconsin corporation incorporated in the year 1906 as Weyenberg Shoe Manufacturing Company. Effective April 25, 1990, the name of the corporation was changed to Weyco Group, Inc.",
+    "Weyco Group, Inc., and its subsidiaries (collectively, \"we,\" \"our,\" \"us,\" and the \"Company\") designs, markets, and distributes quality and innovative footwear principally for men, but also for women and children, under a portfolio of well-recognized brand names including: Florsheim, Nunn Bush, Stacy Adams, and BOGS. Trademarks we maintain on our brands are important to our business. Our products consist primarily of mid-priced leather dress shoes, casual footwear composed of man-made materials and leather, and outdoor boots, shoes, and sandals. Our footwear is available in a broad range of sizes and widths, primarily designed to meet the needs and desires of the general American population.",
+    "We purchase finished shoes from outside suppliers, primarily located in China and India, and to a lesser extent, in Cambodia, Vietnam, and the Dominican Republic. Almost all of these foreign-sourced purchases are denominated in U.S. dollars. While we source from more than 80 suppliers, our two largest suppliers, located in China, each accounted for more than 10% of our total inventory purchases in 2025. Costs from our suppliers have historically been relatively stable, although in recent years there have been upward cost pressures due to higher freight, labor, and material costs. In addition, tariffs and other trade protection measures, including the incremental tariffs imposed by the U.S. government in 2025, specifically on goods sourced from China, have increased our cost of goods across all brands.",
+    "Our business is separated into two reportable segments – the North American wholesale segment (\"Wholesale\") and the North American retail segment (\"Retail\"). We also have other wholesale and retail businesses overseas in Australia and South Africa (collectively, \"Florsheim Australia\"). Florsheim Australia previously included operations in the Asia-Pacific region, but we completed the wind down of that business in 2024.",
+    "Sales in our Wholesale segment, which include both wholesale sales and worldwide licensing revenues, constituted 78% and 79% of total net sales in 2025 and 2024, respectively. At Wholesale, our shoes are marketed by retailers throughout the United States and Canada in more than 10,000 shoe, clothing and department stores. In 2025 and 2024, no individual customer accounted for or exceeded 10% of our total net sales. We employ traveling salespeople and independent sales representatives who sell our products to retail outlets. Shoes are shipped to these retailers primarily from our distribution center in Glendale, Wisconsin. In the men's footwear business, there is generally no identifiable seasonality, although new styles are historically developed and shown twice each year, in spring and fall. With the BOGS brand, its strong presence in the winter and outdoor boot category results in some seasonality; the majority of BOGS sales occur in the third and fourth quarters. Consistent with industry practices, we carry significant amounts of inventory to meet customer delivery requirements and periodically provide extended payment terms to customers. We also have licensing agreements with third parties who sell our branded apparel, accessories, and specialty footwear in the United States, as well as our footwear in Mexico and certain markets overseas.",
+    "Sales in our Retail segment constituted 13% of total net sales in both 2025 and 2024. The Retail segment consists of e-commerce businesses and four brick and mortar stores in the United States. Retail sales are made directly to consumers on our websites, or by our employees in our stores. We believe that the results of our Retail segment will continue to be driven by our e-commerce businesses, as we have a limited number of brick-and-mortar stores. We intend to continue to focus on investing in and growing our e-commerce businesses.",
+    "Sales of our other businesses constituted 9% and 8% of total net sales in 2025 and 2024, respectively. These sales came from our retail and wholesale operations at Florsheim Australia.",
+    "As of December 31, 2025, we employed 569 persons worldwide, of whom 408 were full-time employees.",
+    "Brand recognition, price, quality, and service, are all important competitive factors in the shoe industry. We have a design department that continually reviews and updates product designs. Compliance with environmental and other government regulations historically has not had, and is not expected to have, a material impact on our results of operations, although there can be no assurances as to the future.",
+    "We make available, free of charge, copies of our annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, proxy statements on Schedule 14A and all amendments to those reports upon written or telephone request. Investors can also access these reports through our website, www.weycogroup.com, as soon as reasonably practical after we file or furnish those reports to the Securities and Exchange Commission (\"SEC\"). The contents of our website are not incorporated by reference and are not a part of",
+    "this filing. Also available on our website are various documents relating to our corporate governance, including our Code of Business Ethics."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk factors related to our operations",
+    "Government actions and regulations, such as export restrictions, tariffs and other trade protection measures could adversely affect our business.",
+    "A disruption in our supply chain could adversely affect our profitability.",
+    "Loss of the services of our top executives and an inability to effectively manage leadership transitions, could adversely affect the business.",
+    "If we fail to maintain effective internal control procedures over our financial reporting and disclosures, investor confidence may be adversely affected thereby affecting the value of our stock price.",
+    "We may not be able to successfully integrate new brands and businesses.",
+    "Risk factors related to our business and industry",
+    "Decreases in disposable income and general market volatility in the U.S. and global economy may adversely affect our Company.",
+    "We are subject to risks related to operating in the retail environment that could adversely impact our business.",
+    "We operate in a highly competitive environment, which may result in lower prices and reduced profits.",
+    "Changes in fashion trends and consumer preferences could negatively impact the Company.",
+    "We conduct business globally, which exposes us to the impact of foreign currency fluctuations as well as political, economic and social risks.",
+    "Risk factors related to cybersecurity",
+    "We are dependent on information and communication systems to support our business and e-commerce sales. Significant interruptions could disrupt our business and damage our reputation.",
+    "We are subject to the risk of data loss and security breaches, particularly in our retail segment and our e-commerce businesses.",
+    "Risk factors related to environmental, social, and corporate governance (\"ESG\")",
+    "The Company could be negatively impacted by stakeholder reactions to our ESG initiatives.",
+    "Risk factors related to public health emergencies",
+    "Future public health emergencies could materially adversely affect our business, financial condition and results of operations.",
+    "Risks related to financing, investment, and pension matters",
+    "Volatility and uncertainty in the U.S. and global credit markets could adversely affect our business.",
+    "Risk factors related to our capital structure",
+    "The limited public float and trading volume for our Company's stock may have an adverse impact on the stock price or make it difficult to liquidate."
+   ],
+   "paragraphs": [
+    "There are various factors that affect or might affect our business, results of operations and financial condition, many of which are beyond our control. The following is a description of some of the material factors that could materially and adversely affect our reputation, business, results of operations and financial condition. These disclosures reflect the Company's beliefs and opinions as to factors that could materially and adversely affect the Company and its securities in the future. References to past events are provided by way of example only and are not intended to be a complete listing or a representation as to whether or not such factors have occurred in the past or their likelihood of occurring in the future.",
+    "We rely on independent foreign sources of production and the availability of leather, rubber and other raw materials; a deterioration in our relationships, or other issues affecting such manufacturers and/or issues with the availability of raw materials could have unfavorable effects on our business.",
+    "We purchase all our products from independent foreign manufacturers, primarily in China and India. Although we believe that we have good working relationships with our manufacturers, we do not have long-term contracts with them. Thus, we could experience increases in manufacturing costs, disruptions in the timely supply of products or unanticipated reductions in manufacturing capacity, any of which could negatively impact our business, results of operations and financial condition. We can move production to different suppliers; however, the transition may not occur smoothly or quickly, or at the same cost, which could result in us missing customer delivery date requirements and, consequently, we could lose future orders and our reputation may be harmed.",
+    "Our use of foreign sources of production results in relatively long production and delivery lead times. Therefore, we typically forecast demand at least five months in advance. If our forecasts are wrong or there are significant changes in demand, it would result in a loss of sales if we do not have enough product on hand or in reduced margins if we have excess inventory that needs to be sold at discounted prices.",
+    "Our ability to import products in a timely and cost-effective manner may be affected by disruptions at U.S. or foreign ports or other transportation facilities, such as those due to labor disputes and work stoppages, political unrest, trade protection measures or trade wars, severe weather (climate change may increase the frequency and severity of severe weather conditions or events), outbreaks of infectious diseases, or security requirements in the United States and other countries. These issues could delay importation of products or require us to locate alternate ports or warehousing providers to avoid disruption to our customers. These alternatives may not be available on short notice or could result in higher transportation costs, which could have a material adverse impact on our overall profitability.",
+    "Our products depend on the availability of raw materials, especially leather and rubber. Any significant shortages of quantities or increases in the cost of leather or rubber would have an adverse effect on our business and results of operations, unless we were able to pass such costs along to our customers."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Financial Position Highlights",
+    "Gross earnings",
+    "Earnings from operations",
+    "Earnings before provision for income taxes",
+    "Net earnings",
+    "Years ended December 31,",
+    "Earnings from Operations",
+    "North American Wholesale Segment",
+    "Wholesale Earnings from Operations",
+    "North American Retail Segment",
+    "Retail Net Sales",
+    "Retail Earnings from Operations"
+   ],
+   "paragraphs": [
+    "We design, market, and distribute quality and innovative footwear principally for men, but also for women and children, under a portfolio of well-recognized brand names including: Florsheim, Nunn Bush, Stacy Adams, and BOGS. Inventory is purchased from third-party overseas manufacturers. Almost all of these foreign-sourced purchases are denominated in U.S. dollars. We have two reportable segments, North American wholesale operations (\"Wholesale\") and North American retail operations (\"Retail\"). In the Wholesale segment, our products are sold to leading footwear, department, and specialty stores, as well as e-commerce retailers, primarily in the United States and Canada. We also have licensing agreements with third parties who sell our branded apparel, accessories, and specialty footwear in the United States, as well as our footwear in Mexico and certain markets overseas. Licensing revenues are included in our Wholesale segment. Our Retail segment consists of e-commerce businesses and four brick-and-mortar retail stores in the United States. Retail sales are made directly to consumers on our websites, or by our employees in our stores. Our \"other\" operations included our wholesale and retail businesses in Australia and South Africa (collectively, \"Florsheim Australia\"). Florsheim Australia previously included operations in the Asia-Pacific region, but we completed the wind down of that business in 2024. The majority of our operations are in the United States, and our results are primarily affected by the economic conditions and the retail environment in the United States.",
+    "This discussion summarizes the significant factors affecting the consolidated operating results, financial position, and liquidity of our Company for the two-year period ended December 31, 2025. This discussion should be read in conjunction with Item 8, \"Financial Statements and Supplementary Data\" below.",
+    "In early 2025, the U.S. imposed reciprocal and retaliatory (\"incremental\") tariffs on imported goods. Throughout 2025, incremental tariffs increased the cost of our products, resulting in gross margin compression.",
+    "On February 20, 2026, the U.S. Supreme Court ruled that the International Emergency Economic Powers Act (IEEPA) does not authorize the President to impose tariffs, invalidating the statutory basis for incremental tariffs enacted since February 2025. The matter has been remanded to the Court of International Trade for further proceedings, including issues relating to implementation and potential refunds. We paid approximately $16 million of incremental tariffs in 2025. In December 2025, we filed a lawsuit seeking a refund for amounts paid in connection with the incremental tariffs imposed pursuant to IEEPA.",
+    "The President responded to the ruling by announcing the implementation of a 10% across-the-board tariff under a separate statutory authority. The Administration has indicated that rates could be increased, subject to statutory limits. Certain other tariffs imposed under authorities independent of IEEPA remain in effect. U.S. trade policies remain fluid and unpredictable, creating near-term gross margin uncertainty. We have mitigation strategies in place and will continue to adjust as needed in response to future policy developments.",
+    "2025 was a difficult year for the Company, with sales declining 5% compared to 2024. While we are never content with a decline, given the challenges we faced related to tariffs and dampened consumer sentiment, we are pleased with the work done by our production and sales teams to navigate these economic headwinds.",
+    "For an extended period during the second quarter, we faced incremental tariff rates that rendered trade with China, our largest sourcing country, commercially prohibitive. Because the second quarter is a primary manufacturing period for our key Fall shipping window, this created a strong likelihood of disrupted deliveries to both our wholesale partners and our direct-to-consumer business. By strategically keeping production running on key programs and holding finished goods overseas, we positioned ourselves to deliver nearly 100% of our Fall shipments on time once tariffs were reduced to commercially viable levels.",
+    "Throughout 2025, new tariffs increased the cost of our products, resulting in gross margin compression despite a 10% price increase that took effect in July. Over the past year, we also made progress in diversifying our manufacturing base to be less China-centric.",
+    "Sales of our combined legacy business declined 4% for the year. Given the uncertain economic environment, particularly in soft goods, our Wholesale customers continued to take a conservative approach to inventory management.",
+    "The Florsheim brand achieved record sales of $92.0 million in 2025, a 2% increase over 2024. Sell-throughs of traditional dress and refined casual footwear have been strong, and the brand continues to make progress in the hybrid and dress sneaker categories.",
+    "Our Nunn Bush business declined 10% for the year. The mid-tier trade channels, which account for the majority of Nunn Bush's volume, remained under pressure, negatively impacting sales. As an opening price-point brand with major retailers, Nunn Bush also faces increased competition from private-label programs, as stores seek to improve margins. We believe we are taking the necessary steps to return Nunn Bush to growth, including value engineering product to meet key price points while delivering attributes and benefits not typically found in private-label offerings. Retail sell-through of Nunn Bush remains solid.",
+    "Stacy Adams' sales declined 9% for the year, reflecting continued challenges in the fashion dress shoe market. While the Stacy Adams brand remains a leader in this category, retailers are devoting less inventory and shelf space to dress shoes. Our focus with Stacy Adams continues to be on expanding categories beyond its core elevated dress offerings.",
+    "The BOGS business remains difficult, with sales down 11% for the year. While early winter cold and snowfall resulted in strong sell-through of BOGS product, Fall sell-in declined year over year as retailers maintained a conservative, chase-based inventory strategy for seasonal product. Retailers ended the season with lower inventory levels, and we are now seeing strong booking increases for Fall 2026. While we are optimistic about improvement this year, we remain mindful of the long-term impact of climate change on the weather boot category. Our priority continues to be the development of footwear designed for multi-season use.",
+    "During 2025, we made the strategic decision to wind down operations of the Forsake brand due to its sustained lack of growth and profitability. This decision is part of our ongoing effort to optimize our brand portfolio and focus on those brands with the greatest potential for long-term success. The closure of Forsake is not expected to have a material impact on our consolidated financial statements."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "paragraphs": [
+    "本公司為威斯康辛州公司，於1906年成立為Weyenberg鞋製造公司。自1990年4月25日起，本公司名稱變更為Weyco Group, Inc。",
+    "Weyco Group, Inc.及其子公司（合稱「本公司」、「我們」、「我們」及「公司」）設計、行銷與分銷高品質且具創新性的鞋類產品，主要為男性，但也為女性與兒童，並以一系列廣為認知的品牌名稱為主，包括：Florsheim、Nunn Bush、Stacy Adams與BOGS。我們所維護的商標對本公司業務至關重要。我們的產品主要為中價位皮革禮服鞋、以人造材料與皮革製成的休閒鞋類，以及戶外靴子、鞋類與涼鞋。我們的鞋類產品提供廣泛的尺寸與寬度選擇，主要設計用以符合一般美國大眾的需求與喜好。",
+    "我們從外部供應商處購買成品鞋類，這些供應商主要位於中國與印度，其次為柬埔寨、越南與多明尼加共和國。幾乎所有這些進口採購均以美元計價。雖然我們有超過80家供應商，但我們兩家最大的供應商位於中國，各自在2025年佔據我們總採購存貨超過10%。我們從供應商處取得的成本歷來相對穩定，不過近年來因運輸、人工與材料成本上升，導致成本壓力上揚。此外，關稅與其他貿易保護措施，包括美國政府於2025年針對中國來源商品所加徵的額外關稅，也使我們所有品牌的商品成本增加。",
+    "本公司業務分為兩個應報告分部 – 北美批發分部（「批發」）與北美零售分部（「零售」）。我們也在澳洲與南非擁有其他批發與零售業務（合稱「Florsheim澳洲」）。Florsheim澳洲先前包含亞太地區的業務，但我們已在2024年完成該業務的收攏。",
+    "我們批發分部的銷售，包括批發銷售與全球授權收入，於2025年與2024年分別佔總淨銷售額的78%與79%。在批發分部，我們的鞋類產品由美國與加拿大境內的零售商透過超過10,000家鞋類、服飾與百貨公司進行行銷。在2025年與2024年，沒有任何單一客戶佔據或超過我們總淨銷售額的10%。我們聘請專屬銷售人員與獨立銷售代表，將產品銷售給零售通路。這些零售商主要從我們位於威斯康辛州格倫代爾的配送中心接收鞋類產品。在男性鞋類業務中，通常沒有明顯的季節性，不過新款式歷史性地每年春季與秋季各推出一次。以BOGS品牌而言，其在冬季與戶外靴類的強勢表現導致部分季節性；BOGS銷售的大多數發生在第三與第四季。根據產業慣例，我們持有大量存貨以應對客戶的出貨需求，並定期提供客戶延長的付款條件。我們也與第三方簽訂授權協議，由其在美國銷售我們的品牌服飾、配件與專業鞋類，以及在墨西哥與某些海外市場銷售我們的鞋類產品。",
+    "我們零售分部的銷售於2025年與2024年分別佔總淨銷售額的13%。零售分部包含美國的電商業務與四間實體門市。零售銷售直接由我們的網站或員工在門市內對消費者進行。我們認為零售分部的表現將持續受到我們電商業務的驅動，因為我們實體門市的數量有限。我們有意繼續投資並擴張我們的電商業務。",
+    "我們其他業務的銷售於2025年與2024年分別佔總淨銷售額的9%與8%。這些銷售來自於Florsheim澳洲的零售與批發業務。",
+    "截至2025年12月31日，我們全球僱用569名員工，其中408名為全職員工。",
+    "品牌認知度、價格、品質與服務，皆為鞋業中重要的競爭因素。本公司設有設計部門，持續審視並更新產品設計。遵守環境及其他政府規範，歷來並未對本公司營運成果產生重大影響，未來亦不預期會有重大影響，不過無法保證未來情況。",
+    "本公司提供免費取得年度報告（Form 10-K）、季報（Form 10-Q）、現況報告（Form 8-K）、股東會資料（Schedule 14A）及所有這些報告之更正版本，投資人可經書面或電話請求取得。投資人亦可透過本公司網站 www.weycogroup.com，於本公司向證券交易委員會（\"SEC\"）提交或提供這些報告後盡速取得這些報告。本公司網站之內容並未被引用為參考，亦非本申報文件之一部分。",
+    "本公司網站亦提供與公司治理相關之多種文件，包括本公司商業倫理守則（Code of Business Ethics）。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "財務狀況重點",
+    "毛利",
+    "營運獲利",
+    "稅前獲利",
+    "淨利",
+    "截至12月31日年度",
+    "營運獲利",
+    "北美零售分部",
+    " Wholesale 營業收入",
+    " 北美洲零售分部",
+    " 零售淨銷售額",
+    " 零售營業收入"
+   ],
+   "paragraphs": [
+    "我們設計、行銷與分銷高品質且具創新性的鞋類產品，主要針對男性，但也針對女性與兒童，透過一系列廣為認知的品牌名稱組合，包括：Florsheim、Nunn Bush、Stacy Adams 以及 BOGS。存貨是由第三方海外製造商購入。幾乎所有這些來自海外的採購均以美元計價。我們有兩個應報告分部，即北美批發業務（\"批發\"）與北美零售業務（\"零售\"）。在批發分部，我們的產品銷售給領導的鞋類、百貨與專業商店，以及電商零售商，主要位於美國與加拿大。我們也與第三方簽訂授權協議，讓他們在美國銷售我們的品牌服飾、配件與專業鞋類，並在墨西哥與某些海外市場銷售我們的鞋類。授權收入包含在我們的批發分部中。零售分部包括電商業務與美國的四間實體零售商店。零售銷售直接對消費者透過我們的網站或由我們員工在商店內進行。我們的 \"其他\" 業務包括我們在澳洲與南非的批發與零售業務（合稱 \"Florsheim Australia\"）。Florsheim Australia 過去包含亞太地區的業務，但我們已在 2024 年完成該業務的收攏。我們的大多數業務位於美國，我們的營運成果主要受美國經濟狀況與零售環境的影響。",
+    "本討論總結影響本公司合併營運成果、財務狀況與流動性的重大因素，時間範圍為截至 2025 年 12 月 31 日的兩年期間。本討論應與下文的第 8 項 \"財務報表與補充資料\" 一併閱讀。",
+    "2025 年初，美國對進口商品課徵相互與報復性（\"增量\"）關稅。在 2025 年期間，增量關稅提高了我們產品的成本，導致毛利率收縮。",
+    "2026 年 2 月 20 日，美國最高法院裁定國際緊急經濟權力法（IEEPA）不允許總統課徵關稅，使自 2025 年 2 月以來實施的增量關稅缺乏法律依據。此事件已移交國際貿易法院進行進一步審理，包括有關執行與潛在退款的問題。我們在 2025 年支付了約 16 百萬美元的增量關稅。2025 年 12 月，我們提起訴訟，請求退款，以償還根據 IEEPA 課徵的增量關稅所支付的金額。",
+    "總統對此裁決的回應是宣佈根據另一項法律授權，實施 10% 的全面性關稅。行政部門表示，稅率可能提高，但受法律限制。根據與 IEEPA 無關的其他法律課徵的某些關稅仍持續生效。美國貿易政策仍處於流動與不可預測的狀態，造成短期毛利率的不確定性。我們已制定緩衝策略，並會根據未來政策發展持續調整。",
+    "2025 年對本公司而言是困難的一年，銷售額較 2024 年下降 5%。雖然我們從來都不滿意銷售下降，但考慮到我們面臨的關稅問題與消費者情緒低落的挑戰，我們對生產與銷售團隊在應對這些經濟逆風所做的努力感到滿意。",
+    "在第二季期間，我們面臨增量關稅率，使與中國（我們最大的來源國）的貿易變得商業上不可行。由於第二季是我們關鍵秋季出貨窗口的主要製造時期，這導致我們對批發夥伴與直接對消費者業務的出貨可能受到嚴重影響。透過戰略性地維持關鍵計畫的生產，並將成品存放在海外，我們成功地在關稅降低至商業可行水平後，幾乎 100% 按時完成秋季出貨。",
+    "在 2025 年期間，新關稅提高了我們產品的成本，導致毛利率收縮，儘管在 7 月生效的 10% 價格上漲。過去一年，我們也取得進展，使製造基地更加分散，減少對中國的依賴。",
+    "本公司合併後的傳統業務銷售額年減4%。考慮到總體經濟環境的不確定性，特別是在軟性商品領域，我們的 Wholesale 客戶持續採用保守的存貨管理方式。",
+    "Florsheim 品牌在 2025 年達成 92.0 百萬美元的銷售紀錄，較 2024 年成長 2%。傳統正裝與優雅休閒鞋類的銷售表現強勁，且該品牌持續在混合式與正裝運動鞋類產品類別中取得進展。",
+    "本公司Nunn Bush業務年減10%。中階貿易通路，佔Nunn Bush銷售量的大多數，持續面臨壓力，對銷售造成負面影響。作為開價點品牌與主要零售通路的合作夥伴，Nunn Bush也面臨來自私標計畫的競爭增加，因商店致力於改善毛利率。我們認為我們正在採取必要的措施讓Nunn Bush重返成長，包括價值工程產品以符合關鍵價格點，同時提供通常不在私標產品中出現的屬性和好處。Nunn Bush的零售銷售表現依然堅強。",
+    "Stacy Adams的銷售額年減9%，反映持續在時尚正裝鞋市場的挑戰。雖然Stacy Adams品牌在該類別中仍為領導者，但零售商對正裝鞋的存貨與架位投入減少。我們對Stacy Adams的重點持續放在擴展其核心高檔正裝鞋以外的產品類別。",
+    "BOGS業務持續困難，銷售額年減11%。雖然早冬的寒冷與降雪導致BOGS產品銷售表現強勁，但秋季銷售入庫較去年同期下降，因零售商維持保守的追趕式存貨策略以應對季節性產品。零售商在季節結束時存貨水位較低，我們現在觀察到2026年秋季的訂單增加強勁。雖然我們對今年的改善持樂觀態度，但我們仍謹慎看待氣候變遷對天氣靴類別的長期影響。我們的優先事項持續為開發適用於多季使用的鞋類產品。",
+    "在2025年，我們做出戰略決定，因Forsake品牌的持續缺乏成長與獲利能力而逐步關閉其業務。此決定為我們持續努力優化品牌組合、專注於長期成功潛力最大的品牌之一的部分。Forsake的關閉不預期對我們合併財務報表產生重大影響。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素與我們的營運相關",
+    "政府措施與規範，例如出口限制、關稅及其他貿易保護措施，可能對我們的業務產生負面影響。",
+    "我們供應鏈的中斷可能對我們的獲利能力產生負面影響。",
+    "失去我們高階主管的服務，以及無法有效管理領導層過渡，可能對業務產生負面影響。",
+    "若我們未能維持有效的內部控制程序以確保財務報導與揭露，投資人信心可能受到負面影響，進而影響我們股票價格的價值。",
+    "我們可能無法成功整合新品牌與業務。",
+    "風險因素與我們的業務與產業相關",
+    "可支配所得減少及美國與全球總體經濟的一般市場波動，可能對本公司產生負面影響。",
+    "本公司面臨在零售環境營運相關的風險，可能對本公司業務產生不利影響。",
+    "本公司營運於高度競爭的環境中，可能導致價格下降及利潤減少。",
+    "服飾時尚趨勢及消費者偏好之變化可能對本公司產生負面影響。",
+    "本公司業務遍及全球，因此面臨外幣波動的影響，以及政治、經濟與社會風險。",
+    "與網路安全相關的風險因素",
+    "本公司依賴資訊與通訊系統以支撐業務及電子商務銷售。重大中斷可能幹擾本公司業務並損害本公司聲譽。",
+    "本公司面臨資料遺失及安全入侵的風險，尤其在零售業務及電子商務業務中更為顯著。",
+    "與環境、社會及企業治理（\"ESG\"）相關的風險因素",
+    "本公司可能因股東對我們ESG方案的反應而受到負面影響。",
+    "與公共衛生緊急事件相關的風險因素",
+    "未來的公共衛生緊急事件可能對我們的業務、財務狀況及營運成果造成重大不利影響。",
+    "與融資、投資及退休金相關的風險因素",
+    "美國及全球信貸市場的波動性與不確定性可能對我們的業務造成不利影響。",
+    "與本公司資本結構相關的風險因素",
+    "本公司股票的有限公開流通量與交易量可能對股票價格造成不利影響，或使股票難以兌現"
+   ],
+   "paragraphs": [
+    "有許多因素會影響或可能影響我們的業務、營業成果與財務狀況，其中許多因素是我們無法控制的。以下為一些可能對我們聲譽、業務、營業成果與財務狀況產生重大且不利影響的重要因素之描述。這些揭露內容反映本公司對可能對本公司及其證券產生重大且不利影響因素之看法與信念。提及過去事件僅為說明之用，並非完整清單，亦不表示這些因素是否已發生於過去，或其未來發生之可能性。",
+    "我們依賴獨立之海外生產來源，以及皮革、橡膠等原材料之可得性；我們與製造商之關係惡化，或其他影響製造商之問題，或原材料之可得性問題，可能會對我們之業務產生不利影響。",
+    "我們所有產品皆向獨立之海外製造商購買，主要位於中國與印度。雖然我們認為與製造商之間有良好之合作關係，但我們與製造商並無長期契約。因此，我們可能面臨製造成本增加、產品供應延誤或製造能力意外減少等問題，任何一種情況都可能對我們之業務、營業成果與財務狀況產生負面影響。我們可以將生產轉移至其他供應商；然而，轉換過程可能不會順利或迅速進行，或成本相同，這可能會導致我們無法符合客戶之交貨日期要求，進而導致我們失去未來訂單，且聲譽可能受損。",
+    "我們使用海外生產來源，導致生產與交貨之週期相對較長。因此，我們通常至少提前五個月預測需求。若我們之預測錯誤，或需求有重大變動，則若我們庫存不足，將導致銷售減少；若庫存過多，則可能需以折扣價格出售，導致毛利率下降。",
+    "我們以時效且成本效益方式進口產品之能力，可能受到美國或海外港口或其他運輸設施之中斷影響，例如因勞工罷工與停工、政治動盪、貿易保護措施或貿易戰、極端天氣（氣候變遷可能增加極端天氣事件之頻率與嚴重性）、傳染病爆發，或美國及其他國家之安全要求等因素影響。這些問題可能導致產品進口延誤，或迫使我們尋找替代港口或倉儲服務提供者，以避免對客戶造成中斷。這些替代方案可能無法在短時間內取得，或導致運輸成本增加，這可能會對我們整體獲利產生重大負面影響。",
+    "我們之產品依賴原材料之可得性，尤其是皮革與橡膠。若皮革或橡膠出現重大短缺，或其成本大幅上升，除非我們能將這些成本轉嫁給客戶，否則將對我們之業務與營業成果產生負面影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

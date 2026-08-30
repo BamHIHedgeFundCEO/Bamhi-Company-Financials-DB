@@ -1,0 +1,205 @@
+{
+ "ticker": "OPFI",
+ "cik": "0001818502",
+ "accession": "0001818502-26-000019",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Overview",
+    "Corporate Structure",
+    "Market Opportunity",
+    "Significant Percentage of U.S. Consumers Face Credit Insecurity, Have Non-Prime Credit, Lack Sufficient Savings, and Live Paycheck-to-Paycheck",
+    "Banks and Other Credit Providers Have Been Slow to Adopt Digital Technology for Consumer Lending.",
+    "OppLoans Platform",
+    "OppFi's Competitive Advantages",
+    "Digitally-Native Solution",
+    "Bank Partner Model",
+    "Technology, Engineering Talent and Product Architecture",
+    "Proprietary, Data Driven Decisioning and Risk Models",
+    "Multi-Sided Ecosystem",
+    "Integrated and Efficient Multi-Channel Marketing Approach",
+    "Commitment to Customer Service",
+    "OppFi's Growth Strategy",
+    "Available Information",
+    "Government Regulation",
+    "Federal Lending and Related Laws",
+    "State Lending Regulations"
+   ],
+   "paragraphs": [
+    "OppFi is a tech-enabled, mission-driven specialty finance platform that broadens the reach of community banks to extend credit access to everyday Americans. Through transparency, responsible lending, financial inclusion, and an excellent customer experience, the Company supports consumers, who are turned away by mainstream options, to build better financial health. OppFi's primary mission is to facilitate financial inclusion and credit access to the 48 million everyday Americans who face credit insecurity, through its products and an unwavering commitment to its customers. Unlike payday loans and similar credit products that typically do not provide transparency, fairness, and ability to repay guidelines, OppFi is dedicated to offering the best possible product and service through its platform. The average installment loan for a new borrower facilitated by OppFi with its OppLoans platform is approximately $1,950, payable in installments and with an average contractual term of 11 months. Payments are reported to the three major credit bureaus. OppFi's dedication to borrowers is further evidenced by the OppFi TurnUp Program, which is described below and most importantly, by its strong customer satisfaction ratings.",
+    "OppFi's platform provides one of the highest rated customer experiences in the industry and powers banks to offer credit products. Customers on OppFi's platform benefit from a highly automated, transparent, efficient, and fully digital experience. The banks that work with OppFi benefit from its turn-key, outsourced marketing, data science, and proprietary technology to digitally acquire, underwrite and service these consumers. From inception through December 31, 2025, OppFi has facilitated more than $8.6 billion in gross loan issuance covering more than 4.7 million loans.",
+    "OppFi's primary product is offered by its OppLoans platform. Customers on this platform are generally U.S. consumers, who are employed, have bank accounts, and earn median wages. Some have experienced a hardship or emergency and need a loan; others are struggling to make ends meet; while others have unplanned expenses. When these consumers apply for a traditional loan through a bank, they are often rejected due to their credit score.",
+    "The OppFi platform is a mobile-optimized online application where eligible applicants, at their request, are able to opt into the OppFi TurnUp Program. This program helps these applicants find more affordable credit options by checking the market voluntarily on their behalf for sub-36.0% annual percentage rate, or APR, products offered by third-party lenders through other platforms. If any lower cost products are identified, OppFi displays the offers from the applicable lenders and consumers can choose to finish their application at the website of such lender. At that point, the applicant leaves OppFi's website. If no alternative credit options are available with an APR of less than 36.0%, the application is processed through OppFi's underwriting platform which utilizes machine learning, bank-approved, proprietary algorithms. This process is designed to allow for maximum value and benefit to be realized by all parties.",
+    "OppFi collects and calculates more than 500 attributes on loan applications for use in credit decisions. These attributes are based on data from credit bureaus, bank transactions and loan applications. Using this information, OppFi generates a proprietary score in combination with scores generated from third party providers. The proprietary score determines the exact loan terms to be offered to an applicant by the applicable bank partner.",
+    "OppFi's platform offers consumers a streamlined application experience that is simple, easy and transparent. Approximately 93.7% of credit decisions on the OppFi platform were automated during the year ended December 31, 2025. Most applicants receive their funds either the same business day or the next business day after they are approved. Qualified customers who apply and are approved by 1:00 pm ET on a business day are eligible for funding on the same day their applications are approved.",
+    "This process provides consumers with access to fair, transparent credit as well as an opportunity to build financial health over time through our standard reporting to the three major credit bureaus. Installment loans through the OppFi platform have no fees (neither origination, nor late, nor insufficient funds). Customers are offered transparent and flexible repayment options, including allowing customers to make payments for their full-term, as well as allowing them to prepay their loans with no penalties.",
+    "In pursuit of its mission to provide financial inclusion to everyday Americans, OppFi focuses not only on facilitating access to credit but also offering education to build financial health through multiple platforms. OppFi collaborates with the mobile and web app Zogo to connect customers with over 1,100 personal finance lessons, from opening a bank account to saving for retirement. This gamified learning experience allows customers to redeem gift card rewards for completing short-",
+    "form, easily digestible modules. Further, OppFi's internal financial education initiative, OppU, provides free, standards-aligned courses intended to teach financial literacy. With OppU, both customers and non-customers can learn what it takes to build credit as well as how to budget and manage their finances.",
+    "OppFi believes that it has achieved significant scale with the OppLoans product. As of December 31, 2025, OppFi had served more than 1.6 million unique customers since its inception. OppFi's net promoter score (NPS) was 78 for the year ended December 31, 2025 and is reflective of its commitment to providing a best-in-class customer service experience. NPS is a score that measures the likelihood of users to recommend a company's products or services to others, and ranges from a low of negative 100 to high of positive 100, and benchmark scores can vary significantly by industry. A score greater than zero represents a company having more promoters than detractors. OppFi maintained an A+ rating from the Better Business Bureau (BBB) and a 4.4/5.0 star rating with more than 5,400 Trustpilot reviews, as of December 31, 2025.",
+    "OppFi's corporate structure following the closing of the Business Combination (the \"Closing\") is commonly referred to as an \"Up-C\" structure whereby substantially all of the assets and the business of the Company are held by OppFi-LLC, and OppFi's only direct assets consist of Class A common units of OppFi-LLC (\"OppFi Units\"). As of December 31, 2025, OppFi owned approximately 31.7% of the OppFi Units and controls OppFi-LLC as its sole manager in accordance with the terms of the Third Amended and Restated Limited Liability Company Agreement of OppFi-LLC (\"OppFi A&R LLCA\"). All remaining OppFi Units (\"Retained OppFi Units\") are beneficially owned by the members of OppFi-LLC (the \"Members\"). Each Retained OppFi Unit held by the Members may be exchanged, subject to certain conditions, for either one share of Class A Common Stock or, at the election of OppFi, in its capacity as the sole manager of OppFi-LLC, the cash equivalent of the market value of one share of Class A Common Stock, pursuant to the terms and conditions of the OppFi-LLC A&R LLCA (the \"Exchange Rights\"). OppFi Shares, LLC, a Delaware limited liability company (\"OFS\"), holds a controlling voting interest in OppFi through its ownership of shares of Class V common stock, par value $0.0001 per share, of OppFi (\"Class V Voting Stock\") in an amount equal to the number of Retained OppFi Units and therefore has the ability to control OppFi-LLC. Each share of Class V Voting Stock entitles OFS to one vote per share at any annual or special meeting of the stockholders of OppFi, voting together with the holders of Class A Common Stock as a single class, but the shares of Class V Voting Stock do not entitle OFS to any economic rights in OppFi.",
+    "The following diagram illustrates the ownership structure of OppFi as of December 31, 2025.",
+    "Approximately 48 million everyday Americans are underbanked and currently lack traditional options, according to a 2023 study published by the Federal Deposit Insurance Corporation (the \"FDIC\"). This represents approximately 14.2% of U.S. households. More broadly, according to a report published by the Consumer Financial Protection Bureau (\"CFPB\") in 2024, 42.9% of families in the US face difficulty paying bills or expenses, with 33% of total families facing said difficulties five or more times within a 12-month period. Similarly, 42.3% of households have less than one month of savings, with 21.7% of total households having less than two weeks of savings.",
+    "OppFi facilitates credit access to historically underserved consumers. Generally, these consumers are in need of fair, affordable, transparent and flexible credit products to cover everyday expenses and cash shortfalls, but banks and other credit providers are largely unwilling to service these consumers due to low FICO scores or similar factors. In a 2024 study published"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Summary of Risk Factors Related to Our Business",
+    "Risks Related to Our Business and Industry",
+    "Our revenue growth rate may fluctuate or decline, and our financial performance in recent periods may not be indicative of future performance.",
+    "We may be unable to maintain or increase our profitability, operating leverage, or unit economics, even if revenues remain stable.",
+    "We may experience fluctuations in our quarterly operating results.",
+    "Our business is highly dependent on our existing bank partners, and any disruption to these or new bank partner relationships could adversely affect our business, financial condition and results of operations.",
+    "The sales and onboarding process of new bank partners could take longer than expected, leading to fluctuations or variability in expected revenues and results of operations.",
+    "Our business has been, and may continue to be, adversely affected by economic conditions and other factors that we cannot control.",
+    "Decreased demand for loans, including as a result of increased savings or income, could result in a loss of revenues or decline in profitability if we are unable to successfully adapt to such changes.",
+    "If we do not compete effectively in our target markets, our business, results of operations and financial condition could be harmed.",
+    "If we are unable to manage the risks associated with fraudulent activity, our brand and reputation, business, financial condition and results of operations could be adversely affected."
+   ],
+   "paragraphs": [
+    "Investing in our securities involves risks. You should consider carefully the risks and uncertainties described below, together with all of the other information in this Annual Report, including the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and the financial statements and notes to the financial statements included herein, before deciding whether to purchase our securities. If any of these risks actually occur, our business, results of operations, financial condition, and prospects could be materially and adversely affected. Unless otherwise indicated, references in these risk factors to our business being harmed will include harm to our business, reputation, brand, financial condition, results of operations, and prospects. In such event, the market price of our securities could decline, and you could lose all or part of your investment. We may face additional risks and uncertainties that are not presently known to us, or that we currently deem immaterial, which may also impair our business or financial condition.",
+    "The following is a summary of the risk factors our business faces. The list below is not exhaustive, and investors should read this \"Risk Factors\" section in full. Some of the risks we face include:",
+    "• we are a growing company with a relatively limited history operating at our current scale, which may result in increased risks, uncertainties, expenses and difficulties, and makes it difficult to evaluate our future prospects;",
+    "• our revenue growth rate and origination volumes may fluctuate or decline and financial performance in recent periods may not be indicative of future performance and such growth may slow over time;",
+    "• we may be unable to maintain or increase our profitability, operating leverage or unit economics;",
+    "• if we are unable to continue to improve our machine learning models or if these models contain errors or are otherwise ineffective, our growth prospects, business, financial condition and results of operations could be adversely affected;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Net revenue 381,182 321,478 273,182 18.6 17.7",
+    "Income from operations 166,678 94,536 46,355 76.3 103.9",
+    "Income before income taxes 156,132 88,052 41,810 77.3 110.6",
+    "Net income 146,247 83,837 39,479 74.4 112.4",
+    "Net income (loss) attributable to OppFi Inc. $ 26,329 $ 7,258 $ (1,005) 262.8 % 821.8 %",
+    "Earnings (loss) per common share attributable to OppFi Inc.:",
+    "Total assets $ 754,090 $ 641,171 $ 112,919 17.6 %",
+    "Liabilities and stockholders' equity",
+    "Total liabilities 445,214 406,958 38,256 9.4",
+    "Total stockholders' equity 308,876 234,213 74,663 31.9",
+    "Total liabilities and stockholders' equity $ 754,090 $ 641,171 $ 112,919 17.6 %",
+    "Senior debt, net",
+    "Total senior debt, net $ 525,000 $ 321,353 $ 318,758"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with the consolidated financial statements and related notes thereto included elsewhere in this Annual Report on Form 10-K. This discussion contains forward-looking statements that involve risks and uncertainties. You should review the sections titled \"Cautionary Note Concerning Factors That May Affect Future Results\" and \"Risk Factors\" of this Annual Report on Form 10-K for a discussion of forward-looking statements and important factors that could cause actual results to differ materially from the results described or implied by the forward-looking statements contained in the following discussion and analysis.",
+    "We are a tech-enabled digital finance platform that partners with banks to offer financial products and services to everyday Americans. Through this transparent and responsible platform, which emphasizes financial inclusion and exceptional customer experience, we assist consumers who are underserved by traditional financing options in building improved financial health. OppLoans by OppFi maintains a 4.4/5.0 star rating on Trustpilot based on over 5,400 reviews, positioning us among the top consumer-rated financial platforms online. We also hold a 35% equity interest in Bitty Holdings, LLC (\"Bitty\"), a credit access company that provides revenue-based financing and other working capital solutions to small businesses.",
+    "Our primary mission is to facilitate financial inclusion and credit access to the 48 million everyday Americans who face credit insecurity through unwavering commitment to our customers, who benefit from a highly automated, transparent, efficient, and fully digital experience. The banks that work with us benefit from our turn-key, outsourced marketing, data science, and proprietary technology to digitally acquire, underwrite, and service these consumers.",
+    "Our primary products are offered by our OppLoans platform. Customers on this platform are U.S. consumers who are employed, have bank accounts, and generally earn median wages. The average installment loan for a new borrower facilitated by us is approximately $1,950, payable in installments and with an average contractual term of 11 months.",
+    "Our financial results as of and for the year ended December 31, 2025 are summarized below:",
+    "•Net income increased 74.4% to $146.2 million from $83.8 million for the years ended December 31, 2025 and 2024, respectively;",
+    "•Basic and diluted earnings per share (\"EPS\") increased $0.63 to $0.99 from $0.36 for the years ended December 31, 2025 and 2024, respectively;",
+    "•Adjusted net income (\"Adjusted Net Income\")(1) increased 69.1% to $139.8 million from $82.7 million for the years ended December 31, 2025 and 2024, respectively;",
+    "•Adjusted earnings per share (\"Adjusted EPS\")(1) increased $0.64 to $1.59 from $0.95 for the years ended December 31, 2025 and 2024, respectively;",
+    "•Total revenue increased 13.5% to $597.1 million from $526.0 million for the years ended December 31, 2025 and 2024, respectively;",
+    "•Net originations increased 12.2% to $899.3 million from $801.5 million for the years ended December 31, 2025 and 2024, respectively;",
+    "•Ending receivables increased 16.0% to $493.1 million from $425.2 million as of December 31, 2025 and 2024, respectively; and",
+    "(1) Adjusted EPS and Adjusted Net Income are non-GAAP financial measures. For information regarding our uses and definitions of these measures and for reconciliations to the most directly comparable United States GAAP measures, see the section titled \"Non-GAAP Financial Measures\" below.",
+    "We regularly review the following key metrics to evaluate our business, measure our performance, identify trends affecting our business, formulate financial projections, and make strategic decisions, which may also be useful to an investor. The following tables and related discussion set forth key financial and operating metrics for our operations as of and for the years ended December 31, 2025 and 2024. Percentages presented are calculated from the underlying whole-dollar amounts."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "公司簡介",
+    "公司組織架構",
+    "市場機會",
+    "美國大量消費者面臨信貸不安全、具非優質信貸、儲蓄不足且過度依賴薪資發放",
+    "銀行及其他信貸提供者對於消費者貸款的數位技術應用進展緩慢",
+    "OppLoans 平台",
+    "OppFi 的競爭優勢",
+    "數位原生解決方案",
+    "Bank Partner Model",
+    "Technology, Engineering Talent and Product Architecture",
+    "Proprietary, Data Driven Decisioning and Risk Models",
+    "Multi-Sided Ecosystem",
+    "Integrated and Efficient Multi-Channel Marketing Approach",
+    "Commitment to Customer Service",
+    "OppFi's Growth Strategy",
+    "Available Information",
+    "{'original': 'Government Regulation', 'translated': '政府規範'}",
+    "{'original': 'Federal Lending and Related Laws', 'translated': '聯邦貸款及相關法規'}",
+    "{'original': 'State Lending Regulations', 'translated': '州級貸款規範'}"
+   ],
+   "paragraphs": [
+    "OppFi 是一個以科技為驅動、使命為導向的專業財務平台，透過透明、負責任的貸款、金融包容性以及優良的客戶體驗，擴展社區銀行的服務範圍，以提供信用給一般美國民眾。透過透明、負責任的貸款、金融包容性以及優良的客戶體驗，本公司支持那些被主流金融選擇拒絕的消費者，以建立更好的財務健康。OppFi 的主要使命是透過其產品與對客戶的堅定承諾，為約 4800 萬位面臨信用不安全的美國民眾提供金融包容性與信用存取。與 payday loans 及類似信用產品不同，這些產品通常不提供透明度、公平性與償還能力指引，OppFi 致力於透過其平台提供最佳的產品與服務。透過 OppLoans 平台，OppFi 為新借款人提供的平均分期貸款約為 1,950 美元，分期償還，平均合約期限為 11 個月。付款會報告至三大信用機構。OppFi 對借款人的承諾進一步體現在 OppFi TurnUp 程式中，該程式在下文有說明，最重要的是，體現在其強大的客戶滿意度評價中。",
+    "",
+    "OppFi 的主要產品透過其 OppLoans 平台提供。使用此平台的客戶通常是美國民眾，他們有工作、擁有銀行帳戶，且收入為中位數。有些人經歷了困難或緊急情況，需要貸款；其他人則在勉強維持生計；而其他人則有未預見的開支。當這些消費者透過銀行申請傳統貸款時，他們往往因信用評分而被拒絕。",
+    "OppFi 平台是一個行動優化線上申請系統，符合資格的申請人可選擇加入 OppFi TurnUp 程式。此程式協助這些申請人尋找更經濟的信用選擇，透過代表他們在市場上尋找年利率低於 36.0% 的產品，由第三方貸款機構透過其他平台提供。如果發現任何較低成本的產品，OppFi 會顯示相關貸款機構的優惠，消費者可選擇在該貸款機構的網站完成申請。此時，申請人離開 OppFi 的網站。如果沒有提供年利率低於 36.0% 的替代信用選擇，申請將透過 OppFi 的審核平台處理，該平台使用機器學習、銀行核准的專有演算法。此過程旨在讓所有參與方都能獲得最大價值與好處。",
+    "OppFi 收集並計算超過 500 個貸款申請屬性，用於信用決策。這些屬性基於信用機構的資料、銀行交易與貸款申請資料。利用這些資訊，OppFi 會產生專有評分，並與第三方供應商產生的評分結合。專有評分會決定由適用的銀行合作夥伴提供的貸款條款。",
+    "OppFi 的平台為消費者提供簡化且簡單、易用且透明的申請體驗。在 2025 年 12 月 31 日為止的年度中，OppFi 平台約有 93.7% 的信用決策為自動化處理。大多數申請人在獲得核准後，可在同一天或隔天獲得資金。在營業日內，於下午 1:00 美東時間前核准的合格申請人，可在申請核准當天獲得資金。",
+    "此過程讓消費者能獲得公平且透明的信用，並透過我們對三大信用機構的標準報告，有機會逐步建立財務健康。透過 OppFi 平台的分期貸款沒有費用（既不包括貸款開辦費、逾期費或資金不足費）。消費者可獲得透明且靈活的償還選項，包括允許消費者償還整期貸款，以及允許他們無罰款預先償還貸款。",
+    "為實現其為一般美國民眾提供金融包容性的使命，OppFi 不僅專注於促進信用存取，也透過多種平台提供教育，以建立財務健康。OppFi 與行動與網頁應用程式 Zogo 合作，連結消費者與超過 1,100 個個人財務課程，從開設銀行帳戶到為退休儲蓄。此遊戲化的學習體驗讓消費者在完成短課程後，可兌換禮品卡獎勵。",
+    "表單, 易於消化的模組。此外, OppFi 內部的財務教育計畫 OppU, 提供免費、符合標準的課程, 旨在教導財務素養。透過 OppU, 顧客與非顧客皆可學習建立信用所需的知識, 以及如何預算與管理財務。",
+    "OppFi 認為其已透過 OppLoans 產品達成顯著規模。截至 2025 年 12 月 31 日, OppFi 自成立以來已服務超過 1.6 百萬獨特顧客。OppFi 的淨推薦指數 (NPS) 在 2025 年 12 月 31 日財年為 78, 並反映其致力於提供最佳等級的客戶服務體驗。NPS 是一個衡量用戶推薦公司產品或服務可能性的指數, 並從 -100 到 +100 範圍內, 各行業的指數基準分數可能有顯著差異。指數大於零表示公司有較多的推薦者而非批評者。OppFi 維持 Better Business Bureau (BBB) 的 A+ 等級, 並在 Trustpilot 上有超過 5,400 則評論, 給予 4.4/5.0 星評分, 截至 2025 年 12 月 31 日。",
+    "OppFi 在完成企業合併 (\"Closing\") 後的公司結構通常被稱為 \"Up-C\" 結構, 其中幾乎所有資產與業務均由 OppFi-LLC 持有, 而 OppFi 唯一的直接資產為 OppFi-LLC 的 Class A 普通單位 (\"OppFi Units\"). 截至 2025 年 12 月 31 日, OppFi 持有約 31.7% 的 OppFi Units, 並根據 OppFi-LLC 第三修正重述有限責任公司協議 (\"OppFi A&R LLCA\") 的條款, 作為其唯一經理人控制 OppFi-LLC。所有剩餘的 OppFi Units (\"保留 OppFi Units\") 由 OppFi-LLC 的成員 (\"成員\") 有益擁有。每位成員持有的 Retained OppFi Unit 可根據特定條件, 交換為一股 Class A 普通股或, 由 OppFi 作為 OppFi-LLC 唯一經理人選擇, 以現金形式等值於一股 Class A 普通股的市場價值, 依據 OppFi-LLC A&R LLCA 的條款 (\"交換權\"). OppFi Shares, LLC, 一家特拉華州有限責任公司 (\"OFS\"), 透過持有 OppFi 的 Class V 普通股 (\"Class V 投票股\"), 每股面值 0.0001 美元, 並擁有與 Retained OppFi Units 數量相同的股數, 因此擁有控制 OppFi-LLC 的能力。每一股 Class V 投票股在 OppFi 股東大會上, 與 Class A 普通股持有人共同作為單一類別投票, 每股享有一票, 但 Class V 投票股不享有任何經濟權利。",
+    "下圖說明了 OppFi 截至 2025 年 12 月 31 日的股權結構。",
+    "根據 2023 年美國聯邦存款保險公司 (\"FDIC\") 發表的報告, 約有 48 百萬美國日常民眾屬於信用不足, 目前缺乏傳統金融選擇。這代表約 14.2% 的美國家庭。更廣泛而言, 根據 2024 年消費者金融保護局 (\"CFPB\") 發表的報告, 美國有 42.9% 的家庭面臨支付帳單或開支的困難, 其中 33% 的總家庭在 12 個月內面臨此困難五次或更多次。同樣地, 42.3% 的家庭儲蓄少於一個月, 其中 21.7% 的總家庭儲蓄少於兩週。",
+    "OppFi 促進信用存取給歷史上被忽略的消費者。通常, 這些消費者需要公平、可負擔、透明且靈活的信用產品, 以應對日常開支與現金短缺, 但銀行和其他信用提供者因低 FICO 分數或其他類似因素, 大致上不願服務這些消費者。根據 2024 年發表的報告"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營業收入 381,182 321,478 273,182 18.6 17.7",
+    "營業利益 166,678 94,536 46,355 76.3 103.9",
+    "稅前淨利 156,132 88,052 41,810 77.3 110.6",
+    "淨利 146,247 83,837 39,479 74.4 112.4",
+    "歸屬於 OppFi Inc. 的淨利 (虧損) $ 26,329 $ 7,258 $ (1,005) 262.8 % 821.8 %",
+    "歸屬於 OppFi Inc. 的普通股每股盈餘 (虧損)：",
+    "總資產 $ 754,090 $ 641,171 $ 112,919 17.6 %",
+    "負債及股東權益",
+    "總負債 445,214 406,958 38,256 9.4",
+    "總股東權益 308,876 234,213 74,663 31.9",
+    "總負債及股東權益 $ 754,090 $ 641,171 $ 112,919 17.6 %",
+    "長期債務，淨額",
+    "總長期債務，淨額 $ 525,000 $ 321,353 $ 318,758"
+   ],
+   "paragraphs": [
+    "下列對我們財務狀況及營運成果的討論與分析，應與本年度10-K申報表中所包含之合併財務報表及其相關附註一併閱讀。本討論包含風險與不確定性之預測性陳述。請審閱本年度10-K申報表中標題為「對未來結果可能產生影響因素之警示說明」及「風險因素」之節，以瞭解預測性陳述及可能導致實際結果與預測性陳述所描述或暗示之結果有重大差異之重要因素。",
+    "我們是一家以科技為基礎的數位金融平台，與銀行合作，為一般美國民眾提供金融產品與服務。透過這個透明且負責任的平台，強調金融包容性與卓越的客戶體驗，我們協助無法從傳統融資選項中受益的消費者建立改善的財務狀況。OppLoans by OppFi在Trustpilot上根據超過5,400則評論，獲得4.4/5.0顆星的評分，使我們成為網路上最受消費者評價的金融平台之一。我們也持有Bitty Holdings, LLC（\"Bitty\"）35%的股權，這是一家提供基於營收之融資及其他營運資金解決方案給小型企業的信貸接入公司。",
+    "我們的主要使命是透過對客戶的堅定承諾，協助4800萬位面臨信貸不安全的一般美國民眾實現金融包容性與信貸接入。銀行與我們合作，可從我們的完整外包行銷、資料科學及專有科技中受益，以數位方式取得、審核及服務這些消費者。",
+    "我們的主要產品由我們的OppLoans平台提供。使用此平台的客戶為美國的消費者，他們有工作、擁有銀行帳戶，且通常收入為中位數。我們為新借款人所提供的平均分期貸款金額約為1,950美元，以分期方式償還，平均合約期限為11個月。",
+    "我們截至2025年12月31日之財務結果如下所述：",
+    "•淨收入較2024年12月31日的83.8百萬美元增加74.4%，達146.2百萬美元；",
+    "•基本及稀釋後每股盈餘（\"EPS\"）較2024年12月31日的0.36美元增加0.63美元，達0.99美元；",
+    "•調整後淨收入（\"調整後淨收入\"）（1）較2024年12月31日的82.7百萬美元增加69.1%，達139.8百萬美元；",
+    "•調整後每股盈餘（\"調整後每股盈餘\"）（1）較2025年12月31日財年及2024年12月31日財年分別由0.95美元增至1.59美元，增加0.64美元;",
+    "•總營業收入較2025年12月31日財年及2024年12月31日財年分別由526.0百萬美元增至597.1百萬美元，成長13.5%;",
+    "•淨放款額較2025年12月31日財年及2024年12月31日財年分別由801.5百萬美元增至899.3百萬美元，成長12.2%;",
+    "•期末應收款項較2025年12月31日財年及2024年12月31日財年分別由425.2百萬美元增至493.1百萬美元，成長16.0%; 和",
+    "(1) 調整後每股盈餘及調整後淨利為非GAAP財務指標。有關我們使用這些指標的方式及定義，以及與最接近的美國GAAP財務指標的調整資訊，請參閱下文標題為\"非GAAP財務指標\"的章節。",
+    "我們定期審查以下關鍵指標，以評估我們的業務、衡量我們的表現、識別影響我們業務的趨勢、制定財務預測，並做出戰略決策，這些資訊對投資人而言也可能具有參考價值。下述表格及相關討論說明了我們截至2025年12月31日及2024年12月31日財年的重要財務及營運指標。所呈現的百分比係根據基礎的整數金額計算而得。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽－與我們業務相關的風險",
+    "與我們業務及產業相關的風險",
+    "我們的營業收入成長率可能波動或下降，且我們近期的財務表現可能無法反映未來的表現。",
+    "即使營收維持穩定，我們可能無法維持或提高我們的獲利能力、營運槓桿效益或單元經濟效益。",
+    "我們可能經歷每季營運結果的波動。",
+    "我們的業務高度依賴現有銀行夥伴，若這些或新銀行夥伴關係受到幹擾，可能會對我們的業務、財務狀況及營運成果產生不利影響。",
+    "新銀行夥伴的銷售及上線流程可能比預期更長，導致預期營收及營運成果出現波動或變動。",
+    "我們的業務已受到，且可能持續受到我們無法控制的經濟環境及其他因素的不利影響。",
+    "貸款需求減少，包括因儲蓄或收入增加所致，若我們無法成功適應此等變動，可能會導致收入減少或利潤率下降。",
+    "若我們無法在目標市場中有效競爭，將可能對本公司業務、營運成果及財務狀況造成損害。",
+    "若我們無法管理與詐欺活動相關的風險，將可能對本公司品牌與聲譽、業務、財務狀況及營運成果產生不利影響。"
+   ],
+   "paragraphs": [
+    "投資本公司證券涉及風險。您應謹慎考慮下列所描述的風險與不確定性，並配合本年度報告中所有其他資訊，包括標題為「管理層對財務狀況與營運結果之討論與分析」的章節，以及本報告所包含的財務報表與財務報表附註，再決定是否購買本公司證券。若任何上述風險實際發生，將可能對本公司營運、營運結果、財務狀況與前景造成重大且不利的影響。除非另有說明，本風險因素中提及本公司業務受損，將包括對本公司業務、聲譽、品牌、財務狀況、營運結果與前景的損害。在此情況下，本公司證券的市場價格可能下跌，您可能損失全部或部分投資。本公司可能面臨其他未被我們目前知悉，或目前認為不重要之風險與不確定性，這些也可能影響本公司業務或財務狀況。",
+    "以下為本公司所面臨風險因素之總結。下列清單並非完整，投資人應完整閱讀本「風險因素」章節。我們所面臨的部分風險包括：",
+    "• 本公司為一處於目前規模之成長型公司，具有相對有限之營運歷史，這可能導致增加之風險、不確定性、費用與困難，並使評估本公司未來前景變得困難；",
+    "• 本公司營收成長率與貸款發放量可能波動或下降，近期營運表現可能無法反映未來表現，且此類成長可能隨時間推移而減緩；",
+    "• 本公司可能無法維持或提高其獲利能力、營運槓桿效益或單元經濟效益；",
+    "• 若本公司無法持續改善其機器學習模型，或這些模型包含錯誤或否則無效，將可能對本公司成長前景、業務、財務狀況與營運結果造成不利影響；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

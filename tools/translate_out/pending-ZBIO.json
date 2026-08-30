@@ -1,0 +1,189 @@
+{
+ "ticker": "ZBIO",
+ "cik": "0001953926",
+ "accession": "0001104659-26-027964",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Management Team",
+    "Our Strategy",
+    "Obexelimab (CD19 and FcγRIIb bifunctional monoclonal antibody) Program",
+    "Figure 1: Mechanism of Action of Obexelimab",
+    "Clinical Development",
+    "Study Description*",
+    "Obexelimab for the Treatment of IgG4-RD",
+    "Figure 2: IgG4-RD: A Chronic Fibro-inflammatory Disease Characterized by Flares",
+    "Figure 3: INDIGO Trial Schema",
+    "Figure 4: Rapid and Sustained IgG4-RD RI Response from Phase 2 Trial",
+    "Figure 5: Rapid Recovery of Systemic B Cells Upon Discontinuation",
+    "Obexelimab for the Treatment of MS",
+    "Figure 6: Role of B and T Cells in Multiple Sclerosis",
+    "Obexelimab for the Treatment of SLE"
+   ],
+   "paragraphs": [
+    "We are a clinical stage global biopharmaceutical company committed to being a leader in the development and commercialization of transformative immunology-based therapies for patients in need. With the evolving understanding",
+    "of the pathogenesis of autoimmune diseases, along with the expansion of promising immunology-based pharmacologic targets, we are building an I&I focused biopharmaceutical company. Our core business strategy combines disciplined product candidate acquisition with strategic deployment of internal expertise and effective use of external resources. We leverage our experienced executive management team and our established networks throughout the biopharmaceutical industry to identify, acquire and develop product candidates that we believe can provide superior clinical benefits to patients living with autoimmune diseases.",
+    "Our lead I&I product candidate, obexelimab, is a bifunctional monoclonal antibody designed to bind both CD19 and FcγRIIb, which are broadly present across B cell lineage, in order to inhibit the activity of cells that are implicated in many autoimmune diseases without depleting them. Based on existing clinical data generated to date, we believe that targeting B cell lineage via CD19 and FcγRIIb can inhibit B cells and has been shown to be well-tolerated. While anti-CD20 or other anti-CD19 targeting agents may effectively deplete B cells in systemic circulation, these agents do not fully impact B cells in relevant tissue, and the intermittent dosing regimens of these agents may not provide optimal benefits for all patients. In addition, anti-CD20 and other anti-CD19 targeting agents may cause prolonged depletion of circulating B cells for six months or longer, placing patients at higher risk of opportunistic infections and potentially reducing their ability to respond to, and receive full benefit from, vaccines. We believe obexelimab's mechanism of action and chronic dosing regimen may broadly and effectively address the pathogenic role of B cell lineage in chronic autoimmune disease. Across eight clinical trials, including INDIGO and MoonStone, in which 383 subjects were dosed, obexelimab was well-tolerated and demonstrated clinical activity that we believe provides POC for obexelimab as a B cell inhibitor for the treatment of patients living with certain autoimmune diseases and, together with its mechanism of action, positions obexelimab to be a potentially differentiated B cell therapy for the treatment of such patients.",
+    "We believe obexelimab holds the potential to provide meaningful clinical benefit for patients in multiple I&I indications. We are developing obexelimab as a potential I&I franchise for patients in several autoimmune diseases, representing substantial commercial opportunities, individually and in the aggregate. The first three indications we are pursuing include immunoglobulin G4-related disease (\"IgG4-RD\") through a registration-directed Phase 3 trial which reported topline data in January 2026, and relapsing multiple sclerosis (\"RMS\"), through a Phase 2, double-blind, randomized, placebo-controlled trial which reported topline data in October 2025, and systemic lupus erythematosus (\"SLE\") through an ongoing Phase 2, double-blind, randomized, placebo-controlled trial for which we expect to report topline results, including biomarker data, in the fourth quarter of 2026. We estimate that each of these potential indications represent a multi-billion-dollar commercial opportunity in the U.S. alone.",
+    "In January 2026, we reported positive results from the Phase 3 trial of obexelimab in patients with IgG4-RD (the \"INDIGO\") trial. Obexelimab met the primary endpoint, demonstrating a highly statistically significant and clinically meaningful 56% reduction in the risk of IgG4-RD flare compared to placebo (Hazard Ratio 0.44, p=0.0005) and also met and demonstrated highly statistically significant activity compared to placebo on all four key secondary endpoints. Obexelimab was well tolerated with a safety profile consistent with that observed in previously completed clinical trials. Based on these results, we plan to submit the obexelimab Biologics License Application (\"BLA\") to the U.S. Food and Drug Administration (\"FDA\") for the treatment of IgG4-RD in the second quarter of 2026. We also intend to submit a Marketing Authorization Application (\"MAA\") to the European Medicines Agency (\"EMA\") in the second half of 2026.",
+    "In October 2025, we reported that the Phase 2 trial for RMS (\"MoonStone\") met its 12-week primary endpoint, demonstrating a highly statistically significant 95% relative reduction in the cumulative number of new gadolinium-enhancing (\"GdE\") T1 hyperintense lesions over week 8 and week 12 compared with placebo (p=0.0009).",
+    "In February 2026, we reported the 24-week data from MoonStone trial which confirmed the reductions in total GdE T1 hyperintense lesions observed with obexelimab over weeks 8 and 12 were maintained through week 24; unadjusted mean numbers of new lesions per scan were 0.87 at baseline, 0.08 at week 12 and 0.04 at week 24 for obexelimab indicating a 95% reduction.",
+    "In addition to obexelimab, we are developing orelabrutinib, a Bruton's Tyrosine Kinase inhibitor (\"BTK\"), for progressive forms of multiple sclerosis. Orelabrutinib is a highly selective and central nervous system (\"CNS\")-penetrant, oral small molecule BTK inhibitor. Orelabrutinib is designed to bind irreversibly to BTK with minimal off-target effects, which may potentially reduce certain side effects. We believe orelabrutinib is designed to efficiently cross the blood-brain barrier, reaching therapeutic levels within the CNS to directly target inflammation in diseases like Multiple Sclerosis (\"MS\").",
+    "We are advancing orelabrutinib in a global, Phase 3, multicenter, randomized, double-blind, placebo-controlled clinical trial in patients with Primary Progressive Multiple Sclerosis (\"PPMS\"), the (\"PriMroSe\") trial, and we plan to initiate a second global, Phase 3, multicenter, randomized, double-blind, placebo-controlled clinical trial evaluating orelabrutinib in patients with non-active Secondary Progressive Multiple Sclerosis (\"non active SPMS\"), the (\"Monarch\") trial in the first quarter of 2026.",
+    "We also have two early-development product candidates: ZB021 and ZB022. ZB021 is an oral IL-17AA/AF inhibitor designed to block both IL-17AA homodimer and IL-17AF heterodimer signaling. We expect Phase 1 clinical study initiation in 2026.",
+    "ZB022 is an oral, brain-penetrant tyrosine kinase 2 (\"TYK2\")-JH2 inhibitor, currently in Investigational New Drug (\"IND\")-enabling studies. Subject to the results of the IND-enabling studies, we expect to submit an IND application for ZB022, and if cleared, initiate a Phase 1 clinical study in 2026.",
+    "In addition, we have two other programs for the potential treatment of other I&I indications that we may continue to advance and ultimately commercialize with partners. These consist of ZB002 (an anti-TNFα monoclonal antibody) and ZB004 (a CTLA-4-Ig fusion). We retain global rights for both assets. In addition, we hold the development and commercialization rights to one regional program, ZB001 (also known as VRDN-001, an insulin-like growth factor-1 receptor (\"IGF-1R\") monoclonal antibody and related programs, which were exclusively sublicensed to a partner in greater China.",
+    "To date, we have no product candidates approved for commercial sale in any country and have not generated any revenue from product sales.",
+    "We are developing obexelimab, orelabrutinib and other product candidates for the treatment of several I&I diseases summarized in the pipeline figure below:"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Financial Position and Need for Capital",
+    "Our independent registered public accounting firm has expressed substantial doubt about our ability to continue as a going concern.",
+    "Raising additional capital may cause dilution to our stockholders, impose restrictions on our operations or require us to relinquish rights to our product candidates.",
+    "Risks Related to Product Candidate Development and Commercialization",
+    "Delays or difficulties in the enrollment and dosing of patients in clinical trials, delay or prevent receipt of necessary regulatory approvals.",
+    "Risks associated with the in-licensing or acquisition of product candidates could cause substantial delays in the preclinical and clinical development of our product candidates.",
+    "Our clinical trials of our product candidates, even if successfully completed, may not be sufficient for marketing approval for the applicable indication.",
+    "We may not realize the benefits of our current or future collaborations or licensing arrangements and may be unsuccessful in consummating future partnerships."
+   ],
+   "paragraphs": [
+    "Investors should carefully consider the risks described below, together with the other information contained in this Annual Report, including in the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and in our audited consolidated financial statements and related notes contained in this Annual Report. The events discussed below may occur and adversely impact our business, financial condition, results of operations and prospects, which may cause the trading price of our common stock to decline. These risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties not presently known to us or that we currently believe to be immaterial may also affect our business. See \"Special Note Regarding Forward-Looking Statements.\"",
+    "We are a clinical stage biopharma company with a limited operating history and no products approved for commercial sale; we have incurred substantial losses since our inception, and we anticipate incurring substantial and increasing losses for the foreseeable future.",
+    "We are a clinical stage biopharma company with a limited operating history on which to base an investment decision. We have no product candidates approved for commercial sale in any country and have not generated any revenue from sales of products. Biopharmaceutical product development is a highly speculative undertaking, involving substantial upfront capital expenditure and significant risk. Any product candidate may fail to demonstrate adequate efficacy or an acceptable safety profile, gain regulatory approval or become commercially viable, despite substantial investment on development or commercialization.",
+    "We have incurred, and will continue to incur, significant expenses related to the clinical development of our product candidates and ongoing operations. For the years ended December 31, 2025 and 2024, we reported a net loss of $377.7 million and $157.0 million, respectively. As of December 31, 2025, we had an accumulated deficit of $765.1 million. We expect to continue to incur significant losses for the foreseeable future, and we expect these losses to increase as we advance the development of our product candidates. We may also encounter unforeseen expenses, difficulties, complications, delays and other unknown factors that may adversely affect our business. The size of our future net losses will depend, in part, on the rate that our expenses increase and our ability to generate revenue. Our prior losses and expected future losses have had and will continue to have an adverse effect on our stockholders' equity and our working capital.",
+    "We anticipate that our expenses will increase substantially if, and as, we: ● continue clinical development of obexelimab, orelabrutinib and our other programs;",
+    "● advance our obexelimab and orelabrutinib programs and our other product candidates through preclinical development and clinical trials;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Significant Risks and Uncertainties",
+    "Components of Our Results of Operations",
+    "Operating Expenses",
+    "Total Other Income (Expense), Net",
+    "Income Taxes",
+    "Results of Operations",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "Years Ended December 31,",
+    "Increase (Decrease)",
+    "Liquidity and Capital Resources",
+    "Future Funding Requirements",
+    "Loan Agreement",
+    "At-the-Market Program"
+   ],
+   "paragraphs": [
+    "MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+    "Investors should read the following discussion and analysis of our financial condition and results of operations together with our audited consolidated financial statements and the related notes included elsewhere in this Annual Report on Form 10-K. This discussion and analysis contain forward-looking statements based upon current beliefs, plans, and expectations related to future events and our future performance that involve risks, uncertainties, and assumptions, such as statements regarding our intentions, plans, objectives, and expectations for our business. Our actual results and the timing of events could differ materially from those discussed in these forward-looking statements as a result of several factors, including those set forth in the section titled \"Risk Factors.\" See also the section titled \"Special Note Regarding Forward-Looking Statements.\"",
+    "We are a clinical stage global biopharmaceutical company committed to being a leader in the development and commercialization of transformative immunology-based therapies for patients in need. With the evolving understanding of the pathogenesis of autoimmune diseases, along with the expansion of promising immunology-based pharmacologic targets, we are building an I&I focused biopharmaceutical company. Our core business strategy combines disciplined product candidate acquisition with strategic deployment of internal expertise and effective use of external resources. We leverage our experienced executive management team and our established networks throughout the biopharmaceutical industry to identify, acquire and develop product candidates that we believe can provide superior clinical benefits to patients living with autoimmune diseases.",
+    "Our lead I&I product candidate, obexelimab, is a bifunctional monoclonal antibody designed to bind both CD19 and FcγRIIb, which are broadly present across B cell lineage, in order to inhibit the activity of cells that are implicated in many autoimmune diseases without depleting them. Based on existing clinical data generated to date, we believe that targeting B cell lineage via CD19 and FcγRIIb can inhibit B cells and has been shown to be well-tolerated.",
+    "We are developing obexelimab as a potential I&I franchise for patients in several autoimmune diseases, representing substantial commercial opportunities individually and in the aggregate. The first three indications we are pursuing include IgG4-RD through a registration-directed Phase 3 trial, which reported topline data in January 2026, RMS through an ongoing Phase 2, double-blind, randomized, placebo-controlled trial which reported topline data in October 2025 and SLE through an ongoing Phase 2, double-blind, randomized, placebo-controlled trial, for which we expect to report topline results, including biomarker data, in the fourth quarter 2026.",
+    "In January 2026, we reported positive results from the Phase 3 trial of obexelimab in patients with IgG4-RD. Obexelimab met the primary endpoint, demonstrating a highly statistically significant and clinically meaningful 56% reduction in the risk of IgG4-RD flare compared to placebo (Hazard Ratio 0.44, p=0.0005) and also met and demonstrated highly statistically significant activity compared to placebo on all four key secondary endpoints. Obexelimab was well tolerated with a safety profile consistent with that observed in previously completed clinical trials. Based on these results, we plan to submit the obexelimab BLA to the FDA for the treatment of IgG4-RD in the second quarter of 2026. We also intend to submit an MAA to the EMA in the second half of 2026.",
+    "In October 2025, we announced topline data from the MoonStone trial. Obexelimab met the primary endpoint, demonstrating a statistically significant 95% relative reduction in the cumulative number of new gadolinium-enhancing T1 hyperintense lesions, which are markers of active inflammation, over week 8 and week 12 compared with placebo (p=0.0009). In February 2026, we reported the 24-week data from the MoonStone trial which confirmed the reductions in total GdE T1 hyperintense lesions observed with obexelimab over weeks 8 and 12 were maintained through week 24; unadjusted mean of new lesions per scan were 0.87 at baseline, 0.08 at week 12 and 0.04 at week 24 for obexelimab indicating a 95% reduction. The 24-week data from additional secondary and exploratory endpoints may inform obexelimab's potential impact on disability progression and help the Company determine next steps for future development of obexelimab in RMS. As we continue to evaluate the MoonStone data and consider next steps for clinical development in this indication, we will consider, among other items, the evolving treatment landscape in RMS, including existing therapies, current pivotal trial endpoints and prioritization of capital.",
+    "We expect to report topline results, including biomarker data, from the SunStone trial, including biomarker data, in the fourth quarter of 2026. Based on the outcome of the SunStone trial, and considering other factors, we may initiate a Phase 3 program in patients with SLE in the first half of 2027.",
+    "In October 2025, we entered into a License Agreement with InnoCare Pharma Inc. pursuant to which we were granted exclusive rights to develop, manufacture and commercialize orelabrutinib, a BTK inhibitor, for multiple sclerosis worldwide, and in all non-oncology indications worldwide excluding greater China, and Southeast Asia, as well as two early-development product candidates: ZB021, an IL-17AA/AF inhibitor, in all fields of use worldwide excluding greater China and Southeast Asia, and ZB022, a TYK2 inhibitor, in all fields of use worldwide.",
+    "Orelabrutinib is a highly selective and CNS-penetrant, oral small molecule BTK inhibitor. Orelabrutinib is designed to bind irreversibly to BTK with minimal off-target effects, which may potentially reduce certain side effects. We believe orelabrutinib is designed to efficiently cross the blood-brain barrier, reaching therapeutic levels within the CNS to directly target inflammation in diseases like MS.",
+    "In September 2025, the Phase 3 PriMroSe trial of orelabrutinib in patients with PPMS was initiated. The PriMroSe trial is a global, multicenter, randomized, double-blind, placebo-controlled clinical trial evaluating the safety and efficacy of orelabrutinib dosed 80 mg QD compared to placebo in patients with PPMS, with a primary endpoint of time to onset of 12-week composite confirmed disability progression. In the first quarter of 2026, we plan to initiate a second global, Phase 3, multicenter, randomized, double-blind, placebo-controlled clinical trial evaluating orelabrutinib dosed 80 mg QD compared to placebo in patients with non-active SPMS, with a primary endpoint of time to onset of 24-week CDP.",
+    "ZB021 is an oral IL-17AA/AF inhibitor designed to block both IL-17AA homodimer and IL-17AF heterodimer signaling. Preclinical studies for ZB021 have shown favorable PK and ADME properties. ZB021 achieved comparable activity in vivo to a reference anti-IL-17 biologic in a rat CIA model. Subject to the results of IND-enabling studies, we, along with our partner, InnoCare, expect to submit an IND application for ZB021, and if cleared, initiate a Phase 1 clinical study in 2026.",
+    "ZB022 is an oral, brain-penetrant TYK2-JH2 inhibitor, currently in IND-enabling studies. Subject to the results of IND-enabling studies, we expect to submit an IND application for ZB022, and if cleared, initiate a Phase 1 clinical study in 2026.",
+    "In addition, we have two other programs for the potential treatment of other I&I indications that we may continue to advance and ultimately commercialize with partners. These consist of ZB002 and ZB004. We retain global rights for both assets. In addition, we hold the development and commercialization rights to one regional program, ZB001, and related programs, which were exclusively sublicensed to a partner in China, as discussed below."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司管理團隊",
+    "本公司策略",
+    "Obexelimab (CD19 and FcγRIIb 雙功能單株抗體) 計畫",
+    "圖 1: Obexelimab 的作用機制",
+    "臨牀開發",
+    "研究描述*",
+    "Obexelimab 用於治療 IgG4-RD",
+    "圖 2: IgG4-RD: 一種慢性纖維發炎性疾病，特徵為發作",
+    "圖3：INDIGO試驗架構圖",
+    "圖4：第2期試驗中快速且持續的IgG4-RD RI反應",
+    "圖5：停止治療後系統性B細胞快速恢復",
+    "Obexelimab用於治療多發性硬化症",
+    "圖6：B細胞與T細胞在多發性硬化症中的角色",
+    "Obexelimab用於治療紅斑狼瘡"
+   ],
+   "paragraphs": [
+    "本公司為一家臨牀階段的全球生物製藥公司，致力於成為開發與商業化具變革性的免疫學基於療法的領導者，以服務有需要的病患。隨著對自身免疫性疾病病發機制的瞭解不斷深化，以及免疫學基於藥物標的的擴張，我們正在建立一家專注於免疫學（I&I）的生物製藥公司。我們的核心業務策略結合嚴謹的產品候選藥物取得，與內部專業知識的戰略部署，以及有效運用外部資源。我們善用經驗豐富的高階管理團隊，以及在生物製藥產業中已建立的網路，以識別、取得並發展產品候選藥物，我們相信這些產品候選藥物能為患有自身免疫性疾病的病患提供更優越的臨牀效益。",
+    "我們的領先I&I產品候選藥物obexelimab為一種雙功能單株抗體，設計用以同時結合CD19與FcγRIIb，這兩者在B細胞系中廣泛存在，以抑制與許多自身免疫性疾病相關的細胞活動，而不會將這些細胞清除。根據目前產生的臨牀數據，我們相信透過CD19與FcγRIIb針對B細胞系進行作用，可以抑制B細胞，並已顯示良好的耐受性。雖然抗CD20或其他抗CD19標的藥物可能有效清除體循環中的B細胞，但這些藥物並未完全影響相關組織中的B細胞，且這些藥物的間歇性給藥方案可能無法為所有病患提供最佳效益。此外，抗CD20及其他抗CD19標的藥物可能導致循環中的B細胞長期清除達六個月或更久，使病患面臨更高的機會性感染風險，並可能降低其對疫苗的反應能力與獲得完整療效的能力。我們相信obexelimab的作用機制與慢性給藥方案，可能廣泛且有效地針對慢性自身免疫性疾病中B細胞系的病發角色進行處理。在包含INDIGO與MoonStone的八項臨牀試驗中，共有383名受試者接受obexelimab治療，該藥物表現良好耐受性，並顯示臨牀活性，我們相信這為obexelimab作為B細胞抑制劑用於治療患有特定自身免疫性疾病的病患提供了初步證據（POC），並結合其作用機制，使obexelimab成為治療這些病患的潛在差異化B細胞治療方案。",
+    "我們相信obexelimab有潛力為多種I&I適應症的病患提供重要的臨牀效益。我們正在將obexelimab發展為潛在的I&I系列產品，用以治療多種自身免疫性疾病，這代表了巨大的商業機會，個別而言或總體而言皆然。我們目前正在追求的前三項適應症包括免疫球蛋白G4相關疾病（\"IgG4-RD\"），透過一項以註冊為目標的第三期臨牀試驗，該試驗於2026年1月報告初步數據；以及反覆發作型多發性硬化症（\"RMS\"），透過一項第二期雙盲、隨機、安慰劑對照試驗，該試驗於2025年10月報告初步數據；以及系統性紅斑狼瘡（\"SLE\"），透過一項正在進行中的第二期雙盲、隨機、安慰劑對照試驗，我們預計於2026年第四季報告初步結果，包括生物標記數據。我們估計，這些潛在適應症在美國單獨就代表數十億美元的商業機會。",
+    "我們相信obexelimab有潛力為多種I&I適應症的病患提供重要的臨牀效益。我們正在將obexelimab發展為潛在的I&I系列產品，用以治療多種自身免疫性疾病，這代表了巨大的商業機會，個別而言或總體而言皆然。我們目前正在追求的前三項適應症包括免疫球蛋白G4相關疾病（\"IgG4-RD\"），透過一項以註冊為目標的第三期臨牀試驗，該試驗於2026年1月報告初步數據；以及反覆發作型多發性硬化症（\"RMS\"），透過一項第二期雙盲、隨機、安慰劑對照試驗，該試驗於2025年10月報告初步數據；以及系統性紅斑狼瘡（\"SLE\"），透過一項正在進行中的第二期雙盲、隨機、安慰劑對照試驗，我們預計於2026年第四季報告初步結果，包括生物標記數據。我們估計，這些潛在適應症在美國單獨就代表數十億美元的商業機會。",
+    "2026 年 1 月，我們報告了 obexelimab 在 IgG4-RD (\"INDIGO\") 研究中 Phase 3 試驗的正面結果。Obexelimab 達成主要終點，顯示與安慰劑相比，IgG4-RD 發作風險降低 56%，具有高度統計學顯著性且臨牀意義重大 (風險比 0.44，p=0.0005)，並在所有四個關鍵次要終點上達成並顯示與安慰劑相比具有高度統計學顯著性的活性。Obexelimab 被認為耐受性良好，其安全性與先前完成的臨牀試驗中觀察到的結果一致。基於這些結果，我們計畫於 2026 年第二季向美國食品藥物管理局 (\"FDA\") 提交 obexelimab 生物製品許可申請 (\"BLA\")，以治療 IgG4-RD。我們也計畫於 2026 年第二季後向歐洲藥物管理局 (\"EMA\") 提交市場核准申請 (\"MAA\")。",
+    "2025 年 10 月，我們報告 RMS (\"MoonStone\") 的 Phase 2 試驗達成其 12 週主要終點，顯示與安慰劑相比，週 8 和週 12 時的累計新 gadolinium-enhancing (\"GdE\") T1 高訊號病竈數量減少 95%，具有高度統計學顯著性 (p=0.0009)。",
+    "2026 年 2 月，我們報告了 MoonStone 試驗的 24 週數據，確認 obexelimab 在週 8 和週 12 時觀察到的總 GdE T1 高訊號病竈數量減少情況，在週 24 時仍持續；未調整的每掃描新病竈數量為基線時 0.87，週 12 時 0.08，週 24 時 0.04，顯示減少 95%。",
+    "除了 obexelimab，我們也在開發 orelabrutinib，一種 Bruton's Tyrosine Kinase 抑制劑 (\"BTK\")，用於多發性硬化症的進行性形式。Orelabrutinib 是一種高度選擇性且能穿透中樞神經系統 (\"CNS\") 的口服小分子 BTK 抑制劑。Orelabrutinib 設計為與 BTK 不可逆地結合，並具有最小的脫標的副作用，這可能潛在減少某些副作用。我們認為 orelabrutinib 設計為能有效穿透血腦屏障，在 CNS 中達到治療濃度，直接針對多發性硬化症 (\"MS\") 等疾病中的發炎。",
+    "我們正在全球、第三期、多中心、隨機、雙盲、安慰劑對照臨牀試驗中推進 orelabrutinib，用於治療 Primary Progressive Multiple Sclerosis (\"PPMS\") 患者，該試驗稱為 (\"PriMroSe\") 試驗，我們預計於 2026 年第一季啟動第二個全球、第三期、多中心、隨機、雙盲、安慰劑對照臨牀試驗，評估 orelabrutinib 用於治療 non-active Secondary Progressive Multiple Sclerosis (\"non active SPMS\") 患者，該試驗稱為 (\"Monarch\") 試驗。",
+    "我們還有兩個早期開發的產品候選藥物：ZB021 和 ZB022。ZB021 是一種口服 IL-17AA/AF 抑製劑，設計用以阻斷 IL-17AA 同源二聚體和 IL-17AF 異源二聚體訊號。我們預計於 2026 年啟動第一期臨牀試驗。",
+    "ZB022 是一種口服、能穿透腦部的酪胺酸 kinase 2 (\"TYK2\")-JH2 抑製劑，目前處於 Investigational New Drug (\"IND\") 設計階段。在 IND 設計階段結果符合要求的情況下，我們預計提交 IND 申請，並在核准後於 2026 年啟動第一期臨牀試驗。",
+    "此外，我們還有兩個其他計畫，用以潛在治療其他 I&I 應用領域，我們可能持續推進並最終與合作夥伴商業化。這些計畫包括 ZB002（一種 anti-TNFα 單株抗體）和 ZB004（一種 CTLA-4-Ig 結合蛋白）。我們保留這兩項資產的全球權利。此外，我們持有另一個區域性計畫 ZB001（也稱為 VRDN-001，一種 insulin-like growth factor-1 受體 (\"IGF-1R\") 單株抗體及相關計畫）的開發與商業化權利，該計畫已獨家轉讓給大中華地區的合作夥伴。",
+    "截至目前為止，我們在任何國家均未取得任何產品候選藥物核准上市銷售，也未從產品銷售中產生任何收入。",
+    "我們正在開發 obexelimab、orelabrutinib 及其他產品候選藥物，用以治療多種 I&I 疾病，這些疾病總結於下圖的產品開發路線圖中："
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "重大風險與不確定性",
+    "營運成果之組成項目",
+    "營運費用",
+    "總其他收入（費用），淨額",
+    "所得稅",
+    "營運成果",
+    "截至2025年12月31日及2024年12月31日之年度比較",
+    "截至2025年12月31日及2024年12月31日之年度",
+    "增加（減少）",
+    "流動性及資金來源",
+    "未來資金需求",
+    "貸款協議",
+    "現貨市場計畫"
+   ],
+   "paragraphs": [
+    "管理層對財務狀況與營運成果之討論與分析",
+    "投資人應閱讀下列對我們財務狀況與營運成果之討論與分析，並與我們經審計之合併財務報表及相關附註資料一併參考。本討論與分析包含基於目前信念、計畫與預期之向前看陳述，涉及未來事件與我們未來表現之風險、不確定性與假設，例如有關我們意圖、計畫、目標與對業務預期之陳述。我們實際結果與事件發生時間可能與這些向前看陳述所討論者有重大差異，原因包括那些於「風險因素」部分所列者。請參閱「向前看陳述之特別說明」部分。",
+    "本公司為一臨牀階段之全球生物製藥公司，致力於成為開發與商業化具變革性免疫學療法之領導者，以服務有需要之患者。隨著對自身免疫疾病病發機制理解的演進，以及免疫學藥物目標之擴展，我們正在建立一個專注於免疫學（I&I）之生物製藥公司。我們的核心業務策略結合嚴謹的產品候選藥物取得與內部專業知識之戰略部署，並有效運用外部資源。我們運用經驗豐富之高階管理團隊與生物製藥產業中已建立之網路，以識別、取得並開發產品候選藥物，我們相信這些產品可為患有自身免疫疾病的患者提供更優良的臨牀效益。",
+    "我們的領先I&I產品候選藥物obexelimab為一種雙功能單株抗體，設計用以同時結合CD19與FcγRIIb，這兩者在B細胞系中廣泛存在，以抑制參與許多自身免疫疾病之細胞活動，而不會使這些細胞減少。根據目前所產生之臨牀資料，我們相信透過CD19與FcγRIIb針對B細胞系進行作用，可抑制B細胞，且已顯示具有良好耐受性。",
+    "我們正在開發obexelimab作為潛在的I&I系列產品，用於治療多種自身免疫疾病之患者，這代表了單一及整體而言的重大商業機會。我們目前追蹤的前三項適應症包括IgG4-RD，透過一項以註冊為導向的第三期試驗，該試驗於2026年1月報告初步數據；RMS透過一項持續進行之中期雙盲隨機安慰劑對照試驗，該試驗於2025年10月報告初步數據；以及SLE透過一項持續進行之中期雙盲隨機安慰劑對照試驗，我們預計於2026年第四季報告初步結果，包括生物標記資料。",
+    "2026年1月，我們報告了obexelimab在IgG4-RD患者中第三期試驗的正面結果。Obexelimab達成主要終點，顯示與安慰劑相比，IgG4-RD發作風險有高度統計學顯著且臨牀意義重大的56%降低（風險比0.44，p=0.0005），並達成且顯示與安慰劑相比在所有四個關鍵次要終點上均有高度統計學顯著的活性。Obexelimab耐受性良好，其安全性與先前完成之臨牀試驗中觀察到的相符。基於這些結果，我們計畫於2026年第二季向FDA提交obexelimab的BLA，以治療IgG4-RD。我們也計畫於2026年下半年向EMA提交MAA。",
+    "2025年10月，我們宣佈MoonStone試驗的初步數據。Obexelimab達成主要終點，顯示與安慰劑相比，在第8週與第12週，新出現的釓增強T1高信號病竈（代表活動性炎症的標記）的累積數量有統計學顯著的95%減少（p=0.0009）。2026年2月，我們報告了MoonStone試驗的24週數據，確認obexelimab在第8週與第12週觀察到的總GdE T1高信號病竈減少情況在第24週持續；未調整的每掃描新病竈數為基線時0.87，第12週為0.08，第24週為0.04，顯示95%的減少。來自MoonStone試驗的其他次要及探索性終點的24週數據可能有助於評估obexelimab對殘疾進展的潛在影響，並幫助本公司決定obexelimab在RMS適應症未來發展的下一步。隨著我們持續評估MoonStone數據並考慮此適應症的臨牀發展下一步，我們將考慮多項因素，包括RMS治療領域的演進，包括現有療法、目前關鍵試驗終點及資金優先順序。",
+    "我們預計於2026年第四季報告SunStone試驗的初步結果，包括生物標記資料。根據SunStone試驗的結果，並考慮其他因素，我們可能於2027年上半年啟動針對SLE患者的第三期計畫。",
+    "2025年10月，本公司與InnoCare Pharma Inc.簽訂授權協議，根據協議，本公司獲得了獨家權利，用以開發、製造與商業化orelabrutinib，一種BTK抑制劑，用於全球多發性硬化症，以及全球所有非癌症適應症，但不包括中國大陸與東南亞地區，以及兩個早期開發的產品候選物：ZB021，一種IL-17AA/AF抑制劑，用於全球所有用途，但不包括中國大陸與東南亞地區，以及ZB022，一種TYK2抑制劑，用於全球所有用途。",
+    "Orelabrutinib是一種高度選擇性且能穿透大腦的口服小分子BTK抑制劑。Orelabrutinib設計為與BTK不可逆結合，並具有最小的脫標記效果，這可能潛在減少某些副作用。本公司認為Orelabrutinib設計為能有效穿透血腦屏障，達到大腦神經系統的治療濃度，以直接針對多發性硬化症等疾病的發炎。",
+    "2025年9月，Orelabrutinib在PPMS患者中的Phase 3 PriMroSe試驗開始進行。PriMroSe試驗是一項全球性、多中心、隨機、雙盲、安慰劑對照的臨牀試驗，評估Orelabrutinib 80 mg QD與安慰劑在PPMS患者中的安全性與有效性，主要評估指標為12週複合確認失能進展的時間。2026年第一季，本公司預計將啟動第二項全球性、Phase 3、多中心、隨機、雙盲、安慰劑對照的臨牀試驗，評估Orelabrutinib 80 mg QD與安慰劑在非活動性SPMS患者中的安全性與有效性，主要評估指標為24週CDP的時間。",
+    "ZB021是一種口服IL-17AA/AF抑制劑，設計用以阻斷IL-17AA同源二聚體與IL-17AF異源二聚體的訊號傳導。ZB021的預臨牀研究顯示其具有良好的藥代動力學與藥物代謝動力學特性。ZB021在老鼠CIA模型中，體內活性與參考的抗IL-17生物製劑相當。在完成IND啟動研究後，本公司與合作夥伴InnoCare預計將提交ZB021的IND申請，若獲批准，預計於2026年啟動Phase 1臨牀試驗。",
+    "ZB022是一種口服、能穿透大腦的TYK2-JH2抑制劑，目前處於IND啟動研究階段。在完成IND啟動研究後，本公司預計將提交ZB022的IND申請，若獲批准，預計於2026年啟動Phase 1臨牀試驗。",
+    "此外，本公司還有兩個其他計畫，用以潛在治療其他I&I適應症，我們可能持續推進並最終與合作夥伴商業化。這些計畫包括ZB002與ZB004。本公司保留這兩個資產的全球權利。此外，本公司擁有開發與商業化權利至一個區域性計畫ZB001，以及相關計畫，這些計畫已獨家轉讓給中國的合作夥伴，如後文所述。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司財務狀況相關之風險及資金需求",
+    "本公司已註冊之獨立會計師事務所對本公司持續經營能力表示重大疑慮。",
+    "籌措額外資金可能導致股東持股稀釋、對本公司營運施加限制或要求本公司放棄對產品候選藥物之權利。",
+    "與產品候選藥物開發及商業化相關之風險",
+    "臨牀試驗中病患入組及給藥過程之延誤或困難，可能延誤或阻礙取得必要之監管機構核准。",
+    "與取得產品候選藥物授權或收購相關之風險可能導致本公司產品候選藥物之臨牀前及臨牀開發過程產生重大延誤。",
+    "本公司產品候選藥物之臨牀試驗，即使成功完成，可能仍不足以獲得適用之核准文書。",
+    "本公司可能無法實現現有或未來之合作或授權協議之效益，且可能無法成功進行未來之合作夥伴關係之成立。"
+   ],
+   "paragraphs": [
+    "投資人應謹慎考量下列所描述的風險，並配合本年度財務報告中包含的其他資訊，包括在「管理層對財務狀況與營運成果之討論與分析」節以及我們經審計之合併財務報表及相關附註中所載資訊。下列所討論的事件可能發生，並對我們的業務、財務狀況、營運成果與前景造成不利影響，這可能會導致我們普通股的交易價格下跌。下列所描述的風險與不確定性並非我們所面臨的唯一風險。尚有其他風險與不確定性，目前我們尚未知悉，或目前認為不重要，也可能影響我們的業務。請參閱「關於前瞻性陳述之特別說明」。",
+    "本公司為臨牀階段生技藥品公司，營運歷史有限，且無經核准可商業銷售之產品；自成立以來，我們已產生重大虧損，且預期在可預見的未來，將持續產生重大且日益增加的虧損。",
+    "本公司為營運歷史有限的臨牀階段生技藥品公司，無法以該歷史作為投資決策之依據。本公司目前無任何產品候選藥物經核准可商業銷售，亦未自產品銷售中產生任何收入。生技藥品產品之開發為高度投機性之活動，涉及大量前期資金支出與重大風險。任何產品候選藥物可能無法顯示足夠之療效或可接受之安全性，或取得監管核准或成為商業可行之產品，即使已投入大量資金於開發或商業化。",
+    "",
+    "我們預期，若我們：● 繼續進行obexelimab、orelabrutinib及其他計畫之臨牀開發；",
+    "● 推進obexelimab及orelabrutinib計畫及其他產品候選藥物通過臨牀前開發及臨牀試驗；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,207 @@
+{
+ "ticker": "SAH",
+ "cik": "0001043509",
+ "accession": "0001628280-26-010570",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Reportable Segments",
+    "Our Business",
+    "Market Number of Stores in Franchised Dealerships Segment Number of Stores in EchoPark Segment Number of Stores in Powersports",
+    "Segment Percent of",
+    "Percentage of New Vehicle Revenues",
+    "Year Ended December 31,",
+    "Brand 2025 2024 2023",
+    "Business Strategy",
+    "Relationships with Manufacturers",
+    "Governmental Regulations and Environmental Matters",
+    "Information About Our Executive Officers",
+    "Human Capital Resources",
+    "Company Information"
+   ],
+   "paragraphs": [
+    "Sonic Automotive, Inc. was incorporated in Delaware in 1997. References to \"Sonic,\" the \"Company,\" \"we,\" \"us\" or \"our\" used throughout this Annual Report on Form 10-K refer to Sonic Automotive, Inc. and its subsidiaries. We are one of the largest automotive retailers in the United States (the \"U.S.\") (as measured by reported total revenue). As a result of the way we manage our business, we had three reportable segments as of December 31, 2025: (1) the Franchised Dealerships Segment; (2) the EchoPark Segment; and (3) the Powersports Segment. For management and operational reporting purposes, we group certain businesses together that share management and inventory (principally used vehicles) into \"stores.\" As of December 31, 2025, we operated 111 stores in the Franchised Dealerships Segment, 18 stores in the EchoPark Segment, and 14 stores in the Powersports Segment. The Franchised Dealerships Segment consists of 134 new vehicle franchises (representing 24 different brands of cars and light trucks) and 16 collision repair centers in 18 states. The EchoPark Segment consists of 18 stores and operates in 10 states. The Powersports Segment consists of 41 franchises at 14 locations (11 full-service dealerships and three authorized retail outlets) in three states.",
+    "The Franchised Dealerships Segment provides comprehensive sales and services, including: (1) sales of both new and used cars and light trucks; (2) sales of replacement parts and performance of vehicle maintenance, manufacturer warranty repairs, and paint and collision repair services (collectively, \"Fixed Operations\"); and (3) arrangement of third-party financing, extended warranties, service contracts, insurance and other aftermarket products (collectively, \"F&I\") for our guests. The EchoPark Segment sells used cars and light trucks and arranges third-party F&I product sales for our guests in pre-owned vehicle specialty retail locations, and does not offer customer-facing Fixed Operations services. The Powersports Segment offers guests: (1) sales of both new and used powersports vehicles (such as motorcycles, personal watercraft and all-terrain vehicles); (2) Fixed Operations activities; and (3) third party F&I services. All three segments generally operate independently of one another, with the exception of certain shared back-office functions and corporate overhead costs.",
+    "The majority of our revenue is related to our Franchised Dealerships Segment. In 2025, Franchised Dealerships Segment revenue represented approximately 85.0% of total revenue (compared to 83.9% in 2024). In 2025, EchoPark Segment revenue represented approximately 13.7% of total revenue (compared to 15.0% in 2024). In 2025, Powersports Segment revenue represented approximately 1.3% of total revenue (compared to 1.1% in 2024). See Note 14, \"Segment Information,\" to the accompanying consolidated financial statements for additional financial information regarding our three reportable segments.",
+    "The following charts depict the multiple sources of revenue and gross profit for the year ended December 31, 2025:",
+    "As of December 31, 2025, we operated in the following states:",
+    "2025 Total Revenue Texas 27 6 7 26.2 % California 23 1 — 24.6 % Colorado 7 3 — 7.8 % Tennessee 9 1 — 7.4 %",
+    "Florida 9 — — 5.9 % Alabama 7 1 — 4.6 % North Carolina 3 2 2 4.2 % Georgia 5 1 — 4.0 % Idaho 3 — — 3.3 %",
+    "Maryland 4 — — 1.8 % Virginia 1 — — 1.8 % 2 1 — 1.8 % South Carolina 2 — — 1.4 % Indiana 3 — — 1.1 %",
+    "Missouri 3 1 — 1.1 % New Mexico 1 — — 0.7 % New York 1 — — 0.3 % Arizona — 1 — 0.5 % South Dakota — — 5 0.4 %",
+    "Louisiana 1 — — 0.4 % Disposed stores and holding companies — — — 0.7 % Total 111 18 14 100.0 %",
+    "In the future, we expect to acquire dealerships and open new stores that we believe will strengthen our brand portfolio and divest dealerships or close stores that we believe will not yield acceptable returns over the long term. The retail automotive industry remains highly fragmented, and we believe that further consolidation may occur. We believe that attractive acquisition opportunities continue to exist for dealership groups with the capital and experience to identify, acquire and integrate new dealership acquisitions. Our ability to complete acquisitions and open new stores in the future will depend on many factors, including the availability of financing and the existence of any contractual provisions that may restrict our acquisition activity.",
+    "See \"Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations - Liquidity and Capital Resources\" for a discussion of our plans for the use of capital generated from operations.",
+    "The following table depicts the breakdown of our Franchised Dealerships Segment new vehicle revenues by brand:",
+    "Luxury: BMW 23 % 25 % 25 % Mercedes 13 % 14 % 14 % Land Rover 7 % 5 % 4 % Lexus 6 % 5 % 5 %"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to the Retail Automotive Industry",
+    "Competition among automotive retailers and the use of the internet in automotive retail may reduce our profit margins on vehicle sales and related businesses.",
+    "Our dealers depend upon new vehicle sales and, therefore, their success depends in large part upon consumer demand for and manufacturer supply of particular vehicles.",
+    "Our business is dependent on global economies and supply chains that could be adversely affected by natural and man-made disasters, adverse weather and public health crises.",
+    "A decline of available financing or rising financing costs in the consumer automotive lending market may adversely affect our vehicle unit sales volume.",
+    "Our business may be adversely affected by tariffs, import product restrictions and foreign trade risks that may impair our ability to sell the products that we offer profitably.",
+    "Risks Related to Our Growth Strategy",
+    "Our investment in new business strategies, services and technologies is inherently risky and could disrupt our ongoing business or have a material adverse effect on our overall business and results of operations.",
+    "Risks Related to Our Relationships with Vehicle Manufacturers",
+    "Our operations may be adversely affected if one or more of our manufacturer franchise or dealer agreements is terminated or not renewed.",
+    "Our failure to meet a manufacturer's customer satisfaction, financial and sales performance or facility requirements may adversely affect our profitability and our ability to acquire new dealerships.",
+    "If state dealer franchise laws are repealed or weakened, our dealerships may be more susceptible to termination, non-renewal or renegotiation of their franchise and dealer agreements.",
+    "Our sales volume and profit margin on each sale may be materially adversely affected if manufacturers reduce or discontinue their incentive programs.",
+    "Our sales volume may be materially adversely affected if manufacturer-affiliated captive finance companies change their customer financing programs or are unable to provide floor plan financing.",
+    "Our parts and service sales volume and margins are dependent on manufacturer warranty programs.",
+    "Adverse conditions affecting one or more key manufacturers or lenders may negatively impact our results of operations.",
+    "Manufacturer stock ownership restrictions may impair our ability to maintain or renew franchise or dealer agreements or to issue additional equity.",
+    "Risks Related to Our Sources of Financing and Liquidity",
+    "We may not have sufficient funds to meet our obligation to repay all or a substantial portion of the outstanding principal amount of our indebtedness when it becomes due.",
+    "Our ability to make interest and principal payments when due to holders of our debt securities depends upon our future performance and our receipt of sufficient funds from our subsidiaries.",
+    "Our use of hedging transactions could limit our financial gains or result in financial losses.",
+    "Risks Related to the Ownership of Our Common Stock",
+    "Potential conflicts of interest between us and our officers or directors could adversely affect our future performance.",
+    "General Risk Factors",
+    "Our business will be harmed if overall consumer demand suffers from a severe or sustained downturn."
+   ],
+   "paragraphs": [
+    "Our business, financial condition, results of operations, cash flows and prospects and the prevailing market price and performance of our Class A Common Stock may be adversely affected by a number of factors, including the material risks noted below. Our stockholders and prospective investors should consider these risks, uncertainties and other factors prior to making an investment decision.",
+    "Automotive retailing is a highly competitive business. Our competitors include publicly and privately owned dealerships, some of which are larger and have greater financial and marketing resources than we do. Many of our competitors sell the same or similar makes and models of new and used vehicles that we offer in our markets at competitive prices. We do not have any cost advantage in purchasing new vehicles from manufacturers due to economies of scale or otherwise. We typically rely on advertising, merchandising, sales expertise, customer service reputation and dealership location to sell new vehicles. In addition, our F&I business and other related businesses, which have higher margins than sales of new and used vehicles, are subject to competition from various financial institutions and other third parties. Our revenues and profitability could be materially adversely affected if certain state dealer franchise laws are relaxed to permit automobile manufacturers to retail vehicles directly to consumers.",
+    "Moreover, consumers are using the internet to compare pricing for vehicles and related F&I services and, in some cases, complete a vehicle purchase transaction, which may further reduce margins for new and used vehicles and profits for related F&I services. If internet-based new vehicle sales are allowed to be conducted without the involvement of franchised dealers, our business could be materially adversely affected. In addition, other dealership groups have aligned themselves with services offered on the internet or are investing heavily in the development of their own internet sales capabilities, which could materially adversely affect our business, financial condition and results of operations.",
+    "During the COVID-19 pandemic, the gross profit per unit for new and used vehicles increased above historic levels due to shortages in the availability of new and used vehicle inventory. In the years following the pandemic, gross profit per unit normalized and, while remaining higher than historic levels before the COVID-19 pandemic, has trended downwards as inventory, particularly for new vehicles, has become more readily available. If gross profit per unit continues to decline, as we anticipate it may, it could adversely affect our business and results of operation.",
+    "Challenges to the business model of our franchised dealerships from existing automobile manufacturers and the effect of new companies entering into the automotive space may affect our ability to grow or maintain the business over the long term.",
+    "Large and well-capitalized technology-focused companies have continued to enter into the automotive space in recent years. Companies including, but not limited to, Alphabet Inc., Amazon.com, Inc., Apple Inc., Lucid Group, Inc., Lyft, Inc., Rivian Automotive, Inc., Tesla, Inc. and Uber Technologies, Inc. may challenge the existing automotive manufacturing, retail sales, maintenance and repair, and transportation models. For example, Tesla, Inc. has been challenging state dealer franchise laws in many states with mixed results, but it has achieved success with its direct-to-consumer new vehicle sales business model and its vehicles have been accepted by many consumers, even in states where dealer franchise laws appear to preclude such vehicle sales. In addition, other manufacturers whose new vehicles we sell have recently announced their intentions to implement an \"agency\" model of direct manufacturer to consumer sales in certain European markets. Although the long-term impact of the participation of vehicle manufacturers in direct sales is undetermined, these other large companies may continue to change consumers' view on how automobiles should be manufactured, equipped, retailed, maintained and utilized in the future. Because these companies have the ability to connect with individual consumers easily through technology platforms, we may ultimately be at a competitive disadvantage in marketing, selling, financing and servicing vehicles. In addition, certain automobile manufacturers have expressed interest in or begun selling directly to customers. The franchised dealer's participation in that potential future transaction type is unclear and our operations and financial results may be negatively impacted if the role of franchised dealers diminishes."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Executive Summary",
+    "Retail Automotive Industry Performance",
+    "Impairment Charges",
+    "Franchised Dealerships Segment",
+    "EchoPark Segment",
+    "Powersports Segment",
+    "Results of Operations",
+    "Percentage of Total Revenues",
+    "Year Ended December 31,",
+    "Results of Operations - Consolidated",
+    "Better / (Worse) 2024 % Change 13.6 13.1 4 % 2.7 3.0 (10) % 16.3 16.1 1 %",
+    "Year Ended December 31, Better / (Worse)",
+    "2025 2024 Change % Change",
+    "(In millions, except unit and per unit data)",
+    "(In millions)",
+    "Results of Operations - Franchised Dealerships Segment",
+    "(In millions, except unit data)",
+    "Results of Operations - EchoPark Segment"
+   ],
+   "paragraphs": [
+    "The U.S. retail automotive industry's total new vehicle (retail and fleet combined) unit sales volume was approximately 16.3 million vehicles in 2025, an increase of 1%, compared to approximately 16.1 million vehicles in 2024, according to the Power Information Network (\"PIN\") from J.D. Power. We currently estimate the 2026 new vehicle industry volume will be between 15.8 million vehicles (a decrease of 3% compared to 2025) and 16.5 million vehicles (an increase of 1% compared to 2025). The effects of interest rates, changes in consumer confidence, availability of consumer financing, manufacturer inventory production levels, incentive levels from automotive manufacturers or shifts in such levels, or timing of consumer demand as a result of economic conditions, natural disasters or other unforeseen circumstances could cause the actual 2026 new vehicle industry volume to vary from expectations. Many factors, including brand and geographic concentrations as well as the industry sales mix between retail and fleet new vehicle unit sales volume, have caused our past results to differ from the industry's overall trend. Our new vehicle sales strategy focuses on our retail new vehicle sales (as opposed to fleet new vehicle sales) and, as a result, we believe it is appropriate to compare our retail new vehicle unit sales volume to the industry retail new vehicle seasonally adjusted annual rate of unit sales volume (the \"retail new vehicle SAAR\") (which excludes fleet new vehicle sales). According to PIN from J.D. Power, the retail new vehicle SAAR increased 4%, to approximately 13.6 million vehicles, in 2025, from approximately 13.1 million vehicles in 2024.",
+    "On June 19, 2024, CDK Global (\"CDK\"), a third-party provider of certain information systems, notified us that CDK had suspended certain systems used by us in response to a cybersecurity incident impacting CDK (the \"CDK outage\"). This outage adversely affected our business and results of operations during the second and third quarters of 2024. We estimate the disruption from the CDK outage negatively impacted reported income before taxes by approximately $47.2 million during 2024 which includes approximately $13.4 million in additional compensation expenses incurred as a result of the incident. In connection with the CDK outage, we recognized $10.0 million in pre-tax income from cyber insurance proceeds during the three months ended December 31, 2024 and $40.0 million in pre-tax income from cyber insurance proceeds during 2025, which were recorded as a reduction to selling, general and administrative expenses."
+   ],
+   "focus": "Executive Summary"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "應報告分部",
+    "本公司業務",
+    "市場 零售據點數量在特許經銷商分部 零售據點數量在EchoPark分部 零售據點數量在Powersports",
+    "分部佔比",
+    "新車營收佔比",
+    "截至12月31日年度",
+    "品牌 2025 2024 2023",
+    "業務策略",
+    "{'Relationships with Manufacturers': '與製造商之關係'}",
+    "{'Governmental Regulations and Environmental Matters': '政府規範及環境事項'}",
+    "{'Information About Our Executive Officers': '關於我們高階主管之資訊'}",
+    "{'Human Capital Resources': '人力資本資源'}",
+    "{'Company Information': '公司資訊'}"
+   ],
+   "paragraphs": [
+    "Sonic Automotive, Inc. 於1997年在特拉華州成立。文中提及的 \"Sonic\"、\"公司\"、\"我們\"、\"我們\" 或 \"我們的\" 皆指 Sonic Automotive, Inc. 及其子公司。我們是美國（\"美國\"）最大的汽車零售商之一（以報告的總營業收入為衡量標準）。根據我們經營業務的方式，截至2025年12月31日，我們有三個應報告分部：(1) 零售經銷商分部；(2) EchoPark 分部；以及 (3) 機車分部。為管理及運營報告目的，我們將某些業務歸類在一起，這些業務共享管理及存貨（主要是用過的車輛），歸類為 \"商店\"。截至2025年12月31日，我們在零售經銷商分部運營111間商店，在EchoPark分部運營18間商店，在機車分部運營14間商店。零售經銷商分部包括134間新車經銷商（代表24個不同品牌的汽車及輕型貨車）及16間碰撞修復中心，分佈於18個州。EchoPark分部包括18間商店，運營於10個州。機車分部包括41間經銷商，分佈於14個地點（11間全服務經銷商及3間授權零售點），分佈於3個州。",
+    "零售經銷商分部提供全面的銷售及服務，包括：(1) 新車及用過的汽車及輕型貨車銷售；(2) 替換零件銷售及車輛維護、製造商保修修理、塗裝及碰撞修理服務（合稱 \"固定作業\"）；以及 (3) 為我們的客戶安排第三方融資、延長保修、服務合約、保險及其他後市場產品（合稱 \"F&I\"）銷售。EchoPark分部銷售用過的汽車及輕型貨車，並為我們的客戶安排第三方F&I產品銷售，不提供面對客戶的固定作業服務。機車分部為客戶提供：(1) 新車及用過的機車車輛銷售（如摩托車、個人水上運動器及全地形車）；(2) 固定作業活動；以及 (3) 第三方F&I服務。三個分部通常彼此獨立運作，除了某些共享的後臺功能及公司總部開支。",
+    "我們的大部分營業收入與零售經銷商分部有關。2025年，零售經銷商分部的營業收入約佔總營業收入的85.0%（與2024年的83.9%相比）。2025年，EchoPark分部的營業收入約佔總營業收入的13.7%（與2024年的15.0%相比）。2025年，機車分部的營業收入約佔總營業收入的1.3%（與2024年的1.1%相比）。有關我們三個應報告分部的更多財務資訊，請參閱附註14，\"分部資訊\"，與隨附的合併財務報表。",
+    "以下圖表顯示2025年12月31日財年內多種營收來源及毛利率：",
+    "截至2025年12月31日，我們在以下州運營：",
+    "2025年總營業收入德州 27 6 7 26.2 % 加州 23 1 — 24.6 % 科羅拉多州 7 3 — 7.8 % 田納西州 9 1 — 7.4 %",
+    "佛羅裏達州 9 — — 5.9 % 阿拉巴馬州 7 1 — 4.6 % 北卡羅來納州 3 2 2 4.2 % 佐治亞州 5 1 — 4.0 % 爪哇州 3 — — 3.3 %",
+    "馬裏蘭州 4 — — 1.8 % 維吉尼亞州 1 — — 1.8 % 2 1 — 1.8 % 南卡羅來納州 2 — — 1.4 % 印地安那州 3 — — 1.1 %",
+    "Missouri 3 1 — 1.1 % New Mexico 1 — — 0.7 % New York 1 — — 0.3 % Arizona — 1 — 0.5 % South Dakota — — 5 0.4 %",
+    "Louisiana 1 — — 0.4 % Disposed stores and holding companies — — — 0.7 % Total 111 18 14 100.0 %",
+    "In the future, we expect to acquire dealerships and open new stores that we believe will strengthen our brand portfolio and divest dealerships or close stores that we believe will not yield acceptable returns over the long term. The retail automotive industry remains highly fragmented, and we believe that further consolidation may occur. We believe that attractive acquisition opportunities continue to exist for dealership groups with the capital and experience to identify, acquire and integrate new dealership acquisitions. Our ability to complete acquisitions and open new stores in the future will depend on many factors, including the availability of financing and the existence of any contractual provisions that may restrict our acquisition activity.",
+    "See \"Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations - Liquidity and Capital Resources\" for a discussion of our plans for the use of capital generated from operations.",
+    "The following table depicts the breakdown of our Franchised Dealerships Segment new vehicle revenues by brand:",
+    "Luxury: BMW 23 % 25 % 25 % Mercedes 13 % 14 % 14 % Land Rover 7 % 5 % 4 % Lexus 6 % 5 % 5 %"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "執行摘要",
+    "零售汽車產業表現",
+    "減損費用",
+    "特許經銷商分部",
+    "EchoPark 分部",
+    "休閒運動用品分部",
+    "營運成果",
+    "營收佔總營業收入百分比",
+    "會計年度終了於12月31日，",
+    "營運成果 - 統合財務報表",
+    "較(較差) 2024 年變化率 13.6 13.1 4 % 2.7 3.0 (10) % 16.3 16.1 1 %",
+    "會計年度終了於12月31日，較(較差)",
+    "2025 2024 變化率 % 變化率",
+    "(以百萬美元為單位，除單位及單位資料外)",
+    "(以百萬美元為單位)",
+    "營運成果 - 特許經銷商分部",
+    "(以百萬美元為單位，除單位資料)",
+    "營運成果 - EchoPark 分部"
+   ],
+   "paragraphs": [
+    "美國零售汽車產業總計新車（零售與 fleet 合計）單車銷售數量於 2025 年約為 16.3 百萬輛，較 2024 年約 16.1 百萬輛增加 1%，根據 J.D. Power 的 Power Information Network（\"PIN\"）資料。我們目前預估 2026 年新車產業銷售數量將介於 15.8 百萬輛（較 2025 年減少 3%）與 16.5 百萬輛（較 2025 年增加 1%）之間。利率、消費者信心變化、消費者融資可得性、製造商存貨生產水平、汽車製造商的激勵措施或其變動、因經濟條件、自然災害或其他未預見情況所導致的消費者需求時點等因素，可能使實際 2026 年新車產業銷售數量與預期有所差異。許多因素，包括品牌與地理集中度，以及零售與 fleet 新車銷售數量之間的產業銷售組成，已導致我們過往的結果與產業整體趨勢有所差異。我們的新車銷售策略著重於零售新車銷售（而非 fleet 新車銷售），因此，我們認為將零售新車銷售數量與產業零售新車季節調整年率銷售數量（\"retail new vehicle SAAR\"）進行比較是適當的（此指標排除 fleet 新車銷售）。根據 J.D. Power 的 Power Information Network（\"PIN\"）資料，零售新車 SAAR 在 2025 年增加 4%，至約 13.6 百萬輛，較 2024 年約 13.1 百萬輛。",
+    "2024 年 6 月 19 日，CDK Global（\"CDK\"），一家第三方資訊系統供應商，通知我們 CDK 因應一項影響 CDK 的網路安全事件（\"CDK outage\"）而暫停我們使用的某些系統。此中斷事件對我們 2024 年第二及第三季的業務與營運結果造成負面影響。我們估計，CDK 中斷事件對 2024 年報表中稅前所得造成約 47.2 百萬美元的負面影響，其中包括因該事件而產生的約 13.4 百萬美元額外薪資費用。與 CDK 中斷事件相關，我們在 2024 年 12 月 31 日財務週期內認列 10.0 百萬美元的稅前保險賠款收入，並在 2025 年認列 40.0 百萬美元的稅前保險賠款收入，此金額已計入銷售、一般及行政費用的減項。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與零售汽車產業相關的風險",
+    "汽車零售業內的競爭以及網際網路在汽車零售中的應用，可能降低我們在車輛銷售及相關業務的利潤率。",
+    "我們的經銷商依賴新車銷售，因此其成功在很大程度上取決於消費者對特定車型的需求以及製造商的供應情況。",
+    "我們的業務依賴全球總體經濟與供應鏈，這些可能因自然災害與人為災難、惡劣天氣及公共衛生危機而受到不利影響。",
+    "消費者汽車貸款市場中可取得融資的減少或融資成本的上升，可能對我們的車輛單元銷售量產生不利影響。",
+    "我們的業務可能因關稅、進口產品限制及國際貿易風險而受到不利影響，這些可能影響我們以獲利方式銷售所提供產品的能力。",
+    "與我們成長策略相關的風險",
+    "我們在新業務策略、服務與科技上的投資本質上具有風險，可能幹擾我們現有的業務運作，或對我們整體業務及營運成果產生重大不利影響。",
+    "與車輛製造商關係相關的風險",
+    "若我們與製造商的經銷商特許經營協議被終止或未續約，可能對我們的營運造成不利影響。",
+    "若我們未能達成製造商的客戶滿意度、財務及銷售績效或場地要求，可能對我們的獲利能力及取得新經銷商的能力建構不利影響。",
+    "若州政府的經銷商特許經營法規被廢除或弱化，我們的經銷商可能更容易面臨其特許經營及經銷商協議被終止、未續約或重新談判的情況。",
+    "若製造商減少或終止其激勵方案，可能對我們的銷售量及每筆銷售的獲利邊際造成重大不利影響。",
+    "若製造商相關的附屬財務公司改變其客戶融資方案或無法提供庫存融資，可能對我們的銷售量造成重大不利影響。",
+    "我們的零組件及服務銷售量與獲利邊際取決於製造商的保固方案。",
+    "影響一個或一個以上關鍵製造商或貸款機構的不利條件，可能對我們的營運成果造成負面影響。",
+    "製造商股權擁有權限制可能影響我們維持或更新特許經營或經銷協議或發行額外股權的能力。",
+    "與我們資金來源及流動性相關的風險",
+    "我們可能沒有足夠資金以償還所有或相當大一部分現有債務本金在到期時的義務。",
+    "我們支付利息及本金的能力取決於我們未來的表現及從我們子公司獲得足夠資金。",
+    "我們使用避險交易可能會限制我們的財務獲利或導致財務損失。",
+    "與我們普通股 ownership 相關的風險",
+    "我們與我們高層管理人員或董事之間的潛在利益衝突可能不利於我們未來的表現。",
+    "一般風險因素",
+    "{'original': 'Our business will be harmed if overall consumer demand suffers from a severe or sustained downturn.', 'translated': '若總體消費者需求因嚴重或持續衰退而受到影響，將會對本公司業務造成損害。'}"
+   ],
+   "paragraphs": [
+    "本公司營運、財務狀況、營運成果、現金流及前景，以及本公司 A 普通股的市價與表現，可能因多種因素而受到不利影響，包括下列重大風險。股東及潛在投資人應在做出投資決定前，考量這些風險、不確定性及其他因素。",
+    "汽車零售是一項高度競爭的業務。我們的競爭對手包括公開及私營的經銷商，其中一些對手規模較大，且擁有較多的財務與行銷資源。許多競爭對手在我們的市場上，以與我們所提供的相同或相似品牌與型號的新舊車輛，以具有競爭力的價格銷售。我們在向製造商購買新車時，並沒有因規模經濟或其他因素而具備成本優勢。我們通常依賴廣告、商品陳列、銷售專業知識、客戶服務聲譽及經銷商位置來銷售新車。此外，我們的 F&I 事業及其他相關業務，其毛利率高於新舊車輛銷售，會受到來自各類金融機構及其他第三方的競爭影響。若某些州的經銷商特許經營法規被放寬，允許汽車製造商直接向消費者零售車輛，則我們的收入與獲利可能受到重大不利影響。",
+    "此外，消費者正利用互聯網來比較車輛及相關 F&I 服務的價格，並在某些情況下完成車輛購買新交易，這可能會進一步降低新舊車輛的毛利及相關 F&I 服務的利潤。若允許透過互聯網進行新車銷售，而無需經銷商參與，則我們的業務可能受到重大不利影響。此外，其他經銷商集團已與網際網路提供的服務結盟，或正在大量投資發展自身的網際網路銷售能力，這可能會對我們的業務、財務狀況及營運成果造成重大不利影響。",
+    "在 COVID-19 大流行期間，由於新舊車輛存貨的供應短缺，新舊車輛每單位的毛利較歷史水平提高。在大流行後的幾年中，每單位的毛利已恢復至正常水平，雖然仍高於大流行前的歷史水平，但新車存貨的供應變得更加充足，毛利呈現下降趨勢。若每單位的毛利持續下降，正如我們預期的那樣，可能會對我們的業務及營運成果造成不利影響。",
+    "來自現有汽車製造商對我們特許經銷商業務模式的挑戰，以及新公司進入汽車產業的影響，可能影響我們在長遠內成長或維持業務的能力。",
+    "近年來，大型且資金充足的科技公司持續進入汽車產業。包括 Alphabet Inc.、Amazon.com, Inc.、Apple Inc.、Lucid Group, Inc.、Lyft, Inc.、Rivian Automotive, Inc.、Tesla, Inc. 及 Uber Technologies, Inc. 等公司，可能挑戰現有的汽車製造、零售銷售、維修保養及運輸模式。例如，Tesla, Inc. 已在許多州挑戰州級經銷商特許經營法規，結果參差不齊，但其直接對消費者銷售新車的業務模式已取得成功，其車輛已受到許多消費者的接受，即使在州級經銷商特許經營法規似乎禁止此類車輛銷售的州，亦然。此外，我們銷售的新車製造商近期已宣佈有意在某些歐洲市場實施「經銷商代理」模式，直接由製造商對消費者銷售。雖然車輛製造商參與直接銷售的長期影響尚無法確定，但這些大型公司可能持續改變消費者對未來汽車應如何製造、配備、零售、維修及使用的看法。由於這些公司能透過科技平台輕易與個別消費者連結，我們最終可能在行銷、銷售、融資及維護車輛方面處於競爭劣勢。此外，某些汽車製造商已表達對直接對客戶銷售的興趣，或已開始直接對客戶銷售。特許經銷商在這種潛在未來交易類型中的參與尚不清楚，若特許經銷商的角色減弱，我們的營運及財務結果可能受到負面影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

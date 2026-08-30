@@ -1,0 +1,207 @@
+{
+ "ticker": "BIOA",
+ "cik": "0001709941",
+ "accession": "0001193125-26-120873",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our approach: targeting human aging biology to treat chronic metabolic diseases",
+    "Our Pipeline",
+    "Our Strategy",
+    "BGE-102: a Potential Best-in-Class NLRP3 Inhibitor",
+    "NLRP3 and inflammation — a predictor of decreased longevity",
+    "BGE-102, our lead program",
+    "Phase 1 clinical trial results",
+    "Anticipated development milestones",
+    "Atherosclerotic cardiovascular disease opportunity",
+    "Ophthalmology — Diabetic Macular Edema and Geographic Atrophy",
+    "Apelin Receptor APJ Agonists: An Exercise Mimetic Approach for the Treatment of Obesity and Metabolic Disease",
+    "Preclinical results in a diet-induced obesity mouse model demonstrate the potential of apelin receptor APJ agonists to increase weight loss quantity and quality",
+    "Clinical Case Study: azelaprag results demonstrate the potential of apelin receptor APJ agonists to function as an exerkine mimetic to improve body composition and metabolism",
+    "Development strategy and timelines",
+    "The evolving obesity treatment landscape"
+   ],
+   "paragraphs": [
+    "We are a clinical-stage biopharmaceutical company developing therapeutic product candidates for metabolic diseases by targeting the biology of human aging. Our technology platform and differentiated human datasets enable us to identify promising targets based on insights into molecular changes that drive aging.",
+    "In January 2025, we announced the nomination of our lead program, BGE-102, a potent, structurally novel, orally available, brain-penetrant small-molecule NLRP3 inhibitor. BGE-102 has a distinct mechanism and binding site from other NLRP3 inhibitors in development with issued patents covering both composition of matter and claims for the unique binding site.",
+    "In December 2025, we announced that BGE-102 was well-tolerated in Single Ascending Dose (SAD) and initial Multiple Ascending Dose (MAD) cohorts, with a pharmacokinetic profile supporting once-daily oral dosing, strong target engagement and high brain penetration.",
+    "We intend to advance BGE-102 in two therapeutic areas: cardiometabolic disease and ophthalmology.",
+    "Our first therapeutic area for BGE-102 is cardiometabolic disease, with a focus on atherosclerotic cardiovascular disease (ASCVD) risk reduction. Chronic systemic inflammation, as measured by high-sensitivity C-reactive protein (hsCRP), is an independent risk factor for cardiovascular events that is not adequately addressed by current lipid-lowering and antihypertensive therapies. In January 2026, we announced additional positive interim Phase 1 data, demonstrating potential for best-in-class hsCRP reduction in participants with elevated cardiovascular risk. In obese participants with elevated hsCRP, BGE-102 demonstrated an 86% median reduction in hsCRP at Day 14, with 93% of participants achieving hsCRP levels below 2 mg/L — the threshold associated with a 25% reduction in major adverse cardiovascular events. This level of hsCRP reduction is comparable to injectable anti-IL-6 monoclonal antibodies in clinical development for ASCVD, but achieved with once-daily oral dosing. We anticipate full Phase 1 SAD / MAD clinical trial results in the first half of 2026. We plan to initiate a Phase 2a proof-of-concept trial in patients with obesity and elevated hsCRP in the first half of 2026, with results anticipated by 2026 year end.",
+    "Our second therapeutic area for BGE-102 is ophthalmology. Diabetic macular edema (DME) is our first proof-of-concept indication in this area. DME affects approximately 1 million patients in the United States, and current intravitreal therapies face significant unmet need due to high injection burden and a substantial refractory population — approximately 45% of patients demonstrate refractoriness to anti-vascular endothelial growth factor (VEGF) therapy. In a preclinical model of DME, oral BGE-102 demonstrated dose-dependent preservation of retinal vascular integrity, achieving near-complete protection from vascular leakage and up to 90% preservation of microvascular integrity. We plan to initiate a Phase 1b/2a proof-of-concept trial in DME in mid-2026 with results anticipated in mid-2027. The goal is to demonstrate ocular target engagement, supporting future development across inflammation-driven retinal diseases.",
+    "Beyond NLRP3 inhibition, we are also developing novel apelin receptor APJ agonists for obesity, including programs targeting both oral and parenteral (subcutaneous) administration. In preclinical obesity models, APJ agonism has demonstrated the ability to more than double the weight loss induced by a glucagon-like peptide-1 receptor (GLP-1R) agonist while also restoring healthy body composition and improving muscle function. In June 2025, we announced an option agreement with JiKang Therapeutics for a novel APJ agonist antibody, as well as the filing of a U.S. provisional patent for novel small molecule APJ agonists. We intend to file the first Investigational New Drug applications (INDs) for an APJ program by 2026 year end.",
+    "We are also advancing earlier stage platform-derived programs in collaboration with Eli Lilly and Company (Lilly), and have an ongoing target discovery collaboration with Novartis Pharma AG (Novartis).",
+    "The burden of many serious and chronic diseases — including cardiovascular disease and diabetes — increases with age.",
+    "Age is a key risk factor for mortality from many chronic diseases in the United States, including cardiometabolic diseases like heart disease and diabetes. (Source: National Center for Health Statistics).",
+    "However, there is substantial natural variation in the human population, resulting in a broad range of aging trajectories and outcomes, with some people experiencing much longer lifespans as well as delayed disease onset. We created our company to identify biological pathways associated with longer, healthier human lifespans and to develop pharmaceutical products that can modulate these pathways with the intent to prevent and reverse specific diseases, focusing on cardiometabolic diseases.",
+    "We capture a range of aging outcomes in our human aging cohorts, including functional and cognitive decline, disease incidence and mortality. In this example, deep, serial profiling of circulating proteins in these participants was used to understand the biology that drives these outcomes.",
+    "Our approach starts with human data. We examine the impact of the molecular changes that happen naturally as people age and study how these changes drive both functional decline (e.g., loss of muscle strength) and disease risk (e.g., obesity, insulin resistance, dyslipidemia, and hypertension). To develop new insights into the biological drivers of aging, we have generated proprietary longitudinal human datasets based on exclusive access to a unique resource: serial biobanked human samples coupled with health records and functional measurements collected for up to 50 years, capturing individual aging trajectories measured over several decades. We analyze these samples using state-of-the-art molecular profiling technologies,",
+    "measuring thousands of biologically relevant molecules, and then apply computational tools to the resulting data to extract potential drivers of a long and healthy lifespan."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Summary",
+    "Risks Related to Our Financial Position, Limited Operating History and Need for Additional Capital",
+    "Risk Related to Research, Discovery, Development, Regulatory Approval and Commercialization of our",
+    "Product Candidates",
+    "We may develop future product candidates in combination with other therapies, which would expose us to additional risks.",
+    "Our future growth may be dependent, in part, on our ability to operate in foreign markets, where we would be subject to additional regulatory burdens and other risks and uncertainties.",
+    "We may experience difficulty enrolling or keeping patients in our clinical trials, which could delay or prevent us from proceeding with, or otherwise adversely affect, clinical trials of our product candidates.",
+    "Our current or future product candidates may not achieve adequate market acceptance among physicians, patients or their families, healthcare payors and others in the medical community necessary for commercial success."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. Before making your decision to invest in shares of our common stock, you should carefully consider the risks described below, together with the other information contained in this Annual Report, including in the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and in our consolidated financial statements and the related notes included elsewhere in this Annual Report. The risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties that we are unaware of or that we deem immaterial may also become important factors that adversely affect our business. We cannot assure you that any of the events discussed below will not occur. These events could have a material and adverse impact on our business, financial condition, results of operations and prospects. If that were to happen, the trading price of our common stock could decline, and you could lose all or part of your investment. These disclosures reflect the Company's beliefs and opinions as to factors that could materially and adversely affect the Company and its securities in the future. References to past events are provided by way of example only and are not intended to be a complete listing of such events or a representation as to whether or not such factors or similar events have occurred in the past or their likelihood of occurring in the future.",
+    "Our business is subject to a number of risks and uncertainties, including, among others, the following:",
+    "• We are a clinical-stage biopharmaceutical company with a limited operating history, have not completed any clinical trials beyond Phase 1b and have no products approved for commercial sale, which may make it difficult for investors to evaluate our business, likelihood of success and viability.",
+    "• We have incurred significant operating losses since our inception and expect to incur significant losses for the foreseeable future. We are not currently profitable, and may never achieve or sustain profitability. If we are unable to achieve or sustain profitability, the market value of our common stock will likely decline.",
+    "• We will require substantial additional capital to finance our operations and achieve our goals. If we are unable to raise capital when needed or on terms acceptable to us, we may be forced to delay, reduce or eliminate our research or development programs, any future commercialization efforts or other operations.",
+    "• If we are unable to advance the development of, receive regulatory approval for and ultimately successfully commercialize BGE-102 or any future product candidates we may develop, or experience significant delays in doing so, our business will be materially harmed."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Collaboration Agreement with Novartis Pharma AG",
+    "Components of Our Results of Operations",
+    "Operating Expenses",
+    "Direct Costs:",
+    "Indirect Costs:",
+    "Other Income (Expense), Net",
+    "Income Taxes",
+    "Results of Operations",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "Years Ended December 31,",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "Funding Requirements",
+    "Contractual Obligations and Other Commitments",
+    "Lease Obligations",
+    "Purchase and Other Obligations",
+    "Critical Accounting Policies and Estimates",
+    "Accrued and Prepaid Research and Development Expenses",
+    "Stock-Based Compensation",
+    "Revenue Recognition",
+    "Emerging Growth Company and Smaller Reporting Company Status"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations in conjunction with our consolidated financial statements and the related notes and other financial information included elsewhere in this Annual Report on Form 10-K and with our consolidated financial statements and the notes thereto for the year ended December 31, 2024 included on Form 10-K filed with the Securities and Exchange Commission on March 20, 2025. This discussion and analysis and other parts of this Annual Report contain forward-looking statements based upon our current plans and expectations that involve risks, uncertainties and assumptions, such as statements regarding our plans, objectives, expectations, intentions and beliefs. Our actual results and the timing of events could differ materially from those anticipated in these forward-looking statements as a result of various factors, including those set forth under the section titled \"Risk Factors\" and elsewhere in this Annual Report. You should carefully read the section titled \"Risk Factors\" to gain an understanding of the important factors that could cause actual results to differ materially from our forward-looking statements. Please also see the section titled \"Special Note Regarding Forward-Looking Statements.\"",
+    "We are a clinical-stage biopharmaceutical company developing therapeutic product candidates for metabolic diseases by targeting the biology of human aging. Our technology platform and differentiated human datasets enable us to identify promising targets based on insights into molecular changes that drive aging.",
+    "In January 2025, we announced the nomination of our lead program, BGE-102, a potent, structurally novel, orally available, brain-penetrant small-molecule NLRP3 inhibitor. BGE-102 has a distinct mechanism and binding site from other NLRP3 inhibitors in development with issued patents covering both composition of matter and claims for the unique binding site.",
+    "In December 2025, we announced that BGE-102 was well-tolerated in Single Ascending Dose (SAD) and initial Multiple Ascending Dose (MAD) cohorts, with a pharmacokinetic profile supporting once-daily oral dosing, strong target engagement and high brain penetration.",
+    "We intend to advance BGE-102 in two therapeutic areas: cardiometabolic disease and ophthalmology.",
+    "Our first therapeutic area for BGE-102 is cardiometabolic disease, with a focus on atherosclerotic cardiovascular disease (ASCVD) risk reduction. Chronic systemic inflammation, as measured by high-sensitivity C-reactive protein (hsCRP), is an independent risk factor for cardiovascular events that is not adequately addressed by current lipid-lowering and antihypertensive therapies. In January 2026, we announced additional positive interim Phase 1 data, demonstrating potential for best-in-class hsCRP reduction in participants with elevated cardiovascular risk. In obese participants with elevated hsCRP, BGE-102 demonstrated an 86% median reduction in hsCRP at Day 14, with 93% of participants achieving hsCRP levels below 2 mg/L — the threshold associated with a 25% reduction in major adverse cardiovascular events. This level of hsCRP reduction is comparable to injectable anti-IL-6 monoclonal antibodies in clinical development for ASCVD, but achieved with once-daily oral dosing. We anticipate full Phase 1 SAD / MAD clinical trial results in the first half of 2026. We plan to initiate a Phase 2a proof-of-concept trial in patients with obesity and elevated hsCRP in the first half of 2026, with results anticipated by 2026 year end.",
+    "Our second therapeutic area for BGE-102 is ophthalmology. Diabetic macular edema (DME) is our first proof-of-concept indication in this area. DME affects approximately 1 million patients in the United States, and current intravitreal therapies face significant unmet need due to high injection burden and a substantial refractory population — approximately 45% of patients demonstrate refractoriness to anti-vascular endothelial growth factor (VEGF) therapy. In a preclinical model of DME, oral BGE-102 demonstrated dose-dependent preservation of retinal vascular integrity, achieving near-complete protection from vascular leakage and up to 90% preservation of microvascular integrity. We plan to initiate a Phase 1b/2a proof-of-concept trial in DME in mid-2026 with results anticipated in mid-2027. The goal is to demonstrate ocular target engagement, supporting future development across inflammation-driven retinal diseases.",
+    "Beyond NLRP3 inhibition, we are also developing novel apelin receptor APJ agonists for obesity, including programs targeting both oral and parenteral (subcutaneous) administration. In preclinical obesity models, APJ agonism has demonstrated the ability to more than double the weight loss induced by a glucagon-like peptide-1 receptor (GLP-1R) agonist while also restoring healthy body composition and improving muscle function. In June 2025, we announced an option agreement with JiKang Therapeutics for a novel APJ agonist antibody, as well as the filing of a U.S. provisional patent for novel small molecule APJ agonists. We intend to file the first Investigational New Drug application (IND) for an APJ program by 2026 year end.",
+    "We are also advancing earlier stage platform-derived programs in collaboration with Eli Lilly and Company (Lilly), and have an ongoing target discovery collaboration with Novartis Pharma AG (Novartis).",
+    "Our portfolio of product candidates and ongoing collaborations are summarized in the figure below:",
+    "Since our inception in 2015, we have devoted substantially all of our efforts to organizing and staffing our company, business planning, raising capital, establishing our intellectual property portfolio, acquiring or discovering product candidates, research and development activities for our product candidates, establishing arrangements with third parties for the manufacture of our product candidates and component materials, and providing general and administrative support for these operations. We do not have any products approved for sale and have not generated any revenue from product sales. Our primary uses of capital are, and we expect will continue to be, research and development services, compensation and related expenses and general overhead costs.",
+    "We have incurred significant operating losses and negative cash flows since inception. Our ability to generate product revenue sufficient to achieve profitability will depend heavily on the successful development and eventual commercialization of any future product candidates. Our net losses were $80.6 million and $71.1 million for the years ended December 31, 2025 and 2024, respectively. As of December 31, 2025, we had an accumulated deficit of $333.4 million. We expect to continue to incur net operating losses for the foreseeable future, and we expect our research and development expenses, general and administrative expenses, and capital expenditures will increase substantially in connection with our ongoing activities, particularly if, and as, we:",
+    "• continue to progress the development of our lead product candidate, BGE-102; • explore additional indications for our existing product candidates;",
+    "• discover and develop any future product candidates; • obtain, expand, maintain, defend and enforce our intellectual property portfolio;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "我們的作法：針對人類老化生物學以治療慢性代謝疾病",
+    "我們的產品線",
+    "我們的策略",
+    "BGE-102：一種潛在最佳等級的NLRP3抑制劑",
+    "NLRP3與發炎——預測長壽減少的指標",
+    "BGE-102，我們的重點計畫",
+    "第一期臨牀試驗結果",
+    "預期的發展里程碑",
+    "動脈硬化性心血管疾病機會",
+    "眼科——糖尿病性黃斑水腫與地理性萎縮",
+    "Apelin 受體 APJ 激動劑：透過運動模擬方式治療肥胖與代謝疾病的策略",
+    "在飲食誘導肥胖小鼠模型中的臨牀前結果顯示，Apelin 受體 APJ 激動劑有潛力增加體重減輕的數量與品質",
+    "臨牀案例研究：azelaprag 結果顯示，Apelin 受體 APJ 激動劑有潛力作為 exerkine 模擬物，以改善體組成與代謝",
+    "發展策略與時間表",
+    "肥胖治療領域的演進"
+   ],
+   "paragraphs": [
+    "本公司為一家臨牀階段生技藥品公司，致力於開發針對人類老化生物學的治療性產品候選藥物，用以治療代謝疾病。本公司之技術平台與獨特的人類數據集，使我們能根據對驅動老化之分子變化之洞察，識別具有潛力之治療目標。",
+    "2025年1月，本公司宣佈提名我們的重點計畫，BGE-102，這是一款強效、結構創新、口服可用、能穿透腦部之小分子NLRP3抑制劑。BGE-102具有與其他正在開發之NLRP3抑制劑不同的機制與結合位點，已取得涵蓋組成物與獨特結合位點之專利。",
+    "2025年12月，本公司宣佈BGE-102在單次遞增劑量（SAD）與初始多次遞增劑量（MAD）族羣中表現良好耐受性，其藥動學特性支持每日一次口服劑量，強效作用於目標，且具有高腦部穿透力。",
+    "本公司計畫將BGE-102推進至兩個治療領域：心血管代謝疾病與眼科。",
+    "BGE-102的第一個治療領域為心血管代謝疾病，重點為降低動脈粥狀硬化性心血管疾病（ASCVD）風險。慢性系統性發炎，以高敏感度C反應蛋白（hsCRP）測量，是心血管事件的獨立風險因子，而目前的降脂與降血壓治療無法充分解決此問題。2026年1月，本公司宣佈額外的正面一期臨牀中期數據，顯示在心血管風險升高之參與者中，BGE-102有潛力達到最佳類別之hsCRP降低。在肥胖且hsCRP升高之參與者中，BGE-102在第14天顯示hsCRP中位數降低86%，且93%之參與者達到hsCRP低於2 mg/L之水準——此水準與主要心血管不良事件降低25%之閾值相關。此hsCRP降低程度與正在開發用於ASCVD之注射型抗IL-6單株抗體相當，但以每日一次口服劑量達成。本公司預期於2026年上半年公佈完整一期SAD/MAD臨牀試驗結果。本公司計畫於2026年上半年啟動針對肥胖且hsCRP升高之參與者之二期a期概念驗證試驗，預期於2026年底公佈結果。",
+    "BGE-102的第二個治療領域為眼科。糖尿病性黃斑水腫（DME）為此領域的第一個概念驗證適應症。DME在美國約影響1百萬患者，目前的玻璃體內治療因高注射負擔與大量難治性患者而面臨重大未滿足需求——約45%之患者對抗血管內皮生長因子（VEGF）治療顯示難治性。在DME之預臨牀模型中，口服BGE-102顯示劑量依賴性維持視網膜血管完整性，達成近完全保護免於血管滲漏，並維持至多90%之微血管完整性。本公司計畫於2026年下半年啟動DME之一期b/二期a期概念驗證試驗，預期於2027年下半年公佈結果。目標為顯示眼部目標作用，支持未來在炎症驅動之視網膜疾病之發展。",
+    "除了NLRP3抑制之外，本公司亦正在開發新型apelin受體APJ活化劑，用於肥胖，包括針對口服與皮下注射（parenteral）給藥之計畫。在預臨牀肥胖模型中，APJ活化顯示能將GLP-1R活化劑所誘導之體重減輕提高逾一倍，同時恢復健康體組成並改善肌肉功能。2025年6月，本公司宣佈與JiKang Therapeutics簽訂選擇權協議，針對新型APJ活化劑單株抗體，以及提出美國臨時專利申請，針對新型小分子APJ活化劑。本公司計畫於2026年底前提出第一個新藥申請（INDs）之APJ計畫。",
+    "本公司亦正在與Eli Lilly and Company（Lilly）合作推進較早期階段之平台衍生計畫，並與Novartis Pharma AG（Novartis）進行持續之目標發現合作。",
+    "許多嚴重且慢性疾病的負擔 — 包括心血管疾病和糖尿病 — 隨年齡增長而增加。",
+    "年齡是美國許多慢性疾病致死風險的關鍵因素，包括心臟代謝疾病如心臟病和糖尿病。(來源：國家衛生統計中心)",
+    "然而，人類族羣存在顯著的自然變異，導致廣泛的衰老軌跡與結果，有些人的壽命更長，同時也延遲了疾病發病的時間。我們創立本公司，旨在識別與延長、健康人類壽命相關的生物途徑，並開發藥物產品，以調控這些途徑，目標是預防和逆轉特定疾病，專注於心臟代謝疾病。",
+    "我們在人類衰老族羣中捕捉了廣泛的衰老結果，包括功能與認知能力的下降、疾病發生率與死亡率。在這個例子中，透過對這些參與者循環蛋白質進行深入且連續的分析，用以理解驅動這些結果的生物學機制。",
+    "我們的方法從人類數據開始。我們研究人們隨著年齡增長自然發生的分子變化，並研究這些變化如何驅動功能下降（例如肌肉力量喪失）和疾病風險（例如肥胖、胰島素抵抗、血脂異常和高血壓）。為深入瞭解衰老的生物學驅動因素，我們基於對獨特資源的獨家存取權，建立了專利的長期人類數據集：串聯生物銀行人類樣本，搭配健康記錄與功能測量資料，持續收集達50年，記錄個體的衰老軌跡，測量跨越數十年的變化。我們使用最先進的分子分析技術分析這些樣本，",
+    "測量數千種與生物學相關的分子，並應用計算工具至所得數據，以提取可能驅動長壽與健康生活的潛在因素。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "與 Novartis Pharma AG 籤訂的合作協議",
+    "營運成果之組成項目",
+    "營運費用",
+    "直接成本:",
+    "間接成本:",
+    "其他收入（費用），淨額",
+    "所得稅",
+    "營運成果",
+    "比較 2025 年 12 月 31 日及 2024 年 12 月 31 日之年度",
+    "年度終止於 12 月 31 日，",
+    "流動性及資本資源",
+    "流動性來源",
+    "資金需求",
+    "契約義務及其他承諾",
+    "租賃義務",
+    "採購及其他義務",
+    "重要會計政策與會計估計",
+    "累積及預付研究與開發費用",
+    "股票基於報酬",
+    "收入確認",
+    "新興成長公司與小型報告公司資格"
+   ],
+   "paragraphs": [
+    "您應閱讀下列對我們財務狀況及營運成果之討論與分析，並配合我們合併財務報表及相關附註與其他財務資訊，這些資訊包含於本年度10-K申報書中，以及我們於2025年3月20日提交給證券交易委員會之10-K申報書中所包含之合併財務報表及相關附註，該年度為2024年12月31日結算。本討論與分析及其他部分之年度報告包含前瞻性陳述，基於我們目前之計畫與預期，涉及風險、不確定性與假設，例如關於我們計畫、目標、預期、意圖與信念之陳述。我們實際之結果與事件之時程可能與這些前瞻性陳述所預期者有重大差異，原因可能是多種因素，包括於本年度報告中標題為\"風險因素\"之部分及其他地方所列之因素。您應仔細閱讀標題為\"風險因素\"之部分，以瞭解可能導致實際結果與我們前瞻性陳述有重大差異之重要因素。請同時參閱標題為\"關於前瞻性陳述之特別說明\"之部分。",
+    "我們是一家臨牀階段生技藥品公司，開發針對代謝疾病之治療性產品候選藥物，透過針對人類老化之生物學進行研究。我們之技術平台與獨特之人類數據集使我們能根據對驅動老化之分子變化之洞察，識別有潛力之目標。",
+    "2025年1月，我們宣佈將我們之主要計畫BGE-102提名人選，BGE-102為一種強效、結構上創新、口服可用、能穿透腦部之小分子NLRP3抑制劑。BGE-102具有與其他正在開發之NLRP3抑制劑不同的機制與結合位點，已發行之專利涵蓋組成物之專利與針對獨特結合位點之聲請。",
+    "2025年12月，我們宣佈BGE-102在單次遞增劑量（SAD）與初始多次遞增劑量（MAD）族羣中表現良好耐受性，其藥動學特性支持每日一次口服劑量，強烈目標作用與高腦部穿透率。",
+    "我們計畫將BGE-102推進至兩個治療領域：心血管代謝疾病與眼科。",
+    "BGE-102之第一個治療領域為心血管代謝疾病，重點為動脈粥狀硬化性心血管疾病（ASCVD）風險降低。慢性系統性發炎，以高敏感度C反應蛋白（hsCRP）衡量，是心血管事件之獨立風險因素，而目前之降脂與降血壓治療無法充分解決此問題。2026年1月，我們宣佈額外正面的臨牀一期中期數據，顯示在心血管風險升高之參與者中，BGE-102有潛力達到最佳類別之hsCRP降低。在肥胖且hsCRP升高之參與者中，BGE-102在第14天顯示hsCRP中位數降低86%，有93%之參與者達到hsCRP低於2 mg/L之水平——與主要不良心血管事件降低25%相關之閾值。此hsCRP降低程度與臨牀開發中用於ASCVD之注射型抗IL-6單株抗體相當，但以每日一次口服劑量達成。我們預期於2026年上半年取得完整的臨牀一期SAD/MAD臨牀試驗結果。我們計畫於2026年上半年啟動針對肥胖且hsCRP升高之參與者之臨牀二期概念驗證試驗，預計於2026年底取得結果。",
+    "BGE-102之第二個治療領域為眼科。糖尿病性黃斑水腫（DME）為此領域之第一個概念驗證適應症。DME影響美國約1百萬患者，目前之玻璃體內治療因高注射負擔與大量難治性族羣而面臨重大未滿足需求——約45%之患者對抗血管內皮生長因子（VEGF）治療顯示難治性。在DME之預臨牀模型中，口服BGE-102顯示劑量依賴性之視網膜血管完整性維持，達成近完全之血管滲漏保護與達90%之微血管完整性維持。我們計畫於2026年下半年啟動DME之臨牀一期b/二期a概念驗證試驗，預計於2027年下半年取得結果。目標為顯示眼部目標作用，支持未來在炎症驅動之視網膜疾病之發展。",
+    "除了NLRP3抑制之外，我們也正在開發新型apelin受體APJ活化劑，用於肥胖，包括針對口服與皮下注射（parenteral）之計畫。在預臨牀肥胖模型中，APJ活化顯示能將GLP-1R活化劑所誘導之體重減輕提高超過一倍，同時恢復健康體組成與改善肌肉功能。2025年6月，我們宣佈與JiKang Therapeutics簽訂選擇權協議，針對新型APJ活化劑單株抗體，以及提交新型小分子APJ活化劑之美國臨時專利申請。我們計畫於2026年底提交第一個新藥申請（IND）之APJ計畫。",
+    "我們亦在與 Eli Lilly and Company (Lilly) 合作進行較早期的平台衍生計畫，並與 Novartis Pharma AG (Novartis) 進行持續的目標發現合作。",
+    "我們的產品候選品項組合與持續進行的合作關係，於下圖中進行總結：",
+    "自 2015 年成立以來，我們已將 substantially all 的努力投入於組織與僱用員工、業務規劃、籌措資金、建立智慧財產權組合、取得或發現產品候選品項、產品候選品項的研究與開發活動、與第三方建立製造產品候選品項與零組件的安排，以及提供這些業務的一般及行政支援。我們目前尚無任何已核准上市的產品，也尚未從產品銷售中產生任何營業收入。我們的資金主要用於研究與開發服務、薪資及相關費用，以及一般營運費用。",
+    "自成立以來，我們已產生顯著的營運虧損與負面現金流。我們能否產生足夠的產品收入以達成獲利，將嚴重依賴未來產品候選品項的開發與最終商業化成功。我們的淨虧損為 2025 年 12 月 31 日止年度為 80.6 百萬美元，2024 年 12 月 31 日止年度為 71.1 百萬美元。截至 2025 年 12 月 31 日，我們累計虧損為 333.4 百萬美元。我們預期將持續產生淨營運虧損，且我們預期研究與開發費用、一般及行政費用及資本支出將因持續進行的業務活動而顯著增加，特別是在我們：",
+    "• 繼續推進我們主要產品候選品項 BGE-102 的開發；• 探索現有產品候選品項的其他適應症；",
+    "• 發現並開發任何未來產品候選品項；• 取得、擴展、維護、防禦並執行我們的智慧財產權組合；"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'Risk Factors Summary': '風險因素摘要'}",
+    "{'Risks Related to Our Financial Position, Limited Operating History and Need for Additional Capital': '與本公司財務狀況、有限營運歷史及需額外資金相關之風險'}",
+    "{'Risk Related to Research, Discovery, Development, Regulatory Approval and Commercialization of our': '與本公司產品候選藥物之研究、發現、開發、監管核准及商業化相關之風險'}",
+    "{'Product Candidates': '產品候選藥物'}",
+    "{'original': 'We may develop future product candidates in combination with other therapies, which would expose us to additional risks.', 'translated': '我們可能開發未來的產品候選品項，與其他療法結合使用，這將使我們面臨額外的風險。'}",
+    "{'original': 'Our future growth may be dependent, in part, on our ability to operate in foreign markets, where we would be subject to additional regulatory burdens and other risks and uncertainties.', 'translated': '我們未來的成長可能部分取決於我們在海外市場運作的能力，而在這些市場我們將面臨額外的監管負擔及其他風險與不確定性。'}",
+    "{'original': 'We may experience difficulty enrolling or keeping patients in our clinical trials, which could delay or prevent us from proceeding with, or otherwise adversely affect, clinical trials of our product candidates.', 'translated': '我們可能面臨在臨牀試驗中招募或留住病患的困難，這可能會延誤或阻止我們進行，或以其他方式不利影響，我們產品候選品項的臨牀試驗。'}",
+    "{'original': 'Our current or future product candidates may not achieve adequate market acceptance among physicians, patients or their families, healthcare payors and others in the medical community necessary for commercial success.', 'translated': '我們目前或未來的產品候選品項可能無法在醫學界中取得足夠的市場接受度，包括醫生、病患或其家屬、醫療付費者及其他相關人士，這對於商業成功是必要的。'}"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及高度風險。在決定投資本公司普通股之前，您應仔細考慮下列所描述的風險，並配合本年度報告中其他資訊，包括「管理層對財務狀況與營運結果之討論與分析」節及本公司合併財務報表與相關附註。下列所描述的風險與不確定性並非本公司唯一面臨的風險。尚有其他風險與不確定性，可能為本公司未預見或認為不重要，但這些風險與不確定性可能成為影響本公司業務的重要因素。本公司無法保證下列所討論的事件不會發生。這些事件可能對本公司業務、財務狀況、營運結果與前景造成重大且不利的影響。若發生此種情況，本公司普通股的交易價格可能下跌，您可能損失全部或部分投資。這些揭露反映本公司對未來可能對本公司及其證券造成重大且不利影響因素的信念與觀點。提及過去事件僅為說明之用，並非完整列出這些事件，亦不表示這些因素或類似事件是否曾發生過，或其未來發生的可能性。",
+    "本公司業務面臨許多風險與不確定性，包括但不限於下列事項：",
+    "• 本公司為一家臨牀階段生技藥品公司，營運歷史有限，尚未完成任何臨牀試驗至第1b期，且無任何產品已獲批准進行商業銷售，這可能使投資人難以評估本公司業務、成功機率與可行性。",
+    "• 自本公司成立以來，本公司已產生重大營運虧損，並預期在可預見的未來持續產生重大虧損。本公司目前尚未獲利，且可能永遠無法達成或維持獲利。若本公司無法達成或維持獲利，本公司普通股的市場價值將可能下跌。",
+    "• 本公司將需要大量額外資金以支應營運並達成目標。若本公司無法在需要時取得資金或在本公司認為可接受的條件下取得資金，本公司可能被迫延後、減少或終止研究與開發計畫、未來商業化努力或其他營運活動。",
+    "• 若本公司無法推進BGE-102的開發、取得相關監管批准並最終成功商業化，或遭遇重大延宕，將對本公司業務造成重大損害。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

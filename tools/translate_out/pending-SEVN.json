@@ -1,0 +1,201 @@
+{
+ "ticker": "SEVN",
+ "cik": "0001452477",
+ "accession": "0001452477-26-000010",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Taxation as a REIT",
+    "REIT Qualification Requirements"
+   ],
+   "paragraphs": [
+    "Our Company. Seven Hills Realty Trust is a Maryland REIT that focuses primarily on originating and investing in floating rate first mortgage loans that range from $15.0 million to $75.0 million, secured by middle market transitional CRE properties that have values up to $100.0 million. We define transitional CRE as commercial properties subject to redevelopment or repositioning activities that are expected to increase the value of the properties.",
+    "As of December 31, 2025, we had a portfolio of 24 floating rate first mortgage loans with aggregate loan commitments of $724.5 million with a weighted average maximum maturity of 2.6 years, a weighted average coupon rate and a weighted average all in yield of 7.52% and 7.92%, respectively, and a weighted average interest rate floor of 2.81%.",
+    "We operate our business in a manner consistent with our qualification for taxation as a REIT under the Internal Revenue Code of 1986, or the IRC. As such, we generally are not subject to U.S. federal income tax, provided that we meet certain distribution and other requirements. We also operate our business in a manner that permits us to maintain our exemption from registration under the 1940 Act.",
+    "Our principal executive offices are located at Two Newton Place, 255 Washington Street, Suite 300, Newton, Massachusetts 02458-1634, and our telephone number is 617-332-9530.",
+    "Our Investment and Leverage Strategies. Our primary investment strategy is to balance capital preservation with generating attractive, risk adjusted returns by creating customized loan structures tailored to borrowers' specific business plans for the underlying collateral properties. To this end, the loans that we target for origination and investment generally have the following characteristics:",
+    "•first mortgage loans with principal balances ranging from $15.0 million to $75.0 million;",
+    "•stabilized loan to value ratios, or LTVs, of 75% or less; •terms of five years or less;",
+    "•floating interest rates based on the Secured Overnight Financing Rate, or SOFR, plus a margin that is competitive in the market;",
+    "•non-recourse to sponsors (subject to customary non-recourse carve-out guarantees); and",
+    "•secured by middle market transitional CRE across the United States that are equity owned by well capitalized sponsors with experience investing in the relevant property type.",
+    "We invest in floating rate first mortgage loans that provide bridge financing on transitional CRE properties. These investments typically are secured by properties undergoing redevelopment or repositioning activities that are expected to increase the value of the properties. We fund these loans over time as the borrowers' business plans for the properties are executed. Our loans secured by transitional CRE are typically bridge loans that are refinanced with the proceeds from other CRE mortgage loans or property sales. We expect to receive origination fees for bridge loans we make and we may also receive exit fees, extension fees, modification or similar fees in connection with some of our bridge loans.",
+    "Bridge loans may lead to future investment opportunities for us, including making mortgage loans to repay our transitional loans, otherwise known as \"takeout mortgage loans.\" We may also originate or acquire subordinated and mezzanine loans, which are loans secured by junior mortgages on the underlying collateral property or loans secured by a pledge of the ownership interests of either the entity owning the property or a pledge of the ownership interests in the entity that owns the interest in the entity owning the property.",
+    "Our strategy to invest in floating rate first mortgage loans generally will result in an increase to our net income in periods of rising interest rates and a decrease to our net income in periods of declining interest rates. Decreases to our net income during periods of declining interest rates may be mitigated by active interest rate floors that are higher than the applicable benchmark index. As of December 31, 2025, 96.6% of our loan portfolio by principal outstanding had interest rate floors in place with a weighted average floor of 2.81%. As of December 31, 2025, SOFR was 3.69%, and as a result, seven of our loan investments had an active interest rate floor.",
+    "We generally seek to match the terms of our financing, including benchmark indices and duration, to the loans we originate and pledge as collateral. As of December 31, 2025, all amounts outstanding under our financing agreements pay interest at floating rates that are not subject to floors. We currently expect that our leverage, on a debt to equity basis, will generally be below a ratio of 3.5:1. As of December 31, 2025, our debt to equity ratio was 1.5:1."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Summary of Risk Factors",
+    "Risks Relating to Our Business",
+    "We operate in a highly competitive market for investment opportunities and competition may limit our ability to originate or acquire target investments on attractive terms or at all.",
+    "We have a limited operating history investing in mortgage loans and have made a limited number of target investments to date.",
+    "Our loan portfolio consists of a limited number of investments, and losses, repayments or other changes with respect to any of those investments may significantly impact us.",
+    "The lack of liquidity of our loan investments may adversely affect our business.",
+    "Loans secured by properties in transition or requiring significant renovation involve a greater risk of loss than loans secured by stabilized properties.",
+    "Tremont's diligence process for investment opportunities may not reveal all facts that may be relevant for an investment, and if we incorrectly evaluate the risks of our investments, we may experience losses.",
+    "We may be unable to obtain additional capital sufficient to enable us to grow our loan portfolio.",
+    "Prepayment rates may adversely affect our ability to generate returns, which could negatively impact our ability to make or sustain distributions to our shareholders.",
+    "Difficulty or delays in redeploying the proceeds from repayments of our existing loan investments may cause our financial performance and returns to shareholders to decline.",
+    "Earning returns on the CRE loans that we originate or acquire is subject to the ability of the property owner to generate net operating income from operating the property.",
+    "We may need to foreclose on loans that are in default, which could result in losses.",
+    "The CRE loans that we originate or acquire expose us to risks associated with real estate investments generally.",
+    "We are subject to various risks related to the ownership of certain real property.",
+    "REIT distribution requirements may adversely impact our ability to carry out our business plan.",
+    "Changes in interest rates and credit spreads may significantly reduce our revenues or impede our growth.",
+    "Sustainability initiatives, requirements and market expectations may impose additional costs and expose us to new risks.",
+    "We and Tremont are subject to state licensing requirements and our or Tremont's failure to be properly licensed may have a material adverse effect on our operations.",
+    "We may be subject to lender liability claims and, if we are held liable under such claims, we could be subject to losses.",
+    "Insurance proceeds with respect to a property may not cover all losses, which could result in the corresponding non-performance of or loss on our investment related to such property.",
+    "Liability relating to environmental matters may adversely impact the value of our investments.",
+    "We may not have control over certain of our investments."
+   ],
+   "paragraphs": [
+    "The summary below provides an overview of many of the risks we face, and a more detailed discussion of risks is set forth in Part I, Item 1A of this Annual Report on Form 10-K under the caption \"Risk Factors.\" Additional risks, beyond those summarized below or discussed under the caption \"Risk Factors\" or described elsewhere in this Annual Report on Form 10-K, may also materially and adversely impact our business, operations or financial results. Consistent with the foregoing, the risks we face include, but are not limited to, the following:",
+    "•we operate in a highly competitive market for investment opportunities, may not obtain sufficient additional capital, and may be adversely affected by Tremont's diligence processes, any defaults on our loan investments, the rate of prepayments on our loan investments, changes in interest rates or changes in credit spreads due to the size of our loan portfolio;",
+    "•unfavorable market, economic, CRE and capital market conditions have had and may continue to have a material adverse effect on our investment returns, ability to grow our investment portfolio, results of operations, financial condition and ability to pay distributions to our shareholders;",
+    "•the lack of liquidity of our loan investments may make it difficult for us to sell our investments if the need or desire arises;",
+    "•loans secured by properties in transition or requiring significant renovation involve a greater risk of loss than loans secured by stabilized properties;",
+    "•the CRE loans that we originate or acquire are subject to the ability of the property owner to generate net operating income from the underlying property, as well as the risks of defaults and foreclosure, which may be impacted by current economic conditions, including inflation, uncertainty surrounding interest rates and sustained high interest rates, supply chain challenges, labor availability, and geopolitical instability and tensions, among other factors;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "OVERVIEW (dollars in thousands, except share data)",
+    "Factors Affecting Operating Results",
+    "Our Loan Portfolio",
+    "As of December 31,",
+    "(4)LTV represents the initial loan amount divided by the underwritten in-place value of the underlying collateral at closing.",
+    "Loan Portfolio Details",
+    "Location Property Type Origination Date Committed Principal Amount Principal",
+    "Maximum Maturity(2)",
+    "Total/weighted average $ 724,458 $ 687,585 S + 4.02% 66 % 2.8",
+    "Financing Activities",
+    "Maturity Date Principal Balance Carrying Value Unused Capacity Maximum Facility Size Collateral Principal Balance",
+    "RESULTS OF OPERATIONS (amounts in thousands, except per share data)",
+    "Year Ended December 31, 2025 Compared to Year Ended December 31, 2024:",
+    "Non-GAAP Financial Measures",
+    "Adjusted Book Value",
+    "Distributable Earnings",
+    "Reconciliation of Net Income to Distributable Earnings",
+    "Year Ended December 31,",
+    "LIQUIDITY AND CAPITAL RESOURCES (dollars in thousands, except per share data)",
+    "Distributions",
+    "Rights Offering",
+    "Contractual Obligations and Commitments",
+    "Payment Due by Period",
+    "Total Less than 1 Year 1 - 3 Years 3 - 5 Years More than 5 Years",
+    "Debt Covenants",
+    "Related Person Transactions",
+    "Critical Accounting Estimates"
+   ],
+   "paragraphs": [
+    "We are a Maryland REIT. Our business strategy is focused on originating and investing in floating rate first mortgage loans that range from $15,000 to $75,000, secured by middle market transitional CRE properties that have values up to $100,000. We define transitional CRE as commercial properties subject to redevelopment or repositioning activities that are expected to increase the value of the properties. Our mortgage loans are classified as loans held for investment in our consolidated balance sheets.",
+    "Tremont is registered with the SEC as an investment adviser under the Investment Advisers Act of 1940, as amended. We believe that Tremont provides us with significant experience and expertise in investing in middle market transitional CRE.",
+    "We operate our business in a manner that is consistent with our qualification for taxation as a REIT under the IRC. As such, we generally are not subject to U.S. federal income tax, provided that we meet certain distribution and other requirements. We also operate our business in a manner that permits us to maintain our exemption from registration under the 1940 Act."
+   ],
+   "focus": "OVERVIEW (dollars in thousands, except share data)"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'original': 'Taxation as a REIT', 'translated': '稅務待遇作為REIT'}",
+    "{'original': 'REIT Qualification Requirements', 'translated': 'REIT資格認定條件'}"
+   ],
+   "paragraphs": [
+    "本公司為一間馬裏蘭州的REIT，主要從事發行及投資於浮動利率第一優先抵押貸款，貸款金額範圍為15.0百萬美元至75.0百萬美元，這些貸款是以價值最高達100.0百萬美元的中型市場轉型商業不動產為擔保。我們將轉型商業不動產定義為商業不動產，這些不動產正進行重建或重新定位活動，預期會提高不動產價值。",
+    "截至2025年12月31日，我們持有24筆浮動利率第一優先抵押貸款，總貸款承諾金額為724.5百萬美元，加權平均最長到期日為2.6年，加權平均票面利率及加權平均總報酬率分別為7.52%及7.92%，加權平均利率下限為2.81%。",
+    "我們的營運方式符合根據1986年美國國稅法（Internal Revenue Code），或稱IRC，作為REIT的稅務資格要求。因此，我們一般不會受到美國聯邦所得稅的課稅，前提是我們符合某些分紅及其他要求。我們也以符合1940年法案（1940 Act）註冊豁免的方式營運業務。",
+    "本公司主要營運辦公室位於馬薩諸塞州紐頓市Washington Street 255號Two Newton Place，Suite 300，郵遞區號02458-1634，電話號碼為617-332-9530。",
+    "投資與槓桿策略。我們的主要投資策略是透過建立符合借款人特定業務計畫的個性化貸款結構，來平衡資本保存與產生有吸引力的風險調整後回報。為此，我們目標的貸款發行與投資通常具有以下特徵：",
+    "•浮動利率第一優先抵押貸款，貸款本金金額範圍為15.0百萬美元至75.0百萬美元；",
+    "•貸款價值比，或LTV，為75%或以下；•貸款期限為五年或以下；",
+    "•基於secured overnight financing rate，或SOFR，加上市場上具有競爭力的利差的浮動利率；",
+    "•對贊助人無追索權（依慣例保留無追索權除外擔保）；以及",
+    "•以美國中型市場過渡性商業不動產（transitional CRE）為擔保，且這些不動產為具備充足資本與經驗投資相關不動產類型的贊助人所擁有。",
+    "我們投資於浮動利率第一優先抵押貸款，這些貸款用於提供過渡性商業不動產的過渡性融資。這些投資通常以正在進行重建或重新定位活動的不動產為擔保，這些活動預期會提高不動產的價值。我們會隨著借款人對不動產的商業計畫執行情況逐步提供這些貸款資金。我們以過渡性商業不動產為擔保的貸款通常為過渡貸款，這些貸款會透過其他商業不動產抵押貸款或不動產出售的所得進行重組。我們預期會因發放過渡貸款而獲得發行手續費，我們也可能因某些過渡貸款而獲得退出手續費、延長手續費、修改或其他類似費用。",
+    "過渡貸款可能為我們帶來未來的投資機會，包括發放用以償還我們過渡貸款的抵押貸款，也稱為「取回抵押貸款（takeout mortgage loans）」。我們也可能發放或取得次級貸款與梅扎尼貸款，這些貸款是以擔保抵押權為基礎的貸款，擔保抵押權為次級抵押權，或以擔保所有權權益為基礎的貸款，擔保的是擁有不動產的實體或擁有該實體權益的實體的所有權權益。",
+    "我們投資浮動利率第一優先抵押貸款的策略，通常會在利率上升期間提高我們的淨收入，而在利率下降期間則會降低我們的淨收入。在利率下降期間，我們的淨收入下降可能透過設置高於適用指標的活躍利率地板來緩解。截至2025年12月31日，我們貸款組閤中按本金 outstanding 計算，有96.6%的貸款設有利率地板，加權平均地板利率為2.81%。截至2025年12月31日，SOFR為3.69%，因此我們有七筆貸款投資設有活躍利率地板。",
+    "我們通常會將我們的融資條款，包括指標指數與期限，與我們發放的貸款及用作擔保的貸款相匹配。截至2025年12月31日，我們融資協議下所有未償還金額均以浮動利率計息，且不受利率地板限制。我們目前預期，我們的槓桿比率（以負債對股東權益為基準）通常會低於3.5:1的比率。截至2025年12月31日，我們的負債對股東權益比率為1.5:1。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "總覽（金額以千美元計，除股數資料外）",
+    "影響營運結果的因素",
+    "我們的貸款組合",
+    "截至12月31日",
+    "(4)LTV 代表貸款金額除以關聯擔保品在關閉時的承諾本金金額",
+    "貸款組合細節",
+    "所在地點 房屋類型 起源日期 承諾本金金額 本金",
+    "最大到期日(2)",
+    "總計/加權平均 $ 724,458 $ 687,585 S + 4.02% 66 % 2.8",
+    "資金活動",
+    "到期日 本金餘額 款項帳面價值 未使用容量 最大融資額 庇護品 本金餘額",
+    "營運成果 (金額單位為千美元，除每股資料外)",
+    "截至 2025 年 12 月 31 日年度與截至 2024 年 12 月 31 日年度比較：",
+    "非 GAAP 財務指標",
+    "調整後帳面價值",
+    "可分配盈餘",
+    "淨收入與可分配盈餘之調和",
+    "截至12月31日之會計年度",
+    "流動性及資金來源（金額單位為千美元，除每股資料外）",
+    "分紅",
+    "權利發行新股",
+    "契約義務及承諾",
+    "各期間應償付金額",
+    "總計少於1年 1至3年 3至5年 超過5年",
+    "{'original': 'Debt Covenants', 'translated': '債務契約'}",
+    "{'original': 'Related Person Transactions', 'translated': '關聯人交易'}",
+    "{'original': 'Critical Accounting Estimates', 'translated': '關鍵會計估計'}"
+   ],
+   "paragraphs": [
+    "本公司為馬裏蘭州的REIT。我們的業務策略著重於發起並投資於浮動利率的第一優先抵押貸款，貸款金額範圍為15,000至75,000美元，這些貸款以價值最高達100,000美元的中型市場過渡性商業不動產為擔保。我們將過渡性商業不動產定義為進行重新開發或重新定位活動的商業不動產，預期這些活動將提高不動產價值。我們的抵押貸款被歸類為持有以投資的貸款，並列示於我們的合併資產負債表中。",
+    "Tremont已向SEC登記為根據1940年投資顧問法（經修正）註冊的投資顧問。我們認為Tremont為我們提供在中型市場過渡性商業不動產投資方面的重要經驗與專業知識。",
+    "我們的業務運作方式與本公司符合美國國稅法典（IRC）下作為REIT的稅務資格一致。因此，我們通常不會受到美國聯邦所得稅的影響，前提是我們符合某些分紅及其他要求。我們的業務運作方式亦允許我們維持免於根據1940年法案進行註冊的豁免資格。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與本公司業務相關的風險",
+    "我們營運於一個高度競爭的投資機會市場，競爭可能限制我們在有吸引力的條件下或完全無法發起或取得目標投資的能力。",
+    "我們在房貸貸款方面的營運歷史有限，且截至目前為止所取得的目標投資數量也相當有限。",
+    "我們的貸款組合包含為數不多的投資，而針對這些投資的損失、償還或其他變動可能對我們產生重大影響。",
+    "我們貸款投資的流動性不足，可能對我們的業務產生不利影響。",
+    "以處於轉型階段或需進行重大翻修的不動產為擔保的貸款，其損失風險較以穩定不動產為擔保的貸款更高。",
+    "Tremont 對投資機會的盡職調查程序可能無法揭露所有與投資相關的重要事實，若我們錯誤評估投資的風險，我們可能面臨損失。",
+    "本公司可能無法取得足夠額外資金以支持我們擴大貸款組合。",
+    "預先償還率可能不利於我們產生回報的能力，這可能會對我們向股東發放或維持分紅的能力產生負面影響。",
+    "難以或延誤重新運用現金流入以償還現有貸款投資，可能會導致本公司財務表現及對股東的回報下降。",
+    "我們所發行或取得的商業不動產貸款產生回報，取決於財產所有者能否從經營財產中產生淨營運收入。",
+    "我們可能需要對違約貸款進行法拍，這可能會導致虧損。",
+    "我們所發行或取得的商業不動產貸款使我們面臨與一般不動產投資相關的風險。",
+    "本公司面臨與擁有特定不動產相關的各種風險。",
+    "REIT 分紅要求可能對我們執行業務計畫的能力產生負面影響。",
+    "利率與信用違約 spreads 的變動可能顯著降低我們的營業收入或阻礙我們的成長。",
+    "永續發展倡議、要求及市場期待可能導致額外成本，並使我們面臨新的風險。",
+    "我們與 Tremont 都需遵守各州的執照要求，若我們或 Tremont 未能適當取得執照，可能對我們的營運產生重大不利影響。",
+    "我們可能面臨貸款人責任的索賠，若我們被判定需承擔此類索賠，可能會產生損失。",
+    "針對某項不動產的保險賠款可能無法完全彌補損失，這可能會導致我們與該不動產相關投資無法履行或產生損失。",
+    "與環境相關的責任可能不利於我們投資的價值。",
+    "我們可能無法對某些投資進行控制。"
+   ],
+   "paragraphs": [
+    "下列摘要提供許多我們所面臨風險的概覽，更詳細的風險討論請參閱本年度10-K表報第I部第1A項，標題為『風險因素』的部分。除了下列摘要或『風險因素』部分所討論的風險，或其他在本年度10-K表報其他地方所描述的風險，也可能對我們的業務、營運或財務結果產生重大且不利的影響。根據上述內容，我們所面臨的風險包括，但不僅限於以下：",
+    "•我們營運於一個高度競爭的投資機會市場，可能無法取得足夠的追加資金，且可能因Tremont的盡職調查程序、我們貸款投資的違約情況、貸款投資的預先償還率、利率的變動或因貸款組合規模而導致的信用 spreads 變動而受到不利影響；",
+    "•不利的市場、經濟、商業不動產（CRE）及資本市場條件已對我們的投資回報、擴大投資組合的能力、營運結果、財務狀況及支付股東分紅的能力產生重大不利影響，並可能持續產生此類影響；",
+    "•我們的貸款投資流動性不足，可能使我們在需要或有意出售投資時遇到困難；",
+    "•以處於轉型期或需進行重大翻修的不動產為抵押的貸款，其損失風險高於以穩定不動產為抵押的貸款；",
+    "•我們所發行或取得的商業不動產（CRE）貸款，其風險取決於不動產所有者能否從該不動產產生淨營運收入，以及違約與法拍的風險，此等風險可能受當前經濟條件影響，包括通貨膨脹、利率不確定性及持續高利率、供應鏈挑戰、勞動力可得性，以及地緣政治不穩定與緊張關係等因素影響；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,213 @@
+{
+ "ticker": "LRN",
+ "cik": "0001157408",
+ "accession": "0001104659-26-090515",
+ "form": "10-K",
+ "reportDate": "2026-06-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Overview",
+    "Market Opportunity",
+    "Our Lines of Revenue",
+    "General Education",
+    "Career Learning",
+    "Sales Channels",
+    "Business Strategy",
+    "Key Products and Services",
+    "Other Information",
+    "Federal Laws Applicable to Virtual Public Schools and Blended Schools",
+    "Laws and Regulations Applicable to Consumer Education Products offered by Galvanize, Tech Elevator and MedCerts",
+    "Laws and Regulations Applicable to Our Products offered Directly to Consumers"
+   ],
+   "paragraphs": [
+    "We are a technology company providing an educational platform to deliver online learning to students throughout the U.S. Our platform hosts products and services to attract, enroll, educate, track progress, and support students. These products and services, spanning curriculum, systems, instruction, and support services, are designed to help learners of all ages reach their full potential through inspired teaching and personalized learning. Our clients are primarily public and",
+    "private schools, school districts, and charter boards. Additionally, we provide solutions to employers, government agencies and consumers.",
+    "We provide a wide range of products and services across our platform with the ability to deliver customized solutions. Our comprehensive school-as-a-service offering supports our clients in operating full-time virtual schools in the K-12 market. Together with our network of online schools, Stride has served millions of students with our products and services.",
+    "Our platform addresses two markets in the K-12 space: General Education and Career Learning. Products and services for the General Education market are predominantly focused on core subjects for kindergarten through twelfth grade students to help build a common foundation of knowledge. These programs provide an alternative to traditional school options and address a range of student needs including, safety concerns, increased academic support, scheduling flexibility, physical/health restrictions or advanced learning. Products and services are sold as a comprehensive school-as-a-service offering or as stand-alone products and services.",
+    "Career Learning products and services are focused on developing skills to enter and succeed in careers in high-growth, in-demand industries—including information technology, healthcare and general business. Through our Career Learning programs, we provide middle and high school students content pathways that include job-ready skills and work experiences and, for high school students, that can lead toward an industry certification and/or college credits. Like General Education products and services, the products and services for the Career Learning market are sold as a comprehensive school-as-a-service offering or as stand-alone products and services.",
+    "Through our Adult Learning business, we provide training programs leading to certifications in high-demand, growing industries like healthcare and technology. This business also delivers talent development programs to employers and government agencies.",
+    "For both the General Education and Career Learning markets, the majority of revenue is derived from our comprehensive school-as-a-service offering, which includes an integrated package of curriculum, technology systems, instruction, and support services that we administer on behalf of our customers. The average duration of the agreements for our school-as-a-service offering is greater than five years, and most provide for automatic renewals absent a customer notification of non-renewal.",
+    "We were founded in 2000 to utilize advances in technology to provide children with access to a high quality education regardless of their geographic location or socioeconomic background.",
+    "In September 2001, we introduced our kindergarten through 2nd grade offering and subsequently added new grades and new school clients in additional states. We also opened online private schools to reach students worldwide.",
+    "During the 2025-2026 school year, we provided our school-as-a-service offering to 92 schools in 31 states and the District of Columbia in the General Education market, and 57 schools or programs in 25 states and the District of Columbia in the Career Learning market.",
+    "In 2020, we significantly expanded our Career Learning opportunity by acquiring three adult learning companies, Galvanize, Tech Elevator, and MedCerts. These Adult Learning brands deliver training in software engineering and allied healthcare to consumers and enterprises.",
+    "The U.S. market for K-12 education is large, and school choice and alternative educational options continue to gain share and acceptance. For example:",
+    "● A January 2026 survey by the National School Choice Awareness Foundation found that 75% of parents had considered, searched for, or enrolled at least one of their children in a new or different school within the past year the highest level recorded in five years. Of those who enrolled in a new or different school, enrollment in full-time online schools grew from 10% to 15%.",
+    "● In May 2026, the National Home Education Research Institute estimated that there were approximately 3.4 million home educated students in the United States during School Year 2024-2025. In spring 2019, the estimated number of students was 2.5 million, and estimates showed home-educated student enrollments growing by 2 - 8% per year over the last several years."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Summary",
+    "Risks Related to Government Funding and Regulation of Public Education",
+    "Actual or alleged misconduct by current or former directors, officers, key employees or officials could make it more difficult for us to enter into new contracts or renew existing contracts.",
+    "New laws or regulations could be enacted and negatively impact our operations and financial results.",
+    "Risks Related to Our Business and Our Industry",
+    "The enrollment data we present is subject to certain limitations and may not fully capture trends in the performance of our business.",
+    "The student demographics of the schools we serve can lead to higher costs and affect our ability to sustain or grow our operating income.",
+    "Mergers, acquisitions and joint ventures present many risks, and we may not realize the financial and strategic goals that formed the basis for the transaction.",
+    "Increasing competition in the education industry sectors that we serve could lead to pricing pressures, reduced operating margins, loss of market share, departure of key employees and increased capital expenditures.",
+    "Our business is subject to seasonal fluctuations, which may cause our operating results to fluctuate from quarter-to-quarter and adversely impact our working capital and liquidity throughout the year.",
+    "Risks Related to Our Operations",
+    "We plan to continue to create new products, expand distribution channels and pilot innovative educational programs to enhance academic performance. If we are unable to effectively manage these initiatives or they"
+   ],
+   "paragraphs": [
+    "The following summary description sets forth an overview of the material risks we are exposed to in the normal course of our business activities. The summary does not purport to be complete and is qualified in its entirety by reference to the full risk factor discussion immediately following this summary description. Our business, results of operations and financial condition, as well as your investment in our common stock, could be materially and adversely affected by any of the following material risks:",
+    "● The majority of our revenues come from our school-as-a-service offering and depend on per pupil funding amounts and payment formulas remaining near levels existing at the time we execute service agreements with the schools we serve;",
+    "● Any failure to comply with our contracts or regulatory requirements, poor academic performance or allegations of such poor performance or misconduct by us or operators of other virtual public schools;",
+    "● Opponents of public charter schools could prevail in challenging the establishment and expansion of such schools through the judicial process;",
+    "● Any failure to comply with the laws and regulations applicable to our business, resulting in a loss of public funding and an obligation to repay funds previously received;",
+    "● Disputes over our inability to invoice and receive payments for our services due to ambiguous enabling legislation and interpretive discrepancies by regulatory authorities;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Executive Summary",
+    "General Education",
+    "Career Learning",
+    "Key Aspects and Trends of Our Operations",
+    "Revenues—Overview",
+    "Virtual Schools",
+    "Traditional School Districts",
+    "Consumer Sales",
+    "Instructional Costs and Services Expenses",
+    "Selling, General and Administrative Expenses",
+    "Critical Accounting Estimates",
+    "Revenue Recognition",
+    "Income Taxes",
+    "Results of Operations",
+    "Lines of Revenue",
+    "Enrollment Data",
+    "Years Ended June 30,",
+    "(In thousands, except percentages)",
+    "Revenue Data",
+    "Change 2026 / 2025",
+    "Change 2025 / 2024",
+    "Products and Services",
+    "Financial Information",
+    "Gross margin",
+    "Income from operations",
+    "Income before income taxes and loss from equity method investments",
+    "Net income attributable to common stockholders",
+    "Comparison of the Years Ended June 30, 2026 and 2025",
+    "Discussion of Seasonality of Financial Condition",
+    "Liquidity and Capital Resources",
+    "Operating Activities",
+    "Investing Activities",
+    "Financing Activities",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "We are a technology company providing an educational platform to deliver online learning to students throughout the U.S. Our platform hosts products and services to attract, enroll, educate, track progress, and support students. These products and services, spanning curriculum, systems, instruction, and support services, are designed to help learners of all ages reach their full potential through inspired teaching and personalized learning. Our clients are primarily public and private schools, school districts, and charter boards. Additionally, we provide solutions to employers, government agencies and consumers.",
+    "We provide a wide range of products and services across our platform with the ability to deliver customized solutions. Our comprehensive school-as-a-service offering supports our clients in operating full-time virtual schools in the K-12 market. Together with our network of online schools, Stride has served millions of students with our products and services.",
+    "Our platform addresses two markets in the K-12 space: General Education and Career Learning."
+   ],
+   "focus": "Executive Summary"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "公司概況",
+    "市場機會",
+    "收入來源",
+    "一般教育",
+    "職業學習",
+    "銷售通路",
+    "商業策略",
+    "核心產品與服務",
+    "其他資訊",
+    "適用於虛擬公立學校及混合式學校之聯邦法規",
+    "Galvanize、Tech Elevator 及 MedCerts 所提供消費者教育產品之適用法規與規章",
+    "本公司直接對消費者所提供之產品之適用法規與規章"
+   ],
+   "paragraphs": [
+    "本公司為一間科技公司，提供教育平台以提供線上學習服務給美國學生。我們的平台提供產品與服務，用以吸引學生、招收學生、教育學生、追蹤學習進度，並支持學生。這些產品與服務涵蓋課程、系統、教學與支持服務，旨在協助所有年齡層的學習者透過啟發式教學與個性化學習達成其最大潛力。我們的客戶主要為公立與私立學校、學區與特許學校董事會。",
+    "此外，我們也為僱主、政府機構與消費者提供解決方案。",
+    "我們透過平台提供廣泛的產品與服務，並能提供客製化解決方案。我們的全面性學校即服務方案，協助客戶在K-12市場運作全日制虛擬學校。與我們的線上學校網路合作，Stride已透過我們的產品與服務服務了數百萬學生。",
+    "我們的平台在K-12領域涵蓋兩個市場：一般教育與職業學習。一般教育市場的產品與服務主要聚焦於幼稚園至十二年級學生的核心科目，以協助建立共同的知識基礎。這些方案提供傳統學校選項的替代方案，並解決多種學生需求，包括安全問題、增加學術支持、排程靈活性、身體/健康限制或進階學習。產品與服務可銷售為全面性學校即服務方案，或作為獨立的產品與服務。",
+    "職業學習的產品與服務聚焦於培養進入並在高成長、需求旺盛產業（包括資訊科技、醫療與一般商業）中成功就業的技能。透過我們的職業學習方案，我們為中學與高中學生提供包含就業就緒技能與工作經驗的內容路徑，並為高中學生提供可通往產業認證與/或大學學分的途徑。與一般教育的產品與服務一樣，職業學習市場的產品與服務可銷售為全面性學校即服務方案，或作為獨立的產品與服務。",
+    "透過我們的成人學習業務，我們提供培訓方案，以取得高需求、快速成長產業（如醫療與科技）的認證。此業務也為僱主與政府機構提供人才發展方案。",
+    "對於一般教育與職業學習市場，收入的絕大多數來自我們的全面性學校即服務方案，該方案包含課程、資訊科技系統、教學與支持服務的整合包裝，我們代表客戶進行管理。我們學校即服務方案的契約平均持續時間超過五年，且大多數契約在客戶未通知不續約的情況下會自動續約。",
+    "本公司於2000年成立，旨在利用科技進步，讓兒童無論其地理位置或社會經濟背景，都能獲得高品質的教育。",
+    "2001年9月，本公司推出幼稚園至二年級的課程，隨後在其他州份新增了新學年級與新學校客戶。本公司亦開設線上私立學校，以服務全球學生。",
+    "在2025-2026學年度，本公司於一般教育市場為31州及華盛頓特區的92所學校提供學校即服務方案，並於職業學習市場為25州及華盛頓特區的57所學校或計畫提供服務。",
+    "2020年，本公司透過收購三間成人學習公司，大幅拓展職業學習機會，分別為Galvanize、Tech Elevator與MedCerts。這些成人學習品牌為消費者與企業提供軟體工程與相關醫療領域的培訓。",
+    "美國K-12教育市場規模龐大，學校選擇與替代教育選項持續增加市佔率與接受度。例如：",
+    "● 2026年1月，國家學校選擇意識基金會的調查顯示，75%的家長在過去一年內曾考慮、搜尋或註冊至少一名子女入讀新學校或不同學校，為近五年來最高紀錄。其中，註冊全時間線上學校的比例從10%增加至15%。",
+    "● 2026年5月，國家在家教育研究機構估計，在2024-2025學年度，美國約有340萬名在家教育學生。2019年春季的估計數為250萬名，估計在家教育學生人數每年成長2至8%。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "執行摘要",
+    "一般教育",
+    "職業學習",
+    "營運關鍵項目與趨勢",
+    "營收—總覽",
+    "虛擬學校",
+    "傳統學區",
+    "消費者銷售",
+    "教學費用及服務費用",
+    "銷售、一般及行政費用",
+    "關鍵會計估計",
+    "收入確認",
+    "所得稅",
+    "營運成果",
+    "收入來源",
+    "入學資料",
+    "會計年度截止6月30日",
+    "(單位：千美元，除百分比外)",
+    "營業收入資料",
+    "2026年與2025年變動",
+    "2025年與2024年變動",
+    "產品與服務",
+    "財務資訊",
+    "毛利率",
+    "營業收入",
+    "稅前淨收入及權益法投資損失",
+    "歸屬於普通股股東的淨收入",
+    "截至2026年6月30日及2025年6月30日之年度比較",
+    "財務狀況季節性討論",
+    "流動性及資本資源",
+    "營運活動",
+    "投資活動",
+    "資金活動",
+    "最近會計準則聲明"
+   ],
+   "paragraphs": [
+    "本公司為一間科技公司，提供教育平台以對學生進行線上學習。本公司平台提供產品與服務，用以吸引學生、招收學生、教育學生、追蹤學習進度及支持學生。這些產品與服務涵蓋課程、系統、教學及支持服務，旨在協助所有年齡層的學習者透過激勵教學與個人化學習達成其最大潛力。本公司客戶主要為公立及私立學校、學區及特許學校董事會。此外，本公司亦為僱主、政府機構及消費者提供解決方案。",
+    "本公司於平台提供廣泛的產品與服務，並具備提供客製化解決方案的能力。本公司完整的學校即服務方案，協助客戶在K-12市場運作全日制虛擬學校。與本公司線上學校網路合作，Stride已透過本公司產品與服務服務數百萬學生。",
+    "本公司平台在K-12領域涵蓋兩個市場：一般教育與職業學習。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總結",
+    "與政府資金及公共教育規範相關的風險",
+    "現任或前任董事、高階管理人員、關鍵員工或官員實際或被指控有不當行為，可能使我們更難以簽訂新契約或續約現有契約。",
+    "新法規或法律可能被制定，並對我們的營運及財務結果產生負面影響。",
+    "與我們的業務及產業相關的風險",
+    "我們所呈現的入學人數資料存在某些限制，可能無法完全反映我們業務表現的趨勢。",
+    "我們服務的學校學生人口結構可能導致成本提高，並影響我們維持或成長營運收入的能力。",
+    "合併、收購及合作投資案可能伴隨許多風險，我們可能無法實現促成交易的財務與戰略目標。",
+    "我們所服務的教育產業領域競爭日益激烈，可能導致價格壓力、營運毛利下降、失去市場佔有率、關鍵員工離職以及增加資本支出。",
+    "我們的業務受季節性波動影響，可能導致營運成果在季度之間出現波動，並對全年營運資金及流動性產生不利影響。",
+    "與我們營運相關的風險",
+    "我們計畫持續開發新產品、擴展通路渠道並試辦創新教育方案，以提升學術表現。若我們無法有效管理這些計畫或這些計畫"
+   ],
+   "paragraphs": [
+    "下列摘要說明提供有關我們在正常業務活動中所面臨的重要風險之總覽。此摘要並非完整，且完全依賴後續立即出現之完整風險因素討論內容。我們的業務、營運結果與財務狀況，以及您對我們普通股之投資，可能因下列任何重要風險而受到重大且不利之影響：",
+    "● 我們的營業收入主要來自學校即服務方案，並依賴每位學生補助金金額及付款公式維持在與我們與所服務學校簽訂服務契約時之水準；",
+    "● 未能遵守我們的契約或法規要求、學術表現不佳或被指控學術表現不佳或我們或其它虛擬公立學校經營者之不當行為；",
+    "● 反對公立特許學校之人士可能透過司法程序挑戰設立及擴展此類學校；",
+    "● 未能遵守適用於我們業務之法律與法規，導致失去公共資金並有義務歸還先前已收到之資金；",
+    "● 因啟動法規不明確及監管機關解釋差異，導致我們無法發票並收到服務費用之爭議；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

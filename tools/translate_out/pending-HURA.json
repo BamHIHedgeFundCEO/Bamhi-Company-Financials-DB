@@ -1,0 +1,191 @@
+{
+ "ticker": "HURA",
+ "cik": "0001498382",
+ "accession": "0001193125-26-134950",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our History and Team",
+    "IFx Innate Immune Agonist Development Program",
+    "TBS-2025 Development Program",
+    "DOR Technology Development Program",
+    "Our Pipeline",
+    "Our Strategy",
+    "Cancer Immunotherapies and IFx Technology",
+    "Potential Advantages of IFx Innate Immune Agonist Technology",
+    "Clinical Rationale for TBS-2025",
+    "DOR Technology and Bi-functional, Bi-specific ADCs: Inhibiting MDSC immune suppressing functions",
+    "TuHURA's IFx Clinical Development Program"
+   ],
+   "paragraphs": [
+    "We are a phase 3 clinical stage immuno-oncology company with three distinct technologies focused on the development of novel therapeutics designed to overcome primary and acquired resistance to cancer immunotherapies.",
+    "Our proprietary Immune FxTM technology platform, or IFx, is an innate immune agonist technology designed to \"trick\" the body's immune system to attack tumor cells by making tumor cells look like bacteria. Our lead product candidate, IFx2.0, is an innate immune agonist designed to overcome primary resistance to checkpoint inhibitors. In June 2025, we initiated a single randomized placebo-controlled Phase 3 registration trial of administered as an adjunctive therapy to Keytruda® (pembrolizumab) in first line treatment for patients with advanced or metastatic Merkel cell carcinoma who are checkpoint inhibitor naïve utilizing the FDA's accelerated approval pathway.",
+    "In addition to our IFx technology platform, in June 2025 we acquired the rights to TBS-2025, a novel VISTA-inhibiting monoclonal antibody formerly known as KVA1213, through our acquisition of Kineta, Inc. (\"Kineta\") on June 30, 2025. VISTA (otherwise referred to as V-domain Ig suppressor of T cell activation) is an immune checkpoint highly expressed on myeloid cells that is believed to be a strong driver of immunosuppression in the tumor microenvironment and is believed to be a primary mechanism by which leukemic blasts escape immune recognition contributing to low response rates and high rates of recurrence in acute myeloid leukemia, or AML. Following our acquisition of Kineta, we are currently planning on investigating TBS-2025 in a Phase1b/2 trial in patients with r/r mutNPM1AML.",
+    "In addition to our IFx and TBS-2025, we are leveraging our Delta Opioid Receptor (DOR) technology to develop first-in-class bi-functional, bi-specific antibody-drug conjugates (\"ADCs\") targeting the DOR on Myeloid Derived Suppressor Cells (\"MDSCs\") to modulate their immunosuppressive influence on the bone marrow and tumor microenvironment to prevent T cell exhaustion and acquired resistance to checkpoint inhibitors and cellular therapies.",
+    "We are a Nevada corporation originally formed on June 24, 2009 under the name Berry Only Inc. On January 25, 2013, we entered into and closed an exchange agreement, with Del Mar Pharmaceuticals (BC) Ltd. (\"Del Mar (BC)\"), 0959454 B.C. Ltd., and 0959456 B.C. Ltd. and the security holders of Del Mar (BC). Upon completion of the exchange agreement, Del Mar (BC) became our wholly-owned subsidiary. On August 19, 2020, we completed a merger with Adgero Biopharmaceuticals Holdings, Inc., a Delaware corporation (\"Adgero\"), in which Adgero continued its existence under Delaware law and became our direct, wholly-owned subsidiary. Following the completion of the merger, we changed our name from Del Mar Pharmaceuticals, Inc. to Kintara Therapeutics, Inc. (\"Kintara\") and began trading on Nasdaq under the symbol \"KTRA.\"",
+    "On October 18, 2024, Kintara completed its reverse merger transaction in accordance with the terms of the Agreement and Plan of Merger, dated as of April 2, 2024 (the \"Kintara Merger Agreement\"), by and among Kintara, TuHURA Biosciences, Inc. (\"Legacy TuHURA\"), and Kayak Mergeco, Inc., a direct wholly owned subsidiary of Kintara (\"Merger Sub\"). Pursuant to the Kintara Merger Agreement, Merger Sub merged with and into Legacy TuHURA, with Legacy TuHURA surviving the merger and becoming our direct, wholly-owned subsidiary (the \"Kintara Merger\"). Effective at 12:03 a.m. Eastern Time on October 18, 2024, the merger was completed, and effective at 12:04 a.m. Eastern Time on October 18, 2024, Kintara Therapeutics, Inc. was renamed \"TuHURA Biosciences, Inc.\"",
+    "On June 30, 2025, we completed the acquisition via merger of Kineta, Inc. (\"Kineta\") pursuant to an Agreement and Plan of Merger, dated December 11, 2024, and as amended by that certain First Amendment to Agreement and Plan of Merger, dated May 5, 2025 (as amended, the \"TuHURA-Kineta Merger Agreement\"), by and among the Company, Hura Merger Sub I, Inc., a Delaware corporation and a direct wholly-owned subsidiary of the Company, Hura Merger Sub II, LLC, a Delaware limited liability company and direct wholly-owned subsidiary of the Company, Kineta, and Craig Philips, solely in his capacity the representative, agent and attorney-in-fact of the stockholders of Kineta. Pursuant to the terms of the TuHURA-Kineta Merger Agreement, the former stockholders of Kineta received merger consideration in the amount of an aggregate of approximately 4 million shares of Company common stock pursuant to the terms and conditions of the TuHURA-Kineta Merger Agreement, each share of Kineta common stock, par value $0.001 per share (each, a \"Kineta Share\"), issued and outstanding immediately prior to the First Merger, was converted into the right to receive 0.185298 shares of the Company's common stock, par value $0.001 per share, for an aggregate of approximately",
+    "2,868,169 shares of Company common stock. Also pursuant to the terms and conditions of the TuHURA-Kineta Merger Agreement, each Kineta Share received its pro rata portion of approximately 1,129,880 shares of Company common stock in December 2025, in accordance with the terms of the TuHURA-Kineta Merger Agreement. In addition, each Kineta share is entitled to the right to its pro rata share of cash consideration, if any, received in the future in the form of disposed asset payments related to legacy Kineta assets transferred prior to the merger with Kineta.",
+    "Legacy TuHURA's predecessor company was formed as Morphogenesis, Inc. in 1995 by Drs. Patricia and Michael Lawman. Our IFx technology was developed in the laboratory of Dr. Michael Lawman at the Walt Disney Memorial Cancer Institute, where Dr. Michael Lawman was formerly a Director of the Institute, and Dr. Patricia Lawman was formerly Division Director of Cancer Molecular Biology at the Institute. Dr. Michael Lawman is a Fellow of the Royal Society of Biology, former Associate Professor at University of South Florida, and former Scientific Research Director of Pediatric Hematology/Oncology at St. Joseph's Children's Hospital. Dr. Patricia Lawman also serves as an Adjunct Professor at University of South Florida. Drs. Patricia and Michael Lawman are each inventors on numerous U.S. and foreign patents.",
+    "Our Delta Opioid Receptor ADC technology was developed in the laboratory of Dr. Mark McLaughlin at the Moffitt Cancer Center and at the West Virginia University Research Corporation. Dr. McLaughlin was previously a Senior Member of the Drug Discovery Department at the Moffitt Cancer Center and previously Professor of Medicinal Chemistry and Member WVU Cancer Institute, where his research focused on protein-protein interaction inhibitor design and molecular targeted immunotherapy. The discovery that the Delta receptor is highly expressed on MDSCs was jointly discovered by scientists at Moffitt Cancer Center and TuHURA Biopharma, a separate company whose intellectual property assets we acquired in January 2023.",
+    "Our CEO, Dr. James Bianco, is a 33-year veteran of the biopharmaceutical industry. Dr. Bianco is the principal founder of CTI Biopharma, where he served as its CEO from 1992 to October 2016. Dr. Bianco's experience spans all aspects of drug development from phase I-IV clinical trials, regulatory approval, and pricing reimbursement to sales and marketing. He has extensive experience in financing, negotiating and execution of pharmaceutical development and commercial license agreements. During his tenure at CTI Biopharma, Dr. Bianco was responsible for strategic portfolio development and identifying, acquiring, licensing, purchasing, or acquiring through international merger and acquisition, five drug candidates, four of which have since been approved by the FDA and with three receiving accelerated or conditional regulatory approval in the U.S. and/or E.U. In 2013, Dr. Bianco led CTI Biopharma in the identification and negotiation of the asset purchase for VONJO® (pacritinib), a novel JAK2 selective tyrosine kinase inhibitor. He also led CTI Biopharma in the negotiation of the development and commercial license agreement with Baxalta. As CEO of CTI Biopharma, Dr. Bianco was also responsible for the PERSIST-2 Phase 3 trial design and conduct, the successful results of which served as the basis for the 2022 FDA accelerated approval of Vonjo® (pacritinib) and the subsequent acquisition of CTI Biopharma by SOBI for $1.75 billion.",
+    "We have developed Immune FxTM, or IFx, as an innate immune agonist technology designed to \"trick\" the body's immune system to attack tumor cells by making tumor cells look like bacteria and to thereby harness the natural power of innate immunity by leveraging natural mechanisms conserved throughout evolution to recognize threats from foreign pathogens like bacteria or viruses. Our innate immune agonist product candidates are delivered either via intratumoral injection (in the case of the Company's pDNA innate immune agonist) or tumor-targeted via intravenous or autologous whole-cell administration (in the case of our mRNA innate immune agonist).",
+    "Our IFx-2.0 innate immune agonist, our lead product candidate, is comparatively simple to administer and involves only the injection into a patient's tumor, or lymph node, of a relatively small amount of pDNA that is designed to encode for an immunogenic gram positive bacterial protein that gets expressed on the surface of the patient's tumor so that the surface of the tumor looks like a bacterium.",
+    "Bacteria, like all pathogens, have molecular patterns or motifs that are conserved through evolution and that are recognized by specific pattern-recognition receptors on immune cells of our innate immune system. This is an individual's primary line of defense against pathogens that the individual is born with, and the innate immune system has no choice but to recognize the tumor as it would a gram-positive bacteria or any pathogen. Gram-positive bacterial proteins are mostly recognized by Toll Like Receptor-2 (TLR-2) on antigen presenting cells, which engulf and ingest the entire intact tumor cell packaging all the foreign tumor neoantigens presenting them to and educating tumor killing T cells and B cells. In doing so, IFx-2.0 harnesses the power of the innate immune response to produce activated tumor-specific T cells where they previously didn't exist overcoming primary resistance to checkpoint inhibitor therapy."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Relating to Our Business and Industry",
+    "We are a clinical-stage company and has a limited operating history, which may make it difficult to evaluate our current business and predict our future performance.",
+    "We have incurred significant losses since inception and expects to incur significant losses for the foreseeable future and may not be able to achieve or sustain profitability in the future.",
+    "Our recurring losses from operations and financial condition raise substantial doubt about our ability to continue as a going concern.",
+    "The biotechnology and immunotherapy industries are characterized by rapid technological developments and a high degree of competition. We may be unable to compete with more substantial enterprises.",
+    "The successful development of immunotherapies is highly uncertain.",
+    "We may encounter substantial delays in our clinical trials or may not be able to conduct our trials on the timelines we expect.",
+    "Failure to successfully identify, develop, and commercialize additional therapeutics or product candidates could impair our ability to grow.",
+    "The FDA or comparable foreign regulatory authorities may disagree with our regulatory plans and we may fail to obtain regulatory approval of our product candidates.",
+    "Our clinical trials may fail to demonstrate adequately the safety and efficacy of our product candidates, which would prevent or delay regulatory approval and commercialization.",
+    "If we encounter difficulties enrolling patients in our clinical trials, our clinical development activities could be delayed or otherwise adversely affected.",
+    "Clinical trials are expensive, time-consuming, and difficult to design and implement, and our clinical trial costs may be higher than those for more conventional therapeutic technologies or drug products."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. You should carefully consider the risks described below, as well as the other information in this Annual Report, including our audited financial statements and the related notes, as well as our other public filings with the SEC, before deciding to invest in our common stock. If any of the following risks are realized, our business, financial condition, results of operations and prospects, as well as the price of our common stock, could be materially and adversely affected.",
+    "• We have a limited operating history, are not profitable and may never become profitable.",
+    "• We have expressed substantial doubt about our ability to continue as a going concern.",
+    "• Our business is heavily dependent on the successful development, regulatory approval and commercialization of our product candidates.",
+    "• We will require substantial additional capital to fund our operations, and if we fail to obtain necessary financing, we may not be able to complete the development and commercialization of any of our product candidates.",
+    "• Our product candidates will face significant competition and may be unable to compete effectively."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Recent Developments",
+    "Components of Our Results of Operations",
+    "Results of Operations",
+    "Comparisons for the Years Ended December 31, 2025, and December 31, 2024",
+    "December 31,",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "Operating Activities",
+    "Investing Activities",
+    "Financing Activities",
+    "Funding Requirements",
+    "Critical Accounting Policies and Significant Judgments and Estimates",
+    "Stock-Based Compensation Expense",
+    "Kineta Acquisition and Valuation of Intangible Assets",
+    "Recently Issued and Adopted Accounting Pronouncements",
+    "Off-Balance Sheet Arrangements"
+   ],
+   "paragraphs": [
+    "On November 3, 2025, the Company and H.C. Wainwright & Co., LLC (\"Wainwright\") entered into an At-The-Market Offering Agreement (the \"Offering Agreement\") with respect to an at-the-market offering program under which the Company may sell shares of its common stock having an aggregate offering price of up to $50,000,000 through Wainwright as its sales agent. As of the date of this Annual Report, we have not sold any shares of common stock through the program.",
+    "On December 9, 2025, TuHURA Biosciences, Inc. (the \"Company\") entered into a securities purchase agreement (the \"Purchase Agreement\") with certain investors (collectively, the \"Purchasers\"). The Purchase Agreement relates to the sale and issuance in a registered direct offering (such sale and issuance, the \"Offering\"), by the Company of an aggregate of: (i) 9,462,423 shares of the Company's common stock, (ii) Series A common stock purchase warrants to purchase up to 9,462,423 shares of common stock (the \"Series A Warrants\"), and (iii) Series B common stock purchase warrants to purchase up to 9,462,423 shares of common stock (the \"Series B Warrants\", and together with the Series A Warrants, the \"Common Warrants\").The offering price for each share of common stock and accompanying Series A Warrant and Series B Warrant was $1.65. Each Common Warrant has an exercise price of $1.95 per share and is exercisable beginning six months after the date of issuance.",
+    "On the same date, the Company and K&V Investment One LLC (\"K&V\"), a Purchaser in the Offering, entered into a side letter to the Purchase Agreement (the \"Side Letter\"), whereby the Company and K&V agreed that, for purposes of K&V's funding requirements under the Purchase Agreement, K&V shall fund (i) with respect to $5 million of K&V's subscription amount, at a date chosen by K&V that is no later than January 30, 2026 (the \"Second Closing\"), and (ii) with respect to $2 million of K&V's subscription amount, at a date chosen by K&V that is no later than February 27, 2026 (the \"Third Closing\"). The Company will issue to K&V the shares of common stock and Warrants purchased at each of the Second Closing and Third Closing following receipt of consideration thereof, with such issued Warrants exercisable six months following the date of the Second Closing and the date of the Third Closing, respectively, and expiring on the same date as the Warrants issued to the other Purchasers on December 10, 2025, the first closing date (the \"First Closing\").",
+    "Pursuant to the terms of the Purchase Agreement and the Side Letter, the closing of the Offering occurred in three tranches. At the First Closing, the Company issued an aggregate of 5,219,999 Shares, Series A Warrants to purchase up to an aggregate of 5,219,999 shares of common stock and Series B Warrants to purchase up to an aggregate of 5,219,999 shares of common stock. At the Second Closing, the Company issued to K&V an aggregate of 3,030,303 Shares, Series A Warrants to purchase up to an aggregate of 3,030,303 shares of common stock and Series B Warrants to purchase up to an aggregate of 3,030,303 shares of common stock. At the Third Closing, the Company issued to K&V an aggregate of 1,212,121 Shares, Series A Warrants to purchase up to an aggregate of 1,212,121 shares of common stock and Series B Warrants to purchase up to an aggregate of 1,212,121 shares of common stock. The Series A Warrants will expire five and one-half years from the date of the First Closing and the Series B warrants will expire twenty-four months from the date of the First Closing.",
+    "The Offering resulted in gross proceeds to the Company of approximately $8.6 million from the First Closing, approximately $5.0 million from the Second Closing and approximately $2.0 million from the Third Closing, before deducting the placement agents' fees and other offering expenses payable by the Company.",
+    "On June 2, 2025, the Company and certain accredited investors (the \"Private Placement Purchasers\") entered into a securities purchase agreement (the \"Securities Purchase Agreement\") pursuant to which the Company agreed to issue to the Private Placement Purchasers, in a private placement (the \"Private Placement\"), an aggregate of 4,759,309 shares of common stock together with warrants to purchase an equal number of shares of common stock at an exercise price of $3.3125 (the \"Private Placement Warrants\"), for an aggregate gross offering amount of approximately $12.6 million. The combined effective offering price for each share and accompanying Private Placement Warrant in the Private Placement was $2.65. The Private Placement Warrants have an exercise price per share equal to $3.3125 and will expire on December 31, 2030. The exercise price of the Private Placement Warrants is subject to proportional adjustment for stock splits, reverse stock splits, and similar transactions.",
+    "Pursuant to the Securities Purchase Agreement, each Private Placement Purchaser was obligated to purchase such Private Placement Purchaser's respective investment in the Private Placement in four equal tranches, as follows:",
+    "• $2.23 million was purchased on June 2, 2025 (the \"Initial Closing\");",
+    "• $2.23 million was purchased on June 9, 2025, following the Company's notification to the Private Placement Purchasers that the Food and Drug Administration (FDA) notified the Company that the Company is no longer subject to the partial clinical hold set forth in the FDA's Partial Clinical Hold letter to the Company dated January 24, 2024, with respect to the Company's planned Phase 3 trial of IFx-2.0;",
+    "• $2.23 million was purchased on June 24, 2025, following the Company's notification to the Private Placement Purchasers that the Phase 3 trial for IFX-Hu2.0 had been initiated; and",
+    "• $2.23 million was purchased on June 30, 2025, following the Company's notification to the Private Placement Purchasers that all material conditions for the closing of the Company's merger transaction with Kineta had been satisfied (other than conditions that could not be satisfied until on or immediately before the closing of the Kineta Merger) and that the Company was prepared to close the Kineta Merger."
+   ],
+   "focus": "Recent Developments"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司歷史與團隊",
+    "IFx 先天免疫 agonist 開發計畫",
+    "TBS-2025 開發計畫",
+    "DOR 技術開發計畫",
+    "本公司產品線",
+    "本公司策略",
+    "癌症免疫療法與 IFx 技術",
+    "IFx 先天免疫 agonist 技術潛在優勢",
+    "{'original': 'Clinical Rationale for TBS-2025', 'translated': 'TBS-2025 臨牀理據'}",
+    "{'DOR Technology and Bi-functional, Bi-specific ADCs: Inhibiting MDSC immune suppressing functions': 'DOR 技術與雙功能、雙特異性 ADCs：抑制 MDSC 免疫抑制功能'}",
+    "{\"TuHURA's IFx Clinical Development Program\": 'TuHURA 的 IFx 臨牀開發計畫'}"
+   ],
+   "paragraphs": [
+    "本公司為一家處於第三期臨牀階段的免疫腫瘤學公司，擁有三項不同的技術，專注於開發新型治療藥物，用以克服癌症免疫療法的原發性與獲得性抗藥性。",
+    "我們的專有Immune FxTM技術平台，或稱IFx，是一種先天免疫刺激技術，設計用以「欺騙」身體的免疫系統，使免疫系統攻擊腫瘤細胞，使其看起來像細菌。我們的領先產品候選藥物IFx2.0是一種先天免疫刺激物，設計用以克服檢查點抑制劑的原發性抗藥性。於2025年6月，我們啟動了一項單一隨機安慰劑對照的第三期註冊臨牀試驗，將IFx2.0作為Keytruda®（pembrolizumab）的輔助治療，用於治療晚期或轉移性 Merkel 細胞癌患者的第一線治療，這些患者為檢查點抑制劑初治者，並利用美國食品藥物管理局（FDA）的加速批准途徑。",
+    "除了我們的IFx技術平台，於2025年6月，我們透過收購Kineta, Inc.（\"Kineta\"）於2025年6月30日取得TBS-2025的權利，TBS-2025為一種新型VISTA抑制單株抗體，先前稱為KVA1213。VISTA（亦稱為V-domain Ig suppressor of T cell activation）是一種免疫檢查點，高度表達於髓細胞上，認為是腫瘤微環境中免疫抑制的強大驅動因素，並認為是急性髓細胞白血病（AML）中白血病細胞逃避免疫辨識的主要機制，導致低反應率與高復發率。在取得Kineta後，我們目前計畫在r/r mutNPM1AML患者中進行一項Phase1b/2臨牀試驗，以評估TBS-2025的療效。",
+    "除了我們的IFx與TBS-2025，我們正利用Delta Opioid Receptor（DOR）技術開發第一類生物雙功能、雙特異性抗體藥物偶聯物（\"ADCs\"），目標為髓源性抑制細胞（\"MDSCs\"）上的DOR，以調節其對骨髓與腫瘤微環境的免疫抑制影響，防止T細胞耗竭與獲得性檢查點抑制劑與細胞治療的抗藥性。",
+    "本公司為內華達州公司，於2009年6月24日以Berry Only Inc.為名成立。2013年1月25日，本公司與Del Mar Pharmaceuticals (BC) Ltd. (\"Del Mar (BC)\")、0959454 B.C. Ltd.、0959456 B.C. Ltd.及Del Mar (BC)之股東簽訂並完成交換協議。交換協議完成後，Del Mar (BC)成為本公司之 wholly-owned subsidiary。2020年8月19日，本公司完成與Adgero Biopharmaceuticals Holdings, Inc.（一家德拉華州公司，\"Adgero\"）之合併，Adgero繼續以德拉華州法律存在並成為本公司之直接、 wholly-owned subsidiary。合併完成後，本公司將名稱由Del Mar Pharmaceuticals, Inc.更名為Kintara Therapeutics, Inc.（\"Kintara\"），並開始在納斯達克以符號\"KTRA\"交易。",
+    "2024年10月18日，Kintara依照2024年4月2日簽訂之協議與合併計畫（\"Kintara Merger Agreement\"），與TuHURA Biosciences, Inc.（\"Legacy TuHURA\"）及Kayak Mergeco, Inc.（為Kintara之直接 wholly-owned subsidiary，\"Merger Sub\"）完成反向合併交易。根據Kintara Merger Agreement，Merger Sub與Legacy TuHURA合併，Legacy TuHURA存續並成為本公司之直接、 wholly-owned subsidiary（\"Kintara Merger\"）。2024年10月18日中午12點03分東部時間，合併完成；2024年10月18日中午12點04分東部時間，Kintara Therapeutics, Inc.更名為\"TuHURA Biosciences, Inc.\"",
+    "2025年6月30日，本公司根據2024年12月11日簽訂之合併協議（後經2025年5月5日之第一修正案修正，\"TuHURA-Kineta Merger Agreement\"），與Kineta, Inc.（\"Kineta\"）完成合併收購。根據TuHURA-Kineta Merger Agreement，Kineta之原股東獲發約4百萬股本公司普通股作為合併對價，每一股Kineta普通股（面額$0.001每股，\"Kineta Share\"）在第一次合併前發行且流通者，轉換為取得本公司普通股（面額$0.001每股）0.185298股之權利，總計約發行2,868,169股本公司普通股。",
+    "2,868,169 本公司普通股股份。另依 TuHURA-Kineta 合併協議之條款與條件，每 Kineta 股份於 2025 年 12 月收到約 1,129,880 本公司普通股股份之比例配發，依 TuHURA-Kineta 合併協議之條款辦理。此外，每 Kineta 股份亦有權取得其比例應得之現金對價，如有，將於未來以處置資產付款形式發放，與合併前轉讓之遺留 Kineta 資產相關。",
+    "Legacy TuHURA 的前身公司於 1995 年由 Patricia 與 Michael Lawman 醫師成立為 Morphogenesis, Inc. 我們的 IFx 技術是在 Dr. Michael Lawman 在 Walt Disney Memorial Cancer Institute 的實驗室中開發的，Dr. Michael Lawman 曾為該機構的董事，而 Dr. Patricia Lawman 曾為該機構的癌症分子生物學部門主任。Dr. Michael Lawman 是英國皇家生物學會會員，曾任佛羅裏達州立大學副教授，並曾任 St. Joseph's Children's Hospital 的兒童血液學/腫瘤學科學研究主任。Dr. Patricia Lawman 亦為佛羅裏達州立大學的兼任教授。Patricia 與 Michael Lawman 醫師皆為多項美國與外國專利的發明人。",
+    "我們的 Delta Opioid Receptor ADC 技術是在 Dr. Mark McLaughlin 在 Moffitt Cancer Center 與 West Virginia University Research Corporation 的實驗室中開發的。Dr. McLaughlin 曾為 Moffitt Cancer Center 藥物發現部門的高級成員，並曾為 West Virginia University Cancer Institute 的教授與成員，其研究專注於蛋白質-蛋白質交互作用抑制劑設計與分子靶向免疫治療。發現 Delta 受體在 MDSCs 上高度表達是由 Moffitt Cancer Center 與 TuHURA Biopharma，一家獨立公司，的科學家共同發現的，我們於 2023 年 1 月取得該公司的智慧財產權資產。",
+    "我們的董事長 Dr. James Bianco 在生物科技產業有 33 年經驗。Dr. Bianco 是 CTI Biopharma 的創辦人，並於 1992 年至 2016 年 10 月擔任該公司的董事長。Dr. Bianco 的經驗涵蓋藥物開發的所有階段，從一期至四期臨牀試驗、審批、價格報銷至銷售與行銷。他擁有廣泛的經驗在籌資、談判與執行藥物開發與商業授權協議。在擔任 CTI Biopharma 董事長期間，Dr. Bianco 負責戰略產品組合開發，並識別、取得、授權、購買或透過國際合併與收購取得五項藥物候選品，其中四項已獲美國食品藥物管理局批准，有三項獲得美國與/或歐盟的加速或條件性審批。2013 年，Dr. Bianco 帶領 CTI Biopharma 進行 VONJO® (pacritinib) 的資產購入，這是一款新型 JAK2 選擇性酪胺酸 kinase 抑制劑。他也帶領 CTI Biopharma 與 Baxalta 籤訂開發與商業授權協議。擔任 CTI Biopharma 董事長期間，Dr. Bianco 也負責 PERSIST-2 三期臨牀試驗的設計與執行，該試驗的結果成為 2022 年 FDA 加速批准 Vonjo® (pacritinib) 的基礎，並導致 CTI Biopharma 被 SOBI 以 1.75 十億美元收購。",
+    "我們已開發 Immune FxTM，或 IFx，作為一種先天免疫刺激技術，設計用來「欺騙」身體的免疫系統攻擊腫瘤細胞，使其看起來像細菌，從而利用先天免疫系統的自然力量，透過進化中保存的機制來識別來自細菌或病毒等外來病原體的威脅。我們的先天免疫刺激產品候選品透過皮下注射（在本公司 pDNA 先天免疫刺激產品的情況下）或透過靜脈注射或自體整體細胞方式針對腫瘤（在本公司 mRNA 先天免疫刺激產品的情況下）進行給藥。",
+    "我們的 IFx-2.0 先天免疫刺激產品，為我們的領先產品候選品，相對容易給藥，僅需將少量 pDNA 注射至患者的腫瘤或淋巴結，該 pDNA 設計用來編碼一種會在患者腫瘤表面表達的免疫原性革蘭氏陽性細菌蛋白，使腫瘤表面看起來像細菌。",
+    "細菌，如同所有病原體一樣，具有在進化中保存的分子模式或特徵，這些模式會被我們先天免疫系統中免疫細胞的特定模式識別受體所識別。這是個人對病原體的首要防禦線，而先天免疫系統無選擇地將腫瘤視為革蘭氏陽性細菌或任何病原體。革蘭氏陽性細菌蛋白主要由 Toll Like Receptor-2 (TLR-2) 來識別，該受體位於抗原呈遞細胞上，會吞食整個完整的腫瘤細胞，並包裝所有外來腫瘤新抗原，將其呈遞給並教育腫瘤殺傷 T 細胞與 B 細胞。透過此過程，IFx-2.0 藉助先天免疫反應的強大力量，產生原本不存在的活化腫瘤特異性 T 細胞，克服對檢查點抑制劑治療的初始抗藥性。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "近期發展",
+    "營運成果之組成項目",
+    "營運成果",
+    "截至2025年12月31日及2024年12月31日之比較",
+    "2025年12月31日,",
+    "流動性及資本資源",
+    "流動性來源",
+    "營運活動",
+    "投資活動",
+    "籌資活動",
+    "資金需求",
+    "關鍵會計政策及重要判斷與估計",
+    "股票基於報酬費用",
+    "Kineta 收購及無形資產評估",
+    "最近發佈及採用會計準則",
+    "表外安排"
+   ],
+   "paragraphs": [
+    "於 2025 年 11 月 3 日，本公司與 H.C. Wainwright & Co., LLC（\"Wainwright\"）簽訂一項市場現貨發行協議（\"發行協議\"），針對一項市場現貨發行計畫，本公司得透過 Wainwright 作為銷售代理，出售本公司普通股股份，總發行價格上限為 50,000,000 美元。截至本年度報告日，本公司尚未透過該計畫出售任何普通股股份。",
+    "於 2025 年 12 月 9 日，TuHURA Biosciences, Inc.（\"本公司\"）與若干投資人（合稱\"購入方\"）簽訂一項證券購入協議（\"購入協議\"）。該購入協議涉及本公司於一項已註冊直接發行（此銷售與發行，稱為\"發行\"）中發行總計：(i) 9,462,423 份本公司普通股股份，(ii) 系列 A 普通股購入權證，可購買至多 9,462,423 份普通股股份（\"系列 A 權證\"），以及 (iii) 系列 B 普通股購入權證，可購買至多 9,462,423 份普通股股份（\"系列 B 權證\"，與系列 A 權證合稱\"普通權證\"）。每份普通股股份及相應的系列 A 權證與系列 B 權證的發行價格為 1.65 美元。每份普通權證的行使價格為每份 1.95 美元，自發行日後六個月起可行使。",
+    "於同一天，本公司與 K&V Investment One LLC（\"K&V\"），一名發行參與者，簽訂購入協議的附屬協議（\"附屬協議\"），本公司與 K&V 同意，為符合 K&V 在購入協議下的資金需求，K&V 將於以下日期資金：(i) 針對 K&V 訂購金額中 5,000,000 美元的部分，於 K&V 所選擇的日期，不遲於 2026 年 1 月 30 日（\"第二關閉\"），以及 (ii) 針對 K&V 訂購金額中 2,000,000 美元的部分，於 K&V 所選擇的日期，不遲於 2026 年 2 月 27 日（\"第三關閉\"）。本公司將在收到相關對價後，向 K&V 發行於第二關閉及第三關閉所購入的普通股股份與權證，所發行的權證自第二關閉及第三關閉的日期起六個月內可行使，並於與其他購入方於 2025 年 12 月 10 日首次關閉（\"首次關閉\"）所發行的權證相同日期到期。",
+    "根據購入協議及附屬協議的條款，發行的關閉分為三階段進行。於首次關閉，本公司發行總計 5,219,999 份股份、可購買至多總計 5,219,999 份普通股股份的系列 A 權證，以及可購買至多總計 5,219,999 份普通股股份的系列 B 權證。於第二關閉，本公司向 K&V 發行總計 3,030,303 份股份、可購買至多總計 3,030,303 份普通股股份的系列 A 權證，以及可購買至多總計 3,030,303 份普通股股份的系列 B 權證。於第三關閉，本公司向 K&V 發行總計 1,212,121 份股份、可購買至多總計 1,212,121 份普通股股份的系列 A 權證，以及可購買至多總計 1,212,121 份普通股股份的系列 B 權證。系列 A 權證將於首次關閉日期起五又二分之一年到期，系列 B 權證將於首次關閉日期起二十四個月到期。",
+    "發行結果使本公司獲得總計約 8.6 百萬美元的淨資金來自首次關閉，約 5.0 百萬美元來自第二關閉，以及約 2.0 百萬美元來自第三關閉，扣除發行代理費用及其他由本公司支付的發行費用後。",
+    "於 2025 年 6 月 2 日，本公司與若干認可投資人（\"私人 placements 購入方\"）簽訂證券購入協議（\"證券購入協議\"），根據該協議，本公司同意向私人 placements 購入方發行總計 4,759,309 份普通股股份，並附帶可購買相同數量普通股股份的權證，行使價格為每份 3.3125 美元（\"私人 placements 權證\"），總發行金額約為 12.6 百萬美元。在私人 placements 中，每份普通股股份及相應的私人 placements 權證的總發行價格為每份 2.65 美元。私人 placements 權證的行使價格為每份 3.3125 美元，並於 2030 年 12 月 31 日到期。私人 placements 權證的行使價格將根據股票分割、反向股票分割及類似交易按比例調整。",
+    "根據證券購入協議，每位私人 placements 購入方均有義務於四個相等的分期中購買其在私人 placements 中的投資，如下：",
+    "• 2.23 百萬美元於 2025 年 6 月 2 日購入（\"初始關閉\"）；",
+    "• 2.23 百萬美元於 2025 年 6 月 9 日購入，隨本公司通知私募 placements 購買者，美國食品藥物管理局（FDA）已通知本公司，本公司不再受 FDA 於 2024 年 1 月 24 日發給本公司的 Partial Clinical Hold 信函中所規定的部份臨牀暫停措施之限制，有關本公司預計進行的 IFx-2.0 第三階段臨牀試驗。",
+    "• 2.23 百萬美元於 2025 年 6 月 24 日購入，隨本公司通知私募 placements 購買者 IFX-Hu2.0 的第三期試驗已啟動；",
+    "• 2.23 百萬美元於 2025 年 6 月 30 日購入，隨本公司通知私募 placements 購買者，本公司與 Kineta 合併交易之所有重大條件已達成（除無法於合併交易閉合前或立即前達成之條件）且本公司已準備完成 Kineta 合併交易。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險與我們的業務及產業相關",
+    "本公司為臨牀階段公司，且營運歷史有限，這可能使評估我們目前的業務及預測未來表現變得困難。",
+    "自成立以來，本公司已產生重大虧損，並預期在可預見的未來仍將產生重大虧損，且可能無法在未來實現或維持獲利。",
+    "我們持續的營運虧損及財務狀況，使我們持續經營的疑慮變得重大。",
+    "生物技術及免疫治療產業特徵為技術發展迅速且競爭激烈。我們可能無法與規模較大的企業競爭。",
+    "免疫治療的開發成功具有高度不確定性。",
+    "我們可能在臨牀試驗中遭遇重大延誤，或無法按預期時間表進行試驗。",
+    "若無法成功識別、開發及商業化其他治療藥物或產品候選藥物，將影響我們的成長能力。",
+    "美國食品藥物管理局或其相當之外國主管機關可能不同意我們的規範計畫，我們可能無法取得產品候選藥物之規範核准。",
+    "我們的臨牀試驗可能無法充分顯示產品候選藥物之安全性與有效性，這將會延宕或阻礙規範核准與商業化。",
+    "若我們在臨牀試驗中遭遇招募病患的困難，我們的臨牀發展活動可能會延宕或受到其他不利影響。",
+    "臨牀試驗費用高昂、耗時且難以設計與執行，我們的臨牀試驗費用可能高於較傳統之治療技術或藥物產品。"
+   ],
+   "paragraphs": [
+    "投資本公司的普通股涉及高度風險。您應仔細考慮下列所列風險，以及本年度報告中的其他資訊，包括我們經審計的財務報表及其相關附註，以及我們其他向美國證券交易委員會（SEC）公開提交的文件，再決定是否投資本公司普通股。若下列任何風險實現，將可能對本公司業務、財務狀況、營運成果與前景，以及本公司普通股價格造成重大且不利的影響。",
+    "• 本公司營運歷史有限，尚未獲利，且可能永遠無法獲利。",
+    "• 本公司對能否持續作為持續經營企業表示重大疑慮。",
+    "• 本公司業務嚴重依賴產品候選藥物的成功開發、監管核准與商業化。",
+    "• 本公司將需要大量額外資金以支應營運，若本公司無法取得必要資金，可能無法完成任何產品候選藥物的開發與商業化。",
+    "• 本公司產品候選藥物將面臨激烈競爭，可能無法有效競爭。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

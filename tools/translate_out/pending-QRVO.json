@@ -1,0 +1,223 @@
+{
+ "ticker": "QRVO",
+ "cik": "0001604778",
+ "accession": "0001628280-26-032873",
+ "form": "10-K",
+ "reportDate": "2026-03-28",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Overview",
+    "Proposed Mergers",
+    "Industry Trends, Markets, Products and Applications",
+    "Research and Development",
+    "Raw Materials and Manufacturing",
+    "Sales and Marketing",
+    "Intellectual Property",
+    "Human Capital",
+    "Government Regulations",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Qorvo® is a global leader in the development and commercialization of technologies and products for wireless, wired and power markets.",
+    "We are organized into three operating and reportable segments that align our technologies and applications with customers and end markets: High Performance Analog (\"HPA\"), Connectivity and Sensors Group (\"CSG\") and Advanced Cellular Group (\"ACG\").",
+    "HPA is a leading global supplier of radio frequency (\"RF\"), analog mixed signal and power management solutions. CSG is a leading global supplier of connectivity solutions, with broad expertise spanning ultra-wideband (\"UWB\"), Matter®, Bluetooth® Low Energy (\"BLE\"), Zigbee®, Thread®, Wi-Fi® and cellular solutions for the Internet of",
+    "Things (\"IoT\"). ACG is a leading global supplier of advanced cellular solutions for smartphones, wearables, laptops, tablets and other devices.",
+    "On October 27, 2025, we entered into an Agreement and Plan of Merger (the \"Merger Agreement\"), by and among Skyworks Solutions, Inc., a Delaware corporation (\"Skyworks\"), the Company, Comet Acquisition Corp., a Delaware corporation and a wholly-owned subsidiary of Skyworks (\"Merger Sub I\"), and Comet Acquisition II, LLC, a Delaware limited liability company and a wholly-owned subsidiary of Skyworks (\"Merger Sub II\"). Pursuant to the Merger Agreement, and subject to the satisfaction or waiver of the conditions specified therein, (i) Merger Sub I will merge with and into the Company (the \"First Merger\"), with the Company surviving the First Merger as a wholly-owned subsidiary of Skyworks (the \"Surviving Corporation\"), and (ii) immediately following the First Merger, and as the second step in a single integrated transaction with the First Merger, the Surviving Corporation will merge with and into Merger Sub II (the \"Second Merger,\" and together with the First Merger, the \"Mergers\"), with Merger Sub II continuing as the surviving entity in the Second Merger and a wholly-owned subsidiary of Skyworks. The stockholders of both Qorvo and Skyworks approved the Merger Agreement at each company's special meeting of stockholders on February 11, 2026. Consummation of the Mergers is subject to required regulatory approvals, including certain antitrust and foreign investment approvals, and the satisfaction of other customary closing conditions. We currently anticipate the Mergers will be completed early in calendar year 2027. The foregoing summary of the Merger Agreement and the transactions contemplated thereby does not purport to be complete and is subject to, and qualified in its entirety by, the Merger Agreement, which was filed as Exhibit 2.1 to our Current Report on Form 8-K filed on October 28, 2025.",
+    "Global connectivity trends and the proliferation of more intelligent, data-intensive applications are increasing demand for technologies that efficiently increase data throughput, improve user experiences and enable new methods of human-machine interaction. These and other global macro trends are increasing the demand for our technologies and products.",
+    "Qorvo serves six primary end markets: automotive, consumer, defense and aerospace, industrial and enterprise, infrastructure and mobile. Our products solve our customers' most complex challenges while enhancing performance, improving efficiency, increasing functionality, enabling new form factors and addressing other critical challenges.",
+    "HPA primarily serves the defense and aerospace, infrastructure, industrial and enterprise, and consumer markets.",
+    "In defense and aerospace, HPA is a leading supplier of RF products and compound semiconductor foundry and assembly services to the U.S. government, U.S. defense primes, U.S. allies and other customers. HPA focuses primarily on enabling phased array technologies for radar, electronic warfare and communications systems for defense and commercial applications. HPA engages directly with the U.S. government to develop next-generation semiconductor and packaging technologies where our long-standing relationships have positioned us as a trusted partner. As the capabilities supporting modern warfare continue to advance, the associated increase in defense spending across the U.S. and allied countries is a global macro trend that represents a tailwind for our defense and aerospace business. Focus areas include the Golden Dome defense system; upgrades to legacy radar systems; the shift to new, higher frequency bands; and the trend of \"one to many,\" in which a greater number of smaller, more highly integrated and scalable networked platforms (e.g., unmanned vehicles such as aerial drones and ground robots) are required to address the rapidly evolving technology landscape being deployed across military applications. Additional opportunities include increases in European Union (\"EU\") and allied defense funding in ground-, airborne-, ship-, and space-based platforms.",
+    "HPA also supplies products for satellites and terminals to the leading companies in low Earth orbit (\"LEO\") satellite communication (\"SATCOM\") networks where investment is increasing globally to provide enhanced and more ubiquitous connectivity for commercial and other applications. HPA's standard product portfolio for defense and aerospace includes high-power RF amplifiers, low noise amplifiers (\"LNAs\"), switches, limiters, filters, phase shifters, mixers, multiplexers, attenuators, beamforming integrated circuits (\"ICs\"), power management ICs",
+    "(\"PMICs\") and control ICs and fully integrated RF front end modules (\"FEMs\"). HPA's services portfolio includes an extensive set of compound semiconductor foundry services, wafer processing, advanced packaging and heterogeneous integration solutions.",
+    "In the infrastructure market, data-intensive use cases such as machine learning, industrial automation, robotics and augmented reality/virtual reality (\"AR/VR\") are increasing the performance and capacity requirements of cellular and broadband networks. In cellular base stations, the migration to 5G increases capacity, expands coverage and lowers the cost per bit of data. HPA supports cellular base station original equipment manufacturers (\"OEMs\") with a broad portfolio of cellular infrastructure solutions to address their most critical requirements for data capacity, throughput and efficiency. HPA also enables the integration of drones in commercial and military aerial communication infrastructure and the operation of Direct-to-Device satellite constellations with our cellular infrastructure solutions. Qorvo's cellular infrastructure products include switches, filters, LNA modules, discrete LNAs, variable gain amplifiers and control circuits. In broadband infrastructure, network operators are migrating from Data Over Cable Service Interface Specification (\"DOCSIS\") 3.1 to DOCSIS 4.0 to increase the efficiency of existing infrastructure and significantly increase download and upload speeds for end users. Qorvo is enabling the transition to DOCSIS 4.0 with a broad portfolio of products including high-output power doublers, drivers, preamplifiers, return amplifiers, voltage-controlled attenuators, digital step attenuators, switches and voltage variable equalizers.",
+    "In industrial and enterprise markets, there is increasing demand for advanced power management and motor control solutions driven by requirements for enhanced power efficiency in electronics, furthered by the need to extend battery life in battery-powered devices. HPA's solutions leverage our configurable power management intellectual property (\"IP\"). In enterprise data centers, HPA's PMIC solutions address the artificial intelligence (\"AI\")-driven demand for highly efficient enterprise solid-state drive (\"SSD\") power. We also provide differentiated solutions for motor drive and control across industrial and enterprise applications including factory motor drives and controls, large power tools, factory transport systems, robotics, industrial drones, pumps and fans.",
+    "In consumer markets, HPA's configurable power management IP enables accelerated product development across multiple generations of products. We provide PMICs for consumer applications including wearables, chargers, portable video processing devices and solid-state drives for client computing applications. We also provide motor control and battery management solutions to industry-leading providers of appliances and electric power and garden tools. Our products reduce solution size, improve battery life, lower cost, improve system reliability and shorten customers' product development time."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Summary",
+    "Risk Factors Relating to our Proposed Transaction with Skyworks",
+    "Because our stockholders have adopted the Merger Agreement, the Merger Agreement will not permit us to pursue alternative transactions to the Mergers.",
+    "Our stockholders will have a reduced ownership and voting interest after the transaction and will exercise less influence over management.",
+    "Risks Related to Our Business and Industry",
+    "Our operating results fluctuate on a quarterly and annual basis.",
+    "Our operating results are substantially dependent on developing new products and achieving design wins while our customers' requirements can change rapidly and product life cycles can be short.",
+    "We face risks of a loss of revenue if contracts with the U.S. government or defense and aerospace contractors are canceled or delayed or if defense spending is reduced.",
+    "We depend heavily on third parties.",
+    "We face risks related to sales through distributors.",
+    "We face risks associated with the operation of our manufacturing facilities.",
+    "Business disruptions could harm our business, lead to a decline in revenue and increase our costs.",
+    "If we experience poor manufacturing yields, our operating results may suffer.",
+    "We are subject to inventory risks and costs because we purchase materials and build our products based on forecasts provided by customers before receiving purchase orders for the products.",
+    "We sell certain of our products based on reference designs of chipset suppliers, and our inability to effectively manage or maintain our relationships with these companies may have an adverse effect on our business.",
+    "We operate in a very competitive industry and must continue to innovate.",
+    "Fluctuating demand could cause us to underutilize our manufacturing facilities and have a material adverse effect on our financial performance.",
+    "Unfavorable changes in interest rates, pricing of certain precious metals, utility rates and foreign currency exchange rates may adversely affect our financial condition, liquidity and results of operations.",
+    "Our acquisitions and other strategic investments could fail to achieve our financial or strategic objectives, disrupt our ongoing business and adversely impact our results of operations.",
+    "We may be unable to effectively execute restructuring initiatives, which could result in total costs that are greater than expected and cause us not to achieve the expected long-term operational benefits.",
+    "We must attract, retain, and motivate key employees in order to compete, and our failure to do so could harm our business and our results of operations.",
+    "We are subject to warranty claims, product recalls and product liability.",
+    "Changes in our effective tax rate may adversely impact our results of operations and cash flow.",
+    "The enactment of international or domestic tax legislation, or changes in regulatory guidance, may adversely impact our results of operations and cash flow."
+   ],
+   "paragraphs": [
+    "You should carefully consider the risks described below in addition to the other information contained in this report before making an investment decision with respect to any of our securities. Our business, financial condition or results of operations could be materially and adversely impacted by any of these risks. The risks and uncertainties described below are not the only ones we face. Additional risks not currently known to us, or other factors not perceived by us to present material risks to our business at this time, may impair our business operations, financial condition, or results of operations.",
+    "The following is a summary of the principal risks that could adversely affect our business, financial condition or results of operations.",
+    "•The consummation of the Mergers is contingent upon the satisfaction of a number of conditions that may be outside of our or Skyworks' control and that we and Skyworks may be unable to satisfy, or which may delay the consummation of the Mergers or result in the imposition of conditions that could reduce the anticipated benefits from the Mergers or cause the parties to abandon the Mergers.",
+    "•Efforts to complete the Mergers could disrupt our relationships with third parties and employees, divert management's attention, interrupt new product introductions, or result in negative publicity or legal proceedings, any of which could negatively impact our operating results and ongoing business.",
+    "•Failure to realize the anticipated benefits of the Mergers, delay in realizing those benefits, or significant challenges in integrating the Company with Skyworks could have an adverse effect on the price of Skyworks common stock that Company stockholders will own following the completion of the Mergers.",
+    "•Because our stockholders have adopted the Merger Agreement, the Merger Agreement will not permit us to pursue alternative transactions to the Mergers."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Proposed Mergers",
+    "Fiscal 2026 Overview",
+    "Consolidated",
+    "(In thousands, except percentages) Fiscal",
+    "% of Revenue Fiscal",
+    "% of Revenue Increase",
+    "(Decrease) Percentage Change",
+    "Gross Margin",
+    "Operating Expenses",
+    "Operating Segments",
+    "High Performance Analog",
+    "Change Percentage",
+    "Connectivity and Sensors Group",
+    "Advanced Cellular Group",
+    "Interest expense",
+    "Other income, net",
+    "Income tax expense",
+    "Credit Agreement",
+    "Stock Repurchases",
+    "Cash Flows from Operating Activities",
+    "Cash Flows from Investing Activities",
+    "Cash Flows from Financing Activities",
+    "Summarized Balance Sheets",
+    "March 28, 2026 March 29, 2025",
+    "Summarized Statement of Operations"
+   ],
+   "paragraphs": [
+    "•Revenue decreased 1.1% in fiscal 2026 to $3,678.5 million, compared to $3,719.0 million in fiscal 2025, resulting from decreases in ACG and CSG revenue, partially offset by an increase in HPA revenue.",
+    "•Gross margin for fiscal 2026 was 45.9%, compared to 41.3% in fiscal 2025, driven by our strategy within the ACG segment to reduce exposure to lower margin, mass-market Android smartphones, as well as favorable business mix within the HPA segment.",
+    "•Operating income was $411.4 million in fiscal 2026, compared to $95.5 million in fiscal 2025, driven by higher gross margin and lower goodwill and intangible asset impairment charges.",
+    "•Net income per diluted share was $3.62 for fiscal 2026, compared to net income per diluted share of $0.58 for fiscal 2025.",
+    "•Operating activities in fiscal 2026 generated cash of $808.6 million, compared to $622.2 million in fiscal 2025.",
+    "•Capital expenditures were $129.1 million in fiscal 2026, compared to $137.6 million in fiscal 2025.",
+    "•We repurchased 6.6 million shares of our common stock for $536.7 million in fiscal 2026, compared to repurchases of 4.0 million shares of our common stock for $358.8 million in fiscal 2025."
+   ],
+   "focus": "Fiscal 2026 Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "公司概況",
+    "擬議合併",
+    "產業趨勢、市場、產品與應用",
+    "研究與發展",
+    "原物料與製造",
+    "銷售與行銷",
+    "智慧財產權",
+    "人力資本",
+    "{'Government Regulations': '政府規範'}",
+    "{'Available Information': '可供查閱之資訊'}"
+   ],
+   "paragraphs": [
+    "Qorvo® 是全球在無線、有線及電力市場之技術與產品之開發與商業化領域的領導者。",
+    "我們分為三個營運及應報告分部，以符合客戶與終端市場之技術與應用：高階類比（\"HPA\"）、連線與感測羣組（\"CSG\"）及先進行動羣組（\"ACG\"）。",
+    "HPA 是全球領先的射頻（\"RF\"）、類比混合訊號及電源管理解決方案供應商。CSG 是全球領先的連線解決方案供應商，具備廣泛的專業知識涵蓋超寬頻（\"UWB\"）、Matter®、藍牙®低功耗（\"BLE\"）、Zigbee®、Thread®、Wi-Fi® 及行動解決方案，用於物聯網（\"IoT\"）。",
+    "ACG 是全球領先的先進行動解決方案供應商，用於智慧型手機、穿戴裝置、筆記型電腦、平板電腦及其他裝置。",
+    "於 2025 年 10 月 27 日，我們與 Skyworks Solutions, Inc.（一家特拉華州公司，\"Skyworks\"）、本公司、Comet Acquisition Corp.（一家特拉華州公司，且為 Skyworks 的 wholly-owned 子公司，\"Merger Sub I\"），以及 Comet Acquisition II, LLC（一家特拉華州有限責任公司，且為 Skyworks 的 wholly-owned 子公司，\"Mer. Sub II\"）簽訂了合併與收購協議（\"Merger Agreement\"）。根據 Merger Agreement，並在滿足或放棄協議中所規定之條件後，（i）Merger Sub I 將與本公司合併（\"First Merger\"），本公司將在 First Merger 後繼續作為 Skyworks 的 wholly-owned 子公司（\"Surviving Corporation\"），且（ii）在 First Merger 後立即進行，作為一項單一整合交易的第二步驟，Surviving Corporation 將與 Merger Sub II 合併（\"Second Merger\"，與 First Merger 合稱 \"Mergers\"），Merger Sub II 將繼續為 Second Merger 的存續公司，且為 Skyworks 的 wholly-owned 子公司。Qorvo 與 Skyworks 的股東於 2026 年 2 月 11 日各自召開股東特別大會，批准了 Merger Agreement。Mergers 的完成需符合相關法規審批，包括某些反壟斷及外資審批，以及滿足其他慣例性關閉條件。我們目前預期 Mergers 將於 2027 年歷年第一季完成。上述 Merger Agreement 及其預期交易之摘要並非完整，且完全受 Merger Agreement 所限制與說明，該協議已作為我們於 2025 年 10 月 28 日提交之現況報告表（Form 8-K）之附錄 2.1 附件提交。",
+    "全球連線趨勢及更智能、資料密集型應用的普及，正增加對能有效提升資料吞吐量、改善用戶體驗及啟動人機互動新方法之技術的需求。這些及其他全球總體經濟趨勢，正增加對我們技術與產品的需求。",
+    "Qorvo 服務六大主要終端市場：汽車、消費性電子、防禦與航太、工業與企業、基礎建設與行動。我們的產品解決客戶最複雜的挑戰，同時提升性能、改善效率、增加功能、啟動新產品形態，並解決其他關鍵挑戰。",
+    "HPA 主要服務防禦與航太、基礎建設、工業與企業及消費性電子市場。",
+    "在防禦與航太領域，HPA 是美國政府、美國防務主承包商、美國盟友及其他客戶在 RF 產品、複合半導體晶圓廠及封裝服務方面的領先供應商。HPA 主要專注於支援雷達、電子戰及通訊系統的相位陣列技術，用於防禦與商業應用。HPA 直接與美國政府合作，開發下一代半導體及封裝技術，我們長期的關係已使我們成為受信賴的夥伴。隨著支撐現代戰爭的技術持續進步，美國及盟國的防務支出增加是全球總體經濟趨勢，這對我們的防禦與航太業務而言是一大助力。重點領域包括 Golden Dome 防禦系統；傳統雷達系統的升級；向更高頻率頻段的轉移；以及 \"一對多\" 的趨勢，即需要更多數量較小、更高度整合且可擴展的網路化平台（例如無人機如空中飛行器及地面機器人）以應對軍事應用中快速演進的技術環境。其他機會包括歐盟（\"EU\"）及盟國在地面、空中、艦船及空間平台上的防禦經費增加。",
+    "HPA 亦供應產品給低地球軌道（\"LEO\"）衛星通訊（\"SATCOM\"）網路中的領導企業，這些網路在全球投資增加，以提供商業及其他應用的增強且更普遍的連線。HPA 用於防禦與航太的標準產品組合包括高功率 RF 放大器、低雜訊放大器（\"LNAs\"）、開關、限制器、濾波器、相位變換器、混頻器、多工器、衰減器、波束成形整合電路（\"ICs\"）、電源管理 ICs（\"PMICs\"）及控制 ICs，以及完整的 RF 前端模組（\"FEMs\"）。",
+    "HPA 的服務組合包括廣泛的化合物半導體代工服務、晶圓製程、先進封裝及異質整合解決方案。",
+    "在基礎建設市場，資料密集型應用案例如機器學習、工業自動化、機械人及增強現實/虛擬現實（\"AR/VR\"）正提高無線電和寬頻網路的效能與容量需求。在無線電基地臺，向5G的遷移提高了容量、擴展覆蓋範圍並降低每比特資料的成本。HPA透過廣泛的無線電基礎建設解決方案組合，支援無線電基地臺原廠製造商（\"OEMs\"）應對資料容量、吞吐量與效率最重要的需求。HPA也促進無人機在商業與軍事空中通訊基礎建設的整合，並透過我們的無線電基礎建設解決方案運作直接對裝置衛星星座。Qorvo的無線電基礎建設產品包括開關、濾波器、低噪聲放大器（LNA）模組、離散式LNA、可變增益放大器及控制電路。在寬頻基礎建設，網路運營商正從資料過電纜服務介面規格（\"DOCSIS\"）3.1遷移至DOCSIS 4.0，以提高現有基礎建設的效率，並大幅提高終端用戶的下載與上傳速度。Qorvo透過廣泛的產品組合促進向DOCSIS 4.0的過渡，包括高輸出功率倍增器、驅動器、預放大器、反向放大器、電壓控制衰減器、數位步進衰減器、開關及電壓可變均衡器。",
+    "在工業與企業市場，對進階電源管理與馬達控制解決方案的需求正在增加，這是由於電子產品中提高電源效率的需求，以及延長電池供電裝置電池壽命的需要所驅動。HPA的解決方案利用我們的可配置電源管理智慧財產權（\"IP\"）。在企業資料中心，HPA的PMIC解決方案應對人工智慧（\"AI\"）驅動的企業固態硬碟（\"SSD\"）電源高效率需求。我們也為工業與企業應用中的馬達驅動與控制提供差異化解決方案，包括工廠馬達驅動與控制、大型電動工具、工廠運輸系統、機械人、工業無人機、泵與風扇。",
+    "在消費市場，HPA的可配置電源管理IP使多世代產品的開發加速。我們為消費應用提供PMIC，包括穿戴式裝置、充電器、便攜式視訊處理裝置及客戶端計算應用的固態硬碟。我們也為行業領先的家電與電動園藝工具供應商提供馬達控制與電池管理解決方案。我們的產品可減少解決方案體積、提高電池壽命、降低成本、提高系統可靠性並縮短客戶的產品開發時間。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "擬議合併",
+    "財務2026年概覽",
+    "合併後",
+    "(以千為單位，除百分比外) 財務",
+    "% 的營業收入 財務",
+    "% 的營業收入 增加",
+    "(減少) 百分比變化",
+    "毛利率",
+    "營運費用",
+    "營運分部",
+    "高性能類比",
+    "變動百分比",
+    "連線與感測器羣組",
+    "先進蜂巢式網路羣組",
+    "利息支出",
+    "其他收入，淨額",
+    "所得稅費用",
+    "信用協議",
+    "股票回購",
+    "營運活動現金流",
+    "投資活動現金流",
+    "籌資活動現金流",
+    "彙總資產負債表",
+    "2026年3月28日 2025年3月29日",
+    "{'original': 'Summarized Statement of Operations', 'translated': '營運摘要財務資料'}"
+   ],
+   "paragraphs": [
+    "",
+    "•財務年度2026年的毛利率為45.9%，較財務年度2025年的41.3%提高，係因ACG應報告分部的策略，降低對低毛利、大眾市場Android智慧型手機的敞口，以及HPA應報告分部有利的業務組合。",
+    "•營運收入在財務年度2026年為411.4 百萬美元，較財務年度2025年的95.5 百萬美元增加，主因為毛利率提高以及減損費用減少。",
+    "•財務年度2026年的每股稀釋後淨收入為3.62美元，較財務年度2025年的每股稀釋後淨收入0.58美元提高。",
+    "•財務年度2026年的營運活動產生現金808.6 百萬美元，較財務年度2025年的622.2 百萬美元增加。",
+    "•財務年度2026年的資本支出為129.1 百萬美元，較財務年度2025年的137.6 百萬美元減少。",
+    "•我們於財務年度2026年購回6.6百萬股本公司普通股，金額為536.7百萬美元，與財務年度2025年購回4.0百萬股本公司普通股，金額為358.8百萬美元相比。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與我們擬議交易相關的風險因素",
+    "由於我們的股東已批准合併協議，該合併協議將不允許我們追求與合併不同的其他交易。",
+    "股東在交易後將擁有較低的持股與投票權益，並對管理層的影響力將減少。",
+    "與我們業務及產業相關的風險",
+    "我們的營運結果會按季與年度產生波動。",
+    "我們的營運結果在很大程度上依賴於開發新產品並取得設計勝利，而我們客戶的需求可能迅速變化，產品生命週期也可能較短。",
+    "我們面臨因與美國政府或防衛與航太承包商的契約被取消或延遲，或防衛支出減少而導致收入減少的風險。",
+    "本公司高度依賴第三方。",
+    "本公司面臨透過經銷商銷售相關風險。",
+    "本公司面臨製造設施運作相關風險。",
+    "業務中斷可能損害本公司業務，導致營業收入下降並增加成本。",
+    "若本公司遭遇製造良率不佳，營運成果可能受影響。",
+    "本公司因根據客戶提供的預測資料購買材料並製造產品，而面臨存貨風險與成本。",
+    "本公司部分產品係基於晶片組供應商的參考設計銷售，若本公司無法有效管理或維護與這些公司的關係，可能對本公司業務產生不利影響。",
+    "本公司所處產業為高度競爭產業，必須持續創新。",
+    "需求波動可能導致我們無法充分運用製造設施，並對我們的財務表現造成重大不利影響。",
+    "利率、特定貴金屬價格、公用事業費用及外幣匯率等不利變動，可能對我們的財務狀況、流動性及營運成果產生負面影響。",
+    "我們的併購及其他戰略投資可能無法達成財務或戰略目標，幹擾我們的持續營運，並對營運成果產生負面影響。",
+    "我們可能無法有效執行重整計畫，導致總成本高於預期，並使我們無法實現預期的長期營運效益。",
+    "我們必須吸引、留住並激勵關鍵員工以維持競爭力，若未能做到，可能損害我們的業務及營運成果。",
+    "我們面臨產品保固聲請、產品回收及產品責任等風險。",
+    "有效稅率的變動可能對我們的營運成果及現金流產生負面影響。",
+    "國際或國內稅務立法的通過，或監管指引的變動，可能對我們的營運成果及現金流產生負面影響。"
+   ],
+   "paragraphs": [
+    "您在考量投資本公司任何證券前，應仔細審閱下列所列風險，並配合本報告中其他資訊。本公司營運、財務狀況或營運成果可能因任何上述風險而受到重大且不利的影響。下列所列風險與不確定性並非本公司所面臨的唯一風險。尚有其他未為本公司所知悉之風險，或目前未被本公司認為對本公司營運具有重大影響之因素，可能影響本公司營運、財務狀況或營運成果。",
+    "下列為可能對本公司營運、財務狀況或營運成果產生不利影響之主要風險摘要。",
+    "•完成合併交易的前提條件需符合多項可能超出本公司或Skyworks控制範圍之條件，且本公司與Skyworks可能無法達成這些條件，或這些條件可能延宕合併交易之完成，或導致施加可能減少預期合併效益之條件，甚至導致交易雙方放棄合併交易。",
+    "•完成合併交易之努力可能幹擾本公司與第三方及員工之關係，分散管理階層之注意力，中斷新產品之推出，或導致負面宣傳或法律程序，任何情況均可能對本公司營運成果與持續營運產生負面影響。",
+    "•未能實現合併交易預期之效益、實現效益之延宕，或在整合本公司與Skyworks時遭遇重大困難，可能對合併交易完成後本公司股東所持有之Skyworks普通股價格產生不利影響。",
+    "•由於本公司股東已通過合併協議，該協議將禁止本公司追求其他替代交易方案。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,213 @@
+{
+ "ticker": "SABR",
+ "cik": "0001597033",
+ "accession": "0001628280-26-008800",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Business Segments and Products",
+    "Growth Strategy",
+    "Technology and Operations",
+    "Sources of Revenue",
+    "Intellectual Property",
+    "Government Regulation",
+    "Human Capital",
+    "No of Employees % of Total",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Sabre Corporation is a Delaware corporation formed in December 2006. On March 30, 2007, Sabre Corporation acquired Sabre Holdings Corporation (\"Sabre Holdings\"). Sabre Holdings is the sole direct subsidiary of Sabre Corporation. Sabre GLBL Inc. (\"Sabre GLBL\") is the principal operating subsidiary and sole direct subsidiary of Sabre Holdings. Sabre GLBL or its direct or indirect subsidiaries conduct all of our businesses. Our principal executive offices are located at 3150 Sabre Drive, Southlake, Texas 76092.",
+    "At Sabre, we make travel happen. Our vision is to be the most valued global technology platform in travel. We are committed to helping our customers take on the biggest opportunities and solve the most complex challenges in travel. We connect the world's leading travel suppliers, including airlines, hotels, car rental brands, rail carriers, cruise lines and tour operators, with travel buyers in a comprehensive travel marketplace. We also offer airlines an extensive suite of leading software solutions. We are committed to helping customers operate more efficiently, drive revenue and offer personalized traveler experiences with next-generation technology solutions.",
+    "We manage and report our business in one reportable segment following the disposition of our Hospitality Solutions business during 2025. Our business provides global travel solutions for travel suppliers and travel buyers through a business-to-business travel marketplace called Sabre Mosaic Marketplace consisting of our global distribution network and a broad set of solutions that integrate with our distribution platform to add value for travel suppliers and travel buyers. Within the Sabre Mosaic Marketplace, our distribution business facilitates travel by efficiently bringing together travel content such as inventory, prices and availability from a broad array of travel suppliers, including airlines, hotels, car rental brands, rail carriers, cruise lines and tour operators, with a large network of travel buyers, including online travel agencies (\"OTAs\"), offline travel agencies, travel management companies (\"TMCs\"), and corporate travel departments.",
+    "Additionally, we offer a broad portfolio of software technology products and solutions, through software-as-a-service (\"SaaS\") and hosted delivery model, to airlines and other travel suppliers and provide industry-leading and comprehensive software solutions that help our customers better market, sell, serve and operate. Our product offerings include reservation systems for full-cost and low-cost carriers, commercial and operations products, agency solutions and data-driven intelligence solutions. In 2024, we launched SabreMosaicTM Airline Technology, a proprietary offer and order retailing platform for airlines that is designed and built on a modular, artificial intelligence (\"AI\")-enabled open technology structure, enabling airlines to dynamically create, sell and deliver an array of personalized content to travelers. Our reservation systems bring together intelligent decision support solutions that enable end-to-end retailing. Our commercial and operations products offer services to our customers to enable them to better use our products and help optimize their commercial and operations platforms.",
+    "At Sabre, we are a technology company focused on two strategic areas: 1) driving growth through innovation, and 2) generating positive free cash flow and delevering our balance sheet. Our growth strategy includes enhancing relationships with customers by promoting the benefits to them and travelers of adopting additional products and services, adapting those products to the changing needs of the travel ecosphere, including integrating new distribution capability (\"NDC\"), and pricing them in ways that align with our customers, growing our customer base by continuing to innovate our products, adding desirable content, and aligning our technology and personnel to best highlight our value proposition globally and expanding opportunities by extending our product lines into closely related areas of travel where our customer relationships can efficiently drive adoption.",
+    "Our technology strategy is focused on achieving operational stability, reliability, resiliency, security and performance at an efficient overall cost while continuing to innovate and create incremental value for our customers. Significant investment has gone into implementing a more modern, unified technical architecture with an emphasis on standardization, simplicity, efficiency, security, and scalability. We invest heavily in software development, delivery, and operational support capabilities and seek to provide best in class products for our customers. We operate standardized infrastructure in our cloud computing environments across hardware, operating systems, databases, and other key enabling technologies to minimize costs on non-differentiators. We expect to continue to make significant investments in our information technology infrastructure to modernize our architecture, drive efficiency and quality in development, lower recurring technology costs, further enhance the stability and security of our network, comply with data privacy and accessibility regulations, and deliver innovative, AI-powered solutions to the travel industry. We expect to deliver ongoing improvements in developer productivity, operational efficiency, and customer capabilities by increasing our use of generative AI technologies in our products as well as in our operational infrastructure.",
+    "Over the last several years, our architecture has evolved from mainframe-based transaction processing to more secure, primarily cloud-based distributed processing. A variety of products and services run on this technology infrastructure: high-volume, machine learning based air and hotel shopping systems; sales and support applications for airlines, hotels, and travel agencies; airline inventory management and operational support systems; machine learning driven analytics and decision support systems; and web services that provide automated interfaces for intelligent retailing, distribution, and fulfillment of travel-related products and services. Additionally, we enable a variety of advanced retailing and servicing capabilities that are generative AI based, such as conversational chatbots for our airline customers and agentic interfaces that enable direct integration with external AI platforms. The flexibility and scale of our cloud-based technology infrastructure allow us to quickly deliver a broad variety of SaaS solutions and evolve these solutions to meet the changing needs of the travel industry.",
+    "Our customers consist of travel suppliers, including airlines, hotels and other lodging providers, car rental brands, rail carriers, cruise lines, tour operators, attractions and services; a large network of travel buyers, including OTAs, offline travel agencies, TMCs and corporate travel departments; and airports, governments and tourism boards. Airlines we serve vary in size and are located in every region of the world, and include hybrid carriers and low-cost carriers (\"LCCs\") (collectively, \"LCC/hybrids\"), global network carriers and regional network carriers. Our airline and agency customers are in various phases of adopting NDC strategies, and those strategies vary by customer.",
+    "Transactions—Our business generates distribution revenue for bookings made through our global distribution system (\"GDS\") (e.g., air, car and hotel bookings) and through our partners and generally we are paid directly by the travel supplier. A transaction occurs when a travel agency or corporate travel department books or reserves a travel supplier's product using our GDS, for which we receive a fee. Transaction fees include, but are not limited to, transaction fees paid by travel suppliers for selling their inventory through our GDS and fees paid by travel agency subscribers related to their use of certain solutions integrated with our GDS. We receive revenue from the travel supplier and the travel agency according to the commercial arrangement with each.",
+    "SaaS and Hosted—We generate IT Solutions revenue through upfront solution implementation fees and recurring usage-based fees for the use of our software solutions hosted on secure platforms or deployed via SaaS. We collect the implementation fees, recurring usage-based fees and subscription fees pursuant to contracts with terms that typically range between three and ten years and generally include minimum annual volume requirements.",
+    "Software Licensing—We generate IT Solutions revenue from fees for the on-site installation and use of our software products. Many contracts under this model generate additional revenue for the maintenance of the software product.",
+    "Professional Service Fees—We generate IT Solutions revenue through offerings that utilize the SaaS and hosted revenue model which are sometimes sold as part of multiple performance obligation arrangements for which we also provide professional services, including consulting services. Our professional services are primarily focused on helping customers achieve better utilization of and return on their software investment. Often, we provide these services during the implementation phase of our SaaS solutions.",
+    "We operate in highly competitive markets. We compete with several other regional and global travel marketplace providers, including other GDSs, local distribution systems and travel marketplace providers primarily owned by airlines or government entities, as well as with direct distribution by travel suppliers. In addition to other GDSs and direct distributors, there are a number of other competitors in the travel distribution marketplace, including new entrants in the travel space, that offer metasearch capabilities that direct shoppers to supplier websites and/or OTAs, third party aggregators and peer-to-peer options for travel services. We also compete with a variety of providers in a rapidly evolving marketplace which includes global and regional IT providers, various specialists in selected product areas, service providers and airlines that develop their own in-house technology.",
+    "We use software, business processes and proprietary information to carry out our business. These assets and related intellectual property rights are significant assets of our business. We rely on a combination of patent, copyright, trade secret and trademark laws, confidentiality procedures, and contractual provisions to protect these assets and we license software and other intellectual property both to and from third parties. We may seek patent protection on business processes and other inventions relating to our business, and our software and related documentation may also be protected under trade secret and copyright laws where applicable. We may also benefit from both statutory and common law protection of our trademarks."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Our revenue is highly dependent on transaction volumes in the global travel industry, particularly air travel transaction volumes.",
+    "We operate in highly competitive, evolving markets, and if we do not continue to innovate and evolve, our business operations and competitiveness may be harmed.",
+    "Our business is exposed to pricing pressure from travel suppliers.",
+    "Our travel supplier customers may experience financial instability or consolidation, pursue cost reductions, change their distribution model or undergo other changes.",
+    "Implementation of software solutions often involves a significant commitment of resources, and any failure to deliver as promised on a significant implementation could adversely affect our business.",
+    "Our business depends on relationships with travel buyers.",
+    "Our business depends on maintaining and renewing contracts with our customers and other counterparties.",
+    "Our ability to recruit, train and retain employees, including our key executive officers and technical employees, is critical to our results of operations and future growth.",
+    "We are exposed to risks associated with payment card industry data (\"PCI\") compliance.",
+    "We are involved in various legal proceedings which may cause us to incur significant fees, costs and expenses and may result in unfavorable outcomes.",
+    "Any failure to comply with regulations or any changes in such regulations governing our businesses could adversely affect us.",
+    "We are exposed to risks associated with acquiring or divesting businesses or business operations.",
+    "We rely on the value of our brands, which may be damaged by a number of factors, some of which are out of our control.",
+    "Risks Related to Technology and Intellectual Property",
+    "We rely on the availability and performance of information technology services provided by third parties, including network, cloud, mainframe and SaaS providers.",
+    "Our success depends on maintaining the integrity of our systems and infrastructure, which may suffer from failures, capacity constraints, business interruptions and forces outside of our control.",
+    "Security incidents expose us to liability and could damage our reputation and our business.",
+    "Intellectual property infringement actions against us could be costly and time consuming to defend and may result in business harm if we are unsuccessful in our defense.",
+    "We may not be able to protect our intellectual property effectively, which may allow competitors to duplicate our products and services."
+   ],
+   "paragraphs": [
+    "The following risk factors may be important to understanding any statement in this Annual Report on Form 10-K or elsewhere. Our business, financial condition and operating results can be affected by a number of factors, whether currently known or unknown, including but not limited to those described below. Any one or more of these factors could directly or indirectly cause our actual results of operations and financial condition to vary materially from past or anticipated future results of operations and financial condition. Any of these factors, in whole or in part, could materially and adversely affect our business, financial condition, results of operations and stock price.",
+    "Risks Related to Our Business and Industry",
+    "Our revenue is largely tied to travel suppliers' transaction volumes rather than to their unit pricing for an airplane ticket, hotel room or other travel products. This revenue is generally not contractually committed to recur annually under our agreements with our travel suppliers. As a result, our revenue is highly dependent on the global travel industry, particularly air travel from which we derive a substantial amount of our revenue, and correlates with global travel, tourism and transportation transaction volumes. Our revenue is therefore highly susceptible to declines in or disruptions to leisure and business travel that may be caused by factors entirely out of our control, and therefore may not recur if these declines or disruptions occur.",
+    "Various factors have caused, and may in the future cause, temporary or sustained disruption to leisure and business travel. The impact these disruptions have had, and would in the future have, on our business depends on the magnitude and duration of such disruption. These factors include, among others: (1) general and local economic conditions, including recessions, inflationary pressures, economic uncertainty, and the effects of tariffs; (2) financial instability of travel suppliers and the impact of any fundamental corporate changes to such travel suppliers, such as airline bankruptcies, consolidations, or suspensions of service on the cost and availability of travel content; (3) factors that affect demand for travel such as outbreaks of contagious diseases, including COVID-19, influenza, Zika, Ebola and the MERS virus, increases in fuel prices, changing attitudes towards the environmental costs of travel, safety concerns and movements toward remote working environments and changes in business practices; (4) political events like acts or threats of terrorism, hostilities, war and political unrest; (5) inclement weather, natural or man-made disasters and the effects of climate change; and (6) factors that affect supply of travel, such as travel restrictions, regulatory actions, aircraft groundings, government shutdowns or changes to regulations governing airlines and the travel industry, like government sanctions that do or would prohibit doing business with certain state-owned travel suppliers, work stoppages or labor unrest at any of the major airlines, hotels or airports. Societal norms with respect to travel may change permanently in ways that cannot be predicted and that can change the travel industry in a manner adverse to our business.",
+    "Travel technology is rapidly evolving as travel suppliers seek new or improved means of accessing their customers and increasing value. We must continue to innovate and evolve our current and future offerings to respond to the changing needs of travel suppliers and meet intense competition. We also face increasing competition as suppliers seek IT solutions that provide the same traveler experience across all channels of distribution, whether indirectly through the GDS or directly through other channels. As travel suppliers adopt innovative solutions that function across channels, our operating results could suffer if we do not foresee the need for new products or services to meet competition either for GDS or for other distribution IT solutions.",
+    "Adapting to new technological and marketplace developments has required, and may continue to require, substantial expenditures and lead time and we cannot guarantee that projected future increases in business volume will actually materialize. We have in the past experienced, and may in the future experience, difficulties that could delay or prevent the successful development, marketing and implementation of platforms, enhancements, upgrades and additions. Moreover, we may fail to maintain, upgrade or introduce new products, services, technologies and systems as quickly as our competitors or in a cost-effective manner. For example, we must constantly update our products with new capabilities, such as New Distribution"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Recent Developments Affecting our Results of Operations",
+    "Factors Affecting our Results",
+    "Continued focus by travel suppliers on distribution methods and cost cutting",
+    "Increasing travel agency incentive consideration",
+    "Geographic mix of travel bookings and recent events impacting revenue",
+    "Increasing interest rates and interest expense and restrictions on ability to refinance existing debt",
+    "Importance of LCC/hybrids",
+    "Components of Revenues and Expenses",
+    "Cost of revenue, excluding technology costs",
+    "Technology Costs",
+    "Selling, General and Administrative Expenses",
+    "Year Ended December 31, Year-over-Year % Change",
+    "Non‑GAAP Financial Measures and Related Limitations",
+    "Purpose and Use by Management",
+    "Limitations of Non‑GAAP Financial Measures",
+    "Investor Considerations",
+    "Non-GAAP Financial Measures",
+    "Year Ended December 31,",
+    "2025 2024 2023 $ (255,490) $ (271,548) $ (491,538) (1a)",
+    "Results of Operations",
+    "Years Ended December 31, 2025 and 2024",
+    "2025 2024 Change",
+    "Years Ended December 31, 2024 and 2023",
+    "2024 2023 Change",
+    "Liquidity and Capital Resources",
+    "As of December 31,",
+    "Liquidity Outlook",
+    "Contractual Obligations",
+    "Capital Resources"
+   ],
+   "paragraphs": [
+    "The travel ecosystem has shifted over the past few years, resulting in the changing needs of our airline, hotel and agency customers, for which we have established strategic priorities with the goal of achieving sustainable long-term growth. Recent industry air distribution volume growth has generally leveled off, which may continue into the future and could impact our rate of growth. Passengers boarded for IT solutions has been negatively impacted by de-migrations from carriers who de-migrated prior to 2024; however, beginning in the second half of 2025, following the anniversary of the impact of these de-migrations on our revenue, revenue for IT solutions has leveled-off relative to prior year amounts.",
+    "We believe that we have resources to sufficiently fund our liquidity requirements over at least the next twelve months, including the aggregate payment of approximately $248 million of principal due or committed to be redeemed early under our current debt facilities; however, given the uncertain economic environment and the leveling off of industry air distribution volume growth, we will continue to monitor our liquidity levels and take additional steps should we determine they are necessary. See \"—Recent Events Impacting Our Liquidity and Capital Resources\" and \"—Senior Secured Credit Facilities.\"",
+    "We have announced that we are implementing a program in 2026, designed to offset normal inflationary pressures over the next two to three years, with the goal of keeping technology costs and selling, general and administrative costs relatively flat when compared to 2025. In connection with these efforts, we accrued a restructuring charge of $51 million within our consolidated statement of operations during the year ended December 31, 2025, primarily associated with our workforce. We expect to record additional restructuring charges associated with these activities in 2026 and currently estimate the total costs to be approximately $65 million, primarily associated with our workforce.",
+    "On April 27, 2025, we entered into a definitive agreement with an affiliate of TPG (the \"Buyer\") pursuant to which the Buyer agreed to purchase our Hospitality Solutions business, an extensive suite of leading software solutions for hoteliers. On July 3, 2025, we closed the transaction (the \"Hospitality Solutions Sale\"), resulting in cash proceeds of $965 million, net, which was used primarily to repay our outstanding indebtedness. See \"Liquidity and Capital Resources—Capital Resources.\" Cash proceeds are net of estimated taxes and fees, cash acquired by the Buyer and customary closing adjustments. The assets and liabilities associated with the Hospitality Solutions business are presented as discontinued operations on our consolidated balance sheet as of December 31, 2024, and the operating results of our Hospitality Solutions business are presented as discontinued operations on our consolidated statements of operations for all periods presented. The presentation of discontinued operations excludes general corporate overhead and other costs that do not meet the requirements to be presented as discontinued operations. In addition to the sale agreement described above, we entered into transition services agreements with the Buyer, under which we are providing transition services to help provide for an orderly transition and facilitate the ongoing operations of the Hospitality Solutions business following the close in return for compensation from the Buyer with respect to costs incurred. Additionally, at the time of sale, Hospitality Solutions entered into certain long-term agreements with us to continue to utilize our GDS for bookings which generates revenue for us. See Note 3. Discontinued Operations and Dispositions to our consolidated financial statements for further details. All amounts reference results from continuing operations unless otherwise indicated."
+   ],
+   "focus": "Recent Developments Affecting our Results of Operations"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'original': 'Business Segments and Products', 'translated': '業務分部與產品'}",
+    "{'original': 'Growth Strategy', 'translated': '成長策略'}",
+    "{'original': 'Technology and Operations', 'translated': '科技與運營'}",
+    "{'original': 'Sources of Revenue', 'translated': '收入來源'}",
+    "智慧財產權",
+    "政府規範",
+    "人力資本",
+    "員工人數 % 的總體",
+    "{'original': 'Available Information', 'translated': '可供查閱之資訊'}"
+   ],
+   "paragraphs": [
+    "Sabre Corporation 為一間設立於 2006 年 12 月的特拉華州公司。於 2007 年 3 月 30 日，Sabre Corporation 收購了 Sabre Holdings Corporation（\"Sabre Holdings\"）。Sabre Holdings 為 Sabre Corporation 的唯一直接子公司。Sabre GLBL Inc.（\"Sabre GLBL\"）為 Sabre Holdings 的主要營運子公司及唯一直接子公司。Sabre GLBL 或其直接或間接子公司執行我們所有的業務。我們的主要營業據點位於德州南lake市 3150 Sabre Drive, Southlake, Texas 76092。",
+    "在 Sabre，我們讓旅行成為可能。我們的願景是成為全球旅行領域最受重視的科技平台。我們致力於協助客戶應對旅行領域最大的機會與解決最複雜的挑戰。我們將全球領先的旅行供應商，包括航空公司、酒店、租車品牌、鐵路運輸業者、遊輪公司與旅遊經紀，與旅行買家在一個全面性的旅行市場中連結。我們也為航空公司提供廣泛的領先軟體解決方案。我們致力於協助客戶更有效率地運作、提升營收並提供個性化的旅客體驗，透過新一代的科技解決方案。",
+    "我們在 2025 年處置 Hospitality Solutions 事業後，將業務歸類為一個應報告分部進行管理與報告。我們的業務透過一個名為 Sabre Mosaic Marketplace 的企業對企業旅行市場平台，為旅行供應商與旅行買家提供全球旅行解決方案，該平台包含我們的全球分銷網路與一套廣泛的解決方案，這些解決方案與我們的分銷平台整合，為旅行供應商與旅行買家創造價值。在 Sabre Mosaic Marketplace 內，我們的分銷業務透過高效地將來自廣泛旅行供應商（包括航空公司、酒店、租車品牌、鐵路運輸業者、遊輪公司與旅遊經紀）的旅行內容（如存貨、價格與可預訂性）與一個龐大的旅行買家網路（包括線上旅遊經紀（\"OTAs\"）、線下旅遊經紀、旅遊經紀公司（\"TMCs\"）與企業旅行部門）結合，來促進旅行。",
+    "此外，我們透過軟體即服務（\"SaaS\"）與託管交付模式，提供廣泛的軟體科技產品與解決方案給航空公司及其他旅行供應商，並提供行業領先且完整的軟體解決方案，協助客戶更有效地行銷、銷售、服務與運作。我們的產品包括為全成本與低成本航空公司提供的預訂系統、商業與運營產品、經紀解決方案與數據驅動的智慧解決方案。於 2024 年，我們推出了 SabreMosaicTM Airline Technology，這是一個專屬的航空業者科技零售平台，設計並建構於模組化、人工智慧（\"AI\"）驅動的開放式科技架構上，使航空業者能動態地創造、銷售與交付一系列個性化的內容給旅客。我們的預訂系統整合了智能決策支援解決方案，以實現端到端的零售服務。我們的商業與運營產品為客戶提供服務，協助他們更有效地使用我們的產品並幫助優化其商業與運營平台。",
+    "在 Sabre，我們是一家專注於兩個戰略領域的科技公司：1）透過創新推動成長，以及 2）產生正向自由現金流並優化資產負債表。我們的成長策略包括透過推廣採用額外產品與服務對客戶與旅客的優勢，來強化與客戶的關係；適應旅行生態系的變遷需求，包括整合新的分銷能力（\"NDC\"）並以符合客戶利益的方式進行定價；透過持續創新產品、增加有吸引力的內容，並調整我們的科技與人力資源以在全球範圍內最佳化我們的價值主張，來擴大客戶羣；並透過將產品線延伸至與旅行密切相關的領域，來拓展機會，使我們的客戶關係能有效驅動採用。",
+    "我們的科技策略聚焦於在總體成本效率的同時，實現運營穩定性、可靠性、韌性、安全性與性能。我們已投入大量資源於實現更現代、統一的技術架構，並強調標準化、簡潔性、效率、安全性與可擴展性。我們在軟體開發、交付與運營支援能力上投入大量資源，並致力於為客戶提供最佳的產品。我們在雲端計算環境中運行標準化的基礎設施，涵蓋硬體、作業系統、資料庫及其他關鍵技術，以降低非差異化的成本。我們預期會持續在資訊科技基礎設施上進行重大投資，以現代化我們的架構、提升開發效率與品質、降低重複性科技成本、進一步強化網路的穩定性與安全性、符合資料隱私與可存取性規範，並為旅行產業提供創新、人工智慧驅動的解決方案。我們預期會透過增加在產品與運營基礎設施中使用生成式人工智慧技術的應用，持續改善開發者生產力、運營效率與客戶能力。",
+    "在過去幾年，我們的架構已從基於主機的交易處理演進為更安全、主要為雲端基礎的分散式處理。許多產品與服務均運行於此技術基礎設施上：高流量、基於機器學習的航空與酒店搜尋系統；航空公司、酒店與旅遊經紀的銷售與支援應用程式；航空業者的存貨管理與運營支援系統；基於機器學習的分析與決策支援系統；以及提供自動化介面的網路服務，用以實現智能零售、分銷與旅行相關產品與服務的履行。此外，我們也啟動了多種基於生成式人工智慧的先進零售與服務能力，例如為航空業者客戶提供的對話式聊天機器人，以及能直接整合外部人工智慧平台的代理式介面。我們雲端基礎的技術基礎設施所提供的靈活性與規模，使我們能迅速交付廣泛的 SaaS 解決方案，並根據旅行產業變化的需求持續演進這些解決方案。",
+    "我們的客戶包括旅行供應商，包括航空公司、酒店及其他住宿服務提供者、租車品牌、鐵路運輸業者、遊輪公司、旅遊經紀、景點與服務；一個龐大的旅行買家網路，包括 OTAs、線下旅遊經紀、TMCs 與企業旅行部門；以及機場、政府與旅遊協會。我們服務的航空公司規模不一，分佈於全球各個地區，包括混合型航空公司與低成本航空公司（\"LCCs\"）（合稱為 \"LCC/hybrids\"）、全球網路航空公司與區域網路航空公司。我們的航空業者與經紀客戶正處於不同階段的 NDC 策略採用，且各客戶的策略有所不同。",
+    "交易—本公司業務產生的分銷收入來自於透過全球分銷系統（\"GDS\"）（例如：航空、汽車及酒店預訂）以及透過我們的合作夥伴所進行的預訂，通常我們會直接由旅遊供應商獲取報酬。當旅遊經紀或企業旅遊部門透過我們的 GDS 預訂或預留旅遊供應商的產品時，就會產生一筆交易，我們會收取費用。交易費用包括，但不僅限於，旅遊供應商為透過我們的 GDS 售出其存貨而支付的交易費用，以及旅遊經紀訂戶因使用與我們的 GDS 整合的某些解決方案而支付的費用。我們根據與每個旅遊供應商及旅遊經紀的商業協議，從旅遊供應商及旅遊經紀收取收入。",
+    "SaaS 與 Hosted—我們透過 upfront 解決方案實作費用及基於使用量的持續費用，產生資訊科技解決方案收入，這些費用是針對我們的軟體解決方案在安全平台上的使用或透過 SaaS 部署。我們根據與客戶簽訂的合約收取實作費用、持續費用及訂閱費用，這些合約的期限通常為三至十年，且通常包含最低年度使用量要求。",
+    "軟體授權—我們透過軟體產品的現場安裝及使用所收取的費用，產生資訊科技解決方案收入。許多在此模式下的合約會產生額外收入，用以維護軟體產品。",
+    "專業服務費用—我們透過使用 SaaS 與 Hosted 收入模式的服務方案產生資訊科技解決方案收入，這些服務方案有時會作為多個績效義務安排的一部分銷售，我們同時也提供專業服務，包括諮詢服務。我們的專業服務主要著重於協助客戶更有效地利用其軟體投資並提高回報。我們通常在 SaaS 解決方案的實作階段提供這些服務。",
+    "我們在高度競爭的市場中運作。我們與多家區域及全球旅遊市場平台提供者競爭，包括其他 GDS、本地分銷系統及主要由航空公司或政府機構所擁有之旅遊市場平台提供者，以及與旅遊供應商的直接分銷。除了其他 GDS 及直接分銷者外，旅遊分銷市場上還有許多其他競爭對手，包括新進入旅遊領域的企業，他們提供 meta-search 功能，直接引導消費者至供應商網站及/或 OTA、第三方聚合器及點對點旅遊服務選項。我們也與多種提供者競爭，這些提供者來自快速發展的市場，包括全球及區域資訊科技提供者、特定產品領域的專業公司、服務提供者及開發自有技術的航空公司。",
+    "我們使用軟體、商業流程及專有資訊來執行業務。這些資產及相關智慧財產權為本公司的重要資產。我們依賴專利、著作權、商業機密及商標法、保密程序及合約條款來保護這些資產，並向第三方授權軟體及其他智慧財產權。我們可能針對與業務相關的商業流程及其他發明尋求專利保護，且我們的軟體及相關文件在適用的情況下，也可能受到商業機密及著作權法的保護。我們也可能受益於對我們商標的法定及普通法保護。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "近期影響我們營運成果之發展",
+    "影響我們營運成果之因素",
+    "旅行供應商持續著重於分銷方式及成本削減",
+    "旅行經紀機構激勵考量持續增加",
+    "旅行預訂之地理組成及近期影響收入之事件",
+    "利率持續上升及利息支出與限制再融資現有債務之能力",
+    "LCC/混合型產品之重要性",
+    "收入及費用之零組件",
+    "營業收入，扣除技術成本",
+    "技術成本",
+    "營銷、一般及行政費用",
+    "截至12月31日年度，年對年%變動",
+    "非GAAP財務指標及其相關限制",
+    "管理層之用途與使用",
+    "非GAAP財務指標之限制",
+    "投資者考量",
+    "非GAAP財務指標",
+    "截至12月31日年度",
+    "2025 2024 2023 美元 (255,490) 美元 (271,548) 美元 (491,538) (1a)",
+    "營運成果",
+    "截至12月31日年度，2025年及2024年",
+    "2025 2024 變動",
+    "截至12月31日年度，2024年及2023年",
+    "2024 2023 變動",
+    "流動性及資本資源",
+    "截至12月31日",
+    "流動性展望",
+    "契約義務",
+    "資本資源"
+   ],
+   "paragraphs": [
+    "旅遊生態系在過去幾年已產生變化，導致我們的航空公司、酒店及代理客戶需求產生變化，為此我們已建立戰略優先事項，目標為實現可持續的長期成長。近期航空業的散售量成長已大致趨於平穩，這種情況可能持續至未來，並可能影響我們的成長速度。旅客為IT解決方案所搭乘的數量，因電信業者在2024年前的遷移而受到負面影響；然而，自2025年下半年起，隨著這些遷移對我們營收的影響屆滿一年，IT解決方案的營收已相較於前一年的數額趨於平穩。",
+    "我們認為我們擁有足夠的資源，可充分支應我們至少未來十二個月的流動性需求，包括支付約248 百萬美元的本金，該本金為根據我們現有債務融資安排應償還或承諾償還的金額；然而，考慮到不確定的經濟環境以及航空業散售量成長趨於平穩，我們將持續監測我們的流動性水準，並在認為必要時採取額外措施。請參閱「—影響我們流動性及資本資源的近期事件」及「—高階 secured credit facilities」。",
+    "我們已宣佈，我們將於2026年實施一個方案，旨在抵消未來兩到三年的正常通貨膨脹壓力，目標為使科技成本及營銷、一般及行政成本相較於2025年保持相對穩定。為配合這些努力，我們在2025年財年結算時，於我們合併財務報表的營運費用中確認了51 百萬美元的重組費用，主要與我們的員工相關。我們預期在2026年會記錄與這些活動相關的額外重組費用，目前預估總成本約為65 百萬美元，主要與我們的員工相關。",
+    "2025年4月27日，我們與TPG的子公司（「買方」）簽訂了最終協議，買方同意購買我們的酒店解決方案業務，該業務為一套廣泛的領先軟體解決方案，用於酒店業者。2025年7月3日，我們完成了交易（「酒店解決方案出售」），產生淨現金收入965 百萬美元，主要用於償還我們的現有債務。請參閱「流動性及資本資源—資本資源」。現金收入為淨額，扣除預估稅款及費用、買方取得的現金及慣例性交割調整。與酒店解決方案業務相關的資產及負債，在我們2024年12月31日的合併資產負債表中，列為已終止營運業務。與酒店解決方案業務相關的營運成果，在我們所有期間的合併損益表中，列為已終止營運業務。已終止營運業務的呈現方式，排除一般企業總部的間接費用及其他不滿足條件以作為已終止營運業務呈現的費用。除了上述出售協議外，我們與買方簽訂了過渡服務協議，我們提供過渡服務以協助實現有序過渡，並促進酒店解決方案業務在交易完成後的持續營運，買方則根據我們所產生的費用支付對價。此外，在出售時，酒店解決方案業務與我們簽訂了若干長期協議，以繼續使用我們的GDS進行預訂，這會為我們產生收入。請參閱附註3。已終止營運業務及處分事項至我們的合併財務報表。所有金額除非另有說明，否則均參考持續營運業務的結果。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "本公司營業收入高度依賴全球旅遊業的交易量，尤其是航空旅行的交易量。",
+    "本公司營運於高度競爭且不斷演進的市場，若本公司無法持續創新與進化，將可能影響本公司營運及競爭力。",
+    "本公司業務面臨來自旅遊供應商的價格壓力。",
+    "本公司旅遊供應商客戶可能遭遇財務不穩定或併購，追求成本削減，改變其分銷模式或經歷其他變動。",
+    "軟體解決方案的實施通常需要大量資源投入，若無法如預期般完成重大實施項目，將可能對本公司業務造成不利影響。",
+    "本公司業務依賴與旅遊買家的關係。",
+    "本公司業務依賴與客戶及其他交易對手維持並更新契約。",
+    "本公司招募、培訓及留住員工，包括本公司重要高階主管及技術人員的能力，對本公司營運成果及未來成長至關重要。",
+    "本公司面臨與支付卡產業資料（\"PCI\"）合規相關的風險。",
+    "本公司參與多項法律程序，可能導致本公司產生重大費用、成本與支出，並可能導致不利的結果。",
+    "任何未能遵守規範或相關規範變更，可能對本公司產生不利影響。",
+    "本公司面臨與取得或出售業務或業務運作相關的風險。",
+    "本公司依賴品牌價值，而品牌可能因多種因素而受損，其中一些因素為本公司無法控制。",
+    "與科技及智慧財產權相關的風險",
+    "本公司依賴第三方提供的資訊科技服務之可用性與表現，包括網路、雲端、大型主機與 SaaS 服務提供者。",
+    "本公司之成功取決於維護系統與基礎建設之完整性，這些系統與基礎建設可能因故障、容量限制、業務中斷及本公司無法控制之因素而受影響。",
+    "安全事件可能使本公司面臨責任風險，並可能損害本公司聲譽及業務。",
+    "針對本公司的智慧財產權侵權行動，可能導致高昂且耗時的法律辯護費用，若本公司在辯護中未能成功，可能造成業務損失。",
+    "本公司可能無法有效保護智慧財產權，這可能使競爭對手得以複製本公司的產品與服務。"
+   ],
+   "paragraphs": [
+    "下列風險因素可能對理解本年度報表（10-K 表格）或其它地方的任何陳述具有重要性。我們的業務、財務狀況及營運成果可能受多種因素影響，無論是已知或未知，包括但不限於以下所描述的。任何一個或數個因素可能直接或間接導致我們實際的營運成果與財務狀況與過去或預期未來的營運成果與財務狀況有重大差異。任何這些因素，全部或部分，可能對我們的業務、財務狀況、營運成果及股票價格造成重大且不利的影響。",
+    "與我們業務及產業相關的風險",
+    "我們的營業收入主要與旅遊供應商的交易量有關，而非與飛機票、酒店房間或其他旅遊產品的單價有關。這種收入通常並未根據我們與旅遊供應商的契約，每年重複產生。因此，我們的營業收入高度依賴全球旅遊產業，特別是我們獲取大量收入的航空旅行，並與全球旅遊、旅遊業及運輸交易量相關。因此，我們的營業收入對休閒及商務旅行的減少或中斷非常敏感，而這些減少或中斷可能是我們無法控制的因素所導致，因此可能不會重複發生。",
+    "多種因素已導致，且可能在未來導致休閒及商務旅行的暫時或持續中斷。這些中斷對我們業務的影響，取決於中斷的程度與持續時間。這些因素包括但不限於：(1) 一般及地方經濟狀況，包括經濟衰退、通貨膨脹壓力、經濟不確定性，以及關稅的影響；(2) 旅遊供應商的財務不穩定，以及這些旅遊供應商的任何根本性企業變動，例如航空公司破產、合併或服務中斷，對旅遊內容的成本與可得性造成影響；(3) 影響旅遊需求的因素，例如傳染病爆發，包括 COVID-19、流感、寨卡、埃博拉及 MERS 病毒，燃料價格上升，對旅遊環境成本態度的改變，安全顧慮及向遠距工作環境的轉變，以及商業作風的改變；(4) 政治事件，例如恐怖攻擊或威脅、敵對行動、戰爭及政治動亂；(5) 惡劣天氣、自然或人為災難及氣候變遷的影響；以及 (6) 影響旅遊供應的因素，例如旅遊限制、規範行動、飛機停飛、政府停擺或對航空公司及旅遊產業的規範變動，例如政府制裁，可能禁止與某些國營旅遊供應商進行業務，或在主要航空公司、酒店或機場發生罷工或勞動動盪。對旅遊的社會觀念可能永久改變，以無法預測的方式改變旅遊產業，對我們的業務造成不利影響。",
+    "旅遊科技正在快速演進，旅遊供應商尋求新的或改進的手段來接觸客戶並提高價值。我們必須持續創新並進化我們的現有及未來產品，以回應旅遊供應商的變更需求並應對強烈競爭。我們也面臨日益增加的競爭，因為供應商尋求 IT 解決方案，以在所有銷售通路提供相同的旅客體驗，無論是透過 GDS 間接或透過其他通路直接。當旅遊供應商採用跨通路運作的創新解決方案時，如果我們未能預見對 GDS 或其他銷售 IT 解決方案的競爭需求，我們的營運成果可能會受到影響。",
+    "適應新的科技與市場發展已需要，且可能繼續需要大量支出與準備時間，我們無法保證預期未來的業務量增加實際會實現。我們過去曾經驗過，且可能在未來經驗到困難，這些困難可能延遲或阻止平台、功能增強、升級與新增功能的開發、行銷與實施。此外，我們可能無法像競爭對手一樣快速維護、升級或推出新產品、服務、科技與系統，或以成本效益的方式進行。例如，我們必須不斷更新產品，加入新功能，例如新分銷"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

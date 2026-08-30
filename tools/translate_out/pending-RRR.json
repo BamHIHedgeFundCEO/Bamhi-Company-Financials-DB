@@ -1,0 +1,223 @@
+{
+ "ticker": "RRR",
+ "cik": "0001653653",
+ "accession": "0001653653-26-000004",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Introduction",
+    "Impact of Economic Conditions",
+    "Business Strategy",
+    "Organizational Structure",
+    "Rooms Slots (1)",
+    "Las Vegas Properties",
+    "50% Owned Properties",
+    "Developable Land",
+    "Native American Development",
+    "Intellectual Property",
+    "Regulation and Licensing"
+   ],
+   "paragraphs": [
+    "Red Rock Resorts, Inc. (\"we,\" \"our,\" \"us,\" \"Red Rock\" or the \"Company\") is a holding company that owns an indirect equity interest in and manages Station Casinos LLC (\"Station LLC\"), through which we conduct all of our operations. Station LLC is a gaming, development and management company established in 1976 that develops and operates strategically-located casino and entertainment properties. Station LLC owns and operates seven major gaming and entertainment facilities, including Durango Casino & Resort (\"Durango\"), and 13 smaller casinos (three of which are 50% owned). Durango opened in December of 2023 on approximately 50 acres of land at the intersection of Interstate 215 and Durango Drive in the southwest Las Vegas valley.",
+    "We own all of the outstanding voting interests in Station LLC and have an indirect equity interest in Station LLC through our ownership of limited liability interests in Station Holdco LLC (\"Station Holdco,\" and such interests, \"LLC Units\"), which owns all of the economic interests in Station LLC. At December 31, 2025, we held 59% of the economic interests and 100% of the voting power in Station Holdco, subject to certain limited exceptions, and we are designated as the sole managing member of both Station Holdco and Station LLC. We control and operate all of the business and affairs of Station Holdco and Station LLC. Other than tax-related assets and liabilities, our only assets are our equity interest in Station Holdco, our voting interest in Station LLC and a note receivable from Station LLC. We have no operations outside of our management of Station Holdco and Station LLC.",
+    "Our Consolidated Financial Statements in Part II, Item 8 of this Annual Report on Form 10-K (the \"Consolidated Financial Statements\") reflect the consolidation of Station LLC and its consolidated subsidiaries and Station Holdco. The financial position and results of operations attributable to LLC Units we do not own are reported separately as noncontrolling interest.",
+    "Our casino properties are conveniently located throughout the Las Vegas valley and provide our customers a wide variety of entertainment and dining options. Over 90% of the Las Vegas population is located within five miles of one of our gaming facilities. We provide friendly service and exceptional value in a comfortable environment. We believe we surpass our competitors in offering casino patrons the newest and most popular slot and video games featuring the latest technology. We also believe the high-quality entertainment experience we provide our customers differentiates us from our competitors.",
+    "Most of our major properties are master-planned for expansion, enabling us to incrementally expand our facilities as demand dictates. We also control six highly desirable gaming-entitled development sites in Las Vegas.",
+    "Our principal source of revenue and operating income is gaming. Our non-gaming offerings include restaurants, hotels and other entertainment amenities. Approximately 80% of our casino revenue is generated from slot play. The majority of our revenue is cash-based. As a result, fluctuations in our revenues have a direct impact on our cash flows from operations. Because our business is capital intensive, we rely heavily on the ability of our properties to generate operating cash flow to repay debt financing and fund capital expenditures.",
+    "Our principal executive offices are located at 1505 South Pavilion Center Drive, Las Vegas, Nevada 89135. The telephone number for our executive offices is (702) 495-3000. We maintain a website at www.redrockresorts.com, the contents of which are expressly not incorporated by reference into this filing.",
+    "A significant portion of our business is dependent upon customers who live and/or work in the Las Vegas metropolitan area. The Las Vegas metropolitan area population continues to grow, posting a 1.6% growth rate in 2025. As of December 2025, the unemployment rate in the Las Vegas metropolitan area was 5.2%, down from 5.9% in December 2024 and 5.3% in December 2023. Statewide, the unemployment rate for December 2025 was 5.2%, as compared to 5.7% in December 2024 and 5.4% in December 2023. The median price of an existing single-family home in Las Vegas was $470,000 at December 31, 2025, down 1.1% as compared to December 31, 2024, according to the Las Vegas Realtors®. Given the ongoing economic uncertainty driven by inflation, heightened interest rates, increased geo-political and regional uncertainty and conflicts, and the current administration's approach to regulation and oversight, it is difficult to predict whether the trends in unemployment, population growth and housing prices in the Las Vegas area will continue.",
+    "Our properties have continued to experience favorable customer trends in 2025, including strong carded slot play and robust visitation and net theoretical win across the majority of our properties. These trends, in combination with our operational",
+    "discipline and our focus on our core local guests, as well as regional and out of town guests, have continued to drive strong operating results for our company. However, we cannot predict whether these trends will continue, nor can we predict the extent to which the impacts of inflation and other economic uncertainties on the United States and Las Vegas economies may affect our business in the future.",
+    "Our primary operating strategy emphasizes attracting and retaining customers, primarily Las Vegas residents and, to a lesser extent, out-of-town visitors. Our properties attract customers through:",
+    "•convenient locations with best-in-class assets; •offering our customers the latest in slot and video poker technology;",
+    "•a variety of non-gaming amenities such as hotel resorts, restaurants, bars and entertainment options;",
+    "•focused marketing efforts targeting our extensive customer database; •innovative, frequent promotional programs; and"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Business, Economic, Market and Operating Risks",
+    "We depend on the residents of the Las Vegas regional market and repeat visitors, which subjects us to greater risks than a gaming company with more diverse operations.",
+    "Our business is sensitive to changes in consumer sentiment and discretionary spending.",
+    "We face substantial competition in the gaming industry and we expect that such competition will intensify.",
+    "Our success depends on key executive officers and personnel and our ability to attract and retain employees.",
+    "We may incur delays and budget overruns with respect to current or future construction projects. Any such delays or cost overruns may have a material adverse effect on our operating results.",
+    "We may pursue new gaming acquisition and development opportunities and may not be able to recover our investment or successfully expand to additional locations.",
+    "We require significant capital to fund capital expenditures, pursue proposed development, expansion or acquisition opportunities or refinance our indebtedness.",
+    "We may not be successful in entering into additional management or development agreements for Native American gaming opportunities.",
+    "Union organization activities could disrupt our business by discouraging patrons from visiting our properties, causing labor disputes or work stoppages, and, if successful, could significantly increase our labor costs.",
+    "Work stoppages, labor problems and unexpected shutdowns may limit our operational flexibility and negatively impact our future profits.",
+    "The concentration and evolution of the slot machine manufacturing industry or other technological conditions could impose additional costs on us.",
+    "Increased regulation by international, national, state, regional, and local regulatory bodies of greenhouse gas emissions could materially affect our business, financial condition, results of operation and cash flows.",
+    "resources and expose us to additional risks, which could adversely impact our reputation, customer attraction and retention, access to capital and employee recruitment and retention.",
+    "We may incur impairments to goodwill, indefinite-lived intangible assets, or long-lived assets which could negatively affect our results of operations.",
+    "Any failure to protect our trademarks could have a negative impact on the value of our brand names and adversely affect our business.",
+    "Shortages or increases in prices of energy or water may adversely affect our business and our results of operations.",
+    "Win rates for our gaming operations depend on a variety of factors, some beyond our control, and the winnings of our gaming customers could exceed our casino winnings.",
+    "We face the risk of fraud and cheating.",
+    "Risks Related to our Indebtedness",
+    "We have a substantial amount of indebtedness, which could have a material adverse effect on our financial condition and our ability to obtain financing in the future and to react to changes in our business.",
+    "Despite our current indebtedness levels, we and our subsidiaries may still incur significant additional indebtedness, which could increase the risks associated with our substantial indebtedness.",
+    "We may not be able to generate sufficient cash to service all of our indebtedness, and may be forced to take other actions to satisfy our obligations under our indebtedness, which may not be successful.",
+    "Risks Related to Our Structure and Organization",
+    "Our Principal Equityholders have control over our management and affairs, and their interests may differ from our interests or those of our other stockholders."
+   ],
+   "paragraphs": [
+    "The following risk factors should be considered carefully in addition to the other information contained in this Annual Report on Form 10-K. This Annual Report on Form 10-K contains forward-looking statements that involve risks and uncertainties. Any of these risks and uncertainties could cause our actual results to differ materially from the results contemplated by the forward-looking statements. The following risk factors set forth the risks that we believe are material to our business, financial condition, assets, operations and equity interests. If any of the following risks actually occur, our business, financial condition and results of operations could be materially and adversely affected. The risks described below are not the only ones we face. Additional risks currently not known to us or that we believe to be immaterial could also adversely impact our business.",
+    "Any one of the factors discussed below or elsewhere in this report or the cumulative effect of some of the factors referred to herein may result in significant fluctuations in our financial and other operating results. This variability and unpredictability could result in our failure to meet investor expectations for our revenues or other operating results for a particular period. If we fail to meet or exceed such expectations for these or any other reasons, the market price of our common stock could decrease.",
+    "All of our casino properties are dependent upon attracting Las Vegas residents as well as out of town visitors. As a result of our concentration in the Las Vegas regional market, we have greater exposure to a number of risks than we would have if we had operations outside of the Las Vegas valley. These risks include the following:",
+    "•local economic and competitive conditions;",
+    "•changes in local and state governmental laws and regulations, including gaming laws and regulations;",
+    "•increased gasoline prices, which may discourage travelers from visiting our properties; and"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Our Key Performance Indicators",
+    "Results of Operations",
+    "Year Ended December 31,",
+    "2025 2024 Percent",
+    "Adjusted EBITDA",
+    "Net revenues",
+    "Net income $ 355,670 $ 291,292",
+    "Adjusted EBITDA $ 848,591 $ 795,900",
+    "Holding Company Financial Information",
+    "Financial Condition, Capital Resources and Liquidity",
+    "Net cash provided by (used in):",
+    "Restrictive Covenants",
+    "Off-Balance Sheet Arrangements",
+    "Native American Development",
+    "Regulation and Taxes",
+    "Critical Accounting Policies and Estimates"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis should be read in conjunction with the Consolidated Financial Statements and notes thereto included in Item 8. Financial Statements and Supplementary Data within this Annual Report on Form 10-K.",
+    "Red Rock was formed as a Delaware corporation in 2015 to own an indirect equity interest in, and manage, Station Casinos LLC, a Nevada limited liability company (\"Station LLC\"). Station LLC is a gaming, development and management company established in 1976 that owns and operates seven major gaming and entertainment facilities and 13 smaller casinos (three of which are 50% owned) in the Las Vegas regional market. As of December 31, 2025, we offered 16,553 slot machines, 328 table games and 2,734 hotel rooms in the Las Vegas market.",
+    "We own all of the outstanding voting interests in Station LLC and have an indirect equity interest in Station LLC through our ownership of limited liability company interests in Station Holdco (\"LLC Units\"), which owns all of the economic interests in Station LLC. At December 31, 2025, we held 59% of the economic interests and 100% of the voting power in Station Holdco, subject to certain limited exceptions, and we are designated as the sole managing member of both Station Holdco and Station LLC. We control and operate all of the business and affairs of Station Holdco and Station LLC, and conduct all of our operations through these entities. Other than assets and liabilities related to income taxes and the tax receivable agreement, our only material assets are our equity interest in Station Holdco, our voting interest in Station LLC and a note receivable from Station LLC. We have no operations outside of our management of Station Holdco and Station LLC.",
+    "Our Consolidated Financial Statements reflect the consolidation of Station LLC and its consolidated subsidiaries, and Station Holdco. The financial position and results of operations attributable to LLC Units we do not own are reported separately as noncontrolling interest.",
+    "Our principal source of revenue and operating income is gaming. Our non-gaming offerings include restaurants, hotels and other entertainment amenities. Approximately 80% of our casino revenue is generated from slot play. The majority of our revenue is cash-based and, as a result, fluctuations in our revenues have a direct impact on our cash flows from operations. Because our business is capital intensive and we utilize debt to fund many of our capital initiatives, we rely heavily on the ability of our properties to generate operating cash flow to repay debt financing and fund capital expenditures.",
+    "A significant portion of our business is dependent upon customers who live and/or work in the Las Vegas metropolitan area. As of December 2025, the unemployment rate in the Las Vegas metropolitan area was 5.2%, down from 5.9% in December 2024. Statewide, the unemployment rate for December 2025 was 5.2%, as compared to 5.7% in December 2024. The median price of an existing single-family home in Las Vegas was $470,000 at December 31, 2025, down 1.1% as compared to December 31, 2024, according to the Las Vegas Realtors®. In addition, the Las Vegas metropolitan area population continues to grow, posting a 1.6% growth rate in 2025 over the prior year. In light of uncertainty in the economic outlook stemming from inflation, higher interest rates, increased geo-political and regional conflicts, and the current administration's view of the regulatory environment and agencies, we cannot predict whether the trends in unemployment, housing prices or population growth in the Las Vegas area will continue.",
+    "We have continued to experience favorable customer trends, including strong carded slot play and robust visitation and net theoretical win across the majority of our properties. These trends, in combination with our operational discipline and our focus on our core local guests, as well as regional and out of town guests, continued to drive strong operating results in 2025. However, we cannot predict whether these trends will continue, nor can we predict the extent to which the impacts of inflation and interest rate fluctuations may affect our business in the future.",
+    "We use certain key indicators to measure our performance.",
+    "•Slot handle, table game drop and race and sports write are measures of volume. Slot handle represents the dollar amount wagered in slot machines, and table game drop represents the total amount of cash and net markers issued that are deposited in table game drop boxes.",
+    "•Win represents the amount of wagers retained by us.",
+    "•Hold represents win as a percentage of slot handle, table game drop or race and sports write.",
+    "As our customers are primarily Las Vegas residents, our hold percentages are generally consistent from period to period. Fluctuations in our casino revenue are primarily due to the volume and spending levels of customers at our properties.",
+    "•Average guest check is a measure of food sales volume and product offerings at our restaurants, and represents the average amount spent per customer visit.",
+    "•Number of guests served is an indicator of volume."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "導言",
+    "總體經濟條件的影響",
+    "營運策略",
+    "組織架構",
+    "客房與機位 (1)",
+    "拉斯維加斯不動產",
+    "50% 共有不動產",
+    "可開發土地",
+    "{'original': 'Native American Development', 'translated': '原住民發展'}",
+    "{'original': 'Intellectual Property', 'translated': '智慧財產權'}",
+    "{'original': 'Regulation and Licensing', 'translated': '法規與許可證'}"
+   ],
+   "paragraphs": [
+    "Red Rock Resorts, Inc. (\"we,\" \"our,\" \"us,\" \"Red Rock\" or the \"Company\") 為一間控股公司，擁有並管理 Station Casinos LLC (\"Station LLC\")，透過該公司進行所有營運活動。Station LLC 為一間於 1976 年成立的賭場、開發與管理公司，專門開發與經營戰略位置的賭場與娛樂設施。Station LLC 擁有並營運七間主要的賭場與娛樂設施，包括 Durango Casino & Resort (\"Durango\")，以及 13 間較小的賭場（其中三間為 50% 持有）。Durango 於 2023 年 12 月在位於 Interstate 215 與 Durango Drive 交會處的約 50 英畝土地上開幕。",
+    "我們擁有 Station LLC 所有投票權益，並透過擁有 Station Holdco LLC (\"Station Holdco,\" 以及這些權益，\"LLC Units\") 的有限責任權益間接持有 Station LLC 的權益。於 2025 年 12 月 31 日，我們持有 Station Holdco 59% 的經濟權益與 100% 的投票權，受限於某些有限例外，我們被指定為 Station Holdco 與 Station LLC 的唯一管理成員。我們控制並運作 Station Holdco 與 Station LLC 的所有業務與事務。除了稅務相關資產與負債外，我們唯一的資產為我們在 Station Holdco 的權益、在 Station LLC 的投票權益以及來自 Station LLC 的應收票據。我們沒有在 Station Holdco 與 Station LLC 以外的營運活動。",
+    "我們於本年度報告 10-K 第二部分第 8 項所載的「合併財務報表」（\"合併財務報表\"）中，已合併 Station LLC 及其合併子公司與 Station Holdco。我們未擁有 LLC Units 的財務狀況與營運成果已分別列為非控制權益。",
+    "我們的賭場設施位於拉斯維加斯谷地各處，為客戶提供廣泛的娛樂與餐飲選擇。超過 90% 的拉斯維加斯人口距離我們的賭場設施僅五英里內。我們提供親切的服務與優質的價值，營造舒適的環境。我們相信我們在提供賭場遊客最新且最流行的 slot 與 video 遊戲，並採用最新科技方面，超越競爭對手。我們也相信我們為客戶提供的高品質娛樂體驗，使我們與競爭對手有所區別。",
+    "我們的大多數主要設施均為擴建計畫，使我們能根據需求逐步擴充設施。我們也控制拉斯維加斯的六處高度受歡迎的賭場開發用地。",
+    "我們的主要收入與營運收入來源為賭場業務。我們的非賭場業務包括餐廳、酒店及其他娛樂設施。我們約 80% 的賭場收入來自 slot 遊戲。我們的大多數收入為現金收入。因此，我們收入的波動會直接影響我們的營運現金流。由於我們的業務為資本密集型，我們嚴重依賴我們的設施產生營運現金流，以償還融資債務並資助資本支出。",
+    "本公司主要營運總部位於南帕維利安中心大樓 1505 號，內華達州拉斯維加斯市 89135。本公司營運總部電話為 (702) 495-3000。本公司維護網站於 www.redrockresorts.com，該網站內容 expressly 不經參考納入本申報文件。",
+    "我們業務的很大一部分取決於居住或工作於拉斯維加斯都會區的客戶。拉斯維加斯都會區人口持續成長，2025 年成長率為 1.6%。截至 2025 年 12 月，拉斯維加斯都會區的失業率為 5.2%，較 2024 年 12 月的 5.9% 以及 2023 年 12 月的 5.3% 下降。州內，2025 年 12 月的失業率為 5.2%，較 2024 年 12 月的 5.7% 以及 2023 年 12 月的 5.4% 下降。根據拉斯維加斯房地產經紀協會的資料，截至 2025 年 12 月 31 日，拉斯維加斯現有單戶住宅的中位數價格為 470,000 美元，較 2024 年 12 月 31 日下降 1.1%。考慮到持續的經濟不確定性，由通貨膨脹、利率上升、增加的國際與區域不確定性與衝突，以及當前政府對規範與監督的態度所驅動，預測拉斯維加斯地區的失業率、人口成長與房價趨勢是否會持續，困難度很高。",
+    "本公司資產持續 experiencing 良好客戶趨勢於 2025 年，包括強勁的卡式機遊戲及強勁的造訪人數與淨理論獲利，於本公司資產的大多數地區。這些趨勢，配合本公司運營的紀律及對核心本地客羣，以及區域性及外地客羣的關注，持續推動本公司強勁的運營成果。然而，本公司無法預測這些趨勢是否會持續，亦無法預測通貨膨脹及其他經濟不確定性對美國及拉斯維加斯經濟的影響程度，可能對本公司未來業務的影響。",
+    "本公司主要運營策略強調吸引及留住客戶，主要為拉斯維加斯居民，其次為外地旅客。本公司資產透過以下方式吸引客戶：",
+    "{'original': 'Our primary operating strategy emphasizes attracting and retaining customers, primarily Las Vegas residents and, to a lesser extent, out-of-town visitors. Our properties attract customers through:', 'translated': '本公司主要營運策略著重於吸引及留住客戶，主要為拉斯維加斯居民，且在較小程度上為外地旅客。本公司各項資產透過以下方式吸引客戶：'}",
+    "•便利的地理位置與最佳等級的資產；•為客戶提供最新款的.slot與視訊撲克機技術；",
+    "•多樣化的非賭博設施，例如飯店度假村、餐廳、酒吧與娛樂選擇；",
+    "•針對廣泛客戶資料庫的集中行銷努力；•創新且頻繁的促銷活動；"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "本公司重要績效指標",
+    "營運成果",
+    "截至12月31日年度",
+    "2025 2024 百分比",
+    "調整後營業利益",
+    "淨收入",
+    "淨收入 $ 355,670 $ 291,292",
+    "調整後營業利益 $ 848,591 $ 795,900",
+    "{'translatedText': '持有公司財務資訊'}",
+    "{'translatedText': '財務狀況、資本資源與流動性'}",
+    "{'translatedText': '提供（使用於）淨現金：'}",
+    "{'translatedText': '限制性約束條款'}",
+    "{'translatedText': '表外安排'}",
+    "{'translatedText': '原住民發展'}",
+    "{'translatedText': '法規與稅務'}",
+    "{'translatedText': '關鍵會計政策與會計估計'}"
+   ],
+   "paragraphs": [
+    "以下討論與分析應與本年度10-K財務報表中包含於第8項「財務報表與補充資料」內之合併財務報表及其附註一併閱讀。",
+    "Red Rock 於2015年在特拉華州成立為一家公司，用以擁有並管理 Station Casinos LLC（\"Station LLC\"），一家位於內華達州的有限責任公司。Station LLC 是一家於1976年成立的賭場、開發與管理公司，擁有並營運七家主要賭場與娛樂設施以及13家較小的賭場（其中三家為50%擁有），位於拉斯維加斯地區市場。截至2025年12月31日，我們在拉斯維加斯市場提供16,553臺賭機、328桌賭遊戲以及2,734間飯店客房。",
+    "我們擁有Station LLC所有投票權益，並透過擁有Station Holdco（\"LLC Units\"）的有限責任公司權益間接擁有Station LLC的權益，而Station Holdco擁有Station LLC所有經濟權益。截至2025年12月31日，我們持有Station Holdco 59%的經濟權益與100%的投票權，受限於某些例外情況，我們被指定為Station Holdco與Station LLC的唯一管理成員。我們控制並運作Station Holdco與Station LLC的所有業務與事務，並透過這些實體進行所有營運。除了與所得稅及稅收應收協議相關的資產與負債外，我們唯一的重大資產為對Station Holdco的權益、對Station LLC的投票權益以及來自Station LLC的應收款。",
+    "我們的合併財務報表反映Station LLC及其合併子公司以及Station Holdco的合併情況。我們未擁有LLC Units的財務狀況與營運結果以非控制權益方式單獨列示。",
+    "我們的主要收入與營運收入來自賭場業務。我們的非賭場業務包括餐廳、飯店及其他娛樂設施。我們約80%的賭場收入來自賭機遊戲。我們的大部分收入為現金為基礎，因此收入的波動會直接影響我們的營運現金流。由於我們的業務為資本密集型，並使用債務來資助許多資本投資，我們依賴我們的設施產生營運現金流以償還債務融資並資助資本支出。",
+    "我們業務的很大一部分依賴於居住或工作於拉斯維加斯都會區的顧客。截至2025年12月，拉斯維加斯都會區的失業率為5.2%，較2024年12月的5.9%下降。州內，2025年12月的失業率為5.2%，較2024年12月的5.7%下降。根據拉斯維加斯房地產經紀協會資料，截至2025年12月31日，拉斯維加斯現有單戶住宅的中位數價格為470,000美元，較2024年12月31日下降1.1%。此外，拉斯維加斯都會區人口持續成長，2025年較前一年成長1.6%。考慮到來自通貨膨脹、較高利率、增加的國際與區域衝突以及當前政府對監管環境與機構的看法所產生的經濟展望不確定性，我們無法預測拉斯維加斯地區失業率、住宅價格或人口成長趨勢是否會持續。",
+    "我們持續觀察到有利的顧客趨勢，包括強勁的賭機遊戲參與度與訪客人數及淨理論獲利在大多數我們的設施中表現良好。這些趨勢，加上我們的運營紀律與對我們核心本地顧客以及區域與外地顧客的關注，持續推動我們在2025年的強勁營運結果。然而，我們無法預測這些趨勢是否會持續，也無法預測通貨膨脹與利率波動對我們業務未來的影響程度。",
+    "我們使用某些關鍵指標來衡量我們的表現。",
+    "•Slot handle、table game drop 以及 race and sports write 是衡量營業額的指標。Slot handle 代表在 slot machines 進行賭注的金額總和，而 table game drop 代表存入 table game drop boxes 的現金與淨標籤總額。",
+    "•Win 代表我們所保留的賭注金額。",
+    "•Hold 代表 win 為 slot handle、table game drop 或 race and sports write 的百分比。",
+    "由於我們的客戶主要為拉斯維加斯居民，因此我們的 hold 百分比通常會在各會計期間保持一致。我們賭場營收的變動，主要取決於客戶在我們場地的消費量與消費水平。",
+    "•Average guest check 是衡量我們餐廳食品銷售量與產品種類的指標，並代表每位顧客造訪時的平均消費金額。",
+    "•Number of guests served 是衡量營業額的指標。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "業務、經濟、市場與營運風險",
+    "我們依賴拉斯維加斯地區市場的居民及重複遊客，這使我們面臨較遊戲公司更具多樣化營運更高的風險。",
+    "我們的業務對消費者情緒及非必要性開支的變化非常敏感。",
+    "我們在遊戲產業面臨著激烈的競爭，我們預期這種競爭將會更加激烈。",
+    "我們的成功取決於關鍵高階主管及員工，以及我們吸引並留住員工的能力。",
+    "我們可能在現有或未來的建設專案中遭遇延誤及預算超支。任何這樣的延誤或成本超支可能對我們的營運結果產生重大不利影響。",
+    "我們可能追求新的遊戲收購及開發機會，但可能無法回收投資或成功擴展至更多地點。",
+    "我們需要大量資金來支應資本支出、追求預期的開發、擴張或收購機會，或重新融資我們的債務。",
+    "我們可能無法成功簽訂額外的管理或開發協議，以拓展原住民賭場機會。",
+    "工會組織活動可能透過 discouraging patrons 從訪問我們的場地，造成勞資爭議或停工，並可能顯著增加我們的勞動成本。",
+    "停工、勞資問題及未預期的停機可能限制我們的運營彈性，並對我們未來的利潤產生負面影響。",
+    "賭機製造業或其他科技條件的集中與演進，可能對我們產生額外成本。",
+    "國際、國家、州、區域及地方監管機構對溫室氣體排放的加強管制，可能對我們的業務、財務狀況、營運結果及現金流產生重大影響。",
+    "資源並使我們面臨額外風險，可能對我們的聲譽、客戶吸引與留存、資金取得及員工招募與留存產生負面影響。",
+    "我們可能因 goodwill、無限期無形資產或長壽命資產的減損，而對營運結果產生負面影響。",
+    "若無法保護我們的商標，可能對我們的品牌價值產生負面影響，並對業務產生不利影響。",
+    "能源或水資源的短缺或價格上漲可能會對我們的業務及營運成果產生不利影響。",
+    "我們的博弈業務獲標率取決於許多因素，其中一些因素超出我們的控制範圍，且我們的博弈客戶所獲得的獲利可能高於我們賭場的獲利。",
+    "我們面臨詐欺及作弊的風險。",
+    "與我們負債相關的風險",
+    "我們擁有相當程度的負債，這可能會對我們的財務狀況及未來取得融資的能力，以及對應業務變動的能力產生重大不利影響。",
+    "儘管我們目前的負債水準，我們與我們的子公司仍可能產生重大額外負債，這可能會增加與我們重大負債相關的風險。",
+    "我們可能無法產生足夠現金以償還所有負債，並可能被迫採取其他行動以履行我們的負債義務，而這些行動可能無法成功。",
+    "與我們組織結構及運作相關的風險",
+    "{'original': 'Our Principal Equityholders have control over our management and affairs, and their interests may differ from our interests or those of our other stockholders.', 'translated': '本公司主要股東控制本公司之管理及業務，其利益可能與本公司或其它股東之利益不同。'}"
+   ],
+   "paragraphs": [
+    "下列風險因素應與本年度10-K表報表中所包含的其他資訊一併謹慎考量。本年度10-K表報表包含前瞻性陳述，這些陳述涉及風險與不確定性。上述任何風險與不確定性都可能導致我們實際結果與前瞻性陳述所預期的結果有重大差異。下列風險因素說明我們認為對我們業務、財務狀況、資產、營運及股東權益具重要性的風險。若上述任何風險實際發生，將可能對我們的業務、財務狀況及營運結果造成重大且不利的影響。下列所描述的風險並非我們唯一面臨的風險。目前我們尚未知悉或認為不重要的其他風險，也可能對我們的業務造成不利影響。",
+    "下列所討論的任何因素或本報告其他部分所提及的因素，或這些因素的累積影響，都可能導致我們財務及其他營運結果出現顯著波動。這種變動性與不可預測性可能導致我們未能達成投資人對特定期間我們收入或其他營運結果的預期。若我們未能達成或超越這些預期，或因任何其他原因而未能達成，我們普通股的市場價格可能會下跌。",
+    "我們所有的賭場設施皆依賴吸引拉斯維加斯居民及外地旅客。由於我們業務集中於拉斯維加斯地區市場，因此我們面臨的風險較我們在拉斯維加斯谷以外地區營運時為多。這些風險包括以下內容：",
+    "•地方經濟與競爭條件；",
+    "•地方及州政府法律與規範的變更，包括賭博法律與規範；",
+    "•汽油價格上漲，可能使旅客減少造訪我們的設施；以及"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

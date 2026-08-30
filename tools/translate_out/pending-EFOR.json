@@ -1,0 +1,207 @@
+{
+ "ticker": "EFOR",
+ "cik": "0000890564",
+ "accession": "0000890564-26-000013",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Overview and History",
+    "Commercial Segment",
+    "Federal Government Segment",
+    "Industry and Market Dynamics",
+    "Professional Experience",
+    "Human Capital",
+    "Government Regulation",
+    "Available Information and Access to Reports"
+   ],
+   "paragraphs": [
+    "ASGN Incorporated (\"ASGN,\" \"our\", \"we,\" or \"us\") is a leading provider of information technology (IT) solutions to the commercial and government sectors. In November 2025, ASGN announced its intent to rebrand to Everforth, a new parent brand that will unify our six brands — Apex Systems, Creative Circle, CyberCoders, ECS, GlideFast, and TopBloc — under a single identity. Everforth is a leading technology and digital engineering company with six core solution areas: (i) Cloud and Infrastructure, (ii) Data and AI, (iii) Software Development and Engineering, (iv) Customer Experience, (v) Cybersecurity, and (vi) Enterprise Platforms. Through proprietary assets, accelerators, and proven expertise, Everforth delivers measurable outcomes that help organizations adapt, innovate, and thrive.",
+    "Our Company operates through two segments, Commercial and Federal Government, and across six industries, which together promote balance, strength, and resiliency throughout economic cycles. The transition from ASGN to Everforth is slated for the first half of 2026.",
+    "Our Company has grown through a combination of organic growth and strategic acquisitions. Over the last five years, we completed six acquisitions which align with our strategy to offer higher-end, higher-value IT consulting solutions and digital engineering capabilities. We have built a sizable consulting platform, with 62 percent of our 2025 consolidated revenues in a combination of commercial and federal government IT consulting work.",
+    "Our clients set rigorous requirements for expertise, technological proficiency, and solutions capabilities. Their expectations have increased as we've evolved our business. To meet their requirements, we leverage a deep talent pool of professionals that has been expertly built over decades. This enables us to differentiate our Company in the marketplace, by quickly identifying and building tailored, just-in-time teams for our clients.",
+    "We support clients across a diverse set of industries. No client, other than the U.S. federal government, represented more than 10 percent of consolidated revenues in 2025. Revenues from contracts directly with several U.S. federal government agencies in which our Federal Government Segment is a prime contractor combined were 26 percent of consolidated revenues in 2025.",
+    "ASGN was incorporated in 1992. Our principal office is located at 4400 Cox Road, Suite 110, Glen Allen, Virginia 23060, and our telephone number is (888) 482-8068.",
+    "Our Commercial Segment (70 percent of 2025 consolidated revenues) provides IT solutions to Fortune 1000 and large mid-market clients across six harmonized solutions areas: (i) Cloud and Infrastructure, (ii) Data and AI, (iii) Software Development and Engineering, (iv) Customer Experience, (v) Cybersecurity, and (vi) Enterprise Platforms; and five industries: (i) Financial Services, (ii) Consumer and Industrial, (iii) Technology, Media and Telecom (\"TMT\"), (iv) Healthcare, and (v) Business and Government Services.",
+    "Our business heritage is providing our clients with experienced IT and creative digital marketing professionals for project engagements. These roots as a premier IT staffing provider differentiate how we go to market. As aforementioned, by leveraging our deep talent pool, we can quickly build custom-fit teams for our clients incorporating the latest technology skillsets. Building on our staffing foundation, we have cultivated enduring, trusted relationships with enterprise clients and established a significant presence within their organizations.",
+    "Over the past six years, we have strategically refined our focus and broadened our service portfolio to encompass high-value, high-margin consulting solutions that enable us to effectively address the evolving and increasingly complex needs of our client base. Our subject matter experts deliver solutions that are tailored for specific industries and customer environments, meeting business challenges at greater speed and with more accuracy and precision than ever before. By harnessing proprietary assets and accelerators and leveraging our technology alliance partner ecosystem to co-sell, co-develop, and co-deliver our solutions capabilities, we are driving greater revenue opportunities and actively building our pipeline of new business. The Commercial Segment provides services under time-and-materials and fixed-price contracts.",
+    "Corporate support activities for this segment are primarily based in Richmond, Virginia, with offices across the United States, Canada, and Europe. In addition, we have two near-shore delivery centers in Mexico and maintain a growing delivery center in India.",
+    "Consulting — Our business focus and growth strategy lies in providing our clients with higher value IT consulting services. A byproduct of our decades-long, trusted client relationships over the years, our customers have increasingly engaged us in higher-value consulting contracts. Consulting contracts leverage the same talent pool as our assignment work but offer higher margin opportunities and increased revenue visibility.",
+    "Assignment — Our business heritage is in providing our clients with experienced IT and creative digital marketing billable professionals for temporary assignments and project engagements. Our billable professionals have knowledge and experience in specialized technical and creative digital marketing services that make them qualified to fill a given assignment or project.",
+    "Our Federal Government Segment (30 percent of 2025 consolidated revenues) delivers advanced solutions in data and AI, cybersecurity, software and engineering, and enterprise platforms to some of the world's leading agencies in the public and private sectors. These solutions capabilities are geared towards IT modernization of the federal government as well as promoting efficiency and security for our federal customer base. Our team of skilled experts tackles highly complex challenges for customers in defense, intelligence, and national security. We maintain relationships with leading cloud, cybersecurity, and AI/ML providers and hold specialized certifications in these technologies. We have approximately 1,000 cybersecurity consultants, of which approximately 500 have security clearances, along with an additional 900 AI and data professionals with security clearances. We also hold over 1,400 certifications.",
+    "The Federal Government Segment provides services under time-and-materials, cost reimbursable, and firm-fixed-price contracts. Contracts range from approximately three to five years in length, providing longer-term revenue visibility and countercyclical support throughout market cycles. We have contract backlog of $2.9 billion as of December 31, 2025, which represents the estimated amount of future revenues to be recognized under awarded contracts including task orders and options."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Profitability and Operational Risks",
+    "If we are unable to attract and retain qualified IT, creative digital, and engineering professionals, our business could be adversely affected.",
+    "Our future performance depends on the Company's effective execution of our business strategy.",
+    "We outsource certain aspects of our business operations, which could result in disruption, unexpected increased costs, and reputational risk.",
+    "Our results of operations could be adversely affected if we cannot successfully keep pace with technological changes in the development and implementation of our services.",
+    "We may not successfully make or integrate acquisitions, which could harm our business and growth.",
+    "An impairment in the carrying amount of goodwill and other intangible assets could require a write-down that materially and adversely affects our results of operations and net worth.",
+    "Failure to comply with the terms of our debt agreements could affect our operating flexibility.",
+    "U.S. and global market and economic developments could adversely affect our business, financial condition, and results of operations.",
+    "Natural disasters, the effects of climate change, pandemics, and other events beyond our control could harm our business.",
+    "Our sustainability commitments and disclosures may expose us to reputational risks and legal liability.",
+    "Risks Related to Government Contracts",
+    "We may not realize the full value of our Federal Government Segment contract backlog, which may result in lower revenues than anticipated.",
+    "We derive significant revenues from contracts and task orders awarded through a competitive bidding process. Our revenues and profitability may be adversely impacted if we fail to compete effectively in such processes.",
+    "Our earnings and profitability may vary based on the mix of our contracts and may be adversely affected by our failure to accurately estimate and manage costs, time, and resources.",
+    "A significant loss or suspension of our facility or employee security clearances with the federal government could lead to a reduction in our revenues, cash flows, and operating results.",
+    "Legal and Regulatory Risks",
+    "Our business may be materially affected by changes to fiscal and tax policies that could adversely affect our results of operations and cash flows.",
+    "We are subject to various business and regulatory risks associated with international operations, which could increase our costs, cause our results of operations to fluctuate, and adversely affect our business.",
+    "General Risks",
+    "The loss of key members of our senior management team, as well as failure to develop the next generation of future leaders, could adversely affect the execution of our business strategy and our financial results.",
+    "Failure of internal controls may leave us susceptible to errors and fraud.",
+    "The trading price of our common stock has experienced significant volatility.",
+    "Provisions in our corporate documents and Delaware law may delay or prevent a change in control that our stockholders consider favorable."
+   ],
+   "paragraphs": [
+    "Our business is subject to various risks, including, but not limited to those described below, any of which could adversely affect our results of operations and financial condition, and as a result, could cause a decline in the trading price of our common stock.",
+    "If we are not able to remain competitive in obtaining and retaining clients, our future growth will suffer. Many of our agreements may be terminated by clients at will and the termination of a significant number of such agreements would adversely affect our revenues and results of operations.",
+    "The IT industry is highly competitive and fragmented with limited barriers to entry. We compete in national, regional, and local markets with professional services firms, traditional consulting agencies, and specialized boutique industry or solutions-focused businesses. The success of our business depends upon our ability to continually secure new contracts and organize custom fit teams to meet our clients' needs.",
+    "Most of our agreements with clients do not provide for exclusive use of our services, and many of our agreements may be terminated at will. As such, clients are free to place orders with our competitors. If clients terminate a significant number of agreements or do not use us for future IT solutions support, we may be unable to generate new work to replace lost revenues. The growth of our business could be adversely affected, and our revenues and results of operations could be harmed. Specifically with regard to our longer-term consulting contracts, clients may reduce, delay, or cancel bookings. This may cause expected revenues to be lower, to be realized in a later period, or not at all. In addition, if we are not able to comply with performance requirements laid out in the consultant contract, our revenues and client relationships may be adversely affected. It is therefore imperative to our continued growth that we maintain positive relationships with our clients.",
+    "To the extent that competitors seek to gain or retain market share by reducing prices or increasing marketing expenditures, we could lose revenues and our margins could decline, which could harm our operating results and cause the trading price of our stock to decline. We expect competition for clients to increase in the future, and the success and growth of our business depends on our ability to remain competitive. In addition, we participate in a number of third-party contracts as a subcontractor and that requires us to participate in vendor management contracts, which may subject us to greater risks or lower margins.",
+    "Our business is substantially dependent upon our ability to attract and retain professionals who possess the skills, experience, advanced degrees, certifications, licenses, and clearances which may be required to meet the specified IT requirements of our clients. We compete for these professionals with other professional services and consulting companies, government contractors, and our clients and potential clients. There can be no assurance that qualified professionals will be available to us in adequate numbers to staff our temporary assignments or client projects. Moreover, the employment of our contingent professionals is terminable at will and they are often hired to become regular employees of our clients. Attracting and retaining professionals depends on several factors, including our ability to provide these professionals with desirable opportunities and competitive wages and benefits. The cost of attracting and retaining professionals may be higher than we anticipate if there is an increase in competitive wages and benefits and, as a result, if we are unable to pass these costs on to our clients, our likelihood of achieving or maintaining profitability could decline. In periods of low unemployment, there may be a shortage of, and significant competition for, the skilled professionals sought by our clients. If we are unable to attract and retain a sufficient number of professionals to meet client demand, we may be required to forgo revenue opportunities, which may hurt the growth of our business. In periods of high unemployment, due to a large pool of available candidates, clients are able to directly hire and recruit qualified candidates without the involvement of our services."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Critical Accounting Policies and Estimates",
+    "Gross Profit and Gross Margin",
+    "Selling, General, and Administrative Expenses",
+    "Amortization of Intangible Assets",
+    "Interest Expense, Net",
+    "Provision for Income Taxes",
+    "Commercial Segment - Consulting Metrics",
+    "Federal Government Segment Metrics",
+    "Liquidity and Capital Resources",
+    "Commitments and Contingencies — The following table sets forth, on an aggregate basis, the amounts of specified contractual cash obligations required to be paid in the future periods (in millions):",
+    "Off-Balance Sheet Arrangements",
+    "Accounting Standards Updates"
+   ],
+   "paragraphs": [
+    "The following discussion should be read in conjunction with the other sections of this 2025 10-K, including the Special Note on Forward-Looking Statements and Part I, Item 1A. Risk Factors.",
+    "ASGN provides IT solutions across the commercial and government sectors. ASGN operates through two segments, Commercial and Federal Government. The Commercial Segment, which is the largest segment, provides consulting, creative digital marketing, and permanent placement services primarily to Fortune 1000 and large mid-market companies. The Federal Government Segment provides advanced IT solutions in data and AI, cybersecurity, and enterprise transformation to some of the world's leading agencies in the public and private sectors. Virtually all of the Company's revenues are generated in the United States.",
+    "Our financial statements are prepared in conformity with accounting principles generally accepted in the United States (\"GAAP\"), which require us to make certain assumptions and related estimates affecting the amounts reported in the consolidated financial statements. Actual results could differ from those estimates.",
+    "Critical accounting policies are those we believe are both most important to the portrayal of our financial condition and results and require our most difficult, subjective or complex judgments, often because we must make estimates about matters that are inherently uncertain. Judgments and uncertainties affecting the application of those policies may result in materially different amounts being reported under different conditions or using different assumptions. We believe the accounting policies and estimates most critical in understanding the judgments involved in preparing our financial statements are goodwill and acquired intangible assets.",
+    "Recognition of Goodwill and Acquired Intangible Assets — Determining the fair value of goodwill and intangible assets requires management's judgment, the use of significant estimates and assumptions and, in some cases, the utilization of independent valuation experts. The most critical assumptions utilized in this determination are the future cash flow estimates associated with the acquired businesses, as well as discount rates and royalty rates applied to those cash flow estimates.",
+    "Recoverability of Goodwill and Trademarks — Goodwill and trademarks are evaluated for impairment annually on October 31st, or more frequently if an event occurs or circumstances change, including but not limited to, a significant decrease in expected revenues or cash flows;",
+    "an adverse change in the business environment, regulatory environment or legal factors; or a substantial sustained decline in the market capitalization of our stock. Goodwill is tested at the reporting unit level, which is generally an operating segment or one level below the operating segment level, where a business operates and for which discrete financial information is available and reviewed by segment management. The Company's only identifiable indefinite-lived intangible assets are its trademarks.",
+    "When evaluating goodwill and trademarks for impairment, the Company may first perform a qualitative assessment to determine whether it is more likely than not that there has been an impairment. A qualitative assessment takes into consideration (i) macroeconomic, industry and market conditions; (ii) cost factors; (iii) overall financial performance compared with prior projections, including changes in assumptions since the last quantitative assessment; (iv) future performance and projections; (v) the excess of fair value over carrying value as of the most recent quantitative assessment performed; and (vi) other relevant entity-specific events. The decision to perform a qualitative assessment in a given year is influenced by a number of factors including the significance of the excess of the estimated fair value over carrying amount at the last quantitative assessment date and the amount of time between quantitative fair value assessments. If the Company decides not to perform a qualitative assessment, or if it determines that it is more likely than not that the carrying amount of goodwill or trademarks exceeds their fair value, a quantitative assessment is performed to determine the estimated fair value of the reporting unit or trademark.",
+    "To estimate the fair value of a reporting unit, quantitative analysis would generally include a combination of a discounted cash flow (\"DCF\") model and a market approach. Key inputs to the DCF model would include (i) future revenues; (ii) earnings before interest, taxes, depreciation and amortization; and (iii) the weighted average cost of capital discount rate. As a result of a quantitative assessment, if the carrying amount exceeds the estimated fair value, an impairment charge would be recorded to reduce the carrying amount of goodwill.",
+    "To estimate the fair value of a trademark, quantitative analysis would generally include, an income approach, specifically a relief-from-royalty method. As a result of a quantitative assessment, if the carrying amount exceeds the estimated fair value, an impairment charge would be recorded to reduce the carrying amount of the trademark.",
+    "For the 2025 impairment test of goodwill and trademarks, the Company performed a qualitative assessment and determined there were no indicators of impairment and it was more likely than not that the fair value of its two reporting units, Commercial and Federal Government, and its trademarks, exceeded their respective carrying amounts.",
+    "RESULTS OF OPERATIONS FOR THE YEAR ENDED DECEMBER 31, 2025 COMPARED WITH THE YEAR ENDED DECEMBER 31, 2024",
+    "In this section, we discuss the results of our operations for the year ended December 31, 2025 compared with the year ended December 31, 2024. For a discussion of the year ended December 31, 2024 compared with the year ended December 31, 2023, please refer to Part II, Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations in our Annual Report on Form 10-K for the year ended December 31, 2024.",
+    "Revenues for the year were $4.0 billion, down 2.9 percent year-over-year. The table below shows our revenues by segment (in millions)."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Overview and History': '概述與歷史'}",
+    "{'Commercial Segment': '商業應報告分部'}",
+    "{'Federal Government Segment': '聯邦政府應報告分部'}",
+    "{'Industry and Market Dynamics': '產業與市場動態'}",
+    "{'Professional Experience': '專業經驗'}",
+    "{'Human Capital': '人力資本'}",
+    "{'Government Regulation': '政府規範'}",
+    "{'Available Information and Access to Reports': '可取得資訊與報告存取方式'}"
+   ],
+   "paragraphs": [
+    "ASGN Incorporated (\"ASGN,\" \"our,\" \"we,\" or \"us\") 為商業及政府部門提供資訊科技 (IT) 解決方案。2025 年 11 月，ASGN 宣佈有意重新品牌為 Everforth，一個新的母公司品牌，將我們的六個品牌 —— Apex Systems、Creative Circle、CyberCoders、ECS、GlideFast 以及 TopBloc —— 統一於一個品牌之下。Everforth 為一間領先的科技與數位工程公司，擁有六大核心解決方案領域：(i) 雲端與基礎建設、(ii) 資料與人工智慧、(iii) 軟體開發與工程、(iv) 用戶體驗、(v) 資訊安全、以及 (vi) 企業平台。透過專屬資產、加速器與經過驗證的專業知識，Everforth 提供可衡量的成果，協助組織適應變革、創新並持續成長。",
+    "本公司透過兩個應報告分部 —— 商業與聯邦政府 —— 並橫跨六大產業，共同促進經濟週期中的平衡、強度與韌性。從 ASGN 轉型為 Everforth 的計畫預計於 2026 年第一季進行。",
+    "本公司透過內生成長與戰略收購雙軌方式實現成長。過去五年，我們完成了六次收購，這些收購符合我們提供高階、高價值 IT 諮詢解決方案與數位工程能力的策略。我們已建立一個規模不小的諮詢平台，2025 年合併營收中，有 62% 來自商業與聯邦政府的 IT 諮詢工作。",
+    "我們的客戶對專業知識、科技熟練度與解決方案能力設定了嚴格的標準。隨著我們業務的演進，客戶的期待也持續提高。為符合這些要求，我們運用經過數十年精心培養的專業人才庫。這使我們能在市場中區隔本公司，迅速識別並建立符合客戶需求、即時組建的團隊。",
+    "我們支援來自多樣產業的客戶。除了美國聯邦政府外，2025 年沒有任何單一客戶佔有合併營收超過 10%。與我們聯邦政府分部為主要承包商的幾個美國聯邦政府機構直接簽訂的契約營收，合計佔 2025 年合併營收的 26%。",
+    "ASGN 於 1992 年成立。本公司主要辦公室位於 Virginia 23060 的 4400 Cox Road, Suite 110, Glen Allen，電話號碼為 (888) 482-8068。",
+    "我們的商業分部 (2025 年合併營收的 70%) 向財富 1000 大企業與大型中型市場客戶提供 IT 解決方案，橫跨六大統合解決方案領域：(i) 雲端與基礎建設、(ii) 資料與人工智慧、(iii) 軟體開發與工程、(iv) 用戶體驗、(v) 資訊安全、以及 (vi) 企業平台；並涵蓋五大產業：(i) 金融服務、(ii) 消費者與工業、(iii) 科技、媒體與電信 (\"TMT\"), (iv) 醫療、以及 (v) 企業與政府服務。",
+    "我們的業務根基在於為客戶提供經驗豐富的 IT 與創意數位行銷專業人才進行專案合作。這些作為首屈一指 IT 人力派遣服務商的根柢，使我們在市場中擁有獨特的行銷方式。如前所述，透過運用我們深具規模的人才庫，我們能迅速為客戶組建符合需求的團隊，並融入最新科技技能。在這基礎之上，我們已與企業客戶建立長久且值得信賴的關係，並在他們組織中建立起顯著的影響力。",
+    "近六年來，我們已戰略性地調整重點，並擴展服務項目，以涵蓋高價值、高毛利率的諮詢解決方案，使我們能有效應對客戶日益複雜的變動需求。我們的主題專家提供針對特定產業與客戶環境的解決方案，以更快的速度與更高的準確度與精確度解決業務挑戰。透過運用專屬資產與加速器，並善用我們的科技合作夥伴生態系統進行共售、共開發與共交付解決方案，我們正推動更高的營收機會，並積極建立新業務的管道。商業應報告分部提供服務，採用時間與物料計費及固定價格合約。",
+    "此應報告分部的企業支援活動主要位於維吉尼亞州里奇蒙，並在美國、加拿大與歐洲設有辦事處。此外，我們在墨西哥設有兩個近岸交付中心，並在印度維持一個持續成長的交付中心。",
+    "諮詢 — 我們的業務重點與成長策略在於為客戶提供更高價值的資訊科技諮詢服務。這是我們多年來與客戶建立信任關係的結果，客戶近年來 increasingly 透過高價值的諮詢合約與我們合作。諮詢合約運用與我們專案工作相同的專業人才池，但提供更高的毛利率機會與更高的營收可見度。",
+    "專案派遣 — 我們的業務傳統在於為客戶提供具經驗的資訊科技與創意數位行銷可計費專業人才，用於臨時派遣與專案合作。我們的可計費專業人才具備專門的技術與創意數位行銷知識與經驗，使其具備填補特定專案或工作的資格。",
+    "我們的聯邦政府應報告分部（佔 2025 年合併營收的 30%）為世界各主要機構（包括公部門與私部門）提供資料與人工智慧、網路安全、軟體與工程以及企業平台的先進解決方案。這些解決方案專注於聯邦政府的資訊科技現代化，以及提升聯邦客戶的效率與安全性。我們的專業團隊處理客戶在防禦、情報與國家安全領域的極高複雜挑戰。我們與領先的雲端、網路安全與人工智慧/機器學習供應商維持關係，並持有這些技術的專門認證。我們約有 1,000 名網路安全顧問，其中約 500 人擁有安全清潔，另加 900 名人工智慧與資料專業人才擁有安全清潔。我們也持有超過 1,400 種認證。",
+    "聯邦政府應報告分部提供服務，採用時間與物料計費、成本可償還及固定價格合約。合約長度約為三至五年，提供較長的營收可見度與市場週期中的反週期支持。我們截至 2025 年 12 月 31 日的合約待履行金額為 2.9 十億美元，代表根據已獲批准的合約（包括任務訂單與選項）預計將認列的未來營收金額。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "重要會計政策與會計估計",
+    "毛利與毛利率",
+    "銷售、一般及行政費用",
+    "無形資產攤銷",
+    "淨利息費用",
+    "所得稅費用",
+    "商業分部 - 諮詢指標",
+    "聯邦政府分部指標",
+    "流動性及資金來源",
+    "承諾及或有事項 — 以下表格以總計方式列示，未來各期間應支付之指定契約現金義務金額（單位為百萬美元）：",
+    "表外安排",
+    "會計準則更新"
+   ],
+   "paragraphs": [
+    "下列討論應與本 2025 年 10-K 的其他部分一併閱讀，包括特別說明未來展望聲明及第一部分，第 1A 項。風險因素。",
+    "ASGN 提供資訊科技解決方案，服務商業與政府部門。ASGN 透過兩個應報告分部運作，為商業與聯邦政府。商業分部為最大的分部，主要為財富 1000 大企業及大型中型市場公司提供諮詢、創意數位行銷及永久僱用服務。聯邦政府分部為公私部門的一些世界領先機構提供先進的資訊科技解決方案，包括資料與人工智慧、網路安全及企業轉型。本公司幾乎所有的營業收入均來自美國。",
+    "我們的財務報表係依照美國通用會計準則（\"GAAP\"）編製，此準則要求我們做出某些假設與相關估計，影響合併財務報表中所報導的金額。實際結果可能與這些估計不同。",
+    "關鍵會計政策為我們認為對財務狀況與結果之呈現最重要，且需要我們做出最困難、主觀或複雜判斷的政策，通常因為我們必須對內在不確定性的事項做出估計。影響這些政策應用的判斷與不確定性，可能導致在不同條件或使用不同假設下報導出顯著不同的金額。我們認為在理解準備財務報表所涉及的判斷時，最重要的會計政策與估計為商譽與取得的無形資產。",
+    "商譽與取得無形資產之確認——確認商譽與無形資產的公允價值需要管理階層的判斷、使用重大估計與假設，並在某些情況下，使用獨立評估專家。此確認過程中使用最關鍵的假設為取得企業的未來現金流估計，以及應用於這些現金流估計的折現率與特許權使用費率。",
+    "商譽與商標之可收回性——商譽與商標每年於 10 月 31 日評估減損，或在發生事件或情況變更時更頻繁評估，包括但不限於預期收入或現金流顯著減少；",
+    "商業環境、法規環境或法律因素的不利變動；或本公司股票市場總值顯著持續下跌。商譽係在報告單位層級進行測試，該層級通常為運作分部或運作分部層級之下一層，企業運作並可取得與審閱的獨立財務資訊。本公司的唯一可辨識無限期存續無形資產為其商標。",
+    "在評估商譽與商標是否減損時，本公司可能首先進行定性評估，以判斷是否更可能發生減損。定性評估考量的因素包括（i）總體經濟、產業與市場條件；（ii）成本因素；（iii）整體財務表現與先前預測的比較，包括自上次定量評估以來的假設變動；（iv）未來表現與預測；（v）最近一次定量評估時公平價值高於帳面價值的差額；以及（vi）其他相關企業特定事件。在特定年度進行定性評估的決定會受到多種因素影響，包括上次定量評估時預估公平價值高於帳面價值的差額重要性，以及兩次定量公平價值評估之間的時間間隔。若本公司決定不進行定性評估，或判斷帳面價值高於公平價值的可能性較高，則進行定量評估以確定報告單位或商標的預估公平價值。",
+    "為估計報表單位的公允價值，通常會進行定量分析，包含折現現金流（\"DCF\"）模型與市場法的組合。DCF 模型的關鍵輸入變數包括 (i) 未來營業收入；(ii) 利息、稅項、折舊及 amortization 之前的獲利；以及 (iii) 加權平均資本成本折現率。根據定量評估結果，若帳面價值高於預估公允價值，將記錄減損費用以減少商譽的帳面價值。",
+    "為估計商標的公允價值，通常會進行定量分析，包含收益法，特別是 royalty 節省法。根據定量評估結果，若帳面價值高於預估公允價值，將記錄減損費用以減少商標的帳面價值。",
+    "針對 2025 年的商譽及商標減損測試，本公司進行了定性評估，並確認無減損跡象，且其兩應報告分部 Commercial 與 Federal Government，以及其商標的公允價值，較其 respective 帳面價值為高。",
+    "2025 年度營運成果與 2024 年度比較",
+    "本節我們討論 2025 年度本公司營運成果與 2024 年度的比較。有關 2024 年度與 2023 年度的比較，請參閱我們 2024 年度年報 10-K 表單中 Part II, Item 7. 管理層對財務狀況與營運成果的討論與分析。",
+    "2025 年度營業收入為 4.0 十億美元，較 2024 年度年減 2.9%。下表顯示我們各應報告分部的營業收入（單位為百萬美元）。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "利潤率與營運風險",
+    "若我們無法吸引並留住合資格的資訊科技、創意數位及工程專業人才，將可能對我們的業務造成不利影響。",
+    "我們未來的表現取決於本公司有效執行我們的業務策略。",
+    "我們委外部分業務運作，這可能會導致中斷、意外增加的成本及聲譽風險。",
+    "若我們無法成功跟上服務開發與實施中的技術變革，將可能對我們的營運結果造成不利影響。",
+    "我們可能無法成功進行併購或整合併購，這可能會損害我們的業務與成長。",
+    "商譽及其他無形資產的帳面價值減損，可能需要進行減記，這將對我們的營運結果與淨資產造成重大且不利的影響。",
+    "未能遵守我們債務協議的條款，可能會影響我們的營運彈性。",
+    "美國與全球市場及經濟發展可能對本公司業務、財務狀況及營運成果產生不利影響。",
+    "天然災害、氣候變遷的影響、疫情及其他超出本公司控制範圍的事件可能對本公司業務造成損害。",
+    "本公司對永續發展的承諾與揭露可能使其面臨聲譽風險及法律責任。",
+    "與政府契約相關的風險",
+    "本公司可能無法實現聯邦政府部門契約積累的訂單價值，這可能導致實際收入低於預期。",
+    "本公司來自透過競爭性招標程序授予的契約及任務訂單的收入相當重要。若本公司未能在這些招標程序中有效競爭，其收入與獲利能力可能受到不利影響。",
+    "本公司獲利與獲利能力可能因契約組成結構而有所不同，並可能因本公司未能準確預估及管理成本、時間與資源而受到不利影響。",
+    "本公司若遭遇重要設施或員工安全清潔證書的重大損失或中止，可能導致收入、現金流及營運成果減少。",
+    "法律及法規風險",
+    "本公司業務可能因財政及稅務政策的變更而受到重大影響，此等變更可能不利於本公司營運成果及現金流。",
+    "本公司受國際營運相關商業及法規風險影響，可能增加本公司成本、導致營運成果波動，並對本公司業務造成不利影響。",
+    "一般風險",
+    "本公司高階管理層關鍵成員的離職，以及未能培育未來領導人才，可能對本公司業務策略的執行及財務結果造成不利影響。",
+    "內部控制機制失效可能使本公司易受錯誤及詐欺之影響。",
+    "本公司普通股之交易價格曾經歷顯著波動。",
+    "本公司章程條款及德國法規可能延宕或阻止股東認為有利之控制權變更。"
+   ],
+   "paragraphs": [
+    "本公司業務面臨多種風險，包括但不限於下列所列風險，任何一項都可能不利於本公司營運成果與財務狀況，進而導致本公司普通股交易價格下跌。",
+    "若本公司無法在取得與留住客戶方面保持競爭力，將會影響未來的成長。許多與客戶的協議可能被客戶隨時終止，若終止大量此類協議，將不利於本公司收入與營運成果。",
+    "資訊科技產業競爭激烈且分散，進入門檻有限。本公司在國家、區域與地方市場與專業服務公司、傳統諮詢機構及專門行業或解決方案導向的中小型公司競爭。本公司業務的成功取決於本公司持續取得新契約並組建符合客戶需求的客製化團隊之能力。",
+    "與大多數客戶的協議並未提供本公司服務的獨佔使用權，且許多協議可能被客戶隨時終止。因此，客戶可自由將訂單交給本公司競爭對手。若客戶終止大量協議或未來未使用本公司資訊科技解決方案支援服務，本公司可能無法產生足夠的新業務以取代流失的收入。本公司業務的成長可能受到不利影響，且收入與營運成果可能受損。特別針對本公司較長期的諮詢契約，客戶可能減少、延後或取消預訂。這可能導致預期收入較低、實現時間較晚，甚至無法實現。此外，若本公司無法符合諮詢契約中所規定的績效要求，將可能影響本公司收入與客戶關係。因此，維持與客戶的良好關係對本公司持續成長至關重要。",
+    "若競爭對手透過降低價格或增加行銷支出來爭取或維持市場佔有率，本公司可能失去收入，且毛利率可能下降，這可能損害本公司營運成果，並導致本公司股票交易價格下跌。本公司預期未來客戶競爭將更加激烈，本公司業務的成功與成長取決於本公司維持競爭力之能力。此外，本公司參與多數第三方契約作為分包商，這要求本公司參與供應商管理契約，這可能使本公司面臨更高風險或更低毛利率。",
+    "本公司業務嚴重依賴本公司吸引與留住具備所需技能、經驗、高階學位、認證、執照與 clearance 的專業人才之能力，這些人才可能是為了符合客戶指定的資訊科技需求所必需。本公司與其他專業服務與諮詢公司、政府承包商以及客戶與潛在客戶競爭這些專業人才。無法保證本公司能獲得足夠數量的合格專業人才以支援臨時任務或客戶專案。此外，本公司臨時專業人才的僱用為隨時可終止，他們常被聘為客戶的正式員工。吸引與留住專業人才取決於多種因素，包括本公司能否為這些專業人才提供有吸引力的機會與具競爭力的薪資與福利。若競爭性薪資與福利增加，吸引與留住專業人才的成本可能高於預期，因此若本公司無法將這些成本轉嫁給客戶，本公司實現或維持獲利的機率可能下降。在失業率低的時期，可能出現技能型專業人才短缺，且對這些人才的競爭激烈。若本公司無法吸引與留住足夠的專業人才以滿足客戶需求，本公司可能被迫放棄收入機會，這可能影響本公司業務的成長。在失業率高的時期，由於可提供的人才眾多，客戶可直接聘僱與招募合格人才，而無需透過本公司服務。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,156 @@
+{
+ "ticker": "OSPN",
+ "cik": "0001044777",
+ "accession": "0001044777-26-000008",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Industry Background",
+    "Cybersecurity Market Trends",
+    "Digital Agreements Market Trends",
+    "Our Opportunity",
+    "Our Products and Services Portfolio",
+    "Cybersecurity",
+    "Digital Agreements",
+    "Intellectual Property and Proprietary Rights and Licenses",
+    "Research and Development",
+    "Sales and Marketing",
+    "Customers and Markets",
+    "Financial Information Relating to Foreign and Domestic Operations",
+    "Government Regulation",
+    "Human Capital",
+    "Corporate Information",
+    "Available Information",
+    "Information about our Executive Officers"
+   ],
+   "paragraphs": [
+    "OneSpan helps organizations build secure, seamless, and trusted digital experiences through two solution portfolios: Cybersecurity and Digital Agreements. Our cybersecurity solutions protect identities, secure mobile apps, and safeguard access through advanced high-assurance authentication, threat intelligence, fraud prevention, and robust mobile app protection, defending users, devices, and applications against sophisticated attacks. Our digital agreement solutions streamline agreement workflows with secure e-signatures, identity verification, and smart digital forms, built to enable speed, compliance and exceptional customer experiences. Trusted by leading global enterprises, including more than 60% of the world's 100 largest banks, OneSpan processes over 100 million digital agreements and billions of secure authentication transactions across more than 120 countries each year.",
+    "We offer our products primarily through a subscription licensing model and provide multiple deployment options, including cloud-based and on-premises solutions. Our solutions are sold worldwide through our direct sales force, as well as through distributors, resellers, systems integrators, and original equipment manufacturers.",
+    "We report our financial results under the following two business divisions, which are our reportable operating segments: Cybersecurity and Digital Agreements.",
+    "•Cybersecurity. Cybersecurity, formerly Security Solutions, consists of our broad portfolio of software products, software development kits (\"SDKs\") and Digipass authenticator devices that are used to build applications designed to defend against attacks on digital transactions across online environments, devices, and applications. The software products and SDKs included in the Cybersecurity segment are delivered through on-premises and cloud-based deployment models and include standards-based authentication technologies such as Fast Identity Online (\"FIDO\") authentication and passkeys, multi-factor authentication, transaction signing solutions and mobile application security.",
+    "•Digital Agreements. Digital Agreements consists of solutions that enable our clients to secure and automate business processes associated with their digital agreement and customer transaction lifecycles that require consent, non-repudiation and compliance. These solutions, which are cloud-based, include OneSpan Sign e-signature, OneSpan Notary, and OneSpan Identity Verification.",
+    "Beginning in mid-2023 and through the third quarter of 2024, our focus was on adjusting our cost structure to enable both business divisions to operate profitably. These cost optimization efforts were a major factor in the overall business returning to operating profitability in the fourth quarter of 2023. The subsequent increase in profitability, combined with high levels of cash generation, enabled us to return approximately $31.6 million to shareholders in 2025 in the form of quarterly dividends and share repurchases. Beginning in the fourth quarter of 2024 and continuing through 2025, we continued to operate profitably while taking a number of important steps to generate future revenue growth:",
+    "•In December 2024, we hired a new Chief Technology Officer, Ashish Jain, to lead our research and development efforts.",
+    "•In June 2025, we acquired Nok Nok Labs, Inc. (\"Nok Nok Labs\"), a provider of passwordless software authentication solutions, which brought S3, a leading FIDO software product, to our portfolio. This acquisition provides OneSpan's customers with a wider range of flexible, adaptable authentication options. See Note 6, Business Acquisitions, for additional information.",
+    "•In June 2025, we entered into a $100.0 million credit agreement (the \"Credit Agreement\") with MUFG Bank, Ltd (\"MUFG\") and other lenders party thereto. The Credit Agreement provides for a $100.0 million revolving credit facility with a $10.0 million letter of credit sublimit and a $10.0 million swingline loan sublimit. The proceeds of borrowings under the Credit Agreement may be used for general corporate purposes. We may borrow, repay and reborrow funds under the revolving credit facility until its maturity on June 23, 2030. See Note 12, Debt, for additional information.",
+    "•In October 2025, we announced a strategic investment in, and partnership with, ThreatFabric Holding B.V., a Dutch company that provides mobile threat intelligence, malware risk detection, and behavioral analytics, to further enhance the value we offer to our customers. See Note 2, Summary of Significant Accounting Policies, for additional information.",
+    "•In December 2025, we hired a new Chief Revenue Officer, Shaun Bierweiler, to lead our go-to-market efforts, and to drive growth and customer success.",
+    "•Later in December 2025, we entered into a definitive agreement to acquire Build38 GmbH (\"Build38\"), a leader in next-generation mobile application protection solutions, to extend our investment in advanced mobile security technologies. See Note 6, Business Acquisitions, for additional information.",
+    "Our efforts to broaden and strengthen our product offerings are driven in part by a secular shift away from physical authentication devices such as our Digipass tokens. Because consumers increasingly interact with their banks through their mobile devices rather than desktop computers, they are more likely to prefer authentication methods that enable secure, convenient access to mobile banking apps without the need for a physical device. In response to this trend, our bank and financial institution customers have increasingly adopted a \"mobile first\" approach to consumer authentication that prioritizes the mobile user experience over traditional desktop experiences. This approach has resulted in a reduction of Digipass hardware authenticator sales and an increase in sales of software authentication licenses delivered through software applications on mobile devices. Due largely to the mobile first trend, our revenue from Digipass devices declined from 78% of our revenue in 2015 to 20% of our revenue in 2025. Although we plan to continue to invest in our Digipass authenticators, including our newer FIDO2 Digipass devices, as an important component of our broad authentication solution portfolio, we are focused on driving revenue growth in higher–margin software solutions, both through further expansion of our Cybersecurity software solutions and through continued growth in our Digital Agreements division.",
+    "While the continued shift toward cloud-delivered experiences and the rapid adoption of artificial intelligence (\"AI\") technologies across industries have accelerated digital engagement, they have also expanded the threat landscape for organizations, their customers, and their employees. People, applications, and the digital records associated with business interactions, transactions, and agreements have become major targets for cyberattacks and fraud. As organizations digitize critical workflows, the security, integrity, and enforceability of these interactions have become increasingly essential to business operations."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Summary",
+    "Risks Related to our Business and Industry",
+    "We may encounter challenges in achieving our revenue growth objectives.",
+    "Acquisitions or other strategic transactions, such as our planned acquisition of Build38, may not achieve the intended benefits and could disrupt our operations.",
+    "A significant portion of our sales are to a limited number of customers. The loss of substantial sales to any one of them could have an adverse effect on revenues and profits.",
+    "The markets we serve are highly competitive, which may negatively affect our ability to add new customers, retain existing customers and grow our business.",
+    "If we are not able to enhance our brand recognition and maintain our brand reputation, our business may be adversely affected.",
+    "Security breaches or cyberattacks could expose us to significant liability, cause our business and reputation to suffer and harm our competitive position.",
+    "We face a number of risks associated with our international operations, any or all of which could result in a disruption in our business and a decrease in our revenue.",
+    "The sales cycle for our products is often long, and we may incur substantial expenses for sales that do not occur when anticipated or at all.",
+    "Real or perceived malfunctions and errors in our products could result in warranty and product liability risks and economic and reputational damages.",
+    "If we are unable to retain key employees and successfully hire and train qualified new employees, we may be unable to achieve our business objectives.",
+    "We may be unable to maintain or increase our level of profitability.",
+    "Our success depends in part on establishing and maintaining relationships with other companies to distribute our technology and products or to incorporate their technology into our products and services, or vice versa.",
+    "SaaS offerings, which involve various risks, constitute an important part of our business.",
+    "Failure to maintain high-quality customer support could have a material adverse effect on our business.",
+    "Failure to effectively manage our product and service lifecycles could harm our business.",
+    "We are subject to foreign currency exchange rate fluctuations, which could adversely affect our financial condition and results of operations.",
+    "Consolidations, failures and other developments in the banking and financial services industry may adversely impact our revenue.",
+    "U.S. trade policy or foreign policy developments could have a material adverse impact on our business.",
+    "If our goodwill or intangible assets become impaired, we may be required to record a significant charge to earnings.",
+    "The revenue recognition treatment of SaaS subscriptions and term subscription licenses for on-premises software may make it more challenging to accurately assess our operating results and the condition of our business."
+   ],
+   "paragraphs": [
+    "Our business is subject to numerous risks and uncertainties, including those highlighted in the section titled \"Risk Factors\" immediately following this Risk Factors Summary. These summary risks provide an overview of many of the risks we are exposed to in the normal course of our business, some of which have manifested and any of which may occur in the future. As a result, the following summary risks do not contain all of the information that may be important to you, and you should read them together with the more detailed discussion of risks set forth following this section under the heading \"Risk Factors,\" and with the other information in this Annual Report on Form 10-K. Additional risks beyond those summary risks discussed below, in \"Risk Factors\" or elsewhere in this Annual Report on Form 10-K, could have an adverse effect on our business, results of operations, financial condition or prospects, and could cause the trading price of our common stock to decline. Our business, results of operations, financial condition or prospects could also be harmed by risks and uncertainties not currently known to us or that we currently do not believe are material. Consistent with the foregoing, we are exposed to a variety of risks, including the following significant risks:",
+    "•We may encounter challenges in achieving our revenue growth objectives.",
+    "•Acquisitions or other strategic transactions, such as our planned acquisition of Build38, may not achieve the intended benefits and could disrupt our operations.",
+    "•If our new product offerings and product enhancements do not keep pace with the needs of our customers or do not achieve sufficient customer acceptance, our competitive position and financial results will be negatively impacted.",
+    "•A significant portion of our sales are to a limited number of customers. The loss of substantial sales to any one of them could have an adverse effect on revenues and profits.",
+    "•The markets we serve are highly competitive, which may negatively affect our ability to add new customers, retain existing customers and grow our business."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'original': 'Industry Background'}",
+    "{'original': 'Cybersecurity Market Trends'}",
+    "{'original': 'Digital Agreements Market Trends'}",
+    "{'original': 'Our Opportunity'}",
+    "{'original': 'Our Products and Services Portfolio'}",
+    "{'original': 'Cybersecurity'}",
+    "{'original': 'Digital Agreements'}",
+    "{'original': 'Intellectual Property and Proprietary Rights and Licenses'}",
+    "{'translated_text': '研究與發展'}",
+    "{'translated_text': '銷售與行銷'}",
+    "{'translated_text': '客戶與市場'}",
+    "{'translated_text': '與海外及國內營運相關之財務資訊'}",
+    "{'translated_text': '政府管制'}",
+    "{'translated_text': '人力資本'}",
+    "{'translated_text': '公司資訊'}",
+    "{'translated_text': '可取得資訊'}",
+    "{'translated_text': '有關我們高階主管的資訊'}"
+   ],
+   "paragraphs": [
+    "OneSpan 幫助機構透過兩個解決方案組合，建立安全、順暢且值得信賴的數位體驗：網路安全與數位協議。我們的網路安全解決方案保護身分、確保行動應用程式安全，並透過先進的高可信度驗證、威脅智慧、詐欺防範及強固的行動應用程式保護，防禦用戶、裝置及應用程式對複雜攻擊的威脅。我們的數位協議解決方案透過安全的電子簽名、身分驗證及智慧數位表單，簡化協議流程，建構於速度、合規性及卓越的客戶體驗。OneSpan 被全球領導企業所信賴，包括全球百大銀行中超過 60%，OneSpan 每年處理超過 100 百萬份數位協議，以及數十億筆安全驗證交易，遍及超過 120 個國家。",
+    "我們主要透過訂閱授權模式提供產品，並提供多種部署選項，包括雲端與內部部署解決方案。我們的解決方案透過我們的直營銷售團隊，以及經銷商、經銷商、系統整合商與原始設備製造商在全球銷售。",
+    "我們根據以下兩大業務部門報告財務結果，這也是我們的應報告分部：網路安全與數位協議。",
+    "•網路安全。網路安全， formerly Security Solutions，包含我們廣泛的軟體產品、軟體開發套件（\"SDKs\"）及 Digipass 驗證裝置，用於建立應用程式，以防禦對線上環境、裝置與應用程式的數位交易攻擊。網路安全分部包含的軟體產品與 SDKs 透過內部部署與雲端部署模式提供，並包含基準標準的驗證技術，例如 Fast Identity Online（\"FIDO\"）驗證與 passkeys、多因素驗證、交易簽名解決方案與行動應用程式安全。",
+    "•數位協議。數位協議包含解決方案，使客戶能夠安全自動化與其數位協議及客戶交易生命週期相關的業務流程，這些流程需要同意、不可否認性與合規性。這些解決方案為雲端解決方案，包含 OneSpan Sign 電子簽名、OneSpan Notary 及 OneSpan 身分驗證。",
+    "自2023年中開始，至2024年第三季為止，我們的重點在於調整成本結構，以使兩大業務部門都能夠營運獲利。這些成本優化措施是2023年第四季整體業務恢復營運獲利的主要因素。隨後的獲利增加，加上高水準的現金產生能力，使我們在2025年以季度股息及股票回購的方式，回饋約31.6 百萬美元給股東。自2024年第四季開始，並持續至2025年，我們繼續營運獲利，同時也採取了若干重要的步驟以產生未來的營收成長：",
+    "•2024 年 12 月，我們聘請了新的首席技術官 Ashish Jain，領導我們的研究與發展工作。",
+    "•2025 年 6 月，我們收購了 Nok Nok Labs, Inc.（\"Nok Nok Labs\"），一家提供無密碼軟體驗證解決方案的公司，這使得 S3，一款領先的 FIDO 軟體產品，加入我們的產品組合。此收購為 OneSpan 的客戶提供更廣的靈活、可調整的驗證選項。請參閱附註 6，業務收購，以取得更多資訊。",
+    "",
+    "•於2025年10月，本公司宣佈對ThreatFabric Holding B.V.進行戰略投資，並與該荷蘭公司建立合作關係，該公司提供行動威脅智慧、惡意軟體風險偵測及行為分析服務，以進一步提升本公司對客戶的價值。有關更多資訊，請參閱附註2，重要會計政策摘要。",
+    "•於2025年12月，本公司聘請新任首席營收長Shaun Bierweiler，負責領導我們的市場推廣工作，並推動成長與客戶成功。",
+    "•2025年12月後期，本公司與Build38 GmbH（\"Build38\"）簽訂最終協議，取得其公司，Build38為次世代行動應用程式保護解決方案的領導者，以拓展本公司在先進行動安全技術的投資。有關更多資訊，請參見第6節，業務收購。",
+    "本公司拓展與強化產品組合的 endeavour，部分是基於從物理認證裝置（如本公司 Digipass 零組件）逐步轉向的長期趨勢。由於消費者越來越透過行動裝置與銀行互動，而非桌面電腦，因此更傾向偏好能提供安全、便利存取行動銀行應用程式的認證方式，而不需使用物理裝置。為回應此趨勢，本公司銀行與金融機構客戶已逐漸採用以行動為首的消費者認證方式，優先考量行動用戶體驗，而非傳統桌面體驗。此方式導致 Digipass 硬體認證器銷售減少，而透過行動裝置上的軟體應用程式提供的軟體認證授權銷售增加。主要由於行動為首的趨勢，本公司來自 Digipass 裝置的收入，從2015年佔營業收入的78%降至2025年佔營業收入的20%。儘管本公司計畫持續投資 Digipass 認證器，包括我們較新的 FIDO2 Digipass 裝置，作為廣泛認證解決方案組合的重要零組件，但我們的重點是推動高毛利率軟體解決方案的收入成長，透過進一步擴展我們的網路安全軟體解決方案，以及持續成長我們的數位協議部門。",
+    "雖然雲端交付體驗的持續轉變，以及人工智慧（\"AI\"）技術在各行業的快速採用，已加速數位互動，但也擴大了組織、其客戶與員工的威脅地圖。人們、應用程式，以及與商業互動、交易與協議相關的數位記錄，已成為網路攻擊與詐欺的主要目標。當組織數位化關鍵作業流程時，這些互動的安全性、完整性與可執行性，對商業運作而言變得越來越重要。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與我們業務及產業相關的風險",
+    "我們可能面臨達成營業收入成長目標的挑戰。",
+    "併購或其他戰略交易，例如我們預計進行的 Build38 併購，可能無法達到預期效益，並可能幹擾我們的營運。",
+    "我們銷售收入的很大一部分來自極少數客戶。若對任何一家客戶的銷售大幅減少，可能對營收與利潤產生負面影響。",
+    "我們所服務的市場競爭激烈，可能對我們增加新客戶、留住現有客戶及拓展業務造成負面影響。",
+    "若我們無法提升品牌認知度並維護品牌聲譽，將可能對我們的業務產生負面影響。",
+    "安全漏洞或網路攻擊可能使我們面臨重大責任，導致我們的業務與聲譽受損，並削弱我們的競爭地位。",
+    "我們面臨與國際業務相關的多項風險，任何一項或所有風險都可能導致業務中斷及營業收入減少。",
+    "我們產品的銷售週期通常較長，我們可能因銷售未如預期或完全無法實現而產生重大費用。",
+    "我們產品若發生實際或被認為的故障與錯誤，可能導致產品保固及產品責任風險，以及經濟與聲譽損害。",
+    "若我們無法留住關鍵員工，並成功招聘與培訓合格的新員工，我們可能無法達成業務目標。",
+    "我們可能無法維持或提高利潤水平。",
+    "我們的成功在部分程度上取決於與其他公司建立並維持關係，以分銷我們的技術與產品，或將其技術整合至我們的產品與服務中，反之亦然。",
+    "涉及多項風險的 SaaS 服務，是我們業務的重要組成部分。",
+    "未能維持高品質的客戶支援，可能對我們業務造成重大不利影響。",
+    "未能有效管理我們的產品與服務生命週期，可能對我們的業務造成損害。",
+    "我們受到外幣匯率波動的影響，這可能會對我們的財務狀況及營運結果產生不利影響。",
+    "銀行與金融服務業的合併、系統故障及其他發展，可能對我們的營收產生不利影響。",
+    "美國貿易政策或外國政策的變化，可能對我們的業務產生重大不利影響。",
+    "若我們的商譽或無形資產發生減值，我們可能需要記錄一筆重大費用至營收。",
+    "SaaS訂閱與本地軟體專案訂閱授權的收入認列方式，可能使我們更難準確評估營運結果及業務狀況。"
+   ],
+   "paragraphs": [
+    "本公司業務面臨許多風險與不確定性，包括後續「風險因素」節中所提及的風險。這些總結性風險提供許多我們在正常營運過程中所面臨的風險概覽，其中一些風險已經發生，任何風險都可能在未來出現。因此，以下總結性風險並未包含所有對您而言可能重要的資訊，您應與後續「風險因素」節中更詳細的風險討論，以及本年度10-K表報表中其他資訊一併閱讀。除了本節下方「風險因素」或本年度10-K表報表中提及的其他風險外，還可能存在其他風險，這些風險可能對本公司業務、營運結果、財務狀況或前景產生負面影響，並可能導致本公司普通股交易價格下跌。本公司業務、營運結果、財務狀況或前景也可能因目前未知或本公司目前認為不具重大影響的風險與不確定性而受到損害。根據上述內容，本公司面臨多種風險，包括以下重大風險：",
+    "•本公司可能面臨達成營收成長目標的挑戰。",
+    "•收購或其它戰略交易，例如本公司預計收購Build38，可能無法達到預期效益，並可能幹擾本公司營運。",
+    "•若本公司新產品方案與產品升級無法跟上客戶需求，或無法獲得足夠客戶接受度，將對本公司競爭地位與財務結果造成負面影響。",
+    "•本公司銷售收入的大部分來自有限數量的客戶。若對任何單一客戶的銷售大幅減少，將對營收與利潤產生負面影響。",
+    "•我們所服務的市場競爭激烈，這可能對本公司增加新客戶、留住現有客戶與拓展業務的能力產生負面影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

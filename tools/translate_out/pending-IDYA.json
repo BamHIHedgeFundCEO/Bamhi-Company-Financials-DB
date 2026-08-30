@@ -1,0 +1,199 @@
+{
+ "ticker": "IDYA",
+ "cik": "0001676725",
+ "accession": "0001193125-26-054533",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Overview",
+    "Pipeline – Overview and Program Goals",
+    "Darovasertib for Uveal Melanoma",
+    "ADC / DDR Combinations",
+    "MTAP Pathway",
+    "Next Generation Therapies",
+    "Our Drug Discovery Engine in Precision Medicine Oncology",
+    "Intellectual Property",
+    "Strategic Relationships",
+    "Clinical Trial Collaboration and Supply Agreements with Pfizer for Darovasertib"
+   ],
+   "paragraphs": [
+    "We are a precision medicine oncology company committed to the discovery, development, and commercialization of transformative therapies for cancer. Our approach integrates expertise in small-molecule drug discovery, structural biology and bioinformatics with robust internal capabilities in identifying and validating translational biomarkers to develop tailored, potentially first-in-class targeted therapies aligned to the genetic drivers of disease. We have built a deep pipeline of product candidates focused on synthetic lethality and antibody-drug conjugates (ADCs) for molecularly defined solid tumor indications. Our clinical development strategy is to evaluate our product candidates in rational combinations, where appropriate, and earlier in the course of disease in the adjuvant and neoadjuvant settings, which we believe has the potential to maximize their impact. Our mission is to bring forth the next wave of precision oncology therapies that are more selective, more effective and deeply personalized with the goal of altering the course of disease and improving clinical outcomes for patients with cancer.",
+    "Our current clinical pipeline consists of nine potential first-in-class product candidates across four clinical focus areas: (1) Darovasertib for Uveal Melanoma; (2) ADC and DNA Damage Response (DDR) Combinations; (3) MTAP Pathway; and (4) Next Generation Therapies. We have selectively established collaborations with leading pharmaceutical companies to support our clinical development activities. Details of our pipeline are summarized in the chart below.",
+    "(1) Pursuant to Pfizer License Agreements (2) Pursuant to Servier License Agreement (3) Pursuant to Hengrui Pharma License Agreement",
+    "(4) Pursuant to Gilead Clinical Study Collaboration and Supply Agreement",
+    "Darovasertib is an oral, potent and selective small molecule inhibitor of protein kinase C (PKC) and our most advanced clinical program. We are developing darovasertib for uveal melanoma (UM), a rare, aggressive form of ocular cancer in which approximately 95% of patients harbor activating mutations in GNAQ/11 GTPase proteins that drive downstream PKC signaling and tumor cell growth. We are conducting multiple clinical trials in the metastatic and pre-metastatic settings of UM, as described below.",
+    "• Metastatic UM (mUM). We are evaluating darovasertib in combination with crizotinib, Pfizer's oral c-MET inhibitor, in a potentially registration-enabling, Phase 2/3 trial (OptimUM-02) for human leukocyte antigen-A*02:01 negative (HLA*A2(-)), patients with first line (1L) mUM. We expect to report topline data, including progression free survival (PFS) data, from this trial in the first quarter of 2026. Based on our discussions with the U.S. Food and Drug Administration (FDA), the PFS data from OptimUM-02 may enable an accelerated approval filing in the United States. Accelerated approval is intended to allow for earlier approval of drugs that treat serious conditions and fill an unmet medical need based on a demonstration of effectiveness on a surrogate endpoint, with the requirement to conduct one or more additional studies to confirm the anticipated clinical benefit to obtain full traditional approval. In December 2025, we completed full enrollment of 437 patients in OptimUM-02, and plan to submit overall survival (OS) data from these patients, when available, to support a full approval filing in this indication.",
+    "In October 2025, we reported positive data at the Society for Melanoma Research Congress (SMR) from our single-arm Phase 2 trial (OptimUM-01) of darovasertib in combination with crizotinib in 1L mUM patients, which included the first median OS data presented with the combination. Data were from a total of 44 1L mUM patients, including both HLA*A2(-) and HLA*A2:01 positive (HLA*A2(+)). Highlights of the data presented are shown below.",
+    "▪ In 41 efficacy-evaluable patients, confirmed objective response rate (ORR) of 34% (14/41) with a 9.0 month median duration of response (mDOR).",
+    "▪ Disease control rate (DCR) of 90% (37/41), with 85% (35/41) achieving ‘any reduction' in target lesions.",
+    "▪ 7.0 month median PFS and 21.1 month median OS across all patients. (1) Khoja L, et al. J Clin Oncol. 2025;43 (suppl), Abstract 9539",
+    "(2) Rantala ES, et al. Melanoma Res. 2019; 29:561-568",
+    "Based on our data from the Phase 2 OptimUM-01 trial and our understanding of its mechanism of action, we believe darovasertib will have clinical activity in mUM independent of a patient's HLA*A2 serotype. We are continuing to evaluate the combination of darovasertib and crizotinib in HLA*A2(+) patients in the OptimUM-01 trial and expect to complete enrollment of approximately 100 HLA*A2(+) patients by the second quarter of 2026. The data from OptimUM-01 may be used to support a potential future submission to the FDA to expand the labeled use for darovasertib and/or a national comprehensive cancer network (NCCN) compendia listing to enable use of the combination in these patients.",
+    "• Neoadjuvant UM. To explore its potential use beyond metastatic UM, we are also evaluating darovasertib as a monotherapy in the neoadjuvant setting of primary UM, where the goal of treatment is to prevent enucleation (surgical eye removal), preserve vision prior to and post-plaque brachytherapy and potentially delay or prevent progression to metastatic disease. In 2025, we initiated a randomized Phase 3 trial of darovasertib in the neoadjuvant setting (OptimUM-10), which will enroll approximately 450 patients across two cohorts of plaque brachytherapy-eligible (PB) and enucleation-eligible (EN) patients. We plan to complete enrollment in this trial by the first half of 2027.",
+    "In October 2025, we presented positive data at the European Society for Medical Oncology (ESMO) from our randomized, Phase 2 trial (OptimUM-09) of darovasertib in neoadjuvant UM. Data were from 95 patients, including 56 recommended for EN and 39 eligible for PB. Highlights of the data that were presented include:"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Limited Operating History, Financial Condition and Capital Requirements",
+    "Our operating results may fluctuate significantly, which will make our future results difficult to predict and could cause our results to fall below expectations.",
+    "Raising additional capital may cause dilution to our stockholders, restrict our operations or require us to relinquish rights to our technologies.",
+    "Risks Related to Our Business",
+    "Our business is dependent on the successful development of our product candidates, future product candidates, and companion diagnostics for biomarkers associated with our product candidates and future product candidates.",
+    "We may be unable to complete clinical trials and apply for market authorization for any of our product candidates."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. You should carefully consider the risks described below, as well as the other information in this Annual Report on Form 10-K, including our financial statements and the related notes and \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" before deciding whether to invest in our common stock. The occurrence of any of the events or developments described below could harm our business, financial condition, results of operations, growth prospects and stock price. In such an event, the market price of our common stock could decline, and you may lose all or part of your investment. Many of the following risks and uncertainties are, and will be, exacerbated by the ongoing geopolitical conflicts, or banking sector volatility and any worsening of the global business and economic environment as a result. Additional risks and uncertainties not presently known to us or that we currently deem immaterial may also impair our business operations.",
+    "We are a clinical-stage biopharmaceutical company with a limited operating history that has no products approved for commercial sale. We have incurred significant losses since our inception, and we anticipate that we will continue to incur significant losses for the foreseeable future, which, together with our limited operating history, makes it difficult to assess our future viability.",
+    "Biopharmaceutical product development is a highly speculative undertaking and involves a substantial degree of risk. We are an early-stage biopharmaceutical company, and we have only a limited operating history upon which you can evaluate our business and prospects. We currently have no products approved for commercial sale, have not generated any revenue from sales of products and have incurred losses in each year since our inception in June 2015. In addition, we have limited experience as a company and have not yet demonstrated an ability to successfully overcome many of the risks and uncertainties frequently encountered by companies in new and rapidly evolving fields, particularly in the biopharmaceutical industry. Nine of our product candidates, are currently in the clinical stage in various phases.",
+    "We have had significant operating losses since our inception. Our net losses for the twelve months ended December 31, 2025 and 2024 were $113.7 million and $274.5 million, respectively. As of December 31, 2025, we had an accumulated deficit of $736.5 million. Substantially all of our losses have resulted from expenses incurred in connection with our research and development programs and from general and administrative costs associated with our operations. One of our product candidates is in late-phase clinical trials, one product candidate is in mid-phase clinical trial, and six product candidates are in early-stage clinical trials. We have multiple other product candidates in preclinical development, as well as early-stage research programs. With the exception of darovaserib for one indication, our product candidates will require substantial additional development time and resources before we will be able to apply for or receive regulatory approvals. If approved, all our products will require substantial additional time and resources to begin generating revenue from product sales. Furthermore, we expect to continue to incur additional costs associated with operating as a public company. We also do not yet have a sales organization and are continuing to build out our commercial infrastructure and, accordingly, we will incur significant expenses to develop a sales organization and build out our commercial infrastructure in advance of regulatory approval and generating any commercial product sales. We expect to continue to incur losses for the foreseeable future, and we anticipate these losses will increase as we continue to develop our product candidates and any future product candidates, conduct clinical trials and pursue research and development activities. Even if we achieve profitability in the future, we may not be able to sustain profitability in subsequent periods. Our prior losses, combined with expected future losses, have had and will continue to have an adverse effect on our stockholders' deficit and working capital.",
+    "Our quarterly and annual operating results may fluctuate significantly, which will make it difficult for us to predict our future results. These fluctuations may occur due to a variety of factors, many of which are outside of our control and may be difficult to predict, including:",
+    "• the timing and cost of, and level of investment in, research, technologies, acquisitions, development and commercialization activities, which may change from time to time;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Darovasertib for Uveal Melanoma",
+    "Antibody-Drug Conjugates (ADC) / DNA Damage Response (DDR) Combinations",
+    "MTAP Pathway",
+    "Next Generation Therapies",
+    "Corporate Update",
+    "Components of Operating Results",
+    "Collaboration Revenues",
+    "Operating Expenses",
+    "Year Ended December 31,",
+    "Other Income",
+    "Results of Operations",
+    "Comparison of the Years Ended December 31, 2025 and December 31, 2024",
+    "Liquidity and Capital Resources; Plan of Operations",
+    "Sources of Liquidity",
+    "Prospectus Supplement - At-the-Market Facility",
+    "2024 July Public Offering and Sale of IDEAYA Common Stock",
+    "Material Cash Requirements",
+    "Off-Balance Sheet Arrangements",
+    "Summary Statement of Cash Flows",
+    "Cash Flows from Operating Activities",
+    "Cash Flows from Investing Activities",
+    "Cash Flows from Financing Activities",
+    "Critical Accounting Policies and Estimates",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our financial statements and related notes appearing elsewhere in this Annual Report on Form 10-K. Some of the information contained in this discussion and analysis or set forth elsewhere in this Annual Report on Form 10-K, including information with respect to our plans and strategy for our business, includes forward-looking statements that involve risks and uncertainties. As a result of many factors, including those factors set forth in the \"Risk Factors\" section of this Annual Report on Form 10-K, our actual results could differ materially from the results described, in or implied, by these forward-looking statements. Please also see the section of this Annual Report on Form 10-K titled \"Note Regarding Forward-Looking Statements.\"",
+    "We are a precision medicine oncology company committed to the discovery, development and commercialization of transformative therapies for cancer. Our approach integrates expertise in small-molecule drug discovery, structural biology and bioinformatics with robust internal capabilities in identifying and validating translational biomarkers to develop tailored, potentially first-in-class targeted therapies aligned to the genetic drivers of disease. We have built a deep pipeline of product candidates focused on synthetic lethality and antibody-drug conjugates (ADCs), for molecularly defined solid tumor indications. Our clinical development strategy is to evaluate our product candidates in rational combinations, where appropriate, and earlier in the course of disease in the adjuvant and neoadjuvant settings, which we believe has the potential to maximize their impact. Our mission is to bring forth the next wave of precision oncology therapies that are more selective, more effective, and deeply personalized with the goal of altering the course of disease and improving clinical outcomes for patients with cancer.",
+    "Our current clinical pipeline consists of nine potential first-in-class product candidates across four clinical focus areas, as described below.",
+    "Darovasertib is an oral, potent and selective small molecule inhibitor of protein kinase C (PKC) and our most advanced clinical program. We are developing darovasertib for uveal melanoma (UM), a rare, aggressive form of ocular cancer in both the metastatic and pre-metastatic settings of UM, as described below.",
+    "• Metastatic UM (mUM). We are evaluating darovasertib in combination with crizotinib, Pfizer's oral c-MET inhibitor, in a potentially registration-enabling, Phase 2/3 trial (OptimUM-02) for human leukocyte antigen-A*02:01 negative (HLA*A2(-)), patients with first line (1L) mUM. We expect to report topline data, including progression free survival (PFS) data, from this trial in the first quarter of 2026. The data from OptimUM-02 may enable an accelerated approval filing in the United States. In December 2025, we completed full enrollment of 437 patients in OptimUM-02, and plan to submit overall survival (OS) data from these patients, when available, to support a full approval filing in this indication.",
+    "We are also evaluating the combination of darovasertib and crizotinib in HLA*A2:01 positive (HLA*A2(+)), mUM patients in our ongoing, single-arm Phase 2 OptimUM-01 trial. We expect to complete enrollment of approximately 100 patients in this trial by the second quarter of 2026 with data used to support a potential future submission to the FDA to expand the labeled use for darovasertib and/or a national comprehensive cancer network (NCCN) compendia listing to enable use of the combination in these patients.",
+    "• Neoadjuvant UM. We are also evaluating darovasertib as a monotherapy in the neoadjuvant setting of primary UM, where the goal of treatment is to prevent enucleation (surgical eye removal), preserve vision prior to and post-plaque brachytherapy and potentially delay or prevent progression to metastatic disease. In 2025, we initiated a randomized Phase 3 trial of darovasertib in the neoadjuvant setting (OptimUM-10), which will enroll approximately 450 patients across two cohorts of plaque brachytherapy-eligible (PB) and enucleation-eligible (EN) patients. We plan to complete enrollment in this trial by the first half of 2027.",
+    "• Adjuvant UM. We plan to initiate a global Phase 3 combination trial (OptimUM-11) of darovasertib and crizotinib in the adjuvant setting of primary UM in the first half of 2026. The trial is expected to enroll approximately 450 patients with high to medium-high risk of metastasis, randomized 1:1 to the combination of darovasertib and crizotinib or placebo. The primary endpoint of this trial is relapse-free survival (RFS).",
+    "In August 2025, we entered into an exclusive license agreement with Les Laboratoires Servier (Servier), for the development and commercialization of darovasertib outside of the United States. We received an upfront payment of $210.0 million and are eligible to receive up to $320.0 million in milestone payments, clinical trial cost sharing and clinical trial cost reimbursement, as well as double-digit royalties on net sales in all territories outside of the United States.",
+    "• IDE849 is a potential first-in-class, DLL3 TOP1 ADC being evaluated by our partner, Hengrui Pharma, in a multi-site, open label Phase 1 clinical trial in China in patients with small-cell lung cancer (SCLC) and neuroendocrine carcinomas (NEC). We are currently conducting a global Phase 1 trial of IDE849 in SCLC, with the goal of initiating a monotherapy registrational trial in the second line/refractory setting (2L+) of SCLC and/or NEC by the end of 2026.",
+    "• IDE034 is a potential first-in-class, B7H3/PTK7 bispecific TOP1 ADC. We received investigational new drug (IND) clearance from the FDA in the fourth quarter of 2025 and expect to achieve first-patient-in (FPI) in our Phase 1 dose escalation trial in the first quarter of 2026. Dosing of the first patient with IDE034 will trigger a $5.0 million milestone payment to Biocytogen, pursuant to our Option and License Agreement.",
+    "• IDE161 is a potential first-in-class, oral small molecule poly (ADP-ribose) glycohydrolase (PARG) inhibitor in a Phase 1 dose optimization trial to inform future combination studies with IDE849 and other TOP1-based ADCs where PARG inhibition may synergize with the payload to deepen responses. We plan to initiate a Phase 1 clinical combination trial of IDE161 with IDE849 in SCLC, NEC, and potentially other DLL3-overexpressing solid tumors in the second quarter of 2026. We may also evaluate clinical combinations of IDE161 with IDE034 (B7H3/PTK7) and potentially other TOP1 ADCs in collaboration with third parties.",
+    "• IDE705 is a potential first-in-class, oral small molecule inhibitor of the helicase domain of Pol Theta that had been in a Phase 1 combination trial with niraparib, GSK's small molecule inhibitor of PARP, in patients with BRCA+ or other HRD-positive tumors. In December 2025, GSK notified us of its intention to terminate the Agreement, which will be effective March 9, 2026. We plan to begin preclinical studies evaluating the potential of IDE705 to enhance the efficacy of TOP1 ADCs in solid tumors, as we are doing with IDE161, within our focus area of ADC/DDR combinations.",
+    "• IDE397 is a potential first-in-class, oral small molecule inhibitor of methionine adenosyltransferase 2a (MAT2A), which we are developing for patients with solid tumors with methylthioadenosine phosphorylase (MTAP) gene deletion. We are conducting a Phase 1/2 clinical trial pursuant to a Clinical Study Collaboration and Supply Agreement (CSCSA) with Gilead to evaluate IDE397 in combination with Trodelvy (sacituzumab govitecan-hziy), Gilead's Trop-2 directed TOP1 ADC, in patients with MTAP-deletion urothelial cancer (UC), and non-small cell lung cancer (NSCLC). We are targeting to provide the next clinical data update from the combination trial in UC at a medical conference in 2026."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "公司概觀",
+    "開發管道 – 總體概述與計畫目標",
+    "Darovasertib 用於脈絡膜黑色素瘤",
+    "ADC / DDR 組合療法",
+    "MTAP 途徑",
+    "新一代療法",
+    "我們在精準醫療腫瘤學的藥物發現引擎",
+    "智慧財產權",
+    "戰略合作關係",
+    "與輝瑞公司就 Darovasertib 進行的臨牀試驗合作及供應契約"
+   ],
+   "paragraphs": [
+    "本公司為一間專注於癌症轉變性療法之發現、開發與商業化之精準醫療腫瘤學公司。我們的策略整合小分子藥物發現、結構生物學與生物資訊學之專業知識，並具備強大的內部能力以識別與驗證轉譯性生物標記，從而開發針對疾病遺傳驅動因素之個性化、可能為第一類新藥之標的性療法。我們已建立一個深具潛力之產品候選藥物管道，專注於合成致死與單克隆抗體藥物偶聯物（ADCs）用於分子定義之實體腫瘤適應症。我們的臨牀開發策略為在適當情況下，評估產品候選藥物於合理組閤中，並在疾病發展早期階段進行臨牀試驗，我們認為這有潛力最大化其影響。我們的使命為帶來下一波更為精準、更有效且深度個性化的精準腫瘤學療法，以改變疾病發展軌跡並改善癌症患者的臨牀結果。",
+    "目前我們的臨牀管道包含九種潛在第一類新藥產品候選藥物，分屬四個臨牀重點領域：(1) Darovasertib 用於脈絡膜黑色素瘤；(2) ADC 與 DNA 損傷反應（DDR）組合；(3) MTAP 途徑；以及 (4) 次世代療法。我們已選擇性地與領先的藥品製造公司建立合作關係，以支持我們的臨牀開發活動。我們的管道詳情如下圖所示。",
+    "(1) 依據 Pfizer 授權協議 (2) 依據 Servier 授權協議 (3) 依據 Hengrui 藥品授權協議",
+    "(4) 依據 Gilead 臨牀研究合作與供應協議",
+    "Darovasertib 為一種口服、強效且選擇性之蛋白絲氨酸/蘇氨酸蛋白激酶 C（PKC）小分子抑制劑，為本公司最進展的臨牀計畫。我們正在開發 Darovasertib 用於脈絡膜黑色素瘤（UM），一種罕見且侵襲性強的視網膜癌症，約 95% 的患者攜帶 GNAQ/11 GTP 酶蛋白之活化突變，驅動下游 PKC 信號傳導與腫瘤細胞生長。我們正在進行多項臨牀試驗，評估 Darovasertib 在 UM 之轉移及轉移前階段的應用，如下所述。",
+    "• 轉移性 UM（mUM）。我們正在評估 Darovasertib 與 crizotinib（Pfizer 的口服 c-MET 抑制劑）組合，於一項可能具備註冊資格的 Phase 2/3 試驗（OptimUM-02）中，用於人類白血球抗原-A*02:01 陰性（HLA*A2(-)）之首線（1L）mUM 患者。我們預期在 2026 年第一季報告此試驗的初步數據，包括進展無疾病進展（PFS）數據。根據我們與美國食品藥物管理局（FDA）的討論，OptimUM-02 的 PFS 數據可能允許美國加速批准申請。加速批准旨在允許針對嚴重疾病且填補未滿足醫療需求之藥物，在顯示有效性於替代終點的基礎上，提前批准，但需進行一項或多項追加研究以確認預期的臨牀效益，以取得完整的傳統批准。",
+    "2025 年 10 月，我們在黑色素瘤研究學會大會（SMR）報告了 Darovasertib 與 crizotinib 組合於 1L mUM 患者之單臂 Phase 2 試驗（OptimUM-01）的正面數據，其中包括組合治療的首次中位總生存期（OS）數據。數據來自總計 44 位 1L mUM 患者，包括 HLA*A2(-) 和 HLA*A2:01 正性（HLA*A2(+)）患者。所呈現的數據重點如下。",
+    "▪ 在 41 位有效性評估患者中，確認的客觀反應率（ORR）為 34%（14/41），中位反應持續時間（mDOR）為 9.0 個月。",
+    "▪ 疾病控制率 (DCR) 為 90% (37/41)，其中 85% (35/41) 達成目標病竈之「任何減少」。",
+    "▪ 所有病患之中位無進步存活時間 (PFS) 為 7.0 個月，中位總體存活時間 (OS) 為 21.1 個月。(1) Khoja L, et al. J Clin Oncol. 2025;43 (suppl), Abstract 9539",
+    "(2) Rantala ES, et al. Melanoma Res. 2019; 29:561-568",
+    "根據我們在第二期 OptimUM-01 專案中所取得的資料，以及對其作用機制的瞭解，我們認為 darovasertib 在 mUM 疾病中將具有臨牀活性，與病患的 HLA*A2 血清型無關。我們持續評估 darovasertib 與 crizotinib 組合在 HLA*A2(+) 病患中的應用，並預期在 2026 年第二季前完成約 100 名 HLA*A2(+) 病患的入組。OptimUM-01 專案的資料可能用來支持未來向 FDA 提交擴展 darovasertib 標籤使用範圍的申請，以及國家綜合癌症網路 (NCCN) 資料集的列名，以允許在這些病患中使用組合療法。",
+    "• 新輔助 UM。為探索其在轉移性 UM 以外的潛在應用，我們也正在評估 darovasertib 作為單一療法在原發性 UM 的新輔助治療環境中使用，其治療目標為預防眼球摘除 (手術性眼球移除)，在放射性植入治療前後保留視力，並可能延緩或預防轉移性疾病進展。2025 年，我們啟動了一項在新輔助治療環境中進行的隨機第三期試驗 (OptimUM-10)，將招募約 450 名患者，分為兩組：放射性植入治療合資格 (PB) 和眼球摘除合資格 (EN) 患者。我們預計在 2027 年上半年完成此試驗的入組。",
+    "2025 年 10 月，我們在歐洲醫學腫瘤學會 (ESMO) 會議上發表了我們在新輔助 UM 中進行的隨機第二期試驗 (OptimUM-09) 的正面資料。資料來自 95 名患者，包括 56 名建議進行 EN 的患者和 39 名符合 PB 標準的患者。發表的資料重點包括："
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "Darovasertib 用於脈絡膜黑色素瘤",
+    "單株抗體-藥物偶聯物 (ADC) / DNA 損傷反應 (DDR) 組合",
+    "MTAP 途徑",
+    "次世代療法",
+    "公司最新消息",
+    "營運成果組成項目",
+    "合作收入",
+    "營運費用",
+    "會計年度終了於12月31日",
+    "其他收入",
+    "營運成果",
+    "比較會計年度終了於12月31日, 2025年與12月31日, 2024年",
+    "流動性與資本資源; 營運計畫",
+    "流動性來源",
+    "發行說明書補充 - 隨時發行設施",
+    "2024年7月公開發行與銷售IDEAYA普通股",
+    "重大現金需求",
+    "表外安排",
+    "現金流量摘要",
+    "營運活動現金流量",
+    "投資活動現金流量",
+    "籌資活動現金流量",
+    "關鍵會計政策與會計估計",
+    "近期會計準則宣佈"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運成果的討論與分析，應與本年度10-K表報表中出現的財務報表及相關附註一併閱讀。部分包含於本討論與分析或出現在本年度10-K表報表其他地方的資訊，包括有關我們業務計畫與策略的資訊，包含風險與不確定性之預測性陳述。由於許多因素，包括本年度10-K表報表中「風險因素」部分所列因素，我們實際結果可能與這些預測性陳述所描述或暗示的結果有重大差異。請同時參閱本年度10-K表報表中標題為「預測性陳述說明」的章節。",
+    "本公司為一專注於發現、開發與商業化癌症轉變性療法的精準醫療腫瘤公司。我們的策略整合小分子藥物發現、結構生物學與生物資訊學的專業知識，並具備強大的內部能力，用以識別與驗證轉譯性生物標記，以開發針對疾病遺傳驅動因素的個性化、可能為第一類新藥的標的性療法。我們已建立一個深入的產品候選藥物管道，專注於合成致死與單克隆抗體藥物偶聯物（ADCs），用於分子定義的實體腫瘤適應症。我們的臨牀開發策略是評估產品候選藥物在適當的情況下以理性組合進行，並在疾病早期階段進行評估，包括輔助與新輔助治療設定，我們認為這有潛力最大化其影響。我們的使命是帶來下一波更精準、更有效且深度個性化的精準腫瘤療法，目標是改變疾病進程並改善癌症患者的臨牀結果。",
+    "我們目前的臨牀管道包含九種潛在的第一類新藥候選產品，分屬四個臨牀重點領域，如下所述。",
+    "Darovasertib 是一種口服、強效且選擇性的小分子蛋白絲氨酸/蘇氨酸蛋白酶 C（PKC）抑制劑，為我們最進展中的臨牀計畫。我們正在開發 Darovasertib 用於脈絡膜黑色素瘤（UM），一種罕見且侵襲性強的視網膜癌症，在 UM 的轉移性與轉移前設定中，如下所述。",
+    "• 轉移性 UM（mUM）。我們正在評估 Darovasertib 與 crizotinib（Pfizer 的口服 c-MET 抑製劑）組合，在一項可能具備註冊資格的 Phase 2/3 研究（OptimUM-02）中，用於人類白細胞抗原-A*02:01 陰性（HLA*A2(-)）的第一線（1L）mUM 患者。我們預期在 2026 年第一季報告主要數據，包括進展無惡化生存期（PFS）數據。OptimUM-02 的數據可能使我們能提出美國加速批准申請。2025 年 12 月，我們完成 OptimUM-02 的 437 名患者全數入組，並計畫在數據可用時，提交這些患者的總生存期（OS）數據，以支持此適應症的完整批准申請。",
+    "我們也正在評估 Darovasertib 與 crizotinib 組合在 HLA*A2:01 陽性（HLA*A2(+)) 的 mUM 患者中，於我們進行中的單臂 Phase 2 OptimUM-01 研究。我們預期在 2026 年第二季前完成約 100 名患者的入組，並以這些數據支持未來向 FDA 提出擴展 Darovasertib 標籤使用或國家綜合癌症網路（NCCN）資料集列舉，以使此組合在這些患者中使用。",
+    "• 新輔助 UM。我們也正在評估 Darovasertib 作為單藥在新輔助 UM 設定中，目標是預防眼球摘除（手術性眼球移除），在進行放射性敷貼治療前後保留視力，並可能延緩或預防轉移性疾病進展。2025 年，我們啟動了一項 Darovasertib 在新輔助設定中的隨機 Phase 3 研究（OptimUM-10），將入組約 450 名患者，分為兩組放射性敷貼治療合資格（PB）與眼球摘除合資格（EN）患者。我們計畫在 2027 年第一季前完成此研究的入組。",
+    "• 輔助 UM。我們計畫在 2026 年第一季啟動一項全球 Phase 3 組合研究（OptimUM-11）於輔助 UM 設定中，評估 Darovasertib 與 crizotinib 組合。此研究預計入組約 450 名高至中高風險轉移的患者，隨機 1:1 分配至 Darovasertib 與 crizotinib 組合或安慰劑。此研究的主要終點為無復發生存期（RFS）。",
+    "2025年8月，本公司與Les Laboratoires Servier（Servier）簽訂獨家授權協議，用以開發與商業化darovasertib於美國以外的市場。本公司已收到一筆 upfront payment 美金2億1千萬元，並有資格獲得最高美金3億2千萬元的里程碑付款、臨牀試驗費用分擔與臨牀試驗費用補償，以及於美國以外所有市場的淨銷售額雙位數 royalty。",
+    "• IDE849為一種潛在的第一類、DLL3 TOP1 ADC，由本公司合作夥伴Hengrui Pharma於中國進行多中心、開放標籤的Phase 1臨牀試驗，用於治療小細胞肺癌（SCLC）及神經內分泌癌（NEC）患者。本公司目前正進行IDE849於SCLC的全球Phase 1臨牀試驗，目標是在2026年底啟動單藥註冊試驗，用於SCLC及/或NEC的第二線/難治性（2L+）設定。",
+    "• IDE034 是一種潛在的第一個上市、B7H3/PTK7 雙特異性 TOP1 ADC。我們在 2025 年第四季獲得美國食品藥物管理局（FDA）的 Investigational New Drug (IND) 清單，預期在 2026 年第一季達成首例患者入組（First Patient In，FPI）於 Phase 1 劑量遞增試驗。以 IDE034 開始對首名患者給藥，將觸發 5.0 百萬美元的里程碑付款給 Biocytogen，依據我們的選項與授權協議。",
+    "• IDE161為一種潛在的第一類、口服小分子聚（ADP-核糖）糖基水解酶（PARG）抑制劑，目前處於Phase 1劑量優化試驗階段，以用於未來與IDE849及其他TOP1基質ADC的組合研究，其中PARG抑制可能與載體產生協同作用，以加深治療反應。本公司預計在2026年第二季啟動IDE161與IDE849的Phase 1臨牀組合試驗，用於SCLC、NEC及潛在其他DLL3過度表現的實體瘤。本公司也可能評估IDE161與IDE034（B7H3/PTK7）及其他TOP1 ADC的臨牀組合，與第三方合作進行。",
+    "• IDE705為一種潛在的第一類、口服小分子抑制Pol Theta的螺旋酶結構域，曾與GSK的PARP小分子抑制劑niraparib進行Phase 1組合試驗，用於BRCA+或其他HRD陽性腫瘤患者。2025年12月，GSK通知本公司有意終止協議，該協議將於2026年3月9日生效。本公司計畫開始進行預臨牀研究，評估IDE705在實體瘤中提升TOP1 ADC療效的潛力，如同我們對IDE161所做的評估，並在ADC/DDR組合的重點領域進行。",
+    "• IDE397為一種潛在的第一類、口服小分子抑制甲硫氨酸腺苷轉移酶2a（MAT2A），本公司正在開發用於具有甲硫醯腺苷磷酸酶（MTAP）基因缺失的實體瘤患者。本公司根據與Gilead的臨牀研究合作與供應協議（CSCSA）進行Phase 1/2臨牀試驗，評估IDE397與Gilead的Trop-2導向TOP1 ADC Trodelvy（sacituzumab govitecan-hziy）組合治療MTAP缺失的尿路上皮癌（UC）及非小細胞肺癌（NSCLC）患者。本公司預計在2026年的醫學會議上提供組合試驗在UC的下一個臨牀數據更新。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司有限營運歷史、財務狀況及資金需求相關之風險",
+    "本公司營運成果可能有顯著波動，使本公司未來之成果難以預測，並可能導致本公司之成果低於預期。",
+    "籌措額外資金可能導致股東持股稀釋、限制本公司營運或要求本公司放棄對本公司技術之權利。",
+    "與本公司業務相關之風險",
+    "本公司業務依賴於本公司產品候選藥物、未來產品候選藥物及與本公司產品候選藥物及未來產品候選藥物相關之生物標記之伴隨診斷技術之成功開發。",
+    "本公司可能無法完成臨牀試驗並為任何產品候選藥物申請市場許可"
+   ],
+   "paragraphs": [
+    "投資本公司的普通股涉及高度風險。您應仔細考慮下列所描述的風險，以及本年度報告表10-K中其他資訊，包括財務報表及相關附註與「管理層對財務狀況與營運結果之討論與分析」，在決定是否投資本公司普通股前。上述任何事件或發展的發生，可能會對本公司業務、財務狀況、營運結果、成長前景及股票價格造成傷害。在這種情況下，本公司普通股的市場價格可能會下跌，您可能會損失全部或部分投資。許多下列風險與不確定性，將因持續的國際政治衝突，或銀行業的波動，以及全球商業與經濟環境惡化而更加嚴重。此外，尚有其他風險與不確定性，目前尚未為本公司所知或本公司認為不重要，也可能影響本公司業務營運。",
+    "本公司為臨牀階段的生物科技製藥公司，具有有限的營運歷史，且目前尚無產品獲得商業銷售批准。自本公司成立以來，本公司已產生重大虧損，且預期將持續產生重大虧損，這與本公司有限的營運歷史，使評估本公司未來生存能力變得困難。",
+    "生物科技製藥產品的開發是一項高度投機性的活動，並涉及相當程度的風險。本公司為早期階段的生物科技製藥公司，且本公司目前僅有有限的營運歷史，可供評估本公司業務與前景。本公司目前尚無產品獲得商業銷售批准，亦未從產品銷售中產生任何收入，且自2015年6月成立以來，每年均產生虧損。此外，本公司經驗有限，且尚未展現成功克服許多新興且快速發展產業中常見風險與不確定性的能力，特別是在生物科技製藥產業。本公司九項產品候選藥物目前處於不同階段的臨牀階段。",
+    "自本公司成立以來，本公司已產生重大營運虧損。本公司截至2025年12月31日及2024年12月3月的十二個月淨虧損分別為1.137億美元與2.745億美元。截至2025年12月31日，本公司累計虧損為7.365億美元。本公司幾乎所有虧損均來自與研究與開發計畫相關的費用，以及與本公司營運相關的總務及行政費用。本公司有一項產品候選藥物處於晚期臨牀試驗階段，一項產品候選藥物處於中期臨牀試驗階段，六項產品候選藥物處於早期階段臨牀試驗階段。本公司尚有多項其他產品候選藥物處於臨牀前開發階段，以及早期階段的研究計畫。除darovaserib用於一種適應症外，本公司產品候選藥物均需投入大量額外開發時間與資源，才能申請或獲得監管批准。若獲得批准，所有本公司產品均需投入大量額外時間與資源，才能開始從產品銷售中產生收入。此外，本公司預期將持續產生與作為上市公司營運相關的額外費用。本公司目前尚無銷售組織，且持續建立商業基礎設施，因此，本公司將投入大量費用以建立銷售組織與完善商業基礎設施，於獲得監管批准及產生任何商業產品銷售之前。本公司預期將持續產生虧損，且預期這些虧損將隨著本公司持續開發產品候選藥物及任何未來產品候選藥物、進行臨牀試驗及追求研究與開發活動而增加。即使本公司未來實現盈利，本公司可能無法在隨後期間維持盈利。本公司過去的虧損，加上預期未來的虧損，已對本公司股東權益及營運資金產生並將持續產生負面影響。",
+    "本公司每季及每年的營運結果可能有顯著波動，這將使本公司難以預測未來的結果。這些波動可能發生的原因眾多，許多因素為本公司所無法控制，且可能難以預測，包括：",
+    "• 研究、技術、收購、開發與商業化活動的時間與成本，以及投資水平，可能隨時間而變化；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

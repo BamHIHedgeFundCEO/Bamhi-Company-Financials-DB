@@ -1,0 +1,211 @@
+{
+ "ticker": "TE",
+ "cik": "0001992243",
+ "accession": "0001992243-26-000007",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Business and Strategy",
+    "Operations: Investing in U.S. Manufacturing",
+    "Advanced PV Solar Modules",
+    "Markets and Customers",
+    "OBBBA Energy Tax Credit Restriction Compliance",
+    "Research & Development and Technology",
+    "Commercial Agreements",
+    "Suppliers and Raw Materials",
+    "Sustainable Development",
+    "Employees and Human Capital",
+    "Competitive Landscape",
+    "Government Regulations",
+    "Government Incentives",
+    "Corporate Information",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "In February 2025, we changed our corporate name from FREYR Battery, Inc. to T1 Energy Inc. We will not distinguish between our prior and current corporate name and will refer to our current corporate name throughout this Annual Report on Form 10-K. As such, unless expressly indicated or the context requires otherwise, the terms \"T1,\" \"Company,\" \"we,\" \"us,\" and \"our\" in this document refer to T1 Energy Inc., a Delaware corporation, and, where appropriate, its subsidiaries.",
+    "T1 Energy Inc. is an energy solutions provider building an integrated U.S. solar supply chain for solar modules to invigorate the United States with scalable, reliable, and low-cost energy. We currently manufacture and sell photovoltaic (\"PV\") solar modules in Texas and are constructing our PV solar cell fab in Texas. We are an advanced manufacturer, and our strategy is to manufacture high-domestic content, high-efficiency, technologically advanced solar energy products.",
+    "Demand for U.S.-manufactured solar is growing as developers seek to meet surging power demand tied to digital infrastructure development while satisfying domestic content requirements. We believe that the combination of solar and energy storage is the only scalable energy solution capable of meeting projected demand over the next several years. Other sources of power generation, such as new natural gas combined-cycle plants and nuclear power plants, often face multiyear delays before large-scale deployment. We believe solar's potential is enormous and largely untapped: one hour of Texas sunshine contains more energy than the world uses in one day. In the past, technology governed the growth of energy. Today, energy governs the growth of technology.",
+    "We are one of the leading solar manufacturing companies in the United States, primarily selling into the utility-scale market, the largest solar market segment in the U.S. We produce PV solar modules that employ highly energy efficient Passivated Emitter and Rear Contact (\"PERC\") and Tunnel Oxide Passivated Contact (\"TOPCon\") technologies. Our PV solar module manufacturing facility operating in Wilmer, TX (\"G1_Dallas\") has a total annual nameplate production capacity of five gigawatts (\"5 GW\"). We believe our facility is one of the most technologically advanced PV solar module plants globally and has achieved annualized run rates above nameplate capacity. To further expand our U.S. manufacturing footprint, we began construction in December 2025 of the first 2.1-gigawatt phase of our solar cell manufacturing fab in Milam County, Texas (\"G2_Austin\"). This facility is anticipated to begin production by the end of 2026 of high-efficiency TOPCon solar cells that will be used in the solar modules manufactured at G1_Dallas.",
+    "T1 is focused on establishing an end-to-end American polysilicon solar supply chain, and we are executing that vision by partnering with great American companies, including Corning, Hemlock Semiconductor, Nextpower, Treaty Oak and others. This journey began on November 6, 2024, when we announced that we had entered into an agreement (the \"Transaction Agreement\"), to acquire all the shares of capital stock of Trina Solar (U.S.) Holding Inc., a Delaware corporation and related subsidiaries (collectively \"Trina Solar US Holding\"). The transaction closed on December 23, 2024 (the \"Trina Business Combination\"). As part of the Transaction Agreement, we acquired G1_Dallas from Trina Solar US Holding and entered into a series of commercial support and technology licensing agreements with Trina Solar. Following the acquisition of G1_Dallas from Trina Solar, a global solar company based in China, T1 Energy dedicated significant resources in 2025 with the goal of achieving full compliance with new restrictions on energy tax credits under the One Big Beautiful Bill Act (\"OBBBA\"). On December 29, 2025, we entered into a series of transactions with Trina Solar and other parties that, among other things, are intended to allow T1 to comply with the restrictions on energy tax credits imposed under Sections 7701(a)(51), 7701(a)(52), 45X(d)(4), 45Y(b)(1)(E) and 48E(b)(6) of the Internal Revenue Code of 1986, as amended (the \"IRC\"), following the enactment of the OBBBA on July 4, 2025 (the \"FEOC Restructuring\"). For further discussions regarding the risks associated with the FEOC Restructuring, see Item 1A. \"Risk Factors – Risks Relating to 45X Tax Credits, PFE Status and Other Tax Matters – We expect certain financial benefits as a result of tax incentives provided by the IRA. If these expected financial benefits vary significantly from our assumptions, our business, financial condition, and results of operations could be adversely affected.\"",
+    "Our vision is to establish T1 as a U.S.-based leader in the U.S. solar and energy storage markets by executing our plan to build an integrated domestic manufacturing presence based on advanced technologies. With G1_Dallas now commissioned and capable of operating at nameplate capacity, the next phase of the plan will be completing the first 2.1-gigawatt phase of G2_Austin. T1 began construction of G2_Austin in late 2025 and expects solar cell production at the solar cell manufacturing fab to begin in late 2026. Creating a U.S. owned and operated company that can manufacture PV solar modules with a high domestic content percentage is expected to solve a bottleneck for developers, qualify our customers for the domestic content adder for Section 48E Investment Tax Credits (\"ITCs\") available under the OBBBA, and potentially create more than 3,000 direct jobs, satisfy local content requirements for U.S. solar projects, and competitively differentiate T1. The following are the key elements of our strategic plan:",
+    "•Maintain 5 GW solar module production at G1_Dallas;",
+    "•Execute long-term solar module off-take contracts with key U.S. customers for PV solar modules with our planned U.S. solar cells;",
+    "•Advance construction of G2_Austin with the aim of having the first production line operational in the fourth quarter of 2026;",
+    "•Explore and establish deeper solar value chain integration and battery technology partnerships; and",
+    "•Explore and execute inorganic, accretive, growth opportunities to increase scale, vertical integration and profitability to satisfy growing customer demand for domestic content from an American manufacturer.",
+    "We expect that the following competitive strengths will emerge as we execute our strategic plan:",
+    "•Position T1 as one of the only U.S. solar manufacturers domestically producing cells and PV solar modules with advanced PERC and TOPCon technologies through our licensing agreements;",
+    "•Enhanced competitive position from integrated U.S. solar cell and module production with a high domestic content percentage that is designed to be compliant with federal legislation passed as part of the OBBBA in 2025; and"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Summary of Risk Factors",
+    "Risks Relating to Operations, Development and Commercialization",
+    "Our success depends in part on the ability to finance, construct and equip the G2_Austin manufacturing facility in a timely and cost-effective manner.",
+    "We are subject to risks associated with leased property, as our two manufacturing facilities are leased.",
+    "We have had a history of losses and may incur future losses, which may prevent us from attaining profitability.",
+    "Our business is concentrated in certain markets including Texas, putting us at risk of region-specific disruptions.",
+    "Our growth strategy depends on the widespread adoption of solar power technology.",
+    "We may be unable to adequately control the costs or adjust to substantial increases in the prices for raw materials, components, equipment, and machinery.",
+    "A drop in the price of electricity sold may harm our business, financial condition, results of operations and prospects.",
+    "Our expected use of joint ventures and other collaborative arrangements subjects us to various risks and uncertainties.",
+    "The loss of key customers, or the inability of our customers and counterparties to perform under their contracts with us, has and could significantly reduce our net sales and negatively impact our results of operations.",
+    "Our corporate structure and our subsidiaries are incorporated in several jurisdictions which are subject to tax risk from local tax laws and regulations.",
+    "Currency translation and transaction risk may negatively affect our results of operations.",
+    "Any financial or economic crisis, or perceived threat of such a crisis, could affect our business.",
+    "If we are unable to attract and retain key employees and qualified personnel and add significant staff, it could negatively impact our ability to operate our business and achieve our growth plans.",
+    "Risks Relating to Intellectual Property"
+   ],
+   "paragraphs": [
+    "The following summarizes the significant factors, events, and uncertainties that could create risk with an investment in our securities. The events and consequences discussed in these risk factors could, in circumstances we may not be able to accurately predict, recognize, or control, have a material adverse effect on our business, growth, strategy, financial condition, operating results, cash flows, liquidity, and stock price. These risk factors are not exhaustive and do not identify all risks that we face; our operations could also be affected by factors, events, or uncertainties that are not presently known to us or that we currently do not consider as presenting significant risks to our operations, or which we currently deem immaterial may also have a material adverse effect on our business, financial condition, and results of operations.",
+    "•Our ability to construct and equip manufacturing facilities in a timely and cost-effective manner;",
+    "•The concentration of our operations in Texas; •Our dependence on a limited number of suppliers;",
+    "•Interruption of the flow of components and materials from domestic and international vendors;",
+    "•The costs of raw materials, components, equipment, and machinery;",
+    "•The capital-intensive nature of our business and our ability to raise additional capital on attractive terms;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Recent Developments",
+    "Capital raises, debt repayments, and other transactions",
+    "Regulatory and macroeconomic updates",
+    "Results of Operations",
+    "Cost of sales",
+    "Selling, general and administrative",
+    "Impairment of intangible assets",
+    "Total other expense",
+    "Net loss from discontinued operations, net of tax",
+    "Financial Condition, Liquidity, and Capital Resources",
+    "Liquidity and Capital Resources",
+    "Cash Flow Summary",
+    "2024 95,463 (102,817) %) (32,597) (137,731) %) 129,918 45,870 % Operating Activities",
+    "Critical Accounting Estimates",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "This Management's Discussion and Analysis of Financial Condition and Results of Operations should be read in conjunction with our consolidated financial statements and the accompanying notes thereto contained in Part I, Item 8 \"Financial Statements and Supplementary Data\" and Part I, Item 1 \"Business\" of this Annual Report on Form 10-K, for an overview of our operations and business environment.",
+    "For a discussion related to changes in financial condition and the results of operations for the year ended December 31, 2024 compared to the year ended December 31, 2023, refer to Part II, Item 7 \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in our Annual Report on Form 10-K for the year ended December 31, 2024, which was filed with the Securities and Exchange Commission on March 31, 2025.",
+    "T1 Energy Inc., a Delaware corporation (\"T1\", the \"Company\", \"we\", or \"us\"), is an energy solutions provider building an integrated U.S. supply chain for solar modules and cells. We currently manufacture and sell photovoltaic (\"PV\") solar modules.",
+    "For the three months ended December 31, 2025, we recognized total net sales of $358.6 million in the period. Additionally, we ended the fourth quarter with cash, cash equivalents, and restricted cash of $270.8 million.",
+    "On October 10, 2025, we entered into a Simple Agreement for Future Equity (the \"SAFE\") with Talon PV, LLC. Pursuant to the SAFE, and we invested $5.0 million (the \"Purchase Amount\") in exchange for the right to certain shares of Talon's Capital Stock.",
+    "On October 23, 2025, we entered into a Securities Purchase Agreement (the \"Securities Purchase Agreement\") with existing and new leading institutional investors for the sale and purchase of our common stock, par value $0.01 per share, in a registered direct offering (\"Registered Direct Offering\") for aggregate gross proceeds of $72.0 million, before deducting $4.6 million fees to the placement agent and other offering expenses payable by us. In connection with the Registered Direct Offering, we issued 22,153,850 shares of common stock at a purchase price of $3.25 per share.",
+    "On December 15, 2025, we completed a public offering of 32,525,254 shares of common stock (including 4,242,424 shares of common stock pursuant to the underwriters' option to purchase additional shares, which was exercised in full on December 12, 2025) at a public offering price of $4.95 per share (the \"Common Stock Offering\") for aggregate gross proceeds of $161.0 million, before deducting underwriting discounts and commissions and our offering expenses of $10.5 million.",
+    "On December 16, 2025, we completed a public offering of $161.0 million aggregate principal amount of the Company's 5.25% Convertible Senior Notes due 2030 (the \"Convertible Notes\") (including $21.0 million aggregate principal amount of Convertible Notes pursuant to the underwriters' option to purchase additional Convertible Notes to cover over-allotments, which was exercised in full on December 12, 2025) at a public offering price of 100% of the principal amount thereof (the \"Convertible Notes Offering\"). The Convertible Notes are the senior unsecured obligations of the Company and bear interest at a rate of 5.25% per annum from and including December 16, 2025, payable semi-annually in arrears on June 1 and December 1 of each year, beginning on June 1, 2026. The Convertible Notes mature on December 1, 2030, unless earlier repurchased, redeemed or converted.",
+    "On December 29, 2025 we entered into a payoff letter (\"Payoff Letter\") with Trina Solar (Schweiz) AG and TUS pursuant to which (i) all of our obligations under the Trina Solar AG Note were satisfied, discharged and terminated in full and (ii) $155.0 million of the Production Reservation Fee was satisfied, leaving $65.0 million remaining outstanding. In consideration for the satisfaction, discharge and termination of the Trina Solar AG Note in full and the partial discharge of the Production Reservation Fee, we (i) made a cash payment of $274.0 million to Trina Solar (Schweiz) AG and TUS and (ii) issued 3.0 million shares of Common Stock to Trina Solar (Schweiz). Concurrently, we also entered into a waiver agreement with respect to the Sales Agency Agreement, where TUS agreed to waive, discharge and release $34.0 million of Service Fees (as defined under the Sales Agency Agreement). As a result of the debt extinguishment, we recorded a loss of $8.8 million in our consolidated statements of operations and comprehensive loss.",
+    "Demand for our PV solar module offerings depends, in part, on market factors outside our control. For example, the United States has recently announced changes to its global trade policy, including significant tariffs on imports from China, Vietnam, Mexico, Canada, and other countries. These actions, and retaliatory tariffs imposed by other countries on U.S. goods and exports, have led to significant volatility and uncertainty in global markets. Additionally, the One Big Beautiful Bill Act (\"OBBBA\") introduced new restrictions on equity and debt ownership, material assistance, operational contracts and intellectual property arrangements with Foreign-Influenced Entities (\"FIEs\") and/or Specified Foreign Entities (\"SFEs\") (collectively, Prohibited Foreign Entities (\"PFEs\")) designed to prevent such entities from accessing tax credits available under the IRA. The Company recognizes compliance with these provisions of the OBBBA as a significant regulatory and",
+    "business priority, and we are focused and actively working to ensure we maintain compliance with these provisions to allow us and our customers to retain the availability of tax credits in the future.",
+    "On December 30, 2025, we announced a series of transactions intended to allow us to continue our eligibility for 45X Tax Credits in 2026 and beyond. In this update, we detailed our actions designed to facilitate compliance with the following requirements:",
+    "•Equity: Trina Solar's equity holdings have never exceeded the 25% limit under the OBBBA. In addition, to further bolster our compliance position, we have amended our certificate of incorporation to provide certain limits on SFE equity ownership.",
+    "•Debt: We raised significant capital in late 2025 and have used certain of that capital, together with shares of common stock, to make a substantial debt repayment to Trina Solar. As a result, the percentage of our debt held by Trina Solar is below the relevant threshold set by the OBBBA."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'translatedText': '本公司業務與策略'}",
+    "{'translatedText': '營運：投資美國製造業'}",
+    "{'translatedText': '先進光伏太陽能模組'}",
+    "{'translatedText': '市場與客戶'}",
+    "{'translatedText': 'OBBBA 能源稅抵減限制合規性'}",
+    "{'translatedText': '研究與發展及技術'}",
+    "{'translatedText': '商業契約'}",
+    "{'translatedText': '供應商與原材料'}",
+    "{'original': 'Sustainable Development', 'translated': '永續發展'}",
+    "{'original': 'Employees and Human Capital', 'translated': '員工與人力資本'}",
+    "{'original': 'Competitive Landscape', 'translated': '競爭環境'}",
+    "{'original': 'Government Regulations', 'translated': '政府規範'}",
+    "{'original': 'Government Incentives', 'translated': '政府補貼'}",
+    "{'original': 'Corporate Information', 'translated': '公司資訊'}",
+    "{'original': 'Available Information', 'translated': '可供查閱資訊'}"
+   ],
+   "paragraphs": [
+    "2025 年 2 月，我們將公司名稱從 FREYR Battery, Inc. 改為 T1 Energy Inc. 我們不會區分我們過去與目前的公司名稱，並將在本年度報告 10-K 中全程使用目前的公司名稱。因此，除非特別說明或上下文另有要求，否則本文件中 \"T1\"、\"Company\"、\"we\"、\"us\" 和 \"our\" 這幾個詞均指 T1 Energy Inc.，一家 Delaware 州公司，以及適當情況下其子公司。",
+    "T1 Energy Inc. 是一家能源解決方案供應商，正在建立一個整合的美國太陽能供應鏈，用以製造太陽能模組，以激勵美國擁有可擴展、可靠且低成本的能源。我們目前在德克薩斯州製造並銷售光電 (\"PV\") 太陽能模組，並正在德克薩斯州建設我們的 PV 太陽能電池製造廠。我們是一家先進製造商，我們的策略是製造高國內含量、高效率、技術先進的太陽能產品。",
+    "美國製造的太陽能需求正在成長，因為開發商尋求滿足與數位基礎建設發展相關的電力需求，同時符合國內含量要求。我們認為，太陽能與能源儲存的組合是唯一可擴展的能源解決方案，能夠在未來幾年內滿足預期的需求。其他電力生產來源，例如新的天然氣聯合循環電廠和核電廠，通常在大規模部署前會面臨多年的延遲。我們認為太陽能的潛力非常巨大且幾乎未被開發：德克薩斯州一小時的陽光所含的能源，比全球一天所使用的能源還要多。過去，科技主宰了能源的成長。今天，能源則主宰了科技的成長。",
+    "我們是美國主要的太陽能製造公司，主要銷售至電力公用設施規模市場，這是美國最大的太陽能市場區段。我們生產使用高度能源效率的 Passivated Emitter and Rear Contact (\"PERC\") 和 Tunnel Oxide Passivated Contact (\"TOPCon\") 技術的 PV 太陽能模組。我們位於德克薩斯州威爾默 (\"G1_Dallas\") 的 PV 太陽能模組製造廠，總年名義產能為五 gigawatts (\"5 GW\")。我們認為我們的廠區是全球最為先進的 PV 太陽能模組製造廠之一，並已達成年化產能超過名義產能的表現。為進一步擴展我們的美國製造據點，我們於 2025 年 12 月開始建設位於德克薩斯州米拉姆縣 (\"G2_Austin\") 的第一階段 2.1-gigawatt 太陽能電池製造廠。此廠區預計於 2026 年底開始生產高效率的 TOPCon 太陽能電池，這些電池將用於 G1_Dallas 製造的太陽能模組。",
+    "T1 關注於建立一個完整的美國多晶矽太陽能供應鏈，我們透過與美國優秀公司合作來實現這個願景，包括 Corning、Hemlock Semiconductor、Nextpower、Treaty Oak 等。這段旅程於 2024 年 11 月 6 日開始，當時我們宣佈已與 Trina Solar (U.S.) Holding Inc.（一家 Delaware 州公司及其相關子公司， collectively \"Trina Solar US Holding\"）簽訂協議（\"Transaction Agreement\"），以取得其所有資本股票。交易於 2024 年 12 月 23 日完成（\"Trina Business Combination\"）。根據 Transaction Agreement，我們從 Trina Solar US Holding 收購了 G1_Dallas，並與 Trina Solar 籤訂一系列商業支援與技術授權協議。在從 Trina Solar US Holding 收購 G1_Dallas 之後，T1 Energy 於 2025 年投入大量資源，目標是符合 One Big Beautiful Bill Act (\"OBBBA\") 下新的能源稅抵免限制。2025 年 12 月 29 日，我們與 Trina Solar 及其他方簽訂一系列交易，其中包含旨在讓 T1 遵守 OBBBA 通過後，根據 1986 年內政部稅收法典 (\"IRC\") 第 7701(a)(51)、7701(a)(52)、45X(d)(4)、45Y(b)(1)(E) 和 48E(b)(6) 節所規定的能源稅抵免限制。有關 FEOC Restructuring 相關風險的進一步討論，請參見第 1A 項 \"風險因素 – 與 45X 稅抵免、PFE 狀態及其他稅務事項相關的風險 – 我們預期因 IRA 提供的稅務激勵措施而獲得某些財務好處。如果這些預期財務好處與我們的假設有顯著差異，將可能對我們的業務、財務狀況及營運成果造成不利影響。\"",
+    "我們的願景是透過執行我們的計畫，建立 T1 為美國太陽能與能源儲存市場的領導者，該計畫基於先進技術建立整合的國內製造據點。隨著 G1_Dallas 現已啟用並能運作於名義產能，計畫的下一階段將是完成 G2_Austin 的第一階段 2.1-gigawatt 製造廠。T1 於 2025 年末開始建設 G2_Austin，預計於 2026 年末開始太陽能電池製造。建立一家美國擁有並運營的公司，能製造高國內含量比例的 PV 太陽能模組，預期將解決開發商的瓶頸，使我們的客戶符合 OBBBA 下 Section 48E 投資稅抵免 (\"ITCs\") 的國內含量加成，並可能創造超過 3,000 個直接工作機會，滿足美國太陽能專案的本地含量要求，並在競爭中區分 T1。以下是我們戰略計畫的關鍵要素：",
+    "•維持 G1_Dallas 的 5 GW 太陽能模組產能；",
+    "•與美國主要客戶簽訂長期太陽能模組買取合約，使用我們預計的美國太陽能電池。",
+    "•推動G2_Austin的建設，目標為2026年第四季前使第一條產線投入運作;",
+    "•探討並建立更深入的太陽能供應鏈整合與電池技術合作夥伴關係; 和",
+    "•探討並執行具成長性且具備附加價值的非營業活動，以增加規模、垂直整合與獲利能力，以滿足客戶對美國製造商本土內容日益增長的需求。",
+    "我們預期在執行我們戰略計畫的過程中，將出現以下競爭優勢:",
+    "•將T1定位為美國少數能 domestically 生產晶片與PV太陽能模組，並具備先進PERC與TOPCon技術的太陽能製造商，透過我們的授權協議;",
+    "•因美國本土內容比例高而提升的競爭優勢，此比例設計為符合2025年根據OBBBA通過的聯邦法規; 和"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "近期發展",
+    "資本籌措、債務償還及其他交易",
+    "法規與總體經濟更新",
+    "營運成果",
+    "銷售成本",
+    "營銷、一般及行政費用",
+    "無形資產減損",
+    "總計其他費用",
+    "淨虧損來自已終止營運之業務，已扣除稅務影響",
+    "財務狀況、流動性及資本資源",
+    "流動性及資本資源",
+    "現金流量總覽",
+    "2024 95,463 (102,817) %) (32,597) (137,731) %) 129,918 45,870 % 營運活動",
+    "關鍵會計估計",
+    "近期會計準則聲明"
+   ],
+   "paragraphs": [
+    "本項管理層對財務狀況與營運成果之分析，應與我們之合併財務報表及相關附註說明，包含於年度報告表 10-K 第 I 項第 8 項「財務報表與補充資料」及第 I 項第 1 項「業務」中，以獲得對我們營運與業務環境之總覽。",
+    "有關財務狀況變動及營運成果於 2024 年 12 月 31 日為結算日之年度，與 2023 年 12 月 31 日為結算日之年度比較之討論，請參閱我們 2024 年 12 月 31 日為結算日之年度報告表 10-K 第 II 項第 7 項「管理層對財務狀況與營運成果之分析」，該報告已於 2025 年 3 月 31 日向證券交易委員會提交。",
+    "T1 Energy Inc. 為一設立於德國的公司（\"T1\"、\"本公司\"、\"我們\"或\"我們\"），為能源解決方案供應商，正在建立整合美國之供應鏈，用以製造與銷售太陽能模組與電池組件。我們目前製造並銷售光電（\"PV\"）太陽能模組。",
+    "截至 2025 年 12 月 31 日之三個月為結算期，我們在該期間認列總淨銷售額為 358.6 百萬美元。此外，我們在第四季結束時持有現金、現金等價物及限制性現金為 270.8 百萬美元。",
+    "2025 年 10 月 10 日，我們與 Talon PV, LLC 簽訂簡單未來權益協議（\"SAFE\"）。根據該 SAFE，我們投資 5.0 百萬美元（\"購買金額\"），以換取 Talon 之資本股票之部分股份權益。",
+    "2025 年 10 月 23 日，我們與現有及新進之主要機構投資者簽訂證券購買協議（\"證券購買協議\"），以銷售與購買我們之普通股，每股面值 0.01 美元，於註冊直接發行（\"註冊直接發行\"）中，總計取得毛收入為 72.0 百萬美元，扣除 4.6 百萬美元之發行費用及placement agent費用後。與註冊直接發行同時，我們發行 22,153,850 股普通股，每股購買價格為 3.25 美元。",
+    "2025 年 12 月 15 日，我們完成一公開發行，發行 32,525,254 股普通股（包含 4,242,424 股普通股，根據發行機構之選擇權購買額外股份，該選擇權於 2025 年 12 月 12 日完全行使），每股公開發行價格為 4.95 美元（\"普通股發行\"），總計毛收入為 161.0 百萬美元，扣除發行機構折扣與佣金及我們之發行費用 10.5 百萬美元後。",
+    "2025 年 12 月 16 日，我們完成一公開發行，發行本公司 5.25% 可轉換優先無擔保債券，總計本金為 161.0 百萬美元（包含 21.0 百萬美元本金之可轉換債券，根據發行機構之選擇權購買額外可轉換債券以覆蓋過度發行，該選擇權於 2025 年 12 月 12 日完全行使），發行價格為本金金額之 100%（\"可轉換債券發行\"）。該可轉換債券為本公司之優先無擔保負債，自 2025 年 12 月 16 日起，年利率為 5.25%，每半年支付一次，自 2026 年 6 月 1 日起，於每年 6 月 1 日及 12 月 1 日支付。該可轉換債券於 2030 年 12 月 1 日到期，除非提前贖回、贖回或轉換。",
+    "",
+    "本公司太陽能模組產品之需求，部分取決於我們無法控制的市場因素。例如，美國近期已宣佈改變其全球貿易政策，包括對來自中國、越南、墨西哥、加拿大及其他國家進口商品課徵重大關稅。這些行動，以及其他國家對美國商品及出口所課徵的報復性關稅，已導致全球市場出現顯著波動與不確定性。此外，One Big Beautiful Bill Act（\"OBBBA\"）引入了針對與外國影響實體（\"FIEs\"）及/或指定外國實體（\"SFEs\"）（合稱為禁止外國實體（\"PFEs\"））的股權與債務持有、重大協助、營運契約及智慧財產權安排的新限制，旨在防止這些實體取得根據IRA可使用的稅額抵減。本公司認知到遵守OBBBA之相關規定為一重大法規與",
+    "業務優先事項，本公司專注並積極努力確保符合這些規定，以允許本公司及其客戶未來持續取得稅額抵減的資格。",
+    "於 2025 年 12 月 30 日，本公司宣佈一系列交易，旨在允許本公司持續符合 45X 稅額抵減資格，至 2026 年及以後。在本次更新中，本公司說明了我們為符合以下要求所採取的行動：",
+    "•股權：Trina Solar 的股權持有從未超過 OBBBA 所設的 25% 限制。此外，為進一步強化我們的合規地位，本公司已修改章程，設立某些限制以限制 SFE 股權持有。",
+    "•債務：本公司於 2025 年下半年籌集了大量資金，並已使用部分資金，配合普通股股份，償還 Trina Solar 重大債務。因此，本公司對 Trina Solar 的債務佔比已低於 OBBBA 所設的相關門檻。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與營運、開發及商業化相關的風險",
+    "本公司之成功在部分程度上取決於能否以具成本效益且及時的方式籌資、興建並裝備 G2_Austin 製造廠房。",
+    "本公司因兩座製造廠房為租賃產權，而面臨與租賃財產相關之風險。",
+    "本公司過去曾有虧損之歷史，未來可能再次發生虧損，此情形可能使本公司無法達成獲利。",
+    "本公司業務集中於某些市場，包括德克薩斯州，因此可能面臨地區性幹擾之風險。",
+    "本公司之成長策略取決於太陽能發電技術之廣泛採用。",
+    "本公司可能無法有效控制成本或因原材料、零組件、設備及機械之價格大幅上漲而調整。",
+    "電力售價下跌可能影響本公司業務、財務狀況、營運結果與前景。",
+    "預期使用合資企業及其他合作安排，使本公司面臨各種風險與不確定性。",
+    "關鍵客戶流失，或客戶及交易對手無法履行與本公司之契約，已並可能顯著降低本公司淨銷售額，並對營運結果產生負面影響。",
+    "本公司組織結構及其子公司於多個司法管轄區設立，可能因當地稅法與稅務規範而面臨稅務風險。",
+    "貨幣換算與交易風險可能對營運結果產生負面影響。",
+    "任何財務或經濟危機，或對發生此類危機的預期，可能影響本公司業務。",
+    "若本公司無法吸引並留住關鍵員工與具備資格之專業人員，並增加重要人力，可能對本公司營運業務與達成成長計畫產生負面影響。",
+    "與智慧財產權相關之風險"
+   ],
+   "paragraphs": [
+    "以下為可能對投資本公司證券產生風險的重要因素、事件及不確定性之總結。這些風險因素所討論的事件及其後果，可能在某些我們無法準確預測、辨識或控制的情況下，對本公司之業務、成長、策略、財務狀況、營運成果、現金流量、流動性及股票價格造成重大不利影響。這些風險因素並非完整列出，亦未識別出我們所面臨的所有風險；本公司之營運亦可能受到目前尚未為我們所知，或我們目前認為並無重大風險，但後續可能對本公司營運造成重大不利影響之因素、事件或不確定性之影響。",
+    "•本公司能否及時且以成本效益方式建置並裝備製造廠房；",
+    "•本公司營運集中於德克薩斯州；•本公司對有限數量供應商之依賴；",
+    "•來自國內外供應商之零組件與物料供應中斷；",
+    "•原材料、零組件、設備及機械之成本；",
+    "•本公司業務之高資本密集性及本公司能否以具吸引力之條件籌措額外資金；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

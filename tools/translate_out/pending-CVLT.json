@@ -1,0 +1,219 @@
+{
+ "ticker": "CVLT",
+ "cik": "0001169561",
+ "accession": "0001169561-26-000017",
+ "form": "10-K",
+ "reportDate": "2026-03-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Overview",
+    "Professional & Customer Support Services",
+    "Strategic Relationships",
+    "Sales and Marketing",
+    "Research and Development",
+    "Technology, Intellectual Property and Proprietary Rights",
+    "Government Regulations",
+    "Information about our Executive Officers",
+    "Name Age Position",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Commvault Systems, Inc. (\"Commvault\") is a provider of cyber resiliency solutions designed to help the enterprise protect, secure, and recover their data, applications, and identity systems in a world of increasing cyber threats and attacks. Commvault's offerings provide cyber resilience, including data protection, cyber recovery, data security, and governance, aiming to enable customers continuous business.",
+    "Commvault delivers its solutions through Commvault Cloud, a cloud‑native platform that unifies data security, cyber recovery, and identity resilience across on‑premise, hybrid, multi‑cloud, and software‑as‑a‑service (\"SaaS\") environments. The platform is designed to support enterprise‑scale deployments and enables customers to manage resilience consistently across diverse infrastructure footprints and operating models.",
+    "Commvault Cloud provides a comprehensive set of capabilities intended to help customers prepare for, withstand, and recover from cyber incidents such as ransomware, data corruption, infrastructure failures, and cyberattacks. These capabilities include AI‑assisted data discovery, classification, and monitoring; immutability and air‑gapped protection; automated verification of clean recovery points; and orchestrated recovery workflows that enable customers to restore data, applications, and supporting infrastructure at scale.",
+    "Commvault's solutions are designed to support modern data architectures, including cloud‑native workloads, containerized applications, SaaS platforms, and AI‑driven data environments. Commvault also offers capabilities that support data residency, sovereignty, and regulatory requirements, so customers can retain control over where data is stored and recovered while maintaining consistent resilience across regions and jurisdictions.",
+    "Commvault sells its offerings primarily through subscription‑based arrangements, including SaaS and term‑based subscriptions, and also offers perpetual licenses, customer support, and professional services. Its solutions are delivered through multiple deployment models, including Commvault‑hosted SaaS, customer‑managed software, integrated appliances, and offerings delivered and managed by strategic partners, cloud service providers, and managed service providers.",
+    "Commvault was incorporated in Delaware in 1996. Products",
+    "Commvault provides cyber resilience and data protection solutions designed to help organizations protect, secure, and recover data across hybrid, multi‑cloud, and cloud‑native environments. Our solutions are designed to enable customers to maintain business continuity and recover from cyber incidents, system failures, and data disruptions across on‑premises, cloud, and SaaS workloads.",
+    "Our offerings are delivered through Commvault Cloud, a platform that unifies data protection, cyber recovery, and related resilience capabilities. Commvault Cloud supports deployment as customer‑managed software, SaaS‑delivered solutions, or a hybrid of the two, allowing customers to select the deployment model that best fits their operational, regulatory, and security requirements.",
+    "Commvault Cloud is organized into the following solution packages: Operational Recovery, Autonomous Recovery, and Cyber Recovery.",
+    "Operational Recovery provides core backup and recovery capabilities across hybrid enterprise workloads. It supports a broad range of environments, including physical servers, virtual machines (\"VMs\"), containers, databases, endpoints, and SaaS applications, all which may be deployed across on‑premises, cloud, or hybrid environments. Operational Recovery is designed to provide secure data protection, granular recovery, and workload mobility while helping customers manage data growth and cloud costs. Capabilities include backup, restore, recovery validation, and policy‑based data movement to cloud storage, enabling customers to improve availability and recover data in different environments.",
+    "Autonomous Recovery builds on Operational Recovery by adding automation, orchestration, and validation intended to reduce recovery times, downtime, and operational complexity. It supports automated disaster recovery and cyber recovery use cases across on‑premises, cloud, and hybrid environments. Autonomous Recovery helps to provide continuous or periodic replication, automated failover and failback, application‑level recovery validation, and orchestrated recovery workflows for data, applications, VMs, and containers. These capabilities are designed to help organizations recover more predictably and at scale while optimizing infrastructure usage and recovery costs.",
+    "Cyber Recovery represents the most comprehensive set of Commvault Cloud capabilities. It incorporates Operational and Autonomous Recovery and adds advanced cyber preparedness, threat detection, and clean recovery features to help organizations respond to ransomware and other cyber incidents. Cyber Recovery includes capabilities designed to identify risks within protected data, detect anomalies and indicators of compromise in backup environments, validate recovery integrity, and recover clean data at scale. These capabilities aim to help customers minimize the impact of cyber incidents and support faster, more reliable recovery following an attack.",
+    "Commvault also offers a range of complementary capabilities that extend its core recovery solutions:",
+    "Commvault Cleanroom Recovery provides an isolated, on‑demand recovery environment in the cloud that enables organizations to test recovery plans, perform forensic analysis, and execute data recoveries without reconnecting to potentially compromised production systems. It is designed to support recovery readiness, validation of clean data, and faster recovery following cyber incidents."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business and Industry",
+    "Our industry is intensely competitive, and many of our competitors have greater resources and larger, established customer bases, which could enable them to compete more effectively than we do.",
+    "We rely on indirect sales channels, including resellers, systems integrators, distributors, OEMs, and marketplaces, and the failure of these channels to effectively sell our solutions could adversely affect our business.",
+    "Volatility in the global economy, including changes in trade policy or tariffs, could adversely affect our continued growth, results of operations, financial condition, and our ability to forecast future performance.",
+    "We can experience long and unpredictable sales and implementation cycles, particularly with large enterprise and government customers, which could adversely affect the size, timing and predictability of our revenues.",
+    "We depend on growth in the data protection and cyber resiliency market, and a slowdown or contraction in this market could have a material adverse effect on our business, results of operations, and financial condition.",
+    "Our investments in research and development may not result in significant revenues, and we may not realize a return on these investments for several years, if at all.",
+    "We implemented new restructuring plans in fiscal 2026, which we cannot guarantee will achieve their intended results.",
+    "A portion of our revenue is generated by sales to government entities, which are subject to unique risks that could adversely affect our business.",
+    "Changes in senior management or key personnel could cause disruption in the Company adversely affect our business, results of operations, and financial condition.",
+    "Our existing and future indebtedness, including our senior convertible notes and revolving credit facility, could adversely affect our business, results of operations, and financial condition.",
+    "Risks Related to our International Operations",
+    "Our significant operations in India expose us to operational, economic, and labor‑related risks that could adversely affect our business.",
+    "We may experience fluctuations in foreign currency exchange rates that could adversely affect our results of operations and financial condition.",
+    "Our international sales and operations are subject to factors that could have an adverse effect on our results of operations.",
+    "Risks Related to Technology and Security",
+    "We may be subject to IT system failures, network disruptions, cybersecurity incidents and breaches in data security, which could adversely affect our business, results of operations, and financial condition.",
+    "We may not be successful in our initiatives that utilize AI, which could adversely affect our business, results of operations, financial condition, and reputation.",
+    "Risks Related to Financial, Accounting, Regulatory, Tax, and Other Legal Matters",
+    "We have been, and may in the future become, involved in litigation that may have a material adverse effect on our business.",
+    "We are subject to numerous and evolving privacy and data protection laws and regulations, and our actual or perceived failure to comply with such laws and regulations could adversely affect our business."
+   ],
+   "paragraphs": [
+    "You should consider each of the following factors as well as the other information in this Annual Report in evaluating our business and our prospects. The risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties not presently known to us or that we currently consider immaterial may also impair our business operations. If any of the following risks actually occur, our business and financial results could be harmed. In that case, the trading price of our common stock could decline. You should also refer to the other information set forth in this Annual Report, including our financial statements and the related notes.",
+    "The data protection and cyber resilience market is intensely competitive, highly fragmented and characterized by rapidly evolving technology and industry standards, changing customer requirements, and frequent new product introductions. Our competitors vary in size and in the scope and breadth of the products and services they offer. Our primary competitors include Rubrik, Cohesity, and Veeam, and we also face competition from large technology companies, cloud providers, service providers, and other current or emerging market participants that offer products or services that compete with aspects of our portfolio or that customers may view as substitutes for our offerings.",
+    "Many of our competitors have significantly greater financial, technical, sales, and marketing resources than we do, as well as larger installed customer bases and greater brand recognition. These competitors may be better positioned to respond more quickly to new or evolving technologies, customer requirements, and industry standards, or to devote greater resources to the development, promotion, sale, and support of their products. Competition in our industry is influenced by a number of factors, including product functionality, performance, and integration; breadth of platform and workload coverage; ability to invest and scale; pricing and total cost of ownership; global sales infrastructure; quality of technical support; brand recognition and reputation; and the ability to address customers' evolving cyber resilience requirements. If we are unable to compete effectively across these factors, our competitive position could weaken, and we could experience reduced revenue, margin pressure, or loss of market share, which could adversely affect our business, results of operations, and financial condition.",
+    "In addition, it is often costly and time-consuming for customers to replace existing cyber resilience systems. Most of our prospective and newly adopted customers have previously implemented competing solutions, which may provide incumbent vendors with advantages in retaining those customers due to existing familiarity with customer environments, data architectures, and operational requirements. Some customers may be reluctant to incur the cost, complexity, or operational risk associated with switching vendors, which could limit our ability to win new customers or expand within existing customer environments.",
+    "We also face competitive risks related to the ongoing transition within the industry from traditional on‑premises solutions to cloud‑based and SaaS delivery models. While we have substantially completed our transition from a perpetual licensing model to a subscription‑based model delivered through term‑based licenses or SaaS, certain competitors have operated under cloud‑native models for longer periods. Differences in deployment models, customer adoption rates, infrastructure requirements, and pricing expectations may adversely affect our ability to compete in certain segments or use cases.",
+    "Competition may further intensify as we expand into new markets, as existing competitors broaden their product offerings, and as new competitors enter the market. We also expect increased competition as a result of industry consolidation, including from OEMs, systems and network management companies, and other market participants that may leverage acquisitions, bundled offerings, or established customer relationships to compete with our solutions. Increased competition could result in pricing pressure, reduced margins, loss of market share, or reduced demand for our products, any of which could adversely affect our business, results of operations, and financial condition."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Sources of Revenues",
+    "Description of Costs and Expenses",
+    "Key Performance Indicators ($ in millions)",
+    "Total Annualized Recurring Revenue (\"ARR\")",
+    "Subscription ARR",
+    "SaaS Net Dollar Retention Rate (SaaS NRR)",
+    "Foreign Currency Exchange Rates' Impact on Results of Operations",
+    "Critical Accounting Policies",
+    "Revenue Recognition",
+    "Accounting for Income Taxes",
+    "Goodwill and Purchased Intangible Assets",
+    "Results of Operations",
+    "Fiscal year ended March 31, 2026 compared to fiscal year ended March 31, 2025",
+    "Year Ended March 31,",
+    "2026 2025 % Change",
+    "Liquidity and Capital Resources",
+    "Summary Disclosures about Contractual Obligations and Commercial Commitments",
+    "Indemnifications",
+    "Impact of Recently Issued Accounting Standards"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis along with our consolidated financial statements and the related notes included elsewhere in this Annual Report on Form 10-K. The statements in this discussion regarding our expectations of our future performance, liquidity and capital resources, and other non-historical statements are forward-looking statements. These forward-looking statements are subject to numerous risks and uncertainties, including, but not limited to, the risks and uncertainties described under \"Risk Factors\" and elsewhere in this Annual Report on Form 10-K. Our actual results may differ materially from those contained in or implied by any forward-looking statements. For discussion comparing the period ended March 31, 2025 to March 31, 2024, please refer to our Annual Report on Form 10-K, filed with the SEC on May 05, 2025.",
+    "Commvault Systems, Inc. (\"Commvault\") is a provider of cyber resiliency solutions designed to help the enterprise protect, secure, and recover their data, applications, and identity systems in a world of increasing cyber threats and attacks. Commvault's offerings provide cyber resilience, including data protection, cyber recovery, data security, and governance, aiming to enable customers continuous business.",
+    "Our industry continues to be reshaped by accelerating data growth, increasingly sophisticated cyberattacks, the rapid adoption of AI, and the expansion of hybrid, multi-cloud, cloud-native and SaaS environments. Customers increasingly require a cyber resilience platform that brings together data security, identity resilience, real-time governance, threat detection, and verified clean recovery for structured and unstructured data, cloud-native applications, and AI workloads. Commvault Cloud is designed to help organizations secure, govern, and recover data and workloads anywhere to anywhere, while supporting compliance and operational resilience at scale.",
+    "We generate revenues through subscription arrangements, which includes both term-based software licenses and SaaS, perpetual software licenses, customer support contracts and other services. A significant portion of our revenues comes from subscription arrangements, delivered on-premise through term-based licensing, or through cloud-based SaaS offerings. These arrangements are economically and contractually similar, as customers generally receive access to our software for a specified term under binding agreements. We are focused on these types of recurring revenue arrangements.",
+    "We expect our subscription arrangements will continue to generate revenues from the renewals of term-based licenses and SaaS offerings sold in prior years. Any of our pricing models (capacity, instance-based, consumption, etc.) can be sold either through term-based licensing or via cloud-based SaaS offerings. In term-based license arrangements, software revenue is generally recognized when the software is delivered or made available for download. Revenue related to our SaaS offerings is generally recognized ratably over the contract period or, in consumption arrangements, as the solutions are consumed.",
+    "Our customer support revenue includes support services for term‑based subscription customers and support contracts for perpetual license customers. Customer support includes software updates on a when-and-if-available basis, telephone support, integrated web-based support, and other premium support offerings. We sell our customer support contracts as a percentage of net software purchases. Customer support revenue is recognized ratably over the term of the customer support agreement, which is typically one year on our perpetual licenses and over the term on our term-based licenses, which typically range from one to three years.",
+    "Our other services revenue consists primarily of professional service offerings, including consultation, assessment and design, installation services, and customer education. Revenue from other services can vary period over period based on the timing services are delivered and are typically recognized as the services are performed.",
+    "We sell to end-user customers both directly through our sales force and indirectly through our global network of value-added reseller partners, systems integrators, corporate resellers, OEMs, and marketplaces. Revenues generated through indirect distribution channels accounted for approximately 90% of our total revenues in the fiscal years ended March 31, 2026, 2025, and 2024. Revenues generated through direct distribution channels accounted for approximately 10% of our total revenues in the fiscal years ended March 31, 2026, 2025, and 2024. Deals initiated by our direct sales force are sometimes transacted through indirect channels based on end-user customer requirements, which are not always in our control and can cause this overall percentage split to vary from period to period. As such, there may be fluctuations in the dollars and percentage of revenues generated through our distribution channels from time to time. We believe that the growth of our revenues, derived from both our indirect channel partners and direct sales force, are key attributes to our long-term growth strategy. We intend to continue to invest in both our channel relationships and direct sales force in the future, but we continue to expect more revenues to be generated through indirect distribution channels over the long term. The failure of our indirect distribution channels or our direct sales force to effectively sell our products and services could have a material adverse effect on our revenues and results of operations.",
+    "We have non-exclusive distribution agreements with certain partners who enable a more efficient and effective distribution channel for our solutions by managing our resellers and leveraging their own industry experience. For the fiscal years ended March 31, 2026, 2025, and 2024, Partner A accounted for approximately 32%, 35%, and 36% of our total revenues, respectively. Separately, Partner B accounted for approximately 11% of our total revenues for the fiscal year ended March 31, 2026. Total revenues for the fiscal years ended March 31, 2025 and 2024 for Partner B were less than 10%. If any of these partners were to discontinue or materially reduce their sales of our solutions, terminate their agreements with us, or experience operational or financial difficulties, and if we were unable to effectively replace them or assume management of the affected distribution activities, our business, revenues, and results of operations could be materially adversely affected.",
+    "We also sell our solutions through cloud-based marketplace offerings operated by third-party platform providers. Revenue from marketplace transactions are typically recorded on a gross basis, and amounts paid to the marketplace providers are capitalized as contract costs and amortized over the term of the related arrangement. Amortization of capitalized marketplace costs was $2.0 million, $1.7 million, and $0.3 million for the fiscal years ended March 31, 2026, 2025, and 2024, respectively. Transactions through third‑party cloud marketplace providers represented less than 10% of our total revenues for the fiscal years ended March 31, 2026, 2025, and 2024, respectively. These transactions include sales to both new and existing customers and may include new purchases, renewals, expansions for existing customers, and subscriptions for both on‑premise and SaaS offerings.",
+    "For additional information on how we recognize revenue, see Note 3 of the Notes to Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K.",
+    "Our cost of revenues consist of the following:",
+    "•Cost of Subscription Revenue, consists primarily of third-party hosting fees related to our SaaS offerings, third-party royalty costs on certain offerings, and other costs such as media, manuals, translation and distribution costs;",
+    "•Cost of Perpetual License Revenue, consists primarily of third-party royalty costs on certain offerings;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "公司概況",
+    "專業與客戶支援服務",
+    "戰略合作關係",
+    "銷售與行銷",
+    "研究與發展",
+    "技術、智慧財產權與專有權利",
+    "政府規範",
+    "關於我們的高階主管",
+    "{'Name Age Position': '姓名 年齡 職位'}",
+    "可用資訊"
+   ],
+   "paragraphs": [
+    "Commvault Systems, Inc. (\"Commvault\") 為提供網路韌性解決方案的公司，旨在協助企業在網路威脅與攻擊日益增加的環境中，保護、確保與恢復其資料、應用程式與身分系統。Commvault 的產品提供網路韌性，包括資料保護、網路復原、資料安全與治理，目標在於協助客戶維持業務連續性。",
+    "Commvault 透過 Commvault Cloud 來提供其解決方案，這是一個雲端原生平台，可將資料安全、網路復原與身分韌性統合於本地端、混合、多雲與軟體即服務（\"SaaS\"）環境中。該平台設計用以支援企業規模的部署，並讓客戶能在多樣化的基礎設施與運作模式中，一致地管理韌性。",
+    "Commvault Cloud 提供一套完整的功能，旨在協助客戶準備、承受並從網路事件（如勒索軟體、資料損毀、基礎設施故障與網路攻擊）中復原。這些功能包括 AI 協助的資料發現、分類與監控；不可變性與隔離式保護；自動驗證乾淨的復原點；以及協調式復原工作流程，讓客戶能大規模地恢復資料、應用程式與支援基礎設施。",
+    "Commvault 的解決方案設計用以支援現代資料架構，包括雲端原生工作負載、容器化應用程式、SaaS 平台與 AI 驅動的資料環境。Commvault 也提供支援資料存放地、主權與法規需求的功能，讓客戶能維持對資料存放與復原地點的控制，同時在各區域與司法管轄區維持一致的韌性。",
+    "Commvault 主要透過訂閱模式來銷售其產品，包括 SaaS 與定期訂閱，也提供永續授權、客戶支援與專業服務。其解決方案透過多種部署模式提供，包括 Commvault 主機的 SaaS、客戶管理的軟體、整合式裝置，以及由策略夥伴、雲端服務供應商與受託服務供應商提供與管理的解決方案。",
+    "Commvault 於 1996 年在特拉華州成立。產品",
+    "Commvault 提供網路韌性與資料保護解決方案，旨在協助機構在混合、多雲與雲端原生環境中保護、確保與恢復資料。我們的解決方案設計用以協助客戶維持業務連續性，並從網路事件、系統故障與資料中斷中復原，無論是本地端、雲端或 SaaS 工作負載。",
+    "我們的產品透過 Commvault Cloud 提供，這是一個統合資料保護、網路復原與相關韌性功能的平台。Commvault Cloud 支援以客戶管理的軟體、SaaS 提供的解決方案，或兩者的混合模式進行部署，讓客戶能選擇最符合其運作、法規與安全需求的部署模式。",
+    "Commvault Cloud 依下列解決方案套件進行組織：運作復原、自動化復原與網路復原。",
+    "運作復原提供跨混合企業作業負載的核心備份與復原功能。其支援廣泛的環境，包括實體伺服器、虛擬機器（\"VMs\"）、容器、資料庫、端點與 SaaS 應用程式，所有這些都可能部署於內部、雲端或混合環境中。運作復原設計用以提供安全的資料保護、細粒度復原與作業負載移動性，同時協助客戶管理資料成長與雲端成本。功能包括備份、復原、復原驗證與基於政策的資料移動至雲端儲存，使客戶得以提升可用性並在不同環境中復原資料。",
+    "自動化復原在運作復原的基礎上，增加自動化、編排與驗證功能，旨在減少復原時間、停機時間與作業複雜度。其支援自動化災難復原與網路復原的應用案例，跨內部、雲端與混合環境。自動化復原協助提供持續或定期的資料複製、自動化故障轉移與轉回、應用層級的復原驗證與編排的復原工作流程，用以復原資料、應用程式、VMs 與容器。這些功能設計用以協助組織更可預測且大規模地復原，同時優化基礎設施使用與復原成本。",
+    "網路復原代表 Commvault Cloud 最為完整的功能組合。其整合運作與自動化復原，並增加先進的網路準備、威脅偵測與乾淨復原功能，協助組織應對勒索軟體及其他網路事件。網路復原包含的功能設計用以識別受保護資料中的風險、偵測備份環境中的異常與入侵指標、驗證復原完整性，並大規模復原乾淨資料。這些功能旨在協助客戶降低網路事件的影響，並在遭受攻擊後提供更快、更可靠的復原。",
+    "Commvault 還提供一系列補充功能，用以擴展其核心復原解決方案：",
+    "Commvault Cleanroom Recovery 提供一個隔離的、按需使用的雲端復原環境，使組織得以測試復原計畫、執行法醫分析，並執行資料復原，而無需重新連接到可能受感染的生產系統。其設計用以支援復原準備、驗證乾淨資料，並在網路事件後加速復原。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "收入來源",
+    "成本與費用說明",
+    "關鍵績效指標（單位：千萬美元）",
+    "總年化持續收入（\"ARR\"）",
+    "訂閱型 ARR",
+    "SaaS 網路美元留存率（SaaS NRR）",
+    "外幣交換率對營運成果之影響",
+    "關鍵會計政策",
+    "營業收入認列",
+    "所得稅會計處理",
+    "商譽及購入無形資產",
+    "營運成果",
+    "會計年度終了於2026年3月31日與會計年度終了於2025年3月31日之比較",
+    "年度終了於3月31日",
+    "2026 2025 變動百分比",
+    "流動性及資本資源",
+    "契約義務及商業承諾之揭露摘要",
+    "賠償責任",
+    "最近發佈會計準則之影響"
+   ],
+   "paragraphs": [
+    "您應閱讀下列討論與分析，並配合我們的合併財務報表及相關附註，這些附註包含於本年度報告表 10-K 的其他部分。本討論中關於我們對未來表現、流動性及資本資源的預期，以及其他非歷史性陳述，均屬展望性陳述。這些展望性陳述受到許多風險與不確定性影響，包括但不限於「風險因素」部分及其他本年度報告表 10-K 中所描述的風險與不確定性。我們的實際結果可能與任何展望性陳述中所包含或暗示的結果有重大差異。如需討論 2025 年 3 月 31 日結業期與 2024 年 3 月 31 日結業期的比較，請參閱我們於 2025 年 5 月 5 日提交給 SEC 的年度報告表 10-K。",
+    "Commvault Systems, Inc.（\"Commvault\"）是一家提供網路韌性解決方案的公司，旨在協助企業在面對日益增加的網路威脅與攻擊的環境中，保護、確保並恢復其資料、應用程式與身分系統。Commvault 的產品提供網路韌性，包括資料保護、網路恢復、資料安全與治理，目標在於協助客戶實現持續營運。",
+    "我們的產業持續受到資料成長加速、日益複雜的網路攻擊、人工智慧（AI）快速採用，以及混合、多雲、雲原生與 SaaS 環境擴張的影響。客戶日益需要一個網路韌性平台，整合資料安全、身分韌性、即時治理、威脅偵測以及經過驗證的乾淨恢復，用以保護結構化與非結構化資料、雲原生應用程式與 AI 工作負載。Commvault Cloud 設計用以協助機構在任何地方保護、治理並恢復資料與工作負載，同時支援合規與運營韌性。",
+    "我們透過訂閱安排產生收入，包括基於期限的軟體授權與 SaaS、永久軟體授權、客戶支援合約及其他服務。我們收入的很大一部分來自於訂閱安排，透過基於期限的授權在內部部署，或透過雲端 SaaS 提供。這些安排在經濟與契約上相似，因為客戶通常在具有約束力的協議下，獲得一段特定期間的軟體使用權。我們專注於這些類型的重複性收入安排。",
+    "我們預期訂閱安排會繼續從基於期限的授權與 SaaS 產品的續約中產生收入。我們的任何定價模式（容量、實例基準、用量等）均可透過基於期限的授權或雲端 SaaS 提供銷售。在基於期限的授權安排中，軟體收入通常在軟體交付或可供下載時確認。與我們 SaaS 產品相關的收入通常在合約期間內平均確認，或在用量安排中，根據解決方案的使用情況確認。",
+    "我們的客戶支援收入包括為基於期限的訂閱客戶提供的支援服務，以及為永久授權客戶提供的支援合約。客戶支援包括在有時且有條件的情況下提供軟體更新、電話支援、整合式網頁支援及其他高階支援服務。我們將客戶支援合約作為淨軟體購買的百分比進行銷售。客戶支援收入在客戶支援合約的期間內平均確認，通常在永久授權客戶的合約為一年，而在基於期限的授權客戶的合約則通常為一至三年。",
+    "我們的其他服務收入主要由專業服務方案組成，包括諮詢、評估與設計、安裝服務及客戶教育。來自其他服務的收入可能因服務交付時間而有所不同，通常在服務執行時確認。",
+    "我們透過銷售團隊直接銷售，並透過全球價值-added 代理商網路、系統整合商、企業代理商、OEM 及市場平台間接銷售給最終用戶客戶。透過間接分銷渠道產生的收入，在截至 2026 年 3 月 31 日、2025 年 3 月 31 日及 2024 年 3 月 31 日的會計年度中，約佔我們總收入的 90%。透過直接分銷渠道產生的收入，在截至 2026 年 3 月 31 日、2025 年 3 月 31 日及 2024 年 3 月 31 日的會計年度中，約佔我們總收入的 10%。我們直接銷售團隊啟動的交易有時會透過間接渠道進行，這取決於最終用戶客戶的需求，而這些需求並非我們所能完全控制，因此可能導致此總體比例在不同期間有所變動。因此，我們的分銷渠道產生的收入金額與比例可能時有波動。我們認為，來自間接渠道夥伴與直接銷售團隊的收入成長，是我們長期成長策略的重要特徵。我們打算未來繼續投資於我們的渠道關係與直接銷售團隊，但我們仍預期長期而言，更多收入將來自間接分銷渠道。我們間接分銷渠道或直接銷售團隊若無法有效銷售我們的產品與服務，可能會對我們的收入與營運成果造成重大不利影響。",
+    "本公司與部分合作夥伴簽有非獨佔分銷協議，這些協議能透過管理我們的經銷商並利用其產業經驗，使我們的解決方案擁有更有效率且更有效的分銷通路。會計年度結算日為2026年3月31日、2025年3月31日及2024年3月31日，Partner A分別佔本公司總營業收入約32%、35%及36%。另外，Partner B在會計年度結算日為2026年3月31日時，佔本公司總營業收入約11%。Partner B在會計年度結算日為2025年3月31日及2024年3月31日的總營業收入均低於10%。若這些合作夥伴中任何一方停止或大幅減少銷售我們的解決方案、終止與我們的協議，或遭遇營運或財務困難，而本公司無法有效替換這些合作夥伴或接管受影響的分銷活動，將可能對本公司業務、營業收入及營運成果造成重大不利影響。",
+    "本公司亦透過第三方平台運營的雲端市場平台銷售解決方案。市場平台交易的收入通常以淨額計入，並支付給市場平台運營商的金額會被資產化為合約成本，並在相關合約期間內攤銷。資產化市場平台成本的攤銷金額為會計年度結算日為2026年3月31日、2025年3月31日及2024年3月31日分別為200萬美元、170萬美元及30萬美元。透過第三方雲端市場平台進行的交易，在會計年度結算日為2026年3月31日、2025年3月31日及2024年3月31日時，均低於本公司總營業收入的10%。這些交易包括對新客戶及現有客戶的銷售，可能包含新購、續約、現有客戶的擴張，以及針對本地部署及SaaS方案的訂閱。",
+    "如需瞭解本公司如何確認收入的更多資訊，請參閱本年度報告10-K表單第II部第8項所附財務會計彙編附註的附註3。",
+    "本公司營業成本包含以下項目：",
+    "•訂閱收入成本，主要包含與本公司SaaS方案相關的第三方主機費用、某些方案的第三方版稅費用，以及其他成本如媒體、手冊、翻譯及分銷費用；",
+    "•永久授權收入成本，主要包含某些方案的第三方版稅費用；"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務及產業相關之風險",
+    "我們所屬產業競爭激烈，許多競爭對手擁有更多資源及較大、已建立的客戶羣，這可能使其能比我們更有效地進行競爭。",
+    "我們依賴間接銷售通路，包括經銷商、系統整合商、經銷商、原廠OEM及市集平台，這些通路若無法有效銷售我們的解決方案，將可能對我們的業務造成不利影響。",
+    "全球經濟的波動，包括貿易政策或關稅的變動，可能對我們的持續成長、營運結果、財務狀況及預測未來表現的能力造成不利影響。",
+    "我們可能經歷長且難以預測的銷售與實施週期，特別是在與大型企業及政府客戶合作時，這可能對我們的營收規模、時程及可預測性造成不利影響。",
+    "我們依賴資料保護及網路韌性市場的成長，若此市場減速或收縮，可能對我們的業務、營運結果及財務狀況造成重大不利影響。",
+    "我們在研究與開發上的投資可能不會產生顯著收入，且我們可能在數年內甚至永遠無法實現這些投資的回報。",
+    "我們在財務年度2026年實施了新的重整計畫，但我們無法保證這些計畫能達成預期的結果。",
+    "本公司部分營業收入係來自政府機構之銷售，此等銷售可能面臨獨特風險，可能對本公司業務造成不利影響。",
+    "高層管理階層或關鍵人員之變動可能導致本公司業務受擾，進而對本公司營運成果與財務狀況造成不利影響。",
+    "本公司現有及未來之負債，包括高階轉換票據及循環信用融資，可能對本公司業務、營運成果與財務狀況造成不利影響。",
+    "與國際業務相關之風險",
+    "本公司在印度之重大營運活動，使本公司面臨營運、經濟及勞動相關風險，可能對本公司業務造成不利影響。",
+    "本公司可能因外幣匯率波動而遭受影響，進而對營運成果與財務狀況造成不利影響。",
+    "本公司之國際銷售與營運活動，可能因相關因素而對營運成果造成不利影響。",
+    "與科技與安全相關之風險",
+    "本公司可能面臨資訊系統故障、網路中斷、網路安全事件及資料安全漏洞等風險，此等風險可能對本公司業務、營運成果及財務狀況造成不利影響。",
+    "本公司可能無法成功執行運用人工智慧（AI）的相關計畫，此等情況可能對本公司業務、營運成果、財務狀況及聲譽造成不利影響。",
+    "與財務、會計、法規、稅務及其他法律事項相關的風險",
+    "本公司過去曾參與並可能未來參與法律訴訟，此等訴訟可能對本公司業務造成重大不利影響。",
+    "本公司需遵守眾多且不斷演進的隱私及資料保護法律與法規，若本公司實際或被認為未遵守相關法律與法規，可能對本公司業務造成不利影響。"
+   ],
+   "paragraphs": [
+    "您應將下列各項因素與本年度年報中的其他資訊一併考量，以評估我們的業務與未來展望。下列所描述的風險與不確定性並非我們唯一面臨的風險。尚有其他風險與不確定性，目前我們尚未知悉或認為不重要，也可能影響我們的業務運作。若任何上述風險實際發生，將可能對我們的業務與財務結果造成損害。在此情況下，本公司普通股的交易價格可能會下跌。您也應參閱本年度年報中的其他資訊，包括財務報表與相關附註。",
+    "資料保護與網路韌性市場競爭激烈、高度分散，且技術與產業標準快速演進，客戶需求變化，以及新產品頻繁推出。我們的競爭對手在規模與所提供的產品與服務範圍與廣度上各有不同。我們的主要競爭對手包括 Rubrik、Cohesity 與 Veeam，我們也面臨來自大型科技公司、雲端服務供應商、服務供應商以及其他現有或新興市場參與者的競爭，這些公司提供的產品或服務可能與我們產品組閤中的某些部分競爭，或被客戶視為我們產品的替代方案。",
+    "許多競爭對手擁有遠較我們更強大的財務、技術、銷售與行銷資源，以及更大的已安裝客戶基礎與更高的品牌認知度。這些競爭對手可能更能迅速回應新興或演進的技術、客戶需求與產業標準，或投入更多資源於其產品的研發、推廣、銷售與支援。我們產業的競爭受到多種因素影響，包括產品功能、效能與整合；平台與工作負載的覆蓋範圍；投資與擴張能力；價格與總成本；全球銷售基礎設施；技術支援的品質；品牌認知與聲譽；以及解決客戶不斷演進的網路韌性需求的能力。若我們無法在這些因素上有效競爭，我們的競爭地位可能削弱，並可能導致營收減少、毛利率壓力或市場佔有率流失，這可能會對我們的業務、營運結果與財務狀況造成不利影響。",
+    "此外，客戶更換現有網路韌性系統通常成本高昂且耗時。我們許多潛在與新採用的客戶先前已實施競爭解決方案，這可能使現有供應商在保留這些客戶時具有優勢，因為他們對客戶環境、資料架構與運作需求已有熟悉度。部分客戶可能不願承擔更換供應商所涉及的成本、複雜性或運作風險，這可能會限制我們獲取新客戶或在現有客戶環境中擴張的能力。",
+    "我們也面臨與產業持續從傳統的本地解決方案轉向雲端與 SaaS 配置模型相關的競爭風險。雖然我們已大幅完成從永續授權模式轉向訂閱模式的轉變，透過定期授權或 SaaS 提供，但部分競爭對手已較長時間採用雲端原生模式。部署模式的差異、客戶採用率、基礎設施需求與價格預期的差異，可能不利於我們在某些市場或應用場景中的競爭能力。",
+    "隨著我們擴展至新市場，現有競爭對手擴大其產品組合，以及新競爭對手進入市場，競爭可能進一步加劇。我們也預期因產業整合而增加競爭，包括來自原始設備製造商（OEM）、系統與網路管理公司及其他市場參與者，這些公司可能透過併購、整合方案或已建立的客戶關係來與我們的解決方案競爭。競爭增加可能導致價格壓力、毛利率下降、市場佔有率流失或對我們產品需求減少，任何一種情況都可能對我們的業務、營運結果與財務狀況造成不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,207 @@
+{
+ "ticker": "CRSP",
+ "cik": "0001674416",
+ "accession": "0001193125-26-048957",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Hemoglobinopathies",
+    "In Vivo Liver Editing",
+    "siRNA-based Programs",
+    "Regenerative Medicine",
+    "Partnerships",
+    "Gene Editing Background",
+    "The CRISPR/Cas9 Technology",
+    "CRISPR/Cas9 gene editing",
+    "Next-generation Editing Modalities",
+    "Our Pipeline",
+    "CASGEVY (exagamglogene autotemcel [exa-cel])",
+    "Next-generation Efforts",
+    "In Vivo Approaches - Liver Editing",
+    "Cardiovascular and Dyslipidemia Programs",
+    "CTX310 Phase 1a Demonstrated Clinically Meaningful Reductions in LDL-C and Triglycerides",
+    "Additional In Vivo Programs",
+    "In Vivo Approaches - siRNA-based Programs",
+    "Our Next-Generation CRISPR Gene-edited Allogeneic CAR T Chassis"
+   ],
+   "paragraphs": [
+    "Our mission is to create transformative gene-based medicines for serious human diseases. We are a leading biopharmaceutical company focused on the development of CRISPR-based therapeutics, including by using CRISPR/Cas9 technology. CRISPR/Cas9 is a revolutionary technology for gene editing, the process of precisely altering specific sequences of genomic DNA. We have advanced this technology from discovery to an approved medicine with unparalleled speed, culminating in the landmark first approval of a CRISPR-based therapy, CASGEVY (exagamglogene autotemcel [exa-cel]), in 2023 with our collaborators at Vertex Pharmaceuticals Incorporated, or Vertex.",
+    "We have established a portfolio of therapeutic programs spanning four core franchises: hemoglobinopathies, in vivo, CAR T approaches and regenerative medicine. Depending on the program, we take either an ex vivo approach, in which we edit cells outside of the human body before administering them to the patient, or an in vivo editing approach, where we deliver the CRISPR-based therapeutic directly to target cells within the human body.",
+    "• Hemoglobinopathies: Our most advanced program, CASGEVY, has received approval in the United States and other countries for the treatment of eligible patients with severe sickle cell disease, or SCD, or transfusion-dependent beta thalassemia, or TDT, two genetic disorders of hemoglobin, or hemoglobinopathies, with high unmet medical need. In addition, we have further research efforts, also in collaboration with Vertex, on targeted conditioning and in vivo editing of hematopoietic stem cells that have the potential to expand the number of patients that could benefit significantly.",
+    "• In vivo approaches: We are advancing a portfolio of programs leveraging in vivo editing for both common and rare diseases, as well as using siRNA approaches.",
+    "• CAR T: We are progressing next-generation gene-edited cell therapy programs, including allogeneic chimeric antigen receptor T cell, or CAR T, candidates for autoimmune indications and oncology.",
+    "• Regenerative medicine: We are advancing a deviceless beta cell replacement product candidate consisting of unencapsulated precursor islet cells derived from induced pluripotent stem cells for the treatment of Type 1 diabetes, or T1D.",
+    "We continue to innovate on our platform to develop next-generation technologies that can enable new therapies. We are developing other technologies, including delivery technologies and other gene editing technologies, like SyNTase. Through our efforts, we aim to unlock the full potential of gene-based therapeutics to create medicines that can transform people's lives. We believe that our innovative research, translational expertise, and clinical development experience, position us as a leader in the development of CRISPR-based therapeutics and may enable us to create an entirely new class of highly effective and potentially curative therapies for patients with both common and rare diseases for whom current biopharmaceutical approaches have had limited success.",
+    "CASGEVY is a non-viral, ex vivo CRISPR/Cas9 gene-edited cell therapy, in which a patient's own hematopoietic stem and progenitor cells are edited at the erythroid specific enhancer region of the BCL11A gene through a precise double-strand break. This edit results in the production of high levels of fetal hemoglobin in red blood cells, which can compensate for the defective adult hemoglobin in patients with SCD and TDT. CASGEVY is the first therapy to emerge from our strategic partnership with Vertex and is being advanced under a joint development and commercialization agreement between us and Vertex and certain of its affiliates.",
+    "In 2023, CASGEVY became the first-ever approved CRISPR-based gene-editing therapy in the world. To date, CASGEVY has been approved in the United States, European Union, Great Britain, Canada, Switzerland and certain countries in the Middle East for the treatment of eligible patients 12 years and older with SCD or TDT. Efficacy data presented to date support the profile of this therapy as a potential one-time functional cure for people with severe SCD and TDT.",
+    "We continue to advance our internally developed targeted conditioning program, as well as in vivo hematopoietic stem cell editing approaches utilizing lipid nanoparticle-mediated delivery through preclinical studies. Both initiatives could significantly expand the addressable patient populations for SCD and TDT.",
+    "We have established a leading platform for in vivo gene editing and are rapidly advancing a pipeline of in vivo gene editing",
+    "candidates that target the liver, taking advantage of validated lipid nanoparticle, or LNP, delivery technologies, and aim to treat diseases where we can produce a strong therapeutic effect by safely disrupting a gene with well-understood genetic association. We have established a proprietary LNP delivery platform to enable gene editing in the liver using both CRISPR/Cas9 and our novel, proprietary SyNTase editing technologies. Our in vivo portfolio includes cardiovascular investigational programs, such as CTX310, directed towards angiopoietin-related protein 3 or ANGPTL3, which is currently in an ongoing Phase 1b clinical trial. Additionally, we have a number of earlier stage investigational in vivo programs leveraging gene disruption in the liver for both common and rare diseases, including CTX340, directed towards angiotensinogen for the treatment of refractory hypertension, our next-generation LPA program, CTX321, and CTX460, directed towards SERPINA1 using our proprietary SyNTase editing platform, for the treatment of alpha-1 antitrypsin deficiency. We are also pursuing additional delivery technologies, including LNPs, for delivery to tissues beyond the liver, including hematopoietic stem cells and T cells.",
+    "Our siRNA-based portfolio includes clinical-stage programs in cardiovascular and thromboembolic diseases, developed in collaboration with Sirius Therapeutics and certain of its affiliates, or Sirius.",
+    "CTX611 (formerly known as SRSD107) is a novel double-stranded, long-acting siRNA, designed to target the human coagulation factor XI, or FXI, messenger RNA and inhibit FXI protein expression. Through modulation of the intrinsic coagulation pathway, CTX611 is intended to provide anticoagulant and antithrombotic effects. Supported by clinical experience conducted by Sirius in two Phase 1 clinical trials, CTX611 is being developed as a long-acting FXI inhibitor with the potential to support infrequent, including semi-annual, subcutaneous administration. CTX611 is in an ongoing Phase 2 clinical trial in patients undergoing total knee arthroplasty."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Financial Position and Need for Additional Capital",
+    "Risks Related to Our Business, Technology and Industry"
+   ],
+   "paragraphs": [
+    "This report contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those discussed in this report. Factors that could cause or contribute to these differences include, but are not limited to, those discussed below and elsewhere in this report and in any documents incorporated in this report by reference.",
+    "You should carefully consider the following risk factors, together with all other information in this report, including our financial statements and notes thereto, and in our other filings with the U.S. Securities and Exchange Commission, or SEC. If any of the following risks, or other risks not presently known to us or that we currently believe to not be significant, develop into actual events, then our business, financial condition, results of operations or prospects could be materially adversely affected. If that happens, the market price of our common shares could decline, and shareholders may lose all or part of their investment.",
+    "We Have Incurred Significant Operating Losses Since Our Inception And Anticipate That We Will Incur Continued Losses For The Foreseeable Future.",
+    "We have funded our operations through public and private offerings of our equity securities, private placements of our preferred shares, convertible loans and collaboration agreements with strategic partners. While we were profitable for the year ended December 31, 2021 due to an upfront payment associated with our collaboration with Vertex, we are not currently profitable and we do not expect to be profitable in future years. Our prior losses, combined with expected future losses, have had and will continue to have an adverse effect on our shareholders' deficit and working capital. We anticipate that our expenses will increase substantially if and as we:",
+    "• continue our clinical trials for our various wholly-owned and partnered programs;",
+    "• continue our current research programs and our preclinical and clinical development of product candidates;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Hemoglobinopathies",
+    "In Vivo Liver Editing",
+    "siRNA-based Programs",
+    "Regenerative Medicine",
+    "Next-generation Editing Modalities",
+    "Partnerships",
+    "Financial Overview",
+    "Revenue Recognition",
+    "Research and Development Expenses",
+    "Acquired In-Process Research and Development Expenses",
+    "General and Administrative Expenses",
+    "Collaboration Expense, Net",
+    "Other Income (Expense), Net",
+    "Critical Accounting Policies and Significant Judgments and Estimates",
+    "Collaboration Arrangements",
+    "Accrued research and development expenses",
+    "Recent Accounting Pronouncements",
+    "Results of Operations",
+    "Years Ended December 31,",
+    "Period Change",
+    "(in thousands)",
+    "Period to Period",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations together with our consolidated financial statements and related notes appearing elsewhere in this Annual Report on Form 10-K. Some of the information contained in this discussion and analysis or set forth elsewhere in this Annual Report on Form 10-K, including information with respect to our plans and strategy for our business and related financing, includes forward-looking statements that involve risks and uncertainties. As a result of many factors, including those factors set forth in the \"Risk Factors\" section of this Annual Report on Form 10-K, our actual results could differ materially from the results described in or implied by the forward-looking statements contained in the following discussion and analysis.",
+    "Our mission is to create transformative gene-based medicines for serious human diseases. We are a leading biopharmaceutical company focused on the development of CRISPR-based therapeutics, including by using CRISPR/Cas9 technology. We have established a portfolio of therapeutic programs spanning four core franchises: hemoglobinopathies, in vivo approaches, CAR T, and regenerative medicine. Depending on the program, we take either an ex vivo approach, in which we edit cells outside of the human body before administering them to the patient, or an in vivo editing approach, where we deliver the CRISPR-based therapeutic directly to target cells within the human body.",
+    "CRISPR/Cas9 is a revolutionary technology for gene editing, the process of precisely altering specific sequences of genomic DNA. We have advanced this technology from discovery to an approved medicine with unparalleled speed, culminating in the landmark first approval of a CRISPR-based therapy, CASGEVY (exagamglogene autotemcel [exa-cel]), in 2023 with our collaborators at Vertex Pharmaceuticals Incorporated, or Vertex.",
+    "We continue to innovate on our platform to develop next-generation technologies that can enable new therapies. We are developing other technologies, including delivery technologies and other gene editing technologies, like SyNTase. Through our efforts, we aim to unlock the full potential of gene-based therapeutics to create medicines that can transform people's lives. We believe that our innovative research, translational expertise, and clinical development experience, position us as a leader in the development of CRISPR-based therapeutics and may enable us to create an entirely new class of highly effective and potentially curative therapies for patients with both common and rare diseases for whom current biopharmaceutical approaches have had limited success.",
+    "CASGEVY is a non-viral, ex vivo CRISPR/Cas9 gene-edited cell therapy, in which a patient's own hematopoietic stem and progenitor cells are edited at the erythroid specific enhancer region of the BCL11A gene through a precise double-strand break. This edit results in the production of high levels of fetal hemoglobin in red blood cells, which can compensate for the defective adult hemoglobin in patients with SCD and TDT. CASGEVY is the first therapy to emerge from our strategic partnership with Vertex and is being advanced under a joint development and commercialization agreement between us and Vertex and certain of its affiliates.",
+    "In 2023, CASGEVY became the first-ever approved CRISPR-based gene-editing therapy in the world. To date, CASGEVY has been approved in the United States, European Union, Great Britain, Canada, Switzerland and certain countries in the Middle East for the treatment of eligible patients 12 years and older with SCD or TDT. We and Vertex continue to investigate CASGEVY, including in clinical trials designed to assess the safety and efficacy of a single dose of CASGEVY in patients 12 to 35 years of age with severe SCD and TDT, respectively, two pivotal trials in patients 5 to 11 years of age, one in severe SCD and a second in TDT, and long-term follow-up clinical trials designed to follow participants for up to 15 years after CASGEVY infusion. Overall, CASGEVY safety data presented to date is generally consistent with an autologous stem cell transplant and myeloablative conditioning. Efficacy data presented to date support the profile of this therapy as a potential one-time functional cure for people with severe SCD and TDT.",
+    "We continue to advance our internally developed targeted conditioning program, as well as in vivo hematopoietic stem cell editing approaches utilizing lipid nanoparticle-mediated delivery through preclinical studies. Both initiatives could significantly expand the addressable patient populations for SCD and TDT.",
+    "We have established a leading platform for in vivo gene editing and are rapidly advancing a pipeline of in vivo gene editing candidates that target the liver, taking advantage of validated lipid nanoparticle, or LNP, delivery technologies, and aim to treat diseases where we can produce a strong therapeutic effect by safely disrupting a gene with well-understood genetic association. We have established a proprietary LNP delivery platform to enable gene-editing in the liver using both CRISPR/Cas9 and our novel, proprietary SyNTase editing technologies.",
+    "Our in vivo portfolio includes cardiovascular programs, such as CTX310, directed towards angiopoietin-related protein 3 or ANGPTL3, which is currently in an ongoing Phase 1b clinical trial in patients with heterozygous familial hypercholesterolemia, homozygous familial hypercholesterolemia, mixed dyslipidemias, or severe hypertriglyceridemia.",
+    "In addition, we have a number of earlier stage investigational in vivo programs leveraging gene disruption in the liver for both common and rare diseases, including CTX340, directed towards angiotensinogen for the treatment of refractory hypertension; our next-generation LPA program, CTX321 directed towards LPA, the gene encoding apolipoprotein(a), a major component of lipoprotein(a), or Lp(a), and CTX460, directed towards SERPINA1 using our proprietary SyNTase editing platform, for the treatment of alpha-1 antitrypsin deficiency. CTX340 and CTX321 are currently in IND-enabling studies in patients with refractory hypertension and in patients with elevated Lp(a), which has been shown to have an independent association with major adverse cardiovascular events, respectively. We are progressing CTX460 through preclinical studies. We are also pursuing additional delivery technologies, including LNPs, for delivery to tissues beyond the liver, including hematopoietic stem cells and T cells.",
+    "Our siRNA-based portfolio includes clinical-stage programs in cardiovascular and thromboembolic diseases, developed in collaboration with Sirius Therapeutics and certain of its affiliates, or Sirius.",
+    "CTX611 (formerly known as SRSD107) is a novel double-stranded, long-acting siRNA, designed to target the human coagulation factor XI, or FXI, messenger RNA and inhibit FXI protein expression. Through modulation of the intrinsic coagulation pathway, CTX611 is intended to provide anticoagulant and antithrombotic effects. Supported by clinical experience conducted by Sirius in two Phase 1 clinical trials, CTX611 is being developed as a long-acting FXI inhibitor with the potential to support infrequent, including semi-annual, subcutaneous administration.",
+    "CTX611 is in an ongoing Phase 2 clinical trial in patients undergoing total knee arthroplasty.",
+    "We believe CRISPR/Cas9 has the potential to create the next generation of CAR T cell therapies that may have a superior product profile and allow broader patient access compared to current autologous therapies. We are advancing cell therapy programs for autoimmune indications and oncology."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "血紅素病變",
+    "體內肝臟編輯",
+    "siRNA 基礎方案",
+    "再生醫學",
+    "合作夥伴",
+    "基因編輯背景",
+    "CRISPR/Cas9 技術",
+    "CRISPR/Cas9 基因編輯",
+    "次世代編輯技術",
+    "我們的產品線",
+    "CASGEVY (exagamglogene autotemcel [exa-cel])",
+    "次世代努力方向",
+    "體內治療方法 - 肝臟編輯",
+    "心血管及血脂異常計畫",
+    "CTX310 第一期臨牀試驗顯示 LDL-C 與三酸甘油酯臨牀意義顯著降低",
+    "其他體內治療計畫",
+    "在體內的應用方式 - 基於 siRNA 的計畫",
+    "我們的下一代 CRISPR 編輯基因的同源 CAR T 車體"
+   ],
+   "paragraphs": [
+    "本公司之使命為開發具變革性之基於基因之藥物，以治療嚴重之人類疾病。本公司為一領導性之生物製藥公司，專注於開發基於 CRISPR 之療法，包括透過使用 CRIS-PR/Cas9 技術。CRISPR/Cas9 為一種革命性之基因編輯技術，為精確改變基因組 DNA 特定序列之過程。本公司已將此技術從發現階段推進至獲准藥物，速度遠超預期，並於 2023 年與 Vertex Pharmaceuticals Incorporated（或 Vertex）合作，取得首個基於 CRISPR 之療法 CASGEVY（exagamglogene autotemcel [exa-cel]）之核准。",
+    "本公司已建立涵蓋四大核心領域之治療性計畫組合：血紅素疾病、體內治療、CAR T 方式及再生醫學。根據不同計畫，本公司採用 ex vivo 方式，即在人體外編輯細胞後再給予患者，或採用 in vivo 編輯方式，即將基於 CRISPR 之療法直接送達人體內之目標細胞。",
+    "• 血紅素疾病：本公司最進展之計畫 CASGEVY，已獲美國及其他國家核准，用以治療符合條件之嚴重鐮狀細胞貧血（SCD）或需輸血之 beta-thalassemia（TDT）患者，兩者皆為血紅素疾病（hemoglobinopathies），且具有高度未滿足之醫療需求。此外，本公司亦與 Vertex 合作進行針對性條件調整及體內編輯造血幹細胞之研究，此研究有潛力擴大可受益之患者數量。",
+    "• 體內治療方式：本公司正在推進一系列利用體內編輯之計畫，用以治療常見及罕見疾病，並使用 siRNA 方式。",
+    "• CAR T：本公司正在進行次世代基因編輯細胞治療計畫，包括用於自身免疫性疾病及腫瘤之同源性嵌合抗原受體 T 細胞（CAR T）候選藥物。",
+    "• 再生醫學：本公司正在推進一種無設備之 beta 細胞替代產品候選藥物，此產品為由誘導多能幹細胞衍生之未包覆之前胰島細胞，用以治療第一型糖尿病（T1D）。",
+    "本公司持續創新平台，以開發次世代技術，使能創造新療法。本公司亦在開發其他技術，包括遞送技術及其他基因編輯技術，如 SyNTase。透過本公司努力，我們旨在發揮基於基因之療法之全部潛力，創造可改變人們生活的藥物。我們相信，本公司具創新研究、轉譯專業及臨牀開發經驗，使本公司成為基於 CRISPR 之療法開發之領導者，並可能創造出對常見及罕見疾病患者具有高度療效且具潛在根治性之全新療法類別，對現有生物製藥方法成效有限之患者。",
+    "CASGEVY 為一種非病毒性 ex vivo 基於 CRISPR/Cas9 之基因編輯細胞治療，透過精確之雙股斷裂，編輯患者自身造血幹細胞及前體細胞於 BCL11A 基因之紅血球特異性增強子區域。此編輯結果使紅血球產生高量之胎兒血紅素，可補償 SCD 及 TDT 患者之缺陷成人血紅素。CASGEVY 為本公司與 Vertex 戰略合作之首個療法，並根據本公司與 Vertex 及其部分附屬公司之間之共同開發及商業化協議進行推進。",
+    "2023年，CASGEVY成為全球首個獲批准的基於CRISPR的基因編輯療法。截至目前為止，CASGEVY已在美國、歐盟、英國、加拿大、瑞士以及中東某些國家獲准用於治療年齡12歲以上且符合資格的SCD或TDT患者。截至目前為止所提供的療效數據支持此療法具有潛力作為一種一次性的功能性治癒方案，用於治療嚴重的SCD和TDT患者。",
+    "我們持續推進我們內部開發的針對性條件調整計畫，以及透過預臨牀研究進行的體內造血幹細胞編輯方法，該方法利用脂質奈米粒子媒介的遞送方式。這兩個計畫都可能顯著擴大SCD和TDT的可治療患者羣體。",
+    "我們已建立一個領先的體內基因編輯平台，並正在快速推進一連串體內基因編輯的產品線",
+    "目標為肝臟的候選藥物，利用已驗證的脂質奈米粒子，或 LNP，遞送技術，並旨在治療那些我們可以透過安全地幹擾具有明確遺傳關聯的基因，產生強效治療效果的疾病。本公司已建立專屬的 LNP 遞送平台，以利用 CRISPR/Cas9 以及本公司新穎、專屬的 SyNTase 編輯技術，實現肝臟的基因編輯。本公司在體內的產品組合包括心血管研究性計畫，例如 CTX310，針對血管生成素相關蛋白 3 或 ANGPTL3，目前正進行一項持續的 Phase 1b 臨牀試驗。此外，本公司亦有數個早期階段的研究性體內計畫，利用肝臟的基因幹擾來治療常見及罕見疾病，包括 CTX340，針對血管緊張素原以治療難治性高血壓，我們的下一代 LPA 程式 CTX321，以及 CTX460，利用本公司專屬的 SyNTase 編輯平台，針對 SERPINA1 以治療 alpha-1 抗胰蛋白酶缺乏症。本公司亦在追求其他遞送技術，包括 LNPs，以遞送至肝臟以外的組織，包括造血幹細胞和 T 細胞。",
+    "本公司 siRNA 基因組合包括心血管及血栓栓塞疾病的臨牀階段計畫，與 Sirius Therapeutics 及其部分附屬公司，或 Sirius，共同開發。",
+    "CTX611（ formerly known as SRSD107） 是一種新型雙鏈、長效 siRNA，設計用以針對人類凝血因子 XI，或 FXI，訊息 RNA 並抑制 FXI 蛋白質表現。透過調節內在凝血途徑，CTX611 旨在提供抗凝血及抗血栓效果。根據 Sirius 在兩項 Phase 1 臨牀試驗中的臨牀經驗支持，CTX611 正被開發為一種長效 FXI 抑製劑，具有支持罕見、包括每半年一次，皮下給藥的潛力。CTX611 正進行一項持續的 Phase 2 臨牀試驗，用於接受全膝關節置換術的病患。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "血紅素病變",
+    "體內肝臟編輯",
+    "siRNA 類程式",
+    "再生醫學",
+    "次世代編輯模式",
+    "合作夥伴",
+    "財務概覽",
+    "收入認列",
+    "研究與開發費用",
+    "取得之進行中研究與開發費用",
+    "一般及行政費用",
+    "合作費用，淨額",
+    "其他收入（費用），淨額",
+    "關鍵會計政策及重要判斷與估計",
+    "合作安排",
+    "應計研究與開發費用",
+    "最近會計準則公告",
+    "營運成果",
+    "截至12月31日止年度",
+    "期間變動",
+    "(以千為單位)",
+    "期間對期間",
+    "流動性及資金來源",
+    "流動性來源"
+   ],
+   "paragraphs": [
+    "您應閱讀以下對我們財務狀況及營運成果的討論與分析，並與本年度10-K申報表中其他處所出現的合併財務報表及相關附註一併參考。本討論與分析中包含的部分資訊，或於本年度10-K申報表其他處所出現的資訊，包括有關我們業務與相關融資的計畫與策略，包含風險與不確定性之預測性陳述。由於許多因素，包括本年度10-K申報表「風險因素」部分所列因素，我們的實際結果可能與預測性陳述中所描述或暗示的結果有重大差異。",
+    "我們的使命是為嚴重的人類疾病開發具有變革性的基因基準藥物。我們是一家專注於開發基於CRISPR的治療方案的領導生物製藥公司，包括使用CRISPR/Cas9技術。我們已建立涵蓋四大核心領域的治療方案組合：血紅蛋白病、體內方法、CAR T及再生醫學。根據不同方案，我們採用體外方法，即在將細胞給予患者前於體外編輯細胞，或採用體內編輯方法，即將基於CRISPR的治療藥物直接送達人體內的目標細胞。",
+    "CRISPR/Cas9是一項用於基因編輯的革命性技術，其過程為精確地改變基因組DNA的特定序列。我們已從發現階段將此技術推進至獲准藥物，速度遠超以往，最終在2023年與Vertex Pharmaceuticals Incorporated（Vertex）合作夥伴共同取得基於CRISPR的治療藥物的首個核准，即CASGEVY（exagamglogene autotemcel [exa-cel]）。",
+    "我們持續創新我們的平台，以開發下一代技術，這些技術可啟動新的治療方案。我們正在開發其他技術，包括遞送技術及其他基因編輯技術，例如SyNTase。透過我們的努力，我們旨在發揮基於基因的治療方案的全部潛力，以創造可改變人們生活的藥物。我們相信，我們的創新研究、轉譯專業知識及臨牀開發經驗，使我們成為開發基於CRISPR的治療方案的領導者，並可能使我們能為目前生物製藥方案對之成效有限的常見及罕見疾病患者，創造一整類高度有效且可能具根治性的治療方案。",
+    "CASGEVY是一種非病毒性、體外CRISPR/Cas9基因編輯細胞治療方案，其中患者的造血幹細胞與前體細胞在BCL11A基因的紅血球特異性增強區域進行編輯，透過精確的雙鏈斷裂。此編輯會導致紅血球產生高水平的胎兒血紅蛋白，可補償患有SCD及TDT患者的缺陷成人血紅蛋白。CASGEVY是我們與Vertex戰略合作夥伴關係中首個出現的治療方案，並根據我們與Vertex及某些其附屬公司之間的共同開發與商業化協議進行推進。",
+    "2023年，CASGEVY成為全球首個獲准的基於CRISPR的基因編輯治療方案。截至目前為止，CASGEVY已在美國、歐盟、英國、加拿大、瑞士及中東某些國家獲准，用於治療符合條件的12歲以上患有SCD或TDT的患者。我們與Vertex持續研究CASGEVY，包括設計用以評估單劑CASGEVY在12至35歲患有嚴重SCD及TDT患者的臨牀試驗，兩項關鍵試驗針對5至11歲患者，一項針對嚴重SCD，另一項針對TDT，以及設計用以追蹤參與者在CASGEVY注射後最多15年的長期追蹤臨牀試驗。總體而言，目前呈現的CASGEVY安全性數據與自體幹細胞移植及髓毒性條件化治療的數據大致一致。目前呈現的療效數據支持此治療方案作為一種可能的單次功能性根治方案，用於治療嚴重SCD及TDT患者。",
+    "我們持續推進我們內部開發的目標條件化方案，以及利用脂質奈米粒子遞送技術的體內造血幹細胞編輯方法，透過前期臨牀研究。這兩個計畫可能大幅擴大SCD及TDT的可治療患者羣。",
+    "我們已建立一個領先的體內基因編輯平台，並迅速推進一連串體內基因編輯候選方案，這些方案針對肝臟，利用已驗證的脂質奈米粒子（LNP）遞送技術，並旨在治療那些我們能透過安全地幹擾具有明確遺傳關聯的基因而產生強烈治療效果的疾病。我們已建立專屬的LNP遞送平台，以利用CRISPR/Cas9及我們專屬的SyNTase編輯技術，實現肝臟的基因編輯。",
+    "本公司之 in vivo 零件組合包含心血管計畫，例如 CTX310，針對與 angiopoietin 相關蛋白 3 或 ANGPTL3，目前正進行一項持續的 Phase 1b 臨牀試驗，用於治療異質性家族性高膽固醇血癥、同質性家族性高膽固醇血癥、混合型脂質代謝異常或嚴重高甘油三酯血癥患者。",
+    "此外，本公司有數項較早期階段的 investigational in vivo 計畫，利用基因幹擾技術於肝臟中治療常見與罕見疾病，包括 CTX340，針對 angiotensinogen 用於治療難治性高血壓；我們的下一代 LPA 計畫 CTX321，針對 LPA，即編碼 apo lipoprotein(a) 的基因，為脂蛋白(a) 或 Lp(a) 的主要零組件，以及 CTX460，針對 SERPINA1，使用本公司專有的 SyNTase 編輯平台，用於治療 alpha-1 抗胰蛋白酶缺乏症。CTX340 和 CTX321 目前正在進行 IND 啓動研究，用於治療難治性高血壓患者及 Lp(a) 水平升高患者，後者已被證實與主要不良心血管事件有獨立關聯。我們正在進行 CTX460 的臨牀前研究。我們也在追蹤其他遞送技術，包括 LNPs，用於遞送至肝臟以外的組織，包括造血幹細胞和 T 細胞。",
+    "本公司之 siRNA 基因組合包含心血管及血栓栓塞疾病的臨牀階段計畫，與 Sirius Therapeutics 及其部分附屬公司合作開發，或稱 Sirius。",
+    "CTX611（原為 SRSD107）是一種新型雙鏈、長效 siRNA，設計用以針對人類凝血因子 XI 或 FXI 的 mRNA，並抑制 FXI 蛋白質表現。透過調節內在凝血途徑，CTX611 旨在提供抗凝血及抗血栓效果。根據 Sirius 在兩項 Phase 1 臨牀試驗中進行的臨牀經驗，CTX611 正被開發為一種長效 FXI 抑製劑，具有支持罕見、包括每半年一次皮下注射的潛力。",
+    "CTX611 正進行一項持續的 Phase 2 臨牀試驗，用於接受全膝關節置換術的患者。",
+    "本公司認為 CRISPR/Cas9 有潛力創造下一代 CAR T 細胞治療，可能具有更優越的產品特性，並允許更廣泛的患者使用，與現有自體治療相比。我們正在推動細胞治療計畫，用於自身免疫性疾病及腫瘤領域。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司財務狀況相關之風險及對額外資金之需求",
+    "與本公司業務、技術及產業相關之風險"
+   ],
+   "paragraphs": [
+    "本報告包含前瞻性陳述，涉及風險與不確定性。我們的實際結果可能與本報告中所討論的結果有重大差異。導致這些差異的因素包括，但不僅限於，以下所討論的內容及其他處於本報告中，以及任何被本報告引用的文件中所提及的內容。",
+    "您應謹慎考量以下風險因素，並與本報告中的所有其他資訊，包括我們的財務報表及其附註，以及我們向美國證券交易委員會，或 SEC 提交的其他申報文件一併考量。如果任何上述風險，或其他目前未為我們所知或我們目前認為不具重大影響的風險，發展成為實際事件，則我們的業務、財務狀況、營運結果或前景可能受到重大不利影響。如果發生這種情況，我們普通股的市場價格可能會下跌，股東可能會損失全部或部分投資。",
+    "自我們成立以來，我們已產生重大營運虧損，並預期在可預見的未來，我們將持續產生虧損。",
+    "我們透過公開與私募發行我們的股東權益證券、私募發行我們的優先股、可轉換貸款以及與戰略夥伴的合作協議來資助我們的營運。雖然我們在2021年12月31日財年因與Vertex的合作所產生的 upfront payment 而獲利，但目前我們並未獲利，且我們不預期未來會獲利。我們的先前虧損，加上預期的未來虧損，已對我們股東權益及營運資金產生並持續產生負面影響。我們預期，如果我們：",
+    "• 繼續進行我們各項 wholly-owned 與合作計畫的臨牀試驗；",
+    "• 繼續進行我們目前的研究計畫以及產品候選藥物的前期臨牀與臨牀開發；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,142 @@
+{
+ "ticker": "ADUS",
+ "cik": "0001468328",
+ "accession": "0001437749-26-005352",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "For the Years Ended December 31,",
+    "(Amounts in Thousands)",
+    "Our Market and Opportunity",
+    "Our Growth Strategy",
+    "Our Services",
+    "Sales and Marketing",
+    "Payment for Services",
+    "Insurance Programs and Costs",
+    "Human Capital Management",
+    "Government Regulation"
+   ],
+   "paragraphs": [
+    "Addus has been providing home care services since 1979. We operate three segments: personal care, hospice, and home health. Our services are principally provided in-home under agreements with federal, state and local government agencies, managed care organizations, commercial insurers and private individuals. Our consumers are predominantly \"dual eligible,\" meaning they are eligible to receive both Medicare and Medicaid benefits.",
+    "As of December 31, 2025, we provided services in 23 states through approximately 262 offices. For the year ended December 31, 2025, we served approximately 107,000 discrete consumers.",
+    "We continue to drive organic growth while also growing through acquisitions, focusing on growth in the states in which we have a presence while adding clinical care services to our offerings. As of December 31, 2025, we provide all three levels of care, personal care, home health and hospice services, in Ohio, Tennessee, Illinois and New Mexico and strategically continue to pursue other markets.",
+    "A summary of our financial results is provided in the table below.",
+    "Personal care 1,089,215 856,581 Hospice 262,542 228,191 Home health 70,773 69,827 Total net service revenue by segment",
+    "1,422,530 1,154,599 Net income 95,910 73,598 Total assets 1,437,308 1,412,634",
+    "Our services and operating model address a number of crucial needs across the healthcare continuum. Care provided in the home generally costs less than facility-based care and is typically preferred by consumers and their families. By providing services in the home to the elderly and others who require long-term care and support with the activities of daily living, we lower the cost of chronic and acute care treatment by delaying or eliminating the need for care in more expensive settings. In addition, our caregivers observe and report changes in the condition of our consumers for the purpose of facilitating early intervention in the disease process, which often reduces the cost of medical services by preventing unnecessary emergency room visits and/or hospital admissions and re-admissions. We coordinate the services provided by our team with those of other healthcare providers and payors, as appropriate. Changes in a consumer's conditions are evaluated by appropriately trained managers, which may result in a report to the consumer's case manager at a managed care organization or other payor. By providing care in the preferred setting of the home and by providing opportunities to improve the consumer's conditions and allow early intervention as indicated, our model also is designed to improve consumer outcomes and satisfaction.",
+    "We believe our model provides significant value to managed care organizations. States predominantly deliver services to Medicaid enrollees through comprehensive managed care models, most of which are administered by managed care organizations. As a result, managed care organizations have assumed significant responsibility for the healthcare needs and the related healthcare costs of our consumers. Managed care organizations have an economic incentive to better manage the healthcare expenditures of their members, lower costs and improve outcomes. We believe that our model is well positioned to assist in meeting those goals while also improving consumer satisfaction, and, as a result, we expect increased referrals from managed care organizations.",
+    "We provide home care services that primarily include personal care services to assist with activities of daily living, as well as hospice and home health services. These services allow the elderly and other infirm adults who require long-term care and assistance with activities of daily living to maintain their independence at home with their families. Personal care services are a significant component of home and community-based services (\"HCBS\"), which have grown in significance and demand in recent years. In particular, the demand for personal care services is growing from managed care delivery models, including Medicaid Long-Term Services and Supports programs and Medicare Advantage plans. Managed care plans aim to manage cost, utilization and quality through collaboration of health insurance plans and healthcare providers. We also offer personal care services to private pay consumers. We expect demand for HCBS to continue to grow due to the aging of the U.S. population and improved opportunities for individuals to receive home-based care as an alternative to institutional care.",
+    "Because our model serves an aging population in a home setting at a lower cost, we believe that we have favorable opportunities for growth. The personal care, hospice and home health service industries have developed in a fragmented manner, with many small participants and a few larger participants that have a significant market share across multiple regions or states. The historic lack of licensure or certification requirements in some states makes it difficult to estimate the number of home-based services agencies, although these requirements and other barriers to entry such as the operational requirements discussed in the next paragraph are increasing. We expect ongoing consolidation within our industry, driven by the desire of healthcare systems and managed care organizations to narrow their networks of service providers, and also by the industry's increasingly complex regulatory, operating and technology requirements. We believe we are well-positioned to capitalize on these trends, given our reputation in the market, strong payor relationships and integration of technology into our business model.",
+    "The personal care services industry is subject to increasing regulation. Many states require providers to register with regulatory authorities or obtain licenses. At the federal level, efforts have focused on improved coordination of regulation across the various types of Medicaid programs through which personal care services are offered. For example, federal standards require states to mandate that providers use an electronic visit verification (\"EVV\") system to collect certain data from Medicaid-funded home visits. States that do not comply face incremental reductions in federal Medicaid funding. States have flexibility in the model they use to implement the mandate, which means EVV systems, vendors and contracting processes can vary significantly by state. Providers must dedicate substantial resources toward continuing compliance with all applicable laws and regulations, and significant expenditures may be necessary to offer new services or to expand into new markets. We believe licensing and other operational requirements and regulations, the increasing focus on improving health outcomes, the rising cost and complexity of operations and technology and pressure on reimbursement rates may discourage new providers and may encourage industry consolidation.",
+    "As discussed in more detail below, our consumers are predominantly \"dual eligibles,\" meaning they are eligible for both Medicare and Medicaid. We believe that our personal care program and our technology make us well-suited to partner with managed care organizations to address the needs of the dual-eligible population, and we believe that our ability to identify changes in our consumers' health and condition before acute intervention is required will lower the overall cost of care. We believe this approach to care delivery and the integration of our services into the broader healthcare continuum are particularly attractive to managed care organizations and others who are ultimately responsible for the healthcare needs of our consumers and over time will increase our business with these organizations.",
+    "The growth of our revenues is closely correlated with the number of consumers to whom we provide our services. Our continued growth depends on our ability to provide consistent high-quality care, maintain our existing payor relationships, establish relationships with new payors, increase our referral sources and attract and retain caregivers. Our continued growth is also dependent upon the authorization by state agencies of new consumers to receive our services. We believe there are several market opportunities for growth as the population ages. Individuals generally prefer to receive care in their homes, and we believe the COVID-19 pandemic heightened this preference due to health concerns that may be associated with institutional settings for long-term care, along with concerns about the imposition of visitor restrictions that may be imposed during a public health crisis. Finally, we believe the provision of home-based services is more cost-effective than the provision of similar services in institutional settings for long-term care. We plan to continue our revenue growth and enhance our competitive positioning by executing on the following growth strategies:",
+    "We schedule and require our caregivers to perform their services as defined within the individual plan of care. We monitor the performance of our caregivers through regular supervisory visits in the homes of consumers. Our caregivers are provided with pre-service training and orientation and an evaluation of their skills. In many cases, caregivers are also required to attend ongoing in-service education. In certain states, our caregivers are required to complete certified training programs and maintain a state certification. The training assists our caregivers with identifying changes in our consumers' health and condition before acute intervention is required, which we believe lowers the overall cost of care."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to our Growth Strategy",
+    "Our growth strategy depends on our ability to manage growing and effectively integrating operations and we may not be successful in managing this growth.",
+    "Completed or future acquisitions, or growth initiatives, may be unsuccessful and could expose us to unforeseen liabilities.",
+    "We may be unable to pursue acquisitions or expand into new geographic regions without obtaining additional capital or consent from our lenders.",
+    "Business Risks",
+    "Our financial results have been, and may continue to be, adversely impacted by negative macroeconomic conditions.",
+    "Timing differences in reimbursement may cause liquidity problems.",
+    "We have been and may become the subject of surveys, audits and investigations by governmental agencies and private payors, which could have adverse findings that may negatively impact our business.",
+    "Our revenues are concentrated in a small number of states, which makes us particularly sensitive to regulatory and economic changes in those states.",
+    "Future efforts to reduce the costs of the Illinois Department on Aging programs could adversely affect our service revenues and profitability.",
+    "Failure to renew a significant payor agreement or group of related payor agreements may materially impact our revenue.",
+    "Our business may be harmed by labor relations matters.",
+    "If we were required to write down all or part of our goodwill and/or our intangible assets, our net earnings and net worth could be materially adversely affected.",
+    "If we fail to maintain an effective system of internal control over financial reporting, such failure could adversely impact our business and stock price.",
+    "Any increase in the volume of self-pay patients or deterioration in the collectability of patient responsibility accounts could adversely affect our financial condition or results of operations.",
+    "Regulatory Risks",
+    "Our hospice operations are subject to annual Medicare caps. If we exceed the caps, our business and consolidated financial condition, results of operations and cash flows could be materially adversely affected.",
+    "Federal and state regulation may impair our ability to consummate acquisitions or open new agencies.",
+    "The implementation of alternative payment models and any increases in enrollment in Medicare Advantage or Medicaid managed care plans may limit our market share and could adversely affect our revenues.",
+    "Our industry is highly competitive, fragmented and market-specific.",
+    "Our business may be adversely impacted by changes and uncertainty in the healthcare industry, including healthcare public policy developments and other changes to laws and regulations.",
+    "The industry trend toward value-based payment models may negatively impact our revenues."
+   ],
+   "paragraphs": [
+    "Any of the risks described below, and the risks described elsewhere in this Form 10-K, could have a material adverse effect on our business and consolidated financial condition, results of operations and cash flows, cause the trading price of our common stock to decline and cause the actual outcome of matters to differ materially from our current expectations as reflected in forward-looking statements made in this Form 10-K. The considerations and risks that follow are organized within relevant headings but may be relevant to other headings as well. The risk factors described below and elsewhere in this Form 10-K are not the only risks we face. Our business and consolidated financial condition, results of operations and cash flows may also be materially adversely affected by factors that are not currently known to us, by factors that we currently consider immaterial or by factors that are not specific to us, such as general economic conditions.",
+    "You should refer to the explanation of the qualifications and limitations on forward-looking statements under \"Special Caution Concerning Forward-Looking Statements.\" All forward-looking statements made by us are qualified by the risk factors described below.",
+    "Our business plan calls for significant growth over the next several years through the expansion of our services in existing markets and the potential establishment of a presence in new markets. This growth has placed and continues to place significant demands on our management team, systems, internal controls and financial and professional resources. Meeting our growth plans requires us to continue to develop our financial control and reporting system and could require us to incur expenses for hiring additional qualified personnel, retaining professionals to assist in developing the appropriate control systems and expanding our information technology infrastructure. Our inability to effectively manage growth could have a material adverse effect on our financial results.",
+    "Our growth strategy includes potential geographical expansion into new markets and the addition of new services in existing markets through the acquisition of local service providers. These acquisitions involve significant risks and uncertainties, including difficulties assimilating acquired personnel and other corporate cultures into our business, the potential loss of key employees or consumers of acquired providers, regulatory risks, the assumption of liabilities, exposure to unforeseen liabilities of acquired providers and the diversion of the management team's attention. In addition, our due diligence review of acquired businesses may not successfully identify all potential issues. Further, following completion of an acquisition, we may not be able to maintain the growth rate, levels of revenue, earnings or operating efficiency that we and the acquired business have achieved or might achieve separately. The failure to effectively integrate future acquisitions could have a material adverse impact on our operations.",
+    "We have grown our business opportunistically through de novo offices and we may in the future selectively open new offices in existing and new states. De novo offices involve risks, including those relating to licensing, accreditation, payor program enrollment, hiring new personnel, establishing relationships with referral sources and delays or difficulty in installing our operating and information systems. We may not be successful in generating sufficient business activity to sustain the operating costs of such de novo operations.",
+    "At December 31, 2025 and 2024, we had cash balances of $81.6 million and $98.9 million, respectively, and $124.3 million and $223.0 million, respectively, of outstanding debt on our credit facility. After giving effect to the amount drawn on our credit facility, approximately $7.9 million of outstanding letters of credit at each of December 31, 2025 and 2024, and borrowing limits based on an advanced multiple of Adjusted EBITDA (as defined in the Credit Agreement), we had $517.7 million and $346.6 million available for borrowing under our credit facility as of December 31, 2025 and 2024, respectively. Since our credit facility provides for borrowings based on a multiple of an Adjusted EBITDA ratio, any declines in our Adjusted EBITDA would result in a decrease in our available borrowings under our credit facility."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "會計年度終了於12月31日",
+    "(金額以千美元為單位)",
+    "我們的市場與機會",
+    "我們的成長策略",
+    "我們的服務",
+    "銷售與行銷",
+    "服務報酬",
+    "保險方案與費用",
+    "{'original': 'Human Capital Management', 'translated': '人力資源管理'}",
+    "{'original': 'Government Regulation', 'translated': '政府規範'}"
+   ],
+   "paragraphs": [
+    "Addus 自 1979 年開始提供居家照護服務。我們營運三個應報告分部：個人照護、緩和醫療與居家護理。我們的服務主要是在家中透過與聯邦、州及地方政府機構、管理式醫療組織、商業保險公司及私人個人的協議提供。我們的消費者 predominantly 是 \"dual eligible\"，表示他們符合同時領取 Medicare 與 Medicaid 福利的資格。",
+    "截至 2025 年 12 月 31 日，我們透過約 262 個辦公室在 23 個州提供服務。2025 年度，我們服務了約 107,000 名獨立消費者。",
+    "我們持續推動內生性成長，同時透過收購來擴張，專注於在現有營運州增加成長，並為我們的服務組合加入臨牀照護服務。截至 2025 年 12 月 31 日，我們在俄亥俄州、田納西州、伊利諾州與新墨西哥州提供個人照護、居家護理與緩和醫療服務，並戰略性地持續拓展其他市場。",
+    "我們財務結果的摘要請參見下表。",
+    "個人照護 1,089,215 856,581 緊急照護 262,542 228,191 居家護理 70,773 69,827 各應報告分部的淨服務收入",
+    "1,422,530 1,154,599 網路收入 95,910 73,598 總資產 1,437,308 1,412,634",
+    "我們的服務與營運模式解決了醫療照護連續體中許多關鍵需求。居家提供的照護通常成本低於機構照護，且通常被消費者及其家屬所偏好。透過為長者及其他需要長期照護與支持日常活動的個人提供居家服務，我們能降低慢性與急性照護治療的成本，延後或避免在更昂貴的設施中接受照護的需要。此外，我們的照護者會觀察並報告消費者健康狀況的變化，以促進疾病過程的早期幹預，這通常能降低醫療服務成本，避免不必要的急診或住院及再入院。我們會根據需要，協調我們團隊提供的服務與其他醫療服務提供者及付款方的服務。消費者健康狀況的變化會由適當培訓的經理評估，這可能導致向管理式醫療組織或其他付款方的消費者個案管理員報告。透過在消費者偏好的居家環境中提供照護，並提供改善消費者健康狀況的機會及進行適當的早期幹預，我們的模式也旨在提升消費者結果與滿意度。",
+    "我們相信我們的模式為管理式醫療組織提供了顯著價值。各州主要透過綜合管理式醫療模式為 Medicaid 受保人提供服務，其中大多數由管理式醫療組織管理。因此，管理式醫療組織已承擔了我們消費者醫療需求及相關醫療成本的顯著責任。管理式醫療組織有經濟動機來更好地管理其成員的醫療支出、降低成本並改善結果。我們認為，我們的模式非常適合協助達成這些目標，同時也能提升消費者滿意度，因此我們預期會獲得管理式醫療組織更多的轉介。",
+    "我們提供居家照護服務，主要包含協助執行日常活動的個人照護服務，以及緩和醫療與居家護理服務。這些服務讓需要長期照護與協助執行日常活動的長者及其他身心障礙成人，得以在家中與家人共同維持獨立生活。個人照護服務是居家與社區基層服務（\"HCBS\"）的重要零組件，近年來其重要性與需求持續成長。特別是，個人照護服務的需求來自於管理式照護模式，包括醫療補助長期照護與支持計畫與醫療保險優化計畫。管理式照護計畫旨在透過健康保險計畫與醫療服務提供者的合作，來管理成本、使用率與品質。我們也為自費消費者提供個人照護服務。我們預期HCBS的需求將持續成長，這是因為美國人口老化，以及個人獲得居家照護作為機構照護替代方案的機會有所改善。",
+    "由於我們的模式在居家環境中為年長人口提供較低成本的服務，我們認為我們擁有成長的優勢機會。個人照護、緩和醫療與居家護理服務產業是以分散的方式發展，包含許多小型參與者與少數擁有跨多個地區或州份顯著市場佔有率的大型參與者。一些州份過去缺乏執照或認證要求，使得難以估算居家照護服務機構的數量，儘管這些要求與其他進入門檻（如下一段所述的運營要求）正在增加。我們預期產業將持續合併，這是因為醫療系統與管理式照護組織希望縮小服務提供者的網路，以及產業日益複雜的法規、運營與科技要求。我們認為我們在市場上的聲譽、強大的付款方關係與將科技整合至商業模式，使我們能有效把握這些趨勢。",
+    "個人照護服務產業面臨日益嚴格的法規監管。許多州份要求服務提供者向監管機構登記或取得執照。在聯邦層面，努力重點在於改善不同類型醫療補助計畫之間的法規協調，這些計畫提供個人照護服務。例如，聯邦標準要求各州必須規定服務提供者使用電子訪視驗證（\"EVV\"）系統，以收集來自醫療補助資助居家訪視的特定資料。未符合此要求的州份將面臨聯邦醫療補助資金的額外減少。各州在執行此規定的模式上具有彈性，這意味著EVV系統、供應商與合約流程在各州之間可能有顯著差異。服務提供者必須投入大量資源以持續符合所有適用的法律與法規，並可能需要重大支出以提供新服務或擴展至新市場。我們認為執照與其他運營要求與法規、對改善健康結果的關注增加、運營與科技成本與複雜度上升，以及對報銷率的壓力，可能抑制新服務提供者並促進產業合併。",
+    "如後文更詳細說明，我們的消費者主要為「雙重資格者」，即同時符合醫療保險與醫療補助資格。我們認為我們的個人照護計畫與科技使我們適合與管理式照護組織合作，以應對雙重資格者的照護需求，我們相信我們能提前識別消費者健康與狀況的變化，避免急性幹預，從而降低整體照護成本。我們認為這種照護模式與將我們服務整合至更廣泛的醫療照護連續體，對管理式照護組織及其他最終負責我們消費者醫療需求的機構而言特別有吸引力，並會在長遠中增加我們與這些組織的業務關係。",
+    "我們收入的成長與我們提供服務的消費者數量密切相關。我們持續成長取決於我們提供一致高品質照護的能力、維持現有付款方關係、與新付款方建立關係、增加轉介來源與吸引並留住照護者。我們持續成長也取決於州政府機構對新消費者授權接受我們服務。我們認為隨著人口老化，有幾個市場成長機會。一般而言，個人傾向在家中接受照護，我們認為冠狀病毒（COVID-19）疫情強化了這種偏好，這是因為長期照護機構環境可能與健康相關的擔憂，以及在公共衛生危機期間可能施加的訪客限制措施。最後，我們認為提供居家照護服務比在機構環境中提供類似服務更具成本效益。我們計畫透過執行以下成長策略，持續成長收入並強化競爭地位：",
+    "我們安排並要求照護者依照個別照護計畫執行服務。我們透過定期到消費者家中進行監督訪視來監測照護者的表現。照護者會接受預先服務培訓與導入，並評估其技能。在許多情況下，照護者也必須參加持續的在職教育。在某些州份，我們的照護者必須完成認證培訓課程並維持州份認證。這些培訓協助我們的照護者提前識別消費者健康與狀況的變化，從而降低整體照護成本。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們成長策略相關的風險",
+    "我們的成長策略依賴我們管理日益擴張且有效整合運作的能力，我們可能無法成功管理此成長。",
+    "已完成或未來的併購，或成長計畫，可能失敗，並可能使我們面臨未預見的負債。",
+    "我們可能無法在取得額外資金或貸款機構同意的情況下進行併購或擴展至新地理區域。",
+    "業務風險",
+    "我們的財務結果已受到，且可能繼續受到負面總體經濟條件的影響。",
+    "報酬時間差異可能導致流動性問題。",
+    "我們已成為並可能成為政府機構及私人付款方進行調查、審計及調查的對象，這可能會導致不利的調查結果，並可能對我們的業務產生負面影響。",
+    "本公司營業收入集中於少數幾個州，使本公司對這些州的法規及經濟變動特別敏感。",
+    "未來努力降低伊利諾州年長者服務計畫成本的措施，可能會對本公司服務收入及獲利能力產生不利影響。",
+    "未能續約重要付款方契約或一組相關付款方契約，可能會對本公司收入產生重大影響。",
+    "本公司業務可能因勞資關係問題而受損害。",
+    "若本公司被要求減記全部或部分 goodwill 及/或無形資產，可能會對本公司淨利潤及淨資產產生重大不利影響。",
+    "若本公司未能維持有效的財務報導內部控製系統，此失敗可能會對本公司業務及股票價格產生不利影響。",
+    "自費病患人數增加或患者責任賬戶的收款能力惡化，可能會對本公司財務狀況或營運成果產生不利影響。",
+    "法規風險",
+    "本公司之緩和醫療業務受年度醫療保險支出上限限制。若本公司逾越該上限，將可能對本公司營運及整體財務狀況、營運成果與現金流造成重大不利影響。",
+    "聯邦及州政府的規範可能影響本公司完成併購或開設新機構之能力。",
+    "替代支付模式之實施及 Medicare Advantage 或 Medicaid 管理式照護計畫 enrolment 人數增加，可能限制本公司市場佔有率，並對本公司收入造成不利影響。",
+    "本公司所屬產業具有高度競爭性、分散性且市場特定性。",
+    "本公司營運可能因醫療產業之變動與不確定性而受到不利影響，包括醫療公共政策發展及其他法律與規範之變更。",
+    "產業朝向價值基準支付模式之趨勢可能對本公司收入造成負面影響。"
+   ],
+   "paragraphs": [
+    "任何下列所描述的風險，以及本 Form 10-K 其他地方所描述的風險，都可能對我們的業務與合併財務狀況、營運成果與現金流造成重大不利影響，導致我們普通股的交易價格下跌，並使實際結果與本 Form 10-K 所包含的預測性陳述中所反映的現有預期產生重大差異。後續所列的考量與風險，已依照相關標題歸類，但可能也與其他標題相關。本 Form 10-K 所描述的風險因素並非我們所面臨的唯一風險。我們的業務與合併財務狀況、營運成果與現金流，也可能因目前尚未為我們所知悉的因素、目前認為不具重大影響的因素，或與我們無關的因素（例如總體經濟條件）而造成重大不利影響。",
+    "您應參閱「預測性陳述之限制與說明」部分，以瞭解預測性陳述的限制與條件。我們所做出的所有預測性陳述均受到後述風險因素的限制。",
+    "我們的業務計畫是在未來幾年內透過擴展現有市場的服務，以及可能在新市場建立據點，來實現顯著成長。這種成長已對我們的管理團隊、系統、內部控制與財務及專業資源造成重大壓力，並持續造成壓力。實現我們的成長計畫，需要我們持續發展財務控制與報告系統，也可能需要我們支出費用以聘請更多合格人員、聘請專業人士協助發展適當的控制系統，並擴展資訊科技基礎建設。我們若無法有效管理成長，將可能對我們的財務結果造成重大不利影響。",
+    "我們的成長策略包括潛在的地理擴張至新市場，以及透過收購當地服務提供者，在現有市場增加新服務。這些收購涉及重大風險與不確定性，包括困難於將收購的員工及其他企業文化融入我們的業務、關鍵員工或收購服務提供者的消費者流失、法規風險、承擔負債、面臨收購服務提供者未預見的負債，以及管理團隊注意力的分散。此外，我們對收購企業的盡職調查可能無法成功識別所有潛在問題。進一步而言，在完成收購後，我們可能無法維持我們與收購企業各自或合併後所達成的成長率、收入水準、獲利或營運效率。未能有效整合未來收購，可能對我們的營運造成重大不利影響。",
+    "我們已透過新設辦公室來機會性地擴展業務，未來也可能選擇性地在現有與新州開設新辦公室。新設辦公室涉及風險，包括與執照、認證、投保人計畫入會、聘請新員工、建立與轉介來源的關係，以及安裝我們營運與資訊系統的延誤或困難。我們可能無法成功產生足夠的業務活動以支應這些新設辦公室的營運成本。",
+    "截至 2025 年 12 月 31 日及 2024 年 12 月 31 日，我們的現金餘額分別為 81.6 百萬美元與 98.9 百萬美元，且我們信用融資協議中分別有 124.3 百萬美元與 223.0 百萬美元的未償還債務。考慮到信用融資協議中所提取的金額後，截至 2025 年 12 月 31 日與 2024 年 12 月 31 日，我們分別有約 7.9 百萬美元的未償還信用證，並根據調整後 EBITDA（如信用協議中所定義）的進階倍數計算的借款上限，我們在信用融資協議下分別有 517.7 百萬美元與 346.6 百萬美元的可用借款額。由於我們的信用融資協議是根據調整後 EBITDA 比率的倍數來提供借款，因此我們調整後 EBITDA 的下降將導致我們在信用融資協議下的可用借款額減少。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

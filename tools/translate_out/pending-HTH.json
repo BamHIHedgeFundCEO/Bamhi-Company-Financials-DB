@@ -1,0 +1,223 @@
+{
+ "ticker": "HTH",
+ "cik": "0001265131",
+ "accession": "0001104659-26-015264",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Business Segments",
+    "for Investment",
+    "Geographic Dispersion of our Businesses",
+    "Employees and Human Capital Resources",
+    "Government Supervision and Regulation",
+    "Bank Holding Companies and Financial Holding Companies",
+    "PlainsCapital Bank"
+   ],
+   "paragraphs": [
+    "Hilltop Holdings Inc. is a diversified, Texas-based financial holding company incorporated in Maryland and registered under the Bank Holding Company Act of 1956, as amended (the \"Bank Holding Company Act\"). Our primary line of business is to provide business and consumer banking services from offices located throughout Texas through the Bank. We also provide an array of financial products and services through our broker-dealer and mortgage origination segments. We endeavor to build and maintain a strong financial services company through organic growth as well as acquisitions, which we may make using available capital, excess liquidity and, if necessary or appropriate, additional equity or debt financing sources. The following includes additional details regarding the financial products and services provided by each of our two primary business units.",
+    "PCC. PCC is a financial holding company that provides, through its subsidiaries, traditional banking and wealth, investment and treasury management services primarily in Texas and residential mortgage loans throughout the United States.",
+    "Securities Holdings. Securities Holdings is a holding company that provides, through its subsidiaries, investment banking and other related financial services, including municipal advisory, sales, trading and underwriting of taxable and tax-exempt fixed income securities, clearing, securities lending, structured finance and retail brokerage services throughout the United States.",
+    "At December 31, 2025, on a consolidated basis, we had total assets of $15.8 billion, total deposits of $10.9 billion, total loans, including loans held for sale, of $9.2 billion and stockholders' equity of $2.2 billion.",
+    "Our common stock is listed on the New York Stock Exchange (\"NYSE\") and NYSE Texas under the symbol \"HTH.\"",
+    "Our principal office is located at 6565 Hillcrest Avenue, Dallas, Texas 75205, and our telephone number at that location is (214) 855-2177. Our internet address is www.hilltop.com. Our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Exchange Act are available on our website, free of charge, at http://ir.hilltop.com/ under the tab \"Filings\" as soon as reasonably practicable after we electronically file such reports with, or furnish them to, the Securities and Exchange Commission (the \"SEC\"). The references to our website in this Annual Report are inactive textual references only. The information on our website is not incorporated by reference into this Annual Report. The SEC maintains a public website, www.sec.gov, which includes information about and the filings of issuers that file electronically with the SEC.",
+    "Under accounting principles generally accepted in the United States (\"GAAP\"), our business units are comprised of three reportable business segments organized primarily by the core products offered to the segments' respective customers: banking, broker-dealer, and mortgage origination. These segments reflect the manner in which operations are managed and the criteria used by our chief operating decision maker, our President and Chief Executive Officer, to evaluate segment performance, develop strategy and allocate resources.",
+    "The following graphic reflects our current business segments.",
+    "Corporate includes certain activities not allocated to specific business segments. These activities include holding company financing and investing activities, merchant banking investment opportunities, and management and administrative services to support the overall operations of the Company. Hilltop's merchant banking investment activities include the identification of attractive opportunities for capital deployment in companies engaged in non-financial activities through its merchant bank subsidiary, Hilltop Opportunity Partners LLC.",
+    "For more financial information about each of our business segments, see Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" herein. See also Note 27 in the notes to our consolidated financial statements included under Item 8, \"Financial Statements and Supplementary Data.\"",
+    "The banking segment includes the operations of the Bank, which, at December 31, 2025, had $12.7 billion in assets and total deposits of $11.0 billion. The primary sources of our deposits are residents of and businesses located in Texas. At December 31, 2025, the Bank employed approximately 1,030 people.",
+    "The table below sets forth a distribution of the banking segment's loans, classified by portfolio segment. The banking segment's loan portfolio included $1.3 billion in warehouse lines of credit extended to PrimeLending and its affiliated business arrangements (\"ABAs\"), of which $0.9 billion was drawn at December 31, 2025. Amounts advanced against the warehouse lines of credit are included in the table below, but are eliminated from net loans on our consolidated balance sheets.",
+    "​ ​ ​ Total ​ ​ ​ % of Total Loans Held Loans Held",
+    "Commercial real estate: Non-owner occupied 2,121,087 23.9 Owner occupied 1,533,173 17.3 Commercial and industrial"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to our Business",
+    "Adverse developments affecting the financial services industry, such as bank failures or concerns involving liquidity, may have a material effect on the Company's operations.",
+    "Our banking segment is subject to risk arising from conditions in the commercial real estate market and may be adversely affected by weaknesses in the commercial real estate market.",
+    "Our business and results of operations may be adversely affected by unpredictable economic, market and business conditions.",
+    "Our business is subject to interest rate risk, and fluctuations in interest rates may adversely affect our earnings, capital levels and overall results.",
+    "Inflationary pressures and rising prices may affect our results of operations and financial condition.",
+    "Our geographic concentration may magnify the adverse effects and consequences of any regional or local economic downturn.",
+    "An adverse change in real estate market values may result in losses in our banking segment and otherwise adversely affect our profitability.",
+    "Our risk management processes may not fully identify and mitigate exposure to the various risks that we face, including interest rate, credit, liquidity and market risk.",
+    "Our hedging strategies may not be successful in mitigating our exposure to interest rate risk.",
+    "Our bank lending, margin lending, stock lending, securities trading and execution and mortgage purchase businesses are all subject to credit risk.",
+    "We depend on our computer and communications systems and an interruption in service would negatively affect our business.",
+    "Climate change and certain regulations and responses thereto could adversely affect our business and performance, including indirectly through impacts on our customers.",
+    "We are heavily dependent on dividends from our subsidiaries.",
+    "Our broker-dealer business is subject to various risks associated with the securities industry.",
+    "Market fluctuations could adversely impact our broker-dealer business.",
+    "Our investment advisory business may be affected if our investment products perform poorly.",
+    "Our existing correspondents may choose to perform their own clearing services or move their clearing business to one of our competitors or exit the business.",
+    "Several of our broker-dealer segment's product lines rely on favorable tax treatment, and changes in federal tax law could impact the attractiveness of these products to our customers.",
+    "Our mortgage origination segment is subject to investment risk on loans that it originates.",
+    "If we fail to develop, implement and maintain an effective system of internal control over financial reporting, the accuracy and timing of our financial reporting in future periods may be adversely affected.",
+    "We ultimately may write-off goodwill and other intangible assets resulting from business combinations.",
+    "The value of our mortgage servicing rights portfolio fluctuates due to changes in interest rates, which may increase the volatility of our earnings.",
+    "The accuracy of our financial statements and related disclosures could be affected if we are exposed to actual conditions different from the judgments, assumptions or estimates used in our critical accounting estimates.",
+    "A decline in the market for municipal advisory services could adversely affect our business and results of operations.",
+    "We are subject to losses due to fraudulent and negligent acts."
+   ],
+   "paragraphs": [
+    "The following discussion sets forth what management currently believes are the material regulatory, market and economic, liquidity, legal and business and operational risks and uncertainties that could impact our business, results of operations and financial condition. The occurrence of any of the following risks, as well as other risks and uncertainties, including those not currently known to us, could negatively impact our business, results of operations and financial condition and could cause the trading price of our common stock to decline and you could lose all or part of your investment.",
+    "Our allowances for credit losses for loans and debt securities may prove inadequate or we may be negatively affected by credit risk exposures. Also, future additions to our allowance for credit losses will reduce our future earnings.",
+    "As a lender, we are exposed to the risk that we could sustain losses because our borrowers may not repay their loans in accordance with the terms of their loans. We maintain allowances for credit losses for loans and debt securities to provide for defaults and nonperformance, which represent an estimate of expected losses over the remaining contractual lives of the loan and debt security portfolios. This estimate is the result of our continuing evaluation of specific credit risks and loss experience, current loan and debt security portfolio quality, present economic, political and regulatory conditions, industry concentrations, reasonable and supportable forecasts for future conditions and other factors that may indicate losses. The determination of the appropriate levels of the allowances for loan and debt security credit losses inherently involves a high degree of subjectivity and judgment and requires us to make estimates of current credit risks and future trends, all of which may undergo material changes. Generally, our nonperforming loans and other real estate owned (\"OREO\") reflect operating difficulties of individual borrowers and weaknesses in the economies of the markets we serve.",
+    "If management's assumptions and projections prove to be incorrect, however, the estimate of fair value may be higher than the actual fair value and we may suffer losses in excess of those estimated. Further, the allowance for credit losses established for new loans may prove to be inadequate to cover actual losses, especially if economic conditions worsen.",
+    "While Bank management endeavors to estimate the allowance to cover anticipated losses over the lives of our loan and debt security portfolios, no underwriting and credit monitoring policies and procedures that we could adopt to address credit risk could provide complete assurance that we will not incur unexpected losses. These losses could have a material adverse effect on our business, financial condition, results of operations and cash flows. In addition, federal regulators periodically evaluate the adequacy of our allowance for credit losses and may require us to increase our provision for credit losses or recognize further loan charge-offs based on judgments different from those of Bank management. Any such increase in our provision for (reversal of) credit losses or additional loan charge-offs could have a material adverse effect on our results of operations and financial condition.",
+    "Historically, high-profile bank failures have increased market uncertainty and concerns regarding the liquidity adequacy of the banking sector as a whole. During these times, the speed and ease with which news and social media commentary spread led depositors to withdraw or attempt to withdraw their funds from these and other financial institutions and caused the stock prices of many financial institutions to become volatile. Although we were not directly affected by these historical bank failures, in the future, events such as these bank failures or negative news or the public perception thereof, could have an adverse effect on our financial condition and results of operations, either directly or through an adverse impact on certain of our customers."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Statement of Operations Data:",
+    "Per Share Data:",
+    "Balance Sheet Data:",
+    "Capital Ratios:",
+    "Reconciliation and Management's Explanation of Non-GAAP Financial Measures",
+    "December 31,",
+    "Recent Developments",
+    "Notes Redemption",
+    "Merchant Bank Transaction",
+    "Settlement Agreement & Releases",
+    "Economic Environment",
+    "Asset Valuation",
+    "Factors Affecting Results of Operations",
+    "Acquisitions",
+    "Segment Information",
+    "Year Ended December 31,",
+    "Variance 2025 vs 2024",
+    "Variance 2024 vs 2023",
+    "Key Performance Indicators",
+    "How We Generate Revenue",
+    "Consolidated Operating Results",
+    "Total assets",
+    "Liabilities and Stockholders' Equity",
+    "Total liabilities and stockholders' equity",
+    "Net interest income (2)",
+    "Net interest spread (2)",
+    "Net interest margin (2)",
+    "Segment Results",
+    "Banking Segment",
+    "2025 vs 2024",
+    "2024 vs 2023"
+   ],
+   "paragraphs": [
+    "On January 15, 2025 (the \"Senior Notes Redemption Date\"), we redeemed all of our outstanding 5% senior notes due 2025 (the \"Senior Notes\") at a redemption price equal to the aggregate principal amount of $150 million, plus accrued and unpaid interest to, but excluding, the Senior Notes Redemption Date (collectively, the \"Senior Notes Redemption Price\"). The redemption of the Senior Notes was pursuant to the indenture, dated as of April 9, 2015 (the \"Senior Notes Indenture\"), between the Company and U.S. Bank National Association, as Trustee (solely in its capacity as trustee for the Senior Notes), which permitted the redemption of the Senior Notes beginning 90 days prior to April 15, 2025 (the maturity date of the Senior Notes). The Company irrevocably deposited with the trustee funds using cash on hand in an amount sufficient to pay the Senior Notes Redemption Price on the Senior Notes Redemption Date to satisfy and discharge its obligations under the Senior Notes and the Senior Notes Indenture.",
+    "On May 15, 2025 (the \"2030 Subordinated Notes Redemption Date\"), we redeemed all of our outstanding 5.75% Fixed-to-Floating Subordinated Notes due 2030 (the \"2030 Subordinated Notes\") at a redemption price equal to the aggregate principal amount of $50 million, plus accrued and unpaid interest to, but excluding, the 2030 Subordinated Notes Redemption Date (collectively, the \"2030 Subordinated Notes Redemption Price\"). The redemption of the 2030 Subordinated Notes was pursuant to the First Supplemental Indenture, dated as of May 11, 2020 (the \"First Supplemental Indenture\"), to the Indenture, dated as of May 11, 2020, between the Company and U.S. Bank National Association, as Trustee, which permitted the redemption of the 2030 Subordinated Notes beginning on May 15, 2025 (the date on which the 2030 Subordinated Notes converted from fixed to floating rate). The Company irrevocably deposited with the Trustee funds using cash on hand in an amount sufficient to pay the 2030 Subordinated Notes Redemption Price on the 2030 Subordinated Notes Redemption Date to satisfy and discharge its obligations under the 2030 Subordinated Notes and the First Supplemental Indenture."
+   ],
+   "focus": "Recent Developments"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "業務分部",
+    "投資相關",
+    "本公司業務地理分佈",
+    "員工及人力資本資源",
+    "政府監督與規範",
+    "銀行控股公司與金融控股公司",
+    "PlainsCapital Bank"
+   ],
+   "paragraphs": [
+    "Hilltop Holdings Inc. 為一家多元化、位於德州的金融控股公司，於馬裏蘭州註冊設立，並根據 1956 年銀行控股公司法案（\"Bank Holding Company Act\"）及其修正案註冊。我們的主要業務為透過銀行提供企業及消費者銀行服務，服務範圍遍及德州。我們亦透過我們的經紀商與房貸發行業務部門，提供一系列金融產品與服務。我們致力於透過內生性成長及收購來建立並維持一家強大的金融服務公司，收購行動可能使用現有資本、過剩流動性，如必要或適當，亦可能使用額外的權益或債務融資來源。以下為有關我們兩大主要業務單位所提供的金融產品與服務的更多細節。",
+    "PCC. PCC 為一家金融控股公司，透過其子公司，主要在德州提供傳統銀行與財富、投資及財務管理服務，並在美國全境提供住宅房貸貸款。",
+    "Securities Holdings. Securities Holdings 為一家控股公司，透過其子公司，提供投資銀行及其他相關金融服務，包括市政諮詢、 taxable 及 tax-exempt 固定收益證券的銷售、交易與發行、清算、證券貸款、結構性金融及零售經紀服務，服務範圍遍及美國全境。",
+    "截至 2025 年 12 月 31 日，按合併計算，我們總資產為 15.8 十億美元，總存款為 10.9 十億美元，總貸款，包括待售貸款為 9.2 十億美元，以及股東權益為 2.2 十億美元。",
+    "我們的普通股於紐約證券交易所（\"NYSE\"）及 NYSE Texas 交易，代碼為 \"HTH.\"",
+    "",
+    "根據美國通用會計原則（\"GAAP\"），我們的業務單位由三個應報告分部組成，主要根據對各分部客戶所提供的核心產品來組織：銀行、經紀商與房貸發行。這些分部反映業務運作的管理方式，以及我們首席執行長兼總裁，即我們主要經營決策者，評估分部表現、制定策略與分配資源所使用的標準。",
+    "以下圖表反映我們目前的業務分部。",
+    "本公司包含某些未分配至特定業務分部的活動。這些活動包括控股公司融資及投資活動、經紀銀行投資機會，以及支援本公司整體營運的管理及行政服務。Hilltop 的經紀銀行投資活動包括透過其經紀銀行子公司 Hilltop Opportunity Partners LLC，尋找非金融活動公司的具吸引力的資金運用機會。",
+    "如需瞭解各業務分部的更多財務資訊，請參閱本文件第 7 項「管理層對財務狀況與營運成果之分析」。另請參閱第 8 項「財務報表與補充資料」所附之財務報表附註第 27 項。",
+    "銀行分部包含銀行的營運情況，於 2025 年 12 月 31 日，該銀行資產為 12.7 十億美元，總存款為 11.0 十億美元。本公司存款的主要來源為德克薩斯州居民及位於德克薩斯州的企業。於 2025 年 12 月 31 日，該銀行約僱用 1,030 名員工。",
+    "下表顯示銀行分部貸款的分佈情況，按投資組合分部分類。銀行分部的貸款組合包含 1.3 十億美元的庫存信用線，提供給 PrimeLending 及其相關業務安排（\"ABAs\"），其中於 2025 年 12 月 31 日已提取 0.9 十億美元。根據庫存信用線提供的貸款金額已包含在下表中，但會在本公司合併財務報表的淨貸款中抵銷。",
+    "總計  % 總貸款持有貸款持有",
+    "商業不動產：非所有權人佔用 2,121,087 23.9 所有權人佔用 1,533,173 17.3 商業及工業"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運表現資料：",
+    "每股資料：",
+    "資產負債表資料：",
+    "資本比率：",
+    "非GAAP財務指標之重新列示及管理層說明",
+    "12月31日，",
+    "近期發展",
+    "附註贖回",
+    "{'translated_text': 'Merchant Bank Transaction'}",
+    "{'translated_text': ' Settlement Agreement & Releases'}",
+    "{'translated_text': ' Economic Environment'}",
+    "{'translated_text': ' Asset Valuation'}",
+    "{'translated_text': ' Factors Affecting Results of Operations'}",
+    "{'translated_text': ' Acquisitions'}",
+    "{'translated_text': ' Segment Information'}",
+    "{'translated_text': ' Year Ended December 31,'}",
+    "2025 年與 2024 年差異",
+    "2024 年與 2023 年差異",
+    "關鍵績效指標",
+    "本公司營收來源",
+    "合併營運成果",
+    "總資產",
+    "負債及股東權益",
+    "總負債及股東權益",
+    "淨利息收入 (2)",
+    "淨利息差 (2)",
+    "淨利息邊際 (2)",
+    "分部績效",
+    "銀行分部",
+    "2025 年與 2024 年比較",
+    "2024 年與 2023 年比較"
+   ],
+   "paragraphs": [
+    "於 2025 年 1 月 15 日（「高階債券贖回日」），本公司贖回所有未償還的 5% 高階債券（到期日為 2025 年）（「高階債券」），贖回價格為總本金金額 150 百萬美元，加上至但不包括高階債券贖回日之累計未付利息（合稱「高階債券贖回價格」）。高階債券之贖回係依照 2015 年 4 月 9 日（「高階債券贖回契約」）間本公司與 U.S. Bank National Association，作為受託人（僅以其作為高階債券受託人之資格）之間之贖回契約，允許自 2025 年 4 月 15 日（高階債券到期日）前 90 日起贖回高階債券。本公司已不可撤銷地將足夠資金以現金存入受託人，以支付高階債券贖回價格，於高階債券贖回日償還並履行其於高階債券及高階債券贖回契約下之義務。",
+    "於 2025 年 5 月 15 日（「2030 年次級債券贖回日」），本公司贖回所有未償還的 5.75% 固定轉浮動次級債券（到期日為 2030 年）（「2030 年次級債券」），贖回價格為總本金金額 50 百萬美元，加上至但不包括 2030 年次級債券贖回日之累計未付利息（合稱「2030 年次級債券贖回價格」）。2030 年次級債券之贖回係依照 2020 年 5 月 11 日（「第一補充贖回契約」）間本公司與 U.S. Bank National Association，作為受託人之間之贖回契約，允許自 2025 年 5 月 15 日（2030 年次級債券由固定利率轉為浮動利率之日期）起贖回 2030 年次級債券。本公司已不可撤銷地將足夠資金以現金存入受託人，以支付 2030 年次級債券贖回價格，於 2030 年次級債券贖回日償還並履行其於 2030 年次級債券及第一補充贖回契約下之義務。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司業務相關的風險",
+    "對金融服務業產生不利影響的發展，例如銀行失敗或流動性問題的擔憂，可能對本公司營運產生重大影響。",
+    "我們的銀行業務面臨商業不動產市場條件所產生的風險，且可能因商業不動產市場的弱點而受到不利影響。",
+    "我們的業務及營運結果可能因無法預測的經濟、市場及業務條件而受到不利影響。",
+    "我們的業務面臨利率風險，利率波動可能對我們的獲利、資本水準及整體營運結果產生不利影響。",
+    "通貨膨脹壓力及價格上漲可能影響我們的營運結果及財務狀況。",
+    "我們的地理集中度可能放大任何區域或地方經濟衰退的不利影響及後果。",
+    "不動產市場價值的不利變動可能導致我們銀行業務產生虧損，並對我們的獲利能力產生不利影響。",
+    "本公司風險管理程序可能無法完全識別並緩解我們所面臨的各種風險，包括利率風險、信用風險、流動性風險及市場風險。",
+    "本公司避險策略可能無法成功緩解我們對利率風險的暴露。",
+    "本公司之銀行貸款、 margin lending、股票貸款、證券交易及執行業務與房貸買賣業務均面臨信用風險。",
+    "本公司依賴電腦及通訊系統，若服務中斷將對本公司業務產生負面影響。",
+    "氣候變遷及某些法規與對應之回應，可能對本公司業務與績效產生不利影響，包括間接透過對客戶之影響。",
+    "本公司嚴重依賴子公司的股息。",
+    "本公司之經紀商業務面臨與證券業相關之各種風險。",
+    "市場波動可能對本公司之經紀商業務產生不利影響。",
+    "本公司之投資顧問業務若投資產品表現不佳，可能受到影響。",
+    "現有電信業者可能選擇自行執行清算服務，或將清算業務轉移至我們的競爭對手，或退出此業務。",
+    "我們證券交易分部之數個產品線依賴有利之稅務待遇，聯邦稅法之變更可能影響這些產品對客戶之吸引力。",
+    "本公司房貸發放業務對所發放貸款之投資風險有所暴露。",
+    "若本公司未能建立、實施及維護有效之財務報導內部控製系統，未來期間財務報導之準確性與時效性可能受到不利影響。",
+    "本公司最終可能核銷因企業併購而產生之商譽及其他無形資產。",
+    "本公司房貸服務權資產組合之價值因利率變動而波動，可能增加本公司獲利之波動性。",
+    "若本公司實際情況與財務報導所使用之判斷、假設或估計值不同，可能影響財務報導之準確性及相關揭露。",
+    "{'original': 'A decline in the market for municipal advisory services could adversely affect our business and results of operations.', 'translated': '市政顧問服務市場的衰退可能對本公司業務及營運成果產生不利影響。'}",
+    "{'original': 'We are subject to losses due to fraudulent and negligent acts.', 'translated': '本公司可能因詐欺及過失行為而遭受損失。'}"
+   ],
+   "paragraphs": [
+    "以下討論說明本公司目前認為可能影響我們業務、營業成果與財務狀況的重要法規、市場與經濟、流動性、法律與業務及營運風險與不確定性。上述任何風險或其它風險與不確定性，包括目前尚未為本公司所知悉者，均可能對本公司業務、營業成果與財務狀況造成負面影響，並可能導致本公司普通股交易價格下跌，使投資人喪失全部或部分投資。",
+    "本公司針對貸款與債務證券所提列的信用減損準備可能不足，或本公司可能因信用風險暴露而受到負面影響。此外，未來針對信用減損準備的增加將會降低本公司未來的營業收入。",
+    "作為貸款機構，本公司面臨借款人可能未依照貸款條款償還貸款，因而導致本公司承受損失的風險。本公司針對貸款與債務證券提列信用減損準備，以應對違約與未履行的情況，這些準備代表貸款與債務證券組合在剩餘合約期間內預期損失的估計值。此估計值是基於本公司持續評估特定信用風險與損失經驗、現有貸款與債務證券組合品質、目前經濟、政治與法規環境、產業集中度、對未來環境的合理且可支持的預測，以及其他可能顯示損失的因素。確定貸款與債務證券信用減損準備的適當水準，本質上涉及高度的主觀判斷與判斷，並需要本公司估計目前信用風險與未來趨勢，所有這些因素均可能產生重大變動。通常，本公司未償還貸款與其它實質財產（\"OREO\"）反映個別借款人營運困難與本公司所服務市場經濟體的弱點。",
+    "然而，若本公司管理層的假設與預測證明為錯誤，則公平價值的估計值可能高於實際公平價值，本公司可能承受超過預估的損失。此外，針對新貸款所提列的信用減損準備，可能不足以覆蓋實際損失，特別是在經濟條件惡化的情況下。",
+    "雖然銀行管理層致力於估計信用減損準備以覆蓋貸款與債務證券組合在其存續期間內預期的損失，但即使採用任何貸款與信用監控政策與程序，也無法完全確保本公司不會遭遇未預期的損失。這些損失可能對本公司業務、財務狀況、營業成果與現金流產生重大負面影響。此外，美國聯邦監管機構會定期評估本公司信用減損準備的充足性，並可能要求本公司提高信用減損準備或認列更多貸款減損，基於與銀行管理層不同的判斷。任何提高本公司信用減損準備（或反轉信用減損準備）或增加貸款減損的情況，均可能對本公司營業成果與財務狀況產生重大負面影響。",
+    "歷史上，知名銀行倒閉事件會增加市場不確定性，並引起對整個銀行業流動性充足的擔憂。在這些時期，新聞與社交媒體評論傳播的速度與便利性，導致存款人從這些及其他金融機構提款或試圖提款，並使許多金融機構的股票價格變得波動。雖然本公司未直接受到這些歷史銀行倒閉事件的影響，但未來，類似銀行倒閉事件或負面新聞或公眾對其的觀感，可能對本公司財務狀況與營業成果產生負面影響，無論是直接或透過對某些客戶產生負面影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

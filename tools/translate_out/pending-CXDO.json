@@ -1,0 +1,223 @@
+{
+ "ticker": "CXDO",
+ "cik": "0001075736",
+ "accession": "0001654954-26-001848",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Annualized Exit Monthly Recurring Subscriptions",
+    "Net Monthly Subscription Dollar Retention Rate",
+    "Adjusted EBITDA",
+    "As of December 31, 2025",
+    "As of December 31, 2024",
+    "Cloud Telecommunications Services",
+    "Software Solutions",
+    "Consolidated",
+    "Year Ended December 31,"
+   ],
+   "paragraphs": [
+    "Crexendo, Inc. is an award-winning software technology company that is a premier provider of cloud communication platform software and unified communications as a service (UCaaS) offering, including voice, video, contact center, and managed IT services tailored to businesses of all sizes. Our cloud communications software solutions currently support over seven million end users globally, through an extensive network of over 240 cloud communication platform software subscribers and our direct retail offering. Our products and services can be categorized in the following offerings:",
+    "Cloud Telecommunications Services – Our cloud telecommunications services transmit calls using IP or cloud technology, which converts voice signals into digital data packets for transmission over the Internet or cloud. Each of our calling plans provides a number of basic features typically offered by traditional telephone service providers, plus a wide range of enhanced features that we believe offer an attractive value proposition to our customers. This platform enables a user, via a single \"identity\" or telephone number, to access and utilize services and features regardless of how the user is connected to the Internet or cloud, whether it's from a desktop device or an application on a mobile device or computer.",
+    "We generate recurring revenue from our cloud telecommunications services, broadband Internet services, managed IT services, software license sales, and infrastructure as a service. Our cloud telecommunications contracts typically have a thirty-six to sixty-month term. We may also charge activation and flash fees and the Company generally allocates a portion of the activation fees to the desktop devices, which is recognized at the time of the installation or customer acceptance, and a portion to the service, which is recognized over the contract term using the straight-line method. We also charge other various contracted and non-contracted fees.",
+    "We generate product revenue, equipment financing revenue, and device as a service revenue from the sale and lease of our cloud telecommunications equipment. Revenues from the sale of equipment, including those from sales-type leases, are recognized at the time of sale or at the inception of the lease, as appropriate.",
+    "Software Solutions – Our software solutions segment derives revenues from three primary sources: software licenses, software maintenance support and professional services. Software and services may be sold separately or in bundled packages. Generally, contracts with customers contain multiple performance obligations, consisting of software and services. For bundled packages, the Company accounts for individual products and services separately if they are distinct – i.e. if a product or service is separately identifiable from other items in the bundled package and if a customer can benefit from it on its own or with other resources that are readily available to the customer. The consideration is allocated between separate products and services in a bundle based on their relative stand-alone selling prices. The stand-alone selling prices are determined based on the prices at which the Company separately sells the software licenses and professional services. For items that are not sold separately (e.g. additional features) the Company estimates stand-alone selling prices using the adjusted market assessment approach. When we provide a free trial period, we do not begin to recognize recurring revenue until the trial period has ended and the customer has been billed for the services.",
+    "We generate software license revenue from the sale of perpetual software licenses, term-based software licenses that expire, and Software-as-a-Service (\"SaaS\") based software which are referred to as subscription arrangements. The Company does not recognize software revenue related to the renewal of subscription software licenses earlier than the beginning of the subscription period.",
+    "We generate subscription and maintenance support revenue from customer support and other supportive services. The Company offers warranties on its products. The warranty period for our licensed software is generally 90 days. Certain of the Company's warranties are considered to be assurance-type in nature and do not cover anything beyond ensuring that the product is functioning as intended. Based on the guidance in ASC 606, assurance-type warranties do not represent separate performance obligations. The Company also sells separately-priced maintenance service contracts, which qualify as service-type warranties and represent separate performance obligations. The Company does not typically allow and has no history of accepting material product returns. Customer support includes software updates on a when-and-if-available basis, telephone support, integrated web-based support and bug fixes or patches. Subscription and maintenance support revenue is recognized ratably over the term of the customer support agreement, which is typically one to three years.",
+    "We generate professional services and other revenue from consulting, technical support, resident engineer services, design services and installation services. Revenue for professional services and other is recognized when the performance obligation is complete and the customer has accepted the performance obligation.",
+    "Our solution was recently recognized as the fastest growing UCaaS platform in the United States. By providing a variety of comprehensive and scalable solutions, we are able to cater to businesses of all sizes on a monthly subscription basis without the need for expensive capital investments, regardless of where their business is in its lifecycle. Our products and services can be categorized in the following offerings:",
+    "Cloud Telecommunications Services – Our cloud telecommunications service offering includes hardware, software, and unified IP or cloud technology over any high-speed Internet connection. These services are rendered through a variety of devices and communication solutions for businesses using user interfaces such as a Crexendo branded and third party desktop phones and/or mobile and desktop applications. Some examples of mobile devices are Android cell phones, iPhones, iPads or Android tablets. These services enable our customers to seamlessly communicate with others through phone calls that originate/terminate on our network or PSTN networks. Our cloud telecommunications services are powered by our proprietary implementation of standards based Web and VoIP cloud technologies. Our services use our highly scalable complex infrastructure that we build and manage based on industry standard best practices to achieve greater efficiencies, better quality of service (QoS) and customer satisfaction. Our infrastructure comprises of compute, storage, network technologies, 3rd party products and vendor relationships. We also develop end user portals for account management, license management, billing and customer support and adopt other cloud technologies through our partnerships.",
+    "Crexendo's cloud telecommunication service offers a wide variety of essential and advanced features for businesses of all sizes. Many of these features included in the service offering are:",
+    "Business Productivity Features such as dial-by extension and name, transfer, conference, call recording, Unlimited calling to anywhere in the US and Canada, International calling, Toll free (Inbound and Outbound)",
+    "Individual Productivity Features such as Caller ID, Call Waiting, Last Call Return, Call Recording, Music/Message-On-Hold, Voicemail, Unified Messaging, Hot-Desking",
+    "Group Productivity Features such as Call Park, Call Pickup, Interactive Voice Response (IVR), Individual and Universal Paging, Corporate Directory, Multi-Party Conferencing, Group Mailboxes, Web and mobile devices based collaboration applications"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Annualized Exit Monthly Recurring Subscriptions",
+    "Net Monthly Subscription Dollar Retention Rate",
+    "Adjusted EBITDA",
+    "As of December 31, 2025",
+    "As of December 31, 2024",
+    "Cloud Telecommunications Services",
+    "Software Solutions",
+    "Consolidated",
+    "Year Ended December 31,",
+    "Public health crises could materially adversely affect our business, financial condition and results of operations.",
+    "Adverse Macroeconomic Conditions Could Materially Adversely Affect Our Business",
+    "Our growth and the evolving markets in which we operate make it difficult to evaluate our current business and future prospects, which may increase the risk of investing in our stock.",
+    "Our business may be affected by Global economic conditions, including relations between the United States and Foreign Countries.",
+    "Regulatory Risks in International Expansion.",
+    "Risks Related to Sanctions and Export Controls.",
+    "Risks Related to Lawful Intercept and CALEA Compliance.",
+    "We cannot be certain that we will be able to achieve or maintain operating profitability in the future.",
+    "We stopped paying a quarterly dividend in April 2023, the Company may consider a dividend in the future if there do not appear to be accretive acquisitions in 2026.",
+    "We may not be able to secure financing on favorable terms, or at all, to meet future needs.",
+    "Our strategy to expand through acquisitions or investments in other companies may divert our management's attention, increase expenses, disrupt our operations and harm our results of operations.",
+    "Our ability to use our net operating loss carry-forwards may be reduced in the event of an ownership change and could adversely affect our financial results.",
+    "Service Level Agreement, Crexendo VIP 100% Uptime Guarantee and Customer Credit Exposure.",
+    "Revenue Concentration and Enterprise Contract Renegotiation Risk."
+   ],
+   "paragraphs": [
+    "MARKET FOR REGISTRANT'S COMMON EQUITY, RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES.",
+    "MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS.",
+    "QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISKS.",
+    "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA.",
+    "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING AND FINANCIAL DISCLOSURE.",
+    "DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Results of Consolidated Operations",
+    "Results of Consolidated Operations (in thousands, except for per share amounts)",
+    "Year Ended December 31,",
+    "Consolidated",
+    "For the three months ended",
+    "September 30,",
+    "December 31,",
+    "Year Ended December 31, 2025 Compared to Year Ended December 31, 2024",
+    "Dollar Change",
+    "Percent Change",
+    "Use of Non-GAAP Financial Measures",
+    "Reconciliation of Non-GAAP Financial Measures",
+    "Reconciliation of U.S. GAAP Net Income to Non-GAAP Net Income",
+    "Three Months Ended December 31,",
+    "Reconciliation of U.S. GAAP Net Income to EBITDA to Adjusted EBITDA",
+    "Segment Operating Results",
+    "Operating Results of our Cloud Telecommunications Services Segment (in thousands):",
+    "Cloud Telecommunications Services",
+    "Operating Results of our Software Solutions Segment (in thousands):",
+    "Software Solutions"
+   ],
+   "paragraphs": [
+    "In addition to historical information, this Annual Report contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934. Actual results could differ materially from those projected in the forward-looking statements as a result of a number of factors, risks and uncertainties, including the risk factors set forth in Item 1A. above and the risk factors set forth in this Annual Report. Generally, the words \"anticipate\", \"expect\", \"intend\", \"believe\" and similar expressions identify forward-looking statements. The forward-looking statements made in this Annual Report are made as of the filing date of this Annual Report with the SEC, and future events or circumstances could cause results that differ significantly from the forward-looking statements included here. Accordingly, we caution readers not to place undue reliance on these statements. We expressly disclaim any obligation to update or alter our forward-looking statements, whether, as a result of new information, future events or otherwise after the date of this document.",
+    "Crexendo, Inc. is an award-winning software technology company that is a premier provider of cloud communication platform and services, video collaboration and managed IT services tailored to businesses of all sizes. By providing a variety of comprehensive and scalable solutions, we are able to cater to businesses of all sizes on a monthly subscription basis without the need for expensive capital investments, regardless of where their business is in its lifecycle. Our products and services can be categorized in the following offerings:",
+    "Cloud Telecommunications Services – Our cloud telecommunications services transmit calls using IP or cloud technology, which converts voice signals into digital data packets for transmission over the Internet or cloud. Each of our calling plans provides a number of basic features typically offered by traditional telephone service providers, plus a wide range of enhanced features that we believe offer an attractive value proposition to our customers. This platform enables a user, via a single \"identity\" or telephone number, to access and utilize services and features regardless of how the user is connected to the Internet or cloud, whether it's from a desktop device or an application on a mobile device.",
+    "We generate recurring revenue from our cloud telecommunications services, broadband Internet services, managed IT services, software license sales, and infrastructure as a service. Our cloud telecommunications contracts typically have a thirty-nine to ninety-month term. We may also charge activation and flash fees and the Company generally allocates a portion of the activation fees to the desktop devices, which is recognized at the time of the installation or customer acceptance, and a portion to the service, which is recognized over the contract term using the straight-line method. We also charge other various contracted and non-contracted fees.",
+    "We generate product revenue, equipment financing revenue, and device as a service revenue from the sale and lease of our cloud telecommunications equipment. Revenues from the sale of equipment, including those from sales-type leases, are recognized at the time of sale or at the inception of the lease, as appropriate.",
+    "Our Cloud Telecommunications service revenue increased 6% or $1,933 to $33,782 for the year ended December 31, 2025 as compared to $31,849 for the year ended December 31, 2024. Our Cloud Telecommunications product revenue decreased 16% or $894 to $4,721 for the year ended December 31, 2025 as compared to $5,615 for the year ended December 31, 2024.",
+    "Software Solutions – Our software solutions segment derives revenues from three primary sources: software licenses, software maintenance support and professional services. Software and services may be sold separately or in bundled packages. Generally, contracts with customers contain multiple performance obligations, consisting of software and services. For bundled packages, the Company accounts for individual products and services separately if they are distinct – i.e. if a product or service is separately identifiable from other items in the bundled package and if a customer can benefit from it on its own or with other resources that are readily available to the customer. The consideration is allocated between separate products and services in a bundle based on their relative stand-alone selling prices. The stand-alone selling prices are determined based on the prices at which the Company separately sells the software licenses and professional services. For items that are not sold separately (e.g. additional features) the Company estimates stand-alone selling prices using the adjusted market assessment approach. When we provide a free trial period, we do not begin to recognize recurring revenue until the trial period has ended and the customer has been billed for the services.",
+    "We generate software license revenue from the sale of perpetual software licenses, term-based software licenses that expire, and Software-as-a-Service (\"SaaS\") based software which are referred to as subscription arrangements. The Company does not recognize software revenue related to the renewal of subscription software licenses earlier than the beginning of the subscription period.",
+    "We generate subscription and maintenance support revenue from customer support and other supportive services. The Company offers warranties on its products. The warranty period for our licensed software is generally 90 days. Certain of the Company's warranties are considered to be assurance-type in nature and do not cover anything beyond ensuring that the product is functioning as intended. Based on the guidance in ASC 606, assurance-type warranties do not represent separate performance obligations. The Company also sells separately-priced maintenance service contracts, which qualify as service-type warranties and represent separate performance obligations. The Company does not typically allow and has no history of accepting material product returns. Customer support includes software updates on a when-and-if-available basis, telephone support, integrated web-based support and bug fixes or patches. Subscription and maintenance support revenue is recognized ratably over the term of the customer support agreement, which is typically one year.",
+    "We generate professional services and other revenue from consulting, technical support, resident engineer services, design services and installation services. Revenue for professional services and other is recognized when the performance obligation is complete and the customer has accepted the performance obligation.",
+    "Our Software solutions revenue increased 27%, or $6,290 to $29,664 for the year ended December 31, 2025, compared to $23,374 for the year ended December 31, 2024.",
+    "The following discussion of financial condition and results of operations should be read in conjunction with the Consolidated Financial Statements and Notes thereto and other financial information included herein this Annual Report.",
+    "2025 2024 Service revenue $ 33,782 $ 31,849 Software solutions revenue 29,664 23,374 Product revenue",
+    "4,721 5,615 Total revenue 68,167 60,838 Income/(loss) before income tax 5,371 1,889 Income tax (provision)/benefit"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "年化退出月複合訂閱費",
+    "淨月訂閱費保留率",
+    "調整後營業利益",
+    "截至2025年12月31日",
+    "截至2024年12月31日",
+    "雲端通訊服務",
+    "軟體解決方案",
+    "合併",
+    "{'translated_text': '會計年度終了於12月31日,'}"
+   ],
+   "paragraphs": [
+    "Crexendo, Inc. 為一家獲獎的軟體科技公司，為雲端通訊平台軟體與統一通訊即服務（UCaaS）方案的首選供應商，包括語音、視訊、聯絡中心及針對各規模企業量身打造的管理資訊科技服務。本公司雲端通訊軟體解決方案目前在全球支援超過七百萬終端用戶，透過超過240家雲端通訊平台軟體訂戶的廣泛網路，以及本公司直接零售方案。本公司產品與服務可歸納為以下方案：",
+    "雲端通訊服務 – 本公司雲端通訊服務透過IP或雲端技術傳送電話，將語音訊號轉換為數位資料封包，透過網際網路或雲端進行傳送。每項電話服務方案提供多項基本功能，通常為傳統電話服務供應商所提供的功能，加上廣泛的增強功能，本公司認為這些功能對客戶而言具有吸引人的價值。此平台讓用戶透過單一「身分」或電話號碼，不論用戶如何連接到網際網路或雲端，皆可存取並使用服務與功能，無論是從桌面裝置、行動裝置上的應用程式或電腦。",
+    "本公司從雲端通訊服務、寬頻網際網路服務、管理資訊科技服務、軟體授權銷售及基礎設施即服務中產生持續性收入。本公司雲端通訊服務合約通常為三十六至六十個月。本公司也可能收取啟動費與快速啟動費，本公司通常將部分啟動費歸屬於桌面裝置，於安裝或客戶驗收時確認收入，並將部分歸屬於服務，於合約期間內使用直線法確認收入。本公司也會收取其他各種合約與非合約費用。",
+    "本公司從銷售與租賃雲端通訊設備中產生產品收入、設備融資收入與裝置即服務收入。設備銷售收入，包括銷售型租賃的收入，於銷售時或租賃開始時確認，視情況而定。",
+    "軟體解決方案 – 本公司軟體解決方案業務來自三個主要來源：軟體授權、軟體維護支援與專業服務。軟體與服務可能分別銷售或以捆綁包形式銷售。通常，與客戶的合約包含多項績效義務，包括軟體與服務。對於捆綁包，本公司會將個別產品與服務視為獨立項目，若該產品或服務可從捆綁包中的其他項目中區分，且客戶可自行使用或搭配其他 readily available 資源使用。捆綁包中各個獨立產品與服務的對價，根據其相對獨立銷售價格進行分配。獨立銷售價格是根據本公司單獨銷售軟體授權與專業服務的價格確定。對於未單獨銷售的項目（例如額外功能），本公司會使用調整市場評估法來估算獨立銷售價格。當本公司提供免費試用期時，我們不會在試用期結束前開始確認持續性收入，直到客戶為服務付款後才開始確認。",
+    "本公司從銷售永續軟體授權、定期軟體授權（到期）、以及軟體即服務（SaaS）形式的軟體中產生軟體授權收入，這些被稱為訂閱安排。本公司不會在訂閱軟體授權的續約期開始前，確認與軟體授權相關的收入。",
+    "本公司從客戶支持及其他支持服務中產生訂閱與維護支援收入。本公司提供產品保修。本公司授權軟體的保修期通常為九十天。某些保修被視為保證型保修，僅確保產品按預期運作，不涵蓋其他內容。根據ASC 606的指引，保證型保修不視為獨立的績效義務。本公司也銷售獨立計價的維護服務合約，這些合約被視為服務型保修，並代表獨立的績效義務。本公司通常不允許，也沒有接受重大產品退貨的歷史紀錄。客戶支持包括軟體更新（視情況而定），電話支持，整合式網頁支持與錯誤修補或更新。訂閱與維護支援收入於客戶支持合約期間內按比例確認，通常為一至三年。",
+    "本公司從諮詢、技術支援、常駐工程師服務、設計服務與安裝服務中產生專業服務及其他收入。專業服務及其他收入於績效義務完成且客戶接受績效義務時確認。",
+    "本公司解決方案最近被認可為美國成長最快的 UCaaS 平台。透過提供多樣化、完整且可擴充的解決方案，本公司得以以月訂閱方式服務所有規模的企業，無需昂貴的資本投資，不論企業在其生命週期處於何個階段。本公司產品與服務可歸納為以下提供項目：",
+    "雲端通訊服務 – 本公司雲端通訊服務項目包含硬體、軟體以及透過任何高速網路連線的統一 IP 或雲端技術。這些服務透過多種裝置與通訊解決方案提供給企業用戶，使用如 Crexendo 品牌及第三方桌面電話與/或行動與桌面應用程式等使用者介面。一些行動裝置的範例包括 Android 手機、iPhone、iPad 或 Android 平板電腦。這些服務使本公司客戶能透過本公司網路或 PSTN 網路進行無縫通話。本公司雲端通訊服務由本公司專屬實現的基於標準的 Web 與 VoIP 雲端技術所驅動。本公司服務使用本公司所建置與管理的高可擴充性複雜基礎建設，基於產業標準最佳實務以達到更高的效率、更好的服務品質 (QoS) 與客戶滿意度。本公司基礎建設包含計算、儲存、網路技術、第三方產品與供應商關係。本公司亦開發終端用戶入口網站，用於帳戶管理、授權管理、計費與客戶支援，並透過合作夥伴採用其他雲端技術。",
+    "Crexendo 的雲端通訊服務提供所有規模企業所需的廣泛基本與進階功能。許多包含在服務項目中的功能為：",
+    "業務生產力功能，例如按分機與姓名撥號、轉接、會議、通話記錄、無限撥打至美國與加拿大任何地方、國際撥打、免付費電話（入站與出站）",
+    "個人生產力功能，例如來電顯示、來電等待、最後通話回撥、通話記錄、音樂/訊息等待音樂、語音信箱、統一訊息、熱座位",
+    "羣組生產力功能，例如呼叫停放、呼叫拾取、互動式語音回應 (IVR)、個別與通用叫 paging、企業電話簿、多方會議、羣組信箱、基於網路與行動裝置的協作應用程式"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'translated_text': '合併營運成果'}",
+    "{'translated_text': '合併營運成果（以千美元為單位，每股金額除外）'}",
+    "{'translated_text': '截至12月31日年度,'}",
+    "{'translated_text': '合併'}",
+    "{'original': 'For the three months ended', 'translated': '前三個月結算'}",
+    "{'original': 'September 30,', 'translated': '九月三日,'}",
+    "{'text': '12月31日,'}",
+    "{'text': '2025年12月31日止年度與2024年12月31日止年度比較'}",
+    "美元變動",
+    "百分比變動",
+    "非GAAP財務指標的使用",
+    "非GAAP財務指標的彙整",
+    "美國GAAP淨收入至非GAAP淨收入的彙整",
+    "截至12月31日三個月",
+    "美國GAAP淨收入至EBITDA至調整後EBITDA的彙整",
+    "應報告分部營運結果",
+    "運營成果為我們的雲端通訊服務分部（單位為千美元）：",
+    "雲端通訊服務",
+    "軟體解決方案應報告分部營運成果（單位：千美元）：",
+    "軟體解決方案"
+   ],
+   "paragraphs": [
+    "除歷史資訊外，本年度報告包含根據1933年證券法第27A節及1934年證券交易法第21E節所定義的向前看聲明。實際結果可能與向前看聲明中預測的結果有重大差異，這是因為多種因素、風險和不確定性所致，包括於上文第1A項所列的風險因素，以及本年度報告中所列的風險因素。通常，\"預期\"、\"期望\"、\"意圖\"、\"相信\"等類似詞彙用以識別向前看聲明。本年度報告中所作的向前看聲明係於向美國證券交易委員會提交本年度報告之日作出，未來事件或情況可能導致結果與 herein 所包含的向前看聲明有顯著差異。因此，我們提醒讀者勿過度依賴這些聲明。我們明確聲明對更新或修改向前看聲明無義務，無論是因新資訊、未來事件或其他原因，皆不論於本文件日期之後。",
+    "Crexendo, Inc. 是一家獲獎的軟體科技公司，為企業提供雲端通訊平台與服務、視訊協作及管理資訊科技服務，適用於所有規模的企業。透過提供多種全面且可擴展的解決方案，我們能夠以月費訂閱方式為所有規模的企業提供服務，而無需昂貴的資本投資，無論企業在其生命週期處於何階段。我們的產品與服務可歸納為以下提供項目：",
+    "雲端通訊服務 – 我們的雲端通訊服務透過 IP 或雲端技術傳送電話，將語音訊號轉換為數位資料封包，透過網際網路或雲端進行傳輸。我們的每一項通話計畫均提供傳統電話服務供應商通常提供的基本功能，並搭配廣泛的增強功能，我們認為這些功能對客戶而言具有吸引人的價值。此平台讓使用者透過單一 \"身分\" 或電話號碼，無論使用者如何連接到網際網路或雲端，皆可存取並使用服務與功能，無論是來自桌面裝置或行動裝置上的應用程式。",
+    "我們從雲端通訊服務、寬頻網際網路服務、管理資訊科技服務、軟體授權銷售及基礎設施即服務中產生持續性收入。我們的雲端通訊服務合約通常為三十九至九十個月。我們也可能收取啟動費與閃電費，本公司通常將啟動費的一部分歸屬於桌面裝置，於安裝或客戶驗收時確認收入，並將一部分歸屬於服務，於合約期間內使用直線法確認收入。我們也會收取其他各種合約與非合約費用。",
+    "我們從銷售與租賃雲端通訊設備中產生產品收入、設備融資收入及裝置即服務收入。設備銷售收入，包括銷售型租賃的收入，於銷售時或租賃開始時確認，視情況而定。",
+    "",
+    "軟體解決方案 – 我們的軟體解決方案部門收入來自三個主要來源：軟體授權、軟體維護支援及專業服務。軟體與服務可能分別銷售或以捆綁包形式銷售。通常，與客戶的合約包含多個績效義務，包括軟體與服務。對於捆綁包，本公司若個別產品與服務為獨立 – 即該產品或服務可從捆綁包中的其他項目中獨立辨識，且客戶可單獨使用或與客戶易得的其他資源一起使用 – 則會將個別產品與服務分別處理。捆綁包中個別產品與服務的對價，根據其相對獨立銷售價格進行分配。獨立銷售價格根據本公司單獨銷售軟體授權與專業服務的價格確定。對於未單獨銷售的項目（例如額外功能），本公司使用調整市場評估法來估算獨立銷售價格。當我們提供免費試用期時，我們不會在試用期結束且客戶為服務付款前開始確認持續性收入。",
+    "我們從銷售永續軟體授權、定期軟體授權（到期）及軟體即服務（\"SaaS\"）軟體中產生軟體授權收入，這些均稱為訂閱安排。本公司不會在訂閱軟體授權的續約期開始前確認與軟體相關的收入。",
+    "本公司從客戶支持及其他支援服務產生訂閱及維護支援收入。本公司對其產品提供保固。本公司授權軟體的保固期間通常為 90 天。本公司部分保固被視為保證型保固，且不涵蓋任何超出確保產品如預期運作的範圍。根據 ASC 606 的指引，保證型保固不代表獨立的績效義務。本公司亦銷售獨立計價的維護服務合約，這些合約符合服務型保固，並代表獨立的績效義務。本公司通常不允許，且無接受重大產品退貨的歷史紀錄。客戶支持包括軟體更新（依時機及可提供為準）、電話支持、整合式網頁支援及錯誤修復或補丁。訂閱及維護支援收入於客戶支持協議的期限內按比例確認，通常為一年。",
+    "本公司從諮詢、技術支援、常駐工程師服務、設計服務及安裝服務產生專業服務及其他收入。專業服務及其他收入於績效義務完成且客戶已接受績效義務時確認。",
+    "本公司軟體解決方案收入成長 27%，或 6,290 美元，至 29,664 美元，於 2025 年 12 月 31 日為止的會計年度，相較於 2024 年 12 月 31 日為止的會計年度的 23,374 美元。",
+    "有關財務狀況及營運成果的討論應與合併財務報表及其附註，以及其他包含於本年度報告中的財務資訊一併閱讀。",
+    "2025 2024 服務收入 $ 33,782 $ 31,849 軟體解決方案收入 29,664 23,374 產品收入",
+    "4,721 5,615 總收入 68,167 60,838 營業收入/(虧損) 前所得稅 5,371 1,889 所得稅 (提撥)/利益"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "年化退出月複合訂閱費",
+    "淨月訂閱費保留率",
+    "調整後營業利益",
+    "截至2025年12月31日",
+    "截至2024年12月31日",
+    "雲端通訊服務",
+    "軟體解決方案",
+    "合併",
+    "會計年度終了於12月31日",
+    "公共衛生危機可能對我們的業務、財務狀況及營運成果造成重大不利影響。",
+    "不利的總體經濟情勢可能對我們的業務造成重大不利影響",
+    "我們的成長及所處市場的變化，使我們難以評估目前的業務及未來展望，這可能會增加投資本公司股票的風險。",
+    "我們的業務可能受全球經濟情勢影響，包括美國與外國國家之間的關係。",
+    "國際擴張的法規風險。",
+    "與制裁及出口管制相關的風險。",
+    "與合法監聽及CALEA合規相關的風險。",
+    "我們無法確定未來是否能實現或維持營運獲利。",
+    "我們在2023年4月停止發放季節性股息，本公司可能在未來考慮發放股息，若2026年似乎沒有具備增厚價值的併購案。",
+    "我們可能無法以有利條件或任何條件取得融資，以應付未來的資金需求。",
+    "本公司透過併購或投資其他公司來擴張的策略，可能分散管理階層的注意力，增加費用，幹擾本公司營運，並損害營運成果。",
+    "本公司使用淨營業虧損結轉的能力建議，在發生股權變動的情況下可能會降低，並可能對財務結果產生不利影響。",
+    "服務等級協議、Crexendo VIP 100% 服務可用性保證及客戶信用風險暴露。",
+    "收入集中風險及企業合約重新談判風險。"
+   ],
+   "paragraphs": [
+    "{'translated_text': '本公司普通股之市場、相關股東事項及本公司購回股票之資訊。'}",
+    "{'translated_text': '管理層對財務狀況及營運成果之討論與分析。'}",
+    "{'translated_text': '關於市場風險之數量及品質揭露。'}",
+    "{'translated_text': '財務報表及補充資料。'}",
+    "{'translated_text': '會計師與會計及財務揭露之異議與變更事項。'}",
+    "{'translated_text': '董事、高階主管及公司治理。'}"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

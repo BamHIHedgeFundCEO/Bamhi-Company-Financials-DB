@@ -1,0 +1,223 @@
+{
+ "ticker": "APLD",
+ "cik": "0001144879",
+ "accession": "0001144879-26-000048",
+ "form": "10-K",
+ "reportDate": "2026-05-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Business",
+    "Our Competitive Strengths",
+    "HPC Hosting Business",
+    "Contracted Lease Portfolio",
+    "Campus Anchor Tenant Contracted Critical IT Load Lease Term Total Contracted Revenue (1)",
+    "Expected Delivery (2)",
+    "Total / Portfolio 1,410 MW ~$36.2B 2H25–2H28",
+    "Site and Power Pipeline",
+    "Data Center Hosting Business",
+    "Industry Trends",
+    "Materials and Suppliers",
+    "Global Logistics",
+    "Employees and Human Capital Resources",
+    "Our Growth Strategies",
+    "Environmental Impact",
+    "Corporate Information"
+   ],
+   "paragraphs": [
+    "We are a U.S.-based designer, developer, owner, and operator of large-scale, purpose-built data centers engineered to support high-performance computing (\"HPC\") workloads, including artificial intelligence (\"AI\"), machine learning, and other accelerated-compute applications. We design, build, and operate high-performance, sustainably engineered data centers—which we refer to as AI factories—and deliver that capacity to investment-grade hyperscalers and other leading compute customers under long-term lease and hosting arrangements. Our standardized, repeatable design model spans site selection, design, construction, and operations, and has been qualified by major hyperscalers, enabling rapid, flexible deployment in both air-cooled and liquid-cooled configurations.",
+    "Over the past several fiscal years, we have evolved from a company focused on blockchain hosting into a purpose-built HPC data center platform organized around our proprietary AI factory model. Today, our growth, capital allocation, and operating focus are centered on developing and operating HPC data centers, while our legacy blockchain hosting operations represent a smaller, single-customer component of our business that we expect to continue to decline in relative significance over time.",
+    "We conduct our business through two reportable segments: our HPC data center hosting business (the \"HPC Hosting Business\") and our blockchain data center hosting business (the \"Data Center Hosting Business\"). As discussed further under Note 1 - Business and Basis of Presentation and Note 19 - Business Segments, our cloud services business is no longer an operating or reportable segment following the May 2026 transaction.",
+    "We believe the following strengths position us to capture growing demand for HPC and AI infrastructure:",
+    "We originate and control large, contiguous sites with access to substantial, cost-competitive power and the interconnection rights necessary to energize high-density compute at scale. We believe that securing power and interconnection ahead of demand is the principal constraint on new HPC capacity and a core differentiator for us from many of our competitors.",
+    "Our campuses are engineered for liquid-cooled, high-density graphics processing unit (GPU) deployments, with redundant electrical and mechanical systems designed to meet the uptime and performance requirements of mission-critical AI workloads.",
+    "Long-term contracted revenue with high-quality counterparties",
+    "Our HPC capacity is contracted under long-term leases, including with investment-grade hyperscalers, providing long-dated revenue visibility.",
+    "Standardized, repeatable AI factory platform",
+    "We develop our campuses using a standardized, franchise-style design that is engineered to deliver state-of-the-art data centers of approximately 150 MW in approximately 14 to 18 months, with low water usage. A scalable operating model which standardizes operations and leverages the same core roles across campuses and our master service and master telecom service agreements with leading hyperscalers—agreements that are difficult to obtain—position us to move quickly as hyperscaler AI infrastructure investment accelerates.",
+    "Our HPC Hosting Business designs, constructs, owns, and operates next-generation data centers purpose-built to host high-density GPU and other accelerated-compute infrastructure for AI, machine learning, and other HPC applications.",
+    "Our flagship HPC campus, located in Ellendale, North Dakota, is being developed in phases. Our first HPC data center at the campus, with approximately 100 MW of critical IT load, became operational in October 2025. A second data center, expected to provide an additional 150 MW, is partially operational, and a third data center, also expected to provide approximately 150 MW, is under construction with an anticipated ready-for-service date in calendar year 2027.",
+    "On May 28, 2025, our subsidiaries APLD ELN-02 LLC and APLD ELN-03 LLC each entered into a data center lease (the \"ELN-02 Lease\" and the \"ELN-03 Lease\") with CoreWeave, Inc. (\"CoreWeave\") to deliver an aggregate of 250 MW of capacity to host CoreWeave's HPC operations at Polaris Forge 1. On August 28, 2025, our subsidiary APLD ELN-02 C LLC entered into a third lease (the \"Building 4 Lease\") with CoreWeave for an additional 150 MW, bringing the total contracted capacity at Polaris Forge 1 under our CoreWeave leases to 400 MW. We have guaranteed the obligations of the applicable subsidiaries under each of these leases. On March 30, 2026, as a result of an internal restructuring at CoreWeave, the ELN-02 Lease was amended and the ELN-03 Lease was assigned, in each case, to a wholly owned subsidiary of CoreWeave, CoreWeave Compute Acquisition Co. VIII, LLC, as further described in \"Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations – Business Overview.\"",
+    "On August 18, 2025, we broke ground on our Polaris Forge 2 data center campus near Harwood, North Dakota, with an initial 200 MW data center. We currently anticipate reaching initial capacity in the second half of calendar year 2026 and full capacity in early calendar year 2027. On October 22, 2025, we entered into an approximately 15-year lease with a U.S.-based investment-grade hyperscaler for 200 MW of critical IT load at the campus."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Summary",
+    "Risks Related to Our Business and Operations",
+    "Risks Related to Our Industry",
+    "Risks Related to Our Securities",
+    "We may be unable to access sufficient additional capital needed to grow our business.",
+    "Our level of debt may negatively impact our liquidity, restrict our operations and ability to respond to business opportunities, and increase our vulnerability to adverse economic and industry conditions.",
+    "Our existing indebtedness arrangements contain several restrictive covenants and events of default that limit our corporate activities.",
+    "We may be unable to refinance our indebtedness at maturity or the refinancing terms may be less favorable than the terms of our original indebtedness.",
+    "We may be unable to complete our data center campuses in a timely manner or within anticipated cost estimates.",
+    "Delays in lease commencement could adversely affect our financial condition and results of operations.",
+    "Our business has and is expected to continue to have significant customer concentration.",
+    "Our consolidated financial statements include the financial results of ChronoScale.",
+    "Changes in U.S. trade policy, including the imposition of tariffs and the resulting consequences, may have a material adverse impact on our business, operating results, and financial condition.",
+    "We are subject to a highly evolving regulatory landscape and any adverse changes to certain laws or regulations could adversely affect our customers and our business, prospects or operations.",
+    "We could incur significant costs related to environmental matters, including from government regulation, private litigation, and existing conditions at some of our properties.",
+    "Our business depends upon the demand for data centers.",
+    "Any delays or unexpected costs developing our existing space, developable land and newly acquired properties may delay and harm our growth prospects, future operating results and financial condition.",
+    "We may be unable to lease vacant or development space, renew leases, or re-lease space as leases expire.",
+    "Failure to attract, grow and retain a diverse and balanced customer base could harm our business and operating results.",
+    "We are continuing to invest in our expansion efforts but may not have sufficient customer demand in the future to realize expected returns on these investments.",
+    "Our new services and changes to existing services could fail to attract or retain users or generate revenue and profits, or otherwise adversely affect our business.",
+    "We are subject to risks associated with our need for significant electrical power.",
+    "We depend upon third-party suppliers for power, and we are vulnerable to service failures and price increases by such suppliers and to volatility in the supply and price of power in the open market.",
+    "Any failure of our physical or information technology or operational technology infrastructure or services could lead to significant costs and disruptions.",
+    "If we incorrectly estimate our hosting capacity requirements and related capital expenditures, our results of operations could be adversely affected.",
+    "We depend on third parties to provide network connectivity to the customers in our data centers and any delays or disruptions in connectivity may materially adversely affect our operating results and cash flow."
+   ],
+   "paragraphs": [
+    "An investment in our common stock is speculative and illiquid and involves a high degree of risk including the risk of a loss of your entire investment. You should carefully consider the risks and uncertainties described below and the other information contained in this report and our other reports filed with the SEC. The risks set forth below are not the only ones facing us. Additional risks and uncertainties may exist that could also adversely affect our business, operations and financial condition. If any of the following risks actually materialize, our business, financial condition and/or operations could suffer. In such event, the value of our common stock could decline, and you could lose all or a substantial portion of the money that you paid for our common stock.",
+    "We are providing the following summary of the risk factors contained in this Annual Report on Form 10-K to enhance the readability and accessibility of our risk factor disclosures. We encourage you to carefully review the full risk factors contained herein in their entirety for additional information regarding the material factors that make an investment in our securities speculative or risky. These risks and uncertainties include, but are not limited to, the following:",
+    "•We may be unable to access sufficient additional capital needed to grow our business.",
+    "•We may be unable to refinance our indebtedness at maturity or the refinancing terms may be less favorable than the terms of our original indebtedness.",
+    "•In the past we have identified material weaknesses in our internal control over financial reporting and, though remediated, may identify additional material weaknesses in the future or otherwise fail to maintain an effective system of internal controls, any of which may result in material misstatements of our financial statements or cause us to fail to meet our periodic reporting obligations.",
+    "•We may be unable to complete our data center campuses in a timely manner or within anticipated cost estimates."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Business Overview",
+    "Business Update",
+    "Public Offerings and Changes to Equity",
+    "Debt Financing",
+    "Recent Developments",
+    "Results of Operations",
+    "Results of Operations for the fiscal year ended May 31, 2026 compared to fiscal years ended May 31, 2025 and May 31, 2024",
+    "Fiscal Year Ended",
+    "May 31, 2026 May 31, 2025 May 31, 2024",
+    "Adjusted Amounts (4)",
+    "Other Financial Data (4)",
+    "Commentary on Results of Operations for the fiscal year ended May 31, 2026 compared to the fiscal year ended May 31, 2025"
+   ],
+   "paragraphs": [
+    "We are a U.S. designer, developer, and operator of high-performance, sustainably engineered data centers and colocation services for artificial intelligence (\"AI\"), networking, and blockchain workloads. We provide digital infrastructure solutions to the rapidly growing industries of high-performance computing (\"HPC\") and AI. As of May 31, 2026, we operated in two distinct business segments, data center hosting (the \"Data Center Hosting Business\") and HPC data center hosting (the \"HPC Hosting Business\"), all of which are included in our consolidated financial statements, as further discussed below. Management considers the Data Center Hosting Business and the HPC Hosting Business to be its core operations for long-run strategic and performance evaluation purposes.",
+    "We consolidate variable interest entities (\"VIE\") and voting interest entities (\"VOE\") where it has been determined that the Company is the primary beneficiary of the entities' operation in accordance with ASC Topic 810, Consolidations. The primary beneficiary is the party that has both the power to direct the activities that most significantly impact the VIE's/VOE's economic performance and the obligation to absorb losses or the right to receive benefits of the VIE/VOE that could potentially be significant to the VIE/VOE. In evaluating whether the Company is the primary beneficiary, the Company evaluates its power to direct the most significant activities of the VIE/VOE by considering the purpose and design of the entity and the risks the entity was designed to create and pass through to its variable interest holders. The Company also evaluates its economic interests in the VIE/VOE.",
+    "On May 5, 2026, the Company completed the previously announced divestiture of its cloud business pursuant to that certain Contribution and Exchange Agreement (the \"Contribution and Exchange Agreement\"), dated February 15, 2026, by and among Ekso Bionics Holdings, Inc. (\"Ekso\"), APLD Intermediate HoldCo LLC, a Delaware limited liability company (\"APLD Intermediate\"), APLD ChronoScale HoldCo LLC, a Delaware limited liability company and a wholly owned subsidiary of APLD Intermediate (\"Contributor\"), each a wholly owned direct or indirect subsidiary of the Company, and Applied Digital Cloud Corporation, a Nevada corporation, a wholly owned indirect subsidiary of the Company and a direct subsidiary of Contributor (\"Cloud\"), for purposes of consummating a business combination (the \"Cloud Business Combination\"). Pursuant to the Contribution and Exchange Agreement, Contributor contributed to Ekso all of its right, title and interest in and to 1,200 shares of common stock of Cloud, constituting 100% of the issued and outstanding equity of Cloud, in exchange for 138,216,820 newly issued shares of Ekso common stock, par value $0.001 per share. As a result of",
+    "the Cloud Business Combination, Cloud became a wholly owned subsidiary of Ekso, Ekso changed its name to ChronoScale Corporation (\"ChronoScale\") and ChronoScale's common stock began trading on the Nasdaq Capital Market under the symbol \"CHRN\" on May 5, 2026. Immediately following the closing of the Cloud Business Combination, the Company (on an aggregate basis with Contributor), owned approximately 97% of the issued and outstanding equity of ChronoScale.",
+    "Our HPC Hosting Business designs, constructs, and operates next-generation data centers, which are designed to provide massive computing power and support HPC applications within a cost-effective model.",
+    "We recently commenced operations at our first HPC data center at our Polaris Forge 1 campus with 100MW of capacity. We continue building our second HPC data center at Polaris Forge 1 to provide an additional 150MW of capacity. These facilities are being designed and purpose-built to host high-density graphics processing unit architecture or other HPC applications, such as artificial intelligence, natural language processing, machine learning, and additional HPC developments. Our third HPC focused data center facility at Polaris Forge 1, which is expected to provide an additional 150MW of capacity, is currently under construction, with an anticipated ready for service date in calendar year 2027.",
+    "On May 28, 2025, APLD ELN-02 LLC and APLD ELN-03 LLC, our subsidiaries, each entered into a data center lease (the \"ELN-02 Lease\" and the \"ELN-03 Lease\") with CoreWeave, Inc. (\"CoreWeave\") to deliver an aggregate of 250 MW of infrastructure to host CoreWeave's HPC operations at Polaris Forge 1. The ELN-02 Lease is for the full capacity of our 100 MW data center that was completed and became operational in October 2025, and the ELN-03 Lease is for the full capacity of our 150 MW data center that is also under construction. We have guaranteed the obligations of APLD ELN-02 LLC and APLD ELN-03 LLC under the respective lease to which such subsidiary is a party.",
+    "On March 30, 2026, the Company and CoreWeave amended the ELN-02 Lease to suspend the term for two of the four data halls covered by the lease (the \"ELN-02 Lease Amendment\") and the Company entered into a new datacenter lease with CoreWeave Compute Acquisition Co. VIII, LLC (\"CoreWeave SPV\"), a wholly owned subsidiary of CoreWeave, for those two data halls on substantially the same terms as the ELN-02 Lease (the \"ELN-02 SPV Lease\"). The ELN-02 SPV Lease is conterminous with the initial term of the ELN-02 Lease. Upon the expiration or earlier termination of the ELN-02 SPV Lease, the suspended term under the ELN-02 Lease will resume and all four data halls of ELN-02 will once again be governed by the ELN-02 Lease. As further credit enhancement, CoreWeave delivered to APLD ELN-02 LLC an Unconditional Springing Guaranty of Payment and Performance (the \"ELN-02 Guaranty\") in connection with CoreWeave SPV's obligations under the ELN-02 SPV Lease. CoreWeave is obligated to provide a letter of credit in the amount of $50 million to secure obligations under the ELN-02 Lease within 30 days of March 30, 2026.",
+    "Also on March 30, 2026, CoreWeave entered into an Assignment, Assumption and Consent Agreement with CoreWeave SPV and APLD ELN-03 LLC, assigning all of CoreWeave's rights and obligations under the ELN-03 Lease to CoreWeave SPV for the remaining term of the ELN-03 Lease and releasing CoreWeave from the ELN-03 Lease. In addition, CoreWeave also provided an Unconditional Springing Guaranty of Payment and Performance in connection with CoreWeave SPV's obligations under the ELN-03 Lease, similar to the ELN-02 Guaranty.",
+    "On August 28, 2025, APLD ELN-02 C LLC, our subsidiary, entered into a third data center lease, the (\"Building 4 Lease\") with CoreWeave to deliver an additional 150 MW at Polaris Forge 1, bringing the total capacity under contract at Polaris Forge 1 to 400 MW. We have guaranteed the obligations of APLD ELN-02 C LLC under the Building 4 Lease.",
+    "On August 18, 2025, we also announced that we would be breaking ground on our Polaris Forge 2 campus with an initial 200 MW data center near Harwood, North Dakota. The project has begun and we currently anticipate reaching initial capacity in the calendar year 2026 and reaching full capacity in early calendar year 2027. On October 20, 2025, APLD FAR-01 LLC and APLD FAR-02 LLC, the Company's subsidiaries, entered into a data center lease with a U.S.-based investment-grade hyperscaler to deliver 200MW of critical IT load to support the hyperscaler's AI and HPC infrastructure at Polaris Forge 2, which is currently under construction. The initial 200 MW are phased within two buildings expected to begin to come online during the calendar year 2026.",
+    "On January 22, 2026 we announced that we broke ground on Delta Forge 1, a 300 MW critical IT load campus located in a strategic southern U.S. market."
+   ],
+   "focus": "Business Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司業務",
+    "本公司競爭優勢",
+    "高效能計算 hosting 業務",
+    "租賃資產組合",
+    "校園核心租戶租賃關鍵資訊科技負載租賃期限總租賃收入 (1)",
+    "預期交貨 (2)",
+    "總計 / 資產組合 1,410 MW ~$36.2B 2H25–2H28",
+    "場地與電力管道",
+    "資料中心 hosting 事業",
+    "產業趨勢",
+    "材料與供應商",
+    "全球物流",
+    "員工與人力資本資源",
+    "我們的成長策略",
+    "環境影響",
+    "公司資訊"
+   ],
+   "paragraphs": [
+    "本公司為美國 headquartered 的設計、開發、所有者及營運者，專門營運大型、專為高運算效能（\"HPC\"）工作負載所設計的資料中心，包括人工智慧（\"AI\"）、機器學習及其他加速運算應用。我們設計、建造並營運高運算效能、永續工程的資料中心——我們稱為 AI 工廠——並將此容量提供給投資等級的超大型資料中心客戶及其他領先的運算客戶，透過長期租賃及 hosting 約定。我們的標準化、可重複設計模式涵蓋地點選擇、設計、建造及營運，並已獲得主要超大型資料中心客戶認證，使我們能在空氣冷卻及液冷配置中快速、靈活部署。",
+    "過去幾年財務年度，我們已從專注於區塊鏈 hosting 的公司，轉型為以我們專利的 AI 工廠模式為核心的 HPC 資料中心平台。目前，我們的成長、資本配置及營運重點均聚焦於 HPC 資料中心的開發與營運，而我們的遺留區塊鏈 hosting 運營則代表我們業務中較小、單一客戶的零組件，我們預期此部分將隨時間持續下降。",
+    "我們透過兩個應報告分部進行業務：我們的 HPC 資料中心 hosting 商業（\"HPC Hosting 商業\"）及我們的區塊鏈資料中心 hosting 商業（\"Data Center Hosting 商業\"）。如進一步說明於附註 1 - 商業與財務報表基礎及附註 19 - 商業分部，我們的雲端服務業務已於 2026 年 5 月交易後不再為營運或應報告分部。",
+    "我們認為以下優勢使我們能抓住 HPC 及 AI 基礎設施日益增長的需求：",
+    "我們擁有並控制大型、連續的用地，並具備大量、成本競爭力的電力及必要的連線權，以實現高密度運算的規模化供電。我們認為，在需求前取得電力及連線權是新 HPC 能力的主要限制因素，也是我們與許多競爭對手的核心差異點。",
+    "我們的校區是為液冷、高密度圖形處理單元（GPU）部署所設計，並具備備用電力及機械繫統，以符合關鍵 AI 工作負載的運行時間及效能需求。",
+    "長期約定的收入與高品質交易對手",
+    "我們的 HPC 能力透過長期租賃約定，包括與投資等級的超大型資料中心客戶，提供長期收入可見性。",
+    "標準化、可重複使用的AI工廠平台",
+    "我們以標準化、特許經營式設計來開發我們的校區，此設計工程化以提供約150 MW的最先進資料中心，約需14至18個月，且用水量低。一個可擴充的運營模式，標準化運營並在各校區及我們與領先的超規模雲端服務商簽訂的主服務及主電信服務協議中重複使用相同的核心角色—這些協議難以取得—使我們能快速應對超規模雲端AI基礎設施投資加速的趨勢。",
+    "我們的HPC hosting業務設計、建設、擁有並營運下一代資料中心，專為主機高密度GPU及其他加速計算基礎設施而設計，用於AI、機器學習及其他HPC應用。",
+    "我們的旗艦HPC校區位於北達科他州的Ellendale，正在分階段開發。我們在該校區的第一座HPC資料中心，約有100 MW的關鍵IT負載，於2025年10月開始運作。第二座資料中心預計將提供額外的150 MW，目前已部分運作，第三座資料中心也預計將提供約150 MW，目前正在建設中，預計於2027年會計年度內準備好服務。",
+    "2025年5月28日，我們的子公司APLD ELN-02 LLC與APLD ELN-03 LLC各自與CoreWeave, Inc. (\"CoreWeave\")簽訂資料中心租賃契約（\"ELN-02租賃\"與\"ELN-03租賃\"），以提供總計250 MW的容量，用以主機CoreWeave的HPC運作於Polaris Forge 1。2025年8月28日，我們的子公司APLD ELN-02 C LLC與CoreWeave簽訂第三份租賃契約（\"Building 4租賃\"），以提供額外的150 MW，使我們在Polaris Forge 1下的CoreWeave租賃總合約容量達到400 MW。我們已為這些租賃契約中適用的子公司義務提供擔保。2026年3月30日，因CoreWeave內部重整，ELN-02租賃被修改，ELN-03租賃被轉讓至CoreWeave的 wholly owned subsidiary，CoreWeave Compute Acquisition Co. VIII, LLC，如進一步說明於\"項目7. 管理層對財務狀況與營運成果之討論與分析 – 商業概觀\"。",
+    "2025年8月18日，我們在北達科他州Harwood附近啟動Polaris Forge 2資料中心校區的建設，首座資料中心為200 MW。我們目前預計在2026會計年度的第二季達到初始容量，並在2027會計年度初達到滿載容量。2025年10月22日，我們與一家美國投資等級的超規模雲端服務商簽訂約15年的租賃契約，於該校區提供200 MW的關鍵IT負載。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運概覽",
+    "營運更新",
+    "公開發行及權益變動",
+    "債務融資",
+    "近期發展",
+    "營運成果",
+    "截至2026年5月31日會計年度營運成果，與截至2025年5月31日及2024年5月31日會計年度比較",
+    "截至會計年度終了",
+    "2026年5月31日 2025年5月31日 2024年5月31日",
+    "調整後金額 (4)",
+    "其他財務資料 (4)",
+    "2026年財務年度截至5月31日營運成果評述，與2025年財務年度截至5月31日比較"
+   ],
+   "paragraphs": [
+    "本公司為美國一家設計、開發及營運高性能、可持續工程的資料中心與共用空間服務（colocation services）之公司，服務對象為人工智慧（\"AI\"）、網路及區塊鏈應用。本公司提供數位基礎建設解決方案，以服務快速成長的高性能計算（\"HPC\"）與人工智慧產業。截至2026年5月31日，本公司營運兩種不同的業務分部，資料中心主機服務（\"資料中心主機業務\"）與HPC資料中心主機服務（\"HPC主機業務\"），所有業務均包含於本公司合併財務報表中，如後文進一步說明。本公司認為資料中心主機業務與HPC主機業務為其長期戰略與績效評估之核心業務。",
+    "本公司合併變動權益實體（\"VIE\"）與投票權益實體（\"VOE\"），依據ASC主題810，合併規定，若本公司為實體之主要受益者。主要受益者為具有權力指導實體最重大活動，且負有吸收虧損或享有實體潛在重大利益之當事人。評估本公司是否為主要受益者時，本公司考量其對實體最重大活動之指導權，包括實體之目的與設計，以及實體設計所產生並轉嫁至變動權益持有人之風險。本公司亦評估其對VIE/VOE之經濟權益。",
+    "2026年5月5日，本公司完成先前公告之雲端業務出售，依據2026年2月15日簽訂之貢獻與交換協議（\"貢獻與交換協議\"），由Ekso Bionics Holdings, Inc.（\"Ekso\"）、APLD Intermediate HoldCo LLC，一家德克薩斯州有限責任公司（\"APLD Intermediate\"）、APLD ChronoScale HoldCo LLC，一家德克薩斯州有限責任公司且為APLD Intermediate之 wholly owned subsidiary（\"Contributor\"），以及Applied Digital Cloud Corporation，一家內華達州公司，為本公司之 wholly owned indirect subsidiary 且為Contributor之 direct subsidiary（\"Cloud\"）所簽訂。為完成一項企業併購（\"雲端業務併購\"），Contributor將其對Cloud之全部權利、標的與權益，包括1,200股Cloud普通股，佔Cloud已發行與流通之全部權益，交換為138,216,820股Ekso普通股，每股面值$0.001。",
+    "因雲端業務併購，Cloud成為Ekso之 wholly owned subsidiary，Ekso更名為ChronoScale Corporation（\"ChronoScale\"），ChronoScale普通股於2026年5月5日開始在納斯達克資本市場（Nasdaq Capital Market）交易，代碼為\"CHRN\"。雲端業務併購完成後，本公司（與Contributor合計）持有ChronoScale已發行與流通之權益約97%。",
+    "本公司HPC主機業務設計、興建並營運下一代資料中心，這些資料中心設計用以提供大量計算能力，並在成本效益模式下支援HPC應用。",
+    "本公司最近在Polaris Forge 1校區啟動第一座HPC資料中心，容量為100MW。本公司持續興建第二座HPC資料中心於Polaris Forge 1，以提供額外150MW容量。這些設施為專門設計與興建，用以支援高密度圖形處理單元架構或其他HPC應用，例如人工智慧、自然語言處理、機器學習及其他HPC發展。本公司第三座專注於HPC之資料中心設施於Polaris Forge 1，預計提供額外150MW容量，目前正在興建中，預計於2027年財務年度內完工。",
+    "2025年5月28日，本公司之子公司APLD ELN-02 LLC與APLD ELN-03 LLC，各自與CoreWeave, Inc.（\"CoreWeave\"）簽訂資料中心租賃契約（\"ELN-02租賃\"與\"ELN-03租賃\"），以提供總計250MW之基礎建設，用以支援CoreWeave之HPC業務於Polaris Forge 1。ELN-02租賃為本公司100MW資料中心之全部容量，該資料中心於2025年10月完成並開始營運；ELN-03租賃為本公司150MW資料中心之全部容量，該資料中心目前正在興建中。本公司已為APLD ELN-02 LLC與APLD ELN-03 LLC在相應租賃下之義務提供擔保。",
+    "2026年3月30日，本公司與CoreWeave修改ELN-02租賃，暫停該租賃所涵蓋之四座資料機房中兩座之租賃期限（\"ELN-02租賃修正\"），並與CoreWeave Compute Acquisition Co. VIII, LLC（\"CoreWeave SPV\"），為CoreWeave之 wholly owned subsidiary，簽訂新資料中心租賃契約（\"ELN-02 SPV租賃\"），以處理該兩座資料機房，條款與ELN-02租賃 substantially相同。ELN-02 SPV租賃之期限與ELN-02租賃之初始期限相同。ELN-02 SPV租賃到期或提前終止時，ELN-02租賃中暫停之租賃期限將恢復，且ELN-02之四座資料機房將再次受ELN-02租賃規範。作為進一步信用增強，CoreWeave已為APLD ELN-02 LLC提供無條件春發支付與履行擔保（\"ELN-02擔保\"），以確保CoreWeave SPV在ELN-02 SPV租賃下之義務。CoreWeave有義務於2026年3月30日後30日內提供5000萬美元之信用證，以確保ELN-02租賃下之義務。",
+    "亦於 2026 年 3 月 30 日，CoreWeave 與 CoreWeave SPV 及 APLD ELN-03 LLC 簽訂 Assignment, Assumption and Consent Agreement，將 CoreWeave 在 ELN-03 租約下的所有權利與義務轉讓予 CoreWeave SPV，以履行 ELN-03 租約剩餘租期，並解除 CoreWeave 在 ELN-03 租約下的責任。此外，CoreWeave 亦針對 CoreWeave SPV 在 ELN-03 租約下的義務，提供無條件的付款與履約擔保，類似 ELN-02 擔保。",
+    "於 2025 年 8 月 28 日，本公司之子公司 APLD ELN-02 C LLC 與 CoreWeave 簽訂第三座資料中心租約（\"Building 4 租約\"），以在 Polaris Forge 1 提供額外 150 MW 的電力，使 Polaris Forge 1 總合約容量達到 400 MW。本公司已為 APLD ELN-02 C LLC 在 Building 4 租約下的義務提供擔保。",
+    "於 2025 年 8 月 18 日，本公司亦宣佈將在 North Dakota 的 Harwood 鄰近地區啟動 Polaris Forge 2 校區的建設，該校區首階段為 200 MW 的資料中心。該項目已開始進行，本公司目前預期於 2026 年會達成初始容量，並於 2027 年初達成滿載容量。於 2025 年 10 月 20 日，本公司之子公司 APLD FAR-01 LLC 及 APLD FAR-02 LLC 與一家美國投資等級的超規模電信業者簽訂資料中心租約，以在 Polaris Forge 2 提供 200 MW 的關鍵資訊科技負載，用以支援該超規模電信業者之人工智慧與高效能計算基礎建設，該資料中心目前正在建設中。初始 200 MW 將分階段於 2026 年度內啟用。",
+    "於 2026 年 1 月 22 日，本公司宣佈在美國南部戰略性市場啟動 Delta Forge 1 校區，該校區為 300 MW 的關鍵資訊科技負載校區。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與本公司業務及營運相關的風險",
+    "與本公司產業相關的風險",
+    "與本公司證券相關的風險",
+    "本公司可能無法取得足夠的額外資金以支應業務成長所需。",
+    "本公司負債水平可能不利於流動性，限制營運活動及應對業務機會的能力，並增加對不利經濟與產業環境的敏感度。",
+    "本公司現有負債協議包含若干限制性契約條款及違約事件，限制本公司企業活動。",
+    "本公司可能無法在到期時重新融資負債，或重新融資條件可能不如原始負債的條件有利。",
+    "我們可能無法按時或在預期的成本預估內完成我們的資料中心校區。",
+    "租賃開始的延遲可能對我們的財務狀況及營運結果產生不利影響。",
+    "我們的業務已具備且預期將持續具備顯著的客戶集中度。",
+    "我們的合併財務報表包含 ChronoScale 的財務結果。",
+    "美國貿易政策的變化，包括課徵關稅及其後果，可能對我們的業務、營運結果及財務狀況產生重大不利影響。",
+    "我們面臨高度變動的監管環境，任何對特定法律或法規的不利變更可能對我們的客戶及業務、前景或營運產生不利影響。",
+    "我們可能因環境相關事項而產生重大成本，包括來自政府規範、私人訴訟及部分營運場地現有狀況。",
+    "我們的業務依賴資料中心的需求。",
+    "任何延誤或未預期的成本，於開發我們現有空間、可開發土地及新取得的不動產，可能會延誤並損害我們的成長前景、未來營運結果及財務狀況。",
+    "我們可能無法出租空置或開發中的空間、續約或於租約到期後重新出租空間。",
+    "未能吸引、成長並留住多元且平衡的客戶羣，可能會損害我們的業務及營運結果。",
+    "我們持續投資於擴張計畫，但未來可能無法有足夠的客戶需求來實現這些投資的預期回報。",
+    "我們的新服務及現有服務的變更，可能無法吸引或留住用戶或產生收入與利潤，或以其他方式不利於我們的業務。",
+    "我們面臨與我們對大量電力需求相關的風險。",
+    "我們依賴第三方供應商提供電力，我們對這些供應商的服務中斷及價格上漲，以及開放市場中電力供應與價格的波動相當脆弱。",
+    "我們的實體或資訊科技或營運科技基礎建設或服務的任何失敗，可能會導致重大成本與中斷。",
+    "若我們錯誤地預估我們的 hosting capacity 需求及相關資本支出，將可能對我們的營運成果產生不利影響。",
+    "我們依賴第三方提供網路連線服務給我們資料中心的客戶，任何連線延遲或中斷都可能對我們的營運成果及現金流產生重大不利影響。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股為高度風險且流動性差的投機行為，包含可能導致您全部投資損失的風險。您應謹慎考量下列所列風險與不確定性，以及本報告與本公司其他向美國證券交易委員會（SEC）提交之報告中所包含之資訊。下列所列風險並非本公司唯一面臨之風險，尚可能存在其他風險與不確定性，可能對本公司業務、營運與財務狀況造成不利影響。若任何上述風險實際發生，將可能使本公司業務、財務狀況與/或營運遭受影響。在此情況下，本公司普通股之價值可能下跌，您可能損失全部或大部分所投資之金額。",
+    "本公司提供下列風險因素摘要，以提升本年度10-K報告中風險因素之可讀性與可近性。我們鼓勵您詳細審閱本報告中完整之風險因素，以取得更多有關使投資本公司證券成為投機或高風險之重大因素之資訊。這些風險與不確定性包括但不限於以下內容：",
+    "•本公司可能無法取得足夠之額外資金以支應業務成長所需。",
+    "•本公司可能無法於債務到期時進行再融資，或再融資條件可能不如原始債務之條件。",
+    "•過往本公司已識別出財務報導內部控制之重大弱點，雖已改善，但未來仍可能識別出其他重大弱點，或未能維持有效之內部控制系統，任何情況均可能導致財務報表出現重大錯誤，或導致本公司無法履行定期財務報導義務。",
+    "•本公司可能無法如期或在預期成本內完成資料中心校區之建設。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,203 @@
+{
+ "ticker": "MLYS",
+ "cik": "0001933414",
+ "accession": "0001933414-26-000056",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Business Overview",
+    "Our Product Candidate, Lorundrostat",
+    "Summary of Historical and Current Clinical Trials of Lorundrostat",
+    "Background of Hypertension",
+    "Background of Chronic Kidney Disease (CKD)",
+    "Background of Obstructive Sleep Apnea (OSA)",
+    "Background of Aldosterone and its Role in Hypertension",
+    "Overview of Renin-Dependent and Renin-Independent Aldosterone Production",
+    "Growing Epidemic of Obesity Correlated to Rise in Hyperaldosteronism",
+    "Clinical Development of Lorundrostat",
+    "Pivotal Program Clinical Trial Results",
+    "Launch-HTN Phase 3 Trial",
+    "Week 6 (50 mg pooled)",
+    "Placebo-Adjusted",
+    "Advance-HTN Phase 2 Trial",
+    "Week 4 (50 mg pooled)",
+    "Explore-CKD Clinical Trial Results",
+    "Explore-CKD Phase 2 Trial (N=59)",
+    "Placebo Lorundrostat 25 mg",
+    "Explore-OSA Clinical Trial Results",
+    "Our Team and Investors",
+    "License Agreement with Tanabe",
+    "Manufacturing",
+    "Sales and Marketing",
+    "Intellectual Property",
+    "Government Regulation"
+   ],
+   "paragraphs": [
+    "We are a biopharmaceutical company focused on developing medicines to target diseases driven by dysregulated aldosterone. Our product candidate, lorundrostat, is a proprietary, orally administered, highly selective aldosterone synthase inhibitor (ASI) that we are developing for the treatment of cardiorenal conditions affected by dysregulated aldosterone, including hypertension and related comorbidities such as chronic kidney disease (CKD) and obstructive sleep apnea (OSA).",
+    "In the United States, there are approximately 120 million patients with sustained elevated blood pressure (BP), or hypertension. Approximately 60 million patients are treated and over 30 million do not achieve their BP goal, with approximately 20 million having systolic BP levels greater than 140 mmHg. Patients with hypertension that persists despite taking two or more medications have 1.8 and 2.5 times greater mortality risk due to either cardiovascular disease or stroke, respectively. Dysregulated aldosterone levels are a key factor in uncontrolled hypertension (uHTN) or resistant hypertension (rHTN) in approximately 30% of patients.",
+    "Ahead of the NDA submission in December 2025, we completed five successful clinical trials of lorundrostat supporting the efficacy and safety profile while also validating aldosterone as an integral therapeutic target in uHTN or rHTN. This includes two pivotal, registrational trials, the Phase 3 Launch-HTN trial and Phase 2 Advance-HTN trial, which support the robust, durable, and clinically meaningful reductions in systolic BP by lorundrostat. Lorundrostat was well tolerated in both trials with a favorable safety profile. Based on the positive results from our pivotal program, we submitted an NDA in December 2025 for lorundrostat for the treatment of hypertension in combination with other antihypertensive drugs. The FDA accepted the NDA submission and provided us with a Prescription Drug User Fee Act (PDUFA) target action date of December 22, 2026.",
+    "We believe, based on available clinical data, that our product candidate holds promise to be an innovative solution for the rapidly growing unmet need in multiple cardiorenal metabolic disorders. In addition to hypertension, we have been investigating the potential benefits of lorundrostat in participants with hypertension and CKD and in participants with hypertension and OSA. In June 2025, we announced that the result of our Phase 2 Explore-CKD trial, which evaluated the safety and efficacy of lorundrostat in participants with hypertension and comorbid CKD, was highly statistically significant and clinically meaningful in reducing systolic BP and in reducing urinary albumin creatinine ratio (UACR), a marker of kidney disease progression, as well as demonstrating a favorable safety and tolerability profile. On March 9, 2026, we announced topline data from our Phase 2 Explore-OSA trial that evaluated the effect of lorundrostat in the treatment of overweight and obese participants with moderate-to-severe OSA and hypertension. While the Explore-OSA trial did not demonstrate a reduction in apnea-hypopnea index (AHI), the BP reductions were clinically meaningful and the safety profile was favorable, especially for this population with difficult to control hypertension.",
+    "Our product candidate, lorundrostat, is a proprietary, orally administered, highly selective ASI that is designed to reduce aldosterone levels by inhibiting CYP11B2, the enzyme responsible for producing the hormone. We licensed lorundrostat from Tanabe Pharma Corporation (Tanabe), which discovered the compound and provided the early foundational work, including demonstrating the selectivity of lorundrostat, and progressing the asset through Phase 1 clinical development.",
+    "We have completed six clinical trials of lorundrostat in uHTN or rHTN as well as hypertension in uHTN or rHTN with comorbidities such as CKD or OSA. A summary of our clinical development is outlined below.",
+    "Phase 1: The first-in-human Phase 1 clinical trial of lorundrostat was conducted by Tanabe and showed that lorundrostat was well tolerated and did not inhibit cortisol following single dose and once-daily dosing over multiple days.",
+    "Phase 2: We conducted the Target-HTN Phase 2 proof-of-concept trial in participants with uHTN and rHTN to evaluate the efficacy of lorundrostat at various doses either once or twice a day. The results of Target-HTN led to the advancement of our pivotal program of lorundrostat.",
+    "Pivotal Program: In 2023, we initiated our pivotal program of lorundrostat, and we reported the results of Launch-HTN and Advance-HTN in March 2025. See \"Pivotal Program Clinical Trial Results\" beginning on page 7 for additional details regarding the results of these clinical trials.",
+    "•Launch-HTN evaluated the efficacy and safety of lorundrostat for the treatment of uHTN or rHTN when used as an add-on therapy to participants' existing, prescribed background treatment of two to five antihypertensive medications.",
+    "•Advance-HTN evaluated the efficacy and safety of lorundrostat for the treatment of confirmed uHTN or rHTN when used as add-on therapy to a standardized, optimized, and adherent background treatment of two or three antihypertensive medications.",
+    "•Transform-HTN is an ongoing open-label extension trial enabling participants to continue to receive lorundrostat and allows us to obtain long-term efficacy and safety data. All participants in the pivotal hypertension program, including the Advance-HTN and Launch-HTN trials, as well as the Explore-CKD trial, were given the opportunity to participate in the extension trial.",
+    "•Explore-CKD evaluated the safety and efficacy of 25 mg once daily (QD) lorundrostat in addition to a sodium-glucose cotransporter 2 (SGLT2) inhibitor for the treatment of hypertension in participants with Stage 2 to 3b CKD and albuminuria despite receiving stable treatment with an angiotensin-converting enzyme (ACE) inhibitor or angiotensin II receptor blocker (ARB). We reported the results of this trial in June 2025. See \"Explore-CKD Clinical Trial Results\" beginning on page 9 for additional details regarding the results of this clinical trial.",
+    "•Explore-OSA evaluated the safety and efficacy of lorundrostat 50 mg QD with moderate-to-severe OSA. See \"Explore-OSA Clinical Trial Results\" beginning on page 10 for additional details regarding this clinical trial."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Limited Operating History, Financial Position, and Capital Requirements",
+    "Raising additional capital may cause dilution to our stockholders, restrict our operations, or require us to relinquish rights to our technologies or product candidates.",
+    "Risks Related to the Development and Regulatory Approval of Our Product Candidates",
+    "Changes in methods of product candidate manufacturing or formulation may result in additional costs or delays.",
+    "Risks Related to Our Reliance on Third Parties"
+   ],
+   "paragraphs": [
+    "You should carefully consider the following risk factors, together with the other information contained in this Annual Report, including our financial statements and the related notes and \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" before making a decision to purchase or sell shares of our common stock. We cannot assure you that any of the events discussed in the risk factors below will not occur. These risks could have a material and adverse impact on our business, results of operations, financial condition, and growth prospects. If that were to happen, the trading price of our common stock could decline. Additional risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business operations or financial condition.",
+    "We have a limited operating history, have incurred significant operating losses since our inception, and expect to incur significant losses for the foreseeable future. We may never generate any revenue or become profitable or, if we achieve profitability, we may not be able to sustain it.",
+    "Biopharmaceutical product development is a highly speculative undertaking and involves a substantial degree of risk. We are a biopharmaceutical company with a limited operating history upon which you can evaluate our business and prospects. We commenced operations in 2019 and, to date, we have focused primarily on organizing and staffing our company, business planning, raising capital, in-licensing our product candidate, lorundrostat, establishing our intellectual property portfolio, and conducting research, preclinical studies, and clinical trials. We have not yet obtained regulatory approvals, manufactured products at commercial scale or arranged for a third party to do so on our behalf, or conducted sales and marketing activities necessary for successful product commercialization. Consequently, any predictions made about our future success or viability may not be as accurate as they could be if we had a history of successfully developing and commercializing biopharmaceutical products.",
+    "We have incurred significant operating losses since our inception and expect to incur significant losses for the foreseeable future. We do not have any products approved for sale and have not generated any revenue since our inception. If lorundrostat is not successfully developed, approved, and commercialized, we may never generate significant revenue, if we generate any revenue at all. Our net losses were $154.7 million and $177.8 million for the years ended December 31, 2025 and 2024, respectively. As of December 31, 2025, we had an accumulated deficit of $457.2 million. Substantially all of our losses have resulted from expenses incurred in connection with in-licensing intellectual property related to, and developing, lorundrostat and from general and administrative costs associated with our operations. We submitted our NDA for lorundrostat to the FDA on December 22, 2025, and we have not yet received regulatory approval from the FDA or from other regulatory jurisdictions. Any future product candidates will require substantial additional development time and resources before we would be able to apply for or receive regulatory approvals. and begin generating revenue from product sales. We expect to continue to incur losses for the foreseeable future, and we anticipate these losses will increase substantially until such time, if ever, as we obtain regulatory approval for, and potentially commercialize lorundrostat.",
+    "To become and remain profitable, we must succeed in developing, obtaining regulatory approvals for, and eventually commercializing products that generate significant revenue. This will require us to be successful in a range of challenging activities, including completing clinical trials and preclinical studies of lorundrostat and any future product candidates, acquiring additional product candidates, obtaining regulatory approval for lorundrostat and any future product candidates, and manufacturing, marketing, and selling any products for which we may obtain regulatory approval. We are only in the preliminary stages of most of these activities. We may never succeed in these activities and, even if we do, may never generate revenue that is significant enough to achieve profitability. In addition, we have not yet demonstrated an ability to successfully overcome many of the risks and uncertainties frequently encountered by companies in new and rapidly evolving fields, particularly in the biopharmaceutical industry. Because of the numerous risks and uncertainties associated with biopharmaceutical product development, we are unable to accurately predict the timing or amount of increased",
+    "expenses or when, or if, we will be able to achieve profitability. Even if we do achieve profitability, we may not be able to sustain or increase profitability on a quarterly or annual basis. Our failure to become and remain profitable may have an adverse effect on the value of our company and could impair our ability to raise capital, expand our business, maintain our research and development efforts, diversify our product candidates, achieve our strategic objectives, or even continue our operations. A decline in the value of our company could also cause you to lose all or part of your investment."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Clinical Program Highlights",
+    "Financial Overview",
+    "Key Components of Results of Operations",
+    "December 31,",
+    "2025 2024 Change",
+    "(in thousands)",
+    "Liquidity and Capital Resources",
+    "Contractual Obligations and Commitments",
+    "Critical Accounting Estimates",
+    "JOBS Act and Smaller Reporting Company Status",
+    "Recently Issued Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations together with our financial statements and related notes included elsewhere in this Annual Report. This discussion contains forward-looking statements that involve risks and uncertainties, including those described in the section entitled \"Forward-Looking Statements and Market Data.\" As a result of many factors, including those factors set forth in the \"Risk Factors\" section of this Annual Report, our actual results could differ materially from the results described in or implied by the forward-looking statements contained in the following discussion and analysis.",
+    "We are a biopharmaceutical company focused on developing medicines to target diseases driven by dysregulated aldosterone. Our product candidate, lorundrostat, is a proprietary, orally administered, highly selective ASI that we are developing for the treatment of cardiorenal conditions affected by dysregulated aldosterone, including hypertension and related comorbidities such as CKD and OSA.",
+    "In the United States, there are approximately 120 million patients with sustained elevated BP, or hypertension. Approximately 60 million patients are treated and over 30 million do not achieve their BP goal, with approximately 20 million having systolic BP levels greater than 140 mmHg. Patients with hypertension that persists despite taking two or more medications have 1.8 and 2.5 times greater mortality risk due to either cardiovascular disease or stroke, respectively. Dysregulated aldosterone levels are a key factor in uHTN or rHTN in approximately 30% of patients.",
+    "We submitted our NDA to the FDA in December 2025 for lorundrostat for the treatment of hypertension in combination with other antihypertensive drugs. The FDA accepted the NDA submission and provided us with a PDUFA target action date of December 22, 2026.",
+    "Ahead of the NDA submission in December 2025, we completed five successful clinical trials of lorundrostat supporting the efficacy and safety profile while also validating aldosterone as an integral therapeutic target in uHTN or rHTN. This includes two pivotal, registrational trials, the Phase 3 Launch-HTN trial and Phase 2 Advance-HTN trial, which support the robust, durable, and clinically meaningful reductions in systolic BP by lorundrostat. Lorundrostat was well tolerated in both trials with a favorable safety profile. Based on the positive results from our pivotal program, we submitted an NDA in December 2025 for lorundrostat for the treatment of hypertension in combination with other antihypertensive drugs. We believe, based on available clinical data, that our product candidate holds promise to be an innovative solution for the rapidly growing unmet need in multiple cardiorenal metabolic disorders.",
+    "The image below summarizes the status of recently completed and ongoing clinical trials:",
+    "We believe the Launch-HTN and Advance-HTN trial results demonstrate the opportunity for lorundrostat in third-line or later treatment of patients with hypertension. Detailed results of these trials are set forth in the \"Business\" section of this Annual Report. Our pivotal program was highlighted in several publications in 2025:",
+    "•The Launch-HTN trial results were presented in a late-breaking presentation at the 2025 European Society of Hypertension Meeting on Hypertension and Cardiovascular Protection in May 2025 and published in the June 30, 2025 issue of the Journal of the American Medical Association (JAMA, DOI:10.1001/jama.9413).",
+    "•The Launch-HTN clinical trial and results were featured in JAMA's inaugural \"Research of the Year Roundup,\" a curated collection of the most impactful studies published between October 2024 and September 2025, including recognition of Launch-HTN as one of the top-nine manuscripts by the editors of JAMA.",
+    "•The Advance-HTN trial results were presented in a late-breaking presentation at the American College of Cardiology's Annual Scientific Session & Expo (ACC.25) held in March 2025 and published in the April 23, 2025 issue of the New England Journal of Medicine (NEJM, DOI: 10.1056/NEJMoa2501440).",
+    "•The Explore-CKD clinical trial results were presented at the American Society of Nephrology (ASN) Kidney Week 2025, featuring a late-breaking oral presentation of the Phase 2 Explore-CKD trial.",
+    "Transform-HTN is an open-label extension trial allowing participants to continue to receive lorundrostat and for us to obtain ongoing long-term efficacy and safety data. All participants in the pivotal hypertension program, including the Advance-HTN and Launch-HTN trials, as well as the Explore-CKD trial, were given the opportunity to participate in the extension trial.",
+    "Research to date has demonstrated the opportunities for lorundrostat as a solution for patients in the treatment of hypertension, including hypertensive patients with CKD and OSA. In June 2025, we announced positive topline data from our Phase 2 Explore-CKD trial evaluating the safety and efficacy of 25 mg of lorundrostat in addition to an SGLT2 inhibitor for the treatment of hypertension in participants with hypertension and comorbid CKD. The trial was highly statistically significant and was clinically meaningful in reducing UACR, a marker of kidney disease progression, as well as demonstrating a favorable safety and tolerability profile. Detailed results of this trial are set forth in the \"Business\" section of this Annual Report.",
+    "Lorundrostat has been developed to address dysregulated aldosterone, and we believe this mechanism may be applicable to other indications where dysregulated aldosterone biology plays a role. Most recently, we have begun to explore lorundrostat for patients with OSA and hypertension."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "業務概覽",
+    "我們的產品候選藥物，Lorundrostat",
+    "Lorundrostat 歷史與現行臨牀試驗總覽",
+    "高血壓背景資訊",
+    "慢性腎臟病（CKD）背景資訊",
+    "阻塞性睡眠呼吸中止症（OSA）背景資訊",
+    "醛固酮及其在高血壓中的作用背景資訊",
+    "依賴腎素與非依賴腎素醛固酮產生概覽",
+    "肥胖症候羣日益嚴重與醛固酮增多症上升相關",
+    "洛倫德羅斯塔特臨牀開發",
+    "關鍵性臨牀試驗結果",
+    "Launch-HTN 第三階段試驗",
+    "第 6 週 (50 mg 統計)",
+    "安慰劑調整後",
+    "Advance-HTN 第二階段試驗",
+    "第 4 週 (50 mg 統計)",
+    "{'Explore-CKD Clinical Trial Results': 'Explore-CKD 臨牀試驗結果'}",
+    "{'Explore-CKD Phase 2 Trial (N=59)': 'Explore-CKD 第二期試驗 (N=59)'}",
+    "{'Placebo Lorundrostat 25 mg': '安慰劑 Lorundrostat 25 mg'}",
+    "{'Explore-OSA Clinical Trial Results': 'Explore-OSA 臨牀試驗結果'}",
+    "{'translatedText': '我們的團隊與投資人'}",
+    "{'translatedText': '與田邊的授權協議'}",
+    "{'translatedText': '製造'}",
+    "{'translatedText': '銷售與行銷'}",
+    "{'original': 'Intellectual Property', 'translated': '智慧財產權'}",
+    "{'original': 'Government Regulation', 'translated': '政府規範'}"
+   ],
+   "paragraphs": [
+    "本公司為一家生技藥品公司，專注於開發用以治療因醛固酮調節失常所導致疾病的藥物。本公司產品候選藥物 lorundrostat 為一專屬、口服、高度選擇性醛固酮合成酶抑制劑（ASI），正在開發用以治療因醛固酮調節失常所影響的心腎疾病，包括高血壓以及相關共病如慢性腎臟病（CKD）及阻塞性睡眠呼吸中止症（OSA）。",
+    "美國約有 120 百萬患者患有持續性高血壓（BP），或稱為高血壓。約有 60 百萬患者接受治療，超過 30 百萬患者未達成其 BP 目標，約有 20 百萬患者的收縮壓水平高於 140 mmHg。患有持續性高血壓且即使服用兩種或更多藥物仍無法控制的患者，其因心血管疾病或中風而導致的死亡風險分別提高 1.8 倍和 2.5 倍。不當調節的醛固酮水平是約 30% 患者未控制性高血壓（uHTN）或難治性高血壓（rHTN）的關鍵因素。",
+    "在 2025 年 12 月提交新藥申請（NDA）前，本公司已完成五項成功臨牀試驗，支持 lorundrostat 的有效性與安全性，同時也驗證醛固酮為 uHTN 或 rHTN 的關鍵治療目標。這包括兩項關鍵性、註冊性試驗，即 Phase 3 Launch-HTN 試驗與 Phase 2 Advance-HTN 試驗，支持 lorundrostat 對收縮壓產生強而持久且臨牀意義重大的降低效果。lorundrostat 在兩項試驗中皆具有良好耐受性與優良安全性。根據我們關鍵性計畫的正面結果，本公司於 2025 年 12 月提交 lorundrostat 新藥申請，用以治療高血壓並與其他降血壓藥物合用。美國食品藥物管理局（FDA）接受新藥申請並提供我們一個《處方藥使用者費用法案》（PDUFA）目標行動日期為 2026 年 12 月 22 日。",
+    "本公司基於現有臨牀數據，認為本公司產品候選藥物有潛力成為多種心腎代謝疾病的未滿足需求的創新解決方案。除了高血壓之外，本公司亦正在研究 lorundrostat 在高血壓與 CKD 患者以及高血壓與 OSA 患者中的潛在效益。2025 年 6 月，本公司宣佈 Phase 2 Explore-CKD 試驗結果，該試驗評估 lorundrostat 在高血壓與 CKD 共病患者中的安全性與有效性，結果在降低收縮壓與降低尿液白蛋白肌酐比值（UACR），即腎臟病進展指標，以及顯示良好的安全性與耐受性方面，具有高度統計顯著性與臨牀意義。2026 年 3 月 9 日，本公司宣佈 Phase 2 Explore-OSA 試驗的初步數據，評估 lorundrostat 在治療體重過重與肥胖且有中度至重度 OSA 並伴高血壓的參與者中的效果。雖然 Explore-OSA 試驗未顯示降低睡眠呼吸中止指數（AHI），但 BP 降低具有臨牀意義，且安全性良好，尤其對這一羣體中難以控制的高血壓患者而言。",
+    "本公司產品候選藥物 lorundrostat 為一專屬、口服、高度選擇性 ASI，設計用以透過抑制 CYP11B2 酶（該酶負責產生荷爾蒙）來降低醛固酮水平。本公司已從 Tanabe Pharma Corporation（Tanabe）取得 lorundrostat 的授權，Tanabe 發現該化合物並提供早期基礎研究，包括顯示 lorundrostat 的選擇性，並推動該資產進行 Phase 1 臨牀開發。",
+    "本公司已完成六項 lorundrostat 的臨牀試驗，用於 uHTN 或 rHTN 以及伴隨 CKD 或 OSA 等共病的高血壓。以下為本公司臨牀開發的總結。",
+    "Phase 1：lorundrostat 的第一個人體 Phase 1 臨牀試驗由 Tanabe 進行，顯示 lorundrostat 耐受性良好，且單劑與每日一次服用多日後均未抑制皮質醇。",
+    "Phase 2：本公司進行 Target-HTN Phase 2 概念驗證試驗，評估 lorundrostat 在不同劑量下（每日一次或兩次）對 uHTN 和 rHTN 參與者的有效性。Target-HTN 的結果促使本公司推動 lorundrostat 的關鍵性計畫。",
+    "關鍵性計畫：於 2023 年，我們啟動了 lorundrostat 的關鍵性計畫，並在 2025 年 3 月報告了 Launch-HTN 與 Advance-HTN 的結果。請參閱第 7 頁開始的 \"關鍵性計畫臨牀試驗結果\"，以取得這些臨牀試驗結果的更多細節。",
+    "•Launch-HTN 評估 lorundrostat 在用作加用療法至參與者現有處方的背景治療（兩到五種降血壓藥物）時，用於治療 uHTN 或 rHTN 的有效性與安全性。",
+    "•Advance-HTN 評估 lorundrostat 在用作加用療法至標準化、最佳化且依從性良好的背景治療（兩或三種降血壓藥物）時，用於治療已確認的 uHTN 或 rHTN 的有效性與安全性。",
+    "•Transform-HTN 是一個持續進行的開放標籤延長試驗，使參與者能繼續接受 lorundrostat，並讓我們能取得長期有效性與安全性資料。所有參與關鍵性高血壓計畫的參與者，包括 Advance-HTN 與 Launch-HTN 試驗，以及 Explore-CKD 試驗的參與者，均有機會參與此延長試驗。",
+    "•Explore-CKD 評估 25 mg 每日一次（QD）lorundrostat 加上碳酸氫鈉-葡萄糖協同運輸子 2（SGLT2）抑制劑，在治療患有第 2 至 3b 階段 CKD 且有白蛋白尿症，即使已接受穩定治療的血管緊張素轉換酶（ACE）抑制劑或血管緊張素 II 受體阻斷劑（ARB）的參與者中的高血壓有效性與安全性。我們在 2025 年 6 月報告了此試驗的結果。請參閱第 9 頁開始的 \"Explore-CKD 臨牀試驗結果\"，以取得此臨牀試驗結果的更多細節。",
+    "•Explore-OSA 評估 lorundrostat 50 mg QD 在中度至嚴重 OSA 的安全性與有效性。請參閱第 10 頁開始的 \"Explore-OSA 臨牀試驗結果\"，以取得此臨牀試驗的更多細節。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'Clinical Program Highlights': '臨牀計畫重點'}",
+    "{'Financial Overview': '財務概觀'}",
+    "{'Key Components of Results of Operations': '營運結果關鍵零組件'}",
+    "{'December 31,': '12月31日,'}",
+    "{'2025 2024 Change': '2025 2024 變動'}",
+    "{'(in thousands)': '(以千計)'}",
+    "{'Liquidity and Capital Resources': '流動性與資本資源'}",
+    "{'Contractual Obligations and Commitments': '契約義務與承諾'}",
+    "{'Critical Accounting Estimates': '關鍵會計估計'}",
+    "{'JOBS Act and Smaller Reporting Company Status': 'JOBS 法與小型報告公司地位'}",
+    "{'Recently Issued Accounting Pronouncements': '最近發佈的會計準則'}"
+   ],
+   "paragraphs": [
+    "你應閱讀下列對我們財務狀況與營運成果之分析，並與本年度財務報表及相關附註說明一併參考。本討論包含前瞻性陳述，涉及風險與不確定性，包括在「前瞻性陳述與市場資料」節中所描述的風險。由於許多因素，包括在本年度財務報告「風險因素」節中所列舉的因素，我們的實際結果可能與本討論與分析中所描述或暗示的前瞻性陳述結果有重大差異。",
+    "我們是一家專注於開發用以治療由醛固酮調節失常所驅動疾病的藥物之生物製藥公司。我們的產品候選藥物 lorundrostat 是一種專屬的口服高選擇性 ASI，我們正在開發用以治療因醛固酮調節失常所影響的心腎疾病，包括高血壓以及相關共病如 CKD 和 OSA。",
+    "美國約有 120 百萬名患者患有持續性高血壓，即高血壓。約有 60 百萬名患者接受治療，超過 30 百萬名患者未達成其血壓目標，約有 20 百萬名患者的收縮壓值高於 140 mmHg。患有持續性高血壓且即使服用兩種或更多藥物仍無法控制的患者，其因心血管疾病或中風導致的死亡風險分別提高 1.8 倍和 2.5 倍。約有 30% 的患者，其醛固酮水平異常是造成原發性高血壓或繼發性高血壓的關鍵因素。",
+    "我們於 2025 年 12 月向 FDA 提交了 lorundrostat 的 NDA，用以治療高血壓並搭配其他降血壓藥物使用。FDA 接受了 NDA 提交，並給予我們 PDUFA 目標行動日期為 2026 年 12 月 22 日。",
+    "在 2025 年 12 月提交 NDA 之前，我們已完成五項成功的 lorundrostat 臨牀試驗，支持其有效性與安全性，同時也驗證了醛固酮作為 uHTN 或 rHTN 的重要治療目標。這包括兩項關鍵性、註冊性試驗，即 Phase 3 Launch-HTN 試驗與 Phase 2 Advance-HTN 試驗，支持 lorundrostat 在收縮壓方面的強大、持久且臨牀意義重大的降低效果。Lorundrostat 在這兩項試驗中皆具有良好耐受性，且安全性表現良好。根據我們關鍵性計畫的正面結果，我們於 2025 年 12 月提交了 lorundrostat 的 NDA，用以治療高血壓並搭配其他降血壓藥物使用。我們相信，根據現有臨牀數據，我們的產品候選藥物有潛力成為多種心腎代謝疾病的快速成長未滿足需求的創新解決方案。",
+    "下圖總結了最近完成及進行中的臨牀試驗狀態：",
+    "我們認為 Launch-HTN 與 Advance-HTN 試驗的結果顯示 lorundrostat 在高血壓患者第三線或以後治療中的潛力。這些試驗的詳細結果載於本年度財務報告的「業務」節中。我們的關鍵性計畫在 2025 年被多份出版物報導：",
+    "•Launch-HTN 試驗結果於 2025 年 5 月在歐洲高血壓學會會議上以晚期突破性簡報形式發表，並於 2025 年 6 月 30 日刊載於《美國醫學會雜誌》（JAMA, DOI:10.1001/jama.9413）。",
+    "•Launch-HTN 臨牀試驗及結果被收錄於 JAMA 的首屆 \"Research of the Year Roundup\"，為一精選集，包含 2024 年 10 月至 2025 年 9 月期間發表的最具影響力研究，其中包括 JAMA 編輯將 Launch-HTN 認可為前九名論文之一。",
+    "•Advance-HTN 試驗結果於 2025 年 3 月舉行的美國心臟學會年會暨展覽 (ACC.25) 中以晚期突破性簡報形式發表，並於 2025 年 4 月 23 日出版於新英格蘭醫學期刊 (NEJM, DOI: 10.1056/NEJMoa2501440)。",
+    "•Explore-CKD 臨牀試驗結果於 2025 年美國腎臟學會 (ASN) 腎臟週年會中發表，包含 Phase 2 Explore-CKD 試驗的晚期突破性口頭簡報。",
+    "Transform-HTN 是一項開放標籤延長試驗，允許參與者持續接受 lorundrostat 處理，並使本公司得以取得長期療效與安全性資料。所有參與關鍵性高血壓計畫的參與者，包括 Advance-HTN 與 Launch-HTN 試驗，以及 Explore-CKD 試驗的參與者，均有機會參與此延長試驗。",
+    "截至目前為止的研究顯示，lorundrostat 對於高血壓患者的治療具有潛在機會，包括同時患有 CKD 與 OSA 的高血壓患者。2025 年 6 月，本公司宣佈 Phase 2 Explore-CKD 試驗的初步結果，評估 25 mg lorundrostat 加上 SGLT2 抑製劑用於治療同時患有高血壓與 CKD 的參與者，結果為正向。該試驗具有高度統計學顯著性，並在降低 UACR（腎病進展指標）方面具有臨牀意義，同時顯示出良好的安全性與耐受性。此試驗的詳細結果載於本年度報告的 \"業務\" 節。",
+    "Lorundrostat 已開發用以解決醛固酮調節失常的問題，本公司認為此機制可能適用於其他適應症，其中醛固酮調節失常的生物學扮演重要角色。最近，本公司已開始探討 lorundrostat 對於患有 OSA 與高血壓患者的應用。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司有限營運歷史、財務狀況及資金需求相關之風險",
+    "籌措額外資金可能會導致股東持股稀釋、限制本公司營運活動，或要求本公司放棄對智慧財產權或產品候選藥物之權利。",
+    "與產品候選藥物之開發及監管許可相關之風險",
+    "產品候選藥物製造或製劑方法之變更可能會導致額外成本或延誤。",
+    "與本公司依賴第三方相關之風險"
+   ],
+   "paragraphs": [
+    "您應謹慎考量下列風險因素，並配合本年度報告中其他資訊，包括財務報表及相關附註，以及「管理層對財務狀況與營運結果之討論與分析」，以作為是否買進或賣出本公司普通股之決策依據。本公司無法保證下列風險因素中所提及之任何事件不會發生。這些風險可能對本公司之業務、營運結果、財務狀況與成長前景造成重大且不利的影響。若發生此類情況，本公司普通股之交易價格可能下跌。此外，尚有其他風險與不確定性，目前本公司尚未知悉或認為不重要，也可能影響本公司之業務營運或財務狀況。",
+    "本公司之營運歷史有限，自成立以來已產生重大營運虧損，且預期在可預見之未來仍將產生重大虧損。本公司可能永遠無法產生任何收入或實現盈利，或即使實現盈利，也可能無法維持此盈利狀態。",
+    "生物製藥產品之開發是一項高度投機性之活動，並涉及相當程度之風險。本公司為一家生物製藥公司，目前尚無足夠之營運歷史可供評估本公司之業務與前景。本公司於2019年開始營運，截至目前為止，主要著力於公司組織與人力配置、業務規劃、籌資、取得產品候選藥物lorundrostat之授權、建立智慧財產權組合，以及進行研究、動物實驗與臨牀試驗。本公司尚未取得監管機構之核准、進行商業規模之製造或委請第三方代為製造，亦未進行成功產品商業化所需之銷售與行銷活動。因此，對於本公司未來成功或存續之預測，可能不如本公司已成功開發與商業化生物製藥產品之歷史所顯示之準確。",
+    "本公司自設立以來已產生重大營運虧損，並預期在可預見的未來仍將產生重大虧損。本公司目前尚無任何產品獲准上市銷售，且自設立以來尚未產生任何營業收入。若lorundrostat未能成功開發、獲准上市及商業化，本公司可能永遠無法產生重大營業收入，若能產生營業收入，則亦屬極其有限。本公司淨虧損為2025年12月31日財年終結為154.7 百萬美元，2024年12月31日財年終結為177.8 百萬美元。截至2025年12月31日，本公司累計虧損為457.2 百萬美元。本公司幾乎所有虧損均來自與取得與lorundrostat相關智慧財產權、開發lorundrostat所產生的費用，以及與本公司營運相關的一般及行政費用。本公司於2025年12月22日向FDA提交lorundrostat的新藥申請（NDA），且截至目前為止尚未獲得FDA或其他監管機構的核准。任何未來的產品候選藥物均需投入大量額外的開發時間及資源，本公司才能申請或獲得監管核准，並開始從產品銷售中產生收入。本公司預期在可預見的未來仍將持續產生虧損，且預期這些虧損將在本公司獲得lorundrostat的監管核准（及可能商業化）之前顯著增加。",
+    "要成為並持續保持盈利，本公司必須成功開發、取得監管核准，並最終商業化能產生重大收入之產品。這將需要本公司成功完成lorundrostat及任何未來產品候選藥物之臨牀試驗與動物實驗，取得更多產品候選藥物，取得lorundrostat及任何未來產品候選藥物之監管核准，並製造、行銷與銷售任何本公司可能取得監管核准之產品。本公司目前僅處於這些活動之初步階段。本公司可能永遠無法成功完成這些活動，即使成功完成，也可能無法產生足夠之收入以實現盈利。此外，本公司尚未證明能成功克服許多新興且快速發展產業中常見之風險與不確定性，特別是在生物製藥產業中。由於生物製藥產品開發所涉及之風險與不確定性眾多，本公司無法準確預測費用增加之時間或金額，以及本公司何時，或是否能實現盈利。",
+    "即使本公司實現盈利，也可能無法維持或提高季度或年度之盈利。本公司未能成為並持續保持盈利，可能對本公司價值造成不利影響，並可能影響本公司籌資能力、擴展業務、維持研究與開發努力、多元化產品候選藥物、實現戰略目標，甚至持續營運。本公司價值之下降也可能導致您損失全部或部分投資。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,193 @@
+{
+ "ticker": "ELVN",
+ "cik": "0001672619",
+ "accession": "0001193125-26-088232",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Strategy",
+    "BCR-ABL Program: ELVN-001",
+    "Additional Programs",
+    "Manufacturing",
+    "Intellectual Property",
+    "Government Regulations",
+    "U.S. Drug Development",
+    "Preclinical Studies and IND",
+    "Clinical Trials",
+    "NDA Review Process",
+    "Orphan Drugs",
+    "Expedited Development and Review Programs"
+   ],
+   "paragraphs": [
+    "We are a clinical-stage biopharmaceutical company focused on the discovery and development of small molecule therapeutics to help people not only live longer, but live better. We aim to address existing and emerging unmet needs with a precision medicine approach that improves survival and enhances overall well-being. Our discovery process combines deep insights into clinically validated biological targets and differentiated chemistry with the goal of designing therapies for unmet needs. By combining clinically validated targets and specific target product profiles with disciplined clinical trial design and regulatory strategy, we aim to develop drugs that address unmet needs with an increased probability of clinical and commercial success. Validated targets are those whose role in disease pathology have been demonstrated by mechanistic and clinical studies. We are currently advancing ELVN-001 as well as pursuing multiple additional research-stage opportunities that align with our small molecule development approach.",
+    "The following table summarizes our clinical programs:",
+    "ELVN-001 is a potent, highly selective, small molecule kinase inhibitor designed to specifically target the breakpoint cluster region – Abelson (\"BCR-ABL\") gene fusion, the oncogenic driver for patients with chronic myeloid leukemia (\"CML\"). It is an adenosine triphosphate (ATP)-competitive tyrosine kinase inhibitor (TKI), meaning it competes with ATP for binding at the kinase active site, thereby blocking phosphorylation and downstream oncogenic signaling.",
+    "Although the approval of BCR-ABL tyrosine kinase inhibitors (\"TKIs\") changed prognosis of CML from a fatal disease to a manageable chronic condition, patients still face several barriers that limit their ability to achieve durable responses, maintain long-term treatment success, and sustain a good quality of life. Patients can develop primary or secondary resistance to currently available TKIs, preventing them from achieving or maintaining the level of response required for long-term survival. In addition, ATP-competitive TKIs (e.g. nilotinib, dasatinib) have off-target activity that may lead to adverse events, potentially requiring dose reductions or discontinuation. All approved TKIs are associated with drug-drug interactions that can affect the safety and efficacy of some medications, and most BCR-ABL TKIs must be taken either with food or on an empty stomach, making adherence more difficult. These factors underscore the significant global opportunity for therapies that can address these unmet needs.",
+    "As a selective ATP-competitive inhibitor, ELVN-001 is differentiated from other ATP-competitive inhibitors by avoiding off-target activity that may cause adverse events. With this potential additional safety margin, ELVN-001 may be optimally dosed to potentially drive better efficacy. Additionally, as a selective ATP-competitive TKI, ELVN-001 potentially represents a complementary option to allosteric BCR-ABL inhibitors (e.g., asciminib), which may play an increasingly important role in the standard of care for CML. Specifically, ELVN-001 was designed to have activity against emerging mutations known to confer resistance to allosteric TKIs, including asciminib. ELVN-001 was also designed to be a more attractive option for patients with comorbidities, on concomitant medications or desiring more freedom from stringent administration requirements. ELVN-001 is currently being evaluated in the Phase 1 ENABLE clinical trial in heavily pretreated patients with CML, and we plan to initiate ENABLE-2, a 2L+ Phase 3 pivotal trial in the second half of 2026.",
+    "In June 2025, we presented updated clinical data from the ENABLE trial at the European Hematology Association (\"EHA\") 2025 Congress, followed by a webcast and conference call to discuss the latest results. As of the April 28, 2025, data cutoff, 90 patients had been enrolled in the ongoing Phase 1 trial across dose levels ranging from 10 mg once daily (\"QD\") to 80 mg twice daily (\"BID\"), with 53 patients evaluable for major molecular response (\"MMR\") by 24 weeks. The reported cumulative MMR rate was 47% by 24 weeks, with 32% of patients achieving MMR by 24 weeks. These data compared favorably to precedent Phase 1 trials of approved BCR::ABL TKIs, including asciminib, despite being studied in a more heavily pretreated patient population enrolled in ENABLE. ELVN-001 also continued to demonstrate a favorable safety and tolerability profile across all dose levels evaluated. As of the data cutoff, the median treatment duration was approximately 29 weeks, and the vast majority of patients remained on study.",
+    "In early December 2025, at the American Society of Hematology (\"ASH\") 2025 Annual Meeting and Exposition, we presented a subset of ENABLE trial data focused on heavily pretreated patients with atypical BCR::ABL fusion transcripts, including mutations known to confer resistance to allosteric TKIs, such as asciminib. In this subset, ELVN-001 demonstrated encouraging anti-CML activity, providing an early signal of its potential to address the growing unmet need among patients with emerging mutations against allosteric TKIs.",
+    "In January 2026, we announced positive initial data from the Phase 1b portion of the ENABLE trial. As of the December 22, 2025 data cutoff, all patients in the 80 mg QD Phase 1b cohort (n=19) were evaluable for efficacy by 24 weeks. In these mature data, rates of MMR achievement (38%) and deep molecular response (\"DMR)\" (16%) compare favorably to precedent Phase 1 trials of approved BCR::ABL1 TKIs, including asciminib. In the more recently enrolled randomized 60 mg and 120 mg cohorts (n=41), 26 patients were evaluable for efficacy by 24 weeks. In this cohort, highly encouraging rates of MMR achievement (53%) and DMR (35%) were observed. ELVN-001 continues to demonstrate a favorable safety and tolerability profile across all evaluated doses. The safety profile observed in these Phase 1b cohorts remained consistent with previously reported data, with no new safety signals identified. These results further reinforce our belief that ELVN-001 has the potential to be a best-in-class ATP-competitive inhibitor for the treatment of CML. We are preparing for regulatory interactions with the FDA to align on dose selection and Phase 3 trial design, with initiation of ENABLE-2, the planned Phase 3 clinical trial of ELVN-001, anticipated in the second half of 2026.",
+    "ELVN-002 is a potent, highly selective, central nervous system (\"CNS\") penetrant and irreversible human epidermal growth factor receptor 2 (\"HER2\") inhibitor with activity against wild type HER2 and various HER2 mutations. As a monotherapy agent and in combination, ELVN-002 has demonstrated robust clinical activity in patients with both HER2+ and HER2 mutant tumors, including in patients whose tumor progressed on Enhertu and in patients with brain metastases, at doses that were well-tolerated. In May 2025, we made the decision to explore strategic alternatives for ELVN-002 so that we could prioritize ELVN-001.",
+    "We believe that our development approach, which is rooted in validated biology and differentiated chemistry, enables us to design and develop medicines with an improved therapeutic profile for patients. We continue to follow this approach to advance our research pipeline in diseases such as Graves' disease, where we believe our target and indication-agnostic approach and expertise in complex medicinal chemistry can lead to new and improved treatments.",
+    "Our mission is to help people not only live longer, but live better. The key elements of our strategy are:",
+    "• Efficiently advance ELVN-001, a BCR-ABL TKI, through clinical development and regulatory approval. ELVN-001 is designed to be a potent and highly selective small molecule kinase inhibitor targeting the BCR-ABL fusion gene product for the treatment of CML. ELVN-001 is currently being evaluated in the Phase 1 ENABLE clinical trial in adults with CML. While our Phase 1 trial is focused on people with resistant or intolerant CML, our plan is to build a clinical dataset to enable future registrational trials that could support broad approval of ELVN-001 across all lines of therapy. We plan to initiate ENABLE-2, a 2L+ Phase 3 pivotal trial, in the second half of 2026. If we are successful in achieving clinically meaningful anti-cancer activity in specific patient populations, we expect to engage with regulatory authorities to discuss whether ELVN-001 may qualify for any of the FDA's expedited regulatory approval pathways.",
+    "• Expand our pipeline of potent and highly selective small molecule therapeutics to overcome the limitations of current therapies. We believe that our development approach, combined with our team's unique ability to solve complex medicinal chemistry problems in a target- and indication-agnostic approach, offers a significant opportunity to develop",
+    "targeted therapies for a large variety of targets and indications. We have multiple small molecule programs in discovery that are focused on:"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk factors",
+    "Risk Factor Summary",
+    "Risks Related to Our Limited Operating History, Financial Position and Need for Additional Capital",
+    "We have incurred significant net losses and we expect to continue to incur significant net losses for the foreseeable future.",
+    "We have never generated revenue from product sales and may never achieve or maintain profitability.",
+    "Risks Related to the Discovery, Development and Commercialization of Our Product Candidates",
+    "We have limited experience as a company in designing and conducting clinical trials."
+   ],
+   "paragraphs": [
+    "You should carefully consider the risks described below, as well as the other information in this Annual Report on Form 10-K, including our audited consolidated financial statements and related notes and the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" and in our other public filings in evaluating our business. The occurrence of any of the events or developments described below could harm our business, financial condition, results of operations and growth prospects. In such an event, the market price of our common stock could decline. Additional risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business operations and the market price of our common stock.",
+    "We are early in our development efforts, with a limited operating history, and we have no products approved for commercial sale, which may make it difficult for you to evaluate our current business and likelihood of success and future viability.",
+    "• We have incurred significant net losses and we expect to continue to incur significant net losses for the foreseeable future.",
+    "• We have never generated revenue from product sales and we may never achieve or maintain profitability.",
+    "• We are substantially dependent on ELVN-001. If we are unable to advance ELVN-001 through clinical development, obtain regulatory approval and ultimately commercialize or license ELVN-001, or experience significant delays in doing so, our business will be materially harmed.",
+    "• The outcome of preclinical testing and early clinical trials may not be predictive of the success of later clinical trials, and the results of our clinical trials may not satisfy the requirements of the FDA, EMA or other comparable foreign regulatory authorities."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Macroeconomic and Geopolitical Developments",
+    "Components of Our Results of Operations",
+    "Operating Expenses",
+    "Other Income (Expense), Net",
+    "Results of Operations",
+    "Comparison of the years ended December 31, 2025 and 2024",
+    "Year Ended December 31,",
+    "(in thousands)",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "Future Capital Requirements",
+    "Contractual Obligations and Commitments",
+    "Payments Due by Period",
+    "Off-Balance Sheet Arrangements",
+    "Critical Accounting Policies and Significant Judgments and Estimates",
+    "Accrued Research and Development Expense",
+    "Stock-Based Compensation",
+    "Recently Issued Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations together with our consolidated financial statements and related notes included elsewhere in this Annual Report on Form 10-K. This discussion contains forward-looking statements that involve risks and uncertainties, including those described in the section titled \"Special Note Regarding Forward-Looking Statements.\" Our actual results and the timing of selected events could differ materially from those discussed below. Factors that could cause or contribute to such differences include, but are not limited to, those identified below and those set forth under the section titled \"Risk factors\" included elsewhere in this Annual Report on Form 10-K.",
+    "We are a clinical-stage biopharmaceutical company focused on the discovery and development of small molecule therapeutics to help people not only live longer, but live better. We aim to address existing and emerging unmet needs with a precision medicine approach that improves survival and enhances overall well-being. Our discovery process combines deep insights into clinically validated biological targets and differentiated chemistry with the goal of designing therapies for unmet needs. By combining clinically validated targets and specific target product profiles with disciplined clinical trial design and regulatory strategy, we aim to develop drugs that address unmet needs with an increased probability of clinical and commercial success. Validated targets are those whose role in disease pathology have been demonstrated by mechanistic and clinical studies. We are currently advancing ELVN-001, as well as pursuing multiple additional research-stage opportunities that align with our small molecule development approach. To prioritize the advancement of ELVN-001 and its upcoming pivotal trial, we are exploring strategic alternatives for the ELVN-002 program and are no longer pursuing its development. To prioritize the advancement of ELVN-001 and its upcoming pivotal trial, we are exploring strategic alternatives for the ELVN-002 program and are no longer pursuing its development.",
+    "The following table summarizes our clinical programs:",
+    "Enliven Inc. (formerly, Enliven Therapeutics, Inc.) (\"Former Enliven\") was incorporated in the State of Delaware in June 2019, and we are headquartered in Boulder, Colorado. We devote substantially all of our resources to research and development activities of our BCR-ABL program and our other programs, business planning, establishing and maintaining our intellectual property portfolio, hiring personnel, raising capital, and providing general and administrative support for these activities.",
+    "We do not own or operate, and currently have no plans to establish, any manufacturing facilities. We rely, and expect to continue to rely, on third parties for the manufacture of our product candidates for clinical and preclinical testing, as well as for commercial manufacturing, should any of our product candidates obtain marketing approval. We believe that this strategy allows us to maintain a more efficient infrastructure by eliminating the need for us to invest in our own manufacturing facilities, equipment and personnel, while also enabling us to focus our expertise and resources on the development of our product candidates.",
+    "Former Enliven funded its operations primarily through private placements of its convertible preferred stock and sale of common stock, raising aggregate gross proceeds of $140.5 million from these private placements and an aggregate of $164.5 million in gross proceeds from the sale of common stock in the Former Enliven pre-closing financing (the \"Financing Transaction\"). In March 2024, we sold in the Private Placement common stock and pre-funded warrants to purchase shares of our common stock, resulting in aggregate gross proceeds of $90.0 million, and in June 2025, we completed the Public Offering where we sold common stock and pre-funded warrants to purchase shares of our common stock, resulting in aggregate gross proceeds of $230.0 million. Through December 31, 2025, we have sold shares of our common stock pursuant to the Sales Agreement and received gross proceeds of $40.0 million. As of December 31, 2025, we had cash, cash equivalents and marketable securities of $462.6 million. Based on our current operating plan, our existing cash, cash equivalents and marketable securities will be sufficient to fund our planned operating expenses and capital expenditure requirements for at least the next 12 months from the date of the filing of this Form 10-K.",
+    "As of December 31, 2025, we had an accumulated deficit of $347.2 million. We have incurred significant losses and negative cash flows from operations since inception, including net losses of $103.7 million and $89.0 million for the years ended December 31, 2025 and 2024, respectively. We expect that our operating losses and negative operating cash flows will continue for the foreseeable future as we continue to develop our product candidates.",
+    "Our net losses may fluctuate significantly from quarter-to-quarter and year-to-year, depending on a variety of factors including the timing and scope of our research and development activities. We expect our expenses and capital requirements will increase substantially in connection with our ongoing activities, if and as we:",
+    "• advance our BCR-ABL program through clinical development; • make changes to our clinical development plan for ELVN-001;",
+    "• advance any other product candidates through preclinical and clinical development; • advance the development of our other small molecule research programs;",
+    "• expand our pipeline of product candidates through our own research and development efforts;",
+    "• seek to discover and develop additional product candidates;",
+    "• seek regulatory approvals for any product candidates that successfully complete clinical trials;",
+    "• incur costs related to our decision not to develop the HER2 program beyond 2025; • develop any required companion diagnostic;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Our Strategy': '本公司策略'}",
+    "{'BCR-ABL Program: ELVN-001': 'BCR-ABL 程式：ELVN-001'}",
+    "{'Additional Programs': '其他程式'}",
+    "{'Manufacturing': '製造'}",
+    "{'Intellectual Property': '智慧財產權'}",
+    "{'Government Regulations': '政府規範'}",
+    "{'U.S. Drug Development': '美國藥物開發'}",
+    "{'Preclinical Studies and IND': '預臨牀研究及 IND'}",
+    "{'original': 'Clinical Trials', 'translated': '臨牀試驗'}",
+    "{'original': 'NDA Review Process', 'translated': '新藥申請審查程序'}",
+    "{'original': 'Orphan Drugs', 'translated': '罕見疾病藥物'}",
+    "{'original': 'Expedited Development and Review Programs', 'translated': '加速開發與審查計畫'}"
+   ],
+   "paragraphs": [
+    "本公司為一臨牀階段生技製藥公司，專注於小分子藥物的發現與開發，協助人們不僅延長壽命，更能提升生活品質。本公司旨在以精準醫療方式，解決現有及未來的未滿足醫療需求，以提升生存率並改善整體健康狀態。我們的發現過程結合對臨牀驗證生物標的的深入洞察與差異化化學結構，目標是設計用以解決未滿足醫療需求的療法。透過結合臨牀驗證的標的與特定產品特性，搭配嚴謹的臨牀試驗設計與監管策略，本公司旨在開發能解決未滿足醫療需求，並提高臨牀與商業成功的機率的藥物。已驗證的標的為那些其在疾病病態中的作用已透過機制與臨牀研究證實的標的。本公司目前正推進ELVN-001的開發，並追蹤多項其他研究階段的機會，這些機會符合本公司小分子藥物開發的策略。",
+    "下表總結了我們的臨牀計畫：",
+    "ELVN-001為一種強效且高度選擇性的小分子絲氨酸/蘇氨酸蛋白激酶抑制劑，設計用以專門針對斷裂簇區-阿布elson（\"BCR-ABL\"）基因融合，這是慢性髓細胞白血病（\"CML\"）患者的致癌驅動因子。其為腺嘌呤三磷酸（ATP）競爭性酪胺酸蛋白激酶抑制劑（TKI），表示其會與ATP競爭結合於激酶活性位點，從而阻斷磷酸化及下游致癌訊號傳導。",
+    "雖然BCR-ABL酪胺酸蛋白激酶抑制劑（\"TKIs\"）的核准改變了CML的預後，使其從一種致命疾病轉變為可管理的慢性病，患者仍面臨多種限制其達到持久反應、維持長期治療成功與維持良好生活品質的障礙。患者可能產生對現有TKIs的原發或繼發性抗藥性，使其無法達到或維持所需的反應水平以確保長期生存。此外，ATP競爭性TKIs（例如尼洛替尼、達沙替尼）具有離標活性，可能導致不良事件，可能需要減少劑量或中止治療。所有核准的TKIs均與藥物間交互作用有關，可能影響某些藥物的安全性與有效性，且大多數BCR-ABL TKIs必須與食物同服或空腹服用，使服藥順從性更加困難。這些因素突顯了針對這些未滿足醫療需求的療法在全球範圍內有著重要的市場機會。",
+    "作為一種選擇性ATP競爭性抑制劑，ELVN-001與其他ATP競爭性抑制劑的差異在於避免離標活性可能導致的不良事件。透過這種潛在的額外安全性優勢，ELVN-001可能被最佳劑量以潛在提高療效。此外，作為一種選擇性ATP競爭性TKI，ELVN-001可能代表一種與別類BCR-ABL抑制劑（例如阿斯米尼布）的補充選擇，這些別類抑制劑可能在CML的標準照護中扮演越來越重要的角色。具體而言，ELVN-001被設計為對已知會導致別類TKIs抗藥性的新興突變具有活性，包括阿斯米尼布。ELVN-001也被設計為對有共病、同時服用其他藥物或希望減少嚴格服藥要求的患者而言，是一個更具吸引力的選擇。ELVN-001目前正在進行Phase 1 ENABLE臨牀試驗，評估重複治療的CML患者，並計畫於2026年下半年啟動ENABLE-2，這是一項2L+ Phase 3關鍵性試驗。",
+    "2025年6月，我們在歐洲血液學協會（\"EHA\"）2025大會上發表了ENABLE試驗的更新臨牀數據，隨後透過網路直播與電話會議討論最新結果。截至2025年4月28日的數據截止日，持續進行的Phase 1試驗中，共有90位患者 enrol 在不同劑量水平（從每日一次10毫克（\"QD\"）至每日兩次80毫克（\"BID\"）），其中53位患者在24週內可評估主要分子反應（\"MMR\"）。截至24週，報告的累積MMR率為47%，其中32%的患者在24週內達到MMR。這些數據與核准的BCR::ABL TKIs，包括阿斯米尼布的Phase 1試驗結果相比表現良好，儘管這些數據來自於在ENABLE中 enrol 的更為重複治療的患者羣體。ELVN-001在所有評估劑量水平中持續顯示出良好的安全性與耐受性。截至數據截止日，治療的中位數持續時間約為29週，且絕大多數患者仍持續參與試驗。",
+    "2025年12月初，在美國血液學會（\"ASH\"）2025年年會與展覽中，我們發表了ENABLE試驗數據的子集，專注於具有非典型BCR::ABL融合轉錄本的重複治療患者，包括已知會導致別類TKIs抗藥性的突變，例如阿斯米尼布。在這個子集數據中，ELVN-001顯示出鼓舞人心的抗CML活性，提供了其潛在解決對別類TKIs抗藥性突變患者日益增加的未滿足醫療需求的早期信號。",
+    "2026年1月，我們宣佈了ENABLE試驗Phase 1b部分的初步正面數據。截至2025年12月22日的數據截止日，所有在80毫克QD Phase 1b組（n=19）的患者在24週內均可評估療效。在這些成熟數據中，主要分子反應（\"MMR\"）達成率（38%）與深度分子反應（\"DMR\"）（16%）與核准的BCR::ABL1 TKIs，包括阿斯米尼布的Phase 1試驗結果相比表現良好。在最近 enrol 的隨機化60毫克與120毫克組（n=41）中，26位患者在24週內可評估療效。在這組中，觀察到高度鼓舞人心的MMR達成率（53%）與DMR（35%）。ELVN-001持續在所有評估劑量中顯示出良好的安全性與耐受性。這些Phase 1b組的安全部分與先前報告的數據一致，未發現新的安全性信號。這些結果進一步強化我們的信念，即ELVN-001有潛力成為治療CML的最佳ATP競爭性抑制劑。我們正在準備與FDA進行監管互動，以協調劑量選擇與Phase 3試驗設計，預計於2026年下半年啟動ENABLE-2，這將是ELVN-001的計畫Phase 3臨牀試驗。",
+    "ELVN-002 是一種強效、高度選擇性、能穿透中樞神經系統（\"CNS\"）且不可逆的人類表皮生長因子受體 2（\"HER2\"）抑制劑，對野生型 HER2 及各種 HER2 突變具有活性。作為單一療法藥物或與其他藥物組合使用時，ELVN-002 在 HER2+ 及 HER2 突變腫瘤患者中已顯示出強勁的臨牀活性，包括在對 Enhertu 治療無效的患者及有腦轉移的患者中，且在耐受良好的劑量下表現良好。2025 年 5 月，我們決定探討 ELVN-002 的戰略選擇，以便我們能優先發展 ELVN-001。",
+    "我們相信，我們的開發方法，基於已驗證的生物學及差異化的化學結構，使我們能設計及開發具改進治療效果的藥物，以幫助患者。我們持續遵循此方法，推進我們在如格雷夫斯病等疾病的研究管道，我們認為我們的目標及適應症無關的策略，以及在複雜藥物化學方面的專業知識，可帶來新的及改進的治療方案。",
+    "我們的使命是幫助人們不僅活得更久，而且活得更好。我們策略的關鍵要素為：",
+    "• 有效推進 ELVN-001，一種 BCR-ABL TKI，通過臨牀開發與監管核准。ELVN-001 設計為一種強效且高度選擇性的小分子 kinase 抑制劑，針對 BCR-ABL 細胞融合基因產品，用於治療慢性髓細胞白血病（CML）。ELVN-001 目前正在進行 Phase 1 的 ENABLE 臨牀試驗，用於治療成人 CML。雖然我們的 Phase 1 試驗專注於對現有治療方案產生抗藥性或無法耐受的 CML 患者，但我們的計畫是建立臨牀數據集，以支持未來的註冊試驗，可能有助於 ELVN-001 在所有治療線路上獲得廣泛核准。我們計畫於 2026 年第二季啟動 ENABLE-2，這是一個 2L+ Phase 3 的關鍵性試驗。如果我們在特定患者羣體中成功實現臨牀意義的抗癌活性，我們預期會與監管當局討論 ELVN-001 是否符合美國食品藥物管理局（FDA）任何加速核准途徑的資格。",
+    "• 擴展我們強效且高度選擇性小分子治療藥物的產品線，以克服現有治療方式的限制。我們認為，我們的開發策略，結合我們團隊獨特的解決複雜藥物化學問題的能力，採用目標與適應症無關的開發方式，提供了開發針對多種目標與適應症的治療藥物的重大機會。",
+    "• 我們有多個小分子開發計畫正在進行中，這些計畫專注於："
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "總體經濟與地緣政治發展",
+    "營運成果之組成項目",
+    "營運費用",
+    "其他收入（費用），淨額",
+    "營運成果",
+    "截至2025年12月31日及2024年12月31日之年度比較",
+    "截至2025年12月31日",
+    "(以千為單位)",
+    "{'original': 'Liquidity and Capital Resources', 'translated': '流動性及資本運用'}",
+    "{'original': 'Sources of Liquidity', 'translated': '流動性來源'}",
+    "{'original': 'Future Capital Requirements', 'translated': '未來資本需求'}",
+    "{'original': 'Contractual Obligations and Commitments', 'translated': '契約義務與承諾'}",
+    "{'original': 'Payments Due by Period', 'translated': '各期間應支付金額'}",
+    "{'original': 'Off-Balance Sheet Arrangements', 'translated': '表外安排'}",
+    "{'original': 'Critical Accounting Policies and Significant Judgments and Estimates', 'translated': '關鍵會計政策及重要判斷與估計'}",
+    "{'original': 'Accrued Research and Development Expense', 'translated': '累計研究與發展費用'}",
+    "{'original': 'Stock-Based Compensation', 'translated': '股票基於報酬'}",
+    "{'original': 'Recently Issued Accounting Pronouncements', 'translated': '最近發佈的會計準則公告'}"
+   ],
+   "paragraphs": [
+    "你應閱讀下列對我們財務狀況及營運成果之討論與分析，並與本年度10-K申報表中所包含之合併財務報表及相關附註一併參考。此討論包含風險與不確定性之預測性陳述，包括在「特別注意預測性陳述」節中所描述之風險。我們實際之結果及部分事件之時程可能與下列討論中所提及者有重大差異。導致此種差異之因素包括，但不僅限於，下列所列及在本年度10-K申報表中「風險因素」節所列之因素。",
+    "我們是一家臨牀階段生物製藥公司，專注於發現及開發小分子治療藥物，以幫助人們不僅延長壽命，更能提升生活品質。我們旨在透過精準醫療方法，解決現有及未來的未滿足醫療需求，以提高生存率並增進整體健康狀況。我們的發現過程結合對臨牀驗證生物標的之深入洞察與差異化化學結構，目標在設計針對未滿足需求之治療方案。透過結合臨牀驗證標的與特定目標產品型譜，並配合嚴謹之臨牀試驗設計與監管策略，我們旨在開發針對未滿足需求之藥物，提高臨牀與商業成功之機率。驗證標的為其在疾病病態中之角色已透過機制與臨牀研究證實之標的。我們目前正推進ELVN-001，同時也在進行多項符合我們小分子開發方法之研究階段機會。為優先推進ELVN-001及其即將進行之關鍵性試驗，我們正在探討ELVN-002計畫之戰略替代方案，並不再進行其開發。為優先推進ELVN-001及其即將進行之關鍵性試驗，我們正在探討ELVN-002計畫之戰略替代方案，並不再進行其開發。",
+    "下表總結我們之臨牀計畫：",
+    "Enliven Inc.（原為Enliven Therapeutics, Inc.）（\"Former Enliven\"）於2019年6月在特拉華州註冊成立，我們之總部設於科羅拉多州鮑爾德市。我們將 substantially all 之資源投入於我們BCR-ABL計畫及其他計畫之研究與開發、業務規劃、建立與維護智慧財產權組合、聘僱人員、籌集資金，以及提供一般及行政支援。",
+    "我們不擁有或經營，且目前無計畫建立任何製造設施。我們依賴，並預期將持續依賴第三方製造我們之產品候選物於臨牀及前期臨牀測試，以及若任何產品候選物獲得市場批准，則進行商業製造。我們認為此策略使我們能維持更有效率之基礎設施，透過消除我們投資自有製造設施、設備與人員之需求，同時也使我們能專注於產品候選物之開發。",
+    "Former Enliven 係透過私募發行可轉換優先股及銷售普通股來資助其營運，從這些私募發行中累計取得總毛收入為 140.5 百萬美元，並從 Former Enliven 過去合併前的融資交易（\"Financing Transaction\"）中銷售普通股取得總毛收入為 164.5 百萬美元。2024 年 3 月，我們透過私募發行普通股及預先資助權證來購買我們的普通股，累計取得總毛收入為 90.0 百萬美元，並於 2025 年 6 月完成公開發行，銷售普通股及預先資助權證來購買我們的普通股，累計取得總毛收入為 230.0 百萬美元。截至 2025 年 12 月 31 日，我們根據銷售協議出售我們的普通股並取得總毛收入為 40.0 百萬美元。截至 2025 年 12 月 31 日，我們持有現金、現金等價物及市場可交易證券為 462.6 百萬美元。根據我們目前的營運計畫，我們現有的現金、現金等價物及市場可交易證券將足以支應我們預計的營運費用及資本支出需求，至少達 12 個月，自本 Form 10-K 申報日算起。",
+    "截至2025年12月31日，我們累積虧損為347.2 百萬美元。自成立以來，我們已產生顯著虧損及營運現金流為負，包括2025年12月31日及2024年12月31日之淨虧損分別為103.7 百萬美元及89.0 百萬美元。我們預期，我們之營運虧損及營運現金流為負之情況將持續至可預見之未來，因我們持續開發產品候選物。",
+    "我們之淨虧損可能因多種因素而大幅波動，包括研究與開發活動之時間及範圍。我們預期，我們之費用及資金需求將因我們持續進行之活動而顯著增加，若且當我們：",
+    "• 推動本公司 BCR-ABL 程式進入臨牀開發階段；• 修改本公司 ELVN-001 的臨牀開發計畫；",
+    "• 推動任何其他產品候選藥物進入臨牀前及臨牀開發階段；• 推動本公司其他小分子研究計畫的開發；",
+    "• 透過本公司自身的研究與開發工作，擴充產品候選藥物的管線；",
+    "• 尋求發現並開發更多產品候選藥物；",
+    "• 尋求對任何成功完成臨牀試驗的產品候選藥物進行監管審批；",
+    "• 承擔本公司決定不將 HER2 程式開發至 2025 年後所產生的成本；• 開發任何所需的配套診斷工具；"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'translated_text': '風險因素'}",
+    "{'original': 'Risk Factor Summary', 'translated': '風險因素總結'}",
+    "{'original': 'Risks Related to Our Limited Operating History, Financial Position and Need for Additional Capital', 'translated': '與本公司有限之營運歷史、財務狀況及對額外資金之需求相關之風險'}",
+    "本公司已產生重大淨虧損，且預期在可預見的未來仍將持續產生重大淨虧損。",
+    "本公司從未自產品銷售中產生收入，且可能永遠無法達成或維持獲利。",
+    "與本公司產品候選藥物之發現、開發及商業化相關之風險",
+    "本公司在設計及進行臨牀試驗方面之公司經驗有限"
+   ],
+   "paragraphs": [
+    "您應仔細考慮下列所描述的風險，以及本年度報告表10-K中其他資訊，包括我們經審計的合併財務報表及相關附註，以及標題為「管理層對財務狀況與營運成果之討論與分析」的章節，並在評估我們業務時，也應參考我們其他公開檔案。上述任何事件或發展的發生，可能會對我們的業務、財務狀況、營運成果與成長前景造成損害。在這種情況下，我們普通股的市場價格可能會下跌。此外，尚有其他風險與不確定性，目前我們尚未知悉或認為不重要，這些也可能影響我們的業務營運與普通股的市場價格。",
+    "我們目前處於發展初期，營運歷史有限，且我們尚未有任何產品獲得商業銷售許可，這可能會使您難以評估我們目前的業務與成功機率及未來可持續性。",
+    "• 我們已產生顯著的淨虧損，且預期在可預見的未來持續產生顯著的淨虧損。",
+    "• 我們從未透過產品銷售產生收入，且可能永遠無法達成或維持獲利。",
+    "• 我們極度依賴ELVN-001。若我們無法將ELVN-001推進臨牀開發階段、取得監管批准並最終商業化或授權ELVN-001，或在進行這些事項時遭遇重大延宕，將會對我們的業務造成重大損害。",
+    "• 前臨牀試驗與早期臨牀試驗的結果可能無法預測後續臨牀試驗的成功，且我們臨牀試驗的結果可能無法符合美國食品藥物管理局（FDA）、歐洲藥物管理局（EMA）或其他相當的外國監管機構的要求。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

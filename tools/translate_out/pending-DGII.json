@@ -1,0 +1,177 @@
+{
+ "ticker": "DGII",
+ "cik": "0000854775",
+ "accession": "0000854775-25-000026",
+ "form": "10-K",
+ "reportDate": "2025-09-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "General Background and Product Offerings",
+    "Industry and Marketplace Conditions",
+    "Acquisitions and Dispositions",
+    "Sales Channels",
+    "Manufacturing Operations",
+    "Research & Development and Intellectual Property Rights",
+    "Compensation Philosophy",
+    "Health and Wellness",
+    "IoT Products & Services Segment",
+    "Hardware Products",
+    "IoT Solutions Segment"
+   ],
+   "paragraphs": [
+    "Digi International Inc. (\"Digi®,\" \"we,\" \"our,\" or \"us\") was incorporated in 1985 as a Minnesota corporation. We reorganized as a Delaware corporation in 1989 in conjunction with our initial public offering. Our common stock trades on the Nasdaq Global Select Market tier of the Nasdaq Stock Market LLC (the \"Nasdaq\") under the symbol DGII. Our World Headquarters is located at 9350 Excelsior Blvd., Suite 700, Hopkins, Minnesota 55343. The telephone number at our World Headquarters is (952) 912-3444.",
+    "We are a leading global provider of business and mission-critical Internet of Things (\"IoT\") connectivity products, services and solutions. We help our customers deploy, monitor and manage critical communications infrastructures that deliver important information in demanding environments with high levels of security and reliability. We have two reportable segments under applicable accounting standards: (i) IoT Products & Services; and (ii) IoT Solutions.",
+    "Our IoT Products & Services segment offers products and services that help original equipment manufacturers (\"OEMs\") as well as enterprise and government customers create and deploy secure IoT connectivity solutions. These include embedded and wireless modules, console servers, enterprise and industrial routers as well as other infrastructure management equipment to meet our customers' IoT communication requirements. In addition, this segment provides our customers with device management platform services, as well as other professional services to enable customers to capture and manage data from devices connected to networks.",
+    "Our IoT Solutions segment consists of our SmartSense by Digi® business and our Managed Network–as–a-Service (\"MNaaS\") business acquired via our November 2021 acquisition of Ventus Wireless, LLC and affiliated entities (\"Ventus\"). SmartSense by Digi offers wireless temperature and other condition-based monitoring services as well as employee task management, label printing and other services. During the fourth quarter of fiscal 2025 we completed the acquisition of Jolt Software, Inc. to enhance the offerings of SmartSense by Digi. SmartSense by Digi and Jolt® collectively focus on the following vertical markets: food service, healthcare (primarily pharmacies and hospitals) and supply chain. Ventus® is a leader in the provision of MNaaS solutions that simplify the complexity of enterprise-wide area network (\"WAN\") connectivity for customers. The Ventus portfolio includes cellular wireless and fixed line WAN solutions for an array of connectivity applications in banking, healthcare, retail, gaming, hospitality and other sectors.",
+    "For more in-depth descriptions of our products and services, please refer to the heading \"Principal Products and Services\" at the end of Part I, Item 1 of this Form 10-K.",
+    "Our corporate website address is www.digi.com. In the \"Company–Investor Relations\" section of our website, we make our annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, our annual proxy statement and any amendments to these reports available free of charge as soon as reasonably practicable after they are filed with or furnished to the United States Securities and Exchange Commission (\"SEC\"). Information on our website is not incorporated by reference into this report or any other report we file with or furnish to the SEC.",
+    "We believe the IoT industry is in the midst of a multi-year expansion as many industries are undergoing a digital transformation within their business that drives demand for IoT capabilities across a broad spectrum of services. Among others, IoT use cases include providing and maintaining secure connectivity and monitoring of operating assets in a wide-range of different businesses, condition-based monitoring of perishable goods, enabling remote work by employees and automating workflows and operations.",
+    "Our IoT Products & Services segment represented the majority of our sales in fiscal 2025. This segment sells both wired and wireless products that either are embedded into the products of OEMs or serve as stand-alone products. These offerings allow our customers to connect a wide range of assets to networks. Historically the revenues from this segment have been based on one-time product sales. More recently we have placed greater emphasis on selling subscription-based solutions across this product portfolio.",
+    "Our IoT Solutions segment is comprised primarily of our SmartSense by Digi and Jolt, as well as Ventus offerings. The offerings in this segment are primarily offered on a subscription model and provide us with a stable base of higher-margin recurring revenues.",
+    "While we expect an ongoing long-term trend of marketplace growth, each of our business segments is susceptible to downturns either because of general macro-economic conditions, the continued development of technology that can make products less competitive or even obsolete and uncertainty or changes in regulatory environments. Given the current uncertainty in macro-economic conditions, including, but not limited to, potential recessionary conditions, the implementation of tariffs by governments around the world, changing global geopolitical conditions, supply chain disruptions globally and the uncertain status of large project-based customer deployment opportunities, our results during fiscal 2026 may be inconsistent quarter to quarter or with historical results.",
+    "We remain focused on taking steps that we believe will deliver consistent, long-term growth with higher levels of profitability. This includes continuously reviewing and managing the product, service and solution offerings we provide to align with customer interests and to meet market demand. In addition, acquisitions historically have helped significantly advance our offerings and drive growth and profitability, in both business segments. In the fourth quarter of fiscal 2025 we completed the acquisition of Jolt Software Inc., a Utah based provider of task management, workforce management and labeling solutions used by food retailers, restaurants and other businesses that might also use our SmartSense by Digi condition monitoring solutions. While it is possible we will complete smaller transactions, we primarily are focusing our efforts for future potential acquisitions on opportunities of scale with the potential to enhance subscription based recurring revenue. In addition, we recently have announced our intention to discontinue the production and sale of certain older products in our IoT Products & Services Segment which are not core to our long-term growth objectives.",
+    "Our IoT Products & Services segment is managed so our product management, research and development and sales personnel are aligned along specific product lines. We believe this management structure brings greater market focus and potential growth to our product lines. We also continue to drive efforts to pair our hardware offerings with our remote manager device management platforms as well as other support services. These bundled offerings are sold on a subscription basis and allow customers to monitor and manage the performance of hardware they purchase from us remotely. As of September 30, 2025 the (Annualized Recurring Revenue (\"ARR\") of this segment was $32 million. Please see \"Key Business Metrics\" section in Part II, Item 7 for additional details on how ARR is measured.",
+    "Our IoT Solutions segment is managed with a focus on recurring typically high margin subscription-based revenues. We believe capturing enterprise-level deals should be a driver of growth, leveraging our direct sales model to achieve this. Our offerings provide comprehensive hardware-enabled software solutions. The segment represents approximately 25% of total revenues. As of September 30, 2025 the ARR of this segment was $120 million. We have long-term high organic growth expectations.",
+    "Our acquisition of Jolt in the fourth quarter of fiscal 2025 described above is the only acquisition we have completed during our fiscal years 2023 through 2025."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Operational Risks",
+    "Technology and Cybersecurity Risks",
+    "Risks Relating to Our Foreign Operations",
+    "Competitive and Reputational Risks",
+    "Risks Related to Economic and Market Conditions",
+    "Strategic Risks",
+    "Risks Relating to Our Industry",
+    "Credit and Liquidity Risks",
+    "Government Regulation and Political Risks",
+    "Risks Related to Our Intellectual Property"
+   ],
+   "paragraphs": [
+    "Multiple risk factors exist which could have a material effect on our operations, results of operations, financial position, liquidity, capital resources and common stock.",
+    "We depend on manufacturing relationships and a broad set of suppliers, some of whom provide us with limited-source components and parts, and disruptions in these relationships may cause damage to our customer relationships or otherwise negatively impact our business.",
+    "We procure all parts and certain services involved in the production of our products and subcontract most of our product manufacturing to outside firms that specialize in such services. Although most of the components of our products are available from multiple vendors, we have several single-source supplier relationships, either because alternative sources are not available or because the relationship is advantageous to us. As an example, Ventus relies almost exclusively on a manufacturer in China for the production of the hardware it provides to its customers. Further, in recent years supply chains globally have experienced stress due to a range of factors. This has impacted our own ability to procure certain inventory and services. These disruptions also caused us to order significant amounts of inventory as we were uncertain whether we would otherwise be able to procure necessary parts and components to meet customer needs. As a result, at times we held elevated levels of inventory compared to historical norms. The impacts of these circumstances driven by supply chain stress were material in some instances and it is possible additional material impacts could occur in the future. There can be no assurance that our suppliers will be able to meet our future requirements for products and components in a timely fashion. In addition, the availability of many of the components we need is dependent in part on our ability to provide our suppliers with accurate forecasts of our future requirements. Delays or lost revenue could be caused by other factors beyond our control, including late deliveries by vendors of components, or force majeure events. As an example of force majeure, a fire many years ago disrupted the operations at one of our contract manufacturers in Thailand. If we are required to identify alternative suppliers for any of our required components, qualification and pre-production periods could be lengthy and may cause an increase in component costs and delays in providing products to customers. Any extended interruption in the supply of any of the key components or the availability of manufacturing services that currently are obtained from limited sources could disrupt our operations and have a material adverse effect on our customer relationships and profitability.",
+    "The long and variable sales cycle for certain of our products and services makes it more difficult for us to predict our operating results and manage our business.",
+    "The sale of our products and services may require a significant technical evaluation and commitment of capital and other resources by potential customers and end users, as well as delays frequently associated with end users' internal procedures to deploy new technologies and to test and accept new technologies. For these and other reasons, the sales cycle associated with certain of our products is typically lengthy and is subject to a number of significant risks, such as end users' internal purchasing reviews, as well as availability of capital for deployments, or supply chain issues that are beyond our control. Because of the lengthy sales cycle and the large size of certain customer orders, if orders forecasted for a specific customer are not realized or delayed, our operating results could be materially adversely affected.",
+    "Certain parts of our business are subject to customer concentrations."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Forward-Looking Statements",
+    "Key trends regarding our existing business",
+    "Operating Expenses",
+    "Operating Income",
+    "Other expense, net",
+    "Reconciliation of Net Income to Adjusted EBITDA",
+    "Reconciliation of Net Income and Net Income per Diluted Share to",
+    "Adjusted Net Income and Adjusted Net Income per Diluted Share"
+   ],
+   "paragraphs": [
+    "Our management's discussion and analysis should be read in conjunction with our consolidated financial statements and other information in this Annual Report on Form 10-K.",
+    "We have omitted discussion of the earliest of the three years covered by our consolidated financial statements presented in this report because that disclosure was already included in our Annual Report on Form 10-K for fiscal 2024, filed with the SEC on November 22, 2023. You are encouraged to reference Part II, Item 7, within that report, for a discussion of our financial condition and result of operations for fiscal 2023 compared to fiscal 2024.",
+    "SAFE HARBOR STATEMENT UNDER THE PRIVATE SECURITIES LITIGATION REFORM ACT OF 1995",
+    "This Form 10-K contains certain statements that are \"forward-looking statements\" as that term is defined under the Private Securities Litigation Reform Act of 1995, and within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended.",
+    "This discussion contains forward-looking statements that are based on management's current expectations and assumptions. These statements often can be identified by the use of forward-looking terminology such as \"assume,\" \"believe,\" \"continue,\" \"estimate,\" \"expect,\" \"intend,\" \"may,\" \"plan,\" \"potential,\" \"project,\" \"should,\" or \"will\" or the negative thereof or other variations thereon or similar terminology. Among other items, these statements relate to expectations of the business environment in which Digi operates, projections of future performance, including but not limited to expectations regarding the Company's profitability and net cash position, inventory levels, supply chain normalization, perceived marketplace opportunities, debt repayments, attributions of potential acquisitions and statements regarding our mission and vision. Such statements are not guarantees of future performance and involve certain risks, uncertainties and assumptions. Among others, these include risks related to our ability to realize synergies and operating benefits from acquisitions, like our recent acquisition of Jolt completed in August 2025, ongoing and varying inflationary and deflationary pressures around the world and the monetary and trade policies of governments globally as well as present and ongoing concerns about a potential recession, the potential for longer than expected sales cycles, the ability of companies like us to operate a global business in such conditions as well as negative effects on product demand and the financial solvency of customers and suppliers in such conditions, risks related to ongoing supply chain challenges that continue to impact businesses globally, regulatory risks that include, but are not limited to, the potential expansion of tariffs and potential changes to regulations impacting the functionality or compliance of our products, risks related to cybersecurity, data breaches and data privacy, risks arising from military conflicts such as those in Ukraine and the Middle East, the highly competitive market in which we operate, rapid changes in technologies that may displace products sold by us, declining prices of networking products, our reliance on distributors and other third parties to sell our products, the potential for significant purchase orders to be canceled or changed, delays in product development efforts, uncertainty in user acceptance of our products, the ability to integrate our products and services with those of other parties in a commercially accepted manner, potential liabilities that can arise if any of our products have design or manufacturing defects, our ability to integrate and realize the expected benefits of acquisitions, our ability to defend or settle satisfactorily any litigation, the impact of natural disasters and other events beyond our control that could negatively impact our supply chain and customers, potential unintended consequences associated with restructuring, reorganizations or other similar business initiatives that may impact our ability to retain important employees or otherwise impact our operations in unintended and adverse ways, and changes in our level of revenue or profitability which can fluctuate for many reasons beyond our control.",
+    "These and other risks, uncertainties and assumptions identified from time to time in our filings with the United States Securities and Exchange Commission, including without limitation, those set forth in Item 1A, Risk Factors, of this Annual Report on Form 10-K, subsequent filings on Form 10-Q and other filings, could cause our actual results to differ materially from those expressed in any forward-looking statements made by us or on our behalf. Many of such factors are beyond our ability to control or predict. These forward-looking statements speak only as of the date for which they are made. Except to the extent required by law, we do not undertake, and expressly disclaim any intent or obligation to update any forward-looking statements, whether as a result of new information, future events or otherwise.",
+    "ITEM 7. MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+    "We are a leading global provider of business and mission-critical IoT connectivity products, services and solutions. Our business is comprised of two reporting segments: IoT Products & Services and IoT Solutions.",
+    "In fiscal 2025, our key operating objectives included:",
+    "•continuing to transition to complete solutions with software and service offerings included with our products, as this drives ARR, which provides more predictable and higher margin revenues; and",
+    "•delivering a higher level of services across our businesses.",
+    "During fiscal 2025 we delivered on these objectives by increasing ARR by 31% from the end of fiscal 2024 to the end of fiscal 2025. This included an increase of 33% in our Products and Services business segment and 30% in our Solutions business segment. Our acquisition of Jolt completed in August 2025 was a significant contributor to this increase.",
+    "We utilize many financial, operational, and other metrics to evaluate our financial condition and financial performance. Below we highlight the metrics for fiscal 2025 that we believe are most important in these evaluations, with comparisons to fiscal 2024:",
+    "•Consolidated revenue was $430 million, an increase of 1%."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'General Background and Product Offerings': '一般背景與產品提供內容'}",
+    "{'Industry and Marketplace Conditions': '產業與市場條件'}",
+    "{'Acquisitions and Dispositions': '收購與處分'}",
+    "{'Sales Channels': '銷售通路'}",
+    "{'Manufacturing Operations': '製造運作'}",
+    "{'Research & Development and Intellectual Property Rights': '研究與發展及智慧財產權權利'}",
+    "{'Compensation Philosophy': '薪酬哲學'}",
+    "{'Health and Wellness': '健康與 wellness'}",
+    "{'IoT Products & Services Segment': 'IoT 產品與服務應報告分部'}",
+    "{'Hardware Products': '硬體產品'}",
+    "{'IoT Solutions Segment': 'IoT 解決方案應報告分部'}"
+   ],
+   "paragraphs": [
+    "Digi International Inc. (\"Digi®,\" \"we,\" \"our,\" or \"us\") 於 1985 年在明尼蘇達州成立公司。我們於 1989 年與首次公開發行股票同時，重新組織為德拉瓦州公司。我們的普通股在 Nasdaq 股票市場 LLC（\"Nasdaq\"）的 Nasdaq Global Select Market 層交易，代碼為 DGII。我們的全球總部位於 9350 Excelsior Blvd., Suite 700, Hopkins, Minnesota 55343。我們全球總部的電話號碼為 (952) 912-3444。",
+    "我們是全球領先的提供企業及關鍵任務 Internet of Things (\"IoT\") 連線產品、服務與解決方案的供應商。我們協助客戶部署、監控與管理關鍵通訊基礎設施，以在嚴苛環境中提供重要資訊，並具備高層級的安全性與可靠性。根據適用的會計準則，我們有兩個應報告分部：(i) IoT 產品與服務；以及 (ii) IoT 解決方案。",
+    "我們的 IoT 產品與服務分部提供產品與服務，協助原始設備製造商 (\"OEMs\") 以及企業與政府客戶建立與部署安全的 IoT 連線解決方案。這些包括嵌入式與無線模組、控制伺服器、企業與工業路由器以及其它基礎設施管理設備，以符合客戶的 IoT 通訊需求。此外，此分部也為客戶提供裝置管理平台服務，以及其它專業服務，以協助客戶從連接到網路的裝置中擷取與管理資料。",
+    "我們的 IoT 解決方案分部包含我們的 SmartSense by Digi® 商業與我們透過 2021 年 11 月收購 Ventus Wireless, LLC 及相關企業 (\"Ventus\") 所取得的 Managed Network–as–a-Service (\"MNaaS\") 商業。SmartSense by Digi 提供無線溫度及其他條件監測服務，以及員工任務管理、標籤列印等服務。在 2025 年財務年度第四季，我們完成收購 Jolt Software, Inc. 以強化 SmartSense by Digi 的產品組合。SmartSense by Digi 與 Jolt® 共同專注於以下垂直市場：餐飲服務、醫療 (主要為藥房與醫院) 以及供應鏈。Ventus® 是提供 MNaaS 解決方案的領導者，簡化企業範圍內區域網路 (\"WAN\") 連線的複雜性。Ventus 的產品組合包括行動無線與固定線路 WAN 解決方案，應用於銀行、醫療、零售、遊戲、旅館等多個領域。",
+    "如需更深入的產品與服務描述，請參閱本 Form 10-K 第一部分第 1 項末尾的 \"主要產品與服務\" 項目。",
+    "我們的公司網站網址為 www.digi.com。在網站的 \"公司－投資人關係\" 部分，我們提供年度 Form 10-K 報告、季度 Form 10-Q 報告、現況 Form 8-K 報告、年度代理聲明書，以及這些報告的任何修正版本，均免費提供，並在提交或提供給美國證券交易委員會 (\"SEC\") 後盡速公開。",
+    "我們認為 IoT 行業正在經歷多年的擴張，許多產業正在進行數位轉型，這驅動對 IoT 能力在廣泛服務範疇的需求。IoT 的應用案例包括為不同企業提供並維護安全的運營資產連線與監測、對易腐商品進行條件監測、讓員工遠端工作以及自動化工作流程與作業。",
+    "我們的 IoT 產品與服務分部在 2025 年財務年度代表我們銷售的大多數部分。此分部銷售有線與無線產品，這些產品或是嵌入 OEMs 的產品中，或是作為獨立產品銷售。這些產品組合讓我們的客戶能將廣泛的資產連接到網路。歷史上，此分部的收入主要來自一次性產品銷售。近期我們則更強調在這產品組閤中銷售訂閱制解決方案。",
+    "本公司 IoT 解決方案應報告分部主要由 SmartSense by Digi 及 Jolt，以及 Ventus 的產品組成。此應報告分部的產品主要以訂閱模式提供，使本公司能獲得穩定的高毛利率反覆性收入。",
+    "雖然我們預期市場將持續成長，但各個業務應報告分部皆可能因總體經濟條件不佳、技術持續發展使產品失去競爭力或過時，或因法規環境的不確定性或變動，而面臨衰退。考慮到目前總體經濟條件的不確定性，包括但不限於潛在的經濟衰退、全球政府實施關稅、全球地緣政治條件的變動、供應鏈中斷，以及大型專案客戶部署機會的不確定性，本公司在財務年度 2026 的營運結果可能每季不一致，或與歷史結果不同。",
+    "我們持續著力於執行我們認為能帶來穩定、長遠成長與更高利潤水準的措施。這包括持續審視與管理我們所提供的產品、服務與解決方案，以符合客戶需求並應對市場需求。此外，過去收購行動對我們的產品與服務有顯著助益，並推動成長與利潤，於各個業務應報告分部皆然。在財務年度 2025 的第四季，我們完成對 Utah 狀的 Jolt Software Inc. 的收購，該公司為提供食品零售業、餐廳及其他可能使用本公司 SmartSense by Digi 狀態監測解決方案的企業所使用的任務管理、人力管理與標籤解決方案的供應商。雖然我們可能進行較小規模的交易，但我們未來潛在收購的重點主要放在規模較大、能提升訂閱模式反覆性收入的機會。此外，我們最近已宣佈有意終止我們 IoT 產品與服務應報告分部中某些非核心於長期成長目標的較舊產品的生產與銷售。",
+    "本公司 IoT 產品與服務應報告分部的管理方式為讓產品管理、研究與開發及銷售人員沿特定產品線進行協調。我們認為此管理結構能為產品線帶來更強的市場聚焦與成長潛力。我們也持續推動將我們的硬體產品與遠端管理器設備管理平台以及其他支援服務進行搭配。這些組合型產品以訂閱模式銷售，使客戶能遠端監測與管理從本公司購買新購的硬體產品表現。截至 2025 年 9 月 30 日，此應報告分部的（年化反覆性收入（Annualized Recurring Revenue，簡稱 ARR）為 32 百萬美元。請參閱第二部分，第 7 項「關鍵業務指標」部分，以取得更多關於如何衡量 ARR 的資訊。",
+    "本公司 IoT 解決方案應報告分部的管理重點為取得通常具有高毛利率的訂閱模式反覆性收入。我們認為取得企業級交易應為成長的驅動力，並透過我們的直接銷售模式來實現此目標。我們的產品提供完整的硬體支援軟體解決方案。此應報告分部約佔總營業收入的 25%。截至 2025 年 9 月 30 日，此應報告分部的 ARR 為 120 百萬美元。我們對長期高內生性成長有長期期待。",
+    "如上所述，本公司在財務年度 2023 至 2025 期間所完成的唯一收購為財務年度 2025 第四季對 Jolt 的收購。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "前瞻性陳述",
+    "現有業務之關鍵趨勢",
+    "營運費用",
+    "營運收入",
+    "其他費用，淨額",
+    "淨收入至調整後營運資金的彙總",
+    "淨收入及每股稀釋後淨收入至",
+    "調整後淨收入及調整後每股稀釋後淨收入"
+   ],
+   "paragraphs": [
+    "本公司管理階層的討論與分析應與本年度財務報表及其他資訊一併閱讀。",
+    "我們已省略本報告中所列三個會計年度中最早的一年，因為該資訊已在2024會計年度的年報（Form 10-K）中披露，該年報於2023年11月22日提交至美國證券交易委員會（SEC）。您被鼓勵參考該年報的第二部分，第7項，以瞭解2023會計年度與2024會計年度的財務狀況與營運結果比較。",
+    "1995年私人證券訴訟改革法案（Private Securities Litigation Reform Act of 1995）的避風港聲明",
+    "本Form 10-K包含某些屬於「預測性陳述」（forward-looking statements）的語句，此詞義依1995年私人證券訴訟改革法案定義，並依照1933年證券法第27A條（經修正）及1934年證券交易法第21E條（經修正）之內涵。",
+    "本討論包含預測性陳述，這些陳述基於管理階層目前的預期與假設。這些語句通常會使用預測性用語，如「假設」、「相信」、「持續」、「估計」、「預期」、「意圖」、「可能」、「計畫」、「潛在」、「預測」、「應該」或「將」，或其否定形式或其他變體或類似用語。這些陳述涉及Digi所處的營運環境預期、未來表現的預測，包括但不限於本公司獲利能力與淨現金狀況、存貨水準、供應鏈正常化、市場機會的認知、債務償還、潛在收購的歸屬，以及我們的使命與願景。這些陳述並非未來表現的保證，且涉及某些風險、不確定性與假設。其中包含的風險、不確定性與假設包括：我們能否實現收購後的協同效益與營運效益，例如我們於2025年8月完成的Jolt收購，全球持續且變動的通貨膨脹與通貨緊縮壓力，以及全球政府的貨幣與貿易政策，以及對潛在經濟衰退的擔憂，銷售週期可能延長的風險，像我們這樣的公司在全球條件下營運的困難，以及對產品需求與客戶與供應商財務健全性產生的負面影響，持續影響全球企業的供應鏈挑戰，包括但不限於關稅擴張與影響我們產品功能或合規性的規範變更的風險，與網路安全、資料外洩與資料隱私相關的風險，因烏克蘭與中東等地軍事衝突而產生的風險，我們所處的極度競爭市場，技術快速變遷可能取代我們銷售的產品，網路產品價格下降，我們對經銷商及其他第三方銷售產品的依賴，重大訂單可能取消或變更的風險，產品開發進度延誤，用戶對我們產品接受度的不確定性，我們能否以商業上可接受的方式整合我們的產品與服務與其他方的產品與服務，若我們的產品存在設計或製造缺陷，可能產生的潛在責任，我們能否整合並實現收購的預期效益，我們能否成功辯護或妥善解決任何訴訟，自然災害或其他我們無法控制的事件對供應鏈與客戶造成的負面影響，因重組、重組或其他類似業務計畫而產生的未預期後果，可能影響我們保留重要員工或以其他方式對營運造成未預期且負面影響，以及我們營收或獲利水準的變動，可能因許多我們無法控制或預測的因素而產生。",
+    "這些及其他風險、不確定性與假設，如時常在美國證券交易委員會（SEC）的 filings 中所提及，包括但不限於本年度Form 10-K年報第1A項「風險因素」（Risk Factors）中所列，以及後續的Form 10-Q filings 及其他 filings 中所列，可能會導致我們的實際結果與任何預測性陳述中所表達的結果有重大差異。許多這些因素超出了我們的控制或預測能力。這些預測性陳述僅於其作出之日為準。除非法律有強制要求，我們不承擔更新任何預測性陳述的意圖或義務，無論是因新資訊、未來事件或其他原因。",
+    "第7項 管理階層對財務狀況與營運結果的討論與分析（ITEM 7. MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS）",
+    "我們是全球領先的提供企業與關鍵任務物聯網（IoT）連線產品、服務與解決方案的供應商。我們的業務包含兩個應報告分部：物聯網產品與服務（IoT Products & Services）與物聯網解決方案（IoT Solutions）。",
+    "在財務年度 2025，我們的關鍵營運目標包括：",
+    "•持續轉型為包含軟體與服務方案的完整解決方案，因為這會驅動 ARR，進而帶來更可預測且毛利率更高的營收；以及",
+    "•在各業務領域提供更高層級的服務。",
+    "在財務年度 2025，我們透過提高 ARR 從財務年度 2024 結束時的水準至財務年度 2025 結束時的水準 31% 來達成這些目標。這包括產品與服務業務分部提高 33%，解決方案業務分部提高 30%。我們於 2025 年 8 月完成對 Jolt 的收購，是此成長的重要貢獻因素。",
+    "我們使用許多財務、營運及其他指標來評估我們的財務狀況與財務表現。以下我們強調財務年度 2025 被認為在這些評估中最重要的指標，並與財務年度 2024 進行比較：",
+    "•合併營業收入為 430 百萬美元，較財務年度 2024 增加 1%"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'Operational Risks': '營運風險'}",
+    "{'Technology and Cybersecurity Risks': '科技與網路安全風險'}",
+    "{'Risks Relating to Our Foreign Operations': '與我們海外營運相關的風險'}",
+    "{'Competitive and Reputational Risks': '競爭與聲譽風險'}",
+    "{'Risks Related to Economic and Market Conditions': '與總體經濟與市場狀況相關的風險'}",
+    "{'Strategic Risks': '策略風險'}",
+    "{'Risks Relating to Our Industry': '與我們產業相關的風險'}",
+    "{'Credit and Liquidity Risks': '信用與流動性風險'}",
+    "{'original': 'Government Regulation and Political Risks', 'translated': '政府規範與政治風險'}",
+    "{'original': 'Risks Related to Our Intellectual Property', 'translated': '與我們智慧財產權相關的風險'}"
+   ],
+   "paragraphs": [
+    "多項風險因素存在，這些因素可能對我們的營運、營業成果、財務狀況、流動性、資本資源及普通股產生重大影響。",
+    "我們依賴製造關係及廣泛的供應商羣，其中一些供應商提供的零組件為限量來源，這些關係的中斷可能對我們的客戶關係造成損害，或以其他方式對我們的業務產生負面影響。",
+    "我們採購所有零組件及部分服務，並將大多數產品製造業務委外給專門從事此類服務的外部公司。雖然我們產品的大多數零組件均可從多個供應商處取得，但我們與幾個供應商有單一來源的供應關係，這是因為替代來源不可用或該關係對我們有利。例如，Ventus 幾乎完全依賴中國的製造商來生產其提供給客戶的硬體。此外，近年來全球供應鏈因多種因素而面臨壓力。這已影響我們取得特定存貨及服務的能力。這些中斷也導致我們必須訂購大量存貨，因為我們不確定是否還能取得必要的零組件以滿足客戶需求。因此，我們有時持有較歷史水平更高的存貨。這些情況由供應鏈壓力所驅動，其影響在某些情況下是重大的，未來可能還會出現其他重大影響。無法保證我們的供應商將能按時滿足我們對產品及零組件的未來需求。此外，許多我們需要的零組件的可得性在一定程度上取決於我們能否為供應商提供準確的未來需求預測。延誤或損失收入可能由我們無法控制的其他因素造成，包括供應商的零組件延遲交貨，或不可抗力事件。例如，不可抗力事件的範例是多年前一場火災中斷了我們在泰國的合同製造商的營運。如果我們需要為任何必需零組件尋找替代供應商，則認證及預生產期可能很長，可能會導致零組件成本增加及延遲向客戶提供產品。任何關鍵零組件供應或目前從有限來源取得的製造服務的延長中斷，都可能幹擾我們的營運，並對我們的客戶關係及盈利能力產生重大負面影響。",
+    "某些產品及服務的銷售週期長且不確定，使我們更難預測營運成果並管理業務。",
+    "我們產品及服務的銷售可能需要潛在客戶及終端用戶進行重大技術評估及投入資本及其他資源，以及與終端用戶內部程序相關的延遲，以部署新技術及測試和接受新技術。基於這些及其他原因，某些產品的銷售週期通常較長，並面臨許多重大風險，例如終端用戶的內部採購審查，以及部署所需的資金可得性，或超出我們控制範疇的供應鏈問題。由於銷售週期長且某些客戶訂單規模大，如果預期某個客戶的訂單未能實現或延遲，可能會對我們的營運成果產生重大負面影響。",
+    "我們業務的某些部分受到客戶集中度的影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

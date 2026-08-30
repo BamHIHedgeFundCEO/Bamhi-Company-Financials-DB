@@ -1,0 +1,199 @@
+{
+ "ticker": "PRTA",
+ "cik": "0001559053",
+ "accession": "0001559053-26-000008",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Strategy",
+    "Our Research and Development Pipeline",
+    "Prasinezumab for the Potential Treatment of Parkinson's Disease and Other Synucleinopathies",
+    "Coramitug (formerly PRX004) for the Potential Treatment of ATTR Amyloidosis",
+    "Coramitug is an investigational antibody designed to deplete amyloid associated with disease pathology in hereditary and wild type ATTR amyloidosis, without affecting the native, normal tetrameric form of the protein.",
+    "BMS-986446 (formerly PRX005) for the Potential Treatment of Alzheimer's Disease",
+    "PRX019 for the Potential Treatment of Neurodegenerative Diseases",
+    "Early-Stage Programs",
+    "PRX012 and PRX012-TfR for the Potential Treatment of Alzheimer's Disease",
+    "PRX123, a Dual Aβ-Tau Vaccine for the Potential Treatment and Prevention of Alzheimer's Disease"
+   ],
+   "paragraphs": [
+    "Prothena Corporation plc (\"Prothena\" or the \"Company\") is a late-stage clinical biotechnology company with expertise in protein dysregulation with the potential to change the course of devastating neurodegenerative and rare peripheral amyloid diseases.",
+    "Fueled by its deep scientific expertise built over decades of research, the Company is advancing a pipeline of therapeutic candidates for a number of indications and novel targets for which its ability to integrate scientific insights around neurological dysfunction and the biology of misfolded proteins can be leveraged. The Company's pipeline includes both wholly-owned and partnered programs being developed for the potential treatment of diseases including Parkinson's disease, ATTR amyloidosis with cardiomyopathy, Alzheimer's disease, Amyotrophic lateral sclerosis (ALS) and a number of other neurodegenerative diseases. Prothena is developing and applying its proprietary CYTOPE® technology to target a broad spectrum of intracellular disease pathways in the brain and periphery.",
+    "The Company was formed on September 26, 2012, under the laws of Ireland and re-registered as an Irish public limited company on October 25, 2012. The Company's ordinary shares began trading on The Nasdaq Global Market under the symbol \"PRTA\" on December 21, 2012, and currently trade on The Nasdaq Global Select Market.",
+    "Our goal is to be a leading biotechnology company focused on the discovery and development of novel therapies to treat diseases caused by protein dysregulation.",
+    "Under certain pathological conditions, the process by which proteins fold into specific conformations to carry out their intended biological activities becomes dysregulated. When this happens, proteins misfold and propagate many diseases that are not adequately addressed by current therapies. Proteins that misfold and aggregate to form amyloid are associated with a multitude of common and rare human diseases that can gravely damage vital organs. Amyloid can affect any organ in the body. Our pipeline reflects our deep understanding of the contribution of these toxic proteins to the cause and progression of disease. For example, Parkinson's disease is characterized by neuronal dysfunction and loss caused by the cell-to-cell spreading of toxic forms of aggregated alpha-synuclein protein. Transthyretin amyloidosis (ATTR amyloidosis) is a rare, progressive and fatal disease characterized by deposition of aggregated misfolded transthyretin proteins in vital organs such as the heart. It is believed two different proteins – Aβ (amyloid beta) and tau – are important contributors to Alzheimer's disease pathology. Misfolded Aβ builds up to form plaques between nerve cells in the brain. Tangles of twisted tau fibrils aggregate within neurons and spread from cell to cell and cause build up inside the neurons.",
+    "We leverage pioneering protein dysregulation science to develop novel therapeutic solutions that directly target pathogenic proteins in order to change the course of devastating neurodegenerative and rare peripheral amyloid diseases. We are advancing a broad pipeline of therapies with novel mechanisms of action that are uniquely suited to address unmet medical needs in targeted patient populations.",
+    "Our near-term plan is to continue to support our active clinical programs which are all partnered with large pharmaceutical companies, while investing in early-stage research programs and technology to create future partnership opportunities and collaborations. Our active clinical portfolio includes prasinezumab currently being evaluated in the Phase 3 PARAISO clinical trial for the treatment of early Parkinson's disease in partnership with Roche, coramitug currently being evaluated in the Phase 3 CLEOPATTRA clinical trial for the treatment of ATTR-CM by Novo Nordisk, BMS-986446 currently being evaluated in the Phase 2 TargetTau-1 clinical trial for the treatment of early Alzheimer's disease by Bristol Myers Squibb, and PRX019 currently being evaluated in a Phase 1 clinical trial by Prothena as part of a global partnership with Bristol Myers Squibb. Our early-stage research programs include development of a new technology, CYTOPE®, which enables precise targeting of intracellular disease pathways in the brain and periphery through an endosomal uptake and escape mechanism that preserves membrane and vesicle integrity following systemic administration. This technology potentially allows for targeting of previously undruggable intracellular disease targets. In addition, we are conducting further preclinical development of PRX012, our wholly-owned anti-Aβ antibody for the treatment of Alzheimer's disease in conjunction with a transferrin receptor (TfR) technology to potentially further enhance its clinical profile. Our near-term strategy is to develop these programs efficiently while evaluating potential strategic research collaborations and licensing deals with large pharmaceutical companies to further advance and elucidate their potential at the appropriate value inflection point. For example, we currently have and are focused",
+    "on developing additional research collaborations with large pharmaceutical companies to further develop and explore applications of our CYTOPE® technology.",
+    "Key elements of our strategy to achieve our goal are to:",
+    "•Concentrate our discovery and development efforts in areas where we have decades of scientific expertise and experience.",
+    "We leverage our core scientific expertise and proven protein dysregulation platform to develop novel therapeutics for the potential treatment of neurodegenerative and rare peripheral amyloid diseases.",
+    "Our pipeline is advanced by a team with scientific expertise and a track record of discovering and developing innovative, and often first-in-class programs. Our legacy includes fundamental discoveries in the understanding of Alzheimer's disease biology including identifying and elucidating the role Aβ plays in Alzheimer's disease pathology. These findings led to the development of a drug discovery and development organization that generated first-in-class clinical candidates in Alzheimer's disease, Parkinson's disease, and ATTR amyloidosis. In addition, our research team has developed a new technology, CYTOPE®, which enables precise targeting of intracellular disease pathways in the brain and periphery through an endosomal uptake and escape mechanism that preserves membrane and vesicle integrity following systemic administration. This technology potentially allows for targeting of previously undruggable intracellular disease targets and was developed by our team since currently available alternate technologies do not efficiently accomplish these desired outcomes.",
+    "Key elements of our biology-directed discovery engine include:",
+    "•A focus on pathophysiology-directed targeting focused on targeting proteins with the greatest effect on disease;"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Relating to Our Financial Position, Our Need for Additional Capital, and Our Business",
+    "We anticipate that we will incur losses for the foreseeable future and we may never sustain profitability.",
+    "We will require additional capital to fund our operations, and if we are unable to obtain such capital, we will be unable to successfully develop and commercialize drug candidates.",
+    "Our future success depends on our ability to retain key personnel and to attract, retain, and motivate qualified personnel.",
+    "We may experience breaches or similar disruptions of our information technology systems or data.",
+    "Changes in and failures to comply with U.S. and foreign privacy and data protection laws, regulations, and standards may adversely affect our business, operations, and financial performance.",
+    "Risks Related to the Discovery, Development, and Regulatory Approval of Drug Candidates",
+    "We have entered into collaborations with Roche and BMS and may enter into additional collaborations in the future, and we might not realize the anticipated benefits of such collaborations.",
+    "The FDA or other comparable foreign regulatory authorities may not accept data from trials conducted in locations outside of their jurisdiction.",
+    "Even if our drug candidates receive regulatory approval in one country or jurisdiction, we may never receive approval or commercialize our products in other countries or jurisdictions.",
+    "We deal with hazardous materials and must comply with environmental laws and regulations which can be expensive and restrict how we do business.",
+    "Risks Related to the Commercialization of Our Drug Candidates",
+    "Even if any of our drug candidates receives regulatory approval, if such approved product does not achieve broad market acceptance, the revenues that we generate from sales of the product will be limited."
+   ],
+   "paragraphs": [
+    "You should carefully consider the risks described below, together with all of the other information included in this Form 10-K, in considering our business and prospects. Set forth below and elsewhere in this Form 10-K and in other documents we file with the SEC are descriptions of certain risks, uncertainties, and other factors that could cause our actual results to differ materially from those anticipated. If any of the following risks, other unknown risks, or risks that we think are immaterial occur, our business, financial condition, results of operations, cash flows, or growth prospects could be adversely impacted, in which case, the market price of our ordinary shares could decline, and you may lose all or part of your investment in our ordinary shares. Additional risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business operations.",
+    "We may not generate the cash that is necessary to finance our operations in the foreseeable future. We incurred net losses of $244.1 million $122.3 million and $147.0 million for the years ended December 31, 2025, 2024, and 2023, respectively. As of December 31, 2025, we had an accumulated deficit of $1.3 billion. We expect to continue to incur substantial losses for the foreseeable future as we:",
+    "•wind down the Phase 1 clinical trials for PRX012, and support the Phase 1 clinical trial for PRX019 and potential additional clinical trials for these and other programs;",
+    "•develop and possibly commercialize our drug candidates;",
+    "•undertake nonclinical development of other drug candidates and initiate clinical trials, if supported by nonclinical data;",
+    "•pursue our early stage research and seek to identify additional drug candidates; and"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Critical Accounting Policies and Estimates",
+    "Revenue Recognition",
+    "Research and Development",
+    "Results of Operations",
+    "Comparison of Years Ended December 31, 2025 and 2024",
+    "December 31, Change",
+    "(Dollars in thousands)",
+    "Operating Expenses",
+    "Other Income (Expense)",
+    "Provision for (benefit from) Income Taxes",
+    "Comparison of the years ended December 31, 2024 and 2023",
+    "Liquidity and Capital Resources",
+    "December 31,",
+    "Years ended December 31, 2024 and 2023",
+    "Off-Balance Sheet Arrangements",
+    "Contractual Obligations",
+    "Total 2026 2027 2028 2029 Thereafter"
+   ],
+   "paragraphs": [
+    "In addition to historical information, this Form 10-K contains forward-looking statements which may cause our actual results to differ materially from expectations, plans and anticipated results discussed in forward-looking statements. Factors that could cause our actual results to differ materially include, but are not limited to, the risks and uncertainties set forth in the \"Summary of Risks Affecting Our Business\" at the beginning of this Form 10-K, Item 1A \"Risk Factors\" of this Form 10-K, and in our other filings with the SEC.",
+    "This discussion should be read in conjunction with the Consolidated Financial Statements and Notes to the Consolidated Financial Statements presented in Item 8 of this Form 10-K.",
+    "Prothena is a late-stage clinical biotechnology company with expertise in protein dysregulation and a pipeline of investigational therapeutics with the potential to change the course of devastating neurodegenerative and rare peripheral amyloid diseases.",
+    "Fueled by our deep scientific expertise built over decades of research, we are advancing a pipeline of therapeutic candidates for a number of indications and novel targets for which our ability to integrate scientific insights around neurological dysfunction and the biology of misfolded proteins can be leveraged. These programs include prasinezumab for the potential treatment of Parkinson's disease and other related synucleinopathies that targets alpha-synuclein in collaboration with Roche. In addition, we have partnered BMS-986446 (formerly PRX005) for the potential treatment for Alzheimer's disease that targets tau and PRX019 for the potential treatment of neurodegenerative diseases with an undisclosed target in two separate license agreements with Bristol Myers Squibb (BMS). We are also entitled to certain potential milestone payments pursuant to our share purchase agreement with Novo Nordisk pertaining to our ATTR amyloidosis business (inclusive of coramitug, formerly PRX004). Our wholly-owned and unpartnered portfolio includes clinical and preclinical-stage programs that we are exploring strategic interest to further develop.",
+    "We were formed on September 26, 2012, under the laws of Ireland and re-registered as an Irish public limited company on October 25, 2012. Our ordinary shares began trading on The Nasdaq Global Market under the symbol \"PRTA\" on December 21, 2012, and currently trade on The Nasdaq Global Select Market.",
+    "Management's discussion and analysis of our financial condition and results of operations is based on our consolidated financial statements, which have been prepared in accordance with the accounting principles generally accepted in the U.S. (\"GAAP\"). The preparation of these consolidated financial statements requires us to make estimates and assumptions for the reported amounts of assets, liabilities, revenues, expenses and related disclosures. We believe the following policies to be critical to the judgments and estimates used in the preparation of our financial statements.",
+    "Our collaboration revenue includes revenue recognized for milestone payments and reimbursements under our License Agreement with Roche as well as revenue recognized under our Collaboration Agreement with BMS. Our license and intellectual property revenue includes revenue from Novo Nordisk for the sale of intellectual property and related rights to the Company's ATTR amyloidosis business and pipeline and milestones payments.",
+    "Revenue is recognized only when we satisfy an identified performance obligation by transferring a promised good or service to a customer. We recognize revenue associated with our collaboration arrangements, which may require us to exercise considerable judgment in estimating revenue to be recognized, including judgments made on day one accounting and judgments associated with the amount of revenue to be recognized over time as performance obligations are satisfied.",
+    "Contracts with Multiple Performance Obligations",
+    "Significant judgment is required to apply the authoritative accounting guidance at the outset of a collaboration arrangement, and over time. Our Collaboration Agreement with BMS and our License Agreement with Roche contained multiple performance obligations. In the identification of performance obligations, there is judgment involved in identifying the promised goods or services in the collaboration agreement, determining whether these are distinct in the context of the contract, and determining if these represent a performance obligation to a customer. These determinations are highly subjective and can differ between arrangement based on specific contractual terms. The identified performance obligations will impact most significantly the timing of revenue recognition, and is a point-in-time assessment performed at the outset of a collaboration arrangement. We account for the individual performance obligations separately if they are distinct. Factors considered in the determination of whether the license performance obligations are distinct included, among other things, the research and development capabilities of each of BMS and Roche and their respective sublicense rights, and for the remaining performance obligations the fact that they are not proprietary and can be and have been provided by other vendors. The transaction price is allocated to the separate performance obligation on a relative standalone selling price basis.",
+    "We generally classify each of our milestones into one of three categories: (i) clinical milestones; (ii) regulatory and development milestones; and (iii) commercial milestones. Clinical milestones are typically achieved when a product candidate advances into or completes a defined phase of clinical research. For example, a milestone payment may be due to us upon the initiation of a clinical trial for a new indication. Regulatory and development milestones are typically achieved upon acceptance of the submission for marketing approval of a product candidate or upon approval to market the product candidate by the FDA or other regulatory authorities. For example, a milestone payment may be due to us upon submission for marketing approval of a product candidate by the FDA. Commercial milestones are typically achieved when an approved product reaches certain defined levels of net royalty sales by the licensee of a specified amount within a specified period.",
+    "At the inception of each arrangement that includes developmental, regulatory or commercial milestone payments, we evaluate whether achieving the milestones is considered probable and estimate the amount to be included in the transaction price using the most likely amount method, which includes judgment. If it is probable that a significant revenue reversal would not occur, the value of the associated milestone (such as a regulatory submission by Prothena) is included in the transaction price. Milestone payments that are not within our control, such as approvals from regulators or where attainment of the specified event is dependent on the development activities of a third party, are not considered probable of being achieved until those approvals are received or the specified event occurs. In general, we consider such milestone payments as variable consideration with constraint and therefore we recognize the revenue from such milestone payments as collaboration revenue at the point in time when we can conclude it is probable that a significant revenue reversal will not occur in future periods.",
+    "We expense R&D costs as incurred. R&D expenses include, but are not limited to, salary and benefits, share-based compensation, clinical trial activities, drug development and manufacturing prior to FDA approval and third-party service fees, including clinical research organizations, investigative sites and contract manufacturing organizations. A significant portion of our research and development expenses in the Consolidated Statements of Operations are external costs, which we track on a program-specific basis when the applicable program was separately tracked in preclinical development. These research and development expenses include the conduct of preclinical studies and clinical trials, contract manufacturing activities and consulting services. The measurement of these research and development costs and/or effort can impact the research and development expenses in the Consolidated Statements of Operations and of prepaid assets and accrued liabilities on the Consolidated Balance Sheets. The level of judgment required to estimate research and development expenses varies based on",
+    "the nature of the services being performed and the underlying support obtained. We recognize costs for certain development activities, such as clinical trials, based on an evaluation of the progress to completion of specific tasks using data such as patient enrollment, clinical site activations, or information provided to us by our vendors on their actual costs incurred. We recognize costs for contract manufacturing based on evaluation of the progress to completion of specific tasks. As such, expense accruals related to clinical trials and contract manufacturing are recognized based on our estimate of the degree of completion of the events specified in the specific clinical study or trial contract or drug development and manufacturing contract, respectively. We estimate the amount of work completed through discussions with internal personnel and external service providers as to the progress or stage of completion of the services and the agreed-upon fee to be paid for such services. As actual costs become known, we adjust our accrued estimates. These estimates are based on certain assumptions and inputs that can be challenging to assess, including the evaluation of the status of and costs incurred for manufacturing activities, outsourced research and development programs and project milestones achieved. Although we do not expect our estimates to be materially different from amounts actually incurred, incomplete or inaccurate data from vendors could impact our understanding of the status and timing of services performed which could result in us reporting expenses that are too high or too low in any particular period."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司策略",
+    "本公司研究與開發產品線",
+    "Prasinezumab 用於帕金森氏症及其他 synucleinopathy 疾病之潛在治療",
+    "Coramitug（原名 PRX004）用於潛在治療 ATTR 淤積症",
+    "Coramitug 是一種 investigational 抗體，設計用以清除與疾病病變相關之胺基酸，於遺傳性及野生型 ATTR 淤積症中，不會影響蛋白質之原生、正常四聚體形式。",
+    "BMS-986446（原名 PRX005）用於潛在治療阿爾茨海默病",
+    "PRX019 用於潛在治療神經退化性疾病",
+    "早期階段計畫",
+    "PRX012 和 PRX012-TfR 用於阿爾茨海默病的潛在治療",
+    "PRX123，一種雙 Aβ-Tau 疫苗，用於阿爾茨海默病的潛在治療與預防"
+   ],
+   "paragraphs": [
+    "Prothena Corporation plc (\"Prothena\" or the \"Company\") 為一間晚期臨牀生物技術公司，具備在蛋白質異常調節方面的專業知識，有潛力改變致命神經退化性疾病及罕見周邊亞麻蛋白疾病之病程。",
+    "憑藉其多年研究累積的深厚科學專業知識，本公司正推動一系列治療候選藥物，針對多種適應症及新興標的，其整合神經功能異常及錯誤摺疊蛋白生物學的科學見解之能力可被運用。本公司之藥物開發管道包括完全擁有及與合作夥伴共同開發之計畫，用以潛在治療帕金森氏症、ATTR 亞麻蛋白症候羣伴隨心肌病變、阿爾茨海默症、肌萎縮側索硬化症 (ALS) 及多種其他神經退化性疾病。Prothena 正在開發並應用其專有 CYTOPE® 技術，以針對大腦及周邊組織中廣泛的細胞內疾病路徑。",
+    "本公司於 2012 年 9 月 26 日根據愛爾蘭法律成立，並於 2012 年 10 月 25 日重新登記為愛爾蘭公開有限公司。本公司普通股於 2012 年 12 月 21 日開始在納斯達克全球市場 (Nasdaq Global Market) 以符號 \"PRTA\" 交易，目前在納斯達克全球選択市場 (Nasdaq Global Select Market) 交易。",
+    "我們的目標為成為一間領導的生物技術公司，專注於發現及開發新療法，用以治療因蛋白質異常調節所導致的疾病。",
+    "在某些病理條件下，蛋白質摺疊成特定構型以執行其預期生物功能的過程會變得異常。當此情況發生時，蛋白質會錯誤摺疊並傳播許多目前治療方式無法充分處理的疾病。錯誤摺疊並聚積形成亞麻蛋白的蛋白質與多種常見及罕見的人類疾病有關，這些疾病可能嚴重損害重要器官。亞麻蛋白可影響身體任何器官。我們的藥物開發管道反映我們對這些有毒蛋白質對疾病成因及病程所扮演角色的深入理解。例如，帕金森氏症的特徵為神經元功能異常及損失，是由有毒形式的聚集 alpha-神經元蛋白在細胞間傳播所致。轉鐵蛋白亞麻蛋白症候羣 (ATTR 亞麻蛋白症候羣) 是一種罕見、進行性且致命的疾病，特徵為錯誤摺疊的轉鐵蛋白蛋白在重要器官如心臟中沉積。據信兩種不同的蛋白質 – Aβ (亞麻蛋白 beta) 和 tau – 是阿爾茨海默症病理的重要貢獻者。錯誤摺疊的 Aβ 會積聚形成在神經細胞之間的斑塊。扭結的 tau 纖維束會在神經元內聚積並從細胞傳播至細胞，導致神經元內積聚。",
+    "我們運用先進的蛋白質異常調節科學，開發直接針對致病蛋白的創新治療方案，以改變致命神經退化性疾病及罕見周邊亞麻蛋白疾病的病程。我們正在推進一系列具有創新作用機制的治療方案，這些方案獨特地適合解決特定患者羣體中未被滿足的醫療需求。",
+    "我們近期的計畫為持續支持我們的臨牀計畫，這些計畫皆與大型製藥公司合作，同時投資於早期研究計畫及技術，以創造未來的合作機會與合作。我們的臨牀計畫包括 prasinezumab，目前正於 Phase 3 PARAISO 臨牀試驗中評估，用以治療早期帕金森氏症，與 Roche 合作；coramitug 目前正於 Phase 3 CLEOPATTRA 臨牀試驗中評估，用以治療 ATTR-CM，由 Novo Nordisk 開發；BMS-986446 目前正於 Phase 2 TargetTau-1 臨牀試驗中評估，用以治療早期阿爾茨海默症，由 Bristol Myers Squibb 開發；PRX019 目前正於 Phase 1 臨牀試驗中評估，由 Prothena 作為與 Bristol Myers Squibb 全球合作計畫的一部分。我們的早期研究計畫包括開發一種新技術 CYTOPE®，該技術透過內吞作用及逃逸機制，使精確針對大腦及周邊組織中的細胞內疾病路徑，同時維護膜及囊泡完整性，經系統給藥後。此技術潛在允許針對先前難以藥物作用的細胞內疾病標的。此外，我們正在進行 PRX012 的進一步動物實驗開發，PRX012 為本公司擁有之抗 Aβ 抗體，用以治療阿爾茨海默症，並與轉鐵蛋白受體 (TfR) 技術結合，以潛在進一步提升其臨牀表現。我們近期的策略為高效開發這些計畫，同時評估與大型製藥公司進行潛在戰略研究合作及授權交易的機會，以進一步推進並釐清其潛力於適當的價值轉折點。例如，我們目前擁有並專注於與大型製藥公司進行更多研究合作，以進一步開發及探索我們 CYTOPE® 技術的應用。",
+    "on developing additional research collaborations with large pharmaceutical companies to further develop and explore applications of our CYTOPE® technology.",
+    "達成我們目標的關鍵策略要素為：",
+    "•將我們的發現與開發努力集中在我們擁有數十年科學專業知識與經驗的領域。",
+    "我們運用我們的核心科學專業知識與已驗證的蛋白質異常調節平台，開發新型治療藥物，用以潛在治療神經退行性疾病與罕見周邊亞麻蛋白質沉積症。",
+    "我們的開發管道由具科學專業知識且有發現與開發創新、且常為第一類藥物計畫紀錄的團隊推動。我們的遺產包括對阿爾茨海默氏症生物學理解的基礎發現，包括識別並釐清 Aβ 在阿爾茨海默氏症病理中所扮演的角色。這些發現促成了藥物發現與開發組織的建立，該組織已產生阿爾茨海默氏症、帕金森氏症與ATTR亞麻蛋白質沉積症的首個類藥物臨牀候選藥物。此外，我們的研究團隊已開發出一種新技術，CYTOPE®，該技術透過內吞作用與逃逸機制，使藥物能精確針對腦部與周邊的細胞內疾病路徑，同時維護膜與囊泡的完整性。此技術潛在允許針對過去難以開發的細胞內疾病目標，而目前其他可用技術無法有效達成這些期望的結果。",
+    "我們的生物導向發現引擎的關鍵要素包括：",
+    "•專注於病理解剖導向的目標，針對對疾病影響最大的蛋白質進行目標設定；"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "重要會計政策與會計估計",
+    "收入確認",
+    "研究與開發",
+    "營運成果",
+    "截至2025年12月31日與2024年12月31日之年度比較",
+    "2025年12月31日變動",
+    "(金額單位為千美元)",
+    "營運費用",
+    "其他收入（費用）",
+    "所得稅之提列（受益）",
+    "截至2024年12月31日止年度與2023年12月31日止年度之比較",
+    "流動性及資金來源",
+    "2024年12月31日",
+    "截至2024年12月31日止年度與截至2023年12月31日止年度",
+    "表外安排",
+    "契約義務",
+    "{'original': 'Total 2026 2027 2028 2029 Thereafter', 'translated': '總計 2026 2027 2028 2029 之後'}"
+   ],
+   "paragraphs": [
+    "除歷史資訊外，本 Form 10-K 並包含前瞻性陳述，這些陳述可能導致我們的實際結果與在前瞻性陳述中討論的預期、計畫及預期結果有重大差異。導致我們實際結果與預期有重大差異的因素包括，但不僅限於，本 Form 10-K 開頭的 \"Summary of Risks Affecting Our Business\" 所列的風險與不確定性，以及本 Form 10-K 的 Item 1A \"Risk Factors\" 所列的風險因素，以及我們在 SEC 提交的其他申報文件。",
+    "本討論應與本 Form 10-K 的 Item 8 所呈現的合併財務報表及合併財務報表附註一併閱讀。",
+    "Prothena 是一家晚期臨牀生物技術公司，具備蛋白質異常調節的專業知識，並擁有具潛力的 Investigational Therapeutics 研發藥物，可能改變致命的神經退化性疾病及罕見週邊亞麻蛋白疾病病程。",
+    "我們憑藉數十年研究所建立的深厚科學專業知識，正在推進一系列治療候選藥物，用於多種適應症及新興標的，我們整合神經功能異常及錯誤折疊蛋白生物學的科學見解的能力可被運用。這些計畫包括 prasinezumab，用於帕金森氏症及其他相關 synucleinopathy 的潛在治療，目標為 alpha-synuclein，與 Roche 合作。此外，我們與 Bristol Myers Squibb (BMS) 籤訂兩份獨家授權協議，分別針對 Alzheimer's 疾病的潛在治療 BMS-986446（原為 PRX005）目標為 tau，以及 PRX019 用於神經退化性疾病潛在治療，目標為未披露的標的。我們根據與 Novo Nordisk 的股份購買協議，針對我們的 ATTR 亞麻蛋白疾病業務（包括 coramitug，原為 PRX004）有權獲得某些潛在里程碑付款。我們的 wholly-owned 且未合作的組合包括我們正在探索戰略興趣以進一步發展的臨牀及前期臨牀階段計畫。",
+    "我們於 2012 年 9 月 26 日根據愛爾蘭法律成立，並於 2012 年 10 月 25 日重新註冊為愛爾蘭公開有限公司。我們的普通股於 2012 年 12 月 21 日開始在 Nasdaq Global Market 以符號 \"PRTA\" 交易，目前在 Nasdaq Global Select Market 交易。",
+    "管理層對我們財務狀況及營運成果的討論與分析，係根據我們的合併財務報表，這些財務報表係根據美國通用會計準則（\"GAAP\"）編製。這些合併財務報表的編製需要我們對資產、負債、收入、費用及相關揭露的數額做出估計與假設。我們認為以下政策對我們財務報表編製所使用的判斷與估計為關鍵。",
+    "我們的合作收入包括根據與 Roche 籤訂的授權協議所認列的里程碑付款及補償收入，以及根據與 BMS 籤訂的合作協議所認列的收入。我們的授權及智慧財產權收入包括 Novo Nordisk 對本公司 ATTR 亞麻蛋白疾病業務及研發藥物及里程碑付款的智慧財產權及相關權利銷售收入。",
+    "收入僅在本公司滿足識別的績效義務，並向客戶轉移承諾的商品或服務時認列。我們認列與合作安排相關的收入，這些安排可能需要我們在估計將認列的收入時行使相當程度的判斷，包括在會計日一開始的判斷，以及在績效義務履行時將認列收入的金額判斷。",
+    "具有多重履行義務之契約",
+    "在合作安排開始時及隨後應用權威會計指引時，需做出重大判斷。我們與BMS的合作協議以及與Roche的授權協議包含多重履行義務。在識別履行義務時，需判斷合作協議中所承諾的商品或服務，確定這些是否在合約情境下為獨立項目，並判斷這些是否構成對客戶的履行義務。這些判斷具有高度主觀性，且根據特定契約條款可能因安排而異。已識別的履行義務將最顯著地影響收入認列的時點，且為合作安排開始時進行的時點評估。我們若認為這些履行義務為獨立項目，則會分別計入個別履行義務。在判斷授權履行義務是否為獨立項目時，考慮的因素包括BMS與Roche各自的研發能力及其各自的 sublicense 權利，以及對於其他履行義務，因其非專屬性且可由其他供應商提供。交易價格根據相對獨立銷售價格基礎，分配至個別履行義務。",
+    "我們通常將每個里程碑分為三類：(i) 臨牀里程碑；(ii) 訴訟與開發里程碑；以及 (iii) 商業里程碑。臨牀里程碑通常在產品候選藥物進展至或完成某個臨牀研究階段時達成。例如，當某個新適應症的臨牀試驗開始時，我們可能收到里程碑付款。訴訟與開發里程碑通常在產品候選藥物的提交獲准上市或獲FDA或其他監管機構批准上市時達成。例如，當產品候選藥物向FDA提交上市許可申請時，我們可能收到里程碑付款。商業里程碑通常在已核准產品達成特定的淨版稅銷售額時達成，由授權人於特定期間內達成特定金額。",
+    "在每個包含開發、監管或商業里程碑付款的安排開始時，我們評估達成里程碑是否被認為是可能的，並使用最可能金額法來估計應包含在交易價格中的金額，此方法包含判斷。若達成里程碑導致重大收入逆轉的可能性不大，則與該里程碑相關的價值（如Prothena的監管提交）將包含在交易價格中。不在我們控制範圍內的里程碑付款，如監管機構的批准或達成特定事件依賴第三方的開發活動，則在獲得這些批准或特定事件發生前，不認為達成里程碑是可能的。通常，我們將這些里程碑付款視為變動對價且有約束條件，因此我們在能確認未來期間不會發生重大收入逆轉時，將這些里程碑付款的收入作為合作收入認列。",
+    "我們在發生時將研發成本費用化。研發費用包括，但不限於薪資及福利、股票薪酬、臨牀試驗活動、FDA批准前的藥物開發與製造以及第三方服務費用，包括臨牀研究機構、研究機構及合同製造機構。我們合併財務報表中的研發費用中，有相當大一部分為外部成本，我們在預臨牀開發階段將適用的計畫單獨追蹤時，會按計畫單獨追蹤。這些研發費用包括預臨牀研究與臨牀試驗、合同製造活動及諮詢服務。這些研發成本及/或工作量的衡量，會影響合併財務報表中的研發費用以及預付資產與應計負債。估計研發費用所需的判斷程度，會根據",
+    "所進行服務的性質及所獲得的基礎支持而有所不同。我們根據對特定任務完成進度的評估，認列某些開發活動的成本，例如臨牀試驗，使用如患者入組、臨牀試驗中心啟動或我們供應商提供的實際成本等資料。我們根據對特定任務完成進度的評估，認列合同製造成本。因此，與臨牀試驗及合同製造相關的費用 accruals 會根據我們對特定臨牀研究或試驗合同或藥物開發與製造合同中所規定事件完成程度的估計而認列。我們透過與內部人員及外部服務提供者討論，評估服務的進度或完成階段以及應支付的費用。當實際成本變得明確時，我們會調整應計費用估計。這些估計基於某些假設及輸入資料，這些資料可能難以評估，包括對製造活動狀態及成本、委外研發計畫及項目里程碑達成的評估。儘管我們不預期估計與實際發生的費用有重大差異，但來自供應商的不完整或不正確資料可能影響我們對服務狀態及時程的瞭解，這可能會導致我們在特定期間報告過高或過低的費用。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們財務狀況、我們對額外資金之需求以及我們業務相關之風險",
+    "我們預期在可預見之未來將產生虧損，且我們可能永遠無法維持獲利。",
+    "我們將需要額外資金以支應我們之營運，若我們無法取得此資金，則將無法成功開發與商業化藥物候選品。",
+    "我們未來之成功取決於我們保留關鍵人才以及吸引、留住並激勵合格人才之能力。",
+    "我們可能遭遇資訊科技系統或資料之入侵或類似中斷事件。",
+    "美國與外國隱私權及資料保護法律、法規與標準之變更及未能遵守，可能對我們之業務、營運及財務表現造成不利影響。",
+    "與藥物候選品之發現、開發及監管核准相關之風險",
+    "我們已與 Roche 及 BMS 籤訂合作協議，並可能在未來簽訂更多合作協議，我們可能無法實現這些合作協議預期之效益。",
+    "美國食品藥物管理局或其它相應的外國監管機構可能不會接受在他們管轄範圍以外地區進行的試驗資料。",
+    "即使我們的藥物候選品在某個國家或管轄區域獲得監管批准，我們可能永遠無法在其它國家或管轄區域獲得批准或商業化我們的產品。",
+    "我們處理危險物料，必須遵守環境法規與相關法規，這些法規可能費用高昂且限制我們的業務運作方式。",
+    "與我們藥物候選品商業化相關的風險",
+    "即使任何我們的藥物候選品獲得監管批准，若該批准產品未能獲得廣泛市場接受度，我們從該產品銷售所產生的收入將會受到限制。"
+   ],
+   "paragraphs": [
+    "您應仔細考慮下列所描述的風險，並與本 Form 10-K 所包含的其他資訊一併考量，以評估我們的業務與前景。本 Form 10-K 中所列及其他文件中所提及的某些風險、不確定性及其他因素，可能會導致我們的實際結果與預期有重大差異。若任何下列風險、其他未知風險或我們認為不重要的風險發生，將可能對我們的業務、財務狀況、營運結果、現金流量或成長前景造成負面影響，進而導致我們普通股的市場價格下跌，您可能損失全部或部分投資於我們普通股的金額。此外，目前我們尚未知悉或認為不重要的其他風險與不確定性，也可能影響我們的業務運作。",
+    "我們可能無法在可預見的未來產生足夠的現金，以資助我們的業務運作。我們於 2025 年 12 月 31 日結止年度、2024 年 12 月 31 日結止年度及 2023 年 12 月 31 日結止年度分別產生淨虧損 244.1 百萬美元、122.3 百萬美元及 147.0 百萬美元。截至 2025 年 12 月 31 日，我們累計虧損為 1.3 十億美元。我們預期在可預見的未來，仍將持續產生重大虧損，因為我們：",
+    "• 結束 PRX012 的第一期臨牀試驗，並支援 PRX019 的第一期臨牀試驗以及這些及其他計畫的潛在額外臨牀試驗；",
+    "• 開發並可能商業化我們的藥物候選品；",
+    "• 對其他藥物候選品進行非臨牀開發，並在非臨牀數據支持的情況下啟動臨牀試驗；",
+    "• 執行我們的早期階段研究，並尋求識別額外的藥物候選品；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

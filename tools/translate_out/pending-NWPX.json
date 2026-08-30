@@ -1,0 +1,205 @@
+{
+ "ticker": "NWPX",
+ "cik": "0001001385",
+ "accession": "0001437749-26-005861",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Name",
+    "Our Segments",
+    "Recent Strategic Actions",
+    "Our Industries",
+    "Backlog and Order Book",
+    "Manufacturing and Product Development",
+    "Raw Materials and Supplies",
+    "Government Regulations",
+    "Human Capital Resources",
+    "Information About Our Executive Officers",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Unless otherwise indicated, the terms \"the Company,\" \"NWPX Infrastructure,\" \"we,\" \"our,\" and \"us\" are used in this 2025 Form 10‑K to refer to NWPX Infrastructure, Inc. or one of our consolidated subsidiaries or to all of them taken as a whole. We were incorporated in the State of Oregon in 1966.",
+    "NWPX Infrastructure, Inc., formerly known as Northwest Pipe Company, is a leading manufacturer of water-related infrastructure products, and operates in two segments, Water Transmission Systems (\"WTS\"), operating as the Northwest Pipe Company brand, and Precast Infrastructure and Engineered Systems (\"Precast\"), which includes the brands NWPX Geneva and NWPX Park. Under the Northwest Pipe Company brand, we are the largest manufacturer of engineered water transmission systems in North America and produce steel casing pipe, bar-wrapped concrete cylinder pipe, and pipeline system joints and fittings. We also provide solution-based products for a wide range of markets including high-quality reinforced precast concrete products, lined precast sanitary sewer system structures, water distribution and management equipment including pump lift stations, wastewater pretreatment, and stormwater quality products. We have broadened our manufacturing footprint by bringing lined and engineered precast products into production at additional facilities. This increases our capacity and improves regional availability. Strategically positioned to meet growing water and wastewater infrastructure needs, our skilled team is committed to quality and innovation while upholding our core values of accountability, commitment, and teamwork. Headquartered in Vancouver, Washington, we operate 13 manufacturing facilities across North America.",
+    "Our water infrastructure products are sold generally to installation contractors, who include our products in their bids to federal, state, and municipal agencies, privately-owned water companies, or developers for specific projects. We believe our sales are substantially driven by spending on urban growth and new water infrastructure with a recent trend towards spending on water infrastructure replacement, repair, and upgrade. Within the total range of products, our steel pipe best addresses the larger-diameter, higher-pressure pipeline applications, while our precast concrete products mainly serve stormwater and sanitary sewer systems.",
+    "Our shareholders approved an amendment to our Articles of Incorporation to change our corporate name from Northwest Pipe Company to NWPX Infrastructure, Inc. at the Annual Meeting of Shareholders held on June 12, 2025. That same day, we effectuated the name change by filing an amendment of our Articles of Incorporation with the Oregon Secretary of State and amended and restated our Bylaws to reflect the name change.",
+    "At the same time, we renamed one of our two operating segments. The segment previously referred to as \"Engineered Steel Pressure Pipe (SPP)\" has been renamed \"Water Transmission Systems (WTS)\" to better reflect the value contribution specifically from our business unit's capabilities in engineering, production execution, and delivery of critical integrated water pipeline systems. The \"Precast Infrastructure and Engineered Systems (Precast)\" segment name remains unchanged. This change in naming convention does not affect the composition of the segments or the basis of segment reporting, as there have been no changes to how our chief operating decision maker manages or evaluates performance.",
+    "Water Transmission Systems. WTS manufactures large-diameter, high-pressure steel pipeline systems for use in water infrastructure applications, which are primarily related to drinking water systems. These products are also used for hydroelectric power systems, wastewater systems, seismic resiliency, and other applications. In addition, WTS makes products for industrial plant piping systems and certain structural applications. WTS has manufacturing facilities located in Portland, Oregon; Adelanto and Tracy, California; Parkersburg, West Virginia; Saginaw, Texas; St. Louis, Missouri; and San Luis Río Colorado, Mexico.",
+    "Precast Infrastructure and Engineered Systems. Precast manufactures stormwater and wastewater technology products, high-quality precast and reinforced concrete products, including reinforced concrete pipe (\"RCP\"), manholes, box culverts, vaults, and catch basins, pump lift stations, oil water separators, biofiltration units, and other environmental and engineered solutions. Precast has manufacturing facilities located in Dallas, Houston, and San Antonio, Texas; and Orem, Salt Lake City, and St. George, Utah.",
+    "On February 23, 2026, we completed the acquisition of 100% of the shares of Boughton's Precast, Inc. (\"Boughton\"), a single precast facility located in Pueblo, Colorado, for a purchase price of approximately $9.0 million. This acquisition expands our geographic footprint for our stormwater infrastructure and sanitary sewer products including manholes, catch basins, vaults, and reinforced concrete pipe.",
+    "Much of the United States water infrastructure is antiquated and many authorities, including the United States Environmental Protection Agency (\"EPA\"), believe the United States water infrastructure is in critical need of update, repair, or replacement. A combination of new population centers, rising demand on developed water sources, substantial underinvestment in water infrastructure over the past several decades, drought conditions, climate change, and increasingly stringent regulatory policies are driving demand for water infrastructure projects in the United States. These trends are intensifying the need for new water infrastructure as well as the need to upgrade, repair, and replace existing water infrastructure. While we believe this offers the potential for increased demand for our water infrastructure products and other products related to water transmission, budgetary pressures could impact governmental and public water agency projects in the near-term.",
+    "Federal initiatives to improve the conditions of the aging water infrastructure include the Water Finance Center at the EPA and the Water and Environmental Programs at the U.S. Department of Agriculture. The Bipartisan Infrastructure Deal (Infrastructure Investment and Jobs Act (\"IIJA\")), signed into law in November 2021, will invest $55 billion to expand access to clean drinking water for households, businesses, schools, and childcare centers all across the country. According to the August 2025 Bluefield Research Insight Report – Infrastructure Investment & Jobs Act: Tracking the Spending, Q3 2025, approximately $5 billion earmarked under the IIJA has currently been awarded to Drinking Water State Revolving Loan Fund (\"DWSRF\") recipients via subawards. The DWSRF, a federal-state partnership and financial assistance program to help water systems and states achieve the health protection objectives of the Safe Drinking Water Act, provided $4.4 billion in assistance in fiscal 2023 and $57.3 billion in assistance since 1997, according to the 2023 DWSRF Annual Report. Separately, according to its latest report, 2024 Annual Report, the EPA's Water Infrastructure Finance and Innovation Act program, a federal credit program for eligible water and wastewater infrastructure projects, closed 18 loans totaling $2 billion in 2024. As of January 22, 2026, according to the EPA, 149 loans totaling over $23 billion have closed since funding through the program began in 2018.",
+    "In addition to the Federal initiatives, individual states are also taking action. In November 2013, the State of Texas earmarked $27 billion of future bond funding for state water projects over the next 50 years through their State Water Implementation Fund for Texas (\"SWIFT\"). This program provides low-interest loans, extended payment terms, deferral of loan repayments, and incremental repurchase terms for projects with state ownership aspects. As of December 31, 2025, SWIFT has committed $17.0 billion in assistance toward state water plan projects according to its Fiscal Year 2025 SWIFT Project Status Report. In November 2025, the State of Texas also approved the allocation up to $1 billion annually of sales tax revenues to the Texas Water Fund from 2027 to 2047. The funds are to be used to fix infrastructure, develop new water sources, and support conservation efforts to help meet the state's increasing water demands. In November 2014, the State of California approved the Water Quality, Supply and Infrastructure Improvement Act which authorizes $7.5 billion in general obligation bonds to fund state water supply infrastructure projects, such as public water system improvements, surface and groundwater storage, drinking water protection, water recycling and advanced water treatment technology, water supply management and conveyance, wastewater treatment, drought relief, emergency water supplies, and ecosystem and watershed protection and restoration. Nearly all of these funds have now been committed, which prompted the passing of California's Safe Drinking Water, Wildfire Prevention, Drought Preparedness and Clean Air Bond Act in November 2024. The new funding is expected to provide approximately $4 billion for water infrastructure-related projects. Our strategically located manufacturing facilities are well-positioned to take advantage of the anticipated growth in demand.",
+    "Water Transmission Systems. Our large-diameter, engineered welded steel pipeline systems are utilized in water, energy, structural, and plant piping applications. Our core market is the large-diameter, high-pressure portion of a water transmission pipeline that is typically at the \"upper end\" of a pipeline system. This is the portion of the overall water pipeline that generally transports water from the source to a treatment plant or from a treatment plant into the distribution system, rather than the small lines that deliver water directly into households.",
+    "In its Seventh Drinking Water Infrastructure Needs Survey and Assessment released in September 2023, the EPA estimated the nation will need to spend $625 billion on public water system infrastructure capital improvements from 2021 to 2040 to continue to provide safe drinking water to the public. The American Society of Civil Engineers (\"ASCE\") has given poor ratings to many aspects of the United States water infrastructure in their latest report, the 2025 Infrastructure Report Card for Drinking Water. The Bridging the Gap: Economic Impacts of National Infrastructure Investment, 2024-2043 report published by ASCE and EBP in May 2024 anticipates there will be cumulative infrastructure needs for drinking water, wastewater, and stormwater infrastructure of $1.7 trillion from 2024 to 2033 and $3.6 trillion from 2024 to 2043.",
+    "According to the United States Census Bureau, the population of the United States will increase by approximately 21 million people between 2026 and 2050. The increase will require substantial new infrastructure, as the existing United States water infrastructure is not equipped to provide water to millions of new residents. The development of new sources of water at greater distances from population centers will drive the demand for new water transmission lines. Climate change may be a cause for drought conditions in some regions of the country which increases the demand for new infrastructure. According to ConstructConnect's Winter 2025 Construction Starts Forecast, U.S. water and sewage treatment construction starts are forecasted to be $60.3 billion in 2026."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors",
+    "Risk Factor Summary",
+    "Risks Related to Our Industry and End Markets",
+    "Risks Related to Our Business",
+    "Risks Related to Our Supply Chain and Production Process",
+    "Risks Related to Our Financial Condition",
+    "Risks Related to Our Internal Control Over Financial Reporting",
+    "Risks Related to Our Common Stock",
+    "Our quarterly results of operations are subject to significant fluctuation. Our net sales and operating results may fluctuate significantly from quarter to quarter due to a number of factors, including:",
+    "Certain provisions of our governing documents and Oregon law could discourage potential acquisition proposals. Our articles of incorporation contain provisions that:"
+   ],
+   "paragraphs": [
+    "You should carefully consider the following factors, together with all the other information included in this 2025 Form 10‑K, in evaluating our company and our business. If any of the following risks actually occur, our business, financial condition, results of operations, or cash flows could be materially and adversely affected, and the value of our stock could decline. The risks and uncertainties described below are those that we currently believe may materially affect our company. Additional risks and uncertainties not presently known to us or that we deem immaterial also may impair our business operations. As such, you should not consider this list to be a complete statement of all potential risks or uncertainties.",
+    "This risk factor summary contains a high-level overview of certain of the principal factors and uncertainties that make an investment in our securities risky, including risks related to our industry and end markets, our business, our supply chain and production process, our financial condition, our internal control over financial reporting, and our common stock. The following summary is not complete and should be read together with the more detailed discussion of these and the other factors and uncertainties that follow before making an investment decision regarding our securities. The principal factors and uncertainties that make an investment in our securities risky include the following.",
+    "Project delays in public water transmission projects could adversely affect our business;",
+    "A downturn in government spending related to public water transmission projects could adversely affect our business;",
+    "Our Water Transmission Systems segment faces an overcapacity situation as well as the potential for increased competition from substitute products from manufacturers of concrete pressure pipe, ductile iron, PVC, and HDPE;",
+    "The success of our business is affected by general and local economic conditions, and our business may be adversely affected by an economic slowdown or recession, or an inability of our pricing to keep pace with inflation of input costs; and"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Management's Discussion and Analysis of Financial Condition and Results of Operations",
+    "Our Current Economic Environment",
+    "Results of Operations",
+    "December 31, 2025",
+    "December 31, 2024",
+    "December 31, 2023",
+    "% of Net Sales",
+    "Year Ended December 31, 2025 Compared to Year Ended December 31, 2024",
+    "Net sales. Net sales increased 6.8% to $526.0 million in 2025 compared to $492.5 million in 2024.",
+    "Gross profit. Gross profit increased 8.6% to $103.6 million (19.7% of net sales) in 2025 compared to $95.4 million (19.4% of net sales) in 2024.",
+    "Liquidity and Capital Resources",
+    "Sources and Uses of Cash",
+    "Net Cash Provided by Operating Activities",
+    "Net Cash Used in Investing Activities",
+    "Net Cash Used in Financing Activities",
+    "Credit Agreement",
+    "Long-term Debt",
+    "Recent Accounting Pronouncements",
+    "Critical Accounting Estimates",
+    "Management Estimates",
+    "Revenue Recognition",
+    "Income Taxes"
+   ],
+   "paragraphs": [
+    "The following is management's discussion and analysis of certain significant factors that have affected our consolidated financial condition and results of operations during the periods included herein. This discussion should be read in conjunction with our historical Consolidated Financial Statements and Notes to Consolidated Financial Statements in Part II — Item 8. \"Financial Statements and Supplementary Data\" of this 2025 Form 10‑K. This discussion contains forward-looking statements based upon current expectations that involve risks and uncertainties. Our actual results may differ materially from those anticipated in these forward-looking statements as a result of various factors, including those set forth under Part I — Item 1A. \"Risk Factors\" or in other parts of this 2025 Form 10‑K. For discussion related to the results of operations and changes in financial condition for the year ended December 31, 2024 compared to the year ended December 31, 2023 refer to Part II — Item 7. \"Management's Discussion and Analysis of Financial Condition and Results of Operations — Year Ended December 31, 2024 Compared to Year Ended December 31, 2023\" and \"Liquidity and Capital Resources\" in our 2024 Form 10‑K, which was filed with the SEC on February 27, 2025, and which is incorporated herein by reference.",
+    "NWPX Infrastructure, Inc., formerly known as Northwest Pipe Company, is a leading manufacturer of water-related infrastructure products, and operates in two segments, Water Transmission Systems (WTS), operating as the Northwest Pipe Company brand, and Precast Infrastructure and Engineered Systems (Precast), which includes the brands NWPX Geneva and NWPX Park. For detailed descriptions of these segments, see the \"Our Segments\" discussion in Part I — Item 1. \"Business\" of this 2025 Form 10‑K.",
+    "Under our Northwest Pipe Company brand, we are the largest manufacturer of engineered water transmission systems in North America and produce steel casing pipe, bar-wrapped concrete cylinder pipe, and pipeline system joints and fittings. We also provide solution-based products for a wide range of markets including high-quality reinforced precast concrete products, lined precast sanitary sewer system structures, water distribution and management equipment including pump lift stations, wastewater pretreatment, and stormwater quality products. We have broadened our manufacturing footprint by bringing lined and engineered precast products into production at additional facilities. This increases our capacity and improves regional availability. Strategically positioned to meet growing water and wastewater infrastructure needs, our skilled team is committed to quality and innovation while upholding our core values of accountability, commitment, and teamwork. Headquartered in Vancouver, Washington, we operate 13 manufacturing facilities across North America.",
+    "On February 23, 2026, we completed the acquisition of 100% of the shares of Boughton's Precast, Inc., a single precast facility located in Pueblo, Colorado, for a purchase price of approximately $9.0 million. This acquisition expands our geographic footprint for our stormwater infrastructure and sanitary sewer products including manholes, catch basins, vaults, and reinforced concrete pipe. The financial information included in this Management's Discussion and Analysis of Financial Condition and Results of Operations is that of NWPX Infrastructure, Inc. prior to the acquisition of Boughton because the acquisition was completed after the period covered by the financial statements included in this 2025 Form 10‑K.",
+    "Our water infrastructure products are sold generally to installation contractors, who include our products in their bids to federal, state, and municipal agencies, privately-owned water companies, or developers for specific projects. We believe our sales are substantially driven by spending on urban growth and new water infrastructure with a recent trend towards spending on water infrastructure replacement, repair, and upgrade. Within the total range of products, our steel pipe best addresses the larger-diameter, higher-pressure pipeline applications, while our precast concrete products mainly serve stormwater and sanitary sewer systems.",
+    "Demand for our Precast products is generally influenced by general economic conditions such as housing starts, population growth, interest rates, and rates of inflation. According to the United States Census Bureau, privately-owned housing starts were at a seasonally adjusted annual rate of 1.4 million in December 2025 and 1.5 million in December 2024, and the population of the United States is expected to increase by approximately 1 million people in 2026. While the housing market has softened recently and the current elevated federal funds rate could temper demand for our precast products, we continue to see steady demand in Texas and Utah which are two of the four states in the United States with the highest capital expenditures per capita according to the June 2025 Bluefield Research Insight Report – U.S. & Canada Water & Wastewater Pipe CAPEX Forecasts, 2025-2035 and the states in which our Precast manufacturing facilities are located.",
+    "Our WTS projects are often planned for many years in advance, as we operate that business with a long-term time horizon for which the projects are sometimes part of 50‑year build-out plans. Our 2025 project bidding levels approximated those realized in 2024, and we expect near and medium term demand for water infrastructure projects in the United States to remain relatively healthy. Our WTS business faces uncertainty in the broader domestic economy as recent executive orders, staffing cuts, and other federal funding disputes are viewed to delay funding brought on by the IIJA and the Inflation Reduction Act. While these delays first impact the engineering and design phases in the early part of the project cycle, elongated delays to funding State Revolving Funds would eventually impact future project bids. According to the August 2025 Bluefield Research Insight Report – Infrastructure Investment & Jobs Act: Tracking the Spending, Q3 2025, approximately $5 billion earmarked under the IIJA has currently been awarded to Drinking Water State Revolving Loan Fund recipients via subawards, leaving most of the $55 billion spending package available; we expect to benefit from this spending late in the cycle due to the long timelines associated with WTS projects.",
+    "Purchased steel typically represents approximately 29% of our WTS projects' cost of sales, and higher steel costs generally result in higher selling prices and revenue; however, volatile fluctuations in steel markets can affect our business. WTS contracts are generally quoted on a fixed-price basis, and volatile steel markets can result in selling prices that no longer correlate to the cost available at the time of steel purchase. Our average price of purchased steel was $967 per ton in 2025, compared to $914 in 2024 and $994 in 2023.",
+    "Economic uncertainty, including the impacts of U.S. global economic policy, inflationary pressures, potential risks of a recession, and disruptions in the financial markets could have an adverse effect on our business. We believe uncertainty around the tariffs and related countermeasures could further dampen construction activity and impact our costs, particularly in the short term; however, these risks will be mitigated to the extent possible. Should the economic environment remain uncertain, the direct and indirect impact on our business will also depend on future developments, which cannot be predicted.",
+    "The following table sets forth, for the periods indicated, certain financial information regarding costs and expenses expressed in dollars (in thousands) and as a percentage of total net sales.",
+    "Net sales: Water Transmission Systems 350,879 66.7 337,945 68.6 296,381 66.7 Precast Infrastructure and Engineered Systems",
+    "175,124 33.3 154,603 31.4 147,974 33.3 Total net sales 526,003 100.0 492,548 100.0 444,355",
+    "Cost of sales: Water Transmission Systems 283,738 53.9 275,341 55.9 253,954 57.2 Precast Infrastructure and Engineered Systems",
+    "138,628 26.4 121,802 24.7 112,759 25.3 Total cost of sales 422,366 80.3 397,143 80.6 366,713"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'original': 'Company Name', 'translated': '公司名稱'}",
+    "{'original': 'Our Segments', 'translated': '我們的應報告分部'}",
+    "{'original': 'Recent Strategic Actions', 'translated': '近期戰略行動'}",
+    "{'original': 'Our Industries', 'translated': '我們的產業'}",
+    "{'original': 'Backlog and Order Book', 'translated': '積壓訂單與訂單簿'}",
+    "{'original': 'Manufacturing and Product Development', 'translated': '製造與產品開發'}",
+    "{'original': 'Raw Materials and Supplies', 'translated': '原物料與供應'}",
+    "{'original': 'Government Regulations', 'translated': '政府規範'}",
+    "{'original': 'Human Capital Resources', 'translated': '人力資本資源'}",
+    "{'original': 'Information About Our Executive Officers', 'translated': '關於我們高階主管之資訊'}",
+    "{'original': 'Available Information', 'translated': '可供查閱之資訊'}"
+   ],
+   "paragraphs": [
+    "除非另有說明，本 2025 年 10-K 表單中所使用的「本公司」、「NWPX 基礎設施」、「我們」、「我們的」及「我們」，均指 NWPX 基礎設施股份有限公司或我們的合併子公司之一，或全部合併後的整體。我們於 1966 年在俄勒岡州註冊成立。",
+    "NWPX 基礎設施股份有限公司，原名為西北管線公司，是水相關基礎設施產品的主要製造商，並分為兩個應報告分部，水傳輸系統（\"WTS\"），以西北管線公司品牌運作，以及預製基礎設施與工程系統（\"Precast\"），包含 NWPX Geneva 和 NWPX Park 品牌。在西北管線公司品牌下，我們是北美最大的工程水傳輸系統製造商，生產鋼製套管管、條狀包覆混凝土圓柱管及管線系統接頭與配件。我們也提供解決方案產品，服務於廣泛的市場，包括高品質加強預製混凝土產品、內襯預製污水下水道結構、水分配與管理設備，包括泵站、污水預處理及雨水品質產品。我們透過將內襯與工程預製產品引入其他工廠生產，擴大了製造據點。這增加了我們的產能並改善區域可取得性。我們的專業團隊 strategically positioned 以應對日益增長的水與污水基礎設施需求，致力於品質與創新，同時秉持我們的核心價值觀：責任、承諾與團隊合作。總部設於華盛頓州維克多利亞，我們在北美運營 13 個製造工廠。",
+    "我們的水基礎設施產品主要銷售給安裝承包商，這些承包商將我們的產品納入他們對聯邦、州及市級機構、私人所有水公司或開發商的專案招標中。我們認為我們的銷售主要由城市發展與新水基礎設施的支出所驅動，近期趨勢則偏向水基礎設施的更換、維修與升級。在所有產品範圍中，我們的鋼管最適合大直徑、高壓力的管線應用，而我們的預製混凝土產品則主要服務於雨水與污水下水道系統。",
+    "我們的股東在 2025 年 6 月 12 日召開的股東年會上批准了對我們章程的修正案，將公司名稱從西北管線公司更名為 NWPX 基礎設施股份有限公司。同一天，我們透過向俄勒岡州州長辦公室提交章程修正案，完成名稱變更，並修訂與重述我們的章程以反映名稱變更。",
+    "同時，我們也更名了我們的兩個運營分部之一。原先稱為「工程鋼壓力管（SPP）」的分部已更名為「水傳輸系統（WTS）」，以更好地反映我們業務單位在工程、生產執行及關鍵整合水管線系統交付方面的價值貢獻。而「預製基礎設施與工程系統（Precast）」分部的名稱則保持不變。此命名規則的變更不會影響分部的組成或分部報告的基礎，因為我們的首席營運決策者在管理或評估績效的方式上並未改變。",
+    "水傳輸系統。WTS 生產用於水基礎設施應用的大型直徑、高壓力鋼製管線系統，主要與飲用水系統相關。這些產品也用於水力發電系統、污水系統、地震防災及其它應用。此外，WTS 還製造工業廠房管線系統及某些結構應用。WTS 的製造工廠位於俄勒岡州波特蘭；加州阿德爾安託與特雷西；西弗吉尼亞州帕克瑟堡；德克薩斯州薩金納與聖路易斯；以及墨西哥聖路易斯里奧科洛拉多。",
+    "預製基礎設施與工程系統。Precast 生產雨水與污水技術產品、高品質預製與加強混凝土產品，包括加強混凝土管（\"RCP\"）、檢查井、箱涵、蓄水井、集水井、泵站、油水分離器、生物過濾單元及其他環境與工程解決方案。Precast 的製造工廠位於德克薩斯州達拉斯、休士頓與聖安東尼奧；以及猶他州奧瑞姆、鹽湖城與聖喬治。",
+    "我們於 2026 年 2 月 23 日完成了對 Boughton's Precast, Inc.（\"Boughton\"）的 100% 股權收購，該公司為位於科羅拉多州普韋布洛的單一預製工廠，收購價格約為 9.0 百萬美元。此收購擴大了我們在雨水基礎設施與污水下水道產品（包括檢查井、集水井、蓄水井與加強混凝土管）的地理覆蓋範圍。",
+    "美國許多水基礎設施已經過時，許多機構，包括美國環境保護署（\"EPA\"），認為美國水基礎設施亟需更新、修復或更換。新興人口中心、已開發水源需求增加、過去數十年對水基礎設施的嚴重投資不足、乾旱情況、氣候變遷以及日益嚴格的規範政策，正驅動美國水基礎設施專案的需求。這些趨勢正在加劇對新水基礎設施的需求，以及對現有水基礎設施進行更新、修復和更換的需求。雖然我們認為這為我們的水基礎設施產品及其他與水傳輸相關產品的潛在需求增加提供了機會，但預算壓力可能在近期影響政府及公共水機構的專案。",
+    "美國聯邦政府為改善老舊水設施狀況的計畫包括環境保護署（EPA）的水財務中心以及美國農業部的水與環境計畫。兩黨基礎建設協議（基礎建設投資與就業法案（\"IIJA\"）），於2021年11月簽署成為法律，將投資55十億美元，以擴大全國各處家庭、企業、學校及託兒中心對潔淨飲用水的接取。根據2025年8月藍菲爾德研究洞察報告 – 基礎建設投資與就業法案：追蹤支出，2025年第三季，約5十億美元已根據IIJA分配給飲用水州循環貸款基金（\"DWSRF\"）受款人，透過子補助金方式。DWSRF為聯邦與州的合作及財務協助計畫，用以協助水系統及州達成安全飲用水法案的健康保護目標，根據2023年DWSRF年度報告，該計畫在財政2023年提供4.4十億美元協助，自1997年以來累計提供57.3十億美元協助。另外，根據其最新報告，2024年度報告，環境保護署的水基礎建設與創新法案計畫，為符合資格的水與污水處理基礎建設專案的聯邦信用計畫，於2024年完成18筆貸款，總計2十億美元。根據環境保護署資料，截至2026年1月22日，自該計畫於2018年啟動以來，已完成149筆貸款，總計超過23十億美元。",
+    "除聯邦措施外，各州也採取行動。2013 年 11 月，德州透過其德州水實施基金（\"SWIFT\"），為未來 50 年的州水計畫項目預留 27 十億美元的債券資金。此計畫為具州所有權屬性的項目提供低利率貸款、延長付款條件、貸款償還延後及分期購回條件。根據其 2025 財年 SWIFT 專案狀態報告，截至 2025 年 12 月 31 日，SWIFT 已承諾 17.0 十億美元的協助用於州水計畫專案。2025 年 11 月，德州也批准自 2027 年至 2047 年每年從銷售稅收入中撥款最多 1 十億美元至德州水基金。資金將用於修復基礎建設、開發新水源及支持節水努力，以協助滿足該州日益增長的用水需求。2014 年 11 月，加州批准水質、供應與基礎建設改善法案，授權 7.5 十億美元的一般義務債券用於資助州水供應基礎建設專案，例如公共用水系統改善、地表與地下水儲存、飲用水保護、水回收與先進水處理技術、水供應管理與輸送、廢水處理、乾旱緩解、緊急用水供應以及生態系統與流域保護與復育。這些資金幾乎全部已承諾，這促使加州於 2024 年 11 月通過安全飲用水、野火預防、乾旱應對與清潔空氣債券法案。新資金預期將提供約 4 十億美元用於與水基礎建設相關的專案。我們 strategically located 的製造設施非常適合利用預期的用量成長。",
+    "水傳輸系統。我們的大型直徑、工程焊接鋼管系統用於水、能源、結構及廠區管路應用。我們的核心市場為水傳輸管線中大型直徑、高壓部分，通常位於管線系統的\"上端\"。這是整體水管線中一般用來將水從來源輸送至處理廠，或從處理廠輸送至配水系統的部分，而非直接將水送入住宅的細管。",
+    "",
+    "根據美國人口普查局的資料，美國人口預計將在2026年至2050年間增加約21百萬人。此人口成長將需要大量新的基礎設施，因為現有的美國水基礎設施無法為數百萬新居民提供用水。在人口中心較遠處開發新的水源將驅動對新水傳輸管線的需求。氣候變遷可能導致某些地區出現乾旱情況，進而增加對新基礎設施的需求。根據ConstructConnect的2025冬季建設開工預測，美國水與汙水處理建設開工預計在2026年將達60.3十億美元。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "管理層對財務狀況與營運成果之討論與分析",
+    "我們目前的經濟環境",
+    "營運成果",
+    "2025年12月31日",
+    "2024年12月31日",
+    "2023年12月31日",
+    "淨銷售額佔比",
+    "2025年12月31日會計年度與2024年12月31日會計年度比較",
+    "淨銷售額。淨銷售額成長 6.8% 至 526.0 百萬美元，較 2024 年的 492.5 百萬美元。",
+    "毛利。毛利成長 8.6% 至 103.6 百萬美元（佔淨銷售額 19.7%） ，較 2024 年的 95.4 百萬美元（佔淨銷售額 19.4%）。",
+    "流動性及資本資源",
+    "現金來源與運用",
+    "營運活動所提供之淨現金",
+    "投資活動所使用之淨現金",
+    "籌資活動所使用之淨現金",
+    "信用協議",
+    "長期負債",
+    "最近會計準則聲明",
+    "關鍵會計估計",
+    "管理層估計",
+    "收入認列",
+    "所得稅"
+   ],
+   "paragraphs": [
+    "以下為管理階層對影響我們合併財務狀況及營運結果之重大因素之討論與分析。此討論應與我們歷史財務報表及合併財務報表附註一併閱讀，請參閱本 2025 年 10-K 表報第二部分 — 第 8 項 \"財務報表與補充資料\"。此討論包含基於目前預期之展望性陳述，涉及風險與不確定性。我們實際結果可能與這些展望性陳述所預期的有重大差異，原因包括但不限於第一部分 — 第 1A 項 \"風險因素\" 或本 2025 年 10-K 表報其他部分所列之因素。有關 2024 年 12 月 31 日財年與 2023 年 12 月 31 日財年營運結果及財務狀況變動之討論，請參閱第二部分 — 第 7 項 \"財務狀況與營運結果之管理階層討論與分析 — 2024 年 12 月 31 日財年與 2023 年 12 月 31 日財年比較\" 及 \"流動性與資本資源\"，內容為 2024 年 10-K 表報，於 2025 年 2 月 27 日向 SEC 提交，並 herein 予以引用。",
+    "NWPX Infrastructure, Inc., formerly known as Northwest Pipe Company, is a leading manufacturer of water-related infrastructure products, and operates in two segments, Water Transmission Systems (WTS), operating as the Northwest Pipe Company brand, and Precast Infrastructure and Engineered Systems (Precast), which includes the brands NWPX Geneva and NWPX Park. For detailed descriptions of these segments, see the \"Our Segments\" discussion in Part I — Item 1. \"Business\" of this 2025 Form 10‑K.",
+    "在 Northwest Pipe Company 品牌下，我們為北美洲最大之工程水傳輸系統製造商，生產鋼製套管管、包鋼混凝土圓柱管及管線系統接頭與配件。我們也提供解決方案產品，應用於廣泛市場，包括高品質加強預製混凝土產品、內襯預製污水下水道結構、水分配與管理設備，包括泵站、廢水預處理及雨水品質產品。我們透過將內襯與工程預製產品引入其他廠區生產，擴大製造據點，提高產能與區域可得性。我們戰略性地定位以應對日益增長的水與廢水基礎設施需求，我們具備技能的團隊致力於品質與創新，同時秉持我們的核心價值觀：責任感、承諾與團隊合作。總部設於華盛頓州維克多亞，我們在北美運作 13 個製造廠區。",
+    "我們於 2026 年 2 月 23 日完成收購 Boughton's Precast, Inc. 100% 股權，該公司為位於科羅拉多州普ueblo 的單一預製廠，收購價格約為 9.0 百萬美元。此收購擴大我們在雨水基礎設施與污水下水道產品的地理據點，包括檢查井、集水井、井室與加強混凝土管。此管理階層討論與分析財務狀況及營運結果所包含之財務資訊為 NWPX Infrastructure, Inc. 收購 Boughton 之前之財務資訊，因該收購於本 2025 年 10-K 表報所包含財務報表之期間後完成。",
+    "我們之水基礎設施產品通常銷售給安裝承包商，他們將我們產品納入標案，以向聯邦、州及市級機構、私人所有水公司或開發者提出特定專案。我們認為我們銷售主要由城市成長與新水基礎設施支出驅動，近期趨勢為水基礎設施替換、修復與升級支出。在總產品範圍中，我們鋼製管主要應用於較大直徑、較高壓力之管線應用，而我們預製混凝土產品則主要服務雨水與污水下水道系統。",
+    "我們預製產品之需求通常受總體經濟條件影響，例如住宅開工數、人口成長、利率及通貨膨脹率。根據美國人口普查局，2025 年 12 月私人所有住宅開工數為季節調整後年率 1.4 百萬，2024 年 12 月為 1.5 百萬，美國人口預計在 2026 年將增加約 1 百萬人。雖然近期住宅市場有所軟化，且目前高檔聯邦資金利率可能抑制我們預製產品之需求，我們仍見到德克薩斯州與猶他州之穩定需求，這兩個州為美國四個州中人均資本支出最高的州，根據 2025 年 6 月 Bluefield Research Insight 報告 – 美國與加拿大水與廢水管 CAPEX 預測，2025-2035 年，且為我們預製製造廠區所在州。",
+    "本公司之 WTS 專案通常會提前數年進行規劃，因本公司經營此業務時，採用長遠的時間觀點，而這些專案有時會是 50 年建設計畫的一部分。本公司 2025 年專案招標水準約與 2024 年實際實現之水準相當，且本公司預期美國水基礎建設專案之近中期需求將維持相對健康。本公司之 WTS 事業面臨總體經濟較廣泛之不確定性，因近期總統行政命令、人事裁減及其他聯邦經費爭議，被視為會延宕因 IIJA 與《通貨膨脹減免法案》所帶來之經費。雖然這些延宕首先影響專案週期初期之工程與設計階段，但經費延宕至州循環貸款基金（State Revolving Funds）之延長，將最終影響未來專案招標。根據 2025 年 8 月 Bluefield Research Insight 報告 – 基礎建設投資與就業法案：追蹤支出，2025 年第三季，約 5 十億美元已透過子補助金撥付至飲用水州循環貸款基金受款人，使該 55 十億美元支出包裝中，大多數經費仍可使用；本公司預期因 WTS 專案之長週期特性，將在週期後段受益於此支出。",
+    "購入鋼鐵通常代表我們 WTS 專案銷售成本約 29%，鋼鐵成本上升通常導致銷售價格與營收提高；然而，鋼鐵市場波動可能影響我們業務。WTS 合約通常以固定價格報價，鋼鐵市場波動可能導致銷售價格與購入時之成本無關。我們 2025 年購入鋼鐵平均價格為每公噸 967 美元，與 2024 年每公噸 914 美元及 2023 年每公噸 994 美元相比。",
+    "總體經濟不確定性，包括美國全球經濟政策的影響、通貨膨脹壓力、潛在的經濟衰退風險，以及金融市場的動盪，可能對我們的業務產生不利影響。我們認為，關稅及相關反制措施的不確定性，可能會進一步抑制建設活動，並影響我們的成本，尤其是在短時間內；然而，這些風險將會在可能的範圍內加以緩解。倘若經濟環境持續不確定，對我們業務的直接與間接影響，也將取決於未來的發展，而這些發展無法預測。",
+    "下表列示了特定期間內，以美元（千美元）及佔總淨銷售額百分比方式表達的成本與費用相關財務資訊。",
+    "淨銷售額：Water Transmission Systems 350,879 66.7 337,945 68.6 296,381 66.7 Precast Infrastructure and Engineered Systems",
+    "175,124 33.3 154,603 31.4 147,974 33.3 總淨銷售額 526,003 100.0 492,548 100.0 444,355",
+    "銷售成本：Water Transmission Systems 283,738 53.9 275,341 55.9 253,954 57.2 Precast Infrastructure and Engineered Systems",
+    "138,628 26.4 121,802 24.7 112,759 25.3 總銷售成本 422,366 80.3 397,143 80.6 366,713"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素",
+    "風險因素總覽",
+    "與我們產業及終端市場相關的風險",
+    "與我們業務相關的風險",
+    "與我們供應鏈及生產流程相關的風險",
+    "與我們財務狀況相關的風險",
+    "與我們財務報導內部控管相關的風險",
+    "與我們普通股相關的風險",
+    "本公司每季營運成果會受到顯著波動影響。本公司淨銷售額及營運結果可能因多種因素而於各季間顯著波動，包括：",
+    "本公司章程及俄勒岡州法律的某些條款可能會阻卻潛在收購提案。本公司章程包含以下條款："
+   ],
+   "paragraphs": [
+    "您應仔細考慮下列因素，並配合本 2025 年 10-K 申報書所包含的所有其他資訊，以評估本公司及其業務。若任何上述風險實際發生，將可能對本公司之業務、財務狀況、營運結果或現金流造成重大且不利的影響，並可能導致本公司股票價值下跌。下列所描述之風險與不確定性，係本公司目前認為可能對本公司造成重大影響之因素。尚有其他未為本公司所知或本公司認為不重要之風險與不確定性，亦可能影響本公司之業務運作。因此，您不應將此清單視為所有潛在風險與不確定性之完整陳述。",
+    "本風險因素摘要包含有關投資本公司證券之風險與不確定性之高階概覽，包括與本公司所屬產業與終端市場、本公司業務、供應鏈與生產流程、財務狀況、財務報導之內部控制及本公司普通股相關之風險。以下摘要並非完整，應配合後續更詳細說明這些及其他因素與不確定性之內容，以作為投資本公司證券之決策參考。使投資本公司證券具有風險之主要因素與不確定性如下所述。",
+    "公共用水傳輸工程之進度延誤可能對本公司業務造成不利影響；",
+    "與公共用水傳輸工程相關之政府支出下滑可能對本公司業務造成不利影響；",
+    "本公司之用水傳輸系統業務面臨過度供給之情況，同時亦可能因混凝土壓力管、可延性鑄鐵管、PVC 及 HDPE 等製造商所生產之替代產品之競爭而增加；",
+    "本公司業務之成功受總體經濟與地方經濟狀況影響，本公司業務可能因經濟減速或衰退，或本公司價格無法跟上投入成本之通貨膨脹而受到不利影響；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

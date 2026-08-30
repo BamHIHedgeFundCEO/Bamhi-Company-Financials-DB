@@ -695,6 +695,34 @@ def status() -> None:
     print(f"共 {total} 條")
 
 
+class BatchAbort(Exception):
+    """整批中止 —— **不能用 SystemExit**：run_batch 對每一家包了 `except SystemExit`
+    來吸收單一公司的錯誤，熔斷器丟 SystemExit 會被同一個 handler 接住，
+    結果是「已中止」印了 230 次然後整批繼續跑完。實測 2026-08 那一輪就是這樣。"""
+
+
+PROBE_TICKER = "AAPL"
+
+
+def site_alive() -> bool:
+    """
+    網站到底活著沒有 —— **用硬事實判斷，不要靠連續幾家沒章節去猜**。
+
+    「連續 N 家抽不到章節」有兩種完全不同的原因：
+      ① 母體尾巴本來就有一整段沒有 10-K 的小公司（真的沒有年報）
+      ② 網站暫時抽不出 narrative，卻回報成「無年報」
+    猜錯的代價不對稱：把 ② 當成 ① 會安靜地漏掉幾百家 —— 實測 252 家，
+    其中 TFSL／BBSI／DAKT／SENEA／SAFE 事後重查全部都有年報。
+    所以碰到門檻就去問一家一定有年報的公司，答案是事實不是推測。
+    """
+    try:
+        d = api_get(f"/api/profile?ticker={PROBE_TICKER}")
+    except Exception:
+        return False
+    n = d.get("narrative")
+    return bool(n and n.get("sections"))
+
+
 def run_batch(targets: list, args, engine, tag: str) -> None:
     """
     一個指令跑完一整批，**中途出錯不中斷**、**重跑會接續**。
@@ -706,6 +734,7 @@ def run_batch(targets: list, args, engine, tag: str) -> None:
     total = len(targets)
     print(f"章節來源 {API_BASE}／翻譯 {OLLAMA_MODEL} @ {OLLAMA}／共 {total} 家")
     skipped = failed = ok = empty = 0
+    no_section: list = []
     t0 = time.time()
     for i, t in enumerate(targets, 1):
         # --recheck：不吃 pending 快照的快速路徑，一律重新抽一次章節。
@@ -726,9 +755,16 @@ def run_batch(targets: list, args, engine, tag: str) -> None:
                 # 「跳過」五百家跑完收工。連續空手太多次就停下來講清楚，
                 # 不要讓一場 28 小時的批次變成什麼都沒做
                 empty += 1
+                no_section.append(t)
                 if empty >= 15:
-                    raise SystemExit(
-                        f"連續 {empty} 家都抽不到章節 —— 網站（{API_BASE}）還活著嗎？已中止")
+                    if site_alive():
+                        print(f"  （連續 {empty} 家沒有章節，但 {PROBE_TICKER} 正常 —— "
+                              f"網站活著，這一段是真的沒有年報，繼續）")
+                        empty = 0
+                    else:
+                        raise BatchAbort(
+                            f"連續 {empty} 家抽不到章節，連 {PROBE_TICKER} 也抽不到 —— "
+                            f"網站（{API_BASE}）掛了，已中止")
                 continue
             empty = 0
             if not engine:
@@ -736,6 +772,8 @@ def run_batch(targets: list, args, engine, tag: str) -> None:
             fill(made[0], args.batch, engine, tag, max(1, args.jobs))
             apply(made[0])
             ok += 1
+        except BatchAbort:
+            raise
         except SystemExit as e:
             print(f"  {t} 中止：{e}")
             failed += 1
@@ -744,6 +782,11 @@ def run_batch(targets: list, args, engine, tag: str) -> None:
             failed += 1
     mins = (time.time() - t0) / 60
     print(f"\n完成 {ok}、跳過 {skipped}（已翻過）、失敗 {failed}，共 {mins:.0f} 分鐘")
+    if no_section:
+        # 這份名單裡混著「真的沒有 10-K」與「當下網站抽不出來」，肉眼分不出來。
+        # 直接印成可以貼回去重跑的形式，重跑一次就知道是哪一種。
+        print(f"沒有可翻譯章節的 {len(no_section)} 家（要確認的話重跑一次）：")
+        print("  --emit " + ",".join(no_section))
 
 
 def main() -> None:

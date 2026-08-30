@@ -1,0 +1,219 @@
+{
+ "ticker": "ADAM",
+ "cik": "0001273685",
+ "accession": "0001273685-26-000029",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Certain Defined Terms",
+    "Our Investment Strategy",
+    "Investment Portfolio",
+    "Other Investments",
+    "Our Financing Strategy",
+    "Our Hedging Strategy",
+    "Human Capital",
+    "Governmental Regulation",
+    "Operating and Regulatory Structure",
+    "Corporate Offices",
+    "Access to Our Periodic SEC Reports and Other Corporate Information"
+   ],
+   "paragraphs": [
+    "In this Annual Report on Form 10-K we refer to Adamas Trust, Inc., together with its consolidated subsidiaries, as \"Adamas,\" \"we,\" \"us,\" \"Company,\" or \"our,\" unless we specifically state otherwise or the context indicates otherwise, and we refer to our wholly-owned taxable real estate investment trust (\"REIT\") subsidiaries as \"TRSs\" and our wholly-owned qualified REIT subsidiaries as \"QRSs.\" In addition, the following defines certain of the commonly used terms in this report:",
+    "•\"ABS\" refers to debt and/or equity tranches of securitizations backed by various asset classes including, but not limited to, automobiles, aircraft, credit cards, equipment, franchises, recreational vehicles and student loans;",
+    "•\"Agency ARMs\" refers to Agency RMBS comprised of adjustable-rate and hybrid adjustable-rate RMBS;",
+    "•\"Agency fixed-rate RMBS\" refers to Agency RMBS comprised of fixed-rate RMBS; •\"Agency investments\" refers to Agency RMBS and TBAs;",
+    "•\"Agency RMBS\" refers to RMBS representing interests in or obligations backed by pools of residential loans guaranteed by a government sponsored enterprise (\"GSE\"), such as the Federal National Mortgage Association (\"Fannie Mae\") or the Federal Home Loan Mortgage Corporation (\"Freddie Mac\"), or an agency of the U.S. government, such as the Government National Mortgage Association (\"Ginnie Mae\");",
+    "•\"ARMs\" refers to adjustable-rate residential loans;",
+    "•\"business purpose loans\" refers to (i) short-term loans that are collateralized by residential properties and are made to investors who intend to rehabilitate and sell the residential property for a profit or (ii) loans that finance (or refinance) non-owner occupied residential properties that are rented to one or more tenants;",
+    "•\"CDO\" refers to collateralized debt obligation and includes debt that permanently finances the residential loans held in Consolidated SLST, the Company's residential loans held in securitization trusts and a non-Agency RMBS re-securitization that we consolidate, or consolidated, in our financial statements in accordance with GAAP;",
+    "•\"CMBS\" refers to commercial mortgage-backed securities comprised of commercial mortgage pass-through securities issued by a GSE, as well as PO, IO, or mezzanine securities that represent the right to a specific component of the cash flow from a pool of commercial mortgage loans;",
+    "•\"Consolidated Real Estate VIEs\" refers to Consolidated VIEs that own multi-family properties;",
+    "•\"Consolidated SLST\" refers to Freddie Mac-sponsored residential loan securitizations, comprised of seasoned re-performing and non-performing residential loans, of which we own the first loss subordinated securities and certain IOs, that we consolidate in our financial statements in accordance with GAAP;",
+    "•\"Consolidated VIEs\" refers to VIEs where the Company is the primary beneficiary, as it has both the power to direct the activities that most significantly impact the economic performance of the VIE and a right to receive benefits or absorb losses of the entity that could be potentially significant to the VIE and that we consolidate in our financial statements in accordance with GAAP;",
+    "•\"Constructive\" refers to Constructive Loans, LLC, a wholly-owned subsidiary through which the Company originates business purpose loans for residential real estate investors;",
+    "•\"excess mortgage servicing spread\" or \"excess MSR\" refers to the difference between the contractual servicing fee with Fannie Mae, Freddie Mac or Ginnie Mae and the base servicing fee that is retained as compensation for servicing or subservicing the related mortgage loans pursuant to the applicable servicing contract;"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Summary of Risk Factors",
+    "Risks Related to Our Business",
+    "Risks Related to Debt Financing and Our Use of Hedging Strategies",
+    "Risks Associated With Adverse Developments in the Mortgage, Real Estate, Credit and Financial Markets Generally",
+    "Risks Related To Our Organization, Our Structure and Other Risks",
+    "Our efforts to manage credit risks may fail.",
+    "If our estimates of the loss-adjusted yields of our investments in credit sensitive assets prove inaccurate, we may experience losses.",
+    "Residential loans are subject to increased risks of loss.",
+    "Our portfolio of business purpose loans exposes us to risks that are different from the risks involved with our traditional investments in residential mortgage loans.",
+    "Our investments may include subordinated tranches of RMBS, CMBS and ABS, which are subordinate in right of payment to more senior securities and have greater risk of loss than other investments.",
+    "Prepayment rates can change, adversely affecting the performance of our assets.",
+    "We have experienced and may experience in the future increased volatility in our GAAP results of operations as we have elected fair value option for the majority of our investments.",
+    "The remedies available to us to resolve delinquent loans may not fully compensate us for any losses incurred and may result in lengthy and expensive legal processes.",
+    "Any costs or delays involved in the completion of a foreclosure or liquidation of the underlying property of the residential loans we own may further reduce proceeds from the property and may increase our loss.",
+    "Our preferred equity investments involve greater risks of loss than more senior loans secured by income-producing properties.",
+    "Our investments in multi-family properties are subject to the ability of the property owner to generate net income from operating the property as well as the risks of delinquency, default and foreclosure.",
+    "Our business is subject to risks particular to real property and real estate-related assets."
+   ],
+   "paragraphs": [
+    "Below is a summary of the principal factors that make an investment in our securities speculative or risky. This summary does not address all of the risks that we face. Additional discussion of the risks summarized in this risk factor summary and other risks that we face can be found below and should be carefully considered, together with other information in this Form 10-K and our other filings with the SEC before making an investment decision regarding our securities.",
+    "•Declines in the market values of our investments may adversely affect periodic reported results and credit availability.",
+    "•Interest rate mismatches between the interest-earning assets held in our investment portfolio and the borrowings used to fund the purchases of those assets may reduce our net income or result in a loss during periods of changing interest rates.",
+    "•We may experience losses if we inaccurately estimate the loss-adjusted yields of our investments in credit sensitive assets.",
+    "•Interest rate increases may decrease the availability of certain of our targeted assets.",
+    "•Our investment portfolio may at times be concentrated in certain asset types or secured by properties concentrated in a limited number of real estate sectors or geographic areas, which increases our exposure to economic downturns and risks associated with the real estate and lending industries in general."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Executive Summary",
+    "Historical Financial Information",
+    "Selected Statement of Operations Data:",
+    "For the Years Ended December 31,",
+    "Selected Balance Sheet Data:",
+    "As of December 31,",
+    "Investing Activity",
+    "December 31, 2024 Acquisitions/Originations (1)",
+    "Repayments (2)",
+    "Sales Transfers/Initial Consolidation (3)",
+    "Fair Value Changes and Other (4)",
+    "December 31, 2025",
+    "December 31, 2024",
+    "Current Market Conditions and Commentary",
+    "Full Year 2025 Summary",
+    "Year Ended December 31, 2025",
+    "Capital Allocation",
+    "Constructive",
+    "Results of Operations",
+    "2025 2024 $ Change",
+    "Interest Income and Interest Expense",
+    "Net Loss from Real Estate",
+    "2024 $ Change",
+    "Other Income (Loss)",
+    "General and Administrative Expenses"
+   ],
+   "paragraphs": [
+    "Since 2023, we have actively repositioned our investment portfolio with the objective of enhancing recurring income for our stockholders. Our investment strategy since that time has focused on acquiring assets with less price sensitivity to credit deterioration, like Agency RMBS, and short duration, higher-coupon investments, like business purpose loans. We have also prioritized optimizing our financing structures and expanding our network of originator partnerships to support increased acquisition volumes.",
+    "The year ended December 31, 2025 represented a strategically significant period for the Company. The year was marked by our corporate rebranding, acquisition of Constructive, earnings growth, record investment activity and further execution of the Company's capital rotation strategy designed to enhance recurring income, improve portfolio liquidity and strengthen our operating platform.",
+    "Net income attributable to common stockholders was $101.1 million, or $1.12 per share, for the year ended December 31, 2025. Earnings available for distribution (\"EAD\") per common share, a non-GAAP financial measure, increased 141% year-over-year to $0.89 per share. GAAP book value per share as of December 31, 2025 increased 3.4% to $9.60 and adjusted book value per share as of December 31, 2025 rose 2.7% to $10.63, resulting in an economic return of 12.72% and 11.01% on GAAP book value per share and adjusted book value per share, respectively, for 2025. Supported by this sustained earnings momentum, our Board of Directors declared quarterly dividends of $0.23 per share in the third and fourth quarters of 2025, a 15% increase from the first and second quarters, equating to a 12.6% dividend yield as of December 31, 2025.",
+    "During the year ended December 31, 2025, we achieved the highest level of annual investment activity in our history, expanding our investment portfolio by approximately $3.1 billion, or 42%, to $10.5 billion. Total acquisitions of $6.1 billion were primarily concentrated in Agency RMBS and business purpose loans, including $4.1 billion of Agency investments and $1.7 billion of business purpose loans. Our disciplined capital allocation continued to emphasize liquidity, stability, and shorter-duration exposure, with Agency RMBS now representing greater than a majority of our capital. We believe this repositioning has enhanced the resilience of our earnings profile and strengthened our ability to navigate evolving market conditions.",
+    "On July 15, 2025, we completed the acquisition of the remaining 50% interest in Constructive, resulting in full ownership and consolidation of Constructive's financial results beginning in the third quarter of 2025. Constructive operates in 48 states and originated approximately $1.8 billion of loans over the year ended December 31, 2025, including $864.9 million since July 15, 2025. From July 15, 2025 to December 31, 2025, Constructive generated $26.6 million of mortgage banking income from origination and sale activity and incurred $8.1 million of direct loan origination costs. We believe our integration of Constructive expands the Company's presence in the residential credit ecosystem and establishes a scalable origination platform that we expect will support sustained earnings growth over time.",
+    "We also completed several capital markets and financing initiatives during the year ended December 31, 2025 designed to support future portfolio growth and further strengthen our balance sheet. During the year ended December 31, 2025, we completed four securitizations of performing, re-performing, and business purpose loans totaling approximately $945.5 million in net proceeds. In addition, we issued $82.5 million of 9.125% 2030 Senior Notes and $115.0 million of 9.875% 2030 Senior Notes, providing additional flexibility to fund new investments. As of December 31, 2025, our Company Recourse Leverage Ratio and Portfolio Recourse Leverage Ratio (as defined in \"Capital Allocation\" below) increased to 5.0x and 4.7x, respectively, from 3.0x and 2.9x as of December 31, 2024, primarily reflecting increased Agency RMBS financing, the acquisition and consolidation of Constructive and senior unsecured notes issuance activity.",
+    "We completed the wind-down of our multi-family joint venture equity investments during the year ended December 31, 2025. As of December 31, 2025, our multi-family exposure was limited to our Mezzanine Lending and cross-collateralized mezzanine lending portfolio, which continues to perform well, with a 25.8% payoff rate during the year and an average occupancy rate of 91% across underlying properties.",
+    "Our targeted assets include (i) Agency RMBS, (ii) residential loans, including business purpose loans, (iii) non-Agency RMBS and (iv) certain other mortgage-, residential housing- and credit-related assets, as well as strategic investments in companies from which we purchase, or may in the future purchase, our targeted assets. Subject to maintaining our qualification as a REIT and the maintenance of our exclusion from registration as an investment company under the Investment Company Act, we also may opportunistically acquire and manage various other types of mortgage-, residential housing- and other credit-related or alternative investments that we believe will compensate us appropriately for the risks associated with them, including, without limitation, CMBS, collateralized mortgage obligations, MSRs, excess mortgage servicing spreads, preferred equity and joint venture equity investments in multi-family properties, securities issued by newly originated securitizations, including credit sensitive securities from these securitizations, ABS and debt or equity investments in alternative assets or businesses.",
+    "In January 2026, we completed the issuance of $90.0 million of our 9.250% Senior Notes due 2031 in an underwritten public offering, receiving $86.6 million in net proceeds.",
+    "In February 2026, the Company redeemed its 2026 Senior Notes at 100% of the $100.0 million principal amount plus accrued but unpaid interest to, but excluding, the redemption date, for a total payment of $101.5 million. The Company recognized a loss on extinguishment of debt related to the redemption totaling approximately $0.3 million.",
+    "Looking ahead, we expect to maintain a disciplined and measured approach to portfolio growth, supported by the integration of Constructive's origination platform and our continued focus on high-quality, income-producing assets. We believe our current balance sheet, diversified capital sources and expanded origination capacity position us to capitalize on market opportunities, further scale recurring earnings, and enhance long-term stockholder value."
+   ],
+   "focus": "Executive Summary"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'original': 'Certain Defined Terms', 'translated': '特定定義名詞'}",
+    "{'original': 'Our Investment Strategy', 'translated': '本公司投資策略'}",
+    "{'original': 'Investment Portfolio', 'translated': '投資組合'}",
+    "{'original': 'Other Investments', 'translated': '其他投資'}",
+    "{'original': 'Our Financing Strategy', 'translated': '本公司資金籌措策略'}",
+    "{'original': 'Our Hedging Strategy', 'translated': '本公司避險策略'}",
+    "{'original': 'Human Capital', 'translated': '人力資本'}",
+    "{'original': 'Governmental Regulation', 'translated': '政府規範'}",
+    "{'original': 'Operating and Regulatory Structure', 'translated': '營運與監管架構'}",
+    "{'original': 'Corporate Offices', 'translated': '公司總部'}",
+    "{'original': 'Access to Our Periodic SEC Reports and Other Corporate Information', 'translated': '取得我們定期 SEC 報告及其他公司資訊的方式'}"
+   ],
+   "paragraphs": [
+    "本年度10-K申報書中，我們提及Adamas Trust, Inc.及其合併子公司，簡稱為\"Adamas\"、\"we\"、\"us\"、\"Company\"或\"our\"，除非我們特別說明或語境另有顯示。我們亦提及我們全資擁有之可課稅不動產投資信託（\"REIT\"）子公司為\"TRSs\"，以及我們全資擁有之符合條件REIT子公司為\"QRSs\"。此外，以下為本報告中常見術語之定義：",
+    "•\"ABS\"指背後由各種資產類別（包括但不限於汽車、飛機、信用卡、設備、特許經營權、休閒車輛及學生貸款）擔保之債務及/或權益分層證券;",
+    "•\"Agency ARMs\"指由政府 sponsored 企業（\"GSE\"）如美國聯邦住宅貸款銀行（\"Fannie Mae\"）或美國住宅貸款抵押銀行（\"Freddie Mac\"）擔保之可調利率及混合可調利率住宅抵押貸款支持證券（RMBS）;",
+    "•\"Agency fixed-rate RMBS\"指由政府 sponsored 企業（\"GSE\"）如美國聯邦住宅貸款銀行（\"Fannie Mae\"）或美國住宅貸款抵押銀行（\"Freddie Mac\"）擔保之固定利率住宅抵押貸款支持證券（RMBS）；•\"Agency investments\"指Agency RMBS及TBAs;",
+    "•\"Agency RMBS\"指代表或擔保由政府 sponsored 企業（\"GSE\"）如美國聯邦住宅貸款銀行（\"Fannie Mae\"）或美國住宅貸款抵押銀行（\"Freddie Mac\"）或美國政府機構如美國住宅抵押貸款公司（\"Ginnie Mae\"）擔保之住宅貸款池之權益或義務之住宅抵押貸款支持證券（RMBS）;",
+    "•\"ARMs\"指可調利率住宅貸款;",
+    "•\"business purpose loans\"指（i）以住宅不動產為擔保之短期貸款，提供給有意圖進行住宅不動產整修並出售以獲利之投資人，或（ii）用以資金融資（或重新貸款）非所有權人佔用之住宅不動產，並出租給一個或多個租客;",
+    "•\"CDO\"指擔保債務義務，包括永久資金融資本公司於合併SLST中持有之住宅貸款、本公司於證券化信託中持有之住宅貸款，以及我們於財務報表中根據GAAP合併會計之非Agency RMBS重新證券化交易。",
+    "•\"CMBS\" 指商業抵押貸款擔保證券，包含由 GSE 發行的商業抵押貸款過手證券，以及代表從商業抵押貸款池中特定零組件現金流權利的 PO、IO 或 Mezzanine 證券；",
+    "•\"Consolidated Real Estate VIEs\" 指擁有多單位住宅不動產的 Consolidated VIEs；",
+    "•\"Consolidated SLST\" 指由 Freddie Mac 說明的住宅貸款證券化，包含成熟且重新表現或非表現的住宅貸款，我們擁有第一損失次級證券及某些 IO，並根據 GAAP 編製財務報表時予以合併；",
+    "•\"Consolidated VIEs\" 指本公司為主要受益人的 VIEs，因其擁有指揮影響 VIE 經濟表現之活動的權力，並擁有可對 VIE 產生潛在重大影響的獲利或承擔損失之權利，並根據 GAAP 編製財務報表時予以合併；",
+    "•\"Constructive\" 指 Constructive Loans, LLC，為本公司百分之百持股之子公司，用以為住宅不動產投資者發放商業用途貸款；",
+    "•\"excess mortgage servicing spread\" 或 \"excess MSR\" 指與 Fannie Mae、Freddie Mac 或 Ginnie Mae 約定之服務費與根據適用服務契約服務或次服務相關抵押貸款所保留之基本服務費之間的差額；"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "執行摘要",
+    "歷史財務資訊",
+    "選取營運成果資料:",
+    "截至12月31日止各年",
+    "選取資產負債表資料:",
+    "截至12月31日",
+    "投資活動",
+    "2024年12月31日之收購/產生項目(1)",
+    "償還 (2)",
+    "銷售轉移/初始合併 (3)",
+    "公允價值變動及其他 (4)",
+    "2025年12月31日",
+    "2024年12月31日",
+    "當前市場情況與評論",
+    "2025年全年總結",
+    "2025年12月31日財年",
+    "{'original': 'Capital Allocation', 'translated': '資本配置'}",
+    "{'original': 'Constructive', 'translated': '建構性'}",
+    "{'original': 'Results of Operations', 'translated': '營運成果'}",
+    "{'original': '2025 2024 $ Change', 'translated': '2025 2024 美元變動'}",
+    "{'original': 'Interest Income and Interest Expense', 'translated': '利息收入及利息支出'}",
+    "{'original': 'Net Loss from Real Estate', 'translated': '房地產淨虧損'}",
+    "{'original': '2024 $ Change', 'translated': '2024 美元變動'}",
+    "{'original': 'Other Income (Loss)', 'translated': '其他收入（損失）'}",
+    "{'original': 'General and Administrative Expenses', 'translated': '一般及行政費用'}"
+   ],
+   "paragraphs": [
+    "自 2023 年起，我們積極重新定位投資組合，目標為提升股東的經常性收入。自該時間起，我們的投資策略已著重於取得價格敏感度較低於信用惡化的資產，例如機構 RMBS，以及短週期、高票息的投資，例如商業用途貸款。我們也優先於優化融資結構，並擴大與發起人合作夥伴的網路，以支持增加的投資取得量。",
+    "截至 2025 年 12 月 31 日的會計年度，對本公司而言是戰略上重要的時期。該年度標誌著我們的企業品牌重塑、收購 Constructive、獲利成長、創下投資活動紀錄，以及進一步執行本公司資本循環策略，以提升經常性收入、改善投資組合流動性並強化我們的運營平台。",
+    "截至 2025 年 12 月 31 日的會計年度，歸屬於普通股股東的淨收入為 101.1 百萬美元，每股為 1.12 美元。每股可分配盈餘（\"EAD\"），一個非 GAAP 財務指標，較去年同期成長 141%，達到每股 0.89 美元。截至 2025 年 12 月 31 日的 GAAP 每股帳面價值成長 3.4% 至 9.60 美元，調整後每股帳面價值成長 2.7% 至 10.63 美元，分別對應 2025 年 GAAP 每股帳面價值與調整後每股帳面價值的經濟回報率為 12.72% 與 11.01%。基於這持續的獲利動能，我們董事會於 2025 年第三及第四季宣佈每股 0.23 美元的季度股息，較第一及第二季成長 15%，截至 2025 年 12 月 31 日的股息收益率為 12.6%。",
+    "",
+    "於 2025 年 7 月 15 日，本公司完成取得 Constructive 剩餘 50% 之權益，使本公司取得 Constructive 全部權益，並自 2025 年第三季起將 Constructive 之財務結果合併入本公司財務報表。Constructive 服務 48 個州，於截至 2025 年 12 月 31 日之會計年度內，發放貸款約 1.8 十億美元，其中自 2025 年 7 月 15 日起發放貸款為 864.9 百萬美元。自 2025 年 7 月 15 日至 2025 年 12 月 31 日，Constructive 從貸款發放及銷售活動中產生 26.6 百萬美元之房貸銀行收入，並產生 8.1 百萬美元之直接貸款發放成本。本公司認為，本公司對 Constructive 之整合擴大了本公司在住宅信貸生態系統之存在，並建立一個可擴展之貸款發放平台，本公司預期此平台將支持長遠之持續獲利成長。",
+    "",
+    "我們在 2025 年 12 月 31 日的會計年度完成多戶住宅合資企業權益投資的收尾。截至 2025 年 12 月 31 日，我們的多戶住宅敞口僅限於我們的 Mezzanine 借貸與交叉擔保的 Mezzanine 借貸投資組合，該組合持續表現良好，年度償還率為 25.8%，並在基礎資產的平均佔用率為 91%。",
+    "我們的目標資產包括（i）機構 RMBS、（ii）住宅貸款，包括商業用途貸款、（iii）非機構 RMBS 以及（iv）某些其他房貸、住宅住房及信貸相關資產，以及在從我們購買，或未來可能購買我們目標資產的公司中的戰略投資。在維持我們作為 REIT 的資格及維持我們不註冊為投資公司（根據投資公司法）的前提下，我們也可能機會性地取得並管理各種其他類型的房貸、住宅住房或其他信貸相關或替代投資，我們認為這些投資能適當地補償我們與其相關的風險，包括但不限於 CMBS、擔保房貸證券、MSRs、過度房貸服務利差、多戶住宅的優先股與合資企業權益投資、由新發行證券化所發行的證券，包括這些證券化所產生的信貸敏感證券、ABS 以及替代資產或業務的債務或股權投資。",
+    "民國115年1月，本公司完成發行2026年1月到期、票面利率為9.250%、金額為90.0百萬美元之優先無擔保債券，透過公開承銷方式發行，實際收到淨資金為86.6百萬美元。",
+    "民國115年2月，本公司以100% 之$100.0 百萬美元本金金額加計已累積但未支付之利息（至，但不包括，贖回日）總計支付101.5 百萬美元贖回2026年高收益債券。本公司認列與贖回相關之債務消滅損失約為0.3 百萬美元。",
+    "展望未來，本公司預期將維持嚴謹且審慎之資產成長策略，並由Constructive之發行平台整合及本公司持續聚焦於高品質、產生收入之資產所支撐。本公司相信目前之資產負債表、多元資金來源及擴充之發行能力，使本公司能把握市場機會，進一步擴大經常性收入，並提升長期股東價值。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因子總覽",
+    "與本公司業務相關的風險",
+    "與債務融資及我們使用避險策略相關的風險",
+    "與抵押貸款、不動產、信貸及金融市場普遍惡化發展相關的風險",
+    "與本公司組織、結構及其他風險相關的風險",
+    "我們努力管理信用風險可能失敗。",
+    "若我們對信用敏感資產投資之損失調整後報酬率之估計不準確，我們可能遭遇損失。",
+    "住宅貸款面臨更高的損失風險。",
+    "本公司之商業用途貸款組合使我們面臨與傳統住宅抵押貸款投資所涉及之風險不同的風險。",
+    "本公司之投資可能包含次級 RMBS、CMBS 及 ABS 類別，這些類別在償還順序上次於較高順位證券，且其損失風險高於其他投資。",
+    "預付款率可能變動，不利於影響我們資產之表現。",
+    "由於本公司已針對絕大數投資選用公允價值選項，因此我們可能經歷並在未來可能經歷 GAAP 操作結果之波動增加。",
+    "我們可用以解決違約貸款之救濟措施，可能無法完全補償我們所遭受之損失，且可能導致冗長且昂貴之法律程序。",
+    "任何涉及完成財產拍賣或住宅貸款所持有財產 liquidation 之成本或延誤，可能進一步減少財產之所得，且可能增加我們之損失。",
+    "本公司之優先股投資涉及較高之損失風險，與由收入產生性財產擔保之較高順位貸款相比。",
+    "本公司對多單位住宅財產之投資，取決於財產所有者能否從經營財產中產生淨收入，以及違約、違約及財產拍賣之風險。",
+    "{'original': 'Our business is subject to risks particular to real property and real estate-related assets.', 'translated': '本公司之業務面臨與實物資產及不動產相關資產特有的風險。'}"
+   ],
+   "paragraphs": [
+    "以下為主要因素之總結，這些因素使投資本公司證券成為投機性或風險性投資。此總結並未涵蓋我們所面臨的所有風險。有關本風險因素總結中所提及之風險及其他風險之進一步討論，請參閱下文，並與本 Form 10-K 及本公司其他向 SEC 提交之文件一併考量，以作為投資本公司證券之決定依據。",
+    "• 我們投資之市場價值下跌，可能不利於定期報告之結果及信貸取得能力。",
+    "• 我們投資組閤中利息收入資產與用以購入這些資產之借款之間的利率不匹配，可能降低我們之淨收入，或在利率變動期間造成損失。",
+    "• 若我們對信用敏感資產之損失調整後收益率之估計不準確，我們可能蒙受損失。",
+    "• 利率上升可能降低我們目標資產之可取得性。",
+    "• 我們之投資組合有時可能集中在某些資產類型，或由有限數量之不動產產業或地理區域之不動產擔保，這會增加我們對經濟衰退及不動產與貸款業之普遍風險之敞口。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,223 @@
+{
+ "ticker": "BCAX",
+ "cik": "0002023658",
+ "accession": "0001628280-26-022010",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Ficerafusp alfa: a bifunctional EGFR-directed antibody combined with a TGF-β ligand trap that enhances tumor penetration to drive deep and durable responses",
+    "The established role of EGFR and TGF-β in squamous cell carcinomas and other solid tumors",
+    "Ficerafusp alfa was designed to enable tumor penetration by breaking barriers in the TME to drive deep and durable responses",
+    "Clinical development of ficerafusp alfa",
+    "Establishing early proof-of-concept with Phase 1/1b trial",
+    "Following the biology to pursue development in 1L R/M HPV-negative HNSCC",
+    "Phase 1b expansion cohorts",
+    "Ficerafusp alfa has demonstrated a generally well-tolerated safety profile",
+    "FORTIFI-HN01: Phase 2/3 pivotal trial in 1L R/M HNSCC",
+    "Expanding the potential of ficerafusp alfa",
+    "Additional expansion opportunities in HNSCC",
+    "MSS RASwt mCRC",
+    "Cutaneous squamous cell carcinoma (cSCC)",
+    "Anal squamous cell carcinoma (SCAC)",
+    "Contract Transfer and License Agreement with Biocon",
+    "Clinical Trial Collaboration and Supply Agreement with MSD",
+    "Intellectual Property",
+    "Ficerafusp alfa",
+    "Manufacturing",
+    "Government Regulation",
+    "Review and approval for licensing biologics in the U.S."
+   ],
+   "paragraphs": [
+    "We are a clinical-stage biopharmaceutical company committed to bringing transformative bifunctional therapies to patients with solid tumors. We have built a platform designed to facilitate the development of bifunctional therapies that precisely target the tumor and deliver a tumor-modulating payload to the tumor site. This dual-targeting approach both enhances drug exposure within the tumor microenvironment, or TME, and limits systemic toxicity. This approach was deployed in the development of our lead program ficerafusp alfa, formerly BCA101, a bifunctional epidermal growth factor receptor-, or EGFR, directed monoclonal antibody bound to a human transforming growth factor beta, or TGF-β, ligand trap.",
+    "By combining these two clinically validated targets, ficerafusp alfa has the potential to exert potent anti-tumor activity by simultaneously blocking both cancer cell-intrinsic EGFR survival and proliferation, as well as the immunosuppressive TGF-β signaling within the TME. Ficerafusp alfa directs the TGF-β inhibitor into the immediate TME through the binding of EGFR on tumor cells, which we believe will drive the tumor penetration of immune cells that lead to deep and durable responses and an increase in overall survival, or OS.",
+    "We believe ficerafusp alfa has the potential to provide meaningful clinical benefit in solid tumors that are challenged by inadequate tumor penetration and where there is a strong biologic rationale for the dual inhibition of both EGFR and TGF-β, such as head and neck cancers and other squamous cell carcinomas which typically overexpress EGFR and TGF-β pathways. We are focusing our efforts and resources on the continued development of ficerafusp alfa in those tumor types for which there is strong biologic rationale and remaining unmet need for enhanced tumor penetration.",
+    "Ficerafusp alfa is currently being studied in head and neck squamous cell carcinoma, or HNSCC. Our global, double-blind, Phase 2/3 FORTIFI-HN01 pivotal trial evaluating 1500mg dosed once weekly, or QW, of ficerafusp alfa in combination with pembrolizumab in first-line, or 1L, recurrent/metastatic, or R/M, human papillomavirus infection, or HPV, -negative HNSCC, whose tumors express programmed death-ligand 1 with combined positive score, or CPS, of ≥1, is ongoing. We expect to be substantially enrolled by the end of 2026 to enable an interim analysis in mid-2027. We believe the trial can support an accelerated approval on the basis of overall response rate, or ORR, six-month durability, and qualitative OS. Additional Phase 1b expansion cohorts of 1500mg QW of ficerafusp alfa in combination with pembrolizumab in HNSCC are ongoing, including a cohort evaluating 1L R/M HPV-negative patients with CPS<1, and HPV-positive heavy smokers.",
+    "Our current development plan for ficerafusp alfa is summarized in the following pipeline chart:",
+    "Our goal is to build a fully integrated, commercial-stage biopharmaceutical company that develops important therapies for people living with cancer, starting with ficerafusp alfa.",
+    "Ficerafusp alfa is a bifunctional antibody that combines the well-established biologies of two targets—the anti-EGFR antibody, cetuximab, fused to the extracellular domain of TGF-β receptor 2. Ficerafusp alfa was designed to use EGFR-binding to deliver potent anti-TGF-β therapy directly to EGFR-expressing tumors, potentially removing TGF-β and neutralizing its signaling activity using a strategy known as a \"ligand trap.\" We believe that localized TGF-β inhibition within the TME has the potential to increase its anti-tumor efficacy and durability, by remodeling the immunosuppressive and immune-excluded TME to enable the penetration of cytotoxic immune cells that drive deep and durable responses. We have shown both in vitro and in vivo that ficerafusp alfa performs as expected, by binding to both targets, localizing to the tumor, inhibiting tumor growth and suppressing TGF-β levels within tumors. We also deliberately chose EGFR as the tumor-targeting antigen for a TGF-β ligand trap given the potential synergistic mechanisms of TGF-β blockade and EGFR signaling inhibition.",
+    "Targeting EGFR in squamous cell carcinomas and other solid tumors",
+    "EGFR is a cell-surface tyrosine kinase growth factor receptor that is involved in many tumor-promoting pathways. Activation of EGFR pathways leads to cell cycle progression, reduction in cell death, blood vessel formation and a metastatic phenotype. EGFR overexpression has been linked to several cancers of squamous cell origin, including HNSCC, cutaneous squamous cell carcinoma, or CSCC, anal squamous cell carcinoma, or SCAC, and colorectal cancer. Several of these cancer types show EGFR expression in tumors to be greater than 50%, with greater than 90% expression in HNSCC. EGFR overexpression in tumors has been shown to correlate with poor prognosis and resistance to therapy. For this reason, the development of therapies targeting EGFR has been a long-standing focus in cancer drug development.",
+    "EGFR-directed monoclonal antibodies, such as cetuximab, drive anti-tumor responses both through inhibiting EGFR signaling and through antibody-dependent cellular cytotoxicity, or ADCC. ADCC-mediated cell killing occurs when natural killer, or NK, cells recognize and bind to antibodies containing an IgG1 Fc domain, which are bound to their respective tumor cell surface antigens. Cetuximab is approved in HNSCC and colorectal cancer, two tumor types where EGFR overexpression is at its highest and has also shown the highest anti-tumor efficacy. The durability of EGFR-targeted therapies has been limited by acquired resistance mechanisms.",
+    "Due to its role as a well-validated tumor antigen, EGFR-directed monoclonal antibodies are utilized to deliver anti-tumor payloads directly to the tumor. Currently, there are several EGFR antibody-drug conjugates and bispecific antibodies in development that aim to mitigate the systemic toxicities of chemotherapy-derived drug conjugates by delivering these payloads directly to EGFR-expressing tumors.",
+    "TGF-β is a cytokine molecule that functions as a master regulator of immunity and cellular signaling that controls a wide range of biological functions. TGF-β plays multiple essential roles in the body's early development and survival as well as in maintaining health in mature organisms.",
+    "In oncogenesis, or the process by which normal, healthy cells turn into cancerous cells, TGF-β both promotes tumor growth and shields tumors from immune surveillance and removal. TGF-β1 is the most commonly expressed isoform of TGF-β in various human tumor types and is predominantly expressed in cancers of squamous-cell origin, such as HNSCC. Third party studies have demonstrated that TGF-β1 expression and activation likely contribute to immune escape, which is linked to the primary resistance observed in human tumors against certain cancer therapies.",
+    "TGF-β also serves as a tumor promoter by transforming cells from a more differentiated state to a less differentiated, more primitive state that is no longer dependent on EGFR signaling for proliferation and survival. This shift is known as the epithelial-mesenchymal transition, or EMT, which leads to tumor cell proliferation, migration, invasion and metastasis. Due to its role in cancer progression, we believe the inhibition of TGF-β has the potential to both limit the tumors' ability to escape EGFR inhibition by switching to an EGFR signaling independent phenotype, as well as restore the immune system's ability to repress tumor growth."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Limited Operating History, Financial Condition and Need for Additional Capital",
+    "If we are unable to raise capital when needed, or on acceptable terms, we may be unable to complete the development and commercialization of ficerafusp alfa or any future product candidates.",
+    "Raising additional capital may cause dilution to our stockholders, restrict our operations or require us to relinquish rights to ficerafusp alfa.",
+    "Risks Related to Our Business Operations and Industry",
+    "We face significant competition from other biotechnology and pharmaceutical companies, and our operating results will suffer if we fail to compete effectively.",
+    "Our employees, independent contractors, consultants and vendors may engage in misconduct or other improper activities, including noncompliance with regulatory standards and requirements.",
+    "If we are unable to protect the confidentiality of our proprietary information, the value of ficerafusp alfa could be adversely affected.",
+    "Risks Related to the Discovery and Development of ficerafusp alfa or Future Product Candidates",
+    "Our business is dependent on our ability to advance ficerafusp alfa and future product candidates through clinical trials, obtain marketing approval and ultimately commercialize them.",
+    "Clinical development involves a lengthy and e"
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. You should consider and read carefully all of the risks and uncertainties described below, as well as the other information in this Annual Report on Form 10-K, including our consolidated financial statements and the related notes appearing elsewhere in this Annual Report on Form 10-K and the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" before deciding whether to invest in our common stock. The risks described below are not the only ones facing us. The following risks or additional risks and uncertainties not presently known to us or that we currently believe to be immaterial could materially and adversely affect our business, financial condition, results of operations and growth prospects. In such an event, the trading price of our common stock could decline, and you may lose all or part of your investment.",
+    "This Annual Report on Form 10-K also contains forward-looking statements and estimates that involve risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business operations. Our actual results could differ materially from those anticipated in our forward-looking statements as a result of specific factors, including the risks and uncertainties described below.",
+    "We are a clinical-stage biopharmaceutical company with a limited operating history, which may make it difficult to evaluate our current business and predict our future success and viability. We have incurred significant financial losses since our inception and anticipate that we will continue to incur significant financial losses for the foreseeable future.",
+    "We are a clinical-stage biopharmaceutical company with a limited operating history. We were formed in December 2018, and our operations to date have been limited to pre-commercial activities. We have not yet demonstrated an ability to generate revenue, obtain regulatory approval, manufacture any product on a commercial scale or arrange for a third party to do so on our behalf or conduct sales and marketing activities necessary for successful product commercialization. Our limited operating history as a company makes any assessment of our future success and viability subject to significant uncertainty. We will encounter risks and difficulties frequently experienced by early-stage biopharmaceutical companies in rapidly evolving fields, and we have not yet demonstrated an ability to successfully overcome such risks and difficulties. If we do not address these risks and difficulties successfully, our business will suffer.",
+    "We have no products approved for commercial sale and have not generated any revenue from product sales to date. We will continue to incur significant research and development and other expenses related to clinical development and ongoing operations. As a result, we are not profitable and have incurred losses in each period since our inception. Net losses and negative cash flows have had, and will continue to have, an adverse effect on our stockholders' equity and working capital. Our net losses totaled $138.0 million and $68.0 million for the years ended December 31, 2025 and 2024, respectively. As of December 31, 2025, we have not yet generated revenues. We expect to continue to incur significant losses for the foreseeable future, and we expect these losses to increase as we continue our research and development of, and seek regulatory approvals for, ficerafusp alfa.",
+    "We anticipate that our expenses will increase substantially if, and as, we: •advance ficerafusp alfa through clinical development;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Components of Results of Operations",
+    "Operating Expenses",
+    "Other (Expenses) Income",
+    "Other Comprehensive Income",
+    "During the year ended 2025, the Company held marketable securities in U.S. Treasury Bills. The unrealized gain on these instruments was recorded in Other Comprehensive Income.",
+    "Results of Operations",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "Year Ended December 31,",
+    "2025 2024 Change",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "Future Funding Requirements",
+    "Contractual Obligations and Commitments",
+    "Payment Due by Period",
+    "Total Less than 1 Year 1-3 years 4-5 years",
+    "Critical Accounting Policies and Estimates",
+    "Accrued Research and Development Expenses",
+    "Common Stock Valuation",
+    "Stock-Based Compensation",
+    "Emerging Growth Company and Smaller Reporting Company Status",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our audited financial statements and related notes appearing elsewhere in this Annual Report on Form 10-K. Some of the information contained in this discussion and analysis or set forth elsewhere in this Annual Report on Form 10-K, including information with respect to our future results of operations or financial condition, business strategy and plans and objectives of management for future operations, includes forward-looking statements that involve risks and uncertainties and should be read together with the \"Risk Factors\" section of this Annual Report on Form 10-K for a discussion of important factors that could cause our actual results to differ materially from those described in or implied by these forward-looking statements contained in the following discussion and analysis. Please also see the section titled \"Special Note Regarding Forward-Looking Statements.\"",
+    "We are a clinical-stage biopharmaceutical company committed to bringing transformative bifunctional therapies to patients with solid tumors. We have built a platform designed to facilitate the development of bifunctional therapies that precisely target the tumor and deliver a tumor-modulating payload to the tumor site. This dual-targeting approach both enhances drug exposure within the tumor microenvironment, or TME, and limits systemic toxicity. This approach was deployed in the development of our lead program ficerafusp alfa, formerly BCA101, a bifunctional epidermal growth factor receptor-, or EGFR, directed monoclonal antibody bound to a human transforming growth factor beta, or TGF-β, ligand trap.",
+    "By combining these two clinically validated targets, ficerafusp alfa has the potential to exert potent anti-tumor activity by simultaneously blocking both cancer cell-intrinsic EGFR survival and proliferation, as well as the immunosuppressive TGF-β signaling within the TME. Ficerafusp alfa directs the TGF-β inhibitor into the immediate TME through the binding of EGFR on tumor cells, which we believe will drive the tumor penetration of immune cells that lead to deep and durable responses and an increase in overall survival, or OS.",
+    "We believe ficerafusp alfa has the potential to provide meaningful clinical benefit in solid tumors that are challenged by inadequate tumor penetration and where there is a strong biologic rationale for the dual inhibition of both EGFR and TGF-β, such as head and neck cancers and other squamous cell carcinomas which typically overexpress EGFR and TGF-β pathways. We are focusing our efforts and resources on the continued development of ficerafusp alfa in those tumor types for which there is strong biologic rationale and remaining unmet need for enhanced tumor penetration.",
+    "Since our inception in December 2018, we have not generated any revenue from product sales or other sources and have incurred significant operating losses and negative cash flows from our operations. Our primary uses of cash to date have been conducting research and development, advancing development of ficerafusp alfa, raising capital, building infrastructure, developing intellectual property, hiring personnel and providing general and administrative support for these operations. To date, we have funded our operations primarily through sale of common stock in connection with our initial public offering, or IPO, ATM Program (as defined below), our February 2026 Offering (as defined below), exercise of stock options, private placements of our redeemable convertible preferred stock, and through debt financing. As of December 31, 2025, we had raised aggregate net proceeds of $719.6 million and had cash, cash equivalents and marketable securities of $414.8 million. The February 2026 Offering (as defined below) closed on February 26, 2026 and resulted in net proceeds to us of approximately $161.8 million, after deducting underwriting discounts and commissions and offering expenses.",
+    "We have incurred operating losses in each year since our inception. Our net losses were $138.0 million and $68.0 million for the years ended December 31, 2025 and 2024, respectively. As of December 31, 2025, we had an accumulated deficit of $359.0 million. We expect our expenses and operating losses will increase substantially as we:",
+    "•conduct our current and future clinical trials; •continue our research and development activities;",
+    "•utilize third parties to manufacture our product candidate and related raw materials or, should we decide to do so, build and maintain a commercial-scale current good manufacturing practice, or cGMP, manufacturing facility;",
+    "•hire additional research and development, clinical and commercial, and operational personnel;",
+    "•add quality control, quality assurance, legal, compliance, and other groups to support our operations;",
+    "•maintain, expand, enforce, defend and protect our intellectual property portfolio (including intellectual property obtained through license agreements) and provide reimbursement of third-party expenses related to our patent portfolio;",
+    "•seek regulatory approvals for ficerafusp alfa or any future product candidates for which we successfully complete clinical trials;",
+    "•ultimately establish a sales, marketing and distribution infrastructure to commercialize ficerafusp alfa or any future product candidates for which we may obtain marketing approval;",
+    "•make any payments due under potential license agreements and any potential milestones, royalties or other payments due under any future in-license or collaboration agreements; and incur additional costs associated with being a public company."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "Ficerafusp alfa：一種雙功能 EGFR 導向單株抗體，與 TGF-β 納米陷阱結合，以增強腫瘤穿透力，驅動深層且持久的反應",
+    "EGFR 與 TGF-β 在鱗狀細胞癌及其他實體腫瘤中的既定角色",
+    "Ficerafusp alfa 被設計用以透過打破 TME 中的屏障，促進腫瘤穿透力，以驅動深層且持久的反應",
+    "Ficerafusp alfa 的臨牀開發",
+    "透過第一期/第一期b試驗建立早期概念證據",
+    "根據生物學特性，追蹤開發至一線復發/難治性 HPV 陰性頭頸部鱗狀細胞癌",
+    "第一期b擴展族羣",
+    "Ficerafusp alfa 顯示出一般耐受性良好的安全性科別",
+    "FORTIFI-HN01：Phase 2/3 關鍵臨牀試驗於 1L R/M HNSCC",
+    "拓展 ficerafusp alfa 的潛力",
+    "HNSCC 領域的擴展機會",
+    "MSS RASwt mCRC",
+    "皮膚鱗狀細胞癌 (cSCC)",
+    "肛門鱗狀細胞癌 (SCAC)",
+    "與 Biocon 籤訂的契約轉讓及授權協議",
+    "與 MSD 籤訂的臨牀試驗合作及供應協議",
+    "智慧財產權",
+    "Ficerafusp alfa",
+    "製造",
+    "政府規範",
+    "美國生物製品許可審查與批准"
+   ],
+   "paragraphs": [
+    "本公司為一家臨牀階段的生物製藥公司，致力於為罹患實體腫瘤的病患帶來具有變革性的雙功能療法。本公司已建立一個平台，用以促進雙功能療法的開發，該療法能精準地針對腫瘤，並將調節腫瘤的載荷送達腫瘤部位。這種雙目標向方法不僅能提升藥物在腫瘤微環境，或TME中的暴露程度，同時也能降低全身毒性。這種方法已應用於我們的領先計畫ficerafusp alfa，該藥物先前稱為BCA101，是一種雙功能表皮生長因子受體，或EGFR，導向的單株抗體，與人類轉化生長因子β，或TGF-β，配體陷阱結合。",
+    "透過結合這兩個已臨牀驗證的目標，ficerafusp alfa有潛力同時阻斷癌細胞內在的EGFR生存與增殖，以及TME中的免疫抑制TGF-β訊號，從而產生強效的抗腫瘤活性。ficerafusp alfa透過與腫瘤細胞上的EGFR結合，將TGF-β抑制劑導入即時的TME，我們認為這將促進免疫細胞穿透腫瘤，進而引發深層且持久的反應，並提高總體生存率，或OS。",
+    "我們認為ficerafusp alfa有潛力在那些因腫瘤穿透不足而面臨挑戰的實體腫瘤中提供重要的臨牀效益，特別是在有強烈生物學理由支持同時抑制EGFR和TGF-β的腫瘤中，例如頭頸癌及其他鱗狀細胞癌，這些腫瘤通常過度表現EGFR和TGF-β路徑。我們正將資源與努力集中在那些有強烈生物學理由且仍存在改善腫瘤穿透需求的腫瘤類型上，持續開發ficerafusp alfa。",
+    "ficerafusp alfa目前正在頭頸鱗狀細胞癌，或HNSCC中進行研究。我們的全球雙盲第二期/第三期FORTIFI-HN01關鍵試驗，評估1500毫克每週一次，或QW，的ficerafusp alfa與帕博利珠單抗組合治療第一線，或1L，復發/轉移，或R/M，人乳頭瘤病毒感染，或HPV，陰性HNSCC，其腫瘤表現程序性死亡配體1，且組合正向分數，或CPS，≥1，正在進行中。我們預期在2026年底完成大量入組，以進行2027年中間的分析。我們認為該試驗可支持加速批准，基於總體反應率，或ORR，六個月的持續性，以及質性OS。另外，有關1500毫克每週一次的ficerafusp alfa與帕博利珠單抗組合治療HNSCC的第1b期擴展組別正在進行中，包括評估1L R/M HPV陰性患者且CPS<1，以及HPV陽性重度吸煙者的組別。",
+    "我們目前對於 ficerafusp alfa 的開發計畫，可由下列管線圖做總結：",
+    "我們的目標是建立一家完整整合、具商業規模的生物製藥公司，開發對癌症患者重要的治療方案，首先從 ficerafusp alfa 開始。",
+    "ficerafusp alfa 是一種雙功能抗體，結合兩種目標的已建立生物學特性—抗 EGFR 抗體 cetuximab，與 TGF-β 受體 2 的細胞外域融合。ficerafusp alfa 設計用 EGFR 結合的方式，將強效的抗 TGF-β 治療直接送達 EGFR 表達的腫瘤，潛在地透過一種稱為「配體陷阱」的策略，去除 TGF-β 並中和其訊號活動。我們認為，在腫瘤微環境（TME）內局部抑制 TGF-β 有潛力提高其抗腫瘤效果與持續性，透過重塑免疫抑制與免疫排除的 TME，使具有殺傷力的免疫細胞能夠穿透，進而產生深層且持續的反應。我們已在體外與體內顯示 ficerafusp alfa 的表現符合預期，能同時結合兩種目標、定位至腫瘤、抑制腫瘤生長並降低腫瘤內的 TGF-β 水準。我們也刻意選擇 EGFR 為 TGF-β 配體陷阱的腫瘤標的抗原，基於 TGF-β 阻斷與 EGFR 信號抑制之間潛在的協同機制。",
+    "針對 EGFR 在鱗狀細胞癌及其他實體腫瘤的標的",
+    "EGFR 是一種位於細胞表面的酪氨酸激酶生長因子受體，參與許多促癌途徑。活化 EGFR 途徑會導致細胞週期進行、減少細胞死亡、血管生成以及轉移性表現型。EGFR 表達過度已被連結至多種起源自鱗狀細胞的癌症，包括頭頸部鱗狀細胞癌（HNSCC）、皮膚鱗狀細胞癌（CSCC）、肛門鱗狀細胞癌（SCAC）以及結腸直腸癌。這些癌症類型中，有數種在腫瘤中顯示 EGFR 表達率高於 50%，其中 HNSCC 更高於 90%。腫瘤中 EGFR 表達過度已被顯示與不良預後及治療抵抗有關。因此，開發針對 EGFR 的治療方式一直是癌症藥物開發的長期重點。",
+    "針對 EGFR 的單株抗體，例如西妥昔單抗（cetuximab），透過抑制 EGFR 信號傳導及抗體依賴性細胞毒性（ADCC）來驅動抗腫瘤反應。ADCC 介導的細胞殺傷發生在自然殺傷（NK）細胞辨識並結合到含有 IgG1 Fc 域的抗體，這些抗體與其相應的腫瘤細胞表面抗原結合時。西妥昔單抗已核准用於頭頸部鱗狀細胞癌（HNSCC）及結腸直腸癌，這兩種腫瘤類型中 EGFR 表達過度達到最高，且也顯示最高的抗腫瘤療效。針對 EGFR 的治療方式的持續性受到獲得性抗藥性機制的限制。",
+    "由於其作為一個已驗證的腫瘤抗原的角色，針對 EGFR 的單株抗體被用來將抗腫瘤載體直接送達腫瘤。目前，有數種 EGFR 抗體藥物偶聯物及雙特異性抗體正在開發中，旨在透過將這些載體直接送達 EGFR 表達的腫瘤，來緩和化療衍生藥物偶聯物的全身毒性。",
+    "TGF-β 是一種細胞激素分子，作為免疫及細胞信號傳導的主控調節因子，控制廣泛的生物功能。TGF-β 在身體早期發育及生存中扮演多種關鍵角色，以及在成熟生物體中維持健康。",
+    "在癌變（即正常健康細胞轉變為癌細胞的過程）中，TGF-β 會促進腫瘤生長並保護腫瘤免於免疫監測及清除。TGF-β1 是各種人類腫瘤類型中最常見的 TGF-β 等位變體，且主要表達在起源自鱗狀細胞的癌症中，例如頭頸部鱗狀細胞癌（HNSCC）。第三方研究已顯示 TGF-β1 表達及活化可能導致免疫逃逸，這與人類腫瘤對某些癌症治療的原發性抗藥性有關。",
+    "TGF-β 也透過將細胞從較分化狀態轉變為較未分化、更原始的狀態，而成為腫瘤促進因子，這種狀態不再依賴 EGFR 信號傳導進行增殖及存活。這種轉變稱為上皮-間質轉變（EMT），導致腫瘤細胞增殖、移動、入侵及轉移。由於其在癌症進展中的作用，我們認為抑制 TGF-β 有潛力同時限制腫瘤逃逸 EGFR 抑制的能力，透過轉變為不依賴 EGFR 信號傳導的表現型，以及恢復免疫系統對腫瘤生長的抑制能力。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果之組成項目",
+    "營運費用",
+    "其他（費用）收入",
+    "其他綜合所得",
+    "於2025年結算年度，本公司持有美國國庫券之可交易證券。這些證券之未實現獲利已記入其他綜合所得。",
+    "營運成果",
+    "2025年12月31日結算年度與2024年12月31日結算年度之比較",
+    "2025年12月31日結算年度,",
+    "2025 2024 變動",
+    "流動性及資本資源",
+    "流動性來源",
+    "未來資金需求",
+    "契約義務及承諾",
+    "各期間應償付金額",
+    "總計 少於 1 年 1-3 年 4-5 年",
+    "關鍵會計政策及會計估計",
+    "應計研究與開發費用",
+    "普通股評價",
+    "股票基於報酬",
+    "新興成長公司與小型申報公司資格",
+    "最近會計準則聲明"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運結果的討論與分析，應與我們經審計之財務報表及其相關附註一併閱讀，這些財務報表及其他內容出現在本年度10-K表報表中。本討論與分析中包含的部分資訊，或出現在本年度10-K表報表其他地方的資訊，包括與我們未來營運結果或財務狀況、商業策略及管理階層未來營運計畫與目標相關的資訊，包含風險與不確定性之預測性陳述，應與本年度10-K表報表中「風險因素」部分一併閱讀，以瞭解可能導致我們實際結果與這些預測性陳述中所述或暗示之結果有重大差異的重要因素。請同時參閱標題為「關於預測性陳述之特別說明」之部分。",
+    "我們是一家臨牀階段的生物製藥公司，致力於為罹患實體腫瘤的病患帶來具有變革性的雙功能療法。我們已建立一個平台，用以促進雙功能療法的開發，該療法能精準地針對腫瘤，並將調節腫瘤的載荷送達腫瘤部位。這種雙目標取向的策略，一方面增強藥物在腫瘤微環境，或TME中的暴露程度，另一方面則限制系統性毒性。這種策略已應用於我們的領先計畫ficerafusp alfa，原先稱為BCA101，一種雙功能表皮生長因子受體，或EGFR，導向單株抗體，與人類轉變生長因子β，或TGF-β，配體陷阱結合的產品。",
+    "透過結合這兩個已臨牀驗證的目標，ficerafusp alfa有潛力透過同時阻斷癌細胞內在的EGFR生存與增殖，以及TME內的免疫抑制TGF-β訊號傳導，來發揮強效的抗腫瘤活性。ficerafusp alfa透過與腫瘤細胞上的EGFR結合，將TGF-β抑制劑導向至即時的TME，我們相信這將促進免疫細胞穿透腫瘤，進而導致深層且持久的反應，並提高總體存活率，或OS。",
+    "我們認為ficerafusp alfa有潛力在那些因腫瘤穿透不足而受到挑戰的實體腫瘤中，提供重要的臨牀效益，特別是在有強烈生物學理由支持同時抑制EGFR與TGF-β的腫瘤類型，例如頭頸癌及其他通常過度表現EGFR與TGF-β路徑的鱗狀細胞癌。我們正將我們的資源與努力集中在那些具有強烈生物學理由且仍有未滿足的腫瘤穿透需求的腫瘤類型上，以持續發展ficerafusp alfa。",
+    "",
+    "自我們成立以來的每個年度，我們都產生營運虧損。我們的淨虧損為2025年12月31日結算年度為138.0 百萬美元，2024年12月31日結算年度為68.0 百萬美元。截至2025年12月31日，我們累計虧損為359.0 百萬美元。我們預期我們的費用與營運虧損將大幅增加，因為我們：",
+    "•進行目前及未來的臨牀試驗；•持續進行研究與開發活動；",
+    "•利用第三方製造我們的產品候選品及其相關原料，或若我們決定要進行，則建立並維護一個商業規模的符合美國現行良好製造規範，或cGMP，製造廠房；",
+    "•聘僱更多研究與開發、臨牀與商業及運營人員；",
+    "•增設品質控制、品質保證、法律、合規及其它部門以支援我們的運營；",
+    "•維護、擴充、執行、辯護及保護我們的智慧財產權組合（包括透過授權協議取得的智慧財產權）並提供與我們專利組合相關的第三方費用補償；",
+    "•尋求對 ficerafusp alfa 或任何我們成功完成臨牀試驗的未來產品候選藥物的監管批准；",
+    "•最終建立銷售、行銷及分銷基礎設施以商業化 ficerafusp alfa 或任何我們可能取得行銷批准的未來產品候選藥物；",
+    "•支付任何潛在授權協議下的應付款項及任何未來進授權或合作協議下的潛在里程碑、版稅或其他應付款項；並產生成為上市公司所帶來的額外成本。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司有限的營運歷史、財務狀況及對額外資金需求相關之風險",
+    "若本公司無法在需要時取得資金，或在可接受之條件下取得資金，則可能無法完成 ficerafusp alfa 或任何未來產品候選藥物之開發與商業化。",
+    "取得額外資金可能導致股東持股稀釋、限制本公司營運活動，或要求本公司放棄 ficerafusp alfa 之權利。",
+    "與本公司營運及產業相關之風險",
+    "本公司面臨來自其他生物科技與製藥公司之重大競爭，若本公司無法有效競爭，營運成果將受影響。",
+    "本公司員工、獨立承包商、顧問及廠商可能涉及不當行為或其他不當活動，包括未符合監管標準與要求。",
+    "若本公司無法保護本公司專屬資訊之機密性，則 ficerafusp alfa 之價值可能受到不利影響。",
+    "與 ficerafusp alfa 或未來產品候選藥物之發現與開發相關之風險",
+    "本公司業務依賴於本公司能將 ficerafusp alfa 及未來產品候選藥物通過臨牀試驗，取得行銷核准，並最終實現商業化。",
+    "臨牀開發涉及漫長且 e"
+   ],
+   "paragraphs": [
+    "投資本公司的普通股涉及高度風險。您應仔細考慮並閱讀下列所有風險與不確定性說明，以及本年度報表（Form 10-K）中其他資訊，包括我們的合併財務報表及相關附註，以及標題為「管理層對財務狀況與營運結果之討論與分析」的章節，以決定是否投資本公司的普通股。下列所描述的風險並非我們唯一面臨的風險。下列風險或目前未知、或我們認為不重要的其他風險與不確定性，可能會對我們的業務、財務狀況、營運結果與成長前景造成重大且不利的影響。在這種情況下，本公司普通股的交易價格可能會下跌，您可能會失去全部或部分投資。",
+    "本年度報表（Form 10-K）也包含前瞻性陳述與估計，這些陳述與估計涉及目前未知的風險與不確定性，或我們目前認為不重要的風險與不確定性，也可能影響我們的業務運作。我們的實際結果可能與前瞻性陳述中預期的結果有重大差異，原因在於特定因素，包括下列所描述的風險與不確定性。",
+    "本公司為一家臨牀階段的生物科技公司，營運歷史有限，這可能使評估我們目前業務與預測未來成功與生存能力變得困難。自我們成立以來，我們已產生顯著的財務虧損，並預期在可預見的未來，我們仍將持續產生顯著的財務虧損。",
+    "本公司為一家臨牀階段的生物科技公司，營運歷史有限。我們於2018年12月成立，截至目前為止，營運活動僅限於預商業活動。我們尚未展示出產生收入、取得監管批准、製造任何產品於商業規模或委託第三方代為製造，或進行銷售與行銷活動以實現產品商業化的能力。本公司營運歷史有限，使對我們未來成功與生存能力的評估面臨重大不確定性。我們將經常面臨早期階段生物科技公司於快速變遷領域中常見的風險與困難，而我們尚未展示出成功克服這些風險與困難的能力。若我們未能成功解決這些風險與困難，將對我們的業務造成影響。",
+    "我們目前尚無經批准可商業銷售的產品，且至今尚未從產品銷售中產生任何收入。我們將持續產生與臨牀開發及持續營運相關的重大研究與開發及其他費用。因此，我們尚未獲利，且自成立以來每個期間均產生虧損。淨虧損與負現金流已對股東權益與營運資金造成不利影響，並將持續造成不利影響。我們的淨虧損於2025年12月31日止年度為138.0 百萬美元，2024年12月31日止年度為68.0 百萬美元。截至2025年12月31日，我們尚未產生收入。我們預期在可預見的未來，持續產生重大虧損，且隨著我們繼續進行ficerafusp alfa的研究與開發，並尋求其監管批准，這些虧損將增加。",
+    "我們預期，若我們：•將ficerafusp alfa推進至臨牀開發階段，則費用將大幅增加。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

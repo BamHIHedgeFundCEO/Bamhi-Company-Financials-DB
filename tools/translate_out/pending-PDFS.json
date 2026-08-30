@@ -1,0 +1,124 @@
+{
+ "ticker": "PDFS",
+ "cik": "0001120914",
+ "accession": "0001437749-26-005366",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Business Overview",
+    "Industry Background",
+    "Technology and Intellectual Property Protection",
+    "Products and Services",
+    "Sales and Marketing",
+    "Research and Development",
+    "Governmental Regulations",
+    "Anti-corruption and anti-bribery",
+    "Data privacy and data protection",
+    "Artificial intelligence",
+    "Human Capital Management",
+    "Information about our Executive Officers",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "We provide comprehensive data solutions designed to empower organizations across the semiconductor and electronics ecosystems to improve the yield and quality of their products and operational efficiency for increased profitability. We derive revenues from two categories, Platform and Volume-based fees. Our offerings that contribute to Platform revenue are licenses for software (other than Cimetrix® runtime licenses) and related software maintenance and technical support services; software-as-a-service (\"SaaS\"); engineering services; fixed fees associated with Characterization Vehicle® systems; and licenses and purchase contracts for DirectScan™ systems (formerly known as \"DFI systems\"). Volume-based revenue is derived from Cimetrix runtime licenses, secureWISE® data, and variable/royalty fees associated with CV® systems (sometimes referred to as Gainshare). We are headquartered in Santa Clara, California, and operate worldwide with additional offices in the United States of America, Canada, China, France, Germany, Italy, Japan, South Korea, and Taiwan.",
+    "For decades, due to the challenge of timely managing very large amounts of data, manufacturing analytics often functioned as an overlay in the semiconductor industry: though powerful, it was disconnected from direct execution. We are reframing analytics as infrastructure: a shared data backbone that spans characterization, process development, high-volume manufacturing, test, and assembly. We believe that this distinction is critical as data volumes explode and process interactions become increasingly nonlinear. By seeking to standardize how data is ingested, contextualized, and analyzed across domains, the PDF Solutions Platform is designed to reduce reliance on custom integrations and tribal knowledge. The result is intended to be not simply better visibility, but a common analytical language that enables faster root-cause analysis, more consistent decision-making, and shared accountability across teams and partners. Additionally, we believe that valuable, trusted, production-ready applications of AI in an industrial context need to be anchored on that type of robust, scalable, and secure data platform. Our aim is for the PDF Solutions Platform to enable the scaling of AI across the semiconductor ecosystem.",
+    "Our customers include Fortune 500 companies that use our products and services with the objective of achieving various goals depending on whether they are integrated device manufacturers (\"IDMs\"), fabless semiconductor companies, foundries, equipment manufacturers, electronics manufacturing suppliers (\"EMS\"), original device manufacturers (\"ODMs\"), outsourced semiconductor assembly and test (\"OSATs\"), or system houses. For example, our foundry customers generate and analyze key manufacturing data using our solutions, which are designed to shorten the time necessary for technology development and provide their fabless customers with a higher yielding process with improved electrical performance, which are both critical metrics for market success. Higher yields in less time can also mean less total raw materials and process runs, which can help lower customers' total cost and minimize environmental impact. Foundries also use our products to remotely monitor and control equipment running in disparate locations, which is designed to reduce overhead associated with in person services and result in better equipment uptime and productivity. Foundries, as well as equipment manufacturers, use our connectivity products to implement evolving industry standards which require stability and quality for their operations or equipment, respectively. Equipment manufacturers can also use our products to remotely monitor and support and maintain their equipment located in foundries and OSATs. By way of a further example, our IDM and fabless customers use our solutions to align their data, as well as unique, differentiated data that we help them generate, by means of our industry-standards-based semantic model. Such aligned data can then be analyzed with our machine learning (\"ML\") and artificial intelligence (\"AI\") algorithms, which are designed to predict downstream manufacturing issues and result in shorter time for designs to meet performance requirements with fewer iterations and faster time-to-market. As a final example, our foundry and OSAT customers use the AI and ML applications of our software to help optimize for process control, assembly, and/or testing.",
+    "Our mission is to provide innovative solutions to create, access, and organize data to enable analysis and control for semiconductor and electronics companies to achieve better time-to-market, yields, quality, and operational efficiencies. Our strategy to achieve this mission, which is based on an overall repositioning of analytics in the global manufacturing context, is anchored on four integrated pillars:",
+    "Differentiated Data & Process Characterization. Our DirectScan system combines voltage contrast e-beam inspection with design layout analysis to help identify systematic failures inline before they occur. Our eProbe tool performs inline inspection designed to test over 60 trillion vias per year per tool and catch defects in increasingly three-dimensional structures. We have taken advantage of advances in agentic AI to also help make the tens of thousands of experiments and billions of measurements per wafer of our advanced CV test chips more accessible, including by enabling customers to interpret complex datasets and generate insights quickly on demand.",
+    "AI-Ready Data Platform. Recognizing that current analytics architectures hit fundamental limits around 20,000 parameters, while newer semiconductor devices and chiplet products routinely generate millions, in 2024, we began work to completely reimagine our analytics platform to be able to handle the extremely large data volume typical of the semiconductor industry. The new architecture introduces a scalable, parallel, interactive analytics layer between traditional business intelligence tools and data storage. The end result is being designed to deliver significant improvements in analytics loading and improvements for critical analyses. Our philosophy for the applicability of AI in semiconductor manufacturing centers on \"human governance with AI execution,\" with an aim to establish rules and guardrails that allow AI to automate up to 90% of analysis while seeking to render visualizations in seconds and mine 100% of data 100% of the time.",
+    "Collaboration and Supply Chain Orchestration. We are tackling the orchestration challenge at two levels. Internal orchestrations through our Sapience Manufacturing Hub solution are designed to enable seamless integration across manufacturing execution system (MES), enterprise resource planning (ERP), product lifecycle management (PLM), and electronic design automation (EDA) tools and eliminate the data wrangling that consumes data scientists' time. External orchestrations are designed to automate quality assurance, enable real-time work-in-progress tracking, and facilitate data feed-forward applications that allow test parameters from one insertion to optimize subsequent operations.",
+    "Global Secure Connectivity Platform. In 2020, we expanded our portfolio with Cimetrix products via acquisition, which products are a leading software for connectivity and control of semiconductor manufacturing equipment, and in 2025, nearly 8,000 pieces of semiconductor manufacturing equipment shipped with Cimetrix products enabled. In 2025, we again expanded our portfolio with secureWISE products and network via another acquisition. Our secureWISE network connected over 300 manufacturing locations and over 100 equipment OEMs as of December 31, 2025, and is designed to provide end-to-end encryption and follow many of the guiding principles of zero trust architecture and a number of additional region-specific security requirements and industry-specific SEMI standards, and manage the exchange of terabytes of data with reliable uptime across eight regions, and is within the scope of our information security management system, which is ISO 27001:2022 certified.",
+    "The semiconductor industry has always been a very capital-intensive industry, which, historically, resulted in a high concentration of manufacturing capacity in a few large localities to best benefit from economies of scale. In recent years, however, some countries' interest in local semiconductor production has led to several large investments in new manufacturing facilities, resulting in a geographically dispersed global semiconductor supply chain. advanced multichip packaging aimed at creating new sources of performance scalability is also impacting the overall semiconductor industry supply chain, including that designs will need to incorporate IP from different sources while the assembly of these multiple components will be done across a network of suppliers, manufacturing, assembly, testing companies that is more complex than for monolithic devices.",
+    "Our success is largely dependent upon our proprietary software. We believe the creative skills and technological ability of our personnel, product enhancements, and new product development are necessary to maintain our position as a leading provider of comprehensive data solutions to the semiconductor industry. We rely primarily on trade secret rights, copyright laws, and nondisclosure and other contractual agreements to protect our software.",
+    "In addition, our success is dependent on various inventions we have made and we seek to protect certain of our IP under patent laws. As of December 31, 2025, we held 209 U.S. patents, with expiration dates on unexpired patents ranging from 2027 through 2043. We intend to prepare additional patent applications when we feel it is beneficial. Some of the technology we protect by patent includes elements of our CV and DirectScan systems and inventions related to AI/ML.",
+    "We protect our trademarks with registration of marks, including Characterization Vehicle, Cimetrix, CV, eProbe, Exensio, pdFasTest, PDF Solutions, secureWISE, and stylized logos therefor. We have common law rights to additional trademarks, including ALPS, DirectScan, Fire, and Sapience.",
+    "We further seek to protect our IP by entering into confidentiality and inventions assignment agreements with our employees and confidentiality and license agreements with our customers and the various parties we partner with to resell, distribute, and, in some cases, integrate our products. Further, we work to limit access to and distribution of our software, documentation and other proprietary information.",
+    "Third parties could in any case develop competing technologies that include similar functionality or features, or otherwise are substantially equivalent or superior to our technologies. In addition, effective patent, copyright, trademark and trade secret protection may be unavailable or limited in certain foreign countries where we operate. Our business could suffer significantly if we fail to protect our proprietary technology."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Associated with Our Business",
+    "Defects in our software, hardware and other proprietary technologies, and failure to effectively remedy any such defects could decrease our revenue and our competitive market share.",
+    "Decreases in wafer volumes at our customers' manufacturing sites or the volume of ICs that some of our customers are able to sell to their customers would cause our Volume-based revenue to suffer.",
+    "Global economic or geopolitical conditions or semiconductor market conditions could materially adversely impact demand for our products and services, decrease our sales, or delay our sales cycle.",
+    "Risks Related to Our Technology",
+    "Our technologies could infringe the IP rights of others, causing costly litigation and the loss of significant rights.",
+    "Competition in the market for data services and analytics and related systems and services may intensify in the future, which could impede our ability to grow or execute our strategy.",
+    "Use of generative AI and other advanced AI Technologies for software development may subject us to claims of misappropriation of others' IP, bugs/errors, and ambiguous ownership of created content.",
+    "Risks Related to Our Operations",
+    "We face operational and financial risks associated with international customers and operations that could negatively impact our revenues."
+   ],
+   "paragraphs": [
+    "A description of the risk factors associated with our business is set forth below. Some of these risks are highlighted in the following discussion, and in Management's Discussion and Analysis of Financial Condition and Results of Operations, Legal Proceedings, and Quantitative and Qualitative Disclosures About Market Risk. The occurrence of any of these risks or additional risks and uncertainties not presently known to us or that we currently believe to be immaterial could materially and adversely affect our business, operating results, financial condition, and stock price. These risks and uncertainties could cause our actual results to differ materially from the results contemplated by the forward-looking statements contained in this report. Investors should carefully consider all relevant risks and uncertainties before investing in our common stock.",
+    "Our significant research and development investment may nonetheless fail to keep pace with technological changes or ensure that our offerings meet market needs, which would adversely impact our business, financial condition, or results of operations.",
+    "As part of the evolution of our business, we have made and continue to make substantial investments in research and development of our products and services, including, in particular, our DirectScan system and Exensio, Sapience, and secureWISE software. New competitors, changes to existing contracts with licensed technology, any companies, products, or services that we may acquire, technological advances in the semiconductor industry and adjacent markets, and other competitive factors have required us and may continue to require us to invest significantly greater resources than we anticipated. If we do not anticipate and address technological changes in our industry or our offerings fail to meet market demand, the corresponding additional revenue we anticipate may not materialize, we may not recoup our investment or capture the market share we anticipate, we may lose our competitive position, and our products may become obsolete, which would adversely impact our business, financial condition and results of operations. Additionally, our periodic research and development expenses may be independent of our level of revenue, which could negatively impact our financial results.",
+    "If we enable access to hosted software or begin performing services ahead of a signed contract or amendment to an existing contract, and the final terms are not as favorable as we expected or the customer delays entering, or decides not to enter, into the contract or amendment, our results of operations could be harmed in the short term or overall and recognition of related revenue could be delayed or not occur at all.",
+    "If we are unable to close new engagements or amendments to existing contracts on terms favorable to us, in a timely manner, or at all, including in cases where we have incurred costs or assigned engineering resources in advance of entering into such engagements or amendments, our revenues may fall short of expectations and other revenue opportunities may have been delayed or lost. Further, the timing and length of negotiations required to enter into agreements with our customers and the enforcement of our complex contractual provisions is difficult to predict. If we do not successfully negotiate certain key complex contractual provisions, if there are disputes regarding such provisions, or if they are not enforceable as we intended, our revenues and results of operations would suffer. Further, our customers sometimes delay starting negotiations until they begin developing a new process, have a need for a new product, or experience specific yield issues. This means that, in certain instances, we have continued, and may continue to provide technology and services under preliminary documentation before executing the final contract. In these cases, we would not recognize revenue and may defer associated costs until execution of a final contract, which, if significant, could negatively impact our results of operations in the periods before we execute a final contract. Further, if we were to incur significant costs and then fail to enter into a final contract, we would have to write-off such deferred costs in the period in which the negotiations ended, which would increase our costs and expenses and could result in significant operating losses.",
+    "We rely on sole-source providers for certain software as well as for specialized parts for our DirectScan system and supply-chain delays or disruptions could increase our costs or impact our ability to provide complete software solutions or to build additional hardware tools or meet customer expectations or deadlines, which could result in lost sales and lower earnings."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Business Overview': '業務概覽'}",
+    "{'Industry Background': '產業背景'}",
+    "{'Technology and Intellectual Property Protection': '技術與智慧財產權保護'}",
+    "{'Products and Services': '產品與服務'}",
+    "{'Sales and Marketing': '銷售與行銷'}",
+    "{'Research and Development': '研究與開發'}",
+    "{'Governmental Regulations': '政府規範'}",
+    "{'Anti-corruption and anti-bribery': '反貪污與反賄賂'}",
+    "資料隱私與資料保護",
+    "人工智慧",
+    "人力資源管理",
+    "執行長高階管理人員之資訊",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "本公司提供完整的數據解決方案，旨在協助半導體與電子生態系統中的組織改善產品良率與品質，並提升作業效率以增加獲利。本公司營收來自兩類型，為平台型與用量型費用。我們的產品與服務，屬於平台型營收的，包括軟體（不包含 Cimetrix® 執行授權）及其相關軟體維護與技術支援服務；軟體即服務（\"SaaS\"); 工程服務；與 Characterization Vehicle® 系統相關的固定費用；以及 DirectScan™ 系統（ formerly known as \"DFI systems\"）的授權與購買合約。用量型營收來自 Cimetrix 執行授權、secureWISE® 數據，以及與 CV® 系統相關的變動/版稅費用（ sometimes referred to as Gainshare）。本公司總部設於美國加州聖克拉拉市，並在全球運營，包括美國、加拿大、中國、法國、德國、義大利、日本、韓國與臺灣等地的辦事處。",
+    "數十年來，由於處理極大量數據的挑戰，製造分析在半導體產業中常被視為附加功能：雖然強大，但與實際執行脫節。我們正將分析重新定位為基礎建設：一個橫跨特性分析、製程開發、高量製造、測試與組裝的共享數據主幹。我們認為這個區別至關重要，因為數據量迅速增加，製程互動變得越來越非線性。透過尋求標準化數據如何被吸入、情境化與分析的方式，PDF 解決方案平台設計為減少對客製整合與部落知識的依賴。結果旨在不僅是更好的可視性，而是一種共同的分析語言，使團隊與夥伴能更快進行根本原因分析，做出更一致的決策，並共享責任。此外，我們認為在工業環境中，具有價值、可信、可生產的 AI 應該建立在這種強大、可擴展且安全的數據平台上。我們的目標是讓 PDF 解決方案平台能協助 AI 在半導體生態系統中擴展。",
+    "我們的客戶包括使用我們產品與服務的財富五百大公司，他們的目標根據其是否為整合式晶片製造商（\"IDMs\"）、無廠晶片製造商、代工廠、設備製造商、電子製造服務商（\"EMS\"）、原始裝置製造商（\"ODMs\"）、委外晶片封裝與測試（\"OSATs\"）或系統屋而有所不同。例如，我們的代工廠客戶使用我們的解決方案來產生與分析關鍵製造數據，這些解決方案設計為縮短技術開發所需時間，並為其無廠客戶提供更高良率的製程與改善電氣性能，這兩者都是市場成功的關鍵指標。較短的時間內提高良率也意味著較少的總原料與製程次數，這有助於降低客戶總成本並減少環境影響。代工廠也使用我們的產品來遠端監測與控制分散在不同地點的設備，這設計為減少親臨服務的開支，並提高設備運轉時間與生產力。代工廠以及設備製造商使用我們的連線產品來實現產業標準的演進，這些標準需要穩定性與品質。設備製造商也可以使用我們的產品來遠端監測與支援及維護其位於代工廠與 OSATs 的設備。進一步的例子是，我們的 IDM 與無廠客戶使用我們的解決方案來對齊其數據，以及我們協助其產生的獨特、差異化的數據，透過我們基於產業標準的語義模型。這些對齊的數據可以與我們的機器學習（\"ML\"）與人工智慧（\"AI\"）演算法進行分析，這些演算法設計為預測下游製造問題，並縮短設計達到性能要求的時間與迭代次數，加快產品上市時間。最後的例子是，我們的代工廠與 OSAT 客戶使用我們軟體的 AI 與 ML 應用來協助優化製程控制、組裝與/或測試。",
+    "我們的使命是提供創新解決方案，以建立、存取與組織數據，使半導體與電子公司能進行分析與控制，以實現更短的上市時間、更高的良率、品質與作業效率。我們實現此使命的策略，基於全球製造環境中分析重新定位的整體策略，並以四個整合的支柱為基礎：",
+    "差異化的數據與製程特性化。我們的 DirectScan 系統結合電壓對比電子束檢測與設計佈局分析，以幫助在問題發生前識別系統性失敗。我們的 eProbe 工具進行線上檢測，設計為每年每臺工具測試超過 60 兆個通孔，並能捕捉越來越三維結構中的缺陷。我們也利用代理 AI 的進展，使我們先進 CV 測試晶片的數萬個實驗與數十億個測量更易於存取，包括讓客戶能快速解讀複雜數據集並即時產生見解。",
+    "AI 就緒數據平台。我們認知到現有分析架構在約 2 萬個參數時會遇到根本限制，而較新的半導體裝置與晶片組產品則常產生數百萬個參數，因此在 2024 年，我們開始重新設計分析平台，使其能處理半導體產業中典型的極大量數據。新架構引入了一個可擴展、平行、互動的分析層，位於傳統商業智慧工具與數據儲存之間。最終結果設計為提供分析載入的顯著改善與關鍵分析的改善。我們在半導體製造中應用 AI 的哲學中心為 \"人類治理與 AI 執行\"，目標是建立規則與防護措施，讓 AI 能自動化最多 90% 的分析，並尋求在幾秒內產生視覺化，並持續 100% 的時間挖掘 100% 的數據。",
+    "合作與供應鏈協調。我們在兩個層面解決協調的挑戰。內部協調透過 Sapience 製造中心解決方案，設計為讓製造執行系統（MES）、企業資源規劃（ERP）、產品生命週期管理（PLM）與電子設計自動化（EDA）工具之間實現順暢整合，並消除數據科學家時間消耗的數據整理工作。外部協調設計為自動化品質保證、實現即時在製品追蹤，並促進數據前饋應用，使一個插入點的測試參數能優化後續作業。",
+    "全球安全連線平台。在 2020 年，我們透過收購擴充了 Cimetrix 產品組合，這些產品是半導體製造設備連線與控制的領先軟體，而在 2025 年，近 8,000 臺半導體製造設備已裝載 Cimetrix 產品。在 2025 年，我們再次透過收購擴充了 secureWISE 產品與網路組合。我們的 secureWISE 網路截至 2025 年 12 月 31 日已連接超過 300 個製造場地與超過 100 個設備 OEM 品牌，設計為提供端到端加密，並遵循許多零信任架構的指導原則與多項地區特定安全需求與產業特定 SEMI 標準，並管理跨八個地區的數TB數據交換，並具備可靠的運行時間，且屬於我們資訊安全管理系統的範疇，該系統已取得 ISO 27001:2022 認證。",
+    "半導體產業一直以來都是一個資金密集型產業，歷史上導致製造能力高度集中於少數幾個大型地區，以最佳化規模經濟效益。然而，近年來一些國家對本地半導體生產的興趣，導致幾個國家進行大量投資興建新製造設施，造成全球半導體供應鏈地理分佈更加分散。進階多晶片封裝技術旨在創造新的效能擴展來源，也正在影響整體半導體產業供應鏈，包括設計必須整合來自不同來源的智慧財產權，而這些多個零組件的組裝將透過一個更為複雜的供應商、製造、組裝、測試公司網路進行，這與單一晶片設備相比更加複雜。",
+    "我們的成功在很大程度上取決於我們的專有軟體。我們認為，我們員工的創造力與技術能力、產品改進與新產品開發，是維持我們在半導體產業中作為全面數據解決方案領先供應商地位的必要條件。我們主要依賴商業機密權利、著作權法以及保密協議和其他契約條款來保護我們的軟體。",
+    "此外，我們的成功也取決於我們所做出的各種發明，我們會透過專利法保護部分智慧財產權。截至2025年12月31日，我們持有209項美國專利，未到期專利的到期日範圍為2027年至2043年。我們計畫在認為有利益時準備更多的專利申請。我們透過專利保護的部分技術包括我們CV與DirectScan系統的元件，以及與AI/ML相關的發明。",
+    "我們透過註冊商標來保護我們的商標，包括Characterization Vehicle、Cimetrix、CV、eProbe、Exensio、pdFasTest、PDF Solutions、secureWISE以及相關的風格化標誌。我們對其他商標擁有普通法權利，包括ALPS、DirectScan、Fire以及Sapience。",
+    "我們進一步透過與員工簽訂保密與發明讓與協議，與客戶簽訂保密與授權協議，以及與合作夥伴簽訂協議來保護我們的智慧財產權，這些合作夥伴協助我們銷售、分銷，並在某些情況下整合我們的產品。此外，我們致力於限制對我們軟體、文件及其他專有資訊的存取與分佈。",
+    "任何情況下，第三方都可能開發出具有相似功能或特徵，或在其他方面與我們技術相當或更優的競爭技術。此外，我們在某些經營國家可能無法獲得或受到限制的有 效專利、著作權、商標及商業機密保護。如果我們未能保護我們的專有技術，我們的業務可能會受到重大影響。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務相關的風險",
+    "我們軟體、硬體及其他專有技術的瑕疵，以及未能有效解決任何相關瑕疵，可能會降低我們的營業收入與競爭市場佔有率。",
+    "我們客戶製造場地的晶片產量減少，或部分客戶能銷售至其客戶的積體電路數量減少，將會導致我們的基於產量的營業收入受損。",
+    "全球總體經濟或地緣政治條件，或半導體市場條件，可能會對我們產品與服務的需求造成重大不利影響，降低我們的銷售額，或延長我們的銷售週期。",
+    "與我們技術相關的風險",
+    "我們的技術可能侵權他人智慧財產權，導致高昂的法律訴訟費用與喪失重要的智慧財產權權利。",
+    "資料服務與分析以及相關系統與服務市場的競爭可能在未來更加激烈，這可能會阻礙我們的成長或執行我們的戰略。",
+    "使用生成式人工智慧及其他先進人工智慧技術進行軟體開發，可能會使我們面臨他人智慧財產權遭竊取、軟體中存在錯誤或內容權屬不明等聲請主張。",
+    "{'original': 'Risks Related to Our Operations', 'translated': '與本公司營運相關之風險'}",
+    "{'original': 'We face operational and financial risks associated with international customers and operations that could negatively impact our revenues.', 'translated': '本公司面臨因國際客戶及營運所產生之營運及財務風險，該等風險可能對本公司營業收入造成負面影響。'}"
+   ],
+   "paragraphs": [
+    "本公司業務所涉及之風險因素說明如下。部分風險已在後續討論中強調，並於管理層對財務狀況與營運成果之分析、法律訴訟及市場風險之數量與性質揭露中提及。上述任何風險或尚未為本公司所知悉之其他風險與不確定性，可能對本公司之業務、營運成果、財務狀況及股票價格造成重大且不利之影響。這些風險與不確定性可能導致本公司實際結果與本報告中所包含之預測性陳述有所差異。投資人於投資本公司普通股前，應謹慎考量所有相關風險與不確定性。",
+    "本公司對研究與開發之重大投資，仍可能無法跟上技術變革或確保本公司產品與服務符合市場需求，這將對本公司之業務、財務狀況或營運成果造成不利影響。",
+    "隨著本公司業務之演進，本公司已進行並持續進行產品與服務之研究與開發投資，包括特別是DirectScan系統與Exensio、Sapience及secureWISE軟體。新競爭對手、現有授權技術合約之變更、本公司可能取得之公司、產品或服務、半導體產業與相關市場之技術進步及其他競爭因素，已要求本公司並可能持續要求本公司投入比預期更高的資源。若本公司未能預見並應對產業之技術變革，或本公司產品與服務未能符合市場需求，則預期之額外收入可能無法實現，本公司可能無法回收投資或取得預期之市場佔有率，可能失去競爭優勢，且產品可能變得過時，這將對本公司之業務、財務狀況與營運成果造成不利影響。此外，本公司之研究與開發費用可能與本公司之營收水準無關，這可能對本公司之財務結果造成負面影響。",
+    "若本公司允許存取於雲端之軟體或在簽訂合約或修訂現有合約前即執行服務，而最終之條款不如預期之有利，或客戶延遲簽訂或決定不簽訂合約或修訂，則本公司之營運成果可能在短期內或整體上受損，且相關收入之認列可能延後或完全無法實現。",
+    "若本公司無法在有利條件下、及時或完全簽訂新業務或現有合約之修訂，包括在簽訂這些業務或修訂前已產生成本或指派工程資源之情況，則本公司之營收可能低於預期，其他營收機會可能延後或喪失。此外，與客戶簽訂協議所需之時間與長度，以及執行本公司複雜合約條款之難度，難以預測。若本公司未能成功協商某些關鍵複雜合約條款，或對這些條款產生爭議，或這些條款無法如預期般執行，則本公司之營收與營運成果將受影響。此外，客戶有時會延遲開始協商，直到他們開始開發新流程、有新產品之需求，或遭遇特定良率問題。這意味著，在某些情況下，本公司已持續並可能持續在簽訂最終合約前，根據初步文件提供技術與服務。在這些情況下，本公司將不會認列收入，且可能將相關成本延後至簽訂最終合約時確認，若此等成本重大，可能對本公司在簽訂最終合約前之營運成果造成負面影響。此外，若本公司產生重大成本後未能簽訂最終合約，則本公司需在協商結束之期間將此等延後確認之成本寫銷，這將增加本公司之成本與費用，並可能導致重大營運虧損。",
+    "本公司依賴專屬來源供應商提供部分軟體以及DirectScan系統之專用零件，若供應鏈延誤或中斷，可能增加本公司成本或影響本公司提供完整軟體解決方案之能力，或建造額外硬體工具或符合客戶期望或截止日期之能力，這可能導致銷售減少與獲利降低。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

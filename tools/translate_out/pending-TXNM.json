@@ -1,0 +1,215 @@
+{
+ "ticker": "TXNM",
+ "cik": "0001108426",
+ "accession": "0001108426-26-000006",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Vision, Values and Business Objectives",
+    "Other Information",
+    "Proposed Merger with Blackstone Infrastructure",
+    "Regulated Operations",
+    "System Peak Demands",
+    "Corporate and Other",
+    "Generation Percent of",
+    "Capacity Generation",
+    "Type Name Location (MW) Capacity",
+    "Type Application",
+    "Operator 2025 2024 APS 75.2% 78.1% APS 92.3 91.8 Joint Projects",
+    "Coal Nuclear Gas",
+    "Generation Average",
+    "Cost Percent of"
+   ],
+   "paragraphs": [
+    "TXNM Energy, Inc. (\"TXNM\"), is a holding company with two regulated electric utilities, PNM and TNMP, serving approximately 842,000 residential, commercial, and industrial customers in New Mexico and Texas. TXNM was incorporated in the State of New Mexico in 2000.",
+    "TXNM's vision is to create a clean and bright energy future while fulfilling its purpose to work together with customers and communities to meet their energy needs. TXNM's core values of Safety, Caring and Integrity are the foundation for the Company's business objectives focused on safety excellence and customer satisfaction, including reliability. To reach these objectives, the Company is committed to:",
+    "•Preparing our workforce with the knowledge and skills to thrive in a customer-focused world",
+    "•Purposefully delivering an intentional customer experience that exceeds our evolving customer and stakeholder expectations",
+    "•Enabling an environmentally sustainable future and deploying technologically advanced solutions that empower and benefit customers",
+    "•Demonstrating the relationship between customer excellence and our dedicated focus on financial strength",
+    "Meeting the business objectives above will drive key financial results: •Earning authorized returns on regulated businesses",
+    "•Delivering at or above industry-average long-term earnings growth, with a dividend payout ratio between 50 and 60 percent of earnings",
+    "•Maintaining investment grade credit ratings",
+    "The Company believes that maintaining strong and modern electric infrastructure is critical to ensuring reliability and supporting economic growth. PNM and TNMP strive to balance service affordability with infrastructure investment to maintain a high level of electric reliability and to deliver a safe and superior customer experience.",
+    "Both PNM and TNMP seek cost recovery for their investments through general rate cases, periodic cost of service filings, and various rate riders. Additional information about rate filings is provided in Operations and Regulation below and in Note 17.",
+    "These filings for TXNM, PNM, and TNMP include disclosures for each entity. For discussion purposes, this report uses the term \"Company\" when discussing matters of common applicability to TXNM, PNM, and TNMP. Discussions regarding only TXNM, PNM, or TNMP are so indicated. A reference to \"MD&A\" in this report refers to Part II, Item 7. – Management's Discussion and Analysis of Financial Condition and Results of Operations. A reference to a \"Note\" refers to the accompanying Notes to Consolidated Financial Statements.",
+    "Financial information relating to amounts of revenue, net earnings, and total assets of reportable segments is contained in MD&A and Note 2.",
+    "On May 18, 2025, TXNM, Parent, and Merger Sub (both Parent and Merger Sub are affiliates of Blackstone Infrastructure) entered into the Merger Agreement pursuant to which Merger Sub will merge with and into TXNM, with TXNM surviving the Merger as a direct, wholly-owned subsidiary of Parent. Pursuant to the Merger Agreement, each issued and outstanding share of the common stock of TXNM (other than those listed in Note 22) at the Effective Time will be converted into the right to receive $61.25 in cash, without interest."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Regulatory Risks",
+    "TXNM, PNM, and TNMP are subject to complex government regulation unrelated to the environment, which may have a negative impact on their businesses, financial position and results of operations.",
+    "Operational Risks",
+    "Advances in technology could make electric generating facilities less competitive.",
+    "The financial performance of TXNM, PNM, and TNMP may be adversely affected if power plants, other generation resources, and transmission and distribution systems do not operate reliably and efficiently.",
+    "TXNM, PNM, and TNMP are subject to information security breaches and risks of unauthorized access to their information and operational technology systems as well as physical threats to assets.",
+    "There are inherent risks in the ownership and operation of nuclear facilities.",
+    "Peak demand for power could exceed forecasted supply capacity, resulting in increased costs for purchasing capacity in the market or building additional generation facilities and/or energy storage facilities.",
+    "Difficulties in obtaining permits and rights-of-way could negatively impact PNM's results of operations.",
+    "General Economic and Weather Risks",
+    "Changes in interest rates could adversely affect our business.",
+    "The operating results of TXNM and its operating subsidiaries are seasonal and are affected by weather conditions.",
+    "The impact of wildfires could negatively affect PNM's and TNMP's results of operations.",
+    "Risks Relating to the Proposed Merger with Blackstone Infrastructure",
+    "There is no assurance when or if the proposed Merger will be completed.",
+    "Blackstone Infrastructure and TXNM may be unable to obtain the regulatory approvals required to complete the proposed Merger.",
+    "TXNM will incur substantial transaction fees and costs in connection with the proposed Merger.",
+    "The termination of the Merger Agreement could negatively impact TXNM.",
+    "The Merger Agreement contains provisions that could discourage a potential alternative acquirer that might be willing to pay more to acquire TXNM.",
+    "Financial Risks",
+    "TXNM and its subsidiaries' substantial indebtedness could adversely affect its financial condition.",
+    "Servicing TXNM and its subsidiaries' debt requires a significant amount of cash, and it may not have sufficient cash flow from its business to pay its substantial debt.",
+    "Despite TXNM's current consolidated debt levels, TXNM and its subsidiaries may still incur substantially more debt or take other actions which would intensify the risks discussed above.",
+    "The fundamental change repurchase features of the Convertible Notes may delay or prevent an otherwise beneficial attempt to acquire TXNM.",
+    "TXNM may be unable to meet its ongoing and future financial obligations and to pay dividends on its common stock if its subsidiaries are unable to pay dividends or distributions to TXNM.",
+    "Disruption in the credit and capital markets may impact the Company's strategy and ability to raise capital.",
+    "Reduction in credit ratings or changing rating agency requirements could materially and adversely affect the Company's growth, strategy, business, financial position, results of operations, and liquidity."
+   ],
+   "paragraphs": [
+    "The business and financial results of TXNM, PNM, and TNMP are subject to a number of risks and uncertainties, many of which are beyond their control, including those set forth below and in MD&A, Note 16, and Note 17. For other factors that may cause actual results to differ materially from those indicated in any forward-looking statement contained in this report, see Disclosure Regarding Forward Looking Statements in Item 1. Business. TNMP provides transmission and distribution services to REPs that provide electric service to consumers in TNMP's service territories. References to customers in the risk factors discussed below also encompass the customers of these REPs who are the ultimate consumers of electricity transmitted and distributed through TNMP's facilities.",
+    "The profitability of TXNM's utilities depends on being able to recover their costs through regulated rates and earn a fair return on invested capital, including investments in its generating plants. Without timely cost recovery, including recovery of undepreciated investments and the opportunity to earn a fair return on capital investments, TXNM's liquidity and results of operations could be negatively impacted. Further, PNM and TNMP are in a period of significant capital expenditures. While increased capital investments, higher interest rates, and other costs are placing upward pressure on rates charged to customers, energy efficiency initiatives and other factors are placing downward pressure on customer usage. The combination of these matters could adversely affect the Company's results of operations and cash flows.",
+    "The rates PNM charges its customers are regulated by the NMPRC and FERC. TNMP is regulated by the PUCT. The Company is in a period requiring significant capital investment and is projecting total construction expenditures for the years 2026-2030 to be $10.2 billion. PNM and TNMP anticipate a trend toward increasing costs, for which they will have to seek regulatory recovery. These costs include, or are related to, costs of asset construction for generation, transmission, and distribution systems necessary to provide electric service, as well as the cost to remove and retire existing assets, environmental compliance expenditures, regulatory mandates to acquire power from renewable resources, regulation related to nuclear safety, increased costs related to cybersecurity, increased interest costs to finance capital investments, and depreciation. If the regulators do not authorize appropriate recovery of any of the costs discussed above, including undepreciated generating resources at the time those resources are removed from service and fails to authorize recovery of the costs of obtaining power to replace those resources, PNM and TNMP's financial position, results of operations, and cash flows could be negatively impacted.",
+    "At the same time costs are increasing, there are factors placing downward pressure on the demand for power, thereby reducing customer usage. These factors include changing customer behaviors, increased emphasis on energy efficiency measures, utilization of alternative sources of power, rate design that is not driven by economics, unfavorable economic conditions, reduced new sources of demand, and unpredictable weather patterns. The combination of costs increasing relatively rapidly and the technologies and behaviors that are reducing energy consumption places upward pressure on the per unit prices that must be charged to recover costs. This upward pressure on unit prices could result in additional efforts by customers to reduce consumption through alternative measures. Without timely cost recovery and the authorization to earn a reasonable return on invested capital, the Company's liquidity and results of operations could be negatively impacted.",
+    "In November 2025, TNMP filed its Base Rate Review requesting recovery of $2.8 billion of rate base as of June 30, 2025, a requested ROE of 10.4%, and a 47.54% equity ratio. The TNMP Base Rate Review also includes increases in operations and maintenance expenses that are not recovered through semi-annual TCOS and DCRF filings, excludes increases in interest expense resulting from refinancing of debt associated with the proposed Merger, and requests recovery of $20.5 million associated with Hurricane Beryl restoration costs.",
+    "It is also possible that unsatisfactory outcomes of these matters, the financial impact of climate change regulation or legislation, other environmental regulations, the result of litigation, the adequacy and timeliness of cost recovery mechanisms,"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Recent Developments",
+    "Vision, Values and Business Objectives",
+    "Business Focus",
+    "Financial Focus",
+    "Economic Factors",
+    "Results of Operations",
+    "Liquidity and Capital Resources",
+    "Segment Information",
+    "Non-GAAP Financial Measures",
+    "Year Ended December 31, Change",
+    "Year Ended December 31, 2025 2024 (In millions) $ 681.3 $ 592.1 89.2 166.8 149.1 514.5 443.0 141.8 136.2 143.9 125.9 228.7 180.9 14.6 8.7 (87.0) (59.0) 156.4 130.6 (32.1) (27.1) $ 124.3 $ 103.5 20.8",
+    "Year Ended December 31, 2025 2024 (1) (GWh)",
+    "Year Ended December 31, 2025 2024 (In millions) $ 1,484.3 $ 1,379.1 105.2 549.2 434.9 935.1 944.2 458.3 440.4 244.2 221.8 232.6 282.0 (2.0) 61.5 (129.5) (106.0) 101.1 237.5",
+    "Year Ended December 31, 2025 2024 (Gigawatt hours, except customers) 3,311.8 3,397.3 % 3,627.6 3,654.1 (1)",
+    "Corporate and Other",
+    "Year Ended December 31, 2025 2024 (In millions) $ — $ — — — — — — (17.4) (27.8) 37.5 37.2 (20.1) (9.4) (2.2) (15.4) (55.1) (63.1) (77.5) (87.9)",
+    "Statements of Cash Flows",
+    "Year Ended December 31, 2025 2024 (In millions)"
+   ],
+   "paragraphs": [
+    "On May 18, 2025, TXNM, Parent, and Merger Sub (both Parent and Merger Sub are affiliates of Blackstone Infrastructure) entered into the Merger Agreement pursuant to which Merger Sub will merge with and into TXNM, with TXNM surviving the Merger as a direct, wholly-owned subsidiary of Parent. Pursuant to the Merger Agreement, each issued and outstanding share of the common stock of TXNM (other than those listed in Note 22) at the Effective Time will be converted into the right to receive $61.25 in cash, without interest.",
+    "The proposed Merger has been unanimously approved by the Board and was approved by the TXNM shareholders at a special meeting held on August 28, 2025. The waiting period under the HSR Act in connection with the Merger has expired without any objections or concerns having been raised, both the FCC and FERC approved the application, and the PUCT approved the unanimous settlement, satisfying four of the conditions to closing of the Merger Agreement. Consummation of the Merger remains subject to the satisfaction or waiver of certain customary conditions, including, without limitation, no Legal Restraint, and the receipt of certain required regulatory approvals (including the NMPRC and the NRC). TXNM has filed applications for regulatory approval of the Merger with the NMPRC (Note 17). The Merger Agreement does not contain any financing condition and is currently expected to close in the second half of 2026.",
+    "On December 11, 2025, TXNM and Blackstone Infrastructure reached a unanimous settlement with parties in the Merger proceeding filed with the PUCT, that was approved on February 6, 2026. On February 20, 2026, FERC approved the proposed Merger rejecting claims related to data centers, private equity ownership, and speculative cross-subsidization relying on existing state ring-fencing protections in New Mexico and Texas. See Note 17."
+   ],
+   "focus": "Recent Developments"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "願景、價值觀與營運目標",
+    "其他資訊",
+    "與 Blackstone Infrastructure 合併之提案",
+    "受規範之營運",
+    "系統峯值需求",
+    "公司及其他",
+    "發電量百分比",
+    "發電容量",
+    "型別 名稱 位置 (MW) 資源",
+    "型別 應用",
+    "運營商 2025 2024 APS 75.2% 78.1% APS 92.3 91.8 合作專案",
+    "燃煤 核能 天然氣",
+    "發電 平均",
+    "成本 百分比為"
+   ],
+   "paragraphs": [
+    "TXNM Energy, Inc. (\"TXNM\"), 為一間控股公司，擁有兩家受規範的電力公司，PNM 與 TNMP，服務約 842,000 戶住宅、商業與工業客戶，位於新墨西哥州與德克薩斯州。TXNM 於 2000 年在新墨西哥州註冊成立。",
+    "TXNM 的願景是創造潔淨明亮的能源未來，同時履行其與客戶與社區合作以滿足其能源需求的使命。TXNM 的核心價值觀為安全、關懷與誠信，為本公司業務目標的基礎，這些目標聚焦於安全卓越與客戶滿意，包括可靠性。為達成這些目標，本公司承諾：",
+    "•為員工提供知識與技能，使其能在以客戶為中心的環境中茁壯成長",
+    "•有意識地提供超越我們不斷演進的客戶與利害關係人期待的客戶體驗",
+    "•實現環境永續的未來，並部署具備先進技術的解決方案，以賦能並造福客戶",
+    "•展現客戶卓越與本公司專注於財務強韌性的關係",
+    "達成上述業務目標將驅動關鍵財務結果：•在受規範業務中賺取核准的回報率",
+    "•實現長遠獲利成長達產業平均水準以上，並將股息發放比率維持在獲利的 50 到 60％之間",
+    "•維持投資等級信用評等",
+    "本公司認為維持強而有力且現代化的電力基礎設施對確保電力供應可靠性和支持經濟成長至關重要。PNM 和 TNMP 嘗試在服務可負擔性與基礎設施投資之間取得平衡，以維持高水準的電力供應可靠性，並提供安全且優越的客戶體驗。",
+    "PNM 和 TNMP 均透過一般費率案、定期費用服務申報及多種費率附加條款，尋求回復其投資成本。關於費率申報的額外資訊請參閱下方的運營與規範部分以及附註 17。",
+    "TXNM、PNM 和 TNMP 的申報內容包含各個實體的揭露資訊。為討論方便起見，本報告在討論 TXNM、PNM 和 TNMP 共通適用的議題時，使用 \"本公司\" 一詞。僅針對 TXNM、PNM 或 TNMP 的討論則會特別標明。本報告中提及 \"MD&A\" 指的是 Part II, Item 7 – 管理層對財務狀況與營運成果的討論與分析。提及 \"附註\" 時，則指附屬於合併財務報表的附註。",
+    "與應報告分部相關的收入、淨利潤及總資產金額資訊包含於 MD&A 及附註 2 中。",
+    "2025 年 5 月 18 日，TXNM、母公司及合併子公司（母公司與合併子公司皆為 Blackstone Infrastructure 的關係企業）簽訂合併協議，根據該協議，合併子公司將與 TXNM 合併，TXNM 將在合併後繼續存續，成為母公司之直接、 wholly-owned 子公司。根據合併協議，於生效時點，TXNM 普通股每 shares（附註 22 所列除外）將轉換為取得現金 $61.25 的權利，不計利息。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "近期發展",
+    "願景、價值觀與營運目標",
+    "營運重點",
+    "財務重點",
+    "經濟因素",
+    "營運成果",
+    "流動性與資本資源",
+    "分部資訊",
+    "非GAAP財務指標",
+    "截至12月31日年度變動",
+    "截至12月31日年度 2025 2024 (以千萬美元為單位) $ 681.3 $ 592.1 89.2 166.8 149.1 514.5 443.0 141.8 136.2 143.9 125.9 228.7 180.9 14.6 8.7 (87.0) (59.0) 156.4 130.6 (32.1) (27.1) $ 124.3 $ 103.5 20.8",
+    "截至12月31日年度 2025 2024 (1) (GWh)",
+    "截至12月31日年度 2025 2024 (以千萬美元為單位) $ 1,484.3 $ 1,379.1 105.2 549.2 434.9 935.1 944.2 458.3 440.4 244.2 221.8 232.6 282.0 (2.0) 61.5 (129.5) (106.0) 101.1 237.5",
+    "截至12月31日年度 2025 2024 (Gigawatt hours, 除客戶外) 3,311.8 3,397.3 % 3,627.6 3,654.1 (1)",
+    "企業及其它",
+    "截至12月31日年度 2025 2024 (以千萬美元為單位) $ — $ — — — — — — (17.4) (27.8) 37.5 37.2 (20.1) (9.4) (2.2) (15.4) (55.1) (63.1) (77.5) (87.9)",
+    "{'Statements of Cash Flows': '現金流量表'}",
+    "{'Year Ended December 31, 2025 2024 (In millions)': '截至2025年12月31日年度 2024年（以千萬為單位）'}"
+   ],
+   "paragraphs": [
+    "於 2025 年 5 月 18 日，TXNM、母公司及合併子公司（母公司與合併子公司皆為 Blackstone Infrastructure 之關係企業）簽訂合併協議，根據該協議，合併子公司將與 TXNM 合併，TXNM 將為合併後之存續公司，為母公司之直接、 wholly-owned 子公司。根據合併協議，於生效時間，每發行且流通中之 TXNM 普通股（除 Note 22 所列者外）將轉換為取得現金 61.25 美元之權利，不計利息。",
+    "所建議之合併已獲董事會一致批准，並於 2025 年 8 月 28 日召開特別股東會獲 TXNM 股東批准。根據 HSR 法規之等待期已於無任何異議或擔憂之情況下屆滿，FCC 與 FERC 已批准申請，且 PUCT 已批准一致和解，符合合併協議之四項關閉條件。合併之完成仍需符合或豁免某些慣例條件，包括，但不僅限於，無法律限制，以及取得某些必要之監管批准（包括 NMPRC 與 NRC）。TXNM 已向 NMPRC 提交合併之監管批准申請（見 Note 17）。合併協議不包含任何融資條件，目前預期於 2026 年第二季完成合併。",
+    "於 2025 年 12 月 11 日，TXNM 與 Blackstone Infrastructure 與 PUCT 所轄之合併程序中之相關當事人達成一致和解，該和解於 2026 年 2 月 6 日獲批准。於 2026 年 2 月 20 日，FERC 批准所建議之合併，駁回與資料中心、私人股權擁有權及投機性交叉補貼相關之聲請，並依賴新墨西哥州與德克薩斯州現有之州級環繞保護措施。詳見 Note 17。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "法規風險",
+    "TXNM、PNM 和 TNMP 面臨與環境無關的複雜政府規範，可能對其業務、財務狀況及營運結果產生負面影響。",
+    "營運風險",
+    "科技進步可能使電力發電設施較少競爭力。",
+    "TXNM、PNM 和 TNMP 的財務表現可能因發電廠、其他發電資源及輸電與配電系統無法可靠且高效運作而受到不利影響。",
+    "TXNM、PNM 和 TNMP 面臨資訊安全遭入侵及未經授權存取其資訊與營運科技系統的風險，以及對資產的實體威脅。",
+    "核能設施的所有權與營運本身即存在固有風險。",
+    "電力需求高峯可能超過預測的供應容量，導致在市場購買容量的費用增加或建設額外發電設施及/或能源儲存設施。",
+    "取得許可與道路通行權之困難，可能對PNM之營運成果產生負面影響。",
+    "總體經濟與天氣風險",
+    "利率變動可能對本公司業務產生不利影響。",
+    "TXNM及其營運子公司之營運成果具有季節性，並受天氣條件影響。",
+    "野火之影響可能對PNM及TNMP之營運成果產生負面影響。",
+    "與Blackstone Infrastructure proposed merger相關之風險",
+    "無法保證 proposed merger 之完成時間或是否會完成。",
+    "Blackstone Infrastructure與TXNM可能無法取得完成 proposed merger 所需之監管機構核准。",
+    "TXNM 將因擬議的合併而產生重大交易費用及成本。",
+    "合併協議的終止可能對 TXNM 產生負面影響。",
+    "合併協議包含一些條款，可能會阻卻潛在的替代買家，而該買家可能願意支付更高價格以取得 TXNM。",
+    "財務風險",
+    "TXNM 及其子公司的重大負債可能對其財務狀況產生不利影響。",
+    "償還 TXNM 及其子公司負債需要大量現金，而其業務產生的現金流可能不足以償還其重大負債。",
+    "儘管 TXNM 當前的合併負債水準，TXNM 及其子公司仍可能產生 substantially more 負債或採取其他行動，這將加劇上述討論的風險。",
+    "可轉換票據的基本變更回購特徵可能延遲或阻止一項原本有益的取得 TXNM 的嘗試。",
+    "TXNM 可能無法履行其持續且未來的財務義務，並支付其普通股的股息，若其子公司無法支付股息或分紅至 TXNM。",
+    "信貸與資本市場的動盪可能影響本公司的策略及籌資能力。",
+    "信貸評級降低或變更評級機構要求，可能對本公司的成長、策略、業務、財務狀況、營運成果及流動性造成重大且不利的影響。"
+   ],
+   "paragraphs": [
+    "TXNM、PNM 以及 TNMP 的業務與財務表現受到許多風險與不確定性因素影響，許多因素超出其控制範圍，包括下列所列及 MD&A、附註 16 與附註 17 所說明的內容。對於其他可能導致實際結果與本報告中任何前瞻性陳述所顯示結果有重大差異的因素，請參閱第 1 項業務中「前瞻性陳述揭露」部分。TNMP 向 REPs 提供電力傳輸與配電服務，這些 REPs 向消費者提供電力服務，位於 TNMP 的服務區域。下列風險因素中提及的客戶也包含這些 REPs 的客戶，這些客戶為最終使用 TNMP 所傳輸與配電電力的消費者。",
+    "TXNM 的電力公司獲利取決於能否透過受規範的電價回收成本，並獲得對所投資資本的公平回報，包括其發電廠的投資。若無法及時回收成本，包括未 depreciated 投資與獲得對資本投資的公平回報機會，TXNM 的流動性與營運結果可能受到負面影響。此外，PNM 與 TNMP 正處於重大資本支出的階段。雖然增加的資本投資、較高的利率及其他成本對電價施加上漲壓力，但能源效率措施及其他因素則對客戶用量施加下壓。這些因素的組合可能對本公司的營運結果與現金流造成不利影響。",
+    "PNM 向其客戶收取的電價由 NMPRC 與 FERC 規範。TNMP 由 PUCT 規範。本公司正處於需要重大資本投資的階段，預計 2026 至 2030 年間的總建設支出為 102 億美元。PNM 與 TNMP 預期將面臨成本增加的趨勢，必須尋求規範機構的回收。這些成本包括或與建設發電、傳輸與配電系統的資產成本有關，以及移除與退役現有資產的成本、環境合規支出、規範機構要求從可再生能源購電的義務、與核能安全相關的規範、與網路安全相關的增加成本、用以融資資本投資的增加利息成本，以及折舊。若規範機構未核准上述任何成本的適當回收，包括在這些資源從服務中移除時的未 depreciated 發電資源，以及未核准回收取得替代表資源電力的成本，PNM 與 TN,MP 的財務狀況、營運結果與現金流可能受到負面影響。",
+    "同時成本正在增加，也有因素對電力需求施加下壓，從而減少客戶用量。這些因素包括客戶行為的改變、對能源效率措施的強調、使用替代電力來源、非以經濟為導向的電價設計、不利的總體經濟條件、新需求來源減少，以及不可預測的天氣模式。成本相對快速增加與減少能源消耗的技術與行為的組合，對必須收取的單位價格施加上漲壓力，以回收成本。這種單位價格的上漲壓力可能導致客戶透過其他措施來減少用量。若無法及時回收成本，且未獲得對所投資資本的合理回報授權，本公司的流動性與營運結果可能受到負面影響。",
+    "2025 年 11 月，TNMP 提出基礎電價審查，請求回收截至 2025 年 6 月 30 日的 28 億美元電價基數，請求的 ROE 為 10.4%，以及 47.54% 的權益比率。TNMP 的基礎電價審查也包含未透過半年度 TCOS 與 DCRF 檔案回收的運營與維護費用增加，排除因與預期合併相關債務重新融資而產生的利息費用增加，並請求回收與颱風貝莉修復費用相關的 2,050 萬美元。",
+    "此外，這些事項的不滿意結果、氣候變遷規範或立法的財務影響、其他環境規範、訴訟結果、成本回收機制的充足性與時效性，也可能是影響因素。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

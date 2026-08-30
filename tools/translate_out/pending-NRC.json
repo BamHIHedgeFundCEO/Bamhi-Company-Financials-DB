@@ -1,0 +1,211 @@
+{
+ "ticker": "NRC",
+ "cik": "0000070487",
+ "accession": "0001437749-26-007002",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Special Note Regarding Forward-Looking Statements",
+    "Human Understanding Solutions",
+    "Consumer Experience Solutions – Our Consumer Experience solutions help build loyalty, support organizations in winning and retaining more patients, and reduce friction across the healthcare journey.",
+    "Governance Solutions",
+    "Growth Strategy",
+    "We believe that our competitive strengths include the following:",
+    "Intellectual Property",
+    "Government Regulation",
+    "Human Capital",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Certain matters discussed in this Annual Report on Form 10-K are \"forward-looking statements\" within the meaning of Section 21E of the Securities Exchange Act of 1934, as amended. These forward-looking statements can generally be identified as such because the context of the statement includes phrases such as National Research Corporation, doing business as NRC Health (\"NRC Health,\" the \"Company,\" \"we,\" \"our,\" \"us\" or similar terms), \"believes,\" \"expects,\" \"may,\" \"could,\" \"anticipates,\" \"estimates,\" \"plans,\" \"creates,\" \"intends,\" or the use of words such as \"would,\" \"will,\" \"may,\" \"could,\" \"goal,\" \"focus,\" or \"should,\" or other words of similar import. Similarly, statements that describe our future plans, objectives or goals are also forward-looking statements. In this Annual Report on Form 10-K, statements regarding the value and utility of, and market demand for, our service offerings, future opportunities for growth with respect to new and existing customers, our future ability to compete and the types of firms with which we will compete, future consolidation in the healthcare industry, future adequacy of our liquidity sources, future revenue sources, future revenue, expenses, and margins, future revenue estimates used to calculate total recurring contract value, the expected impact of economic factors, including interest rates and inflation, future capital expenditures, and the timing, amount, and sources of cash to fund such capital expenditures, future stock repurchases and dividends, the expected impact of pending claims and contingencies, the future outcome of uncertain tax positions, our future use of owned and leased real property, and the expected impact of global conflicts, among others, are forward-looking statements. Such forward-looking statements are subject to certain risks and uncertainties which could cause actual results or outcomes to differ materially from those currently anticipated. Factors that could affect actual results or outcomes include, without limitation, the following factors:",
+    "The possibility of non-renewal of our customer service contracts, reductions in services purchased or prices, and failure to retain key customers;",
+    "Our ability to compete in our markets, which are highly competitive with new market entrants, subject to consolidation among existing competitors, and the possibility of increased price pressure and expenses;",
+    "The possibility that our solutions and technology do not perform as expected;",
+    "The possibility that our acquisitions and partnerships do not achieve the increased demand/profitability expected;",
+    "The likelihood that a pandemic will adversely affect our operations, sales, earnings, financial condition, and liquidity;",
+    "The likelihood that global conflicts or tariffs will adversely affect our operations, sales, earnings, financial condition, and liquidity;",
+    "The effects of an economic downturn; The impact of consolidation in the healthcare industry;",
+    "The impact of federal healthcare and budget legislation, executive orders, cost-saving measures, and other regulatory changes;",
+    "Our ability to attract and retain key managers and other personnel;",
+    "The possibility that our intellectual property and other proprietary information technology could be copied or independently developed by our competitors;",
+    "Our ability to maintain effective internal controls; The possibility for failures or deficiencies in our information technology platform;",
+    "The possibility that we or our third-party providers could be subject to cyber-attacks, security breaches, or computer viruses; and",
+    "The factors set forth under the caption \"Risk Factors\" in Part I, Item 1A of this Annual Report on Form 10-K and various disclosures in our press releases, stockholder reports, and other filings with the Securities and Exchange Commission."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors",
+    "Risks Related to our Business",
+    "We depend on contract renewals, including retention of key customers, for a large share of our revenue and our operating results could be adversely affected.",
+    "We operate in a highly competitive market and could experience increased price pressure and expenses as a result.",
+    "We could be negatively impacted by outbreaks or pandemics.",
+    "We could be negatively impacted by global conflicts or similar events.",
+    "General economic factors could adversely impact our profitability.",
+    "We face several risks relating to our ability to collect the data on which our business relies.",
+    "If intellectual property and other proprietary information technology were copied or independently developed by our competitors, our operating results could be negatively affected.",
+    "Failures, interruptions, or deficiencies in our information technology and communications systems could negatively impact our business and operating results.",
+    "New solution offerings involve inherent risk.",
+    "Reputational harm could have a material adverse effect on our business, financial condition, and results of operations.",
+    "Our operations are subject to laws and regulations that impose significant compliance costs and create reputational and legal risk.",
+    "Ineffective internal controls could have a negative impact on our business, results of operations, and our reputation.",
+    "Our growth strategy includes future acquisitions, partnerships, and/or investments which involve inherent risk.",
+    "If we are unable to achieve a proper revenue to cost ratio our profitability could decrease.",
+    "Risks Related to our Common Stock",
+    "Our principal shareholders effectively control the Company.",
+    "The market price of our common stock may be volatile and shareholders may be unable to resell shares at or above the price at which the shares were acquired.",
+    "General Risk Factors",
+    "Our operating results may fluctuate and this may cause our stock price to decline.",
+    "Our business and operating results could be adversely affected if we are unable to attract or retain key managers and other personnel.",
+    "Increases in income tax rates, changes in income tax laws or regulations, or unfavorable resolutions of tax matters could adversely impact our profitability.",
+    "Failure to comply with public company regulations could adversely impact our profitability.",
+    "We may change our dividend policy at any time."
+   ],
+   "paragraphs": [
+    "You should carefully consider each of the risks described below, together with all of the other information contained in this Annual Report on Form 10-K, before making an investment decision with respect to our securities. If any of the following risks develop into actual events, our business, financial condition, or results of operations could be materially and adversely affected, and you may lose all or part of your investment. Some of the factors, events and contingencies discussed below may have occurred in the past, but the disclosures below are not representations as to whether or not the factors, events or contingencies have occurred in the past and instead reflect our beliefs and opinions as to the factors, events or contingencies that could materially and adversely affect us in the future.",
+    "We expect that a substantial portion of our revenue for the foreseeable future will continue to be derived from renewable service contracts. To the extent that customers fail to renew or defer their renewals, our results may be materially adversely affected. We rely on a limited number of key customers for a substantial portion of our revenue. Our ten largest customers collectively accounted for 20%, 17%, and 15% of our total revenue in 2025, 2024, and 2023, respectively. Our ability to secure renewals depends on, among other things, our ability to gather and analyze performance data in a consistent, high-quality, and timely fashion. In addition, the service needs of our customers are affected by accreditation requirements, enrollment in managed care plans, the level of use of satisfaction measures in healthcare organizations' overall management and compensation programs, the size of operating budgets, customers' operating performance, industry and economic conditions, and changes in management or ownership. As these factors are beyond our control, we cannot ensure that we will be able to maintain our renewal rates. Any material decline in renewal rates from existing levels would have an adverse effect on our revenue and a corresponding effect on our operating and net income.",
+    "The healthcare analytics and market research services industry is highly competitive. We have traditionally competed with healthcare organizations' internal marketing, market research and/or quality improvement departments that create their own performance measurement tools, and with other firms that provide survey-based healthcare market research and/or performance assessment. Our primary competitors include Press Ganey and Qualtrics, both of which we believe have significantly higher annual revenue than us, and several other firms that provide similar services in the market we serve. We also compete with market research firms and technology solutions which provide survey-based, general market research or voice of the customer feedback capabilities and firms that provide services or products that complement healthcare performance assessments, such as healthcare software or information systems. Although only a few of these competitors have offered specific services that compete directly with our services, many of these competitors have substantially greater financial, information gathering, and marketing resources than us and could decide to increase their resource commitments to our market. Our competitors may increase their resources through organic growth, as well as consolidation with other competitors. Furthermore, we do not have a publicly traded group of peers, which makes it difficult to compare and benchmark performance to other similar companies. There are relatively few barriers to entry into our market, and we expect increased competition in our market which could adversely affect our operating results through pricing pressure, increased marketing expenditures, and market share losses, among other factors. There can be no assurance that we will continue to compete successfully against existing or new competitors.",
+    "Because our customers are concentrated in the healthcare industry, our revenue and operating results may be adversely affected by changes in regulations, a business downturn, or consolidation with respect to the healthcare industry.",
+    "Substantially all of our revenue is derived from customers in the healthcare industry. As a result, our business, financial condition, and results of operations are influenced by conditions affecting this industry, including changing political, economic, competitive, and regulatory influences that may affect the procurement practices and operation of healthcare providers and payers. The healthcare industry is extensively regulated by both state and federal government. Future legislative changes, including additional provisions to control healthcare costs, improve healthcare quality, and expand access to health insurance, could result in lower reimbursement rates and otherwise change the environment in which providers and payers operate. From time-to-time, members of the U.S. House of Representatives have weighed legislative proposals targeting Medicaid, Medicare, and other entitlement programs as part of broader campaigns to reduce federal spending, a number of executive orders have been issued intended to reduce government spending, and we expect there will be continued proposals targeting reimbursement methodologies and the number of individuals eligible for government healthcare programs. There have also been proposals calling for repeal or reform of the Affordable Care Act. Any of these or related actions by state or federal governments could significantly reduce federal or state spending on the Medicaid and Medicare programs, constitute a fundamental change in the federal role in healthcare, change the nature of the entitlements offered by Medicaid and Medicare, or reduce or delay the payments made to both non-profit and for profit healthcare systems by Medicaid and Medicare, any of which could have a material effect on the revenues of our customers, resulting in harm to the demand for our solutions and our ability to collect subscriptions and fees owed to us, which could negatively impact our business, financial condition, cash flows, and results of operations.",
+    "In addition, large private purchasers of healthcare services are placing increasing cost pressure on providers. Healthcare providers may react to these cost pressures and other uncertainties by curtailing or deferring purchases, including purchases of our services. Moreover, there has been consolidation of companies in the healthcare industry, a trend which we believe will continue to grow. Consolidation in this industry, including the potential acquisition of certain of our customers, could adversely affect aggregate customer budgets for our services, could result in customers performing more marketing, market research and/or quality improvement functions internally, or could result in the termination of a customer's relationship with us. The impact of these developments on the healthcare industry is difficult to predict and could have an adverse effect on our revenue and a corresponding effect on our operating and net income."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Management's Discussion and Analysis of Financial Condition and Results of Operations",
+    "Critical Accounting Estimates",
+    "Recent Trends",
+    "Key Financial Metrics and Results of Operations",
+    "Non-GAAP Financial Measures",
+    "Adjusted Net Income and Adjusted Earnings per Share",
+    "Year ended December 31",
+    "Adjusted EBITDA and Adjusted EBITDA Margin",
+    "Liquidity and Capital Resources",
+    "Stock Repurchase Program",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis provides a summary of significant factors relevant to our financial performance and condition. It should be read in conjunction with the consolidated financial statements and accompanying notes included in Part II, Item 8 of this Form 10-K. This section of this Form 10-K generally discusses 2025 and 2024 items and year-to-year comparisons between 2025 and 2024. Discussions of 2023 items and year-to-year comparisons between 2024 and 2023 are not included in this Form 10-K and can be found in \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in Part II, Item 7 of the Company's Annual Report on Form 10-K for the fiscal year ended December 31, 2024.",
+    "Our purpose is to humanize healthcare and support organizations in their understanding of each unique individual. Our commitment to Human Understanding® helps leading healthcare systems improve their operations through understanding each person they serve not as point-in-time insights, but as an ongoing relationship. Our end-to-end solutions enable our customers to understand what matters most to each person they serve – before, during, after, and beyond clinical encounters – to gain a longitudinal understanding of how life and health intersect, with the goal of developing lasting, trusting relationships. Our ability to measure what matters most and systematically capture, analyze, and deliver insights based on self-reported information from patients, families, and consumers is critical in today's healthcare market. We believe access to, analysis of, and acting on our extensive individual-driven information is increasingly valuable as healthcare providers need to better understand and engage the people they serve to create long-term relationships, build loyalty, and improve processes.",
+    "Our portfolio of subscription-based solutions provides actionable information and analysis to healthcare organizations across a range of mission-critical, constituent-related elements, including patient experience, service recovery, care transitions, employee engagement, reputation management, and brand loyalty. We partner with customers across the continuum of healthcare services and believe this cross-continuum positioning is a unique and an increasingly important capability as the evolving healthcare landscape drives its constituents towards a more collaborative and integrated service model.",
+    "The preparation of financial statements requires management to make estimates and assumptions that affect amounts reported therein. The following area is considered a critical accounting estimate because it involves significant judgments or assumptions, involves complex or uncertain matters or is susceptible to change, and the impact could be material to our financial condition or operating results:",
+    "We derive a majority of our revenue from renewable subscription-based service agreements with our customers. We also derive revenue from fixed, non-subscription arrangements. Our revenue recognition policy requires management to estimate, among other factors, the future contract consideration we expect to receive under variable consideration subscription arrangements as well as future total estimated contract costs over the contract term with respect to fixed, non-subscription arrangements. If management made different judgments and estimates, then the amount and timing of revenue for any period could differ from the reported revenue. See Notes 1 and 3 to our consolidated financial statements for a description of our revenue recognition policies.",
+    "Since the fourth quarter of 2024, Total Recurring Contact Value (\"TRCV\") has increased each quarter while revenue per associate and direct selling expenses have improved, giving us confidence about the Company's financial direction despite certain non-recurring severance and compensation expenses associated with management changes during 2024 and 2025.",
+    "Our GAAP revenue and operating margin declined since 2023 primarily due to lower new sales and retention rates prior to 2025, which stemmed from sales force changes and less robust product innovation from 2020 through early 2024 as well as the non-recurring costs mentioned above. TRCV, our leading indicator of revenue expectations, declined through the third quarter of 2024. During 2024 and 2025, we made significant changes in our senior management, developed and marketed innovative new products, acquired our rounding tool, and reconstituted a motivated sales force. We also implemented efficiency measures that have allowed us to enhance our customers' experience while lowering direct expenses and our total number of associates. With TRCV growing and a lower expense run rate, we expect revenue, operating margin, and operating cash flow to grow in 2026.",
+    "The following table sets forth, for the periods indicated, selected financial information derived from our consolidated financial statements and the percentage change in such items versus the prior comparable period, as well as other key financial metrics. The discussion that follows the information should be read in conjunction with our consolidated financial statements.",
+    "(In thousands, except percentages) Year Ended December 31, Percentage Increase (Decrease) 2025",
+    "2024 2023 2025 over 2024 2024 over 2023 Revenue 137,390 143,060 148,580 (4 (4 Direct expenses",
+    "52,371 56,933 56,015 (8 Selling, general, and administrative 54,805 44,911 46,621 (4 Depreciation and amortization",
+    "7,624 6,022 5,899 Operating income 22,590 35,194 40,045 (36 (12 Total other expense (4,745",
+    "(2,504 (83 2,917 Provision for income taxes 6,245 7,907 8,991 (21 (12 Effective Tax Rate Operating Margin",
+    "(9 (2 Total Recurring Contract Value 144,143 133,218 141,855 (6 Cash provided by operating activities"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "特別提醒有關未來展望聲明",
+    "人類理解解決方案",
+    "消費者體驗解決方案－我們的消費者體驗解決方案協助建立忠誠度，協助機構獲取並留住更多病患，並降低醫療過程中的摩擦",
+    "治理解決方案",
+    "成長策略",
+    "我們認為我們的競爭優勢包括以下項目：",
+    "智慧財產權",
+    "政府規範",
+    "{'original': 'Human Capital', 'translated': '人力資本'}",
+    "{'original': 'Available Information', 'translated': '可取得資訊'}"
+   ],
+   "paragraphs": [
+    "本年度報告書（Form 10-K）中討論的某些事項屬於「向前看聲明」（forward-looking statements），依照1934年證券交易法第21E條之規定。這些向前看聲明通常可以透過語境中出現的詞彙辨識，例如National Research Corporation，經營業務為NRC Health（\"NRC Health\"、\"本公司\"、\"我們\"、\"我們的\"、\"我們\"或類似詞彙），\"相信\"、\"預期\"、\"可能\"、\"可能\"、\"預期\"、\"估計\"、\"計畫\"、\"創造\"、\"意圖\"，或使用\"將\"、\"會\"、\"可能\"、\"可能\"、\"目標\"、\"重點\"或\"應該\"等詞彙，或其它具有相似含義的詞彙。同樣地，描述我們未來計畫、目標或重點的陳述也屬於向前看聲明。在本年度報告書（Form 10-K）中，關於我們服務方案的價值與實用性、市場對這些服務的需求、與新舊客戶合作的未來成長機會、我們未來競爭能力與競爭對手類型、醫療保健產業未來的合併情況、我們未來流動性來源的充足性、未來收入來源、未來收入、費用與毛利率、用於計算總重複合約價值的未來收入預估、經濟因素（包括利率與通貨膨脹）的預期影響、未來資本支出、以及用以支應這些資本支出的資金時機、金額與來源、未來股票回購與股息、待處理聲請與潛在責任的預期影響、未確定稅務立場的未來結果、我們未來自有與租賃實物資產的使用，以及全球衝突的預期影響等，均屬於向前看聲明。這些向前看聲明受到某些風險與不確定性影響，可能導致實際結果或結果與目前預期有重大差異。影響實際結果或結果的因素包括，但不僅限於以下因素：",
+    "我們客戶服務合約可能無法續約、購買服務減少或價格下降，以及未能留住關鍵客戶的可能；",
+    "我們在市場中競爭的能力，這些市場高度競爭，有新進市場者，並可能因現有競爭對手的合併而產生，以及價格壓力與費用增加的可能性；",
+    "我們的解決方案與技術可能無法如預期般運作的可能；",
+    "我們的併購與合作夥伴關係可能無法達到預期的增加需求/利潤率的可能；",
+    "疫情可能對我們的營運、銷售、獲利、財務狀況與流動性產生不利影響的可能性；",
+    "全球衝突或關稅可能對我們的營運、銷售、獲利、財務狀況與流動性產生不利影響的可能性；",
+    "經濟衰退的影響；醫療保健產業合併的影響；",
+    "聯邦醫療保健及預算立法、行政命令、節省成本措施及其他規範變更的影響;",
+    "我們吸引並留住關鍵管理人員及其他員工的能力;",
+    "我們的智慧財產權及其他專有資訊科技可能被競爭對手複製或獨立開發的風險;",
+    "我們維持有效內部控制的能力；資訊科技平台發生故障或缺失的風險;",
+    "我們或我們的第三方服務提供者可能遭受網路攻擊、安全漏洞或電腦病毒的風險；以及",
+    "本年度報告表 10-K 第一部分第 1A 項標題為 \"風險因素\" 所列的風險因素，以及我們在新聞稿、股東報告及其他向證券交易委員會提交的檔中所披露的其他資訊。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "管理層對於財務狀況與營運成果之討論與分析",
+    "重要會計估計",
+    "近期趨勢",
+    "關鍵財務指標與營運成果",
+    "非GAAP財務指標",
+    "調整後淨收入與調整後每股盈餘",
+    "截至12月31日之年度",
+    "調整後營業利益與調整後營業利率",
+    "流動性及資本資源",
+    "股票回購計畫",
+    "最近會計準則聲明"
+   ],
+   "paragraphs": [
+    "以下討論與分析提供與我們財務表現與狀況相關的重要因素總結。應與本表單 10-K 第二部分，第 8 項所包含的合併財務報表及附註一併閱讀。本表單 10-K 這部分一般討論 2025 年與 2024 年項目及 2025 年與 2024 年的年對年比較。關於 2023 年項目及 2024 年與 2023 年的年對年比較，未包含於本表單 10-K 中，可於本公司 2024 年 12 月 31 日財務年度的年度報告表單 10-K 第二部分，第 7 項「管理層對財務狀況與營運結果之討論與分析」中找到。",
+    "我們的目標是使醫療照護人性化，並協助機構瞭解每個獨特個體。我們對 Human Understanding® 的承諾，協助領先的醫療系統透過瞭解他們服務的每個個體，而不僅是時點的洞察，而是持續的關係，來改善其營運。我們的端到端解決方案使客戶能瞭解對每個個體而言最重要的事，無論是在臨牀接觸前、中、後，甚至更遠的未來，以獲得一個長期的觀點，瞭解生活與健康如何交織，目標在於建立持久且信任的關係。我們能衡量最重要的事，並系統性地收集、分析並交付基於患者、家庭及消費者自述資訊的洞察，這在當前的醫療市場中至關重要。我們相信，對大量個別驅動資訊的存取、分析與行動，對醫療提供者而言，越來越具價值，因為他們需要更好地瞭解並與所服務的個體互動，以建立長期關係、提升忠誠度與改善流程。",
+    "我們的訂閱制解決方案組合，為醫療機構提供可操作的資訊與分析，涵蓋一系列關鍵任務、與相關方相關的要素，包括患者體驗、服務恢復、照護轉移、員工參與、聲譽管理與品牌忠誠度。我們與醫療服務的全過程客戶合作，並認為這種跨全過程的定位是一項獨特且越來越重要的能力，因醫療環境的演變正驅動其相關方朝向更合作與整合的服務模式。",
+    "財務報表的編製需要管理階層做出影響所報告金額的估計與假設。以下領域被視為關鍵會計估計，因為其涉及重大判斷或假設、涉及複雜或不確定的問題，或易受變動影響，且其影響可能對我們的財務狀況或營運結果造成重大影響：",
+    "我們的收入主要來自與客戶的可續訂訂閱服務協議。我們也從固定、非訂閱安排中取得收入。我們的收入認列政策要求管理階層估計，包括其他因素，我們在變動考量訂閱安排下預期將收到的未來合約對價，以及在固定、非訂閱安排下，合約期間預期總估計合約成本。如果管理階層做出不同的判斷與估計，則任何期間的收入金額與時間點可能與報告的收入不同。請參閱我們合併財務報表的附註 1 與附註 3，以瞭解我們的收入認列政策說明。",
+    "自 2024 年第四季起，總持續接觸價值（\"TRCV\"）每季都增加，而每位員工收入與直接銷售費用也有所改善，使我們對公司的財務方向更有信心，儘管 2024 年與 2025 年因管理層變動而產生的非持續性遣散與薪資費用。",
+    "我們的 GAAP 收入與營運毛利自 2023 年以來下降，主要原因是 2025 年前的新銷售與留存率下降，這源自於銷售團隊變動與 2020 年至 2024 年初較為薄弱的產品創新，以及上述提到的非持續性成本。TRCV，我們收入預期的主要指標，在 2024 年第三季時下降。在 2024 年與 2025 年，我們進行了高階管理層的重大變動，開發並行銷創新產品，收購了我們的圓角工具，並重新組建了一支有動力的銷售團隊。我們也實施了效率措施，使我們能提升客戶體驗，同時降低直接費用與總員工數。隨著 TRCV 增長與較低的費用率，我們預期 2026 年的收入、營運毛利與營運現金流將成長。",
+    "以下表格列示了針對所指明期間的選取財務資訊，以及與前一可比期間的變動百分比，以及其他關鍵財務指標。接下來的討論應與我們的合併財務報表一併閱讀。",
+    "(以千為單位，除百分比外) 會計年度終了於12月31日，百分比增減 (增減) 2025",
+    "2024 2023 2025 較2024 2024 較2023 營業收入 137,390 143,060 148,580 (4 (4 直接費用",
+    "52,371 56,933 56,015 (8 銷售、一般及行政費用 54,805 44,911 46,621 (4 折舊及攤銷",
+    "7,624 6,022 5,899 營運獲利 22,590 35,194 40,045 (36 (12 其他總費用 (4,745",
+    "(2,504 (83 2,917 所得稅負擔 6,245 7,907 8,991 (21 (12 實際稅率 營運邊際",
+    "(9 (2 總合合約價值 144,143 133,218 141,855 (6 營運活動產生之現金"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素",
+    "與本公司業務相關的風險",
+    "我們依賴契約續約，包括留住關鍵客戶，以取得營業收入的大部分，而我們的營運成果可能會因此受到不利影響。",
+    "我們經營於一個高度競爭的市場，可能會因之遭遇價格壓力增加及費用上升。",
+    "我們可能因疫情或大規模傳染病爆發而受到負面影響。",
+    "我們可能因全球衝突或其他類似事件而受到負面影響。",
+    "總體經濟因素可能會對我們的獲利能力造成不利影響。",
+    "我們面臨多項與我們收集業務所依賴資料能力相關的風險",
+    "若競爭對手竊取或獨立開發本公司的智慧財產權及其他專有資訊科技，將可能對本公司營運成果產生負面影響。",
+    "資訊科技與通訊系統之故障、中斷或缺失，可能對本公司業務及營運成果產生負面影響。",
+    "新解決方案之提供涉及內在風險。",
+    "聲譽受損可能對本公司業務、財務狀況及營運成果產生重大負面影響。",
+    "本公司業務受法律及法規之制約，這些法律及法規會產生重大合規成本，並造成聲譽及法律風險。",
+    "內部控制不當可能對本公司業務、營運成果及聲譽產生負面影響。",
+    "本公司成長策略包括未來之併購、合作夥伴關係及/或投資，這些行動涉及內在風險。",
+    "若本公司無法達成適當之營業收入與成本比率，則利潤率可能下降。",
+    "與本公司普通股相關的風險",
+    "本公司主要股東實際上控制本公司。",
+    "本公司普通股的市場價格可能波動，股東可能無法以購入價格或更高價格將股份轉售。",
+    "一般風險因素",
+    "本公司營運成果可能波動，這可能會導致本公司股票價格下跌。",
+    "若本公司無法吸引或留住關鍵管理人員及其他員工，本公司業務及營運成果可能會受到不利影響。",
+    "所得稅率提高、所得稅法規或條例的變更，或稅務事宜的不利裁決，可能會對本公司利潤產生不利影響。",
+    "未能遵守上市公司規範，可能會對本公司利潤產生不利影響。",
+    "{'translated_text': '本公司得隨時變更股息政策。'}"
+   ],
+   "paragraphs": [
+    "您應仔細審閱下列所列之風險，並與本年度10-K表報中所載之其他資訊一併考量，以作為投資本公司證券之決定。若任何上述風險成為實際事件，將可能對本公司之業務、財務狀況或營運成果造成重大且不利之影響，您亦可能喪失全部或部分投資。部分所討論之因素、事件及潛在狀況可能已於過去發生，但下列揭露並非表示這些因素、事件或潛在狀況是否已於過去發生，而是反映本公司對未來可能對本公司造成重大且不利影響之因素、事件或潛在狀況之看法與意見。",
+    "我們預期，在可預見之未來，本公司之營業收入將持續有相當大一部分來自可再生能源服務合約。若客戶未能續約或延後續約，將可能對本公司之營運造成重大且不利之影響。本公司依賴有限數量之關鍵客戶來獲取相當大一部分之營業收入。本公司十大客戶合計於2025年、2024年及2023年分別佔總營業收入之20%、17%及15%。本公司能否取得續約，取決於諸多因素，包括本公司能否以一致、高品質且及時的方式收集並分析績效資料。此外，客戶之服務需求受認證要求、加入管理式照護計畫、醫療機構整體管理與薪酬制度中滿意度指標之使用程度、運營預算規模、客戶之運營表現、產業與總體經濟狀況，以及管理層或所有權之變動等因素影響。由於這些因素超出本公司控制範圍，本公司無法確保能維持現有之續約率。若續約率出現重大下降，將對本公司之營業收入造成不利影響，並對營運及淨收入產生相應影響。",
+    "醫療照護分析與市場研究服務產業競爭激烈。本公司傳統上與醫療機構內部之行銷、市場研究及/或品質改進部門競爭，這些部門自行製造其績效測量工具，並與其他提供基於問卷之醫療市場研究及/或績效評估之公司競爭。本公司之主要競爭對手包括Press Ganey與Qualtrics，本公司認為這兩家公司之年營業收入遠高於本公司，以及數家在本公司所服務市場中提供類似服務之公司。本公司亦與市場研究公司及科技解決方案公司競爭，這些公司提供基於問卷之一般市場研究或客戶意見反饋功能，以及提供與醫療績效評估相輔相成之服務或產品之公司，例如醫療軟體或資訊系統。雖然僅有少數競爭對手提供與本公司服務直接競爭之特定服務，但許多競爭對手擁有遠高於本公司之財務、資訊蒐集與行銷資源，並可能決定增加對本公司市場之資源投入。競爭對手可能透過內生成長或與其他競爭對手合併來增加資源。此外，本公司並無公開上市之同業羣組，這使得與其他類似公司比較與參考表現變得困難。進入本公司市場之門檻相對較低，本公司預期市場將出現更多競爭，這可能透過價格壓力、增加行銷支出及市場佔有率流失等因素，對本公司之營運成果造成不利影響。本公司無法保證能持續成功對抗現有或新興之競爭對手。",
+    "由於本公司之客戶集中於醫療照護產業，因此本公司之營業收入與營運成果可能因該產業之規範變動、業務衰退或產業合併而受到不利影響。",
+    "本公司幾乎所有之營業收入均來自醫療照護產業之客戶。因此，本公司之業務、財務狀況及營運成果受該產業條件之影響，包括可能影響醫療照護提供者與付款機構採購行為與運作之政治、經濟、競爭與規範因素。醫療照護產業受到州與聯邦政府之廣泛規範。未來之立法變動，包括控制醫療照護成本、改善醫療照護品質及擴大健康保險存取之附加條款，可能導致較低之補償金率，並改變提供者與付款機構之運作環境。時而，美國眾議院成員曾提出針對醫療補助（Medicaid）、醫療保險（Medicare）及其他福利計畫之立法提案，作為減少聯邦開支之廣泛計畫之一環，數項行政命令已發佈，旨在減少政府開支，本公司預期將持續有針對補償方式及符合政府醫療計畫資格之個人數量之提案。亦有提案呼籲廢除或改革《平價醫療法案》（Affordable Care Act）。任何上述或相關之州或聯邦政府行動，可能顯著減少聯邦或州政府對醫療補助與醫療保險計畫之開支，可能代表聯邦在醫療照護領域之角色發生根本性變動，改變醫療補助與醫療保險所提供之福利性質，或減少或延遲醫療補助與醫療保險對非營利與營利醫療系統之付款，任何上述情況均可能對本公司客戶之營業收入造成重大影響，進而對本公司解決方案之需求及本公司收取訂閱費與費用之能力造成損害，進而對本公司之業務、財務狀況、現金流及營運成果產生負面影響。",
+    "此外，大型私人醫療服務採購者正對提供者施加日益增加的成本壓力。醫療提供者可能因這些成本壓力及其他不確定性而減少或延後採購，包括採購本公司之服務。此外，醫療照護產業已出現公司合併之趨勢，本公司認為此趨勢將持續增長。此產業之合併，包括本公司部分客戶可能被收購，可能對本公司服務之客戶總預算造成不利影響，可能導致客戶自行執行更多行銷、市場研究及/或品質改進功能，或可能導致客戶終止與本公司之合作關係。這些發展對醫療照護產業之影響難以預測，可能對本公司之營業收入造成不利影響，並對營運及淨收入產生相應影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

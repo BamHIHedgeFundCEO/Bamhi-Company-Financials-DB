@@ -1,0 +1,221 @@
+{
+ "ticker": "NKTX",
+ "cik": "0001787400",
+ "accession": "0001787400-26-000006",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Strategy",
+    "CAR NK platform enlists natural, healthy human donor NK cells for optimal product candidates.",
+    "Prioritize development of NKX019 for B-cell mediated autoimmune diseases.",
+    "Continue to progress our proprietary manufacturing capabilities to enable speed, control, flexibility, scalability, and cost efficiency.",
+    "Continue to advance our CAR NK platform.",
+    "Continue to evaluate enabling, adjacent or potentially competing technologies, and, where advantageous, seek licenses or collaborations regarding those technologies, to advance our platform.",
+    "The Immune System and Autoimmune Diseases",
+    "Cellular Immunotherapies",
+    "Limitations of Current CAR T Therapies",
+    "Allogeneic NK Cell Therapies",
+    "The Opportunity for Engineered NK Cells in Treating Autoimmune Diseases",
+    "Challenges with Developing NK Cell Therapies",
+    "Our NK Cell Engineering Platform",
+    "Immune Evasion. Through a combination of ectopic expression and genome editing, we have identified a number of strategies that could enable NK cells to resist allogeneic suppression.",
+    "Our Pipeline",
+    "CAR NK Platform and Other Programs",
+    "Manufacturing",
+    "Patents, Trademarks and Proprietary Technology",
+    "Government Regulation",
+    "FDA Approval Process"
+   ],
+   "paragraphs": [
+    "We are a clinical-stage biopharmaceutical company pioneering the development of allogeneic, off-the-shelf engineered natural killer (\"NK\") cell therapies. Our company was founded on the belief that engineered NK cell therapies can transform the lives of patients by offering therapies that are clinically meaningful, broadly accessible and unencumbered by the safety concerns often associated with other cell therapy approaches. Our lead pipeline program is NKX019, a chimeric antigen receptor-natural killer (\"CAR NK\") product candidate targeting the CD19 antigen for the treatment of patients with autoimmune diseases. Our CAR NK platform enables an on-demand, off-the-shelf approach involving scaled manufacturing to broaden patient access. We have developed proprietary technologies designed to generate an abundant supply of NK cells, increase NK cell recognition of target antigens, and enhance NK cell fitness to support scalable, off the shelf administration. NKX019 is allogeneic, which means it is produced using cells from a different person than the patient(s) being treated, and it is produced in quantity, then frozen and therefore available for treating patients without delay, unlike autologous cell therapies, which are derived from a patient's own cells and must be manufactured as needed for each patient. We believe that engineered NK cells have the potential to be effective and accessible therapies for autoimmune diseases and other diseases, be well tolerated, and avoid some of the toxicities observed with other cell therapies.",
+    "NKX019 is currently being studied in an ongoing Phase 1 clinical trial (\"Ntrust-1\") for lupus nephritis (\"LN\") and primary membranous nephropathy (\"pMN\") and a Phase 1 clinical trial (\"Ntrust-2\") for systemic sclerosis (\"scleroderma\"), idiopathic inflammatory myopathy (\"myositis\"), and antineutrophil cytoplasmic antibody (ANCA)-associated vasculitis (\"AAV\"). NKX019 is also being studied in an investigator-sponsored trial (\"IST\") at Columbia University Irving Medical Center for systemic lupus erythematosus (\"SLE\") and an IST led by researchers at the University of California, Irvine and the University of Kansas Medical Center in myasthenia gravis (\"MG\"). NKX019 was initially studied in a Phase 1 clinical trial for certain B-cell malignancies, along with NKX101, a CAR NK product candidate targeting cells that display NKG2D ligands, which was studied in a Phase 1 clinical trial for certain hematologic malignancies. Both oncology studies closed patient enrollment in 2023 and have been deprioritized to direct primary resources to the development of our lead pipeline program, NKX019, for the treatment of autoimmune diseases.",
+    "Our modular engineering platform builds on the distinctive biology of NK cells and their role in eradicating aberrant and pathologically transformed cells. Our process starts with mature NK cells derived from healthy donors. We build on the intrinsic ability of these immune cells to identify and kill transformed cells with cell engineering to further enhance their activity. This engineering involves inducing the expression of a chimeric antigen receptor (\"CAR\") on the surface of an NK cell to enable the cell to recognize specific proteins or antigens that are present on the surface of target cells. Our engineered CAR NK cells consist of an NK cell engineered with a targeting receptor, OX40 costimulatory domain, CD3ζ(zeta) signaling moiety, and a membrane-bound form of the cytokine IL(interleukin)-15 (\"mbIL-15\").",
+    "Our NKX019 autoimmune program is based on the potential to eliminate the pathologic B cells that produce autoantibodies believed to underpin multiple autoimmune diseases via CD19 targeting. These autoantibodies, the immunologic hallmark of many autoimmune diseases, inappropriately recognize antigens expressed in healthy cells, causing various clinical syndromes from the resultant damage to normal tissues. Abnormal B cells are also the cause of multiple hematologic malignancies, including B-cell lymphoma. Approved CD19-directed cell therapies can eliminate these cancerous B cells, resulting in the possibility of durable complete responses in patients that are refractory to other therapies. Targeted depletion of cells from the B-cell lineage as a therapeutic mechanism is common to both autoimmune diseases and B-cell malignancies. This observation, in addition to recent reported studies of patients with autoimmune diseases who had considerable clinical benefit following treatment with CD19-directed cell therapies, support our belief that NKX019 has the potential to be a disease-modifying therapy for autoimmune diseases. Ntrust-1 is a multi-center, open-label, dose-escalation Phase 1 clinical trial of NKX019 for LN and pMN. Ntrust-2 is a multi-center, open-label, dose-escalation Phase 1 clinical trial of NKX019 for scleroderma, myositis, and AAV, which we believe maximizes the potential success of our clinical trials. In May 2025, we announced the modification of the lymphodepleting conditioning (\"LD\") prior to administration of",
+    "NKX019 to use a combination of fludarabine (\"Flu\") and cyclophosphamide (\"Cy\"), with the option for patients with cytopenias to continue to receive Cy alone as modified LD, in both our Ntrust-1 clinical trial and our Ntrust-2 clinical trial. At that time, we also announced that researchers at the University of California, Irvine initiated an IST of NKX019 in patients with MG.",
+    "In November 2025, we announced that deep B-cell depletion was observed in all patients treated to date who received NKX019 with LD using Flu and Cy versus partial B-cell depletion in patients receiving only Cy. At the same time, we reported the implementation of a streamlined enrollment process that allows participant data from both the Ntrust-1 and Ntrust-2 clinical trials to be reviewed by a combined independent Data Safety Monitoring Board (\"iDSMB\") to inform dose-escalation decisions. This update followed engagement with the U.S. Food and Drug Administration (\"FDA\") and authorization by the iDSMB to initiate enrollment in the second dose-escalation cohort.",
+    "The therapeutic benefit of targeting CD19-positive B cells in patients with SLE has been reported in a recent academic study published in Nature Medicine in September 2022 (Mackensen et al. (2022) Nat. Med. 28:2124-2132). Five patients with severe refractory SLE with LN received an autologous CD19 CAR T-cell therapy following LD with Flu and Cy. All patients showed significant clinical improvement in symptoms, including drug-free remissions after approximately three months. The CAR T cells expanded in all patients, with peak levels occurring around day 9, followed by a rapid decline. There was no high-grade cytokine release syndrome (\"CRS\"), no neurotoxicity, and no substantial elevation of serum IL-6 levels. Depletion of circulating B cells was rapid yet transient, with B cell numbers returning to normal within two to four months. This transience of depletion contrasts sharply with the CD19 CAR T-cell experience in B-cell malignancies, where B-cell suppression typically exceeds 18 months. Despite the limited persistence of CAR T cells and short-term B-cell suppression, all patients had seroconversion of anti-double-stranded DNA antibodies and ongoing disease control, even after B-cell recovery. A subsequent publication expanded this dataset to eight patients with SLE, all of whom had seroconversion and disease remission (Müller et al. (2024) N Engl J Med 390: 687-700). Median follow up in the group was 15 months with some patients having up to 29 months of remission.",
+    "As we pursue our goal of developing innovative and broadly accessible cell therapies, manufacturing capabilities and technology are a significant focus of our efforts. We have been manufacturing clinical supply at one of our two good manufacturing practice (\"cGMP\") facilities located in South San Francisco, California, and intend to use our second facility in South San Francisco for additional clinical supply, supply of NKX019 or future product candidates for future pivotal clinical trials, and potential commercial supply of our product candidates.",
+    "We are developing novel engineered, allogeneic, off-the-shelf cell therapies to improve the lives of people living with autoimmune diseases. Key elements of our strategy to achieve this include:",
+    "Our cell engineering platform utilizes healthy donors as our source for NK cells. By enlisting this natural source of NK cells, we start with bona fide NK cells endowed with inherent cytotoxic and tumor-recognizing capabilities. This contrasts with other more complex cell sources where these basic therapeutic features must be painstakingly designed and synthetically added to the cells. Donor-derived NK cells are also available in abundance, providing a large quantity of cells with which to begin each manufacturing run. Finally, healthy donor-derived adult cells consist of a diverse repertoire of NK cells. By utilizing a cell source that contains the full range of naturally occurring NK cells, we believe we can capitalize on the inherent diversity of the innate immune system and potentially select for different NK cell sub-populations with desired characteristics.",
+    "NKX019 is designed to target CD19, which is expressed through certain stages of B-cell development. When aberrantly activated, B cells can produce autoantibodies that inappropriately recognize cell surface antigens on normal cells. These antibodies and resultant immune complexes can damage normal tissues and lead to autoimmune diseases, such as LN. Due to the broad expression of CD19 on B cells, the targeting and depletion of CD19-positive",
+    "B cells has been proposed as a mechanism by which long-term drug-free remissions may be achieved in B-cell mediated autoimmune diseases.",
+    "Autologous CAR T cell therapies have transformed the treatment landscape for certain blood cancers by targeting cancerous B cells via CD19. This approach also kills normal B cells in large numbers via an on-target, off-tumor effect. In those patients who respond to CD19-directed CAR T cell therapy, normal B cells are also depleted beyond detection in the blood. Recent academic studies have applied this approach of B-cell depletion to the treatment of patients with B-cell mediated autoimmune diseases. In one published report, five patients with highly refractory LN had remarkable improvements in clinical symptoms and normalization of autoantibodies following a course of treatment with CD19 CAR T cells. Because the targeting of CD19 has demonstrated clinical activity with CAR T and CAR NK cell therapies, we believe that NKX019 presents an opportunity to treat a variety of autoimmune diseases while addressing the limitations of CAR T cell therapies.",
+    "We are evaluating NKX019 in clinical trials for the treatment of LN, pMN, scleroderma, myositis, and AAV. We have shown that NKX019 is highly active in vitro against B cells from patients with B-cell mediated autoimmune diseases and continue to evaluate additional potential autoimmune indications for potential clinical investigation."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to our Financial Position",
+    "We have a limited operating history and do not have any products approved for sale.",
+    "We have incurred significant losses since our inception, and we expect to continue to incur significant losses for the foreseeable future.",
+    "We have never generated revenue from product sales and may never achieve or maintain profitability.",
+    "We will require additional capital, which, if available, may cause dilution to our stockholders, restrict our operations or require us to relinquish rights to our product candidates.",
+    "Impairment of our long-lived assets could have a material adverse effect on our financial condition and results of operations.",
+    "Risks Related to Our Business and Industry",
+    "Our business depends upon the success of our CAR NK-cell technology platform.",
+    "Utilizing CAR NK cells represents a novel therapeutic approach, and we must overcome significant challenges in order to develop, commercialize and manufacture our product candidates.",
+    "Clinical development involves a lengthy and expensive process with an uncertain outcome, and we may encounter substantial delays due to a variety of reasons outside our control.",
+    "Enrollment and retention of patients in clinical trials is an expensive and time-consuming process and could be delayed, made more difficult or rendered impossible by multiple factors outside our control."
+   ],
+   "paragraphs": [
+    "An investment in shares of our common stock involves a high degree of risk. You should carefully consider the following risk factors, as well as all of the other information contained in this Annual Report on Form 10-K, before making an investment decision. The risks described below are not the only ones facing us. The occurrence of any of the following risks, or of additional risks and uncertainties not presently known to us or that we currently believe to be immaterial, could significantly harm our business, financial condition, results of operations and growth prospects. In such case, the trading price of shares of our common stock could decline, and you may lose part or all of your investment. This Annual Report on Form 10-K also contains forward-looking statements and estimates that involve risks and uncertainties. Our actual results could differ materially from those anticipated in the forward-looking statements as a result of specific factors, including the risks and uncertainties described below.",
+    "We are a clinical-stage biopharmaceutical company without any products approved for commercial sale and have not generated any revenue from product sales. We are focused on developing genetically-engineered human cells as therapeutics and our technologies are new and largely unproven. Since our inception in 2015, we have invested most of our resources in developing various product candidates, building our intellectual property portfolio, developing our supply chain and in-house manufacturing capability, conducting business planning, raising capital and providing general and administrative support for these operations. Consequently, we have limited operations upon which to evaluate our business, and predictions about our future success or viability may not be as accurate as they could be if we had a longer operating history or a history of successfully developing and commercializing drug products. We have not yet demonstrated an ability to overcome many of the risks and uncertainties frequently encountered by companies in the rapidly evolving biotechnology industry. If we do not address these risks, our business, financial condition, results of operations and growth prospects will be materially adversely affected.",
+    "Since our inception in 2015, we have incurred significant operating losses. Our net losses were $104.1 million and $108.8 million for the years ended December 31, 2025 and 2024, respectively. Our accumulated deficit was $648.3 million as of December 31, 2025. We expect to continue to incur increasing operating losses for the foreseeable future as we continue to develop NKX019 and any future product candidates. In addition, we anticipate that our expenses will increase substantially if, and as, we:",
+    "• continue the clinical development of NKX019, including in new indications, or restart the clinical development of any other product candidates;",
+    "• continue scale up and optimization of manufacturing process and prepare for commercial manufacturing;",
+    "• advance additional product candidates to clinical trials, including any product candidates that may be advanced under the collaboration with CRISPR Therapeutics AG (\"CRISPR\");"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Financial Operations Overview",
+    "Operating Expenses",
+    "Year Ended December 31,",
+    "(in thousands)",
+    "Other Income, net",
+    "Income Taxes",
+    "Results of Operations",
+    "Research and development expenses",
+    "General and administrative expenses",
+    "Interest income",
+    "Other income, net",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "Funding Requirements",
+    "Contractual Obligations and Commitments",
+    "Critical Accounting Policies and Estimates",
+    "Recently Issued Accounting Pronouncements",
+    "Indemnification",
+    "Segment Information",
+    "Smaller Reporting Company Status"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our financial statements and related notes appearing elsewhere in this Annual Report on Form 10-K. This discussion contains forward-looking statements that reflect our plans, estimates and beliefs, and involve risks and uncertainties. Our actual results and the timing of certain events could differ materially from those anticipated in these forward-looking statements as a result of several factors, including those discussed in the section titled \"Risk Factors\" included under Part I, Item 1A and elsewhere in this Annual Report on Form 10-K. See \"Cautionary Note Regarding Forward-Looking Statements\" in this Annual Report on Form 10-K.",
+    "We are a clinical-stage biopharmaceutical company pioneering the development of allogeneic, off-the-shelf engineered natural killer (\"NK\") cell therapies. Our lead pipeline program is NKX019, a chimeric antigen receptor-natural killer (\"CAR NK\") product candidate targeting the CD19 antigen for the treatment of patients with autoimmune diseases. Our CAR NK platform enables an on-demand, off-the-shelf approach involving scaled manufacturing to broaden patient access. We have developed proprietary technologies designed to generate an abundant supply of NK cells, increase NK cell recognition of target antigens, and enhance NK cell fitness to support scalable, off the shelf administration. NKX019 is allogeneic, which means it is produced using cells from a different person than the patient(s) being treated, and it is produced in quantity, then frozen and therefore available for treating patients without delay, unlike autologous cell therapies, which are derived from a patient's own cells and must be manufactured as needed for each patient. We believe that engineered NK cells have the potential to be effective and accessible therapies for autoimmune diseases and other diseases, be well tolerated, and avoid some of the toxicities observed with other cell therapies.",
+    "Our modular engineering platform builds on the distinctive biology of NK cells and their role in eradicating aberrant and pathologically transformed cells. Our process starts with mature NK cells derived from healthy donors. We build on the intrinsic ability of these immune cells to identify and kill transformed cells with cell engineering to further enhance their activity. This engineering involves inducing the expression of a chimeric antigen receptor (\"CAR\") on the surface of an NK cell to enable the cell to recognize specific proteins or antigens that are present on the surface of target cells. Our engineered CAR NK cells generally consist of an NK cell engineered with a targeting receptor, OX40 costimulatory domain, CD3ζ(zeta) signaling moiety, and a membrane-bound form of the cytokine IL(interleukin)-15 (\"mbIL-15\").",
+    "In March 2025, we approved a reduction in workforce as a result of a review of current strategic priorities and resource allocation with the intent to decrease our costs and create a more streamlined organization to support our operations and reprioritized product pipeline.",
+    "Our Ntrust-1 clinical trial (\"Ntrust-1\") is a multi-center, open-label, dose-escalation Phase 1 clinical trial of NKX019 for lupus nephritis (\"LN\") and primary membranous nephropathy (\"pMN\"). Our Ntrust-2 clinical trial (\"Ntrust-2\") is a multi-center, open-label, dose-escalation Phase 1 clinical trial of NKX019 for systemic sclerosis (\"scleroderma\"), idiopathic inflammatory myopathy (\"myositis\") and antineutrophil cytoplasmic antibody (ANCA)-associated vasculitis (\"AAV\"). In order to maximize the potential success of both our Ntrust-1 clinical trial and our Ntrust-2 clinical trial, in May 2025, we announced the modification of the lymphodepleting conditioning (\"LD\") prior to administration of NKX019 to use a combination of fludarabine (\"Flu\") and cyclophosphamide (\"Cy\"), with the option for patients with cytopenias to continue to receive Cy alone as modified LD. At that time, we also announced that researchers at the University of California, Irvine initiated an investigator-sponsored trial (\"IST\") of NKX019 in patients with myasthenia gravis (\"MG\"). NKX019 is also being studied in an IST at Columbia University Irving Medical Center in patients with systemic lupus erythematosus (\"SLE\").",
+    "In November 2025, we announced that deep B-cell depletion was observed in all patients treated to date who received NKX019 with LD using Flu and Cy versus partial B-cell depletion in patients receiving only Cy. At the same time, we reported the implementation of a streamlined enrollment process that allows participant data from both the Ntrust-1 and Ntrust-2 clinical trials to be reviewed by a combined independent Data Safety Monitoring Board (\"iDSMB\") to inform dose-escalation decisions. This update followed engagement with the U.S. Food and Drug Administration (\"FDA\") and authorization by the iDSMB to initiate enrollment in the second dose-escalation cohort.",
+    "Since the commencement of our operations in 2015, we have devoted substantially all our resources in support of our product development efforts, hiring personnel, raising capital to support and expand such activities and providing general and administrative support for these operations. We have incurred net operating losses since inception and have not generated any revenue from product sales. In the future, we expect that our operating expenses will significantly increase as we continue to develop and seek regulatory approvals for our product candidates, continue to engage in other research and development activities to expand our pipeline of product candidates, maintain and expand our intellectual property portfolio, maintain and expand our product manufacturing capabilities, and ultimately establish a commercial organization. We have funded our operations primarily through the issuance of Company stock and intend to raise additional capital to fund operations until such time that we are able to generate sufficient revenues to cover our operating expenses. We may seek additional funding through the issuance of common stock, including through equity or debt financing or collaborations or partnerships with other companies. The amount and timing of our future funding requirements will depend on many factors, including, among other things, the pace and results of our clinical development efforts for our product candidates. We may not be able to raise additional capital on terms acceptable to us, or at all. Any failure to raise capital as and when needed would compromise our ability to execute our business plan and may cause us to undertake cost containment measures and/or significantly delay, scale back or discontinue the development of some of our programs. We have also incurred increased operating expenses since becoming a public company, which we expect will further increase when we are no longer able to rely on certain \"smaller reporting company\" exemptions we are afforded as further described below. Our net losses may fluctuate significantly from quarter-to-quarter and year-to-year.",
+    "Research and development costs consist primarily of costs incurred for the discovery and clinical development of our drug candidates, which include:",
+    "• employee-related expenses, including salaries, related benefits, travel and share-based compensation expenses for employees engaged in research and development functions;",
+    "• expenses incurred in connection with research, laboratory consumables, sponsored research, and preclinical studies;",
+    "• expenses incurred in connection with conducting clinical trials including investigator grants and site payments for time and pass-through expenses and expenses incurred under agreements with CROs, other vendors or central laboratories and service providers engaged to conduct our trials;",
+    "• the cost of consultants engaged in research and development related services;",
+    "• the cost to manufacture drug product candidates for use in our preclinical studies and clinical trials;",
+    "• facilities, depreciation and other expenses, which include allocated expenses for rent and maintenance of facilities, insurance and supplies;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司策略",
+    "CAR NK 平台採用自然、健康的捐贈者 NK 細胞，以開發最佳產品候選品項。",
+    "優先發展 NKX019 用於 B 細胞介導的自身免疫性疾病。",
+    "持續進步本公司專屬製造能力，以實現速度、控制力、靈活性、擴展性及成本效益。",
+    "持續推進本公司 CAR NK 平台。",
+    "持續評估啟動、相關或潛在競爭技術，並在有利情況下尋求取得許可或合作，以促進本公司平台的發展。",
+    "免疫系統與自身免疫性疾病",
+    "細胞免疫治療",
+    "{'original': 'Limitations of Current CAR T Therapies', 'translated': '現有 CAR T 療法的限制'}",
+    "{'original': 'Allogeneic NK Cell Therapies', 'translated': '異體 NK 細胞療法'}",
+    "{'original': 'The Opportunity for Engineered NK Cells in Treating Autoimmune Diseases', 'translated': '工程化 NK 細胞在治療自身免疫疾病中的機會'}",
+    "{'original': 'Challenges with Developing NK Cell Therapies', 'translated': '開發 NK 細胞療法的挑戰'}",
+    "{'original': 'Our NK Cell Engineering Platform', 'translated': '本公司 NK 細胞工程平台'}",
+    "{'original': 'Immune Evasion. Through a combination of ectopic expression and genome editing, we have identified a number of strategies that could enable NK cells to resist allogeneic suppression.', 'translated': '免疫逃逸。透過 ectopic 表達與基因編輯的組合，本公司已鑑定數種策略，可能使 NK 細胞抵禦異體抑制。'}",
+    "{'original': 'Our Pipeline', 'translated': '本公司產品線'}",
+    "{'original': 'CAR NK Platform and Other Programs', 'translated': 'CAR NK 平台及其他計畫'}",
+    "製造業",
+    "專利、商標及專有技術",
+    "政府規範",
+    "FDA審批程序"
+   ],
+   "paragraphs": [
+    "本公司為一臨牀階段生技製藥公司，專注於開發非自體、即用型的工程化自然殺傷（\"NK\"）細胞療法。本公司成立的信念在於，工程化NK細胞療法可改變病患的生活，提供具臨牀意義、廣泛可近性且不受其他細胞療法常見安全疑慮影響的療法。本公司主要開發項目為NKX019，為一種嵌合抗原受體-自然殺傷（\"CAR NK\"）產品候選藥物，針對CD19抗原，用以治療患有自身免疫疾病的病患。本公司CAR NK平台可提供即用型、非自體的解決方案，透過規模化製造來擴大病患的可近性。本公司已發展專利技術，用以產生大量NK細胞、提升NK細胞對目標抗原的辨識能力，並增強NK細胞的適應性，以支持可規模化、非自體的給藥方式。NKX019為非自體，表示其製造使用來自不同於治療病患（\"患者\"）的個體的細胞，並以大量製造、冷凍保存的方式進行，因此可立即用於治療病患，不像自體細胞療法，必須根據每位病患的需求進行製造。本公司相信工程化NK細胞有潛力成為治療自身免疫疾病及其他疾病的有效且可近性的療法，並具有良好耐受性，且可避免其他細胞療法常見的毒性。",
+    "NKX019目前正在進行一項持續的第1期臨牀試驗（\"Ntrust-1\"），用以治療紅斑狼瘡腎炎（\"LN\"）及原發性膜性腎病變（\"pMN\"），同時也在進行一項第1期臨牀試驗（\"Ntrust-2\"），用以治療系統性硬化症（\"scleroderma\"）、原發性炎症性肌病（\"myositis\"）及抗中性粒細胞胞漿抗體（ANCA）相關血管炎（\"AAV\"）。NKX019也在哥倫比亞大學伊雲醫療中心進行由研究者主導的試驗（\"IST\"）用以治療系統性紅斑狼瘡（\"SLE\"），並在加州大學爾灣分校及堪薩斯大學醫療中心的研究者主導下進行用以治療重症肌無力（\"MG\"）的IST。NKX019最初在針對某些B細胞惡性腫瘤的第1期臨牀試驗中進行研究，同時與NKX101（一種針對顯示NKG2D配體的細胞的CAR NK產品候選藥物）一起研究，NKX101在針對某些血液系統惡性腫瘤的第1期臨牀試驗中進行研究。兩項腫瘤學試驗於2023年完成病患招募，並已優先轉向我們主要開發項目NKX019的發展，用以治療自身免疫疾病。",
+    "我們的模組化工程平台建立在NK細胞獨特的生物學特性及其在消除異常及病理性轉變細胞的關鍵角色。我們的製造過程從健康捐贈者的成熟NK細胞開始。我們利用這些免疫細胞內在的辨識與殺死轉變細胞的能力，透過細胞工程進一步增強其活性。此工程涉及誘導在NK細胞表面表達嵌合抗原受體（\"CAR\"），以使細胞能辨識並攻擊目標細胞表面的特定蛋白或抗原。我們的工程化CAR NK細胞包含一具備目標受體、OX40共刺激域、CD3ζ(zeta)訊號模組及膜結合型細胞激素IL（間質性白血球素）-15（\"mbIL-15\"）的NK細胞。",
+    "我們的NKX019自身免疫疾病開發項目基於透過針對CD19來消除產生自身抗體的病理性B細胞，這些自身抗體被認為是多種自身免疫疾病的基礎。這些自身抗體為許多自身免疫疾病的免疫學特徵，不恰當地辨識健康細胞所表達的抗原，導致因正常組織受損而產生各種臨牀症候羣。異常B細胞也是多種血液系統惡性腫瘤的成因，包括B細胞淋巴瘤。已核准的CD19導向細胞療法可消除這些惡性B細胞，使對其他療法無效的病患有機會獲得持續的完全反應。針對B細胞系細胞的選擇性清除作為治療機制，同時適用於自身免疫疾病與B細胞惡性腫瘤。此觀察，加上近期報導的自身免疫疾病病患在接受CD19導向細胞療法後有顯著臨牀效益的案例，支持我們的信念，即NKX019有潛力成為治療自身免疫疾病的疾病修正療法。Ntrust-1為一項多中心、開放標籤、劑量遞增的第1期臨牀試驗，用以評估NKX019在LN及pMN的應用。Ntrust-2為一項多中心、開放標籤、劑量遞增的第1期臨牀試驗，用以評估NKX019在scleroderma、myositis及AAV的應用，我們認為此安排可最大化我們臨牀試驗的成功潛力。2025年5月，我們宣佈修改在給予NKX019前的淋巴細胞減少條件（\"LD\"）",
+    "NKX019 將使用一種 fludarabine (\"Flu\") 與 cyclophosphamide (\"Cy\") 的組合療法，並允許有 cytopenias 的病患繼續單獨接受 Cy 作為修改後的 LD 療法，此療法同時應用於我們的 Ntrust-1 臨牀試驗與 Ntrust-2 臨牀試驗。當時，我們也宣佈加州大學爾灣分校的研究人員已啟動 NKX019 在 MG 病患中的 IST 試驗。",
+    "2025 年 11 月，我們宣佈所有接受 NKX019 以 Flu 與 Cy 進行 LD 療法的病患均觀察到深層 B 細胞耗竭，與僅接受 Cy 的病患觀察到的部分 B 細胞耗竭情形不同。同時，我們報告已實施簡化入組流程，使 Ntrust-1 與 Ntrust-2 臨牀試驗的參與者資料可由組合獨立資料安全監察委員會 (\"iDSMB\") 進行審查，以提供劑量遞增決策資訊。此更新是基於與美國食品藥物管理局 (\"FDA\") 的溝通，並經 iDSMB 批准啟動第二劑量遞增羣組的入組。",
+    "針對 SLE 病患標靶 CD19 正向 B 細胞的治療效益，已在 2022 年 9 月發表於 Nature Medicine 的學術研究中報導 (Mackensen et al. (2022) Nat. Med. 28:2124-2132)。五位有嚴重難治性 SLE 並伴隨 LN 的病患在接受 LD 以 Flu 與 Cy 進行治療後，接受了自體 CD19 CAR T 細胞療法。所有病患在約三個月後均顯示症狀顯著改善，包括無藥物治療的緩解。CAR T 細胞在所有病患中均擴增，峯值約在第 9 天，隨後迅速下降。未觀察到高階 cytokine release syndrome (\"CRS\")、神經毒性，以及血清 IL-6 水平顯著升高。循環 B 細胞的耗竭迅速但為暫時性，B 細胞數量在兩到四個月內恢復正常。這種暫時性耗竭與 B 細胞惡性腫瘤中 CD19 CAR T 細胞的經驗形成鮮明對比，那裡的 B 細胞抑制通常超過 18 個月。儘管 CAR T 細胞的持續時間有限且 B 細胞抑制為短期，所有病患均顯示抗雙股 DNA 抗體的血清轉換，並持續控制疾病，即使在 B 細胞恢復後也是如此。隨後的出版物擴展了此數據集至八位 SLE 病患，所有病患均顯示血清轉換與疾病緩解 (Müller et al. (2024) N Engl J Med 390: 687-700)。該組的中位追蹤時間為 15 個月，部分病患的緩解時間甚至達 29 個月。",
+    "在追求開發創新且廣泛可近的細胞療法的目標下，製造能力與技術是我們努力的重要焦點。我們目前在南加州聖荷西的兩個良好製造實踐 (\"cGMP\") 工廠之一製造臨牀供應，並計畫使用第二個南加州聖荷西工廠製造額外的臨牀供應、NKX019 或未來產品候選藥物的供應，用於未來關鍵性臨牀試驗，以及我們產品候選藥物的潛在商業供應。",
+    "我們正在開發新型工程化、同源性、現成的細胞療法，以改善患有自身免疫疾病的患者的生活。實現此目標的關鍵要素包括：",
+    "我們的細胞工程平台使用健康捐贈者作為NK細胞的來源。透過徵募這種天然來源的NK細胞，我們從具有內在細胞毒性及腫瘤識別能力的真實NK細胞開始。這與其他更複雜的細胞來源不同，因為這些基本的治療特性必須 painstakingly 設計並合成加入細胞中。捐贈者衍生的NK細胞也大量存在，提供大量細胞以啟動每個製造批次。最後，健康捐贈者衍生的成人細胞包含多樣化的NK細胞組合。透過使用包含所有自然發生NK細胞的細胞來源，我們相信我們可以善用先天免疫系統的內在多樣性，並可能選擇具有所需特性的不同NK細胞亞羣。",
+    "NKX019設計用以針對CD19，該蛋白質在B細胞發展的某些階段中表達。當B細胞異常活化時，可能產生自身抗體，這些抗體不恰當地識別正常細胞表面抗原。這些抗體及相關的免疫複合體可能損害正常組織，導致自身免疫疾病，例如狼瘡（LN）。由於CD19在B細胞上廣泛表達，針對並清除CD19陽性",
+    "B細胞已被提出作為一種機制，用以在B細胞介導的自身免疫疾病中實現長期無藥物緩解。",
+    "自體CAR T細胞療法已改變某些血液癌症的治療景觀，透過CD19針對癌變B細胞。這種方法也會透過on-target, off-tumor效應大量殺死正常B細胞。在那些對CD19導向CAR T細胞療法有反應的患者中，正常B細胞也會被清除至無法檢測的程度。最近的學術研究已將這種B細胞清除方法應用於治療患有B細胞介導的自身免疫疾病的患者。在一項已發表的報告中，五位患有高度難治性LN的患者在接受CD19 CAR T細胞治療後，臨牀症狀有顯著改善，自身抗體也恢復正常。由於針對CD19已顯示在CAR T及CAR NK細胞療法中具有臨牀活性，我們認為NKX019提供了一種治療多種自身免疫疾病的機會，同時解決CAR T細胞療法的限制。",
+    "我們正在臨牀試驗中評估NKX019用於治療LN、pMN、硬皮病、肌炎及AAV。我們已顯示NKX019在體外對患有B細胞介導的自身免疫疾病的患者B細胞具有高度活性，並持續評估其他潛在的自身免疫指標，以進行可能的臨牀研究。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "財務營運概覽",
+    "營運費用",
+    "截至12月31日年度",
+    "(以千為單位)",
+    "其他收入，淨額",
+    "所得稅",
+    "營運成果",
+    "研究與發展費用",
+    "一般及行政費用",
+    "利息收入",
+    "其他收入，淨額",
+    "流動性及資本資源",
+    "流動性來源",
+    "資金需求",
+    "契約義務及承諾",
+    "關鍵會計政策及會計估計",
+    "最近發布的會計準則解釋",
+    "賠償條款",
+    "分部資訊",
+    "小型報告公司資格"
+   ],
+   "paragraphs": [
+    "下列對我們財務狀況及營運成果的討論與分析，應與本年度10-K表報中出現的財務報表及相關附註一併閱讀。此討論包含向前看的陳述，反映我們的計畫、預估與信念，並涉及風險與不確定性。我們的實際結果及某些事件的時間點，可能與這些向前看陳述中預期的有重大差異，原因包括多種因素，包括在本年度10-K表報第一部分第1A項及其它地方所討論的\"風險因素\"部分。請參閱本年度10-K表報中的\"向前看陳述警示說明\"。",
+    "我們是一家臨牀階段的生物製藥公司，專門開發異體、即用型工程自然殺傷（\"NK\"）細胞療法。我們的領先產品線計畫為NKX019，一種嵌合抗原受體-自然殺傷（\"CAR NK\"）產品候選藥物，針對CD19抗原，用於治療自身免疫疾病患者。我們的CAR NK平台使我們能透過規模化製造，提供即用型、即開即用的解決方案，以擴大患者使用範圍。我們已開發專利技術，用以產生大量NK細胞、提高NK細胞對目標抗原的辨識能力，並增強NK細胞的適應性，以支持可擴展、即開即用的給藥方式。NKX019為異體，意味著它是使用與患者（們）不同的供體細胞製造，並以大量製造、冷凍保存的方式，因此可立即用於治療患者，而無需延遲，與自體細胞療法不同，自體細胞療法來自患者的自身細胞，必須為每位患者個別製造。",
+    "我們的模組化工程平台建立在NK細胞獨特的生物特性及其在消除異常及病理性轉變細胞中的作用。我們的製程從健康捐贈者的成熟NK細胞開始。我們利用這些免疫細胞內在的辨識與殺死轉變細胞的能力，透過細胞工程進一步增強其活性。此工程涉及誘導在NK細胞表面表達嵌合抗原受體（\"CAR\"），以使細胞能辨識目標細胞表面的特定蛋白質或抗原。我們的工程CAR NK細胞通常包含一個經工程改造的NK細胞，其具有目標受體、OX40共刺激域、CD3ζ(zeta)訊號模組，以及膜結合形式的細胞激素IL（間質細胞生長因子）-15（\"mbIL-15\"）。",
+    "2025年3月，我們批准了因審視目前戰略優先順序與資源配置而進行的員工減編，目的是降低我們的成本，並建立一個更簡化組織，以支持我們的營運與重新優先的產品線。",
+    "我們的Ntrust-1臨牀試驗（\"Ntrust-1\"）為一多中心、開放標籤、劑量遞增的第1期臨牀試驗，用於治療紅斑狼瘡腎炎（\"LN\"）及原發性膜性腎病變（\"pMN\"）。我們的Ntrust-2臨牀試驗（\"Ntrust-2\"）為一多中心、開放標籤、劑量遞增的第1期臨牀試驗，用於治療系統性硬化症（\"scleroderma\"）、原發性發炎性肌病（\"myositis\"）及抗中性粒細胞胞質抗體（ANCA）相關血管炎（\"AAV\"）。為最大化我們Ntrust-1臨牀試驗與Ntrust-2臨牀試驗的潛在成功機會，2025年5月，我們宣佈修改在給予NKX019前的淋巴細胞耗竭（\"LD\"）處置，改為使用氟達拉濱（\"Flu\"）與環磷醯胺（\"Cy\"）的組合，並允許有血液細胞減少症的患者繼續單獨使用Cy作為修改後的LD。同時，我們也宣佈加州大學爾灣分校的研究人員已啟動一項由研究者發起的試驗（\"IST\"），用於治療重症肌無力（\"MG\"）患者。NKX019也在哥倫比亞大學伊文醫療中心的IST中用於治療系統性紅斑狼瘡（\"SLE\"）患者。",
+    "2025年11月，我們宣佈所有接受NKX019與LD（使用Flu和Cy）治療的患者均觀察到深層B細胞減少，與僅接受Cy治療的患者觀察到的部分B細胞減少相比。同時，我們報告已實施簡化入組流程，使Ntrust-1與Ntrust-2臨牀試驗的參與者資料可由組合獨立資料安全監察委員會（\"iDSMB\"）審查，以提供劑量遞增決策資訊。此更新是在與美國食品藥物管理局（\"FDA\"）接觸後，並經iDSMB批准啟動第二劑量遞增組別入組的結果。",
+    "自2015年我們開始營運以來，我們已將幾乎所有資源投入產品開發、招聘人員、籌集資金以支持並擴展這些活動，以及提供一般及行政支援。我們自成立以來已產生淨營運虧損，且尚未從產品銷售中產生任何收入。未來，我們預期營運費用將大幅增加，因我們持續開發並尋求我們產品候選藥物的監管批准，持續進行其他研究與開發活動以擴展產品候選藥物的產品線，維持並擴展我們的智慧財產權組合，維持並擴展我們的產品製造能力，並最終建立一個商業組織。我們主要透過發行本公司股票來資助營運，並計畫在能夠產生足夠收入以覆蓋營運費用之前，籌集額外資金。我們可能透過發行普通股、包括透過權益或債務融資或與其他公司合作或合作夥伴關係來尋求額外資金。我們未來的資金需求金額與時間點將取決於許多因素，包括我們產品候選藥物臨牀開發工作的速度與結果。我們可能無法在條件符合我們要求的條件下或完全無法籌集額外資金。任何未能在需要時籌集資金的情況，將影響我們執行業務計畫的能力，並可能導致我們採取成本控制措施及/或大幅延遲、縮減或終止某些計畫的開發。我們也因成為上市公司而產生了更高的營運費用，我們預期在無法依賴某些\"小型報告公司\"豁免權時，這些費用將進一步增加。我們的淨虧損可能在季度與年度之間大幅波動。",
+    "研究與開發費用主要由發現及臨牀開發我們藥物候選藥物的費用組成，包括：",
+    "• 與員工相關的費用，包括薪資、相關福利、差旅費及與從事研究與開發功能之員工相關之股票激勵報酬費用；",
+    "• 與研究、實驗室消耗品、贊助研究及臨牀前研究相關之費用；",
+    "• 與進行臨牀試驗相關之費用，包括研究者獎金、試驗場地支付之時間及通傳費用，以及與CROs、其他供應商或中央實驗室及服務提供者簽訂之協議下產生之費用；",
+    "• 僱用從事研究與開發相關服務之顧問之費用；",
+    "• 生產用於我們臨牀前研究及臨牀試驗之藥物產品候選品之成本；",
+    "• 建築物、折舊及其他費用，包括分配之租金及建築物維護費用、保險及辦公用品等費用；"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們財務狀況相關的風險",
+    "我們擁有有限的營運歷史，且目前沒有任何產品已獲得銷售許可。",
+    "自我們成立以來，我們已產生重大虧損，且預期在可預見的未來仍將持續產生重大虧損。",
+    "我們從未從產品銷售中產生收入，且可能永遠無法達成或維持獲利。",
+    "我們將需要額外資金，若資金可取得，可能會導致股東持股稀釋、限制我們的營運或要求我們放棄對產品候選品的權利。",
+    "我們長期資產的減損可能對我們的財務狀況及營運成果產生重大不利影響。",
+    "與我們業務及產業相關的風險",
+    "我們的業務依賴於我們 CAR NK-cell 技術平台的成功。",
+    "運用 CAR NK 細胞代表一種創新治療方式，我們必須克服重大挑戰，以開發、商業化及製造我們的產品候選品。",
+    "臨牀開發涉及一個漫長且昂貴的過程，結果具有不確定性，我們可能因多種非我們所能控制的原因遭遇重大延誤。",
+    "臨牀試驗中患者的招募與留存是一項昂貴且耗時的過程，可能因多種非我們所能控制的因素而延遲、變得更加困難或完全無法進行。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股股份涉及高度風險。您應仔細考慮下列風險因素，以及本年度報告表10-K所載之其他資訊，再做投資決策。下列所描述之風險並非本公司唯一面臨之風險。上述任一風險，或任何其他尚未為本公司所知悉或目前認為不重要之風險與不確定性，均可能顯著影響本公司之業務、財務狀況、營運結果與成長前景。在此情況下，本公司普通股股份之交易價格可能下跌，您可能損失全部或部分投資。本年度報告表10-K亦包含前瞻性陳述與預估，涉及風險與不確定性。本公司實際結果可能與前瞻性陳述所預期者有重大差異，原因包括下列所描述之風險與不確定性。",
+    "本公司為一家臨牀階段生物製藥公司，目前尚無任何產品獲准上市銷售，亦未自產品銷售中產生任何收入。本公司專注於開發基因工程改造之人類細胞作為治療用藥，且本公司之技術為新興且 largely unproven。自2015年成立以來，本公司已將大部分資源投入開發各種產品候選藥物、建立智慧財產權組合、發展供應鏈與內部製造能力、進行業務規劃、籌集資金以及提供一般及行政支援。因此，本公司目前之營運規模有限，難以評估本公司之業務，對本公司未來成功與生存之預測可能不如本公司有較長營運歷史或成功開發與商業化藥物產品之歷史時為準。本公司尚未證明能克服許多快速發展之生物技術產業中常見之風險與不確定性。若本公司未能處理這些風險，將對本公司之業務、財務狀況、營運結果與成長前景造成重大不利影響。",
+    "自2015年成立以來，本公司已產生重大營運虧損。本公司之淨虧損為2025年12月31日止年度為104.1 百萬美元，2024年12月31日止年度為108.8 百萬美元。本公司之累積虧損為2025年12月31日為648.3 百萬美元。本公司預期將持續產生增加之營運虧損，直至可持續開發NKX019與任何未來產品候選藥物為止。此外，本公司預期若，且當，本公司：",
+    "• 繼續進行NKX019之臨牀開發，包括新適應症，或重新啟動任何其他產品候選藥物之臨牀開發；",
+    "• 繼續擴大與優化製造流程，並準備商業製造；",
+    "• 推進其他產品候選藥物進入臨牀試驗，包括任何可能在與CRISPR Therapeutics AG（\"CRISPR\"）合作下推進之產品候選藥物；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

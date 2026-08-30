@@ -1,0 +1,152 @@
+{
+ "ticker": "BLFS",
+ "cik": "0000834365",
+ "accession": "0001628280-26-012294",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our products",
+    "Our market opportunity",
+    "The bioproduction process",
+    "Complementary products portfolio",
+    "Our strategy",
+    "Business Operations",
+    "Research and development",
+    "Sales and marketing",
+    "Years Ended December 31,",
+    "Revenue by customers' geographic locations 2025 2024 2023",
+    "Manufacturing",
+    "Product regulatory status",
+    "Intellectual property",
+    "Issued Patents Patents Applied For Registered Trademarks",
+    "Human capital",
+    "Corporate history",
+    "Principal offices; available information"
+   ],
+   "paragraphs": [
+    "The following discussion of our business contains forward-looking statements that involve risks and uncertainties (see the section entitled \"Forward-Looking Statements\" herein). Our actual results could differ materially from those anticipated in these forward-looking statements as a result of certain factors, including those factors set forth under \"Risk Factors\" and elsewhere in this Form 10-K.",
+    "We are a life sciences company that develops, manufactures, and markets bioproduction products and services which are designed to improve quality and de-risk biologic manufacturing, distribution, and transportation in the cell and gene therapy (\"CGT\") industry. Our products are used in basic and applied research and commercial manufacturing of biologic-based therapies. Customers use our products to maintain the health and function of biologic material during sourcing, manufacturing, and distribution.",
+    "We currently operate as one bioproduction products and services business which supports several steps in the biologic material manufacturing and delivery process. Our portfolio of tools and services focuses on biopreservation media and cell processing products. We have in-house expertise in cryobiology and the broader CGT workflow, and continue to evaluate opportunities to maximize the value of our product platforms for our extensive customer base through organic growth innovations, partnerships, and acquisitions.",
+    "On October 6, 2025, the Company entered into a Limited Liability Company Membership Interest Purchase Agreement (the \"SAVSU Purchase Agreement\"), by and between the Company and Peli BioThermal LLC, a Delaware limited liability company (\"SAVSU Buyer\"), for the sale by the Company of all of the issued and outstanding limited liability company membership interests (the \"SAVSU Interests\") of SAVSU Cleo Technologies, LLC, a Delaware limited liability company (\"SAVSU\"), to SAVSU Buyer (the \"SAVSU Divestiture\"). SAVSU contained our evo cloud connected \"smart\" shipping container products that provided passive storage and transport for temperature-sensitive biologics and pharmaceuticals. Upon the execution of the SAVSU Purchase Agreement, the SAVSU business is presented in the accompanying Consolidated Financial Statements as a discontinued operation for all periods presented.",
+    "On April 4, 2025, pursuant to a Stock Purchase Agreement (the \"PanTHERA Purchase Agreement\"), by and among the Company, Casdin Partners Master Fund L.P. and each other person listed on Schedule A thereto (the \"PanTHERA Sellers\"), 2699979 Alberta LTD., an Alberta corporation and a wholly owned subsidiary of the Company (\"PanTHERA Buyer Sub\"), PanTHERA CryoSolutions Inc., an Alberta corporation (\"PanTHERA\") and Dr. Jason Acker, solely in his capacity as Sellers' Representative, the Company acquired the remaining 90% of the issued and outstanding shares of common stock of PanTHERA not owned by the Company from the PanTHERA Sellers (the \"PanTHERA Transaction\"). PanTHERA contains a patented Ice Recrystallization Inhibitor (\"IRI\") GEN 2 cryopreservation technology that we expect to ultimately enhance the Company's core capabilities in biopreservation and within the CGT market upon achievement of commercial viability.",
+    "On November 14, 2024, the Company entered into a Stock Purchase Agreement (the \"CBS Purchase Agreement\"), by and among the Company, Standex International Corporation, a Delaware corporation (\"CBS Buyer\"), and Arctic Solutions, Inc., a Delaware corporation and a wholly owned subsidiary of the Company (doing business as Custom Biogenic Systems, or \"CBS\"), for the sale by the Company of all of the issued and outstanding shares of common stock (the \"CBS Shares\") of CBS to CBS Buyer (the \"CBS Divestiture\"). CBS contained our LN2 cryogenic freezers and other accessory products utilizing a dry storage method. Upon the execution of the CBS Purchase Agreement, the CBS business is presented in the accompanying Consolidated Financial Statements as a discontinued operation for all periods presented.",
+    "On November 12, 2024, the Company entered into a Stock Purchase Agreement (the \"SciSafe Purchase Agreement\"), by and among the Company, Subzero Purchaser Corp., a Delaware corporation (\"SciSafe Buyer\"), SciSafe, Inc., a Delaware corporation and an indirect, wholly owned subsidiary of the Company (\"Seller\"), and SciSafe, Inc., a New Jersey corporation and an indirect wholly owned subsidiary of the Company (\"SciSafe\"), for the sale by Seller of all of the issued and outstanding shares of common stock (the \"SciSafe Shares\") of SciSafe to SciSafe Buyer (the \"SciSafe Divestiture\"). SciSafe contained our biological and pharmaceutical storage and cold chain logistics services. Upon the execution of the",
+    "SciSafe Purchase Agreement, the SciSafe business is presented in the accompanying Consolidated Financial Statements as a discontinued operation for all periods presented.",
+    "On April 17, 2024, the Company sold all of the issued and outstanding shares of common stock of Global Cooling, Inc., a Delaware corporation and wholly owned subsidiary of the Company (\"Global Cooling\"), to GCI Holdings Company, LLC, an Ohio limited liability company (\"GCI Holdings\") pursuant to a Stock Purchase Agreement, dated April 17, 2024 (the \"Global Cooling Purchase Agreement\"), by and between the Company and GCI Holdings (the \"Global Cooling Divestiture\"). Global Cooling contained our portfolio of ultra-low temperature freezers. Upon the execution of the Global Cooling Purchase Agreement, the Global Cooling business is presented in the accompanying Consolidated Financial Statements as a discontinued operation for all periods presented.",
+    "The Company is presenting SAVSU, CBS, SciSafe, and Global Cooling within this Annual Report as discontinued operations for all periods presented within the Consolidated Balance Sheets and Consolidated Statements of Operations. The Consolidated Statements Of Comprehensive Loss, Consolidated Statements of Shareholders' Equity, and Consolidated Statements of Cash Flows are presented on a consolidated basis for both continuing operations and discontinued operations. All amounts, percentages, and disclosures for all periods presented in this Annual Report reflect only the continuing operations of the Company unless otherwise noted. See Note 3: Discontinued operations within the Consolidated Financial Statements in Part II, Item 8 of this Annual Report for further details regarding the divestitures described above.",
+    "Our bioproduction products and services are comprised of one revenue line that contains three main offerings:",
+    "•Cell processing and other products ◦Biopreservation media",
+    "◦Human platelet lysate media (\"hPL\"), cryogenic and ultralow temperature containers, and automated cell-processing fill machines",
+    "◦Automated thawing devices Cell processing Biopreservation media"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks related to our business and operations",
+    "We operate in a highly competitive industry and if we cannot compete effectively, our business, financial condition and operating results could be materially and adversely affected.",
+    "We expect our operating results to fluctuate significantly from period to period.",
+    "If intangible assets and goodwill become impaired, we may have to take significant charges against earnings.",
+    "Our success will depend on our ability to attract and retain key personnel.",
+    "Our business may be subject to product liability claims or product recalls, which could be expensive and could result in a diversion of management's attention.",
+    "Difficulties in manufacturing could have an adverse effect upon our expenses and our product revenues.",
+    "Healthcare reform measures could adversely affect our business and financial results.",
+    "Insurance coverage is increasingly difficult to obtain or maintain.",
+    "Risks related to our acquisition and divestiture activities",
+    "Our acquisitions expose us to risks that could adversely affect our business, and we may not achieve the anticipated benefits of acquisitions of businesses or technologies.",
+    "Our recent divestitures expose us to ongoing risks and uncertainties, one or more of which could have a material adverse effect on our business, financial condition, results of operations, cash flows, and/or stock price.",
+    "Risks related to our intellectual property, cyber security, and artificial intelligence",
+    "Our proprietary rights may not adequately protect our technologies and products.",
+    "Expiration of our patents may subject us to increased competition and reduce our opportunity to generate product revenue.",
+    "We may not be able to protect our intellectual property rights throughout the world.",
+    "We may incur substantial costs as a result of litigation or other proceedings relating to patent and other intellectual property rights, and we may be unable to protect our rights to, or use of, our technology.",
+    "Even if we are granted a patent, in certain circumstances we may be unable to protect our rights to, or use of, our technology.",
+    "We may be subject to claims that our employees, consultants or independent contractors have wrongfully used or disclosed confidential information of third parties.",
+    "The development, deployment and use of AI technologies present new risks and challenges that could adversely impact our business."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information contained in this Annual Report, including our financial statements and related notes and \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" before deciding to invest in our common stock. If any of the following risks materialize, our business, financial condition, results of operation and prospects will likely be materially and adversely affected. In that event, the market price of our common stock could decline and you could lose all or part of your investment. Additional risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business operations or financial condition.",
+    "If our products or the products of our competitors do not perform as expected or the reliability of the technology on which our products are based is questioned, we could experience lost revenue, delayed or reduced market acceptance of our products, increased costs, and damage to our reputation.",
+    "Our success depends on the market's confidence that we can provide reliable, high-quality products to our customers. We believe that customers in our target markets are likely to be particularly sensitive to product defects and errors. Our reputation and the public image of our products and technologies may be impaired if our products or similar products of our competitors fail to perform as expected. In the future, if our products experience, or are perceived to experience, a material defect or error, this could result in loss or delay of revenues, delayed or reduced market acceptance, damage to our reputation, diversion of development resources, legal claims, increased insurance costs or increased service and warranty costs, any of which could harm our business, financial condition or results of operations. Such defects or errors could also narrow the scope of the use of our products, which could hinder our success in the market. Even after any underlying concerns or problems are resolved, any lingering concerns in our target market regarding our technology or any manufacturing defects or performance errors in our products could continue to result in lost revenue, delayed or reduced market acceptance, damage to our reputation, increased service and warranty costs and claims against us.",
+    "The life sciences industry is highly competitive and subject to rapid technological change. We anticipate that we will continue to face increased competition as existing companies may choose to develop new or improved products and as new companies enter the market with new technologies, any of which could compete with our products or even render our products obsolete. While there are technological and marketing barriers to entry, we cannot guarantee that these barriers will be sufficient to defend our market share against current and future competitors.",
+    "Many of our competitors are significantly larger than us and have greater financial, technical, research, marketing, sales, distribution and other resources than us and may have longer operating histories. These companies may develop technologies that are superior alternatives to our products or may be more effective at commercializing and marketing their technologies. There may also be other companies which are currently developing competitive products and services, or which may in the future develop technologies and products that are comparable, superior or less costly than our own. We may need to improve our existing technologies or develop new technologies for our products to remain competitive. Our future success depends on our ability to compete effectively against current technologies, as well as to respond effectively to technological advances by developing and marketing products that are competitive in the continually changing technological landscape. Our competitors may succeed in developing or marketing technologies and products that are more effective or commercially attractive than any that are being developed or marketed by us, or may succeed in obtaining regulatory approval, or introducing or commercializing any such products, prior to us. Such developments could have a material adverse effect on our business, financial condition and results of operations. Also, even if we can compete successfully, we may not continue do so in a profitable manner.",
+    "Despite our increasingly diversified customer base, we depend on a limited number of customers and products in a limited number of market sectors. If we lose any of these large customers or if there are disruptions in the sales of these products, our net product revenue and operating results could decline significantly."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'original': 'Our products', 'translated': '本公司產品'}",
+    "{'original': 'Our market opportunity', 'translated': '本公司市場機會'}",
+    "{'original': 'The bioproduction process', 'translated': '生物製造流程'}",
+    "{'original': 'Complementary products portfolio', 'translated': '補充性產品組合'}",
+    "{'original': 'Our strategy', 'translated': '本公司策略'}",
+    "{'original': 'Business Operations', 'translated': '營運業務'}",
+    "{'original': 'Research and development', 'translated': '研究與開發'}",
+    "{'original': 'Sales and marketing', 'translated': '銷售與行銷'}",
+    "會計年度截止12月31日",
+    "按客戶地理區域分類的營業收入 2025 2024 2023",
+    "製造業",
+    "產品監管狀態",
+    "智慧財產權",
+    "已發行專利 專利申請中 登記商標",
+    "人力資本",
+    "公司歷史",
+    "{'original': 'Principal offices; available information', 'translated': '總部所在地；可取得資訊'}"
+   ],
+   "paragraphs": [
+    "以下對本公司業務的討論包含前瞻性陳述，涉及風險與不確定性（請參閱本文件中「前瞻性陳述」一節）。本公司實際結果可能與這些前瞻性陳述中預期的結果有重大差異，原因包括某些因素，包括於「風險因素」一節及其他本 Form 10-K 文件中說明的因素。",
+    "本公司為生命科學公司，開發、製造及行銷生物製造產品與服務，旨在提升細胞與基因治療（\"CGT\"）產業中生物製品的品質並降低製造、分銷與運輸的風險。本公司產品用於生物製品基礎與應用研究及商業製造。客戶使用本公司產品以維持生物製品在來源、製造與分銷過程中的健康與功能。",
+    "本公司目前運作為一個生物製造產品與服務業務，支援生物製品製造與交付過程中的多個步驟。本公司工具與服務組合聚焦於生物保存媒體與細胞處理產品。本公司具備自有的低溫生物學及廣義 CGT 工作流程專業知識，並持續評估透過內生成長創新、合作夥伴關係與併購來最大化本公司產品平台價值的機會，以服務廣大的客戶羣。",
+    "於 2025 年 10 月 6 日，本公司與 Peli BioThermal LLC，一家特拉華州有限責任公司（\"SAVSU Buyer\"），簽訂有限責任公司成員權益購買協議（\"SAVSU 購買協議\"），以出售本公司所有已發行及在冊的有限責任公司成員權益（\"SAVSU 權益\"）給 SAVSU Buyer（\"SAVSU 購買\"）。SAVSU 包含本公司 evo cloud 連線的 \"智慧\" 運輸容器產品，提供溫度敏感生物製品與藥品的被動儲存與運輸。於執行 SAVSU 購買協議時，SAVSU 事業在隨附的合併財務報表中被列為已終止營運，適用所有期間。",
+    "於 2025 年 4 月 4 日，根據股票購買協議（\"PanTHERA 購買協議\"），由本公司、Casdin Partners Master Fund L.P. 及其他於附表 A 中列出的個人（\"PanTHERA 賣方\"）、2699979 Alberta LTD.，一家亞伯塔州公司且為本公司之 wholly owned 子公司（\"PanTHERA Buyer Sub\"）、PanTHERA CryoSolutions Inc.，一家亞伯塔州公司（\"PanTHERA\"）及 Dr. Jason Acker，僅以其作為賣方代表之身分，本公司從 PanTHERA 賣方購入其持有的 PanTHERA 90% 已發行及在冊普通股（\"PanTHERA 交易\"）。PanTHERA 包含一項已專利的 Ice Recrystallization Inhibitor（\"IRI\"） GEN 2 冷凍保存技術，本公司預期在實現商業可行性後，將提升本公司在生物保存及 CGT 市場的核心能力。",
+    "於 2024 年 11 月 14 日，本公司與 Standex International Corporation，一家特拉華州公司（\"CBS Buyer\"）及 Arctic Solutions, Inc.，一家特拉華州公司且為本公司之 wholly owned 子公司（經營業務為 Custom Biogenic Systems，或 \"CBS\"），簽訂股票購買協議（\"CBS 購買協議\"），以出售本公司所有已發行及在冊普通股（\"CBS 股票\"）給 CBS Buyer（\"CBS 購買\"）。CBS 包含本公司之 LN2 冷凍儲存冷凍櫃及其他使用乾式儲存方法的配件產品。於執行 CBS 購買協議時，CBS 事業在隨附的合併財務報表中被列為已終止營運，適用所有期間。",
+    "於 2024 年 11 月 12 日，本公司與 Subzero Purchaser Corp.，一家特拉華州公司（\"SciSafe Buyer\"）、SciSafe, Inc.，一家特拉華州公司且為本公司間接 wholly owned 子公司（\"賣方\"）及 SciSafe, Inc.，一家新澤西州公司且為本公司間接 wholly owned 子公司（\"SciSafe\"）簽訂股票購買協議（\"SciSafe 購買協議\"），以出售賣方所有已發行及在冊普通股（\"SciSafe 股票\"）給 SciSafe Buyer（\"SciSafe 購買\"）。SciSafe 包含本公司之生物與藥品儲存及冷鏈物流服務。於執行 SciSafe 購買協議時，",
+    "SciSafe 事業在隨附的合併財務報表中被列為已終止營運，適用所有期間。",
+    "於 2024 年 4 月 17 日，本公司將 Global Cooling, Inc. 全部已發行及在冊普通股股份，該公司為 Delaware 州公司，為本公司之 wholly owned subsidiary（\"Global Cooling\"），出售給 GCI Holdings Company, LLC，為 Ohio 州有限責任公司（\"GCI Holdings\"），依據 2024 年 4 月 17 日簽訂之股票買賣協議（\"Global Cooling Purchase Agreement\"），由本公司與 GCI Holdings 簽訂（\"Global Cooling Divestiture\"）。Global Cooling 包含本公司之超低溫冷凍庫產品組合。於簽訂 Global Cooling Purchase Agreement 時，Global Cooling 事業在隨附之合併財務報表中，被列為已終止之營運業務，適用所有期間。",
+    "本公司於本年度報告中，將 SAVSU、CBS、SciSafe 及 Global Cooling 列為已終止之營運業務，適用所有期間之合併資產負債表及合併營業表現。合併綜合損益表、合併股東權益表及合併現金流量表則以合併基礎列示持續營運業務與已終止營運業務。本年度報告中所有期間所列之金額、百分比及揭露資訊，僅反映本公司持續營運業務，除非另有說明。有關上述處分之進一步細節，請參閱本年度報告 Part II, Item 8 中之合併財務報表附註 3：已終止營運業務。",
+    "我司之生物製造產品及服務，包含一個收入項目，其中包含三個主要產品組合：",
+    "•細胞處理及其他產品 ◦生物保存培養基",
+    "◦人類血小板裂解液培養基（\"hPL\"）、低溫及超低溫容器，以及自動化細胞處理灌裝機器",
+    "◦自動化解凍裝置 細胞處理 生物保存培養基"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司業務及營運相關之風險",
+    "本公司營運於高度競爭之產業，若無法有效競爭，將可能對本公司業務、財務狀況及營運成果造成重大且不利之影響。",
+    "本公司營運成果預期將於各期間大幅波動。",
+    "若無形資產及商譽發生減值，本公司可能須針對獲利提列重大減損費用。",
+    "本公司之成功將取決於本公司吸引並留住關鍵人員之能力。",
+    "本公司業務可能面臨產品責任索賠或產品回收之風險，此等風險可能造成高昂成本，並可能導致管理階層之注意力被分散。",
+    "製造過程之困難可能對本公司費用及產品收入造成不利影響。",
+    "醫療改革措施可能對本公司業務及財務結果造成不利影響。",
+    "保險保障越來越難取得或維持。",
+    "與我們收購及處分活動相關的風險",
+    "我們的收購行動使我們面臨可能對我們業務產生不利影響的風險，且我們可能無法實現收購企業或技術的預期效益。",
+    "我們近期的處分行動使我們面臨持續的風險與不確定性，其中一項或數項可能對我們的業務、財務狀況、營運成果、現金流及/或股票價格產生重大不利影響。",
+    "與我們智慧財產權、網路安全及人工智慧相關的風險",
+    "我們的專有權利可能無法充分保護我們的技術與產品。",
+    "我們的專利到期可能使我們面臨更激烈的競爭，並降低我們產生產品收入的機會。",
+    "我們可能無法在全球範圍內保護我們的智慧財產權權利。",
+    "本公司可能因涉及專利及其他智慧財產權之權利爭議或其它程序而產生重大成本，且本公司可能無法保護本公司對技術之權利或使用權。",
+    "即使本公司獲得專利，在某些情況下，本公司可能無法保護本公司對技術之權利或使用權。",
+    "本公司可能面臨聲稱本公司員工、顧問或獨立承包商違法使用或洩露第三方機密資訊之主張。",
+    "人工智能技術之開發、部署及使用，可能帶來新的風險與挑戰，可能對本公司業務產生不利影響。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及高度風險。您應謹慎考量下列所描述的風險與不確定性，並配合本年度報告中所有其他資訊，包括財務報表及其相關附註與「管理層對財務狀況與營運結果之討論與分析」，再決定是否投資本公司普通股。若任何下列風險實現，將可能對本公司業務、財務狀況、營運結果與前景造成重大且不利的影響。在此情況下，本公司普通股的市場價格可能下跌，您可能損失全部或部分投資。此外，尚有其他風險與不確定性，目前尚未為本公司所知或本公司認為不重要，也可能影響本公司業務營運或財務狀況。",
+    "若本公司產品或競爭對手產品未能如預期表現，或基於本公司產品所使用的技術可靠性受到質疑，本公司可能遭遇收入減少、產品市場接受度延遲或降低、成本增加，以及聲譽受損。",
+    "本公司之成功取決於市場對本公司能為客戶提供可靠、高品質產品的信心。我們認為，本公司目標市場之客戶可能特別敏感於產品缺陷與錯誤。若本公司產品或競爭對手類似產品未能如預期表現，本公司之聲譽與產品與技術之公共形象可能受損。未來，若本公司產品遭遇，或被認為遭遇重大缺陷或錯誤，可能會導致收入減少或延遲、市場接受度延遲或降低、聲譽受損、研發資源分散、法律聲索、保險成本增加或服務與保固成本增加，任何一種情況都可能損害本公司業務、財務狀況或營運結果。這些缺陷或錯誤也可能縮限本公司產品之使用範圍，進而影響本公司在市場上的成功。即使任何根本問題或問題已解決，本公司目標市場對本公司技術或產品之製造缺陷或表現錯誤之持續擔憂，仍可能導致收入減少、市場接受度延遲或降低、聲譽受損、服務與保固成本增加及對本公司之聲索。",
+    "生命科學產業競爭激烈且技術變革迅速。我們預期將持續面對增加的競爭，既有公司可能選擇開發新產品或改進產品，而新公司也可能進入市場，推出新技術，任何一種情況都可能與本公司產品競爭，甚至使本公司產品過時。雖然存在技術與行銷進入門檻，但我們無法保證這些門檻足夠防禦現有與未來競爭對手對市場佔有率的挑戰。",
+    "許多競爭對手規模遠大於本公司，擁有較多的財務、技術、研究、行銷、銷售、分銷及其他資源，且可能擁有較長的營運歷史。這些公司可能開發出優於本公司產品的技術，或更有效地商業化與行銷其技術。此外，也有可能其他公司目前正在開發競爭產品與服務，或未來可能開發出與本公司產品相當、更優或成本更低的技術與產品。本公司可能需要改善現有技術或開發新技術以維持競爭力。本公司未來的成功取決於本公司能否有效競爭現有技術，並有效回應技術進步，開發與行銷具競爭力的產品，以應對不斷變化的技術環境。競爭對手可能成功開發或行銷更具效果或商業吸引力的技術與產品，或可能先於本公司取得監管批准，或推出或商業化任何相關產品。這些發展可能對本公司業務、財務狀況與營運結果造成重大不利影響。此外，即使本公司能成功競爭，本公司也可能無法以獲利方式持續競爭。",
+    "儘管本公司客戶羣日益多元化，但本公司仍依賴有限數量的客戶與產品在有限數量的市場領域。若本公司失去任何這些大型客戶，或這些產品銷售出現中斷，本公司淨產品收入與營運結果可能顯著下降。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

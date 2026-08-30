@@ -1,0 +1,195 @@
+{
+ "ticker": "FBIN",
+ "cik": "0001519751",
+ "accession": "0001193125-26-063960",
+ "form": "10-K",
+ "reportDate": "2025-12-27",
+ "sections": {
+  "business": {
+   "headings": [
+    "Cautionary Statement Concerning Forward-Looking Statements",
+    "Our Strategy",
+    "Business Segments",
+    "Other Information"
+   ],
+   "paragraphs": [
+    "This Annual Report on Form 10-K contains certain \"forward-looking statements\" made pursuant to the safe harbor provisions of Section 27A of the Securities Act of 1933, as amended (the \"Securities Act\"), and Section 21E of the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"). Forward-looking statements include all statements that are not historical statements of fact and those regarding our intent, belief or expectations for our business, operations, financial performance or financial condition, in addition to statements regarding our expectations for the markets in which we operate, general business strategies, expected impacts from recently-announced organizational and leadership changes, the market potential of our brands, trends in the housing market, the potential impact of costs, including material and labor costs, the potential impact of inflation, expected capital spending, expected pension contributions, the expected effects of acquisitions, dispositions and other strategic transactions including the expected benefits and costs of the spin-off of MasterBrand, Inc. and the tax-free nature of the spin-off transaction, the anticipated effects of recently issued accounting standards on our financial statements, and other matters that are not historical in nature. Statements that include the words \"believes,\" \"expects,\" \"anticipates,\" \"intends,\" \"projects,\" \"estimates,\" \"plans,\" \"outlook,\" \"positioned\", \"confident,\" \"opportunity\", \"focus\" and similar expressions or future or conditional verbs such as \"will,\" \"should,\" \"would,\" \"may\", and \"could\" are generally forward-looking in nature and not historical facts. Where, in any forward-looking statement, we express an expectation or belief as to future results or events, such expectation or belief is based on current expectations, plans, estimates, assumptions and projections of our management about our industry, business and future financial results available at the time this report is filed with the Securities and Exchange Commission (the \"SEC\"). Although we believe that these statements are based on reasonable assumptions, they are subject to numerous factors, risks and uncertainties that could cause actual outcomes and results to be materially different from those indicated in such statements, including but not limited to: (i) our reliance on the North American and Chinese home improvement, repair and remodel and new home construction activity levels, (ii) the housing market, downward changes in the general economy, unfavorable interest rates or other business conditions, (iii) the competitive nature of consumer and trade brand businesses, (iv) our ability to execute on our strategic plans and the effectiveness of our strategies in the face of business competition, (v) our reliance on key customers and suppliers, including wholesale distributors and dealers and retailers, (vi) risks relating to rapidly evolving technological change, (vii) risks associated with our ability to improve organizational productivity and global supply chain efficiency and flexibility, (viii) risks associated with global commodity and energy availability and price volatility, as well as the possibility of sustained inflation, (ix) delays or outages in our information technology systems or computer networks or breaches of our information technology systems or other cybersecurity incidents, (x) risks associated with doing business globally, including changes in trade-related tariffs (including recent U.S. tariffs announced or imposed on China, Canada, Mexico and other countries and any reciprocal actions taken by such countries) and risks with uncertain trade environments, (xi) risks associated with the disruption of operations, including as a result of severe weather events, (xii) our inability to obtain raw materials and finished goods in a timely and cost-effective manner, (xiii) risks associated with strategic acquisitions, divestitures and joint ventures, including difficulties integrating acquired companies and the inability to achieve the expected financial results and benefits of transactions, (xiv) impairments in the carrying value of goodwill or other acquired intangible assets, (xv) risks of increases in our defined benefit-related costs and funding requirements, (xvi) our ability to attract and retain qualified personnel and other labor constraints, (xvii) the effect of climate change and the impact of related changes in government regulations and consumer preferences, (xviii) risks associated with environmental, social and governance matters, (xix) potential liabilities and costs from claims and litigation, (xx) changes in government and industry regulatory standards, (xxi) future tax law changes or the interpretation of existing tax laws, and (xxii) our ability to secure and protect our intellectual property rights, as well as those listed in the section below entitled \"Risk Factors.\" We undertake no obligation to, and expressly disclaim any such obligation to, update, amend, clarify or revise any forward-looking statements to reflect changed assumptions, the occurrence of anticipated or unanticipated events, new information or changes to future results over time or otherwise, except as required by law.",
+    "Unless the context otherwise requires, references in this Annual Report on Form 10-K to \"Fortune Brands,\" the \"Company,\" \"we,\" \"our\" or \"us\" refer to Fortune Brands Innovations, Inc. and its consolidated subsidiaries.",
+    "We are an industry leading home, security and digital products company whose purpose is to elevate every life by transforming spaces into havens. We sell our products through a wide array of sales channels, including kitchen and bath dealers, wholesalers oriented toward builders or professional remodelers, industrial and locksmith distributors, \"do-it-yourself\" remodeling-oriented home centers, showrooms, direct to consumer, e-commerce and other retail outlets.",
+    "Building on leading business and brand positions in attractive growth and return categories. We have leading brands with what we believe to be sustainable competitive advantages in many of our product categories, which we sell primarily in North America and China. We believe that established brands are meaningful to both consumers and trade customers in their respective categories and that we have the opportunity to, among other things, gain share in the marketplace and continue to strengthen many of our brands through cross-branding, expanding into adjacent product categories, and expanding in international and e-commerce markets. For example, we are continuing to align our Water, Outdoors and Security products with long-term secular trends within connected products, outdoor living, sustainability, water management, material conversion, luxury, and safety and wellness. We are committed to continuing to invest in our brands, our digital and connected transformation, capacity and supply chain through strategic sourcing, automation, machine learning, artificial intelligence, data-driven insights and processes, and leveraging our global scale to strengthen our business and continue to meet demand for our products.",
+    "Developing innovative products and processes for customers and consumers. We have a long track record of successful product and process innovations that introduce valued new products to our customers and consumers. Our focus is on products that drive meaningful and valuable functionality and improvements in the lives of people and communities, including products that save water, utilize recycled materials, conserve energy and protect people and spaces. We are committed to continuing to invest in new product development and enhance customer service to strengthen our leading brands and penetrate adjacent markets, including in the digital space and connected products.",
+    "Using the Fortune Brands Advantage to drive results. While our business segments are responsible for their own performance, we believe our aligned structure and business model, driven by the Fortune Brands Advantage, allows for us to operate with greater efficiency and agility. The Fortune Brands Advantage is an operating model consisting of a set of unifying capabilities that we believe are critical to our strategic growth across all of our businesses. The Fortune Brands Advantage currently consists of four critical pillars:",
+    "• Category Management - Partnering with our channel partners to drive optimal performance and best serve our consumers through actionable category insights.",
+    "• Business Simplification - Simplifying workstreams to be even more efficient and prioritizing activities that are core to brand, innovation and channel. As part of our reorganization and consolidation efforts to align our business unit-led operating model under one simplified executive leadership team, we expect to continue to prioritize activities that are core to brand, innovation, and channel.",
+    "• Global Supply Chain Excellence - Leveraging our robust, global supply chain to strategically drive scale efficiencies with cutting-edge capabilities.",
+    "• Digital Transformation - Supporting our products of the future with best-in-class services, technology, data and analytics and using data science to unlock valuable consumer and business insights. We are advancing our digital strategy to fuel growth and aim to become a digital leader in our industry. We continue to invest in our digital capabilities to leverage our scale across technology, data and talent to further drive sustainable productivity and efficiency, enhance employee development, satisfaction and retention, and accelerate and sustain growth in e-commerce and connected products, sourcing and data science. This includes integrating our digital organization to improve speed to market and further develop a culture that fosters innovation, collaboration and value creation, and developing products supported by service technology, data and analytics.",
+    "We continue to grow our competencies in these areas, allowing each of our businesses to focus on opportunities for revenue growth and margin improvement, no matter the market environment.",
+    "Driving value through talent. We have built a talented and inclusive leadership team that is well positioned to continue to execute on our transformation to a more aligned operating model. We believe that investing in our employees is a critical component of our business strategy. We endeavor to do this through talent acquisition, development, succession planning and fostering an inclusive workforce.",
+    "Enhancing returns and deploying our cash flow to high-return opportunities. We continue to believe our most attractive opportunities are to invest in profitable organic growth initiatives, pursue accretive strategic acquisitions, non-controlling equity investments, and joint ventures, and return cash to stockholders through a combination of dividends and opportunistic repurchases of our common stock.",
+    "We believe that advancing environmental, social and governance (\"ESG\") initiatives and conducting business ethically is an important factor in allowing us to attract and retain the best talent. ONE Home, which is comprised of our ESG programs and initiatives throughout our organization, is a holistic program focused on the areas where we can make the most impact and where our efforts tie to a larger business opportunity for us. We continue to look for ways to improve our ESG programs and practices by focusing on meaningful initiatives like water conservation, material conversion and safety."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Cautionary Statement Concerning Forward-Looking Statements",
+    "Our Strategy",
+    "Business Segments",
+    "Other Information",
+    "Industry Risks",
+    "We operate in very competitive consumer and trade brand categories.",
+    "We may not successfully execute on our strategic plans, and our strategies may not prove effective in the face of business competition or yield the intended results.",
+    "Rapidly evolving technological change and our ability to react effectively may present significant competitive risks.",
+    "Operational and Sourcing Risks",
+    "Risks associated with our ability to improve organizational productivity and global supply chain efficiency and flexibility could adversely affect our results of operations, cash flows and financial condition.",
+    "We manufacture, source and sell products internationally and are exposed to risks associated with doing business globally, including risks associated with uncertain trade environments.",
+    "Disruption of operations could adversely affect our results of operations, cash flows and financial condition.",
+    "Our inability to obtain raw materials and finished goods in a timely and cost-effective manner from suppliers could adversely affect our ability to manufacture and market our products.",
+    "Risks associated with strategic acquisitions, divestitures and joint ventures could adversely affect our results of operations, cash flows and financial condition.",
+    "Impairment charges could have a material adverse effect on our financial results.",
+    "Our pension costs and funding requirements could increase as a result of volatility in the financial markets and changes in interest rates and actuarial assumptions.",
+    "Legal, Regulatory and People Risks",
+    "Our failure to attract and retain qualified personnel and other labor constraints could adversely affect our results of operations, cash flows and financial condition.",
+    "Potential liabilities and costs from claims and litigation could adversely affect our results of operations, cash flows and financial condition."
+   ],
+   "paragraphs": [
+    "Information about our Executive Officers. PART II",
+    "Market for Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities.",
+    "Management's Discussion and Analysis of Financial Condition and Results of Operations.",
+    "Quantitative and Qualitative Disclosures about Market Risk.",
+    "Financial Statements and Supplementary Data.",
+    "Notes to Consolidated Financial Statements."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Introduction",
+    "Recent Developments",
+    "Basis of Presentation",
+    "Results of Operations",
+    "Operating income:",
+    "2025 Compared to 2024",
+    "Total Fortune Brands",
+    "Results By Segment",
+    "2024 Compared to 2023",
+    "Liquidity and Capital Resources",
+    "Pension Plans",
+    "Foreign Exchange",
+    "Contractual Obligations and Other Commercial Commitments",
+    "Foreign Currency Risk",
+    "Derivative Financial Instruments",
+    "Recently Issued Accounting Standards",
+    "Critical Accounting Estimates"
+   ],
+   "paragraphs": [
+    "In January 2025, we announced plans to consolidate our U.S. regional offices into one campus headquarters in Deerfield, Illinois to best position the Company and its brands for long-term growth. The decision is expected to deliver a world-class, collaborative office environment to fuel innovation, accelerate its digital solutions, and grow its core products. This significant investment was supported by annual tax credits offered through Illinois' Economic Development for a Growing Economy (\"EDGE\") program. We expect to qualify for these credits in 2025. In connection with these consolidation activities and related organizational and personnel changes, we will incur cash and non-cash charges related to employee relocation, severance, retention, non-cash asset related costs, lease exit costs, and other transition costs. The majority of charges have been incurred in 2025 with the remaining charges expected to be incurred in 2026.",
+    "We are an industry leading home, security and digital products company whose purpose is to elevate every life by transforming spaces into havens that is focused on the design, manufacture and sale of market-leading branded products in the following categories: plumbing and accessories, including digital water products, entry door and storm door systems, security and safety products, and outdoor performance materials used in decking and railing products.",
+    "For the year ended December 27, 2025, net sales based on country of destination were: (In millions)",
+    "United States 3,742.1 Canada 344.1 China 147.2 Other international 229.8 Total 4,463.2",
+    "We believe that we have certain competitive advantages including market-leading brands, a diversified mix of channels, lean and flexible supply chains and a strong capital structure, as well as a tradition of strong innovation and customer service. We are focused on outperforming our markets in growth, profitability and returns in order to drive increased stockholder value. We believe our track record reflects the long-term attractiveness and potential of the categories we serve and our leading brands. We believe the long-term outlook for our products remains favorable, and we have a number of strategic advantages, including the set of capabilities we refer to as the Fortune Brands Advantage, that has helped us to continue to achieve profitable organic growth over time.",
+    "We continue to believe our most attractive opportunities are to invest in profitable organic growth initiatives, pursue accretive strategic acquisitions, non-controlling equity investments, and joint ventures, and return cash to stockholders through a combination of dividends and repurchases of shares of our common stock under our share repurchase program as explained in further detail under \"Liquidity and Capital Resources\" below.",
+    "The U.S. market for our products primarily consists of spending on both new home construction and repair and remodel activities within existing homes, with a substantial majority of the markets we serve consisting of repair and remodel spending. Growth in the U.S. market for our home products will largely depend on consumer confidence, employment, wage growth, home prices, equity levels and rates of extraction, stable mortgage rates and credit availability. Increases in inflation and mortgage rates during the preceding years have slowed the pace of single-family and existing home sales activity and new home construction and repair and remodel activities. However, we believe we are well positioned to manage the continued slow-down in the housing market as we believe the fundamental drivers of the housing market remain intact.",
+    "We have been and may continue to be impacted by near-term supply, labor and freight constraints, a volatile geopolitical environment, as well as sustained elevated rates of inflation, fluctuating interest rates, unfavorable fluctuations in foreign exchange rates and the ongoing and potentially worsening costs of tariffs (including existing and potential U.S. tariffs imposed or threatened to be imposed on China, Canada and Mexico and other countries and any retaliatory actions taken by such countries). We continue to manage these challenges and are diligently working to offset potential unfavorable impacts of these items through continuous productivity improvement initiatives and price increases.",
+    "We anticipate that, absent any mitigation efforts, our costs of goods sold will increase based on the tariffs that have been announced or imposed as of the date of this report. We are actively working to mitigate the anticipated impacts of tariffs through a combination of supply chain actions, cost-out activities and strategic pricing actions across all of our channels and brands. However, this is a rapidly evolving landscape, and our ability to mitigate the anticipated impacts of tariffs could be affected by a number of factors, including additional tariffs or trade-related sanctions imposed by the U.S. or other countries, and if we are ultimately not able to substantially mitigate the impacts of tariffs, there would be negative impacts to our results of operations. We are also unable at this time to determine any future negative impacts from reduced consumer spending as a result of inflationary or other macroeconomic pressures or uncertainty that may result from the imposition of current or future tariffs. We are currently monitoring, and will continue to monitor, potential changes to these tariffs or the imposition of reciprocal or other tariffs or trade restrictions by other countries.",
+    "During the three fiscal years ended December 27, 2025, our net sales declined at a compounded annual rate of 1.9% reflecting the contraction of the U.S. home products market and a decline in demand in our",
+    "international markets, partially offset by an increase in sales resulting from acquisitions. Operating income declined at a compounded annual rate of 12.6% with consolidated operating margins ranging between 12% and 16% from 2023 to 2025. The decline in operating income over this period was primarily due to the decline in net sales as well as asset impairment charges and higher restructuring and restructuring-related charges, partially offset by control over our operating expenses and the benefits of manufacturing productivity programs.",
+    "During 2025, the U.S. home products market contracted due to a decline in both new housing construction and repair and remodel activity. We believe new housing construction activity decreased approximately 6% and spending for home repair and remodeling decreased approximately 1% in 2025 compared to 2024. In 2025, our net sales declined 3.2% due to lower sales in our international markets ($80.8 million) and unfavorable foreign exchange ($2.3 million), partially offset by disciplined pricing actions, including strategic adjustments to mitigate tariff-related costs and lower customer sales incentives. In 2025, operating income decreased 30.1% over 2024 primarily due to higher restructuring and restructuring-related charges, asset impairment charges, raw material cost inflation and higher distribution costs. These factors were partially offset by continued productivity gains across the segments supported by strategic sourcing initiatives and manufacturing efficiencies as well as reductions to incentive compensation."
+   ],
+   "focus": "Recent Developments"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "警示聲明－有關未來展望之陳述",
+    "本公司策略",
+    "業務分部",
+    "其他資訊"
+   ],
+   "paragraphs": [
+    "本年度10-K申報書包含若干「向前看聲明」，係根據1933年證券法第27A條項（「證券法」）及1934年證券交易法第21E條項（「證券交易法」）的避風港條款所作出。向前看聲明包括所有非歷史事實陳述的陳述，以及關於本公司業務、營運、財務表現或財務狀況的意圖、信念或預期，以及關於本公司所從事市場的預期影響、一般業務策略、近期宣佈的組織與領導層變動的預期影響、本公司品牌的市場潛力、住宅市場趨勢、成本（包括原材料與人工成本）的潛在影響、通貨膨脹的潛在影響、預期資本支出、預期退休金提撥、預期收購與處置及其他戰略交易的影響，包括預期的MasterBrand, Inc. 分拆的效益與成本，以及分拆交易的稅務無負擔性，近期發佈會計準則對財務報表的預期影響，以及其他非歷史性事項。包含「相信」、「預期」、「預期」、「意圖」、「計畫」、「展望」、「定位」、「有信心」、「機會」、「重點」等詞彙或未來或條件式動詞如「將」、「應該」、「會」、「可能」、「可以」的陳述，通常屬向前看性質，而非歷史事實。在任何向前看聲明中，若我們表達對未來結果或事件的預期或信念，則此預期或信念係基於本公司管理層在本報告提交至證券交易委員會（「證券交易委員會」）時對本公司產業、業務及未來財務結果的當前預期、計畫、估計、假設與預測。雖然我們相信這些陳述係基於合理的假設，但這些陳述受許多因素、風險與不確定性影響，可能導致實際結果與這些陳述所顯示的結果有重大差異，包括但不限於：(i) 我們對北美與中國住宅改善、修繕與翻新以及新住宅建設活動水準的依賴，(ii) 住宅市場、總體經濟下行、不利利率或其他商業條件，(iii) 消費者與貿易品牌業務的競爭性質，(iv) 我們執行戰略計畫的能力與面對商業競爭時戰略的成效，(v) 我們對關鍵客戶與供應商（包括批發經銷商與經銷商與零售商）的依賴，(vi) 與快速演進的科技變革相關的風險，(vii) 我們改善組織生產力與全球供應鏈效率與靈活性的能力相關的風險，(viii) 與全球原物料與能源可得性與價格波動相關的風險，以及持續通貨膨脹的可能性，(ix) 我們資訊科技系統或電腦網路的延遲或中斷，或資訊科技系統遭入侵或其他網路安全事件，(x) 與全球業務相關的風險，包括貿易相關關稅的變動（包括近期美國對中國、加拿大、墨西哥及其他國家宣佈或實施的關稅，以及這些國家可能採取的反制措施）與不確定貿易環境的風險，(xi) 與業務中斷相關的風險，包括因極端天氣事件所致，(xii) 我們無法及時且成本效益地取得原材料與成品，(xiii) 與戰略收購、處置與合資企業相關的風險，包括整合收購公司困難與無法實現交易預期財務結果與效益的風險，(xiv) 好感價值或其他取得智慧財產權的減損，(xv) 我們定義福利相關成本與資金需求增加的風險，(xvi) 我們吸引與留住合格人力與其他勞動限制的能力建設，(xvii) 氣候變遷的影響與相關政府規範與消費者偏好變動的影響，(xviii) 與環境、社會與治理事項相關的風險，(xix) 可能的責任與成本來自聲請與訴訟，(xx) 政府與產業規範標準的變動，(xxi) 未來稅法變動或現行稅法的解釋，以及(xxii) 我們取得與保護智慧財產權的能力，以及下列「風險因素」節中列出的風險。本公司不負有義務，且明確否認任何義務，更新、修改、澄清或修正任何向前看聲明以反映變更的假設、預期或未預期事件的發生、新資訊或未來結果的變動，除非法律要求。",
+    "除非上下文另有明確要求，本年度10-K申報書中提及「Fortune Brands」、「本公司」、「我們」、「我們的」或「我們」，均指Fortune Brands Innovations, Inc.及其合併子公司。",
+    "本公司為住宅、安全與數位產品產業的領導者，其宗旨為提升每個人的生活，透過轉變空間為避風港。我們透過廣泛的銷售通路銷售產品，包括廚房與浴室經銷商、針對建築師或專業翻修者的批發商、工業與鎖匠經銷商、以「自己動手」翻修為導向的家居中心、展示間、直接對消費者、電子商務及其他零售通路。",
+    "我們建立於具吸引力成長與回報類別中的領導性業務與品牌。我們擁有在許多產品類別中，我們認為具有可持續競爭優勢的領導品牌，這些產品主要銷售於北美與中國。我們認為已建立的品牌對消費者與貿易客戶在其各自類別中具有重要性，我們有機會，除其他事項外，增加市場佔有率，並透過跨品牌行銷、擴展至相關產品類別，以及擴展至國際與電子商務市場，持續強化許多品牌。例如，我們持續將水、戶外與安全產品與連接產品、戶外生活、可持續性、水管理、材料轉換、豪華與安全與健康等長期趨勢對接。我們致力於持續投資於品牌、數位與連接轉型、生產力與供應鏈，透過戰略採購、自動化、機器學習、人工智慧、數據驅動的洞察與流程，以及善用全球規模來強化業務，並持續滿足產品需求。",
+    "開發創新產品與流程以服務客戶與消費者。本公司擁有長久的成功產品與流程創新紀錄，這些創新為客戶與消費者帶來具有價值的新產品。我們的重點在於能為人們與社區帶來有意義且具價值功能與改進的產品，包括節省用水、使用回收材料、節能以及保護人們與空間的產品。本公司致力於持續投資新產品開發，並提升客戶服務，以強化我們的領導品牌並拓展相關市場，包括數位領域與連線產品。",
+    "運用 Fortune Brands Advantage 來推動成果。雖然各業務部門負責其自身的表現，但我們相信我們的對齊結構與商業模式，由 Fortune Brands Advantage 驅動，使我們能以更高的效率與靈活性運作。Fortune Brands Advantage 是一種運營模式，包含一套統合能力，我們認為這些能力對我們所有業務的戰略成長至關重要。目前，Fortune Brands Advantage 包含四大關鍵支柱：",
+    "• 類別管理 - 與我們的通路夥伴合作，以推動最佳表現並透過可操作的類別洞察來最佳服務消費者。",
+    "• 商業簡化 - 簡化作業流程以達到更高的效率，並優先處理與品牌、創新與通路核心相關的活動。作為我們重整與整合努力的一部分，以將業務單位領導的運營模式統一於一個簡化的執行領導團隊之下，我們預期會持續優先處理與品牌、創新與通路核心相關的活動。",
+    "• 全球供應鏈卓越 - 藉由我們強大且全球化的供應鏈，戰略性地推動規模效益，並運用尖端能力。",
+    "• 數位轉型 - 以最佳等級的服務、技術、數據與分析支援我們未來的產品，並透過數據科學來挖掘寶貴的消費者與企業洞察。我們正在推進數位策略，以推動成長，並致力於成為產業中的數位領導者。我們持續投資於數位能力，以運用我們的規模，跨技術、數據與人才領域，進一步推動可持續的生產力與效率，提升員工的發展、滿意度與留任，並加速與維持電商與連網產品、採購與數據科學的成長。這包括整合我們的數位組織，以提升市場反應速度，並進一步發展促進創新、合作與價值創造的文化，以及開發由服務技術、數據與分析支援的產品。",
+    "我們持續在這些領域拓展專業能力，使我們各個業務單位都能專注於不論市場環境如何，都能創造收入成長與毛利率提升的機會。",
+    "透過人才創造價值。我們已建立一支具備才能且包容性的領導團隊，並處於執行我們轉型至更對齊作業模式的優勢位置。我們認為投資員工是我們商業策略的重要組成部分。我們透過人才招募、發展、繼任計畫與培育包容性工作環境來實現這一點。",
+    "提升回報並運用現金流至高回報機會。我們持續認為最具吸引力的機會是投資於獲利的有機成長計畫、追求具有每股價值的戰略收購、非控制性股權投資與合資企業，並透過股息與有機的股票回購組合方式，將現金回饋給股東。",
+    "我們認為推動環境、社會與治理（\"ESG\"）計畫並以道德方式經營業務，是讓我們吸引與留住最佳人才的重要因素。ONE Home，包含我們組織內的ESG計畫與倡議，是一個整體性的計畫，專注於我們能產生最大影響的領域，以及我們的行動與更大的商業機會之間的連結。我們持續尋找改進ESG計畫與實踐的方法，透過具有意義的倡議，例如節水、材料轉換與安全。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "導言",
+    "近期發展",
+    "財務資料呈列基礎",
+    "營運成果",
+    "營運收入：",
+    "2025 年與 2024 年比較",
+    "總體財富品牌",
+    "各分部營運成果",
+    "2024 與 2023 年比較",
+    "流動性及資本資源",
+    "退休金計畫",
+    "外匯",
+    "契約義務及其他商業承諾",
+    "外幣風險",
+    "衍生金融工具",
+    "最近發布的會計準則",
+    "關鍵會計估計"
+   ],
+   "paragraphs": [
+    "2025年1月，本公司宣佈計畫將美國各區域辦公室整併至伊利諾州 Deerfield 的一個校區總部，以最佳化本公司及其品牌的長期成長定位。此決定預期能提供一個世界級的協作辦公環境，以推動創新、加速數位解決方案，並成長其核心產品。此重大投資獲得了伊利諾州經濟發展為成長經濟（\"EDGE\"）計畫所提供的年度稅收抵免支持。本公司預期能在2025年符合這些抵免資格。與這些整併活動及相關組織與人事變動有關，本公司將產生現金與非現金費用，包括員工遷移、遣散費、留任費用、非現金資產相關費用、租賃退出費用及其他過渡費用。絕大多數費用已在2025年產生，剩餘費用預期將在2026年產生。",
+    "本公司為住宅、安全與數位產品領域的領導者，其宗旨為提升每個人的生活品質，透過將空間轉化為舒適的居所，專注於設計、製造與銷售市場領先品牌的產品，產品類別包括： plumbing 和配件（包括數位用水產品）、入口門與風雨門系統、安全與安全產品，以及用於樓梯與欄杆產品的戶外性能材料。",
+    "截至2025年12月27日財務年度，根據目的地國家計算的淨銷售額為：（單位：千萬美元）",
+    "美國 3,742.1 加拿大 344.1 中國 147.2 其他國際 229.8 總計 4,463.2",
+    "本公司相信擁有某些競爭優勢，包括市場領先的品牌、多樣化的通路組合、靈活且具彈性的供應鏈，以及強固的資本結構，以及強大的創新與客戶服務傳統。本公司專注於在成長、利潤率與回報方面超越市場，以推動股東價值的增加。本公司相信其歷史表現反映了其所服務類別的長期吸引力與潛力，以及其領先品牌。本公司相信本公司產品的長期展望仍然樂觀，且本公司擁有若干戰略優勢，包括我們所稱的 Fortune Brands Advantage，這項能力已幫助本公司持續實現有機成長的利潤。",
+    "本公司持續相信最具吸引力的機會是投資於有機成長的獲利計畫、追求有吸引力的戰略收購、非控制性權益投資與合資企業，並透過股息與根據本公司股票回購計畫所進行的股票買回，將現金回饋給股東，如後文 \"流動性與資本資源\" 所進一步說明。",
+    "本公司產品的美國市場主要由新住宅建設與現有住宅的修繕與翻新活動支出組成，其中絕大多數所服務的市場由修繕與翻新支出組成。美國住宅產品市場的成長將 largely 依賴消費者信心、就業率、工資成長、住宅價格、資產價值水平與提取率、穩定的房貸利率與信貸可得性。過去幾年的通貨膨脹與房貸利率上升已減緩單戶住宅與現有住宅銷售活動與新住宅建設與修繕與翻新活動的速度。然而，本公司相信我們已處於有利位置，以管理住宅市場持續放緩的情況，因為我們相信住宅市場的基本驅動因素仍然健全。",
+    "本公司已受到並可能繼續受到短期供應、勞動力與運輸限制、動盪的國際政治環境，以及持續高漲的通貨膨脹率、波動的利率、不利的外匯匯率波動，以及持續且可能惡化的關稅成本（包括現有及潛在的美國對中國、加拿大與墨西哥及其他國家所施加或威脅施加的關稅，以及這些國家所採取的報復性措施）的影響。本公司持續管理這些挑戰，並努力透過持續的生產力提升計畫與價格上漲，抵銷這些項目可能產生的不利影響。",
+    "我們預期，在未採取任何緩衝措施的情況下，我們的銷貨成本將因已宣佈或實施的關稅而增加。我們正在積極透過供應鏈措施、成本優化活動及各個通路與品牌的戰略性定價措施，來緩解關稅預期的影響。然而，這是一個快速變化的環境，我們緩解關稅預期影響的能力可能受到多種因素的影響，包括美國或其他國家可能實施的額外關稅或貿易相關制裁，如果我們最終無法 substantially 緩解關稅的影響，將對我們的營運結果產生負面影響。我們目前無法確定未來因通貨膨脹或其他總體經濟壓力或因現行或未來關稅實施而產生的消費者支出減少所導致的任何負面影響。我們目前正在監測，並將持續監測這些關稅的潛在變動或美國或其他國家可能實施的對等或其它關稅或貿易限制。",
+    "在截至 2025 年 12 月 27 日的三個會計年度中，我們的淨銷售額以年複合成長率 1.9% 下降，反映美國住宅產品市場的收縮以及我們",
+    "國際市場的訂單減少，部分抵銷因併購而銷售額的增加。營運收入以年複合成長率 12.6% 下降，整體營運毛利率在 2023 年至 2025 年間介於 12% 到 16% 之間。此期間營運收入的下降主要是由於淨銷售額的減少，以及資產減損費用和更高的重整及重整相關費用，部分抵銷我們對營運費用的控制以及製造生產力計畫的效益。",
+    ""
+   ]
+  },
+  "risk": {
+   "headings": [
+    "警示聲明－有關未來展望之陳述",
+    "本公司策略",
+    "業務分部",
+    "其他資訊",
+    "產業風險",
+    "本公司經營於極具競爭力的消費性及通路品牌類別。",
+    "本公司可能無法成功執行策略計畫，且本公司策略可能無法在面對商業競爭或產生預期結果。",
+    "快速演進的科技變革及本公司有效反應能力，可能產生重大競爭風險。",
+    "營運與採購風險",
+    "與我們改善組織生產力及全球供應鏈效率與靈活性有關的風險，可能會對我們的營運結果、現金流量及財務狀況造成不利影響。",
+    "我們在國際間製造、採購及銷售產品，並面臨與在全球進行業務相關的風險，包括與不確定貿易環境相關的風險。",
+    "營運中斷可能會對我們的營運結果、現金流量及財務狀況造成不利影響。",
+    "我們若無法從供應商處以具成本效益的方式及時取得原材料及成品，可能會影響我們製造及行銷產品的能力。",
+    "與戰略收購、出售及合資企業相關的風險，可能會對我們的營運結果、現金流量及財務狀況造成不利影響。",
+    "減損費用可能會對我們的財務結果造成重大不利影響。",
+    "我們的退休金費用及資金需求可能會因財務市場波動及利率與會計假設的變動而增加。",
+    "法律、法規與人力風險",
+    "本公司未能吸引並留住合資格人員及其他勞動力限制，可能對本公司營運成果、現金流及財務狀況造成不利影響。",
+    "潛在的賠償責任及訴訟成本可能對本公司營運成果、現金流及財務狀況造成不利影響。"
+   ],
+   "paragraphs": [
+    "有關本公司高階主管之資訊。 PART II",
+    " registrant 一般股之市場資訊、相關股東事項及發行人購回 equity securities 之資訊。",
+    "管理階層對財務狀況及營運成果之討論與分析。",
+    "有關市場風險之量化及質化揭露。",
+    "財務報表及補充資料。",
+    "合併財務報表附註"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,215 @@
+{
+ "ticker": "ERAS",
+ "cik": "0001761918",
+ "accession": "0001193125-26-104150",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our core values, team, and social mission",
+    "Erasca Foundation",
+    "Our corporate strategies to erase cancer",
+    "Our singular focus on the RAS/MAPK pathway",
+    "Our therapeutic strategies for shutting down the RAS/MAPK pathway",
+    "Our innovation model",
+    "Internal development",
+    "External sources of innovation",
+    "Modality-agnostic pipeline",
+    "Our pipeline",
+    "RAS Franchise: ERAS-0015 pan-RAS molecular glue and ERAS-4001 pan-KRAS small molecule inhibitor",
+    "ERAS-0015: our pan-RAS molecular glue",
+    "ERAS-4001: our pan-KRAS small molecule inhibitor",
+    "ERAS-12: our EGFR D2/D3 biparatopic antibody program",
+    "Our acquisition and license agreements",
+    "Guangzhou Joyo"
+   ],
+   "paragraphs": [
+    "At Erasca, our name is our mission: to erase cancer.",
+    "We are a clinical-stage precision oncology company singularly focused on discovering, developing, and commercializing therapies for patients with RAS/MAPK pathway-driven cancers. Molecular alterations in RAS, the most frequently mutated oncogene, and the MAPK pathway, one of the most frequently altered signaling pathways in cancer, account for more than five million new patients diagnosed with cancer globally each year. Our company was co-founded by leading pioneers in precision oncology and RAS targeting to create novel therapies and combination regimens designed to comprehensively shut down the RAS/MAPK pathway for the treatment of patients with cancer. Our focused RAS/MAPK pathway pipeline comprises modality-agnostic programs aligned with our three therapeutic strategies of: (1) targeting key upstream and downstream signaling nodes in the RAS/MAPK pathway; (2) targeting RAS directly; and (3) targeting escape routes that emerge in response to treatment. Our pipeline enables us to pursue a systematic, data-driven, portfolio-wide clinical development effort to identify therapeutic approaches with the goal of prolonging survival in numerous patient populations with high unmet medical needs.",
+    "Our modality-agnostic approach aims to allow us to selectively and potently target critical signaling nodes with the most appropriate modality, including small and large molecule therapeutics. Our purpose-built pipeline includes two clinical-stage programs (ERAS-0015, a pan-RAS molecular glue; and ERAS-4001, a pan-KRAS inhibitor), and ERAS-12, a discovery-stage program (an EGFR D2/D3 biparatopic antibody), for which we have identified a lead candidate. We believe our world-class team's capabilities and experience, further guided by our scientific advisory board (SAB), which includes the world's leading experts in the RAS/MAPK pathway, uniquely position us to achieve our bold mission of erasing cancer.",
+    "Of the more than five million new patients diagnosed globally per year with cancers driven by RAS/MAPK pathway molecular alterations, most have limited or no targeted therapy treatment options. While the RAS/MAPK pathway has been well characterized and validated based on multiple compounds approved or in development targeting discrete signaling nodes in the cascade, most of these compounds face resistance and tolerability challenges, highlighting the need for new approaches to target this pathway. We believe that to effectively shut down a pathway that signals as promiscuously as RAS/MAPK, a holistic approach must be taken to target not just individual nodes, but multiple nodes and cooperative mechanisms in parallel. As depicted in the following figure and described below, we are pursuing three therapeutic strategies that may be used in combination with the goal of comprehensively, and perhaps synergistically, shutting down the RAS/MAPK pathway.",
+    "1. Target upstream and downstream MAPK pathway nodes with single agents and combinations intended to clamp these oncogenic drivers. We are evaluating drug combinations targeting upstream and downstream nodes to shut down, or \"clamp,\" the signaling of various oncogenic drivers, such as receptor tyrosine kinases (RTKs), NF1, RAS, RAF, and MEK alterations, trapped between the inhibited nodes. For example, we are exploring ERAS-0015 in combination with an anti-EGFR monoclonal antibody for the treatment of patients with metastatic colorectal cancer.",
+    "2. Target RAS, the midstream MAPK pathway node, directly with single agents and combinations. Our RAS-targeting franchise, ERAS-0015 and ERAS-4001, consists of molecules that are designed to potently and selectively bind to oncogenic RAS alterations (e.g., G12X, G13X +/- Q61X) and to block activation of wildtype RAS isoforms that mediate tumor resistance. These molecules are designed to prevent RAS-mediated signaling either by preventing RAS from binding to downstream effector proteins by forming a RAS-Cyclophilin A protein complex (as in the case of ERAS-0015) or by locking KRAS in the inactive GDP-bound state (as in the case of ERAS-4001).",
+    "3. Target escape routes enabled by other proteins or pathways to further disrupt RAS/MAPK pathway signaling. RAS-driven cancers utilize escape routes, namely cooperative mechanisms, to develop resistance to targeted therapies. By shutting down these potential escape routes, we aim to provide more robust inhibition of oncogenic signaling.",
+    "To pursue these therapeutic strategies, we have assembled and are developing a pipeline targeting multiple signaling nodes to shut down the RAS/MAPK pathway. We intend to study these agents either alone or in rational combinations across multiple relevant tumor types. The following table summarizes our current modality-agnostic pipeline to eradicate RAS/MAPK pathway-driven cancers.",
+    "We in-licensed our RAS-targeting franchise in May 2024. The RAS targeting landscape can be divided into pan-RAS, pan-KRAS, and mutant-selective approaches. We believe pan-RAS and pan-KRAS targeting molecules can address a broad population of patients with G12X, G13X, and possibly Q61X mutations, and also have the potential to address or prevent resistance by blocking wildtype RAS activation.",
+    "ERAS-0015 is a potential best-in-class pan-RAS molecular glue in development for the treatment of patients with RAS-mutated solid tumors. In vitro, ERAS-0015 has shown approximately 8-21 times higher binding affinity to cyclophilin A versus the most advanced pan-RAS molecular glue in development. We believe this higher binding affinity results in approximately 5 times more potent RAS inhibition in cell-based assays versus the comparator. ERAS-0015 also has favorable absorption, distribution, metabolism and excretion (ADME) and pharmacokinetics (PK) properties in multiple animal species. As a result of these favorable in vitro potency and ADME/PK attributes, ERAS-0015 has demonstrated comparable to greater in vivo antitumor activity at doses which are approximately one-tenth to one-eighth of the dose of the most advanced pan-RAS molecular glue. In combination with an anti-PD-1 antibody, ERAS-0015 was able to achieve complete disappearance of tumors in mice on day 31. The combination of ERAS-0015 plus the anti-EGFR antibody cetuximab induced significant tumor growth inhibition and demonstrated the potential combination benefit of blocking both oncogenic drivers. Our initial clinical trial for ERAS-0015 is called AURORAS-1. The investigational new drug application (IND) for AURORAS-1 was cleared by the US Food and Drug Administration (FDA) in May 2025. ERAS-0015, which we license from Guangzhou Joyo Pharmatech Co., Ltd. (Joyo), is also being evaluated in the JYP0015M101 clinical trial in China, which is assessing ERAS-0015 in adult patients with advanced solid tumors harboring specific RAS mutations. The JYP0015M101 clinical trial is sponsored by Joyo.",
+    "On January 12, 2026, we provided an update regarding the initial clinical progress of ERAS-0015. The update consisted of the following, as of a data cutoff of January 7, 2026:",
+    "• Dose escalation in the ongoing AURORAS-1 Phase 1 trial was advancing faster than anticipated, underscoring significant unmet medical need and high investigator and patient enthusiasm",
+    "• Ongoing confirmed and unconfirmed responses were observed in multiple patients with differing tumor types and RAS mutations",
+    "o Ongoing responses (two confirmed partial responses (PRs) and one unconfirmed PR) were observed in patients with different tumor types and RAS mutations achieved at a low dose of 8 mg once daily (QD)"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks related to our limited operating history, financial position and need for additional capital",
+    "Raising additional capital may cause dilution to our stockholders, restrict our operations or require us to relinquish rights to our technologies or product candidates.",
+    "Our portfolio of investments or bank deposits may be subject to market, interest and credit risk that may reduce their value and adversely affect our business, results of operations and financial condition.",
+    "Risks related to the discovery, development and regulatory approval of our product candidates",
+    "As an organization, we may be unable to complete clinical trials for any of our product candidates.",
+    "We intend to develop our product candidates in combination with other therapies, which exposes us to additional risks."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, as well as the other information in this Annual Report on Form 10-K, including our consolidated financial statements and the related notes included elsewhere in this Annual Report on Form 10-K and \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" before making investment decisions regarding our common stock. The occurrence of any of the events or developments described below could harm our business, financial condition, results of operations and prospects. In such an event, the market price of our common stock could decline and you may lose all or part of your investment. The risks described below are not the only ones we face. Additional risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business operations.",
+    "We have a limited operating history, have incurred significant operating losses since our inception and expect to incur significant losses for the foreseeable future. We may never generate any revenue or become profitable or, if we achieve profitability, we may not be able to sustain it.",
+    "We are a clinical-stage biopharmaceutical company with a limited operating history upon which you can evaluate our business and prospects. We commenced operations in 2018, and to date, we have focused primarily on organizing and staffing our company, business planning, raising capital, identifying, acquiring and in-licensing our product candidates, establishing our intellectual property portfolio, conducting research, preclinical studies and clinical trials, establishing arrangements with third parties for the manufacture of our product candidates and related raw materials, and providing general and administrative support for these operations. Our scientific approach to the discovery and development of product candidates is unproven, and we do not know whether we will be able to develop or obtain regulatory approval for any products of commercial value. In addition, while we are currently conducting our AURORAS-1 and BOREALIS-1 Phase 1 clinical trials for ERAS-0015 and ERAS-4001, respectively, our remaining product candidates are in the preclinical or discovery stage. We have not yet completed any later-stage, large-scale or pivotal clinical trials, obtained regulatory approvals, manufactured a commercial-scale product, or arranged for a third party to do so on our behalf, or conducted sales and marketing activities necessary for successful product commercialization. Consequently, any predictions made about our future success or viability may not be as accurate as they could be if we had a history of successfully developing and commercializing biopharmaceutical products.",
+    "We have incurred significant operating losses since our inception and expect to incur significant losses for the foreseeable future. We do not have any products approved for sale and have not generated any revenue since our inception. If we are unable to successfully develop and obtain requisite approval for our product candidates, we may never generate any revenue. Our net losses were $124.5 million and $161.7 million for the years ended December 31, 2025 and 2024, respectively. As of December 31, 2025, we had an accumulated deficit of $892.2 million. Substantially all of our losses have resulted from expenses incurred in connection with our research and development programs and from general and administrative costs associated with our operations. All of our product candidates will require substantial additional development time and resources before we would be able to apply for or receive regulatory approvals and begin generating revenue from product sales. We expect to continue to incur losses for the foreseeable future, and we anticipate these losses will increase substantially as we continue our development of, seek regulatory approval for and potentially commercialize any of our product candidates and seek to identify, assess, acquire, in-license or develop additional product candidates.",
+    "To become and remain profitable, we must succeed in developing and eventually commercializing products that generate significant revenue. This will require us to be successful in a range of challenging activities, including completing clinical trials and preclinical studies of our product candidates, discovering, acquiring or in-licensing additional product candidates, obtaining regulatory approval for these product candidates, and manufacturing, marketing, and selling any products for which we may obtain regulatory approval. We are only in the preliminary stages of many of these activities. We may never succeed in these activities and, even if we do, may never generate revenue that is significant enough to achieve profitability. In addition, we have not yet demonstrated an ability to successfully overcome many of the risks and uncertainties frequently encountered by companies in new and rapidly evolving fields, particularly in the biopharmaceutical industry. Because of the numerous risks and uncertainties associated with biopharmaceutical product development, we are unable to accurately predict the timing or amount of increased expenses or when, or if, we will be able to achieve profitability. Even if we do achieve profitability, we may not be able to sustain or increase profitability on a quarterly or annual basis. Our failure to become and remain profitable may have an adverse effect on the value of our company and could impair our ability to raise capital, expand our business, maintain our research and development",
+    "efforts, diversify our product candidates, or even continue our operations. A decline in the value of our company could also cause you to lose all or part of your investment."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Our acquisition and license agreements",
+    "Components of results of operations",
+    "Operating expenses",
+    "Research and development",
+    "Year Ended December 31,",
+    "In-process research and development",
+    "General and administrative",
+    "Other income (expense), net",
+    "Interest income",
+    "Results of operations",
+    "Comparison of the years ended December 31, 2025 and 2024",
+    "Research and development expenses",
+    "In-process research and development expenses",
+    "General and administrative expenses",
+    "Liquidity and capital resources",
+    "Sources of liquidity",
+    "Future capital requirements",
+    "Operating activities",
+    "Investing activities",
+    "Financing activities",
+    "Cash requirements due to contractual obligations and other commitments",
+    "Critical accounting policies and estimates",
+    "Accrued research and development expenses",
+    "Stock-based compensation",
+    "Recently issued and adopted accounting pronouncements",
+    "Emerging growth company and smaller reporting company status"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our consolidated financial statements and notes thereto included elsewhere in this Annual Report on Form 10-K. This discussion contains forward-looking statements that involve risks and uncertainties, including those described in the section titled \"Special Note Regarding Forward Looking Statements.\" As a result of many factors, including those factors set forth in the \"Risk Factors\" section of this Annual Report on Form 10-K, our actual results could differ materially from the results described in or implied by the forward-looking statements contained in the following discussion and analysis.",
+    "We are a clinical-stage precision oncology company singularly focused on discovering, developing, and commercializing therapies for patients with RAS/MAPK pathway-driven cancers. Molecular alterations in RAS, the most frequently mutated oncogene, and the MAPK pathway, one of the most frequently altered signaling pathways in cancer, account for more than five million new patients diagnosed with cancer globally each year. Our company was co-founded by leading pioneers in precision oncology and RAS targeting to create novel therapies and combination regimens designed to comprehensively shut down the RAS/MAPK pathway for the treatment of patients with cancer. Our focused RAS/MAPK pathway pipeline comprises modality-agnostic programs aligned with our three therapeutic strategies of: (1) targeting key upstream and downstream signaling nodes in the RAS/MAPK pathway; (2) targeting RAS directly; and (3) targeting escape routes that emerge in response to treatment.",
+    "The following figure shows the RAS/MAPK pathway and how the three therapeutic strategies listed above attempt to comprehensively and synergistically shut down the RAS/MAPK pathway.",
+    "Our pipeline enables us to pursue a systematic, data-driven, portfolio-wide clinical development effort to identify therapeutic approaches with the goal of prolonging survival in numerous patient populations with high unmet medical needs. Our modality-agnostic approach aims to allow us to selectively and potently target critical signaling nodes with the most appropriate modality, including small and large molecule therapeutics. Our purpose-built pipeline includes two clinical-stage programs (ERAS-0015, a pan-RAS molecular glue; and ERAS-4001, a pan-KRAS inhibitor), and ERAS-12, a discovery-stage program (an EGFR D2/D3 biparatopic antibody) for which we have identified a lead candidate. We believe our world-class team's capabilities and experience, further guided by our scientific advisory board, which includes the world's leading experts in the RAS/MAPK pathway, uniquely position us to achieve our bold mission of erasing cancer.",
+    "We in-licensed our RAS-targeting franchise in May 2024. The RAS targeting landscape can be divided into pan-RAS, pan-KRAS, and mutant-selective approaches. We believe pan-RAS and pan-KRAS targeting molecules can address a broad population of patients with G12X, G13X, and possibly Q61X mutations, and also have the potential to address or prevent resistance by blocking wildtype RAS activation.",
+    "ERAS-0015 is a potential best-in-class pan-RAS molecular glue in development for the treatment of patients with RAS-mutated solid tumors. In vitro, ERAS-0015 has shown approximately 8-21 times higher binding affinity to cyclophilin A versus the most advanced pan-RAS molecular glue in development. We believe this higher binding affinity results in approximately 5 times more potent RAS inhibition in cell-based assays versus the comparator. ERAS-0015 also has favorable absorption, distribution, metabolism, and excretion (ADME) and pharmacokinetics (PK) properties in multiple animal species. As a result of these favorable in vitro potency and ADME/PK attributes, ERAS-0015 has demonstrated comparable to greater in vivo antitumor activity at doses which are approximately one-tenth to one-eighth of the dose of the most advanced pan-RAS molecular glue. In combination with an anti-PD-1 antibody, ERAS-0015 was able to achieve complete disappearance of tumors in mice on day 31. The combination of ERAS-0015 plus the anti-EGFR antibody cetuximab induced significant tumor growth inhibition and demonstrated the potential combination benefit of blocking both oncogenic drivers. Our initial clinical trial for ERAS-0015 is called AURORAS-1. The investigational new drug application (IND) for AURORAS-1 was cleared by the US Food and Drug Administration (FDA) in May 2025. ERAS-0015 is also being evaluated in the JYP0015M101 clinical trial in China, which is assessing ERAS-0015 in adult patients with advanced solid tumors harboring specific RAS mutations. The JYP0015M101 clinical trial is sponsored by Joyo.",
+    "On January 12, 2026, we provided an update regarding the initial clinical progress of ERAS-0015. The update consisted of the following, as of a data cutoff date of January 7, 2026:",
+    "• Dose escalation in the ongoing AURORAS-1 Phase 1 trial was advancing faster than anticipated, underscoring significant unmet medical need and high investigator and patient enthusiasm",
+    "• Ongoing confirmed and unconfirmed responses were observed in multiple patients with differing tumor types and RAS mutations",
+    "o Ongoing responses (two confirmed partial responses (PRs) and one unconfirmed PR) were observed in patients with different tumor types and RAS mutations achieved at a low dose of 8 mg QD",
+    "o Additional ongoing unconfirmed responses were observed in patients at doses above 8 mg QD",
+    "• Favorable safety and tolerability results, with no dose-limiting toxicities and predominantly low-grade adverse events observed at all dose levels evaluated",
+    "• Well-behaved, linear PK across all dose levels evaluated to date with no observed evidence of exposure plateau",
+    "On January 20, 2026, we announced that subsequent to the cut-off date, we have dosed patients at 40 mg QD."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司核心價值、團隊及社會使命",
+    "Erasca Foundation",
+    "本公司消除癌症的企業策略",
+    "本公司專注於 RAS/MAPK 通路",
+    "本公司關閉 RAS/MAPK 通路的治療策略",
+    "本公司創新模式",
+    "內部開發",
+    "外部創新來源",
+    "無模態管線",
+    "本公司管線",
+    "RAS 特許經營權：ERAS-0015 全RAS分子膠與ERAS-4001 全KRAS小分子抑制劑",
+    "ERAS-0015：本公司全RAS分子膠",
+    "ERAS-4001：本公司全KRAS小分子抑制劑",
+    "ERAS-12：本公司EGFR D2/D3雙重親和單克隆抗體計畫",
+    "本公司收購與授權契約",
+    "廣州Joyo"
+   ],
+   "paragraphs": [
+    "在 Erasca，我們的公司名稱就是我們的使命：消除癌症。",
+    "我們是一家臨牀階段的精準腫瘤學公司，專注於發現、開發和商業化針對 RAS/MAPK 路徑驅動癌症患者的治療方案。RAS 的分子變異，這是最常見的癌基因變異，以及 MAPK 路徑，這是癌症中最常見的訊號傳導路徑變異，每年全球診斷出超過五百萬新的癌症患者。我們的公司由精準腫瘤學和 RAS 目標領域的領先先驅共同創立，旨在開發創新治療方案和組合療法，以全面關閉 RAS/MAPK 路徑，用以治療癌症患者。我們專注於 RAS/MAPK 路徑的開發管道，包含與我們三個治療策略相符合的模態無關的計畫：(1) 靶向 RAS/MAPK 路徑中關鍵的上游和下游訊號節點；(2) 直接靶向 RAS；以及 (3) 靶向治療過程中產生的逃逸路徑。我們的開發管道使我們能夠進行系統性、數據驅動的全管道臨牀開發，以識別治療方案，目標是延長多種高未滿足醫療需求患者羣體的生存期。",
+    "我們的模態無關方法旨在讓我們能選擇性且強效地靶向關鍵訊號節點，使用最適當的模態，包括小分子和大分子治療藥物。我們的專門開發管道包含兩個臨牀階段計畫 (ERAS-0015，一種泛 RAS 分子黏合劑；以及 ERAS-4001，一種泛 KRAS 抑制劑)，以及 ERAS-12，一個發現階段計畫 (一種 EGFR D2/D3 雙特異性單克隆抗體)，我們已識別出領先候選藥物。我們相信我們世界級團隊的能力和經驗，進一步由我們的科學顧問委員會 (SAB) 引導，該委員會包含全球 RAS/MAPK 路徑領域的領先專家，使我們獨特地具備實現我們大膽使命的條件，即消除癌症。",
+    "在每年全球診斷出超過五百萬新的 RAS/MAPK 路徑分子變異驅動癌症患者中，大多數患者缺乏或僅有有限的靶向治療選擇。雖然 RAS/MAPK 路徑已被多種已核准或正在開發的化合物所驗證和確認，這些化合物針對該訊號傳導路徑中個別節點，但大多數這些化合物面臨抗藥性和耐受性挑戰，這突顯了需要新的方法來靶向此路徑。我們認為，要有效關閉一個像 RAS/MAPK 這樣訊號傳導如此廣泛的路徑，必須採取整體方法，不僅針對個別節點，還要同時針對多個節點和協同機制。如後續圖表所示，我們正在追蹤三種治療策略，可能用於組合，目標是全面且可能協同地關閉 RAS/MAPK 路徑。",
+    "1. 使用單一藥物和組合藥物靶向上遊和下游 MAPK 路徑節點，以壓制這些致癌驅動因素。我們正在評估針對上游和下游節點的藥物組合，以關閉或「壓制」各種致癌驅動因素的訊號傳導，例如受體酪氨酸激酶 (RTKs)、NF1、RAS、RAF 和 MEK 變異，這些變異被困在抑制的節點之間。例如，我們正在探索 ERAS-0015 與抗 EGFR 單克隆抗體組合，用於治療有轉移性結腸直腸癌的患者。",
+    "2. 使用單一藥物和組合藥物直接靶向 RAS，即 MAPK 路徑中間的節點。我們的 RAS 靶向計畫，ERAS-0015 和 ERAS-4001，包含設計用以強效且選擇性地結合致癌 RAS 變異 (例如 G12X、G13X +/- Q61X) 並阻斷野生型 RAS 等位變體的活化，這些變體會導致腫瘤耐藥。這些分子設計用以防止 RAS 透過形成 RAS-Cyclophilin A 蛋白複合物與下游效應蛋白結合 (如 ERAS-0015 的情況)，或將 KRAS 固定在無活性的 GDP 結合狀態 (如 ERAS-4001 的情況)。",
+    "3. 靶向由其他蛋白或路徑啟動的逃逸路徑，以進一步幹擾 RAS/MAPK 路徑訊號傳導。RAS 驅動的癌症會利用逃逸路徑，即協同機制，來發展對靶向治療的抗藥性。透過關閉這些潛在的逃逸路徑，我們旨在提供更強的致癌訊號傳導抑制。",
+    "為追求這些治療策略，我們已經組建並正在開發一個針對多個訊號節點的開發管道，以關閉 RAS/MAPK 路徑。我們計畫在多種相關腫瘤類型中，研究這些藥物單獨使用或在合理組合下使用。下述表格總結我們目前的模態無關開發管道，用以消除 RAS/MAPK 路徑驅動的癌症。",
+    "我們於2024年5月取得RAS標靶專利授權。RAS標靶領域可分為pan-RAS、pan-KRAS及mutant-selective方法。我們認為pan-RAS與pan-KRAS標靶分子可針對具有G12X、G13X及可能Q61X變異的廣泛患者羣，並有潛力透過阻斷野生型RAS活化來解決或預防抗藥性。",
+    "ERAS-0015為一種潛在最佳治療RAS變異實體腫瘤的pan-RAS分子膠黏劑，正在開發中。體外實驗顯示，ERAS-0015對環氧酶A的結合親和力約為目前最進展的pan-RAS分子膠黏劑高8至21倍。我們認為這種更高的結合親和力使ERAS-0015在基於細胞的試驗中對RAS的抑制作用約為對照組強5倍。ERAS-0015在多種動物種類中也顯示出良好的吸收、分佈、代謝與排泄（ADME）及藥動學（PK）特性。因此，由於這些良好的體外強度與ADME/PK特性，ERAS-0015在劑量約為目前最進展的pan-RAS分子膠黏劑十分之一至八分之一時，已顯示出與之相當或更高的體內抗腫瘤活性。與抗PD-1單株抗體組合使用時，ERAS-0015在第31天使小鼠腫瘤完全消失。ERAS-0015與抗EGFR單株抗體cetuximab組合使用時，觀察到顯著的腫瘤生長抑制，顯示同時阻斷致癌驅動因子的潛在組合效益。我們針對ERAS-0015的初步臨牀試驗稱為AURORAS-1。AURORAS-1的創新藥申請（IND）於2025年5月獲美國食品藥物管理局（FDA）核准。ERAS-0015為我們自廣州Joyo Pharmatech Co., Ltd.（Joyo）取得的授權，同時也在中國的JYP0015M101臨牀試驗中評估，該試驗評估ERAS-0015在具有特定RAS變異的成人晚期實體腫瘤患者中的應用。JYP0015M101臨牀試驗由Joyo贊助。",
+    "我們於2026年1月12日提供有關ERAS-0015初步臨牀進展的更新。更新內容如下，截至2026年1月7日的資料截止日：",
+    "• 正在進行的AURORAS-1第一期試驗中，劑量遞增進展速度快於預期，顯示出顯著未滿足的醫療需求及高研究者與患者的熱情",
+    "• 在多種腫瘤類型與RAS變異的患者中觀察到持續的確認與未確認反應",
+    "o 在不同腫瘤類型與RAS變異的患者中，於低劑量8 mg每日一次（QD）時觀察到持續反應（兩例確認的部分反應（PR）及一例未確認的PR）"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "本公司之收購及授權契約",
+    "營運成果之組成項目",
+    "營運費用",
+    "研究與發展",
+    "截至12月31日之會計年度",
+    "進行中之研究與發展",
+    "一般及行政費用",
+    "其他收入（費用），淨額",
+    "利息收入",
+    "營運成果",
+    "截至2025年12月31日與2024年12月31日之年度比較",
+    "研究與發展費用",
+    "進行中研究與發展費用",
+    "一般及行政費用",
+    "流動性及資本資源",
+    "流動性來源",
+    "未來資金需求",
+    "營運活動",
+    "投資活動",
+    "籌資活動",
+    "因契約義務及其他承諾所致之現金需求",
+    "關鍵會計政策及會計估計",
+    "累計研究與發展費用",
+    "股票基於報酬之費用",
+    "最近發佈並實施之會計準則聲明",
+    "新興成長公司及小型報告公司資格"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運成果的討論與分析，應與本年度10-K申報表中所包含之合併財務報表及其附註一併閱讀。本討論包含風險與不確定性，包括在「特別提醒有關未來展望聲明」一節中所描述的風險。由於許多因素，包括在本年度10-K申報表「風險因素」一節中所列的因素，我們的實際結果可能與本討論與分析中所描述或暗示的未來展望聲明所提及的結果有顯著差異。",
+    "我們是一家臨牀階段的精準腫瘤學公司，專注於發現、開發與商業化治療RAS/MAPK路徑驅動癌症患者的療法。RAS，最常見的癌基因，以及MAPK路徑，癌症中最常見的訊號傳導路徑，其分子改變每年在全球導致超過五百萬新診斷的癌症患者。我們的公司由精準腫瘤學與RAS靶向領域的領先先驅共同創立，旨在開發創新療法與組合療法，以全面關閉RAS/MAPK路徑，用以治療癌症患者。我們專注於RAS/MAPK路徑的開發管道，包含與我們三大治療策略相對應的模態無關計畫：(1) 靶向RAS/MAPK路徑中的關鍵上游與下游訊號節點；(2) 直接靶向RAS；以及(3) 靶向治療過程中產生的逃逸路徑。",
+    "下圖顯示RAS/MAPK路徑以及上述三大治療策略如何試圖全面且協同地關閉RAS/MAPK路徑。",
+    "我們的開發管道使我們能夠進行系統化、數據驅動的全組合臨牀開發努力，以識別治療方法，目標是延長多種高未滿足醫療需求患者羣體的生存期。我們的模態無關方法旨在讓我們能選擇性且強效地靶向關鍵訊號節點，使用最適當的模態，包括小分子與大分子治療藥物。我們的專用開發管道包含兩個臨牀階段計畫（ERAS-0015，一種廣譜RAS分子膠；以及ERAS-4001，一種廣譜KRAS抑制劑），以及ERAS-12，一個發現階段計畫（一種EGFR D2/D3雙重親和單株抗體），我們已識別出領導候選藥物。我們相信我們世界級團隊的能力與經驗，進一步由我們的科學顧問委員會指導，該委員會包含RAS/MAPK路徑領域的全球領先專家，使我們獨特地具備實現我們大膽使命的條件，即消除癌症。",
+    "我們於2024年5月取得RAS靶向專利授權。RAS靶向領域可分為廣譜RAS、廣譜KRAS以及突變選擇性方法。我們相信廣譜RAS與廣譜KRAS靶向分子可針對具有G12X、G13X以及可能Q61X突變的廣大患者羣體，並有潛力透過阻斷野生型RAS活化來解決或預防抗藥性。",
+    "ERAS-0015是一種潛在最佳的廣譜RAS分子膠，正在開發中，用以治療具有RAS突變實體腫瘤的患者。體外實驗顯示，ERAS-0015對環孢素A的結合親和力約為目前最進展的廣譜RAS分子膠的8至21倍。我們相信這種更高的結合親和力在基於細胞的試驗中導致約5倍更強的RAS抑制效果。ERAS-0015在多種動物種類中也顯示出良好的吸收、分佈、代謝與排泄（ADME）及藥動學（PK）特性。由於這些良好的體外強度與ADME/PK特性，ERAS-0015在劑量約為目前最進展的廣譜RAS分子膠的十分之一至八分之一時，已顯示出與更高體內抗腫瘤活性相當或更佳的效果。與抗PD-1單株抗體組合使用時，ERAS-0015在第31天使小鼠腫瘤完全消失。ERAS-0015與抗EGFR單株抗體西妥昔單抗組合使用時，顯示出顯著的腫瘤生長抑制，並展現出同時阻斷致癌驅動因子的組合效益。我們對ERAS-0015的初始臨牀試驗稱為AURORAS-1。AURORAS-1的創新藥物申請（IND）於2025年5月獲美國食品藥物管理局（FDA）批准。ERAS-0015也在中國的JYP0015M101臨牀試驗中進行評估，該試驗評估ERAS-0015在具有特定RAS突變的成人晚期實體腫瘤患者中的應用。JYP0015M101臨牀試驗由Joyo贊助。",
+    "我們於2026年1月12日提供了關於ERAS-0015初始臨牀進展的更新。更新內容如下，截至2026年1月7日的數據截止日期：",
+    "• 正在進行的AURORAS-1第一期試驗中的劑量遞增進行速度比預期更快，凸顯出顯著的未滿足醫療需求以及高研究者與患者的熱情",
+    "• 多數患者在不同腫瘤類型及 RAS 突變情形下觀察到持續確認及未確認的反應",
+    "o 在不同腫瘤類型及 RAS 突變情形下，觀察到持續反應（兩例確認的部分反應 (PR) 及一例未確認的 PR），且在低劑量 8 mg QD 下達成",
+    "o 在劑量高於 8 mg QD 的患者中，觀察到額外的持續未確認反應",
+    "• 安全性及耐受性結果良好，所有評估劑量層級均未觀察到劑量限制性毒性，且多為低等級不良事件",
+    "• 至今所有評估劑量層級均觀察到良好的藥動學 (PK) 表現，且未觀察到暴露量達平台期的跡象",
+    "2026 年 1 月 20 日，本公司宣佈，在截止日期後，我們已於 40 mg QD 劑量下給予患者治療"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司有限經營歷史、財務狀況及需額外資金之相關風險",
+    "籌措額外資金可能導致股東持股稀釋、限制本公司營運或要求本公司放棄對智慧財產權或產品候選品之權利。",
+    "本公司投資組合或銀行存款可能面臨市場、利率及信用風險，可能降低其價值並對本公司業務、營運成果及財務狀況產生不利影響。",
+    "與產品候選品之發現、開發及監管核准相關之風險",
+    "作為一家機構，本公司可能無法完成任何產品候選品之臨牀試驗。",
+    "本公司有意與其他療法結合開發產品候選品，此舉可能使本公司面臨額外風險。"
+   ],
+   "paragraphs": [
+    "投資本公司的普通股涉及高度風險。您應仔細考慮下列所描述的風險與不確定性，以及本年度報告表10-K中其他資訊，包括我們的合併財務報表及相關附註，以及「管理層對財務狀況與營運結果之討論與分析」，在做出投資本公司普通股之決定前。上述任何事件或發展之發生，可能對本公司之業務、財務狀況、營運結果與前景造成損害。在這種情況下，本公司普通股之市場價格可能下跌，您可能損失全部或部分投資。下列所描述之風險並非本公司所面臨之唯一風險。尚有其他風險與不確定性，目前尚未為本公司所知或目前認為不重要，也可能影響本公司之業務營運。",
+    "本公司擁有有限之營運歷史，自成立以來已產生重大營運虧損，並預期在可預見之未來繼續產生重大虧損。本公司可能永遠無法產生任何收入或實現盈利，或即使實現盈利，也可能無法維持該盈利。",
+    "本公司為一臨牀階段生技製藥公司，您所能評估之業務與前景之營運歷史有限。本公司於2018年開始營運，截至目前為止，本公司主要致力於組織與僱用員工、業務規劃、籌措資金、識別、取得或授權取得產品候選藥物、建立智慧財產權組合、進行研究、動物前臨牀試驗與臨牀試驗、建立與第三方之製造安排、以及提供一般及行政支援以支應這些營運。本公司對產品候選藥物之發現與開發之科學方法尚未經證實，本公司無法確定是否能開發或取得任何具商業價值產品之監管批准。此外，雖然本公司目前正進行ERAS-0015與ERAS-4001之AURORAS-1與BOREALIS-1第一期臨牀試驗，但本公司其餘產品候選藥物仍處於前臨牀或發現階段。本公司尚未完成任何後期階段、大規模或關鍵性臨牀試驗，取得監管批准，製造商業規模產品，或安排第三方代為製造，或進行成功產品商業化所需之銷售與行銷活動。因此，任何對本公司未來成功或生存能力之預測，可能不如本公司擁有成功開發與商業化生技製藥產品之歷史時之準確。",
+    "自本公司成立以來，本公司已產生重大營運虧損，並預期在可預見之未來繼續產生重大虧損。本公司目前尚未有任何產品獲准銷售，且自成立以來尚未產生任何收入。若本公司無法成功開發並取得相關產品候選藥物之監管批准，本公司可能永遠無法產生任何收入。本公司之淨虧損於2025年12月31日止之會計年度為1.245億美元，於2024年12月31日止之會計年度為1.617億美元。截至2025年12月31日，本公司累計虧損為8.922億美元。本公司幾乎所有虧損均來自與研究與開發計畫相關之費用，以及與營運相關之一般及行政費用。本公司所有產品候選藥物均需進行大量之開發時間與資源，方能申請或取得監管批准並開始從產品銷售中產生收入。本公司預期將持續產生虧損，且本公司預期這些虧損將大幅增加，因本公司持續進行產品候選藥物之開發、尋求監管批准及潛在商業化，並尋求識別、評估、取得、授權取得或開發其他產品候選藥物。",
+    "要成為並維持盈利，本公司必須成功開發並最終商業化能產生重大收入之產品。這將需要本公司成功完成產品候選藥物之臨牀試驗與前臨牀試驗、發現、取得或授權取得其他產品候選藥物、取得這些產品候選藥物之監管批准，以及製造、行銷與銷售任何本公司可能取得監管批准之產品。本公司僅處於許多這些活動之初步階段。本公司可能永遠無法成功完成這些活動，即使成功完成，也可能無法產生足夠之收入以實現盈利。此外，本公司尚未展示出成功克服新興且快速變遷產業中常見之許多風險與不確定性之能力，特別是在生技製藥產業。由於生技製藥產品開發所涉及之許多風險與不確定性，本公司無法準確預測費用增加之時間或金額，或本公司是否能實現盈利。即使本公司實現盈利，也可能無法維持或提高季度或年度之盈利。本公司未能成為並維持盈利，可能對本公司價值產生負面影響，並可能影響本公司籌措資金、擴大業務、維持研究與開發之能力",
+    "努力、多元化產品候選藥物，或甚至繼續營運。本公司價值之下降也可能導致您損失全部或部分投資。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

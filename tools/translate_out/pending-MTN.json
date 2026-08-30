@@ -1,0 +1,211 @@
+{
+ "ticker": "MTN",
+ "cik": "0000812011",
+ "accession": "0000812011-25-000104",
+ "form": "10-K",
+ "reportDate": "2025-07-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Mountain Segment",
+    "Destination Mountain Resorts",
+    "Regional Ski Areas",
+    "Lodging Segment",
+    "Real Estate Segment",
+    "Marketing and Sales",
+    "Sustainability & Social Responsibility",
+    "Human Capital Management"
+   ],
+   "paragraphs": [
+    "Vail Resorts, Inc., together with its subsidiaries, is referred to throughout this document as \"we,\" \"us,\" \"our\" or the \"Company.\"",
+    "Vail Resorts, Inc., a Delaware corporation, was organized as a holding company in 1997 and operates through various subsidiaries. Our operations are grouped into three reportable segments: Mountain, Lodging and Real Estate, which represented approximately 89%, 11% and 0%, respectively, of our net revenue for our fiscal year ended July 31, 2025 (\"Fiscal 2025\").",
+    "Our Mountain segment operates 42 world-class destination mountain resorts and regional ski areas (collectively, our \"Resorts\"). Additionally, the Mountain segment includes ancillary services, primarily including ski school, dining and retail/rental operations.",
+    "In the Lodging segment, we own and/or manage a collection of luxury hotels and condominiums under our RockResorts brand, other strategic lodging properties and a large number of condominiums located in proximity to our North American mountain resorts, National Park Service (\"NPS\") concessioner properties including the Grand Teton Lodge Company (\"GTLC\"), which operates destination resorts in Grand Teton National Park, a Colorado resort ground transportation company and mountain resort golf courses.",
+    "We refer to \"Resort\" as the combination of the Mountain and Lodging segments. Our Real Estate segment owns, develops and sells real estate in and around our resort communities.",
+    "For financial information and other information about the Company's segments and geographic areas, see Item 7. \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and Item 8. \"Financial Statements and Supplementary Data.\"",
+    "In the Mountain segment, the Company operates the following 42 destination mountain resorts and regional ski areas, including five resorts within the top ten most visited resorts in the United States for the 2024/2025 North American ski season:",
+    "*Denotes a destination mountain resort, which generally receives a meaningful portion of skier visits from long-distance travelers, as opposed to our regional ski areas, which tend to generate skier visits predominantly from their respective local markets.",
+    "Our Mountain segment derives revenue through the sale of lift tickets, including pass products, as well as a comprehensive offering of amenities available to guests, including ski and snowboard lessons, equipment rentals and retail merchandise sales, a variety of dining venues, private club operations and other winter and summer recreational activities. In addition to providing extensive guest amenities, we also lease some of our owned and leased commercial space to third party operators to add unique restaurants and retail stores to the mix of amenities at the base of our resorts.",
+    "Many of our destination mountain resorts operate year-round and provide a comprehensive resort experience to a diverse clientele with an attractive demographic profile. We offer a broad complement of winter and summer recreational activities, including skiing, snowboarding, snowshoeing, snowtubing, sightseeing, mountain biking, guided hiking, zip lines, challenge ropes courses, alpine slides, mountain coasters, children's activities and other recreational activities. Collectively, our Resorts are located in close proximity to population centers totaling approximately 110 million people.",
+    "Rocky Mountains (Colorado and Utah Resorts)",
+    "•Vail Mountain Resort (\"Vail Mountain\") - the second most visited mountain resort in the United States (\"U.S.\") for the 2024/2025 ski season. Vail Mountain offers some of the most expansive and varied terrain in North America with approximately 5,300 skiable acres including seven world renowned back bowls and the resort's Blue Sky Basin.",
+    "•Breckenridge Ski Resort (\"Breckenridge\") - the most visited mountain resort in the U.S. for the 2024/2025 ski season with five interconnected peaks offering an expansive variety of terrain for every skill level, including access to above tree line intermediate and expert terrain, and progressive and award-winning terrain parks.",
+    "•Park City Resort (\"Park City\") - the fourth most visited mountain resort in the U.S. for the 2024/2025 ski season and the largest by acreage in the U.S. Park City offers 7,300 skiable acres, including diverse terrain for every type of skier and snowboarder. In 2024, the International Olympic Committee selected Salt Lake City as the host for the 2034 Winter Olympics, naming Park City as an official venue for certain competitions."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business",
+    "We are subject to the risk of prolonged weakness in general economic conditions including adverse effects on the overall travel and leisure related industries.",
+    "We may be adversely impacted by the effects of high or prolonged inflation and elevated interest rates.",
+    "We are vulnerable to unfavorable weather conditions and the impact of natural disasters.",
+    "Pandemics and public health emergencies could materially disrupt our business and negatively impact our results of operations, cash flows and financial condition.",
+    "Cyberattacks or other interruptions to or disruption of our information technology systems and services could disrupt our business.",
+    "Failure to maintain the integrity and security of our internal, employee or guest data could result in damages to our reputation and subject us to costs, fines or lawsuits.",
+    "Our business is highly seasonal.",
+    "We face significant competition.",
+    "The high fixed cost structure of mountain resort operations can result in significantly lower margins if revenues decline.",
+    "We may not be able to fund resort capital expenditures, accurately identify the need for, or anticipate the timing of certain capital expenditures, which may adversely impact our business.",
+    "A disruption in our water supply would impact our snowmaking capabilities and operations.",
+    "We rely on various government permits and landlord approvals at our U.S. resorts.",
+    "We rely on foreign government leases and landlord approvals, and are subject to certain related laws and regulations, at our international resorts.",
+    "Any resource efficiency transformation initiatives that we undertake may not deliver the results we expect.",
+    "We are subject to extensive environmental and health and safety laws and regulations in the ordinary course of business.",
+    "We rely on information technology to operate our businesses and maintain our competitiveness, and any failure to adapt to technological developments or industry trends could harm our business or competitive position.",
+    "Our acquisitions might not be successful.",
+    "We are subject to additional risks with respect to our current and potential international operations and properties.",
+    "Exchange rate fluctuations could result in significant foreign currency gains and losses and affect our business results.",
+    "We are subject to tax laws and regulations in multiple jurisdictions, and changes to those laws and regulations or interpretations thereof or adverse determinations by tax authorities may adversely affect us."
+   ],
+   "paragraphs": [
+    "Our operations and financial results are subject to various risks and uncertainties that could adversely affect our financial position, results of operations and cash flows. The risks described below should carefully be considered together with the other information contained in this report.",
+    "Skiing, travel and tourism are discretionary recreational activities that can entail a relatively high cost of participation and may be adversely affected by economic slowdown or recession. Economic conditions in North America, Europe and parts of the rest of the world, including inflationary pressures, elevated interest rates, supply chain disruption, tariff and trade disputes, fluctuating commodity pricing, geopolitical conflicts and uncertainties, increased labor costs and shortages, increased fuel prices, high unemployment, erosion of consumer confidence, health pandemics, sovereign debt issues and financial instability in the global markets, among other factors, could have negative effects on the travel and leisure industry and on our results of operations. As a result of these and other economic uncertainties, we have experienced and may continue to experience changes in booking trends including guest reservations made much closer to the actual date of stay, a decrease in the length of stay, a decrease in consumer spending and/or a decrease in group bookings. We cannot predict what further impact these uncertainties may continue to have on overall travel and leisure or more specifically, on our guest visitation, guest spending or other related trends and the ultimate impact it will have on our results of operations. Additionally, the actual or perceived fear of weakness in the economy could also lead to decreased spending by our guests. This could be further exacerbated by the fact that we charge some of the highest prices for single day lift tickets and ancillary services in the ski industry; however, we offer pass products, including the Epic Day Pass, which are available at a discount to the single day lift ticket prices. In the event of a decrease in visitation and overall guest spending we may decide we need to offer a higher amount of discounts and incentives than we have historically, which would adversely impact our operating results. Our Resorts also serve as a destination for international guests. To the extent there are material changes in exchange rates relative to the U.S. dollar or travel restrictions in place due to inflation, geopolitical conflicts or uncertainties, health pandemics or other factors, it could impact the volume of international visitation, which could have a significant impact on our operating results.",
+    "Inflation increases the cost of goods we purchase and services we buy, the cost of capital projects and wages and benefits for our workforce. Although we may take measures to mitigate the impact of inflation through pricing actions or cost reduction measures, if we are not able to offset inflationary costs, our results of operations will be negatively impacted and possibly in a material manner. As a result, the impact of high and prolonged inflation could have a material adverse effect on our business, financial condition, or results of operations. Inflationary pressures also increase the cost of living and cost of travel, which decreases consumers' disposable income and could impact our guests' discretionary spending habits or willingness to visit our Resorts, which could reduce customer demand for the products and services that we offer and negatively impact our financial condition or our results of operations. In addition, the existence of inflation in certain economies has resulted in, and may continue to result in, elevated interest rates. For example, while the U.S. Federal Reserve cut the federal funds rate three times in 2024 by a total of 100 basis points, the U.S. Federal Reserve held rates steady following their January 2025 meeting. As a result, it remains to be seen whether interest rates will stabilize, increase or decrease, either globally or in the United States specifically. Our business could be adversely impacted by increases in the cost of borrowing from elevated interest rates. Elevated interest rates increase the borrowing costs on new debt, including debt we may refinance, as well as any existing variable rate indebtedness, and could affect the fair value of our investments.",
+    "Our ability to attract guests to our Resorts is partly influenced by weather conditions and by the amount and timing of snowfall during the ski season. Unfavorable weather conditions can adversely affect skier visits and our revenue and profits. Unseasonably warm weather may result in inadequate natural snowfall and reduce skiable terrain, which increases the cost of snowmaking and could render snowmaking, wholly or partially, ineffective in maintaining quality skiing conditions, including in areas which are not accessible by snowmaking equipment. On the other hand, excessive natural snowfall may significantly increase the costs incurred to groom trails and may make it difficult for guests to access our Resorts.",
+    "Additionally, there is scientific research that emissions of greenhouse gases continue to alter the composition of the global atmosphere in ways that are affecting and are expected to continue affecting the global climate. The effect of climate change, including any impact of global warming, could have a material adverse effect on our results of operations as a result of decreased snowfall, increased weather variability and/or warmer overall temperatures, which could adversely affect skier visits and our revenue and profits. Revenues and profits generated from mountain summer activities/sightseeing and golf peak season operations are not nearly sufficient to off-set off-season losses from our other mountain and lodging operations. This impact could be exacerbated by climate change.",
+    "There can be no assurance that our Resorts will receive seasonal snowfalls near their historical averages. An example of weather variability was observed throughout the 2023/2024 North American ski season, where significant weather-related challenges disrupted operating days and impacted demand, including lower snowfall for the full winter season compared to the prior year period across our western North American resorts and limited natural snow and variable temperatures at our Eastern U.S. resorts (comprising the Midwest, Mid-Atlantic, and Northeast). Past ski season snowfall levels or consistency of snow conditions can impact sales of pass products or other advanced bookings. Additionally, the early season snow conditions and skier perceptions of early season snow conditions can influence the momentum and success of the overall ski season. Unfavorable weather conditions can adversely affect our Resorts and lodging properties as guests tend to delay or postpone vacations if conditions differ from those that are typical at such Resorts for a given season. Although we have created geographic diversification to help mitigate the impact of weather variability, there is no way for us to predict future weather patterns or the impact that weather patterns may have on our results of operations or visitation."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Mountain Segment",
+    "Lodging Segment",
+    "Real Estate Segment",
+    "Recent Trends, Risks and Uncertainties",
+    "Results of Operations",
+    "Year ended July 31,",
+    "Year ended July 31, Increase/(Decrease)",
+    "Fiscal 2025 compared to Fiscal 2024",
+    "Year ended July 31, Percentage Increase/(Decrease)",
+    "Reconciliation of Non-GAAP Measures",
+    "Liquidity and Capital Resources",
+    "Significant Sources of Cash",
+    "Significant Uses of Cash",
+    "Payments Due by Period",
+    "Fiscal 2-3 4-5 More than",
+    "Total 2026 years years 5 years",
+    "Covenants and Limitations"
+   ],
+   "paragraphs": [
+    "The following Management's Discussion and Analysis of Financial Condition and Results of Operations (\"MD&A\") should be read in conjunction with the Consolidated Financial Statements and notes related thereto included in this Form 10-K. To the extent that the following MD&A contains statements which are not of a historical nature, such statements are forward-looking statements which involve risks and uncertainties. These risks include, but are not limited to, those discussed in Item 1A. \"Risk Factors\" in this Form 10-K. The following discussion and analysis should be read in conjunction with the Forward-Looking Statements section and Item 1A. \"Risk Factors,\" each included in this Form 10-K.",
+    "The MD&A includes discussion of financial performance within each of our three segments. We have chosen to specifically include segment Reported EBITDA (defined as segment net revenue less segment operating expense, plus segment equity investment income or loss, and for the Real Estate segment, plus gain or loss on sale of real property) in the following discussion because we consider this measurement to be a significant indication of our financial performance. We utilize segment Reported EBITDA in evaluating our performance and in allocating resources to our segments. Net Debt (defined as long-term debt, net plus long-term debt due within one year less cash and cash equivalents) is included in the following discussion because we consider this measurement to be a significant indication of our available capital resources. We also believe that Net Debt is an important measurement as it is an indicator of our ability to obtain additional capital resources for our future cash needs. Resort Reported EBITDA (defined as the combination of segment Reported EBITDA of our Mountain and Lodging segments), Total Reported EBITDA (which is Resort Reported EBITDA plus segment Reported EBITDA from our Real Estate segment) and Net Debt are not measures of financial performance or liquidity defined under accounting principles generally accepted in the United States (\"GAAP\"). Refer to the end of the Results of Operations section for a",
+    "reconciliation of net income attributable to Vail Resorts, Inc. to Total Reported EBITDA and Resort Reported EBITDA, and long-term debt, net to Net Debt.",
+    "Items excluded from Resort Reported EBITDA, Total Reported EBITDA and Net Debt are significant components in understanding and assessing financial performance or liquidity. Resort Reported EBITDA, Total Reported EBITDA and Net Debt should not be considered in isolation or as an alternative to, or substitute for, net income, net change in cash and cash equivalents or other financial statement data presented in the Consolidated Financial Statements. Because Resort Reported EBITDA, Total Reported EBITDA and Net Debt are not measurements determined in accordance with GAAP and are thus susceptible to varying calculations, Resort Reported EBITDA, Total Reported EBITDA and Net Debt, as presented herein, may not be comparable to other similarly titled measures of other companies. In addition, our segment Reported EBITDA (i.e. Mountain, Lodging and Real Estate), the measure of segment profit or loss required to be disclosed in accordance with GAAP, may not be comparable to other similarly titled measures of other companies.",
+    "Our operations are grouped into three integrated and interdependent segments: Mountain, Lodging and Real Estate. We refer to \"Resort\" as the combination of the Mountain and Lodging segments. The Mountain, Lodging and Real Estate segments represented approximately 89%, 11% and 0%, respectively, of our net revenue for Fiscal 2025.",
+    "In the Mountain segment, the Company operates the following 42 destination mountain resorts and regional ski areas (collectively, \"Resorts\"):",
+    "*Denotes a destination mountain resort, which generally receives a meaningful portion of skier visits from long-distance travelers, as opposed to our regional ski areas, which tend to generate skier visits predominantly from their respective local markets.",
+    "Additionally, we operate ancillary services, primarily including ski school, dining and retail/rental operations, and for our Australian ski areas, including lodging and transportation operations. Mountain segment revenue is seasonal, with the majority of revenue earned from our North American and European ski operations occurring in our second and third fiscal quarters and the majority of revenue earned from our Australian ski operations occurring in our first and fourth fiscal quarters. Our North American and European Resorts typically experience their peak operating season for the Mountain segment from mid-December through mid-April, and our Australian ski areas typically experience their peak operating season from June to early October. Our largest source of Mountain segment revenue comes from the sale of lift tickets (including pass products), which represented approximately 57%, 57% and 56% of Mountain segment net revenue for Fiscal 2025, the fiscal year ended July 31, 2024 (\"Fiscal 2024\") and the fiscal year ended July 31, 2023 (\"Fiscal 2023\"), respectively.",
+    "Lift revenue is driven by volume and pricing. Pricing is impacted by absolute pricing, as well as both the demographic and geographic mix of guests, which impacts the price points at which various products are purchased. The demographic mix of guests that visit our North American Resorts is divided into two primary categories: (i) out-of-state and international (\"Destination\") guests and (ii) in-state and local (\"Local\") guests. The geographic mix depends on levels of visitation to our destination mountain resorts versus our regional ski areas. For the 2024/2025 North American ski seasons, Destination guests comprised approximately 56% of our North American destination mountain resort skier visits (excluding complimentary access), while Local guests comprised approximately 44%. For both the 2023/2024 and 2022/2023 North American ski seasons, Destination guests comprised approximately 57% of our North American destination mountain resort skier visits (excluding complimentary access), while Local guests comprised approximately 43%. Skier visitation at our regional ski areas is largely comprised of Local guests. Destination guests generally utilize more ancillary services such as ski school, dining and retail/rental, as well as lodging at or around our mountain resorts. Additionally, Destination guest visitation is less likely to be impacted by changes in the weather during the current season, but may be more impacted by adverse economic conditions, the global geopolitical climate, travel disruptions or weather conditions in the immediately preceding ski season. Local guests tend to be more value-oriented and weather-sensitive.",
+    "We offer a variety of pass products for all of our Resorts, marketed toward both Destination and Local guests. Our pass product offerings range from providing access to one or a combination of our Resorts for a certain number of days to our Epic Pass, which allows pass holders unlimited and unrestricted access to all of our Resorts. The Epic Day Pass is a customizable one to seven day pass product purchased in advance of the season, for those skiers and riders who want to purchase access for a certain number of days during the season, and which is available in three tiers of resort access offerings. Our pass products provide a compelling value proposition to our guests, which in turn assists us in developing a loyal base of customers who commit to ski at our Resorts generally in advance of the ski season and typically ski more days each season at our Resorts than those guests who do not buy pass products. Additionally, we enter into strategic long-term pass alliance agreements with third-party mountain resorts, which further increase the value proposition of our pass products. For the 2025/2026 ski season, our pass alliances include Telluride Ski Resort in Colorado, Hakuba Valley and Rusutsu Resort in Japan, Resorts of the Canadian Rockies in Canada, Les 3 Vallées in France, Disentis Ski Area and Verbier 4 Vallées in Switzerland, Skirama Dolomiti in Italy and Ski Arlberg, Sölden, Saalbach and Zell am See-Kaprum, Mayrhofen and Hintertux and Silvretta Montafon in Austria. Our pass program drives strong customer loyalty; mitigates exposure to more weather sensitive guests; generates additional ancillary spending; and provides cash flow in advance of winter season operations. In addition, our pass program attracts new guests to our Resorts. All of our pass products, including the Epic Pass and Epic Day Pass, are predominately sold prior to the start of the ski season. Pass product revenue, although primarily collected prior to the ski season, is recognized in our Consolidated Statements of Operations throughout the ski season on a straight-line basis using the number of skiable days of the season-to-date period relative to the total estimated number of skiable days of the season.",
+    "Lift revenue consists of pass product lift revenue (\"pass revenue\") and non-pass product lift revenue (\"non-pass revenue\"). Approximately 65%, 65% and 61% of total lift revenue was derived from pass revenue for Fiscal 2025, Fiscal 2024 and Fiscal 2023, respectively.",
+    "The cost structure of our mountain resort operations has a significant fixed component with variable expenses including, but not limited to, land use permit or lease fees, credit card fees, retail/rental cost of sales and labor, ski school labor and expenses associated with our dining operations; as such, profit margins can fluctuate greatly based on the level of revenues.",
+    "Operations within the Lodging segment include: (i) ownership/management of a group of luxury hotels through the RockResorts brand proximate to our Colorado and Utah mountain resorts; (ii) ownership/management of non-RockResorts branded hotels and condominiums proximate to our North American Resorts; (iii) National Park Service (\"NPS\") concessioner properties, including the Grand Teton Lodge Company (\"GTLC\"); (iv) a Colorado resort ground transportation company; and (v) mountain resort golf courses.",
+    "The performance of our lodging properties (including managed condominium rooms) proximate to our Resorts, and our Colorado resort ground transportation company, are closely aligned with the performance of the Mountain segment and generally experience similar seasonal trends, particularly with respect to visitation by Destination guests. Revenues from such properties represented approximately 66%, 68% and 71% of Lodging segment net revenue (excluding Lodging segment revenue associated with the reimbursement of payroll costs) for Fiscal 2025, Fiscal 2024 and Fiscal 2023, respectively. Management primarily focuses on Lodging net revenue excluding payroll cost reimbursements and Lodging operating expense excluding reimbursed payroll costs (which are not measures of financial performance under GAAP) as the reimbursements are made based upon the costs incurred with no added margin and as such, the revenue and corresponding expense do not affect our Lodging Reported EBITDA, which we use to evaluate Lodging segment performance. Revenue of the Lodging segment during our first and fourth fiscal quarters is generated primarily by the operations of our NPS concessioner properties (as their peak operating season generally occurs during the months of June to October), as well as golf operations and seasonally low operations from our other owned and managed properties and businesses."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "Mountain Segment",
+    "Destination Mountain Resorts",
+    "Regional Ski Areas",
+    "Lodging Segment",
+    "Real Estate Segment",
+    "Marketing and Sales",
+    "Sustainability & Social Responsibility",
+    "Human Capital Management"
+   ],
+   "paragraphs": [
+    "Vail Resorts, Inc., 連同其子公司，於本文件中均稱為 \"we,\" \"us,\" \"our\" 或 the \"Company.\"",
+    "Vail Resorts, Inc., 係一間 Delaware 公司，於 1997 年設立為控股公司，並透過各子公司運作。我們的業務分為三個應報告分部：Mountain、Lodging and Real Estate，分別約佔我們於財務年度終止於 2025 年 7 月 31 日（\"Fiscal 2025\"）的淨銷售額約 89%、11% 和 0%。",
+    "我們的 Mountain 分部運作 42 個世界級的度假山區度假勝地及區域滑雪場（合稱為 \"Resorts\"）。此外，Mountain 分部還包括輔助服務，主要為滑雪學校、餐飲及零售/租賃業務。",
+    "在 Lodging 分部，我們擁有及/或管理一系列豪華酒店及別墅，品牌為 RockResorts，其他戰略性住宿設施，以及大量位於我們北美山區度假勝地附近的別墅，包括國家公園服務處（\"NPS\"）的經營權設施，如 Grand Teton Lodge Company（\"GTLC\"），經營位於 Grand Teton 國家公園的度假勝地，一間科羅拉多州的度假勝地地面交通公司，以及山區度假勝地的高爾夫球場。",
+    "我們將 \"Resort\" 定義為 Mountain 與 Lodging 分部的組合。我們的 Real Estate 分部擁有、開發及銷售位於我們度假勝地社區附近的不動產。",
+    "有關財務資訊及其他關於本公司分部及地理區域的資訊，請參閱第 7 項 \"管理層對財務狀況與營運成果之分析\" 及第 8 項 \"財務報表與補充資料\"。",
+    "在 Mountain 分部，本公司運作以下 42 個度假山區度假勝地及區域滑雪場，包括 2024/2025 北美洲滑雪季中美國前十大最受歡迎滑雪場中的五個：",
+    "*標註為度假山區度假勝地，通常會從長距離旅客獲得相當多的滑雪者訪問，與我們的區域滑雪場不同，後者主要來自各自當地市場的滑雪者訪問。",
+    "本公司 Mountain 分部透過銷售索道票券，包括通票產品，以及提供給旅客的完整設施服務，包括滑雪與單板滑雪課程、裝備租賃與零售商品銷售、多種用餐場所、私人俱樂部營運及其他冬季與夏季休閒活動來獲取營業收入。此外，本公司也將部分自有及租賃的商業空間出租給第三方營運者，以增加位於滑雪場基地的設施組閤中獨特的餐廳與零售商店。",
+    "許多本公司目的地滑雪山區度假村全年營運，並為具有吸引人人口結構的多樣化客羣提供完整的度假體驗。本公司提供廣泛的冬季與夏季休閒活動，包括滑雪、單板滑雪、雪鞋行走、雪管、觀光、山地自行車、導覽健行、高空滑索、挑戰繩索課程、高山滑道、山地觀光小火車、兒童活動及其他休閒活動。總體而言，本公司 Resorts 位於約 1.1 億人口的都會區附近。",
+    "Rocky Mountains（科羅拉多州與猶他州的度假村）",
+    "•Vail Mountain Resort（\"Vail Mountain\"）- 2024/2025 冬季滑雪季節中美國第二受歡迎的滑雪山區度假村（\"U.S.\"）。Vail Mountain 提供北美最廣闊且多樣的滑雪地形，約 5,300 英畝可滑雪面積，包括七個世界聞名的後坡地形與 Vail Mountain 的 Blue Sky Basin。",
+    "•Breckenridge Ski Resort（\"Breckenridge\"）- 2024/2025 冬季滑雪季節中美國最受歡迎的滑雪山區度假村，擁有五座相互連接的山峯，提供適合所有滑雪等級的廣闊多樣地形，包括樹線以上的中級與高級地形，以及獲得獎項的地形公園。",
+    "•Park City Resort（\"Park City\"）- 2024/2025 冬季滑雪季節中美國第四受歡迎的滑雪山區度假村，也是美國面積最大的滑雪山區度假村。Park City 提供 7,300 英畝可滑雪面積，包含適合所有滑雪者與單板滑雪者的多樣地形。2024 年，國際奧委會選定鹽湖城為 2034 年冬季奧運會的主辦城市，並將 Park City 設定為某些競賽的官方場地。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "Mountain Segment",
+    "Lodging Segment",
+    "Real Estate Segment",
+    "近期趨勢、風險與不確定性",
+    "營運成果",
+    "截至7月31日之會計年度",
+    "截至7月31日之會計年度，增加/(減少)",
+    "財務2025年與財務2024年比較",
+    "會計年度截至7月31日，增幅/減幅百分比",
+    "非GAAP指標之彙總",
+    "流動性及資本資源",
+    "重大現金來源",
+    "重大現金運用",
+    "按期間應支付之款項",
+    "會計年度2-3 4-5 5年以上",
+    "總計2026年 年 年",
+    "契約與限制"
+   ],
+   "paragraphs": [
+    "下列的管理層討論與分析（\"MD&A\"）應與本Form 10-K所附的合併財務報表及其相關附註一併閱讀。就本MD&A中包含非歷史性陳述之部分，這些陳述為預測性陳述，涉及風險與不確定性。這些風險包括但不限於本Form 10-K第1A項\"風險因素\"所討論的風險。下列討論與分析應與本Form 10-K所包含的預測性陳述部分及第1A項\"風險因素\"一併閱讀。",
+    "MD&A包含針對我們三個應報告分部之財務表現之討論。我們選擇在下列討論中特別包含各分部之 Reported EBITDA（定義為各分部之淨營收減去各分部之營運費用，加上各分部之權益投資收入或損失，且對於不動產分部，再加上不動產買賣之損益），因為我們認為此衡量指標為我們財務表現的重要指標。我們在評估我們的表現及將資源分配至各分部時，會使用各分部之 Reported EBITDA。淨負債（定義為長期負債淨額加上一年內到期之長期負債減去現金及現金等價物）包含在下列討論中，因為我們認為此衡量指標為我們可用資本資源的重要指標。我們也認為淨負債為重要衡量指標，因為其為我們取得未來現金需求之額外資本資源能力的指標。度假村 Reported EBITDA（定義為我們山區及住宿分部之 Reported EBITDA 總和）、總 Reported EBITDA（即度假村 Reported EBITDA 加上我們不動產分部之 Reported EBITDA）及淨負債，並非根據美國通用會計準則（\"GAAP\"）所定義的財務表現或流動性衡量指標。請參閱營運結果部分末尾的",
+    "淨收入歸屬於 Vail Resorts, Inc. 與總報告 EBITDA 及度假村報告 EBITDA，以及長期負債淨額與淨負債的關係說明。",
+    "未包含於度假村報告 EBITDA、總報告 EBITDA 及淨負債的項目，是理解與評估財務表現或流動性的重要零組件。度假村報告 EBITDA、總報告 EBITDA 及淨負債不應孤立考量，也不應作為淨收入、現金及現金等價物的淨變動或其他財務報表資料的替代或替代指標。由於度假村報告 EBITDA、總報告 EBITDA 及淨負債並非依照 GAAP 規定的衡量標準，且可能因計算方式不同而有所差異，因此 herein 所呈現的度假村報告 EBITDA、總報告 EBITDA 及淨負債，可能與其他公司相同名稱的衡量指標不具可比性。此外，我們的應報告分部 EBITDA（即山區、住宿及不動產），為依 GAAP 規定必須揭露的分部利潤或虧損衡量指標，可能與其他公司相同名稱的衡量指標不具可比性。",
+    "本公司之營運分為三個整合且相互依存之應報告分部：Mountain、Lodging 及 Real Estate。我們將 \"Resort\" 定義為 Mountain 與 Lodging 分部之組合。Mountain、Lodging 及 Real Estate 分部分別約佔本公司 Fiscal 2025 淨銷售額之 89%、11% 及 0%。",
+    "在 Mountain 分部，本公司經營以下 42 個目的地山區度假村及區域滑雪場（合稱為 \"Resorts\"）：",
+    "*表示為目的地山區度假村，通常會從長途旅客獲得相當多的滑雪者造訪，與我們之區域滑雪場不同，後者主要來自各自當地市場之滑雪者造訪。",
+    "此外，本公司亦經營輔助性服務，主要包括滑雪學校、餐飲及零售/租賃業務，對於澳洲之滑雪場，亦包括住宿及交通業務。Mountain 分部之營收為季節性，來自北美及歐洲滑雪業務之營收主要發生於本公司之第二及第三會計季，來自澳洲滑雪業務之營收則主要發生於第一及第四會計季。本公司之北美及歐洲 Resorts 通常於 12 月中旬至 4 月中旬為 Mountain 分部之高峯營運季節，而澳洲滑雪場則通常於 6 月至 10 月初為其高峯營運季節。本公司 Mountain 分部之主要營收來源為索道票（包括通行證產品）之銷售，該項目在 Fiscal 2025、財年結帳日為 2024 年 7 月 31 日（\"Fiscal 2024\"）及財年結帳日為 2023 年 7 月 31 日（\"Fiscal 2023\"）之 Mountain 分部淨銷售額中，分別約佔 57%、57% 及 56%。",
+    "營業收入受銷售量與價格影響。價格受絕對價格影響，同時也受訪客人口結構與地理分佈的影響，這會影響各產品的售價點。造訪我們北美度假村的訪客人口結構分為兩大類別：(i) 異地與國際旅客（\"目的地旅客\"）及 (ii) 異地與本地旅客（\"本地旅客\"）。地理分佈取決於訪問我們目的地山區度假村與區域滑雪場的訪客人數。於 2024/2025 北美滑雪季，目的地旅客佔我們北美目的地山區度假村滑雪訪客數（不含免費通行）約 56%，而本地旅客佔約 44%。於 2023/2024 及 2022/2023 北美滑雪季，目的地旅客佔我們北美目的地山區度假村滑雪訪客數（不含免費通行）約 57%，而本地旅客佔約 43%。我們區域滑雪場的滑雪訪客數主要由本地旅客組成。目的地旅客通常會使用更多附加服務，例如滑雪課程、餐飲與零售/租賃，以及在或附近我們山區度假村的住宿。此外，目的地旅客的訪問較不受當季天氣變化的影響，但可能更受不利經濟狀況、全球地緣政治環境、旅行中斷或前一季天氣條件的影響。本地旅客傾向更注重價值與天氣敏感。",
+    "我們為所有度假村提供多種通行產品，針對目的地旅客與本地旅客進行市場推廣。我們的通行產品從提供訪問一個或幾個度假村的特定天數，到我們的 Epic Pass，允許通行者無限制且不受限地訪問所有度假村。Epic Day Pass 是一種可自訂的 1 到 7 天通行產品，於滑雪季前購買，供那些希望在滑雪季內購買特定天數通行權的滑雪者與騎士使用，並提供三種不同度假村訪問權的選擇。我們的通行產品為訪客提供強大的價值主張，這有助於我們建立忠實的客戶羣，這些客戶通常會在滑雪季前就承諾在度假村滑雪，且每季滑雪的天數通常多於未購買通行產品的訪客。此外，我們與第三方山區度假村簽訂戰略長期通行合作協議，進一步提高我們通行產品的價值。於 2025/2026 滑雪季，我們的通行合作協議包括科羅拉多州的 Telluride Ski Resort、日本的 Hakuba Valley 和 Rusutsu Resort、加拿大的 Resorts of the Canadian Rockies、法國的 Les 3 Vallées、瑞士的 Disentis Ski Area 和 Verbier 4 Vallées、義大利的 Skirama Dolomiti、奧地利的 Ski Arlberg、Sölden、Saalbach 和 Zell am See-Kaprum、Mayrhofen 和 Hintertux 和 Silvretta Montafon。我們的通行計畫促進強大的客戶忠誠度；降低對天氣敏感訪客的風險；產生額外的附加支出；並在冬季運營前提供現金流。此外，我們的通行計畫吸引新訪客至我們的度假村。我們所有的通行產品，包括 Epic Pass 和 Epic Day Pass，主要在滑雪季開始前銷售。通行產品收入雖然主要在滑雪季前收取，但會在我們合併財務狀況表中於滑雪季內按直線法確認，根據當前滑雪季的實際可滑雪天數與預估總可滑雪天數的比例。",
+    "升降梯收入包括通行產品升降梯收入（\"通行收入\"）與非通行產品升降梯收入（\"非通行收入\"）。於會計年度 2025、2024 和 2023，總升降梯收入約有 65%、65% 和 61% 來自通行收入。",
+    "我們山區度假村運營的成本結構有顯著的固定成本，變動成本包括但不限於土地使用許可或租賃費用、信用卡費用、零售/租賃銷售成本與勞動成本、滑雪課程勞動成本以及我們餐飲運營的相關費用；因此，利潤率會根據收入水平大幅波動。",
+    "住宿部門的運營包括：(i) 透過 RockResorts 品牌經營/管理位於科羅拉多州與猶他州山區度假村附近的豪華酒店；(ii) 經營/管理非 RockResorts 品牌的酒店與別墅，位於我們北美度假村附近；(iii) 國家公園管理局（\"NPS\"）的承包商財產，包括 Grand Teton Lodge Company（\"GTLC\"）；(iv) 位於科羅拉多州的度假村地面運輸公司；以及 (v) 山區度假村的高爾夫球場。",
+    "我們位於度假村附近的住宿財產（包括管理的別墅房間）與科羅拉多州度假村地面運輸公司的表現與山區部門緊密相關，通常經歷相似的季節性趨勢，特別是與目的地旅客的訪問情況。來自這些財產的收入在會計年度 2025、2024 和 2023 分別佔住宿部門淨銷售額（扣除與 payroll 成本相關的收入）約 66%、68% 和 71%。管理層主要關注住宿部門淨銷售額扣除 payroll 成本補償，以及住宿運營費用扣除補償的 payroll 成本（這些並非 GAAP 財務表現指標），因為補償是根據實際成本進行，不包含任何邊際利潤，因此收入與相應費用不會影響我們的住宿部門報告 EBITDA，我們用此來評估住宿部門表現。我們第一與第四會計季的住宿部門收入主要來自 NPS 承包商財產的運營（因其高峯運營季通常在 6 月至 10 月），以及高爾夫運營，以及我們其他自有與管理財產與業務的季節性低運營。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務相關的風險",
+    "我們面臨總體經濟條件持續疲軟的風險，包括對旅遊與休閒相關產業產生的不利影響。",
+    "我們可能因高或持續的通貨膨脹以及利率升高而受到負面影響。",
+    "我們易受不利天氣條件及天然災害的影響。",
+    "疫情及公共衛生緊急事件可能對我們的業務造成重大幹擾，並對我們的營運成果、現金流及財務狀況產生負面影響。",
+    "資訊科技系統及服務遭受網路攻擊或其他中斷或幹擾，可能影響我們的業務。",
+    "未能維護內部、員工或顧客資料的完整性和安全性，可能導致我們聲譽受損，並使我們面臨成本、罰款或訴訟的風險。",
+    "我們的業務具有高度季節性。",
+    "我們面臨著激烈的競爭。",
+    "山區度假村營運的高固定成本結構，若營收下降，可能會導致顯著較低的毛利率。",
+    "我們可能無法籌措度假村資本支出所需資金，或準確辨識、預測某些資本支出的必要性與時機，這可能會對我們的業務造成不利影響。",
+    "我們供水系統若發生中斷，將影響我們的造雪能力與營運。",
+    "我們的美國度假村依賴各類政府許可與地主批准。",
+    "我們的國際度假村依賴外國政府租約與地主批准，並受相關法律與法規所規範。",
+    "我們所進行的資源效率轉型計畫，可能無法達到預期的結果。",
+    "我們在日常營運中，需遵守嚴格的環境與健康安全法律與法規。",
+    "我們依賴資訊科技來運作我們的業務並維持我們的競爭力，且任何未能適應科技發展或產業趨勢的情況，可能會對我們的業務或競爭地位造成損害。",
+    "我們的併購可能不會成功。",
+    "我們面臨與目前及潛在國際業務及資產相關的額外風險。",
+    "貨幣兌換率波動可能導致顯著的外幣損益，並影響我們的營運結果。",
+    "我們需遵守多個司法管轄區域的稅法及規範，且這些法律及規範的變更或解釋，或稅務機關不利的裁定，可能會對我們造成不利影響。"
+   ],
+   "paragraphs": [
+    "本公司之營運及財務表現受多種風險與不確定因素影響，這些因素可能對本公司之財務狀況、營運成果及現金流產生負面影響。下列所描述之風險應與本報告中其他資訊一併審慎考量。",
+    "滑雪、旅遊與觀光為一種可選擇性之休閒活動，其參與成本相對較高，可能因經濟減速或衰退而受到不利影響。北美、歐洲及世界其他部分地區之經濟狀況，包括通貨膨脹壓力、利率偏高、供應鏈中斷、關稅與貿易爭議、商品價格波動、地緣政治衝突與不確定性、勞動成本增加與短缺、燃料價格上升、失業率高、消費者信心減退、健康大流行、主權債務問題及全球市場之財務不穩定等因素，可能對旅遊與休閒產業及本公司之營運成果產生負面影響。由於這些及其他經濟不確定性，本公司已經驗過並可能持續經驗預訂趨勢之變化，包括旅客預訂日期與實際住宿日期相距較近、住宿天數減少、消費者支出減少及/或團體預訂減少。本公司無法預測這些不確定性可能對整體旅遊與休閒產業或更明確地對本公司之旅客訪問數、旅客支出或其他相關趨勢產生何種進一步影響，以及最終對本公司營運成果產生何種影響。此外，實際或被認為經濟狀況不佳之擔憂，也可能導致本公司旅客之支出減少。此情況可能因本公司對單日索道票及附加服務收取部分最高價格而進一步惡化；然而，本公司提供包括Epic Day Pass在內之通行產品，其價格較單日索道票為優惠。若發生旅客訪問數減少及整體旅客支出減少之情況，本公司可能決定需提供較以往更高之折扣與激勵措施，這將對本公司營運成果產生負面影響。本公司之度假村亦為國際旅客之目的地。若發生與美元相對之匯率重大變動或因通貨膨脹、地緣政治衝突或不確定性、健康大流行或其他因素所導致之旅行限制，可能影響國際旅客訪問數量，這可能對本公司營運成果產生重大影響。",
+    "通貨膨脹會提高本公司所購買之商品與服務、資本工程及員工薪資與福利之成本。雖然本公司可能透過價格調整或成本削減措施來緩解通貨膨脹之影響，但若本公司無法抵銷通貨膨脹成本，則營運成果將受到負面影響，甚至可能產生重大影響。因此，高且持續之通貨膨脹可能對本公司之業務、財務狀況或營運成果產生重大負面影響。通貨膨脹壓力也會提高生活成本與旅行成本，這會減少消費者之可支配所得，並可能影響本公司旅客之可選擇性支出習慣或造訪本公司度假村之意願，這可能會減少消費者對本公司所提供產品與服務之需求，並對本公司之財務狀況或營運成果產生負面影響。此外，某些經濟體中之通貨膨脹現象已導致，且可能繼續導致利率偏高。例如，雖然美國聯邦儲備委員會在2024年已將隔夜拆款利率調降三次，總計調降100個基點，但美國聯邦儲備委員會在2025年1月會議後維持利率不變。因此，利率是否會穩定、上升或下降，無論是全球範圍或美國特定地區，仍有待觀察。本公司之業務可能因借款成本因利率上升而受到負面影響。利率偏高會提高新債務之借款成本，包括本公司可能重新融資之債務，以及任何現有變動利率債務，並可能影響本公司投資之公允價值。",
+    "本公司吸引旅客造訪度假村之能力部分受天氣狀況及滑雪季節期間降雪量與時間之影響。不利天氣狀況可能對滑雪旅客數量及本公司之營收與利潤產生負面影響。異常暖和之天氣可能導致自然降雪不足，減少可滑雪地形，這會提高造雪成本，並可能使造雪在維持優質滑雪條件方面，完全或部分失效，包括在無法使用造雪設備之地區。另一方面，過度自然降雪可能顯著增加修剪步道之成本，並可能使旅客難以造訪本公司之度假村。",
+    "此外，科學研究顯示溫室氣體排放持續改變全球大氣組成，影響並預期繼續影響全球氣候。氣候變遷，包括任何全球變暖之影響，可能因降雪減少、天氣變異性增加及/或整體溫度上升，對本公司營運成果產生重大負面影響，這可能導致滑雪旅客數量減少，並影響本公司之營收與利潤。來自山地夏季活動/觀光及高爾夫旺季營運所產生之營收與利潤，遠不足以彌補其他山地及住宿營運之淡季損失。此影響可能因氣候變遷而進一步惡化。",
+    "本公司無法保證其度假村將獲得接近歷史平均之季節性降雪。2023/2024北美滑雪季期間，觀察到天氣變異性之範例，其中因天氣相關挑戰而中斷營運日數，並影響需求，包括與前一年同期相比，本公司西部北美度假村整季降雪量較少，以及東部美國度假村（包含中西部、中大西洋及東北部）自然降雪不足及溫度變動。過去滑雪季之降雪量或降雪條件之一致性可能影響通行產品之銷售或其他預訂。此外，開季初期之降雪條件及滑雪者對開季初期降雪條件之看法，可能影響整體滑雪季之動能與成功程度。不利天氣條件可能對本公司之度假村及住宿設施產生負面影響，因旅客傾向延後或取消假期，若條件與該季該度假村之典型條件不同。雖然本公司已建立地理分散以協助緩解天氣變異性之影響，但本公司無法預測未來天氣模式或天氣模式對本公司營運成果或訪問數之影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

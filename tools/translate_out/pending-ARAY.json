@@ -1,0 +1,134 @@
+{
+ "ticker": "ARAY",
+ "cik": "0001138723",
+ "accession": "0001437749-26-029098",
+ "form": "10-K",
+ "reportDate": "2026-06-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Strategy",
+    "Our Products",
+    "Robotic Radiation Delivery Solutions",
+    "Imaging sources. The low energy X‑ray sources generate the images that help determine the location of bony or other anatomic landmarks, or implanted fiducials, which are used for tracking throughout the entire treatment.",
+    "Synchrony Skull, Spine and Lung Tracking Systems. The Synchrony Skull, Spine and Lung Tracking Systems allow for tracking of tumors without the need for implanted markers in the skull, spine and the lung.",
+    "Lung Optimized Treatment. An integrated suite of tools designed to support fiducial-free lung tracking and non-invasive lung SBRT treatments.",
+    "Fixed Collimators. The Fixed Collimators enable delivery of beams in 12 unique sizes with 12 different collimators, usually used for radiosurgery.",
+    "Helical Radiation Delivery Solutions",
+    "Our Software Solutions",
+    "Accuray Precision Treatment Planning.",
+    "Total Quality Assurance (TQA™) package. The TQA application offers trending and reporting of system and dosimetric parameters designed to support monitoring of selected helical system performance.",
+    "Sales and Marketing",
+    "Manufacturing",
+    "Intellectual Property",
+    "Research and Development",
+    "U.S. Reimbursement"
+   ],
+   "paragraphs": [
+    "Accuray Incorporated is a radiation therapy company that develops, manufactures, sells and supports treatment delivery, planning, imaging and data management solutions designed to help clinical teams deliver precise radiation treatments across a broad range of clinical cases. Our portfolio includes the CyberKnife robotic platform and a differentiated helical portfolio that includes the Accuray Stellar, Radixact, Accuray Helix and Tomo C Systems, where available. We believe these solutions provide clinicians with advanced capabilities to support accuracy, flexibility, motion management, image guidance, adaptive workflows and personalized treatment delivery.",
+    "Our solutions are designed to support clinical teams during individual treatments, across the treatment workflow and throughout the patient treatment journey, from curative to palliative care. Across our robotic and helical platforms, our solutions include:",
+    "Radiation therapy systems with software-enabled motion management capabilities designed to support real-time adaptation of treatment delivery for targets that move during treatment.",
+    "Treatment planning software that enables clinicians to use the differentiated capabilities of Accuray systems to create high-quality treatment plans and support precise, efficient treatment delivery across a broad range of clinical cases.",
+    "ClearRT helical kVCT imaging technology, available on selected systems and configurations, designed to produce high-quality CT images efficiently, with imaging length capabilities of up to 135 cm on selected configurations, supporting broad anatomical visualization and adaptive treatment workflows.",
+    "Automated tools designed to help clinicians identify anatomical changes during a course of treatment, evaluate whether re-planning may be clinically beneficial and adapt radiation dose to support treatment plan objectives.",
+    "Software tools designed to support efficient retreatment planning by helping clinicians evaluate prior dose information, generate new treatment plans and assess cumulative dose for patients who have previously received radiation therapy.",
+    "System architecture that accommodates third-party surface guidance interfaces to support patient positioning, monitor positioning accuracy during treatment and enable deep inspiration breath hold (\"DIBH\") workflows for selected cancer treatments.",
+    "Our CyberKnife platform and helical portfolio, including Accuray Stellar, Radixact, Accuray Helix and Tomo C Systems, where available, are designed to support advanced radiation treatments such as SRS, SBRT, IMRT, IGRT and adaptive radiation therapy. These platforms are designed to support precise treatment delivery while helping clinicians manage dose to healthy tissue and organs at risk. The CyberKnife platform is also used by neurosurgeons for radiosurgery treatments involving brain and spine tumors, as well as selected neurologic and endocrine disorders, where clinically appropriate. We also provide related services, including customer support, installation, training and other professional services.",
+    "We were incorporated in California in 1990 and commenced operations in 1992. We reincorporated in Delaware in 2007. Our principal office in the United States is located in Madison, Wisconsin.",
+    "Our goal is to develop equipment and technology that help clinicians deliver precise, customized radiation treatments for patients with cancerous or benign tumors, as well as selected neurologic or endocrine disorders, where clinically appropriate. We endeavor to achieve this goal by expanding the clinical and operational options available to healthcare providers and by positioning our portfolio to address a range of customer needs, clinical priorities and market access requirements. Our strategy includes continued adoption of the CyberKnife robotic platform and a differentiated helical portfolio, with Accuray Stellar positioned for adaptive radiotherapy, the Radixact System positioned as a flexible tailored solution, and Accuray Helix positioned as an entry point into the helical portfolio. Some of the key elements of our strategy include the following:",
+    "Increase physician adoption and patient awareness to drive utilization. We are continually working to increase adoption and awareness of our systems and educate clinicians and patients regarding their capabilities and clinical applications. We hold and sponsor symposia and educational meetings and support clinical studies that evaluate the use and potential benefits of our systems. We regularly meet with clinicians to discuss the versatility of our systems and how they may be used in appropriate clinical settings. We are also expanding our digital and social presence to reach and educate a broader audience of physicians and patients. To support awareness of our product offerings, we provide our customers with tools to develop marketing and educational campaigns for their communities.",
+    "Continue to expand the radiosurgery market. The CyberKnife System is a robotic radiosurgery system designed to treat tumors throughout the body. Published literature supports the use of the CyberKnife System in the treatment of various targets, including selected cancers, benign tumors and functional indications, where clinically appropriate. The CyberKnife System is used by both radiation oncologists and neurosurgeons, supporting cross-departmental utilization in hospitals and cancer centers. This multi-specialty use may help customers evaluate the clinical, operational and economic value of the platform when making capital equipment decisions. With more than 30 years of clinical experience, the CyberKnife System supports radiosurgery applications involving the head, base of skull and spine, where treatment accuracy is important due to the proximity of tumors or targets to critical structures.",
+    "Continue to innovate through clinical development and collaboration. The development and use of our products are supported by collaboration with clinicians, researchers and other partners. We seek feedback from system users to understand customer needs and to inform product development priorities. We continue to refine and upgrade our systems, including treatment delivery, imaging, motion management, treatment planning, adaptive workflow and data management capabilities. These efforts are designed to address customer needs, improve ease of use, support workflow efficiency and strengthen the differentiation of our robotic and helical platforms."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Summary",
+    "Risks related to our business and results of operations",
+    "Risks related to the regulation of our products and business",
+    "Risks related to our common stock",
+    "Risks Related to our Financing Transaction",
+    "General Risks",
+    "Risk Factors",
+    "Risks Related to Our Business and Results of Operations",
+    "If the CyberKnife or TomoTherapy platforms do not achieve widespread market acceptance, we will not be able to generate the revenue necessary to support our business.",
+    "Our ability to achieve profitability depends in part on maintaining or increasing our gross margins on product sales and services, which we may not be able to achieve.",
+    "Our operating results, including our cash flows, quarterly orders, revenues and margins fluctuate from quarter to quarter and may be unpredictable.",
+    "We are subject to risks arising from our international operations, which may adversely affect our business, financial condition, and results of operations."
+   ],
+   "paragraphs": [
+    "Our business is subject to numerous risks and uncertainties, including those highlighted in Part I, Item 1A titled \"Risk Factors.\" These risks include, but are not limited to, the following:",
+    "We face risks related to the current global economic environment, which could adversely affect our business, financial condition and results of operations.",
+    "If our products do not achieve widespread market acceptance, we will not be able to generate the revenue necessary to support our business.",
+    "Our ability to achieve profitability depends in part on maintaining or increasing our gross margins on product sales and services, which we may not be able to achieve.",
+    "We have substantial indebtedness and may incur other debt in the future, which may adversely affect our financial condition and future financial results. In the past, we have not been in compliance with certain financial covenants relating to our indebtedness and have been required to obtain waivers or amend existing agreements governing our indebtedness to avoid defaulting under such indebtedness.",
+    "Uncertainty or volatility in trade policy as well as enhanced international tariffs, including tariffs imposed by the United States and China that affect our products or components within our products, other trade barriers or a global trade war could decrease the volume of product sales in China and increase our costs and materially and adversely affect our business financial condition and results of operations."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司策略",
+    "本公司產品",
+    "機械人放射治療解決方案",
+    "影像來源。低能量 X‑射線來源會產生影像，用以協助確定骨頭或其他解剖學標記的位置，或植入式標記，這些標記會用於整個治療過程中的追蹤。",
+    "Synchrony 頭部、脊椎與肺部追蹤系統。Synchrony 頭部、脊椎與肺部追蹤系統可於不需植入標記的情況下，追蹤腫瘤。",
+    "肺部優化治療。一套整合工具，用以支援無標記肺部追蹤及非侵入式肺部 SBRT 治療。",
+    "固定散射體。固定散射體可於 12 種不同尺寸的光束中進行治療，通常用於放射手術。",
+    "螺旋放射治療解決方案",
+    "本公司軟體解決方案",
+    "Accuray 精確治療計畫。",
+    "總體品質保證 (TQA™) 套件。TQA 應用程式提供系統與劑量學參數的趨勢分析與報表功能，用以支援特定螺旋系統性能的監測。",
+    "銷售與行銷",
+    "製造",
+    "智慧財產權",
+    "研究與開發",
+    "美國費用報銷"
+   ],
+   "paragraphs": [
+    "Accuray Incorporated 為一間放射治療公司，專門開發、製造、銷售及支援治療交付、計畫、影像與資料管理解決方案，協助臨牀團隊在廣泛的臨牀案例中，提供精準的放射治療。我們的產品組合包含 CyberKnife 傳動平台，以及具差異化特色的螺旋式產品組合，包括 Accuray Stellar、Radixact、Accuray Helix 與 Tomo C 系統（視產品可提供情形而定）。我們相信這些解決方案可為臨牀人員提供先進的功能，支援精準性、靈活性、運動管理、影像導引、適應性作業流程與個人化治療交付。",
+    "我們的解決方案設計用以支援臨牀團隊在個別治療期間、整個治療作業流程，以及患者治療過程，從根治性治療至緩和性治療。在我們的傳動與螺旋式平台中，我們的解決方案包括：",
+    "具軟體驅動運動管理功能的放射治療系統，設計用以支援治療期間目標移動時的即時治療調整。",
+    "治療計畫軟體，使臨牀人員能運用 Accuray 系統的差異化功能，建立高品質的治療計畫，並支援廣泛臨牀案例中的精準且高效的治療交付。",
+    "ClearRT 螺旋式 kVCT 影像技術，於部分系統與配置中可用，設計用以高效地產生高品質的電腦斷層掃描影像，部分配置的影像長度可達 135 公分，支援廣泛的解剖結構視覺化與適應性治療作業流程。",
+    "自動化工具，設計用以協助臨牀人員在治療期間識別解剖結構的變化，評估是否需要重新計畫以達到臨牀效益，並調整放射劑量以支援治療計畫目標。",
+    "軟體工具，設計用以支援高效的重複治療計畫，協助臨牀人員評估先前劑量資訊、產生新的治療計畫，並評估已接受放射治療患者之累積劑量。",
+    "系統架構，可容納第三方表面導引界面，用以支援患者定位、監測治療期間的定位準確性，並啟動特定癌症治療的深呼吸保持（\"DIBH\"）作業流程。",
+    "本公司之 CyberKnife 平台及螺旋式產品組合，包括 Accuray Stellar、Radixact、Accuray Helix 及 Tomo C 系統（如有提供），係設計用以支援進階放射治療，例如 SRS、SBRT、IMRT、IGRT 及適應性放射治療。這些平台係設計用以支援精確的治療執行，同時協助臨牀人員管理對健康組織及風險器官的劑量。CyberKnife 平台亦被神經外科醫師用於涉及腦部及脊椎腫瘤的放射手術治療，以及選定的神經學及內分泌學疾病，於臨牀適當情況下。本公司亦提供相關服務，包括客戶支援、安裝、培訓及其他專業服務。",
+    "本公司於 1990 年在加州設立，並於 1992 年開始營運。本公司於 2007 年重新註冊為德拉華州公司。本公司美國總部位於威斯康辛州麥迪遜市。",
+    "本公司目標為開發設備與技術，協助臨牀人員為患有惡性或良性腫瘤之患者，以及選定之神經學或內分泌學疾病（於臨牀適當情況下）提供精確且客製化的放射治療。本公司致力達成此目標，透過擴展醫療提供者可使用的臨牀與運作選項，並透過定位產品組合以應對多樣化的客戶需求、臨牀優先事項及市場准入要求。本公司策略包括持續採用 CyberKnife 傳動平台及差異化的螺旋式產品組合，其中 Accuray Stellar 用以支援適應性放射治療，Radixact 系統定位為靈活且客製化的解決方案，而 Accuray Helix 則定位為進入螺旋式產品組合的入口點。本公司策略的一些關鍵要素如下：",
+    "提高醫師採用率及患者認知度以推動使用率。本公司持續努力提高系統之採用率與認知度，並教育臨牀人員及患者有關其功能與臨牀應用。本公司舉辦並贊助研討會與教育會議，並支持評估本公司系統之使用與潛在效益之臨牀研究。本公司定期與臨牀人員會面，討論系統之靈活性及其在適當臨牀場景中之應用方式。本公司亦擴展數位與社交媒體的曝光度，以接觸並教育更多醫師與患者。為支持產品之認知度，本公司提供客戶工具，協助其發展行銷與教育活動以服務其社區。",
+    "持續擴展放射手術市場。CyberKnife 系統為一具備機械手臂的放射手術系統，設計用以治療全身各處之腫瘤。已發表之文獻支持 CyberKnife 系統用以治療多種目標，包括選定之癌症、良性腫瘤及功能性症狀（於臨牀適當情況下）。CyberKnife 系統被放射腫瘤學家與神經外科醫師共同使用，支援醫院與癌症中心之跨部門使用。此多專科應用可能協助客戶評估平台在購置設備決策時之臨牀、運作與經濟價值。憑藉超過 30 年之臨牀經驗，CyberKnife 系統支援涉及頭部、顱底及脊椎之放射手術應用，於治療準確性至關重要之情況，因腫瘤或目標與關鍵結構之距離較近。",
+    "持續透過臨牀發展與合作創新。本公司產品之開發與使用透過與臨牀人員、研究人員及其他合作夥伴之合作而獲得支持。本公司尋求系統使用者之意見，以瞭解客戶需求並指導產品開發優先順序。本公司持續改善與升級系統，包括治療執行、影像、運動管理、治療計畫、適應性工作流程及資料管理功能。這些努力係設計用以回應客戶需求、提高易用性、支援工作流程效率，並強化本公司機械手臂與螺旋式平台之差異化優勢。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與本公司業務及營運結果相關之風險",
+    "與本公司產品及業務之規範相關之風險",
+    "與本公司普通股相關之風險",
+    "與本公司融資交易相關之風險",
+    "一般風險",
+    "風險因素",
+    "與本公司業務及營運結果相關之風險",
+    "若 CyberKnife 或 TomoTherapy 平台未能獲得廣泛市場接受，本公司將無法產生足夠的營業收入以支撐業務。",
+    "本公司實現獲利能力部分取決於維持或提高產品銷售及服務的毛利率，而本公司可能無法實現此目標。",
+    "本公司營運成果，包括現金流、季度訂單、營業收入及毛利率，會因季度而異，且可能難以預測。",
+    "本公司因國際業務而面臨相關風險，這些風險可能對本公司業務、財務狀況及營運成果產生不利影響。"
+   ],
+   "paragraphs": [
+    "本公司業務面臨許多風險與不確定性，包括 Part I, Item 1A 稱為 \"Risk Factors\" 所提及的風險。這些風險包括但不限於以下內容：",
+    "我們面臨與當前全球經濟環境相關的風險，這可能會對本公司業務、財務狀況及營運成果產生不利影響。",
+    "若本公司產品未能獲得廣泛市場接受，本公司將無法產生足夠的營業收入以支撐業務。",
+    "本公司實現獲利能力部分取決於維持或提高產品銷售及服務的毛利率，而本公司可能無法達成此目標。",
+    "本公司負擔大量債務，未來可能進一步增加債務，這可能會對財務狀況及未來財務成果產生不利影響。過去，本公司未符合某些與債務相關的財務契約條款，並已要求取得豁免或修改現有債務協議以避免違約。",
+    "貿易政策的不確定性或波動，以及國際關稅的增加，包括美國與中國對本公司產品或零組件所課徵的關稅，或其他貿易障礙或全球貿易戰，可能會降低中國市場的產品銷售量，提高本公司成本，並對本公司業務、財務狀況及營運成果產生重大且不利的影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,221 @@
+{
+ "ticker": "REZI",
+ "cik": "0001740332",
+ "accession": "0001740332-26-000005",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Description of Business",
+    "Resideo Technologies, Inc.",
+    "Materials and Suppliers",
+    "Manufacturing",
+    "Regulatory and Environmental Compliance and Regulatory Capital Expenditures",
+    "Human Capital",
+    "Research and Development and Intellectual Property",
+    "Other Information"
+   ],
+   "paragraphs": [
+    "As used herein, unless the context otherwise dictates, the term \"Resideo\", the \"Company\", \"we\", \"us\", or \"our\" means Resideo Technologies, Inc. and its consolidated subsidiaries. Our common stock began trading under the ticker symbol \"REZI\" on the New York Stock Exchange (\"NYSE\") on October 29, 2018.",
+    "We separated from Honeywell International Inc. (\"Honeywell\") in 2018, becoming an independent publicly traded company as a result of a pro rata distribution of our common stock to stockholders of Honeywell (the \"Honeywell Spin-Off\").",
+    "We are a global manufacturer, developer, and distributor of technology-driven sensing and controls products and solutions that help homeowners and businesses stay connected and in control of their comfort, security, energy use, and smart living. We are a leading player in key product markets including home heating, ventilation, and air conditioning controls; smoke and carbon monoxide detection home safety and fire suppression; and security. Our global footprint serves residential and commercial end-markets. Our solutions and services can be found in over 150 million residential and commercial spaces globally, with tens of millions of new devices sold annually.",
+    "We operate in large markets that sit at the intersection of multiple secular growth trends. We believe the increased desire for critical and cost-effective comfort, energy management, and actionable safety and security solutions in residential and commercial spaces, combined with the long-term impacts of energy transitions, are driving investment in the types of products and solutions we provide.",
+    "Our primary focus is on the professional channel where we are a trusted partner to approximately 100 thousand professional contractors, installers, dealers, and integrators in the HVAC, security, fire, electrical, connected home, and home comfort markets (\"professionals\"). Our global scale, breadth of product offerings, innovation heritage, and differentiated service and support has enabled our trusted relationship with professionals and has been a key driver of our success.",
+    "We manage our business operations through two business segments, Products and Solutions and ADI Global Distribution. On July 30, 2025, we announced our intention to separate the ADI Global Distribution segment through a tax-free spin-off to our shareholders (the \"ADI Spin-Off\"). Following the completion of the announced future ADI Spin-Off, the Products and Solutions segment would continue to operate as Resideo and ADI Global Distribution would become an independent public company.",
+    "Products and Solutions: Our products and solutions for comfort, energy management, safety, and security benefit from trusted, well-established branded offerings such as Braukmann, BRK, First Alert, Honeywell Home, Resideo, and others. Our offerings include temperature and humidity control, water and air solutions, smoke and carbon monoxide detection home safety products, residential and small business security products, video cameras, other home-related lifestyle convenience solutions, cloud infrastructure, installation and maintenance tools, and related software. We also sell components to manufacturers of water heaters, heat pumps, and boilers. Through our whole home presence, we are an enabler of home connectivity with over 14 million connected customers. Our connected solutions harness data to provide control, visibility, insights, and alerts to the end user. Our comprehensive product suite has also allowed us to develop and sustain long-standing partnerships with professionals who have relied on our selection and availability of products and configured solutions to help them succeed and grow their businesses.",
+    "ADI Global Distribution: Our ADI Global Distribution segment is a leading, global specialty distributor of professionally installed low-voltage products, including security and audio-visual (\"AV\") solutions, serving commercial and residential markets through an omnichannel go-to-market platform. ADI Global Distribution sells primarily to licensed professional installers, dealers, and integrators. We offer an expansive list of products from leading suppliers across key specialty low-voltage categories. ADI complements our third-party supplier products with a suite of exclusive brands and services offerings.",
+    "Our industries and markets are highly competitive in both our Products and Solutions and ADI Global Distribution business segments, where we compete with global, national, regional, and local providers for our products, services and solutions, including manufacturers, distributors, service providers, retailers, and online commerce providers, as well as newer entrants to the market with non-traditional business and customer service models or disruptive technologies and products, including cable, telecommunications, and technology companies competing in the connected home space as well as smaller market entrants that offer control capabilities among their products, applications, and services and have ongoing development efforts to address the broader connected home market.",
+    "Factors influencing our competitive position in the industry include product and service innovation, our reputation and the reputation of our brands, sales and marketing programs, customer relationships, product performance, reliability and warranty, quality and breadth of product training and events, product availability, speed and accuracy of delivery, service and price, technical support, and credit availability.",
+    "Purchased materials used in our manufacture of products in Products and Solutions include copper, steel, aluminum, plastics, printed circuit boards (\"PCB\"), semiconductors, and passive electronics. Purchased materials cover a wide range of supplier value-add from raw materials and single components to subassemblies and complete finished goods, and there are considerable expenditures on both commercial off-the-shelf and make-to-print items. Although execution of material substitutions or supplier changes may be resource intensive and can cause delays and other inefficiencies, alternatives may exist in the event that a supplier becomes unable to provide material. With respect to our ADI Global Distribution business, we rely on key suppliers of branded products to deliver certain products for resale to our customers who may purchase based on job specifications or otherwise based on brand reputation. Both our third-party and exclusive brand suppliers may be impacted by raw material price fluctuations, the ability of key suppliers (or factories) to meet quality and delivery requirements, and catastrophic events can increase the cost and affect the supply of our products and services and impact our ability to meet commitments to customers. Tariffs, sanctions, and other barriers to trade could adversely affect our suppliers which could in turn negatively impact our material costs and operations.",
+    "Our Products and Solutions business operates manufacturing and distribution facilities throughout the world, including sites in Mexico, the Czech Republic, Hungary, the United States (\"U.S.\"), Germany, the United Kingdom, Netherlands, and China. A significant percentage of our Products and Solutions revenue is derived from products manufactured in our own facilities, with the remainder being \"buy to sell\" (finished products purchased directly from other manufacturers) or sourced from third-party contract manufacturers. Major activities and competencies in our manufacturing operations include PCB assembly, injection molding, surface mount technologies, automatic and manual assembly and test, electrotechnical assembly and test, die casting and machining, calibration, and final test. We source raw materials and commodities, electronic components and assemblies, mechanical components, and assemblies from a wide range of third-party suppliers worldwide. With respect to our ADI Global Distribution business, we rely on third-party manufacturers to supply both third-party branded and exclusive branded products. A significant percentage of our exclusive branded products are sourced with manufacturers located in Asia.",
+    "We are subject to various federal, state, local, and foreign government requirements relating to environmental health and safety protection standards and permitting, labeling, and other requirements regarding, among other things, electronic and wireless communications, air emissions, wastewater discharges, the use, handling, and disposal of hazardous or toxic materials, remediation of environmental contamination, data privacy and security, cybersecurity, telemarketing, email marketing, other forms of online advertising and consumer protection, licensing, working conditions for and compensation of our employees and others. Our business may also be affected by changes in governmental regulation of energy efficiency and conservation standards and product safety regulations. These and other laws and regulations impact the manner in which we conduct our business, and changes in legislation or government policies can affect our worldwide operations, both favorably and unfavorably. For a more detailed description of the various laws and regulations that affect our business, refer to Item 1A. Risk Factors.",
+    "Our efforts to comply with numerous federal, state, and local laws and regulations applicable to our business and products often results in capital expenditures. We make capital expenditures to design, maintain, and upgrade our products to"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Relating to Our Business",
+    "We operate in highly competitive markets that are rapidly changing.",
+    "Resideo Technologies, Inc.",
+    "We may from time to time pursue acquisitions. Our business may be adversely affected if we cannot consummate acquisitions on satisfactory terms, or if we cannot effectively integrate acquired companies or assets.",
+    "Uncertainty in the development, deployment, and use of artificial intelligence (\"AI\") in our products and services, as well as our business more broadly, could adversely affect our business and reputation.",
+    "Failure to achieve and maintain a high level of product and service quality could damage our reputation with customers and negatively impact our results.",
+    "We may not be able to retain or expand relationships with certain significant customers.",
+    "We are subject to the economic, political, regulatory, foreign exchange, and other risks of international operations.",
+    "We rely on a dependable information technology (\"IT\") infrastructure and network operations that have adequate cybersecurity functionality.",
+    "Enhanced tariff, import/export restrictions, or other trade barriers may continue to impact global economic conditions.",
+    "Regulations and societal actions to respond to global climate change could negatively affect our business.",
+    "Our business is subject to the risks of earthquakes, hurricanes, tornadoes, fires, power outages, floods, pandemics, epidemics, natural disasters, and other catastrophic events or other public health emergencies.",
+    "Risks Associated with the Proposed ADI Spin-Off",
+    "The ADI Spin-Off may not achieve the anticipated benefits and may expose us to additional risks.",
+    "A spin-off of ADI Global Distribution business could adversely affect our earnings and cash flows.",
+    "Risks Relating to Legal and Regulatory Matters",
+    "Failure to comply with the broad range of standards, laws, and regulations in the jurisdictions in which we operate may result in exposure to substantial disruptions, costs, and liabilities.",
+    "We cannot predict with certainty the outcome of litigation matters, government proceedings, and other contingencies and uncertainties.",
+    "Risks related to the Honeywell Spin-Off, our agreements and our relationships with Honeywell"
+   ],
+   "paragraphs": [
+    "You should carefully consider all of the information in this Form 10-K and each of the risks described below, which we believe are the material risks that we face.",
+    "Any of these risks could materially and adversely affect our business, financial condition, results of operations, and cash flows and the actual outcome of matters as to which forward-looking statements are made in this Form 10-K.",
+    "The following risk factors are not necessarily presented in order of relative importance and should not be considered to represent a complete set of all potential risks that could affect us.",
+    "We operate in a highly competitive, rapidly changing environment in each of our Products and Solutions and ADI Global Distribution segments, and we compete directly with global, national, regional, and local providers of our products, services, and solutions, including manufacturers, distributors, service and software providers, retailers, and online commerce providers. The most significant competitive factors we face are product and service innovation, reputation of our Company and brands, sales and marketing programs, customer relationships, product performance, reliability and warranty, quality and breadth of product training and events, product availability, speed and accuracy of delivery, service and price, customer and technical support, and furnishing of customer credit, with the relative importance of these factors varying among our segments and their respective products and services.",
+    "In addition to current competitive factors, there have been, and in the future there may be, new market entrants with nontraditional businesses, new business, distribution and customer service models or disruptive technologies and products, resulting in increased competition and changing business dynamics. In addition, aggressive pricing actions by competitors may affect our ability to achieve desired revenue growth and profitability levels. To the extent that we do not meet changing customer preferences or demands or other market changes, or if one or more of our competitors introduces new technologies, products or services, becomes more successful with private label products, online offerings or establishes",
+    "exclusive supply relationships, our ability to attract and retain customers could be adversely affected, which could adversely affect our business, financial condition, results of operations and cash flows."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "(In millions, except per share amounts)",
+    "Current Period Highlights",
+    "Overview and Business Trends",
+    "Resideo Technologies, Inc.",
+    "Basis of Presentation and Reclassifications",
+    "Results of Operations",
+    "Years Ended December 31,",
+    "(in millions, except per share data and percentages) 2025 2024 $ change % change",
+    "Gross Profit",
+    "Research and Development Expenses",
+    "Selling, General and Administrative Expenses",
+    "Intangible Asset Amortization",
+    "Restructuring, Impairment and Extinguishment Costs",
+    "Business Separation Costs",
+    "Indemnification Agreement Expense",
+    "Other expense (income), net",
+    "Interest Expense, Net",
+    "Segment Results of Operations",
+    "Liquidity and Capital Resources",
+    "A&R Credit Agreement and Senior Notes",
+    "Common Share Repurchase Program",
+    "Cash Flow Summary for the Years Ended December 31, 2025 and 2024",
+    "Our cash flows from operating, investing, and financing activities for the years ended December 31, 2025 and 2024, as reflected in the Consolidated Financial Statements are summarized as follows:",
+    "2025 2024 $ change",
+    "2025 compared with 2024",
+    "Contractual Obligations and Probable Liability Payments",
+    "Off-Balance Sheet Arrangements",
+    "Critical Accounting Policies and Significant Estimates",
+    "Other Matters",
+    "Litigation, Environmental Matters and the Indemnification Agreement",
+    "Recent Accounting Pronouncements",
+    "Cautionary Statement Concerning Forward-Looking Statements"
+   ],
+   "paragraphs": [
+    "We are a global manufacturer, developer, and distributor of technology-driven sensing and controls products and solutions that help homeowners and businesses stay connected and in control of their comfort, security, energy use, and smart living. We are a leading player in key product markets including home heating, ventilation, and air conditioning controls; smoke and carbon monoxide detection home safety and fire suppression; and security. Our global footprint serves residential and commercial end-markets. Our solutions and services can be found in over 150 million residential and commercial spaces globally, with tens of millions of new devices sold annually.",
+    "We manage our business operations through two business segments, Products and Solutions and ADI Global Distribution.",
+    "Our Products and Solutions segment offerings include temperature and humidity control, water and air solutions, smoke and carbon monoxide detection home safety products, residential and small business security products, video cameras, other home-related lifestyle convenience solutions, cloud infrastructure, installation and maintenance tools, and related software. We also sell components to manufacturers of water heaters, heat pumps, and boilers. Our products and solutions for comfort, energy management, safety, and security benefit from trusted, well-established branded offerings such as Braukmann, BRK, First Alert, Honeywell Home, Resideo, and others.",
+    "Our ADI Global Distribution segment is a leading, global specialty distributor of professionally installed low-voltage products, including security and AV solutions, serving commercial and residential markets through an omnichannel go-to-market platform. ADI Global Distribution sells primarily to licensed professional installers, dealers, and integrators. We offer an expansive list of products from leading suppliers across key specialty low-voltage categories. ADI complements our third-party supplier products with a suite of exclusive brands and services offerings.",
+    "Our financial performance is influenced by macroeconomic factors underlying end user demand such as repair and remodeling activity, residential and commercial construction, new and existing home sales, employment rates, interest rates and bank lending standards, and supply chain dynamics that can be influenced by geopolitics. The ongoing uncertainty and volatility in the global macroeconomic and political environments have affected, and could continue to affect, our visibility toward future performance. Uncertainties remain, including the global tariff environment, geopolitical relations between and among the U.S. and other countries, potential for changes in inflation and interest rates, increased labor costs, reduced consumer spending due to softening labor markets, elevated mortgage rates, shifts in energy policies, and potential market and other disruption from any of the above.",
+    "For 2026, we anticipate executing our business operations against a highly dynamic global macroeconomic environment. The vast majority of costs associated with the building products that the Products and Solutions segment sells in the U.S. are incurred in Mexico. Most Products and Solutions products manufactured in Mexico, along with a significant portion of the ADI Global Distribution segment products sourced in Mexico, are currently exempt from tariffs under the USMCA or specific commodity exceptions. Tariff impacts related to imported products that are not subject to the USMCA or another exception may be impacted by the new tariff surcharge of at least 10%. We will continue to take actions to address the cost"
+   ],
+   "focus": "Overview and Business Trends"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "業務說明",
+    "Resideo Technologies, Inc.",
+    "材料與供應商",
+    "製造",
+    "法規與環境合規及法規資本支出",
+    "人力資本",
+    "研究與發展及智慧財產權",
+    "其他資訊"
+   ],
+   "paragraphs": [
+    " herein 所稱，除非文意另有所指，\"Resideo\"、\"本公司\"、\"我們\"、\"我們\"或\"我們的\"係指 Resideo Technologies, Inc. 及其合併子公司。我們的普通股自 2018 年 10 月 29 日起於紐約證券交易所（\"NYSE\"）以股票代碼 \"REZI\" 開始交易。",
+    "我們於 2018 年從 Honeywell International Inc.（\"Honeywell\"）分拆，成為一家獨立上市的公司，這是因為我們將普通股按比例分發給 Honeywell 股東（\"Honeywell Spin-Off\"）所致。",
+    "我們是一家全球製造、開發與分銷以科技驅動的感測與控制產品與解決方案的公司，這些產品與解決方案協助住宅與企業用戶保持與其舒適、安全、能源使用與智慧生活的連線與掌控。我們在住宅與商用市場的關鍵產品領域中為領導者，包括住宅供暖、通風與空調控制；煙霧與一氧化碳偵測住宅安全與火災抑制；以及安全領域。我們的全球據點服務住宅與商用終端市場。我們的解決方案與服務可於全球超過 1.5 億個住宅與商用空間中找到，每年銷售數以千萬計的新設備。",
+    "我們經營的市場規模處於多項長期成長趨勢的交會點。我們相信，住宅與商用空間對關鍵且成本效益高的舒適、能源管理與可操作的安全與安全解決方案的強烈需求，加上能源轉型的長期影響，正驅動對我們所提供的產品與解決方案的投資。",
+    "我們的主要重點在專業渠道，我們是約 10 萬名專業承包商、安裝商、經銷商與整合商的可靠夥伴，這些專業人士服務於 HVAC、安全、消防、電氣、連網住宅與住宅舒適市場（\"專業人士\"）。我們的全球規模、廣泛的產品組合、創新傳統與差異化的服務與支援，使我們與專業人士建立了信任關係，並成為我們成功的關鍵驅動因素。",
+    "我們透過兩個業務分部經營業務，即產品與解決方案與 ADI 全球分銷。我們於 2025 年 7 月 30 日宣佈有意透過稅務無負擔的分拆方式，將 ADI 全球分銷分部分拆給股東（\"ADI 分拆\"）。完成宣佈的未來 ADI 分拆後，產品與解決方案分部將繼續以 Resideo 維持運作，而 ADI 全球分銷將成為一家獨立上市的公司。",
+    "產品與解決方案：我們的產品與解決方案在舒適、能源管理、安全與安全領域受益於受信任且具備良好聲譽的品牌產品，例如 Braukmann、BRK、First Alert、Honeywell Home、Resideo 等。我們的產品包括溫度與濕度控制、水與空氣解決方案、煙霧與一氧化碳偵測住宅安全產品、住宅與小型企業安全產品、影片攝像機、其他與住宅相關的生活便利解決方案、雲端基礎設施、安裝與維護工具，以及相關軟體。我們也向水 Heater、熱泵與 boilers 的製造商銷售零組件。透過我們的整體住宅存在，我們成為住宅連網的推動者，擁有超過 1,400 萬名連網用戶。我們的連網解決方案透過數據提供對終端用戶的控制、可視性、洞察與警報。我們的全面產品組合也使我們得以發展並維持與專業人士的長期合作夥伴關係，這些專業人士依賴我們的產品選擇與可用性以及配置解決方案來幫助他們成功並成長其業務。",
+    "ADI 全球分銷：我們的 ADI 全球分銷分部是全球專業安裝低壓產品的領導性專門分銷商，包括安全與音訊視訊（\"AV\"）解決方案，透過多渠道的市場推廣平台服務住宅與商用市場。ADI 全球分銷主要銷售給經認證的專業安裝商、經銷商與整合商。我們提供來自關鍵專門低壓類別領先供應商的廣泛產品清單。ADI 以一組獨家品牌與服務方案補足我們的第三方供應商產品。",
+    "本公司在產品與解決方案以及ADI全球通路業務分部所屬的產業與市場均高度競爭，我們在這些業務分部與全球、國家、區域及地方的供應商競爭，包括製造商、經銷商、服務供應商、零售商及線上通 commerce 供應商，以及以非傳統商業與客戶服務模式或顛覆性技術與產品進場的較新進場者，包括電纜、電信與科技公司，這些公司競爭於連網家庭空間，以及提供產品、應用程式與服務控制功能的較小市場進場者，並持續進行開發工作以應對更廣泛的連網家庭市場。",
+    "影響本公司在產業中競爭地位的因素包括產品與服務創新、本公司與品牌的聲譽、銷售與行銷方案、客戶關係、產品性能、可靠性與保固、產品訓練與活動的品質與廣度、產品可取得性、配送速度與準確性、服務與價格、技術支援與信用取得能力。",
+    "用於本公司製造產品的購入材料包括銅、鋼、鋁、塑膠、印刷電路板（\"PCB\"）、半導體與被動電子元件。購入材料涵蓋從原材料與單一零組件至次組裝件與完整成品的廣泛供應商價值增加，且在商業現成商品與按印刷品製造的項目上均有相當大的支出。雖然材料替換或供應商變更的執行可能耗費資源，並可能導致延遲與其他低效率，但若供應商無法提供材料，則可能有替代方案。就本公司ADI全球通路業務而言，我們依賴品牌產品的關鍵供應商來交付某些產品，供我們客戶轉售，這些客戶可能根據工作規格或根據品牌聲譽進行購買。本公司第三方與獨家品牌供應商均可能受到原材料價格波動、關鍵供應商（或工廠）能否符合品質與交貨要求的影響，以及重大事件可能增加產品與服務的成本並影響供應，進而影響本公司履行對客戶的承諾能力。關稅、制裁及其他貿易障礙可能不利影響我們的供應商，進而可能對我們的材料成本與營運產生負面影響。",
+    "本公司產品與解決方案業務在全球設有製造與配送設施，包括墨西哥、捷克共和國、匈牙利、美國（\"U.S.\"）、德國、英國、荷蘭與中國的設施。本公司產品與解決方案營收的相當大比例來自本公司自有設施製造的產品，其餘則為\"買來賣\"（直接從其他製造商購買的成品）或來自第三方製造商的來料。本公司製造作業的主要活動與專長包括PCB組裝、射出成型、表面黏著技術、自動與手動組裝與測試、電機電子組裝與測試、壓鑄與機械加工、校準與最終測試。本公司從全球範圍內的廣泛第三方供應商處取得原材料與商品、電子元件與組裝件、機械元件與組裝件。就本公司ADI全球通路業務而言，我們依賴第三方製造商來供應第三方品牌與獨家品牌產品。本公司獨家品牌產品的相當大比例來自位於亞洲的製造商。",
+    "本公司受各級政府（包括聯邦、州、地方及外國政府）關於環境健康與安全保護標準、許可、標籤及其他要求的規範，這些要求涉及電子與無線通訊、大氣排放、廢水排放、危險或有毒材料的使用、處理與處置、環境污染整治、資料隱私與安全、網路安全、電話行銷、電子郵件行銷、其他形式的線上廣告與消費者保護、許可、員工及其他人員的工作條件與薪資。本公司業務也可能受到能源效率與節能標準及產品安全規範的政府規範變動的影響。這些及其他法律與規範影響本公司營運的方式，而法律或政府政策的變動可能對本公司全球營運產生正面或負面影響。如需更詳細描述影響本公司業務的各項法律與規範，請參閱第1A項風險因素。",
+    "本公司為符合適用於本公司業務與產品的眾多聯邦、州與地方法律與規範所做的努力，往往導致資本支出。本公司為設計、維護與升級產品而進行資本支出"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "(以千萬計，除每股數額)",
+    "當期重點亮點",
+    "概覽與業務趨勢",
+    "Resideo Technologies, Inc.",
+    "財務資料呈現基礎與重新分類",
+    "營運成果",
+    "截至12月31日年度",
+    "(以千萬計，除每股資料及百分比) 2025 2024 異動金額 % 變動",
+    "毛利率",
+    "研究與發展費用",
+    "營銷、一般及行政費用",
+    "無形資產攤銷",
+    "重整、減損及結清費用",
+    "業務分離費用",
+    "賠償協議費用",
+    "其他費用（收入），淨額",
+    "利息支出，淨額",
+    "分部營運成果",
+    "流動性及資本資源",
+    "A&R信貸協議及優先無擔保債券",
+    "普通股買回計畫",
+    "截至2025年12月31日及2024年12月31日之現金流量摘要",
+    "本公司截至2025年12月31日及2024年12月31日之營運、投資及融資活動所產生之現金流量，如 Consolidated Financial Statements 所載，摘要如下：",
+    "2025 2024 差異金額",
+    "2025 相較於 2024",
+    "契約義務及或然性負債給付",
+    "表外財務安排",
+    "關鍵會計政策及重大會計估計",
+    "其他事項",
+    "訴訟、環境事項及賠償協議",
+    "近期會計準則宣佈",
+    "關於未來展望陳述的警示聲明"
+   ],
+   "paragraphs": [
+    "本公司為全球性製造、開發與分銷以科技驅動的感測與控制產品與解決方案的公司，協助住宅與企業用戶維持與掌控其舒適度、安全、能源使用與智慧生活。本公司為住宅供暖、通風與空調控制；煙霧與一氧化碳偵測住宅安全與火災防範；以及安全等關鍵產品市場的領導廠商。本公司在全球設有據點，服務住宅與商業終端市場。本公司解決方案與服務可於全球超過1.5億個住宅與商業空間中找到，每年銷售數以千萬計的新設備。",
+    "本公司透過兩個業務分部進行業務運作，分別為產品與解決方案及ADI全球分銷。",
+    "產品與解決方案分部的產品與服務包括溫度與濕度控制、水與空氣解決方案、煙霧與一氧化碳偵測住宅安全產品、住宅與小型企業安全產品、影片攝影機、其他與住宅相關的生活便利解決方案、雲端基礎設施、安裝與維護工具，以及相關軟體。本公司亦銷售零組件給水 Heater、熱泵與 boilers 的製造商。本公司在舒適度、能源管理、安全與安全方面的產品與解決方案，受益於受信賴且具備良好聲譽的品牌產品，例如 Braukmann、BRK、First Alert、Honeywell Home、Resideo 等。",
+    "ADI全球分銷分部為全球專業安裝低壓產品的領導性專門分銷商，包括安全與音訊視訊解決方案，透過全通路行銷平台服務商業與住宅市場。ADI全球分銷主要銷售給經許可的專業安裝人員、經銷商與整合商。本公司提供來自關鍵專門低壓類別領導供應商的廣泛產品清單。ADI 以一組獨家品牌與服務方案補強第三方供應商的產品。",
+    "本公司財務表現受終端用戶需求背後的總體經濟因素影響，例如修繕與裝修活動、住宅與商業建設、新舊住宅銷售、就業率、利率與銀行貸款標準，以及可能受地緣政治影響的供應鏈動態。持續存在的全球總體經濟與政治環境的不確定性與波動性，已影響並可能繼續影響本公司對未來表現的預測。仍存在不確定性，包括全球關稅環境、美國與其他國家之間的國際關係、通貨膨脹與利率變動的潛在可能性、勞動成本增加、因勞動市場趨緩導致的消費支出減少、房貸利率上升、能源政策的變動，以及上述任何因素可能導致的市場與其他幹擾。",
+    "針對2026年，本公司預期在高度動態的全球總體經濟環境中執行業務運作。產品與解決方案分部在美國銷售的建築產品，其大部分成本於墨西哥產生。大多數在墨西哥製造的產品與ADI全球分銷分部從墨西哥進口的產品，目前根據USMCA或特定商品例外條款免於關稅。與未受USMCA或其他例外條款規範的進口產品相關的關稅影響，可能受到至少10%的新關稅附加費影響。本公司將持續採取行動以應對成本"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務相關的風險",
+    "我們在高度競爭且快速變化的市場中運作。",
+    "Resideo Technologies, Inc.",
+    "我們有時會進行收購。若我們無法在滿意的條件下完成收購，或無法有效整合收購的公司或資產，可能會對我們的業務產生不利影響。",
+    "人工智慧（\"AI\"）在我們產品與服務的開發、部署與使用，以及我們業務整體的不確定性，可能會對我們的業務與聲譽產生不利影響。",
+    "未能維持高水準的產品與服務品質，可能會損害我們與客戶的聲譽，並對我們的營運結果產生負面影響。",
+    "我們可能無法維持或擴展與某些重要客戶的關係。",
+    "我們面臨國際業務所涉及的經濟、政治、法規、外匯及其他風險。",
+    "本公司依賴具備足夠網路安全功能的可靠資訊科技（\"IT\"）基礎建設與網路運作。",
+    "提高的關稅、進出口限制或其他貿易障礙可能持續影響全球經濟情況。",
+    "應對全球氣候變遷的規範與社會行動可能對本公司業務產生負面影響。",
+    "本公司業務面臨地震、颶風、龍捲風、火災、停電、水災、疫情、傳染病、天然災害及其他災難性事件或公共衛生緊急事件的風險。",
+    "與擬議ADi分拆相關的風險",
+    "ADi分拆可能無法達成預期效益，並可能使本公司面臨額外風險。",
+    "ADi全球通路業務的分拆可能對本公司獲利與現金流產生負面影響。",
+    "與法律及法規事項相關的風險",
+    "未能遵守我們營運之司法管轄區域所適用之廣泛標準、法律及法規，可能導致遭遇重大幹擾、成本及負擔。",
+    "我們無法確定預測訴訟事項、政府程序及其他或有事項與不確定因素之最終結果。",
+    "與Honeywell分拆、我們之協議及與Honeywell之關係相關之風險"
+   ],
+   "paragraphs": [
+    "您應仔細審閱本 Form 10-K 全文以及下列所列之風險因素，我們認為這些為我們所面臨之重大風險。",
+    "上述任何風險均可能對本公司之業務、財務狀況、營運成果與現金流造成重大且不利之影響，並可能影響本 Form 10-K 中所為之預測性陳述之實際結果。",
+    "下列風險因素並非依其重要性順序排列，亦不應視為影響本公司之所有潛在風險之完整清單。",
+    "本公司在各產品與解決方案及ADI全球通路分部所屬的市場中，均處於高度競爭且快速變化的環境中，並與全球、國家、區域及地方的產品、服務與解決方案供應商直接競爭，包括製造商、經銷商、服務與軟體供應商、零售商及線上通 commerce 供應商。本公司所面臨的最主要競爭因素為產品與服務創新、本公司與品牌的聲譽、銷售與行銷方案、客戶關係、產品性能、可靠性與保固、產品培訓與活動的品質與廣度、產品可取得性、配送速度與準確性、服務與價格、客戶與技術支援，以及提供客戶信用，而這些因素在各分部及其相應產品與服務中，其相對重要性可能有所不同。",
+    "除現有競爭因素外，亦可能出現新市場參與者，其業務模式非傳統、新業務、分銷與客戶服務模式或顛覆性技術與產品，導致競爭加劇與商業動態改變。此外，競爭對手可能採取激進的價格策略，影響本公司達成預期營業收入成長與獲利水準。若本公司未能符合變動中的客戶偏好或需求，或其他市場變化，或若一個或多個競爭對手推出新技術、產品或服務、在自有品牌產品、線上服務方面更為成功，或建立獨家供應關係，則本公司吸引與保留客戶的能力可能受到不利影響，進而對本公司業務、財務狀況、營運成果與現金流造成不利影響。",
+    "exclusive supply relationships, our ability to attract and retain customers could be adversely affected, which could adversely affect our business, financial condition, results of operations and cash flows."
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

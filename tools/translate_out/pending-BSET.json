@@ -1,0 +1,193 @@
+{
+ "ticker": "BSET",
+ "cik": "0000010329",
+ "accession": "0001437749-26-003189",
+ "form": "10-K",
+ "reportDate": "2025-11-29",
+ "sections": {
+  "business": {
+   "headings": [
+    "Operating Segments",
+    "Government Regulations",
+    "Human Capital",
+    "Major Customers",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Bassett is a leading retailer, manufacturer and marketer of branded home furnishings. We were founded in 1902 and incorporated under the laws of Virginia in 1930. Our rich 123-year history has instilled the principles of quality, value, and integrity in everything we do, while simultaneously providing us with the expertise to respond to ever-changing consumer tastes and meet the demands of a global economy.",
+    "Approximately 60% of our wholesale sales arise from our network of 86 Company-owned and licensee-owned Bassett Home Furnishings (\"BHF\") stores. Our store program is designed to provide a single source home furnishings retail store with a unique combination of stylish, quality furniture and accessories with a high level of customer service. The stores highlight our custom furniture design and manufacturing capabilities, free in-home or virtual design visits (\"home makeovers\") and coordinated decorating accessories. Our philosophy is based on building strong long-term relationships with each customer. Salespeople are referred to as \"Design Consultants\" and are trained to evaluate customer needs and provide comprehensive solutions for their home decor. Until a rigorous training and design certification program is completed, Design Consultants are not authorized to perform in-home or virtual design services for our customers.",
+    "Bassett also has a significant traditional wholesale business with more than 1,000 open market accounts. Most of the open market sales are through Bassett Design Centers and Bassett Custom Studios which function as a store within a multi-line store featuring the Company's custom furniture capabilities. The wholesale business, including the Lane Venture outdoor brand, also services general furniture stores and a growing number of interior design firms through a network of over 30 independent sales representatives who have stated geographical territories. These sales representatives are compensated based on a standard commission rate.",
+    "We consider our website to be the front door to our brand experience where customers can research our furniture and accessory offerings and subsequently buy online or engage with an in-store design consultant. We know that we are driving a significant percentage of the retail foot traffic to our store network and our open market customers through engagement with www.bassettfurniture.com. Digital outreach strategies have been the primary vehicle for brand advertising and customer acquisition. We began supplementing the digital outreach strategy with added direct mail and television late in 2024 and expect to continue with a balanced blend of both digital and traditional direct mail and television in 2026.",
+    "We introduced a new web platform late in 2023 that leverages world class features including enhanced customer research capabilities and streamlined navigation. Since the debut of the new site, we have seen increased engagement with the brand through a greater number of page views per customer along with more time spent on the site. We have also seen an increase in average order value that has resulted in increased e-commerce revenue. While traffic to the website decreased 8% during 2025, sales conversion rates increased 28% resulting in a 25% increase in total web sales. Although e-commerce sales continue to be small relative to in-store sales, we will continue to invest in ongoing improvements to the aesthetics and user experience on our website while not compromising on our in-store experience or the quality of our in-home makeover capabilities.",
+    "During the fourth quarter of fiscal 2022 we acquired Noa Home Inc. (\"Noa Home\"). A mid-priced e-commerce furniture retailer headquartered in Montreal, Canada, Noa Home had operations in Canada, Australia, Singapore and the United Kingdom. After nearly two years of operating losses, we concluded during the second quarter of 2024 that Noa Home was not likely to achieve profitability at any time in the foreseeable future and decided to cease operations by selling the inventory in an orderly fashion. As of the end of 2024, we had substantially completed the liquidation of Noa Home's assets and liabilities. In the second quarter of 2024 we recognized non-cash charges totaling $2,401 related to the impairment of certain long-lived assets of Noa Home and the establishment of a reserve against Noa Home's remaining inventory at that time. Upon substantially completing the liquidation of Noa Home at the end of the fourth quarter of 2024, we recognized a charge of $962 associated with the transfer of the cumulative translation losses out of accumulated other comprehensive income.",
+    "We have factories in Newton, North Carolina that manufacture both stationary and motion upholstered furniture for inside the home along with our outdoor furniture offerings. We have a factory in Martinsville, Virginia that assembles and finishes our custom bedroom and dining offerings. We also have a facility in Haleyville, Alabama where we manufacture aluminum frames for our outdoor furniture.",
+    "In addition to the furniture that we manufacture domestically, we source most of our formal bedroom and dining room furniture (casegoods) and certain leather upholstery offerings from several foreign plants, primarily in Vietnam. Over 75% of our wholesale revenues are derived from products that are manufactured in the United States using a mix of domestic and globally sourced components and raw materials.",
+    "We have strategically aligned our business into two reportable segments: Wholesale Retail—Company-owned stores",
+    "The wholesale segment is involved principally in the design, manufacturing and sourcing of furniture products that are distributed through our BHF store network (both Company-owned and licensee-owned stores) and various independent retailers. The wholesale furniture industry is very competitive and there are a large number of manufacturers both within and outside the United States who compete in the market on the basis of product quality, price, style, delivery and service. Additionally, many retailers source imported product directly, thus bypassing domestic furniture manufacturers and wholesale importers. We believe that we can be successful in the current competitive environment because our products represent excellent value combining attractive prices, quality and styling, prompt delivery, and superior service.",
+    "Wholesale shipments by category for the last three fiscal years, excluding intercompany sales to our retail segment, are summarized below:",
+    "2025 2024* 2023 External Intercompany Total External Intercompany Total External Intercompany",
+    "Total Bassett Custom Upholstery 76,923 59,391 136,314 63.5 79,281 55,168 134,449 64.8 89,005",
+    "66,363 155,368 62.4 Bassett Leather 16,484 3,252 19,736 9.2 15,705 1,920 17,625 8.5 26,701"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Retail Operations",
+    "We face a volatile retail environment and changing economic conditions that may further adversely affect consumer demand and spending.",
+    "Our retail stores face significant competition from national, regional and local retailers of home furnishings, including increasing on-line competition via the internet.",
+    "Our licensee-owned stores may not be able to meet their obligations to us.",
+    "Risks Related to Our Brand and Product Offerings",
+    "Failure to successfully anticipate or respond to changes in consumer tastes and trends in a timely manner could adversely impact our business, operating results and financial condition.",
+    "Risks Related to Material Sourcing and Supply",
+    "Our use of foreign sources of production for a portion of our products exposes us to certain additional risks associated with international operations.",
+    "Risks Related to Electronic Data Processing and Digital Information",
+    "We rely extensively on computer systems to process transactions, summarize results and manage our business.  Disruptions in both our primary and back-up systems could adversely affect our business and operating results."
+   ],
+   "paragraphs": [
+    "The following risk factors should be read carefully in connection with evaluating our business and the forward-looking information contained in this Annual Report on Form 10-K. The risk factors below represent what we believe are the known material risk factors with respect to us and our business. Any of the following risks could materially adversely affect our business, operations, industry, financial position or future financial results.",
+    "Historically, the home furnishings industry has been subject to cyclical variations in the general economy and to uncertainty regarding future economic prospects. Should current economic conditions weaken, the current rate of housing starts continue to decline, or rising inflation persist, consumer confidence and demand for home furnishings could deteriorate which could adversely affect our business through its impact on the performance of our Company-owned stores, as well as our licensees and the ability of a number of them to meet their obligations to us.",
+    "The retail market for home furnishings is highly fragmented and intensely competitive. We currently compete against a diverse group of retailers, including national department stores, regional or independent specialty stores, and dedicated franchises of furniture manufacturers. National mass merchants such as Costco also have limited product offerings. We also compete with retailers that market products through store catalogs and the internet. In addition, there are few barriers to entry into our current and contemplated markets, and new competitors may enter our current or future markets at any time. We have also seen increasing competition from retailers offering consumers the ability to purchase home furnishings via the internet for home delivery, and this trend is expected to continue. Our existing competitors or new entrants into our industry may use a number of different strategies to compete against us, including aggressive advertising, pricing and marketing, extension of credit to customers on terms more favorable than we offer, and expansion into markets where we currently operate. Competition from any of these sources could cause us to lose market share, revenues and customers, increase expenditures or reduce prices, any of which could have a material adverse effect on our results of operations.",
+    "We have a significant amount of accounts receivable attributable to our network of licensee-owned stores. We also guarantee one lease each for two licensees. If these stores do not generate the necessary level of sales and profits, the licensees may not be able to fulfill their obligations to us resulting in additional bad debt expenses and real estate related losses.",
+    "Sales of our furniture are dependent upon consumer acceptance of our designs, styles, quality and price. As with all retailers, our business is susceptible to changes in consumer tastes and trends. We attempt to monitor changes in consumer tastes and home design trends through attendance at international industry events and fashion shows, internal marketing research, and communication with our retailers and design consultants who provide valuable input on consumer tendencies.  However, such tastes and trends can change rapidly and any delay or failure to anticipate or respond to changing consumer tastes and trends in a timely manner could adversely impact our business, operating results and financial condition.",
+    "In addition, certain suppliers may require extensive advance notice of our requirements in order to produce products in the quantities we desire. This long lead time may require us to place orders far in advance of the time when certain products will be offered for sale, thereby exposing us to risks relating to shifts in consumer demand and trends, and any downturn in the U.S. economy."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Analysis of Continuing Operations",
+    "Comparative Change",
+    "2025 vs 2024",
+    "2024 vs 2023",
+    "2023 vs 2022",
+    "Sales Revenue",
+    "Segment Information",
+    "Reconciliation of Segment Results to Consolidated Results of Operations",
+    "Year Ended November 29, 2025",
+    "Year Ended November 30, 2024",
+    "Year Ended November 25, 2023",
+    "Wholesale Segment",
+    "Retail Segment – Company Owned Stores",
+    "Corporate and Other",
+    "Other Items Affecting Net Income (Loss)",
+    "Provision for Income taxes",
+    "Liquidity and Capital Resources",
+    "Fair Value Measurements",
+    "Off-Balance Sheet Arrangements",
+    "Contingencies",
+    "Critical Accounting Estimates",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "(Amounts in thousands except share and per share data) Overview",
+    "Bassett is a leading retailer, manufacturer and marketer of branded home furnishings. We were founded in 1902 and incorporated under the laws of Virginia in 1930. Our rich 123-year history has instilled the principles of quality, value, and integrity in everything we do, while simultaneously providing us with the expertise to respond to ever-changing consumer tastes and meet the demands of a global economy.",
+    "Approximately 60% of our wholesale sales arise from our network of 86 Company-owned and licensee-owned Bassett Home Furnishings (\"BHF\") stores. Our store program is designed to provide a single source home furnishings retail store with a unique combination of stylish, quality furniture and accessories with a high level of customer service. The stores highlight our custom furniture design and manufacturing capabilities, free in-home or virtual design visits (\"home makeovers\") and coordinated decorating accessories. Our philosophy is based on building strong long-term relationships with each customer. Salespeople are referred to as \"Design Consultants\" and are trained to evaluate customer needs and provide comprehensive solutions for their home decor. Until a rigorous training and design certification program is completed, Design Consultants are not authorized to perform in-home or virtual design services for our customers.",
+    "Bassett also has a significant traditional wholesale business with more than 1,000 open market accounts. Most of the open market sales are through Bassett Design Centers and Bassett Custom Studios which function as a store within a multi-line store featuring the Company's custom furniture capabilities. The wholesale business, including the Lane Venture outdoor brand, also services general furniture stores and a growing number of interior design firms through a network of over 30 independent sales representatives who have stated geographical territories. These sales representatives are compensated based on a standard commission rate.",
+    "We consider our website to be the front door to our brand experience where customers can research our furniture and accessory offerings and subsequently buy online or engage with an in-store design consultant. We know that we are driving a significant percentage of the retail foot traffic to our store network and our open market customers through engagement with www.bassettfurniture.com. Digital outreach strategies have been the primary vehicle for brand advertising and customer acquisition. We began supplementing the digital outreach strategy with added direct mail and television late in 2024 and expect to continue with a balanced blend of both digital and traditional direct mail and television in 2026.",
+    "We introduced a new web platform late in 2023 that leverages world class features including enhanced customer research capabilities and streamlined navigation. Since the debut of the new site, we have seen increased engagement with the brand through a greater number of page views per customer along with more time spent on the site. We have also seen an increase in average order value that has resulted in increased e-commerce revenue. While traffic to the website decreased 8% during 2025, sales conversion rates increased 28% resulting in a 25% increase in total web sales. Although e-commerce sales continue to be small relative to in-store sales, we will continue to invest in ongoing improvements to the aesthetics and user experience on our website while not compromising on our in-store experience or the quality of our in-home makeover capabilities.",
+    "During the fourth quarter of fiscal 2022 we acquired Noa Home Inc. (\"Noa Home\"). A mid-priced e-commerce furniture retailer headquartered in Montreal, Canada, Noa Home had operations in Canada, Australia, Singapore and the United Kingdom. After nearly two years of operating losses, we concluded during the second quarter of 2024 that Noa Home was not likely to achieve profitability at any time in the foreseeable future and decided to cease operations by selling the inventory in an orderly fashion. As of the end of 2024, we had substantially completed the liquidation of Noa Home's assets and liabilities. In the second quarter of 2024 we recognized non-cash charges totaling $2,401 related to the impairment of certain long-lived assets of Noa Home and the establishment of a reserve against Noa Home's remaining inventory at that time. Upon substantially completing the liquidation of Noa Home at the end of the fourth quarter of 2024, we recognized a charge of $962 associated with the transfer of the cumulative translation losses out of accumulated other comprehensive income.",
+    "We have factories in Newton, North Carolina that manufacture both stationary and motion upholstered furniture for inside the home along with our outdoor furniture offerings. We have a factory in Martinsville, Virginia that assembles and finishes our custom bedroom and dining offerings. We also have a facility in Haleyville, Alabama where we manufacture aluminum frames for our outdoor furniture.",
+    "In addition to the furniture that we manufacture domestically, we source most of our formal bedroom and dining room furniture (casegoods) and certain leather upholstery offerings from several foreign plants, primarily in Vietnam. Over 75% of our wholesale revenues are derived from products that are manufactured in the United States using a mix of domestic and globally sourced components and raw materials.",
+    "The following discussion provides an analysis of our results of operations and reasons for material changes therein for fiscal year 2025 as compared to fiscal year 2024. For additional analysis of the fiscal year 2024 results as compared to fiscal year 2023, see \"Analysis of Continuing Operations\" in Part II, Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations in the Company's 2024 Annual Report on Form 10-K, filed with the SEC on February 10, 2025.",
+    "Net sales revenue, cost of furniture and accessories sold, selling, general and administrative (\"SG&A\") expense, other charges, and income from operations were as follows for the years ended November 29, 2025, November 30, 2024 and November 25, 2023:",
+    "2025 2024* 2023 Dollars Percent Dollars Percent Net sales 335,280 100.0 329,923 100.0 390,136",
+    "100.0 5,357 1.6 (60,213 -15.4 Cost of goods sold 146,598 43.7 150,508 45.6 183,648 47.1 (3,910",
+    "-2.6 (33,140 -18.0 Gross profit 188,682 56.3 179,415 54.4 206,488 52.9 9,267 5.2 (27,073 -13.1"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "運營分部",
+    "政府規範",
+    "人力資本",
+    "主要客戶",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "Bassett 是一家領先的零售、製造與行銷自有品牌的居家傢俱公司。我們於 1902 年成立，並於 1930 年依照維吉尼亞州法律註冊。我們豐富的 123 年歷史已內化了品質、價值與誠信的原則至我們所有行動中，同時也提供我們應對不斷變化的消費者品味與滿足全球經濟需求的專業知識。",
+    "我們約 60% 的批發銷售來自我們的 86 家本公司所有與授權經營的 Bassett Home Furnishings（\"BHF\"）門市。我們的門市計畫設計為提供一個單一來源的居家傢俱零售門市，具備獨特的時尚、高品質傢俱與配件，並提供高水平的客戶服務。這些門市突顯我們的客製傢俱設計與製造能力，免費的居家或虛擬設計訪問（\"居家改造\"）以及協調的裝飾配件。我們的哲學基於與每位客戶建立強而有力的長期關係。銷售人員被稱為 \"設計顧問\"，並接受訓練以評估客戶需求並為其居家裝飾提供全面解決方案。在完成嚴格的訓練與設計認證計畫前，設計顧問不得為客戶提供居家或虛擬設計服務。",
+    "Bassett 還擁有重要的傳統批發業務，擁有超過 1,000 個公開市場帳戶。大多數的公開市場銷售是透過 Bassett Design Centers 和 Bassett Custom Studios 進行，這些設施作為多線商品門市中的一個門市，展示本公司客製傢俱的專業能力。批發業務，包括 Lane Venture 戶外品牌，也透過超過 30 名獨立銷售代表的網路服務一般傢俱門市與日益增多的室內設計公司，這些銷售代表擁有明確的地理區域。這些銷售代表根據標準佣金率進行報酬。",
+    "我們認為我們的網站是品牌體驗的入口，客戶可以研究我們的傢俱與配件產品，並隨後線上購買或與門市設計顧問互動。我們知道我們透過 www.bassettfurniture.com 的參與，正在驅動大量零售足跡至我們的門市網路與公開市場客戶。數位行銷策略一直是品牌廣告與客戶獲取的主要工具。我們在 2024 年末開始補充數位行銷策略，加入直接郵件與電視廣告，並預期在 2026 年持續維持數位與傳統直接郵件與電視廣告的平衡組合。",
+    "我們在 2023 年末推出了一個新的網站平台，具備世界級功能，包括增強的客戶研究能力與簡化導覽。自新網站啟動以來，我們觀察到品牌互動增加，每位客戶的頁面瀏覽次數增加，並在網站上停留的時間也增加。我們也觀察到平均訂單價值增加，導致電商收入增加。雖然 2025 年網站流量減少 8%，但銷售轉化率增加 28%，導致總網站銷售額增加 25%。儘管電商銷售相對於門市銷售仍屬小數，我們仍會持續投資於網站的美觀與用戶體驗改進，同時不影響門市體驗或居家改造能力的品質。",
+    "在財務 2022 年第四季，我們收購了 Noa Home Inc.（\"Noa Home\"）。Noa Home 是一家中價位的電商傢俱零售商，總部設於加拿大蒙特利爾，其業務運作於加拿大、澳洲、新加坡與英國。在近兩年的營運虧損後，我們在 2024 年第二季結論 Noa Home 在可預見的未來不太可能實現盈利，並決定透過有序出售存貨來停止營運。截至 2024 年底，我們已 substantially 完成 Noa Home 的資產與負債清算。在 2024 年第二季，我們認列與 Noa Home 某些長壽命資產減損及當時 Noa Home 剩餘存貨備抵減損相關的非現金費用，總計為 2,401 美元。在 2024 年第四季末 substantially 完成 Noa Home 的清算後，我們認列與將累積翻譯損失從累積其他綜合損益中轉出相關的費用為 962 美元。",
+    "我們在北卡羅來納州 Newton 運營工廠，製造居家使用的靜態與動態 upholstered 傢俱，以及我們的戶外傢俱產品。我們在維吉尼亞州 Martinsville 運營工廠，組裝與完成我們的客製寢室與用餐傢俱。我們也在亞拉巴馬州 Haleyville 運營設施，製造我們戶外傢俱的鋁合金框架。",
+    "除了我們 domestically 製造的傢俱外，我們主要從幾個海外工廠，主要位於越南，進口我們的正式寢室與用餐傢俱（casegoods）以及某些皮革 upholstered 產品。我們超過 75% 的批發收入來自於美國製造的產品，這些產品使用 domestically 製造與全球來源的零組件與原材料。",
+    "我們已戰略性地將業務劃分為兩個應報告分部：Wholesale Retail—本公司所屬門市",
+    "Wholesale 分部主要從事傢俱產品的設計、製造與採購，這些產品透過我們的 BHF 門市網路（包括本公司所屬與授權經營門市）以及各類獨立零售商進行銷售。Wholesale 傢俱產業競爭非常激烈，美國境內與境外均有許多製造商參與市場競爭，競爭的重點在於產品品質、價格、款式、交貨速度與服務。此外，許多零售商直接進口產品，因此跳過國內傢俱製造商與 Wholesale 進口商。我們認為在目前的競爭環境中，我們的產品能成功的原因在於其提供極具吸引力的價格、品質與款式、快速交貨與優越的服務。",
+    "過去三個會計年度，按類別計算 Wholesale 的出貨量（扣除對零售分部的內部銷售），總結如下：",
+    "2025 2024* 2023 外部 內部總計 外部 內部總計 外部 內部",
+    "總計 Bassett Custom Upholstery 76,923 59,391 136,314 63.5 79,281 55,168 134,449 64.8 89,005",
+    "66,363 155,368 62.4 Bassett Leather 16,484 3,252 19,736 9.2 15,705 1,920 17,625 8.5 26,701"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "持續營運分析",
+    "比較變動",
+    "2025 與 2024",
+    "2024 與 2023",
+    "2023 與 2022",
+    "銷售收入",
+    "分部資訊",
+    "分部結果與合併營運結果之彙總",
+    "會計年度終了於2025年11月29日",
+    "會計年度終了於2024年11月30日",
+    "會計年度終了於2023年11月25日",
+    "批發分部",
+    "零售分部 – 本公司自有商店",
+    "企業本部及其他",
+    "其他影響淨收入（損失）項目",
+    "所得稅提撥",
+    "{'original': 'Liquidity and Capital Resources', 'translated': '流動性及資本運用'}",
+    "{'original': 'Fair Value Measurements', 'translated': '公允價值衡量'}",
+    "{'original': 'Off-Balance Sheet Arrangements', 'translated': '表外安排'}",
+    "{'original': 'Contingencies', 'translated': '或有事項'}",
+    "{'original': 'Critical Accounting Estimates', 'translated': '關鍵會計估計'}",
+    "{'original': 'Recent Accounting Pronouncements', 'translated': '最近會計準則聲明'}"
+   ],
+   "paragraphs": [
+    "(金額以千美元為單位，除股數及每股資料外) 總覽",
+    "Bassett 是一家領先的零售商、製造商與品牌居家裝飾產品的行銷商。我們於 1902 年成立，並於 1930 年根據維吉尼亞州法律註冊為公司。我們豐富的 123 年歷史已將品質、價值與誠信深植於我們所做的一切之中，同時也使我們具備應對不斷變化的消費者品味與滿足全球經濟需求的專業知識。",
+    "我們約 60% 的批發銷售來自我們的 86 家公司自有及授權經營的 Bassett Home Furnishings (\"BHF\") 網路門市。我們的門市計畫設計為提供一個單一來源的居家裝飾零售門市，擁有獨特結合時尚、品質傢俱與配件，並具備高水準的客戶服務。這些門市突顯我們的客製傢俱設計與製造能力，並提供免費的居家或虛擬設計服務 (\"居家改造\") 以及協調的裝飾配件。我們的經營哲學基於與每位客戶建立強而有力的長期關係。銷售人員被稱為 \"設計顧問\"，並接受訓練以評估客戶需求並為其居家裝飾提供完整的解決方案。在完成嚴格的訓練與設計認證計畫之前，設計顧問不得為客戶提供居家或虛擬設計服務。",
+    "Bassett 還擁有重要的傳統批發業務，擁有超過 1,000 個公開市場帳戶。大多數的公開市場銷售是透過 Bassett Design Centers 和 Bassett Custom Studios 進行，這些機構作為多線商品門市中的一個門市，展示本公司客製傢俱的製造能力。該批發業務，包括 Lane Venture 戶外品牌，也透過超過 30 名獨立銷售代表的網路服務一般傢俱門市及日益增多的室內設計公司，這些銷售代表擁有明確的地理區域。這些銷售代表根據標準佣金率進行報酬。",
+    "我們認為我們的網站是品牌體驗的入口，顧客可以研究我們的傢俱與配件產品，並隨後在網路上購買或與門市設計顧問互動。我們知道我們透過 www.bassettfurniture.com 的互動，正驅動大量零售人潮至我們的門市網路及公開市場客戶。數位行銷策略一直是品牌廣告與客戶獲取的主要工具。我們於 2024 年末開始補充數位行銷策略，加入更多直接郵件與電視廣告，並預期在 2026 年持續維持數位與傳統直接郵件與電視廣告的平衡組合。",
+    "我們於 2023 年末推出了一個新的網站平台，具備世界級的功能，包括增強的客戶研究能力與簡化的導覽功能。自新網站啟用以來，我們觀察到品牌互動增加，每位客戶的頁面瀏覽次數增多，並在網站上停留的時間也更長。我們也觀察到平均訂單價值增加，導致電商銷售收入增加。雖然 2025 年網站流量減少 8%，但銷售轉化率增加 28%，導致總網購銷售額增加 25%。儘管電商銷售相對於門市銷售仍然較小，我們仍會持續投資於網站的美觀與使用者體驗的改進，同時不影響門市體驗或我們居家改造能力的品質。",
+    "在財務 2022 年第四季，我們收購了 Noa Home Inc. (\"Noa Home\")。Noa Home 是一家中價位的電商傢俱零售商，總部設於加拿大蒙特利爾，其業務範圍包括加拿大、澳洲、新加坡與英國。在近兩年的營運虧損後，我們於 2024 年第二季決定 Noa Home 在可預見的未來不太可能實現盈利，並決定透過有序出售存貨來停止營運。截至 2024 年底，我們已 substantially 完成 Noa Home 的資產與負債清算。在 2024 年第二季，我們認列與 Noa Home 某些長壽命資產減損及當時 Noa Home 剩餘存貨備抵減值相關的非現金費用，總計為 2,401 美元。在 2024 年第四季末 substantially 完成 Noa Home 的清算後，我們認列與將累積翻譯損失從累計其他綜合損益轉出相關的費用 962 美元。",
+    "我們在北卡羅來納州 Newton 運營工廠，製造室內居家用的靜態與動態 upholstered 傢俱，以及我們的戶外傢俱產品。我們在維吉尼亞州 Martinsville 運營工廠，用以組裝與完工我們的客製寢室與用餐傢俱。我們也在阿拉巴馬州 Haleyville 運營一個工廠，製造我們戶外傢俱的鋁製框架。",
+    "除我們在國內製造的傢俱外，我們主要從幾個位於越南的海外工廠進口正式的臥室與餐廳傢俱（casegoods）以及部分皮革 upholseting 產品。超過 75% 的我們的批發營業收入來自於美國製造的產品，這些產品使用國內與全球來源的零組件與原材料組成。",
+    "以下討論提供我們營運成果的分析，以及 2025 財年與 2024 財年之間重大變動的原因。有關 2024 財年與 2023 財年結果的進一步分析，請參閱 2024 年年度報告（Form 10-K）中 Part II, Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations 部分的 \"Analysis of Continuing Operations\"。",
+    "截至 2025 年 11 月 29 日、2024 年 11 月 30 日及 2023 年 11 月 25 日的會計年度，淨銷售額、銷售成本、營銷、一般及行政費用（\"SG&A\"）、其他費用及營業收入如下：",
+    "2025 2024* 2023 美元 百分比 美元 百分比 淨銷售額 335,280 100.0 329,923 100.0 390,136",
+    "100.0 5,357 1.6 (60,213 -15.4 銷售成本 146,598 43.7 150,508 45.6 183,648 47.1 (3,910",
+    "-2.6 (33,140 -18.0 毛利率 188,682 56.3 179,415 54.4 206,488 52.9 9,267 5.2 (27,073 -13.1"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們零售業務相關的風險",
+    "我們面臨一個波動的零售環境及變動的經濟條件，可能進一步不利於消費者需求及支出。",
+    "我們的零售商店面臨來自全國性、區域性及地方性家居用品零售商的重大競爭，包括透過互聯網增加的線上競爭。",
+    "我們的授權自有商店可能無法履行對我們的義務。",
+    "與我們品牌及產品組合相關的風險",
+    "未能成功預測或及時回應消費者品味及趨勢的變化，可能對我們的業務、營運成果及財務狀況造成不利影響。",
+    "與重要物料來源及供應相關的風險",
+    "我們對部分產品使用海外生產來源，使我們面臨與國際運營相關的某些額外風險。",
+    "{'original': 'Risks Related to Electronic Data Processing and Digital Information', 'translated': '與電子資料處理及數位資訊相關之風險'}",
+    "{'original': 'We rely extensively on computer systems to process transactions, summarize results and manage our business.  Disruptions in both our primary and back-up systems could adversely affect our business and operating results.', 'translated': '本公司高度依賴電腦系統處理交易、彙總結果及管理營運。本公司主要系統與備用系統若發生中斷，可能對營運及營業成果造成不利影響。'}"
+   ],
+   "paragraphs": [
+    "下列風險因素應謹慎閱讀，以評估我們的業務及本年度報表（Form 10-K）中所包含的前瞻性資訊。以下風險因素代表我們認為與我們及我們業務相關的重大風險因素。任何上述風險都可能對我們的業務、營運、產業、財務狀況或未來財務結果造成重大不利影響。",
+    "歷史上，居家裝飾產業曾受到總體經濟週期性變動及未來經濟前景不確定性的影響。若當前經濟情況惡化、住宅開工率持續下降，或通貨膨脹持續升高，消費者對居家裝飾的信賴度與需求可能下降，進而對我們的業務造成不利影響，包括影響我們自有商店的營運表現，以及我們的特許經營商與其履行對我們義務的能力。",
+    "居家裝飾零售市場高度分散且競爭激烈。我們目前與多種類型的零售商競爭，包括全國性百貨公司、區域性或獨立專業商店，以及傢俱製造商的專門連鎖店。全國性折扣零售商如Costco也僅提供有限的商品種類。我們也與透過商店目錄及網際網路銷售商品的零售商競爭。此外，進入我們目前及預期市場的門檻較低，新進競爭者可能隨時進入我們現有或未來的市場。我們也觀察到越來越多的零售商提供消費者透過網際網路購買居家裝飾並送達家中服務，此趨勢預期將持續。我們現有競爭者或新進市場者可能使用多種不同的策略來與我們競爭，包括強勢的廣告、價格及行銷策略、提供比我們更優惠的信貸條件，以及擴張至我們目前經營的市場。來自任何來源的競爭都可能導致我們失去市佔率、營收與客戶，增加支出或降低價格，任何一種情況都可能對我們的營運成果造成重大不利影響。",
+    "我們有大量應收帳款來自我們特許經營商所擁有商店的網路。我們也為兩位特許經營商各自擔保一筆租賃。若這些商店無法產生足夠的銷售額與利潤，特許經營商可能無法履行對我們的義務，導致產生額外的呆帳費用及與不動產相關的損失。",
+    "我們傢俱的銷售取決於消費者對我們設計、風格、品質與價格的接受度。如同所有零售商一樣，我們的業務會受到消費者品味與趨勢變動的影響。我們試圖透過參與國際產業活動及時尚展會、內部市場研究，以及與零售商及設計顧問的溝通，來監測消費者品味與居家設計趨勢的變化。然而，這些品味與趨勢可能迅速改變，若未能及時預測或回應這些變化，將可能對我們的業務、營運成果與財務狀況造成不利影響。",
+    "此外，某些供應商可能需要我們提前提供大量資訊，以生產我們所需的產品數量。這項長週期的生產時間可能導致我們必須提前下訂單，而產品銷售時間尚未到來，進而使我們面臨消費者需求與趨勢變動，以及美國經濟衰退的風險。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,195 @@
+{
+ "ticker": "CELH",
+ "cik": "0001341766",
+ "accession": "0001341766-26-000024",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Products",
+    "Manufacture and Supply of Our Products",
+    "Distribution",
+    "Sales and Marketing",
+    "Intellectual Property Rights",
+    "Government Regulation",
+    "Compliance with Environmental Laws",
+    "Human Capital Resources",
+    "Available Information and Use of Our Company Website to Disseminate Information"
+   ],
+   "paragraphs": [
+    "When used in this Report, unless otherwise indicated, the terms the \"Company,\" \"Celsius,\" \"we,\" \"us\" and \"our\" refer to Celsius Holdings, Inc. and its subsidiaries. Definitions of certain capitalized terms used in this Report are included within the Master Glossary.",
+    "We were incorporated in the State of Nevada on April 26, 2005. Our Common Stock is listed on the Nasdaq Capital Market under the symbol \"CELH\".",
+    "Celsius operates as a functional energy drink and wellness beverage company in the U.S. and internationally. We develop, process, market, sell, manufacture and distribute a portfolio of differentiated products with innovative formulas meant to positively impact the lives of our consumers. Our products are positioned as premium lifestyle beverages designed to support active, wellness-oriented, modern energy drink consumers. Our portfolio primarily consists of energy drinks offered under the CELSIUS®, Alani Nu® and Rockstar® brands, with CELSIUS® and Alani Nu® also offering a range of additional wellness products. Through these brands, we serve a broad range of consumers across the functional energy and adjacent wellness categories.",
+    "Our products are available in the U.S., Canada, Europe, the Middle East and the Asia-Pacific regions. They are sold through multiple channels, including conventional grocery, natural-food and convenience stores, fitness centers, mass-market and vitamin specialty retailers and e-commerce platforms.",
+    "On the Closing Date of the Pepsi Transactions, we entered into a series of related transactions and agreements with Pepsi, which included the following:",
+    "•Securities Purchase Agreement - We issued and sold 390,000 shares of Series B Preferred Stock to Pepsi and modified certain terms of the outstanding shares of Series A Preferred Stock to align key terms, such as conversion and redemption dates, with those of the newly issued Series B Preferred Stock, all of which are currently held by Pepsi. These issuances and modifications formed part of the overall consideration exchanged in connection with the Pepsi Transactions. As part of these arrangements, Pepsi received the right to designate an additional member to our Board, giving Pepsi a total of two Board seats.",
+    "•Rockstar Acquisition - Pursuant to the Transaction Agreement, we acquired certain assets and assumed certain liabilities comprising Rockstar in the U.S. and Canada. The consideration for this acquisition included the consideration described above and other commercial commitments set forth in the Transaction Agreement.",
+    "•Captaincy - Also pursuant to the Transaction Agreement, we and Pepsi commenced the Captaincy, an enhanced long-term commercial arrangement under which Pepsi has agreed to use commercially reasonable efforts to sell and distribute our products in the U.S. in accordance with jointly developed sales, placement and promotional priorities. The Captaincy commenced on the Closing Date of the Pepsi Transactions and is expected to continue for the term of the A&R U.S. Distribution Agreement.",
+    "•A&R Distribution Agreements - We entered into the A&R Distribution Agreements, under which Pepsi continues to serve as our primary distributor for Celsius products in the U.S. and Canada and has become the primary distributor of Alani Nu and Rockstar products in these markets. All other material provisions of each of the Original U.S. Distribution Agreement and Original Canadian Distribution Agreement remain in effect.",
+    "On the Closing Date of Alani Nu, we completed the Alani Nu Acquisition for a total consideration comprising (i) $1,275.0 million in cash, subject to adjustment as set forth in the purchase agreement, (ii) an aggregate of 22,451,224 shares of our Common Stock and (iii) up to $25.0 million in additional cash consideration, which we determined to be fully payable to the Sellers based on Alani Nu's revenue meeting an agreed upon target for calendar year 2025 and which we expect to pay in the first quarter of 2026.",
+    "On the Closing Date of Alani Nu, Celsius and certain of its subsidiaries, the lenders and issuing banks from time to time party thereto and UBS AG, Stamford Branch, as administrative agent and collateral agent, entered into a Credit Agreement, which provided for a term loan facility in an aggregate principal amount of up to $900.0 million, which was fully drawn on the Closing Date of Alani Nu to fund a portion of the cash consideration paid to the Sellers (the remaining cash consideration was funded with existing cash on hand), and the Revolving Credit Facility in an aggregate principal amount of up to $100.0 million, which remained undrawn as of December 31, 2025.",
+    "On October 2, 2025, we entered into the First Refinancing Amendment, which amended the Credit Agreement and reduced the applicable interest rates on both the Term Loan Facility and the Revolving Credit Facility by 75 basis points. In connection with the amendment, we repaid the remaining balance of the $900.0 million term loan with a new $700.0 million term loan and approximately $197.8 million of cash on hand. No prepayment penalties were incurred. All other material terms of the Credit Agreement remained unchanged.",
+    "We introduced our first CELSIUS® functional energy drink in 2005 and our portfolio has expanded significantly as we have broadened our brand platform. Today we offer a range of product lines under the CELSIUS®, Alani Nu® and Rockstar® brands. Each brand features unique flavor profiles, formulations and consumer positioning, allowing us to serve a broad and diverse consumer base within the functional energy category.",
+    "We offer a unified portfolio of functional energy and wellness beverages across multiple brands, providing consumers with a variety of formats, flavor profiles and functional benefits. Certain products within our portfolio are formulated with ingredients such as caffeine, green tea extract (EGCG), ginger root extract, amino acids, vitamins, electrolytes and other performance-oriented components. Many products contain zero sugar, are low in calories and are designed to support energy, focus, hydration and overall wellness. Our portfolio includes the following primary product types:"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Related to Our Business",
+    "We rely on distributors to distribute our products in the DSD channel and in international markets. If we are unable to maintain good relationships with our existing distributors, our business will suffer.",
+    "Pepsi's increased ownership stake and additional Board representation may allow it to exert greater influence over our strategic and governance decisions.",
+    "Our ability to successfully execute our responsibilities under the Captaincy and the A&R Distribution Agreements with Pepsi is critical to our long-term performance.",
+    "If we fail to manage future growth effectively, our business could be materially adversely affected.",
+    "Alani Nu, Rockstar or other acquired businesses may have liabilities that are not known to us.",
+    "Our customers are material to our success. If we are unable to maintain good relationships with our existing customers, our business could suffer.",
+    "Increases in cost or shortages of raw materials or increases in costs of co-packing could harm our business.",
+    "Tariffs, inflationary pressures and global supply-chain disruptions could increase costs and reduce profitability.",
+    "Our failure to accurately estimate demand for our products could adversely affect our business and financial results.",
+    "Significant additional labeling or warning requirements or limitations on the marketing or sale of our products may inhibit sales of our products.",
+    "Our continued expansion outside of the U.S. exposes us to uncertain conditions and other risks in international markets.",
+    "Numerous U.S. and international laws, including export and import controls, affect our ability to compete in international markets.",
+    "We may incur material losses as a result of product recalls, regulatory enforcement actions and liabilities related to our products.",
+    "The FDA could take issue with the manufacturer, composition/ingredients, packaging, marketing/labeling, storage, transportation and/or distribution of our products.",
+    "Our advertising and promotional activities may be subject to regulatory review of the truthfulness and substantiation of product claims.",
+    "We rely on our management team and other key personnel.",
+    "If we fail to attract or maintain a highly skilled and diverse workforce, our business could be negatively affected.",
+    "Global or regional catastrophic events could impact our operations and affect our ability to grow our business.",
+    "Climate change and natural disasters may affect our business."
+   ],
+   "paragraphs": [
+    "In addition to the other information contained in this Report, including in Part II, Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations and the Consolidated Financial Statements and related notes thereto, you should carefully consider the following risks. The occurrence of any of the events discussed below could significantly and adversely affect our business, prospects, financial condition, results of operations and cash flows.",
+    "We distribute CELSIUS® products in the DSD channel through agreements with established distributors that provide sales, marketing, and distribution infrastructure. Since 2022, we have maintained an exclusive distribution agreement with Pepsi for certain territories in the U.S., which we extended in 2023 and 2024 to include parts of Canada. In August 2025, we further expanded our partnership with Pepsi through the A&R Distribution Agreements, under which Pepsi serves as the primary distributor for our portfolio, including Alani Nu and Rockstar, in the U.S. and Canada. Internationally, we maintain exclusive agreements with the Suntory Group to distribute CELSIUS® products, including Lucozade Ribena Suntory Limited for the United Kingdom, Channel Islands, Isle of Man and Ireland; Frucor Suntory Australia Pty Limited and Frucor Suntory New Zealand Limited for Australia and New Zealand, respectively; and Orangina Schweppes France and Schweppes Suntory Benelux SA for France, Monaco, Belgium, Luxembourg and the Netherlands. We are substantially reliant on these multiyear distribution arrangements and their respective counterparties to support our growth in the respective territories. Many of these distributors also manufacture or distribute competing beverage products, and their sales and marketing priorities are critical to our success. If our distributors do not promote our products effectively or prioritize our portfolio relative to competing brands, or if we fail to attract or transition to new distributors on a timely basis, our business, financial condition, results of operations and cash flows could be materially adversely affected.",
+    "We have extensive commercial arrangements with Pepsi and, as a result, significant disagreements with Pepsi or a termination of these arrangements could materially adversely impact our financial position and results of operations.",
+    "In 2025, sales to Pepsi constituted 43.2% of our total net revenue, and receivables from Pepsi represented 46.2% of our total receivables as of December 31, 2025. Pepsi is our primary distributor for our products in the U.S. and the exclusive distributor of our products in select territories in Canada. As we continue to streamline and optimize our distribution strategy, we expect our reliance on Pepsi to remain significant and may increase over time. Accordingly, we are dependent on Pepsi's domestic and Canadian distribution. Given the significant concentration of our supply chain with Pepsi, Pepsi can influence our strategic decision making as we seek to expand and grow our product lines, and any significant disagreement or a termination of our arrangements with Pepsi could prevent us from distributing our products and would have a material adverse effect on our business, financial condition, results of operations and cash flows.",
+    "Pepsi holds a significant ownership position in the Company through its preferred equity investments and has two designated directors serving on the Board. As a result, Pepsi may exert greater influence over certain strategic, operational and governance matters, including decisions related to distribution, marketing priorities and long-term business planning. The interests of Pepsi may not always align with those of our other stockholders. In addition, under our A&R Distribution Agreements and the Captaincy, Pepsi has a prominent role in the commercialization and distribution of our portfolio in the U.S. While we believe this partnership provides substantial benefits, the increased ownership and Board representation by Pepsi could create potential conflicts of interest, affect our ability to operate independently or limit our flexibility in pursuing alternative strategic initiatives. Any such influence could have a material impact on our governance practices, business, financial condition, results of operations and cash flows.",
+    "Our A&R Distribution Agreements with Pepsi and related Transaction Agreement formalized the Captaincy, which has been designed to strengthen coordination within Pepsi's U.S. distribution system by giving us more influence over category management decisions such as product facings, merchandising allocations and promotional execution for our brands. While this structure enhances collaboration with Pepsi and market visibility, it also requires significant alignment with Pepsi's operational priorities and execution capabilities. Any failure by either us or Pepsi to fulfill its obligations, maintain consistent execution or effectively manage our business under the Captaincy could result in lost sales opportunities, channel inefficiencies or reputational harm. Because the Captaincy is central to the long-term distribution of CELSIUS®, Alani Nu® and Rockstar® in the U.S., any deterioration in this relationship or inability to perform under the arrangement could materially adversely affect our business, financial condition, results of operations and cash flows."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Our Business",
+    "Comparability with Prior Year",
+    "Results of Operations",
+    "Year ended December 31, 2025 compared to year ended December 31, 2024",
+    "Revenue $ 2,515,269 $ 1,355,630 %",
+    "Liquidity and Capital Resources",
+    "Cash flows for the years ended December 31, 2025 and 2024",
+    "Off Balance Sheet Arrangements",
+    "Critical Accounting Policies and Estimates"
+   ],
+   "paragraphs": [
+    "This Management's Discussion and Analysis of Financial Condition and Results of Operations should be read in conjunction with our Consolidated Financial Statements and the accompanying notes included elsewhere in this Report. This Report contains forward-looking statements within the meaning of the PSLRA, Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Exchange Act, about our expectations, beliefs, plans and intentions regarding our product development efforts, business, financial condition, results of operations, strategies and prospects. Readers can identify forward-looking statements by the fact that these statements do not relate to historical or current matters. Rather, forward-looking statements relate to anticipated or expected events, activities, trends or results. Because forward-looking statements relate to matters that have not yet occurred, these statements are inherently subject to risks and uncertainties that could cause our actual results to differ materially from any future results expressed or implied through forward-looking statements. Please refer to Item 1A. Risk Factors for a detailed discussion of these uncertainties and risks. Forward-looking statements reflect our views as of the date they are made. Except as required by law, we are not obligated to revise or publicly release any updates to these forward-looking statements. This includes not updating the statements to reflect events or circumstances occurring after they were made, or to address any differences between anticipated and actual results. We intend for all forward-looking statements to be subject to the safe harbor provisions of PSLRA.",
+    "The Management's Discussion and Analysis section aims to help the reader understand the Company's financial status and operational performance, guiding readers through our current business landscape and operational environment. Our analysis includes our results of operations and financial condition for the years ended December 31, 2025 and 2024 and year-over-year comparisons between 2025 and 2024. For a detailed discussion of our results of operations and financial condition for the year ended December 31, 2024 and year-over-year comparisons between 2024 and 2023, please refer to Management's Discussion and Analysis of Financial Condition and Results of Operations in Part II, Item 7 of our Annual Report on Form 10-K for the year ended December 31, 2024.",
+    "Definitions of key terms can be found in the Master Glossary. Unless otherwise noted, tabular dollars are presented in thousands, except per share amounts.",
+    "Celsius is a functional energy drink company operating in the U.S. and internationally. We currently market three brands within our portfolio: CELSIUS®, our flagship functional energy brand; Alani Nu, a wellness-focused energy and nutritional product brand that we acquired in April 2025; and Rockstar, an energy drink with a rich brand heritage that we acquired in August 2025. Together, these brands position us to serve a broad and growing base of consumers seeking functional performance, better-for-you formulations and active lifestyle support.",
+    "Celsius is available in two convenient forms: ready-to-drink and an on-the-go powder. Additionally, we offer our CELSIUS ESSENTIALS™ line, featuring 16-ounce cans enriched with aminos. In 2025, we introduced CELSIUS® Hydration, a line of non-caffeinated, zero-sugar hydration powders, featuring electrolytes in a variety of fruit-forward flavors. Our product range is widely available across the U.S. and in select territories in Canada in various retail outlets, including grocery stores, natural product stores, convenience stores, fitness centers, mass retailers, vitamin specialty stores and through e-commerce platforms. Moreover, our products are offered in select markets in Europe, the Middle East and the Asia-Pacific region as we have continued to expand our global presence.",
+    "Alani Nu expands our reach beyond energy into wellness and nutrition with a product range spanning energy drinks, pre-workout formulas, protein beverages and supplements. With a strong following among Gen Z and female consumers, Alani Nu adds depth to our innovation pipeline and provides meaningful opportunities for domestic and global expansion.",
+    "Through our addition of Rockstar, we offer beverages in both full-sugar and zero-sugar formats. Rockstar complements our portfolio with its established brand equity and appeal to traditional energy drink consumers. Collectively, our brands position Celsius to meet the diverse preferences of consumers seeking functional performance, wellness benefits and better-for-you energy options.",
+    "We engage in developing, manufacturing, processing, marketing, selling and distributing Celsius, Alani Nu and Rockstar products. Our operational model strategically relies primarily on co-packers for the manufacture and supply of our products, leveraging their specialized expertise and scalable production capabilities. Additionally, we utilize our in-house manufacturing facility to complement our strategic use of co-packers. This approach allows us to maintain flexibility in responding to market demands and to focus our resources on innovation, marketing and expanding our distribution channels. We continuously assess and work to optimize our supply chain to ensure quality, consistency and timely delivery to our customers.",
+    "Building on the long-term distribution agreement we originally established with Pepsi in August 2022, on the Closing Date of the Pepsi Transactions, we entered into a series of transactions that expanded our strategic partnership. These included (i) the Rockstar Acquisition, (ii) the issuance of Series B Preferred Stock and amendment of the existing Series A Preferred Stock and (iii) the execution of the A&R Distribution Agreements, which designate Pepsi as the primary distributor of our Alani Nu and Rockstar products in the U.S. and Canada. Under the enhanced commercial arrangement, Pepsi has agreed to use its commercially reasonable efforts to sell and distribute our full portfolio of products in the U.S. in accordance with the Captaincy.",
+    "Energy Drink Market Trends - The energy drink industry continues to expand, driven by sustained consumer demand for functional beverages that offer benefits beyond those offered by the larger carbonated soft drink market such as various health benefits, energy boosts, or other fitness-related advantages. While industry growth has moderated over the past year, the category remains supported by longer-term trends such as increasing consumer focus on healthier lifestyles, greater interest in lower-calorie and reduced-sugar options, and a preference for products formulated with more natural ingredients. These trends have contributed to the continued evolution and resilience of the energy drink category.",
+    "Consumer Behavior Changes - We continue to observe a rising trend of consumers seeking products that align with personal wellness and fitness goals. While Celsius has historically resonated with fitness-oriented consumers, we are increasingly seeing adoption across a broader range of consumption occasions, reflecting consumer interest in functional beverages beyond exercise-adjacent use. Our product portfolio is positioned to address this evolving demand, appealing to health-conscious consumers across a range of lifestyles and daily routines. In addition, female consumers represent a growing demographic for the brand, reflecting increased engagement from a segment that has historically represented a smaller portion of the consumer base.",
+    "Technological Advancements and Digital Trends - The integration of technology, including AI, in marketing and sales strategies is becoming increasingly important to our business. Leveraging digital marketing channels, e-commerce platforms, AI enabled tools and data analytics are essential for reaching and understanding modern consumers. Adapting to these technological trends is vital for staying competitive and meeting evolving consumer expectations.",
+    "Pepsi Partnership - Our partnership with Pepsi continues to be a significant component of our commercial strategy and operating model. During 2025, we expanded this relationship beyond distribution to include additional strategic and commercial arrangements which further integrated Pepsi into our sales and marketing execution across key markets in the U.S.",
+    "Through this partnership, we benefit from Pepsi's scale, operational capabilities and established distribution infrastructure which supports product availability, retail execution and market penetration across multiple channels in the U.S. and Canada. The expanded scope of our relationship with Pepsi, including enhanced coordination around sales, placement and promotional priorities, is intended to support execution consistency and improve speed to market as we scale our brand portfolio."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司產品",
+    "本公司產品之製造與供應",
+    "分銷",
+    "銷售與行銷",
+    "智慧財產權權利",
+    "政府規範",
+    "符合環境法規",
+    "人力資本資源",
+    "可取得資訊及本公司網站用以發佈資訊之使用"
+   ],
+   "paragraphs": [
+    "當本報告中使用 \"Company\"、\"Celsius\"、\"we\"、\"us\" 及 \"our\" 一詞時，除非另有說明，否則均指 Celsius Holdings, Inc. 及其子公司。本報告中使用之某些大寫詞彙之定義，包含於 Master Glossary 中。",
+    "本公司於 2005 年 4 月 26 日在內華達州註冊成立。本公司普通股於納斯達克資本市場上市，股票代碼為 \"CELH\"。",
+    "Celsius 在美國及國際上運作為一家功能性能量飲料與健康飲料公司。我們開發、加工、行銷、銷售、製造與分銷一系列具有差異化產品，擁有創新配方，旨在正面影響消費者的生活。我們的產品定位為高階生活風格飲料，設計用以支持活躍、重視健康、現代能量飲料消費者。我們的產品組合主要為能量飲料，以 CELSIUS®、Alani Nu® 與 Rockstar® 品牌銷售，其中 CELSIUS® 與 Alani, Nu® 也提供一系列其他健康產品。透過這些品牌，我們服務功能性能量飲料與相關健康類別的廣大消費者。",
+    "我們的產品可在美國、加拿大、歐洲、中東及亞太地區銷售。銷售通路包括傳統超市、天然食品店與便利商店、健身中心、大眾市場與維他命專賣店以及電商平台。",
+    "在 Pepsi 交易的成交日，我們與 Pepsi 籤訂一系列相關交易與協議，包括以下內容：",
+    "•證券購買協議 - 我們發行並出售 390,000 股 Series B 優先股給 Pepsi，並修改現有 Series A 優先股的某些條款，使其關鍵條款（如轉換與贖回日期）與新發行的 Series B 優先股一致，所有這些股票目前均由 Pepsi 持有。這些發行與修改為 Pepsi 交易中交換的總體對價之一部分。根據這些安排，Pepsi 獲得指派本公司董事會額外成員之權利，使 Pepsi 總共有兩席董事會席位。",
+    "•Rockstar 收購 - 根據交易協議，我們取得 Rockstar 在美國與加拿大的某些資產，並承擔其某些負債。此項收購的對價包括上述對價及其他商業承諾，詳載於交易協議中。",
+    "•Captaincy - 同樣根據交易協議，我們與 Pepsi 開始進行 Captaincy，這是一項增強的長期商業協議，根據此協議，Pepsi 同意盡商業合理努力，在美國銷售與分銷我們的產品，並根據雙方共同發展的銷售、擺放與促銷優先順序進行。Captaincy 於 Pepsi 交易的成交日開始，預期將持續至 A&R 美國分銷協議的期限內。",
+    "•A&R Distribution Agreements - 我們簽訂了A&R Distribution Agreements，根據此協議，Pepsi繼續擔任我們在美國與加拿大市場Celsius產品的主要經銷商，並已成為Alani Nu與Rockstar產品在這些市場的主要經銷商。原美國分銷協議與原加拿大分銷協議的所有其他重要條款仍繼續有效。",
+    "在Alani Nu的交割日，我們完成了Alani Nu收購，總對價包含(i) 12.75億美元現金，依購買協議的條款進行調整，(ii) 合計2,245萬1,224股我們的普通股，以及(iii) 最多2,500萬美元額外現金對價，我們決定根據Alani Nu在2025年財曆年度達成協議目標，此額外現金對價將全數支付給賣方，我們預期於2026年第一季支付。",
+    "在Alani Nu的交割日，Celsius與其部分子公司、貸款人與發行銀行（如有）以及UBS AG, Stamford Branch，作為行政代理與擔保代理，簽訂了信貸協議，該協議提供了一筆總本金最高達9億美元的定期貸款設施，該貸款在Alani Nu交割日已全部提款，用以資助支付給賣方的部分現金對價（剩餘現金對價則由現金資產補足），以及總本金最高達1億美元的循環信貸設施，截至2025年12月31日尚未提款。",
+    "2025年10月2日，我們簽訂了第一項再融資協議修正案，修正了信貸協議並將定期貸款設施與循環信貸設施的適用利率各降低75個基點。根據此修正案，我們以新簽的7億美元定期貸款與約1.978億美元現金資產償還了9億美元定期貸款的剩餘本金。未產生預先償還罰款。信貸協議的其他重要條款保持不變。",
+    "我們於2005年推出了首款CELSIUS®功能性能量飲料，並隨著品牌平台的擴展，產品組合也大幅成長。目前我們在CELSIUS®、Alani Nu®與Rockstar®品牌下提供多樣化的產品線。每個品牌皆有獨特的風味配置、配方與消費者定位，使我們能夠服務功能性能量飲料類別中廣泛且多樣化的消費者羣。",
+    "我們提供跨多個品牌的統一功能性能量與健康飲料組合，為消費者提供多樣的產品形式、風味配置與功能性效益。我們部分產品配方中包含咖啡因、綠茶萃取物（EGCG）、姜根萃取物、胺基酸、維生素、電解質及其他以表現為導向的零組件。許多產品為零糖、低熱量，並設計用以支持能量、專注力、水分補充與整體健康。我們的產品組合包含以下主要產品類型："
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "本公司業務",
+    "與前一年度之可比性",
+    "營運成果",
+    "截至2025年12月31日年度與截至2024年12月31日年度之比較",
+    "營業收入 $ 2,515,269 $ 1,355,630 %",
+    "流動性及資本資源",
+    "截至2025年12月31日及2024年12月31日年度之現金流量",
+    "表外財務安排",
+    "重要會計政策與會計估計"
+   ],
+   "paragraphs": [
+    "本項管理層討論與分析財務狀況及營運成果應與我們的合併財務報表及附註說明一併閱讀，附註說明載於本報告其他部分。本報告包含根據證券訴訟改革法案（PSLRA）第27A條、1933年證券法（經修正）及證券交易法第21E條所定義的前瞻性陳述，說明我們對產品開發、業務、財務狀況、營運成果、策略及前景的預期、信念、計畫與意圖。讀者可透過這些陳述不涉及歷史或現狀事項的特質來辨識前瞻性陳述。這些陳述涉及預期或預測的事件、活動、趨勢或結果。因為前瞻性陳述涉及尚未發生的事項，這些陳述本質上受到風險與不確定性影響，可能導致我們實際結果與前瞻性陳述所表達或暗示的未來結果有重大差異。請參閱第1A項風險因素，以取得這些不確定性與風險的詳細討論。前瞻性陳述反映我們在陳述當日的觀點。除非法律要求，我們不負有修訂或公開發佈這些前瞻性陳述更新資訊的義務。這包括不更新陳述以反映陳述後發生的事件或情況，或針對預期與實際結果之間的差異進行說明。我們意圖讓所有前瞻性陳述均受PSLRA的避風港條款保護。",
+    "管理層討論與分析部分旨在協助讀者瞭解本公司的財務狀況與營運表現，引導讀者瞭解我們目前的業務環境與營運環境。我們的分析包含截至2025年12月31日及2024年12月31日的營運成果與財務狀況，以及2025年與2024年的年對年比較。如需詳細討論截至2024年12月31日的營運成果與財務狀況，以及2024年與2023年的年對年比較，請參閱我們2024年12月31日財務年度的10-K表報表第二部分，第7項「財務狀況與營運成果之管理層討論與分析」。",
+    "關鍵術語的定義可於主術語詞彙表中找到。除非另有說明，表格中的金額以千美元為單位，每股金額除外。",
+    "Celsius是一家在美國及國際市場營運的功能性能量飲料公司。我們目前在產品組閤中行銷三個品牌：CELSIUS®，我們的旗艦功能性能量品牌；Alani Nu，一個專注於健康與營養的能量與營養產品品牌，於2025年4月收購；以及Rockstar，一個擁有豐富品牌歷史的能量飲料，於2025年8月收購。這些品牌使我們能夠服務廣泛且持續成長的消費者羣，這些消費者尋求功能性表現、更健康的配方及活躍的生活方式支持。",
+    "Celsius以兩種方便的形式提供：即飲與便攜式粉末。此外，我們提供CELSIUS ESSENTIALS™系列，包含16盎司罐裝，富含氨基酸。2025年，我們推出了CELSIUS® Hydration，這是一系列無咖啡因、零糖的補充水分粉末，包含多種以水果為主的電解質口味。我們的產品範圍廣泛銷售於美國，並在加拿大部分地區的各類零售通路，包括超市、天然產品商店、便利商店、健身中心、大型零售商店、維生素專門店及電商平台。此外，我們的產品也在歐洲、中東及亞太地區的部分市場銷售，我們持續擴展全球業務。",
+    "Alani Nu將我們的業務拓展至健康與營養領域，產品範圍涵蓋能量飲料、預運動配方、蛋白飲料及補充品。Alani Nu在Z世代及女性消費者中擁有強大聲量，為我們的創新管道增添深度，並為國內外擴張提供有意義的機會。",
+    "透過加入Rockstar，我們提供全糖與零糖兩種格式的飲料。Rockstar以其已建立的品牌聲譽與傳統能量飲料消費者的吸引力，補強我們的產品組合。 collectively，我們的品牌使Celsius能夠滿足尋求功能性表現、健康益處及更健康的能量選項的消費者多樣化需求。",
+    "我們從事Celsius、Alani Nu及Rockstar產品的開發、製造、加工、行銷、銷售與分銷。我們的營運模式主要依賴共包商進行產品的製造與供應，利用其專業知識與可擴展的生產能力。此外，我們也使用自有製造廠房以補強對共包商的戰略運用。這種方式使我們能靈活應對市場需求，並專注於創新、行銷及擴展分銷通路。我們持續評估並努力優化供應鏈，以確保品質、一致性及時程準確交付給客戶。",
+    "依我們與 Pepsi 在 2022 年 8 月最初建立的長期分銷協議為基礎，於 Pepsi 交易之成交日，我們進行了一系列交易，擴展了我們的戰略合作夥伴關係。這些交易包括 (i) Rockstar 收購、(ii) 發行 Series B 優先股並修訂現有 Series A 優先股，以及 (iii) 簽訂 A&R 分銷協議，指定 Pepsi 為本公司 Alani Nu 及 Rockstar 產品在美國與加拿大的主要分銷商。根據此加強的商業協議，Pepsi 同意盡其商業合理努力，依照 Captaincy 的規定，在美國銷售與分銷我們完整的產品組合。",
+    "能源飲料市場趨勢 - 能源飲料產業持續擴張，主要由消費者對功能性飲料的持續需求所驅動，這些飲料提供的效益超越傳統碳酸飲料市場，例如各種健康效益、能量補充或其他與運動相關的優勢。雖然產業成長速度在過去一年有所減緩，但該類別仍受到長期趨勢的支持，例如消費者對更健康生活方式的關注增加、對低熱量與減糖選項的興趣提升，以及偏好使用更多天然成分製成的產品。這些趨勢已促使能源飲料類別持續進化並展現強韌性。",
+    "消費者行為變化 - 我們持續觀察到消費者尋求符合個人健康與運動目標的產品趨勢上升。雖然 Celsius 過去主要與運動導向消費者產生共鳴，但我們越來越看到該品牌在更廣泛的消費情境中被採用，反映消費者對功能性飲料的興趣已超越運動相關使用情境。我們的產品組合已定位以回應此演進中的需求，吸引不同生活方式與日常作息的健康意識消費者。此外，女性消費者代表品牌日益成長的族羣，反映該族羣在過去較少佔據消費者基礎的情況下，現在的參與度已提高。",
+    "科技進步與數位趨勢 - 技術，包括 AI 在內的整合，正在成為我們業務中越來越重要的行銷與銷售策略。利用數位行銷渠道、電商平台、AI 使能工具與數據分析，對接現代消費者至關重要。適應這些科技趨勢對維持競爭力並符合不斷演進的消費者期待至關重要。",
+    "Pepsi 合作夥伴關係 - 我們與 Pepsi 的合作關係持續是我們商業策略與運營模式的重要組成部分。在 2025 年，我們將此關係擴展至分銷之外，包括更多戰略與商業安排，進一步將 Pepsi 整合至我們在美國關鍵市場的銷售與行銷執行中。",
+    "透過此合作關係，我們受益於 Pepsi 的規模、運營能力與已建立的分銷基礎設施，這些支持產品可得性、零售執行與市場滲透，遍及美國與加拿大多個通路。我們與 Pepsi 關係的擴展範疇，包括銷售、擺放與促銷優先順序的加強協調，旨在支持執行一致性並提高品牌組合擴張的市場進入速度。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素與我們的業務相關",
+    "我們依賴經銷商在DSD通路及國際市場銷售我們的產品。若我們無法維持與現有經銷商的良好關係，將會影響我們的業務。",
+    " Pepsi 增加的股權持股與額外董事會代表權可能使其能對我們的戰略與治理決策產生更大的影響。",
+    "我們成功履行在艦長與A&R分銷協議下責任的能力，對我們的長期表現至關重要。",
+    "若我們無法有效管理未來的成長，將可能對我們的業務造成重大不利影響。",
+    " Alani Nu、Rockstar 或其他收購的企業可能有我們尚未知悉的負債。",
+    "我們的客戶對我們的成功至關重要。若我們無法維持與現有客戶的良好關係，將可能影響我們的業務。",
+    "原料成本增加或原料短缺，或共包裝成本增加，可能對我們的業務造成損害。",
+    "關稅、通貨膨脹壓力及全球供應鏈中斷可能增加成本並降低利潤率。",
+    "我們若無法準確預估產品需求，可能對我們的業務及財務結果產生不利影響。",
+    "若對我們的產品有重大額外標籤或警告要求，或對產品的行銷或銷售有限制，可能抑制產品銷售。",
+    "我們持續在美國以外地區擴張，使我們面臨國際市場中不確定條件及其他風險。",
+    "許多美國及國際法規，包括出口及進口管制，影響我們在國際市場的競爭能力。",
+    "我們可能因產品回收、監管執法行動及與產品相關的責任而產生重大損失。",
+    "美國食品藥物管理局（FDA）可能對產品製造商、成分/原料、包裝、行銷/標籤、儲存、運輸及/或分銷產生疑義。",
+    "我們的廣告及促銷活動可能受到對產品聲稱真實性及根據性之監管審查。",
+    "我們依賴我們的管理團隊及其他關鍵人員。",
+    "若我們無法吸引或維持具高度技能且多元化的員工，將可能對我們的業務產生負面影響。",
+    "全球或區域性的災難性事件可能影響我們的營運，並影響我們擴展業務的能力。",
+    "氣候變遷及自然災害可能影響我們的業務。"
+   ],
+   "paragraphs": [
+    "除本報告中包含的其他資訊外，包括第二部分第七項「管理層對財務狀況與營運結果之討論與分析」及合併財務報表及其相關附註，您應謹慎考量下列風險。發生下列任一事件可能會顯著且不利地影響我們的業務、前景、財務狀況、營運結果與現金流。",
+    "我們透過與已建立的經銷商簽訂的協議，透過DSD通路來銷售CELSIUS®產品。自2022年起，我們與Pepsi簽訂了獨家經銷協議，用以在美國特定地區銷售CELSIUS®產品，並於2023年及2024年將協議範圍擴展至加拿大部分地區。2025年8月，我們透過A&R Distribution Agreements進一步擴展與Pepsi的合作關係，根據這些協議，Pepsi成為我們產品組合（包括Alani Nu和Rockstar）在美國與加拿大的主要經銷商。國際方面，我們與Suntory Group簽訂獨家協議來銷售CELSIUS®產品，包括在英國、Channel Islands、Isle of Man及愛爾蘭的Lucozade Ribena Suntory Limited；在澳洲與紐西蘭的Frucor Suntory Australia Pty Limited及Frucor Suntory New Zealand Limited；以及在法國、摩納哥、比利時、盧森堡與荷蘭的Orangina Schweppes France及Schweppes Suntory Benelux SA。我們極度依賴這些多年經銷協議及其對應的經銷商來支持我們在各個地區的成長。許多這些經銷商也製造或銷售競爭性飲料產品，他們的銷售與行銷優先順序對我們的成功至關重要。如果我們的經銷商未能有效推廣我們的產品或優先考慮我們的產品組合相較於競爭品牌，或我們未能及時吸引或轉換至新的經銷商，我們的業務、財務狀況、營運結果與現金流可能會受到重大不利影響。",
+    "我們與Pepsi有廣泛的商業協議，因此與Pepsi的重大爭議或協議終止可能會對我們的財務狀況與營運結果造成重大不利影響。",
+    "2025年，銷售給Pepsi佔我們總淨銷售額的43.2%，且截至2025年12月31日，來自Pepsi的應收款項佔我們總應收款項的46.2%。Pepsi是我們產品在美國的主要經銷商，也是我們產品在加拿大特定地區的獨家經銷商。隨著我們持續優化與簡化經銷策略，我們預期對Pepsi的依賴將持續顯著，甚至可能隨時間增加。因此，我們依賴Pepsi在美國與加拿大的經銷能力。由於我們的供應鏈與Pepsi有顯著的集中度，Pepsi可以影響我們在擴張與成長產品線時的戰略決策，任何重大爭議或協議終止都可能使我們無法分銷產品，並對我們的業務、財務狀況、營運結果與現金流造成重大不利影響。",
+    "Pepsi透過其優先股投資持有本公司重大股權，並有兩位指定董事在董事會服務。因此，Pepsi可能對某些戰略、營運與治理事項有更大的影響力，包括與分銷、行銷優先順序及長期業務規劃相關的決策。Pepsi的利益未必總是與我們其他股東的利益一致。此外，根據我們與Pepsi的A&R Distribution Agreements及Captaincy，Pepsi在美國的產品組合商業化與分銷中扮演重要角色。雖然我們認為這項合作關係提供了顯著的優勢，但Pepsi的股權與董事會代表權增加可能會導致潛在的利益衝突，影響我們獨立運作的能力或限制我們追求替代戰略方案的靈活性。任何這種影響都可能對我們的治理實務、業務、財務狀況、營運結果與現金流造成重大影響。",
+    "我們與Pepsi的A&R Distribution Agreements及相關交易協議確立了Captaincy，此安排旨在透過讓我們對分類管理決策（如產品展示、販售分配與促銷執行）有更多影響力，來強化Pepsi美國分銷系統內的協調。雖然此結構增強了與Pepsi的合作與市場能見度，但也需要與Pepsi的運營優先順序與執行能力有高度一致。如果我們或Pepsi未能履行義務、維持一致執行或有效管理業務於Captaincy下，可能會導致銷售機會喪失、通路效率低下或聲譽損害。由於Captaincy是CELSIUS®、Alani Nu®與Rockstar®在美國長期分銷的關鍵，任何此關係惡化或無法在協議下執行，都可能對我們的業務、財務狀況、營運結果與現金流造成重大不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

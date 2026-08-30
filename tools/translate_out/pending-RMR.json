@@ -1,0 +1,197 @@
+{
+ "ticker": "RMR",
+ "cik": "0001644378",
+ "accession": "0001644378-25-000043",
+ "form": "10-K",
+ "reportDate": "2025-09-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Business Strategy",
+    "Our Management Agreements with the Managed Equity REITs",
+    "Other Management Agreements",
+    "Our Management Agreements with Advisory Clients",
+    "Our Organizational Structure",
+    "Corporate Sustainability",
+    "Environmental Focus",
+    "Human Capital Resources and Governance",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "The RMR Group Inc., or RMR Inc., is a holding company and substantially all of its business is conducted by its majority owned subsidiary, The RMR Group LLC, or RMR LLC. RMR Inc. is a Maryland corporation and RMR LLC is a Maryland limited liability company. RMR Inc. serves as the sole managing member of RMR LLC and, in that capacity, operates and controls the business and affairs of RMR LLC. In this Annual Report on Form 10-K, unless otherwise indicated, \"we\", \"us\" and \"our\" refers to RMR Inc. and its direct and indirect subsidiaries, including RMR LLC.",
+    "As of September 30, 2025, RMR Inc. owned 16,063,495 class A membership units of RMR LLC, or Class A Units, and 1,000,000 class B membership units of RMR LLC, or Class B Units. The aggregate RMR LLC membership units RMR Inc. owns represent approximately 53.2% of the economic interest of RMR LLC. A wholly owned subsidiary of ABP Trust owns 15,000,000 redeemable Class A Units, representing approximately 46.8% of the economic interest of RMR LLC.",
+    "Adam Portnoy, the Chair of our Board, one of our Managing Directors and our President and Chief Executive Officer, is the sole trustee, an officer and the controlling shareholder of our controlling shareholder, ABP Trust, and owns all of ABP Trust's voting securities and a majority of the economic interest of ABP Trust. As of September 30, 2025, Adam Portnoy beneficially owned (including through ABP Trust), in aggregate, (i) 245,361 shares of Class A common stock of RMR Inc., or Class A Common Shares; (ii) all the outstanding shares of Class B-1 common stock of RMR Inc., or Class B-1 Common Shares; and (iii) all the outstanding shares of Class B-2 common stock of RMR Inc., or Class B-2 Common Shares.",
+    "Since its founding in 1986, RMR LLC has substantially grown assets under management and the number of real estate businesses it manages. As of September 30, 2025, we had $39.0 billion of assets under management.",
+    "We provide management services to four publicly traded equity real estate investment trusts, or REITs, three of whose securities are listed on The Nasdaq Stock Market LLC, or Nasdaq, and one of whose securities are listed on the OTC Markets Group Inc., or OTCPK: Diversified Healthcare Trust, a Maryland REIT, including its subsidiaries, or DHC; Industrial Logistics Properties Trust, a Maryland REIT, including its subsidiaries, or ILPT; Service Properties Trust, a Maryland REIT, including its subsidiaries, or SVC; and Office Properties Income Trust, a Maryland REIT, including its subsidiaries, or OPI. DHC, ILPT, SVC and OPI are collectively referred to as the Managed Equity REITs. OPI's securities were previously listed on Nasdaq. Effective as of the opening of business on October 6, 2025, OPI's securities were delisted from Nasdaq and listed on OTCPK.",
+    "As manager of the Managed Equity REITs, we are responsible for implementing investment strategies and managing day-to-day operations, subject to supervision and oversight by each Managed Equity REIT's board of trustees. The Managed Equity REITs have no employees, and we provide the personnel and services necessary for each Managed Equity REIT to conduct its business. The Managed Equity REITs invest in diverse income producing properties across multiple real estate asset classes as follows:",
+    "•DHC (Nasdaq: DHC) owns medical office and life science properties, senior living communities and other healthcare related properties. As of September 30, 2025, DHC owned 335 properties located in 34 states and the District of Columbia.",
+    "•ILPT (Nasdaq: ILPT) owns and leases industrial and logistics properties. As of September 30, 2025, ILPT owned 411 properties, including 226 buildings, leasable land parcels and easements in Oahu, Hawaii and 185 properties located in 38 other states.",
+    "•SVC (Nasdaq: SVC) owns a diverse portfolio of hotels and service-focused retail net lease properties. As of September 30, 2025, SVC owned 912 properties (160 hotels and 752 net lease properties) located in 46 states, the District of Columbia, Puerto Rico and Canada.",
+    "•OPI (OTCPK: OPITS) owns office properties primarily leased to single tenants and those with high credit quality characteristics. As of September 30, 2025, OPI owned 124 properties located in 29 states and the District of Columbia.",
+    "RMR LLC's wholly owned subsidiary, Tremont Realty Capital LLC, or Tremont, an investment adviser registered with the SEC, provides advisory services for Seven Hills Realty Trust, or SEVN. SEVN is a publicly traded mortgage REIT that",
+    "focuses on originating and investing in first mortgage loans secured by middle market and transitional commercial real estate.",
+    "RMR LLC also provided management services to TravelCenters of America Inc., or TA, until it was acquired by BP Products North America Inc., or BP, on May 15, 2023. TA is a real estate operating company that operates and franchises travel centers primarily along the United States, or U.S., interstate highway system, many of which are owned by SVC, and standalone truck service facilities. The Managed Equity REITs, SEVN and until May 15, 2023, TA, are collectively referred to as the Perpetual Capital clients.",
+    "RMR LLC provides management services to Sonesta International Hotels Corporation, or Sonesta, a privately owned franchisor and operator of hotels, resorts and cruise ships in the United States, Canada, Latin America, the Caribbean and the Middle East, and many of the U.S. hotels that Sonesta operates are owned by SVC."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Summary of Risk Factors",
+    "Risks Related to Our Business",
+    "Unfavorable market and industry conditions have had and may continue to have a material adverse effect on our and our clients' results of operations, financial condition and ability to pay dividends.",
+    "Our revenues may be highly variable.",
+    "Our management agreements with our clients are subject to termination.",
+    "We may be unable to successfully grow the RMR Residential business and our value-add retail investments.",
+    "Tremont's agreement to purchase any rights not subscribed for in the SEVN rights offering may require us to use available cash and forego other investment opportunities.",
+    "Uncertainty surrounding interest rates and sustained high interest rates may significantly reduce our revenues or impede our growth.",
+    "If we cannot retain and motivate our key and talented personnel and recruit, retain and motivate new talented personnel, our business, operating results and financial condition could be adversely affected.",
+    "We depend on our controlling shareholder and other key and talented personnel.",
+    "Sustainability initiatives, requirements and market expectations may impose additional costs and expose us and our clients to new risks.",
+    "We and our clients are subject to risks from adverse weather, natural disasters and adverse impact from global climate change.",
+    "We rely on information technology and systems in our operations, and any material failure, inadequacy, interruption or security breach of that technology or those systems could materially harm our business.",
+    "Inflation may continue to negatively impact us and our clients and our and their businesses, results of operations and ability to grow.",
+    "Employee misconduct could harm us by subjecting us to significant legal liability, reputational harm and loss of business.",
+    "RMR LLC's required quarterly tax distributions may limit our ability to implement our business or pursue growth opportunities.",
+    "Risks Related to the Businesses of Our Clients",
+    "Risks Related to Our Securities",
+    "A trading market that provides adequate liquidity may not be sustained for our Class A Common Shares and the market price of our Class A Common Shares may fluctuate widely."
+   ],
+   "paragraphs": [
+    "Our business is subject to a number of risks and uncertainties. The following is a summary of the principal risk factors described in this section:",
+    "•unfavorable market and industry conditions have had and may continue to have a material adverse effect on our and our clients' results of operations, financial condition and ability to pay dividends;",
+    "•most of our revenues are derived from services to a limited number of clients;",
+    "•our management fees from our clients are based, in general, on cost of assets, enterprise values, shareholder returns, rental income, construction projects or certain revenues, as applicable, and, accordingly our future revenues, income and cash flows will decline if the business activities, assets, enterprise values, shareholder returns, rental income, construction projects or certain revenues of our clients decline;",
+    "•our revenues may be highly variable; •potential terminations of our management agreements with our clients;",
+    "•our ability to successfully grow the RMR Residential business and our value-add retail investments and realize our expected returns on our investment within the anticipated timeframe;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "OVERVIEW (dollars in thousands)",
+    "Under Management or",
+    "Total Market Capitalization as of",
+    "September 30,",
+    "Business Construction Business Construction",
+    "Management Supervision Management Supervision",
+    "REIT Revenues Revenues Total Revenues Revenues Total",
+    "Fiscal Year Ended September 30,",
+    "Base Base Base Base",
+    "Business Property Construction Business Property Construction",
+    "Management Management Supervision Management Management Supervision",
+    "Revenues Revenues Revenues Total Revenues Revenues Revenues Total",
+    "RESULTS OF OPERATIONS (dollars in thousands)",
+    "2025 2024 $ Change % Change",
+    "LIQUIDITY AND CAPITAL RESOURCES (dollars in thousands, except per share amounts)",
+    "Tax Receivable Agreement",
+    "Related Person Transactions",
+    "Critical Accounting Estimates"
+   ],
+   "paragraphs": [
+    "RMR Inc. is a holding company and substantially all of its business is conducted by RMR LLC. RMR Inc. has no employees, and the personnel and various services it requires to operate are provided by RMR LLC. RMR LLC manages a diverse portfolio of real estate and real estate related businesses.",
+    "The continuation and growth of our business depends upon our ability to manage the Managed Equity REITs, SEVN and our private capital clients so as to maintain, grow and increase the value of their businesses and to successfully expand our business through the execution of new business ventures and additional investments. Our business and the businesses of our clients generally follow the business cycle of the U.S. real estate industry, but with certain property type and regional geographic variations. Typically, as the general U.S. economy expands, commercial real estate, or CRE, occupancies increase and new real estate development occurs; new development frequently leads to increased real estate supply and reduced occupancies; and then the cycle repeats. These general trends can be impacted by property type characteristics or regional factors; for example, demographic factors such as the aging U.S. population, the growth of e-commerce retail sales or net population migration across different geographic regions can slow, accelerate, overwhelm or otherwise impact general cyclical trends. Because of such multiple factors, we believe it is often possible to grow real estate based businesses in selected property types or geographic areas despite general national trends.",
+    "U.S. trade and fiscal policy, coupled with ongoing geopolitical tensions, has caused uncertainty in financial markets. As a result, we believe many CRE investors continue to remain on the sidelines, waiting until they have greater clarity on the outcomes of negotiations with U.S. trade partners, new tariff announcements, domestic fiscal policy initiatives and the path of interest rates to make buy and sell decisions.",
+    "Despite the macroeconomic uncertainty, both we and our clients will continue to balance our pursuit of growth of our and our clients' businesses by executing, on behalf of our clients, sensible capital recycling or business arrangement restructurings in an attempt to help our clients prudently manage leverage and increased operating costs. We also look to reposition their portfolios and businesses when circumstances warrant such changes or when other more desirable opportunities are identified.",
+    "For a discussion of some of the circumstances that may adversely affect us and our business, see elsewhere in this Annual Report on Form 10-K, including \"Warning Concerning Forward-Looking Statements\", Part I, Item 1 \"Business\" and Part I, Item 1A \"Risk Factors\".",
+    "The base business management fees we earn from the Managed Equity REITs are calculated monthly in accordance with the applicable business management agreement and are based on a percentage of the lower of (i) the average historical cost of each REIT's properties and (ii) each REIT's average market capitalization. The property management fees we earn from the Managed Equity REITs are principally based on a percentage of the gross rents collected at certain managed properties owned by the Managed Equity REITs, excluding rents or other revenues from hotels, senior living communities, travel centers and wellness centers, which are separately managed by Sonesta, AlerisLife or a third party. Also, under the terms of the property management agreements, we receive construction supervision fees in connection with certain construction activities undertaken at the properties owned by the Managed Equity REITs based on a percentage of the cost of such construction. In connection with OPI's voluntary chapter 11 petitions on October 30, 2025, we entered into a restructuring support agreement with OPI and certain of its lenders pursuant to which we have agreed to terms for new management agreements with OPI to take effect upon the effectiveness of OPI's plan of reorganization. Pursuant to the management agreement term sheet, the initial term of the new management agreements will be five years, RMR LLC will be paid an annual fee under the new business management agreement of $14.0 million payable per year for the first two years, and RMR LLC will be paid a 3% property management fee and a 5% construction supervision fee under the new property management agreement, consistent with the existing property management agreement. The current management agreements between OPI and RMR LLC will remain in effect during the pendency of the OPI chapter 11 cases, and RMR LLC will continue to manage OPI's business in the ordinary course. For further information regarding the fees we earn, see Note 2, Summary of Significant Accounting Policies, to our consolidated financial statements included in Part IV, Item 15 of this Annual Report on Form 10-K.",
+    "The following table presents for each Managed Equity REIT a summary of its primary strategy and the lesser of the historical cost of its assets under management and its market capitalization as of September 30, 2025 and 2024, as applicable:"
+   ],
+   "focus": "OVERVIEW (dollars in thousands)"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'translated_text': '本公司營運策略'}",
+    "{'translated_text': '本公司與管理型 equity REITs 之管理協議'}",
+    "{'translated_text': '其他管理協議'}",
+    "{'translated_text': '本公司與顧問客戶之管理協議'}",
+    "{'translated_text': '本公司組織架構'}",
+    "{'translated_text': '公司永續發展'}",
+    "{'translated_text': '環境重點'}",
+    "{'translated_text': '人力資源與治理'}",
+    "{'original': 'Available Information', 'translated': '可取得資訊'}"
+   ],
+   "paragraphs": [
+    "RMR Group Inc.，或 RMR Inc.，為一家控股公司，其業務幾乎全部由其持有過半數股權的子公司 RMR Group LLC，或 RMR LLC 進行。RMR Inc. 為馬裏蘭州公司，RMR LLC 為馬裏蘭州有限責任公司。RMR Inc. 為 RMR LLC 唯一的管理成員，並在該職務上運作及控制 RMR LLC 的業務與事務。在本年度報告 10-K 中，除非另有說明，\"we\"、\"us\" 及 \"our\" 皆指 RMR Inc. 及其直接與間接子公司，包括 RMR LLC。",
+    "截至 2025 年 9 月 30 日，RMR Inc. 持有 RMR LLC 的 16,063,495 等級 A 會員單位，或等級 A 單位，以及 1,000,000 等級 B 會員單位，或等級 B 單位。RMR Inc. 所持有的 RMR LLC 會員單位總計，約佔 RMR LLC 經濟權益的 53.2%。ABP Trust 的 wholly owned subsidiary 持有 15,000,000 可贖回等級 A 單位，約佔 RMR LLC 經濟權益的 46.8%。",
+    "Adam Portnoy，為我們董事會主席、一位 Managing Director 以及我們總裁與首席執行官，為我們控制股東 ABP Trust 的唯一受託人、高級主管及控制股東，並持有 ABP Trust 所有投票權證券及該公司經濟權益的多數。截至 2025 年 9 月 30 日，Adam Portnoy 透過 ABP Trust，共持有（包括）（i）245,361 張 RMR Inc. 等級 A 普通股，或等級 A 普通股；（ii）RMR Inc. 所有等級 B-1 普通股，或等級 B-1 普通股；以及（iii）RMR Inc. 所有等級 B-2 普通股，或等級 B-2 普通股。",
+    "自 1986 年成立以來，RMR LLC 已大幅成長其管理資產規模與所管理的不動產公司數量。截至 2025 年 9 月 30 日，我們管理資產規模為 39.0 十億美元。",
+    "我們為四家上市的權益型不動產投資信託，或 REITs，提供管理服務，其中三家證券於 Nasdaq 股票市場 LLC，或 Nasdaq 上市，一家證券於 OTC Markets Group Inc.，或 OTCPK 上市：Diversified Healthcare Trust，為馬裏蘭州 REIT，包括其子公司，或 DHC；Industrial Logistics Properties Trust，為馬裏蘭州 REIT，包括其子公司，或 ILPT；Service Properties Trust，為馬裏蘭州 REIT，包括其子公司，或 SVC；以及 Office Properties Income Trust，為馬裏蘭州 REIT，包括其子公司，或 OPI。DHC、ILPT、SVC 與 OPI 總稱為 Managed Equity REITs。OPI 的證券曾於 Nasdaq 上市。自 2025 年 10 月 6 日開市起，OPI 的證券已從 Nasdaq 摘牌，並於 OTCPK 上市。",
+    "作為 Managed Equity REITs 的管理人，我們負責執行投資策略與管理日常運作，並接受各 Managed Equity REIT 董事會的監督與管理。Managed Equity REITs 沒有員工，我們為各 Managed Equity REIT 提供執行業務所需的員工與服務。Managed Equity REITs 投資於多種產生收入的不動產，分屬多種不動產資產類別，如下：",
+    "•DHC（Nasdaq: DHC）擁有醫療辦公室與生命科學不動產、長照社區及其他醫療相關不動產。截至 2025 年 9 月 30 日，DHC 擁有 335 個不動產，位於 34 個州與華盛頓特區。",
+    "•ILPT（Nasdaq: ILPT）擁有並出租工業與物流不動產。截至 2025 年 9 月 30 日，ILPT 擁有 411 個不動產，包括 226 個建築物、可出租土地區塊與地役權於夏威夷歐胡島，以及位於 38 個其他州的 185 個不動產。",
+    "•SVC (Nasdaq: SVC) 擁有多元化的酒店及服務導向零售淨租賃不動產組合。截至2025年9月30日，SVC 擁有912處不動產（160處酒店及752處淨租賃不動產），位於46個州、華盛頓特區、波多黎各及加拿大。",
+    "•OPI (OTCPK: OPITS) 擁有主要出租給單一租戶及具高信用品質特徵的辦公室不動產。截至2025年9月30日，OPI 擁有124處不動產，位於29個州及華盛頓特區。",
+    "RMR LLC 的 wholly owned subsidiary，Tremont Realty Capital LLC，或稱 Tremont，為 SEC 登記的投資顧問公司，為 Seven Hills Realty Trust，或 SEVN 提供顧問服務。SEVN 為一上市的房貸 REIT，",
+    "專注於發起及投資於中型市場及過渡性商業不動產的首優先抵押貸款。",
+    "RMR LLC 亦為 TravelCenters of America Inc.，或 TA 提供管理服務，直至其於2023年5月15日被 BP Products North America Inc.，或 BP 收購為止。TA 為一不動產營運公司，營運並特許經營美國，或 U.S.，州際公路系統沿線的旅運中心，其中許多為 SVC 所擁有，以及獨立的貨車服務設施。Managed Equity REITs，SEVN 及直至2023年5月15日，TA， collectively 稱為 Perpetual Capital clients。",
+    "RMR LLC 為 Sonesta International Hotels Corporation，或 Sonesta 提供管理服務，Sonesta 為一私營的酒店、渡假村及郵輪公司特許經營及營運者，位於美國、加拿大、拉丁美洲、加勒比海及中東地區，且許多 Sonesta 在美國營運的酒店為 SVC 所擁有。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "總覽 (單位為千美元)",
+    "受管理或",
+    "總市值截至",
+    "9 月 30 日,",
+    "營運業務營運業務",
+    "管理監督管理監督",
+    "REIT 收入收入總收入收入總收入",
+    "會計年度終了 9 月 30 日,",
+    "{'original': 'Base Base Base Base', 'translated': '基礎 基礎 基礎 基礎'}",
+    "{'original': 'Business Property Construction Business Property Construction', 'translated': '營業 預算 設施 營業 預算 設施'}",
+    "{'original': 'Management Management Supervision Management Management Supervision', 'translated': '管理 管理 監督 管理 管理 監督'}",
+    "{'original': 'Revenues Revenues Revenues Total Revenues Revenues Revenues Total', 'translated': '營收 營收 營收 總計 營收 營收 營收 總計'}",
+    "{'original': 'RESULTS OF OPERATIONS (dollars in thousands)', 'translated': '營運成果 (美元計千單位)'}",
+    "{'original': '2025 2024 $ Change % Change', 'translated': '2025 2024 美元變動 百分比變動'}",
+    "{'original': 'LIQUIDITY AND CAPITAL RESOURCES (dollars in thousands, except per share amounts)', 'translated': '流動性與資本資源 (美元計千單位，除每股金額外)'}",
+    "{'original': 'Tax Receivable Agreement', 'translated': '稅款應收協議'}",
+    "{'original': 'Related Person Transactions', 'translated': '關聯人交易'}",
+    "{'original': 'Critical Accounting Estimates', 'translated': '重要會計估計'}"
+   ],
+   "paragraphs": [
+    "RMR Inc. 為一間控股公司，且其業務幾乎全部由 RMR LLC 進行。RMR Inc. 沒有員工，且其運作所需的人員及各項服務均由 RMR LLC 提供。RMR LLC 管理一項多元化的不動產及不動產相關業務組合。",
+    "我們業務的持續與成長取決於我們管理 Managed Equity REITs、SEVN 及我們私人資本客戶的能力，以維持、成長並增加其業務價值，並成功透過執行新業務計畫及追加投資來擴大我們的業務。我們的業務及我們客戶的業務通常遵循美國不動產產業的商業週期，但會因不動產類型及地區地理因素而有所差異。通常而言，當美國整體經濟擴張時，商業不動產或 CRE 的佔用率會提高，並產生新的不動產開發；新開發常導致不動產供給增加及佔用率下降；然後週期會重複。這些整體趨勢可能受到不動產類型特性或地區因素的影響；例如，人口結構因素如美國人口老化、e-commerce 零售銷售成長或不同地理區域人口遷移，可能減緩、加速、過度影響或以其他方式影響整體週期性趨勢。由於這些多重因素，我們認為在某些不動產類型或地理區域中，即使面對國家整體趨勢，仍有可能成長不動產相關業務。",
+    "美國貿易與財政政策，加上持續的國際關係緊張，已造成金融市場的不確定性。因此，我們認為許多 CRE 投資者仍保持觀望，等待他們對與美國貿易夥伴的談判結果、新的關稅公告、國內財政政策計畫及利率走勢有更明確的資訊後，才做出買賣決定。",
+    "儘管總體經濟不確定性，我們與我們的客戶仍會繼續在追求我們與我們客戶業務成長的同時，為我們的客戶執行合理的資本再投資或業務安排重組，以協助我們的客戶謹慎管理槓桿及增加營運成本。我們也將在情況需要時重新配置他們的資產組合與業務，或當有其他更優質的機會時進行重新配置。",
+    "有關可能對我們及我們業務產生不利影響的情況討論，請參閱本年度報告 10-K 表單中其他部分，包括「關於前瞻性陳述的警告」、第一部分，項目 1「業務」及第一部分，項目 1A「風險因素」。",
+    "我們從 Managed Equity REITs 獲得的基礎業務管理費用，係每月根據適用的業務管理契約計算，並基於各 REIT 不動產的歷史成本平均值與各 REIT 市場資本化平均值中較低者百分比。我們從 Managed Equity REITs 獲得的不動產管理費用，主要基於各 REIT 所管理不動產的總租金收入百分比，不包括由 Sonesta、AlerisLife 或第三方所分別管理的飯店、長照社區、旅運中心及健康中心的租金或其他收入。此外，根據不動產管理契約條款，我們會根據建設活動成本的百分比，獲得建設監督費用，以作為某些由 Managed Equity REITs 所擁有不動產的建設活動。根據 OPI 於 2025 年 10 月 30 日自願提出的第 11 章破產保護申請，我們與 OPI 及其部分貸款人簽訂了重整支持協議，根據該協議，我們同意在 OPI 的重整計畫生效後，與 OPI 簽訂新的管理契約。根據管理契約草案，新管理契約的初始期限為五年，RMR LLC 將根據新業務管理契約，於前兩年每年支付 14.0 百萬美元的年度費用，並根據新不動產管理契約，支付 3% 的不動產管理費用及 5% 的建設監督費用，與現有不動產管理契約一致。在 OPI 第 11 章破產程序進行期間，OPI 與 RMR LLC 現有管理契約將繼續有效，RMR LLC 將繼續在正常業務運作中管理 OPI 的業務。有關我們所賺取費用的進一步資訊，請參閱本年度報告 10-K 表單中第四部分，項目 15 所包含的財務報表附註 2，「重要會計政策摘要」。",
+    "下表顯示各 Managed Equity REIT 的主要策略摘要，以及截至 2025 年 9 月 30 日及 2024 年 9 月 30 日（如適用）其管理資產的歷史成本較低者及市場資本化情況："
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與本公司業務相關的風險",
+    "不利的市場與產業環境已對本公司及其客戶的營運成果、財務狀況及發放股息能力產生重大負面影響，並可能持續產生此類影響。",
+    "本公司營收可能具有高度變動性。",
+    "本公司與客戶的管理契約可能終止。",
+    "本公司可能無法成功拓展 RMR 住宅業務及價值增加的零售投資。",
+    "Tremont 承購 SEVN 權證發行中未認購之權利，可能需要動用現金，並放棄其他投資機會。",
+    "利率不確定性及持續高利率可能顯著降低本公司營收或阻礙本公司成長。",
+    "若我們無法留住並激勵我們的關鍵且具才能之員工，並招募、留住及激勵新進之具才能員工，將可能對本公司之業務、營運結果及財務狀況造成不利影響。",
+    "我們依賴我們之控股股東及其他關鍵且具才能之員工。",
+    "永續發展倡議、要求及市場期待，可能導致額外成本，並使我們與客戶面臨新興風險。",
+    "我們與客戶會因惡劣天氣、自然災害及全球氣候變遷之不利影響而面臨風險。",
+    "我們在營運中依賴資訊科技與系統，若該科技或系統發生重大失敗、不足、中斷或安全漏洞，將可能對本公司業務造成重大損害。",
+    "通貨膨脹可能持續對我們與客戶及其業務、營運結果與成長能力造成負面影響。",
+    "員工不當行為可能對我們造成損害，使我們面臨重大法律責任、聲譽損害與業務流失。",
+    "RMR LLC 所需之每季稅務分紅，可能限制我們實現業務或追求成長機會之能力。",
+    "與本公司客戶業務相關之風險",
+    "與本公司證券相關之風險",
+    "提供足夠流動性的交易市場可能無法持續，本公司 A 級普通股之交易市場可能出現大幅波動"
+   ],
+   "paragraphs": [
+    "本公司業務面臨許多風險與不確定性。以下為本節所描述的主要風險因素摘要：",
+    "•不利的市場與產業環境已對本公司及其客戶的營運成果、財務狀況與支付股息能力產生重大負面影響，且可能持續產生影響；",
+    "•本公司大部分收入來自為有限數量客戶提供的服務；",
+    "•本公司客戶的管理費用係基於資產成本、企業價值、股東回報、租金收入、建設項目或特定收入（視情況而定），因此若客戶的業務活動、資產、企業價值、股東回報、租金收入、建設項目或特定收入減少，將導致本公司未來收入、利潤與現金流減少；",
+    "•本公司收入可能有高度變動性；•本公司與客戶管理契約可能終止；",
+    "•本公司成功拓展RMR住宅業務與價值增加零售投資，並在預期時間內實現投資預期回報之能力；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

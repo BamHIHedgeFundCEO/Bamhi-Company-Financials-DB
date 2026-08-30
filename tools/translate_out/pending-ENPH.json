@@ -1,0 +1,217 @@
+{
+ "ticker": "ENPH",
+ "cik": "0001463101",
+ "accession": "0001463101-26-000013",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Strategy",
+    "Customers and Sales",
+    "Manufacturing, Quality Control and Supply Chain Management",
+    "Customer Service",
+    "Research and Development",
+    "Intellectual Property",
+    "Government Regulations",
+    "Government Incentives",
+    "Environment and Climate Change",
+    "Human Capital Resources",
+    "Compensation Philosophy",
+    "Health and Wellness",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "We are a global energy technology company originally founded in March 2006. We deliver smart, easy-to-use solutions that manage solar generation, storage and communication on one platform. Our intelligent microinverters work with virtually every solar panel made, and when paired with our smart technology, result in one of the industry's best-performing clean energy systems.",
+    "For the first time in the evolution of our centuries-old grid, people can get paid for the clean energy they produce and share with their communities, helping to build a new energy future that harnesses the sun. This clean, free, abundant source of energy can power our lives and ultimately help greatly reduce our dependence on fossil fuels. As of December 31, 2025, we have shipped approximately 86.4 million microinverters, and more than 5.1 million Enphase residential and commercial systems have been deployed in over 160 countries.",
+    "We design, develop, manufacture and sell home energy solutions that manage energy generation, energy storage, and control and communications on one intelligent platform. We have revolutionized the solar industry by bringing a systems approach to solar technology and by pioneering a semiconductor-based microinverter that converts energy at the individual solar module level and, combined with our proprietary networking and software technologies, provides advanced energy monitoring and control. This is vastly different than a string inverter system using string modules, whether with or without an optimizer, which only converts the energy of the entire array of solar modules from a single high voltage electrical unit and lacks intelligence about the energy producing capacity of the solar array.",
+    "The Enphase® Energy System brings a high technology, networked approach to solar generation plus energy storage, by leveraging our design expertise across power electronics, semiconductors and cloud-based software technologies. Our integrated approach to energy solutions maximizes a home's energy potential while providing advanced monitoring and remote maintenance capabilities. The Enphase Energy System uses a single technology platform for seamless management of the whole solution, of IQ® Microinverters, IQ® Batteries, IQ® Load Controllers, and IQ® EV Charger, allowing rapid commissioning with the Enphase® Installer App, consumption monitoring with our IQ® Combiner™ device with our Enphase IQ® Gateway™ device, and our Enphase® App, a cloud-based energy management platform. System owners can use the Enphase App to monitor their home's solar generation, energy storage and consumption from any web-enabled device. Unlike some of our competitors, who utilize a traditional inverter, or offer separate components of solutions, we have built-in system redundancy in both photovoltaic (\"PV\") generation and energy storage, eliminating the risk that comes with a single point of failure. Further, the nature of our cloud-based, monitored system allows for remote firmware and software updates, enabling cost-effective remote maintenance and ongoing utility compliance.",
+    "We have transitioned from solar only systems to complete energy management solutions, which consist of solar, batteries, load control, electrical vehicle (\"EV\") charging, compatibility with third-party generators, and grid services. This transition follows the rising global interest in the full electrification of homes and businesses through renewable sources of energy.",
+    "Our objective is to build best-in-class home energy systems and deliver them to homeowners through our installer and distribution partners, enabled by a comprehensive digital platform. Key elements of our strategy include:",
+    "•Best-in-class customer experience. Our value proposition is to deliver products that are productive, reliable, smart, simple and safe, with superior customer service, to enable homeowners' storage and energy independence. On the service front, our installer, distributor and module partners are our first line of association with our ultimate customer, the homeowner and business user. Our goals are to partner better with these service providers so that we can provide exceptional, high quality service to homeowners who have installed our products. We are convinced that continued reinforcement of customer experience improvements by providing 24x7 support can be a competitive advantage for us.",
+    "•Expand our product offerings. We distinguish ourselves from other inverter companies with our systems-based and high technology approach, as we continue to invest in research and development to develop all components of our home energy management systems and remain committed to providing our customers and partners with best-in-class power electronics, storage solutions, communications and load control, all managed by a cloud-based home energy management system.",
+    "Enphase Energy, Inc. | 2025 Form 10-K | 7",
+    "•Increase power and efficiency and reduce cost per watt. Our engineering team is focused on continuing to increase average power conversion efficiency and alternating current (\"AC\") output power in order to pair with higher rated direct current (\"DC\") modules while reducing costs per watt.",
+    "•Increase storage energy density and reduce installation time and cost per kWh. Our engineering team is focused on increasing the energy density of our battery capacity, quality and reducing installation time and cost per kilowatt hour (\"kWh\") to make solar-plus-storage resilient, sustainable and affordable for the masses.",
+    "•Focus on the homeowner, distributor and installer partners. We are focused on making it easier for our distributors, installers and customers to do business and generating revenue through digitalization of the business-to-business and business-to-customer process of the distributor, installer and customer journey. Our key focus is to expand our digital presence through enhancing our array of tools on our digital platform to keep us continually connected with our installers and homeowners, as well as increasing the use of our online store significantly.",
+    "•Grow market share worldwide. We intend to capitalize on our market leadership in the microinverter category and our momentum with installers and homeowners to expand our market share position in our core markets. In addition, we hope to further increase our market share in the Europe, Asia Pacific and Latin America regions. Further, we intend to continue our expansion into new markets, including emerging markets, with new and existing products and local go-to-market capabilities.",
+    "The Enphase Energy System, powered by IQ Microinverters, IQ Batteries and other products and services, is an integrated solar, storage and energy management offering that enables self-consumption and delivers our core value proposition of yielding more energy, simplifying design and installation, and improving system uptime and reliability."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to our Business, Operations and Our Industry",
+    "The reduction, elimination or expiration of government subsidies and economic incentives for on-grid solar electricity applications could reduce demand for solar PV systems and harm our business.",
+    "The inability of our products to comply with the minimum domestic content tax credit thresholds, inclusive of FEOC regulations, could negatively impact our business, financial condition and results of operations.",
+    "Unfavorable macroeconomic and market conditions may adversely affect our industry, business and financial results.",
+    "If demand for solar energy solutions does not grow or grows at a slower rate than we anticipate, our business will suffer.",
+    "Changes in the United States trade environment, including the imposition of import tariffs, has and could adversely affect the amount or timing of our revenue, results of operations or cash flows.",
+    "We may fail to capture customers as we design and develop new products and update existing products.",
+    "We depend upon a small number of outside contract manufacturers, and our business and operations could be disrupted if we encounter problems with these contract manufacturers.",
+    "We depend on limited-source suppliers for key components and products. If we are unable to source these components and products on a timely basis, we will not be able to deliver our products to our customers.",
+    "Our recent and planned expansion into existing and new markets could subject us to additional business, financial and competitive risks.",
+    "Manufacturing problems could result in delays in product shipments, which would adversely affect our revenue, competitive position and reputation.",
+    "The loss of, or events affecting, one of our major customers could reduce our sales and have an adverse effect on our business, financial condition and results of operations.",
+    "If our products contain manufacturing or software defects, our business and financial results could be harmed.",
+    "If we fail to retain our key personnel or if we fail to attract additional qualified personnel, we may not be able to maintain or achieve our anticipated level of growth and our business could suffer.",
+    "Restructuring activities could disrupt our business and adversely affect our results of operations.",
+    "Any failure by management to properly manage growth could have a material adverse effect on our business, operating results and financial condition.",
+    "Our business has been and could continue to be affected by seasonal trends and construction cycles.",
+    "If we are unsuccessful in continuing to expand our direct-to-consumer sales channel by driving purchases through our website or third-party websites, our business and results of operation could be harmed.",
+    "Risks Related to our Intellectual Property and Technology"
+   ],
+   "paragraphs": [
+    "We have identified the following risks and uncertainties that may have a material adverse effect on our business, financial condition or results of operations. The risks described below are not the only ones we face. Additional risks not presently known to us or that we currently believe are not material may also significantly impair our business operations. Our business could be harmed by any of these risks. The trading price of our common stock could decline due to any of these risks, and you may lose all or part of your investment. In assessing these risks, you should also refer to the other information contained in this Annual Report on Form 10-K, including our consolidated financial statements and related notes. See also \"Forward-Looking Statements\" in the forepart of this Annual Report on Form 10-K.",
+    "Enphase Energy, Inc. | 2025 Form 10-K | 17",
+    "Our business and the broader solar and energy storage industry depend significantly on government-issued subsidies and economic incentives that promote the adoption and cost competitiveness of solar photovoltaic (\"PV\") and energy storage systems for on-grid applications. These incentives include, among others, ITCs, feed-in tariffs (\"FiTs\"), NEM programs, rebates, and other policies that vary by jurisdiction. Many of these programs are subject to expiration, phase-outs, funding limitations, or policy changes, and some have already been reduced or eliminated in key markets.",
+    "For example, the IRA and subsequent legislation, including the OBBBA, introduced significant changes to ITC eligibility and domestic content requirements. The Section 25D credit for residential solar and storage systems expired on December 31, 2025. In addition, the OBBBA imposes new timing requirements for eligibility under Section 48E of the Code, which governs ITCs for leased solar and storage systems. Specifically, solar-only projects that do not commence construction within 12 months of the OBBBA's enactment must be placed in service by December 31, 2027 in order to remain eligible for the credit. Energy storage projects are not subject to this placed-in-service deadline; however, the ITC for storage systems will begin to phase down in 2034 — decreasing to 75% in 2034, 50% in 2035 and phasing out entirely by 2036. If we are unable to meet revised compliance thresholds or if these incentives are further reduced or eliminated, the cost competitiveness of our products may decline, which could reduce demand for our offerings, adversely affect our revenue and margins, and harm our business.",
+    "Outside the United States, several European countries, including Germany, Belgium, Austria and the Netherlands, have adopted reductions in or ended their NEM or FiT programs. Certain countries have proposed or enacted higher grid fees or taxes levied on renewable energy. These and related developments have significantly impacted the solar industry in Europe and may adversely affect the future demand for solar energy solutions in those markets.",
+    "Among other government-established incentives, NEM and related policies have supported the growth of on-grid rooftop solar products, and changes to such policies may reduce demand for electricity from our solar service offerings. NEM is a tariffed utility rate program that permits a consumer to sell the excess solar energy that the consumer's solar panels produce to the electric utility company at a predetermined price. For example, in California, CPUC approved NEM 3.0, which substantially reduced the compensation that solar customers can earn by selling excess solar energy to the electric grid. The average hourly export rate under NEM 3.0 is approximately $0.05/kWh to $0.08/kWh compared to the prior average of $0.25/kWh to $0.35/kWh under NEM 2.0. CPUC also adopted changes to its \"Virtual NEM\" and \"NEM Aggregation\" programs that prohibit multi-meter commercial or agricultural property owners from netting solar energy generated at or adjacent to those properties against import charges recorded on the meters at the property, except for residential account holders in a multi-family residential property. These types of modifications to NEM policies have impacted and could further harm our business, both in California, where we have derived a significant portion of historical revenues in the United States, and in other jurisdictions if similar changes are adopted."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Business Overview and 2025 Highlights",
+    "Events Affecting our Business and Operations",
+    "Components of Consolidated Statements of Operations",
+    "Net Revenues",
+    "Cost of Revenues and Gross Profit",
+    "Operating Expenses",
+    "Other Income, Net",
+    "Income Tax Provision",
+    "Summary Consolidated Statements of Operations",
+    "Results of Operations",
+    "Cost of Revenues and Gross Margin",
+    "Research and Development",
+    "Sales and Marketing",
+    "General and Administrative Change in",
+    "Restructuring and Asset Impairment Charges Change in",
+    "Change in 2024 $ %",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "Cash Flows. The following table summarizes our cash flows for the periods presented:",
+    "Critical Accounting Policies and Estimates",
+    "Revenue Recognition",
+    "Government Grants",
+    "Fair Value of Financial Instruments",
+    "Warranty Obligations",
+    "Fair Value Option for Microinverters and Other Products Sold Since January 1, 2014",
+    "Income Taxes"
+   ],
+   "paragraphs": [
+    "We are a global energy technology company. We deliver smart, easy-to-use solutions that manage solar generation, storage and communication on one platform. Our intelligent microinverters work with virtually every solar panel made, and when paired with our smart technology, result in one of the industry's best-performing clean energy systems. As of December 31, 2025, we have shipped approximately 86.4 million microinverters, and more than 5.1 million Enphase residential and commercial systems have been deployed in over 160 countries.",
+    "We sell primarily to solar distributors who combine our products with others, including solar module products and racking systems, and resell to installers in each target region. In addition to our solar distributors, we sell directly to select large installers, OEMs and strategic partners. Our OEM customers include solar module manufacturers who integrate our microinverters with their solar module products and resell to both distributors and installers. Strategic partners include a variety of companies, including industrial equipment suppliers, module companies, energy suppliers and developers of third-party solar finance offerings (such as TPOs). We also sell certain products and services to homeowners primarily in support of our warranty services and legacy product upgrade programs, via our online store.",
+    "During fiscal year 2025, our priorities included providing excellent customer service; scaling U.S. manufacturing and advancing product qualification to take advantage of both the Section 48E investment tax credit and the AMPTC under Section 45X of the Code; enhancing our Enphase Energy System offering through continued product innovation and system integration; broadening our ecosystem capabilities through collaboration with utilities and the development of VPPs; strengthening partnerships with installers and TPOs through safe harbor agreements; and increasing operating efficiencies while reducing costs.",
+    "Enphase Energy, Inc. | 2025 Form 10-K | 49",
+    "To mitigate supply chain risks and tariff exposure and to leverage U.S. manufacturing incentives, we continued to operate our domestic manufacturing footprint, including our in‑house manufacturing facility and our partnership with Flex. These arrangements maintained a combined manufacturing capacity of approximately five-million microinverters per quarter. Beginning in the second half of 2024, we began shipping residential and commercial microinverters and batteries with higher domestic content from U.S. manufacturing facilities, which are expected to help certain solar and battery projects qualify for the domestic content bonus tax credit. The domestic content bonus tax credit is only available to commercial asset owners, which includes commercial businesses adding solar and power purchase agreements/lease providers who own residential solar projects."
+   ],
+   "focus": "Business Overview and 2025 Highlights"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司策略",
+    "客戶與銷售",
+    "製造、品質控制與供應鏈管理",
+    "客戶服務",
+    "研究與發展",
+    "智慧財產權",
+    "政府規範",
+    "政府補貼",
+    "環境與氣候變遷",
+    "人力資源",
+    "薪酬哲學",
+    "健康與 wellness",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "本公司為一間全球能源科技公司，最初於2006年3月成立。我們提供智慧化、易於使用的解決方案，用以管理太陽能發電、儲能與通訊於同一平台。我們的智慧微逆變器可與幾乎所有太陽能板搭配使用，並搭配我們的智慧科技，可產生業界最佳表現的潔淨能源系統。",
+    "在歷史上百年電網的演進中，人們首次可以因產生並與社區分享潔淨能源而獲得報酬，協助建立一個以太陽能為動力的新能源未來。這種潔淨、免費且豐富的能源來源，可以供應我們的生活，並最終大幅降低我們對化石燃料的依賴。截至2025年12月31日，我們已出貨約86.4百萬個微逆變器，且超過5.1百萬套Enphase住宅與商業系統已部署於超過160個國家。",
+    "我們設計、開發、製造與銷售管理能源發電、儲能與控制與通訊於同一智慧平台的住宅能源解決方案。我們透過將系統化方法引入太陽能科技，並率先開發以半導體為基礎的微逆變器，來革新太陽能產業。此微逆變器可在單一太陽能模組層級轉換能源，並結合我們的專利網路與軟體科技，提供進階的能源監測與控制。這與使用串行逆變器系統搭配串行模組，無論是否搭配最佳化器，僅能從單一高壓電氣單元轉換整個太陽能模組陣列的能源，且缺乏對太陽能陣列能源產生能力的智慧資訊，有著顯著差異。",
+    "Enphase® Energy System透過運用我們在電力電子、半導體與雲端軟體科技方面的設計專業，為太陽能發電與儲能帶來高技術、網路化的解決方案。我們整合性的能源解決方案可最大化住宅的能源潛力，同時提供進階的監測與遠端維護功能。Enphase Energy System使用單一科技平台，實現IQ®微逆變器、IQ®電池、IQ®負載控制器與IQ®電動車充電器的無縫管理，允許透過Enphase®安裝應用程式快速啟動，透過IQ®組合器™裝置與Enphase IQ®閘道™裝置進行能源消耗監測，並透過En，Enphase®應用程式，一個雲端能源管理平台。系統擁有者可透過Enphase應用程式，從任何網路裝置監測住宅的太陽能發電、能源儲存與消耗情況。與部分競爭對手不同，他們使用傳統逆變器或提供解決方案的獨立組件，我們在光電（\"PV\"）發電與能源儲存方面內建系統冗餘性，消除單點故障的風險。此外，我們雲端監測系統的本質允許遠端韌體與軟體更新，實現成本效益高的遠端維護與持續的電力公司合規性。",
+    "我們已從僅太陽能系統轉型為完整的能源管理解決方案，包含太陽能、電池、負載控制、電動車（\"EV\"）充電、與第三方發電機的相容性，以及電網服務。此轉型是因應全球對透過可再生能源實現住宅與商業全面電氣化的興趣不斷上升所致。",
+    "我們的目標是打造業界最佳的住宅能源系統，並透過我們的安裝與分銷夥伴將其交付給住宅所有者。我們策略的關鍵要素包括：",
+    "• 提供最佳的客戶體驗。我們的價值主張是提供具生產力、可靠、智慧、簡易與安全的產品，並搭配優秀的客戶服務，以協助住宅所有者實現儲能與能源獨立。在服務方面，我們的安裝、分銷與模組夥伴是我們與最終客戶（住宅所有者與企業用戶）的首線接觸點。我們的目標是與這些服務供應商建立更佳的合作關係，以提供給住宅所有者高品質的服務。我們確信持續強化客戶體驗，透過提供24x7支援，可以成為我們的競爭優勢。",
+    "• 擴展我們的產品組合。我們透過系統化與高技術的進取方式，與其他逆變器公司區隔。我們持續投資於研究與開發，以開發我們住宅能源管理系統的所有零組件，並致力於為客戶與夥伴提供最佳的電力電子、儲能解決方案、通訊與負載控制，所有皆透過雲端住宅能源管理系統進行管理。",
+    "Enphase Energy, Inc. | 2025 Form 10-K | 7",
+    "•提升功率與效率並降低每瓦成本。本公司工程團隊致力於持續提高平均功率轉換效率與交流電（\"AC\"）輸出功率，以搭配更高規格的直流電（\"DC\"）模組，同時降低每瓦成本。",
+    "•提升儲能能量密度並降低安裝時間與每千瓦時成本。本公司工程團隊致力於提高本公司電池容量的能量密度、品質，並降低安裝時間與每千瓦時（\"kWh\"）成本，以使太陽能儲能系統具備韌性、可持續性與經濟性，並符合大眾需求。",
+    "•聚焦於屋主、經銷商與安裝商夥伴。本公司致力於使經銷商、安裝商與客戶的業務更為便捷，並透過經銷商、安裝商與客戶的業務流程數位化來產生收入。本公司重點為透過增強數位平台上的工具組合，擴大數位存在，持續與安裝商與屋主保持聯繫，並大幅提高線上商店的使用率。",
+    "•在全球範圍內擴大市佔率。本公司意圖利用本公司在微逆變器類別的市場領導地位，以及與安裝商與屋主的動能，來擴大本公司在核心市場的市佔率。此外，本公司希望進一步提高在歐洲、亞太與拉丁美洲地區的市佔率。另外，本公司意圖持續拓展至新市場，包括新興市場，透過新產品與現有產品，以及本地化的市場推廣能力。",
+    "Enphase Energy System 由 IQ Microinverters、IQ Batteries 及其他產品與服務驅動，是一項整合太陽能、儲能與能源管理的解決方案，使用戶能實現自用能源，並實現本公司核心價值主張，即產生更多能源、簡化設計與安裝，並提升系統運作時間與可靠性。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "業務概覽與2025年重點亮點",
+    "影響本公司業務與營運事件",
+    "綜合營運損益表之組成項目",
+    "淨營收",
+    "營收成本與毛利",
+    "營運費用",
+    "其他收入（淨額）",
+    "所得稅費用",
+    "營運綜合損益表摘要",
+    "營運成果",
+    "收入成本及毛利率",
+    "研究與發展",
+    "銷售及行銷",
+    "一般及行政費用變動",
+    "重整及資產減損費用變動",
+    "2024 年變動 $ %",
+    "流動性及資本資源",
+    "流動性來源",
+    "現金流量。下表總結了我們在所列會計期間的現金流量：",
+    "關鍵會計政策與會計估計",
+    "收入認列",
+    "政府補貼",
+    "金融工具的公允價值",
+    "保固義務",
+    "微逆變器及其他自2014年1月1日起出售產品的公允價值選項",
+    "所得稅"
+   ],
+   "paragraphs": [
+    "本公司為一間全球能源科技公司。本公司提供智慧化、易使用的解決方案，可在一平台管理太陽能發電、儲能與通訊。本公司智慧型微逆變器可與幾乎所有太陽能板搭配使用，並搭配本公司智慧科技，可產生業界最佳表現之一的潔淨能源系統。截至2025年12月31日，本公司已出貨約86.4百萬具微逆變器，且超過5.1百萬具Enphase住宅與商用系統已於超過160個國家部署。",
+    "本公司主要銷售給太陽能經銷商，這些經銷商會將本公司產品與其他產品，包括太陽能模組產品與支架系統組合銷售，並轉售給各目標地區的安裝商。除了太陽能經銷商外，本公司亦直接銷售給部分大型安裝商、OEM與戰略夥伴。本公司OEM客戶包括太陽能模組製造商，這些製造商會將本公司微逆變器整合至其太陽能模組產品中，並轉售給經銷商與安裝商。戰略夥伴包括多種公司，包括工業設備供應商、模組公司、能源供應商與第三方太陽能融資方案開發者（例如TPOs）。本公司亦銷售某些產品與服務給屋主，主要為支援本公司保固服務與舊產品升級計畫，透過本公司線上商店進行銷售。",
+    "在2025會計年度，本公司重點包括提供優質客戶服務；擴大美國製造規模並推進產品認證，以利用第48E節投資稅減免與第45X節的AMPTC；透過持續產品創新與系統整合強化Enphase Energy System的產品組合；透過與電力公司合作與開發VPPs來擴展生態系統能力；透過安全港協議加強與安裝商與TPOs的合作關係；並提高營運效率同時降低營運成本。",
+    "Enphase Energy, Inc. | 2025年10-K表單 | 49",
+    "為降低供應鏈風險與關稅暴露，並利用美國製造的鼓勵措施，本公司持續運作本公司國內製造設施，包括本公司內製造廠與與Flex的合作關係。這些安排維持了約每季五百萬具微逆變器的總製造能力。自2024年下半年起，本公司開始從美國製造廠出貨住宅與商用微逆變器與電池，這些產品具有較高的國內內容，預期將協助某些太陽能與電池專案符合國內內容加成稅減免條件。國內內容加成稅減免僅對商業資產所有者開放，包括商業企業增加太陽能與電力購買協議/租賃供應商，這些供應商擁有住宅太陽能專案。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務、營運及產業相關之風險",
+    "政府對並網太陽能電力應用之補貼與經濟激勵措施減少、取消或到期，可能降低太陽能光伏系統之需求，並對我們業務造成損害。",
+    "我們產品無法符合最低國內內容稅抵免門檻，包括FEOC規範，可能對我們業務、財務狀況及營運成果產生負面影響。",
+    "不利之總體經濟與市場條件可能對我們產業、業務及財務成果產生不利影響。",
+    "若太陽能能源解決方案之需求未如預期成長或成長速度較慢，將對我們業務造成損害。",
+    "美國貿易環境之變化，包括課徵進口關稅，已並可能對我們收入金額或時點、營運成果或現金流產生不利影響。",
+    "我們在設計與開發新產品及更新現有產品時，可能無法成功爭取客戶。",
+    "我們依賴少量外部製造商，若我們與這些製造商發生問題，將可能幹擾我們業務與營運。",
+    "我們依賴有限來源的供應商提供關鍵零組件及產品。若我們無法及時取得這些零組件及產品，將無法將產品交付給客戶。",
+    "我們近期及未來計畫擴張至現有及新市場，可能使我們面臨額外的營運、財務及競爭風險。",
+    "製造問題可能導致產品出貨延誤，這將對我們的營業收入、競爭地位及聲譽產生不利影響。",
+    "若我們的主要客戶流失，或發生影響該客戶的事件，將導致我們的銷售減少，並對我們的營運、財務狀況及營運成果產生不利影響。",
+    "若我們的產品存在製造或軟體缺陷，將可能對我們的營運及財務成果造成損害。",
+    "若我們無法留住關鍵人員，或無法吸引合格的新人，我們可能無法維持或達成預期的成長水準，營運將可能受損。",
+    "重整活動可能幹擾我們的營運，並對我們的營運成果產生不利影響。",
+    "若管理階層未能妥善管理成長，可能對我們的營運、營運成果及財務狀況造成重大不利影響。",
+    "本公司業務可能因季節性趨勢及建設週期而受到影響，且未來仍可能持續受到影響。",
+    "若本公司未能持續拓展直接對消費者銷售通路，透過本公司網站或第三方網站促進購買，則本公司業務及營運成果可能受到損害。",
+    "與本公司智慧財產權及科技相關的風險"
+   ],
+   "paragraphs": [
+    "我們已識別出下列風險與不確定性，這些風險與不確定性可能對我們的業務、財務狀況或營運成果造成重大不利影響。下列所描述的風險並非我們唯一面臨的風險。尚有其他風險，目前我們尚未知悉，或目前認為不具重大性，這些風險也可能對我們的業務運作造成重大影響。我們的業務可能因任何這些風險而受到損害。我們普通股的交易價格可能因任何這些風險而下跌，您可能損失全部或部分投資。在評估這些風險時，您應同時參考本年度報表（Form 10-K）中包含的其他資訊，包括我們的合併財務報表及相關附註。請參閱本年度報表（Form 10-K）前半部分的「前瞻性陳述」。",
+    "Enphase Energy, Inc. | 2025 Form 10-K | 17",
+    "我們的業務與更廣泛的太陽能與能源儲存產業，很大程度上依賴政府發放的補貼與經濟激勵措施，以促進太陽能光電（\"PV\"）與能源儲存系統在並網應用中的採用與成本競爭力。這些激勵措施包括，但不僅限於，投資稅減免（\"ITCs\"）、電力購電權（\"FiTs\"）、淨電量計量（\"NEM\"）計畫、回扣及其他因地區而異的政策。許多這些計畫均受到期、逐步減少、資金限制或政策變更的影響，且部分計畫已在關鍵市場中被減少或取消。",
+    "例如，《投資與就業法案》（IRA）及隨後的立法，包括《美國製造法案》（OBBBA），對ITC資格與國內內容要求進行了重大變更。針對住宅用太陽能與儲能系統的第25D項減免，其有效期至2025年12月31日為止。此外，《美國製造法案》（OBBBA）對第48E項碼（ITC）下資格的申請時間要求進行了新的規定。具體而言，僅太陽能的專案若未在OBBBA通過後12個月內開始施工，則須於2027年12月31日前投入營運，才能繼續符合減免資格。能源儲存專案不受此投入營運期限的限制；然而，儲能系統的ITC將於2034年起逐步減少——2034年為75%，2035年為50%，並於2036年完全取消。若我們無法達到修正後的合規門檻，或這些激勵措施進一步減少或取消，我們產品的成本競爭力可能下降，這可能會減少對我們產品的需求，對我們的營收與毛利率造成不利影響，並損害我們的業務。",
+    "在美國境外，包括德國、比利時、奧地利與荷蘭等多個歐洲國家已對其NEM或FiT計畫進行減免或終止。某些國家已提出或實施對再生能源的更高電網費用或稅收。這些及相關發展已對歐洲太陽能產業造成重大影響，並可能對這些市場未來對太陽能解決方案的需求產生不利影響。",
+    "除了其他政府設立的激勵措施，NEM及相關政策已支持並網屋頂太陽能產品的成長，而對這些政策的變更可能減少對我們太陽能服務產品的電力需求。NEM是一種電力供應公司設定的電價計畫，允許消費者將其太陽能板產生的過量太陽能以預定價格賣給電力供應公司。例如，在加州，加州公共事業委員會（CPUC）批准了NEM 3.0，大幅降低了太陽能用戶透過將過量太陽能賣給電網所能獲得的補償。在NEM 3.0下，每小時的出口價格平均約為每千瓦時0.05至0.08美元，與NEM 2.0時期的平均每千瓦時0.25至0.35美元相比大幅下降。CPUC也對其「虛擬NEM」及「NEM聚合」計畫進行了變更，禁止多電表商業或農業財產所有者將其財產上或附近產生的太陽能與電表上記錄的進口費用進行抵銷，除非為多戶住宅財產中的住宅戶。這些對NEM政策的變更已對我們的業務造成影響，並可能進一步損害我們的業務，不僅在加州（我們在美國歷史營收中佔有相當大的比例），在其他司法管轄區若採用類似變更，也可能造成影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

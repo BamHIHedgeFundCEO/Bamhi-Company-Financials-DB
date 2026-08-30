@@ -1,0 +1,154 @@
+{
+ "ticker": "CLFD",
+ "cik": "0000796505",
+ "accession": "0001171843-25-007594",
+ "form": "10-K",
+ "reportDate": "2025-09-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Overview",
+    "Segment Information",
+    "Markets and Customers",
+    "Commercial Fiber Broadband Connectivity",
+    "Broadband Service Provider Data Center Infrastructure",
+    "Wireless Deployments",
+    "Sources of Materials and Supply Chain",
+    "Major Customers and Financial Information about Geographic Areas",
+    "Patents and Trademarks",
+    "Human Capital Resources",
+    "Corporate Information"
+   ],
+   "paragraphs": [
+    "We design, manufacture, and distribute fiber protection, fiber management, and fiber delivery solutions to enable rapid and cost-effective fiber-fed deployment throughout the broadband service provider space primarily across North America. Our \"fiber to anywhere\" platform serves the unique requirements of Community Broadband customers (Tier 2 and 3 telco carriers, utilities, municipalities, and alternative carriers), Multiple System Operators (cable television), Large Regional Service Providers (ILEC operating a multi-state network with more than 500,000 subscribers), National Carriers (wireline/wireless national telco carriers (Tier 1)), and International customers (primarily Europe, Canada, Mexico, and Caribbean Markets).",
+    "Our mission is to enable the lifestyle that better broadband provides through innovative product design that accelerates fiber-based deployment, making communications simpler and more affordable for people everywhere. We believe our products offer broadband service providers a competitive advantage at a crucial time when demand for fiber-based services is increasing to historic levels as providers focus on passing and connecting more homes. We are driven to help broadband service providers reduce the cost - and increase the speed of fiber deployment.",
+    "We are engaged in global operations. Our operations currently comprise one reportable segment.",
+    "On November 11, 2025, the Company completed the sale of its Nestor Cables business, which was previously reported as the Nestor Cables Operating Segment. In connection with this sale, the historical results of the Nestor Cables business and certain assets and liabilities of the Nestor Cables business are reported in our consolidated financial statements as discontinued operations. Following the sale of the Nestor Cables business, the continuing operations of the Company comprise one operating segment and one reportable segment.",
+    "Clearfield is focused on providing fiber management, fiber protection, and fiber delivery products that accelerate the turn-up of fiber-based networks in residential homes, businesses, and network infrastructure in the wireline and wireless access network. We offer a broad portfolio of fiber products that allow service providers to build fiber networks faster, meet service delivery demands, and align build costs with take rates.",
+    "Clearfield's products allow its customers to connect twice as many homes in their Fiber to the Home (\"FTTH\") builds by using fewer resources in less time. Our products speed up the time to revenue for our service provider customers in Multiple Dwelling Units (\"MDUs\") and Multiple Tenant Units (\"MTUs\") by reducing the amount of labor and materials needed to provide gigabit service. Our products help make business services more profitable through faster building access, easier reconfiguration, and quicker services turn-up. Finally, Clearfield is removing barriers to wireless 4G/5G deployments in backhaul from the tower to the cloud and fiber fronthaul from the tower to the antenna at the cell site through better fiber management, test access, and fiber protection.",
+    "Substantially all of the final build and assembly is completed at Clearfield's plants in Brooklyn Park, Minnesota and Tijuana, Mexico, with manufacturing support from a network of domestic and global manufacturing partners. Clearfield specializes in producing these products on both a quick-turn and scheduled delivery basis.",
+    "Our product strategy involves analyzing the broadband communications industry environment and technology, with a particular focus on simplifying our customers' business, and developing innovative, high-quality products utilizing modular designs wherever possible. We are committed to make fiber deployment success easier by providing craft-friendly, pre-connectorized plug-and-play fiber assemblies, fiber management and pathway products to speed deployments and provide the lowest total cost of ownership for our customer's networks. With the innovation of forward-thinking products, a 100 percent plug-and-play platform and creative deployment methods, we are fulfilling our mission of enabling the lifestyle of better broadband and beyond.",
+    "Throughout the fiber deployment journey from the Inside Plant (ISP) to the Outside Plant (OSP), into the Access Network and all the way to the fiber connection at the home, our labor lite solutions solve service provider fiber network design and installation challenges. Our methodologies provide easy to engineer and easy to install solutions that take the mystery out of deploying fiber networks.",
+    "Leveraging factory terminated single-fiber and multi-fiber plug-and-play connectors, homes passed, and homes connected metrics can be greatly increased. The speed to turn up the entire network is maximized, while helping ensure superior optical performance achieved by using low-loss connectors, terminated in the factory.",
+    "Whether inside a cabinet or at the home, innovative slack storage spools and deploy reels reduce the dependence on making exact cable measurements. This enables the deployment of double-ended, standard cable lengths rather than relying on highly engineered, built-to-order cable assemblies or multiple field splicing events.",
+    "Product development for the Company's product line program has mainly been conducted internally. We believe that the communication industry environment is constantly evolving, and our success depends on our ability to anticipate and respond to these changes. Research and development are reflected in Selling, General, & Administrative expenses.",
+    "Some of our products currently offered are described below.",
+    "FieldSmart® is a series of panels, cabinets, wall boxes and other enclosures that provide a consistent design from the inside plant of the telco's \"central office\" or cable television's head-end, all the way through the outside plant to the access network to within the home or business. The Clearview® Cassette is the core building block of every product within the FieldSmart fiber management system. Clearview configuration options support tool-less installation, in-cassette buffer tube/ribbon slack storage as well as front access-only designs. The small footprint reduces real estate costs and improves density without compromising critical design elements of access, bend-radius protection, physical fiber protection and route path diversity. All types of fiber cable construction can be integrated within the cassette to support all patch only, patch and splice (in-cassette splicing), passive optical component hardware and plug-and-play scenarios."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Relating to Our Operations",
+    "We depend on the availability of sufficient supply of certain materials. Global disruptions in the supply chain for these materials could prevent us from meeting customer demand for our products.",
+    "We rely on single-source suppliers, which could cause delays, increases in costs, or prevent us from completing customer orders, all of which could materially harm our business.",
+    "Changes in trade policy in the U.S. and other countries may adversely affect our business and results of operations.",
+    "Inflationary price pressures and uncertain availability of components, raw materials, labor and logistics used by us, and our suppliers could negatively impact our profitability.",
+    "A significant percentage of our sales in the last three fiscal years have been made to a small number of customers, and the loss of these major customers could adversely affect us.",
+    "Further consolidation among our customers may result in the loss of some customers and may reduce sales during the pendency of business combinations and related integration activities.",
+    "Our business is dependent on interdependent management information systems.",
+    "We may be subject to risks associated with acquisitions, and the risks could adversely affect future operating results.",
+    "These risks associated with acquisition, integration of acquired businesses and management of our expanded operations may have a material adverse effect on our sales, financial condition, and results of operations.",
+    "Adverse global economic conditions and geopolitical issues could have a negative effect on our business, and results of operations and financial condition.",
+    "Product defects or the failure of our products to meet specifications or domestic content requirements could cause us to lose customers and sales or to incur unexpected expenses.",
+    "We are dependent on key personnel.",
+    "Cyber-security incidents, including ransomware, data breaches or computer viruses, could disrupt our business operations, damage our reputation, result in increased expense and potentially lead to legal proceedings.",
+    "Natural disasters, extreme weather conditions or other catastrophic events could negatively affect our business, financial condition, and operating results.",
+    "Risks Relating to Our Markets and Industry",
+    "To compete effectively, we must continually improve existing products and introduce new products that achieve market acceptance.",
+    "Our business is dependent upon capital spending by broadband service providers, and any delay, reduction or cancellation in capital spending by broadband service providers could adversely affect our business.",
+    "If the telecommunications market does not continue to expand, our business may not grow as fast as we expect, which could adversely impact our business, financial condition, and operating results.",
+    "Changes in U.S. government funding programs may cause our customers and prospective customers to delay, reduce, or accelerate purchases, leading to unpredictable and irregular purchase cycles.",
+    "Intense competition in our industry may result in price reductions, lower gross profits, and loss of market share.",
+    "Our success depends upon adequate protection of our patent and other intellectual property rights.",
+    "We face risks associated with expanding our sales outside of the United States.",
+    "Risks Relating to Our Common Stock",
+    "Our operating results may fluctuate significantly from quarter to quarter, which may make budgeting for expenses difficult and may negatively affect the market price of our common stock.",
+    "Our stock price has been volatile historically and may continue to be volatile. The price of our common stock may fluctuate significantly.",
+    "Anti-takeover provisions in our organizational documents, Minnesota law, and other agreements could prevent or delay a change in control of our Company."
+   ],
+   "paragraphs": [
+    "We purchase critical components for our products, including injected molded parts, various cabling, optical components, components for active cabinets, and connectors from third parties, some of which are single- or limited-source suppliers. We depend on the ability of these third-party suppliers to secure a sufficient supply of raw materials and maintain sufficient manufacturing and shipping capacity. The global supply chain for raw materials critical to our products has in the past, and may again in the future, suffer shortages, shipping delays and shipping shortages. This may lead some manufacturers who depend on these raw materials to experience shortages, delivery delays and price increases for both the raw materials and shipping, with the corresponding consequence that these manufacturers may be delayed in delivering products to us or may charge higher prices for these products, or there may be increased shipping costs associated with the products. Some manufacturers may also allocate short supply of products among Clearfield and their other customers.",
+    "Increased demand for the Company's products from its customers may put pressure on the Company's supply chain, particularly during periods of disruption in the global supply chain and may lead to increases in costs or delays in obtaining the materials and components for our products from our suppliers. The Company's ability to recognize revenue in the future for customer orders will depend on our ability to manufacture and deliver products to the customers and fulfill other contractual obligations. Our ability to meet future customer demand for our products will in turn depend upon our suppliers receiving timely and adequate supplies of raw materials to be able to produce the critical materials and components they supply to us. Although we place a high value on long-term relationships with our suppliers, generally we do not have long-term supply contracts but instead conduct business on an order-by-order basis. Therefore, we also compete with other companies for the production capacity of manufacturers of the materials and components we need for our products. We also are exposed to potentially increasing costs associated with the materials and components we purchase from suppliers or increased costs associated with shipping generally. We may attempt to mitigate the effect of increases in our cost of goods sold through sourcing or stocking initiatives and by selectively increasing the prices of our products. However, we may be unable to fully pass on these costs to our customers. Long lead times for certain components and changes in demand for our products may impact our ability to accurately forecast our production requirements. As a result, certain component inventory purchases may become excess or obsolete, which could have an adverse effect on our financial condition and results of operations.",
+    "The reduction of available production capacity among our suppliers, their failures to meet production deadlines or increases to us in their manufacturing or shipping costs may impact our ability to deliver quality products to our customers on a timely basis, make our products less competitive due to extended delivery times or increased price, negatively impact our customer or distributor relationships, and result in lower net sales and profit. Any delays or inabilities in meeting customer required shipping dates may also expose us to order cancellations in our sales order backlog by customers, which could have an adverse effect on our results of operations.",
+    "We assemble our products using materials and components supplied by various subcontractors and suppliers. We purchase critical components for our products, including injected molded parts, various cabling, optical components, and connectors from third parties, some of whom are single- or limited-source suppliers. If any of our suppliers are unable to ship critical components, we may be unable to manufacture and ship products to our distributors or customers. If the price of these components increases for any reason, or if these suppliers are unable or unwilling to deliver, we may have to find another source, which could result in interruptions, increased costs, delays, lost sales, and quality control problems.",
+    "Further, the costs to obtain certain raw materials and supplies, such as fiber, are subject to price fluctuations, which may be substantial, because of global market demands. Many companies utilize the same raw materials and supplies in the production of their products as we use in our products. Companies with more resources than us may have a competitive advantage in obtaining raw materials and supplies due to greater purchasing power. Some raw materials or supplies may be subject to regulatory actions, which may affect available supplies. Further, new or increased tariffs may be imposed by governments on imports from other countries that are the single- or limited-source of our materials and components. Tariffs increase the cost of the materials and components that go into making our products, but we are generally unable to pass some or all of these increased costs to our customers. Accordingly, these increased costs adversely impact the gross margin that we earn on our products. Furthermore, due to general economic conditions in the U.S. and globally, our suppliers may experience financial difficulties, which could result in increased delays, additional costs, or loss of a supplier.",
+    "The termination or interruption of any of these relationships, or the failure of these manufacturers or suppliers to supply components or raw materials to us on a timely basis or in sufficient quantities, likely would cause us to be unable to meet orders for our products and harm our reputation and our business. Identifying and qualifying alternative suppliers would take time, involve significant additional costs, and may delay the production of our products. If we fail to forecast our manufacturing requirements accurately or fail to properly manage our inventory with our contract manufacturers, we could incur additional costs, experience manufacturing delays, and lose sales. Further, if we obtain a new supplier or assemble our product using an alternative source of supply, we may need to conduct additional testing of our products to ensure they meet our quality and performance standards. Any delays in delivery of our product to distributors or customers could be extended, and our costs associated with the change in product manufacturing could increase."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Company Overview': '公司簡介'}",
+    "{'Segment Information': '分部資訊'}",
+    "{'Markets and Customers': '市場與客戶'}",
+    "{'Commercial Fiber Broadband Connectivity': '商業光纖寬頻連線'}",
+    "{'Broadband Service Provider Data Center Infrastructure': '寬頻服務提供者資料中心基礎建設'}",
+    "{'Wireless Deployments': '無線部署'}",
+    "{'Sources of Materials and Supply Chain': '材料來源與供應鏈'}",
+    "{'Major Customers and Financial Information about Geographic Areas': '主要客戶與地理區域之財務資訊'}",
+    "專利與商標",
+    "人力資本資源",
+    "公司資訊"
+   ],
+   "paragraphs": [
+    "本公司設計、製造與分銷光纖保護、光纖管理及光纖傳輸解決方案，以實現於寬頻服務供應商領域內快速且具成本效益的光纖佈建，主要服務範圍為北美地區。我們的「光纖至任何處」平台，可滿足社區寬頻客戶（第二及第三階電信業者、電力公司、地方政府及替代性電信業者）、多系統運營商（有線電視）、大型區域服務供應商（經營跨州網路且擁有超過500,000戶的電信業者）、國家電信業者（電線/無線國家電信業者（第一階電信業者））及國際客戶（主要為歐洲、加拿大、墨西哥及加勒比海市場）的獨特需求。",
+    "本公司使命為透過創新產品設計，加速光纖基礎設施的佈建，使全球各地的民眾能更簡易且經濟地享受更好的寬頻生活。我們相信，本公司產品能為寬頻服務供應商在需求持續攀升至歷史高點的關鍵時刻，提供競爭優勢。我們致力於協助寬頻服務供應商降低佈建成本，並提升光纖佈建速度。",
+    "本公司從事全球性營運。目前本公司營運僅包含一個應報告分部。",
+    "於2025年11月11日，本公司完成出售其Nestor Cables業務，該業務先前被歸類為Nestor Cables營運分部。配合此筆交易，Nestor Cables業務的歷史營運成果及部分資產與負債，已於本公司合併財務報表中列為已終止營運。出售Nestor Cables業務後，本公司持續營運僅包含一個營運分部及一個應報告分部。",
+    "Clearfield專注於提供光纖管理、光纖保護及光纖傳輸產品，以加速光纖基礎設施在住宅、企業及網路基礎設施的佈建。我們提供廣泛的光纖產品組合，使服務供應商能更快建立光纖網路，滿足服務交付需求，並使建設成本與實際使用率相匹配。",
+    "Clearfield的產品使客戶能在光纖至住宅（\"FTTH\"）建設中，以較少資源及時間，連接兩倍的住宅。我們的產品可縮短服務供應商在多戶住宅（\"MDUs\"）及多租戶單位（\"MTUs\"）的收入達成時間，透過減少提供千兆服務所需的勞動力與材料。我們的產品有助於提高企業服務的獲利性，透過更快的建設接入、更簡易的重新配置及更快的服務啟動。最後，Clearfield透過更優化的光纖管理、測試存取及光纖保護，降低無線4G/5G在電塔至雲端的回程及電塔至基地臺天線的前傳光纖佈建的障礙。",
+    "光纖最終組裝與製造幾乎完全在本公司位於明尼蘇達州布魯克林帕克及墨西哥提華納的工廠完成，並透過一張由國內及國際製造夥伴組成的製造網路提供製造支援。本公司專注於以快速交貨及定期交貨方式生產這些產品。",
+    "本公司產品策略涉及分析寬頻通訊產業環境與技術，特別著重於簡化客戶業務，並開發創新、高品質的產品，盡可能採用模組化設計。本公司致力於使光纖佈建成功更為容易，透過提供友善施工、預連接的插拔式光纖組裝、光纖管理與路徑產品，加速佈建並為客戶網路提供最低總成本擁有權。透過創新前瞻性產品、100％插拔式平台及創意佈建方式，本公司實現其使命，即啟動更優質寬頻生活與更多可能。",
+    "從內線設備（ISP）到外線設備（OSP），進入存取網路，一直到家庭的光纖連接，我們的勞動輕量解決方案解決服務供應商光纖網路設計與安裝的挑戰。我們的方法論提供容易工程設計與安裝的解決方案，去除部署光纖網路的神祕感。",
+    "透過廠端終端的單纖與多纖插拔連接器，可大幅提升已通電住宅與已連線住宅的指標。整體網路的部署速度達到極致，同時透過使用低損耗連接器，並在廠端終端，確保優越的光學性能。",
+    "無論是在機櫃內或是在家庭內，創新鬆弛儲存捲軸與部署捲軸可減少對精確電纜測量的依賴。這使得能部署雙端標準電纜長度，而非依賴高度工程化、訂製電纜組裝或多次現場接續事件。",
+    "本公司產品線的產品開發主要為內部進行。我們認為通訊產業環境持續在演進，我們的成功取決於我們預測並回應這些變化的能耐。研究與開發費用反映在銷售、一般及行政費用中。",
+    "部分目前所提供的產品如下所述。",
+    "FieldSmart® 是一系列面板、機櫃、牆盒及其他外殼，提供從電信業者「中央機房」或有線電視的前端，一直到外線設備、存取網路，直至家庭或企業內的統一設計。Clearview® 箱體是 FieldSmart 光纖管理系統中每個產品的核心構建模組。Clearview 配置選項支援無工具安裝、箱體內緩衝管/絞纜鬆弛儲存，以及僅前側存取設計。小型佔地面積可降低空間成本並提高密度，而不影響關鍵設計要素，包括存取、彎曲半徑保護、物理纖維保護與路徑多樣性。所有類型的光纖電纜結構均可整合於箱體內，以支援僅配線、配線與接續（箱體內接續）、被動光學元件硬體與插拔式應用場景。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "營運相關風險",
+    "我們依賴特定材料的充足供應。這些材料的供應鏈在全球發生中斷，可能導致我們無法滿足客戶對產品的需求。",
+    "我們依賴單一來源供應商，這可能會導致延遲、成本增加，或無法完成客戶訂單，所有這些情況都可能對我們的業務造成重大損害。",
+    "美國及其他國家的貿易政策變動，可能對我們的業務及營運結果產生不利影響。",
+    "通貨膨脹導致的價格壓力，以及我們與供應商在零組件、原材料、勞動力及物流等方面的供應不確定性，可能對我們的獲利能力產生負面影響。",
+    "我們在最近三個會計年度中，有相當大比例的銷售來自少量客戶，這些主要客戶的流失可能對我們產生不利影響。",
+    "我們的客戶進一步集中，可能導致部分客戶流失，並在企業合併及相關整合活動進行期間減少銷售。",
+    "我們的業務依賴於相互依存的管理資訊系統。",
+    "本公司可能面臨與併購相關的風險，這些風險可能對未來營運成果產生不利影響。",
+    "與併購、整合收購企業及管理擴展後營運相關的風險，可能對本公司銷售額、財務狀況及營運成果產生重大不利影響。",
+    "不利的全球經濟情勢及地緣政治問題可能對本公司業務、營運成果及財務狀況產生負面影響。",
+    "產品瑕疵或本公司產品未能符合規格或國內內容要求，可能導致本公司失去客戶與銷售額，或產生未預期的費用。",
+    "本公司依賴關鍵人員。",
+    "網路安全事件，包括勒索軟體、資料外洩或電腦病毒，可能幹擾本公司營運，損害本公司聲譽，導致費用增加，並可能引發法律程序。",
+    "天然災害、極端天氣條件或其他災難性事件可能對本公司業務、財務狀況及營運成果產生負面影響。",
+    "與本公司所屬市場及產業相關的風險",
+    "為有效競爭，我們必須持續改善現有產品並推出新產品以獲得市場接受度。",
+    "本公司業務依賴寬頻服務業者的資本支出，若寬頻服務業者延遲、減少或取消資本支出，將可能對本公司業務產生不利影響。",
+    "若電信市場無法持續擴張，本公司業務可能無法如預期般成長，這將可能對本公司業務、財務狀況及營運成果產生不利影響。",
+    "美國政府資金計畫的變動可能導致客戶及潛在客戶延遲、減少或加速採購，造成採購週期無法預測且不穩定。",
+    "本公司所處產業競爭激烈，可能導致價格下降、毛利率降低及市場佔有率流失。",
+    "本公司之成功取決於專利及其他智慧財產權之充分保護。",
+    "本公司面臨擴展銷售至美國以外地區所產生的風險。",
+    "與本公司普通股相關的風險",
+    "本公司營運成果可能因季節而大幅波動，可能使費用預算困難，並可能對本公司普通股的市場價格產生負面影響。",
+    "本公司股票價格歷來波動性較高，未來可能持續波動，本公司普通股價格可能大幅變動。",
+    "本公司章程中的反收購條款、明尼蘇達州法律及其他協議，可能阻止或延宕本公司控制權的變更。"
+   ],
+   "paragraphs": [
+    "我們從第三方購買我們產品所需的關鍵零組件，包括射出成型零件、各種線纜、光學零組件、主動機架零組件及連接器，其中一些為單一或有限來源供應商。我們依賴這些第三方供應商能取得足夠的原材料並維持足夠的製造與運輸能力。我們產品所需的關鍵原材料全球供應鏈過去曾出現，未來也可能再次出現短缺、運輸延誤與運輸不足的情況。這可能導致依賴這些原材料的製造商遭遇原材料與運輸的短缺、交付延誤與價格上漲，進而使這些製造商延遲交付產品給我們，或對我們收取較高的價格，或與產品相關的運輸成本增加。部分製造商也可能在 Clearfield 及其其他客戶之間分配產品的短缺供應。",
+    "我們客戶對本公司產品需求的增加可能對本公司供應鏈造成壓力，尤其是在全球供應鏈出現中斷期間，可能會導致取得我們產品所需材料與零組件的成本增加或延誤。本公司未來認列客戶訂單收入的能力將取決於我們製造並交付產品給客戶並履行其他契約義務的能力。我們未來滿足客戶對產品需求的能力，將取決於我們的供應商能否及時且充足地取得原材料，以生產他們供應給我們的關鍵材料與零組件。雖然我們非常重視與供應商的長期關係，但我們通常並沒有長期供應契約，而是以訂單為單位進行業務。因此，我們也與其他公司競爭製造我們產品所需材料與零組件的生產能力。我們也面臨與供應商購買材料與零組件相關成本增加，或一般運輸成本增加的潛在風險。我們可能透過採購或庫存管理方案，或選擇性提高產品價格來緩解我們產品成本增加的影響。然而，我們可能無法完全將這些成本轉嫁給客戶。某些零組件的長交期與我們產品需求的變化，可能影響我們準確預測生產需求的能力。因此，某些零組件的庫存採購可能成為過多或過時的庫存，這可能會對我們的財務狀況與營運成果產生不利影響。",
+    "我們供應商可用生產能力的減少、他們未能達成生產截止日期或他們對我們的製造或運輸成本增加，可能影響我們及時交付高品質產品給客戶的能力，使我們的產品因交付時間延長或價格提高而變得較不具競爭力，對我們的客戶或經銷商關係產生負面影響，並導致我們的淨銷售額與利潤減少。任何延誤或無法達成客戶要求的運輸日期，也可能使我們的銷售訂單積壓遭客戶取消，這可能會對我們的營運成果產生不利影響。",
+    "我們使用各種 subcontractors 與供應商提供的材料與零組件來組裝產品。我們從第三方購買我們產品所需的關鍵零組件，包括射出成型零件、各種線纜、光學零組件及連接器，其中一些為單一或有限來源供應商。如果任何供應商無法運送關鍵零組件，我們可能無法製造並運送產品給我們的經銷商或客戶。如果這些零組件的價格因任何原因增加，或這些供應商無法或不願交付，我們可能需要尋找其他來源，這可能會導致中斷、成本增加、延誤、銷售損失與品質控制問題。",
+    "此外，取得某些原材料與用品（如光纖）的成本，會因全球市場需求而波動，這種波動可能相當顯著。許多公司會使用與我們相同的原材料與用品來製造他們的產品。擁有比我們更多資源的公司，可能因購買力較強而在取得原材料與用品方面擁有競爭優勢。某些原材料或用品可能受到法規措施的影響，這可能會影響可用供應。此外，政府可能對來自其他國家（為我們材料與零組件的單一或有限來源）的進口課徵新或更高的關稅。關稅會提高我們產品所需材料與零組件的成本，但我們通常無法將部分或全部這些增加的成本轉嫁給客戶。因此，這些增加的成本會對我們產品的毛利率產生不利影響。此外，由於美國與全球的總體經濟情況，我們的供應商可能會面臨財務困難，這可能會導致交付延誤、額外成本或失去供應商。",
+    "這些關係的終止或中斷，或這些製造商或供應商未能及時或足夠數量地供應我們所需的零組件或原材料，很可能會導致我們無法履行產品訂單，損害我們的聲譽與業務。尋找與認證替代供應商將需要時間，並涉及顯著的額外成本，且可能延誤我們產品的生產。如果我們未能準確預測製造需求，或未能妥善管理與合約製造商的庫存，我們可能會產生額外成本、遭遇製造延誤，並失去銷售。此外，如果我們取得新供應商或使用替代來源製造產品，我們可能需要進行額外的測試，以確保產品符合我們的品質與性能標準。任何產品交付給經銷商或客戶的延誤都可能延長，且我們因產品製造方式改變而產生的成本可能增加。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

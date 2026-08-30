@@ -1,0 +1,191 @@
+{
+ "ticker": "LRMR",
+ "cik": "0001374690",
+ "accession": "0001193125-26-115878",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Nomlabofusp Program Update",
+    "Our Strategy",
+    "Platform Technology for Treatment of Rare Genetic Diseases",
+    "Nomlabofusp For the Treatment of Friedreich's ataxia",
+    "Development of Nomlabofusp",
+    "Intellectual Property",
+    "In-License Agreements",
+    "Manufacturing and Supply",
+    "Human Capital Resources"
+   ],
+   "paragraphs": [
+    "We are a clinical-stage biotechnology company focused on developing treatments for patients suffering from complex rare diseases using our novel cell penetrating peptide (\"CPP\") technology platform. Our lead product candidate, nomlabofusp, is a subcutaneously administered, recombinant fusion protein intended to deliver frataxin (\"FXN\"), an essential protein, to the mitochondria of patients with Friedreich's ataxia (\"FA\"). FA is a rare, progressive, and fatal disease in which patients are unable to produce sufficient FXN due to a genetic abnormality. Currently, there are no treatment options that address the core deficit of FA, low levels of FXN. Nomlabofusp represents the first potential therapy designed to systemically increase FXN levels in patients with FA.",
+    "We believe that our CPP platform, which enables a therapeutic molecule to cross a cell membrane in order to reach intracellular targets, also has the potential to enable the treatment of other rare and orphan diseases. We intend to use our proprietary platform to target additional orphan indications characterized by deficiencies in or alterations of intracellular content or activity.",
+    "Since our inception, we have devoted substantially all of our resources to developing nomlabofusp, building our intellectual property portfolio, developing third-party manufacturing capabilities, business planning, raising capital, and providing general and administrative support for such operations.",
+    "As of December 31, 2025, we had cash, cash equivalents, and marketable securities of $136.9 million, which, together with the net proceeds of $107.6 million from our February 2026 public offering of common stock, we anticipate will fund operations into the second quarter of 2027.",
+    "We have Orphan Drug Designation, Fast Track Designation, Pediatric Rare Disease Designation and Breakthrough Therapy Designation from the FDA and have been granted Orphan Drug Designation and access to the European Medicines Agency's (\"EMA's\") Priority Medicines Program (\"PRIME\") scheme in the European Union (the \"EU\"). We have also received access in the United Kingdom (the \"UK\") to the Medicines and Healthcare Regulatory Agency's (\"MHRA\") Innovative Licensing and Access Pathway (\"ILAP\"). These programs are designed to facilitate development of certain therapeutics such as those for rare and serious diseases, and those that have the potential to meet an unmet medical need.",
+    "The FDA's Center for Drug Evaluation and Research selected nomlabofusp as one of a few drug development programs for participation in the Support for Clinical Trials Advancing Rare Disease Therapeutics (\"START\") Pilot Program. The objective of the program is to accelerate the development of drugs for rare diseases that lead to significant disability or death by facilitating frequent advice and regular communication with the FDA staff to expedite the review process of biologics and drugs.",
+    "We have engaged in multiple discussions and interactions with the FDA in connection with our clinical development of nomlabofusp and communications remain ongoing. We have also had numerous interactions with the EMA, the MHRA, and Canada's Health Canada regarding the clinical development of nomlabofusp.",
+    "We have completed four clinical studies: (i) two Phase 1 clinical studies in adults, (ii) a Phase 2 dose exploration study in adults and (iii) a Phase 1 pharmacokinetic (\"PK\") run-in study in adolescents (12-17 years old). We currently have an ongoing open label (\"OL\") study (previously referred to as the Open Label Extension, (\"OLE\") study) in adults and adolescents with FA. Approximately 8,000 doses of nomlabofusp have been administered to patients throughout the clinical development program.",
+    "Recent significant developments are as follows:",
+    "• In December 2024, we reported initial data from our ongoing OL study. This data included safety, FXN levels, clinical and PK data in 14 participants administered 25 mg nomlabofusp daily for up to 260 days (mean 99 days). Tissue FXN levels increased and were maintained at day 90 and there were early trends towards improvement in clinical outcomes observed at day 90. The most common adverse events were injection site reactions and two participants experienced serious adverse events (one seizure and one",
+    "anaphylactic reaction) that resolved within 24 hours and they were withdrawn from the study. Also in December 2024, we announced that we were increasing the dose in the OL study to 50 mg of nomlabofusp daily for then currently enrolled participants and would be starting all new patients on 50 mg daily and in March 2025 we announced that all participants had transitioned to the 50 mg daily dose. In March 2025 we also announced that our Safety Monitoring Team had identified anaphylaxis as an adverse drug reaction likely associated with nomlabofusp.",
+    "• In January 2025, we initiated dosing of adolescents (12-17 years old) in a PK run-in study for pediatric patients with FA. Study participants in the PK run-in study were randomized 2:1 to receive either nomlabofusp at a weight-base dose expected to match the PK of adults receiving the 50 mg dose, or placebo, daily for seven days. We completed dosing in 14 adolescents in March 2025. The PK and exposure data were similar to adults and the participants became eligible to enroll in the OL study. The PK results from the adolescent cohort also supported the predictive value of our exposure modeling and will facilitate direct enrollment of children (2-11 years old) into the OL study which would eliminate any pause in study drug administration between the PK study and the OL study. Therefore, it was not necessary to perform a cohort for children in the PK study and we terminated the study. We are now planning to initiate enrollment of children directly into the ongoing OL study.",
+    "• In February 2025, the FDA accepted the data supporting the comparability of the lyophilized drug product to the frozen solution and agreed with our plans to introduce the lyophilized product into our clinical development program. In July 2025, we began introducing the lyophilized product formulation into the OL study. This is the formulation intended for commercialization.",
+    "• In March 2025, we announced that the FDA stated as part of the START pilot program, that it is open to considering the use of FXN concentration as a reasonably likely surrogate endpoint (\"RLSE\") and the acceptability of FXN concentration as an RLSE to support accelerated approval will be a matter of review in a future marketing application. The FDA recommended focusing on assessments of skin FXN concentrations rather than buccal FXN concentrations due to more consistent sampling and less variability. The FDA acknowledged that data we submitted appeared to support a relationship between increased FXN concentrations in skin and relevant tissues such as the heart, dorsal root ganglion and skeletal muscle. The FDA also acknowledged that the nonclinical studies we submitted were performed at relevant human doses. The FDA also suggested that we consider exploring the relationship between increases in FXN in skin and changes in pharmacodynamic (\"PD\") markers such as lipid profiles and/or clinical measures to provide additional support for the use of FXN as an RLSE."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Financial Position and Need for Capital",
+    "We have incurred significant losses since our inception and anticipate that we will incur continued losses for the foreseeable future.",
+    "We have no commercial revenue and may never become profitable.",
+    "Our ability to use our NOLs and certain other tax attributes may be limited.",
+    "Changes in tax laws and regulations may have a material adverse effect on our business, financial condition and results of operations.",
+    "Risks Related to Our Product Development and Regulatory Approvals",
+    "Failures or delays in the completion of our clinical trials could result in increased costs and could delay, prevent or limit our ability to generate revenue and continue our business.",
+    "We may not be successful in our efforts to identify, discover or acquire additional product candidates.",
+    "We cannot be certain that we will be able to successfully complete clinical trials for nomlabofusp or any other product candidates.",
+    "FA has no FDA-approved therapies that address frataxin deficiency, which is the underlying cause of the disease, and clinical endpoints required to obtain approval are not well defined.",
+    "Our approach to discover and develop fusion proteins for delivering proteins is novel and may never lead to marketable products."
+   ],
+   "paragraphs": [
+    "You should consider carefully the following risks and uncertainties when reading this Annual Report on Form 10-K, as well as the other information contained herein, including our audited consolidated financial statements and the related notes and the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operation.\" If any of the following risks occur, our business, financial condition and results of operations could be materially and adversely affected. Although we believe that we have identified and discussed below the key risk factors affecting our business, there may be additional risks and uncertainties that are not presently known or that are not currently believed to be significant that may adversely affect our performance or financial condition. In that event, the trading price of our common stock could decline.",
+    "Since our inception we have devoted substantially all of our resources to the development of nomlabofusp. We have incurred significant losses in each year of operation since our inception in 2016. For the years ended December 31, 2025 and 2024, we had net losses of $165.7 million and $80.6 million, respectively, and, as of December 31, 2025, we had an accumulated deficit of $434.8 million and we expect to continue to incur significant expenses and net operating losses (\"NOLs\") for the foreseeable future.",
+    "We have devoted substantially all of our financial resources and efforts to research and development, including non-clinical studies, our clinical development program, the development of manufacturing processes as well as the manufacture of initial lots of clinical trial material. We expect to incur significant losses for the foreseeable future to further develop and commercialize our lead drug candidate, nomlabofusp.",
+    "We expect that our expenses will increase substantially if and as we: • continue clinical development efforts for nomlabofusp;",
+    "• seek regulatory and marketing approvals in the United States and in foreign jurisdictions for our product candidates that successfully complete clinical trials, if any;",
+    "• establish sales, marketing, distribution and other commercial infrastructure to commercialize various products for which we may obtain marketing approval, if any;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Nomlabofusp Program Update",
+    "Financing Activities, including Recent Material Financings",
+    "Critical Accounting Policies and Significant Judgments and Estimates",
+    "Financial Operations Overview",
+    "Operating Expenses",
+    "Results of Operations",
+    "Comparison of the years ended December 31, 2025 and 2024",
+    "Year Ended December 31,",
+    "(in thousands)",
+    "Statement of Operations Data:",
+    "Research and development expenses",
+    "General and administrative expenses",
+    "Other income, net",
+    "Operating Capital Requirements",
+    "Recently Issued Accounting Pronouncements",
+    "Other Company Information"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations together with the audited consolidated financial statements and the related notes included elsewhere in this Annual Report on Form 10-K. In addition to historical financial information, the following discussion contains forward-looking statements based upon our current plans, expectations and beliefs that involve risks, uncertainties and assumptions. Our actual results may differ materially from those described in or implied by these forward-looking statements as a result of many factors, including those set forth under the section titled \"Risk Factors\" and in other parts of this Annual Report on Form 10-K.",
+    "We are a clinical-stage biotechnology company focused on developing treatments for patients suffering from complex rare diseases using our novel cell penetrating peptide (\"CPP\") technology platform. Our lead product candidate, nomlabofusp, is a subcutaneously administered, recombinant fusion protein intended to deliver frataxin (\"FXN\"), an essential protein, to the mitochondria of patients with Friedreich's ataxia (\"FA\"). FA is a rare, progressive, and fatal disease in which patients are unable to produce sufficient FXN due to a genetic abnormality. Currently, there are no treatment options that address the core deficit of FA, low levels of FXN. Nomlabofusp represents the first potential therapy designed to systemically increase FXN levels in patients with FA.",
+    "We believe that our CPP platform, which enables a therapeutic molecule to cross a cell membrane in order to reach intracellular targets, also has the potential to enable the treatment of other rare and orphan diseases. We intend to use our proprietary platform to target additional orphan indications characterized by deficiencies in or alterations of intracellular content or activity.",
+    "Since our inception, we have devoted substantially all of our resources to developing nomlabofusp, building our intellectual property portfolio, developing third-party manufacturing capabilities, business planning, raising capital, developing sales and marketing capacities, and providing general and administrative support for such operations.",
+    "As of December 31, 2025, we had cash, cash equivalents, and marketable securities of $136.9 million. In February 2026, we raised net proceeds of approximately $107.6 million in an underwritten public offering of common stock. We anticipate the $107.6 million in net proceeds, together with $136.9 million of cash will fund operations into the second quarter of 2027.",
+    "We have Orphan Drug Designation, Fast Track Designation, Pediatric Rare Disease Designation and Breakthrough Therapy Designation from the FDA and have been granted orphan drug designation and access to the European Medicines Agency's (\"EMA's\") Priority Medicines Program (\"PRIME\") scheme in the European Union (the \"EU\"). We have also received access in the United Kingdom (the \"UK\") to the Medicines and Healthcare Regulatory Agency's (\"MHRA\") Innovative Licensing and Access Pathway (\"ILAP\"). These programs are designed to facilitate development of certain therapeutics such as those for rare and serious diseases, and those that have the potential to meet an unmet medical need.",
+    "The FDA's Center for Drug Evaluation and Research selected nomlabofusp as one of a few drug development programs for participation in the Support for Clinical Trials Advancing Rare Disease Therapeutics (\"START\") Pilot Program. The objective of the program is to accelerate the development of drugs for rare diseases that lead to significant disability or death by facilitating frequent advice and regular communication with the FDA staff to expedite the review process of biologics and drugs.",
+    "We have engaged in multiple discussions and interactions with the FDA in connection with our clinical development of nomlabofusp and communications remain ongoing. We have also had numerous interactions with the EMA, the MHRA, and Canada's Health Canada regarding the clinical development of nomlabofusp.",
+    "We have completed four clinical studies: (i) two Phase 1 clinical studies in adults, (ii) a Phase 2 dose exploration study in adults and (iii) a Phase 1 pharmacokinetic (\"PK\") run-in study in adolescents (12-17 years old). We currently have an ongoing open label (\"OL\") study (previously referred to as the Open Label Extension, (\"OLE\") study) in adults and adolescents with FA.",
+    "Recent significant developments are as follows:",
+    "• In December 2024, we reported initial data from our ongoing OL study. This data included safety, FXN levels, clinical and PK data in 14 participants administered 25 mg nomlabofusp daily for up to 260 days (mean 99 days). Tissue FXN levels increased and were maintained at day 90 and there were early trends towards improvement in clinical outcomes observed at day 90. The most common adverse events were injection site reactions and two participants experienced serious adverse events (one seizure and one anaphylactic reaction) that resolved within 24 hours and they were withdrawn from the study. Also in December 2024, we announced that we were increasing the dose in the OL study to 50 mg of nomlabofusp daily for then currently enrolled participants and would be starting all new patients on 50 mg daily and in March 2025 we announced that all participants had transitioned to the 50 mg daily dose. In March 2025 we also announced that our Safety Monitoring Team had identified anaphylaxis as an adverse drug reaction likely associated with nomlabofusp.",
+    "• In January 2025, we initiated dosing of adolescents (12-17 years old) in a PK run-in study for pediatric patients with FA. Study participants in the PK run-in study were randomized 2:1 to receive either nomlabofusp at a weight-base dose expected to match the PK of adults receiving the 50 mg dose, or placebo, daily for seven days. We completed dosing in 14 adolescents in March 2025. The PK and exposure data were similar to adults and the participants became eligible to enroll in the OL study. The PK results from the adolescent cohort also supported the predictive value of our exposure modeling and will facilitate direct enrollment of children (2-11 years old) into the OL study which would eliminate any pause in study drug administration between the PK study and the OL study. Therefore, it was not necessary to perform a cohort for children in the PK study and we terminated the study. We are now planning to initiate enrollment of children directly into the ongoing OL study.",
+    "• In February 2025, the FDA accepted the data supporting the comparability of the lyophilized drug product to the frozen solution and agreed with our plans to introduce the lyophilized product into our clinical development program. In July 2025, we began introducing the lyophilized product formulation into the OL study. This is the formulation intended for commercialization.",
+    "• In March 2025, we announced that the FDA stated as part of the START Pilot Program, that it is open to considering the use of FXN concentration as a reasonably likely surrogate endpoint (\"RLSE\") and the acceptability of FXN concentration as an RLSE to support accelerated approval will be a matter of review in a future marketing application. The FDA recommended focusing on assessments of skin FXN concentrations rather than buccal FXN concentrations due to more consistent sampling and less variability. The FDA acknowledged that data we submitted appeared to support a relationship between increased FXN concentrations in skin and relevant tissues such as the heart, dorsal root ganglion and skeletal muscle. The FDA also acknowledged that the nonclinical studies we submitted were performed at relevant human doses. The FDA also suggested that we consider exploring the relationship between increases in FXN in skin and changes in pharmacodynamic (\"PD\") markers such as lipid profiles and/or clinical measures to provide additional support for the use of FXN as an RLSE."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "Nomlabofusp 程式更新",
+    "本公司策略",
+    "治療罕見遺傳疾病的平台技術",
+    "Nomlabofusp 用於治療弗裏德賴希共濟失調症",
+    "Nomlabofusp 開發",
+    "智慧財產權",
+    "授權合約",
+    "製造與供應",
+    "{'original': 'Human Capital Resources', 'translated': '人力資本資源'}"
+   ],
+   "paragraphs": [
+    "本公司為一家臨牀階段生技公司，專注於利用我們的創新細胞穿透性肽（\"CPP\"）技術平台，開發治療罹患複雜罕見疾病的病患之療法。我們的領先產品候選藥物nomlabofusp為一種皮下注射的重組融合蛋白，旨在將frataxin（\"FXN\"），一種必要蛋白，送至罹患弗里德里希共濟失調症（\"FA\"）病患的線粒體。FA為一種罕見、進行性且致命的疾病，病患因遺傳異常而無法產生足夠的FXN。目前尚無治療選項可解決FA的核心缺陷，即FXN水平過低。nomlabofusp代表第一種潛在療法，設計用以系統性提高FA病患的FXN水平。",
+    "我們認為，我們的CPP平台，使治療分子能穿透細胞膜以達成細胞內目標，也有潛力用以治療其他罕見及或phan疾病。我們計畫利用我們的專有平台，針對其他罕見指標，其特徵為細胞內內容物或活動不足或異常。",
+    "自本公司成立以來，我們已將幾乎所有資源投入開發nomlabofusp、建立智慧財產權組合、發展第三方製造能力、業務規劃、籌資，以及提供一般及行政支援以進行這些業務。",
+    "",
+    "本公司已獲得美國食品藥物管理局（FDA）的罕見疾病藥物指定、快速通道指定、兒童罕見疾病指定及突破性療法指定，並已獲得歐盟（\"EU\"）歐洲藥物管理局（\"EMA\"）的罕見疾病藥物指定及優先藥物計畫（\"PRIME\"）方案的准入資格。本公司也已獲得英國（\"UK\"）藥物及醫療器材監管局（\"MHRA\"）創新許可與取得途徑（\"ILAP\"）的准入資格。這些計畫旨在促進某些治療藥物的開發，例如針對罕見且嚴重疾病的藥物，以及有潛力解決未滿足醫療需求的藥物。",
+    "美國食品藥物管理局（FDA）的藥物評估與研究中心（CDER）已選取nomlabofusp為少數藥物開發計畫之一，參與支持罕見疾病治療臨牀試驗計畫（\"START\"）試點計畫。該計畫的目標是加速開發導致重大殘障或死亡的罕見疾病藥物，透過促進與FDA員工的頻繁諮詢與定期溝通，以加快生物製品及藥物的審查程序。",
+    "本公司已與FDA就nomlabofusp的臨牀開發進行多項討論與互動，且溝通持續進行中。本公司也與EMA、MHRA及加拿大健康部就nomlabofusp的臨牀開發進行過多次互動。",
+    "本公司已完成四項臨牀研究：(i) 兩項成人Phase 1臨牀研究，(ii) 一項成人Phase 2劑量探索研究，以及(iii) 一項12至17歲青少年的Phase 1藥代動力學（\"PK\"）篩選研究。目前本公司正在進行一項開放標籤（\"OL\"）研究（先前稱為開放標籤延長（\"OLE\"）研究），針對FA的成人及青少年病患。在臨牀開發計畫中，已向病患施打約8,000劑nomlabofusp。",
+    "近期重大發展如下：",
+    "• 2024 年 12 月，我們報告了我們持續進行的 OL 研究的初步數據。此數據包含 14 名受試者接受每日 25 mg nomlabofusp 給藥最多 260 天（平均 99 天）的 14 名受試者之安全性、FXN 水準、臨牀及 PK 數據。組織 FXN 水準上升且在第 90 天維持於高水平，並在第 90 天觀察到臨牀結果改善的早期趨勢。最常見的不良事件為注射部位反應，兩名受試者經歷嚴重不良事件（一例為癲癇、一例為過敏性休克），這些事件在 24 小時內解決，並因此退出研究。同樣在 2024 年 12 月，我們宣佈我們正在將 OL 研究的劑量提高至每日 50 mg nomlabofusp，目前參與的受試者將接受此劑量，並開始所有新入組的受試者以每日 50 mg 給藥。2025 年 3 月，我們宣佈所有受試者已轉換至每日 50 mg 給藥。2025 年 3 月，我們也宣佈我們的安全監測小組已識別過敏性休克為與 nomlabofusp 有關的不良藥物反應。",
+    "In March 2025 we also announced that our Safety Monitoring Team had identified anaphylaxis as an adverse drug reaction likely associated with nomlabofusp.",
+    "• 2025 年 1 月，我們開始對 12 至 17 歲的青少年進行 PK 預試研究，以評估 FA 疾病兒童患者的治療效果。在 PK 預試研究中，參與者以 2:1 的比例隨機分組，接受預期可與成人接受 50 mg 劑量時 PK 效果相當的 nomlabofusp 零組件劑量，或為安慰劑，每日服用七天。我們於 2025 年 3 月完成 14 名青少年的給藥。PK 與暴露數據與成人相似，參與者已符合入組 OL 研究的條件。青少年羣組的 PK 結果也支持我們暴露模型的預測價值，將有助於直接讓 2 至 11 歲的兒童入組 OL 研究，進而避免 PK 研究與 OL 研究之間的藥物治療中斷。因此，我們無需在 PK 研究中進行兒童羣組，並終止該研究。我們目前正計畫直接讓兒童入組進行中的 OL 研究。",
+    "• 2025 年 2 月，FDA 接受我們支持 lyophilized 藥品與 frozen solution 之間可比性的數據，並同意我們將 lyophilized 藥品引入臨牀開發計畫的計畫。2025 年 7 月，我們開始將 lyophilized 藥品配方引入 OL 研究。此為預期用於商業化的配方。",
+    "• 2025 年 3 月，我們宣佈 FDA 在 START 試點計畫中表示，願意考慮 FXN 細胞濃度作為合理可能替代終點（\"RLSE\"），並同意 FXN 細胞濃度作為 RLSE 的可接受性將在未來的市場申請中進行審查。FDA 建議應著重於皮膚 FXN 細胞濃度的評估，而非口腔 FXN 細胞濃度，因為皮膚取樣更為一致且變異較小。FDA 也承認我們提交的數據似乎支持皮膚 FXN 細胞濃度與相關組織（如心臟、背根神經節和骨骼肌）的 FXN 細胞濃度之間的關聯。FDA 也承認我們提交的非臨牀研究是在相關人體劑量下進行。FDA 還建議我們考慮探討皮膚 FXN 細胞濃度增加與藥物動力學（\"PD\"）指標（如血脂科層或臨牀指標）的變化之間的關係，以提供 FXN 作為 RLSE 的額外支持。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'translated_text': 'Nomlabofusp 程式更新'}",
+    "{'translated_text': '資金活動，包括近期重大資金籌措'}",
+    "{'translated_text': '關鍵會計政策及重大判斷與估計'}",
+    "{'translated_text': '財務營運概覽'}",
+    "{'translated_text': '營運費用'}",
+    "{'translated_text': '營運成果'}",
+    "{'translated_text': '截至2025年12月31日與2024年12月31日之年度比較'}",
+    "{'translated_text': '截至2025年12月31日'}",
+    "(以千為單位)",
+    "營運表現資料:",
+    "研究與發展費用",
+    "一般及行政費用",
+    "其他收入，淨額",
+    "營運資金需求",
+    "最近發佈的會計準則",
+    "其他公司資訊"
+   ],
+   "paragraphs": [
+    "您應閱讀以下對我們財務狀況與營運成果之分析，並與本年度10-K申報表中所包含之審計合併財務報表及相關附註一併參考。除歷史財務資訊外，以下討論包含根據我們目前計畫、預期與信念所做出之預測性陳述，這些陳述涉及風險、不確定性與假設。我們實際結果可能與這些預測性陳述所描述或暗示者有重大差異，原因可能包括於「風險因素」節及本年度10-K申報表其他部分所列之因素。",
+    "我們是一家臨牀階段的生物科技公司，專注於開發用以治療罹患複雜罕見疾病的患者之療法，利用我們的創新細胞穿透肽（\"CPP\"）技術平台。我們的領先產品候選藥物nomlabofusp為一種皮下注射之重組融合蛋白，旨在將frataxin（\"FXN\"）這種必要蛋白送至患有弗里德里希共濟失調症（\"FA\"）患者之線粒體。FA是一種罕見、進行性且致命的疾病，患者因遺傳異常而無法產生足夠的FXN。目前尚無治療選項能針對FA的核心缺陷，即低水平的FXN。Nomlabofusp代表第一種潛在療法，設計用以系統性提高FA患者之FXN水平。",
+    "我們認為，我們的CPP平台，使治療分子能穿越細胞膜以達成細胞內目標，也有潛力用以治療其他罕見與或phan疾病。我們計畫利用我們的專利平台，針對其他或phan指標，這些指標特徵為細胞內內容物或活動之缺乏或改變。",
+    "自我們成立以來，我們已將幾乎所有資源投入於開發nomlabofusp、建立智慧財產權組合、發展第三方製造能力、業務規劃、籌集資金、發展銷售與行銷能力，以及提供一般及行政支援以支持這些業務運作。",
+    "截至2025年12月31日，本公司持有現金、現金等價物及市場可交易證券共224 百萬美元。2026年2月，本公司透過公開發行普通股募得淨資金約107.6 百萬美元。本公司預期107.6 百萬美元淨資金，加上136.9 百萬美元現金，足以支應至2027年第二季的營運資金需求。",
+    "我們已獲得美國食品藥物管理局（FDA）之罕見疾病藥物指定、快速通道指定、兒童罕見疾病指定及突破性療法指定，並已獲得歐盟（\"EU\"）歐洲藥物管理局（\"EMA\"）之罕見疾病藥物指定及優先藥物計畫（\"PRIME\"）方案之准入。我們亦已獲得英國（\"UK\"）藥物與醫療器材監管局（\"MHRA\"）之創新許可與取得途徑（\"ILAP\"）方案之准入。這些計畫旨在促進某些治療藥物之發展，例如針對罕見且嚴重疾病，或有潛力滿足未滿足醫療需求之藥物。",
+    "美國食品藥物管理局（FDA）之藥物評估與研究中心（CDER）已選取nomlabofusp為少數藥物開發計畫之一，參與「促進罕見疾病治療臨牀試驗之支持計畫」（\"START\"）試點計畫。該計畫之目標為加速罕見疾病導致重大殘障或死亡之藥物開發，透過與FDA員工頻繁溝通與定期交流，以加快生物製品與藥物之審查程序。",
+    "我們已與FDA就nomlabofusp之臨牀開發進行多項討論與互動，且溝通仍持續進行。我們亦與EMA、MHRA及加拿大健康加拿大就nomlabofusp之臨牀開發進行過多次互動。",
+    "我們已完成四項臨牀研究：(i) 兩項於成人進行的第一期臨牀研究、(ii) 一項於成人進行的第二期劑量探索研究，以及(iii) 一項於青少年（12-17歲）進行的第一期藥動學（\"PK\"）篩選研究。目前，我們正在進行一項開放標籤（\"OL\"）研究（先前稱為開放標籤延長（\"OLE\"）研究），針對患有FA的成人與青少年。",
+    "近期重大進展如下：",
+    "• 2024年12月，我們報告了我們正在進行的OL研究的初步數據。此數據包括14位受試者接受每日25毫克nomlabofusp治療達260天（平均99天）的安全性、FXN水平、臨牀及藥動學數據。組織中的FXN水平上升且在第90天時維持不變，並觀察到第90天時臨牀結果有早期改善的趨勢。最常見的不良事件為注射部位反應，兩位受試者經歷嚴重不良事件（一例為癲癇，一例為過敏性休克），這些事件在24小時內恢復，並因此退出研究。同樣在2024年12月，我們宣佈將在OL研究中提高劑量至每日50毫克nomlabofusp，目前參與者將接受此劑量，並會將所有新入組的受試者以50毫克每日為起始劑量。2025年3月，我們宣佈所有參與者已轉換為每日50毫克劑量。2025年3月，我們也宣佈我們的安全監測小組已識別過敏性休克為與nomlabofusp可能相關的藥物不良反應。",
+    "• 2025年1月，我們開始對患有FA的青少年（12-17歲）進行一項藥動學（\"PK\"）篩選研究，以評估兒童患者的劑量。在PK篩選研究中，參與者以2:1的比例隨機分配，接受預期與成人接受50毫克劑量的藥動學相當的體重基礎劑量nomlabofusp，或安慰劑，每日治療七天。我們在2025年3月完成對14位青少年的給藥。藥動學及暴露數據與成人相似，參與者已符合入組OL研究的條件。來自青少年組的PK結果也支持我們暴露模型的預測價值，並有助於直接入組年齡為2-11歲的兒童進入OL研究，這將避免在PK研究與OL研究之間中斷研究藥物的給藥。因此，我們不需要在PK研究中進行兒童組的評估，並終止了該研究。我們現在計畫直接入組兒童至正在進行的OL研究。",
+    "• 2025年2月，FDA接受支持乾燥劑型藥物產品與冰凍溶液之間可比性的數據，並同意我們將乾燥劑型產品引入我們的臨牀開發計畫。2025年7月，我們開始將乾燥劑型產品配方引入OL研究。這是預計用於商業化的配方。",
+    "• 2025年3月，我們宣佈FDA在START試點計畫中表示，對考慮將FXN濃度作為合理可能的替代終點（\"RLSE\"）持開放態度，並接受FXN濃度作為RLSE以支持加速批准的可接受性將成為未來市場申請的審查事項。FDA建議應著重於評估皮膚FXN濃度，而非頰黏膜FXN濃度，因為皮膚樣本更具一致性且變異性較低。FDA也承認我們提交的數據似乎支持皮膚中FXN濃度增加與相關組織如心臟、背根神經節及骨骼肌中的FXN濃度之間的關係。FDA也承認我們提交的非臨牀研究是在相關人體劑量下進行的。FDA也建議我們考慮探討皮膚中FXN濃度增加與藥效動力學（\"PD\"）指標如血脂資料及/或臨牀指標之間的關係，以提供進一步支持將FXN作為RLSE的使用。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司財務狀況相關之風險及對資金需求",
+    "自本公司成立以來，我們已產生重大虧損，並預期在可預見的未來，我們將持續產生虧損。",
+    "本公司目前沒有商業營收，可能永遠無法實現獲利。",
+    "本公司運用其淨經營虧損抵減額（NOLs）及某些其他稅務屬性之能力可能受到限制。",
+    "稅法及稅務規範之變更可能對本公司業務、財務狀況及營運成果產生重大不利影響。",
+    "與本公司產品開發及監管核准相關之風險",
+    "臨牀試驗之失敗或延誤完成，可能導致成本增加，並可能延誤、阻礙或限制本公司產生營收及持續營運之能力。",
+    "本公司可能無法成功進行識別、發現或取得其他產品候選藥物之努力",
+    "我們無法確定能否成功完成 nomlabofusp 或任何其他產品候選藥物的臨牀試驗。",
+    "FA 還未取得 FDA 批准的療法，用以解決 frataxin 義缺，而此為該疾病的本質原因，且臨牀終點要件以取得批准尚未明確界定。",
+    "我們發現並開發用以遞送蛋白質之融合蛋白的作法為創新方式，但可能永遠無法推出市面產品。"
+   ],
+   "paragraphs": [
+    "您在閱讀本年度報表（Form 10-K）以及本文件其他資訊時，包括我們經審計的合併財務報表及相關附註，以及標題為「管理層對財務狀況與營運結果之討論與分析」之節，應謹慎考量下列風險與不確定性。若有任何下列風險發生，將可能對本公司之業務、財務狀況及營運結果造成重大且不利之影響。雖然我們認為已識別並討論下列影響本公司業務之關鍵風險因素，但可能尚有其他風險與不確定性尚未知悉或目前認為不具重大性，這些風險與不確定性可能對本公司之績效或財務狀況造成不利影響。在此情況下，本公司普通股之交易價格可能下跌。",
+    "自本公司成立以來，我們已將 substantially all 之資源投入 nomlabofusp 之開發。自 2016 年成立以來，我們每年均產生重大虧損。截至 2025 年 12 月 31 日及 2024 年 12 月 31 日，我們分別產生淨虧損 165.7 百萬美元及 80.6 百萬美元，且截至 2025 年 12 月 31 日，我們累計虧損為 434.8 百萬美元，我們預期將持續產生重大費用及淨營業虧損（\"NOLs\"）於可預見之未來。",
+    "我們已將 substantially all 之財務資源與努力投入研究與開發，包括非臨牀研究、我們之臨牀開發計畫、製造流程之開發以及臨牀試驗材料之初始批次製造。我們預期於可預見之未來，將產生重大虧損以進一步開發與商業化我們之主要藥物候選品 nomlabofusp。",
+    "我們預期若我們：• 繼續進行 nomlabofusp 之臨牀開發工作；",
+    "• 尋求美國及海外司法管轄區對成功完成臨牀試驗之產品候選品之監管與市場許可；",
+    "• 建立銷售、行銷、分銷及其他商業基礎設施以商業化我們可能取得市場許可之各類產品；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

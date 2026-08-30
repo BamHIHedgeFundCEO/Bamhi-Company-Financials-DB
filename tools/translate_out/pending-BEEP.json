@@ -1,0 +1,152 @@
+{
+ "ticker": "BEEP",
+ "cik": "0001847874",
+ "accession": "0001437749-26-007063",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Portfolio",
+    "Industry Overview",
+    "Concentration",
+    "Government Regulations",
+    "Human Capital",
+    "Corporate Responsibility",
+    "Corporate Information",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Mobile Infrastructure Corporation is a Maryland corporation, publicly traded on The Nasdaq Stock Market LLC (\"Nasdaq\") under the ticker \"BEEP.\" We focus on acquiring, owning and optimizing parking facilities and related infrastructure, including parking lots, parking garages and other parking structures throughout the United States. We target both parking garage and surface lot properties primarily in the top 50 U.S. Metropolitan Statistical Areas (\"MSAs\"), with proximity to key demand drivers, such as commerce, events and venues, government and institutions, hospitality and multifamily central business districts. As of December 31, 2025, we own 36 parking facilities in 19 separate markets throughout the United States, with a total of approximately 13,500 parking spaces and approximately 4.7 million square feet. We also own approximately 0.2 million square feet of commercial space adjacent to our parking facilities.",
+    "The Company is a member of Mobile Infra Operating Company, LLC, a Delaware limited liability company, (the \"Operating Company\") and owns substantially all of its assets and conducts substantially all of its operations through the Operating Company. The Operating Company is managed by a board of directors, one appointed by the Company and one appointed by the other members of the Operating Company. Currently, the two directors of the Operating Company are Manuel Chavez, III, the Executive Chairman of the Company's Board of Directors (the \"Board\"), and Stephanie Hogue, our President, Chief Executive Officer and a member of the Board. The Company owns approximately 90.3% of the Common Units of the Operating Company. The remaining Common Units are held by certain of our executive officers and directors (directly or indirectly) and outside investors.",
+    "In August 2023, Legacy MIC (as defined below) merged with and into Fifth Wall Acquisition Corp. III (\"FWAC\"), with FWAC continuing as the surviving entity (the \"Merger\"). FWAC domesticated by means of corporate conversion to a Maryland corporation and changed its name to Mobile Infrastructure Corporation. Unless otherwise indicated, references in this Annual Report on Form 10-K to \"MIC,\" \"we,\" \"us,\" \"our,\" and the \"Company\" refer to Mobile Infrastructure Corporation and its consolidated subsidiaries prior to the closing of the Merger and to Mobile Infrastructure Corporation (f/k/a Fifth Wall Acquisition Corp. III) and its consolidated subsidiaries following the closing of the Merger. References in this Annual Report to \"Legacy MIC\" refer to Mobile Infrastructure Corporation and its consolidated subsidiaries prior to the closing of the Merger.",
+    "Over the next twelve months, we expect to be focused predominantly on the following strategic objectives:",
+    "Increase parking revenue by optimizing our mix of transient and contract parking at our parking facilities and improving Revenue per Available Stall (\"RevPAS\") of the overall portfolio;",
+    "Collaborate with third-party operators to actively manage parking rates based on local insights and maintain a cost structure that aligns with operations;",
+    "Execute on ancillary revenue opportunities;",
+    "Identify opportunities for accretive external growth, including acquisition opportunities; and",
+    "Selectively dispose of non-core properties, redeploying the net proceeds into accretive uses.",
+    "Optimize Parking Mix - We monitor the performance of our assets using multiple metrics to measure rates, volumes, and utilization. Our metrics provide data based on two categories of parkers: Transient and Contract. Transient Parkers include customers who arrive at our parking facilities and have the right to park in any open spot not otherwise marked as reserved. Contract Parkers include customers who pay, generally in advance, to have the right to access the facility for a set period. We believe each location has an optimal mix of these two types of parkers that will help maximize revenue at our assets. We are utilizing a combination of local operator insights and an internal sales team to identify opportunities to increase our monthly parking contracts and utilization. We believe that this will drive an increase in demand that will also provide opportunities to increase rates for Transient Parkers, which we believe will in turn will be a meaningful source of organic revenue growth.",
+    "Asset Management Collaboration - To date, 28 of our 36 assets converted to management contracts. We believe asset management contracts provide the opportunity for net operating income (\"NOI\") growth through more transparent and controlled expense management and will reduce the revenue variability associated with the timing of payments for contract parking agreements. In addition, the move to management contracts properly aligns the incentives and rewards for revenue growth between the third-party operator and the Company. This change is also expected to result in better revenue linearity compared to revenue recognition in our lease agreements, in which lease payments are based on cash collections from operators. Overall, the conversion to management contracts also provides enhanced visibility on the performance of the portfolio within our financial results. Our intent is to convert the remaining assets to asset management contracts by the end of 2027.",
+    "Ancillary Revenue - Our approach to active asset management will allow us to pursue ancillary revenue opportunities with tech-enabled businesses. Advances in transportation and other technology provide additional demand for our ideally-located assets. We believe continued growth in EV charging needs, solar energy, rideshare staging, autonomous vehicles, fleet management, 5G and other wireless technologies, and storage are all potential sources of demand.",
+    "Accretive External Growth - The Merger and listing on the Nasdaq provided us with access to capital through equity markets, and we additionally have the option to pursue acquisitions funded by equity. Our goal is to acquire assets where we can quickly identify a sufficient spread between the cost of capital and the capitalization rate or drive strong incremental yield within 24 months. We believe land scarcity in high-traffic areas where we buy causes limited supply and high barriers to entry in the locations with the most demand drivers for our asset class. When this dynamic is paired with smaller scale owners lacking the financial wherewithal to endure prolonged financial disruption, we see a unique opportunity to consolidate within the industry.",
+    "Our management team has extensive experience in the parking industry; we often receive off-market calls for parking facilities that we believe are not yet being marketed for sale, and have early notices on properties just getting ready to be marketed. As such, we have a pipeline of acquisitions that is both bespoke and actionable that we believe are largely unavailable to our competitors. We intend to continue to consolidate the industry through acquisitions, partnering with both owners and tenants, to create a meaningful pipeline and scale."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Summary Risk Factors",
+    "Risks Related to Our Business",
+    "Risks Related to Financial, Tax and Accounting Issues",
+    "Risks Related to Our Indebtedness and Certain Other Obligations",
+    "Risks Related to Legal and Regulatory Matters",
+    "Risks Related to Ownership of Our Securities",
+    "Risks Related to Our Organizational Structure and Our Constituent Documents and Policies",
+    "We have a limited operating history and a history of losses, and we may not be able to achieve or sustain profitability in the future.",
+    "We depend on our management team. The loss of key personnel could have a material adverse effect upon our ability to conduct and manage our business.",
+    "A material failure, inadequacy, interruption or security failure of our technology networks and related systems could harm our business.",
+    "We may be unable to grow our business by acquisitions of additional parking facilities.",
+    "Our parking facilities face intense competition, which may adversely affect rental and fee income.",
+    "The operations of a large number of our properties in our portfolio are currently concentrated with two operators.",
+    "Our business model relies on third-party tenant operators, and our financial performance depends on their ability to successfully operate our properties.",
+    "Declines in the market value of our portfolio may adversely affect periodic reported results of operations and credit availability, which may reduce earnings.",
+    "We require scale to improve cash flow and earnings for stockholders.",
+    "Climate change may have a long-term impact on our business.",
+    "Uninsured losses or premiums for insurance coverage relating to real property may adversely affect investor returns.",
+    "Our costs of complying with governmental laws and regulations related to environmental protection and human health and safety may be high.",
+    "Real property is an illiquid investment, and we may be unable to adjust our portfolio in response to changes in economic or other conditions or sell a property if or when we decide to.",
+    "We may have future financing needs and may not be able to access financing sources on acceptable terms, or at all, which could adversely affect our ability to execute our business plan.",
+    "We may face litigation and other risks as a result of the previously identified material weakness in our internal control over financial reporting.",
+    "Unanticipated changes in effective tax rates or adverse outcomes resulting from examination of our income or other tax returns could adversely affect our financial condition and results of operations.",
+    "We may acquire properties or portfolios of properties through tax deferred contribution transactions, which could result in stockholder dilution and limit our ability to sell such assets.",
+    "Our ability to use net operating loss carryforwards and certain other tax attributes may be limited.",
+    "We utilize significant debt, and we may incur additional debt. The Line of Credit matures on March 31, 2026.",
+    "Our debt agreements contain restrictive covenants, and failure to comply with these covenants could result in events of default and acceleration of our indebtedness.",
+    "We may be required to take write-downs or write-offs, restructuring and impairment or other charges.",
+    "Certain loans are and may be secured by mortgages on our properties and if we default under our loans, we may lose properties through foreclosure."
+   ],
+   "paragraphs": [
+    "Investing in our securities involves substantial risk. Before making an investment decision, you should carefully review and consider the following risk factors and all other information included in this Annual Report. Our business, operating results, financial condition and prospects could also be harmed by risks and uncertainties not currently known to us or that we currently do not believe are material. If any of these risks were to materialize, individually or in combination, our business, prospects, financial condition, results of operations or cash flows could be materially adversely affected. In that event, the market price of our Common Stock could decline, and you could lose part or all of your investment.",
+    "We have a limited operating history and a history of losses, and we may not be able to achieve or sustain profitability in the future.",
+    "We depend on our management team. The loss of key personnel could have a material adverse effect upon our ability to conduct and manage our business.",
+    "A material failure, inadequacy, interruption or security failure of our technology networks and related systems could harm our business.",
+    "The development and use of emerging technologies like artificial intelligence, or AI, presents risks and challenges that may impact our business and lead to unintended consequences and result in legal and/or regulatory actions, reputational harm or otherwise materially harm our business.",
+    "Mr. Osher, a member of our Board, currently and on a fully diluted basis, owns, directly or indirectly, more than 50% of our outstanding voting equity and has the ability to exercise significant influence on us and the Operating Company, including the approval of significant corporate transactions."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Our Portfolio': '本投資組合'}",
+    "{'Industry Overview': '產業概況'}",
+    "{'Concentration': '集中度'}",
+    "{'Government Regulations': '政府規範'}",
+    "{'Human Capital': '人力資本'}",
+    "{'Corporate Responsibility': '企業責任'}",
+    "{'Corporate Information': '公司資訊'}",
+    "{'Available Information': '可供查閱資訊'}"
+   ],
+   "paragraphs": [
+    "",
+    "本公司為 Mobile Infra Operating Company, LLC（一間德拉瓦州有限責任公司，\"Operating Company\"）的成員，並擁有其 substantially all 的資產，並執行 substantially all 的營運活動透過 Operating Company。Operating Company 由董事會管理，其中一名董事由本公司任命，另一名董事由 Operating Company 的其他成員任命。目前，Operating Company 的兩名董事為 Manuel Chavez, III，本公司董事會（\"Board\"）的執行主席（\"Board\"），以及 Stephanie Hogue，本公司董事長、首席執行官，並為董事會成員。本公司擁有約 90.3% 的 Operating Company 普通單位。剩餘的普通單位由本公司部分高階主管及董事（直接或間接）及外部投資者持有。",
+    "2023 年 8 月，Legacy MIC（如下所定義）與 Fifth Wall Acquisition Corp. III（\"FWAC\"）合併，FWAC 繼續為存續公司（\"Merger\"）。FWAC 透過公司轉換方式成為馬裏蘭州公司，並更名為 Mobile Infrastructure Corporation。除非另有說明，本年度報告 10-K 中提及 \"MIC\"、\"we\"、\"us\"、\"our\" 及 \"Company\" 均指 Mobile Infrastructure Corporation 及其合併子公司，在合併完成前，以及 Mobile Infrastructure Corporation（原為 Fifth Wall Acquisition Corp. III）及其合併子公司，在合併完成後。本年度報告中提及 \"Legacy MIC\" 均指 Mobile Infrastructure Corporation 及其合併子公司，在合併完成前。",
+    "在接下來的十二個月內，我們預期將主要聚焦於以下戰略目標：",
+    "提高停車收入，透過優化我們停車設施中臨時停車與合約停車的組合，並提高整體投資組合的每可用停車位收入（\"RevPAS\"）；",
+    "與第三方營運商合作，根據當地洞察主動管理停車費率，並維持與營運活動相符的成本結構；",
+    "執行附加收入機會；",
+    "尋找具有附加價值的外部成長機會，包括收購機會；以及",
+    "選擇性處置非核心資產，將淨所得重新運用於具備成長潛力的用途。",
+    "優化停車組合 - 我們透過多種指標監測資產表現，用以衡量車流量、使用率與收費率。我們的指標基於兩類停車客羣：過夜停車與長期租約。過夜停車客羣包含到達我們停車場並有權停在任何未標記為保留的空位的客戶。長期租約停車客羣則包含支付費用（通常為預付）以取得在特定期間內使用場地權利的客戶。我們認為每個場地都有最佳的過夜停車與長期租約停車客羣組合，這有助於我們資產的營收最大化。我們透過結合當地營運者見解與內部銷售團隊，識別增加每月停車租約與使用率的機會。我們認為這將提高需求，同時也為提高過夜停車客羣的收費率創造機會，我們認為這將成為一個重要的內生營收成長來源。",
+    "資產管理合作 - 截至目前，我們 36 處資產中有 28 處已轉為管理合約。我們認為資產管理合約提供透過更透明且受控的費用管理來實現淨營業收入（\"NOI\"）成長的機會，並會減少與合約停車協議付款時間相關的營收變動性。此外，轉為管理合約能正確對齊第三方營運者與本公司之間的營收成長激勵與報酬。此變動也預期會使營收線性度較我們租賃協議中的營收認列更好，因為租賃付款是根據營運者現金收款來計算。總體而言，轉為管理合約也使我們財務結果中資產組合表現的可見度提高。我們的目標是在 2027 年底前將剩餘資產轉為資產管理合約。",
+    "附屬收入 - 我們的積極資產管理方法將使我們能追求與科技驅動企業合作的附屬收入機會。運輸及其他科技的進步為我們理想地處置的資產創造了額外需求。我們認為電動車充電需求、太陽能電力、 rideshare 停車場、自動駕駛車輛、車隊管理、5G 及其他無線科技，以及儲存的持續成長，都是潛在的需求來源。",
+    "具成長性的外部擴張 - 合併與納斯達克上市為我們提供了透過股票市場取得資金的機會，我們同時還有透過股票資助的收購選擇。我們的目標是取得那些我們能迅速識別出資本成本與資本化率之間足夠差異或在 24 個月內實現強勁增量回報的資產。我們認為在高流量地區我們買入的土地稀缺性導致供應有限，並在需求最強的地區形成高門檻。當這種動態與缺乏財務能力來承受長期財務動盪的小規模所有者結合時，我們看到在產業內進行整合的獨特機會。",
+    "我們的管理團隊在停車產業有廣泛的經驗；我們經常收到非公開市場的停車場買賣詢問，我們認為這些停車場尚未被市場行銷出售，且我們會提前得知即將被行銷的不動產。因此，我們擁有具備定製性與可執行性的收購管道，我們認為這些對我們的競爭對手而言大多不可取得。我們意圖透過收購繼續整合產業，與所有者與租戶合作，建立一個有意義的管道並實現規模化。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因子總覽",
+    "與本公司業務相關之風險",
+    "與財務、稅務及會計問題相關之風險",
+    "與本公司負債及某些其他義務相關之風險",
+    "與法律及監管事項相關之風險",
+    "與本公司證券持有相關之風險",
+    "與本公司組織結構及組成文件與政策相關之風險",
+    "本公司營運歷史有限且有虧損紀錄，未來可能無法達成或維持獲利",
+    "我們依賴我們的管理團隊。關鍵人員的流失可能對我們執行及管理業務的能力產生重大不利影響。",
+    "我們的科技網路及相關系統若發生重大故障、不足、中斷或安全問題，可能對我們的業務造成損害。",
+    "我們可能無法透過取得更多停車場設施來擴大業務。",
+    "我們的停車場設施面臨激烈的競爭，這可能會對租金及費用收入產生不利影響。",
+    "我們資產組中大量不動產的運作目前集中於兩家營運商。",
+    "我們的業務模式依賴第三方租戶營運商，我們的財務表現取決於他們成功運作我們不動產的能力。",
+    "我們資產組的市場價值下降可能對營運成果的定期報告及信貸取得產生不利影響，這可能會降低盈餘。",
+    "我們需要規模來提高現金流及股東盈餘。",
+    "氣候變遷可能對我們的業務產生長期影響。",
+    "未投保損失或保險覆蓋相關的保費，可能不利於投資人回報。",
+    "我們遵守政府有關環境保護及人體健康與安全法規的費用可能很高。",
+    "實物資產屬流動性差的投資，我們可能無法因應經濟或其他條件的變化，或在決定出售時，出售該資產。",
+    "我們可能有未來的資金需求，且可能無法以可接受的條件或完全無法取得資金來源，這可能會不利於我們執行業務計畫。",
+    "我們可能因先前識別出的財務報導內部控制重大弱點而面臨訴訟及其他風險。",
+    "有效稅率的未預期變動，或因審查我們的所得或其他稅務申報而產生的不利結果，可能不利於我們的財務狀況及營運成果。",
+    "我們可能透過延稅方式取得資產或資產組合，這可能會導致股東稀釋，並限制我們出售這些資產的能力。",
+    "本公司運用淨營業虧損結轉及某些其他稅務屬性之能力可能受到限制。",
+    "本公司使用大量債務，並可能產生額外債務。信用線於2026年3月31日到期。",
+    "本公司之債務契約包含限制性條款，未能遵守這些條款可能導致違約事件及本公司債務之加速償還。",
+    "本公司可能需進行減記或減損、重整及減損或其他費用。",
+    "某些貸款已並可能以本公司不動產之抵押權為擔保，若本公司未能履行貸款契約，可能透過拍賣而喪失不動產。"
+   ],
+   "paragraphs": [
+    "投資本公司證券涉及相當風險。在做出投資決定前，應謹慎審閱並考量下列風險因素及本年度報告中包含的所有其他資訊。本公司業務、營運結果、財務狀況與前景亦可能因目前未知或本公司目前認為不具重大影響之風險與不確定性而受損害。若任何上述風險實現，無論單獨或共同發生，均可能對本公司業務、前景、財務狀況、營運結果或現金流造成重大不利影響。在此情況下，本公司普通股之市場價格可能下跌，您可能損失全部或部分投資。",
+    "本公司營運歷史有限，且有虧損之歷史，未來可能無法達成或維持獲利。",
+    "本公司依賴管理團隊。關鍵人員之流失可能對本公司執行與管理業務之能力造成重大不利影響。",
+    "本公司科技網路及相關系統之重大故障、不足、中斷或安全問題可能損害本公司業務。",
+    "人工智慧等新興科技之發展與應用，可能對本公司業務造成風險與挑戰，並導致意外後果，進而引發法律與/或監管行動、聲譽損害，或其他對本公司業務造成重大損害。",
+    "Osher 先生為本公司董事會成員，目前以完全稀釋後之基礎計算，直接或間接持有本公司發行在外投票權股權之 50% 以上，並具備對本公司與營運公司行使重大影響力之能力，包括批准重大企業交易。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

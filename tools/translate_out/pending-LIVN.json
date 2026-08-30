@@ -1,0 +1,213 @@
+{
+ "ticker": "LIVN",
+ "cik": "0001639691",
+ "accession": "0001639691-26-000010",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Description of the Business and Background",
+    "Business Overview",
+    "Patents and Licenses",
+    "Markets and Distribution Methods",
+    "Competition and Industry",
+    "Production, Quality Systems, and Raw Materials",
+    "Government Regulation and Other Considerations",
+    "Healthcare Fraud and Abuse and Related Laws",
+    "Disclosure Pursuant to Section 13(r) of the Exchange Act of 1934",
+    "Human Capital Management",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "LivaNova PLC is a market-leading global medical technology company. The Company designs, develops, manufactures, markets, and sells products, therapies, and services that are consistent with LivaNova's mission to \"create ingenious medical solutions that ignite patient turnarounds.\" LivaNova is a public limited company organized under the laws of England and Wales and is headquartered in London, England. LivaNova's ordinary shares are listed for trading on the Nasdaq under the symbol \"LIVN.\"",
+    "LivaNova identifies operating segments based on how it manages, evaluates, and internally reports its business activities to allocate resources, develop and execute its strategy, and assess performance. LivaNova has two reportable segments: Cardiopulmonary and Neuromodulation. \"Other\" includes non-allocated corporate expenses and the non-cannula results of the Company's former ACS segment, which was wound down during 2024.",
+    "For additional information regarding LivaNova's reportable segments, historical financial information, and methodology for the presentation of financial results, refer to \"Part IV, Item 15. Exhibits and Financial Statement Schedules\" of this Report.",
+    "LivaNova's Cardiopulmonary segment is engaged in the design, development, manufacture, marketing, and sale of cardiopulmonary products, including HLMs, oxygenators, autotransfusion systems, perfusion tubing systems, cannulae, and other related accessories, and provides services related to certain of these products. In particular, the Cardiopulmonary segment includes the Essenz Perfusion System, the Company's next-generation HLM with an embedded patient monitor for tailored patient care strategies and sensing technology for data-driven decision-making during CPB procedures.",
+    "CPB is frequently utilized in various heart-related medical procedures and allows surgical teams to oxygenate and circulate a patient's blood, providing the necessary conditions for the surgeon to operate on the heart. Medical procedures most commonly requiring CPB include traditional coronary artery bypass grafting and valve surgeries. LivaNova's products enable CPB for neonatal, pediatric, and adult patients.",
+    "The HLM product group includes HLMs, heater-coolers, related cardiac surgery equipment and maintenance, and technical services. HLMs temporarily take over the heart and/or lung functions, providing/circulating blood and oxygen to the body, while the heart is stopped during a cardiac surgery procedure. Heater-coolers are used during surgeries to warm or cool patients as part of their care. They are especially important during surgeries involving the heart and lungs.",
+    "The oxygenators product group, which includes the Inspire systems, comprises disposable devices for extracorporeal circulation. The Inspire range of products comprises 12 models that provide perfusionists with a customizable approach for the benefit of patients. Oxygenators exchange oxygen and carbon dioxide in the blood of patients during surgical procedures and are utilized by perfusionists during cardiac surgery in conjunction with an HLM and can also be utilized in extracorporeal membrane oxygenation.",
+    "One of the key elements for a complete blood management strategy is autologous blood transfusion. The autotransfusion product group facilitates the collection, processing, and reinfusion of the patient's own blood lost at the surgical site.",
+    "The cannulae product group comprises cardiopulmonary bypass cannulae, or tubing, which is a device used in cardiopulmonary surgery to cannulate the vessels, perfuse the coronary arteries, and interconnect the catheters and cannulae with an oxygenator.",
+    "LivaNova's Neuromodulation segment is engaged in the design, development, manufacture, marketing, and sale of devices that deliver neuromodulation therapy for treating DRE and DTD. The VNS Therapy System consists of an implantable pulse generator and connective lead that stimulates the left vagus nerve, surgical equipment to assist with the implant procedure, and",
+    "equipment and instruction manuals that enable a treating healthcare professional to set parameters for a patient's pulse generator. The lead does not need to be removed to replace a generator with a depleted battery. The Neuromodulation segment also includes the development and clinical testing of LivaNova's aura6000 System for treating OSA.",
+    "The VNS Therapy System is designed as an adjunctive treatment to reduce seizures in people with DRE and is approved in many jurisdictions globally, including in the U.S., for patients four years of age or older with partial or focal onset seizures. There are several broad types of treatment available to patients with epilepsy; ASMs typically serve as a first-line treatment and are prescribed for virtually all patients diagnosed with epilepsy. After two ASMs fail to deliver seizure control, the epilepsy is characterized as drug-resistant, and adjunctive non-drug options are considered, including VNS therapy, ketogenic diet, surgery, and other neuromodulation therapies.",
+    "LivaNova distributes multiple VNS Therapy devices for the treatment of epilepsy, including Model 103 (Demipulse), Model 106 (AspireSR), Model 1000 (SenTiva), and Model 1000-D (SenTiva Duo) pulse generators. LivaNova's AspireSR and SenTiva implantable pulse generators provide the traditional benefits of VNS therapy but add an additional stimulation capability: closed-loop stimulation (AutoStim), which responds to the detection of changes in heart rate, potentially indicative of a seizure. The SenTiva generator is the smallest and lightest VNS device capable of delivering responsive therapy for epilepsy and includes the additional flexibility of LivaNova's Scheduled Programming and Day & Night Programming capabilities.",
+    "In 2017, the SenTiva and AspireSR VNS Therapy devices were approved by the FDA for expanded magnetic resonance imaging access, and CE Mark approval followed shortly thereafter. In 2020, CMS expanded reimbursement for VNS Therapy use in the treatment of Dravet Syndrome and, in 2022, expanded reimbursement for VNS Therapy use in the treatment of Lennox-Gastaut Syndrome."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Relating to the Company's Business and Operations",
+    "LivaNova is subject to the risks of conducting business globally.",
+    "Reductions and interruptions in LivaNova's supply chain have had, and may continue to have, adverse effects on LivaNova's business, results of operations, cash flows, and financial condition.",
+    "The global medical device industry is highly competitive, and LivaNova may be unable to compete effectively.",
+    "The incorporation and use of AI technologies may present risks and challenges that could adversely affect LivaNova's business, operations, and reputation.",
+    "If LivaNova's investments, alliances, acquisitions, or divestitures are unsuccessful, the Company may not realize the intended benefits.",
+    "The continuing development of many of LivaNova's products depends upon the Company maintaining appropriate working relationships with healthcare professionals.",
+    "Quality issues with LivaNova's processes, products, and services could harm the Company's reputation for producing high-quality products and erode LivaNova's competitive advantage, revenue, and market share.",
+    "Failure to comply with U.S. and international product-related regulatory requirements could have a material adverse effect on LivaNova's business, results of operations, cash flows, and financial condition.",
+    "LivaNova's success depends on its employees and the Company's ability to attract and retain employees, succession plan, and successfully negotiate with local works councils.",
+    "Global healthcare policy changes may have a material adverse effect on LivaNova's business, results of operations, financial condition, and cash flows.",
+    "Failure to comply with anti-bribery laws could have a material adverse effect on LivaNova's business and result in civil and/or criminal sanctions.",
+    "The impact of pending or existing climate change may have a material adverse effect on LivaNova's future operations.",
+    "LivaNova may incur impairments of intangible assets, goodwill, and other long-lived assets that may adversely affect the Company's financial results.",
+    "Shareholder activism and increased investor engagement could divert management's attention, disrupt the Company's operations, and adversely affect the business and share price.",
+    "Legal, Regulatory, and Compliance Risks",
+    "As a manufacturer of medical devices, LivaNova is exposed to product liability claims that could adversely affect its consolidated financial condition and tarnish the Company's reputation."
+   ],
+   "paragraphs": [
+    "An investor should carefully consider the risks described below, as well as other information contained in this Report and in LivaNova's other filings with the SEC. The Company's business, results of operations, cash flows, and financial condition could be materially and adversely affected by any such risks or uncertainties. Additional risks and uncertainties not presently known to the Company or that the Company currently believes to be immaterial may also adversely affect its business.",
+    "LivaNova is subject to risks that are inherent in conducting business globally. These risks, many of which LivaNova has experienced first-hand, include higher danger of terrorist activity, war, or civil unrest; greater exposure to inflation; volatility in freight and labor costs; fluctuating interest and exchange rates; increased exposure to cyber-attacks and supply chain challenges; changes to trade agreements and relationships between countries, including the uncertainty of global tariffs, trade restrictions, evolving sanctions, and adverse changes in import and export licensing requirements; changing energy prices; local product changes and compliance requirements; longer payment terms and collection times for receivables in local jurisdictions; difficulty enforcing agreements; greater exposure to creditworthiness of customers and inconsistent local law enforcement of obligations; compliance with anti-bribery laws; differing labor regulations and workforce instability; selling by way of distributors and agents; and political and economic instability. Many of these risks are rapidly evolving and subject to an accelerating pace of change.",
+    "Certain of LivaNova's subsidiaries are engaged in business dealings in countries subject to comprehensive sanctions, including Iran and Russia. These business dealings represent an insignificant amount of LivaNova's consolidated revenues and income but expose the Company to a heightened risk of violating applicable sanctions regulations. Violations of these regulations are punishable by civil and criminal penalties, including fines, denial of export privileges, injunctions, asset seizures, debarment from government contracts, and revocations or restrictions of licenses, as well as criminal fines and imprisonment. Despite best efforts to comply, there can be no assurance that LivaNova's policies and procedures will prevent the Company from violating these regulations in every transaction in which LivaNova may engage, and such a violation could adversely affect its reputation, business, results of operations, cash flows, and financial condition.",
+    "In addition, LivaNova's global operations result in revenues and expenses that are denominated in currencies other than LivaNova's reporting currency, the USD. Fluctuations in exchange rates may impact, and have impacted, LivaNova's results of operations and financial condition. Although LivaNova has elected in the past, and may elect in the future, to hedge certain foreign currency exposures, it is unlikely that any hedging strategy would eliminate its currency risk entirely. LivaNova cannot predict the change in currency exchange rates, the impact of exchange rate changes, or the degree to which it will be able to manage the impact of currency exchange rate changes.",
+    "Any of the aforementioned risks could adversely affect LivaNova's business, results of operations, cash flows, and financial condition.",
+    "Changes in global trade policies, including the imposition of tariffs, trade restrictions, export controls, sanctions, or other protectionist or retaliatory measures by the U.S. or other jurisdictions, may adversely affect LivaNova's business, financial condition, and results of operations."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Description of the Business",
+    "Macroeconomic Environment and Global Supply Chain",
+    "Cybersecurity Incident",
+    "Business Segments",
+    "Results of Operations",
+    "2025 2024 2023 2025 vs 2024 2024 vs 2023",
+    "Cardiopulmonary",
+    "Neuromodulation",
+    "Other Revenue (2)",
+    "2024 2023 32.3 % 31.9 % 34.5 % 39.5 % 40.6 % 43.6 % 13.4 % 14.6 % 16.8 % — % — % 7.8 % 0.4 % 2.6 % 3.3 % Cost of Sales",
+    "Critical Accounting Estimates",
+    "New Accounting Pronouncements",
+    "Liquidity and Capital Resources",
+    "December 31,",
+    "Available Short-term Liquidity",
+    "Working Capital",
+    "Debt Obligations",
+    "Market and Credit Risk",
+    "Factors Affecting Future Operating Results and Share Price"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis should be read in conjunction with the consolidated financial statements and related notes, which appear elsewhere in this Report. Certain percentages presented in this discussion and analysis are calculated from the underlying whole-dollar amounts and therefore may not tie to percentages recalculated from the rounded numbers used for disclosure purposes. The following discussion, analysis, and comparisons generally focus on the operating results for 2025, 2024, and 2023.",
+    "LivaNova has elected to omit certain discussions on the earliest of the three years covered in this Report. Refer to Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations located in LivaNova's Annual Report on Form 10-K for the year ended December 31, 2024, filed on February 25, 2025, for reference to the discussion of 2023, the earliest of the three fiscal years presented.",
+    "LivaNova PLC is a market-leading global medical technology company. The Company designs, develops, manufactures, markets, and sells products, therapies, and services that are consistent with LivaNova's mission to \"create ingenious medical solutions that ignite patient turnarounds.\" LivaNova is a public limited company organized under the laws of England and Wales and is headquartered in London, England. LivaNova's ordinary shares are listed for trading on the Nasdaq under the symbol \"LIVN.\"",
+    "The current macroeconomic environment, including FX volatility, inflationary pressures, and geopolitical instability, and global supply chain challenges have impacted and may continue to impact LivaNova's business, results of operations, cash flows, and financial condition. Furthermore, LivaNova continues to experience logistical, capacity, and labor constraints. However, to date, the Company's supply of raw materials and the production and distribution of finished products have not been materially affected. The Company continues to respond to such challenges. While LivaNova has business continuity plans in place, the impact of the ongoing challenges the Company is navigating, along with their potential escalation, may adversely affect its business.",
+    "In addition, the impact that the imposition of tariffs and changes to global trade policies could have on the Company's results of operations is uncertain. A significant number of LivaNova's Cardiopulmonary products and component parts are sourced and produced outside of the U.S., including in Italy and Germany. Similarly, LivaNova manufactures its Neuromodulation products in the U.S., which are then often distributed internationally. For additional information, refer to \"Item 1A. Risk Factors\" in this Report.",
+    "As previously disclosed, in November 2023, LivaNova detected a cybersecurity incident that resulted in a disruption of portions of the Company's IT systems. As a result, the Company engaged external cybersecurity experts, coordinated with law enforcement, implemented remediation measures, and notified affected individuals and regulators as required by applicable law. The incident was contained, and the Company's mitigation efforts are considered complete. For further discussion on related legal and regulatory matters, refer to \"Note 11. Commitments and Contingencies\" in LivaNova's consolidated financial statements in this Report.",
+    "Through December 31, 2025, LivaNova incurred direct costs totaling $13.1 million in connection with this cybersecurity incident, including $1.5 million, $9.0 million and $2.6 million for the years ended December 31, 2025, 2024, and 2023, respectively. The total direct costs incurred primarily include external cybersecurity expert and legal fees, system restoration costs, and $1.2 million related to a class action settlement, and do not include business interruption losses. The Company may incur additional costs related to this incident in the future.",
+    "LivaNova maintains insurance, including cyber insurance, which is subject to certain retentions and policy limitations that will likely limit the amount that the insurers may reimburse the Company. LivaNova has filed claims for insurance reimbursement of direct costs and business interruption losses and, as of December 31, 2025, the reimbursement process is substantially complete. Through December 31, 2025, LivaNova has received $10.7 million of insurance reimbursements, including $6.8 million in reimbursement of direct costs and $3.9 million in reimbursement of business interruption losses. For the years ended December 31, 2025 and 2024, LivaNova received $1.7 million and $5.1 million, respectively, in reimbursement of direct costs. For the years ended December 31, 2025 and 2024, LivaNova received $0.6 million and $3.3 million, respectively, in reimbursement of business interruption losses. LivaNova will submit additional claims for reimbursement if incremental costs",
+    "are incurred. The Company's insurance coverage may be insufficient to cover all costs and expenses related to this cybersecurity incident or may be unavailable to cover all costs and expenses related to this cybersecurity incident.",
+    "LivaNova identifies operating segments based on how it manages, evaluates, and internally reports its business activities to allocate resources, develop, and execute its strategy and assess performance. LivaNova has two reportable segments: Cardiopulmonary and Neuromodulation. For additional information regarding LivaNova's reportable segments, historical financial information, and its methodology for the presentation of financial results, refer to the consolidated financial statements and accompanying notes of this Report.",
+    "LivaNova's Cardiopulmonary segment is engaged in the design, development, manufacture, marketing, and sale of cardiopulmonary products, including HLMs, oxygenators, autotransfusion systems, perfusion tubing systems, cannulae, and other related accessories, and provides services related to certain of these products. In particular, the Cardiopulmonary segment includes the Essenz Perfusion System, the Company's next-generation HLM with an embedded patient monitor for tailored patient care strategies and sensing technology for data-driven decision-making during CPB procedures.",
+    "CPB is frequently utilized in various heart-related medical procedures and allows surgical teams to oxygenate and circulate a patient's blood, providing the necessary conditions for the surgeon to operate on the heart. Medical procedures most commonly requiring CPB include traditional coronary artery bypass grafting and valve surgeries. LivaNova's products enable CPB for neonatal, pediatric, and adult patients.",
+    "Information on the Cardiopulmonary segment that could potentially impact LivaNova's consolidated financial statements and related disclosures is incorporated by reference to \"Note 11. Commitments and Contingencies: Product Liability Litigation\" in the consolidated financial statements included in this Report.",
+    "LivaNova's Neuromodulation segment is engaged in the design, development, manufacture, marketing, and sale of devices that deliver neuromodulation therapy for treating DRE and DTD. The VNS Therapy System consists of an implantable pulse generator and connective lead that stimulates the left vagus nerve, surgical equipment to assist with the implant procedure, and equipment and instruction manuals that enable a treating healthcare professional to set parameters for a patient's pulse generator. The lead does not need to be removed to replace a generator with a depleted battery. The Neuromodulation segment also includes the development and clinical testing of LivaNova's aura6000 System for treating OSA."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "業務說明與背景",
+    "業務概覽",
+    "專利與許可證",
+    "市場與銷售方式",
+    "競爭與產業",
+    "生產、品質系統與原材料",
+    "政府規範與其他考量事項",
+    "醫療詐欺與濫用及相關法律",
+    "揭露事項依 1934 年證券交易法第 13(r) 節辦理",
+    "人力資源管理",
+    "可供查閱資訊"
+   ],
+   "paragraphs": [
+    "LivaNova PLC 是一家在全球醫療科技領域處於市場領先地位的公司。本公司設計、開發、製造、行銷及銷售產品、療法與服務，符合 LivaNova 的使命 \"創造創新醫療解決方案，以扭轉病患病情\"。LivaNova 是根據英格蘭及威爾斯法律設立的公開有限公司，總部設於英格蘭倫敦。本公司普通股於納斯達克交易所上市交易，代碼為 \"LIVN\"。",
+    "LivaNova 依據其管理、評估及內部報告業務活動的方式，以分配資源、發展與執行其策略，並評估績效，來辨識營運部門。LivaNova 有兩個應報告分部：心肺部門與神經調節部門。\"其他\" 項目包括未分配的公司營運費用，以及本公司前 ACS 分部非導管結果，該分部於 2024 年已停止運作。",
+    "如需有關 LivaNova 應報告分部、歷史財務資訊及財務結果呈現方法的額外資訊，請參閱本報告 \"第四部，第十五項：附屬文件及財務明細表\"。",
+    "LivaNova 的心肺分部從事心肺產品的設計、開發、製造、行銷與銷售，包括 HLMs、氧氣氣體交換器、自體血液回輸系統、灌注管系統、導管及相關配件，並提供與部分產品相關的服務。特別是，心肺分部包含 Essenz 灌注系統，這是本公司新一代 HLM，內建病患監測器，用以提供個性化病患照護策略，並具備感測技術，用以在 CPB 手術中進行資料驅動的決策。",
+    "CPB 常被用於各種心臟相關醫療程序，使外科團隊能氧氣化並循環病患血液，提供外科醫生進行心臟手術所需的條件。最常見需要 CPB 的醫療程序包括傳統冠狀動脈繞道分流術與瓣膜手術。LivaNova 的產品使 CPB 可用於新生兒、兒童及成人病患。",
+    "HLM 產品組包括 HLMs、加溫冷卻器、相關心臟手術設備與維護，以及技術服務。HLMs 在心臟手術期間暫時取代心臟和/或肺部功能，提供/循環血液與氧氣至體內，同時心臟停止運作。加溫冷卻器在手術中用以加溫或冷卻病患，作為其照護的一部分。這些設備在涉及心臟與肺部的手術中尤其重要。",
+    "氧氣氣體交換器產品組，包括 Inspire 系統，為體外循環用的消耗性設備。Inspire 產品系列包含 12 種型號，為灌注師提供可客製化的選擇，以造福病患。氧氣氣體交換器在手術中交換病患血液中的氧氣與二氧化碳，並與 HLM 一起由灌注師在心臟手術中使用，也可用於體外膜氧合。",
+    "完整血液管理策略的關鍵要素之一是自體血液輸血。自體血液回輸產品組促進病患在手術現場失去的血液的收集、處理與回輸。",
+    "此零組件產品組包含心肺循環導管，或稱管路，為一種用於心肺外科手術的裝置，用以導管血管、灌注冠狀動脈，並連接導管與導管與氧氣交換器。",
+    "LivaNova 的神經調節應報告分部從事設計、開發、製造、行銷與銷售用以治療 DRE 和 DTD 的神經調節療法裝置。VNS 療法系統包含植入式脈衝產生器與連接導線，用以刺激左側迷走神經，手術設備用以協助植入程序，以及",
+    "設備與使用手冊，使治療用醫療專業人員可為病患的脈衝產生器設定參數。導線無需移除即可更換電池耗盡的產生器。神經調節應報告分部亦包含開發與臨牀測試 LivaNova 的 aura6000 系統用以治療 OSA。",
+    "VNS 療法系統設計為輔助治療，用以減少 DRE 患者發作，並在許多全球司法管轄區獲得批准，包括美國，用以治療四歲或以上年齡的患者，其發作為部分或局竈性起始。針對癲癇患者有幾種廣泛的治療方式；ASMs 通常作為一線治療，並幾乎所有癲癇診斷患者皆會處方。當兩種 ASMs 未能控制發作後，癲癇被歸類為藥物抵抗性，並考慮輔助非藥物選項，包括 VNS 療法、酮酸飲食、手術及其他神經調節療法。",
+    "LivaNova 推廣多種用以治療癲癇的 VNS 療法裝置，包括 Model 103 (Demipulse)、Model 106 (AspireSR)、Model 1000 (SenTiva) 以及 Model 1000-D (SenTiva Duo) 脈衝產生器。LivaNova 的 AspireSR 與 SenTiva 植入式脈衝產生器提供 VNS 療法的傳統好處，但增加額外的刺激能力：閉環刺激 (AutoStim)，會對心率變化進行偵測，可能顯示發作。SenTiva 產生器為目前最小且最輕的 VNS 裝置，可提供癲癇的反應式治療，並包含 LivaNova 的排程程式設計與日間與夜間程式設計的額外靈活性。",
+    "2017 年，SenTiva 與 AspireSR VNS 療法裝置獲得 FDA 批准，允許擴展磁共振成像存取，隨後 CE 記號批准也隨之跟進。2020 年，CMS 擴展了 VNS 療法用於治療 Dravet 綜合症的報銷範圍，並在 2022 年擴展了 VNS 療法用於治療 Lennox-Gastaut 綜合症的報銷範圍。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "業務說明",
+    "總體經濟環境與全球供應鏈",
+    "網路安全事件",
+    "業務分部",
+    "營運成果",
+    "2025 2024 2023 2025 與 2024 2024 與 2023",
+    "心肺",
+    "神經調節",
+    "其他收入（2）",
+    "2024 2023 32.3 % 31.9 % 34.5 % 39.5 % 40.6 % 43.6 % 13.4 % 14.6 % 16.8 % — % — % 7.8 % 0.4 % 2.6 % 3.3 % 售出成本",
+    "重要會計估計",
+    "新會計準則宣佈",
+    "流動性及資本資源",
+    "12月31日，",
+    "可用短期流動性",
+    "營運資本",
+    "債務義務",
+    "市場與信用風險",
+    "影響未來營運成果及股價因素"
+   ],
+   "paragraphs": [
+    "以下討論與分析應與本報告中其他處所出現之合併財務報表及相關附註一併閱讀。本討論與分析中呈現之某些百分比係根據原始整數金額計算，因此可能無法與根據用以揭露之四捨五入數字重新計算之百分比對應。以下討論、分析及比較通常聚焦於 2025 年、2024 年及 2023 年之營運結果。",
+    "LivaNova 已選擇略去針對本報告所涵蓋之三個會計年度中最早年度之部分討論。請參閱 LivaNova 2024 年 12 月 31 日結業年度 10-K 年度報告之「第 7 項 管理層討論與分析」項目，以取得 2023 年，即三個會計年度中最早年度之討論參考。",
+    "LivaNova PLC 為全球領先之醫療科技公司。本公司設計、開發、製造、行銷及銷售產品、療法及服務，符合 LivaNova 之使命「創造創新醫療解決方案，扭轉病患病情」。LivaNova 為根據英格蘭及威爾斯法律設立之公開有限公司，總部設於英格蘭倫敦。LivaNova 之普通股於納斯達克交易所上市交易，代碼為 \"LIVN\"。",
+    "目前總體經濟環境，包括匯率波動、通貨膨脹壓力及地緣政治不穩定，以及全球供應鏈挑戰，已影響並可能繼續影響 LivaNova 之業務、營運結果、現金流量及財務狀況。此外，LivaNova 繼續面臨物流、產能及人力限制。然而，截至目前為止，本公司之原材料供應及成品之生產與分銷尚未受到重大影響。本公司持續應對這些挑戰。雖然 LivaNova 已制定業務持續性計畫，但本公司所面對之持續挑戰及其潛在升級，可能對其業務產生不利影響。",
+    "此外，課徵關稅及全球貿易政策變更對本公司營運結果之影響尚屬不確定。LivaNova 之許多心肺產品及零組件係於美國境外取得及製造，包括義大利及德國。同樣地，LivaNova 係於美國製造其神經調節產品，之後通常於國際間分銷。如需更多資訊，請參閱本報告之「第 1A 項 風險因素」。",
+    "如前所述，於 2023 年 11 月，LivaNova 發現一項網路安全事件，導致本公司部分資訊科技系統中斷。因此，本公司聘請外部網路安全專家，與執法機關協調，實施修復措施，並依相關法律通知受影響個體及監管機構。該事件已受控制，且本公司之應對措施已視為完成。如需進一步討論相關法律及監管事項，請參閱本報告中 LivaNova 之合併財務報表之「第 11 項 承諾與或有事項」附註。",
+    "",
+    "LivaNova 保有保險，包括網路保險，此保險需負擔某些自負額及保單限制，這將可能限制保險公司對本公司的賠償金額。LivaNova 已針對保險賠償的直接成本及營業中斷損失提出賠償申報，截至 2025 年 12 月 31 日，賠償申報程序已大致完成。截至 2025 年 12 月 31 日，LivaNova 已收到 10.7 百萬美元的保險賠償，包括 6.8 百萬美元用以賠償直接成本及 3.9 百萬美元用以賠償營業中斷損失。截至 2025 年 12 月 31 日，LivaNova 在 2025 年度及 2024 年度分別收到 1.7 百萬美元及 5.1 百萬美元用以賠償直接成本。截至 2025 年 12 月 31 日，LivaNova 在 2025 年度及 2024 年度分別收到 0.6 百萬美元及 3.3 百萬美元用以賠償營業中斷損失。LivaNova 將針對額外成本提出補償申報",
+    "費用將產生。本公司之保險覆蓋範圍可能不足以涵蓋與此網路安全事件相關之所有成本與費用，或可能無法覆蓋與此網路安全事件相關之所有成本與費用。",
+    "LivaNova 依其管理、評估及內部報告業務活動之方式，以分配資源、發展與執行其策略及評估績效，來辨識運營分部。LivaNova 有兩個應報告分部：心肺及神經調節。如需有關 LivaNova 應報告分部、歷史財務資訊及其財務結果呈現方法之更多資訊，請參閱本報告之合併財務報表及附註。",
+    "LivaNova 之心肺分部從事心肺產品之設計、開發、製造、行銷與銷售，包括 HLMs、氧氣氣體交換器、自動血液回收系統、灌注管系統、導管及相關配件，並提供與部分產品相關之服務。特別是，心肺分部包含 Essenz 灌注系統，為本公司新一代 HLM，內建病患監測器，用以提供個性化病患照護策略，並具備數據驅動決策之感測技術，用於 CPB 手術期間。",
+    "CPB 常用於各種心臟相關醫療程序，使外科團隊能氧氣化並循環病患血液，提供外科醫生進行心臟手術所需之條件。最常見需要 CPB 之醫療程序包括傳統冠狀動脈繞道分流術及瓣膜手術。LivaNova 產品使 CPB 可用於新生兒、兒童及成人病患。",
+    "有關心肺分部之資訊，可能影響 LivaNova 之合併財務報表及相關揭露，已納入參考 \"附註 11. 承諾與或有事項：產品責任訴訟\" 之合併財務報表，包含於本報告中。",
+    "LivaNova 之神經調節分部從事設計、開發、製造、行銷與銷售用以治療 DRE 及 DTD 之神經調節療法裝置。VNS 療法系統包含植入式脈衝產生器及連接導線，用以刺激左迷走神經，手術設備協助植入程序，以及設備與說明手冊，使治療醫療專業人員能設定病患脈衝產生器之參數。導線無需移除即可更換電池耗盡之產生器。神經調節分部亦包含 LivaNova 之 aura6000 系統之開發與臨牀測試，用以治療 OSA。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司業務及營運相關之風險",
+    "LivaNova 面臨在全球營運所衍生之風險。",
+    "LivaNova 供應鏈之減量與中斷已對 LivaNova 之業務、營運結果、現金流及財務狀況造成負面影響，並可能持續造成負面影響。",
+    "全球醫療器材產業競爭激烈，LivaNova 可能無法有效競爭。",
+    "AI 技術之整合與應用可能產生風險與挑戰，可能對 LivaNova 之業務、營運及聲譽造成負面影響。",
+    "若 LivaNova 之投資、聯盟、併購或資產處置未能成功，本公司可能無法實現預期之效益。",
+    "LivaNova 產品之持續發展依賴本公司維持與醫療專業人員適當之工作關係。",
+    "LivaNova 之製程、產品與服務之品質問題可能損害本公司生產高品質產品之聲譽，並削弱 LivaNova 之競爭優勢、營業收入及市佔率。",
+    "未能遵守美國及國際產品相關的規範要求，可能對 LivaNova 的業務、營運結果、現金流量及財務狀況造成重大不利影響。",
+    "LivaNova 的成功取決於其員工及本公司吸引並留住員工的能力、繼任計畫，以及與當地工會成功協商的能力。",
+    "全球醫療政策的變動可能對 LivaNova 的業務、營運結果、財務狀況及現金流量造成重大不利影響。",
+    "未能遵守反賄賂法規可能對 LivaNova 的業務造成重大不利影響，並可能導致民事及/或刑事處罰。",
+    "待決或現行氣候變遷的影響可能對 LivaNova 未來的營運造成重大不利影響。",
+    "LivaNova 可能因減損智慧財產權、商譽及其他長壽命資產，而對本公司的財務結果造成不利影響。",
+    "股東 activism 及投資者參與度增加可能分散管理階層的注意力，幹擾本公司的營運，並對業務及股價造成不利影響。",
+    "法律、規範及合規風險",
+    "作為醫療器材製造商，LivaNova 面臨產品責任爭議，此等爭議可能對其合併財務狀況造成不利影響，並損害本公司的聲譽。"
+   ],
+   "paragraphs": [
+    "投資人應謹慎考量下列所描述的風險，以及本報告與 LivaNova 其他向 SEC 提交的申報文件中所包含的其他資訊。本公司業務、營運成果、現金流量與財務狀況可能因任何上述風險或不確定性而受到重大且不利的影響。此外，尚有其他風險與不確定性，目前本公司尚未知悉，或本公司目前認為不重要，也可能對其業務造成不利影響。",
+    "LivaNova 面臨在全球進行業務所固有的風險。這些風險，許多 LivaNova 皆親身經歷過，包括更高的恐怖攻擊風險、戰爭或內亂；更高的通貨膨脹風險；貨運與勞動成本的波動；利率與匯率的變動；更高的網路攻擊風險與供應鏈挑戰；貿易協議與國家間關係的變動，包括全球關稅的不確定性、貿易限制、演變中的制裁以及進出口許可要求的不利變動；能源價格的變動；當地產品變動與合規要求；當地司法管轄區的應收帳款付款條件與收款時間較長；執行契約的困難；更高的客戶信用風險與當地執法對義務執行的不一致；遵守反賄賂法規；不同的勞動法規與勞動力不穩定；透過經銷商與代理商銷售；以及政治與經濟的不穩定。",
+    "LivaNova 某些子公司從事的業務交易涉及受到全面制裁的國家，包括伊朗與俄羅斯。這些業務交易僅佔 LivaNova 合併營收與收入的極小部分，但使本公司面臨更高的違反適用制裁法規的風險。違反這些法規可能導致民事與刑事處罰，包括罰款、拒絕出口權、禁令、資產沒收、被排除於政府契約之外、以及許可證的吊銷或限制，以及刑事罰款與監禁。儘管 LivaNova 做出最佳努力以符合相關法規，但無法保證 LivaNova 的政策與程序能防止其在所有可能的交易中違規，而這樣的違規可能會對其聲譽、業務、營運成果、現金流量與財務狀況造成不利影響。",
+    "此外，LivaNova 的全球業務導致其收入與費用以非本公司報表貨幣（美元）的貨幣計價。匯率的波動可能影響，且已影響 LivaNova 的營運成果與財務狀況。雖然 LivaNova 過去曾選擇，且可能未來也會選擇，對某些外幣 exposures 進行對沖，但任何對沖策略都不太可能完全消除其貨幣風險。LivaNova 無法預測貨幣交換率的變動、匯率變動的影響，或其能多大程度管理貨幣交換率變動的影響。",
+    "上述任何風險都可能對 LivaNova 的業務、營運成果、現金流量與財務狀況造成不利影響。",
+    "全球貿易政策的變動，包括美國或其他司法管轄區施加關稅、貿易限制、出口管制、制裁或其他保護主義或報復性措施，可能對 LivaNova 的業務、財務狀況與營運成果造成不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

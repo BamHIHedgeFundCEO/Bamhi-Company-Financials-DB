@@ -1,0 +1,209 @@
+{
+ "ticker": "FNWD",
+ "cik": "0000919864",
+ "accession": "0001628280-26-021073",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Forward-Looking Statements",
+    "Lending Activities",
+    "Loan Origination Fees. All loan origination and commitment fees, as well as incremental direct loan origination costs, are deferred and amortized into income as yield adjustments.",
+    "The Current Lending Programs",
+    "Government Loans. The Company is permitted to purchase non-rated municipal securities, tax anticipation notes, and warrants within the local market area.",
+    "Credit Quality and Allowance for Credit Losses",
+    "Investment Activities",
+    "Sources of Funds",
+    "Wealth Management Group",
+    "Analysis of Profitability and Key Operating Ratios",
+    "Financial Ratios and the Analysis of Changes in Net Interest Income.",
+    "Subsidiary Activities",
+    "Employees and Human Capital Resources",
+    "Regulation and Supervision"
+   ],
+   "paragraphs": [
+    "Finward Bancorp, an Indiana corporation, was incorporated on January 31, 1994, and is the holding company for Peoples Bank, an Indiana-chartered commercial bank. The Bank is a wholly owned subsidiary of the Company. The Company has no other business activity other than being a holding company for the Bank and the Company's earnings are primarily dependent upon the earnings of the Bank.",
+    "The Bank is primarily engaged in the business of attracting deposits from the general public and the origination of loans, mostly upon the security of single family residences and commercial real estate, as well as, construction loans and various types of consumer loans, commercial business loans and municipal loans, within its primary market areas of Lake and Porter Counties, in Northwest Indiana, and Cook County, Illinois. In addition, the Company's Wealth Management Group provides estate and retirement planning, guardianships, land trusts, profit sharing and 401(k) retirement plans, IRA and Keogh accounts, investment agency accounts, and serves as the personal representative of estates and acts as trustee for revocable and irrevocable trusts.",
+    "The Company monitors and evaluates financial performance on a Company-wide basis and the majority of the Company's revenue is from the business of banking. Accordingly, all of the Company's operations are considered by management to be aggregated in one reportable operating segment.",
+    "The Bank's deposit accounts are insured up to applicable limits by the Deposit Insurance Fund, which is administered by the Federal Deposit Insurance Corporation, an agency of the federal government. As the holding company for the Bank, the Company is subject to comprehensive examination, supervision and regulation by the Board of Governors of the Federal Reserve System, while the Bank is subject to comprehensive examination, supervision and regulation by both the FDIC and the Indiana Department of Financial Institutions. The Bank is also subject to regulation by the FRB governing reserves required to be maintained against certain deposits and other matters. The Bank is also a member of the Federal Home Loan Bank of Indianapolis, which is one of the eleven regional banks comprising the system of Federal Home Loan Banks.",
+    "The Company maintains its corporate office at 9204 Columbia Avenue, Munster, Indiana, from which it oversees the operation of its 26 branch locations. For further information, see \"Properties.\" The Company's internet address is www.ibankpeoples.com.",
+    "Certain of the statements made in this report are \"forward-looking statements\" within the meaning and protections of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Exchange Act. All statements other than statements of historical fact, including statements regarding our financial position, business strategy, and the plans and objectives of our management for future operations, are forward-looking statements. You can identify these forward-looking statements through our use of words such as \"may,\" \"will,\" \"anticipate,\" \"assume,\" \"should,\" \"indicate,\" \"would,\" \"believe,\" \"contemplate,\" \"expect,\" \"estimate,\" \"continue,\" \"plan,\" \"point to,\" \"project,\" \"could,\" \"intend,\" \"target,\" and other similar words and expressions relating to the future.",
+    "Although management believes that the expectations reflected in such forward-looking statements are reasonable, actual results may differ materially, and adversely or positively, from the expectations of the Company that are expressed or implied by any forward-looking statement. Risks, uncertainties, and factors that could cause the Company's actual results to vary materially from those expressed or implied by any forward-looking statement include but are not limited to:",
+    "● changes in domestic and international trade policies, including tariffs and other non-tariff barriers, and the effects of such changes on the Bank and its customers;",
+    "● risks related to the development and use of AI;",
+    "● The Bank's ability to demonstrate compliance with the terms of the previously disclosed memorandum of understanding entered into between the Bank and the FDIC and DFI, or to demonstrate compliance to the satisfaction of the FDIC and/or DFI within prescribed time frames;",
+    "● The Bank's agreement under the memorandum of understanding to refrain from paying cash dividends without prior regulatory approval;",
+    "● changes in interest rates, market liquidity, and capital markets, as well as the magnitude of such changes, which may reduce net interest margins;",
+    "● the aggregate effects of inflation experienced in recent years, and the potential for a resurgence in inflation;",
+    "● the use of proceeds of future offerings of securities;"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business",
+    "As a financial institution, the Company is subject to a number of risks relating to its daily business.",
+    "The Company is subject to liquidity risk in its operations, which could adversely affect the ability to fund various obligations.",
+    "Unrealized losses in the Company's investment portfolio could affect liquidity.",
+    "Above average interest rate risk associated with fixed-rate loans may have an adverse effect on our financial position or results of operations.",
+    "Higher loan losses could require the Company to increase its allowance for credit losses through a charge to earnings.",
+    "Commercial business lending may expose the Company to increased lending risks.",
+    "Commercial real estate lending may expose the Company to increased lending risks.",
+    "Our mortgage lending profitability could be significantly reduced as changes in interest rates could affect mortgage origination volume and pricing for selling mortgages on the secondary market.",
+    "Our information systems may experience an interruption or breach in security.",
+    "We are subject to certain operational risks, including, but not limited to, customer or employee fraud and data processing system failures and errors.",
+    "We depend on outside third parties for processing and handling of our records and data.",
+    "We continually encounter technological change.",
+    "We may not be able to attract and retain skilled people.",
+    "Loss of key employees may disrupt relationships with certain customers.",
+    "We may need to raise additional capital in the future, and such capital may not be available when needed or at all.",
+    "We may be exposed to risk of environmental liabilities with respect to real property to which we take title.",
+    "We are exposed to intangible asset risk in that our goodwill may become impaired.",
+    "Damage to our reputation could damage our business.",
+    "The Company and Bank are subject to extensive regulation and oversight, including with respect to the MOU.",
+    "Risks Related to the Banking Industry",
+    "Our business may be adversely affected by conditions in the financial markets and economic conditions generally.",
+    "We face strong competition in all phases of our business from other banks, financial institutions, and non-banks.",
+    "Due to the development of new technologies and regulatory actions encouraging the use of these technologies, consumers may decide not to use banks to complete their financial transactions.",
+    "The soundness of other financial institutions could adversely affect us.",
+    "Risks Related to the Company's Common Stock",
+    "An investment in the Company's common stock is not an insured deposit.",
+    "The price of our common stock may fluctuate, sometimes significantly, and this may make it difficult for you to resell our common stock at times or at prices you find attractive.",
+    "The trading volume in the Company's common stock is less than that of other larger financial institutions.",
+    "The Company's Articles of Incorporation, Indiana law, and certain banking laws may have an anti-takeover effect.",
+    "The Company may issue additional securities, which could dilute the ownership percentage of holders of the Company's common stock.",
+    "We may not be able to pay dividends in the future in accordance with past practice."
+   ],
+   "paragraphs": [
+    "An investment in our common stock involves risks. Before making any decision whether to invest in our common stock, you should carefully consider the risks described below, together with all of the other information included in this report. These risks are not the only ones we will face. Additional risks not presently known to us or that we currently deem immaterial may also affect our business operations, financial condition, and results of operations. Our business, financial condition, or results of operations could be materially adversely affected by any of these risks. The trading price of our common stock could decline due to any of these risks, and you may lose all or part of your investment. Also, please read \"Cautionary Note Regarding Forward-Looking Statements.\"",
+    "As a financial institution, we are subject to a number of risks relating to our daily business. Although we undertake a variety of efforts to manage and control those risks, many of the risks are outside of our control. Among the risks we face are the following:",
+    "● Credit Risk – the risk that loan customers or other parties will be unable to perform their contractual repayment obligations.",
+    "● Market Risk – the risk that changes in market rates and prices will adversely affect our financial condition and results of operations.",
+    "● Liquidity Risk – the risk that the Company or the Bank will have insufficient cash or access to cash to meet its operating needs.",
+    "● Operational Risk – the risk of financial and reputational loss resulting from fraud, inadequate or failed internal processes, cyber-security breaches, people and systems, or external events."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Recent Developments Regarding the Company and the Bank",
+    "Financial Condition",
+    "Liquidity and Capital Resources",
+    "Results of Operations - Comparison of 2025 to 2024",
+    "Calculation of net interest margin, tax-equivalent basis",
+    "Critical Accounting Policies",
+    "Non-GAAP Financial Measures",
+    "Impact of Inflation and Changing Prices"
+   ],
+   "paragraphs": [
+    "On July 4, 2025, President Trump signed into law the legislation commonly referred to as the One Big Beautiful Bill Act, which is a sweeping federal reconciliation package that permanently extends and expands key provisions of the 2017 Tax Cuts and Jobs Act, introduces new tax benefits (including elevated standard deductions, higher state-and-local tax (SALT) caps, and no taxation on tips and overtime income for certain workers), and enacts broad reductions in government spending. The OBBBA is a complex revision to the U.S. federal income tax laws with potentially far-reaching consequences. The OBBBA will require subsequent rulemaking in a number of areas. The long-term impact of the OBBBA on the Company, the Bank, our shareholders, and the banking industry in general cannot be reliably predicted at this early stage of the new law's implementation. Shareholders are urged to consult with their own tax advisors regarding the impact of the OBBBA to them and their acquisition, ownership, and disposition of the Company's common stock. The Company's management continues to evaluate the impact of the OBBBA on the Company, the Bank, and its business, financial condition, and results of operations.",
+    "On August 6, 2025, the FDIC and the DFI terminated the Consent Order issued to the Bank that was effective on November 7, 2023 relating to the Bank's compliance with the Bank Secrecy Act and its implementing regulations. The termination of the Consent Order follows the Bank's successful resolution of the deficiencies in the Bank's BSA compliance and anti-money laundering compliance program which was the subject of the Consent Order.",
+    "On August 9, 2024, the Bank entered into a memorandum of understanding with the FDIC and DFI. The MOU is an informal administrative agreement pursuant to which the Bank has agreed to take various actions and comply with certain requirements to enhance certain areas of the Bank's operations. The MOU documents an understanding among the Bank, the FDIC, and DFI that, among other things, the Bank will: refrain from paying cash dividends without prior regulatory approval and develop and implement certain plans regarding the Bank's operations, capital, and strategy. The Bank will",
+    "submit written quarterly progress reports to the FDIC and DFI detailing compliance with the MOU. The MOU will remain in effect until modified or terminated by the FDIC and DFI.",
+    "Management does not expect the actions called for by these regulatory actions to have a substantial impact on the Company's or the Bank's ongoing day-to-day operations, although they may have the effect of limiting or delaying the Bancorp's or the Bank's ability or plans to expand and engage in business acquisitions."
+   ],
+   "focus": "Recent Developments Regarding the Company and the Bank"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "展望性陳述",
+    "貸款業務",
+    "貸款發放費用。所有貸款發放及承諾費用，以及追加直接貸款發放成本，均會遞延並按收益調整方式計入收入。",
+    "現行貸款計畫",
+    "政府貸款。本公司得在當地市場區域內購買非評級市政證券、稅收預支票據及權證。",
+    "信用品質與信用損失撥備",
+    "投資活動",
+    "資金來源",
+    "{'original': 'Wealth Management Group', 'translated': '財富管理羣組'}",
+    "{'original': 'Analysis of Profitability and Key Operating Ratios', 'translated': '獲利能力與關鍵營運比率分析'}",
+    "{'original': 'Financial Ratios and the Analysis of Changes in Net Interest Income.', 'translated': '財務比率與淨利息收入變動分析'}",
+    "{'original': 'Subsidiary Activities', 'translated': '子公司業務'}",
+    "{'original': 'Employees and Human Capital Resources', 'translated': '員工與人力資本資源'}",
+    "{'original': 'Regulation and Supervision', 'translated': '法規與監督'}"
+   ],
+   "paragraphs": [
+    "Finward Bancorp, 一間印第安那州公司，於1994年1月31日成立，為Peoples Bank的控股公司，Peoples Bank為一間印第安那州發起的商業銀行。該銀行為本公司之 wholly owned subsidiary。本公司除作為Peoples Bank之控股公司外，沒有其他業務活動，且本公司之營業收入主要取決於Peoples Bank之營業收入。",
+    "該銀行主要從事吸引公眾存款及貸款業務，貸款多以單戶住宅及商業不動產為抵押，以及建設貸款及各種類型的消費者貸款、商業企業貸款及市政貸款，其主要營運區域為印第安那州西北部之Lake及Porter縣，以及伊利諾州之Cook縣。此外，本公司之財富管理部門提供遺產及退休規劃、監護權、土地信託、利潤分享及401(k)退休計畫、IRA及Keogh帳戶、投資代理帳戶，並擔任遺產之個人代表，並擔任可撤銷及不可撤銷信託之受託人。",
+    "本公司監測及評估財務表現為公司整體層面，且本公司之大部分營業收入來自銀行業務。因此，本公司所有業務活動，根據管理階層之觀點，均被視為集中於一個應報告分部。",
+    "該銀行之存款帳戶由美國聯邦存款保險公司（FDIC）所管理之存款保險基金，根據適用之限額提供保險。作為Peoples Bank之控股公司，本公司受美國聯邦儲備系統理事會之全面檢查、監督及管理，而該銀行則受FDIC及印第安那州財政機構部門之全面檢查、監督及管理。該銀行亦受聯邦儲備局（FRB）之管理，規範針對特定存款及其他事項之準備金要求。該銀行亦為印第安那波利斯聯邦住宅貸款銀行之成員，該銀行為十一間區域銀行之一，組成美國聯邦住宅貸款銀行系統。",
+    "本公司之總部設於印第安那州Munster市之9204 Columbia Avenue，從此地監督其26個分行之運作。如需更多資訊，請參閱「Properties」部分。本公司之網站為www.ibankpeoples.com。",
+    "本報告中部分陳述為「向前看」陳述，根據1933年證券法第27A條款及1934年證券交易法第21E條款之含義及保護。所有非歷史事實之陳述，包括有關本公司財務狀況、業務策略及管理階層對未來運作之計畫與目標之陳述，均為向前看陳述。您可透過本公司使用如「may」「will」「anticipate」「assume」「should」「indicate」「would」「believe」「contemplate」「expect」「estimate」「continue」「plan」「point to」「project」「could」「intend」「target」及其他類似詞彙及表達方式來辨識這些向前看陳述。",
+    "雖然管理階層認為這些向前看陳述所反映之預期為合理，但實際結果可能與本公司所表達或暗示之預期有重大差異，且可能對本公司產生正面或負面影響。可能導致本公司實際結果與任何向前看陳述所表達或暗示之結果有重大差異之風險、不確定性及因素包括但不限於：",
+    "● 國內及國際貿易政策之變動，包括關稅及其他非關稅障礙，以及這些變動對該銀行及其客戶之影響；",
+    "● 與人工智慧（AI）的發展及應用相關的風險;",
+    "● 銀行能否證明符合先前披露的與FDIC及DFI簽訂的備忘錄協議條款，或在規定時間內讓FDIC及/或DFI滿意其符合性;",
+    "● 銀行根據備忘錄協議同意在未經監管機構批准前不得發放現金股息;",
+    "● 利率、市場流動性及資本市場的變化，以及這些變化幅度，可能降低淨利息邊際;",
+    "● 過去幾年經歷的通貨膨脹總體影響，以及通貨膨脹可能再次出現的潛在風險;",
+    "● 未來發行證券所得資金的運用;"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'translated_text': '本公司與銀行之最新發展情況'}",
+    "{'translated_text': '財務狀況'}",
+    "{'translated_text': '流動性及資本運用'}",
+    "{'translated_text': '營運成果 - 2025 年與 2024 年比較'}",
+    "{'translated_text': '淨利息-margin 計算，以稅等價為基礎'}",
+    "{'translated_text': '關鍵會計政策'}",
+    "{'translated_text': '非 GAAP 財務指標'}",
+    "{'translated_text': '物價變動與通貨膨脹之影響'}"
+   ],
+   "paragraphs": [
+    "2025年7月4日，總統特朗普簽署成為法律的法案，通常被稱為「一項大而美麗法案」（One Big Beautiful Bill Act，OBBBA），這是一項廣泛的聯邦協議法案，永久延長並擴展2017年稅改與就業法案（Tax Cuts and Jobs Act）的關鍵條款，引入新的稅收優惠（包括提高的標準扣除額、更高的州與地方稅（SALT）上限，以及特定工作者的薪資與加班費免稅），並實施廣泛的政府支出減少。OBBBA是對美國聯邦所得稅法的複雜修訂，可能產生廣泛的後果。OBBBA將需要在多個領域進行後續規則制定。在這項新法律實施的初期階段，OBBBA對本公司、銀行、股東以及銀行業的長期影響無法可靠預測。股東應諮詢其自身的稅務顧問，以評估OBBBA對他們及其取得、持有及處分本公司普通股的影響。本公司管理層持續評估OBBBA對本公司、銀行及其業務、財務狀況與營運成果的影響。",
+    "2025年8月6日，FDIC與DFI終止了於2023年11月7日生效的對銀行所頒發的同意書（Consent Order），該同意書與銀行遵守銀行保密法（Bank Secrecy Act）及其實施規則有關。同意書的終止是因為銀行成功解決了銀行在BSA合規與反洗錢合規計畫中的缺失，這些缺失正是同意書所針對的內容。",
+    "2024年8月9日，銀行與FDIC及DFI簽訂了一項備忘錄（Memorandum of Understanding，MOU）。MOU是一項非正式的行政協議，根據該協議，銀行同意採取各種行動並遵守某些要求，以強化銀行營運的某些領域。MOU記錄了銀行、FDIC及DFI之間的共識，其中包括銀行將：在未經監管機構批准前，不得支付現金股息，並制定及實施有關銀行營運、資本與戰略的某些計畫。銀行將",
+    "向FDIC及DFI提交書面季度進展報告，詳細說明對MOU的遵循情況。MOU將持續生效，直至被FDIC及DFI修改或終止。",
+    "管理層不預期這些監管行動所要求的行動對本公司或銀行的日常營運有重大影響，儘管這些行動可能限制或延遲Bancorp或銀行擴張及進行企業併購的能力建議或計畫。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司業務相關的風險",
+    "作為一家金融機構，本公司面臨與日常業務相關的多項風險。",
+    "本公司在營運中面臨流動性風險，這可能會不利於履行各項義務的資金能力。",
+    "本公司投資組閤中未實現的損失可能影響流動性。",
+    "與固定利率貸款相關的利率風險高於平均，可能會對本公司財務狀況或營運結果產生不利影響。",
+    "貸款損失增加可能需要本公司透過對收益的減損提列更高的信貸損失準備金。",
+    "企業業務貸款可能使本公司面臨更高的貸款風險。",
+    "企業不動產貸款可能使本公司面臨更高的貸款風險。",
+    "本公司房貸貸款獲利能力可能大幅下降，因利率變動可能影響房貸發放量及在二級市場出售房貸的定價。",
+    "本公司資訊系統可能遭遇中斷或安全漏洞。",
+    "本公司面臨某些營運風險，包括但不限於客戶或員工詐欺及資料處理系統的故障與錯誤。",
+    "本公司依賴外部第三方處理及管理本公司資料與記錄。",
+    "本公司持續面對科技變革。",
+    "本公司可能無法吸引並留住具專業技能的人才。",
+    "關鍵員工流失可能影響與特定客戶的關係。",
+    "本公司未來可能需要籌措額外資金，而所需資金可能在需要時無法取得或完全無法取得。",
+    "本公司可能面臨因取得所有權之實物資產而產生之環境責任風險。",
+    "本公司面臨無形資產風險，因本公司之商譽可能發生減值。",
+    "本公司聲譽受損可能影響本公司營運。",
+    "本公司與銀行均受廣泛規範與監督，包括與 Memorandum of Understanding（MOU）相關事項。",
+    "與銀行業相關之風險",
+    "本公司營運可能因金融市場狀況及總體經濟狀況而受到不利影響。",
+    "本公司在營運各階段均面臨來自其他銀行、金融機構及非銀行機構之強烈競爭。",
+    "由於新技術之發展及監管機構鼓勵使用這些技術，消費者可能決定不透過銀行完成其財務交易。",
+    "其他金融機構的健全性可能會對本公司產生不利影響。",
+    "與本公司普通股相關的風險",
+    "投資本公司普通股並非受保險的存款。",
+    "本公司普通股的價格可能會波動，有時幅度相當顯著，這可能會使您在某些時候或以您認為有吸引力的價格出售本公司普通股變得困難。",
+    "本公司普通股的交易量低於其他較大型金融機構的普通股。",
+    "本公司的章程、印第安納州法律以及某些銀行法可能會產生反 takeover 的效果。",
+    "本公司可能會發行額外證券，這可能會稀釋本公司普通股持有人的持股比例。",
+    "我們未來可能無法依照過去的慣例支付股息。"
+   ],
+   "paragraphs": [
+    "投資本公司的普通股涉及風險。在決定是否投資本公司普通股之前，您應仔細考慮下列所描述的風險，以及本報告中包含的所有其他資訊。這些風險並非我們唯一可能面對的風險。目前我們尚未知悉或認為不重要的其他風險，也可能影響我們的業務運作、財務狀況及營運結果。任何這些風險都可能對我們的業務、財務狀況或營運結果造成重大不利影響。由於任何這些風險，本公司普通股的交易價格可能下跌，您可能損失全部或部分投資。此外，請閱讀「關於未來預測陳述的警示說明」。",
+    "作為一家金融機構，我們面臨許多與日常業務相關的風險。儘管我們致力於管理及控制這些風險，但許多風險超出了我們的控制範圍。我們面臨的風險包括以下幾項：",
+    "● 信用風險 – 借款客戶或其他當事人無法履行其契約償還義務的風險。",
+    "● 市場風險 – 市場利率與價格的變動可能對我們的財務狀況及營運結果造成不利影響的風險。",
+    "● 流動性風險 – 本公司或銀行可能缺乏足夠現金或取得現金的途徑，以應付其營運需求的風險。",
+    "● 操作風險 – 因詐欺、內部流程不足或失敗、網路安全事件、人員與系統問題或外部事件而導致財務與聲譽損失的風險。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -240,7 +240,7 @@
     "那有助於改善病患與醫療照護成果。與全球的客戶合作，我們每年影響超過1.5億名病患。我們的核心價值觀引導我們的行為與行動，並為",
     "我們的價值觀",
     "對我們執行使命至關重要。Stryker 於 1946 年在密西根州成立，為 1941 年由 Dr. Homer H. Stryker 所創立的企業之繼承公司",
-    "該企業為一位知名骨科外科醫生暨多位醫療器材發明家所創立",
+    "{'company to a business founded in 1941 by Dr. Homer H. Stryker, a prominent orthopaedic surgeon and inventor of several medical': '本公司為一家於1941年由Dr. Homer H. Stryker所創立的企業，Dr. Homer H. Stryker為知名骨科外科醫生，並發明多項醫療設備'}",
     "產品。本公司產品銷售至約61個國家，透過本公司設立的子公司及分支機構，以及第三方經銷商與代理商，產品包括手術器材與手術導航系統；內視鏡與",
     "相關產品。",
     "{'communications systems': '通訊系統', 'patient handling': '病患照顧', 'emergency medical equipment': '緊急醫療設備', 'and intensive care disposable products': '及重症護理用消耗品', 'clinical': '臨牀'}",
@@ -310,7 +310,7 @@
    ],
    "paragraphs": [
     "2025 年本公司實現了淨銷售額成長 11.2%。扣除併購與資產處分的影響後，銷售額成長 10.3%（以穩定貨幣計算）。",
-    "本公司報告淨利為 3,246 萬美元"
+    "{'original': '10.3% in constant currency. We reported net earnings of $3,246', 'translated': '10.3% 以固定貨幣計算。本公司報告淨收益為 3,246 美元'}"
    ]
   },
   "risk": {

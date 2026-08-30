@@ -1,0 +1,163 @@
+{
+ "ticker": "TDUP",
+ "cik": "0001484778",
+ "accession": "0001484778-26-000007",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Intellectual Property",
+    "Human Capital Resources",
+    "Available Information",
+    "Corporate Information"
+   ],
+   "paragraphs": [
+    "ThredUp operates one of the world's largest online resale platforms for apparel, shoes and accessories. Our mission is to inspire the world to think secondhand first. We believe in a sustainable fashion future and we are proud that our business model creates a positive impact to the benefit of our buyers, sellers, clients, employees, investors and the environment. Our custom-built operating platform consists of distributed processing infrastructure, proprietary software and systems and data science expertise. This platform is powering the rapidly emerging resale economy, one of the fastest growing sectors in retail, according to GlobalData's assessment of the secondhand market in January 2025.",
+    "ThredUp's proprietary operating platform is the foundation for our managed marketplace, where we have bridged online and offline technology to make the buying and selling of tens of millions of unique items easy and fun. The marketplaces we have built enable buyers in the United States (\"U.S.\") to browse and purchase resale items for primarily apparel, shoes and accessories across a wide range of price points. Buyers love shopping value, premium and luxury brands all in one place, at up to 90% off estimated retail price. Sellers enjoy ThredUp because we make it easy to clean out their closets and unlock value for themselves or for the charity of their choice while doing good for the planet. ThredUp's sellers order a Clean Out Bag, fill and return it to us using our prepaid label. We take it from there and do the work to make those accepted items available for resale. In addition to our core marketplace, some of the world's leading brands and retailers are already taking advantage of our Resale-as-a-Service (\"RaaS\") offering, which allows them to conveniently offer a scalable closet clean out service and/or resale shop to their customers. We believe RaaS will accelerate the growth of this emerging category and supplements our overall supply strategy.",
+    "We have built a differentiated and defensible operating platform to enable resale at scale, combining:",
+    "•Distributed Processing Infrastructure. Our infrastructure is purpose-built for \"single SKU\" logistics, meaning that the vast majority of items processed are unique, came from or belong to an individual seller and is individually tracked using its own stock keeping unit (\"SKU\"). As of December 31, 2025, we operated distribution centers that could collectively hold more than7.5 million items. Our operations are highly scalable, and we have the ability to process more than 100,000 unique SKUs per day across our existing distribution center footprint. We drive continuous operational efficiency through proprietary technology and ongoing automation of our infrastructure. Our existing distribution centers are located in Arizona, Georgia, Pennsylvania, and Texas. By locating our facilities in strategic locations across the country, we can be closer to our buyers and sellers, which allows us to reduce shipping times in transit, and lower our inbound and outbound shipping costs. In addition, our facilities are located in geographic locations with access to a large, qualified talent pools.",
+    "•Proprietary Software and Systems. Our facilities run on a suite of our custom-built applications designed for \"single SKU\" operations. Our engineering team has implemented large-scale, innovative and patented automation for put-away, storage, picking and packing at scale. This automation results in reduced labor and fixed costs while increasing storage density and throughput capacity. Our proprietary software, systems and processes enable efficient quality assurance, item-attribution, sizing and photography.",
+    "•Data Science Expertise. We harness our robust, structured data set across our business to optimize economic decisions, such as pricing, seller payouts, item acceptance, merchandising and sell-through. We also leverage data to power efficient customer acquisition and lifetime engagement, and to provide a personalized shopping experience. ThredUp's data science portfolio leverages machine learning algorithms, predictive analytics, and other artificial intelligence \"AI\" technologies to identify trends, anomalies and correlations, provide alerts and initiate business processes. ThredUp also offers AI-powered shopping tools, including improved search, where customers can use natural language prompts to obtain relevant and personalized results. Our AI-powered image search allows shoppers to upload photos to find matching or similar items, making it easy to recreate a desired look. We also offer Style Chat, an AI-powered chatbot, that helps customers create complete outfits based on natural language prompts that they provide.",
+    "We generate revenue primarily from items that are sold to buyers on our website and mobile app, as well as bag fees charged to sellers for processing Clean Out Bags. Our revenue is primarily derived from consignment sales, which are recognized net of seller payouts, discounts, incentives and returns. Cost of revenue primarily includes outbound shipping, outbound labor and packaging costs.",
+    "On November 30, 2024, we divested 91.0% of the common stock of Remix US Holdings Inc., the parent company of Remix Global EAD (\"Remix\"), the operating subsidiary for our European business. As a result, we have discontinued our European operations. Unless otherwise noted as pertaining to \"discontinued operations,\" all commentary in this Annual Report on Form 10-K pertains solely to our continuing US operations. See \"Management's Discussion and Analysis of Financial Condition and Results of Operations—Recent Business Developments\" for more information.",
+    "Although we have built a scaled and highly differentiated platform and managed marketplace, we face intense competition. Our competitors include other apparel retailers, particularly retailers at an off-price or fast-fashion price point, vendors of new and secondhand items, including branded goods stores, local, national and global department stores, traditional brick-and-mortar consignment and thrift stores, specialty retailers, direct-to-consumer retailers, discount chains, independent retail stores, the online offerings of these traditional retail competitors, resale players focused on niche or single categories, as well as technology-enabled marketplaces that may offer the same or similar goods and services that we offer. Competitors offering the same or similar goods or services include:",
+    "•secondhand marketplaces, such as eBay, Goodwill, Mercari, Poshmark, The RealReal, Vinted and Vestiaire Collective;",
+    "•large online and discount retailers, such as Amazon.com, Inc., Target Corporation, and Walmart Inc.;",
+    "•off-price retailers, such as Burlington Stores, Inc., Ross Stores, Inc. and The TJX Companies, Inc.; and",
+    "•low-cost online fast-fashion retailers such as Shein and Temu.",
+    "Additionally, we experience competition for consumer discretionary spending from other product and experiential categories. See the section titled \"Risk Factors—Risks Relating To Our Business and Industry—The market in which we participate is competitive and rapidly changing, and if we do not compete effectively with established companies as well as new market entrants or maintain and develop strategic relationships with third parties, our business, results of operations and financial condition could be harmed.\""
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factor Summary",
+    "Risks Relating to Our Business and Industry",
+    "Our continued growth depends on attracting new, and retaining existing, buyers.",
+    "If we fail to attract a sufficient amount of high-quality and desirable secondhand items, our business, results of operations and financial condition could be harmed.",
+    "Our ability to incorporate artificial intelligence and machine learning and other emergent technologies into our business operations successfully may affect our reputation and results of operations.",
+    "Our business, including our costs and supply of secondhand items, is subject to risks associated with sourcing, itemizing, warehousing and shipping.",
+    "We rely on consumer discretionary spending and have been and may continue to be adversely affected by economic downturns and other macroeconomic conditions or trends.",
+    "We have a history of losses and we anticipate increasing operating expenses in the future. We may not be able to achieve and maintain profitability.",
+    "We have a limited operating history in an evolving industry, which makes it difficult to forecast our revenue, plan our expenses and evaluate our business and future prospects.",
+    "Our advertising activity and strategic RaaS offerings may fail to efficiently drive growth in buyers and sellers, which could harm our business, results of operations and financial condition.",
+    "We may not realize expected savings or benefits from restructuring activities.",
+    "If we are unable to successfully leverage technology to automate and drive efficiencies in our operations, our business, results of operations and financial condition could be harmed.",
+    "We use data science to predict buyer and seller preferences, and if we do not accurately predict evolving preferences of our buyers and sellers it could harm our business, results of operations and financial condition.",
+    "Our business is affected by seasonality and we may be adversely affected by weather conditions, including any potential effects from climate change.",
+    "Shipping is a critical part of our business and any changes in our shipping arrangements or any interruptions in shipping could harm our business, results of operations and financial condition."
+   ],
+   "paragraphs": [
+    "A description of the risks and uncertainties associated with our business is set forth below. You should carefully consider the risks and uncertainties described below, together with all of the other information in this Annual Report on Form 10-K, including the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and our consolidated financial statements and related notes. Our business, results of operations, financial condition, and prospects could also be harmed by risks and uncertainties not currently known to us or that we currently do not believe to be material. If any of the risks actually occur, our business, results of operations, financial condition and prospects could be harmed. In that event, the market price of our Class A common stock could decline, and you could lose part or all of your investment.",
+    "Our business is subject to numerous risks and uncertainties, including those highlighted in this section titled \"Risk Factors\" and summarized below. We have various categories of risks, including risks relating to our business and industry, risks relating to information technology, intellectual property, data security and privacy, risks relating to legal, regulatory, accounting and tax matters, risks relating to our indebtedness and liquidity and risks relating to ownership of our Class A common stock, which are discussed more fully below. As a result, this risk factor summary does not contain all of the information that may be important to you, and you should read this risk factor summary together with the more detailed discussion of risks and uncertainties set forth following this section under the heading \"Risk Factors,\" as well as elsewhere in this Annual Report on Form 10-K. Additional risks, beyond those summarized below or discussed elsewhere in this Annual Report on Form 10-K, may apply to our business, activities or operations as currently conducted or as we may conduct them in the future or in the markets in which we operate or may in the future operate. These risks include, but are not limited to, the following:",
+    "•Our continued growth depends on attracting new, and retaining existing, buyers.",
+    "•If we fail to attract a sufficient amount of high-quality and desirable secondhand items, our business, results of operations and financial condition could be harmed.",
+    "•Our business, including our costs and supply of secondhand items, is subject to risks associated with sourcing, itemizing, warehousing and shipping.",
+    "•Our ability to incorporate artificial intelligence, machine learning and other emergent technologies into our business operations successfully may affect our reputation and results of operations."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Recent Business Developments",
+    "Overview of 2025 Results from Continuing Operations",
+    "Revenue: Revenue totaled $310.8 million for the year ended December 31, 2025, compared to $260.0 million for the year ended December 31, 2024, representing an increase of 19.5% year over year.",
+    "Key Financial and Operating Metrics from Continuing Operations",
+    "2025 2024 Change",
+    "Non-GAAP Financial Measures from Continuing Operations",
+    "Presentation",
+    "Financial Results from Continuing Operations for the Year Ended December 31, 2025 Compared to the Year Ended December 31, 2024",
+    "Year Ended December 31, Change",
+    "2025 2024 Amount %",
+    "Liquidity and Capital Resources",
+    "Year Ended December 31,",
+    "Critical Accounting Policies and Estimates"
+   ],
+   "paragraphs": [
+    "Gross Profit and Margin: Gross profit totaled $246.8 million for the year ended December 31, 2025, compared to $207.1 million for the year ended December 31, 2024, representing an increase of 19.1% year over year. Gross margin was 79.4%, a decrease of 30 basis points from 79.7% for the same period in 2024.",
+    "Loss from continuing operations: Loss from continuing operations was $20.2 million, or a negative 6.5% of revenue, for the year ended December 31, 2025, compared to a loss of $40.0 million, or a negative 15.4% of revenue, for the same period in 2024, representing a decrease of 49.5% year over year.",
+    "Non-GAAP Adjusted EBITDA from continuing operations(1): Non-GAAP Adjusted EBITDA from continuing operations was $13.5 million, or 4.4% of revenue, for the year ended December 31, 2025, compared to $8.7 million, or 3.3% of revenue, for the same period in 2024, representing an increase of 55.8% year over year.",
+    "Active Buyers and Orders: Active Buyers totaled 1.7 million and Orders totaled 6.1 million in 2025, compared to 1.3 million and 4.9 million, respectively, in 2024, representing increases of 29.5% and 25.3%, respectively, year over year."
+   ],
+   "focus": "Overview of 2025 Results from Continuing Operations"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "智慧財產權",
+    "人力資源",
+    "可取得資訊",
+    "公司資料"
+   ],
+   "paragraphs": [
+    "ThredUp 運作著全球最大的線上二手交易平台之一，用於服飾、鞋類及配件。我們的使命是啟發世人先考慮二手商品。我們相信可持續的時尚未來，並為我們的買家、賣家、客戶、員工、投資者及環境創造正面影響而感到自豪。我們自建的運營平台包含分散式處理基礎設施、專有軟體及系統與數據科學專業知識。此平台正在推動快速興起的二手經濟，根據 GlobalData 在 2025 年 1 月對二手市場的評估，這是零售業中成長最快的領域之一。",
+    "ThredUp 的專有運營平台是我們管理式市場的基礎，我們已將線上與線下科技結合，使數以千萬計的獨特商品的買賣變得輕鬆有趣。我們所建立的市場平台讓美國（\"U.S.\") 的買家可以瀏覽並購買二手商品，主要為服飾、鞋類及配件，涵蓋廣泛的價格範圍。買家喜愛在一個地方購物，可獲得價值、高檔與奢華品牌商品，價格可達預估零售價的 90% 折扣。賣家喜愛 ThredUp，因為我們讓他們輕鬆清理衣櫥，並為自己或所選慈善機構解鎖價值，同時為地球做貢獻。ThredUp 的賣家訂購 Clean Out Bag，填裝並使用我們的預付標籤寄回我們。我們會接手並處理這些被接受的商品，使其可供再次銷售。除了我們的核心市場平台，一些全球領先的品牌與零售商已開始利用我們的 Resale-as-a-Service（\"RaaS\"）服務，讓他們能為客戶提供便捷的可擴展衣櫥清理服務及/或二手商店。我們相信 RaaS 將加速這個新興類別的成長，並補充我們整體的供應鏈策略。",
+    "我們已建立一個區隔且具防禦性的運營平台，以實現大規模的二手商品銷售，結合：",
+    "•分散式處理基礎設施。我們的基礎設施專為 \"單 SKU\" 物流設計，意味著處理的絕大多數商品為獨特商品，來自或屬於個別賣家，並使用其自身的庫存單位（\"SKU\"）進行個別追蹤。截至 2025 年 12 月 31 日，我們運作的分撥中心可 collectively 儲存超過 7.5 百萬件商品。我們的運營具有高度可擴展性，並能處理現有分撥中心範圍內超過 100,000 個獨特 SKU 每日。我們透過專有技術與持續自動化基礎設施，推動運營效率。我們現有的分撥中心位於亞利桑那州、喬治亞州、賓夕法尼亞州與德克薩斯州。透過將設施設置在全國戰略位置，我們能更接近買家與賣家，這使我們能減少運輸時間，並降低進出庫成本。此外，我們的設施位於擁有大量合格人才的地理區域。",
+    "•專有軟體與系統。我們的設施運作於我們自建的應用程序組合，這些應用程序設計用於 \"單 SKU\" 運作。我們的工程團隊已實現大規模、創新且專利化的自動化，用於存貨、儲存、採購與包裝。此自動化使勞動成本與固定成本降低，同時提高儲存密度與處理能力。我們的專有軟體、系統與流程使品質保證、商品歸屬、尺寸與照片拍攝更有效率。",
+    "•數據科學專業知識。我們利用我們在業務中強大的結構化數據集，以優化經濟決策，例如價格設定、賣家付款、商品接受、商品陳列與銷售。我們也利用數據來推動有效的客戶獲取與長期參與，並提供個性化的購物體驗。ThredUp 的數據科學組合利用機器學習演算法、預測分析及其他人工智慧 \"AI\" 技術，以識別趨勢、異常與相關性，發出警報並啟動業務流程。ThredUp 還提供 AI 驅動的購物工具，包括改進的搜尋功能，讓客戶可以使用自然語言提示以獲得相關且個性化的結果。我們的 AI 驅動圖片搜尋功能讓購物者可以上傳照片以尋找匹配或相似的商品，輕鬆重現所需的風格。我們也提供 Style Chat，一個 AI 驅動的聊天機器人，協助客戶根據他們提供的自然語言提示來組建完整的穿搭。",
+    "我們的收入主要來自於在網站與行動應用程式上銷售給買家的商品，以及向賣家收取處理 Clean Out Bag 的袋子費用。我們的收入主要來自於委託銷售，這些銷售在扣除賣家付款、折扣、激勵措施與退貨後確認收入。收入成本主要包括出庫運輸、出庫人力與包裝成本。",
+    "於 2024 年 11 月 30 日，我們出售了 Remix US Holdings Inc. 的 91.0% 普通股，該公司為 Remix Global EAD（\"Remix\"）的母公司，為我們歐洲業務的運營子公司。因此，我們已終止歐洲業務。除非另有說明與 \"終止業務\" 有關，否則本年度報告 10-K 中的所有評論僅針對我們持續的美國業務。請參閱 \"管理層對財務狀況與營運結果之討論與分析—近期業務發展\" 以取得更多資訊。",
+    "雖然我們已建立一個規模化且高度差異化的平台並管理市場place，我們仍面臨強烈的競爭。我們的競爭對手包括其他服飾零售商，特別是價格定位在折扣價或快時尚價位的零售商、新舊物品供應商，包括品牌商品商店、本地、國家及全球百貨公司、傳統實體贊助與 thrift 商店、專業零售商、直營消費者零售商、折扣連鎖店、獨立零售商店、這些傳統零售競爭對手的線上服務，專注於利基市場或單一類別的二手商品經營者，以及可能提供相同或類似商品與服務的科技驅動型市場place。提供相同或類似商品與服務的競爭對手包括：",
+    "•二手商品市場place，例如 eBay、Goodwill、Mercari、Poshmark、The RealReal、Vinted 和 Vestiaire Collective；",
+    "•大型線上及折扣零售商，例如 Amazon.com, Inc.、Target Corporation 和 Walmart Inc.；",
+    "•折扣價位零售商，例如 Burlington Stores, Inc.、Ross Stores, Inc. 和 The TJX Companies, Inc.；以及",
+    "•低成本線上快時尚零售商，例如 Shein 和 Temu。",
+    "此外，我們也面臨來自其他產品與體驗類別的消費者可支配開支競爭。請參閱標題為 \"風險因素—與我們業務及產業相關的風險—我們所參與的市場競爭激烈且變化快速，若我們無法有效與既有企業競爭，以及新市場進入口者競爭，或維持與發展與第三方的戰略關係，將可能對我們的業務、營運結果與財務狀況造成損害\" 的部分。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "近期營運發展",
+    "2025 年持續營運業務成果概觀",
+    "營業收入：營業收入於 2025 年 12 月 31 日為止之會計年度計為 310.8 百萬美元，較 2024 年 12 月 31 日為止之會計年度計為 260.0 百萬美元，年增 19.5%。",
+    "持續營運業務關鍵財務與營運指標",
+    "2025 2024 變動",
+    "非 GAAP 財務指標（持續營運業務）",
+    "說明",
+    "2025 年 12 月 31 日為止之會計年度持續營運業務財務結果，與 2024 年 12 月 31 日為止之會計年度比較",
+    "會計年度終了於12月31日，變動",
+    "2025 2024 金額 %",
+    "流動性及資本資源",
+    "會計年度終了於12月31日，",
+    "關鍵會計政策及會計估計"
+   ],
+   "paragraphs": [
+    "毛利率：毛利為 246.8 百萬美元，為 2025 年 12 月 31 日財年，較 2024 年 12 月 31 日財年之 207.1 百萬美元增加 19.1% 年增率。毛利率為 79.4%，較 2024 年同期之 79.7% 下降 30 基點。",
+    "持續營運虧損：持續營運虧損為 20.2 百萬美元，為營業收入之負 6.5%，為 2025 年 12 月 31 日財年，較 2024 年 12 月 31 日財年之虧損 40.0 百萬美元，為營業收入之負 15.4%，減少 49.5% 年增率。",
+    "非GAAP調整後持續營運EBITDA：非GAAP調整後持續營運EBITDA為 13.5 百萬美元，為營業收入之 4.4%，為 2025 年 12 月 31 日財年，較 2024 年 12 月 31 日財年之 8.7 百萬美元，為營業收入之 3.3%，增加 55.8% 年增率。",
+    "活躍買家與訂單：活躍買家總計 1.7 百萬，訂單總計 6.1 百萬，於 2025 年，相較於 2024 年的 1.3 百萬與 4.9 百萬，分別成長 29.5% 與 25.3%，年增年減。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總結",
+    "與我們業務及產業相關的風險",
+    "我們持續成長依賴吸引新買家，並留住現有買家。",
+    "若我們未能吸引足夠數量的高品質且具吸引力的二手商品，將可能對我們的業務、營運結果及財務狀況造成損害。",
+    "我們將人工智慧及機器學習等其他新興科技成功納入業務運作的能力，可能影響我們的聲譽及營運結果。",
+    "我們的業務，包括成本及二手商品的供應，受取貨、商品化、倉儲及運送相關風險影響。",
+    "我們依賴消費者非必要性支出，且已並可能持續受到經濟衰退及其他總體經濟條件或趨勢的不利影響。",
+    "我們有虧損的歷史，且預期未來營運費用將增加。我們可能無法達成並維持獲利。",
+    "本公司在一個持續演進的產業中擁有有限的營運歷史，這使得預測我們的營業收入、規劃費用及評估業務與未來展望變得困難。",
+    "我們的廣告活動與戰略性 RaaS 服務可能無法有效地推動買家與賣家的成長，這可能會對本公司業務、營運結果與財務狀況造成損害。",
+    "本公司可能無法實現重組活動預期的節省或效益。",
+    "若本公司無法成功運用科技來自動化並提升營運效率，可能會對本公司業務、營運結果與財務狀況造成損害。",
+    "本公司運用數據科學來預測買家與賣家的偏好，若本公司無法準確預測買家與賣家的偏好變化，可能會對本公司業務、營運結果與財務狀況造成損害。",
+    "本公司業務受季節性影響，且可能因天氣條件，包括任何潛在的氣候變遷影響而遭受不利影響。",
+    "運輸是本公司業務的重要組成部分，若本公司運輸安排發生變動或運輸中斷，可能會對本公司業務、營運結果與財務狀況造成損害。"
+   ],
+   "paragraphs": [
+    "有關我們業務相關風險與不確定性之說明，請參閱下文。您應謹慎考量下文所述之風險與不確定性，並配合本年度報告表10-K中所有其他資訊，包括標題為「管理層對財務狀況與營運成果之討論與分析」之部分，以及我們合併財務報表與相關附註。我們之業務、營運成果、財務狀況與前景，亦可能因目前未知之風險與不確定性，或我們目前認為非重大之風險與不確定性而受損害。若任何風險實際發生，我們之業務、營運成果、財務狀況與前景可能受損害。在此情況下，本公司A類普通股之市場價格可能下跌，您可能損失部分或全部投資。",
+    "我們之業務面臨許多風險與不確定性，包括本節標題為「風險因素」所強調之風險，以及下列摘要。我們有不同類型之風險，包括與我們業務與產業相關之風險、與資訊科技、智慧財產權、資料安全與隱私權相關之風險、與法律、法規、會計與稅務事務相關之風險、與我們之負債與流動性相關之風險，以及與本公司A類普通股之持股相關之風險，這些風險在下文有更詳細說明。因此，此風險因素摘要並未包含所有對您可能重要之資訊，您應配合本節後續標題為「風險因素」之更詳細風險與不確定性說明，以及本年度報告表10-K中其他部分一併閱讀。除下列摘要或本年度報告表10-K中其他部分所討論之風險外，可能還有其他風險適用於我們目前或未來可能進行之業務、活動或營運，或我們目前或未來可能經營之市場。這些風險包括，但不僅限於下列：",
+    "•我們持續成長取決於吸引新買家，並留住現有買家。",
+    "•若我們未能吸引足夠數量之高品質且具吸引力之二手商品，我們之業務、營運成果與財務狀況可能受損害。",
+    "•我們之業務，包括成本與二手商品供應，受與來源取得、商品清單製作、倉儲與運輸相關之風險影響。",
+    "•我們將人工智慧、機器學習及其他新興科技成功整合至業務營運之能力，可能影響我們之聲譽與營運成果。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

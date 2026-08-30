@@ -1,0 +1,223 @@
+{
+ "ticker": "CRNC",
+ "cik": "0001768267",
+ "accession": "0001628280-25-053372",
+ "form": "10-K",
+ "reportDate": "2025-09-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "History and Corporate Information",
+    "Our Technology & Capabilities",
+    "How it Works",
+    "Professional Services",
+    "Our Competitive Strengths",
+    "Our Growth Strategies",
+    "Research and Development",
+    "Sales and Marketing and Professional Services",
+    "Human Capital",
+    "Intellectual Property"
+   ],
+   "paragraphs": [
+    "Cerence builds conversational and agentic AI solutions that make interaction with technology feel effortless. With decades of expertise in voice, AI, and edge-to-cloud engineering, we're trusted by many of the world's leading automakers, transportation OEMs, consumer brands, and technology companies to build voice powered-interfaces that shape the user experiences of today and tomorrow. While the majority of our business is in the automotive market, our solutions can be leveraged across other areas of transportation - two-wheeled vehicles, trucks, and more - as well as outside of automotive - televisions, smart watches, voice-powered kiosks, and more.",
+    "Our automotive customers include nearly all major automobile original equipment manufacturers (OEMs) worldwide, including BMW, Mercedes-Benz, the Volkswagen Group (Volkswagen, Audi, Porsche, and other brands), Stellantis, Renault, Toyota, Ford, General Motors, BYD, Great Wall Motor, and NIO. We also partner with leading tier-one suppliers including HARMAN, EcarX, Bosch, Continental, Denso Ten, Aptiv, and others. We deliver our solutions on a white-label basis, enabling our customers to deliver highly customized virtual assistants with unique, branded personalities that strengthen the bond between their brands and end users.",
+    "Fast-moving technological advancements and increasing user engagement and comfort with large language models are driving automakers to examine how they can quickly and cost-effectively bring expanded AI features into their cars. To meet the increasing demand for automotive cognitive assistance and to offer differentiated in-car experiences, OEMs and suppliers are building proprietary virtual assistants into their vehicles. We believe that this trend will continue and that consumer adoption of in-car AI will continue to grow.",
+    "Cerence is a market leader for building integrated, branded and differentiated virtual assistants for automobiles, offering an extensive solutions portfolio that includes conversational & generative AI as well as audio & communications AI. Our conversational and generative AI solutions include a full-stack generative AI-based voice assistant, including voice activation, natural voice input and output, and hybrid conversational services for automotive and general-purpose tasks. Our audio and communications AI solutions include best-in-class audio applications, enhancing in-car experiences by reducing environmental noise and enabling seamless interaction with vehicles, inside and out. Our solutions are comprised of both edge computing and cloud-connected software components and a software framework linking these components together under a common programming interface. We deploy these solutions in deep partnership with OEMs and suppliers to optimize our software for the requirements, configurations and acoustic characteristics of specific vehicle models.",
+    "We generate revenue primarily by selling software licenses and cloud-connected services. In addition, we generate professional services revenue from our work with OEMs and suppliers during the design, development, and deployment phases of the vehicle model lifecycle and through maintenance and enhancement projects. Over our more than 25 years in the automotive industry, we have developed longstanding industry relationships. We have existing relationships with nearly all major OEMs or their tier 1 suppliers, and while our customer contracts vary, they generally represent multi-year engagements, giving us visibility into future revenue. We have master agreements or similar commercial arrangements in place with many of our customers, supporting customer retention over the long term.",
+    "As of September 30, 2025, we had estimated five-year remaining performance obligations of approximately $165.2 million. As of September 30, 2025, we had variable five-year backlog of approximately $1,004.0 million, which includes estimated future revenue from variable forecasted royalties related to our embedded, connected, and professional services businesses. Our estimate of forecasted royalties is based on our royalty rates for embedded and connected technologies from expected car shipments under our existing contracts over the term of the programs. Expected shipments are based on historical shipping experience, customer projections, and other information that management believes, taken collectively, provide a reasonable basis for estimating future shipments as of the date of this Form 10-K. Both our embedded and connected technologies are largely priced and sold on a per-vehicle or device basis, where we receive a single fee for either or both the embedded license and the connected service term. However, our five-year remaining performance obligations and variable five-year backlog may not be indicative of our actual future revenue. The revenue we actually recognize is uncertain and subject to numerous factors, including the number and timing of vehicles our customers ship, potential terminations or changes in scope of customer contracts, and currency fluctuations, as well as the other risks discussed below in Item IA, \"Risk Factors.\" As of September 30, 2025, we estimate our five-year backlog to be approximately $1,169.2 million, including $165.2 million of five-year remaining performance obligations and $1,004.0 million of five-year variable backlog. As of September 30, 2024, the estimated five-year backlog was approximately",
+    "$952.7 million, including $172.7 million of five-year remaining performance obligations and $780.0 million of five-year variable backlog.",
+    "Our solutions have shipped in more than 525 million automobiles to date, including over 25 million new vehicles in fiscal year 2025 alone. Based on royalty reports provided by our customers and third-party reports of total vehicle production worldwide, we estimate that approximately 52% of all cars shipped during the fiscal year ended September 30, 2025 included Cerence technologies. Cerence hybrid solutions shipped on approximately 15.4 million vehicles during the fiscal year ended September 30, 2025. In aggregate, over 80 OEMs and Tier 1 suppliers worldwide use our solutions, covering over 70 languages and dialects, including English, German, Spanish, French, Mandarin, Cantonese, Japanese and Hindi.",
+    "In fiscal year 2025, we generated revenue of $251.8 million, a decrease of 24% compared to $331.5 million for the fiscal year ended September 30, 2024. We recorded net loss of $18.7 million for the fiscal year ended September 30, 2025, a change of 97% compared to net loss of $588.1 million recorded for the fiscal year ended September 30, 2024. The financial information included herein may not necessarily reflect our results of operations in the future.",
+    "On October 1, 2019, Nuance Communications, a leading provider of speech and language solutions for businesses and consumers around the world, completed the legal and structural separation and distribution to its stockholders of all of the outstanding shares of our common stock, and its consolidated subsidiaries, in a tax free spin-off (the\"Spin-Off\"). On October 2, 2019, our common stock began regular-way trading on the Nasdaq Global Select Market under the ticker symbol CRNC.",
+    "Our principal executive offices are located at 25 Mall Road, Suite 416, Burlington, Massachusetts 01803 and our telephone number at that address is (857) 362-7300. Our website is www.cerence.com. We are not including the information contained in our website as part of, or incorporating it by reference into, this Form 10-K. We make available free of charge through our website our annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K and amendments to these reports, as soon as reasonably practicable after we electronically file these materials with, or otherwise furnish them to, the Securities and Exchange Commission, or the SEC. The SEC maintains a website (www.sec.gov) that contains reports, proxy and information statements, and other information regarding issuers that file electronically with the SEC.",
+    "We webcast our earnings calls and certain events we participate in or host with members of the investment community on the investor relations page of our website (https://investors.cerence.com/). Additionally, we provide notifications of news or announcements regarding our financial performance, investor events, and press and earnings releases as part of our investor relations website. We intend to use our investor relations website as a means of disclosing material non-public information and for complying with our disclosure obligations under Regulation FD. The information contained in our website is not included as part of, or incorporated by reference into, this Form 10-K or in any other document we file with the SEC, and any references to our website are intended to be inactive textual references only.",
+    "Our mission is to create the world's most compelling, immersive experience across transportation and beyond, for today and tomorrow. We deliver automotive cognitive assistance solutions that are conversational and intuitive and that enable OEMs to strengthen their connection with their end users through a distinct, consistent, branded experience. Our solutions portfolio, developed in deep partnership with the automotive industry and designed to improve the in-car experience for drivers and passengers worldwide, includes, but is not limited to, the following:",
+    "•Conversational and Generative AI: Our AI-powered UX platforms include Cerence xUI, our customizable, hybrid generative AI platform built on our CaLLM family of large and small language models, and Cerence Assistant, our ready-to-deploy, next-gen voice assistant. These offerings are supported by our core technologies, including assistant activation, precise speech recognition and lifelike text-to-speech that create natural, intuitive voice experiences."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Relating to Our Business",
+    "The market in which we operate is highly competitive and rapidly changing and we may be unable to compete successfully.",
+    "Adverse conditions in the automotive industry or the global economy more generally could have adverse effects on our results of operations.",
+    "Our process optimization and cost-reduction efforts may not be successful.",
+    "Our strategy to increase cloud connected services may adversely affect our near-term revenue growth and results of operations.",
+    "Pricing pressures from our customers may adversely affect our business.",
+    "Our business could be materially and adversely affected if we lost any of our largest customers.",
+    "Our operating results may fluctuate significantly from period to period, and this may cause our stock price to decline.",
+    "We may not be successful with the adoption of new products.",
+    "If we are unable to attract and retain management and other key personnel, our business could be harmed.",
+    "We depend on skilled employees and could be impacted by a shortage of critical skills.",
+    "Some of our employees are represented by workers councils or unions or are subject to local laws that are less favorable to employers than the laws of the U.S.",
+    "Cybersecurity and data privacy incidents or breaches may damage client relations and inhibit our growth.",
+    "Our business in China is subject to aggressive competition and is sensitive to economic, market and political conditions.",
+    "Interruptions or delays in our services or services from data center hosting facilities or public clouds could impair the delivery of our services and harm our business.",
+    "If our goodwill or other intangible assets become impaired, our operating results could be negatively impacted.",
+    "Health Events, such as pandemics and disease outbreaks, have disrupted, and may continue to disrupt, our business and that of our customers, which could adversely affect our financial performance.",
+    "Risks Relating to our Intellectual Property and Technology",
+    "Unauthorized use of our proprietary technology and intellectual property could adversely affect our business and results of operations.",
+    "Our software products may have bugs, which could result in delayed or lost revenue, expensive correction, liability to our customers and claims against us.",
+    "We may be unable to respond quickly enough to changes in technology and technological risks and to develop our intellectual property into commercially viable products."
+   ],
+   "paragraphs": [
+    "You should carefully consider all of the information in this Form 10-K and each of the risks described below, which we believe are the material risks that we face. Some of the risks relate to our business, others to our intellectual property and technology, the securities markets, our indebtedness and ownership of our securities. Any of the following risks could materially and adversely affect our business, financial condition and results of operations and the actual outcome of matters as to which forward-looking statements are made in this Form 10-K.",
+    "There are a number of companies that develop or may develop products that compete in the automotive voice assistance market. The market for our products and services is characterized by intense competition, evolving industry and regulatory standards, emerging business and distribution models, disruptive software technology developments, short product and service life cycles, price sensitivity on the part of customers, and frequent new product introductions, including alternatives for certain of our products that offer limited functionality at significantly lower costs or free of charge. In addition, some of our competitors have business objectives that may drive them to sell their alternative offerings at a significant discount to our offerings in the automotive voice assistant market. Current and potential competitors have established, or may establish, cooperative relationships among themselves or with third parties to increase the ability of their technologies to address the needs of our prospective customers. Furthermore, existing or prospective customers may decide to develop competing products or have established, or may in the future establish, strategic relationships with our competitors. Alternatively, given the increased availability and effectiveness of AI technologies and other open-source development tools, existing or prospective customers may decide to develop competitive solutions entirely in-house which compete with our product offerings. We also face significant competition with respect to cloud-based solutions in the automotive cognitive assistance market where existing and new competitors may have or have already established significant market share and product offerings.",
+    "The competition in the automotive cognitive assistance market has and could adversely affect in the future, our operating results by reducing the volume of the products and solutions we license or sell or the prices we can charge. Some of our current or potential competitors are large technology companies that have significantly greater financial, technical and marketing resources than we do, and others are smaller specialized companies that possess automotive expertise or regional focus and may have greater price flexibility than we do. These competitors may be able to respond more rapidly than we can to new or emerging technologies or changes in customer requirements or may decide to offer products at low or unsustainable cost to win new business. They may also devote greater resources to the development, promotion and sale of their products than we do, and in certain cases may be able to include or combine their competitive products or technologies with other of their products or technologies in a manner whereby the competitive functionality is available at lower cost or free of charge within the larger offering. To the extent they do so, penetration of our products, and therefore our revenue, may be adversely affected. Our large competitors may also have greater access to data, including customer data, which provides them with a competitive advantage in developing new products and technologies. Our success depends substantially upon our ability to enhance our products and technologies, to develop and introduce, on a timely and cost-effective basis, new products and features that meet changing customer requirements and incorporate technological enhancements, and to maintain our alignment with the OEMs, their technology and market strategies. If we are unable to develop new products and enhance functionalities or technologies to adapt to these changes and maintain our alignment with OEMs, our business will suffer.",
+    "Our business depends on, and is directly affected by, the global automotive industry. Automotive production and sales are highly cyclical and depend on general economic conditions and other factors, including consumer spending and preferences, changes in interest rate levels and credit availability, consumer confidence, fuel costs, fuel availability, environmental impact, governmental incentives and regulatory requirements, trade restrictions, customs regulations, tariffs and price or exchange controls, preferences by nations for domestically manufactured products and political volatility, especially in energy-producing countries and large or high growth markets. Such factors have in the past and may in the future also negatively impact consumer demand for automobiles that include features such as our products. In addition, automotive production and sales can be affected by our customers' ability to continue operating in response to challenging economic conditions, and in response to labor relations issues, regulatory requirements, trade agreements and other factors. For example, the U.S. government and governments of other countries recently adopted tariffs that apply to the automotive industry and may affect the business of our customers, which in turn could impact our own business. In addition, U.S. trade legislation continues to evolve related to barriers on the use of various products and technology from around the world including but not limited to the Securing the Information and Communications Technology and Services Supply Chain: Connected Vehicles regulation promulgated by the U.S. Department of Commerce in December 2024. The Company can provide no assurance that any strategies we implement to mitigate the impact of any trade actions will be successful. The volume of global automotive production has fluctuated, sometimes significantly, from year to year, and such fluctuations give rise to fluctuations in the demand for our products. Any significant adverse change in any of these factors, including, but not limited to, general economic conditions and the resulting bankruptcy of a customer, the closure of a customer manufacturing facility or the ability of a customer manufacturing facility to obtain supplies to manufacture automobiles and to ship or receive shipments of parts, supplies or finished product on prices that are acceptable to them, or imposition of tariffs that affect the prices at which end consumers purchase automobiles, may result in a reduction in automotive sales and production by our customers, and could have a material adverse effect on our business, results of operations and financial condition.",
+    "In the past couple of years, we have observed increased economic uncertainty in the United States and abroad. Impacts of such economic weakness include:",
+    "•falling overall demand for goods and services, leading to reduced profitability; •reduced credit availability;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Business Trends",
+    "Basis of Presentation",
+    "Key Financial Metrics",
+    "Operating Results",
+    "Fiscal Year 2025 Compared with Fiscal Year 2024 and Fiscal Year 2024 Compared with Fiscal Year 2023",
+    "Year Ended September 30, % Change % Change",
+    "2025 % of Total 2024 % of Total 2023 % of Total 2025 vs. 2024 2024 vs. 2023",
+    "Fiscal Year 2025 Compared with Fiscal Year 2024",
+    "Fiscal Year 2024 Compared with Fiscal Year 2023",
+    "2025 2024 2023 2025 vs. 2024 2024 vs. 2023",
+    "Fiscal Year 2025",
+    "Fiscal Year 2024",
+    "Liquidity and Capital Resources",
+    "Financial Condition",
+    "Sources and Material Cash Requirements",
+    "Material Cash Requirements Due by the Year Ended September 30,",
+    "2026 2027 - 2028 2029 - 2030 Thereafter Total",
+    "1.50% Senior Convertible Notes due 2028",
+    "3.00% Senior Convertible Notes due 2025",
+    "Year Ended September 30,",
+    "Senior Credit Facilities"
+   ],
+   "paragraphs": [
+    "Management's Discussion and Analysis of Financial Condition and Results of Operations, (the \"MD&A\"), describes the principal factors, based on management's assessment, which had a material impact on our results of operations, financial condition and liquidity, as well as our critical accounting estimates. Our MD&A generally includes a discussion of results of operations, financial condition, liquidity and capital resources related to year-over-year comparisons between fiscal years ended September 30, 2025 and 2024, as well as fiscal years ended September 30, 2024 and 2023.",
+    "The following discussion and analysis presented below should be read in conjunction with the Consolidated Financial Statements and the corresponding notes, included elsewhere in this Form 10-K. The information presented in this section includes forward-looking statements, which are described in detail in the section titled \"Cautionary Statement Concerning Forward-Looking Statements.\" The matters discussed in these forward-looking statements are subject to risks, uncertainties, and other factors that could cause actual results to differ materially from those made, projected, or implied in the forward-looking statements. See Item 1A.\"Risk Factors\" for a discussion of the risks, uncertainties, and assumptions associated with these statements.",
+    "Cerence builds conversational and agentic AI solutions for the mobility/transportation market. Our primary target is the automobile market, but our solutions can apply to all forms of transportation including, but not limited to, two-wheel vehicles, planes, tractors, cruise ships and elevators as well as the Internet of Things industry as a whole, including televisions, smart watches, voice-powered kiosks, and more. Our solutions power natural conversational and intuitive interactions between automobiles, drivers and passengers, and the broader digital world. We possess one of the leading software platforms for building automotive virtual assistants. Our automotive customers include nearly all major automobile original equipment manufacturers (\"OEMs\") or their tier 1 suppliers worldwide. We deliver our solutions on a white-label basis, enabling our customers to deliver customized virtual assistants with unique, branded personalities and ultimately strengthening the bond between automobile brands and end users. Our vision is to enable a more enjoyable, safer journey for everyone.",
+    "Our principal offering is our software platform, which our customers use to build virtual assistants that can communicate, find information and take action across an expanding variety of categories. Our software platform has a hybrid architecture combining edge software components with cloud-connected components. Edge software components are installed on a vehicle's head unit and can operate without access to external networks and information. Cloud-connected components are comprised of certain speech and natural language understanding related technologies, AI-enabled personalization and context-based response frameworks, and content integration platform.",
+    "We generate revenue primarily by selling software or intellectual property (\"IP\") licenses and cloud-connected services. Our edge software components are typically sold under a traditional per unit perpetual software license model, in which a per unit fee is charged on a variable basis for each software instance installed on an automotive head unit. We typically license cloud-connected software components in the form of a service to the vehicle end user, which is paid for in advance. In addition, we generate professional services revenue from our work with our customers during the design, development and deployment phases of the vehicle model lifecycle and through maintenance and enhancement projects. We have existing relationships with nearly all major automotive OEMs or their tier 1 suppliers, and while our customer contracts vary, they generally represent multi-year engagements, giving us some visibility into future revenue; however, such revenue may not materialize as expected due to delays in automobile production, volatility in the political, legal and regulatory environment in which we operate including trade, tariffs and other policies implemented by the administration in the United States or actions taken by other countries in response, automotive production curtailment or delays related thereto, changing customer forecasts, macroeconomic conditions or other factors discussed elsewhere in this Annual Report.",
+    "We experienced a 24.0% decrease in total revenue during fiscal year 2025. The decrease in revenues was driven by a decrease in connected services revenue due to the early termination of a legacy contract acquired by Nuance through a 2013 acquisition and the termination of services provided to a separate customer, who in turn provided services to our legacy customer. The effect of this change was to accelerate $67.8 million of deferred revenue into the first quarter of fiscal year 2024. The decrease was partially offset by an increase in license revenue primarily due to an increase in volume of licensing royalties. Our license revenue is highly dependent on vehicle production, the timing and volume of which continues to be impacted by the changing dynamics in the global automotive industry. Macroeconomic conditions",
+    "such as high interest rates and lack of credit availability have contributed to production delays and slowdowns. The decrease in our professional services revenues was primarily driven by the increased standardization of our software product offerings, which requires less professional services effort to implement, other efficiencies in our professional services processes and, in some cases, customers opting to perform these activities internally.",
+    "During fiscal year 2025, total cost of revenues decreased by 21.3% compared to fiscal year 2024, primarily driven by the declines in connected services and professional services revenues. Total operating expenses decreased by 77.5% during fiscal year 2025, primarily driven by the impairment of goodwill recognized in fiscal year 2024 and our ongoing business transformation and cost reduction efforts. Restructuring and other costs, net decreased $1.7 million, driven by the wind-down of restructuring efforts initiated in 2024.",
+    "The accompanying consolidated financial statements have been prepared in accordance with GAAP, and the rules and regulations of the SEC. The consolidated financial statements reflect all adjustments considered necessary for a fair presentation of the consolidated results of operations and financial position for the fiscal years presented. All such adjustments are of a normal recurring nature.",
+    "The consolidated financial statements include the accounts of the Company, as well as those of its wholly owned subsidiaries. All significant intercompany transactions and balances are eliminated in consolidation.",
+    "In evaluating our financial condition and operating performance, we focus on revenue, operating margins, and cash flow from operations.",
+    "For the fiscal year 2025 as compared to fiscal year 2024:",
+    "•Total revenue decreased by $79.7 million, or 24.0%, from $331.5 million to $251.8 million.",
+    "•Operating margin increased by 174.0 percentage points from negative 174.9% to negative 0.9%."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'History and Corporate Information': '歷史與公司資訊'}",
+    "{'Our Technology & Capabilities': '我們的技術與能力'}",
+    "{'How it Works': '運作方式'}",
+    "{'Professional Services': '專業服務'}",
+    "{'Our Competitive Strengths': '我們的競爭優勢'}",
+    "{'Our Growth Strategies': '我們的成長策略'}",
+    "{'Research and Development': '研究與發展'}",
+    "{'Sales and Marketing and Professional Services': '銷售與行銷及專業服務'}",
+    "{'original': 'Human Capital', 'translated': '人力資本'}",
+    "{'original': 'Intellectual Property', 'translated': '智慧財產權'}"
+   ],
+   "paragraphs": [
+    "Cerence 開發對話式與代理型 AI 解決方案，使與科技的互動變得輕鬆無負擔。憑藉數十年在語音、AI 及邊緣至雲端工程方面的專業知識，我們被許多全球知名的汽車製造商、運輸 OEM、消費品牌與科技公司所信賴，以建置語音驅動的介面，塑造今日與明日的用戶體驗。雖然我們的業務主要在汽車市場，但我們的解決方案可應用於其他運輸領域 - 二輪車輛、貨車等 - 以及汽車以外的領域 - 電視、智慧手錶、語音驅動的服務臺等。",
+    "我們的汽車客戶包括全球幾乎所有主要的汽車原廠製造商 (OEMs)，包括 BMW、梅賽德斯-賓士、Volkswagen 羣組 (Volkswagen、Audi、Porsche 及其他品牌)、Stellantis、Renault、Toyota、Ford、General Motors、BYD、長城汽車、NIO。我們也與領先的一級供應商合作，包括 HARMAN、EcarX、Bosch、Continental、Denso Ten、Aptiv 等。我們以白牌方式提供解決方案，使客戶能提供高度客製化的虛擬助理，擁有獨特、品牌的個性，強化其品牌與終端用戶之間的連結。",
+    "快速的技術進展與用戶對大型語言模型的參與度與適應度提高，促使汽車製造商思考如何快速且成本效益地將擴展的 AI 功能引入汽車。為回應對汽車認知協助的需求增加，並提供差異化的車內體驗，OEMs 與供應商正在其車輛中建置自有版的虛擬助理。我們認為此趨勢將持續，消費者對車內 AI 的採用將持續成長。",
+    "Cerence 是汽車領域整合、品牌化且差異化的虛擬助理建置市場領導者，提供廣泛的解決方案組合，包括對話式與生成式 AI 以及音訊與通訊 AI。我們的對話式與生成式 AI 解決方案包括完整的生成式 AI 基於的語音助理，包括語音啟動、自然語音輸入與輸出，以及混合對話式服務，用於汽車與一般用途任務。我們的音訊與通訊 AI 解決方案包括最佳音訊應用，透過降低環境噪音，提升車內體驗，並實現車內與車外的順暢互動。我們的解決方案包含邊緣計算與雲端連線軟體零組件，以及連結這些零組件的軟體框架，透過共同的程式設計介面。我們與 OEMs 與供應商深度合作，以優化軟體符合特定車型的需求、設定與音響特徵。",
+    "我們主要透過銷售軟體授權與雲端連線服務來產生收入。此外，我們也透過與 OEMs 與供應商在車型生命週期的設計、開發與部署階段的合作，以及維護與增強專案，產生專業服務收入。在超過 25 年的汽車產業經驗中，我們已建立長久的產業關係。我們與幾乎所有主要 OEMs 或其一級供應商已有現有關係，雖然客戶合約各不相同，但通常代表多年度的合作，使我們能預見未來收入。我們與許多客戶有總協議或類似商業協議，支持長期的客戶留存。",
+    "截至 2025 年 9 月 30 日，我們估計五年的剩餘履行義務約為 165.2 百萬美元。截至 2025 年 9 月 30 日，我們估計變動五年的積壓訂單約為 1,004.0 百萬美元，包含來自嵌入式、連網與專業服務業務的預估未來收入。我們對預估 royalty 的估計，是基於我們嵌入式與連網技術的 royalty 率，來自我們現有合約下預期的車輛出貨量。預期出貨量是基於歷史出貨經驗、客戶預測及其他資訊，管理層認為這些資訊整體提供一個合理的基礎，以估計截至本 10-K 表單日期的未來出貨量。我們的嵌入式與連網技術主要以每輛車或每臺設備為單位進行定價與銷售，我們會收取單一費用，無論是嵌入式授權或連網服務合約。然而，我們的五年的剩餘履行義務與變動五年的積壓訂單可能無法反映我們實際的未來收入。我們實際認列的收入不確定，並受到多種因素影響，包括客戶出貨的車輛數量與時間、客戶合約可能的終止或變更範疇，以及貨幣兌換波動，以及其他在項目 IA 中討論的風險因素。截至 2025 年 9 月 30 日，我們估計五年的積壓訂單約為 1,169.2 百萬美元，包含 165.2 百萬美元的五年的剩餘履行義務與 1,004.0 百萬美元的五年的變動積壓訂單。截至 2024 年 9 月 30 日，估計五年的積壓訂單約為",
+    "952.7 百萬美元，包含 172.7 百萬美元的五年的剩餘履行義務與 780.0 百萬美元的五年的變動積壓訂單。",
+    "本公司解決方案已出貨至超過 525 百萬輛汽車，包含財務年度 2025 年單獨出貨超過 25 百萬輛新車。根據我們客戶提供的版權報表及第三方提供的全球總車輛生產數量報告，我們估計在截至 2025 年 9 月 30 日財務年度內出貨的汽車中，約有 52% 配備 Cerence 技術。Cerence 混合解決方案在截至 2025 年 9 月 30 日財務年度內出貨至約 15.4 百萬輛車。總計，全球超過 80 家 OEM 及一級供應商使用我們的解決方案，涵蓋超過 70 種語言及口音，包括英語、德語、西班牙語、法語、普通話、廣東話、日語及印地語。",
+    "在會計年度 2025 年，本公司產生營業收入 251.8 百萬美元，較 2024 年 9 月 30 日終止之會計年度 331.5 百萬美元減少 24%。本公司於 2025 年 9 月 30 日終止之會計年度記錄淨虧損 18.7 百萬美元，與 2024 年 9 月 30 日終止之會計年度記錄淨虧損 588.1 百萬美元相比，變化為 97%。 herein 所包含之財務資訊未必反映本公司未來之營運結果。",
+    "2019 年 10 月 1 日，Nuance Communications，一家全球企業與消費者提供語音與語言解決方案的領導者，完成法律與結構性分離，並將本公司所有已發行普通股及合併子公司股份，以稅務無負擔方式分發給股東（\"Spin-Off\"）。2019 年 10 月 2 日，本公司普通股開始在 Nasdaq Global Select Market 以 CRNC 編碼進行普通交易。",
+    "",
+    "本公司透過網站投資者關係頁面（https://investors.cerence.com/）進行財務電話會議及參與或主辦投資者活動之網路廣播。此外，本公司於投資者關係網站提供財務表現、投資者活動及新聞與財務報告之通知。本公司意圖使用投資者關係網站作為揭露重要非公開資訊及符合 Regulation FD 之披露義務之途徑。網站內容未包含於此 Form 10-K 或任何其他提交至 SEC 之文件中，任何提及網站之參考僅為靜態文字參考。",
+    "本公司使命為創造跨運輸領域與未來最引人入勝、沉浸式的體驗。本公司提供汽車認知輔助解決方案，具備對話與直覺性，使汽車製造商能透過獨特、一致、品牌化的體驗強化與終端用戶的連結。本公司解決方案組合，與汽車產業深度合作開發，旨在改善全球駕駛人與乘客的車內體驗，包括但不限於以下內容：",
+    "•對話與生成式 AI：本公司 AI 驅動的 UX 平台包括 Cerence xUI，本公司可客製化、混合式生成 AI 平台，基於 CaLLM 系列大型與小型語言模型，以及 Cerence Assistant，本公司即時部署、新一代語音助理。這些產品由本公司核心技術支援，包括助理啟動、精準語音辨識與生動的文本轉語音技術，創造自然、直覺的語音體驗。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "商業趨勢",
+    "財務資料陳述基礎",
+    "關鍵財務指標",
+    "營運結果",
+    "財務年度 2025 與財務年度 2024 比較及財務年度 2024 與財務年度 2023 比較",
+    "截至 9 月 30 日年度，% 變動 % 變動",
+    "2025 年佔總體百分比 2024 年佔總體百分比 2023 年佔總體百分比 2025 與 2024 比較 2024 與 2023 比較",
+    "財務年度 2025 與財務年度 2024 比較",
+    "會計年度 2024 與會計年度 2023 比較",
+    "2025 2024 2023 2025 與 2024 2024 與 2023",
+    "會計年度 2025",
+    "會計年度 2024",
+    "流動性與資本資源",
+    "財務狀況",
+    "來源與重大現金需求",
+    "因截至 9 月 30 日止會計年度而產生的重大現金需求",
+    "2026 2027 - 2028 2029 - 2030 之後 總計",
+    "1.50% 高收益可轉換票據到期日為 2028",
+    "3.00% 高收益可轉換票據到期日為 2025",
+    "截至 9 月 30 日的會計年度",
+    "高收益信貸融資"
+   ],
+   "paragraphs": [
+    "管理階層對於財務狀況與營運成果之討論與分析（\"MD&A\"），說明根據管理階層評估，對我們營運成果、財務狀況與流動性有重大影響之主要因素，以及我們關鍵會計估計。我們的MD&A通常包括與財務年度結於2025年9月30日與2024年9月30日之年對年比較，以及2024年9月30日與2023年9月30日之財務年度相關之營運成果、財務狀況、流動性與資本資源之討論。",
+    "以下之討論與分析應與本Form 10-K其他處所載有之合併財務報表及對應附註同時閱讀。本節所載資訊包含前瞻性陳述，其詳細說明請參閱標題為\"對前瞻性陳述之警示聲明\"之節。這些前瞻性陳述所提及之事項，受風險、不確定性及其他因素影響，可能導致實際結果與該陳述所預測或暗示者有重大差異。請參閱第1A項\"風險因素\"以瞭解與這些陳述相關之風險、不確定性及假設。",
+    "Cerence為移動/運輸市場提供對話式與代理型AI解決方案。我們的主要目標為汽車市場，但我們的解決方案可應用於所有形式之運輸，包括但不限於二輪車輛、飛機、拖拉機、郵輪與電梯，以及物聯網產業整體，包括電視、智慧手錶、語音驅動式服務臺等。我們的解決方案可促進汽車、駕駛員與乘客與更廣泛數位世界之間的自然對話與直覺互動。我們擁有建立汽車虛擬助理之領先軟體平台。我們的汽車客戶包括全球幾乎所有主要汽車原廠製造商（\"OEMs\"）或其一級供應商。我們以白標方式提供解決方案，使客戶能提供具獨特品牌個性之客製化虛擬助理，進而強化汽車品牌與終端用戶之間的連結。我們的願景是讓所有人擁有更愉快、更安全的旅程。",
+    "我們的主要產品為我們之軟體平台，客戶使用此平台以建立虛擬助理，使其能在擴展之種類中進行溝通、尋找資訊與執行行動。我們之軟體平台具有混合架構，結合邊緣軟體零組件與雲端連線零組件。邊緣軟體零組件安裝於車輛之車載主機，並可在不連線外部網路與資訊之情況下運作。雲端連線零組件包含某些語音與自然語言理解相關技術、AI驅動之個人化與情境基準回應框架，以及內容整合平台。",
+    "我們主要透過銷售軟體或智慧財產權（\"IP\"）授權與雲端連線服務來產生收入。我們之邊緣軟體零組件通常以傳統每單位永久軟體授權模式銷售，其中每單位費用根據安裝於汽車車載主機之軟體實例數量變動收取。我們通常以服務形式授權雲端連線軟體零組件至車輛終端用戶，並由用戶預先付款。此外，我們透過與客戶在車輛模型生命週期之設計、開發與部署階段以及維護與增強專案之合作，產生專業服務收入。我們與幾乎所有主要汽車OEMs或其一級供應商均有現有關係，雖然客戶契約各不相同，但通常代表多年期合作，使我們對未來收入有部分預見；然而，因汽車生產延遲、我們所處政治、法律與法規環境之不確定性，包括美國政府所實施之貿易、關稅及其他政策，或其他國家之回應行動、汽車生產限制或延遲、客戶預測變動、總體經濟條件或其他因素，這些收入可能未如預期實現。",
+    "我們在財務年度2025年總收入減少24.0%。收入減少主因為連線服務收入因一項於2013年收購中取得之遺留契約提前終止，以及另一個客戶終止服務，該客戶為我們之遺留客戶提供服務。此變動效果為將67.8 百萬美元之遞延收入加速至財務年度2024年第一季。此減少部分因授權收入增加而抵銷，主要因授權 royalties 之發行數量增加。我們之授權收入高度依賴車輛生產，其時程與數量持續受全球汽車產業動態影響。總體經濟條件",
+    "如高利率與信貸不足，已導致生產延遲與減緩。我們之專業服務收入減少主要因我們軟體產品之標準化程度提高，導致較少需要專業服務努力以進行實作，其他專業服務流程之效率提升，以及在某些情況下，客戶選擇自行執行這些活動。",
+    "在財務年度2025年，總收入成本減少21.3%與財務年度2024年相比，主要因連線服務與專業服務收入減少。總營運費用在財務年度2025年減少77.5%，主要因財務年度2024年認列之商譽減損，以及我們持續進行之業務轉型與成本削減措施。重組及其他費用，淨額減少1.7 百萬美元，因2024年啟動之重組措施逐步收斂。",
+    "附列之合併財務報表係依照一般會計準則（GAAP）及美國證券交易委員會（SEC）之規則與規範編製。合併財務報表已包含為確保合併營運成果與財務狀況之公平呈現所認為必要之所有調整事項。所有調整事項均屬正常且經常發生之性質。",
+    "合併財務報表包含本公司及其 wholly owned subsidiaries 之帳戶。所有重大之內部交易及餘額均已於合併時予以抵銷。",
+    "在評估本公司財務狀況與營運績效時，我們著重於營業收入、營運邊際及營運現金流。",
+    "2025 年會計年度與 2024 年會計年度比較：",
+    "{'translated_text': '•總營業收入減少 79.7 百萬美元，或 24.0%，從 331.5 百萬美元降至 251.8 百萬美元。'}",
+    "•營運邊際自負 174.9% 增加 174.0 個百分點，至負 0.9%"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務相關的風險",
+    "我們所處的市場競爭激烈且變化迅速，我們可能無法成功競爭。",
+    "汽車產業或總體經濟環境惡化可能會對我們的營運成果產生不利影響。",
+    "我們的流程優化與成本降低努力可能無法成功。",
+    "我們增加雲端連線服務的策略可能會對我們的短期營收成長與營運成果產生不利影響。",
+    "我們客戶的價格壓力可能對我們的業務產生不利影響。",
+    "如果我們失去任何主要客戶，可能會對我們的業務產生重大且不利的影響。",
+    "我們的營運成果可能在不同期間大幅波動，這可能會導致我們的股票價格下跌。",
+    "本公司可能無法成功推廣新產品。",
+    "若本公司無法吸引並留住管理階層及其他關鍵人員，將可能對業務造成損害。",
+    "本公司依賴具專業技能之員工，且可能因關鍵技能不足而受到影響。",
+    "部分本公司員工受僱於工會或勞工組織，或受當地法律規範，而該法律對僱主較不友善。",
+    "網路安全及資料隱私權事件或外泄可能損害客戶關係，並抑制本公司成長。",
+    "本公司在中國之業務面臨激烈競爭，且對總體經濟、市場及政治環境變化較為敏感。",
+    "本公司服務或資料中心寄宿設施或公共雲端服務若發生中斷或延誤，可能影響服務交付，並對業務造成損害。",
+    "若本公司之商譽或其他無形資產發生減值，將可能對營運成果造成負面影響。",
+    "健康事件，例如疫情及疾病爆發，已幹擾並可能繼續幹擾我們的業務及其客戶的業務，這可能會對我們的財務表現產生不利影響。",
+    "與我們智慧財產權及科技相關的風險",
+    "未經授權使用我們的專有科技及智慧財產權，可能會對我們的業務及營運成果產生不利影響。",
+    "我們的軟體產品可能含有錯誤，這可能會導致收入延遲或損失、高昂的修正成本、對客戶的責任及對我們的索賠。",
+    "我們可能無法迅速回應科技變革及科技風險，並將我們的智慧財產權轉化為具商業價值的產品。"
+   ],
+   "paragraphs": [
+    "您應仔細審閱本 Form 10-K 所載之所有資訊，以及下列所列之風險，我們認為這些是我們面臨的重要風險。部分風險與我們的業務有關，其他則與我們的智慧財產權及技術、證券市場、我們的負債及我們證券之持有有關。上述任何風險都可能對我們的業務、財務狀況及營運成果造成重大且不利的影響，並影響本 Form 10-K 所載之前瞻性陳述事項之實際結果。",
+    "有許多公司開發或可能開發產品，與我們在汽車語音輔助市場中的產品競爭。我們產品與服務的市場特徵為高度競爭、產業與法規標準持續演進、新興商業與分銷模式、軟體技術的顛覆性發展、產品與服務的生命週期較短、客戶對價格較為敏感，以及頻繁的新產品推出，包括某些我們產品的替代方案，這些替代方案提供有限功能但價格顯著較低或免費。此外，一些我們的競爭對手可能有業務目標，使其願意在汽車語音助手市場中以顯著折扣價格銷售其替代方案。現有及潛在的競爭對手已建立或可能建立與彼此或第三方的合作關係，以提高其技術解決我們潛在客戶需求的能力。此外，現有或潛在的客戶可能決定開發競爭性產品，或已建立、或可能在未來建立與我們競爭對手的戰略關係。另外，考慮到人工智慧技術及其他開放源碼開發工具的可用性與有效性增加，現有或潛在的客戶可能決定完全自行開發競爭性解決方案，與我們的產品服務競爭。我們在汽車認知輔助市場的雲端解決方案方面也面臨重大競爭，現有及新興的競爭對手可能已擁有或已經建立顯著的市場佔有率與產品服務。",
+    "汽車認知輔助市場的競爭已並可能在未來對我們的營運成果造成不利影響，透過減少我們授權或銷售的產品與解決方案的數量，或我們所能收取的價格。一些我們現有或潛在的競爭對手為大型科技公司，擁有遠高於我們的財務、技術與行銷資源，而其他則為規模較小的專業公司，擁有汽車專業知識或區域性專注，可能擁有較高的價格彈性。這些競爭對手可能比我們更快地回應新興技術或客戶需求的變化，或決定以低或不可持續的成本提供產品以爭取新業務。他們也可能投入更多資源於其產品的開發、推廣與銷售，而在某些情況下，他們可能將其競爭性產品或技術與其其他產品或技術結合，以較低的成本或免費的方式提供競爭性功能。若他們如此做，將可能影響我們產品的滲透率，進而影響我們的營收。我們的大型競爭對手也可能擁有較多的數據，包括客戶數據，這使他們在開發新產品與技術時擁有競爭優勢。我們的成功在很大程度上取決於我們能否提升產品與技術，開發並在具成本效益且具時間效益的基礎上推出符合客戶需求變化的產品與功能，並融入技術改進，以及維持與原廠車廠（OEMs）的對齊，其技術與市場策略。若我們無法開發新產品與提升功能或技術以適應這些變化並維持與原廠車廠的對齊，將對我們的業務造成損害。",
+    "我們的業務依賴於，並直接受到全球汽車產業的影響。汽車生產與銷售具有高度週期性，並取決於總體經濟狀況及其他因素，包括消費者支出與偏好、利率水平與信貸可得性之變化、消費者信心、燃料成本、燃料可得性、環境影響、政府激勵措施與法規要求、貿易限制、關稅與價格或匯率管制、國家對國產品的偏好以及政治動盪，特別是在能源生產國及大型或高成長市場。這些因素過去曾對包含我們產品特性的汽車需求造成負面影響，未來也可能如此。此外，汽車生產與銷售可能受到我們客戶在面對嚴峻經濟條件時持續運作的能力，以及勞資關係問題、法規要求、貿易協議及其他因素的影響。例如，美國政府及其他國家政府最近已採用針對汽車產業的關稅，可能影響我們客戶的業務，進而影響我們自身的業務。此外，美國貿易法規持續演進，涉及對全球各國產品與技術使用的限制，包括但不限於美國商務部於2024年12月頒布的「確保資訊與通訊科技及服務供應鏈：連網車輛」規範。本公司無法保證我們所實施的任何策略能成功緩解任何貿易行動的影響。全球汽車生產量有時會大幅波動，這導致我們產品的需求也隨之波動。任何重大不利的變化，包括但不限於總體經濟狀況，導致客戶破產、客戶製造廠關閉或客戶製造廠能取得製造汽車所需的供應品、能發送或接收零件、供應品或成品的價格可被接受，或課徵影響終端消費者購車價格的關稅，都可能導致我們客戶的汽車銷售與生產減少，並對我們的業務、營運成果與財務狀況造成重大不利影響。",
+    "過去幾年，我們觀察到美國與國際間的經濟不確定性增加。經濟疲弱的影響包括：",
+    "•總體商品與服務需求下降，導致利潤減少；•信貸可得性降低；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

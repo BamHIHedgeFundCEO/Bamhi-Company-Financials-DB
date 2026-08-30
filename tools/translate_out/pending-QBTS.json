@@ -1,0 +1,207 @@
+{
+ "ticker": "QBTS",
+ "cik": "0001907982",
+ "accession": "0001907982-26-000026",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Introduction to Quantum Computing",
+    "Our Quantum Computers, Developer Tools, and Quantum Hybrid Solvers Delivered via QCaaS",
+    "Customers and Applications",
+    "The History of Building a Quantum Ecosystem",
+    "Our Business Strategy and Differentiators",
+    "Our Business Model",
+    "Our Growth Strategy"
+   ],
+   "paragraphs": [
+    "Unless the context requires otherwise, references in this section to \"D-Wave,\" \"we,\" \"our\" or \"us\" refer to D-Wave Quantum Inc., a Delaware corporation, and its consolidated subsidiaries following the consummation of the Transaction, and prior to the consummation of the Transaction, to D-Wave Systems Inc., a British Columbia corporation (\"D-Wave Systems\").",
+    "At D-Wave, our mission is to help customers realize the value of quantum computing to address complex computational problems that cannot be solved with classical computing alone. As a pioneer in the quantum industry for more than 25 years, D-Wave is the world's first company to deliver commercial-grade annealing quantum computing systems and solutions. We are also the only dual-platform quantum computing company, providing both annealing and gate-model systems, software, and services to address customers' full range of computational problems. We believe that we are leading the industry in ushering in the era of enterprise quantum computing. We are driving the transition from academic endeavors exploring quantum's potential to enterprise-scale adoption and deployment, solving some of the world's toughest problems. Based on our strategic decision to initially bring to market a type of quantum technology that is easier to scale—annealing quantum computing, we hold a first-mover advantage that no other company in the world can claim.",
+    "Our market leadership position is evident—we were the first to launch commercial quantum systems, the first to achieve a demonstration of quantum supremacy on a useful, real-world problem, the first to have quantum applications running in production for commercial customers, and the first with commercial customer use of its quantum computing technology with AI model training.",
+    "Built upon our decades of quantum innovation, we offer a full stack of quantum systems, software and services capable of solving highly complex problems today. Our relentless commitment to innovation and invention means that we are laser-focused on continuously building quantum solutions that push the boundaries of what is possible. A key corporate strategy is to advance the science of quantum, and in support of that effort, in March 2025, we achieved a world-first quantum supremacy result—solving a useful, real-world problem that a classical computer cannot solve. The peer-reviewed research paper was published in the esteemed publication, Science. The work was achieved using our then state-of-the-art qubit architecture, which demonstrated increased coherence and thus more computational power. We plan to continue our groundbreaking research and innovation on qubit architecture design and fabrication and apply what we learn to new products and applications.",
+    "From a product perspective, we continue to develop systems that outperform previous generations, driving toward higher qubit count, greater qubit coherence, and increased energy scale. In May 2025, we launched our sixth-generation annealing quantum computing system, Advantage2TM, with benchmarking results that indicate it is our most performant system to date with 20-way connectivity, higher coherence times, and higher energy scales that enable us to solve even larger and more complex problems, drive faster time-to-solution, and deliver higher-quality solutions. Our quantum computers—the world's largest—feature quantum processing units (\"QPUs\") with sub-second response times that can be deployed on-premises or accessed through our LeapTM quantum cloud service (the \"Leap service\"), which offers 99.9% availability and uptime.",
+    "We're also extending the capabilities of hybrid quantum-classical solvers to achieve best-in-class performance, expected to be unmatched by any other quantum computing company. Our StrideTM nonlinear hybrid solver can support optimization problems with up to two million variables and constraints and excels in solving problems with complex non-linear interactions between decision variables. Our continuous software enhancements to our Leap service translate to production-grade reliability, access, and security to support customers' production deployments.",
+    "In addition to D-Wave's history of innovation with annealing quantum computers, we have been making steady progress with our gate-model technology development as well. Both the annealing and gate-model technology are built on superconducting qubits which we believe have a long-term advantage over all other approaches to quantum computing. We are also leveraging the quantum systems technology we have developed for our annealing technology to accelerate our gate-model program. We have designed, manufactured, and operated high-coherence fluxonium qubits. In addition, we have announced a strategic advanced cryogenic packaging initiative and demonstrated end-to-end superconducting interconnect between chips, work that D-Wave expects will serve as an important foundation for scaling both D-Wave's annealing architectures and its gate-model architectures. In January 2026, we revealed the recent successful demonstration of scalable on-chip cryogenic control of gate-model qubits. This industry-first milestone advances the development of commercially viable gate-model quantum computers by significantly reducing the wiring required to control large numbers of qubits without degrading qubit fidelity.",
+    "On January 20, 2026, D-Wave announced the completion of its acquisition of Quantum Circuits, Inc., a leading developer of error-corrected superconducting gate-model quantum computing systems. With this acquisition, we believe that D-Wave has solidified its position as the world's first and only dual-platform quantum computing company, building and delivering both annealing and gate-model quantum computing systems to address customers' full set of complex computational problems. This acquisition solidifies D-Wave as the only company with all three key technologies required for scaled, error-corrected superconducting gate-model quantum computers:",
+    "•High fidelity, error detecting dual-rail qubits for efficient error correction with up to an order of magnitude fewer physical qubits per logical qubit;",
+    "•Local cryogenic control and multi-chip superconducting packaging for scaling systems with orders of magnitude fewer I/O control lines; and",
+    "•Robust cryogenic platforms with uptimes of years for commercial grade operations.",
+    "We believe this acquisition will allow D-Wave to deliver the industry's first scaled and error corrected gate-model quantum computing system.",
+    "Our solutions drive tangible business outcomes such as lower costs, increased operational efficiency and incremental revenue opportunities, and our technical roadmap is focused on delivering product advancements that facilitate our customer's return on investment (\"ROI\"), now and in the future. Our cloud-based approach offers customers real-time access to our technology, helping them not only find answers to their computationally challenging problems, but also enabling them to better navigate unexpected disruptions that arise in daily business; for example, changes to the supply chair or unplanned maintenance events. Our business model is focused on generating revenue from (i) providing customers with access to our quantum computing systems via the cloud in the form of quantum computing as a service (\"QCaaS\") products, (ii) providing professional services wherein we assist our customers in identifying and implementing quantum computing applications, and (iii) selling our quantum computer systems to customers. In addition, we believe that our initiative to develop and bring to market applications that combine the power of generative artificial intelligence (\"AI\") and quantum computing technologies will further extend our value proposition to our customers, as we launch the commercial era of quantum AI.",
+    "Our efforts across every facet of the business—from scientific research to processor development and hybrid solver advancements to production deployment support—remain squarely focused on helping our customers succeed in realizing value from their investments in D-WaveTM quantum computing."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Financial Condition and Status as an Early-Stage Company",
+    "We are in our growth stage which makes it difficult to forecast our future results of operations and our funding requirements.",
+    "We have a history of losses and expect to incur significant expenses and continuing losses for the foreseeable future.",
+    "Our estimates of the magnitude of the market opportunity, forecasts of market growth and our operating metrics may prove to be inaccurate and may not be indicative of our future growth.",
+    "Our business could be harmed if we fail to manage growth effectively.",
+    "If we fail to attract new customers and retain and increase the spending of existing customers, our revenue, business, results of operations, financial condition and growth prospects would be harmed.",
+    "Our business and growth are dependent on the success of our strategic relationships with third parties.",
+    "Currency exchange rate fluctuations may negatively affect our results of operations.",
+    "Risks Related to Our Business and Industry",
+    "The failure to successfully integrate Quantum Circuits could adversely affect our operations.",
+    "The market price of our Common Shares could decline as a result of the Acquisition.",
+    "Our technical roadmap and plans for commercialization involve technology that is not yet available for customers and may never become available or meet desired technical specifications.",
+    "We do not have the history with our solutions or pricing models necessary to accurately predict optimal pricing necessary to attract new customers and retain existing customers.",
+    "Competitive pressures may put pressure on our pricing, which may require us to reduce our pricing in order to provide competitively priced access to our products and services.",
+    "If our products or services fail to deliver customer value to a broader range of customers than classical approaches, our business, financial condition and future prospects may be harmed.",
+    "Real or perceived errors, failures or bugs in our products and services could materially and adversely affect our operating results, financial condition and growth prospects.",
+    "Our use of generative AI tools may introduce security, privacy, intellectual property, and operational risks that could adversely affect our business."
+   ],
+   "paragraphs": [
+    "In this section, unless otherwise specified, the terms the \"Company,\" \"we,\" \"our,\" \"us,\" \"D-Wave,\" and \"D-Wave Quantum\" refer to D-Wave Quantum Inc. and its consolidated subsidiaries. You should carefully review and consider the following risk factors in addition to the other information included in this Form 10-K, including matters addressed in the section entitled \"Cautionary Note Regarding Forward-Looking Statements\", the section entitled \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" and the consolidated financial statements and notes to the consolidated financial statements included herein. The occurrence of one or more of the events or circumstances described in these risk factors, alone or in combination with other events or circumstances, may have a material adverse effect on our business, cash flows, financial condition and results of operations. The risks discussed below may not prove to be exhaustive and are based on certain assumptions made by us that later may prove to be incorrect or incomplete. We may face additional risks and uncertainties that are not presently known to us, or that are currently deemed immaterial, which may also impair our business or financial condition.",
+    "Near term, our ability to generate revenue will largely be dependent on our ability to continue to develop and produce annealing quantum computers and hybrid quantum-classical solvers that are able to solve customer business problems at scale. In addition, our ability to generate revenue will depend on our ability to develop, produce and commercialize gate-model quantum computers. We have commercialized annealing quantum computers, and plan to make an initial gate-model quantum computer generally available in 2026. However, our product roadmap may not be realized as quickly as hoped, or at all.",
+    "Our ability to scale our business is dependent upon building referenceable quantum-hybrid applications. Additionally, we must accelerate sales cycles to meet revenue projections and our business depends on our ability to successfully upsell customers through our on-board process and move them into production applications.",
+    "The development of our scalable business model will require the incurrence of a substantially higher level of costs than incurred to date, while our revenues may not substantially increase until more powerful products are produced, which requires a number of technological advancements which may not occur on the currently anticipated timetable or at all. As a result, our historical results should not be considered indicative of our future performance. Further, in future periods, our growth could slow or decline for any number of reasons, including but not limited to failing to achieve targeted demand for our services, increased competition, changes to technology, inability to scale up our technology, a decrease in the growth of the overall market, or our failure, for any reason, to continue to take advantage of growth opportunities.",
+    "We have also encountered, and will continue to encounter, risks and uncertainties frequently experienced by growing companies in rapidly changing industries. If our assumptions regarding these risks and uncertainties and our future growth are incorrect or change, or if we do not address these risks successfully, our operating and financial results and our funding needs could differ materially from our expectations, and our business could suffer. Our success as a business ultimately relies upon fundamental research and development breakthroughs in the coming years and decades. There is no certainty these research and development milestones will be achieved for the costs we have forecast or as quickly as hoped, or at all.",
+    "Since our inception, we have incurred significant net losses. As of December 31, 2025 and 2024, we had an accumulated deficit of $982.0 million and $626.9 million, respectively. For the years ended December 31, 2025 and 2024, we incurred net losses of $355.1 million and $143.9 million, respectively, and had net cash outflows from operating activities of $72.0 million and $42.6 million, respectively. To date, our primary sources of capital have been through sales of our equity securities, debt financing, revenue from the sale of our products and services, and government assistance."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Macroeconomic Environment",
+    "Key Components of Results of Operations",
+    "Cost of Revenue",
+    "Operating Expenses",
+    "Results of Operations",
+    "Comparison of the Year Ended December 31, 2025 and 2024",
+    "Year Ended December 31, Variance",
+    "(In thousands, except share and per share data) 2025 2024 Amount %",
+    "Operating expenses:",
+    "Other income (expense), net:",
+    "Research and Development Expenses",
+    "Other Income (Expense), net",
+    "Liquidity and Capital Resources",
+    "2025 2024 $ (71,982) $ (42,643) (251,135) (3,141) 779,149 182,450 1,335 7 $ 457,367 $ 136,673 Cash Flows Used in Operating Activities",
+    "Contractual Obligations and Commitments",
+    "Critical Accounting Estimates",
+    "Revenue recognition",
+    "Sales of future revenues",
+    "Recently Issued and Adopted Accounting Standards",
+    "JOBS Act Accounting Election"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations together with the consolidated financial statements and related notes included elsewhere in this Form 10-K. The following discussion contains forward-looking statements based upon current expectations that involve risks, uncertainties and assumptions. Our actual results may differ materially from those anticipated in these forward-looking statements as a result of various factors, including those risk factors applicable to D-Wave and its business referenced under the section titled \"Risk Factors\" elsewhere in this Form 10-K. Our historical results are not necessarily indicative of the results that may be expected for any period in the future. In this section, unless otherwise specified, the terms \"we\", \"our\", \"us\", D-Wave\" or the \"Company\" refer to D-Wave Quantum Inc. and its subsidiaries following the Closing while \"D-Wave Systems\" refers to D-Wave Systems Inc. prior to the Closing. All other capitalized terms have the meanings ascribed thereto elsewhere in this Form 10-K. All dollar amounts are expressed in thousands of United States dollars (\"$\"), unless otherwise indicated.",
+    "We are focused on the development and delivery of quantum computing systems, software, and services. We are the world's first commercial supplier of quantum computers, and the first to offer dual-platform quantum computing products and services, spanning both annealing and gate-model quantum computing technologies. Our superconducting quantum computers provide sub-second response times and can be deployed on-premises or accessed through our Leap quantum cloud service, which offers 99.9% availability and uptime. Customers apply our technology to address use cases spanning optimization, artificial intelligence, research and more. Our current sixth-generation annealing quantum computing system is named Advantage2.",
+    "Our business model is focused on generating revenue from providing customers access to our quantum computing systems via the cloud in the form of quantum computing as a service (\"QCaaS\") products, from providing professional services wherein we assist our customers in identifying and implementing quantum computing applications, as well as selling our quantum computer systems to customers. We have four operating facilities, which we lease, in North America. These facilities are located in Burnaby, British Columbia, Richmond, British Columbia, Palo Alto, California, and New Haven, Connecticut. In addition, we plan to transition our corporate headquarters before the end of 2026 from Palo Alto, California to Boca Raton, Florida, and open a key U.S. R&D facility in Boca Raton, Florida under a new lease agreement.",
+    "During the years ended December 31, 2025 and 2024, we generated revenue totaling $24.6 million and $8.8 million, respectively. We have incurred significant operating losses since inception. For the years ended December 31, 2025 and 2024, our operating losses were $100.4 million and $77.2 million, respectively, and our net losses were $355.1 million and $143.9 million, respectively. The differences between operating and net losses were principally due to $270.5 million and $68.2 million, respectively, of mark-to-market charges related to the value of our publicly traded warrants. We expect to continue to incur significant losses for the foreseeable future as we continue to invest in a number of research and development programs as well as a variety of go-to-market initiatives. As of December 31, 2025, we had an accumulated deficit of $982.0 million.",
+    "Unfavorable conditions in the economy in the United States, Canada and abroad, including conditions resulting from changes in inflationary pressure, gross domestic product growth, financial and credit market fluctuations, banking collapses and related uncertainty, international trade relations, political turmoil, natural catastrophes, outbreaks of contagious diseases, warfare and terrorist attacks on the United States, Europe or elsewhere, including military actions affecting Russia, Ukraine, Israel, Venezuela, the Middle East, or elsewhere, could cause a decrease in business investments in our products and negatively affect the growth of our business and our results of operations. However, to date, these unfavorable conditions have not affected our business.",
+    "On July 4, 2025, the One Big Beautiful Bill Act (\"OBBBA\") was enacted, which includes permanent extensions of most expiring Tax Cuts and Jobs Act provisions and international tax changes. The Company has assessed the provisions of the OBBBA and determined that the tax changes will not have a material effect on its financial statements for the 2025 fiscal year and are not expected to have a material effect on its financial statements for future periods.",
+    "We currently generate our revenue through subscription sales to access our QCaaS cloud platform, professional services related to the development and implementation of quantum computing applications and delivery of quantum computing application training. The Company also sells its superconducting annealing quantum computer systems to customers. QCaaS revenue is recognized on a ratable basis over the contract term, which generally ranges from one month to two years. Professional services revenue is recognized over time on a percentage of completion basis using the costs incurred input measure of progress.",
+    "Revenue from quantum computing system sales is recognized over time during the installation period using an input method, with progress measured based on costs incurred to date relative to total estimated costs, as the Company concludes that the criteria for over-time revenue recognition under ASC 606 are met. Revenue from system upgrade projects is also recognized over time using an input method, measuring progress based on costs incurred to date relative to total estimated costs. This approach is applied to system sales and upgrade projects that span multiple reporting periods and meet the criteria for over-time revenue recognition in accordance with ASC 606. Both revenue from quantum computing system sales and revenue from system upgrade projects are classified within system sales in our financial statements.",
+    "While we expect that QCaaS revenue would increase both in dollar terms and as a share of total revenue (excluding system sales), as of the end of the period covered by this Form 10-K, professional services revenue has grown more rapidly—both in dollar terms and as a share of total revenue (excluding system sales). This increase reflects our continued efforts to promote our QCaaS cloud platform by supporting customers through the development and deployment of quantum applications. Customers often engage with our professional service team to gain the knowledge and support needed to effectively use our QCaaS cloud platform. We continue to view professional services as a strategic enabler for long-term QCaaS growth. Meanwhile, quantum computing system revenue may impact our overall product mix in periods when recognized, although this revenue is expected to remain irregular and intermittent.",
+    "Our cost of revenue consists of all direct and indirect expenses related to providing our QCaaS offering and delivering our professional services, such as personnel-related expenses, including stock-based compensation, costs associated with maintaining the cloud platform on which we provide the QCaaS product and depreciation and amortization related to our quantum computing systems and related software.",
+    "Cost of revenue for quantum computing systems includes direct manufacturing costs, such as materials and labor for system production, as well as expenses related to installation, maintenance, and support. Additionally, it includes shipping and handling costs associated with delivering the systems. These costs are also expensed as incurred.",
+    "We expect our total cost of revenue to trend upward in absolute dollars in future periods, corresponding to our anticipated growth in revenue and the higher costs that are necessary to support our customers, maintain the QCaaS cloud offering, operate our quantum computing systems, and deliver our professional services. Over the long term, as QCaaS becomes a larger component of our revenue mix, we expect gross margin to improve, reflecting the lower delivery costs of QCaaS relative to professional services.",
+    "Our operating expenses consist of research and development, general and administrative, and sales and marketing expenses.",
+    "Research and development expenses consist primarily of personnel-related expenses, including salaries, benefits and stock-based compensation for personnel, fabrication costs, lab supplies, and cloud computing resources and allocated facility costs for our research and development functions. Unlike a standard computer, design and development efforts continue throughout the useful life of our quantum computing systems to ensure proper calibration and optimal functionality. Research and development expenses also include purchased hardware components, fabrication and software costs related to quantum computing systems constructed for research purposes that do not have a high probability of providing near-term future economic benefits, and may have no alternate future use. We currently do not capitalize any research and development expenses."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Introduction to Quantum Computing': '量子計算導論'}",
+    "{'Our Quantum Computers, Developer Tools, and Quantum Hybrid Solvers Delivered via QCaaS': '本公司量子電腦、開發工具及量子混合解決方案透過 QCaaS 提供'}",
+    "{'Customers and Applications': '客戶與應用'}",
+    "{'The History of Building a Quantum Ecosystem': '建立量子生態系統的歷史'}",
+    "{'Our Business Strategy and Differentiators': '本公司商業策略與差異化優勢'}",
+    "{'Our Business Model': '本公司商業模式'}",
+    "{'Our Growth Strategy': '本公司成長策略'}"
+   ],
+   "paragraphs": [
+    "除非上下文另有要求，本節中提及的「D-Wave」、「我們」、「我們的」或「我們」均指 D-Wave Quantum Inc.，一家特拉華州公司，及其合併子公司，在交易完成後，而在交易完成前，則指 D-Wave Systems Inc.，一家不列顛哥倫比亞省公司（「D-Wave Systems」）。",
+    "在 D-Wave，我們的使命是協助客戶實現量子計算的價值，以解決無法僅靠傳統計算機解決的複雜計算問題。作為量子產業的先驅，超過 25 年的經驗，D-Wave 是全球第一家提供商用等級退火量子計算系統與解決方案的公司。我們也是唯一提供兩種平台量子計算系統、軟體與服務的公司，可解決客戶的全方位計算問題。我們相信我們正在引領產業邁向企業級量子計算的時代。我們正在推動從學術機構探索量子潛力轉向企業規模的採用與部署，解決一些世界上最困難的問題。根據我們的戰略決定，我們首先推出一種較易擴展的量子技術—退火量子計算，我們擁有其他公司無法聲稱的先發優勢。",
+    "我們的市場領導地位顯而易見—我們是第一家推出商用量子系統的公司，第一家在實用、現實問題上實現量子優越的公司，第一家讓量子應用在商業客戶的生產環境中運行的公司，以及第一家讓其量子計算技術用於 AI 模型訓練的商業客戶。",
+    "基於我們數十年的量子創新，我們提供一套完整的量子系統、軟體與服務，可解決高度複雜的問題。我們對創新與發明的持續承諾意味著我們專注於不斷建立推動極限的量子解決方案。一個關鍵企業戰略是推進量子科學的發展，為支持這項努力，於 2025 年 3 月，我們達成了一項世界首創的量子優越結果—解決一個傳統電腦無法解決的實用、現實問題。這篇經過同儕審查的論文發表於備受推崇的期刊《Science》。這項工作使用我們當時最先進的量子位元架構，展示了更高的相干性，從而擁有更高的計算能力。我們計畫繼續在量子位元架構設計與製造上進行突破性的研究與創新，並將所學應用於新產品與應用。",
+    "從產品觀點來看，我們持續開發性能超越前一代的系統，朝向更高的量子位元數量、更高的量子位元相干性與更高的能量規模前進。於 2025 年 5 月，我們推出了第六代退火量子計算系統 Advantage2TM，其測試結果顯示這是我們目前性能最佳的系統，擁有 20 組連接、更高的相干時間與更高的能量規模，使我們能夠解決更大且更複雜的問題，縮短解決時間，並提供更高品質的解決方案。我們的量子電腦—世界上最大的—擁有量子處理單元（「QPUs」）與毫秒級的回應時間，可部署於企業內部或透過我們的 LeapTM 量子雲服務（「Leap 服務」）存取，該服務提供 99.9% 的可用性與運行時間。",
+    "我們也在擴展混合量子-傳統計算求解器的功能，以達到最佳性能，預期將超越任何其他量子計算公司。我們的 StrideTM 非線性混合求解器可支援最多兩百萬個變數與約束條件，並在解決具有複雜非線性互動的決策變數問題時表現卓越。我們對 Leap 服務的持續軟體改進，使客戶的生產部署擁有生產等級的可靠性、存取與安全性。",
+    "除了 D-Wave 在退火量子電腦方面的創新歷史，我們也在持續進展於門模型技術的開發。退火與門模型技術均建立在超導量子位元上，我們相信這在長遠上優於所有其他量子計算方法。我們也正在利用為退火技術所開發的量子系統技術，加速門模型計畫的進行。我們已設計、製造並運行高相干性 fluxonium 量子位元。此外，我們已宣佈一項戰略性的高級冷卻封裝計畫，並展示晶片間的超導連接，這項工作 D-Wave 預期將成為擴展其退火架構與門模型架構的重要基礎。於 2026 年 1 月，我們展示了可擴展的晶片上冷卻控制門模型量子位元的最新成功演示。這項產業首創的里程碑，大幅減少控制大量量子位元所需的線路，同時不影響量子位元的準確性，進步了商業可行的門模型量子電腦的發展。",
+    "於 2026 年 1 月 20 日，D-Wave 宣佈已完成對 Quantum Circuits, Inc. 的收購，這是一家專門開發錯誤修正超導門模型量子計算系統的領先公司。透過這次收購，我們相信 D-Wave 已確立其為全球第一家且唯一一家提供退火與門模型量子計算系統的雙平台量子計算公司，解決客戶全方位的複雜計算問題。這次收購使 D-Wave 成為唯一擁有三種關鍵技術的公司，這三種技術是實現可擴展、錯誤修正超導門模型量子計算系統所必需的：",
+    "•高忠實度、具錯誤偵測功能的雙軌量子位元，用以實現高效的錯誤修正，每邏輯量子位元所需物理量子位元數量可減少一個數量級;",
+    "•本地冷卻控制與多晶片超導封裝技術，用以實現系統擴展，所需I/O控制線數量可減少多個數量級; 和",
+    "•具備多年運作時間的穩健冷卻平台，用以支援商業等級的運作。",
+    "我們認為此次收購將使D-Wave能推出業界首個實現規模化與錯誤修正的門檻型量子計算系統。",
+    "我們的解決方案能帶來可衡量的商業效益，例如降低成本、提高運營效率與增加收入機會，我們的技術路線圖聚焦於提供產品進步，協助客戶實現投資回報率（\"ROI\"），現在與未來。我們的雲端模式讓客戶能即時存取我們的技術，不僅協助他們解決計算上困難的問題，也能讓他們更好地應對日常業務中出現的意外幹擾；例如供應鏈變動或未預期的維護事件。我們的商業模式聚焦於透過（i）提供客戶透過雲端存取我們的量子計算系統，以量子計算即服務（\"QCaaS\"）產品形式，（ii）提供專業服務協助客戶識別與落實量子計算應用，以及（iii）向客戶銷售我們的量子計算系統來產生收入。此外，我們認為我們開發結合生成式人工智慧（\"AI\"）與量子計算技術的應用程式，將進一步拓展我們對客戶的價值主張，隨著我們啟動量子AI的商業時代。",
+    "我們在商業各個層面的努力—from科學研究到處理器開發與混合求解器進步到生產部署支援—都始終聚焦於協助客戶實現投資於D-WaveTM量子計算的價值。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "總體經濟環境",
+    "營運成果之關鍵零組件",
+    "營業收入成本",
+    "營運費用",
+    "營運成果",
+    "比較 2025 年 12 月 31 日財年與 2024 年",
+    "2025 年 12 月 31 日財年變動數",
+    "(以千計，除股數及每股資料外) 2025 2024 金額 %",
+    "營運費用：",
+    "其他收入（費用），淨額：",
+    "研究與發展費用",
+    "其他收入（費用），淨額",
+    "流動性及資金來源",
+    "2025 2024 $ (71,982) $ (42,643) (251,135) (3,141) 779,149 182,450 1,335 7 $ 457,367 $ 136,673 營運活動所使用的現金流",
+    "契約義務及承諾",
+    "關鍵會計估計",
+    "營業收入認列",
+    "未來收入之銷售",
+    "最近發佈及採用之會計準則",
+    "JOBS 法案會計選項"
+   ],
+   "paragraphs": [
+    "你應閱讀下列對我們財務狀況及營運成果之分析，並與本表單 10-K 其他處所載之合併財務報表及相關附註一併參考。下列討論包含基於目前預期之展望性陳述，這些陳述涉及風險、不確定性及假設。我們實際結果可能與這些展望性陳述所預期的有重大差異，原因包括適用於 D-Wave 及其業務之風險因素，詳見本表單 10-K 其他處所載之「風險因素」節。我們的歷史結果未必能代表未來任何期間之結果。在本節中，除非另有說明，否則「我們」、「我們的」、「我們」、「D-Wave」或「公司」均指 D-Wave Quantum Inc. 及其子公司，自交易完成後；而「D-Wave Systems」則指交易完成前之 D-Wave Systems Inc.。所有其他首字母大寫之詞彙，其含義已在本表單 10-K 其他處所載明。所有金額均以千美元（\"$\"）表示，除非另有說明。",
+    "我們專注於量子計算系統、軟體及服務之開發與交付。我們是全球首間商業供應量子電腦之供應商，也是首間提供雙平台量子計算產品與服務之公司，涵蓋退火與門模型量子計算技術。我們的超導量子電腦提供低於一秒之回應時間，可部署於內部或透過我們的 Leap 量子雲服務存取，該服務提供 99.9% 之可用性與運作時間。客戶應用我們的技術以解決涵蓋最佳化、人工智慧、研究等之應用場景。我們目前第六代退火量子計算系統名為 Advantage2。",
+    "我們的商業模式專注於透過雲端提供客戶存取我們量子計算系統，以量子計算即服務（\"QCaaS\"）產品形式產生收入，並透過專業服務協助客戶識別與實作量子計算應用，以及銷售我們的量子電腦系統給客戶。我們有四處營運設施，為租賃，位於北美。這些設施位於加拿大不列顛哥倫比亞省的 Burnaby、Richmond，美國加利福尼亞州的 Palo Alto，以及康乃狄克州的 New Haven。此外，我們計畫在 2026 年底前將總部從加利福尼亞州 Palo Alto 轉移至佛羅裏達州 Boca Raton，並在佛羅裏達州 Boca Raton 開設一處重要的美國研發設施，透過新的租賃契約。",
+    "在 2025 年 12 月 31 日結止之年度，我們產生總計 24.6 百萬美元及 8.8 百萬美元之收入，分別。自成立以來，我們已產生重大營運虧損。在 2025 年 12 月 31 日結止之年度，我們的營運虧損為 100.4 百萬美元及 77.2 百萬美元，分別，而淨虧損為 355.1 百萬美元及 143.9 百萬美元，分別。營運虧損與淨虧損之間的差異，主要為 270.5 百萬美元及 68.2 百萬美元，分別，與我們公開交易認購權證價值之市價調整費用有關。我們預期將持續產生重大虧損，至少在可預見的未來，因我們持續投資於多項研究與開發計畫，以及多種市場拓展計畫。截至 2025 年 12 月 31 日，我們累積虧損為 982.0 百萬美元。",
+    "美國、加拿大及國際經濟環境不利條件，包括因通貨膨脹壓力變化、國內生產總值成長、金融與信貸市場波動、銀行機構倒閉及相關不確定性、國際貿易關係、政治動盪、自然災害、傳染病爆發、美國、歐洲或其他地區之戰爭及恐怖攻擊，包括影響俄羅斯、烏克蘭、以色列、委內瑞拉、中東或其他地區之軍事行動，可能導致對我們產品之商業投資減少，並不利於我們業務成長及營運成果。然而，截至目前為止，這些不利條件尚未影響我們的業務。",
+    "2025 年 7 月 4 日，「一項偉大的美麗法案」（\"One Big Beautiful Bill Act\"，簡稱 OBBBA）已通過，內容包括延長大多數即將到期之稅務減免與就業法案條款，以及國際稅務變動。本公司已評估 OBBBA 之條款，並認為稅務變動對 2025 財務年度之財務報表不會有重大影響，且預期對未來期間之財務報表亦不會有重大影響。",
+    "我們目前透過訂閱銷售以存取我們的 QCaaS 雲端平台、與量子計算應用開發與實作相關之專業服務，以及量子計算應用培訓之交付來產生收入。本公司亦銷售其超導退火量子電腦系統給客戶。QCaaS 收入依合約期間按比例認列，通常為一個月至兩年。專業服務收入依進度按完工百分比認列，以已發生成本為進度衡量標準。",
+    "量子計算系統銷售之收入依安裝期間按進度認列，以已發生成本為進度衡量標準，因本公司認為符合 ASC 606 之進度收入認列準則。系統升級專案之收入亦依進度認列，以已發生成本為進度衡量標準。此方法適用於跨多個會計期間且符合 ASC 606 進度收入認列準則之系統銷售與升級專案。量子計算系統銷售收入與系統升級專案收入均歸類於系統銷售於我們之財務報表中。",
+    "雖然我們預期 QCaaS 營業收入將在金額上以及佔總營業收入（不含系統銷售）的比例上雙雙增加，但就本 Form 10-K 所涵蓋期間結尾時點而言，專業服務收入的成長速度更快—在金額上以及佔總營業收入（不含系統銷售）的比例上雙雙增加。此成長反映我們持續努力推廣 QCaaS 雲端平台，透過協助客戶開發與部署量子應用程式來支持客戶。客戶經常與我們的專業服務團隊合作，以獲得有效使用 QCaaS 雲端平台所需的知識與支援。我們持續將專業服務視為長期 QCaaS 成長的戰略推動力。同時，量子計算系統收入可能在認列時影響我們的整體產品組成，儘管此收入預期將保持不規則且間歇性的狀態。",
+    "我們的營業成本包含所有與提供 QCaaS 服務及交付專業服務相關的直接與間接費用，例如人力相關費用，包括股票激勵薪酬、維護我們提供 QCaaS 產品之雲端平台的費用，以及與我們的量子計算系統及相關軟體之折舊與攤銷費用。",
+    "量子計算系統的營業成本包含直接製造成本，例如系統生產的材料與人工費用，以及與安裝、維護及支援相關的費用。此外，還包含與交付系統相關的運送及包裝費用。這些費用在發生時即計入費用。",
+    "我們預期本公司總營業成本以美元計將在未來期間呈現上升趨勢，這與我們預期營業收入的成長以及支撐客戶、維持 QCaaS 雲端服務、運作量子計算系統及提供專業服務所必需的更高成本有關。長期而言，隨著 QCaaS 成為本公司收入組成的更大零組件，我們預期毛利率將改善，反映 QCaaS 相對於專業服務較低的交付成本。",
+    "本公司營運費用包含研究與發展費用、一般及行政費用，以及銷售與行銷費用。",
+    "研究與發展費用主要包含與人員相關的費用，包括薪資、福利及股票基於報酬費用，以及人員之製造成本、實驗室耗材，以及雲端計算資源及我們研究與發展功能所分配之設施成本。與標準電腦不同，我們的量子計算系統在使用壽命期間會持續進行設計與開發工作，以確保正確校準與最佳功能。研究與發展費用亦包含購入之硬體零組件、與為研究目的所建造之量子計算系統相關之製造及軟體成本，這些系統可能不會在近期內提供經濟利益，且可能沒有其他未來用途。本公司目前不將任何研究與發展費用資本化。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司財務狀況及作為早期階段公司相關之風險",
+    "本公司處於成長階段，使預測未來營運結果及資金需求變得困難。",
+    "本公司有虧損之歷史，並預期在可預見之未來將產生重大費用及持續虧損。",
+    "本公司對市場機會規模之估計、市場成長之預測及營運指標，可能證明為不正確，且可能無法反映本公司未來之成長。",
+    "若本公司未能有效管理成長，將可能影響本公司業務。",
+    "若本公司未能吸引新客戶，並保留及提高現有客戶之支出，將可能損害本公司之營收、業務、營運結果、財務狀況及成長前景。",
+    "本公司之業務及成長依賴與第三方之戰略合作關係之成功。",
+    "貨幣兌換率波動可能對本公司營運結果產生負面影響。",
+    "與本公司業務及產業相關之風險",
+    "未能成功整合 Quantum Circuits 可能對本公司營運造成不利影響。",
+    "因收購作業之關係，本公司普通股之市價可能下跌。",
+    "本公司技術路線圖及商業化計畫所涉及之技術尚未可供客戶使用，且可能永遠無法取得或符合預期之技術規格。",
+    "本公司缺乏足夠之解決方案或定價模式之歷史資料，以準確預測吸引新客戶及留住現有客戶所需之最佳定價。",
+    "競爭壓力可能對本公司之定價造成壓力，可能導致本公司需降低價格以提供具競爭力之產品及服務價格。",
+    "若本公司之產品或服務未能為較廣範圍之客戶帶來較傳統方法更佳之客戶價值，將可能對本公司業務、財務狀況及未來展望造成損害。",
+    "本公司產品或服務若出現實質或被認為存在錯誤、故障或蟲蟲，可能對本公司營運成果、財務狀況及成長前景造成重大且不利之影響。",
+    "{'original': 'Our use of generative AI tools may introduce security, privacy, intellectual property, and operational risks that could adversely affect our business.', 'translated': '本公司使用產生式人工智能工具可能引進安全、隱私、智慧財產權及運營風險，這些風險可能對本公司業務造成不利影響。'}"
+   ],
+   "paragraphs": [
+    "本節中，除非另有說明，\"本公司\"、\"我們\"、\"我們的\"、\"我們\"、\"D-Wave\"及\"D-Wave Quantum\"均指 D-Wave Quantum Inc. 及其合併子公司。您應仔細審閱並考量下列風險因素，以及本 Form 10-K 所包含的其他資訊，包括 \"警示向前看陳述\" 章節、\"管理層對財務狀況與營運結果之討論與分析\" 章節，以及 herein 所包含之合併財務報表及財務報表附註。發生其中一個或數個所述事件或情況，單獨或與其他事件或情況結合，可能對我們的業務、現金流、財務狀況及營運結果造成重大不利影響。下列討論的風險可能不會是完整的，且是基於我們所做之某些假設，這些假設後續可能被證明是錯誤或不完整。我們可能面臨其他風險與不確定性，這些風險與不確定性目前尚未為我們所知，或目前被認為不重要，也可能影響我們的業務或財務狀況。",
+    "短期內，我們產生收入的能力，將 largely 取決於我們持續開發與生產能解決客戶業務問題的 annealing 量子電腦與 hybrid 量子古典求解器的能力。此外，我們產生收入的能力，也取決於我們開發、生產與商業化 gate-model 量子電腦的能力。我們已經商業化 annealing 量子電腦，並計畫於 2026 年開始廣泛提供 gate-model 量子電腦。然而，我們的產品路線圖可能無法如預期般快速實現，或根本無法實現。",
+    "我們擴展業務的能力，取決於建立可參考的量子混合應用。此外，我們必須加速銷售週期，以符合收入預測，且我們的業務依賴我們成功透過 onboard 流程 upsell 客戶，並將其轉入生產應用的能力。",
+    "我們可擴展商業模式的發展，將需要產生遠高於迄今所產生的費用，而我們的收入可能直到生產出更強大產品時才大幅增加，這需要數項技術進展，這些進展可能不會在目前預期的時間表內或根本無法實現。因此，我們的歷史表現不應被視為未來表現的指標。此外，在未來期間，我們的成長可能減緩或下降，原因可能包括但不限於未能達成服務的目標需求、競爭增加、技術變更、無法擴展技術、整體市場成長減緩，或我們因任何原因未能持續利用成長機會。",
+    "自我們成立以來，我們已遭遇並將繼續遭遇成長公司常見的風險與不確定性，尤其是在快速變化的產業中。如果我們對這些風險與不確定性以及未來成長的假設錯誤或改變，或我們未能成功處理這些風險，我們的營運與財務結果以及資金需求可能與我們的預期有重大差異，且我們的業務可能受損。我們作為一家公司的成功，最終取決於未來數年與數十年內基礎研究與開發的重大突破。這些研究與開發里程碑是否能以我們預期的成本或速度實現，或根本實現，並無確定性。",
+    "自我們成立以來，我們已產生顯著的淨虧損。截至 2025 年 12 月 31 日及 2024 年 12 月 31 日，我們的累積虧損分別為 982.0 百萬美元及 626.9 百萬美元。截至 2025 年 12 月 31 日及 2024 年 12 月 31 日，我們分別產生淨虧損 355.1 百萬美元及 143.9 百萬美元，並分別產生營運活動的淨現金流出 72.0 百萬美元及 42.6 百萬美元。截至目前為止，我們的主要資金來源為發行本公司股票、債務融資、產品與服務銷售收入，以及政府補助。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

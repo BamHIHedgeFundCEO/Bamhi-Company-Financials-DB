@@ -1,0 +1,221 @@
+{
+ "ticker": "CAI",
+ "cik": "0002019410",
+ "accession": "0002019410-26-000016",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "The Caris Platform",
+    "The Caris Advantage",
+    "Our Strategies",
+    "Our Caris Molecular Intelligence Solutions",
+    "Caris Assure—Our WES/WTS Blood-Based Solution",
+    "MI Profile—Our WES/WTS Tissue-Based Profiling Solutions",
+    "Precision Whole Genome Platform—Our WGS Tissue- and Blood-Based Profiling Solutions",
+    "Caris Discovery",
+    "Caris Strategic Data",
+    "Data for Biopharma"
+   ],
+   "paragraphs": [
+    "We are a leading, patient-centric, next-generation AI TechBio company and precision medicine pioneer. We develop and commercialize innovative solutions to transform healthcare through the use of comprehensive molecular information and artificial intelligence/machine learning algorithms at scale. Our entire portfolio of precision medicine solutions is designed to benefit patients, with an initial focus on oncology, and serves the clinical, academic, and biopharma markets.",
+    "We founded Caris in 2008 with the belief and vision that combining a vast set of consistently generated molecular information with robust data-driven insights could realize the potential of precision medicine for patients. We have spent the last 17 years developing and building our portfolio of comprehensive, proprietary molecular profiling solutions and generating what we believe to be one of the largest and most comprehensive multi-modal clinico-genomic datasets in oncology. As of December 31, 2025, we have performed sequencing on over 1,000,000 cases. Our platform is purpose-built to leverage the convergence of next-generation sequencing (\"NGS\"), artificial intelligence (\"AI\") and machine learning (\"ML\") technologies, and high-performance computing. The power of our differentiated Caris platform has enabled us to develop the latest generation of advanced precision medicine diagnostic solutions designed to address the entire cancer care continuum, including early detection, minimal residual disease (\"MRD\") tracking, therapy selection, and treatment monitoring, as well as to create molecular signatures and discover and develop novel precision medicine therapeutics. Our Molecular Intelligence product portfolio is currently focused on oncology and consists of: (1) our MI Profile Platform, our whole exome sequencing (\"WES\")/whole transcriptome sequencing (\"WTS\") tissue-based molecular profiling solutions, (2) our Caris Assure Platform, our WES/WTS blood-based molecular profiling solutions, and (3) our Precision Whole Genome Platform, our whole genome sequencing (\"WGS\") blood- and tissue-based profiling solutions.",
+    "We believe we are well-positioned to realize the full potential of our vision and enable a transition from intuitive to empirical medicine due to the recent convergence of several advancements in biology, medicine, and technology: the medical community's understanding and appreciation of the molecular nature of cancer has accelerated in recent years, resulting in a continued increase in molecular profiling of different cancer types and stages; NGS costs have declined, making NGS more accessible to the healthcare ecosystem; cloud-computing architecture has enabled massive scalability, distributed real-time collaboration, and greater cost efficiency for the analysis of previously unmanageable amounts of data; and AI and ML computational capabilities have advanced to allow more effective interrogation of large biological datasets. We believe that our early foresight to generate comprehensive data at scale over the past many years and build a robust, foundational infrastructure have uniquely positioned Caris to leverage the benefits of these biological and technological advances to deliver transformative and advanced innovations in precision medicine and patient care into the future.",
+    "Our purpose-built, proprietary multi-omic profiling solutions capture and analyze molecular information from tissue and blood in a comprehensive manner. We provide WES (all 23,000 encoding DNA genes) and WTS (all 61,000 RNA transcripts that encode proteins) or WGS (sequencing across the entire DNA) on every eligible patient sample (a sample provided by ordering physicians that contains sufficient genetic material for profiling). Our in-depth profiling of patient samples has led to our creation of what we believe to be one of the largest and most comprehensive multi-modal clinico-genomic datasets in oncology, including genomic data, clinical data, digitized slide images, and remnant tissue. Leveraging high-powered computing and AI/ML algorithms, we, and our biopharma and research partners who use our data and bioinformatics services, analyze our datasets to determine the key molecular characteristics of a particular disease or dysfunction that drives disease, enabling signature identification and drug target discovery. As a leader in the transition to WES/WTS sequencing through our launch of a WTS solution in 2019, a WES solution the following year, and our anticipated launch of WGS solutions in 2026, we believe we have more molecular data and information than any other company and are well-positioned to make precision medicine widely accessible.",
+    "Our molecular profiling solutions and the data generated by our multi-omic technology platform provide value to our biopharma partners, such as Moderna, AbbVie, Xencor, Merck KGaA and Genentech, through partnerships that aim to increase the probability of technical and regulatory success of their therapeutic pipelines. In addition to biopharma, we leverage our datasets to partner with outside academic centers and researchers to further advance precision oncology research. The Caris Precision Oncology Alliance (\"Caris POA\"), which we established in 2015, is a growing network of leading cancer centers and research consortia across the globe that collaborate to advance precision oncology and biomarker-driven research, with its members working together to establish and optimize standards of care for molecular",
+    "testing through innovative research to improve clinical outcomes for cancer patients. Close connectivity with this valuable network of key opinion leaders (\"KOLs\") in oncology clinical care, research, and drug development has enabled us to remain at the forefront of precision oncology and closely attuned to the key needs of the most sophisticated researchers.",
+    "Our Molecular Intelligence Platform was purpose-built to leverage the convergence of NGS, AI and ML technologies, and high-performance computing.",
+    "We are leading a molecular revolution and developing the latest generation of advanced precision medicine information solutions that we believe have applicability across the care continuum for a broad range of conditions. The fundamental differentiation of our business model is the depth, breadth, and scale of data, including how that data is integrated vertically and horizontally across our business, as well as the resulting innovation that it fuels.",
+    "Our multi-omic technology platform is built on the following pillars: (1) our Molecular Intelligence solutions; (2) Caris Discovery; (3) Caris Strategic Data; and (4) Caris Infrastructure. These four pillars are designed to work together to create a virtuous cycle that can enable continued innovation and improved impact for patients and physicians. We believe our comprehensive approach to profiling will continue to drive demand for our genomic profiling capabilities, leading to further expansion of our clinico-genomic datasets, which provide additional valuable inputs to develop and enhance our solutions, with the ultimate goal of contributing to improved patient results. We believe this continuing cycle will deepen our competitive advantage and allow us to achieve meaningful innovation and business success in precision oncology, while illuminating a path to precision medicine for other chronic disease states, including cardiology, neurology, and metabolic conditions.",
+    "We believe our growth and competitive differentiation are driven by the four pillars of our platform, each of which are both a product of the upstream data and a foundation to further innovation and data generation across the platform:",
+    "•Caris Molecular Intelligence: Our MI Profile, Caris Assure and Precision Whole Genome platforms collectively include both marketed and in development comprehensive WES, WTS and WGS solutions. These solutions span the entire continuum of cancer care, including early detection, MRD tracking, therapy selection, and treatment monitoring.",
+    "•Caris Discovery: The combination of our data and our AI enables us to discover previously unknown drug targets for antibody-directed therapies (such as antibody drug conjugates, degrader-antibody conjugates, and T-cell engagers), small molecules, targeted protein degradation, synthetic lethal interactions, and cell therapy. In addition, we believe Caris Discovery is well-positioned for neoantigen discovery for personalized therapy development given our ability to detect variants, insertions, and deletions by WES and to assess gene expression and detect fusions by WTS on every patient's tumor.",
+    "•Caris Strategic Data: To assist us with analyzing the data we generate, we utilize AI/ML tools across our clinical testing, R&D, and biopharma business. We have used our datasets to create many of these algorithms and signatures. The breadth and depth of our data assets, together with our demonstrated ability to use them to create algorithms and discover signatures, represent a deep competitive moat for us.",
+    "•Caris Infrastructure: We have a well-developed laboratory, R&D, and sales infrastructure that we believe is foundational to our business."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Summary",
+    "Risks Related to Our Business and Industry",
+    "The precision medicine industry is highly competitive and subject to rapid change.",
+    "We have incurred significant losses since inception, may incur losses in the future, and may not be able to generate sufficient revenue to achieve and maintain profitability.",
+    "Our current or future solutions may not achieve or maintain sufficient commercial market acceptance.",
+    "Our current revenue is primarily generated from the continued adoption and use of our tissue-based profiling solution."
+   ],
+   "paragraphs": [
+    "A description of risks and uncertainties facing our business is set forth below. You should carefully consider the risks described below, as well as the other information in this Annual Report on Form 10-K (\"Annual Report\"), including our audited consolidated financial statements and the related notes and Part II Item 7 titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations.\" Additional risks and uncertainties that we are not currently aware of, or that we currently believe are not material, may also adversely affect our business. The occurrence of any of the events or developments described below could harm our business, financial condition, results of operations, and growth prospects. In such an event, the price of our securities could decline, and you may lose all or part of your investment.",
+    "The following is a summary of the most significant risks, challenges and uncertainties facing our business. This summary should be read in conjunction with the risk factors described below in this section and should not be considered an exhaustive list or summary of all of the significant or material risks, challenges and uncertainties that we face.",
+    "•The precision medicine industry is highly competitive and subject to rapid change.",
+    "•We have incurred significant losses since inception, may incur losses in the future, and may not be able to generate sufficient revenue to achieve and maintain profitability.",
+    "•Our current or future solutions may not achieve or maintain sufficient commercial market acceptance.",
+    "•Our solutions may not perform as expected, and the results of our validation studies or our clinical trials may not support the launch or use of certain of our solutions as planned and may not comply with the requirements, or be replicated in later trials required, for any necessary or desirable marketing authorizations. This could adversely affect our business, financial condition, results of operations, and growth prospects."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Key Factors Affecting Our Performance",
+    "Components of Results of Operations",
+    "Costs and Operating Expenses",
+    "Other Income (Expense), Net",
+    "Results of Operations",
+    "(amounts in thousands) Years Ended December 31,",
+    "Total revenue 812,033 412,260 306,128",
+    "Total costs and operating expenses 766,920 669,382 625,679",
+    "Total other expense, net (113,201) (24,768) (21,864)",
+    "Loss before income taxes and provision for income taxes (68,088) (281,890) (341,415)",
+    "Net loss $ (68,088) $ (281,890) $ (341,415)",
+    "Years Ended December 31,",
+    "(amounts in thousands)",
+    "Total revenue 100 % 100 % 100 %",
+    "Total costs and operating expenses 94 % 162 % 204 %",
+    "Total other expense, net (14) % (6) % (7) %",
+    "Loss before income taxes and provision for income taxes (8) % (68) % (112) %",
+    "Net loss (8) % (68) % (112) %",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "Years Ended December 31, Change",
+    "Cost of Services",
+    "Selling and Marketing Expense",
+    "General and Administrative Expense",
+    "Research and Development Expense",
+    "Other Expense, Net",
+    "Non-GAAP Financial Measures",
+    "Adjusted EBITDA",
+    "Free Cash Flow",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "Indebtedness",
+    "Cash Requirements",
+    "Critical Accounting Policies and Estimates",
+    "Stock-Based Compensation",
+    "Emerging Growth Company Status"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our consolidated financial statements and the related notes and other financial information included elsewhere in this Annual Report on Form 10-K (\"Annual Report\"). In addition to historical financial information, the following discussion and analysis contains forward-looking statements that involve risks, uncertainties, and assumptions. Our actual results and timing of selected events may differ materially from those anticipated in these forward-looking statements as a result of many factors, including those discussed under Part I. Item 1A. Risk Factors and elsewhere in this Annual Report. See the section titled \"Special Note Regarding Forward-Looking Statements\" elsewhere in this Annual Report. Our historical results are not necessarily indicative of the results that may be expected for any period in the future. Unless context requires otherwise, references to \"we,\" \"us,\" \"our,\" \"Caris,\" or \"the Company\" here refer to Caris Life Sciences, Inc. together with its wholly owned subsidiaries. The following discussion provides a narrative of our financial condition and results of operations for the year ended December 31, 2025 compared to the fiscal year ended December 31, 2024. A discussion regarding our financial condition and results of operations for the fiscal year ended December 31, 2024, including a comparison to our results of operations for the fiscal year ended December 31, 2023, can be found in \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in our final prospectus for our initial public offering, dated June 17, 2025 and filed with the Securities and Exchange Commission on June 20, 2025.",
+    "We are a leading, patient-centric, next-generation AI TechBio company and precision medicine pioneer. We develop and commercialize innovative solutions to transform healthcare through the use of comprehensive molecular information and AI/ML algorithms at scale. Our entire portfolio of precision medicine solutions is designed to benefit patients, with an initial focus on oncology, and serves the clinical, academic, and biopharma markets.",
+    "We founded Caris in 2008 with the belief and vision that combining a vast set of consistently generated molecular information with robust data-driven insights could realize the potential of precision medicine for patients. We have spent the last 17 years developing and building our portfolio of comprehensive, proprietary molecular profiling solutions and generating what we believe to be one of the largest and most comprehensive multi-modal clinico-genomic datasets in oncology based on the tests we have run on over 1,000,000 cases as of December 31, 2025. Our Caris Molecular Intelligence platform is purpose-built to leverage the convergence of NGS, AI and ML technologies, and high-performance computing. The power of our differentiated Caris platform has enabled us to develop the latest generation of advanced precision medicine diagnostic solutions designed to address the entire cancer care continuum, including early detection, MRD tracking, therapy selection, and treatment monitoring, as well as to create molecular signatures and discover and develop novel precision medicine therapeutics.",
+    "Our Molecular Intelligence product portfolio consists of our MI Profile Platform, our whole exome sequencing (WES)/whole transcriptome sequencing (WTS) tissue-based molecular profiling solutions that have generated the majority of our revenue to date, our Caris Assure Platform, our WES/WTS blood-based molecular profiling solutions, and our Precision Whole Genome Platform, our whole genome sequencing (WGS) blood- and tissue-based profiling solutions. Our purpose-built, proprietary multi-omic profiling solutions capture and analyze molecular information from tissue and blood in a comprehensive manner. We believe this approach best positions us to provide actionable treatment pathways from targeted therapies to drive superior clinical outcomes for patients while also generating a rich dataset to power insights and innovation. Our molecular profiling solutions and the data generated by our multi-omic technology platform also provide value to our biopharma partners, such as Moderna, AbbVie, Xencor, Merck KGaA and Genentech, through partnerships that aim to increase the probability of technical and regulatory success of their therapeutic pipelines.",
+    "We believe that our early foresight to generate comprehensive data at scale over the past many years and build a robust, foundational infrastructure have uniquely positioned Caris to leverage the benefits of biological and technological advances to deliver transformative and advanced innovations in precision medicine and patient care into the future.",
+    "To our knowledge, we remain the only genomic profiling company to consistently utilize WES and WTS as standard practice on every eligible patient sample. Our in-depth profiling of patient samples has led to the creation of what we believe to be one of the largest and most comprehensive multi-modal clinico-genomic datasets in oncology.",
+    "With our broad commercial launch of Caris Assure for therapy selection in the first quarter of 2024 and the FDA approval of MI Cancer Seek as a companion diagnostic in the fourth quarter of 2024 followed by the broad commercial launch of MI Cancer Seek in the first quarter of 2025 as the NGS component of the MI Profile Platform, we believe that increased profiling volumes will meaningfully contribute to our growth in 2026 and beyond.",
+    "Our Caris platform is designed to create a virtuous cycle that can enable continued innovation and improved impact for patients and physicians. We believe our comprehensive approach to profiling will continue to drive demand for our genomic profiling capabilities, leading to further expansion of our clinico-genomic datasets, which provide additional valuable inputs to develop and enhance our solutions, with the ultimate goal of contributing to improved patient results. This continuous feedback loop enabled us to develop the Caris Assure Platform, which utilized genomic data generated by the MI Profile Platform to inform our blood-based bioinformatics algorithms, allowing us to detect previously unknown features and signals in the blood that provide advanced insights into disease development. We believe we will be able to further leverage this process to continue meaningful innovation in precision oncology as well as other chronic disease states, including cardiology, neurology, and metabolic conditions.",
+    "For the years ended December 31, 2025 and 2024, we generated total revenue of $812.0 million and $412.3 million, respectively, and incurred net losses of $68.1 million and $281.9 million, respectively. Our Adjusted EBITDA was $137.7 million and $(189.6) million for the years ended December 31, 2025 and 2024, respectively. We may incur net losses in the near future, and our expenses are expected to increase as we continue to invest in developing new solutions, expand our organization, and increase our marketing efforts to continue to drive market adoption of our solutions. These investments, together with general and administrative expenses, have resulted in positive (negative) cash flows from operations of $83.2 million and $(245.2) million for the years ended December 31, 2025 and 2024, respectively. Our free cash flow was $66.9 million and $(253.6) million for the years ended December 31, 2025 and 2024, respectively. For additional information regarding non-GAAP measures Adjusted EBITDA and free cash flow, see \"—Non-GAAP Financial Measures.\" Additionally, as of December 31, 2025, we had cash, cash equivalents, restricted cash, and marketable securities of $802.3 million, and the aggregate principal amount of debt outstanding under our existing term loan was $400.0 million. For additional information regarding our liquidity and capital resources, see \"—Liquidity and Capital Resources.\"",
+    "On June 20, 2025, we completed our initial public offering (\"IPO\") of our common stock, in which the Company issued and sold 23,529,412 shares of its common stock at a price of $21.00 per share, which resulted in net proceeds of $459.5 million after deducting underwriting discounts and commissions and before deducting offering costs of $9.0 million. Additionally, on June 25, 2025, the underwriters exercised their full over-allotment option and purchased from the Company an additional 3,529,411 shares of common stock at the IPO price, which resulted in net proceeds to the Company of $68.9 million after deducting discounts and commissions.",
+    "We believe that our operating performance and future success depend on a number of factors that present significant opportunities for us and may pose risks and challenges, including those discussed below and in Part I. Item 1A. \"Risk Factors\" of this Annual Report.",
+    "•Market acceptance and commercial success of our solutions. Our success and future growth will depend on maintaining and expanding market acceptance of our current and future molecular profiling solutions along with commercial success of these solutions across existing and new customers. Our MI Profile and Caris Assure case volumes have continued to increase over time. Changes in our case volumes and the pricing of our solutions, however, are generally not impacted by cancer type. For the years ended December 31, 2025 and 2024, the number of clinical cases was 199,300 and 162,850, respectively. We commercially launched our MI Cancer Seek solution in January 2025 as the WES/WTS NGS component of our MI Profile platform. We initiated the broad commercial launch of Caris Assure for therapy selection in the first quarter of 2024. Realizing the potential of Caris Assure and our future solutions, including Caris Detect, across the cancer treatment continuum is a key component of our business strategy. The commercial success of our solutions will depend upon, among other things, additional validation studies and clinical trials that demonstrate the effectiveness of our solutions, particularly for early detection, MCED, MRD tracking, and treatment monitoring, and the continued adoption of Caris Assure and the adoption of our other solutions, including Caris Detect, by patients, the medical community, and third-party payers. In addition, we expect that our ability to maintain and expand our sales, marketing, and distribution capabilities to support the increased adoption of our molecular profiling solutions will be a key factor in our success.",
+    "•Biopharma partners. Our revenue also depends on our ability to maintain and expand relationships with our biopharma partners and attract new biopharma partners. As we continue to develop these relationships, we expect to support a growing number of projects and continue to have opportunities to offer our platform to such customers for development and research services.",
+    "•Development and introduction of new solutions. Our business success will also depend on our ability to develop and commercialize new solutions. We plan to continue to invest in the enhancement of our"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "The Caris Platform",
+    "The Caris Advantage",
+    "Our Strategies",
+    "Our Caris Molecular Intelligence Solutions",
+    "Caris Assure—Our WES/WTS Blood-Based Solution",
+    "MI Profile—Our WES/WTS Tissue-Based Profiling Solutions",
+    "Precision Whole Genome Platform—Our WGS Tissue- and Blood-Based Profiling Solutions",
+    "Caris Discovery",
+    "{'original': 'Caris Strategic Data', 'translated': 'Caris Strategic Data'}",
+    "{'original': 'Data for Biopharma', 'translated': '生物藥品資料'}"
+   ],
+   "paragraphs": [
+    "本公司為一家以患者為中心、具備創新人工智能技術的生物科技公司，並為精準醫療的先驅者。我們開發並商業化創新解決方案，透過全面的分子資訊與大規模應用人工智慧/機器學習演算法，轉型醫療照護。我們所有精準醫療解決方案的組合皆設計用以造福患者，初期重點為癌症領域，並服務臨牀、學術及生物製藥市場。",
+    "我們於2008年創立Caris，秉持著結合大量一致產生的分子資訊與強大數據驅動洞察力的信念與願景，以實現精準醫療對患者的潛力。我們已投入17年時間，開發並建立我們的全面性、專屬分子分析解決方案組合，並產生我們認為是癌症領域最大且最全面的多模式臨牀基因組資料集。截至2025年12月31日，我們已完成超過1,000,000個案例的基因組定序。我們的平台專為整合次世代定序（\"NGS\"）、人工智慧（\"AI\"）及機器學習（\"ML\"）技術，以及高性能計算而設計。我們獨特的Caris平台優勢，使我們得以開發最新一代的先進精準醫療診斷解決方案，用以應對癌症照護的整個過程，包括早期篩檢、殘留疾病（\"MRD\"）追蹤、治療選擇及治療監測，以及建立分子標記並發現與開發新型精準醫療治療藥物。我們的分子智慧產品組合目前聚焦於癌症領域，包含：(1) 我們的MI Profile平台，為我們的全外顯子定序（\"WES\"）/全轉錄組定序（\"WTS\"）組織基質分子分析解決方案；(2) 我們的Caris Assure平台，為我們的WES/WTS血液基質分子分析解決方案；以及(3) 我們的精準全基因組平台，為我們的全基因組定序（\"WGS\"）血液與組織基質分析解決方案。",
+    "我們相信，由於生物學、醫學與科技領域的幾個進展最近收斂，我們已處於實現我們願景並推動從直覺醫療轉向實證醫療的優勢位置：醫療界對癌症分子本質的理解與認知近年來加速提升，導致不同癌症類型與階段的分子分析持續增加；次世代定序（NGS）成本下降，使NGS更易於醫療生態系統中使用；雲端計算架構使大量資料分析的規模擴張、分散式即時協作與成本效率提升成為可能；人工智慧與機器學習的計算能力進步，使對大型生物資料集的分析更有效率。我們相信，我們過去多年來早早就預見並生成大量全面資料，並建立強固的基礎設施，使Caris獨特地能利用這些生物與科技進展的優勢，未來持續提供精準醫療與患者照護的變革性與先進創新。",
+    "我們專為多組學分析而設計的專屬解決方案，能全面地捕捉並分析組織與血液中的分子資訊。我們為每一個符合條件的患者樣本（由開立檢驗的醫師提供的、含有足夠遺傳物質以進行分析的樣本）提供WES（所有23,000個編碼DNA基因）與WTS（所有61,000個編碼蛋白質的RNA轉錄本）或WGS（對整個DNA進行定序）。我們對患者樣本的深入分析，使我們建立了我們認為是癌症領域最大且最全面的多模式臨牀基因組資料集，包括基因組資料、臨牀資料、數位切片影像與殘餘組織。透過高性能計算與AI/ML演算法，我們與使用我們資料與生物資訊服務的生物製藥與研究夥伴，分析我們的資料集以確定特定疾病或功能異常的關鍵分子特徵，從而進行標記識別與藥物目標發現。作為透過2019年推出WTS解決方案、2020年推出WES解決方案，並預計於2026年推出WGS解決方案，推動向WES/WTS定序轉型的領導者，我們相信我們擁有比任何其他公司更多的分子資料與資訊，並處於使精準醫療廣泛可近的優勢位置。",
+    "本公司之分子分析解決方案以及透過多組學技術平台所產生之資料，為生技藥廠夥伴如 Moderna、AbbVie、Xencor、Merck KGaA 及 Genentech 提供價值，透過合作關係以提高其治療藥物開發流程之技術與法規成功機率。除生技藥廠外，本公司亦運用其資料集與外部學術中心及研究者合作，以進一步推進精準癌症醫學研究。本公司於 2015 年成立之 Caris Precision Oncology Alliance（\"Caris POA\"），為全球領先之癌症中心與研究聯盟所組成之成長網路，透過合作推進精準癌症醫學與生物標記驅動之研究，其成員共同合作建立並優化分子檢測之照護標準，透過創新研究以改善癌症病患之臨牀結果。與此重要意見領袖（\"KOLs\"）在癌症臨牀照護、研究及藥物開發領域之緊密連結，使本公司能持續處於精準癌症醫學之最前線，並緊密掌握最精緻研究者之關鍵需求。",
+    "本公司之分子智慧平台係專門設計，以運用 NGS、AI 與 ML 技術，以及高性能計算之融合。",
+    "本公司正領導分子革命，並開發最新一代之高階精準醫療資訊解決方案，本公司相信此解決方案可應用於廣泛疾病之照護連續體。本公司商業模式之根本區別在於資料之深度、廣度與規模，包括資料如何在本公司業務中垂直與水平整合，以及由此產生之創新。",
+    "本公司之商業模式之根本區別在於資料之深度、廣度與規模，包括資料如何在本公司業務中垂直與水平整合，以及由此產生之創新。",
+    "本公司多組學科技平台係建立於以下四大支柱：(1) 本公司分子智慧解決方案；(2) Caris Discovery；(3) Caris Strategic Data；以及 (4) Caris Infrastructure。這四大支柱設計為協同運作，以創造良性循環，可使本公司持續創新並提升對病患與醫師的影響力。本公司相信，本公司對病人特徵的全面分析方法，將持續驅動對本公司基因體分析能力的需求，進而促使本公司臨牀基因體資料集進一步擴張，這些資料集提供額外的寶貴資訊，用以開發與強化本公司解決方案，最終目標為提升病患治療結果。本公司相信此持續循環將深化本公司競爭優勢，使本公司能在精準癌症治療領域達成具體創新與商業成功，同時為其他慢性疾病狀態，包括心臟學、神經學與代謝性疾病，開闢精準醫療的發展路徑。",
+    "本公司認為，本公司成長與競爭差異化係由平台四大支柱所驅動，每一個支柱皆為上游資料的產物，同時也是進一步創新與資料產生的基礎：",
+    "•Caris 分子智慧：本公司 MI Profile、Caris Assure 與 Precision Whole Genome 平台 collectively 包含已上市與在研發中的全面性 WES、WTS 與 WGS 解決方案。這些解決方案涵蓋癌症照護的整個連續過程，包括早期篩檢、MRD 跟蹤、治療選擇與治療監測。",
+    "•Caris Discovery：本公司資料與 AI 的結合，使本公司能發現先前未知的藥物標的，用於單克隆抗體治療（例如抗體藥物偶聯物、降解抗體偶聯物與 T 細胞活化劑），小分子藥物、標的蛋白降解、合成致死交互作用與細胞治療。此外，本公司相信 Caris Discovery 在新抗原發現方面具備優勢，可用於個人化治療開發，這是因為本公司能透過 WES 檢測變異、插入與刪除，並透過 WTS 評估基因表現與檢測融合，針對每位病患的腫瘤進行分析。",
+    "•Caris Strategic Data：為協助本公司分析所產生的資料，本公司於臨牀測試、研發與生物科技業務中運用 AI/ML 工具。本公司已運用資料集建立許多這些演算法與簽名。資料資產的廣度與深度，加上本公司已證明能運用這些資料建立演算法與發現簽名的能力，代表本公司深厚的競爭優勢。",
+    "•Caris 基礎建設：本公司擁有完善的實驗室、研發與銷售基礎建設，本公司認為此基礎建設為本公司業務的根基。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "影響我們營運表現的重要因素",
+    "營運成果的組成項目",
+    "成本及營運費用",
+    "其他收入（費用），淨額",
+    "營運成果",
+    "(金額單位為千美元) 會計年度終了於12月31日",
+    "總營業收入 812,033 412,260 306,128",
+    "總成本及營運費用 766,920 669,382 625,679",
+    "總其他費用，淨額 (113,201) (24,768) (21,864)",
+    "稅前虧損及所得稅費用 (68,088) (281,890) (341,415)",
+    "淨虧損 $ (68,088) $ (281,890) $ (341,415)",
+    "截至12月31日年度，",
+    "(金額以千計)",
+    "總收入 100 % 100 % 100 %",
+    "總成本及營運費用 94 % 162 % 204 %",
+    "總其他費用，淨額 (14) % (6) % (7) %",
+    "稅前虧損及所得稅費用 (8) % (68) % (112) %",
+    "淨虧損 (8) % (68) % (112) %",
+    "2025 年 12 月 31 日與 2024 年 12 月 31 日之比較",
+    "2025 年 12 月 31 日與 2024 年 12 月 31 日之變動",
+    "服務成本",
+    "銷售及市場推廣費用",
+    "一般及行政費用",
+    "研究及發展費用",
+    "其他費用，淨額",
+    "非GAAP財務指標",
+    "調整後營業現金流",
+    "自由現金流",
+    "流動性及資本資源",
+    "流動性來源",
+    "負債",
+    "現金需求",
+    "{'original': 'Critical Accounting Policies and Estimates', 'translated': '重要會計政策與會計估計'}",
+    "{'original': 'Stock-Based Compensation', 'translated': '股票基於報酬'}",
+    "{'original': 'Emerging Growth Company Status', 'translated': '新興成長公司資格'}"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運成果的討論與分析，應與我們的合併財務報表及相關附註，以及其他財務資訊一併閱讀，這些財務資訊包含於本年度報告表 10-K（\"年度報告\"）中。除了歷史財務資訊外，以下討論與分析包含前瞻性陳述，這些陳述涉及風險、不確定性與假設。我們的實際結果與特定事件的時間點，可能與這些前瞻性陳述中預期的結果有重大差異，這是因為許多因素，包括在本年度報告的 Part I. Item 1A. 風險因素及其他部分所討論的內容。請參閱本年度報告中標題為 \"特別注意前瞻性陳述\" 的部分。我們的歷史結果並不一定代表未來任何期間的結果。除非上下文另有說明，否則 herein 所提及的 \"我們\"、\"我們\"、\"我們\"、\"Caris\" 或 \"本公司\" 均指 Caris Life Sciences, Inc. 連同其全資子公司。以下討論提供我們財務狀況及營運成果於 2025 年 12 月 31 日為結算日的年度，與 2024 年 12 月 31 日為結算日的財務年度比較。有關我們 2024 年 12 月 31 日為結算日的財務狀況及營運成果的討論，包括與 2023 年 12 月 31 日為結算日的財務年度營運成果的比較，請參閱我們首次公開發行的最終招股說明書中 \"管理層對財務狀況及營運成果的討論與分析\" 部分，該說明書於 2025 年 6 月 17 日發出，並於 2025 年 6 月 20 日提交至證券交易委員會。",
+    "我們是一家領先的、以患者為中心的、下一代 AI TechBio 公司，也是精準醫療的先驅。我們開發並商業化創新解決方案，透過使用全面的分子資訊與 AI/ML 演算法，來轉變醫療照護。我們的整體精準醫療解決方案組合是為患者設計的，初期重點在腫瘤學，並服務臨牀、學術與生物製藥市場。",
+    "我們於 2008 年創立 Caris，秉持著結合大量一致產生的分子資訊與強大的數據驅動洞察力，以實現精準醫療對患者的潛力。我們在過去 17 年來致力於開發與建立我們的全面、專屬的分子分析解決方案組合，並產生我們認為在腫瘤學領域中規模最大且最全面的多模式臨牀基因組資料集，根據我們截至 2025 年 12 月 31 日為止執行的超過 1,000,000 個案例的測試結果。我們的 Caris 分子智慧平台是專門設計，以利用 NGS、AI 與 ML 技術，以及高性能計算的結合。我們差異化的 Caris 平台的強大功能，使我們得以開發最新一代的先進精準醫療診斷解決方案，用以解決癌症照護的整個過程，包括早期偵測、MRD 跟蹤、治療選擇與治療監測，以及創造分子簽名，並發現與開發新的精準醫療治療藥物。",
+    "我們的分子智慧產品組合包括我們的 MI Profile 平台、我們的全外顯子定序（WES）/全轉錄組定序（WTS）組織基質分子分析解決方案，這些解決方案已產生我們至今的大部分收入、我們的 Caris Assure 平台、我們的 WES/WTS 血液基質分子分析解決方案，以及我們的 Precision Whole Genome 平台、我們的全基因組定序（WGS）血液與組織基質分子分析解決方案。我們專門設計、專屬的多組學分析解決方案，能全面地收集與分析組織與血液中的分子資訊。我們認為這種方法最能讓我們提供從標靶治療的可行治療路徑，以驅動患者更優良的臨牀結果，同時也能產生豐富的資料集，以推動洞察與創新。我們的分子分析解決方案與多組學技術平台產生的資料，也為我們的生物製藥合作夥伴，例如 Moderna、AbbVie、Xencor、Merck KGaA 和 Genentech，透過合作關係提供價值，這些合作關係旨在提高他們治療藥物開發流程的技術與法規成功機率。",
+    "我們相信，我們過去多年來對產生全面資料的遠見，以及建立強固、基礎性的基礎設施，已獨特地將 Caris 位置於能利用生物與科技進展，以提供精準醫療與患者照護的轉變與先進創新。",
+    "據我們所知，我們仍是唯一一家持續將 WES 與 WTS 作為標準作業程序應用於所有合資格患者樣本的基因組分析公司。我們對患者樣本的深入分析，已導致產生我們認為在腫瘤學領域中規模最大且最全面的多模式臨牀基因組資料集。",
+    "隨著我們在 2024 年第一季廣泛推出 Caris Assure 用於治療選擇，以及在 2024 年第四季獲得 MI Cancer Seek 作為伴診診斷的 FDA 批准，隨後在 2025 年第一季廣泛推出 MI Cancer Seek 作為 MI Profile 平台的 NGS 組件，我們相信增加的分析量會在 2026 年及以後對我們的成長產生重大貢獻。",
+    "我們的 Caris 平台是設計用以創造一個良性循環，使我們能持續創新並改善患者與醫生的影響。我們相信我們對分析的全面方法會繼續推動對我們基因組分析能力的需求，導致我們的臨牀基因組資料集進一步擴張，這些資料集提供額外的價值輸入，用以開發與提升我們的解決方案，最終目標是改善患者的結果。這個持續的反饋循環使我們得以開發 Caris Assure 平台，該平台利用 MI Profile 平台產生的基因組資料，以啟發我們的血液基質生物資訊演算法，使我們能偵測到先前未知的特徵與訊號，這些訊號提供對疾病發展的先進洞察。我們相信我們將能進一步利用這個過程，持續在精準腫瘤學及其他慢性疾病狀態，包括心臟病學、神經學與代謝疾病中進行有意義的創新。",
+    "",
+    "2025年6月20日，本公司完成首次公開發行（\"IPO\"）普通股，本公司發行並銷售23,529,412股普通股，每股價格為21.00美元，導致扣除經紀折扣及佣金後的淨現金流入為459.5 百萬美元，扣除發行費用9.0 百萬美元前。此外，2025年6月25日，經紀人行使其完全過量認購權，購買本公司額外3,529,411股普通股，價格為IPO價格，導致本公司淨現金流入為68.9 百萬美元，扣除折扣及佣金後。",
+    "本公司認為，本公司營運表現及未來成功取決於多項因素，這些因素對本公司而言具有顯著的機會，也可能帶來風險與挑戰，包括以下所述及第一部分第1A項\"風險因素\"中所討論的內容。",
+    "•解決方案的市場接受度與商業成功。本公司成功與未來成長取決於維持並擴大現有及未來分子分析解決方案的市場接受度，以及這些解決方案在現有及新客戶中的商業成功。本公司MI Profile及Caris Assure的案例數量已持續增加。然而，案例數量及解決方案價格的變動，通常不受癌症類型影響。會計年度終了日為2025年12月31日及2024年12月31日，臨牀案例數量分別為199,300及162,850。本公司於2025年1月商業化推出MI Cancer Seek解決方案，作為MI Profile平台的WES/WTS NGS零組件。本公司於2024年第一季啟動Caris Assure於治療選擇的廣泛商業化推廣。實現Caris Assure及未來解決方案，包括Caris Detect，在癌症治療連續體中的潛力，是本公司業務策略的關鍵組成部分。本公司解決方案的商業成功將取決於多項因素，包括額外的驗證研究及臨牀試驗，以證明本公司解決方案的有效性，特別是針對早期檢測、MCED、MRD追蹤及治療監測，以及持續採用Caris Assure及本公司其他解決方案，包括Caris Detect，由患者、醫療界及第三方付款者。",
+    "•生物製藥夥伴。本公司收入亦取決於本公司維持並擴大與生物製藥夥伴的關係，並吸引新的生物製藥夥伴。隨著本公司持續發展這些關係，本公司預期將支持越來越多的專案，並持續有機會為這些客戶提供開發及研究服務。",
+    "•新解決方案的開發與推出。本公司業務成功亦取決於本公司開發及商業化新解決方案的能力。本公司預計將持續投資於本公司"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與本公司業務及產業相關的風險",
+    "精準醫療產業競爭激烈且變化迅速。",
+    "自成立以來，本公司已產生重大虧損，未來可能繼續產生虧損，且可能無法產生足夠收入以達成並維持獲利。",
+    "本公司現有或未來的解決方案可能無法達成或維持足夠的商業市場接受度。",
+    "本公司現有收入主要來自於本公司組織基質分析解決方案的持續採用與使用。"
+   ],
+   "paragraphs": [
+    "本公司業務所面臨之風險與不確定性之說明如下。請謹慎考量下列所說明之風險，以及本年度報告表10-K（\"年度報告\"）中之其他資訊，包括本公司經審計之合併財務報表及相關附註，以及第二部分第七項標題為\"管理層對財務狀況與營運成果之討論與分析\"之內容。本公司尚可能面臨目前未察覺，或目前認為不具重大影響之其他風險與不確定性，這些因素亦可能對本公司業務造成不利影響。上述任何事件或發展之發生，可能對本公司業務、財務狀況、營運成果與成長前景造成損害。若發生此等事件，本公司證券之價格可能下跌，您可能喪失全部或部分投資。",
+    "以下為本公司業務所面臨之最重要風險、挑戰與不確定性之總結。此總結應與本節下所說明之風險因素一併閱讀，且不應視為本公司所面臨之所有重要或重大風險、挑戰與不確定性之完整清單或總結。",
+    "•精準醫療產業競爭激烈，且變化迅速。",
+    "•本公司自設立以來已產生重大虧損，未來可能繼續虧損，且可能無法產生足夠收入以達成並維持獲利。",
+    "•本公司現有或未來之解決方案可能無法達成或維持足夠之商業市場接受度。",
+    "•本公司解決方案可能無法如預期表現，且本公司驗證研究或臨牀試驗之結果可能無法支持某些解決方案之發佈或使用，如預期規劃，且可能無法符合相關要求，或在後續所需之試驗中重複出現。此情形可能對本公司業務、財務狀況、營運成果與成長前景造成不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

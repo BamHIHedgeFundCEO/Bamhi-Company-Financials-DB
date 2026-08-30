@@ -1,0 +1,134 @@
+{
+ "ticker": "URGN",
+ "cik": "0001668243",
+ "accession": "0001437749-26-006234",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "RTGel: Our Reverse Thermal Hydrogel Technology",
+    "Mitomycin—Our Drugs for the Treatment of Low-Grade UTUC and Low-Grade Intermediate Risk NMIBC",
+    "Our Approved Products",
+    "Our Pipeline",
+    "UGN-103 (mitomycin) for intravesical solution and UGN-104 (mitomycin) for pyelocalyceal solution",
+    "UGN-301 (zalifrelimab) intravesical solution",
+    "License and Acquisition Agreements",
+    "Agenus Agreement",
+    "IconOVir Agreement",
+    "Our Competitive Strengths",
+    "Our Growth Strategy",
+    "Establish our approved products, Jelmyto and Zusduri, as standards of care in low-grade UTUC and recurrent low-grade intermediate risk NMIBC, respectively",
+    "Expand our uro-oncology product pipeline.",
+    "Evaluate and selectively pursue potential collaborations in specialty oncology, uro-oncology and urology as well as to develop improved formulations and RTGel product life-cycle management strategies.",
+    "Intellectual Property"
+   ],
+   "paragraphs": [
+    "We are a biotechnology company dedicated to developing and commercializing innovative solutions that treat urothelial and specialty cancers. We have developed RTGel reverse-thermal hydrogel, a proprietary sustained release, hydrogel-based technology that has the potential to improve therapeutic profiles of existing drugs. Our technology is designed to enable longer exposure of urinary tract tissue to medications, making local therapy a potentially more effective treatment option. Our approved products Jelmyto (mitomycin) for pyelocalyceal solution and Zusduri (mitomycin) for intravesical solution are designed to ablate tumors by non-surgical means and to treat several forms of non-muscle invasive urothelial cancer, including low-grade upper tract urothelial cancer (\"low-grade UTUC\") and recurrent low-grade intermediate risk non-muscle invasive bladder cancer (\"low-grade intermediate risk NMIBC\"), respectively. In addition, our immuno-uro-oncology pipeline includes UGN-501 (formerly known as ICVB-1042), a next-generation investigational oncolytic virus.",
+    "RTGel is a novel proprietary polymeric biocompatible, reverse thermal gelation hydrogel technology, which, unlike the general characteristics of most forms of matter, is liquid at lower temperatures and converts into gel form when warmed to body temperature. We believe that these characteristics promote ease of delivery into and retention of drugs in body cavities, including the bladder and the upper urinary tract, forming a transient reservoir of drug that dissolves over time while preventing rapid excretion and providing for increased dwell time. RTGel leverages the physiologic flow of urine to provide a natural exit from the body.",
+    "RTGel's components are polymer-based and are inactive ingredients that are used in our FDA approved products, Jelmyto and Zusduri. We formulate RTGel with an active drug: mitomycin in the case of Jelmyto and Zusduri. The resulting formulations are instilled intravesically in liquid form directly into the upper urinary tract or bladder using standard instillation methodologies via catheters or nephrostomy tube, and thereafter convert into gel form at body temperature. Subsequently, upon contact with urine, RTGel gradually dissolves and releases the active drug over a period of several hours and is less affected by urine creation and voiding cycles as compared to water formulations.",
+    "We believe that RTGel, when formulated with an active drug, may allow for the improved efficacy of treatment of various types of urothelial and specialty cancers and urologic diseases without compromising the safety of the patient or interfering with the natural flow of fluids in the urinary tract. RTGel achieves this by:",
+    "increasing the exposure of active drugs in the bladder and upper urinary tract by significantly extending the dwell time of the active drug while conforming to the anatomy of the bladder and the upper urinary tract, which allows for enhanced drug tissue coverage. For example, the average dwell time of the standard aqueous mitomycin formulation, currently used as adjuvant treatment, in the upper urinary tract is approximately five minutes, compared to approximately six hours when mitomycin is formulated with RTGel;",
+    "administering higher doses of an active drug than would otherwise be possible using standard water-based formulations. For instance, it is only possible to dissolve 0.5 mg of mitomycin in 1 mL of water, while it is possible to formulate up to 8 mg of mitomycin with 1 mL of RTGel; and",
+    "maintaining the active drug's molecular structure and mode of action.",
+    "These characteristics of RTGel enable sustained release of mitomycin in the urinary tract for Jelmyto, Zusduri, UGN-103 and UGN-104. Further, RTGel may be particularly effective in the bladder and upper urinary tract where tumor visibility and access are challenging, and where there exists a significant amount of urine flow and voiding. We believe that these characteristics of RTGel may prove useful for the local delivery of active drugs to other bodily cavities in addition to the bladder and upper urinary tract.",
+    "Mitomycin is a generic drug currently utilized off-label as an adjuvant chemotherapy for the treatment of low-grade NMIBC after trans-urethral resection of bladder tumor (\"TURBT\"). Off-label means that while the FDA has not approved mitomycin as adjuvant treatment in the post-TURBT setting for low-grade intermediate risk NMIBC patients, physicians are permitted to utilize it as standard of care for this indication as part of medical practice. Mitomycin is administered using a water-based solution, which has a relatively short dwell time in the bladder limited to first voiding. Mitomycin often causes temporary irritation of the urinary tract, including the need to urinate frequently and urgently. In the upper urinary tract, the dwell time of aqueous mitomycin is limited to approximately five minutes as urine flows continuously and no active retention by the patient is feasible. Numerous in vitro models, in vivo studies and computer simulations have shown that increased dwell time of mitomycin in the bladder results in increased time to recurrence of urothelial cancer. In one such study, it was shown that mitomycin activity increased with exposure time. Specifically, the MIC90, or mean inhibitory concentration that causes 90% inhibition in cell growth, was 11-fold lower when exposure time was increased from 30 minutes to eight hours.",
+    "Mitomycin's mechanism of action is on the cancer cell's DNA and has been demonstrated to be most effective when the cancer cell is in its S-phase, or synthesis phase, during which the DNA is replicated. Each cancer cell goes through various phases during the cell cycle. However, the cell cycle is not synchronized in all cancer cells, which means that at any given point in time only a portion of the cancer cells are at their S-phase, or susceptible to the instilled mitomycin. Increased dwell time, facilitated by our RTGel preparations Jelmyto, Zusduri, UGN-103 and UGN-104, is designed to increase cell killing in vitro when compared to aqueous solutions of mitomycin.",
+    "Jelmyto is our novel sustained-release RTGel-based formulation of mitomycin that we have developed for the treatment of low-grade UTUC. RTGel is liquid at lower temperatures and converts into gel form at body temperature. This temperature-dependent viscosity characteristic allows for instillation of the chilled Jelmyto in its liquid form to the upper urinary tract via standard urinary procedures utilizing a catheter or nephrostomy tube",
+    ". Once instilled, Jelmyto converts into gel form at body temperature. Subsequently, upon contact with urine, Jelmyto gradually dissolves and releases the active drug, mitomycin, over a period of several hours versus several minutes for mitomycin in its water-based formulation.",
+    "Upper Tract Urothelial Carcinoma (\"UTUC\")",
+    "UTUC refers to malignant changes of the urothelium (the epithelial lining) of the upper urinary tract of the calyces, renal pelvis and ureter. Low-grade UTUC managed with endoscopic resection typically exhibits a high rate of local recurrence. High-grade UTUC is associated with renal parenchymal invasion and the development of metastases. UTUC accounts for approximately 5% to 10% of all new cases of urothelial cancer, which together with recurrent cases, results in an estimated annual incidence in the United States of up to 7,000 cases. UTUC is nearly three times more common in men than women and is typically diagnosed in patients in their 60s and 70s. Tumor grade is the key prognostic factor at the time of diagnosis of UTUC and is assigned based upon microscopic examination of tumor tissue. Approximately 40% of the patients diagnosed annually with UTUC in the United States have low-grade UTUC."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Financial Condition and Capital Requirements",
+    "Our indebtedness resulting from our loan agreement with Pharmakon could adversely affect our financial condition or restrict our future operations.",
+    "Covenants under our Prepaid Forward Contract with RTW restrict our ability to borrow additional capital.",
+    "Raising additional capital may cause dilution to our shareholders, restrict our operations or require us to relinquish rights to our technologies or product candidates.",
+    "Risks Related to Our Business and Strategy",
+    "We are highly dependent on the successful commercialization of our approved products, Jelmyto and Zusduri.",
+    "Post-approval results for our approved drugs in larger numbers of patients and broader populations may not be consistent with the results from our clinical studies.",
+    "If we are unable to effectively train and equip our sales force, our ability to successfully commercialize Jelmyto, Zusduri and any future product candidates will be harmed.",
+    "Jelmyto, Zusduri and any of our product candidates that receive regulatory approval may fail to achieve the broad degree of physician adoption and use and market acceptance necessary for commercial success.",
+    "Jelmyto, Zusduri and our product candidates, if approved, will face significant competition with competing technologies and our failure to compete effectively may prevent us from achieving significant market penetration.",
+    "We are dependent on the success of Jelmyto, Zusduri and our product candidates, including obtaining regulatory approval to market our product candidates in the United States.",
+    "We have limited experience in conducting clinical trials and obtaining approval for product candidates and may be unable to do so successfully.",
+    "We have not yet submitted NDAs for certain product candidates in our pipeline, and we may be delayed in obtaining, or fail to obtain, such regulatory approvals and to commercialize our product candidates."
+   ],
+   "paragraphs": [
+    "An investment in our ordinary shares involves a high degree of risk. You should carefully consider all of the information set forth in this Annual Report and in our other filings with the SEC, including the following risk factors which we face. Our business, financial condition or results of operations could be materially adversely affected by any of these risks. This Annual Report also contains forward-looking statements that involve risks and uncertainties. Our results could materially differ from those anticipated in these forward-looking statements, as a result of certain factors including the risks described below and elsewhere in this Annual Report. See \"Special Note Regarding Forward-Looking Statements\" above.",
+    "We have incurred significant losses and negative cash flows since our inception, and we anticipate that we will continue to incur losses and negative cash flows as we execute on our strategy and may not generate positive or sufficient cash flows from operations in the future, which may have an adverse impact on our working capital, total assets, stockholders' equity and our ability to service our indebtedness and commitments.",
+    "We are not profitable and have incurred net losses in each period since we commenced operations in 2004, including net losses of $153.5 million and $126.9 million for the years ended December 31, 2025 and 2024, respectively. As of December 31, 2025, we had an accumulated deficit of $959.7 million. We expect to continue to incur losses and negative cash flows as we execute our strategy, including the ongoing commercial launch of Zusduri, the continued commercialization of Jelmyto, and engaging in further product development activities. Our ability to ultimately achieve and sustain recurring revenues and profitability is dependent upon our ability to successfully commercialize our products and complete the development of our product candidates and obtain necessary regulatory approvals for and successfully manufacture, market and commercialize our product candidates, if approved.",
+    "We believe that we will continue to expend substantial resources in the foreseeable future for the clinical development of our current product candidates or any additional product candidates and indications that we may choose to pursue in the future as well as for the expansion of our commercial operations as we execute our commercialization strategy for Zusduri. These expenditures will include costs associated with research and development, conducting nonclinical studies and clinical trials, and payments for third-party manufacturing and supply, as well as sales and marketing of any of our product candidates that are approved for sale by regulatory agencies. Because the outcome of any clinical trial is highly uncertain, we cannot reasonably estimate the actual amounts necessary to successfully complete the development and commercialization of our clinical-stage and nonclinical drug candidates and any other drug candidates that we may develop in the future. Other unanticipated costs may also arise.",
+    "If we are not able to generate sufficient cash flows from Jelmyto and Zusduri product sales to fund our operations, it may have an adverse impact on our working capital, total assets, stockholders' equity and our ability to service our indebtedness.",
+    "Our future capital requirements depend on many factors, including:"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'RTGel': '我們的逆向熱氫凝膠技術'}",
+    "{'Mitomycin—Our Drugs for the Treatment of Low-Grade UTUC and Low-Grade Intermediate Risk NMIBC': '我們用於治療低階UTUC及低階中度風險NMIBC的藥物'}",
+    "{'Our Approved Products': '本公司已核准產品'}",
+    "{'Our Pipeline': '本公司產品開發管道'}",
+    "{'UGN-103 (mitomycin) for intravesical solution and UGN-104 (mitomycin) for pyelocalyceal solution': 'UGN-103 (mitomycin) 用於膀胱內溶液及 UGN-104 (mitomycin) 用於腎盂腎窩溶液'}",
+    "{'UGN-301 (zalifrelimab) intravesical solution': 'UGN-301 (zalifrelimab) 膀胱內溶液'}",
+    "{'License and Acquisition Agreements': '授權及收購協議'}",
+    "{'Agenus Agreement': 'Agenus 協議'}",
+    "IconOVir Agreement",
+    "Our Competitive Strengths",
+    "Our Growth Strategy",
+    "建立我們核准的產品 Jelmyto 和 Zusduri，作為低級別 UTUC 和反覆發作的低級別中等風險 NMIBC 的照護標準",
+    "擴展我們的泌尿腫瘤產品管線。",
+    "評估並選擇性地追求在專科腫瘤學、泌尿腫瘤學和泌尿學領域的潛在合作夥伴，以及發展改進配方和 RTGel 產品生命週期管理策略。",
+    "智慧財產權"
+   ],
+   "paragraphs": [
+    "本公司為一生物科技公司，專注於開發與商業化用以治療泌尿道及專科癌症的創新解決方案。本公司已開發出RTGel逆溫熱水凝膠，為一專屬的持續釋放、基於水凝膠的技術，有潛力改善現有藥物的治療效果。本公司技術設計用以讓泌尿道組織能更長時間接觸藥物，使局部治療成為潛在更有效的治療選擇。本公司已核准產品Jelmyto（mitomycin）用於腎盂腎窩溶液及Zusduri（mitomycin）用於膀胱內溶液，設計用以透過非手術方式消除腫瘤，並治療多種非肌肉侵襲性泌尿道癌，包括低階上泌尿道泌尿道癌（\"低階UTUC\"）及反覆低階中風險非肌肉侵襲性膀胱癌（\"低階中風險NMIBC\"）。此外，本公司免疫泌尿道腫瘤研發管道包含UGN-501（原名為ICVB-1042），為一新一代的臨牀研究性腫瘤病毒。",
+    "RTGel為一種新型專屬的聚合物生物相容性、逆溫熱水凝膠技術，與大多數物質的一般特性不同，其在較低溫度下為液態，當加溫至體溫時會轉變為凝膠形式。本公司認為這些特性可促進藥物在體腔內的給藥與保留，包括膀胱與上泌尿道，形成一暫時性的藥物儲存庫，隨時間逐漸溶解，同時防止快速排出，並提供更長的藥物停留時間。RTGel利用尿液的生理流動，提供一自然的體外排出方式。",
+    "RTGel的組成成分為聚合物基質，為本公司已核准產品Jelmyto與Zusduri所使用的惰性成分。本公司將RTGel與活性藥物mitomycin混合，用於Jelmyto與Zusduri。所製成的配方以液態形式直接經由導尿管或腎造瘍管，以標準灌注方法灌入上泌尿道或膀胱，之後在體溫下轉變為凝膠形式。隨後，當接觸尿液時，RTGel會逐漸溶解並釋放活性藥物，持續數小時，與水性配方相比，較不受尿液產生與排尿週期的影響。",
+    "本公司認為，當RTGel與活性藥物混合時，可能允許對各種泌尿道及專科癌症與泌尿道疾病的治療效果有所提升，而不影響患者的安安全性或幹擾泌尿道內液體的自然流動。RTGel達成此效果的方式為：",
+    "增加活性藥物在膀胱與上泌尿道的暴露時間，透過顯著延長活性藥物的停留時間，同時符合膀胱與上泌尿道的解剖結構，使藥物能更有效地覆蓋組織。例如，目前用作輔助治療的標準水性mitomycin配方，在上泌尿道的平均停留時間約為五分鐘，與mitomycin以RTGel配方時的平均停留時間約為六小時相比；",
+    "以較高劑量的活性藥物進行治療，這在標準水性配方中是無法實現的。例如，僅能將0.5毫克的mitomycin溶解於1毫升的水中，而以1毫升的RTGel配方則可達至8毫克的mitomycin；且",
+    "維持活性藥物的分子結構與作用機制。",
+    "RTGel的這些特性使mitomycin在泌尿道中能持續釋放，用於Jelmyto、Zusduri、UGN-103與UGN-104。進一步地，RTGel可能在膀胱與上泌尿道特別有效，此處腫瘤可見度與接觸困難，且存在大量尿液流動與排尿。本公司認為這些特性可能對膀胱與上泌尿道以外的其他體腔進行活性藥物局部給藥也具有應用價值。",
+    "Mitomycin 是一種已核准的藥物，目前用於非核准標籤（off-label）作為低風險 NMIBC 患者在膀胱腫瘤切除術（\"TURBT\"）後的輔助化療。非核准標籤意味著雖然美國食品藥物管理局（FDA）尚未核准 Mitomycin 作為低風險 NMIBC 患者在 TURBT 後的輔助治療，但醫師可依醫療實踐的標準，用於此適應症。Mitomycin 是以水基溶液方式給予，其在膀胱內的停留時間較短，僅限於第一次排尿。Mitomycin 通常會導致泌尿道的暫時刺激，包括頻繁且急迫的排尿需求。在上泌尿道，水基 Mitomycin 的停留時間約限於五分鐘，因為尿液持續流動，且患者無法主動保留。許多體外模型、體內研究及電腦模擬顯示，Mitomycin 在膀胱內的停留時間增加會導致泌尿道癌的復發時間延長。在一項研究中顯示，Mitomycin 的活性會隨著暴露時間增加而提高。具體而言，MIC90，或造成細胞生長90%抑制的平均抑制濃度，當暴露時間從30分鐘增加到8小時時，會降低11倍。",
+    "Mitomycin 的作用機制是針對癌細胞的DNA，已顯示在癌細胞處於其S期（合成期）時效果最佳，此時DNA正在複製。每個癌細胞在細胞週期中會經歷不同的階段。然而，所有癌細胞的細胞週期並非同步，這意味著在任何特定時間點，只有部分癌細胞處於其S期，或會對灌注的Mitomycin產生反應。透過我們的RTGel製劑Jelmyto、Zusduri、UGN-103 和 UGN-104 增加停留時間，設計用以提高體外細胞殺傷力，與水基Mitomycin溶液相比。",
+    "Jelmyto 是我們開發的新型延續釋放RTGel基質的Mitomycin製劑，用於治療低風險UTUC。RTGel 在低溫下為液體，體溫下會轉變為凝膠狀。這種溫度依賴的黏稠特性允許將冷卻的Jelmyto以液體形式經由標準泌尿程序，透過導尿管或腎造瘍管灌注至上泌尿道。",
+    "灌注後，Jelmyto 在體溫下轉變為凝膠狀。隨後，接觸尿液後，Jelmyto 會逐漸溶解並釋放活性藥物 Mitomycin，持續數小時，與水基製劑的 Mitomycin 停留數分鐘相比。",
+    "上泌尿道尿路上皮癌（\"UTUC\"）",
+    "UTUC 指的是上泌尿道（包括腎小盞、腎盂及輸尿管）的尿路上皮（上皮層）的惡性變化。經內視鏡切除治療的低風險 UTUC 通常具有高比例的局部復發率。高風險 UTUC 則與腎臟實質侵犯及轉移性病變的發展有關。UTUC 約佔所有新診斷尿路上皮癌病例的 5% 到 10%，加上復發病例，美國每年的預估發病例數高達 7,000 例。UTUC 在男性中約為女性的三倍，通常診斷時為 60 歲與 70 歲的患者。腫瘤等級是診斷 UTUC 時的主要預後因素，根據顯微鏡檢查腫瘤組織來判斷。美國每年診斷的 UTUC 患者中，約有 40% 是低風險 UTUC。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司財務狀況及資金需求相關的風險",
+    "本公司因與Pharmakon簽訂的貸款協議而產生的負債，可能不利於本公司財務狀況或限制本公司未來的營運。",
+    "本公司與RTW簽訂的預付遠期合約中的約束條款，可能限制本公司.borrow additional capital 的能力。",
+    "籌集額外資金可能會導致本公司股東權益稀釋、限制本公司營運或要求本公司放棄對本公司智慧財產權或產品候選藥物的權利。",
+    "與本公司業務及策略相關的風險",
+    "本公司高度依賴已核准產品Jelmyto及Zusduri的成功商業化。",
+    "已核准藥物在更大數量患者及更廣泛人口羣體中的上市後結果，可能與本公司臨牀研究的結果不一致。",
+    "若本公司無法有效培訓及裝備銷售團隊，將會影響本公司成功商業化Jelmyto、Zusduri及任何未來產品候選藥物的能力。",
+    "Jelmyto、Zusduri 以及任何經核准上市之產品候選藥物，可能無法達到廣泛的醫師採用與使用及市場接受度，以實現商業成功。",
+    "Jelmyto、Zusduri 以及我們的產品候選藥物，若獲得核准，將面臨來自競爭技術的顯著競爭，若我們無法有效競爭，可能無法實現顯著的市場佔有率。",
+    "我們的業務依賴 Jelmyto、Zusduri 以及我們的產品候選藥物之成功，包括取得核准以在美國市場推廣產品候選藥物。",
+    "我們在進行臨牀試驗及取得產品候選藥物核准方面經驗有限，可能無法成功進行這些活動。",
+    "我們尚未針對部分產品候選藥物提交新藥申請（NDA），且可能因延誤而無法取得，或根本無法取得相關監管核准，以商業化我們的產品候選藥物。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及高度風險。您應仔細審閱本年度報告以及本公司其他向美國證券交易委員會（SEC）提交的文件中所載的資訊，包括下列我們所面臨的風險因素。本公司業務、財務狀況或營運成果可能因這些風險而受到重大不利影響。本年度報告亦包含前瞻性陳述，這些陳述涉及風險與不確定性。本公司結果可能與這些前瞻性陳述所預期的有重大差異，原因包括下列風險因素及其他處於本年度報告中所描述的風險。請參閱上方的「前瞻性陳述特別說明」。",
+    "自本公司成立以來，我們已產生重大虧損與負面現金流，我們預期在執行我們的戰略時，將持續產生虧損與負面現金流，未來可能無法從營運中產生正向或足夠的現金流，這可能會對我們的營運資金、總資產、股東權益以及償還債務與履行承諾的能力產生不利影響。",
+    "",
+    "我們認為，在可預見的未來，我們將持續投入大量資源用於目前產品候選品或任何未來可能選擇追蹤的其他產品候選品與適應症的臨牀開發，以及執行Zusduri的商業化戰略時擴展商業運作。這些支出將包括研究與開發費用、進行非臨牀研究與臨牀試驗的費用，以及支付第三方製造與供應的費用，以及任何經監管機構核准銷售的產品候選品的銷售與行銷費用。由於任何臨牀試驗的結果極為不確定，我們無法合理預估成功完成臨牀階段與非臨牀藥物候選品以及任何未來可能開發的其他藥物候選品的開發與商業化所需的實際金額。其他未預期的費用也可能產生。",
+    "若我們無法從Jelmyto與Zusduri產品銷售中產生足夠的現金流以支應營運，可能會對我們的營運資金、總資產、股東權益以及償還債務的能力產生不利影響。",
+    "我們未來的資金需求取決於許多因素，包括："
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

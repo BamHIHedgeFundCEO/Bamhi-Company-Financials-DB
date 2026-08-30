@@ -1,0 +1,187 @@
+{
+ "ticker": "CSPI",
+ "cik": "0000356037",
+ "accession": "0000356037-25-000065",
+ "form": "10-K",
+ "reportDate": "2025-09-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "Sales Information by Industry Segment",
+    "(Dollar amounts in thousands)",
+    "Products and Services",
+    "Integration Solutions",
+    "Third-Party Hardware and Software",
+    "Professional Services",
+    "Managed IT and Cloud Services",
+    "Markets and Marketing",
+    "Sources and Availability of Product",
+    "Cyber Security Products Market",
+    "Manufacturing Market",
+    "Energy/Utility Market",
+    "Manufacturing, Assembly and Testing",
+    "Research and Development",
+    "Intellectual Property",
+    "All Companies",
+    "Significant Customers",
+    "Company Website",
+    "Financial Information about Geographic Areas"
+   ],
+   "paragraphs": [
+    "CSP Inc. (\"CSPi\" or \"CSPI\" or \"the Company\" or \"we\" or \"our\") was incorporated in 1968 and is based in Lowell, Massachusetts. To meet the diverse requirements of our commercial and defense customers worldwide, CSPi and its subsidiaries develop and market IT integration solutions, advanced security products, managed IT services, cloud services, purpose built network adapters, and high-performance cluster computer systems.",
+    "CSPI operates in two segments: Technology Solutions (\"TS\") and High Performance Products (\"HPP\").",
+    "● The TS segment consists of our wholly-owned Modcomp, Inc. subsidiary, which operates in the United States and the United Kingdom.",
+    "The TS segment generates product revenues by reselling third-party computer hardware and software as a value added reseller (\"VAR\"). The TS segment generates service revenues by the delivery of professional services for complex IT solutions, including advanced security; unified communications and collaboration; wireless and mobility; data center solutions; and network solutions as well as managed IT services (\"MSP\") that primarily serve the small and mid-sized business market (\"SMB\").",
+    "Third party products and professional services are marketed and sold through the Company's direct sales force into a variety of vertical markets, including automotive, defense, healthcare, education, federal, state and local government, and maritime.",
+    "● The HPP segment revenue comes from three distinct product lines: (i) a cybersecurity solution marketed as ARIA™ Software-Defined Security (\"SDS\"), which is offered to commercial, original equipment manufacturers (\"OEM\") and government customers; (ii) the Myricom® network adapters and related software for commercial, government and OEM customers; and (iii) the legacy Multicomputer product portfolio for digital signal processing (\"DSP\") applications within the defense markets.",
+    "● The ARIA SDS solution is a software portfolio comprised of 3 products: ARIA Packet Intelligence software which is used by customers for its high-speed wire-rate in-line packet filtering, steering and policy enforcement functions. ARIA Advanced Detection and Response (\"ADR\") solution used by customers to find and stop threats in real-time by monitoring their entire network, device and services footprint. It is used as the basis of MDR (Managed Detection and Response) services offered by ARIA and its Managed Security Service Provider (\"MSSP\") partners who provide it as part of a 24x7 managed SOC (Security Operations Center) offering. The product automates the MITRE ATT&CK™ framework to find threats up to 100 times faster with fewer human resources than other solutions.",
+    "● In July of 2023 ARIA Zero Trust (AZT) PROTECT™ was introduced to the market. ARIA AZT PROTECT™ was designed to fill a gap in the market – stopping the most sophisticated attacks that are used to attack critical infrastructure applications before harm can be done. It compliments other protection technologies in place and can stop some of the most well-known attacks including the SolarWinds attack, and the recent Russian sponsored Sandworm attacks used on utilities and energy infrastructure. The product is deployed and generating revenue from its initial contracts.",
+    "● Revenue is derived from: (i) license sales of our software platform components, (ii) support packages and (iii) any required supporting services. The software licenses, the support packages, as well as supporting services",
+    "● The ARIA portfolio is of value to regulated industries, such as manufacturing, pharmaceuticals, financial services, energy production, utilities, transportation and healthcare, due to the rise of critical infrastructure regulations enforced at the federal, state, and international level, as well as by industry entities. In addition, due to the complexities and high costs associated with enterprise-wide security, particularly in the creation and operation of SOCs, we believe that ARIA will be attractive to organizations that desire SOC-level protections without incurring the costs of procuring disparate tools and hiring and retaining highly trained security analysts. We also have begun selling our unique solution into MSSPs that want to offer a lower cost, more effective service at detecting today's widening range of cyber-attacks.",
+    "● The Myricom SmartNIC adapters (\"ARC Series\" and Myricom Secure Intelligent Adapters or \"SIA\") are optimized for and sold into markets that require high-bandwidth and low-latency including (i) packet capture, (ii) financial transactions, (iii) machine vision and (iv) network security. The ARC series has reached end of life due to ASIC supplier problems which will significantly reduce its contribution to the HPP line of business. The focus is now supporting its applications on third party provided intelligent network interface cards.",
+    "● Multicomputer products for DSP applications are no longer actively developed but will continue to be sold into established programs through fiscal year 2025 and supported for several years via our repair services offering. The revenue from these products, as a percentage of overall Company revenue, is expected to continue to decline over time.",
+    "The following table details our sales by operating segment for fiscal years ended September 30, 2025 and 2024. Additional segment and geographical information are set forth in Note 17 Segment Information to the consolidated financial statements.",
+    "Segment ​ ​ ​ 2025 ​ ​ ​ ​ ​ ​ 2024 ​ ​ ​"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Economic, Industry, and Operational Risks",
+    "Intellectual Property and Systems Risks",
+    "Legal and Regulatory Risks",
+    "Risks Related to Ownership of Our Common Stock"
+   ],
+   "paragraphs": [
+    "If any of the risks and uncertainties set forth below actually materialize, our business, financial condition and/or results of operations could be materially and adversely affected, the trading price of our common stock could decline and a stockholder could lose all or part of its, his or her investment. The risks and uncertainties set forth below are not the only ones we face. Additional risks and uncertainties not presently known to us or that we currently consider immaterial may also impair our business operations.",
+    "We depend on a small number of customers for a significant portion of our revenue and the loss of any customer could significantly affect our business.",
+    "Both the HPP and TS segments are reliant upon a small number of significant customers, and the loss of or significant reduction in sales to any one of which could have a material adverse effect on our business. For the fiscal years ended September 30, 2025 and 2024, no one customer accounted for 10% or more of our total revenues. Our revenues are largely dependent upon the ability of our customers to continue to grow or need services or to develop and sell products that incorporate our products. No assurance can be given that our customers will not experience financial or other difficulties that could adversely affect their operations and, in turn, our results of operations.",
+    "We depend on key personnel and skilled employees and face competition in hiring and retaining qualified employees.",
+    "We are largely dependent upon the skills and efforts of our senior management, managerial, sales and technical employees. None of our senior management personnel or other key employees are subject to any employment contracts except Victor Dellovo, our Chief Executive Officer and President. The loss of services of any of our executives or other key personnel could have a material adverse effect on our business, financial condition and results of operations. Our future success will depend to a significant extent on our ability to attract, train, motivate and retain highly skilled technical professionals. Our ability to maintain and renew existing engagements and obtain new business depends, in large part, on our ability to hire and retain technical personnel with skills that keep pace with continuing changes in our industry standards and technologies. The inability to hire additional qualified personnel could impair our ability to satisfy or grow our client base. There can be no assurance that we will be successful in retaining current or future employees.",
+    "Our success depends in part on our timely introduction of new products and technologies and our results can be impacted by the effectiveness of our significant investments in new products and technologies."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Overview of Fiscal Year 2025",
+    "Results of Operations",
+    "September 30, 2025",
+    "September 30, 2024",
+    "(Dollar amounts in thousands)",
+    "September 30,",
+    "Increase (decrease)",
+    "Gross Margins",
+    "Research and Development Expenses",
+    "Selling, General and Administrative",
+    "Year ended September 30,",
+    "By Operating Segment:",
+    "Other Income/Expenses",
+    "(Amounts in thousands)",
+    "Income Taxes",
+    "Liquidity and Capital Resources",
+    "Other Liquidity and Capital Resources Items",
+    "Critical Accounting Estimates and Policies",
+    "Revenue Recognition",
+    "Allocating transaction price with agreements with multiple components including leasing and/or a financing component",
+    "Professional Services Sold Without Products",
+    "Gross versus Net Revenue",
+    "Pension and Retirement Plans"
+   ],
+   "paragraphs": [
+    "Revenue increased by approximately $3.5 million, or 6%, to $58.7 million for the fiscal year ended September 30, 2025 compared to $55.2 million for the fiscal year ended September 30, 2024. Gross profit margin percentage decreased to 32% for the fiscal year ended September 30, 2025 compared to 34% for the fiscal year ended September 30, 2024. We generated an operating loss of $(3.1) million for the fiscal year ended September 30, 2025 as compared to an operating loss of $(1.9) million for the fiscal year ended September 30, 2024. Other income, net was consistent at approximately $1.5 million for the fiscal years ended September 30, 2025 and 2024. The Company recorded an income tax benefit of $(1.6) million, which reflected an effective tax rate of 94.5%, for the fiscal year ended September 30, 2025 compared to an income tax benefit of $(0.1) million, which reflected an effective tax rate of 22.2% for the fiscal year ended September 30, 2024.",
+    "The following table details our results of operations in dollars and as a percentage of sales for the fiscal years ended:"
+   ],
+   "focus": "Overview of Fiscal Year 2025"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "按產業分部之銷售資訊",
+    "(金額單位為千美元)",
+    "產品與服務",
+    "整合解決方案",
+    "第三方硬體與軟體",
+    "專業服務",
+    "受管理之資訊科技與雲端服務",
+    "市場與行銷",
+    "產品來源與產品可取得性",
+    "網路安全產品市場",
+    "{'original': 'Manufacturing Market', 'translated': '製造業市場'}",
+    "{'original': 'Energy/Utility Market', 'translated': '能源/公用事業市場'}",
+    "{'Manufacturing, Assembly and Testing': '製造、組裝與測試'}",
+    "{'Research and Development': '研究與發展'}",
+    "{'Intellectual Property': '智慧財產權'}",
+    "{'All Companies': '所有公司'}",
+    "{'original': 'Significant Customers', 'translated': '重要客戶'}",
+    "{'original': 'Company Website', 'translated': '公司網站'}",
+    "{'original': 'Financial Information about Geographic Areas', 'translated': '關於地理區域之財務資訊'}"
+   ],
+   "paragraphs": [
+    "CSP Inc. (\"CSPi\" or \"CSPI\" or \"the Company\" or \"we\" or \"our\") 於 1968 年成立，總部設於麻薩諸塞州洛厄爾市。為符合本公司商業與防禦客戶在全球的多樣需求，CSPi 及其子公司開發與行銷資訊科技整合解決方案、先進安全產品、管理資訊科技服務、雲端服務、專用網路適配器及高性能叢集電腦系統。",
+    "CSPI 運作於兩個應報告分部：科技解決方案（\"TS\"）及高性能產品（\"HPP\"）。",
+    "● TS 分部包含本公司百分之百擁有之 Modcomp, Inc. 子公司，該子公司營運於美國與英國。",
+    "TS 分部透過重新銷售第三方電腦硬體與軟體作為價值增加的經銷商（\"VAR\"）產生產品收入。TS 分部透過提供專業服務以交付複雜的資訊科技解決方案產生服務收入，包括先進安全；統一通訊與協作；無線與行動；資料中心解決方案；以及網路解決方案，以及管理資訊科技服務（\"MSP\"），主要服務於中小型企業市場（\"SMB\"）。",
+    "第三方產品與專業服務透過本公司直接銷售團隊行銷與銷售至多種垂直市場，包括汽車、防禦、醫療、教育、聯邦、州與地方政府，以及海事。",
+    "● HPP 分部收入來自三個不同的產品線：(i) 一個網路安全解決方案，以 ARIA™ 軟體定義安全（\"SDS\"）為名，提供給商業、原廠設備製造商（\"OEM\"）與政府客戶；(ii) Myricom® 網路適配器與相關軟體，供應給商業、政府與 OEM 客戶；以及 (iii) 一個傳統的 Multicomputer 產品組合，用於防禦市場的數位訊號處理（\"DSP\"）應用。",
+    "● ARIA SDS 解決方案為一個軟體組合，包含三個產品：ARIA Packet Intelligence 軟體，客戶用以執行高頻率線速資料包過濾、導向與政策執行功能。ARIA 高階偵測與回應（\"ADR\"）解決方案，客戶用以實時尋找並阻止威脅，監控其整個網路、裝置與服務的足跡。此產品作為 ARIA 及其管理安全服務供應商（\"MSSP\"）夥伴所提供的 MDR（管理偵測與回應）服務的基礎，這些夥伴將其作為 24x7 管理 SOC（安全運作中心）服務的一部分提供。此產品自動化 MITRE ATT&CK™ 框架，以較少的人力資源，將威脅偵測速度提高至其他解決方案的 100 倍。",
+    "● 2023 年 7 月，ARIA Zero Trust（AZT）PROTECT™ 首度推出市場。ARIA AZT PROTECT™ 設計用以填補市場缺口，於危害造成前阻止最複雜的攻擊，用以攻擊關鍵基礎設施應用。此產品補強其他保護技術，並可阻止一些最知名的攻擊，包括 SolarWinds 攻擊，以及近期由俄羅斯支持的 Sandworm 攻擊，用於電力與能源基礎設施。此產品已部署並從其初始契約中產生收入。",
+    "● 營業收入來自：(i) 我們軟體平台零組件的授權銷售、(ii) 支援套件以及 (iii) 任何必要的支援服務。軟體授權、支援套件以及支援服務",
+    "● ARIA 產品組合對受規範產業，例如製造業、製藥業、金融服務業、能源生產、公用事業、運輸業和醫療保健產業而言具有價值，這是因為在聯邦、州級及國際層面強制執行關鍵基礎設施規範的增加，以及產業機構的執行。此外，由於企業級安全措施的複雜性與高昂成本，特別是在建立與運作 SOC（安全運作中心）時，我們認為 ARIA 將吸引那些希望獲得 SOC 等級保護，但又不願承擔採購分散工具與聘僱與留住高階訓練安全分析師成本的組織。我們也已開始將我們獨特的解決方案銷售至 MSSP（管理服務供應商），這些供應商希望提供一種成本更低、更有效的服務，以偵測當前日益擴張的網路攻擊範圍。",
+    "● Myricom SmartNIC 介面卡（\"ARC 系列\" 和 Myricom 安全智慧介面卡或 \"SIA\"）是針對需要高頻寬與低延遲的市場所優化並銷售的，包括 (i) 封包擷取、(ii) 金融交易、(iii) 機械視覺以及 (iv) 網路安全。ARC 系列因 ASIC 供應商問題已達終結生命週期，這將顯著降低其對 HPP 事業部門的貢獻。目前的重點是支援其應用於第三方提供的智慧網路介面卡。",
+    "● 用於 DSP 應用的多電腦產品已不再積極開發，但將持續銷售至已建立的計畫，直到 2025 財年，並透過我們的維修服務方案支援數年。這些產品的收入，作為本公司總營業收入的百分比，預期將隨時間持續下降。",
+    "下列表格詳細說明我們各運營分部在 2025 年 9 月 30 日財年終及 2024 年財年終的銷售情況。更多分部及地理資訊請參閱財務報表附註 17「分部資訊」。",
+    "分部 ​ ​ ​ 2025 ​ ​ ​ ​ ​ ​ 2024 ​ ​ ​"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "財務年度2025年概覽",
+    "營運成果",
+    "2025年9月30日",
+    "2024年9月30日",
+    "(金額單位為千美元)",
+    "2025年9月30日",
+    "增加（減少）",
+    "毛利率",
+    "研究與發展費用",
+    "銷售、一般及行政費用",
+    "截至9月30日止年度",
+    "按營運分部分列：",
+    "其他收入/費用",
+    "(金額單位為千美元)",
+    "所得稅",
+    "流動性及資本資源",
+    "其他流動性及資本資源項目",
+    "重要會計估計及會計政策",
+    "收入認列",
+    "與包含租賃及/或融資成分之多項協議分配交易價格",
+    "無附產品之專業服務銷售",
+    "毛利 versus 網路收入",
+    "退休金及退休計畫"
+   ],
+   "paragraphs": [
+    "營業收入增加約 3.5 百萬美元，或 6%，至 58.7 百萬美元，為截至 2025 年 9 月 30 日財務年度，相較於 2024 年 9 月 30 日財務年度的 55.2 百萬美元。毛利率百分比下降至 32%，為截至 2025 年 9 月 30 日財務年度，相較於 2024 年 9 月 30 日財務年度的 34%。我們在截至 2025 年 9 月 30 日財務年度產生營運虧損為 (3.1) 百萬美元，相較於截至 2024 年 9 月 30 日財務年度的營運虧損為 (1.9) 百萬美元。其他收入，淨額在截至 2025 年 9 月 30 日財務年度與 2024 年 9 月 30 日財務年度均約為 1.5 百萬美元。本公司在截至 2025 年 9 月 30 日財務年度記錄所得稅利益為 (1.6) 百萬美元，反映有效稅率為 94.5%，相較於截至 2024 年 9 月 30 日財務年度的所得稅利益為 (0.1) 百萬美元，反映有效稅率為 22.2%。",
+    "下表詳細說明我們營運成果，以美元為單位，並以銷售額百分比表示，為截至各財務年度的結果："
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'original': 'Economic, Industry, and Operational Risks', 'translated': '總體經濟、產業與營運風險'}",
+    "{'original': 'Intellectual Property and Systems Risks', 'translated': '智慧財產權與系統風險'}",
+    "{'original': 'Legal and Regulatory Risks', 'translated': '法律與法規風險'}",
+    "{'original': 'Risks Related to Ownership of Our Common Stock', 'translated': '持有本公司普通股之風險'}"
+   ],
+   "paragraphs": [
+    "若上述風險與不確定性中任何一項實際發生，將可能對本公司業務、財務狀況及/或營運成果造成重大且不利的影響，本公司普通股的交易價格可能下跌，股東可能喪失全部或部分投資。上述風險與不確定性並非本公司所面臨的唯一風險。尚有其他風險與不確定性，目前尚未為本公司所知或本公司認為不重要，也可能影響本公司業務運作。",
+    "本公司業務嚴重依賴少數客戶以產生重大部分的營業收入，若失去任何客戶，將對本公司業務造成重大影響。",
+    "HPP 與 TS 分部均依賴少數重要客戶，若失去任何客戶或對任何客戶銷售大幅減少，將對本公司業務造成重大不利影響。截至 2025 年 9 月 30 日及 2024 年 9 月 30 日財務年度，無任何客戶佔本公司總營業收入 10% 或以上。本公司營業收入 largely 依賴客戶持續成長或需要服務，或開發與銷售 incorporates 本公司產品的產品。無法保證客戶不會遭遇財務或其他困難，而影響其營運，進而影響本公司營運成果。",
+    "本公司依賴關鍵人員與技術員工，並面臨在招聘與留住合格員工方面的競爭。",
+    "本公司 largely 依賴高階管理、營銷與技術員工的技能與努力。本公司高階管理人員或其他關鍵員工均未簽訂任何僱用契約，除了 Victor Dellovo，本公司首席執行長與董事長。若失去任何高階管理人員或其他關鍵員工的服務，將對本公司業務、財務狀況與營運成果造成重大不利影響。本公司未來的成功在很大程度上取決於本公司吸引、培訓、激勵與留住高技能技術專業人才的能力。本公司維持與更新現有合作關係並取得新業務的能力，在很大程度上取決於本公司聘僱與留住具備技能以跟上產業標準與技術持續變化的技術人才的能力。若無法聘僱更多合格人才，將影響本公司滿足或擴大客戶羣的能力。無法保證本公司將成功留住現有或未來員工。",
+    "本公司成功在一定程度上取決於本公司能及時推出新產品與技術，本公司營運成果可能受本公司在新產品與技術上重大投資的成效影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

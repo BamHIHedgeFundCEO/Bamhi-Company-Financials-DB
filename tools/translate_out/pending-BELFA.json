@@ -1,0 +1,211 @@
+{
+ "ticker": "BELFA",
+ "cik": "0000729580",
+ "accession": "0001437749-26-005354",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Product Line",
+    "Applications",
+    "Brands Sold Under",
+    "Connectivity",
+    "Market Factors",
+    "Government Contracts",
+    "Government Regulations",
+    "Human Capital Resources, Strategy and Management",
+    "Environmental, Social and Governance (\"ESG\") Matters",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Bel Fuse Inc. designs, manufactures and markets a broad array of products that power, protect and connect electronic circuits. These products are primarily used in the defense, commercial aerospace, networking, telecommunications, computing, general industrial, high-speed data transmission, transportation and eMobility industries. Bel's portfolio of products also finds application in the automotive, medical, broadcasting and consumer electronics markets. Bel's product groups include Power Solutions and Protection (front-end, board-mount, industrial and transportation power products, module products and circuit protection), Connectivity Solutions (expanded beam fiber optic, copper-based, RF and RJ connectors and cable assemblies), and Magnetic Solutions (integrated connector modules, power transformers, power inductors and discrete components).",
+    "With more than 75 years in operation, Bel has reliably demonstrated the ability to participate in a variety of product areas across a global platform. The Company has a strong track record of technical innovation working with the engineering teams of market leaders. Bel has proven itself a valuable supplier to world-class companies by developing new products with cost effective solutions.",
+    "The Company was incorporated in 1949 and is organized under New Jersey law. Bel's principal executive offices are located at 300 Executive Drive, Suite 300, West Orange, New Jersey 07052, and Bel's telephone number is (201) 432-0463. The Company operates facilities in North America, Europe and the Middle East (referred to as the \"EMEA\" region throughout), and Asia and trades on the NASDAQ Global Select Market (ticker symbols BELFA and BELFB). For information regarding Bel's operating segments, see Note 14, \"Segments\", of the notes to our consolidated financial statements. Hereinafter, all references to \"Note\" will refer to the notes to our consolidated financial statements included in Part II, Item 8. \"Financial Statements and Supplementary Data\" of this Annual Report on Form 10-K.",
+    "Acquisitions have played a critical role in the growth of Bel and the expansion of both our product portfolio and our customer base and continue to be an important element in our growth strategy. We frequently evaluate possible acquisition candidates that would expand our product and technology offerings to our customers and/or optimize our overall cost structure.",
+    "On November 14, 2024, the Company closed on the acquisition of its majority 80% stake in Enercon Technologies, Ltd. (\"Enercon\") pursuant to the terms of the Share Purchase Agreement, dated as of September 19, 2024 (the \"Purchase Agreement\"), by and among the Company, Enercon, and FF3 Holdings, L.P., for itself and as Sellers' Representative (\"FF3\"), and each of the other seller parties signatory thereto (collectively with FF3, the \"Sellers\"). Enercon is a leading supplier of highly customized power conversion and networking solutions to aerospace and defense markets globally, providing robust and reliable solutions across air, land and sea applications. Enercon is based in Netanya, Israel with additional facilities in New Hampshire, U.S. and Haryana, India. The Enercon business is part of Bel's Power Solutions and Protection group. At the closing, Bel paid an aggregate of approximately $325.6 million in cash in respect of the cash purchase price (after giving effect to estimated adjustments taken at closing including for Enercon's cash, indebtedness, net working capital and unpaid transaction costs, and subject to further adjustment post-closing). Bel funded the closing of the transaction through cash on hand of approximately $85.6 million and with approximately $240 million provided through incremental borrowings under the Company's revolving credit facility. Pursuant to the transaction documents, Bel may acquire the remaining 20% stake in Enercon and has the current intention to so purchase such remaining interest by early 2027 in accordance with the terms and subject to the conditions of a shareholders' agreement, which was also entered into on November 14, 2024. The preceding statement regarding Bel's intention to purchase the remaining interest in Enercon represents a Forward-Looking Statement. See \"Cautionary Notice Regarding Forward-Looking Information.\" See Note 3, \"Acquisition\" for further details about the Enercon acquisition.",
+    "On February 1, 2023, Bel closed on an €8.0 million (approximately $8.8 million as of the February 2023 closing) noncontrolling (one-third) investment in innolectric AG (\"innolectric\"), a Germany-based business in the field of on-board charging for eMobility applications. This passive investment was intended to create a strategic alliance that is focused on Electric Vehicles (\"EV\") on-board power electronics, and in particular next generation fast-charging technology. The innolectric investment has been part of Bel's Power Solutions and Protection group. See Note 2, \"Investment and Impairment in Innolectric\" for further information on the current status of the Company's investment in innolectric.",
+    "On March 31, 2021, the Company completed the acquisition of EOS Power (\"EOS\") through a stock purchase agreement for $7.8 million, net of cash acquired, including a working capital adjustment. EOS, located in Mumbai, India, enhanced Bel's position related to certain industrial and medical markets historically served by EOS, with a strong line of high-power density and low-profile products with high convection ratings. In addition to new products and customers acquired, this acquisition diversified Bel's manufacturing footprint in Asia. The EOS business is part of Bel's Power Solutions and Protection group.",
+    "On January 8, 2021, the Company acquired rms Connectors, Inc. (\"rms Connectors\" or \"rms\"), from rms Company Inc., a division of Cretex Companies, Inc., for $9.0 million in cash, including a working capital adjustment. rms Connectors is a highly regarded connector manufacturer with over 30 years of experience producing harsh environment circular connectors used in a variety of military and aerospace applications. This acquisition complemented Bel's existing military and aerospace product portfolio and enabled us to expand key customer relationships within these end markets and leverage the combined manufacturing resources to improve our operational efficiency. Originally based in Coon Rapids, Minnesota, the rms Connectors business was relocated into Bel's existing facilities during 2021 and is part of Bel's Connectivity Solutions group.",
+    "The Company primarily generates revenue through the sale of its products. Bel offers a broad array of product offerings, which are grouped as follows: Power Solutions & Protection (53% of net sales in 2025), Connectivity Solutions (34% of net sales in 2025) and Magnetic Solutions (13% of net sales in 2025). While there are key customers and end markets within each of the three product groups, there were no direct customers who accounted for more than 10% of our consolidated net sales in 2025. Our diverse product mix and customer base minimizes our dependence on any one customer or end market.",
+    "Bel's power conversion products include internal and external AC/DC power supplies, DC/DC converters and DC/AC inverters. Bel circuit protection products include a board offering of surface mount and through-hole level fuses as well as Polymeric PTC (Positive Temperature Coefficient) devices. The Power and Protection products are primarily used in Aerospace, Defense, Servers, Storage, Networking, Transportation, Harsh Environment, Consumer, Medical and Industrial markets.",
+    "Power Solutions and Protection Front-End Power Supplies",
+    "Provides the primary point of isolation between AC main line (input) and the low-voltage DC output that is used to power all electronics downstream.",
+    "Servers, telecommunication, network and data storage equipment. Bel Power Solutions & Protection",
+    "These are designed to be mounted on a circuit board. These converters take input voltage and provide localized on-board power to low-voltage electronics."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "We conduct business in a highly competitive industry.",
+    "Our intellectual property rights may not be adequately protected under the current state of the law.",
+    "Our acquisitions may not produce the anticipated results.",
+    "We are dependent on our ability to develop new products.",
+    "We may experience labor unrest.",
+    "We may experience labor shortages.",
+    "Demand in Enercon's end markets can be cyclical, impacting the demand for its products, and Enercon's business could be materially adversely affected by reductions in defense spending.",
+    "We may face risks related to conducting business in Israel.",
+    "The loss of certain substantial customers could materially and adversely affect us.",
+    "We may not achieve all of the expected benefits from our restructuring programs.",
+    "Our global operations and demand for our products face risks related to public health crises, including potential future outbreaks, epidemics or pandemics.",
+    "There are several factors which can cause our margins to suffer.",
+    "Our backlog figures may not be reliable indicators.",
+    "We may not be able to generate sufficient cash to service all of our indebtedness and may be forced to take other actions to satisfy our obligations under our indebtedness, which may not be successful.",
+    "Our level of indebtedness could negatively impact our access to the capital markets and our ability to satisfy financial covenants under our existing Credit Agreement.",
+    "We may be sued by third parties for alleged infringement of their proprietary rights and we may incur defense costs and possibly royalty obligations or lose the right to use technology important to our business.",
+    "Our results of operations may be materially and adversely impacted by environmental and other regulations.",
+    "Expanding and evolving data privacy laws and regulations could impact our business and expose us to increased liability.",
+    "Our stock price, like that of many companies, has been and may continue to be volatile.",
+    "The global nature of our operations exposes us to numerous risks that could materially adversely affect our consolidated financial condition and consolidated results of operations."
+   ],
+   "paragraphs": [
+    "The risks described below should be carefully considered before making an investment decision. These are the risk factors that we consider to be material, but they are not the only risk factors that should be considered in making an investment decision. This Form 10-K also contains Forward-Looking Statements that involve risks and uncertainties. See the \"Cautionary Notice Regarding Forward-Looking Information,\" above. Our business, consolidated financial condition and consolidated results of operations could be materially adversely affected by any of the risk factors described below, under \"Cautionary Notice Regarding Forward-Looking Information\" or with respect to specific Forward-Looking Statements presented herein. The trading price of our securities could decline due to any of these risks, and investors in our securities may lose all or part of their investment. Additional risks and uncertainties not presently known to us or that we currently believe to be immaterial may also materially adversely affect our business in the future. Except as required by the federal securities law, we undertake no obligation to update or revise any risk factor, whether as a result of new information, future events or otherwise.",
+    "Our business operates in a globally competitive industry, with relatively low barriers to entry. We compete principally on the basis of product performance, quality, reliability, depth of product line, customer service, technological innovation, design, delivery time and price. The industry in which we operate has become increasingly concentrated and globalized in recent years and our major competitors, many of which are larger than Bel, have significant financial resources and technological capabilities.",
+    "Our efforts to protect our intellectual property rights through patent, copyright, trademark and trade secret laws in the United States and in other countries may not prevent misappropriation, and our failure or inability to protect our proprietary rights could materially adversely affect our business, financial condition, operating results and future prospects. A third party could, without authorization, copy or otherwise appropriate our proprietary information. Our agreements with employees and others who participate in development activities could be breached, we may not have adequate remedies for any breach, and our trade secrets may otherwise become known or independently developed by competitors.",
+    "A significant portion of our growth has been attributable to acquisitions. We cannot assure that we will identify or successfully complete transactions with suitable acquisition candidates in the future. If an acquired business fails to operate as anticipated or cannot be successfully integrated with our other businesses, our results of operations, enterprise value, market value and prospects could all be materially and adversely affected. Integration of new acquisitions into our consolidated operations may result in lower average operating results for the group as a whole, and may divert management's focus from the ongoing operations of the Company during the integration period.",
+    "Our strategy also focuses on the reduction of selling, general and administrative expenses through the integration or elimination of redundant sales facilities and administrative functions at acquired companies. If we are unable to achieve our expectations with respect to our acquisitions, such inability could have a material and adverse effect on our results of operations. If the acquisitions fail to perform up to our expectations, or if there is a weakening of economic conditions, we could be required to record impairment charges on the goodwill and/or other assets associated with our acquisitions. In November 2025, we concluded that an impairment charge was required in connection with our noncontrolling minority investment in innolectric, a Germany-based e-Mobility technology company, and related party notes receivable, recording in Q4-25 a pre-tax impairment charge of $13.1 million representing the full impairment and write-down of our investment in innolectric and the related notes receivable, with no value attributable to such items reflected on our consolidated balance sheet as of December 31, 2025. The impairment was determined based on indicators of impairment including the cessation of financial support from the majority owner, recent financial performance, changes in market conditions, and other relevant factors affecting innolectric's business. The future course and full impact of innolectric's insolvency proceeding remains uncertain, including the impact thereof upon our investment in innolectric and related notes receivable, which may include potential full loss of our investment and related notes receivable. However, we currently do not expect any future recovery through innolectric's insolvency process. Our business, including in connection with any future acquisitions or investments, may experience similar challenges from time to time, and which could have a material adverse effect on our financial position and results of operations.",
+    "We may not realize the anticipated strategic and revenue opportunities from our November 2024 acquisition of our 80%-owned Enercon subsidiary within the expected time period (if at all), and our business may be disrupted if our intended acquisition of the remaining 20% stake in Enercon is not completed for any reason."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Key Factors Affecting our Business",
+    "Results of Operations - Summary by Operating Segment",
+    "Net Sales and Gross Margin",
+    "Cost of Sales",
+    "Research and Development (\"R&D\")",
+    "Selling, General and Administrative Expenses (\"SG&A\")",
+    "Restructuring Charges",
+    "Gain on Sale of Properties",
+    "Interest Expense",
+    "Interest Income",
+    "Impairment of Innolectric",
+    "Other Income (Expense), Net",
+    "Income Taxes",
+    "Inflation and Foreign Currency Exchange",
+    "Liquidity and Capital Resources",
+    "Critical Accounting Estimates"
+   ],
+   "paragraphs": [
+    "The information in this Management's Discussion and Analysis of Financial Condition and Results of Operations (\"MD&A\") should be read in conjunction with the Company's consolidated financial statements and the notes related thereto. The discussion of results, causes and trends should not be construed to imply any conclusion that such results, causes or trends will necessarily continue in the future. See \"Cautionary Notice Regarding Forward-Looking Information\" above for further information. Also, when we cross reference to a \"Note,\" we are referring to our \"Notes to Consolidated Financial Statements,\" unless the context indicates otherwise. All amounts and percentages are approximate due to rounding.",
+    "We design, manufacture and market a broad array of products that power, protect and connect electronic circuits. These products are primarily used in the defense, commercial aerospace, networking, telecommunications, computing, general industrial, high-speed data transmission, transportation and eMobility industries. Bel's portfolio of products also finds application in the automotive, medical, broadcasting and consumer electronics markets.",
+    "We operate through three product group segments. In 2025, 53% of the Company's revenues were derived from Power Solutions and Protection, 34% from Connectivity Solutions and 13% from our Magnetic Solutions operating segment.",
+    "Our operating expenses are driven principally by the cost of labor where the factories that Bel uses are located, the cost of the materials that we use and our ability to effectively and efficiently manage overhead costs. As labor and material costs vary by product line and region, any significant shift in product mix can have an associated impact on our costs of sales. Costs are recorded as incurred for all products manufactured. Such amounts are determined based upon the estimated stage of production and include labor cost and fringes and related allocations of factory overhead. Our products are manufactured at various facilities in the U.S., Mexico, Israel, India, the Dominican Republic, the United Kingdom, Slovakia and the PRC.",
+    "We have little visibility into the ordering habits of our customers and we can be subjected to large and unpredictable variations in demand for our products. Accordingly, we must continually recruit and train new workers to replace those lost to attrition and be able to address peaks in demand that may occur from time to time. These recruiting and training efforts and related inefficiencies, and overtime required to meet any increase in demand, can add volatility to the labor costs incurred by us.",
+    "The Company believes the key factors affecting Bel's 2025 and/or future results include the following:",
+    "Acquisition of Enercon - In November 2024, Bel acquired an 80% stake in Enercon. As a result, we benefited from a full year of Enercon's sales in 2025 within our Power Solutions and Protection segment. Enercon is a leading supplier of highly customized power conversion and networking solutions to aerospace and defense markets globally, providing robust and reliable solutions across air, land and sea applications, and its sales and results of operations may vary depending on government spending on defense. Enercon's sales have been reflected in the accompanying consolidated statements of operations since November 1, 2024 and amounted to $136.6 million during the year ended December 31, 2025 and $20.8 million during the year ended December 31, 2024.",
+    "Backlog – Our backlog of orders totaled $439.1 million at December 31, 2025, representing an increase of $57.5 million, or 15.1%, from December 31, 2024. From 2024 to the 2025 year-end, the backlog for our Power Solutions and Protection products increased by 9.4%, due to an increase in demand within the defense and networking end markets. Our Magnetic Solutions backlog increased by 52.3%, primarily due to increased order volume from a large networking customer. The backlog for our Connectivity Solutions products increased by $21.5 million (19.4%) in 2025 from the 2024 level, due to increased demand from our commercial aerospace and industrial customers, and strength seen in defense applications through the distribution channel.",
+    "Product Mix – Material and labor costs vary by product line and any significant shift in product mix between higher- and lower-margin product lines will have a corresponding impact on the Company's gross margin percentage. In general, our Connectivity products have historically had the highest contribution margins due to the harsh environment, high-reliability end applications for these products. Our Power products have a higher-cost bill of materials and are impacted to a greater extent by changes in material costs. As our Magnetic Solutions products are more labor-intensive, margins on these products are impacted to a greater extent by minimum- and market-based wage increases in the PRC and fluctuations in foreign exchange rates between the U.S. dollar and the Chinese renminbi. Fluctuations in sales volume among our product groups will have a corresponding impact on Bel's profit margins. See Note 14, \"Segments\" for profit margin information by product group.",
+    "Pricing and Availability of Materials – Pricing for commodities with Gold (Au), Silver (Ag), and Copper (Cu), is increasing as cost of these metals continue rise to historical highs. Lead-times for certain integrated circuits (ICs) have increased we believe primarily driven by AI and the infrastructure necessary to support this technology. Regulatory changes including but not limited to trade restrictions affecting suppliers in the PRC have previously and could in future disrupt our supply chain, leading to limited access to certain parts and suppliers, increased costs, shortages, or other adverse impacts on our business and operating results. Additionally, tariffs imposed by the U.S. or foreign governments on imports and exports could result in reduced margins or increased prices, potentially decreasing customer demand. The preceding discussion about pricing and availability of materials contains Forward-Looking Statements. See \"Cautionary Notice Regarding Forward-Looking Information.\"",
+    "Global Tariffs – On April 5, 2025, the Trump Administration enacted reciprocal tariffs on U.S. imports from a number of countries in which Bel's manufacturing sites and/or suppliers are located. To the extent all of these new tariffs were applicable and in force, based on information available and our sales patterns as of February 2025, our most recent estimates indicated that approximately 25% of our consolidated global sales had been subject to these recently-enacted U.S. tariffs. On February 20, 2026, the Supreme Court of the United States issued its decision in Learning Resources, Inc. v. Trump, striking down tariffs previously enacted by the Administration under the International Emergency Economic Powers Act (\"IEEPA\") as invalid, and holding that IEEPA does not authorize the President to impose tariffs. However, the full impact and implications of the Court's decision are not immediately clear amidst the rapidly-evolving regulatory landscape and the arena of international trade, and there remains great uncertainty as to what responses will emerge in light of the Court's decision, including with respect to tariffs, international trade agreements, and international trade generally; Congress has the authority to codify tariffs in statute, and the Administration could act to impose duties or alternative tariffs under authority delegated by other laws. Please see Part I, Item IA, \"Risk Factors, above, for additional information. Imports into the U.S. from Mexico are currently exempt from tariffs as our products fall within the scope of the USMCA as presently in force. While global tariffs did not have a material financial impact on our full year 2025 financial results, we continue to closely monitor the evolving tariff landscape and are assessing possible alternatives aimed at potentially mitigating the impact of tariffs on Bel and our customers. The imposition of tariffs on our U.S. imports could result in reduced demand for our products and/or higher material costs. Our future sales and/or gross margins could be impacted as a result. The preceding discussion of \"Global Tariffs\" contains Forward-Looking Statements, including statements about the possible effects and impacts of tariffs, and statements about our present plans and intentions in connection therewith or in response thereto. See \"Cautionary Notice Regarding Forward-Looking Information.\"",
+    "Labor Costs – Labor costs as a percentage of sales were relatively stable from 2025 to 2024, decreasing just slightly to 7.7% of sales in 2025 from 7.8% of sales in 2024. During 2025, minimum wage increases were enacted in Slovakia, the PRC, the Dominican Republic, and Mexico, which increased our annual labor costs by approximately $1.8 million in the aggregate. While the impact of these increases has been partially mitigated by higher consolidated revenues to date, these and any future wage increases are expected to exert upward pressure on labor costs and adversely affect profit margins. Labor costs as a percentage of sales fluctuate based on product mix. Sales in our Magnetic Solutions segment are comprised largely of labor-intensive ICM products, resulting in greater sensitivity to labor cost changes. Labor costs in the PRC, Mexico, and Israel are primarily denominated in local currencies. Accordingly, significant fluctuations in exchange rates versus the U.S. dollar may materially impact our labor costs. By segment, the Magnetic Solutions segment is most exposed to fluctuations in the exchange rate of the Chinese renminbi relative to the U.S. dollar; the Connectivity Solutions segment is most exposed to fluctuations in the exchange rate of the Mexican peso relative to the U.S. dollar; and the Power Solutions and Protection segment is most exposed to fluctuations in the exchange rates of the Chinese renminbi and the Israeli shekel relative to the U.S. dollar. In addition to foreign currency exchange rate exposure, our labor costs are subject to government-regulated minimum wage increases in the countries in which we operate. The preceding discussion about labor costs contains Forward-Looking Statements. See \"Cautionary Notice Regarding Forward-Looking Information.\"",
+    "Inflationary Pressures – Inflationary pressures could result in higher input costs, including those related to our raw materials, labor, freight, utilities, healthcare and other expenses. Our future operating results will depend, in part, on our continued ability to manage these fluctuations through pricing actions, cost savings initiatives and sourcing decisions. The preceding two sentences represent Forward-Looking Statements. See \"Cautionary Notice Regarding Forward-Looking Information.\"",
+    "Restructuring – In late 2025, we initiated a restructuring initiative within our Magnetic segment related to the transition of manufacturing from Bel's Pingguo, PRC facility to an outside subcontractor (the \"Pingguo initiative\"). In connection with the Pingguo initiative, we incurred $1.6 million of restructuring costs during the year ended December 31, 2025. We will continue to review our operations to optimize our business, which may result in restructuring costs being recognized in future periods. The preceding statements about restructuring initiatives contain Forward-Looking Statements. See \"Cautionary Notice Regarding Forward-Looking Information.\""
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "產品線",
+    "應用領域",
+    "銷售品牌",
+    "連線性",
+    "市場因素",
+    "政府契約",
+    "政府規範",
+    "人力資源、策略與管理",
+    "{'Environmental, Social and Governance (\"ESG\") Matters': '環境、社會及治理（\"ESG\"）事項'}",
+    "{'Available Information': '可供查閱之資訊'}"
+   ],
+   "paragraphs": [
+    "Bel Fuse Inc. 設計、製造及行銷一系列廣泛的產品，用以供電、保護及連接電子電路。這些產品主要應用於防禦、商業航空、網路、電信、計算、一般工業、高速資料傳輸、運輸及 eMobility 行業。Bel 的產品組合也應用於汽車、醫療、廣播及消費電子市場。Bel 的產品組別包括 Power Solutions and Protection（前端、板上安裝、工業及運輸用電源產品、模組產品及電路保護）、Connectivity Solutions（擴展光纖、銅基、RF 及 RJ 連接器及電纜組裝）以及 Magnetic Solutions（整合連接模組、電源變壓器、電源電感器及零組件）。",
+    "擁有超過 75 年營運經驗，Bel 已經可靠地展現其在全球平台參與多種產品領域的能力。本公司有強大的技術創新紀錄，與市場領導者的工程團隊合作。Bel 已證明其為世界級公司的重要供應商，透過開發具成本效益的解決方案來推出新產品。",
+    "本公司於 1949 年成立，並根據新澤西州法律組織。Bel 的主要營運辦公室位於 300 Executive Drive, Suite 300, West Orange, New Jersey 07052，且 Bel 的電話號碼為 (201) 432-0463。本公司在北美、歐洲及中東（在全文中稱為 \"EMEA\" 區域）以及亞洲設有設施，並在 NASDAQ Global Select Market 上市交易（股票代碼 BELFA 和 BELFB）。有關 Bel 的營運分部資訊，請參閱第 14 節 \"分部\" 的備註。以下所有對 \"備註\" 的提及均指包含於年度報告 10-K 第二部分，第 8 項 \"財務資料及補充資料\" 中的備註。",
+    "收購在 Bel 的成長中扮演了關鍵角色，並促進了我們產品組合及客戶羣的擴張，且持續是我們成長策略的重要組成部分。我們經常評估可能的收購對象，以擴展我們對客戶的產品與技術提供，或優化我們整體的成本結構。",
+    "於 2024 年 11 月 14 日，本公司完成收購其持有 80% 的 Enercon Technologies, Ltd.（\"Enercon\"）股權，根據 2024 年 9 月 19 日簽訂的股份買賣協議（\"買賣協議\"）進行，買賣協議由本公司、Enercon 及 FF3 Holdings, L.P.（\"FF3\"）簽訂，FF3 代表賣方（\"賣方\"），並與其他賣方簽約（ collectively with FF3, the \"Sellers\"）。Enercon 是全球航空與防禦市場的領先供應商，提供強固且可靠的解決方案，應用於空、陸、海各領域。Enercon 位於以色列 Netanya，並在美國新罕布夏州及印度哈里亞納州設有設施。Enercon 的業務屬於 Bel 的 Power Solutions and Protection 羣組。在交易完成時，Bel 以約 325.6 百萬美元現金支付了現金購股價格（扣除交易完成時預估調整後的現金、負債、淨運營資金及未償付交易費用，並可能根據交易後調整進行調整）。Bel 透過現金約 85.6 百萬美元及透過公司週轉信貸融資提供的約 240 百萬美元資金完成交易。根據交易文件，Bel 可能取得 Enercon 剩餘 20% 的股權，且目前有意於 2027 年初根據股東協議的條款及條件購入該股權。上述 Bel 意圖購入 Enercon 剩餘股權的陳述為前瞻性陳述。請參閱 \"關於前瞻性資訊的警示說明\"。請參閱備註 3，\"收購\" 以取得更多關於 Enercon 收購的資訊。",
+    "於 2023 年 2 月 1 日，Bel 完成對 innolectric AG（\"innolectric\"）的非控制性（三分之一）投資，投資金額為 €8.0 百萬（約為 2023 年 2 月交易完成時的 8.8 百萬美元），innolectric 是德國一家專門從事 eMobility 應用的車載充電業務。此被動投資旨在建立一個專注於電動車（\"EV\"）車載電力電子的戰略聯盟，特別是下一代快速充電技術。innolectric 的投資屬於 Bel 的 Power Solutions and Protection 羣組。請參閱備註 2，\"innolectric 投資及減值\" 以取得更多關於本公司對 innolectric 投資的現狀資訊。",
+    "於 2021 年 3 月 31 日，本公司透過股票買賣協議完成對 EOS Power（\"EOS\"）的收購，總金額為 7.8 百萬美元，扣除現金取得後，包括運營資金調整。EOS 位於印度孟買，增強了 Bel 在工業及醫療市場的競爭優勢，這些市場過去由 EOS 服務，並提供強大的高功率密度及低型號產品，具有高對流等級。除了新產品及客戶外，此收購也使 Bel 在亞洲的製造據點更加多元化。EOS 的業務屬於 Bel 的 Power Solutions and Protection 羣組。",
+    "於 2021 年 1 月 8 日，本公司以 9.0 百萬美元現金收購 rms Connectors, Inc.（\"rms Connectors\" 或 \"rms\"），來自 rms Company Inc.，為 Cretex Companies, Inc. 的一個部門，包括運營資金調整。rms Connectors 是一家享有聲譽的連接器製造商，擁有超過 30 年的經驗，專門生產用於各種軍事及航空應用的嚴苛環境圓形連接器。此收購補強了 Bel 現有的軍事及航空產品組合，並使我們能在這些終端市場擴展關鍵客戶關係，並利用結合製造資源提高運營效率。最初位於明尼蘇達州科恩拉普斯，rms Connectors 的業務於 2021 年遷入 Bel 的現有設施，並屬於 Bel 的 Connectivity Solutions 羣組。",
+    "本公司主要透過銷售其產品產生營業收入。Bel 提供廣泛的產品組合，分為以下類別：電力解決方案與保護（2025 年淨銷售額佔 53%）、連接解決方案（2025 年淨銷售額佔 34%）以及磁性解決方案（2025 年淨銷售額佔 13%）。雖然每個產品組別內均有關鍵客戶與最終市場，但 2025 年並無任何單一客戶佔本公司合併淨銷售額超過 10%。我們多元的產品組合與客戶羣體，使我們對任何單一客戶或最終市場的依賴程度降低。",
+    "Bel 的電力轉換產品包括內建與外建的 AC/DC 電源供應器、DC/DC 電壓轉換器以及 DC/AC 電壓逆變器。Bel 的電路保護產品包括板載的表面黏著與通孔式保險絲，以及 Polymeric PTC（正溫度係數）裝置。電力與保護產品主要應用於航空、國防、伺服器、儲存裝置、網路設備、運輸、嚴苛環境、消費性電子、醫療與工業市場。",
+    "電力解決方案與保護前段電源供應器",
+    "提供 AC 主線（輸入）與低壓直流輸出之間的主要隔離點，用以供應下游所有電子設備的電力。",
+    "伺服器、電信、網路與資料儲存設備。Bel 電力解決方案與保護",
+    "這些產品設計為安裝於電路板上。這些轉換器接收輸入電壓，並為低壓電子設備提供板載電力。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "影響本公司營運的重要因素",
+    "營運成果 - 依營運分部彙總說明",
+    "淨銷售額與毛利率",
+    "銷售成本",
+    "研究發展（\"R&D\"）",
+    "營銷、一般及行政費用（\"SG&A\"）",
+    "重整費用",
+    "不動產出售獲利",
+    "利息支出",
+    "利息收入",
+    "Innolectric 損失",
+    "其他收入（費用），淨額",
+    "所得稅",
+    "通貨膨脹及外幣兌換",
+    "流動性及資本資源",
+    "關鍵會計估計"
+   ],
+   "paragraphs": [
+    "本文件中「管理層討論與分析財務狀況及營運成果」(\"MD&A\") 的資訊應與本公司合併財務報表及其相關附註一併閱讀。有關營運成果、原因及趨勢的討論，不應被視為暗示這些成果、原因或趨勢將必然持續於未來。如需進一步資訊，請參閱上方的「關於前瞻性資訊的警示說明」。此外，當我們提及「附註」時，我們指的是「合併財務報表附註」，除非上下文另有說明。所有金額與百分比因四捨五入而為近似值。",
+    "我們設計、製造並行銷一系列產品，這些產品用以供電、保護及連接電子電路。這些產品主要應用於防禦、商業航空、網路、電信、計算、一般工業、高速資料傳輸、運輸及 eMobility 行業。Bel 的產品組合也應用於汽車、醫療、廣播及消費電子市場。",
+    "我們透過三個產品組別營運。2025 年，本公司營業收入中，有 53% 來自 Power Solutions and Protection 營運單位，34% 來自 Connectivity Solutions 營運單位，13% 來自 Magnetic Solutions 營運單位。",
+    "我們的營運費用主要由 Bel 所使用工廠所在地的勞動成本、我們所使用的材料成本，以及我們有效率地管理間接費用的能力所驅動。由於勞動與材料成本因產品線與地區而異，任何重大產品組合的變動都可能對我們的銷售成本產生相關影響。所有製造產品的成本在發生時即計入。這些金額根據預估的生產階段確定，並包含勞動成本、福利及相關的工廠間接費用分攤。我們的產品在美國、墨西哥、以色列、印度、多明尼加共和國、英國、斯洛伐克及中國人民共和國等地的多個工廠製造。",
+    "我們對客戶的訂購習慣缺乏明確的掌握，因此我們可能面臨產品需求大幅且不可預測的變動。因此，我們必須持續招募與培訓新員工以取代因人員流失而失去的員工，並能應對偶爾發生的需求高峯。這些招募與培訓努力及相關的低效率，以及為應對需求增加所需的加班，可能增加我們所承擔的勞動成本的波動性。",
+    "本公司認為影響 Bel 2025 及/或未來結果的關鍵因素如下：",
+    "收購 Enercon - 2024 年 11 月，Bel 收購了 Enercon 80% 的股權。因此，我們在 2025 年內於 Power Solutions and Protection 營運單位中，獲得了 Enercon 全年的銷售收入。Enercon 是全球航空與防禦市場上，提供高度客製化電力轉換與網路解決方案的領導供應商，提供強韌且可靠的解決方案，應用於空中、陸地與海上領域，其銷售與營運成果可能因政府對防禦的支出而有所變動。自 2024 年 11 月 1 日起，Enercon 的銷售已反映在隨同的合併營業收入表中，2025 年度截至 12 月 31 日止，Enercon 的銷售為 136.6 百萬美元，2024 年度截至 12 月 31 日止為 20.8 百萬美元。",
+    "待履行訂單 - 我們截至 2025 年 12 月 31 日的待履行訂單總額為 439.1 百萬美元，較 2024 年 12 月 31 日增加 57.5 百萬美元，或成長 15.1%。從 2024 年至 2025 年度結算日，我們 Power Solutions and Protection 產品的待履行訂單成長 9.4%，這是因防禦與網路終端市場需求增加所致。我們 Magnetic Solutions 的待履行訂單成長 52.3%，主要因來自大型網路客戶的訂單量增加。我們 Connectivity Solutions 產品的待履行訂單在 2025 年度較 2024 年度增加 21.5 百萬美元（19.4%），這是因商業航空與工業客戶的需求增加，以及透過經銷渠道在防禦應用中觀察到的強勁表現所致。",
+    "產品組成 – 原材料與人工成本因產品線而異，任何重大產品組成的變化，從高毛利率產品線轉向低毛利率產品線，將對本公司毛利率百分比產生相應影響。總體而言，我們的連接產品因應嚴苛環境與高可靠性終端應用，歷來擁有最高的貢獻毛利。我們的電力產品因原材料成本較高，因此對材料成本的變動更為敏感。由於我們的磁性解決方案產品較為勞動密集，因此這些產品的毛利對中國人民幣與美元之間匯率波動以及中國大陸的最低工資與市場工資增加更為敏感。我們各產品組之間銷售量的變動將對Bel的獲利毛利產生相應影響。請參閱附註14，\"應報告分部\"，以取得各產品組的獲利毛利資訊。",
+    "原材料價格與可得性 – 金屬金屬（Au）、銀（Ag）與銅（Cu）的價格持續上升，因這些金屬的成本已攀升至歷史高點。我們認為某些整合電路（IC）的交貨時間已增加，主要因人工智慧（AI）與支援此技術的基礎建設所驅動。包括但不限於影響中國大陸供應商的貿易限制在內的法規變動，過去曾且可能未來會干擾我們的供應鏈，導致某些零件與供應商的取得受限、成本增加、缺貨或其他對我們業務與營運結果的不利影響。此外，美國或外國政府對進口與出口所課徵的關稅，可能導致毛利率下降或價格上漲，進而降低客戶需求。上述關於原材料價格與可得性的討論包含前瞻性聲明。請參閱 \"前瞻性資訊警示說明。\"",
+    "全球關稅 – 2025年4月5日，特朗普政府對來自若干國家的美國進口商品課徵報復性關稅，這些國家包含Bel的製造廠與/或供應商所在地。假設所有這些新關稅皆適用且有效，根據截至2025年2月所掌握的資訊與銷售模式，我們最近的估計顯示，約有25%的總體營收會受到這些新課徵的美國關稅影響。2026年2月20日，美國最高法院在Learning Resources, Inc. v. Trump一案中作出判決，推翻了行政當局根據國際緊急經濟權力法（\"IEEPA\"）所課徵的關稅，認為其無效，並裁定IEEPA不允許總統課徵關稅。然而，面對快速變動的法規環境與國際貿易領域，法院判決的完整影響與後續發展尚不清楚，且在法院判決後，可能產生的回應措施，包括關稅、國際貿易協議與國際貿易整體，仍存在極大不確定性；國會有權力透過法律條文將關稅制度化，而行政當局也可根據其他法律授權課徵關稅或替代性關稅。請參閱第一部分，項目IA，\"風險因素\"，以取得更多資訊。目前美國從墨西哥進口的產品因符合現行的美墨加協議（USMCA）範疇，因此免於關稅。儘管全球關稅對我們2025年全年財務結果未造成重大財務影響，我們仍持續密切關注關稅環境的變化，並評估可能的替代方案，以期緩解關稅對Bel與我們客戶的影響。對我們美國進口商品課徵關稅，可能導致我們產品的需求減少與/或材料成本上升。我們未來的銷售與/或毛利率可能因此受到影響。上述關於 \"全球關稅\" 的討論包含前瞻性聲明，包括關於關稅可能影響與效果的陳述，以及我們目前計畫與意圖的陳述。請參閱 \"前瞻性資訊警示說明。\"",
+    "人工成本 – 人工成本佔銷售額的百分比在2025至2024年間相對穩定，僅微幅下降至2025年的7.7%（佔銷售額），與2024年的7.8%（佔銷售額）相比。2025年，斯洛伐克、中國大陸、多明尼加共和國與墨西哥均實施最低工資提高，導致我們年度總人工成本增加約1.8百萬美元。雖然這些提高的影響已部分被當前總體營收的增加所緩衝，但這些與未來可能的工資提高，預期將對人工成本產生上漲壓力，並對獲利毛利產生不利影響。人工成本佔銷售額的百分比會根據產品組成而變動。我們磁性解決方案產品組主要由勞動密集型ICM產品組成，因此對人工成本變動更為敏感。中國大陸、墨西哥與以色列的人工成本主要以當地貨幣計價。因此，與美元相比，匯率的重大波動可能對我們的人工成本產生重大影響。按產品組別而言，磁性解決方案產品組最易受中國人民幣與美元匯率波動的影響；連接解決方案產品組最易受墨西哥比索與美元匯率波動的影響；而電力解決方案與保護產品組最易受中國人民幣與以色列新謝克爾與美元匯率波動的影響。除了外幣匯率風險外，我們的人工成本也受到我們營運國家政府管制的最低工資提高的影響。上述關於人工成本的討論包含前瞻性聲明。請參閱 \"前瞻性資訊警示說明。\"",
+    "通貨膨脹壓力 – 通貨膨脹壓力可能導致投入成本上升，包括與我們原材料、人工、運輸、電力、醫療保健及其他費用相關的成本。我們未來的營運結果在一定程度上將取決於我們持續透過價格調整、成本節省措施與來源選擇來管理這些變動的能力。上述兩句話包含前瞻性聲明。請參閱 \"前瞻性資訊警示說明。\"",
+    "重整 – 2025年底，我們在磁性產品組內啟動了一項重整計畫，與將製造從Bel的中國廣東省憑溝廠轉移至外部委外夥伴（\"憑溝計畫\"）有關。與憑溝計畫相關，我們在2025年12月31日財年內產生了1.6百萬美元的重整成本。我們將持續評估營運狀況，以優化業務，這可能導致未來會認列重整成本。上述關於重整計畫的陳述包含前瞻性聲明。請參閱 \"前瞻性資訊警示說明。\""
+   ]
+  },
+  "risk": {
+   "headings": [
+    "本公司經營的產業為高度競爭的產業。",
+    "本公司智慧財產權在現行法律狀態下可能無法獲得充分保護。",
+    "本公司之併購可能無法達成預期之結果。",
+    "本公司依賴本公司開發新產品之能力。",
+    "本公司可能遭遇勞工罷工之風險。",
+    "本公司可能遭遇勞工短缺之風險。",
+    "Enercon 之終端市場需求可能具週期性，影響其產品之需求，且 Enercon 之業務可能因防衛支出減少而受到重大不利影響。",
+    "本公司可能面臨在以色列從事業務相關之風險。",
+    "某些重要客戶的流失可能對本公司造成重大且不利的影響。",
+    "本公司可能無法實現所有重組計畫預期的效益。",
+    "本公司全球營運及產品需求面臨公共衛生危機相關風險，包括未來可能的疫情、傳染病或大流行病。",
+    "有多種因素可能導致本公司獲利率受損。",
+    "本公司未出貨訂單數字可能無法作為可靠指標。",
+    "本公司可能無法產生足夠現金以償還所有債務，並可能被迫採取其他行動以履行債務義務，而這些行動可能無法成功。",
+    "本公司債務水準可能不利於本公司對資本市場的接觸，以及履行現有信貸協議下財務契約的能力。",
+    "本公司可能因被第三方指控侵權而遭起訴，並可能產生辯護費用，或需支付版權費用，或喪失對本公司業務重要技術的使用權。",
+    "本公司營運成果可能因環境及其他規範而受到重大且不利的影響。",
+    "資料隱私權法規的擴張與演進可能影響本公司營運，並使本公司面臨增加的法律責任。",
+    "本公司股票價格，如同許多公司一樣，已出現且可能持續出現波動。",
+    "本公司營運具全球性，使本公司面臨許多風險，這些風險可能對本公司合併財務狀況及合併營運成果造成重大且不利的影響。"
+   ],
+   "paragraphs": [
+    "下列風險應在做出投資決定前仔細考量。這些是我們認為重要的風險因素，但並非唯一應考量的風險因素。本 Form 10-K 也包含前瞻性陳述，涉及風險與不確定性。請參閱上方的「關於前瞻性資訊的警示」。我們的業務、合併財務狀況與合併營運成果可能因下列風險因素而受到重大不利影響，或因「關於前瞻性資訊的警示」中所述的風險因素，或與 herein 所述的特定前瞻性陳述有關。我們的證券交易價格可能因上述風險而下跌，投資人可能損失全部或部分投資。尚有其他風險與不確定性，目前我們尚未知悉，或目前認為不重要，但未來也可能對我們的業務造成重大不利影響。除非根據聯邦證券法有此要求，否則我們不承擔更新或修訂任何風險因素的義務，無論是因新資訊、未來事件或其他原因。",
+    "我們的業務運作於一個 globally competitive 行業，進入門檻相對較低。我們主要以產品性能、品質、可靠性、產品線深度、客戶服務、科技創新、設計、交貨時間與價格作為競爭基礎。我們所處的行業近年來已變得越來越集中與全球化，我們的主要競爭對手，許多都比 Bel 更大，且擁有顯著的財務資源與科技能力。",
+    "我們透過美國及其他國家的專利、著作權、商標與商業機密法律來保護我們的智慧財產權，但這可能無法防止他人不當使用。我們未能保護我們的專有權利，可能對我們的業務、財務狀況、營運成果與未來展望造成重大不利影響。第三方可能在未經授權的情況下，複製或以其他方式取得我們的專有資訊。我們與員工及其他參與開發活動的個人之間的協議可能被違約，我們可能無法對違約行為有足夠的救濟措施，且我們的商業機密可能被競爭對手得知或獨立開發。",
+    "我們成長的很大一部分歸因於併購。我們無法保證未來會識別或成功完成與合適併購目標的交易。如果收購的業務未能如預期運作，或無法與我們的其他業務成功整合，我們的營運成果、企業價值、市場價值與展望都可能受到重大且不利的影響。將新收購的業務整合至我們的合併運作中，可能導致整體集團的平均營運成果降低，且可能在整合期間分散管理層對公司日常運作的關注。",
+    "我們的策略也著重於透過整合或消除收購公司中重複的銷售設施與行政功能，來降低銷售、一般及行政費用。如果我們無法實現對收購的預期，這種無法實現可能對我們的營運成果造成重大且不利的影響。如果收購未能達到我們的預期，或經濟條件出現惡化，我們可能需要對與收購相關的商譽及其他資產進行減值提列。2025 年 11 月，我們決定因與德國 e-Mobility 科技公司 innolectric 的非控制性少數股權投資及相關方應收款項有關的減值費用，於 Q4-25 記錄了一筆 13.1 百萬美元的預稅減值費用，代表對 innolectric 投資及相關應收款項的完全減值與記提。截至 2025 年 12 月 31 日，這些項目在合併資產負債表上未反映任何價值。減值是根據包括主要股東停止財務支持、近期財務表現、市場條件變化及其他影響 innolectric 業務的相關因素等減值跡象所決定。innolectric 的破產程序未來的發展與影響仍不確定，包括對我們在 innolectric 的投資及相關應收款項的影響，可能包括我們投資及相關應收款項的完全損失。然而，我們目前不預期在 innolectric 的破產程序中獲得任何未來回報。我們的業務，包括與未來任何收購或投資相關的業務，可能偶爾會遇到類似挑戰，這可能對我們的財務狀況與營運成果造成重大不利影響。",
+    "我們可能無法在預期時間內（若有的話）實現 2024 年 11 月收購我們 80% 所有權 Enercon 子公司的預期戰略與收入機會，且如果我們有意收購 Enercon 剩餘 20% 股權的交易未能完成，可能導致我們的業務受到幹擾。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

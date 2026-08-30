@@ -1,0 +1,191 @@
+{
+ "ticker": "VICR",
+ "cik": "0000751978",
+ "accession": "0001193125-26-085102",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Strategy",
+    "Our Products",
+    "Advanced Products",
+    "Brick Products",
+    "Customers and Backlog",
+    "Competition and Market Characteristics",
+    "Marketing and Sales",
+    "Manufacturing, Quality Assurance, and Supply Chain Management",
+    "Intellectual Property",
+    "Human Capital Management",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "We design, develop, manufacture, and market modular power components and power systems for converting electrical power (expressed as \"watts,\" and represented by the symbol \"W\", with wattage being the product of voltage, expressed as \"volts,\" and represented by the symbol \"V,\" and current, expressed as \"amperes,\" and represented by the symbol \"I\"). In electrically-powered devices utilizing alternating current (\"AC\") voltage from a primary AC source (for example, a wall outlet), a power system converts AC voltage into the stable direct current (\"DC\") voltage necessary to power subsystems and/or individual applications and devices (known as \"loads\"). In many electronic devices, this DC voltage may be further converted to one or more voltages and currents required by a range of loads. In equipment utilizing DC voltage from a primary DC source (for example, a battery) or a secondary source (such as an AC-DC converter), the initial DC voltage similarly may require further conversion. A power system most commonly incorporates four voltage conversion functions: transformation, isolation, rectification, and regulation.",
+    "Transformation refers to the process of increasing or decreasing an AC voltage; isolation refers to the electrical separation, for safety, of primary and secondary voltages in a transformer; rectification refers to the process of converting a voltage from AC to DC and/or from DC to AC; and regulation refers to the process of providing a near constant voltage under a range of line and load conditions. Because numerous applications requiring different voltages, currents, and varied power ratings may exist within an electronically-powered device, and system power architectures themselves vary, we offer an extensive range of products and accessories in numerous application-specific configurations. We believe our product offering is among the most comprehensive in the market segments we serve. In addition to offering competitively differentiated products for sale, we also offer and engage in licensing arrangements with customers, resulting in royalty revenue.",
+    "Our strategy, competitive positioning, and product offerings are all based on highly differentiated product performance, reflecting our anticipation of the evolution of system power architectures and customer performance requirements. Since the Company was founded, we have pursued continuous innovations in product design and achievements in product performance, largely enabled by our focus on the research and development of advanced technologies and processes, often implemented in proprietary semiconductor circuitry, materials, and packaging. Reflecting this strategy, we categorize our offerings as either \"Advanced Products\" or \"Brick Products,\" generally based on design, performance, and form factor considerations, as well as the range of evolving applications for which the products are appropriate.",
+    "Our competition varies, depending on the market segment and application. Generally, we compete with developers and manufacturers of integrated circuits and semiconductor-based modules when addressing the needs of customers in enterprise computing and other market segments with implementations of our proprietary Factorized Power ArchitectureTM (\"FPA\") using Advanced Products. In contrast, we generally compete with manufacturers of integrated power supplies when addressing the needs of customers, across a wide range of market segments, implementing conventional power systems architectures (e.g., Centralized Power Architecture (\"CPA\"), Distributed Power Architecture (\"DPA\"), and Intermediate Bus Architecture (\"IBA\")) using Brick Products.",
+    "Our website, www.vicorpower.com, sets forth detailed information describing our products, the applications for which they may be used, and our suite of design tools. The information contained on our website is not a part of, nor incorporated by reference into, this Annual Report on Form 10-K and shall not be deemed \"filed\" under the Securities Exchange Act of 1934, as amended (the \"Exchange Act\").",
+    "We are headquartered in Andover, Massachusetts, where our manufacturing facility is located. Our wholly-owned subsidiary, VICR Securities Corporation, also is located in Andover, Massachusetts. Our other domestic offices are located in Santa Clara, California, Lombard, Illinois, and Lincoln, Rhode Island. Our two Vicor Custom Powertm subsidiaries, Freedom Power Systems, Inc. and Northwest Power, Inc., are located in Cedar Park, Texas, and Milwaukie, Oregon, respectively.",
+    "We have established individual subsidiaries or unincorporated branch offices outside of the United States, which we call Technical Support Centers (\"TSCs\"), to conduct preparatory and auxiliary services in support of the Company. Vicor Japan Company, Ltd. (\"VJCL\"), our 92.5%-owned Japanese subsidiary, which is engaged in sales and customer support activities exclusively for the sale of certain products customized by VJCL for the Japanese market, is headquartered in Tokyo, Japan.",
+    "Our remaining subsidiaries and their legal domicile are set forth in Exhibit 21.1 to this Annual Report on Form 10-K. The activities of all of the entities referred to above are consolidated in the financial statements presented herein.",
+    "Vicor was incorporated in Delaware in 1981, and we completed an initial public offering in May 1991. The Company has two classes of common stock outstanding: shares of our \"Common Stock,\" listed on The NASDAQ Stock Market under the ticker symbol VICR, and shares of our Class B common stock, which are not subject to registration pursuant to the Exchange Act and are not listed on any exchange.",
+    "Our strategy emphasizes demonstrable product differentiation and a value proposition based on competitively superior solution performance, advantageous design flexibility, and a compelling total cost of ownership (\"TCO\"). Since the Company was founded, our competitive position has been maintained by continuous innovations in product design and achievements in product performance, largely enabled by our focus on the research and development of advanced technologies and processes, often implemented in proprietary semiconductor circuitry, materials, and packaging. Many of",
+    "our products incorporate patented or proprietary implementations of high-frequency switching topologies, which enable the design of power system solutions more efficient and much smaller than conventional alternatives. This efficiency and small size is enabled by our proprietary switching circuitry and magnetic structures, as well as our use of highly differentiated packaging.",
+    "Power system performance is based primarily on conversion efficiency (i.e., the ratio of output power (i.e., watts) to input power) and power density (i.e., the amount of output power divided by the volume of the power system). Higher efficiency and density contribute to superior thermal performance, as the by-product of power conversion and distribution is heat, which must be dissipated in order to assure the performance of the power system solution itself and the overall system to which it is delivering power. Power system performance also is based on the electrical characteristics of the power system (and their effect on and compatibility with the customer's application). Important electrical characteristics include transient responsiveness (i.e., the reaction of a power system to a sudden change in voltage or current levels) and noise profile (i.e., the level of electromagnetic interference created by power conversion). We believe the superior performance of our power systems is the most important element of our differentiation strategy.",
+    "Our strategy complements performance superiority with design flexibility (i.e., ease of use), as our products can be utilized individually or combined, given their level of integration, to create power system solutions specific to a customer's precise needs. We articulate this positioning through our \"Power Component Design Methodology,\" an element of our differentiation strategy, which is our approach to providing our customers the modular products, design tools, and engineering support to enable the rapid design of advanced power system solutions by customers and, thereby, accelerate their own product development cycles. Our value proposition is supported by a compelling TCO, representing the cost of acquiring and operating a power system over its useful life, driven by competitive product pricing, high reliability, and demonstrably lower electricity costs.",
+    "Our earliest market focus was on telecommunications infrastructure, which uses a standard DC distribution voltage of 48V (nominally 48V to 54V), the highest distribution voltage that meets Safety Extra-Low Voltage (\"SELV\") standard requirements, while leaving sufficient margin for over-voltage protection circuits. While we offer products addressing other DC voltage standards (e.g., 380V for power distribution in data centers, 110V for rail applications, 28V for military and avionics applications, and 24V for industrial automation) and a broad range of customer requirements, we consider our core competencies to be associated with 48V distribution, which offers numerous inherent cost and performance advantages over lower distribution voltages, while remaining within the 60V SELV safety limit."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Operational Risks",
+    "Our future operating results are difficult to predict and are subject to fluctuations.",
+    "Global economic and political uncertainties, notably those associated with trade policy, could materially and adversely affect our business and consolidated operating results.",
+    "Our operating results recently have been influenced by a limited number of customers, and our future results may be similarly influenced.",
+    "We rely on third-party vendors and subcontractors for supply of components, assemblies, and services and, therefore, cannot control the availability or quality of such components, assemblies, and services.",
+    "Disruption of our information technology infrastructure could adversely affect our business.",
+    "Integrating artificial intelligence (\"AI\") and machine learning presents significant strategic advantages, yet necessitates a proactive approach to mitigating multifaceted business, financial, and legal risks.",
+    "We may face legal claims and litigation from product warranty or other claims that could be costly to resolve and could impact our business.",
+    "Our ability to successfully implement our business strategy may be limited if we do not retain our key personnel and attract and retain skilled and experienced personnel.",
+    "Our operations could be affected by the complex laws, rules and regulations to which our business is subject, and political and other actions may adversely impact our business.",
+    "Competitive Risks",
+    "We compete with many companies possessing far greater resources.",
+    "Intellectual Property Risks",
+    "We may be unable to adequately protect our proprietary rights, which may limit our ability to compete effectively.",
+    "We face intellectual property infringement claims that could be disruptive to operations and costly to resolve and may encounter similar infringement claims in the future.",
+    "Any expenses or liability resulting from the outcome of litigation could adversely influence our operating results and financial condition.",
+    "Regulatory Risks",
+    "Risks Related to Share Value",
+    "The price of our Common Stock has been volatile and may fluctuate in the future."
+   ],
+   "paragraphs": [
+    "This Annual Report on Form 10-K contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Exchange Act. Actual results could differ materially from those projected in the forward-looking statements as a result of, among other factors, the risk factors set forth below.",
+    "Our operating results, including revenues, gross margins, operating expenses, and net income (loss), have fluctuated on a quarterly and annual basis. Our strategic focus on higher volume opportunities with OEMs, ODMs, and contract",
+    "manufacturers has caused the actions of a relative few such customers to disproportionately influence our operating results. Unanticipated delays in purchase orders from, and shipments to, certain large customers have resulted in lower than expected revenue. Similarly, our strategic focus on the development of market-leading technologies and manufacturing processes, often implemented in proprietary semiconductor circuitry, materials, and packaging, has exposed the Company to the risks and costs of delays in such development and the use of a relatively few number of suppliers of proprietary circuits and materials or providers of proprietary services.",
+    "Despite recent profitability trends, we cannot predict if we will maintain sustained profitability. Our future operating results may be materially influenced by a number of factors, many of which are beyond our control, including:",
+    "• changes in demand for our products and for our customers' end-products incorporating our products, as well as our ability to respond efficiently to such changes in demand, including changes in delivery lead times and the volume of product for which orders are accepted and the product shipped within an individual quarter;",
+    "• our ability to manage our supply chain, inventory levels, and our own manufacturing capacity or that of third-party partners, particularly in the event of delays or cancellation of significant customer orders or in the event of delays or cost increases associated with our supply chain;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "2025 Financial Highlights",
+    "Year Ended December 31,",
+    "Evaluation of the Realizability of Deferred Tax Assets",
+    "New Accounting Pronouncements",
+    "Year ended December 31, 2025 compared to Year ended December 31, 2024",
+    "Increase (decrease)"
+   ],
+   "paragraphs": [
+    "A discussion regarding our results of operations for the year ended December 31, 2024, compared to the year ended December 31, 2023, was included in the Company's Annual Report on Form 10-K for the year ended December 31, 2024, on pages 24 and 26-28 under Part II, Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations\", which was filed with the SEC on March 3, 2025.",
+    "We design, develop, manufacture, and market modular power components and power systems for converting electrical power for use in electrically-powered devices. Our competitive position is supported by innovations in product design and achievements in product performance, largely enabled by our focus on the research and development of advanced technologies and processes, often implemented in proprietary semiconductor circuitry, materials, and packaging. Many of our products incorporate patented or proprietary implementations of high-frequency switching topologies enabling power system solutions that are more efficient and much smaller than conventional alternatives. Our strategy emphasizes demonstrable product differentiation and a value proposition based on competitively superior solution performance, advantageous design flexibility, and a compelling total cost of ownership. While we offer a wide range of alternating current (\"AC\") and direct current (\"DC\") power conversion products, we consider our core competencies to be associated with 48V DC distribution, which offers numerous inherent cost and performance advantages over lower distribution voltages. However, we also offer products addressing other DC voltage standards (e.g., 380V for power distribution in data centers, 110V for rail applications, 28V for military and avionics applications, and 24V for industrial automation).",
+    "Based on design, performance, and form factor considerations, as well as the range of evolving applications for which our products are appropriate, we categorize our product portfolios as either \"Advanced Products\" or \"Brick Products.\" The Advanced Products category consists of our more recently introduced products, which are largely used to implement our proprietary Factorized Power Architecture (\"FPA\"), an innovative power distribution architecture enabling flexible, rapid power system design using individual components optimized to perform a specific conversion function.",
+    "The Brick Products category largely consists of our broad and well-established families of integrated power converters, incorporating multiple conversion stages, used in conventional power systems architectures. Given the growth profiles of the markets we serve with our Advanced Products line and our Brick Products line, our strategy involves a continuing transition in organizational focus, emphasizing investment in our Advanced Products line and targeting high growth market segments with a low-mix, high-volume operational model, while maintaining a profitable business in the mature market segments we serve with our Brick Products line with a high-mix, low-volume operational model.",
+    "The applications in which our Advanced Products and Brick Products are used are typically in the higher-performance, higher-power segments of the market segments we serve. With our Advanced Products, we generally serve large Original Equipment Manufacturers (\"OEMs\"), Original Design Manufacturers (\"ODMs\"), and their contract manufacturers, with sales currently concentrated in the data center and hyperscaler segments of enterprise computing, in which our products are used for power delivery on server motherboards, in server racks, and across datacenter infrastructure. We have established a leadership position in the emerging market segment for powering high-performance processors used for acceleration of applications associated with artificial intelligence (\"AI\"). Our customers in the AI market segment include the leading innovators in processor and accelerator design, as well as early adopters in cloud computing and high performance computing. We also serve applications in aerospace and aviation, defense electronics, satellites, factory automation, instrumentation, test equipment, transportation, telecommunications and networking infrastructure, and vehicles (notably in the autonomous driving, electric vehicle, and hybrid vehicle niches of the vehicle segment). With our Brick Products, we generally serve a fragmented base of large and small customers, concentrated in aerospace and defense electronics, industrial equipment, instrumentation and test equipment, and transportation (notably in rail and heavy equipment applications). With our strategic emphasis on larger, high-volume customers, we expect to experience over time a greater concentration of sales, including from intellectual property licensing among relatively fewer customers.",
+    "Our quarterly consolidated operating results can be difficult to forecast and have been subject to significant fluctuations. We plan our production and inventory levels based on management's estimates of customer demand, customer forecasts, and other information sources. Customer forecasts, particularly those of OEM, ODM, and contract manufacturing customers to which we supply Advanced Products in high volumes, are subject to scheduling changes on short notice, contributing to operating inefficiencies and excess costs. In addition, external factors such as supply chain uncertainties, which are often associated with the cyclicality of the electronics industry, regional macroeconomic and trade-related circumstances, and force majeure events, have caused our operating results to vary meaningfully. Supply chain disruptions, including those associated with our reliance on outsourced package process steps that are essential in the production of some",
+    "of our Advanced Products, and those relating, for example, to the procurement of raw material, have in the past negatively impacted and may in the future negatively impact our operating results. We have taken steps to mitigate the impact of supply chain disruptions by, among other things and in varying degrees, moving outsourced manufacturing steps in-house to the Company, ordering supplies with extended lead times, paying higher prices for certain supplies or outsourced production, and expediting deliveries at a cost premium. The resulting impact of the steps taken to mitigate supply chain disruptions have, to varying degrees and at different times, reduced our revenue, gross margin, operating profit and cash flow and may continue to do so in the future. Our quarterly gross margin as a percentage of total net revenues may vary, depending on production volumes, licensing income, average selling prices, average unit costs, the mix of products sold during that quarter, and the level of importation of raw materials subject to tariffs. Our quarterly operating margin as a percentage of total net revenues also may vary with changes in revenue and product level profitability, but our operating costs are largely associated with compensation and related employee costs, which are not subject to sudden or significant changes.",
+    "• Total net revenues increased 13.5% to $407,701,000 for 2025, from $359,058,000 for 2024. Net revenues for Advanced Products for 2025 increased compared to 2024, primarily due to improved market demand and higher royalty revenue. The decrease in net revenues for Brick Products was primarily due to reduced market demand.",
+    "• Export sales, as a percentage of total net revenues, represented approximately 50.8% in 2025 and 48.2% in 2024.",
+    "• Gross margin for the year ended December 31, 2025 increased $75,431,000, or 41.0%, to $259,429,000 from $183,998,000 for the year ended December 31, 2024. Gross margin, as a percentage of total net revenues and patent litigation settlement, increased to 57.3% for the year ended December 31, 2025, as compared to 51.2% for the year ended December 31, 2024. The increase in gross margin dollars and gross margin percentage was primarily attributable to the $45,000,000 patent litigation settlement payment received by the Company in the second quarter of 2025 and the favorable impact from higher sales volume and improved sales mix on that revenue, including royalty revenue, when compared to 2024, offset by the unfavorable impact of production inefficiencies including an increase in freight-in and tariff spending of $3,949,000 (net of approximately $907,000 in duty drawback recovery in 2025 and $1,669,000 in duty drawback recovery in 2024 of previously paid tariffs).",
+    "• Backlog, representing the total of orders received for products for which shipment is scheduled within the next 12 months, was approximately $176,938,000 at the end of 2025, as compared to $155,505,000 at the end of 2024.",
+    "• Operating expenses for 2025 decreased $7,707,000, or 4.2%, to $177,601,000 from $185,308,000 for 2024. Litigation-contingency expense was $0 for 2025, as compared to $19,500,000 for 2024, which related to the litigation with SynQor, Inc. (\"SynQor\"). See Note 16 to the Consolidated Financial Statements for additional information regarding the SynQor litigation-contingency expense.",
+    "• We reported net income for 2025 of $118,556,000, or $2.61 per diluted share, compared to net income of $6,129,000, or $0.14 per diluted share, for 2024.",
+    "• In 2025, as a result of two full years of activities in our expanded manufacturing facility and the related capital equipment being placed in service during 2024 and 2025, depreciation and amortization totaled $20,786,000, and capital expenditures were $20,318,000, compared to $18,626,000 and $23,602,000, respectively, for 2024."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Our Strategy': '本公司策略'}",
+    "{'Our Products': '本公司產品'}",
+    "{'Advanced Products': '高階產品'}",
+    "{'Brick Products': '磚塊產品'}",
+    "{'Customers and Backlog': '客戶與積壓訂單'}",
+    "{'Competition and Market Characteristics': '競爭與市場特性'}",
+    "{'Marketing and Sales': '行銷與銷售'}",
+    "{'Manufacturing, Quality Assurance, and Supply Chain Management': '製造、品質保證與供應鏈管理'}",
+    "智慧財產權",
+    "人力資源管理",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "本公司設計、開發、製造及行銷模組化電力零組件及電力系統，用以轉換電力（以「瓦特」（W）表示，瓦特為電壓（以「伏特」（V）表示）與電流（以「安培」（A）表示）的乘積）。在使用交流電（AC）電壓來自主要AC來源（例如牆壁電源）的電力裝置中，電力系統會將AC電壓轉換為穩定的直流電（DC）電壓，以供子系統及/或個別應用及裝置（稱為「負載」）使用。在許多電子裝置中，此DC電壓可能進一步轉換為一或多種負載所需的電壓與電流。在使用來自主要DC來源（例如電池）或次要來源（例如AC-DC轉換器）的DC電壓的裝置中，初始DC電壓同樣可能需要進一步轉換。電力系統最常見的四種電壓轉換功能為：變壓、隔離、整流與調節。",
+    "變壓指的是增加或減少AC電壓的過程；隔離指的是在變壓器中，為安全起見，將主要與次要電壓電氣分離；整流指的是將電壓從AC轉換為DC及/或從DC轉換為AC的過程；調節指的是在不同電源與負載條件下提供近似恆定電壓的過程。由於電子裝置中可能有許多需要不同電壓、電流及不同功率等級的應用，且系統電力架構本身也有所不同，因此本公司提供廣泛的產品與配件，並以多種應用特定配置方式提供。本公司相信，我們的產品線是所服務市場區段中最為完整的。除了提供具競爭優勢的產品銷售外，本公司亦提供與客戶的授權安排，產生版稅收入。",
+    "本公司策略、競爭地位與產品線皆基於高度差異化的產品性能，反映本公司對系統電力架構演進及客戶性能需求的預期。自本公司成立以來，我們持續在產品設計與產品性能上進行創新，這 largely 由我們對先進技術與製程的研究與開發所促成，這些技術與製程通常應用於專屬半導體電路、材料與封裝。反映此策略，我們將產品分為「先進產品」或「磚狀產品」，通常根據設計、性能與形狀因子考量，以及產品適用的範圍不斷演進的應用。",
+    "我們的競爭對手視市場區段與應用而有所不同。一般而言，我們與開發與製造整合電路與半導體基模組的廠商競爭，以應對企業計算及其他市場區段中客戶的需要，這些客戶使用我們的專屬 Factorized Power ArchitectureTM（FPA）進行實現，使用先進產品。相對地，我們通常與製造整合電源供應器的廠商競爭，以應對客戶在廣泛市場區段中對需求的實現，這些實現使用傳統電力系統架構（例如中央電力架構（CPA）、分散電力架構（DPA）及中間總線架構（IBA））進行實現，使用磚狀產品。",
+    "本公司網站 www.vicorpower.com 提供詳細資訊，說明我們的產品、其可能的應用，以及我們的設計工具組合。網站上所載的資訊並非本年度10-K表報表的一部分，亦未經引用納入本年度10-K表報表，亦不視為根據1934年證券交易法（Exchange Act）所提交的文件。",
+    "本公司總部設於馬薩諸塞州安多弗（Andover, Massachusetts），本公司製造廠也設於此地。我們的 wholly-owned 子公司 VICR Securities Corporation 也設於馬薩諸塞州安多弗。我們的其他國內辦公室設於加州聖克拉拉（Santa Clara, California）、伊利諾州洛姆巴德（Lombard, Illinois）及羅德島州林肯（Lincoln, Rhode Island）。我們的兩家 Vicor Custom Powertm 子公司 Freedom Power Systems, Inc. 和 Northwest Power, Inc. 分別設於德克薩斯州塞達帕克（Cedar Park, Texas）及俄勒岡州米拉瓦基（Milwaukie, Oregon）。",
+    "本公司已在美國境外設立個別子公司或未登記的分支辦事處，稱為技術支援中心（Technical Support Centers，TSCs），以執行預備及輔助服務，支援本公司。我們的日本子公司 Vicor Japan Company, Ltd.（VJCL），為本公司持有92.5%股權的日本子公司，專門從事銷售及客戶支援活動，僅限於銷售 VJCL 為日本市場量身訂製的特定產品，總部設於日本東京。",
+    "本公司其他子公司及其法律註冊地點詳載於本年度10-K表報表的附錄21.1。上述所有實體的活動均納入本年度財務報表中。",
+    "Vicor 於 1981 年在特拉華州成立，並於 1991 年 5 月完成首次公開發行。本公司現有兩種類別的普通股：我們的 \"普通股\"，於 NASDAQ 股票市場上市，股票代碼為 VICR，以及我們的 Class B 普通股，這些股票不受證券交易法規的註冊要求限制，且未於任何交易所上市。",
+    "我們的策略強調可證明的產品差異化，並以基於競爭性優越解決方案表現、優勢設計靈活性以及具說服力的總成本擁有權（\"TCO\"）的價值主張為核心。自本公司成立以來，我們的競爭地位透過持續的產品設計創新與產品表現的成就而維持，這 largely 由我們對先進技術與製程的研究與開發所促成，這些技術與製程常以專屬半導體電路、材料與封裝方式實現。許多",
+    "我們的產品 incorporates 專利或專屬實現的高頻率開關拓撲結構，這使得設計出比傳統替代方案更高效且體積更小的電力系統解決方案成為可能。這種效率與小型化是由我們專屬的開關電路與磁性結構，以及我們使用高度差異化的封裝方式所實現。",
+    "電力系統表現主要基於轉換效率（即輸出功率（即瓦特）與輸入功率的比率）與電力密度（即輸出功率除以電力系統的體積）。更高的效率與密度有助於優越的熱性能，因為電力轉換與分配的副產品是熱能，必須散熱以確保電力系統解決方案本身與其供電的整體系統的表現。電力系統表現也基於電力系統的電氣特性（及其對客戶應用的影響與相容性）。重要的電氣特性包括瞬態響應（即電力系統對電壓或電流水平突然變化的反應）與噪音特性（即電力轉換產生的電磁幹擾水平）。我們認為我們電力系統的優越表現是我們差異化策略中最重要的元素。",
+    "我們的策略以表現優越性為基礎，並搭配設計靈活性（即易於使用），因為我們的產品可以單獨使用或組合使用，根據其整合程度，以創造符合客戶精確需求的電力系統解決方案。我們透過我們的 \"電力零組件設計方法論\" 來表達這種定位，這是我們差異化策略的一部分，這是我們提供客戶模組化產品、設計工具與工程支援的方法，以協助客戶快速設計先進的電力系統解決方案，進而加速他們自己的產品開發週期。我們的價值主張由具說服力的 TCO 支持，代表電力系統在其使用壽命內的取得與運作成本，由競爭性產品價格、高可靠性與可證明的電力成本較低所驅動。",
+    "我們最初的市場重點在於電信基礎建設，這使用標準直流分配電壓為 48V（約為 48V 至 54V），這是符合安全超低電壓（\"SELV\"）標準要求的最高分配電壓，同時保留足夠的電壓過保護電路的邊際空間。雖然我們提供解決其他直流電壓標準（例如 380V 用於資料中心的電力分配、110V 用於鐵路應用、28V 用於軍事與航電應用、以及 24V 用於工業自動化）與廣泛客戶需求的產品，我們認為我們的核心競爭優勢與 48V 分配電壓相關，這種電壓在提供比較低分配電壓更多的內在成本與性能優勢的同時，仍維持在 60V SELV 安全限制內。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "2025 年財務亮點",
+    "截至 12 月 31 日年度",
+    "遞延所得稅資產之可實現性評估",
+    "新會計準則",
+    "截至 12 月 31 日 2025 年度與截至 12 月 31 日 2024 年度比較",
+    "增加（減少）"
+   ],
+   "paragraphs": [
+    "有關我們於2024年12月31日財務年度之營運結果與2023年12月31日財務年度之營運結果比較之討論，已包含於本公司2024年12月31日財務年度之年度報告表10-K，位於第二部分，項目7，「管理層對財務狀況與營運結果之分析」，頁數24與26至28，並於2025年3月3日向美國證券交易委員會（SEC）提交。",
+    "我們設計、開發、製造與行銷模組化電力零組件與電力系統，用以轉換電力供電動設備使用。我們的競爭優勢來自產品設計創新與產品性能成就，這 largely 由我們對先進技術與製程之研究與開發所驅動，常透過專屬半導體電路、材料與封裝實現。許多產品 incorporates 專利或專屬實現之高頻率開關拓撲，使電力系統解決方案更高效且體積遠小於傳統替代方案。我們的策略強調可見的產品差異化，並以競爭優勢之解決方案性能、優越的設計靈活性與具吸引力之總成本為價值主張。雖然我們提供廣泛之交流電（\"AC\"）與直流電（\"DC\"）電力轉換產品，我們認為核心競爭力與48V直流電分配相關，此技術在較低電壓分配中具有許多內在成本與性能優勢。然而，我們也提供符合其他直流電壓標準（例如：380V用於資料中心之電力分配、110V用於鐵路應用、28V用於軍事與航電應用、24V用於工業自動化）之產品。",
+    "根據設計、性能與體積考量，以及我們產品適用之應用範圍，我們將產品組合分為「高階產品」或「磚狀產品」兩類。高階產品類別包含我們較新推出之產品，主要用於實現我們專屬之Factorized Power Architecture（\"FPA\"），一種創新之電力分配架構，使電力系統設計更具靈活性與快速性，透過個別零組件實現特定轉換功能。",
+    "磚狀產品類別主要包含我們廣泛且成熟之整合電力轉換器系列，包含多階段轉換，用於傳統電力系統架構。根據我們高階產品與磚狀產品所服務市場之成長趨勢，我們的策略涉及持續轉變組織重點，強調對高階產品線之投資，並針對高成長市場區段，以低品種、高產量運營模式進行，同時維持在磚狀產品線所服務之成熟市場區段之獲利業務，以高品種、低產量運營模式進行。",
+    "我們高階產品與磚狀產品所應用之市場，通常為所服務市場區段中之高性能、高功率部分。以我們高階產品而言，我們通常服務大型原始設備製造商（\"OEMs\"）、原始設計製造商（\"ODMs\"）及其代工製造商，目前銷售集中於企業計算之資料中心與超規模計算區段，產品用於伺服器主機板之電力供應、伺服器機架與資料中心基礎建設。我們在用於人工智慧（\"AI\"）應用之高性能處理器電力供應新興市場區段中建立領導地位。AI市場區段之客戶包括處理器與加速器設計之領先創新者，以及雲端計算與高性能計算之早期採用者。我們也服務航空與航太、防禦電子、衛星、工廠自動化、儀器、測試設備、運輸、電信與網路基礎建設，以及車輛（特別是在自動駕駛、電動車與混合動力車輛之車輛區段）應用。以我們磚狀產品而言，我們通常服務分散之大型與小型客戶羣，集中於航空與防禦電子、工業設備、儀器與測試設備，以及運輸（特別是在鐵路與重型設備應用）。",
+    "由於我們對較大、高產量客戶之戰略重視，我們預期將在未來經歷銷售集中，包括來自較少客戶之智慧財產權授權。",
+    "我們每季之合併營運結果難以預測，且曾出現顯著波動。我們根據管理層對客戶需求、客戶預測及其他資訊來源之估計，來規劃生產與存貨水準。客戶預測，特別是對我們高產量供應高階產品之原始設備製造商（\"OEMs\"）、原始設計製造商（\"ODMs\"）及代工製造商之預測，常因短時間內之排程變動而產生，導致營運低效率與過多成本。此外，外部因素如供應鏈不確定性，常與電子產業週期性相關，區域總體經濟與貿易相關情況，以及不可抗力事件，已導致我們營運結果產生顯著變動。供應鏈中斷，包括與我們對某些高階產品之外包封裝步驟之依賴，以及與例如原材料採購相關之問題，過去已對我們營運結果產生負面影響，未來也可能繼續產生負面影響。我們已採取步驟緩解供應鏈中斷之影響，包括但不限於在不同程度上將外包製造步驟轉為本公司內部製造、訂購具長交期之供應品、為某些供應品或外包生產支付較高價格，以及以較高成本加速交貨。這些步驟所產生之影響，已於不同程度與不同時間，降低我們之營業收入、毛利率、營運利潤與現金流，未來也可能持續如此。我們每季之毛利率佔總淨營收百分比可能因生產量、授權收入、平均銷售價格、平均單位成本、該季銷售產品組合，以及受關稅影響之原材料進口程度而有所不同。我們每季之營運利潤佔總淨營收百分比也因收入與產品層級利潤率之變動而有所不同，但我們之營運成本主要與薪資及相關員工成本有關，這些成本不易突然或大幅變動。",
+    "• 總淨營收增加13.5%至2025年之407,701,000美元，較2024年之359,058,000美元。2025年高階產品之淨營收較2024年增加，主要因市場需求改善與 royalty 收入增加。磚狀產品之淨營收減少，主要因市場需求下降。",
+    "• 出口銷售佔總淨銷售額的百分比，於2025年約為50.8%，2024年為48.2%。",
+    "• 2025年12月31日為結算日的年度毛利率，較2024年12月31日為結算日的年度毛利率增加75,431,000美元，或41.0%，達259,429,000美元，從183,998,000美元。毛利率佔總淨銷售額及專利訴訟和解金的百分比，於2025年12月31日為結算日的年度為57.3%，較2024年12月31日為結算日的年度51.2%為高。毛利率金額與毛利率百分比的增加，主要歸因於本公司於2025年第二季收到45,000,000美元的專利訴訟和解金，以及較2024年更高的銷售量與銷售組合改善對該收入的有利影響，包括版稅收入，抵銷了生產效率低下所造成的不利影響，包括增加的運費入與關稅支出3,949,000美元（扣除2025年約907,000美元的關稅退還與2024年1,669,000美元的關稅退還）。",
+    "• 預計在未來12個月內出貨的訂單總值（即為積壓訂單）於2025年底約為176,938,000美元，較2024年底的155,505,000美元為高。",
+    "• 2025年的營運費用減少7,707,000美元，或4.2%，達177,601,000美元，較2024年的185,308,000美元為低。2025年的訴訟備抵費用為0美元，較2024年的19,500,000美元為低，此費用與SynQor, Inc.（\"SynQor\"）的訴訟有關。有關SynQor訴訟備抵費用的更多資訊，請參閱財務報表附註第16項。",
+    "• 我們於2025年報告的淨收入為118,556,000美元，或每股稀釋後普通股2.61美元，較2024年的淨收入6,129,000美元，或每股稀釋後普通股0.14美元為高。",
+    "• 2025年，由於我們擴充製造廠兩年的運作，以及相關資本設備於2024年及2025年投入服務，折舊及攤銷費用總計為20,786,000美元，資本支出為20,318,000美元，較2024年的18,626,000美元及23,602,000美元為低。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "營運風險",
+    "我們未來的營運結果難以預測，且可能出現波動。",
+    "全球經濟與政治的不確定性，特別是與貿易政策相關的不確定性，可能會對我們的業務及合併營運結果造成重大且不利的影響。",
+    "我們近期的營運結果受到少數客戶的影響，未來的營運結果也可能受到類似影響。",
+    "我們依賴第三方廠商與分包商提供零組件、組裝及服務，因此無法控制這些零組件、組裝及服務的可得性與品質。",
+    "資訊科技基礎建設的中斷可能會對我們的業務造成不利影響。",
+    "整合人工智慧（\"AI\"）與機器學習可帶來顯著的戰略優勢，但同時也需要積極的態度來緩解多面向的業務、財務與法律風險。",
+    "我們可能面臨因產品保固或其他聲請而產生的法律爭議與訴訟，這些爭議與訴訟解決起來可能成本高昂，並可能影響我們的業務。",
+    "本公司能否成功執行業務策略，可能受限於是否能留住關鍵人員並吸引及留住具備技能與經驗之人員。",
+    "本公司之營運可能受所適用之複雜法律、規則及法規影響，且政治及其他行動可能對本公司業務產生不利影響。",
+    "競爭風險",
+    "本公司與許多擁有遠較豐富資源之公司競爭。",
+    "智慧財產權風險",
+    "本公司可能無法充分保護專屬權利，此可能限制本公司有效競爭之能力。",
+    "本公司面臨智慧財產權侵權聲請，此可能幹擾營運並造成高昂之解決成本，且未來可能遭遇類似侵權聲請。",
+    "任何因訴訟結果產生之費用或負債，可能對本公司營運成果及財務狀況產生不利影響。",
+    "法規風險",
+    "與股價相關的風險",
+    "本公司普通股的價格曾出現波動，未來可能繼續波動"
+   ],
+   "paragraphs": [
+    "{'translated_text': '本年度10-K表報表包含依1933年證券交易法第27A節（經修正）及1934年證券交易法第21E節所定義之向前看陳述。實際結果可能因多種因素而與向前看陳述中所預測者有重大差異，包括下列風險因素。'}",
+    "本公司之營運成果，包括營業收入、毛利率、營運費用及淨損益（虧損），於每季及每年均有波動。本公司對OEMs、ODMs及電信業者之高量機會之戰略重視，使得少數客戶之行為對本公司營運成果產生不成比例之影響。來自部分大型客戶之採購訂單延遲及貨物發運延誤，導致營業收入低於預期。同樣地，本公司對開發市場領先技術與製造程序之戰略重視，常透過專屬半導體電路、材料及封裝技術實現，使得本公司面臨技術開發延誤之風險與成本，以及專屬電路與材料之供應商或專屬服務提供者數量較少之風險。",
+    "本公司之戰略重視開發市場領先技術與製造程序，常透過專屬半導體電路、材料及封裝技術實現，使得本公司面臨技術開發延誤之風險與成本，以及專屬電路與材料之供應商或專屬服務提供者數量較少之風險。",
+    "儘管近期有獲利的趨勢，我們無法預測是否能維持持續的獲利。我們未來的營運結果可能受到許多因素的重大影響，許多因素是超出我們控制範圍的，包括：",
+    "• 產品需求的變化以及我們客戶終端產品需求的變化，以及我們對這些需求變化的應對能力，包括交付週期的變化以及所接受訂單的產品數量及單一財季內實際出貨的產品數量；",
+    "• 我們管理供應鏈、存貨水準以及我們自有製造能力或第三方合作夥伴製造能力的能力，特別是在發生重大客戶訂單延遲或取消，或發生供應鏈延遲或成本增加的情況下。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

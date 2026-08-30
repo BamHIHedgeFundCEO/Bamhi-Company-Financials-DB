@@ -1,0 +1,211 @@
+{
+ "ticker": "PSNL",
+ "cik": "0001527753",
+ "accession": "0001193125-26-076615",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Background",
+    "Testing Services",
+    "For cancer patients",
+    "For pharmaceutical and biopharmaceutical companies",
+    "For diagnostics companies and population sequencing initiatives",
+    "Markets and Distribution",
+    "Clinical Evidence and Reimbursement",
+    "Intellectual Property",
+    "Supply of Materials",
+    "Customer Concentration",
+    "Regulatory Environment",
+    "Coverage and Reimbursement",
+    "Federal and State Laboratory Licensing Requirements",
+    "Regulatory framework for medical devices in the United States",
+    "Federal and State Fraud and Abuse Laws",
+    "The Eliminating Kickbacks in Recovery Act",
+    "Other Federal and State Healthcare Laws",
+    "HIPAA and HITECH",
+    "U.S. Healthcare Reform",
+    "Human Capital",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Personalis develops, markets, and sells advanced cancer genomic testing services. Our testing services are used by physicians to detect residual or recurrent cancer in patients, monitor cancer response to therapy, and uncover insights for therapy selection. Our testing services are used by pharmaceutical companies for translational research, biomarker discovery, the development of personalized cancer therapies, and clinical trials. We also provide whole exome sequencing services for other diagnostic companies and whole genome sequencing services for population sequencing initiatives.",
+    "We perform our testing services in a large-scale, high-quality, Clinical Laboratory Improvement Amendments of 1988 (\"CLIA\") certified and College of American Pathologists (\"CAP\") accredited, laboratory located in our 100,000 square foot headquarters in Fremont, California. We were incorporated under the laws of the state of Delaware in 2011 under the name Personalis, Inc. and became a publicly-traded company in 2019.",
+    "NeXT Personal Dx is a tumor-informed liquid biopsy test for the detection of minimal residual disease (\"MRD\") and recurrence monitoring. We believe NeXT Personal Dx, which was introduced in the fourth quarter of 2023, is the first ultrasensitive test on the market to detect MRD and monitor therapy response in patients with solid tumor cancers. NeXT Personal Dx has been shown to potentially detect cancer recurrence ahead of traditional imaging and is designed to aid decision making throughout a patient's cancer journey. NeXT Personal Dx involves the initial whole genome sequencing of matched tumor and normal samples from a patient in order to create a personalized detection assay for each patient based on the biology of the patient's cancer and the subsequent use of that personalized assay to test one or more of the patient's blood/plasma samples. In the first quarter of 2026, we introduced a new feature to our ultrasensitive test called Real-Time Variant Tracker, and this capability is intended to provide clinicians with additional reporting of detected resistance-associated mutations and therapeutically targetable mutations that can potentially inform new opportunities to optimize patient management of disease. NeXT Personal Dx helps answer these questions: Does the patient still have cancer after curative intent treatment? How is the patient's cancer responding to therapy? Has the cancer potentially recurred? And if so, are any resistance mutations and targetable mutations present?",
+    "NeXT Dx is a comprehensive tumor profiling test that is used to help select therapy for a cancer patient and identify potential clinical trials for a patient. It analyzes a patient's exome and transcriptome with matched tumor-normal analysis. We believe it improves the chances of finding an effective therapy or help a doctor find an appropriate clinical trial. NeXT Dx helps answer the question: What are the tumor mutations with actionable therapies and clinical trials for the patient?",
+    "NeXT Personal is a tumor-informed liquid biopsy test for detection of MRD and recurrence monitoring, in solid tumor cancers. It delivers industry-leading, ultra-high sensitivity, which we believe allows for detection of cancer recurrence earlier than other technologies. NeXT Personal helps answer these questions: Who are the right patients to enroll into a clinical trial? How are patients responding to the investigational therapy? Can circulating tumor DNA (\"ctDNA\") potentially be used as an endpoint in clinical trials? In addition, NeXT Personal can be used as a potential Clinical Trial Assay (CTA) to help select patients for a prospective Phase 2 or a Phase 3 trial for a new drug. Should these trials be successful then NeXT Personal may be approved by the FDA as a Companion Diagnostics test for that new drug.",
+    "ImmunoID NeXT is a tissue-based test that combines whole exome and whole transcriptome sequencing data with advanced analytics to provide a multi-dimensional view of the tumor and the tumor microenvironment from a single sample. It is designed to enable the development of more efficacious cancer (immuno) therapies and the next-generation of composite biomarkers to better predict patient response. ImmunoID NeXT helps answer these questions: What are the markers and composite biomarkers in the tumor and the tumor microenvironment that contribute to therapy response and resistance? What are the neoantigens in the tumor that can be used in individualized neoantigen therapy (INT)?",
+    "We perform whole exome sequencing (\"WES\") of cancer tissue and matched blood samples for diagnostic companies as an input to their products.",
+    "We perform whole genome sequencing (\"WGS\") on human samples for research projects, such as population sequencing initiatives.",
+    "Our customers include global pharmaceutical companies, biopharmaceutical companies, diagnostics companies, universities, non-profits, government entities, and cancer patients. We sell through a small direct sales force, organized by geography. In November 2023, we entered into an agreement with Tempus to co-commercialize NeXT Personal Dx in the clinical diagnostics market. In December 2024, we agreed to expand the relationship to include biopharma industry customers. Under this expanded relationship, Tempus can offer our NeXT Personal MRD testing service to pharmaceutical and biotech customers who wish to bundle our tumor-informed MRD testing with other Tempus offerings in a given study. In July 2025, we further expanded our collaboration partnership with Tempus to authorize Tempus to market NeXT Personal Dx for colorectal cancer and extend the term of the Tempus Agreement through November 25, 2029.",
+    "The principal markets for our testing services are the United States, Europe (including the U.K.), and rest of the world, including Asia-Pacific, which accounted for 90%, 9%, and 1%, respectively, of our revenue for the year ended December 31, 2025.",
+    "Generating clinical evidence is critical for driving adoption of our tests in the clinical diagnostic test market (i.e., for cancer patients) and establishing reimbursement by Medicare and private insurance companies. To this end, one of our key strategies is working with a growing number of leading cancer centers and world-class academic research institutions to build and publish the clinical evidence-base to support our testing services in our key indications. Because of the ultra-high sensitivity of our technology, we are initially focusing on three indications: breast cancer, lung cancer, and immunotherapy (IO) monitoring, where early-stage cancer recurrence historically has been difficult to detect. At this time, we are beginning to expand into other indications including colorectal cancer (CRC), cervical, and others. We currently have collaborations with Cancer Research UK, University College London, and the Francis Crick Institute (the TRACERx study); Institut Curie; The Royal Marsden; the Vall d'Hebron Institute of Oncology (VHIO); the University of California, San Diego, Duke University; Vanderbilt University and Johns Hopkins University (the PREDICT study); the Dana-Farber Cancer Institute; the University of Texas M.D. Anderson Cancer Center; University Medical Center Hamburg-Eppendorf (also known as UKE); Criterium and the Academic Breast Cancer Consortium; Yale Cancer Center; Aarhus University; British Columbia Cancer; and University Health Network, that will focus on building the evidence-base for our technology and these indications.",
+    "Furthermore, generating clinical evidence is crucial to obtaining reimbursement coverage from Medicare and other private payors. One of our 2025 goals was to submit for Medicare reimbursement for NeXT Personal Dx upon publication of compelling clinical evidence and receive Medicare coverage. In 2025, we submitted our three indications for Medicare coverage, and, in November 2025, we received Medicare coverage for NeXT Personal Dx for post-treatment surveillance of cancer recurrence in patients with Stage II and III breast cancer, with an effective date of October 7, 2025. In February 2026, we received Medicare coverage for NeXT Personal Dx for surveillance of patients with Stage I to III non-small cell lung cancer (\"NSCLC\"), with an effective date of January 9, 2026. In addition, we received a Medicare coverage determination for our comprehensive genomic profiling (CGP) test, called NeXT Dx, in January 2024, with an effective date of August 29, 2023. We estimate that approximately half of new solid tumor cancer cases will be in patients covered by Medicare.",
+    "Our principal competition comes from commercial and academic organizations that employ various approaches to produce test results or information that is similar to what we generate for our patients and customers. Some of our present or potential competitors include Adela, Inc., Caris Life Sciences, Inc., DELFI Diagnostics, Inc., Exact Sciences Corporation, which it is expected to be acquired by Abbott Laboratories, Inc., in the second quarter of 2026, Foresight Diagnostics Inc. (\"Foresight\"), which was acquired by Natera, Inc. (\"Natera\") in December 2025, Foundation Medicine, Inc., GRAIL, Inc., Guardant Health, Inc., Haystack Oncology, Inc., which was acquired by Quest Diagnostics Incorporated in June 2023, Laboratory Corporation of America Holdings, MedGenome Inc., Myriad Genetics, Inc. (\"Myriad\"), Natera, NeoGenomics, Inc., Predicine, Inc., SAGA Diagnostics AB, and Veracyte, Inc.",
+    "Additionally, several companies develop next-generation sequencing platforms that can be used for genomic profiling for biopharmaceutical research and development applications. These include Illumina, Inc. (\"Illumina\"), Thermo Fisher Scientific Inc., and other organizations that specialize in the development of next-generation sequencing instrumentation that can be sold directly to biopharmaceutical companies, clinical laboratories, and research centers. Separate from their instrumentation product lines, both Illumina and Thermo Fisher Scientific Inc., for example, currently market next-generation sequencing clinical oncology kits that are sold to customers who have bought and operate their respective sequencing instruments."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Operational, Strategic and Business Risks",
+    "We have a history of losses and we expect to incur significant losses for the foreseeable future and may not be able to generate sufficient revenue to achieve or sustain profitability.",
+    "If we cannot compete successfully with our competitors, we may be unable to increase or sustain our revenue or achieve and sustain profitability.",
+    "enter into in the future may not be successful, or may terminate, which could adversely impact our business or affect our ability to develop and commercialize our testing services.",
+    "International trade policies, including tariffs, sanctions and trade barriers may adversely affect our business, financial condition, results of operations and prospects.",
+    "Our success depends on our ability to provide reliable and timely, high-quality genomic data and analyses and to rapidly evolve to meet our customers' needs.",
+    "If we cannot develop services to keep pace with rapid advances in technology, medicine, and science, or if we experience delays in developing such services, our operating results and competitive position could be harmed.",
+    "We are researching and developing improvements to our tests and test f"
+   ],
+   "paragraphs": [
+    "Our operations and financial results are subject to various risks and uncertainties including those described below. You should consider carefully the risks and uncertainties described below, in addition to other information contained in this Annual Report on Form 10-K, including our audited consolidated financial statements and related notes. The risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties that we are unaware of, or that we currently believe are not material, may also become important factors that adversely affect our business. If any of the following risks or others not specified below materialize, our business, financial condition, and results of operations could be materially and adversely affected. In that case, the trading price of our common stock could decline.",
+    "We have incurred net losses since our inception. For each of the years ended December 31, 2025 and 2024, we had a net loss of $81.3 million. As of December 31, 2025, we had an accumulated deficit of $631.3 million. To date, we have not generated sufficient revenue to achieve profitability, and we may never achieve or sustain profitability. In addition, we expect to continue to incur net losses for the foreseeable future, and we expect our accumulated deficit to continue to increase as we focus on scaling our business and operations. Our efforts to sustain and grow our business may be more costly than we expect, and we may not be able to increase our revenue sufficiently to offset our higher operating expenses. Our prior losses and expected future losses have had and will continue to have an adverse effect on our stockholders' equity and working capital. Our failure to achieve and sustain profitability in the future would negatively affect our business, financial condition, results of operations, and cash flows, and could cause the market price of our common stock to decline.",
+    "If we are unable to increase sales of our current services or successfully develop and commercialize other services, or if we are unable to execute our sales and marketing strategy for our testing services or unable to gain sufficient acceptance in the market, or if we are unable to generate sufficient reimbursement or coverage by insurance or governmental payors for our testing services, we may fail to generate sufficient revenue to achieve profitability and sustain our business.",
+    "We currently derive substantially all of our revenue from sales of our testing services. We began offering our testing services through our CLIA-certified, CAP-accredited, and state-licensed laboratory in 2013. We are in varying stages of research and development for other services that we may offer. If we are unable to increase sales of our existing services or successfully develop and commercialize other services, we will not generate sufficient revenue to become profitable.",
+    "In addition, as a growing genomics company, we have engaged in targeted sales and marketing activities for our testing services. Although we have had revenue from sales of our testing services since 2013, our testing services may never gain significant acceptance in the marketplace and therefore may never generate substantial revenue or permit us to become profitable. We will need to further establish and grow the market for our testing services through the expansion of our current relationships and development of new relationships with biopharmaceutical customers and through gaining acceptance in medical communities. Gaining acceptance in medical communities can be supported by, among other things, publications in leading peer-reviewed journals of results from studies using our testing services. The process of publication in leading medical journals is subject to a peer review process and peer reviewers may not consider the results of our studies sufficiently novel or worthy of publication. Failure to have our studies published in peer-reviewed journals would limit the adoption of our testing services.",
+    "Our ability to successfully market our testing services that we have developed, and may develop in the future, will depend on numerous factors, including:"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "2025 Highlights",
+    "Factors Affecting Our Performance",
+    "Components of Operating Results",
+    "Costs and Expenses",
+    "Trend Financial Information",
+    "Year Ended December 31,",
+    "Consolidated Statements of Operations:",
+    "December 31,",
+    "Results of Operations",
+    "Years Ended December 31,",
+    "Interest Income, Interest Expense and Other Income (Expense), Net",
+    "Liquidity and Capital Resources",
+    "Material Cash Requirements",
+    "Critical Accounting Policies and Estimates",
+    "Revenue Recognition",
+    "Common Stock Warrants",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our consolidated financial statements and accompanying notes and other financial information included elsewhere in this Annual Report on Form 10-K. In addition to historical consolidated financial information, the following discussion contains forward-looking statements that reflect our plans, estimates, and beliefs. Our actual results could differ materially from those discussed in the forward-looking statements. You should review the sections titled \"Note Regarding Forward-Looking Statements\" for a discussion of forward-looking statements and in Part I, Item 1A, \"Risk Factors\" for a discussion of factors that could cause actual results to differ materially from the results described in or implied by the forward-looking statements contained in the following discussion and elsewhere in this Annual Report on Form 10-K.",
+    "We develop, market, and sell advanced cancer genomic testing services. Our testing services are used by physicians to detect residual or recurrent cancer in patients, monitor cancer response to therapy, and uncover insights for therapy selection. Our testing services are used by pharmaceutical companies for translational research, biomarker discovery, the development of personalized cancer therapies, and clinical trials. We also provide whole exome sequencing services for other diagnostic companies and whole genome sequencing services for population sequencing initiatives.",
+    "We are working with a growing number of leading cancer centers and world-class academic research institutions to build and publish the clinical evidence-base to support our testing services and our key indications, as well as to obtain reimbursement coverage from Medicare and other payors. Because of the ultra-high analytical sensitivity of our technology, we are primarily focusing on three indications: breast cancer, lung cancer, and immunotherapy (IO) monitoring. We have collaborations with Cancer Research UK, University College London, and the Francis Crick Institute (the TRACERx study); Institut Curie; The Royal Marsden; the Vall d'Hebron Institute of Oncology (VHIO); the University of California, San Diego; Duke University; Vanderbilt University and Johns Hopkins University (the PREDICT study); the Dana-Farber Cancer Institute; the University of Texas M.D. Anderson Cancer Center; University Medical Center Hamburg-Eppendorf (also known as UKE); Criterium and the Academic Breast Cancer Consortium; Yale Cancer Center; Aarhus University; British Columbia Cancer; and University Health Network, that will focus on building the evidence-base for our technology and these indications.",
+    "Today, our testing services are routinely used by many of the largest oncology-focused pharmaceutical companies for analysis of patient samples in their clinical trials and drug development programs. Our advanced genomic sequencing and analytics also support the development of personalized neoantigen therapies for cancer and other next-generation cancer immunotherapies. For example, we are providing genomic testing services to ModernaTX, Inc. (\"Moderna\") in its ongoing clinical trials evaluating a personalized cancer therapy. In addition, we partner with diagnostics companies by providing our advanced tumor profiling and analysis capabilities as an input to their products. More recently, we launched new diagnostic offerings for the clinical setting and, in November 2023, entered into an agreement with Tempus to commercialize our NeXT Personal Dx test. In late 2024, we expanded our collaboration partnership with Tempus to enable Tempus to market and sell NeXT Personal to Tempus' pharmaceutical and biotech customers who wish to bundle MRD testing with other Tempus offerings in a given study. In July 2025, we further expanded our collaboration partnership with Tempus to authorize Tempus to market NeXT Personal Dx for colorectal cancer and extend the term of the Tempus Agreement through November 25, 2029. We have also pursued non-cancer related business opportunities, specifically within the population sequencing market, by providing whole genome sequencing (\"WGS\") services under contract with the U.S. Department of Veterans Affairs Million Veteran Program (\"VA MVP\").",
+    "Our work in oncology is underpinned by our experience and capacity for next-generation sequencing at scale. We have the capacity to sequence and analyze over 350 trillion bases of DNA per week in our facility. We believe that our capacity is already larger than most cancer genomics companies, and we continue to build automation and other infrastructure to scale further as demand increases. To date, we have sequenced approximately 571,000 human samples, of which approximately 219,000 were whole human genomes.",
+    "Total revenue of $69.6 million decreased 18%, or $15.0 million, during 2025 compared to 2024, primarily due to lower expected revenue from Enterprise sales, which was primarily Natera. Revenue from Enterprise sales was $5.9 million in 2025 compared to $25.4 million in 2024 and the decline was due to the winding down of the project with Natera. This decrease was partially offset by higher revenue from population sequencing, which increased $4.3 million, or 58%.",
+    "Key business accomplishments and financial updates in 2025 and early 2026 include:",
+    "• Secured Milestone Medicare Coverages for Breast & Lung Cancer: Received Medicare coverage approval in the fourth quarter for the surveillance of cancer recurrence in breast cancer patients, and also, received Medicare coverage for Stage I to III NSCLC in the first quarter of 2026; both are expected to be key catalysts for clinical revenue generation and market share growth in the MRD space",
+    "• Published Landmark TRACERx Data: Highlighted data from one of the largest and most comprehensive NSCLC patient cohorts to date in the journal Cell, demonstrating the clinical importance of Personalis' ultrasensitive MRD approach",
+    "• Validated ctDNA Dynamics: Published VHIO data in Clinical Cancer Research titled \"Broad Utility of Ultrasensitive Analysis of ctDNA Dynamics across Solid Tumors Treated with Immunotherapy,\" further reinforcing the clinical validity of the NeXT Personal® platform in a broad array of cancer types",
+    "• Clinical Momentum: Clinical test revenue of $2.0 million, more than double the $0.8 million in 2024",
+    "• Volume Performance: Clinical test volume reached 16,233 tests, a nearly 400% increase over the 3,285 test volume in 2024",
+    "• Strong Cash Position: Ended the year with approximately $240.0 million in cash, cash equivalents, and short-term investments. This includes approximately $109.0 million in net proceeds from our At-The-Market (ATM) sales program, executed at a weighted-average price of $8.43 per share",
+    "There are several important factors that we expect to impact our operating performance and results of operations, including:"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Company Background': '公司背景'}",
+    "{'Testing Services': '測試服務'}",
+    "{'For cancer patients': '用於癌症病患'}",
+    "{'For pharmaceutical and biopharmaceutical companies': '用於藥品及生物製藥公司'}",
+    "{'For diagnostics companies and population sequencing initiatives': '用於診斷公司及人口基因組序列計畫'}",
+    "{'Markets and Distribution': '市場與銷售通路'}",
+    "{'Clinical Evidence and Reimbursement': '臨牀證據與給付'}",
+    "{'Intellectual Property': '智慧財產權'}",
+    "材料供應",
+    "客戶集中度",
+    "法規環境",
+    "覆蓋範圍及補償",
+    "聯邦及州級實驗室許可證要求",
+    "美國醫療器材法規架構",
+    "聯邦及州級詐欺與濫用法規",
+    "消除回扣復原法案",
+    "其他聯邦及州級醫療衛生法規",
+    "HIPAA 以及 HITECH",
+    "美國醫療改革",
+    "人力資本",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "Personalis 開發、行銷與銷售先進的癌症基因組檢測服務。我們的檢測服務被醫師用來偵測患者體內殘餘或復發的癌症、監測癌症對治療的反應，並提供治療選擇的洞察。我們的檢測服務也被藥廠用來進行轉譯研究、生物標記發現、個人化癌症治療的開發與臨牀試驗。我們也為其他診斷公司提供全外顯子組序列分析服務，並為人口基因組序列分析計畫提供全基因組序列分析服務。",
+    "我們在位於加州 Fremont 的 100,000 平方英尺總部內，進行大規模、高品質、1988 年臨牀實驗室改善修正案（\"CLIA\"）認證且美國病理學會（\"CAP\"）認可的實驗室中執行檢測服務。我們於 2011 年根據特拉華州法律成立 Personalis, Inc.，並於 2019 年成為上市公司。",
+    "NeXT Personal Dx 是一種基於腫瘤資訊的液體活檢測試，用於偵測最小殘餘疾病（\"MRD\"）與復發監測。我們相信 NeXT Personal Dx，於 2023 年第四季推出，是市場上首款能偵測 MRD 並監測治療反應的超敏測試，適用於實體腫瘤癌症患者。NeXT Personal Dx 已顯示可能在傳統影像技術之前偵測癌症復發，並設計用以協助患者在癌症治療過程中的決策。NeXT Personal Dx 涉及對患者匹配腫瘤與正常樣本進行初始全基因組序列分析，以根據患者癌症的生物學特性建立個人化檢測試劑，並隨後使用該個人化試劑測試患者的一個或多個血液/血漿樣本。於 2026 年第一季，我們為我們的超敏測試引入了一個新功能，稱為 Real-Time Variant Tracker，此功能旨在為臨牀醫生提供有關偵測到的耐藥相關突變和治療目標突變的額外報告，可能有助於優化患者疾病管理的新機會。NeXT Personal Dx 幫助回答這些問題：患者在根除性治療後是否仍有癌症？患者的癌症對治療的反應如何？癌症是否可能已經復發？如果復發，是否存在任何耐藥突變和治療目標突變？",
+    "NeXT Dx 是一種全面的腫瘤分析測試，用來幫助選擇癌症患者的治療方案並識別潛在的臨牀試驗。它分析患者的外顯子組與轉錄組，並進行匹配腫瘤-正常樣本分析。我們相信這能提高找到有效治療方案的機會，或幫助醫生找到適當的臨牀試驗。NeXT Dx 幫助回答這個問題：患者的腫瘤突變有哪些可行動的治療方案和臨牀試驗？",
+    "NeXT Personal 是一種基於腫瘤資訊的液體活檢測試，用於偵測 MRD 並監測復發，適用於實體腫瘤癌症。它提供業界領先的超高靈敏度，我們相信這能讓癌症復發的偵測比其他技術更早。NeXT Personal 幫助回答這些問題：哪些患者適合參與臨牀試驗？患者對試驗性治療的反應如何？循環腫瘤 DNA（\"ctDNA\"）是否可能用作臨牀試驗的終點？此外，NeXT Personal 可用作潛在的臨牀試驗試劑（CTA），以幫助選擇參與第二期或第三期試驗的患者。如果這些試驗成功，NeXT Personal 可能獲得美國食品藥物管理局（FDA）批准，作為該新藥的伴診測試（Companion Diagnostics）測試。",
+    "ImmunoID NeXT 是一種基於組織的測試，結合全外顯子組與全轉錄組序列分析資料與先進分析技術，從單一樣本提供腫瘤與腫瘤微環境的多維度視圖。其設計目的是促進更有效的癌症（免疫）治療開發與下一代組合生物標記物的發展，以更好地預測患者反應。ImmunoID NeXT 幫助回答這些問題：腫瘤與腫瘤微環境中哪些標記與組合生物標記物會影響治療反應與耐藥性？腫瘤中哪些新抗原可以用於個別化新抗原治療（INT）？",
+    "我們為診斷公司執行癌症組織與匹配血液樣本的全外顯子組序列分析（\"WES\"），作為其產品的輸入。",
+    "我們為研究專案執行人類樣本的全基因組序列分析（\"WGS\"），例如人口基因組序列分析計畫。",
+    "本公司客戶包括全球藥品製造商、生物製藥公司、診斷公司、大學、非營利組織、政府機構及癌症患者。本公司透過小型直接銷售團隊進行銷售，並按地理區域進行組織。2023年11月，本公司與Tempus簽訂協議，共同在臨牀診斷市場推廣NeXT Personal Dx。2024年12月，本公司同意擴大合作關係，包含生物製藥產業客戶。根據此擴展後的合作關係，Tempus可為希望將本公司NeXT Personal MRD檢測服務與Tempus其他產品組合於特定研究中的藥物製造商及生物科技公司提供服務。2025年7月，本公司進一步擴展與Tempus的合作夥伴關係，授權Tempus在結腸直腸癌市場推廣NeXT Personal Dx，並將Tempus協議的期限延長至2029年11月25日。",
+    "本公司測試服務的主要市場為美國、歐洲（包括英國）及其餘世界市場，包括亞太地區，分別佔本公司2025年12月31日財年營業收入的90%、9%及1%。",
+    "產生臨牀證據對推動本公司測試在臨牀診斷測試市場（即癌症患者）的採用，以及建立醫療保險及私人保險公司賠償至關重要。為此，本公司其中一項關鍵策略是與越來越多的領先癌症中心及世界級學術研究機構合作，建立並發表支持本公司測試服務的臨牀證據基礎。由於本公司技術的超高靈敏度，本公司目前主要聚焦於三個適應症：乳癌、肺癌及免疫治療（IO）監測，這些適應症的早期癌症復發歷來難以偵測。目前，本公司開始擴展至其他適應症，包括結腸直腸癌（CRC）、子宮頸癌及其他。本公司目前與Cancer Research UK、University College London及Francis Crick Institute（TRACERx研究）、Institut Curie、The Royal Marsden、Vall d'Hebron Institute of Oncology（VHIO）、University of California, San Diego、Duke University、Vanderbilt University及Johns Hopkins University（PREDICT研究）、Dana-Farber Cancer Institute、University of Texas M.D. Anderson Cancer Center、University Medical Center Hamburg-Eppendorf（亦稱UKE）、Criterium及Academic Breast Cancer Consortium、Yale Cancer Center、Aarhus University、British Columbia Cancer及University Health Network合作，專注於為本公司技術及這些適應症建立證據基礎。",
+    "此外，產生臨牀證據對獲得醫療保險及其他私人支付者的賠償覆蓋至關重要。本公司2025年目標之一是於發表有說服力的臨牀證據後，向醫療保險機構申請NeXT Personal Dx的賠償，並獲得醫療保險覆蓋。2025年，本公司提交了三個適應症的醫療保險覆蓋申請，並於2025年11月獲得NeXT Personal Dx在Stage II及III乳癌患者治療後監測癌症復發的醫療保險覆蓋，生效日期為2025年10月7日。2026年2月，本公司獲得NeXT Personal Dx在Stage I至III非小細胞肺癌（\"NSCLC\"）患者監測的醫療保險覆蓋，生效日期為2026年1月9日。此外，本公司於2024年1月獲得本公司全面基因組分析（CGP）測試NeXT Dx的醫療保險覆蓋決定，生效日期為2023年8月29日。本公司估計，約有半數新發的實體腫瘤癌症病例將在醫療保險覆蓋的患者身上。",
+    "本公司主要競爭對手來自於採用各種方法產生與本公司為患者及客戶所產生的測試結果或資訊相似的商業及學術機構。本公司目前或潛在的競爭對手包括Adela, Inc.、Caris Life Sciences, Inc.、DELFI Diagnostics, Inc.、Exact Sciences Corporation，預期將於2026年第二季被Abbott Laboratories, Inc.收購、Foresight Diagnostics Inc.（\"Foresight\"），於2025年12月被Natera, Inc.（\"Natera\"）收購、Foundation Medicine, Inc.、GRAIL, Inc.、Guardant Health, Inc.、Haystack Oncology, Inc.，於2023年6月被Quest Diagnostics Incorporated收購、Laboratory Corporation of America Holdings、MedGenome Inc.、Myriad Genetics, Inc.（\"Myriad\"）、Natera、NeoGenomics, Inc.、Predicine, Inc.、SAGA Diagnostics AB及Veracyte, Inc.",
+    "此外，多家公司開發次世代基因定序平台，可用於生物製藥研究與開發的基因組分析。這些公司包括Illumina, Inc.（\"Illumina\"）、Thermo Fisher Scientific Inc.及其他專門從事次世代基因定序儀器開發的機構，這些儀器可直接銷售給生物製藥公司、臨牀實驗室及研究機構。與其儀器產品線分離，例如Illumina及Thermo Fisher Scientific Inc.目前均市場化次世代基因定序臨牀腫瘤套件，這些套件銷售給已購買並運作其相應基因定序儀器的客戶。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "2025 要點",
+    "影響我們績效的因素",
+    "營運成果的組成項目",
+    "成本與費用",
+    "財務趨勢資訊",
+    "截至 12 月 31 日年度",
+    "合併營運損益表：",
+    "12 月 31 日,",
+    "{'translatedText': '營運成果'}",
+    "{'translatedText': '截至12月31日止年度'}",
+    "{'translatedText': '利息收入、利息支出及其他收入（費用），淨額'}",
+    "{'translatedText': '流動性及資本資源'}",
+    "{'translatedText': '重大現金需求'}",
+    "{'translatedText': '關鍵會計政策與會計估計'}",
+    "{'translatedText': '收入認列'}",
+    "{'translatedText': '普通股權證'}",
+    "{'original': 'Recent Accounting Pronouncements', 'translated': '最近會計準則公告'}"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運成果的討論與分析，應與我們的合併財務報表及其附註，以及其他財務資訊一併閱讀，這些財務資訊包含於本年度10-K申報表中。除了歷史合併財務資訊外，以下討論包含向前看的陳述，反映我們的計畫、預估與信念。我們的實際結果可能與向前看陳述中所討論的結果有重大差異。請審閱標題為「關於向前看陳述的說明」的節，以瞭解向前看陳述的討論，並在第一部分，項目1A，「風險因素」中，瞭解可能導致實際結果與向前看陳述中所描述或暗示的結果有重大差異的因素。",
+    "我們開發、行銷並銷售先進的癌症基因組測試服務。我們的測試服務被醫生用來偵測患者的殘餘或復發性癌症，監測癌症對治療的反應，並提供治療選擇的洞察。我們的測試服務也被藥廠用於轉譯研究、生物標記發現、個人化癌症治療的開發以及臨牀試驗。我們也為其他診斷公司提供全外顯子組測序服務，並為人口測序計畫提供全基因組測序服務。",
+    "我們正在與越來越多的領先癌症中心和世界級的學術研究機構合作，以建立和發表支持我們測試服務及關鍵適應症的臨牀證據基礎，並取得醫療保險（Medicare）及其他支付者的報銷覆蓋。由於我們技術的超高分析靈敏度，我們主要專注於三個適應症：乳癌、肺癌以及免疫治療（IO）監測。我們與英國癌症研究（Cancer Research UK）、倫敦大學學院（University College London）以及弗朗西斯·克里克研究所（Francis Crick Institute）（TRACERx研究）、 Institut Curie、皇家馬斯登醫院（The Royal Marsden）、巴塞隆納瓦倫西亞癌症研究所（Vall d'Hebron Institute of Oncology, VHIO）、加州大學聖地牙哥分校（University of California, San Diego）、杜克大學（Duke University）、範德堡大學（Vanderbilt University）與約翰霍普金斯大學（Johns Hopkins University）（PREDICT研究）、達納-法伯癌症研究所（Dana-Farber Cancer Institute）、德州大學MD安德森癌症中心（University of Texas M.D. Anderson Cancer Center）、漢堡-埃普endorf大學醫學中心（University Medical Center Hamburg-Eppendorf，也稱為UKE）、Criterium與學術乳癌合作組織（Academic Breast Cancer Consortium）、耶魯癌症中心（Yale Cancer Center）、奧胡斯大學（Aarhus University）、不列顛哥倫比亞癌症中心（British Columbia Cancer）以及大學健康網路（University Health Network）合作，這些合作將專注於建立我們技術與這些適應症的證據基礎。",
+    "目前，我們的測試服務被許多最大的專注於腫瘤學的藥廠用於其臨牀試驗與藥物開發計畫中的患者樣本分析。我們的先進基因組測序與分析也支持開發個人化neoantigen治療與其他下一代癌症免疫治療。例如，我們正在為ModernaTX, Inc.（\"Moderna\"）提供基因組測試服務，以評估其個人化癌症治療的臨牀試驗。此外，我們與診斷公司合作，提供我們先進的腫瘤分析能力作為其產品的輸入。最近，我們推出了新的臨牀環境診斷服務，並於2023年11月與Tempus簽訂協議，以商業化我們的NeXT Personal Dx測試。在2024年底，我們擴展了與Tempus的合作夥伴關係，使Tempus能夠為其藥廠與生物科技客戶行銷與銷售NeXT Personal，這些客戶希望在特定研究中將MRD測試與Tempus的其他服務組合銷售。在2025年7月，我們進一步擴展與Tempus的合作夥伴關係，授權Tempus行銷NeXT Personal Dx用於結腸癌，並將Tempus協議的期限延長至2029年11月25日。我們也積極追求非癌症相關的商業機會，特別是在人口測序市場，透過與美國退伍軍人事務部的「百萬退伍軍人計畫」（Million Veteran Program, VA MVP）簽訂合約，提供全基因組測序（\"WGS\"）服務。",
+    "我們在腫瘤學領域的工作建立在我們在大規模次世代測序方面的經驗與能力。我們的設施每週可進行超過350兆個DNA鹼基的測序與分析。我們相信我們的測序能力已經大於大多數癌症基因組學公司，我們持續建設自動化及其他基礎設施，以應對需求增加而進一步擴張。截至目前為止，我們已測序約571,000個人樣本，其中約219,000個為完整人類基因組。",
+    "總營業收入為 69.6 百萬美元，較 2024 年減少 18%，即 15.0 百萬美元，主要係因企業客戶銷售預期收入減少，其中主要為 Natera。企業客戶銷售收入為 2025 年 5.9 百萬美元，較 2024 年 25.4 百萬美元減少，減少係因與 Natera 之專案逐步收尾。此減少部分因人口基因組測序收入增加而抵銷，人口基因組測序收入增加 4.3 百萬美元，或成長 58%。",
+    "2025年及2026年初的關鍵業務成就與財務更新包括：",
+    "• 確保乳癌與肺癌的里程碑醫療保險覆蓋：在第四季獲得乳腺癌患者癌症復發監測的醫療保險覆蓋批准，並在2026年第一季獲得Stage I至III NSCLC的醫療保險覆蓋；這兩者預期將成為MRD領域臨牀收入產生與市場佔有率成長的關鍵催化因素",
+    "• 發表重大 TRACERx 資料：在期刊 Cell 發表來自目前規模最大且最完整的 NSCLC 病患族羣資料，顯示 Personalis 超敏感 MRD 方案的臨牀重要性",
+    "• 驗證 ctDNA 動態：在 Clinical Cancer Research 發表 VHIO 資料，標題為 \"Ultrasensitive Analysis of ctDNA Dynamics across Solid Tumors Treated with Immunotherapy 的廣泛應用性\"，進一步強化 NeXT Personal® 平台在多種癌症類型中的臨牀有效性",
+    "• 臨牀動能：臨牀測試營收為 2.0 百萬美元，超過 2024 年 0.8 百萬美元的兩倍以上",
+    "• 量能表現：臨牀測試數量達 16,233 個，較 2024 年 3,285 個測試數量成長近 400%",
+    "• 健全現金地位：本年結束時持有約 240.0 百萬美元的現金、現金等價物及短期投資。此包含約 109.0 百萬美元的淨資金，來自我們的 At-The-Market (ATM) 賣出計畫，執行價格加權平均為每股 8.43 美元",
+    "有數個重要因素我們預期會影響我們的營運表現及營運成果，包括："
+   ]
+  },
+  "risk": {
+   "headings": [
+    "營運、戰略及業務風險",
+    "本公司有持續虧損的歷史，並預期在可預見的未來將產生重大虧損，且可能無法產生足夠的收入以達成或維持獲利。",
+    "若本公司無法成功與競爭對手競爭，則可能無法增加或維持收入，或達成及維持獲利。",
+    "未來可能簽訂的協議可能無法成功，或終止，這可能會對本公司業務造成不利影響，或影響本公司開發及商業化測試服務的能力。",
+    "國際貿易政策，包括關稅、制裁及貿易壁壘，可能對本公司業務、財務狀況、營運成果及前景造成不利影響。",
+    "本公司之成功取決於本公司提供可靠且及時、高品質的基因組數據與分析，並能迅速進化以符合客戶需求之能力。",
+    "若本公司無法開發服務以跟上科技、醫學及科學領域的快速進步，或遭遇開發這些服務的延遲，則本公司營運成果及競爭地位可能受損。",
+    "本公司正在研究及開發改進測試及測試相關服務"
+   ],
+   "paragraphs": [
+    "本公司之營運及財務結果受多種風險與不確定性影響，包括下文所述者。您應謹慎考慮下文所述之風險與不確定性，並配合本年度報告表10-K所包含之其他資訊，包括本公司經審計之合併財務報表及其相關附註。下文所述之風險與不確定性並非本公司所面臨之唯一風險。尚有其他風險與不確定性，可能為本公司未察覺，或目前認為不具重大性，但未來可能成為影響本公司營運之重要因素。若任何下列風險或其他未說明之風險實現，將可能對本公司之營運、財務狀況及營業成果造成重大且不利之影響。在此情況下，本公司普通股之交易價格可能下跌。",
+    "",
+    "若本公司無法增加現有服務之銷售，或成功開發與商業化其他服務，或若本公司無法執行測試服務之銷售與行銷策略，或無法在市場中獲得足夠之接受度，或若本公司無法產生足夠之報銷或保險機構及政府付款者對測試服務之覆蓋，則本公司可能無法產生足夠之營業收入以達成獲利並維持業務。",
+    "本公司目前之營業收入幾乎全部來自測試服務之銷售。本公司自2013年起透過CLIA認證、CAP認可及州政府許可之實驗室提供測試服務。本公司對其他可能提供之服務處於不同之研究與開發階段。若本公司無法增加現有服務之銷售，或成功開發與商業化其他服務，則本公司將無法產生足夠之營業收入以達成獲利。",
+    "此外，作為一家成長中的基因組學公司，本公司已針對測試服務進行目標性之銷售與行銷活動。雖然本公司自2013年起已產生測試服務之營業收入，但測試服務可能永遠無法在市場中獲得顯著接受度，因此可能永遠無法產生重大營業收入或使本公司達成獲利。本公司將需要進一步建立並擴大測試服務之市場，透過擴大現有關係及開發與生物製藥客戶之新關係，並透過在醫療界獲得接受度。在醫療界獲得接受度可透過多種方式支持，包括在權威同儕審查期刊上發表使用本公司測試服務之研究結果。在權威醫療期刊上發表之過程受同儕審查程序所限制，同儕審查者可能不會認為本公司研究結果足夠創新或值得發表。若本公司之研究結果未能在同儕審查期刊上發表，將限制本公司測試服務之採用。",
+    "本公司成功行銷已開發或未來可能開發之測試服務之能力，將取決於多種因素，包括："
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

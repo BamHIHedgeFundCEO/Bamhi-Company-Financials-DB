@@ -1,0 +1,223 @@
+{
+ "ticker": "BLND",
+ "cik": "0001855747",
+ "accession": "0001855747-26-000016",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Overview",
+    "Our Segments",
+    "Our Solutions",
+    "Product Offerings",
+    "Blend Builder",
+    "Verification Components",
+    "Decisioning Components",
+    "Intelligent Origination",
+    "Workflow Intelligence Components",
+    "APIs and Integrations",
+    "The Blend Ecosystem",
+    "Our Customers",
+    "Sales and Marketing",
+    "Customer Success",
+    "Research & Development",
+    "Intellectual Property",
+    "Government Regulation",
+    "Data Privacy and Security",
+    "Human Capital",
+    "Corporate Information",
+    "Additional Information"
+   ],
+   "paragraphs": [
+    "Blend (NYSE: BLND) is on a mission to transform the financial services industry by making the process of obtaining a loan or opening an account as seamless and intuitive as modern e-commerce. Today's consumers expect simplicity, hyper-personalization, and speed across every banking and lending interaction.",
+    "Our platform brings together the data, technology, and AI-powered architecture needed to streamline and personalize every step of origination. We help financial institutions deliver transparency, speed, and scale across all major product lines in home lending and consumer banking, supporting end-to-end mortgage applications, home equity, refinance, vehicle, credit card, personal loan, and deposit account opening.",
+    "By unifying complex processes into a single, intelligent system, we enable financial institutions to operate with greater efficiency and agility across any channel, while giving our customers the kind of modern, effortless experiences they expect.",
+    "Today, our software powers many of the nation's most trusted financial institutions, including banks, credit unions, independent mortgage banks, and mortgage servicers.",
+    "We operate in a single operating segment and a single reporting segment. This reporting structure has been in place since we announced our decision to exit the title business in the first quarter of 2025 and classified the results of our previously reported Title segment as discontinued operations.",
+    "Our platform comprises a suite of products that power the origination process from back end workflows, Loan Team and Banker tools to consumer experience. Our growing suite of SaaS products currently enables digital-first consumer application journeys for mortgages, home equity loans and lines of credit, vehicle loans, personal loans, credit cards, and deposit accounts. Each of our products is guided by a workflow orchestration engine that leverages an extensive library of pre-defined rules that typically include data collection, verification checks, product selection, pricing, pre-approvals, disclosures delivery, addressing stipulations, and signing closing documents.",
+    "Our platform also includes Blend Builder, which offers modular components, integrations, and workflow configuration that enables creation of highly flexible product offerings as well as bespoke solutions for some of our more sophisticated institutions. After years of research and development, Blend Builder now powers the majority of our Consumer Banking products as well as our recently launched Rapid Home Lending products.",
+    "In 2025, our products within the Blend Platform segment helped financial services firms process nearly $1.3 trillion in loan applications. We bring together an extensive ecosystem of technology, data, and service providers through our software platform, enabling financial services firms to collaborate with third parties to provide best-in-class banking experiences to consumers. As we've expanded the set of financial products supported by our digital-first consumer journeys, the set of ecosystem providers applicable to a given loan transaction has continued to grow. As adoption of our software platform expands across diverse use cases, we are able to attract a broader range of ecosystem partners, which allows us to deliver more value to consumers and attract more financial services firms as customers. This creates a powerful network effect and differentiator for our business.",
+    "Strong customer relationships are the cornerstone of Blend's success. We establish ourselves as a critical and long-term strategic partner to our customers by powering essential revenue-generating experiences, integrating our software into back office systems, and staffing teams chartered with increasing the value to the customer over time. Blend's customer relationships grow as our platform is used for a broader range of products. Customers typically complete an initial deployment of one or two products and then add more products over time, building toward a unified consumer experience that supports multi-product journeys. As the adoption of our products grows, our customers also realize significant operational efficiencies and synergies, leveraging Blend as a unified platform to streamline processes and consolidate systems.",
+    "Our business model is designed to align our growth with our customers' priorities through what we refer to as 'Success-Based Pricing'. We offer our products through software-as-a-service agreements, where fees are assessed based on completed",
+    "transactions, such as a funded loan, new account opening, or closing transaction. We do not charge for abandoned or rejected applications, even though they cause us to incur costs. We also offer certain fixed-fee arrangements for unlimited access to our products within the Consumer Banking suite. Additionally, we generate revenue through integrated partnership models, where we earn a fixed or variable share of revenue from third-party providers for services facilitated through our platform, such as income and identity verification and homeowners and title insurance.",
+    "Our platform is designed to power the end-to-end consumer journey for most banking products. From the moment a consumer starts an application for a loan or a deposit account to the moment they digitally sign their final documents, our software platform streamlines the process. Our technology, along with a growing ecosystem of pre-built integrations and configurable workflows, removes the limitations of our customers' existing technology stack, empowering financial services firms to deliver personalized, proactive and simple experiences without sacrificing speed or quality.",
+    "Blend remains well positioned to benefit from the acceleration in digital transformation investment taking place across the financial services sector. Our software simplifies complex origination processes that can include hundreds of tasks and require interactions with dozens of external technology, data, and services providers. By automating these tasks and developing pre-built integrations, we help our customers potentially avoid years of expensive in-house software development and associated technical debt of supporting such systems, in addition to increasing productivity by freeing up resources for other initiatives.",
+    "Blend Platform powers the mission-critical interface between financial services firms and consumers. Financial services firms can rapidly deploy our growing number of out-of-the-box, white-labeled products for:"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Summary",
+    "Risks Related to Our Business and Operations",
+    "Our business is substantially dependent on revenue from the financial services industry and is therefore subject to risks impacting the mortgage industry and the larger financial services industry.",
+    "Increases in market interest rates have, and will likely continue to, adversely affect our business, financial condition, and results of operations.",
+    "Unfavorable conditions in our industry or the global economy or reductions in technology spending could limit our ability to grow our business and adversely affect our financial condition and results of operations.",
+    "We have a history of net losses, and we may not be able to achieve or maintain profitability in the future.",
+    "We face intense competition, and if we are unable to compete effectively, our business, financial condition, and results of operations could be adversely affected.",
+    "Our results of operations have fluctuated from period to period, which has caused the market price of our Class A common stock to fluctuate.",
+    "We often rely on self-reporting of completed transactions by our customers due to our primarily success-based model, which can make it difficult to estimate and forecast revenue.",
+    "The impairment of intangible assets, goodwill, and other assets arising from any future acquisitions or investments may have an adverse effect on our business, financial condition, and results of operations."
+   ],
+   "paragraphs": [
+    "Our business involves significant risks, some of which are described below. You should carefully consider the risks and uncertainties described below, together with all of the other information in this Annual Report on Form 10-K, including the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" and our consolidated financial statements and related notes. Any of the following risks could have an adverse effect on our business, results of operations, financial condition, or prospects, and could cause the trading price of our Class A common stock to decline. Our business, financial condition, results of operations, or prospects could also be harmed by risks and uncertainties not currently known to us or that we currently do not believe are material. If any of the risks actually occur, our business, financial condition, results of operations, and prospects could be adversely affected. In that event, the market price of our Class A common stock could decline, and you could lose part or all of your investment. Our Risk Factors are not guarantees that no such conditions exist as of the date of this report and should not be interpreted as an affirmative statement that such risks or conditions have not materialized, in whole or in part.",
+    "The risks and uncertainties to which our business is subject include, but are not limited to, the following:",
+    "•Our business is substantially dependent on revenue from the financial services industry and is therefore subject to risks impacting the mortgage industry and the larger financial services industry;",
+    "•Increases in market interest rates have, and will likely continue to, adversely affect our business, financial condition, and results of operations;",
+    "•Unfavorable conditions in our industry or the global economy or reductions in technology spending could limit our ability to grow our business and adversely affect our financial conditions and results of operations;",
+    "•We have a history of net losses, and we may not be able to achieve or maintain profitability in the future;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Our Business Model",
+    "Recent Developments",
+    "Industry Trends",
+    "Strategic Initiatives",
+    "Restructuring",
+    "Share Repurchase Program",
+    "Components of Results of Operations",
+    "Cost of Revenue",
+    "Operating Expenses",
+    "Other Income (Expense), Net",
+    "Interest Expense",
+    "Provision for Income Taxes",
+    "Results of Operations",
+    "Year Ended December 31,",
+    "(In thousands)",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "Revenue and Cost of Revenue",
+    "2024 $ Change",
+    "2025 2024 $ Change",
+    "Other Income (Expense), net",
+    "Income Tax Expense",
+    "Liquidity and Capital Resources",
+    "Preferred Stock Investment",
+    "Material Cash Requirements",
+    "Cash Provided by (Used in) Operating Activities",
+    "Cash Provided by Investing Activities",
+    "Cash Used in Financing Activities",
+    "Contingent Obligations",
+    "Critical Accounting Estimates",
+    "Revenue Recognition",
+    "Stock-Based Compensation",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "The mortgage market is heavily influenced by government policies and overall economic conditions. The real estate environment, including interest rates and the general economic environment, typically impacts the demand for mortgage and mortgage related products.",
+    "In 2025, we saw an increase in total mortgage transactions on our software platform compared to 2024, consistent with the growth in overall mortgage origination activity estimated by industry forecasters and partially offset by normal customer churn. Current industry forecasts project continued growth into 2026.",
+    "Mortgage origination activity depends on many factors, such as changes in the Federal Reserve's policies or pressures in the macroeconomic environment, including the imposition of tariffs, the impact of trade relations or the possibility of an economic downturn in the United States or worldwide, all of which are uncertain and out of our control. We expect the Federal Reserve's decision-making to continue to have impacts on mortgage origination activity. As a large portion of our revenue is driven by mortgage and mortgage related transaction volumes, changes in the mortgage origination volumes have had, and are likely to continue to have, material effects on our business."
+   ],
+   "focus": "Recent Developments"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Company Overview': '公司簡介'}",
+    "{'Our Segments': '我們的應報告分部'}",
+    "{'Our Solutions': '我們的解決方案'}",
+    "{'Product Offerings': '產品組合'}",
+    "{'Blend Builder': 'Blend Builder'}",
+    "{'Verification Components': '驗證零組件'}",
+    "{'Decisioning Components': '決策零組件'}",
+    "{'Intelligent Origination': '智慧化貸款發放'}",
+    "工作流程智慧零組件",
+    "APIs 與整合",
+    "{'original': 'The Blend Ecosystem', 'translated': 'Blend 生態系統'}",
+    "{'original': 'Our Customers', 'translated': '我們的客戶'}",
+    "{'original': 'Sales and Marketing', 'translated': '銷售及行銷'}",
+    "{'original': 'Customer Success', 'translated': '客戶成功'}",
+    "{'original': 'Research & Development', 'translated': '研究與開發'}",
+    "{'original': 'Intellectual Property', 'translated': '智慧財產權'}",
+    "{'Government Regulation': '政府規範'}",
+    "{'Data Privacy and Security': '資料隱私權與安全性'}",
+    "{'Human Capital': '人力資本'}",
+    "{'Corporate Information': '公司資訊'}",
+    "{'Additional Information': '其他資訊'}"
+   ],
+   "paragraphs": [
+    "Blend (NYSE: BLND) 以轉型金融服務業為使命，使貸款或開戶的過程如同現代電商一樣順暢且直覺。當前消費者期待在每一項銀行與貸款互動中都能獲得簡化、高度個人化與快速的體驗。",
+    "我們的平台整合了數據、技術與 AI 驅動的架構，用以簡化並個人化貸款流程的每一步驟。我們協助金融機構在住宅貸款與消費者銀行的主要產品線上提供透明度、速度與規模，支援從房貸申請、住宅貸款與信用線、重新貸款、車貸、信用卡、個人貸款與存款帳戶開戶的端到端服務。",
+    "透過將複雜的流程統合為單一智慧系統，我們使金融機構能在任何通路中運作得更有效率且更具靈活性，同時為客戶提供現代化、無負擔的體驗。",
+    "目前，我們的軟體為美國許多最受信賴的金融機構所使用，包括銀行、信用合作社、獨立房貸銀行與房貸服務機構。",
+    "我們僅運作於單一營運分部與單一應報告分部。此應報告結構自我們在 2025 年第一季宣佈決定退出房貸業務後即已建立，並將我們先前報告的房貸分部結果歸類為已終止營運。",
+    "我們的平台包含一系列產品，用以驅動貸款流程，從後端作業流程、貸款團隊與銀行員工具至消費者體驗。我們持續成長的 SaaS 產品組合目前支援房貸、住宅貸款與信用線、車貸、個人貸款、信用卡與存款帳戶的數位首選消費者申請流程。我們每一項產品皆由一個工作流程協調引擎所引導，該引擎運用廣泛的預定義規則庫，通常包括資料收集、驗證檢查、產品選擇、定價、預核准、揭露文件交付、地址條件與簽署結案文件。",
+    "我們的平台也包含 Blend Builder，提供模組化零組件、整合與工作流程配置，使我們能建立高度靈活的產品方案，以及為一些較為複雜的機構提供客製化解決方案。經過多年的研究與開發，Blend Builder 現在已驅動我們大多數的消費者銀行產品，以及我們最近推出的快速房貸產品。",
+    "",
+    "強大的客戶關係是 Blend 成功的基石。我們透過提供關鍵且長期戰略夥伴的定位，來建立與客戶的關係，我們透過提供必要的收入產生體驗、將軟體整合至後臺系統，並組建專案團隊以持續提升客戶價值。Blend 的客戶關係隨著我們平台被用於更廣泛的產品範疇而持續成長。客戶通常會先完成一至兩項產品的初始部署，隨後逐步增加更多產品，朝向提供多產品旅程的統一消費者體驗。隨著我們產品的採用率提高，客戶也同時實現顯著的運營效率與協同效益，透過 Blend 當作統一平台來簡化流程並整合系統。",
+    "我們的商業模式設計為讓我們的成長與客戶的優先事項對齊，我們稱之為「基於成功收費」（Success-Based Pricing）。我們透過軟體即服務（software-as-a-service）協議提供產品，費用根據已完成的交易來計算，例如貸款撥款、新帳戶開戶或結案交易。我們不會對被放棄或拒絕的申請收取費用，即使這些申請會導致我們產生成本。我們也提供某些固定費用安排，讓客戶無限使用 Consumer Banking 套件中的產品。此外，我們透過整合合作模式產生收入，我們會從第三方服務提供者處獲得固定或變動比例的收入，這些服務是透過我們平台進行的，例如收入與身分驗證，以及房屋與房貸保險。",
+    "我們的平台設計用以支持大多數銀行產品的端到端消費者旅程。從消費者開始貸款或存款帳戶申請的那一刻，到他們數位簽署最終文件的那一刻，我們的軟體平台簡化了整個流程。我們的技術，加上不斷成長的預建整合與可配置的流程，消除了客戶現有技術堆疊的限制，讓金融服務機構能夠提供個性化、主動且簡易的體驗，而不影響速度或品質。",
+    "Blend 平台是金融服務機構與消費者之間的關鍵介面。金融服務機構可以快速部署我們日益增多的即開產品，這些產品為白標（white-labeled）產品，適用於：",
+    "Blend 平台持續處於有利位置，可受益於金融服務產業正在加速進行的數位轉型投資。我們的軟體簡化了複雜的貸款發放流程，這些流程可能包含數百項任務，並需要與數十家外部技術、數據與服務供應商互動。透過自動化這些任務並開發預建整合，我們幫助客戶 potentially 避免數年昂貴的內部軟體開發，以及相關技術債務，同時提高生產力，讓資源能用於其他計畫。",
+    "Blend 平台是金融服務機構與消費者之間的關鍵介面。金融服務機構可以快速部署我們日益增多的即開產品，這些產品為白標（white-labeled）產品，適用於："
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'Our Business Model': '本公司營運模式'}",
+    "{'Recent Developments': '近期發展'}",
+    "{'Industry Trends': '產業趨勢'}",
+    "{'Strategic Initiatives': '戰略性措施'}",
+    "{'Restructuring': '重整'}",
+    "{'Share Repurchase Program': '股票回購計畫'}",
+    "{'Components of Results of Operations': '營運成果之組成項目'}",
+    "{'Cost of Revenue': '收入成本'}",
+    "營運費用",
+    "其他收入（費用），淨額",
+    "利息費用",
+    "所得稅費用",
+    "營運成果",
+    "截至2025年12月31日止年度",
+    "(以千為單位)",
+    "截至2025年12月31日及2024年12月31日止年度之比較",
+    "{'original': 'Revenue and Cost of Revenue', 'translated': '營業收入及營業成本'}",
+    "{'original': '2024 $ Change', 'translated': '2024 年美元變動'}",
+    "{'original': '2025 2024 $ Change', 'translated': '2025 年 2024 年美元變動'}",
+    "{'original': 'Other Income (Expense), net', 'translated': '其他收入（費用），淨額'}",
+    "{'original': 'Income Tax Expense', 'translated': '所得稅費用'}",
+    "{'original': 'Liquidity and Capital Resources', 'translated': '流動性及資本資源'}",
+    "{'original': 'Preferred Stock Investment', 'translated': '優先股投資'}",
+    "{'original': 'Material Cash Requirements', 'translated': '重大現金需求'}",
+    "營運活動所提供之現金（使用現金）",
+    "投資活動所提供之現金",
+    "融資活動所使用之現金",
+    "或有負債",
+    "關鍵會計估計",
+    "收入認列",
+    "股票基於報酬",
+    "最近會計準則聲明"
+   ],
+   "paragraphs": [
+    "房貸市場受到政府政策與總體經濟條件的大幅影響。不動產環境，包括利率與總體經濟環境，通常會影響房貸與相關產品的需求。",
+    "2025 年，我們在軟體平台上的總房貸交易數量相比 2024 年有所增加，與產業預測機構預估的總房貸發放活動成長趨勢一致，並部分抵銷正常客戶流失。目前產業預測顯示 2026 年將持續成長。",
+    "房貸發放活動取決於許多因素，例如聯邦儲備理事會政策的變化或總體經濟環境的壓力，包括課徵關稅、貿易關係的影響或美國或全球經濟衰退的可能性，所有這些因素皆不確定且超出我們的控制範圍。我們預期聯邦儲備理事會的決策將持續影響房貸發放活動。由於我們的營業收入有很大一部分是由房貸及相關交易量所驅動，房貸發放量的變化已對我們的業務產生重大影響，並可能持續產生重大影響。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與我們業務及營運相關的風險",
+    "我們的業務大幅依賴來自金融服務業的收入，因此會受到抵押貸款業及更大範圍的金融服務業風險的影響。",
+    "市場利率的上升已對我們的業務、財務狀況及營運成果產生負面影響，並可能持續如此。",
+    "我們產業或全球經濟的不利條件，或科技支出減少，可能會限制我們擴張業務的能力，並對我們的財務狀況及營運成果產生負面影響。",
+    "我們有淨虧損的歷史，我們可能無法在未來實現或維持盈利。",
+    "我們面臨激烈的競爭，如果我們無法有效競爭，將可能對我們的業務、財務狀況及營運成果產生負面影響。",
+    "我們的營運成果會因期間而異，這已導致我們A類普通股的市場價格波動。",
+    "我們經常依賴客戶自報已完成之交易，由於我們主要採用以績效為基礎之模式，這可能使預估及預測營業收入變得困難。",
+    "因任何未來之併購或投資而產生之無形資產、商譽及其他資產之減損，可能對本公司之業務、財務狀況及營運成果產生不利影響。"
+   ],
+   "paragraphs": [
+    "本公司業務涉及許多重大風險，部分風險已於下文說明。請您謹慎考量下文所述的風險與不確定性，並配合本年度10-K表報表中所有其他資訊，包括「管理層對財務狀況與營運成果之討論與分析」節及本公司合併財務報表與相關附註。上述任何風險都可能對本公司業務、營運成果、財務狀況或前景產生負面影響，並可能導致本公司A類普通股交易價格下跌。本公司業務、財務狀況、營運成果或前景也可能因目前未知或本公司目前認為不具重大影響的風險與不確定性而受損。若任何風險實際發生，本公司業務、財務狀況、營運成果與前景可能受到不利影響。在此情況下，本公司A類普通股的市場價格可能下跌，您可能損失部分或全部投資。本公司風險因素並非保證截至本報告日不存在上述情況，也不應被解釋為明確表示上述風險或情況未全部或部分實現。",
+    "本公司業務所面臨的風險與不確定性包括，但不僅限於下列內容：",
+    "•本公司業務大幅依賴金融服務業的收入，因此會受到影響房貸業與更大範圍金融服務業的風險影響；",
+    "•市場利率上漲已對本公司業務、財務狀況與營運成果產生負面影響，並可能持續如此；",
+    "•本公司產業或全球總體經濟環境不佳或科技支出減少，可能限制本公司擴張業務的能力，並對本公司財務狀況與營運成果產生負面影響；",
+    "•本公司有淨虧損的歷史，未來可能無法實現或維持盈利；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

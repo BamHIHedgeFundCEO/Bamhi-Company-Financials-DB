@@ -1,0 +1,140 @@
+{
+ "ticker": "WABC",
+ "cik": "0000311094",
+ "accession": "0001171843-26-001195",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Human Capital Resources",
+    "Supervision and Regulation"
+   ],
+   "paragraphs": [
+    "Westamerica Bancorporation is a bank holding company registered under the Bank Holding Company Act of 1956, as amended (\"BHCA\"). Its legal headquarters are located at 1108 Fifth Avenue, San Rafael, California 94901. Its principal administrative offices are located at 4550 Mangels Boulevard, Fairfield, California 94534, its telephone number is (707) 863-6000 and its website address is www.westamerica.com. The Company provides a full range of banking services to individual and commercial customers in Northern and Central California through its subsidiary bank, Westamerica Bank (the \"Bank\"). The Bank is a California-chartered commercial bank whose deposits are insured by the Federal Deposit Insurance Corporation (the \"FDIC\") up to applicable limits. The principal communities served are located in Northern and Central California, from Mendocino, Lake and Nevada Counties in the north to Kern County in the south. The Company's strategic focus is on the banking needs of small businesses. In addition, the Bank owns 100% of the capital stock of Community Banker Services Corporation (\"CBSC\"), a company engaged in providing the Company and its subsidiaries with data processing services and other support functions.",
+    "The Company was incorporated under the laws of the State of California in 1972 as \"Independent Bankshares Corporation\" pursuant to a plan of reorganization among three previously unaffiliated Northern California banks. The Company operated as a multi-bank holding company until mid-1983, at which time the then six subsidiary banks were merged into a single bank named Westamerica Bank and the name of the holding company was changed to Westamerica Bancorporation.",
+    "The Company acquired five banks within its immediate market area during the early to mid 1990's. In April 1997, the Company acquired ValliCorp Holdings, Inc., parent company of ValliWide Bank, the largest independent bank holding company headquartered in Central California. Under the terms of all of the merger agreements, the Company issued shares of its common stock in exchange for all of the outstanding shares of the acquired institutions. The subsidiary banks acquired were merged with and into the Bank. During the period 2000 through 2005, the Company acquired three additional banks. In 2009 and 2010, the Bank acquired the banking operations of two failed banks, the former County Bank and Sonoma Valley Bank, from the Federal Deposit Insurance Corporation (\"FDIC\").",
+    "At December 31, 2025, the Company had consolidated assets of approximately $6.0 billion, deposits of approximately $4.8 billion and shareholders' equity of approximately $934 million.",
+    "The Company assesses and is careful to address potential health, safety, and environmental risks. The Company cares for the environment and works to mitigate pollution and the potential risks related to climate change by implementing practices such as recycling and reusing materials, and controlling energy usage.",
+    "The Company's Annual Report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K and any amendments to those reports as well as beneficial ownership reports on Forms 3, 4 and 5 are available through the SEC's website (https://www.sec.gov). Such documents as well as the Company's director, officer and employee Code of Conduct and Ethics are also available free of charge from the Company by request to:",
+    "Westamerica Bancorporation Corporate Secretary A-2M Post Office Box 1200 Suisun City, California 94585-1200",
+    "The Company and its subsidiaries employed 627 employees (608 full-time equivalent staff) as of December 31, 2025. The employees are not represented by a collective bargaining unit, and the Company believes its relationship with its employees is good.",
+    "The Company's ability to attract and retain employees is a key to its success. Employees receive a comprehensive benefits package that includes paid time off, sick time, company contributions of up to 6% to qualified retirement plans, discretionary profit-sharing retirement plan contributions, and other health and wellness benefits including participation in Company paid or subsidized medical, dental, vision, term-life, accidental death and dismemberment (AD&D), long-term disability, and employee assistance programs. Certain employees participate in one of the Company's performance-based incentive programs, which may include additional bonus and incentive compensation, company contributions to supplemental retirement plans, and equity-based awards. Certain benefits are subject to eligibility, vesting, and performance requirements. Employee performance is measured at least quarterly and formal performance evaluations are conducted at least annually.",
+    "The Company's code of ethics prohibits discrimination or harassment. The Company requires all employees to agree to the code of ethics and participate in harassment prevention training annually.",
+    "The following is not intended to be an exhaustive description of the statutes and regulations applicable to the Company's or the Bank's business. The description of statutory and regulatory provisions is qualified in its entirety by reference to the particular statutory or regulatory provisions. Moreover, major new legislation and other regulatory changes affecting the Company, the Bank, and the financial services industry in general have occurred in the last several years and can be expected to occur in the future. The nature, timing and impact of new and amended laws and regulations cannot be accurately predicted.",
+    "-3- Regulation and Supervision of Bank Holding Companies",
+    "The Company is a bank holding company that is subject to the BHCA. The Company files reports with and is subject to examination and supervision by the Board of Governors of the Federal Reserve System (\"FRB\"). The FRB also has the authority to examine the Company's subsidiaries. The Company is a bank holding company within the meaning of Section 3700 of the California Financial Code. As such, the Company and the Bank are subject to examination by, and may be required to file reports with, the Commissioner of the California Department of Financial Protection and Innovation (the \"Commissioner\").",
+    "The FRB has significant supervisory and regulatory authority over the Company and its affiliates. Among other things, the FRB requires the Company to maintain certain levels of capital. See \"Capital Standards.\" The FRB also has the authority to take enforcement action against any bank holding company that commits any unsafe or unsound practice, or violates certain laws, regulations or conditions imposed in writing by the FRB. Under the BHCA, the Company is required to obtain the prior approval of the FRB before it acquires, merges or consolidates with any bank or bank holding company. Any company seeking to acquire control of or to merge or consolidate with the Company also would be required to obtain the prior approval of the FRB."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Market and Interest Rate Risk",
+    "Changes in interest rates could reduce income and cash flow.",
+    "The Company could realize losses if it were required to sell securities in its held-to-maturity securities portfolio to meet liquidity needs.",
+    "Changes in capital market conditions could reduce asset valuations.",
+    "The value of securities in the Company's investment securities portfolio may be negatively affected by disruptions in securities markets.",
+    "Negative developments affecting the banking industry, such as bank failures, may have a material adverse effect on the Company.",
+    "The weakness of other financial institutions could adversely affect the Company.",
+    "Shares of Company common stock eligible for future sale or grant of stock options and other equity awards could have a dilutive effect on the market for Company common stock and could adversely affect the market price.",
+    "The Company could repurchase shares of its common stock at price levels considered excessive.",
+    "Risks Related to the Nature and Geographical Location of the Company's Business",
+    "The Company invests in loans that contain inherent credit risks that may cause the Company to incur losses.",
+    "The Company's operations are concentrated geographically in California, and poor economic conditions may cause the Company to incur losses.",
+    "The markets in which the Company operates are subject to the risk of earthquakes, fires, storms and other natural disasters.",
+    "Adverse changes in general business or economic conditions, including inflation, could have a material adverse effect on the Company's financial condition and results of operations.",
+    "Regulatory Risks",
+    "Restrictions on dividends and other distributions could limit amounts payable to the Company.",
+    "The Company's payment of dividends on common stock could be eliminated or reduced.",
+    "Adverse effects of changes in banking or other laws and regulations or governmental fiscal or monetary policies could adversely affect the Company.",
+    "Federal and state governments could pass legislation detrimental to the Company's performance.",
+    "Systems, Accounting and Internal Control Risks",
+    "The accuracy of the Company's judgments and estimates about financial and accounting matters will impact operating results and financial condition.",
+    "The Company's information systems or those of its vendors may experience an interruption or breach in security.",
+    "The Company's controls and procedures may fail or be circumvented.",
+    "Operational Risks",
+    "Climate change and the transition to renewable energy and a net zero emissions economy pose operational, commercial and regulatory risks.",
+    "If the Company loses the services of any of our key management personnel, its business could suffer.",
+    "The Company competes with many banks and other traditional, non-traditional, brick and mortar and online financial service providers.",
+    "The Company must continue to attract, retain and develop key personnel.",
+    "The Company is subject to environmental liability risk associated with lending activities."
+   ],
+   "paragraphs": [
+    "Readers and prospective investors in the Company's securities should carefully consider the following risk factors as well as the other information contained or incorporated by reference in this Report.",
+    "The risks and uncertainties described below are not the only ones facing the Company. Additional risks and uncertainties that Management is not aware of or focused on or that Management currently deems immaterial may also impair the Company's business operations. This Report is qualified in its entirety by these risk factors.",
+    "If any of the following risks actually occur, the Company's financial condition and results of operations could be materially and adversely affected. If this were to happen, the value of the company's securities could decline significantly, and investors could lose all or part of their investment in the Company's common stock.",
+    "The Company's income and cash flow depend to a great extent on the difference between the interest earned on loans and investment securities and the interest paid on deposits and other borrowings, and the Company's success in competing for loans and deposits. The Company cannot control or prevent changes in the level of interest rates which fluctuate in response to general economic conditions, the policies of various governmental and regulatory agencies, in particular, the Federal Open Market Committee of the Federal Reserve Board (the\" FOMC\"), and pricing practices of the Company's competitors. Changes in monetary policy, including changes in interest rates, will influence the origination of loans, the purchase of investments, the generation of deposits and other borrowings, and the rates received on loans and investment securities and paid on deposits and other liabilities. The discussion in this Report under \"Item 7 Management's Discussion and Analysis of Financial Condition and Results of Operations – Asset, Liability and Market Risk Management\" and \"- Liquidity and Funding\" and \"Item 7A, Quantitative and Qualitative Disclosures About Market Risk\" is incorporated by reference in this paragraph.",
+    "Interest rates could rise and cause the market value of previously issued government and other debt securities to decline significantly, resulting in unrealized losses in the held-to-maturity portion of the Company's securities portfolios. While the Company does not expect or intend to sell these securities, if the Company were required to sell such securities to meet liquidity needs, it could incur losses, which could impair the Company's capital financial condition and results of operations. Further, while the Company has taken actions to maximize its funding sources, there is no guarantee that such funding sources will be available or sufficient in the event of sudden liquidity needs.",
+    "Capital market conditions, including interest rates, liquidity, investor confidence, bond issuer credit worthiness, perceived counter-party risk, the supply of and demand for financial instruments, the financial strength of market participants, and other factors can materially impact the value of the Company's assets. An impairment in the value of the Company's assets could result in asset write-downs, reducing the Company's asset values, earnings, and equity."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'original': 'Human Capital Resources', 'translated': '人力資本資源'}",
+    "{'original': 'Supervision and Regulation', 'translated': '監督與規範'}"
+   ],
+   "paragraphs": [
+    "Westamerica Bancorporation 為一間依照 1956 年銀行控股公司法案（\"BHCA\"）註冊的銀行控股公司。其法律總部位於加利福尼亞州桑拉菲爾市第五大道 1108 號 94901。其主要行政辦公室位於加利福尼亞州費爾菲爾德市曼蓋爾斯大道 4550 號 94534，電話號碼為 (707) 863-6000，網站網址為 www.westamerica.com。本公司透過其子公司銀行 Westamerica Bank（\"Bank\"）為北加利福尼亞州及中加利福尼亞州的個人及商業客戶提供完整的銀行服務。Bank 為一間加利福尼亞州註冊的商業銀行，其存款由美國聯邦存款保險公司（\"FDIC\"）根據適用的保險上限進行保險。主要服務區域位於北加利福尼亞州及中加利福尼亞州，從北邊的門多西諾、拉克和內華達縣，一直到南邊的肯縣。本公司的戰略重點在於服務小型企業的銀行需求。此外，Bank 持有 Community Banker Services Corporation（\"CBSC\"）100% 的資本股票，CBSC 為一間從事為本公司及其子公司提供資料處理服務及其他支援功能的公司。",
+    "本公司於 1972 年依照加州法律設立，當時名為 \"Independent Bankshares Corporation\"，根據三間先前無關聯的北加州銀行之間的重組計畫設立。本公司曾作為多銀行控股公司運作，直到 1983 年中，當時的六間子公司銀行被合併為一間名為 Westamerica Bank 的銀行，並將控股公司的名稱更名為 Westamerica Bancorporation。",
+    "本公司於 1990 年代初期至中期在其即時市場區域內收購了五間銀行。1997 年 4 月，本公司收購了 ValliCorp Holdings, Inc.，為 ValliWide Bank 的母公司，為位於中加州的最大的獨立銀行控股公司。根據所有合併協議的條款，本公司以發行其普通股股票換取所收購機構的所有現有股票。所收購的子公司銀行被合併至銀行。在 2000 年至 2005 年期間，本公司又收購了三間其他銀行。2009 年及 2010 年，銀行從美國聯邦存款保險公司（\"FDIC\"）收購了兩間已倒閉銀行的銀行業務，即前 County Bank 與 Sonoma Valley Bank。",
+    "於 2025 年 12 月 31 日，本公司合併資產約為 6.0 十億美元，存款約為 4.8 十億美元，股東權益約為 934 百萬美元。",
+    "本公司評估並謹慎處理潛在的健康、安全與環境風險。本公司關心環境，並透過實行如回收與再利用材料、控制能源使用等做法，努力減少污染及與氣候變遷相關的潛在風險。",
+    "本公司於 Form 10-K 的年度報告、Form 10-Q 的季報、Form 8-K 的現況報告以及這些報告的任何修正版本，以及 Form 3、4 與 5 的受益人持股報告，均可透過美國證券交易委員會（SEC）網站（https://www.sec.gov）取得。這些文件以及本公司董事、高階主管與員工的行為準則與倫理規範，也可免費向本公司請求取得：",
+    "Westamerica Bancorporation 董事長祕書 A-2M 郵遞信箱 1200 西斯倫市，加州 94585-1200",
+    "本公司及其子公司於 2025 年 12 月 31 日僱用 627 名員工（608 名全職等效員工）。員工並未加入集體談判單位，本公司認為其與員工的關係良好。",
+    "本公司吸引並留住員工的能力是其成功的重要關鍵。員工可享有完整的福利方案，包括有給假、病假、對合格退休計畫最高6%的公司提撥、酌情獎金退休計畫提撥，以及其他健康與 wellness 福利，包括參與本公司支付或補助的醫療、牙科、視力、定期壽險、意外死亡及肢體喪失（AD&D）、長期殘障及員工輔導計畫。部分員工參與本公司基於績效的激勵計畫，可能包含額外獎金與激勵報酬、對補充退休計畫的公司提撥，以及基於權益的獎勵。部分福利需符合資格、行權條件及績效要求。員工績效至少每季評估一次，正式績效評估至少每年進行一次。",
+    "本公司倫理準則禁止歧視或騷擾。本公司要求所有員工同意倫理準則並每年參與騷擾預防訓練。",
+    "以下並非意圖為本公司或銀行業務所適用的全部法律與規範之完整說明。有關法律與規範之說明，應以特定法律或規範為準。此外，近幾年已發生影響本公司、銀行及金融服務產業的重大新立法及其他規範變更，未來亦可能發生。新法與修正法之性質、時間及影響無法準確預測。",
+    "-3- 銀行控股公司的監管與監督",
+    "本公司為一銀行控股公司，受 BHCA 管轄。本公司需向聯邦儲備銀行（FRB）提交報告，並接受其檢查與監督。FRB 亦有權檢查本公司之子公司。本公司為加州金融法典第 3700 節所定義之銀行控股公司。因此，本公司與銀行需接受加州金融保護與創新部長（\"部長\"）之檢查，並可能需向部長提交報告。",
+    "FRB 對本公司及其附屬機構有重大監督與規範權限。其中包含 FRB 要求本公司維持特定資本水平。請參閱「資本標準」。FRB 亦有權對任何違反不安全或不穩健作法，或違反特定法律、規範或 FRB 所書面規定條件之銀行控股公司採取強制措施。根據 BHCA，本公司在取得、合併或與任何銀行或銀行控股公司合併前，需獲得 FRB 事前批准。任何欲取得本公司控制權或與本公司合併或合併之公司，亦需獲得 FRB 事前批准。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "市場與利率風險",
+    "利率變動可能降低收入與現金流。",
+    "若本公司需出售持有至到期日證券組閤中的證券以應付流動性需求，可能會產生損失。",
+    "資本市場條件的變動可能降低資產評價。",
+    "本公司投資證券組閤中的證券價值可能因證券市場動盪而受到負面影響。",
+    "影響銀行業的負面發展，例如銀行倒閉，可能對本公司產生重大不利影響。",
+    "其他金融機構的弱勢可能對本公司產生不利影響。",
+    "本公司普通股股份，若未來可出售或授予股票選擇權及其他權益獎勵，可能對本公司普通股市場產生稀釋效果，並可能對市場價格產生負面影響。",
+    "本公司可能在被認為過高的價格水平購回其普通股股份。",
+    "與本公司業務性質及地理位置相關的風險",
+    "本公司投資於包含內在信用風險的貸款，這些風險可能導致本公司產生損失。",
+    "本公司業務集中於加利福尼亞州地理區域，若當地經濟狀況惡化，可能導致本公司產生損失。",
+    "本公司所從事的市場可能面臨地震、火災、風暴及其他天然災害的風險。",
+    "總體經濟或商業條件的不利變化，包括通貨膨脹，可能對本公司的財務狀況及營運成果產生重大不利影響。",
+    "法規風險",
+    "對股息及其他分派的限制可能限制本公司可支付的金額。",
+    "本公司對普通股支付股息的行為可能被取消或減少。",
+    "銀行或其它法律與規範的變更，或政府財政與貨幣政策的不利影響，可能對本公司造成不利影響。",
+    "聯邦及州政府可能通過對本公司營運表現不利的立法。",
+    "系統、會計及內部控制風險",
+    "本公司對財務及會計事項的判斷與估計準確性，將影響營運成果與財務狀況。",
+    "本公司資訊系統或其合作廠商的資訊系統可能遭遇中斷或安全漏洞。",
+    "本公司控制及程序可能失效或被繞過。",
+    "營運風險",
+    "氣候變遷及轉向可再生能源與淨零排放經濟的過渡，可能帶來營運、商業及法規風險。",
+    "若本公司失去任何關鍵管理人員的服務，其業務可能受到影響。",
+    "本公司與許多銀行及其他傳統、非傳統、實體與線上金融服務提供者競爭。",
+    "本公司必須持續吸引、留住並培養關鍵人才。",
+    "本公司因貸款業務而面臨環境責任風險。"
+   ],
+   "paragraphs": [
+    "讀者及有意投資本公司證券之投資人應謹慎考量下列風險因素，以及本報告中所包含或參考之其他資訊。",
+    "下列所描述之風險與不確定性並非本公司所面臨之唯一風險。尚有其他風險與不確定性，可能是管理層未預見或未著重，或目前認為不重要，也可能影響本公司之業務運作。",
+    "若上述任何風險實際發生，將可能對本公司之財務狀況與營運成果造成重大且不利之影響。若發生此種情況，本公司證券之價值可能大幅下跌，投資人可能損失全部或部分投資於本公司普通股之金額。",
+    "本公司之獲利與現金流在很大程度上取決於貸款與投資證券所獲利息與存款及其他借款所付利息之間的差額，以及本公司在貸款與存款競爭中的表現。本公司無法控制或預防利率水平的變動，而利率會根據總體經濟情況、各政府與監管機構的政策，特別是聯邦儲備理事會（Federal Reserve Board）的公開市場委員會（FOMC）以及本公司競爭對手的定價慣例而變動。貨幣政策的變動，包括利率的變動，將影響貸款的發放、投資的購入、存款及其他借款的產生，以及貸款與投資證券所獲利率與存款及其他負債所付利率。本報告中「項目7 管理層對財務狀況與營運成果之討論與分析 – 資產、負債與市場風險管理」及「- 流動性與資金」以及「項目7A 市場風險之量化與質化揭露」的討論內容已納入本段落中。",
+    "利率可能上漲，導致先前發行之政府及其他債務證券之市場價值大幅下跌，造成本公司證券投資組閤中持有至到期部分之未實現損失。雖然本公司不預期或意圖出售這些證券，但若本公司因流動性需求而被迫出售這些證券，可能會產生損失，進而影響本公司之資本、財務狀況與營運成果。此外，雖然本公司已採取行動以最大化資金來源，但無法保證在突發性流動性需求時，這些資金來源將會可用或足夠。",
+    "資本市場條件，包括利率、流動性、投資人信心、債券發行者信用worthiness、被認為之交易對手風險、金融工具之供給與需求、市場參與者的財務強度及其他因素，可能對本公司資產價值造成重大影響。本公司資產價值之減損可能導致資產減值，降低本公司資產價值、獲利與權益。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

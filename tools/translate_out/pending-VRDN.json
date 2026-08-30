@@ -1,0 +1,215 @@
+{
+ "ticker": "VRDN",
+ "cik": "0001590750",
+ "accession": "0001590750-26-000007",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Overview",
+    "Development of IGF-1R Therapies to Treat Thyroid Eye Disease (TED)",
+    "Development of FcRn Inhibitors",
+    "Development of TSHR Inhibitors",
+    "Our Strategy",
+    "◦Advance our TSHR candidate to the clinic. Our TSHR candidate is a potential best-in-class, half-life extended product candidate. We anticipate submitting an IND for our TSHR program in the fourth quarter of 2026.",
+    "◦Identify external opportunities for potential in-licensing. Monitor external opportunities and in-license potential assets that align with our strategic focus.",
+    "Our Pipeline",
+    "Thyroid Eye Disease (TED)",
+    "Pathologies Leading to the Development of TED",
+    "Current Treatments for TED",
+    "Market Potential",
+    "Our Product Candidates",
+    "Veligrotug, a potential best-in-class intravenously administered IGF-1R antibody",
+    "Clinical Trials for veligrotug",
+    "Elegrobart, a potential best-in-class subcutaneously administered IGF-1R antibody",
+    "FcRn Inhibitor Portfolio: VRDN-006 and VRDN-008",
+    "TSHR Program",
+    "Intellectual Property"
+   ],
+   "paragraphs": [
+    "We are a biopharmaceutical company focused on discovering, developing, and commercializing potential best-in-class medicines for serious and rare diseases. We target therapeutic areas in which current treatments leave room for improvements in efficacy, safety, and/or dosing convenience. We believe there is significant potential in these areas, for better medicines that address unmet needs, improve outcomes, and expand treatment options for patients. We aim to develop differentiated, potential best-in-class medicines that could lead to improved patient outcomes, reduced side effects, improved quality of life, and expanded market access.",
+    "Our pipeline targets validated pathways and disease-driving mechanisms in autoimmune and rare diseases. These include product candidates directed at the insulin-like growth factor 1 receptor (\"IGF‑1R\") for the treatment of thyroid eye disease (\"TED\"), inhibitors of the neonatal Fc receptor (\"FcRn\") with potential application across multiple autoimmune disorders, and a TSHR inhibitor program with potential in TED and Graves' disease. We develop therapeutics through internal research and discovery, as well as through in-licensing opportunities that align with our strategic focus. Our capabilities span protein and antibody discovery and engineering, biologics manufacturing, nonclinical and clinical development, commercial planning, and commercialization in these therapeutic areas.",
+    "As we prepare for the anticipated launch of our first commercial product, if approved, we are building the infrastructure we believe is required to support a successful transition to a commercial organization. This includes establishing sales and marketing, market access, patient services, and commercial operations functions, and expanding our medical, clinical, regulatory, quality, and supply chain and distribution capabilities. Our commercial readiness efforts focus on enabling reliable access for patients, supporting physicians, and engaging effectively with payors.",
+    "Our strategy combines clear scientific, clinical, and commercial rationale with excellence in execution to rapidly discover, develop, and commercialize better medicines for patients. We rely on our scientific, clinical, and commercial expertise to identify opportunities to improve upon existing investigational or approved therapies and to apply these insights to designing, selecting, developing, and commercializing potential best-in-class product candidates. We bring potential improvements to critical areas such as molecular design, dose selection, pharmacokinetics, pharmacodynamics, clinical trial design, trial endpoints, and the selection and recruitment of patients. We believe this strategy enables efficient product development and reduces the risk when developing novel therapeutics.",
+    "We are developing therapies for the treatment of TED, a serious and debilitating rare autoimmune disease that causes inflammation within the orbit of the eye that can cause bulging of the eyes, redness and swelling, double vision, pain, and potential blindness. TED significantly impacts quality of life, imposing a high burden on activities of daily living and mental health for patients suffering from the disease. TED is a progressive disease consisting of an initial active phase (\"active TED\"), followed by a transition to a secondary chronic phase (\"chronic TED\"). The only medicine approved by the FDA for TED is Tepezza® (teprotumumab), which is an intravenously administered monoclonal antibody that targets IGF-1R. Tepezza is marketed in the United States (\"U.S.\") by Amgen Inc. (\"Amgen\"). Amgen gained approval for Tepezza in Japan in 2024 and from the European Commission in 2025.",
+    "We are developing two anti-IGF-1R product candidates, veligrotug for intravenous (\"IV\") administration and elegrobart (formerly known as VRDN-003) for subcutaneous (\"SC\") administration, to treat patients who suffer from TED. Our most advanced program, veligrotug, is a differentiated humanized monoclonal antibody targeting IGF-1R intravenously administered for the treatment of TED. In previously presented in vitro nonclinical data, we showed that veligrotug is a potentially differentiated full antagonist of IGF-1R, compared to teprotumumab's incomplete antagonism of IGF-1R. Elegrobart has the same binding domain as veligrotug, and was engineered to have a longer half-life. Elegrobart is designed to be a low-volume, infrequently-dosed subcutaneous IGF-1R for TED, which we plan to launch commercially with an auto-injector to enable at-home patient self-administration. We believe elegrobart has the potential to be the best-in-class anti-IGF-1R product candidate by preserving the efficacy of anti-IGF-1Rs in TED, improving safety, and maximizing convenience for patients with subcutaneous delivery.",
+    "We conducted a global pivotal clinical program for veligrotug, evaluating its efficacy and safety in two global well-controlled phase 3 clinical trials, THRIVE and THRIVE-2, for the treatment of active and chronic TED, respectively. THRIVE and",
+    "THRIVE-2 were each designed to compare a five-dose IV treatment arm of veligrotug at 10 mg/kg, dosed three weeks apart, to placebo. This five-dose veligrotug regimen features fewer infusions and a shorter time per infusion compared to teprotumumab, the currently marketed IGF-1R inhibitor. In September 2024, we announced topline data from the THRIVE study, which enrolled 113 patients, randomized to veligrotug (n=75) and placebo (n=38). THRIVE achieved its primary and all secondary endpoints with a high level of statistical significance (p < 0.0001) and was generally well-tolerated, with no treatment-related serious adverse events (\"SAEs\"). Veligrotug additionally showed a rapid onset of treatment effect, with the majority (53%) of veligrotug-treated patients achieving a proptosis response as early as three weeks. In December 2024, we announced topline data from the THRIVE-2 study, which enrolled 188 patients, randomized to veligrotug (n=125) and placebo (n=63). THRIVE-2 achieved its primary and all secondary endpoints with statistical significance and was generally well-tolerated. Veligrotug demonstrated a rapid onset of treatment effect in THRIVE-2, with a statistically significant proptosis response as early as three weeks and a statistically significant reduction and resolution of diplopia as early as six weeks. THRIVE-2 is the first global phase 3 study in patients with chronic TED to demonstrate a statistically significant and clinically meaningful diplopia responder rate and rate of diplopia complete resolution. Veligrotug demonstrated durability at 52 weeks in THRIVE, showing that 70% of patients who were proptosis responders at week 15 maintained their response at week 52.",
+    "To meet the 300 patient safety database requirement for the veligrotug BLA, we are conducting STRIVE, a global phase 3 clinical trial. STRIVE enrolled 231 TED patients, utilized broad inclusion criteria (e.g., any severity or duration of disease), and randomized patients 3:1 (10 mg/kg IV with an active control of 3 mg/kg IV). We are also conducting an open label extension study for non-responding patients in THRIVE and THRIVE-2 which has completed enrollment. In May 2025, the FDA granted Breakthrough Therapy designation to veligrotug. We submitted a BLA for veligrotug to the FDA in October 2025, which was accepted for filing and granted Priority Review in December 2025 with a Prescription Drug User Free Act (\"PDUFA\") target action date of June 30, 2026. We additionally submitted an MAA to the EMA in January 2026.",
+    "We are also developing elegrobart, our subcutaneous anti-IGF-1R product candidate currently in pivotal clinical studies in TED, which we selected in December 2023 following positive data in a phase 1 clinical trial in healthy volunteers.",
+    "In its phase 1 clinical study in healthy volunteers, elegrobart was shown to have a prolonged half-life of 40 to 50 days, which is four to five times that of veligrotug. Based on this data and the similarities between the veligrotug and elegrobart antibodies, we selected Q4W and Q8W dosing of elegrobart to advance to phase 3 pivotal studies. PK modeling showed Q4W and Q8W subcutaneous elegrobart dosing could achieve the range of modeled veligrotug exposures based on a two-infusion phase 2 TED study at 3 mg/kg and 10 mg/kg IV, once every three weeks. Both dosing regimens of veligrotug showed robust clinical activity.",
+    "We are conducting a global pivotal program for elegrobart, including evaluating its efficacy and safety in two global well-controlled phase 3 clinical trials, REVEAL-1 and REVEAL-2, for the treatment of active and chronic TED, respectively. Both studies are evaluating elegrobart administered subcutaneously every four weeks or every eight weeks and will assess outcomes versus placebo. In September 2025, we announced that REVEAL-1 and REVEAL-2 completed enrollment, enrolling 132 and 204 patients, respectively, each exceeding its target enrollments of 117 and 195 patients, respectively, due to demand. 67% of REVEAL-1 patients were enrolled from the U.S., and 56% of REVEAL-2 patients were enrolled from the U.S. In addition, to enable BLA submission for elegrobart, we are conducting a safety study to meet the 300 patient safety database requirement (to also include patients from the REVEAL-1 and REVEAL-2 trials). We completed enrollment of this safety study in October 2025, enrolling 321 patients, exceeding the target enrollment of 284 patients due to demand. Additionally, we are conducting an auto-injector study to enable launching elegrobart in an auto-injector device, if approved. We completed enrollment in the autoinjector study in December 2025, enrolling 87 patients, exceeding the target enrollment of 75 patients. We anticipate topline data for REVEAL-1 in the first quarter of 2026 and REVEAL-2 in the second quarter of 2026.",
+    "We are also developing a portfolio of engineered FcRn inhibitors, including VRDN-006 and VRDN-008. FcRn inhibitors have the potential to treat a broad array of autoimmune diseases, representing a possible significant commercial market opportunity. Our multi-pronged engineering approach has resulted in a portfolio of FcRn-targeting molecules that leverage the clinically and commercially validated mechanism of FcRn inhibition while potentially addressing the limitations of current agents such as incomplete immunoglobulin G (\"IgG\") suppression, safety, and inconvenience of dosing.",
+    "VRDN-006 is a highly selective Fc fragment that inhibits FcRn and is designed to be a convenient subcutaneous and self-administered option for patients. In non-human primate (\"NHP\") studies, VRDN-006 demonstrated specificity for blocking FcRn-IgG interactions while not showing decreases in albumin or increases in low-density lipoprotein (\"LDL\") levels, which are known potential side effects associated with certain full-length anti-FcRn monoclonal antibodies. In our head-to-head NHP studies, VRDN-006 demonstrated comparable potency and IgG reductions to efgartigimod, which is the current standard of care in FcRn inhibition, as well as a similar safety profile. We submitted an IND for VRDN-006 in December 2024, which cleared"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Financial Condition and Capital Requirements",
+    "We have historically incurred losses, have a limited operating history on which to assess our business, and anticipate that we will continue to incur significant losses for the foreseeable future.",
+    "If we are unable to raise capital when needed, we would be forced to delay, reduce, or eliminate our research and product development programs or future commercialization efforts.",
+    "We have never generated any revenue from product sales and may never be profitable.",
+    "Raising additional capital may cause dilution to our stockholders, restrict our operations, or require us to relinquish rights.",
+    "Business disruptions could seriously harm our future revenue and financial condition and increase our costs and expenses.",
+    "We may not be entitled to obtain additional milestone payments under the DRI Purchase and Sale Agreement.",
+    "Risks Related to the Discovery and Development of Our Product Candidates",
+    "Clinical trials are costly, time consuming, and inherently risky, and we may fail to demonstrate safety and efficacy to the satisfaction of applicable regulatory authorities.",
+    "Even if we obtain regulatory approval for a product candidate, we will remain subject to ongoing regulatory requirements.",
+    "Additional time may be required to obtain marketing authorizations for certain of our product candidates because they are, or are anticipated to be, combination products.",
+    "Product development involves a lengthy and expensive process with an uncertain outcome, and results of earlier nonclinical studies and clinical trials may not be predictive of future clinical trial results.",
+    "Preliminary data from our clinical trials that we announce or publish are subject to audit and verification procedures that could result in material changes in the final data."
+   ],
+   "paragraphs": [
+    "Our business, financial condition, and operating results may be affected by a number of factors, whether currently known or unknown, including but not limited to those described below. Any one or more of such factors could directly or indirectly cause our actual results of operations and financial condition to vary materially from past or anticipated future results of operations",
+    "and financial condition. Any of these factors, in whole or in part, could materially and adversely affect our business, financial condition, results of operations, and stock price. The following information should be read in conjunction with Part II, Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and the consolidated financial statements and related notes in Part II, Item 8, \"Financial Statements and Supplementary Data\" of this Annual Report.",
+    "We are a biopharmaceutical company with a limited operating history. We have historically incurred net losses. During the years ended December 31, 2025 and 2024, our net loss was $342.6 million and $269.9 million, respectively. As of December 31, 2025, we had an accumulated deficit of $1,338.5 million and cash, cash equivalents and marketable securities of $874.7 million.",
+    "We expect that our current cash, cash equivalents and marketable securities will enable us to fund our planned operations for at least twelve months from the date of issuance of the consolidated financial statements included in this Annual Report. We may need to secure substantial additional capital to continue to fund our operations in the future. The amount and timing of our future funding requirements will depend on many factors, including the pace, results and costs of our clinical development efforts, our ability to generate revenues from sales of veligrotug and elegrobart in the U.S., if approved, and macroeconomic conditions affecting our business and industry.",
+    "Failure to raise capital as and when needed, on favorable terms or at all, would have a negative impact on our financial condition and our ability to develop our product candidates. Changing circumstances may cause us to consume capital significantly faster or slower than we currently anticipate. If we are unable to acquire additional capital or resources, we will be required to modify our operational plans to complete future milestones. We have based these estimates on assumptions that may prove to be wrong, and we could exhaust our available financial resources sooner than we currently anticipate. We may be forced to reduce our operating expenses and raise additional funds to meet our working capital needs, principally through the additional sales of our securities or debt financings or entering into strategic collaborations.",
+    "We have devoted substantially all of our financial resources to identify, acquire, and develop our product candidates, including conducting clinical trials and providing selling, general and administrative support for our operations. To date, we have financed our operations primarily through the sale of equity securities, convertible promissory notes, the Hercules Loan and Security Agreement, the Kissei Agreement, and the DRI Purchase and Sale Agreement. The amount of our future net losses will depend, in part, on the rate of our future expenditures and our ability to obtain funding through equity, debt financings or other non-dilutive sources of capital, or strategic collaborations. Biopharmaceutical product development is a highly speculative undertaking and involves a substantial degree of risk. We expect our losses to increase as our product candidates continue advancing through clinical development and as new product candidates enter clinical trials and then advance through clinical development. It may be several years, if ever, before we complete pivotal clinical trials or have a product candidate approved for commercialization. We expect to invest significant funds into the research and development of our current product candidates to determine the potential to advance these product candidates to regulatory approval."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Overview and Recent Developments",
+    "Development of IGF-1R Therapies to Treat Thyroid Eye Disease (TED)",
+    "Development of FcRn Inhibitors",
+    "Development of TSHR Inhibitors",
+    "Global Economic Considerations",
+    "Financial Operations Overview",
+    "Research and Development Expenses",
+    "Selling, General and Administrative Expenses",
+    "Other Income (Expense), net",
+    "Critical Accounting Policies and Estimates",
+    "Liability Related to the Sale of Future Revenue",
+    "Derivative Liability",
+    "Clinical Trial and Nonclinical Study Accruals",
+    "Results of Operations",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "2025 2024 Increase (Decrease)",
+    "(in thousands)",
+    "Other Income, net",
+    "Additional Capital Resources",
+    "Loan and Security Agreement with Hercules Capital, Inc.",
+    "Purchase and Sale Agreement with DRI Healthcare Acquisitions LP",
+    "ATM Agreements",
+    "Public Offerings",
+    "Operating Activities",
+    "Investing Activities",
+    "Financing Activities"
+   ],
+   "paragraphs": [
+    "We are a biopharmaceutical company focused on discovering, developing, and commercializing potential best-in-class medicines for serious and rare diseases. We target therapeutic areas in which current treatments leave room for improvements in efficacy, safety, and/or dosing convenience. We believe there is significant potential in these areas for better medicines that address unmet needs, improve outcomes, and expand treatment options for patients. We aim to develop differentiated, potential best-in-class medicines that could lead to improved patient outcomes, reduced side effects, improved quality of life, and expanded market access.",
+    "Our pipeline targets validated pathways and disease-driving mechanisms in autoimmune and rare diseases. These include product candidates directed at the IGF‑1R for the treatment of TED, inhibitors of the FcRn with potential application across multiple autoimmune disorders, and a TSHR inhibitor program with potential in TED and Graves' disease. We develop therapeutics through internal research and discovery, as well as through in-licensing opportunities that align with our strategic focus. Our capabilities span protein and antibody discovery and engineering, biologics manufacturing, nonclinical and clinical development, commercial planning, and commercialization in these therapeutic areas.",
+    "As we prepare for the anticipated launch of our first commercial product, if approved, we are building the infrastructure we believe is required to support a successful transition to a commercial organization. This includes establishing sales and marketing, market access, patient services, and commercial operations functions, and expanding our medical, clinical, regulatory, quality, and supply chain and distribution capabilities. Our commercial readiness efforts focus on enabling reliable access for patients, supporting physicians, and engaging effectively with payors.",
+    "Our strategy combines clear scientific, clinical, and commercial rationale with excellence in execution to rapidly discover, develop, and commercialize better medicines for patients. We rely on our scientific, clinical, and commercial expertise to identify opportunities to improve upon existing investigational or approved therapies and to apply these insights to designing, selecting, developing, and commercializing potential best-in-class product candidates. We bring potential improvements to critical areas such as molecular design, dose selection, pharmacokinetics, pharmacodynamics, clinical trial design, trial endpoints, and the selection and recruitment of patients. We believe this strategy enables efficient product development and reduces the risk when developing novel therapeutics."
+   ],
+   "focus": "Overview and Recent Developments"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "公司概況",
+    "開發用於治療甲狀腺眼病（TED）的 IGF-1R 治療方案",
+    "開發 FcRn 抑製劑",
+    "開發 TSHR 抑製劑",
+    "我們的策略",
+    "◦將我們的 TSHR 候選藥物推進至臨牀階段。我們的 TSHR 候選藥物為具潛力的最優先選項，且具有延長半衰期的特性。我們預計於 2026 年第四季提交 IND 申請。",
+    "◦尋找外部合作機會以取得潛在授權資產。監測外部機會並評估符合我們戰略重點的潛在授權資產。",
+    "我們的藥物研發管道",
+    "{'original': 'Thyroid Eye Disease (TED)', 'translated': '甲狀腺眼病 (TED)'}",
+    "{'original': 'Pathologies Leading to the Development of TED', 'translated': '導致 TED 開發的病態'}",
+    "{'original': 'Current Treatments for TED', 'translated': '目前針對 TED 的治療方式'}",
+    "{'original': 'Market Potential', 'translated': '市場潛力'}",
+    "本公司產品候選品項",
+    "Veligrotug，一種潛在最佳等級之靜脈注射用 IGF-1R 抗體",
+    "Veligrotug 之臨牀試驗",
+    "Elegrobart，一種潛在最佳等級之皮下注射用 IGF-1R 抗體",
+    "{'FcRn Inhibitor Portfolio: VRDN-006 and VRDN-008': 'FcRn 抑製劑組合：VRDN-006 與 VRDN-008'}",
+    "{'TSHR Program': 'TSHR 計畫'}",
+    "{'Intellectual Property': '智慧財產權'}"
+   ],
+   "paragraphs": [
+    "本公司為一家生技藥品公司，專注於發現、開發及商業化具備市場領導地位的潛在藥物，用以治療嚴重且罕見的疾病。本公司目標為治療領域中現有療法仍有改進空間的項目，包括療效、安全性及/或給藥便利性。本公司認為這些領域有顯著潛力，可開發出解決未滿足醫療需求、改善治療結果，並擴展患者治療選擇的更好藥物。本公司旨在開發具差異化且具市場領導地位的潛在藥物，這些藥物可能導致改善患者治療結果、減少副作用、改善生活品質，並擴展市場准入。",
+    "本公司產品線針對已驗證的病程途徑及疾病驅動機制，包括自體免疫及罕見疾病的治療方案。這些包括針對胰島素樣生長因子 1 受體（\"IGF-1R\"）的治療方案，用以治療甲狀腺眼病（\"TED\"），抑制新生兒 Fc 受體（\"FcRn\"）的藥物，可能應用於多種自體免疫疾病，以及針對 TSHR 的抑制劑方案，可能應用於 TED 及格雷夫氏病。本公司透過內部研究與發現，以及符合本公司戰略重點的授權合作機會，開發治療藥物。本公司能力涵蓋蛋白質及單株抗體的發現與工程設計、生物製劑製造、非臨牀與臨牀開發、商業規劃及商業化。",
+    "在準備本公司首個商業產品預期上市的同時，本公司正在建立認為支持成功轉型為商業組織所需的基礎設施。這包括建立銷售與行銷、市場准入、患者服務及商業運作功能，並擴展醫療、臨牀、法規、品質、供應鏈及物流能力。本公司商業準備工作重點在於確保患者可靠取得藥物、支援醫師，並有效與付款方互動。",
+    "本公司策略結合清晰的科學、臨牀及商業邏輯，並以卓越執行能力，快速發現、開發及商業化更好的藥物。本公司依賴科學、臨牀及商業專業知識，以識別改善現有研究中或已核准療法的機會，並將這些見解應用於設計、選擇、開發及商業化潛在市場領導地位的產品候選藥物。本公司將潛在改進應用於關鍵領域，例如分子設計、劑量選擇、藥動學、藥效學、臨牀試驗設計、試驗終點及患者選擇與招募。本公司認為此策略可促進產品開發效率，並降低開發新型治療藥物的風險。",
+    "本公司正在開發治療 TED 的藥物，TED 是一種嚴重且使人衰弱的罕見自體免疫疾病，會導致眼眶發炎，可能造成眼球突出、紅腫、雙重視覺、疼痛，甚至失明。TED 明顯影響生活品質，對患者日常活動及心理健康造成高負擔。TED 是一種進行性疾病，包括初始的活動期（\"活動期 TED\"），隨後轉變為二次慢性期（\"慢性 TED\"）。目前美國食品藥物管理局（FDA）核准治療 TED 的唯一藥物為 Tepezza®（teprotumumab），這是一種經靜脈注射的單株抗體，針對 IGF-1R。Tepezza 在美國（\"美國\"）由 Amgen Inc.（\"Amgen\"）行銷。Amgen 於 2024 年獲得日本核准 Tepezza，並於 2025 年獲得歐盟委員會核准。",
+    "本公司正在開發兩種針對 IGF-1R 的產品候選藥物，veligrotug 用於經靜脈注射（\"IV\"）給藥，elegrobart（原名為 VRDN-003）用於皮下（\"SC\"）給藥，用以治療患有 TED 的患者。本公司最進展的計畫，veligrotug，是一種差異化的人類化單株抗體，用於經靜脈注射治療 TED。在先前發表的體外非臨牀數據中，我們顯示 veligrotug 是一種潛在差異化的 IGF-1R 完全拮抗劑，與 teprotumumab 的不完全拮抗 IGF-1R 相較。elegrobart 具有與 veligrotug 相同的結合域，並經過工程設計以延長半衰期。elegrobart 設計為一種低體積、少次給藥的皮下 IGF-1R，用於 TED，我們計畫以自動注射器商業化，以讓患者在家自給自足。我們認為 elegrobart 有潛力成為市場領導地位的 anti-IGF-1R 產品候選藥物，透過維持 anti-IGF-1R 在 TED 中的療效，改善安全性，並透過皮下給藥方式最大化患者的便利性。",
+    "本公司進行了一項全球關鍵臨牀計畫，評估 veligrotug 的療效與安全性，於兩個全球控制良好的 III 期臨牀試驗，THRIVE 和 THRIVE-2，用以治療活動期及慢性 TED。THRIVE 和",
+    "THRIVE-2 各自設計為比較 veligrotug 五劑 IV 給藥方案（每劑 10 mg/kg，每三週一次）與安慰劑。此五劑 veligrotug 給藥方案的輸液次數較少，且每次輸液時間較短，與目前市場上的 IGF-1R 抑制劑 teprotumumab 相較。2024 年 9 月，本公司宣佈 THRIVE 研究的初步數據，該研究納入 113 名患者，隨機分為 veligrotug（n=75）與安慰劑（n=38）。THRIVE 達成其主要及所有次要終點，具有高度統計顯著性（p < 0.0001），且整體耐受性良好，無與治療相關的嚴重不良事件（\"SAEs\"）。veligrotug 還顯示治療效果迅速起效，約 53% 接受 veligrotug 治療的患者在三週內即達成眼球突出反應。2024 年 12 月，本公司宣佈 THRIVE-2 研究的初步數據，該研究納入 188 名患者，隨機分為 veligrotug（n=125）與安慰劑（n=63）。THRIVE-2 達成其主要及所有次要終點，具有統計顯著性，且整體耐受性良好。veligrotug 在 THRIVE-2 中顯示治療效果迅速起效，三週內即達成統計顯著的眼球突出反應，六週內即達成統計顯著的雙重視覺改善與解決。THRIVE-2 是首個在慢性 TED 患者中顯示統計顯著且臨牀意義重大的雙重視覺反應率及雙重視覺完全解決率的全球 III 期研究。veligrotug 在 THRIVE 中顯示 52 週的療效持續性，顯示 70% 在第 15 週達成眼球突出反應的患者，在第 52 週仍維持其反應。",
+    "為符合.veligrotug新藥申請（BLA）所需的300名病患安全資料庫要求，我們正在進行STRIVE，一個全球第三期臨牀試驗。STRIVE納入231名TED病患，採用廣泛的納入標準（例如任何疾病嚴重程度或病程），並以3:1的比例隨機分組（10 mg/kg IV與活性控制組3 mg/kg IV）。我們同時也在進行一個開放標籤延長試驗，針對THRIVE和THRIVE-2中未反應的病患，該試驗已完成納入。2025年5月，美國食品藥物管理局（FDA）授予.veligrotug突破性療法指定。我們於2025年10月向FDA提交.veligrotug的新藥申請（BLA），該申請已獲受理並於2025年12月獲得優先審查，預計2026年6月30日為處方藥物使用者費用減免法案（PDUFA）的行動目標日期。我們同時於2026年1月向歐盟藥品管理局（EMA）提交了MAA。",
+    "我們同時也在開發.elegrobart，這是我們的皮下注射anti-IGF-1R產品候選藥物，目前正進行TED的關鍵臨牀試驗，我們於2023年12月選定此產品，基於在健康志願者中的第一期臨牀試驗中獲得的正面數據。",
+    "在健康志願者中的第一期臨牀試驗中，.elegrobart顯示出40至50天的延長半衰期，這是.veligrotug的四至五倍。基於這些數據以及.veligrotug與.elegrobart單克隆抗體之間的相似性，我們選定每四週（Q4W）和每八週（Q8W）的皮下注射劑量方案，以推進至第三期關鍵臨牀試驗。藥動學（PK）模型顯示，Q4W和Q8W的皮下注射.elegrobart劑量方案，可以達到基於每三週一次3 mg/kg和10 mg/kg IV的兩次輸注TED試驗中模擬的.veligrotug暴露範圍。兩種劑量方案的.veligrotug均顯示出強大的臨牀活性。",
+    "我們正在進行.elegrobart的全球關鍵試驗計畫，包括評估其在兩個全球控制良好的第三期臨牀試驗REVEAL-1和REVEAL-2中的療效與安全性，分別用於治療活動性與慢性TED。兩項試驗均評估.elegrobart每四週或每八週皮下注射的療效，並與安慰劑比較。2025年9月，我們宣佈REVEAL-1和REVEAL-2已完成納入，分別納入132名和204名病患，均超過其目標納入人數117名和195名，因需求所致。REVEAL-1中67%的病患來自美國，REVEAL-2中56%的病患來自美國。此外，為符合.elegrobart的新藥申請（BLA）所需的300名病患安全資料庫要求（同時包含來自REVEAL-1和REVEAL-2試驗的病患），我們正在進行安全性試驗。我們於2025年10月完成此安全性試驗的納入，納入321名病患，超過目標納入人數284名，因需求所致。此外，我們正在進行自動注射器試驗，以實現.elegrobart在自動注射器設備中上市的目標。我們於2025年12月完成此自動注射器試驗的納入，納入87名病患，超過目標納入人數75名。我們預計於2026年第一季取得REVEAL-1的初步數據，於2026年第二季取得REVEAL-2的初步數據。",
+    "我們同時也在開發一系列工程化的FcRn抑制劑，包括VRDN-006和VRDN-008。FcRn抑制劑有潛力治療廣泛的自身免疫性疾病，代表可能的重大商業市場機會。我們多管齊下的工程方法已產生一系列針對FcRn的分子，這些分子利用已臨牀和商業驗證的FcRn抑制機制，同時可能解決現有藥物的限制，例如不完全的免疫球蛋白G（IgG）抑制、安全性以及給藥的不便。",
+    "VRDN-006是一種高度選擇性的Fc片段，可抑制FcRn，並設計為方便的皮下注射及自用選項。在非人類靈長類（NHP）研究中，VRDN-006顯示出對阻斷FcRn-IgG交互作用的特異性，同時未顯示出血清白蛋白減少或低密度脂蛋白（LDL）水平上升，這是某些完整長度anti-FcRn單株抗體已知的潛在副作用。在我們的頭對頭NHP研究中，VRDN-006顯示出與目前FcRn抑制的標準療法efgartigimod相當的藥效和IgG減少，以及相似的安全性。我們於2024年12月提交VRDN-006的新藥申請（IND），該申請已獲批准"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "概覽與近期發展",
+    "IGF-1R 治療甲狀腺眼病（TED）療法的發展",
+    "FcRn 抑製劑的發展",
+    "TSHR 抑製劑的發展",
+    "總體經濟考量",
+    "財務作業概覽",
+    "研究與開發費用",
+    "銷售、一般及行政費用",
+    "{'original': 'Other Income (Expense), net', 'translated': '其他收入（費用），淨額'}",
+    "{'original': 'Critical Accounting Policies and Estimates', 'translated': '重要會計政策與會計估計'}",
+    "{'original': 'Liability Related to the Sale of Future Revenue', 'translated': '與未來收入銷售有關之負債'}",
+    "{'original': 'Derivative Liability', 'translated': '衍生負債'}",
+    "{'original': 'Clinical Trial and Nonclinical Study Accruals', 'translated': '臨牀試驗及非臨牀研究應計項目'}",
+    "{'original': 'Results of Operations', 'translated': '營運成果'}",
+    "{'original': 'Comparison of the Years Ended December 31, 2025 and 2024', 'translated': '2025 年與 2024 年 12 月 31 日財務年度之比較'}",
+    "{'original': '2025 2024 Increase (Decrease)', 'translated': '2025 2024 增加（減少）'}",
+    "（以千為單位）",
+    "其他收入，淨額",
+    "額外資本資源",
+    "與 Hercules Capital, Inc. 經過的貸款及擔保協議",
+    "與 DRI Healthcare Acquisitions LP 經過的買賣協議",
+    "隨機發行協議",
+    "公開發行",
+    "營運活動",
+    "{'Investing Activities': '投資活動'}",
+    "{'Financing Activities': '籌資活動'}"
+   ],
+   "paragraphs": [
+    "本公司為一家生技藥品公司，專注於發現、開發與商業化潛在最佳等級的藥物，用以治療嚴重且罕見的疾病。我們鎖定目前治療方式在療效、安全性及/或給藥便利性方面仍有改進空間的治療領域。我們認為在這些領域有顯著潛力，可開發出更優良的藥物，以解決未被滿足的醫療需求、改善治療結果，並拓展患者的治療選擇。我們的目標是開發具差異化且潛在最佳等級的藥物，這些藥物可能有助於改善患者的治療結果、減少副作用、提升生活品質，並拓展市場准入。",
+    "我們的藥物開發管道針對自身免疫及罕見疾病的已驗證路徑及疾病驅動機制。這些包括針對 TED 治療的 IGF‑1R 產品候選藥物、具潛力應用於多種自身免疫疾病的 FcRn 抑製劑，以及具潛力應用於 TED 及格雷夫氏病的 TSHR 抑製劑計畫。我們透過內部研究與發現，以及與符合我們戰略重點的授權合作機會來開發治療藥物。我們的專業能力涵蓋蛋白質與抗體的發現與工程、生物製品製造、非臨牀與臨牀開發、商業規劃，以及這些治療領域的商業化。",
+    "隨著我們準備預期中首款商業產品的上市（若獲批准），我們正在建立我們認為支持成功轉型為商業組織所需的基礎設施。這包括建立銷售與行銷、市場准入、患者服務及商業運作功能，並擴展我們的醫療、臨牀、法規、品質、供應鏈及物流能力。我們的商業準備工作重點在於確保患者可獲得可靠的治療、支持醫療人員，並有效與付款方互動。",
+    "我們的策略結合明確的科學、臨牀與商業邏輯，並以卓越的執行能力，快速發現、開發與商業化更優良的藥物，以服務患者。我們依賴科學、臨牀與商業專業知識，以識別改善現有研究中或已核准治療藥物的機會，並將這些見解應用於設計、選擇、開發與商業化潛在最佳等級的產品候選藥物。我們在關鍵領域如分子設計、劑量選擇、藥動學、藥效學、臨牀試驗設計、試驗終點及患者選擇與招募方面，帶來潛在改進。我們認為此策略能提高產品開發效率，並降低開發新型治療藥物的風險。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們財務狀況及資金需求相關的風險",
+    "我們歷來產生虧損，且對我們業務的經營歷史有限，預期未來一段時間內我們仍將產生重大虧損。",
+    "若我們無法在需要時籌措資金，將被迫延後、減少或終止我們的研究與產品開發計畫或未來商業化努力。",
+    "我們從未自產品銷售中產生任何收入，且可能永遠無法實現盈利。",
+    "籌措額外資金可能會導致股東持股稀釋、限制我們的營運，或要求我們放棄某些權利。",
+    "業務中斷可能嚴重影響我們未來的收入與財務狀況，並增加我們的成本與費用。",
+    "我們可能無法根據 DRI 購買與銷售協議取得額外的里程碑付款。",
+    "與我們產品候選藥物的發現與開發相關的風險",
+    "臨牀試驗費用高昂、耗時且本質上具有風險，本公司可能無法證明產品的安全性與有效性以符合相關監管機關的要求。",
+    "即使本公司獲得某產品候選藥物的監管核准，仍將持續受到持續性監管要求的約束。",
+    "取得某些產品候選藥物的上市許可可能需要額外的時間，因為這些產品或是預期將為組合產品。",
+    "產品開發涉及一個漫長且昂貴的過程，結果具有不確定性，且早期非臨牀研究與臨牀試驗的結果可能無法預測未來臨牀試驗的結果。",
+    "本公司臨牀試驗的初步數據，無論是公告或發表，均可能受到審計與驗證程序的影響，而導致最終數據產生重大變更。"
+   ],
+   "paragraphs": [
+    "本公司之業務、財務狀況及營運成果可能受多項因素影響，無論是否為已知或未知，包括但不限於下列所列因素。任何一項或多項因素可能直接或間接導致本公司之營運成果與財務狀況與過去或預期未來之營運成果與財務狀況產生重大差異",
+    "任何上述因素，無論全部或部分，可能對本公司之業務、財務狀況、營運成果及股票價格產生重大且不利影響。以下資訊應與本年度報告第二部分第七項「管理層對財務狀況與營運成果之討論與分析」及第二部分第八項「財務報表與補充資料」所載之合併財務報表與相關附註一併閱讀。",
+    "",
+    "本公司預期現有之現金、現金等價物及市場可交易證券可支持本公司預計之營運計畫至少十二個月，自本年度報告所包含之合併財務報表發佈日算起。本公司可能需要籌措大量額外資金以持續支持未來之營運。本公司未來資金需求之金額與時間點將取決於許多因素，包括臨牀開發之進度、結果與成本，本公司能否自美國銷售veligrotug及elegrobart（若獲批准）產生收入，以及影響本公司業務與產業之總體經濟條件。",
+    "若無法在需要時以有利條件或任何條件籌措資金，將對本公司之財務狀況與本公司開發產品候選藥物之能力產生負面影響。情況變動可能導致本公司消耗資金遠較預期為快或為慢。若本公司無法取得額外資金或資源，將需修改營運計畫以完成未來里程碑。本公司所依據之估計係基於可能錯誤之假設，本公司可能在預期時間前耗盡可用之財務資源。本公司可能被迫減少營運費用並籌措額外資金以應付營運資金需求，主要透過發行額外證券或取得債務融資，或透過與策略合作夥伴合作。",
+    "本公司已將 substantially all 之財務資源投入識別、取得及開發產品候選藥物，包括進行臨牀試驗及提供銷售、一般及行政支援。截至目前為止，本公司主要透過發行權益證券、可轉換票據、Hercules 貸款與擔保協議、Kissei 協議及 DRI 購買與銷售協議來資助營運。本公司未來淨虧損之金額將部分取決於未來支出之速率及本公司能否透過權益融資、債務融資或其他非稀釋資金來源或策略合作夥伴取得資金。生技藥品產品開發為一高度投機性之計畫，並涉及相當程度之風險。本公司預期虧損將隨著產品候選藥物持續進行臨牀開發，以及新產品候選藥物進入臨牀試驗並持續進行臨牀開發而增加。本公司可能需數年時間，甚至永遠，才能完成關鍵臨牀試驗或取得產品候選藥物之商業化核准。本公司預期將投入大量資金於目前產品候選藥物之研究與開發，以評估這些產品候選藥物是否能進步至監管核准。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

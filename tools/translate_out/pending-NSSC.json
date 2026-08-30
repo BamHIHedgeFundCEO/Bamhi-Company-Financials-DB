@@ -1,0 +1,211 @@
+{
+ "ticker": "NSSC",
+ "cik": "0000069633",
+ "accession": "0001104659-26-100081",
+ "form": "10-K",
+ "reportDate": "2026-06-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Products and Services",
+    "Our Strategy",
+    "Research and Development",
+    "Our Human Capital Resources",
+    "Government Regulation",
+    "Raw Materials",
+    "Company Information",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "NAPCO is one of the leading manufacturers and designers of high-tech electronic security devices, cellular communication services for intrusion and fire alarm systems as well as a leading provider of school safety solutions. We offer a diversified array of security products, encompassing access control systems, door-locking products, intrusion and fire alarm systems and video surveillance products. These products are used for commercial, residential, institutional, industrial and governmental applications, and are sold principally to independent distributors, dealers and installers of security equipment. We have established a national network of trusted independent security dealers and integrators that are experts at selling, installing and supporting our various technologies. These dealers are dependent on our platform for communication services to our radio communicators and smart security devices, and they pay us a monthly fee for these services to operate and manage their businesses efficiently.",
+    "Our net revenues were $202.3 million, $181.6 million and $188.8 million for the fiscal years ended June 30, 2026, 2025 and 2024, respectively. The increase in our net revenues from fiscal 2025 to 2026 was driven by the increase in revenues of equipment products ($9.5 million or 10.0%) as well as the continued growth of our recurring communication services ($11.2 million or 13.0%). The increase in net equipment revenues was due primarily to increased revenues of door-locking products ($6.9 million or 11.1%) and increased revenues of intrusion and access products ($2.6 million or 7.8%). The increase in net service revenues was due to net new activations of our fire and burglar cellular (radio) communication devices put into service and activated.",
+    "Our net income was $43.0 million, $43.4 million and $49.8 million for the fiscal years ended June 30, 2026, 2025 and 2024, respectively. Net income for the fiscal year ended June 30, 2026 is inclusive of a one-time litigation settlement charge of ($16 million).",
+    "Since 1969, NAPCO has established a heritage and proven record in the professional security community for reliably delivering both advanced technology and high-quality security solutions, building many of the industry's widely recognized brands, such as NAPCO Security Technologies, Alarm Lock, NAPCO Access Pro, Marks USA, and other popular product lines. The Company's products and services are comprised primarily of the following:",
+    "● Standalone and networked digital door locks ● Standard and custom Locksets, Panic Devices and Door Closers",
+    "● Intrusion and fire alarm cellular communication devices and services from which we generate recurring monthly service revenues and which has been a key driver of our profitability growth",
+    "● Integrated cellular intrusion alarm systems ● Door controllers and hosted services for access control",
+    "Communication Services (Recurring Service Revenues)",
+    "In 2012, we began to generate monthly recurring service revenue by providing secure cellular and cloud access for intrusion and fire alarm communicators and other smart security devices. These services are provided to the Company's customers on a month-to-month basis in exchange for a monthly fee. Revenues from these services have grown significantly over the past several years, increasing 29% from fiscal 2024 to fiscal 2026. These revenues, which currently have a gross margin of approximately 90.3% for the fiscal year ended June 30, 2026, represent approximately 48% of our total revenue for the fiscal year ended of June 30, 2026.",
+    "Since 2012, we have continued to develop and sell additional equipment products that require communication services and generate recurring revenues. To date, the majority of our recurring revenue has been generated through the sale, installation and activation of our StarLink cellular communication devices.",
+    "These products are installed at the premises of end users, and we generate revenue from the installers by both the upfront purchase of our products and the monthly subscription fees for access to our Networx Operations Center (NOC) that provides cellular communication services to the devices. Monthly recurring service revenue generates substantially higher gross margins than do equipment sales and allows us to generate a more consistent stream of income. We believe there is a significant market opportunity for these products and services because many commercial and residential customers prefer to purchase real-time security monitoring services to ensure continuous protection and swift responses to security breaches and fire alarms.",
+    "We intend to continue pursuing recurring revenue opportunities by developing new and innovative products and continuing our aggressive sales and marketing efforts of these products.",
+    "The Company manufactures a variety of door locking devices including microprocessor-based electronic door locks with push button, card reader and bio-metric operation, door alarms, mechanical door locks and simple dead bolt locks. These devices may control a single door or, in the case of some of the Company's microprocessor-based door locks, may be networked with the Company's access control systems and controlled remotely.",
+    "Alarm systems usually consist of various detectors, a control panel, a digital keypad and signaling equipment. When a break-in occurs, an intrusion detector senses the intrusion and activates a control panel via hard-wired or wireless transmission that sets off the signaling equipment and, in most cases, causes a bell or siren to sound. Communication equipment such as a cellular or digital communicator may be used to transmit the alarm signal to a central station or another person selected by a customer. Cellular communicators have become the standard, and panels and communicators are trending towards integration so that many alarm panels will contain an integrated cellular communication device."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business",
+    "Our business could be materially adversely affected because of general economic and market conditions.",
+    "The markets we serve are highly competitive with many substantially larger competitors and we may be unable to compete effectively.",
+    "We expect our results of operations to fluctuate on a quarterly and annual basis, which could cause our stock price to fluctuate as well.",
+    "Increased demand for semiconductors and electronic components driven by artificial intelligence (\"AI\") infrastructure and data center expansion could adversely affect our supply chain and operating results.",
+    "If disruptions in our transportation network occur or our shipping costs substantially increase, we may be unable to sell or timely deliver our products, and our operating expenses could increase.",
+    "We may not be able to maintain or control our expenses proportionate to our sales volumes to generate profit for our business.",
+    "Our business could be adversely affected as a result of housing and commercial building market conditions.",
+    "We may not be able to sustain the growth of our recurring service revenue business, which has been the large driver of our revenue and profitability.",
+    "We may not be able to sustain and continue the growth of school security products.",
+    "We rely on distributors to sell our products and an adverse change in our relationship with such distributors may adversely affect our financial performance.",
+    "We may not be able to gain widespread or timely market acceptance of our new products and continue to build and enhance our brand to achieve growth.",
+    "Our financial results could be materially adversely affected as a result of offering extended payment terms to customers or if we are not able to collect our accounts receivables on a timely basis from major customers.",
+    "We sell security products and systems and if our solutions fail for any reason, we could be subject to liability and our business could suffer.",
+    "We are subject to risks relating to the operation of a manufacturing facility in Dominican Republic.",
+    "Our business could be materially adversely affected by a weakening of the U.S. dollar against the Dominican peso.",
+    "Changes in U.S. policies, including tariffs may adversely affect our business, financial condition, and results of operations. Tariff decisions in the current environment has become difficult to predict.",
+    "Our business could be materially adversely affected by adverse tax consequences of offshore operations.",
+    "The effects of an epidemic, pandemic, or similar outbreak have negatively impacted and could negatively impact, our business and financial results.",
+    "Our business and operations expose us to numerous legal and regulatory requirements, and any violation of these requirements could harm our business.",
+    "We rely on the effort and continuing service of our senior management members",
+    "Our business could be materially adversely affected as a result of the inability to maintain adequate financing.",
+    "Cost of operating as a public company, and compliance with SEC regulations.",
+    "Risks Related to Ownership of Our Common Stock",
+    "If securities or industry analysts do not publish research or reports about our business, or publish negative reports about our business, our share price and trading volume could decline.",
+    "Sales of a substantial number of shares of our common stock in the public market could cause our market price to decline.",
+    "We may become subject to short selling strategies driving down the market price of our common stock."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves substantial risk. You should consider carefully the risks and uncertainties described below, together with all of the other information in this Annual Report on Form 10-K, including our financial statements and the related notes and \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" when evaluating our business and before deciding whether to invest in shares of our common stock. We describe below what we believe are currently the material risks and uncertainties we face, but they are not the only risks and uncertainties we face. Additional risks and uncertainties that we are unaware of, or that we currently believe are not material, may also become important factors that adversely affect our business. If any of the following risks actually occur, our business, financial condition, results of operations, and future prospects could be materially and adversely affected. In that event, the market price of our common stock could decline and you could lose part or all of your investment.",
+    "We are subject to the effects of general economic and market conditions. If any of these conditions deteriorate, our revenue, profit and cash-flow levels could be materially adversely affected in future periods. In the event of such deterioration, many of our current or potential future customers may experience serious cash flow problems and as a result may modify, delay or cancel purchases of our products. Additionally, customers may not be able to pay, or may delay payment of, accounts receivable that are owed to us. If such events do occur, they may result in our expenses being too high in relation to our revenues and cash flows. Volatile, negative, or uncertain economic conditions, an increase in the likelihood of a recession, or concerns about these or other similar risks may negatively affect the demand for our products, which could materially and adversely affect our business, results of operations, and financial condition.",
+    "In addition, ongoing instability and current conflicts, and the potential for other conflicts and future terrorist activities and other recent geopolitical events throughout the world, have created and may continue to create economic and political uncertainties and impacts that could have a material adverse effect on our business, operations, and profitability. These types of matters cause uncertainty in financial markets and may significantly increase the political, economic and social instability in the geographic areas in which we operate.",
+    "During weak economic times, the available pool of independent distributors, dealers and installers of security equipment may decline as the prospects for home building and home renovation projects diminish, which may have a corresponding impact on our growth prospects. In addition, there is an increased risk during these periods that an increased percentage of independent distributors, dealers and installers of security equipment will file for bankruptcy protection, which may harm our reputation, revenue, profitability and results of operations.",
+    "We compete with approximately 12 other companies that manufacture and market security equipment to distributors, dealers, control stations and original equipment manufacturers in the U.S. Most of these companies may have substantially greater financial and other resources than the Company. The Company competes primarily on the basis of the features, quality, reliability and pricing of, and the incorporation of the latest innovative and technological advances into its products, as well as technical support services to its customers. The Company competes on the basis of its expertise, its proven products, its reputation and its ability to provide products to customers on a timely basis. The inability of the Company to compete with respect to any one or more of the aforementioned factors could have an adverse impact on the Company's business.",
+    "Our business may also be materially adversely affected by the announcement or introduction of new products and services by our competitors, and the implementation of effective marketing or sales strategies by our competitors. Our industry is characterized by constantly improved products. There can be no assurance that competitors will not develop products that are superior to the Company's products. We have historically invested approximately 6% to 7% of annual revenues on R&D to mitigate this risk. However, many of our competitors have dedicated more resources and capabilities to R&D, including committing more engineers and capital expenditures, to develop and design new products that may enter the market sooner or with more penetration. Future success will depend, in part, on our ability to continue to develop and market products and product enhancements cost-effectively. The Company's research and development expenditures are principally targeted at enhancing existing products, and to a lesser extent at developing new ones. Further, there can be no assurance that the Company will not experience additional price competition, and that such competition may not adversely affect the Company's revenues and results of operations"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Industry Landscape",
+    "Economic Conditions and Other Factors",
+    "Critical Accounting Policies and Estimates",
+    "Liquidity and Capital Resources",
+    "Results of Operations",
+    "Fiscal 2026 Compared to Fiscal 2025",
+    "Gross Profit:",
+    "Non-GAAP Measures",
+    "Non-GAAP adjusted EBITDA:",
+    "Non-GAAP adjusted EBITDA",
+    "Non-GAAP adjusted EBITDA margin"
+   ],
+   "paragraphs": [
+    "The following Management's Discussion and Analysis of Financial Condition and Results of Operations (\"MD&A\") is intended to help the reader understand the results of operations and financial condition of Napco Security Technologies, Inc. (\"NAPCO\"). MD&A is provided as a supplement to, and should be read in conjunction with, our consolidated financial statements and the accompanying Notes to Financial Statements (Item 8 of this Form 10-K). This section generally discusses the results of our operations for the year ended June 30, 2026 compared to the year ended June 30, 2025. For a discussion of the year ended June 30, 2025 compared to the year ended June 30, 2024, please refer to, Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in our Annual Report on Form 10-K for the year ended June 30, 2025.",
+    "NAPCO is a leading manufacturer and designer of high-tech electronic security devices, wireless communication services for intrusion and fire alarm systems as well as a provider of school safety solutions. We offer a diversified array of security products, encompassing access control systems, door-locking products, intrusion and fire alarm systems and video surveillance products, used for commercial, residential, institutional, industrial and governmental applications. We have experienced significant growth in recent years, primarily driven by our recurring service revenues from wireless communication services for intrusion and fire alarm systems.",
+    "NAPCO has established a heritage and proven record in the professional security community for reliably delivering both advanced technology and high-quality security solutions. We are dedicated to developing innovative technology and producing the next generation of reliable security solutions that utilize remote communications and wireless networks.",
+    "Highlights from fiscal year 2026 compared with fiscal year 2025 included:",
+    "● Net revenues for the year increased 11.4% to $202.3 million.",
+    "● Recurring service revenue (\"RSR\") for the year increased 13% to $97.5 million.",
+    "● Gross margin for recurring service revenue was 90.3% for fiscal 2026.",
+    "● Overall gross margin increased to 59.2%, which included a benefit of approximately 50 basis points from tariffs for fiscal 2026",
+    "● Net income decreased 1% to $43.0 million after giving effect to a one-time litigation settlement charge of $16 million.",
+    "● Non-GAAP Adjusted EBITDA, a measurement of operating performance increased 27.9% to $66.7 million.",
+    "Please see Non-GAAP Measures below in this section of this Annual Report for a discussion of the limitations of non-GAAP adjusted EBITDA (a non-GAAP measure) and a reconciliation of non-GAAP adjusted EBITDA from net income, the most directly comparable measurement in accordance with GAAP, for the years ended June 30, 2026 and 2025.",
+    "Our industry continues to be dynamic and highly competitive, with frequent changes in both technologies and business models. Each industry shift is an opportunity to conceive new products, new technologies, or new ideas that can further transform the industry and our business. Napco continually strives to innovate through a broad range of research and development activities that seek to identify and address the changing demands of customers, industry trends, and competitive forces.",
+    "We are subject to the effects of general macroeconomic and market conditions.",
+    "On February 20, 2026, the U.S. Supreme Court ruled that certain tariffs imposed under the International Emergency Economic Powers Act (\"IEEPA\") were invalid, and in March 2026, the U.S. Court of International Trade further ruled that importers that paid such tariffs are due refunds. Although certain tariffs imposed under IEEPA have been invalidated by courts and are subject to refund claims, replacement tariffs have been imposed under Section 122 and Section 301, and other trade authorities may continue, expand, or be modified. The ultimate scope, duration, and economic impact of these measures remain uncertain. As of June 30, 2026 the Company has received or accrued certain IEPPA refund claims. The Company has submitted additional claims which the Company cannot ensure the probability of collection and therefore, no refund receivable has been recognized related to these claims."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Our Products and Services': '本公司產品與服務'}",
+    "{'Our Strategy': '本公司策略'}",
+    "{'Research and Development': '研究與發展'}",
+    "{'Our Human Capital Resources': '本公司人力資源'}",
+    "{'Government Regulation': '政府規範'}",
+    "{'Raw Materials': '原材料'}",
+    "{'Company Information': '公司資訊'}",
+    "{'Available Information': '可供查閱資訊'}"
+   ],
+   "paragraphs": [
+    "NAPCO 是高階電子安全裝置的主要製造商與設計商，提供入侵與火警警報系統的行動通訊服務，並為學校安全解決方案的主要供應商。我們提供多樣化的安全產品，包括存取控制系統、門鎖產品、入侵與火警警報系統及視訊監控產品。這些產品應用於商業、住宅、機構、工業與政府用途，並主要銷售給獨立的安裝與設備經銷商。我們已建立一個全國性的受信任獨立安全經銷商與整合商網路，他們專長於銷售、安裝與支援我們的各種技術。這些經銷商依賴我們的平台提供通訊服務給無線通訊器與智慧安全裝置，並為這些服務支付每月費用以有效運作與管理其業務。",
+    "我們的淨銷售額為 202.3 百萬美元、181.6 百萬美元與 188.8 百萬美元，分別為截至 2026 年 6 月 30 日、2025 年 6 月 30 日與 2024 年 6 月 30 日的財務年度。我們淨銷售額從 2025 年增加至 2026 年，主要是因為設備產品銷售額增加（9.5 百萬美元或 10.0%）以及我們持續成長的重複性通訊服務銷售額增加（11.2 百萬美元或 13.0%）。淨設備銷售額增加主要是因為門鎖產品銷售額增加（6.9 百萬美元或 11.1%）以及入侵與存取產品銷售額增加（2.6 百萬美元或 7.8%）。淨服務銷售額增加是因為我們的火警與盜賊行動通訊裝置（無線通訊）新裝置與啟動數量增加。",
+    "我們的淨利潤為 43.0 百萬美元、43.4 百萬美元與 49.8 百萬美元，分別為截至 2026 年 6 月 30 日、2025 年 6 月 30 日與 2024 年 6 月 30 日的財務年度。截至 2026 年 6 月 30 日財務年度的淨利潤包含一筆一次性訴訟和解費用（-16 百萬美元）。",
+    "自 1969 年以來，NAPCO 在專業安全領域建立了聲譽與證實的紀錄，可靠地提供先進技術與高品質的安全解決方案，並建立了許多業界廣為認可的品牌，例如 NAPCO Security Technologies、Alarm Lock、NAPCO Access Pro、Marks USA，以及其他受歡迎的產品線。本公司的產品與服務主要由以下內容組成：",
+    "● 獨立運作與網路連線的數位門鎖 ● 標準與客製化鎖具、恐慌裝置與門關閉器",
+    "● 入侵與火警警報行動通訊裝置與服務，我們透過這些裝置與服務產生重複性每月服務收入，並成為我們利潤成長的關鍵驅動力",
+    "● 整合式行動入侵警報系統 ● 存取控制的門控制器與雲端服務",
+    "通訊服務（重複性服務收入）",
+    "2012 年，我們開始透過提供安全的行動通訊及雲端存取服務，每月產生持續性服務收入，用以支援入侵及火警警報通訊器及其他智慧安全裝置。這些服務是以月結方式提供給本公司客戶，客戶需支付每月費用。這些服務的收入在過去幾年顯著成長，從財務年度 2024 年成長 29% 至財務年度 2026 年。這些收入，目前在財務年度 2026 年 6 月 30 日結算，毛利率約為 90.3%，約佔財務年度 2026 年 6 月 30 日總收入的 48%。",
+    "自 2012 年以來，我們持續開發並銷售需要通訊服務且能產生持續性收入的附加設備產品。截至目前為止，我們的持續性收入主要來自於我們 StarLink 行動通訊裝置的銷售、安裝與啟動。",
+    "這些產品安裝在終端用戶的場所，我們透過銷售產品及每月訂閱費收取收入，每月訂閱費為使用我們 Networx Operations Center (NOC) 服務的費用，該服務為裝置提供行動通訊服務。每月持續性服務收入產生的毛利率遠高於設備銷售，使我們能產生更穩定的收入流。我們認為這些產品與服務有顯著的市場機會，因為許多商業與住宅客戶偏好購買即時安全監控服務，以確保持續保護並迅速應對安全入侵與火警。",
+    "我們計畫持續追求持續性收入機會，透過開發新穎的產品並持續推廣這些產品的銷售與行銷活動。",
+    "本公司製造多種門鎖裝置，包括基於微處理器的電子門鎖，具有按鈕、卡片讀取器與生物特徵操作功能，門警報器、機械門鎖與簡單的死bolt鎖。這些裝置可能控制單一門鎖，或在某些本公司微處理器基於的門鎖情況下，可與本公司存取控制系統網路連線並遠端控制。",
+    "警報系統通常包含多種感測器、控制面板、數位鍵盤與通訊設備。當發生入侵時，入侵感測器會偵測到入侵並透過硬體連線或無線傳輸啟動控制面板，啟動通訊設備，並在大多數情況下使警報鈴或警報器鳴響。通訊設備如行動通訊器或數位通訊器可用來將警報訊號傳送到中央站或客戶選擇的其他人。行動通訊器已成為標準，面板與通訊器正朝整合方向發展，使得許多警報面板內建整合式行動通訊裝置。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "產業現況",
+    "經濟環境及其他因素",
+    "關鍵會計政策與會計估計",
+    "流動性與資本資源",
+    "營運成果",
+    "財務年度 2026 與財務年度 2025 比較",
+    "毛利:",
+    "非GAAP衡量指標",
+    "非GAAP調整後每股營業現金流:",
+    "非GAAP調整後每股營業現金流",
+    "非GAAP調整後每股營業現金流率"
+   ],
+   "paragraphs": [
+    "以下為管理層對財務狀況與營運結果之分析（\"MD&A\"），旨在協助讀者瞭解Napco Security Technologies, Inc.（\"NAPCO\"）之營運結果與財務狀況。MD&A為財務報表之補充資料，應與我們之合併財務報表及附註說明（本Form 10-K之第8項）一併閱讀。本節一般討論我們於2026年6月30日財務年度之營運結果與2025年6月30日財務年度之比較。有關2025年6月30日財務年度與2024年6月30日財務年度之比較，請參閱我們2025年6月30日財務年度之年度報告（Form 10-K）第7項\"管理層對財務狀況與營運結果之分析\"。",
+    "NAPCO為高階電子安全裝置之領導製造商與設計者，提供入侵與火警系統之無線通訊服務，以及學校安全解決方案。我們提供多元化之安全產品，包括存取控制系統、門鎖產品、入侵與火警系統及影片監控產品，應用於商業、住宅、機構、工業與政府場域。我們在近年經歷顯著成長，主要驅動因素為無線通訊服務之再curring服務收入。",
+    "NAPCO在專業安全領域建立良好聲譽與實績，能可靠地提供先進科技與高品質之安全解決方案。我們致力於開發創新科技，製造下一代可靠之安全解決方案，利用遠端通訊與無線網路。",
+    "2026財務年度與2025財務年度比較之重點如下：",
+    "● 本年度淨銷售額增加11.4%至202.3 百萬美元。",
+    "● 本年度再curring服務收入（\"RSR\"）增加13%至97.5 百萬美元。",
+    "● 應持續性服務收入的毛利率為 90.3% ，為會計年度 2026 。",
+    "● 總體毛利率增加至59.2%，包含2026財務年度因關稅產生約50個基點之好處",
+    "● 稅後淨利減少 1% 至 43.0 百萬美元，已考量一筆一次性訴訟和解費用 16 百萬美元。",
+    "● 非GAAP調整後營運資金（Adjusted EBITDA），為衡量營運表現的指標，增加 27.9% 至 66.7 百萬美元。",
+    "請參閱本年度報告本節下方的「非GAAP指標」部分，以瞭解非GAAP調整後營運資金（為非GAAP指標）的限制，以及非GAAP調整後營運資金與稅後淨利（為GAAP最直接可比指標）的對應關係，針對截至2026年6月30日及2025年6月30日的年度資料。",
+    "我們所屬產業持續處於動態且高度競爭的狀態，技術與商業模式頻繁變動。每一次產業變動都是構思新產品、新技術或新想法的機會，這些都能進一步改變產業與我們的業務。Napco持續透過廣泛的研究與開發活動努力創新，以識別並解決客戶需求、產業趨勢與競爭力的變動。",
+    "我們受到總體經濟與市場條件的影響。",
+    "2026年2月20日，美國最高法院裁定根據國際緊急經濟權力法（\"IEEPA\"）所課徵的某些關稅無效，2026年3月，美國國際貿易法院進一步裁定已支付這些關稅的進口商應獲得退款。雖然根據IEEPA課徵的某些關稅已被法院裁定無效且有退款聲請，但根據第122條與第301條課徵的替代關稅已實施，其他貿易權力可能持續、擴張或修改。這些措施的範圍、持續時間與經濟影響仍不確定。截至2026年6月30日，本公司已收到或計提某些IEEPA退款聲請。本公司已提出額外聲請，但本公司無法確保這些聲請的收款機率，因此與這些聲請相關的退款應收款項未被確認。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務相關的風險",
+    "我們的業務可能因總體經濟與市場狀況而受到重大不利影響。",
+    "我們所服務的市場競爭激烈，且存在許多規模遠較我們為大的競爭對手，我們可能無法有效地與其競爭。",
+    "我們預期營運成果將於每季與每年之間波動，這也可能導致我們股票價格波動。",
+    "因人工智慧（\"AI\"）基礎建設與資料中心擴張所驅動的半導體與電子零組件需求增加，可能對我們的供應鏈與營運成果造成不利影響。",
+    "若我們的運輸網路發生中斷，或我們的運輸成本大幅增加，我們可能無法銷售或及時交付我們的產品，且營運費用可能增加。",
+    "我們可能無法維持或控制營運費用與銷售量成比例，以產生利潤用以營運我們的業務。",
+    "我們的業務可能因住宅與商業建築市場狀況而受到不利影響。",
+    "本公司可能無法維持我們持續性服務收入業務的成長，該業務一直是本公司營業收入與獲利能力的主要驅動力。",
+    "本公司可能無法維持並持續成長學校安全產品業務。",
+    "本公司依賴經銷商銷售產品，若與經銷商的關係發生不利變動，可能對本公司財務表現造成重大影響。",
+    "本公司可能無法獲得新產品的廣泛或及時市場接受度，並持續建立與強化品牌以實現成長。",
+    "本公司財務結果可能因對客戶提供延長付款條件，或無法及時從主要客戶收取應收帳款而受到重大不利影響。",
+    "本公司銷售安全產品與系統，若我們的解決方案因任何原因失敗，我們可能面臨責任，並對業務造成損害。",
+    "本公司面臨在多明尼加共和國運營製造設施的風險。",
+    "本公司業務可能因美國美元對多明尼加披索 depreciate 而受到重大不利影響。",
+    "美國政策的變更，包括關稅，可能對我們的業務、財務狀況及營運成果產生不利影響。目前環境下關稅決策已變得難以預測。",
+    "我們的業務可能因海外營運的稅務後果而受到重大不利影響。",
+    "疫情、大流行或類似疫情的影響已對我們的業務及財務結果產生負面影響，並可能繼續產生負面影響。",
+    "我們的業務及營運面臨許多法律及法規要求，任何違反這些要求的情況都可能對我們的業務造成損害。",
+    "我們依賴高階管理層成員的努力及持續服務",
+    "我們的業務可能因無法維持足夠的資金而受到重大不利影響。",
+    "作為上市公司營運的成本，以及符合證券交易委員會（SEC）法規的義務。",
+    "與本公司普通股 ownership 相關的風險",
+    "若未有證券或產業分析師發表關於本公司業務的研究報告或評論，或發表負面報告，本公司股票價格及交易量可能下跌。",
+    "本公司普通股在公開市場上大量出售，可能導致本公司股票市場價格下跌。",
+    "本公司可能因短線做空策略而面臨市場價格下跌的風險。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及相當風險。您應仔細考慮下列所描述的風險與不確定性，並配合本年度10-K表報表中所有其他資訊，包括財務報表及其相關附註，以及「管理層對財務狀況與營運結果之討論與分析」，以評估本公司業務，並在決定是否投資本公司普通股前，進行考量。我們在下文中說明目前認為對本公司而言重要的風險與不確定性，但並非唯一可能面臨的風險與不確定性。尚有其他風險與不確定性，我們可能未察覺，或目前認為不重要，但未來可能成為影響本公司業務的重要因素。若任何上述風險實際發生，將可能對本公司業務、財務狀況、營運結果與未來展望造成重大且不利的影響。在此情況下，本公司普通股的市場價格可能下跌，您可能損失部分或全部投資。",
+    "本公司受總體經濟與市場條件的影響。若任何條件惡化，未來期間的營業收入、利潤與現金流可能受到重大且不利的影響。若發生此種惡化，許多現有或潛在未來客戶可能面臨嚴重的現金流問題，因而可能修改、延後或取消購買本公司產品。此外，客戶可能無法支付，或延後支付應本公司收取的應收款項。若發生上述情況，可能導致本公司費用過高，相對於營業收入與現金流而言。波動、負面或不確定的經濟條件、增加經濟衰退的可能性，或對這些或其他類似風險的擔憂，可能對本公司產品的需求造成負面影響，進而對本公司業務、營運結果與財務狀況造成重大且不利的影響。",
+    "此外，持續的不穩定與當前衝突，以及全球其他地區可能發生的衝突與未來恐怖活動及其他近期地緣政治事件，已造成並可能持續造成經濟與政治的不確定性與影響，可能對本公司業務、營運與獲利造成重大且不利的影響。這些類型的事件會造成財務市場的不確定性，並可能顯著增加本公司營運地區的政治、經濟與社會不穩定性。",
+    "在經濟不景氣期間，安全設備的獨立經銷商、經銷商與安裝商的可使用池可能減少，因住宅建設與住宅翻修計畫的前景減退，這可能對本公司成長前景產生相應影響。此外，在這些期間，獨立經銷商、經銷商與安全設備安裝商的百分比可能增加，導致申請破產保護，這可能損害本公司聲譽、營收、獲利與營運結果。",
+    "本公司與約12家製造與行銷安全設備至經銷商、經銷商、控制站與原廠設備製造商的公司競爭。這些公司中的大多數可能擁有遠較本公司為多的財務與其他資源。本公司主要以產品的特點、品質、可靠性與價格，以及將最新創新與科技進展融入產品，以及向客戶提供的技術支援服務為競爭基礎。本公司亦以專業知識、已驗證的產品、聲譽與能及時向客戶提供產品的能力為競爭基礎。本公司若無法在上述任何一個或更多因素上與競爭對手競爭，可能對本公司業務造成不利影響。",
+    "本公司業務也可能因競爭對手宣佈或推出新產品與服務，以及競爭對手實施有效的行銷或銷售策略而受到重大且不利的影響。本公司產業特徵為產品持續改進。無法保證競爭對手不會開發出優於本公司產品的產品。本公司歷來將約6%至7%的年度營收投入研發，以緩解此風險。然而，許多競爭對手已投入更多資源與能力於研發，包括聘請更多工程師與資本支出，以開發與設計可能更快進入市場或擁有更高市場佔有率的新產品。未來的成功，在一定程度上將取決於本公司能否持續有效地開發與行銷產品與產品增強功能。本公司研發支出主要用於提升現有產品，而在較小程度上用於開發新產品。此外，無法保證本公司不會遭遇額外的價格競爭，且此種競爭可能對本公司營收與營運結果造成不利影響"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,152 @@
+{
+ "ticker": "RAMP",
+ "cik": "0000733269",
+ "accession": "0000733269-26-000025",
+ "form": "10-K",
+ "reportDate": "2026-03-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Pending Merger",
+    "Using Data to Optimize the Customer Experience in the AI Era",
+    "Growing Data Usage",
+    "Growing Data Collaboration to Enable Commerce Media",
+    "Growing Complexity of the Customer Journey in the AI Era",
+    "Increasing Fragmentation of Consumer Identity",
+    "AI is Transforming Marketing Workflows",
+    "Marketing Waste from Inaccurate Consumer Identification",
+    "Heightened Privacy and Security Concerns",
+    "Our Approach",
+    "/LiveRamp Data Collaboration Platform",
+    "Subscription",
+    "Marketplace and Other",
+    "Competitive Strengths",
+    "Growth Strategy",
+    "Privacy Considerations",
+    "Sales and Marketing",
+    "Research and Development",
+    "Our Human Capital",
+    "Information about our Executive Officers"
+   ],
+   "paragraphs": [
+    "LiveRamp Holdings, Inc. (\"LiveRamp\", \"we\", \"us\", or the \"Company\") is a leading data collaboration technology company, empowering marketers and media owners to deliver and measure marketing performance everywhere it matters. LiveRamp's data collaboration network seamlessly unites data across advertisers, ad tech platforms, publishers, data providers, and commerce media networks — unlocking insights that deliver transformational consumer experiences, and drive measurable business outcomes. As consumers embrace AI-powered experiences, the LiveRamp data collaboration network expands the breadth and accuracy of the data on which marketing AI capabilities operate. Our platform is engineered for AI agent accessibility, facilitating autonomous data collaboration between the specialized AI agents utilized by our customers and partners and our networked platform. Built on a foundation of strict neutrality, interoperability, and global scale, LiveRamp enables organizations to maximize the value of their data while accelerating business growth.",
+    "LiveRamp is a Delaware corporation headquartered in San Francisco, California. Our common stock is listed on the New York Stock Exchange under the symbol \"RAMP.\" We serve a global customer base from locations in the United States, Europe, and the Asia-Pacific (\"APAC\") region. Our direct customer list includes many of the world's best-known and most innovative brands across most major industry verticals, including but not limited to financial, insurance and investment services, information systems, direct marketing, retail, automotive, telecommunications, technology, consumer packaged goods, media, healthcare, travel and hospitality, entertainment and non-profit. We serve thousands of additional companies through our expansive partner ecosystem, unlocking access to unique customer moments and creating powerful network effects.",
+    "On May 16, 2026, the Company entered into an Agreement and Plan of Merger (the \"Merger Agreement\") with MMS USA Holdings, Inc., a Delaware corporation (\"Parent\") and a wholly owned subsidiary of Publicis (defined below), Covey Merger Sub, Inc., a Delaware corporation and a wholly owned subsidiary of Parent (\"Merger Sub\"), and, solely for the purpose of Section 10.14 thereto, Publicis Groupe S.A., a French société anonyme (\"Publicis\"), pursuant to which, among other things, at the effective time of the Merger (the \"Effective Time\"), Merger Sub will merge with and into the Company (the \"Merger\"), with the Company continuing as the surviving corporation and a direct wholly owned subsidiary of Parent.",
+    "On the terms and subject to the conditions set forth in the Merger Agreement, at the Effective Time, each share of common stock, par value $0.10 per share, of the Company (\"Company Common Stock\") issued and outstanding immediately prior to the Effective Time (other than any (i) Company Common Stock owned by stockholders that have properly perfected their rights of appraisal within the meaning of Section 262 of the Delaware General Corporation Law; (ii) Company Common Stock owned by the Company, Parent or Merger Sub; or (iii) Company Common Stock owned by any direct or indirect wholly owned subsidiary of Parent (other than Merger Sub) or of the Company) will be converted into the right to receive $38.50 in cash, without interest. The Merger is expected to close by the end of calendar year 2026, subject to customary closing conditions, including approval by the Company's stockholders and the receipt of required regulatory approvals.",
+    "If the Merger is consummated, the Company Common Stock will be delisted from the New York Stock Exchange and deregistered under the Securities Exchange Act of 1934, as amended.",
+    "Additional information about the Merger Agreement and the Merger will be set forth in the Company's Definitive Proxy Statement on Schedule 14A that will be filed with the SEC.",
+    "We are experiencing a convergence of several key industry trends that are shaping the future of how data is used to power marketing and the customer experience. Some of these key industry trends include:",
+    "As AI transforms how consumers discover and purchase products, marketers increasingly realize that true competitive advantage lies in providing meaningful customer experiences that are personalized, relevant and cohesive across all marketing channels and customer interactions. These experiences are the key to brand differentiation and customer retention. Companies are also increasingly realizing that best-in-class customer experiences require enhanced insights that can only be achieved through a structured data collaboration effort that combines first-, second-, and third-party data.",
+    "At the same time, consumers expect personalization from brands and new AI tools that make it possible for every consumer interaction to be individually relevant, addressable, and measurable.",
+    "Data is at the center of exceptional customer experiences but is still vastly underutilized. Organizations must capture, organize, analyze, and most importantly use customer data to power the customer experience. While AI is increasingly being used across marketing workflows to deliver better customer experiences, data remains the key determinant of success. By understanding which devices, email addresses, and postal addresses relate to the same individual, enterprise marketers can leverage that insight to deliver seamless experiences as consumers engage with a company across all touchpoints. Additionally, reaching consumers at the individual level helps organizations reduce marketing waste and more easily attribute their marketing spend to actual sales transactions. Enterprise marketers recognize the huge opportunity big data brings, yet many admit they are not using their data effectively to drive their customer experience.",
+    "Advances in technology, including AI and machine learning, and the consumer's widespread use of Internet connected devices and applications have made it possible to collect and rapidly process massive amounts of customer data. Data vendors and direct-to-consumer platforms are able to collect user information across a wide range of offline and online properties and platforms, and to aggregate and combine it with other data sources. With proper permissions, this data can be integrated with a company's own proprietary data and can be made non-identifiable if the use case requires it. Through the use of data, marketers and publishers can better enhance the customer experience and increase their customer lifetime value.",
+    "The advertising market is being transformed by commerce media, a new form of advertising that closes the loop between media impressions and sales transactions. Commerce media provides brand advertisers with enhanced audience insights that drive more effective and efficient advertising and provides consumers with a more relevant experience. The foundation for commerce media is data collaboration where companies share first-party consumer data with trusted business partners in a manner that is secure and adheres to privacy regulations. Retail media was the first to scale, spurred by e-commerce, but other sectors are embracing the commerce media opportunity, including travel and hospitality, telecommunications, finance, automotive and healthcare.",
+    "There are other examples of data collaboration use cases, such as enterprise companies connecting consumer data across internal functional groups or properties, cross-screen media measurement and analysis, and business partners sharing data that can be used to train proprietary AI models.",
+    "The customer experience economy has evolved significantly in recent years, driven by rapid innovation and an explosion of data, marketing channels, devices, and applications. AI is the latest innovation and is changing where and how customers discover and purchase products. Consumers are increasingly using generative AI assistants and agents, with conversational prompts, to navigate the Internet and guide their online shopping journeys. Historically, brands interacted with consumers through a limited number of marketing channels, with limited visibility into the activities taking place. Today, companies interact with consumers across a growing number of touchpoints, including social, mobile, CTV, point-of-sale, and AI surfaces. The billions of interactions that take place each day between brands and consumers create a trove of valuable data that can be harnessed to power better customer interactions and experiences. However, most enterprise marketers remain unable to navigate through the complexity to effectively leverage this data."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to the Pending Merger",
+    "There also is no assurance that the Merger and the other transactions contemplated by the Merger Agreement will occur on the terms and timeline currently contemplated or at all.",
+    "We are subject to various uncertainties while the Merger is pending, which could have a material adverse effect on our business, results of operations and financial condition.",
+    "While the Merger Agreement is in effect, we are subject to certain interim covenants.",
+    "We and our directors and officers may be subject to lawsuits relating to the Merger.",
+    "We have incurred, and will continue to incur, substantial direct and indirect transaction-related costs in connection with the Merger.",
+    "Our directors and executive officers have interests in the Merger that may be different from, or in addition to, the interests of our other stockholders.",
+    "If the Merger is completed, our stockholders will forgo the opportunity to benefit from potential future appreciation in the value of the Company.",
+    "Risks Related to Our Business and Strategy",
+    "We are dependent upon customer renewals, the addition of new customers and increased revenue from existing customers for our subscription revenue through our LiveRamp platform and our Marketplace and Other business.",
+    "The loss of a contract upon which we rely for a significant portion of our revenues could adversely affect our operating results.",
+    "If we cannot maintain our culture as we grow, we could lose the innovation, teamwork, passion and focus on execution that we believe contribute to our success, and our business may be harmed.",
+    "Our operations outside the United States are subject to risks that may harm the Company's business, financial condition or results of operations.",
+    "Unfavorable publicity and negative public perception about our industry could adversely affect our business and operating results.",
+    "We are dependent on the continued availability of third-party data hosting and transmission services.",
+    "Climate change may have an impact on our business.",
+    "Risks Related to Government Regulation and Taxation"
+   ],
+   "paragraphs": [
+    "An investment in our common stock involves a high degree of risk. You should carefully consider the risks described below and the other information in this Annual Report on Form 10-K and in other public filings before making an investment decision. Our business, prospects, financial condition, or operating results could be harmed by any of these risks, as well as other risks not currently known to us or that we currently consider immaterial. If any of such risks and uncertainties actually occurs, our business, financial condition or operating results could differ materially from the plans, projections and other forward-looking statements included in the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and elsewhere in this report and in our other public filings. The trading price of our common stock could decline due to any of these risks, and, as a result, you may lose all or part of your investment.",
+    "We may fail to consummate the Merger, and uncertainties related to the consummation of the Merger may have a material adverse effect on our business, results of operations and financial condition and negatively impact the trading price of our common stock.",
+    "The Merger is subject to the satisfaction of a number of conditions beyond our control, including the approval of the Merger and the adoption of the Merger Agreement by the holders of sixty-six and two-thirds percent (66 2/3%) of the voting power represented by the issued and outstanding shares of our common stock entitled to vote thereon and the expiration or termination of any applicable waiting periods (and any extension thereof) under the Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended, the receipt of certain non-U.S. antitrust and foreign direct investment approvals, the receipt of the CFIUS Approval (as defined in the Merger Agreement) with respect to the Merger and other customary closing conditions. Failure to satisfy the conditions to the Merger could prevent or delay the completion of the Merger. Further, regulators may impose conditions, obligations or restrictions on the Merger that may have the effect of delaying or preventing its completion. If the Merger does not close, we may suffer other consequences that could adversely affect our business, financial condition, operating results, and stock price, and our stockholders would be exposed to additional risks, including, but not limited to:",
+    "•negative reactions from the financial markets, including negative impacts on our stock price, particularly to the extent that the current trading price of our common stock reflects an assumption that the Merger will be completed, the trading price of our common stock could decrease if the Merger is not completed and it is uncertain when, if ever, the trading price of our common stock would return to the prices at which our common stock currently trade;",
+    "•negative publicity, which could have an adverse effect on our ongoing operations including, but not limited to, retaining and attracting employees, customers, partners, suppliers and others with whom we do business;",
+    "•investor confidence in us could decline, stockholder litigation could be brought against us or members of the board of directors or our officers, which, even if meritless, may require us to commit significant time and resources defending;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "待審 mergers",
+    "運用資料以優化人工智慧時代的客戶體驗",
+    "資料使用量持續成長",
+    "資料合作持續成長以啟動商業媒體",
+    "人工智慧時代的客戶旅程複雜度持續增加",
+    "消費者身分碎片化程度持續增加",
+    "人工智慧正在轉變行銷作業流程",
+    "因消費者識別不準確所致的行銷浪費",
+    "隱私與安全議題升溫",
+    "我們的作法",
+    "/LiveRamp 資料合作平台",
+    "訂閱模式",
+    "市場廣場及其他",
+    "競爭優勢",
+    "成長策略",
+    "隱私考量",
+    "{'original': 'Sales and Marketing', 'translated': '銷售及行銷'}",
+    "{'original': 'Research and Development', 'translated': '研究及發展'}",
+    "{'original': 'Our Human Capital', 'translated': '我們的人力資本'}",
+    "{'original': 'Information about our Executive Officers', 'translated': '關於我們的高階管理人員資訊'}"
+   ],
+   "paragraphs": [
+    "LiveRamp Holdings, Inc. (\"LiveRamp\", \"we\", \"us\", or the \"Company\") 為一領導的資料協作科技公司，賦予行銷人員與媒體擁有者在所有重要場域中提供並衡量行銷成效的能力。LiveRamp 的資料協作網路可順暢串聯廣告主、廣告科技平台、發行商、資料供應商與電商媒體網路 — 解鎖洞察力，提供轉型的消費者體驗，並驅動可衡量的業務成果。隨著消費者接受 AI 驅動的體驗，LiveRamp 的資料協作網路擴展了行銷 AI 能力運作的資料廣度與準確性。我們的平台設計為 AI 代理的可存取性，促進我們客戶與合作夥伴所使用的專門 AI 代理與我們網路平台之間的自主資料協作。建基於嚴格中立、互通性與全球規模的基礎上，LiveRamp 讓組織能最大化其資料價值，同時加速業務成長。",
+    "LiveRamp 為一設立於美國德拉瓦州、總部位於美國加州舊金山的公司。我們的普通股在紐約證券交易所上市，代碼為 \"RAMP\"。我們從美國、歐洲與亞太 (\"APAC\") 區域的據點服務全球客戶。我們的直接客戶名單包含許多全球知名且最具創新力的品牌，橫跨大多數主要產業垂直領域，包括但不限於金融、保險與投資服務、資訊系統、直接行銷、零售、汽車、電信業者、科技、消費性包裝商品、媒體、醫療保健、旅遊與餐飲、娛樂與非營利組織。我們透過廣大的合作夥伴生態系統服務數千家其他公司，解鎖獨特的客戶時刻，並創造強大的網路效應。",
+    "於 2026 年 5 月 16 日，本公司與 MMS USA Holdings, Inc.（一設立於美國德拉瓦州的公司，\"Parent\"）及 Publicis（定義如下）所擁有之 wholly owned subsidiary，Covey Merger Sub, Inc.（一設立於美國德拉瓦州的公司，且為 Parent 之 wholly owned subsidiary，\"Merger Sub\"），以及 solely for the purpose of Section 10.14 thereto，Publicis Groupe S.A.（一法國 société anonyme，\"Publicis\"）簽訂了合併與協議 (\"Merger Agreement\")。根據此協議，除其他事項外，於合併生效時間 (\"Effective Time\")，Merger Sub 將與本公司合併，本公司繼續為存續公司，並成為 Parent 的直接 wholly owned subsidiary。",
+    "根據 Merger Agreement 所規定的條件與事項，於 Effective Time，本公司每張普通股，每股面值為 0.10 美元 (\"Company Common Stock\")，於 Effective Time 前發行且流通中（除 (i) 由已正確行使評價權之權利之股東所持有的 Company Common Stock；(ii) 由本公司、Parent 或 Merger Sub 所持有的 Company Common Stock；或 (iii) 由 Parent 之任何直接或間接 wholly owned subsidiary（除 Merger Sub 外）或本公司所持有的 Company Common Stock 除外），將轉換為取得 38.50 美元現金之權利，不計利息。此合併預計於 2026 年財務年度結束前完成，但需符合常見的關閉條件，包括本公司股東的批准與取得必要的監管許可。",
+    "若此合併完成，本公司普通股將從紐約證券交易所除牌，並根據 1934 年證券交易所法 (經修訂) 進行 deregistration。",
+    "關於 Merger Agreement 與合併的更多資訊將於本公司將向 SEC 提交的 Schedule 14A 類型之 Definitive Proxy Statement 中說明。",
+    "我們正經歷多項關鍵產業趨勢的收斂，這些趨勢正在塑造資料如何用來驅動行銷與消費者體驗的未來。其中一些關鍵產業趨勢包括：",
+    "隨著 AI 改變消費者發現與購買產品的方式，行銷人員越來越清楚，真正的競爭優勢在於提供有意義的消費者體驗，這些體驗具備個人化、相關性與跨所有行銷通路與消費者互動的協調性。這些體驗是品牌差異化與消費者留存的關鍵。企業也越來越清楚，最佳的消費者體驗需要更深入的洞察，而這些洞察只能透過結合第一方、第二方與第三方資料的結構化資料協作努力才能實現。",
+    "同時，消費者期待品牌能提供個人化服務，並透過新的人工智慧工具，使每一項消費者互動都能針對個別用戶，具備相關性、可觸及性與可衡量性。",
+    "數據是打造卓越客戶體驗的核心，但目前仍被嚴重低估。企業必須收集、整理、分析，最重要的是運用客戶數據來強化客戶體驗。雖然人工智慧正逐漸應用於行銷流程中，以提供更優質的客戶體驗，但數據仍是成功的主要關鍵。透過瞭解哪些裝置、電子郵件地址與郵遞地址屬於同一個個體，企業行銷人員可以運用此洞察，在消費者與公司互動的所有接觸點，提供順暢的體驗。此外，針對個別消費者進行行銷，有助企業減少行銷浪費，並更容易將行銷支出歸因於實際的銷售交易。企業行銷人員認知到大數據帶來的龐大機會，但許多仍承認未能有效運用數據來驅動客戶體驗。",
+    "科技的進步，包括人工智慧與機器學習，以及消費者廣泛使用連網裝置與應用程式，使收集並快速處理大量客戶數據成為可能。數據供應商與直營平台能夠在線下與線上多種屬性與平台中收集用戶資訊，並與其他數據來源進行整合與結合。在取得適當授權的情況下，這些數據可以與企業自身的專屬數據整合，並在需要時使其無法識別個體。透過數據的運用，行銷人員與發行商可以更有效地提升客戶體驗，並提高客戶的終身價值。",
+    "廣告市場正因「商業媒體」這種新型廣告形式而發生變革，這種形式能將媒體曝光與銷售交易之間的環節閉合。商業媒體為品牌廣告主提供更深入的受眾洞察，以實現更有效且高效的廣告，同時為消費者提供更相關的體驗。商業媒體的基礎是數據合作，企業會以安全且符合隱私法規的方式，與值得信賴的商業夥伴共享第一手消費者數據。零售媒體是首個實現規模化的領域，受電商推動，但其他產業也正在接納商業媒體的機會，包括旅遊與酒店業、電信業、金融業、汽車業與醫療保健業。",
+    "還有其他數據合作的應用案例，例如企業公司將消費者數據在內部功能部門或屬性之間進行連結，跨螢幕媒體的測量與分析，以及商業夥伴共享可用於訓練專屬人工智慧模型的數據。",
+    "客戶體驗經濟在近年來已大幅進化，這是由快速創新與數據、行銷渠道、裝置與應用程式的爆炸性成長所驅動。人工智慧是最新創新，改變了消費者發現與購買產品的方式與地點。消費者越來越常使用生成式人工智慧助理與代理，透過對話提示來瀏覽網際網路，並引導他們的線上購物旅程。過去，品牌透過有限的行銷渠道與消費者互動，對消費者活動的可見度有限。如今，企業透過越來越多的接觸點與消費者互動，包括社交媒體、行動裝置、串流電視、零售點銷售與人工智慧界面。每天品牌與消費者之間的數十億次互動，創造出大量寶貴數據，可用來強化更好的客戶互動與體驗。然而，大多數企業行銷人員仍無法穿越複雜性，有效運用這些數據。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與待決合併相關的風險",
+    "此外，無法確保合併及其他根據合併協議所預期的交易將按目前預期的條款和時間表進行，或根本不會發生。",
+    "在合併待決期間，我們面臨各種不確定性，這些不確定性可能對我們的業務、營運結果及財務狀況產生重大不利影響。",
+    "在合併協議有效期間，我們受到某些臨時契約條款的約束。",
+    "我們及其董事與高階管理人員可能因合併而面臨訴訟。",
+    "我們已產生，且將持續產生大量與交易相關的直接及間接成本，與合併有關。",
+    "我們的董事與高階管理人員在合併中有其自身利益，這些利益可能與我們其他股東的利益不同，或除此之外還有其他利益。",
+    "若合併完成，我們的股東將放棄未來公司價值潛在升值的機會。",
+    "與我們業務及策略相關的風險",
+    "我們的訂閱收入依賴於客戶續約、新增客戶以及現有客戶收入的增加，透過我們的 LiveRamp 平台及 Marketplace 和其他業務實現。",
+    "若我們失去一個對我們收入佔有重大比例的契約，可能會對我們的營運成果產生不利影響。",
+    "若我們在成長過程中無法維持我們的企業文化，可能會失去我們認為促成我們成功的創新、團隊合作、熱忱及執行專注力，並可能對我們的業務造成損害。",
+    "本公司於美國境外之營運面臨風險，可能影響本公司之業務、財務狀況或營運成果。",
+    "對本公司產業之不利宣傳及負面公眾觀感，可能對本公司之業務及營運成果產生不利影響。",
+    "本公司依賴第三方資料主機與傳輸服務之持續可用性。",
+    "氣候變遷可能對本公司之業務產生影響。",
+    "{'original': 'Risks Related to Government Regulation and Taxation', 'translated': '與政府規範及稅務相關之風險'}"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及高度風險。您應謹慎考量下列所描述的風險，以及本年度報告表10-K及其他公開申報文件中所載的其他資訊，再做投資決定。本公司業務、前景、財務狀況或營運成果可能因任何上述風險，以及目前尚未知悉或本公司認為不重要之其他風險而受到損害。若任何上述風險與不確定性實際發生，本公司業務、財務狀況或營運成果可能與本報告及本公司其他公開申報文件中所載的計畫、預測及其他前瞻性陳述有重大差異。本公司普通股的交易價格可能因任何上述風險而下跌，因此您可能損失全部或部分投資。",
+    "本公司可能無法完成合併，與合併完成相關的不確定性可能對本公司業務、營運結果與財務狀況造成重大不利影響，並對本公司普通股的交易價格產生負面影響。",
+    "合併需符合多項條件，而這些條件超出本公司控制範圍，包括取得合併的批准，以及由持有本公司普通股投票權六十六又二-third% (66 2/3%) 的股東通過合併協議，以及適用的等待期（及任何延長期）在《1976年哈特-斯科特-羅丁反壟斷改進法案》（經修訂）下屆滿或終止，取得某些非美國反壟斷及外國直接投資批准，取得CFIUS批准（如合併協議中所定義），以及其他慣例性的交割條件。未能符合合併條件可能導致合併無法或延遲完成。此外，監管機構可能對合併施加條件、義務或限制，可能導致合併延遲或無法完成。若合併未能完成，本公司可能遭受其他後果，可能對本公司業務、財務狀況、營運結果及股票價格產生不利影響，本公司股東將面臨額外風險，包括但不限於：",
+    "•金融市場的負面反應，包括對本公司股票價格的負面影響，特別是在目前本公司普通股交易價格反映合併將完成的假設情況下，若合併未能完成，本公司普通股交易價格可能下跌，且在合併未能完成且不確定何時、若能恢復至目前本公司普通股交易價格的情況下，交易價格可能下降；",
+    "•負面宣傳，可能對本公司持續營運造成不利影響，包括但不限於留住及吸引員工、客戶、合作夥伴、供應商及其他與本公司有業務往來的對象；",
+    "•投資人對本公司的信心可能下降，可能對本公司或董事會成員或本公司高層主管提起訴訟，即使這些訴訟毫無根據，也可能導致本公司必須投入大量時間與資源進行辯護；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

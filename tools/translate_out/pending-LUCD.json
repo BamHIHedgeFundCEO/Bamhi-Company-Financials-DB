@@ -1,0 +1,130 @@
+{
+ "ticker": "LUCD",
+ "cik": "0001799011",
+ "accession": "0001437749-26-009805",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Background and Overview",
+    "Our Relationship with PAVmed",
+    "Recent Events",
+    "Intellectual Property",
+    "Health Insurance Coverage and Reimbursement",
+    "Government Regulation",
+    "Key U.S. Regulation",
+    "Other U.S. Healthcare Regulation"
+   ],
+   "paragraphs": [
+    "Unless the context otherwise requires, \"we\", \"us\", and \"our\", the \"Company\", \"Lucid\" and \"Lucid Diagnostics\" refer to Lucid Diagnostics Inc. and its subsidiaries LucidDx Labs Inc. (\"LucidDx Labs\") and CapNostics, LLC (\"CapNostics\").",
+    "Lucid Diagnostics is a commercial-stage cancer prevention medical diagnostics technology company. Lucid is focused on the millions of patients with gastroesophageal reflux disease (\"GERD\"), also known as chronic heartburn, who are at risk of developing esophageal precancer and cancer, specifically highly lethal esophageal adenocarcinoma (\"EAC\").",
+    "We believe that our flagship product, the EsoGuard Esophageal DNA Test, performed on samples collected with the EsoCheck Esophageal Cell Collection Device, constitutes the first and only commercially available diagnostic test capable of serving as a widespread testing tool with the goal of preventing EAC deaths, through early detection of esophageal precancer in at-risk GERD patients.",
+    "EsoGuard is a bisulfite-converted targeted next-generation sequencing (\"NGS\") DNA assay performed on surface esophageal cells collected with the FDA 510(k)-cleared EsoCheck device. It quantifies methylation at 31 sites on two genes, Vimentin (\"VIM\") and Cyclin A1 (\"CCNA1\"). Analytical validation tests of EsoGuard demonstrated approximately 97% analytical sensitivity, 95% analytical specificity, 98% analytical accuracy, and 100% inter-assay and intra-assay precision. Performance characteristics of the EsoGuard test have been evaluated in two case-control studies and two prospective, single-arm cohort studies. Both cohort studies were designed as \"screening\" studies, enrolling patients from the intended-use population. In these screening settings, EsoGuard demonstrated a positive predictive value (\"PPV\") of 30–33% and a negative predictive value (\"NPV\") of 99% for the detection of Barrett's esophagus (\"BE\") and EAC.",
+    "EsoCheck is an FDA 510(k) cleared and CE Mark certified noninvasive swallowable balloon capsule catheter device designed for in-office targeted sampling of surface esophageal cells in a less than two minute long office procedure. It consists of a vitamin sized semi-rigid plastic capsule tethered to a thin silicone catheter from which a soft inflatable silicone balloon with textured ridges emerges to gently swab surface esophageal cells. When suction is applied, the balloon and sampled cells are pulled into the capsule, protecting them from contamination and dilution by cells outside of the targeted region during device withdrawal. We believe this proprietary Collect+Protect™ technology makes EsoCheck the only noninvasive esophageal cell collection device capable of such anatomically targeted and protected sampling.",
+    "EsoGuard and EsoCheck are based on patented technology licensed by Lucid from Case Western Reserve University (\"CWRU\"). EsoGuard and EsoCheck have been developed to provide accurate, non-invasive, patient-friendly testing for the early detection of EAC and BE, including dysplastic BE and related pre-cursors to EAC in patients with chronic GERD.",
+    "In 2025, approximately 22,000 U.S. GERD patients were diagnosed with EAC and approximately 16,250 will have died from the disease. Over 80% of EAC patients will die within five years of diagnosis, making it the second most lethal cancer in the U.S. The U.S. incidence of EAC has increased 500% over the past four decades, while the incidences of other common cancers have declined or remained flat. In nearly all cases, EAC silently progresses until it manifests itself with new symptoms of advanced disease. EAC is nearly always invasive at diagnosis, and, unlike other common cancers, mortality rates are high even in its earlier stages.",
+    "Based on current guidelines published by the American Gastroenterology Association (\"AGA\"), we believe the cohort recommended for screening consists of an estimated 30 million U.S. individuals with at least 3 established risk factors for BE. Accordingly, we believe EsoGuard's total addressable U.S. market opportunity approximates $60 billion based on an effective Medicare payment of $1,938 and the estimated 30 million U.S. patients recommended for screening by clinical practice guidelines.",
+    "Unfortunately, for a variety of reasons, less than 5% of at-risk patients who are recommended for screening undergo traditional invasive upper gastrointestinal endoscopy (\"EGD\"). We believe that the profound tragedy of an EAC diagnosis is that likely death could have been prevented if the at-risk patient had been screened and then undergone surveillance and curative endoscopic esophageal ablation of dysplastic BE.",
+    "Since mortality rates are high even in early stage EAC, preventing EAC deaths requires detection and intervention at the precancer stage. Most of the necessary elements for such an early detection program are already well established—an at-risk population (at-risk GERD patients), a precancer (BE), and an intervention which can halt progression to EAC (endoscopic esophageal ablation). Until recently, the only missing element for such an early detection program is a widespread screening tool that can detect BE prior to EAC.",
+    "We believe EsoGuard, used with EsoCheck, constitutes that missing element—the first and only commercially available diagnostic test capable of serving as a widespread testing tool with the goal of preventing EAC deaths through early detection of esophageal precancer and cancer in patients with 3 or more risk factors.",
+    "Clinical Guidelines for At-Risk Population",
+    "The subgroup of long-standing or severe GERD patients at-risk for BE and progression to EAC is well defined in clinical practice guidelines, including the American College of Gastroenterology (\"ACG\") BE Guidelines. In its Recommendation 5, the ACG suggests a single screening endoscopy in patients with chronic GERD symptoms and 3 or more additional risk factors for BE, including male sex, age greater than 50 years, White race, tobacco smoking, obesity, and family history of BE or EAC in a first-degree relative.",
+    "An ACG clinical guideline entitled \"Diagnosis and Management of Barrett's Esophagus: An Updated ACG Guideline,\" the first such update since 2016, was published online in April 2022 in the American Journal of Gastroenterology. The clinical guideline reiterates the ACG's long-standing recommendation for esophageal precancer screening in at-risk patients with GERD. For the first time, however, the clinical guideline also endorses non-endoscopic biomarker screening as an acceptable alternative to costly and invasive endoscopy stating that \"a swallowable non-endoscopic capsule device combined with a biomarker is an acceptable alternative to endoscopy for BE.\" The clinical guideline specifically mentions EsoCheck as such a swallowable, non-endoscopic esophageal cell collection device, as well as methylated DNA biomarkers such as EsoGuard. The summary of evidence for this recommendation includes a reference to the seminal NIH-funded, multicenter, case-control study published in 2018 in Science Translational Medicine, which demonstrated that EsoGuard is highly accurate at detecting esophageal precancer and cancer, including on samples collected with EsoCheck."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Factor Summary",
+    "Risks Associated with Our Financial Condition",
+    "We have incurred operating losses since our inception and may not be able to achieve profitability.",
+    "We expect to need additional capital funding, which may be compounded by our obligations to our parent company, PAVmed, which requires its own additional capital funding.",
+    "Our quarterly operating results could be subject to significant fluctuation, which could increase the volatility of our stock price and cause losses to our stockholders.",
+    "Risks Associated with Our Business",
+    "Since we have a limited operating history, and have not generated any significant revenues to date, you will have little basis upon which to evaluate our ability to achieve our business objective.",
+    "The markets in which we operate are attractive and other companies or institutions may develop and market novel or improved technologies, which may make the EsoGuard or EsoCheck technologies less competitive or obsolete.",
+    "We expect to derive substantially all of our revenues from the EsoGuard and EsoCheck products.",
+    "We are highly dependent on our license agreement with CWRU, the termination of which would prevent us from commercializing our products, and which imposes significant obligations on us.",
+    "Our products may never achieve market acceptance, despite our investment of significant time and resources to drive adoption.",
+    "The sizes of the markets for our current and future products have not been established with precision, and may be smaller than we estimate.",
+    "We or our third-party manufacturers may not have the manufacturing and processing capacity to meet the production requirements of consumer demand or clinical testing in a timely manner.",
+    "Our results of operations can be adversely affected by labor shortages, turnover, and labor cost increases.",
+    "Our ability to be successful will be totally dependent upon the efforts of our key personnel.",
+    "Our officers and directors have fiduciary obligations to other companies and, accordingly, may have conflicts of interest in determining to which entity a particular business opportunity should be presented.",
+    "Our business may suffer if we are unable to manage our growth.",
+    "Our business, financial condition and results of operations could be adversely affected by the political and economic conditions of the U.S. and the other countries in which we conduct business."
+   ],
+   "paragraphs": [
+    "The following risk factors and other information included in this Annual Report on Form 10-K should be carefully considered. The risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties not presently known to us or we presently deem less significant may also impair our business operations. If any of the following risks occur, our business, financial condition, results of operations and future growth prospects could be materially and adversely affected.",
+    "Our business is subject to numerous risks and uncertainties that you should consider before investing in our common stock. These risks are described more fully below and include, but are not limited to, risks relating to the following:",
+    "Risks Associated with Our Financial Condition",
+    "We have incurred operating losses since our inception and may not be able to achieve profitability.",
+    "We have concluded there is substantial doubt of our ability to continue as a going concern and our independent registered public accounting firm's report on our financial statements contains an explanatory paragraph describing our ability to continue as a going concern.",
+    "To raise capital, we have issued a significant amount of convertible securities under which we expect to issue a correspondingly significant amount of shares of our common stock upon conversion thereof. In addition, we may issue shares of our capital stock or debt securities in the future in order to raise capital to fund our operations. All of the foregoing would dilute the equity interest of our stockholders and might cause a change in control of our ownership."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "背景與概觀",
+    "本公司與 PAVmed 之關係",
+    "近期事件",
+    "智慧財產權",
+    "健康保險覆蓋範圍與給付",
+    "政府管制",
+    "關鍵美國法規",
+    "其他美國醫療保健法規"
+   ],
+   "paragraphs": [
+    "除非文意另有要求，\"we\"、\"us\"、\"our\"、\"the Company\"、\"Lucid\" 及 \"Lucid Diagnostics\" 均指 Lucid Diagnostics Inc. 及其子公司 LucidDx Labs Inc.（\"LucidDx Labs\"）與 CapNostics, LLC（\"CapNostics\"）。",
+    "Lucid Diagnostics 是一家商業階段的癌症預防醫療診斷技術公司。Lucid 聚焦於數百萬患有胃食道逆流症（\"GERD\"），也稱為慢性胃酸逆流，且有發展成食道癌前病變與癌症風險的患者，特別是高度致命的食道腺癌（\"EAC\"）。",
+    "我們認為，我們的旗艦產品 EsoGuard 食道 DNA 測試，透過 EsoCheck 食道細胞採集裝置所收集的樣本，是目前唯一商業可用的診斷測試，可用作廣泛測試工具，目標為透過早期偵測高風險 GERD 患者中的食道癌前病變，以預防 EAC 死亡。",
+    "EsoGuard 是一種經硫酸氫鈉轉換的目標次世代定序（\"NGS\"）DNA 檢測方法，透過 FDA 510(k) 認證的 EsoCheck 裝置所收集的表面食道細胞進行。此方法會量化 Vimentin（\"VIM\"）與 Cyclin A1（\"CCNA1\"）兩基因上 31 個位點的甲基化情況。EsoGuard 的分析驗證測試顯示約 97% 的分析靈敏度、95% 的分析特異性、98% 的分析準確度，以及 100% 的跨試驗與內試驗精確度。EsoGuard 測試的表現特徵已在兩項病例對照研究與兩項前瞻性、單臂隊列研究中評估。這兩項隊列研究均設計為 \"篩檢\" 研究，納入預期使用人口的患者。在這些篩檢情境下，EsoGuard 對於偵測 Barrett's 食道（\"BE\"）與 EAC 的正向預測值（\"PPV\"）為 30–33%，負向預測值（\"NPV\"）為 99%。",
+    "EsoCheck 是一款 FDA 510(k) 認證且 CE Mark 認證的非侵入性吞嚥式氣球囊導管裝置，設計用於在診所內進行針對性採集表面食道細胞的短於兩分鐘的診所程序。它由一個維生素大小的半剛性塑膠囊體與一端連接的細硅膠導管組成，導管末端延伸出一個柔軟的可充氣硅膠氣球，具有紋路溝槽，可輕柔地擦拭表面食道細胞。當進行吸力時，氣球與採集的細胞會被吸入囊體，保護其免受來自目標區域外細胞的污染與稀釋。我們認為這種專利的 Collect+Protect™ 技術使 EsoCheck 成為唯一能進行如此解剖學目標性與保護性採集的非侵入性食道細胞採集裝置。",
+    "EsoGuard 與 EsoCheck 基於由 Lucid 從 Case Western Reserve University（\"CWRU\"）取得的專利技術。EsoGuard 與 EsoCheck 已開發用於提供準確、非侵入性、患者友善的測試，用以早期偵測 EAC 與 BE，包括 dysplastic BE 與相關 EAC 前驅病變，針對患有慢性 GERD 的患者。",
+    "2025 年，約有 22,000 名美國 GERD 患者被診斷出患有 EAC，約有 16,250 名患者會因該疾病而死亡。超過 80% 的 EAC 患者在診斷後五年內會死亡，使其成為美國第二致命的癌症。美國 EAC 的發病率在過去四十年間增加了 500%，而其他常見癌症的發病率則下降或維持穩定。在幾乎所有情況下，EAC 會在出現新症狀前無聲地進展至晚期疾病。EAC 在診斷時幾乎總是侵襲性的，與其他常見癌症不同，即使在早期階段，死亡率也相當高。",
+    "根據美國消化病學會（\"AGA\"）目前公佈的指引，我們認為篩檢建議的對象約有 30 百萬名美國個體，其至少具備 3 個已建立的 BE 風險因素。因此，我們認為 EsoGuard 在美國的總可接觸市場機會約為 60 十億美元，基於 Medicare 支付金額為 1,938 美元，以及臨牀實踐指引建議篩檢的約 30 百萬名美國患者。",
+    "不幸的是，因多種原因，建議進行篩檢的高風險患者中，少於 5% 會接受傳統的侵入性上消化道內視鏡檢查（\"EGD\"）。我們認為，食管腺癌（EAC）診斷的深層悲劇在於，若高風險患者能接受篩檢並進行監測與根治性內視鏡食管消融治療異型性 Barrett 食管（BE），很可能可以避免死亡。",
+    "即使在早期階段，EAC 的死亡率仍然很高，因此預防 EAC 死亡需要在癌前階段進行檢測與幹預。大多數早期檢測計畫所需的必要元素已經相當成熟——高風險族羣（高風險 GERD 患者）、癌前病變（BE）以及可以中止進展至 EAC 的幹預措施（內視鏡食管消融）。直到最近，唯一缺少的元素是廣泛使用的篩檢工具，用以在 EAC 之前檢測 BE。",
+    "我們認為，EsoGuard 與 EsoCheck 一起使用，已經填補了這個缺失的元素——目前唯一商業上可取得的診斷測試，可用作廣泛篩檢工具，目標是透過早期檢測食管癌前病變及癌症，來預防 EAC 死亡，特別是針對有 3 個或更多風險因素的患者。",
+    "高風險族羣臨牀指引",
+    "長期或嚴重 GERD 患者，屬於高風險族羣，可能發展為 BE 並進展至 EAC，在臨牀實務指引中已經明確界定，包括美國胃腸病學會（\"ACG\"）的 BE 指南。在建議 5 中，ACG 建議對有慢性 GERD 症狀且有 3 個或更多 BE 風險因素的患者進行單次篩檢內視鏡檢查，這些風險因素包括男性性別、年齡大於 50 歲、白人種族、吸煙、肥胖以及家族中有 BE 或 EAC 的一級親屬病史。",
+    "一項名為 \"診斷與管理 Barrett 食管：更新的 ACG 指南\" 的 ACG 臨牀指引於 2022 年 4 月在《美國腸胃病學雜誌》線上發表，這是自 2016 年以來的首次更新。該臨牀指引重申了 ACG 長期以來對 GERD 高風險患者進行食管癌前病變篩檢的建議。然而，這是首次，該臨牀指引也支持非內視鏡生物標記篩檢作為替代昂貴且侵入性內視鏡檢查的可接受選擇，並指出 \"可吞嚥的非內視鏡膠囊裝置與生物標記結合，是內視鏡檢查的可接受替代方案，用以篩檢 BE\"。該臨牀指引特別提及 EsoCheck 為一種可吞嚥、非內視鏡的食管細胞收集裝置，以及甲基化 DNA 生物標記，例如 EsoGuard。此建議的證據總結包含對 2018 年發表於《科學翻譯醫學》的 NIH 資助、多中心、病例對照研究的參考，該研究顯示 EsoGuard 在檢測食管癌前病變及癌症方面具有高度準確性，包括使用 EsoCheck 收集的樣本。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總結",
+    "與我們財務狀況相關的風險",
+    "自我們成立以來，我們已產生營運虧損，且可能無法實現盈利。",
+    "我們預期將需要額外的資金，這可能會因我們對母公司 PAVmed 的義務而更加複雜，因為 PAVmed 也需要額外的資金。",
+    "我們的季度營運結果可能受到顯著波動的影響，這可能會增加我們股票價格的波動性，並導致股東虧損。",
+    "與我們業務相關的風險",
+    "由於我們的營運歷史有限，且至今尚未產生任何重大收入，您將缺乏評估我們實現業務目標能力的基礎。",
+    "我們所處的市場具有吸引力，其他公司或機構可能會開發並行銷新穎或改進的技術，這可能會使 EsoGuard 或 EsoCheck 技術較不具競爭力或過時。",
+    "我們預期將從 EsoGuard 與 EsoCheck 產品取得 substantially all 的營業收入。",
+    "我們高度依賴與 CWRU 的授權協議，若該協議終止，將使我們無法商業化我們的產品，且該協議對我們施加了重大義務。",
+    "儘管我們投入大量時間與資源推動採用，我們的產品可能永遠無法獲得市場接受度。",
+    "我們現有及未來產品的市場規模尚未精確確定，且可能小於我們的預估。",
+    "我們或我們的第三方製造商可能沒有足夠的製造與加工能力，以符合消費者需求或臨牀測試的生產要求。",
+    "我們的營運結果可能因勞動力短缺、人員流動率及勞動成本上升而受到不利影響。",
+    "我們能否成功將完全取決於我們關鍵人員的努力。",
+    "我們的董事與監事對其他公司負有信義義務，因此在決定將特定商業機會呈現給哪個實體時，可能會產生利益衝突。",
+    "本公司業務若無法有效管理成長，可能會受到影響。",
+    "本公司業務、財務狀況及營運成果可能因美國及其他營運國家的政治與經濟情勢而受到不利影響。"
+   ],
+   "paragraphs": [
+    "下列風險因素及其他資訊包含於本年度報告表 10-K 中，應謹慎考量。下列所描述的風險與不確定性並非我們所面臨的唯一風險。尚有其他風險與不確定性，目前尚未為我們所知或我們認為較不重要，也可能影響我們的業務運作。若任何上述風險發生，將可能對我們的業務、財務狀況、營運結果與未來成長前景造成重大且不利的影響。",
+    "我們的業務面臨許多風險與不確定性，投資人於投資本公司普通股前應予以考量。這些風險在下文中更為詳細說明，包括但不限於以下相關風險：",
+    "與我們財務狀況相關的風險",
+    "自我們成立以來，我們已產生營運虧損，且可能無法實現盈利。",
+    "我們已結論認為，我們持續經營的疑慮相當重大，且我們的獨立註冊會計師對我們財務報表的審計報告中，包含一段說明我們持續經營能力的段落。",
+    "為籌措資金，我們已發行大量可轉換證券，預期在轉換後將發行相當數量的本公司普通股。此外，我們未來可能發行本公司資本股票或債務證券以籌措資金用以支應營運。上述所有行為均將稀釋股東的權益，並可能導致本公司股權控制權的變動。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

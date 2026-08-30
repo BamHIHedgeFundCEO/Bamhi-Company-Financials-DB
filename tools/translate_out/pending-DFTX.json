@@ -1,0 +1,187 @@
+{
+ "ticker": "DFTX",
+ "cik": "0001813814",
+ "accession": "0001193125-26-076742",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Strategy",
+    "Our Product Candidate Pipeline",
+    "Lysergide tartrate (DT120)",
+    "Further Exploration of Novel Biopharmaceuticals and Other Areas of Interest",
+    "Manufacturing & Supply",
+    "Research Collaborations",
+    "Intellectual Property",
+    "Trade Secrets",
+    "Government Regulation",
+    "U.S. Drug Development",
+    "IND Application",
+    "Clinical Trials"
+   ],
+   "paragraphs": [
+    "We are a late-stage clinical biopharmaceutical company developing novel product candidates to treat brain health disorders. Our mission is to forge a new era of psychiatry by applying scientific rigor to psychedelics, with the goal of developing accessible treatments that unlock healing at scale. We are developing a pipeline of innovative product candidates targeting neurotransmitter pathways that play key roles in brain health disorders. This specifically includes pharmaceutically optimized product candidates derived from the psychedelic and empathogen drug classes including DT120 (previously referred to as MM120), and DT402 (previously referred to as MM402), our lead product candidates.",
+    "Our first lead product candidate, DT120 ODT, is a proprietary, pharmaceutically optimized form of lysergide D-tartrate that we are developing for the treatment of adults with generalized anxiety disorder and major depressive disorder. In December 2023, we announced positive topline results from our Phase 2b clinical trial of DT120 for the treatment of GAD. The trial met its primary endpoint, with DT120 demonstrating statistically significant and clinically meaningful dose-dependent improvements on the Hamilton Anxiety Rating Scale (\"HAM-A\") compared to placebo at Week 4. In March 2024, we announced that the U.S. Food and Drug Administration (\"FDA\") granted breakthrough designation to our DT120 program for the treatment of GAD. We also announced in March 2024 that our Phase 2b clinical trial of DT120 in GAD met its key secondary endpoint, and 12-week topline data demonstrated clinically and statistically significant durability of activity observed through Week 12. In September 2025, we announced that the full results from our Phase 2b clinical trial of DT120 in GAD had been published in the Journal of the American Medical Association.",
+    "In June 2024, we announced the completion of our End-of-Phase 2 meeting with the FDA, supporting the advancement of DT120 into pivotal trials for the treatment of adults with GAD. Our Phase 3 clinical program for DT120 ODT is expected to consist of two clinical trials: the Voyage study (DT120-300) and the Panorama study (DT120-301). Both trials are comprised of two parts: Part A, which is a 12-week, randomized, double-blind, placebo-controlled, parallel-group trial assessing the efficacy and safety of DT120 ODT versus placebo; and Part B, which is a 40-week extension period during which participants will be eligible for open-label treatment with DT120 ODT, subject to certain conditions for treatment eligibility. Voyage is anticipated to enroll approximately 200 participants (randomized 1:1 to receive DT120 ODT 100 µg or placebo) and Panorama is anticipated to enroll approximately 250 participants (randomized 2:1:2 to receive DT120 ODT 100 µg, DT120 ODT 50 µg or placebo). Both trials use an adaptive trial design with a blinded interim sample size re-estimation (\"SSRE\"), allowing for an increase in sample size by up to 50% in each trial depending on the observed values for certain nuisance parameters. The SSRE for Voyage has been completed and it was determined that no increase in the sample size of the trial is required. The primary endpoint for each trial is the change from baseline in HAM-A score at Week 12 between DT120 ODT 100 µg and placebo. In December 2024, we announced the initiation of Voyage, and we anticipate a topline readout (Part A results) in early third quarter 2026. In January 2025, we announced the initiation of Panorama, with an anticipated topline readout (Part A results) in the second half of 2026.",
+    "In addition to our Phase 3 clinical program for GAD, we are developing DT120 ODT for the treatment of adults with MDD. In the first quarter of 2024, we held a pre-IND meeting with FDA to discuss the initiation of our Phase 3 clinical program for DT120 ODT in MDD and the trial design for the Emerge study (DT120-310), which like our pivotal trials in GAD, we anticipate will be comprised of two parts: Part A, which is a 12-week, randomized, double-blind, placebo-controlled, parallel group trial assessing the efficacy and safety of DT120 ODT versus placebo; and Part B, which is a 40-week extension period during which participants will be eligible for open-label treatment with DT120 ODT, subject to certain conditions for treatment eligibility. Emerge is fully enrolled with 149 participants randomized 1:1 to receive DT120 ODT 100 µg or placebo. The primary endpoint is the change from baseline in Montgomery Åsberg Depression Rating Scale (\"MADRS\") score at Week 6 between DT120 ODT 100 µg and placebo. In April 2025, we announced the initiation of Emerge, and we anticipate a topline readout (Part A results) in late second quarter 2026.",
+    "We activated initial sites in our second Phase 3 clinical trial of DT120 ODT in MDD, Ascend (DT120-311), in the first quarter of 2026 and we expect to dose our first patient in this trial by early second quarter 2026. Ascend has a similar design to Emerge, with a 12-week, randomized, double-blind, placebo-controlled, parallel group design assessing the efficacy and safety of DT120 ODT versus placebo (Part A); and Part B, which includes a 40-week extension period during which participants will be eligible for open-label treatment with DT120 ODT. Ascend is anticipated to enroll approximately 175 participants (randomized 2:1:2 to receive DT120 ODT 100 µg, DT120 ODT 50 µg or placebo). The primary endpoint is the change from baseline in MADRS score at Week 6 between DT120 ODT 100 µg and placebo.",
+    "Our second lead product candidate, DT402 (previously referred to as MM402), also referred to as R(-)-MDMA, is our proprietary form of the R-enantiomer of 3,4-methylenedioxymethamphetamine (\"MDMA\"), which we are developing for the treatment of adults with autism spectrum disorder (\"ASD\"). MDMA is a synthetic molecule that is often referred to as an empathogen because it is reported",
+    "to increase feelings of connectedness and compassion. Preclinical studies of R(-)-MDMA demonstrated its acute pro-social and empathogenic effects, while its diminished dopaminergic activity suggests that it has the potential to exhibit less stimulant activity, neurotoxicity, hyperthermia and abuse liability compared to racemic MDMA or the S(+)-enantiomer. In October 2024, we completed our first clinical trial of DT402, a single-ascending dose trial in adult healthy volunteers. The data from this Phase 1 clinical trial helped to characterize the tolerability, pharmacokinetics and pharmacodynamics of DT402.",
+    "We initiated a Phase 2a trial of DT402 in ASD in the fourth quarter of 2025. This study is a single-dose, open-label study to assess early signals of efficacy of DT402 in treating core socialization and communication symptoms in adults with ASD. This study is anticipated to enroll up to 20 participants. The objectives and endpoints of the study are designed to characterize the pharmacodynamics and clinical effects of DT402 in adults with ASD, including on multiple functional biomarkers. We anticipate initial data from our Phase 2a study in 2026.",
+    "Beyond our clinical stage product candidates, we are exploring additional programs, including through external collaborations, which we seek to expand our drug development pipeline and broaden the potential applications of our lead product candidates. These research and development programs include non-clinical, pre-clinical and human clinical trials of current and new product candidates and research compounds with our collaborators.",
+    "Our business is premised on a growing body of research supporting the use of novel psychoactive compounds to treat a myriad of brain health disorders. For all product candidates, we intend to proceed through research and development, and with marketing of the product candidates that may ultimately be approved pursuant to the regulations of the FDA and the regulations in other jurisdictions. This entails, among other things, conducting clinical trials with research scientists, using internal and external clinical drug development teams, producing and supplying product candidates according to current Good Manufacturing Practices (\"cGMP\"), and conducting all trials and development in accordance with the regulations of the FDA, and other regulations in other jurisdictions.",
+    "On January 9, 2026, we changed our corporate name from Mind Medicine (MindMed) Inc. to Definium Therapeutics, Inc. On January 12, 2026, we changed the name of our wholly-owned subsidiary from Mind Medicine, Inc. to Definium Therapeutics US, Inc. (\"Definium US\"). In connection with our rebrand, we began trading on Nasdaq under the symbol \"DFTX\" on January 15, 2026.",
+    "We were incorporated under the laws of the Province of British Columbia in 2010. Our wholly-owned subsidiary, Definium US, was incorporated in Delaware in 2019. Prior to February 27, 2020, our operations were conducted through Definium US.",
+    "Our mission is to forge a new era of psychiatry by applying scientific rigor to psychedelics, with the goal of developing accessible treatments that unlock healing at scale. We intend to accomplish our mission by leading in psychedelic research and development, commercialization and patient access, with a focus on completing our Phase 3 clinical trials of DT120 ODT in GAD and MDD. Key elements of our strategy are to:",
+    "• advance our clinical pipeline and submit new drug applications (\"NDAs\") to the FDA, and conduct pre-launch activities with respect to any of our product candidates that have been successfully developed;"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Financial Position and Need for Additional Capital",
+    "We are a clinical-stage pharmaceutical company and have incurred significant net losses since our inception, and we expect to continue to incur significant net losses for the foreseeable future.",
+    "We have never generated revenue and may never be profitable.",
+    "Raising additional capital may cause dilution to our existing shareholders, restrict our operations or require us to relinquish rights to our product candidates on unfavorable terms.",
+    "Risks Related to the Discovery, Development and Commercialization of our Product Candidates",
+    "bodies may require additional data, including with respect to abuse potential of our product candidates, before allowing us to commence a clinical trial or before approving any future marketing application we may submit."
+   ],
+   "paragraphs": [
+    "The following information sets forth risk factors that could cause our actual results to differ materially from those contained in forward-looking statements we have made in this Annual Report and those we may make from time to time. You should carefully consider the risks described below, as well as the other information in this Annual Report, including our financial statements and related notes and the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" and in our other public filings in evaluating our business. The occurrence of any of the events or developments described below could harm our business, financial condition, results of operations and growth prospects. In such an event, the market price of our common shares could decline. Additional risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business operations and the market price of our common shares.",
+    "We have a limited operating history, have not completed any pivotal clinical trials, and have no products approved for commercial sale, which may make it difficult for you to evaluate our current business and likelihood of success and viability.",
+    "We are a clinical-stage biopharmaceutical company with a limited operating history upon which you can evaluate our business and prospects. We commenced operations in 2019, have no products approved for commercial sale and have not generated any revenue. Drug development is a highly uncertain undertaking and involves a substantial degree of risk. Our most advanced development candidate is DT120 ODT. We initiated our Phase 3 clinical program in GAD in December 2024 and we initiated our Phase 3 clinical program in MDD in April 2025.",
+    "We have not yet demonstrated our ability to successfully complete any pivotal clinical trials, obtain marketing approvals, manufacture a commercial-scale product or arrange for a third party to do so on our behalf, or conduct sales and marketing activities necessary for successful product commercialization. As a result, it may be more difficult for you to accurately predict our likelihood of success and viability than it could be if we had a longer operating history.",
+    "In addition, we may encounter unforeseen expenses, difficulties, complications, delays and other known and unknown factors and risks frequently experienced by clinical-stage biopharmaceutical companies in rapidly evolving fields. We also may need to transition from a company with a research and development focus to a company capable of supporting commercial activities. We have not yet demonstrated an ability to successfully overcome such risks and difficulties, or to make such a transition. If we do not adequately address these risks and difficulties or successfully make such a transition, our business will suffer.",
+    "We have incurred significant net losses since our inception, have not generated any revenue to date and have financed our operations principally through public offerings and private placements of our common shares and warrants to purchase our common shares, and through our credit facility with K2 HealthVentures LLC (\"K2HV\"). We incurred net losses of $183.8 million and $108.7 million for the years ended December 31, 2025 and December 31, 2024, respectively, and as of December 31, 2025, we had an accumulated deficit of $582.7 million. Our historical losses resulted principally from costs incurred in connection with research and development activities and general and administrative costs associated with our operations. We intend to continue to conduct research and development, preclinical testing, clinical trials, regulatory compliance, market access, commercialization and business development activities that, together with anticipated general and administrative expenses, will result in incurring further significant losses for at least the next several years. Our product candidates are in various clinical, preclinical, discovery and research stages. As a result, we expect that it will be several years, if ever, before we have a commercialized product and generate revenue from product sales. Even if we succeed in receiving marketing approval for and commercializing one or more of our product candidates, we expect that we will continue to incur substantial research and development and other expenses in order to discover, develop and market additional potential products."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Components of Operating Results",
+    "Operating Expenses",
+    "Results of Operations",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "Year Ended December 31,",
+    "Other Income (Expense)",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "Future Funding Requirements",
+    "Contractual Obligations and Contingencies",
+    "Critical Accounting Policies and Estimates",
+    "Fair Value Measurements",
+    "Accrued Clinical Trial Costs and Other Research and Development Expenses",
+    "Share-Based Payments",
+    "Recent Accounting Pronouncements",
+    "Emerging Growth Company Status"
+   ],
+   "paragraphs": [
+    "The following discussion should be read in conjunction with the consolidated financial statements and notes thereto included elsewhere in this Annual Report. This Annual Report, including the following section, contains forward-looking statements. These statements are subject to risks and uncertainties that could cause actual results and events to differ materially from those expressed or implied by such forward-looking statements. For a detailed discussion of these risks and uncertainties, see Item 1A \"Risk Factors\" in this Annual Report. See also \"Special Note Regarding Forward-Looking Statements.\" We caution the reader not to place undue reliance on these forward-looking statements, which reflect management's analysis only as of the date of this Annual Report. We undertake no obligation to update forward-looking statements, which reflect events or circumstances occurring after the date of this Annual Report, except as required by law.",
+    "Our U.S. GAAP accounting policies are referred to in Note 2 of the Consolidated Financial Statements. All amounts are in United States dollars, unless otherwise indicated.",
+    "We are a late-stage clinical biopharmaceutical company developing novel product candidates to treat brain health disorders. Our mission is to forge a new era of psychiatry by applying scientific rigor to psychedelics, with the goal of developing accessible treatments that unlock healing at scale. This specifically includes pharmaceutically optimized product candidates derived from the psychedelic and empathogen drug classes including DT120 and DT402, our lead product candidates.",
+    "Our lead product candidate, DT120 ODT, is a proprietary, pharmaceutically optimized form of lysergide D-tartrate that we are developing for the treatment of adults with generalized anxiety disorder and major depressive disorder. In December 2023, we announced positive topline results from our Phase 2b clinical trial of DT120 for the treatment of GAD. The trial met its primary endpoint, with DT120 demonstrating statistically significant and clinically meaningful dose-dependent improvements on the Hamilton Anxiety Rating Scale (\"HAM-A\") compared to placebo at Week 4. In March 2024, we announced that the U.S. Food and Drug Administration (\"FDA\") granted breakthrough designation to our DT120 program for the treatment of GAD. We also announced in March 2024 that our Phase 2b clinical trial of DT120 in GAD met its key secondary endpoint, and 12-week topline data demonstrated clinically and statistically significant durability of activity observed through Week 12. In September 2025, we announced that the full results from our Phase 2b clinical trial of DT120 in GAD had been published in the Journal of the American Medical Association.",
+    "On June 20, 2024, we announced the completion of our End-of-Phase 2 meeting with the FDA, supporting the advancement of DT120 into pivotal trials for the treatment of adults with GAD. Our Phase 3 clinical program for DT120 ODT is expected to consist of two clinical trials: the Voyage study (DT120-300) and the Panorama study (DT120-301). Both trials are comprised of two parts: Part A, which is a 12-week, randomized, double-blind, placebo-controlled, parallel-group trial assessing the efficacy and safety of DT120 ODT versus placebo; and Part B, which is a 40-week extension period during which participants will be eligible for open-label treatment with DT120 ODT, subject to certain conditions for treatment eligibility. Voyage is anticipated to enroll approximately 200 participants (randomized 1:1 to receive DT120 ODT 100 µg or placebo) and Panorama is anticipated to enroll approximately 250 participants (randomized 2:1:2 to receive DT120 ODT 100 µg, DT120 ODT 50 µg or placebo). Both trials use an adaptive trial design with a blinded interim sample size re-estimation (\"SSRE\"), allowing for an increase in sample size by up to 50% in each trial depending on the observed values for certain nuisance parameters. The SSRE for Voyage has been completed and it was determined that no increase in the sample size of the trial is required. The primary endpoint for each trial is the change from baseline in HAM-A score at Week 12 between DT120 ODT 100 µg and placebo. In December 2024, we announced the initiation of Voyage, and we anticipate a topline readout (Part A results) in early third quarter 2026. On January 2025, we announced the initiation of Panorama, with an anticipated topline readout (Part A results) in the second half of 2026.",
+    "In addition to our Phase 3 clinical program for GAD, we are developing DT120 ODT for the treatment of adults with MDD. In the first quarter of 2024, we held a pre-IND meeting with FDA to discuss the initiation of our Phase 3 clinical program for DT120 ODT in MDD and the trial design for the Emerge study (DT120-310), which like our pivotal trials in GAD, we anticipate will be comprised of two parts: Part A, which is a 12-week, randomized, double-blind, placebo-controlled, parallel group trial assessing the efficacy and safety of DT120 ODT versus placebo; and Part B, which is a 40-week extension period during which participants will be eligible for open-label treatment with DT120 ODT, subject to certain conditions for treatment eligibility. Emerge is fully enrolled with 149 participants randomized 1:1 to receive DT120 ODT 100 µg or placebo. The primary endpoint is the change from baseline in Montgomery Åsberg Depression Rating Scale (\"MADRS\") score at Week 6 between DT120 ODT 100 µg and placebo. In April 2025, we announced the initiation of Emerge, and we anticipate a topline readout (Part A results) in late second quarter 2026.",
+    "We activated initial sites in our second Phase 3 clinical trial of DT120 ODT in MDD, Ascend (DT120-311), in the first quarter of 2026 and we expect to dose our first patient in this trial by early second quarter 2026. Ascend has a similar design to Emerge, with a 12-week, randomized, double-blind, placebo-controlled, parallel group design assessing the efficacy and safety of DT120 ODT versus placebo (Part A); and Part B, which includes a 40-week extension period during which participants will be eligible for open-label treatment with DT120 ODT. Ascend is anticipated to enroll approximately 175 participants (randomized 2:1:2 to receive DT120 ODT 100 µg, DT120 ODT 50 µg or placebo). The primary endpoint is the change from baseline in MADRS score at Week 6 between DT120 ODT 100 µg and placebo.",
+    "Our second lead product candidate, DT402, also referred to as R(-)-MDMA, is our proprietary form of the R-enantiomer of 3,4-methylenedioxymethamphetamine, which we are developing for the treatment of adults with ASD. MDMA is a synthetic molecule that is often referred to as an empathogen because it is reported to increase feelings of connectedness and compassion. Preclinical studies of R(-)-MDMA demonstrated its acute pro-social and empathogenic effects, while its diminished dopaminergic activity suggests that it has the potential to exhibit less stimulant activity, neurotoxicity, hyperthermia and abuse liability compared to racemic MDMA or the S(+)-enantiomer. In October 2024, we completed our first clinical trial of DT402, a single-ascending dose trial in adult healthy volunteers. The data from this Phase 1 clinical trial helped to characterize the tolerability, pharmacokinetics and pharmacodynamics of DT402.",
+    "We initiated a Phase 2a trial of DT402 in ASD in the fourth quarter of 2025. This study is a single-dose, open-label study to assess early signals of efficacy of DT402 in treating core socialization and communication symptoms in adults with ASD. This study is anticipated to enroll up to 20 participants. The objectives and endpoints of the study are designed to characterize the pharmacodynamics and clinical effects of DT402 in adults with ASD, including on multiple functional biomarkers. We anticipate initial data from our Phase 2a study in 2026.",
+    "Beyond our clinical stage product candidates, we are exploring additional programs, including through external collaborations, which we seek to expand our drug development pipeline and broaden the potential applications of our lead product candidates. These research and development programs include non-clinical, pre-clinical and human clinical trials of current and new product candidates and research compounds with our collaborators.",
+    "Our business is premised on a growing body of research supporting the use of novel psychoactive compounds to treat a myriad of brain health disorders. For all product candidates, we intend to proceed through research and development, and with marketing of the product candidates that may ultimately be approved pursuant to the regulations of the FDA and the regulations in other jurisdictions. This entails, among other things, conducting clinical trials with research scientists, using internal and external clinical drug development teams, producing and supplying product candidates according to current Good Manufacturing Practices (\"cGMP\"), and conducting all trials and development in accordance with the regulations of the FDA, and other regulations in other jurisdictions.",
+    "On January 9, 2026, we changed our corporate name from Mind Medicine (MindMed) Inc. to Definium Therapeutics, Inc. On January 12, 2026, we changed the name of our wholly-owned subsidiary from Mind Medicine, Inc. to Definium Therapeutics US, Inc. In connection with our name change, we began trading on Nasdaq under the symbol \"DFTX\" on January 15, 2026.",
+    "We were incorporated under the laws of the Province of British Columbia in 2010. Our wholly-owned subsidiary, Definium Therapeutics US, Inc. (\"Definium US\"), was incorporated in Delaware in 2019. Prior to February 27, 2020, our operations were conducted through Definium US.",
+    "Since inception, we have incurred losses while advancing the research and development of our products and processes. Our net losses were $183.8 million for the year ended December 31, 2025, and $108.7 million for the year ended December 31, 2024. As of December 31, 2025, we had an accumulated deficit of $582.7 million and cash, cash equivalents and investments of $411.6 million."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司策略",
+    "本公司產品候選品項管線",
+    "利瑟吉德酒石酸鹽（DT120）",
+    "進一步探索新型生物製藥及其他潛在領域",
+    "製造與供應",
+    "研究合作",
+    "智慧財產權",
+    "商業機密",
+    "政府規範",
+    "美國藥物開發",
+    "新藥申請",
+    "臨牀試驗"
+   ],
+   "paragraphs": [
+    "本公司為一間晚期臨牀生物製藥公司，開發新型產品候選藥物以治療腦健康疾病。本公司使命為透過科學嚴謹的方式應用迷幻藥物，開創精神醫學的新時代，目標為開發可大規模使用的治療方案，以啟發療癒。本公司正在開發一系列創新產品候選藥物，針對在腦健康疾病中扮演關鍵角色的神經傳導路徑。這包括從迷幻藥與共情藥物類別中衍生出的藥物候選品，包括 DT120（先前稱為 MM120），以及 DT402（先前稱為 MM402），為本公司主要產品候選藥物。",
+    "本公司首個主要產品候選藥物 DT120 ODT，為一項專屬的、藥物優化形式的利瑟吉德 D-酒石酸鹽，本公司正在開發此藥物用以治療成人之廣泛性焦慮症與重度抑鬱症。2023 年 12 月，本公司宣佈 DT120 在治療廣泛性焦慮症的 Phase 2b 臨牀試驗中取得正面的初步結果。該試驗達成其主要終點，DT120 在第 4 週時，與安慰劑相比，在漢密爾頓焦慮量表（\"HAM-A\"）上顯示統計顯著且臨牀意義重大的劑量依賴性改善。2024 年 3 月，本公司宣佈美國食品藥物管理局（\"FDA\"）已授予 DT120 程式於治療廣泛性焦慮症的突破性藥物指定。本公司亦於 2024 年 3 月宣佈 DT120 在廣泛性焦慮症的 Phase 2b 臨牀試驗達成其關鍵次要終點，且 12 週的初步數據顯示在第 12 週觀察到的活動持續性在臨牀與統計上皆具顯著意義。2025 年 9 月，本公司宣佈 DT120 在廣泛性焦慮症的 Phase 2b 臨牀試驗的完整結果已發表於《美國醫學會雜誌》（Journal of the American Medical Association）。",
+    "2024 年 6 月，本公司宣佈與 FDA 完成 Phase 2 終結會議，支持 DT120 進入關鍵性試驗以治療廣泛性焦慮症成人患者。DT120 ODT 的 Phase 3 臨牀計畫預期包含兩項臨牀試驗：Voyage 研究（DT120-300）與 Panorama 研究（DT120-301）。兩項試驗皆包含兩部分：第一部分為 12 週、隨機、雙盲、安慰劑對照、平行組試驗，評估 DT120 ODT 與安慰劑的療效與安全性；第二部分為 40 週的延長期，參與者將有資格接受 DT120 ODT 的開放標籤治療，但需符合特定治療資格條件。Voyage 預期招募約 200 名參與者（隨機 1:1 接受 DT120 ODT 100 µg 或安慰劑），Panorama 預期招募約 250 名參與者（隨機 2:1:2 接受 DT120 ODT 100 µg、DT120 ODT 50 µg 或安慰劑）。兩項試驗皆採用適應性試驗設計，包含盲態的中期樣本數重新評估（\"SSRE\"），允許每項試驗根據觀察到的某些幹擾參數值，樣本數最多增加 50%。Voyage 的 SSRE 已完成，並決定不需要增加試驗樣本數。每項試驗的主要終點為 DT120 ODT 100 µg 與安慰劑在第 12 週時的 HAM-A 分數基線變化。2024 年 12 月，本公司宣佈啟動 Voyage，預期在 2026 年第三季初期取得初步結果（第一部分結果）。2025 年 1 月，本公司宣佈啟動 Panorama，預期在 2026 年第二季後半取得初步結果（第一部分結果）。",
+    "除了 GAD 的 Phase 3 臨牀計畫外，本公司亦正在開發 DT120 ODT 用以治療重度抑鬱症（MDD）成人患者。2024 年第一季，本公司與 FDA 進行預 IND 會議，討論 DT120 ODT 在 MDD 的 Phase 3 臨牀計畫啟動與 Emerge 研究（DT120-310）的試驗設計。與 GAD 的關鍵性試驗類似，本公司預期 Emerge 也會包含兩部分：第一部分為 12 週、隨機、雙盲、安慰劑對照、平行組試驗，評估 DT120 ODT 與安慰劑的療效與安全性；第二部分為 40 週的延長期，參與者將有資格接受 DT120 ODT 的開放標籤治療，但需符合特定治療資格條件。Emerge 已完全招募 149 名參與者，隨機 1:1 接受 DT120 ODT 100 µg 或安慰劑。主要終點為 DT120 ODT 100 µg 與安慰劑在第 6 週時的蒙哥馬利 åsberg 抑鬱症評分量表（\"MADRS\"）分數基線變化。2025 年 4 月，本公司宣佈啟動 Emerge，預期在 2026 年第二季後半取得初步結果（第一部分結果）。",
+    "本公司在 MDD 的第二個 Phase 3 臨牀試驗 Ascend（DT120-311）中啟動初始試驗點，於 2026 年第一季，預期在 2026 年第二季初期對此試驗的第一位參與者進行給藥。Ascend 的設計與 Emerge 相似，包含 12 週、隨機、雙盲、安慰劑對照、平行組設計，評估 DT120 ODT 與安慰劑的療效與安全性（第一部分）；以及第二部分，包含 40 週的延長期，參與者將有資格接受 DT120 ODT 的開放標籤治療。Ascend 預期招募約 175 名參與者（隨機 2:1:2 接受 DT120 ODT 100 µg、DT120 ODT 50 µg 或安慰劑）。主要終點為 DT120 ODT 100 µg 與安慰劑在第 6 週時的 MADRS 分數基線變化。",
+    "本公司第二個主要產品候選藥物 DT402（先前稱為 MM402），亦稱為 R(-)-MDMA，為本公司專屬的 R-異構體 3,4-甲基烯二氧乙醯胺（\"MDMA\"）形式，本公司正在開發此藥物用以治療 autism spectrum disorder（\"ASD\"）成人患者。MDMA 是一種合成分子，常被稱為共情藥物，因其被報導能增加感受連接與共情的感覺。",
+    "預臨牀研究顯示 R(-)-MDMA 具有急性促社會與共情效果，而其減少的多巴胺活性表明其可能較 racemic MDMA 或 S(+)-異構體具有較低的興奮作用、神經毒性、高體溫及濫用潛力。2024 年 10 月，本公司完成 DT402 的第一項臨牀試驗，為一項單劑量遞增試驗，在成人健康志工中進行。此 Phase 1 臨牀試驗的數據有助於特徵化 DT402 的耐受性、藥動學與藥效學。",
+    "本公司於 2025 年第四季啟動 DT402 在 ASD 的 Phase 2a 試驗。此研究為單劑量、開放標籤研究，用以評估 DT402 在治療 ASD 成人患者的核心社交與溝通症狀的早期療效信號。此研究預期招募最多 20 名參與者。研究的目標與終點設計用以特徵化 DT402 在 ASD 成人患者中的藥效學與臨牀效果，包括對多種功能生物標記的影響。本公司預期在 2026 年取得此 Phase 2a 研究的初步數據。",
+    "除我們臨牀階段的產品候選藥物外，我們正在探索其他計畫，包括透過外部合作夥伴，以擴展我們的藥物開發管道並拓展我們主要產品候選藥物的潛在應用範圍。這些研究與開發計畫包括目前與新產品候選藥物及研究化合物的非臨牀、臨牀前及人體臨牀試驗，並與合作夥伴共同進行。",
+    "我們的業務建立在支持使用新型致幻化合物治療多種腦健康疾病的研發成果基礎上。對於所有產品候選藥物，我們預計將進行研究與開發，並在產品候選藥物最終獲得批准後進行市場推廣，符合美國食品藥物管理局（FDA）及其他司法管轄區的相關規範。這包括，但不僅限於，與研究科學家進行臨牀試驗、使用內部及外部臨牀藥物開發團隊、依照現行良好製造規範（\"cGMP\"）生產與供應產品候選藥物，並依照FDA及其他司法管轄區的相關規範進行所有試驗與開發。",
+    "我們於2026年1月9日將公司名稱從Mind Medicine（MindMed）Inc. 更為Definium Therapeutics, Inc.。我們於2026年1月12日將我們的 wholly-owned 子公司名稱從Mind Medicine, Inc. 更為Definium Therapeutics US, Inc.（\"Definium US\"）。配合品牌重塑，我們於2026年1月15日開始在納斯達克（Nasdaq）以符號\"DFTX\"進行交易。",
+    "我們於2010年根據不列顛哥倫比亞省法律成立。我們的 wholly-owned 子公司Definium US 於2019年在特拉華州註冊成立。在2020年2月27日之前，我們的業務運作均透過Definium US進行。",
+    "我們的使命是透過科學嚴謹的方法應用致幻藥物，開創精神醫學的新時代，目標是開發可大規模使用的治療方案，以啟發療癒。我們預計透過領導致幻藥物的研究與開發、商業化及患者接觸，來實現此使命，並專注於完成DT120 ODT在廣泛焦慮症（GAD）及憂鬱症（MDD）的第三期臨牀試驗。我們策略的關鍵要素為：",
+    "• 推進我們的臨牀開發管道，並向FDA提交新藥申請（\"NDAs\"），並針對任何成功開發的產品候選藥物進行上市前活動；"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果組成項目",
+    "營運費用",
+    "營運成果",
+    "截至2025年12月31日及2024年12月31日之年度比較",
+    "截至2025年12月31日",
+    "其他收入（費用）",
+    "流動性及資本資源",
+    "流動性來源",
+    "{'Future Funding Requirements': '未來資金需求'}",
+    "{'Contractual Obligations and Contingencies': '契約義務與或有事項'}",
+    "{'Critical Accounting Policies and Estimates': '關鍵會計政策與會計估計'}",
+    "{'Fair Value Measurements': '公允價值衡量'}",
+    "{'Accrued Clinical Trial Costs and Other Research and Development Expenses': '累計臨牀試驗費用及其他研究與開發費用'}",
+    "{'Share-Based Payments': '股票基於付款'}",
+    "{'Recent Accounting Pronouncements': '近期會計準則發布'}",
+    "{'Emerging Growth Company Status': '新興成長公司資格'}"
+   ],
+   "paragraphs": [
+    "下列討論應與本年度報告中其他處所包含之合併財務報表及其附註一併閱讀。本年度報告，包括下列段落，包含向前看的陳述。這些陳述受風險與不確定性影響，可能導致實際結果與事件與這些向前看陳述所表達或暗示者有重大差異。有關這些風險與不確定性的詳細討論，請參閱本年度報告第 1A 項「風險因素」。請參閱「向前看陳述之特別說明」。我們提醒讀者勿過度依賴這些向前看陳述，這些陳述僅反映管理階層於本年度報告日期之分析。我們不負有更新向前看陳述之義務，這些陳述反映發生於本年度報告日期之後之事件或情況，除非法律有此要求。",
+    "我們的美國通用會計準則（U.S. GAAP）會計政策請參閱合併財務報表之附註 2。所有金額以美國美元為單位，除非另有說明。",
+    "我們是一家晚期臨牀生物製藥公司，正在開發新型產品候選藥物，用以治療大腦健康疾病。我們的使命是透過科學嚴謹的方法應用迷幻藥物，以建立新時代的精神病學，目標是開發可近用的治療方式，以規模化啟動療癒。這包括從迷幻藥與共情藥物類別中衍生出的藥物候選產品，包括 DT120 與 DT402，為我們的領先產品候選藥物。",
+    "我們的領先產品候選藥物 DT120 ODT 是一種專利的、藥物優化形式的利瑟吉德 D-酒石酸鹽，我們正在開發用以治療成人之廣泛性焦慮症與重度憂鬱症。2023 年 12 月，我們宣佈 DT120 用以治療廣泛性焦慮症（GAD）的第二期臨牀試驗結果為正面。該試驗達成其主要終點，DT120 在第 4 週時，與安慰劑相比，在漢密爾頓焦慮量表（\"HAM-A\"）上顯示統計顯著且臨牀意義重大的劑量依賴性改善。2024 年 3 月，我們宣佈美國食品藥物管理局（\"FDA\"）已授予 DT120 程式於治療 GAD 的突破性指定。我們也在 2024 年 3 月宣佈 DT120 在 GAD 的第二期臨牀試驗達成其關鍵次要終點，且 12 週的初步數據顯示在第 12 週觀察到的活動具有臨牀與統計顯著的持續性。2025 年 9 月，我們宣佈 DT120 在 GAD 的第二期臨牀試驗的完整結果已發表於《美國醫學會雜誌》（Journal of the American Medical Association）。",
+    "2024 年 6 月 20 日，我們宣佈已完成與 FDA 的第二期結束會議，支持 DT120 進入治療成人 GAD 的關鍵性試驗。DT120 ODT 的第三期臨牀計畫預期包含兩項臨牀試驗：Voyage 試驗（DT120-300）與 Panorama 試驗（DT120-301）。兩項試驗均包含兩部分：第一部分為 12 週、隨機、雙盲、安慰劑控制、平行組試驗，評估 DT120 ODT 與安慰劑的療效與安全性；第二部分為 40 週的延長期，參與者將有資格接受 DT120 ODT 的開放標籤治療，但需符合特定的治療資格條件。Voyage 預期招募約 200 名參與者（隨機 1:1 接受 DT120 ODT 100 µg 或安慰劑），Panorama 預期招募約 250 名參與者（隨機 2:1:2 接受 DT120 ODT 100 µg、DT120 ODT 50 µg 或安慰劑）。兩項試驗均採用適應性試驗設計，包含盲態的中間樣本量重新評估（\"SSRE\"），允許每項試驗的樣本量根據某些幹擾參數的觀察值增加最多 50%。Voyage 的 SSRE 已完成，並決定不需要增加試驗的樣本量。每項試驗的主要終點為 DT120 ODT 100 µg 與安慰劑在第 12 週時基線 HAM-A 分數的變化。2024 年 12 月，我們宣佈啟動 Voyage，預期在 2026 年第三季初期獲得初步結果（第一部分結果）。2025 年 1 月，我們宣佈啟動 Panorama，預期在 2026 年第二季後半獲得初步結果（第一部分結果）。",
+    "除了我們用於 GAD 的第三期臨牀計畫，我們也在開發 DT120 ODT 用以治療成人之重度憂鬱症（MDD）。2024 年第一季，我們與 FDA 進行了預 IND 會議，討論啟動 DT120 ODT 在 MDD 的第三期臨牀計畫與 Emerge 試驗（DT120-310）的試驗設計。與我們在 GAD 的關鍵性試驗類似，我們預期 Emerge 也會包含兩部分：第一部分為 12 週、隨機、雙盲、安慰劑控制、平行組試驗，評估 DT120 ODT 與安慰劑的療效與安全性；第二部分為 40 週的延長期，參與者將有資格接受 DT120 ODT 的開放標籤治療，但需符合特定的治療資格條件。Emerge 已完全招募 149 名參與者，隨機 1:1 接受 DT120 ODT 100 µg 或安慰劑。主要終點為 DT120 ODT 100 µg 與安慰劑在第 6 週時基線 Montgomery Åsberg 抑鬱量表（\"MADRS\"）分數的變化。2025 年 4 月，我們宣佈啟動 Emerge，預期在 2026 年第二季後半獲得初步結果（第一部分結果）。",
+    "我們在 MDD 的第二個第三期臨牀試驗 Ascend（DT120-311）的初始試點於 2026 年第一季啟動，預期在 2026 年第二季初期對首名參與者進行給藥。Ascend 的設計與 Emerge 相似，包含 12 週、隨機、雙盲、安慰劑控制、平行組設計，評估 DT120 ODT 與安慰劑的療效與安全性（第一部分）；以及第二部分，包含 40 週的延長期，參與者將有資格接受 DT120 ODT 的開放標籤治療。Ascend 預期招募約 175 名參與者（隨機 2:1:2 接受 DT120 ODT 100 µg、DT120 ODT 50 µg 或安慰劑）。主要終點為 DT120 ODT 100 µg 與安慰劑在第 6 週時基線 MADRS 分數的變化。",
+    "我們的第二個領先產品候選藥物 DT402，也稱為 R(-)-MDMA，是我們專利的 R-對映體 3,4-甲基烯二氧乙醯胺，我們正在開發用以治療成人自閉症譜系障礙（ASD）。MDMA 是一種合成分子，常被稱為共情藥物，因為它被報導能增加感受連接與同情心。R(-)-MDMA 的預臨牀研究顯示其急性促社會與共情效果，而其減少的多巴胺活性則顯示其可能具有較少刺激活性、神經毒性、高溫症與濫用潛力，與 Racemic MDMA 或 S(+)-對映體相比。2024 年 10 月，我們完成 DT402 的第一項臨牀試驗，為成人健康志願者進行單劑量遞增試驗。來自這項第一期臨牀試驗的數據幫助我們特徵化 DT402 的耐受性、藥動學與藥效學。",
+    "我們於2025年第四季啟動DT402在自閉症譜系障礙（ASD）患者中的Phase 2a臨牀試驗。此研究為單劑、開放標籤試驗，用以評估DT402在治療ASD成人患者核心社交化與溝通症狀的早期療效跡象。此試驗預計招募最多20名參與者。此試驗的目標與終點設計用以說明DT402在ASD成人患者中的藥物動力學與臨牀效果，包括對多種功能性生物指標的影響。我們預計於2026年取得此Phase 2a試驗的初步數據。",
+    "除了我們臨牀階段的產品候選藥物外，我們也在探索其他計畫，包括透過外部合作夥伴，以擴展我們的藥物開發管道並拓展我們主要產品候選藥物的潛在應用範疇。這些研究與開發計畫包括現有與新產品候選藥物及研究化合物的非臨牀、臨牀前及人體臨牀試驗，與我們合作夥伴共同進行。",
+    "我們的業務建立在支持使用新型精神作用物質治療多種腦健康疾病的研發成果基礎之上。對於所有產品候選藥物，我們預計進行研究與開發，並在產品候選藥物可能獲得核准後進行市場推廣，依循美國食品藥物管理局（FDA）及其他司法管轄區的相關規範。這包括，但不僅限於，與研究科學家進行臨牀試驗、使用內部與外部臨牀藥物開發團隊、依照現行良好製造規範（\"cGMP\"）生產與供應產品候選藥物，並依照FDA及其他司法管轄區的相關規範進行所有試驗與開發。",
+    "我們於2026年1月9日將公司名稱從Mind Medicine（MindMed）Inc. 更名為Definium Therapeutics, Inc.。我們於2026年1月12日將我們的 wholly-owned 子公司名稱從Mind Medicine, Inc. 更名為Definium Therapeutics US, Inc.。配合公司名稱變更，我們於2026年1月15日開始在納斯達克（Nasdaq）以符號\"DFTX\"交易。",
+    "我們於2010年根據不列顛哥倫比亞省法律註冊成立。我們的 wholly-owned 子公司Definium Therapeutics US, Inc.（\"Definium US\"）於2019年在特拉華州註冊成立。在2020年2月27日之前，我們的業務均透過Definium US進行。",
+    ""
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司財務狀況相關的風險及對額外資金的需求",
+    "本公司為臨牀階段的藥物公司，自成立以來已產生顯著的淨虧損，且預期在可預見的未來仍將持續產生顯著的淨虧損。",
+    "本公司從未產生收入，且可能永遠無法實現盈利。",
+    "籌措額外資金可能會導致現有股東的股權稀釋，限制本公司運作或要求本公司在不利條件下放棄產品候選藥物的權利。",
+    "與本公司產品候選藥物之發現、開發及商業化相關的風險",
+    "監管機構可能要求提供更多資料，包括關於本公司產品候選藥物濫用潛力的資料，才能允許本公司啟動臨牀試驗，或在本公司提交任何未來市場許可申請前批准該申請。"
+   ],
+   "paragraphs": [
+    "下列資訊說明了可能導致我們實際結果與本年度報告中所做之向前看聲明及我們未來可能做出之向前看聲明有重大差異的風險因素。您應謹慎考量下列所描述的風險，以及本年度報告中其他資訊，包括我們的財務報表及其相關附註，以及標題為「管理層對財務狀況與營運結果之討論與分析」的章節，以及我們其他公開申報文件，以評估我們的業務。上述任何事件或發展之發生，可能對我們的業務、財務狀況、營運結果與成長前景造成傷害。在這種情況下，我們普通股的市場價格可能下跌。此外，尚有其他風險與不確定性，目前我們尚未知悉或認為其為重大，也可能影響我們的業務運作及普通股的市場價格。",
+    "我們的營運歷史有限，尚未完成任何關鍵臨牀試驗，且目前尚無產品獲得商業銷售許可，這可能使您難以評估我們目前的業務與成功與可行性的可能性。",
+    "我們是一家臨牀階段的生物科技公司，營運歷史有限，因此您難以評估我們的業務與前景。我們於2019年開始營運，目前尚無產品獲得商業銷售許可，且尚未產生任何收入。藥物開發是一項高度不確定的任務，並涉及相當程度的風險。我們目前最進展的開發候選藥物為DT120 ODT。我們於2024年12月啟動了GAD的第三期臨牀試驗計畫，並於2025年4月啟動了MDD的第三期臨牀試驗計畫。",
+    "我們尚未證明我們能成功完成任何關鍵臨牀試驗、取得市場許可、製造商業規模的產品或委請第三方代為製造，或進行必要的銷售與行銷活動以實現產品商業化。因此，您可能難以準確預測我們的成功與可行性，這比我們有更長的營運歷史時更困難。",
+    "此外，我們可能面臨未預見的費用、困難、複雜問題、延誤及其他已知與未知的因素與風險，這些常見於快速發展領域的臨牀階段生物科技公司。我們也可能需要從以研究與開發為重點的公司，轉型為能支援商業活動的公司。我們尚未證明我們能成功克服這些風險與困難，或完成此種轉型。若我們未能妥善處理這些風險與困難，或成功完成此種轉型，將會對我們的業務造成傷害。",
+    "本公司自設立以來已產生顯著的淨虧損，至今尚未產生任何收入，並主要透過公開發行及私募發行本公司普通股及認購普通股權，以及與 K2 HealthVentures LLC（\"K2HV\"）的信用融資安排來支應營運資金。本公司於 2025 年 12 月 31 日及 2024 年 12 月 31 日分別產生淨虧損 183.8 百萬美元及 108.7 百萬美元，且截至 2025 年 12 月 31 日，本公司累積虧損為 582.7 百萬美元。本公司歷史虧損主要來自於與研究與開發活動相關的成本，以及與營運相關的一般及行政費用。本公司意圖持續進行研究與開發、臨牀前測試、臨牀試驗、法規合規、市場准入、商業化及業務發展活動，這些活動加上預期的一般及行政費用，將導致未來至少數年內產生進一步顯著虧損。本公司產品候選藥物目前處於不同臨牀、臨牀前、發現及研究階段。因此，本公司預期將需數年時間，若能實現的話，纔能有商業化產品並從產品銷售中產生收入。即使本公司成功取得某項或某些產品候選藥物的市場批准並進行商業化，本公司預期仍將持續產生大量研究與開發及其他費用，以發現、開發及推廣其他潛在產品。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

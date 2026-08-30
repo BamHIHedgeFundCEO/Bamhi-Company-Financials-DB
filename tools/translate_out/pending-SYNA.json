@@ -1,0 +1,191 @@
+{
+ "ticker": "SYNA",
+ "cik": "0000817720",
+ "accession": "0000817720-26-000055",
+ "form": "10-K",
+ "reportDate": "2026-06-27",
+ "sections": {
+  "business": {
+   "headings": [
+    "Pending Merger with ON Semiconductor Corporation",
+    "Target Markets and Products",
+    "Acquisitions",
+    "Our Strategy",
+    "Research and Development",
+    "Sales and Marketing",
+    "Manufacturing",
+    "Intellectual Property Rights",
+    "Human Capital and Workforce Management",
+    "Corporate Responsibility",
+    "Information About Our Executive Officers",
+    "Name Age Position",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Synaptics designs and delivers artificial intelligence (\"AI\")-native edge solutions that bring AI closer to end users and transform how we engage with intelligent, connected devices, whether at home, at work, or on the move. We are a strategic partner for many global original equipment manufacturers (\"OEM\"), offering standard and custom silicon and software platforms for Edge AI, Physical AI, wireless connectivity and human interface technologies. Our Synaptics Astra™ family of processors and wireless solutions combine embedded compute, connectivity, and multimodal sensing to support intuitive, secure, and seamless experiences. Our touch, biometrics, AI-enabled wireless connectivity, video, vision, audio, and speech processing solutions support the next generation of intelligent devices that enhance how people live, work, and interact with technology.",
+    "We were initially incorporated in California in 1986 and were re-incorporated in Delaware in 2002. Our fiscal year is the 52- or 53-week period ending on the last Saturday in June. The fiscal years presented in this report are the 52-week periods ended June 27, 2026 and June 28, 2025, and the 53-week period ended June 29, 2024.",
+    "On June 25, 2026, we entered into an Agreement and Plan of Reorganization (the \"Merger Agreement\"), by and among Synaptics, ON Semiconductor Corporation, a Delaware corporation (\"Parent\" or \"onsemi\"), and Sonic Acquisition Corp., a Delaware corporation and wholly-owned subsidiary of Parent (\"Merger Sub\"), pursuant to which Merger Sub will merge with and into Synaptics (the \"Merger\"), with Synaptics surviving as a wholly-owned subsidiary of Parent (the \"Surviving Corporation\"). Subject to the terms and conditions set forth in the Merger Agreement, including approval of the Merger and the Merger Agreement at a special meeting of Synaptics stockholders, at the effective time of the Merger (the \"Effective Time\"), by virtue of the Merger, each share of Synaptics common stock outstanding immediately prior to the Effective Time, subject to certain limited exceptions provided in the Merger Agreement, shall be converted into the right to receive 1.350 validly issued, fully paid and non-assessable shares of onsemi common stock, par value $0.01 per share (\"onsemi common stock\") (such number of shares of onsemi common stock per share of Synaptics common stock, the \"Exchange Ratio,\" and such consideration, the \"Merger Consideration\"). No fractional shares of onsemi common stock will be issued in connection with the Merger. Instead, any Synaptics stockholder who would otherwise be entitled to receive a fractional share of onsemi common stock will instead receive a cash payment (without interest) equal to such fraction multiplied by the \"Average Parent Stock Price,\" which is defined in the Merger Agreement as the average of the volume-weighted average trading prices per share of onsemi common stock on the Nasdaq Global Select Market on each of the five consecutive trading days ending on (and including) the trading day that is three trading days prior to the closing date (as reported by Bloomberg L.P. or another authoritative source mutually selected by the parties). The transactions contemplated by the Merger Agreement were unanimously approved by our Board of Directors, and the transaction is expected to close in mid-2027, subject to customary closing conditions, including approval by Synaptics stockholders and the receipt of required regulatory approvals.",
+    "We are a leader in human interface technologies, enabling innovative and intuitive user experiences across a wide range of intelligent devices. Our portfolio includes Edge AI processors, wireless connectivity, touch controllers, biometrics, voice, audio, and multimedia products built on extensive research and development (\"R&D\"), a broad intellectual property portfolio and established supply chain partnerships. Designed for Physical AI and robotics, edge AI, smart home, industrial and automotive, personal computers (\"PC\"), and mobile applications, our solutions combine ease of use, functionality, performance and aesthetics to help make digital lives more productive, secure and enjoyable.",
+    "We focus on three primary markets. Our product offerings within those target markets are as follows:",
+    "Our family of wireless connectivity solutions include advanced Wi-Fi®, Bluetooth®, Bluetooth Low Energy (\"BLE\"), Zigbee, Thread, Matter, Global Positioning System (\"GPS\"), Global Navigation Satellite System (\"GNSS\"), and Ultra Low Energy (\"ULE\") to address broad Internet of Things (\"IoT\") applications. Our devices help users connect seamlessly to multiple devices, such as home automation, multimedia streamers, security sensors, surveillance cameras, wireless speakers, gaming systems, drones, printers, wearable and fitness devices, and numerous other applications requiring a wireless connection.",
+    "Our Synaptics Astra™ family of AI solutions include a scalable portfolio of intelligent edge processors designed to reduce latency, lower bandwidth usage and enhance security. Applications range from highly integrated microprocessor units (\"MPU\") to high-performance microcontroller units (\"MCU\") architected for AI-enabled edge systems. We also provide a standards-based open software framework, rapid prototyping kits, full-featured AI/machine learning (\"ML\") toolkits and integration with Synaptics' Wi-Fi® and Bluetooth® connectivity solutions. Our Astra Machina™ Foundation Series Modular development kits support the Synaptics SL-Series of high-performance embedded processors as well as the Synaptics Astra Machina™ Micro development kit for the SR100 Series of MCUs.",
+    "Integrated Solutions with Astra®, Connectivity, and Human Interface Products",
+    "By combining the AI processing power of the Astra® family with the robust wireless capabilities of the wireless connectivity portfolio and our Human Interface products, Synaptics delivers complete end-to-end solutions for intelligent, connected devices. This powerful integration enables OEMs to accelerate innovation across diverse IoT applications—such as smart home, industrial, Physical AI, robotics, consumer, and automotive—by leveraging low-latency AI processing at the edge alongside secure, seamless wireless connectivity. Whether deploying a voice-enabled smart assistant, a computer vision-enabled security device, or a multimodal sensor fusion system, developers can build faster using Synaptics' comprehensive hardware-software platforms, including modular development kits, open software frameworks, and optimized AI/ML toolchains.",
+    "Enterprise and Automotive Applications Markets Biometric Fingerprint",
+    "Our Natural ID® family of capacitive-based fingerprint identification products is designed to support security and user convenience across a wide range of devices, including notebook PCs, peripherals and automobiles. Natural ID® is designed for seamless integration into end products and is available in multiple form factors, colors and materials. These options give manufacturers the flexibility to position sensors on the front, back or side of devices in ways that support security, usability, and alignment with their aesthetic and functional design goals.",
+    "Our video interface solutions—featuring DisplayLink® and DisplayPort® portfolio—are designed to simplify connectivity to external displays while maintaining broad compatibility and performance. Supporting the latest versions of major protocols, connectors and operating systems, our solutions help manufacturers with flexibility to enable seamless, high-quality video experiences across a wide range of devices. Application for these devices is broadening beyond PC peripherals into new categories such as humanoids, robotics, and extended reality.",
+    "Our Touch controller solutions bring human-like touch capabilities to robotics and humanoid use cases. By combining high-sensitivity capacitive sensing with real-time Edge AI processing delivered by the Synaptics Astra™ processor platform, our solutions enable a range of interactions, from detecting subtle textures to securely gripping delicate or heavy objects. Additionally, our high-speed interface technology helps transmit high-quality video with low latency and is designed to support 4K displays for robotics and humanoid applications.",
+    "Our innovative solutions, including integrated touch and display, local dimming and driver sensing technologies, are designed to help manufacturers create smarter, more intuitive user experiences. These technologies enable sleeker designs, enhanced visual performance and improved driver awareness and safety, helping manufacturers deliver feature-rich products that may offer a competitive advantage and improved user experiences."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Proposed Merger between Synaptics and onsemi",
+    "Uncertainty about the Merger may adversely affect relationships with our customers, suppliers, service providers, partners, consultants, and other business counterparties, whether or not the Merger is completed.",
+    "Restrictions under the Merger Agreement may adversely affect our business and operations.",
+    "Litigation may arise in connection with the Merger, which could be costly, prevent consummation of the Merger, divert management's attention and otherwise materially harm our business.",
+    "Shares of onsemi common stock to be received by our stockholders as a result of the Merger will have different rights from shares of our common stock.",
+    "Risks Related to Our Industry and Business",
+    "Changes to international trade policies, export controls, and foreign operations expose us to legal, regulatory, and operational risks.",
+    "We face intense competition and our success depends on our ability to deliver innovative, high-performance solutions.",
+    "We are exposed to risks related to the use of artificial intelligence by us and our competitors.",
+    "We depend on third parties for manufacturing and supply, and face risks from inventory imbalances, demand uncertainty, and component shortages that may disrupt our operations and reduce margins.",
+    "Defects, security vulnerabilities, or performance failures in our products could result in liability, reputational harm, and lost revenue opportunities.",
+    "Foreign exchange rate volatility could adversely affect our margins, pricing and competitiveness.",
+    "We face risks associated with security breaches or cyberattacks.",
+    "Risks Related to Other Acquisitions and Strategic Alliances"
+   ],
+   "paragraphs": [
+    "Investing in our securities involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information in this report, including under the headings \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and \"Business\" and the consolidated financial statements and the related notes included elsewhere in this report, before making an investment decision. The risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties that we are unaware of, or that we currently believe are not material, may also become important factors that materially and adversely affect our business. If any of the following risks actually occurs, our business operations, financial condition, operating results and prospects could be materially and adversely affected. The market price of our securities could decline due to the materialization of these or any other risks, and you could lose part or all of your investment.",
+    "The completion of the proposed Merger with onsemi may be delayed or not occur at all for a variety of reasons, including that the Merger Agreement is terminated, and the failure to complete the Merger could adversely affect our business, financial condition and results of operations and the market price of our common stock.",
+    "The completion of the proposed Merger with onsemi is subject to customary closing conditions, some of which are beyond our and onsemi's control, including (1) the approval of the Merger Agreement by the holders of a majority of the shares of our common stock outstanding and entitled to vote (the \"required Stockholder Vote\"), (2) the expiration or early termination of the applicable waiting period under the Hart-Scott-Rodino Antitrust Improvements Act of 1976 (the \"HSR Act\"), and the approval of the Merger under certain other antitrust and foreign investment regimes, (3) the absence of any order, injunction or law of certain jurisdictions prohibiting the Merger, (4) the effectiveness of the registration statement pursuant to which shares of onsemi common stock to be issued in the Merger will be registered with the SEC, (5) the approval for listing on the Nasdaq Global Select Market of shares of onsemi common stock to be issued in the Merger, (6) the accuracy of the other party's representations and warranties, subject to certain materiality and other standards set forth in the Merger Agreement, (7) compliance in all material respects with the other party's covenants and other obligations under the Merger Agreement, (8) the absence of a continuing material adverse effect with respect to each of us or onsemi, and (9) the receipt by each party of customary closing tax opinions regarding the intended tax treatment of the Merger. There can be no assurance that the Merger will be completed in the expected timeframe, or at all. Subject to the terms and conditions of the Merger Agreement, the parties have agreed to use reasonable best efforts to take all actions reasonably necessary to consummate the Merger, including obtaining all required or necessary consents, approvals or waivers from third parties, and cooperating to obtain the regulatory approvals necessary to complete the Merger.",
+    "The Merger Agreement may be terminated under certain circumstances, including (1) by either us or onsemi if the Merger is not completed by June 25, 2027, which date may be extended for up to three periods of three months each, in each case under certain circumstances (the \"End Date\"), (2) by either us or onsemi if any court or governmental authority of a specified jurisdiction has issued a final non-appealable order or injunction prohibiting the Merger, (3) by onsemi prior to the required Stockholder Vote if our Board of Directors fails to include in our proxy statement its recommendation to stockholders to vote in favor of the adoption of the Merger Agreement or changes its recommendation, (4) by us prior to the required Stockholder Vote in order to accept a Superior Proposal (as defined in the Merger Agreement) (subject to payment of a termination fee, described below), (5) by either us or onsemi if we fail to receive the required Stockholder Vote at our stockholder meeting (including any adjournments and postponements thereof), or (6) by either party if the other party materially breaches its covenants, or breaches its representations and warranties, in the Merger Agreement such that the applicable conditions to closing would not be satisfied, subject in certain cases to the right of the breaching party to cure the breach. We and onsemi may also terminate the Merger Agreement by mutual written consent.",
+    "Upon termination of the Merger Agreement, we, under specified circumstances, including termination by us to accept a Superior Proposal or by onsemi following a change in recommendation by our Board of Directors, will be required to pay onsemi a termination fee of $235.0 million (the \"Synaptics Termination Fee\"). Additionally, onsemi, under specified circumstances, including termination following an injunction arising in connection with certain antitrust or foreign investment laws, or failure to receive certain required regulatory approvals of specified governmental authorities by the End Date, will be required to pay us a regulatory termination fee of $320.0 million (the \"onsemi Regulatory Termination Fee\").",
+    "We and onsemi may also be subject to lawsuits or other demands challenging the Merger or certain disclosures made with respect thereto, and adverse rulings in these lawsuits, or the existence or pendency of these matters, may delay or prevent the Merger from being completed or require us or onsemi to incur significant costs to defend or settle these matters. Any delay in completing the Merger could cause us to fail to realize, or to be delayed in realizing, some or all of the benefits that we expect to achieve if the Merger is successfully completed within the expected time frame."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Forward-Looking Statements and Factors That May Affect Results",
+    "Introduction",
+    "Trends and Uncertainties",
+    "Results of Operations",
+    "2026 % of net sales 2025 % of net sales",
+    "Fiscal 2026 Compared with Fiscal 2025",
+    "Liquidity and Capital Resources",
+    "Critical Accounting Estimates",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis in conjunction with our financial statements and related notes contained elsewhere in this report. This discussion contains forward-looking statements that involve risks, uncertainties and assumptions. Our actual results may differ materially from those anticipated in these forward-looking statements as a result of a variety of factors, including those set forth elsewhere in this report and under \"Part I – Item 1A. Risk Factors.\"",
+    "In this section, we discuss the results of our operations and changes in financial condition for fiscal 2026 compared to fiscal 2025. Discussions of our fiscal 2024 items and year-to-year comparisons between our fiscal 2025 and 2024 that are not included in this Annual Report can be found in \"Part II – Item 7. Management's Discussion and Analysis of Financial Conditions and Results of Operations\" in our fiscal 2025 Annual Report on Form 10-K for the fiscal year ended June 28, 2025.",
+    "We design and deliver AI-native edge solutions that bring AI closer to end users and transform how we engage with intelligent, connected devices, whether at home, at work, or on the move. We are a strategic partner for many global OEMs, offering standard and custom silicon and software platforms for Edge AI, Physical AI, wireless connectivity and human interface technologies. Our Synaptics Astra™ family of processors and wireless solutions combine embedded compute, connectivity, and multimodal sensing to support intuitive, secure, and seamless experiences. Our touch, biometrics, AI-enabled wireless connectivity, video, vision, audio, and speech processing solutions support the next generation of intelligent devices that enhance how people live, work and interact with technology.",
+    "In fiscal 2026, we achieved revenue growth with net revenue increasing 11.4% to $1,197.2 million compared to $1,074.3 million in fiscal 2025. The growth was primarily driven by an increase in net revenue in our Core IoT product applications. Net revenue from Core IoT was $389.7 million, increasing 43.1% compared to $272.4 million a year ago, and included the contribution from our Broadcom transaction. This growth was fueled primarily by an increase in units sold coupled with an increase in average selling prices due to our product sales mix. Enterprise and Automotive net revenue was $641.1 million, increasing 5.1% compared to $610.1 million a year ago. The increase was primarily driven by higher unit sales, a better product mix, and increased license revenue from certain of our IP. Mobile net revenue was $166.4 million, decreasing 13.2% compared to $191.8 million a year ago, primarily due to lower average selling prices and a decrease in license revenue from certain of our IP.",
+    "Cash and cash equivalents at the end of fiscal 2026 and 2025 totaled $442.5 million and $391.5 million, respectively. During fiscal 2026, we returned $92.7 million to shareholders through repurchase of approximately 1.3 million shares under the share repurchase program.",
+    "Pending Merger with ON Semiconductor Corporation",
+    "On June 25, 2026, we entered into the Merger Agreement, by and among Synaptics, onsemi and Merger Sub, pursuant to which the Merger will be effected, with Synaptics surviving as a wholly-owned subsidiary of onsemi. Subject to the terms and conditions set forth in the Merger Agreement, at the Effective Time, by virtue of the Merger, each share of Synaptics common stock outstanding immediately prior to the Effective Time, subject to limited exceptions in the Merger Agreement, will be converted into the right to receive 1.350 validly issued, fully paid and non-assessable shares of common stock of onsemi. No fractional shares of onsemi common stock will be issued in connection with the Merger. Instead, any Synaptics stockholder who would otherwise be entitled to receive a fractional share of onsemi common stock will instead receive a cash payment (without interest) equal to such fraction multiplied by the \"Average Parent Stock Price,\" which is defined in the Merger Agreement as the average of the volume-weighted average trading prices per share of onsemi common stock on the Nasdaq Global Select Market on each of the five consecutive trading days ending on (and including) the trading day that is three trading days prior to the closing date (as reported by Bloomberg L.P. or another authoritative source mutually selected by the parties). The transaction is expected to close in mid-2027, subject to customary closing conditions, including approval by Synaptics stockholders and the receipt of required regulatory approvals.",
+    "As a global company, we are exposed to and impacted by global macroeconomic factors and geopolitical conditions including military conflicts (such as the ongoing conflict involving the United States, Israel, Iran and other countries in the Middle East and beyond), U.S. and foreign government policies, inflation, tariffs, interest rates, foreign exchange fluctuations, potential economic slowdowns, and evolving trade regulations and sanctions. These factors may affect our operating environment, costs and financial results.",
+    "The ongoing conflict in the Middle East has increased geopolitical tensions, including sanctions and restrictions affecting key transportation routes such as the Strait of Hormuz, contributing to volatility in global energy prices. As a result, we may experience disruptions to transportation routes and supply chains, including those involving third-party vendors, as well as higher transportation and logistics costs and broader inflationary pressures, which could adversely affect our revenue and gross margin. The extent and duration of these impacts remain uncertain, and further escalation and continued duration could materially and adversely affect our business and financial results.",
+    "Given that a significant portion of our sales and supply chain, including outsourced manufacturing, assembly and test operations, occurs outside of the United States, we are also exposed to, and impacted by, changes in international trade policies, particularly increased tariffs and other barriers or restrictions on trade between the United States and other countries, including China. Based on our current import and export practices, we believe our direct tariff exposure remains limited. However, some of our customers and suppliers may be affected depending on their own supply chain strategies and sourcing locations. We continue to monitor for any potential customer and supplier impacts, ranging from supply chain adjustments to changes in end demand. While the broader implications of these activities remain uncertain, based on our current lead times and order activity, we have not observed material changes in order patterns or timing due to tariffs, the ongoing conflict in the Middle East, or related geopolitical developments that would be likely to impact our near-term financial performance. We will continue to assess the potential short- and long-term effects of these developments on our financial and operational performance.",
+    "The continuing constrained availability and elevated pricing of certain memory components across the broader electronics supply chain have, at times, influenced the timing of orders for certain products, particularly for smaller customers. These conditions did not have a material impact on our results of operations during fiscal 2026; however, limited visibility into future availability, timing, increased associated costs, and the potential for these conditions to persist, could affect customer development timelines, purchasing behavior, production schedules, booking patterns, and the timing or visibility of orders in future periods. We continue to monitor these conditions and their potential impact on customer demand and ordering behavior.",
+    "The following sets forth certain of our consolidated statements of operations data for fiscal 2026 and 2025 along with comparative information regarding the absolute and percentage changes in these amounts (in millions, except percentages):",
+    "Enterprise and Automotive product applications $ 641.1 53.5 % $ 610.1 56.8 % Core IoT product applications 389.7 32.6 % 272.4 25.4 %",
+    "Mobile product applications 166.4 13.9 % 191.8 17.8 % Net revenue 1,197.2 100.0 % 1,074.3 100.0 %"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "待與 ON Semiconductor Corporation 合併",
+    "目標市場與產品",
+    "併購",
+    "本公司策略",
+    "研究與發展",
+    "銷售與行銷",
+    "製造",
+    "智慧財產權",
+    "人力資本與工作力管理",
+    "企業社會責任",
+    "關於我們高階主管之資訊",
+    "姓名 年齡 職位",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "Synaptics 開發並提供具備人工智慧（\"AI\"）本質的邊緣解決方案，將 AI 帶近終端使用者，並改變我們與智慧連線裝置互動的方式，無論是在家、在辦公室，或是在移動中。我們是許多全球原始設備製造商（\"OEM\"）的戰略夥伴，提供標準與客製化的晶片與軟體平台，用於邊緣 AI、物聯 AI、無線連線與人機介面技術。我們的 Synaptics Astra™ 系列處理器與無線解決方案結合嵌入式運算、連線與多模式感測，以支援直覺、安全且順暢的體驗。我們的觸控、生物特徵、AI 使能的無線連線、視訊、視覺、音訊與語音處理解決方案，支援下一代智慧裝置，提升人們生活、工作與與科技互動的方式。",
+    "我們最初於 1986 年在加州註冊成立，並於 2002 年重新註冊為德拉瓦州公司。我們的會計年度為 52 或 53 週的會計期間，結束於當年六月的最後一個星期六。本報告中所呈現的會計年度為 2026 年 6 月 27 日結束的 52 週會計期間、2025 年 6 月 28 日結束的 52 週會計期間，以及 2024 年 6 月 29 日結束的 53 週會計期間。",
+    "我們於 2026 年 6 月 25 日與 ON Semiconductor Corporation（德拉瓦州公司，\"Parent\" 或 \"onsemi\"）、以及 Sonic Acquisition Corp.（德拉瓦州公司，為 Parent 的全資子公司，\"Merger Sub\"）簽訂了重組協議（\"Merger Agreement\"），根據此協議，Merger Sub 將與 Synaptics 合併（\"Merger\"），Synaptics 將作為 Parent 的全資子公司存續（\"Surviving Corporation\"）。根據 Merger Agreement 的條款與條件，包括 Synaptics 股東大會對 Merger 及 Merger Agreement 的批准，於 Merger 生效時間（\"Effective Time\"）時，根據 Merger，每持有 Synaptics 普通股一股，將可換取 1.350 份有效發行、完全繳足且無權要求補償的 onsemi 普通股（\"onsemi 普通股\"），每股面值 0.01 美元（\"onsemi 普通股\"）（此換股比率，稱為 \"Exchange Ratio\"，此對價，稱為 \"Merger Consideration\"）。於 Merger 期間不會發行 onsemi 普通股的零股。相反地，任何持有 Synaptics 普通股的股東，若根據 Merger 應得零股 onsemi 普通股，將會收到現金（無利息）作為補償，金額為該零股數量乘以 \"Average Parent Stock Price\"，此價格在 Merger Agreement 中定義為 onsemi 普通股在納斯達克全球選選市場上，於交易日為 closing date 前三個交易日的五個連續交易日中，每交易日的成交量加權平均交易價格的平均值（如 Bloomberg L.P. 或雙方共同選擇的其他權威來源所報導）。Merger Agreement 中的交易已獲得我們董事會的一致批准，預計於 2027 年中完成交易，但需符合常見的交易條件，包括 Synaptics 股東的批准與取得必要的監管許可。",
+    "我們是人機介面技術的領導者，能為廣泛的智慧裝置提供創新且直覺的使用者體驗。我們的產品組合包括邊緣 AI 處理器、無線連線、觸控控制器、生物特徵、語音、音訊與多媒體產品，這些產品建立在廣泛的研究與發展（\"R&D\"）、廣泛的智慧財產權組合與已建立的供應鏈合作夥伴關係之上。這些解決方案設計用於物聯 AI 與機械人、邊緣 AI、智慧家庭、工業與汽車、個人電腦（\"PC\"）與移動應用，結合易用性、功能性、效能與美觀，以幫助人們的數位生活更有效率、更安全且更愉快。",
+    "我們專注於三個主要市場。我們在這些目標市場中的產品組合如下：",
+    "我們的無線連線解決方案系列包括先進的 Wi-Fi®、Bluetooth®、Bluetooth Low Energy（\"BLE\"）、Zigbee、Thread、Matter、全球定位系統（\"GPS\"）、全球導航衛星系統（\"GNSS\"）與超低能耗（\"ULE\"），以應對廣泛的 Internet of Things（\"IoT\"）應用。我們的裝置協助用戶無縫連接到多種裝置，例如家庭自動化、多媒體串流器、安全感測器、監視攝影機、無線喇叭、遊戲系統、無人機、印表機、可穿戴與健身裝置，以及許多其他需要無線連線的應用。",
+    "我們的 Synaptics Astra™ 系列 AI 解決方案包括一套可擴展的智慧邊緣處理器組合，設計用以降低延遲、減少頻寬使用並提升安全性。應用範圍從高度整合的微處理器單元（\"MPU\"）到為 AI 使能邊緣系統設計的高性能微控制器單元（\"MCU\"）。我們也提供基於標準的開放軟體框架、快速原型開發套件、完整的 AI/機器學習（\"ML\"）工具組，以及與 Synaptics 的 Wi-Fi® 與 Bluetooth® 連線解決方案整合。我們的 Astra Machina™ Foundation Series 模組化開發套件支援 Synaptics SL-Series 的高性能嵌入式處理器，以及 Synaptics Astra Machina™ Micro 開發套件，用於 SR100 系列的 MCU。",
+    "整合解決方案與 Astra®、連線與人機介面產品",
+    "透過將 Astra® 系列的 AI 處理能力與無線連線產品組合的強大無線通訊能力，以及我們的使用者介面產品結合，Synaptics 提供完整的端到端解決方案，用以支援智慧型、連網裝置。這種強大的整合使 ODM 能夠加速創新，應用於多樣化的 IoT 產品—例如智慧家庭、工業、物聯網、消費性、以及汽車等領域—透過在邊緣端進行低延遲的 AI 處理，並搭配安全、無縫的無線連線。無論是部署語音啟動的智慧助理、電腦視覺啟動的安全裝置，或是多模式感測器融合系統，開發者皆可透過 Synaptics 的完整硬體-軟體平台，包括模組化開發套件、開放軟體框架以及最佳化的 AI/ML 工具鏈，來加快開發速度。",
+    "企業與汽車應用市場 生物特徵指紋辨識",
+    "我們的 Natural ID® 系列基於電容式指紋辨識產品，設計用以支援廣泛裝置的保安與使用者便利性，包括筆記型電腦、外設裝置與汽車。Natural ID® 設計用以無縫整合至最終產品中，並提供多種外型、顏色與材質選擇。這些選擇讓製造商能根據裝置的前、後或側面，以符合保安、易用性與其美學與功能設計目標的方式，靈活地安裝感測器。",
+    "我們的視訊介面解決方案—採用 DisplayLink® 與 DisplayPort® 產品組合—設計用以簡化與外部顯示裝置的連線，同時維持廣泛的相容性與性能。支援主要協議、連接器與作業系統的最新版本，我們的解決方案幫助製造商擁有靈活性，以實現無縫、高品質的視訊體驗，應用於廣泛的裝置。這些裝置的應用範疇正從 PC 外設裝置擴展至新興類別，例如人形機器人、機械人以及擴增實境。",
+    "我們的觸控控制器解決方案為機械人與人形機器人應用帶來類似人類的觸控能力。透過將高靈敏度電容感測與 Synaptics Astra™ 處理器平台提供的即時邊緣 AI 處理結合，我們的解決方案可實現多種互動，從偵測細微紋路到安全地抓取易碎或沉重物件。此外，我們的高速介面技術有助於傳送高品質視訊且延遲低，並設計用以支援機械人與人形機器人的 4K 顯示器。",
+    "我們的創新解決方案，包括整合觸控與顯示、局部調光與駕駛感測技術，設計用以協助製造商創造更智慧、更直覺的使用者體驗。這些技術可實現更輕薄的設計、增強的視覺表現與改善的駕駛者意識與安全性，協助製造商推出功能豐富的產品，可能提供競爭優勢與改善的使用者體驗。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'original': 'Forward-Looking Statements and Factors That May Affect Results', 'translated': '展望性陳述與可能影響結果的因素'}",
+    "{'original': 'Introduction', 'translated': '導言'}",
+    "趨勢與不確定性",
+    "營運成果",
+    "2026 年淨銷售額佔比 2025 年淨銷售額佔比",
+    "會計年度 2026 與會計年度 2025 比較",
+    "流動性及資本資源",
+    "關鍵會計估計",
+    "{'original': 'Recent Accounting Pronouncements', 'translated': '最近會計準則公告'}"
+   ],
+   "paragraphs": [
+    "您應配合閱讀下列討論與分析，並與我們的財務報表及相關附註說明，內容載於本報告其他部分。此討論包含前瞻性陳述，涉及風險、不確定性與假設。我們實際結果可能與這些前瞻性陳述所預期的有重大差異，原因可能是多種因素，包括本報告及「第一部分–第1A項. 風險因素」中所列舉的其他因素。",
+    "本節中，我們討論我們的營運結果與財務狀況在財務年度2026年與財務年度2025年的比較。有關我們財務年度2024年的項目及財務年度2025年與2024年之間的年對年比較，未包含於本年度報告中，可參閱「第二部分–第7項. 管理層對財務狀況與營運結果的討論與分析」於我們財務年度2025年的年度報告，格式為10-K，財務年度截至2025年6月28日。",
+    "我們設計並提供AI原生的邊緣解決方案，將AI更接近終端用戶，並改變我們與智能、連線裝置互動的方式，無論是在家、在辦公室，或是在移動中。我們是許多全球OEM的戰略夥伴，提供標準與客製化的晶片與軟體平台，用於邊緣AI、物聯網AI、無線連線與人機介面技術。我們的Synaptics Astra™系列處理器與無線解決方案結合嵌入式運算、連線性與多模式感測，以支援直覺、安全且順暢的體驗。我們的觸控、生物辨識、AI驅動的無線連線、視訊、視覺、音訊與語音處理解決方案，支援下一代智能裝置，提升人們生活、工作與與科技互動的方式。",
+    "在會計年度 2026 年，本公司實現營業收入成長，淨營業收入增加 11.4% 至 1,197.2 百萬美元，較會計年度 2025 年的 1,074.3 百萬美元成長。此成長主要由本公司 Core IoT 產品應用的淨營業收入增加所驅動。Core IoT 的淨營業收入為 389.7 百萬美元，較一年前的 272.4 百萬美元成長 43.1%，並包含本公司 Broadcom 交易的貢獻。此成長主要由銷售單位數增加以及平均銷售價格因產品銷售組合而提高所推動。企業與汽車部門的淨營業收入為 641.1 百萬美元，較一年前的 610.1 百萬美元成長 5.1%。此成長主要由銷售單位數增加、產品組合改善以及部分智慧財產權的授權收入增加所驅動。行動部門的淨營業收入為 166.4 百萬美元，較一年前的 191.8 百萬美元減少 13.2%，主要由於平均銷售價格下降以及部分智慧財產權的授權收入減少。",
+    "財務年度2026年與2025年期末的現金與現金等價物總計為442.5 百萬美元與391.5 百萬美元。在財務年度2026年，我們透過股票回購計畫，回饋約1.3 百萬股，總計回饋92.7 百萬美元給股東。",
+    "待完成與ON Semiconductor Corporation的合併",
+    "於2026年6月25日，我們與onsemi及Merger Sub簽訂合併協議，根據協議，將進行合併，Synaptics將成為onsemi的全資子公司。根據合併協議的條款與條件，於生效時間，根據合併，每持有Synaptics普通股的股東（除協議中有限例外情況外），將取得權利，可獲得1.350股有效發行、完全繳足且無權要求追加出資的onsemi普通股。不會發行onsemi普通股的分數股。相反，任何原本應獲得onsemi普通股分數股的Synaptics股東，將獲得現金支付（不計利息），金額為該分數乘以「母公司股票價格」，此價格在合併協議中定義為onsemi普通股在納斯達克全球選選市場上，於閉市日前三個交易日（包括該日）的五個連續交易日中，每交易日的成交量加權平均交易價格的平均值（如由Bloomberg L.P.或雙方共同選擇的其他權威來源所報導）。預期交易將於2027年中完成，視常規關閉條件而定，包括Synaptics股東的批准與取得必要的監管批准。",
+    "作為一家全球公司，我們受到全球總體經濟因素與地緣政治條件的影響，包括軍事衝突（如美國、以色列、伊朗及其他中東國家及更廣泛地區的持續衝突）、美國與外國政府政策、通貨膨脹、關稅、利率、外匯波動、潛在經濟減速，以及不斷演變的貿易規則與制裁。這些因素可能影響我們的營運環境、成本與財務結果。",
+    "中東地區持續的衝突已提高地緣政治緊張局勢，包括制裁與限制措施，影響關鍵運輸路線如霍爾木茲海峽，導致全球能源價格波動。因此，我們可能面臨運輸路線與供應鏈中斷，包括涉及第三方供應商的運輸路線，以及更高的運輸與物流成本與更廣泛的通貨膨脹壓力，這可能會對我們的營業收入與毛利率造成不利影響。這些影響的範圍與持續時間仍不確定，進一步升級與持續時間的延長可能對我們的業務與財務結果造成重大且不利的影響。",
+    "由於我們銷售與供應鏈，包括委外製造、組裝與測試作業，有相當大一部分發生在美國境外，因此我們也面臨並受國際貿易政策變動的影響，特別是美國與其他國家之間增加的關稅與其他貿易障礙或限制措施，包括中國。根據我們目前的進出口作業方式，我們認為我們的直接關稅風險仍屬有限。然而，部分客戶與供應商可能受到影響，這取決於他們自身的供應鏈策略與來源地。我們持續監測任何潛在的客戶與供應商影響，範圍從供應鏈調整到終端需求的變化。雖然這些活動的廣泛影響仍不確定，根據我們目前的交貨時間與訂單活動，我們尚未觀察到因關稅、中東地區持續衝突或相關地緣政治發展而產生的重大訂單模式或時間變動，這可能會影響我們近期的財務表現。我們將持續評估這些發展對我們財務與運營表現的潛在短期與長期影響。",
+    "電子產品供應鏈中某些記憶體零組件的供應受限與價格上漲，有時會影響某些產品的訂單時間，特別是對較小的客戶而言。這些情況在財務年度2026年並未對我們的營運結果造成重大影響；然而，未來供應的可見度有限、時間延後、相關成本增加，以及這些情況可能持續存在的潛在風險，可能會影響客戶的開發時程、採購行為、生產排程、訂單模式以及未來期間的訂單時間或可見度。我們持續監測這些情況及其對客戶需求與採購行為的潛在影響。",
+    "以下為我們財務年度2026年與2025年的合併營運損益資料，以及這些金額的絕對值與百分比變動比較（以百萬美元為單位，百分比除外）：",
+    "企業與汽車產品應用 641.1 53.5 % 610.1 56.8 % 核心物聯網產品應用 389.7 32.6 % 272.4 25.4 %",
+    "行動產品應用 166.4 13.9 % 191.8 17.8 % 營業收入 1,197.2 100.0 % 1,074.3 100.0 %"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與 Synaptics 與 onsemi 合併提案相關的風險",
+    "對合併的不確定性可能不利於我們與客戶、供應商、服務提供者、合作夥伴、顧問及其他商業對手的關係，無論合併是否完成。",
+    "根據合併協議的限制可能不利於我們的業務與運作。",
+    "與合併相關的訴訟可能產生，這可能會導致成本增加、阻礙合併完成、分散管理層的注意力，並以其他方式嚴重損害我們的業務。",
+    "我們股東因合併而獲得的 onsemi 普通股將具有與我們普通股不同的權利。",
+    "與我們產業與業務相關的風險",
+    "國際貿易政策、出口管制及海外業務的變動，使我們面臨法律、法規與運營風險。",
+    "我們面臨強烈競爭，我們的成功取決於我們提供創新、高性能解決方案的能力。",
+    "我們面臨與我們自身及競爭對手使用人工智慧相關的風險。",
+    "我們依賴第三方進行製造與供應，並面臨存貨不均、需求不確定性及零組件短缺等風險，這些風險可能幹擾我們的營運並降低毛利率。",
+    "我們產品的瑕疵、安全漏洞或效能失敗，可能導致我們承擔責任、損害聲譽及喪失營收機會。",
+    "外匯匯率波動可能不利地影響我們的毛利率、價格及競爭力。",
+    "我們面臨與安全事件或網路攻擊相關的風險。",
+    "與其他收購及戰略聯盟相關的風險"
+   ],
+   "paragraphs": [
+    "投資本公司的證券涉及高度風險。您應仔細考量下列所描述的風險與不確定性，並配合本報告中所有其他資訊，包括「管理層對財務狀況與營運結果之討論與分析」及「業務」等標題下列之內容，以及合併財務報表與相關附註，再做投資決定。下列所描述的風險與不確定性並非我們唯一面臨的風險。我們可能還會面臨其他未預見或目前認為不具重大性之風險與不確定性，這些因素可能對我們的業務產生重大且不利的影響。若任何下列風險實際發生，可能對我們的業務運作、財務狀況、營運結果與前景產生重大且不利的影響。本公司的證券價格可能因這些風險或其他風險的實現而下跌，您可能損失部分或全部投資。",
+    "與 onsemi 提議的合併交易可能因多種原因而延遲或完全無法完成，包括合併協議被終止，以及未能完成合併可能對我們的業務、財務狀況與營運結果產生不利影響，並影響我們普通股的市場價格。",
+    "與 onsemi 提議的合併交易需符合慣常的交割條件，其中一些條件超出我們與 onsemi 的控制範圍，包括 (1) 我們普通股持有人中過半數投票批准合併協議（「所需股東投票」），(2) 1976 年《哈特-斯科特-羅丁反壟斷改進法案》（「HSR 法案」）下適用的等待期屆滿或提前終止，以及在某些其他反壟斷與外資投資制度下獲得合併批准，(3) 某些司法管轄區未頒布禁止合併的命令、禁令或法律，(4) 根據 SEC 登記的註冊聲明有效性，以註冊 onsemi 普通股在合併中發行的股份，(5) onsemi 普通股在 Nasdaq 全球選択市場上市的批准，(6) 另一方的陳述與保證準確性，根據合併協議中規定的某些重大性及其他標準，(7) 另一方在合併協議中所有重大方面遵守其契約及其他義務，(8) 不存在對我們或 onsemi 產生重大不利影響的情況，(9) 每一方收到關於合併稅務處理的慣常交割稅務意見。無法保證合併會在預期時間內或完全完成。根據合併協議的條款與條件，雙方同意盡合理努力採取所有必要行動以完成合併，包括取得所有必要的第三方同意、批准或豁免，並合作取得完成合併所需的監管批准。",
+    "合併協議可能在某些情況下終止，包括 (1) 由我們或 onsemi 若合併未在 2027 年 6 月 25 日前完成，該日期可能延長至三個三個月的期間，視情況而定（「截止日期」），(2) 由我們或 onsemi 若某法院或指定司法管轄區的政府機構頒布終審不可上訴的命令或禁令禁止合併，(3) 由 onsemi 在所需股東投票前若我們董事會未在其代理聲明中推薦股東投票贊成採納合併協議，或更改其推薦，(4) 由我們在所需股東投票前為接受優越提議（根據合併協議定義）（需支付終止費用，如下所述），(5) 由我們或 onsemi 若我們未能在股東會議上獲得所需股東投票（包括任何延後或延期），或 (6) 由任一方若另一方重大違反其契約，或違反其陳述與保證，導致交割條件無法滿足，視情況而定，違約方有權補救違約。我們與 onsemi 也可能經雙方書面同意終止合併協議。",
+    "合併協議終止後，我們在特定情況下，包括我們因接受優越提議而終止，或 onsemi 因我們董事會推薦改變而終止，將需向 onsemi 支付終止費用 235.0 百萬美元（「Synaptics 終止費用」）。此外，onsemi 在特定情況下，包括因與反壟斷或外資投資法相關的禁令而終止，或未能在截止日期前獲得特定政府機構的必要監管批准，將需向我們支付監管終止費用 320.0 百萬美元（「onsemi 監管終止費用」）。",
+    "我們與 onsemi 也可能面臨挑戰合併或與之相關披露的訴訟或其他要求，這些訴訟中的不利判決，或這些事項的存在或待決，可能延遲或阻止合併完成，或要求我們或 onsemi 支付重大成本以辯護或解決這些事項。任何延遲完成合併可能導致我們無法實現，或延遲實現，部分或全部我們預期在預期時間內成功完成合併所獲得的效益。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

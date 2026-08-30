@@ -138,7 +138,7 @@
   "mdna": {
    "headings": [
     "會計年度結算日為6月30日",
-    "(金額單位為千美元，除每股稀釋淨收益外)",
+    "{'original': '(Dollar amounts in thousands, except diluted net income per share) 2026 2025 2024', 'translated': '(金額單位為千美元，除每股稀釋淨收入外) 2026 2025 2024'}",
     "最近發佈的會計準則",
     "營業收入與毛利率",
     "(金額單位為千美元) 2026 2025 2024 財年26 vs. 財年25 財年25 vs. 財年24",

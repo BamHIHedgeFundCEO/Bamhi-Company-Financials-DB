@@ -1,0 +1,161 @@
+{
+ "ticker": "GPRE",
+ "cik": "0001309402",
+ "accession": "0001309402-26-000019",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Business Strategy",
+    "Competitive Strengths",
+    "Risk Management and Hedging Activities",
+    "Recent Developments",
+    "Operating Segments",
+    "Plant Location Stated Production",
+    "Capacity (mmgy)",
+    "Facility Location On-Site Grain Storage Capacity",
+    "Our Competition",
+    "Regulatory Matters",
+    "Human Capital Resources",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "References to \"we,\" \"us,\" \"our,\" \"Green Plains,\" or the \"company\" refer to Green Plains Inc. and its subsidiaries.",
+    "Incorporated in Iowa, Green Plains is a renewable fuels and agricultural technology company focused on producing low-cost, low-CI ethanol and related co-products, including high protein feeds and corn oil from locally sourced corn. Our goal is to create value through an operational excellence focus including disciplined operations, cost leadership and carbon reduction as we position the company to benefit from expanding low-carbon fuel markets.",
+    "Founded in 2004, Green Plains now owns nine strategically located plants across the Midwest, capable of processing approximately 287 million bushels of corn annually, when all plants are operating. Today, our focus is on operating safely, efficiently and cost-effectively while reducing the CI of our products and maintaining financial flexibility to support long term growth. During the year, under new leadership, the company completed targeted asset sales, strengthened liquidity and reduced debt, positioning Green Plains to capture value from the next phase of the low-carbon transition. Our streamlined platform is positioned to create value through our focus on operational excellence, continuous improvement and disciplined capital allocation.",
+    "We group our business activities into the following two operating segments to manage performance:",
+    "•Ethanol Production. Our ethanol production segment includes the production, storage and transportation of ethanol, distillers grains, Ultra-High Protein and renewable corn oil at nine biorefineries in Illinois, Indiana, Iowa, Minnesota and Nebraska. At capacity, our nine facilities are capable of processing approximately 287 million bushels of corn per year and producing approximately 850 million gallons of ethanol, 2.0 million tons of distillers grains and Ultra-High Protein, and 296 million pounds of renewable corn oil, a low-carbon feedstock for biodiesel and renewable diesel. Our eight facilities currently in operation are capable of processing approximately 246 million bushels of corn and producing 730 million gallons of ethanol, 1.7 million tons of distillers grains and Ultra-High Protein, and 254 million pounds of renewable corn oil.",
+    "•Agribusiness and Energy Services. Our agribusiness and energy services segment includes grain procurement, storage and commodity marketing. We market our ethanol through a 3rd party and also sell and distribute our ethanol plant co-products, including distillers grains and corn oil. We also buy and sell natural gas and other commodities in various markets.",
+    "Ethanol is a valuable low CI oxygenate that comprises approximately 10.1% of the domestic surface transportation gasoline supply in the U.S. with the potential to grow with increased offering of higher blends, including E15 and E85. Additionally, government incentives to produce SAF through ATJ pathways could provide additional demand for low-CI ethanol for conversion to SAF. A critical step to significantly reduce the CI of ethanol is carbon capture technology, which we are deploying at multiple locations. SAF is a drop-in fuel, chemically identical to petroleum-based jet fuel and can be blended into the fuel supply at varying levels. There is an increasing focus on using this fuel to reduce the carbon footprint of air travel. SAF can be produced from vegetable and waste oil feedstocks, such as our renewable corn oil.",
+    "As part of our carbon reduction strategy, we successfully commenced CCS operations at our three Nebraska biorefineries, which are connected to the Trailblazer CO2 Pipeline. In addition we have committed our four Iowa and Minnesota facilities to Summit Carbon Solutions, which publicly projects operations commencing in 2028. CCS will lower GHG emissions through the capture of biogenic carbon dioxide at each of these biorefineries, significantly lowering their CI, in some cases by more than half. We financed the build and installation of carbon capture equipment at our three Nebraska plants with Tallgrass and expect to begin repayment during the first quarter of 2026. There are very few ethanol production facilities with carbon capture in place today, and we are among the first to produce lower-CI ethanol at scale. In addition, we are exploring alternative options for biogenic carbon dioxide utilization where pipeline transport or direct injection may not be feasible. Reducing the CI of our ethanol through CCS operations, improving efficiency at our ethanol plants and purchasing RECs is allowing us to benefit from state, federal and foreign clean fuel programs, including LCFS programs at the state level and federal tax credits under the IRA, including the Section 45Z Clean Fuel Production Credit, and could",
+    "position our low-carbon ethanol as a potential feedstock for ATJ pathways to produce SAF, other low carbon fuels and export markets.",
+    "We believe that global demand for protein will continue to rise, requiring larger amounts of high protein feed for pets, livestock and aquaculture. While faced with growing competition from expanded U.S. soy crushing capacity, we aim to utilize our protein capabilities to diversify our product offering and optimize our client base.",
+    "We began producing Ultra-High Protein using FQT's MSC™ technology in 2020 and have deployed this technology across four of our biorefinery locations to help meet growing demand for protein feed ingredients and low-carbon renewable corn oil to use as a feedstock for producing advanced biofuels such as renewable diesel, biodiesel and SAF, as the MSC™ technology enhances renewable corn oil yields. The biorefineries producing Ultra-High Protein, a feed ingredient with protein concentrations of 50% or greater and yeast concentrations of 25%, have also increased renewable corn oil yields.",
+    "In September 2022, we broke ground at our biorefinery in Shenandoah, Iowa, as the first location to deploy FQT's CST™ at commercial scale, and during 2024 the company successfully commissioned the CST™ equipment in the Shenandoah facility. FQT's CST™ allows for the production of both food and industrial grade dextrose at a dry mill ethanol plant to target applications in food production, in addition to serving as a feedstock for renewable chemicals and synthetic biology. The facility has a rated capacity of 60 million pounds of product per year. The facility has been idled since the first quarter of 2025 as the company focuses on optimizing its product mix to maximize current returns. The decision to temporarily pause operations presents an opportunity to make some related infrastructure improvements, which would require additional investment.",
+    "In July 2023, we announced a technology collaboration with Equilon Enterprises LLC, which allows us to use FQT's precision separation and processing technology with Shell Fiber Conversion Technology. The two technologies combine fermentation, mechanical separation and processing, and fiber conversion into one platform. This has the potential to liberate nearly all of the remaining distillers corn oil currently bound in the fiber fraction of the corn kernel, generate cellulosic sugars for production of low-carbon ethanol, and enhance and expand available high protein to produce high-quality ingredients for global pet, livestock and aquaculture diets. The large-scale demonstration facility is operational and technology and product development has continued to advance through 2025.",
+    "We are focused on managing commodity price risks, improving operational and transportation efficiencies and optimizing market opportunities to create an efficient platform with diversified income streams. Our competitive strengths include:"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to our Business and Industry"
+   ],
+   "paragraphs": [
+    "Our operations are subject to risks and uncertainties that could cause actual results to differ materially from those discussed in this Form 10-K and could have a material adverse impact on our financial results. The risks described below are not the only risks facing us. Additional risks and uncertainties not currently known or currently viewed to be immaterial may also materially and adversely affect business, financial condition or results of operations. These risks can be impacted by",
+    "factors beyond management's control. The following risk factors and the forward-looking statements contained elsewhere in this Form 10-K should be read carefully when evaluating us.",
+    "Risks Related to Carbon Capture and Sequestration Projects, and 45Z Production Tax Credits, Including Operational, Regulatory, and Market Uncertainties",
+    "We have seven facilities committed to carbon capture and sequestration (CCS) projects, including CCS projects now operating at three Nebraska locations. While the Summit projects have not commenced construction of CCS, with respect to the three Nebraska CCS projects, they could face a range of risks including but not limited to facility operational issues, that could delay, reduce, or suspend carbon capture operations and/or reduce tax benefits. Moreover, all eight of our operating ethanol plants likely will qualify for 45Z production tax credits under IRC Section 45Z with six positioned to claim credits in 2025 and all eight in 2026, based on current laws and regulations. After the 45Z tax credits have sunsetted, which is currently scheduled for 2029, the facilities with carbon capture that are owned by the company will be able to claim the 45Q tax credits, which are available for twelve years after the date of capture equipment construction completion.",
+    "While we strive to comply with all federal tax incentive qualification requirements for all of our carbon initiatives, i.e. those with CCS and those facilities that qualify for federal tax incentives without CCS—including prevailing wage and apprenticeship rules—we cannot provide assurance that we will be in compliance at all times or will not incur material costs or liabilities as a result. Moreover, even if operational and technical goals are achieved, the CI reductions we anticipate may not fully materialize. Regulatory CI modeling frameworks may change in ways that are outside our control and could reduce or eliminate the expected benefits of our carbon initiatives.",
+    "Federal policies, such as those enacted under the IRA, may also change. Future modifications could adversely impact corn-based ethanol from accessing key tax incentives, or otherwise reduce potential benefits. In addition, delays in issuing or finalizing regulations, regulations not consistent with industry expectation or the rescission of clean energy or carbon capture tax credits at the federal, state, or international levels, could negatively affect our carbon initiatives."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Industry Factors Affecting our Results of Operations",
+    "Critical Accounting Policies and Estimates",
+    "Recently Issued Accounting Pronouncements",
+    "Off-Balance Sheet Arrangements",
+    "Components of Revenues and Expenses",
+    "Results of Operations",
+    "Year Ended December 31,",
+    "Liquidity and Capital Resources"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis includes information management believes is relevant to understand and assess our consolidated financial condition and results of operations. This section should be read in conjunction with our consolidated financial statements, accompanying notes and the risk factors contained in this report.",
+    "Incorporated in Iowa, Green Plains is a renewable fuels and agricultural technology company focused on producing low-cost, low-CI ethanol and related co-products, including high protein feeds and corn oil from locally sourced corn. Our goal is to create value through an operational excellence focus including disciplined operations, cost leadership and carbon reduction as we position the company to benefit from expanding low-carbon fuel markets.",
+    "Founded in 2004, Green Plains now owns nine strategically located plants across the Midwest, capable of processing approximately 287 million bushels of corn annually, when all plants are operating. Today, our focus is to continue operating safely, efficiently and cost-effectively while reducing the CI of our products and maintaining financial flexibility to support long-term growth. During the year, under new leadership, the company completed targeted asset sales, strengthened liquidity and reduced debt, positioning Green Plains to capture value from the next phase of the low-carbon transition. Our streamlined platform is positioned to create value through our focus on operational excellence, continuous improvement and disciplined capital allocation.",
+    "Our carbon reduction strategy plays a central role in achieving lower CI biofuel production and participation in various clean fuel programs. Carbon capture and storage (\"CCS\") is operational at our three Nebraska facilities. These plants are connected to the Tallgrass Trailblazer CO2 Pipeline, while our Iowa and Minnesota locations are committed to CCS through Summit Carbon Solutions, which publicly projects operations commencing in 2028. CCS initiatives are expected to significantly lower CI across our platform. Further, the company has purchased RECs to lower CIs at certain plants. Based on current CI score estimates, all eight operational Green Plains facilities are expected to qualify for the Section 45Z Clean Fuel Production Credit beginning in 2026, with six facilities qualifying in 2025, inclusive of three non-CCS facilities. In addition, we are collaborating with global partners to explore innovative options for carbon use where pipeline transport or direct injection may not be feasible. Reducing the CI of our fuel ethanol could allow us to benefit from state and federal clean fuel programs, including LCFS and federal tax credits under the IRA and OBBB, and could position our low-carbon ethanol as a potential feedstock for ATJ pathways to produce SAF.",
+    "We have installed and are operating FQT MSC™ technology at four of our biorefineries. Through our value-added ingredients initiative, we produce Ultra-High Protein, a feed ingredient with protein concentrations of 50% or greater and yeast concentrations of 25%, and increase production of renewable corn oil. We successfully completed full scale 60% protein production runs using FQT's MSC™ system, which is our new specialty feed ingredient branded as Sequence™.",
+    "In September 2022, we broke ground at our biorefinery in Shenandoah, Iowa, as the first location to deploy FQT's CST™ at commercial scale, and during 2024 the company successfully commissioned the CST™ equipment in the Shenandoah facility. FQT's CST™ technology allows for the production of both food and industrial grade dextrose at a dry mill ethanol plant to target applications in food production, in addition to serving as a feedstock for renewable chemicals and synthetic biology. The facility has a rated capacity of 60 million pounds of product per year. The facility has been idled since the first quarter of 2025 as the company focuses on optimizing its product mix to maximize current returns. The decision to temporarily pause operations presents an opportunity to make some related infrastructure improvements, which would require additional investment.",
+    "Additionally, we have taken advantage of opportunities to divest certain assets to reallocate capital toward our current growth initiatives. We are focused on generating stable and growing operating margins through our business segments and risk management strategy.",
+    "SAF is a drop-in fuel, chemically identical to petroleum-based jet fuel and can be blended into the fuel supply at varying levels. There is an increasing focus on using this fuel to reduce the carbon footprint of air travel. SAF can be produced from vegetable and waste oil feedstocks, such as our renewable corn oil. Additionally, ATJ technologies are emerging and being commercialized that use low-CI ethanol as a feedstock to produce SAF.",
+    "In July 2023, we announced a technology collaboration with Equilon Enterprises LLC, which allows us to use FQT's precision separation and processing technology with Shell Fiber Conversion Technology. The two technologies will combine fermentation, mechanical separation and processing, and fiber conversion into one platform. This has the potential to create a new process to liberate nearly all available distillers corn oil currently bound in the fiber fraction of the corn kernel, generate cellulosic sugars for production of low-carbon ethanol, and enhance and expand available high protein to produce high-quality ingredients for global animal feed diets. The large-scale demonstration facility is operational and technology and product development has continued to advance through 2025.",
+    "Our profitability is highly dependent on commodity prices, particularly for ethanol, distillers grains, Ultra-High Protein, renewable corn oil, soybean meal, corn, and natural gas. Since market price fluctuations of these commodities are not always correlated, our operations may be unprofitable at times. We use a variety of risk management tools and hedging strategies to monitor price risk exposure at our ethanol plants and lock in favorable margins or reduce production when margins are compressed. Our profitability could be significantly impacted by price movements of the aforementioned commodities.",
+    "More information about our business, properties and strategy can be found under Item 1 – Business and a description of our risk factors can be found under Item 1A – Risk Factors.",
+    "According to the EIA, domestic ethanol production averaged 1.1 million barrels per day during both 2025 and 2024. Refiner and blender input volume was 893 thousand barrels per day for 2025, which was consistent with the 895 thousand barrels per day in 2024. Gasoline demand was consistent compared to the prior year at 8,802 thousand barrels per day in 2025. U.S. domestic ethanol ending stocks decreased by approximately 0.7 million barrels compared to the prior year to 22.9 million barrels as of December 31, 2025.",
+    "According to the USDA Foreign Agriculture Service, domestic ethanol exports through October 31, 2025, were approximately 1,750 mmg, which was 14% higher than 1,532 mmg for the same period of 2024. Canada was the largest export destination for U.S. ethanol accounting for approximately 37% of domestic ethanol export volume, driven in part by their national clean fuel standard. The Netherlands, the United Kingdom, India and Columbia accounted for approximately 16%, 9%, 9% and 6%, respectively, of U.S. ethanol exports. We currently estimate that net ethanol exports will range from 2.1 to 2.3 billion gallons in 2026, based on historical demand from a variety of countries and certain countries that seek to improve their air quality, reduce greenhouse gas emissions through low carbon fuel programs and eliminate MTBE from their own fuel supplies. Fluctuations in currencies relative to the U.S. Dollar could impact the U.S. ethanol competitiveness in the global market.",
+    "Protein and Vegetable Oil Supply and Demand"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "營運策略",
+    "競爭優勢",
+    "風險管理及對沖活動",
+    "近期發展",
+    "營運分部",
+    "廠區所在地 stated 生產",
+    "產能 (mmgy)",
+    "設施所在地 原料穀物儲存容量",
+    "{'original': 'Our Competition', 'translated': '本公司的競爭對手'}",
+    "{'original': 'Regulatory Matters', 'translated': '法規事項'}",
+    "{'original': 'Human Capital Resources', 'translated': '人力資本資源'}",
+    "{'original': 'Available Information', 'translated': '可取得資訊'}"
+   ],
+   "paragraphs": [
+    "提及 \"we,\" \"us,\" \"our,\" \"Green Plains,\" 或 \"company\" 係指 Green Plains Inc. 及其子公司。",
+    "Green Plains 為在愛荷華州登記的公司，為可再生能源燃料與農業科技公司，專注於生產低成本、低 CI 醇類燃料及相關副產品，包括高蛋白飼料與玉米油，來自當地來源的玉米。我們的目標是透過強化運營優異性，包括嚴謹運營、成本領導與碳減排，來創造價值，同時讓公司能受益於擴張中的低碳燃料市場。",
+    "Green Plains 於 2004 年成立，現擁有九座 strategically located 的設施，位於美國中西部，當所有設施運作時，每年可處理約 287 百萬蒲式耳的玉米。目前，我們的重點在於安全、高效且成本效益地運營，同時降低產品的 CI，並維持財務彈性以支持長期成長。在新領導團隊的帶領下，公司在本年度完成了目標資產出售，強化流動性並減少債務，使 Green Plains 能夠從低碳轉型的下一階段中獲取價值。我們簡化後的平台，透過強化運營優異性、持續改善與嚴謹資本配置，來創造價值。",
+    "我們將業務活動分為以下兩個運營分部以管理績效：",
+    "• 醇類燃料生產。我們的醇類燃料生產分部包括醇類燃料、穀物飼料、超高蛋白質及可再生能源玉米油的生產、儲存與運輸，於伊利諾州、印地安那州、愛荷華州、明尼蘇達州與內布拉斯加州的九座生物煉製廠進行。在滿載狀態下，我們的九座設施每年可處理約 287 百萬蒲式耳的玉米，並生產約 850 百萬加侖的醇類燃料、2.0 百萬噸的穀物飼料與超高蛋白質，以及 296 百萬磅的可再生能源玉米油，為生物柴油與可再生能源柴油提供低碳飼料。目前我們有八座運作中的設施，每年可處理約 246 百萬蒲式耳的玉米，並生產 730 百萬加侖的醇類燃料、1.7 百萬噸的穀物飼料與超高蛋白質，以及 254 百萬磅的可再生能源玉米油。",
+    "• 農業業務與能源服務。我們的農業業務與能源服務分部包括穀物採購、儲存與商品行銷。我們透過第三方行銷我們的醇類燃料，並銷售與分銷我們的醇類燃料生產副產品，包括穀物飼料與玉米油。我們也買賣天然氣及其他商品於各個市場。",
+    "醇類燃料是一種價值高的低 CI 氧化劑，約佔美國國內表面運輸汽油供應的 10.1%，隨著更高混合比例的推出，例如 E15 和 E85，其潛力將持續成長。此外，政府對透過 ATJ 路徑生產 SAF 的激勵措施，可能為低 CI 醇類燃料提供額外需求，用於轉換為 SAF。大幅降低醇類燃料 CI 的關鍵步驟是碳捕捉技術，我們已在多個地點部署此技術。SAF 是一種可直接使用的燃料，化學結構與石油基航空燃料相同，可根據不同比例混合至燃料供應中。目前對此燃料的關注度不斷增加，以減少航空旅行的碳足跡。SAF 可以從植物油與廢油原料製造，例如我們的可再生能源玉米油。",
+    "根據我們的碳減排策略，我們已成功啟動 CCS 運作於我們的三座內布拉斯加生物煉製廠，這些設施與 Trailblazer CO2 管線連接。此外，我們已承諾將我們的四座愛荷華州與明尼蘇達州設施與 Summit Carbon Solutions 連接，該公司預計於 2028 年開始運作。CCS 將透過捕捉生物來源二氧化碳，降低這些生物煉製廠的 GHG 排放，大幅降低其 CI，某些情況下可降低超過一半。我們透過 Tallgrass 融資建造並安裝碳捕捉設備於我們的三座內布拉斯加廠區，預計於 2026 年第一季開始償還。目前，擁有碳捕捉設施的醇類燃料生產廠區非常少，我們是首批能大規模生產低 CI 醇類燃料的公司之一。此外，我們正在探討替代的生物來源二氧化碳利用方式，當管道運輸或直接注入不可行時。透過 CCS 運作降低我們的醇類燃料 CI、提升乙醇廠的效率以及購買 RECs，使我們能受益於州、聯邦及國際的潔淨燃料計畫，包括州級的 LCFS 計畫與聯邦的 IRA 稅抵免，包括第 45Z 淨潔燃料生產抵免，以及可能",
+    "將我們的低碳乙醇定位為 ATJ 路徑的潛在原料，用以生產 SAF、其他低碳燃料及出口市場。",
+    "我們認為全球對蛋白質的需求將持續上升，需要更多高蛋白質飼料用於寵物、畜牧及養殖業。雖然面對來自美國擴張大豆壓榨能力的競爭，我們旨在利用我們的蛋白質能力來多樣化產品組合並優化客戶基礎。",
+    "我們自 2020 年開始使用 FQT 的 MSC™ 技術生產 Ultra-High Protein，並已於我們的四座生物煉製廠部署此技術，以協助應對對蛋白質飼料原料及低碳可再生能源玉米油的需求成長，用作生產先進生物燃料如可再生能源柴油、生物柴油及 SAF 的原料，因為 MSC™ 技術可提高可再生能源玉米油的產量。生產 Ultra-High Protein 的生物煉製廠，其蛋白質濃度達 50% 或以上，酵母濃度達 25% 的飼料原料，也已提高可再生能源玉米油的產量。",
+    "2022 年 9 月，我們在愛荷華州雪納多的生物煉製廠開始動工，成為首座部署 FQT 的 CST™ 技術於商業規模的場地，並於 2024 年成功在雪納多廠區啟用 CST™ 設備。FQT 的 CST™ 技術允許在乾式乙醇廠生產食品級與工業級葡萄糖，以針對食品生產應用，同時作為可再生能源化學品及合成生物學的原料。該廠區的設計產能為每年 60 百萬磅產品。該廠區自 2025 年第一季起已暫停運作，因公司專注於優化產品組合以最大化現有回報。暫時中止運作的決定提供機會進行相關基礎設施改善，這將需要額外投資。",
+    "2023 年 7 月，我們與 Equilon Enterprises LLC 宣佈技術合作，使我們能使用 FQT 的精準分離與處理技術與 Shell 纖維轉換技術。這兩種技術結合發酵、機械分離與處理，以及纖維轉換，形成一個整合平台。這有潛力釋放目前束縛在玉米核纖維分數中的幾乎所有剩餘酒精玉米油，產生纖維素糖用以生產低碳乙醇，並提升與擴展可用高蛋白質以生產全球寵物、畜牧及養殖業的高品質飼料原料。大型規模展示廠已運作，技術與產品開發持續進展至 2025 年。",
+    "我們專注於管理商品價格風險、提升營運與運輸效率，並優化市場機會，以建立一個具備多元化收入來源的高效平台。我們的競爭優勢包括："
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'original': 'Industry Factors Affecting our Results of Operations', 'translated': '影響我們營運成果的產業因素'}",
+    "{'original': 'Critical Accounting Policies and Estimates', 'translated': '重要會計政策與會計估計'}",
+    "{'original': 'Recently Issued Accounting Pronouncements', 'translated': '最近發佈的會計準則'}",
+    "{'original': 'Off-Balance Sheet Arrangements', 'translated': '離財務表外之安排'}",
+    "{'original': 'Components of Revenues and Expenses', 'translated': '收入與費用之零組件'}",
+    "{'original': 'Results of Operations', 'translated': '營運成果'}",
+    "{'original': 'Year Ended December 31,', 'translated': '截至12月31日之年度'}",
+    "{'original': 'Liquidity and Capital Resources', 'translated': '流動性與資本資源'}"
+   ],
+   "paragraphs": [
+    "以下討論與分析包含本公司認為與瞭解及評估我們合併財務狀況與營運成果相關之資訊。本節應與我們之合併財務報表、附註說明及本報告所載風險因素一併閱讀。",
+    "在愛荷華州註冊設立之 Green Plains 為一可再生能源燃料與農業科技公司，專注於生產低成本、低 CI 乙醇及相關副產品，包括高蛋白飼料與玉米油，原料來自當地玉米。我們的目標是透過強化營運表現，包括嚴謹營運、成本領導與減碳，來創造價值，同時讓公司能受益於擴張中的低碳燃料市場。",
+    "Green Plains 於 2004 年成立，目前擁有九座 strategically located 位於美國中西部之設施，當所有設施皆運作時，每年可處理約 287 百萬蒲式耳玉米。目前，我們的重點為持續安全、高效且成本效益地運作，同時降低產品之 CI，並維持財務彈性以支持長期成長。在本年度，於新領導團隊帶領下，公司已完成目標資產出售，強化流動性並減少負債，使 Green Plains 能夠從低碳轉型的下一階段中獲取價值。我們簡化後的平台，透過強化營運表現、持續改善與嚴謹資本配置，來創造價值。",
+    "我們的減碳策略在實現低 CI 生物燃料生產與參與各類清潔燃料計畫中扮演核心角色。碳捕捉與儲存（\"CCS\"）已在 Nebraska 三座設施運作。這些設施連接到 Tallgrass Trailblazer CO2 管線，而 Iowa 與 Minnesota 之設施則透過 Summit Carbon Solutions 承諾 CCS，該公司預告 2028 年開始運作。CCS 計畫預期將顯著降低我們平台之 CI。此外，公司已購買 RECs 以降低部分設施之 CI。根據目前 CI 分數估計，所有八座運作中的 Green Plains 設施預期自 2026 年起符合 Section 45Z 清潔燃料生產信用資格，其中六座設施預期於 2025 年符合資格，包含三座非 CCS 設施。此外，我們正與全球夥伴合作，探討創新之碳使用選項，於管線運輸或直接注入不可行之情況下。降低我們燃料乙醇之 CI 可使我們受益於州與聯邦之清潔燃料計畫，包括 LCFS 與聯邦稅收抵免於 IRA 與 OBBB 下，並可能使我們之低碳乙醇成為 ATJ 路徑生產 SAF 之潛在原料。",
+    "我們已在四座生物煉製廠安裝並運作 FQT MSC™ 技術。透過我們之高附加價值原料計畫，我們生產 Ultra-High Protein，一種蛋白濃度達 50% 或更高、酵母濃度達 25% 之飼料原料，並增加可再生能源玉米油之產量。我們已成功完成使用 FQT 的 MSC™ 系統進行 60% 蛋白質生產之全規模運作，此為我們新專利飼料原料，品牌為 Sequence™。",
+    "2022 年 9 月，我們在愛荷華州 Shenandoah 開始建設生物煉製廠，為首座部署 FQT CST™ 技術於商業規模之設施，並於 2024 年成功啟用 Shenandoah 設施之 CST™ 設備。FQT 的 CST™ 技術允許在乾式乙醇廠生產食品級與工業級葡萄糖，以應用於食品生產，同時作為可再生能源化學品與合成生物之原料。該設施年產能為 60 百萬磅產品。該設施自 2025 年第一季起已暫停運作，本公司專注於優化產品組合以最大化現有回報。暫時中止運作的決定提供機會進行相關基礎設施改善，此將需要額外投資。",
+    "此外，我們已利用機會出售部分資產，以重新配置資金至目前之成長計畫。我們專注於透過各業務部門與風險管理策略，產生穩定且成長之營運毛利。",
+    "SAF 為一種可直接加入燃料供應之燃料，其化學結構與石油基航太燃料相同，可於不同比例混合使用。目前對使用此燃料以降低航空旅行碳足跡之關注度不斷增加。SAF 可由植物與廢油原料製造，例如我們之可再生能源玉米油。此外，ATJ 技術正逐漸商業化，使用低 CI 乙醇作為原料以製造 SAF。",
+    "2023年7月，本公司宣佈與Equilon Enterprises LLC進行技術合作，此合作使本公司得以使用FQT的精準分離與處理技術與Shell Fiber Conversion Technology。這兩項技術將結合發酵、機械分離與處理，以及纖維轉換，整合至一個平台。此技術有潛力創造一種新流程，以解放目前束縛在玉米核纖維分數中的幾乎所有可用的酒精玉米油，產生纖維素糖以製造低碳酒精，並提升與擴大可用高蛋白質，以生產高品質的全球動物飼料原料。大型示範設施已投入運作，技術與產品開發持續進展至2025年。",
+    "本公司獲利高度依賴商品價格，特別是酒精、酒精玉米乾餾物、超高蛋白質、可再生能源玉米油、大豆粕、玉米與天然氣。由於這些商品的市場價格波動並非總是相關，本公司營運有時可能無利可圖。本公司使用多種風險管理工具與對沖策略，以監測乙醇廠的價格風險敞口，並在利潤率壓縮時鎖定有利的利潤率或減少生產。上述商品的價格變動可能顯著影響本公司獲利。",
+    "有關本公司業務、財產與策略的更多資訊，請參閱第1項 – 業務；有關風險因素的描述，請參閱第1A項 – 風險因素。",
+    "根據能源資訊管理局（EIA）的資料，2025年與2024年美國乙醇生產量平均為每日1.1百萬桶。2025年的煉製與調和用量為每日893千桶，與2024年的895千桶相當。2025年的汽油需求與前一年相比保持一致，為每日8,802千桶。美國國內乙醇結存庫存較前一年減少約0.7百萬桶，至2025年12月31日為22.9百萬桶。",
+    "根據美國農業部國際農業服務局（USDA Foreign Agriculture Service）的資料，截至2025年10月31日，美國乙醇出口量約為1,750千萬加侖，較2024年同期的1,532千萬加侖成長14%。加拿大為美國乙醇最大的出口目的地，佔美國乙醇出口量約37%，部分原因在於其國家清潔燃料標準。荷蘭、英國、印度與哥倫比亞分別佔美國乙醇出口量約16%、9%、9%與6%。本公司目前預估，2026年的淨乙醇出口量將介於2.1至2.3十億加侖之間，基於多個國家的歷史需求，以及某些國家希望改善空氣品質、透過低碳燃料計畫減少溫室氣體排放，並從其燃料供應中淘汰MTBE。",
+    "蛋白質與植物油供需"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'original': 'Risks Related to our Business and Industry', 'translated': '與本公司及產業相關之風險'}"
+   ],
+   "paragraphs": [
+    "本公司營運面臨風險與不確定性，可能導致實際結果與本 Form 10-K 所討論的情況有重大差異，並可能對財務結果造成重大負面影響。下列所描述的風險並非本公司唯一面臨的風險。此外，尚有其他風險與不確定性，目前尚未知悉或未被視為重大，也可能對業務、財務狀況或營運結果造成重大且負面的影響。這些風險可能受到",
+    "管理階層無法控制的因素影響。請在評估本公司時，謹慎閱讀下列風險因素及本 Form 10-K 其他地方所包含的前瞻性陳述。",
+    "與碳封存與儲存計畫及 45Z 生產稅抵免相關的風險，包括營運、法規與市場的不確定性",
+    "本公司有七處設施已承諾投入碳封存與儲存 (CCS) 計畫，包括目前在內布拉斯加三個地點運作中的 CCS 計畫。雖然 Summit 計畫尚未開始 CCS 建設，但針對內布拉斯加的三個 CCS 計畫，可能會面臨一系列風險，包括但不限於設施營運問題，這些問題可能導致碳封存作業延遲、減少或中止，並/或減少稅務優惠。此外，本公司所有八處運作中的乙醇廠廠區，根據現行法律與法規，很可能符合 IRC 第 45Z 節的 45Z 生產稅抵免資格，其中六處預計可在 2025 年申領抵免，所有八處預計可在 2026 年申領抵免。在 45Z 稅抵免資格到期後，即目前預計為 2029 年，擁有碳封存設施且為本公司所有者，將可申領 45Q 稅抵免，該稅抵免自捕獲設備建設完成之日起可適用十二年。",
+    "雖然本公司致力於符合所有聯邦稅務激勵資格要求，包括那些具有 CCS 的計畫，以及那些不需 CCS 即符合聯邦稅務激勵資格的設施（包括現行工資與學徒制度規則），但本公司無法保證始終符合所有要求，或不會因之產生重大成本或負債。此外，即使達成營運與技術目標，本公司預期的碳減排可能不會完全實現。法規所訂的碳減排模型架構可能發生本公司無法控制的變化，並可能減少或消除本公司碳計畫預期的效益。",
+    "聯邦政策，例如根據《IRA》所頒布的政策，也可能發生變化。未來的修改可能對以玉米為原料的乙醇產品接觸關鍵稅務激勵措施造成負面影響，或以其他方式減少潛在效益。此外，規則發佈或最終確定的延遲、規則與產業預期不符，或在聯邦、州或國際層面廢除潔淨能源或碳封存稅務抵免，可能對本公司碳計畫造成負面影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

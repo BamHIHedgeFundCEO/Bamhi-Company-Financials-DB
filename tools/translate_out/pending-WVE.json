@@ -1,0 +1,211 @@
+{
+ "ticker": "WVE",
+ "cik": "0001631574",
+ "accession": "0001193125-26-073472",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Current Programs",
+    "Our Strategy",
+    "PRISM: Our proprietary discovery and drug development platform",
+    "Advantages of PRISM",
+    "Our Proprietary Chemistry",
+    "Backbone Stereochemistry",
+    "PN Backbone Chemistry Modifications",
+    "RNA editing – AIMer designs",
+    "Base Modifications",
+    "RNAi - SpiNA design",
+    "Our Collaborations",
+    "Manufacturing",
+    "Intellectual Property"
+   ],
+   "paragraphs": [
+    "We are a clinical-stage biotechnology company focused on unlocking the broad potential of ribonucleic acid (\"RNA\") medicines (also known as oligonucleotides), or those targeting RNA, to transform human health. Our RNA medicines platform, PRISM®, combines multiple modalities, chemistry innovation and deep insights into human genetics to deliver scientific breakthroughs that treat both rare and common disorders. Our toolkit of RNA-targeting modalities, including RNAi (SpiNA) and RNA editing (AIMers), provides us with unmatched capabilities for designing and sustainably delivering candidates that optimally address disease biology. Our pipeline is focused on our obesity (WVE-007), alpha-1 antitrypsin deficiency (\"AATD\") (WVE-006) and PNPLA3 I148M liver disease (WVE-008) programs, and also includes clinical programs for Duchenne muscular dystrophy (\"DMD\") and Huntington's disease (\"HD\"), as well as several preclinical programs utilizing our versatile RNA medicines platform.",
+    "We were founded on the recognition that there was a significant, untapped opportunity to use chemistry innovation to tune the pharmacological properties of oligonucleotides. We have more than a decade of experience challenging convention related to oligonucleotide design and pioneering novel chemistry modifications to optimize the pharmacological properties of our molecules. We have seen in clinical trials that these chemistry modifications enhance potency, distribution, and durability of effect of our molecules. Our novel chemistry also allows us to avoid using complex delivery vehicles, such as lipid nanoparticles and viruses, and instead use clinically proven conjugates (e.g., N-acetylgalactosamine or (\"GalNAc\")) or free uptake for delivery to a variety of cell and tissue types. We maintain strong and broad intellectual property, including for our novel chemistry modifications.",
+    "Our best-in-class chemistry capabilities have also unlocked new areas of biology, such as harnessing adenosine deaminases acting on RNA (\"ADAR\") enzymes for messenger RNA (\"mRNA\") correction and upregulation, selectively silencing a mutant allele, and more. By opening up new areas of biology, we have also opened up new opportunities to slow, stop, or reverse disease and have expanded the possibilities offered through our platform.",
+    "The inspiration for our multimodal platform is based on the recognition that the biological machinery (i.e., enzymes) needed to address human disease already exists within our cells and can be harnessed for therapeutic purposes with the right tools. We believe that we have built the most versatile toolkit of RNA-targeting modalities in the industry, with multiple means of repairing, restoring, or reducing proteins and designing best-fit solutions based on the unique biology of a given disease target. We are actively advancing programs across modalities, including RNA interference (\"RNAi\") (silencing), RNA editing, which uses novel A-to-I RNA editing oligonucleotides (\"AIMers\"), antisense silencing, and splicing. We have also advanced novel bifunctional modalities designed to silence multiple targets or silence one target while simultaneously editing or upregulating another unique target.",
+    "We intentionally focus on targeting the transcriptome using oligonucleotides rather than other nucleic acid modalities such as gene therapy and DNA editing. This focus enables us to:",
+    "• Leverage diversity of expression across cell types by modulating the many regulatory pathways that impact gene expression, including transcription, endogenous RNAi pathways, splicing, and translation;",
+    "• Address diseases that have historically been difficult to treat with small molecules or biologics;",
+    "• Access a variety of tissue types or cell types throughout the body and modulate the frequency of dosing for broad distribution in tissues over time;",
+    "• Avoid the risk of permanent off-target genetic changes and other challenges associated with DNA editing or gene therapy approaches; and",
+    "• Leverage well-established industry manufacturing processes and regulatory, access, and reimbursement pathways.",
+    "We are currently prioritizing lead programs that use GalNAc delivery for hepatic and metabolic diseases, each of which have potential to translate powerful human genetic insights into potentially transformational RNA medicines:",
+    "• WVE-007 is a GalNAc-conjugated siRNA (SpiNA design) targeting inhibin βE (\"INHBE\") for obesity;",
+    "• WVE-006 is a GalNAc-conjugated RNA editing oligonucleotide (AIMer) for AATD;",
+    "• WVE-008 is a GalNAc-conjugated RNA editing oligonucleotide (AIMer) for PNPLA3 I148M liver disease."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors",
+    "Risks Related to Our Financial Results and Capital Requirements",
+    "We are a clinical-stage biotechnology company with a history of losses, and we expect to continue to incur losses for the foreseeable future, and we may never achieve or maintain profitability.",
+    "We will require substantial additional funding, which may not be available on acceptable terms, or at all.",
+    "Our management has broad discretion over the use of proceeds received from sales of our securities and our collaborations with third parties and the proceeds may not be used effectively.",
+    "Our operating history as a clinical-stage biotechnology company may make it difficult for shareholders to evaluate the success of our business to date and to assess our future viability.",
+    "Risks Related to the Discovery, Manufacturing, Development and Commercialization of Our Product Candidates",
+    "The approach we are taking to discover and develop RNA medicines is novel and may never lead to marketable products.",
+    "Because we are developing oligonucleotides, which are considered a relatively new class of drugs, there is increased risk that the outcome of our clinical trials will not be sufficient to obtain regulatory approval.",
+    "Our preclinical studies and clinical trials may not be successful. If we are unable to commercialize our product candidates or experience significant delays in doing so, our business may be materially harmed.",
+    "We may not be able to conduct clinical trials successfully due to various process-related factors that could negatively impact our business plans.",
+    "The process of manufacturing oligonucleotides is complex and we may encounter difficulties in production, particularly with respect to process development or scaling-up of our manufacturing capabilities.",
+    "Any product candidates we develop may fail in preclinical or clinical development or be delayed to a point where they do not become commercially viable.",
+    "Results of preclinical studies and early clinical trials may not be predictive of results of subsequent clinical trials.",
+    "If we experience delays or difficulties in the enrollment of patients in clinical trials, our receipt of necessary regulatory approvals could be delayed or prevented.",
+    "Even if we receive regulatory approval to market our product candidates, the market may not be receptive to our product candidates upon their commercial introduction, which will prevent us from becoming profitable."
+   ],
+   "paragraphs": [
+    "You should carefully consider the following risk factors, in addition to the other information contained in this Annual Report on Form 10-K, including the section of this report titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and our financial statements and related notes. If any of the events described in the following risk factors and the risks described elsewhere in this Annual Report on Form 10-K occurs, our business, operating results and financial condition could be seriously harmed and the trading price of our ordinary shares could decline. This Annual Report on Form 10-K also contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those anticipated in the forward-looking statements as a result of factors that are described below and elsewhere in this Annual Report on Form 10-K.",
+    "We are a clinical-stage biotechnology company and have incurred significant operating losses since our incorporation in 2012. Our net loss was $204.4 million, $97.0 million, and $57.5 million for the fiscal years ended December 31, 2025, 2024, and 2023, respectively. As of December 31, 2025, and 2024 we had an accumulated deficit of $1,326.2 million and $1,121.9 million, respectively. To date, we have not generated any product revenue. Substantially all of our losses have resulted from expenses incurred in connection with our research and development programs and from general and administrative costs associated with our operations.",
+    "We are a clinical-stage biotechnology company focused on unlocking the broad potential of ribonucleic acid (\"RNA\") medicines (also known as oligonucleotides), or those targeting RNA, to transform human health. Our RNA medicines platform, PRISM®, combines multiple modalities, chemistry innovation and deep insights into human genetics to deliver scientific breakthroughs that treat both rare and common disorders. Our toolkit of RNA-targeting modalities, including RNAi silencing (SpiNA) and RNA editing (AIMers), provides us with unmatched capabilities for designing and sustainably delivering candidates that optimally address disease biology. Our pipeline is focused on our obesity, alpha-1 antitrypsin deficiency (\"AATD\") and PNPLA3 I148M liver disease programs, and also includes clinical programs for Duchenne muscular dystrophy (\"DMD\") and Huntington's disease (\"HD\"), as well as several preclinical programs utilizing our versatile RNA medicines platform. We have not generated, and do not expect to generate, any product revenue for the foreseeable future, and we expect to continue to incur significant operating losses for the foreseeable future due to the cost of research and development, manufacturing, preclinical studies and clinical trials and the regulatory review process for product candidates. The amount of future losses is uncertain. To achieve profitability, we must successfully develop product candidates, obtain regulatory approvals to market and commercialize product candidates, manufacture any approved product candidates on commercially reasonable terms, establish a sales and marketing organization or suitable third-party alternatives for any approved product and raise sufficient funds to finance our business activities. We may never succeed in these activities and, even if we do, may never generate revenues that are significant or large enough to achieve profitability. Even if we do achieve profitability, we may not be able to sustain or increase profitability on a quarterly or annual basis. Our failure to become and remain profitable would decrease the value of our company and could impair our ability to raise capital, maintain our research and development efforts, expand our business or continue our operations. A decline in the value of our company could also cause our shareholders to lose all or part of their investment.",
+    "We have used substantial funds to develop our programs and PRISM, our proprietary discovery and drug development platform, and will require substantial funds to conduct further research and development, including preclinical studies and clinical trials of our product candidates, seek regulatory approvals for our product candidates and manufacture and market any products that are approved for commercial sale. We believe that our existing cash and cash equivalents will be sufficient to fund our operations for at least the next 12 months.",
+    "Our future capital requirements and the period for which we expect our existing resources to support our operations may vary significantly from what we expect. We do not expect to realize any appreciable revenue from product sales or royalties in the foreseeable future, if at all. Our revenue sources will remain extremely limited unless and until our product candidates complete clinical development and are approved for commercialization and successfully marketed. Because we cannot be certain of the length of time or activities associated with successful development and commercialization of our product candidates, we are unable to estimate the actual funds we will require to develop and commercialize them.",
+    "Our future capital requirements will depend on many factors, including, but not limited to, the following:"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Financial Operations Overview",
+    "Operating Expenses",
+    "Research and Development Expenses",
+    "General and Administrative Expenses",
+    "Other Income, Net",
+    "Income Taxes",
+    "Results of Operations",
+    "Comparison of the Year Ended December 31, 2025 to the Year Ended December 31, 2024",
+    "For the Year Ended December 31,",
+    "Increase (Decrease)",
+    "Comparison of the Year Ended December 31, 2024 to the Year Ended December 31, 2023",
+    "Liquidity and Capital Resources",
+    "Funding Requirements",
+    "Recently Issued and Adopted Accounting Pronouncements",
+    "Critical Accounting Policies and Significant Judgments and Estimates",
+    "Revenue Recognition",
+    "Prepaid and Accrued Research and Development Expenses"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our financial statements and related notes appearing elsewhere in this Annual Report on Form 10-K. Some of the information contained in this discussion and analysis or set forth elsewhere in this Annual Report on Form 10-K, including information with respect to our plans and strategy for our business, includes forward-looking statements that involve risks and uncertainties. As a result of many factors, including those factors set forth in the \"Risk Factors\" section of this Annual Report on Form 10-K, our actual results could differ materially from the results described in, or implied by, these forward-looking statements.",
+    "We are a clinical-stage biotechnology company focused on unlocking the broad potential of ribonucleic acid (\"RNA\") medicines (also known as oligonucleotides), or those targeting RNA, to transform human health. Our RNA medicines platform, PRISM®, combines multiple modalities, chemistry innovation and deep insights into human genetics to deliver scientific breakthroughs that treat both rare and common disorders. Our toolkit of RNA-targeting modalities, including RNAi (SpiNA) and RNA editing (AIMers), provides us with unmatched capabilities for designing and sustainably delivering candidates that optimally address disease biology. Our pipeline is focused on our obesity (WVE-007), alpha-1 antitrypsin deficiency (\"AATD\") (WVE-006) and PNPLA3 I148M liver disease (WVE-008) programs, and also includes clinical programs for Duchenne muscular dystrophy (\"DMD\") and Huntington's disease (\"HD\"), as well as several preclinical programs utilizing our versatile RNA medicines platform.",
+    "We were founded on the recognition that there was a significant, untapped opportunity to use chemistry innovation to tune the pharmacological properties of oligonucleotides. We have more than a decade of experience challenging convention related to oligonucleotide design and pioneering novel chemistry modifications to optimize the pharmacological properties of our molecules. We have seen in clinical trials that these chemistry modifications enhance potency, distribution, and durability of effect of our molecules. Our novel chemistry also allows us to avoid using complex delivery vehicles, such as lipid nanoparticles and viruses, and instead use clinically proven conjugates (e.g., N-acetylgalactosamine or (\"GalNAc\")) or free uptake for delivery to a variety of cell and tissue types. We maintain strong and broad intellectual property, including for our novel chemistry modifications.",
+    "Our best-in-class chemistry capabilities have also unlocked new areas of biology, such as harnessing adenosine deaminases acting on RNA (\"ADAR\") enzymes for messenger RNA (\"mRNA\") correction and upregulation, selectively silencing a mutant allele, and more. By opening up new areas of biology, we have also opened up new opportunities to slow, stop, or reverse disease and have expanded the possibilities offered through our platform.",
+    "The inspiration for our multimodal platform is based on the recognition that the biological machinery (i.e., enzymes) needed to address human disease already exists within our cells and can be harnessed for therapeutic purposes with the right tools. We believe that we have built the most versatile toolkit of RNA-targeting modalities in the industry, with multiple means of repairing, restoring, or reducing proteins and designing best-fit solutions based on the unique biology of a given disease target. We are actively advancing programs across modalities, including RNA interference (\"RNAi\") (silencing), RNA editing, which uses novel A-to-I RNA editing oligonucleotides (\"AIMers\"), antisense silencing, and splicing. We have also advanced novel bifunctional modalities designed to silence multiple targets or silence one target while simultaneously editing or upregulating another unique target.",
+    "We intentionally focus on targeting the transcriptome using oligonucleotides rather than other nucleic acid modalities such as gene therapy and DNA editing. This focus enables us to:",
+    "• Leverage diversity of expression across cell types by modulating the many regulatory pathways that impact gene expression, including transcription, endogenous RNAi pathways, splicing, and translation;",
+    "• Address diseases that have historically been difficult to treat with small molecules or biologics;",
+    "• Access a variety of tissue types or cell types throughout the body and modulate the frequency of dosing for broad distribution in tissues over time;",
+    "• Avoid the risk of permanent off-target genetic changes and other challenges associated with DNA editing or gene therapy approaches; and",
+    "• Leverage well-established industry manufacturing processes and regulatory, access, and reimbursement pathways.",
+    "We are currently prioritizing lead programs that use GalNAc delivery for hepatic and metabolic diseases, each of which have potential to translate powerful human genetic insights into potentially transformational RNA medicines:",
+    "• WVE-007 is a GalNAc-conjugated siRNA (SpiNA design) targeting inhibin βE (\"INHBE\") for obesity;",
+    "• WVE-006 is a GalNAc-conjugated RNA editing oligonucleotide (AIMer) for AATD;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "我們目前的計畫",
+    "我們的策略",
+    "PRISM：我們的專有發現與藥物開發平台",
+    "PRISM 的優勢",
+    "我們的專有化學技術",
+    "骨架立體化學",
+    "PN 骨架化學修飾",
+    "RNA 編輯 – AIMer 設計",
+    "{'original': 'Base Modifications', 'translated': '基體變更'}",
+    "{'original': 'RNAi - SpiNA design', 'translated': 'RNAi - SpiNA 設計'}",
+    "{'original': 'Our Collaborations', 'translated': '我們的合作關係'}",
+    "{'original': 'Manufacturing', 'translated': '製造'}",
+    "{'original': 'Intellectual Property', 'translated': '智慧財產權'}"
+   ],
+   "paragraphs": [
+    "本公司為一家臨牀階段的生物科技公司，專注於挖掘核糖核酸（\"RNA\"）藥物（亦稱為寡核苷酸）或針對RNA的藥物之廣泛潛力，以轉變人類健康。我們的RNA藥物平台PRISM®結合多種模式、化學創新以及對人類遺傳學的深入洞察，以實現科學突破，治療罕見與常見疾病。我們的RNA目標模式工具箱，包括RNAi（SpiNA）與RNA編輯（AIMers），使我們擁有無與倫比的能力，設計並持續交付能最佳對應疾病生物學的候選藥物。我們的產品線聚焦於肥胖（WVE-007）、α-1抗胰蛋白酶缺乏症（\"AATD\"）（WVE-006）與PNPLA3 I148M肝病（WVE-008）計畫，同時也包含杜氏肌營養不良症（\"DMD\"）與亨丁頓氏症（\"HD\"）的臨牀計畫，以及多個預臨牀計畫，利用我們多功能的RNA藥物平台。",
+    "我們成立的契機在於認知到，利用化學創新調整寡核苷酸的藥理特性，有著巨大的未開發潛力。我們擁有超過十年的經驗，挑戰傳統的寡核苷酸設計方式，並開創新型化學修飾，以優化我們分子的藥理特性。我們在臨牀試驗中觀察到，這些化學修飾能提升我們分子的效力、分佈與效果持續時間。我們的新型化學技術也使我們能避免使用複雜的遞送載具，例如脂質奈米粒子與病毒，並改用臨牀上已證實的連結物（例如N-乙醯半乳糖胺或（\"GalNAc\"））或自由攝取方式，以遞送至多種細胞與組織類型。我們擁有強而廣的智慧財產權，包括我們的新型化學修飾技術。",
+    "我們的領先市場化學能力也解鎖了新的生物學領域，例如利用腺苷脫氨酶作用於RNA（\"ADAR\"）酵素進行訊息RNA（\"mRNA\"）修正與上調、選擇性沉默突變等位基因，以及更多應用。透過開拓新的生物學領域，我們也開拓了新的機會，以減緩、停止或逆轉疾病，並擴展了我們平台所提供的可能性。",
+    "我們多模式平台的靈感來自於認知到，用以對抗人類疾病的生物機械（即酵素）已經存在於我們的細胞中，並能透過適當的工具用於治療目的。我們相信，我們已建立業界最多功能的RNA目標模式工具箱，透過多種方式修復、恢復或減少蛋白質，並根據特定疾病目標的獨特生物學，設計最佳解決方案。我們正在積極推進多種模式的計畫，包括RNA幹擾（\"RNAi\"）（沉默）、RNA編輯，使用新型A-to-I RNA編輯寡核苷酸（\"AIMers\"）、反義沉默、以及剪接。我們也已推進新型雙功能模式，用以同時沉默多個目標或沉默一個目標同時編輯或上調另一個獨特目標。",
+    "我們有意針對轉錄組使用寡核苷酸進行目標設定，而非其他核酸模式，例如基因治療與DNA編輯。這種專注使我們能夠：",
+    "• 透過調節影響基因表現的多種調控路徑，包括轉錄、內生RNAi路徑、剪接與翻譯，來利用不同細胞類型的表現多樣性；",
+    "• 對於歷來難以用小分子或生物藥物治療的疾病進行治療；",
+    "• 接觸身體各處的多種組織或細胞類型，並調節給藥頻率，以實現長時間在組織中的廣泛分佈；",
+    "• 避免造成永久性脫標的遺傳變異及其他與DNA編輯或基因治療方法相關的挑戰；",
+    "• 優化已建立的產業製造流程及監管、准入與費用報銷途徑。",
+    "本公司目前優先推動使用GalNAc遞送技術用於肝臟及代謝疾病的領先項目，每個項目均有潛力將強大的人類遺傳學見解轉化為可能具有革命性的RNA藥物：",
+    "• WVE-007為一種GalNAc連結的siRNA（SpiNA設計）用以針對抑制素βE（\"INHBE\"）用於肥胖症；",
+    "• WVE-006為一種GalNAc連結的RNA編輯寡核苷酸（AIMer）用於AATD；",
+    "• WVE-008為一種GalNAc連結的RNA編輯寡核苷酸（AIMer）用於PNPLA3 I148M肝臟疾病。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "財務營運概覽",
+    "營運費用",
+    "研究與發展費用",
+    "一般及行政費用",
+    "其他收入，淨額",
+    "所得稅",
+    "營運成果",
+    "2025 年 12 月 31 日財年與 2024 年 12 月 31 日財年比較",
+    "會計年度終了於12月31日",
+    "增減變動",
+    "比較2024年12月31日會計年度與2023年12月31日會計年度",
+    "流動性及資金來源",
+    "資金需求",
+    "最近發佈及採用的會計準則",
+    "關鍵會計政策及重要判斷與估計",
+    "收入認列",
+    "預付及應計研究與開發費用"
+   ],
+   "paragraphs": [
+    "下列對我們財務狀況及營運成果的討論與分析，應與本年度10-K表報表中出現的財務報表及相關附註一併閱讀。部分包含於本討論與分析或出現在本年度10-K表報表其他地方的資訊，包括有關我們業務計畫與策略的資訊，包含風險與不確定性之預測性陳述。由於許多因素，包括本年度10-K表報表「風險因素」節中所列的因素，我們實際結果可能與這些預測性陳述中所描述或暗示的結果有重大差異。",
+    "我們是一家臨牀階段的生物科技公司，專注於挖掘核糖核酸（\"RNA\"）藥物（亦稱為寡核苷酸）或針對RNA的潛力，以轉變人類健康。我們的RNA藥物平台PRISM®結合多種模式、化學創新與對人類遺傳學的深入洞察，以實現科學突破，治療罕見與常見的疾病。我們的RNA目標模式工具箱，包括RNAi（SpiNA）與RNA編輯（AIMers），使我們擁有無與倫比的能力，設計並可持續地交付候選藥物，以最佳方式對抗疾病生物學。我們的產品線聚焦於肥胖（WVE-007）、α-1抗胰蛋白酶缺乏症（\"AATD\"）（WVE-006）與PNPLA3 I148M肝病（WVE-008）計畫，也包含杜氏肌營養不良症（\"DMD\"）與亨丁頓氏症（\"HD\"）的臨牀計畫，以及多個預臨牀計畫，利用我們多功能的RNA藥物平台。",
+    "我們成立的契機是認知到，利用化學創新來調整寡核苷酸藥理特性，有著巨大的、尚未開發的機會。我們擁有超過十年的經驗，挑戰寡核苷酸設計的常規，並開創新型化學修飾，以優化我們分子的藥理特性。我們在臨牀試驗中觀察到，這些化學修飾能提升我們分子的效力、分佈與效果持續性。我們的新型化學技術也使我們能避免使用複雜的遞送載具，如脂質奈米粒子與病毒，並改用臨牀上已證實的連結物（例如N-乙醯半乳糖胺或（\"GalNAc\"））或自由攝取，以遞送至多種細胞與組織類型。我們擁有強而廣的智慧財產權，包括我們的新型化學修飾。",
+    "我們的最先進化學技術也解鎖了新的生物學領域，例如利用腺苷脫氨酶作用於RNA（\"ADAR\"）酵素進行訊息RNA（\"mRNA\"）修正與上調、選擇性沉默突變等位基因，以及更多。透過開拓新的生物學領域，我們也開拓了新的機會，以減緩、停止或逆轉疾病，並擴展了我們平台所提供的可能性。",
+    "我們多模式平台的靈感來自於認知到，用以解決人類疾病的生物機械（即酵素）已經存在於我們的細胞中，並能透過正確的工具用於治療目的。我們相信我們已建立業界最多功能的RNA目標模式工具箱，擁有多種修復、恢復或減少蛋白質的方法，並根據特定疾病目標的獨特生物學，設計最佳解決方案。我們正在各模式中積極推進計畫，包括RNA幹擾（\"RNAi\"）（沉默）、RNA編輯，使用新型A-to-I RNA編輯寡核苷酸（\"AIMers\"）、反義沉默、以及剪接。我們也已推進新型雙功能模式，用以同時沉默多個目標或沉默一個目標，同時編輯或上調另一個獨特目標。",
+    "我們有意針對轉錄組使用寡核苷酸進行目標設定，而非其他核酸模式，如基因治療與DNA編輯。這種專注使我們能夠：",
+    "• 透過調節影響基因表現的許多調控路徑，包括轉錄、內源性RNAi路徑、剪接與翻譯，來利用不同細胞類型的表現多樣性；",
+    "• 對於過去難以用小分子或生物藥物治療的疾病進行治療；",
+    "• 可以接觸到全身各類組織或細胞類型，並調節給藥頻率，以實現隨時間在組織中的廣泛分佈;",
+    "• 避免因DNA編輯或基因治療方法而導致永久性脫標遺傳變異及其他相關風險; 和",
+    "• 優化已建立的產業製造流程及監管、准入與給付途徑。",
+    "目前我們優先推動使用GalNAc遞送技術治療肝臟及代謝疾病的領先計畫，這些計畫均有潛力將強大的人類遺傳學見解轉化為可能具有革命性的RNA藥物:",
+    "• WVE-007 是一種GalNAc連結的siRNA（SpiNA設計）用以針對抑制素βE（\"INHBE\"）用於肥胖治療;",
+    "• WVE-006 是一種GalNAc連結的RNA編輯寡核苷酸（AIMer）用於AATD治療;"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素",
+    "與我們財務結果及資金需求相關的風險",
+    "本公司為一家臨牀階段生物科技公司，有持續虧損的歷史，且預期在可預見的未來仍將持續虧損，且可能永遠無法達成或維持獲利。",
+    "我們將需要大量額外資金，而此資金可能無法在可接受的條件下取得，或根本無法取得。",
+    "本公司管理階層對透過銷售本公司證券及與第三方合作所取得之資金使用具有廣泛的裁量權，而這些資金可能無法被有效運用。",
+    "本公司作為一家臨牀階段生物科技公司之營運歷史，可能使股東難以評估本公司業務至今之成功程度，並評估本公司未來之生存能力。",
+    "與我們產品候選藥物之發現、製造、開發及商業化相關的風險",
+    "我們用以發現及開發RNA藥物之方法為創新且尚未經驗證，可能永遠無法導致可上市之產品。",
+    "因為我們正在開發寡核苷酸，這被視為一種相對較新的藥物類別，因此有較高的風險，使得我們臨牀試驗的結果無法達到取得監管批准的標準。",
+    "我們的前期臨牀研究與臨牀試驗可能無法成功。若我們無法商業化我們的產品候選藥物，或遭遇顯著的延遲，將可能對本公司業務造成重大損害。",
+    "我們可能無法成功進行臨牀試驗，原因可能是各種與流程相關的因素，這些因素可能對我們的業務計畫造成負面影響。",
+    "寡核苷酸的製造過程複雜，我們可能在生產過程中遇到困難，特別是在製程開發或擴大製造能力方面。",
+    "我們開發的任何產品候選藥物可能在前期臨牀或臨牀開發階段失敗，或延遲至無法成為商業可行的產品。",
+    "前期臨牀研究與早期臨牀試驗的結果，可能無法預測後續臨牀試驗的結果。",
+    "若我們在臨牀試驗中遭遇患者招募的延遲或困難，將可能導致我們無法取得必要的監管批准，或延遲取得批准。",
+    "即使我們獲得行銷產品候選藥物的監管批准，市場可能在這些產品上市時對其反應冷淡，這將使我們無法實現盈利。"
+   ],
+   "paragraphs": [
+    "您應謹慎考量下列風險因素，除本年度報表（Form 10-K）中包含的其他資訊外，包括本報告中標題為「管理層對財務狀況與營運結果之討論與分析」的章節，以及我們的財務報表及相關附註。若任何在下列風險因素中所描述的事件，或本年度報表（Form 10-K）其他地方所描述的風險發生，將可能嚴重影響我們的業務、營運結果與財務狀況，並導致我們普通股的交易價格下跌。本年度報表（Form 10-K）也包含前瞻性陳述，這些陳述涉及風險與不確定性。我們的實際結果可能與前瞻性陳述中預期的結果有重大差異，這是因為有許多因素，這些因素在本年度報表（Form 10-K）中已於下文及其他地方說明。",
+    "我們是一家臨牀階段的生物科技公司，自2012年成立以來已產生顯著的營運虧損。我們的淨虧損為2025年財務年度截至12月31日為204.4百萬美元，2024年財務年度為97.0百萬美元，2023年財務年度為57.5百萬美元。截至2025年12月31日及2024年12月31日，我們的累積虧損分別為1,326.2百萬美元及1,121.9百萬美元。截至目前為止，我們尚未產生任何產品收入。我們的虧損幾乎全部來自與我們研究與開發計畫相關的費用，以及與我們營運相關的總務及行政費用。",
+    "我們是一家臨牀階段的生物科技公司，專注於挖掘核糖核酸（RNA）藥物（也稱為寡核苷酸）或針對RNA的潛力，以轉變人類健康。我們的RNA藥物平台PRISM®結合多種模式、化學創新與對人類遺傳學的深入洞察，以實現科學突破，治療罕見與常見的疾病。我們的RNA靶向模式工具組，包括RNAi沉默（SpiNA）與RNA編輯（AIMers），使我們擁有無與倫比的能力，設計並持續交付能最佳對應疾病生物學的候選藥物。我們的產品線聚焦於肥胖、α-1抗胰蛋白酶缺乏症（AATD）與PNPLA3 I148M肝病計畫，也包含杜氏肌營養不良症（DMD）與亨丁頓舞蹈症（HD）的臨牀計畫，以及多項預臨牀計畫，利用我們靈活的RNA藥物平台。我們尚未產生，且不預期在可預見的未來產生任何產品收入，我們預期將持續產生顯著的營運虧損，這是因為研究與開發、製造、預臨牀研究與臨牀試驗以及產品候選藥物的監管審查程序的成本所致。未來虧損的金額不確定。要實現盈利，我們必須成功開發產品候選藥物、取得監管批准以行銷與商業化產品候選藥物、以商業上合理的條件製造任何批准的產品候選藥物、建立銷售與行銷組織或尋找合適的第三方替代方案，以及籌集足夠資金以支應我們的業務活動。我們可能永遠無法成功進行這些活動，即使我們成功了，也可能永遠無法產生足夠的收入以實現盈利。即使我們實現盈利，我們也可能無法維持或提高季度或年度的盈利。我們未能成為並持續保持盈利，將降低我們公司的價值，並可能影響我們籌資的能力、維持研究與開發工作、擴展業務或繼續營運。公司價值的下降也可能導致股東損失全部或部分投資。",
+    "我們已投入大量資金用以發展我們的計畫與PRISM®，我們的專有發現與藥物開發平台，並將需要大量資金進行進一步的研究與開發，包括我們產品候選藥物的預臨牀研究與臨牀試驗、尋求我們產品候選藥物的監管批准，以及製造與行銷任何批准的產品以進行商業銷售。我們認為，我們現有的現金與現金等價物將足以支應我們至少未來12個月的營運。",
+    "我們未來的資金需求與我們現有資源支應營運的期間可能與我們預期的有顯著差異。我們不預期在可預見的未來，若有的話，能產生任何可觀的產品銷售或版稅收入。我們的收入來源將極其有限，除非且直到我們的產品候選藥物完成臨牀開發並獲得商業化批准且成功行銷。因為我們無法確定成功開發與商業化產品候選藥物所需的時間或相關活動，我們無法估計實際需要多少資金來開發與商業化這些產品。",
+    "我們未來的資金需求將取決於許多因素，包括但不限於以下各項："
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

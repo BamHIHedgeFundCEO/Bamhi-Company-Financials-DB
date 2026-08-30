@@ -1,0 +1,140 @@
+{
+ "ticker": "THG",
+ "cik": "0000944695",
+ "accession": "0001193125-26-060983",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Core Commercial",
+    "Net Premiums",
+    "(in millions, except ratios)",
+    "Personal Lines",
+    "Core Commercial, Specialty and Personal Lines",
+    "Reinsurance Program Overview",
+    "Catastrophe Bonds",
+    "Reinsurance Recoverables",
+    "(in millions)"
+   ],
+   "paragraphs": [
+    "The Hanover Insurance Group, Inc. (\"THG\" or the \"Company\") is a holding company organized as a Delaware corporation in 1995. We trace our roots to as early as 1852, when The Hanover Fire Insurance Company was founded. Our primary business operations are property and casualty insurance products and services. We market our products and services through independent agents and brokers in the United States (\"U.S.\"). Our consolidated financial statements include the accounts of THG; The Hanover Insurance Company (\"Hanover Insurance\") and Citizens Insurance Company of America (\"Citizens\"), which are our principal property and casualty subsidiaries; and other insurance and non-insurance subsidiaries.",
+    "We conduct our business operations through four reporting segments: Core Commercial, Specialty, Personal Lines and Other. Interest expense related to our corporate debt is reported separately from the earnings of these reporting segments. In our Core Commercial, Specialty and Personal Lines segments, we underwrite our insurance products through Hanover Insurance, Citizens and other THG subsidiaries. We distribute them through select independent agents and brokers throughout the U.S. Our Other segment is comprised primarily of earnings and expenses related to our holding company.",
+    "Our agency and customer-centric strategy focuses on providing specialized insurance products and services with an emphasis on disciplined underwriting and pricing, quality claims handling and customer service. We continue to prudently grow and diversify our product offerings and geographic business mix to strengthen our position as one of the top property and casualty insurers focused on the independent agency distribution channel in the U.S. In 2025, we generated approximately $6.3 billion in net premiums written, an increase of 3.9% from the prior year.",
+    "Information with respect to each of our segments is included in \"Results of Operations - Segments\" in Management's Discussion and Analysis of Financial Condition and Results of Operations (\"Management's Discussion and Analysis\") and in Note 12 - \"Segment Information\" in the Notes to Consolidated Financial Statements.",
+    "The industry's and our profitability are significantly affected by numerous factors, including price; competition; volatile and unpredictable developments, such as weather conditions, catastrophes and other disasters; legal and regulatory developments affecting pricing, underwriting, policy coverage and other aspects of doing business, as well as insurer and insureds' liability; extra-contractual liability; attorney involvement in claims matters; size of jury awards; civil unrest; acts of terrorism; fluctuations in interest rates and the value of investments; and other general economic conditions and trends, such as potential recessionary pressures and inflationary pressure, tariffs, or unemployment, that may affect the adequacy of reserves or the demand for insurance products. Our investment portfolio and its future returns are impacted by the capital markets and current economic conditions, which affect our liquidity, realized losses and impairments, credit default levels, our ability to hold such investments until recovery and other factors. Additionally, the economic conditions in geographic locations where we conduct business, especially those locations where our business is concentrated, affect the growth and profitability of our business. The regulatory environments in those locations, including any pricing, underwriting or product restrictions, shared market mechanisms or mandatory pooling arrangements, and other conditions, such as our agency relationships, affect the growth and profitability of our business. Our loss and loss adjustment expense (\"LAE\") reserves are based on estimates, principally involving case assessments and actuarial projections, at a given time, of what we expect the ultimate settlement and administration of claims will cost based on facts and circumstances then known, predictions of future events, estimates of future trends in claims frequency and severity and judicial theories of liability, social inflation, costs of repairs and replacement, legislative activity, legal system abuse, and other factors. We regularly reassess our estimate of loss reserves and LAE, both for current and past years, and resulting changes have and will affect our reported profitability and financial position.",
+    "Pressure from litigation trends, legal system abuse, and general and social inflation in the U.S. economy in recent years, along with other factors outside our control, have resulted in higher claims costs. The severity, duration, and long-term effects of such uncertainties may affect the property and casualty insurance industry, our business, and our financial results over the intermediate and long-term.",
+    "Reference is also made to \"Risk Factors\" in Part I – Item 1A. LINES OF BUSINESS",
+    "Our Core Commercial segment generated $2.4 billion, or 36.4%, of consolidated operating revenues and $2.3 billion, or 36.0%, of net premiums written, for the year ended December 31, 2025.",
+    "The following table provides net premiums written by line of business for our Core Commercial segment.",
+    "YEAR ENDED DECEMBER 31, 2025 Written % of Total",
+    "Commercial multiple peril 1,159.2 51.0 Commercial automobile 427.3 18.8 Workers' compensation",
+    "418.7 18.4 Other core commercial 268.5 11.8 Total 2,273.7 100.0",
+    "We divide Core Commercial into two businesses, small commercial and middle market, both of which focus on account business.",
+    "Our Core Commercial product suite provides agents and customers with products designed for small and mid-sized businesses. Small commercial offerings, which generally include annual policy premiums up to $50,000, deliver value through product expertise, local presence and ease of doing business. Middle market accounts, with annual premiums, per policy, generally in the range of $50,000 to $500,000, deliver value through greater underwriting and claim expertise, as well as a focus on distinct industry segments."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Underwriting, Risk Aggregation and Risk Management",
+    "Our results may fluctuate as a result of cyclical or non-cyclical changes in the property and casualty insurance industry.",
+    "Our profitability may be adversely affected if our pricing models differ materially from actual results.",
+    "Our business is dependent on our ability to manage risk, and the failure of the risk mitigation strategies we utilize could have a material adverse effect on our financial condition or results of operations.",
+    "Risks Related to Reserves and Claims",
+    "Actual losses from claims against our insurance subsidiaries may exceed their reserves for claims.",
+    "Risks Related to Weather Events, Catastrophes and Climate Change",
+    "Limitations on the ability to predict the potential impact of weather events and catastrophes may impact our future profits and cash flows.",
+    "Climate change may adversely impact our results of operations and/or our financial position.",
+    "Risks Related to Reinsurance",
+    "We cannot guarantee the adequacy of or ability to maintain our current level of reinsurance coverage.",
+    "Although we monitor their financial soundness, we cannot be sure that our reinsurers will pay in a timely fashion, if at all.",
+    "Risks Related to Regulation, Mandatory Market Mechanisms and Mandatory Assessments",
+    "Our businesses are heavily regulated, and changes in regulation may reduce our profitability.",
+    "We are subject to uncertainties related to Michigan PIP Reform.",
+    "We may incur financial losses resulting from our participation in shared market mechanisms, mandatory reinsurance programs and mandatory pooling arrangements.",
+    "We are subject to mandatory assessments by state guaranty funds; an increase in these assessments could adversely affect our results of operations and financial condition.",
+    "Risks Related to Our Agency Distribution and Growth Strategies",
+    "Our profitability could be adversely affected by our relationships with our agencies.",
+    "We may not be able to grow as quickly or as profitably as we intend, which is important to our current strategy.",
+    "Risks Related to Technology, Information Security, Privacy and Third-Party Suppliers",
+    "If we fail to effectively manage our third-party suppliers, or if their ability to perform were negatively impacted, our business, financial performance and reputation could be adversely affected."
+   ],
+   "paragraphs": [
+    "The following important factors, among others, in some cases have affected, and in the future could affect, our actual results and could cause our actual results to differ materially from historical results and from those expressed in any forward-looking statements made from time to time by us on the basis of our then-current expectations. The words \"believes,\" \"anticipates,\" \"expects,\" \"projections,\" \"outlook,\" should,\" \"could,\" \"plan,\" \"guidance,\" \"likely,\" \"on track to,\" \"potential,\" \"continue,\" \"targeted,\" \"designed\" and similar expressions are intended to identify forward-looking statements. Our businesses are in rapidly changing and competitive markets, and involve a high degree of risk and unpredictability. Forward-looking projections are subject to these risks and unpredictability.",
+    "The property and casualty insurance industry historically has been subject to significant fluctuations and uncertainties. Our profitability is materially affected by the following items:",
+    "• increases in costs, particularly those occurring after the time our insurance products are priced, including construction, automobile repair, and medical and rehabilitation costs. These have resulted from, and may continue to result from, inflation, rises in the cost of products due to disruptions in supply chains, tariffs or other factors, as well as \"cost shifting\" from health insurers to casualty and liability insurers (whether as a result of injured parties without health insurance, coverage changes in health policies to make such coverage secondary to casualty policies, state or federal healthcare legislation, lower reimbursement rates by health insurers or government-sponsored insurance, or legislation and/or litigation related to the Medicare Secondary Payer Act, which may impose reporting, additional costs, and other requirements with respect to medical and related claims paid for Medicare eligible individuals). As it relates to construction, there are often increases in the cost of building supplies and construction labor after a significant event (for example, so called \"demand surge\" that causes the cost of labor, construction materials and other items to increase in a geographic area affected by a catastrophe). In addition, we are limited in our ability to negotiate and manage reimbursable expenses incurred by our policyholders;",
+    "• competitive and regulatory pressures, which affect the prices of our products and the nature of the risks covered;",
+    "• volatile and unpredictable developments, including severe weather, catastrophes, wildfires, infrastructure failure, civil unrest, pandemics and terrorist actions;",
+    "• legal, regulatory and socio-economic developments, such as new theories of insured and insurer liability and related claims and extra-contractual awards such as punitive damages, financed litigation, where a third party unrelated to a lawsuit provides capital to a plaintiff in return for a portion of any financial recovery from the lawsuit, and \"social inflation\" or other increases in the costs of litigation, size of jury awards or changes in applicable laws and regulations (such as changes in the thresholds affecting \"no fault\" liability or when non-economic damages are recoverable for bodily injury claims or coverage requirements) that impact our claim payouts; and"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "核心商業",
+    "淨 premiums",
+    "(以千萬為單位，除比率外)",
+    "個人業務",
+    "核心商業、專業業務及個人業務",
+    "再保險方案概覽",
+    "災難債券",
+    "再保險可追償金額",
+    "{'original': '(in millions)', 'translated': '(以千萬為單位)'}"
+   ],
+   "paragraphs": [
+    "The Hanover Insurance Group, Inc. (\"THG\" or the \"Company\") 為一間於1995年成立的特拉華州公司。我們的歷史可追溯至1852年，當時成立 The Hanover Fire Insurance Company。我們的主要業務為財產與責任保險產品與服務。我們透過美國（\"U.S.\") 的獨立經紀與代理機構來行銷我們的產品與服務。我們的合併財務報表包含 THG；The Hanover Insurance Company (\"Hanover Insurance\") 以及 Citizens Insurance Company of America (\"Citizens\")，這兩家公司為我們的主要財產與責任保險子公司；以及其他保險與非保險子公司。",
+    "我們透過四個應報告分部來進行業務運作：核心商業、專業業務、個人業務與其他。與我們公司債務相關的利息支出會與這些應報告分部的獲利分開列示。在核心商業、專業業務與個人業務分部中，我們透過 Hanover Insurance、Citizens 以及其他 THG 子公司來承保我們的保險產品。我們透過美國的選擇性獨立經紀與代理機構來分銷這些產品。其他分部主要由與我們控股公司的獲利與費用相關。",
+    "我們的經紀與以客戶為中心的策略，著重於提供專業化的保險產品與服務，強調嚴謹的承保與定價、高品質的理賠處理與客戶服務。我們持續謹慎地擴張與多元化我們的產品組合與地理業務組成，以強化我們作為美國獨立經紀分銷渠道中首屈一指的財產與責任保險公司的地位。2025年，我們產生約63億美元的淨保費收入，較前一年成長3.9%。",
+    "關於各個應報告分部的資訊，請參閱 \"營運成果 - 分部\" 部分，位於管理層對財務狀況與營運成果之討論與分析（\"管理層討論與分析\"）中，以及財務報表附註第12項 - \"分部資訊\" 中的說明。",
+    "產業與我們的獲利受到許多因素的顯著影響，包括價格；競爭；波動且難以預測的發展，例如天氣條件、災難與其他災害；影響定價、承保、保單保障及其他業務方面的法律與監管發展，以及保險人與被保險人的責任；超合同責任；律師參與理賠事項；陪審團賠償金額的規模；社會動亂；恐怖主義行為；利率與投資價值的波動；以及其他一般經濟條件與趨勢，例如潛在的經濟衰退壓力與通貨膨脹壓力、關稅或失業率，這些可能影響準備金的充足性或保險產品的需求。我們的投資組合及其未來回報受到資本市場與當前經濟條件的影響，這些因素會影響我們的流動性、已實現虧損與減損、信用違約水平、我們持有這些投資直到回復的能力及其他因素。此外，我們在進行業務的地理區域的經濟條件，特別是那些我們業務集中區域，會影響我們業務的成長與獲利。這些區域的監管環境，包括任何定價、承保或產品限制、共享市場機制或強制性集資安排，以及其他條件，例如我們的經紀關係，會影響我們業務的成長與獲利。我們的理賠與理賠調整費用（\"LAE\"）準備金是根據當時已知的事實與情況、未來事件的預測、未來理賠頻率與嚴重程度的趨勢估計，以及司法責任理論、社會通貨膨脹、修理與更換成本、立法活動、法律體系濫用及其他因素，所做出的估計。我們會定期重新評估我們的理賠與理賠調整費用（\"LAE\"）準備金估計，包括當前與過去的年份，而這些變動會影響我們的報告獲利與財務狀況。",
+    "近年來美國經濟中訴訟趨勢、法律體系濫用以及一般與社會通貨膨脹的壓力，以及其他我們無法控制的因素，導致理賠成本增加。這些不確定性的嚴重程度、持續時間與長期影響，可能影響財產與責任保險產業、我們的業務與我們的財務結果，於中長期而言。",
+    "同時也參考 \"風險因素\" 部分，位於第一部分 - 第1A項 \"業務線\"。",
+    "我們的核心商業分部於2025年12月31日財年產生24億美元，佔合併營運收入的36.4%，以及23億美元，佔淨保費收入的36.0%。",
+    "下表顯示本公司 Core Commercial 分部依業務類別所寫出的淨保費。",
+    "截至 2025 年 12 月 31 日年度 納入總計百分比",
+    "商業多重風險 1,159.2 51.0 商業汽車 427.3 18.8 工傷補償",
+    "418.7 18.4 其他 Core Commercial 268.5 11.8 總計 2,273.7 100.0",
+    "本公司將 Core Commercial 區分為兩大業務，即小規模商業與中型市場，兩者皆著重於客戶帳戶業務。",
+    "本公司 Core Commercial 產品組合為經紀人與客戶提供針對小規模與中型企業所設計的產品。小規模商業產品，通常包含每年保費上限為 $50,000 的年度保單，透過產品專業知識、本地化據點與簡易的業務流程來提供價值。中型市場帳戶，每張保單的年度保費通常在 $50,000 到 $500,000 之間，透過更專業的核保與理賠知識，以及針對特定產業部門的關注來提供價值。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與承保、風險集中及風險管理相關之風險",
+    "我們之營運結果可能因財產及意外保險業之週期性或非週期性變動而波動。",
+    "若我們之定價模型與實際結果有重大差異，可能對我們之獲利造成不利影響。",
+    "我們之業務依賴於我們管理風險之能力，若我們所使用之風險緩衝策略失敗，可能對我們之財務狀況或營運結果造成重大不利影響。",
+    "與準備金及理賠相關之風險",
+    "我們之保險子公司所面對之理賠實際損失可能高於其為理賠所提列之準備金。",
+    "與天氣事件、災難及氣候變遷相關之風險",
+    "預測天氣事件及災難之潛在影響之能力受到限制，可能影響我們未來之獲利及現金流。",
+    "氣候變遷可能不利於我們的營運成果及/或財務狀況。",
+    "與再保險相關的風險",
+    "我們無法保證現有再保險覆蓋範圍的充足性或維持現有覆蓋水平的能力。",
+    "雖然我們監測其財務健全性，但我們無法確定再保險公司是否會及時付款，甚至是否會付款。",
+    "與監管、強制市場機制及強制評估相關的風險",
+    "我們的業務受到嚴格監管，監管變動可能降低我們的獲利能力。",
+    "我們面臨與密歇根州 PIP 改革相關的不確定性。",
+    "我們可能因參與共享市場機制、強制再保險計畫及強制共用安排而產生財務損失。",
+    "本公司需接受各州擔保基金的強制評估；這些評估費用的增加可能對我們的營運成果與財務狀況造成不利影響。",
+    "與我們代理分銷及成長策略相關的風險",
+    "我們的關係可能對我們的獲利造成不利影響。",
+    "我們可能無法如預期般快速且有利可圖地成長，這對我們目前的策略至關重要。",
+    "與科技、資訊安全、隱私權及第三方供應商相關的風險",
+    "若我們無法有效管理第三方供應商，或其執行能力受到負面影響，可能對我們的業務、財務表現與聲譽造成不利影響。"
+   ],
+   "paragraphs": [
+    "下列重要因素，包括但不限於，有時已影響，且未來可能影響，我們的實際結果，並可能導致我們的實際結果與歷史結果及任何向前看聲明所表達的結果有重大差異。詞彙 \"believes,\" \"anticipates,\" \"expects,\" \"projections,\" \"outlook,\" \"should,\" \"could,\" \"plan,\" \"guidance,\" \"likely,\" \"on track to,\" \"potential,\" \"continue,\" \"targeted,\" \"designed\" 以及其他類似詞彙，旨在識別向前看聲明。我們的業務處於快速變動且競爭激烈的市場，並涉及高度風險與不可預測性。向前看預測會受到這些風險與不可預測性影響。",
+    "財產與意外保險產業歷來受到顯著波動與不確定性影響。我們的獲利受到下列項目重大影響：",
+    "• 成本增加，特別是在我們保險產品定價時間點之後發生的成本，包括建築、汽車修理、醫療與復健成本。這些成本增加係因應通貨膨脹、產品成本因供應鏈中斷、關稅或其他因素而上升，以及從健康保險公司轉移至意外與責任保險公司的 \"成本轉移\"（無論是因傷害當事人無健康保險、健康政策覆蓋範圍變更使其覆蓋次於意外政策、州或聯邦醫療立法、健康保險公司或政府資助保險的補償金率降低，或與醫療保障二次支付法案相關的立法與訴訟，該法案可能對符合醫療保障資格個人所支付的醫療及相關申報，施加報告、額外成本及其他要求）。就建築而言，常因重大事件後，建築材料與建築勞務成本會增加（例如所謂的 \"需求衝刺\" 會導致勞務、建築材料及其他項目成本在受災地區增加）。此外，我們在與保單持有人所產生的可報銷費用進行協商與管理方面的能力受到限制；",
+    "• 競爭與監管壓力，這些壓力會影響我們產品的價格與所承擔風險的性質；",
+    "• 波動且不可預測的發展，包括極端天氣、災難、野火、基礎設施失敗、社會動亂、疫情與恐怖行動；",
+    "• 法律、監管與社會經濟發展，例如新的被保險人與保險公司責任理論及相關申報與超合同賠償（例如懲罰性賠償金、由與訴訟無關的第三方為原告提供資金以換取訴訟中任何財務賠償的一部分的資助訴訟），以及 \"社會通貨膨脹\" 或其他訴訟成本增加、陪審團賠償金額規模或適用法律與法規變動（例如影響 \"無過失\" 責任的門檻或身體傷害申報中非經濟損害賠償可追償的時間點或覆蓋要求的變動）會影響我們的賠償金額；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

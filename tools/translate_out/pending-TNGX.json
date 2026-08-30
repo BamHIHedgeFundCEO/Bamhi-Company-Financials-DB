@@ -1,0 +1,221 @@
+{
+ "ticker": "TNGX",
+ "cik": "0001819133",
+ "accession": "0001193125-26-092518",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Pipeline",
+    "Our Strategy",
+    "Unmet need in precision oncology",
+    "Synthetic lethality as a precision oncology strategy",
+    "Biomarker driven patient selection",
+    "PRMT5 inhibitors",
+    "MTAP-deletion frequency in multiple solid tumor types",
+    "Strong preclinical data demonstrated with our MTA-cooperative PRMT5 inhibitors in MTAP-deleted cancers",
+    "Preclinical and clinical combination data",
+    "Clinical trials",
+    "Vopimetostat Phase 1/2 monotherapy",
+    "Vopimetostat Phase 1/2 combination with RAS(ON) inhibitors",
+    "TNG456 Phase 1/2",
+    "CoREST inhibition to reserve immune evasion",
+    "TNG260 Phase 1/2",
+    "Manufacturing",
+    "Intellectual Property",
+    "Government Regulation",
+    "Preclinical studies and clinical trials for drugs",
+    "U.S. marketing approval for drugs",
+    "Orphan drug designation and exclusivity",
+    "Expedited development and review programs for drugs"
+   ],
+   "paragraphs": [
+    "Tango Therapeutics was founded with a clear mission: to discover the next wave of targeted therapies in oncology by addressing the specific genetic alterations that drive cancer. We leverage our state-of-the-art target and drug discovery platforms to identify novel disease-relevant targets and develop medicines tailored to defined patient populations with high unmet medical need. Our novel small molecules are designed to be selectively active in cancer cells with specific genetic alterations, killing those cancer cells while sparing normal cells. We believe our approach will provide the ability to deliver deep, durable target inhibition with favorable tolerability and safety profiles, thus potentially maximizing clinical benefit.",
+    "We are currently focused on clinical development of two MTAP-deleted selective PRMT5 inhibitors: vopimetostat (TNG462) for non-CNS cancers, both as a monotherapy and in combination with RAS inhibitors, and TNG456, our next-generation, brain-penetrant PRMT5 inhibitor, for CNS cancers, including glioblastoma (GBM).",
+    "In October 2025, we reported positive data from the ongoing Phase 1/2 clinical trial of vopimetostat monotherapy in patients with MTAP-deleted selective cancers, illustrating clinical activity across multiple cancer types with a favorable safety and tolerability profile. Specifically, the data in second-line MTAP-deleted pancreatic cancer demonstrated a median progression free survival (mPFS) of 7.2 months and 25% objective response rate (ORR), supporting the planned initiation of a 2L pivotal trial in this patient population in 2026. The histology selective cohort, which excludes sarcoma, pancreatic and lung cancer patients, also showed positive data, with a mPFS of 9.1 months and 49% ORR. We are evaluating the development path for the histology selective cohort, as well as for selected indications as stand-alone development opportunities. Lastly, emerging data from the lung cancer cohort are consistent with expectations, and we anticipate providing a safety and efficacy update in 2026.",
+    "We are focused on evaluating the combination of vopimetostat with RAS inhibitors, given the overlap in patient populations, robust preclinical data supporting potential strong combination effect in clinical trials, and favorable clinical efficacy, durability, and safety profiles observed with each drug individually. We believe this approach may enable a development path for chemotherapy-free first-line and potentially second-line therapies for MTAP-deleted/RAS-mutated patients with pancreatic and lung cancer. In June 2025, we treated the first patient in our combination clinical trial evaluating vopimetostat with the RAS(ON) multi-selective inhibitor, daraxonrasib, and RAS(ON) G12D-selective inhibitor, zoldonrasib (Revolution Medicines), which enrolled 30 patients as of December 24, 2025. Both combinations have been well-tolerated to date with exposures in the active range for all compounds with encouraging early efficacy data. We anticipate providing a safety and efficacy update from this trial in 2026. Given the differentiated profile of vopimetostat enabling the potential for efficacious and tolerable RAS inhibitor combinations, in March 2026, we entered into a clinical trial collaboration and supply agreement (CTCSA) with Erasca, Inc., or Erasca, to evaluate vopimetostat in combination with Erasca's pan-RAS molecular glue, ERAS-0015. Under the terms of the agreement, Tango is the sponsor of the trial and Erasca is supplying ERAS-0015 at no cost.",
+    "TNG456 is a brain-penetrant PRMT5 inhibitor. In May 2025, the first patient was treated with TNG456 in the dose escalation portion of the Phase 1/2 clinical trial to evaluate the safety, pharmacokinetics, pharmacodynamics and antitumor activity of TNG456 as a monotherapy. The trial is currently enrolling patients with MTAP-deleted solid tumors, with a focus on GBM. We anticipate providing a safety and efficacy update from this trial in 2026.",
+    "TNG961 is a novel, potent and selective molecular glue development candidate targeting HBS1L for degradation in solid tumors in FOCAD-deleted/MTAP-deleted cancers. FOCAD deletion occurs in 20-40% of all MTAP-deleted cancers due to the collateral loss with the tumor suppressor gene CDKN2A/B on chromosome 9p21. Cancers with FOCAD loss are dependent on HBS1L for mRNA processing, thus protein synthesis. By degrading HBS1L and disrupting the HBS1L/PELO complex, TNG961 causes tumor regression in FOCAD-deleted preclinical models of multiple histologies. TNG961 is in the IND-enabling phase of development.",
+    "TNG260 is a first-in-class CoREST inhibitor. In November 2025, we announced that patients with checkpoint inhibitor resistant STK11 mutant/KRAS wild-type NSCLC receiving clinically active doses of TNG260 plus pembrolizumab had a mPFS of 29 weeks (n=5), more than double the standard of care PFS of ~10 weeks. 80 mg QD of TNG260 was selected for dose expansion, which is ongoing for patients.",
+    "We are leveraging the power and productivity of our discovery engine to discover and validate multiple novel targets each year. Our growing pipeline consists of discovery programs for multiple cancer types that currently have limited treatment options, as summarized in Figure 1.",
+    "Figure 1. Tango Therapeutics' product pipeline",
+    "We are pioneering novel approaches to the discovery and development of innovative targeted oncology therapies. We leverage the following core strategic components, enabling the pursuit of transformative therapies for patients with cancer:",
+    "• Advance the clinical development of vopimetostat as a monotherapy and in combination with other therapies, including RAS inhibitors, in clinical trials to enable multiple registration paths for markets with large addressable patient populations and high unmet need",
+    "• Advance the clinical development of TNG456 in the ongoing Phase 1/2 clinical trial, focused on GBM",
+    "• Develop the next generation of precision oncology targets to continue to grow our pipeline",
+    "• Opportunistically evaluate our pipeline assets and maximize the value through strategic collaborations and licensing deals to bring more medicines to patients, accelerate development timelines and explore combination therapy approaches for our product candidates"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Limited Operating History, Financial Position, and Capital Requirements",
+    "We are a precision oncology company with a limited operating history.",
+    "We have incurred significant net losses since our inception and anticipate that we will continue to incur losses for the foreseeable future.",
+    "We expect our operating results to fluctuate significantly in the future as our business advances",
+    "We have no products approved for commercial sale and have not generated any revenue from product sales.",
+    "Raising additional capital may cause dilution to our stockholders, restrict our operations or require us to relinquish rights to our technologies or product candidates.",
+    "Risks Related to the Development of our Precision Oncology and Other Programs and Product Candidates",
+    "Clinical product development involves a lengthy and expensive process, with an uncertain outcome.",
+    "We may incur additional costs or experience delays in initiating or completing, or ultimately be unable to complete, the development and commercialization of our product candidates.",
+    "If we experience delays or difficulties in the enrollment of patients in clinical trials, our receipt of necessary regulatory approvals could be delayed or prevented.",
+    "Development of combination therapies may present more or different challenges than development of single agent therapies."
+   ],
+   "paragraphs": [
+    "Investing in our securities involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all other information in this Annual Report on Form 10-K, including our financial statements and the related notes and the \"Management's Discussion and Analysis of Financial Condition and Results of Operations.\" The occurrence of one or more of the events or circumstances described in these risk factors, alone or in combination with other events or circumstances, may have a material adverse effect on our business, reputation, revenue, financial condition, results of operations and future prospects, in which event the market price of our common stock could decline, and you could lose part or all of your investment. The material and other risks and uncertainties summarized above (See \"Summary of Material Risks Associated with Our Business\") and described below are not intended to be exhaustive and are not the only ones we face. Additional risks and uncertainties not presently known to us or that we currently deem immaterial may also impair our business operations. This Annual Report on Form 10-K also contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those anticipated in the forward-looking statements as a result of a number of factors, including the risks described below. See also the section titled \"Note Regarding Forward-Looking Statements\" above.",
+    "We are a precision oncology company with a limited operating history. Biopharmaceutical product development is a highly speculative undertaking and involves a substantial degree of risk. Since the Company's inception, we have devoted substantially all of our efforts to organizing and staffing our company, acquiring and developing intellectual property, business planning, raising capital, conducting discovery, research and development activities (including conducting clinical trials), and providing general and administrative support for these operations. We have no products approved for commercial sale and therefore have never generated any revenue from product sales, and we do not expect to in the foreseeable future. The revenue that we have generated from our collaboration agreement is also not sufficient to fund our operations. We have not obtained regulatory approvals to market and sell any of our product candidates, and there is no assurance that we will obtain approvals in the future. The FDA has cleared five of our IND applications (TNG908, vopimetostat, TNG260, TNG348 and TNG456); however, we have since discontinued development of TNG908 and TNG348. Our other product candidates are still in preclinical development. We expect to continue to incur significant expenses and operating losses over the next several years and for the foreseeable future. Our prior losses, combined with expected future losses, have had and will continue to have an adverse effect on cash and cash equivalent holdings, accumulated deficit, stockholders' equity and working capital. If we were to expend our cash resources more quickly than we anticipate as we advance into and through the regulatory approval process for our product candidates, our cash runway may be shorter than the target we may disclose from time to time.",
+    "We have incurred significant net losses since our inception. As of December 31, 2025, we had an accumulated deficit of $603.2 million. Substantially all of our net losses have resulted from costs incurred in connection with our research and development programs and from general and administrative costs associated with our operations. We expect our research and development expenses to increase significantly in connection with the continuation of clinical trials of our product candidates. In addition, if we obtain regulatory approval for our product candidates, we will incur significant sales, marketing and manufacturing expenses. As a result, we expect to continue to incur significant and increasing operating losses for the foreseeable future. Because of the numerous risks and uncertainties associated with developing pharmaceutical products, we are unable to predict the extent of any future losses or when we will become profitable, if at all. Even if we do become profitable, we may not be able to sustain or increase our profitability on a quarterly or annual basis.",
+    "The amount of our future losses is uncertain and our quarterly and annual operating results may fluctuate significantly or may fall below the expectations of investors or securities analysts, each of which may cause our stock price to fluctuate or decline. Our quarterly and annual operating results may fluctuate significantly in the future due to a variety of factors, many of which are outside of our control and may be difficult to predict, including the following:",
+    " the timing and success or failure of ongoing and future clinical trials for our product candidates or competing product candidates, or any other change in the competitive landscape of our industry, including consolidation among our competitors or partners (such as the acquisition of Mirati by Bristol Myers Squibb in January 2024);",
+    " our ability to obtain INDs for our pipeline product candidates, successfully open clinical trial sites and recruit and retain subjects for clinical trials (including combination trials), and any delays caused by difficulties in connection with such efforts;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Financial Overview",
+    "Liquidity and Capital Resources",
+    "Operating Expenses",
+    "Year Ended December 31,",
+    "(in thousands)",
+    "Other Income, Net",
+    "Provision for Income Taxes",
+    "Results of Operations",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "Sources of Liquidity",
+    "Funding Requirements",
+    "Contractual Obligations and Commitments",
+    "Payments Due by Period",
+    "Critical Accounting Policies and Significant Judgments and Estimates",
+    "Revenue Recognition",
+    "Accrued Research and Development Expenses",
+    "Recently Adopted Accounting Pronouncements",
+    "Smaller Reporting Company Status"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read together with our consolidated financial statements and related notes appearing elsewhere in this Annual Report on Form 10-K for the year ended December 31, 2025. Some of the information contained in this discussion and analysis or set forth elsewhere in this Annual Report on Form 10-K, including information with respect to our plans and strategy for our business, includes forward-looking statements that involve risks and uncertainties. As a result of many factors, including those factors set forth in the \"Risk Factors\" section of this Annual Report on Form 10-K, our actual results could differ materially from the results described in, or implied by, the forward-looking statements contained in the following discussion and analysis.",
+    "Tango Therapeutics was founded with a clear mission: to discover the next wave of targeted therapies in oncology by addressing the specific genetic alterations that drive cancer. We leverage our state-of-the-art target and drug discovery platforms to identify novel disease-relevant targets and develop medicines tailored to defined patient populations with high unmet medical need. Our novel small molecules are designed to be selectively active in cancer cells with specific genetic alterations, killing those cancer cells while sparing normal cells. We believe our approach will provide the ability to deliver deep, durable target inhibition with favorable tolerability and safety profiles, thus potentially maximizing clinical benefit.",
+    "We are currently focused on clinical development of two MTAP-deleted selective PRMT5 inhibitors: vopimetostat (TNG462) for non-CNS cancers, both as a monotherapy and in combination with RAS inhibitors, and TNG456, our next-generation, brain-penetrant PRMT5 inhibitor, for CNS cancers, including glioblastoma (GBM).",
+    "In October 2025, we reported positive data from the ongoing Phase 1/2 clinical trial of vopimetostat monotherapy in patients with MTAP-deleted selective cancers, illustrating clinical activity across multiple cancer types with a favorable safety and tolerability profile. Specifically, the data in second-line MTAP-deleted pancreatic cancer demonstrated a median progression free survival (mPFS) of 7.2 months and 25% objective response rate (ORR), supporting the planned initiation of a 2L pivotal trial in this patient population in 2026. The histology selective cohort, which excludes sarcoma, pancreatic and lung cancer patients, also showed positive data, with a mPFS of 9.1 months and 49% ORR. We are evaluating the development path for the histology selective cohort, as well as for selected indications as stand-alone development opportunities. Lastly, emerging data from the lung cancer cohort are consistent with expectations, and we anticipate providing a safety and efficacy update in 2026.",
+    "We are focused on evaluating the combination of vopimetostat with RAS inhibitors, given the overlap in patient populations, robust preclinical data supporting potential strong combination effect in clinical trials, and favorable clinical efficacy, durability, and safety profiles observed with each drug individually. We believe this approach may enable a development path for chemotherapy-free first-line and potentially second-line therapies for MTAP-deleted/RAS-mutated patients with pancreatic and lung cancer. In June 2025, we treated the first patient in our combination clinical trial evaluating vopimetostat with the RAS(ON) multi-selective inhibitor, daraxonrasib, and RAS(ON) G12D-selective inhibitor, zoldonrasib (Revolution Medicines), which enrolled 30 patients as of December 24, 2025. Both combinations have been well-tolerated to date with exposures in the active range for all compounds with encouraging early efficacy data. We anticipate providing a safety and efficacy update from this trial in 2026. Given the differentiated profile of vopimetostat enabling the potential for efficacious and tolerable RAS inhibitor combinations, in March 2026, we entered into a clinical trial collaboration and supply agreement (CTCSA) with Erasca, Inc., or Erasca, to evaluate vopimetostat in combination with Erasca's pan-RAS molecular glue, ERAS-0015. Under the terms of the agreement, Tango is the sponsor of the trial and Erasca is supplying ERAS-0015 at no cost.",
+    "TNG456 is a brain-penetrant PRMT5 inhibitor. In May 2025, the first patient was treated with TNG456 in the dose escalation portion of the Phase 1/2 clinical trial to evaluate the safety, pharmacokinetics, pharmacodynamics and antitumor activity of TNG456 as a monotherapy. The trial is currently enrolling patients with MTAP-deleted solid tumors, with a focus on GBM. We anticipate providing a safety and efficacy update from this trial in 2026.",
+    "TNG961 is a novel, potent and selective molecular glue development candidate targeting HBS1L for degradation in solid tumors in FOCAD-deleted/MTAP-deleted cancers. FOCAD deletion occurs in 20-40% of all MTAP-deleted cancers due to the collateral loss with the tumor suppressor gene CDKN2A/B on chromosome 9p21. Cancers with FOCAD loss are dependent on HBS1L for mRNA processing, thus protein synthesis. By degrading HBS1L and disrupting the HBS1L/PELO complex, TNG961 causes tumor regression in FOCAD-deleted preclinical models of multiple histologies. TNG961 is in the IND-enabling phase of development.",
+    "TNG260 is a first-in-class CoREST inhibitor. In November 2025, we announced that patients with checkpoint inhibitor resistant STK11 mutant/KRAS wild-type NSCLC receiving clinically active doses of TNG260 plus pembrolizumab had a mPFS of 29 weeks (n=5), more than double the standard of care PFS of ~10 weeks. 80 mg QD of TNG260 was selected for dose expansion, which is ongoing for patients.",
+    "Since the Company's inception, we have focused primarily on organizing and staffing our company, business planning, raising capital, discovering product candidates, securing related intellectual property, and conducting research and development activities for our programs. To date, we have funded our operations primarily through equity financings and from the proceeds received from our collaboration agreement with Gilead. Through December 31, 2025, we have raised an aggregate of $1.1 billion from such transactions, including $857.0 million in aggregate gross proceeds from the sale of preferred shares, the closing of our Business Combination, follow-on public and private offerings, and through our \"at-the-market\" stock offering programs, and $237.1 million through our collaboration with Gilead. Additionally, during the first quarter of 2026, and through March 2, 2026, we have received gross proceeds of $62.1 million from our \"at-the-market\" stock offering program.",
+    "We expect that our existing cash, cash equivalents and marketable securities on hand as of December 31, 2025 of $343.1 million, will enable us to fund our operating expenses and capital expenditure requirements into 2028. Since inception, we have incurred significant operating losses. For the years ended December 31, 2025, 2024, and 2023 our net losses were $101.6 million, $130.3 million, and $101.7 million, respectively. We had an accumulated deficit of $603.2 million as of December 31, 2025. We expect to continue to incur significant and increasing expenses and operating losses for the foreseeable future, as we advance our product candidates through preclinical and clinical development and seek regulatory approvals, manufacture drug product and drug supply, and maintain and expand our intellectual property portfolio. We also expect to hire additional personnel, incur accounting, audit, legal, regulatory, consulting, and other costs associated with maintaining compliance with Nasdaq listing rules and the requirements of the U.S. Securities and Exchange Commission, director and officer liability insurance, investor and public relations activities and other expenses associated with operating as a public company. Our net losses may fluctuate significantly from quarter-to-quarter and year-to-year, depending on the timing of our preclinical studies, our clinical trials, and our expenditures on other research and development activities.",
+    "We do not have any product candidates approved for sale and have not generated any revenue from product sales. We will not generate revenue from product sales unless and until we successfully complete clinical development and obtain regulatory approval for our product candidates, if ever. In addition, if we obtain regulatory approval for our product candidates and do not enter into a third-party commercialization partnership, we expect to incur significant expenses related to developing our commercialization capability to support product sales, marketing, manufacturing and distribution activities. As a result, we will need substantial additional funding to support our continuing operations and pursue our growth strategy. Until we can generate significant revenue from product sales, if ever, we expect to finance our operations through a combination of public or private equity offerings and debt financings or other sources, such as potential collaboration agreements, strategic alliances and licensing arrangements. We may be unable to raise additional funds or enter into such other agreements or arrangements when needed on acceptable terms, or at all. Our failure to raise capital or enter into such agreements, as and when needed, could have a negative effect on our business, results of operations and financial condition.",
+    "Because of the numerous risks and uncertainties associated with pharmaceutical development, we are unable to predict the timing or amount of increased expenses or when or if we will be able to achieve or maintain profitability. Even if we are able to generate revenues from the sale of our therapies, we may not become profitable. If we fail to become profitable or are unable to sustain profitability on a continuing basis, then we may be unable to continue our operations at planned levels and be forced to reduce our operations.",
+    "In October 2025, we completed an underwritten offering and a concurrent private placement for the issuance of a total of 22,755,438 shares of common stock at a price of $8.66 per share and pre-funded warrants to purchase 3,226,458 shares of common stock at a purchase price of $8.659 per pre-funded warrant, resulting in gross proceeds of $225.0 million. The pre-funded warrants have an exercise price of $0.001 per share of common stock, are immediately exercisable and will remain exercisable until exercised in full. After deducting expenses related to the offering and private placement of $13.2 million, net proceeds were $211.8 million. Both transactions closed on October 24, 2025. Net proceeds from all financing activities will be used to advance our pipeline and for working capital and other general corporate purposes.",
+    "In November 2025, we entered into a sales agreement (the Leerink Sales Agreement) with Leerink Partners LLC (Leerink) which permitted us to sell from time to time, at its option, up to an aggregate of $100.0 million of shares of its common stock through Leerink, as sales agent. Sales of the common stock, if any, will be made by methods deemed to be \"at-the-market\" stock offerings. The Leerink Sales Agreement will terminate upon the earliest of: (a) the sale of $100.0 million of shares of the Company's common stock or (b) the termination of the Leerink Sales Agreement by the Company or Leerink. As of March 2, 2026, we had sold 4,953,078 shares of common stock under this stock offering program for gross proceeds of $62.1 million."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "我們的產品線",
+    "我們的策略",
+    "精準腫瘤學領域未被滿足的需求",
+    "合成致死作為精準腫瘤學策略",
+    "以生物標記物為導向的患者篩選",
+    "PRMT5 抑製劑",
+    "多種實體腫瘤類型中 MTAP 刪除頻率",
+    "我們的 MTA 協同 PRMT5 抑製劑在 MTAP 刪除癌症中展示出強大的前期臨牀數據",
+    "預臨牀與臨牀組合數據",
+    "臨牀試驗",
+    "Vopimetostat 單獨使用之 Phase 1/2 療程",
+    "Vopimetostat 與 RAS(ON) 抑製劑組合之 Phase 1/2 療程",
+    "TNG456 Phase 1/2",
+    "CoREST 抑製以維持免疫逃逸",
+    "TNG260 Phase 1/2",
+    "製造",
+    "智慧財產權",
+    "政府規範",
+    "藥物之預臨牀研究及臨牀試驗",
+    "藥物之美國市場核准",
+    "罕見疾病藥物指定及獨佔權",
+    "藥物之加速開發與審查計畫"
+   ],
+   "paragraphs": [
+    "Tango Therapeutics 成立時便有明確的使命：發現癌症治療的下一波標的療法，透過針對驅動癌症的特定遺傳變異進行研究。我們運用最先進的標的與藥物發現平台，識別與疾病相關的新標的，並開發針對具高未滿足醫療需求的特定病患族羣的藥物。我們的新型小分子藥物設計為僅在具特定遺傳變異的癌細胞中活躍，殺死這些癌細胞同時保留正常細胞。我們相信此方法將提供深度且持續的標的抑制能力，並具有良好的耐受性與安全性，因此潛在地可最大化臨牀效益。",
+    "目前我們專注於兩種 MTAP 刪除選擇性 PRMT5 抑制劑的臨牀開發：vopimetostat (TNG462) 用於非 CNS 癌症，作為單一療法或與 RAS 抑制劑組合使用，以及 TNG456，我們的下一代、可穿透 CNS 的 PRMT5 抑制劑，用於 CNS 癌症，包括神經膠質母細胞瘤 (GBM)。",
+    "2025 年 10 月，我們報告了 vopimetostat 單一療法在 MTAP 刪除選擇性癌症患者進行中的 Phase 1/2 臨牀試驗的正面數據，顯示在多種癌症類型中具有臨牀活性，且安全性與耐受性良好。具體而言，第二線 MTAP 刪除胰臟癌的數據顯示中位無進步存活時間 (mPFS) 為 7.2 個月，25% 的客觀反應率 (ORR)，支持 2026 年在該病患族羣中啟動關鍵性試驗的計畫。排除肉瘤、胰臟癌與肺癌患者的組織學選擇性族羣也顯示正面數據，中位無進步存活時間為 9.1 個月，49% 的客觀反應率。我們正在評估該組織學選擇性族羣的開發路徑，以及針對特定適應症的單獨開發機會。最後，來自肺癌族羣的初步數據與預期一致，我們預計在 2026 年提供安全性與療效更新。",
+    "我們專注於評估 vopimetostat 與 RAS 抑制劑組合的療效，因為患者族羣重疊、強大的預臨牀數據支持在臨牀試驗中可能產生強烈組合效果，以及單獨使用每種藥物時觀察到的良好的臨牀療效、持續性與安全性。我們認為此方法可能為 MTAP 刪除/RAS 突變患者提供無化療的第一線與潛在第二線治療路徑。2025 年 6 月，我們在組合臨牀試驗中治療了首名患者，評估 vopimetostat 與 RAS(ON) 多選擇性抑制劑 daraxonrasib 及 RAS(ON) G12D 選擇性抑制劑 zoldonrasib (Revolution Medicines) 的組合，截至 2025 年 12 月 24 日，已納入 30 名患者。目前兩種組合均被良好耐受，所有藥物的暴露量均在活躍範圍內，且有鼓勵性的早期療效數據。我們預計在 2026 年提供此試驗的安全性與療效更新。考慮到 vopimetostat 的差異化特性，使其潛在於開發有效的且耐受性良好的 RAS 抑制劑組合，我們在 2026 年 3 月與 Erasca, Inc. (或 Erasca) 籤訂臨牀試驗合作與供應協議 (CTCSA)，評估 vopimetostat 與 Erasca 的 pan-RAS 分子膠 ERAS-0015 的組合。根據協議條款，Tango 是試驗的贊助方，Erasca 會免費供應 ERAS-0015。",
+    "TNG456 是一種可穿透 CNS 的 PRMT5 抑制劑。2025 年 5 月，TNG456 在 Phase 1/2 臨牀試驗的劑量遞增階段治療了首名患者，評估 TNG456 單一療法的安全性、藥動學、藥效學與抗腫瘤活性。目前試驗正在納入 MTAP 刪除實體腫瘤患者，重點在於神經膠質母細胞瘤 (GBM)。我們預計在 2026 年提供此試驗的安全性與療效更新。",
+    "TNG961 是一種新型、強效且選擇性的分子膠開發候選藥物，針對 HBS1L 進行降解，用於 FOCAD 刪除/MTAP 刪除癌症的實體腫瘤。FOCAD 刪除發生在 20-40% 的所有 MTAP 刪除癌症中，這是因為染色體 9p21 上的腫瘤抑制基因 CDKN2A/B 的旁敲側擊損失。具有 FOCAD 損失的癌症依賴 HBS1L 進行 mRNA 處理，因此蛋白質合成。透過降解 HBS1L 並幹擾 HBS1L/PELO 結構域複合體，TNG961 會導致 FOCAD 刪除的預臨牀模型中多種組織學的腫瘤退化。TNG961 目前處於 IND 啓動階段。",
+    "TNG260 是一種第一類 CoREST 抑制劑。2025 年 11 月，我們宣佈，接受 TNG260 加上 pembrolizumab 治療的對 checkpoint 抑制劑產生抗藥性的 STK11 突變/KRAS 野生型 NSCLC 患者，其中位無進步存活時間 (mPFS) 為 29 週 (n=5)，超過標準療法約 10 週的 PFS。80 mg 每日一次的 TNG260 被選為擴展劑量，目前正在進行患者治療。",
+    "我們正在運用我們發現引擎的強大與生產力，每年發現並驗證多個新標的。我們日益增長的開發管道包含多種癌症類型的發現計畫，這些癌症目前治療選項有限，如圖 1 所示。",
+    "圖1. Tango Therapeutics 的產品開發路線圖",
+    "我們正在開創性地探索創新標的癌症治療藥物的發現與開發方法。我們運用以下核心戰略零組件，以追求對癌症患者具有轉變性的治療方案：",
+    "• 推進 vopimetostat 的臨牀開發作為單一療法及與其他療法（包括 RAS 抑製劑）組合使用，於臨牀試驗中以啟動多種註冊路徑，進而服務具有廣大可接觸患者羣與高未滿足需求的市場",
+    "• 推進 TNG456 的臨牀開發於進行中的 Phase 1/2 臨牀試驗，專注於膠質母細胞瘤（GBM）",
+    "• 開發下一代精準癌症治療標的，以持續擴充我們的產品開發路線圖",
+    "• 有策略地評估我們的產品開發路線圖資產，透過策略性合作與授權協議以最大化價值，進而為更多患者提供藥物，加速開發時程並探索我們產品候選藥物的組合治療方式"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "財務概覽",
+    "流動性及資本運用",
+    "營運費用",
+    "截至12月31日年度",
+    "(以千為單位)",
+    "其他收入，淨額",
+    "所得稅費用",
+    "營運成果",
+    "比較截至2025年12月31日及2024年12月31日之年度",
+    "資金來源",
+    "資金需求",
+    "契約義務及承諾",
+    "按期間應支付金額",
+    "關鍵會計政策及重要判斷與估計",
+    "收入認列",
+    "累計研究與發展費用",
+    "最近採用之會計準則聲明",
+    "小型報告公司資格"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運成果的討論與分析，應與本年度截至2025年12月31日止之財務報表及相關附註說明一併閱讀，該財務報表及附註說明載於本10-K年度報告其他處。部分資訊包含於本討論與分析或本10-K年度報告其他處，包括有關我們業務計畫與策略之資訊，係屬前瞻性陳述，涉及風險與不確定性。由於許多因素，包括本10-K年度報告「風險因素」部分所列之因素，我們實際結果可能與本討論與分析中所描述或暗示之結果有重大差異。",
+    "Tango Therapeutics 成立時有明確的使命：發現癌症治療的下一波標的療法，透過解決驅動癌症的特定遺傳變異。我們利用最先進的標的與藥物發現平台，識別與疾病相關的新標的，並開發針對特定病患族羣、具有高度未滿足醫療需求的藥物。我們的新型小分子藥物設計為選擇性作用於具有特定遺傳變異的癌細胞，殺死這些癌細胞，同時保留正常細胞。我們相信此方法將提供深度且持續的標的抑制能力，並具有良好的耐受性與安全性，從而潛在地最大化臨牀效益。",
+    "目前我們專注於兩種 MTAP 刪除選擇性 PRMT5 抑製劑的臨牀開發：vopimetostat（TNG462）用於非 CNS 癌症，作為單一療法或與 RAS 抑製劑組合使用，以及 TNG456，我們下一代可穿透 CNS 的 PRMT5 抑製劑，用於 CNS 癌症，包括神經膠質母細胞瘤（GBM）。",
+    "2025 年 10 月，我們報告了 vopimetostat 單一療法在 MTAP 刪除選擇性癌症患者進行的持續 Phase 1/2 臨牀試驗的正面數據，顯示在多種癌症類型中具有臨牀活性，且安全性與耐受性良好。具體而言，第二線 MTAP 刪除胰臟癌患者的數據顯示中位進展無效生存期（mPFS）為 7.2 個月，25% 的客觀反應率（ORR），支持在 2026 年於此病患族羣中啟動 2L 擬定試驗。組織選擇性族羣（排除肉瘤、胰臟癌與肺癌患者）也顯示正面數據，中位進展無效生存期為 9.1 個月，49% 的客觀反應率。我們正在評估組織選擇性族羣的開發路徑，以及針對特定適應症作為單獨開發機會。最後，來自肺癌族羣的初步數據與預期一致，我們預計在 2026 年提供安全性與有效性更新。",
+    "我們專注於評估 vopimetostat 與 RAS 抑製劑組合的療效，因為患者族羣重疊、強大的預臨牀數據支持在臨牀試驗中可能產生強效組合效果，以及每種藥物單獨使用時觀察到的良好臨牀療效、持續性與安全性。我們相信此方法可能提供化療-free 的一線與潛在二線療法路徑，用於 MTAP 刪除/RAS 突變的胰臟癌與肺癌患者。2025 年 6 月，我們在組合臨牀試驗中治療了第一個患者，評估 vopimetostat 與 RAS(ON) 多選擇性抑制劑 daraxonrasib 以及 RAS(ON) G12D 選擇性抑制劑 zoldonrasib（Revolution Medicines）的組合，截至 2025 年 12 月 24 日，已納入 30 名患者。兩種組合至今皆具有良好耐受性，所有化合物的暴露量均在活性範圍內，且有鼓勵性的早期療效數據。我們預計在 2026 年提供此試驗的安全性與有效性更新。考慮到 vopimetostat 的差異化特性，使潛在的 RAS 抑製劑組合具有療效與耐受性，我們在 2026 年 3 月與 Erasca, Inc.（或 Erasca）簽訂臨牀試驗合作與供應協議（CTCSA），評估 vopimetostat 與 Erasca 的 pan-RAS 分子膠 ERAS-0015 的組合。根據協議條款，Tango 是試驗的贊助方，Erasca 會免費供應 ERAS-0015。",
+    "TNG456 是一種可穿透 CNS 的 PRMT5 抑製劑。2025 年 5 月，TNG456 在 Phase 1/2 臨牀試驗的劑量遞增部分治療了第一個患者，評估 TNG456 單一療法的安全性、藥動學、藥效學與抗腫瘤活性。目前試驗正在納入 MTAP 刪除實體腫瘤患者，重點在於神經膠質母細胞瘤（GBM）。我們預計在 2026 年提供此試驗的安全性與有效性更新。",
+    "TNG961 是一種新型、強效且選擇性的分子膠開發候選藥物，針對 HBS1L 進行降解，用於 FOCAD 刪除/MTAP 刪除癌症的實體腫瘤。FOCAD 刪除發生在所有 MTAP 刪除癌症的 20-40% 中，這是因為與腫瘤抑制基因 CDKN2A/B 在染色體 9p21 上的共損失。具有 FOCAD 損失的癌症依賴 HBS1L 進行 mRNA 處理，因此蛋白質合成。透過降解 HBS1L 並幹擾 HBS1L/PELO 組合，TNG961 會導致 FOCAD 刪除的預臨牀模型中多種組織類型的腫瘤退化。TNG961 預計在 IND 啓動階段進行開發。",
+    "TNG260 是一種第一類 CoREST 抑製劑。2025 年 11 月，我們宣佈，接受 TNG260 加上 pembrolizumab 治療的 STK11 突變/KRAS 野生型 NSCLC 患者，其中位進展無效生存期（mPFS）為 29 週（n=5），超過標準療法約 10 週的進展無效生存期。80 mg 每日一次的 TNG260 被選為劑量擴展，目前正在進行患者治療。",
+    "自本公司成立以來，我們主要致力於組織與編制人力、業務規劃、籌措資金、發現產品候選物、取得相關智慧財產權，以及進行我們各項計畫的研究與開發活動。截至目前為止，我們主要透過 equity financings 以及與 Gilead 籤訂的合作協議所收到的資金來支應營運。截至 2025 年 12 月 31 日，我們透過這些交易共籌得總計 11 億美元，包括透過優先股發行所收到的總計 8.57 億美元 gross proceeds、我們的商業結合交易完成、後續公開與私發募資，以及透過我們的 \"at-the-market\" 股票發行計畫所收到的資金，以及透過與 Gilead 的合作所收到的 2.371 億美元。此外，在 2026 年第一季，以及截至 2026 年 3 月 2 日，我們透過我們的 \"at-the-market\" 股票發行計畫收到總計 6,210 萬美元的 gross proceeds。",
+    "我們預期，截至 2025 年 12 月 31 日我們現有的現金、現金等價物及可交易證券總計 3.431 億美元，將足以支應我們至 2028 年的營運費用與資本支出需求。自成立以來，我們已產生顯著的營運虧損。截至 2025 年 12 月 31 日、2024 年 12 月 31 日及 2023 年 12 月 31 日，我們的淨虧損分別為 1.016 億美元、1.303 億美元及 1.017 億美元。截至 2025 年 12 月 31 日，我們的累積虧損為 6.032 億美元。我們預期在可預見的未來，將持續產生顯著且增加的費用與營運虧損，因為我們推動產品候選物通過臨牀前與臨牀開發，尋求監管核准，製造藥品與藥品供應，並維持與擴展我們的智慧財產權組合。我們也預期會聘請更多員工，產生會計、審計、法律、監管、諮詢及其他與維持符合 Nasdaq 上市規則及美國證券交易委員會要求相關的成本，董事與高階管理人員責任保險，投資者與公共關係活動及其他與營運為上市公司相關的費用。我們的淨虧損可能根據我們臨牀前研究、臨牀試驗及在其他研究與開發活動上的支出時程，而大幅波動。",
+    "我們目前沒有任何已核准上市的產品候選物，也尚未從產品銷售中產生任何收入。我們將不會從產品銷售中產生收入，除非且僅在成功完成臨牀開發並取得產品候選物的監管核准，如果有的話。此外，如果我們取得產品候選物的監管核准，但未與第三方商業化合作夥伴簽訂合作，我們預期將產生與發展我們商業化能力以支持產品銷售、行銷、製造與分銷活動相關的顯著費用。因此，我們將需要大量額外資金來支應我們持續營運及追求成長策略。在我們能從產品銷售中產生顯著收入之前，我們預期將透過公開或私發股權募資、債務融資或其他來源，例如潛在的合作協議、戰略聯盟與授權安排，來支應營運。我們可能無法在需要時以可接受的條件或完全無法籌措資金或簽訂這些協議或安排。我們未能在需要時籌措資金或簽訂這些協議，將對我們的業務、營運結果與財務狀況產生負面影響。",
+    "由於藥物開發所涉及的眾多風險與不確定性，我們無法預測增加的費用時程或我們是否能達成或維持盈利。即使我們能從銷售我們的治療方案中產生收入，我們也可能無法實現盈利。如果我們未能實現盈利或無法持續實現盈利，我們可能無法維持營運在預期的層面上，並被迫減少營運規模。",
+    "2025年10月，我們完成一項經由投資銀行承銷的股票發行及同時進行的私募發行，發行總計22,755,438股普通股，每股價格為8.66美元，並發行預先資助的認購權證，可購買3,226,458股普通股，每股認購權證價格為8.659美元，因此產生總計225.0 百萬美元的毛收入。預先資助的認購權證每股行使價格為0.001美元，可立即行使，並在完全行使前持續有效。扣除發行與私募相關費用13.2 百萬美元後，淨收入為211.8 百萬美元。兩項交易均於2025年10月24日完成。所有融資活動的淨收入將用於推進我們的產品管線，以及營運資金及其他一般企業用途。",
+    "2025 年 11 月，我們與 Leerink Partners LLC（Leerink）簽訂了銷售協議（Leerink Sales Agreement），允許我們在 Leerink 的選擇下，不時出售總計最多 1 億美元的普通股，透過 Leerink 作為銷售代理。普通股的銷售，如果有的話，將透過被視為 \"at-the-market\" 股票發行的方式進行。Leerink Sales Agreement 將在以下情況下終止：(a) 銷售總計 1 億美元的普通股，或 (b) 本公司或 Leerink 撤銷該協議。截至 2026 年 3 月 2 日，我們已透過此股票發行計畫出售 4,953,078 股普通股，總計產生 6,210 萬美元的 gross proceeds。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司有限經營歷史、財務狀況及資金需求相關之風險",
+    "本公司為一精準腫瘤學公司，具有有限之經營歷史。",
+    "自本公司成立以來，我們已產生重大之淨虧損，並預期未來一段時間內仍將持續產生虧損。",
+    "我們預期未來營運結果將有顯著之波動，因本公司業務持續進展。",
+    "本公司目前尚無經核准之產品可供商業銷售，且尚未自產品銷售中產生任何營業收入。",
+    "籌措額外資金可能導致股東持股稀釋，限制本公司營運或要求我們放棄對智慧財產權或產品候選藥物之權利。",
+    "與本公司精準腫瘤學及其他計畫與產品候選藥物之開發相關之風險",
+    "臨牀產品開發涉及漫長且費用高昂的過程，且結果具有不確定性。",
+    "本公司可能產生額外成本或遭遇延宕，導致無法啟動或完成，或最終無法完成產品候選藥物的開發與商業化。",
+    "若本公司遭遇臨牀試驗中病患招募的延宕或困難，將可能導致取得必要監管核准的延宕或無法取得。",
+    "組合療法的開發可能面臨更多或不同的挑戰，與單一藥物療法的開發相比。"
+   ],
+   "paragraphs": [
+    "投資本公司的證券涉及高度風險。您應仔細考慮下列所描述的風險與不確定性，並配合本年度10-K表報表中所有其他資訊，包括財務報表與相關附註，以及「管理層對財務狀況與營運成果之討論與分析」。上述風險因素中之一或多項事件或情況，單獨或與其他事件或情況結合，可能對本公司業務、聲譽、營業收入、財務狀況、營運成果與未來展望造成重大不利影響，屆時本公司普通股的市場價格可能下跌，您可能損失部分或全部投資。上述總結的風險與不確定性（見「與本公司業務相關的重大風險總結」）與下列所描述的風險與不確定性，並非意圖為完整清單，亦非本公司所面臨的唯一風險。尚有其他風險與不確定性，目前本公司尚未知悉或目前認為不重要，也可能影響本公司營運。本年度10-K表報表中亦包含前瞻性陳述，涉及風險與不確定性。本公司實際結果可能與前瞻性陳述中預期的結果有重大差異，原因在於多種因素，包括下列所描述的風險。請參閱上方標題為「關於前瞻性陳述的說明」的段落。",
+    "本公司為一項精準醫療公司，具有有限的營運歷史。生技藥品的開發是一項高度投機的業務，並涉及相當程度的風險。自本公司成立以來，我們已將幾乎所有努力投入於組織與僱用員工、取得與開發智慧財產權、業務規劃、籌資、進行發現、研究與開發活動（包括進行臨牀試驗），以及為這些營運提供一般及行政支援。我們目前尚無已核准上市銷售的產品，因此從未產生任何來自產品銷售的收入，且在可預見的未來也不預期會有。我們從合作協議中所產生的收入亦不足以支應營運。我們尚未取得任何產品候選藥物的監管核准，未來是否能取得核准亦無法確定。美國食品藥物管理局（FDA）已核准五項我們的IND申請（TNG90, vopimetostat, TNG260, TNG348與TNG456）；然而，我們已停止開發TNG908與TNG348。我們的其他產品候選藥物仍處於臨牀前開發階段。我們預期在未來數年內持續產生重大支出與營運虧損，且在可預見的未來亦然。我們過去的虧損，加上預期未來的虧損，已對現金與現金等價物持有量、累積虧損、股東權益與營運資金產生負面影響，並會持續產生。若我們在推進並通過產品候選藥物的監管核准程序時，比預期更快消耗現金資源，則我們的現金儲備可能短於我們偶爾披露的目標。",
+    "",
+    "我們未來虧損的金額不確定，且我們的每季與每季營運結果可能大幅波動，甚至低於投資者或證券分析師的預期，這可能導致本公司股票價格波動或下跌。我們的每季與每季營運結果可能在未來大幅波動，原因在於多種因素，許多因素超出我們的控制範圍，且可能難以預測，包括下列：",
+    " 我們產品候選藥物或競爭產品候選藥物的臨牀試驗進行時間與成功或失敗，或任何產業競爭環境的變動，包括競爭對手或合作夥伴的合併（例如Mirati於2024年1月被Bristol Myers Squibb收購）；",
+    " 我們能否取得產品候選藥物的IND核准、成功開設臨牀試驗場地並招募與留住試驗參與者（包括組合試驗），以及因這些努力中遇到困難而產生的任何延誤；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

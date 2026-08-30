@@ -1,0 +1,203 @@
+{
+ "ticker": "FELE",
+ "cik": "0000038725",
+ "accession": "0000038725-26-000009",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Description of the Business",
+    "Franklin Electric's Key Factors for Success",
+    "Markets and Applications",
+    "Water Systems Segment",
+    "Energy Systems Segment",
+    "Distribution Segment",
+    "Information Regarding All Reportable Segments",
+    "Research and Development",
+    "Raw Materials",
+    "Major Customers",
+    "Environmental Matters",
+    "Human Capital Resources",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Franklin Electric Co., Inc. (\"Franklin Electric\" or the \"Company\") is an Indiana corporation founded in 1944 and incorporated in 1946. Named after America's pioneer electrical engineer, Benjamin Franklin, Franklin Electric manufactured the first water-lubricated submersible motor for water systems and the first submersible motor for fueling systems. With 2025 revenue of approximately $2.1 billion, the Company designs, manufactures and distributes water and fuel pumping systems, composed primarily of submersible motors, pumps, electronic controls, water treatment systems, and related parts and equipment.",
+    "The Company's water pumping systems move fresh and wastewater for the residential, agricultural and other industrial end markets. The Company also sells various groundwater equipment products to well installation contractors, including water pumping systems, through its and third-party distribution branches located in the U.S. With a growing global footprint, the Company has also evolved into a top supplier of submersible fueling systems at gas stations, making pumps, pipes, electronic controls and monitoring devices.",
+    "The Company's products are sold worldwide by its employee sales force and independent manufacturing representatives. The Company offers normal and customary trade terms to its customers, no significant part of which is of an extended nature. Special inventory requirements are not necessary, and customer merchandise return rights do not extend beyond normal warranty provisions.",
+    "While maintaining a culture of safety and lean principles, Franklin Electric strives to deliver quality, availability, service, innovation, and cost in every encounter the Company has with stakeholders, including direct or indirect customers, employees, shareholders, and suppliers. These key factors for success are a roadmap for the Company's growth as a global provider of water and energy systems, through geographic expansion and product line extensions, leveraging its global platform and competency in system design, all while consistently offering the best value to its customer.",
+    "The Company's business consists of three reportable segments based on the principal end market served: Water Systems, Energy Systems, and Distribution. The Company changed the name of the Fueling Systems segment to Energy Systems to reflect its diverse portfolio and growth strategy, as well as to better reflect the markets and customers served by the segment. The Company does not allocate corporate expenses or intersegment eliminations to a reportable segment. Segment and geographic information appears in Note 15 - Segment and Geographic Information to the consolidated financial statements.",
+    "The market for the Company's products is highly competitive and includes diversified accounts by size and type. The Company's Water Systems and Energy Systems products and related equipment are sold to specialty distributors and some original equipment manufacturers (\"OEMs\"), as well as industrial and petroleum equipment distributors and major oil and utility companies. The Company's Distribution segment sells products primarily to water well contractors.",
+    "Water Systems is a global leader in the production and marketing of water pumping systems and is a technical leader in submersible motors, pumps, drives, electronic controls, water treatment systems, and monitoring devices. The Water Systems segment designs, manufactures and sells motors, pumps, drives, electronic controls, monitoring devices, and related parts and equipment primarily for use in groundwater, water transfer and wastewater.",
+    "Water Systems motors, pumps and controls are used principally for pumping clean water and wastewater in a variety of residential, agricultural, municipal and industrial applications. Water Systems also manufactures electronic drives and controls for the motors which control functionality and provide protection from various hazards, such as electrical surges, over-heating and dry wells or dry tanks. In 2023, the Company acquired substantially all of the assets of Action Manufacturing & Supply, Inc. expanding its portfolio in water treatment systems. In 2025, the Company acquired PumpEng Pty Ltd. (\"PumpEng\"), a manufacturer of submersible pumps for the mining sector headquartered in Australia and Barnes de Colombia S.A. (\"Barnes\"), a leading manufacturer and distributor of industrial and commercial pumps based in Colombia.",
+    "Water Systems products are sold in highly competitive markets. Water Systems contributed about 60 percent of the Company's total revenue in 2025. Significant portions of segment revenue come from selling groundwater and surface pumps, motors, and controls for residential and commercial buildings, as well as agricultural sales which are more seasonal and subject to commodity price changes. The Water Systems segment generates approximately 25 to 30 percent of its revenue in developing",
+    "markets, which often lack municipal water systems. As those countries install water systems and further develop with an expanding middle class or improving quality of living, the Company views those markets as an opportunity. The Company has had 6 to 9 percent compounded annual sales growth in developing regions in recent years. Water Systems competes in each of its targeted markets based on product design, quality, performance, availability and price. The Company's principal competitors in the specialty water products industry are Grundfos Management A/S, Pentair, Inc. and Xylem, Inc.",
+    "2025 Water Systems research and development expenditures were primarily related to the following activities:",
+    "•Development of new integrated pressure boosting systems for residential and commercial applications",
+    "•Electronic variable frequency drives and controls for pump applications, including enhancements to include remote communication and IOT capability for our drives and making our key platforms easier to utilize by our customers",
+    "•Dewatering pumping equipment, including the expansion of our electrical submersible pump lines with addition of range, materials, and control packages for the global market"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to the Industry",
+    "Risks Related to the Business"
+   ],
+   "paragraphs": [
+    "The following describes the principal risks affecting the Company and its business. Additional risks and uncertainties, not presently known to the Company, could negatively impact the Company's results of operations or financial condition in the future.",
+    "Reduced housing starts adversely affect demand for the Company's products, thereby reducing revenues and earnings. Demand for certain Company products is affected by housing starts. Variation in housing starts due to economic volatility both within the United States and globally could adversely impact gross margins and operating results.",
+    "The Company's results may be adversely affected by global macroeconomic supply and demand conditions related to the energy and mining industries. The energy and mining industries are users of the Company's products, including the coal, iron ore, gold, copper, oil, and natural gas industries. Decisions to purchase the Company's products are dependent upon the performance of the industries in which our customers operate. If demand or output in these industries increases, the demand for our products will generally increase. Likewise, if demand or output in these industries declines, the demand for our products will generally decrease. The energy and mining industries' demand and output are impacted by the prices of commodities in these industries which are frequently volatile and change in response to general economic conditions, economic growth, commodity inventories, and any disruptions in production or distribution. Changes in these conditions could adversely impact sales, gross margin, and operating results.",
+    "Volatility in the prices and availability of raw materials, components, finished goods and other commodities could adversely affect operations. The Company purchases most of the raw materials for its products on the open market and relies on third parties for the sourcing of certain finished goods. Accordingly, the cost of its products may be affected by changes in the market price and its ability to successfully obtain raw materials, sourced components, or finished goods. The Company and its suppliers also use natural gas and electricity in manufacturing products both of which have historically been volatile. The Company does not generally engage in commodity hedging for raw materials and energy. Significant increases in the prices or disruptions in the supply chain of commodities, sourced components, finished goods, energy or other commodities could cause product prices to increase, which may reduce demand for products or make the Company more susceptible to competition. Furthermore, in the event the Company is unable to pass along increases in operating costs to its customers, margins and profitability may be adversely affected.",
+    "The growth of municipal water systems and increased government restrictions on groundwater pumping could reduce demand for private water wells and the Company's products, thereby reducing revenues and earnings. Demand for certain Company products is affected by rural communities shifting from private and individual water well systems to city or municipal water systems. Many economic and other factors outside the Company's control, including governmental regulations on water quality, and tax credits and incentives, could adversely impact the demand for private and individual water wells. A decline in private and individual water well systems in the United States or other economies in the international markets the Company serves could reduce demand for the Company's products and adversely impact sales, gross margins, and operating results.",
+    "Demand for Energy Systems products is impacted by environmental legislation which may cause significant fluctuations in costs and revenues. Environmental legislation related to air quality and fuel containment may create demand for certain Energy Systems products which must be supplied in a relatively short time frame to meet the governmental mandate. During periods of increased demand, the Company's revenues and profitability could increase significantly, although the Company can also be at risk of not having capacity to meet demand or cost overruns due to inefficiencies during ramp up to the higher production levels. After the Company's customers have met the compliance requirements, the Company's revenues and profitability may decrease significantly as the demand for certain products declines substantially. The risk of not reducing production costs in relation to the decreased demand and reduced revenues could have a material adverse impact on gross margins and the Company's results of operations."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Net Sales-Water Systems",
+    "Net Sales-Energy Systems",
+    "Net Sales-Distribution",
+    "Gross Profit and Expense Ratios",
+    "Gross Profit",
+    "Selling, General and Administrative (\"SG&A\")",
+    "Restructuring Expenses",
+    "Operating Income",
+    "Operating Income-Water Systems",
+    "Operating Income-Energy Systems",
+    "Operating Income-Distribution",
+    "Operating Income-Corporate Expenses and Eliminations",
+    "Interest Expense",
+    "Other Income, net",
+    "Pension settlement loss",
+    "Foreign Exchange",
+    "Income Taxes",
+    "Sources of Liquidity",
+    "Cash Flows from Operating Activities",
+    "2025 vs 2024",
+    "Cash Flows from Investing Activities",
+    "2025 vs. 2024",
+    "Cash Flows from Financing Activities",
+    "Inventory Valuation",
+    "Business Combinations and Valuation of Acquired Intangible Assets",
+    "Indefinite-Lived Intangible Asset and Goodwill Impairment Evaluation",
+    "Pension and Employee Benefit Obligations"
+   ],
+   "paragraphs": [
+    "Discussion of the year-over-year comparison of changes in the Company's financial condition and results of operation as of and for the fiscal years ended December 31, 2024 and December 31, 2023 can be found in Part II, Item 7. \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" of our Annual Report on Form 10-K for the fiscal year ended December 31, 2024.",
+    "In the first quarter of 2025, the Company acquired Barnes de Colombia S.A. (\"Barnes\"), a leading manufacturer and distributor of industrial and commercial pumps based in Colombia. Also in the first quarter of 2025, the Company acquired PumpEng Pty Ltd (\"PumpEng\"), an Australia-based company that specializes in the design, manufacture and service of submersible pumps for the mining sector. Acquisitions contributed $48.9 million in incremental net sales in 2025. Refer to Note 3 – Acquisitions in the Notes to Consolidated Financial Statements included in Part II, Item 8, \"Financial Statements and Supplementary Data\" of this Annual Report on Form 10-K for additional information on the Barnes and PumpEng acquisitions.",
+    "In 2025, the Company completed the process of settling the Franklin Electric Co,, Inc. Pension Plan and a partial settlement of the Franklin Electric Co. Restoration plan resulting in a pre-tax pension settlement charge of $54.9 million related to actuarial losses previously recorded in Accumulated Other Comprehensive Loss. Refer to Note 10 in Item 8 of this Annual Report on Form 10-K for additional information on the pension settlement charge.",
+    "Net sales in 2025 were $2.1 billion and increased 5 percent, as compared to the prior year. The sales increases were due to the incremental sales impact from recent acquisitions, price realization and higher volumes. The Company's consolidated gross profit was $755.9 million and $717.3 million, respectively, for 2025 and 2024, and increased 5 percent from the prior year. Diluted earnings per share was $3.22 for 2025, a decrease of $0.64 from the prior year. Diluted earnings per share for 2025 was negatively impacted by the pension settlement charge of $41.5 million net of tax benefit ($54.9 million gross of tax benefit) related to actuarial losses previously recorded in Accumulated Other Comprehensive Loss. Refer to Note 10 in Item 8 of this Annual Report on Form 10-K for additional information on the pension settlement charge.",
+    "Net sales in 2025 were $2.1 billion and increased 5 percent compared to the prior year. The sales growth in 2025 was due to incremental sales impact from recent acquisitions of approximately 3 percent, price realization, and favorable volumes. Sales were negatively impacted by changes in foreign exchange rates, principally due to the strengthening of the U.S. Dollar relative to the Argentine Peso, Turkish Lira and Brazilian Real. However, the Company increased prices in the local currency to offset the impact of currency devaluation in the Argentina and Turkey highly inflationary economies. As a result, the net negative impact of foreign currency exchange rates on net sales was less than 1 percent in 2025.",
+    "Net Sales (In millions) 2025 2024 2025 v 2024 Water Systems $ 1,256.4 $ 1,184.0 $ 72.4 Energy Systems 299.0 273.7 25.3",
+    "Distribution 700.7 685.5 15.2 Eliminations (124.8) (121.9) (2.9) Consolidated $ 2,131.3 $ 2,021.3 $ 110.0",
+    "Water Systems net sales increased 6 percent in 2025, as compared to the prior year. The sales growth in 2025 was due to incremental sales impact from recent acquisitions of approximately 4 percent and price realization.",
+    "Water Systems net sales in the U.S. and Canada increased 3 percent in 2025, as compared to the prior year. In 2025, sales of large dewatering equipment increased 7 percent, sales of water treatment products increased 6 percent, and sales of groundwater pumping equipment increased 1 percent, and sales of all other surface pumping equipment decreased 1 percent compared to 2024.",
+    "Water Systems net sales in markets outside the U.S. and Canada increased 10 percent in 2025, as compared to the prior year. The sales increase compared to prior year period was primarily due to the incremental sales impact from recent acquisitions.",
+    "Energy Systems net sales increased 9 percent in 2025, as compared to the prior year. This sales increase was primarily due to price realization and favorable volumes.",
+    "Energy Systems net sales in the U.S. and Canada increased 8 percent in 2025, as compared to the prior year. The increase was broad based across all major product lines, led by fuel pumping systems. Outside the U.S. and Canada, Energy Systems sales increased 13 percent in 2025, as compared to the prior year, due primarily to sales growth in the Asia Pacific region.",
+    "Distribution net sales increased 2 percent in 2025, as compared to the prior year. The Distribution segment sales increased due to higher volumes and price realization.",
+    "Twelve months ended Dec 31, (In Millions) 2025 % of Net Sales 2024 % of Net Sales Gross Profit $ 755.9 35.5 % $ 717.3 35.5 %"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "業務說明",
+    "Franklin Electric 成功關鍵因素",
+    "市場與應用",
+    "水系統分部",
+    "能源系統分部",
+    "通路分部",
+    "所有應報告分部之資訊",
+    "研究與開發",
+    "原物料",
+    "主要客戶",
+    "環境事項",
+    "人力資本資源",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "Franklin Electric Co., Inc. (\"Franklin Electric\" or the \"Company\") 為一間設立於1944年、1946年正式登記的印第安納州公司。以美國先驅電氣工程師Benjamin Franklin為名，Franklin Electric製造了第一臺用於水系統的水潤滑潛水馬達，以及第一臺用於燃料系統的潛水馬達。2025年營業收入約為21億美元，本公司設計、製造與分銷水與燃料泵送系統，主要由潛水馬達、泵、電子控制、水處理系統及相關零組件與設備組成。",
+    "本公司的水泵送系統用於住宅、農業及其他工業終端市場，移動清水與廢水。本公司亦向水井安裝承包商銷售各種地下水設備產品，包括水泵送系統，透過本公司與第三方分銷據點位於美國。隨著全球足跡不斷擴張，本公司亦已成為加油站潛水燃料系統的主要供應商，製造泵、管路、電子控制與監測設備。",
+    "本公司產品由其員工銷售團隊與獨立製造代表在全球銷售。本公司對客戶提供正常且慣常的貿易條款，其中並無顯著部分為延長性條款。特殊存貨需求並不需要，且客戶商品退貨權利並未超出正常保固條款。",
+    "在維持安全文化與精益原則的同時，Franklin Electric致力於在與股東、員工、股東與供應商等所有利害關係人每一次接觸中，提供品質、可得性、服務、創新與成本。這些成功關鍵因素為本公司作為全球水與能源系統供應商的成長之路，透過地理擴張與產品線延伸，善用其全球平台與系統設計的專業能力，同時持續為客戶提供最佳價值。",
+    "本公司業務包含三個應報告分部，根據所服務的主要終端市場區分：水系統、能源系統與分銷。本公司將燃料系統分部更名為能源系統，以反映其多元化的產品組合與成長策略，並更貼切反映該分部所服務的市場與客戶。本公司不將企業費用或分部間抵銷歸屬於任何應報告分部。分部與地理資訊請參閱第15節－分部與地理資訊，於合併財務報表中。",
+    "本公司產品市場高度競爭，包含不同規模與類型的多元化客戶。本公司水系統與能源系統產品及相關設備銷售給專業經銷商與部分原廠設備製造商（\"OEMs\"），以及工業與石油設備經銷商與主要油氣與電力公司。本公司分銷分部主要銷售產品給水井承包商。",
+    "水系統為全球水泵送系統生產與行銷的領導者，並在潛水馬達、泵、驅動器、電子控制、水處理系統與監測設備方面為技術領導者。水系統分部設計、製造與銷售馬達、泵、驅動器、電子控制、監測設備及相關零組件與設備，主要用於地下水、水轉移與廢水處理。",
+    "水系統馬達、泵與控制設備主要用於泵送清水與廢水，應用於住宅、農業、市區與工業等多種應用場景。水系統亦製造馬達的電子驅動器與控制設備，用以控制功能並提供防護，避免如電氣過載、過熱與乾井或乾儲槽等各種危險。2023年，本公司取得Action Manufacturing & Supply, Inc. substantially all的資產，擴充其水處理系統產品組合。2025年，本公司取得PumpEng Pty Ltd. (\"PumpEng\")，一家位於澳洲、專門製造礦業用潛水泵的製造商，以及Barnes de Colombia S.A. (\"Barnes\")，一家位於哥倫比亞、為工業與商業泵製造與分銷領導廠商。",
+    "Water Systems 產品在高度競爭的市場中銷售。Water Systems 在 2025 年貢獻了本公司總營業收入約 60％。該應報告分部的收入有相當大一部分來自銷售用於住宅及商業大樓的地下水及地表泵、馬達及控制系統，以及較具季節性且受商品價格變動影響較大的農業銷售。Water Systems 產生約 25 到 30％的收入來自開發中市場，這些市場通常缺乏市區水系統。隨著這些國家安裝水系統並因中產階層擴張或生活品質改善而進一步發展，本公司視這些市場為機會。本公司在開發中地區的年複合銷售成長率為 6 到 9％。Water Systems 在其目標市場中根據產品設計、品質、性能、可取得性及價格進行競爭。本公司在專業水產品產業的主要競爭對手為 Grundfos Management A/S、Pentair, Inc. 及 Xylem, Inc。",
+    "2025 年 Water Systems 研發支出主要與以下活動相關：",
+    "2025 年 Water Systems 研發支出主要與以下活動相關：",
+    "•研發用於住宅及商業用途的新整合式壓力增壓系統",
+    "•用於泵浦應用的電子變頻驅動器與控制系統，包括增強功能以支援遠端通訊及IOT能力，使本公司驅動器更容易被客戶使用",
+    "•排水泵設備，包括擴充電氣浸入式泵產品線，新增範圍、材料及控制套件以符合全球市場需求"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "淨銷售額-水系統",
+    "淨銷售額-能源系統",
+    "淨銷售額-配送",
+    "毛利率與費用率",
+    "毛利",
+    "營銷、一般及行政費用（\"SG&A\"）",
+    "重整費用",
+    "營運收入",
+    "營業收入-水系統",
+    "營業收入-能源系統",
+    "營業收入-配電",
+    "營業收入-公司費用及消滅項目",
+    "利息費用",
+    "其他收入、淨額",
+    "退休金設置損失",
+    "外匯",
+    "所得稅",
+    "資金來源",
+    "營運活動之現金流",
+    "2025 年與 2024 年比較",
+    "投資活動之現金流",
+    "2025 年與 2024 年比較",
+    "籌資活動之現金流",
+    "存貨評價",
+    "企業併購及取得無形資產之評估",
+    "無限期存續無形資產及商譽減損評估",
+    "退休金及員工福利義務"
+   ],
+   "paragraphs": [
+    "有關本公司財務狀況及營運成果年度比較之討論，可於我們 2024 年財務年度終止日為 2024 年 12 月 31 日之年度報告表 10-K 中，第二部分，第 7 項「管理層對財務狀況及營運成果之討論與分析」中找到。",
+    "民國114年第一季，本公司取得Barnes de Colombia S.A.（\"Barnes\"），為位於哥倫比亞的工業及商業泵主要製造與經銷商。同時在民國114年第一季，本公司取得PumpEng Pty Ltd（\"PumpEng\"），為位於澳洲專門從事礦業用潛水泵設計、製造與服務的公司。取得之資產於2025年貢獻48.9 百萬美元之增量淨銷售額。有關Barnes及PumpEng之取得資訊，請參閱本年度10-K表報Part II，第8項\"財務資料與補充資料\"所附會計師核閱財務報表之附註3 – 取得資產之說明。",
+    "2025 年，本公司完成 Franklin Electric Co., Inc. 資遣金計畫的處理程序，並部分處理 Franklin Electric Co. 恢復計畫，導致與先前記入累積其他綜合損益之精算損失相關的預稅資遣金處理費用 54.9 百萬美元。有關資遣金處理費用的更多資訊，請參閱本年度 10-K 報告第 8 項附註 10。",
+    "2025 年淨銷售額為 2.1 十億美元，較前一年成長 5％。銷售成長係因近期併購帶來的增量銷售影響、價格實化及較高出貨量所致。本公司合併毛利率為 2025 年 755.9 百萬美元及 2024 年 717.3 百萬美元，較前一年成長 5％。2025 年稀釋每股盈餘為 3.22 美元，較前一年減少 0.64 美元。2025 年稀釋每股盈餘受退休金結清費用影響，該費用為 41.5 百萬美元（扣除稅務好處後）或 54.9 百萬美元（未扣除稅務好處），與先前記錄於累積其他綜合損益的精算損失有關。有關退休金結清費用的額外資訊，請參閱本年度報告表 10-K 第 8 項附註 10。",
+    "2025年淨銷售額為21億美元，較前一年成長5％。2025年銷售成長主要來自約3％之近期取得增量銷售影響、價格實現及有利銷售量。銷售受到外匯匯率變動之影響，主要係因美元相對於阿根廷比索、土耳其里拉及巴西雷亞爾強化所致。然而，本公司於阿根廷及土耳其高度通貨膨脹經濟體中提高當地貨幣價格以抵銷貨幣貶值之影響。因此，2025年外幣匯率變動對淨銷售額之淨負面影響低於1％。",
+    "淨銷售額（單位：千萬美元） 2025 2024 2025 v 2024 水系統 $ 1,256.4 $ 1,184.0 $ 72.4 能源系統 299.0 273.7 25.3",
+    "經銷 700.7 685.5 15.2 減除 (124.8) (121.9) (2.9) 合併 $ 2,131.3 $ 2,021.3 $ 110.0",
+    "2025年水系統淨銷售額較前一年成長6％。2025年銷售成長主要來自約4％之近期取得增量銷售影響及價格實現。",
+    "Water Systems 淨銷售額於美國及加拿大地區，2025 年較前一年成長 3％。2025 年，大型脫水設備銷售成長 7％，水處理產品銷售成長 6％，地下水抽水設備銷售成長 1％，而所有其他地表抽水設備銷售則較 2024 年減少 1％。",
+    "Water Systems 淨銷售額於美國及加拿大以外的市場，2025 年較前一年成長 10％。與前一年期間相比，銷售成長主要由於近期收購所帶來的增量銷售影響。",
+    "Energy Systems 淨銷售額於 2025 年較前一年成長 9％。此銷售成長主要由於價格實現及有利的銷售量。",
+    "Energy Systems 淨銷售額於美國及加拿大地區，2025 年較前一年成長 8％。成長為所有主要產品線廣泛分佈，以燃料抽水系統為主導。美國及加拿大以外地區，Energy Systems 銷售於 2025 年較前一年成長 13％，主要由於亞太地區銷售成長。",
+    "Distribution 淨銷售額於 2025 年較前一年成長 2％。Distribution 分部銷售成長由於較高的銷售量及價格實現。",
+    "十二個月結帳日為 12 月 31 日（單位：千萬美元）2025 年 淨銷售額佔比 2024 年 淨銷售額佔比 毛利 $ 755.9 35.5％ $ 717.3 35.5％"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'original': 'Risks Related to the Industry', 'translated': '產業相關風險'}",
+    "{'original': 'Risks Related to the Business', 'translated': '營運相關風險'}"
+   ],
+   "paragraphs": [
+    "以下說明影響本公司及其業務的主要風險。尚有其他風險與不確定性，目前本公司尚未知悉，這些風險與不確定性可能在未來對本公司營運成果或財務狀況造成負面影響。",
+    "住宅開工數下降會不利於本公司產品的需求，進而降低營業收入與獲利。某些本公司產品的需求受住宅開工數影響。由於美國與全球經濟波動所導致的住宅開工數變動，可能對毛利率與營運成果造成負面影響。",
+    "本公司營運成果可能受到全球總體經濟供需條件的影響，這些條件與能源與礦業相關。能源與礦業是本公司產品的使用者，包括煤炭、鐵礦、金、銅、石油與天然氣等產業。客戶購買本公司產品的決策取決於其所在產業的表現。若這些產業的需求或產出增加，本公司產品的需求通常也會增加。反之，若這些產業的需求或產出減少，本公司產品的需求通常也會減少。能源與礦業的需求與產出受到這些產業內商品價格的影響，而這些價格通常波動很大，並會根據總體經濟狀況、經濟成長、商品存貨以及生產或流通中斷的情況而變化。這些條件的變化可能對銷售額、毛利率與營運成果造成負面影響。",
+    "原材料、零組件、成品及其他商品的價格與供應量波動可能對營運造成負面影響。本公司大部分原材料是透過公開市場購入，並依賴第三方來取得部分成品。因此，產品成本可能受到市場價格變動及本公司能否成功取得原材料、來源零組件或成品的影響。本公司及其供應商在製造產品時也使用天然氣與電力，而這兩者價格歷來波動很大。本公司通常不進行原材料與能源的期貨對沖。若原材料、來源零組件、成品、能源或其他商品的價格大幅上漲或供應鏈中斷，可能導致產品價格上漲，進而降低產品需求或使本公司更容易受到競爭威脅。此外，若本公司無法將營運成本的增加轉嫁給客戶，則毛利率與獲利可能受到負面影響。",
+    "市立水系統的成長與政府對地下水抽取的限制可能降低私人水井與本公司產品的需求，進而降低營業收入與獲利。某些本公司產品的需求受到鄉村社區從私人與個人水井系統轉向市立或市營水系統的影響。許多經濟與其他因素超出本公司控制範圍，包括水質規範與稅收抵免與鼓勵措施，可能對私人與個人水井的需求造成負面影響。美國或其他本公司服務的國際市場中私人與個人水井系統減少，可能降低本公司產品的需求，並對銷售額、毛利率與營運成果造成負面影響。",
+    "能源系統產品的需求受到環境法規的影響，可能導致成本與收入出現顯著波動。與空氣品質與燃料儲存相關的環境法規可能創造對某些能源系統產品的需求，這些產品必須在相對短的時間內供應以符合政府規定。在需求增加的期間，本公司收入與獲利可能顯著增加，但本公司也可能因在提高生產水平時效率不足而無法滿足需求或出現成本超支的風險。當本公司客戶已符合相關規範後，本公司收入與獲利可能顯著下降，因某些產品的需求大幅減少。若無法在需求減少與收入下降的情況下降低生產成本，可能對毛利率與本公司營運成果造成重大負面影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

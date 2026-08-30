@@ -1,0 +1,215 @@
+{
+ "ticker": "IKT",
+ "cik": "0001750149",
+ "accession": "0001193125-26-126371",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Overview",
+    "Our Portfolio",
+    "Market and Commercial Opportunity",
+    "History of Business Operations and Key Events",
+    "Material Agreements",
+    "Collaborative Research and Development Agreement with Sphaera Pharma Pte. Ltd.",
+    "Consulting Agreements",
+    "Manufacturing",
+    "Commercialization Plan",
+    "Intellectual Property",
+    "Government Regulation",
+    "Preclinical Studies",
+    "Clinical Trials",
+    "Marketing Approval",
+    "Special FDA Expedited Review and Approval Programs",
+    "Accelerated Approval Pathway",
+    "505(b)(2) Pathway",
+    "Orphan Drug Designation and Exclusivity",
+    "Post-Approval Requirements"
+   ],
+   "paragraphs": [
+    "We are a clinical-stage pharmaceutical company developing therapeutics to modify the course of cardiopulmonary diseases, namely, Pulmonary Arterial Hypertension (\"PAH\"), in which aberrant signaling through type III receptor tyrosine kinases, including platelet derived growth factor receptors and a stem cell factor receptor, known as \"c-Kit\", has been implicated. Our lead product candidate is IKT-001, a prodrug of imatinib mesylate (\"imatinib\"), for PAH which is an orphan indication. Imatinib was first approved in the United States in 2001 for various cancers and blood disorders and, following more than 20 years of clinical use, has a well-characterized safety profile with the first reported use of imatinib in PAH occurring in 2005. PAH is a progressive, life-threatening disease characterized by pulmonary vascular remodeling and elevated pulmonary vascular resistance that affects approximately 50,000 Americans. We have completed a non-human primate safety study and a bioequivalence clinical study in healthy volunteers to determine the doses of IKT-001 that are equivalent to imatinib. Our Phase 3 clinical study, named IMPROVE-PAH (IKT-001 for Measuring Pulmonary Vascular Resistance and Outcome Variables in a Phase 3 Evaluation of PAH), has been initiated with the activation of a small number of sites and the recent commencement of patient pre-screening activities at those sites.",
+    "IKT-001 emerged from our medicinal chemistry program that targeted improving drugs that inhibit Abelson Tyrosine Kinase and type III receptor tyrosine kinases. IKT-001, a novel oral prodrug of imatinib, was designed to improve areas of the molecule that might play a role in the gastrointestinal (\"GI\") side effects commonly observed with imatinib. More specifically, when compared directly with imatinib in vitro, IKT-001 has significantly less inhibitory activity at target tyrosine kinases including c-Kit which has been implicated in the GI side effects of imatinib. As we considered developing IKT-001 in PAH, we also recognized that the learnings of over 20-years of oncology clinical experience with imatinib, together with changes in the standard of care for these patients, may have alleviated much of the safety risk previously observed for imatinib in PAH patients.",
+    "The first reported uses of imatinib in PAH were published in 2005 and 2006. A Phase 2, randomized controlled trial, was subsequently conducted and published in 2010 showing clinical benefit of imatinib in PAH. In 2013, the outcome of a Phase 3 study, known as IMPRES, evaluating imatinib as a treatment for PAH was published, demonstrating that imatinib may improve key parameters associated with PAH. In this study, imatinib improved exercise capacity and hemodynamics in patients with advanced PAH. The original sponsor submitted a New Drug Application (\"NDA\") for the PAH indication but subsequently withdrew it, and we believe this may have been influenced by the IMPRES study's high discontinuation rate in the imatinib group together with evidence of a bleeding risk associated with older-style anticoagulants, specifically vitamin K antagonists, for which there is a known drug-drug interaction. These studies and broader clinical experiences have been highly informative for the design of both our pro-drug, IKT-001, and the Company's clinical development strategy for IKT-001.",
+    "A three-part dose finding/dose equivalence study in 66 healthy volunteers (known as \"the 501 trial\") was completed with IKT-001 in 2023. The study was designed to evaluate the 96-hour single-dose pharmacokinetics of imatinib delivered as IKT-001 and determine the dose relationship between IKT-001 and imatinib. Based on this study it was determined that bioequivalence was established with a 300 mg dose of IKT-001 bioequivalent to a dose of 230 mg of imatinib, while a 400 mg dose of IKT-001 was established as bioequivalent to a dose of 306 mg of imatinib and a 500 mg dose of IKT-001 was established as bioequivalent to a dose of 383 mg of imatinib. We believe these doses are adequate to provide sustained target inhibition systemically and were similar to the doses of imatinib used in the Phase 3 IMPRES study in PAH.",
+    "On January 19, 2024, we met with the Food and Drug Administration (\"FDA\") Hematological Malignancy Review Team (\"Review Team\") in a Pre-New Drug Application (\"pre-NDA\") to discuss our bioequivalence studies of IKT-001 and the potential path to approval. All questions were addressed and summarized in official meeting minutes issued by the FDA on February 12, 2024. During the meeting, we inquired whether additional clinical studies would be needed to seek approval and discussed manufacturing and quality control requirements for approval. The Review Team acknowledged that the 505(b)(2) pathway appeared to be the appropriate pathway for approval of IKT-001.",
+    "The 501 trial together with our interactions with the Review Team and our analysis of the Phase 3 IMPRES trial in PAH prompted us to file a pre-IND (\"PIND\") meeting request to discuss the application of IKT-001 as a potential disease-modifying treatment for PAH. To evaluate this further, members of the Company met with the FDA Division of Cardiology and Nephrology in a PIND meeting to discuss our plan to utilize IKT-001 in a Phase 2b efficacy, safety and tolerability study in PAH. At the meeting, the FDA confirmed that IKT-001 would be viewed as a New Molecular Entity (\"NME\") and that the appropriate path for approval remained the 505(b)(2) pathway. This opened up the possibility of IKT-001 being granted NME status and market exclusivity on approval. The IND was filed with the FDA on August 9, 2024 and we were cleared to initiate a Phase 2b trial on September 9, 2024 with the Company planning to",
+    "initiate a Phase 2b study in 150 subjects in PAH prior to advancing to a global pivotal Phase 3 study. However, in August 2025, we submitted a Type C Meeting request to the FDA to, among other things, obtain feedback on an immediate transition to a single pivotal Phase 3 program.",
+    "Following receipt from the FDA of the Written Response from the Type C interaction on November 12, 2025, we have initiated a two-part adaptive Phase 3 study in approximately 180 sites around the world. Part A of IMPROVE-PAH is a double blind, placebo-controlled study in approximately 140 patients with a primary endpoint of PVR at Week 24. Part B adopts an identical format to Part A except the primary endpoint will be 6-minute walk distance at Week 24 in approximately 346 patients. We believe this adaptive Phase 3 study design has important advantages including (1) permitting a 12-week dose-titration phase designed to get patients to the highest tolerable dose of IKT-001; (2) uninterrupted enrollment between Part A and Part B; and (3) the ability to, if necessary, undertake a sample size re-estimation for Part B based on Part A findings. Given that we were well-advanced in initiating the previous Phase 2b study design prior to transitioning to the Phase 3 study design, we have initiated a small number of clinical sites in IMPROVE-PAH and have recently commenced patient pre-screening activities in those sites.",
+    "More recently, two contemporary studies have been published which, acknowledging the limitations of cross study comparisons and different or smaller sample and patient profiles, supports the Company's thesis that IKT-001's potential for improved tolerability together with gradual titration to potentially enable the maximal tolerable dose of imatinib may allow systemic exposure of imatinib to be well tolerated with the potential to provide strong efficacy to patients suffering from PAH. Firstly, the American Journal of Respiratory and Critical Care Medicine reported an open label, single arm, four (4) center study of oral imatinib in seventeen (17) World Health Organization (\"WHO\") Group 1 PAH patients. The study confirmed imatinib was generally well tolerated (with zero discontinuations for study drug intolerance or side effects) and provided evidence of dose and exposure dependent improvements in total pulmonary resistance (\"TPR\") that compares favorably with other novel therapies for PAH, including sotatercept and seralutinib. Furthermore, the study provided evidence of improvements in hemodynamic measures persisting after discontinuation of imatinib treatment which may suggest imatinib's potential to reverse pulmonary vascular remodeling in PAH patients. Secondly, the American Journal of Respiratory and Critical Care Medicine reported the IMPAHCT study which was a Phase 2b study evaluating inhaled imatinib in patients with PAH receiving at least two background therapies. This study confirmed that imatinib delivered by inhalation at relatively low doses was unable to demonstrate a statistically significant therapeutic effect. Taken together, these studies re-affirm our belief that administering IKT-001 orally so as to achieve imatinib systemic exposures consistently above the half-maximal inhibition concentration, known as IC50, for the target tyrosine kinases has the dual potential of improving hemodynamics and exercise tolerance while providing robust disease-modifying improvements in efficacy in patients with PAH. In addition, the design of the IKT-001 as a pro-drug may improve tolerability and adherence which may enable consistent exposure to the maximally tolerated dose.",
+    "We have had discussions with the FDA regarding Orphan Drug Designation (\"ODD\") for delivery of imatinib by IKT-001 for PAH and are in the process of applying for ODD having successfully completed the required pre-clinical studies.",
+    "We currently have global commercialization rights to IKT-001 and patent protection in the United States until 2039 for IKT-001 including potential patent term extension with upcoming patent application filings potentially extending patent protection for certain methods of treatment using IKT-001 until 2044.",
+    "PAH is a rare disease of the pulmonary microvasculature found in 15 to 50 persons per million within the United States and Europe. The estimated global PAH market size was valued at approximately $8.3 billion in 2025 and is estimated to grow at a compound annual growth rate of 3.3% through 2034. Most of the current treatments that constitute the standard of care (e.g., ERAs, PDE5s, prostacyclins) primarily act as vasodilators. In 2024, sotatercept was approved for the treatment of PAH on top of standard-of-care. Sotatercept, branded as WINREVAIR, is a recombinant fusion protein that acts as a trap for transforming growth factor-beta superfamily ligands, including activin A and bone morphogenetic protein 9. These ligands may play a role in the development and progression of PAH by promoting cell proliferation and fibrosis.",
+    "Sotatercept was launched by Merck & Co in 2024 and generated revenue of $1.44 billion in 2025 with continuous quarter-on-quarter growth since launch. The success of sotatercept has created renewed enthusiasm around the anti-proliferative pathways in PAH. As previously mentioned, imatinib inhibits type III receptor tyrosine kinases and through these pathways inhibits platelet-derived growth factor receptors which are involved in cell proliferation and migration as well as c-Kit which modulates mast cell and hematopoietic stem cell activity. Through these targets, imatinib may inhibit vascular cell proliferation, migration and fibrosis. Thus, targeting the type III receptor tyrosine kinase pathway may provide an alternate mechanism for disease modification in PAH.",
+    "Seralutinib is an inhaled small-molecule tyrosine kinase inhibitor that targets key receptors implicated in PAH pathobiology, being platelet-derived growth factor receptors (PDGFRα/β), colony-stimulating factor-1 receptor (CSF1R), and c-Kit. In preclinical PAH models, seralutinib has demonstrated anti-proliferative activity, and Phase 2 and 3 clinical studies have provided supportive"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Summary of Risks Associated with Our Business",
+    "Risks Related to Our Business, Financial Condition and Capital Requirements",
+    "If we are unable to successfully raise additional capital on a timely basis or on acceptable terms, our clinical trials and product development could be limited or delayed and our long-term viability may be threatened.",
+    "Our business is affected by macroeconomic conditions, including rising inflation, interest rates and supply chain constraints.",
+    "We have incurred significant net losses since our inception and anticipate that we will continue to incur net losses for the foreseeable future.",
+    "If we fail to obtain additional financing on a timely basis or on acceptable terms, we may be unable to complete the development of and, if approved, commercialization of our current and future product candidates.",
+    "Risks Related to the Discovery, Development and Commercialization of Our Product Candidates",
+    "We have never completed a registrational clinical trial as a company and may be unable to successfully do so with IKT-001, which may make it difficult to evaluate the prospects for our future viability.",
+    "We may encounter substantial delays in our current and planned clinical trials, or may not be able to conduct or complete our clinical trials on the timelines we expect, if at all.",
+    "We may encounter difficulties enrolling patients in our current and planned clinical trials, and our clinical development activities could thereby be delayed or otherwise adversely affected."
+   ],
+   "paragraphs": [
+    "Investing in our securities involves a high degree of risk. You should carefully consider the risks described below, as well as the other information in this Annual Report, including our financial statements and the related notes and the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" before deciding whether to purchase, hold or sell our securities. The occurrence of any of the events or developments described below could harm our business, financial condition, results of operations and growth prospects. In such an event, the market price of our securities could decline, and you may lose all or part of your investment. Additional risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business operations.",
+    "Our business is subject to numerous risks and uncertainties that you should consider before investing in our Company.",
+    "These risks include, but are not limited to, the following:",
+    "• We are a clinical-stage drug development company with limited resources, no revenue, a limited operating history and have no products approved for commercial sale, which may make it difficult to evaluate our current business and predict our future success and viability;",
+    "• If we are unable to successfully raise additional capital on a timely basis or on acceptable terms, our clinical trials and product development could be limited or delayed and our long-term viability may be threatened;",
+    "• Drug development is a highly uncertain undertaking and involves a substantial degree of risk. We have never generated any revenue from product sales and, we may never gain approval for our product candidates or, even if our product candidates are approved, generate any revenue from product sales or be profitable;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Components of Operating Results",
+    "Operating Expenses",
+    "Year ended December 31,",
+    "Selling, General and Administrative",
+    "Results of Operations",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "For the year ended December 31,",
+    "Liquidity and Capital Resources",
+    "Sources of Liquidity",
+    "Future Funding Requirements",
+    "Net Cash Flows Used in Operating Activities",
+    "Cash Provided by (Used in) Investing Activities",
+    "Cash Provided by Financing Activities",
+    "Contractual Obligations and Commitments",
+    "Critical Accounting Policies and Significant Judgments and Estimates",
+    "Research and Development Expenses",
+    "Stock-Based Compensation",
+    "Contingent Consideration Liabilities",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations together with our consolidated financial statements and the related notes to those statements included elsewhere in this Annual Report. This discussion and analysis and other parts of this Annual Report contain forward-looking statements based upon current beliefs, plans and expectations related to future events and our future financial performance that involve risks, uncertainties and assumptions, such as statements regarding our intentions, plans, objectives, expectations, forecasts and projections. Our actual results and the timing of selected events could differ materially from those anticipated in these forward-looking statements as a result of several factors, including those set forth under the section titled \"Risk Factors\" and elsewhere in this Annual Report. You should carefully read the \"Risk Factors\" to gain an understanding of the important factors that could cause actual results to differ materially from our forward-looking statements. Please also see the section titled \"Special Note Regarding Forward-Looking Statements.\"",
+    "We are a clinical-stage pharmaceutical company developing therapeutics to modify the course of cardiopulmonary diseases, namely, Pulmonary Arterial Hypertension (\"PAH\"), in which aberrant signaling through type III receptor tyrosine kinases, including platelet derived growth factor receptors and a stem cell factor receptor, known as \"c-Kit\", has been implicated. Our lead product candidate is IKT-001, a prodrug of imatinib mesylate (\"imatinib\"), for PAH which is an orphan indication. Imatinib was first approved in the United States in 2001 for various cancers and blood disorders and, following more than 20 years of clinical use, has a well-characterized safety profile with the first reported use of imatinib in PAH occurring in 2005. PAH is a progressive, life-threatening disease characterized by pulmonary vascular remodeling and elevated pulmonary vascular resistance that affects approximately 50,000 Americans. We have completed a non-human primate safety study and a bioequivalence clinical study in healthy volunteers to determine the doses of IKT-001 that are equivalent to imatinib. Our Phase 3 clinical study, named IMPROVE-PAH (IKT-001 for Measuring Pulmonary Vascular Resistance and Outcome Variables in a Phase 3 Evaluation of PAH), has been initiated with the activation of a small number of sites and the recent commencement of patient pre-screening activities at those sites.",
+    "Research and development activities account for a significant portion of our operating expenses. Research and development expenses accounted for 57% and 60% of our operating expenses for the years ended December 31, 2025 and 2024, respectively. We record research and development expenses as incurred. Research and development expenses incurred by us for the discovery and development of our product candidates and prodrug technologies include:",
+    "• external research and development expenses, including expenses incurred under arrangements with third parties, such as contract research organizations (\"CROs\"), preclinical testing organizations, clinical testing organizations, contract manufacturing organizations (\"CMOs\"), academic and non-profit institutions and consultants;",
+    "• fees related to our license and collaboration agreements;",
+    "• personnel related expenses, including salaries, benefits and non-cash stock-based compensation expense; and",
+    "• other expenses, which include direct and allocated expenses for laboratory, facilities and other costs.",
+    "A portion of our research and development expenses are direct external expenses, which we track on a program-specific basis from inception of the program.",
+    "Program expenses include expenses associated with our most advanced product candidates and the discovery and development of compounds that are potential future candidates. We also track external expenses associated with our third-party research and development efforts. All external costs are tracked by therapeutic indication. We do not track other operating expenses incurred for our research and development programs on a program-specific basis. These expenses primarily relate to stock-based compensation and office consumables.",
+    "At this time, we can only estimate the nature, timing and costs of the efforts that will be necessary to complete the development of, and obtain regulatory approval for, any of our product candidates. We are also unable to predict when, if ever, material net cash inflows will commence from sales or licensing of our product candidates. This is due to the numerous risks and uncertainties associated with drug development, including the uncertainty of:",
+    "• our ability to add and retain key research and development personnel and other key employees;",
+    "• our ability to successfully file IND and NDA applications with the FDA; • our ability to commence and conduct trials;",
+    "• our ability to establish an appropriate safety or tolerability profile with IND-enabling toxicology studies;",
+    "• our ability to successfully develop, obtain regulatory approval for, and then successfully commercialize, our product candidates;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'translatedText': '公司簡介'}",
+    "{'translatedText': '產品組合'}",
+    "{'translatedText': '市場與商業機會'}",
+    "{'translatedText': '業務運作歷史及重要事件'}",
+    "{'translatedText': '重大契約'}",
+    "{'translatedText': '與 Sphaera Pharma Pte. Ltd. 籤訂之合作研究與開發契約'}",
+    "{'translatedText': '顧問契約'}",
+    "{'translatedText': '製造'}",
+    "商業化計畫",
+    "智慧財產權",
+    "政府規範",
+    "前期臨牀研究",
+    "臨牀試驗",
+    "市場許可",
+    "特殊FDA加速審查與許可計畫",
+    "加速許可途徑",
+    "{'original': '505(b)(2) Pathway', 'translated': '505(b)(2) 途徑'}",
+    "{'original': 'Orphan Drug Designation and Exclusivity', 'translated': '罕見疾病藥物指定與獨佔權'}",
+    "{'original': 'Post-Approval Requirements', 'translated': '上市後要求'}"
+   ],
+   "paragraphs": [
+    "本公司為一家臨牀階段的製藥公司，致力於開發用以改變肺動脈 hypertension（\"PAH\"）病程的治療藥物，其中 PAH 被認為與透過 type III 受體酪氨酸激酶（包括血小板衍生成長因子受體及 stem cell factor 受體，稱為 \"c-Kit\"）的異常訊號傳導有關。本公司主要產品候選藥物為 IKT-001，為 imatinib mesylate（\"imatinib\"）的前藥，用於 PAH，此為一種罕見病。imatinib 於 2001 年首先獲美國核准用於各種癌症及血液疾病，經過超過 20 年的臨牀使用後，其安全性已相當明確，第一個報導 imatinib 用於 PAH 的案例發生於 2005 年。PAH 為一種進行性、威脅生命的疾病，特徵為肺血管重塑及肺血管阻力升高，影響約 50,000 名美國人。本公司已完成非人類靈長類動物安全性研究及健康志工的生物相等性臨牀研究，以確定 IKT-001 的劑量與 imatinib 等效。本公司 Phase 3 臨牀研究，名為 IMPROVE-PAH（IKT-001 用以測量肺血管阻力及結果變數的 Phase 3 評估），已啟動，並啟動少量研究機構，且近期在這些機構開始進行受試者篩選活動。",
+    "IKT-001 來自本公司藥物化學計畫，目標為改善抑制 Abelson 酪氨酸激酶及 type III 受體酪氨酸激酶的藥物。IKT-001 為 imatinib 的新型口服前藥，設計用以改善分子中可能導致胃腸（\"GI\"）副作用的區域。更明確地說，與 imatinib 直接比較時，IKT-001 在目標酪氨酸激酶（包括 c-Kit）的抑制活性顯著較低，而 c-Kit 被認為與 imatinib 的胃腸副作用有關。在考慮開發 IKT-001 用於 PAH 時，我們也認知到，超過 20 年的癌症臨牀經驗與 imatinib 以及這些患者的標準照護改變，可能已大幅降低 imatinib 在 PAH 患者中的安全性風險。",
+    "imatinib 用於 PAH 的第一個報導案例於 2005 年及 2006 年發表。隨後進行了一項 Phase 2、隨機對照試驗，於 2010 年發表，顯示 imatinib 在 PAH 中具有臨牀效益。2013 年，評估 imatinib 作為 PAH 治療的 Phase 3 研究（稱為 IMPRES）結果發表，顯示 imatinib 可能改善與 PAH 相關的關鍵參數。在這項研究中，imatinib 改善了晚期 PAH 患者的運動耐力及血流動力學。原始申辦人提交了 PAH 指示的新藥申請（\"NDA\"），但隨後撤回，我們認為這可能受到 IMPRES 研究中 imatinib 羣體高比例中止率以及與較舊型抗凝血劑（特別是維生素 K 抗體）相關出血風險的證據所影響，而這些藥物已知會產生藥物間交互作用。這些研究及更廣泛的臨牀經驗對我們設計前藥 IKT-001 及本公司 IKT-001 的臨牀發展策略提供了極大的資訊。",
+    "一項三階段的劑量尋找/劑量等效研究於 2023 年完成，參與 66 名健康志工（稱為 \"501 試驗\"），用以評估 IKT-001 作為 imatinib 交付的 96 小時單劑藥動學，並確定 IKT-001 與 imatinib 的劑量關係。根據此研究，確定 300 mg 的 IKT-001 劑量與 230 mg 的 imatinib 劑量生物相等，而 400 mg 的 IKT-001 劑量與 306 mg 的 imatinib 劑量生物相等，500 mg 的 IKT-001 劑量與 383 mg 的 imatinib 劑量生物相等。我們認為這些劑量足以提供持續的目標抑制作用，且與 Phase 3 IMPRES 研究中 PAH 患者使用的 imatinib 劑量相似。",
+    "2024 年 1 月 19 日，我們與美國食品藥物管理局（\"FDA\"）血液惡性腫瘤審查小組（\"審查小組\"）進行了一場預新藥申請（\"pre-NDA\"）會議，討論 IKT-001 的生物相等性研究及批准的潛在路徑。所有問題均已解決，並在 2024 年 2 月 12 日由 FDA 發布的正式會議記錄中總結。在會議中，我們詢問是否需要進行額外的臨牀研究以尋求批准，並討論製造及品質控制要求。審查小組承認 505(b)(2) 路徑似乎是 IKT-001 批准的適當路徑。",
+    "501 試驗加上我們與審查小組的互動及對 Phase 3 IMPRES 研究的分析，促使我們提交預新藥申請（\"PIND\"）會議請求，討論 IKT-001 作為 PAH 疾病改進治療的潛在應用。為進一步評估，本公司成員與 FDA 心臟科及腎臟科部門進行了 PIND 會議，討論我們使用 IKT-001 進行 PAH 的 Phase 2b 療效、安全性及耐受性研究的計畫。在會議中，FDA 確認 IKT-001 將被視為新分子實體（\"NME\"），且批准的適當路徑仍為 505(b)(2) 路徑。這為 IKT-001 被授予 NME 狀態及上市獨佔權提供了可能性。新藥申請於 2024 年 8 月 9 日提交給 FDA，並於 2024 年 9 月 9 日獲准啟動 Phase 2b 研究，本公司計畫",
+    "在進展至全球關鍵 Phase 3 研究前，於 PAH 患者中進行 150 名受試者的 Phase 2b 研究。然而，在 2025 年 8 月，我們提交了 Type C 會議請求至 FDA，以獲得立即轉向單一關鍵 Phase 3 研究的意見。",
+    "在 2025 年 11 月 12 日收到 FDA 發出的 Type C 互動書面回應後，我們已啟動一項兩階段的適應性 Phase 3 研究，約在全世界 180 個研究機構進行。Part A 為 IMPROVE-PAH 的雙盲、安慰劑對照研究，約 140 名患者，主要終點為第 24 週的肺血管阻力（PVR）。Part B 採用與 Part A 相同的格式，但主要終點為第 24 週的 6 分鐘步行距離，約 346 名患者。我們認為此適應性 Phase 3 研究設計有重要優勢，包括（1）允許進行 12 週的劑量調整階段，以讓患者達到 IKT-001 的最高耐受劑量；（2）Part A 與 Part B 之間的連續入組；以及（3）如有需要，根據 Part A 的結果，可對 Part B 進行樣本量重新估計。考慮到我們在轉向 Phase 3 研究設計前已相當進展於先前的 Phase 2b 研究設計，我們已啟動少量的 IMPROVE-PAH 臨牀機構，並近期在這些機構開始進行受試者篩選活動。",
+    "近來，兩項當代研究已經發表，雖然承認跨研究比較的限制以及不同或較小的樣本與病患特徵，但支持本公司主張IKT-001具有改善耐受性的潛力，搭配逐步增加劑量以達到可能的最大耐受劑量，可能使伊馬替尼的全身暴露量能被良好耐受，並有潛力為患有肺動脈髒脈症候羣（PAH）的病患提供強效的療效。首先，美國呼吸與_critical care medicine期刊報導了一項開放標籤、單臂、四（4）中心的口服伊馬替尼研究，參與者為十七（17）位世界衛生組織（\"WHO\"）第一組PAH病患。該研究確認伊馬替尼通常具有良好耐受性（無因研究藥物不耐受或副作用而中止的案例），並提供劑量與暴露量依賴的總肺動脈阻力（\"TPR\"）改善證據，與其他新型PAH治療方式（包括sotatercept與seralutinib）相比表現良好。此外，該研究也提供在停止伊馬替尼治療後，血動學指標改善持續存在的證據，可能顯示伊馬替尼有潛力逆轉PAH病患的肺血管重塑。其次，美國呼吸與_critical care medicine期刊報導了IMPAHCT研究，這是一項第二期b期研究，評估吸入式伊馬替尼在接受至少兩種背景治療的PAH病患中的效果。該研究確認以相對較低劑量吸入式伊馬替尼無法顯示統計顯著的治療效果。總結這些研究，再次確認我們的信念，即以口服方式給予IKT-001，使伊馬替尼的全身暴露量持續維持在目標酪胺酸 kinase 的半最大抑制濃度（IC50）以上，具有改善血動學與運動耐受性的雙重潛力，同時為PAH病患提供強效的疾病修正改善效果。此外，IKT-001 設計為前藥，可能改善耐受性與服藥順從性，使能維持最大耐受劑量的穩定暴露。",
+    "我們已與美國食品藥物管理局（FDA）討論關於IKT-001用以遞送伊馬替尼治療PAH的罕見疾病藥物指定（\"ODD\"），目前正在申請ODD的過程中，並已成功完成所需的預臨牀研究。",
+    "本公司目前擁有IKT-001的全球商業化權利，並在美國擁有IKT-001的專利保護至2039年，包括潛在的專利期限延長，隨著即將提出的專利申請，可能將某些使用IKT-001的治療方法專利保護延長至2044年。",
+    "PAH是一種罕見的肺微血管疾病，在美國與歐洲每百萬人中約有15至50人罹患。預估2025年的全球PAH市場規模約為8.3十億美元，預計將以3.3%的複合年成長率成長至2034年。目前的治療方式（例如ERAs、PDE5s、前列環素）主要為血管擴張劑。2024年，sotatercept被核准用於PAH的治療，作為標準療法的附加治療。sotatercept，商品名為WINREVAIR，是一種重組融合蛋白，作為轉變生長因子-beta超家族配體的陷阱，包括activin A與bone morphogenetic protein 9。這些配體可能在PAH的發展與進展中扮演角色，促進細胞增殖與纖維化。",
+    "sotatercept由Merck & Co於2024年上市，2025年產生1.44十億美元收入，自上市以來每季持續成長。sotatercept的成功重燃了對PAH中抗增殖路徑的熱情。如前所述，伊馬替尼抑制第三型受體酪胺酸 kinase，透過這些路徑抑制血小板衍生生長因子受體，這些受體參與細胞增殖與遷移，以及c-Kit，調節肥大細胞與造血幹細胞活動。透過這些目標，伊馬替尼可能抑制血管細胞增殖、遷移與纖維化。因此，針對第三型受體酪胺酸 kinase 路徑可能提供PAH疾病修正的替代機制。",
+    "seralutinib 是一種吸入式小分子酪胺酸 kinase 抑制劑，目標為PAH病態學中涉及的關鍵受體，包括血小板衍生生長因子受體（PDGFRα/β）、集落刺激因子-1受體（CSF1R）以及c-Kit。在預臨牀PAH模型中，seralutinib已顯示具有抗增殖活性，第二期與第三期臨牀研究也提供了支持"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果組成項目",
+    "營運費用",
+    "截至 12 月 31 日年度",
+    "銷售、一般及行政費用",
+    "營運成果",
+    "截至 12 月 31 日 2025 年及 2024 年年度比較",
+    "截至 12 月 31 日年度",
+    "流動性及資本資源",
+    "{'original': 'Sources of Liquidity', 'translated': '資金來源'}",
+    "{'original': 'Future Funding Requirements', 'translated': '未來資金需求'}",
+    "{'original': 'Net Cash Flows Used in Operating Activities', 'translated': '營運活動所使用的淨現金流'}",
+    "{'original': 'Cash Provided by (Used in) Investing Activities', 'translated': '投資活動所產生（使用）的現金'}",
+    "{'original': 'Cash Provided by Financing Activities', 'translated': '籌資活動所產生的現金'}",
+    "{'original': 'Contractual Obligations and Commitments', 'translated': '契約義務與承諾'}",
+    "{'original': 'Critical Accounting Policies and Significant Judgments and Estimates', 'translated': '關鍵會計政策與重要判斷與估計'}",
+    "{'original': 'Research and Development Expenses', 'translated': '研究與開發費用'}",
+    "{'original': 'Stock-Based Compensation', 'translated': '股票基於報酬'}",
+    "{'original': 'Contingent Consideration Liabilities', 'translated': '附條件考量負債'}",
+    "{'original': 'Recent Accounting Pronouncements', 'translated': '近期會計準則公佈'}"
+   ],
+   "paragraphs": [
+    "您應閱讀下列對我們財務狀況與營運成果之分析，並與我們合併財務報表及相關附註說明一併參考。本討論與分析，以及本年度報告之其他部分，包含基於目前信念、計畫與預期之展望性陳述，涉及未來事件與我們未來財務表現之風險、不確定性與假設，例如有關我們意圖、計畫、目標、預期、預測與展望之陳述。我們實際結果與部分事件之時程可能與這些展望性陳述所預期者有重大差異，原因包括本年度報告中「風險因素」部分所列及其他因素。您應仔細閱讀「風險因素」部分，以瞭解可能導致實際結果與我們展望性陳述有重大差異之重要因素。請同時參閱「關於展望性陳述之特別說明」部分。",
+    "我們是一家臨牀階段的製藥公司，致力於開發用以改變肺動脈高血壓（\"PAH\"）病程之治療藥物，PAH是一種因第三型受體酪胺酸激酶（包括血小板衍生生長因子受體及幹細胞因子受體，稱為\"c-Kit\"）異常訊號傳導所涉及之疾病。我們的領先產品候選藥物為IKT-001，為伊馬替尼甲磺酸鹽（\"imatinib\"）之前藥，用於PAH，為一種罕見適應症。伊馬替尼於2001年首先獲美國核准用於各種癌症與血液疾病，經過超過20年的臨牀使用後，其安全性已廣為認知，首次報導將伊馬替尼用於PAH為2005年。PAH是一種進行性、威脅生命的疾病，特徵為肺血管重塑與肺血管阻力升高，影響約50,000名美國人。我們已完成非人類靈長類動物安全性研究與健康志工之生物相等性臨牀研究，以確定IKT-001之劑量與伊馬替尼相當。我們的第三期臨牀研究，名為IMPROVE-PAH（IKT-001用以測量肺血管阻力與結果變數之第三期PAH評估），已啟動，並啟動少量研究機構，且最近開始在這些機構進行患者篩選活動。",
+    "研究與開發活動佔我們營運費用的很大一部分。研究與開發費用在2025年12月31日結帳年度及2024年12月31日結帳年度分別佔我們營運費用的57%與60%。我們將研究與開發費用於發生時確認。我們為產品候選藥物與前藥技術之發現與開發所產生之研究與開發費用包括：",
+    "• 外部研究與開發費用，包括與第三方之安排所產生之費用，例如合同研究組織（\"CROs\"）、預臨牀測試機構、臨牀測試機構、合同製造組織（\"CMOs\"）、學術與非營利機構及顧問；",
+    "• 我們許可與合作協議相關之費用；",
+    "• 人員相關費用，包括薪資、福利及非現金股票基於薪酬費用；以及",
+    "• 其他費用，包括實驗室、設施及其他成本之直接與分攤費用。",
+    "我們研究與開發費用的一部分為直接外部費用，我們會從計畫啟動時按計畫特定方式進行追蹤。",
+    "程式費用包含與我們最進階產品候選品項相關的費用，以及發現與開發潛在未來候選品項化合物的費用。我們也會追蹤與我們第三方研究與開發努力相關的外部費用。所有外部成本均按治療指標進行追蹤。我們不會按專案特定基礎追蹤其他為研究與開發專案所產生的營運費用。這些費用主要與股票基於報酬及辦公室消耗品相關。",
+    "目前，我們只能預估完成開發並取得任何產品候選品項監管批准所需努力的性質、時間及成本。我們也無法預測何時、若有的話，會從產品候選品項的銷售或授權產生重大淨現金流入。這是因為藥物開發伴隨許多風險與不確定性，包括：",
+    "• 我們能否招募並留住關鍵研究與開發人員及其他關鍵員工；",
+    "• 本公司能否成功向美國食品藥物管理局（FDA）提交新藥申請（IND）及新藥上市申請（NDA）；",
+    "• 本公司能否建立適當的安全性或耐受性資料，透過IND申請所需之毒理學研究；",
+    "• 本公司能否成功開發、取得相關監管批准，並進一步成功商業化本公司產品候選藥物；"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "業務風險總覽",
+    "業務、財務狀況及資金需求相關風險",
+    "若本公司無法及時以可接受的條件籌措額外資金，則臨牀試驗與產品開發可能受到限制或延宕，並可能威脅到本公司長期的生存能力。",
+    "本公司業務受總體經濟條件影響，包括通貨膨脹上升、利率及供應鏈限制等因素。",
+    "自本公司成立以來，我們已產生顯著的淨虧損，並預期在可預見的未來持續產生淨虧損。",
+    "若本公司無法及時以可接受的條件獲得額外融資，則可能無法完成現有及未來產品候選藥物的開發，若獲批准，亦可能無法進行商業化。",
+    "產品候選藥物的發現、開發與商業化相關風險",
+    "本公司從未完成過註冊臨牀試驗，且可能無法成功以IKT-001進行註冊臨牀試驗，這可能使評估本公司未來生存前景變得困難。",
+    "我們可能在目前及計畫中的臨牀試驗中遭遇顯著延誤，或可能無法按預期時間表進行或完成臨牀試驗，甚至可能無法進行。",
+    "我們可能在目前及計畫中的臨牀試驗中遭遇招募病患的困難，因而導致臨牀發展活動延誤或受到其他不利影響。"
+   ],
+   "paragraphs": [
+    "投資本公司的證券涉及高度風險。您應仔細考慮下列所描述的風險，以及本年度報告中的其他資訊，包括財務報表及相關附註，以及標題為「管理層對財務狀況與營運成果之討論與分析」的章節，再決定是否購買、持有或出售本公司的證券。上述任何事件或發展的發生，可能會對本公司業務、財務狀況、營運成果與成長前景造成損害。在這種情況下，本公司證券的市場價格可能會下跌，您可能會損失全部或部分投資。此外，尚有其他風險與不確定性，目前尚未為本公司所知或本公司認為不重要，也可能影響本公司業務營運。",
+    "本公司業務面臨許多風險與不確定性，您在投資本公司前應加以考慮。",
+    "這些風險包括但不限於下列項目：",
+    "• 我們是一家臨牀階段的藥物開發公司，資源有限，無營收，營運歷史有限，且尚未有任何產品獲准上市銷售，這可能會使評估我們目前業務與預測未來成功與可持續性變得困難；",
+    "• 若我們無法在合理時間內或在可接受的條件下成功籌集額外資金，我們的臨牀試驗與產品開發可能會受到限制或延遲，並可能威脅到我們的長期生存能力；",
+    "• 藥物開發是一項高度不確定的任務，並涉及相當程度的風險。我們從來沒有從產品銷售中產生任何收入，且我們可能永遠無法獲得我們產品候選藥物的核准，即使我們的產品候選藥物獲得核准，也可能無法從產品銷售中產生任何收入或實現盈利；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

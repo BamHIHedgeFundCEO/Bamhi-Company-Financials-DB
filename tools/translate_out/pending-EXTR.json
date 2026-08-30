@@ -1,0 +1,211 @@
+{
+ "ticker": "EXTR",
+ "cik": "0001078271",
+ "accession": "0001193125-26-352872",
+ "form": "10-K",
+ "reportDate": "2026-06-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "Industry Background",
+    "The Extreme Strategy",
+    "Key elements of Extreme's strategy and differentiation include:",
+    "o Universal Wi-Fi 6/6E/7 APs (300/400 Series / 3000 Series / 4000 Series / 5000 series) support campus or distributed deployments with a choice of cloud or on-premises (air-gapped or cloud-connected) management.",
+    "o Universal licensing with one portable management license for any device and for any type of management. For switches, operating system feature licenses are portable, and bulk activated through our platform.",
+    "Sales, Marketing and Distribution",
+    "The details of our sales and distribution channels are as follows:",
+    "Customer Profiles",
+    "1. Mid-market customers—typically with 500 to 999 employees, are regional or national in scope and possess moderate IT complexity and budgets. This segment represents an estimated TAM of $11 billion in 2026.",
+    "3. Service providers—which include organizations delivering voice, data, or internet services to consumers and businesses, vary widely in sizes. This segment accounts for a TAM of approximately $2 billion in 2026.",
+    "International sales",
+    "Manufacturing",
+    "Research and Development",
+    "Intellectual Property",
+    "Restructuring and Impairment",
+    "Human Capital",
+    "Organization"
+   ],
+   "paragraphs": [
+    "Extreme Networks, Inc. (EXTR) (collectively referred to as \"Extreme,\" \"Company,\" and as \"we,\" \"us\" and \"our\") is a leader in AI-powered cloud-based networking, focused on delivering simple and secure solutions that help businesses address challenges and enable connections among devices, applications, and users. We push the boundaries of technology, leveraging artificial intelligence (\"AI\"), analytics, and automation in our industry-leading products and services. Tens of thousands of customers globally trust Extreme to drive value, foster innovation, and overcome extreme challenges. Extreme also designs, develops, and manufactures wired, wireless, and software-defined wide area network (\"SD-WAN\") infrastructure equipment. Our Extreme Platform ONE solution, made generally available in July 2025, is a technology platform designed to reduce operational complexity for enterprises by integrating networking, security, and AI solutions into a single platform. In May 2026, we announced Extreme Agent ONE, a unified AI experience within Extreme Platform ONE that is expected to operate across Coworker and Operator modes. The Coworker mode is expected to provide proactive, context-aware assistance, and the Operator mode is expected to support autonomous execution of certain operator-defined tasks, in each case subject to customer-defined rules, schedules, and governance.",
+    "Our global footprint provides service to some of the world's leading names in business across verticals such as large sports and entertainment venues, hospitality, retail, transportation and logistics, education, government, healthcare, manufacturing and service providers. We derive all our revenues from the sale of our networking equipment, software subscriptions, and related maintenance contracts.",
+    "Enterprises across every industry are navigating significant technology transformation driven by cloud adoption, application modernization, cybersecurity demands, and the rapid emergence of generative, multimodal, and agentic AI. AI technologies are increasingly being used to automate workflows, accelerate decision-making, and assist in the management of information technology (\"IT\") environments. To support these workloads, organizations are rearchitecting their networks from the edge to the data center, requiring infrastructure that is intelligent, secure, and highly automated.",
+    "As networks become more distributed and complex, traditional management approaches may be less effective in addressing operational requirements. IT teams increasingly seek automation, visibility, and integrated security capabilities to operate dynamic environments while reducing operational complexity. Enterprise networking serves as a foundational platform supporting digital experiences for customers, employees, students, patients, and connected devices.",
+    "We believe the industry is entering a new era of enterprise networking, where AI-powered platforms leverage AI agents to move beyond monitoring and recommendations toward autonomous operations. AI agents represent the next major inflection point, enabling networks to proactively identify issues, automate routine tasks, optimize performance, and augment IT teams at scale. Organizations that embrace AI-native networking platforms will be better positioned to improve resilience, accelerate innovation, and reduce operating costs.",
+    "The network has become the foundation for AI-powered enterprises. Organizations are modernizing infrastructure to support distributed users, connected devices, cloud applications, internet of things (\"IoT\"), and increasingly AI-driven workloads, while addressing growing operational complexity, cybersecurity threats, and IT talent shortages.",
+    "We believe these trends are driving a multi-year infrastructure refresh cycle. Enterprises are accelerating adoption of Wi-Fi 7 to support higher device density, lower latency, AI-enabled applications, and richer digital experiences. As customers upgrade campus infrastructure, they are increasingly seeking integrated platforms that combine networking, security, and AI-driven automation.",
+    "Extreme Platform ONE unifies network management, security, analytics, and AI agents into a single platform. Leveraging generative, multimodal, and agentic AI, it automates network design, deployment, operations, and troubleshooting, helping IT teams improve productivity, accelerate issue resolution, and reduce operational costs. In May 2026, we introduced Extreme Agent ONE, a unified AI experience designed to operate across Coworker and Operator modes, with the Coworker mode expected to become generally available in the third quarter of calendar 2026 and the Operator mode expected to be introduced in the fourth quarter of calendar 2026.",
+    "Extreme also differentiates itself through its enterprise campus fabric architecture, which is designed to simplify network segmentation, provisioning, and policy management while improving resilience and security. By automating traditionally manual operations and virtualizing the campus network, fabric is intended to help customers deploy services more efficiently, reduce complexity, minimize downtime, and improve operational performance.",
+    "As organizations modernize their infrastructure, cloud choice and deployment flexibility have become increasingly important. Extreme is uniquely positioned to give customers deployment choice through public, private, hybrid, and sovereign cloud management,",
+    "all delivered through Extreme Platform ONE. This enables customers to meet regulatory, security, and operational requirements while centrally managing wired, wireless, fabric, SD-WAN, and network access control across distributed environments from a single platform.",
+    "We believe the convergence of AI, Wi-Fi 7, campus modernization, cloud flexibility, and autonomous network operations represents one of the most significant networking technology transitions in over a decade. Extreme's integrated portfolio positions the Company to help customers modernize their infrastructure, simplify operations, strengthen security, and reduce both capital and operating costs.",
+    "We estimate the total addressable market (\"TAM\") for our networking solutions, consisting of cloud-managed networking, wireless local area networks (\"WLAN\"), campus Ethernet switching, data center switching, SD-WAN solutions, and elements of the Secure Access Service Edge (\"SASE\"), exceeded $46 billion in calendar year 2025. Based on data from 650 Group, demand is projected to grow at a five-year compound annual growth rate (\"CAGR\") of approximately 11%, reaching $77 billion by 2030. Within this market, cloud-managed networking solutions are expected to grow at a CAGR of approximately 13% reaching $19 billion by 2030. And with Extreme Platform ONE, we are addressing AI Networking for the Campus, where spending is forecasted to grow at a 60% CAGR over the next five years.",
+    "Extreme is executing a platform-led strategy focused on simplifying enterprise networking through AI. Extreme Platform ONE is designed to unify networking, security, and AI into a single enterprise platform that enables IT teams to design, deploy, manage, and secure networks using AI-enabled capabilities. By automating routine operations and accelerating complex tasks, Extreme Platform ONE is designed to improve productivity while reducing operational complexity."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business, Operations, and Industry",
+    "Intense competition and consolidation in the market for networking equipment and management solutions could prevent us from increasing revenues.",
+    "We depend upon international sales for a significant portion of our revenues, which imposes a number of risks on our business.",
+    "If we are not able to effectively forecast demand or manage our inventory, we may be required to record write-downs for excess or obsolete inventory.",
+    "To successfully manage our business or achieve our goals, we must attract, retain, train, motivate, develop and promote key employees, and a failure to do so can harm us.",
+    "The adoption, use, and development of AI products may result in reputational harm or liability.",
+    "If our products do not effectively interoperate with our customers' networks and result in cancellations and delays of installations, our business, financial condition and operating results could be harmed.",
+    "When our products contain undetected errors, we may incur significant unexpected expenses and could lose sales.",
+    "We must continue to develop and increase the productivity of our indirect distribution channels to increase net revenues and improve our operating results.",
+    "The sales cycle for our products is long and we may incur substantial non-recoverable expenses or devote significant resources to sales that do not occur when anticipated.",
+    "Our sales to government and education customers may be adversely affected by public-sector procurement processes, budgetary constraints, and government contracting requirements.",
+    "Risks Related to Financial Matters",
+    "We cannot assure future profitability, and our financial results may fluctuate significantly from period to period.",
+    "Our stock price has been volatile in the past and may significantly fluctuate in the future.",
+    "If we do not adequately manage and evolve our financial reporting and managerial systems and processes, our ability to manage and grow our business may be harmed.",
+    "Our revenues may decline as a result of changes in public funding of educational institutions.",
+    "Our cash requirements may require us to seek additional debt or equity financing and we may not be able"
+   ],
+   "paragraphs": [
+    "We face a number of risks and uncertainties which may have a material and adverse effect on our business, operations, industry, financial condition, operating results or future financial performance. While we believe we have identified and discussed below the material risk factors affecting our business, there may be additional risks and uncertainties that are not presently known or that are not currently believed to be significant that may materially adversely affect our business, financial condition, operating results, and future financial performance.",
+    "Geopolitical changes are creating uncertainty regarding economic and trade matters, potentially leading to adverse general economic conditions that may adversely impact our business, financial condition, and operating results.",
+    "The ongoing unpredictability of U.S. economic and trade policies, including tariff actions and related government measures, continues to create significant uncertainty in the world economy, including inflationary pressures. In addition, various military actions, armed conflicts, and geopolitical tensions, including the Russia-Ukraine conflict, the Israel-Hamas conflict and related regional instability in the Middle East, and military actions involving the United States and Iran, have increased global uncertainty. Potential impacts of these policies and tensions could include decreased demand for our products, increased costs to us, supply chain limitations, and volatility of our stock price.",
+    "A substantial portion of our business depends on the demand for enterprise-scale networking, which, in turn, is impacted by the overall economic health of our current and prospective end-customers. Volatility in the global economic market or other global or regional economic uncertainty, inflation, interest rate fluctuations, foreign exchange instability, limited availability of credit, a reduction in business confidence and activity, reductions in government spending, and other difficulties may affect one or more of the industries to which we sell our products and services. If economic conditions continue to be uncertain, many existing and prospective end-customers may delay or reduce their IT spending. This could result in reductions in sales of our products and services, longer sales cycles, slower adoption of new technologies, and increased price competition.",
+    "While we have diversified our manufacturing presence and limited our reliance on imports from China, tariffs have been imposed and threaten to be increased on other countries where our products are manufactured, such as Taiwan, Vietnam, Thailand, and the Philippines. A majority of our products are currently excluded from the bulk of these tariffs, though we cannot predict that will continue to be the case. Any imposition of tariffs or new export controls affecting imports of our products to the United States may result in increased costs and potential delays.",
+    "Additionally, global trade partners may continue to respond to U.S. tariffs with retaliatory measures. For instance, China has, in the past, made threats of restricting exports of critical raw materials, including rare earth minerals essential to several of our components. Such actions could disrupt our supply chain, elevate input costs, create delays as alternative suppliers are sought, and undermine the competitiveness of our offerings. Similarly, other countries could impose retaliatory tariffs against American imports, which could potentially increase the cost of our products to customers in those countries, making our products less competitive."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Business Overview",
+    "Key Business Metrics:",
+    "SaaS Annual Recurring Revenue (\"SaaS ARR\")",
+    "Results of Operations",
+    "Net Revenues",
+    "June 30, 2026",
+    "June 30, 2025",
+    "June 30, 2024",
+    "Cost of Revenues and Gross Profit",
+    "Operating Expenses",
+    "Research and Development Expenses",
+    "Sales and Marketing Expenses",
+    "General and Administrative Expenses",
+    "Restructuring and Related Charges",
+    "Amortization of Intangible Assets",
+    "Interest Income",
+    "Interest Expense",
+    "Other Income (Expense), net",
+    "Provision for Income Taxes",
+    "Critical Accounting Estimates",
+    "Liquidity and Capital Resources"
+   ],
+   "paragraphs": [
+    "The following discussion should be read with the Consolidated Financial Statements and the related notes in Part II, Item 8 of this Annual Report on Form 10-K.",
+    "The following discussion is based upon our Consolidated Financial Statements included elsewhere in this Annual Report on Form 10-K, which have been prepared in accordance with U.S. generally accepted accounting principles. In the course of operating our business, we routinely make decisions as to the timing of the payment of invoices, the collection of receivables, the manufacturing and shipment of products, the fulfillment of orders, the purchase of supplies, and the building of inventory and service parts, among other matters. Each of these decisions has some impact on the financial results for any given period. In making these decisions, we consider various factors including contractual obligations, customer satisfaction, competition, internal and external financial targets and expectations, and financial planning objectives. For further information about our critical accounting estimates, see \"Critical Accounting Estimates\" included in this \"Management's Discussion and Analysis of Financial Condition and Results of Operations.\"",
+    "Extreme is a leader in AI-powered cloud networking, focused on delivering simple and secure solutions that help businesses address challenges and enable connections among devices, applications, and users. We push the boundaries of technology, leveraging the powers of artificial intelligence, analytics, and automation and have industry leading support services. Tens of thousands of customers globally trust Extreme to drive value, foster innovation, and overcome extreme challenges. Extreme also designs, develops, and manufactures wired, wireless, and SD-WAN infrastructure equipment. Our Extreme Platform ONE solution, made generally available in July 2025, is a technology platform that is designed to reduce the complexity for enterprises by seamlessly integrating networking, security and AI solutions into a single platform. AI-powered automation includes conversational, interactive and autonomous AI agents—to assist, advise and accelerate the productivity of networking, security and business teams—reducing the time to complete complex tasks.",
+    "Our global footprint provides service to some of the world's leading names in business across verticals such as large sports and entertainment venues, hospitality, retail, transportation and logistics, education, government, healthcare, manufacturing and service providers. We derive all our revenues from the sale of our networking equipment, software subscriptions, and related maintenance contracts.",
+    "The Company uses a fiscal calendar year ending on June 30. All references herein to \"fiscal 2026\" or \"2026\"; \"fiscal 2025\" or \"2025\"; \"fiscal 2024\" or \"2024\" represent, respectively, the fiscal years ended June 30, 2026, June 30, 2025 and June 30, 2024."
+   ],
+   "focus": "Business Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "產業背景",
+    "極致策略",
+    "極致策略與差異化關鍵要素包括:",
+    "o 全域 Wi-Fi 6/6E/7 網路存取點 (300/400 系列 / 3000 系列 / 4000 系列 / 5000 系列) 支援校園或分散式部署，並可選擇雲端或本地端 (隔離式或雲端連線) 管理。",
+    "o 全域授權，具備單一可攜式管理授權，適用任何裝置與任何類型管理。對於交換器，作業系統功能授權為可攜式，並可透過我們的平台批量啟用。",
+    "銷售、行銷與通路",
+    "我們銷售與通路渠道的詳細資訊如下:",
+    "客戶型態",
+    "1. 中小型企業客戶—通常擁有 500 到 999 名員工，營運範圍為區域性或全國性，並具中等程度的資訊科技複雜度與預算。此應報告分部在 2026 年預估的總市場規模為 11 十億美元。",
+    "3. 服務供應商—包括向消費者及企業提供語音、資料或網路服務的機構，其規模差異相當大。此應報告分部在 2026 年預估的總市場規模為 2 十億美元。",
+    "國際銷售",
+    "製造",
+    "研究與開發",
+    "智慧財產權",
+    "重整與減損",
+    "人力資本",
+    "{'original': 'Organization', 'translated': '組織架構'}"
+   ],
+   "paragraphs": [
+    "Extreme Networks, Inc. (EXTR) (collectively referred to as \"Extreme,\" \"Company,\" and as \"we,\" \"us\" and \"our\") 是 AI 供電雲端網路的領導者，專注於提供簡單且安全的解決方案，協助企業應對挑戰並促進裝置、應用程式與使用者之間的連線。我們推動科技的極限，透過人工智慧 (\"AI\"), 分析與自動化，於業界領先的產品與服務中應用。全球數萬家客戶信任 Extreme 來創造價值、促進創新並克服極端挑戰。Extreme 也設計、開發與製造有線、無線與軟體定義廣域網路 (\"SD-WAN\") 基礎建設設備。我們的 Extreme Platform ONE 解決方案，於 2025 年 7 月正式推出，是一款科技平台，設計用以降低企業的運營複雜度，將網路、安全與 AI 解決方案整合至單一平台。於 2026 年 5 月，我們宣佈 Extreme Agent ONE，這是 Extreme Platform ONE 內的統一 AI 經驗，預期可在 Coworker 與 Operator 模式中運作。Coworker 模式預期可提供主動、情境感知的協助，Operator 模式預期可支援某些 Operator 定義任務的自動執行，每種情況皆需符合客戶定義的規則、排程與治理。",
+    "我們的全球據點為全球各產業的領導企業提供服務，包括大型體育與娛樂場館、餐飲、零售、運輸與物流、教育、政府、醫療、製造與服務供應商。我們所有的收入皆來自銷售我們的網路設備、軟體訂閱與相關維護合約。",
+    "各行各業的企業正在面對由雲端採用、應用程式現代化、網路安全需求以及生成式、多模態與代理式 AI 快速出現所驅動的重大科技轉型。人工智慧技術正被越來越多用來自動化工作流程、加速決策過程，並協助管理資訊科技 (\"IT\") 環境。為支援這些工作負載，組織正在重新設計其網路從邊緣至資料中心，需要具備智慧、安全且高度自動化的基礎建設。",
+    "隨著網路變得更加分散與複雜，傳統的管理方法可能在應對運營需求時較為低效。IT 小組越來越尋求自動化、可視化與整合安全功能，以在降低運營複雜度的同時運作動態環境。企業網路作為一個基礎平台，支持客戶、員工、學生、病患與連線裝置的數位體驗。",
+    "我們相信產業正邁入企業網路的新時代，其中 AI 供電的平台透過 AI 代理來超越監控與建議，朝向自主運作。AI 代理代表下一個主要轉折點，使網路能主動識別問題、自動執行常規任務、優化效能，並在規模上輔助 IT 小組。採用 AI 原生網路平台的組織將更能改善韌性、加速創新並降低運營成本。",
+    "網路已成為 AI 供電企業的基礎。組織正在現代化基礎建設，以支援分散用戶、連線裝置、雲端應用程式、物聯網 (\"IoT\") 以及日益增加的 AI 驅動工作負載，同時應對日益增長的運營複雜度、網路安全威脅與 IT 人才短缺。",
+    "我們相信這些趨勢正在驅動一項多年度的基礎建設更新週期。企業正在加速採用 Wi-Fi 7 以支援更高的裝置密度、更低的延遲、AI 驅動的應用程式與更豐富的數位體驗。當客戶更新校園基礎建設時，他們越來越尋求整合平台，將網路、安全與 AI 驅動的自動化結合在一起。",
+    "Extreme Platform ONE 將網路管理、安全、分析與 AI 代理整合至單一平台。透過生成式、多模態與代理式 AI，它自動化網路設計、部署、運作與故障排除，協助 IT 小組提高生產力、加速問題解決與降低運營成本。於 2026 年 5 月，我們推出了 Extreme Agent ONE，這是一款統一的 AI 經驗，設計用以在 Coworker 與 Operator 模式中運作，預期 Coworker 模式將於 2026 年歷曆曆 3 季度正式推出，Operator 模式預期將於 2026 年歷曆曆 4 季度推出。",
+    "Extreme 亦透過其企業校園網路架構區隔市場，此架構設計用以簡化網路區隔、配置及政策管理，同時提升韌性與安全性。透過自動化傳統上需人工執行的作業，並虛擬化校園網路，此架構旨在協助客戶更有效率地部署服務，減少複雜性，降低停機時間，並提升作業表現。",
+    "隨著企業現代化其基礎建設，雲端選擇與部署靈活性變得越來越重要。Extreme 以其獨特的定位，能為客戶提供公有雲、私有雲、混合雲與主權雲的部署選擇，",
+    "皆透過 Extreme Platform ONE 提供。此舉使客戶得以符合法規、安全與作業需求，同時從單一平台中央管理有線、無線、架構、SD-WAN 及網路存取控制，橫跨分散式環境。",
+    "我們認為人工智能（AI）、Wi-Fi 7、校園現代化、雲端靈活性與自動化網路作業的融合，代表了過去十年來最重要的網路技術轉變之一。Extreme 整合的產品組合使其能協助客戶現代化基礎建設，簡化作業，強化安全性，並降低資本與營運成本。",
+    "我們估計，我們網路解決方案的總可達市場（\"TAM\"），包含雲端管理網路、無線區域網路（\"WLAN\"）、校園乙太網路交換、資料中心交換、SD-WAN 解決方案，以及 Secure Access Service Edge（\"SASE\"）的部分元件，在2025年財曆年度超過460 億美元。根據650 Group 的數據，需求預期將以五年的複合年成長率（\"CAGR\"）約11% 成長，至2030年達到770 億美元。在這個市場中，雲端管理網路解決方案預期將以約13% 的CAGR 成長，至2030年達到190 億美元。而透過Extreme Platform ONE，我們正在解決校園的AI網路，預期支出將在未來五年內以60% 的CAGR 成長。",
+    "Extreme 正執行以平台為導向的策略，專注於透過AI簡化企業網路。Extreme Platform ONE 設計為將網路、安全與AI整合為單一企業平台，使IT團隊能透過AI功能設計、部署、管理與保護網路。透過自動化常規作業並加速複雜任務，Extreme Platform ONE 設計為提升生產力，同時降低作業複雜性。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "業務概覽",
+    "重要業務指標:",
+    "SaaS 年度持續營收 (\"SaaS ARR\")",
+    "營運成果",
+    "淨營收",
+    "2026 年 6 月 30 日",
+    "2025 年 6 月 30 日",
+    "2024 年 6 月 30 日",
+    "營業收入成本及毛利",
+    "營運費用",
+    "研究與發展費用",
+    "銷售及市場推廣費用",
+    "一般及行政費用",
+    "重整及相關費用",
+    "無形資產攤銷",
+    "利息收入",
+    "利息支出",
+    "其他收入（費用），淨額",
+    "所得稅費用",
+    "關鍵會計估計",
+    "流動性及資本資源"
+   ],
+   "paragraphs": [
+    "下列討論應與本年度10-K申報表第二部分第8項所述之合併財務報表及其相關附註一併閱讀。",
+    "下列討論係根據本年度10-K申報表中其他地方所載之合併財務報表，該報表係依美國通用會計準則編製。在經營業務的過程中，我們會定期做出有關付款時間、應收款項回收、產品製造與發運、訂單履行、採購物料、存貨與服務零件的建立等事項的決定。這些決定對任何特定期間的財務結果均有影響。在做出這些決定時，我們會考慮諸如契約義務、客戶滿意度、競爭、內部與外部財務目標與預期，以及財務規劃目標等因素。如需進一步瞭解我們的關鍵會計估計，請參閱本「管理層對財務狀況與營運成果之分析」中所載之「關鍵會計估計」。",
+    "Extreme為AI驅動雲端網路領域的領導者，專注於提供簡潔且安全的解決方案，協助企業應對挑戰並促進設備、應用程式與用戶之間的連接。我們不斷突破科技極限，善用人工智慧、分析與自動化的力量，並擁有業界領先的支援服務。全球數以萬計的客戶信任Extreme來推動價值、促進創新並克服極端挑戰。Extreme亦設計、開發與製造有線、無線及SD-WAN基礎設施設備。我們的Extreme Platform ONE解決方案，於2025年7月正式推出，是一款設計用以降低企業複雜度的科技平台，透過無縫整合網路、安全與AI解決方案至單一平台。AI驅動的自動化包含對話式、互動式與自主式AI代理，協助、建議並加速網路、安全與業務團隊的生產力，減少完成複雜任務的時間。",
+    "我們的全球據點為全球各行業的領導企業提供服務，包括大型體育與娛樂場館、餐飲旅館、零售、運輸與物流、教育、政府、醫療、製造與服務供應商等。我們所有的收入均來自網路設備的銷售、軟體訂閱及相關維護合約。",
+    "本公司採用財務年度，於6月30日結止。 herein 所提及之「財務2026」或「2026」；「財務2025」或「2025」；「財務2024」或「2024」，分別代表於2026年6月30日、2025年6月30日及2024年6月30日結止之財務年度。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務、營運及產業相關之風險",
+    "在網路設備與管理解決方案市場中，競爭激烈且產業集中，可能使我們無法提高營收。",
+    "我們依賴國際銷售來獲取營收的重要部分，這對我們業務產生多項風險。",
+    "若我們無法有效預測需求或管理存貨，我們可能必須針對過多或過時存貨進行減損記提。",
+    "為成功管理我們的業務或達成目標，我們必須吸引、留住、培訓、激勵、發展及晉升關鍵員工，若未能做到，將對我們造成損害。",
+    "AI 產品的採用、使用及發展可能導致聲譽損害或法律責任。",
+    "若我們的產品無法有效與客戶的網路互通，導致取消與安裝延遲，將對我們的業務、財務狀況及營運成果造成損害。",
+    "當我們的產品包含未被發現的錯誤時，我們可能產生重大未預期的費用，並可能喪失銷售收入。",
+    "我們必須持續開發並提升間接通路的效率，以增加淨銷售額並改善營運成果。",
+    "我們產品的銷售週期較長，我們可能產生大量無法回收的費用，或投入大量資源進行銷售，但銷售成果可能與預期不同步。",
+    "我們對政府及教育機構的銷售可能因公部門採購程序、預算限制及政府契約要求而受到不利影響。",
+    "與財務相關的風險",
+    "我們無法保證未來會有獲利，且財務結果可能在不同期間有顯著波動。",
+    "我們的股票價格過去曾有波動，未來也可能有顯著波動。",
+    "如果我們未能妥善管理並進化財務報導及管理系統與流程，將可能影響我們管理及成長業務的能力。",
+    "我們的收入可能因教育機構公共資金變動而減少。",
+    "{'original': 'Our cash requirements may require us to seek additional debt or equity financing and we may not be able', 'translated': '本公司現金需求可能需要我們尋求額外的債務或權益融資，且我們可能無法'}"
+   ],
+   "paragraphs": [
+    "我們面臨許多風險與不確定性，這些風險與不確定性可能對我們的業務、營運、產業、財務狀況、營運結果或未來財務表現造成重大且不利的影響。雖然我們認為已識別並討論了影響我們業務的關鍵風險因素，但可能還有其他風險與不確定性尚未被識別或目前認為不具重大影響，這些風險與不確定性可能對我們的業務、財務狀況、營運結果及未來財務表現造成重大且不利的影響。",
+    "地緣政治變動正在造成經濟與貿易事項的不確定性，可能導致不利的總體經濟情況，進而對我們的業務、財務狀況與營運結果造成不利影響。",
+    "美國經濟與貿易政策的持續不可預測性，包括關稅措施及相關政府政策，持續造成全球經濟的重大不確定性，包括通貨膨脹壓力。此外，各種軍事行動、武裝衝突與地緣政治緊張局勢，包括俄烏戰爭、以巴衝突及中東地區的相關不穩定，以及美國與伊朗之間的軍事行動，已增加全球不確定性。這些政策與緊張局勢的潛在影響可能包括我們產品需求減少、我們的營運成本增加、供應鏈限制，以及我們股票價格的波動。",
+    "我們業務的相當一部分取決於企業規模的網路需求，而企業規模的網路需求又受到我們現有與潛在客戶總體經濟狀況的影響。全球經濟市場的波動性或其它全球或區域經濟不確定性、通貨膨脹、利率波動、外匯不穩定、信貸供應有限、企業信心與活動減少、政府支出減少，以及其它困難，可能影響我們銷售產品與服務的產業。如果經濟狀況持續不確定，許多現有與潛在客戶可能延後或減少其資訊科技支出。這可能會導致我們產品與服務的銷售減少、銷售週期延長、新技術採用速度變慢，以及價格競爭增加。",
+    "雖然我們已分散製造據點並限制對中國進口的依賴，但已對其他製造我們產品的國家（如臺灣、越南、泰國與菲律賓）課徵關稅，並可能進一步提高關稅。目前我們的大多數產品被排除在這些關稅之外，但我們無法預測這情況是否會持續。任何對我們產品進口美國的關稅或新出口管制措施的課徵，可能會導致成本增加與潛在延遲。",
+    "此外，全球貿易夥伴可能持續以報復性措施回應美國關稅。例如，中國過去曾威脅限制關鍵原材料出口，包括對我們多個零組件而言重要的稀土礦物。這些行動可能幹擾我們的供應鏈、提高投入成本、導致尋找替代供應商的延遲，並削弱我們產品的競爭力。同樣地，其他國家可能對美國進口課徵報復性關稅，這可能會提高我們產品在這些國家客戶的價格，使我們的產品競爭力下降。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

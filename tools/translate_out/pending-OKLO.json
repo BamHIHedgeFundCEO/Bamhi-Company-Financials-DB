@@ -1,0 +1,213 @@
+{
+ "ticker": "OKLO",
+ "cik": "0001849056",
+ "accession": "0001628280-26-018698",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Business Model",
+    "Recent Developments",
+    "Prepayment Agreement",
+    "Radioisotope Pilot Facility Other Transaction Agreement",
+    "Key Factors Affecting Our Performance",
+    "Product Development Plan",
+    "Plan of Operations",
+    "Nuclear Energy Industry",
+    "Human Capital Resources",
+    "Corporate Culture",
+    "Intellectual Property",
+    "Government Regulations",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "We founded Oklo in 2013 with the goal of revolutionizing the energy landscape by developing clean, reliable, affordable energy solutions at scale. According to the International Energy Agency, global electricity production is expected to increase over 75% by 2050 driven by electrification of buildings, transportation, and industry; increased use of air conditioning in the developing world; and increased consumption from data centers and cloud services. Our business addresses this demand by producing electricity and heat from our Aurora powerhouses which can run on fresh, recycled, or down-blended nuclear fuel. We are also commercializing nuclear fuel recycling technology that can convert used nuclear fuel into usable fuel for our powerhouses and those of others.",
+    "The fast fission reactor technology we are commercializing was demonstrated by the Experimental Breeder Reactor-II (\"EBR-II\"), a fast fission plant that was operated by the U.S. government for 30 years. Our powerhouse product line, called the \"Aurora,\" builds on this legacy of proven and demonstrated technology. Our Aurora powerhouse product line is designed with embedded safety features, to be able to run on fresh, recycled, or down-blended fuel, and to produce 15-75 megawatts electric (\"MWe\") and has the potential to expand powerhouse size to produce 100 MWe and higher. Because the Aurora powerhouses are designed to operate by harnessing the power of high-energy, or \"fast,\" neutrons, they are expected to be able to tap into the vast energy reserves remaining in existing used nuclear fuel from conventional nuclear power generation facilities, which only use approximately 5% of the energy content stored in nuclear fuel before needing to refuel. The U.S. nuclear power industry has produced approximately 20% of U.S. electricity over the last 30 years and generated over 90,000 metric tons of used nuclear fuel. We estimate that the existing energy reserves contained in the used nuclear fuel in the U.S. that are made accessible through our fast fission reactor technology are equivalent to approximately 1.2 trillion barrels of oil equivalent (BOE), nearly five times the oil reserves of Saudi Arabia. Fission is an energy-dense process, producing approximately 50 million times more energy than combustion.",
+    "We have achieved several significant deployment and regulatory milestones for our first Aurora powerhouse. Notably, we secured a site use permit from the U.S. Department of Energy (\"DOE\") for the Idaho National Laboratory (\"INL\") site and received a fuel award of five metric tons of HALEU produced from recovered uranium from previously irradiated EBR-II fuel from INL for a commercial Aurora powerhouse in Idaho. Related to the construction and operating licensing process of the Aurora powerhouse, we have also submitted the Nuclear Safety Design Agreement and the Preliminary Documented Safety Analysis to the DOE for the Aurora powerhouse at INL (\"Aurora-INL\"), which represent the first two of five steps in the DOE regulatory pathway for nuclear facility operation. Early in 2026, the DOE approved the Nuclear Safety Design Agreement. Related to our first Aurora powerhouse, the DOE and the INL have completed the environmental compliance process addressing the DOE requirements for site characterization. This process, resulting in an Environmental Compliance Permit, marks a milestone as we advance our plans to deliver the first commercial advanced fission power plant in the U.S.",
+    "On May 9, 2024, we consummated a business combination pursuant to an Agreement and Plan of Merger and Reorganization dated July 11, 2023 (as amended, modified, supplemented, or waived, the \"Merger Agreement\"), by and between AltC Acquisition Corp. (\"AltC\") and Oklo Technologies, Inc. (the \"Recapitalization\"). Prior to the Recapitalization, Oklo Technologies, Inc. was formerly known as Oklo Inc. (referred to herein as \"Legacy Oklo\"). Upon consummation of the Recapitalization, AltC changed its name to Oklo Inc. See Note 3—Business Combinations—Recapitalization in our accompanying consolidated financial statements for additional information.",
+    "On September 25, 2024, we announced the finalization of a Memorandum of Agreement (\"MOA\") with the DOE Idaho Operations Office. This MOA grants us access to conduct site investigations at the identified preferred site in Idaho, marking a key step toward the next phase of site preparation and construction.",
+    "On February 28, 2025, we acquired Atomic Alchemy Inc. (\"Atomic Alchemy\"), a radioisotope business located in the U.S. We paid some of Atomic Alchemy's investors cash of approximately $1.0 million and exchanged 820,840 shares of our Class A common stock, par value $0.0001 per share (\"common stock\"), with a price per share of $33.39 at the acquisition date, representing approximately $27.4 million of stock consideration. In addition, we issued 274,339 shares of our common stock, subject to certain lock-up provisions, vesting conditions, and substantial risk of forfeiture, representing post-combination services, pursuant to an employment agreement and vesting agreement. The purchase consideration was paid in exchange for all of Atomic Alchemy's outstanding common stock. See Note 3—Business Combinations—Atomic Alchemy in our accompanying consolidated financial statements for additional information.",
+    "In December 2025, we purchased land in southern Ohio that we have announced we intend to use to support Aurora powerhouses, including support of a planned 1.2 gigawatt power campus in Pike County, Ohio in connection with a",
+    "prepayment agreement with Meta Platforms, Inc. (as further described under —Recent Developments—Prepayment Agreement). Furthermore, we have been tentatively selected to provide electricity and heat to Eielson Air Force Base outside of Fairbanks, Alaska. Our robust pipeline of potential customer engagements spans a number of industries. For example, we have signed non-binding letters of intent with Equinix, Inc. (\"Equinix\"), Diamondback E&P LLC (\"Diamondback Energy\"), and Prometheus Hyperscale (formerly Wyoming Hyperscale White Box LLC) (\"Prometheus Hyperscale\"). In December 2024, we signed a 12 gigawatt (GW) Master Power Agreement with Switch, Ltd. (\"Switch\"), one of the largest corporate power purchase agreements (\"PPA\") in history. We are exploring opportunities with the Tennessee Valley Authority (\"TVA\") to recycle the utility's used fuel at a new facility and to evaluate potential power sales from future Oklo powerhouses in the region to TVA. The market interest in our solutions exemplifies the potential demand for the size range of the Aurora powerhouse product line and our differentiated business model. We have an ambitious target of deploying our first powerhouse in 2028 amidst a range of supply chain, construction, macroeconomic, and design complexities.",
+    "In addition to deployment milestones, we have made significant progress in our nuclear fuel recycling and fuel fabrication efforts and in securing fuel. The DOE has reviewed and approved our Safety Design Strategy, Conceptual Safety Design Report, Nuclear Safety Design Agreement, and Preliminary Documented Safety Analysis for the Aurora Fuel Fabrication Facility at INL—all key milestones as we advance toward our goal of utilizing recovered nuclear material to fuel our first commercial Aurora powerhouse. Our Aurora Fuel Fabrication Facility was also selected under the DOE Fuel Line Pilot Program (\"FLPP\"). The FLPP allows for acceleration of permitting, construction, and operation of nuclear fuel production lines for research, development, and demonstration purposes, supporting a fast-track approach to commercial licensing. In addition, we successfully completed the first end-to-end demonstration of the key stages of our advanced fuel recycling process, in collaboration with Argonne and INL. This marks a significant step forward in scaling up fuel recycling capabilities and deploying a commercial-scale recycling facility. In September 2025, we announced plans to design, build, and operate a fuel recycling facility in Tennessee as the first phase of an advanced fuel center (the \"Advanced Fuel Center\") to recycle used nuclear fuel into fuel for fast reactors, including our Aurora powerhouse line. The facility, which includes a roadmap of up to $1.68 billion in investment, will be the first of its kind in the U.S. and we estimate that it has the potential to create more than 800 high-quality jobs. We have completed a licensing project plan for the fuel recycling facility with the NRC and are currently in pre-application engagement with the regulator's staff.",
+    "In December 2025, we completed a fast-spectrum plutonium criticality experiment in collaboration with Los Alamos National Laboratory under the DOE's reactor pilot program (\"RPP\"). During the experiment, the system was taken critical and operated through controlled power maneuvers and transients, enabling the collection of operating data related to reactivity feedback and power response. This work places Oklo among a limited number of organizations with modern, experimentally validated operating data for plutonium-fueled fast-spectrum reactor systems, providing empirical validation of key safety and performance characteristics. Plutonium represents a potential near-term fuel option within a DOE-managed framework that complements Oklo's use of HALEU and longer-term fuel recycling strategy, providing additional flexibility as fuel markets evolve and supporting continued progress toward deployment in alignment with U.S. national priorities.",
+    "Fuel is a significant input to enable us to build and operate our powerhouses at scale and generate expected returns. The cost environment for various sources of fuel (including HALEU) has increased significantly in recent years, which is why we are implementing a diversified fuel strategy. Tariffs, supply chain constraints, inflation, and evolving sanctions have impacted the market dynamics around fuel costs and availability. In particular, beyond developing recycling and fuel fabrication facilities, we are evaluating the use of alternative fuel materials, including plutonium currently designated for the DOE's dilute-and-dispose programs, that may be made available by the U.S. government for use in advanced reactor applications. Any potential use of such materials would be subject to DOE authorization, applicable regulatory approvals, applicable cost recovery requirements, and programmatic determinations regarding material availability. By developing a diverse set of sources of fuel (including plutonium) with a wide range of costs, levels of regulatory oversight, and operational complexities, and having multiple options for fueling our powerhouses, we believe we will better navigate the shifting fuel landscape.",
+    "We are developing next-generation fast fission power plants called \"powerhouses.\" In our differentiated build, own, and operate business model, we plan to sell power in the forms of electricity and heat directly to customers, which we believe can allow for fast-tracked customer adoption. In addition, we are a leader in the nuclear industry in the development of advanced fuel recycling, which can unlock the energy content of used nuclear fuel; we also believe this aspect of our business can complement our market position by vertically integrating and securing our fuel supply chain. In addition to our powerhouse and fuel recycling development, we are progressing construction of a pilot scale fuel fabrication facility and building plans for a first‑of‑a‑kind new commercial scale fuel fabrication facility. Through our wholly owned subsidiary, Atomic Alchemy, we are combining our growing expertise in building and operating powerhouses and nuclear",
+    "fuel recycling with Atomic Alchemy's expertise in radioisotope production. Together, we aim to meet the increasing demands for radioisotopes in medical, energy, industry, defense, and artificial intelligence applications.",
+    "Our primary product will be the energy produced from our Aurora powerhouses once operational. Our primary business model is to sell the energy to customers through PPAs, as opposed to selling our powerhouse designs. This business model allows for recurring revenue, provides the opportunity to capture profitability of an Aurora powerhouse upon improved operational efficiency, and enables project financing structures. This business model sets us apart from the traditional nuclear power industry, which typically sells reactor design and engineering services to large scale utility customers and not power. Selling power through PPAs is a common practice within the renewable energy and utility sectors and indicates that this business model could be feasible for power plants within the size range targeted by our Aurora product line (i.e., 15 MWe-75 MWe, and ranging upward to potential sizes of 100 MWe and higher)."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Summary",
+    "Risks Related to Our Business and Operations",
+    "We have limited experience in operating a company that builds and operates commercial nuclear power plants or that directly provides customers heat or power.",
+    "Acquisitions, divestitures, or joint ventures involve unknown risks and could result in operating difficulties or other consequences that may have adverse effects on our business and operating results.",
+    "Customers and other third parties may rescind or back out of non‑binding agreements for various reasons, which could adversely affect our revenue streams, project timelines, and overall financial performance.",
+    "Some members of our management team have limited experience in operating a public company.",
+    "Increases in our contractor and labor costs as a result of labor unions organizing, changes in regulations related to labor unions, or increases in employee minimum wages, could adversely affect our future results.",
+    "Power purchase agreements may include penalties for not delivering sufficient electric and/or heat energy on schedule, which may result in liabilities and reductions in cash flow.",
+    "There is limited precedent for independent developer construction and operation, use of power purchase agreements, and other behind‑the‑meter or off‑grid business models relating to deployment of fission power plants.",
+    "If we fail to manage our growth effectively, we may be unable to execute our business plan, which may result in a material adverse effect on our business, results of operations, and financial condition.",
+    "Changes in the availability and cost of oil, natural gas, and other forms of energy are subject to volatile market conditions that could adversely affect our business, results of operations, and financial condition."
+   ],
+   "paragraphs": [
+    "The below is a summary of principal risks to our business and risks associated with ownership of our common stock. The risks and uncertainties described below should be carefully considered, together with all other information in this Annual Report on Form 10-K, including the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and our consolidated financial statements and related notes, before making a decision to invest in our common stock. Our business, results of operations, financial condition, or prospects could also be harmed by risks and uncertainties not currently known to us or what we currently do not believe are material. In the event that any of the risks actually occur, our business, results of operations, financial condition, and prospects could be adversely affected and could lead to a decline in the market price of our common stock.",
+    "The following summarizes some, but not all, of the risks provided below. Please carefully consider all of the information discussed in this Item 1A \"Risk Factors\" in this Annual Report for a more thorough description of these and other risks.",
+    "•We have not yet constructed any powerhouses or entered into any binding power purchase agreement with any customer to operate a plant or deliver electricity or heat, and there is no guarantee that we will be able to do so in the future. Our limited commercial operating history makes it difficult to evaluate our prospects, the risks and challenges we may encounter, and our total potential addressable market.",
+    "•We are an early‑stage company with a history of financial losses (i.e., negative cash flows), and we expect to incur significant expenses and continuing financial losses at least until our powerhouses become commercially viable, which may never occur.",
+    "•Acquisitions, divestitures, or joint ventures involve unknown risks and could result in operating difficulties or other consequences that may have adverse effects on our business and operating results.",
+    "•Our powerhouses, like many advanced fission reactors, are expected to rely at least in part on HALEU or plutonium-based fuels, either partially or for a period of time until recycled used nuclear fuel is available. HALEU and plutonium-based fuels are not currently available at scale."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Impact of Macroeconomic Conditions",
+    "Key Components of Results of Operations",
+    "Operating Expenses",
+    "Research and Development",
+    "General and Administrative",
+    "Other Income (Loss)",
+    "Income Taxes",
+    "Results of Operations",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "Years Ended December 31, 2025 versus 2024",
+    "2025 2024 $ Change % Change",
+    "Operating expenses",
+    "Liquidity and Capital Resources",
+    "Off-Balance Sheet Arrangements",
+    "Commitments and Contractual Obligations",
+    "Cash Flows Comparison",
+    "Comparison for the Years Ended December 31, 2025 and 2024",
+    "Years Ended December 31,",
+    "(in thousands) 2025 2024",
+    "Critical Accounting Estimates",
+    "Determination of fair value for the acquisition of a business",
+    "Emerging Growth Company Status",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations for the years ended December 31, 2025 and 2024, should be read together with our consolidated financial statements and related notes included elsewhere in this Annual Report. The following discussion contains \"forward-looking statements\" that reflect our future plans, estimates, beliefs, and expected performance. Our actual results may differ materially from those currently anticipated and expressed in such forward-looking statements as a result of a number of factors. We caution that assumptions, expectations, projections, intentions, or beliefs about future events may, and often do, vary from actual results and the differences can be material. Please see \"Special Note Regarding Forward-Looking Statements.\"",
+    "For an overview of the Company, see the information above presented under the section labeled \"Item 1. Business,\" which is in Part I of this Annual Report.",
+    "The macroeconomic environment both in the U.S. and globally has the potential to impact our business and financial performance. More specifically, factors such as trade agreements, tariffs, interest rates, tax law, labor trends, and fiscal policy could impact the cost to construct and operate our powerhouses, and even impact the future profitability of our operations.",
+    "Supply chain vulnerabilities represent a critical area of macroeconomic risk for our business. Global disruptions—whether from geopolitical tensions, natural disasters, or public health crises—can severely impact the availability and cost of essential components for energy infrastructure. These disruptions can lead to extended lead times for specialized equipment, shortages of critical materials, and unexpected cost escalations that complicate project planning and execution. Our reliance on supply networks for turbine components, electrical systems, and construction materials creates exposure to these global supply chain risks.",
+    "Inflation remains a significant concern, particularly as it affects construction materials, specialized equipment, and labor costs throughout our project development cycle. These inflationary pressures can erode project margins and complicate long-term capital planning efforts.",
+    "Economic growth and recession cycles directly correlate with energy demand across industrial, commercial, and residential sectors. During economic downturns, we typically experience reduced consumption patterns, while periods of growth drive increased energy needs, affecting our revenue projections and expansion strategies.",
+    "Demand for energy in the U.S. is currently being driven by the explosive growth in the data center industry, particularly as AI deployment, cloud computing adoption, and digital transformation initiatives accelerate across sectors. Should power demand growth in the AI data center market slow, customer demand for our baseload low-carbon power could be negatively impacted.",
+    "Our operating expenses consist of research and development and general and administrative expenses.",
+    "Research and development (\"R&D\") expenses represent costs incurred to develop our technologies. These costs consist of personnel costs, including salaries, employee benefit costs, bonuses, and stock-based compensation expenses, software costs, computing costs, hardware and experimental supplies, and expenses for outside engineering contractors for analytical work and consulting costs. We expense all R&D costs in the periods in which they are incurred; however, occasionally, reimbursements could be received in the following period.",
+    "We have several recycling technology projects awarded as R&D cost-share projects (the \"cost-share projects\") through the DOE's Advanced Research Projects Agency – Energy (\"ARPA-E\") and the DOE Technology Commercialization Fund (\"TCF\"). The ARPA-E and TCF projects involve cost-sharing of project costs as well as reimbursement of certain",
+    "qualifying expenditures to us. A budget was initially approved for each of these cost-share projects, and as certain expenses and capital expenditures for equipment are incurred, such expenses or capital expenditures are reported to ARPA-E, and then a pre-determined percentage of such expenses or capital expenditures are reimbursed by ARPA-E back to us. The expenses are categorized as R&D expenses, which are then partially reimbursed.",
+    "Our general and administrative (\"G&A\") expenses primarily comprise various components not related to R&D, such as personnel costs, regulatory fees, promotion expenses, costs associated with maintaining and filing intellectual property, meals and entertainment expenses, travel expenses, and other expenditures related to external professional services including legal, engineering, marketing, human resources, procurement, audit, finance, and accounting services. Personnel costs include salaries, benefits, and stock-based compensation expenses. As we continue to grow and expand our workforce and operations, and in light of the increased costs associated with operating as a public company, we anticipate that our G&A expenses will rise for the foreseeable future.",
+    "Other income (loss) consists of interest and dividend income on our portfolio of marketable debt securities and the remeasurement losses related to simple agreements for future equity.",
+    "Income taxes consist of income taxes in jurisdictions in which we conduct business. We have a full valuation allowance for deferred tax assets, including net operating loss carryforwards and tax credits related primarily to R&D. Prior to the Recapitalization, income taxes have been minimal. After the Recapitalization, as a result of our interest and dividend income from our investments, federal and state income taxes may be incurred, after available tax deductions, including tax attribute carryovers."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司營運模式",
+    "近期發展",
+    "預付款協議",
+    "放射性同位素試點設施其他交易協議",
+    "影響本公司營運表現之關鍵因素",
+    "產品開發計畫",
+    "營運計畫",
+    "核能產業",
+    "人力資本資源",
+    "企業文化",
+    "智慧財產權",
+    "政府規範",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "我們於2013年創立Oklo，目標是透過開發潔淨、可靠且具成本效益的能源解決方案，來革新能源產業。根據國際能源機構的資料，預計到2050年全球電力生產將增加超過75%，這是由於建築、運輸及工業的電氣化；開發中國家對空調的使用增加；以及資料中心和雲端服務的消費增加所致。我們的業務透過生產來自我們Aurora電力發電廠的電力與熱能，來回應這項需求，這些電力發電廠可以使用新鮮、回收或混合處理過的核燃料運作。我們同時也在商業化核燃料回收技術，該技術可將使用過的核燃料轉換為可用於我們電力發電廠及其他電力發電廠的燃料。",
+    "我們正在商業化的快速裂變反應器技術，已在美國政府運作30年的實驗性增殖反應器-II（\"EBR-II\"）中進行過演示。我們的Aurora電力發電廠產品線建立在這項已證明且經過驗證的技術傳統之上。我們的Aurora電力發電廠產品線設計有內建的安全功能，可以使用新鮮、回收或混合處理過的燃料，並可產生15至75兆瓦電力（\"MWe\"），有潛力擴充電力發電廠規模以產生100 MWe及更高。因為Aurora電力發電廠設計為透過 harness 高能量，或稱為\"快速\"中子來運作，因此預期可以利用現有核電廠產生的使用過核燃料中所剩餘的大量能源，這些核電廠僅使用約5%的核燃料能量即需重新加燃料。美國核電產業在過去30年間已產生約20%的美國電力，並產生超過90,000公噸的使用過核燃料。我們估計，透過我們的快速裂變反應器技術，美國使用過核燃料中可被利用的現有能源儲備，相當於約1.2兆桶的石油當量（BOE），幾乎是沙烏地阿拉伯石油儲備的五倍。裂變是一種能量密度極高的過程，產生的能量約為燃燒的5000萬倍。",
+    "我們已為我們的第一座Aurora電力發電廠達成幾個重要的部署與法規里程碑。值得注意的是，我們已從美國能源部（\"DOE\"）取得愛達荷國家實驗室（\"INL\"）場地使用許可，並獲得五公噸的HALEU燃料獎勵，這些燃料來自INL回收的先前照射過的EBR-II燃料，用於 Idaho 的商業Aurora電力發電廠。與Aurora電力發電廠的建設與營運許可程序相關，我們也已向DOE提交了核安全設計協議與初步文件化安全分析，這些文件代表DOE核設施運作法規途徑中的前兩步驟。2026年初，DOE批准了核安全設計協議。與我們的第一座Aurora電力發電廠相關，DOE與INL已完成符合環境法規的程序，回應DOE對場地特徵化的要求。這個過程導致取得環境合規許可，標誌著我們在美國交付第一座商業先進裂變電力發電廠的計畫中邁出重要一步。",
+    "我們於2024年5月9日根據2023年7月11日簽訂的合併與重組協議（經後續修改、補充、放棄或豁免，稱為\"合併協議\"）完成了企業合併，該協議由AltC Acquisition Corp.（\"AltC\"）與Oklo Technologies, Inc.（\"重組\"）簽訂。在重組前，Oklo Technologies, Inc. 前稱為Oklo Inc.（在此文中稱為\"Legacy Oklo\"）。在完成重組後，AltC 更改公司名稱為Oklo Inc.。有關更多資訊，請參閱我們隨附財務報表中的附註3—企業合併—重組。",
+    "於2024年9月25日，本公司宣佈與美國能源部愛達荷州運營辦公室簽訂備忘錄協議（\"MOA\"）。此MOA使本公司得以進行位於愛達荷州指定優先地點的現場調查，標誌著下一階段的場地準備與建設工作的重要進展。",
+    "於2025年2月28日，本公司取得位於美國的放射性同位素業務Atomic Alchemy Inc.（\"Atomic Alchemy\"）。本公司以現金約100萬美元支付部分Atomic Alchemy投資者的資金，並以每股33.39美元的價格，交換820,840股本公司A類普通股（\"普通股\"），每股面值0.0001美元，代表約2740萬美元的股票對價。此外，本公司亦發行274,339股普通股，受特定鎖定期條款、行權條件及重大風險放棄限制，代表合併後的服務對價，根據就業契約及行權契約。該買賣對價已交換取得Atomic Alchemy所有現有普通股。有關進一步資訊，請參閱本公司隨同財務報表所附的附註3—企業合併—Atomic Alchemy。",
+    "於2025年12月，本公司購入位於美國俄亥俄州南部的不動產，本公司已宣佈有意將其用於支援Aurora電力發電廠，包括支援預計在俄亥俄州皮克縣的1.2吉瓦電力園區，與Meta Platforms, Inc.（如後述—近期發展—預付款協議所述）的預付款協議有關。",
+    "此外，本公司已初步被選定為提供電力與熱能至位於阿拉斯加費爾班克斯外的Eielson空軍基地。本公司強大的潛在客戶合作管道涵蓋多個產業。例如，本公司已與Equinix, Inc.（\"Equin,ix\"）、Diamondback E&P LLC（\"Diamondback Energy\"）及Prometheus Hyperscale（原為Wyoming Hyperscale White Box LLC）（\"Prometheus Hyperscale\"）簽訂非綁定意向書。於2024年12月，本公司與Switch, Ltd.（\"Switch\"）簽訂12吉瓦（GW）主電力協議，為歷史上規模最大的企業電力購買協議（\"PPA\"）之一。本公司正在與田納西河谷管理局（\"TVA\"）探討合作機會，以回收該電力公司使用過的燃料於新設設施，並評估未來Oklo電力發電廠在該地區的電力銷售潛力至TVA。市場對本公司解決方案的興趣，體現了Aurora電力發電廠產品線規模範圍的潛在需求，以及本公司差異化的商業模式。本公司有著雄心勃勃的目標，預計於2028年部署第一座電力發電廠，面對供應鏈、建設、總體經濟及設計等複雜性。",
+    "除部署里程碑外，我們在核燃料回收與燃料製造方面亦有重大進展，並在取得燃料方面取得進展。美國能源部已審查並批准我們的 Safety Design Strategy、Conceptual Safety Design Report、Nuclear Safety Design Agreement 與 Preliminary Documented Safety Analysis，針對位於 INL 的 Aurora Fuel Fabrication Facility。這些皆為我們朝向目標的關鍵里程碑，即利用回收的核材料作為我們第一座商業 Aurora 動力廠的燃料。我們的 Aurora Fuel Fabrication Facility 亦被選為美國能源部 Fuel Line Pilot Program（\"FLPP\"）的項目。FLPP 允許加速核燃料生產線的許可、建設與運作，用於研究、開發與示範目的，支持快速取得商業許可的途徑。此外，我們成功完成與 Argonne 與 INL 合作的先進燃料回收流程關鍵階段的端到端示範。這標誌著我們在擴大燃料回收能力與部署商業規模回收設施方面邁出重要一步。2025 年 9 月，我們宣佈計畫在田納西州設計、建設並運作一座燃料回收設施，作為先進燃料中心（\"Advanced Fuel Center\"）的第一階段，用以回收使用過的核燃料，作為快中子反應爐的燃料，包括我們的 Aurora 動力廠線。該設施包含最高達 16.8 億美元的投資路線圖，將是美國首座此類設施，我們估計該設施有潛力創造超過 800 個高品質工作機會。我們已與 NRC 完成燃料回收設施的許可計畫，目前正與監管機構的員工進行預申請階段的溝通。",
+    "2025 年 12 月，我們與洛斯阿拉莫斯國家實驗室合作，在美國能源部的反應堆試點計畫（\"RPP\"）下完成了一項快中子譜鈈臨界實驗。在實驗期間，系統被帶至臨界狀態，並透過控制功率操作與瞬態進行運作，使我們得以收集與反應性反饋與功率反應相關的運作數據。此工作使 Oklo 與少數擁有現代、實驗驗證運作數據的組織並列，這些數據用以驗證鈈燃料快中子譜反應堆系統的關鍵安全與性能特性。鈈代表一種潛在的短期燃料選項，屬於美國能源部管理框架內的選項，與 Oklo 使用 HALEU 以及長期燃料回收策略相輔相成，提供燃料市場演變時的額外靈活性，並支持持續朝向部署的進展，符合美國國家優先事項。",
+    "燃料是我們要能大規模建設與運作動力廠並產生預期回報的重要投入。近年來，各種燃料來源（包括 HALEU）的成本環境顯著上升，因此我們正在實施多元化的燃料策略。關稅、供應鏈限制、通貨膨脹與不斷演變的制裁已影響燃料成本與可得性的市場動態。特別是，除了開發回收與燃料製造設施外，我們正在評估使用替代燃料材料，包括目前被指定為美國能源部 dilute-and-dispose 計畫的鈈，這些材料可能由美國政府提供用於先進反應堆應用。任何潛在使用這些材料的行為皆需美國能源部的授權、適用的監管批准、適用的成本回收要求，以及關於材料可得性的計畫決定。透過發展多元的燃料來源（包括鈈）並具有廣泛的成本、監管監督程度與運作複雜性，並擁有多種燃料我們動力廠的選擇，我們相信將能更好地應對燃料市場的變化。",
+    "我們正在開發新一代快速裂變發電廠，稱為 \"powerhouses\"。在我們的差異化建置、擁有與營運商業模式中，我們計畫直接向客戶銷售電力與熱能，我們認為這可以促進客戶快速採用。此外，我們在核能產業中是先進燃料回收技術的領導者，這項技術可以釋放使用過核燃料的能量內容；我們也認為這項業務方面可以透過垂直整合並確保我們的燃料供應鏈，來強化我們的市場地位。除了powerhouse與燃料回收技術的開發，我們正在進行小型燃料製造設施的建設，並規劃建設第一座全新商業規模的燃料製造設施。透過我們的 wholly owned subsidiary，Atomic Alchemy，我們將我們在建置與營運powerhouses與核能技術的成長專業知識，與Atomic Alchemy在放射性同位素製造方面的專業知識結合。透過合作，我們旨在滿足醫療、能源、工業、防禦以及人工智慧應用領域對放射性同位素日益增長的需求。",
+    "我們的主要產品將是Aurora powerhouses在運作後產生的能源。我們的主要商業模式是透過PPAs向客戶銷售能源，而非銷售我們的powerhouse設計。這種商業模式可以帶來持續性收入，提供在運作效率提升後捕捉Aurora powerhouse盈利能力的機會，並能支撐專案融資結構。這種商業模式使我們與傳統核能產業區隔開來，傳統核能產業通常會向大型電力用戶銷售反應器設計與工程服務，而非電力。透過PPAs銷售電力是再生能源與電力產業的常見做法，這表示這種商業模式對於我們Aurora產品線所針對的電力廠規模（即15 MWe-75 MWe，並可能向上至100 MWe及更高規模）來說可能是可行的。",
+    "我們的主要產品將是Aurorapowerhouses在運作後產生的能源。我們的主要商業模式是透過PPAs向客戶銷售能源，而非銷售我們的powerhouse設計。這種商業模式可以帶來持續性收入，提供在運作效率提升後捕捉Aurora powerhouse盈利能力的機會，並能支撐專案融資結構。這種商業模式使我們與傳統核能產業區隔開來，傳統核能產業通常會向大型電力用戶銷售反應器設計與工程服務，而非電力。透過PPAs銷售電力是再生能源與電力產業的常見做法，這表示這種商業模式對於我們Aurora產品線所針對的電力廠規模（即15 MWe-75 MWe，並可能向上至100 MWe及更高規模）來說可能是可行的。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "總體經濟情勢的影響",
+    "營運成果的關鍵零組件",
+    "營運費用",
+    "研究與發展",
+    "一般及行政",
+    "其他收入（損失）",
+    "所得稅",
+    "營運成果",
+    "比較截至2025年12月31日及2024年12月31日之年度",
+    "截至2025年12月31日與2024年12月31日之年度比較",
+    "2025 2024 差額 變動百分比",
+    "營運費用",
+    "流動性及資金來源",
+    "離財務表之安排",
+    "承諾及契約義務",
+    "現金流比較",
+    "比較2025年12月31日財務年度與2024年12月31日財務年度",
+    "財務年度終止於12月31日",
+    "(單位：千美元) 2025 2024",
+    "關鍵會計估計",
+    "取得企業之公平價值判定",
+    "新興成長公司地位",
+    "最近會計準則聲明"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運成果的討論與分析，係針對截至2025年12月31日及2024年12月31日之年度，應與本年度報告中其他處所載明之合併財務報表及相關附註一併閱讀。以下討論包含「向前看聲明」，反映我們未來計畫、預估、信念及預期表現。我們實際結果可能與目前預期及表達於上述向前看聲明之內容有重大差異，原因係因多種因素所致。我們提醒，關於未來事件之假設、預期、預測、意圖或信念，可能與實際結果有所差異，且差異可能重大。請參閱「特別提醒向前看聲明」。",
+    "有關本公司的概要資訊，請參閱本年度報告第一部分標註為「項目1.業務」之部分所載之資訊。",
+    "美國與全球之總體經濟環境，可能影響我們之業務與財務表現。更明確而言，因素如貿易協議、關稅、利率、稅法、勞動趨勢及財政政策，可能影響我們建設與營運發電廠之成本，甚至影響我們營運之未來獲利能力。",
+    "供應鏈脆弱性代表我們業務之總體經濟風險關鍵領域。全球幹擾—無論來自地緣政治緊張、自然災害或公共衛生危機—可能嚴重影響能源基礎設施所需零組件之可得性與成本。這些幹擾可能導致專用設備交貨時間延長、關鍵材料短缺，以及未預期的成本攀升，使專案規劃與執行變得複雜。我們對渦輪機零組件、電氣系統及建設材料之供應網路依賴，使我們面臨這些全球供應鏈風險。",
+    "通貨膨脹仍是重大關注點，特別是因為其影響我們專案開發週期中建設材料、專用設備及勞動成本。這些通貨膨脹壓力可能削減專案毛利率，並使長期資本規劃變得複雜。",
+    "經濟成長與衰退週期與工業、商業及住宅部門之能源需求有直接關聯。在經濟低迷時期，我們通常會經歷消費模式下降，而在成長時期則會驅動能源需求增加，影響我們之營收預測與擴張策略。",
+    "美國能源需求目前受到資料中心產業爆炸性成長所驅動，特別是因人工智慧部署、雲端計算採用及數位轉型計畫加速於各產業推展。若人工智慧資料中心市場之電力需求成長減緩，客戶對我們基載低碳電力之需求可能受到負面影響。",
+    "我們之營運費用包含研究與發展費用及一般及行政費用。",
+    "研究發展（\"R&D\"）費用為開發我們技術所產生的成本。這些成本包含人力成本，包括薪資、員工福利成本、獎金及股票基於薪酬費用、軟體成本、計算機成本、硬體及實驗材料，以及委外工程承包商進行分析工作及諮詢服務的費用。我們在發生當期將所有R&D費用費用化；然而，偶爾，補償可能於後一期取得。",
+    "我們有數個被授予R&D成本分擔計畫（\"cost-share projects\"）的循環技術專案，透過美國能源部（DOE）先進研究計畫署－能源（\"ARPA-E\"）及美國能源部技術商業化基金（\"TCF\"）。ARPA-E及TCF專案涉及專案成本的分擔以及對我們某些符合條件支出的補償。",
+    "每個cost-share專案最初均批准預算，當某些費用及設備資本支出產生時，這些費用或資本支出會報告給ARPA-E，然後ARPA-E會根據預先確定的百分比將這些費用或資本支出補償回我們。這些費用被歸類為R&D費用，之後會部分補償。",
+    "一般及行政（\"G&A\"）費用主要包含與R&D無關的各項零組件，例如人力成本、規費、推廣費用、維護及申報智慧財產權的費用、餐飲娛樂費用、旅行費用，以及與外部專業服務相關的其他費用，包括法律、工程、行銷、人力資源、採購、會計、審計及財務服務。人力成本包含薪資、福利及股票基於薪酬費用。隨著我們持續成長與擴大員工及營運規模，並考量作為上市公司所產生的增加成本，我們預期在可預見的未來，G&A費用將持續上升。",
+    "其他收入（損失）包含我們投資組閤中市場性債務證券的利息及股息收入，以及與簡單未來權益協議相關的重新衡量損失。",
+    "所得稅包含我們在營運地區所產生的所得稅。我們對遞延所得稅資產有完整的價值減損準備，包括與R&D相關的淨營業損失結轉及稅額抵減。在 recapitalization 之前，所得稅為微不足道。在 recapitalization 之後，由於我們投資所產生的利息及股息收入，聯邦及州級所得稅可能產生，扣除可用稅額抵減後，包括稅額屬性結轉。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與本公司業務及營運相關的風險",
+    "本公司在營運一家從事商業核能發電廠建設與營運，或直接向客戶提供熱能或電力的公司方面經驗有限。",
+    "收購、出售資產或設立合資企業可能涉及未知風險，並可能導致營運困難或其他後果，這些後果可能對本公司業務及營運成果產生不利影響。",
+    "客戶及其他第三方可能因各種原因撤銷或退出非綁定協議，這可能對本公司收入來源、專案進度及整體財務表現產生不利影響。",
+    "本公司部分管理層成員在營運上市公司方面經驗有限。",
+    "由於勞工組織化、與勞工組織相關的法規變更或員工最低工資提高所導致的承包商及勞動成本增加，可能對本公司未來成果產生不利影響。",
+    "電力購買協議可能包含因未能按時交付足夠電力及/或熱能而產生的罰款條款，這可能導致負債及現金流減少。",
+    "獨立開發商建設與營運核反應堆、使用電力購買協議，以及其他後端或離網商業模式之先例有限。",
+    "若本公司無法有效管理成長，可能無法執行業務計畫，進而對本公司業務、營運結果及財務狀況造成重大不利影響。",
+    "原油、天然氣及其他能源形式之可得性與成本變動，受波動市場條件影響，可能對本公司業務、營運結果及財務狀況造成不利影響。"
+   ],
+   "paragraphs": [
+    "以下為影響本公司業務之主要風險，以及持有本公司普通股之風險。請謹慎考量下列所述之風險與不確定性，並配合本年度10-K表報表中所有其他資訊，包括「管理層對財務狀況與營運結果之討論與分析」一節及本公司合併財務報表與相關附註，以作為投資本公司普通股之參考。本公司業務、營運結果、財務狀況或前景亦可能因目前未知或本公司目前認為非重大之風險與不確定性而受到損害。若任何風險實際發生，將可能對本公司業務、營運結果、財務狀況與前景造成不利影響，並可能導致本公司普通股之市場價格下跌。",
+    "以下為部分，而非全部，所列之風險。請謹慎考量本年度10-K表報表中「風險因素」項目所討論之所有資訊，以獲得對這些及其他風險更完整的描述。",
+    "•本公司尚未建設任何發電廠，也未與任何客戶簽訂任何具有約束力的電力購買協議，以運營廠區或提供電力或熱能，且無法保證未來能實現此目標。本公司有限的商業營運歷史，使評估本公司前景、可能遇到的風險與挑戰，以及總體可接觸市場變得困難。",
+    "•本公司為早期階段公司，具有財務虧損的歷史（即負現金流），且預期至少在發電廠商業化之前，將持續產生重大支出與財務虧損，此情況可能永遠不會結束。",
+    "•收購、出售資產或設立合資企業涉及未知風險，可能導致營運困難或其他後果，對本公司業務與營運結果產生不利影響。",
+    "•本公司發電廠，如同許多先進裂變反應堆一樣，預期至少部分依賴HALEU或鈽基燃料，無論是部分使用或在回收使用核燃料可用之前一段時間內使用。HALEU與鈽基燃料目前尚無法大規模取得。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

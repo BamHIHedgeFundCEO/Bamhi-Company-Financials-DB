@@ -1,0 +1,217 @@
+{
+ "ticker": "DIOD",
+ "cik": "0000029002",
+ "accession": "0001193125-26-044918",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "End product applications",
+    "Net Sales by Region",
+    "Net Sales by Type",
+    "Cautionary Statement for Purposes of the \"Safe Harbor\" Provision of the Private Securities Litigation Reform Act of 1995"
+   ],
+   "paragraphs": [
+    "Diodes Incorporated, together with its subsidiaries (collectively the \"Company,\" \"we,\" or \"our\" (Nasdaq: DIOD)), delivers high-quality semiconductor products to the world's leading companies in the automotive, industrial, computing, consumer electronics, and communications markets. We leverage our expanded product portfolio of analog and power solutions combined with a flexible hybrid manufacturing model that meet customers' needs. Our broad range of application-specific products, delivered through a total solutions sales approach and supported by global operations including engineering, testing, manufacturing, and customer service, enable us to be a premier provider for high-growth markets. For more information, visit www.diodes.com.",
+    "We operate from the following locations, with additional support offices throughout the world:",
+    "• Corporate Headquarters Plano, Texas, United States • Design, Engineering, and Marketing Shanghai, Yangzhou, Shenzhen, and Hong Kong, China",
+    "Oldham, England Greenock, Scotland Bratislava, Slovakia New Taipei City, Hsinchu, and Tainan, Taiwan",
+    "Milpitas, California, and Plano, Texas, United States • Wafer Fabrication Shanghai and Wuxi, China",
+    "Oldham, England Greenock, Scotland Hsinchu, Taiwan South Portland, Maine, United States • Assembly and Test",
+    "Shanghai, Chengdu, and Wuxi, China Neuhaus am Rennweg, Germany Chongli, Taiwan • Sales, Warehouse, and Logistics",
+    "Hong Kong, Shanghai, Beijing, Shenzhen, Wuhan, Qingdao, and Xiamen, China Oldham, England Frankfurt and Munich, Germany",
+    "Milan, Italy Tokyo, Japan Singapore Seongnam-si, South Korea New Taipei City, Taiwan Milpitas, California and Plano, Texas, United States",
+    "The Company's manufacturing facilities have achieved certifications in the internationally recognized standards of ISO 9001:2015, ISO 14001:2015, and, for automotive products, IATF 16949:2016 and the Company is also C-TPAT certified. We believe these quality awards reflect the superior quality-control techniques established at the Company and further enhance our credibility as a vendor-of-choice to original equipment manufacturers (\"OEMs\") increasingly concerned with quality and consistency.",
+    "Our market focus is on high-growth, end-user applications in the following areas: • Automotive: connected driving, comfort/style/safety, electrification/powertrain;",
+    "• Industrial: embedded systems, industrial automation, medical, energy management, smart buildings;",
+    "• Computing: Artificial Intelligence (\"AI\") data center including AI server, storage, and edge AI;",
+    "• Consumer: Internet of things (\"IoT\"): wearables, home automation, home appliances, and charging solutions; and"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "The impact of tariffs assessed or contemplated to be assessed by various governments could have a material adverse effect on our business, financial condition, and results of operations.",
+    "The impact of pandemics may have a material adverse effect on our business, financial condition, and results of operations.",
+    "During times of difficult market conditions, our fixed costs combined with lower net sales and lower profit margins may have a negative impact on our business, operating results, and financial condition.",
+    "Downturns in the highly cyclical semiconductor industry or changes in end-market demand could adversely affect our operating results and financial condition.",
+    "The semiconductor business is highly competitive, and increased competition may harm our business, operating results, and financial condition.",
+    "We are and will continue to be under continuous pressure from our customers and competitors to reduce the price of our products, which could adversely affect our growth and profit margins.",
+    "We are subject to many environmental laws and regulations that could result in significant expenses and could adversely affect our business, operating results, and financial condition.",
+    "We may incur additional costs and face emerging risks associated with environmental, social and governance (\"ESG\") factors impacting our operations.",
+    "Obsolete inventories as a result of changes in demand for our products and change in life cycles of our products could adversely affect our business, operating results, and financial condition.",
+    "If our direct sales customers or our distributors' customers do not design our products into their applications, our net sales may be adversely affected.",
+    "We are subject to interest rate risk that could have an adverse effect on our cost of working capital and interest expenses, which could adversely affect our business, operating results, and financial condition.",
+    "Our hedging strategies may not be successful in mitigating our risks associated with interest rates or foreign exchange exposure or our counterparties might not perform as agreed.",
+    "Restrictions in our credit facilities may limit our business and financial activities, including our ability to obtain additional capital in the future.",
+    "Our business benefits from certain Chinese government incentives. Expiration of, or changes to, these incentives could adversely affect our operating results and financial condition.",
+    "Our international operations subject us to risks that could adversely affect our operations.",
+    "A slowdown in the Chinese economy could limit the growth in demand for electronic devices containing our products, which would have a material adverse effect on our business, operating results, and prospects.",
+    "Economic regulation in China could materially and adversely affect our business, operating results, and prospects.",
+    "We could be adversely affected by violations of the United States' Foreign Corrupt Practices Act, the U.K.'s Bribery Act 2010, China's anti-corruption campaign and similar worldwide anti-bribery laws.",
+    "We are subject to foreign currency risk as a result of our international operations.",
+    "We may not continue to receive preferential tax treatment in Asia, thereby increasing our income tax expense and reducing our net income.",
+    "The distribution of any earnings of certain foreign subsidiaries may be subject to foreign income taxes, thus reducing our net income.",
+    "Variations in our quarterly operating results may cause our stock price to be volatile.",
+    "We may enter into future acquisitions and take certain actions in connection with such acquisitions that could adversely affect the price of our Common Stock.",
+    "Anti-takeover effects of certain provisions of Delaware law and our Certificate of Incorporation and Bylaws, may hinder a take-over attempt.",
+    "The continued hostilities between Ukraine and Russia could negatively impact our business.",
+    "We may be adversely affected by any disruption in our information technology systems, which could adversely affect our cash flows, operating results, and financial condition.",
+    "We may incur additional costs and face emerging risks associated with environmental, social, and governance (\"ESG\") factors impacting our operations."
+   ],
+   "paragraphs": [
+    "Investing in our Common Stock involves a high degree of risk. You should carefully consider the following risks and other information in this Annual Report before you make any trading decisions regarding our Common Stock. Our business, financial condition, or operating results may suffer if any of the following risks are realized. Additional risks and uncertainties not currently known to us may also adversely affect our business, financial condition, or operating results. If any of these risks or uncertainties occurs, the trading price of our Common Stock could decline and you could lose part or all of your investment.",
+    "Delays in initiation of production at facilities due to implementing new production techniques or resolving problems associated with technical equipment malfunctions could adversely affect our manufacturing efficiencies, operating results, and financial condition.",
+    "Our customers may require our products to undergo a lengthy and expensive qualification process without any assurance of product sales and may audit our operations from time to time. A failure to qualify a product or a negative audit finding could adversely affect our net sales, operating results, and financial condition.",
+    "Our customer orders are subject to cancellation or modification usually with no penalty. High volumes of order cancellation or reduction in quantities ordered could adversely affect our net sales, operating results, and financial condition.",
+    "Production at our manufacturing facilities could be disrupted for a variety of reasons, including natural disasters and other extraordinary events, which could prevent us from producing enough of our products to maintain our sales and satisfy our customers' demands and could adversely affect our operating results and financial condition.",
+    "New technologies could result in the development of new products by our competitors and a decrease in demand for our products, and we may not be able to develop new products to satisfy changes in demand, which would adversely affect our net sales, market share, operating results, and financial condition."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Summary for the Twelve Months Ended December 31, 2025",
+    "Summary for the Twelve Months Ended December 31, 2024",
+    "Business Outlook and Factors Relevant to Our Results of Operations",
+    "Description of Sales and Expenses",
+    "Results of Operations",
+    "Percent of Net Sales",
+    "Twelve Months Ended December 31,",
+    "Increase/(Decrease)",
+    "Financial Condition",
+    "Liquidity and Capital Resources",
+    "Discussion of Cash Flows",
+    "Operating Activities",
+    "Investing Activities",
+    "Financing Activities",
+    "Contractual Obligations",
+    "Critical Accounting Policies and Estimates",
+    "Revenue recognition",
+    "Accounting for income taxes",
+    "Business Combinations",
+    "Recently Issued Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "• Net sales were $1.5 billion, an increase of 13.0% over the $1.3 billion in 2024; • Gross profit was $462.4 million, a 6.1% increase from $435.9 million in 2024;",
+    "• Gross profit margin was 31.2% compared to 33.2% in 2024;",
+    "• Operating income decreased 29.7% to $35.5 million, or 2.4% of net sales, compared to $50.5 million, or 3.8% of net sales, in 2024;",
+    "• Net income was $66.1 million, an increase of 50.2% from the $44.0 million in 2024;",
+    "• Earnings per share was $1.43 per diluted share, a 50.5% increase from the $0.95 per diluted share in 2024;",
+    "• We achieved $215.5 million of cash flow from operations. We had cash capital expenditures of $78.4 million, or 5.3% of net sales. Net cash flow was $57.6 million, which includes the net pay-down of $1.2 million of total debt.",
+    "• Net sales were $1.3 billion, a decrease of 21.1% over the $1.7 billion in 2023; • Gross profit was $435.9 million, a 33.8% decrease from $658.2 million in 2023;",
+    "• Gross profit margin declined to 33.2% compared to 39.6% in 2023;",
+    "• Operating income decreased 79.9% to $50.5 million, or 3.8% of net sales, compared to $250.6 million, or 15.1% of net sales, in 2023;",
+    "• Net income was $44.0 million, a decrease of 80.6% from the $227.2 million in 2023;",
+    "• Earnings per share was $0.95 per diluted share, a 80.6% decrease from the $4.9 per diluted share in 2023;",
+    "• We achieved $119.4 million of cash flow from operations. We had cash capital expenditures of $73.0 million, or 5.6% of net sales. Net cash flow was a negative $3.8 million, which includes the net pay-down of $7.6 million of total debt."
+   ],
+   "focus": "Summary for the Twelve Months Ended December 31, 2025"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "終端產品應用",
+    "按地區分列之淨銷售額",
+    "按類型分列之淨銷售額",
+    "為符合1995年私人證券訴訟改革法案之『Safe Harbor』條款而設之警示聲明"
+   ],
+   "paragraphs": [
+    "Diodes Incorporated, together with its subsidiaries (collectively the \"Company,\" \"we,\" or \"our\" (Nasdaq: DIOD)), delivers high-quality semiconductor products to the world's leading companies in the automotive, industrial, computing, consumer electronics, and communications markets. We leverage our expanded product portfolio of analog and power solutions combined with a flexible hybrid manufacturing model that meet customers' needs. Our broad range of application-specific products, delivered through a total solutions sales approach and supported by global operations including engineering, testing, manufacturing, and customer service, enable us to be a premier provider for high-growth markets. For more information, visit www.diodes.com.",
+    "We operate from the following locations, with additional support offices throughout the world:",
+    "• Corporate Headquarters Plano, Texas, United States • Design, Engineering, and Marketing Shanghai, Yangzhou, Shenzhen, and Hong Kong, China",
+    "Oldham, England Greenock, Scotland Bratislava, Slovakia New Taipei City, Hsinchu, and Tainan, Taiwan",
+    "Milpitas, California, and Plano, Texas, United States • Wafer Fabrication Shanghai and Wuxi, China",
+    "Oldham, England Greenock, Scotland Hsinchu, Taiwan South Portland, Maine, United States • Assembly and Test",
+    "Shanghai, Chengdu, and Wuxi, China Neuhaus am Rennweg, Germany Chongli, Taiwan • Sales, Warehouse, and Logistics",
+    "Hong Kong, Shanghai, Beijing, Shenzhen, Wuhan, Qingdao, and Xiamen, China Oldham, England Frankfurt and Munich, Germany",
+    "米蘭, 義大利 東京, 日本 新加坡 聖南市, 韓國 新北市, 臺灣 米爾皮塔斯, 加利福尼亞州 和 帕諾, 德克薩斯州, 美國",
+    "本公司的製造設施已取得國際公認標準 ISO 9001:2015、ISO 14001:2015 認證，對於汽車產品，亦取得 IATF 16949:2016 認證，本公司亦為 C-TPAT 認證機構。我們認為這些品質獎項反映本公司所建立的優秀品質管制技術，並進一步提升本公司作為原廠設備製造商（\"OEMs\"）首選供應商的可信度，而這些製造商日益重視品質與一致性。",
+    "我們的市場重點為高成長的終端應用領域，包括以下領域：• 汽車：連網駕駛、舒適/風格/安全、電動化/動力總成；",
+    "• 工業：嵌入式系統、工業自動化、醫療、能源管理、智慧建築；",
+    "• 計算機：人工智慧（\"AI\"）資料中心，包括 AI 伺服器、儲存設備及邊緣 AI；",
+    "• 消費者：物聯網（\"IoT\"）：穿戴裝置、居家自動化、家用電器及充電解決方案；"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "十二個月結帳日至2025年12月31日摘要",
+    "十二個月結帳日至2024年12月31日摘要",
+    "業務展望與影響我們營運結果之重要因素",
+    "銷售與費用之說明",
+    "營運成果",
+    "淨銷售額百分比",
+    "十二個月結帳日至12月31日",
+    "增加/(減少)",
+    "{'Financial Condition': '財務狀況'}",
+    "{'Liquidity and Capital Resources': '流動性及資本資源'}",
+    "{'Discussion of Cash Flows': '現金流討論'}",
+    "{'Operating Activities': '營運活動'}",
+    "{'Investing Activities': '投資活動'}",
+    "{'Financing Activities': '籌資活動'}",
+    "{'Contractual Obligations': '契約義務'}",
+    "{'Critical Accounting Policies and Estimates': '關鍵會計政策與會計估計'}",
+    "{'Revenue recognition': '收入認列'}",
+    "{'Accounting for income taxes': '所得稅會計處理'}",
+    "{'Business Combinations': '企業併購'}",
+    "{'Recently Issued Accounting Pronouncements': '最近發佈的會計準則'}"
+   ],
+   "paragraphs": [
+    "",
+    "• 毛利率為 31.2%，較 2024 年的 33.2% 下降；",
+    "• 營運收入減少 29.7% 至 35.5 百萬美元，或佔淨銷售額的 2.4%，較 2024 年的 50.5 百萬美元，或佔淨銷售額的 3.8% 下降；",
+    "• 稅後淨利為 66.1 百萬美元，較 2024 年的 44.0 百萬美元成長 50.2%；",
+    "• 每股盈餘為 1.43 美元（稀釋後），較 2024 年的 0.95 美元（稀釋後）成長 50.5%；",
+    "• 我們實現 215.5 百萬美元的營運現金流。我們的資本支出為 78.4 百萬美元，或佔淨銷售額的 5.3%。淨現金流為 57.6 百萬美元，包含總負債淨償還 1.2 百萬美元；",
+    "",
+    "• 毛利率降至 33.2%，較 2023 年的 39.6% 下降；",
+    "{'translated_text': '• 營運獲利減少 79.9% 至 50.5 百萬美元，佔淨銷售額 3.8%，與 2023 年 250.6 百萬美元，佔淨銷售額 15.1% 相較。'}",
+    "• 稅後淨利為 44.0 百萬美元，較 2023 年的 227.2 百萬美元減少 80.6%。",
+    "• 每股稀釋後盈餘為 0.95 美元，較 2023 年的 4.9 美元減少 80.6%。",
+    "• 我們實現 119.4 百萬美元的營運現金流。我們的現金資本支出為 73.0 百萬美元，或為淨銷售額的 5.6%。淨現金流為負 3.8 百萬美元，包含總負債淨償還 7.6 百萬美元。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "關稅評估或預期將被各國政府課徵之影響，可能對本公司之業務、財務狀況及營運成果產生重大不利影響。",
+    "疫情之影響可能對本公司之業務、財務狀況及營運成果產生重大不利影響。",
+    "在市場條件惡化之時期，本公司之固定成本加上較低之淨銷售額與較低之毛利率，可能對本公司之業務、營運成果及財務狀況產生負面影響。",
+    "半導體產業為高度週期性產業，若產業出現衰退或終端市場需求變化，可能對本公司之營運成果及財務狀況產生不利影響。",
+    "半導體業務屬高度競爭產業，若競爭增加，可能對本公司之業務、營運成果及財務狀況產生不利影響。",
+    "本公司將持續面對客戶與競爭對手要求降低產品價格之壓力，此可能對本公司之成長與毛利率產生不利影響。",
+    "本公司受許多環境法規所規範，此可能導致重大支出，並對本公司之業務、營運成果及財務狀況產生不利影響。",
+    "本公司可能因環境、社會及治理（\"ESG\"）因素影響營運而產生額外成本並面臨新興風險。",
+    "因產品需求變化及產品生命週期改變所導致之過時存貨，可能對本公司之業務、營運成果及財務狀況造成不利影響。",
+    "若本公司直接銷售客戶或經銷商客戶未將本公司產品設計至其應用中，可能對本公司之淨銷售額造成不利影響。",
+    "本公司受利率風險影響，可能對本公司之營運資金成本及利息支出造成不利影響，進而影響本公司之業務、營運成果及財務狀況。",
+    "本公司之避險策略可能無法成功降低與利率或外匯風險相關之風險，或交易對手可能未依約履行義務。",
+    "本公司信貸設施之限制可能限制本公司之業務及財務活動，包括未來取得額外資金之能力。",
+    "本公司業務受益於中國政府之特定優惠措施。這些優惠措施到期或變更，可能對本公司之營運成果及財務狀況造成不利影響。",
+    "本公司之國際業務使本公司面臨風險，可能對本公司之營運造成不利影響。",
+    "中國經濟減速可能限制含有本公司產品之電子設備需求之成長，進而對本公司之業務、營運成果及前景造成重大不利影響。",
+    "中國的經濟管制可能對我們的業務、營運成果及前景造成重大且不利的影響。",
+    "我們可能因違反美國的外國腐敗行為規避法、英國的貪污法2010年版、中國的反貪腐運動及類似全球反賄賂法律而受到不利影響。",
+    "由於我們的國際營運，我們面臨外幣風險。",
+    "我們可能無法繼續享有亞洲地區的稅收優惠待遇，從而增加我們的所得稅費用並降低我們的淨收入。",
+    "某些海外子公司的盈餘分派可能需納入外國所得稅，因此會降低我們的淨收入。",
+    "我們季度營運成果的變動可能導致本公司股票價格波動。",
+    "我們可能進行未來的併購，並針對此等併購採取某些行動，這些行動可能對本公司普通股的價格造成不利影響。",
+    "特別是特拉華州法律及本公司章程與規章的某些條款可能對買盤行動產生反併購效果。",
+    "烏克蘭與俄羅斯之間持續的敵對行動可能對本公司業務產生負面影響。",
+    "資訊科技系統若發生中斷，可能對本公司現金流、營運成果及財務狀況造成不利影響。",
+    "本公司可能因環境、社會及治理（\"ESG\"）因素影響營運而產生額外成本並面臨新興風險。"
+   ],
+   "paragraphs": [
+    "投資本公司的普通股涉及高度風險。您應在做出任何有關本公司普通股交易決策前，仔細考慮下列風險及其他資訊，並參考本年度報告。若任何下列風險實現，本公司業務、財務狀況或營運成果可能會受到影響。此外，尚有其他未知的風險與不確定性，也可能對本公司業務、財務狀況或營運成果產生不利影響。若任何這些風險或不確定性發生，本公司普通股的交易價格可能會下跌，您可能會損失部分或全部投資。",
+    "因實施新生產技術或解決技術設備故障相關問題而導致生產設施啟動延誤，可能會對本公司製造效率、營運成果及財務狀況產生不利影響。",
+    "客戶可能要求本公司產品進行漫長且昂貴的認證程序，且無產品銷售的保證，並可能不定時審查本公司營運。若產品認證失敗或審查結果為負面，可能會對本公司淨銷售額、營運成果及財務狀況產生不利影響。",
+    "客戶訂單可能因無罰款而取消或修改。大量訂單取消或訂購數量減少，可能會對本公司淨銷售額、營運成果及財務狀況產生不利影響。",
+    "本公司製造設施的生產可能因多種原因受到幹擾，包括自然災害及其他特殊事件，這可能會導致本公司無法生產足夠產品以維持銷售並滿足客戶需求，進而對營運成果及財務狀況產生不利影響。",
+    "新技術可能導致競爭對手開發新產品，並降低本公司產品的需求，本公司可能無法開發新產品以應對需求變動，這將對本公司淨銷售額、市佔率、營運成果及財務狀況產生不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

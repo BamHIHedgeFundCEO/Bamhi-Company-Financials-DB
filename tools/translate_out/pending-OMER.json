@@ -1,0 +1,136 @@
+{
+ "ticker": "OMER",
+ "cik": "0001285819",
+ "accession": "0001437749-26-010636",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Commercial Product: YARTEMLEA® (narsoplimab-wuug)",
+    "Our Partnered Program: Zaltenibart (OMS906)",
+    "Our Product Candidates and Development Programs",
+    "Product Candidate/Program",
+    "Targeted Disease(s)",
+    "Development Status",
+    "Next Expected Milestone",
+    "Preclinical Program",
+    "Complement Inhibitor Programs",
+    "Other Development Programs",
+    "Sales, Marketing, and Access",
+    "Manufacturing, Supply, and Commercial Operations",
+    "License and Development Agreements",
+    "Intellectual Property",
+    "Government Regulation"
+   ],
+   "paragraphs": [
+    "Omeros Corporation (\"Omeros,\" the \"Company\" or \"we\") is an innovative, commercial-stage biotechnology company that discovers and develops first-in-class protein and small-molecule therapeutics for large-market and orphan indications, with particular emphasis on complement-mediated diseases, cancers, and addictive or compulsive disorders.",
+    "Our complement-targeted product, product candidates, and therapeutic programs are primarily focused on diseases and disorders associated with the lectin and/or alternative pathways of complement. Our lectin pathway program includes inhibitors of mannan-binding lectin-associated serine protease 2 (\"MASP-2\") and our alternative pathway program includes inhibitors of mannan-binding lectin-associated serine protease 3 (\"MASP-3\").",
+    "YARTEMLEA® (narsoplimab-wuug) is the first and only approved therapy for hematopoietic stem cell transplant-associated thrombotic microangiopathy (\"TA-TMA\"), an often-fatal complication of stem cell transplantation driven by activation of the lectin pathway of complement. YARTEMLEA selectively inhibits MASP-2, the effector enzyme of the lectin pathway, blocking the pathway's activation while preserving classical and alternative complement functions important for host defense against infection.",
+    "YARTEMLEA was approved by the U.S. Food and Drug Administration (\"FDA\") on December 23, 2025 for the treatment of TA-TMA in adult and pediatric patients aged two years and older. Unlike other complement inhibitors, YARTEMLEA has no boxed warning and no Risk Evaluation and Mitigation Strategy (\"REMS\"), and vaccinations are not required prior to treatment. Commercial distribution and sales of YARTEMLEA began in January 2026.",
+    "A marketing authorization application (\"MAA\") for YARTEMLEA in TA-TMA has been submitted to the European Medicines Agency (\"EMA\") and is being reviewed under EMA's centralized review procedure, which allows review of a single marketing authorization application. If the MAA is approved, it would authorize the product to be marketed in all EU member states and European Economic Area countries. The European Commission (the \"EC\") has granted narsoplimab designation as an orphan medicinal product for treatment in hematopoietic stem cell transplantation.",
+    "As part of our program to develop complement-targeted therapeutics, we identified MASP-3, which has been shown to be the key activator of the complement system's alternative pathway (\"APC\"). The complement system is part of the immune system's innate response, and the APC is considered the amplification loop within the complement system. MASP-3 is responsible for the conversion of pro-factor D to mature factor D; which is necessary for the activation of the APC. We believe that MASP-3 inhibitors have potential applications across a broad range of therapeutic areas and indications, including paroxysmal nocturnal hemoglobinuria (PNH), renal diseases such as immunoglobulin A nephropathy (IgAN), C3 glomerulopathy and atypical hemolytic uremic syndrome, as well as other immune and complement-driven disorders.",
+    "On November 25, 2025, we completed a transaction (the \"Transaction\") pursuant to an Asset Purchase and License Agreement (\"APLA\") between Omeros and Novo Nordisk Healthcare AG (\"Novo Nordisk\"), dated October 10, 2025, in which Novo Nordisk received exclusive global rights in all indications to develop and commercialize our lead investigational MASP-3 inhibitor, zaltenibart (formerly OMS906), and certain related compounds and products. Zaltenibart is a first-in-class, late-stage clinical humanized monoclonal antibody targeting MASP-3, the most upstream and key activator of the alternative pathway of the complement system. Zaltenibart has shown multiple potential advantages over other alternative pathway inhibitors in development and on the market.",
+    "At the closing of the Transaction, we received an upfront cash payment of $240.0 million. In addition, we are eligible to receive (i) up to $510.0 million in one-time milestone payments upon the first achievement by Novo Nordisk or its affiliates or sublicensees of each of the development and approval milestone events as set forth in the APLA and (ii) up to $1.3 billion in one-time milestone payments upon the first achievement by Novo Nordisk or its affiliates or sublicensees of certain sales-based milestone events as set forth in the APLA. We are also eligible under the APLA to receive tiered royalties on annual net sales of products at percentage rates ranging from high single digit to high teens, subject to reduction in certain circumstances, as set forth in the APLA. In total, we are eligible to receive up to an additional $1.8 billion in potential development and commercial milestones, plus tiered royalties on net sales.",
+    "Pursuant to the APLA, we sold and transferred, and Novo Nordisk purchased zaltenibart and certain related assets, and the parties agreed to grant and receive certain intellectual property licenses to facilitate the continued development and commercialization activities of both companies. We retain rights to our MASP-3 small-molecule program unrelated to zaltenibart, including the ability to develop and commercialize small-molecule MASP-3 inhibitors, across a range of therapeutic areas, including, but not limited to, ophthalmology, neurology, gastrointestinal disorders, dermatology, musculoskeletal diseases, and oncology. We also retain rights to our \"grandfathered\" MASP-3 antibodies, with temporal and indication restrictions on commercialization and for use in advancing our small-molecule therapeutics.",
+    "In accordance with the APLA, at the closing of the Transaction, Omeros and Novo Nordisk entered into a transition services agreement (the \"Transition Services Agreement\") pursuant to which we are providing certain transition services to Novo Nordisk to facilitate the transfer of the acquired assets and liabilities under the APLA and to provide for the continued operation of relevant studies and program activities during the applicable term. Subject to certain exceptions and limitations, Novo Nordisk reimburses us for costs and expenses we incur under the Transition Services Agreement, including third-party costs and expenses, costs associated with delivery of transition services by Omeros personnel on an hourly basis at rates specified in the Transition Services Agreement, and for our inventories of zaltenibart drug substance and product.",
+    "Our clinical product candidates consist of the following:",
+    "Acute respiratory distress syndrome (\"ARDS\"), including severe acute COVID-19, which can result in post-acute sequelae of SARS-CoV-2 infection (\"PASC,\" i.e., long COVID)",
+    "Phase 2 clinical trial in severe COVID-19 completed, and animal studies completed in bacterially, virally, and chemically induced ARDS",
+    "Initiation of one or more Phase 2 clinical trials in ARDS OMS1029 (MASP-2 / Lectin Pathway)"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Products, Product Candidates, Programs and Operations",
+    "If YARTEMLEA or any other product that we develop and commercialize does not receive adequate coverage or reimbursement from governments and/or private payers our prospects for revenue and profitability would suffer.",
+    "Our ability to realize further value from zaltenibart depends on the development and commercialization efforts of Novo Nordisk.",
+    "Failure to obtain and maintain regulatory approval in the EU or other foreign jurisdictions would prevent us from commercializing and marketing YARTEMLEA or future commercialized products.",
+    "We may face a variety of risks associated with international operations that, if realized, could materially adversely affect our business.",
+    "Our operating results are unpredictable and may fluctuate.",
+    "We are subject to extensive government regulation and the failure to comply with these regulations may have a material adverse effect on our operations and business.",
+    "Failure to comply with any YARTEMLEA post-marketing requirement or commitment could materially adversely affect the commercial prospects of YARTEMLEA and our business.",
+    "We may face difficulties from changes to current regulations as well as future legislation.",
+    "Our obligations under the Transition Services Agreement require us to utilize significant internal resources that could otherwise be used to advance our other programs.",
+    "It is difficult and costly to protect our intellectual property and our proprietary technologies, and we may not be able to ensure their protection.",
+    "Competitors may develop products that are less expensive, safer or more effective, or which may otherwise diminish or eliminate the success of any products that we may commercialize.",
+    "The loss of members of our management team could substantially disrupt our business operations.",
+    "We rely on highly skilled personnel and, if we are unable to retain or motivate key personnel or hire qualified personnel, we may not be able to maintain our operations or grow effectively."
+   ],
+   "paragraphs": [
+    "The risks and uncertainties described below may have a material adverse effect on our business, prospects, financial condition or operating results. In addition, we may be adversely affected by risks that we currently deem immaterial or by other risks that are not currently known to us. You should carefully consider these risks before making an investment decision. The trading price of our common stock could decline due to any of these risks and you may lose all or part of your investment. In assessing the risks described below, you should also refer to the other information contained in this Annual Report on Form 10-K.",
+    "Our ability to achieve profitability is highly dependent on the commercial success of YARTEMLEA, and to the extent YARTEMLEA is not successful, our business, financial condition and results of operations may be materially adversely affected and the price of our common stock may decline.",
+    "YARTEMLEA is our only commercialized product and was approved by FDA for commercial sale in the United States in December 2025. Our near‑term commercial prospects are highly dependent on YARTEMLEA in its approved indication, and any adverse developments affecting YARTEMLEA could have a disproportionate adverse effect on our business. We will need to generate substantial product revenue from YARTEMLEA to fund our operations fully and to achieve and sustain profitability. We may be unable to successfully commercialize YARTEMLEA for a number of reasons, including:",
+    "a lack of acceptance by physicians, patients, third-party payers, and other members of the medical community;",
+    "our limited experience in marketing, selling, and distributing YARTEMLEA; our limited experience managing third-party commercial manufacturing of YARTEMLEA;",
+    "our reliance on a limited number of manufacturers and a limited number of suppliers of the product's active pharmaceutical ingredients, excipients, and packaging materials;"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司商業產品：YARTEMLEA® (narsoplimab-wuug)",
+    "本公司合作計畫：Zaltenibart (OMS906)",
+    "本公司產品候選藥物及開發計畫",
+    "產品候選藥物/計畫",
+    "目標疾病（症）",
+    "開發階段",
+    "預期下一個重要里程碑",
+    "前期臨牀計畫",
+    "{'translated_text': '補體抑制劑計畫'}",
+    "{'translated_text': '其他開發計畫'}",
+    "{'translated_text': '銷售、行銷與准入'}",
+    "{'translated_text': '製造、供應與商業運營'}",
+    "{'translated_text': '授權與開發協議'}",
+    "{'translated_text': '智慧財產權'}",
+    "{'translated_text': '政府規範'}"
+   ],
+   "paragraphs": [
+    "Omeros Corporation (\"Omeros,\" the \"Company\" or \"we\") 為一創新、商業階段的生物科技公司，專門發現與開發第一類蛋白質與小分子療法，用於大市場與罕見疾病，尤其著重於補體中介疾病、癌症與成癮或強迫性疾患。",
+    "我們的補體目標產品、產品候選藥物與治療計畫，主要聚焦於與補體的講述途徑及/或替代途徑相關的疾病與疾患。我們的講述途徑計畫包括抑制mannan-binding lectin-associated serine protease 2 (\"MASP-2\")，而我們的替代途徑計畫則包括抑制mannan-binding lectin-associated serine protease 3 (\"MASP-3\")。",
+    "YARTEMLEA® (narsoplimab-wuug) 是目前唯一核准用於造血幹細胞移植相關血栓性微血管病變 (\"TA-TMA\") 的療法，這是一種常見於幹細胞移植後的致命性併發症，由補體講述途徑的活化所驅動。YARTEMLEA 選擇性抑制MASP-2，這是講述途徑的效應酵素，阻斷該途徑的活化，同時保留對抗感染重要的經典與替代補體功能。",
+    "YARTEMLEA 於2025年12月23日獲美國食品藥物管理局 (\"FDA\") 核准，用於治療年齡為兩歲及以上成人與兒童患者的TA-TMA。與其他補體抑制劑不同，YARTEMLEA 沒有黑框警告與無風險評估與緩和策略 (\"REMS\")，且治療前不需要接種疫苗。YARTEMLEA 的商業分銷與銷售於2026年1月開始。",
+    "YARTEMLEA 在TA-TMA的市場核准申請 (\"MAA\") 已提交至歐洲藥物管理局 (\"EMA\")，並正在根據EMA的集中審查程序進行審查，此程序允許對單一市場核准申請進行審查。若MAA獲准，將授權該產品在所有歐盟成員國與歐洲經濟區國家進行銷售。歐盟委員會 (the \"EC\") 已將narsoplimab指定為罕見藥物，用於造血幹細胞移植的治療。",
+    "作為我們開發補體目標療法計畫的一部分，我們已鑑定MASP-3，其已被證明為補體系統替代途徑 (\"APC\") 的關鍵活化劑。補體系統為免疫系統先天反應的一部分，而APC被視為補體系統中的放大循環。MASP-3負責將前因子D轉換為成熟因子D；這是活化APC所必需的。我們認為MASP-3抑制劑在廣泛的治療領域與適應症中具有潛在應用，包括發作性夜間血紅蛋白尿症 (PNH)、腎臟疾病如免疫球蛋白A腎病 (IgAN)、C3腎小球病與不典型溶血性尿毒症症候羣，以及其他的免疫與補體驅動性疾病。",
+    "我們於2025年11月25日完成一項交易 (the \"Transaction\")，根據Omeros與Novo Nordisk Healthcare AG (\"Novo Nordisk\") 簽訂的資產買斷與授權協議 (\"APLA\")，日期為2025年10月10日，Novo Nordisk取得獨家全球權利，在所有適應症中開發與商業化我們的領先研究中的MASP-3抑制劑zaltenibart (原為OMS906)，以及某些相關化合物與產品。Zaltenibart為第一類、晚期臨牀人源化單株抗體，針對MASP-3，這是補體系統替代途徑中最上游且關鍵的活化劑。Zaltenibart已顯示出多種潛在優勢，優於其他正在開發或市場上的替代途徑抑制劑。",
+    "在交易完成時，我們收到一筆 upfront 現金支付 240.0 百萬美元。此外，我們有資格獲得 (i) 最高 510.0 百萬美元的一次性里程碑付款，當Novo Nordisk 或其子公司或 sublicensees 首次達成APLA中所列的開發與核准里程碑事件時，以及 (ii) 最高 1.3 十億美元的一次性里程碑付款，當Novo Nordisk 或其子公司或 sublicensees 首次達成APLA中所列的銷售基於里程碑事件時。我們根據APLA也有資格獲得分層 royalties，根據APLA中所列的條件，每年淨銷售額的百分比率範圍為高單數位至高 teens，並在特定情況下減少。總計，我們有資格獲得最高額為 1.8 十億美元的潛在開發與商業里程碑付款，加上分層 royalties 用於淨銷售額。",
+    "依據 APLA，我們已出售並轉讓 zaltenibart 及相關資產，並 Novo Nordisk 購買，雙方同意授予及取得智慧財產權授權，以促進雙方公司持續進行開發及商業化活動。我們保留與 zaltenibart 無關的 MASP-3 小分子計畫之權利，包括開發及商業化小分子 MASP-3 抑製劑的能力，應用於多種治療領域，包括但不限於眼科、神經學、消化系統疾病、皮膚科、肌肉骨骼疾病及癌症。我們亦保留我們的 \"grandfathered\" MASP-3 抗體之權利，並對商業化時點及適應症有時間與使用限制，以用於推進我們的小分子治療藥物。",
+    "根據 APLA，在交易完成時，Omeros 與 Novo Nordisk 籤訂轉移服務協議（\"Transition Services Agreement\"），根據此協議，我們為 Novo Nordisk 提供某些轉移服務，以協助轉移根據 APLA 收購的資產與負債，並確保相關研究及計畫活動在適用期間內持續運作。在某些例外與限制條件下，Novo Nordisk 會 reimburse 我們根據轉移服務協議所產生的成本與費用，包括第三方成本與費用、Omeros 員工以小時計酬方式提供轉移服務的成本與費用，以及我們的 zaltenibart 藥物原料與成品存貨。",
+    "我們的臨牀產品候選藥物包括以下項目：",
+    "急性呼吸窘迫綜合症（\"ARDS\"），包括嚴重急性 COVID-19，可能導致 SARS-CoV-2 感染後遺症（\"PASC\"，即長 COVID）",
+    "嚴重 COVID-19 的 Phase 2 臨牀試驗已完成，且在細菌、病毒及化學誘導的 ARDS 中動物研究已完成",
+    "啟動一項或多項 ARDS 的 Phase 2 臨牀試驗 OMS1029（MASP-2 / Lectin Pathway）"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們產品、產品候選物、計畫及營運相關的風險",
+    "若 YARTEMLEA 或任何其他我們開發並商業化的產品未能獲得政府及/或私人付費者足夠的覆蓋或補償，將會對我們的營收與獲利前景造成不利影響。",
+    "我們要實現 zaltenibart 的進一步價值，取決於 Novo Nordisk 的開發與商業化努力。",
+    "未能取得並維持在歐盟或其他外國管轄區域的監管批准，將會阻止我們商業化與行銷 YARTEMLEA 或未來商業化的產品。",
+    "我們可能面臨與國際營運相關的多種風險，若這些風險實現，可能會對我們的業務造成重大不利影響。",
+    "我們的營運成果難以預測，可能會出現波動。",
+    "我們受到廣泛政府規範的監管，未能遵守這些規範可能會對我們的營運與業務造成重大不利影響。",
+    "未能遵守任何 YARTEMLEA 上市後的要件或承諾，可能會對 YARTEMLEA 的商業前景及我們的業務造成重大不利影響。",
+    "我們可能因現行法規的變更以及未來立法而面臨困難。",
+    "我們根據過渡服務協議所負的義務，需要動用大量內部資源，這些資源本可以用來推進我們的其他計畫。",
+    "保護我們的智慧財產權及專有技術困難且成本高昂，我們可能無法確保其受到保護。",
+    "競爭對手可能開發出價格較低、更安全或更有效的產品，或可能以其他方式降低或消除我們任何可能商品化的產品的成功程度。",
+    "我們管理團隊成員的流失可能大幅幹擾我們的業務運作。",
+    "我們依賴高度專業的員工，若我們無法留住或激勵關鍵員工，或無法聘請合格員工，我們可能無法維持營運或有效成長。"
+   ],
+   "paragraphs": [
+    "下列所描述的風險與不確定性可能對我們的業務、前景、財務狀況或營運成果造成重大不利影響。此外，我們也可能因目前認為不重要的風險或尚未知悉的其他風險而受到不利影響。您在做出投資決定前應謹慎考慮這些風險。由於任何上述風險，我們的普通股交易價格可能會下跌，您可能損失全部或部分投資。在評估下列所描述的風險時，您也應參考本年度報告表10-K中包含的其他資訊。",
+    "我們實現盈利的能力高度依賴於YARTEMLEA的商業成功，若YARTEMLEA未能成功，將可能對我們的業務、財務狀況及營運成果造成重大不利影響，並可能導致我們普通股的價格下跌。",
+    "YARTEMLEA是我們目前唯一商業化的產品，並於2025年12月獲美國食品藥物管理局批准於美國進行商業銷售。我們近期的商業前景高度依賴於YARTEMLEA在核准適應症上的表現，任何影響YARTEMLEA的不利發展可能對我們的業務造成不成比例的不利影響。我們需要從YARTEMLEA產生大量產品收入，以完全支應我們的營運並實現及維持盈利。我們可能因多種原因而無法成功商業化YARTEMLEA，包括：",
+    "醫療專業人員、患者、第三方付款者及其他醫療界人士對YARTEMLEA的接受度不足；",
+    "我們在行銷、銷售及分銷YARTEMLEA方面的經驗有限；我們在管理第三方商業製造YARTEMLEA方面的經驗有限；",
+    "我們依賴有限數量的製造商及有限數量的供應商提供產品的活性藥物成分、賦形劑及包裝材料；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

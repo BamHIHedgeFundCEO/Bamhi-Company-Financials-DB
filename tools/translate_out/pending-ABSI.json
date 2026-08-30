@@ -1,0 +1,209 @@
+{
+ "ticker": "ABSI",
+ "cik": "0001672688",
+ "accession": "0001672688-26-000068",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "The AI Drug Creation Opportunity",
+    "Our Integrated Drug Creation Platform",
+    "Lab-in-a-loop",
+    "Our Business Model",
+    "Internally Developed Programs",
+    "Clinical Stage Programs",
+    "ABS-201 for the Treatment of AGA",
+    "ABS-201 for the Treatment of Endometriosis",
+    "Preclinical Stage Programs",
+    "Intellectual Property",
+    "Environmental, Social and Governance (ESG)",
+    "Government Regulation",
+    "Regulations Related to the Discovery, Development, Approval and Commercialization of Biotherapeutics"
+   ],
+   "paragraphs": [
+    "We are a clinical-stage biopharmaceutical company using an AI-native approach to develop differentiated antibody therapeutics. Our integrated drug creation platform combines Origin-1, our generative design model, with rapid validation using our lab-in-the-loop. We focus on underexplored mechanisms where unmet medical need is high and competition is low.",
+    "We have advanced our first two programs from AI design to IND (or foreign equivalent) in around two years with a total investment of approximately $15 million per program, compared to an industry average of 4–6 years at a cost of greater than $50 million. This combination of underexplored target selection and capital-efficient execution is central to our strategy.",
+    "Our lead product candidate, ABS-201, is an anti-prolactin receptor (PRLR) antibody engineered with an extended half-life to support a patient-friendly dosing interval. We believe PRLR is an underexplored target with the potential to provide durable, disease-modifying effects. If successfully developed, ABS-201 could establish a new treatment category in indications where current options remain inadequate. ABS-201 is being developed for two indications, androgenetic alopecia (AGA) or pattern hair loss (PHL) and endometriosis, each with large affected populations and significant unmet need:",
+    "•Androgenetic Alopecia: ABS-201 is being evaluated in the HEADLINE™ Phase 1/2a clinical trial (NCT07317544) for AGA, a condition affecting approximately 80 million people in the United States. Our own patient and clinician surveys, as well as those of other parties, show broad dissatisfaction with current standard of care, which is limited by variable efficacy, poor compliance, and a lack of durable approaches. No approved therapy provides durable hair regrowth. We have dosed the first three single ascending dose cohorts with a favorable safety profile to date. Interim proof-of-concept data, including exploratory efficacy endpoints, are expected in the second half of 2026.",
+    "•Endometriosis: We plan to initiate a Phase 2 clinical trial of ABS-201 in endometriosis, a chronic condition estimated to affect approximately 10% of women of reproductive age worldwide. There is currently no FDA-approved disease-modifying therapy for endometriosis. The condition is associated with significant chronic pain, reduced quality of life, and impaired fertility, and treatment options are limited by inadequate long-term effectiveness and tolerability. PRLR signaling may contribute to both endometrial lesion development and pain-related pathways, which if demonstrated clinically, could support the potential for a non-hormonal and non-surgical treatment. A recent clinical trial has demonstrated clinical proof of concept for targeting PRLR for endometriosis. Our Phase 2 clinical trial for endometriosis is planned for the fourth quarter of 2026, subject to data from the ongoing HEADLINE trial and regulatory considerations.",
+    "Beyond ABS-201, we are advancing additional preclinical programs using our platform. We may seek partnerships or out-licensing arrangements for select pipeline assets, which would provide non-dilutive capital We believe we are positioned to execute on near-term catalysts while building long-term pipeline value.",
+    "Traditional drug discovery and preclinical development can take 4–6 years to go from discovery to clinical development at an aggregate cost of over $100 million per product candidate. Moreover, success rates for traditional drug discovery, as defined by successfully reaching a marketed product, are estimated at less than 5%. In all, it can take as much as 12–15 years, with costs estimated to exceed $1 billion to bring a drug to market.",
+    "Advances in AI are increasingly being applied to drug discovery and development. In May 2023, the U.S. Food and Drug Administration (FDA) acknowledged that AI has the potential to play an important role in drug development, including supporting efforts to improve aspects of the drug development process. Some industry participants and analysts have identified generative AI as a potential approach for designing potential drug candidates with specific attributes.",
+    "Our Integrated Drug Creation platform is the engine of our AI-native approach, allowing us to design anti-body based therapeutics that target underexplored biological mechanisms. We continue to expand our platform's capabilities to support aspects of antibody drug discovery. Our AI models are designed to generate antibodies, including multispecific antibodies, in silico to target specific epitopes. These models are also designed to evaluate multiple characteristics that may be relevant to drug development.",
+    "We are leveraging our Integrated Drug Creation platform to:",
+    "•Design potential first-in-class and best-in-class therapeutics: We believe our Integrated Drug Creation platform, together with our generative AI models including Origin-1 (our de novo AI model), and AI lead optimization models, enables us to access underexplored mechanisms, unlock novel biology, and design therapeutics against difficult-to-drug targets with significant unmet medical need.",
+    "•Increase the potential probability of success: Our AI models have been designed to enable multi-parametric predictions and simultaneous optimization of attributes in parallel, which we believe may enable the design of product candidates with defined characteristics that may be relevant to clinical development and thus increase the potential for clinical success.",
+    "•Reduce time and cost to clinic: We believe our platform may support more efficient preclinical development timelines. For example, we demonstrated capital-efficient development by advancing our first two internal pipeline programs through to IND (or foreign equivalent) in around two years with a total investment of approximately $15 million per program.",
+    "Our strategy is to leverage our Integrated Drug Creation platform to create differentiated antibody-based therapeutics for our own pipeline and for our partners' pipelines. We are currently advancing two internally developed programs in clinical development, including ABS-201, that are intended to address underexplored mechanisms where there is significant unmet medical need."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Financial Condition and Need for Additional Capital",
+    "Our short operating history may make it difficult for you to evaluate the success of our business to date and to assess our future viability.",
+    "We have incurred significant losses since inception, we expect to incur losses in the future and we may not be able to generate sufficient revenue to achieve and maintain profitability.",
+    "Risks Related to Biologic Drug Development",
+    "opportunity for that program, and/or have broader deleterious effects on our reputation and future partnership prospects.",
+    "We are currently conducting and may in the future conduct clinical trials for our product candidates outside the United States, and the FDA may not accept data from such trials.",
+    "Conducting clinical trials in Australia may expose us to operational and logistical challenges that could delay our development programs",
+    "Changes in Australian regulatory requirements or ethics committee processes could delay our clinical trials."
+   ],
+   "paragraphs": [
+    "This report contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those discussed in this report. Factors that could cause or contribute to these differences include, but are not limited to, those discussed below and elsewhere in this report and in any documents incorporated in this report by reference. You should carefully consider the following risk factors, together with all other information in this report, including our financial statements and notes thereto, and in our other filings with the U.S. Securities and Exchange Commission, or SEC. If any of the following risks, or other risks not presently known to us or that we currently believe to not be significant, develop into actual events, then our business, financial condition, results of operations or prospects could be materially adversely affected. If that happens, the market price of our common shares could decline, and shareholders may lose all or part of their investment.",
+    "We are a clinical-stage company. Our operations to date have been limited to organizing and staffing our company, business planning, raising capital, acquiring and developing our technology, identifying potential product candidates and undertaking preclinical and early clinical studies related to our internally developed programs. All of our product candidates are still in preclinical and early clinical development. We have not yet demonstrated our ability to successfully complete any clinical trials, including large-scale, pivotal clinical trials, obtain marketing approvals, manufacture a commercial scale medicine, or arrange for a third party to do so on our behalf, or conduct sales and marketing activities necessary for successful commercialization. Typically, it takes about 10 to 15 years to develop one new medicine from the time it is discovered to when it is available for treating patients. Consequently, any predictions you make about our future success or viability may not be as accurate as they could be if we had a longer operating history. In addition, as a new business, we may encounter unforeseen expenses, difficulties, complications, delays and other known and unknown factors. We will need to transition from a company with a research focus to a company capable of supporting commercial activities. We may not be successful in such a transition.",
+    "We do not anticipate generating any revenue from commercial product sales, if ever, until we successfully complete the clinical development of, and achieve regulatory approval for, any of our internally developed programs, all of which are still in clinical and preclinical development.",
+    "In addition to the development of our internally developed programs, we began entering into drug creation collaborations for drug creation programs and co-development partnerships with third parties in 2018. We are still early in the adoption phase of our drug creation collaboration business model, and, as of March 24, 2026, no partner has entered into a license for clinical or commercial use of any intellectual property rights related to a product candidate or cell lines.",
+    "Our revenue to date has been generated primarily from drug creation activities conducted through these partnered programs. In addition, we expect our expenses to increase as we advance our internally developed programs into and through clinical development. Accordingly, if we do not generate revenue as and when anticipated, our losses may be greater than expected and our operating results will suffer.",
+    "We have incurred significant losses since our inception. For the years ended December 31, 2025 and 2024, we incurred net losses of $115.2 million and $103.1 million, respectively. As of December 31, 2025, we had an accumulated deficit of $624.8 million. We expect that our operating expenses will continue to increase as we grow our business and advance our internally developed programs."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Financial results",
+    "AMD strategic collaboration",
+    "Components of Results of Operations",
+    "Operating Expenses",
+    "Research and development",
+    "Selling, general, and administrative",
+    "Depreciation and amortization",
+    "Other income (expense)",
+    "Results of Operations",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "Operating expenses",
+    "For the Years Ended December 31,",
+    "2025 2024 $ Change % Change",
+    "Liquidity and Capital Resources",
+    "Sources of liquidity",
+    "Cash flows from operating activities",
+    "Cash flows from investing activities",
+    "Cash flows from financing activities",
+    "Income taxes",
+    "Critical Accounting Estimates",
+    "Revenue recognition",
+    "Accrued preclinical and clinical development expenses",
+    "Recent Accounting Pronouncements",
+    "Emerging Growth Company Status"
+   ],
+   "paragraphs": [
+    "We are a clinical-stage biopharmaceutical company using an AI-native approach to develop differentiated antibody therapeutics. Our integrated drug creation platform combines Origin-1, our generative design model, with rapid validation using our lab-in-the-loop. We focus on underexplored mechanisms where unmet medical need is high and competition is low.",
+    "We have advanced our first two programs from AI design to IND (or foreign equivalent) in around two years with a total investment of approximately $15 million per program, compared to an industry average of 4–6 years at a cost of greater than $50 million. This combination of underexplored target selection and capital-efficient execution is central to our strategy.",
+    "Our lead product candidate, ABS-201, is an anti-prolactin receptor (PRLR) antibody engineered with an extended half-life to support a patient-friendly dosing interval. We believe PRLR is an underexplored target with the potential to provide durable, disease-modifying effects. If successfully developed, ABS-201 could establish a new treatment category in indications where current options remain inadequate. ABS-201 is being developed for two indications, androgenetic alopecia (AGA) or pattern hair loss (PHL) and endometriosis, each with large affected populations and significant unmet need:",
+    "•Androgenetic Alopecia: ABS-201 is being evaluated in the HEADLINE™ Phase 1/2a clinical trial (NCT07317544) for AGA, a condition affecting approximately 80 million people in the United States. Our own patient and clinician surveys, as well as those of other parties, show broad dissatisfaction with current standard of care, which is limited by variable efficacy, poor compliance, and a lack of durable approaches. No approved therapy provides durable hair regrowth. We have dosed the first three single ascending dose cohorts with a favorable safety profile to date. Interim proof-of-concept data, including exploratory efficacy endpoints, are expected in the second half of 2026.",
+    "•Endometriosis: We plan to initiate a Phase 2 clinical trial of ABS-201 in endometriosis, a chronic condition estimated to affect approximately 10% of women of reproductive age worldwide. There is currently no FDA-approved disease-modifying therapy for endometriosis. The condition is associated with significant chronic pain, reduced quality of life, and impaired fertility, and treatment options are limited by inadequate long-term effectiveness and tolerability. PRLR signaling may contribute to both endometrial lesion development and pain-related pathways, which if demonstrated clinically, could support the potential for a non-hormonal and non-surgical treatment. A recent clinical trial has demonstrated clinical proof of concept for targeting PRLR for endometriosis. Our Phase 2 clinical trial for endometriosis is planned for the fourth quarter of 2026, subject to data from the ongoing HEADLINE trial and regulatory considerations.",
+    "Beyond ABS-201, we are advancing additional preclinical programs using our platform. We may seek partnerships or out-licensing arrangements for select pipeline assets, which would provide non-dilutive capital We believe we are positioned to execute on near-term catalysts while building long-term pipeline value.",
+    "Revenue was $2.8 million for the year ended December 31, 2025 compared to $4.5 million for the year ended December 31, 2024 due to the number of ongoing partnered programs and respective timing of project-based milestones achieved. We incurred a net loss of $115.2 million for the year ended December 31, 2025 compared to a net loss of $103.1 million for the year ended December 31, 2024. Research and development expenses increased by $17.6 million, or 27%, for the year ended December 31, 2025 compared to the year ended December 31, 2024.",
+    "As of December 31, 2025, we had an accumulated deficit of $624.8 million and cash equivalents and marketable securities totaling $144.3 million.",
+    "We expect to continue to incur significant expenses in connection with our ongoing activities, including as we:",
+    "•develop ABS-201 and other internally developed programs across diverse indications, including the advancement of these product candidates through preclinical and clinical development;",
+    "•continue to engage in discovery, research and development efforts and scale our activities through our existing and potential new partnerships;",
+    "•develop, acquire, in-license or otherwise obtain technologies that enable us to expand our Integrated Drug Creation platform capabilities; and",
+    "•attract, retain and motivate highly qualified personnel to join Absci in our mission.",
+    "Our corporate headquarters and primary research and development facilities are located in Vancouver, Washington in a 77,974 square foot facility that includes general administrative office space and laboratory space. Our AI Research Lab is located in New York, New York and our Innovation Center is located in Zug, Switzerland. Additionally, we have a research and development presence in Belgrade, Serbia."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "AI 藥物開發商機",
+    "我們的整合式藥物開發平台",
+    "實驗室於循環",
+    "我們的商業模式",
+    "內部開發計畫",
+    "臨牀階段計畫",
+    "ABS-201 用於治療男性型脫髮",
+    "ABS-201 用於治療子宮內膜異位症",
+    "前臨牀階段計畫",
+    "智慧財產權",
+    "環境、社會及治理 (ESG)",
+    "政府規範",
+    "生技製劑之發現、開發、核准與商業化相關規範"
+   ],
+   "paragraphs": [
+    "本公司為一家臨牀階段生技製藥公司，採用AI原生方法開發具差異性的單株抗體療法。我們的整合式藥物開發平台結合Origin-1，我們的生成設計模型，與透過我們的實驗室即時驗證進行快速驗證。我們專注於尚未被充分探索的機制，這些機制具有高醫療需求且競爭較低。",
+    "",
+    "我們的領先產品候選藥物ABS-201為一種抗泌乳激素受體（PRLR）單株抗體，並經工程設計以延長半衰期，以支援患者友好的給藥間隔。我們認為PRLR為一個尚未被充分探索的目標，具有提供持久、疾病修正效果的潛力。若成功開發，ABS-201可能建立一個新的治療類別，用於目前治療選項仍不充足的適應症。ABS-201正在開發用於兩種適應症，雄激素性脫髮（AGA）或模式性脫髮（PHL）以及子宮內膜異位症，每種適應症均有大量受影響人口且有顯著未滿足的醫療需求：",
+    "•雄激素性脫髮：ABS-201正在HEADLINE™ Phase 1/2a臨牀試驗（NCT07317544）中評估用於AGA，一種影響美國約80 百萬人的疾病。我們自己的患者與臨牀醫生調查，以及其它機構的調查，顯示現有標準照護有廣泛不滿意，其限制因素包括效果變動、依從性差以及缺乏持久的治療方式。目前尚無核准的療法能提供持久的毛髮再生。我們已對前三個單劑遞增劑量組別進行給藥，且迄今安全資料良好。預計在2026年下半年公佈臨時概念驗證資料，包括探索性療效終點。",
+    "•子宮內膜異位症：我們計畫在子宮內膜異位症中啟動ABS-201的Phase 2臨牀試驗，一種被估計影響全球約10%生育年齡女性的慢性疾病。目前尚無FDA核准的疾病修正療法用於子宮內膜異位症。此疾病與顯著慢性疼痛、生活品質下降及生育能力受損有關，且治療選項受限於長期效果不足與耐受性不佳。PRLR訊號可能參與子宮內膜病竈發展與疼痛相關路徑，若臨牀證實，可能支持非荷爾蒙與非手術治療的潛力。最近的臨牀試驗已顯示針對PRLR用於子宮內膜異位症的臨牀概念驗證。我們的子宮內膜異位症Phase 2臨牀試驗計畫於2026年第四季進行，視HEADLINE試驗的資料與監管考量而定。",
+    "除了ABS-201，我們正在使用我們的平台推進其他臨牀前計畫。我們可能尋求與特定管線資產的合作或授權安排，這將提供非稀釋性資金。我們認為我們有條件執行近期催化事件，同時建立長期管線價值。",
+    "傳統的藥物發現與臨牀前開發，從發現到臨牀開發可能需要4至6年，每個產品候選藥物總成本高於100 百萬美元。此外，傳統藥物發現的成功率，以成功推出市售產品為準，估計低於5%。總體而言，可能需要12至15年，成本估計超過10 億美元才能將藥物推向市場。",
+    "AI的進展正逐漸應用於藥物發現與開發。2023年5月，美國食品藥物管理局（FDA）承認AI有潛力在藥物開發中發揮重要作用，包括支持改善藥物開發過程的各個方面。一些產業參與者與分析師已指出生成式AI為設計具有特定屬性的潛在藥物候選物的潛在方法。",
+    "本公司整合式藥物創建平台為我們AI原生方法的動力來源，使我們能夠設計針對尚未充分探索的生物機制的抗體基質治療藥物。我們持續擴展該平台的功能，以支援抗體藥物發現的各個方面。我們的AI模型設計用以在虛擬環境中生成抗體，包括多特異性抗體，以針對特定抗原表位。這些模型亦設計用以評估多種可能與藥物開發相關的特性。",
+    "本公司正利用整合式藥物創建平台進行以下工作：",
+    "• 設計具潛力的首創新藥及最佳治療藥物：我們認為整合式藥物創建平台，搭配我們的生成式AI模型，包括Origin-1（我們的從頭AI模型）及AI領先優化模型，使我們能夠接觸尚未充分探索的機制，解鎖新興生物學，並設計針對難以成藥目標且具有重大未滿足醫療需求的治療藥物。",
+    "• 提高潛在成功機率：我們的AI模型設計用以實現多參數預測及同時優化屬性，我們認為這可能使我們設計出具有明確特性且可能與臨牀開發相關的產品候選藥物，從而提高臨牀成功的潛在機率。",
+    "•縮短至臨牀階段的時間與成本：我們認為我們的平台可能支持更高效的臨牀前開發時程。例如，我們透過資本效率高的開發方式，將我們第一及第二個內部管線專案推進至IND（或外國對應等級）約兩年，每個專案總投資約為15 百萬美元。",
+    "本公司策略為利用整合式藥物創建平台，為本公司自身管道及合作夥伴管道開發具差異化的抗體基質治療藥物。目前，我們正在進行兩個內部開發計畫的臨牀開發，包括ABS-201，這些計畫旨在解決具有重大未滿足醫療需求的尚未充分探索機制。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "財務結果",
+    "AMD 戰略合作",
+    "營運成果之組成項目",
+    "營運費用",
+    "研究與發展",
+    "營銷、一般及行政",
+    "折舊及攤銷",
+    "其他收入（費用）",
+    "營運成果",
+    "比較截至2025年12月31日及2024年12月31日之年度",
+    "營運費用",
+    "截至2025年12月31日及2024年12月31日之年度",
+    "2025 2024 美元變動 百分比變動",
+    "流動性及資本資源",
+    "流動性來源",
+    "營運活動之現金流",
+    "投資活動所產生之現金流",
+    "籌資活動所產生之現金流",
+    "所得稅",
+    "關鍵會計估計",
+    "收入認列",
+    "應計之臨牀前及臨牀開發費用",
+    "最新會計準則",
+    "新興成長公司資格"
+   ],
+   "paragraphs": [
+    "本公司為一家臨牀階段生技藥品公司，運用AI原生方法開發具差異化的單株抗體療法。我們整合的藥物開發平台結合Origin-1，我們的生成設計模型，與透過我們的實驗室即時驗證進行快速驗證。我們專注於未被充分探索的機制，這些機制具有高醫療需求且競爭較低。",
+    "",
+    "我們的領先產品候選藥物ABS-201為一種抗泌乳激素受體（PRLR）單株抗體，並經工程設計以延長半衰期，以支援患者友善的給藥間隔。我們認為PRLR為一個未被充分探索的目標，具有提供持久、疾病修正效果的潛力。若成功開發，ABS-201可能建立一個新的治療類別，用於目前治療選項仍不充足的適應症。ABS-201正在開發用於兩種適應症，雄激素性脫髮（AGA）或模式性脫髮（PHL）以及子宮內膜異位症，每種適應症均有大量受影響人口且有顯著未滿足的醫療需求：",
+    "•雄激素性脫髮：ABS-201正在HEADLINE™ Phase 1/2a臨牀試驗（NCT07317544）中評估用於AGA，一種影響美國約80 百萬人的疾病。我們自己的患者與醫療人員問卷，以及其它機構的問卷，顯示對現行標準照護有廣泛的不滿意，現行標準照護受到變異效果、低順從性及缺乏持久方法的限制。目前尚無核准的療法能提供持久的頭髮再生。我們已對前三個單次遞增劑量族羣進行給藥，目前安全性良好。預期在2026年下半年公佈臨時的證據概念數據，包括探索性療效終點。",
+    "•子宮內膜異位症：我們計畫在子宮內膜異位症中啟動ABS-201的Phase 2臨牀試驗，一種被估計影響全球約10%生育年齡女性的慢性疾病。目前尚無FDA核准的疾病修正療法用於子宮內膜異位症。此症狀與顯著慢性疼痛、生活品質降低及生育能力受損有關，治療選項受到長期效果不足及耐受性不佳的限制。PRLR訊號可能參與子宮內膜病變的發展與疼痛相關路徑，若臨牀證實，可能支持非荷爾蒙及非手術治療的潛力。最近的臨牀試驗已顯示針對PRLR用於子宮內膜異位症的臨牀證據概念。我們的子宮內膜異位症Phase 2臨牀試驗計畫於2026年第四季進行，視HEADLINE試驗的數據及監管考量而定。",
+    "除了ABS-201，我們正在運用我們的平台推進其他臨牀前計畫。我們可能尋求與特定管線資產的合作夥伴關係或授權安排，這將提供非稀釋資金。我們認為我們有條件執行近期的催化因素，同時建立長期管線價值。",
+    "2025年12月31日財年，營業收入為2.8 百萬美元，與2024年12月31日財年4.5 百萬美元相比，因持續進行的合作計畫數量及相應的項目里程碑達成時間點不同。我們在2025年12月31日財年產生淨虧損115.2 百萬美元，與2024年12月31日財年淨虧損103.1 百萬美元相比。研究與開發費用在2025年12月31日財年增加17.6 百萬美元，或增加27%，與2024年12月31日財年相比。",
+    "截至2025年12月31日，我們累計虧損為624.8 百萬美元，並持有現金等價物及市場可交易證券總計144.3 百萬美元。",
+    "我們預期將持續產生與我們持續進行活動相關的重大費用，包括如下項目：",
+    "• 開發 ABS-201 及其他 internally developed programs 跨越多種適應症，包括這些產品候選藥物通過臨牀前及臨牀開發階段；",
+    "• 繼續進行發現、研究及開發工作，並透過我們現有及潛在的新合作夥伴擴大我們的活動規模；",
+    "• 開發、取得、授權進口或以其他方式取得技術，以使我們能擴展我們的 Integrated Drug Creation 平台能力；以及",
+    "• 吸引、留住並激勵高素質的員工加入 Absci 以實現我們的使命。",
+    "本公司總部及主要研究與開發設施位於華盛頓州維克多亞，佔地 77,974 平方英呎，包含一般行政辦公室空間及實驗室空間。我們的 AI 研究實驗室位於紐約州紐約市，創新中心位於瑞士祖格。此外，我們在塞爾維亞貝爾格勒也有研究與開發據點。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司財務狀況相關的風險及對額外資金的需求",
+    "本公司短暫的營運歷史可能使您難以評估本公司至今的業務成功情況，並評估本公司未來的生存能力。",
+    "自成立以來，本公司已產生重大虧損，本公司預期未來仍將產生虧損，且本公司可能無法產生足夠收入以實現並維持盈利。",
+    "與生物製藥開發相關的風險",
+    "對該計畫的機會，且/或對本公司聲譽及未來合作前景產生更廣泛的負面影響。",
+    "本公司目前正在進行，且未來可能繼續在美國境外進行產品候選藥物的臨牀試驗，且美國食品藥物管理局（FDA）可能不會接受來自這些試驗的數據。",
+    "在澳洲進行臨牀試驗可能使本公司面臨運營及物流挑戰，這些挑戰可能延誤本公司開發計畫。",
+    "澳洲監管要求或倫理委員會程序的變更可能延誤本公司臨牀試驗。"
+   ],
+   "paragraphs": [
+    "本報告包含前瞻性陳述，涉及風險與不確定性。我們的實際結果可能與本報告中所討論的結果有重大差異。導致這些差異的因素包括，但不僅限於，以下所討論的內容及其他處於本報告中，以及任何被本報告引用的文件中所討論的內容。您應仔細考慮以下風險因素，並與本報告中的所有其他資訊，包括我們的財務報表及其附註，以及我們向美國證券交易委員會，或 SEC 提交的其他文件一併考量。如果任何上述風險，或其他目前未為我們所知或我們目前認為不具重大影響的風險，發展成為實際事件，則我們的業務、財務狀況、營運結果或前景可能受到重大不利影響。如果發生這種情況，我們的普通股市場價格可能下跌，股東可能損失全部或部分投資。",
+    "我們是一家臨牀階段公司。截至目前為止，我們的業務活動僅限於組織與僱用員工、業務規劃、籌集資金、取得並發展我們的技術、識別潛在的產品候選物，以及進行與我們內部開發計畫相關的臨牀前及早期臨牀研究。我們所有產品候選物目前仍處於臨牀前及早期臨牀開發階段。我們尚未證明我們能夠成功完成任何臨牀試驗，包括大規模、關鍵性臨牀試驗，取得市場許可批准，製造商業規模的藥物，或安排第三方代表我們進行此項工作，或進行必要的銷售與市場推廣活動以實現成功的商業化。通常而言，從藥物被發現到可供用於治療病患，開發一種新藥物約需 10 到 15 年的時間。因此，您對我們未來成功或可持續性的預測可能不如我們擁有更長的營運歷史時那麼準確。此外，作為一家新興企業，我們可能面臨預料之外的費用、困難、複雜問題、延誤及其他已知或未知的因素。我們需要從以研究為重點的公司轉型為能夠支持商業活動的公司。我們可能無法成功進行此種轉型。",
+    "我們不預期會從商業產品銷售中產生任何收入，除非我們成功完成所有內部開發計畫的臨牀開發，並取得相關的監管批准，而目前所有這些計畫仍處於臨牀及臨牀前開發階段。",
+    "除了我們內部開發計畫的發展，我們自 2018 年起開始與第三方簽訂藥物開發合作，進行藥物開發計畫及共同開發合作夥伴關係。我們仍在採用藥物開發合作商業模式的初期階段，截至 2026 年 3 月 24 日，尚無合作夥伴與我們簽訂任何關於產品候選物或細胞株相關智慧財產權的臨牀或商業使用許可。",
+    "我們至今的收入主要來自這些合作計畫進行的藥物開發活動。此外，我們預期隨著我們的內部開發計畫進展至臨牀開發階段，我們的費用將會增加。因此，如果我們未能按預期產生收入，我們的虧損可能高於預期，且我們的營運結果將受到影響。",
+    "我們自成立以來已產生顯著虧損。截至 2025 年 12 月 31 日及 2024 年 12 月 31 日，我們分別產生淨虧損 115.2 百萬美元及 103.1 百萬美元。截至 2025 年 12 月 31 日，我們累計虧損為 624.8 百萬美元。我們預期隨著我們業務的擴張及內部開發計畫的進展，我們的營運費用將持續增加。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

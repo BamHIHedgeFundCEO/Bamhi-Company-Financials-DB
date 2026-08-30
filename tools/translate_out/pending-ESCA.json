@@ -1,0 +1,221 @@
+{
+ "ticker": "ESCA",
+ "cik": "0000033488",
+ "accession": "0001437749-26-006094",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Business Development",
+    "Marketing and Product Development",
+    "Licenses, Trademarks and Brand Names",
+    "Backlog and Seasonality",
+    "Sources of Supplies"
+   ],
+   "paragraphs": [
+    "Escalade, Incorporated (Escalade, the Company, we, us or our) operates in one business segment: Sporting Goods (Escalade Sports). Escalade and its predecessors have more than 95 years of manufacturing and selling experience in this industry.",
+    "Headquartered in Evansville, Indiana, Escalade Sports manufactures, imports, and distributes widely recognized sporting goods brands in basketball goals, archery, indoor and outdoor game recreation and fitness products through major sporting goods retailers, specialty dealers, key on-line retailers, direct-to-consumer e-commerce, traditional department stores and mass merchants. Escalade is a leader in table tennis tables, residential in-ground basketball goals and in archery bows. Some of the Company's most recognized brands, owned or distributed, include:",
+    "Product Category Brand Names Archery Bear Archery®, Trophy Ridge®, Gold Tip™, Bee Stinger™, Cajun Bowfishing®, SIK®, BearX™",
+    "Table Tennis STIGA®, Ping-Pong® Basketball Goals Goalrilla™, Goalsetter®, Goaliath®, Silverback®, Hoopstar®",
+    "Pickleball Onix®, DURA® Play Systems Woodplay®, Jack & June® Fitness The STEP®, Lifeline®, Kettleworx®, Natural Fitness®, PER4M®, USW®, adidas® Fitness",
+    "Safety US WEIGHT® Game Tables (Hockey and Soccer) Triumph™, Atomic®, American Legend®, HJ Scott®, Air-Hockey®",
+    "Water Sports RAVE ® Billiard Tables and Accessories",
+    "American Heritage Billiards®, Brunswick Billiards®, Cue&Case®, Lucasi®, Mizerak®, PureX®, Rage®, Players®, Minnesota Fats®, Mosconi™",
+    "Darting Unicorn®, Arachnid®, Accudart®, DMI® Outdoor Games Victory Tailgate®, Triumph™ , Zume Games®, ACL®, AllCornhole™",
+    "During 2025 and 2024, the Company had one customer that accounted for approximately 19% of the Company's revenues. During 2025 and 2024 the Company had another customer which accounted for approximately 11% and 13%, respectively, of the Company's revenues.",
+    "As of December 31, 2025, the Company had approximately 23% of its total accounts receivable with one customer. As of December 31, 2024, the Company had approximately 25% of its total accounts receivable with one customer.",
+    "Escalade Sports currently manufactures in the USA and imports products from South America and Asia, where the Company utilizes a number of contract manufacturers.",
+    "Certain products produced by Escalade Sports are subject to regulation by the Consumer Product Safety Commission. The Company believes it is in material compliance with all applicable regulations.",
+    "The Company is the successor to The Williams Manufacturing Company, founded in 1922, an Ohio-based manufacturer and retailer of women's and children's footwear, and to the Indian Archery and Toy Corp., founded in 1927, an Evansville, Indiana-based manufacturer of archery equipment, badminton sets, and darts. In the 1960's, Indian Archery entered the table tennis manufacturing business and changed its name to Indian Industries, Inc. Williams Manufacturing and Indian Industries operated independently of each other until a series of transactions in the early 1970's. In 1972, Williams Manufacturing acquired Martin-Yale Industries, Inc., an Illinois-based manufacturer of office and graphic arts products, and crafts and toys. In 1973, Williams Manufacturing acquired both Indian Industries and Harvard Table Tennis, Inc., a Massachusetts-based manufacturer of table tennis accessories. The resulting enterprise, renamed as Escalade, Incorporated, became a diversified manufacturer of sporting goods, recreational products, office products, graphic arts products, hobby and craft items, toys, and footwear."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Markets are highly competitive which could limit the Company's growth and reduce profitability.",
+    "If the Company is unable to predict or effectively react to changes in consumer demand, it may lose customers and sales may decline.",
+    "Excess inventory levels have previously and may in the future adversely impact the Company's operating results.",
+    "Growth may strain resources, which could adversely affect the Company's business and financial performance.",
+    "The Company's ability to operate and expand its business and to respond to changing business and economic conditions will be dependent upon the availability of adequate capital.",
+    "The Company could suffer if it fails to attract and retain skilled management and key personnel.",
+    "The Company is currently transitioning to a new Interim Chief Executive Officer which may result in some disruption to the Company.",
+    "The Company derives a substantial portion of its revenue from a few significant customers and loss of any of these customers could materially affect our results of operations and financial condition.",
+    "The Company's customers may experience financial difficulties that could result in losses to the Company.",
+    "The Company's business may be adversely affected by the actions of and risks associated with third-party suppliers.",
+    "Deterioration in relationships with suppliers or in the financial condition of suppliers could adversely affect liquidity, results of operations and financial position.",
+    "Disruptions to our supply chain could have an adverse impact on our operations.",
+    "Intellectual property rights are valuable, and any inability to protect them could reduce the value of products.",
+    "The expiration or termination of our material trademarks, brand names and licensing agreements could have a material adverse effect on the Company's business.",
+    "Unauthorized disclosure of sensitive or confidential customer information could harm the Company's business and its standing with its customers.",
+    "The use of artificial intelligence poses risks that could adversely impact our business.",
+    "The Company's business involves the potential for product recalls, warranty liability, product liability, and other claims against us, which could adversely affect our reputation, earnings and financial condition.",
+    "The Company may be subject to various types of litigation, and our insurance may not be sufficient to cover damages related to those claims.",
+    "Unseasonable or extreme weather conditions, alone or together with natural disasters, as well as other catastrophic events, could adversely affect the Company's business and results of operations.",
+    "The market price of the Company's common stock is likely to be highly volatile as the stock market in general can be highly volatile.",
+    "If we are unable to pay quarterly dividends at intended levels, our reputation and stock price may be harmed.",
+    "International operations expose the Company to the unique risks inherent in foreign operations.",
+    "The Company's business is subject to risks associated with sourcing and manufacturing outside of the United States, and risks arising from tariffs and/or international trade wars.",
+    "The Company faces risks associated with our operations in China.",
+    "The Company could be adversely affected by changes in currency exchange rates and/or the value of the United States dollar.",
+    "The Company is subject to risks associated with laws and regulations related to health, safety, climate change and environmental, social and governance matters.",
+    "New laws, policies, regulations, rulemaking and oversight, as well as changes to those currently in effect, could adversely impact our earnings, cash flows and operations.",
+    "The preparation of the Company's financial statements requires the use of estimates that may vary from actual results.",
+    "Changes in accounting standards could impact reported earnings and financial condition.",
+    "Operating results may be impacted by changes in the economy that influence business and consumer spending.",
+    "Fluctuation in economic conditions could prevent the Company from accurately forecasting demand for its products which could adversely affect its operating results or market share.",
+    "Quarterly operating results are subject to fluctuation.",
+    "Terrorist attacks, acts of war, natural disasters, and public health crises may seriously harm the Company's business.",
+    "The occurrence of future pandemics or similar events and their ultimate magnitude is unpredictable, volatile and uncertain.",
+    "These risks are not exhaustive."
+   ],
+   "paragraphs": [
+    "The market for sporting goods is highly fragmented and intensely competitive. A majority of the Company's products are in markets that are experiencing low growth rates. Escalade competes with a variety of regional, national and international manufacturers for customers, employees, products, services and other important aspects of the business. The Company has historically sold a large percentage of its sporting goods products to mass merchandisers and has increasingly attempted to expand sales to specialty retailer and dealer markets and to on-line retailers. In addition to competition for sales into those distribution channels, vendors also must compete in sporting goods with large format sporting goods stores, traditional sporting goods stores and chains, warehouse clubs, discount stores, department stores and on-line retailers. Some of the current and potential competitors are larger than Escalade and have substantially greater financial resources that may be devoted to sourcing, promoting and selling their products, and may discount prices more heavily than the Company can afford.",
+    "Success depends in part on the ability to anticipate and respond in a timely manner to changing consumer demand and preferences regarding sporting goods. Products must appeal to a broad range of consumers whose preferences cannot be predicted with certainty and are subject to change. The Company often makes commitments to manufacture products months in advance of the proposed delivery to customers. If Escalade misjudges the market for products, sales may decline significantly. The Company may have to take significant inventory markdowns on unpopular products that are overproduced and/or miss opportunities for other products that may rise in popularity, both of which could have a negative impact on profitability. A major shift in consumer demand away from sporting goods products could also have a material adverse effect on the Company's business, results of operations and financial condition.",
+    "Although the Company endeavors to accurately predict changes in customer demand and consumer spending patterns with respect to the Company's products, demand for products can change significantly between the time inventory is ordered and the date of sale. The Company has in the past, and may in the future, experienced excess inventory levels which adversely impacted its operating results. During 2024 and 2025, the Company successfully reduced inventory to more normalized levels across most of its categories.",
+    "The Company may pursue strategic acquisitions, divestitures, or investments and the failure of a strategic transaction to produce anticipated results or the inability to fully integrate an acquired company could have an adverse impact on the Company's business.",
+    "The Company has made acquisitions of complementary companies or businesses, which have been part of the strategic plan, and may continue to pursue acquisitions in the future from time to time. Acquisitions may result in difficulties in assimilating acquired companies, and may result in the diversion of capital and management's attention from other business issues and opportunities. The Company may not be able to successfully integrate operations that it acquires, including personnel, financial and information systems, cybersecurity measures, distribution, and operating procedures. If the Company fails to successfully integrate acquisitions, the Company's business could suffer. In addition, acquisitions may result in the incurrence of debt, contingent liabilities, amortization expense or write-offs of goodwill or other intangibles, any of which could affect the Company's financial position. The Company also has sometimes divested or discontinued certain operations, assets, and products that did not perform to the Company's expectations or no longer fit with the Company's strategic objectives.",
+    "Divestitures may result in gains, losses, contingent liabilities, write-offs, tax consequences, or other related costs and expenses that could affect the Company's financial position. Escalade will consider acquisitions, divestitures, and investments in the future, one or more of which, individually or in the aggregate, could be material to the Company's overall business, operations or financial position."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Results of Operations",
+    "Revenue and Gross Margin",
+    "Selling, General and Administrative Expenses",
+    "Provision for Income Taxes",
+    "Sporting Goods",
+    "Financial Condition and Liquidity",
+    "New Accounting Pronouncements",
+    "Contractual Obligations",
+    "Critical Accounting Estimates",
+    "Impairment of Goodwill",
+    "Capital Expenditures"
+   ],
+   "paragraphs": [
+    "The following section should be read in conjunction with Item 1: Business; Item 1A: Risk Factors; and Item 8: Financial Statements and Supplementary Data.",
+    "This report contains statements that we believe are \"forward-looking statements\" within the meaning of Section 27A of the Securities Act of 1933, as amended, and Rule 175 promulgated thereunder, and Section 21E of the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"), and Rule 3b-6 promulgated thereunder. All statements, other than statements of historical fact, are forward-looking statements. These statements relate to our financial condition, results of operations, plans, objectives, future performance, capital actions or business. They usually can be identified by the use of forward-looking language such as \"will likely result,\" \"may,\" \"are expected to,\" \"is anticipated,\" \"potential,\" \"estimate,\" \"forecast,\" \"projected,\" \"intends to,\" or may include other similar words or phrases such as \"believes,\" \"plans,\" \"trend,\" \"objective,\" \"continue,\" \"remain,\" or similar expressions, or future or conditional verbs such as \"will,\" \"would,\" \"should,\" \"could,\" \"might,\" \"can,\" or similar verbs. You should not place undue reliance on these statements, as they are subject to risks and uncertainties. These risks include, but are not limited to: Escalade's ability to achieve its business objectives; Escalade's plans and expectations surrounding the transition to its new Chief Executive Officer and all potential related effects and consequences; Escalade's ability to successfully implement actions to lessen the potential impacts of tariffs, a potential trade war with China and other trade restrictions applicable to our products and raw materials, including impacts on the costs of producing our goods, importing products and materials into our markets for sale, and on the pricing of our products; our international operations, including any related to political uncertainty and geopolitical tensions; Escalade's ability to successfully achieve the anticipated results of strategic transactions, including the integration of the operations of acquired assets and businesses and of divestitures or discontinuances of certain operations, assets, brands, and products; the continuation and development of key customer, supplier, licensing and other business relationships; Escalade's ability to protect its intellectual property; Escalade's ability to develop and implement our own direct to consumer e-commerce distribution channel; the impact of competitive products and pricing; product demand and market acceptance; new product development; Escalade's ability to successfully negotiate the shifting retail environment and changes in consumer buying habits; the financial health of our customers; disruptions or delays in our business operations, including without limitation disruptions or delays in our supply chain, arising from political unrest, war, terrorist attacks, labor strikes, natural disasters, public health crises such as the coronavirus pandemic, and other events and circumstances beyond our control; the evaluation and implementation of remediation efforts designed and implemented to enhance the Company's control environment; the potential identification of one or more additional material weaknesses in the Company's internal control of which the Company is not currently aware or that have not yet been detected; Escalade's ability to control costs, including managing inventory levels; general economic conditions, including inflationary pressures; fluctuation in operating results; changes in foreign currency exchange rates; changes in the securities markets; continued listing of the Company's common stock on the NASDAQ Global Market; the Company's inclusion or exclusion from certain market indices; Escalade's ability to obtain financing, to maintain compliance with the terms of such financing and to manage debt levels; the availability, integration and effective operation of information systems and other technology, and the potential interruption of such systems or technology; the potential impact of actual or perceived defects in, or safety of, our products, including any impact of product recalls or legal or regulatory claims, proceedings or investigations involving our products; risks related to data security of privacy breaches; the potential impact of regulatory claims, proceedings or investigations involving our products; Escalade's use of estimates in its financial reporting as well as in its forward looking statements; and other risks detailed from time to time in Escalade's filings with the Securities and Exchange Commission. Escalade's future financial performance could differ materially from the expectations of management contained herein. Escalade undertakes no obligation to release revisions to these forward-looking statements after the date of this report.",
+    "Escalade, Incorporated (Escalade, the Company, we, us or our) is focused on growing its Sporting Goods segment through organic growth of existing categories, strategic acquisitions, and new product development. The Sporting Goods segment competes in a variety of categories including basketball goals, archery, indoor and outdoor recreation and fitness products. Strong brands and on-going investment in product development provide a solid foundation for building customer loyalty and continued growth.",
+    "Within the sporting goods industry, the Company has successfully built a robust market presence in several niche markets. This strategy is heavily dependent on expanding our customer base, barriers to entry, strong brands, excellent customer service and a commitment to innovation. A key strategic advantage is the Company's established relationships with major customers that allow the Company to bring new products to market in a cost-effective manner while maintaining a diversified portfolio of products to meet the demands of consumers. In addition to strategic customer relations, the Company has substantial manufacturing and import experience that enable it to be a reliable and low-cost supplier.",
+    "To enhance growth opportunities, the Company has focused on promoting new product innovation and development and brand marketing. In addition, the Company has embarked on a strategy of acquiring companies or product lines that complement or expand the Company's existing product lines or provide expansion into new or emerging categories in sporting goods. A key objective is the acquisition of product lines with barriers to entry the Company can take to market through its established distribution channels or through new market channels. Significant synergies are achieved through assimilation of acquired product lines into the existing Company structure.",
+    "In September 2025, Escalade acquired the assets of Gold Tip, a leading brand of products for target archery and bow and crossbow hunting from Revelyst, Inc., strengthening the Company's market position in archery. In December 2025, Escalade acquired AllCornhole, a leading brand and supplier of cornhole bags and equipment for competitive cornhole play.",
+    "Management seeks acquisitions that strengthen the Company's leadership in various product categories or provide entry into attractive new product categories. The Company also sometimes divests or discontinues certain operations, assets, and products that do not perform to the Company's expectations or no longer fit with the Company's strategic objectives. Consistent with that philosophy, the Company completed the discontinuance of its Mexico operations, sale of its Mexican facilities, discontinuance of its Orlando, FL operations and terminated its long-term lease for the Orlando, FL facility in 2024.",
+    "Management believes that key indicators in measuring the success of these strategies are revenue growth, earnings growth, new product introductions, and the expansion of channels of distribution. The following table sets forth the annual percentage change in revenues and net income over the past two years:",
+    "2025 2024 Net sales Sporting Goods (4.5 %) (4.6 %) Consolidated (4.5 %) (4.6 %) Net income",
+    "Sporting Goods (1.0 %) 72.6 Consolidated 5.5 32.1",
+    "General economic conditions, inflation, recessionary fears, rising interest rates, changes in the housing market and declining consumer confidence may impact the Company adversely. Management cannot predict the full impact of these factors on the Company. Due to the above circumstances and as described generally in this Form 10-K, the Company's results of operations for the 2025 fiscal year are not necessarily indicative of the results to be expected for fiscal year 2026.",
+    "The following schedule sets forth certain consolidated statement of operations data as a percentage of net sales:",
+    "2025 2024 Net sales 100.0 100.0 Cost of products sold 73.1 75.3 Gross margin 26.9 24.7 Selling, administrative and general expenses",
+    "18.2 17.2 Amortization 0.9 1.1 Gain on sale of assets held (1.6 %) Operating income 7.8 8.0"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Business Development': '業務發展'}",
+    "{'Marketing and Product Development': '行銷與產品開發'}",
+    "{'Licenses, Trademarks and Brand Names': '許可證、商標及品牌名稱'}",
+    "{'Backlog and Seasonality': '積壓訂單與季節性'}",
+    "{'Sources of Supplies': '供應來源'}"
+   ],
+   "paragraphs": [
+    "Escalade, Incorporated (Escalade, the Company, we, us or our) 從事一個業務應報告分部：運動用品 (Escalade Sports)。Escalade 及其前身在該產業擁有超過 95 年的製造與銷售經驗。",
+    "總部設於印第安那州埃文斯維爾市，Escalade Sports 透過主要運動用品零售商、專業經銷商、關鍵線上零售商、直銷消費者電商、傳統百貨公司及大型零售商，製造、進口及銷售廣為認知的運動用品品牌，包括籃球架、射箭器材、室內及室外遊戲娛樂與健身產品。Escalade 在乒乓球桌、住宅型地底籃球架及射箭弓領域為領導品牌。本公司部分最受認知的品牌，擁有或經銷，包括：",
+    "產品類別 品牌名稱 射箭 Bear Archery®、Trophy Ridge®、Gold Tip™、Bee Stinger™、Cajun Bowfishing®、SIK®、BearX™",
+    "乒乓球 STIGA®、Ping-Pong® 籃球架 Goalrilla™、Goalsetter®、Goaliath®、Silverback®、Hoopstar®",
+    "Pickleball Onix®、DURA® Play Systems Woodplay®、Jack & June® 健身 The STEP®、Lifeline®、Kettleworx®、Natural Fitness®、PER4M®、USW®、adidas® 健身",
+    "安全 US WEIGHT® 運動桌 (冰 Hockey 及足球) Triumph™、Atomic®、American Legend®、HJ Scott®、Air-Hockey®",
+    "水運動 RAVE ® 桌球桌與配件",
+    "American Heritage Billiards®、Brunswick Billiards®、Cue&Case®、Lucasi®、Mizerak®、PureX®、Rage®、Players®、Minnesota Fats®、Mosconi™",
+    "Darting Unicorn® , Arachnid® , Accudart® , DMI® Outdoor Games Victory Tailgate® , Triumph™ , Zume Games® , ACL® , AllCornhole™",
+    "於 2025 年及 2024 年，本公司有一客戶佔本公司營業收入約 19%。於 2025 年及 2024 年，本公司另有另一客戶，分別佔本公司營業收入約 11% 及 13%。",
+    "截至 2025 年 12 月 31 日，本公司約有 23% 的總應收帳款來自單一客戶。截至 2024 年 12 月 31 日，本公司約有 25% 的總應收帳款來自單一客戶。",
+    "Escalade Sports 目前於美國製造產品，並進口來自南美洲及亞洲的產品，本公司於這些地區使用數家製造商。",
+    "Escalade Sports 某些產品受消費者產品安全委員會規範。本公司相信其已符合所有適用規範。",
+    "本公司為 The Williams Manufacturing Company 的繼承者，該公司創立於 1922 年，為位於俄亥俄州的女性及兒童鞋類製造商與零售商，以及為 Indian Archery and Toy Corp. 的繼承者，該公司創立於 1927 年，為位於印第安那州埃文斯維爾的弓箭設備、羽毛球拍及飛鏢製造商。在 1960 年代，Indian Archery 開始從事乒乓球製造業務，並更名為 Indian Industries, Inc. Williams Manufacturing 與 Indian Industries 之間獨立運作，直到 1970 年代初期一連串交易。1972 年，Williams Manufacturing 收購 Martin-Yale Industries, Inc.，為位於伊利諾州的辦公室及圖文用品製造商，以及手工藝品與玩具製造商。1973 年，Williams Manufacturing 收購 Indian Industries 及 Harvard Table Tennis, Inc.，為位於馬薩諸塞州的乒乓球配件製造商。此後，該企業更名為 Escalade, Incorporated，成為多元化製造商，產品包括運動用品、休閒產品、辦公用品、圖文用品、愛好與手工藝品、玩具及鞋類。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'translated_text': '營運成果', 'original_text': 'Results of Operations'}",
+    "{'translated_text': '營業收入與毛利率', 'original_text': 'Revenue and Gross Margin'}",
+    "{'translated_text': '銷售、一般及行政費用', 'original_text': 'Selling, General and Administrative Expenses'}",
+    "{'translated_text': '所得稅提列', 'original_text': 'Provision for Income Taxes'}",
+    "{'translated_text': '運動用品', 'original_text': 'Sporting Goods'}",
+    "{'translated_text': '財務狀況與流動性', 'original_text': 'Financial Condition and Liquidity'}",
+    "{'translated_text': '新會計準則', 'original_text': 'New Accounting Pronouncements'}",
+    "{'translated_text': '契約義務', 'original_text': 'Contractual Obligations'}",
+    "關鍵會計估計",
+    "商譽減損",
+    "資本支出"
+   ],
+   "paragraphs": [
+    "下列段落應與第 1 項：業務；第 1A 項：風險因素；及第 8 項：財務資料與補充資料一併閱讀。",
+    "本報告包含一些我們認為符合《1933 年證券法》第 27A 節（經修正）及該法規下頒佈的 Rule 175，以及《1934 年證券交易所法》第 21E 節（經修正）及該法規下頒佈的 Rule 3b-6 的「展望性陳述」。除了歷史事實外，所有陳述皆為展望性陳述。這些陳述與我們的財務狀況、營運結果、計畫、目標、未來表現、資本行動或業務有關。這些陳述通常會使用展望性語言，例如「將很可能導致」、「可能」、「預期會」、「預期」、「潛在」、「估計」、「預測」、「預期」、「有意」，或包含其他相似的詞語或短語，如「相信」、「計畫」、「趨勢」、「目標」、「持續」、「維持」或其他相似的表達方式，或未來或條件式動詞，如「將」、「會」、「應該」、「可能」、「可以」或其他相似的動詞。您不應過度依賴這些陳述，因為它們受到風險與不確定性的影響。這些風險包括，但不限於：Escalade 達成業務目標的能力；Escalade 計畫與期望與其新任首席執行長的過渡，以及所有相關的潛在影響與後果；Escalade 成功實施行動以減輕關稅、與中國潛在貿易戰及其他適用於我們產品與原材料的貿易限制的潛在影響，包括對我們產品製造成本、進口產品與材料至我們市場銷售的影響，以及對我們產品價格的影響；我們的國際業務，包括與政治不確定性與地緣政治緊張關係相關的業務；Escalade 成功達成戰略交易預期結果的能力，包括收購資產與業務的整合，以及出售或停止某些業務、資產、品牌與產品；關鍵客戶、供應商、授權及其他業務關係的持續與發展；Escalade 保護其智慧財產權的能力；Escalade 發展與實施自有直接對消費者電商通路的能力；競爭產品與價格的影響；產品需求與市場接受度；新產品開發；Escalade 成功協商零售環境的變化與消費者購買新趨勢的能力；我們客戶的財務狀況；業務運作的中斷或延遲，包括不限於因政治動盪、戰爭、恐怖攻擊、罷工、自然災害、公共衛生危機如冠狀病毒疫情，以及其他我們無法控制的事件與情況所導致的供應鏈中斷或延遲；評估與實施改善措施以增強本公司控制環境的措施；潛在識別出本公司內部控制中一個或多個額外的重大弱點，而本公司目前尚未察覺或尚未被發現；Escalade 控制成本的能力，包括管理存貨水準；總體經濟狀況，包括通貨膨脹壓力；營運結果的波動；外幣匯率的變化；證券市場的變化；本公司普通股持續在 NASDAQ 全球市場上市；本公司被納入或剔除某些市場指數；Escalade 獲得融資、維持符合融資條款的合規性以及管理債務水準的能力；資訊系統與其他科技的可用性、整合與有效運作，以及這些系統或科技的潛在中斷；實際或被認為產品缺陷或產品安全性的潛在影響，包括任何產品回收或法律或監管聲請、程序或調查的影響；與數據安全及隱私侵擾相關的風險；與產品相關的監管聲請、程序或調查的潛在影響；Escalade 在財務報告及展望性陳述中使用估計的風險；以及其他在 Escalade 向美國證券交易委員會提交的文件中時而提及的風險。Escalade 的未來財務表現可能與 herein 所述管理層的預期有重大差異。Escalade 不負有在本報告日期後釋出這些展望性陳述的修正版本的義務。",
+    "Escalade, Incorporated（Escalade、本公司、我們、我們或我們的）專注於透過現有類別的內生成長、戰略收購與新產品開發來成長其運動用品業務。運動用品業務在多種類別中競爭，包括籃球架、射箭、室內與室外休閒與健身產品。強大的品牌與持續投入產品開發為建立客戶忠誠度與持續成長奠定了堅實基礎。",
+    "在運動用品產業中，本公司已成功在幾個利基市場建立強大的市場存在。此策略高度依賴擴大客戶羣、進入門檻、強大品牌、優良的客戶服務與創新承諾。一個關鍵的戰略優勢是本公司與主要客戶建立的關係，使本公司能以成本效益的方式將新產品推向市場，同時維持多樣化的產品組合以滿足消費者需求。除了戰略性的客戶關係外，本公司擁有廣泛的製造與進口經驗，使本公司能成為可靠且低成本的供應商。",
+    "為增強成長機會，本公司專注於促進新產品創新與開發與品牌行銷。此外，本公司已啟動收購公司或產品線的策略，這些公司或產品線能補充或擴展本公司現有產品線，或提供進入新興運動用品類別的機會。一個關鍵目標是收購具有進入門檻的產品線，本公司能透過其已建立的通路或新市場通路推向市場。透過將收購的產品線整合至現有公司結構中，可實現顯著的協同效益。",
+    "2025 年 9 月，Escalade 收購了 Revelyst, Inc. 所持有的 Gold Tip，這是一個在目標射箭與弓箭與弩狩獵產品領域的領導品牌，強化了本公司在射箭領域的市場地位。2025 年 12 月，Escalade 收購了 AllCornhole，這是一個在競技玉米洞袋與設備領域的領導品牌與供應商。",
+    "管理層尋求收購能強化本公司在各產品類別的領導地位，或提供進入有吸引力的新產品類別的收購。本公司有時也會出售或停止某些業務、資產與產品，這些業務、資產與產品未能達到本公司預期的表現，或已不再符合本公司戰略目標。根據此理念，本公司於 2024 年完成了墨西哥業務的停止，出售墨西哥設施，停止佛羅裏達州奧蘭多業務，並終止佛羅裏達州奧蘭多設施的長期租賃。",
+    "管理層認為衡量這些策略成功的主要指標是營收成長、獲利成長、新產品推出以及通路擴張。下表顯示過去兩年的營收與淨利年成長率：",
+    "2025 2024 淨銷售額 戶外運動用品 (4.5 %) (4.6 %) 總計 (4.5 %) (4.6 %) 營業收入",
+    "戶外運動用品 (1.0 %) 72.6 總計 5.5 32.1",
+    "總體經濟情況、通貨膨脹、經濟衰退風險、利率上升、房地產市場變化以及消費者信心下降等因素，可能對本公司造成不利影響。管理階層無法預測這些因素對本公司可能產生的全部影響。由於上述情況以及如本 Form 10-K 一般性說明所述，本公司 2025 財政年度的營運結果未必能代表 2026 財政年度的預期結果。",
+    "以下表格列出某些合併後營業表現資料，以淨銷售額百分比表示：",
+    "2025 2024 淨銷售額 100.0 100.0 產品成本 73.1 75.3 毛利率 26.9 24.7 銷售、行政及一般費用",
+    "18.2 17.2 折舊 0.9 1.1 資產處分損益 (1.6 %) 營運收入 7.8 8.0"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "市場競爭激烈，可能限制本公司的成長並降低獲利能力。",
+    "若本公司無法預測或有效應對消費者需求的變化，可能會失去客戶且銷售額可能下降。",
+    "過多存貨水平過去曾且未來可能對本公司的營運成果產生不利影響。",
+    "成長可能導致資源喫緊，可能對本公司的業務與財務表現產生不利影響。",
+    "本公司運作及擴展業務的能力，以及對變動中的業務與經濟環境的應變能力，將取決於充足資金的可取得性。",
+    "若本公司未能吸引並留住具備技能的管理階層與關鍵人員，可能會遭受損失。",
+    "本公司目前正轉換為新的臨時首席執行官，可能導致本公司產生一些幹擾。",
+    "本公司來自少數重要客戶的收入佔比相當高，若失去任何這些客戶，可能會對我們的營運成果與財務狀況產生重大影響。",
+    "本公司客戶可能遭遇財務困難，此情形可能導致本公司產生損失。",
+    "本公司業務可能因第三方供應商的行為及其相關風險而受到不利影響。",
+    "與供應商的關係惡化或供應商財務狀況惡化，可能對本公司流動性、營運成果及財務狀況造成不利影響。",
+    "供應鏈中斷可能對本公司營運產生不利影響。",
+    "智慧財產權權利具有價值，任何無法保護這些權利的情況，可能降低產品價值。",
+    "本公司重要商標、品牌名稱及授權協議到期或終止，可能對本公司業務產生重大不利影響。",
+    "未經授權揭露敏感或機密客戶資訊，可能損害本公司業務及其與客戶的聲譽。",
+    "人工智慧的應用可能帶來風險，這些風險可能對本公司業務產生不利影響。",
+    "本公司業務涉及產品回收、保固責任、產品責任及其他對我們提出的聲請，這些情況可能對我們的聲譽、營收及財務狀況造成不利影響。",
+    "本公司可能面臨各種類型的訴訟，而我們的保險可能不足以賠償與這些聲請相關的損失。",
+    "不尋常或極端的天氣條件，單獨或與自然災害共同發生，以及其他災難性事件，可能對本公司業務及營運成果造成不利影響。",
+    "本公司普通股的市場價格可能波動極大，因為整體股市通常波動性很高。",
+    "若我們無法在預期水平支付每季股息，將可能對我們的聲譽及股票價格造成損害。",
+    "國際業務使本公司面臨外國營運所固有的獨特風險。",
+    "本公司業務面臨來自美國境外採購與製造的風險，以及因關稅及/或國際貿易戰所產生的風險。",
+    "本公司在中國的業務面臨相關風險。",
+    "本公司可能因貨幣兌換率變動及/或美國美元價值變動而受到不利影響。",
+    "本公司面臨與健康、安全、氣候變遷及環境、社會與治理相關法律與法規的風險。",
+    "新法律、政策、法規、規則制定及監管，以及現行法規的變動，可能對本公司營收、現金流及營運造成不利影響。",
+    "本公司財務報表的編製需使用會與實際結果有所差異的估計值。",
+    "會計準則的變動可能影響報告的營收與財務狀況。",
+    "營運結果可能因總體經濟變動而受到影響，進而影響企業與消費者支出。",
+    "經濟條件的波動可能使本公司無法準確預測其產品需求，進而對營運結果或市佔率造成不利影響。",
+    "每季營運結果可能出現波動。",
+    "{'original': \"Terrorist attacks, acts of war, natural disasters, and public health crises may seriously harm the Company's business.\", 'translated': '恐怖攻擊、戰爭行為、自然災害及公共衛生危機可能嚴重影響本公司的業務。'}",
+    "{'original': 'The occurrence of future pandemics or similar events and their ultimate magnitude is unpredictable, volatile and uncertain.', 'translated': '未來出現疫情或類似事件及其最終規模無法預測、波動且不確定。'}",
+    "{'original': 'These risks are not exhaustive.', 'translated': '這些風險並非 exhaustive。'}"
+   ],
+   "paragraphs": [
+    "運動休閒商品市場高度分散且競爭激烈。本公司絕大多數產品所屬市場正處於低成長率階段。Escalade 會與各類區域性、國家性及國際性製造商競爭客戶、員工、產品、服務及其他業務重要方面。本公司歷來將大量運動休閒商品產品銷售給通路商，並 increasingly 嘗試擴大銷售至專業零售與經銷市場以及線上零售商。除了在這些通路渠道的銷售競爭外，供應商也必須在運動休閒商品領域與大型運動休閒商品商店、傳統運動休閒商品商店與連鎖店、倉儲俱樂部、折扣商店、百貨公司以及線上零售商競爭。部分現有及潛在競爭對手規模較 Escalade 更大，且擁有遠較充足的財務資源，可能用於採購、推廣及銷售其產品，並可能比本公司更能大幅降低價格。",
+    "成功在部分上取決於預測及及時回應運動休閒商品消費者的變動需求與偏好。產品必須吸引廣泛的消費者羣，而這些消費者的偏好無法確定且可能改變。本公司經常會在預計交付給客戶的時間數個月前就承諾製造產品。若 Escalade 未能正確判斷產品市場，銷售可能會顯著下降。本公司可能必須對不受歡迎且過度生產的產品進行大幅存貨減價，或錯過其他可能變得受歡迎的產品的機會，這兩種情況都可能對利潤率產生負面影響。消費者需求大幅轉向其他產品，也可能對本公司業務、營運成果及財務狀況產生重大負面影響。",
+    "雖然本公司致力於準確預測客戶需求及消費支出模式的變化，但產品需求可能在訂購存貨與銷售日期之間大幅變動。本公司過去曾經驗過過多存貨，並可能在未來再次經驗，這對營運結果產生負面影響。在 2024 年及 2025 年，本公司成功將存貨減少至大多數類別的更正常水平。",
+    "本公司可能進行戰略收購、出售或投資，若戰略交易未能產生預期結果或無法完全整合收購公司，可能對本公司業務產生負面影響。",
+    "本公司已收購補充性公司或業務，這些收購是戰略計畫的一部分，並可能在未來持續進行收購。收購可能導致整合收購公司時遇到困難，並可能導致資金及管理層注意力從其他業務問題與機會轉移。本公司可能無法成功整合所收購的業務，包括人員、財務及資訊系統、網路安全措施、物流、以及作業程序。若本公司未能成功整合收購，業務可能受影響。此外，收購可能導致負債、或有負債、攤銷費用或商譽或其他無形資產的減損，任何這些情況都可能影響本公司財務狀況。本公司有時也會出售或終止某些業務、資產及產品，這些業務、資產及產品未能達到本公司預期表現或已不再符合本公司戰略目標。",
+    "出售可能導致獲利、虧損、或有負債、減損、稅務後果或其他相關成本與費用，這些都可能影響本公司財務狀況。Escalade 將在未來考慮收購、出售及投資，其中一項或數項，單獨或合計，可能對本公司整體業務、營運或財務狀況產生重大影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

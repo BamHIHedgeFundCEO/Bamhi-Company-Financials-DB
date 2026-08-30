@@ -1,0 +1,191 @@
+{
+ "ticker": "ASUR",
+ "cik": "0000884144",
+ "accession": "0001628280-26-012270",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Payroll and Human Capital Management Solutions",
+    "Enterprise Payroll Tax and Treasury Solutions",
+    "Platform Integrations and Marketplace"
+   ],
+   "paragraphs": [
+    "Asure is a provider of cloud-based Human Capital Management (\"HCM\") software solutions delivered as Software-as-a-Service (\"SaaS\") to businesses of all sizes. We offer human resources (\"HR\") tools necessary to build a thriving workforce, provide the resources to stay compliant with dynamic federal, state, and local tax jurisdictions and their respective labor laws, freeing cash flows so these businesses can spend their financial capital on growing their businesses rather than administrative overhead that can impede growth. Our solutions also provide new ways for employers to connect with their employees and strengthen relationships with their talent. At the core of our offering is the Asure HCM platform—a SaaS-based system that includes Payroll & Tax filing, HR management tools, Time & Attendance software, Recruiting, and Benefits Administration. This platform serves as the foundation for delivering both our core software and a range of complementary, technology-enabled services. These include AsureMarketplace™, which automates data exchange between our HCM system and third-party providers to increase efficiency, accuracy, and breadth of services. Our HR Compliance services combine expert guidance with scalable digital delivery. AsurePay™, our payroll card, which we provide in association with our partners, offers employees fast, secure access to earned wages. Additionally, through our licensed brokerage, we offer Insurance Services that help employers manage benefits and reduce administrative costs. We deliver our solutions directly and through a national network of Reseller Partners.",
+    "From recruitment to retirement, our solutions help more than 100,000 clients across the United States. Approximately 35% of our clients are direct with the remaining balance indirect, as they have contracts with Reseller Partners who white label our solutions.",
+    "We strive to be the most trusted HCM resource. Our solutions solve three primary challenges that prevent businesses from growing: HR complexity, allocation of human and financial capital, and the ability to build great teams. We sell our solutions through both direct and partner channels. We supplement our direct sales efforts with partner programs that afford us access to opportunities in various geographic and industry niches. Asure has two types of partners: Reseller Partners that white label our products while providing value-added services to their clients (our indirect clients) and Referral Partners that provide us with client leads but do not resell our solutions. We have and will continue to invest in research and development to expand our solutions. Our solutions reduce the administrative burden on employers and increase employee productivity while managing the employment lifecycle. The Asure HCM suite includes eight product lines: Asure Payroll & Tax, Asure HR Compliance, Asure Time & Attendance, AsureRecruiting™, Asure Insurance and Benefits Administration, AsurePay™, Asure Tax Management Solutions, and AsureMarketplace™ .",
+    "We were incorporated in 1985 as a Delaware corporation and our principal executive offices are located at 405 Colorado Street, Suite 1800, Austin, Texas 78701. Our telephone number is (512) 437-2700 and our website is www.asuresoftware.com. Information on our website is not part of this Annual Report on Form 10-K, however we do post information on the investor relations page of our website that we believe may be of interest to our investors.",
+    "We make available free of charge, on or through our website, our Annual Report on Form 10-K, quarterly reports on Form 10-Q, and current reports on Form 8-K, and amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Exchange Act, as soon as reasonably practicable after we electronically file these materials or furnish them to the SEC. Reports and other information we file with the SEC may also be viewed at the SEC's website at www.sec.gov.",
+    "We provide cloud-based payroll, HCM, payroll tax, treasury, and related technology-enabled services to employers and payroll industry participants. Our offerings are delivered through software platforms, outsourced processing services, integrated payment capabilities, and hardware solutions. Revenue is generated through a combination of recurring per-employee-per-month fees, transaction-based processing fees, implementation and setup fees, fees associated with payment processing and funds movement, and hardware sales and Hardware-as-a-Service (\"HaaS\") arrangements.",
+    "Our Payroll and HCM Solutions are primarily designed for small and mid-sized employers and provide payroll processing, workforce management, compliance support, and related employee services. Clients may purchase individual point solutions, adopt bundled platform offerings, or engage us to provide administrative managed services under which we perform certain payroll, HR, compliance, and workforce administration functions on their behalf. These managed services are delivered using our technology platforms and operational infrastructure.",
+    "Payroll Processing and Compliance. We provide payroll calculation and processing services, including wage and overtime calculations, garnishments, direct deposit processing, and related payroll administration. Our systems apply current federal, state, and local tax tables and support timely filing and remittance of payroll taxes across U.S. jurisdictions. We assist clients with periodic and annual filing requirements, including Forms W-2 and Affordable Care Act (\"ACA\") reporting. Our solutions include general ledger integration and employee self-service functionality that allows employees to access pay information, update personal data, and manage payroll-related preferences.",
+    "Human Resources and Workforce Management. We provide HR compliance and workforce management services through tiered service offerings. These services include access to HR resource libraries, regulatory updates, policy guidance, and advisory support related to employment laws and workplace practices. Certain service levels provide more comprehensive HR support, including assistance with workforce planning, performance management processes, documentation, and compliance oversight.",
+    "Time and Attendance. Our time and attendance solutions enable employers to capture employee work hours, manage labor scheduling, and monitor labor costs. The platform integrates with payroll processing and supports mobile time capture, geo-positioning verification, and biometric authentication technologies. We offer time clock hardware and related data collection devices as one-time purchases or through HaaS arrangements. The system provides real-time dashboards, automated notifications, and reporting tools to support labor management and operational oversight.",
+    "Talent Acquisition. We provide applicant tracking and recruiting tools designed to support job posting distribution, applicant management, interview scheduling, and related hiring workflows. The system supports integration with third-party job boards and provides employers with applicant tracking, communication, and reporting functionality.",
+    "Benefits and Retirement Administration. We provide insurance brokerage and benefits administration services, including support for employer-sponsored health plans, eligibility tracking, ACA reporting, and Consolidated Omnibus Budget Reconciliation Act (\"COBRA\") administration. In addition, we provide retirement plan administration services, including 401(k) plan support and related compliance services. These solutions integrate with payroll processing to support enrollment, payroll deductions, and required reporting.",
+    "Employee Financial and Payment Services. We offer employee-directed payment services integrated with payroll processing, including payroll debit card programs and earned wage access solutions. These services facilitate electronic payment distribution and related funds movement and may generate transaction-based and payment processing-related fees.",
+    "Our Enterprise Payroll Tax and Treasury Solutions are designed for payroll service bureaus, large employers, and systems integrators that support enterprise HCM environments. These solutions support payroll tax calculation, filing, remittance, and related treasury functions across multiple jurisdictions."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "We have a history of losses, and we cannot be certain that we will achieve or sustain profitability.",
+    "Volatility and weakness in bank and capital markets may adversely affect credit availability and related financing costs for us.",
+    "Privacy concerns and laws and other regulations may limit the effectiveness of our applications and adversely affect our business.",
+    "Our software and solutions may not function adequately, which could damage our reputation and give rise to claims against us, which could harm our business and operating results.",
+    "We depend on data centers and computing infrastructure operated by third parties, and any disruption in these operations or changes of these providers could adversely affect our business.",
+    "The markets in which we participate are highly competitive, and if we do not compete effectively, our operating results could be adversely affected.",
+    "Our clients could have insufficient funds to cover payments we have made on their behalf or credit that we have extended to them in connection with the services that we have provided, resulting in financial loss to us.",
+    "Our balance sheet includes significant amounts of goodwill and intangible assets. The impairment of a significant portion of these assets would adversely affect our business, operating results and financial condition.",
+    "If we fail to adequately protect our proprietary rights, our competitive advantage and brand could be impaired and we may lose valuable assets, generate reduced revenue and incur costly litigation to protect our rights.",
+    "We may be sued by third parties for infringement of their proprietary rights.",
+    "Even if demand for HCM products and services increases generally, there is no guarantee that demand for SaaS products generally or our products in particular will increase to a corresponding degree, or at all.",
+    "We may be subject to claims, lawsuits, governmental investigations and other proceedings that could adversely affect our business, financial condition and results of operations.",
+    "Issues in the use of AI in our HCM products and services may result in reputational harm or liability to us, and our business, operating results, and financial results may be adversely affected.",
+    "Changes in financial accounting standards or practices may cause adverse, unexpected financial reporting fluctuations and affect our reported operating results.",
+    "The use of open-source software in our applications may expose us to risks and harm our intellectual property rights.",
+    "We may be adversely affected by failure of third parties in providing their services.",
+    "Our ability to use our net operating loss carryforwards and certain other tax attributes may be limited.",
+    "Inability to maintain the third-party licensed software we use in our applications at the current costs could result in increased costs or reduced service levels, which could adversely affect our business."
+   ],
+   "paragraphs": [
+    "The following risk factors and other information included throughout this Form 10-K, including those risks identified in Part II, Item 7 \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" represent our view of some of the most important risks we face. The risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties not presently known to us or that we presently deem less significant may also impair our business operations. If any of the events or circumstances described in the following risk factors actually occurs, our business, operating results and financial condition could be materially adversely affected.",
+    "Refer to the cautionary note regarding forward-looking statements at the beginning of Part 1 of this Form 10-K.",
+    "If our security measures, or those of our third-party data center hosting facilities, cloud computing platform providers or third-party service partners are compromised or breached, or if personal information of our clients or their employees is accessed or obtained, our services and HCM solution may be perceived as not being secure, our brand could be damaged, our services may be disrupted, and customers may curtail or stop using our services, all of which could reduce our revenue and earnings, increase our expenses, and expose us to legal claims and regulatory actions.",
+    "Our solution involves the collection, storage and transmission of clients' and their employees' confidential and proprietary information, including personal identifying information such as social security numbers and data protected by the Health Insurance Portability and Accountability Act of 1996 (\"HIPAA\") with respect to our consumer health care administration services, as well as financial and payroll data. This type of data is highly sensitive and is regulated by laws in all jurisdictions governing the security and privacy of personal information. HCM software is often targeted in cyber-attacks, including computer viruses, worms, phishing attacks, malicious software programs and other information security breaches due to the sensitive nature of the data, which could result in the unauthorized release, gathering, monitoring, misuse, loss or destruction of our clients' sensitive data or otherwise disrupt our clients' or other third parties' business operations. If cybercriminals are able to circumvent our security measures, or if we are unable to detect an intrusion into our systems and contain such intrusion in a reasonable amount of time, our clients' sensitive data may be compromised, as well as our intellectual property and other confidential business information.",
+    "In addition to malicious acts by third parties, unauthorized access to or breach of our systems could occur through employee error or employee malfeasance. Certain of our employees have access to sensitive information about our clients' employees. While we conduct background checks of our employees and limit access to systems and data, it is possible that one or more of these individuals may circumvent these controls, resulting in a security breach.",
+    "Although we have security measures in place to protect client information and prevent data loss and other security breaches, these measures could be breached as a result of third-party action, employee error, third-party or employee malfeasance or otherwise. Because the techniques used to obtain unauthorized access or to sabotage systems change frequently, we may not be able to anticipate these techniques and implement adequate preventative or protective measures. In addition, our customers may not have adequate security measures in place to protect their data that is stored on our services. Because we do not control our customers or third-party technology providers, or the processing of such data by third-party technology providers, we cannot ensure the integrity or security of such transmissions or processing."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "RESULTS OF OPERATIONS (dollar amounts in thousands)",
+    "Year Ended December 31,",
+    "Year Ended December 31, Variance",
+    "Gross Profit and Gross Margin",
+    "Sales and Marketing Expenses",
+    "General and Administrative Expenses",
+    "Research and Development Expenses",
+    "Amortization of Intangible Assets",
+    "Interest Income and Expense",
+    "Other Income, Net",
+    "Income Taxes",
+    "Loss From Operations",
+    "LIQUIDITY AND CAPITAL RESOURCES (dollar amounts in thousands)",
+    "December 31, 2025 December 31, 2024",
+    "Valuation of Acquired Assets and Goodwill"
+   ],
+   "paragraphs": [
+    "Certain statements in this Report represent forward-looking statements. Forward-looking statements include but are not limited to statements regarding our strategy, future operations, financial condition, results of operations, projected costs, and plans and objectives of management. Actual results may differ materially from those contemplated by the forward-looking statements due to, among others, the risks and uncertainties described in this Report and in our other SEC filings.",
+    "We have attempted to identify these forward-looking statements with the words \"believe,\" \"may,\" \"will,\" \"estimate,\" \"projects,\" \"anticipate,\" \"intend,\" \"expect,\" \"should,\" \"plan,\" and similar expressions. Examples of \"forward-looking statements\" include statements we make regarding our operating performance, future results of operations and financial position, revenue growth, earnings or other projections. We have based these forward-looking statements largely on our current expectations and projections about future events and trends that we believe may affect our financial condition, results of operations, business strategy, short-term and long-term business operations and objectives, and financial needs. The achievement or success of the matters covered by such forward-looking statements involves risks, uncertainties and assumptions, many of which are outside of our control. If any such risks or uncertainties materialize or if any of the assumptions prove incorrect, our results could differ materially from the results expressed or implied by the forward-looking statements we make. Additionally, we are under no obligation to update any of the forward-looking statements after the date of this Annual Report on Form 10-K or to conform such statements to actual results.",
+    "We are a provider of cloud-based Human Capital Management (\"HCM\") software solutions delivered as Software-as-a-Service (\"SaaS\") to businesses of all sizes. We offer human resources (\"HR\") tools necessary to build a thriving workforce, provide the resources to stay compliant with dynamic federal, state, and local tax jurisdictions and their respective labor laws, freeing cash flows so these businesses can spend their financial capital on growing their businesses rather than administrative overhead that can impede growth. Our solutions also provide new ways for employers to connect with their employees and strengthen relationships with their talent. At the core of our offering is the Asure HCM platform—a SaaS-based system that includes Payroll & Tax filing, HR management tools, Time & Attendance software, Recruiting, and Benefits Administration. This platform serves as the foundation for delivering both our core software and a range of complementary, technology-enabled services. These include AsureMarketplace™, which automates data exchange between our HCM system and third-party providers to increase efficiency, accuracy, and breadth of services. Our HR Compliance services combine expert guidance with scalable digital delivery. AsurePay™, our payroll card, which we provide in association with our partners, offers employees fast, secure access to earned wages. Additionally, through our licensed brokerage, we offer Insurance Services that help employers manage benefits and reduce administrative costs. We deliver our solutions directly and through a national network of Reseller Partners.",
+    "We strive to be the most trusted HCM resource. We sell our solutions through both direct and partner channels. We supplement our direct sales efforts with partner programs that afford us access to opportunities in various geographic and industry niches. Asure has two types of partners: Reseller Partners that white label our products while providing value-added services to their clients (our indirect clients) and Referral Partners that provide us with client leads but do not resell our solutions.",
+    "As of December 31, 2025, Asure had more than 100,000 clients, with approximately 35% being direct and the remaining clients being indirect through contracts with Reseller Partners.",
+    "We plan to continue to enhance our products and technologies by leveraging the latest technology stack, RPA, AI, and development partnerships. We expect that our expanded investment in product, engineering, SaaS hosting, mobile and hardware technologies will lay the groundwork for broader market opportunities and represent a key aspect of our competitive differentiation. We also plan to expand our technological resources through organic improvements and acquired intellectual property. We expect to continue to expand the breadth of integration between our solutions, allowing direct clients and our Reseller Partners the ability to easily add and implement components across our entire solution set. Our initiatives include providing our customers with more accurate and efficient automation powered by an informed knowledge base. Consistent with that effort, our engineering team utilizes an AI development Copilot to increase their productivity and efficiency. Our operations team utilizes a digital assistant to allow for a more efficient and accurate way to automate repetitive tasks, which we believe will free up our time for more strategic work and reducing the risk of errors. We are committed to providing the best-in-class solutions.",
+    "Our development efforts for future releases and enhancements are driven by feedback received from our existing and potential customers and by gauging market trends. We believe we have the appropriate development team to design and enhance our solution suite and integrated platform. We have also made significant investments outside of core R&D into compliance and certifications, including SOC I Type 2 and SOC II Type 2 certifications, BIPA, CCPA, and other initiatives.",
+    "Asure has several forms of revenue that result from our business model:",
+    "Software-as-a-service revenue is generated when clients utilize our product suite for their recurring human resource needs—primarily payroll, tax, HR compliance, time and attendance, recruiting, insurance and benefits administration and AsureMarketplace™. This also contains revenue generated from quarterly and annual reporting requirements to local, state and federal regulatory agencies. Examples include Form W-2 and reporting mandated by the ACA.",
+    "Hardware-as-a-service revenue is generated when clients choose not to purchase our hardware, but rather rent the devices. This hardware includes a variety of clocks used to track time and attendance. Hardware revenue is generated when our clients buy our devices outright.",
+    "Maintenance and support revenue is generated from servicing our hardware on our clients' behalf and providing training on how to operate both our hardware and software products.",
+    "Professional services revenue is generated from our clients' needs that would normally be fulfilled by an internal payroll system or human resources department.",
+    "Our tax management solutions revenue is derived from providing clients with innovative payroll tax processing software and service solutions.",
+    "Interest from client funds is generated when we gain possession of funds intended to be disbursed based on the clients' needs. We invest the monies in short and long-term securities that may be held to maturity before disbursement."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Payroll and Human Capital Management Solutions': '薪資與人力資本管理解決方案'}",
+    "{'original': 'Enterprise Payroll Tax and Treasury Solutions', 'translated': '企業薪資稅務與財務解決方案'}",
+    "{'original': 'Platform Integrations and Marketplace', 'translated': '平台整合與應用程式商城'}"
+   ],
+   "paragraphs": [
+    "Asure 是提供基於雲端的人力資源管理（\"HCM\"）軟體解決方案的供應商，以軟體即服務（\"SaaS\"）方式提供給各規模的企業。我們提供人力資源（\"HR\"）工具，協助企業建立蓬勃發展的員工隊伍，並提供資源以符合不斷變動的聯邦、州及地方稅務管轄區及其相應勞動法規，從而釋放現金流，使這些企業能將財務資本用於業務成長，而非會阻礙成長的行政開支。我們的解決方案也為僱主提供與員工連接的新方式，並強化與人才的關係。我們的解決方案核心為 Asure HCM 平台——一個基於 SaaS 的系統，包含薪資與稅務申報、人力資源管理工具、時間與出勤軟體、招聘及福利管理。此平台為我們提供核心軟體及一系列補充性、科技驅動服務的基礎。這些服務包括 AsureMarketplace™，其自動化我們 HCM 系統與第三方供應商之間的資料交換，以提高效率、準確性與服務範圍。我們的 HR 合規服務結合專家指導與可擴展的數位交付。AsurePay™ 是我們與合作夥伴合作提供的薪資卡，為員工提供快速、安全的薪資存取方式。此外，透過我們的經許可的經紀公司，我們提供保險服務，協助僱主管理福利並降低行政成本。我們直接提供解決方案，並透過全國性的經銷商網路提供服務。",
+    "從招聘到退休，我們的解決方案協助美國超過 100,000 名客戶。約 35% 的客戶為直接客戶，其餘為間接客戶，因他們與經銷商合作，這些經銷商以我們的解決方案為自有品牌。",
+    "我們致力於成為最受信賴的 HCM 資源。我們的解決方案解決三個主要問題，這些問題會阻礙企業成長：人力資源複雜性、人力與財務資源的分配，以及建立優秀團隊的能力。我們透過直接與合作夥伴渠道銷售解決方案。我們透過合作夥伴計畫補充直接銷售，以獲得不同地理與產業細分市場的機會。Asure 有兩種類型的合作夥伴：經銷商合作夥伴，他們以自有品牌提供我們的產品，同時為客戶提供附加價值服務（我們的間接客戶），以及介紹合作夥伴，他們為我們提供客戶導入，但不銷售我們的解決方案。我們會持續投資於研究與開發，以擴展我們的解決方案。我們的解決方案降低僱主的行政負擔，提高員工生產力，同時管理就業生命週期。Asure HCM 套件包含八種產品線：Asure 薪資與稅務、Asure HR 合規、Asure 時間與出勤、AsureRecruiting™、Asure 保險與福利管理、AsurePay™、Asure 稅務管理解決方案，以及 AsureMarketplace™。",
+    "",
+    "我們會在網站上免費提供年度報告表 10-K、季報表 10-Q、現況報告表 8-K，以及這些資料在根據證券交易法第 13(a) 或 15(d) 條款提交或提供給 SEC 後，盡可能迅速提供。我們提交給 SEC 的報告及其他資訊也可在 SEC 網站 www.sec.gov 查閱。",
+    "我們為僱主及薪資產業參與者提供基於雲端的薪資、HCM、薪資稅、財務及相關科技驅動服務。我們的產品透過軟體平台、委外處理服務、整合支付功能及硬體解決方案提供。收入來自於每月每員工的定期費用、交易處理費用、實施與設定費用、與支付處理及資金移動相關的費用，以及硬體銷售及硬體即服務（\"HaaS\"）安排。",
+    "我們的薪資與 HCM 解決方案主要針對中小型僱主，提供薪資處理、人力資源管理、合規支援及相關員工服務。客戶可購買個別解決方案、採用整合平台方案，或委託我們提供行政管理服務，我們會代表他們執行部分薪資、人力資源、合規及人力資源管理功能。這些管理服務透過我們的科技平台及運營基礎設施提供。",
+    "薪資處理與合規。我們提供薪資計算與處理服務，包括薪資與加班費計算、薪資扣押、直接存款處理及相關薪資管理。我們的系統應用現行的聯邦、州及地方稅率表，並支援美國各管轄區的薪資稅及時申報與繳納。我們協助客戶處理定期與年度申報需求，包括 W-2 表格及平價醫療法案（\"ACA\"）報告。我們的解決方案包含總帳整合及員工自助服務功能，讓員工可存取薪資資訊、更新個人資料及管理與薪資相關的偏好。",
+    "人力資源與員工管理。我們透過分層服務方案提供人力資源合規與員工管理服務。這些服務包括存取人力資源資源圖書館、法規更新、政策指引，以及與就業法規與工作實踐相關的諮詢支援。某些服務層級提供更完整的員工支援，包括協助員工規劃、績效管理流程、文件記錄與合規監督。",
+    "工時與出勤。我們的工時與出勤解決方案讓僱主能記錄員工工作時數、管理勞動排班，並監控勞動成本。此平台整合 payroll 處理，支援行動工時記錄、地理定位驗證與生物特徵認證技術。我們提供工時鐘硬體與相關資料收集裝置，作為一次性購買或透過 HaaS 約定提供。系統提供即時看板、自動通知與報表工具，以支援勞動管理與運營監督。",
+    "人才招募。我們提供應徵者追蹤與招募工具，用以支援職缺發佈、應徵者管理、面試排程與相關招聘流程。此係統支援與第三方職缺平台整合，並為僱主提供應徵者追蹤、溝通與報表功能。",
+    "福利與退休金管理。我們提供保險經紀與福利管理服務，包括支援僱主贊助的健康計畫、資格追蹤、ACA 報告，以及綜合福利重整法案（\"COBRA\"）管理。此外，我們也提供退休金計畫管理服務，包括 401(k) 計畫支援與相關合規服務。這些解決方案整合 payroll 處理，以支援入會、薪資扣除與必要報表。",
+    "員工財務與付款服務。我們提供員工導向付款服務，整合 payroll 處理，包括薪資提款卡計畫與已賺取工資存取解決方案。這些服務促進電子付款發放與相關資金移動，並可能產生基於交易與付款處理相關的費用。",
+    "我們的企業薪資稅與財務解決方案是為薪資服務機構、大型僱主與支援企業 HCM 環境的系統整合商所設計。這些解決方案支援跨多個管轄區域的薪資稅計算、申報、繳納與相關財務功能。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果（金額單位為千美元)",
+    "截至12月31日年度",
+    "截至12月31日年度變動",
+    "毛利及毛利率",
+    "銷售及市場推廣費用",
+    "一般及行政費用",
+    "研究及發展費用",
+    "無形資產攤銷",
+    "利息收入與費用",
+    "其他收入，淨額",
+    "所得稅",
+    "營運虧損",
+    "流動性與資本資源（金額單位為千美元）",
+    "2025年12月31日 2024年12月31日",
+    "取得資產與商譽之評價"
+   ],
+   "paragraphs": [
+    "本報告中某些陳述屬於預測性陳述。預測性陳述包括但不限於有關我們策略、未來營運、財務狀況、營運結果、預測成本以及管理層計畫與目標的陳述。實際結果可能與預測性陳述所預期的有重大差異，原因包括本報告及我們其他 SEC 檔案中所描述的風險與不確定性。",
+    "我們已試圖以「相信」、「可能」、「將」、「估計」、「預測」、「預期」、「意圖」、「應該」、「計畫」等詞語來識別這些預測性陳述。預測性陳述的範例包括我們對營運表現、未來營運結果與財務狀況、營收成長、獲利或其他預測所做出的陳述。我們基於目前對未來事件與趨勢的預期與預測，來做出這些預測性陳述，這些預期與預測可能影響我們的財務狀況、營運結果、業務策略、短期與長期營運與目標，以及財務需求。實現或成功這些預測性陳述所涉及的項目，包含風險、不確定性與假設，其中許多是我們無法控制的。如果任何這些風險或不確定性實現，或任何假設被證明錯誤，我們的結果可能與預測性陳述所表達或暗示的結果有重大差異。此外，我們沒有義務在本年度 10-K 報告日期之後更新任何預測性陳述，或使其符合實際結果。",
+    "我們是一家提供基於雲端的人力資源管理（\"HCM\"）軟體解決方案的供應商，這些解決方案以軟體即服務（\"SaaS\"）形式提供給各規模的企業。我們提供人力資源（\"HR\"）工具，協助企業建立一個蓬勃發展的員工隊伍，並提供資源以符合不斷變動的聯邦、州與地方稅務管轄區及其相應勞動法規，從而釋放現金流，使這些企業能將財務資本用於業務成長，而非會阻礙成長的行政開支。我們的解決方案也為僱主提供與員工建立聯繫的新方式，並強化與人才的關係。我們解決方案的核心是 Asure HCM 平台——一個基於 SaaS 的系統，包含薪資與稅務申報、人力資源管理工具、時間與出勤軟體、招募以及福利管理。這個平台是我們核心軟體與一系列補充性、科技驅動服務的基礎。這些服務包括 AsureMarketplace™，它自動化我們 HCM 系統與第三方供應商之間的資料交換，以提高效率、準確性與服務範圍。我們的 HR 合規服務結合專業指導與可擴展的數位交付。AsurePay™ 是我們與合作夥伴合作提供的薪資卡，為員工提供快速、安全的薪資存取方式。此外，透過我們的經許可的經紀公司，我們提供保險服務，協助僱主管理福利並降低行政成本。我們直接提供解決方案，並透過全國性的經銷商網路提供服務。",
+    "我們致力於成為最受信賴的 HCM 資源。我們透過直接與合作夥伴渠道銷售解決方案。我們透過合作夥伴計畫補充直接銷售，以獲得不同地理與產業細分市場的機會。Asure 有兩種類型的合作夥伴：經銷商合作夥伴，他們以白標方式銷售我們的產品，同時為客戶（即我們的間接客戶）提供附加價值服務；以及介紹合作夥伴，他們為我們提供客戶機會，但不銷售我們的解決方案。",
+    "截至 2025 年 12 月 31 日，Asure 運營超過 100,000 個客戶，其中約 35% 是直接客戶，其餘客戶則透過與經銷商合作夥伴的契約為間接客戶。",
+    "我們計畫繼續透過運用最新科技架構、RPA、AI 以及開發合作夥伴來提升產品與科技。我們預期，我們在產品、工程、SaaS 主機、行動與硬體科技上的擴大投資，將為更廣泛的市場機會奠定基礎，並成為我們競爭優勢的重要方面。我們也計畫透過內生改進與取得的智慧財產權來擴充科技資源。我們預期會持續擴展我們解決方案之間的整合範圍，使直接客戶與我們的經銷商合作夥伴能輕鬆地在整個解決方案組閤中新增與實作零組件。我們的計畫包括為客戶提供更準確且高效的自動化，這是由一個資訊豐富的知識庫所驅動。根據此努力，我們的工程團隊運用 AI 開發 Copilot 來提高生產力與效率。我們的運營團隊運用數位助理，以更高效且準確的方式自動化重複性任務，我們認為這將使我們有更多時間從事策略性工作，並降低錯誤風險。我們致力於提供最佳級的解決方案。",
+    "我們未來版本與改進的開發工作，是由現有與潛在客戶的意見回饋以及市場趨勢所驅動。我們相信我們擁有適當的開發團隊，可設計並提升我們的解決方案組合與整合平台。我們也已在核心 R&D 之外，對合規與認證進行了重大投資，包括 SOC I Type 2 和 SOC II Type 2 認證、BIPA、CCPA 以及其他計畫。",
+    "Asure 有幾種來自業務模式的收入形式：",
+    "軟體即服務的營業收入係於客戶使用我們的產品組合以應對其經常性的人力資源需求時產生—主要為薪資、稅務、人力資源合規、工時與出勤、招聘、保險與福利管理以及 AsureMarketplace™。此部分亦包含因應地方、州及聯邦監管機構的季報與年報要求而產生的收入。範例包括 W-2 表格以及根據 ACA 規定所進行的報表。",
+    "硬體即服務的營業收入係於客戶選擇不購買我們的硬體，而改以租賃裝置方式使用時產生。此硬體包含用以追蹤工時與出勤的多種時鐘。硬體收入係於客戶直接購買我們的裝置時產生。",
+    "維護與支援收入係於我們代表客戶維護我們的硬體，並提供有關如何操作我們硬體與軟體產品之訓練時產生。",
+    "專業服務收入係於客戶的某些需求通常會由內部薪資系統或人力資源部門處理時產生。",
+    "我們的稅務管理解決方案收入係來自於為客戶提供創新薪資稅務處理軟體與相關服務方案。",
+    "客戶資金產生的利息係於我們取得客戶資金並根據客戶需求進行發放時產生。我們將資金投資於短期與長期證券，這些證券可能在發放前持有至到期日。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "本公司有持續虧損的歷史，且無法確定是否能達成或維持獲利。",
+    "銀行與資本市場的波動及疲軟，可能不利於我們的信貸取得及相關融資成本。",
+    "隱私權 concerns 及相關法律與其他法規，可能限制我們應用程式的效益，並對我們的業務產生負面影響。",
+    "我們的軟體及解決方案可能無法正常運作，這可能會損害我們的聲譽，並導致對我們的索賠，進而影響我們的業務與營運結果。",
+    "我們依賴第三方運營的資料中心與計算基礎設施，若這些運營發生中斷或服務提供者有所變更，可能對我們的業務產生負面影響。",
+    "我們參與的市場競爭激烈，若我們無法有效競爭，營運結果可能受到負面影響。",
+    "客戶可能缺乏足夠資金以償還我們為其代付的款項或我們提供的信貸，導致我們產生財務損失。",
+    "我們的資產負債表包含大量商譽及無形資產。這些資產中若有一大部分發生減值，將對我們的業務、營運結果及財務狀況產生負面影響。",
+    "若本公司未能充分保護其專有權利，將可能影響本公司之競爭優勢與品牌，並可能導致喪失重要資產、營收減少，以及需支出高昂費用以維護本公司之權利。",
+    "本公司可能因侵權他人專有權利而被第三方起訴。",
+    "即使對HCM產品與服務之需求總體增加，亦無法保證對SaaS產品總體或本公司產品之需求會相應增加，或甚至可能完全不增加。",
+    "本公司可能面臨聲請、訴訟、政府調查及其他程序，這些可能對本公司之業務、財務狀況及營運成果產生不利影響。",
+    "在本公司HCM產品與服務中使用AI所產生之問題，可能導致本公司聲譽受損或產生責任，並可能對本公司之業務、營運成果及財務成果產生不利影響。",
+    "財務會計準則或作法之變更，可能導致財務報導出現不利且意外之波動，並影響本公司所報導之營運成果。",
+    "本公司應用中使用開放原始碼軟體，可能使本公司面臨風險，並損害本公司之智慧財產權。",
+    "本公司可能因第三方未能提供其服務而受到不利影響。",
+    "本公司運用淨營業虧損結轉及某些其他稅務屬性之能力可能受到限制。",
+    "無法維持目前成本取得用於應用程式之第三方授權軟體，可能會導致成本增加或服務水準下降，進而對本公司業務造成不利影響。"
+   ],
+   "paragraphs": [
+    "下列風險因素及其他資訊包含於本 Form 10-K 全文，包括 Part II, Item 7 \"管理層對財務狀況與營運結果之討論與分析\" 中所識別之風險，代表本公司認為一些最重要的風險。上述所描述之風險與不確定性並非本公司唯一面臨之風險。尚有其他風險與不確定性，目前本公司尚未知悉，或目前認為較不重要，也可能影響本公司營運。若任何上述風險因素所描述之事件或情況實際發生，將可能對本公司營運、營運結果與財務狀況造成重大不利影響。",
+    "請參閱本 Form 10-K 第一部分開頭所載之對未來預測陳述之警示說明。",
+    "若本公司之安全措施，或第三方資料中心 hosting 設施、雲端計算平台供應商或第三方服務夥伴之安全措施遭破壞或遭入侵，或客戶或其員工之個人資訊遭存取或取得，本公司之服務與 HCM 解決方案可能被視為不具安全性，本公司品牌可能受損，服務可能中斷，客戶可能減少或停止使用本公司服務，所有這些情況都可能降低本公司之營業收入與獲利，增加本公司之費用，並使本公司面臨法律訴訟與監管行動。",
+    "本公司之解決方案涉及收集、儲存與傳輸客戶及其員工之機密與專屬資訊，包括個人資訊如社會安全碼，以及受 1996 年健康保險可攜性與責任法案（\"HIPAA\"）保護之資料，關於本公司之消費者醫療行政服務，以及財務與薪資資料。此類資料屬高度敏感，並受各司法管轄區所訂法律規範，以確保個人資訊之安全與隱私。HCM 軟體常成為網路攻擊目標，包括電腦病毒、蠕蟲、網路釣魚攻擊、惡意軟體程式及其他資訊安全事件，皆因資料之敏感性所致，這可能導致客戶之敏感資料遭未經授權之釋出、蒐集、監聽、誤用、遺失或毀損，或以其他方式幹擾客戶或其他第三方之營運。若網路犯罪分子能繞過本公司之安全措施，或本公司無法在合理時間內偵測系統入侵並控制該入侵，客戶之敏感資料可能遭竊取，同時本公司之智慧財產權及其他機密商業資訊也可能遭侵害。",
+    "除了第三方之惡意行為外，本公司系統之未經授權存取或遭入侵也可能發生於員工之疏忽或員工之不法行為。本公司部分員工可存取客戶員工之敏感資訊。雖然本公司對員工進行背景調查，並限制對系統與資料之存取，但仍有機會這些員工可能繞過這些控制措施，導致安全事件發生。",
+    "儘管本公司已設置安全措施以保護客戶資訊、預防資料遺失及其他安全事件，但這些措施可能因第三方行動、員工疏忽、第三方或員工不法行為或其他原因而遭破壞。由於取得未經授權存取或破壞系統之技術頻繁變更，本公司可能無法預見這些技術並實施適當之預防或保護措施。此外，客戶可能未設置足夠之安全措施以保護其資料，該資料儲存於本公司服務上。由於本公司無法控制客戶或第三方科技供應商，或第三方科技供應商處理該資料之過程，本公司無法確保這些資料傳輸或處理之完整性與安全性。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

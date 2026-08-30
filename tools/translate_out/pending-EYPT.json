@@ -1,0 +1,211 @@
+{
+ "ticker": "EYPT",
+ "cik": "0001314102",
+ "accession": "0001193125-26-093917",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "DURAVYU – vorolanib in Durasert E",
+    "EYP-2301 – razuprotafib in Durasert E",
+    "The Unmet Need in the Treatment of Retinal Disease – Duration of Action and a New Mechanism of Action (MOA)",
+    "Durasert® Technology",
+    "Our Product Candidates",
+    "DURAVYU for wet AMD and DME",
+    "DURAVYU for wet AMD - Market Opportunity",
+    "DURAVYU for wet AMD - Clinical Development",
+    "DURAVYU for Diabetic Macular Edema - Market Opportunity",
+    "DURAVYU for Diabetic Macular Edema - Clinical Development",
+    "DURAVYU Licenses",
+    "Manufacturing",
+    "FDA Approved Products Licensed to Other Entities",
+    "YUTIQ® for posterior segment uveitis",
+    "ILUVIEN for DME",
+    "Intellectual Property",
+    "Human Capital Resources",
+    "AXPAXLI (formerly OTX-TKI) – Ocular Therapeutix, Inc.",
+    "Tarcocimab Tedromer (formerly KSI-301) – Kodiak Sciences, Inc.",
+    "OCS-01 - Oculis Holding AG",
+    "Government Regulation"
+   ],
+   "paragraphs": [
+    "EyePoint, Inc. (Nasdaq: EYPT) is a clinical-stage biopharmaceutical company committed to developing and commercializing innovative therapeutics to improve the lives of patients with serious retinal diseases. The Company's pipeline leverages its proprietary bioerodible Durasert E technology (Durasert E) for sustained intraocular drug delivery. The Company's lead product candidate, DURAVYU1, is an investigational sustained delivery treatment for vascular endothelial growth factor (VEGF) mediated retinal diseases combining vorolanib, a selective and patent-protected tyrosine kinase inhibitor (TKI) with the Company's bioerodible Durasert E drug delivery technology. DURAVYU is currently being evaluated in Phase 3 pivotal trials (LUGANO and LUCIA) for wet age-related macular degeneration (wet AMD) and in Phase 3 clinical trials (COMO and CAPRI) for diabetic macular edema (DME). Additional pipeline programs include EYP-2301, razuprotafib, a TIE-2 agonist, formulated in Durasert E to potentially improve outcomes in serious retinal diseases. EyePoint is headquartered in Watertown, Massachusetts with a commercial manufacturing facility in Northbridge, Massachusetts.",
+    "DURAVYU brings a potential new multi-mechanism of action paradigm for the treatment of retinal diseases as vorolanib, the active drug in DRUAVYU, acts through intracellular inhibition of all VEGF receptors, platelet-derived growth factor (PDGF) and pro-inflammatory interleukin 6 (IL-6)/JAK1 signaling for at least six months. Vorolanib has also demonstrated neuroprotection in an in-vivo model of retinal detachment.",
+    "DURAVYU is currently in Phase 3 clinical trials for the potential treatment of wet AMD and DME, the two largest retinal disease markets. Enrollment in the pivotal Phase 3 clinical trials for wet AMD is complete with data expected beginning in mid-2026. The first patient was dosed in the Phase 3 DME program in February 2026.",
+    "Additional pipeline programs include EYP-2301, razuprotafib, a TIE-2 agonist, formulated in Durasert E to potentially improve outcomes in serious retinal diseases.",
+    "The proven Durasert® drug delivery technology (Durasert®) has been safely administered to thousands of patient eyes across four products approved by the U.S. Food and Drug Administration (FDA). Durasert® enables the development of a solid drug cylinder that is delivered through a standard intravitreal (IVT) injection in the physician office, similar to current standard practice with FDA approved IVT treatments. A Durasert® insert is designed to provide consistent\" sustained release of drug over a desired time period and can generally be tailored for each drug and disease indication. Durasert® products have been developed in both non-erodible and Durasert E bioerodible formulations.",
+    "In wet AMD, DURAVYU is currently being evaluated in the Phase 3 LUGANO and LUCIA clinical trials. The Phase 3 program was developed with feedback from both the FDA and European Medicines Agency (EMA). We initiated the pivotal trials leveraging learnings from our robust DAVIO and DAVIO 2 clinical trials, which achieved primary and secondary endpoints.",
+    "Key characteristics of the Phase 3 wet AMD pivotal program are as follows:",
+    "• Randomized, double-masked, aflibercept controlled, non-inferiority trials assessing the efficacy and safety of DURAVYU 2.7mg in patients with active wet AMD.",
+    "• Trials include approximately 75% treatment-naïve and 25% previously treated patients.",
+    "• The LUGANO trial enrolled 432 patients and the LUCIA trial enrolled 475 patients who were randomly assigned, 1:1, to a DURAVYU 2.7mg arm or an on-label aflibercept control arm. Randomization occurred on Day 1.",
+    "• Patients in the DURAVYU 2.7mg treatment arm will be re-dosed every six months for a total of four doses over the two-year trial.",
+    "• The primary endpoint is the difference in mean change in best corrected visual acuity (BCVA) from Day 1 to Week 52 and 56 (blended) versus aflibercept control. Secondary endpoints include safety, reduction in treatment burden, percentage of eyes free of supplemental aflibercept injections, and anatomical stability.",
+    "If the wet AMD Phase 3 clinical program is successful, we plan on filing a New Drug Application (NDA) with the U.S Food and Drug Administration (FDA) with the initial 56-week efficacy and safety data. A supplemental NDA (sNDA) is planned for the Year 2 safety data only, once complete.",
+    "1. DURAVYU has been conditionally accepted by the FDA as the proprietary name for EYP-1901. DURAVYU is an investigational product; it has not been approved by the FDA. FDA approval and the timeline for potential approval is uncertain."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "We will likely need additional capital to fund our operations. If we are unable to obtain sufficient capital, we will need to curtail and reduce our operations and costs and modify our business strategy.",
+    "We have incurred significant losses since our inception and anticipate that we will continue to incur losses for the foreseeable future.",
+    "We may never achieve profitability from future operations.",
+    "We will need to raise additional capital in the future, which may not be available on favorable terms and may be dilutive to stockholders or impose operational restrictions.",
+    "Our ability to use our net operating loss carryforwards and other tax attributes may be limited.",
+    "Clinical trial results may fail to support continued clinical investigations and/or approval of DURAVYU or our other product candidates.",
+    "Phase 1 or 2 results from a clinical trial do not ensure that the trial will be successful and success in early stage clinical trials does not ensure success in later-stage clinical trials.",
+    "We may find it difficult to enroll patients in our clinical trials, which could delay or prevent clinical trials of our product candidates.",
+    "Our business strategy relies in part on our ability to successfully commercialize our product candidates, if approved; however, the products may not achieve market acceptance or be commercially successful.",
+    "Our product candidates, if approved and commercialized, may become subject to unfavorable pricing regulations, third-party reimbursement practices, or healthcare reform initiatives which could harm our business."
+   ],
+   "paragraphs": [
+    "Our operations have consumed substantial amounts of cash. We are currently financing our operations through the sale of capital stock, the receipt of license fees, royalties, and milestone payments. We are developing DURAVYU as a potential six-month sustained delivery treatment for wet AMD and diabetic macular edema (DME). However, we have no expectation of revenues from our research and development programs, including DURAVYU, prior to the successful completion of clinical trials for such programs. Therefore, we have no sufficient historical evidence to assert that it is probable that we will receive sufficient revenues from our product sales to fund operations. As of December 31, 2025, our cash, cash equivalents, and investments in marketable securities totaled $306.1 million. We believe that our cash, cash equivalents and investments in marketable securities will enable us to fund operations into the fourth quarter of 2027 beyond topline Phase 3 data for DURAVYU in wet AMD, expected in 2026. Due to the difficulty and uncertainty associated with the design and implementation of clinical trials, we will continue to assess our cash, cash equivalents, results from investments in marketable securities and future funding requirements. However, there is no assurance that additional funding will be achieved and that we will succeed in our future operations. Actual cash requirements could differ from our projections due to many factors, including, the timing and results of our Phase 3 clinical trials for DURAVYU, additional investments in research and development programs such as EYP-2301, the costs associated with our ongoing discussions with the U.S. government on a negotiated resolution resulting from the U.S. Attorney's Office for the District of Massachusetts (DOJ) investigation into sales, marketing and promotional practices as pertain to DEXYCU® and the costs associated with compliance with any such negotiated resolution, higher interest rates, inflation, supply shortages, competing technological and market developments, and the costs of any strategic acquisitions and/or development of complementary business opportunities.",
+    "If we are unable to raise additional capital in sufficient amounts or on terms acceptable to us, we will need to curtail and reduce our operations and costs, and modify our business strategy, which may require us to, among other things:",
+    "• significantly delay, scale back or discontinue the development of one or more of our product candidates or one or more of our other research and development initiatives;",
+    "• seek partners or collaborators for one or more of our product candidates at an earlier stage than otherwise would be desirable or on terms that are less favorable than might otherwise be available;",
+    "• sell or license on unfavorable terms our rights to one or more of our technologies or product candidates that we otherwise would seek to develop or commercialize ourselves; and/or",
+    "• seek to sell our company at an earlier stage than would otherwise be desirable or on terms that are less favorable than might otherwise be available."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Fiscal 2025 Overview",
+    "R&D Highlights",
+    "Recent Developments",
+    "Summary of Critical Accounting Policies and Estimates",
+    "Revenue Recognition",
+    "Recognition of Expense in Outsourced Clinical Trial Agreements",
+    "Results of Operations",
+    "Years Ended December 31, 2025 and 2024 (in thousands except percentages)",
+    "Year ended December 31,",
+    "Product Sales, net",
+    "License and collaboration agreement",
+    "Royalty Income",
+    "Cost of Sales",
+    "Research and Development",
+    "December 31,",
+    "Sales and Marketing",
+    "General and Administrative",
+    "Interest (Expense) Income",
+    "Recently Adopted and Recently Issued Accounting Pronouncements",
+    "Liquidity and Capital Resources",
+    "Financing Activities",
+    "Future Funding Requirements",
+    "Cash flows from operating activities:",
+    "Off-Balance Sheet Arrangements"
+   ],
+   "paragraphs": [
+    "The fiscal year ended December 31, 2025, was highlighted by the following events:",
+    "• On January 8, 2025, we announced the appointment of renowned retina specialist and industry pioneer Reginald J. Sanders, M.D., FASRS to the Company's Board of Directors.",
+    "• On March 18, 2025, ANI announced that it completed the buyout of its 3.125% perpetual royalty obligation to SWK on worldwide net revenues of ILUVIEN® and YUTIQ® for a one-time payment of $17.25 million. Under the terms of the agreement, upon making the buyout payment, no further royalty is due to SWK on net revenues beginning January 1, 2025, forward. As a result, the Company terminated the RPA effective March 18, 2025.",
+    "• On October 14, 2025, we entered into an underwriting agreement (Underwriting Agreement) with J.P. Morgan Securities LLC, Jefferies LLC, Citigroup Global Markets Inc. and Guggenheim Securities, LLC, as representatives of the underwriters named therein (Underwriters), in connection with an underwritten public offering (Offering) of 11,000,000 shares (Shares) of common stock, par value $0.001 per share (Common Stock) and, to certain investors, in lieu of Common Stock, pre-funded warrants (PFWs) to purchase 1,500,000 shares of Common Stock. The price to the public for the Shares in the Offering was $12.00 per Share and the price to the public for the PFWs was $11.999 per PFW, which represents the price to the public for the Shares less the $0.001 per share exercise price for each such PFW. The Offering closed on October 16, 2025. In addition, under the terms of the Underwriting Agreement, we also granted the Underwriters an option to purchase up to an additional 1,875,000 shares of Common Stock at the same price, which was",
+    "exercised and closed on October 30, 2025. The net proceeds from the Offering were approximately $162.1 million, after deducting underwriting discounts and commissions and before other estimated offering expenses payable by us."
+   ],
+   "focus": "Fiscal 2025 Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "DURAVYU – vorolanib in Durasert E",
+    "EYP-2301 – razuprotafib in Durasert E",
+    "治療視網膜疾病的未滿足需求 – 療效持續時間及一種新的作用機制 (MOA)",
+    "Durasert® 技術",
+    "我們的產品候選藥物",
+    "DURAVYU 用於濕性AMD及DME",
+    "DURAVYU 用於濕性AMD - 市場機會",
+    "DURAVYU 用於濕性AMD - 臨牀開發",
+    "{'original': 'DURAVYU for Diabetic Macular Edema - Market Opportunity', 'translated': 'DURAVYU 用於糖尿病性黃斑水腫 - 市場機會'}",
+    "{'original': 'DURAVYU for Diabetic Macular Edema - Clinical Development', 'translated': 'DURAVYU 用於糖尿病性黃斑水腫 - 臨牀發展'}",
+    "{'original': 'DURAVYU Licenses', 'translated': 'DURAVYU 授權'}",
+    "{'original': 'Manufacturing', 'translated': '製造'}",
+    "{'original': 'FDA Approved Products Licensed to Other Entities', 'translated': 'FDA 批准產品授權給其他機構'}",
+    "{'original': 'YUTIQ® for posterior segment uveitis', 'translated': 'YUTIQ® 用於後段葡萄膜炎'}",
+    "{'original': 'ILUVIEN for DME', 'translated': 'ILUVIEN 用於糖尿病性黃斑水腫'}",
+    "{'original': 'Intellectual Property', 'translated': '智慧財產權'}",
+    "{'original': 'Human Capital Resources', 'translated': '人力資本資源'}",
+    "{'original': 'AXPAXLI (formerly OTX-TKI) – Ocular Therapeutix, Inc.', 'translated': 'AXPAXLI（原為 OTX-TKI）– Ocular Therapeutix, Inc.'}",
+    "{'Tarcocimab Tedromer (formerly KSI-301) – Kodiak Sciences, Inc.': '塔可西姆巴．泰德羅默（原為 KSI-301）– Kodiak Sciences, Inc.'}",
+    "{'original': 'OCS-01 - Oculis Holding AG', 'translated': 'OCS-01 - Oculis Holding AG'}",
+    "{'original': 'Government Regulation', 'translated': '政府規範'}"
+   ],
+   "paragraphs": [
+    "EyePoint, Inc. (Nasdaq: EYPT) 為一家臨牀階段生技製藥公司，致力於開發與商業化創新療法，以改善患有嚴重視網膜疾病的病患生活。本公司產品線運用其專利的生物可降解 Durasert E 技術 (Durasert E)，以實現持續性眼內藥物遞送。本公司主要產品候選藥物 DURAVYU1，為一種臨牀階段的持續遞送治療，用於血管內皮生長因子 (VEGF) 所引發的視網膜疾病，結合 vorolanib，一種選擇性且受專利保護的酪胺酸激酶抑制劑 (TKI)，與本公司生物可降解 Durasert E 藥物遞送技術。DURAVYU 目前正在進行第三期關鍵臨牀試驗 (LUGANO 和 LUCIA) 用於濕性年齡相關黃斑部退化症 (wet AMD)，並在第三期臨牀試驗 (COMO 和 CAPRI) 用於糖尿病性黃斑水腫 (DME)。其他產品線包括 EYP-2301，razuprotafib，一種 TIE-2 激動劑，以 Durasert E 製備，潛在改善嚴重視網膜疾病的治療結果。EyePoint 設立於馬薩諸塞州沃特敦，並在馬薩諸塞州北橋設有商業製造廠房。",
+    "DURAVYU 帶來潛在的新多重機製作用模式，用於治療視網膜疾病，因 vorolanib，DRUAVYU 的活性藥物，透過細胞內抑制所有 VEGF 受體、血小板衍生生長因子 (PDGF) 和促發炎性 interleukin 6 (IL-6)/JAK1 信號傳導，至少持續六個月。Vorolanib 也已在視網膜脫離的體內模型中顯示神經保護作用。",
+    "DURAVYU 目前正在進行第三期臨牀試驗，用於濕性年齡相關黃斑部退化症 (wet AMD) 和糖尿病性黃斑水腫 (DME) 的潛在治療，這兩個視網膜疾病最大市場。濕性年齡相關黃斑部退化症 (wet AMD) 的關鍵第三期臨牀試驗入組已經完成，預計在 2026 年中開始發佈數據。2026 年 2 月，第一位病患在第三期 DME 程序中接受給藥。",
+    "其他產品線包括 EYP-2301，razuprotafib，一種 TIE-2 激動劑，以 Durasert E 製備，潛在改善嚴重視網膜疾病的治療結果。",
+    "已證實的 Durasert® 藥物遞送技術 (Durasert®) 已安全地施用於數千名病患眼睛，經美國食品藥物管理局 (FDA) 批准的四種產品。Durasert® 使開發固體藥物圓柱體成為可能，該圓柱體透過標準眼內注射 (IVT) 在醫生診所內施用，與目前 FDA 批准的 IVT 治療標準作法相似。Durasert® 插件設計用以提供藥物在預期時間內持續釋放，並可根據每種藥物及疾病適應症進行調整。Durasert® 產品已開發為非生物可降解及 Durasert E 生物可降解形式。",
+    "在濕性年齡相關黃斑部退化症 (wet AMD) 中，DURAVYU 正在進行第三期 LUGANO 和 LUCIA 臨牀試驗。第三期計畫是根據美國食品藥物管理局 (FDA) 和歐洲藥物管理局 (EMA) 的意見進行開發。我們啟動關鍵試驗，運用來自我們強大 DAVIO 和 DAVIO 2 臨牀試驗的經驗，這些試驗達成主要和次要終點。",
+    "第三期濕性年齡相關黃斑部退化症 (wet AMD) 關鍵計畫的關鍵特徵如下：",
+    "• 隨機、雙盲、aflibercept 控制、非劣效性試驗，評估 DURAVYU 2.7mg 在活動性濕性年齡相關黃斑部退化症 (wet AMD) 病患中的療效與安全性。",
+    "• 試驗包含約 75% 未曾接受治療的病患及 25% 曾經接受治療的病患。",
+    "• LUGANO 試驗納入 432 名病患，LUCIA 試驗納入 475 名病患，這些病患被隨機分配，以 1:1 的比例分為 DURAVYU 2.7mg 小組或符合標籤的 aflibercept 控制小組。隨機化於第 1 天進行。",
+    "• DURAVYU 2.7mg 治療小組的病患將每六個月重新給藥，總共給藥四次，持續兩年的試驗期間。",
+    "• 主要評估指標為從第 1 天至第 52 週及第 56 週（混合計算）最佳矯正視力（BCVA）平均變化與 aflibercept 控制組的差異。次要評估指標包括安全性、治療負擔減少、無需補充 aflibercept 注射的視力比例，以及解剖結構穩定性。",
+    "若濕性 AMD 第三階段臨牀試驗成功，我們計畫向美國食品藥物管理局（FDA）提交新藥申請（NDA），包含最初的 56 週有效性與安全性資料。預計在第二年安全性資料完成後，提交補充新藥申請（sNDA）。",
+    "1. DURAVYU 已經被 FDA 條件性接受為 EYP-1901 的專利名稱。DURAVYU 是一款研究中產品；尚未獲得 FDA 批准。FDA 批准及潛在批准的時間表仍不確定。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "財務 2025 年度概覽",
+    "研究與發展重點",
+    "近期發展",
+    "關鍵會計政策與會計估計摘要",
+    "收入認列",
+    "委外臨牀試驗協議費用認列",
+    "營運成果",
+    "截至 2025 年 12 月 31 日及 2024 年 12 月 31 日年度結果（除百分比外，數字單位為千）",
+    "會計年度終了於12月31日",
+    "產品銷售淨額",
+    "授權及合作協議",
+    "版稅收入",
+    "銷售成本",
+    "研究與發展",
+    "12月31日",
+    "銷售及市場推廣",
+    "{'General and Administrative': '一般及行政'}",
+    "{'Interest (Expense) Income': '利息（費用）收入'}",
+    "{'Recently Adopted and Recently Issued Accounting Pronouncements': '最近採用及發佈之會計準則'}",
+    "{'Liquidity and Capital Resources': '流動性及資本資源'}",
+    "{'Financing Activities': '籌資活動'}",
+    "{'Future Funding Requirements': '未來資金需求'}",
+    "{'Cash flows from operating activities:': '營運活動之現金流:'}",
+    "{'Off-Balance Sheet Arrangements': '離表財務安排'}"
+   ],
+   "paragraphs": [
+    "會計年度終了日為 2025 年 12 月 31 日，該年度的重點事件如下：",
+    "• 2025 年 1 月 8 日，本公司宣佈任命知名視網膜專科醫師及產業先驅 Reginald J. Sanders, M.D., FASRS 為本公司董事會成員。",
+    "• 2025 年 3 月 18 日，ANI 宣佈已完成對 SWK 的 3.125% 永久版稅義務買斷，買斷金額為 17.25 百萬美元，為 ILUVIEN® 與 YUTIQ® 全球淨銷售額的買斷。根據協議條款，於支付買斷金額後，自 2025 年 1 月 1 日起，SWK 對淨銷售額不再有進一步版稅義務。因此，本公司於 2025 年 3 月 18 日終止 RPA。",
+    "• 2025 年 10 月 14 日，本公司與 J.P. Morgan Securities LLC、Jefferies LLC、Citigroup Global Markets Inc. 及 Guggenheim Securities, LLC 等機構簽訂發行協議（Underwriting Agreement），與該協議所列之經理人（Underwriters）共同進行公開發行（Offering）共 11,000,000 股（Shares）普通股，每股面額 0.001 美元（Common Stock），並對部分投資人發行預先資助權證（PFWs）以購買 1,500,000 股 Common Stock。發行價格為每股 12.00 美元，PFWs 的價格為每股 11.999 美元，為 Common Stock 發行價格扣除每股 0.001 美元的行權價格。發行於 2025 年 10 月 16 日完成。此外，根據發行協議條款，本公司亦授予 Underwriters 以相同價格購買最多 1,875,000 股 Common Stock 的選擇權，該選擇權於 2025 年 10 月 30 日行使並完成。發行所得淨額約為 162.1 百萬美元，扣除經理人折扣與佣金後，並未扣除其他預計發行費用。",
+    "exercised and closed on October 30, 2025. The net proceeds from the Offering were approximately $162.1 million, after deducting underwriting discounts and commissions and before other estimated offering expenses payable by us."
+   ]
+  },
+  "risk": {
+   "headings": [
+    "本公司可能需要額外資金以支應營運資金需求。若本公司無法取得足夠資金，將需要削減並降低營運規模與成本，並調整營運策略。",
+    "自本公司成立以來，已產生重大虧損，預期未來一段時間內仍將持續產生虧損。",
+    "本公司可能永遠無法從未來營運中實現獲利。",
+    "本公司將需要在未來籌措額外資金，此資金可能無法以有利條件取得，或可能對股東造成稀釋，或對營運施加限制。",
+    "本公司運用淨營業虧損結轉及其他稅務屬性之能力可能受到限制。",
+    "臨牀試驗結果可能無法支持持續進行臨牀研究及/或核准 DURAVYU 或本公司其他產品候選藥物。",
+    "第一期或第二期臨牀試驗結果無法確保試驗將成功，早期階段臨牀試驗的成功無法確保後期階段臨牀試驗的成功。",
+    "本公司可能難以招募臨牀試驗參與者，這可能會延誤或阻礙本公司產品候選藥物的臨牀試驗進行。",
+    "本公司營運策略部分依賴於我們成功商業化產品候選藥物之能力，若獲批准；然而，這些產品可能無法獲得市場接受度或商業成功。",
+    "若產品候選藥物獲批准並商業化，可能面臨不利之定價規範、第三方費用報銷慣例或醫療改革措施，此等情形可能對本公司營運造成損害。"
+   ],
+   "paragraphs": [
+    "本公司營運已消耗大量現金。目前，本公司透過發行資本股票、收取授權費、版稅及里程碑付款來資金融通營運。本公司正在開發 DURAVYU 作為一種潛在的六個月持續給藥治療濕性黃斑部症候羣（wet AMD）及糖尿病性黃斑部水腫（DME）的療法。然而，本公司對於來自我們研究與開發計畫（包括 DURAVYU）的收入，目前尚無預期，直到這些計畫的臨牀試驗成功完成為止。因此，本公司缺乏足夠的歷史資料，以斷言我們將能從產品銷售中獲得足夠的收入來資金融通營運。截至 2025 年 12 月 31 日，本公司現金、現金等價物及市場可交易證券總計為 306.1 百萬美元。本公司認為，現金、現金等價物及市場可交易證券將使本公司能夠資金融通營運至 2027 年第四季，超越 DURAVYU 在濕性黃斑部症候羣的 III 期臨牀試驗數據，預期於 2026 年公佈。由於臨牀試驗設計與執行的困難與不確定性，本公司將持續評估現金、現金等價物、投資於市場可交易證券的結果及未來資金需求。然而，無法保證能取得額外資金，且本公司未來營運能否成功亦無法確定。實際現金需求可能因許多因素而與預測不同，包括 DURAVYU 的 III 期臨牀試驗的時間與結果、對其他研究與開發計畫（如 EYP-2301）的額外投資、本公司與美國政府就美國馬薩諸塞州聯邦檢察官辦公室（DOJ）對 DEXYCU® 銷售、行銷及促銷做法的調查所進行的協議解決方案的持續討論所產生的費用、遵守任何協議解決方案的費用、較高的利率、通貨膨脹、供應鏈短缺、競爭性技術與市場發展，以及任何戰略收購或發展補充性商業機會的成本。",
+    "若本公司無法以足夠數量或符合本公司條件的條件籌集額外資金，本公司將需要削減並降低營運與成本，並修改商業策略，這可能需要本公司進行以下事項：",
+    "• 明顯延遲、縮減或中止一個或多個產品候選藥物或一個或多個其他研究與開發計畫的開發；",
+    "• 在不如預期的階段尋求一個或多個產品候選藥物的合作夥伴或合作方，或以不如預期的條件進行合作；",
+    "• 以不利條件出售或授權一個或多個技術或產品候選藥物的權利，而這些技術或產品候選藥物本公司原本會自行開發或商業化；以及/或",
+    "• 在不如預期的階段出售本公司，或以不如預期的條件進行出售。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

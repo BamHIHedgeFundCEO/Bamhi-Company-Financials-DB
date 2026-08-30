@@ -1,0 +1,213 @@
+{
+ "ticker": "AGNT",
+ "cik": "0001495932",
+ "accession": "0001104659-26-019145",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Business Segments",
+    "Markets and Customers",
+    "Software Development",
+    "Intellectual Property",
+    "Seasonality of Business",
+    "Government Regulation",
+    "Human Capital",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "The Company owns and oversees a diversified portfolio of service-oriented businesses. These businesses are integrated through the Company's advanced enabling technology platform which enables collaboration and operational leverage across its ecosystem.",
+    "The Company's strategic focus is the continued expansion of its real estate brokerage operations by delivering a differentiated value proposition to agents—centered on industry-leading economics, ownership opportunities, and access to tools and services that support long-term professional growth. Through disciplined investment in technology, education, and affiliated services, the Company seeks to provide a scalable platform where real estate professionals can grow their businesses and adapt to an evolving real estate marketplace. A core element of the Company's value proposition is its commitment to cooperation, transparency, and consumer-centric practices, which the Company views as essential to a healthy, open real estate marketplace and a key differentiator in attracting and retaining professional agents.",
+    "Throughout 2025, the Company also introduced new programs and specialized divisions designed to support agents in growing and expanding their businesses across a range of property types. In the second quarter of 2025, the Company launched its Land and Ranch Division, to support agents specializing in rural, recreational, and agricultural properties. During the fourth quarter of 2025, the Company launched its Sports and Entertainment Division, aimed at supporting agents serving clients in the sports and entertainment sectors. In addition, during the second quarter of 2025, the Company introduced its Co-Sponsor Program, allowing agents to designate both a primary sponsor and a co-sponsor, as well as a U.S. open-sourced Seller Advisory: Risks of Limited Market Exposure form, in line with the Company's commitment to transparency and education.",
+    "The Company also continued to invest in its technology platform and agent-facing tools. In the third quarter of 2025, the Company launched its CRM of Choice initiative, which allows agents to select from three leading customer relationship management platforms based on their individual business needs, and released LYVVETM, its global property search platform designed to consolidate listings and related data from multiple countries into a single, border-agnostic search interface for agents and consumers.",
+    "During 2025, the Company made several key leadership appointments to support its continued growth and operational focus. In the third quarter of 2025, Jesse Hill was appointed Chief Financial Officer of eXp World Holdings, Inc. In the fourth quarter of 2025, Carrie Lysenko was appointed Chief Technology Officer of eXp Realty ®, and Holly Mabery was appointed Chief Brokerage Officer of eXp Realty.",
+    "The Company operates its business through three reportable segments: North American Realty, International Realty, and Other Affiliated Services. North American Realty includes residential and commercial brokerage, lead generation, and related support services in the United States and Canada and, beginning with the first quarter of 2025, FrameVR.io, the Company's proprietary, web-accessible 3D immersive technology platform that provides a virtual environment for agent collaboration, training, and community engagement. International Realty includes brokerage operations and support services across 27 countries throughout the Americas, Europe, the Middle East, Asia-Pacific, and South Africa. Both segments generate revenue primarily from commissions on residential real estate transactions, supported by the Company's cloud-based brokerage model.",
+    "Other Affiliated Services includes SUCCESS® magazine and related media properties. Prior to the first quarter of 2025, Other Affiliated Services also included FrameVR.io. In 2024, the Company wound down the Virbela business, and its remaining operations no longer met the criteria for a reportable segment; therefore, any operating results related to Virbela, prior to the completion of its disposition in the fourth quarter of 2024, are included in discontinued operations. As a result, all prior period segment disclosures have been reclassified to conform to the current reporting structure.",
+    "North American Realty and International Realty",
+    "Both the North American Realty segment and the International Realty segment generate revenue primarily by serving as a licensed broker for the purpose of processing residential and commercial real estate transactions, from which the Company earns commissions. The Company in turn pays a portion of the commissions earned to its real estate agents and brokers. eXp offers an innovative cloud-based brokerage model, which reduces costs to the Company's agents and brokers. The model features low entry fees, stock ownership opportunities for agents and brokers and a revenue-sharing plan through which agents and brokers can earn commission from transactions conducted by agents and brokers they have attracted to eXp.",
+    "The Company's Other Affiliated Services segment includes SUCCESS® magazine and its related media properties, which provide training, classes, resources, and tools to empower our agents, brokers, staff, and general customers to excel and empower their professional development.",
+    "The Company's clients are primarily residential homeowners and homebuyers served through its network of independent agents and brokers. The North American Realty segment includes operations across all 50 U.S. states and all Canadian provinces and represented 96.9% of total consolidated revenues in 2025. The International Realty segment includes operations in 27 countries throughout the Americas, Europe, the Middle East, Asia-Pacific, and South Africa and represented 3.1% of total consolidated revenues in 2025. Other Affiliated Services includes SUCCESS® media properties, which provide affiliated services and professional development tools that support its agents, brokers, and customers.",
+    "The Company's real estate brokerage business competes with local, regional, national and international residential real estate brokerages with respect to the sale of homes and to attract and retain agents, teams of agents, brokers and consumers — both home sellers and buyers. The Company competes primarily on the basis of its service, culture, collaboration, and utilization of cloud-based systems and technologies that reduce costs, while providing relevant and substantial professional development and opportunities for its agents and brokers to generate more business and participate in the growth of the Company.",
+    "Residential real estate brokerage companies typically realize revenues in the form of a commission based on a percentage of the price of each home purchased or sold, which varies based on geographical location and specific customer-agent negotiations, among other factors. Therefore, variability in the commissions earned in the real estate industry exists based on general economic and market factors, as well as the price and volume of homes sold. The Company is positioned to earn commissions on either — or both — of the buy side or sell side of residential real estate transactions, as well as the ability to receive other fees for complementary services provided during the closing process.",
+    "The Company believes that it is the only global cloud-based real estate brokerage with massive scale. This innovative operational structure coupled with the Company's distribution model allows the Company to effectively enter new markets with speed and flexibility and without much of the investment and cost associated with establishing a traditional brokerage. The Company also believes its compensation and incentive programs to attract and retain highly productive agents are some of the most compelling in the industry. As such, the Company believes that it is well positioned in the competitive landscape."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to the Company's Business and Industries",
+    "The Company's business results are materially influenced by the strength of the U.S. residential real estate sector and overall economic conditions.",
+    "Monetary policies of the U.S. federal government and its agencies, particularly those impacting mortgage interest rates and buyer affordability, may have a material adverse impact on the Company's operations.",
+    "Material decreases in the average brokerage commission rate, due to conditions beyond the Company's control, could materially adversely affect its financial results.",
+    "The Company's operating results are subject to seasonality and vary significantly among quarters during each calendar year, making meaningful comparisons of successive quarters difficult.",
+    "Climate-related physical impacts, regulatory changes, and disclosure obligations could increase costs, reduce transaction activity, and expose the Company to liability or reputational harm.",
+    "The Company may be unable to attract, retain, and incentivize qualified real estate professionals.",
+    "Loss of the Company's current executive officers or other key management could significantly harm its business.",
+    "The Company's business, financial condition and reputation may be substantially harmed by security breaches, interruptions, delays and failures in its systems and operations.",
+    "Cybersecurity incidents could disrupt the Company's business operations, result in the loss of critical and confidential information, adversely impact the Company's reputation and harm its business.",
+    "The Company may not be able to utilize a portion of its net operating loss or research tax credit carryforwards, which may adversely affect the Company's profitability.",
+    "The Company could be subject to changes in tax laws and regulations that may have a material adverse effect in its business.",
+    "The Company may be unable to effectively and efficiently manage growth in its business.",
+    "The Company may not successfully complete or integrate acquisitions or joint ventures.",
+    "The Company's international operations are subject to risks not generally experienced by its U.S. operations.",
+    "Negligence or willful misconduct of independent real estate professionals affiliated with the Company owned brokerages could materially and adversely affect the Company's reputation and subject it to liability.",
+    "If the Company fails to grow in the various local markets that it serves or are unsuccessful in identifying and pursuing new business opportunities, the Company's long-term prospects and profitability will be harmed.",
+    "The Company's growth depends in part on the success of its strategic relationships with third parties.",
+    "Risks Related to Legal and Regulatory Matters",
+    "The Company is subject to certain risks related to legal proceedings filed by or against it and adverse results may harm its business and financial condition.",
+    "Adverse outcomes in litigation and regulatory actions against other companies and agents in the Company's industry could adversely impact its financial results."
+   ],
+   "paragraphs": [
+    "In addition to the other information set forth in this Annual Report, you should carefully consider the following factors, which could materially affect the Company's business, financial condition or results of operations in future periods. The risks described below are not the only risks facing the Company. Additional risks not currently known to the Company or that it currently deems to be immaterial may materially adversely affect its business, financial condition or results of operations in future periods. You should carefully consider the risk factors described below, together with all of the other information in this Annual Report, including the Company's consolidated financial statements and notes thereto and the \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in Part II, Item 7 of this Annual Report. Certain statements in this Annual Report are forward-looking statements. See the section of this Annual Report titled \"Forward-Looking Statements.\"",
+    "The Company's business results are closely related to the strength of the U.S. residential real estate market, which is cyclical in nature, and general economic conditions, which are beyond its control. Any of the risks identified below could reduce residential real estate transaction volumes, depress home prices, or otherwise negatively influence the industry and the Company's results of operations:",
+    "● economic slowdown or recession in the U.S., Canada, or other markets within which the Company operates;",
+    "● increased unemployment or declines in wage and salary levels; ● increased energy costs;",
+    "● higher interest rates, such as the high interest rates during 2024 and 2025, and continuing inflationary pressures;",
+    "● increased costs of obtaining mortgages, reduced availability of mortgage financing, or increased down payment requirements;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Market Conditions and Industry Trends",
+    "Key Business Metrics",
+    "Year Ended December 31,",
+    "Consolidated Operating Performance",
+    "Year Ended December 31, 2025",
+    "Year Ended December 31, 2024",
+    "Change 2025 vs. 2024",
+    "Statement of Operations Data:",
+    "General and Administrative Expenses",
+    "Technology and Development Expenses",
+    "Refer to Critical Accounting Policies and Estimates within the MD&A and Note 12 - Income Taxes to the consolidated financial statements included elsewhere in this Annual Report for further information.",
+    "Segment Operating Performance",
+    "December 31, 2025",
+    "December 31, 2024",
+    "Liquidity and Capital Resources",
+    "Critical Accounting Policies and Estimates",
+    "Revenue recognition",
+    "Income taxes"
+   ],
+   "paragraphs": [
+    "The following discussion should be read in conjunction with the consolidated financial statements and accompanying notes included in Part II, Item 8 of this Annual Report. This Item generally discusses 2025 and 2024 items and year-to-year comparisons between 2025 and 2024. Discussions of 2023 items and year-to-year comparisons between 2024 and 2023 are not included, and can be found in \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" in Part II, Item 7 of the Company's Annual Report on Form 10-K for the fiscal year ended December 31, 2024. All dollar amounts presented below are in USD thousands except share amounts and per share data and as otherwise noted.",
+    "The Company announces new agent offerings, markets, and business updates at various times during the year. Significant announcements during the year ended December 31, 2025 included the following:",
+    "● Announced expansion into Ecuador and Türkiye.",
+    "● Launched Land and Ranch Division, empowering agents serving rural, recreational, and agricultural properties.",
+    "● Launched the Co-Sponsor Program, allowing agents to name both a Primary Sponsor and a Co-Sponsor.",
+    "● Launched U.S. open-sourced Seller Advisory: Risks of Limited Market Exposure form.",
+    "● Appointed Jesse Hill as Chief Financial Officer of eXp World Holdings, Inc.",
+    "● Launched CRM of Choice, allowing agents to choose from three leading customer relationship management platforms.",
+    "● Announced expansion into Romania and the Netherlands.",
+    "● Launched Sports and Entertainment Division, empowering agents serving clients in the sports and entertainment industries.",
+    "● Appointed Carrie Lysenko as Chief Technology Officer of eXp Realty and Holly Mabery as Chief Brokerage Officer of eXp Realty.",
+    "● Launched LYVVETM, the Company's global property search platform aggregating listings and related data across multiple countries.",
+    "Our performance is closely tied to housing market activity, which is influenced by economic conditions such as employment, consumer confidence, mortgage availability, interest rates, and the balance of supply and demand. Periods of economic growth and lower interest rates generally support higher home sales activity, while rising rates, affordability constraints, or broader economic slowdowns may reduce transaction volumes and pricing. Regulatory developments, geopolitical events, and shifts in consumer sentiment can also affect housing demand.",
+    "In 2025, U.S. home sales were relatively flat compared to 2024, and home sales prices increased 1.7%, according to the NAR. Inventory levels remain constrained, and new housing construction activity decreased during the year. These conditions may continue to limit transaction volumes in the near term."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Business Segments': '業務分部'}",
+    "{'Markets and Customers': '市場與客戶'}",
+    "{'Software Development': '軟體開發'}",
+    "{'Intellectual Property': '智慧財產權'}",
+    "{'Seasonality of Business': '業務季節性'}",
+    "{'Government Regulation': '政府規範'}",
+    "{'Human Capital': '人力資本'}",
+    "{'Available Information': '可供查閱資訊'}"
+   ],
+   "paragraphs": [
+    "本公司擁有並監督一個多元化的服務導向業務組合。這些業務透過本公司的先進啟動科技平台整合，該平台促進其生態系內的合作與運營效益。",
+    "本公司的戰略重點為持續擴展其不動產經紀業務，透過提供差異化的價值主張給經紀人，以產業領先的經濟效益、擁有機會及工具與服務的存取，來支持長期專業成長。透過對科技、教育及相關服務的嚴謹投資，本公司旨在提供一個可擴展的平台，讓不動產專業人士能成長其業務並適應不斷變化的不動產市場。本公司價值主張的核心元素是其對合作、透明度及以消費者為中心的實踐承諾，本公司認為這是健康、開放的不動產市場的必要條件，也是吸引與留住專業經紀人的關鍵區隔點。",
+    "在2025年期間，本公司也推出了新的方案與專門部門，以支持經紀人成長與擴展其業務，涵蓋多種不動產類型。在2025年第二季，本公司啟動了其土地與農場部門，以支持專門從事鄉村、休閒及農業不動產的經紀人。在2025年第四季，本公司啟動了其體育與娛樂部門，旨在支持服務體育與娛樂產業客戶的經紀人。此外，在2025年第二季，本公司推出了其共同贊助方案，允許經紀人指定一位主要贊助人與一位共同贊助人，以及美國開放源碼的賣方諮詢表：市場曝光有限的風險，符合本公司對透明度與教育的承諾。",
+    "本公司也持續投資其科技平台與面對經紀人的工具。在2025年第三季，本公司啟動了其CRM of Choice方案，讓經紀人可根據其個別業務需求，從三個領先的客戶關係管理平台中選擇，並發佈LYVVETM，其全球不動產搜尋平台，設計用以將多個國家的房源與相關資料整合至一個無邊境的搜尋介面，供經紀人與消費者使用。",
+    "在2025年期間，本公司進行了幾項關鍵的領導層任命，以支持其持續成長與運營重點。在2025年第三季，Jesse Hill被任命為eXp World Holdings, Inc.的首席財務長。在2025年第四季，Carrie Lysenko被任命為eXp Realty ®的首席科技長，Holly Mabery被任命為eXp Realty的首席經紀長。",
+    "本公司透過三個應報告分部運作其業務：北美不動產、國際不動產與其他相關服務。北美不動產包括美國與加拿大住宅與商業經紀、潛在客戶產生及相關支援服務，並自2025年第一季起，包含FrameVR.io，本公司自有、可透過網頁存取的3D沉浸式科技平台，提供經紀人協作、培訓與社羣參與的虛擬環境。國際不動產包括在美洲、歐洲、中東、亞太與南非27個國家的經紀業務與支援服務。兩個分部主要透過住宅不動產交易的佣金產生收入，並由本公司的雲端經紀模式支撐。",
+    "其他相關服務包括SUCCESS®雜誌與相關媒體屬性。在2025年第一季前，其他相關服務也包含FrameVR.io。在2024年，本公司結束了Virbela業務，其剩餘運作已不再符合應報告分部的標準；因此，任何與Virbela相關的運營結果，於2024年第四季完成處分前，已歸類為已終止業務。因此，所有先前期間的分部揭露已重新歸類，以符合目前的報告結構。",
+    "北美不動產與國際不動產",
+    "北美不動產應報告分部與國際不動產應報告分部主要透過擔任經許可的經紀人，處理住宅及商業不動產交易，從中為本公司賺取佣金。本公司隨後會將部分佣金支付給其不動產經紀人與經紀。eXp 提供創新雲端基礎的經紀模式，可降低本公司經紀人與經紀的成本。此模式特色為低入門費用、經紀人與經紀的股票擁有機會，以及透過收入分享計畫，經紀人與經紀可從其所吸引至 eXp 的經紀人與經紀所進行的交易中賺取佣金。",
+    "本公司其他附屬服務應報告分部包含 SUCCESS® 月刊及其相關媒體資產，這些資產提供培訓、課程、資源與工具，以協助我們的經紀人、經紀、員工及一般客戶卓越表現，並促進其專業發展。",
+    "本公司的客戶主要為透過其獨立經紀人與經紀網路服務的住宅屋主與購屋者。北美不動產應報告分部包含美國 50 個州與加拿大所有省分的業務，並在 2025 年佔總合併營收的 96.9%。國際不動產應報告分部包含美洲、歐洲、中東、亞太與南非 27 個國家的業務，並在 2025 年佔總合併營收的 3.1%。其他附屬服務包含 SUCCESS® 媒體資產，提供附屬服務與專業發展工具，以支援其經紀人、經紀與客戶。",
+    "本公司的不動產經紀業務與本地、區域、國家及國際住宅不動產經紀公司競爭，以銷售住宅及吸引與留住經紀人、經紀團隊、經紀與消費者（包括賣方與買方）。本公司主要以服務品質、企業文化、合作精神及雲端基礎系統與科技的運用為競爭優勢，這些因素可降低成本，同時提供相關且具體的專業發展機會與經紀人與經紀產生更多業務並參與本公司成長的機會。",
+    "住宅不動產經紀公司通常透過根據每筆住宅買賣價格百分比收取佣金的方式獲取收入，此百分比會根據地理區域與特定客戶與經紀人談判等因素而有所不同。因此，不動產產業中佣金收入的變動性會根據總體經濟與市場因素，以及住宅買賣價格與成交量而有所不同。本公司可於住宅不動產交易的買方或賣方，或兩者皆可，收取佣金，同時也具備在交易結案過程中提供補充服務而收取其他費用的能力。",
+    "本公司認為其為全球唯一具規模的雲端基礎住宅不動產經紀公司。此創新營運結構搭配本公司之通路模式，使本公司能快速靈活地進入新市場，而無需投入大量資金與成本，如傳統經紀公司所須。本公司亦認為其吸引與留住高生產力經紀人的報酬與激勵計畫，是業界最具吸引力的之一。因此，本公司認為其在競爭環境中處於優勢地位。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "市場狀況與產業趨勢",
+    "關鍵營運指標",
+    "截至12月31日",
+    "合併營運表現",
+    "截至12月31日, 2025年",
+    "截至12月31日, 2024年",
+    "2025年與2024年變動",
+    "營運損益資料:",
+    "一般及行政費用",
+    "科技與開發費用",
+    "有關重要會計政策與會計估計之進一步資訊，請參閱本年報其他部分所包含之財務報表中之 MD&A 部分及附註 12 - 所得稅。",
+    "分部營運表現",
+    "2025 年 12 月 31 日",
+    "2024 年 12 月 31 日",
+    "流動性及資本資源",
+    "重要會計政策與會計估計",
+    "{'Revenue recognition': '收入認列'}",
+    "{'Income taxes': '所得稅'}"
+   ],
+   "paragraphs": [
+    "下列討論應配合本年度年報第二部分，第 8 項所載之合併財務報表及附註資料一併閱讀。本項目一般討論 2025 年及 2024 年項目，以及 2025 年與 2024 年之年對年比較。2023 年項目及 2024 年與 2023 年之年對年比較未包含在內，可參閱本公司於 2024 年 12 月 31 日財務年度所提 10-K 年報第二部分，第 7 項「管理層對財務狀況與營運成果之討論與分析」。",
+    "本公司於本年度各時段宣佈新經紀人產品、市場及業務更新資訊。2025 年 12 月 31 日財務年度內重大宣佈事項如下：",
+    "● 宣佈擴張至厄瓜多爾與土耳其。",
+    "● 發佈土地與農場部門，賦予經紀人服務鄉村、休閒及農業不動產之權能。",
+    "● 發佈共同贊助計畫，允許經紀人同時指定主要贊助人與共同贊助人。",
+    "● 發佈美國開放來源賣方諮詢：有限市場曝光風險表單。",
+    "● 聘任 Jesse Hill 為 eXp 世界控股公司首席財務長。",
+    "● 發佈 CRM 選擇方案，允許經紀人從三大領導客戶關係管理平台中選擇。",
+    "● 公告擴展至羅馬尼亞與荷蘭。",
+    "● 發佈運動與娛樂事業部門，賦予經紀人服務運動與娛樂產業客戶的權限。",
+    "● 聘請 Carrie Lysenko 爵士擔任 eXp Realty 的首席科技長，並聘請 Holly Mabery 爵士擔任 eXp Realty 的首席經紀長。",
+    "● 發佈 LYVVETM，本公司全球不動產搜尋平台，整合多個國家的房源與相關資料。",
+    "本公司營運表現與住宅市場活動密切相關，而住宅市場活動受就業情況、消費者信心、房貸可得性、利率及供需平衡等經濟條件影響。經濟成長與利率下降的時期通常會支持較高的住宅銷售活動，而利率上升、購屋負擔能力限制或更廣泛的經濟減速可能降低交易量與價格。規範變動、地緣政治事件及消費情緒的變化也可能影響住宅需求。",
+    "2025 年美國住宅銷售相較於 2024 年大致持平，根據 NAR 的數據，住宅銷售價格上漲 1.7%。存貨水位仍受限制，且新住宅建設活動在該年度減少。這些情況可能在近期內繼續限制交易量。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司業務及產業相關之風險",
+    "本公司之營運成果受美國住宅不動產產業之強弱及總體經濟狀況之重大影響。",
+    "美國聯邦政府及其機構之貨幣政策，特別是影響房貸利率及買方負擔能力之政策，可能對本公司之營運產生重大不利影響。",
+    "因超出本公司控制範圍之條件導致平均仲介手續費率大幅下降，可能對本公司之財務成果產生重大不利影響。",
+    "本公司之營運成果受季節性影響，且每年各季度之間變化極大，使後續季度之間之比較困難。",
+    "與氣候相關之實體影響、法規變更及揭露義務，可能增加成本、減少交易活動，並使本公司面臨責任或聲譽損害之風險。",
+    "本公司可能無法吸引、留住並激勵合格之不動產專業人士。",
+    "本公司現任高階主管或其它關鍵管理人員之流失，可能對其業務造成重大損害。",
+    "本公司之業務、財務狀況及聲譽可能因系統及營運之安全事件、中斷、延誤及失敗而受到重大損害。",
+    "網路安全事件可能幹擾本公司之業務營運，導致關鍵及機密資訊遺失，不利於本公司之聲譽，並損害其業務。",
+    "本公司可能無法有效利用部分淨營業虧損或研究稅額抵減結餘，此情形可能對本公司之獲利能力造成不利影響。",
+    "本公司可能因稅法及稅務規範之變更而受到影響，此影響可能對其業務造成重大不利影響。",
+    "本公司可能無法有效且高效地管理其業務之成長。",
+    "本公司可能無法成功完成或整合併購或合作投資。",
+    "本公司之國際業務營運面臨之風險，通常不見於其美國業務。",
+    "與本公司所屬經紀行有關之獨立不動產專業人士之過失或故意不法行為，可能對本公司之聲譽造成重大且不利影響，並使其承擔責任。",
+    "若本公司未能在所服務的各地方市場成長，或未能成功識別並追求新的商業機會，將會損害本公司的長期展望及獲利能力。",
+    "本公司的成長部分取決於與第三方的戰略合作關係之成功。",
+    "與法律及法規事項相關的風險",
+    "本公司面臨某些與對其提起或針對其進行的法律訴訟相關的風險，且不利結果可能損害其業務及財務狀況。",
+    "其他公司在本公司產業中對其他公司及代理商提起的訴訟及法規行動的不利結果，可能對其財務結果產生負面影響。"
+   ],
+   "paragraphs": [
+    "除本年度年報中所載其他資訊外，您應謹慎考量下列因素，這些因素可能對本公司未來期間的業務、財務狀況或營運成果產生重大影響。下列所描述的風險並非本公司所面臨的唯一風險。尚有其他風險，目前本公司尚未知悉，或目前認為不重要，但這些風險可能對本公司未來期間的業務、財務狀況或營運成果產生重大不利影響。您應謹慎考量下列風險因素，並與本年度年報中的其他資訊一併考量，包括本公司合併財務報表及其附註、以及本年度年報第二部分、第7項「管理層對財務狀況與營運成果之討論與分析」。本年度年報中某些陳述為展望性陳述。請參閱本年度年報中標題為「展望性陳述」之節。",
+    "本公司之營運成果與美國住宅不動產市場之強弱密切相關，而該市場屬週期性，且一般經濟狀況則超出本公司之控制範圍。下列所識別之任何風險都可能降低住宅不動產交易量、壓低房屋價格，或以其他方式對產業及本公司之營運成果產生負面影響：",
+    "● 美國、加拿大或其他本公司營運市場之經濟減速或衰退；",
+    "● 增加失業率或工資與薪資水平下降； ● 增加能源成本；",
+    "● 利率升高，例如2024年及2025年高利率，以及持續的通貨膨脹壓力；",
+    "● 獲取房貸成本增加、房貸融資可得性降低，或增加首付款要求；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

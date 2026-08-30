@@ -1,0 +1,193 @@
+{
+ "ticker": "UFPT",
+ "cik": "0000914156",
+ "accession": "0001628280-26-012816",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Available Information",
+    "Market Overview",
+    "Regulatory Climate and Environmental Considerations",
+    "Marketing and Net Sales",
+    "Manufacturing",
+    "Research and Development",
+    "Patents and Other Proprietary Rights",
+    "Human Capital Management"
+   ],
+   "paragraphs": [
+    "The Company is a contract development and manufacturing organization that specializes in single-use and single-patient medical devices. The Company is a vital link in the medical device supply chain and a valued outsourcing partner to many of the world's top medical device manufacturers. Our single-use and single-patient devices and components are used in a wide range of medical devices and packaging for minimally invasive surgery, infection prevention, wound care, wearables, orthopedic soft goods, and orthopedic implants.",
+    "The Company was incorporated in the State of Delaware in 1993.",
+    "The consolidated financial statements of the Company include the accounts and results of operations of UFP Technologies, Inc. and its wholly owned subsidiaries, as well as its share of minority-owned equity investments. All significant intercompany balances and transactions have been eliminated in consolidation.",
+    "The Company's Internet website address is http://www.ufpt.com. Through its website, the Company makes available, free of charge, its annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K and any amendments to those reports, as soon as reasonably practicable after the Company electronically files such material with, or furnishes it to, the Securities and Exchange Commission (\"SEC\"). These SEC reports can be accessed through the investor relations section of the Company's website. The information found on the Company's website is not incorporated by reference in this or any other report filed with or furnished to the SEC. The SEC maintains an Internet website that contains reports, proxy and information statements, and other information regarding the Company and other issuers that file electronically with the SEC. The SEC's Internet website address is http://www.sec.gov.",
+    "The applications for the Company's products are numerous and diverse. The Company's products are primarily sold to customers within the medical market. The global medical market is large and growing but the Company targets in specific segments where its development and manufacturing expertise and access to highly specialized materials helps customers differentiate products, improve patient outcomes, and increase their client's speed to market. The product segments we target, and within which we operate, include minimally invasive surgery, infection control, orthopedics, interventional & surgical, surfaces & support, therapeutics, diagnostics, wound care, and biopharma.",
+    "The Company's products, which often are custom-made to its customers' specifications, are targeted at macro market trends and create specific opportunities in niche segments where the Company's access to specialty materials, engineering",
+    "know-how, and processing expertise can be leveraged to create value for its customers. Examples of its custom medical products include protective drapes for robotic surgery, patient handling and comfort, advanced wound care, infection prevention, disposables for surgical and endoscopic procedures, packaging for medical devices and orthopedic implants, components for cardiac implants, dispenser coils for catheters, and biopharma drug manufacturing. In general, the Company's solutions are all aimed at improving treatment outcomes while reducing risk and cost.",
+    "The Company's medical customers typically require Food and Drug Administration (\"FDA\") approval for their products and therefore sometimes require their suppliers to manufacture in facilities that are FDA registered and comply with the International Organization for Standardization (\"ISO\") 13485 quality standard for medical devices. The Company has nineteen manufacturing locations that are ISO 13485 certified and thirteen that are FDA registered. The Company designs products to provide optimum performance with minimum material. In addition, the Company bales and disposes certain of its urethane and cross-linked foam scrap for use in various recycled products. The Company's Newburyport MA facility utilizes solar power to provide approximately 6% of its electricity, with plans to increase capacity in the future. The Company is aware of public support for environmentally responsible packaging and products. Future government action may impose restrictions affecting the industry in which the Company operates. There can be no assurance that any such action will not adversely impact the Company's products and business.",
+    "The Company markets to its target customers by promoting specific solutions, materials, and manufacturing capabilities and services. The Company markets through websites, trade shows and expositions, social media, online advertising, emails, and press releases. Its relationships with key material suppliers are also an important part of its marketing and sales efforts. The Company markets and sells its products principally through a direct sales force. The Company's commercial leaders, in conjunction with Company engineers, collaborate with customers and in-house design and manufacturing experts to develop custom-engineered solutions on a cost-effective basis. For the year ended December 31, 2025, two customers' net sales were approximately 24.3% and 21.5% of net sales, respectively. No other customer's net sales exceeded 10% of net sales. For additional information, see \"Risk Factors - We depend on a small number of customers for a large percentage of our net sales. The loss of any such customer, a reduction in net sales to any such customer, or the decline in the financial condition of any such customer could have a material adverse effect on our business, financial condition, and results of operations.\"",
+    "Seasonality is not a major factor in the Company's net sales. See the Company's consolidated financial statements contained in Part IV, Item 15, of this Report for net sales by market.",
+    "The Company's manufacturing operations consist primarily of cutting, routing, compression and injection molding, vacuum-forming, micro-molding, thermoforming, laminating, radio frequency and impulse welding, and assembling. For medical custom-molded foam products and thermoplastic welded devices, the Company's skilled engineering personnel analyze specific customer requirements to design and build prototype products to determine product functionality. Upon customer approval, prototypes are converted to final designs for commercial production runs. Molded cross-linked foam products are produced in a thermoforming process using heat, pressure, and precision metal tooling. Thin films and other materials are sealed using radio frequency and impulse welding and formed through a thermoforming process. Reticulated polyurethane foam is also used for many high-performance medical products requiring precision fluid or air management. These products are typically fabricated using high speed die-cutting or waterjet cutting. Laminated products for medical, military, and personal comfort and protection are produced through a process whereby the foam medium is heated to the melting point and then bonded to a non-foam material through the application of mechanical pressure.",
+    "The Company does not manufacture any of the raw materials used in its products. With the exception of certain grades of cross-linked foam, thermoplastic urethane (\"TPU\") and technical polyurethane foams, these raw materials are available from multiple supply sources. Although the Company relies upon a limited number of suppliers for cross-linked and technical polyurethane foams, and TPU, the Company's relationships with its suppliers are good, and the Company expects that these suppliers will be able to meet its requirements for these foams. Any delay or interruption in the supply of raw materials could have a material adverse effect on the Company's business.",
+    "The Company's engineering personnel continuously explore new design and manufacturing techniques, as well as new and innovative materials to meet the unique demands and specifications of its customers. Research and development is an integral part of the Company's ongoing cost structure.",
+    "The medical design and contract manufacturing industry is highly competitive as is the foam and plastics converting industry as a whole. While there are several national companies that convert foam and plastics, the Company's primary competition is from smaller independent regional manufacturing companies. These companies generally market their products in specific geographic areas from neighboring facilities. The Company's custom engineered products face competition primarily from smaller companies that typically concentrate on the production of products for specific industries or regions. The Company expects to compete effectively in the engineered products market due to its ability to address its customers' primary vendor selection criteria, including inclusion on their preferred supplier lists, price, product performance, product reliability, manufacturing locations, and customer service, as well as its access to a wide variety of materials, its engineering expertise, its ability to combine foams with other materials such as plastics and laminates, and its ability to manufacture products in a clean room environment."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to our Business",
+    "Our business, operating results, and cash flows have historically been affected and may continue to be adversely affected by inflation.",
+    "Our business could be harmed if our products contain undetected errors or defects or do not meet applicable specifications.",
+    "If we fail to comply with specific provisions of our customer contracts or Food and Drug Administration (FDA) regulations, our business could be materially adversely affected.",
+    "Increased focus and evolving views of lawmakers on climate change and other ESG issues could have a long-term impact on our business and result of operations.",
+    "Global climate change and related regulations and changes in customer demand could negatively affect our operations and our business.",
+    "We may pursue acquisitions or other strategic relationships that involve inherent risks, any of which may cause us to not realize anticipated benefits.",
+    "Failure to retain key personnel could impair our ability to execute our business strategy.",
+    "We operate in highly competitive industries, and we may be unable to compete successfully, which could materially adversely affect our business, financial condition and results of operations.",
+    "Actual or perceived failures to comply with applicable data protection, privacy and security laws, regulations, standards, and other requirements may adversely impact our business and financial results.",
+    "Security breaches, including cybersecurity incidents and other disruptions could compromise our information, expose us to liability and harm our reputation and business.",
+    "We may be unable to protect our proprietary technology from infringement.",
+    "Reductions in the availability of energy supplies or an increase in energy costs may increase our operating costs.",
+    "Consolidation in the healthcare industry could result in greater competition and reduce our net sales and harm our business.",
+    "Our business is indirectly subject to healthcare industry cost containment and healthcare reform measures that could result in reduced sales of our products.",
+    "Changes in foreign currency rates could have a material adverse effect on our financial position, results of operations, and cash flows.",
+    "Risks Related to our Share Ownership and our Capital Structure",
+    "Restrictions in our credit facilities may limit our business and financial activities, including our ability to obtain additional capital in the future.",
+    "Provisions of our corporate charter documents and Delaware law, may dissuade potential acquirers, prevent the replacement or removal of our current management, and may thereby affect the price of our common stock.",
+    "Financial Risks",
+    "Our operating results may fluctuate, which may make it difficult to forecast our future performance and may result in volatility in our stock price.",
+    "Our international sales and operations are subject to a variety of market and financial risks and costs that could affect our profitability and operating results.",
+    "We may never realize the full value of our intangible assets, which represent a significant portion of our total assets."
+   ],
+   "paragraphs": [
+    "The risks factors described below could materially impact our business, including our results of operations and financial results. These are the risks and uncertainties we believe are most important for you to consider. Additional risks and uncertainties not presently known to us, which we currently deem immaterial, or which are similar to those faced by other companies in our industry or business in general, may also impair our business operations. If any of the following risks or uncertainties occur, our business, financial condition and operating results would likely suffer.",
+    "Inflation rates could rise in the future. Such inflationary pressures could affect our manufacturing costs, operating expenses (including wages) and other expenses. We may not be able to pass these cost increases on to our customers in a timely manner, which could have an impact on our gross margins and profitability. In addition, inflation could result in higher interest rates and could otherwise adversely impact the macroeconomic environment, which in turn could adversely impact our customers and their ability or willingness to purchase our products. Our inability to successfully manage the effects of inflation could have a material adverse effect on our business, results of operations and cash flows.",
+    "Our operating results depend in part on our ability to contain or reduce costs. There is substantial price competition in our industry and upward pressure on material and labor costs. Our success and profitability will depend on our ability to maintain a competitive cost and price structure.",
+    "Our efforts to maintain and improve profitability depend in part on our ability to maintain or reduce the costs of materials, components, supplies and labor. While the failure of any single cost containment effort by itself would most likely not significantly impact our results, we cannot give any assurance that we will be successful in controlling material and labor",
+    "costs to maintain a competitive cost structure. There is substantial price competition in our industry, and our success and profitability will depend on our ability to maintain a competitive cost and price structure. We may have to reduce prices in the future to remain competitive. Also, our future profitability will depend in part upon our ability to continue to improve our manufacturing efficiencies and maintain a cost structure that will enable us to offer competitive prices in the face of upward pressure on material and labor costs. Our inability to maintain a competitive cost structure could have a material adverse effect on our business, financial condition and results of operations.",
+    "The ongoing conflict between Russia and Ukraine, other similar conflicts and civil unrest in Haiti, which is in proximity to our manufacturing facilities in the Dominican Republic could have a material adverse effect on our business and results of operations."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Results of Operations",
+    "2025 Compared to 2024",
+    "Liquidity and Capital Resources",
+    "December 31, 2025 December 31, 2024",
+    "Term Loan Revolving credit facility Total",
+    "Critical Accounting Estimates"
+   ],
+   "paragraphs": [
+    "UFP Technologies, Inc. is a contract development and manufacturing organization that specializes in single-use and single-patient medical devices. We are a vital link in the medical device supply chain and a valued outsourcing partner to many of the world's top medical device manufacturers. Our single-use and single-patient devices and components are used in a wide range of medical devices and packaging for minimally invasive surgery, infection prevention, wound care, wearables, orthopedic soft goods, and orthopedic implants.",
+    "Our current strategy includes further organic growth and growth through strategic acquisitions.",
+    "Net sales for the year ended December 31, 2025 increased 19.5% to $602.8 million from $504.4 million in the same period last year. The increase was primarily attributable to 23.2% growth in sales to customers in the medical market, which was largely due to sales from the companies we acquired in 2024 and 2025 (See Note 2 for further information regarding these acquisitions). These companies collectively contributed approximately $168.3 million in sales for the year ended December 31, 2025 compared to $73.1 million in the same period last year. Organic sales growth was 1.5% for the year ended December 31, 2025 as compared to the year ended December 31, 2024. Net sales from our largest two customers, Intuitive Surgical SARL and Stryker Corporation, were 24.3% and 21.5%, respectively, of our total net sales for the year ended December 31, 2025. Intuitive Surgical SARL and Stryker comprised approximately 29.2% and 15.4%, respectively, of our net sales for the year ended December 31, 2024.",
+    "In 2025, we executed a post-acquisition review of our AJR labor force's United States employment eligibility through E-Verify protocols. This review has resulted in significant workforce turnover during the year (the \"AJR Labor Issue\"). Attention spent by experienced employees training new direct and indirect employees in our standards and policies has decreased productivity and therefore, has created inefficiencies in our AJR operations. To address the AJR Labor Issue, we recruited legally eligible replacement associates. We estimate that the AJR Labor Issue added over $6.3 million in incremental labor cost to our cost-of-sales for year ended December 31, 2025.",
+    "In 2025, the United States imposed increased tariffs on foreign imports into the United States, including all the countries in which we manufacture goods outside the United States and also the countries in which our customers operate. Although agreements have been made with various countries, the tariff policy environment remains dynamic, particularly in light of recent Supreme Court decisions, and we cannot predict what additional actions may ultimately be taken by the United States or other governments with respect to tariffs or trade relations, including retaliatory trade measures taken by other countries in response to existing or future United States tariffs or other measures. We estimate that tariffs not reimbursed by customers were immaterial to our 2025 results.",
+    "On or about February 14, 2026, the Company detected the Cyber Incident (as defined in Item 1C, Cybersecurity). As of the date hereof, the incident has not had a material impact on the Company's financial systems, operations or financial condition. While the Company's investigation and assessment of this incident is ongoing, as of the date of this filing, the Company believes its primary IT systems are operational in all material respects and the Company does not believe the incident is reasonably likely to materially impact the Company's financial condition or results of operations. There can be no assurance that the Cyber Incident or any future cybersecurity incidents will not have a material impact on the Company's future operations, financial systems or financial condition. See Item 1A \"Risk Factors\" under the headings \"Security breaches, including cybersecurity incidents and other disruptions could compromise our information, expose us to liability and harm our reputation and business\" and \"We experienced a material information technology (\"IT\") systems incident in February 2026, which could result in a number of potentially unknown outcomes, including but not limited to, litigation, regulatory investigations or enforcement actions, or reputational harm, any of which could have a material impact on our business operations, financial condition, or results of operations,\" and the discussion in Item 1C, Cybersecurity.",
+    "The following table sets forth, for the years indicated, the percentage of net sales represented by the items as shown in the Company's Consolidated Statements of Income:",
+    "2025 2024 2023 Net sales 100.0 % 100.0 % 100.0 % Cost of sales 71.7 % 70.9 % 71.9 % Gross profit 28.3 % 29.1 % 28.1 %",
+    "Selling, general, and administrative expenses 12.8 % 12.3 % 12.7 % Acquisition costs 0.1 % 0.5 % 0.0 %",
+    "Change in fair value of contingent consideration — % 0.2 % 0.9 % Loss (gain) on sale of fixed assets 0.0 % 0.0 % 0.1 %",
+    "Operating income 15.3 % 16.1 % 14.4 % Interest expense, net 1.6 % 1.6 % 0.9 % Income before taxes 13.7 % 14.5 % 13.5 %",
+    "Income tax expense 2.4 % 2.8 % 2.3 % Net income from consolidated operations 11.3 % 11.7 % 11.2 %",
+    "Net sales increased 19.5% to $602.8 million for the year ended December 31, 2025, from net sales of $504.4 million for the same period in 2024. The increase in net sales is primarily due to increased sales to customers in the medical market of 23.2%. This increase includes sales from the companies we acquired in 2024 and 2025, which collectively contributed approximately $168.3 million in sales during the year ended December 31, 2025 compared to $73.1 million in the same period last year.",
+    "Gross profit as a percentage of net sales (\"Gross Margin\") decreased to 28.3% for the year ended December 31, 2025, from 29.1% in 2024. As a percentage of net sales, material costs decreased 3.0% while overhead and labor costs collectively increased 3.8%. Absent the impact on Gross Margins from the AJR Labor Issue, gross margins for the year ended December 31, 2025 would have been 29.3%."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "可取得資訊",
+    "市場概觀",
+    "法規環境與環境考量",
+    "行銷與淨銷售額",
+    "製造",
+    "研究與發展",
+    "專利及其他專有權利",
+    "人力資本管理"
+   ],
+   "paragraphs": [
+    "本公司為一家專門從事單次使用及單病患醫療器材之合約開發與製造組織。本公司為醫療器材供應鏈中不可或缺的一環，並為許多全球頂尖醫療器材製造商所重視的委外夥伴。我們的單次使用及單病患器材與零組件廣泛應用於各種醫療器材與用於微創手術、感染預防、傷口照護、穿戴式裝置、骨科軟性產品與骨科植入物之包裝。",
+    "本公司於1993年在特拉華州設立。",
+    "本公司合併財務報表包含UFP Technologies, Inc.及其全資子公司之帳戶與營運結果，以及本公司對少數股東權益投資之持股。所有重要之公司間餘額與交易均已於合併時抵銷。",
+    "本公司之網際網路網站地址為http://www.ufpt.com。透過其網站，本公司免費提供年度10-K表報、季報10-Q表、現況報告8-K表及任何對這些報告之更正，於本公司電子檔提交至美國證券交易委員會（\"SEC\"）或提供給該機構後盡速提供。這些SEC報告可透過本公司網站之投資人關係區段存取。本公司網站上之資訊未於本文件或其他任何提交至或提供給SEC之報告中引用。SEC維護一個網際網路網站，包含有關本公司及其他提交電子檔之發行人的報告、股東權益說明書與其他資訊。SEC之網際網路網站地址為http://www.sec.gov。",
+    "本公司產品之應用範圍廣泛且多樣。本公司產品主要銷售給醫療市場之客戶。全球醫療市場規模龐大且持續成長，但本公司專注於特定市場區段，以其開發與製造專業知識與對高度專業材料之接觸，協助客戶區隔產品、改善病患結果，並提高客戶產品上市速度。本公司所針對之產品區段，以及本公司所從事之業務，包括微創手術、感染控制、骨科、介入與手術、表面與支撐、治療、診斷、傷口照護與生物製藥。",
+    "本公司產品，通常依照客戶之規格客製化製造，針對總體經濟趨勢，並在特定利基市場創造具體機會，於此市場中，本公司對專業材料、工程技術與製程專業之接觸，可被運用以創造對客戶之價值。本公司客製化醫療產品之範例包括用於機械人手術之保護隔離布、病患照顧與舒適度、先進傷口照護、感染預防、用於外科與內視鏡程序之一次性用品、醫療器材與骨科植入物之包裝、心臟植入物零組件、導管用散裝線圈與生物製藥藥品製造。",
+    "總體而言，本公司解決方案皆旨在改善治療結果，同時降低風險與成本。",
+    "本公司醫療客戶通常需要美國食品藥物管理局（\"FDA\"）核准其產品，因此有時會要求供應商在已註冊於FDA並符合國際標準化組織（\"ISO\"）13485醫療器材品質標準之廠區製造。本公司有十九個製造廠區已取得ISO 13485認證，十三個廠區已註冊於FDA。本公司設計產品以提供最佳性能並使用最少材料。此外，本公司會將部分其聚氨酯與交聯泡沫廢料壓縮並處理，以用於各種回收產品。本公司麻省新伯裏波特廠區利用太陽能提供約6%之電力，並計畫未來增加發電量。本公司瞭解對環境責任包裝與產品之公共支持。未來政府行動可能對本公司所從事之產業施加限制。無法保證任何此類行動不會對本公司產品與業務造成不利影響。",
+    "本公司透過推廣特定解決方案、材料及製造能力與服務來行銷其目標客戶。本公司透過網站、展覽與展會、社交媒體、線上廣告、電子郵件及新聞稿進行行銷。與關鍵材料供應商的關係也是本公司行銷與銷售的重要部分。本公司主要透過直接銷售團隊進行產品的行銷與銷售。本公司商業領導者與工程師合作，與客戶及內部設計與製造專家共同開發具成本效益的客製化解決方案。截至2025年12月31日財年，兩家客戶的淨銷售額分別約為淨銷售額的24.3%與21.5%。其他客戶的淨銷售額均未超過淨銷售額的10%。如需更多資訊，請參閱「風險因素 - 我們依賴少數客戶來取得我們淨銷售額的大部分。若失去任何該類客戶、對該類客戶的淨銷售額減少，或該類客戶財務狀況惡化，可能會對我們的業務、財務狀況與營運成果造成重大不利影響。\"",
+    "季節性並非本公司淨銷售額的主要因素。請參閱本報告第四部分第15項所載的本公司合併財務報表，以取得按市場分類的淨銷售額資訊。",
+    "本公司製造作業主要包含切割、鑽孔、壓縮與射出成型、真空成型、微成型、熱成型、層壓、無線電頻率與衝擊焊接及組裝。對於醫療客製化泡沫產品與熱塑性焊接裝置，本公司具專業技術的工程人員會分析特定客戶需求，設計並製造試作產品以確認產品功能。經客戶核准後，試作產品會轉為最終設計進行商業量產。熱成型製造的交聯泡沫產品使用熱能、壓力與精密金屬模具進行生產。薄片及其他材料則透過無線電頻率與衝擊焊接進行密封，並透過熱成型製造過程進行成型。網狀聚氨酯泡沫也用於許多高階醫療產品，這些產品需要精確的流體或空氣管理。這些產品通常透過高速模具切割或水刀切割製造。醫療、軍事及個人舒適與保護用的層壓產品則透過將泡沫基材加熱至熔點，再透過機械壓力將其與非泡沫材料結合的製造過程進行生產。",
+    "本公司並未製造用於其產品的任何原材料。除特定等級的交聯泡沫、熱塑性聚氨酯（\"TPU\"）及技術性聚氨酯泡沫外，這些原材料均可從多個供應來源取得。雖然本公司依賴有限數量的供應商來供應交聯及技術性聚氨酯泡沫，以及TPU，但本公司與供應商的關係良好，且本公司預期這些供應商將能符合本公司對這些泡沫的生產需求。任何原材料供應的延誤或中斷，可能會對本公司業務造成重大不利影響。",
+    "本公司工程人員持續探索新的設計與製造技術，以及新的創新材料，以符合客戶獨特的需求與規格。研究與開發是本公司持續運作成本結構的重要組成部分。",
+    "醫療設計與委外製造產業以及泡沫與塑膠轉換產業均為高度競爭的產業。雖然有數家全國性公司從事泡沫與塑膠轉換業務，但本公司主要競爭對手為較小的獨立區域製造公司。這些公司通常從鄰近廠區在特定地理區域內行銷其產品。本公司客製化工程產品的主要競爭對手為較小的公司，這些公司通常專注於特定產業或地區的產品製造。本公司預期能有效競爭於工程產品市場，因其能針對客戶的主要供應商選擇標準，包括被列入客戶的優先供應商名單、價格、產品性能、產品可靠性、製造地點及客戶服務，以及其對廣泛材料的存取能力、工程專業知識、將泡沫與其他材料如塑膠及層壓材料結合的能力，以及能在潔淨室環境中製造產品的能力。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果",
+    "2025 年與 2024 年比較",
+    "流動性及資本資源",
+    "2025 年 12 月 31 日 2024 年 12 月 31 日",
+    "定期貸款 循環信貸設施 總計",
+    "重要會計估計"
+   ],
+   "paragraphs": [
+    "UFP Technologies, Inc. 為一家合同開發與製造組織，專門從事一次性及單病患醫療器材。本公司為醫療器材供應鏈中不可或缺的一環，並為全球許多頂尖醫療器材製造商所重視的委外夥伴。本公司的一次性及單病患器材與零組件，廣泛應用於各種醫療器材與用於微創手術、感染預防、傷口照護、穿戴式裝置、骨科軟性產品及骨科植入物的包裝。",
+    "本公司目前的策略包括進一步的內生成長與透過戰略收購來實現成長。",
+    "截至2025年12月31日止年度的淨銷售額較2024年同期的504.4百萬美元增加19.5%至602.8百萬美元。此增加主要歸因於醫療市場客戶銷售額成長23.2%，這 largely 是由於2024年及2025年所收購的公司銷售額所致（詳見備註2，關於這些收購的進一步資訊）。這些公司於截至2025年12月31日止年度 collectively 貢獻約168.3百萬美元的銷售額，相較於2024年同期的73.1百萬美元。截至2025年12月31日止年度的內生銷售額成長為1.5%，相較於截至2024年12月31日止年度。本公司最大的兩位客戶Intuitive Surgical SARL及Stryker Corporation於截至2025年12月31日止年度的淨銷售額分別佔總淨銷售額的24.3%及21.5%。Intuitive Surgical SARL及Stryker於截至2024年12月31日止年度的淨銷售額分別佔總淨銷售額的29.2%及15.4%。",
+    "2025年，本公司執行了一項收購後的審查，針對AJR勞動力的美國就業資格透過E-Verify協議進行。此審查導致本年度出現顯著的員工流動率（稱為\"AJR勞動力問題\"）。經驗豐富員工花費時間培訓新進的直接及間接員工，以符合本公司標準與政策，導致生產力下降，因此造成AJR運作的低效率。為解決AJR勞動力問題，本公司招募了符合法律資格的替代員工。本公司估計，AJR勞動力問題使本年度截至2025年12月31日止的銷售成本增加了超過6.3百萬美元的額外勞動成本。",
+    "2025年，美國對進口至美國的外國產品課徵了更高的關稅，包括本公司在美國境外製造產品的所有國家，以及本公司客戶運作的國家。儘管已與多個國家達成協議，但關稅政策環境仍處於動態變化中，特別是在最近最高法院判決的背景下，本公司無法預測美國或其他政府可能針對關稅或貿易關係採取的進一步行動，包括其他國家對現有或未來美國關稅或其他措施所採取的報復性貿易措施。本公司估計，未由客戶補償的關稅對本公司2025年結果影響為微不足道。",
+    "於2026年2月14日左右，本公司發現了網路事件（如Item 1C，網路安全所定義）。截至本文件日期，此事件尚未對本公司財務系統、運作或財務狀況造成重大影響。儘管本公司對此事件的調查與評估仍在進行中，但截至本文件提交日，本公司認為其主要資訊科技（\"資訊科技\"）系統在所有重大方面均為運作正常，且本公司不認為此事件合理可能對本公司財務狀況或營運成果造成重大影響。無法保證此網路事件或任何未來的網路安全事件不會對本公司未來運作、財務系統或財務狀況造成重大影響。請參見Item 1A \"風險因素\" 項下列出的 \"資訊安全事件，包括網路安全事件及其他中斷可能影響我們的資訊，使我們面臨法律責任並損害我們的聲譽與業務\" 以及 \"我們在2026年2月經歷了一項重大資訊科技（\"資訊科技\"）系統事件，可能導致多種潛在未知結果，包括但不限於訴訟、監管調查或執法行動，或聲譽損害，任何一種都可能對我們的業務運作、財務狀況或營運成果造成重大影響\"，以及Item 1C，網路安全的討論。",
+    "下表顯示，對於所列年度，各項項目佔淨銷售額的百分比如下：",
+    "2025 2024 2023 淨銷售額 100.0 % 100.0 % 100.0 % 売出成本 71.7 % 70.9 % 71.9 % 毛利率 28.3 % 29.1 % 28.1 %",
+    "銷售、一般及行政費用 12.8 % 12.3 % 12.7 % 收購成本 0.1 % 0.5 % 0.0 %",
+    "應計考量金之公允價值變動 — % 0.2 % 0.9 % 固定資產處分損益 (損益) 0.0 % 0.0 % 0.1 %",
+    "營運收入 15.3 % 16.1 % 14.4 % 綜合利息費用 1.6 % 1.6 % 0.9 % 稅前收入 13.7 % 14.5 % 13.5 %",
+    "所得稅費用 2.4 % 2.8 % 2.3 % 合併營運淨收入 11.3 % 11.7 % 11.2 %",
+    "淨銷售額成長 19.5% 至 602.8 百萬美元，為截至 2025 年 12 月 31 日之會計年度，較 2024 年相同期間之淨銷售額 504.4 百萬美元為高。淨銷售額成長主要係因醫療市場客戶銷售成長 23.2%。此成長包含 2024 年及 2025 年所收購之公司銷售額，於截至 2025 年 12 月 31 日之會計年度，這些公司合計貢獻銷售額約為 168.3 百萬美元，較去年相同期間之 73.1 百萬美元為高。",
+    "淨銷售額之毛利率（\"毛利率\"）降至 28.3% ，為截至 2025 年 12 月 31 日之會計年度，較 2024 年之 29.1% 為低。以淨銷售額為基準，原料成本下降 3.0% ，而營運費用及人工成本合計上升 3.8% 。若排除 AJR 人工問題對毛利率之影響，截至 2025 年 12 月 31 日之會計年度之毛利率應為 29.3% 。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務相關的風險",
+    "我們的業務、營運結果及現金流歷來受到通貨膨脹的影響，並可能繼續受到不利影響。",
+    "若我們的產品含有未被發現的錯誤或缺陷，或未能符合適用的規格，將可能對我們的業務造成損害。",
+    "若我們未能遵守客戶契約中特定條款或美國食品藥物管理局（FDA）的規範，將可能對我們的業務造成重大不利影響。",
+    "立法機構對氣候變遷及其他ESG議題的關注度增加及觀點持續演變，可能對我們的業務及營運結果產生長期影響。",
+    "全球氣候變遷及相關規範，以及客戶需求的變化，可能對我們的營運及業務造成負面影響。",
+    "我們可能追求併購或其他戰略合作關係，這些行動本身具有內在風險，任何一種都可能使我們無法實現預期的效益。",
+    "無法留住關鍵人才，可能影響我們執行業務策略的能力。",
+    "我們所從事的產業屬高度競爭性，我們可能無法成功競爭，這可能會對我們的業務、財務狀況及營運成果造成重大不利影響。",
+    "實際或被認為未符合適用的資料保護、隱私權及安全性法律、法規、標準及其他要求，可能會對我們的業務及財務結果造成不利影響。",
+    "安全漏洞，包括網路安全事件及其他中斷，可能會危害我們的資訊，使我們面臨法律責任，並損害我們的聲譽與業務。",
+    "我們可能無法保護我們的專屬技術免於侵權。",
+    "能源供應減少或能源成本上升，可能會提高我們的營運成本。",
+    "醫療保健產業的併購可能會導致競爭更激烈，並減少我們的淨銷售額，對我們的業務造成損害。",
+    "我們的業務間接受到醫療保健產業成本控制及醫療改革措施的影響，這可能會導致我們產品的銷售減少。",
+    "外幣匯率的變動可能會對我們的財務狀況、營運成果及現金流造成重大不利影響。",
+    "與本公司股東持股及資本結構相關之風險",
+    "我們之信貸融資限制可能限制我們之營運與財務活動，包括未來取得額外資金之能力。",
+    "本公司章程文件之條款及特拉華州法律，可能嚇阻潛在收購者，防止更換或解任我們現任管理階層，並可能影響我們普通股之價格。",
+    "財務風險",
+    "我們之營運結果可能波動，這可能使預測我們未來表現變得困難，並可能導致我們股票價格之波動。",
+    "我們之國際銷售與營運業務面臨多種市場與財務風險及成本，這些因素可能影響我們之獲利能力與營運結果。",
+    "我們可能永遠無法實現我們智慧財產權資產之全部價值，而這些資產代表我們總資產之重大部分。"
+   ],
+   "paragraphs": [
+    "本文件所描述的風險因素可能重大影響本公司業務，包括營業成果與財務結果。這些是我們認為對您而言最重要的風險與不確定性。此外，尚有其他未為我們所知的風險與不確定性，或目前認為不重要，或與其他公司於本產業或一般業務所面臨之風險與不確定性類似，也可能影響本公司業務運作。若任何上述風險或不確定性發生，將可能導致本公司業務、財務狀況與營運成果受損。",
+    "未來通貨膨脹率可能上升。此等通貨膨脹壓力可能影響本公司製造成本、營運費用（包括工資）及其他費用。我們可能無法及時將這些成本增加轉嫁給客戶，這可能會影響本公司毛利率與利潤率。此外，通貨膨脹可能導致利率上升，並可能對總體經濟環境產生不利影響，進而對客戶及其購買本公司產品的意願與能力產生不利影響。本公司若無法成功管理通貨膨脹的影響，可能對本公司業務、營運成果與現金流產生重大不利影響。",
+    "本公司營運成果部分取決於本公司控制或降低成本的能力。本公司產業中存在大量價格競爭，且原材料與勞動成本有上漲壓力。本公司成功與利潤率將取決於本公司維持具有競爭力的成本與價格結構的能力。",
+    "本公司維持與改善利潤率的努力部分取決於本公司維持或降低原材料、零組件、物料與勞動成本的能力。雖然任何單一成本控制措施失敗本身可能不會對本公司結果產生重大影響，但我們無法保證本公司能成功控制原材料與勞動成本，以維持具有競爭力的成本結構。",
+    "本公司未來利潤率將部分取決於本公司持續改善製造效率與維持成本結構的能力，以在面對原材料與勞動成本上漲壓力時，提供具有競爭力的價格。本公司若無法維持具有競爭力的成本結構，可能對本公司業務、財務狀況與營運成果產生重大不利影響。",
+    "俄羅斯與烏克蘭之間持續的衝突、其他類似衝突以及海地的內亂，而海地位於多明尼加共和國製造設施附近，可能對本公司業務與營運成果產生重大不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

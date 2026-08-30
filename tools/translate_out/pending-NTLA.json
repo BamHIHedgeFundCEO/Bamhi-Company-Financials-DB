@@ -1,0 +1,203 @@
+{
+ "ticker": "NTLA",
+ "cik": "0001652130",
+ "accession": "0001193125-26-076550",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Pipeline",
+    "Lead Programs",
+    "Hereditary Angioedema (\"HAE\") Program",
+    "Transthyretin (\"ATTR\") Amyloidosis Program",
+    "Our Research Programs",
+    "Collaborations and Other Arrangements",
+    "Regeneron Pharmaceuticals, Inc. (\"Regeneron\")",
+    "Other Collaborations",
+    "Acquisition of Rewrite Therapeutics Inc. (\"Rewrite\")",
+    "Potential Future Collaborations",
+    "Intellectual Property",
+    "Caribou Biosciences In-Licensed Intellectual Property (\"Caribou\")",
+    "Manufacturing",
+    "Government Regulation and Product Approval",
+    "U.S. Gene and Cell Therapy Products Development Process",
+    "U.S. Review and Approval Processes"
+   ],
+   "paragraphs": [
+    "Intellia Therapeutics, Inc. (\"we,\" \"us,\" \"our,\" \"Intellia,\" or the \"Company\") is a leading biopharmaceutical company focused on revolutionizing medicine leveraging CRISPR gene editing and other core technologies. Our mission is to transform the lives of people with severe diseases by developing and commercializing potentially curative treatments. With deep scientific, technical and clinical development experience, we aim to reset the standard for medicine by durably treating the root causes of disease.",
+    "For over a decade, Intellia has applied its proprietary technologies and expertise, including CRISPR-based gene editing technologies, oligonucleotides, and lipid nanoparticles (\"LNPs\"), to develop novel, first-in-class product candidates. This includes the development of lonvoguran ziclumeran (\"lonvo-z,\" also referred to as NTLA-2002) for the treatment of hereditary angioedema (\"HAE\") and nexiguran ziclumeran (\"nex-z,\" also referred to as NTLA-2001) for the treatment of transthyretin (\"ATTR\") amyloidosis. These lead product candidates are the first in vivo genome editing product candidates into Phase 3 development. These systemically administered CRISPR-based candidates are designed to address diseases with high unmet need with a single intravenous (\"IV\") infusion that is administered in an outpatient setting. Lonvo-z and nex-z are currently in Phase 3 clinical development, and we are preparing for the planned commercial launch of lonvo-z in the first half of 2027.",
+    "In order to treat—and potentially cure—a broader range of severe diseases, we and our collaboration partners are advancing the development of additional clinical and preclinical product candidates. Throughout our history, we have leveraged collaborations to expand and accelerate the development of product candidates. Our current relationships include our collaboration with Regeneron Pharmaceuticals, Inc. (\"Regeneron\") and other research collaborations focused on the development of product candidates.",
+    "Our strategy is to (1) advance the clinical development of our lead CRISPR-based product candidates, (2) build and leverage a fully integrated commercial-stage infrastructure, (3) expand our pipeline utilizing our expertise and proprietary technologies, and (4) collaborate with partners to expand our technology reach and maximize our return on investment.",
+    "Advance the clinical development of our lead CRISPR-based product candidates. We are focused on successfully completing late-stage clinical development of our lead product candidates, lonvo-z for the treatment of patients with HAE and nex-z for the treatment of patients with ATTR amyloidosis with cardiomyopathy (\"ATTR-CM\") and hereditary ATTR amyloidosis with polyneuropathy (\"ATTRv-PN\"). As the only in vivo genome editing product candidates in Phase 3 clinical development, lonvo-z and nex-z are positioned at the forefront of a new wave of medicine that aims to treat the underlying root cause of disease, rather than its symptoms. These Phase 3 clinical trials are intended to enable us to secure regulatory approvals and marketing authorizations for commercialization that would deliver on our initial promise to benefit patients, the healthcare system and other stakeholders.",
+    "Build and leverage a fully integrated commercial-stage infrastructure. While successfully completing our late-stage clinical trials is a critical step toward realizing the potential value of our product candidates, we are building a fully-integrated infrastructure that includes a United States (\"U.S.\")-focused commercial and medical affairs field force to enhance our return on the investment we have made in the development of lonvo-z, nex-z and earlier-stage product candidates. Historically, we have focused heavily on building capabilities that are essential for a successful clinical-stage organization. To prepare for a potential positive Phase 3 readout, Biologics License Application (\"BLA\") filing and successful commercial launch for lonvo-z, we have been enhancing our organization with senior leaders who are undertaking pre-commercial activities, and we have plans to scale this team to enable a successful launch, if approved. Ultimately, we aim to become a self-sustaining biopharmaceutical company with capabilities from drug discovery through commercialization. Our goal is to create value across many stakeholders ― patients, prescribers, payers, shareholders and employees ― by leveraging our internal infrastructure and external collaborations.",
+    "Expand our pipeline utilizing our expertise and proprietary technologies. We are committed to addressing a range of unmet medical needs through the development of novel therapeutic candidates utilizing CRISPR gene editing and other core technologies. These efforts have yielded our current late-stage product candidates, lonvo-z and nex-z, and a range of earlier-stage programs that we are developing independently and in collaboration with our partners. We aim to remain a pioneer in the field by developing additional product candidates that leverage our proprietary technologies acquired or developed over a decade-plus of research and development, including multi-modal CRISPR gene editing, LNP, and oligonucleotide technologies.",
+    "Collaborate with partners to expand the reach of our technology and maximize our return on investment. Since our inception, collaborations have been an important part of our strategy. These relationships enable us to augment our scientific expertise, extend the reach of our technology and provide the potential for us to address the unmet needs of additional patients. Collaborations can also enable us to generate greater returns on the significant investments that we have made in our core technologies and product candidates through the form of upfront payments, milestones, royalties, and/or cost-sharing arrangements. We believe that collaborations may play a critical role in expanding the commercial potential of our product candidates in markets outside of the U.S., powering the development and deployment of our technology, and maximizing the return of our investment to benefit our stakeholders, including patients, healthcare systems, and shareholders.",
+    "The following table summarizes the status of our research and development programs:",
+    "We are the first company to advance in vivo genome editing product candidates into Phase 3 development. These candidates are being developed for patients with HAE and ATTR amyloidosis. Our research efforts focus on pursuing additional targets within the liver and expanding our targets and delivery technology for diseases outside the liver.",
+    "HAE is a rare, genetic disease characterized by severe, recurring and unpredictable inflammatory attacks in various organs and tissues of the body, which can be painful, debilitating and life-threatening. The most common areas of the body to develop swelling are the limbs, face, intestinal tract and airway. Minor trauma or stress may trigger an attack but swelling often occurs without a known trigger. Episodes involving the intestinal tract cause severe abdominal pain, nausea and vomiting. Swelling in the airway can restrict breathing and lead to life-threatening obstruction of the airway. The disease is caused by increased levels of bradykinin, a protein which leads to swelling. Most patients with HAE have a deficiency of C1 esterase inhibitor (\"C1-INH\") protein, which normally prevents the overproduction of bradykinin that causes the recurring, debilitating and potentially fatal swelling attacks in people living with HAE. It is estimated that approximately one in 50,000 people globally are affected by HAE, and approximately 7,000 patients in the U.S. are being treated for HAE.",
+    "There are currently more than 10 products approved in the U.S. as long-term prophylactic (\"LTP\") or on-demand treatments for HAE. LTPs are intended to be life-long therapies that may be administered via IV or subcutaneous (\"SC\") injections as often as twice per week, or daily oral administration to ensure constant pathway suppression for disease control. Despite chronic administration, breakthrough attacks still occur. As a result, most patients with HAE also receive a prescription for on-demand",
+    "therapies to ease or resolve their attacks. In addition to the ongoing burden of chronic treatment, market research has shown that patients also continue to suffer from mental burdens associated with the unpredictability of their HAE attacks and their ability to pay for their medications, among other factors.",
+    "Kallikrein inhibition is a clinically validated strategy for the preventive treatment of HAE attacks. Lonvo-z is a wholly owned, investigational in vivo CRISPR-based therapeutic candidate designed to inactivate the kallikrein B1 (\"KLKB1\") gene in the liver, drive consistent, deep and potentially lifelong reduction in kallikrein levels, and dramatically reduce or eliminate HAE attacks via a one-time treatment. It also aims to eliminate the significant burdens associated with currently available HAE therapies."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business",
+    "CRISPR genome editing technology has only recently been clinically validated for human therapeutic use.",
+    "The approaches we are taking to discover and develop novel therapeutics using CRISPR systems are unproven and may never lead to marketable products.",
+    "If we are unable to develop viable product candidates, achieve regulatory approval for any such product candidate or market and sell any resulting product, we may never achieve profitability.",
+    "Clinical development involves a lengthy and expensive process, with an uncertain outcome.",
+    "We may incur additional costs or experience delays in completing, or ultimately be unable to complete, the development and commercialization of any product candidates.",
+    "Even if we obtain regulatory approval of any product candidates, such candidates may not gain market acceptance among physicians, patients, hospitals, third party payors and others in the medical community.",
+    "Risks Related to Intellectual Property",
+    "Third party claims of intellectual property infringement against us, our licensors or our collaborators may prevent or delay our product discovery, research, development, and/or commercialization efforts."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. In evaluating us and our business, careful consideration should be given to the following risk factors, in addition to the other information set forth in this Annual Report on Form 10-K for the year ended December 31, 2025 and in other documents that we file with the Securities and Exchange Commission (\"SEC\"). If any of the following risks and uncertainties actually occurs, our business, prospects, financial condition and results of operations could be materially and adversely affected. The risks described below are not intended to be exhaustive and are not the only risks facing us. New risk factors can emerge from time to time, and we cannot predict the impact that any factor or combination of factors may have on our business, prospects, financial condition and results of operations.",
+    "Risks Related to Preclinical and Clinical Development",
+    "We are focused on developing novel therapeutics utilizing CRISPR genome editing technology, including in vivo therapies and ex vivo engineered cell therapies. Although there have been significant advances in recent years in the fields of gene therapy and genome editing, in vivo CRISPR-based genome editing technologies are relatively new and their therapeutic utility is largely unproven. Our approach to developing therapies centers on using CRISPR technology to alter, introduce or remove genetic information in vivo to treat various disorders, or to engineer human cells ex vivo to create therapeutic cells that can be introduced into the human body to address the underlying disease.",
+    "Successful development of products by us will require solving a number of issues, including developing or obtaining technologies to safely deliver a therapeutic agent into target cells within the human body or engineer human cells while outside of the body such that the modified cells can have a therapeutic effect when delivered to the patient, optimizing the efficacy and specificity of such products, and demonstrating the therapeutic selectivity, efficacy, potency, purity and safety of such products. There can be no assurance we will be successful in solving any or all of these issues. With regards to CRISPR-based therapies specifically, we are in clinical-stage development for nexiguran ziclumeran (\"nex-z,\" also referred to as NTLA-2001) (pending resolution of the clinical hold on the IND for the MAGNITUDE trial) and for lonvoguran ziclumeran, (\"lonvo-z,\" also known as NTLA-2002) and advancing towards clinical testing for our other in vivo and ex vivo product candidates. Although one CRISPR-edited ex vivo therapy has been approved in the United States (\"U.S.\") and European Union (\"EU\"), no genome editing in vivo therapy has been approved in the U.S., EU countries or other key jurisdictions, and the potential to successfully obtain approval for any of our CRISPR product candidates remains uncertain.",
+    "Our future success also is highly dependent on the successful development of CRISPR-based genome editing technologies, cellular delivery methods and therapeutic applications for the indications on which we have focused our ongoing research and development efforts. We may decide to alter or abandon these programs as new data become available and we gain experience in developing CRISPR-based therapeutics. We cannot be sure that our CRISPR efforts and technologies will yield satisfactory products that are safe and effective, sufficiently pure or potent, manufacturable, scalable or profitable in our selected indications",
+    "or any other indication we pursue. We cannot guarantee that progress or success in developing any particular CRISPR-based therapeutic product will translate to other CRISPR-based products."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Management Overview",
+    "Financial Overview",
+    "Results of Operations",
+    "Comparison of Year Ended December 31, 2025 and 2024",
+    "Year Ended December 31,",
+    "Period Change",
+    "(In thousands)",
+    "Liquidity and Capital Resources",
+    "Net cash used in operating activities",
+    "Net cash provided by investing activities",
+    "Net cash provided by financing activities",
+    "Contractual Obligations",
+    "Critical Accounting Policies and Use of Estimates",
+    "Revenue Recognition",
+    "Accrued Research and Development Expenses",
+    "Stock-Based Compensation",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "Our management's discussion and analysis of our financial condition and results of operations are based upon our consolidated financial statements included in this Annual Report on Form 10-K, which have been prepared by us in accordance with accounting principles generally accepted in the United States of America (\"U.S. GAAP\") and with Regulation S-X, promulgated under the Securities Exchange Act of 1934, as amended. This discussion and analysis should be read in conjunction with these consolidated financial statements and the notes thereto included elsewhere in this Annual Report on Form 10-K. Some of the information contained in this discussion and analysis or set forth elsewhere in this Annual Report on Form 10-K, including information with respect to our plans and strategy for our business, includes forward-looking statements that involve risks and uncertainties. As a result of many factors, including those factors set forth in Part I, Item 1A. Risk Factors of this Annual Report on Form 10-K, our actual results could differ materially from the results described in or implied by the forward-looking statements contained in the following discussion and analysis.",
+    "Information pertaining to fiscal year 2023 was included in our Annual Report on Form 10-K for the year ended December 31, 2024 under Part II, Item 7, \"Management's Discussion and Analysis of Financial Position and Results of Operations,\" which was filed with the Securities and Exchange Commission (the \"SEC\") on February 27, 2025.",
+    "Intellia Therapeutics, Inc. (\"we,\" \"us,\" \"our,\" \"Intellia,\" or the \"Company\") is a leading biopharmaceutical company focused on revolutionizing medicine leveraging CRISPR gene editing and other core technologies. Our mission is to transform the lives of people with severe diseases by developing and commercializing potentially curative treatments. With deep scientific, technical and clinical development experience, we aim to reset the standard for medicine by durably treating the root causes of disease.",
+    "For over a decade, Intellia has applied its proprietary technologies and expertise, including CRISPR-based gene editing technologies, oligonucleotides, and lipid nanoparticles (\"LNPs\"), to develop novel, first-in-class product candidates. This includes the development of lonvoguran ziclumeran (\"lonvo-z,\" also referred to as NTLA-2002) for the treatment of hereditary angioedema (\"HAE\") and nexiguran ziclumeran (\"nex-z,\" also referred to as NTLA-2001) for the treatment of transthyretin (\"ATTR\") amyloidosis. These lead product candidates are the first in vivo genome editing product candidates into Phase 3 development. These systemically administered CRISPR-based candidates are designed to address diseases with high unmet need with a single intravenous (\"IV\") infusion that is administered in an outpatient setting. Lonvo-z and nex-z are currently in Phase 3 clinical development, and we are preparing for the planned commercial launch of lonvo-z in the first half of 2027. For more information regarding our business, mission and pipeline, see above sections in Part I entitled \"Overview,\" \"Strategy\" and \"Our Pipeline.\"",
+    "Our revenue consists of collaboration revenue, including amounts recognized related to upfront technology access payments for licenses, technology access fees, research materials shipped, research funding and milestone payments earned under our license and collaboration agreements.",
+    "Research and development expenses consist of expenses incurred in performing research and development activities, such as compensation and benefits, which includes stock-based compensation, for full-time research and development employees, allocated facility-related expenses, overhead expenses, license and milestone fees, contract research, development and manufacturing services, clinical trial costs and other related costs.",
+    "General and administrative expenses consist primarily of compensation and benefits, including stock-based compensation, for our executive, finance, legal, human resources, business development and support functions. Also included in general and administrative expenses are allocated facility-related costs not otherwise included in research and development expenses, adjustments related to impairment or accelerated amortization of long-lived assets, ongoing expenses related to the buildout of our commercial infrastructure, travel expenses and professional fees for auditing, tax and legal services, including IP-related legal services, and other consulting fees and expenses.",
+    "Other income, net consists of interest income earned on our cash, cash equivalents, restricted cash equivalents and marketable securities and change in the fair value of our investments.",
+    "The following discussion of the financial condition and results of operations should be read in conjunction with the accompanying consolidated financial statements and the related footnotes thereto.",
+    "The following table summarizes our results of operations:",
+    "Collaboration revenue 67,671 57,877 9,794",
+    "Operating expenses: Research and development 388,861 466,311 (77,450 General and administrative",
+    "119,800 125,829 (6,029 Total operating expenses 508,661 592,140 (83,479 Operating loss (440,990",
+    "Other income, net: Interest income 29,195 47,807 (18,612 Change in fair value of investments, net"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Our Pipeline': '我們的產品線'}",
+    "{'Lead Programs': '重點計畫'}",
+    "{'Hereditary Angioedema (\"HAE\") Program': '遺傳性血管神經性水腫 (\"HAE\") 計畫'}",
+    "{'Transthyretin (\"ATTR\") Amyloidosis Program': '轉鐵蛋白 (\"ATTR\") 淤積症計畫'}",
+    "{'Our Research Programs': '我們的研究計畫'}",
+    "{'Collaborations and Other Arrangements': '合作與其他協議'}",
+    "{'Regeneron Pharmaceuticals, Inc. (\"Regeneron\")': '再生元藥物製造公司 (\"Regeneron\")'}",
+    "{'Other Collaborations': '其他合作'}",
+    "收購 Rewrite Therapeutics Inc. (\"Rewrite\")",
+    "潛在未來合作關係",
+    "智慧財產權",
+    "Caribou Biosciences 獲授權智慧財產權 (\"Caribou\")",
+    "製造",
+    "政府規範與產品核准",
+    "美國基因與細胞治療產品開發流程",
+    "美國審查與核准程序"
+   ],
+   "paragraphs": [
+    "Intellia Therapeutics, Inc. (\"we,\" \"us,\" \"our,\" \"Intellia,\" or the \"Company\") 為一領導生技藥品公司，專注於透過 CRISPR 基因編輯及其他核心技術革新醫療。我們的使命是透過開發與商業化具潛在根治效果的治療方式，來改變患有嚴重疾病的患者的生活。憑藉深厚的科學、技術與臨牀開發經驗，我們旨在重新定義醫療的標準，透過具持久療效的方式治療疾病的根源。",
+    "在超過十年的時間內，Intellia 已應用其專有技術與專業知識，包括基於 CRISPR 的基因編輯技術、寡核苷酸與脂質奈米粒子 (\"LNPs\")，來開發新型、首創的產品候選藥物。這包括開發 lonvoguran ziclumeran (\"lonvo-z,\" 也稱為 NTLA-2002) 用於治療遺傳性血管神經性水腫 (\"HAE\")，以及 nexiguran ziclumeran (\"nex-z,\" 也稱為 NTLA-2001) 用於治療轉鐵蛋白 (\"ATTR\") 淤積症。這些領先產品候選藥物為首個進入第三期臨牀開發的體內基因編輯產品候選藥物。這些透過系統性給藥的基於 CRISPR 的候選藥物，設計用以解決高未滿足需求的疾病，透過單次靜脈注射 (\"IV\") 進行治療，且可在門診環境下施打。Lonvo-z 與 nex-z 目前處於第三期臨牀開發階段，我們正在準備 lonvo-z 在 2027 年第一季的預計商業上市。",
+    "為治療並潛在根治更廣泛的嚴重疾病，我們與合作夥伴正推動更多臨牀與前期產品候選藥物的開發。在過去的歷史中，我們已透過合作關係來擴展與加速產品候選藥物的開發。我們目前的合作關係包括與 Regeneron Pharmaceuticals, Inc. (\"Regeneron\") 的合作，以及其他專注於產品候選藥物開發的研究合作。",
+    "我們的策略為 (1) 推進我們領先的基於 CRISPR 的產品候選藥物的臨牀開發，(2) 建立並運用完整的商業階段基礎設施，(3) 利用我們的專業知識與專有技術擴展產品線，以及 (4) 與合作夥伴合作以擴展我們的技術應用範圍並最大化我們的投資回報。",
+    "推進我們領先的基於 CRISPR 的產品候選藥物的臨牀開發。我們專注於成功完成我們領先產品候選藥物的晚期臨牀開發，lonvo-z 用於治療患有 HAE 的患者，nex-z 用於治療患有 ATTR 淤積症伴心肌病 (\"ATTR-CM\") 以及遺傳性 ATTR 淤積症伴多發性神經病變 (\"ATTRv-PN\") 的患者。作為唯一處於第三期臨牀開發的體內基因編輯產品候選藥物，lonvo-z 與 nex-z 被定位在新一波醫療的前沿，旨在治療疾病的根源，而非其症狀。這些第三期臨牀試驗旨在使我們能夠取得監管核准與上市許可，以實現我們最初的承諾，為患者、醫療體系及其他利害關係人帶來效益。",
+    "建立並運用完整的商業階段基礎設施。雖然成功完成我們的晚期臨牀試驗是實現我們產品候選藥物潛在價值的關鍵步驟，我們正在建立一個完整的基礎設施，包括專注於美國 (\"U.S.\") 的商業與醫療事務現場團隊，以提高我們在 lonvo-z、nex-z 及早期階段產品候選藥物開發上所投入投資的回報。歷史上，我們已高度重視建立對成功臨牀階段組織至關重要的能力。為準備可能的正面第三期臨牀試驗結果、生物製品許可申請 (\"BLA\") 提交與成功商業上市，我們已透過聘請擔任預商業活動的高階領導者來強化組織，並有計畫擴編此團隊以實現成功上市，若獲得核准。最終，我們的目標是成為一個自給自足的生技藥品公司，擁有從藥物發現至商業化的完整能力。我們的目標是透過運用我們的內部基礎設施與外部合作，為多個利害關係人 ― 患者、處方者、支付者、股東與員工 ― 創造價值。",
+    "利用我們的專業知識與專有技術擴展產品線。我們致力於透過開發新型治療候選藥物，利用 CRISPR 基因編輯及其他核心技術，來解決多種未滿足的醫療需求。這些努力已產生我們目前的晚期產品候選藥物，lonvo-z 與 nex-z，以及我們正在獨立開發與與合作夥伴共同開發的多種早期階段計畫。我們的目標是透過開發更多利用我們專有技術的產品候選藥物，持續在該領域保持先驅地位，這些技術是我們十多年研究與開發所取得或發展的，包括多模式 CRISPR 基因編輯、LNP 與寡核苷酸技術。",
+    "與合作夥伴合作以擴展我們的技術應用範圍並最大化我們的投資回報。自我們成立以來，合作關係一直是我們策略的重要組成部分。這些關係使我們能夠補強科學專業知識，擴展我們的技術應用範圍，並為我們解決更多患者的未滿足需求提供潛力。合作關係也能使我們透過 upfront 支付、里程碑達成、版稅與/或成本分擔安排等方式，產生更高的投資回報，這些投資已投入我們的核心技術與產品候選藥物。我們認為合作關係可能在擴展我們產品候選藥物在美國以外市場的商業潛力、推動我們技術的開發與部署，以及最大化我們投資回報以造福我們的利害關係人，包括患者、醫療體系與股東方面扮演關鍵角色。",
+    "以下表格總結了我們研究與開發計畫的現狀：",
+    "我們是第一家進展至第三期臨牀開發的 in vivo 基因編輯產品候選藥物的公司。這些候選藥物是為患有 HAE 以及 ATTR 淤積性癥候羣的患者所開發。我們的研究工作重點在於追蹤肝臟內的其他目標，並擴展我們的目標與遞送技術，用以治療肝臟以外的疾病。",
+    "HAE 是一種罕見的遺傳性疾病，特徵為身體各器官與組織中嚴重、反覆且難以預測的發炎性攻擊，可能導致疼痛、行動困難與威脅生命。身體最常見的腫脹部位為四肢、面部、腸道與呼吸道。輕微的外傷或壓力可能引發攻擊，但腫脹有時會在無已知觸發因素的情況下發生。涉及腸道的發作會導致嚴重的腹痛、噁心與嘔吐。呼吸道的腫脹可能限制呼吸，導致呼吸道阻塞，危及生命。此疾病是由 Bradykinin（一種導致腫脹的蛋白質）水平升高所引起。大多數 HAE 患者有 C1 蛋白酶抑制劑（\"C1-INH\"）蛋白質缺乏，這種蛋白質通常會防止 Bradykinin 的過度產生，而 Bradykinin 會導致 HAE 患者反覆、行動困難且可能致命的腫脹發作。據估計，全球約有每 5 萬人中 1 人受到 HAE 影響，美國約有 7,000 名患者正在接受 HAE 的治療。",
+    "目前美國已批准超過 10 種產品作為 HAE 的長期預防性（\"LTP\"）或按需治療。LTPs 是預期為終身治療，可能透過靜脈注射（\"IV\"）或皮下注射（\"SC\"）每週兩次，或每日口服給藥，以確保持續的病程抑制，達到疾病控制。即使進行慢性治療，仍會有突破性發作。因此，大多數 HAE 患者也會被處方按需治療，以緩解或解決他們的發作。",
+    "除了持續的慢性治療負擔，市場研究顯示，患者同時仍持續面臨與 HAE 發作的不可預測性以及他們支付藥物費用能力相關的心理壓力，以及其他因素所造成的負擔。",
+    "Kallikrein 抑制是一種已臨牀驗證的 HAE 發作預防治療策略。Lonvo-z 是本公司全權擁有、正在研究中的 in vivo CRISPR 基因編輯治療候選藥物，設計用以在肝臟中使 kallikrein B1（\"KLKB1\"）基因失活，驅動一致、深層且可能終身降低 kallikrein 水平，並透過一次治療大幅減少或消除 HAE 發作。它也旨在消除目前可用 HAE 治療所帶來的重大負擔。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "管理概覽",
+    "財務概覽",
+    "營運結果",
+    "截至2025年12月31日年度與2024年度之比較",
+    "截至2025年12月31日",
+    "期間變動",
+    "(以千為單位)",
+    "流動性及資本資源",
+    "營運活動所使用的淨現金",
+    "投資活動所產生的淨現金",
+    "籌資活動所產生的淨現金",
+    "契約義務",
+    "關鍵會計政策及會計估計之使用",
+    "收入認列",
+    "累積研究與開發費用",
+    "股票基於報酬",
+    "{'original': 'Recent Accounting Pronouncements', 'translated': '最近會計準則公告'}"
+   ],
+   "paragraphs": [
+    "本公司管理階層對於財務狀況及營運成果之討論與分析，係基於本年度報告表10-K所包含之合併財務報表，該財務報表係依照美國通用會計準則（\"U.S. GAAP\"）及依照1934年證券交易法（已修正）所頒佈之Regulation S-X規則編製。此討論與分析應與這些合併財務報表及相關附註一併閱讀，附註內容載於本年度報告表10-K之其他部分。本討論與分析中所包含之部分資訊，或於本年度報告表10-K其他部分所載之資訊，包括有關本公司業務計畫與策略之資訊，包含風險與不確定性之預測性陳述。由於許多因素，包括於本年度報告表10-K第一部分，第1A項風險因素中所列示之因素，本公司實際結果可能與預測性陳述中所描述或暗示之結果有重大差異。",
+    "有關財務年度2023年之資訊，已包含於本公司2024年12月31日財務年度之年度報告表10-K，於第二部分，第7項\"管理階層對於財務狀況與營運成果之討論與分析\"中，該報告於2025年2月27日提交至證券交易委員會（\"SEC\"）。",
+    "Intellia Therapeutics, Inc.（\"我們\"、\"我們公司\"、\"我們的\"、\"Intellia\"或\"本公司\"）為一領導的生物科技公司，專注於利用CRISPR基因編輯及其他核心技術革新醫療。我們的使命是透過開發與商業化潛在根治性治療，來改變患有嚴重疾病的患者的生活。憑藉深厚的科學、技術與臨牀開發經驗，我們旨在透過永續治療疾病的根本原因，重新定義醫療標準。",
+    "超過十年來，Intellia已運用其專有技術與專業知識，包括基於CRISPR的基因編輯技術、寡核苷酸與脂質奈米粒子（\"LNPs\"），來開發創新且為市場首見的產品候選藥物。這包括開發lonvoguran ziclumeran（\"lonvo-z\"，亦稱為NTLA-2002）用於治療遺傳性血管神經性水腫（\"HAE\"），以及nexiguran ziclumeran（\"nex-z\"，亦稱為NTLA-2001）用於治療轉鐵蛋白（\"ATTR\"）澱積症。這些產品候選藥物為首個進入第三期臨牀開發的體內基因編輯產品候選藥物。這些系統性給藥的基於CRISPR的產品候選藥物，設計用以透過單次靜脈注射（\"IV\"）治療具有高度未滿足醫療需求的疾病，該注射可在門診環境中進行。Lonvo-z與nex-z目前處於第三期臨牀開發階段，我們正為lonvo-z於2027年上半年的預計商業上市做準備。如需更多有關本公司業務、使命與產品開發管道之資訊，請參閱第一部分中標題為\"概覽\"、\"策略\"與\"產品開發管道\"之各節。",
+    "本公司營業收入包含合作收入，包括與合作協議相關之 upfront 技術使用權付款、技術使用費、研究材料出貨、研究經費及里程碑付款之認列金額。",
+    "研究與開發費用包含執行研究與開發活動所產生之費用，例如全職研究與開發員工之薪資與福利（包含股票選擇權薪酬），分配之設施相關費用、管理費用、授權與里程碑費用、委外研究、開發與製造服務、臨牀試驗費用及其他相關費用。",
+    "一般及行政費用主要包含本公司高階管理、財務、法律、人力資源、業務發展與支援部門員工之薪資與福利（包含股票選擇權薪酬）。一般及行政費用亦包含未包含於研究與開發費用之分配設施相關費用、與長期資產減損或加速折舊相關之調整、持續建設商業基礎設施之費用、旅費及會計、稅務與法律服務之專業費用（包含智慧財產權相關法律服務），及其他顧問費用與費用。",
+    "其他收入，淨額包含本公司現金、現金等價物、限制性現金等價物與市場性證券所產生之利息收入，以及投資之公允價值變動。",
+    "以下有關財務狀況及營運成果之討論，應與隨附之合併財務報表及相關附註同時閱讀。",
+    "以下表格總結我們之營運成果：",
+    "合作營收 67,671 57,877 9,794",
+    "營運費用：研究發展 388,861 466,311 (77,450 總務及行政",
+    "119,800 125,829 (6,029 營運費用總計 508,661 592,140 (83,479 營運虧損 (440,990",
+    "其他收入，淨額：利息收入 29,195 47,807 (18,612 投資公允價值變動淨額"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司業務相關的風險",
+    "CRISPR 基因編輯技術僅於近期獲得臨牀驗證，可用於人類治療用途。",
+    "本公司透過 CRISPR 系統發現及開發新型治療藥物的策略尚未經過驗證，可能永遠無法產生可上市的產品。",
+    "若本公司無法開發出可行的產品候選藥物、取得任何產品候選藥物的監管批准，或成功上市並銷售任何相關產品，本公司可能永遠無法實現盈利。",
+    "臨牀開發過程涉及漫長且昂貴的程序，且結果具有不確定性。",
+    "本公司可能產生額外成本或遭遇延宕，導致無法完成任何產品候選藥物的開發與商業化。",
+    "即使本公司取得任何產品候選藥物的監管批准，這些候選藥物可能仍無法在醫學界（包括醫生、病人、醫院及第三方付款者等）中獲得市場接受度。",
+    "與智慧財產權相關的風險",
+    "{'original': 'Third party claims of intellectual property infringement against us, our licensors or our collaborators may prevent or delay our product discovery, research, development, and/or commercialization efforts.', 'translated': '第三方對本公司、我們的授權人或合作夥伴提出智慧財產權侵權之聲請，可能妨礙或延宕我們產品之發現、研究、開發及/或商業化作業。'}"
+   ],
+   "paragraphs": [
+    "投資本公司的普通股涉及高度風險。在評估本公司及其業務時，應謹慎考慮下列風險因素，除了本年度截至2025年12月31日的10-K年度報告及其他向證券交易委員會（\"SEC\"）提交的文件中所載的資訊。如果上述任何風險與不確定性實際發生，將可能對本公司業務、前景、財務狀況及營運結果造成重大且不利的影響。下列所述風險並非 exhaustive，也非本公司所面臨的唯一風險。隨時間推移，可能出現新的風險因素，本公司無法預測任何因素或因素組合對本公司業務、前景、財務狀況及營運結果可能產生的影響。",
+    "與臨牀前及臨牀開發相關的風險",
+    "本公司專注於開發利用CRISPR基因組編輯技術的創新療法，包括體內療法及體外工程化細胞療法。儘管近年在基因療法及基因組編輯領域已有顯著進展，但基於CRISPR的體內基因組編輯技術仍屬較新，其治療效益尚 largely unproven。本公司開發療法的策略，係透過CRISPR技術改變、引入或移除基因資訊，以治療各種疾病，或在體外工程化人類細胞以製造治療性細胞，再引入人體以解決根本疾病。",
+    "本公司成功開發產品將需要解決多項問題，包括開發或取得技術以安全地將治療劑遞送至人體目標細胞，或在體外工程化人類細胞，使修改後的細胞在遞送至患者時具有治療效果，優化這些產品的療效與特異性，並證明這些產品的治療選擇性、療效、強度、純度與安全性。本公司無法保證能成功解決任何或所有這些問題。針對基於CRISPR的療法而言，本公司目前處於臨牀階段開發nexiguran ziclumeran（\"nex-z\"，亦稱NTLA-2001）（待解決MAGNITUDE試驗的臨牀暫停）及lonvoguran ziclumeran（\"lonvo-z\"，亦稱NTLA-2002），並朝向臨牀測試推進其他體內及體外產品候選品項。儘管美國（\"U.S.\"）及歐盟（\"EU\"）已批准一種基於CRISPR的體外編輯療法，但目前美國、歐盟國家或其他關鍵司法管轄區尚未批准任何基於CRISPR的體內療法，本公司成功取得任何CRISPR產品候選品項批准的潛力仍屬不確定。",
+    "本公司未來的成功亦高度依賴CRISPR基於基因組編輯技術、細胞遞送方法及治療應用於本公司持續進行研究與開發的適應症。本公司可能根據新資料的出現及在開發基於CRISPR的療法方面的經驗，決定調整或放棄這些計畫。本公司無法確定基於CRISPR的努力與技術是否能產生安全有效、足夠純淨或強效、可製造、可擴規模或具盈利潛力的產品，用於本公司所選擇的適應症，或任何其他適應症。",
+    "或任何其他適應症。本公司無法保證開發任何特定基於CRISPR的治療產品的進展或成功，能轉化為其他基於CRISPR的產品。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,221 @@
+{
+ "ticker": "ANDE",
+ "cik": "0000821026",
+ "accession": "0000821026-26-000010",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Overview",
+    "Segment Descriptions",
+    "Human Capital Resources and Management",
+    "Government Regulation",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "The Andersons, Inc. (the \"Company\") is a leading, nimble North American agriculture and renewable fuels company. Founded in Maumee, Ohio in 1947, the Company is a significant player in the North American agricultural and renewable fuels supply chains.",
+    "The Company's operations are classified into two reportable business segments: Agribusiness and Renewables. Both of these segments are organized based upon the nature of products and services offered and aligns with the management structure. See Note 10 to the Consolidated Financial Statements in Item 8 for information regarding business segments.",
+    "The Agribusiness segment is a diversified business focusing on capturing profits through relationships with agricultural producers and end users as both a supplier and customer. This includes merchandising and managing logistics across a wide range of commodities as well as being a manufacturer, distributor, and retailer of agricultural and related plant nutrients. The segment specializes in the movement of physical commodities such as: whole grains, grain products, feed ingredients and domestic fuel products among other agricultural commodities. The Company has a broad geographic footprint with a diversified portfolio of physical commodities, although the principal commodities sold by the Company are corn, wheat and soybeans. Exported commodity sales are made both through intermediaries and direct shipments to foreign countries.",
+    "We also handle bulk agricultural fertilizers, produce specialized high-value nutrient products, and service a variety of industrial and consumer markets with related products.",
+    "In support of our commodity handling activities, Agribusiness also operates grain elevators across the United States and Canada where income is earned on commodities bought and sold through the elevator, commodities that are purchased and conditioned for resale, and commodities that are held in inventory until a future period, earning an elevation margin. Elevation margins consist of appreciation in the basis value of commodities held, which represents the difference between the cash price of a commodity in one of the Company's facilities and an exchange traded futures price (\"basis\"); appreciation or depreciation between different futures exchange contract months (\"spread\"); and commodities stored for others upon which storage fees are earned. The segment's asset-based grain handling business is seasonal in nature in that the largest portion of the principal grains are harvested and delivered from the farm and commercial elevators typically in July for wheat and September through November for corn and soybeans; however, depending on market conditions a significant portion of the principal grains may also be bought, sold and handled throughout the year.",
+    "Fixed price purchase and sale commitments as well as commodities held in inventory, expose the Company to risks related to adverse changes in market prices. Grain prices are typically comprised of two components, futures prices on regulated commodity exchanges and local basis adjustments. The Company manages the futures price risk by entering into exchange-traded futures and option contracts with regulated commodity exchanges. These regulated commodity exchanges maintain futures markets for the grains merchandised by the Company. Futures prices are determined by worldwide supply and demand. The business also offers a number of unique grain marketing, risk management and origination services to its customers and ethanol plants within the Renewables segment for which it collects fees.",
+    "The Company competes in the sale of commodities and nutrient inputs with other public and private grain brokers, farm retailers, elevator operators and farmer owned cooperatives. Some of the Company's competitors are also its customers. Competition is based primarily on price, service and reliability. For agricultural commodities, the Company often buys in smaller lots, so its competition for the purchase of commodities is generally local or regional in scope, although there are some large national and international companies that maintain regional grain purchase and storage facilities. Significant portions of grain bushels purchased and sold are made using forward contracts. For many of our crop inputs, particularly fertilizer, we procure large volumes from a small number of suppliers and our purchasing power is important in our ability to deliver value to our customers. Sales of agricultural nutrients and turf related products are heaviest in the spring and fall.",
+    "The Andersons, Inc. | 2025 Form 10-K | 2 Renewables",
+    "The Renewables segment produces, purchases and sells ethanol and co-products. With its four ethanol plants, the segment demonstrates an expertise in ethanol plant management, logistics and commercialization of ethanol and co-products with a focus on leading the industry in margins per bushel. The segment also operates a merchandising and trade portfolio of ethanol, ethanol co-products and other biofuels, such as renewable feedstocks.",
+    "On July 31, 2025, the Company acquired the remaining 49.9% ownership interest in The Andersons Marathon Holdings LLC (\"TAMH\"). Upon completion of the transaction, TAMH was renamed The Andersons Renewables, LLC. The Andersons Renewables, LLC is comprised of four ethanol plants located in Iowa, Indiana, Michigan, and Ohio. These plants have a combined nameplate capacity of 405 million gallons but have a history of outperforming the nameplate capacity.",
+    "During the year ended December 31, 2023, the Company also owned 51% of ELEMENT, LLC (\"ELEMENT\") and ICM, Inc. (\"ICM\") owned the remaining 49% interest. ELEMENT was comprised of a 70 million-gallon-per-year bio-refinery in Kansas. ELEMENT was concluded to be a variable interest entity (\"VIE\") and had been consolidated within the Company's Consolidated Financial Statements. On April 18, 2023, the Company ceased to have a controlling financial interest and was no longer deemed to be the primary beneficiary in the subsidiary. Accordingly, the Company deconsolidated ELEMENT at that time and began accounting for the subsidiary as an equity method investment. Substantially all of the ELEMENT's assets were sold on January 31, 2024, see Note 17 of the Consolidated Financial Statements for more information.",
+    "The Company's \"Other\" activities include corporate income, a small corporate venture fund and the cost for functions that provide support and services to the operating segments. The results include expenses and benefits not allocated to the operating segments and other elimination and consolidation adjustments.",
+    "As of December 31, 2025, the Company had a total of 2,137 employees across its Agribusiness and Renewables segments and Enterprise Service functions. This total was comprised of 898 salary, 1,130 hourly and 109 seasonal employees who conducted work at approximately 180 locations across the United States, Canada, United Kingdom, Switzerland, Mexico, Romania and Singapore. Sixty-three of the Company's locations included less than 10 employees.",
+    "•Recruiting: The Company aims to attract the best talent to sustain our ongoing success and this is a key aspect of succession planning across the Company. Talent acquisition efforts target both internal and external candidates. The Company advertises opportunities on large online job boards, state job boards and various targeted diversity job boards, as well as geographically specific media channels. It also engages in campus recruiting efforts for entry level professional talent, internships and professional development programs. The Company strives to find candidates within its geographic footprint to generate a diverse talent pool. It believes that a diverse workforce with a range of experiences and perspectives is a significant driver of sustainable innovation and growth."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Our business is affected by the supply and demand of commodities and is sensitive to factors outside of our control. Adverse price movements could negatively affect our profitability and results of operations.",
+    "Some of our business segments operate in highly regulated industries. Changes in government regulations or trade association policies could adversely affect our results of operations.",
+    "The Company is subject to uncertainty regarding eligibility and monetization of Section 45Z Tax Credits",
+    "Our indebtedness could negatively affect our financial condition, decrease our liquidity and impair our ability to operate the business.",
+    "Our business involves considerable safety risks. Significant unexpected costs and liabilities would have an adverse effect on our profitability and overall financial position.",
+    "The Company faces risks related to international conflicts, acts of terrorism and wars that may adversely impact the Company's financial condition or results of operations.",
+    "We are subject to global and regional economic downturns and related risks including health epidemics, pandemics and similar outbreaks.",
+    "The Company may not be able to effectively integrate businesses it acquires.",
+    "If our goodwill, amortizable intangible assets and long-lived assets become impaired, then we could be required to record a significant charge to earnings.",
+    "Our business depends on our ability to successfully manage productivity improvements and ongoing organizational change, including our ability to attract and retain talented employees.",
+    "Compliance with evolving regulations regarding disclosure of emissions and metrics and/or climate change may impact our reputation, increase our operating costs, and reduce the value of our assets and products.",
+    "The Company faces transition risks and physical risks related to climate change and electrification.",
+    "The Company's information technology systems may impose limitations or failures which may affect the Company's ability to conduct its business.",
+    "We are at risk of cyber-incidents or other security breaches that could undermine our ability to operate effectively."
+   ],
+   "paragraphs": [
+    "The Company's operations are subject to risks and uncertainties that could cause actual results to differ materially from those discussed in this Form 10-K and could have a material adverse impact on the financial results of the Company. The risks described below are not the only risks facing the Company. Additional risks and uncertainties not currently known or currently viewed to be immaterial may also materially and adversely affect business, financial condition or results of operations. These risks can be impacted by factors beyond management's control. The following risk factors should be read carefully in connection with evaluating the Company and the forward-looking statements contained elsewhere in this Form 10-K.",
+    "Risks Related to our Business and Industry",
+    "Our Agribusiness and Renewables businesses buy, sell and hold inventories of agricultural input and output commodities, some of which are readily traded on commodity futures exchanges. Unfavorable weather conditions, both local and worldwide, as well as other factors beyond our control, can affect the supply and demand of these commodities and expose us to liquidity pressures to finance hedges in the commodity business in rapidly rising markets. In our Agribusiness segment, changes in the supply and demand of these commodities can also affect the value of inventories that we hold, as well as the price of raw materials as we are unable to effectively hedge these commodities. Increased inventory and raw material costs would decrease our profit margins and adversely affect our results of operations.",
+    "Corn - The principal raw material used to produce ethanol and co-products is corn. As a result, an increase in the price of corn, particularly corn basis, in the absence of a corresponding increase in petroleum-based fuel prices will typically decrease ethanol margins thus adversely affecting financial results in the Renewables segment. At certain levels, the relationship between corn and petroleum-based fuel prices may make ethanol uneconomical to produce for fuel markets. The price of corn is influenced by weather conditions and other factors affecting crop yields, shifts in acreage allocated to corn versus other major crops and general economic and regulatory factors. These factors include government policies and subsidies with respect to agriculture and international trade, and global and local supply and demand. The significance and relative impact of these factors on the price of corn is difficult to predict. Any event that tends to negatively affect the supply of corn, such as adverse weather or crop disease, could increase corn prices and adversely impact operating results. In addition, we may also have difficulty, from time to time, in physically sourcing corn on economical terms due to supply shortages. High costs or shortages could require us to suspend ethanol operations until corn is available on economical terms, which would have an adverse impact on operating results.",
+    "Commodities - While we manage the risk associated with agricultural commodity price changes for our commodity inventory positions with derivative instruments, including purchase and sale contracts, we are unable to offset 100% of the price risk of each transaction due to timing, availability of futures and options contracts, and third-party non-performance risk. Furthermore, there is a risk that the derivatives we employ will not be effective in offsetting all of the risks that we are trying to manage. This can happen when the derivative and the underlying value of grain inventories and purchase and sale contracts are not perfectly correlated. Our commodity derivatives, for example, do not perfectly correlate with the basis component of our commodity inventory and contracts. Differences can reflect time periods, locations or product forms. Although the basis component is smaller and generally less volatile than the futures component of our grain market price, basis moves on a large commodity position can significantly impact the profitability of the Company.",
+    "Our futures, options, and over-the-counter contracts are subject to margin calls. If there are large movements in commodity markets, we could be required to post significant levels of margin deposits, which would impact our liquidity. There is no assurance that the efforts we have taken to mitigate the impact of the volatility of the prices of commodities upon which we rely will be successful. Any sudden change in the price of these commodities could have an adverse impact on our business and results of operations."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Executive Overview",
+    "Agribusiness",
+    "Year Ended December 31,",
+    "(in thousands) 2025 2024",
+    "Ethanol (gallons shipped) 789,242 793,554",
+    "E-85 (gallons shipped) 43,438 47,073",
+    "Operating Results",
+    "Year Ended December 31, 2025",
+    "(in thousands) Agribusiness Renewables Other Total",
+    "Sales and merchandising revenues $ 8,260,004 $ 2,748,924 $ — $ 11,008,928",
+    "Cost of sales and merchandising revenues 7,703,097 2,592,180 — 10,295,277",
+    "Gross profit 556,907 156,744 — 713,651",
+    "Operating, administrative and general expenses 486,935 42,680 55,619 585,234",
+    "Asset impairment 14,777 3,352 — 18,129",
+    "Interest expense (income) 43,482 5,681 (2,004) 47,159",
+    "Other income (expense), net 44,874 35,071 (1,605) 78,340",
+    "Income (loss) before income taxes 56,587 140,102 (55,220) 141,469",
+    "Income (loss) before income taxes attributable to the noncontrolling interests (275) 23,863 — 23,588",
+    "Non-GAAP Income (loss) before income taxes attributable to the Company $ 56,862 $ 116,239 $ (55,220) $ 117,881",
+    "Year Ended December 31, 2024",
+    "Comparison of 2025 with 2024",
+    "Liquidity and Capital Resources",
+    "(in thousands) December 31, 2025 December 31, 2024 Variance",
+    "Current Assets",
+    "Cash and cash equivalents $ 98,283 $ 561,771 $ (463,488)",
+    "Accounts receivable, net 652,472 764,550 (112,078)",
+    "Inventories 1,365,121 1,286,811 78,310",
+    "Commodity derivative assets – current 135,466 148,801 (13,335)",
+    "Other current assets 125,067 88,344 36,723",
+    "Current Liabilities",
+    "Short-term debt 249,420 166,614 82,806",
+    "Trade and other payables 918,691 1,047,436 (128,745)",
+    "Customer prepayments and deferred revenue 195,331 194,025 1,306",
+    "Commodity derivative liabilities – current 51,153 59,766 (8,613)",
+    "Current maturities of long-term debt 63,375 36,139 27,236",
+    "Accrued expenses and other current liabilities 208,427 227,192 (18,765)",
+    "Working Capital",
+    "(in thousands) December 31, 2025 December 31, 2024",
+    "Net cash provided by operating activities $ 176,998 $ 331,506",
+    "Net cash used in investing activities (195,315) (163,074)",
+    "Net cash used in financing activities (447,148) (250,359)",
+    "Contractual Obligations",
+    "Off-Balance Sheet Transactions",
+    "Critical Accounting Estimates"
+   ],
+   "paragraphs": [
+    "Effective January 1, 2025, the Company realigned its organizational structure to better reflect updates in management reporting resulting in a change in reportable segments. As a result, the former Trade segment was combined with the former Nutrient & Industrial segment in the newly formed Agribusiness segment along with several smaller business lines being moved between the Agribusiness and Renewables segments. All prior period segment information has been recast to conform to the current year presentation.",
+    "The agricultural commodity-based business is one in which changes in selling prices generally move in relationship to changes in purchase prices. Therefore, increases or decreases in prices of the commodities that the business deals in will have a relatively equal impact on sales and merchandising revenues and cost of sales and merchandising revenues and a much less significant impact on gross profit. As a result, changes in sales and merchandising revenues between periods may not necessarily be indicative of the overall performance of the business and greater emphasis should be placed on changes in gross profit."
+   ],
+   "focus": "Executive Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "公司簡介",
+    "分部說明",
+    "人力資源與管理",
+    "政府規範",
+    "可取得資訊"
+   ],
+   "paragraphs": [
+    "The Andersons, Inc. (the \"Company\") 為北美洲領先且靈活的農業與可再生能源燃料公司。於1947年在俄亥俄州馬姆基成立，本公司為北美洲農業與可再生能源燃料供應鏈的重要參與者。",
+    "本公司營運分為兩個應報告分部：農業業務與可再生能源。這兩個分部均根據所提供的產品與服務性質進行組織，並與管理架構一致。有關業務分部資訊，請參閱第8項之合併財務報表附註10。",
+    "農業業務分部為一多元化業務，透過與農業生產者及最終用戶的關係來獲取利潤，作為供應商與客戶。此包括跨廣泛商品的販售與物流管理，以及作為農業及相關植物營養素的製造商、經銷商與零售商。此分部專注於實體商品的運輸，例如：整粒穀物、穀物製品、飼料原料與國內燃料產品等其他農業商品。本公司擁有廣泛的地理足跡與多元化的實體商品組合，不過本公司主要銷售的商品為玉米、小麥與大豆。出口商品銷售透過中介機構與直接運送到海外國家進行。",
+    "我們也處理大宗農業肥料，製造高價值的特殊營養產品，並以相關產品服務多樣的工業與消費者市場。",
+    "為支援我們的實體商品處理業務，農業業務同時運作美國與加拿大各地的穀倉，收入來自於在穀倉內買賣的商品、購入並準備再銷售的商品，以及存放至未來期間的商品，獲取穀倉邊際利潤。穀倉邊際利潤包含持有商品的基礎價值升值，代表本公司設施內商品現金價格與交易所交易期貨價格（\"基礎\"）之間的差異；不同期貨交易所合約月份之間的升值或減值（\"價差\"）；以及為他人存放的商品所收取的儲存費用。此分部的資產基礎穀物處理業務具有季節性，因為主要穀物的收穫與交付通常在7月（小麥）與9月至11月（玉米與大豆）進行；然而，根據市場條件，主要穀物也可能在全年進行買賣與處理。",
+    "固定價格買賣承諾以及存放於存貨中的商品，使本公司面臨市場價格不利變動的風險。穀物價格通常由兩部分組成，即受管制商品交易所的期貨價格與當地基礎調整。本公司透過與受管制商品交易所簽訂交易所交易期貨與選擇權合約來管理期貨價格風險。這些受管制商品交易所維持本公司販售穀物的期貨市場。期貨價格由全球供需決定。此業務也為其客戶與可再生能源分部的乙醇廠提供多種獨特的穀物行銷、風險管理與發行服務，並收取費用。",
+    "本公司與其他公開與私人穀物經紀商、農場零售商、穀倉運營商與農民所有合作社競爭銷售商品與營養素投入。部分本公司競爭對手同時也是其客戶。競爭主要基於價格、服務與可靠性。對於農業商品，本公司通常以較小批量購入，因此在購入商品的競爭通常為地方或區域性，雖然有一些大型國家與國際公司維持區域性的穀物購入與儲存設施。許多作物投入品的買賣均透過遠期合約進行。對於許多我們的作物投入品，特別是肥料，我們從少數供應商處購入大量商品，而我們的採購能力對我們為客戶提供價值的能力至關重要。農業營養素與草坪相關產品的銷售在春季與秋季達到高峯。",
+    "The Andersons, Inc. | 2025 Form 10-K | 2 可再生能源",
+    "再生能源應報告分部從事乙醇及共產品的生產、採購與銷售。擁有四座乙醇廠的該分部，展現了在乙醇廠管理、物流及乙醇與共產品商業化方面的專業能力，並專注於以每蒲式耳營收為導向，引領產業表現。該分部同時經營乙醇、乙醇共產品及其他生質燃料（如可再生能源原料）的貿易與行銷組合。",
+    "2025年7月31日，本公司取得The Andersons Marathon Holdings LLC（\"TAMH\"）剩餘49.9%的股權。交易完成後，TAMH更名為The Andersons Renewables, LLC。The Andersons Renewables, LLC包含四座位於愛荷華州、印地安那州、密歇根州及俄亥俄州的乙醇廠。這些廠的總裝置容量為405百萬加侖，但有歷史表現優於裝置容量的紀錄。",
+    "2023年度結算期間，本公司亦持有ELEMENT, LLC（\"ELEMENT\"）51%的股權，ICM, Inc.（\"ICM\"）持有剩餘49%的股權。ELEMENT包含一座位於堪薩斯州、年處理量為70百萬加侖的生質燃料廠。ELEMENT被認定為變動權益實體（\"VIE\"），並已納入本公司合併財務報表。2023年4月18日，本公司不再擁有控制性財務權益，亦不再被視為子公司的主要受益人。因此，本公司於該時點將ELEMENT從合併財務報表中移除，並改以權益法投資方式會計處理。ELEMENT的 substantially all 資產於2024年1月31日出售，詳見合併財務報表第17節附註。",
+    "本公司的\"其他\"業務包括公司所得、小型公司風險投資基金，以及提供支援與服務給營運分部的各項費用。結果包含未分配至營運分部的費用與利益，以及其他消除與合併調整項目。",
+    "2025年12月31日，本公司在農業業務與再生能源分部及企業服務功能總計有2,137名員工。此總數包含898名薪資員工、1,130名時薪員工及109名季節性員工，這些員工在美國、加拿大、英國、瑞士、墨西哥、羅馬尼亞及新加坡約180個據點工作。本公司63個據點的員工數目少於10人。",
+    "•徵才：本公司旨在吸引最佳人才以維持持續成功，這是本公司繼任計畫的重要方面。人才招募工作針對內部及外部候選人。本公司在大型線上職缺板、州政府職缺板及各種針對性多元職缺板，以及地理特定媒體頻道上刊登職缺。同時也進行校園徵才，以招募專業人才、實習生及專業發展計畫。本公司致力於在地理範圍內尋找候選人，以產生多元人才庫。本公司認為，具有多樣經驗與觀點的多元員工，是可持續創新與成長的重要驅動力。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "執行長摘要",
+    "農業商業",
+    "截至12月31日年度",
+    "(千) 2025 2024",
+    "乙醇（出貨加侖數） 789,242 793,554",
+    "E-85（出貨加侖數） 43,438 47,073",
+    "營運表現",
+    "截至12月31日年度, 2025",
+    "（千美元）農業業務 可再生能源 其他 總計",
+    "銷售及零售收入 $ 8,260,004 $ 2,748,924 $ — $ 11,008,928",
+    "銷售及零售收入成本 7,703,097 2,592,180 — 10,295,277",
+    "毛利 556,907 156,744 — 713,651",
+    "營運、行政及一般費用 486,935 42,680 55,619 585,234",
+    "資產減損 14,777 3,352 — 18,129",
+    "利息費用（收入） 43,482 5,681 (2,004) 47,159",
+    "其他收入（費用），淨額 44,874 35,071 (1,605) 78,340",
+    "營業收入（損失）於所得稅前 56,587 140,102 (55,220) 141,469",
+    "營業收入（損失）於所得稅前歸屬於非控制性權益之損失 (275) 23,863 — 23,588",
+    "非GAAP營業收入（損失）於所得稅前歸屬於本公司 $ 56,862 $ 116,239 $ (55,220) $ 117,881",
+    "截至2024年12月31日止年度",
+    "2025年與2024年比較",
+    "流動性及資本資源",
+    "(以千為單位) 2025年12月31日 2024年12月31日 差異",
+    "流動資產",
+    "現金及約當現金 98,283 561,771 (463,488)",
+    "應收帳款，淨額 652,472 百萬美元 764,550 百萬美元 (112,078 百萬美元)",
+    "存貨 1,365,121 百萬美元 1,286,811 百萬美元 78,310 百萬美元",
+    "商品衍生資產 – 流動 135,466 百萬美元 148,801 百萬美元 (13,335 百萬美元)",
+    "其他流動資產 125,067 百萬美元 88,344 百萬美元 36,723 百萬美元",
+    "流動負債",
+    "短期債務 249,420 百萬美元 166,614 百萬美元 82,806 百萬美元",
+    "貿易及其他應付款 918,691 百萬美元 1,047,436 百萬美元 (128,745 百萬美元)",
+    "客戶預付款及遞延收入 195,331 194,025 1,306",
+    "商品衍生工具負債 – 流動 51,153 59,766 (8,613)",
+    "長期負債之流動成熟部分 63,375 36,139 27,236",
+    "應計費用及其他流動負債 208,427 227,192 (18,765)",
+    "營運資金",
+    "(以千為單位) 2025年12月31日 2024年12月31日",
+    "營運活動所提供之淨現金 $ 176,998 $ 331,506",
+    "投資活動所使用之淨現金 (195,315) (163,074)",
+    "籌資活動所使用的現金 (447,148) (250,359)",
+    "契約性義務",
+    "表外交易",
+    "關鍵會計估計"
+   ],
+   "paragraphs": [
+    "自 2025 年 1 月 1 日起，本公司重新調整其組織結構，以更符合管理報告的更新，導致應報告分部產生變更。因此，原貿易分部與原營養與工業分部合併，組成新成立的農業業務分部，同時數個較小的業務線亦被移動至農業業務分部與可再生能源分部之間。所有往期段資訊均已重新整理，以符合當前年度的呈現方式。",
+    "以農產品為基礎的業務，其銷售價格的變動通常與採購價格的變動相互關聯。因此，所交易農產品價格的增加或減少，將對銷售與進貨收入及銷售與進貨成本產生相對等的影響，對毛利率的影響則相對較小。因此，不同期間銷售與進貨收入的變動，未必能反映業務整體表現，應更重視毛利率的變動。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "本公司業務受商品供需影響，且對無法控制的外部因素相當敏感。不利的價格變動可能對本公司利潤及營運結果產生負面影響。",
+    "本公司部分業務分部從事高度管制的產業。政府規範或產業協會政策的變動可能對本公司營運結果產生負面影響。",
+    "本公司面臨有關第 45Z 稅抵減資格與價值實現的不確定性。",
+    "本公司負債可能對財務狀況產生負面影響，降低流動性，並影響本公司營運業務的能力。",
+    "本公司業務涉及相當程度的安全風險。重大且未預期的成本與負債將對利潤及整體財務狀況產生負面影響。",
+    "本公司面臨國際衝突、恐怖攻擊及戰爭等風險，這些風險可能對本公司財務狀況或營運結果產生負面影響。",
+    "本公司受全球及區域經濟衰退及相關風險影響，包括健康疫情、大流行病及類似疫情爆發。",
+    "本公司可能無法有效整合所取得的業務。",
+    "若本公司的商譽、可攤銷無形資產及長壽命資產發生減值，則本公司可能需記錄對營業收入的重大減損。",
+    "本公司業務取決於本公司成功管理生產力提升及持續組織變革的能力，包括本公司吸引及留住優秀員工的能力。",
+    "遵守有關排放量及指標與/或氣候變遷的演進法規，可能影響本公司的聲譽，提高本公司營運成本，並降低本公司資產及產品的價值。",
+    "本公司面臨與氣候變遷及電動化相關的轉換風險及實體風險。",
+    "本公司資訊科技系統可能產生限制或故障，可能影響本公司執行業務的能力。",
+    "本公司有風險遭遇網路事件或其他安全漏洞，可能影響本公司有效運作的能力。"
+   ],
+   "paragraphs": [
+    "本公司營運面臨風險與不確定性，可能導致實際結果與本Form 10-K 所討論之內容有重大差異，並可能對本公司財務結果產生重大不利影響。下列所描述的風險並非本公司唯一面臨的風險。尚有其他風險與不確定性，目前尚未知悉或未被視為重大，也可能對業務、財務狀況或營運結果產生重大且不利的影響。這些風險可能受管理層無法控制的因素影響。請謹慎閱讀下列風險因素，以評估本公司及本Form 10-K 其他處所包含的預測性陳述。",
+    "與本公司業務與產業相關的風險",
+    "本公司之農業與可再生能源業務買賣及持有農產品的存貨，其中一些產品可在商品期貨交易所進行交易。不利的天氣條件，無論是當地或全球性的，以及其他超出本公司控制範圍的因素，都可能影響這些商品的供需，使本公司面臨流動性壓力，以資助商品業務在快速上漲市場中的避險措施。在本公司農業業務分部中，這些商品的供需變化也可能影響本公司所持有的存貨價值，以及原材料價格，因為本公司無法有效避險這些商品。存貨與原材料成本增加將降低本公司之毛利率，並對營運結果產生不利影響。",
+    "玉米 - 生產乙醇與共產品的主要原材料為玉米。因此，玉米價格上升，特別是玉米基差，在沒有相應的石油基燃料價格上升情況下，通常會降低乙醇毛利率，從而對可再生能源業務分部的財務結果產生不利影響。在某些情況下，玉米與石油基燃料價格的關係可能使乙醇在燃料市場上變得不經濟。玉米價格受天氣條件及其他影響作物收成的因素影響，以及玉米與其他主要作物種植面積的變化，以及總體經濟與法規因素影響。這些因素包括政府對農業與國際貿易的政策與補貼，以及全球與當地的供需情況。這些因素對玉米價格的影響及其相對重要性，難以預測。任何導致玉米供應減少的事件，例如不利天氣或作物病害，都可能提高玉米價格，並對營運結果產生不利影響。此外，本公司有時可能因供應短缺而在採購玉米時遇到困難，導致成本高昂或短缺，這可能迫使本公司暫停乙醇生產，直到玉米以經濟性條件供應為止，這將對營運結果產生不利影響。",
+    "商品 - 雖然本公司透過衍生工具，包括買賣契約，來管理農產品價格變動的風險，但無法完全抵消每筆交易的價格風險，這是因為時間、期貨與選擇權契約的可取得性，以及第三方無法履行的風險所致。此外，我們所使用的衍生工具可能無法完全抵消我們試圖管理的風險。這會發生在衍生工具與基礎商品存貨及買賣契約的價值並未完全相關的情況下。例如，我們的商品衍生工具與商品存貨及契約的基差部分並未完全相關。差異可能反映時間、地點或產品形式。雖然基差部分通常較小且波動性較低，但對大宗商品部位而言，基差的變動可能對本公司利潤產生重大影響。",
+    "本公司之期貨、選擇權及場外交易契約可能因商品市場的大幅波動而產生追繳保證金的要求。若商品市場出現大幅波動，本公司可能需繳納大量保證金，這將影響本公司之流動性。本公司已採取措施以緩解對所依賴商品價格波動的影響，但無法保證這些措施會成功。這些商品價格的任何突然變動都可能對本公司業務及營運結果產生不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

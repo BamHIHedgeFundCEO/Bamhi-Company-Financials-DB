@@ -1,0 +1,215 @@
+{
+ "ticker": "RLAY",
+ "cik": "0001812364",
+ "accession": "0001193125-26-076739",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Strategy",
+    "Our Dynamo® Platform",
+    "Our Product Pipeline and Programs",
+    "Our Lead Product Candidate",
+    "Zovegalisib, the first known investigational allosteric, pan-mutant, and isoform-selective PI3Kα inhibitor, was designed to overcome these limitations. (Figure 1)",
+    "Figure 1: Non-selective inhibition of the PI3Kα pathway leads to toxicity challenges.",
+    "Figure 2: ReDiscover Trial design.",
+    "Figure 3: Phase 3 ReDiscover-2 Trial.",
+    "Figure 4: Initial development plan for Part 1 and 2 of the ReInspire Trial.",
+    "Other Pipeline Programs",
+    "Our Partnered Program",
+    "Zovegalisib– Breast Cancer and Solid Tumors",
+    "Zovegalisib– Vascular Anomalies",
+    "NRAS-Selective Inhibitor (RLY-8161)",
+    "Fabry Disease",
+    "Our Collaborations",
+    "License Agreements and Strategic Collaborations",
+    "Other Collaborations",
+    "Intellectual Property",
+    "Lirafugratinib"
+   ],
+   "paragraphs": [
+    "We are a clinical-stage, small molecule precision medicine company developing potentially life-changing therapies for patients living with cancer and genetic disease. Our Dynamo® platform integrates an array of leading-edge computational and experimental approaches designed to drug protein targets that have previously been intractable or inadequately addressed.",
+    "Precision medicine emerged as an approach for disease treatment as the understanding of the link between genetic alterations, protein dysfunction and diseases evolved. Precision medicine aims to specifically and potently drug genetically validated target proteins (i.e., genetic variants potentially implicated in biology of disease). However, some target proteins thus far have been intractable or inadequately addressed using conventional drug discovery tools. While conventional approaches are well-suited to solving some drug discovery problems such as orthosteric site kinase inhibitors, their reliance on static images of protein fragments limits their ability to gain accurate insights into the dynamic behavior of proteins in their natural state, which in turn limits their ability to discover medicines with exquisite specificity. Our approach pivots the understanding of protein targets from the industry-standard, static view, to a novel paradigm based on fundamental insights into protein motion. We then apply these novel insights into protein motion to drug discovery and design, which we term Motion-Based Drug Design®.",
+    "We have deployed our technology platform to build a pipeline of product candidates to address targets in precision medicine where there is clear evidence linking target proteins to disease and where molecular diagnostics can unambiguously identify relevant patients for treatment. We believe this approach will increase the likelihood of successfully translating a specific pharmacological mechanism into clinical benefit.",
+    "We are advancing a pipeline of medicine candidates to address targets in precision oncology and genetic disease, including zovegalisib (RLY-2608), our lead product candidate discussed below.",
+    "Zovegalisib (RLY-2608). Zovegalisib is the first known allosteric, pan-mutant and isoform-selective phosphoinostide 3 kinase alpha, or PI3Kα, inhibitor in clinical development. It is the lead program in our efforts to discover and develop mutant selective inhibitors of PI3Kα.",
+    "• ReDiscover Trial. In December 2021, we dosed the first patient in a first-in-human clinical trial for zovegalisib, or the ReDiscover Trial. Since then, we have predominantly focused on evaluating zovegalisib in combination with",
+    "fulvestrant for patients with HR+, HER2–, PI3Kα-mutated, locally advanced or metastatic breast cancer. We are also advancing triplet combination arms with zovegalisib, fulvestrant and cyclin dependent kinase 4/6, or CDK 4/6, inhibitors, or atirmociclib, the investigative selective-CDK4 inhibitor from Pfizer Inc., or Pfizer. In the second quarter of 2025, we initiated a global Phase 3 registrational study, or the ReDiscover-2 Trial, which is designed to evaluate the safety and efficacy of zovegalisib plus fulvestrant in PI3Kα-mutated, HR+/HER2- advanced breast cancer patients previously treated with a CDK4/6 inhibitor. The comparator arm in the ReDiscover-2 Trial is capivasertib plus fulvestrant. In February 2026, we announced that the U.S. Food and Drug Administration, or FDA, granted Breakthrough Therapy designation to zovegalisib in combination with fulvestrant for the treatment of adults with PIK3CA mutant HR+/HER2- locally advanced or metastatic breast cancer following recurrence or progression on or after treatment with a CDK4/6 inhibitor.",
+    "• Clinical Data. In June 2025, we announced updated interim clinical data for the zovegalisib plus fulvestrant arm of the ReDiscover Trial with a data cut-off date of March 26, 2025, and in December 2025, we announced an efficacy subset analysis of interim clinical data for zovegalisib at the San Antonio Breast Cancer Symposium 2025 with a data cut-off date of October 15, 2025. These interim clinical data are discussed further below in \"Our Product Pipeline and Programs —Our Lead Product Candidate – Breast Cancer and Solid Tumors - Interim Clinical Data.\" We believe that while the clinical data from the ReDiscover Trial disclosed to date are preliminary, the data suggest differentiated interim efficacy signals in the specified patient population and support selective target engagement across doses and mutation types with an encouraging interim safety and tolerability profile.",
+    "• ReInspire Trial. In the first quarter of 2025, we initiated the global Phase 1/2 clinical trial for zovegalisib in patients with PIK3CA-related overgrowth spectrum, or PROS, and vascular anomalies driven by PIK3CA mutations, or the ReInspire Trial. Enrollment is continuing in this clinical trial.",
+    "In addition to the programs mentioned above, we are progressing our NRAS-selective inhibitor, RLY-8161, to address NRAS-mutated solid tumors as well as our non-inhibitory chaperone for Fabry disease. We are also advancing early-stage discovery programs across both precision oncology and genetic diseases.",
+    "Our mission is to leverage unique insights into protein motion to transform the lives of patients suffering from debilitating and life-threatening diseases through the discovery, development and commercialization of small molecule therapies. We believe that, by placing protein motion at the heart of Motion-Based Drug Design discovery, our unique Dynamo® platform has the potential to address previously intractable or inadequately addressed precision medicine targets. To accomplish this, we have built a team that shares our commitment to patients and we intend to rapidly advance our precision medicine pipeline of product candidates with a focus on the highest value opportunities. The key elements of our strategy are to:",
+    "Rapidly advance our PI3Kα franchise and other programs through clinical development with the goal of reaching as many patients as possible. We believe that zovegalisib has the potential to address a significant portion of patients globally with HR+, HER2- breast cancer with a PI3Kα mutation, one of the largest patient populations for a precision oncology medicine. We initiated the Phase 3 ReDiscover-2 Trial in the second quarter of 2025 and continue to prioritize development of the zovegalisib doublet and triplet combinations with the aim of reaching breast cancer patients across both CDK4/6-experienced and -naïve settings. Additionally, in the first quarter of 2025, we advanced zovegalisib in vascular anomalies through the initiation of our ReInspire Trial, expanding our PI3Kα franchise to genetic disease. We plan to continue to conduct our clinical studies in genetically-defined patient populations. If we are successful in generating clinically meaningful and differentiated data for our programs, we plan to meet with regulatory authorities to discuss potential approval pathways.",
+    "Harness the insights and data generated from our drug discovery platform against intractable or inadequately addressed precision medicine targets, with current focus on oncology and genetic diseases. We are committed to deploying our Dynamo® platform against genetically validated targets, taking on some of the toughest technical drug discovery challenges and creating novel medicines against those targets that can rapidly attain clinical proof-of-concept and address significant unmet medical needs. Our focus is on precision oncology where there are clear genetic driver alterations in the tumor genome, and genetic disease where the causal mutations are present at birth.",
+    "Selectively enter into strategic partnerships to maximize the value of our platform and pipeline. We intend to build a fully integrated biopharmaceutical company and independently pursue the development and commercialization of our key product candidates. Given our potential to generate novel product candidates addressing a wide variety of therapeutic indications, we may enter into strategic partnerships around certain targets, product candidates, disease areas or geographies if we believe these collaborations or licenses could accelerate the development and commercialization of our product candidates and allow us to realize additional potential in our product candidates and our platform. For example, in June 2024, we entered into a global clinical trial collaboration with Pfizer for the development of zovegalisib in combination with fulvestrant and atirmociclib, Pfizer's investigative selective-CDK4 inhibitor, in patients with PI3Kα-mutated, HR+, HER2- metastatic breast cancer. Additionally, in December 2024, we entered into an exclusive global licensing agreement, or the Elevar Agreement, with Elevar Therapeutics, Inc., or Elevar, pursuant to which Elevar was granted global development and commercialization"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Product Candidates",
+    "We have never successfully completed any large-scale, pivotal clinical trials, and we may be unable to do so for any product candidates we develop.",
+    "Clinical product development involves a lengthy and expensive process, with an uncertain outcome.",
+    "We may incur additional costs or experience delays in completing, or ultimately be unable to complete, the development and commercialization of our product candidates.",
+    "If we experience delays or difficulties in the enrollment of patients in clinical trials, our receipt of necessary regulatory approvals could be delayed or prevented.",
+    "We intend to develop our lead product candidate, may develop other current product candidates and potentially future product candidates, in combination with other therapies, which exposes us to additional risks.",
+    "We face substantial competition, which may result in others discovering, developing or commercializing products before or more successfully than we do.",
+    "Risks Related to Our Reliance on Third Parties"
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. You should carefully consider the risks described below, as well as the other information in this Annual Report on Form 10-K, including our consolidated financial statements and the related notes and \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" before deciding whether to invest in our common stock. We believe the risks described below include risks that are material to us as well as other risks that may adversely affect our business, financial condition, results of operations and growth prospects. In such an event, the market price of our common stock could decline and you may lose all or part of your investment. Additional risks and uncertainties not presently known to us or that we currently deem immaterial may also materially harm our business, financial condition, results of operations and growth prospects and could result in a complete loss of your investment. Consequently, you should not consider the following to be a complete discussion of all potential risks or uncertainties.",
+    "We have not yet demonstrated our ability to successfully complete any large-scale, pivotal clinical trials, obtain regulatory approvals, manufacture a commercial scale product, or arrange for a third party to do so on our behalf, or conduct sales and marketing activities necessary for successful commercialization. Our lead product candidate is in clinical development. We may not be able to file investigational new drug applications, or INDs, for any of our preclinical product candidates on the timelines we expect, if at all. For example, we may experience manufacturing delays or delays with IND-enabling studies. Moreover, we cannot be sure that once we have submitted an IND, the FDA will allow further clinical trials to begin, or that, once begun, issues will not arise that require us to suspend or terminate clinical trials. The FDA or other regulatory authorities may impose a clinical hold before or after a trial begins for a number of reasons outlined in FDA regulations, including if the FDA believes the study drug raises a significant risk of illness or injury. If the FDA imposes a clinical hold, trials may not commence or recommence without FDA authorization and then only under terms authorized by the FDA. Accordingly, the submission of an IND does not mean the FDA will allow clinical trials to begin and, if and when clinical trials do commence under an active IND, issues may arise that require suspension or termination of such trials. Further, commencing each of these clinical trials is subject to finalizing the trial design based on discussions with the FDA and other regulatory authorities. Any guidance we receive from the FDA or other regulatory authorities is subject to change. Regulatory authorities could change their position, including, on the acceptability of our trial designs or the clinical endpoints selected, which may require us to complete additional clinical trials or impose stricter approval conditions than we expect. Successful completion of our clinical trials is a prerequisite to submitting a new drug application, or NDA, to the FDA and a Marketing Authorization Application, or MAA, to the EMA for each product candidate and, consequently, the ultimate approval and commercial marketing of each product candidate. While we have active clinical trials for our lead product candidate, we do not know whether any of our current clinical trials will be completed on schedule, if at all, or whether any of our future clinical trials will begin on time or be completed on schedule, if at all.",
+    "If we are required to conduct additional clinical trials or other testing of our product candidates beyond those that we currently contemplate, if we are unable to successfully complete clinical trials of our product candidates or other testing, if the results of these trials or tests are not positive or are only modestly positive or if there are safety concerns, we may:",
+    "• be delayed in obtaining marketing approval for our product candidates; • not obtain marketing approval at all;",
+    "• obtain approval for indications or patient populations that are not as broad as intended or desired;",
+    "• be subject to post-marketing requirements; or"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Components of our Results of Operations",
+    "Operating Expenses",
+    "Other Income, Net",
+    "Income Taxes",
+    "Results of Operations",
+    "Comparison of years ended December 31, 2025 and 2024",
+    "Year Ended December 31,",
+    "(in thousands)",
+    "License and Other Revenue",
+    "Research and Development Expenses",
+    "Change in Fair Value of Contingent Consideration Liability",
+    "General and Administrative Expenses",
+    "Comparison of years ended December 31, 2024 and 2023",
+    "Liquidity and Capital Resources",
+    "Funding Requirements",
+    "Contractual Obligations and Commitments",
+    "Critical Accounting Policies and Use of Estimates",
+    "Revenue Recognition",
+    "Prepaid and Accrued Research and Development Expenses",
+    "Recently Issued and Adopted Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations together with our consolidated financial statements and the related notes included elsewhere in this Annual Report on Form 10-K. This discussion and other parts of this Annual Report on Form 10-K contain forward-looking statements that involve risks and uncertainties, such as statements of our plans, objectives, expectations, and intentions. As a result of many factors, including those factors set forth in the \"Risk Factors\" section of this Annual Report on Form 10-K, our actual results could differ materially from the results described in or implied by the forward-looking statements contained in the following discussion and analysis.",
+    "We are a clinical-stage, small molecule precision medicine company developing potentially life-changing therapies for patients living with cancer and genetic disease. Our Dynamo® platform integrates an array of leading-edge computational and experimental approaches designed to drug protein targets that have previously been intractable or inadequately addressed.",
+    "We have deployed our technology platform to build a pipeline of product candidates to address targets in precision medicine where there is clear evidence linking target proteins to disease and where molecular diagnostics can unambiguously identify relevant patients for treatment. We believe this approach will increase the likelihood of successfully translating a specific pharmacological mechanism into clinical benefit.",
+    "We are advancing a pipeline of medicine candidates to address targets in precision oncology and genetic disease, including zovegalisib (RLY-2608), our lead product candidate discussed below.",
+    "Zovegalisib (RLY-2608). Zovegalisib is the first known allosteric, pan-mutant and isoform-selective phosphoinostide 3 kinase alpha, or PI3Kα, inhibitor in clinical development. It is the lead program in our efforts to discover and develop mutant selective inhibitors of PI3Kα.",
+    "• ReDiscover Trial. In December 2021, we dosed the first patient in a first-in-human clinical trial for zovegalisib, or the ReDiscover Trial. Since then, we have predominantly focused on evaluating zovegalisib in combination with fulvestrant for patients with HR+, HER2–, PI3Kα-mutated, locally advanced or metastatic breast cancer. We are also advancing triplet combination arms with zovegalisib, fulvestrant and cyclin dependent kinase 4/6, or CDK 4/6, inhibitors, or atirmociclib, the investigative selective-CDK4 inhibitor from Pfizer Inc., or Pfizer. In the second quarter of 2025, we initiated a global Phase 3 registrational study, or the ReDiscover-2 Trial, which is designed to evaluate the safety and efficacy of zovegalisib plus fulvestrant in PI3Kα-mutated, HR+/HER2- advanced breast cancer patients previously treated with a CDK4/6 inhibitor. The comparator arm in the ReDiscover-2 Trial is capivasertib plus fulvestrant. In February 2026, we announced that the FDA granted Breakthrough Therapy designation to zovegalisib in combination with fulvestrant for the treatment of adults with PIK3CA mutant HR+/HER2- locally advanced or metastatic breast cancer following recurrence or progression on or after treatment with a CDK4/6 inhibitor.",
+    "o Clinical Data. In June 2025, we announced updated interim clinical data for the zovegalisib plus fulvestrant arm of the ReDiscover Trial with a data cut-off date of March 26, 2025, and in December 2025, we announced an efficacy subset analysis of interim clinical data for zovegalisib at the San Antonio Breast Cancer Symposium 2025 with a data cut-off date of October 15, 2025. We believe that while the clinical data from the ReDiscover Trial disclosed to date are preliminary, the data suggest differentiated interim efficacy signals in the specified patient population and support selective target engagement across doses and mutation types with an encouraging interim safety and tolerability profile.",
+    "o ReInspire Trial. In the first quarter of 2025, we initiated the global Phase 1/2 clinical trial for zovegalisib in patients with PIK3CA-related overgrowth spectrum, or PROS, and vascular anomalies driven by PIK3CA mutations, or the ReInspire Trial. Enrollment is continuing in this clinical trial.",
+    "In addition to the programs mentioned above, we are progressing our NRAS-selective inhibitor, RLY-8161, to address NRAS-mutated solid tumors as well as our non-inhibitory chaperone for Fabry disease. We are also advancing early-stage discovery programs across both precision oncology and genetic diseases.",
+    "We were incorporated in May 2015. We have devoted substantially all of our resources to developing our product candidates, developing our innovative computational and experimental approaches on protein motion, building our intellectual property portfolio, business planning, raising capital, and providing general and administrative support for these operations. To date, we have principally financed our operations through private placements of preferred stock and common stock, convertible debt, and proceeds from public offerings of our common stock.",
+    "In December 2024, we and Elevar Therapeutics, Inc., or Elevar, entered into an exclusive global licensing agreement, or the Elevar Agreement, pursuant to which Elevar was granted global development and commercialization rights for lirafugratinib. Under the terms of the Elevar Agreement, we received $5.0 million upon execution, $3.4 million upon transfer of active pharmaceutical ingredient and other materials, and $7.0 million in milestone payments as of December 31, 2025. We are eligible to receive up to $488.0 million in regulatory and commercial milestone payments, as well as tiered royalties.",
+    "In September 2024, we completed a public offering, or the September 2024 Offering, of 32,857,143 shares of common stock, including the exercise in full of the underwriters' option to purchase an additional 4,285,714 shares, at an offering price of $7.00 per share. We received proceeds of $218.2 million, which was net of $11.8 million in underwriting discounts and other offering expenses.",
+    "In August 2024, we entered into a sales agreement, or the 2024 Sales Agreement, with TD Securities (USA) LLC, or TD Securities, pursuant to which we may offer and sell shares of our common stock having aggregate gross proceeds of up to $250.0 million from time to time in \"at-the-market\" offerings through TD Securities, as our sales agent. As of December 31, 2025, we have not sold any shares under the 2024 Sales Agreement.",
+    "In January 2024, we entered into a securities purchase agreement with Nextech Crossover I SCP for the private placement of 2,500,000 shares of common stock at $12.00 per share, or the Private Placement. We received $29.8 million in proceeds from the Private Placement, which were net of $0.2 million in offering expenses."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "本公司策略",
+    "本公司 Dynamo® 平台",
+    "本公司產品管線與計畫",
+    "本公司主要產品候選品",
+    "Zovegalisib，為首款已知之 Investigational 零組件、全變異體、且同型選擇性 PI3Kα 抑制劑，係設計用以克服這些限制。(圖 1)",
+    "圖 1：非選擇性抑制 PI3Kα 途徑會導致毒性挑戰。",
+    "圖 2：ReDiscover 試驗設計。",
+    "圖 3：第三期 ReDiscover-2 試驗。",
+    "圖表 4：ReInspire 研究第一及第二階段的初始發展計畫。",
+    "其他臨牀前計畫",
+    "我們的合作夥伴計畫",
+    "Zovegalisib–乳癌及實體腫瘤",
+    "Zovegalisib–血管異常",
+    "NRAS 選擇性抑制劑（RLY-8161）",
+    "法布瑞氏症候羣",
+    "我們的合作關係",
+    "授權協議與策略合作夥伴",
+    "其他合作關係",
+    "智慧財產權",
+    "Lirafugratinib"
+   ],
+   "paragraphs": [
+    "本公司為一家臨牀階段、小分子精準醫療公司，致力於開發可能改變患者生命的療法，用以治療罹患癌症及遺傳疾病的患者。我們的 Dynamo® 平台整合一系列先進的計算與實驗方法，用以針對先前難以處理或未被充分解決的蛋白質目標進行藥物開發。",
+    "精準醫療作為一種疾病治療方法，隨著對遺傳變異、蛋白質功能異常與疾病之間聯繫的瞭解逐漸深化而興起。精準醫療旨在針對經遺傳學驗證的目標蛋白質（即可能參與疾病生物學的遺傳變異）進行具體且強效的藥物開發。然而，某些目標蛋白質至今仍難以使用傳統的藥物發現工具進行處理或未被充分解決。雖然傳統方法適合解決某些藥物發現問題，例如正統位點激酶抑制劑，但其依賴於靜態的蛋白質片段影像，限制了其對蛋白質在自然狀態下動態行為的準確洞察，進而限制了其發現具有精準選擇性的藥物的能力。我們的方法將對蛋白質目標的理解從產業標準的靜態觀點轉變為基於對蛋白質運動基本洞察的新 paradigm。我們將這些新洞察應用於藥物發現與設計，這被我們稱為 Motion-Based Drug Design®。",
+    "我們已部署我們的技術平台，以建立產品候選藥物的開發管道，用以針對精準醫療中具有明確證據連結目標蛋白質與疾病的目標，以及分子診斷可無誤識別相關患者進行治療。我們認為這種方法將提高將特定藥理機制轉化為臨牀效益的可能性。",
+    "我們正在推進一組藥物候選品的開發，用以針對精準腫瘤學及遺傳疾病中的目標，包括 zovegalisib（RLY-2608），我們在下文中討論的領先產品候選品。",
+    "zovegalisib（RLY-2608）。zovegalisib 是目前臨牀開發中第一個已知的變異體通用且等型選擇性磷脂醯肌醇 3 激酶 alpha，或 PI3Kα，抑制劑。它是我們努力發現和開發 PI3Kα 等型選擇性抑制劑的領先計畫。",
+    "• ReDiscover 研究。2021 年 12 月，我們在首個人體臨牀試驗中給予第一個患者 zovegalisib，或稱為 ReDiscover 研究。自那之後，我們主要專注於評估 zovegalisib 與 fulvestrant 組合使用於",
+    "荷爾蒙受體陽性、人類表皮生長因子受體 2 陰性、PI3Kα 突變、局部晚期或轉移性乳癌患者。我們也在推進三重組合計畫，包含 zovegalisib、fulvestrant 和週期素依賴性蛋白激酶 4/6，或 CDK 4/6，抑制劑，或 atirmociclib，來自輝瑞公司（Pfizer Inc.）的選擇性 CDK4 抑制劑，或輝瑞。2025 年第二季，我們啟動了一項全球第三期註冊研究，或稱為 ReDiscover-2 研究，旨在評估 zovegalisib 與 fulvestrant 在 PI3Kα 突變、荷爾蒙受體陽性/人類表皮生長因子受體 2 陰性晚期乳癌患者中，先前已接受 CDK4/6 抑制劑治療的患者的安全性與有效性。ReDiscover-2 研究的對照組為 capivasertib 與 fulvestrant。2026 年 2 月，我們宣佈美國食品藥物管理局，或 FDA，已授予 zovegalisib 與 fulvestrant 組合用於治療接受 CDK4/6 抑制劑治療後復發或進展的 PIK3CA 突變荷爾蒙受體陽性/人類表皮生長因子受體 2 陰性局部晚期或轉移性乳癌成人患者的突破性療法資格。",
+    "• 臨牀數據。2025 年 6 月，我們宣佈 zovegalisib 與 fulvestrant 組合在 ReDiscover 研究中的更新臨牀數據，截至 2025 年 3 月 26 日，並在 2025 年 12 月宣佈 zovegalisib 在 2025 年聖安東尼奧乳癌會議上的臨牀數據子集分析，截至 2025 年 10 月 15 日。這些臨牀數據在下文中進一步討論，請參閱 \"我們的產品開發管道與計畫 — 我們的領先產品候選品 — 乳癌與實體腫瘤 — 臨牀數據\"。我們認為，雖然目前披露的 ReDiscover 研究臨牀數據為初步數據，但數據顯示在指定患者羣中具有差異化的臨牀效果訊號，並支持在不同劑量與突變類型中選擇性目標結合，且臨牀安全性與耐受性表現令人鼓舞。",
+    "• ReInspire 試驗。於 2025 年第一季，我們啟動了 zovegalisib 在 PIK3CA 相關過長症候羣，或 PROS，以及由 PIK3CA 突變驅動的血管異常，或 ReInspire 試驗，的全球第一期/第二期臨牀試驗。此臨牀試驗的入組仍在進行中。",
+    "除上述計畫外，我們正在推進我們的 NRAS 選擇性抑制劑 RLY-8161，以針對 NRAS 突變的實體腫瘤，以及我們的非抑制性分子伴侶用於法布瑞症候羣。我們同時也在推進早期階段的發現計畫，涵蓋精準腫瘤學與遺傳疾病。",
+    "我們的使命是透過對蛋白質運動獨特的洞察，透過小分子療法的發現、開發與商業化，來改變罹患殘障且危及生命的疾病患者的生動。我們相信，透過將蛋白質運動置於 Motion-Based Drug Design 發現的核心，我們獨特的 Dynamo® 平台有潛力解決先前難以處理或未被充分解決的精準醫療目標。為達成此目標，我們已組建一支與我們對患者承諾一致的團隊，並計畫迅速推進我們的精準醫療產品候選藥物的開發，專注於價值最高的機會。我們策略的關鍵要素為：",
+    "迅速推進我們的 PI3Kα 製品系列及其他計畫的臨牀開發，目標是讓盡可能多的患者受益。我們相信 zovegalisib 有潛力解決全球 HR+, HER2- 乳癌患者中具有 PI3Kα 突變的大量患者，這是精準腫瘤學藥物中最大的患者羣。我們於 2025 年第二季啟動了 Phase 3 ReDiscover-2 試驗，並持續優先開發 zovegalisib 的雙重組合與三重組合，目標是讓乳癌患者在 CDK4/6 經驗過與未經驗過的設定中都能受益。此外，於 2025 年第一季，我們透過啟動 ReInspire 試驗，將 zovegalisib 推進至血管異常的開發，擴展我們的 PI3Kα 製品系列至遺傳疾病。我們計畫持續在基因定義的患者羣中進行臨牀研究。若我們成功產生臨牀意義且差異化的數據，我們計畫與監管當局會談，討論潛在的核准途徑。",
+    "運用我們藥物發現平台針對難以處理或未被充分解決的精準醫療目標所產生的洞察與數據，目前重點在於腫瘤學與遺傳疾病。我們致力於針對已驗證的遺傳目標部署我們的 Dynamo® 平台，承接一些最具挑戰性的技術藥物發現難題，並創造針對這些目標的新藥，這些藥物能迅速達到臨牀概念驗證，並解決重要的未滿足醫療需求。我們的重點在於精準腫瘤學，其中腫瘤基因組中存在明確的遺傳驅動突變，以及遺傳疾病，其中致病突變在出生時即存在。",
+    "選擇性地與策略性合作夥伴合作，以最大化我們平台與產品線的價值。我們計畫建立一家完全整合的生物製藥公司，並獨立進行我們關鍵產品候選藥物的開發與商業化。考慮到我們有潛力產生針對廣泛治療指徵的新產品候選藥物，我們可能在某些目標、產品候選藥物、疾病領域或地理區域與策略性合作夥伴合作，若我們認為這些合作或授權能加速我們產品候選藥物的開發與商業化，並讓我們實現產品候選藥物與平台的更多潛力。例如，於 2024 年 6 月，我們與輝瑞簽訂了全球臨牀試驗合作協議，用於 zovegalisib 與 fulvestrant 及 atirmociclib，輝瑞的 Investigational Selective-CDK4 抑製劑，於 PI3Kα 突變、HR+、HER2- 轉移性乳癌患者中的開發。此外，於 2024 年 12 月，我們與 Elevar Therapeutics, Inc.，或 Elevar，簽訂了獨家全球授權協議，或 Elevar 協議，根據該協議，Elevar 獲得了 zovegalisib 的全球開發與商業化"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運成果之組成項目",
+    "營運費用",
+    "其他收入，淨額",
+    "所得稅",
+    "營運成果",
+    "截至2025年12月31日及2024年12月31日之年度比較",
+    "截至2025年12月31日",
+    "(以千為單位)",
+    "授權及其它收入",
+    "研究與發展費用",
+    "或有對價負債之公允價值變動",
+    "一般及行政費用",
+    "截至2024年12月31日及2023年12月31日之年度比較",
+    "流動性及資本資源",
+    "資金需求",
+    "契約義務及承諾",
+    "{'original': 'Critical Accounting Policies and Use of Estimates', 'translated': '重要會計政策及會計估計之使用'}",
+    "{'original': 'Revenue Recognition', 'translated': '收入認列'}",
+    "{'original': 'Prepaid and Accrued Research and Development Expenses', 'translated': '已付及應付研究與發展費用'}",
+    "{'original': 'Recently Issued and Adopted Accounting Pronouncements', 'translated': '最近發佈及採用之會計準則'}"
+   ],
+   "paragraphs": [
+    "您應閱讀下列對我們財務狀況及營運成果的討論與分析，並與我們的合併財務報表及相關附註說明一併參考。本討論與分析及其他部分包含前瞻性陳述，涉及風險與不確定性，例如我們的計畫、目標、預期及意圖等陳述。由於許多因素，包括本年度10-K申報表中「風險因素」部分所列的因素，我們的實際結果可能與此討論與分析中所描述或暗示的前瞻性陳述有重大差異。",
+    "我們是一家臨牀階段、小分子精準醫療公司，致力於開發可能改變患者生命的療法，用以治療罹患癌症及遺傳疾病的患者。我們的Dynamo®平台整合了一系列先進的計算與實驗方法，用以針對過去難以處理或未被充分解決的蛋白質目標進行藥物開發。",
+    "我們已部署我們的技術平台，以建立產品候選藥物的開發管道，針對精準醫療中目標蛋白質與疾病之間有明確關聯，且分子診斷可無誤識別相關患者進行治療的目標。我們認為此方法將提高將特定藥理機制轉化為臨牀效益的可能性。",
+    "我們正在推進一系列藥物候選品的開發，以針對精準腫瘤學及遺傳疾病中的目標，包括zovegalisib（RLY-2608），這是我們在下文中討論的領先產品候選品。",
+    "zovegalisib（RLY-2608）。zovegalisib是目前臨牀開發中第一種已知的變異體選擇性、泛變異體及異構體選擇性磷酸肌醇3激酶α（PI3Kα）抑制劑。它是我們在發現及開發PI3Kα變異體選擇性抑制劑方面的領先計畫。",
+    "• ReDiscover試驗。2021年12月，我們在首個人類首次臨牀試驗中對zovegalisib（或稱ReDiscover試驗）的第一位患者進行給藥。此後，我們主要專注於評估zovegalisib與fulvestrant聯合使用對患有HR+、HER2-、PI3Kα變異體、局部晚期或轉移性乳癌患者的療效。我們同時也在推進三重組合療法，包括zovegalisib、fulvestrant與週期素依賴性蛋白激酶4/6（CDK4/6）抑制劑，或atirmociclib，這是來自輝瑞公司（Pfizer Inc.）的選擇性CDK4抑制劑。2025年第二季，我們啟動了一項全球第三期註冊研究（ReDiscover-2試驗），旨在評估zovegalisib與fulvestrant在PI3Kα變異體、HR+/HER2-晚期乳癌患者中之安全性與有效性，這些患者先前已接受CDK4/6抑制劑治療。ReDiscover-2試驗的對照組為capivasertib與fulvestrant組。2026年2月，我們宣佈美國食品藥物管理局（FDA）已授予zovegalisib與fulvestrant聯合治療PIK3CA變異體HR+/HER2-局部晚期或轉移性乳癌成人患者（在CDK4/6抑制劑治療後出現復發或進展）的突破性療法資格。",
+    "o 臨牀數據。2025年6月，我們宣佈更新的ReDiscover試驗中zovegalisib與fulvestrant組的臨牀數據，截至2025年3月26日為止，並於2025年12月宣佈在2025年聖安東尼奧乳癌大會上發表zovegalisib臨牀數據的療效子集分析，截至2025年10月15日為止。我們認為雖然目前ReDiscover試驗所披露的臨牀數據為初步數據，但數據顯示在指定患者羣中具有差異化的臨時療效訊號，並支持在不同劑量與變異體類型中選擇性目標作用，且臨時安全性與耐受性表現令人鼓舞。",
+    "o ReInspire試驗。2025年第一季，我們啟動了針對PIK3CA相關過長症候羣（PROS）及由PIK3CA變異體驅動的血管異常患者的全球第一期/第二期臨牀試驗（ReInspire試驗），並持續進行此臨牀試驗的入組。",
+    "除上述計畫外，我們正進行 NRAS 選擇性抑制劑 RLY-8161 的開發，以針對 NRAS 突變之實體腫瘤，以及我們的非抑制性分子伴侶用於法布瑞症候羣。我們同時也在精準腫瘤學與遺傳疾病領域進行早期階段的發現計畫。",
+    "本公司於 2015 年 5 月成立。我們已將 substantially all 的資源投入產品候選藥物的開發、創新計算與實驗方法在蛋白質運動上的開發、智慧財產權組合的建立、商業計畫、籌資，以及提供一般及行政支援。截至目前為止，我們主要透過私募優先股與普通股、可轉換債務以及公開發行普通股的資金來支應營運。",
+    "2024 年 12 月，我們與 Elevar Therapeutics, Inc.（簡稱 Elevar）簽訂獨家全球授權協議（簡稱 Elevar 協議），根據該協議，Elevar 獲得 lirafugratinib 的全球開發與商業化權利。根據 Elevar 協議的條款，我們在簽訂時收到 5.0 百萬美元，於移交活性藥物成分及其他物料時收到 3.4 百萬美元，並於 2025 年 12 月 31 日收到 7.0 百萬美元的里程碑付款。我們有資格獲得最高達 488.0 百萬美元的監管與商業里程碑付款，以及階梯式版稅。",
+    "2024 年 9 月，我們完成一項公開發行（簡稱 2024 年 9 月發行），發行 32,857,143 股普通股，包括行使發行人的選擇權購買額外 4,285,714 股，發行價格為每股 7.00 美元。我們收到 218.2 百萬美元的資金，扣除 11.8 百萬美元的發行折扣及其他發行費用後的淨額。",
+    "2024 年 8 月，我們與 TD Securities (USA) LLC（簡稱 TD Securities）簽訂銷售協議（簡稱 2024 年銷售協議），根據該協議，我們可隨時透過 TD Securities 作為銷售代理，以「市場現價」方式發行普通股，總計最高可達 250.0 百萬美元的淨資金。截至 2025 年 12 月 31 日，我們尚未根據 2024 年銷售協議發行任何股份。",
+    "2024 年 1 月，我們與 Nextech Crossover I SCP 簽訂證券購買協議，進行 2,500,000 股普通股的私募發行，每股 12.00 美元（簡稱私募發行）。我們從私募發行中收到 29.8 百萬美元的資金，扣除 0.2 百萬美元的發行費用後的淨額。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們產品候選藥物相關的風險",
+    "我們從來沒有成功完成任何大型、關鍵性臨牀試驗，我們可能無法對任何我們開發的產品候選藥物做到這一點。",
+    "產品開發涉及一個漫長且昂貴的過程，結果具有不確定性。",
+    "我們可能會產生額外的成本或遭遇延誤，導致無法完成，或最終無法完成我們產品候選藥物的開發與商業化。",
+    "如果我們在臨牀試驗中遭遇患者招募延誤或困難，我們獲得必要的監管批准可能會被延遲或無法取得。",
+    "我們有意開發我們的主要產品候選藥物，可能開發其他現有產品候選藥物，並潛在未來產品候選藥物，與其他療法結合使用，這會使我們面臨額外的風險。",
+    "我們面臨著激烈的競爭，這可能會導致其他人先於我們或更成功地發現、開發或商業化產品。",
+    "與我們依賴第三方相關的風險"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及高度風險。您應仔細考慮下列所描述的風險，以及本年度報告表 10-K 中的其他資訊，包括我們的合併財務報表及相關附註，以及「管理層對財務狀況與營運成果之討論與分析」，在決定是否投資本公司普通股前。我們認為下列所描述的風險包含對我們而言重要的風險，以及可能對我們業務、財務狀況、營運成果與成長前景產生負面影響的其他風險。在這種情況下，本公司普通股的市場價格可能下跌，您可能損失全部或部分投資。此外，尚有其他風險與不確定性，目前尚未為我們所知或我們目前認為不重要，也可能對我們的業務、財務狀況、營運成果與成長前景產生重大損害，並可能導致您完全喪失投資。因此，您不應將下列內容視為對所有潛在風險與不確定性的完整討論。",
+    "我們尚未展現成功完成任何大規模、關鍵臨牀試驗、取得監管批准、製造商業規模產品，或安排第三方代為執行，或進行銷售與市場推廣活動以實現成功商業化之能力。我們的領先產品候選藥物目前處於臨牀開發階段。我們可能無法按照預期時間表提交新藥研發申請，或 IND（新藥臨牀試驗申請），對於任何我們的前期臨牀產品候選藥物。例如，我們可能遭遇製造延誤或 IND 申請所需研究的延誤。此外，我們無法確定一旦我們提交 IND，美國食品藥物管理局（FDA）是否會允許進一步的臨牀試驗開始，或一旦開始，是否會出現問題導致我們必須中止或終止臨牀試驗。美國食品藥物管理局（FDA）或其他監管機構可能在試驗開始前或開始後，因 FDA 規範中列出的多種原因，對試驗施加臨牀暫停。若 FDA 施加臨牀暫停，試驗可能在未經 FDA 批准的情況下無法開始或重新開始，並僅能在 FDA 授權的條件下進行。因此，提交 IND 不表示 FDA 會允許臨牀試驗開始，且即使臨牀試驗在有效 IND 下開始，也可能出現問題導致試驗中止或終止。此外，啟動這些臨牀試驗需根據與 FDA 及其他監管機構的討論，完成試驗設計。我們從 FDA 或其他監管機構所獲得的任何指導，都可能變更。監管機構可能改變其立場，包括對我們試驗設計或所選臨牀終點的可接受性，這可能導致我們必須完成額外的臨牀試驗，或施加我們預期之外的更嚴格批准條件。成功完成我們的臨牀試驗是提交新藥申請（NDA）至 FDA，以及市場許可申請（MAA）至 EMA 的前提條件，用以每個產品候選藥物的最終批准與商業化。雖然我們目前對領先產品候選藥物進行活躍的臨牀試驗，但我們不知道任何目前的臨牀試驗是否會按時完成，或是否會完成，亦不知未來任何臨牀試驗是否會按時開始或完成，或是否會完成。",
+    "若我們被要求對產品候選藥物進行超出目前預期的臨牀試驗或其他測試，若我們無法成功完成產品候選藥物的臨牀試驗或其他測試，若這些試驗或測試的結果不具正面效益或僅具微小正面效益，或若存在安全性問題，我們可能：",
+    "• 可能延宕取得我們產品候選品項的行銷許可； • 無法取得任何行銷許可；",
+    "• 取得的適應症或病患族羣範圍不如預期或期望之廣；",
+    "• 可能面臨上市後的監管要求；或"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

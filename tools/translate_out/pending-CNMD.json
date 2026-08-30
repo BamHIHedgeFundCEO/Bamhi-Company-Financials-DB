@@ -1,0 +1,221 @@
+{
+ "ticker": "CNMD",
+ "cik": "0000816956",
+ "accession": "0000816956-26-000009",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Forward Looking Statements",
+    "Business Strategy",
+    "Year Ended December 31,",
+    "Orthopedic Surgery",
+    "General Surgery",
+    "International",
+    "Manufacturing",
+    "Research and Development",
+    "Intellectual Property",
+    "Government Regulation and Quality Systems",
+    "CONMED Workforce Overview"
+   ],
+   "paragraphs": [
+    "This Annual Report on Form 10-K for the fiscal year ended December 31, 2025 (\"Form 10-K\") contains certain forward-looking statements (as such term is defined in the Private Securities Litigation Reform Act of 1995) and information relating to CONMED Corporation (\"CONMED\", the \"Company\", \"we\" or \"us\" — references to \"CONMED\", the \"Company\", \"we\" or \"us\" shall be deemed to include our direct and indirect subsidiaries unless the context otherwise requires) which are based on the beliefs of our management, as well as assumptions made by and information currently available to our management.",
+    "When used in this Form 10-K, the words \"estimate\", \"project\", \"believe\", \"anticipate\", \"intend\", \"expect\" and similar expressions are intended to identify forward-looking statements. These statements involve known and unknown risks, uncertainties and other factors, including those identified under the caption \"Item 1A-Risk Factors\" and elsewhere in this Form 10-K which may cause our actual results, performance or achievements, or industry results, to be materially different from any future results, performance or achievements expressed or implied by such forward-looking statements. Such factors include, among others, the following:",
+    "•general economic and business conditions, including, without limitation, a potential economic downturn, supply chain challenges and constraints, including the availability and cost of materials, the effects of inflation, and increased interest rates;",
+    "•compliance with and changes in laws and regulatory requirements;",
+    "•the failure of any enterprise-wide software programs or information technology systems, or potential disruption associated with updating or implementing new software programs or information technology systems;",
+    "•the risk of an information security breach, including a cybersecurity breach;",
+    "•the possibility that United States or foreign regulatory and/or administrative agencies may initiate enforcement actions against us or our distributors;",
+    "•the introduction and acceptance of new products;",
+    "•the ability to advance our product lines, including challenges and uncertainties inherent in product research and development, and the uncertain impact, outcome and cost of ongoing and future clinical trials and market studies;",
+    "•competition; •changes in customer preferences; •changes in technology; •cyclical customer purchasing patterns due to budgetary, staffing and other constraints;",
+    "•environmental compliance risks, including lack of availability of sterilization with Ethylene Oxide (\"EtO\") or other compliance costs associated with the use of EtO;",
+    "•natural or man-made disasters or other public health crises;",
+    "•the quality of our management and business abilities and the judgment of our personnel, as well as our ability to attract, motivate, and retain employees at all levels of the Company;",
+    "•the availability, terms and deployment of capital; •current and future levels of indebtedness and capital spending;"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "(i) Risks Related to Our Business and the Medical Device Industry",
+    "Limitations on the availability of Ethylene Oxide (\"EtO\") sterilization services may limit our ability to sell certain sterile products.",
+    "Failure to comply with regulatory requirements may result in recalls, loss of revenues, fines or other materially adverse implications.",
+    "The highly competitive market for our products may create adverse pricing pressures.",
+    "If third-party payors decline to reimburse our customers for our products or reduce reimbursement levels, the demand for our products may decline and our ability to sell our products profitably may be harmed.",
+    "Cost reduction efforts in the healthcare industry could put pressures on our prices and margins.",
+    "We may not be able to keep pace with technological change or to successfully develop new products with wide market acceptance, which could cause us to lose business to competitors.",
+    "Ordering patterns of our customers may change resulting in reductions in sales.",
+    "(ii) Risks Related to Our Indebtedness",
+    "We may not be able to generate sufficient cash to service our indebtedness and other obligations, and, our leverage and debt service requirements may require us to adopt alternative business strategies.",
+    "Our variable rate indebtedness subjects us to interest rate risk, which could cause our debt service obligations to increase significantly.",
+    "Despite our current level of indebtedness, we and our subsidiaries may still be able to incur substantially more debt. This could further exacerbate the risks to our financial condition described above.",
+    "The conditional conversion features of our 2.250% Notes if triggered, may adversely affect our financial condition.",
+    "The convertible notes hedge and warrant transactions that we entered into in connection with the offering of the Convertible Notes may affect the value of the Convertible Notes and our common stock.",
+    "We are subject to counterparty risk with respect to the convertible notes hedge transactions.",
+    "(iii) Risks Related to Our Strategic Transactions",
+    "Our financial performance is subject to the risks inherent in any acquisition, including the effects of increased borrowing and integration of newly acquired businesses or product lines.",
+    "Our financial performance is subject to risks in connection with divestitures, and our failure to manage these divestitures could have a negative impact on our business.",
+    "(iv) Other Risks Related to Our Business",
+    "Our use of artificial intelligence (\"AI\") and other emerging technologies could adversely impact our business and financial results."
+   ],
+   "paragraphs": [
+    "An investment in our securities, including our common stock, involves a high degree of risk. Investors should carefully consider the specific factors set forth below as well as the other information included or incorporated by reference in this Form 10-K. See \"Forward Looking Statements\".",
+    "Our financial performance is dependent on conditions in the healthcare industry and the broader economy. Our business and financial performance could be adversely affected, directly or indirectly, by a potential economic downturn.",
+    "The results of our business are directly tied to the economic conditions in the healthcare industry and the broader economy as a whole. We believe that the healthcare industry will continue to be impacted by judicial decisions, increasing regulation, political and legal action at both the federal and state/local levels in the U.S. and internationally, and U.S. executive orders, and it is uncertain how such developments will affect our business. We will continue to monitor and manage the impact of the overall economic environment on the Company.",
+    "Market volatility and uncertainty related to inflation and its effects, which could potentially contribute to poor economic conditions, may contribute to or enhance some of the risks described herein. Any of these effects, or others that we are not able to predict, could adversely affect our business, financial condition or results of operations. Any deterioration in global",
+    "economic conditions could also have material adverse effects on our business, financial condition or results of operations, even if our direct exposure to the affected region is limited. Global political trends could increase the probability of a deterioration in global economic conditions.",
+    "In this regard, approximately 14% of our 2025 revenues were derived from the sale of capital products. The sales of such products may be negatively impacted if hospitals and other healthcare providers are unable to secure the financing necessary to purchase these products or otherwise defer purchases."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Overview of CONMED Corporation",
+    "Business Environment",
+    "Critical Accounting Policies",
+    "Goodwill and Intangible Assets",
+    "Contingent Consideration",
+    "Pension Plan",
+    "Consolidated Results of Operations",
+    "Years Ended December 31,",
+    "2024 to 2025",
+    "2025 2024 Constant Currency a",
+    "% Change from",
+    "2023 to 2024",
+    "2024 2023 As Reported Impact of Foreign Currency Constant Currency a",
+    "Cost of Sales",
+    "Selling and Administrative Expense",
+    "Research and Development Expense",
+    "Interest Expense",
+    "Other Expense",
+    "Provision for Income Taxes",
+    "Non-GAAP Financial Measures",
+    "Liquidity and Capital Resources",
+    "Operating Cash Flows",
+    "Investing Cash Flows",
+    "Financing Cash Flows",
+    "Other Liquidity Matters",
+    "Payments Due by Period",
+    "Total Less than",
+    "Years More than",
+    "Stock-based Compensation",
+    "New Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "CONMED Corporation is a medical technology company that provides devices and equipment for surgical procedures. The Company's products are used by surgeons and other healthcare professionals in a variety of specialties including orthopedics, general surgery, gynecology, thoracic surgery and gastroenterology.",
+    "Our product lines consist of orthopedic surgery and general surgery. Orthopedic surgery consists of sports medicine instrumentation and lower extremities instrumentation and implants, small bone, large bone and specialty powered surgical instruments as well as imaging systems for use in minimally invasive surgical procedures and service fees related to the promotion and marketing of sports medicine allograft tissue. General surgery consists of a complete line of endo-mechanical instrumentation for minimally invasive laparoscopic and gastrointestinal procedures, smoke evacuation devices, a line of cardiac monitoring products as well as electrosurgical generators and related instruments. These product lines as a percentage of consolidated net sales are as follows:",
+    "2025 2024 2023 Orthopedic surgery 42 % 42 % 43 % General surgery 58 58 57 Consolidated net sales 100 % 100 % 100 %",
+    "A significant amount of our products are used in surgical procedures with approximately 86% of our revenues derived from the sale of single-use products. Our capital equipment offerings also facilitate the ongoing sale of related single-use products and accessories, thus providing us with a recurring revenue stream. We manufacture substantially all of our products in facilities located in the United States and Mexico. We market our products both domestically and internationally directly to customers and through distributors. International sales approximated 44% in 2025, 43% in 2024 and 44% in 2023."
+   ],
+   "focus": "Overview of CONMED Corporation"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "展望性陳述",
+    "業務策略",
+    "截至12月31日的會計年度",
+    "骨科手術",
+    "一般手術",
+    "國際業務",
+    "製造",
+    "研究與發展",
+    "智慧財產權",
+    "政府規範與品質系統",
+    "CONMED 人力資源概覽"
+   ],
+   "paragraphs": [
+    "本年度10-K表格年報係針對2025年財務年度截至12月31日之財務資料（\"10-K表格\"）包含若干向前看之陳述（依1995年私人證券訴訟改革法案所定義）以及與CONMED Corporation（\"CONMED\"、\"本公司\"、\"我們\"或\"我們\" —— 有關\"CONMED\"、\"本公司\"、\"我們\"或\"我們\"之參考，除非文意另有明確說明，否則應包括我們之直接及間接子公司）相關之資訊，這些資訊係基於我們管理階層之信念，以及目前可供我們管理階層使用之假設與資訊。",
+    "在本10-K表格中，\"估計\"、\"預測\"、\"相信\"、\"預期\"、\"意圖\"、\"期待\"等詞彙係用以識別向前看之陳述。這些陳述涉及已知及未知之風險、不確定性及其他因素，包括於\"項目1A-風險因素\"標題下及本10-K表格其他處所識別之因素，這些因素可能導致我們實際之結果、表現或成就，或產業之結果，與任何未來之結果、表現或成就有重大差異。這些因素包括，但不僅限於以下內容：",
+    "•總體經濟與商業條件，包括，但不限於潛在經濟衰退、供應鏈挑戰與限制，包括材料之可得性與成本、通貨膨脹之影響，以及利率上漲；",
+    "•遵守法律與法規要求及法規變更；",
+    "•任何企業規模軟體程式或資訊科技系統之失敗，或更新或實施新軟體程式或資訊科技系統所可能導致之中斷風險；",
+    "•資訊安全遭入侵之風險，包括網路安全遭入侵；",
+    "•美國或外國法規及／或行政機關可能對我們或我們之經銷商採取執法行動之可能性；",
+    "•新產品之推出與接受度；",
+    "•本公司能推進產品線的能力，包括產品研究與開發中所面臨的挑戰與不確定性，以及持續進行與未來臨牀試驗與市場研究之可能影響、結果與成本的不確定性;",
+    "•競爭情形；•客戶偏好之變動；•科技之變動；•因預算、人力及其他限制所導致之週期性客戶採購模式;",
+    "•環境法規遵循風險，包括缺乏以乙烯氧氣（\"EtO\"）進行滅菌之可行性，或使用 EtO 所產生之其他法規遵循成本;",
+    "•自然或人為災難或其他公共衛生危機;",
+    "•本公司管理階層與業務能力之品質，以及人員判斷力，以及本公司吸引、激勵並留住各層級員工之能力;",
+    "•資金之可取得性、條款與部署；•目前及未來之負債水平與資本支出水平;"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'translatedText': 'CONMED Corporation 總覽'}",
+    "{'translatedText': '營運環境'}",
+    "{'translatedText': '關鍵會計政策'}",
+    "{'translatedText': '商譽及無形資產'}",
+    "{'translatedText': '或有對價'}",
+    "{'translatedText': '退休金計畫'}",
+    "{'translatedText': '合併營運成果'}",
+    "{'translatedText': '截至12月31日止年度,'}",
+    "2024 至 2025",
+    "2025 2024 不變匯率 a",
+    "% 變動率來自",
+    "2023 至 2024",
+    "2024 2023 實際報表 外幣影響 不變匯率 a",
+    "銷售成本",
+    "營銷及行政費用",
+    "研究與發展費用",
+    "利息支出",
+    "其他費用",
+    "所得稅費用",
+    "非GAAP財務指標",
+    "流動性及資本資源",
+    "營運現金流",
+    "投資現金流",
+    "籌資現金流",
+    "{'original': 'Other Liquidity Matters', 'translated': '其他流動性事項'}",
+    "{'original': 'Payments Due by Period', 'translated': '依期間應償付金額'}",
+    "{'original': 'Total Less than', 'translated': '總計少於'}",
+    "{'original': 'Years More than', 'translated': '年數多於'}",
+    "{'original': 'Stock-based Compensation', 'translated': '股票基於報酬'}",
+    "{'original': 'New Accounting Pronouncements', 'translated': '新會計準則公告'}"
+   ],
+   "paragraphs": [
+    "CONMED Corporation 為一間醫療科技公司，提供用於手術程序的設備與器材。本公司產品被外科醫生及其他醫療專業人員用於多種專科領域，包括骨科、一般外科、婦產科、胸腔外科及消化道外科。",
+    "我們的產品線包括骨科手術及一般外科手術。骨科手術包括運動醫學儀器及下肢儀器與植入物、小型骨頭、大型骨頭及特殊電動手術儀器，以及用於微創手術程序的影像系統，以及與運動醫學異體組織推廣與行銷相關的服務費用。一般外科手術包括一套完整的內視鏡機械儀器，用於微創腹腔鏡及消化道手術程序、煙霧抽取裝置、一整套心臟監測產品，以及電燒器產生器及相關儀器。這些產品線佔整體淨銷售額的百分比如下：",
+    "2025 2024 2023 骨科手術 42 % 42 % 43 % 一般外科手術 58 58 57 整體淨銷售額 100 % 100 % 100 %",
+    "我們的產品中有一大部分用於手術程序，約有 86% 的營業收入來自單次使用產品的銷售。我們的資本設備產品也促進相關單次使用產品與配件的持續銷售，因此為本公司帶來一項持續性收入來源。我們幾乎製造所有產品，製造廠位於美國與墨西哥。我們透過直接對客戶銷售及經由經銷商銷售的方式，在國內與國際市場推廣產品。國際銷售佔比約為 2025 年 44%、2024 年 43% 及 2023 年 44%。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "(i) 與本公司業務及醫療器材產業相關之風險",
+    "乙烯氧氣（\"EtO\"）滅菌服務之可取得性受到限制，可能限制本公司銷售特定無菌產品之能力。",
+    "未能遵守監管要求，可能會導致產品回收、收入損失、罰款或其他重大不利後果。",
+    "本公司產品所處之高度競爭市場，可能造成不利之價格壓力。",
+    "若第三方付款方拒絕為本公司客戶之產品提供補償或降低補償金額，則本公司產品之需求可能下降，且本公司以獲利方式銷售產品之能力可能受損。",
+    "醫療產業之成本削減努力，可能對本公司之價格與毛利率造成壓力。",
+    "本公司可能無法跟上技術變革，或成功開發廣受市場歡迎之新產品，此情況可能導致本公司將業務流失至競爭對手。",
+    "本公司客戶之訂購模式可能改變，導致銷售額減少。",
+    "（二）與我們負債相關的風險",
+    "我們可能無法產生足夠的現金來償還我們的負債及其他義務，且，我們的負債率及償還義務可能迫使我們採用替代性的商業策略。",
+    "我們的浮動利率負債使我們面臨利率風險，這可能會導致我們的債務償還義務顯著增加。",
+    "儘管我們目前的負債水平，我們與我們的子公司仍可能產生 substantially more 負債。這可能會進一步加劇我們財務狀況所描述的風險。",
+    "我們 2.250% 記息票據的條件轉換特徵，若被觸發，可能會對我們的財務狀況產生不利影響。",
+    "我們在發行可轉換票據時所進行的可轉換票據避險及權證交易，可能會影響可轉換票據及我們普通股的價值。",
+    "我們針對可轉換票據避險交易而面臨交易對手風險。",
+    "（三）與我們戰略交易相關的風險",
+    "本公司財務表現受任何併購所固有的風險影響，包括因增加借款及整合新併購的業務或產品線所產生的影響。",
+    "本公司財務表現受與資產處置相關的風險影響，且本公司未能妥善管理這些資產處置，可能對本公司業務產生負面影響。",
+    "(iv) 其他與本公司業務相關的風險",
+    "本公司使用人工智慧（\"AI\"）及其他新興科技，可能對本公司業務及財務結果產生不利影響。"
+   ],
+   "paragraphs": [
+    "投資本公司證券，包括普通股，涉及高度風險。投資人應謹慎考慮下列特定因素，以及本Form 10-K所包含或參考的其他資訊。請參閱『前瞻性陳述』。",
+    "本公司財務表現取決於醫療保健產業及更廣泛經濟的狀況。本公司業務及財務表現可能因潛在經濟衰退而受到不利影響，直接或間接。",
+    "本公司營運結果與醫療保健產業及更廣泛經濟狀況緊密相關。我們認為醫療保健產業將持續受到司法判決、增加的規範、美國及國際各層級的政治與法律行動，以及美國行政命令的影響，且這些發展如何影響本公司業務尚不確定。我們將持續監測並管理整體經濟環境對本公司之影響。",
+    "市場波動及不確定性與通貨膨脹及其影響有關，這些因素可能導致經濟條件惡化，進而可能加劇或強化 herein 所述的部分風險。這些影響，或其它我們無法預測的情況，可能對本公司業務、財務狀況或營運成果造成不利影響。即使本公司對受影響地區的直接暴露有限，全球經濟條件的惡化也可能對本公司業務、財務狀況或營運成果產生重大不利影響。",
+    "在這個方面，本公司 2025 年營業收入約有 14% 來自資本產品的銷售。若醫院及其他醫療機構無法取得購置這些產品所需的融資，或延後購置，則這些產品的銷售可能受到負面影響。",
+    "在這個方面，本公司 2025 年營業收入約有 14% 來自資本產品的銷售。若醫院及其他醫療機構無法取得購置這些產品所需的融資，或延後購置，則這些產品的銷售可能受到負面影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

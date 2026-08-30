@@ -1,0 +1,160 @@
+{
+ "ticker": "DRVN",
+ "cik": "0001804745",
+ "accession": "0001804745-26-000048",
+ "form": "10-K",
+ "reportDate": "2025-12-27",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Business",
+    "Franchise Brands",
+    "Auto Glass Now",
+    "Growth and Cash",
+    "Company-Operated Store Strategy",
+    "Franchising Strategy",
+    "Franchise Agreements",
+    "Marketing Strategy",
+    "Industry Overview and Competition",
+    "Government Regulations and Other Regulatory Matters",
+    "Employees and Human Capital Resources",
+    "Intellectual Property",
+    "Additional Information",
+    "Use of Website to Provide Information"
+   ],
+   "paragraphs": [
+    "Driven Brands is the largest automotive services company in North America with a growing and highly-franchised base of over 4,200 locations across 49 U.S. states and Canada. Our scaled, diversified platform provides high-quality services to an extensive range of retail, commercial, and insurance customers. Our breadth of services covers a wide variety of automotive needs, including routine maintenance services, such as oil changes, as well as paint, collision, glass, and repair services. Our portfolio of brands continues to generate consistent revenue with strong operating margins. Our network generated approximately $1.9 billion in net revenue from approximately $6.1 billion in system-wide sales in 2025.",
+    "The Company operates and reports financial information on a 52- or 53-week year with the fiscal year ending on the last Saturday in December. Our 2025, 2024, and 2023 fiscal years ending December 27, 2025, December 28, 2024, and December 30, 2023, respectively, each consisted of 52 weeks.",
+    "We are the largest provider of diversified automotive services in North America and have a portfolio of well-known brands, including Take 5 Oil Change® (\"Take 5 Oil\"), Meineke Car Care Center® (\"Meineke\"), MAACO® (\"Maaco\"), CARSTAR®, AutoGlassNow® (\"AGN\"), and 1-800-Radiator & A/C® (\"1-800 Radiator\"), among others.",
+    "Our automotive services are grouped in the following segments: Take 5",
+    "Our Take 5 segment is primarily comprised of Take 5 Oil. Take 5 Oil services a combination of retail and commercial customers, such as fleet operators, through 1,342 locations as of December 27, 2025. Take 5 Oil's services include oil changes as well as certain as-needed automotive maintenance enhancements, including differential fluid exchanges, coolant services and air and cabin filters.",
+    "Founded in 1984, Take 5 Oil provides an efficient stay-in-your-car style oil change. Take 5 Oil's 530 franchised and 812 company-operated locations, as of December 27, 2025, primarily offer oil changes to retail and commercial customers. We believe Take 5 Oil offers a best-in-class operating model through its convenient stay-in-your-car format, simple and focused menu, and expeditious service, all of which is designed to generate strong customer satisfaction, high frequency of use, and attractive unit-level economics. Furthermore, Take 5 Oil's compact store layout and shallow pit design reduce upfront build-out costs, increase efficiency, and provide real estate flexibility. Take 5 Oil's franchising efforts are expected to continue to drive long-term unit growth through its pipeline of franchise commitments.",
+    "Our Franchise Brands segment consists of a diversified portfolio of brands including Meineke, Maaco, CARSTAR, ABRA, Fix Auto, 1-800 Radiator, Uniban, and Automotive Training Institute (\"ATI\") and serves retail, commercial, and insurance customers through 2,699 total locations as of December 27, 2025.",
+    "Our maintenance and repair services are predominantly offered under the Meineke brand, which was founded in 1972. As of December 27, 2025, we had 780 franchised locations, which offer an extensive set of total car care services to retail customers and commercial fleet programs, including maintenance, repair, and replacement of components, such as brakes, heating and cooling systems, exhaust, and tires and is well-known throughout the automotive services industry.",
+    "Our collision repair services are offered through CARSTAR, ABRA, and Fix Auto, which were founded in 1989, 1984, and 1997, respectively, and together comprise the largest franchised collision repair network in North America. Our 1,077 collision locations, as of December 27, 2025, are almost exclusively franchised and offer full collision repair and refinishing services in addition to other cosmetic repairs.",
+    "Our paint services are offered through Maaco, which was founded in 1972. Our 370 franchised locations, as of December 27, 2025, offer an extensive suite of services including paint services, surface preparation, protection, and refinishing, reconditioning, and other cosmetic external and internal repairs. Maaco primarily serves retail customers and commercial fleet",
+    "operators and provides strong retail customer service at a much lower average price point than most collision centers, making it an economical option for minor auto body repair when customers prefer to not file an insurance claim.",
+    "Our Canadian glass repair services are primarily offered through Uniban. Uniban was founded in 1977 and is known as a leader in the category with 271 locations across Canada as of December 27, 2025, which are 96% franchised. Uniban offers replacement, repair, and calibration services for automotive glass to retail, commercial and insurance customers. In addition, we offer customized solutions to manage glass claims for insurance carriers.",
+    "Our 1-800 Radiator business, which was founded in 2001, is one of the largest franchised distributors in the automotive parts industry. 1-800 Radiator's 201 locations, as of December 27, 2025, are almost exclusively franchised and distribute a broad, diverse mix of long-tail automotive parts, including radiators, air conditioning components, and exhaust products to automotive repair shops, auto parts stores, body shops, and other auto repair outlets. 1-800 Radiator's operating model is fueled by proprietary algorithmic sourcing technology that enables franchisees to effectively order inventory, manage pricing, and deliver parts to customers within hours.",
+    "Our financial and operational training services are offered through ATI, which provides training services to independent repair and maintenance, and paint and collision shops. ATI's core offering is a multi-year training package that is typically offered through a monthly subscription."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Summary of Risk Factors",
+    "Risks Relating to Our Business",
+    "Competition may harm our business and results of operations.",
+    "Changes in consumer preferences and perceptions, and in economic, market, and other conditions could adversely affect our business and results of operations.",
+    "Our business is affected by the financial results of our franchisees.",
+    "Our business is affected by advances in automotive technology.",
+    "Certain restrictions may prevent us from providing our services and products to customers.",
+    "Increases in operating costs, including labor and commodity costs and interest rates have, and may again in the future, adversely affect our results of operations.",
+    "High levels of economic inflation may increase our operating costs, influence demand for our products, and impact the profitability of our business.",
+    "Our locations may experience difficulty hiring and retaining qualified personnel, resulting in higher labor costs.",
+    "Insurance coverage may not be adequate, and increased self-insurance and other insurance costs could adversely affect our results of operations.",
+    "Increases in supply costs could adversely affect our results of operations.",
+    "Geopolitical uncertainty, including tariffs imposed by the U.S. and/or other governments could increase our supply costs, which could materially and adversely affect our business and results of operations.",
+    "Decreases in our product sourcing revenue could adversely affect our results of operations.",
+    "We depend on key suppliers, including international suppliers, to deliver timely high-quality products at quantities and prices required for our businesses.",
+    "Supply chain shortages and interruptions could adversely affect our business.",
+    "Our failure to build and maintain relationships with insurance partners could adversely affect our business.",
+    "Substantially all of the assets of the Company are pledged as security under the terms of our Indebtedness.",
+    "We may not be able to execute on our plans to open additional locations and enter new markets.",
+    "Our acquisitions, dispositions, and strategic investments involve risks.",
+    "Our business may be adversely impacted by our indebtedness, including additional leverage in connection with acquisitions and other capital expenditure initiatives.",
+    "Guaranties associated with the lease obligations of divested entities could adversely affect our results of operations or financial condition.",
+    "Our business is subject to seasonality.",
+    "Our business may be adversely impacted by the geographic concentration of our locations.",
+    "Our operations are subject to various risks and uncertainties, including adverse economic conditions or a debt crisis, which could adversely affect our business.",
+    "Our success depends on the effectiveness of our marketing and advertising programs.",
+    "Our failure or our franchisees' failure to comply with health, employment, and other federal, state, local, and provincial laws, rules, and regulations may lead to losses and harm our brands."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. These risks include those described below and may include additional risks and uncertainties not currently known to us or that we currently deem immaterial. These risks could adversely affect our results of operations, financial condition, business reputation, or business prospects. You should carefully consider each of the following risk factors in conjunction with other information provided in this Annual Report on Form 10-K and in our other public disclosures before making an investment decision regarding our securities. If any of these risks occur, the trading price of our common stock could decline, and you could lose all or part of your investment.",
+    "Our business is subject to a number of risks and uncertainties, including those risks discussed at-length below. These risks include, among others, the following:",
+    "•Competition may harm our business and results of operations.",
+    "•Changes in consumer preferences and perceptions, and in economic, market, and other conditions could adversely affect our business and results of operations.",
+    "•Our business is affected by the financial results of our franchisees.",
+    "•Increases in operating costs, including labor and commodity costs and interest rates have, and may again in the future, adversely affect our results of operations."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'translatedText': '本公司業務'}",
+    "{'translatedText': '特許品牌'}",
+    "{'translatedText': '汽車玻璃現購服務'}",
+    "{'translatedText': '成長與現金流量'}",
+    "{'translatedText': '本公司經營門市策略'}",
+    "{'translatedText': '特許經營策略'}",
+    "{'translatedText': '特許經營契約'}",
+    "{'translatedText': '行銷策略'}",
+    "{'original': 'Industry Overview and Competition', 'translated': '產業概況與競爭'}",
+    "{'original': 'Government Regulations and Other Regulatory Matters', 'translated': '政府規範及其他規範事項'}",
+    "{'original': 'Employees and Human Capital Resources', 'translated': '員工與人力資本資源'}",
+    "{'original': 'Intellectual Property', 'translated': '智慧財產權'}",
+    "{'original': 'Additional Information', 'translated': '其他資訊'}",
+    "{'original': 'Use of Website to Provide Information', 'translated': '網站用以提供資訊'}"
+   ],
+   "paragraphs": [
+    "Driven Brands 是北美最大的汽車服務公司，擁有超過 4,200 個快速成長且高度特許經營的據點，分佈於美國 49 個州及加拿大。我們的規模化、多元化平台為廣泛的零售、商業及保險客戶提供高品質的服務。我們的服務範疇涵蓋多種汽車需求，包括常規保養服務，如換機油，以及塗裝、碰撞、玻璃及修復服務。我們的品牌組合持續產生穩定的營業收入，並擁有強勁的營運毛利率。我們的網路在 2025 年產生約 1.9 十億美元的淨銷售額，來自系統總銷售額約 6.1 十億美元。",
+    "本公司採用 52 或 53 週財務年度，財務年度結算日為 12 月的最後一個星期六。我們 2025、2024 及 2023 財務年度分別於 2025 年 12 月 27 日、2024 年 12 月 28 日及 2023 年 12 月 30 日結算，每個財務年度均為 52 週。",
+    "我們是北美最大的多元化汽車服務供應商，擁有眾所周知的品牌組合，包括 Take 5 Oil Change®（\"Take 5 Oil\"）、Meineke Car Care Center®（\"Meineke\"）、MAACO®（\"Maaco\"）、CARSTAR®、AutoGlassNow®（\"AGN\"）以及 1-800-Radiator & A/C®（\"1-800 Radiator\"）等。",
+    "我們的汽車服務分為以下應報告分部：Take 5",
+    "我們的 Take 5 分部主要由 Take 5 Oil 組成。Take 5 Oil 服務零售與商業客戶，如車隊經營者，截至 2025 年 12 月 27 日共有 1,342 個據點。Take 5 Oil 的服務包括換機油以及某些按需的汽車保養增強服務，包括差速器油液更換、冷卻系統服務及空氣與車內過濾器。",
+    "Take 5 Oil 於 1984 年成立，提供一種高效能的車內換機油服務。截至 2025 年 12 月 27 日，Take 5 Oil 有 530 個特許經營據點及 812 個公司自營據點，主要為零售與商業客戶提供換機油服務。我們認為 Take 5 Oil 透過其便利的車內服務模式、簡潔且專注的服務項目及快速的服務流程，提供最佳的營運模式，設計用以產生強勁的客戶滿意度、高使用頻率及有吸引力的單點經濟效益。此外，Take 5 Oil 的緊湊店面設計及淺坑設計可降低初期建設成本，提高效率，並提供地產靈活性。Take 5 Oil 的特許經營努力預期將持續透過其特許經營承諾管道推動長期的單點成長。",
+    "我們的特許經營品牌分部包含多元化品牌組合，包括 Meineke、Maaco、CARSTAR、ABRA、Fix Auto、1-800 Radiator、Uniban 及 Automotive Training Institute（\"ATI\"），並透過 2,699 個總據點服務零售、商業及保險客戶，截至 2025 年 12 月 27 日。",
+    "我們的保養與修復服務主要以 Meineke 品牌提供，該品牌於 1972 年成立。截至 2025 年 12 月 27 日，我們擁有 780 個特許經營據點，為零售客戶及商業車隊方案提供廣泛的總車輛保養服務，包括保養、修復及零組件更換，如剎車系統、冷氣與暖氣系統、排氣系統及輪胎，並在汽車服務產業中廣為知名。",
+    "本公司碰撞修復服務透過 CARSTAR、ABRA 及 Fix Auto 提供，分別於 1989 年、1984 年及 1997 年成立，合計為北美洲規模最大的特許碰撞修復網路。本公司截至 2025 年 12 月 27 日為止共有 1,077 家碰撞修復據點，幾乎全部為特許經營，除提供完整的碰撞修復及塗裝服務外，亦提供其他外觀修復服務。",
+    "本公司塗裝服務透過 Maaco 提供，於 1972 年成立。本公司截至 2025 年 12 月 27 日為止共有 370 家特許經營據點，提供廣泛的服務項目，包括塗裝服務、表面處理、保護、修復、重製及其他外觀與內裝的修復服務。Maaco 主要服務零售客戶及商業車隊運營者，並以遠低於大多數碰撞中心的平均價格點提供強大的零售客戶服務，使其成為客戶偏好不提出保險申報時進行輕微車體修復的經濟選擇。",
+    "Maaco 主要服務零售客戶及商業車隊運營者，並以遠低於大多數碰撞中心的平均價格點提供強大的零售客戶服務，使其成為客戶偏好不提出保險申報時進行輕微車體修復的經濟選擇。",
+    "本公司加拿大玻璃修復服務主要透過 Uniban 提供。Uniban 於 1977 年成立，為該領域的領導品牌，截至 2025 年 12 月 27 日，擁有 271 個據點，其中 96% 為加盟據點。Uniban 提供汽車玻璃的更換、修復及校準服務，服務對象包括零售、商業及保險客戶。此外，本公司亦提供客製化解決方案，協助保險電信業者管理玻璃理賠案件。",
+    "本公司 1-800 Radiator 事業，於 2001 年成立，為汽車零件產業中規模最大的加盟經銷商之一。1-800 Radiator 截至 2025 年 12 月 27 日，擁有 201 個據點，幾乎全部為加盟據點，銷售廣泛且多樣化的長尾汽車零件，包括散熱器、空調零組件及排氣產品，供應汽車修復店、汽車零件店、車體修復廠及其他汽車修復通路。1-800 Radiator 的營運模式仰賴專屬的演算法採購技術，使加盟者能有效訂購存貨、管理價格，並在數小時內將零件送達客戶。",
+    "本公司財務及營運訓練服務透過 ATI 提供，ATI 為獨立修復與維護、噴漆與碰撞修復廠提供訓練服務。ATI 的核心產品為多年度訓練套件，通常以月費訂閱方式提供。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與本公司業務相關的風險",
+    "競爭可能損害本公司業務及營運成果。",
+    "消費者偏好與觀感的變化，以及經濟、市場及其他條件的變動，可能對本公司業務及營運成果造成不利影響。",
+    "本公司業務受本公司加盟業者的財務表現影響。",
+    "本公司業務受汽車科技進步的影響。",
+    "某些限制可能阻止本公司向客戶提供服務與產品。",
+    "營運成本的增加，包括人工與原物料成本及利率，已並可能再次於未來對本公司營運成果造成不利影響。",
+    "高經濟通貨膨脹水平可能提高我們的營運成本、影響我們產品的需求，並影響我們業務的獲利能力。",
+    "我們的營運據點可能遇到聘僱與留任合格人員的困難，導致勞動成本提高。",
+    "保險覆蓋範圍可能不足，增加自負風險及其他保險成本，可能對我們的營運成果產生不利影響。",
+    "供應成本的增加可能對我們的營運成果產生不利影響。",
+    "地緣政治不確定性，包括美國及其他政府所課徵的關稅，可能提高我們的供應成本，這可能對我們的業務及營運成果產生重大且不利的影響。",
+    "我們產品來源收入的減少可能對我們的營運成果產生不利影響。",
+    "我們依賴關鍵供應商，包括國際供應商，以符合我們業務所需之產品數量、價格及時效性。",
+    "供應鏈短缺及中斷可能對我們的業務產生不利影響。",
+    "本公司未能建立並維持與保險夥伴之關係，可能對本公司業務造成不利影響。",
+    "本公司 substantially all 之資產已作為擔保品，用以擔保本公司之債務條款項下之債務。",
+    "本公司可能無法執行本公司開設新據點及進入新市場之計畫。",
+    "本公司之併購、處置及戰略投資涉及風險。",
+    "本公司業務可能因本公司之債務而受到不利影響，包括因併購及其他資本支出計畫而產生之額外槓桿。",
+    "與已處置實體之租賃義務相關之擔保，可能對本公司之營運成果或財務狀況造成不利影響。",
+    "本公司業務受季節性影響。",
+    "本公司業務可能因據點之地理集中而受到不利影響。",
+    "本公司營運面臨各種風險與不確定性，包括惡化經濟條件或債務危機，這可能會對本公司業務產生不利影響。",
+    "本公司之成功取決於行銷與廣告方案之成效。",
+    "本公司或加盟者未能遵守健康、就業及其他聯邦、州、地方及省級法律、規則與規範，可能會導致損失並損害本公司品牌。"
+   ],
+   "paragraphs": [
+    "投資本公司的普通股涉及高度風險。這些風險包括下列所描述的風險，也可能包括目前我們尚未知悉或認為不重要之其他風險與不確定性。這些風險可能會對我們的營運成果、財務狀況、企業聲譽或業務前景產生不利影響。您在做出有關本公司證券之投資決定前，應仔細考量下列風險因素，並配合本年度10-K表報表及其他公開揭露資訊一併考量。若其中任何風險發生，本公司普通股之交易價格可能會下跌，您可能會損失全部或部分投資。",
+    "本公司業務面臨許多風險與不確定性，包括下列詳細說明之風險。這些風險包括但不限於以下項目：",
+    "•競爭可能對本公司業務與營運成果造成損害。",
+    "•消費者偏好與觀感的變化，以及經濟、市場及其他條件的變動，可能會對本公司業務與營運成果產生不利影響。",
+    "•本公司業務受本公司加盟者之財務表現所影響。",
+    "•營運成本的增加，包括人工與原物料成本及利率，已並可能於未來再次對本公司營運成果產生不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

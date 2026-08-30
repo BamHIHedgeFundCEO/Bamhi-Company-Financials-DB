@@ -1,0 +1,215 @@
+{
+ "ticker": "GTM",
+ "cik": "0001794515",
+ "accession": "0001794515-26-000012",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Platform",
+    "Our Data Engine",
+    "Our Competition",
+    "Our Customers",
+    "Intellectual Property",
+    "Data Privacy and Protection",
+    "Human Capital",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "ZoomInfo is a global leader in modern go-to-market software, data, and intelligence for sales, marketing, operations, and recruiting teams. Our go-to-market intelligence platform empowers businesses with AI-ready insights, trusted data, agent-assisted selling and advanced automation providing sales, marketing, operations, and recruiting professionals accurate information and insights on the organizations and professionals they target. This enables our customers to shorten sales cycles and increase win rates by empowering sellers, marketers, and recruiters to efficiently deliver the right message to the right person at the right time in the right way.",
+    "ZoomInfo is the modern go-to-market intelligence platform, consisting of three distinct layers that build upon each other:",
+    "•Our Intelligence Layer is the foundation of our data-driven strategy. Our best-in-class data, curated through first- and third-party sources, includes billions of data points about companies and contacts, such as intent, hierarchy, location, and financial information.",
+    "•Our Orchestration Layer integrates and enriches our data sources. At this stage, our products assign and route data, leads, and insights to the appropriate people. This creates a dataset that is continuously updated and can be used to power automated business workflows. Our services connect with major CRM system providers enabling sales operations professionals to access a suite of products, services, and solutions to ingest, match, enrich, and connect data feeds into multiple systems.",
+    "•Our Engagement Layer allows sales, marketing, operations, and recruiting professionals to put data-driven insights into action to identify and communicate with prospects and customers. Go-to-market professionals use our engagement layer for multi-touch and multi-channel sales engagement, web meeting recording, transcription, insight generation, and coaching. Marketers drive awareness, lead generation, and deal acceleration campaigns through account-based marketing, advertising, and onsite conversion optimization solutions including chat functionality. Recruiters and talent acquisition professionals can locate and reach more better suited candidates, use pipeline management tools to collaborate and organize the hiring process, and automate aspects of the candidate outreach process by more efficiently finding and engaging candidates.",
+    "We are able to deliver high-quality intelligence at scale by leveraging an artificial intelligence (\"AI\") and machine learning (\"ML\") powered engine that gathers billions of data points about companies and contact information from millions of sources and standardizes, matches to entities, verifies, cleans, and applies the processed data to companies and people. This data engine along with our team of research analysts and data scientists enrich our platform by providing deep insights. Our customers access insights directly in our platform and can also integrate our data and insights directly into their CRM system or sales and marketing automation systems, to improve their existing go-to-market processes.",
+    "Our modern, cloud-based operating system for revenue professionals delivers comprehensive and high-quality intelligence and analytics to provide sales, marketing, operations, and recruiting professionals accurate information and insights on the organizations and professionals they target.",
+    "We enhance the breadth of this intelligence with deep insights, such as personnel moves, pain points, or planned investments, technologies used by companies, intent signals, decision-maker contact information, advanced attributes (such as time series growth, granular department and location information, and employee trends), organizational charts, news and events, hierarchy information, locations, and funding details. All of this can be integrated directly into our customers' CRM and sales and marketing automation systems.",
+    "This 360-degree view of key business insights provides our users with a detailed understanding of their customers and prospects, and coupled with our analytics, shortens sales cycles and increases win rates by enabling sellers, marketers, and recruiters to deliver the right message, to the right person, at the right time, in the right way. Our intelligence is kept up-to-date in real time. This is accomplished through a combination of robust systems and processes leveraging AI, ML, and our proprietary human-in-the-loop approach.",
+    "We deliver high-quality intelligence at scale by leveraging an AI and ML-powered engine that gathers data from millions of sources and standardizes, matches to entities, verifies, cleans, and applies the processed data to companies and people. We aggregate and extract distinct types of data, such as revenue, locations, technologies, keywords, contact information, including email addresses, titles, and phone numbers, and many others, from millions of public and proprietary sources. Our evidence-based ML algorithm scores, ranks, and makes determinations about these billions of data points each week. To help train our AI and ML technologies and augment our contributory network, we have a team of research analysts and data scientists with deep expertise in cleaning business-to-business data. This human-in-the-loop team plays a strategic role, focusing on quality assurance and addressing data and intelligence gaps that technology alone cannot solve. We have processes in place to use our research team to tag anomalies in data, review data pieces that require additional manual verification, identify patterns to transform this understanding into algorithms, and identify methods to automate data gathering. We are able to provide a contractual guarantee of the accuracy of certain data points as a result of our focus on quality.",
+    "We believe there are currently no competitors who offer a sales, marketing, operations, and recruiting intelligence platform as comprehensive as ours. We are able to provide revenue improvement; accurate and comprehensive data coverage; unique data points to leverage insights; and a platform that can be integrated and automated with a variety of CRM, marketing, operations, or recruiting platforms. In limited circumstances, we will see other vendors that focus on specific use-cases, niche end-markets, or leveraging legacy and/or inaccurate data sets try to compete in potential deals. These potential competitors include LinkedIn Sales Navigator, D&B Hoovers, and TechTarget, as well as prominent large-language-model (LLM) providers and generative AI companies who may incorporate business contact information and intelligence into their platforms.",
+    "We believe the principal factors that drive competition between vendors in the market include:",
+    "•comprehensive platform offering; •quality and accuracy of data; •breadth and depth of data;",
+    "•ease of use and deployment; •tangible benefits relative to pricing and ROI for customers;"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business and Industry",
+    "Our platform integrates or otherwise works with third-party systems that we do not control.",
+    "If we fail to maintain, upgrade, or implement adequate operational and financial resources, including our IT systems, we may be unable to execute our business plan.",
+    "Sustainability and related reporting obligations, expose us to risks that could adversely affect our reputation and performance.",
+    "Risks Related to Privacy, Technology, and Security",
+    "We may be subject to litigation for any variety of claims, which could harm our reputation and adversely affect our business, results of operations, and financial condition.",
+    "We may not be able to adequately protect or enforce our proprietary and intellectual property rights in our data or technology."
+   ],
+   "paragraphs": [
+    "We are subject to various risks that could have a material adverse effect on our business, financial condition, results of operations, or cash flows. Although it is not possible to predict or identify all such risks and uncertainties, they may include, but are not limited to, the factors discussed below. The risks described herein are not the only risks we may face. Additional risks and uncertainties not currently known to us or that we currently deem to be immaterial may also materially adversely affect our business, financial condition, results of operations or cash flows. You should carefully review the information provided in this section before making an investment in our common stock.",
+    "Our current and potential customers may reduce spending on sales, marketing, recruiting and other technology and information as a result of weaker economic conditions, which could harm our revenue, results of operations, and cash flows.",
+    "Our revenue, results of operations, and cash flows depend on the overall demand for and use of technology and information for sales, marketing, and recruiting professionals, which depends in part on the amount of spending allocated by our customers or potential customers for professionals engaged in such activities. This spending depends on various factors, including, but not limited to, macroeconomic and geopolitical conditions. Accordingly, the effect of significant macroeconomic and geopolitical downturns, including falling demand for a variety of goods and services, inflation (including wage inflation), labor market constraints, fluctuating or uncertain interest rates, liquidity constraints, volatility in credit, equity, and foreign exchange markets, bankruptcies, global pandemics, wars, trade tensions, and catastrophic events, could impact the demand for and use of our products. Market volatility, decreased consumer confidence, and diminished growth expectations in both the U.S. and global economy as a result of the foregoing events, or other unforeseen events, may affect the rate of information technology (\"IT\") spending and adversely affect our current and potential customers' ability or willingness to renew or expand subscriptions or purchase our services, delay prospective customers' purchasing decisions and thereby elongate our sales cycles, reduce the value or duration of their subscription contracts, or affect attrition rates, all of which could adversely affect our future sales and operating results. Weaker economic conditions can result in customers seeking to utilize free or lower-cost information or services that are available from alternative sources. Prolonged economic slowdowns may result in requests to renegotiate existing contracts on less advantageous terms to us than those currently in place, payment defaults on existing contracts, elongated sales cycles resulting in delays and increased sales costs, or non-renewal at the end of a contract term.",
+    "In addition, as part of our growth strategy, we will continue to focus on expanding our enterprise customer base, which presents additional risks and challenges, including, but not limited to, longer and more complex average sales cycles and significant investments in sales talent, product capabilities, and operational infrastructure. Further, if the overall demand for and use of technology and information for sales, marketing, and recruiting professionals declines, or if there is a general decline of macroeconomic conditions, our revenue and cash flows may decline or grow less quickly than anticipated, which could have a material adverse effect on our business, financial condition, and results of operations.",
+    "We may be unable to attract new customers, renew existing subscriptions, expand subscriptions of current customers, and collect revenue from our customers, which could harm our revenue growth, cash flows, and profitability.",
+    "To increase our revenue and cash flows, and to achieve and maintain profitability, we must attract new customers, renew existing subscriptions, grow the subscriptions of existing customers, and collect revenue from our customers. Our go-to-market efforts are intended to identify and attract prospective customers and convert them into paying customers. In addition, we seek to renew existing subscriptions and expand existing customer subscriptions by adding new users, additional data entitlements, or additional products or services, including through expanding the adoption of our platform into other departments of our existing customers. We cannot predict with any certainty whether we will continue to achieve similar client acquisition and customer subscription renewal and growth rates in the future as we have in the past, in particular as it relates to attracting new, and retaining existing, enterprise customers."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Recent Developments",
+    "Impact of Macroeconomic Conditions",
+    "Restructuring",
+    "First Lien Revolving Credit Facility",
+    "Share Repurchase Program",
+    "Key Factors Affecting Our Performance",
+    "Acquiring New Customers",
+    "Increasing Usage of Our Platform",
+    "Factors Affecting the Comparability of Our Results of Operations",
+    "Changing the Mix of Our Customer Base and Reducing Write-offs and Bad Debts",
+    "Components of Our Results of Operations",
+    "Cost of revenue",
+    "Gross profit and Gross margin",
+    "Operating expenses",
+    "Interest expense, net",
+    "Loss on debt modification and extinguishment",
+    "Other (income) loss, net",
+    "Provision for income taxes",
+    "Results of Operations",
+    "Year Ended December 31,",
+    "(in millions) 2025 2024 2023",
+    "Net income $ 124.2 $ 29.1 $ 107.3",
+    "Year Ended December 31, 2025 versus Year Ended December 31, 2024",
+    "Non-GAAP Financial Measures",
+    "Adjusted Operating Income and Adjusted Operating Income Margin",
+    "(in millions; unaudited) 2025 2024 2023",
+    "Income from operations (GAAP) $ 225.7 $ 97.4 $ 259.5",
+    "Revenue (GAAP) $ 1,249.5 $ 1,214.3 $ 1,239.5",
+    "Adjusted Net Income",
+    "Net income (GAAP) $ 124.2 $ 29.1 $ 107.3",
+    "Adjusted EBITDA",
+    "Liquidity and Capital Resources",
+    "Historical Cash Flows"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our audited consolidated financial statements and related notes included elsewhere in this Form 10-K. This discussion contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those discussed below. Factors that could cause or contribute to such difference include, but are not limited to, those identified below and those discussed in the sections titled \"Cautionary Statement Regarding Forward-Looking Statements\" and \"Risk Factors\" included elsewhere in this Form 10-K.",
+    "Numerical figures included in this Form 10-K are subject to immaterial rounding adjustments. Accordingly, numerical figures shown as totals in various tables may not be arithmetic aggregations of the figures that precede them.",
+    "ZoomInfo is a global leader in modern go-to-market software, data, and intelligence for sales, marketing, operations, and recruiting teams. Our go-to-market intelligence platform empowers businesses with AI-ready insights, trusted data, agent-assisted selling and advanced automation providing sales, marketing, operations, and recruiting professionals accurate information and insights on the organizations and professionals they target. This enables our customers to shorten sales cycles and increase win rates by empowering sellers, marketers, and recruiters to efficiently deliver the right message to the right person at the right time in the right way.",
+    "ZoomInfo is the modern go-to-market intelligence platform, consisting of three distinct layers that build upon each other:",
+    "•Our Intelligence Layer is the foundation of our data-driven strategy. Our best-in-class data, curated through first- and third-party sources, includes billions of data points about companies and contacts, such as intent, hierarchy, location, and financial information.",
+    "•Our Orchestration Layer integrates and enriches our data sources. At this stage, our products assign and route data, leads, and insights to the appropriate people. This creates a dataset that is continuously updated and can be used to power automated business workflows. Our services connect with major CRM system providers enabling sales operations professionals to access a suite of products, services, and solutions to ingest, match, enrich, and connect data feeds into multiple systems.",
+    "•Our Engagement Layer allows sales, marketing, operations, and recruiting professionals to put data-driven insights into action to identify and communicate with prospects and customers. Go-to-market professionals use our engagement layer for multi-touch and multi-channel sales engagement, web meeting recording, transcription, insight generation, and coaching. Marketers drive awareness, lead generation, and deal acceleration campaigns through account-based marketing, advertising, and onsite conversion optimization solutions including chat functionality. Recruiters and talent acquisition professionals can locate and reach more better suited candidates, use pipeline management tools to collaborate and organize the hiring process, and automate aspects of the candidate outreach process by more efficiently finding and engaging candidates.",
+    "We generate substantially all of our revenue from sales of subscriptions to our platform. Subscriptions include the use of our platform and access to customer support. Subscriptions generally range from one to three years in length. About 53% of customer contracts (based on annualized value) are multi-year agreements. We typically bill our customers at the beginning of each annual, semi-annual, or quarterly period and recognize revenue ratably over the term of the subscription period.",
+    "We sell access to our platform to both new and existing customers. We price our subscriptions based on the functionality, users, and records under management that are included in each product edition. Our core paid products are ZoomInfo Copilot, ZoomInfo Sales, ZoomInfo Marketing, ZoomInfo Operations, and ZoomInfo Talent (with add-on options for some products), and we have a free community edition, ZoomInfo Lite.",
+    "Our software, insights, and data enable over 35,000 companies to go-to-market more effectively and efficiently. Our customers are primarily businesses that sell to other businesses and operate in almost every industry vertical. They range from the largest global enterprises, to mid-market companies, down to small businesses. The top five industries that we serve, as measured by ACV, as of December 31, 2025 are software, which comprised 32% of ACV (compared to 32% a year prior), non-IT business services, which comprised 18% of ACV (compared to 20% a year prior), IT business services, which comprised 8% of ACV (compared to 8% a year prior), financial, insurance & real estate, which comprised 9% of ACV (compared to 8% a year prior), and manufacturing, which comprised 7% of ACV (compared to 6% a year prior).",
+    "For the year ended December 31, 2025, no single customer contributed more than 10% of revenue. Revenues derived from customers and partners located outside the United States, as determined based on the address provided by our customers and partners, accounted for approximately 12%, 12%, and 13% of total revenue for the years ended December 31, 2025, 2024, and 2023, respectively. As of December 31, 2025 and 2024, our number of customers with over $100,000 in ACV was 1,921 and 1,867, respectively.",
+    "We generated revenue of $1,249.5 million for the year ended December 31, 2025, as compared to revenue for the year ended December 31, 2024 of $1,214.3 million, and GAAP income from operations of $225.7 million for the year ended December 31, 2025, as compared to GAAP income from operations of $97.4 million for the year ended December 31, 2024. GAAP operating income margin was 18% for the year ended December 31, 2025, as compared to 8% for the year ended December 31, 2024. GAAP net income for the year ended December 31, 2025 was $124.2 million, as compared to GAAP net income of $29.1 million for the year ended December 31, 2024. In addition to our consolidated U.S. GAAP financial measures, we review various non-GAAP financial measures, including Adjusted Operating Income, Adjusted Operating Income Margin, and Adjusted Net Income. See \"Non-GAAP Financial Measures\" below for definitions. Our Non-GAAP Adjusted Operating Income was $445.9 million for the year ended December 31, 2025, as compared to $428.5 million for the year ended December 31, 2024. Our Non-GAAP Adjusted Operating Income Margin was 36% for the year ended December 31, 2025, as compared to 35% in 2024. Non-GAAP Adjusted Net Income was $369.2 million for the year ended December 31, 2025, as compared to $363.8 million for the year ended December 31, 2024.",
+    "The discussion of our financial condition and results of operations for the year ended December 31, 2024 compared to the year ended December 31, 2023, included in Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations, can be found in the Annual Report on Form 10-K for the year ended December 31, 2024.",
+    "Our business and financial condition have and may continue to be impacted by adverse macroeconomic conditions. See \"Risk Related to Geopolitical and Macroeconomic Factors\" in Part I, Item 1A of this Form 10-K for further discussion of the possible impact of these issues on our business."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Our Platform': '本平台'}",
+    "{'Our Data Engine': '本資料引擎'}",
+    "{'Our Competition': '本競爭對手'}",
+    "{'Our Customers': '本客戶'}",
+    "{'Intellectual Property': '智慧財產權'}",
+    "{'Data Privacy and Protection': '資料隱私權與保護'}",
+    "{'Human Capital': '人力資本'}",
+    "{'Available Information': '可供查閱資訊'}"
+   ],
+   "paragraphs": [
+    "ZoomInfo 是全球現代行銷軟體、資料與智慧的領導者，服務銷售、行銷、運營與招聘團隊。我們的行銷智慧平台透過 AI 就緒的洞察、可信資料、代理人協助銷售與先進自動化，為這些專業人員提供準確的組織與專業人士資訊與洞察。這使我們的客戶能縮短銷售週期並提高成交率，透過賦能銷售人員、行銷人員與招聘人員，以正確的方式，在正確的時間，向正確的人傳達正確的訊息。",
+    "ZoomInfo 是現代行銷智慧平台，包含三個不同的層級，彼此層層疊加：",
+    "• 我們的智慧層是我們資料驅動策略的基礎。我們透過第一與第三方來源整理的優質資料，包含數十億筆資料點，關於公司與聯絡人，例如意圖、階層、地點與財務資訊。",
+    "• 我們的協調層整合並豐富我們的資料來源。在這個階段，我們的產品會將資料、潛在客戶與洞察資訊分配並路由至適當的人員。這會產生一個持續更新的資料集，可用來驅動自動化業務流程。我們的服務能與主要 CRM 系統供應商連接，讓銷售運營專業人員能存取一整套產品、服務與解決方案，用以吸收、匹配、豐富與連接資料流至多個系統。",
+    "• 我們的互動層讓銷售、行銷、運營與招聘專業人員能將資料驅動的洞察付諸實踐，以識別並與潛在客戶與客戶溝通。行銷專業人員會使用我們的互動層進行多接觸點與多通路的銷售互動、網路會議錄音、轉譯、洞察生成與指導。行銷人員透過帳號導向行銷、廣告與網站轉換優化解決方案，包括聊天功能，來推動品牌認知、潛在客戶產生與交易加速活動。招聘與人才招募專業人員能更有效地尋找與接觸更合適的候選人，使用管道管理工具來協作與組織招聘流程，並透過自動化方式處理候選人接觸的某些方面。",
+    "我們能大規模提供高品質的智慧，透過一個由人工智慧（\"AI\"）與機器學習（\"ML\"）驅動的引擎，從數百萬個來源收集數十億筆資料點，並標準化、匹配至實體、驗證、清理，並將處理後的資料應用於公司與個人。這個資料引擎加上我們的研討會分析師與資料科學家團隊，能豐富我們的平台，提供深入洞察。我們的客戶可以直接在平台內存取洞察，也能將我們的資料與洞察直接整合至其 CRM 系統或銷售與行銷自動化系統，以改善現有的行銷流程。",
+    "我們現代的雲端運營系統為營收專業人員提供全面且高品質的智慧與分析，為銷售、行銷、運營與招聘專業人員提供準確的組織與專業人士資訊與洞察。",
+    "我們透過深入洞察來擴展這項智慧，例如人員異動、痛點或計畫投資、公司使用的科技、意圖信號、決策者聯絡資訊、先進屬性（例如時間序列成長、細部部門與地點資訊，以及員工趨勢）、組織架構圖、新聞與活動、階層資訊、地點與資金細節。所有這些資訊都能直接整合至我們客戶的 CRM 與銷售與行銷自動化系統中。",
+    "此 360 度的商業洞察視圖，使使用者能深入瞭解其客戶與潛在客戶，並結合我們的分析功能，縮短銷售週期並提高成交率，讓銷售人員、行銷人員與 recruiters 能在正確的時間、以正確的方式，向正確的人傳送正確的訊息。我們的資料會即時更新。這是透過強大的系統與流程，結合 AI、ML 以及我們專有的 human-in-the-loop 方法來實現的。",
+    "我們透過 AI 與 ML 驅動的引擎，以大規模提供高品質的資料。該引擎從數百萬個來源收集資料，並進行標準化、匹配至實體、驗證、清理，並將處理後的資料應用於公司與個人。我們會聚合並提取不同類型的資料，例如營業收入、地點、技術、關鍵字、聯繫資訊（包括電子郵件地址、職稱與電話號碼）等，來自數百萬個公開與專屬來源。我們的基於證據的 ML 演算法，每週會評分、排序並對這些十億個資料點做出判斷。為協助訓練我們的 AI 與 ML 技術並強化我們的資料網路，我們有一支具備深度清潔企業對企業資料經驗的研究分析師與資料科學家團隊。這支 human-in-the-loop 團隊扮演戰略角色，專注於品質保證，並解決技術單獨無法解決的資料與智慧缺口。我們有流程可利用研究團隊標記資料中的異常，審閱需要額外人工驗證的資料片段，識別模式以將此理解轉化為演算法，並識別方法以自動化資料收集。我們能提供某些資料點的合約準確性保證，這是因為我們對品質的重視。",
+    "我們認為目前沒有競爭對手能提供像我們一樣全面的銷售、行銷、運營與招聘智慧平台。我們能提供收入提升；準確且全面的資料覆蓋；獨特的資料點以利用洞察；以及一個可與多種 CRM、行銷、運營或招聘平台整合與自動化的平台。在有限的情況下，我們會看到其他廠商專注於特定使用案例、利基市場，或利用過時與/或不準確資料集來競爭潛在交易。這些潛在競爭對手包括 LinkedIn Sales Navigator、D&B Hoovers、TechTarget，以及知名的大語言模型（LLM）供應商與生成式 AI 公司，他們可能將企業聯繫資訊與智慧整合至其平台中。",
+    "我們認為推動市場上廠商競爭的主要因素包括：",
+    "•全面的平台方案；•資料的品質與準確性；•資料的廣度與深度；",
+    "•易用性與部署簡易性；•相較於價格與投資回報率對客戶的實際效益；"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "近期發展",
+    "總體經濟條件的影響",
+    "重整",
+    "第一優先權週轉信用融資協議",
+    "股票回購計畫",
+    "影響我們營運表現的關鍵因素",
+    "獲取新客戶",
+    "增加我們平台的使用率",
+    "影響我們營運成果可比性的因素",
+    "改變客戶基礎組成及減少核銷及呆帳",
+    "營運成果的組成項目",
+    "收入成本",
+    "毛利及毛利率",
+    "營運費用",
+    "淨利息費用",
+    "債務修改及結清損失",
+    "其他（收入）損失，淨額",
+    "所得稅費用",
+    "營運成果",
+    "截至12月31日年度",
+    "(以百萬計) 2025 2024 2023",
+    "淨收入 $ 124.2 $ 29.1 $ 107.3",
+    "截至12月31日2025年度與截至12月31日2024年度比較",
+    "非GAAP財務指標",
+    "調整營運獲利及調整營運獲利邊際率",
+    "(以百萬計；未審計) 2025 2024 2023",
+    "營運收入 (GAAP) $ 225.7 $ 97.4 $ 259.5",
+    "營業收入 (GAAP) $ 1,249.5 $ 1,214.3 $ 1,239.5",
+    "調整淨利",
+    "淨利 (GAAP) $ 124.2 $ 29.1 $ 107.3",
+    "調整EBITDA",
+    "流動性及資本資源",
+    "{'original': 'Historical Cash Flows', 'translated': '歷史現金流'}"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運成果的討論與分析，應與我們經審計之合併財務報表及相關附註一併閱讀，這些財務報表及附註載於本 Form 10-K 其他部分。本討論包含前瞻性陳述，涉及風險與不確定性。我們實際的結果可能與以下所討論者有重大差異。導致此差異的因素包括，但不僅限於，下列所識別者，以及本 Form 10-K 其他部分標題為 \"Cautionary Statement Regarding Forward-Looking Statements\" 及 \"Risk Factors\" 節中所討論者。",
+    "本 Form 10-K 所包含的數字資料可能因不重要之四捨五入調整而有所變動。因此，各表格中顯示為總計的數字可能並非前後數字之算術總和。",
+    "ZoomInfo 是全球現代 go-to-market 軟體、資料與智慧的領導者，用於銷售、行銷、運營與招募團隊。我們的 go-to-market 智慧平台，透過 AI 就緒的洞察、受信賴的資料、代理人協助銷售與先進自動化，為銷售、行銷、運營與招募專業人士提供準確的組織與專業人士資訊與洞察。這使我們的客戶能縮短銷售週期並提高成交率，透過賦能銷售人員、行銷人員與招募人員，以正確的方式，在正確的時間，向正確的人傳達正確的訊息。",
+    "ZoomInfo 是現代 go-to-market 智慧平台，包含三個不同的層次，彼此相互建構：",
+    "• 我們的智慧層是我們資料驅動策略的基礎。我們的資料來自第一方與第三方來源，並經過整理，包含數十億筆資料點，關於公司與聯絡人，例如意圖、階層、地點與財務資訊。",
+    "• 我們的協調層整合並增強我們的資料來源。在這個階段，我們的產品會將資料、潛在客戶與洞察指派並傳送至適當的人員。這會產生一個持續更新的資料集，可用於驅動自動化的業務工作流程。我們的服務可與主要 CRM 系統供應商連接，使銷售運營專業人員能存取一系列的產品、服務與解決方案，用以吸收、匹配、增強與連接資料流至多個系統。",
+    "• 我們的互動層讓銷售、行銷、運營與招募專業人士能將資料驅動的洞察付諸實踐，以識別並與潛在客戶與客戶溝通。行銷專業人員使用我們的互動層進行多接觸點與多通路的銷售互動、網路會議錄音、轉譯、洞察生成與指導。行銷人員透過基於帳戶的行銷、廣告與網站上轉換優化解決方案，包括聊天功能，來推動知名度、潛在客戶產生與交易加速活動。招募人員與人才招募專業人員能尋找並接觸更適合的候選人，使用銷售管道管理工具來協作與組織招聘流程，並透過更有效率地尋找與接觸候選人，自動化候選人接觸流程的某些方面。",
+    "我們幾乎所有的收入均來自於我們平台的訂閱銷售。訂閱包含使用我們平台與存取客戶支援的權利。訂閱通常為一至三年的期限。約 53% 的客戶合約（以年化價值為基準）為多年期合約。我們通常在每個年度、半年度或季度期初向客戶開票，並在訂閱期間內按比例確認收入。",
+    "我們將平台的使用權銷售給新舊客戶。我們根據每個產品版本所包含的功能、使用者及管理的資料記錄來訂定訂閱價格。我們的核心付費產品為 ZoomInfo Copilot、ZoomInfo Sales、ZoomInfo Marketing、ZoomInfo Operations 與 ZoomInfo Talent（部分產品有附加選項），並提供免費社羣版 ZoomInfo Lite。",
+    "我們的軟體、洞察與數據使超過 35,000 家公司能更有效地且高效地進行市場行銷。我們的客戶主要是銷售給其他企業的企業，且經營幾乎所有產業垂直領域。從最大規模的全球企業，到中型企業，再到小型企業均有涵蓋。根據 ACV 來衡量，截至 2025 年 12 月 31 日，我們服務的前五大產業為軟體，佔 32% 的 ACV（與前一年相同為 32%），非 IT 企業服務，佔 18% 的 ACV（與前一年相比為 20%），IT 企業服務，佔 8% 的 ACV（與前一年相同為 8%），金融、保險及不動產，佔 9% 的 ACV（與前一年相比為 8%），以及製造業，佔 7% 的 ACV（與前一年相比為 6%）。",
+    "截至 2025 年 12 月 31 日，沒有任何單一客戶貢獻超過 10% 的營業收入。根據客戶與合作夥伴提供的地址資訊，位於美國以外的客戶與合作夥伴所產生的收入，分別佔 2025 年 12 月 31 日、2024 年 12 月 31 日及 2023 年 12 月 31 日總收入的約 12%、12% 與 13%。截至 2025 年 12 月 31 日及 2024 年 12 月 31 日，ACV 超過 10 萬美元的客戶數量分別為 1,921 與 1,867。",
+    "我們在 2025 年 12 月 31 日財年產生的收入為 1,249.5 百萬美元，與 2024 年 12 月 31 日財年的收入 1,214.3 百萬美元相比。2025 年 12 月 31 日財年的 GAAP 營運收入為 225.7 百萬美元，與 2024 年 12 月 31 日財年的 GAAP 營運收入 97.4 百萬美元相比。2025 年 12 月 31 日財年的 GAAP 營運毛利為 18%，與 2024 年 12 月 31 日財年的 8% 相比。2025 年 12 月 31 日財年的 GAAP 稅後淨利為 124.2 百萬美元，與 2024 年 12 月 31 日財年的 GAAP 稅後淨利 29.1 百萬美元相比。除了我們的合併財務報表所使用的 U.S. GAAP 財務指標外，我們也會審閱各種非 GAAP 財務指標，包括調整後營運收入、調整後營運收入毛利及調整後淨利。請參閱下方的「非 GAAP 財務指標」以取得定義。我們的非 GAAP 調整後營運收入為 445.9 百萬美元，與 2024 年 12 月 31 日財年的 428.5 百萬美元相比。我們的非 GAAP 調整後營運收入毛利為 36%，與 2024 年的 35% 相比。我們的非 GAAP 調整後淨利為 369.2 百萬美元，與 2024 年 12 月 31 日財年的 363.8 百萬美元相比。",
+    "關於我們 2024 年 12 月 31 日財年財務狀況與營運成果與 2023 年 12 月 31 日財年比較的討論，請參閱 2024 年 12 月 31 日財年年度報告（Form 10-K）的第 7 項「管理層對財務狀況與營運成果的討論與分析」。",
+    "我們的業務與財務狀況已並可能持續受到不利總體經濟條件的影響。請參閱本 Form 10-K 第一部分第 1A 項「與地緣政治及總體經濟因素相關的風險」以取得這些問題對我們業務可能影響的進一步討論。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務及產業相關的風險",
+    "我們的平台整合或以其他方式與我們無法控制的第三方系統合作。",
+    "若我們未能維持、升級或實施足夠的運營及財務資源，包括我們的資訊科技系統，我們可能無法執行我們的業務計畫。",
+    "永續性及相關的報告義務，使我們面臨可能損害我們聲譽及表現的風險。",
+    "與隱私權、科技及安全相關的風險",
+    "我們可能因各種聲索而面臨訴訟，這可能會損害我們的聲譽，並對我們的業務、營運結果及財務狀況產生不利影響。",
+    "我們可能無法充分保護或執行我們在數據或科技方面的專有及智慧財產權權利。"
+   ],
+   "paragraphs": [
+    "本公司面臨多種風險，這些風險可能對本公司業務、財務狀況、營業成果或現金流產生重大不利影響。雖然無法預測或識別所有這些風險與不確定性，但可能包括，但不僅限於，下列因素。 herein 所述的風險並非本公司可能面臨的唯一風險。此外，尚有其他風險與不確定性，目前本公司尚未知悉或認為不重要，這些風險也可能對本公司業務、財務狀況、營業成果或現金流產生重大不利影響。您在投資本公司普通股前，應仔細審閱本節所提資訊。",
+    "本公司現有及潛在客戶可能因經濟條件較弱而減少在銷售、行銷、招募及其他科技與資訊方面的支出，這可能會對本公司營業收入、營業成果及現金流造成損害。",
+    "本公司營業收入、營業成果及現金流取決於銷售、行銷及招募專業人士使用科技與資訊的總體需求與使用情況，這部分取決於客戶或潛在客戶為從事這些活動所分配的支出金額。此支出取決於多種因素，包括，但不僅限於，總體經濟與地緣政治條件。因此，重大總體經濟與地緣政治衰退的影響，包括對各種商品與服務需求下降、通貨膨脹（包括工資通貨膨脹）、勞動市場限制、利率波動或不確定性、流動性限制、信貸、股權與外匯市場波動、破產、全球疫情、戰爭、貿易緊張關係與災難性事件，可能會影響對本公司產品的需求與使用。市場波動、消費者信心下降以及因上述事件導致美國與全球經濟成長預期降低，或因其他未預見事件而影響資訊科技（\"IT\"）支出率，可能會影響本公司現有及潛在客戶續訂或擴充訂閱或購買服務的意願與能力，延遲潛在客戶的購買新決策，進而拉長銷售週期，降低訂閱合約的價值或持續時間，或影響離職率，所有這些都可能對本公司未來銷售與營運成果產生重大不利影響。經濟條件較弱可能導致客戶尋求使用來自其他來源的免費或低成本資訊或服務。長期經濟放緩可能導致要求重新協商現有合約，條件對本公司較為不利，現有合約的付款違約，銷售週期延長導致延遲與銷售成本增加，或合約到期後不續約。",
+    "此外，根據本公司成長策略，本公司將持續著重於擴大企業客戶羣，這會帶來額外的風險與挑戰，包括，但不僅限於，較長且更複雜的平均銷售週期，以及在銷售人才、產品能力與運營基礎設施上進行重大投資。此外，若銷售、行銷及招募專業人士使用科技與資訊的總體需求與使用情況下降，或總體經濟條件出現普遍衰退，則本公司營業收入與現金流可能下降或成長速度低於預期，這可能會對本公司業務、財務狀況與營業成果產生重大不利影響。",
+    "本公司可能無法吸引新客戶、續訂現有訂閱、擴充現有客戶的訂閱，並從客戶處收取收入，這可能會損害本公司營業收入成長、現金流與利潤率。",
+    "為增加本公司營業收入與現金流，並實現與維持利潤，本公司必須吸引新客戶、續訂現有訂閱、擴大現有客戶的訂閱，並從客戶處收取收入。本公司行銷策略旨在識別與吸引潛在客戶並將其轉為付費客戶。此外，本公司亦致力於透過增加新用戶、額外數據權限或額外產品與服務，續訂現有訂閱並擴大現有客戶的訂閱，包括透過擴展本公司現有客戶對平台的採用至其他部門。本公司無法確定未來是否能持續達到與過去一樣的客戶獲取與客戶訂閱續訂與成長率，特別是在吸引新客戶與保留現有企業客戶方面。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

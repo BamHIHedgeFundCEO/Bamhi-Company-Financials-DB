@@ -1,0 +1,211 @@
+{
+ "ticker": "NG",
+ "cik": "0001173420",
+ "accession": "0001171843-26-000374",
+ "form": "10-K",
+ "reportDate": "2025-11-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "Executive office",
+    "Corporate office",
+    "Corporate Structure",
+    "Human Capital Resources",
+    "Recent Developments",
+    "Government and Environmental Regulations",
+    "Availability of Raw Materials and Skilled Employees",
+    "Gold Price History",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "We operate in the gold mining industry, primarily focused on advancing the Donlin Gold project in Alaska. The Donlin Gold project is held by Donlin Gold LLC (\"Donlin Gold\"), a limited liability company that is owned by wholly-owned subsidiaries of NOVAGOLD and Donlin Gold Holdings LLC, a subsidiary of Paulson Advantage Plus Master Ltd. and Paulson Partners LP (together, \"Paulson\"). Prior to June 3, 2025, Donlin Gold was owned equally by wholly-owned subsidiaries of NOVAGOLD and Barrick Mining Corporation (\"Barrick\").",
+    "We do not produce gold or any other minerals, and do not currently generate operating earnings. Funding to explore our mineral properties and to operate the Company was acquired primarily through equity financings consisting of public offerings of our common shares and warrants and through previous debt financing consisting of convertible notes, and the sale of assets. We expect to continue to raise capital through additional equity and/or debt financings, through the exercise of stock options, and other such means.",
+    "We were incorporated by memorandum of association on December 5, 1984, under the Companies Act (Nova Scotia) as 1562756 Nova Scotia Limited. On January 14, 1985, we changed our name to NovaCan Mining Resources (1985) Limited and on March 20, 1987, we changed our name to NOVAGOLD RESOURCES INC. On May 29, 2013, our shareholders approved the continuance of the corporation into British Columbia. Subsequently, we filed the necessary documents in Nova Scotia and British Columbia, and we continued under the Business Corporations Act (British Columbia) effective as of June 10, 2013. The current addresses, telephone and facsimile numbers of our offices are:",
+    "201 South Main Street, Suite 400 400 Burrard Street, Suite 1860 Salt Lake City, UT, USA 84111",
+    "Vancouver, BC, Canada V6C 3A6 Telephone (801) 639-0511 Toll free (866) 669-6227 Facsimile (385) 342-4620",
+    "As of November 30, 2025, we had the following material, direct and indirect, wholly-owned subsidiaries: NOVAGOLD Resources Alaska, Inc., NOVAGOLD US Holdings Inc., NOVAGOLD USA, Inc., and AGC Resources Inc. On December 1, 2024, NOVAGOLD (Bermuda) Alaska Limited, NOVAGOLD Resources (Bermuda) Limited and NOVAGOLD Argentina Inc. were amalgamated with NOVAGOLD RESOURCES INC.",
+    "The following chart depicts the corporate structure of the Company together with the jurisdiction of incorporation of each of our material subsidiaries and related holding companies as of November 30, 2025. All ownership is 100% unless otherwise indicated.",
+    "On November 30, 2025, we had 12 full-time employees, of which four are located in Canada and eight are located in the United States. We also use consultants with specific skills to assist with various aspects of project evaluation, engineering, and corporate governance.",
+    "Our company culture is the cornerstone of all our human capital programs. Empowering every employee to be their best, affording every employee the opportunity to make a difference, and giving every employee a chance to be heard are among the Company's values. Our values extend to the communities in which we work. We have adopted a Human Rights Policy focused on our commitment to having a positive influence in the communities where we operate which includes ensuring that we respect human rights.",
+    "As of the end of fiscal year 2025, 54% of our total workforce were women. Selection of individuals for executive and other positions with the Company is guided by the Company's Code of Business Conduct and Ethics which \"prohibits discrimination in any aspect of employment based on race, color, religion, sex, national origin, disability or age.\" Our board of directors (the \"Board\") and management acknowledge the importance of all aspects of diversity including gender, ethnic origin, business skills and experience, because it is right to do so and because it is good for our business. When considering candidates for executive positions, the Board's evaluation considers the broadest possible assessment of each candidate's skills and background with the overriding objective of ensuring that we have the appropriate balance of skills, experience, and capacity that the Company needs to be successful. In the context of this overriding objective, we have determined not to set targets for the percentage of women, or other aspects of diversity, in executive officer positions.",
+    "NOVAGOLD is committed to fostering, cultivating, and preserving a culture of diversity, equity and inclusion. Our employees are one of the most valuable assets we have. The collective sum of the individual differences, life experiences, knowledge, inventiveness, innovation, self-expression, unique capabilities, and talent that our employees invest in their work represents a significant part of our culture, reputation, and NOVAGOLD's achievements.",
+    "NOVAGOLD is dedicated to creating an inclusive work environment for everyone. We embrace and celebrate the unique experiences, perspectives, and cultural backgrounds that each employee brings to our workplace. NOVAGOLD strives to foster an environment where our employees feel respected, valued, and empowered, and our team members are at the forefront in helping us promote and sustain an inclusive workplace.",
+    "NOVAGOLD's diversity initiatives are applicable—but not limited—to our practices and policies on recruitment and selection; compensation and benefits; professional development and training; promotions; and the ongoing development of a work environment built on the premise of gender and diversity equity. To that end, we seek out qualified diverse candidates and encourage them to apply for open positions, either from within or outside of the Company. We also seek out opportunities to develop a pipeline of qualified diverse candidates in a particular profession when we are unable to find them ourselves. For example, in 2021 the Company established and continues to fund the NOVAGOLD Mining and Geological Engineering Scholarship at the University of Alaska to help support and encourage undergraduate students seeking bachelor's degrees in mining or geological engineering, with a focus on supporting underrepresented students.",
+    "Respectful communication and cooperation among all employees."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors",
+    "Risks Related to Our Business",
+    "We are dependent on the cooperation of a third party in the exploration and development of our Donlin Gold project.",
+    "Despite our ownership of 60% of the membership interests of Donlin Gold, our voting interests are contractually reduced in the A&R LLC Agreement.",
+    "We have a history of net losses and expect losses to continue for the foreseeable future.",
+    "We have a limited property portfolio.",
+    "Changes in the market price of gold, which in the past has fluctuated widely, affect our financial condition.",
+    "General economic conditions may adversely affect our growth, future profitability and ability to finance.",
+    "Opposition to our operations from local stakeholders or NGOs could have a material adverse effect on us.",
+    "The quantities for our mineral resources and mineral reserves are estimates based on interpretation and assumptions and may yield less mineral production under actual conditions than is currently estimated.",
+    "Lack of infrastructure could delay or prevent us from developing the Donlin Gold project.",
+    "Title and other rights to our mineral properties are subject to agreements with other parties.",
+    "Our largest shareholder has significant influence on us and may also affect the market price and liquidity of our securities.",
+    "Some of the directors and officers have conflicts of interest as a result of their involvement with other natural resource companies.",
+    "We have ongoing reclamation on some of our mineral properties and may be required to fund additional work that could have a material adverse effect on our financial position.",
+    "We are exposed to credit, liquidity, and interest rate risk.",
+    "Risks Related to Our Industry",
+    "Mining is inherently risky and subject to conditions or events some of which are beyond our control, and which could have a material adverse effect on our business.",
+    "We are subject to significant governmental regulation.",
+    "Our activities are subject to environmental laws and regulations that may increase our costs of doing business and restrict our operations.",
+    "Our insurance will not cover all of the potential risks associated with mining operations.",
+    "Title and other rights to our mineral properties cannot be guaranteed and may be subject to prior unregistered agreements, transfers or claims and other defects.",
+    "Rising metal prices encourage mining exploration, development, and construction activity, which in the past has increased demand for and cost of contract mining services and equipment.",
+    "We may be subject to legal proceedings.",
+    "General Risk Factors",
+    "Global climate change is an international concern and could impact our ability to conduct future operations.",
+    "The Company is dependent upon information technology systems, which are susceptible to disruption, damage, failure, and risks associated with implementation and integration.",
+    "The Company believes it was a passive foreign investment company for its fiscal year ended November 30, 2025 which could have negative tax consequences for U.S. investors."
+   ],
+   "paragraphs": [
+    "You should carefully consider the following risk factors in addition to the other information included in this Annual Report on Form 10-K. Each of these risk factors could adversely affect our business, operating results and financial condition, as well as adversely affect the value of an investment in our common shares. The risks described below are not the only ones facing the Company. Additional risks that we are not presently aware of, or that we currently believe are immaterial, may also adversely affect our business, operating results and financial condition. We cannot assure you that we will successfully address these risks and caution that other unknown risks may exist or may arise that may affect our business.",
+    "An investment in our securities is speculative and involves a high degree of risk due to the nature of our business and the present stage of exploration and development of our mineral properties. The following risk factors, as well as risks not currently known to us, could materially adversely affect our future business, operations and financial condition and could cause them to differ materially from the estimates described in the forward-looking statements relating to us.",
+    "We have no history of commercially producing precious metals from our mineral exploration properties and there can be no assurance that we will successfully establish mining operations or profitably produce precious metals.",
+    "The Donlin Gold project is not in production or currently under construction, and we have no ongoing mining operations or revenue from mining operations. Mineral exploration and development has a high degree of risk and few properties that are explored are ultimately developed into producing mines. The future development of the Donlin Gold project will require having the necessary permits and financing in place to support the construction and ongoing operation of mines, processing plants and related infrastructure. As a result, we are subject to all of the risks associated with establishing new mining operations and business enterprises, including:",
+    "the need to obtain and maintain necessary environmental and other governmental approvals and permits, and the timing and conditions of those approvals and permits;",
+    "the availability and cost of funds to finance construction and development activities;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Management's Discussion and Analysis of Financial Condition and Results of Operations",
+    "Company Overview",
+    "Overview of Donlin Gold Transaction and Financing Activities During 2025",
+    "Donlin Gold project",
+    "Other remediation",
+    "Functional Currency Change",
+    "Consolidated Financial Results for Fiscal 2025",
+    "2025 Fourth Quarter Results",
+    "Liquidity and Capital Resources",
+    "Outstanding share data",
+    "Related party transactions",
+    "Critical Accounting Policies"
+   ],
+   "paragraphs": [
+    "As noted above, on June 3, 2025, the Company and Paulson, through wholly-owned subsidiaries, completed the Donlin Gold Transaction pursuant to the terms of the membership interest purchase agreement dated April 22, 2025 (the \"MIPA\") among Barrick Gold U.S. Inc (\"Barrick Gold\"), Barrick, Paulson, Donlin Gold Holdings LLC, a subsidiary of Paulson (\"Donlin Holdings\"), and NOVAGOLD Resources Alaska, Inc. (\"NGRA\"), a subsidiary of the Company. NOVAGOLD, through NGRA, acquired an additional 10% interest in Donlin Gold for $200 million, increasing its stake to 60% of Donlin Gold, while Paulson, through Donlin Holdings, acquired the remaining 40% interest for $800 million.",
+    "Amended and Restated Limited Liability Company Agreement for Donlin Gold LLC",
+    "In connection with the closing of the Donlin Gold Transaction, NGRA, Donlin Holdings and Donlin Gold entered into an amended and restated limited liability company agreement (the \"A&R LLC Agreement\") governing Donlin Gold, pursuant to which the Company and Paulson have equal governance rights. NGRA had previously entered into a limited liability company agreement with Barrick Gold and Donlin Gold (the \"Prior LLC Agreement\") dated December 1, 2007, as amended from time to time. Pursuant to the terms of the A&R LLC Agreement, the primary amendments to the Prior LLC Agreement consist of the following:",
+    "The deadlock provision contained in Article XVI of the Prior LLC Agreement has been replaced with a provision for non-binding mediation for dispute resolution.",
+    "Consistent with the Prior LLC Agreement, the funding for Donlin Gold will be shared by both parties based on their percentage ownership. For example, since NGRA now holds 60% of the membership interests of Donlin Gold, it will have the responsibility to fund 60% of the expenses of Donlin Gold. However, regardless of the fact that Donlin Holdings holds 40% of Donlin Gold, Donlin Holdings and NGRA have equal governance rights. This adjustment to the parties' voting interests, as set forth in the A&R LLC Agreement means that (i) NGRA's voting percentage interests are defined as its membership interest from time to time less an absolute 10% and (ii) Donlin Holdings' voting percentage interests are defined as its membership interest from time to time plus an absolute 10%. For this reason, although NGRA holds 60% of the membership interests of Donlin Gold, it only has a 50% voting interest.",
+    "The parties agree to manage the operations of Donlin Gold in a manner to avoid adverse tax consequences to the parties, including pursuant to Section 4943 of the Internal Revenue Code.",
+    "Certain provisions in the Prior LLC Agreement have been deleted or amended as a result of such provisions being outdated or no longer relevant due to the current development and permitting status of Donlin Gold.",
+    "Pursuant to the Prior LLC Agreement for Donlin Gold, the Company issued a promissory note to Barrick Gold to repay Barrick out of future mine production cash flow for a portion of Barrick's prior expenditures on the Donlin Gold project. Concurrent with the Donlin Gold Transaction announcement on April 22, 2025, NOVAGOLD entered into a prepayment option agreement with Barrick, which provided the Company with an option to prepay the promissory note in full for $90 million prior to the closing of the Donlin Gold Transaction. The $90 million prepayment option was not exercised prior to closing. In connection with the closing of the Donlin Gold Transaction, on June 3, 2025 NGRA and Barrick Gold amended and restated the promissory note primarily to (i) modify the security package in order to exclude any property held by Donlin Gold or membership interest in Donlin Gold held by NGRA, but ensure it remains secured by NGRA's right, title and interest to proceeds from Donlin Gold and (ii) provide the ability for NGRA to prepay and retire the promissory note for an aggregate of $100 million until December 3, 2026. In connection with the amended and restated promissory note, NGRA has made an irrevocable direction to Donlin Gold whereby Donlin Gold shall distribute to Barrick Gold, until the promissory note is fully repaid, 85% of distributed processed products, cash and other assets, and payments of 5% of certain net proceeds specified in the promissory note. As per the amended and restated promissory note, the principal amount owed is $158.9 million.",
+    "In order to ensure available financing for the Company's $200 million obligation under the MIPA, funding commitments of up to $170 million were obtained from Electrum Strategic Resources L.P. (\"Electrum\"), Paulson, and Kopernik Global Investors, LLC, on behalf of investment funds and accounts managed by them (\"Kopernik\", together with Electrum and Paulson, the \"Investors\") pursuant to a backstop agreement dated April 22, 2025 (\"Backstop Agreement\"). Pursuant to the Backstop Agreement, the Investors agreed to purchase, on a non-brokered, private placement basis, up to $170 million in the Company's common shares at $3.00 per share, representing up to 56,666,667 common shares in the aggregate.",
+    "While the Company did not exercise its rights provided by the Backstop Agreement, in consideration for entering into the Backstop Agreement, the Company issued an aggregate of 25,500,000 warrants to purchase the Company's common shares (the \"Warrants\"), with each Warrant entitling the holder thereof to purchase one common share (a \"Warrant Share\") at an exercise price of $3.00 per Warrant Share for a period of five years from the date of issuance. The Warrants contain a \"cashless exercise\" feature, such that, in lieu of making the cash payment otherwise contemplated to be made to us upon such exercise of the Warrant, the holder may elect instead to receive upon such exercise (either in whole or in part) the net number of common shares determined according to a formula set forth in the Warrants. The Warrants were issued in the following amounts: (i) 12,750,000 Warrants to Paulson; (ii) 6,375,000 Warrants to Electrum; and (iii) 6,375,000 Warrants to Kopernik.",
+    "The Backstop Agreement further provided the Investors with registration rights, pursuant to which the Company had agreed to, among other things, file a registration statement with the SEC registering the resale of the Warrant Shares and to cause such registration statement to remain effective until the earlier of (a) three years from the issuance of the Subscribed Shares (which were not issued), (b) the date on which all of the Subscribed Shares and Warrant Shares shall have been sold, or (c) on the first date on which each Investor can sell all of its Subscribed Shares and/or Warrant Shares (or shares received in exchange therefor) under Rule 144 of the Securities Act without limitation as to the manner of sale or the amount of such securities that may be sold. The Backstop Agreement also contained customary indemnification and other provisions customary for registration rights of this type. Pursuant to discussions with the Investors and the Placement Investors (as defined below), the Company may file a resale registration statement in the future upon request of such investors with respect to the Warrant Shares or common shares issued pursuant to the Subscription Agreement (as defined below)."
+   ],
+   "focus": "Overview of Donlin Gold Transaction and Financing Activities During 2025"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "高階管理層辦公室",
+    "公司總部",
+    "公司組織架構",
+    "人力資源",
+    "近期發展",
+    "政府與環境法規",
+    "原物料與技術員工之可取得性",
+    "黃金價格歷史",
+    "{'original': 'Available Information', 'translated': '可取得資訊'}"
+   ],
+   "paragraphs": [
+    "我們從事金礦開採業，主要專注於推進位於阿拉斯加的 Donlin Gold 專案。Donlin Gold 專案由 Donlin Gold LLC (\"Donlin Gold\")，一家有限責任公司所持有，該公司由 NOVAGOLD 的 wholly-owned subsidiaries 及 Donlin Gold Holdings LLC 所擁有，而 Donlin Gold Holdings LLC 是 Paulson Advantage Plus Master Ltd. 和 Paulson Partners LP (合稱 \"Paulson\") 的子公司。在 2025 年 6 月 3 日之前，Donlin Gold 由 NOVAGOLD 的 wholly-owned subsidiaries 與 Barrick Mining Corporation (\"Barrick\") 各擁有 50%。",
+    "我們並未生產金或任何其他礦物，也未目前產生營運收入。用以探勘我們的礦業財產及運作本公司的資金，主要來自 equity financings，包括公開發行我們的普通股與認購權證，以及先前的債務融資，包括可轉換票據及資產出售。我們預期將持續透過額外的 equity 和/或 debt financings、股票選購權的行使及其他方式來籌集資金。",
+    "我們於 1984 年 12 月 5 日根據 Nova Scotia 的 Companies Act 成立為 1562756 Nova Scotia Limited。於 1985 年 1 月 14 日，我們將公司名稱改為 NovaCan Mining Resources (1985) Limited，並於 1987 年 3 月 20 日改為 NOVAGOLD RESOURCES INC。於 2013 年 5 月 29 日，我們的股東批准公司繼續存續於不列顛哥倫比亞省。隨後，我們在 Nova Scotia 和 British Columbia 提交了必要的文件，並於 2013 年 6 月 10 日根據 British Columbia 的 Business Corporations Act 繼續運作。我們辦公室的現行地址、電話與傳真號碼為：",
+    "201 South Main Street, Suite 400 400 Burrard Street, Suite 1860 Salt Lake City, UT, USA 84111",
+    "Vancouver, BC, Canada V6C 3A6 電話 (801) 639-0511 免費電話 (866) 669-6227 傳真 (385) 342-4620",
+    "截至 2025 年 11 月 30 日，我們擁有以下重要的直接及間接、 wholly-owned 子公司：NOVAGOLD Resources Alaska, Inc.、NOVAGOLD US Holdings Inc.、NOVAGOLD USA, Inc. 以及 AGC Resources Inc。於 2024 年 12 月 1 日，NOVAGOLD (Bermuda) Alaska Limited、NOVAGOLD Resources (Bermuda) Limited 及 NOVAGOLD Argentina Inc. 與 NOVAGOLD RESOURCES INC 合併。",
+    "下圖顯示了本公司與截至 2025 年 11 月 30 日各重要子公司及相關控股公司的公司結構，以及各公司的註冊地。所有股權皆為 100% 除非另有說明。",
+    "截至 2025 年 11 月 30 日，我們有 12 名全職員工，其中四名位於加拿大，八名位於美國。我們也使用具備特定技能的顧問協助進行專案評估、工程及公司治理等各項工作。",
+    "本公司文化為所有人力資源計畫的基石。賦予每位員工發揮最佳表現的機會、讓每位員工都有機會產生影響力，以及讓每位員工都有機會發聲，是本公司所秉持的價值觀。這些價值觀也延伸至我們所從事的社區。我們已採納一項人權政策，專注於我們對在所從事社區中產生正面影響的承諾，其中包括確保我們尊重人權。",
+    "截至財務年度2025年結束時，本公司總員工數中約有54%為女性。本公司在選拔執行長及其他職位人員時，遵循本公司商業行為準則與倫理規範，該準則「禁止基於種族、膚色、宗教、性別、國籍、殘障或年齡等因素，在就業的任何方面進行歧視。」本公司董事會（簡稱「董事會」）與管理階層認知到所有種族多元性方面的價值，包括性別、種族背景、商業技能與經驗，因為這是正確的作法，同時對本公司業務也有利。在考量執行長人選時，董事會的評估會廣泛評估每位候選人的技能與背景，其主要目標在於確保本公司擁有適當的技能、經驗與能力組合，以實現成功。在這個主要目標的考量下，本公司已決定不設定女性或其他種族多元性方面在執行長職位中所佔百分比的目標。",
+    "NOVAGOLD致力於培育、培養並維護一個多元、公平與包容的文化。我們的員工是我們最重要的資產之一。員工個人差異、生活經驗、知識、創新、創造力、自我表達、獨特能力與才能所累積的總和，代表了本公司文化、聲譽與NOVAGOLD成就的重要部分。",
+    "NOVAGOLD致力於為所有員工創造一個包容的工作環境。我們歡迎並慶賀每位員工所帶來的獨特經驗、觀點與文化背景。NOVAGOLD努力營造一個讓員工感到被尊重、被重視與被賦予力量的環境，而我們的團隊成員則在協助我們促進並維持一個包容性工作環境方面扮演著核心角色。",
+    "NOVAGOLD的多元性計畫適用於（但不僅限於）我們在招聘與選拔、薪資與福利、專業發展與培訓、晉升以及持續發展一個基於性別與多元性公平的職場環境的作法與政策。為此，我們尋找具備資格的多元性候選人，並鼓勵他們申請本公司內部或外部的職缺。我們也尋找機會建立具備資格的多元性候選人人才庫，當我們無法自行找到這些人才時。例如，在2021年，本公司設立並持續資助阿拉斯加大學的NOVAGOLD礦業與地質工程獎學金，以協助支持並鼓勵追求礦業或地質工程學士學位的在學大學生，並著重於支持少數族羣學生。",
+    "所有員工之間的尊重溝通與合作。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "管理層對於財務狀況與營運成果之討論與分析",
+    "公司簡介",
+    "2025 年登金礦交易及融資活動概覽",
+    "登金礦專案",
+    "其他改善措施",
+    "功能貨幣變更",
+    "2025 財務年度合併財務結果",
+    "2025 第四季財務結果",
+    "流動性及資本運用",
+    "流通股數資料",
+    "關聯方交易",
+    "關鍵會計政策"
+   ],
+   "paragraphs": [
+    "如上所述，於2025年6月3日，本公司與Paulson透過其全資子公司，根據2025年4月22日簽訂的會員權益購買協議（\"MIPA\"）完成Donlin Gold交易，該協議由Barrick Gold U.S. Inc（\"Barrick Gold\"）、Barrick、Paulson、Donlin Gold Holdings LLC，為Paulson之子公司（\"Donlin Holdings\"），以及NOVAGOLD Resources Alaska, Inc.（\"NGRA\"），為本公司之子公司之間簽訂。NOVAGOLD透過NGRA，以2億美元購入Donlin Gold額外10%權益，使其持股增至Donlin Gold的60%，而Paulson透過Donlin Holdings，以8億美元購入剩餘40%權益。",
+    "Donlin Gold LLC之修正並重述有限責任公司協議",
+    "配合Donlin Gold交易之完成，NGRA、Donlin Holdings與Donlin Gold簽訂修正並重述之有限責任公司協議（\"A&R LLC協議\"），用以規範Donlin Gold之管理，根據該協議，本公司與Paulson擁有同等治理權限。NGRA先前已與Barrick Gold與Donlin Gold簽訂有限責任公司協議（\"Prior LLC協議\"），日期為2007年12月1日，並根據需要不時修正。根據A&R LLC協議之條款，對Prior LLC協議之主要修正內容如下：",
+    "Prior LLC協議第十六條所載之僵局條款已更換為用以解決爭議之非綁定調解條款。",
+    "與Prior LLC協議一致，Donlin Gold之資金將根據雙方之持股比例共同承擔。例如，由於NGRA現持有Donlin Gold之60%會員權益，因此其將負擔Donlin Gold60%之費用。然而，不管Donlin Holdings持有Donlin Gold之40%權益，Donlin Holdings與NGRA擁有同等治理權限。根據A&R LLC協議所載，雙方投票權之調整意味著（i）NGRA之投票權比例為其時點之會員權益減去絕對10%及（ii）Donlin Holdings之投票權比例為其時點之會員權益加上絕對10%。因此，雖然NGRA持有Donlin Gold之60%會員權益，其投票權僅為50%。",
+    "雙方同意以避免對雙方造成不利稅務後果之方式管理Donlin Gold之運作，包括根據美國國稅局內部收入法典第4943條之規定。",
+    "因某些條款已過時或因Donlin Gold目前之開發與許可狀態而不再相關，Prior LLC協議中之某些條款已被刪除或修正。",
+    "依循 Donlin Gold 前 LLC 合約，本公司發行一份期票給 Barrick Gold，以未來礦場生產現金流償還 Barrick 過去在 Donlin Gold 專案上的部分支出。與 2025 年 4 月 22 日宣佈 Donlin Gold 交易同時，NOVAGOLD 與 Barrick 籤訂預付款選擇權協議，該協議給予本公司選擇權，可在 Donlin Gold 交易閉幕前，以 90 百萬美元全額預付該期票。該 90 百萬美元預付款選擇權在閉幕前未被行使。與 Donlin Gold 交易閉幕同時，於 2025 年 6 月 3 日，NGRA 與 Barrick Gold 修正重述該期票，主要為 (i) 修改擔保包裝，以排除 Donlin Gold 所持有的任何財產或 NGRA 持有的 Donlin Gold 會員權益，但確保其仍以 NGRA 對 Donlin Gold 現金流入的權利、所有權及利益為擔保，以及 (ii) 提供 NGRA 有能力在 2026 年 12 月 3 日前，預付並償還總計 100 百萬美元的期票。與修正重述後的期票同時，NGRA 已經發出不可撤銷的指示給 Donlin Gold，使 Donlin Gold 在期票完全償還前，將 85% 的已分配加工產品、現金及其他資產，以及 5% 的特定淨現金流入支付給 Barrick Gold。根據修正重述後的期票，應償還的本金金額為 158.9 百萬美元。",
+    "為確保本公司根據 MIPA 所負 $200 百萬美元義務之資金來源，已從 Electrum Strategic Resources L.P.（\"Electrum\"）、Paulson 及 Kopernik Global Investors, LLC，代表其管理之投資基金及帳戶（\"Kopernik\"，與 Electrum 及 Paulson 合稱 \"Investors\"）取得最高 $170 百萬美元之資金承諾，依據 2025 年 4 月 22 日簽訂之背書協議（\"Backstop Agreement\"）。依據背書協議，Investors 同意以非經紀、私募方式購買本公司普通股最高 $170 百萬美元，每股 $3.00 美元，代表總計最多 56,666,667 普通股。",
+    "雖然本公司未行使背書協議所提供之權利，但為換取簽訂背書協議，本公司發行總計 25,500,000 張認購權證，認購本公司普通股（\"Warrants\"），每張權證使持有人得於發行日起五年內，以每股 $3.00 美元價格認購一股普通股（\"Warrant Share\"）。權證包含 \"無現金行使\" 功能，使持有人得選擇在行使權證時，不以現金支付，而改以根據權證所載公式計算之淨普通股數量換取。權證發行數量如下：(i) 12,750,000 張發給 Paulson；(ii) 6,375,000 張發給 Electrum；(iii) 6,375,000 張發給 Kopernik。",
+    "背書協議進一步授予 Investors 登記權，依據此權，本公司同意，除其他事項外，向 SEC 提交註冊聲明，註冊 Warrant Shares 之轉讓，並使該註冊聲明持續有效至以下最早發生之日期：(a) 發行 Subscribed Shares（未實際發行）後三年；(b) 所有 Subscribed Shares 及 Warrant Shares 已售出之日；或 (c) 每位投資者可依證券交易法第 144 條規則無限制方式出售其所有 Subscribed Shares 及/或 Warrant Shares（或其交換所得股份）之首日。背書協議亦包含常見之賠償條款及其他此類登記權之常見條款。根據與 Investors 及 Placement Investors（如下所定）之討論，本公司可能應投資者之請求，在未來提交 Warrant Shares 或根據 Subscription Agreement（如下所定）發行之普通股之轉讓註冊聲明。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素",
+    "與我們業務相關的風險",
+    "我們依賴第三方的合作，以進行我們的 Donlin Gold 專案之探勘與開發。",
+    "儘管我們擁有 Donlin Gold 60% 的成員權益，但根據 A&R LLC 協議，我們的表決權在契約上已受到限制。",
+    "我們有淨虧損的歷史，並預期在可預見的未來，虧損情況仍會持續。",
+    "我們的不動產資產組合有限。",
+    "黃金的市場價格變動，過去曾大幅波動，會影響我們的財務狀況。",
+    "總體經濟情況的變化可能對我們的成長、未來獲利能力及籌資能力產生不利影響。",
+    "本公司營運可能因當地利益相關者或非政府組織的反對而受到重大不利影響。",
+    "本公司礦產資源與礦產儲備的數量係基於解釋與假設之估計值，實際情況下可能產生較目前估計值為少的礦產產出。",
+    "基礎建設不足可能延誤或阻礙本公司開發唐寧金礦項目。",
+    "本公司礦產財產的所有權及其他權利可能涉及與其他當事人之協議。",
+    "本公司最大股東對本公司具有重大影響力，且可能同時影響本公司證券之市場價格與流動性。",
+    "部分董事與高階管理人員因參與其他天然資源公司而產生利益衝突。",
+    "本公司於部分礦產財產上持續進行復育工作，並可能需負擔額外費用，此可能對本公司財務狀況造成重大不利影響。",
+    "本公司面臨信用風險、流動性風險及利率風險。",
+    "與我們產業相關的風險",
+    "採礦活動本質上具有風險，且可能受到一些超出我們控制範圍的條件或事件影響，這些條件或事件可能對我們的業務造成重大不利影響。",
+    "我們受到重要的政府規範管制。",
+    "我們的活動受到環境法規的限制，這些法規可能提高我們的營運成本並限制我們的營運活動。",
+    "我們的保險無法涵蓋所有與採礦作業相關的潛在風險。",
+    "我們礦產權的權利無法完全保證，可能受到先前未登記的協議、轉讓或聲請等瑕疵影響。",
+    "金屬價格上漲會鼓勵採礦探勘、開發與建設活動，過去這些活動已增加採礦服務與設備的 demand 和成本。",
+    "我們可能面臨法律訴訟。",
+    "一般風險因素",
+    "全球氣候變遷是國際性關注議題，可能影響本公司未來營運能力。",
+    "本公司依賴資訊科技系統，而資訊科技系統可能受到中斷、損壞、故障，以及實作與整合相關風險的影響。",
+    "本公司認為其財務年度截至2025年11月30日止，屬於被動外國投資公司，這可能會對美國投資者產生負面稅務後果。"
+   ],
+   "paragraphs": [
+    "您應仔細考慮下列風險因素，並配合本年度報告表 10-K 所包含的其他資訊。這些風險因素可能會對我們的業務、營運成果與財務狀況造成不利影響，同時也可能對投資本公司普通股的價值造成不利影響。下列所描述的風險並非本公司所面臨的唯一風險。此外，尚有我們目前未察覺或認為不重要之其他風險，也可能對我們的業務、營運成果與財務狀況造成不利影響。我們無法保證我們能成功應對這些風險，並提醒您可能存在其他未知的風險，這些風險可能影響我們的業務。",
+    "投資本公司證券屬高度風險的投機行為，這是因為我們的業務性質以及我們礦產資源的勘探與開發目前仍處於初期階段。下列風險因素，以及我們目前尚未知悉的其他風險，可能會對我們未來的業務、營運與財務狀況造成重大不利影響，並可能使這些狀況與我們財務預測或前瞻性陳述中所提及的內容有重大差異。",
+    "我們目前沒有從礦產資源勘探項目中商業性生產貴金屬的歷史，且無法保證我們能成功建立採礦作業或以獲利方式生產貴金屬。",
+    "Donlin Gold 專案目前尚未開始生產，也未進行建設，我們目前沒有持續的採礦作業或來自採礦作業的收入。礦產資源的勘探與開發具有高度風險，且少數被勘探的資源最終會被開發成生產礦場。Donlin Gold 專案未來的發展將需要取得必要的許可與資金，以支持礦場、處理廠及相關基礎設施的建設與持續運作。因此，我們面臨所有與建立新採礦作業與企業相關的風險，包括：",
+    "取得並維持必要的環境及其他政府審批與許可的需要，以及這些審批與許可的時間與條件；",
+    "取得資金以資助建設與開發活動的可得性與成本；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

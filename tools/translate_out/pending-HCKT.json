@@ -1,0 +1,211 @@
+{
+ "ticker": "HCKT",
+ "cik": "0001057379",
+ "accession": "0001193125-26-082863",
+ "form": "10-K",
+ "reportDate": "2025-12-26",
+ "sections": {
+  "business": {
+   "headings": [
+    "Hackett Intelligence IP",
+    "Hackett Solution Language Model and Platform Architecture",
+    "Hackett AI XPLR",
+    "XT (Business Transformation Delivery Platform)",
+    "AIXelerator (\"AIX\") (Technology Implementation Delivery Platform)",
+    "Ask Hackett AI and Hackett Connect",
+    "Quantum Leap® and Digital Transformation Platform (DTP)",
+    "ZBrain (Gen AI Engineering and Agentic Workflow Build Capability)",
+    "Oracle Solutions",
+    "SAP Solutions"
+   ],
+   "paragraphs": [
+    "In this Annual Report on Form 10-K, unless the context otherwise requires, \"The Hackett Group,\" \"Hackett,\" the \"Company,\" \"we,\" \"us,\" and \"our\" refer to The Hackett Group, Inc. and its subsidiaries and predecessors. We were originally incorporated on April 23, 1997.",
+    "Our fiscal year ended December 26, 2025. OVERVIEW",
+    "The Hackett Group, Inc. (NASDAQ: HCKT) is a global, IP platform-based generative artificial intelligence (\"Gen AI\") strategic advisory, business transformation, and enterprise application implementation firm. We combine proprietary benchmarking and best-practice process intelligence intellectual property (\"IP\") with Gen AI–enabled delivery platforms to help clients identify, prioritize, design, and implement high-impact improvements across enterprise functions, including supply chain and operations, finance, human resources, information technology, procurement and corporate services, as well as selected enterprise application implementation services, including Oracle, SAP, OneStream, and eProcurement applications.",
+    "Over the past two years, we have systematically developed a suite of IP Gen AI platforms delivery platforms, which are distinctly enabled by our Hackett Domain Specific Language Model, which we refer to as our Solution Language Model (\"SLM\"). The Hackett SLM does not produce generic ideas. It applies domain expertise, our process performance benchmarks and best practices intelligence IP, and a structured ideation and solution-design approach to rapidly turn AI opportunities into deployable, implementation-ready solutions. This innovation allows us to accelerate and enhance all of our client AI transformation efforts and highly differentiates our offerings. We do not believe that you can successfully deploy high impact solutions without a detail understanding of the client specific requirements. Without client specific business, process, automation and data requirements, there is no way to drive true breakthrough or transformative value to complex enterprise environments.",
+    "Our platform-enabled model is grounded in our globally recognized Digital World Class® performance benchmarks and best-practice process intelligence (collectively, \"Hackett Intelligence IP\"). As of December 26, 2025, we have completed over 28,400 benchmarking and performance studies and have measured and evaluated enterprise processes for thousands of organizations globally. This proprietary process benchmarking and intelligence IP is the foundation for our offerings and power the structured knowledge embedded within our Gen AI platforms.",
+    "We believe we are entering a massive automation expansion era, which will significantly increase the automation footprint of most organizations. This new opportunity will require enterprise software and service providers to expand their agentic capabilities to capture this opportunity. We believe this AI transition is also forcing organizations to reassess the nature of transformation investments in response to rapidly evolving Gen AI capabilities. While demand for traditional digital transformation remains present, many organizations are redirecting an increasing amount of their Gen AI experimentation and tactical initiatives to enterprise wide assessment of high impact AI solutions.",
+    "We believe that sustainable AI value realization requires more than access to large language models or other generic automation tools. Meaningful return on investment (\"ROI\") results depend on enterprise discovery efforts that allows organizations to prioritize their investment to more ambitious solutions which are pursued based on strategic priorities and the capability of the respective organization. Our platforms are designed to address these requirements and help clients move from experimentation to transformational operationalized, measurable outcomes.",
+    "OUR OFFERINGS AND IP PLATFORM-BASED DELIVERY MODEL",
+    "Our platforms have now allowed us to transition from a traditional labor-based delivery model to an IP platform enabled approach. Under our new delivery model our consultants leverage our new platforms to accelerate and enhance the value we deliver to our clients. This Gen AI enabled model is highly differentiated and allows us to deliver measurable ROI outcomes which we believe will allow us to increase our addressable market with new enterprise-wide solutions which we expect will increase our Gen AI revenues and expand our margins.",
+    "Our proprietary intellectual property includes benchmarking metrics, productivity and cost analytics, best practices, process taxonomies, software configuration guides and best-practice process flows developed over decades of client transformational benchmarking engagements and research. We use this IP to quantify performance gaps, identify performance improvement opportunities, conduct enterprise application fit analyses and define target-state operating models to support execution. Our IP is continuously refreshed through ongoing benchmark studies, client engagements, and hands-on delivery experience.",
+    "Our Gen AI delivery platforms leverage a proprietary domain specific SLM and structured knowledge derived from our Hackett Intelligence IP. This architecture is designed, trained and tuned to deliver context-aware insight and repeatable solution designs from end to end process to an individual work step level. It is this granular capability that allows us to create complete and precise solution outcomes.",
+    "Hackett AI XPLR (\"AI XPLR\") enables enterprises to identify feasible AI opportunities, design optimal AI‑enabled agentic workflows, and invest with confidence, which is supported by Hackett performance intelligence validated ROI.",
+    "AI XPLR is our enterprise-wide Gen AI assessment, ideation and solution design platform. It can be used on a facilitated basis to support the delivery of an engagement or it can be licensed and used with on demand support.",
+    "AI XPLR is designed to help organizations identify and prioritize high-impact Gen AI use cases, simulate solution concepts and quantify potential business benefits, perform detailed process and agentic workflow design, establish measurable value cases and assess feasibility requirements. AI XPLR is powered by our Hackett SLM and is uniquely informed by Hackett Intelligence IP."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Business, Market and Strategy Risks",
+    "We may not be able to successfully execute on our strategy transition.",
+    "We may not be successful in our AI initiatives, which could adversely affect our business, reputation, or financial results.",
+    "Our results of operations have been adversely affected and could in the future be materially impacted by macroeconomic conditions on our business.",
+    "Our results of operations have been adversely affected and could in the future be materially adversely impacted by pandemics.",
+    "Our quarterly operating results may vary.",
+    "If we are unable to maintain our reputation and expand our brand name recognition, we may have difficulty attracting new business and retaining current clients and employees.",
+    "We depend heavily on a limited number of clients.",
+    "Our markets are highly competitive.",
+    "We could lose money on our contracts.",
+    "Lack of detailed written contracts could impair our ability to recognize revenue for services performed, collect fees, protect our IP and protect ourselves from liability to others.",
+    "We may lose large clients or may not be able to secure targeted follow-on work or achieve expected client retention rates.",
+    "The market price of our common stock may fluctuate widely.",
+    "Operational Risks",
+    "We have risks associated with potential acquisitions or investments.",
+    "Difficulties in integrating businesses we acquire in the future may demand time and attention from our senior management.",
+    "We may not be able to hire, train, motivate, retain and manage professional staff.",
+    "We rely on information technology and security systems and any damage, interruption, compromise or breach of our information technology and security systems or data could disrupt and harm our business.",
+    "Global Operational Risks",
+    "We earn revenue, incur costs and maintain cash balances in multiple currencies, and currency fluctuations could adversely affect our financial results.",
+    "Changes to trade regulation, quotas, duties or tariffs, caused by the changing U.S. and geopolitical environments or otherwise, may materially adversely affect customer demand for our services.",
+    "Legal, Regulatory and Compliance Risks",
+    "Our corporate governance provisions may deter a financially attractive takeover attempt.",
+    "If we are unable to protect our IP rights or infringe on the IP rights of third parties, our business may be harmed.",
+    "Data privacy and information security may require significant resources and presents certain risks.",
+    "Our business is subject to evolving, complex and at times inconsistent regulations regarding artificial intelligence (AI)."
+   ],
+   "paragraphs": [
+    "Our business is subject to risks. The following important factors could cause actual results to differ materially from those contained in forward-looking statements made in this Annual Report on Form 10-K or our other publicly filed documents.",
+    "We believe that our transition to a leading global IP platform-based Gen AI strategic consulting firm will provide a new value-creation opportunity for us with the potential of increasing our annual recurring revenues and annual recurring licensing revenues. We cannot assure you that our Gen AI strategy will be beneficial to the extent, or within the time-frames, expected. Market acceptance of Gen AI offerings is affected by a variety of factors, including technological advances, reliability, performance and information security. If we are unable to correctly respond to these factors, we may experience business disruptions, damage to our reputation, negative publicity, diminished client trust and relationships and other adverse effects on our business, reputation, or financial results. Even if the anticipated benefits are substantially realized, there may be consequences or business impacts that were not expected, including unexpected legal, regulatory or technical costs and unexpected delays.",
+    "AI presents new risks and challenges that may affect our business. We have made and expect to continue to make investments to integrate AI into our products and solutions. Given the nature of AI technology, we face significant competition from other companies and an evolving regulatory landscape. Our AI efforts may not be successful and our competitors may incorporate AI into their products more successfully than us, which could impair our ability to compete effectively and adversely affect our financial results. The rapid evolution of AI may require significant additional resources and costs and could in some cases limit our ability to implement AI capabilities in our solutions or to use AI to support business operations.",
+    "Despite our implementation of programs designed to support responsible AI use and development, we may not successfully address all issues that may arise. AI algorithms may produce incomplete, insufficient, biased or otherwise flawed results or rely upon biased or inaccurate data, and any of these deficiencies may not be easily detectable despite internal policies and diligence efforts in place to mitigate such deficiencies. If the AI that we use produces deficient, inaccurate, or controversial results, or if public opinion of AI is adversely affected due to actual or perceived risks regarding the usage of AI, we could incur operational inefficiencies, competitive harm, legal liability, reputational harm, or other adverse impacts on our business and results of operations. Further, ownership and intellectual property rights of content generated by AI is a developing area, and if we do not have sufficient rights to use the data or other material relied upon by AI technologies, we also may incur liability through the alleged violation of applicable laws and regulations, third-party intellectual property, data privacy, or other rights, or contractual obligations. Additionally, privacy concerns, user consent, supply chain security, transparency and the accuracy, completeness and suitability of data sets are all potential issues that could adversely affect our business, reputation, or financial results.",
+    "The level of revenue we achieve is based on our ability to deliver market leading services and solutions and to deploy skilled teams of professionals quickly. Our results of operations are affected by economic conditions, including macroeconomic conditions and levels of business confidence, including conditions that may affect our client's businesses and the markets they serve. Any prolonged economic downturn as a result of weak or uncertain economic conditions or similar factors could adversely affect our clients' financial condition which may further reduce our clients' demand for our services. These include:",
+    "• general economic and business conditions; • interest rate and inflation rate trends and fluctuations;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Impact of Macroeconomic Conditions on Our Business",
+    "Critical Accounting Policies and Estimates",
+    "Results of Operations",
+    "December 26,",
+    "December 27,",
+    "Comparison of 2025 to 2024",
+    "Liquidity and Capital Resources",
+    "Material Cash Requirements",
+    "Contractual Obligations",
+    "Recently Issued Accounting Standards"
+   ],
+   "paragraphs": [
+    "The following Management's Discussion and Analysis (\"MD&A\") is intended to help the reader understand the results of operations and financial condition of Hackett. MD&A is provided as a supplement to, and should be read in conjunction with, our consolidated financial statements and the accompanying Notes to our consolidated financial statements included in this Annual Report on Form 10-K. We have omitted discussion of fiscal 2023 items and year-to-year comparisons between fiscal years 2024 and 2023 where it would be redundant with the discussion previously included in Part II, Item 7 (MD&A) of the Company's Annual Report on Form 10-K for the fiscal year ended December 26, 2025.",
+    "Hackett is a global IP platform-based Gen AI strategic consulting and executive advisory digital transformation firm. The Hackett Group provides dedicated expertise in Gen AI enabled enterprise transformation services across front, mid and back office areas, including its highly recognized Oracle, SAP, OneStream and eProcurement implementation offerings.",
+    "In early 2024, we launched our AI assessment platform, AI XPLR which helps clients identify, evaluate and design Gen AI enablement opportunities. Using AI XPLR, our experienced professionals guide organizations to harness the power of Gen AI solutions designed to digitally transform their operations to achieve quantifiable, breakthrough results, allowing us to be key architects of our clients' Gen AI journey.",
+    "We believe Gen AI will fundamentally change the way companies operate as well as the way consulting services are sold and delivered. We believe the Gen AI platform capabilities we have developed in AI XPLR which were expanded with ZBrain, which we acquired as part of the LeewayHertz acquisition, is highly differentiating and we expect will enable us to effectively compete in this emerging and important space.",
+    "The Hackett Group has completed over 28,400 benchmarking and performance studies with major organizations. These studies are executed utilizing our Quantum Leap platform which drives our DTP. This includes the firm's benchmarking metrics, best practices repository, and best practice configuration and process flow accelerators, which enables our clients and partners to achieve digital world-class performance.",
+    "Our transformation expertise is grounded in best practices insights from benchmarking the world's leading businesses – including 97% of the Dow Jones Industrials, 90% of the Fortune 100, 68% of the DAX 40 and 53% of the FTSE 100, which inform and are delivered utilizing our platforms.",
+    "The level of revenue we achieve is based on our ability to deliver market leading services and solutions and to deploy skilled teams of professionals quickly. Our results of operations are affected by economic conditions, including macroeconomic conditions and levels of business confidence. Any deterioration in the current macroeconomic environment or economic downturn as a result of weak or uncertain economic conditions due to inflation, high interest rates, national or geopolitical events or other factors impacting economic activity or business confidence could adversely affect our clients' financial condition or outlook which may reduce the clients' demand for our services.",
+    "In the ordinary course of business, we make a number of estimates and assumptions relating to the reporting of results of operations and financial position in conformity with generally accepted accounting principles in the United States (\"GAAP\"). Actual results could differ from those estimates under different assumptions and conditions. We believe the following discussion addresses our most critical accounting policies that have had or are reasonably likely to have a material impact on our financial condition or results of operations. These policies require management to exercise judgment on issues that are often difficult, subjective and complex due to the necessity of estimating the effect of matters that are inherently uncertain.",
+    "Determining revenue recognition requires management to exercise judgment on the interpretation of service contracts which may include one or multiple performance obligations. The judgments that management must make include determining whether the control of the goods and services provided are transferred to our customers at a point in time or over the course of the service period utilizing a proportionate performance approach.",
+    "In fixed-fee billing arrangements, which would also include contracts with capped fees, we set the fees based on our estimates of the costs and timing for completing the engagements. We generally recognize revenue under fixed-fee or capped fee arrangements",
+    "using a proportionate performance approach, which is based on work completed to-date as compared to estimates of the total services to be provided under the engagement. Estimates of total engagement revenue and cost of services are monitored regularly during the term of the engagement based on the best available information. If our estimates indicate a potential loss, such loss is recognized in the period in which the loss first becomes probable and reasonably estimable.",
+    "We review accounts receivable to assess our estimates of collectability regularly. When establishing allowances for doubtful accounts, management must base their judgment on the information available at that point in time, which may include historical experiences, current economic trends and client credit worthiness, to determine the likelihood of collectability.",
+    "For transactions that are considered business combinations, we utilize fair values in determining the carrying values of the purchased assets and assumed liabilities, which are recorded at fair value at acquisition date, and identifiable intangible assets are recorded at fair value. Costs directly related to the business combinations are recorded as expenses as they are incurred. Fair values are subject to refinement for up to one year after the closing date of an acquisition as information relative to closing date fair values become available. A bargain purchase gain on an acquisition occurs when the net of the estimated fair value of the assets acquired and liabilities assumed exceeds the consideration paid.",
+    "For acquisitions accounted for as a business combination, goodwill represents the excess of the cost over the fair value of the net assets acquired. The Company has organized its operating and internal reporting structure to align with its primary market solutions. In accordance with ASC 280, management made the determination to present three operating segments, three reportable segments and three reporting units as follows: (1) Global S&BT, (2) Oracle Solutions, and (3) SAP Solutions. A reporting unit is an operating segment or one level below an operating segment to which goodwill is assigned. The goodwill has been allocated to the reporting unit based on the reporting unit's relative fair value."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'translated_text': 'Hackett Intelligence IP'}",
+    "{'translated_text': 'Hackett Solution Language Model and Platform Architecture'}",
+    "{'translated_text': 'Hackett AI XPLR\\x99'}",
+    "{'translated_text': 'XT\\x99 (Business Transformation Delivery Platform)'}",
+    "{'translated_text': 'AIXelerator\\x99 (\"AIX\") (Technology Implementation Delivery Platform)'}",
+    "{'translated_text': 'Ask Hackett AI\\x99 and Hackett Connect\\x99'}",
+    "{'translated_text': 'Quantum Leap® and Digital Transformation Platform (DTP)'}",
+    "{'translated_text': 'ZBrain (Gen AI Engineering and Agentic Workflow Build Capability)'}",
+    "{'original': 'Oracle Solutions', 'translated': 'Oracle Solutions'}",
+    "{'original': 'SAP Solutions', 'translated': 'SAP Solutions'}"
+   ],
+   "paragraphs": [
+    "本年度10-K申報書中，除非文意另有所指，\"The Hackett Group,\" \"Hackett,\" \"本公司,\" \"我們,\" \"我們,\" 以及 \"我們的\" 均指 The Hackett Group, Inc. 及其子公司與前身。我們最初於1997年4月23日成立。",
+    "我們的會計年度為2025年12月26日。總覽",
+    "The Hackett Group, Inc. (NASDAQ: HCKT) 為一全球性、基於智慧財產權平台的生成式人工智慧（\"Gen AI\"）戰略諮詢、業務轉型與企業應用程式實作公司。我們結合專屬的指標分析與最佳實務流程智慧智慧財產權（\"IP\"）與 Gen AI 串聯的交付平台，協助客戶識別、優先排序、設計與實作高影響力的改善方案，涵蓋企業功能，包括供應鏈與運營、財務、人力資源、資訊科技、採購與企業服務，以及選定的企業應用程式實作服務，包括 Oracle、SAP、OneStream 與 eProcurement 應用程式。",
+    "過去兩年，我們系統性地發展了一套 IP Gen AI 平台交付平台，這些平台由我們的 Hackett 專域特定語言模型所驅動，我們稱之為解決方案語言模型（\"SLM\"）。Hackett SLM 不會產生通用想法。它應用專門領域知識、我們的流程績效指標與最佳實務智慧 IP，以及結構化的創意與解決方案設計方法，迅速將 AI 機會轉化為可部署、可實作的解決方案。此創新使我們能加速並提升所有客戶的 AI 轉型努力，並顯著區隔我們的服務。我們不認為您可以在不瞭解客戶特定需求的情況下成功部署高影響力解決方案。若無客戶特定的業務、流程、自動化與數據需求，便無法驅動真正突破性的價值或轉型價值至複雜企業環境。",
+    "我們的平台驅動模式建立於我們全球知名的 Digital World Class® 結果指標與最佳實務流程智慧（合稱為 \"Hackett Intelligence IP\"）。截至2025年12月26日，我們已完成超過28,400項指標分析與績效研究，並為全球數千家組織評估與測量企業流程。此專屬流程指標分析與智慧 IP 是我們服務的基礎，並驅動我們 Gen AI 平台內嵌的結構化知識。",
+    "我們認為正邁入一場巨大的自動化擴張時代，這將顯著增加大多數組織的自動化腳印。這個新機會將要求企業軟體與服務供應商擴展其代理能力以抓住這個機會。我們認為這場 AI 轉型也迫使組織重新評估轉型投資的性質，以回應快速演進的 Gen AI 能力。雖然傳統數位轉型的需求仍然存在，但許多組織正將越來越多的 Gen AI 探索與戰術性計畫轉向企業範圍內的高影響力 AI 解決方案評估。",
+    "我們認為可持續的 AI 價值實現不僅需要存取大型語言模型或其他通用自動化工具。有意義的投資回報率（\"ROI\"）結果取決於企業探索努力，使組織能優先排序其投資至更具野心的解決方案，這些解決方案是根據戰略優先順序與相關組織的能力建立的。我們的平台是為應對這些需求而設計，協助客戶從實驗轉向轉型的運作化、可衡量的成果。",
+    "我們的服務與智慧財產權平台驅動的交付模式",
+    "我們的平台已使我們從傳統的勞動密集型交付模式轉型為基於智慧財產權平台的模式。在新的交付模式下，我們的顧問利用我們的新平台來加速並提升我們對客戶的價值。此由通用人工智慧（Gen AI）驅動的模式具有高度差異化，使我們能夠交付可衡量的投資回報（ROI）成果，我們認為這將使我們能擴大可接觸市場，透過新的企業級解決方案，我們預期將提高通用人工智慧（Gen AI）收入並擴大我們的毛利率。",
+    "我們的智慧財產權包括基準指標、生產力與成本分析、最佳實務、流程分類學、軟體配置指南及最佳實務流程，這些皆是基於數十年的客戶轉型基準研究與專案經驗所發展而成。我們利用此智慧財產權來量化績效差距、識別績效改進機會、進行企業應用契合分析，並定義目標狀態作業模式以支持執行。我們的智慧財產權透過持續的基準研究、客戶專案及實務交付經驗不斷更新。",
+    "我們的通用人工智慧（Gen AI）交付平台利用專有的領域特定SLM（軟體生命週期管理）及結構化知識，這些知識源自於我們的Hackett Intelligence智慧財產權。此架構是設計、訓練並調整以從端到端的流程到個別工作步驟層面提供情境感知的洞察與可重複的解決方案設計。正是這種細緻的能力建立了我們能創造完整且精確的解決方案成果。",
+    "Hackett AI XPLR（\"AI XPLR\"）使企業能識別可行的人工智慧（AI）機會，設計最佳的人工智慧驅動流程，並有信心進行投資，這是由Hackett績效智慧驗證的投資回報（ROI）所支持。",
+    "AI XPLR是我們企業級的通用人工智慧（Gen AI）評估、創意發想與解決方案設計平台。它可以透過協助方式來支持專案的交付，也可以被授權使用並搭配即時支援。",
+    "AI XPLR設計用來協助機構識別並優先處理高影響力的通用人工智慧（Gen AI）應用案例，模擬解決方案概念並量化潛在的業務效益，進行詳細的流程與人工智慧驅動流程設計，建立可衡量的價值案例並評估可行性需求。AI XPLR由我們的Hackett SLM驅動，並獨特地受到Hackett Intelligence智慧財產權的啟發。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'Impact of Macroeconomic Conditions on Our Business': '總體經濟情勢對我們業務的影響'}",
+    "{'Critical Accounting Policies and Estimates': '重要會計政策與會計估計'}",
+    "{'Results of Operations': '營業成果'}",
+    "{'December 26,': '12月26日,'}",
+    "{'December 27,': '12月27日,'}",
+    "{'Comparison of 2025 to 2024': '2025年與2024年比較'}",
+    "{'Liquidity and Capital Resources': '流動性與資本資源'}",
+    "{'Material Cash Requirements': '重大現金需求'}",
+    "{'original': 'Contractual Obligations', 'translated': '契約義務'}",
+    "{'original': 'Recently Issued Accounting Standards', 'translated': '最近發佈的會計準則'}"
+   ],
+   "paragraphs": [
+    "下列管理層討論與分析（\"MD&A\"）旨在協助讀者瞭解Hackett之營運成果與財務狀況。MD&A為財務報表之補充資料，應與我們之合併財務報表及相關附註說明一併閱讀。我們已省略對財務年度2023年項目及2024財年與2023財年之間年對年比較之討論，因與先前包含於財務年度終止於2025年12月26日之年度報告表10-K第II部第7項（MD&A）之內容重複。",
+    "Hackett為一全球性基於智慧財產權（IP）平台之生成式人工智能（Gen AI）戰略諮詢與高階顧問數位轉型公司。Hackett集團提供專注於生成式人工智能驅動企業轉型服務之專業知識，涵蓋前、中、後臺領域，包括其高度受認可之Oracle、SAP、OneStream及eProcurement實作方案。",
+    "2024年初，我們啟動了我們之AI評估平台AI XPLR，協助客戶識別、評估與設計生成式人工智能啟動機會。透過AI XPLR，我們經驗豐富之專業人員引導企業善用生成式人工智能解決方案，以數位轉型其營運，達成可衡量之突破性成果，使我們成為客戶生成式人工智能旅程之關鍵設計者。",
+    "我們相信生成式人工智能將根本改變企業營運方式以及諮詢服務之銷售與交付方式。我們相信透過AI XPLR所發展之生成式人工智能平台能力，並經由ZBrain擴充（ZBrain為我們透過收購LeewayHertz所取得），具有高度差異化優勢，我們預期此將使我們在這項新興且重要的領域中有效競爭。",
+    "Hackett集團已完成超過28,400項指標與績效研究，與主要企業合作。這些研究透過我們之Quantum Leap平台執行，驅動我們之DTP。此包括該公司的指標衡量標準、最佳實務資料庫，以及最佳實務配置與流程加速器，使我們之客戶與合作夥伴能達成數位世界級之表現。",
+    "我們之轉型專業知識建立於對全球領先企業之最佳實務洞察，包括97%之道瓊工業指數成分股、90%之財富100大企業、68%之德國DAX 40指數成分股及53%之富時FTSE 100指數成分股，這些洞察透過我們之平台進行傳達與實踐。",
+    "我們所達成之營收水平，取決於我們提供市場領先之服務與解決方案，以及迅速部署具專業技能之專業團隊之能力。我們之營運成果受經濟條件影響，包括總體經濟狀況與企業信心程度。若目前總體經濟環境惡化或因通貨膨脹、高利率、國家或地緣政治事件或其他影響經濟活動或企業信心之因素而引發經濟衰退，可能不利於客戶之財務狀況或展望，進而降低客戶對我們服務之需求。",
+    "在日常營運過程中，我們針對符合美國通用會計準則（\"GAAP\"）之營運成果與財務狀況之報導，做出許多估計與假設。實際結果可能因不同假設與條件而與這些估計有所差異。我們認為下列討論涵蓋我們最關鍵之會計政策，這些政策已或可能對我們之財務狀況或營運成果產生重大影響。這些政策要求管理階層對許多困難、主觀且複雜之問題進行判斷，因這些問題往往涉及對本質上不確定事項之影響進行估計。",
+    "判定收入認列需管理階層運用判斷力，以解釋服務合約的內容，這些合約可能包含一個或多個履行義務。管理階層需做出的判斷包括：判定所提供商品及服務的控制權是否在特定時點轉移給客戶，或是在服務期間內逐步轉移，並採用比例履行方式進行計算。",
+    "在固定費用計費安排中，這類安排也包含費用上限的合約，我們會根據完成業務的預估成本與時間來設定費用。我們通常會採用比例履行方式，根據已完成的工作與預估總服務內容進行比較，以認列收入。",
+    "採用比例履行方式，根據已完成工作與預估總服務內容進行比較，以認列收入。預估總業務收入與服務成本會在業務進行期間定期監測，基於當時可取得的最佳資訊。若預估顯示潛在虧損，則會在虧損首次成為可能且合理可預測的期間內認列該虧損。",
+    "我們會定期審查應收帳款，以評估應收帳款的可收回性。在設定應收帳款減損準備時，管理階層必須根據當時可取得的資訊，包括歷史經驗、當前經濟趨勢及客戶信用狀況，來判斷應收帳款的可收回性。",
+    "對於被視為企業併購的交易，我們會使用公允價值來確定購入資產與承擔負債的帳面價值，這些資產與負債在取得日以公允價值入賬，可辨認的無形資產亦以公允價值入賬。與企業併購直接相關的成本，在發生時會計入費用。公允價值在取得日後最多一年內可能根據取得日公允價值的相關資訊進行調整。若取得日購入資產與負債的公允價值淨額高於支付的對價，則會產生 bargain purchase gain。",
+    "對於被視為企業併購的取得，商譽代表成本高於取得日淨資產公允價值的差額。本公司已根據其主要市場解決方案，組織其營運與內部報告結構。根據 ASC 280，管理階層決定以三個營運分部、三個應報告分部及三個報告單位進行呈現，如下：(1) 全球 S&BT，(2) Oracle 解決方案，以及 (3) SAP 解決方案。報告單位為營運分部或一層級之下、被分配商譽的營運分部。商譽已根據報告單位的相對公允價值進行分配。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "業務、市場與策略風險",
+    "我們可能無法成功執行我們的策略轉型。",
+    "我們可能無法成功實現我們的AI計畫，這可能會對我們的業務、聲譽或財務結果產生不利影響。",
+    "我們的營運結果已受到總體經濟條件的不利影響，未來也可能因總體經濟條件而產生重大影響。",
+    "我們的營運結果已受到疫情的不利影響，未來也可能因疫情而產生重大不利影響。",
+    "我們的季度營運結果可能會有變動。",
+    "如果我們無法維持聲譽並擴大品牌知名度，我們可能在吸引新業務及留住現有客戶與員工方面遇到困難。",
+    "我們非常依賴有限數量的客戶。",
+    "我們的市場具有高度競爭性。",
+    "我們可能在合約中虧損。",
+    "缺乏詳細書面合約可能影響我們認列已提供服務之收入、收取費用、保護智慧財產權及保護自身免於對他人負擔責任之能力。",
+    "我們可能失去大型客戶，或可能無法取得目標後續業務或達成預期之客戶留存率。",
+    "本公司普通股之市場價格可能大幅波動。",
+    "營運風險",
+    "我們與潛在併購或投資相關之風險。",
+    "未來整合所取得之業務可能耗費時間與高階管理層之注意力。",
+    "本公司可能無法聘請、培訓、激勵、留住及管理專業人員。",
+    "本公司依賴資訊科技與安全系統，任何對資訊科技與安全系統或資料的損害、中斷、入侵或洩漏，都可能幹擾並損害本公司業務。",
+    "全球營運風險",
+    "本公司以多種貨幣賺取收入、產生成本並維持現金餘額，貨幣波動可能對本公司財務結果產生不利影響。",
+    "因美國與地緣政治環境變動或其他因素導致貿易規範、配額、關稅或進口稅變更，可能對客戶對本公司服務的需求產生重大不利影響。",
+    "法律、法規與合規風險",
+    "本公司企業治理條款可能阻卻財務上具吸引力的收購企圖。",
+    "若本公司無法保護智慧財產權或侵權第三者的智慧財產權，本公司業務可能受損。",
+    "{'original': 'Data privacy and information security may require significant resources and presents certain risks.', 'translated': '資料隱私權及資訊安全可能需要大量資源，並可能產生某些風險。'}",
+    "{'original': 'Our business is subject to evolving, complex and at times inconsistent regulations regarding artificial intelligence (AI).', 'translated': '本公司業務受制於有關人工智慧（AI）之演進、複雜且有時不一致之規範。'}"
+   ],
+   "paragraphs": [
+    "本公司業務面臨風險。下列重要因素可能會導致實際結果與本年度10-K表報表或其他公開申報文件中所作的預測性陳述有重大差異。",
+    "我們認為，我們轉型為領先的全球智慧財產權平台型生成式AI戰略諮詢公司，將為本公司創造新的價值創造機會，並有潛力提高我們的年度經常性收入與年度經常性授權收入。我們無法保證我們的生成式AI戰略會如預期的範圍或時間內帶來好處。生成式AI產品的市場接受度受到多種因素的影響，包括技術進步、可靠性、性能及資訊安全。如果我們無法正確回應這些因素，我們可能會遭遇業務中斷、聲譽受損、負面宣傳、客戶信任與關係下降，以及其他對本公司業務、聲譽或財務結果的不利影響。即使預期的效益大幅實現，也可能出現未預期的後果或業務影響，包括未預期的法律、法規或技術成本，以及未預期的延遲。",
+    "AI帶來新的風險與挑戰，可能影響本公司業務。我們已進行並預期會持續進行投資，以將AI整合至我們的產品與解決方案中。根據AI技術的本質，我們面臨來自其他公司的激烈競爭，以及不斷演變的法規環境。我們的AI努力可能不會成功，而競爭對手可能比我們更成功地將AI整合至其產品中，這可能會削弱我們競爭的能力，並對我們的財務結果產生不利影響。AI的快速演進可能需要大量額外的資源與成本，並在某些情況下限制我們在解決方案中實現AI能力或利用AI支援業務運作的能力。",
+    "儘管我們已實施程式設計以支持負責任的AI使用與發展，我們可能無法成功解決所有可能出現的問題。AI演算法可能產生不完整、不足、偏頗或其它缺陷的結果，或依賴偏頗或不準確的數據，而這些缺陷可能不容易被發現，即使有內部政策與勤勉努力以緩解這些缺陷。如果我們使用的AI產生缺陷、不準確或有爭議的結果，或如果公眾對AI的觀感因實際或被認為的AI使用風險而受到不利影響，我們可能會遭遇運營效率低下、競爭損害、法律責任、聲譽損害，或其他對本公司業務與營運結果的不利影響。此外，由AI生成的內容的權屬與智慧財產權為一個發展中的領域，如果我們對AI技術所依賴的數據或其他材料沒有足夠的權利，我們也可能因 allegedly 違反適用法律與法規、第三方智慧財產權、數據隱私或其他權利，或契約義務而承擔責任。此外，隱私權、用戶同意、供應鏈安全、透明度以及數據集的準確性、完整性與適當性，都是可能對本公司業務、聲譽或財務結果產生不利影響的潛在問題。",
+    "我們實現的收入水平取決於我們能否提供市場領先的服務與解決方案，並能迅速部署專業技能的團隊。我們的營運結果受到經濟條件的影響，包括總體經濟條件與商業信心水平，包括可能影響客戶業務及其所服務市場的條件。任何因經濟條件疲弱或不確定而導致的長期經濟衰退，都可能對客戶的財務狀況產生不利影響，進而進一步減少客戶對我們服務的需求。這些包括：",
+    "• 總體經濟與商業條件；• 利率與通貨膨脹率的趨勢與波動；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

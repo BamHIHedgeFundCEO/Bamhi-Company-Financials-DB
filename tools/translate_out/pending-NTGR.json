@@ -1,0 +1,203 @@
+{
+ "ticker": "NTGR",
+ "cik": "0001122904",
+ "accession": "0001193125-26-051346",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Sales Channels",
+    "Product Offerings",
+    "Research and Development",
+    "Manufacturing",
+    "Sales and Marketing",
+    "Enterprise Marketing",
+    "Customer Support",
+    "Intellectual Property",
+    "Seasonal Business",
+    "Governmental Regulations",
+    "Environmental Laws",
+    "Other Regulations",
+    "Human Capital",
+    "Available Information",
+    "Information About Our Executive Officers"
+   ],
+   "paragraphs": [
+    "We are a global provider of networking technologies for businesses, homes, and service providers. We deliver a wide range of networking hardware, software, and services designed to enable reliable connectivity and security.",
+    "Our purpose is to power extraordinary experiences, and our mission is to unleash the full potential of connectivity with intelligent solutions that delight and protect. As part of the ongoing development of our business, we are executing a multi-phase transformation to strengthen execution, reinforce our core businesses, and support long-term growth and margin expansion, while exercising strong operational discipline. The first phase of this transformation, which began in 2024, has been completed and focused on establishing foundational capabilities, including organizational alignment, capital allocation priorities, and operational processes. The second phase, which we are now entering, is focused on strengthening our core businesses through improved execution across product development, go-to-market activities, and cost structure. Subject to market conditions and business performance, a subsequent phase is expected to focus on accelerating growth initiatives, including selective inorganic opportunities.",
+    "In the first quarter of 2025, we realigned our business structure by separating the previously disclosed Connected Home segment into two reportable segments: Home Networking and Mobile. Effective January 1, 2025, we operated and reported in three segments for the first three fiscal quarters of 2025: NETGEAR for Business, Home Networking, and Mobile. Beginning on the first day of the fourth fiscal quarter of 2025, we streamlined our operating and reporting structure and returned to two reportable segments: Enterprise (formerly NETGEAR for Business) and Consumer (formerly Connected Home), with Consumer comprising the former Home Networking and Mobile businesses. These realignments align our financial reporting more closely with our then and go-forward business strategy and customer focus. Refer to the Note 12, Segment Information, in Notes to Consolidated Financial Statements in Item 8 of Part II of this Annual Report on Form 10-K for additional information. The Enterprise segment focuses on small and medium",
+    "enterprises and provides solutions for audio and video over Ethernet for AV applications, enterprise networking solutions, including wireless local area network (\"LAN\") and cloud-managed networking capabilities, software platforms for deployment and remote management, and security offerings, including firewall and secure access service edge (\"SASE\") functionality, designed to address the networking, security, and manageability requirements of organizations seeking reliable and cost-effective connectivity solutions. The Consumer segment focuses on consumers and provides high-performance, dependable and easy-to-use WiFi internet networking solutions such as multi-band WiFi 7 mesh systems and routers, subscription services offering performance, security, privacy and support, and 4G/5G mobile products, including WiFi 7 and WiFi 6/6E-enabled portable mobile hotspots and mobile routers, designed to address the demand for reliable, high-speed connectivity at home and on the go. We conduct business across three geographic territories: Americas; Europe, Middle East and Africa (\"EMEA\"); and Asia Pacific (\"APAC\").",
+    "In the years ended December 31, 2025, 2024, and 2023, we generated net revenue of $699.6 million, $673.8 million, and $740.8 million, respectively.",
+    "Our mission is to unleash the full potential of connectivity with intelligent solutions that delight and help protect businesses, consumers, and service providers. Demand for networking solutions continues to be driven by the need for reliable, high-speed connectivity, increasing device density, and growing requirements for security and manageability across a broad range of environments.",
+    "The professional audio and video (\"AV\") market continues to expand as organizations increase the use of digital displays, video walls, conferencing systems, and other video-intensive applications. As video formats evolve to higher resolutions and greater pixel density, AV deployments require increased network capacity, reliability, and predictable performance. The AV industry is also transitioning from legacy, matrix-based switching architectures to IP-based networking solutions, which offer greater scalability, flexibility, and cost efficiency. While AV systems are increasingly built on IP infrastructure, we design our solutions to simplify IP network setup for AV integrator partners. As a result, networking has become a critical component of modern AV system design, increasing demand for solutions that simplify deployment and support the timing-sensitive requirements of AV traffic.",
+    "Small and medium enterprises (\"SMEs\") rely on their networks to support mission-critical operations across environments such as education, hospitality, multi-dwelling units, and distributed business locations. These organizations face increasing network complexity driven by growing numbers of connected devices, new applications, and evolving usage patterns, while often operating with limited internal IT resources and constrained budgets. As a result, many SMEs depend on managed service providers for networking and security support. Consequently, demand continues to grow for networking and security solutions that balance reliability, security, ease of deployment, and cost effectiveness, including wireless and wired networking upgrades, cloud-managed networking capabilities, and security solutions such as firewall and SASE functionality.",
+    "Our Enterprise segment focuses on addressing the networking and security needs of small and medium enterprises. Our growth priorities for this segment include supporting the transition to IP-based networking for professional AV applications, expanding adoption of cloud-managed networking, and addressing increasing security requirements through solutions such as firewall and SASE functionality. The Enterprise segment also emphasizes solutions that support managed service provider (\"MSP\") led deployments and the needs of organizations with limited internal IT resources.",
+    "Consumers continue to increase their reliance on networking and mobile connectivity as device density grows and broadband connectivity becomes more central to daily activities. The Consumer market is shaped by connectivity needs across home, smart home, gaming, hybrid work, and mobile use cases through tiered product offerings. Growth drivers include increasing device density, evolving cybersecurity risks, and demand for higher-performance WiFi and related services. Demand is also influenced by adoption of newer WiFi standards and the need for integrated performance, security, and manageability in increasingly connected home environments. Mobile connectivity solutions support use cases that extend beyond the home, including environments where wired broadband access may be limited or unavailable. As network complexity increases, ease of deployment and simplified operation remain important considerations for consumers. Across the Consumer market, reliability, usability, security, and performance are key considerations in the selection of networking products and services. Our Consumer segment prioritizes",
+    "addressing these requirements while supporting growth opportunities across home networking, mobile connectivity, smart home related capabilities, and cybersecurity.",
+    "Our Consumer segment focuses on addressing connectivity needs in home and mobile environments. Our growth priorities for this segment include supporting increasingly device-dense home networks, expanding mobile connectivity use cases, and addressing rising security and privacy requirements through cybersecurity and subscription-based services. The Consumer segment also prioritizes smart home related capabilities that emphasize interoperability, ease of use, and reliable performance as home networking environments continue to evolve.",
+    "We sell our products through multiple sales channels worldwide, including wholesale distributors, traditional and online retailers, direct market resellers (\"DMRs\"), MSP, broadband service providers, and through our direct online store at www.netgear.com.",
+    "Wholesale Distributors. Our distribution channel supplies our products to retailers, e-commerce resellers, DMRs, MSPs and broadband service providers. We sell directly to our distributors, the largest of which are TD SYNNEX, Ingram Micro, Inc., and D&H Distributing Company."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to our Business, Industry and Operations",
+    "Changes in trade policy and regulation in the United States and other countries, including but not limited to the imposition of tariffs, may adversely impact our business, results of operations and financial condition.",
+    "Investment in new business strategies could disrupt our ongoing business, present risks not originally contemplated and materially adversely affect our business, reputation, results of operations and financial condition.",
+    "Our sales and operations in international markets have exposed us to and may in the future expose us to operational, financial and regulatory risks.",
+    "We depend on large, recurring purchases from certain significant customers, and a loss, cancellation or delay in purchases by these customers could negatively affect our revenue.",
+    "The average selling prices of our products typically decrease rapidly over the sales cycle of the product, which may negatively affect our net revenue and gross margins.",
+    "If we fail to overcome the challenges associated with managing our broadband service provider sales channel, our net revenue and gross profit will be negatively impacted.",
+    "We expect our operating results to fluctuate on a quarterly and annual basis, which could cause our stock price to fluctuate or decline."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. The risks described below are not exhaustive of the risks that might affect our business. Other risks, including those we currently deem immaterial, may also impact our business. Any of the following risks could materially adversely affect our business operations, results of operations and financial condition and could result in a significant decline in our stock price. Before deciding to purchase, hold or sell our common stock, you should carefully consider the risks described in this section. This section should be read in conjunction with the consolidated financial statements and accompanying notes thereto, and Management's Discussion and Analysis of Financial Condition and Results of Operations included in this Annual Report on Form 10-K.",
+    "We obtain several key components from limited or sole sources, and if these sources fail to satisfy our supply requirements or we are unable to properly manage our supply requirements with our third-party manufacturers, we may lose sales and experience increased component costs.",
+    "Shortages or delay in the supply of key product components, or sudden, unforeseen price increases for such components, such as current uncertainty regarding memory semiconductors and related components, could harm our ability to meet product deliveries as scheduled or as budgeted. Many of the semiconductors used in our products are obtained from sole source suppliers on a purchase order basis. In addition, some components that are used in all our products are obtained from limited sources. We also obtain switching fabric semiconductors, which are used in our Ethernet switches and Internet gateway products, and WiFi chipsets, which are used in all of our wireless products, from a limited number of suppliers. We also use Cable Modem chipsets and Mobile chipsets in our cable and mobile products. Semiconductor suppliers have experienced and continue to experience component shortages themselves, such as with lead-frames and substrates used in manufacturing chipsets, which in turn adversely impact our ability to procure semiconductors from them in sufficient quantities and in a timely manner. For example, we had previously experienced certain chipset shortages for some of our switching products from two of our semiconductor suppliers who did not have enough wafer capacity to satisfy our demand, and this shortage continued for several quarters. Our third-party manufacturers generally purchase these components on our behalf on a purchase order basis, and we do not have any guaranteed supply arrangements with our suppliers. If demand for a specific component increases, we may not be able to obtain an adequate number of that component in a timely manner, and prices to obtain such components may increase. In addition, if worldwide demand for the components increases significantly, the availability of these components could be limited and prices for such components may increase. For example, as the demand for Artificial Intelligence chips increases, semiconductor production capacity may be shifted to these specific components thereby constraining supply of or increasing cost on chips used in our products. Further, dependence on a sole source for certain key components of our products may allow such sole source suppliers to command increased leverage in negotiating prices and other terms of sale, which could adversely affect our profitability. As a result, we may be left with little choice but to accept such higher prices or other fees for key components in order to ensure continuity of supply. This could affect our profitability or if we choose to push back against more onerous terms, could lead to inadequate supply, which could materially adversely affect our business. Our suppliers may also experience financial or other difficulties as a result of uncertain and weak worldwide economic, geopolitical conditions, trade disputes or public health issues. Other factors which may affect our suppliers' ability or willingness to supply components to us include internal management product allocation decisions or reorganizational issues, such as roll-out of new equipment or disruptions to information infrastructure or power transmission or navigation miscalculations which may delay or disrupt supply of previously forecasted components, or industry consolidation and divestitures, which may result in changed business and product priorities among certain suppliers. It could be difficult, costly and time consuming to obtain alternative sources for components we currently procure, or to change product designs to make use of alternative components. In addition, difficulties in transitioning from an existing supplier to a new supplier could create delays in component availability that would have a significant impact on our ability to fulfill orders for our products.",
+    "We provide our third-party manufacturers with a rolling forecast of demand and purchase orders, which they use to determine our material and component requirements. Lead times for ordering materials and components vary significantly and depend on various factors, such as the specific supplier, contract terms and demand and supply for a component at a given time. Some of our components have long lead times, such as WiFi chipsets, switching fabric",
+    "chips, physical layer transceivers, and logic, power, analog and RF chipsets. If our forecasts are not timely provided or are less than our actual requirements, our third-party manufacturers may be unable to manufacture products in a timely manner. If our forecasts are too high, our third-party manufacturers will be unable to use the components they have purchased on our behalf. Historically, the cost of the components used in our products tends to drop rapidly as volumes increase and the technologies mature. Therefore, if our third-party manufacturers are unable to promptly use components purchased on our behalf, our cost of producing products may be higher than our competitors due to an oversupply of higher-priced components. Moreover, if they are unable to use components ordered at our direction, we will need to reimburse them for any losses they incur, which could be material.",
+    "If we are unable to obtain a sufficient supply of components due to factors including but not limited to increased demand due to trade policy or regulatory requirements, or if we experience any interruption in the supply of components, our product shipments could be reduced or delayed or our cost of obtaining these components may increase. Component shortages and delays affect our ability to meet scheduled product deliveries, damage our brand and reputation in the market, and cause us to lose sales and market share. At times we have elected to purchase components on the spot market or to use more expensive transportation methods, such as air freight, to make up for manufacturing delays caused by component shortages, which reduces our margins."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Business and Executive Overview",
+    "Business Overview",
+    "Financial Overview",
+    "Global Events Affecting our Business and Operations",
+    "Critical Accounting Estimates",
+    "Revenue Recognition",
+    "Provisions for Excess and Obsolete Inventory",
+    "Income Taxes",
+    "Recent Accounting Pronouncements",
+    "Results of Operations",
+    "Year Ended December 31,",
+    "(In thousands, except percentage data)",
+    "Net Revenue by Geographic Region",
+    "2025 vs 2024",
+    "Cost of Revenue and Gross Margin",
+    "Operating Expenses",
+    "Research and Development",
+    "Sales and Marketing",
+    "General and Administrative",
+    "Litigation Reserves, Net",
+    "Restructuring and Other Charges",
+    "Other Income, Net",
+    "Provision for (Benefit from) Income Taxes",
+    "Segment Information",
+    "Enterprise Segment",
+    "Consumer Segment",
+    "Liquidity and Capital Resources",
+    "(In thousands)",
+    "Stock Repurchases and Restricted Stock Unit Withholdings",
+    "Contractual and Other Obligations"
+   ],
+   "paragraphs": [
+    "The enterprise, consumer, and service provider markets are intensely competitive and subject to rapid technological change. We expect competition to continue to intensify. We believe that the principal competitive factors",
+    "in the business, consumer, and service provider markets for networking products include product breadth, price points, brand name, security and privacy, performance, features, functionality and reliability, product availability, timeliness of new product introductions, size and scope of the sales channel, ease-of-installation, maintenance and use, and customer service and support. We seek to differentiate our offerings through integrated hardware and software solutions, partner relationships, centralized management capabilities, and services. To remain competitive, we focus on investing in differentiated connectivity solutions across a range of performance tiers, complemented by subscription-based services, expanding and supporting our sales channels, strengthening engagement with customers and partners, and maintaining a high level of customer satisfaction. Our investments align with our strategic priorities, including investments in enterprise and Pro AV initiatives and selective acquisitions intended to enhance software and security capabilities.",
+    "We sell our products through multiple sales channels worldwide, including traditional and online retailers, wholesale distributors, direct market resellers (\"DMRs\"), managed service providers (\"MSPs\"), broadband service providers, and through our direct online store at www.netgear.com. Our main wholesale distributors include Ingram Micro, TD Synnex, and D&H Distribution Company. Our retail channel includes traditional and online retail locations both domestically and internationally, such as Amazon.com (worldwide), Best Buy, Wal-Mart, Staples, Office Depot, Target, Electra (Sweden), Fnac Darty (Europe), JB HiFi (Australia), Elkjop (Norway), and Boulanger (France). Our DMRs include CDW Corporation, Insight Corporation, and PC Connection in domestic markets. In addition, we also sell products directly to broadband service providers in the United States and internationally providing WiFi, cable and 4G/5G mobile broadband products. Some of these retailers and broadband service providers purchase directly from us, while others are fulfilled through wholesale distributors around the world. A substantial portion of our net revenue is derived from a limited number of wholesale distributors, service providers and retailers. While we expect these channels to continue to be a significant part of our sales strategy, increasingly, customers are choosing to purchase products and services directly from us. We expect revenue through our direct online store or in-app offerings to continue to increase as a percentage of overall revenue for the foreseeable future."
+   ],
+   "focus": "Business Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Sales Channels': '銷售通路'}",
+    "{'Product Offerings': '產品組合'}",
+    "{'Research and Development': '研究與發展'}",
+    "{'Manufacturing': '製造'}",
+    "{'Sales and Marketing': '銷售與行銷'}",
+    "{'Enterprise Marketing': '企業行銷'}",
+    "{'Customer Support': '客戶支援'}",
+    "{'Intellectual Property': '智慧財產權'}",
+    "{'Seasonal Business': '季節性營運'}",
+    "{'Governmental Regulations': '政府規範'}",
+    "{'Environmental Laws': '環境法規'}",
+    "{'Other Regulations': '其他規範'}",
+    "{'Human Capital': '人力資本'}",
+    "{'Available Information': '可供查閱資訊'}",
+    "{'Information About Our Executive Officers': '關於我們高階主管之資訊'}"
+   ],
+   "paragraphs": [
+    "本公司為全球性提供企業、家庭及服務提供者網路技術的供應商。我們提供廣泛的網路硬體、軟體及服務，用以實現可靠連線與安全性。",
+    "我們的宗旨是創造非凡體驗，我們的使命是透過智慧解決方案，釋放連線的全部潛力，並讓企業、消費者及服務提供者感到滿意與受保護。為持續發展業務，我們正在執行一個多階段的轉型計畫，以強化執行能力、加強核心業務，並支持長期成長與毛利率擴張，同時維持強勁的運營紀律。此轉型計畫的第一階段，自2024年起開始，已於2024年完成，主要著重於建立基礎能力，包括組織對齊、資本配置優先順序及運營流程。第二階段，我們現在開始進入，著重於透過改善產品開發、市場推廣活動及成本結構，強化核心業務。視市場條件及業務表現而定，後續階段預期將著重於加速成長計畫，包括選擇性的非營利機會。",
+    "在2025年第一季，我們重新調整了業務結構，將原先披露的Connected Home業務分為兩個應報告分部：Home Networking與Mobile。自2025年1月1日起，我們在2025年前三財季運營並報告為三個應報告分部：NETGEAR for Business、Home Networking與Mobile。自2025年第四財季的第一天起，我們簡化了運營與報告結構，並回到兩個應報告分部：Enterprise（原為NETGEAR for Business）與Consumer（原為Connected Home），其中Consumer包含原先的Home Networking與Mobile業務。這些調整使我們的財務報告更貼近當時及未來的業務策略與客戶焦點。請參閱本年度報告10-K表單第8部分第II項「項目8」的「財務會計彙編說明」中的「附註12，分部資訊」以取得更多資訊。Enterprise分部專注於中小企業，並提供音影片過乙太網的解決方案，包括音影片應用、企業網路解決方案，包括無線區域網路（\"LAN\"）及雲端管理網路能力、用以部署及遠端管理的軟體平台，以及安全解決方案，包括防火牆及安全存取服務邊緣（\"SASE\"）功能，用以滿足尋求可靠且成本效益高的連線解決方案的組織的網路、安全及可管理性需求。",
+    "Consumer分部專注於消費者，並提供高性能、可靠且易於使用的無線網路解決方案，例如多頻段WiFi 7 Mesh系統與路由器、訂閱服務提供效能、安全性、隱私及支援，以及4G/5G行動產品，包括WiFi 7及WiFi 6/6E支援的便攜式行動熱點與行動路由器，用以滿足對在家及行動中可靠高速連線的需求。我們在三個地理區域進行業務：美洲；歐洲、中東及非洲（\"EMEA\"）；以及亞太（\"APAC\"）。",
+    "",
+    "我們的使命是透過智慧解決方案，釋放連線的全部潛力，並讓企業、消費者及服務提供者感到滿意與受保護。對網路解決方案的需求持續受到可靠高速連線、設備密度增加及廣泛環境中對安全性與可管理性需求增加的推動。",
+    "專業音影片（\"AV\"）市場持續擴張，因為組織增加對數位顯示、視訊牆、會議系統及其他視訊密集應用的使用。隨著視訊格式朝向更高解析度與更大像素密度發展，AV部署需要更高的網路容量、可靠性及可預測的表現。AV產業也正在從傳統的矩陣式交換架構轉向基於IP的網路解決方案，這類解決方案提供更高的擴展性、靈活性及成本效益。雖然AV系統越來越建基於IP基礎設施，我們設計的解決方案旨在簡化AV整合夥伴的IP網路設置。因此，網路已成為現代AV系統設計的關鍵零組件，增加對簡化部署及支援AV流量時間敏感需求的解決方案的需求。",
+    "中小企業（\"SMEs\"）依賴其網路支持跨教育、旅館、多戶單位及分散式業務場所等環境的關鍵運作。這些組織面臨日益增加的網路複雜性，因連接設備數量增加、新應用程式及使用模式的演變，同時往往擁有有限的內部IT資源及預算限制。因此，許多SMEs依賴受託服務供應商提供網路與安全支援。因此，對網路與安全解決方案的需求持續增長，這些解決方案需在可靠性、安全性、易於部署及成本效益之間取得平衡，包括無線與有線網路升級、雲端管理網路能力及安全解決方案，如防火牆及SASE功能。",
+    "本公司之企業應報告分部專注於解決中小型企業的網路與安全需求。本分部之成長優先事項包括支援向基於IP的網路轉型以用於專業音訊視訊應用、擴大雲端管理網路的採用，以及透過防火牆及SASE功能等解決方案應對日益增加的安全需求。企業應報告分部亦強調支援由管理服務供應商（\"MSP\"）領導部署及具有限內部資訊科技資源之組織的需求。",
+    "消費者持續增加對網路與行動連線的依賴，因裝置密度增加且寬頻連線變得更為日常活動的核心。消費者市場由跨家庭、智慧家庭、遊戲、混合工作及行動使用情境的連線需求所塑造，透過分層產品組合。成長動力包括裝置密度增加、演進中的網路安全風險，以及對更高性能WiFi及相關服務的需求。需求亦受採用較新WiFi標準及對日益連線的家庭環境中整合性能、安全及管理性需求的影響。行動連線解決方案支援的使用情境已超出家庭，包括有線寬頻存取可能受限制或無法使用之環境。隨著網路複雜度增加，部署簡易性及操作簡化仍為消費者的重要考量。於消費者市場中，可靠性、易用性、安全及性能為選擇網路產品與服務時的關鍵考量。",
+    "本公司消費者應報告分部專注於解決家庭與行動環境的連線需求。本分部之成長優先事項包括支援日益密集的家用網路、擴大行動連線使用情境，以及透過網路安全及訂閱式服務應對日益增加的安全與隱私需求。消費者應報告分部亦優先考量智慧家庭相關功能，強調互通性、易用性及可靠性能，因家庭網路環境持續演進。",
+    "本公司消費者應報告分部專注於解決家庭與行動環境的連線需求。本分部之成長優先事項包括支援日益密集的家用網路、擴大行動連線使用情境，以及透過網路安全及訂閱式服務應對日益增加的安全與隱私需求。消費者應報告分部亦優先考量智慧家庭相關功能，強調互通性、易用性及可靠性能，因家庭網路環境持續演進。",
+    "本公司透過多種銷售通路在全球銷售產品，包括經銷商、傳統及線上零售商、直接市場經銷商（\"DMRs\"）、管理服務供應商（MSP）、寬頻服務供應商，以及透過本公司直接線上商店www.netgear.com。",
+    "經銷商。本公司之經銷通路將產品供應給零售商、電商經銷商、DMRs、MSP及寬頻服務供應商。本公司直接銷售給經銷商，其中規模最大的經銷商為TD SYNNEX、Ingram Micro, Inc.及D&H Distributing Company。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'original': 'Business and Executive Overview', 'translated': '營業與執行概覽'}",
+    "{'original': 'Business Overview', 'translated': '營業概覽'}",
+    "{'original': 'Financial Overview', 'translated': '財務概覽'}",
+    "{'original': 'Global Events Affecting our Business and Operations', 'translated': '影響我們營業與運作之全球事件'}",
+    "{'original': 'Critical Accounting Estimates', 'translated': '關鍵會計估計'}",
+    "{'original': 'Revenue Recognition', 'translated': '收入認列'}",
+    "{'original': 'Provisions for Excess and Obsolete Inventory', 'translated': '對過多及陳舊存貨之提列'}",
+    "{'original': 'Income Taxes', 'translated': '所得稅'}",
+    "最近會計準則聲明",
+    "營運成果",
+    "截至12月31日年度",
+    "(以千為單位，除百分比資料外)",
+    "按地理區域分區的淨營收",
+    "2025年與2024年比較",
+    "營收成本及毛利率",
+    "營運費用",
+    "{'translated_text': '研究發展'}",
+    "{'translated_text': '銷售及行銷'}",
+    "{'translated_text': '一般及行政'}",
+    "{'translated_text': '訴訟備抵淨額'}",
+    "{'translated_text': '重整及其它費用'}",
+    "{'translated_text': '其它收入淨額'}",
+    "{'translated_text': '所得稅費用（好轉）'}",
+    "{'translated_text': '分部資訊'}",
+    "{'Enterprise Segment': '企業應報告分部'}",
+    "{'Consumer Segment': '消費者應報告分部'}",
+    "{'Liquidity and Capital Resources': '流動性及資本資源'}",
+    "{'(In thousands)': '(以千為單位)'}",
+    "{'Stock Repurchases and Restricted Stock Unit Withholdings': '股票回購及限制性股票單位 withholdings'}",
+    "{'Contractual and Other Obligations': '契約及其他義務'}"
+   ],
+   "paragraphs": [
+    "企業、消費者及服務提供者市場競爭激烈，且技術變革迅速。我們預期競爭將持續加劇。我們認為，網路產品在企業、消費者及服務提供者市場的主要競爭因素",
+    "包括產品種類廣度、價格點、品牌名稱、安全性與隱私權、性能、功能、功能性和可靠性、產品可取得性、新產品推出時機、銷售通路規模與範圍、安裝與維護的便利性、使用便捷性，以及客戶服務與支援。我們透過整合硬體與軟體解決方案、夥伴關係、集中管理能力及服務，來區隔我們的產品。為維持競爭力，我們專注於投資差異化的連線解決方案，涵蓋多種性能層級，並搭配訂閱式服務，同時擴展與支援銷售通路，加強與客戶及夥伴的互動，並維持高水平的客戶滿意度。我們的投資與戰略優先事項一致，包括投資於企業及 Pro AV 計畫，以及選擇性收購，以增強軟體與安全性能力。",
+    "我們透過多種銷售通路在全球銷售產品，包括傳統與線上零售商、經銷商、直接市場經銷商（\"DMRs\"）、管理服務供應商（\"MSPs\"）、寬頻服務供應商，以及我們的直接線上商店 www.netgear.com。我們的主要經銷商包括 Ingram Micro、TD Synnex 及 D&H Distribution Company。我們的零售通路包括國內外的傳統與線上零售據點，例如 Amazon.com（全球）、Best Buy、Wal-Mart、Staples、Office Depot、Target、Electra（瑞典）、Fnac Darty（歐洲）、JB HiFi（澳洲）、Elkjop（挪威）及 Boulanger（法國）。我們的 DMRs 包括 CDW Corporation、Insight Corporation 及 PC Connection 在國內市場。此外，我們也直接向美國及國際的寬頻服務供應商銷售產品，提供 WiFi、有線電視及 4G/5G 移動寬頻產品。部分零售商及寬頻服務供應商直接向我們採購，而其他則透過全球的經銷商進行配送。我們淨銷售額的相當大一部分來自有限數量的經銷商、服務供應商及零售商。雖然我們預期這些通路將持續是我們銷售策略的重要部分，但 increasingly，客戶開始選擇直接向我們購買產品與服務。我們預期透過直接線上商店或應用程式內的服務所產生的收入，在可預見的未來，將持續增加為總收入的百分比。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司業務、產業及營運相關之風險",
+    "美國及其他國家貿易政策與規範之變更，包括但不限於課徵關稅，可能對本公司業務、營運結果與財務狀況造成不利影響。",
+    "對新業務策略之投資可能幹擾本公司現有業務，產生未預期之風險，並可能重大且不利地影響本公司業務、聲譽、營運結果與財務狀況。",
+    "本公司在國際市場之銷售與營運，已使本公司面臨並可能未來繼續面臨營運、財務與法規風險。",
+    "本公司依賴某些重要客戶之大額、持續性採購，若這些客戶取消、中止或延遲採購，可能對本公司營收造成負面影響。",
+    "本公司產品之平均銷售價格通常在產品銷售週期中迅速下降，這可能對本公司淨營收與毛利率造成負面影響。",
+    "若本公司未能克服管理寬頻服務供應商銷售通路之相關挑戰，將對本公司淨營收與毛利造成負面影響。",
+    "本公司預期營運結果將按季與年度出現波動，這可能導致本公司股票價格出現波動或下跌。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及高度風險。下列所描述的風險並非影響本公司業務的所有風險。其他風險，包括目前認為不重要者，也可能影響本公司業務。任何下列風險都可能對本公司業務運作、營運結果與財務狀況造成重大不利影響，並可能導致本公司股票價格顯著下跌。在決定買進、持有或賣出本公司普通股前，您應仔細考慮本節所描述的風險。本節應與合併財務報表及其附註，以及本年度10-K表報表所附的管理層對財務狀況與營運結果之分析一併閱讀。",
+    "我們從有限或唯一來源取得若干關鍵零組件，若這些來源無法滿足我們的供應需求，或我們無法與第三方製造商妥善管理供應需求，我們可能失去銷售並面臨零組件成本增加。",
+    "關鍵產品零組件供應不足或延遲，或這些零組件突然、未預見的價格上漲，例如目前對記憶體半導體及相關零組件的不確定性，可能影響我們按預定時程或預算交付產品的能力。我們產品中使用的許多半導體是透過訂單方式從唯一來源供應商取得。此外，一些用於所有產品的零組件是從有限來源取得。我們也從有限數量的供應商處取得用於我們乙太網路交換器與網路閘道產品的切換晶片半導體，以及用於所有無線產品的Wi-Fi晶片組。我們還在有線與行動產品中使用電纜調變解調器晶片組與行動晶片組。半導體供應商本身已經歷並持續經歷晶片組零組件短缺，例如用於製造晶片組的架線與基板，這會影響我們從他們處取得足夠數量與及時取得晶片組的能力。例如，我們先前曾因兩家半導體供應商缺乏晶片圓片產能而經歷某些切換產品的晶片組短缺，且此短缺持續幾個財季。我們的第三方製造商通常根據我們的訂單為我們購買這些零組件，我們與供應商並無任何保證供應協議。若某種零組件的需求增加，我們可能無法及時取得足夠數量的該零組件，且取得這些零組件的價格可能上漲。此外，若全球對這些零組件的需求大幅增加，這些零組件的可取得性可能受到限制，且價格可能上漲。例如，隨著對人工智慧晶片需求增加，半導體生產能力可能轉向這些特定零組件，從而限制我們產品所用晶片的供應或提高其成本。此外，對某些關鍵產品零組件的唯一來源依賴，可能使這些唯一來源供應商在談判價格及其他銷售條款時擁有更大的議價能力，這可能會對我們的利潤率造成不利影響。因此，我們可能別無選擇，只能接受這些較高的價格或其他費用以確保供應的連續性。這可能會影響我們的利潤率，若我們選擇對更嚴苛的條款進行抗議，可能會導致供應不足，這可能會對我們的業務造成重大不利影響。我們的供應商也可能因全球經濟、地緣政治條件、貿易爭議或公共衛生問題的不確定性和弱勢而面臨財務或其他困難。其他可能影響供應商供應零組件給我們能力或意願的因素包括內部管理產品分配決策或組織重整問題，例如新設備的推出或資訊基礎設施或電力傳輸或導航計算錯誤，可能導致預期零組件供應的延遲或中斷，或產業併購與資產處分，可能導致某些供應商的業務與產品優先順序發生變化。我們可能難以取得目前採購的零組件的替代來源，或改變產品設計以使用替代零組件，這可能耗時且成本高昂。此外，從現有供應商轉換至新供應商的困難可能導致零組件供應延遲，這會對我們履行產品訂單的能力產生重大影響。",
+    "我們提供第三方製造商一個滾動的預測需求與採購訂單，他們用來決定我們的物料與零組件需求。訂購物料與零組件的前置時間差異很大，並取決於多種因素，例如特定供應商、合約條款以及某個時間點零組件的供需情況。我們的一些零組件具有較長的前置時間，例如 WiFi 晶片組、交換式晶片、物理層收發器以及邏輯、電源、類比與 RF 晶片組。",
+    "如果我們未能及時提供預測或預測低於實際需求，第三方製造商可能無法及時製造產品。如果我們的預測過高，第三方製造商將無法使用他們為我們採購的零組件。歷史上，我們產品所使用的零組件成本會隨著產量增加與技術成熟而迅速下降。因此，如果第三方製造商無法及時使用為我們採購的零組件，我們的產品製造成本可能高於競爭對手，因為會有較高價格的零組件過度供應。此外，如果他們無法使用我們指示採購的零組件，我們將需要賠償他們所遭受的損失，這可能會造成重大影響。",
+    "如果我們因包括但不限於貿易政策或法規要求導致需求增加等因素而無法獲得足夠的零組件供應，或我們遭遇零組件供應中斷，產品出貨可能會減少或延遲，或我們取得這些零組件的成本可能會增加。零組件短缺與延誤會影響我們達成預定產品出貨的能力建立，損害我們在市場的品牌與聲譽，並導致我們失去銷售與市佔率。有時我們選擇在現貨市場購買零組件，或使用較昂貴的運輸方式，例如空運，以彌補因零組件短缺造成的製造延誤，這會降低我們的毛利率。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

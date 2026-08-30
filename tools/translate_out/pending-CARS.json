@@ -1,0 +1,152 @@
+{
+ "ticker": "CARS",
+ "cik": "0001683606",
+ "accession": "0001193125-26-076546",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business",
+    "Our business is subject to risks related to the larger automotive ecosystem, including consumer demand, direct-to-consumer sales models and other macroeconomic issues.",
+    "Dealer closures or consolidation among dealers, major dealership groups or OEMs could reduce demand for, and negatively affect the pricing of, our marketing and solutions offerings, thereby leading to decreased earnings.",
+    "Our increased operations in Canada involve risks that may differ from, or are in addition to, our domestic operational risks.",
+    "We rely on in-house content creation and development to drive organic traffic to the Company's sites and mobile applications.",
+    "Risks Related to Environmental Laws and Climate Change Impacts",
+    "Our business may be affected by climate change, including physical risks and regulatory changes that may increase our operating costs and impact our ability to deliver services to our customers.",
+    "Expectations relating to environmental, social and governance considerations expose us to potential liabilities, increased costs, reputational harm and other adverse effects on the Company's business.",
+    "Strategic and Competitive Risks",
+    "We participate in a highly competitive market, and pressure from existing and new competitors may materially and adversely affect our business, results of operations or financial condition.",
+    "If we do not adapt to automated buying strategies, our display revenue could be adversely affected.",
+    "We may face difficulties in developing and launching new solution offerings or growing our complementary offerings that help automotive brands and dealers create enduring customer relationships.",
+    "Risks Related to Technology",
+    "The value of our assets or operations may be diminished if our information technology systems fail to perform adequately.",
+    "Our business is dependent on keeping pace with advances in technology. If we are unable to keep pace with advances in technology, consumers and customers may stop using our services and our revenue may decrease.",
+    "Risks Related to Data Privacy and Security",
+    "Our ability to attract and retain customers depends on our ability to collect and use data and develop tools to enable us to effectively deliver and accurately measure advertisements on our platform."
+   ],
+   "paragraphs": [
+    "The following risk factors should be considered carefully, together with all other information contained in this report, including \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and our financial statements and related notes, when evaluating our business and any forward-looking statements or other statements we or our representatives make from time to time. Any of the following risks could materially and adversely affect our business, results of operations, financial condition and the actual outcome of matters as to which statements are made. The risks and uncertainties described in this report are not the only ones we face. Other risks or uncertainties, which are not currently known to us or that we believe are immaterial, also may adversely affect our business, operating results and financial condition.",
+    "Substantially all of our revenue is generated from subscription products offered to automotive dealers and other customers in or adjacent to the automotive industry. Our business may be negatively affected during times of low automobile sales, low dealer inventory due to production shortages or delays and high unemployment.",
+    "A number of economic and market conditions drive changes in automobile sales, including disruptions in the new automobile supply chain, consumer demand for new vehicle models, the availability and prices of new and used automobiles, unemployment and inflation levels, availability of affordable financing, fluctuations in the cost of fuel, consumer confidence and other factors affecting demand for vehicles, government shutdowns, political unrest or uncertainty, the occurrence of contagious disease or illness, barriers to trade, new OEM entrants into markets and other global economic conditions. Decreases in consumer demand could adversely affect the market for automobile purchases and, as a result, reduce the number of consumers using our platform.",
+    "Consumer purchases of new and used automobiles generally decline during economic downturns and other periods in which disposable income is adversely affected. Purchases of new and used automobiles may continue to be, affected by negative trends in the economy, including an economic recession or downturn, increases in the cost of energy and gasoline, the availability and cost of credit, reductions in business and consumer confidence, stock market volatility, rising interest rates, inflation, health or similar issues, such as pandemic or epidemic and increased unemployment. In addition, the imposition of new tariffs, quotas, duties, or other restrictions or limitations could increase prices for vehicles imported into the United States and adversely impact demand for such vehicles. Further, if OEMs continue to transition to e-commerce and direct-to-consumer sales models to grow their market penetration, consumer demand for our platform could be materially adversely affected with consumers shifting from our platform to an OEM-based platform.",
+    "In addition, a decrease in market demand caused by longer vehicle ownership, self-driving technology, ride sharing, transportation networks and other fundamental changes in transportation could impact the demand for new and used automobiles. Disruptions in the new vehicle market can have delayed and prolonged effects on the used vehicle market, adversely affecting used vehicle availability, pricing and dealer inventory levels for several years following the initial disruption. More recently, instability in electric vehicle manufacturing—including production delays, shifting OEM strategies and vehicle program cancellations—has created additional uncertainty for dealers and has contributed to inventory issues. A reduction in the number of automobiles purchased by consumers could adversely affect automobile dealers and car manufacturers and consequently lead to reduced spending on our digital marketing services and solution offerings. Further, OEM production shortages, supply chain disruptions and inventory shortfalls could adversely impact automobile dealers and also reduce spending on our digital marketing services and solution offerings. Though our current customer bases, revenue sources and operations are substantially limited to the United States and Canada, our business may be negatively affected by challenges in the global automotive ecosystem and other macroeconomic issues.",
+    "To the extent a weakened economy impacts our customers' ability or willingness to pay for our services or our vendors' ability to provide services to us, our operations, liquidity and financial condition could be negatively impacted. As a result, in order to respond to changes in our revenue, we may be required to implement expense-reduction measures or amend our debt instruments in the future, which could further adversely impact our operations, liquidity and financial condition."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Overview of Results",
+    "Year Ended December 31,",
+    "(In thousands)",
+    "Key Operating Metrics",
+    "December 31, 2025",
+    "December 31, 2024",
+    "September 30, 2025",
+    "Results of Operations",
+    "Year Ended December 31, 2025 Compared to Year Ended December 31, 2024",
+    "Operating expenses:",
+    "Nonoperating expense:",
+    "*** Not meaningful",
+    "Year Ended December 31, 2024 Compared to Year Ended December 31, 2023",
+    "Liquidity and Capital Resources",
+    "Cash Flows. Details of our cash flows are as follows (in thousands):",
+    "Contractual Obligations. As of December 31, 2025, we had the following obligations and commitments to make future payments under contracts, contractual obligations and commercial commitments (in thousands):",
+    "Payments due by Period",
+    "Contractual Obligations",
+    "Off-Balance Sheet Arrangements. We do not have any material off-balance sheet arrangements.",
+    "Business Combinations."
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our business, financial condition, results of operations and quantitative and qualitative disclosures should be read in conjunction with our Consolidated Financial Statements and related notes included elsewhere in this Annual Report on Form 10-K. This discussion and analysis also contains forward-looking statements and should be read in conjunction with the disclosures and information contained in \"Note About Forward-Looking Statements\" and \"Risk Factors\" in this Annual Report on Form 10-K. The financial information discussed below and included elsewhere in this Annual Report on Form 10-K may not necessarily reflect what our financial condition, results of operations and cash flows may be in the future.",
+    "References in this discussion and analysis to \"we,\" \"us,\" \"our\" and similar terms refer to Cars.com Inc. and its subsidiaries, collectively, unless the context indicates otherwise.",
+    "Business Overview. Cars.com Inc. is a trusted audience-powered and data-driven technology platform that simplifies buying and selling cars. The flagship Cars.com marketplace connects millions of consumers to dealerships across the U.S., powering the car buying experience with artificial intelligence (\"AI\") shopping tools and comprehensive vehicle reviews and content. Our interconnected ecosystem of products enables dealers and OEMs to sell more cars by efficiently leveraging our marketplace, dealer websites, trade and appraisal tools and proprietary in-market media solutions.",
+    "2025 2024 2023 Revenue 723,239 719,152 689,183 Net income (1) 20,052 48,188 118,442",
+    "(1) Net income for the year ended December 31, 2023 is primarily related to the release of a significant portion of our valuation allowance for deferred tax assets that had been recorded as a result of the 2020 goodwill and indefinite-lived intangible asset impairments. For more information, see Note 12 (Income Taxes) to the accompanying Consolidated Financial Statements included in Part II, Item 8. \"Financial Statements and Supplementary Data\" of this Annual Report on Form 10-K.",
+    "We regularly review a number of key metrics to evaluate our business, measure our performance, identify trends affecting our business, formulate financial projections and make operating and strategic decisions. Key Operating Metrics are as follows (Traffic and Average Monthly Unique Visitors in thousands):",
+    "2025 2024 % Change Average Monthly Unique Visitors 25,708 25,517 Traffic 627,141 627,556 (0",
+    ")% Monthly Average Revenue Per Dealer - Annual 2,460 2,483 (1 )%",
+    "QoQ % Change Dealer Customers 19,544 19,206 19,526 Monthly Average Revenue Per Dealer - Quarterly",
+    "Average Monthly Unique Visitors (\"UVs\") and Traffic. UVs and Traffic are fundamental to our business. They are indicative of our consumer reach and the level of engagement consumers have with our platform. Although our consumer engagement does not directly result in revenue, we believe our ability to reach in-market car shoppers is attractive to our dealers, OEMs and national customers and a primary reason they do business with us. We believe we have achieved audience scale as measured by UVs and Traffic. Traffic is driven by a combination of UVs visiting our properties, repeat visitation and engagement. We monetize impressions, clicks and other connections that result from traffic to our site via our products and services.",
+    "We define UVs in a given month as the number of distinct visitors that engage with our platform during that month. Visitors are identified upon first visit to an individual Cars.com property on an individual device/browser combination or installation of one of our mobile apps on an individual device. If a visitor accesses more than one of our web properties or apps or uses more than one device or browser, each of those unique property/browser/app/device combinations counts toward the number of UVs. Traffic is defined as the number of",
+    "visits to Cars.com desktop and mobile properties (responsive sites and mobile apps). We measure UVs and Traffic via RudderStack. These metrics do not include traffic to Dealer Inspire, D2C Media or DealerClub websites.",
+    "UVs increased 1% year-over-year and Traffic remained flat year-over-year for the year ended December 31, 2025, reflecting the impacts of tariff-motivated consumer demand at the beginning of the year and tactical improvements in the marketing mix throughout the year, partially offset by depressed consumer demand due to the federal government shutdown at the end of the year.",
+    "Dealer Customers. Dealer Customers represent dealerships using our products as of the end of each reporting period. Each physical or virtual dealership location is counted separately, whether it is a single-location proprietorship or part of a large, consolidated dealer group. Multi-franchise dealerships at a single location are counted as one dealer. Dealer Customer metrics do not include DealerClub."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "mdna": {
+   "headings": [
+    "營運成果概覽",
+    "截至 12 月 31 日年度",
+    "(以千為單位)",
+    "關鍵營運指標",
+    "2025 年 12 月 31 日",
+    "2024 年 12 月 31 日",
+    "2025 年 9 月 30 日",
+    "營運成果",
+    "2025 年 12 月 31 日財務年度與 2024 年 12 月 31 日財務年度比較",
+    "營運費用：",
+    "非營運費用：",
+    "*** 無意義",
+    "2024 年 12 月 31 日財務年度與 2023 年 12 月 31 日財務年度比較",
+    "流動性與資本資源",
+    "現金流量。我們現金流量之詳細資料如下（單位：千美元）：",
+    "契約義務。截至 2025 年 12 月 31 日，我們有下列義務及承諾，需於未來根據契約、契約義務及商業承諾進行付款（單位：千美元）：",
+    "應於各期間支付之款項",
+    "契約義務",
+    "表外財務安排。本公司無任何重大表外財務安排。",
+    "企業併購"
+   ],
+   "paragraphs": [
+    "以下對我們業務、財務狀況、營運成果以及定量與定性揭露的討論與分析，應與我們的合併財務報表及相關附註一併閱讀，這些財務報表及附註包含於本年度10-K表報中。本討論與分析亦包含前瞻性陳述，應與本年度10-K表報中「關於前瞻性陳述」及「風險因素」部分的揭露與資訊一併閱讀。本年度10-K表報中討論與分析的財務資訊及包含於其他部分的財務資訊，可能不會反映我們未來的財務狀況、營運成果及現金流。",
+    "本討論與分析中提及的「我們」、「我們」、「我們的」及類似詞彙，指Cars.com Inc.及其子公司，合計而言，除非上下文另有說明。",
+    "業務概觀。Cars.com Inc.為一個受信賴的、以觀眾為動力且以數據為驅動的科技平台，簡化買賣汽車的過程。Cars.com的旗艦市場平台連結數百萬消費者與美國各地的經銷商，透過人工智慧（\"AI\"）購物工具與全面的車輛評論與內容，提升汽車購販體驗。我們的互聯生態系統產品使經銷商與OEM能更有效地利用我們的市場平台、經銷商網站、交易與評估工具及專屬在地媒體解決方案，來銷售更多汽車。",
+    "2025 2024 2023 營業收入 723,239 719,152 689,183 網路收入（1） 20,052 48,188 118,442",
+    "（1）2023 年度淨收入主要係因本公司釋出重大部分遞延所得稅資產之評價準備金，此評價準備金係因 2020 年 goodwill 及無限期壽命無形資產減損而記錄。如需更多資訊，請參閱本年度 10-K 申報書 Part II, Item 8 \"財務報表與補充資料\" 所附之綜合財務報表附註 12（所得稅）。",
+    "本公司定期審查多項關鍵指標以評估營運狀況、衡量績效、識別影響營運之趨勢、制定財務預測並做出營運與戰略決策。關鍵營運指標如下（流量及平均每月獨特訪客數，單位為千）：",
+    "2025 2024 變動率 平均每月獨特訪客數 25,708 25,517 人流量 627,141 627,556 (0 )%",
+    ")% 平均每月經銷商收入 - 年度 2,460 2,483 (1 )%",
+    "季節性變動百分比 零售商客戶 19,544 19,206 19,526 每月平均每位零售商收入 - 季度",
+    "平均每月獨特訪客數（\"UVs\"）及流量。UVs 和流量對我們的業務至關重要。它們反映了我們的消費者觸及範圍以及消費者與我們平台的互動程度。雖然我們的消費者互動並不會直接產生收入，我們認為我們能觸及市場上的汽車購車者的能力對我們的零售商、OEMs 和國家客戶來說是有吸引力的，也是他們與我們合作的主要原因之一。我們相信我們已達成以 UVs 和流量衡量的觀眾規模。流量是由 UVs 訪問我們的網站、重複訪問和互動所驅動。我們透過我們的產品和服務，將流量轉化為點擊、連結等收入。",
+    "我們在某個月內定義 UVs 為與我們平台互動的獨特訪客數量。訪客在首次訪問個別 Cars.com 網站或安裝我們的行動應用程式時被識別，以個別裝置/瀏覽器組合或裝置。如果訪客訪問我們的多個網站或應用程式，或使用多個裝置或瀏覽器，則每個獨特的網站/瀏覽器/應用程式/裝置組合都會計入 UVs 的數量。流量被定義為",
+    "訪問 Cars.com 桌面和行動網站（響應式網站和行動應用程式）的次數。我們透過 RudderStack 測量 UVs 和流量。這些指標不包括 Dealer Inspire、D2C Media 或 DealerClub 網站的流量。",
+    "UVs 年度成長 1%，流量年度維持不變，反映 2025 年 12 月 31 日財年開頭因關稅驅動的消費者需求以及全年行銷組合的策略性改進，部分抵銷年底因聯邦政府停擺導致的消費者需求低迷。",
+    "零售商客戶。零售商客戶代表在每個會計期間結束時使用我們產品的經銷商。每個實體或虛擬經銷商據點都單獨計算，無論是單一據點的個人經營還是屬於大型整合經銷商集團的一部分。單一據點的多品牌經銷商計為一個經銷商。零售商客戶指標不包括 DealerClub。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司業務相關的風險",
+    "本公司業務面臨與較大汽車生態系統相關的風險，包括消費者需求、直銷模式及其他總體經濟問題。",
+    "經銷商關閉或經銷商、主要經銷商集團或原廠車廠的合併，可能降低本公司行銷與解決方案產品的需求，並對其價格產生負面影響，進而導致 earnings 減少。",
+    "本公司在加拿大擴大營運，可能涉及與國內營運風險不同或額外的風險。",
+    "本公司依賴內部內容創作與開發，以推動流量至本公司網站及行動應用程式。",
+    "與環境法規及氣候變遷影響相關的風險",
+    "本公司業務可能受氣候變遷影響，包括實體風險及法規變更，可能提高本公司營運成本，並影響本公司對客戶提供服務的能力。",
+    "與環境、社會及治理考量相關的期待，使本公司面臨潛在負債、成本增加、聲譽損害及其他對本公司業務的不利影響。",
+    "策略與競爭風險",
+    "本公司參與一個高度競爭的市場，現有及新興競爭對手的壓力可能對本公司業務、營業成果或財務狀況造成重大且不利的影響。",
+    "若本公司未能適應自動化購買新策略，則顯示收入可能受到不利影響。",
+    "本公司可能在開發及推出新解決方案或成長我們的補充性產品方面遇到困難，這些產品有助於汽車品牌與經銷商建立持久的客戶關係。",
+    "與科技相關的風險",
+    "若本公司資訊科技系統無法充分運作，本公司資產或營運價值可能受到影響。",
+    "本公司業務依賴跟進科技進步的腳步。若本公司無法跟進科技進步的腳步，消費者與客戶可能停止使用本公司服務，導致收入減少。",
+    "與資料隱私及安全相關的風險",
+    "{'original': 'Our ability to attract and retain customers depends on our ability to collect and use data and develop tools to enable us to effectively deliver and accurately measure advertisements on our platform.', 'translated': '本公司吸引及留住客戶的能力，取決於本公司收集及使用資料，並發展工具以有效於平台投放廣告，並準確衡量廣告成效之能力。'}"
+   ],
+   "paragraphs": [
+    "下列風險因素應謹慎考量，並與本報告中包含的所有其他資訊一併參考，包括「管理層對財務狀況與營運結果之討論與分析」及我們的財務報表與相關附註，以評估我們的業務及任何前瞻性陳述或其他我們或我們代表所做出的陳述。任何下列風險都可能對我們的業務、營運結果、財務狀況及所做陳述的事項實際結果產生重大且不利的影響。本報告中所描述的風險與不確定性並非我們所面臨的唯一風險。其他風險或不確定性，包括目前我們尚未知悉或我們認為不重要的風險，也可能對我們的業務、營運結果與財務狀況產生不利影響。",
+    "我們幾乎所有的營業收入均來自於向汽車經銷商及其他在汽車產業內或鄰近產業的客戶提供的訂閱產品。在汽車銷售低迷、經銷商庫存因生產短缺或延誤而偏低，或失業率高時，我們的業務可能會受到負面影響。",
+    "許多經濟與市場條件會影響汽車銷售的變化，包括新車供應鏈的中斷、消費者對新車型的 demand、新舊車輛的可得性與價格、失業率與通貨膨脹水平、可負擔的貸款可得性、燃料成本的波動、消費者信心及其他影響車輛需求的因素、政府停擺、政治動盪或不確定性、傳染病或疾病、貿易障礙、新 OEM 進入市場及其他全球經濟條件。消費者需求的減少可能對汽車購買新車與二手車的市場產生不利影響，進而減少使用我們平台的消費者數量。",
+    "消費者購買新車與二手車的行為通常在經濟衰退或其他影響可支配所得的時期會下降。購買新車與二手車的行為可能持續受到經濟負面趨勢的影響，包括經濟衰退或低迷、能源與汽油成本的增加、信貸的可得性與成本、企業與消費者信心的下降、股市波動、利率上升、通貨膨脹、健康或其他類似問題，例如疫情或大流行以及失業率上升。此外，新關稅、配額、稅收或其他限制或限制措施的實施，可能會提高進口至美國的車輛價格，並對這些車輛的需求產生不利影響。進一步地，如果 OEMs 繼續轉向電商與直銷模式以擴大市場佔有率，消費者對我們平台的需求可能受到重大且不利的影響，消費者可能會從我們的平台轉移到 OEM 基於的平台。",
+    "此外，因車輛使用年限延長、自駕技術、共享出行、運輸網路及其他運輸方式的根本性改變所導致的市場需求減少，可能會影響新車與二手車的購買新車與二手車的市場。新車市場的中斷可能對二手車市場產生延遲且長期的影響，對二手車的可得性、價格及經銷商庫存水平產生不利影響，持續數年。最近，電動車製造的不穩定性——包括生產延誤、OEM 策略的改變及車型計畫的取消——已為經銷商帶來更多不確定性，並導致庫存問題。消費者購車數量的減少可能對汽車經銷商與汽車製造商產生不利影響，進而導致對我們數位行銷服務與解決方案的支出減少。此外，OEM 生產短缺、供應鏈中斷及庫存不足可能對汽車經銷商產生不利影響，並導致對我們數位行銷服務與解決方案的支出減少。儘管我們目前的客戶羣、收入來源及營運活動幾乎都限於美國與加拿大，但我們的業務仍可能因全球汽車生態系統的挑戰及其他總體經濟問題而受到負面影響。",
+    "倘若經濟衰退影響我們客戶支付我們服務的能力或意願，或影響我們供應商提供服務給我們的能力，我們的營運、流動性及財務狀況可能受到負面影響。因此，為應對我們收入的變化，我們可能需要在未來實施成本削減措施或修改我們的債務契約，這可能會進一步對我們的營運、流動性及財務狀況產生不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

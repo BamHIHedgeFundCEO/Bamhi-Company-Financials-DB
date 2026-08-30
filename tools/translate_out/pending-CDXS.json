@@ -1,0 +1,219 @@
+{
+ "ticker": "CDXS",
+ "cik": "0001200375",
+ "accession": "0001200375-26-000006",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "History and Core Technology",
+    "Key Strategic Focus Areas",
+    "ECO Synthesis Manufacturing Platform",
+    "Pharma Biocatalysis",
+    "Other Differentiated Enzymes",
+    "Biotherapeutics Divestitures",
+    "ECO Synthesis Manufacturing Platform for RNAi Therapeutics",
+    "Core Technology",
+    "Environmental, Health and Safety Regulations",
+    "Data Privacy and Security Laws",
+    "Compensation, benefits and development",
+    "Diversity, equity and inclusion",
+    "Health and safety"
+   ],
+   "paragraphs": [
+    "We are a leading provider of technology solutions to improve therapeutics manufacturing. We focus on impacting the manufacturing process by using our proprietary CodeEvolver® directed evolution technology platform to discover, develop, enhance, and commercialize novel, high-performance enzymes and other classes of proteins. Enzymes are naturally occurring biological molecules critical to almost all biochemical reactions. They can be precisely engineered and optimized for specific functions, and to have particular characteristics, such as an ability to survive environments in which natural enzymes cannot, or to perform (bio)chemical transformations that are different than those for which they naturally evolved. We employ our technology and expertise to enhance the properties and performance of enzymes to drive pivotal improvements in manufacturing of complex therapeutics across two key areas: our ECO synthesis manufacturing platform and our small molecule pharma biocatalysis business.",
+    "Our ECO Synthesis® manufacturing platform is comprised of enzymatic tools and processes that are designed to enable large-scale manufacture of RNA interference (\"RNAi\") therapeutics. We use the CodeEvolver platform technology to develop enzymes for the synthesis of RNAi therapeutics in production processes that deliver improvements, including purity, yield, and manufacturing efficiency. In November 2024, we presented data at the TIDES Europe conference demonstrating the successful end-to-end enzymatic synthesis of an entire commercially approved small interfering ribonucleic acid (\"siRNA\") therapeutic asset with the ECO Synthesis manufacturing platform. In addition to using full enzymatic sequential synthesis, adding one nucleotide at a time to synthesize the two strands from beginning to end, we demonstrated synthesis of the same siRNA asset using three other routes utilizing enzymatic ligation with our double-stranded RNA (\"dsRNA\") ligase, which can stitch together fragments of chemically and/or enzymatically synthesized RNA to form the full siRNA drug structure. For the three other routes, our data highlighted that full-length oligonucleotides of equal quality and yields were obtained whether the fragments were made with enzymes or by traditional solid phase oligonucleotide synthesis (\"SPOS\") (current standard production route for oligonucleotide manufacturing). At the end of 2024, we completed the build out of our ECO Synthesis Innovation Lab, a facility where our ECO Synthesis manufacturing platform is deployed to synthesize gram-scale quantities of a customer's desired siRNA construct suitable for pre-clinical testing. In addition, the infrastructure allows us to provide process development, analytical method development and other manufacturing process optimization which is required to enable the siRNA to proceed to clinical-stage manufacturing and testing. In 2025, we successfully manufactured non-good manufacturing practice (\"GMP\")-grade siRNA drug substance for customers in our Innovation Lab under development services contracts. We also entered into partnerships with three large-scale contract development and manufacturing organizations (\"CDMOs\") to evaluate our ECO platform of enzymatic tools and processes to ultimately synthesize GMP-grade siRNA drug substance for our customers. In each of these agreements, we are currently in the feasibility testing stage and expect to advance at least one of these partnerships, including initiating a technology transfer to that organization, in 2026. We believe these relationships to be a vital extension of our strategy to be a technology solutions provider for our customers. Through these arrangements, our customers will have access to proven, large-scale commercial manufacturers who are familiar with our process, and who can then offer a seamless manufacturing scale-up of our customers' products. We expect to expand our enzymatic tools and process offerings as we further enhance the ECO Synthesis platform to address the overall market needs for scalable and sustainable RNAi manufacturing.",
+    "In our small molecule pharma biocatalysis business, we utilize our CodeEvolver technology platform to develop optimized enzymes that are used by some of the world's largest pharmaceutical companies to improve the efficiency and productivity of their manufacturing processes for small molecule therapeutics. Our unique enzymes drive improvements such as higher yields, increased purity, reduced energy usage and waste generation, all of which lead to improved efficiency and reduced costs in small-molecule manufacturing.",
+    "We are a pioneer in harnessing computational technologies to drive biology advancements. Since 2002, we have made substantial investments in the development of our proprietary CodeEvolver technology platform, the primary source of our competitive advantage for our business. The CodeEvolver technology platform has the power to transform the performance of an enzyme, tailoring it for a specific application and/or process. Using powerful machine learning tools and sophisticated molecular, cellular, and bioanalytical workflows, we can design and screen libraries of thousands of variants. Content-rich libraries screened under real-world conditions can yield dense and valuable datasets, which, when data-mined, allow us to optimize multiple parameters in parallel. The resulting evolved variants often have a combination of enhanced properties, such as increased activity, specificity, and stability under desired conditions, and improved manufacturability in the production host. These enhanced properties provide differentiated technical performance in the target application and can provide our customers increased value in the commercial deployment of their products.",
+    "A key strategic priority for Codexis is the advancement and commercialization of our ECO Synthesis manufacturing platform, which is designed to enable the commercial scale manufacture of RNAi therapeutics. As of December 31, 2025, there were eight approved siRNA therapeutics on the market in the United States, primarily targeting rare disease indications. However, there are hundreds of RNAi therapeutic assets in development, including 41 assets in Phase 2 and Phase 3 clinical trials. As we move through 2026, the RNAi pipeline is pivoting from rare conditions to high-prevalence diseases like Alzheimer's, hyperlipidemia and hypertension. We expect worldwide demand for RNAi therapeutics to grow significantly as RNAi therapeutic assets progress through clinical development and are commercially approved.",
+    "The current industry standard for manufacturing RNAi therapeutics is a well-established, chemical-based method SPOS utilizing phosphoramidite chemistry. This approach has existed for more than forty years and works effectively for small-scale manufacturing required during the discovery stage of clinical development. However, SPOS and phosphoramidite chemistry face multiple limitations in the context of commercial-scale manufacture of RNAi therapeutics. This approach will require significant infrastructure and capital investment to meet the anticipated future growth in demand for RNAi therapeutics. SPOS and phosphoramidite chemistry are also currently limited to single-digit kilogram synthesis batch sizes, and present challenges around quality control and scalability. Further, chemical synthesis requires large volumes of acetonitrile, a highly-flammable, organic solvent with high waste disposal costs, to facilitate the reaction environment necessary to produce RNAi therapeutics. As additional RNAi therapeutic candidates are approved for disease indications with higher prevalence, we believe using traditional SPOS and phosphoramidite chemical synthesis for commercial scale production will become prohibitively expensive, time-intensive, and challenging for many drug developers seeking to produce enough drug substance to address these larger patient populations.",
+    "We believe that the ECO Synthesis manufacturing platform presents several advantages to potentially address the limitations of SPOS and phosphoramidite chemistry. Our platform can be integrated within existing manufacturing facilities and utilizes equipment currently available in the industry, potentially eliminating much of the infrastructure investment required for SPOS and phosphoramidite chemistry. ECO Synthesis is not constrained by the same process limitations as SPOS, and, by design, has the potential to manufacture tens to a hundred kilograms of high-purity RNA per run, with a closed-loop system intended to increase volumetric reagent efficiency which enables large batch synthesis. Finally, our process is aqueous based, mitigating the need for high volumes of acetonitrile, significantly decreasing chemical waste streams, and reducing heavy disposal and purification costs.",
+    "We completed the build-out of our ECO Synthesis Innovation Lab at the end of 2024. This facility allows us to optimize the development and scaling of a manufacturing process of a customer's specific siRNA asset before completing the technology transfer to a CDMO partner for GMP-grade production of drug substance to supply the customer's clinical trials and eventual commercialization. It is also designed to enable the manufacture of non-GMP-grade RNAi therapeutic material in sufficient quantities to support customers' preclinical development.",
+    "The ECO Synthesis manufacturing platform is a set of enzymatic tools and processes that are used together to manufacture siRNA. With this platform, we work with our customers to optimize the manufacturing of the customer's asset. This platform produces enzymatically synthesized RNAi sequences, and the conjugation of tissue targeting moieties such as GalNAc, onto an RNA strand (which is a common modification included on RNAi therapeutics to assist with targeted tissue delivery) and to ligate (connect) RNAi sequences together. All of these capabilities are used to create a full-length and completed RNAi therapeutic asset.",
+    "Our goal is to be a value-added technology solutions provider to pharmaceutical innovators. Many of our potential clients seek expertise in areas that they cannot develop on their own, but seek to partner with companies who provide expertise in manufacturing. Through our ECO Synthesis platform, we offer a partnership approach to drug manufacturing. The services we provide include:",
+    "•Method Development and Analytics. Customers require qualified methods to measure and ensure purity of their siRNA construct before going into the clinic.",
+    "•Manufacturing. Process development and optimization are necessary to produce GLP material of a customer's siRNA asset for preclinical testing prior to filing an IND and entering the clinic. We provide these services through our ECO Synthesis Innovation Lab. We are exploring expanding our services to include GMP manufacturing, which would enable us to provide clinical grade material to our clients for at least Phase 1 clinical studies.",
+    "•Ongoing Support. We offer ongoing regulatory and Chemistry, Manufacturing and Controls (\"CMC\") documentation throughout preclinical studies and clinical trials to support our clients' regulatory filings and interactions with the United States Food and Drug Administration (\"FDA\").",
+    "Potential Commercial Opportunity of RNAi Manufacturing"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business and Strategy",
+    "We have a history of net losses and we may not achieve or maintain profitability.",
+    "We believe that our products are exempt from FDCA requirements, but FDA or other regulators may disagree and find that our products are subject to such requirements.",
+    "We are dependent on a limited number of customers.",
+    "If we are unable to develop and commercialize new products for the pharmaceutical and life science tools markets, our business and prospects will be harmed.",
+    "A reduction or delay in government funding of research and development for our customers may adversely affect our business.",
+    "The services and offerings we provide are highly complex, and if we encounter problems providing the services or support required, our business could suffer.",
+    "Any productivity issues or higher-than-expected costs at our facilities could result in material and adverse impacts on our financial condition and results of operations.",
+    "We are dependent on a limited number of third-party contract manufacturers for large scale production of substantially all of our enzymes.",
+    "We are dependent on our collaborators, and our failure to successfully manage these relationships could prevent us from developing and commercializing many of our products and achieving or sustaining profitability.",
+    "Ethical, legal and social concerns about genetically engineered products and processes could limit or prevent the use of our technology, products and processes and limit our revenues.",
+    "As a result of our refined focus on certain programs and business lines, we may fail to capitalize on other opportunities that may be more profitable or for which there is a greater likelihood of success.",
+    "We may receive limited revenue or no future value from certain of our existing license agreements.",
+    "The timing of our customer orders and related product revenue recognition is unpredictable and may cause our operating results to vary significantly from quarter to quarter, which could adversely affect our stock price.",
+    "Our ability to use our net operating loss carryforwards to offset future taxable income may be subject to certain limitations.",
+    "We may need additional capital in the future in order to expand our business.",
+    "If we engage in any acquisitions, we will incur a variety of costs and may potentially face numerous risks that could adversely affect our business and operations.",
+    "Risks Related to Government Regulation"
+   ],
+   "paragraphs": [
+    "You should carefully consider the risks described below together with the other information set forth in this Annual Report on Form 10-K, which could materially affect our business, financial condition or future results. The risks described below are not the only risks facing our company. Risks and uncertainties not currently known to us or that we currently deem to be immaterial also may materially adversely affect our business, financial condition and/or operating results.",
+    "We have incurred net losses since our inception, including losses of $44.0 million, $65.3 million, and $76.2 million for the years ended December 31, 2025, 2024, and 2023, respectively. As of December 31, 2025, we had an accumulated deficit of $606.8 million. If we are unable to continue to successfully develop and commercialize products in our pharma biocatalysis business, increase sales of existing products and services, develop and commercialize our ECO Synthesis manufacturing platform, develop new products or services, or otherwise expand our business, whether through new or expanded collaborations or other products and services, our net losses may increase and we may never achieve profitability. In addition, some of our agreements, including the agreements with GlaxoSmithKline plc (\"GSK\"), Merck Sharp & Dohme (\"Merck\"), Novartis Pharma AG (\"Novartis\"), Nestlé Health Science (\"Nestlé\"), Aldevron LLC, Roche Sequencing Solutions, Inc., Crosswalk Therapeutics and Alphazyme LLC, provide for milestone payments, usage payments, and/or future royalty or other payments, which we will only receive if we and/or our collaborators develop and commercialize products or achieve technical milestones. We also intend to continue to fund the development of additional proprietary performance enzyme products and advance new technologies like our ECO Synthesis manufacturing platform. There can be no assurance that any of these products or services will become commercially viable or that we will ever achieve profitability on a quarterly or annual basis. If we fail to achieve profitability, or if the time required to achieve profitability is longer than we anticipate, we may not be able to continue our business. Even if we do achieve profitability, we may not be able to sustain or increase profitability on a quarterly or annual basis.",
+    "Therapeutics development programs are highly regulated and expensive, and our enzyme products are complex and subject to quality control requirements. The ability of our customers, future customers or collaborators, including any company developing RNAi and other RNA-based therapeutics, to advance product candidates utilizing our products to clinical trials and to ultimately receive regulatory approvals is highly uncertain.",
+    "We develop enzyme products, including our ECO Synthesis manufacturing platform, that are used by our customers, and that may be used by our future customers or collaborators in connection with their biotherapeutic product candidates. The successful development of biotherapeutic candidates involves many risks and uncertainties, requires long timelines and may lead to uncertain results.",
+    "Our customers are subject to extensive regulations by the FDA and similar regulatory authorities in other countries for conducting clinical trials and commercializing products for therapeutic, vaccine or diagnostic use. These regulations result in our customers imposing quality requirements on us for the manufacture of our enzyme products through supplier qualification processes and customer contracts and specifications.",
+    "To market a biologic or drug product in the United States, our customers, future customers or collaborators must undergo the following process required by the FDA:"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Business Overview",
+    "Financing Activities",
+    "Year Ended December 31, % of Total Revenues",
+    "Costs and operating expenses:",
+    "Year Ended December 31, 2025 2024",
+    "Costs and Operating Expenses (in thousands, except percentages):",
+    "Costs of Product Revenue and Product Gross Margin",
+    "December 31, Change Year Ended",
+    "December 31, Change",
+    "Research and Development Expenses",
+    "Selling, General and Administrative Expenses",
+    "Restructuring Charges",
+    "Asset Impairment and Other Charges",
+    "Interest Income and Interest and Other Expense, net (in thousands, except percentages):",
+    "Interest Income",
+    "Interest and Other Expense, net",
+    "Provision for Income Taxes (in thousands, except percentages):",
+    "December 31,",
+    "Sources of Capital",
+    "Loan Agreement and Term Loans",
+    "Sales Agreements",
+    "Year Ended December 31,",
+    "Cash Flows from Operating Activities",
+    "Cash Flows from Investing Activities",
+    "Cash Flows from Financing Activities",
+    "Revenue Recognition",
+    "Product Revenue",
+    "Research and Development Revenue",
+    "Impairment of Long-Lived Assets",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "We are a leading provider of technology solutions to improve therapeutics manufacturing. We focus on impacting the manufacturing process by using our proprietary CodeEvolver directed evolution technology platform to discover, develop, enhance, and commercialize novel, high-performance enzymes and other classes of proteins. Enzymes are naturally occurring biological molecules critical to almost all biochemical reactions. They can be precisely engineered and optimized for specific functions, and to have particular characteristics, such as an ability to survive environments in which natural enzymes cannot, or to perform (bio)chemical transformations that are different than those for which they naturally evolved. We employ our technology and expertise to enhance the properties and performance of enzymes to drive pivotal improvements in manufacturing of complex therapeutics across two key areas:",
+    "Our ECO Synthesis® manufacturing platform is comprised of enzymatic tools and processes that are designed to enable large-scale manufacture of RNA interference (\"RNAi\") therapeutics. We use the CodeEvolver platform technology to develop enzymes for the synthesis of RNAi therapeutics in production processes that deliver improvements, including purity, yield, and manufacturing efficiency. In November 2024, we presented data at the TIDES Europe conference demonstrating the successful end-to-end enzymatic synthesis of an entire commercially approved small interfering ribonucleic acid (\"siRNA\") therapeutic asset with the ECO Synthesis manufacturing platform. In addition to using full enzymatic sequential synthesis, adding one nucleotide at a time to synthesize the two strands from beginning to end, we demonstrated synthesis of the same siRNA asset using three other routes utilizing enzymatic ligation with our double-stranded RNA (\"dsRNA\") ligase, which can stitch together fragments of chemically and/or enzymatically synthesized RNA to form the full siRNA drug structure. For the three other routes, our data highlighted that full-length oligonucleotides of equal quality and yields were obtained whether the fragments were made with enzymes or by traditional solid phase oligonucleotide synthesis (\"SPOS\") (current standard production route for oligonucleotide manufacturing). At the end of 2024, we completed the build out of our ECO Synthesis Innovation Lab, a facility where our ECO Synthesis manufacturing platform is deployed to synthesize gram-scale quantities of a customer's desired siRNA construct suitable for pre-clinical testing. In addition, the infrastructure allows us to provide process development, analytical method development and other manufacturing process optimization which is required to enable the siRNA to proceed to clinical-stage manufacturing and testing. In 2025, we successfully manufactured non-good manufacturing practice (\"GMP\")-grade siRNA drug substance for customers in our Innovation Lab under development services contracts. We also entered into partnerships with three large-scale contract development and manufacturing organizations (\"CDMOs\") to evaluate our ECO platform of enzymatic tools and processes to ultimately synthesize GMP-grade siRNA drug substance for our customers. In each of these agreements, we are currently in the feasibility testing stage and expect to advance at least one of these partnerships, including initiating a technology transfer to that organization, in 2026. We believe these relationships to be a vital extension of our strategy to be a technology solutions provider for our customers. Through these arrangements, our customers will have access to proven, large-scale commercial manufacturers who are familiar with our process, who can then offer a seamless manufacturing scale-up of our customers' products. We expect to expand our enzymatic tools and process offerings as we further enhance the ECO Synthesis platform to address the overall market needs for scalable and sustainable RNAi manufacturing.",
+    "In our small molecule pharma biocatalysis business, we utilize our CodeEvolver technology platform to develop optimized enzymes that are used by some of the world's largest pharmaceutical companies to improve the efficiency and productivity of their manufacturing processes for small molecule therapeutics. Our unique enzymes drive improvements such as higher yields, increased purity, reduced energy usage and waste generation, all of which lead to improved efficiency and reduced costs in small-molecule manufacturing."
+   ],
+   "focus": "Business Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'History and Core Technology': '歷史與核心技術'}",
+    "{'Key Strategic Focus Areas': '關鍵戰略重點領域'}",
+    "{'ECO Synthesis Manufacturing Platform': 'ECO 合成製造平台'}",
+    "{'Pharma Biocatalysis': '藥物生物催化'}",
+    "{'Other Differentiated Enzymes': '其他差異化酵素'}",
+    "{'Biotherapeutics Divestitures': '生物製藥資產處置'}",
+    "{'ECO Synthesis Manufacturing Platform for RNAi Therapeutics': '用於 RNAi 療法的 ECO 合成製造平台'}",
+    "{'Core Technology': '核心技術'}",
+    "環境、健康與安全規範",
+    "資料隱私權與安全法規",
+    "薪酬、福利與發展",
+    "多元、公平與包容",
+    "健康與安全"
+   ],
+   "paragraphs": [
+    "本公司為提供科技解決方案的領導廠商，用以改善製藥製造流程。我們專注於透過我們專有的 CodeEvolver® 專利技術平台，發現、開發、增強與商業化新型、高性能的酵素及其他類別的蛋白質。酵素為自然產生的生物分子，對幾乎所有生化反應至關重要。它們可以被精確工程化與最佳化，以執行特定功能，並具備特定特性，例如能在自然酵素無法生存的環境中存活，或執行與其自然演化不同之 (生化) 轉變。我們運用我們的技術與專業知識，以增強酵素的特性與性能，進而驅動製造複雜製藥產品的關鍵改善，主要在兩個關鍵領域：我們的 ECO 合成製造平台與我們的小分子藥物生物催化業務。",
+    "我們的 ECO Synthesis® 製造平台包含設計用以實現大規模製造 RNA 幹擾 (\"RNAi\") 製藥的酵素工具與製程。我們使用 CodeEvolver 平台技術，開發用於 RNAi 製藥合成的酵素，在製造流程中實現純度、產率與製造效率的改善。2024 年 11 月，我們在 TIDES Europe 會議上展示資料，證明使用 ECO Synthesis 製造平台成功實現整體已核准的小分子幹擾核糖核酸 (\"siRNA\") 製藥資產的酵素合成。除了使用完整的酵素連續合成，每次加入一個核苷酸以從頭至尾合成兩條單鏈外，我們也展示使用三種其他路徑，利用我們的雙鏈核糖核酸 (\"dsRNA\") 酶連接酶，將化學與/或酵素合成的 RNA 片段連接起來，形成完整的 siRNA 藥物結構。對於這三種其他路徑，我們的資料顯示，無論片段是使用酵素或傳統固相寡核苷酸合成 (\"SPOS\") (目前寡核苷酸製造的標準生產路徑) 來製造，均可獲得相同品質與產率的完整寡核苷酸。2024 年底，我們完成 ECO Synthesis 創新實驗室的建設，該設施用以部署 ECO Synthesis 製造平台，合成客戶所需的 siRNA 結構，適合進行臨牀前測試。此外，該設施也允許我們提供製程開發、分析方法開發及其他製造流程最佳化，以實現 siRNA 進行臨牀階段製造與測試。2025 年，我們在創新實驗室的開發服務合約下，成功製造非良好製造實踐 (\"GMP\") 等級的 siRNA 藥物原料，供客戶使用。我們也與三家大型合同開發與製造組織 (\"CDMOs\") 籤訂合作，評估我們的 ECO 平台酵素工具與製程，以最終為客戶製造 GMP 等級的 siRNA 藥物原料。在這些協議中，我們目前處於可行性測試階段，預期在 2026 年至少推進其中一項合作，包括啟動技術轉移至該組織。我們認為這些關係是我們成為客戶科技解決方案供應商策略的重要延續。透過這些安排，客戶將有機會接觸到熟悉我們製程的已證明的大型商業製造商，並能提供客戶產品的順暢製造規模擴張。我們預期會隨著進一步增強 ECO Synthesis 平台，擴展我們的酵素工具與製程服務，以應對 RNAi 製造的可擴展與可持續性市場需求。",
+    "在小分子藥物生物催化業務中，我們利用 CodeEvolver 技術平台開發優化酵素，這些酵素被一些全球最大的製藥公司用來改善其小分子製藥製造流程的效率與生產力。我們獨特的酵素驅動改善，例如更高的產率、更高的純度、減少能源使用與廢棄物產生，所有這些都導致小分子製造的效率提升與成本降低。",
+    "我們是利用計算技術推動生物學進展的先驅。自 2002 年以來，我們已投入大量資源發展我們的專有 CodeEvolver 技術平台，這是我們業務的主要競爭優勢來源。CodeEvolver 技術平台有足夠的潛力來改變酵素的表現，使其適應特定應用與/或製程。透過強大的機器學習工具與複雜的分子、細胞與生物分析工作流程，我們可以設計與篩選數千種變體的庫。在真實世界條件下篩選的內容豐富的庫可以產生密集且有價值的數據集，當這些數據被挖掘時，可以同時優化多個參數。產生的進化變體通常具備增強的特性，例如在所需條件下增加的活性、特異性與穩定性，以及在生產宿主中的製造性提升。這些增強的特性在目標應用中提供差異化的技術表現，並能為客戶在產品商業部署中提供更高的價值。",
+    "Codexis 的一個關鍵戰略優先事項是推動與商業化我們的 ECO Synthesis 製造平台，該平台設計用以實現 RNAi 製藥的商業規模製造。截至 2025 年 12 月 31 日，美國市場上有八種已核准的 siRNA 製藥，主要針對罕見疾病適應症。然而，有數百種 RNAi 製藥資產正在開發中，包括 41 種處於 Phase 2 和 Phase 3 臨牀試驗階段的資產。隨著我們進入 2026 年，RNAi 開發路線正在從罕見疾病轉向高發病率疾病，例如阿爾茨海默症、高血脂和高血壓。我們預期隨著 RNAi 製藥資產通過臨牀開發並獲得商業核准，全球對 RNAi 製藥的需求將顯著增長。",
+    "目前製造 RNAi 製藥的行業標準是一種已建立的化學方法 SPOS，利用磷醯胺酸化學。這種方法已存在超過四十年，並在臨牀開發的發現階段所需的中小型製造中有效運作。然而，在 RNAi 製藥的商業規模製造中，SPOS 和磷醯胺酸化學面臨多種限制。這種方法將需要大量基礎設施和資本投資，以應對未來對 RNAi 製藥需求的預期增長。SPOS 和磷醯胺酸化學目前也僅限於單位數公斤的合成批次規模，並在品質控制與可擴展性方面存在挑戰。此外，化學合成需要大量乙腈，一種高度易燃的有機溶劑，具有高廢棄處理成本，以促進產生 RNAi 製藥所需的反應環境。隨著更多 RNAi 製藥候選藥物獲得高發病率疾病適應症的核准，我們認為使用傳統 SPOS 和磷醯胺酸化學合成進行商業規模生產將變得成本高昂、耗時且對許多藥物開發者來說具有挑戰性，以生產足夠的藥物原料來應對這些更大的患者羣體。",
+    "我們認為 ECO Synthesis 製造平台能提供幾個優勢，以潛在解決 SPOS 和磷醯胺酸化學的限制。我們的平台可以整合在現有製造設施中，並使用目前產業中現有的設備，潛在地消除 SPOS 和磷醯胺酸化學所需的大部分基礎設施投資。ECO Synthesis 不受 SPOS 的相同製程限制，並根據設計，有潛力在每次運行中製造數十至百公斤的高純度 RNA，並透過封閉式系統提高體積反應劑效率，以實現大規模批次合成。最後，我們的製程為水基，減少對大量乙腈的需求，顯著減少化學廢棄物流，並降低重複處理與純化成本。",
+    "我們在 2024 年底完成了 ECO Synthesis 創新實驗室的建設。該設施允許我們在完成技術轉移至 CDMO 合作夥伴以進行 GMP 等級藥物原料的生產，供客戶臨牀試驗與最終商業化之前，優化客戶特定 siRNA 資產的製造流程。該設施也設計用以製造足夠數量的非 GMP 等級 RNAi 製藥材料，以支持客戶的臨牀前開發。",
+    "ECO Synthesis製造平台為一套酵素工具與製程，用以製造siRNA。透過此平台，我們與客戶合作以優化客戶資產的製造。此平台可製造酵素合成的RNAi序列，並將組織標的物質如GalNAc，接合至RNA鏈上（此為RNAi治療藥物常見的修飾，用以協助目標組織的遞送），並連接（連結）RNAi序列。所有這些能力皆用以製造完整且完成的RNAi治療藥物資產。",
+    "我們的目標是成為為藥物創新者提供價值加成的科技解決方案供應商。許多潛在客戶尋求在某些領域的專業知識，而這些領域他們無法自行發展，但希望與提供製造專業知識的公司合作。透過ECO Synthesis平台，我們提供藥物製造的合作模式。我們所提供的服務包括：",
+    "•方法開發與分析。客戶需要經過認證的方法，以測量並確保其siRNA構造在進入臨牀前的純度。",
+    "•製造。製程開發與優化為製造客戶siRNA資產的GLP材料，以進行臨牀前試驗，並在提交IND申請及進入臨牀前所必需。我們透過ECO Synthesis創新實驗室提供這些服務。我們正在探討擴展服務範疇至包含GMP製造，這將使我們能為客戶提供臨牀級材料，至少用於第一期臨牀試驗。",
+    "•持續支援。我們提供持續的法規與化學、製造與管制（\"CMC\"）文件，以支援客戶在臨牀前研究與臨牀試驗中的法規申請及與美國食品藥物管理局（\"FDA\"）的互動。",
+    "RNAi製造的潛在商業機會"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "業務概覽",
+    "資金活動",
+    "截至12月31日，佔總營業收入百分比",
+    "成本及營運費用:",
+    "截至12月31日，2025年 2024年",
+    "成本及營運費用（單位為千美元，除百分比外）:",
+    "產品收入成本及產品毛利率",
+    "12月31日，變動 截至12月31日",
+    "12月31日，變動",
+    "研究與發展費用",
+    "營銷、一般及行政費用",
+    "重整費用",
+    "資產減損及其他費用",
+    "利息收入及利息及其他費用，淨額（以千美元為單位，除百分比外）：",
+    "利息收入",
+    "利息及其他費用，淨額",
+    "所得稅費用（單位為千美元，除百分比外）：",
+    "12月31日，",
+    "資金來源",
+    "貸款協議及定期貸款",
+    "銷售協議",
+    "截至12月31日年度",
+    "營運活動之現金流",
+    "投資活動之現金流",
+    "籌資活動產生之現金流",
+    "收入認列",
+    "產品收入",
+    "研究與發展收入",
+    "長期資產減損",
+    "最近會計準則更新"
+   ],
+   "paragraphs": [
+    "本公司為提供技術解決方案的領導廠商，用以改善製藥製造。我們專注於透過我們專有的 CodeEvolver 導向進化技術平台，來發現、開發、增強及商業化新型、高性能的酵素及其他類別的蛋白質。酵素為自然產生的生物分子，對幾乎所有生化反應至關重要。它們可以被精確工程化並優化以執行特定功能，並具有特定特性，例如能在自然酵素無法生存的環境中存活，或執行與其自然進化不同之 (生化) 轉換。我們運用我們的技術與專業知識，來增強酵素的特性與性能，以驅動製造複雜製藥產品的關鍵改進，跨越兩個關鍵領域：",
+    "我們的 ECO Synthesis® 製造平台包含酵素工具與流程，設計用以實現 RNA 幹擾 (\"RNAi\") 製藥的大量製造。我們使用 CodeEvolver 平台技術來開發酵素，用於 RNAi 製藥的生產流程，以實現純度、產率與製造效率的改進。2024 年 11 月，我們在 TIDES Europe 會議上展示數據，證明使用 ECO Synthesis 製造平台成功實現整體已核准商業應用的小幹擾核糖核酸 (\"siRNA\") 製藥資產的酵素合成。除了使用完整的酵素連續合成，每次加入一個核苷酸以從頭至尾合成兩條單鏈外，我們也展示使用三種其他路徑，利用我們的雙股核糖核酸 (\"dsRNA\") 酶連接酶，將化學及/或酵素合成的 RNA 片段連接起來，形成完整的 siRNA 藥物結構。對於這三種其他路徑，我們的數據顯示，無論片段是使用酵素或傳統固相寡核苷酸合成 (\"SPOS\") (目前寡核苷酸製造的標準生產路徑) 來製造，均能獲得相同品質與產率的完整寡核苷酸。2024 年底，我們完成 ECO Synthesis 創新實驗室的建設，這是一個設施，用以部署 ECO Synthesis 製造平台，合成客戶所需的 siRNA 結構，適合進行預臨牀測試。此外，該設施也允許我們提供製程開發、分析方法開發及其他製造流程優化，以實現 siRNA 進行臨牀階段製造與測試。2025 年，我們在創新實驗室的開發服務合約下，成功製造出非良好製造實踐 (\"GMP\") 等級的 siRNA 藥物原料，供客戶使用。我們也與三家大型合同開發與製造組織 (\"CDMOs\") 籤訂合作，評估我們的 ECO 平台酵素工具與流程，最終為客戶合成 GMP 等級的 siRNA 藥物原料。在這些協議中，我們目前處於可行性測試階段，預期在 2026 年至少推進其中一項合作，包括啟動技術轉移至該組織。我們認為這些關係是我們成為客戶技術解決方案供應商策略的重要延伸。透過這些安排，客戶將能獲得熟悉我們流程的已證明的大型商業製造商，他們可以為客戶的產品提供順暢的製造規模擴張。我們預期會隨著進一步增強 ECO Synthesis 平台，擴展我們的酵素工具與流程，以應對 RNAi 製造整體市場對可擴展且可持續製造的總體需求。",
+    "在小分子藥物生物催化業務中，我們利用 CodeEvolver 技術平台開發優化酵素，這些酵素被一些全球最大的藥物製造公司使用，以提高其小分子製藥製造流程的效率與生產力。我們獨特的酵素驅動改進，例如更高的產率、更高的純度、減少的能源使用與廢棄物產生，所有這些都導致小分子製造的效率提高與成本降低。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務及策略相關的風險",
+    "本公司有淨虧損的歷史，且可能無法達成或維持獲利。",
+    "本公司認為本公司產品不受FDCA規範要求的限制，但FDA或其他監管機構可能不同意，並認為本公司產品應受此等規範要求的限制。",
+    "本公司依賴有限數量的客戶。",
+    "若本公司無法開發並商品化用於藥物及生命科學工具市場的新產品，將對本公司業務及前景造成損害。",
+    "政府對本公司客戶的研究與開發經費減少或延遲，可能對本公司業務造成不利影響。",
+    "本公司所提供的服務及產品具有高度複雜性，若本公司在提供所需服務或支援時遇到問題，將可能對本公司業務造成影響。",
+    "本公司廠區若出現生產力問題或高於預期的成本，可能對本公司財務狀況及營運成果造成重大且不利的影響。",
+    "本公司對少數第三方製造商依賴程度高，這些製造商負責我們大部分酵素的大量生產。",
+    "本公司對合作夥伴依賴程度高，若無法成功管理這些關係，將可能無法開發與商業化許多產品，並達成或維持獲利。",
+    "關於基因工程產品與製程的倫理、法律與社會議題，可能限制或阻止本公司技術、產品與製程的使用，進而限制本公司收入。",
+    "由於本公司對特定計畫與業務線進行精緻化聚焦，可能無法把握其他可能更獲利或成功機率更高的機會。",
+    "本公司可能從現有授權協議中獲得有限收入或未來價值為零。",
+    "客戶訂單時間與相關產品收入認列的時點難以預測，可能導致營運成果在季度間大幅波動，進而對本公司股票價格產生負面影響。",
+    "本公司利用淨營業虧損結轉抵減未來應稅所得的能力，可能受到某些限制。",
+    "本公司未來可能需要額外資金以擴展業務。",
+    "{'translated_text': '若本公司進行任何併購，將會產生多種成本，並可能面臨許多風險，這些風險可能對本公司業務及營運產生不利影響。', 'original_text': 'If we engage in any acquisitions, we will incur a variety of costs and may potentially face numerous risks that could adversely affect our business and operations.'}",
+    "{'translated_text': '與政府規範相關的風險', 'original_text': 'Risks Related to Government Regulation'}"
+   ],
+   "paragraphs": [
+    "您應仔細審閱下列所列風險，並與本年度10-K表報表中其他資訊一併考量，這些風險可能對我們的業務、財務狀況或未來結果造成重大影響。下列所列風險並非我們公司所面臨的唯一風險。尚有其他風險與不確定性，目前我們尚未知悉，或目前認為不重要，也可能對我們的業務、財務狀況及/或營運結果造成重大不利影響。",
+    "本公司自設立以來已產生淨虧損，包括2025年12月31日財務年度、2024年12月31日財務年度及2023年12月31日財務年度分別產生44.0 百萬美元、65.3 百萬美元及76.2 百萬美元的虧損。截至2025年12月31日，本公司累計虧損為606.8 百萬美元。若本公司無法持續成功開發並商業化本公司在生醫催化業務的產品、增加現有產品及服務的銷售、開發並商業化本公司ECO Synthesis製造平台、開發新產品或服務，或透過新合作或擴展合作關係或其他產品及服務來擴展業務，本公司淨虧損可能增加，且本公司可能永遠無法實現獲利。此外，部分本公司契約，包括與GlaxoSmithKline plc（\"GSK\"）、Merck Sharp & Dohme（\"Merck\"）、Novartis Pharma AG（\"Novartis\"）、Nestlé Health Science（\"Nestlé\"）、Aldevron LLC、Roche Sequencing Solutions, Inc.、Crosswalk Therapeutics及Alphazyme LLC的契約，規定若本公司及/或合作夥伴開發並商業化產品或達成技術里程碑，本公司將獲得里程碑付款、使用費及/或未來版稅或其他付款。本公司亦有意持續資金開發更多專屬性能酵素產品，並推進新技術，如本公司ECO Synthesis製造平台。無法保證任何這些產品或服務會成為商業可行，或本公司會在每季或每年度實現獲利。若本公司無法實現獲利，或實現獲利所需時間長於預期，本公司可能無法持續營運。即使本公司實現獲利，也可能無法維持或增加每季或每年度的獲利。",
+    "治療性藥物開發計畫受到高度規範且費用高昂，我們的酵素產品複雜且需符合品質控制要求。我們的客戶、未來客戶或合作夥伴，包括任何開發RNAi及其他RNA基治療性藥物的公司，要將使用我們產品的產品候選藥物推進臨牀試驗並最終獲得監管批准，其可能性極為不確定。",
+    "我們開發酵素產品，包括我們的ECO Synthesis製造平台，這些產品被我們的客戶使用，也可能被我們的未來客戶或合作夥伴用於其生物治療性產品候選藥物的開發。生物治療性產品候選藥物的開發涉及許多風險與不確定性，需要長時間的開發週期，並可能導致不確定的結果。",
+    "我們的客戶受到美國食品藥物管理局（FDA）及其他國家類似監管機構對進行臨牀試驗及商業化用於治療、疫苗或診斷用途的產品的嚴格規範。這些規範導致我們的客戶對我們製造酵素產品的品質要求，透過供應商認證程序及客戶契約與規格來施加。",
+    "要在美國市場銷售生物製品或藥物產品，我們的客戶、未來客戶或合作夥伴必須經歷美國食品藥物管理局（FDA）所要求的以下程序："
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

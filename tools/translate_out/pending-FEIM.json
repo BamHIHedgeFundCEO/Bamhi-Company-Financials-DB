@@ -1,0 +1,179 @@
+{
+ "ticker": "FEIM",
+ "cik": "0000039020",
+ "accession": "0001185185-26-002997",
+ "form": "10-K",
+ "reportDate": "2026-04-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "FEI-Zyfer – Precision time references for terrestrial secure communications and command and control, and frequency",
+    "Government- Non-space"
+   ],
+   "paragraphs": [
+    "Electronics, Inc. (sometimes referred to as \"Registrant\", \"Frequency Electronics\" or the \"Company\")",
+    "is a world leader in precision time and frequency generation technology, which is incorporated into commercial and U.S. Government satellites,",
+    "Command, Control, Communication, Computer, Intelligence, Surveillance and Reconnaissance (\"C4ISR\"), and Electronic Warfare",
+    "(\"EW\") systems. Its technology is used for a wide range of space and non-space applications.",
+    "the context indicates otherwise, references to the Registrant, Frequency Electronics or the Company are to Frequency Electronics, Inc.",
+    "and its subsidiaries. References to \"FEI\" are to the parent company alone and do not refer to any of the subsidiaries. Frequency",
+    "Electronics, a Delaware corporation, has its principal executive office at 55 Charles Lindbergh Boulevard, Mitchel Field, New York 11553.",
+    "Its telephone number is 516-794-4500 and its website is www.frequencyelectronics.com. Frequency",
+    "Electronics was founded in 1961 as a research and development firm generating proprietary precision time and frequency technology primarily",
+    "under contracts for end-use by the United States (\"U.S.\") Government. In the mid-1990's, the Company evolved into a",
+    "designer, developer and manufacturer of state-of-the-art products for both commercial and government end-use. The Company's present",
+    "mission is to be the world leader in providing precision time and low phase noise frequency generation systems, from 1 Hz to 46 GHz for",
+    "space and other challenging environments. The Company's technology is the key element in enhancing the functionality and performance",
+    "of many electronic systems. CORPORATE STRUCTURE AND RESTRUCTURING On April 30, 2026, FEI-Elcom"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Related to Business Operations and Our Industry",
+    "position, results of operations and/or cash flows.",
+    "and our overall financial position.",
+    "of such competition, our business, financial position, results of operations and/or cash flows could be adversely affected.",
+    "expertise. Any defect in the design, materials or workmanship with respect to our product could result in system failure.",
+    "our financial position, results of operations and/or cash flows could be materially adversely affected.",
+    "changes in global economic or geopolitical conditions may adversely affect business operations and financial condition.",
+    "financial position, results of operations and/or cash flows.",
+    "business could be adversely impacted by various external disruptions.",
+    "Noncompliance",
+    "on its financial position, operations and liquidity.",
+    "Related to Legal, Regulatory and Compliance Matters",
+    "failure to comply with laws, regulations and/or terms we are subject to could adversely affect our business.",
+    "be resolved against us.",
+    "Related to Information Technology and Intellectual Property",
+    "business could be adversely impacted by significant cybersecurity attacks.",
+    "alternate designs.",
+    "Related to Our Common Stock",
+    "stock price may continue to be volatile.",
+    "significant existing stockholders sell large numbers of shares of our common stock, our common stock price could decline."
+   ],
+   "paragraphs": [
+    "rely heavily on U.S. Government programs for a substantial portion of our business. Accordingly, changes in U.S. Government priorities",
+    "or delays or reductions in spending by the U.S. Government on such programs could have a material adverse effect on our business, financial",
+    "as a prime contractor or as a subcontractor, we rely heavily on U.S. Government programs, from which we derived approximately 91% and",
+    "94% of our sales in fiscal year 2026 and fiscal year 2025, respectively. These U.S Government programs may be only partially or incrementally",
+    "funded and are subject to potential termination. These programs may also be subject to funding reductions and/or delays due to changes",
+    "in government priorities or other factors. Whether direct contracts with the U.S. Government or contracts with prime contractors to the"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Harbor\" Statement under the Private Securities Litigation Reform Act of 1995:",
+    "Accounting Estimates",
+    "Consolidated",
+    "Fiscal Years Ended April 30,",
+    "(in thousands)",
+    "and Administrative Expenses",
+    "and Development Expenses",
+    "(loss) income"
+   ],
+   "paragraphs": [
+    "statements in this Annual Report on Form 10-K regarding future earnings and operations and other statements relating to the future",
+    "constitute \"forward-looking\" statements pursuant to the safe harbor provisions of the Private Securities Litigation",
+    "Reform Act of 1995. Forward-looking statements inherently involve risks and uncertainties that could cause actual results to",
+    "differ materially from the forward-looking statements. Factors that would cause or contribute to such differences include, but",
+    "are not limited to, the risks associated with reliance on key customers, including the U.S. government, the Company's use of",
+    "estimates when accounting for contracts, actions by significant customers or competitors, competitive factors, new products and",
+    "technological changes, continued acceptance of the Company's products in the marketplace, dependence upon third-party vendors,",
+    "product prices and raw material costs, the Company's ability to attract and retain key employees, general domestic and",
+    "international economic conditions, health epidemics and pandemics, external disruptions to the Company's facilities or supply",
+    "chain, the Company's operations in a highly regulated industry, the outcome of any litigation and arbitration proceedings,",
+    "cybersecurity attacks, noncompliance with any of the covenants in the Credit Agreement, volatility in the Company's stock",
+    "price, including due to the relatively low trading volume of its common stock, and failure to maintain an effective system of",
+    "internal controls over financial reporting. The factors listed above are not exhaustive. Other sections of this Form 10-K",
+    "include additional factors that could materially and adversely impact the Company's business, financial condition and results"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'original': 'FEI-Zyfer – Precision time references for terrestrial secure communications and command and control, and frequency', 'translated': 'FEI-Zyfer – 精確時間參考用於地面安全通訊及指揮與控制，以及頻率'}",
+    "{'original': 'Government- Non-space', 'translated': '政府- 非空格'}"
+   ],
+   "paragraphs": [
+    "電子產品股份有限公司（有時簡稱為 \"Registrant\"、\"Frequency Electronics\" 或本公司）",
+    "為全球在精準時間與頻率產生技術領域的領導者，該技術被整合至商業與美國政府的衛星系統中，",
+    "Command, Control, Communication, Computer, Intelligence, Surveillance and Reconnaissance（\"C4ISR\"）及電子戰（\"EW\"）系統。其技術應用於廣泛的太空與非太空領域。",
+    "（\"EW\"）系統。其技術應用於廣泛的太空與非太空領域。",
+    "{'original': 'the context indicates otherwise, references to the Registrant, Frequency Electronics or the Company are to Frequency Electronics, Inc.', 'translated': '除非文義另有明確指示，提及 registrant、Frequency Electronics 或 the Company 時，均指 Frequency Electronics, Inc.'}",
+    "{'original': 'and its subsidiaries. References to \"FEI\" are to the parent company alone and do not refer to any of the subsidiaries. Frequency', 'translated': '及其子公司。提及 \"FEI\" 時，僅指母公司，不包含任何子公司。Frequency'}",
+    "電子產品，一家德拉瓦州公司，其主要營運辦公室位於55 Charles Lindbergh Boulevard, Mitchel Field, New York 11553。",
+    "其電話號碼為516-794-4500，其網站為www.frequencyelectronics.com。Frequency",
+    "{'Electronics was founded in 1961 as a research and development firm generating proprietary precision time and frequency technology primarily': '電子產品於1961年成立，為一家研究與開發公司，主要產生專屬的高精度時間與頻率技術'}",
+    "依約提供美國（\"U.S.\")政府終端使用。在1990年代中期，本公司已發展成為",
+    "商業與政府終端使用之先進產品設計者、開發者與製造商。本公司的現況",
+    "{'mission is to be the world leader in providing precision time and low phase noise frequency generation systems, from 1 Hz to 46 GHz for': '本公司之使命為成為提供精準時間與低相位雜訊頻率產生系統的全球領導者，從 1 Hz 至 46 GHz 之範圍'}",
+    "{\"space and other challenging environments. The Company's technology is the key element in enhancing the functionality and performance\": '太空及其他具有挑戰性的環境。本公司之技術為提升功能與性能之關鍵要素。'}",
+    "{'original': 'of many electronic systems. CORPORATE STRUCTURE AND RESTRUCTURING On April 30, 2026, FEI-Elcom', 'translated': '許多電子系統。公司組織結構與重整 2026 年 4 月 30 日，FEI-Elcom'}"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "Harbor\" 根據 1995 年私人證券訴訟改革法案所作出的聲明:",
+    "會計估計",
+    "合併",
+    "會計年度截止至 4 月 30 日",
+    "(以千為單位)",
+    "及行政費用",
+    "及研發費用",
+    "(虧損) 收入"
+   ],
+   "paragraphs": [
+    "本年度報告書第 10-K 表態中關於未來獲利與營運及其他與未來相關之陳述",
+    "屬「預測性」陳述，依 1995 年私人證券訴訟改革法案之避風港條款所定義",
+    "1995 年改革法案。展望性陳述 inherently 涉及風險與不確定性，這些風險與不確定性可能導致實際結果",
+    "導致或促成上述差異之因素包括，但不僅限於",
+    "不限於依賴主要客戶所涉及的風險，包括美國政府，本公司在合規會計合約時使用",
+    "估計數字、重大客戶或競爭對手的行動、競爭因素、新產品和",
+    "科技變革、本公司產品在市場上的持續接受度、依賴第三方供應商、",
+    "產品價格與原物料成本、本公司吸引並留住關鍵員工的能力、國內總體經濟及",
+    "國際經濟情勢、健康疫情與大流行病、對本公司設施或供應鏈的外部幹擾",
+    "本公司在高度管制產業的營運、任何訴訟及仲裁程序的結果，",
+    "網路安全攻擊、未遵守信用協議中的任何契約條款、本公司股票的波動性",
+    "價格，包括因本公司普通股交易量相對較低，以及未能維持有效的財務報導內部控製系統。上述因素並非 exhaustive。本 Form 10-K 的其他部分",
+    "包含其他可能對本公司業務、財務狀況及營運成果產生重大且不利影響的因素",
+    "包含其他可能對本公司業務、財務狀況及營運成果產生重大且不利影響的因素"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與營運及產業相關",
+    "營運地位、營運成果及/或現金流。",
+    "以及本公司整體財務地位。",
+    "與競爭情形有關，本公司營運、財務地位、營運成果及/或現金流可能受到不利影響。",
+    "專業知識。若本公司產品在設計、材料或製造工藝方面存在缺陷，可能導致系統故障。",
+    "本公司財務地位、營運成果及/或現金流可能受到重大不利影響。",
+    "全球經濟或地緣政治條件的變化可能對營運及財務狀況造成不利影響。",
+    "財務地位、營運成果及/或現金流。",
+    "營業可能因各種外部幹擾而受到不利影響。",
+    "違規",
+    "對其財務狀況、營運及流動性產生不利影響。",
+    "與法律、法規及合規事項相關",
+    "未能遵守法律、法規及/或我們所受約束條款，可能對我們的業務產生不利影響。",
+    "可能對我們不利。",
+    "與資訊科技及智慧財產權相關",
+    "營業可能因重大網路安全攻擊而受到不利影響。",
+    "替代設計。",
+    "與我們的普通股相關",
+    "股票價格可能持續波動。",
+    "重大現有股東出售大量我們普通股股份，我們的普通股價格可能會下跌。"
+   ],
+   "paragraphs": [
+    "本公司嚴重依賴美國政府計畫，佔營業收入相當大一部分。因此，美國政府對這些計畫的優先順序改變",
+    "或延遲或減少支出，可能對本公司業務及財務",
+    "作為主要承包商或次承包商，本公司嚴重依賴美國政府計畫，這些計畫為本公司在財務年報2026年及財務年報2025年分別帶來約91%及",
+    "94% of our sales in fiscal year 2026 and fiscal year 2025, respectively. These U.S Government programs may be only partially or incrementally",
+    "經費補助，且可能因潛在終止而受影響。這些計畫也可能因政府優先順序改變或其他因素而面臨經費減少及/或延遲。",
+    "無論是與美國政府的直接契約，或是與主要承包商的契約以執行"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

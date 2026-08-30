@@ -1,0 +1,137 @@
+{
+ "ticker": "CMT",
+ "cik": "0001026655",
+ "accession": "0001026655-26-000009",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Sheet Molding Compound (\"SMC\")",
+    "Molded Products",
+    "Assembly, Machining, and Paint Products",
+    "2025 2024 2023 Supply Agreement Supply Agreement Expiration",
+    "Plant Location Union Name Expiration Date Employees"
+   ],
+   "paragraphs": [
+    "DESCRIPTION OF BUSINESS OF CORE MOLDING TECHNOLOGIES, INC.",
+    "Core Molding Technologies, Inc. (the \"Company\") and its subsidiaries operate in the engineered materials market as one operating segment as a molder of thermoplastic and thermoset structural products. The Company produces and sells molded products for varied markets, including medium and heavy-duty trucks, power sports, building products and other industrial markets. Core Molding Technologies has its headquarters in Columbus, Ohio, and operates six production facilities in the United States, Canada and Mexico.",
+    "In general, the Company achieves product growth and diversification in several different ways, including: (1) resourcing of existing structural products from another supplier by an original equipment manufacturer (\"OEM\"); (2) obtaining new structural products through a selection process in which an OEM solicits bids; (3) successful marketing of structural products for previously non-structural applications; (4) successful marketing of structural products to OEMs outside of our traditional markets; (5) developing of new materials, technology and processes to meet current or prospective customer requirements; (6) converting alternative materials to engineered materials; (7) expanding its business through the direct sale of engineered materials, including Sheet Molding Compound (\"SMC\"); and (8) acquiring an existing business. The Company's efforts continue to be directed towards all seven of those identified areas.",
+    "Structural plastics compete largely against metals and have the strength to function well during prolonged use. Management believes that structural plastic components offer many advantages over metals, including:",
+    "•heat resistance; •corrosion resistance; •lighter weight; •lower cost; •greater flexibility in product design;",
+    "•part consolidation for multiple piece assemblies; •lower initial tooling costs for lower volume applications;",
+    "•dent-resistance in comparison to steel or aluminum.",
+    "Our manufacturing facilities utilize various production processes; however, end products are similar and are not unique to a facility or customer base.",
+    "SMC is primarily a combination of resins, fiberglass, fillers, and catalysts compounded and cured in sheet form, which is then used to manufacture compression-molded products, as discussed below. The Company incorporates a sophisticated computer program in the process of compounding various complex SMC formulations tailored to meet customer needs. The program provides for the control of information during various production processes and data for statistical batch controls.",
+    "The Company manufactures structural products using compression molding (54 presses), resin transfer molding (4 presses), and injection molding processes (24 presses). As of December 31, 2025, the Company owned 82 molding presses including 18 in its Columbus, Ohio facility; 25 in its Matamoros, Mexico facility; 18 in its Cobourg, Canada facility; 10 in its Gaffney, South Carolina facility; 5 in its Winona, Minnesota facility; and 6 in its Monterrey, Mexico facility. The Company's molding presses range in size from 250 to 5,500 tons.",
+    "SMC compression molding is a process whereby SMC is molded to form by matched die steel molds through which a combination of heat and pressure are applied via a molding press. Outer components and high strength reinforcing components are fabricated with this process. Visually appealing components are produced with vacuum assisted molding and through utilizing in-mold coating (IMC). IMC can provide an additional benefit of conductivity assisting in the process of post paint application along with reducing porosity and improving surface appearance. This thermoset process produces high quality, dimensionally consistent products and is typically used for high volume products.",
+    "Direct Long Fiber Thermoplastic (\"DLFT\") compression molding employs two molds, typically a core and a cavity, similar to matched die SMC molding. This is a process for compounding and molding thermoplastic materials with \"long\" fibers (typically, 0.5 inch or longer). Engineered thermoplastic pellets and performance additives are compounded in a screw extruder, to which chopped reinforcements (typically, glass fibers) are added and further extruded. A \"charge\" of material is cut to a precise weight, and this \"charge\" is directly moved to a compression or injection transfer process, where it is molded into a finished part. The process allows for direct processing of the compounded material, bypassing the expense and delay of producing an intermediate product (pellets or sheets) as is used in other fiber-reinforced thermoplastic molding processes. The D-LFT process is an attractive option for products that have highly complex geometry, require high strength and stiffness, and benefit from the recyclability of a thermoplastic resin.",
+    "Vacuum resin transfer compression molding (\"RTM\") process employs two mold halves, typically a core and a cavity, similar to matched die molding. The composite is produced by placing glass mat, chopped strand, or continuous strand fiberglass in the mold cavity in the desired pattern. Parts used for cosmetic purposes typically have a gel coat applied to the mold surface. The core mold is then fitted to the cavity, and upon a satisfactory seal, a vacuum is applied. When the proper vacuum is achieved, the resin is injected into the mold to fill the part. Finally, the part is allowed to cure and is then removed from the mold and trimmed to shape. Fiberglass reinforced products produced from the RTM process exhibit a high-quality surface on both sides of the part and excellent part thickness. The multiple insert tooling technique can be utilized in the RTM process to improve throughput based upon volume requirements.",
+    "Structural Foam and Web Injection Molding (\"SIM\") are low-pressure injection molding processes that develop high-strength, rigid parts at low weight. This is accomplished by mixing a foaming agent (usually nitrogen gas) with the melted polymer (structural foam process), or by injecting nitrogen gas into the mold cavity immediately after the plastic resin is injected (structural web molding). Structural foam produces a cellular interior structure that can provide twice the rigidity of a solid plastic molding. The structural web process pushes the plastic out to the mold cavity walls, uniformly packing out the entire mold and hollowing out thicker sections to create products of varying wall thicknesses. As a result, structural web molded parts have a smoother, glossier finish than other low-pressure parts. Both processes give part designers flexibility when designing products that need strength and stiffness at low weight and also have the benefit of recyclability due to the use of a thermoplastic resin."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Relating to our Business",
+    "Financial and Accounting Risks",
+    "Legal, Insurance, Tax and Cybersecurity Risks",
+    "Risks Related to Economic Conditions"
+   ],
+   "paragraphs": [
+    "The following risk factors describe various risks that may affect our business, financial condition, and operations. References to \"we,\" \"us,\" and \"our\" in this \"Risk Factors\" section refer to Core Molding Technologies and its subsidiaries, unless otherwise specified or unless the context otherwise requires.",
+    "Our business has concentration risks associated with significant customers.",
+    "Sales to five customers constituted approximately 65% of our 2025 total sales. No other customer accounted for more than 10% of our total sales for this period. The loss of any significant portion of sales to any of our significant customers could have a material adverse effect on our business, results of operations, and financial condition.",
+    "Accounts receivable balances with five customers accounted for 68% of accounts receivable at December 31, 2025. The Company performs ongoing credit evaluations of its customers' financial condition and maintains reserves for potential bad debt losses. If the financial conditions of any of these customers were to deteriorate, impacting their ability to pay their receivables, our reserves may not be adequate which could have a material adverse effect on our business, results of operations, or financial condition.",
+    "Beginning in the second half of 2024 and continuing through 2026, our business with Volvo, a significant customer accounting for approximately 14% of our 2024 total sales, transitioned from production programs that the Company supplied to new programs that the Company does not support. There is no assurance that we will be able to replace the loss of any revenue that we may experience from the expiration of our existing production programs with Volvo, or from the loss of any other significant customer whether due to unexpected loss or future expiration of production programs.",
+    "Furthermore, these customers may not continue to do business with us as they have in the past and we may not be able to supply these customers or any of our other customers at current levels."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Business Outlook",
+    "2025 compared to 2024",
+    "2024 compared to 2023",
+    "Shelf Registration",
+    "2026 2027 2028 2029 2030 and",
+    "Accounts Receivable Allowances",
+    "Long-Lived Assets",
+    "Self-Insurance",
+    "Post-Retirement Benefits",
+    "Revenue Recognition",
+    "Income Taxes",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "Looking forward, based on industry analyst projections, customer forecasts, cyclical demand, anticipated program launches and price changes, the Company expects revenues for the calendar year 2026 to increase by approximately 0 to 5 percent as compared to 2025 and the second half of 2026 to be greater than the first half of 2026. The Company also expects a consistent mix in 2026 as compared to 2025 between product revenues and tooling revenues as new programs launch during 2026. In 2026, the Company expects to incur incremental one-time costs of approximately $2,500,000 in connection with the Mexico Expansion Project, primarily related to press relocations and the temporary overlap of two facility leases in Monterrey, as well as approximately $1,000,000 associated with the Company's succession plan. Both expenses will primarily be incurred during the first half of 2026 and will be recorded in Selling, General, and Administrative expenses.",
+    "The Company continues to monitor evolving geopolitical tensions involving Iran and any potential impact such developments may have on global supply chains, such as cost and availability. While disruptions could create volatility in the costs of certain inputs used in the Company's manufacturing processes, the Company maintains contractual raw material adjustment mechanisms with many of its customers that allow for changes in material costs to be passed through, which may help mitigate the financial impact of such fluctuations."
+   ],
+   "focus": "Business Outlook"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "Sheet Molding Compound (\"SMC\")",
+    "Molded Products",
+    "Assembly, Machining, and Paint Products",
+    "2025 2024 2023 Supply Agreement Supply Agreement Expiration",
+    "Plant Location Union Name Expiration Date Employees"
+   ],
+   "paragraphs": [
+    "公司業務說明－CORE MOLDING TECHNOLOGIES, INC.",
+    "CORE MOLDING TECHNOLOGIES, INC.（\"本公司\"）及其子公司在工程材料市場營運，作為一個營運分部，主要從事熱塑性及熱固性結構性零組件的製造。本公司生產並銷售用於多種市場的零組件，包括中型及重型貨車、休閒運動車輛、建築產品及其他工業市場。CORE MOLDING TECHNOLOGIES 的總部設於美國俄亥俄州哥倫布市，並在美國、加拿大及墨西哥運營六座生產廠房。",
+    "總體而言，本公司透過多種方式實現產品成長與多元化，包括：(1) 原廠車輛製造商（\"OEM\"）從其他供應商取得現有結構性零組件；(2) 透過選購程序取得新結構性零組件，其中原廠車輛製造商會發出招標；(3) 成功將結構性零組件行銷至原先非結構性應用領域；(4) 成功將結構性零組件行銷至原廠車輛製造商，這些製造商位於本公司傳統市場之外；(5) 開發新材質、技術與製程以符合現有或潛在客戶需求；(6) 將替代性材質轉換為工程材料；(7) 透過直接銷售工程材料擴大業務，包括片狀模壓製品（\"SMC\"）；以及 (8) 收購現有業務。本公司持續著力於上述七個領域。",
+    "結構性塑膠主要與金屬競爭，具有足夠強度可在長時間使用中發揮功能。管理階層認為結構性塑膠零組件相比金屬具有許多優勢，包括：",
+    "•耐熱性；•耐腐蝕性；•較輕的重量；•較低的成本；•產品設計更具靈活性；",
+    "•多件組裝零組件整合；•低體積應用的初始模具成本較低；",
+    "•相比鋼鐵或鋁合金，具有較佳的抗凹陷性。",
+    "本公司生產廠房使用多種生產製程；然而，最終產品類似，並非特定廠房或客戶羣所獨有。",
+    "SMC 係由樹脂、纖維增強材料、填充劑及觸媒等組成，經混合及固化成片狀後，再用以製造壓製成型產品，如後文所述。本公司於製造各種複雜 SMC 公式時，會使用一套先進的電腦程式，以符合客戶需求。該程式可於各生產階段中控制資訊，並提供統計批次控制的資料。",
+    "本公司使用壓製成型（54 臺壓機）、樹脂轉移成型（4 臺壓機）及射出成型（24 臺壓機）製造結構性產品。截至 2025 年 12 月 31 日，本公司擁有 82 臺壓機，其中 18 臺位於俄亥俄州哥倫布市廠區；25 臺位於墨西哥馬塔莫羅斯廠區；18 臺位於加拿大科堡廠區；10 臺位於南卡羅來納州加弗尼廠區；5 臺位於明尼蘇達州溫納廠區；以及 6 臺位於墨西哥蒙特雷廠區。本公司壓機的大小範圍為 250 至 5,500 公噸。",
+    "SMC 壓製成型係一種將 SMC 以匹配的鋼模加熱及加壓的方式成型的過程。此過程用以製造外殼組件及高強度加強組件。外觀吸引人的組件則透過真空輔助成型及使用內模塗層（IMC）製造。IMC 可提供額外的導電性好處，協助後續塗裝過程，並減少氣孔，改善表面外觀。此熱固性過程可製造出高品質、尺寸一致的產品，通常用於高產量產品。",
+    "直接長纖維熱塑性材料（\"DLFT\"）壓製成型使用兩組模具，通常為核心與腔體，與匹配鋼模 SMC 成型類似。此為一種將熱塑性材料與 \"長纖維\"（通常為 0.5 英寸或更長）混合及成型的過程。工程熱塑性顆粒與性能添加劑會在螺桿擠出機中混合，再加入切斷的增強材料（通常為玻璃纖維）並進一步擠出。材料會被切割成精確的重量，此 \"材料量\" 會直接轉移到壓製或射出轉移過程，以成型為成品。此過程允許直接處理混合材料，跳過其他纖維增強熱塑性材料成型過程所需的中間產品（顆粒或板材）的製造費用與延遲。DLFT 過程是用於具有高度複雜幾何形狀、需要高強度與剛性，且能受益於熱塑性樹脂可回收性的產品的有吸引力選項。",
+    "真空樹脂轉移壓製成型（\"RTM\"）過程使用兩組模具半塊，通常為核心與腔體，與匹配鋼模成型類似。此複合材料是將玻璃網、切斷纖維或連續纖維玻璃纖維按所需圖案放置於模具腔體中。用於外觀用途的零件通常會在模具表面塗上凝膠層。核心模具會與腔體組合，待密封良好後，會施加真空。當達到適當的真空時，樹脂會被注入模具以填充零件。最後，零件會被允許固化，並從模具中取出後進行修整。透過 RTM 過程製造的玻璃纖維增強產品，會在零件兩側均具有高品質表面，且零件厚度表現優異。RTM 過程可利用多個插入工具技術，根據產量需求提高生產效率。",
+    "結構性泡沫及網狀射出成型（\"SIM\"）為低壓射出成型過程，可製造出高強度、輕量的零件。此過程透過將發泡劑（通常為氮氣）與熔融聚合物（結構性泡沫過程）混合，或在塑料樹脂射入模具後立即注入氮氣至模具腔體（結構性網狀成型）來實現。結構性泡沫會產生蜂巢狀的內部結構，可提供固體塑料成型兩倍的剛性。結構性網狀過程會將塑料推至模具腔體壁，均勻填充整個模具並使較厚部分中空，以製造出不同壁厚的產品。因此，結構性網狀成型的零件會有更平滑、更光亮的外觀，比其他低壓成型零件更優。兩種過程均為設計者在設計需要輕量且具強度與剛性的產品時提供設計靈活性，同時因使用熱塑性樹脂而具備可回收性的好處。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "營運展望",
+    "2025 年與 2024 年比較",
+    "2024 年與 2023 年比較",
+    "證券發行登記",
+    "2026 2027 2028 2029 2030 年及",
+    "應收帳款減損",
+    "長期資產",
+    "自負風險",
+    "退休後福利",
+    "收入確認",
+    "所得稅",
+    "最近會計準則聲明"
+   ],
+   "paragraphs": [
+    "展望未來，根據產業分析師預測、客戶預測、週期性需求、預期的產品發佈及價格變動，本公司預期2026年歷年營業收入將較2025年增加約0至5％，且2026年下半年將高於2026年上半年。本公司亦預期2026年產品收入與工具收入的組合將與2025年保持一致，因2026年將有新產品計畫發佈。2026年，本公司預期將因墨西哥擴張計畫而產生約2,500,000美元的一次性費用，主要與壓機遷移及蒙特雷兩處廠區租賃暫時重疊有關，以及約1,000,000美元與本公司繼任計畫相關的費用。上述費用將主要於2026年上半年產生，並計入銷售、一般及行政費用。",
+    "本公司持續監測涉及伊朗的國際政治緊張局勢，以及這些發展對全球供應鏈可能產生的影響，例如成本與可得性。雖然中斷可能導致本公司製造過程中某些投入物資的成本波動，本公司與許多客戶訂有原物料成本調整機制，允許因原物料成本變動而調整價格，這可能有助於緩解相關財務衝擊。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'translatedText': '與本公司業務相關的風險'}",
+    "{'translatedText': '財務與會計風險'}",
+    "{'translatedText': '法律、保險、稅務與網路安全風險'}",
+    "{'translatedText': '與經濟狀況相關的風險'}"
+   ],
+   "paragraphs": [
+    "下列風險因素說明了可能影響本公司業務、財務狀況及營運的各種風險。本「風險因素」部分中提及的「我們」、「我們」及「我們」，指的是 Core Molding Technologies 及其子公司，除非另有說明或上下文另有要求。",
+    "本公司業務與重要客戶有關聯性風險。",
+    "銷售給五家客戶的收入佔本公司 2025 年總銷售額約 65%。其他任何客戶在本期間的總銷售額中所佔比例均未超過 10%。若本公司與任何重要客戶的銷售額有重大流失，可能對本公司業務、營運結果及財務狀況造成重大不利影響。",
+    "與五家客戶的應收款項佔 2025 年 12 月 31 日應收款項總額的 68%。本公司持續評估客戶的財務狀況，並保留潛在呆帳損失的準備金。若這些客戶的財務狀況惡化，影響其支付應收款項的能力，本公司準備金可能不足，這可能對本公司業務、營運結果或財務狀況造成重大不利影響。",
+    "自 2024 年第二季開始，並持續至 2026 年，本公司與 Volvo 的業務（Volvo 為一重要客戶，佔本公司 2024 年總銷售額約 14%）從本公司供應的生產計畫轉變為本公司不支援的新計畫。無法保證本公司能補償因 Volvo 現有生產計畫到期而可能產生的收入流失，或因其他任何重要客戶的意外流失或未來生產計畫到期而產生的收入流失。",
+    "此外，這些客戶可能不會繼續與本公司合作，且本公司可能無法維持現有水準為這些客戶或任何其他客戶提供產品。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

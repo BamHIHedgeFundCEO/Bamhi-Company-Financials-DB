@@ -1,0 +1,148 @@
+{
+ "ticker": "IBCP",
+ "cik": "0000039311",
+ "accession": "0000039311-26-000009",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Capital Ratio Tier 1",
+    "Capital Ratio Common",
+    "Capital Ratio Leverage"
+   ],
+   "paragraphs": [
+    "Independent Bank Corporation was incorporated under the laws of the State of Michigan on September 17, 1973, for the purpose of becoming a bank holding company. We are registered under the Bank Holding Company Act of 1956, as amended, and own all of the outstanding stock of Independent Bank (the \"bank\"), which is also organized under the laws of the State of Michigan. The bank was founded as First National Bank in Ionia in 1864. Over the years, we have grown both organically and as the result of acquisitions of community banks, bank branches, and other organizations within the financial services industry. Our most recent acquisition was our acquisition of Traverse City State Bank in April 2018.",
+    "Aside from the stock of our bank, we have no other substantial assets. We conduct no business except for the collection of dividends or returns of capital from our bank and the payment of dividends to our shareholders and the payment of interest on subordinated debt and debentures. We have established certain employee retirement plans, including an employee stock ownership plan (ESOP) and deferred compensation plans, as well as health and other insurance programs, the cost of which is borne by our subsidiaries. We have no material patents, trademarks, licenses or franchises except the corporate charter of our bank, which permits it to engage in commercial banking pursuant to Michigan law.",
+    "Our bank transacts business in the single industry of commercial banking. It offers a broad range of banking services to individuals and businesses, including checking and savings accounts, commercial lending, direct and indirect consumer financing, mortgage lending, and safe deposit box services. Our bank does not offer trust services. Our principal markets are the rural and suburban communities across Lower Michigan, which are served by the bank's main office in Grand Rapids, Michigan, and a total of 56 branches, one drive-thru facility, and five Michigan based loan production offices. We also have one loan production facility in Ohio (Fairlawn). Most of our bank's branches provide full-service lobby and drive-thru services, as well as automatic teller machines (ATMs). In addition, we provide internet and mobile banking capabilities to our customers. We continue to see customer transaction volume declining at our bank offices and increasing through our electronic channels.",
+    "Our bank competes with other commercial banks, savings banks, credit unions, mortgage banking companies, fintech companies, securities brokerage companies, insurance companies, and money market mutual funds. Many of these competitors have substantially greater resources than we do and offer certain services that we do not currently provide. Such competitors may also have greater lending limits than our bank. In addition, non-bank competitors are generally not subject to the extensive regulations applicable to us. Price (the interest charged on loans and paid on deposits) remains a principal means of competition within the financial services industry. Our bank also competes on the basis of service and convenience in providing financial services.",
+    "As of December 31, 2025, our bank had total loans (excluding loans held for sale) of $4.276 billion and total deposits of $4.762 billion.",
+    "As of December 31, 2025, we had 735 full-time employees and 91 part-time employees. We compete for talent and human resources with other financial services organizations within our geographic market, which is largely the lower peninsula of Michigan. We strive to be an employer of choice by offering competitive compensation and benefits as well as fostering strong employee relations through our culture, training and growth opportunities, and similar measures. As a community-oriented bank, we believe it is especially important for our employees to engage with the communities in our market areas, and we encourage and provide opportunities for our employees to volunteer with local organizations in the markets served by our bank branches.",
+    "In addition to general banking services, we also offer investment services through a third party agreement with Cetera Investment Services LLC and title insurance services.",
+    "On a consolidated basis, our principal sources of revenue are interest and fees on loans, other interest income, and non-interest income. The sources of revenue for the three most recent years are as follows:",
+    "2025 2024 2023 Interest and fees on loans 75.7 % 70.7 % 68.1 % Other interest income 9.8 11.8 14.4",
+    "Non-interest income 14.5 17.4 17.5 100.0 % 100.0 % 100.0 % Supervision and Regulation",
+    "The following is a summary of certain statutes and regulations affecting us. This summary is qualified in its entirety by reference to the particular statutes and regulations. A change in applicable laws or regulations may have a material effect on us and our bank.",
+    "Financial institutions and their holding companies are extensively regulated under federal and state law. Consequently, our growth and earnings performance can be affected not only by management decisions and general and local economic conditions, but also by the statutes administered by, and the regulations and policies of, various governmental regulatory authorities. Those authorities include, but are not limited to, the Federal Reserve, the Federal Deposit Insurance Corporation (\"FDIC\"), the Michigan Department of Insurance and Financial Services (\"Michigan DIFS\"), the Internal Revenue Service, and state taxing authorities. The effect of such statutes, regulations and policies and any changes thereto can be significant and cannot necessarily be predicted.",
+    "Federal and state laws and regulations generally applicable to financial institutions and their holding companies regulate, among other things, the scope of business, investments, reserves against deposits, capital levels, lending activities and practices, the nature and amount of collateral for loans, the establishment of branches, mergers, consolidations and dividends. The system of supervision and regulation applicable to us establishes a comprehensive framework for our operations and is intended primarily for the protection of the FDIC's deposit insurance fund, our depositors, and the public, rather than our shareholders.",
+    "We are a bank holding company and, as such, are registered with, and subject to regulation by, the Federal Reserve under the Bank Holding Company Act, as amended (the \"BHCA\"). Under the BHCA, we are subject to periodic examination by the Federal Reserve and are required to file periodic reports of operations and such additional information as the Federal Reserve may require."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factors Relating to the Financial Services Industry",
+    "Governmental monetary and fiscal policies may adversely affect the financial services industry and therefore impact our financial condition and results of operations.",
+    "Volatility and disruptions in global capital and credit markets may adversely impact our business, financial condition and results of operations.",
+    "The soundness of other financial institutions could adversely affect us.",
+    "Changes in regulation or oversight may have a material adverse impact on our operations.",
+    "We are subject to liquidity risk in our operations, which could adversely impact our ability to fund various obligations.",
+    "We face cybersecurity risks, including attacks targeting our systems and customers' systems.",
+    "Our use of artificial intelligence and machine learning technologies may expose us to regulatory, operational, and competitive risks.",
+    "A significant portion of our deposits are uninsured, which could result in funding pressures and liquidity constraints during times of financial stress.",
+    "Our concentration in commercial real estate loans exposes us to increased credit risk and regulatory scrutiny.",
+    "We rely on third-party service providers for critical business functions, which exposes us to operational, cybersecurity, and regulatory risks.",
+    "Operational difficulties, including failure of technology infrastructure and the increasing occurrence and sophistication of attempts at fraudulent activity, could adversely affect our business and operations.",
+    "Changes in the financial markets, including fluctuations in interest rates and their impact on deposit pricing, could adversely affect our net interest income and financial condition.",
+    "Legal and regulatory proceedings and related matters with respect to the financial services industry, including those directly involving us, could adversely affect us or the financial services industry in general.",
+    "Methods of reducing risk exposures might not be effective.",
+    "Risk Factors More Specific to Our Business",
+    "We have credit risk inherent in our loan portfolios, and our allowance for credit losses may not be sufficient to cover actual credit losses.",
+    "We have credit risk in our securities portfolio.",
+    "Our mortgage-banking revenues are susceptible to substantial variations, due in part to factors we do not control, such as market interest rates.",
+    "An adverse outcome in certain overdraft fee litigation that has been brought against the bank could have a material adverse effect on our results of operations.",
+    "Our parent company must rely on dividends or returns of capital from our bank for most of its cash flow.",
+    "Any future strategic acquisitions or divestitures may present additional risks to our business and operations.",
+    "Compliance with capital requirements may adversely affect us.",
+    "Declines in the businesses or industries of our customers could cause increased credit losses, which could adversely affect us.",
+    "The introduction, implementation, withdrawal, success and timing of business initiatives and strategies may be less successful or may be different than anticipated, which could adversely affect our business.",
+    "We may not be able to utilize technology to efficiently and effectively develop, market, and deliver new products and services to our customers.",
+    "Emerging digital assets and technologies may disrupt our business and adversely affect our results.",
+    "Competitive product and pricing pressures among financial institutions within our markets may change.",
+    "Changes in customer behavior may adversely impact our business, financial condition and results of operations.",
+    "Our ability to maintain and expand customer relationships may differ from expectations.",
+    "Our ability to retain key officers and employees may change.",
+    "Our failure to appropriately apply certain critical accounting policies could result in our misstatement of our financial results and condition."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves risks, including (among others) the following factors:",
+    "Pressures from various global and national macroeconomic events, including heightened inflation, uncertainty regarding future interest rates, foreign currency exchange rate fluctuations, recent adverse weather conditions and natural disasters, ongoing conflict in the Middle East, the continuation of the Russia-Ukraine war, and potential governmental responses to these events have created, and continue to create, significant economic uncertainty and could materially and adversely impact our financial condition and performance. In addition, pursuit of new initiatives announced by the Trump administration may create some degree of volatility in our customers' businesses, regulation of the financial services industry, and the markets in which we operate.",
+    "The extent to which these macroeconomic pressures may impact our business, results of operations, asset valuations, financial condition, and customers will depend on future developments, which continue to be highly uncertain and difficult to predict. Material adverse impacts may include all or a combination of valuation impairments on our intangible assets, securities available for sale, securities held to maturity, loans, capitalized mortgage loan servicing rights or deferred tax assets.",
+    "In particular, economic downturns and other adverse impacts from these macroeconomic factors could result in the delinquency of outstanding loans, which could have a material adverse impact on our earnings. We continue to closely monitor and analyze the higher risk segments within our portfolio in light of the high degree of uncertainty that exists with respect to the impact of the fluid global economic conditions on the future performance of our loan portfolio.",
+    "Monetary and fiscal policies of various governmental and regulatory agencies, particularly the Federal Reserve, affect the financial services industry, directly and indirectly. The Federal Reserve regulates the supply of money and credit in the U.S., and its monetary and fiscal policies determine in a large part our cost of funds for lending and investing and the return that can be earned on such loans and investments. Changes in such policies, including changes in interest rates, will influence the origination of loans, the value of investments, the value of capitalized mortgage loan servicing rights, the generation of deposits, and the rates received on loans and investment securities and paid on deposits. Changes in monetary and fiscal policies are beyond our control and difficult to predict. Our financial condition and results of operations could be materially adversely impacted by changes in governmental monetary and fiscal policies.",
+    "Even though we operate in a distinct geographic region in the U.S., we are impacted by global capital and credit markets, which are sometimes subject to periods of extreme volatility and disruption. Disruptions, uncertainty or volatility in the capital and credit markets may limit our ability to access capital and manage liquidity, which may adversely affect our business, financial condition and results of operations. Further, our customers may be adversely impacted by such conditions, which could have a negative impact on our business, financial condition and results of operations."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "資本比率一級",
+    "資本比率普通股",
+    "資本比率槓桿"
+   ],
+   "paragraphs": [
+    "Independent Bank Corporation 於密歇根州法律下於 1973 年 9 月 17 日成立，目的是成為銀行控股公司。我們已根據 1956 年銀行控股公司法案（Bank Holding Company Act of 1956）及其修正案註冊，並擁有 Independent Bank（\"銀行\"）全部發行在外的股票，該銀行亦於密歇根州法律下設立。該銀行於 1864 年在 Ionia 成立為 First National Bank。多年來，我們透過內生成長及收購社區銀行、銀行分行及其他金融服務業機構而持續成長。我們最近一次收購為 2018 年 4 月收購 Traverse City State Bank。",
+    "除了我們銀行的股票外，我們沒有其他重大資產。我們僅從事收取來自銀行的股息或資本回報、向股東支付股息以及支付次級債務及可轉換債券利息的業務。我們已設立某些員工退休計畫，包括員工股票擁有權計畫（ESOP）及遞延薪資計畫，以及健康及其他保險計畫，其成本由我們的子公司承擔。我們除銀行的公司章程外，沒有其他重大專利、商標、許可證或特許經營權，該公司章程允許銀行根據密歇根州法律從事商業銀行業務。",
+    "我們的銀行從事商業銀行單一產業。它為個人及企業提供廣泛的銀行服務，包括支票帳戶及儲蓄帳戶、商業貸款、直接及間接消費者融資、房貸貸款及保險箱服務。我們的銀行不提供信託服務。我們的主要市場為密歇根州下部地區的鄉村及郊區社區，這些社區由銀行位於密歇根州 Grand Rapids 的總行及總計 56 個分行、一個取款機場及五個位於密歇根州的貸款業務辦公室服務。我們也在俄亥俄州（Fairlawn）設有一個貸款業務設施。我們的銀行大多數分行提供完整的櫃檯及取款機場服務，以及自動取款機（ATMs）。此外，我們也為客戶提供網際網路及行動銀行服務。我們持續觀察到客戶在銀行分行的交易量下降，而在電子渠道的交易量則增加。",
+    "我們的銀行與其他商業銀行、儲蓄銀行、信用合作社、房貸銀行公司、金融科技公司、證券經紀公司、保險公司及貨幣市場共同基金競爭。這些競爭對手擁有遠較我們為多的資源，並提供我們目前未提供的某些服務。這些競爭對手也可能擁有較我們銀行更高的貸款額度。此外，非銀行競爭對手通常不受適用於我們的廣泛規範所限制。價格（貸款利率及存款利率）仍然是金融服務業的主要競爭手段。我們的銀行也以服務及便利性作為提供金融服務的競爭基礎。",
+    "截至 2025 年 12 月 31 日，我們的銀行總貸款額（扣除待售貸款）為 4.276 十億美元，總存款額為 4.762 十億美元。",
+    "截至 2025 年 12 月 31 日，我們有 735 名全職員工及 91 名兼職員工。我們在地理市場（主要是密歇根州下半島）與其他金融服務機構競爭人才及人力資源。我們致力於成為僱主首選，透過提供具有競爭力的薪資及福利，以及透過我們的企業文化、培訓及成長機會等措施，建立良好的員工關係。作為一家社區導向銀行，我們認為員工與我們銀行分行所服務市場社區互動尤其重要，因此我們鼓勵並提供機會讓員工參與當地組織志工活動。",
+    "除了一般銀行服務外，我們也透過與 Cetera Investment Services LLC 的第三方協議提供投資服務，並提供房貸保險服務。",
+    "從整體合併觀點來看，我們的主要收入來源為貸款及費用收入、其他利息收入及非利息收入。過去三年的收入來源如下：",
+    "2025 2024 2023 債款利息及費用 75.7 % 70.7 % 68.1 % 其他利息收入 9.8 11.8 14.4",
+    "非利息收入 14.5 17.4 17.5 100.0 % 100.0 % 100.0 % 監督與規範",
+    "以下為影響我們之部分法律與規範摘要。此摘要完全以參考特定法律與規範為準。適用法律與規範之變更可能對我們及我們之銀行產生重大影響。",
+    "金融機構及其控股公司於聯邦及州法律下受到廣泛規範。因此，我們之成長與獲利表現不僅受管理層決策及總體經濟與地方經濟條件影響，亦受各政府監管機構所管理之法律、規範及政策影響。這些機構包括但不限於美國聯邦儲備系統（Federal Reserve）、美國存款保險公司（Federal Deposit Insurance Corporation（\"FDIC\"））、密歇根州保險與金融服務部門（Michigan Department of Insurance and Financial Services（\"Michigan DIFS\"））、美國國稅局（Internal Revenue Service）及州稅務機關。這些法律、規範及政策之影響及其變更可能重大且無法預測。",
+    "聯邦及州法律與規範一般適用於金融機構及其控股公司，規範內容包括但不限於業務範圍、投資、存款準備金、資本水準、貸款業務與作法、貸款擔保品之性質與數額、分行設立、合併、併購及股息。適用於我們之監督與規範體系建立一個全面架構以規範我們之營運，其主要目的是保護FDIC之存款保險基金、我們之存款人及公眾，而非我們之股東。",
+    "我們為一家銀行控股公司，因此已向美國聯邦儲備系統（Federal Reserve）註冊，並受《銀行控股公司法》（Bank Holding Company Act，\"BHCA\"）規範。根據BHCA，我們需接受聯邦儲備系統之定期檢查，並需提交營運報告及聯邦儲備系統所要求之其他資訊。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素與金融服務業相關",
+    "政府的貨幣及財政政策可能對金融服務業產生不利影響，進而影響本公司的財務狀況與營運成果。",
+    "全球資本與信貸市場的波動與中斷可能對本公司業務、財務狀況與營運成果產生不利影響。",
+    "其他金融機構的健全性可能對本公司產生不利影響。",
+    "規範或監管的變更可能對本公司營運產生重大不利影響。",
+    "本公司在營運中面臨流動性風險，可能影響本公司履行各項義務的資金能力。",
+    "本公司面臨網路安全風險，包括針對本公司系統及客戶系統的攻擊。",
+    "本公司使用人工智慧與機器學習技術，可能使本公司面臨規範、營運及競爭風險。",
+    "本公司存款中相當大一部分未投保，這可能在金融壓力時期導致資金壓力與流動性限制。",
+    "本公司在商業不動產貸款的集中度，使我們面臨更高的信用風險與監管審查。",
+    "本公司依賴第三方服務提供者執行關鍵業務功能，這使我們面臨營運、網路安全與監管風險。",
+    "營運困難，包括科技基礎設施失敗與試圖進行詐欺活動的頻率與複雜性增加，可能對本公司業務與營運產生不利影響。",
+    "金融市場的變化，包括利率波動及其對存款利率的影響，可能對本公司淨利息收入與財務狀況產生不利影響。",
+    "與金融服務業相關的法律與監管程序及相關事項，包括直接涉及本公司者，可能對本公司或金融服務業整體產生不利影響。",
+    "降低風險敞口的方法可能無法有效執行。",
+    "與本公司業務更為特定的風險因素",
+    "我們的貸款組閤中 inherently 存在信用風險，且我們的信用損失撥備可能不足以涵蓋實際的信用損失。",
+    "我們的證券組閤中存在信用風險。",
+    "我們的房貸銀行業務收入易受重大波動影響，部分原因在於我們無法控制的因素，例如市場利率。",
+    "銀行遭提起的某些 overdraft 費用訴訟若出現不利結果，可能對我們的營運成果產生重大不利影響。",
+    "我們的母公司必須依賴我們銀行的股息或資本回報，以獲得大部分現金流。",
+    "任何未來的戰略收購或出售，可能對我們的業務與營運產生額外風險。",
+    "符合資本要求可能對我們產生不利影響。",
+    "我們客戶的業務或產業若出現衰退，可能導致信用損失增加，這可能對我們產生不利影響。",
+    "業務計畫與策略之導入、執行、廢止、成功與時程可能不如預期或與預期不同，這可能會對本公司業務造成不利影響。",
+    "本公司可能無法有效且高效地運用科技來開發、行銷並交付新產品與服務給客戶。",
+    "新興數位資產與科技可能幹擾本公司業務，並對本公司結果造成不利影響。",
+    "我們所處市場內金融機構之間的競爭性產品與價格壓力可能發生變化。",
+    "客戶行為之變化可能對本公司業務、財務狀況與營運結果造成不利影響。",
+    "本公司維持與擴展客戶關係之能力可能與預期不同。",
+    "本公司保留關鍵高階主管與員工之能力可能發生變化。",
+    "本公司若未能適當應用某些關鍵會計政策，可能會導致本公司財務結果與狀況之誤報。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及風險，包括（但不限於）下列因素：",
+    "來自各國及全球總體經濟事件的壓力，包括通貨膨脹升高、未來利率的不確定性、外幣匯率波動、近期不利天氣條件及天然災害、中東地區持續衝突、俄羅斯與烏克蘭戰爭持續進行，以及政府對這些事件的可能回應，已造成並持續造成顯著的經濟不確定性，可能對我們的財務狀況及營運表現造成重大且不利的影響。此外，特朗普政府宣佈的新倡議措施，可能對客戶的業務、金融服務業的規範，以及我們所處的市場造成一定程度的波動。",
+    "這些總體經濟壓力對我們業務、營運結果、資產評價、財務狀況及客戶的影響程度，將取決於未來的發展，而這些發展持續具有高度不確定性且難以預測。重大不利影響可能包括對我們智慧財產權、可供出售證券、持有至到期證券、貸款、資本化房貸貸款服務權或遞延稅資產的評價減損，或這些評價減損的組合。",
+    "特別是，經濟衰退及其他來自這些總體經濟因素的不利影響，可能導致現有貸款逾期，這可能對我們的獲利造成重大且不利的影響。我們持續密切監測並分析我們資產組閤中高風險的領域，以因應全球經濟條件的流動性對我們貸款組合未來表現所造成的高度不確定性。",
+    "各政府與監管機構的貨幣與財政政策，特別是聯邦儲備系統，會影響金融服務業，直接或間接影響。聯邦儲備系統規範美國的貨幣與信貸供給，其貨幣與財政政策在很大程度上決定我們貸款與投資的資金成本及所能獲得的回報。這些政策的變動，包括利率的變動，將影響貸款的發放、投資的價值、資本化房貸貸款服務權的價值、存款的產生，以及貸款與投資證券的利率收入及存款的利率支出。這些貨幣與財政政策的變動超出我們的控制範圍且難以預測。這些變動可能對我們的財務狀況及營運結果造成重大且不利的影響。",
+    "雖然我們營運於美國特定的地理區域，但我們仍受全球資本與信貸市場的影響，這些市場有時會出現極度波動與中斷。資本與信貸市場的中斷、不確定性或波動，可能限制我們取得資本與管理流動性的能力，這可能對我們的業務、財務狀況及營運結果造成不利影響。此外，客戶也可能因這些情況而受到不利影響，這可能對我們的業務、財務狀況及營運結果造成負面影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

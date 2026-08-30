@@ -1,0 +1,114 @@
+{
+ "ticker": "CDZI",
+ "cik": "0000727273",
+ "accession": "0001437749-26-010517",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Business Overview",
+    "Description of Assets",
+    "Water Supply",
+    "Water Storage",
+    "Water Conveyance",
+    "Water Filtration Technology",
+    "Equity, Sustainability and Environmental Justice",
+    "Human Capital Resources",
+    "Access to Our Information"
+   ],
+   "paragraphs": [
+    "We are a water solutions provider with a unique combination of land, water, pipeline and water filtration assets located in Southern California between major water systems serving population centers in the Southwestern United States. Our portfolio of assets includes 2.5 million acre-feet of permitted water supply, 1 million acre-feet of groundwater storage capacity, 220 miles of existing, underground pipeline, 43 miles of right-of-way entitlements for pipeline construction, and versatile, scalable and cost-effective water filtration technology that removes contaminants and constituents of concern from groundwater. Our customers are public and private water systems, government agencies and commercial businesses.",
+    "We own approximately 46,000 acres of land with high-quality, naturally recharging groundwater resources in Southern California's Mojave Desert (\"Cadiz Property\"). Our land holdings with vested water rights were assembled by our founders in the early 1980s, relying on NASA satellite imagery that identified a desert aquifer system beneath a vast 2,000 square mile Southern California watershed. The aquifer system underlying the watershed is estimated to hold 30 - 50 million acre-feet of groundwater in storage, comparable in size to the capacity of the largest reservoir in the United States - Lake Mead. Since the late 1980s, we have farmed at our contiguous property at the base of the watershed (\"Cadiz Ranch\") relying on groundwater for irrigation.",
+    "In 2008, we entered into a 99-year lease with the Arizona & California Railroad Company (\"ARZC\") to co-locate and construct a water conveyance pipeline system (\"Southern Pipeline\") within ARZC's existing, active railroad right-of-way (\"ROW\") that extends 43-miles from the Cadiz Ranch to the Colorado River Aqueduct (\"CRA\"), one of Southern California's primary sources of water supply, allowing water supply to be moved between the Cadiz Ranch and the CRA for off property beneficial uses.",
+    "In 2012, we received permits and entitlements from public agencies for our groundwater storage project (the \"Mojave Groundwater Bank\"), which will (1) conserve 2.5 million acre-feet of water from the aquifer system over a 50-year period (average of 50,000 acre-feet per year) for off-property beneficial uses in underserved California communities and (2) store up to 1 million acre-feet of imported water in the aquifer system. The permits were challenged through litigation and were upheld and sustained in their entirety by judgements in the California Superior Court in 2014 and the California Court of Appeal in 2016.",
+    "In 2021, we completed the acquisition of a 30\" steel natural gas pipeline (\"Northern Pipeline\") that extends 220-miles from the Cadiz Ranch across Kern and San Bernardino Counties terminating in California's Central Valley. The pipeline, originally constructed to transport fossil fuels, is idle, and we are preparing to convert the pipeline to transport water. The route of the Northern Pipeline intersects several water conveyance facilities that serve Southern California, including the California Aqueduct, the Los Angeles Aqueduct, and the Mojave River Pipeline.",
+    "In 2022, we completed the acquisition of the assets of ATEC Systems, Inc., a producer of specialized filtration systems for removal of common groundwater contaminants that pose health risks in drinking water, including iron, manganese, arsenic, nitrates, Chromium 6 and other constituents of concern.",
+    "In 2024, we entered into agreements with multiple public water systems for their purchase of 21,275 acre-feet per year (\"AFY\") of annual water supply from the Mojave Groundwater Bank to be delivered via the Northern Pipeline.",
+    "To finance construction of all improvements and required facilities to operate the Mojave Groundwater Bank project including the Northern Pipeline, Southern Pipeline and related facilities, we established a new special purpose business entity, Mojave Water Infrastructure Company LLC (\"MWI\"), that will fund these capital costs in partnership with public sector, tribal and other investors.",
+    "In October 2025, we entered into a definitive agreement (\"Lytton Credit Agreement\") with Lytton Rancheria of California, a federally recognized Native American Tribe (\"Lytton\"), pursuant to which we may require Lytton to provide up to $51 million in an unsecured loan facility, convertible into a majority interest in the storage cash flows from the Mojave Groundwater Bank (\"Storage Cash Flows Right\"), which Lytton would then contribute to MWI, in exchange for equity interests in MWI on the same economic terms offered to other equity investors in MWI. The Lytton Credit Agreement represents the first tranche of up to approximately $451 million in total equity capital being raised by us through MWI, to construct, own and operate the Mojave Groundwater Bank (see Note 7 to the Consolidated Financial Statements – \"Long-Term Debt\").",
+    "In addition, we are currently engaged in the completion of due diligence with private equity investors for up to a targeted $400 million in equity commitment to MWI.",
+    "Upon completion of definitive agreements for an additional $400 million in equity capital investments in MWI, we expect to contribute to MWI our pipeline infrastructure assets, including the Northern Pipeline and the Southern Pipeline right-of-way. In addition, Lytton would contribute to MWI its Storage Cash Flows Right (see Note 7 to the Consolidated Financial Statements – \"Long Term Debt\"), so that the MWI investors would share in the cash flows generated from the constructed facilities, including from the supply agreements and the Storage Cash Flows Right. Under this potential structure, in consideration of our transfer of assets, we expect to receive an upfront capital reimbursement payment at closing and an equity interest in MWI, entitling us to share in the long-term cash flows generated by MWI, among other consideration. Additionally, we would retain the right to 49% of the cash flows generated from the Company's water-storage operations that we would not be contributing to MWI.",
+    "MWI investors are expected to coordinate with us and project participants to seek available infrastructure grants and/or other financing alternatives, including potential revenue bond issuances through a to-be-formed Joint Powers Authority, to fund any remaining construction costs.",
+    "The water industry value chain today includes water supply, water storage, wastewater treatment, long-range conveyance, local distribution systems, and a wide range of products, technologies and services for monitoring, moving, trading, treating and integrating water resources across thousands of miles to address the challenges and demands of a diverse customer base. The water industry customer base includes regional wholesale water agencies responsible for acquiring, distributing and managing imported water resources; water and wastewater utilities that supply, treat and monitor clean water or transport, treat and analyze wastewater or storm water through an infrastructure network; government agencies responsible for public safety, environmental protection and economic security; and commercial and industrial customers requiring long-term, reliable supplies of clean, affordable water for their customers and businesses.",
+    "Climate change has disrupted hydrological cycles around the world. Extreme weather has created extreme unpredictability regarding water supply for human consumption. Increasingly frequent and intense storms and swings between wet and dry years have created an urgent demand for technologies, services and infrastructure investment to capture, store and transport fresh water. Moreover, violent weather, extreme flooding and increasingly stringent regulatory restrictions on water quality have exceeded the capacity of existing water infrastructure and increased the cost of water over the last decade."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Our Development Activities Have Not Generated Significant Revenues",
+    "We May Never Become Profitable Unless We Are Able to Successfully Implement Programs to Develop Our Land Assets",
+    "The Development of Our Properties Is Heavily Regulated, Requires Governmental Approvals and Permits That Could Be Denied, and May Have Competing Governmental Interests and Objectives",
+    "We may not be able to execute our plans for the construction, ownership, and operation of our Mojave Groundwater Bank and obtain the requisite funding.",
+    "Our Failure to Make Timely Payments of Principal and Interest on Our Indebtedness or To Obtain Additional Financing Will Impact our Ability to Implement Our Asset Development Programs",
+    "The Issuance of Equity Securities and Management Equity Incentive Plans Will Cause Dilution",
+    "The Volatility of the Stock Price of our Equity Securities Could Adversely Affect Current and Future Stockholders",
+    "Information Technology Failures and Data Security Breaches Could Harm Our Business",
+    "Increased Cybersecurity Requirements, Vulnerabilities, Threats and More Sophisticated and Targeted Computer Crime Could Pose a Risk to Our Systems, Networks, Products, Solutions, Services and Data"
+   ],
+   "paragraphs": [
+    "Our business is subject to a number of risks, including those described below.",
+    "At present, our asset development activities include water resource (supply, storage and conveyance) and land and agricultural development at our San Bernardino County properties. We have not received significant revenues from these development activities to date and we cannot predict with certainty when, if ever, we will receive operating revenues from these business segments sufficient to offset the costs of our development activities. As a result, we continue to incur a net loss from operations.",
+    "Our water supply agreements are subject to financial and regulatory conditions precedent, which may not be satisfied. Further, the circumstances under which water supply, storage, conveyance, water filtration or sustainable agriculture can be developed and the profitability of any such project are subject to significant uncertainties, including the risk of variable water supplies and changing water allocation priorities, our ability to fulfill the required contractual conditions of any water supply agreements, and our ability to complete the needed construction for water delivery to occur. Additional risks include our ability to obtain all necessary regulatory approvals and permits, litigation by community, environmental or other groups, unforeseen technical difficulties, general market conditions and competition for agriculture, water filtration products and water supplies, and the time needed to generate significant operating revenues from such programs after contracts are secured or operations commence.",
+    "In developing our land assets and related water resources, we are subject to local, state, and federal statutes, ordinances, rules and regulations concerning zoning, resource protection, environmental impacts, infrastructure design, subdivision of land, construction and similar matters. Our development activities are subject to the risk of adverse interpretations of such U.S. federal, state and local laws, regulations and policies and/or the adoption of new and amended laws, regulations and policies that prohibits, restrict, modify or delay our development activities.",
+    "Further, our development activities require governmental approvals and permits. If such permits were to be denied or granted subject to unfavorable conditions or restrictions, our ability to successfully implement our development programs as planned would be adversely impacted and could delay returns on our investments in the development of our assets.",
+    "For example, while we presently hold agreements with multiple public water systems for their purchase of 21,275 AFY and are in discussions with additional public water agencies to enter agreements for the full supply capacity of our Mojave Groundwater Bank (50,000 AFY) any contracts will be subject to conditions precedent including standard regulatory review and permitting. There is no assurance that we can meet the conditions precedent for any of these contracts and even if we do, there is no assurance that we can meet them in a timely manner."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Business Overview': '業務概覽'}",
+    "{'Description of Assets': '資產說明'}",
+    "{'Water Supply': '供水'}",
+    "{'Water Storage': '水儲存'}",
+    "{'Water Conveyance': '水輸送'}",
+    "{'Water Filtration Technology': '水過濾技術'}",
+    "{'Equity, Sustainability and Environmental Justice': '公平性、永續性與環境正義'}",
+    "{'Human Capital Resources': '人力資源'}",
+    "{'original': 'Access to Our Information', 'translated': '取得本公司資訊之方式'}"
+   ],
+   "paragraphs": [
+    "本公司為水資源解決方案供應商，擁有獨特的陸地、水資源、輸水管線與水過濾設施組合，位於美國南加州，處於南加州主要水系統之間，服務南加州人口中心。本公司資產組合包括 2.5 百萬英畝英尺的核准水供應、1 百萬英畝英尺的地下水儲存容量、220 英里現有地下輸水管線、43 英里管線建設的用地權限，以及具備靈活性、可擴充性與成本效益的水過濾技術，可去除地下水中的污染物及關注成分。本公司客戶為公營與民營水系統、政府機構及商業企業。",
+    "本公司擁有約 46,000 英畝土地，位於南加州的莫哈維沙漠（\"Cadiz Property\"），擁有高品質、自然補給的地下水資源。本公司土地持有與已取得水權的資產，由創辦人於 1980 年代初期組建，依賴 NASA 衛星影像識別出南加州廣達 2,000 平方英里的水系下方的沙漠含水層。該含水層估計儲存 30 - 50 百萬英畝英尺地下水，規模與美國最大水庫梅薩湖（Lake Mead）相當。自 1980 年代末起，本公司於水系底部的連続土地（\"Cadiz Ranch\"）進行農業活動，依賴地下水進行灌溉。",
+    "2008 年，本公司與亞利桑那與加州鐵路公司（\"ARZC\"）簽訂 99 年租賃協議，於 ARZC 現有且活躍的鐵路用地（\"ROW\"）內共設並建設水輸送管線系統（\"Southern Pipeline\"），該管線延伸 43 英里，從 Cadiz Ranch 至科羅拉多河水道（\"CRA\"），為南加州主要水源之一，使水資源可在 Cadiz Ranch 與 CRA 之間運輸，供非屬本公司土地的有益用途。",
+    "2012 年，本公司取得來自公部門機構的許可與權利，用於地下水儲存計畫（\"Mojave Groundwater Bank\"），該計畫將（1）在 50 年內儲存 2.5 百萬英畝英尺水資源（平均每年 50,000 英畝英尺）供非本公司土地的有益用途，服務南加州未充分服務的社區，以及（2）在含水層中儲存最多 1 百萬英畝英尺進口水資源。這些許可曾遭法律挑戰，但於 2014 年加州高等法院與 2016 年加州上訴法院判決中，均被維持並確認無誤。",
+    "2021 年，本公司完成取得 30 英寸鋼製天然氣管線（\"Northern Pipeline\"），該管線從 Cadiz Ranch 延伸 220 英里，穿越肯納與聖伯納迪諾縣，終點為加州中央谷地。該管線原為輸送化石燃料而建，目前閒置，本公司正準備轉為輸送水資源。北方管線路線與多個南加州水資源輸送設施交會，包括加州水道、洛杉磯水道與莫哈維河管線。",
+    "2022 年，本公司完成取得 ATEC Systems, Inc. 的資產，該公司為生產專用過濾系統的廠商，用以去除常見地下水污染物，這些污染物會對飲用水造成健康風險，包括鐵、錳、砷、硝酸鹽、六價鉻及其他關注成分。",
+    "2024 年，本公司與多家公營水系統簽訂協議，購買每年 21,275 英畝英尺（\"AFY\"）的水資源供應，來自 Mojave Groundwater Bank，並透過北方管線進行配送。",
+    "為籌措 Mojave Groundwater Bank 計畫所有改善與運作所需設施的建設費用，包括北方管線、南方管線及相關設施，本公司設立新特殊目的營運實體 Mojave Water Infrastructure Company LLC（\"MWI\"），將與公部門、原住民部落及其他投資者合作，共同資助這些資本支出。",
+    "",
+    "此外，本公司目前正與私人股本公司進行盡職調查，目標籌集最高達400 百萬美元的權益投資。",
+    "在完成對MWI追加400 百萬美元權益資本投資的最終協議後，本公司預期將向MWI轉讓其管線基礎設施資產，包括北方管線與南方管線的通行權。此外，Lytton將向MWI轉讓其Storage Cash Flows Right（請參閱合併財務報表附註7 – \"長期負債\"），使MWI投資者能分享由建設設施所產生的現金流，包括來自供應契約與Storage Cash Flows Right的現金流。根據此潛在結構，作為本公司轉讓資產的對價，本公司預期在交割時會收到一筆現金補償，並取得MWI的股權，使本公司能分享MWI長期現金流，以及其他對價。此外，本公司將保留對本公司水儲存業務所產生的49%現金流之權利，此部分現金流本公司不會轉讓至MWI。",
+    "MWI投資者預期會與本公司及專案參與者協調，尋求可用的基礎設施補助金及/或其他融資選擇，包括透過待成立的共同權力機構發行潛在收入債券，以資助任何剩餘的建設成本。",
+    "目前的水產業價值鏈包括水供應、水儲存、廢水處理、長距離輸水、地方配水系統，以及用於監測、輸送、交易、處理及整合水資源的廣泛產品、技術與服務，跨越數千英里，以應對多樣化客戶羣的挑戰與需求。水產業客戶羣包括負責取得、分配及管理進口水資源的區域性水務機構；提供、處理及監測潔淨水或輸送、處理及分析廢水或暴雨水的水與廢水公用事業；負責公共安全、環境保護及經濟安全的政府機構；以及需要長期可靠潔淨且經濟可行水資源的商業與工業客戶。",
+    "氣候變遷已幹擾全球的水文週期。極端天氣已造成人類用水供應的極端不確定性。頻繁且強烈的暴雨與乾濕年份的波動，已創造出迫切需求，以技術、服務及基礎設施投資來捕捉、儲存及輸送潔淨水。此外，強烈天氣、極端洪水及日益嚴格的水質管制限制，已超出現有水基礎設施的容量，並使水價在過去十年中不斷上升。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "本公司之研發活動尚未產生重大營業收入",
+    "除非本公司能成功執行計畫以發展本公司土地資產，否則本公司可能永遠無法實現盈利",
+    "本公司不動產之開發受到嚴格規範，需經政府審批與許可，且可能被拒絕，且可能涉及競爭性政府利益與目標",
+    "本公司可能無法執行 Mojave Groundwater Bank 之建設、所有權與營運計畫，並取得所需資金",
+    "本公司未能如期償還債務本金與利息或無法取得額外融資，將影響本公司執行資產開發計畫之能力",
+    "發行 equity securities 及管理 equity incentive plans 將導致股本稀釋",
+    "本公司 equity securities 之股票價格波動可能對現有及未來股東產生不利影響",
+    "資訊科技系統故障及資料安全事件可能損害本公司業務",
+    "{'original': 'Increased Cybersecurity Requirements, Vulnerabilities, Threats and More Sophisticated and Targeted Computer Crime Could Pose a Risk to Our Systems, Networks, Products, Solutions, Services and Data', 'translated': '增加的網路安全需求、漏洞、威脅以及更為複雜且針對性的電腦犯罪可能對我們的系統、網路、產品、解決方案、服務及資料造成風險'}"
+   ],
+   "paragraphs": [
+    "本公司業務面臨許多風險，包括下列所描述的風險。",
+    "目前，本公司資產開發活動包括位於聖伯納迪諾縣不動產的水資源（供水、儲存與輸送）以及土地與農業開發。截至目前為止，本公司尚未從這些開發活動中獲得顯著收入，且本公司無法確定何時、是否能從這些業務部門獲得足夠的營運收入以彌補開發活動的成本。因此，本公司持續產生營運淨虧損。",
+    "本公司供水協議受到財務與法規條件限制，這些條件可能無法達成。此外，供水、儲存、輸送、水過濾或可持續農業的開發情況以及任何相關專案的獲利潛力，皆面臨重大不確定性，包括水資源供應量變動及水資源分配優先順序變更的風險、本公司能否履行任何供水協議所需的契約條件，以及本公司能否完成水資源輸送所需的建設工程。其他風險包括本公司能否取得所有必要的法規許可與執照、社區、環境或其他團體的訴訟、未預見的技術困難、總體經濟條件及農業、水過濾產品與水資源供應的競爭，以及在簽訂契約或營運啟動後，產生顯著營運收入所需時間。",
+    "在開發本公司土地資產及相關水資源時，本公司需遵守美國聯邦、州及地方的法律、規章、規則與法規，涉及土地使用分區、資源保護、環境影響、基礎建設設計、土地分割、建設等事項。本公司開發活動面臨這些美國聯邦、州及地方法律、規章與政策被不利解釋或新法規、修正法規與政策被採納的風險，這些法規可能禁止、限制、修改或延宕本公司開發活動。",
+    "此外，本公司開發活動需要政府許可與執照。若這些許可被拒絕或被授予附帶不利條件或限制，將不利於本公司成功實現開發計畫，並可能延宕本公司在資產開發上的投資回報。",
+    "例如，目前本公司持有與多個公共水系統的協議，購買 21,275 AFY 的供水量，並與其他公共水機構進行討論，以簽訂 Mojave Groundwater Bank（50,000 AFY 全部供水能力）的協議。任何契約皆將受到條件限制，包括標準法規審查與許可。本公司無法保證能達成任何這些契約的條件，即使達成，也無法保證能及時達成。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -1,0 +1,132 @@
+{
+ "ticker": "LCNB",
+ "cik": "0001074902",
+ "accession": "0001437749-26-007758",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [],
+   "paragraphs": [
+    "Certain statements made in this document regarding LCNB's financial condition, results of operations, plans, objectives, future performance and business, are \"forward-looking statements\" within the meaning of Section 27A of the Securities Act of 1933, as amended, Section 21E of the Securities Exchange Act of 1934, as amended, and the Private Securities Litigation Reform Act of 1995. These forward-looking statements are identified by the fact they are not historical facts and include words such as \"anticipate\", \"could\", \"may\", \"feel\", \"expect\", \"believe\", \"might\", \"plan\", and similar expressions.",
+    "These forward-looking statements reflect management's current expectations based on all information available to management and its knowledge of LCNB's business and operations. Additionally, LCNB's financial condition, results of operations, plans, objectives, future performance and business are subject to risks and uncertainties that may cause actual results to differ materially. These factors include, but are not limited to:",
+    "1. the success, impact, and timing of the implementation of LCNB's business strategies;",
+    "LCNB's ability to integrate recent and future acquisitions may be unsuccessful, or may be more difficult, time-consuming, or costly than expected;",
+    "LCNB may incur increased loan charge-offs in the future and the allowance for credit losses may be inadequate;",
+    "LCNB may face competitive loss of customers to both bank and nonbank financial institutions;",
+    "changes in the interest rate environment, either by interest rate increases or decreases, may have results on LCNB's operations materially different from those anticipated by LCNB's market risk management functions;",
+    "changes in general economic conditions, including the potential economic impacts of a prolonged U.S. government shutdown, and increased competition could adversely affect LCNB's operating results;",
+    "changes in or instability regarding regulations and government policies affecting bank holding companies and their subsidiaries, including changes in monetary policies, could negatively impact LCNB's operating results;",
+    "8. LCNB may experience difficulties growing loan and deposit balances;",
+    "United States trade relations with foreign countries could negatively impact the financial condition of LCNB's customers, which could adversely affect LCNB's operating results and financial condition;",
+    "global and/or geopolitical relations and/or conflicts could create financial market uncertainty and have negative impacts on commodities, currency, and stability, which could adversely affect LCNB's operating results and financial condition;",
+    "difficulties with technology or data security breaches, including cyberattacks or widespread outages, could negatively affect LCNB's ability to conduct business and its relationships with customers, vendors, and others;",
+    "adverse weather events and natural disasters and global and/or national epidemics could negatively affect LCNB's customers given its concentrated geographic scope, which could impact LCNB's operating results; and"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Economic and Market Conditions",
+    "Risks Related to LCNB's Operations",
+    "Risk factors related to LCNB's Wealth Management business.",
+    "General Risk Factors"
+   ],
+   "paragraphs": [
+    "There are risks inherent in LCNB's operations, many beyond management's control, which may adversely affect its financial condition and results from operations and should be considered in evaluating the Company. Credit, market, operational, liquidity, interest rate and other risks are described elsewhere in this report. Other risk factors may include the items described below.",
+    "Weakness in the economy and in the real estate market, including weakness specific to LCNB's geographic footprint, may negatively affect its financial condition and earnings.",
+    "LCNB's success depends, in part, on economic and political conditions, local and national, as well as governmental fiscal and monetary policies. Conditions such as inflation, recession, unemployment, changes in interest rates, fiscal and monetary policy, prolonged government shutdown, tariffs and trade policy including impositions of retaliatory tariffs, and other factors beyond LCNB's control may affect its deposit levels and composition, demand for loans, the ability of borrowers to repay their loans, and the value of the collateral securing the loans it makes. Economic turmoil in different regions of the world affect the economy and stock prices in the United States, which can affect LCNB's earnings and capital and the ability of its customers to repay loans. Due to LCNB's volume of real estate loans, declining real estate values could affect the value of property used as collateral as well as LCNB's ability to sell the collateral upon foreclosure. In 2025, the federal government was shut down from October 1, 2025 to November 12, 2025. The economic impact of a future long-spanning government shutdown is inherently uncertain and could have a material effect on LCNB's business, financial condition, and operations.",
+    "If the strength of the United States economy in general and the strength of the local economies in which LCNB conducts operations weakens, this could result in, among other things, a deterioration of credit quality or a reduced demand for credit, including a resultant effect on the loan portfolio and allowance for credit losses. These factors could also result in higher delinquencies and greater charge-offs in future periods, which would materially affect LCNB's financial condition and results of operations.",
+    "There is no assurance that LCNB's loan borrowers will not experience financial difficulties or that properties securing loans will not suffer deterioration in value. The fluctuations in national, regional and local economic conditions, including those related to local residential, commercial real estate and construction markets, may result in increased charge-offs. These fluctuations are not predictable, cannot be controlled, and may have a material impact on LCNB's operations and financial condition even if other favorable events occur.",
+    "Declining values of real estate, increases in unemployment, insurance market disruptions, and the related effects on local economies may increase LCNB's credit losses, which would negatively affect financial results."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "7. Management's Discussion and Analysis of Financial Condition and Results of Operations",
+    "Increase (Decrease)",
+    "2025 vs. 2024",
+    "2024 vs. 2023"
+   ],
+   "paragraphs": [
+    "This discussion and analysis of the consolidated financial condition and consolidated results of operations of LCNB is intended to amplify certain financial information regarding LCNB and should be read in conjunction with the consolidated financial statements and related notes thereto contained in this Annual Report to Shareholders on Form 10-K.",
+    "Net income for 2025 was $23.1 million (basic and diluted earnings per share of $1.63), compared to $13.5 million (basic and diluted earnings per share of $0.97) in 2024 and $12.6 million (basic and diluted earnings per share of $1.10) in 2023.",
+    "The following items affected financial position and results of operations for the years indicated:",
+    "Cincinnati Bancorp, Inc. merged with and into LCNB Corp. on November 1, 2023 and Eagle Financial Bancorp, Inc. merged with and into LCNB Corp. on April 12, 2024.",
+    "Merger related expenses connected with the above two acquisitions totaled $3.4 million and $4.7 million during 2024 and 2023, respectively.",
+    "Net interest income in 2025 was $70.2 million, compared to $60.8 million in 2024 and $56.3 million 2023.",
+    "The provision for credit losses in 2025 totaled $1.9 million, compared to a provision of $2.0 million for 2024 and $2.1 for 2023. Included in the provision for credit losses for 2025 was a $1.4 million provision to fully reserve against two commercial and industrial loans made to the same borrower. Included in the provision for 2024 was a $763 thousand provision related to loans acquired through the Eagle Financial Bancorp acquisition that were not considered purchased with credit deterioration (\"non-PCD loans\"). A comparable provision of $1.7 million was recognized on non-PCD loans acquired through the Cincinnati Bancorp acquisition in 2023.",
+    "Net gains from sales of loans totaled $2.9 million in 2025, $3.4 million in 2024, and $697 thousand in 2023. Gains were higher in 2024 primarily due to the volume of loans sold.",
+    "Other non-interest expense for 2025 included $265 thousand in impairment charges on a closed office building held-for-sale. Other non-interest expense for 2024 and 2023 were partially offset by gains recognized on the sales of closed office buildings of $455 thousand and $425 thousand, respectively. The offices were closed as a result of LCNB's branch consolidation strategy.",
+    "LCNB's primary source of earnings is net interest income, which is the difference between earnings from loans and other investments and interest paid on deposits and other liabilities. The following table presents, for the years indicated, average balances for interest-earning assets and interest-bearing liabilities, the income or expense related to each item, and the resulting average yields earned or rates paid.",
+    "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations (continued)",
+    "Years ended December 31, 2025 2024 2023 Average Interest Average Average Interest Average Average",
+    "Interest Average Outstanding Earned/ Yield/ Outstanding Earned/ Yield/ Outstanding Earned/",
+    "Yield/ Balance Paid Rate Balance Paid Rate Balance Paid Rate (Dollars in thousands) Loans (1)"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "paragraphs": [
+    "本文件中關於LCNB財務狀況、營運成果、計畫、目標、未來表現及業務的某些陳述，係依照1933年證券交易法第27A節（經修正）及1934年證券交易所法第21E節（經修正）以及1995年私人證券訴訟改革法案所定義的「向前看陳述」。這些向前看陳述的特徵在於它們並非歷史事實，並包含如「預期」、「可能」、「或許」、「相信」、「計畫」等詞彙。",
+    "這些向前看陳述反映管理階層根據目前可取得的資訊及對LCNB業務與營運的瞭解所作的當前預期。此外，LCNB的財務狀況、營運成果、計畫、目標、未來表現及業務，可能受到風險與不確定性因素的影響，導致實際結果與預期有重大差異。這些因素包括但不限於：",
+    "1. LCNB業務策略的實施成功程度、影響力及時間安排；",
+    "LCNB整合近期及未來收購的能力建立可能未達成，或可能比預期更困難、耗時或成本更高；",
+    "LCNB未來可能面臨貸款壞帳增加，且信用損失準備金可能不足；",
+    "LCNB可能因競爭而失去客戶，包括銀行與非銀行金融機構；",
+    "利率環境的變化，無論是利率上漲或下跌，可能對LCNB營運產生與其市場風險管理功能預期不同的重大影響；",
+    "總體經濟條件的變化，包括美國政府長期停擺可能造成的經濟影響，以及競爭增加，可能對LCNB營運成果產生不利影響；",
+    "規範與政府政策的變更或不穩定，可能影響銀行控股公司及其子公司，包括貨幣政策的變更，可能會對LCNB的營運結果產生負面影響；",
+    "8. LCNB可能面臨貸款與存款餘額成長的困難；",
+    "美國與外國國家的貿易關係，可能對LCNB客戶的財務狀況產生負面影響，這可能會對LCNB的營運結果與財務狀況產生不利影響；",
+    "全球及/或國際關係及/或衝突，可能造成財務市場的不確定性，並對商品、貨幣與穩定性產生負面影響，這可能會對LCNB的營運結果與財務狀況產生不利影響；",
+    "技術困難或資料安全事件，包括網路攻擊或廣泛的中斷，可能會對LCNB進行業務的能力建立及其與客戶、供應商及其他方的關係產生負面影響；",
+    "惡劣天氣事件與自然災害及全球及/或國家疫情，可能因LCNB的地理範圍集中而對其客戶產生負面影響，這可能會影響LCNB的營運結果；"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "7. 管理層對財務狀況與營運成果之討論與分析",
+    "增加（減少）",
+    "{'text': '2025 與 2024', 'translatedText': '2025 與 2024'}",
+    "{'text': '2024 與 2023', 'translatedText': '2024 與 2023'}"
+   ],
+   "paragraphs": [
+    "本項討論及分析係針對LCNB整體財務狀況與整體營運成果，旨在強調有關LCNB之財務資訊，應與本年度股東年報（Form 10-K）所載之整體財務報表及其相關附註一併閱讀。",
+    "2025 年淨收入為 23.1 百萬美元（基本及稀釋每股盈餘為 1.63 美元），相較於 2024 年的 13.5 百萬美元（基本及稀釋每股盈餘為 0.97 美元）以及 2023 年的 12.6 百萬美元（基本及稀釋每股盈餘為 1.10 美元）。",
+    "下列項目影響各年度之財務狀況與營運成果：",
+    "辛辛那提銀行控股公司（Cincinnati Bancorp, Inc.）於2023年11月1日與LCNB Corp合併，而鷹金融銀行控股公司（Eagle Financial Bancorp, Inc.）於2024年4月12日與LCNB Corp合併。",
+    "與上述兩項收購相關之合併費用，於2024年為4.7 百萬美元，2023年為3.4 百萬美元。",
+    "2025年淨利息收入為70.2 百萬美元，較2024年60.8 百萬美元及2023年56.3 百萬美元為高。",
+    "2025年信貸減損提列金額為1.9 百萬美元，較2024年2.0 百萬美元及2023年2.1 百萬美元為低。2025年信貸減損提列金額中包含1.4 百萬美元，用以完全備抵對同一借款人所發放之兩筆商業及工業貸款。2024年信貸減損提列金額中包含763 千美元，與透過鷹金融銀行控股公司收購所取得之貸款相關，且這些貸款未被視為以信用惡化取得（\"非PCD貸款\"）。2023年透過辛辛那提銀行控股公司收購所取得之非PCD貸款，則認列1.7 百萬美元之減損提列金額。",
+    "2025年貸款出售所產生之淨收益為2.9 百萬美元，2024年為3.4 百萬美元，2023年為697 千美元。2024年收益較高，主要係因出售貸款之數量增加。",
+    "其他非利息支出於2025年包含265千美元於已關閉且持有待售辦公大樓的減值費用。其他非利息支出於2024年及2023年則部分因出售已關閉辦公大樓所認列的獲利455千美元及425千美元而抵銷。這些辦公室關閉係因LCNB的分行整併策略所致。",
+    "LCNB的主要獲利來源為淨利息收入，即貸款及其他投資所產生的收益與存款及其他負債所支付的利息之間的差額。下表顯示於所指年份，平均利息收入資產與利息負債的餘額、與各項相關的收入或費用，以及所產生的平均收益率或支付率。",
+    "項目7. 管理層對財務狀況與營運成果之討論與分析（續）",
+    "會計年度截止2025年12月31日 2024 2023 平均利息 平均 平均利息 平均 平均",
+    "利息 平均餘額 獲得/ 收益率/ 餘額 獲得/ 收益率/ 餘額 獲得/",
+    "收益率/ 款項餘額 已支付 金額/ 收益率/ 餘額 已支付 金額/ 收益率/ 餘額 已支付 (金額以千美元計) 貸款 (1)"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與總體經濟及市場條件相關的風險",
+    "與LCNB營運相關的風險",
+    "與LCNB資產管理業務相關的風險因素。",
+    "一般風險因素"
+   ],
+   "paragraphs": [
+    "本公司營運存在固有風險，許多風險超出管理階層的控制範圍，可能對其財務狀況及營運結果產生不利影響，評估本公司時應加以考慮。信用、市場、營運、流動性、利率及其他風險於本報告其他部分有說明。其他風險因素可能包括下列所描述的項目。",
+    "經濟與不動產市場的弱勢，包括特定於本公司地理範圍的弱勢，可能對其財務狀況及獲利產生負面影響。",
+    "本公司成功在一定程度上取決於經濟與政治條件，包括地方與國家層面，以及政府財政與貨幣政策。例如通貨膨脹、經濟衰退、失業率、利率變動、財政與貨幣政策、長期政府停擺、關稅與貿易政策，包括實施報復性關稅，以及其他超出本公司控制範圍的因素，可能影響其存款規模與組成、貸款需求、借款人償還貸款的能力，以及貸款擔保品的價值。世界不同地區的經濟動盪會影響美國經濟與股市價格，進而影響本公司獲利與資本，以及客戶償還貸款的能力。由於本公司擁有大量不動產貸款，不動產價值下跌可能影響用作擔保品的財產價值，以及本公司在拍賣時出售擔保品的能力。2025年，聯邦政府於2025年10月1日至2025年11月12日間停擺。未來長期政府停擺的經濟影響本質上不確定，可能對本公司業務、財務狀況及營運產生重大影響。",
+    "如果美國整體經濟與本公司營運所在地區經濟的強度減弱，可能會導致信用品質惡化或信貸需求減少，包括對貸款組合與信用減損準備的影響。這些因素也可能導致未來期間的違約率提高與減損金額增加，進而對本公司財務狀況及營運結果產生重大影響。",
+    "無法保證本公司貸款借款人不會遭遇財務困難，或擔保貸款的財產不會出現價值減損。國家、區域及地方經濟條件的波動，包括與地方住宅、商業不動產及建設市場相關的條件，可能導致減損金額增加。這些波動無法預測，也無法控制，即使其他有利事件發生，仍可能對本公司營運及財務狀況產生重大影響。",
+    "不動產價值下跌、失業率上升、保險市場動盪，以及對地方經濟的相關影響，可能增加本公司信用減損，進而對財務結果產生負面影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

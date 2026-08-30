@@ -1,0 +1,96 @@
+{
+ "ticker": "GNE",
+ "cik": "0001528356",
+ "accession": "0001437749-26-014294",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Genie Retail Energy",
+    "Genie Renewables",
+    "Climate Change",
+    "Employees and Human Capital Resources"
+   ],
+   "paragraphs": [
+    "Genie Energy Ltd. is end-to-end provider of energy services. We manage our business and report results through two reporting segments.",
+    "● Genie Retail Energy (\"GRE\") supplies electricity and natural gas to residential and small business customers through retail energy providers (\"REPs\") operating in certain deregulated markets within the United States; and",
+    "● Genie Renewables (\"GREW\") is primarily comprised of the following three lines of businesses:",
+    "o Genie Solar — an integrated solar energy company;",
+    "o CityCom Solar (\"CityCom\") — a marketer of community solar and alternative products and services complementary to our energy offerings;",
+    "o Diversegy LLC (\"Diversegy\") — an energy procurement advisor for industrial, commercial and municipal customers; and",
+    "o Roded Recycling Industries (\"Roded\") — a producer of high-grade plastic pallets from recycled materials.",
+    "We have two reportable business segments: GRE and GREW. Our reportable segments are distinguished by types of service, customers and customer geography. Financial information by segment and geographic areas is presented in \"Note 20 — Business Segment and Geographic Information\" in the Notes to our Consolidated Financial Statements in this Annual Report.",
+    "The Company owns 100% of Genie Retail Energy, Inc. and 95.5% of Genie Energy Services, LLC (\"GES\"). GES holds our interest in the entities comprising the GREW segment. In the third quarter of 2022, the Company ceased to operate a former segment, GRE International (\"GREI\"). Certain of GREI's assets and liabilities and operations were classified as discontinued operations and the segment's remaining assets and liabilities were combined with corporate.",
+    "GRE owns and operates REPs, including IDT Energy, Inc. (\"IDT Energy\"), Residents Energy, LLC (\"Residents Energy\"), Town Square Energy, LLC and Town Square Energy East, LLC (collectively, \"TSE\"), Southern Federal Power, LLC (\"SFP\"), Evergreen Gas & Electric, LLC (\"Evergreen\") and Mirabito Natural Gas, LLC (\"Mirabito\"). GRE's REP businesses resell electricity and natural gas to residential and small business and small commercial customers. The majority of GRE's REPs' customers are located in the Eastern and Midwestern United States and Texas. Mirabito supplies natural gas to commercial customers in Florida.",
+    "GREW consists of our 95.5% interest in Genie Solar, our 93.8% interest in CityCom Solar, our 91.5% interest in Diversegy and our 72.2% interest in Roded.",
+    "DISCONTINUED OPERATIONS IN UNITED KINGDOM, FINLAND AND SWEDEN",
+    "Previously, the Company had a third segment, Genie Retail Energy International, or GREI, which supplied electricity and natural gas to residential and small business customers in certain markets in Europe. GREI was comprised of Orbit Energy Limited (\"Orbit\"), which operated in the United Kingdom, Lumo Energia Oyj (\"Lumo Finland\") which operated in Finland and Lumo Energi AB (\"Lumo Sweden\") which operated in Sweden.",
+    "On November 29, 2021, Orbit was declared insolvent. Effective December 1, 2021, the administration of Orbit was transferred to third-party administrators (the \"Orbit Administrator\"). The accounts of Orbit were deconsolidated from those of the Company effective December 1, 2021."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Genie Retail Energy",
+    "Risks Related to GREW",
+    "General Corporate Risks",
+    "Risk Related to Our Financial Condition and Reporting",
+    "Risks Related to Our Capital Structure"
+   ],
+   "paragraphs": [
+    "Our business, operating results or financial condition could be materially adversely affected by any of the following risks as well as the other risks highlighted elsewhere in this document, particularly the discussions about regulation, competition and intellectual property. The trading price of our Class B common stock could decline due to any of these risks.",
+    "The REP business is highly competitive, and we may be forced to reduce prices or incur additional costs.",
+    "GRE's REP businesses face substantial competition both from the traditional incumbent utilities as well as from other REPs, including REP affiliates of the incumbent utilities in specific territories. As a result, we may be forced to reduce prices, incur increased costs or lose market share and cannot always pass along increases in commodity costs to customers. We compete on the basis of provision of services, customer service and price. Present or future competitors may have greater financial, technical or other resources which could put us at a disadvantage. Additionally, our experience has shown that utilities do not change their rates offered to customers immediately in response to increased prices for the underlying commodities.",
+    "Increasing our market share depends in part on our ability to persuade more customers to switch to GRE's services than those that churn from us to other providers or back to the local utility. Moreover, local utilities and some REPs may have certain advantages such as name recognition, financial strength and long-standing relationships with customers. Persuading potential customers to switch to GRE's REPs requires significant marketing and sales operations. If GRE is not successful in convincing customers to switch our REP businesses, results of operations and financial condition will all be adversely affected.",
+    "Our strategy is based on current regulatory conditions and assumptions, which could change or prove to be incorrect.",
+    "From time to time, various states may propose or modify legislation or regulations which could adversely affect our marketing practices and ability to acquire and serve customers. The Company and the REP industry as a whole is working with government representatives, legislators, and advocacy interest groups to lobby for legislation and regulation that most effectively protects customer interests while preserving the competitive structure of deregulated markets. We also seek to expand and diversify into new markets with regulatory structures that are more favorable to the competitive retail supply of energy."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'original': 'Genie Retail Energy', 'translated': 'Genie Retail Energy'}",
+    "{'original': 'Genie Renewables', 'translated': 'Genie Renewables'}",
+    "{'original': 'Climate Change', 'translated': '氣候變遷'}",
+    "{'original': 'Employees and Human Capital Resources', 'translated': '員工及人力資本資源'}"
+   ],
+   "paragraphs": [
+    "Genie Energy Ltd. 是能源服務的端到端供應商。我們管理業務並報告結果透過兩個應報告分部。",
+    "● Genie Retail Energy (\"GRE\") 透過零售能源供應商 (\"REPs\") 在美國特定解除管制市場為住宅及小型企業客戶提供電力與天然氣服務；",
+    "● Genie Renewables (\"GREW\") 主要包含以下三個業務線：",
+    "o Genie Solar — 營運整合型太陽能電力公司；",
+    "o CityCom Solar (\"CityCom\") — 廣告社區太陽能與替代性產品及服務，與我們的能源服務相輔相成；",
+    "o Diversegy LLC (\"Diversegy\") — 工業、商業及市政客戶的能源採購顧問；",
+    "o Roded Recycling Industries (\"Roded\") — 從回收材料製造高級塑膠託盤的生產商。",
+    "我們有兩個應報告業務分部：GRE 和 GREW。我們的應報告分部根據服務類型、客戶類型及客戶地理區域進行區分。各分部及地理區域的財務資訊請參閱本年度報告「附註 20 — 業務分部及地理區域資訊」部分，內容載於我們合併財務報表的附註中。",
+    "本公司持有 Genie Retail Energy, Inc. 100% 股權，以及 Genie Energy Services, LLC (\"GES\") 95.5% 股權。GES 持有我們在 GREW 分部相關實體的權益。2022 年第三季，本公司停止運作一個先前的分部 GRE International (\"GREI\")。GREI 部分資產、負債及營運被歸類為已終止營運，該分部剩餘資產與負債則與公司本部合併。",
+    "GRE 擁有並營運 REPs，包括 IDT Energy, Inc. (\"IDT Energy\")、Residents Energy, LLC (\"Residents Energy\")、Town Square Energy, LLC 與 Town Square Energy East, LLC（合稱 \"TSE\"）、Southern Federal Power, LLC (\"SFP\")、Evergreen Gas & Electric, LLC (\"Evergreen\") 與 Mirabito Natural Gas, LLC (\"Mirabito\")。GRE 的 REP 事業將電力與天然氣重新銷售給住宅與小型企業及小型商業客戶。GRE 的 REPs 多數客戶位於美國東部與中西部以及德克薩斯州。Mirabito 向佛羅裏達州的商業客戶供應天然氣。",
+    "GREW 包含我們在 Genie Solar 的 95.5% 權益、在 CityCom Solar 的 93.8% 權益、在 Diversegy 的 91.5% 權益，以及在 Roded 的 72.2% 權益。",
+    "英國、芬蘭與瑞典的已終止營運",
+    "先前，本公司曾有第三個分部，Genie Retail Energy International，或 GREI，向歐洲某些市場的住宅與小型企業客戶供應電力與天然氣。GREI 包含 Orbit Energy Limited (\"Orbit\")，其在英國營運；Lumo Energia Oyj (\"Lumo Finland\")，其在芬蘭營運；以及 Lumo Energi AB (\"Lumo Sweden\")，其在瑞典營運。",
+    "2021 年 11 月 29 日，Orbit 被宣告無清償能力。自 2021 年 12 月 1 日起，Orbit 的管理權轉移至第三方管理機構（\"Orbit 管理機構\"）。自 2021 年 12 月 1 日起，Orbit 的帳戶已從本公司帳戶中脫離合併範圍。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'translatedText': '與 Genie Retail Energy 相關之風險'}",
+    "{'translatedText': '與 GREW 相關之風險'}",
+    "{'translatedText': '一般公司風險'}",
+    "{'translatedText': '與本公司財務狀況及報導相關之風險'}",
+    "{'translatedText': '與本公司資本結構相關之風險'}"
+   ],
+   "paragraphs": [
+    "本公司之業務、營運結果或財務狀況可能因下列風險而受到重大不利影響，同時亦可能受到本文件其他部分所提及之風險影響，特別是關於規範、競爭與智慧財產權之討論。本公司 Class B 普通股之交易價格可能因上述風險而下跌。",
+    "REP 業務具有高度競爭性，本公司可能被迫降低價格或增加額外成本。",
+    "GRE 之 REP 業務面臨來自傳統既有電力供應商與其他 REPs 之重大競爭，包括在特定地區既有電力供應商之 REP 關係企業。因此，本公司可能被迫降低價格、增加成本或失去市場佔有率，且無法總是將基礎商品成本之增加轉嫁給客戶。本公司競爭基礎為服務品質、客戶服務與價格。現有或未來之競爭對手可能擁有較多之財務、技術或其他資源，可能使本公司處於劣勢。此外，本公司經驗顯示，電力供應商不會立即因基礎商品價格上漲而調整對客戶之收費。",
+    "提高市場佔有率在部分程度上取決於本公司能否說服更多客戶轉換至 GRE 之服務，而非從本公司流失至其他供應商或迴流至當地電力供應商。此外，當地電力供應商與部分 REPs 可能具有某些優勢，例如品牌知名度、財務實力與與客戶長期之關係。說服潛在客戶轉換至 GRE 之 REPs 需要大量之行銷與銷售作業。若 GRE 未能成功說服客戶轉換至本公司之 REP 業務，則營運結果與財務狀況均將受到重大不利影響。",
+    "本公司之策略係基於目前之規範條件與假設，這些條件與假設可能改變或證明為錯誤。",
+    "有時，各州可能提出或修改法律或規範，可能對本公司之行銷作法與獲取與服務客戶之能力造成不利影響。本公司與 REP 行業整體正與政府代表、立法者與倡議利益團體合作，遊說制定最能保護客戶權益同時維持解除管制市場競爭結構之法律與規範。本公司亦致力於拓展與多元化進入具有較為有利於競爭零售供應之能源之規範結構之新市場。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

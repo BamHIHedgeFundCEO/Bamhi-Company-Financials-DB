@@ -1,0 +1,100 @@
+{
+ "ticker": "ORC",
+ "cik": "0001518621",
+ "accession": "0001437749-26-004889",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Investment and Capital Allocation Strategy",
+    "Risk Management",
+    "Liquidity Management Strategy",
+    "Tax Structure",
+    "Investment Company Act Exemption",
+    "Employees and Human Capital Resources",
+    "Distributions",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Orchid Island Capital, Inc., a Maryland corporation (\"Orchid,\" the \"Company,\" \"we\" or \"us\"), is a specialty finance company that invests in residential mortgage-backed securities (\"RMBS\"). The principal and interest payments of these RMBS are guaranteed by the Enterprises or the Government National Mortgage Association (\"Ginnie Mae\" and, collectively with the Enterprises, \"GSEs\") and are backed primarily by single-family residential mortgage loans. We refer to these types of RMBS as Agency RMBS. Our portfolio consists of two categories of Agency RMBS: (i) traditional pass-through (\"PT\") Agency RMBS, such as mortgage PT certificates and collateralized mortgage obligations (\"CMOs\") issued by the GSEs and (ii) structured Agency RMBS, such as interest only securities (\"IOs\"), inverse interest only securities (\"IIOs\") and principal only securities (\"POs\"), among other types of structured Agency RMBS. Our website is located at http://ir.orchidislandcapital.com. Information on our website is not part of this Report. Our common stock is listed on the NYSE and trades under the symbol \"ORC.\"",
+    "We are organized and conduct our operations to qualify to be taxed as a REIT for U.S. federal income tax purposes. As such, we are required to distribute 90% of our REIT taxable income, determined without regard to the deductions for dividends paid and excluding any net capital gain, annually. We generally will not be subject to U.S. federal income tax on our REIT taxable income to the extent we currently distribute our net taxable income to our stockholders and maintain our REIT qualification. It is our intention to distribute 100% of our taxable income, after application of available tax attributes, within the limits prescribed by the Internal Revenue Code of 1986, as amended (the \"Code\"), which may extend into the subsequent taxable year.",
+    "Bimini Capital Management, Inc. (sometimes referred to herein as \"Bimini\") managed our portfolio from our inception through the completion of our initial public offering on February 20, 2013. Upon completion of the offering, we became externally managed by Bimini Advisors, LLC (\"Bimini Advisors,\" or our \"Manager\") pursuant to a management agreement. Our Manager is an investment advisor registered with the Securities and Exchange Commission (\"SEC\"). Additionally, our Manager is a Maryland limited liability company that is a wholly-owned subsidiary of Bimini, which has a long track record of managing investments in Agency RMBS. Bimini commenced active investment management operations in 2003. We believe our relationship with our Manager enables us to leverage our Manager's established portfolio management resources for each of our targeted asset classes and its infrastructure supporting those resources. Additionally, we have benefitted and expect to continue to benefit from our Manager's finance and administration functions, which address legal, compliance, investor relations and operational matters, including portfolio management, trade allocation and execution, securities valuation, repurchase agreement trading and clearing, risk management, cybersecurity, information technologies and governance considerations in connection with the performance of its duties.",
+    "Our Manager is responsible for administering our business activities and day-to-day operations. Pursuant to the terms of the management agreement, our Manager provides us with our management team, including our officers, along with appropriate support personnel. Our Manager is at all times subject to the supervision and oversight of our board of directors (the \"Board of Directors\") and has only such functions and authority as we delegate to it.",
+    "Our business objective is to provide attractive risk-adjusted total returns to our investors over the long term through a combination of capital appreciation and the payment of regular monthly distributions. We intend to achieve this objective by investing in PT Agency RMBS and structured Agency RMBS. We seek to generate income from (i) the net interest margin on our leveraged PT Agency RMBS portfolio and the leveraged portion of our structured Agency RMBS portfolio, and (ii) the interest income we generate from the unleveraged portion of our structured Agency RMBS portfolio. We also seek to minimize the volatility of both the net asset value of, and income from, our portfolio through asset selection, liquidity and interest rate risk management.",
+    "We fund our PT Agency RMBS and certain of our structured Agency RMBS through repurchase agreements. However, we generally do not employ leverage on our structured Agency RMBS that have no principal balance, such as IOs and IIOs, because those securities contain structural leverage. We may pledge a portion of these assets to increase our cash balance, but we do not intend to invest the cash derived from pledging the assets.",
+    "Our target asset categories and principal assets in which we intend to invest are as follows:",
+    "We invest in PT securities, which are securities secured by residential real property in which payments of both interest and principal on the securities are generally made monthly. In effect, these securities pass through the monthly payments made by the individual borrowers on the mortgage loans that underlie the securities, net of fees paid to the loan servicer and the guarantor of the securities. PT certificates can be divided into various categories based on the characteristics of the underlying mortgages, such as the term or whether the interest rate is fixed or variable.",
+    "The payment of principal and interest on mortgage PT securities issued by Ginnie Mae, but not the market value, is guaranteed by the full faith and credit of the federal government. Payment of principal and interest on mortgage PT certificates issued by the Enterprises, but not the market value, is guaranteed by the respective agency issuing the security.",
+    "A key feature of most mortgage loans is the ability of the borrower to repay principal earlier than scheduled. This is called a prepayment. Prepayments arise primarily due to sale of the underlying property, refinancing, foreclosure, or accelerated amortization by the borrower. Prepayments result in a return of principal to PT certificate holders. This may result in a lower or higher rate of return upon reinvestment of principal. This is generally referred to as prepayment uncertainty. If a security purchased at a premium prepays at a higher-than-expected rate, then the value of the premium would be eroded at a faster-than-expected rate. Similarly, if a discount mortgage prepays at a lower-than-expected rate, the amortization towards par would be accumulated at a slower-than-expected rate. The possibility of these undesirable effects is sometimes referred to as \"prepayment risk.\"",
+    "In general, declining interest rates tend to increase prepayments, and rising interest rates tend to slow prepayments. Like other fixed-income securities, when interest rates rise, the value of Agency RMBS generally declines. The rate of prepayments on underlying mortgages will affect the price and volatility of Agency RMBS and may shorten or extend the effective maturity of the security beyond what was anticipated at the time of purchase. If interest rates rise, our holdings of Agency RMBS may experience reduced spreads over our funding costs if the borrowers of the underlying mortgages pay off their mortgages later than anticipated. This is generally referred to as \"extension risk.\"",
+    "Pass-through Agency RMBS loans with characteristics such that prepayment risk is reduced when pooled together are referred to as \"specified pools\". Such securities typically trade at a premium to pools without such favorable characteristics and the magnitude of the premium varies with the perceived benefit of the favorable loan characteristic. Such securities are expected to result in higher realized interest income over time. Examples of such favorable loan characteristics would be lower loan balances. The primary reason is the cost to refinance a mortgage loan is to a large extent fixed. Since the benefit of a lower interest rate and the resulting interest savings over time decline as the outstanding loan balance declines, all else equal the decline in the interest rate must be larger as the outstanding loan balance declines in order to justify the cost to refinance the loan. Additional examples would be loans to borrowers with lower credit scores since such borrowers typically cannot qualify for lower loans as readily as borrowers with higher credit scores. The Company typically allocates a high percentage of its pass-through Agency RMBS to specified pools.",
+    "We may also invest in To-Be-Announced Forward Contracts (\"TBAs\"). A TBA security is a forward contract for the purchase or sale of Agency RMBS at a predetermined price, face amount, issuer, coupon and stated maturity on an agreed-upon future date. The specific Agency RMBS to be delivered into the contract are not known until shortly before the settlement date. We may choose, prior to settlement, to move the settlement of these securities out to a later date by entering into an offsetting TBA position, net settling the offsetting positions for cash, and simultaneously purchasing or selling a similar TBA contract for a later settlement date (together referred to as a \"dollar roll transaction\"). The Agency RMBS purchased or sold for a forward settlement date are typically priced at a discount to equivalent securities settling in the current month. This difference, or \"price drop,\" is the economic equivalent of interest income on the underlying Agency RMBS, less an implied funding cost, over the forward settlement period (referred to as \"dollar roll income\"). Consequently, forward purchases of Agency RMBS and dollar roll transactions represent a form of off-balance sheet financing. These TBAs are accounted for as derivatives and marked to market through the income statement and are not included in interest income.",
+    "The mortgage loans underlying PT certificates can generally be classified into the following categories:"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Summary of Risk Factors",
+    "Risk Factors",
+    "Risks Related to Our Business"
+   ],
+   "paragraphs": [
+    "Below is a summary of the principal factors that make an investment in our common stock speculative or risky. This summary does not address all of the risks that we face. Additional discussion of the risks summarized in this risk factor summary, and other risks that we face, can be found below under the heading \"Risk Factors\" and should be carefully considered, together with other information in this Report and our other filings with the SEC, before making an investment decision regarding our common stock.",
+    "Increases in interest rates may negatively affect the value of our investments and increase the cost of our borrowings, which could result in reduced earnings or losses and materially adversely affect our ability to pay distributions to our stockholders.",
+    "An increase in interest rates may also cause a decrease in the volume of newly issued, or investor demand for, Agency RMBS, which could materially adversely affect our ability to acquire assets that satisfy our investment objectives and our business, financial condition and results of operations and our ability to pay distributions to our stockholders.",
+    "Interest rate mismatches between our Agency RMBS and our borrowings may reduce our net interest margin during periods of changing interest rates, which could materially adversely affect our business, financial condition and results of operations and our ability to pay distributions to our stockholders.",
+    "Further downgrades of the U.S. credit rating, automatic spending cuts, mounting budget deficits or another government shutdown could negatively impact our liquidity, financial condition and earnings.",
+    "Differences in the stated maturity of our fixed rate assets, or in the timing of interest rate adjustments on our adjustable-rate assets, and our borrowings may adversely affect our profitability."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'translated_text': '本公司投資與資本配置策略'}",
+    "{'translated_text': '風險管理'}",
+    "{'translated_text': '流動性管理策略'}",
+    "{'translated_text': '稅務結構'}",
+    "{'translated_text': '投資公司法豁免'}",
+    "{'translated_text': '員工與人力資本資源'}",
+    "{'translated_text': '分紅'}",
+    "{'translated_text': '可取得資訊'}"
+   ],
+   "paragraphs": [
+    "Orchid Island Capital, Inc., 一間馬裏蘭州公司 (\"Orchid,\" \"本公司,\" \"我們\" 或 \"我們公司\"), 是一家專門從事財務投資的公司, 投資於住宅抵押貸款支持證券 (\"RMBS\"). 這些 RMBS 的本金與利息支付由企業或美國國民抵押貸款協會 (\"Ginnie Mae\" 以及與企業合稱 \"GSEs\") 保證, 並主要由單戶住宅抵押貸款支撐。我們稱這些類型的 RMBS 為機構 RMBS。我們的投資組合包含兩類機構 RMBS: (i) 傳統過手 (\"PT\") 機構 RMBS, 例如由 GSEs 發行的抵押貸款過手證券 (\"PT 證券\") 和抵押貸款擔保證券 (\"CMOs\") 以及 (ii) 結構化機構 RMBS, 例如利息-only 證券 (\"IOs\"), 反向利息-only 證券 (\"IIOs\") 和本金-only 證券 (\"POs\"), 以及其他類型的結構化機構 RMBS。我們的網站位於 http://ir.orchidislandcapital.com。網站上的資訊並非本報告的一部分。我們的普通股在紐約證券交易所上市, 並以符號 \"ORC\" 交易。",
+    "我們設立並運作以符合美國聯邦所得稅法規的 REIT 稅務資格。因此, 我們必須每年分配 90% 的 REIT 稅收所得, 並排除股息支付的扣除額及任何淨資本利得。我們一般不會就 REIT 稅收所得課徵美國聯邦所得稅, 前提是我們目前將淨稅收所得分配給股東, 並維持 REIT 資格。我們的意圖是在 1986 年內 Revenue Code (\"Code\") 所規定的範圍內, 並可能延續至下一年度, 分配 100% 的稅收所得, 並扣除可用的稅務屬性。",
+    "Bimini Capital Management, Inc. (有時在本文中稱為 \"Bimini\") 從我們成立開始至 2013 年 2 月 20 日完成首次公開發行時, 管理我們的投資組合。完成發行後, 我們由 Bimini Advisors, LLC (\"Bimini Advisors,\" 或我們的 \"管理公司\") 進行外部管理, 依據管理協議。我們的管理公司是經美國證券交易委員會 (\"SEC\") 登記的投資顧問。此外, 我們的管理公司是馬裏蘭州有限責任公司, 是 Bimini 的 wholly-owned 子公司, 並有長期管理機構 RMBS 投資的紀錄。Bimini 於 2003 年開始進行積極的投資管理業務。我們相信與我們管理公司的關係使我們能利用其已建立的投資組合管理資源, 並支援我們目標資產類別的基礎設施。此外, 我們已受益並預期將繼續受益於管理公司的財務與行政功能, 這些功能處理法律、合規、投資者關係及運營事項, 包括投資組合管理、交易分配與執行、證券估值、買賣協議交易與結算、風險管理、網路安全、資訊科技與治理考量事項。",
+    "我們的管理公司負責管理我們的業務活動與日常運作。根據管理協議的條款, 管理公司為我們提供管理團隊, 包括我們的高階主管, 並提供適當的支援人員。管理公司始終受我們董事會 (\"董事會\") 的監督與管理, 並僅有我們委派的職能與權限。",
+    "我們的業務目標是透過資本增值與定期每月分紅, 長期為投資者提供有吸引力的風險調整後總回報。我們意圖透過投資於 PT 機構 RMBS 與結構化機構 RMBS 來達成此目標。我們尋求透過 (i) 我們槓桿 PT 機構 RMBS 投資組合的淨利息差與結構化機構 RMBS 投資組合的槓桿部分, 以及 (ii) 我們結構化機構 RMBS 投資組合的非槓桿部分所產生的利息收入, 來產生收入。我們也尋求透過資產選擇、流動性與利率風險管理, 來降低我們投資組合的淨資產價值與收入的波動性。",
+    "我們透過買賣協議來資助我們的 PT 機構 RMBS 與部分結構化機構 RMBS。然而, 我們通常不會在沒有本金餘額的結構化機構 RMBS 上使用槓桿, 例如 IOs 與 IIOs, 因為這些證券本身含有結構性槓桿。我們可能將這些資產的一部分質押以增加現金餘額, 但我們不打算投資來自質押資產的現金。",
+    "我們的目標資產類別與我們預期投資的主要資產如下:",
+    "我們投資於 PT 證券, 這些證券是由住宅實物財產擔保的證券, 通常每月支付利息與本金。實際上, 這些證券會將個別借款人對抵押貸款的每月支付, 減去貸款經紀人與證券擔保人的費用後, 進行過手。PT 證券可以根據基礎抵押貸款的特徵, 例如貸款期限或利率是否固定或變動, 分為不同的類別。",
+    "抵押貸款PT證券發行機構Ginnie Mae所發行之本金與利息之支付，但不包括市場價值，由聯邦政府之完全信用擔保。抵押貸款PT證書發行機構所發行之本金與利息之支付，但不包括市場價值，由發行該證券之機構分別擔保。",
+    "大多數抵押貸款的重要特徵為借款人可提前償還本金，此為預償。預償主要由於出售基礎財產、重新貸款、法拍或借款人加速償還貸款所致。預償會使PT證書持有人收回本金。此可能導致再投資本金之報酬率較高或較低。這通常被稱為預償不確定性。若購買之證券以 premiums 購買，且預償率高於預期，則 premiums 價值將以較快速度被削減。類似地，若折扣抵押貸款預償率低於預期，則向par償還之攤銷將以較慢速度累積。這些不理想影響之可能性有時被稱為『預償風險』。",
+    "總體而言，利率下降傾向於增加預償，而利率上升傾向於減緩預償。如同其他固定收益證券，當利率上升時，機構RMBS之價值通常會下降。基礎抵押貸款之預償率將影響機構RMBS之價格與波動性，並可能使該證券之有效到期日短於或長於購入時預期之時間。若利率上升，本公司持有之機構RMBS可能因基礎貸款人償還貸款時間晚於預期，而導致與資金成本之利差減少。",
+    "具有特定特徵之機構RMBS貸款，當被合併時可降低預償風險，此類貸款被稱為『指定池』。此類證券通常以較高價格交易，與無此有利特徵之池相比，其價格差異取決於對有利貸款特徵之認知價值。此類證券預期會在長遠時間內產生較高之實際利息收入。有利貸款特徵之範例為較低貸款餘額。主要原因在於重新貸款之成本在很大程度上為固定。由於較低利率之好處及隨時間產生之利息節省，隨著貸款餘額減少而下降，其他條件相同，利率下降幅度必須更大，才能抵銷重新貸款之成本。其他範例為貸款給信用評分較低之借款人，因這些借款人通常較難取得較低貸款額。本公司通常將其機構RMBS過渡池之高比例投資於指定池。",
+    "我們也可能投資於待公告遠期合約（\"TBAs\"). 一項TBA證券為遠期合約，用以購買或出售機構RMBS，於預定價格、面額、發行者、票息及到期日於協議之未來日期。合約中具體之機構RMBS於結算日之前並未確定。我們可在結算前選擇將這些證券之結算日延後，透過建立對應之TBA部位，以現金結算對應部位，同時購買或出售一項相同之TBA合約，於較後之結算日（合稱為『美元滾動交易』）。於遠期結算日購買或出售之機構RMBS通常以較低價格交易，與於當前月份結算之相同證券相比。此差異，或稱為『價格下跌』，為基礎機構RMBS之利息收入，扣除隱含資金成本，於遠期結算期間之經濟等價（稱為『美元滾動收入』）。因此，機構RMBS之遠期買入及美元滾動交易代表一種非資產負債表之融資形式。這些TBAs被歸類為衍生工具，並透過損益表按市價計價，且不包含於利息收入中。",
+    "PT證書所基於之抵押貸款通常可分為以下類別："
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'original': 'Summary of Risk Factors', 'translated': '風險因素總覽'}",
+    "{'original': 'Risk Factors', 'translated': '風險因素'}",
+    "{'original': 'Risks Related to Our Business', 'translated': '與本公司業務相關的風險'}"
+   ],
+   "paragraphs": [
+    "以下為主要因素之總結，這些因素使投資本公司普通股成為具投機性或風險性之投資。此總結並未涵蓋我們所面臨的所有風險。有關本風險因素總結中所提及之風險，以及其他我們所面臨之風險之進一步討論，請參閱本報告下「風險因素」標題部分，並與本報告及其他向美國證券交易委員會（SEC）所提交之文件中之其他資訊一併考量，以作為投資本公司普通股之決定依據。",
+    "利率上漲可能對我們之投資價值產生負面影響，並提高我們之借款成本，這可能會導致利潤減少或虧損，並對我們支付股東分紅之能力產生重大不利影響。",
+    "利率上漲也可能導致新發行之機構房貸支持證券（Agency RMBS）或投資者對其之需求減少，這可能會對我們取得符合投資目標之資產之能力產生重大不利影響，並進而影響我們之業務、財務狀況與營運成果，以及我們支付股東分紅之能力。",
+    "我們之機構房貸支持證券（Agency RMBS）與借款之間之利率不匹配，可能在利率變動期間降低我們之淨利息邊際，這可能會對我們之業務、財務狀況與營運成果，以及我們支付股東分紅之能力產生重大不利影響。",
+    "美國信用評級進一步降級、自動支出削減、財政赤字增加或另一次政府停擺，可能會對我們之流動性、財務狀況與利潤產生負面影響。",
+    "我們之固定利率資產之 stated maturity 之間之差異，或我們之可調利率資產之利率調整時間與我們之借款之間之差異，可能會對我們之盈利能力產生不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

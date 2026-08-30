@@ -1,0 +1,173 @@
+{
+ "ticker": "CADL",
+ "cik": "0001841387",
+ "accession": "0001193125-26-103134",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Our Strategy",
+    "Our Approach",
+    "The Mechanism of Action of Candel's Viral Immunotherapy Candidates:",
+    "Our Pipeline"
+   ],
+   "paragraphs": [
+    "We are a clinical stage biopharmaceutical company focused on developing off-the-shelf viral immunotherapies that elicit an individualized, systemic anti-tumor immune response to help patients fight cancer. Our engineered viruses are designed to induce a systemic anti-tumor response due to induction of immunogenic cell death within the tumor microenvironment, thus releasing tumor neo-antigens and creating a pro-inflammatory microenvironment at the site of injection. This is intended to lead to in-situ immunization against the injected tumor and uninjected distant metastases. Local administration is designed to achieve these therapeutic effects while minimizing systemic exposure and associated toxicity.",
+    "The immune cells induced by these viral immunotherapies are believed to target patients' specific tumor antigens, potentially improving responses in immunologically \"hot\" tumors while at the same time infiltrating the tumor microenvironment, transforming non-inflamed \"cold\" tumors with limited immune response into \"hot\" tumors. While our product candidates are administered directly into the tumor, we have observed systemic immune responses in our preclinical studies and clinical trials that may indicate the potential of our product candidates to induce systemic immune response against distal, uninjected tumors, also known as an \"abscopal\" effect.",
+    "We believe viral immunotherapy is among the most promising cancer treatment modalities today. Our goal is to further improve patient outcomes through viral immunotherapies by selecting the optimal vector, specific transgenes and clinical indications for each tumor type while optimizing product candidate attributes, such as high-titer formulation, intratumoral administration to induce systemic anti-tumor immunity, and storage conditions that could potentially lower logistical barriers for patients and clinicians.",
+    "We have established two clinical off-the-shelf viral immunotherapy platforms based on novel, genetically modified adenovirus and herpes simplex virus (HSV) constructs, respectively.",
+    "Our most advanced product candidate, aglatimagene besadenovec (referred to herein as aglatimagene and previously as CAN-2409), is an off-the-shelf adenovirus product candidate, administered in conjunction with the prodrug valacyclovir, and has generated promising clinical activity across a range of solid tumor indications. Aglatimagene is being studied in the following ongoing clinical trials:",
+    "o A pivotal phase 3 randomized, double-blind, placebo-controlled clinical trial in the United States under a Special Protocol Assessment (SPA) with the U.S. Food and Drug Administration (FDA) evaluating patients with newly diagnosed, localized prostate cancer who have an intermediate- or high-risk for progression. The FDA granted Fast Track Designation for the use of aglatimagene for the treatment of localized, primary prostate cancer in combination with radiation therapy to improve the local control rate.",
+    "o The primary goal of curative treatment for localized prostate cancer is complete tumor eradication, as outlined by National Comprehensive Cancer Network (NCCN) guidelines. However, up to 30% of intermediate- to high-risk patients experience recurrence despite radical therapy, and salvage treatments often carry significant side effects and limited efficacy. Recurrence beyond two years post-treatment is strongly linked to need for salvage anti-cancer therapies, higher rates of metastasis, and prostate cancer-specific mortality after prolonged follow up (>10 years). Studies also show that patients prioritize the perception of being cancer-free and are often willing to risk long-term complications to achieve this. Fear of recurrence remains prevalent, especially after biochemical failure (Hoffman RM et al. Cancer 2003;97:1653-62 ; Jayadevappa R et al. J Clin Oncol 2019;37:964-73 ; Nilsson R et al. Eur Urol Open Sci 2021;25:44-51). Therefore, this study aimed to assess whether adding aglatimagene plus valacyclovir to standard of care (SoC) radiotherapy could improve disease-free survival (DFS) in patients pursuing curative treatment, a primary endpoint established in the SPA with the FDA. We completed enrollment of this trial in September 2021.",
+    "• In December 2024, we announced positive topline data from our phase 3 clinical trial. This randomized, double-blind, placebo-controlled, multicenter clinical trial enrolled 745 patients (intent to treat population (ITT)) to evaluate the effectiveness and safety of aglatimagene plus prodrug (valacyclovir) viral immunotherapy in combination with SoC external beam radiation therapy to improve DFS in patients with intermediate- to high-risk (single high-risk feature), localized prostate cancer. Patients were randomized 2:1 (496 in aglatimagene + prodrug and 249 in placebo + prodrug). Both arms received standard of care external beam radiation therapy (EBRT) +/- short course androgen deprivation therapy (ADT) (≤6 months) and were stratified by",
+    "NCCN risk group and ADT use. Three intraprostatic injections of aglatimagene (5x10 11vp/2mL) or placebo were administered, each followed by 14 days of prodrug. The median follow-up time for the recruited population was 50.3 months. The primary outcome measure, DFS, included the evaluation of post-treatment biopsies, performed at two years from the end of radiation, for the presence of tumor recurrence. Local or systemic recurrence and death from any cause were also part of the primary endpoint.",
+    "The study met its primary endpoint, demonstrating a statistically significant improvement in DFS in patients in the aglatimagene arm compared to the placebo arm. Key topline results include:",
+    "• The primary endpoint, as agreed with the FDA under a SPA, was met: statistically significant improvement in DFS for aglatimagene plus radiation therapy (n=496) vs. placebo plus radiation therapy (n=249) (p=0.0155; HR 0.70; 95% CI; 0.52 to 0.94). Median DFS was not reached for the aglatimagene treatment arm vs. 86.1 months in the placebo arm.",
+    "• This result was supported by secondary and exploratory endpoints:",
+    "o Statistically significant improvement in prostate cancer-specific DFS (exclusion of non-prostate cancer related deaths) in the aglatimagene arm vs. placebo (p=0.0046; HR 0.62, 95% CI 0.44 to 0.87)",
+    "o Exploratory subset analysis showed that improvement in prostate cancer-specific DFS was observed, independent of the use of short-term ADT and independent of the type of EBRT (conventional EBRT vs. moderate hypofractionated EBRT)"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business, Financial Position and Capital Requirements",
+    "We are a biopharmaceutical company with a limited operating history and have not generated any revenue to date from product sales.",
+    "We have incurred significant operating losses since our inception and anticipate that we will incur continued losses for the foreseeable future.",
+    "We have no products approved for commercial sale and have not generated any revenue from product sales.",
+    "We have incurred indebtedness, and we may incur additional indebtedness, which could adversely affect our financial condition.",
+    "Risks Related to Product Development",
+    "Results of earlier studies and trials of our product candidates may not be predictive of future trial results.",
+    "Negative developments in the field of immuno-oncology and, in particular, viral immunotherapy, could damage public perception of any of our product candidates and negatively affect our business.",
+    "Difficulty in enrolling patients could delay or prevent clinical trials of our product candidates, and ultimately delay or prevent regulatory approval."
+   ],
+   "paragraphs": [
+    "Our future operating results could differ materially from the results described in this Annual Report on Form 10-K due to the risks and uncertainties described below. You should consider carefully the following information about risks below in evaluating our business. If any of the following risks actually occur, our business, financial conditions, results of operations and future growth prospects would likely be materially and adversely affected. Additional risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business operations. In these circumstances, the market price of our common stock would likely decline. In addition, we cannot assure investors that our assumptions and expectations will prove to be correct. Important factors could cause our actual results to differ materially from those indicated or implied by forward-looking statements. See \"Forward-Looking Statements\" for a discussion of some of the forward-looking statements that are qualified by these risk factors. Factors that could cause or contribute to such differences include those factors discussed below.",
+    "Biopharmaceutical product development is a highly speculative undertaking and involves a substantial degree of risk. We were incorporated under the laws of the State of Delaware in June 2003. Since inception, we have focused substantially all of our efforts and financial resources on raising capital and developing our initial product candidates. To date, we have financed our operations primarily through the issuance and sale of our convertible preferred stock to outside investors in private equity financings and from the proceeds of the sale of our common stock and accompanying pre-funded warrants. From our inception through December 31, 2025, we raised an aggregate of $273.7 million of gross proceeds from such transactions. In addition, in February 2022, we borrowed $20.0 million under the four-year loan and security agreement (the SVB Loan Agreement) with Silicon Valley Bank (SVB). On October 14, 2025, we entered into a Loan and Security Agreement, as amended by that certain First Amendment to Loan and Security Agreement dated as of March 10, 2026 (the Trinity LSA), with the lenders party thereto and Trinity Capital Inc. (Trinity), as administrative agent and collateral agent and in October 2025 we borrowed $50.0 million under the Trinity LSA pursuant to the First Tranche at closing. We used a portion of the proceeds from the First Tranche of the Trinity LSA to repay the SVB Loan Agreement in full on October 14, 2025. As of December 31, 2025, our cash and cash equivalents were $119.7 million. We had an accumulated deficit of $230.4 million as of December 31, 2025. For the years ended December 31, 2025 and 2024, we reported net losses of $38.2 million and $55.2 million, respectively. We have no products approved for commercial sale and therefore have never generated any revenue from product sales, and we do not expect to do so in the foreseeable future. We have not obtained regulatory approvals for any of our product candidates, and even if our clinical development efforts result in positive data, our product candidates may not receive regulatory approval or be successfully introduced and marketed at prices that would permit us to operate profitably.",
+    "We expect to continue to incur significant expenses and operating losses over the next several years and for the foreseeable future. Our prior losses, combined with expected future losses, have had and will continue to have an adverse effect on our stockholders' equity and working capital.",
+    "Substantially all of our operating losses have resulted from costs incurred in connection with our research and development programs and from general and administrative costs associated with our operations. We expect our research and development expenses to significantly increase in connection with the commencement and continuation of clinical trials of our product candidates. In addition, if we obtain marketing approval for our product candidates, we will incur significant sales, marketing and manufacturing expenses. We are incurring additional costs associated with operating as a public company. As a result, we expect to continue to incur significant and increasing operating losses for the foreseeable future. Because of the numerous risks and uncertainties associated with developing pharmaceutical products, we are unable to predict the extent of any future losses or when we will become profitable, if at all. Even if we do become profitable, we may not be able to sustain or increase our profitability on a quarterly or annual basis.",
+    "The amount of our future losses is uncertain, and our quarterly and annual operating results may fluctuate significantly or may fall below the expectations of investors or securities analysts, each of which may cause our stock price to fluctuate or decline.",
+    "• Our quarterly and annual operating results may fluctuate significantly in the future due to a variety of factors, many of which are outside of our control and may be difficult to predict, including the following:"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "General Corporate",
+    "Collaborations",
+    "Components of Our Results of Operations",
+    "Operating Expenses",
+    "Research and Development Expenses",
+    "General and Administrative Expenses",
+    "Grant Income",
+    "Interest Income",
+    "Interest Expense",
+    "Change in Fair Value of Warrant Liabilities",
+    "Income Taxes",
+    "Results of Operations",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "Liquidity and Capital Resources"
+   ],
+   "paragraphs": [
+    "You should read the following discussion and analysis of our financial condition and results of operations together with our consolidated financial statements and the related notes and other financial information included elsewhere in this Annual Report on Form 10-K. Some of the information contained in this discussion and analysis contains forward-looking statements that involve risks and uncertainties. You should review the section titled \"Risk factors\" in this Annual Report on Form 10-K for a discussion of important factors that could cause actual results to differ materially from the results described below.",
+    "We are a clinical stage biopharmaceutical company focused on developing off-the-shelf viral immunotherapies that elicit an individualized, systemic anti-tumor immune response to help patients fight cancer. Our engineered viruses are designed to induce a systemic anti-tumor response due to induction of immunogenic cell death within the tumor microenvironment, thus releasing tumor neo-antigens and creating a pro-inflammatory microenvironment at the site of injection. This is intended to lead to in-situ immunization against the injected tumor and uninjected distant metastases. Local administration is designed to achieve these therapeutic effects while minimizing systemic exposure and associated toxicity.",
+    "The immune cells induced by these viral immunotherapies are believed to target patients' specific tumor antigens, potentially improving responses in immunologically \"hot\" tumors while at the same time infiltrating the tumor microenvironment, transforming non-inflamed \"cold\" tumors with limited immune response into \"hot\" tumors. While our product candidates are administered directly into the tumor, we have observed systemic immune responses in our preclinical studies and clinical trials that may indicate the potential of our product candidates to induce systemic immune response against distal, uninjected tumors, also known as an \"abscopal\" effect.",
+    "We believe viral immunotherapy is among the most promising cancer treatment modalities today. Our goal is to further improve patient outcomes through viral immunotherapies by selecting the optimal vector, specific transgenes and clinical indications for each tumor type while optimizing product candidate attributes, such as high-titer formulation, intratumoral administration to induce systemic anti-tumor immunity, and storage conditions that could potentially lower logistical barriers for patients and clinicians.",
+    "We have established two clinical off-the-shelf viral immunotherapy platforms based on novel, genetically modified adenovirus and herpes simplex virus (HSV) constructs, respectively.",
+    "Our most advanced product candidate, aglatimagene besadenovec (referred to herein as aglatimagene and previously as CAN-2409), is an off-the-shelf adenovirus product candidate, administered in conjunction with the prodrug valacyclovir, and has generated promising clinical activity across a range of solid tumor indications. Aglatimagene is being studied in the following ongoing clinical trials:",
+    "o A pivotal phase 3 randomized, double-blind, placebo-controlled clinical trial in the United States under a Special Protocol Assessment (SPA) with the U.S. Food and Drug Administration (FDA) evaluating patients with newly diagnosed, localized prostate cancer who have an intermediate- or high-risk for progression. The FDA granted Fast Track Designation for the use of aglatimagene for the treatment of localized, primary prostate cancer in combination with radiation therapy to improve the local control rate.",
+    "o The primary goal of curative treatment for localized prostate cancer is complete tumor eradication, as outlined by National Comprehensive Cancer Network (NCCN) guidelines. However, up to 30% of intermediate- to high-risk patients experience recurrence despite radical therapy, and salvage treatments often carry significant side effects and limited efficacy. Recurrence beyond two years post-treatment is strongly linked to need for salvage anti-cancer therapies, higher rates of metastasis, and prostate cancer-specific mortality after prolonged follow up (>10 years). Studies also show that patients prioritize the perception of being cancer-free and are often willing to risk long-term complications to achieve this. Fear of recurrence remains prevalent, especially after biochemical failure (Hoffman RM et al. Cancer 2003;97:1653-62 ; Jayadevappa R et al. J Clin Oncol 2019;37:964-73 ; Nilsson R et al. Eur Urol Open Sci 2021;25:44-51). Therefore, this study aimed to assess whether adding aglatimagene plus valacyclovir to standard of care (SoC) radiotherapy could improve disease-free survival (DFS) in patients pursuing curative treatment, a primary endpoint established in the SPA with the FDA. We completed enrollment of this trial in September 2021.",
+    "• In December 2024, we announced positive topline data from our phase 3 clinical trial. This randomized, double-blind, placebo-controlled, multicenter clinical trial enrolled 745 patients (intent to treat population (ITT)) to evaluate the effectiveness and safety of aglatimagene plus prodrug (valacyclovir) viral immunotherapy in combination with SoC external beam radiation",
+    "therapy to improve DFS in patients with intermediate- to high-risk (single high-risk feature), localized prostate cancer. Patients were randomized 2:1 (496 in aglatimagene + prodrug and 249 in placebo + prodrug). Both arms received standard of care external beam radiation therapy (EBRT) +/- short course androgen deprivation therapy (ADT) (≤6 months) and were stratified by NCCN risk group and ADT use. Three intraprostatic injections of aglatimagene (5x10 11vp/2mL) or placebo were administered, each followed by 14 days of prodrug. The median follow-up time for the recruited population was 50.3 months. The primary outcome measure, DFS, included the evaluation of post-treatment biopsies, performed at two years from the end of radiation, for the presence of tumor recurrence. Local or systemic recurrence and death from any cause were also part of the primary endpoint.",
+    "The study met its primary endpoint, demonstrating a statistically significant improvement in DFS in patients in the aglatimagene arm compared to the placebo arm. Key topline results include:",
+    "• The primary endpoint, as agreed with the FDA under a SPA, was met: statistically significant improvement in DFS for aglatimagene plus radiation therapy (n=496) vs. placebo plus radiation therapy (n=249) (p=0.0155; HR 0.70; 95% CI; 0.52 to 0.94). Median DFS was not reached for the aglatimagene treatment arm vs. 86.1 months in the placebo arm.",
+    "• This result was supported by secondary and exploratory endpoints:",
+    "o Statistically significant improvement in prostate cancer-specific DFS (exclusion of non-prostate cancer related deaths) in the aglatimagene arm vs. placebo (p=0.0046; HR 0.62, 95% CI 0.44 to 0.87)"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'original': 'Our Strategy', 'translated': '本公司策略'}",
+    "{'original': 'Our Approach', 'translated': '本公司作法'}",
+    "Candel 病毒免疫療法候選藥物的作用機制：",
+    "我們的產品線"
+   ],
+   "paragraphs": [
+    "本公司為一家臨牀階段的生物科技公司，專注於開發現成的病毒免疫療法，以引發個別化、全身性的抗腫瘤免疫反應，協助患者對抗癌症。本公司設計的工程病毒，旨在透過誘導腫瘤微環境中的免疫原性細胞死亡，進而釋放腫瘤新抗原，並在注射部位創造促發炎的微環境。此方法預期可導致原位免疫化，以對抗注射部位的腫瘤及未注射的遠處轉移病竈。局部給藥設計用以達到這些治療效果，同時減少全身暴露及相關毒性。",
+    "這些病毒免疫療法所誘導的免疫細胞，據認為會針對患者的特定腫瘤抗原，潛在改善免疫學上「熱」腫瘤的反應，同時滲入腫瘤微環境，將免疫反應有限的「冷」腫瘤轉變為「熱」腫瘤。雖然我們的產品候選藥物是直接注射至腫瘤部位，但我們在臨牀前研究及臨牀試驗中觀察到全身性免疫反應，這可能顯示我們的產品候選藥物有潛力誘導對遠處未注射腫瘤的全身性免疫反應，這種現象也稱為「遠處免疫」（abscopal）效應。",
+    "我們認為病毒免疫療法是目前最具潛力的癌症治療方式之一。我們的目標是透過病毒免疫療法進一步改善患者的治療結果，透過選擇每種腫瘤類型的最佳載體、特定轉基因及臨牀適應症，同時優化產品候選藥物的特性，例如高濃度配方、腫瘤內給藥以誘導全身性抗腫瘤免疫，以及儲存條件，這些條件可能潛在降低患者及臨牀醫生的物流障礙。",
+    "我們已建立兩種臨牀階段的現成病毒免疫療法平台，分別基於新型的基因改造腺病毒及皰疹 simplex 病毒（HSV）構造。",
+    "我們最進展的產品候選藥物，aglatimagene besadenovec（在此文中簡稱為 aglatimagene，先前稱為 CAN-2409），是一種現成的腺病毒產品候選藥物，與前藥 valacyclovir 一起使用，已在多種實體腫瘤適應症中產生令人鼓舞的臨牀活性。aglatimagene 正在以下持續進行的臨牀試驗中進行研究：",
+    "o 一項關鍵的第三期隨機雙盲安慰劑對照臨牀試驗，於美國進行，根據美國食品藥物管理局（FDA）的特殊協議評估（Special Protocol Assessment，SPA）進行，評估患有新診斷的局部前列腺癌且有中等或高風險進展的患者。FDA 已授予 aglatimagene 用於治療局部原發性前列腺癌（與放射治療合用）以提高局部控制率的快速通道（Fast Track）指定。",
+    "o 治療局部前列腺癌的首要目標是完全消除腫瘤，如國家綜合癌症網路（National Comprehensive Cancer Network，NCCN）指南所述。然而，最多 30% 的中等至高風險患者即使接受根治性治療後仍會復發，而救治療法往往伴隨顯著的副作用及有限的療效。治療後兩年以上的復發與需要救治療法、更高的轉移率及前列腺癌專屬死亡率（長期追蹤 >10 年）有強烈關聯。研究也顯示，患者傾向於追求被認為是無癌的感覺，並願意冒長期併發症的風險來達成此目標。對復發的恐懼仍然普遍，特別是在生化失敗後（Hoffman RM 等，Cancer 2003;97:1653-62；Jayadevappa R 等，J Clin Oncol 2019;37:964-73；Nilsson R 等，Eur Urol Open Sci 2021;25:44-51）。因此，本研究旨在評估將 aglatimagene 加上 valacyclovir 與標準照護（Standard of Care，SoC）放射治療結合，是否能改善追求根治治療患者的疾病無復發生存率（Disease-Free Survival，DFS），這是根據與 FDA 的 SPA 所建立的主要終點。我們於 2021 年 9 月完成此試驗的納入。",
+    "• 2024 年 12 月，我們宣佈在第三期臨牀試驗中取得正面的初步數據。這項隨機雙盲安慰劑對照、多中心臨牀試驗納入 745 名患者（意向治療人口（Intent to Treat，ITT）），評估 aglatimagene 加上前藥（valacyclovir）病毒免疫療法與標準照護（Standard of Care，SoC）外照射放射治療結合，以提高中等至高風險（單一高風險特徵）、局部前列腺癌患者的疾病無復發生存率（DFS）。患者被隨機分為 2:1（496 名在 aglatimagene + 前藥組，249 名在安慰劑 + 前藥組）。兩組均接受標準照護外照射放射治療（External Beam Radiation Therapy，EBRT）± 短期荷爾蒙治療（Androgen Deprivation Therapy，ADT）（≤6 個月），並根據",
+    "NCCN 風險族羣與 ADT 使用。進行三劑前列腺內注射 aglatimagene（5x10 11vp/2mL）或安慰劑，每劑後進行 14 天的前藥治療。納入研究族羣的中位追蹤時間為 50.3 個月。主要結果測量為 DFS，包含治療後的活檢評估，於放射治療結束後兩年進行，以評估腫瘤復發情況。局部或全身性復發以及任何原因導致的死亡也屬於主要終點。",
+    "本研究達成其主要終點，顯示 aglatimagene 小組的 DFS 有統計學上顯著的改善，與安慰劑小組相比。關鍵結果包括：",
+    "• 如與 FDA 籤訂的 SPA 協議所同意的主要終點已達成：aglatimagene 加上放射治療（n=496）與安慰劑加上放射治療（n=249）相比，DFS 有統計學上顯著的改善（p=0.0155；HR 0.70；95% CI；0.52 到 0.94）。aglatimagene 治療組的中位 DFS 尚未達成，而安慰劑組為 86.1 個月。",
+    "• 這個結果由次要及探索性終點所支持：",
+    "o aglatimagene 小組與安慰劑組相比，在前列腺癌專屬 DFS（排除非前列腺癌相關死亡）有統計學上顯著的改善（p=0.0046；HR 0.62，95% CI 0.44 到 0.87）",
+    "o 探索性子羣分析顯示，前列腺癌專屬 DFS 的改善與短期 ADT 的使用無關，且與 EBRT 的類型（傳統 EBRT 與中度低劑量分次 EBRT）無關"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "一般公司事項",
+    "合作關係",
+    "營運成果之組成項目",
+    "營運費用",
+    "研究與發展費用",
+    "一般及行政費用",
+    "補助收入",
+    "利息收入",
+    "利息支出",
+    "權證負債公平價值變動",
+    "所得稅",
+    "營運成果",
+    "截至2025年12月31日及2024年12月31日之年度比較",
+    "流動性及資本資源"
+   ],
+   "paragraphs": [
+    "您應閱讀下列對我們財務狀況及營運成果之分析，並與我們合併財務報表及相關附註，以及其他財務資訊一併參考。此討論與分析中包含部分資訊為前瞻性陳述，涉及風險與不確定性。您應審閱本年度10-K申報表中標題為「風險因素」之節，以瞭解可能導致實際結果與下列所述結果有重大差異的重要因素。",
+    "我們是一家臨牀階段的生物製藥公司，專注於開發現成的病毒免疫療法，以引發個別化、全身性的抗腫瘤免疫反應，協助患者對抗癌症。我們設計的病毒可誘導腫瘤微環境中的免疫原性細胞死亡，從而釋放腫瘤新抗原，並在注射部位創造促發炎的微環境。此為期能引發原位免疫作用，對注射部位的腫瘤及未注射的遠端轉移病竈產生作用。局部給藥設計可達成這些治療效果，同時減少全身暴露及相關毒性。",
+    "這些病毒免疫療法所誘導的免疫細胞，據信會針對患者的特定腫瘤抗原，可能改善對免疫學上「熱」腫瘤的反應，同時滲入腫瘤微環境，將免疫反應有限的「冷」腫瘤轉變為具有免疫反應的「熱」腫瘤。雖然我們的產品候選藥物是直接注射至腫瘤，但在我們的臨牀前研究與臨牀試驗中，觀察到系統性免疫反應，可能顯示我們的產品候選藥物能誘導對遠端、未注射腫瘤的系統性免疫反應，這種現象也稱為「遠端反應」（abscopal）效應。",
+    "我們認為病毒免疫療法是目前最具潛力的癌症治療方式之一。我們的目標是透過病毒免疫療法進一步改善患者的治療結果，透過選擇每種腫瘤類型的最佳載體、特定轉基因及臨牀適應症，同時優化產品候選藥物的特性，例如高濃度製劑、腫瘤內給藥以誘導全身抗腫瘤免疫，以及儲存條件，這些條件可能降低患者與臨牀醫生的物流障礙。",
+    "我們已建立兩種臨牀階段的現成病毒免疫療法平台，分別基於新型、基因改造的腺病毒與皰疹 simplex 病毒（HSV）構造。",
+    "我們最進展的產品候選藥物，aglatimagene besadenovec（在此文中簡稱為 aglatimagene，先前稱為 CAN-2409），是一種現成的腺病毒產品候選藥物，與前藥 valacyclovir 一起使用，已在多種實體腫瘤適應症中產生令人鼓舞的臨牀活性。aglatimagene 正在進行以下持續進行的臨牀試驗：",
+    "o 一項關鍵的第三期隨機、雙盲、安慰劑對照臨牀試驗，於美國進行，並根據美國食品藥物管理局（FDA）的特殊協議評估（Special Protocol Assessment，SPA）進行，評估患有新診斷、局部化前列腺癌且有中度至高度進展風險的患者。FDA 已授予 aglatimagene 用於治療局部化、原發性前列腺癌，與放射治療結合以提高局部控制率的快速通道指定（Fast Track Designation）。",
+    "o 治療局部化前列腺癌的首要目標是完全消除腫瘤，如國家綜合癌症網路（National Comprehensive Cancer Network，NCCN）指南所列。然而，約有 30% 的中度至高度風險患者在接受根治性治療後仍會復發，而救治療法常伴隨顯著的副作用及有限的療效。治療後兩年以上的復發與需要救治療法、更高的轉移率及前列腺癌專屬死亡率有強烈關聯（長期追蹤 >10 年）。研究也顯示，患者優先考慮被認為是無癌的感覺，並常常願意冒長期併發症的風險來達成此目標。對復發的恐懼仍然普遍，尤其是在生化失敗後（Hoffman RM 等人，Cancer 2003;97:1653-62；Jayadevappa R 等人，J Clin Oncol 2019;37:964-73；Nilsson R 等人，Eur Urol Open Sci 2021;25:44-51）。因此，本研究旨在評估將 aglatimagene 加上 valacyclovir 與標準治療（SoC）放射治療結合，是否能改善追求根治性治療患者的無病生存率（DFS），這是與 FDA 討論後在 SPA 中確立的主要終點。我們於 2021 年 9 月完成此試驗的納入受試者。",
+    "• 2024 年 12 月，本公司宣佈在第三期臨牀試驗中取得正面的初步數據。此為隨機、雙盲、安慰劑對照、多中心臨牀試驗，納入 745 名病患（意圖治療人口 (ITT)）以評估 aglatimagene 加上前藥 (valacyclovir) 病毒免疫療法與標準照護 (SoC) 外部放射線治療結合，用以改善中度至高風險（單一高風險特徵）局部前列腺癌病患的無病生存期 (DFS)。",
+    "治療方式為病患隨機分為 2:1（aglatimagene + 前藥 496 人，安慰劑 + 前藥 249 人）。兩組均接受標準照護外部放射線治療 (EBRT) ± 短期雄激素去活化治療 (ADT)（≤6 個月），並依 NCCN 風險族羣及 ADT 使用情形分層。於前列腺內注射三劑 aglatimagene（5x10 11vp/2mL）或安慰劑，每劑後皆進行 14 天前藥治療。納入人口的中位追蹤時間為 50.3 個月。主要評估指標 DFS 包含於放射線治療結束後兩年進行的治療後活檢，評估腫瘤復發情形。局部或全身復發及任何原因導致的死亡也為主要評估指標之一。",
+    "該研究達成其主要評估指標，顯示 aglatimagene 組病患的 DFS 相較於安慰劑組有統計上顯著的改善。關鍵初步結果包括：",
+    "• 如與美國食品藥物管理局 (FDA) 籤訂的 SPA 協議所同意的主要評估指標已達成：aglatimagene 加上放射線治療 (n=496) 相較於安慰劑加上放射線治療 (n=249) 的 DFS 有統計上顯著的改善 (p=0.0155; HR 0.70; 95% CI; 0.52 至 0.94)。aglatimagene 治療組的中位 DFS 尚未達成，而安慰劑組為 86.1 個月。",
+    "• 此結果獲得了次要及探索性評估指標的支持：",
+    "o aglatimagene 組相較於安慰劑組，在排除非前列腺癌相關死亡的前列腺癌特定 DFS 有統計上顯著的改善 (p=0.0046; HR 0.62, 95% CI 0.44 至 0.87)"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與本公司業務、財務狀況及資金需求相關之風險",
+    "本公司為一家生物科技製藥公司，營運歷史有限，截至目前為止尚未自產品銷售中產生任何收入。",
+    "自本公司成立以來，我們已產生重大營運虧損，並預期在可預見的未來，我們將持續產生虧損。",
+    "本公司尚未有產品獲得核准進行商業銷售，且截至目前為止尚未自產品銷售中產生任何收入。",
+    "本公司已負擔債務，且可能產生額外債務，此情形可能對本公司財務狀況產生不利影響。",
+    "與產品開發相關之風險",
+    "我們產品候選藥物較早期之研究與試驗結果，可能無法預測未來試驗結果。",
+    "免疫腫瘤學領域，特別是病毒免疫治療領域之負面發展，可能損害公眾對我們任何產品候選藥物之看法，並對本公司業務產生負面影響。",
+    "{'translated_text': '招募病患困難可能延誤或阻礙本公司產品候選藥物的臨牀試驗，並最終延誤或阻礙監管機構的審批。'}"
+   ],
+   "paragraphs": [
+    "本公司未來營運成果可能與本年度10-K表報中所描述的結果有重大差異，原因在於下列所列的風險與不確定性。您應謹慎考量下列風險資訊，以評估本公司業務。若有任何上述風險實際發生，將可能對本公司業務、財務狀況、營運成果與未來成長前景造成重大且不利的影響。此外，尚有其他風險與不確定性，目前本公司尚未知悉或認為不重要，也可能影響本公司營運。在這種情況下，本公司普通股的市場價格可能下跌。此外，本公司無法保證投資者本公司假設與預期會正確。重要因素可能導致本公司實際結果與前揭預測或暗示的結果有重大差異。請參閱「前瞻性陳述」以瞭解部分受這些風險因素限制的前瞻性陳述。導致這種差異的因素包括下列所列因素。",
+    "生物製藥產品開發是一項高度投機的業務，並涉及相當程度的風險。本公司於2003年6月根據特拉華州法律設立。自設立以來，本公司已將幾乎所有努力與財務資源投入籌資與開發初始產品候選品。截至目前為止，本公司主要透過發行與銷售可轉換優先股給外部投資者進行私人股權融資，以及銷售本公司普通股與附帶預先資金權證的所得來支應營運。自設立至2025年12月31日，本公司透過這些交易共籌得273.7 百萬美元的總資金。此外，於2022年2月，本公司根據與矽谷銀行（SVB）簽訂的四年貸款與擔保協議（SVB貸款協議）借款20.0 百萬美元。於2025年10月14日，本公司與貸款人及Trinity Capital Inc.（Trinity）簽訂貸款與擔保協議，經2026年3月10日簽訂的第一次貸款與擔保協議修正案（Trinity LSA）修正，與貸款人及Trinity簽訂貸款與擔保協議，Trinity為行政代理與擔保代理，並於2025年10月借款50.0 百萬美元根據Trinity LSA的首次貸款。本公司使用首次貸款所得部分資金於2025年10月14日償還SVB貸款協議。截至2025年12月31日，本公司現金與現金等價物為119.7 百萬美元。截至2025年12月31日，本公司累計虧損為230.4 百萬美元。截至2025年12月31日及2024年12月31日，本公司分別報告淨虧損為38.2 百萬美元與55.2 百萬美元。本公司目前尚無經核准可上市銷售的產品，因此從來未產生任何產品銷售收入，且預期在可預見的未來亦不會產生。本公司尚未取得任何產品候選品的監管核准，即使本公司臨牀開發工作產生正面數據，產品候選品可能無法取得監管核准或成功上市與行銷，且價格可能無法讓本公司營運獲利。",
+    "本公司預期將持續在未來數年及可預見的未來產生重大費用與營運虧損。本公司過去的虧損，加上預期未來的虧損，已對股東權益與營運資金產生負面影響，並會持續產生負面影響。",
+    "本公司營運虧損幾乎全部來自於研究與開發計畫所產生的費用，以及與營運相關的一般及行政費用。本公司預期在產品候選品臨牀試驗的啟動與持續進行時，研究與開發費用將大幅增加。此外，若本公司取得產品候選品的行銷核准，將產生重大銷售、行銷與製造費用。本公司因成為上市公司而產生額外費用。因此，本公司預期將持續在可預見的未來產生重大且增加的營運虧損。由於開發藥物產品涉及眾多風險與不確定性，本公司無法預測未來虧損的程度或何時能實現獲利，若能實現獲利的話。即使本公司實現獲利，也可能無法維持或提高季度或年度的獲利能力。",
+    "本公司未來虧損的金額不確定，且季度與年度營運結果可能大幅波動，或低於投資者或證券分析師的預期，這可能導致本公司股票價格波動或下跌。",
+    "• 本公司未來季度與年度營運結果可能因多種因素而大幅波動，許多因素在本公司控制範疇之外，且可能難以預測，包括下列因素："
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

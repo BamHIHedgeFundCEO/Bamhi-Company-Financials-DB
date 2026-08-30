@@ -1,0 +1,157 @@
+{
+ "ticker": "DJCO",
+ "cik": "0000783412",
+ "accession": "0001437749-25-038836",
+ "form": "10-K",
+ "reportDate": "2025-09-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "Products and Services",
+    "Traditional Business",
+    "Journal Technologies",
+    "Working Capital",
+    "Access to Our Information"
+   ],
+   "paragraphs": [
+    "Daily Journal Corporation (\"Daily Journal\" or \"the Company\") publishes newspapers and websites covering California and Arizona news and produces several specialized information publications. It also serves as a newspaper representative specializing in public notice advertising. This is sometimes referred to as the Company's \"Traditional Business\".",
+    "Journal Technologies, Inc. (\"Journal Technologies\"), a wholly-owned subsidiary of the Company, supplies case management software systems and related products to courts, prosecutor and public defender offices, probation departments and other justice agencies, including administrative law organizations, city and county governments and bar associations. These organizations use the Journal Technologies family of products to help manage cases and information electronically, to interface with other critical justice partners and to extend electronic services to the public, including e-filing and a website to pay traffic citations and fees online. These products are licensed or subscribed to in approximately 37 states, and internationally.",
+    "Essentially all of the Company's U.S. operations are based in California and Utah. The Company also has a presence in Australia where Journal Technologies is working on four software installation projects and in British Columbia, Canada, where the Company has operated a wholly-owned subsidiary, Journal Technologies (Canada), Inc. since August 2022. Financial information of the Company, including information about each of the Company's reportable segments, is set forth in Item 8 (\"Financial Statements and Supplementary Data\").",
+    "Newspapers and related online publications. The Company publishes 10 newspapers of general circulation. Each newspaper, in addition to news of interest to the general public, has a particular area of in-depth focus for its news coverage, attracting readers interested in obtaining specific information through a newspaper format.",
+    "The publications are based in the following cities: Newspaper publications Base of publication",
+    "Los Angeles Daily Journal Los Angeles, California San Francisco Daily Journal San Francisco, California",
+    "Daily Commerce Los Angeles, California The Daily Recorder Sacramento, California The Inter-City Express",
+    "Oakland, California San Jose Post-Record San Jose, California Orange County Reporter Santa Ana, California",
+    "The Daily Transcript San Diego, California Business Journal Riverside, California The Record Reporter",
+    "The Daily Journals. The Los Angeles Daily Journal and the San Francisco Daily Journal (together, \"The Daily Journals\") are each published every weekday except certain holidays and were established in 1888 and 1893, respectively. In addition to covering state and local news of general interest, these newspapers focus on law and its impact on society. Generally, The Daily Journals seek to be of special use to lawyers and judges.",
+    "The Los Angeles Daily Journal is the largest newspaper published by the Company, both in terms of revenues and circulation. As of September 30, 2025, the Los Angeles Daily Journal had approximately 3,636 paid subscribers and the San Francisco Daily Journal had approximately 2,045 paid subscribers as compared to total paid subscriptions for both of The Daily Journals of 5,687 as of September 30, 2024. The Daily Journals carry commercial advertising (display and classified) and public notice advertising required or permitted by law to be published in a newspaper of general circulation. The main source of commercial advertising revenue has been law firms and businesses wishing to reach the legal professional community.",
+    "The Daily Journals include the Daily Appellate Report, providing full text and case summaries of all opinions certified for publication by the California Supreme Court, the California Courts of Appeal, the U.S. Supreme Court, the U.S. Court of Appeals for the Ninth Circuit and the U.S. Bankruptcy Appellate Panel for the Ninth Circuit. The Daily Journals also include a monthly court directory in booklet form. This directory includes a comprehensive list of sitting judges in all California courts as well as courtroom assignments, phone numbers and courthouse addresses, plus a list of judicial appointments, elevations, confirmations, resignations, retirements and deaths.",
+    "The Daily Journals are distributed by mail and hand delivery. The regular yearly subscription rate for each of The Daily Journals is $895 plus tax.",
+    "Most of the information published in The Daily Journals is available to subscribers online at www.dailyjournal.com."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Associated with the Maturation of Artificial Intelligence (AI) Technologies",
+    "Risks Associated with the Traditional Business",
+    "Risks Associated with Journal Technologies",
+    "Risks Associated with Our Holdings of Marketable Securities",
+    "General Corporate Risks"
+   ],
+   "paragraphs": [
+    "The foregoing business discussion and the other information included in this Form 10-K should be read in conjunction with the following risks, trends and uncertainties, any of which, either individually or in the aggregate, could materially and adversely affect our business, operating results or financial condition.",
+    "The Company's business may be materially affected--either positively or negatively--by the emergence of disruptive new technologies or approaches enabled by the rapid pace of innovation unfolding in the artificial intelligence space.",
+    "Worthwhile new technologies capitalize on eliminating old inefficiencies. Just as the emergence and maturation of the Internet and smartphone technologies had profound implications across many industries, AI has the potential to significantly change key factors related to the Traditional Business, Journal Technologies, and companies in the Company's holdings of marketable securities.",
+    "For the Traditional Business, there may be new and additional opportunities to automate or reduce the cost of content creation and doing business, or allow monetization of existing and/or historic content in new ways. Likewise, AI may negatively impact the business in ways that will prove difficult to circumvent.",
+    "For Journal Technologies, use of AI may fundamentally alter or automate key customer workflows over time, obviating the need for its technology. AI will likely also create new and better ways for customers to achieve their mandates, of which the Company is positioning to play a valuable role. The Company is allocating resources to pursue these opportunities, through in-house engineering, and may also do so through partnerships, or mergers and acquisitions. Whether it will be successful is uncertain.",
+    "The process and approach to engineering software itself may change in notable ways, and this could impact the underlying business model of Journal Technologies. Monitoring potential impacts of AI on companies in the marketable securities portfolio will also require ongoing attention."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Results of Operations",
+    "Reportable Segments",
+    "Traditional Business",
+    "Journal Technologies",
+    "Comparison of the fiscal year ended September 30, 2025 to the fiscal year ended September 30, 2024",
+    "Liquidity and Capital Resources",
+    "September 30, 2025",
+    "September 30, 2024",
+    "Critical Accounting Policies and Estimates"
+   ],
+   "paragraphs": [
+    "The Company continues to operate as two different businesses: (1) The Traditional Business, being the business of newspaper publishing and related services that the Company had before 1999 when it purchased a software development company, and (2) Journal Technologies, Inc. (\"Journal Technologies\"), a wholly-owned subsidiary which supplies case management software systems and related products to courts, prosecutor and public defender offices, probation departments and other justice agencies, including administrative law organizations, city and county governments and bar associations. These organizations use the Journal Technologies family of products to help manage cases and information electronically, to interface with other critical justice partners and to extend electronic services to the public, including e-filing and a website to pay traffic citations and fees online. These products are licensed or subscribed to in approximately 37 states and internationally.",
+    "The Company's Traditional Business is one reportable segment and the other is Journal Technologies which includes Journal Technologies, Inc. and Journal Technologies (Canada) Inc. All inter-segment transactions were eliminated. Additional details about each of the reportable segments and the Company's corporate income and expenses are set forth below:",
+    "Overall Financial Results (in thousands) For the twelve months ended September 30",
+    "Corporate Total 2025 2024 2025 2024 2025 2024 2025 2024 Revenues Advertising 10,081 9,325 10,081",
+    "9,325 Circulation 4,269 4,462 4,269 4,462 Advertising service fees and other 3,412 3,039 3,412",
+    "3,039 Licensing and maintenance fees 31,720 28,265 31,720 28,265 Consulting fees 22,735 15,086",
+    "22,735 15,086 Other public service fees 15,483 9,754 15,483 9,754 Total operating revenues",
+    "17,762 16,826 69,938 53,105 87,700 69,931 Operating expenses Personnel 10,467 9,492 44,032",
+    "36,998 2,967 57,466 46,885 Other segment items* 7,460 5,360 13,246 13,616 20,706 18,976 Total operating expenses",
+    "17,927 14,852 57,278 50,614 2,967 78,172 65,861 Income from operations (165 1,974 12,660 2,491",
+    "(2,967 9,528 4,070 Dividends and interest income 7,459 7,102 7,459 7,102 Interest expense (1,381",
+    "(3,087 (1,381 (3,087 Net realized and unrealized gains on marketable securities 134,304 96,142",
+    "134,304 96,142 Other Pretax income (165 1,974 12,660 2,491 137,592 100,208 150,087 104,278",
+    "Income tax benefit (expense) (395 (3,665 (735 (34,465 (25,035 (37,950 (26,165 Net income 1,579"
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'original': 'Products and Services', 'translated': '產品與服務'}",
+    "{'original': 'Traditional Business', 'translated': '傳統業務'}",
+    "{'original': 'Journal Technologies', 'translated': 'Journal Technologies'}",
+    "{'original': 'Working Capital', 'translated': '營運資金'}",
+    "{'original': 'Access to Our Information', 'translated': '取得我們資訊的途徑'}"
+   ],
+   "paragraphs": [
+    "Daily Journal Corporation (\"Daily Journal\" or \"the Company\") 發行報紙與網站，報導加利福尼亞州與亞利桑那州的新聞，並生產多種專業資訊出版物。該公司亦擔任新聞紙報代表，專門從事公眾公告廣告業務。這項業務有時被稱為 \"Traditional Business\"。",
+    "Journal Technologies, Inc. (\"Journal Technologies\"), 為本公司百分之百出資之子公司，提供案件管理軟體系統及相關產品給法院、檢察官辦公室、公設辯護人辦公室、緩刑部門及其他司法機關，包括行政法組織、市縣政府與律師會。這些機構使用 Journal Technologies 產品系列，以協助管理案件與資訊，與其他關鍵司法夥伴進行系統整合，並提供電子服務給大眾，包括電子申報及透過網站線上繳納交通違規罰款與費用。這些產品在約 37 個州與國際上被授權使用或訂閱。",
+    "本公司幾乎所有的美國營運均位於加利福尼亞州與猶他州。本公司亦在澳洲有業務據點，Journal Technologies 正進行四個軟體安裝專案，並在加拿大不列顛哥倫比亞省有據點，自 2022 年 8 月起，本公司已於該地設立 wholly-owned subsidiary，名為 Journal Technologies (Canada), Inc. 本公司財務資訊，包括各應報告分部的資訊，詳見第 8 項 (\"財務報表與補充資料\")。",
+    "報紙與相關線上出版物。本公司發行 10 份一般大眾流通的報紙。每份報紙除報導一般大眾感興趣的新聞外，尚有特定的深入報導主題，吸引對特定資訊有興趣的讀者透過報紙形式取得資訊。",
+    "這些出版物的發行地點如下：報紙出版物 發行地點",
+    "Los Angeles Daily Journal 洛杉磯，加利福尼亞州 San Francisco Daily Journal 聖弗朗西斯科，加利福尼亞州",
+    "Daily Commerce 洛杉磯，加利福尼亞州 The Daily Recorder 薩克拉門託，加利福尼亞州 The Inter-City Express",
+    "奧克蘭，加利福尼亞州 San Jose Post-Record 聖荷西，加利福尼亞州 Orange County Reporter 聖安娜，加利福尼亞州",
+    "The Daily Transcript San Diego, California Business Journal Riverside, California The Record Reporter",
+    "The Daily Journals. The Los Angeles Daily Journal and the San Francisco Daily Journal (together, \"The Daily Journals\") are each published every weekday except certain holidays and were established in 1888 and 1893, respectively. In addition to covering state and local news of general interest, these newspapers focus on law and its impact on society. Generally, The Daily Journals seek to be of special use to lawyers and judges.",
+    "The Los Angeles Daily Journal is the largest newspaper published by the Company, both in terms of revenues and circulation. As of September 30, 2025, the Los Angeles Daily Journal had approximately 3,636 paid subscribers and the San Francisco Daily Journal had approximately 2,045 paid subscribers as compared to total paid subscriptions for both of The Daily Journals of 5,687 as of September 30, 2024. The Daily Journals carry commercial advertising (display and classified) and public notice advertising required or permitted by law to be published in a newspaper of general circulation. The main source of commercial advertising revenue has been law firms and businesses wishing to reach the legal professional community.",
+    "The Daily Journals include the Daily Appellate Report, providing full text and case summaries of all opinions certified for publication by the California Supreme Court, the California Courts of Appeal, the U.S. Supreme Court, the U.S. Court of Appeals for the Ninth Circuit and the U.S. Bankruptcy Appellate Panel for the Ninth Circuit. The Daily Journals also include a monthly court directory in booklet form. This directory includes a comprehensive list of sitting judges in all California courts as well as courtroom assignments, phone numbers and courthouse addresses, plus a list of judicial appointments, elevations, confirmations, resignations, retirements and deaths.",
+    "The Daily Journals are distributed by mail and hand delivery. The regular yearly subscription rate for each of The Daily Journals is $895 plus tax.",
+    "Most of the information published in The Daily Journals is available to subscribers online at www.dailyjournal.com."
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "{'translated_text': '營運成果'}",
+    "{'translated_text': '應報告分部'}",
+    "{'translated_text': '傳統業務'}",
+    "{'translated_text': 'Journal Technologies'}",
+    "{'translated_text': '比較財務年度終了日為2025年9月30日與財務年度終了日為2024年9月30日'}",
+    "{'translated_text': '流動性及資本資源'}",
+    "{'translated_text': '2025年9月30日'}",
+    "{'translated_text': '2024年9月30日'}",
+    "{'original': 'Critical Accounting Policies and Estimates', 'translated': '重要會計政策與會計估計'}"
+   ],
+   "paragraphs": [
+    "本公司持續運作為兩個不同的業務：(1) 傳統業務，為報紙發行及相關服務業務，為本公司在1999年購入軟體開發公司之前所從事的業務，以及(2) Journal Technologies, Inc. (\"Journal Technologies\")，為本公司百分之百擁有之子公司，提供案件管理軟體系統及相關產品予法院、檢察官辦公室、公設辯護人辦公室、緩刑部門及其他司法機關，包括行政法組織、市縣政府及律師會。這些機構使用Journal Technologies系列產品協助管理案件及資訊電子化，與其他關鍵司法夥伴進行資料交換，並向大眾提供電子服務，包括電子申報及網站線上繳納交通違規罰款及費用。這些產品在約37個州及國際上被授權或訂閱。",
+    "本公司之傳統業務為一個應報告分部，另一個為Journal Technologies，包含Journal Technologies, Inc.及Journal Technologies (Canada) Inc. 所有分部間交易均已抵銷。關於各應報告分部及本公司企業體之收入與費用之更多細節，請參閱下文：",
+    "總體財務結果（單位：千美元）截至2025年9月30日止十二個月",
+    "企業總體 2025 2024 2025 2024 2025 2024 2025 2024 營業收入 廣告 10,081 9,325 10,081",
+    "9,325 雜誌發行 4,269 4,462 4,269 4,462 廣告服務費及其他 3,412 3,039 3,412",
+    "3,039 授權及維護費用 31,720 28,265 31,720 28,265 諮詢費用 22,735 15,086",
+    "22,735 15,086 其他公共服務費用 15,483 9,754 15,483 9,754 營業收入總計",
+    "17,762 16,826 69,938 53,105 87,700 69,931 營業費用 人力費用 10,467 9,492 44,032",
+    "36,998 2,967 57,466 46,885 其他分部項目* 7,460 5,360 13,246 13,616 20,706 18,976 總營運費用",
+    "17,927 14,852 57,278 50,614 2,967 78,172 65,861 營運收入 (165 1,974 12,660 2,491",
+    "(2,967 9,528 4,070 股息及利息收入 7,459 7,102 7,459 7,102 利息費用 (1,381",
+    "(3,087 (1,381 (3,087 實現及未實現市場證券收益 134,304 96,142",
+    "134,304 96,142 其他預稅收入 (165 1,974 12,660 2,491 137,592 100,208 150,087 104,278",
+    "所得稅利益 (費用) (395 (3,665 (735 (34,465 (25,035 (37,950 (26,165 稅後淨收入 1,579"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'translated_text': '與人工智慧（AI）技術成熟相關之風險'}",
+    "{'translated_text': '與傳統業務相關之風險'}",
+    "{'translated_text': '與期刊技術相關之風險'}",
+    "{'translated_text': '與本公司持有之可交易證券相關之風險'}",
+    "{'translated_text': '一般公司風險'}"
+   ],
+   "paragraphs": [
+    "上述商業討論及本 Form 10-K 所包含的其他資訊，應與下列風險、趨勢及不確定性一併閱讀，任何一項，無論單獨或合計，均可能重大且不利地影響本公司業務、營運結果或財務狀況。",
+    "本公司業務可能受到重大影響——無論是正面或負面——因人工智慧領域創新速度加快，而產生的顛覆性新技術或方法。",
+    "具潛力的新技術能透過消除舊有低效率來實現價值。就如同網際網路與智慧型手機技術的出現與成熟對許多產業產生深遠影響，人工智慧有潛力大幅改變與傳統業務、期刊科技及本公司持有市場可交易證券相關的關鍵因素。",
+    "對於傳統業務，可能出現新的機會來自動化或降低內容創作與營運成本，或以新方式實現現有及歷史內容的商業價值。同樣地，人工智慧可能以難以避免的方式對業務產生負面影響。",
+    "對於期刊科技，人工智慧的應用可能隨時間改變或自動化關鍵客戶作業流程，使技術需求減少。人工智慧也將創造新的方式讓客戶達成其目標，本公司正積極尋求在其中扮演重要角色。本公司正在投入資源透過內部工程追求這些機會，也可能透過合作夥伴或併購方式進行，但是否能成功仍屬未知。",
+    "軟體工程的過程與方法可能產生顯著變化，這可能會影響期刊科技的基礎業務模式。同時，監測人工智慧對市場可交易證券組成公司的潛在影響，也需要持續關注。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

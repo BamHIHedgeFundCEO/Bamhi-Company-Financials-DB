@@ -1,0 +1,199 @@
+{
+ "ticker": "RHLD",
+ "cik": "0002039497",
+ "accession": "0001104659-26-027050",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Background & Strategy",
+    "History & Structure",
+    "Human Capital/Employees",
+    "Additional Information"
+   ],
+   "paragraphs": [
+    "Resolute Holdings Management, Inc. (\"Resolute Holdings\") is a Nevada corporation that was originally formed as a Delaware corporation on September 27, 2024 (\"Inception Date\") and was recently redomiciled to the State of Nevada on March 2, 2026. It is organized to provide operating management services to GPGI Holdings, L.L.C. (formerly CompoSecure Holdings, L.L.C.) (\"GPGI Holdings\") and as of January 12, 2026, Husky Holdings LLC (\"Husky Holdings\"), and other companies it may manage in the future, both in the United States and internationally, to generate recurring, long-duration management fees. Resolute Holdings applies a differentiated approach of value creation through the systematic deployment of the Resolute Operating System (\"ROS\") to drive performance at businesses it manages with the intention of creating value at both the underlying managed businesses and at Resolute Holdings. Resolute Holdings also applies its M&A and capital markets expertise to drive inorganic growth of its managed businesses.",
+    "GPGI, Inc. (formerly CompoSecure, Inc.) (\"GPGI\"), through its wholly owned subsidiaries, GPGI Holdings and Husky Holdings, is a permanent capital platform designed to acquire, own, and scale high-quality businesses that hold \"great positions in good industries.\" The Resolute Holdings and GPGI structure is designed to eliminate the constraints found in traditional corporate structures to attract great operators to lead and manage each business within GPGI. The leaders of each operating business benefit from the support and experience of Resolute Holdings, allowing them to focus on operating their respective businesses. GPGI has evolved from a single operating business into a diversified permanent capital platform that is as of the date of this report comprised of two market leading businesses, CompoSecure and Husky, each wholly owned by GPGI Holdings and operating under the CompoSecure, L.L.C. and Husky Holdings legal entities, respectively (see entity structure below).",
+    "CompoSecure, founded in 2000, and headquartered in Somerset, New Jersey, is the global leader in the design and manufacturing of premium metal payment cards and secure authentication solutions. The company pioneered the use of metal in payment cards dating back to 2003 and combines industry-leading innovation, advanced materials science, and proprietary manufacturing processes to deliver highly differentiated products to its customers. CompoSecure's metal payment cards integrate a metal core with EMV® (acronym representing Europay, Mastercard, and Visa) chips, magnetic stripes, and contactless payment technology, while meeting stringent certification requirements from global payment networks. CompoSecure's metal cards deliver a distinctive weight, a premium aesthetic, and enhanced durability for consumers, while its issuer customers benefit from the ability to attract higher-value consumers, reduce cardholder churn, and unlock higher customer spend relative to traditional plastic cards.",
+    "Husky, founded in 1953, and headquartered in Bolton, Ontario, is the leading global manufacturer of highly engineered injection molding equipment and aftermarket tooling and services. Husky has focused on developing highly technical precision technologies instrumental in the delivery of food, beverages, medical devices, and other applications including general packaging and closures, thinwall packaging, and consumer products. Husky delivers its integrated capabilities through a combination of systems, tooling, and aftermarket parts and services to create value for customers throughout the entire lifecycle of its solutions.",
+    "The evolution of the Resolute Holdings and GPGI relationship began on August 7, 2024, when affiliates of Resolute Compo Holdings, LLC, including Tungsten 2024 LLC, (collectively, \"Tungsten\"), acquired a majority interest of GPGI. Subsequently, on the Inception Date, Resolute Holdings was created as a wholly owned subsidiary of GPGI Holdings. On February 28, 2025, GPGI distributed all shares of common stock of its wholly owned subsidiary, Resolute Holdings, on a pro rata basis to the holders of GPGI's Class A Common Stock as of the February 20, 2025 record date (\"Spin-Off\"). Each stockholder of record who held shares of GPGI Class A Common Stock as of the close of business on February 20, 2025, received one share of Resolute Holdings common stock for every twelve shares of GPGI Class A Common Stock then held. On February 28, 2025, Resolute Holdings started trading regular-way on The Nasdaq Stock Market LLC under the ticker symbol \"RHLD\". On September 23, 2025, Resolute Holdings transferred the listing of its common stock to the New York Stock Exchange where it continues to trade under the ticker symbol \"RHLD\".",
+    "In connection with the completion of the Spin-Off, Resolute Holdings entered into a management agreement with GPGI Holdings (the \"CompoSecure Management Agreement\"), pursuant to which Resolute Holdings is responsible for managing the day-to-day business and operations and overseeing the strategy of GPGI Holdings and its controlled affiliates. In accordance with ASC 810 and due to the terms of the CompoSecure Management Agreement, Resolute Holdings is required to consolidate GPGI Holdings because it is a variable interest entity (\"VIE\") in which Resolute Holdings is deemed to be the primary beneficiary (see Notes 2, 10, and 15 to the Company's audited consolidated financial statements in Item 8 of this Annual Report on Form 10-K).",
+    "Pursuant to the CompoSecure Management Agreement, GPGI Holdings pays Resolute Holdings a quarterly management fee (the \"CompoSecure Management Fee\"), payable in arrears, in a cash amount equal to 2.5% of GPGI Holdings' last 12 months' Adjusted EBITDA, as defined in the CompoSecure Management Agreement, measured for the period ending on the fiscal quarter then ended (\"Management Agreement Adjusted EBITDA\"). Management Agreement Adjusted EBITDA reflects (a) GPGI Holdings' earnings before interest, taxes, depreciation, depletion and amortization, extraordinary losses and expenses, one-time and non-recurring expenses, and the CompoSecure Management Fee, less (b) GPGI's selling, general and administrative expenses, adjusted for the same items above (\"Parent Allocated Expense\", as defined in the CompoSecure Management Agreement). Management Agreement Adjusted EBITDA for GPGI Holdings is calculated without duplication of Husky Holdings' Adjusted EBITDA as defined in the Husky Management Agreement (as defined below) and its share of Parent Allocated Expense. GPGI Holdings is also required to reimburse Resolute Holdings and its affiliates for Resolute Holdings' documented costs and expenses incurred on behalf of GPGI Holdings other than those expenses related to Resolute Holdings' or its affiliates' personnel who provide services to GPGI Holdings under the CompoSecure Management Agreement. Resolute Holdings will determine, in its sole and absolute discretion, whether a cost or expense will be borne by Resolute Holdings or by GPGI Holdings.",
+    "The CompoSecure Management Agreement has an initial term of 10 years and shall automatically renew for successive ten-year terms unless terminated in accordance with its terms. Resolute Holdings and GPGI Holdings may each terminate the CompoSecure Management Agreement upon the occurrence of certain other limited events, and in connection with certain of these limited events, Resolute Holdings has the right to require GPGI Holdings to pay a termination fee, which may be paid in cash, shares of common stock of GPGI or a combination of cash and stock. The CompoSecure Management Agreement also provides for certain indemnification rights in Resolute Holdings' favor, as well as certain additional covenants, representations and warranties.",
+    "On November 2, 2025, GPGI entered into a Share Purchase Agreement with entities affiliated with Platinum Equity, LLC (\"Platinum Equity\") pursuant to which GPGI would combine with Husky Technologies Limited for aggregate consideration of approximately $4.976 billion, comprised of cash and shares of GPGI's Class A Common Stock (the \"Husky Transaction\"). The Husky Transaction was completed on January 12, 2026, whereby Husky Holdings became a wholly owned subsidiary of GPGI Holdings.",
+    "In conjunction with the closing of the Husky Transaction, Husky Holdings and Resolute Holdings entered into a management agreement (the \"Husky Management Agreement\") on substantially identical terms as the CompoSecure Management Agreement, pursuant to which Resolute Holdings provides management and other related services to Husky Holdings in exchange for payment of quarterly management fees (the \"Husky Management Fee\"), which is calculated without duplication of GPGI Holdings' Adjusted EBITDA and its share of Parent Allocated Expense.",
+    "Resolute Holdings (together with GPGI Holdings and Husky Holdings, the \"Company\") only receives management fees from GPGI Holdings and Husky Holdings and does not own any equity interests including common stock in GPGI Holdings, Husky Holdings, or GPGI. Since the Husky Transaction closed on January 12, 2026, the Company's consolidated financial statements for the year ended December 31, 2025 do not reflect the results of Husky Holdings.",
+    "The Company's entity structure as of the date of this report is as follows:",
+    "As of February 1, 2026, the Company had approximately 5,534 full-time employees and 86 part-time employees consisting of 971 full-time employees and 6 part-time employees at CompoSecure, 4,556 full-time employees and 80 part-time employees at Husky, and 7 full-time employees at Resolute Holdings. As an Equal Opportunity Employer, the Company does not discriminate against any employee or job applicant based on race, ethnicity, religion, national origin, sex, physical or mental disability, or age.",
+    "Our website is www.resoluteholdings.com. We make available through the \"Financial Information\" section of the \"Investor Relations\" section, free of charge, our annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, Proxy Statements and Forms 3, 4 and 5, and amendments to those reports, as soon as reasonably practicable after filing such materials with or furnishing such documents to the Securities and Exchange Commission (the \"SEC\"). The information found on our website is not a part of this or any other report filed with or furnished to the SEC. The SEC maintains a site that contains reports, proxy and information statements, and other information regarding issues, such as the Company, that file electronically with the SEC at www.sec.gov."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Summary of Risk Factors",
+    "Risks Related to Our Business",
+    "Our results of operations and financial condition are substantially dependent on the two businesses we manage, CompoSecure and Husky.",
+    "Our growth prospects may depend upon the successful negotiation of management agreements with additional managed companies and the payment by those companies to us of management fees.",
+    "The management fees payable to us by our managed companies may impact our management priorities or cause us to select riskier managed company businesses to increase our compensation.",
+    "We face risks associated with conducting due diligence into potential additional managed companies.",
+    "We may change our strategies from time to time.",
+    "Our managed companies, including GPGI Holdings and Husky Holdings, may not be able to successfully fund future activities of new businesses on acceptable terms.",
+    "We are a new company and have a limited operating history.",
+    "We and our managed companies are dependent upon our key personnel for our future success, particularly David Cote and Tom Knott.",
+    "Conflicts of interest with our directors, executive officers or other employees could damage our reputation and negatively impact our business.",
+    "Failure to retain existing customers or identify and attract new customers could adversely affect the business, financial condition and results of operations of the CompoSecure business.",
+    "Commercializing new products can be a lengthy and complex process. If the CompoSecure business is unable to introduce new products and services in a timely manner, its business could be materially adversely affected.",
+    "Disruptions at the CompoSecure business' primary production facility may adversely affect the business, results of operations and/or financial condition of the CompoSecure business.",
+    "The future growth of the CompoSecure business may depend upon its ability to develop and introduce new products.",
+    "Regulatory changes or actions may restrict the use of the Arculus Cold Storage Wallet or digital assets in a manner that adversely affects the business, prospects or operations of the CompoSecure business."
+   ],
+   "paragraphs": [
+    "An investment in our company is subject to a number of risks. These risks relate to our business, the businesses we manage, CompoSecure and Husky, our common stock (including the Spin-Off) and the securities market. Any of these risks and other risks could materially and adversely affect our business, results of operations, cash flows and financial condition and the actual outcome of",
+    "matters as to which forward-looking statements are made in this Annual Report on Form 10-K. Please read the information in the section captioned \"Risk Factors\" of this Annual Report for a description of the principal risks that we face. Some of the more significant challenges and risks we face include the following:",
+    "● Risks related to our business, including:",
+    "o Our results of operations and financial condition are substantially dependent on the two businesses we manage, CompoSecure and Husky;",
+    "o Our growth prospects may depend upon the successful negotiation of management agreements with additional managed companies, our ability to conduct due diligence into such companies, and the payment by those companies to us of management fees;",
+    "o Management fees payable to us by our managed companies may impact our management priorities;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Recent Developments",
+    "Economic Conditions",
+    "Key Components of Results of Operations",
+    "Cost of Sales",
+    "Gross Profit and Gross Margin",
+    "Operating Expenses",
+    "Income from Operations and Operating Margin",
+    "Other Income (Expense)",
+    "Net Income (Loss)",
+    "Results of Operations",
+    "Year ended December 31, 2025 vs. year ended December 31, 2024",
+    "Year ended December 31,",
+    "(in thousands)",
+    "Income Tax Expense",
+    "December 31, 2025",
+    "December 31, 2024",
+    "($ in thousands)",
+    "Intercompany/",
+    "Eliminations",
+    "Consolidated",
+    "Use of Non-GAAP Financial Measures",
+    "($ in thousands except per share figures)",
+    "Liquidity and Capital Resources",
+    "Net Cash Provided by Operating Activities",
+    "Net Cash Used in Investing Activities",
+    "Net Cash Used in Financing Activities",
+    "Contractual Obligations",
+    "Husky Transaction",
+    "Critical Accounting Policies and Estimates"
+   ],
+   "paragraphs": [
+    "On February 28, 2025, GPGI completed the Spin-Off, whereby each stockholder of record who held shares of GPGI Class A Common Stock as of the close of business on February 20, 2025, received one share of Resolute Holdings common stock for every twelve shares of GPGI Class A Common Stock then held. On February 28, 2025, Resolute Holdings started trading regular-way on The Nasdaq Stock Market LLC under the ticker symbol \"RHLD\". On September 23, 2025, Resolute Holdings transferred the listing of its common stock to the New York Stock Exchange where it continues to trade under the ticker symbol \"RHLD\". On March 2, 2026, Resolute Holdings redomiciled its state of incorporation from the State of Delaware to the State of Nevada.",
+    "In connection with the completion of the Spin-Off, Resolute Holdings entered into the CompoSecure Management Agreement, pursuant to which Resolute Holdings is responsible for managing the day-to-day business and operations and overseeing the strategy of GPGI Holdings and its controlled affiliates. Due to the execution of and the terms of the CompoSecure Management Agreement, Resolute Holdings is required to consolidate GPGI Holdings for financial reporting purposes.",
+    "Pursuant to the CompoSecure Management Agreement, GPGI Holdings pays Resolute Holdings the CompoSecure Management Fee, payable quarterly in arrears, in a cash amount equal to 2.5% of Management Agreement Adjusted EBITDA. Management Agreement Adjusted EBITDA reflects (a) GPGI Holdings' earnings before interest, taxes, depreciation, depletion and amortization, extraordinary losses and expenses, one-time and non-recurring expenses, and the CompoSecure Management Fee, less (b) Parent Allocated Expense, as defined in the CompoSecure Management Agreement. Management Agreement Adjusted EBITDA for GPGI Holdings is calculated without duplication of Husky Holdings' Adjusted EBITDA and its share of Parent Allocated Expense. GPGI Holdings is also required to reimburse Resolute Holdings and its affiliates for Resolute Holdings' documented costs and expenses incurred on behalf of GPGI Holdings other than those expenses related to Resolute Holdings' or its affiliates' personnel who provide services to GPGI Holdings under the CompoSecure Management Agreement. Resolute Holdings will determine, in its sole and absolute discretion, whether a cost or expense will be borne by Resolute Holdings or by GPGI Holdings.",
+    "The CompoSecure Management Agreement has an initial term of 10 years and shall automatically renew for successive ten-year terms unless terminated in accordance with its terms. Resolute Holdings and GPGI Holdings may each terminate the CompoSecure Management Agreement upon the occurrence of certain other limited events, and in connection with certain of these limited events, Resolute Holdings has the right to require GPGI Holdings to pay a termination fee, which may be paid in cash, shares of common stock of GPGI or a combination of cash and stock. The CompoSecure Management Agreement also provides for certain indemnification rights in Resolute Holdings' favor, as well as certain additional covenants, representations and warranties.",
+    "In conjunction with the closing of the Husky Transaction, Husky Holdings and Resolute Holdings entered into the Husky Management Agreement on substantially identical terms as the CompoSecure Management Agreement, pursuant to which Resolute Holdings provides management and other related services to Husky Holdings in exchange for payment of the Husky Management Fee, which is calculated without duplication of GPGI Holdings' Adjusted EBITDA and its share of Parent Allocated Expense."
+   ],
+   "focus": "Recent Developments"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Background & Strategy': '背景與策略'}",
+    "{'History & Structure': '歷史與組織架構'}",
+    "{'Human Capital/Employees': '人力資本/員工'}",
+    "{'Additional Information': '其他資訊'}"
+   ],
+   "paragraphs": [
+    "Resolute Holdings Management, Inc. (\"Resolute Holdings\") 為內華達州公司，原為德拉瓦州公司，於 2024 年 9 月 27 日（\"成立日\"）成立，並於 2026 年 3 月 2 日最近轉籍為內華達州公司。其設立目的為為 GPGI Holdings, L.L.C. (原為 CompoSecure Holdings, L.L.C.) (\"GPGI Holdings\") 及於 2026 年 1 月 12 日起 Husky Holdings LLC (\"Husky Holdings\")，以及未來可能管理的其他公司，提供營運管理服務，於美國與國際間營運，以產生持續性、長週期的管理費用。Resolute Holdings 透過系統性部署 Resolute Operating System (\"ROS\") 來實現價值創造，以驅動其管理企業的表現，並有意在管理企業與 Resolute Holdings 兩者創造價值。Resolute Holdings 亦運用其 M&A 與資本市場專業知識，以推動其管理企業的無機成長。",
+    "GPGI, Inc. (原為 CompoSecure, Inc.) (\"GPGI\")，透過其全資子公司 GPGI Holdings 和 Husky Holdings，為一個永久資本平台，設計用以取得、擁有並擴展具 \"優質產業中優勢地位\" 的企業。Resolute Holdings 與 GPGI 的結構設計用以消除傳統企業結構的限制，以吸引優秀經營者來領導與管理 GPGI 內的每一家企業。每一家營運企業的領導者可從 Resolute Holdings 的支援與經驗中受益，使其專注於經營其各自企業。GPGI 已從單一營運企業進化為一個多元化永久資本平台，截至本報告日，由兩家市場領導企業 CompoSecure 和 Husky 組成，均由 GPGI Holdings 全資擁有，並分別以 CompoSecure, L.L.C. 和 Husky Holdings 法律實體運作（見下述實體結構）。",
+    "CompoSecure 於 2000 年成立，總部設於新澤西州 Somerset，為全球在設計與製造高階金屬支付卡與安全認證解決方案的領導者。該公司自 2003 年起率先將金屬應用於支付卡，並結合產業領先的創新、先進材料科學與專利製造流程，以提供高度差異化的產品給客戶。CompoSecure 的金屬支付卡整合金屬核心與 EMV®（代表 Europay、Mastercard 與 Visa）晶片、磁條與無接觸支付技術，並符合全球支付網路的嚴格認證要求。CompoSecure 的金屬卡為消費者提供獨特的重量、高階美觀與增強的耐用性，而其發卡機構客戶則可吸引高價值消費者、降低持卡人流失率，並相較於傳統塑質卡提高客戶消費金額。",
+    "Husky 於 1953 年成立，總部設於加拿大安大略省 Bolton，為全球領先的高工程技術射出成型設備與後市場工具與服務製造商。Husky 專注於開發高度技術的精準技術，這些技術在食品、飲料、醫療器材及其他應用中至關重要，包括一般包裝與封口、薄壁包裝與消費者產品。Husky 透過系統、工具與後市場零件與服務的整合能力，為客戶在其解決方案整個生命週期中創造價值。",
+    "Resolute Holdings 與 GPGI 關係的演進於 2024 年 8 月 7 日開始，當時 Resolute Compo Holdings, LLC 的附屬公司，包括 Tungsten 2024 LLC（ collectively, \"Tungsten\"），取得 GPGI 的多數股權。隨後，於成立日，Resolute Holdings 被設立為 GPGI Holdings 的全資子公司。於 2025 年 2 月 28 日，GPGI 將其全資子公司 Resolute Holdings 的所有普通股，按比例分發給 2025 年 2 月 20 日記錄日持有 GPGI 普通股 Class A 的股東（\"分拆\"）。於 2025 年 2 月 20 日交易日收市後持有 GPGI Class A 普通股的股東，每持有十二股 GPGI Class A 普通股，可獲發一股 Resolute Holdings 普通股。於 2025 年 2 月 28 日，Resolute Holdings 開始在 Nasdaq Stock Market LLC 正常交易，股票代碼為 \"RHLD\"。於 2025 年 9 月 23 日，Resolute Holdings 將其普通股上市地轉至紐約證券交易所，並繼續以股票代碼 \"RHLD\" 交易。",
+    "在分拆完成後，Resolute Holdings 與 GPGI Holdings 籤訂管理協議（\"CompoSecure 管理協議\"），根據協議，Resolute Holdings 負責管理 GPGI Holdings 及其控制附屬公司的日常營運與策略。根據 ASC 810 並因 CompoSecure 管理協議的條款，Resolute Holdings 需要合併 GPGI Holdings，因其為一個變動權益實體（\"VIE\"），而 Resolute Holdings 被視為主要受益人（見本年度報告第 8 項中公司經審計合併財務報表附註 2、10 與 15）。",
+    "根據 CompoSecure 管理協議，GPGI Holdings 每季支付 Resolute Holdings 一個管理費用（\"CompoSecure 管理費用\"），以現金支付，後付，金額為 GPGI Holdings 前十二個月調整後 EBITDA 的 2.5%，如 CompoSecure 管理協議所定義，計算期間為財務季度結束時的期間（\"管理協議調整後 EBITDA\"）。管理協議調整後 EBITDA 反映（a）GPGI Holdings 的營業收入，扣除利息、稅務、折舊、減損與攤銷，扣除非常損失與費用、一次性與非重複費用，以及 CompoSecure 管理費用，再減去（b）GPGI 的營銷、一般與行政費用，並調整上述相同項目（\"母公司分攤費用\"，如 CompoSecure 管理協議所定義）。GPGI Holdings 的管理協議調整後 EBITDA 計算時，不重複計算 Husky Holdings 的調整後 EBITDA（如後述 Husky 管理協議所定義）及其母公司分攤費用的份額。GPGI Holdings 還需為 Resolute Holdings 及其附屬公司因代表 GPGI Holdings 所產生的費用與支出進行補償，但不包括與 Resolute Holdings 或其附屬公司員工相關的費用，這些員工根據 CompoSecure 管理協議為 GPGI Holdings 提供服務。Resolute Holdings 將根據其獨自且絕對的判斷，決定費用或支出由 Resolute Holdings 或 GPGI Holdings 承擔。",
+    "CompoSecure 管理協議的初始期限為 10 年，並在符合協議條款的情況下自動延長為連續的 10 年期，除非根據協議條款終止。Resolute Holdings 與 GPGI Holdings 可根據某些特定事件終止 CompoSecure 管理協議，並在某些特定事件發生時，Resolute Holdings 有權要求 GPG, Holdings 支付終止費用，該費用可為現金、GPGI 普通股股份，或現金與股票的組合。CompoSecure 管理協議亦提供 Resolute Holdings 的某些賠償權利，以及某些額外的約束條款、陳述與保證。",
+    "於 2025 年 11 月 2 日，GPGI 與與 Platinum Equity, LLC（\"Platinum Equity\"）有關聯之實體簽訂股份買賣協議，根據協議，GPGI 將與 Husky Technologies Limited 合併，總對價約為 4.976 十億美元，包含現金及 GPGI 類 A 普通股股份（\"Husky 交易\"）。Husky 交易於 2026 年 1 月 12 日完成，Husky Holdings 成為 GPGI Holdings 的 wholly owned subsidiary。",
+    "配合 Husky 交易之完成，Husky Holdings 與 Resolute Holdings 籤訂管理協議（\"Husky 管理協議\"），條款與 CompoSecure 管理協議 substantially identical，根據協議，Resolute Holdings 向 Husky Holdings 提供管理及其他相關服務，並以支付每季管理費用（\"Husky 管理費用\"）為對價，該費用計算時不重複計算 GPGI Holdings 的 Adjusted EBITDA 及其應佔 Parent Allocated Expense。",
+    "Resolute Holdings（與 GPGI Holdings 及 Husky Holdings 合稱 \"本公司\"）僅從 GPGI Holdings 及 Husky Holdings 收取管理費用，並不持有任何 equity interests，包括 GPGI Holdings、Husky Holdings 或 GPGI 之普通股。自 Husky 交易於 2026 年 1 月 12 日完成後，本公司 2025 年 12 月 31 日財務報表之合併財務報表未反映 Husky Holdings 之結果。",
+    "本公司截至本報告日之公司結構如下：",
+    "截至 2026 年 2 月 1 日，本公司約有 5,534 名全職員工及 86 名兼職員工，包含 CompoSecure 有 971 名全職員工及 6 名兼職員工，Husky 有 4,556 名全職員工及 80 名兼職員工，Resolute Holdings 有 7 名全職員工。本公司為平等就業機會僱主，不因種族、族羣、宗教、國籍、性別、身心障礙或年齡而歧視任何員工或求職者。",
+    "本公司網站為 www.resoluteholdings.com。我們透過 \"Investor Relations\" 節點下的 \"Financial Information\" 節點，免費提供年度 10-K 報告、季報 10-Q、現況報告 8-K、股東會資料及 Form 3、4 與 5，以及這些報告之修正版本，於向美國證券交易委員會（\"SEC\"）提交或提供這些資料後盡速提供。本網站之資訊並非本報告或其他任何報告之組成部分。SEC 會維護一個網站，提供電子檔公司報告、股東會資料及資訊聲明等，請見 www.sec.gov。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "近期發展",
+    "經濟情勢",
+    "營運成果之主要組成部分",
+    "銷售成本",
+    "毛利與毛利率",
+    "營運費用",
+    "營運收入與營運毛利率",
+    "其他收入（費用）",
+    "淨收入（淨虧損）",
+    "營運成果",
+    "2025 年 12 月 31 日財年與 2024 年 12 月 31 日財年比較",
+    "2025 年 12 月 31 日財年",
+    "(以千為單位)",
+    "所得稅費用",
+    "2025 年 12 月 31 日",
+    "2024 年 12 月 31 日",
+    "（金額以千美元為單位）",
+    "公司間/",
+    "抵銷",
+    "合併",
+    "非GAAP財務指標的使用",
+    "（金額以千美元為單位，每股數字除外）",
+    "流動性及資本資源",
+    "營運活動所產生之淨現金",
+    "投資活動所使用的淨現金",
+    "融資活動所使用的淨現金",
+    "契約義務",
+    "Husky 交易",
+    "關鍵會計政策與會計估計"
+   ],
+   "paragraphs": [
+    "於 2025 年 2 月 28 日，GPGI 完成分拆，根據此分拆，於 2025 年 2 月 20 日營業日結束時持有 GPGI 類 A 普通股之記錄股東，每持有十二股 GPGI 類 A 普通股，將獲發一股 Resolute Holdings 普通股。於 2025 年 2 月 28 日，Resolute Holdings 開始在 Nasdaq 股票市場 LLC 以符號 \"RHLD\" 正常交易。於 2025 年 9 月 23 日，Resolute Holdings 將其普通股上市地點轉移至紐約證券交易所，並持續以符號 \"RHLD\" 交易。於 2026 年 3 月 2 日，Resolute Holdings 將其註冊州從特拉華州轉移到內華達州。",
+    "配合分拆完成，Resolute Holdings 與 GPGI Holdings 簽訂 CompoSecure 管理協議，根據此協議，Resolute Holdings 負責管理 GPGI Holdings 及其控制之附屬公司的日常業務與運作，並監督其戰略。由於 CompoSecure 管理協議之簽訂及其條款，Resolute Holdings 需要為財務報導目的將 GPGI Holdings 合併入帳。",
+    "根據 CompoSecure 管理協議，GPGI Holdings 每季以現金支付 Resolute Holdings CompoSecure 管理費，金額為管理協議調整後之 EBITDA 的 2.5%。管理協議調整後之 EBITDA 係指 GPGI Holdings 之營業收入，扣除利息、稅務、折舊、減損及攤銷，以及非常損失與費用、一次性及非重複性費用，以及 CompoSecure 管理費，再扣除 Parent Allocated Expense，如 CompoSecure 管理協議所定義。GPGI Holdings 之管理協議調整後之 EBITDA 計算時，不重複計算 Husky Holdings 之調整後 EBITDA 及其應佔 Parent Allocated Expense。GPGI Holdings 還需補償 Resolute Holdings 及其附屬公司因代表 GPGI Holdings 所產生的費用及支出，但不包括 Resolute Holdings 或其附屬公司員工因根據 CompoSecure 管理協議為 GPGI Holdings 提供服務而產生的費用及支出。Resolute Holdings 得自行決定，以絕對裁量權，判斷某項費用或支出由 Resolute Holdings 或 GPGI Holdings 承擔。",
+    "CompoSecure 管理協議之初始期限為 10 年，並自動續約為連續的 10 年期，除非根據協議條款終止。Resolute Holdings 及 GPGI Holdings 均可在發生特定其他有限事件時終止 CompoSecure 管理協議，並在發生某些這些有限事件時，Resolute Holdings 有權要求 GPGI Holdings 支付終止費用，該費用可為現金、GPGI 普通股股份，或現金與股票之組合。CompoSecure 管理協議亦提供 Resolute Holdings 之賠償權利，以及某些額外的約束條款、聲明與保證。",
+    "配合 Husky 交易之閉幕，Husky Holdings 與 Resolute Holdings 簽訂 Husky 管理協議，其條款與 CompoSecure 管理協議 substantially identical，根據此協議，Resolute Holdings 向 Husky Holdings 提供管理及其他相關服務，以換取 Husky 管理費，該費用計算時不重複計算 GPGI Holdings 之調整後 EBITDA 及其應佔 Parent Allocated Expense。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "風險因素總覽",
+    "與我們業務相關的風險",
+    "我們的營運成果與財務狀況大幅取決於我們管理的兩家業務，即 CompoSecure 與 Husky。",
+    "我們的成長前景可能取決於與其他管理公司成功簽訂管理協議，以及這些公司支付給我們的管理費用。",
+    "我們的管理公司支付給我們的管理費用，可能影響我們的管理優先順序，或導致我們選擇較高風險的管理公司業務以增加我們的報酬。",
+    "我們面臨與評估潛在管理公司相關的風險。",
+    "我們可能不時調整我們的策略。",
+    "我們的管理公司，包括 GPGI Holdings 與 Husky Holdings，可能無法以可接受的條件成功為新業務籌措未來活動所需資金。",
+    "本公司為一間新成立公司，營運歷史尚屬有限。",
+    "本公司及其所管理之公司未來之成功，尤其係取決於關鍵人員，特別是 David Cote 與 Tom Knott。",
+    "與董事、高階主管或其他員工之利益衝突，可能損害本公司聲譽，並對本公司業務產生負面影響。",
+    "未能留住現有客戶或識別並吸引新客戶，可能對 CompoSecure 事業之業務、財務狀況及營運成果產生不利影響。",
+    "商業化新產品可能為一項耗時且複雜的過程。若 CompoSecure 事業無法及時推出新產品與服務，其業務可能受到重大不利影響。",
+    "CompoSecure 事業主要生產設施之中斷，可能對其業務、營運成果及/或財務狀況產生不利影響。",
+    "CompoSecure 事業未來之成長可能取決於其開發並推出新產品之能力。",
+    "法規變更或措施可能限制 Arculus Cold Storage Wallet 或數位資產之使用方式，進而對 CompoSecure 事業之業務、前景或營運產生不利影響。"
+   ],
+   "paragraphs": [
+    "投資本公司之股票面臨許多風險。這些風險與我們的業務、我們所管理之業務、CompoSecure 及 Husky、我們之普通股（包括分拆後之股票）以及證券市場有關。任何這些風險或其他風險都可能對我們之業務、營運成果、現金流及財務狀況產生重大且不利之影響，並影響本年度報告表 10-K 所載之預測性陳述之實際結果。請閱讀本年度報告表 10-K 中標題為 \"Risk Factors\" 之節，以瞭解我們所面臨之主要風險。我們所面臨之部分重大挑戰與風險包括以下各項：",
+    "matters as to which forward-looking statements are made in this Annual Report on Form 10-K. Please read the information in the section captioned \"Risk Factors\" of this Annual Report for a description of the principal risks that we face. Some of the more significant challenges and risks we face include the following:",
+    "● Risks related to our business, including:",
+    "o 本公司的營運成果與財務狀況在很大程度上取決於我們所管理的兩家企業，CompoSecure 與 Husky;",
+    "o 我們的成長潛力可能取決於與其他管理企業成功簽訂管理協議、我們對這些企業進行盡職調查的能力，以及這些企業向我們支付管理費用的狀況;",
+    "o 我們的管理企業向我們支付的管理費用可能影響我們的管理優先順序;"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

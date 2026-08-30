@@ -1,0 +1,221 @@
+{
+ "ticker": "VRRM",
+ "cik": "0001682745",
+ "accession": "0001193125-26-067293",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Commercial Services",
+    "Government Solutions",
+    "Parking Solutions",
+    "Markets and Competition",
+    "Intellectual Property",
+    "Government Regulation",
+    "Human Capital Management",
+    "Corporate Information"
+   ],
+   "paragraphs": [
+    "We are a leading provider of smart mobility technology solutions, principally operating throughout the United States, Australia, Europe, and Canada. Our goal is to make transportation safer, smarter, and more connected through our integrated, data-driven solutions, including toll and violations management, title and registration services, automated safety and traffic enforcement, and commercial parking management. We bring together vehicles, hardware, software, data, and people to solve transportation challenges for customers around the world, including commercial fleet owners, such as rental car companies (\"RACs\"), direct commercial fleet owner-operators (\"Direct Fleets\") and fleet management companies (\"FMCs\"), as well as governments, universities, parking operators, healthcare facilities, transportation hubs, and other violation-issuing authorities.",
+    "Our solutions are offered through three segments: (i) Commercial Services, (ii) Government Solutions, and (iii) Parking Solutions.",
+    "Our Commercial Services segment generated approximately $435.8 million in revenue for 2025, or approximately 45% of our total revenue. Commercial Services provides automated toll and violations management and title and registration solutions to RACs, Direct Fleets, FMCs, and other large fleet owners primarily in North America. Our toll and violations management solutions facilitate timely payment of tolls and violations incurred by our customers' vehicles, accurate transfer of liability on our customers' behalf, and billing of, and collections from, individual drivers. We also manage regional toll transponder installation and vehicle association—a critical and highly complex process for RAC, Direct Fleet, and FMC customers—to ensure that transponders and corresponding toll transactions are associated with the correct vehicle.",
+    "We have long-standing relationships with, among others, the three largest RACs in the United States, Avis Budget Group, Enterprise Mobility, and The Hertz Corporation. We also have relationships with key European RACs and leading FMCs in the United States. Through our established relationships with more than 50 individual tolling authorities throughout the United States, we provide an automated and outsourced administrative solution for our customers while also providing convenience for vehicle drivers and benefits to tolling and issuing authorities. Toll management solutions accounted for approximately 39% of our 2025 total revenues.",
+    "Our violations management solution processes violations incurred by the drivers of RAC, Direct Fleet, and FMC vehicles by working with domestic violation-issuing authorities to pay fines on behalf of vehicle owners, for which we are able to bill individual drivers or transfer liability directly to vehicle drivers. Vehicle-issued violations include parking and photo enforcement violations. In Europe, we specialize in the identification, notification, and collection of unpaid traffic, parking, and public transport-related fees, charges, and penalties issued to foreign-registered vehicles and individuals on behalf of issuing authorities in 20 European countries, as of December 31, 2025. Violation management solutions accounted for approximately 4% of our 2025 total revenues.",
+    "Our title and registration solutions provide RAC, Direct Fleet, and FMC customers with an integrated, end-to-end solution for managing vehicle title, registration, and annual renewals. We provide automated title and registration solutions by working with individual departments of motor vehicles in 17 states, as of December 31, 2025. Title and registration solutions accounted for approximately 2% of our 2025 total revenues.",
+    "Our Government Solutions segment generated approximately $460.7 million in revenue for 2025, or approximately 47% of our 2025 total revenue. Our Government Solutions segment provides photo enforcement automated safety solutions to states, municipalities, counties, school districts, and law enforcement agencies of all sizes, primarily in the United States, Canada, and Australia. These programs are designed to reduce traffic violations and resulting collisions, injuries, and fatalities. Our proprietary technologies are designed to provide government agencies with the information, data, and automated end-to-end administrative capabilities to enforce traffic violations through photo enforcement. We install, maintain, and manage hardware and software automated safety solutions to process event data, apply customer-specific rules, and connect traffic violations to responsible drivers or vehicle owners on behalf of our customers. We also offer an end-to-end solution, in which we automatically send captured events to our customer's designated enforcement agency, and, once a violation is confirmed, we manage citation mailing, billing, and other administrative tasks on behalf of the customer.",
+    "In the United States, we provide government agencies with road safety cameras to detect and process traffic violations for red-light, speed, school bus, and city bus lanes. For many international customers, we design, engineer, and maintain roadside photo enforcement technology, including both hardware and software, which is sold or licensed to government agencies and often maintained with maintenance contracts to support the technology. Service revenue from speed, red-light, school bus cameras, and city bus lane cameras typically have initial terms of three to five years with renewal options and accounted for approximately 42% of our 2025 total revenues. Product sales to customers are not recurring and are dependent on our customers' needs, and account for approximately 5% of total revenue for 2025.",
+    "Our Parking Solutions segment generated approximately $82.6 million in revenue for 2025, or approximately 8% of our 2025 total revenue. Parking Solutions provides end-to-end commercial parking management solutions to approximately 1,775 customers in the university, municipal, healthcare, and commercial operator markets, as of December 31, 2025. Our proprietary software, transaction processing, and hardware technologies provide customers with solutions to manage and monetize parking and enforcement operations. In 2025, we processed approximately 180 million transactions using our various parking solutions systems, including parking access and revenue control (\"PARC\"), single- and multi-space pay stations, integrated physical and mobile payments, back-office parking rate management, permit issuance and management, online citation payment, event parking, and back-office management of violations.",
+    "The primary sectors in which we operate are automated safety, tolling, commercial fleet management, and parking. We face competition in each of the sectors in which we operate, but there is no single company that provides a similarly broad suite of solutions and competes across all of our business segments. However, the markets for our solutions are increasingly competitive, rapidly evolving, and fragmented, and are subject to changing technology, shifting customer needs, contract renewals, and new laws and policies. A number of sector participants develop and market products and services that compete to varying extents with our offerings, and we expect this competition to intensify. The rapid rate of technological change in our industry could increase the likelihood that we will face competition from new products or services designed by companies with whom we do not currently compete. This includes advancements in self-driving cars, which may significantly reduce the frequency of vehicles illegally running red lights, exceeding posted speed limits, or committing other violations. Moreover, we face competition from our own customers as they may choose to invest in developing internal solutions.",
+    "In our Commercial Services segment, we face competition from our own customers, who may choose to invest in internal solutions, and vendors offering or seeking to offer new technologies or financial models. In our Government Solutions segment, we face competition with respect to certain automated safety solutions from other vendors in red-light, speed, school bus, and bus lane photo enforcement. In Parking Solutions, we face competition from a variety of competitors.",
+    "Our Commercial Services business segment experiences seasonal fluctuations in usage and revenue. Historically, Commercial Services sees higher volumes in the second and third quarters of each fiscal year, driven by increases in travel demand during the summer driving season. Additionally, seasonal fluctuations can be influenced by travel trends, weather conditions, economic conditions, and shifts in consumer preferences. Seasonality has not historically resulted in material fluctuations in our overall financial performance.",
+    "We deliver our services through a combination of software and hardware. Our business unit teams have expertise in hardware, software, and firmware development and testing, database design and data analytics, and product and project management. In addition, we engage external contractors to supplement our team in software and firmware development, digital design, test development, and product-level testing. Generally, our research and development efforts are focused on expanding the capabilities of our products, differentiating our offerings, simplifying implementation, support and utilization of our solutions, reducing the cost of our solutions, increasing the reliability of our solutions, expanding the functionality of our solutions to meet customer and market requirements, applying new advances in technology to enhance existing solutions, and building further competitive advantages through our intellectual property portfolio. We increasingly apply AI to enhance and support certain aspects of our offerings and business processes. Given the evolving and complex nature of AI, its use involves inherent operational and legal risks. For more details, refer to Item 1A, \"Risk Factors\" including \"Risks related to the development, deployment, and use of AI, together with an evolving and uncertain regulatory environment, may increase costs, create liability, and adversely affect our business, financial condition, results of operations, and reputation.\" See also Item 1C, \"Cybersecurity,\" for our risk management and governance disclosures.",
+    "We rely on a combination of patents, trademarks, trade secrets, copyrights, and confidentiality agreements to protect our intellectual property. We take steps to protect new intellectual property to safeguard our ongoing technological innovations and strengthen our brand and believe we take appropriate action against infringement or misappropriation of our intellectual property rights by others. We regularly review third-party intellectual property rights to help avoid infringement and to identify strategic opportunities."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risk Factor Summary",
+    "Risks Related to Our Customers, Industry, Competition, and Vendors",
+    "Risks Related to Our Acquisitions",
+    "Risks Related to Data Privacy and Cybersecurity",
+    "Risks Related to Our International Operations",
+    "Risks Related to Our Intellectual Property",
+    "Risks Related to Our Indebtedness",
+    "Risks Related to Our Class A Common Stock",
+    "We face intense competition and any failure to keep up with technological developments, changing customer preferences, and new laws and policies could have a material adverse effect on our business.",
+    "Our new products and services, and changes to existing products and services, may not succeed.",
+    "We regularly pursue contracts and contract renewals that require competitive bidding, which can involve substantial costs and could have a material adverse effect on our business.",
+    "Our reliance on third-party providers, including for access to government records of vehicle information, could have a material adverse effect on our business.",
+    "We rely on communications networks and information systems and any interruption could have a material adverse effect on our business.",
+    "Our failure to properly perform under our contracts or otherwise satisfy our customers could have a material adverse effect on our business.",
+    "Our inability to successfully implement our acquisition strategy could have a material adverse effect on our business.",
+    "The inability to successfully integrate our recent or future acquisitions could have a material adverse effect on our business.",
+    "Any failure to realize the anticipated benefits of an acquisition, including unanticipated expenses and liabilities related to acquisitions, could have a material adverse effect on our business.",
+    "A failure in or compromise of our networks or systems, including as a result of cyber-attacks, could have a material adverse effect on our business.",
+    "Risks Related to Human Capital Management",
+    "We depend on the services of key executives and any inability to attract and retain key management personnel could have a material adverse effect on our business.",
+    "A failure to attract and retain necessary skilled personnel and qualified subcontractors could have a material adverse effect on our business."
+   ],
+   "paragraphs": [
+    "Investing in our common stock involves a high degree of risk. In addition to the other information set forth in this Annual Report, you should carefully consider the following factors, which could materially affect our business, financial condition, and results of operations in future periods. The risks described below are not the only risks we face. Additional risks not currently known to us may adversely affect our business, financial condition, or results of operations in future periods.",
+    "• Negative industry and macroeconomic conditions, including the impact of government actions and regulations, such as tariffs, trade protection measures, or a government shutdown, may materially and adversely impact our business, financial condition, and results of operations.",
+    "• Our Commercial Services and Government Solutions segments have several large customers, including NYCDOT, that account for a significant portion of our revenue, and a reduction in demand, materially different terms or pricing in new or amended agreements, or loss of one or more of such customers could have a material adverse effect on our business.",
+    "• Our contract with NYCDOT, which comprises a material portion of our revenue, expired on December 31, 2025, and we entered into a new contract, effective January 1, 2026. The terms of the new contract are materially different than our prior contract with NYCDOT, including service level agreements, service credits, liquidated damages, cybersecurity, and subcontracting requirements. If we do not successfully perform pursuant to the contract terms, this could have a material adverse effect on our business, financial condition, and results of operations.",
+    "• Our government contracts are subject to unique risks and uncertainties, including termination rights, delays in payment, funds appropriation requirements, audits, and investigations, any of which could have a material adverse effect on our business.",
+    "• Any decreases in the prevalence or political acceptance of, or an increase in governmental restrictions regarding, automated and other similar methods of photo enforcement, third-party tolling and violations processing, or our ability to charge service or other fees to customers for services provided, could have a material adverse effect on our business."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Our Segments",
+    "Executive Summary",
+    "Recent Events",
+    "Key Factors Affecting Our Results of Operations",
+    "Primary Components of Our Operating Results",
+    "Costs and Expenses",
+    "Results of Operations",
+    "Fiscal Year 2025 Compared to Fiscal Year 2024",
+    "Year Ended December 31,",
+    "Percentage of Revenue",
+    "Increase (Decrease)",
+    "($ in thousands)",
+    "Total revenue",
+    "Income from operations",
+    "Service revenue",
+    "Operating expenses",
+    "Selling, general and administrative expenses",
+    "Liquidity and Capital Resources",
+    "For the Year Ended December 31,",
+    "Cash Flows from Operating Activities",
+    "Cash Flows from Investing Activities",
+    "Cash Flows from Financing Activities",
+    "Long-term Debt",
+    "Consolidated First Lien Net Leverage Ratio (As Defined in the Amended and Restated Term Loan Agreement)",
+    "Critical Accounting Estimates",
+    "Revenue Recognition",
+    "Allowance for Credit Losses",
+    "Impairment of Goodwill and Long-Lived Assets",
+    "Income Taxes",
+    "Private Placement Warrant Liabilities",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "We operate under long-term contracts and a reoccurring service revenue model. We continue to execute our strategy to grow revenue organically year over year and focus on initiatives that support our long-term strategy. During the periods presented, we:",
+    "• Increased total revenue by $99.9 million, or 11.4%, from $879.2 million in fiscal year 2024 to $979.1 million in fiscal year 2025. The increase was mainly due to service revenue resulting from increased product adoption, tolling activity, and activity in our European operations in the Commercial Services segment, and installation revenue from the NYCDOT program, the growth from city bus lane and school bus stop arm enforcement programs, back-office software-as-a-service (\"SaaS\") programs and higher product sales in the Government Solutions segment.",
+    "• Generated cash flows from operating activities of $255.8 million and $223.6 million for fiscal years 2025 and 2024, respectively. Our cash on hand was $65.3 million as of December 31, 2025.",
+    "• Used existing cash on hand of $133.4 million during fiscal year 2025 to repurchase approximately 6.0 million shares authorized under a 2025 share repurchase program.",
+    "• Continued to focus on debt management and lowering our exposure to higher interest rates, and as a result, we refinanced our debt during fiscal year 2025 which reduced our interest rate by 25 basis points. In addition, we made early repayments of approximately $8.5 million and $9.0 million on our Amended Term Loan and 2021 Term Loan (defined below) during fiscal year 2025 and 2024, respectively."
+   ],
+   "focus": "Executive Summary"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Commercial Services': '商業服務'}",
+    "{'Government Solutions': '政府解決方案'}",
+    "{'Parking Solutions': '停車解決方案'}",
+    "{'Markets and Competition': '市場與競爭'}",
+    "{'Intellectual Property': '智慧財產權'}",
+    "{'Government Regulation': '政府規範'}",
+    "{'Human Capital Management': '人力資源管理'}",
+    "{'Corporate Information': '公司資訊'}"
+   ],
+   "paragraphs": [
+    "本公司為智慧移動科技解決方案的主要供應商，主要營運範圍為美國、澳洲、歐洲及加拿大。本公司目標為透過整合且數據驅動的解決方案，使運輸更安全、更智能且更連線，包括通行費及違規管理、車輛登記與牌照服務、自動化安全與交通執法，以及商業停車管理。我們結合車輛、硬體、軟體、數據與人力，為全球客戶解決運輸挑戰，包括租車公司（\"RACs\"）、直接商業車隊擁有者（\"Direct Fleets\"）及車隊管理公司（\"FMCs\"），以及政府機構、大學、停車場營運商、醫療機構、運輸樞紐及其他違規發出機構。",
+    "我們的解決方案透過三個應報告分部提供：(i) 商業服務、(ii) 政府解決方案、(iii) 停車解決方案。",
+    "",
+    "我們與美國三大租車公司，包括Avis Budget Group、Enterprise Mobility及The Hertz Corporation，有長期的合作關係。我們也與關鍵的歐洲租車公司及美國領先的FMCs有合作關係。透過我們與美國超過50個個別通行費管理機構的既定關係，我們為客戶提供自動化與委外的行政解決方案，同時也為車輛駕駛人提供便利，並為通行費管理及違規發出機構帶來效益。通行費管理解決方案佔本公司2025年總營收的約39%。",
+    "我們的違規管理解決方案處理RAC、Direct Fleet及FMC車輛駕駛人所產生的違規，透過與國內違規發出機構合作，為車輛所有者支付罰款，我們可為個人駕駛人進行收費或直接轉移責任給車輛駕駛人。車輛產生的違規包括停車及照片執法違規。在歐洲，我們專門從事辨識、通知及收取未付的交通、停車及公共運輸相關費用、收費及罰款，為20個歐洲國家的違規發出機構代表處理外國註冊車輛及個人的違規，截至2025年12月31日。違規管理解決方案佔本公司2025年總營收的約4%。",
+    "我們的車輛登記與牌照解決方案為RAC、Direct Fleet及FMC客戶提供整合且完整的車輛登記與牌照管理解決方案，包括年度更新。我們透過與17個州的個別車輛管理部門合作，提供自動化的車輛登記與牌照解決方案，截至2025年12月31日。車輛登記與牌照解決方案佔本公司2025年總營收的約2%。",
+    "",
+    "在美國，我們為政府機構提供道路安全攝影機，用以偵測並處理紅燈、速度、學區巴士及市區巴士專用道的交通違規。對於許多國際客戶，我們設計、工程及維護路邊照片執法技術，包括硬體與軟體，並銷售或授權給政府機構，通常透過維護合約支持該技術。速度、紅燈、學區巴士攝影機及市區巴士專用道攝影機的服務收入通常有初始合約期為三年至五年，並有續約選項，佔本公司2025年總營收的約42%。產品銷售給客戶非為重複性收入，並依賴客戶需求，佔2025年總營收的約5%。",
+    "",
+    "我們主要經營的產業為自動化安全、收費系統、商業車隊管理及停車。我們在每個產業中皆面臨競爭，但目前尚無任何一家公司能提供與我們各業務分部一樣廣泛的解決方案並跨產業競爭。然而，我們解決方案的市場正變得越來越競爭、快速演進且分散，並受到技術變遷、客戶需求變動、契約續約及新法規與政策的影響。許多產業參與者開發並行銷與我們產品或服務競爭程度不一的產品與服務，我們預期這種競爭將持續加劇。我們產業中技術變更的速度極快，可能增加我們面臨來自與我們目前無競爭關係的公司所設計的新產品或服務的競爭風險。這包括自駕車的進步，可能大幅減少車輛違規紅燈、超速或犯下其他違規的情況。",
+    "在商業服務應報告分部，我們面臨來自我們客戶的競爭，這些客戶可能選擇投資於內部解決方案，以及提供或尋求提供新技術或財務模式的供應商。在政府解決方案應報告分部，我們在紅燈、速度、校車及公車專用道拍照執法的自動化安全解決方案方面，與其他供應商競爭。在停車解決方案方面，我們面臨來自多種競爭對手的競爭。",
+    "我們的商業服務應報告分部會因季節性因素而導致使用量與營收波動。歷來，商業服務在每個會計年度的第二及第三季營收較高，這是由於夏季駕駛季節的旅行需求增加所驅動。此外，季節性波動也可能受到旅行趨勢、天氣條件、經濟狀況及消費者偏好變動的影響。季節性因素過去並未導致我們整體財務表現有顯著波動。",
+    "我們透過軟體與硬體的組合來提供服務。我們的業務單位團隊在硬體、軟體與固件的開發與測試、資料庫設計與資料分析，以及產品與專案管理方面具備專業知識。此外，我們也會聘請外部承包商來補強我們團隊在軟體與固件開發、數位設計、測試開發及產品層面測試的專業能力。通常，我們的研究與開發工作重點在於擴展我們產品的功能、區隔我們的產品與服務、簡化我們解決方案的實施、支援與使用、降低我們解決方案的成本、提高我們解決方案的可靠性、擴展我們解決方案的功能以符合客戶與市場需求、應用新的技術進展來提升現有解決方案，以及透過我們的智慧財產權組合建立進一步的競爭優勢。我們越來越應用人工智慧來增強與支援我們產品與業務流程的某些方面。考慮到人工智慧的發展與複雜性，其應用涉及內在的運營與法律風險。如需更多細節，請參閱第 1A 項 \"風險因素\"，包括 \"與人工智慧的開發、部署與使用相關的風險，以及與不斷演進且不確定的法規環境相關的風險，可能增加成本、產生責任，並對我們的業務、財務狀況、營運成果與聲譽產生負面影響\"。另請參閱第 1C 項 \"網路安全\"，以瞭解我們的風險管理與治理披露內容。",
+    "我們依賴專利、商標、商業機密、著作權及保密協議來保護我們的智慧財產權。我們採取措施保護新的智慧財產權，以 safeguard 我們持續的技術創新，並強化我們的品牌，我們相信我們對他人侵犯或濫用我們智慧財產權權利的行為已採取適當行動。我們定期審查第三方智慧財產權，以幫助避免侵權並識別戰略機會。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "本公司應報告分部",
+    "高階管理摘要",
+    "近期事件",
+    "影響本公司營運結果之關鍵因素",
+    "本公司營運結果之主要零組件",
+    "成本與費用",
+    "營運結果",
+    "財務年度 2025 相較於財務年度 2024",
+    "會計年度終了於12月31日",
+    "營業收入佔比",
+    "增加（減少）",
+    "（以千美元計）",
+    "總營業收入",
+    "營業利益",
+    "服務收入",
+    "營運費用",
+    "銷售、一般及行政費用",
+    "流動性及資本資源",
+    "截至12月31日止年度",
+    "營運活動所產生之現金流",
+    "投資活動所產生之現金流",
+    "籌資活動所產生之現金流",
+    "長期負債",
+    "合併後第一順位淨負債對資產比率（依修正後之貸款協議定義）",
+    "關鍵會計估計",
+    "收入確認",
+    "應計信用減損",
+    "商譽及長壽命資產減損",
+    "所得稅",
+    "私人 placements 權證負債",
+    "最近會計準則聲明"
+   ],
+   "paragraphs": [
+    "我們以長期契約及重複性服務收入模式運作。我們持續執行策略以實現年年營業收入的內生性成長，並專注於支持我們長期策略的各項計畫。在本報告期間，我們：",
+    "• 營業收入增加 99.9 百萬美元，或 11.4%，從 2024 財年 879.2 百萬美元增至 2025 財年 979.1 百萬美元。此增加主要由於商業服務分部因產品採用增加、通行費活動及歐洲業務活動所產生的服務收入，以及紐約市交通局（NYCDOT）計畫的安裝收入、城際巴士專用道及學區巴士停靠站執法計畫的成長、後臺軟體即服務（\"SaaS\"）計畫，以及政府解決方案分部產品銷售增加所致。",
+    "• 2025 財年及 2024 財年營運活動產生現金流量分別為 255.8 百萬美元及 223.6 百萬美元。截至 2025 年 12 月 31 日，本公司現金餘額為 65.3 百萬美元。",
+    "",
+    "• 繼續專注於債務管理及降低對高利率的敞口，因此在 2025 財年，我們重新融資債務，使利率降低 25 基點。此外，我們在 2025 財年及 2024 財年分別提前償還約 8.5 百萬美元及 9.0 百萬美元的修正後信貸貸款及 2021 年信貸貸款（定義如下）本金。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "{'Risk Factor Summary': '風險因素摘要'}",
+    "{'Risks Related to Our Customers, Industry, Competition, and Vendors': '與我們客戶、產業、競爭對手及供應商相關的風險'}",
+    "{'Risks Related to Our Acquisitions': '與我們併購相關的風險'}",
+    "{'Risks Related to Data Privacy and Cybersecurity': '與資料隱私權及網路安全相關的風險'}",
+    "{'Risks Related to Our International Operations': '與我們國際業務相關的風險'}",
+    "{'Risks Related to Our Intellectual Property': '與我們智慧財產權相關的風險'}",
+    "{'Risks Related to Our Indebtedness': '與我們負債相關的風險'}",
+    "{'Risks Related to Our Class A Common Stock': '與我們A類普通股相關的風險'}",
+    "我們面臨極度競爭，任何未能跟上科技發展、變更的客戶偏好以及新法規與政策的情況，可能會對我們的業務造成重大不利影響。",
+    "我們的新產品與服務，以及對現有產品與服務的變更，可能無法成功。",
+    "我們經常追求需要競爭性標單的契約與契約續約，這可能涉及重大成本，並可能對我們的業務造成重大不利影響。",
+    "我們依賴第三方提供者，包括用以取得政府車輛資訊記錄的服務，可能會對我們的業務造成重大不利影響。",
+    "我們依賴通訊網路與資訊系統，任何中斷都可能對我們的業務造成重大不利影響。",
+    "我們未能依照契約妥善履行或未能滿足客戶需求，可能會對我們的業務造成重大不利影響。",
+    "我們無法成功執行收購策略，可能會對我們的業務造成重大不利影響。",
+    "無法成功整合我們近期或未來的收購，可能會對我們的業務造成重大不利影響。",
+    "任何未能實現收購預期效益的情況，包括未預見的費用及與收購相關的負債，可能會對本公司業務造成重大不利影響。",
+    "若本公司網路或系統發生故障或遭入侵，包括因網路攻擊所致，可能會對本公司業務造成重大不利影響。",
+    "與人力資源管理相關的風險",
+    "本公司依賴關鍵高階主管之服務，若無法吸引並留住關鍵管理人員，可能會對本公司業務造成重大不利影響。",
+    "若無法吸引並留住必要之專業人員及合格之分包商，可能會對本公司業務造成重大不利影響。"
+   ],
+   "paragraphs": [
+    "投資本公司普通股涉及高度風險。除本年度報告中所列其他資訊外，您應謹慎考量下列因素，這些因素可能對我們未來期間的業務、財務狀況及營運成果產生重大影響。下列所描述的風險並非我們所面臨的唯一風險。目前尚未知悉的其他風險，可能對我們未來期間的業務、財務狀況或營運成果產生不利影響。",
+    "• 不利的產業與總體經濟條件，包括政府行動與規範的影響，例如關稅、貿易保護措施或政府停擺，可能對我們的業務、財務狀況及營運成果產生重大且不利的影響。",
+    "• 我們的商業服務與政府解決方案分部擁有數個大型客戶，包括紐約市交通局（NYCDOT），這些客戶佔我們營業收入的顯著部分。若需求減少、新或修正契約中出現顯著不同的條款或價格，或失去一個或數個這樣的客戶，可能對我們的業務產生重大不利影響。",
+    "• 我們與紐約市交通局（NYCDOT）的契約，佔我們營業收入的顯著部分，於2025年12月31日到期，我們已與其簽訂新契約，自2026年1月1日起生效。新契約的條款與我們先前與紐約市交通局（NYCDOT）的契約有顯著不同，包括服務水準協議、服務補償、違約賠償、網路安全及分包要求。若我們無法依照契約條款成功執行，可能對我們的業務、財務狀況及營運成果產生重大不利影響。",
+    "• 我們的政府契約面臨獨特的風險與不確定性，包括契約終止權、付款延遲、經費撥款要求、審計及調查，任何一種情況都可能對我們的業務產生重大不利影響。",
+    "• 若自動化及其他類似方法的拍照執法、第三方收費及違規處理，或我們對客戶提供服務收取服務或其他費用的能力，其普及率或政治接受度下降，或政府對此類事項的限制增加，可能對我們的業務產生重大不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

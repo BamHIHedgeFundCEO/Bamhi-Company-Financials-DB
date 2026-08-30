@@ -125,7 +125,7 @@
    ],
    "paragraphs": [
     "本公司為一家臨牀階段生技製藥公司，採用AI原生方法開發具差異性的單株抗體療法。我們的整合式藥物開發平台結合Origin-1，我們的生成設計模型，與透過我們的實驗室即時驗證進行快速驗證。我們專注於尚未被充分探索的機制，這些機制具有高醫療需求且競爭較低。",
-    "",
+    "{'original': 'We have advanced our first two programs from AI design to IND (or foreign equivalent) in around two years with a total investment of approximately $15 million per program, compared to an industry average of 4–6 years at a cost of greater than $50 million. This combination of underexplored target selection and capital-efficient execution is central to our strategy.', 'translated': '本公司已將第一個與第二個計畫從AI設計階段推進至IND（或外國對應階段）約耗時兩年，每計畫總投資約為224 百萬美元，與產業平均耗時4至6年、成本高於50 百萬美元相比。此種對目標選擇尚未充分探索與資金使用效率高的組合，為本公司策略的核心。'}",
     "我們的領先產品候選藥物ABS-201為一種抗泌乳激素受體（PRLR）單株抗體，並經工程設計以延長半衰期，以支援患者友好的給藥間隔。我們認為PRLR為一個尚未被充分探索的目標，具有提供持久、疾病修正效果的潛力。若成功開發，ABS-201可能建立一個新的治療類別，用於目前治療選項仍不充足的適應症。ABS-201正在開發用於兩種適應症，雄激素性脫髮（AGA）或模式性脫髮（PHL）以及子宮內膜異位症，每種適應症均有大量受影響人口且有顯著未滿足的醫療需求：",
     "•雄激素性脫髮：ABS-201正在HEADLINE™ Phase 1/2a臨牀試驗（NCT07317544）中評估用於AGA，一種影響美國約80 百萬人的疾病。我們自己的患者與臨牀醫生調查，以及其它機構的調查，顯示現有標準照護有廣泛不滿意，其限制因素包括效果變動、依從性差以及缺乏持久的治療方式。目前尚無核准的療法能提供持久的毛髮再生。我們已對前三個單劑遞增劑量組別進行給藥，且迄今安全資料良好。預計在2026年下半年公佈臨時概念驗證資料，包括探索性療效終點。",
     "•子宮內膜異位症：我們計畫在子宮內膜異位症中啟動ABS-201的Phase 2臨牀試驗，一種被估計影響全球約10%生育年齡女性的慢性疾病。目前尚無FDA核准的疾病修正療法用於子宮內膜異位症。此疾病與顯著慢性疼痛、生活品質下降及生育能力受損有關，且治療選項受限於長期效果不足與耐受性不佳。PRLR訊號可能參與子宮內膜病竈發展與疼痛相關路徑，若臨牀證實，可能支持非荷爾蒙與非手術治療的潛力。最近的臨牀試驗已顯示針對PRLR用於子宮內膜異位症的臨牀概念驗證。我們的子宮內膜異位症Phase 2臨牀試驗計畫於2026年第四季進行，視HEADLINE試驗的資料與監管考量而定。",

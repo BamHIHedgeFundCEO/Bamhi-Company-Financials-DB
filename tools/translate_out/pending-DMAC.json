@@ -127,7 +127,7 @@
     "{'original': 'AIS Phase 2 ReMEDy1 Trial', 'translated': 'AIS 第二階段 ReMEDy1 試驗'}",
     "{'original': 'DM199 vs. Supportive Care and/or tPA', 'translated': 'DM199 對照 支持性照護及/或 tPA'}",
     "{'original': 'NIHSS Outcomes at 90 Days', 'translated': '90 天後的 NIHSS 結果'}",
-    "",
+    "{'translated_text': '安慰劑（n=21）'}",
     "{'original': 'DM199 (n=25)', 'translated': 'DM199 (n=25)'}",
     "{'original': 'CKD Phase 2 REDUX Trial', 'translated': 'CKD Phase 2 REDUX 研究'}",
     "{'original': 'DM199 Safety Summary', 'translated': 'DM199 安全性總結'}",

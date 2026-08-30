@@ -1,0 +1,223 @@
+{
+ "ticker": "SAFE",
+ "cik": "0001095651",
+ "accession": "0001095651-26-000010",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Explanatory Note for Purposes of the \"Safe Harbor Provisions\" of Section 21E of the Securities Exchange Act of 1934, as amended",
+    "December 31, 2025",
+    "December 31, 2024",
+    "Investment Strategy",
+    "Financing Strategy",
+    "Hedging Strategy",
+    "Conflict of Interest Policies",
+    "Code of Ethics and Conduct",
+    "Human Capital Resources",
+    "Additional Information"
+   ],
+   "paragraphs": [
+    "Certain statements in this report, other than purely historical information, including estimates, projections, statements relating to our business plans, objectives and expected operating results, and the assumptions upon which those statements are based, are \"forward-looking statements\" within the meaning of the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, as amended (the \"Securities Act\"), and Section 21E of the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"). Forward-looking statements are included with respect to, among other things, our current business plan, business strategy, portfolio management, prospects and liquidity. These forward-looking statements generally are identified by the words \"believe,\" \"project,\" \"expect,\" \"anticipate,\" \"estimate,\" \"intend,\" \"strategy,\" \"plan,\" \"may,\" \"should,\" \"will,\" \"would,\" \"will be,\" \"will continue,\" \"will likely result,\" and similar expressions. Forward-looking statements are based on current expectations and assumptions that are subject to risks and uncertainties which may cause actual results or outcomes to differ materially from those contained in the forward-looking statements. Important factors that we believe might cause such differences are discussed in the section entitled, \"Risk Factors\" in Part I, Item 1A of this Form 10-K or otherwise accompany the forward-looking statements contained in this Form 10-K. We undertake no obligation to update or revise publicly any forward-looking statements, whether as a result of new information, future events or otherwise. In assessing all forward-looking statements, readers are urged to read carefully all cautionary statements contained in this Form 10-K.",
+    "We are a publicly-traded company that operates our business through one reportable segment by acquiring, managing and capitalizing ground leases. We believe that our business has characteristics comparable to a high-grade, fixed income investment business, but with certain unique advantages. Relative to alternative fixed income investments generally, our ground leases typically benefit from built-in growth derived from contractual base rent increases (either at a specified percentage or consumer price index (\"CPI\") based, or both), and the opportunity to realize value from residual rights to take ownership of the buildings and other improvements on our land at no additional cost to us. Our CPI lookbacks are generally capped between 3.0% - 3.5% and generally start between years 11 and 21 of the lease term. In the event cumulative inflation growth for the lookback period exceeds the cap, these rent adjustments may not keep up fully with changes in inflation. We believe that these features offer us the opportunity to realize superior risk-adjusted total returns when compared to certain alternative highly-rated investments.",
+    "Ground leases generally represent the ownership of land underlying commercial real estate projects that is net leased on a long-term basis (base terms are typically 30 to 99 years, often with tenant renewal options) by the fee owner of the land (landlord) to the owners/operators of the real estate projects built thereon (\"Ground Lease\"), or what we refer to as a SafeholdTM. The property is generally leased on a triple net basis with the tenant generally responsible for taxes, maintenance and insurance as well as all operating costs and capital expenditures. Ground Leases typically provide that at the end of the lease term or upon tenant default and the termination of the Ground Lease upon such default, the land, building and all improvements revert to the landlord. We have become the industry leader in Ground Leases by demonstrating the value of the product to real estate investors, owners, operators and developers and expanding their use throughout major metropolitan areas.",
+    "We have a portfolio of properties diversified by property type and region. As of December 31, 2025, our portfolio is comprised of Ground Leases that provide for contractual periodic rent escalations and in some cases percentage rent participations in gross revenues generated at the relevant properties.",
+    "We have chosen to focus on Ground Leases because we believe they meet an important need in the real estate capital markets for our customers. We also believe Ground Leases offer a unique combination of safety, income growth and the potential for capital appreciation for investors for the following reasons:",
+    "High Quality Long-Term Cash Flow: We believe that a Ground Lease represents a safe position in a property's capital structure. The combined value of the land and buildings and improvements thereon subject to a Ground Lease (the \"Combined Property Value\") typically significantly exceeds the Ground Lease landlord's investment in the Ground Lease; therefore, even if the landlord takes over the property following a tenant default or upon expiration of the Ground Lease, the landlord may recover substantially all of its Ground Lease investment, and possibly amounts in excess of its investment, depending upon prevailing market conditions. Additionally, the typical structure of a Ground Lease provides the landlord with a residual right to regain possession of its land and take ownership of the buildings and improvements thereon upon a tenant default. The landlord's residual right provides a strong incentive for a Ground Lease tenant or its leasehold lender to make the required Ground Lease rent payments.",
+    "Income Growth: Ground Leases typically provide growing income streams through contractual base rent escalators that may compound over the duration of the lease. These rent escalators may be based on fixed increases, CPI or a combination thereof, and may also include a participation in the gross revenues of the property. We believe that this growth in the lease rate over time can mitigate the effects of inflation and capture anticipated increases in land values over time, as well as serving as a basis for growing our dividend.",
+    "Opportunity for Capital Appreciation: The opportunity for capital appreciation comes in two forms. First, as the ground rent grows over time, the value of the Ground Lease should grow under market conditions in which capitalization rates remain flat. Second, our residual right to regain possession of the land underlying the Ground Lease and take title to the buildings and other improvements thereon at lease expiration or earlier termination of the lease for no additional consideration creates additional potential value to our shareholders.",
+    "We generally target Ground Lease investments in which the initial cost of the Ground Lease represents 30% to 45% of the Combined Property Value as if the Ground Lease did not exist. If the initial cost of a Ground Lease is equal to 35% of the Combined Property Value, the remaining 65% of the Combined Property Value represents potential excess value over the amount of our investment that would be turned over to us upon the reversion of the property, assuming no intervening change in the Combined Property Value. In our view, there is a strong correlation between inflation and commercial real estate values over time, which supports our belief that the value of our owned residual portfolio should increase over time as inflation increases, although our ability to recognize value in certain cases may be limited by the rights of our tenants under some of our Ground Leases, including tenant rights to purchase our land in certain circumstances and the right of one tenant to demolish improvements prior to the expiration of the lease. See \"Risk Factors\" for a discussion of these tenant rights.",
+    "Owned Residual Portfolio: We believe that the residual right is a unique feature distinguishing Ground Leases from other fixed income investments and property types. We refer to the value of the land and improvements subject to a Ground Lease in excess of our investment basis as unrealized capital appreciation (\"UCA\"). We track the UCA in our owned residual portfolio over our basis because we believe it provides relevant information with regard to the three key investment characteristics of our Ground Leases: (1) the safety of our position in a tenant's capital structure; (2) the quality of the long-term cash flows generated by our portfolio rent that increases over time; and (3) increases and decreases in the Combined Property Value of the portfolio that reverts to us pursuant to such residual rights.",
+    "We believe that, similar to a loan to value metric, tracking changes in the value of our owned residual portfolio is useful as an indicator of the quality of our cash flows and the safety of our position in a tenant's capital structure, which, in turn, supports our objective to pay and grow dividends over time. Observing changes in our owned residual portfolio value also helps us monitor changes in the value of the real estate portfolio that reverts to us under the terms of the leases, either at the expiration or earlier termination of the lease. The value may be realized by us at the relevant time by entering into a new lease reflecting then current market terms and values, selling the building, selling the building with the land, or operating the building directly and leasing the spaces to tenants at prevailing market rates.",
+    "We have engaged an independent valuation firm to prepare: (a) initial reports of the Combined Property Value associated with our Ground Lease portfolio; and (b) periodic updates of such reports, which we use, in part, to determine the current estimated value of our owned residual portfolio. We calculate this estimated value by subtracting our original aggregate cost basis in the Ground Leases from our estimated aggregate Combined Property Value based on estimates by the valuation firm and by management.",
+    "The table below shows the current estimated UCA in our owned residual portfolio as of December 31, 2025 and 2024 ($ in millions):(1)",
+    "Combined Property Value(2) 15,947 15,523 Ground Lease Cost(2) 6,675 6,395 Unrealized Capital Appreciation in Our Owned Residual Portfolio"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Summary Risk Factors –",
+    "Risks Related to Our Portfolio and Our Business",
+    "The market for Ground Lease transactions and the availability of investment opportunities may not meet our growth objectives.",
+    "Our operating performance and the market value of our properties are subject to risks associated with real estate assets.",
+    "The rental payments under our leases may not keep up with changes in market value and inflation.",
+    "We may be unable to renew expiring Ground Leases, re-lease the land or sell the properties on favorable terms or at all.",
+    "A lack of recourse to creditworthy counterparties may adversely affect us and our tenants.",
+    "Counterparty, geographic and industry concentrations may expose us to financial credit risk.",
+    "Percentage rent payable under our master lease relating to the Park Hotels Portfolio is calculated on an aggregate portfolio-wide basis.",
+    "We are subject to various risks common to the hotel industry with respect to any hotels that we are responsible for operating.",
+    "We depend on the ability of independent hotel operators to operate and manage the hotels that we are responsible for operating.",
+    "We are the tenant of a Ground Lease underlying a majority of our Doubletree Seattle Airport property.",
+    "Certain tenant rights under our Ground Leases may limit the value and the UCA we are able to realize upon lease expiration, sale of our land and Ground Leases or other events.",
+    "We rely on Property NOI as reported to us by our tenants.",
+    "Our estimates of Ground Rent Coverage for properties in development or transition, or for which we do not receive current tenant financial information, may prove to be incorrect.",
+    "Our estimates of Combined Property Value are based on various assumptions and information supplied to us by our tenants and accordingly may not be indicative of actual values.",
+    "There can be no assurance that we will realize any incremental value from the UCA in our owned residual portfolio or that the market price of our common stock will reflect any value attributable thereto.",
+    "Ground Leases with developers expose us to risks associated with property development and redevelopment that could materially and adversely affect us.",
+    "We may be materially and adversely affected by the exercise of leasehold mortgagee protections.",
+    "We are subject to the risk of bankruptcy of our tenants.",
+    "We may directly own one or more commercial properties, which will expose us to the risks of ownership of operating properties.",
+    "Competition may adversely affect our ability to acquire and originate investments.",
+    "Cybersecurity risk and cyber incidents may adversely affect our business.",
+    "Our estimated UCA, Combined Property Value and Ground Rent Coverage, may not reflect current market values, including the decline in office values, and may decline materially in future periods.",
+    "We may explore investments other than our typical Ground Leases through joint ventures or otherwise, which could materially and adversely affect us.",
+    "Our success depends in part on our ability to attract, retain and develop talented employees, and our failure to do so, including the loss of any of our key employees, could adversely impact our business.",
+    "We may decide to further expand our operations through acquisitions, development opportunities and other strategic transactions.",
+    "The use of artificial intelligence technologies presents certain risks that may adversely affect our business and operations.",
+    "Risks Related to Our Relationship with Star Holdings",
+    "Star Holdings owns a significant amount of our common stock, all of which serves as collateral for a margin loan.",
+    "The concentration of our voting power may adversely affect the ability of investors to influence our policies.",
+    "There are various potential conflicts of interest in our relationship with Star Holdings, which could result in decisions that are not in the best interest of our shareholders.",
+    "The agreements between Safehold and Star Holdings entered into in connection with the Spin-Off may not reflect terms that would have resulted from arm's-length negotiations with unaffiliated third parties.",
+    "Financing and Investment Risks",
+    "Our debt obligations will reduce cash available for distribution and expose us to the risk of default.",
+    "Our failure to hedge interest rates effectively could materially and adversely affect us."
+   ],
+   "paragraphs": [
+    "In addition to the other information in this report, you should carefully consider the following risk factors in evaluating an investment in the Company's securities. Any of these risks or the occurrence of any one or more of the uncertainties described below could have a material adverse effect on the Company's business, financial condition, results of operations, cash flows, ability to service our indebtedness, ability to pay distributions and the market price of the Company's common stock. The risks set forth below speak only as of the date of this report and the Company disclaims any duty to update them except as required by law. For purposes of these risk factors, the terms \"our Company,\" \"we,\" \"our\" and \"us\" refer to Safehold Inc. and its consolidated subsidiaries, unless the context indicates otherwise.",
+    "● The market for Ground Lease transactions and the availability of investment opportunities may not meet our growth objectives.",
+    "● Our operating performance and the market value of our properties are subject to risks associated with real estate assets.",
+    "● The rental payments under our leases may not keep up with changes in market value and inflation.",
+    "● We may be unable to renew expiring Ground Leases, re-lease the land or sell the properties on favorable terms or at all.",
+    "● Counterparty, geographic and industry concentrations may expose us to financial credit risk."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Business Overview",
+    "Our Portfolio",
+    "Expiration /",
+    "Rent Escalation",
+    "Property Name",
+    "Property Type",
+    "Results of Operations for the Year Ended December 31, 2025 compared to the Year Ended December 31, 2024",
+    "For the Years Ended December 31,",
+    "(in thousands)",
+    "Costs and expenses:",
+    "For the Year Ended",
+    "December 31,",
+    "Liquidity and Capital Resources",
+    "Supplemental Guarantor Disclosure",
+    "Critical Accounting Estimates",
+    "Real estate—Real estate assets are recorded at cost less accumulated depreciation and amortization, as follows:"
+   ],
+   "paragraphs": [
+    "We acquire, manage and capitalize Ground Leases and report our business as a single reportable segment. We believe owning a portfolio of Ground Leases affords our investors the opportunity for safe, growing income. Safety is derived from a Ground Lease's senior position in the commercial real estate capital structure. Growth is realized through long-term leases with contractual periodic increases in rent. Capital appreciation is realized though appreciation in the value of the land over time and through our typical rights as landlord to acquire the commercial buildings on our land at the end of a Ground Lease, which may yield substantial value to us. As of December 31, 2025, the percentage breakdown of the gross book value of our portfolio was 42% multi-family, 39% office, 11% hotels, 6% life science and 2% mixed use and other. The diversification by geographic location, property type and sponsor in our portfolio further reduces risk and enhances potential upside.",
+    "In 2022, the Consumer Price Index (\"CPI\") rose to its highest rate in over 40 years. Many of our Ground Leases have CPI lookbacks, generally starting between years 11 and 21 of the lease term, to mitigate the effects of inflation that are typically capped between 3.0% - 3.5%; however, in the event cumulative inflation growth for the lookback period exceeds the cap, these rent adjustments may not keep up fully with changes in inflation. To combat the increase in inflation over the past few years, the Federal Reserve raised interest rates and has kept interest rates generally high, although recently they began to reduce rates. The Federal Reserve has indicated that the economic outlook, which could include any potential impact on the economy from changes to U.S. trade policy, is uncertain and it will continue to monitor incoming data on unemployment and inflation before adjusting monetary policy; however, high interest rates have, and any future increase in interest rates may continue to result in a reduction in the availability or an increase in costs of leasehold financing for Ground Lease tenants, which is critical to the growth of a robust Ground Lease market. The rise in interest rates and increased investment spreads to treasury bonds in the Ground Lease market may also attract new competitors, which may result in higher costs for properties, lower returns and impact our ability to grow.",
+    "The rise in interest rates has also adversely affected the U.S. office sector, along with office vacancies and a decline in market liquidity that began with the onset of the COVID-19 pandemic, all of which could negatively impact our tenants, Ground Rent Coverages and estimated Combined Property Values. Moreover, certain office assets currently have material vacancies. If our Ground Lease tenants at such assets fail to re-tenant the building, such Ground Leases may default and we may suffer losses. We have entered into a forbearance agreement with a tenant under a significant New York office asset. If the tenant defaults on such agreement, we may experience delays in enforcing our rights as a landlord, may suffer losses and may incur substantial costs in protecting our investment. See the \"Risk Factors\" section of this 10-K for additional discussion of certain potential risks to our business related to competition and industry concentrations.",
+    "On January 1, 2026, we became responsible for operating two hotel properties that reverted to us. We have not previously operated any hotel properties. We expect that going forward we will have revenues and expenses associated with room occupancy, food and beverage services and other ancillary income and expenses from hotel operations."
+   ],
+   "focus": "Business Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "為符合1934年證券交易法第21E條款「安全港條款」之說明性註解",
+    "2025年12月31日",
+    "2024年12月31日",
+    "投資策略",
+    "資金籌措策略",
+    "對沖策略",
+    "利益衝突政策",
+    "倫理與行為準則",
+    "{'original': 'Human Capital Resources', 'translated': '人力資本資源'}",
+    "{'original': 'Additional Information', 'translated': '其他資訊'}"
+   ],
+   "paragraphs": [
+    "本報告中，除純粹歷史資訊外，包含估計、預測、與我們業務計畫、目標及預期營運結果相關的陳述，以及這些陳述所依據的假設，均屬「前瞻性陳述」，根據1995年私人證券訴訟改革法案（Private Securities Litigation Reform Act of 1995）第27A節，以及1933年證券法（Securities Act of 1933）之修正案（「證券法」）第27A節，以及1934年證券交易法（Securities Exchange Act of 1934）之修正案（「證券交易法」）第21E節之定義。前瞻性陳述包含與我們目前業務計畫、業務策略、資產組合管理、前景及流動性相關的內容。這些前瞻性陳述通常會使用「相信」、「預測」、「預期」、「預期」、「估計」、「意圖」、「策略」、「計畫」、「可能」、「應該」、「將」、「會」、「將會」、「將持續」、「將很可能導致」等詞彙來識別。前瞻性陳述是基於目前的預期與假設，而這些預期與假設受到風險與不確定性影響，可能導致實際結果或結果與前瞻性陳述中所載內容有重大差異。我們認為可能導致這種差異的重要因素，已於本10-K表格第一部分第1A項「風險因素」中討論，或與本10-K表格中所包含的前瞻性陳述同時提供。我們不承擔更新或修正任何公開前瞻性陳述的義務，無論是因新資訊、未來事件或其他原因。在評估所有前瞻性陳述時，請讀者仔細閱讀本10-K表格中所有警示性陳述。",
+    "我們是一家上市公司，透過一個應報告分部經營業務，該分部透過取得、管理及資本化地面租賃來進行業務。我們認為，我們的業務特徵與高級別固定收益投資業務相似，但具有某些獨特優勢。與一般替代性固定收益投資相比，我們的地面租賃通常受益於內建的成長，來自於契約基礎租金增加（無論是固定百分比或消費者物價指數（CPI）基準，或兩者皆有），以及實現價值的機會，從殘餘權利取得土地上建築物及其他改善設施的所有權，而對我們而言無額外成本。我們的CPI回溯通常被限制在3.0%至3.5%之間，通常在租賃期限的第11至21年之間開始。如果回溯期間的累積通貨膨脹增長超過上限，這些租金調整可能無法完全跟上通貨膨脹的變化。我們認為這些特徵為我們提供了實現優於某些替代性高評級投資的風險調整總回報的機會。",
+    "地面租賃通常代表商業不動產項目所處土地的所有權，該土地以長期租賃（基礎租賃期限通常為30至99年，通常包含租戶續約選項）由土地所有者（地主）出租給該不動產項目之所有者/經營者（「地面租賃」），或我們所稱的SafeholdTM。該財產通常以三重淨租賃方式出租，租戶通常負責稅務、維護及保險，以及所有營運成本與資本支出。地面租賃通常規定，在租賃期限屆滿或租戶違約且地面租賃因違約而終止時，土地、建築物及所有改善設施將歸還地主。我們透過向不動產投資者、所有者、經營者及開發者展示產品價值，並擴展其在主要都會區的應用，成為地面租賃領域的領導者。",
+    "我們的資產組合根據財產類型與地區進行分散。截至2025年12月31日，我們的資產組合由地面租賃組成，這些地面租賃提供契約性定期租金上漲，並在某些情況下參與相關財產所產生的總營收百分比租金。",
+    "我們選擇專注於地面租賃，因為我們認為這符合我們客戶在不動產資本市場中的一個重要需求。我們也認為地面租賃為投資者提供獨特的組合，包括安全性、收入成長與資本增值潛力，原因如下：",
+    "高品質長期現金流：我們認為地面租賃代表財產資本結構中的一個安全位置。地面租賃所涉及的財產（土地與建築物及改善設施）總價值通常遠高於地面租賃地主在地面租賃中的投資；因此，即使地主在租戶違約或地面租賃到期後取得財產，地主可能回收其地面租賃投資的大部分，甚至可能超過其投資金額，取決於市場條件。此外，地面租賃的典型結構為地主提供殘餘權利，在租戶違約時重新取得其土地並取得建築物及其他改善設施的所有權。地主的殘餘權利為地面租賃租戶或其租賃貸款人支付地面租賃租金提供了強大動機。",
+    "收入成長：地面租賃通常透過契約基礎租金上漲機制提供成長的收入流，這些租金上漲可能在租賃期間內複利增長。這些租金上漲可能基於固定增加、CPI或兩者結合，也可能包括參與財產的總營收。我們認為，隨著時間推移，租賃率的成長可以緩解通貨膨脹的影響，並捕捉土地價值預期的增加，同時作為我們股息成長的基礎。",
+    "資本增值的機會：資本增值的機會來自兩個方面。首先，隨著地面租金隨時間成長，市場條件中資本化率保持不變時，地面租賃的價值應會成長。其次，我們對地面租賃所處土地的殘餘權利，在租賃到期或租賃提前終止時取得土地的所有權，以及取得建築物及其他改善設施的所有權，無額外費用，為我們股東創造了額外的潛在價值。",
+    "我們通常目標為 Ground Lease 投資，其中 Ground Lease 的初始成本佔 Combined Property Value 的 30% 到 45%，假設 Ground Lease 不存在。若 Ground Lease 的初始成本等於 Combined Property Value 的 35%，則 Combined Property Value 剩餘的 65% 代表潛在的價值超過我們投資的金額，此價值在不考慮 Combined Property Value 變動的情況下，會在財產回歸時轉讓給我們。我們認為，長期而言，通貨膨脹與商業不動產價值之間有強烈的相關性，這支持我們的信念，即隨著通貨膨脹增加，我們所擁有的殘餘資產組合的價值應會增加，儘管在某些情況下，我們認知價值的能力可能受到租戶在部分 Ground Lease 下的權利所限制，包括租戶在某些情況下購買我們土地的權利，以及某租戶在租約到期前拆除改裝的權利。請參閱「風險因素」以瞭解這些租戶權利的討論。",
+    "Owned Residual Portfolio：我們認為，殘餘權利是 Ground Lease 與其他固定收益投資及不動產類型區別的獨特特徵。我們將 Ground Lease 下的土地及改裝價值超過我們投資成本的部分稱為未實現資本增值（\"UCA\"）。我們在投資成本基礎上追蹤 Owned Residual Portfolio 的 UCA，因為我們認為這提供了與 Ground Lease 三個關鍵投資特徵相關的重要資訊：(1) 我們在租戶資本結構中的安全性；(2) 我們投資組合租金產生的長期現金流品質，此現金流會隨時間增加；以及 (3) 投資組合 Combined Property Value 的增加或減少，此價值會根據殘餘權利歸屬於我們。",
+    "我們認為，與貸款對價值指標類似，追蹤我們 Owned Residual Portfolio 值的變化有助於作為我們現金流品質及在租戶資本結構中安全性的一個指標，這進而支持我們的目標，即長期支付並增加股息。觀察我們 Owned Residual Portfolio 值的變化也幫助我們監測根據租約條款，財產回歸我們時的不動產組合價值變化，無論是租約到期或提前終止。價值可能在相關時間點由我們實現，例如透過簽訂反映當時市場條件及價值的新租約、出售大樓、出售大樓與土地，或直接經營大樓並以市場利率出租空間給租戶。",
+    "我們已聘請獨立評估機構準備：(a) 我們 Ground Lease 投資組合相關 Combined Property Value 的初始報告；以及 (b) 這些報告的定期更新，我們部分用來確定我們 Owned Residual Portfolio 的當前預估價值。我們計算此預估價值的方法是，從評估機構及管理層的估計中，將我們 Ground Lease 的總原始成本基礎從預估的 Combined Property Value 中扣除。",
+    "下表顯示截至 2025 年 12 月 31 日及 2024 年 12 月 31 日，我們 Owned Residual Portfolio 中的當前預估 UCA（單位為百萬美元）：(1)",
+    "Combined Property Value(2) 15,947 15,523 Ground Lease Cost(2) 6,675 6,395 我們 Owned Residual Portfolio 中的未實現資本增值"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "業務概覽",
+    "產品組合",
+    "租約到期 /",
+    "租金調漲",
+    "不動產名稱",
+    "不動產類型",
+    "2025 年 12 月 31 日財年營運成果與 2024 年 12 月 31 日財年比較",
+    "2025 年 12 月 31 日財年",
+    "(以千為單位)",
+    "成本及費用:",
+    "截至財年終了",
+    "12月31日",
+    "流動性及資本資源",
+    "擔保人補充揭露",
+    "關鍵會計估計",
+    "不動產—不動產資產以成本減累計折舊及攤銷計入帳面價值，如下所示:"
+   ],
+   "paragraphs": [
+    "本公司取得、管理及資本化地面租賃，並將業務歸類為單一應報告分部。本公司認為擁有地面租賃組合可為投資人提供安全且持續成長的收入。安全性來自於地面租賃在商業不動產資本結構中的優先地位。成長則來自於長期租賃合約中具定期租金增加條款。資本增值則透過土地價值隨時間的增值，以及本公司作為地主通常具有的權利，在地面租賃到期時取得商業建築物，可能為本公司帶來顯著價值。截至2025年12月31日，本公司組合的總帳面價值百分比為42%多家庭住宅、39%辦公室、11%飯店、6%生技產業及2%混合用途及其他。本公司組合在地理區域、不動產類型及發起人方面的分散化，進一步降低風險並提高潛在回報。",
+    "2022年，消費者物價指數（\"CPI\"）升至逾40年來的最高水平。我們許多地面租賃合約包含CPI回溯條款，通常從租賃期間的第11年至21年開始，以緩解通貨膨脹的影響，通常通貨膨脹上限為3.0% - 3.5%；然而，若回溯期間的累計通貨膨脹增長超過上限，這些租金調整可能無法完全跟上通貨膨脹的變化。為應對過去幾年通貨膨脹的增加，聯邦儲備銀行提高了利率並維持利率處於較高水平，儘管近期開始降低利率。聯邦儲備銀行表示，經濟展望，包括任何潛在的美國貿易政策變動對經濟的影響，存在不確定性，並將繼續監測就業率和通貨膨脹的進口資料，再調整貨幣政策；然而，高利率已導致，且未來利率進一步上升可能繼續導致地面租賃租戶的租賃權資金融資可得性減少或成本增加，這對強健的地面租賃市場的成長至關重要。地面租賃市場利率上升及對國庫債券投資的利差增加，也可能吸引新競爭者，導致房地產成本增加、回報降低，並影響我們的成長能力。",
+    "利率上升也對美國辦公室產業造成負面影響，加上疫情爆發後辦公室空置率上升及市場流動性下降，所有這些都可能對我們的租戶、地面租金保障及預估的總體不動產價值產生負面影響。此外，某些辦公室資產目前有重大空置。若我們在這些資產上的地面租賃租戶無法重新出租該建築物，這些地面租賃可能違約，我們可能遭受損失。我們已與一位租戶簽訂緩衝協議，該租戶為一重要的紐約辦公室資產。若該租戶違約此協議，我們可能延遲執行地主權利，遭受損失，並可能產生保護投資的重大成本。請參閱本10-K文件的\"風險因素\"部分，以瞭解與競爭及產業集中度相關的某些潛在業務風險的進一步討論。",
+    "2026年1月1日，我們成為兩間酒店資產的經營者，這些資產已回歸我們。我們此前未曾經營任何酒店資產。我們預期未來將產生與客房佔用、餐飲服務及其他酒店營運相關收入及費用，以及其他附屬收入及費用。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "總結風險因素 –",
+    "與我們資產組合及業務相關的風險",
+    "地面租賃交易市場及投資機會的可得性可能無法達成我們的成長目標。",
+    "我們的營運績效及不動產的市場價值受到與不動產資產相關的風險影響。",
+    "我們的租賃契約租金可能無法跟上市場價值及通貨膨脹的變化。",
+    "我們可能無法續約到期的地面租賃契約、重新出租土地或以有利條件出售這些不動產，甚至可能無法出售。",
+    "對信用良好的交易對手缺乏追索權可能對我們及我們的租戶產生不利影響。",
+    "交易對手、地理及產業集中度可能使我們面臨財務信用風險。",
+    "我們與 Park Hotels Portfolio 簽訂的主租約中，百分比租金係根據整體投資組合計算。",
+    "我們面臨與酒店業普遍相關的風險，針對我們負責營運的任何酒店。",
+    "我們依賴獨立酒店營運商的營運與管理能力，以營運我們負責營運的酒店。",
+    "我們是 Doubletree Seattle Airport 不動產的 Ground Lease 承租人。",
+    "我們 Ground Lease 下的租賃權益可能限制我們在租約到期、出售土地及 Ground Lease 或其他事件時所能實現的價值與 UCA。",
+    "我們依賴租戶提供的 Property NOI 作為參考。",
+    "我們對於開發中或過渡期不動產，或未收到租戶財務資訊之不動產的 Ground Rent Coverage 估計，可能與實際情況有所出入。",
+    "我們對於 Combined Property Value 的估計係基於租戶提供的各種假設與資訊，因此可能無法反映實際價值。",
+    "本公司無法保證能從UCA於自有殘餘資產中實現任何增量價值，亦無法保證本公司普通股的市價會反映任何與之相關的價值。",
+    "與開發商簽訂的地面租約使本公司面臨與不動產開發及重新開發相關的風險，這些風險可能對本公司造成重大且不利的影響。",
+    "本公司可能因租賃權抵押權人行使保護措施而遭受重大且不利的影響。",
+    "本公司面臨租戶破產的風險。",
+    "本公司可能直接擁有單一或多處商業不動產，這將使本公司面臨擁有營運不動產的風險。",
+    "競爭可能不利於本公司取得及發起投資的能力。",
+    "網路安全風險及網路事件可能對本公司業務造成不利影響。",
+    "本公司預估的UCA、合併不動產價值及地面租金覆蓋率，可能無法反映當前市場價值，包括辦公室價值的下跌，且未來期間可能進一步顯著下降。",
+    "我們可能透過合資企業或其他方式探索除我們常見的地面租賃外的投資，這可能會對我們造成重大且不利的影響。",
+    "我們的成功在一定程度上取決於我們吸引、留住並培養優秀人才的能力，若我們未能做到此點，包括失去任何關鍵員工，可能會對我們的業務造成不利影響。",
+    "我們可能決定透過收購、開發機會及其他戰略交易進一步擴大我們的業務運作。",
+    "使用人工智慧技術可能會帶來某些風險，這些風險可能會對我們的業務與運作造成不利影響。",
+    "與 Star Holdings 關係相關的風險",
+    "Star Holdings 持有我們大量普通股，所有這些股票均作為擔保貸款的擔保品。",
+    "我們投票權的集中可能會不利於投資者影響我們政策的能力。",
+    "我們與 Star Holdings 之間的關係存在多種潛在的利益衝突，這可能會導致做出不符合我們股東最佳利益的決定。",
+    "Safehold 與 Star Holdings 之間就 Spin-Off 事宜所訂立之協議，其條款可能不會反映與無關聯第三方進行臂距交易所可能達成之條款。",
+    "融資與投資風險",
+    "本公司之債務義務將減少可用於分配之現金，並使本公司面臨違約之風險。",
+    "本公司若未能有效對衝利率，可能對本公司造成重大且不利之影響。"
+   ],
+   "paragraphs": [
+    "除本報告中其他資訊外，評估投資本公司證券時，應謹慎考慮下列風險因素。上述任何風險或下列任何不確定性之發生，均可能對本公司之業務、財務狀況、營運成果、現金流量、償還債務能力、發放紅利能力及本公司普通股之市場價格造成重大不利影響。下列風險僅為本報告日之陳述，本公司對更新此等風險概無義務，除非法律另有規定。為這些風險因素之目的，「本公司」、「我們」、「我們的」及「我們」一詞，均指 Safehold Inc. 及其合併子公司，除非文意另有明確指示。",
+    "● 地面租賃交易市場及投資機會之可得性，可能無法達成我們之成長目標。",
+    "● 我們之營運表現及不動產之市場價值，受不動產資產相關風險影響。",
+    "● 我們之租賃契約下之租金支付，可能無法跟上市場價值及通貨膨脹之變動。",
+    "● 我們可能無法續約到期之地面租賃契約、重新出租土地或以有利條件出售不動產，甚至無法出售。",
+    "● 交易對手、地理及產業集中度，可能使我們面臨財務信用風險。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

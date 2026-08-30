@@ -1,0 +1,189 @@
+{
+ "ticker": "ENVX",
+ "cik": "0001828318",
+ "accession": "0001828318-26-000006",
+ "form": "10-K",
+ "reportDate": "2025-12-28",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Overview",
+    "Our History and Development",
+    "Industry Background",
+    "Our Products",
+    "Our Competitive Strengths",
+    "Research and Development",
+    "Manufacturing and Supply Chain",
+    "Intellectual Property",
+    "Government Regulation and Compliance",
+    "Privacy and Security Laws",
+    "Human Capital",
+    "Corporate Information",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "Enovix Corporation (the \"Company,\" \"we,\" \"us,\" \"our\" and \"Enovix\") is a global high-performance battery company focused on designing, developing, manufacturing, and commercializing advanced Lithium-ion, or Li-ion, batteries, including proprietary silicon-anode architectures, for smartphones, smart eyewear, defense, industrial and emerging edge-AI applications. Our proprietary silicon-anode battery architecture enables higher energy density and performance relative to conventional battery cells, particularly in space-constrained devices. Our battery's mechanical design, or \"architecture,\" allows us to use high performance chemistries while maintaining safety and reliability, supporting commercialization opportunities across various consumer and industrial markets.",
+    "Battery performance has become a critical constraint for modern electronic devices as they continue to incorporate slimmer designs with greater functionality, longer runtime, and higher power needs. Smartphones, smart eyewear, and defense and industrial systems, as well as emerging edge-AI applications, increasingly require batteries that can deliver higher energy density to support compact, always-on devices and advanced functionality – all without compromising safety, reliability, or manufacturability.",
+    "From inception, we have focused on developing a battery architecture that allows the use of 100% active silicon and no graphite in the battery's anode, which is the negative electrode that stores lithium ions when a battery is charged. The battery industry has long recognized silicon's potential to significantly increase energy density relative to graphite, the anode material used in most lithium-ion batteries today. Silicon can theoretically store more than twice as much lithium as graphite, but the battery industry has historically struggled to incorporate more than a small amount of silicon in the anode because it can swell and crack in conventional battery architectures, impacting safety, cycle life and overall performance. By contrast, our architecture is designed to accommodate silicon's swelling and apply pressure that alleviates the cracking problem.",
+    "Over the last several years, we have continued to refine our go-to-market approach and focused on advancing customer programs and product validation for our next-generation batteries with a select group of customers and targeted applications. Our current AI-1TM battery platform is architected as a unified silicon-anode platform designed to address the most demanding requirements across high-performance consumer electronics and defense applications. We have initially prioritized smartphones as the lead qualification market because smartphones impose the most stringent battery requirements across energy density, fast charge, safety, and cycle life. We believe that demonstrated performance in smartphones will thereafter serve as a benchmark for the broader applicability of our AI-1TM battery architecture across other emerging, fast-growing markets, including smart eyewear and other AI-powered applications that require higher energy density in increasingly space-constrained designs.",
+    "Most recently, we partnered with a top-tier mobile original equipment manufacturer (\"OEM\") on the development of our AI-1TM smartphone battery, which demonstrated high volumetric energy density and fast-charge performance verified by an independent testing laboratory. In the smart eyewear market, we also delivered over 1,000 AI-1TM battery packs to our lead customer under a supply agreement and samples to nine additional OEMs and original design manufacturers (\"ODM\") as customer programs progressed toward production readiness.",
+    "Enovix was established in 2006 based on the fundamental premise that meaningful advances in battery performance would require a reinvention of the battery's architecture. This approach formed the technical foundation for our battery platform and has guided subsequent development and manufacturing decisions. We have devoted significant funds, time and resources to develop our proprietary architecture and the unique patterning and stacking assembly process for manufacturing our cells. This development was supported by partnerships and investments from several strategic participants in the solar and semiconductor industries, whose experience in precision manufacturing and scalable production informed our approach.",
+    "A significant step in our path to commercialization began in 2018, when we started providing sample batteries to customers to validate the performance of our products. Then in 2020, we began procuring equipment for our first production line (\"Fab1\") at our headquarters in Silicon Valley and we recognized our first production revenue in the second quarter of 2022 from Fab1.",
+    "We expanded our manufacturing capability further in 2023 by identifying and building a facility for high-volume production in Malaysia (\"Fab2\") and acquiring Routejade, Inc. (\"Routejade\"), a battery manufacturer in South Korea. The Routejade acquisition enabled us to vertically integrate electrode coating and battery pack manufacturing and expand our product offerings to include lithium-ion battery technologies, including silicon-doped graphite solutions, for defense and industrial applications. In 2025, we further expanded our manufacturing capabilities in South Korea through the acquisition of an adjacent battery cell manufacturing facility and related equipment from Solar Edge. These acquisitions have strengthened our manufacturing capabilities and allowed us to leverage expertise from personnel and facilities that have been operating for over 20 years and serving customers in demanding defense and industrial applications.",
+    "We have also continued to expand our global research and development (\"R&D\") capabilities alongside our manufacturing footprint. In July 2023, we established a research and design center in Hyderabad, India to further support innovation and provide access to tap a deep pool of specialized engineering and technical talent in fields that are critical to our long-term success.",
+    "In 2024, we relocated our Fab1 R&D pilot line equipment from our Silicon Valley headquarters and officially opened our Fab2 production facility at the Penang Science Park in Malaysia. Following the opening of Fab2, our corporate functions, and certain sales, operations and engineering activities, are located at our U.S. headquarters, while our manufacturing and research and development activities are conducted primarily in Malaysia, South Korea and India. We now have three manufacturing lines at Fab2: the R&D focused pilot production line, the Agility line and the High-Volume Manufacturing (\"HVM\") line. In October 2024, we commenced shipping battery cells from the Agility line and by the end of 2024, we had completed Site Acceptance Testing (\"SAT\") for the Agility and HVM lines.",
+    "Following the opening of Fab2, our corporate functions, and certain sales, operations and engineering activities, and research and development activities are located at our U.S. headquarters. Our global manufacturing and research and development activities are conducted primarily in Malaysia, South Korea and India. As of December 28, 2025, we operate in one segment.",
+    "Throughout 2025, we focused on the development and launch of the AI-1TM platform, our Artificial Intelligence ClassTM batteries for the next generation of mobile smartphones, smart eyewear and other AI-enabled devices that require significantly higher total energy storage and power to perform AI functions locally. An independent testing laboratory confirmed in December 2025 that the AI-1TM smartphone battery delivered a volumetric energy density of 935Wh/L, exceeding the performance of a leading silicon-doped commercially available smartphone battery tested by 12%. We also advanced our manufacturing readiness and expanded capacity across our global footprint. Fab2 passed an ISO 9001 audit and successfully concluded initial audits with various customers. In defense and industrial markets, we continued to support growing customer demand through expanded production capabilities and increased shipments from our South Korea operations.",
+    "Following the opening of Fab2, our corporate functions, and certain sales, operations, engineering, and research and development activities are located at our U.S. headquarters. Our global manufacturing and research and development activities are conducted primarily in Malaysia, South Korea and India. As of December 28, 2025, we operate in one segment.",
+    "Battery Technology Innovation - Historical Overview"
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Manufacturing and Scale-Up",
+    "We will need to improve our energy density, cycle life, fast charging, capacity roll off and gassing metrics in order to stay ahead of competition over time, which is difficult, and we may not be able to do.",
+    "We rely on a new and complex manufacturing process for our operations, and achieving volume production involves a significant degree of risk and uncertainty in terms of operational performance such as yield and costs.",
+    "We may be unable to adequately control the costs associated with our operations and the components necessary to build our lithium-ion battery cells.",
+    "Changes in global trade policies, tariffs, export controls and other cross-border restrictions could materially adversely affect our revenues, operating results and ability to source materials and equipment.",
+    "We rely on third-party suppliers for critical components and equipment, and disruptions in these relationships could delay production and harm our business, results of operations, financial condition and cash flows.",
+    "Increases in raw material costs and supply disruptions resulting from global market and geopolitical conditions could increase our product costs and adversely affect our business and results of operations.",
+    "Risks Related to Our Customers",
+    "If our batteries fail to perform as expected, our ability to develop, market and sell our batteries could be harmed.",
+    "We have significant customer concentration in key market sectors and dependence on these customers creates a risk to our business and financial condition.",
+    "Our future growth and success depend on our ability to qualify new customers and the customer qualification cycles can take years to complete.",
+    "Our future growth and success depend on our ability to sell effectively to, and manage relationships with large enterprise and defense customers.",
+    "Risks Related to Our Business",
+    "We have a history of financial losses and expect to incur significant expenses and continuing losses for the foreseeable future.",
+    "If we are unable to develop our business and effectively commercialize our products as anticipated, we may not be able to generate revenue or achieve profitability.",
+    "We have acquired and may continue to acquire other businesses, which could require significant management attention, disrupt our business, and dilute stockholder value.",
+    "Fluctuations in foreign currency exchange rates and interest rates have had, and could continue to have, an adverse impact on our financial condition and results of operations.",
+    "Lithium-ion battery modules in the marketplace have been observed to catch fire or vent smoke and flame, and such events have raised concerns over the use of such batteries."
+   ],
+   "paragraphs": [
+    "Investing in our securities involves a high degree of risk. Before you make a decision to buy our securities, you should carefully consider the risks and uncertainties described below together with all of the other information contained in this Annual Report on Form 10-K, including our financial statements and related notes and in the section titled \"Management's Discussion and Analysis of Financial Condition and Results of Operations.\" If any of the events or developments described below were to occur, our business, prospects, operating results and financial condition could suffer materially, the trading price of our securities could decline and you could lose all or part of your investment. The risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties not presently known to us or that we currently believe to be immaterial may also adversely affect our business.",
+    "You should not interpret our disclosure of any of the following risks to imply that such risks have not already materialized.",
+    "Our roadmap to improve our energy density, cycle life, fast charging, capacity roll off and gassing metrics requires us to implement higher energy density materials for both cathodes and anodes, and electrolyte and separator materials. To successfully use these materials, we will have to optimize our cell designs including, but not limited to formulations, thicknesses, geometries, materials, chemistries and manufacturing tolerances and techniques. It could take us longer than we anticipate to incorporate these new materials, or we might not be able to achieve certain cell performance specifications required by customers. Further, we will need to make improvements in our technology to achieve our energy density, cycle life, fast charge, capacity roll off and gassing metrics improvement roadmap. These improvements may not be possible, or could take longer, or be more difficult than forecasted. If we are unable to improve our packaging technology, this could reduce the performance of our products and delay the availability of products to customers, which would negatively impact our competitive potential.",
+    "Although we have developed our lithium-ion battery technology, we rely heavily on a new and complex manufacturing process for the production of our lithium-ion battery cells, which is not currently operating at scale. To meet our projected future demand, we need to increase our manufacturing throughput and yield metrics. We expect that meeting our goals to improve throughput and yield will be a multi-quarter or potentially longer endeavor. We have in the past, and may in the future, experience delays in meeting these goals. We have more than one solution to improve manufacturing throughput and yield metrics, and it is uncertain which solution will be optimized for commercial scale.",
+    "We use numerous vendors for subcomponents of the battery; changes in materials or vendor selection, or the failure of our solutions to improve yield, could negatively impact our ability to meet our throughput and yield metric goals.",
+    "The work required to develop these manufacturing processes and integrate equipment into the production of our lithium-ion battery cells, including achieving our goals for throughput and yield, is time intensive and requires us to work closely with numerous equipment and tooling providers to ensure that the equipment works properly for our unique battery technology. The integration of new equipment into our production process involves a significant degree of uncertainty and risk, and we have not in the past and may not in the future be able to achieve our goals for throughput and yield. Further, integration work may result in the delay in the scaling up of production or result in additional costs to our battery cells, particularly if we encounter issues with performance or if we are unable to customize products for certain of our customers. Certain customers will likely require several months or longer to complete technology qualification before determining whether to accept a product that is manufactured at high volume, if at all. In addition, even if we are able to achieve volume production for the existing uses of our batteries, we may face challenges relating to the scaling up of production for new uses of our batteries, including in the EV market and the market for AI-powered devices."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Business Overview",
+    "Key Trends, Opportunities and Uncertainties",
+    "Components of Results of Operations",
+    "Results of Operations",
+    "Fiscal Years Ended",
+    "December 28, 2025 December 29, 2024 Change ($) % Change",
+    "Liquidity and Capital Resources",
+    "Fiscal Years",
+    "2025 2024 Change ($)",
+    "Contractual Obligations and Commitments",
+    "Off-Balance Sheet Arrangements",
+    "Critical Accounting Estimates",
+    "Recent Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "We design, develop and manufacture advanced lithium-ion batteries, including our proprietary silicon-anode architecture that enables higher energy density and performance relative to conventional battery cells, particularly in space-constrained devices such as smartphones, smart eyewear and next generation AI-enabled devices. We have expanded our suite of battery offerings through acquisitions and now also manufacture conventional lithium-ion batteries, primarily serving customers in the defense and industrial sectors.",
+    "To date, we have concentrated our operational efforts on researching, developing and commercializing the next generation technology behind our silicon-anode lithium-ion battery cell architecture. Most recently, we launched the AI-1TM product platform, our Artificial Intelligence ClassTM batteries for the next generation of mobile smartphones, smart eyewear and other AI-enabled devices that require significantly higher total energy storage and power to perform AI functions locally. We also serve customers in defense and industrial markets through our conventional and silicon-doped graphite battery products across a range of battery sizes and configurations optimized for high discharge rate applications, such as drones, subsea systems, and munitions defense systems.",
+    "Drones represent another priority area of focus, as we believe our products provide a strong competitive advantage for serving customers that are increasingly prioritizing higher energy density, extended flight time, and supply-chain diversification. In addition to the smartphone, smart eyewear and defense and industrial markets, we are pursuing deployment of our technology across other edge-AI applications, as well as computing and EVs, among others.",
+    "We currently lease several facilities, including our headquarters in Fremont, California, and our manufacturing facility in Malaysia. Our manufacturing operations are conducted in Malaysia and South Korea, supporting both our next-generation silicon-anode platform and our conventional lithium-ion battery products. We have transitioned our prior U.S. pilot manufacturing activities to Malaysia and continue to focus on manufacturing execution, operational efficiency, and capacity planning to support commercialization efforts. Our research and development activities are conducted primarily in California, India, and South Korea and are focused on cell architecture, materials integration, and manufacturing process optimization. We also recently opened a sales office in Shenzhen, China.",
+    "Our fiscal year is the 52 or 53-week period ending on the Sunday closest to December 31 depending on the calendar year. Accordingly, we will have a 53-week fiscal year every five or six years and our fiscal year 2026 will consist of 53 weeks. Our fiscal years 2025, 2024, and 2023 consisted of 52 weeks, which ended on December 28, 2025, December 29, 2024, and December 31, 2023, respectively. All period references are to these fiscal periods unless otherwise indicated."
+   ],
+   "focus": "Business Overview"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'Company Overview': '公司概覽'}",
+    "{'Our History and Development': '我們的歷史與發展'}",
+    "{'Industry Background': '產業背景'}",
+    "{'Our Products': '我們的產品'}",
+    "{'Our Competitive Strengths': '我們的競爭優勢'}",
+    "{'Research and Development': '研究與開發'}",
+    "{'Manufacturing and Supply Chain': '製造與供應鏈'}",
+    "{'Intellectual Property': '智慧財產權'}",
+    "{'original': 'Government Regulation and Compliance', 'translated': '政府規範與合規事項'}",
+    "{'original': 'Privacy and Security Laws', 'translated': '隱私權與安全法規'}",
+    "{'Human Capital': '人力資本'}",
+    "{'Corporate Information': '公司資料'}",
+    "{'Available Information': '可供查閱資訊'}"
+   ],
+   "paragraphs": [
+    "Enovix Corporation (the \"Company,\" \"we,\" \"us,\" \"our\" and \"Enovix\") 為一全球性高階效能電池公司，專注於設計、開發、製造與商業化先進的鋰電池（Lithium-ion, 或 Li-ion），包括專利的矽負極架構，應用於智慧型手機、智慧眼鏡、防禦、工業及新興邊緣AI應用。我們的專利矽負極電池架構可提供較傳統電池電池更高的能量密度與效能，特別是在空間受限的裝置中。我們電池的機械設計，或稱為 \"架構\"，使我們能使用高性能的電化學材料，同時維持安全性與可靠性，支持在各類消費性與工業市場的商業化機會。",
+    "電池效能已成為現代電子裝置的重要限制因素，因為這些裝置持續採用更薄的設計，並具備更高的功能、更長的使用時間與更高的電力需求。智慧型手機、智慧眼鏡、防禦與工業系統，以及新興的邊緣AI應用，越來越需要電池能提供更高的能量密度，以支援緊湊、持續運作的裝置與先進功能 – 所有這些都無需犧牲安全性、可靠性或製造可行性。",
+    "自成立以來，我們專注於開發一種電池架構，使電池的負極可完全使用 100% 的活性矽，且不使用石墨。負極為電池充電時儲存鋰離子的部分。電池產業早已認知到矽在提高能量密度方面的潛力，相較於目前大多數鋰電池所使用的石墨負極材料。矽理論上可儲存超過石墨兩倍的鋰，但電池產業歷來難以在負極中加入超過極少量的矽，因為矽在傳統電池架構中會膨脹並產生裂紋，影響安全性、循環壽命與整體效能。相較之下，我們的架構設計可容納矽的膨脹，並施加壓力以緩解裂紋問題。",
+    "在過去幾年，我們持續優化我們的市場推進策略，並專注於推進與少數客戶及目標應用的下一代電池客戶專案與產品驗證。我們目前的 AI-1TM 電池平台被設計為統一的矽負極平台，用以應對高階效能消費性電子與防禦應用中最嚴苛的要求。我們最初優先考慮智慧型手機作為主要驗證市場，因為智慧型手機在能量密度、快速充電、安全性與循環壽命方面設定了最嚴苛的電池要求。我們相信，在智慧型手機中展示的效能將成為我們 AI-1TM 電池架構在其他新興、快速成長市場中廣泛應用的指標，包括智慧眼鏡及其他需要更高能量密度的 AI 產品應用，這些應用在越來越空間受限的設計中需求更高。",
+    "最近，我們與一家頂級行動原廠（\"OEM\"）合作，開發我們的 AI-1TM 手機電池，該電池展現高體積能量密度與快速充電性能，並經獨立測試實驗室驗證。在智慧眼鏡市場，我們也根據供應契約向主要客戶交付超過 1,000 個 AI-1TM 電池組，並在客戶專案朝生產就緒階段推進時，向九家其他 OEM 與原廠設計製造商（\"ODM\"）提供樣品。",
+    "Enovix 於 2006 年成立，基於一個基本前提，即要實現電池性能的重大進步，必須重新設計電池的結構。此方法成為我們電池平台的技術基礎，並引導後續的開發與製造決策。我們投入大量資金、時間與資源，用以開發我們的專利結構，以及製造我們電池的獨特圖案與堆疊組裝製程。此開發過程獲得來自太陽能與半導體產業中數個戰略參與者的合作與投資支持，這些參與者在精準製造與可擴充生產方面的經驗，影響了我們的作法。",
+    "我們走向商業化之路的重要一步，開始於 2018 年，當時我們開始向客戶提供樣品電池以驗證產品性能。接著在 2020 年，我們開始購置用於第一條生產線（\"Fab1\"）的設備，並於 2022 年第二季從 Fab1 認可我們的第一筆生產營收。",
+    "我們在 2023 年進一步擴充製造能力，透過識別並建立位於馬來西亞（\"Fab2\"）的高量生產廠房，並收購位於韓國的電池製造商 Routejade, Inc.（\"Routejade\"）。Routejade 的收購使我們能夠垂直整合電極塗佈與電池組製造，並擴展產品組合，包含用於防禦與工業應用的鋰電池技術，包括矽摻雜石墨解決方案。在 2025 年，我們進一步透過收購 Solar Edge 的相鄰電池單體製造廠房與相關設備，擴充韓國的製造能力。這些收購強化了我們的製造能力，並使我們能運用擁有超過 20 年運作經驗與服務 demanding 防禦與工業客戶的員工與廠房的專業知識。",
+    "我們也持續擴展全球研究與開發（\"R&D\"）能力，與製造設施同步進行。2023年7月，我們在印度海得拉巴設立了研究與設計中心，以進一步支持創新並取得對關鍵領域專門工程與技術人才的深度資源。",
+    "2024年，我們將Fab1 R&D試產線設備從矽谷總部遷移，並在馬來西亞彭亨科學園區正式啟用Fab2生產廠房。Fab2啟用後，本公司功能及部分銷售、營運與工程活動位於美國總部，而製造與研究與開發活動則主要在馬來西亞、韓國與印度進行。目前Fab2有三條製造線：以R&D為主的試產線、Agility線與高量產製造（\"HVM\"）線。2024年10月，我們開始從Agility線出貨電池單體，並在2024年底完成Agility與HVM線的場地驗收測試（\"SAT\"）。",
+    "Fab2啟用後，本公司功能及部分銷售、營運、工程與研究與開發活動位於美國總部。全球製造與研究與開發活動主要在馬來西亞、韓國與印度進行。截至2025年12月28日，我們僅運作一個應報告分部。",
+    "2025年，我們專注於AI-1TM平台的開發與發佈，這是一款用於下一代行動智慧型手機、智慧眼鏡及其他需要更高總能量儲存與功率以執行本地AI功能的AI裝置的智慧型電池。獨立測試實驗室於2025年12月確認，AI-1TM智慧型手機電池的體積能量密度為935Wh/L，超越了經測試的領先硅摻雜商用智慧型手機電池的表現12%。我們也推進製造準備度，並在全球範圍內擴大產能。Fab2通過ISO 9001審計，並成功完成與多個客戶的初步審計。在防禦與工業市場，我們透過擴大產能與增加韓國廠區的出貨量，持續支持成長中的客戶需求。",
+    "Fab2啟用後，本公司功能及部分銷售、營運、工程與研究與開發活動位於美國總部。全球製造與研究與開發活動主要在馬來西亞、韓國與印度進行。截至2025年12月28日，我們僅運作一個應報告分部。",
+    "電池技術創新 - 歷史回顧"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "業務概覽",
+    "關鍵趨勢、機會與不確定性",
+    "營運成果組成項目",
+    "營運成果",
+    "會計年度終結日",
+    "2025年12月28日 2024年12月29日 變動($) % 變動",
+    "流動性與資本資源",
+    "會計年度",
+    "2025 2024 變動 ($)",
+    "契約義務與承諾",
+    "離財務表之安排",
+    "關鍵會計估計",
+    "近期會計準則聲明"
+   ],
+   "paragraphs": [
+    "我們設計、開發並製造先進的鋰電池，包括我們專利的矽鋁陽極架構，此架構可提供較傳統電池電芯更高的能量密度與性能，尤其在空間受限的裝置如智慧型手機、智慧眼鏡及下一代AI裝置中表現更佳。我們透過收購擴充了電池產品組合，目前也製造傳統鋰電池，主要服務防禦與工業領域的客戶。",
+    "截至目前為止，我們的運營重點集中於研究、開發與商業化我們矽鋁陽極鋰電池電芯架構背後的下一代技術。最近，我們推出了AI-1TM產品平台，這是我們針對下一代智慧型手機、智慧眼鏡及其他需要顯著更高總能量儲存與電力以執行本地AI功能的AI裝置所設計的智慧型AI ClassTM電池。我們也透過傳統與矽摻雜石墨電池產品服務防禦與工業市場，產品涵蓋多種電池尺寸與配置，優化高放電率應用，例如無人機、水下系統與防禦武器系統。",
+    "無人機代表另一個我們重點關注的領域，我們認為我們的產品能為客戶提供強大的競爭優勢，尤其在客戶日益重視更高能量密度、延長飛行時間與供應鏈多元化的情況下。除了智慧型手機、智慧眼鏡與防禦與工業市場外，我們也在積極拓展技術在其他邊緣AI應用、計算與電動車等領域的部署。",
+    "我們目前租用多處廠區，包括位於加州 Fremont 的總部與位於馬來西亞的製造廠區。我們的製造作業在馬來西亞與韓國進行，支援我們下一代矽鋁陽極平台與傳統鋰電池產品。我們已將先前美國的試點製造活動轉移至馬來西亞，並持續專注於製造執行、運營效率與產能規劃，以支持商業化努力。我們的研究與開發活動主要在加州、印度與韓國進行，重點在電池架構、材料整合與製造流程優化。我們最近也在中國深圳設立了銷售辦事處。",
+    "我們的會計年度為52或53週的財務年度，結束於最接近12月31日的星期日，視年度而定。因此，我們每五或六年會有53週的財務年度，我們的2026財務年度將包含53週。我們的2025、2024與2023財務年度為52週，分別於2025年12月28日、2024年12月29日與2023年12月31日結束。所有期間參考皆指這些財務期間，除非另有說明。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們製造及擴充規模相關的風險",
+    "我們需要提升我們的能源密度、循環壽命、快速充電、容量衰減及氣體產生等指標，以在長遠中保持競爭優勢，這是非常困難的，我們可能無法做到。",
+    "我們的營運依賴一個新且複雜的製造流程，要達到大規模生產涉及極大的風險與不確定性，例如產出率與成本等運營表現。",
+    "我們可能無法充分控制與營運相關的成本以及製造鋰電池電池組所需的零組件成本。",
+    "全球貿易政策、關稅、出口管制及其他跨境限制的變動，可能會對我們的營收、營運結果以及取得材料與設備的能力造成重大不利影響。",
+    "我們依賴第三方供應商提供關鍵零組件與設備，這些供應商關係的中斷可能會延誤生產，並對我們的業務、營運結果、財務狀況與現金流造成損害。",
+    "原材料成本上升及因全球市場與地緣政治情況導致的供應中斷，可能會提高我們的產品成本，並對我們的業務與營運結果造成不利影響。",
+    "與我們客戶相關的風險",
+    "若我司電池無法如預期表現，將可能影響我司開發、行銷及銷售電池之能力。",
+    "我司在關鍵市場部門具有顯著的客戶集中度，對這些客戶的依賴性可能對我司業務及財務狀況造成風險。",
+    "我司未來的成長與成功取決於我司能否取得新客戶，而客戶認證週期可能需要數年才能完成。",
+    "我司未來的成長與成功取決於我司能否有效銷售給大型企業及防禦性客戶，並管理與這些客戶的關係。",
+    "與我司業務相關之風險",
+    "我司有財務虧損的歷史，並預期在可預見的未來將產生重大費用及持續虧損。",
+    "若我司無法如預期發展業務並有效商業化產品，可能無法產生收入或實現盈利。",
+    "我司已取得並可能持續取得其他企業，這可能需要大量管理注意力，幹擾我司業務，並稀釋股東價值。",
+    "外幣交換率及利率的波動已對我們的財務狀況及營運成果產生負面影響，並可能持續產生負面影響。",
+    "市場上觀察到鋰電池模組有發生起火或噴出煙霧及火焰的情況，此等事件已引起對使用此類電池的關注。"
+   ],
+   "paragraphs": [
+    "投資本公司證券涉及高度風險。在您決定購買本公司證券前，應仔細考慮下列所描述的風險與不確定性，並配合本年度報告表10-K所包含的所有其他資訊，包括財務報表及其相關附註，以及標題為「管理層對財務狀況與營運成果之討論與分析」的章節。若下列所描述的任何事件或發展發生，將可能對本公司業務、前景、營運結果與財務狀況造成重大影響，本公司證券交易價格可能下跌，您可能損失全部或部分投資。下列所描述的風險與不確定性並非本公司所面臨的唯一風險。其他未被本公司目前知悉或目前認為不重要的風險與不確定性，也可能對本公司業務造成不利影響。",
+    "您不應將本公司對下列風險的揭露解釋為這些風險已經實現。",
+    "本公司改善能量密度、循環壽命、快速充電、容量衰減與氣體產生指標的路線圖，需要我們實施更高能量密度的材料，用於陽極與陰極，以及電解質與隔膜材料。為成功使用這些材料，我們必須優化電池設計，包括但不限於配方、厚度、幾何形狀、材料、化學組成與製造公差與技術。我們可能需要比預期更長的時間才能整合這些新材料，或可能無法達到客戶所要求的電池性能規格。此外，我們需要改善技術以實現我們的能量密度、循環壽命、快速充電、容量衰減與氣體產生指標的改善路線圖。這些改善可能無法實現，或可能需要更長時間，或比預期更困難。若我們無法改善包裝技術，這可能會降低我們產品的性能，並延遲產品對客戶的供應，這將對我們的競爭潛力造成負面影響。",
+    "雖然我們已經發展出鋰電池技術，但我們嚴重依賴一種新且複雜的製造流程來生產鋰電池電池單體，目前尚未達到規模生產。為滿足我們預期的未來需求，我們需要提高製造吞吐量與良率指標。我們預期達成提高吞吐量與良率的目標將是一項跨多季或甚至更長時間的任務。我們過去曾經驗到，也可能未來會經驗到達成這些目標的延遲。我們有多種解決方案來提高製造吞吐量與良率指標，但無法確定哪一種解決方案會被優化至商業規模。",
+    "我們使用許多供應商來提供電池的零組件；材料或供應商的變更，或我們的解決方案未能提高良率，可能會對我們達成吞吐量與良率指標目標的能力造成負面影響。",
+    "開發這些製造流程並整合設備至鋰電池電池單體的生產，包括達成吞吐量與良率目標，需要大量時間，並需要我們與許多設備與工具供應商密切合作，以確保設備能適應我們獨特的電池技術。將新設備整合至我們的生產流程涉及高度的不確定性與風險，我們過去未能達成吞吐量與良率目標，也可能未來無法達成。此外，整合工作可能導致生產規模擴張的延遲，或導致電池單體的額外成本，特別是在我們遇到性能問題，或無法為某些客戶客製化產品的情況下。某些客戶可能需要數個月或更長時間完成技術認證，才能決定是否接受大量生產的產品，若不接受則可能完全不接受。此外，即使我們能達成現有電池應用的大量生產，我們也可能面臨在新應用領域（包括電動車市場與AI裝置市場）擴大生產的挑戰。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

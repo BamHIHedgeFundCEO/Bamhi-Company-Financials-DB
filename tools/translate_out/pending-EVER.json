@@ -1,0 +1,223 @@
+{
+ "ticker": "EVER",
+ "cik": "0001640428",
+ "accession": "0001193125-26-066957",
+ "form": "10-K",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "business": {
+   "headings": [
+    "Company Overview",
+    "Market Opportunity",
+    "Our Solution",
+    "Our Strengths",
+    "Our Growth Strategies",
+    "Technology and Infrastructure",
+    "Our Customers",
+    "Sales and Marketing",
+    "Employees and Human Capital Resources",
+    "Intellectual Property",
+    "Our Corporate Information",
+    "Available Information"
+   ],
+   "paragraphs": [
+    "We operate a leading online marketplace for insurance shopping, connecting consumers with our insurance provider customers, which includes both carriers and agents. Our vision is to be the leading growth partner for property and casualty, or P&C, insurance providers. Our results-driven marketplace, powered by our proprietary data and technology platform, is improving the way insurance providers attract and connect with consumers shopping for insurance.",
+    "We operate a marketplace to connect insurance providers to a large volume of high-intent, pre-validated consumer referrals that match the insurers' specific underwriting and profitability requirements. The transparency of our marketplace, as well as the campaign management tools we offer, are designed to make it easy for insurance carriers and third-party agents to evaluate the performance of their marketing spend on our platform and manage their own return on investment. We present consumers with a single starting point for a comprehensive insurance shopping experience where consumers can engage with insurance carriers through multiple channels based on their preferences. Our marketplace enables consumers to choose to visit an insurance provider's website to purchase a policy or engage with a carrier or agent by phone or submit their data to insurance providers to receive quotes. Our services are free for consumers, and we derive our revenue principally from consumer inquiries sold as referrals to insurance providers.",
+    "P&C insurance is one of the largest segments of the United States economy and is highly fragmented with over 2,500 insurance carriers and over 100,000 insurance agencies, which collectively issued policies representing over $1 trillion in premiums in 2024. To capture new policies and retain their existing customers, U.S. P&C insurance carriers spent $129 billion in 2024 on marketing and distribution. However, carriers face challenges in this market that create a significant opportunity for companies that can efficiently align consumers and providers. These challenges include:",
+    "• Misalignment of providers and consumers, creating an inefficient match between supply and demand",
+    "• A complex, fragmented and opaque market for consumers • Inefficient advertising channels for insurance providers",
+    "Due to these challenges, insurance providers are seeking more efficient ways to connect with consumers, and as a result the internet has become increasingly influential in consumer insurance shopping, and $8 billion of 2024 insurance carriers' marketing spend was on digital advertising. The insurance industry is also making products easier to buy and sell through digital channels with the integration and digitalization of insurance products. We believe that the continued rise in digital insurance products and shopping experiences enable more personal, end-to-end shopping experiences, products and services, resulting in more consumers shopping for insurance online.",
+    "Our results-driven marketplace, powered by our proprietary data and technology platform, matches and connects consumers seeking to purchase insurance with relevant options from our network of insurance providers, saving consumers and providers time and money.",
+    "Proprietary, data-driven technology platform. Our platform efficiently attracts consumers shopping for insurance to our websites and call center, which match them to relevant providers for streamlined quoting. This enables us to maintain high levels of quality control and provide real-time referrals to insurance providers at the moment of the consumer's purchase intent.",
+    "Insurance provider engagement and benefits. Insurance carriers and agents connect with our marketplace through our web-based provider portal. Our portal provides transparent, secure access to marketplace data regarding consumer type, volume and referral pricing, along with sophisticated campaign management tools for targeting consumers based on a wide array of attributes. Our tools are designed to integrate with insurance providers' internal workflows to minimize administrative burden, and can incorporate quote, bind and lifetime value feedback, enabling providers to evaluate and optimize their acquisition and retention campaigns through a single interface.",
+    "We offer insurance providers a number of benefits to enable them to drive profitable growth, such as access to a high volume of insurance shoppers, precise targeting capabilities to ensure they connect with the right prospects, high bind rates for consumer referrals through broad data integration with insurance providers, and a flexible advertising channel.",
+    "Consumer engagement and benefits. We engage with consumers through multiple channels that include our own websites and our third-party publishers' websites, including verified partners that provide us with quote requests completed by consumers. Additionally, we engage with consumers offline, including through consumer calls placed directly from a call center operated by us, by one of our verified partners, or by a third-party insurance agent.",
+    "We aim to make the end-to-end shopping experience for consumers seamless by facilitating delivery of highly relevant insurance product options from a single starting point, reducing time and effort to research and compare insurance product options, and improving the purchase experience to help consumers make better decisions. Broad participation of top-tier insurance carriers within our marketplace enables consumers to efficiently navigate a range of options and offers that are relevant to their insurance coverage searches. By enabling insurance carriers to apply sophisticated targeting, we facilitate access to the most relevant product options for each respective consumer based on consumer-provided demographics and other relevant characteristics.",
+    "We believe that our results driven marketplace provides us a competitive advantage based on the following key strengths:",
+    "Proprietary Data Assets and Algorithms. Our marketplace is powered by a proprietary data and technology platform that efficiently attracts insurance shoppers from a diverse and large array of sources, increases the bind rate for consumers, and we believe will drive down the cost of acquisition for providers over time as well as improve our own monetization. Our proprietary data assets and machine learning algorithms efficiently attract consumers, match them with relevant insurance providers and drive our overall business model. We utilize our data assets and machine learning capabilities throughout our business, from advertising and consumer acquisition to the innovation of new consumer and provider experiences, as well as to guide our strategic direction. As our data assets grow, our algorithms become more powerful. We believe our data science capabilities, combining the use of proprietary data assets with scalable machine learning driven automation, give us a significant competitive advantage."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business and Industry",
+    "Our business could be materially and adversely affected by a cybersecurity breach or other attack, failure or interruption involving our computer systems or our third-party service providers.",
+    "If we fail to compete effectively against companies engaged in digital customer acquisition, including competitors and other technology companies, we could lose customers and our revenue may decline.",
+    "We are subject to a number of risks related to the credit card and debit card payments we accept.",
+    "If we were required to draw upon our line of credit, indebtedness could adversely affect our ability to operate our business, financial condition and results of operations.",
+    "Risks Related to Laws and Regulations",
+    "Changing regulations regarding the insurance industry in the past have had, and in the future may have, a material and adverse impact on our revenue, business and growth.",
+    "Increased regulation regarding data privacy and security may have a material and adverse impact on our revenue, business and growth.",
+    "Changing regulations regarding telemarketing and text message marketing campaigns in the past have had, and in the future may have, a material and adverse impact on our revenue, business and growth.",
+    "Regulations regarding email marketing campaigns may have a material and adverse impact on our revenue, business and growth.",
+    "We may become subject to litigation, audit or investigation, which could result in financial liability, fines and penalties, restrictions on our operations or reputational damage.",
+    "Risks Related to Our Intellectual Property",
+    "We may not be able to adequately protect our intellectual property rights.",
+    "We may in the future be subject to intellectual property disputes, which are costly to defend and could harm our business and operating results.",
+    "Confidentiality agreements with employees and others may not adequately prevent disclosure of trade secrets and other proprietary information."
+   ],
+   "paragraphs": [
+    "Investing in our Class A common stock involves a high degree of risk. Certain factors may have a material adverse effect on our business, financial condition and results of operation. You should carefully consider the risks and uncertainties described below, together with all of the other information included in this Annual Report on Form 10-K, including our consolidated financial statements and the related notes, and in our other filings with the SEC. Our business, financial condition, operating results, cash flow and prospects could be materially and adversely affected by any of these risks or uncertainties. In that case, the trading price of our Class A common stock could decline, and you may lose all or part of your investment.",
+    "Our business is highly subject to business cycles and risks related to the property and casualty insurance industries, and specifically automotive insurance. Adverse conditions in the insurance markets, as well as the general economy, could have a material adverse effect on our business, financial condition, and results of operations.",
+    "Because a substantial majority of the referrals made through our marketplace are for automotive insurance, our financial prospects depend significantly on the larger automotive industry ecosystem. Revenue from automotive insurance providers accounted for 91% and 89% of our total revenue for 2025 and 2024, respectively. Market cycles in the automotive insurance industry have been, and are expected to continue to be, unpredictable. For example, carriers decreased the amount of money they spent with us in 2023 and 2022 due to a variety of adverse conditions in the insurance industry such as deteriorating underwriting performance, a rise in claims, inflation, and inadequate policy premiums, and such decreases could reoccur rapidly and without warning, and for time periods that can be difficult to predict accurately. We will likely experience the impacts of insurance industry cycles in the future, which could materially and adversely affect our business, financial condition, operating results, cash flows, and prospects.",
+    "We depend on relationships with insurance provider customers with no long-term minimum financial commitments. A reduction in spend by our customers, a loss of customers, lower advertising yields, or our inability to establish and maintain new relationships with insurance providers could materially harm our business, results of operations and financial condition.",
+    "A substantial majority of our revenue is derived from qualified consumer inquiries that are sold as referrals in various ways, such as clicks, data and calls, to insurance provider customers, which includes both carriers and agents. We generate revenue from carriers and agents that directly purchase referrals from us. We also generate revenue from carriers that make subsidy payments to us to offset their agents' costs in buying referrals. Our relationships with those customers are dependent on our ability to deliver quality referrals at attractive volumes and prices. If insurance providers are not able to acquire their preferred referrals in our marketplace, they may stop buying referrals from us or decrease the amount they are willing to spend for referrals.",
+    "Our insurance provider customers can stop participating in our marketplace or reduce or terminate their marketing spend with us at any time without notice. Furthermore, our agreements with these customers do not require them to spend any minimum amount. As a result, we cannot guarantee that insurance providers will continue to work with us, or, if they do, what their advertising volume, pricing or total spend with us will be. For example, we experienced significantly decreased insurance provider marketing spend in 2023 and while spending patterns have improved, not all of our carrier customers have increased their spend in a proportional or significant manner. In addition, we may not be able to attract new insurance providers to our marketplace or increase the amount of revenue we earn from insurance providers over time. If any of our customers decide not to continue to place marketing or advertising on our owned and operated websites or on our third-party publishers' websites, we could experience a rapid decline in our revenue over a relatively short period of time with little to no notice. Any factors that limit our customers' marketing or advertising spend with us could have a material adverse effect on our business, financial condition, operating results and cash flows."
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Factors Affecting Our Performance",
+    "Auto insurance industry risk",
+    "Expanding consumer traffic",
+    "Increasing the number of insurance providers and their respective spend in our marketplace",
+    "Key Business Metrics",
+    "Adjusted EBITDA",
+    "Variable Marketing Dollars and Margin",
+    "Key Components of Our Results of Operations",
+    "Year Ended December 31,",
+    "Cost and Operating Expenses",
+    "Other Income (Expense)",
+    "Income Taxes",
+    "Non-GAAP Financial Measure",
+    "Reconciliation of Net Income (Loss) to Adjusted EBITDA:",
+    "Results of Operations",
+    "Statement of Operations Data:",
+    "Other Financial and Operational Data:",
+    "Comparison of the Years Ended December 31, 2025 and 2024",
+    "Comparison of the Years Ended December 31, 2024 and 2023",
+    "Liquidity and Capital Resources",
+    "Contractual Obligations and Commitments",
+    "Critical Accounting Policies and Significant Judgments and Estimates",
+    "Revenue Recognition",
+    "Stock-Based Compensation",
+    "Recently Issued Accounting Pronouncements"
+   ],
+   "paragraphs": [
+    "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our consolidated financial statements and related notes appearing in Part II, Item 8 of this Annual Report on Form 10-K. Some of the information contained in this discussion and analysis or set forth elsewhere in this Annual Report on Form 10-K, including information with respect to our plans and strategy for our business, includes forward-looking statements that involve risks and uncertainties. As a result of many factors, including those factors set forth in the ‘‘Risk Factors'' section of this Annual Report on Form 10-K, our actual results could differ materially from the results described in, or implied by, the forward-looking statements contained in the following discussion and analysis.",
+    "We operate a leading online marketplace for insurance shopping, connecting consumers with insurance provider customers, which includes both carriers and agents. Our vision is to be the leading growth partner for P&C insurance providers. Our results-driven marketplace, powered by our proprietary data and technology platform, is improving the way insurance providers attract and connect with consumers shopping for insurance.",
+    "We operate a marketplace to connect insurance providers to a large volume of high-intent, pre-validated consumer referrals that match the insurers' specific underwriting and profitability requirements. The transparency of our marketplace, as well as the campaign management tools we offer, are designed to make it easy for insurance carriers and third-party agents to evaluate the performance of their marketing spend on our platform and manage their own return on investment. We present consumers with a single starting point for a comprehensive insurance shopping experience where consumers can engage with insurance carriers through multiple channels based on their preferences. Our marketplace enables consumers to choose to visit an insurance provider's website to purchase a policy or engage with a carrier or agent by phone or submit their data to insurance providers to receive quotes. Our services are free for consumers, and we derive our revenue principally from consumer inquiries sold as referrals to insurance providers.",
+    "In the years ended December 31, 2025, 2024 and 2023, our total revenue was $692.5 million, $500.2 million and $287.9 million, respectively, representing year-over-year increases of 38.5% from 2024 to 2025 and 73.7% from 2023 to 2024. We had net income of $99.3 million and $32.2 million for the years ended December 31, 2025 and 2024, respectively, and a net loss of $51.3 million for the year ended December 31, 2023, and had $94.6 million, $58.2 million and $0.5 million in adjusted EBITDA for these same periods, respectively. See the section titled \"—Non-GAAP Financial Measure\" for information regarding our use of adjusted EBITDA and its reconciliation to net income (loss) determined in accordance with generally accepted accounting principles in the United States, or GAAP.",
+    "We believe that our performance and future growth depend on a number of factors that present significant opportunities for us but also pose risks and challenges, including those discussed below and in the section titled \"Risk Factors.\"",
+    "For the years ended December 31, 2025 and 2024, we derived 91% and 89%, respectively, of our revenue from auto insurance providers and our financial results depend on the performance of the auto insurance industry. Furthermore, total revenue from our two largest customers accounted for 38% and 11%, respectively, of our total revenue for the year ended December 31, 2025 and revenue from our largest auto insurance carrier customer was 39% of our revenue for the year ended December 31, 2024. Business cycles within the auto insurance industry heavily impact our carrier customers' advertising spend with us, such as the downturn we saw in 2022 and 2023, when the auto insurance industry experienced deteriorated underwriting performance due to a rise in claims, inflation, and inadequate policy premiums, which had a negative impact on the pricing and demand for consumer referrals in our marketplace throughout 2023. The state of the auto insurance market remains volatile, and while spending patterns have significantly improved since 2023, a number of our top carrier customers remain below their peak historical spend.",
+    "Our success depends in part on the growth of our consumer traffic. We have historically increased consumer traffic to our marketplace by expanding existing advertising channels and adding new channels such as by engaging with consumers through our verified partner network. Over the long term, we plan to increase consumer traffic by leveraging the features and growing the data assets of our platform. While we plan to grow consumer traffic, we have the ability to decrease advertising spend when the revenue associated with such consumer traffic does not result in incremental profit to our business or in response to lower demand for consumer referrals. Further, our profitability will be impacted by our ability to acquire quote requests in significant volume, at prices that are attractive, and that represent high-intent shoppers for which insurance providers will purchase referrals.",
+    "Our success also depends on our ability to retain and grow our insurance provider network. Historically, we have generally expanded both the number of insurance providers and the spend per provider on our platform. However, we have also experienced periods of decreasing carrier spend in the automotive insurance vertical as described above.",
+    "Our revenue and earnings may fluctuate from time to time as a result of changes to federal, state, and industry-based laws and regulations, or changes to standards concerning the enforcement thereof. Our business could be affected directly because we operate websites, conduct telephonic and email marketing, and collect, store, share, and use consumer information and other data. Our business also could be affected indirectly if our customers were to adjust their operations as a result of regulatory changes and enforcement activity. For example, on January 26, 2024, the FCC published regulations which, among other things, would have amended the consent requirements of the TCPA by requiring \"one-to-one consent\" for outbound telemarketing calls or texts made using an automatic telephone dialing system or pre-recorded or artificial voice messages to wireless or residential numbers. On January 24, 2025, the United States Court of Appeals for the Eleventh Circuit vacated these amended regulations, which were scheduled to go into effect on January 27, 2025. Also, on June 20, 2025, the Supreme Court of the United States held that the Hobbs Act does not bind district courts in civil enforcement proceedings to an agency's interpretation of a statute, including the FCC's interpretation of the TCPA. It remains unclear whether or how government agencies or legislatures will revisit telephone call consent issues.",
+    "In addition, a number of states have enacted (and others are considering) broad data privacy laws that could affect our business. Although it remains unclear how these new privacy laws may be modified or interpreted, their effects could have an impact on our business, and may require us to modify our data use practices and policies and incur compliance-related costs and expenses.",
+    "We regularly review a number of metrics, including GAAP operating results and the key metrics listed below, to evaluate our business, measure our performance, identify trends affecting our business, formulate financial projections, and make operating and strategic decisions. Some of these metrics are non-financial metrics or are financial metrics that are not defined by GAAP.",
+    "We define Adjusted EBITDA as net income (loss), adjusted to exclude: stock-based compensation expense, depreciation and amortization expense, legal settlement expense, restructuring and other charges, acquisition-related costs, interest income and income taxes. Adjusted EBITDA is a non-GAAP financial measure that we present in this Annual Report on Form 10-K to supplement the financial information we present on a GAAP basis. We monitor and present Adjusted EBITDA because it is a key measure used by our management and board of directors to understand and evaluate our operating performance, to establish budgets and to develop operational goals for managing our business. Adjusted EBITDA should not be considered in isolation from, or as an alternative to, measures prepared in accordance with GAAP. Adjusted EBITDA should be considered together with other operating and financial performance measures presented in accordance with GAAP. Also, Adjusted EBITDA may not necessarily be comparable to similarly titled measures presented by other companies. For further explanation of the uses and limitations of this measure and a reconciliation of Adjusted EBITDA to the most directly comparable GAAP measure, net income (loss), please see \"—Non-GAAP Financial Measure.\"",
+    "We define variable marketing dollars, or VMD, as revenue, as reported in our consolidated statements of operations and comprehensive income (loss), less advertising costs (a component of sales and marketing expense, as reported in our consolidated statements of operations and comprehensive income (loss)). We define variable marketing margin, or VMM, as VMD divided by revenue.",
+    "We use VMD and VMM to measure the efficiency of individual advertising and consumer acquisition sources and to make trade-off decisions to manage our return on advertising. We do not use VMD or VMM as a measure of profitability."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'translatedText': '公司簡介'}",
+    "{'translatedText': '市場機會'}",
+    "{'translatedText': '我們的解決方案'}",
+    "{'translatedText': '我們的優勢'}",
+    "{'translatedText': '我們的成長策略'}",
+    "{'translatedText': '技術與基礎建設'}",
+    "{'translatedText': '我們的客戶'}",
+    "{'translatedText': '銷售與行銷'}",
+    "{'Employees and Human Capital Resources': '員工及人力資本資源'}",
+    "{'Intellectual Property': '智慧財產權'}",
+    "{'Our Corporate Information': '本公司企業資訊'}",
+    "{'Available Information': '可供查閱資訊'}"
+   ],
+   "paragraphs": [
+    "本公司經營一個領先的線上保險購物市場平台，連結消費者與我們的保險服務提供客戶，包含電信業者與經紀人。本公司願景為成為財產與責任險，或稱 P&C 保險提供者的領先成長夥伴。我們的以結果為導向的市場平台，由我們的專屬資料與科技平台驅動，改善保險提供者吸引並與購物的消費者連結的方式。",
+    "本公司經營一個市場平台，連結保險提供者與大量高意圖、已驗證的消費者推薦，這些消費者符合保險公司的特定核保與獲利需求。我們市場平台的透明度，以及我們提供的行銷管理工具，設計用以讓保險電信業者與第三方經紀人輕易評估他們在本平台的行銷支出表現，並管理他們自身的投資回報率。我們為消費者提供一個完整的保險購物體驗起點，消費者可根據自己的偏好，透過多種管道與保險電信業者互動。我們的市場平台讓消費者選擇造訪保險提供者的網站購買保單，或透過電話與電信業者或經紀人互動，或提交資料給保險提供者以取得報價。我們的服務對消費者為免費，本公司主要透過消費者查詢轉售為推薦給保險提供者來獲取收入。",
+    "",
+    "• 提供者與消費者之間的不匹配，造成供應與需求之間的低效率對應",
+    "• 一個複雜、零散且不透明的消費者市場 • 保險業者的廣告通路效率低下",
+    "由於這些挑戰，保險業者正在尋求更有效的方法來與消費者建立聯繫，因此，網際網路在消費者購買保險的過程中變得越來越重要，2024 年保險電信業者的行銷支出中有 8 十億美元用於數位廣告。保險業也透過保險產品的整合與數位化，使產品更容易買賣。我們認為，數位保險產品與購物體驗的持續成長，使消費者能獲得更個人化、端到端的購物體驗、產品與服務，導致更多消費者在網路上購買保險。",
+    "我們的以結果為導向的市場平台，由我們的專屬資料與科技平台驅動，能將尋求購買保險的消費者與我們保險業者網路中的相關選項進行匹配與連結，為消費者與業者節省時間與金錢。",
+    "專屬、資料驅動的科技平台。我們的平台能有效吸引正在尋找保險的消費者至我們的網站與電話中心，並為其匹配相關業者以簡化報價流程。這使我們能維持高水準的品質控制，並在消費者購買意圖的當下，提供保險業者即時的推薦。",
+    "保險業者參與及好處。保險電信業者與經紀人透過我們的網路端服務提供者入口網站與我們的市場平台連結。我們的入口網站提供透明且安全的市場平台資料存取，包含消費者類型、交易量與轉介價格，並搭配進階的行銷活動管理工具，用以根據廣泛的屬性特徵來鎖定消費者。我們的工具設計為與保險業者的內部作業流程整合，以降低行政負擔，並可納入報價、綁約與終身價值反饋，使業者能透過單一介面評估並優化其獲客與留存行銷活動。",
+    "我們為保險業者提供多種好處，以協助其推動獲利成長，例如存取大量保險購物者、精準鎖定目標潛在客戶的能力建設、透過廣泛資料整合與保險業者合作的高綁約率，以及靈活的廣告通路。",
+    "消費者參與及好處。我們透過多種通路與消費者互動，包括我們自己的網站與第三方出版商的網站，包含已驗證的合作夥伴，這些合作夥伴提供我們已完成的消費者報價請求。此外，我們也透過線下方式與消費者互動，包括由我們運營的客服中心直接撥打的消費者電話，或由我們的已驗證合作夥伴或第三方保險經紀人撥打的消費者電話。",
+    "我們致力於為消費者提供從頭到尾的購物體驗，使其能透過單一起點獲得高度相關的保險產品選項，減少研究與比較保險產品選項的時間與努力，並改善購買體驗，協助消費者做出更優的決策。我們市場平台中廣泛參與的頂級保險電信業者，使消費者能有效率地瀏覽與其保險保障搜尋相關的多樣選項與優惠。透過讓保險電信業者應用進階的鎖定技術，我們能根據消費者提供的人口統計資料及其他相關特徵，為每位消費者提供最相關的產品選項。",
+    "我們相信，以結果為導向的市場平台為我們帶來競爭優勢，基於以下關鍵優勢：",
+    "專利資料資產與演算法。我們的市場平台由專利資料與科技平台驅動，能有效吸引來自多樣且廣泛來源的保險購物者，提高消費者綁約率，我們相信這將隨時間降低業者獲客成本，並提升我們自身的營收能力。我們的專利資料資產與機器學習演算法能有效吸引消費者，將其與相關的保險電信業者進行匹配，並推動我們整體的商業模式。我們在廣告與消費者獲客、創新消費者與業者體驗，以及引導我們戰略方向等業務各環節中，均運用我們的資料資產與機器學習能力。隨著我們的資料資產不斷增長，我們的演算法也變得更強大。我們相信，結合專利資料資產與可擴展的機器學習驅動自動化的資料科學能力，能為我們帶來顯著的競爭優勢。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "影響我們營運表現的因素",
+    "自動車保險產業風險",
+    "擴大消費者流量",
+    "增加保險提供者數量及其在本市場的支出",
+    "關鍵營運績效指標",
+    "調整後營運資金",
+    "變動式行銷支出與毛利率",
+    "影響我們營運成果的關鍵零組件",
+    "會計年度終了於12月31日",
+    "成本及營運費用",
+    "其他收入（費用）",
+    "所得稅",
+    "非GAAP財務指標",
+    "淨收入（虧損）至調整後EBITDA之重會",
+    "營運成果",
+    "營運資料摘要",
+    "其他財務與營運資料：",
+    "截至2025年12月31日與2024年12月31日之年度比較",
+    "截至2024年12月31日與2023年12月31日之年度比較",
+    "流動性與資本運用",
+    "契約義務與承諾",
+    "關鍵會計政策與重要判斷與估計",
+    "收入認列",
+    "股票基於報酬",
+    "{'original': 'Recently Issued Accounting Pronouncements', 'translated': '最近發佈之會計準則解釋'}"
+   ],
+   "paragraphs": [
+    "以下對我們財務狀況及營運成果的討論與分析，應與本年度10-K申報表第二部分第8項所載之合併財務報表及相關附註一併閱讀。部分包含於本年度10-K申報表中之資訊，包括有關我們業務計畫與策略之資訊，包含風險與不確定性之預測性陳述。由於許多因素，包括本年度10-K申報表中「風險因素」部分所列之因素，我們實際結果可能與下列討論與分析中所描述或暗示之預測性陳述有所差異。",
+    "我們經營一個領先的線上保險購物市場，連結消費者與保險提供者客戶，包含電信業者與經紀人。我們的願景是成為財產與責任險（P&C）保險提供者的領先成長夥伴。我們的結果導向市場，由我們的專屬資料與科技平台驅動，改善保險提供者吸引並與購物保險之消費者連接的方式。",
+    "我們經營一個市場，連結保險提供者與大量高意圖、已驗證之消費者推薦，這些消費者符合保險公司的特定承保與獲利要求。我們市場的透明度，以及我們提供的行銷管理工具，設計用以讓保險電信業者與第三方經紀人輕易評估其在本平台之行銷支出表現，並管理其自身的投資回報率。我們為消費者提供一個單一的起點，以進行完整的保險購物體驗，消費者可根據其偏好，透過多種通路與保險電信業者互動。我們的市場使消費者可選擇造訪保險提供者的網站購買保單，或透過電話與電信業者或經紀人互動，或提交資料給保險提供者以取得報價。我們的服務對消費者為免費，我們的營業收入主要來自於消費者查詢，這些查詢被銷售為推薦給保險提供者。",
+    "",
+    "我們認為，我們的表現與未來成長取決於許多因素，這些因素為我們帶來顯著的機會，但也帶來風險與挑戰，包括以下所討論及「風險因素」部分所列之因素。",
+    "截至2025年12月31日及2024年12月31日之年度，我們約91%及89%之營業收入來自於汽車保險提供者，且我們的財務結果依賴於汽車保險產業的表現。此外，我們兩大客戶之總營業收入佔我們2025年12月31日年度總營業收入的38%，而我們最大汽車保險電信業者客戶之營業收入佔我們2024年12月31日年度營業收入的39%。汽車保險產業內的商業週期嚴重影響我們電信業者客戶在本平台的廣告支出，例如2022年及2023年所見的衰退，當時汽車保險產業因聲請增加、通貨膨脹及保費不足而導致承保表現惡化，對我們市場中消費者推薦的價格與需求產生負面影響。汽車保險市場的狀態仍屬波動，儘管自2023年起支出模式已顯著改善，但我們的一些主要電信業者客戶仍低於其歷史高峯支出。",
+    "我們的成功部分取決於消費者流量的成長。我們歷來透過擴展現有廣告通路及增加新通路（例如透過我們已驗證的夥伴網路與消費者互動）來提高消費者流量。長期而言，我們計畫透過利用平台的特色及成長資料資產來提高消費者流量。雖然我們計畫提高消費者流量，但我們有能力在與該消費者流量相關之收入未能為我們業務帶來增量利潤，或因消費者推薦需求降低時，減少廣告支出。此外，我們的利潤率將受我們能否以具吸引力的價格取得大量詢價請求，且這些請求代表高意圖的購物者，保險提供者願意購買推薦之影響。",
+    "我們的成功也取決於我們保留並擴展保險提供者網路的能力。歷來，我們通常擴展保險提供者的數量及每個提供者在平台上的支出。然而，我們也經歷了汽車保險垂直領域中電信業者支出減少的時期，如上所述。",
+    "本公司之營業收入及獲利可能因聯邦、州及產業層面之法律與法規之變更，或有關執行標準之變更而有所波動。本公司業務可能因我們經營網站、進行電話及電子郵件行銷，並收集、儲存、分享及使用消費者資訊及其他資料而受到直接影響。本公司業務亦可能因客戶因法規變更及執行情況而調整其營運而受到間接影響。例如，於2024年1月26日，美國聯邦通信委員會（FCC）發布規則，其中包含修正TCPA之同意要求，要求透過自動電話撥號系統或預錄或人工語音訊息撥打至無線或住宅電話之外撥行銷電話或簡訊，需取得「一對一同意」。於2025年1月24日，美國第十一巡迴上訴法院撤銷這些修正後之規則，這些規則原定於2025年1月27日生效。此外，於2025年6月20日，美國最高法院裁定霍布斯法並未束縛地區法院在民事執行情形中遵循機構對法條之解釋，包括FCC對TCPA之解釋。目前尚不清楚政府機構或立法機關是否會重新檢視電話撥打同意問題。",
+    "此外，若干州已頒布（或正在考慮）廣泛之資料隱私權法，可能影響本公司業務。雖然尚不清楚這些新隱私權法可能如何修改或解釋，但其影響可能對本公司業務產生影響，並可能要求本公司修改資料使用作法與政策，並產生合規相關之成本與費用。",
+    "本公司定期審閱若干指標，包括GAAP營運結果及下列關鍵指標，以評估本公司業務、衡量本公司表現、識別影響本公司業務之趨勢、制定財務預測，並做出營運與戰略決策。其中一些指標為非財務指標，或為未由GAAP定義之財務指標。",
+    "本公司將調整後之營運資金（Adjusted EBITDA）定義為淨損益（損失），調整後排除：股票激勵報酬費用、折舊及攤銷費用、法律和解費用、重整及其他費用、併購相關費用、利息收入及所得稅。調整後之營運資金為非GAAP財務指標，本公司於本年度報告（10-K表單）中提供此指標，以補充於GAAP基礎上提供之財務資訊。本公司監測並提供調整後之營運資金，因其為本公司管理階層及董事會用以瞭解及評估本公司營運表現、制定預算及發展營運目標以管理本公司業務之關鍵指標。調整後之營運資金不得孤立地考慮，或作為GAAP財務指標之替代。調整後之營運資金應與根據GAAP提供之其他營運及財務表現指標一併考量。此外，調整後之營運資金可能與其他公司提供之相似名稱指標不完全相同。有關此指標之用途與限制說明，以及調整後之營運資金與最直接可比之GAAP指標（淨損益（損失））之對應關係，請參閱『—非GAAP財務指標』。",
+    "本公司將變動行銷金額（Variable Marketing Dollars，VMD）定義為營業收入，如本公司合併財務報表之營運與綜合損益（虧損）所報導之收入，減去廣告費用（為銷售與行銷費用之組成部分，如本公司合併財務報表之營運與綜合損益（虧損）所報導）。本公司將變動行銷毛利（Variable Marketing Margin，VMM）定義為VMD除以營業收入。",
+    "本公司使用VMD與VMM以衡量個別廣告與消費者獲取來源之效率，並做出權衡決策以管理廣告之回報率。本公司不將VMD或VMM作為衡量獲利性之指標。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務及產業相關之風險",
+    "我們之業務可能因電腦系統或第三方服務提供者之電腦系統遭駭客入侵、其他攻擊、故障或中斷而受到重大且不利之影響。",
+    "若我們無法有效與從事數位客戶獲取之公司競爭，包括競爭對手及其他科技公司，我們可能失去客戶，且營業收入可能下降。",
+    "我們因接受信用卡及提款卡付款而面臨多項風險。",
+    "若我們被要求動用信貸線，負債可能對我們之營運能力、財務狀況及營運成果造成重大且不利之影響。",
+    "與法律及法規相關之風險",
+    "過去對保險業之法規變動已對我們之營業收入、業務及成長造成重大且不利之影響，未來亦可能如此。",
+    "關於資料隱私權及安全性之法規增加，可能對我們之營業收入、業務及成長造成重大且不利之影響。",
+    "有關電信行銷及簡訊行銷活動的規範變更，過去曾對本公司營業收入、業務及成長造成重大且不利的影響，未來亦可能產生相同影響。",
+    "有關電子郵件行銷活動的規範，可能對本公司營業收入、業務及成長造成重大且不利的影響。",
+    "本公司可能面臨訴訟、審計或調查，這可能會導致財務負擔、罰款及處罰、業務運作限制或聲譽損害。",
+    "與智慧財產權有關的風險",
+    "本公司可能無法充分保護智慧財產權權利。",
+    "本公司未來可能面臨智慧財產權爭議，這些爭議的防禦成本高昂，並可能對業務及營運成果造成損害。",
+    "與員工及其他人士簽訂的保密協議，可能無法充分防止商業機密及其他專屬資訊的洩漏。"
+   ],
+   "paragraphs": [
+    "投資本公司 A 級普通股涉及高度風險。某些因素可能對本公司業務、財務狀況及營運成果產生重大不利影響。您應仔細考慮下列所描述的風險與不確定性，並配合本年度報告表 10-K 所包含的所有資訊，包括本公司合併財務報表及其相關附註，以及本公司其他向 SEC 提交的檔。本公司業務、財務狀況、營運成果、現金流及前景可能因任何這些風險或不確定性而產生重大且不利的影響。在此情況下，本公司 A 級普通股的交易價格可能下跌，您可能損失全部或部分投資。",
+    "本公司業務高度受到商業週期及與財產與責任保險產業相關的風險影響，特別是汽車保險。保險市場的不利條件，以及整體經濟狀況，可能對本公司業務、財務狀況及營運成果產生重大不利影響。",
+    "由於透過我們市場平台所產生的推介中，絕大多數為汽車保險，因此本公司財務前景大幅依賴於較大的汽車產業生態系統。汽車保險提供者所產生的收入，在 2025 年及 2024 年分別佔本公司總收入的 91% 及 89%。汽車保險產業的市場週期已為不穩定，且預期將持續不穩定。例如，電信業者因保險產業中如理賠表現惡化、聲請數增加、通貨膨脹及政策 premiums 不足等多種不利條件，於 2023 年及 2022 年減少與我們合作的金額，這些減少可能迅速且無預警地重複發生，且時間長度可能難以準確預測。我們未來很可能會面臨保險產業週期的影響，這可能對本公司業務、財務狀況、營運成果、現金流及前景產生重大且不利的影響。",
+    "我們依賴與保險提供者客戶的關係，而這些客戶並無長期最低財務承諾。若客戶減少支出、失去客戶、廣告收益降低，或我們無法建立並維持與保險提供者的新關係，可能對本公司業務、營運成果及財務狀況造成重大損害。",
+    "本公司絕大多數收入來自於經資格認證的消費者查詢，這些查詢以點擊、資料及電話等方式銷售給保險提供者客戶，包括電信業者及經紀人。我們從電信業者及經紀人直接購買推介中產生收入。我們也從電信業者產生收入，這些電信業者會向我們支付補貼金，以彌補他們經紀人購買推介的成本。我們與這些客戶的關係依賴於我們能否以有吸引力的數量及價格提供高品質的推介。若保險提供者無法在我們的市場平台中取得他們偏好的推介，他們可能停止從我們購買推介，或減少願意為推介支付的金額。",
+    "我們的保險提供者客戶可隨時停止參與我們的市場平台，或減少或終止與我們的行銷支出，而無需事先通知。此外，我們與這些客戶的契約並不要求他們支出任何最低金額。因此，我們無法保證保險提供者會繼續與我們合作，或，如果他們確實合作，他們的行銷數量、價格或與我們合作的總支出會是多少。例如，我們在 2023 年經歷了顯著的保險提供者行銷支出減少，雖然支出模式已改善，但並非所有我們的電信業者客戶都以比例或顯著的方式增加支出。此外，我們可能無法吸引新的保險提供者加入我們的市場平台，或在未來增加從保險提供者所賺取的收入。若任何客戶決定不再在本公司自有及運營的網站或第三方出版商的網站上進行行銷或廣告，我們可能在短時間內經歷收入迅速下降，幾乎沒有預警。任何限制我們客戶與我們合作行銷或廣告支出的因素，都可能對本公司業務、財務狀況、營運成果及現金流產生重大不利影響。"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

@@ -115,6 +115,14 @@ interface ItemSpec {
   id: Section['id']; zh: string; anchor: string; start: RegExp; ends: RegExp[]
   /** 找不到時的補充說明（有些公司是合法地併入附件，不是解析失敗） */
   missingHint?: string
+  /**
+   * 起點必須是粗體行。**20-F 專用**，因為「取最長」那一招在 20-F 上會反過來咬人：
+   * 目錄的 `D. Risk Factors` 之後隔幾十字元就是目錄的 `ITEM 4.`，`s + 30` 的門檻
+   * 正好跳過它，於是終點落到正文的 Item 4 —— 這一段（目錄＋Item 1~3 全部）
+   * 比正文的風險章節還長，最長者勝就選了目錄（GLOB／NU／ONON／PAGS／ASML 實測）。
+   * 十份 20-F 裡正文標題**全部是粗體、目錄列全部不是**，用排版事實切開最乾淨。
+   */
+  boldStart?: boolean
 }
 
 /**
@@ -126,13 +134,20 @@ interface ItemSpec {
  * 改成「零或多個」之後這幾家一次修好，且七份已知正確的年報逐字元不變。
  */
 const SEP = '[\\s.．:：\\-–—|]*'
+/**
+ * 項次與標題之間偶爾夾一個**孤立的大寫 I**：Horace Mann 排版成
+ * `ITEM 1. I Business`、`ITEM 1A. I Risk Factors` —— 那個 I 是拿字母當直線用
+ * （不是 `|`，實測碼位 U+0049），SEP 認不得，於是整份 10-K 的 24 個項次錨點
+ * 全部落空而且不會報錯。只收前後都是邊界的單一個 I，`Item 1 Insurance…` 不會誤中。
+ */
+const SEP_I = `${SEP}(?:I\\b${SEP})?`
 const ITEM = (n: string, title: string) =>
-  new RegExp(`item${SEP}${n}${SEP}${title}`, 'gi')
+  new RegExp(`item${SEP}${n}${SEP_I}${title}`, 'gi')
 
 /** 有些公司把章節標題寫成 `Part I. Item 1A. Risk Factors`，前綴不算「行中引用」 */
 const PART_PREFIX = /^part\s+[ivx]+\s*[.．:：\-–—|]*$/i
 
-const SPECS: ItemSpec[] = [
+export const SPECS: ItemSpec[] = [
   {
     id: 'business', zh: '業務概況', anchor: 'Item 1. Business',
     start: ITEM('1', 'business'),
@@ -151,6 +166,51 @@ const SPECS: ItemSpec[] = [
   },
 ]
 
+/* ── 20-F（外國發行人）的章節錨點 ──────────────────────────
+   20-F 的項次編號與 10-K 完全不同，一一對應是：
+     Item 3.D Risk Factors                     ≈ 10-K Item 1A
+     Item 4.  Information on the Company       ≈ 10-K Item 1
+     Item 5.  Operating and Financial Review   ≈ 10-K Item 7（MD&A）
+   十份 20-F 實測出三種排版，三種都要收：
+   ① 風險章節**多半不寫 "Item"**：`D. Risk Factors`（SPOT／NU／ONON／VIK／GLOB）、
+      `3D. Risk Factors`（PAGS）、`ITEM 3. KEY INFORMATION Risk Factors`（DOX）
+   ② 標點與單複數各家不同：TSM 是 `ITEM 4.INFORMATION`（句點後無空白，SEP 已涵蓋）
+      與 `OPERATING AND FINANCIAL REVIEWS`（複數）
+   ③ ASML／QGEN 整份不編項次，只有粗體標題 —— 那兩家走既有的標題式退路
+      （`locateByTitle`），所以下面的 TITLE_START 也要認得 20-F 的標題字 */
+const F20 = (body: string) => new RegExp(body, 'gi')
+export const SPECS_20F: ItemSpec[] = [
+  {
+    id: 'business', zh: '業務概況', anchor: 'Item 4. Information on the Company',
+    start: F20(`item${SEP}4${SEP_I}(?:[ab]${SEP})?information\\s+on\\s+the\\s+company`),
+    ends: [F20(`item${SEP}4a${SEP_I}unresolved`),
+           F20(`item${SEP}5${SEP_I}operating\\s+and\\s+financial\\s+reviews?`),
+           F20(`item${SEP}6${SEP_I}directors`)],
+    boldStart: true,
+  },
+  {
+    id: 'risk', zh: '主要風險', anchor: 'Item 3.D Risk Factors',
+    start: F20(`(?:item${SEP}3${SEP}(?:key${SEP}information${SEP})?|(?:3${SEP})?d${SEP})risk\\s*factors`),
+    ends: [F20(`item${SEP}4${SEP_I}(?:[ab]${SEP})?information\\s+on\\s+the\\s+company`),
+           F20(`item${SEP}4${SEP_I}business\\s+overview`)],
+    boldStart: true,
+  },
+  {
+    id: 'mdna', zh: '經營層討論與分析（MD&A）', anchor: 'Item 5. Operating and Financial Review and Prospects',
+    start: F20(`item${SEP}5${SEP_I}operating\\s+and\\s+financial\\s+reviews?`),
+    ends: [F20(`item${SEP}6${SEP_I}directors`),
+           F20(`item${SEP}7${SEP_I}major\\s+shareholders`),
+           F20(`item${SEP}8${SEP_I}financial\\s+information`)],
+    boldStart: true,
+  },
+]
+
+/** 這份年報該用哪一組錨點。40-F（加拿大 MJDS）是把本國年報整份當附件送，
+ *  主文件裡沒有章節本文，所以不在這裡分流 —— 由 profile 端點擋掉並說明。 */
+export function specsFor(form: string): ItemSpec[] {
+  return form.startsWith('20-F') ? SPECS_20F : SPECS
+}
+
 /**
  * 只收「像章節標題」的匹配。
  *
@@ -164,7 +224,7 @@ const SPECS: ItemSpec[] = [
  * 2. 後面緊接引號或逗號的是引用，不是標題
  * 3. 標題行不會超過 160 字元
  */
-function headingStarts(re: RegExp, text: string): number[] {
+function headingStarts(re: RegExp, text: string, boldOnly = false): number[] {
   const out: number[] = []
   re.lastIndex = 0
   let m: RegExpExecArray | null
@@ -179,13 +239,14 @@ function headingStarts(re: RegExp, text: string): number[] {
     let le = text.indexOf('\n', m.index + m[0].length)
     if (le === -1) le = text.length
     if (le - ls > 160) continue
+    if (boldOnly && !text.slice(ls, le).includes(B)) continue
     out.push(i)
   }
   return out
 }
 
 export function locateSection(text: string, spec: ItemSpec): { from: number; to: number } | null {
-  const starts = headingStarts(spec.start, text)
+  const starts = headingStarts(spec.start, text, spec.boldStart)
   if (!starts.length) return null
   const ends = spec.ends.flatMap((r) => headingStarts(r, text)).sort((a, b) => a - b)
   let best: { from: number; to: number } | null = null
@@ -215,6 +276,13 @@ const RISK_END = [
   /^propert(y|ies)$/i,
   /^legal\s+proceedings$/i,
   /^(quantitative|management[’']?s?\s+discussion)/i,
+]
+/** 20-F 的風險章節終點：接下來就是 Item 4／Item 5 */
+const RISK_END_20F = [
+  // 項次前綴要收：TSM 的正文標題是 `ITEM 4.INFORMATION ON THE COMPANY`，
+  // 只認裸標題的話這份找不到終點 → 吃到檔尾 → 被 MAX_SHARE 丟掉
+  /^(item\s*4[\s.．:：\-–—|]*)?(a[.．]?\s*)?information\s+on\s+the\s+company$/i,
+  /^(item\s*5[\s.．:：\-–—|]*)?(a[.．]?\s*)?operating\s+(and\s+financial\s+)?reviews?/i,
 ]
 const RISK_WORDS = /(adversely affect|materially adverse|could harm|may be harmed|risks?\b|uncertaint)/gi
 /** 章節不可能佔整份 10-K 的三成以上 —— 超過就是抓到跨章節的一大段 */
@@ -249,20 +317,72 @@ function riskDensity(seg: string): number {
      業務   反向驗證：不像風險段、不像 MD&A、且至少有 5 段長內文
    MD&A 的驗證器不是裝飾：JPM 的「Item 7 見第 46–160 頁」那段併入參照聲明
    長度有 3 萬字元，形狀跟章節一模一樣，只有密度驗證擋得住（實測被擋下）。 */
+/**
+ * 標題與內文**同一行**（run-in heading）：GE 的 10-K 每一節都長成
+ * `RISK FACTORS. The following discussion of the material factors…`、
+ * `LEGAL PROCEEDINGS. Refer to Legal Matters…`。標題後面接的是句點加整段內文，
+ * 所以「整行等於標題」（`…$`）這個判準一條都比對不到。
+ *
+ * 允許標題後面接「句讀 + 空白 + 內文」，但**必須有那個句讀**：
+ * 少了它，`BUSINESS OVERVIEW AND ENVIRONMENT.` 這種以標題字開頭的普通小標
+ * 也會被當成章節起點。
+ *
+ * 句讀**只收句點與冒號，不收破折號**。GE 的風險小標長成
+ * `Cybersecurity - Increased cybersecurity requirements…`、
+ * `Product safety and quality - Our products…` —— 破折號也算的話，這一條
+ * 會被 Item 1C 的終點式吃掉，風險章節在自己的第 12 條風險上被腰斬（實測 36K／62K）。
+ */
+const RUNIN = '(?:[.．:：]\\s+\\S.*)?'
+const T = (body: string) => new RegExp(`^[\\W_]*${body}[\\W_]*${RUNIN}$`, 'i')
+
 const TITLE_START: Record<Section['id'], RegExp> = {
-  business: /^[\W_]*(our\s+)?business(\s+overview)?[\W_]*$/i,
-  risk: /^[\W_]*(risk\s*factors|risks)[\W_]*$/i,
+  // 試過放寬成 `about …`（GE 的業務章節標題是 `ABOUT GE AEROSPACE.`，MCD 是
+  // `ABOUT McDONALD'S`）—— **不能收**。業務段的驗證器是排除法（正面特徵測不到，
+  // 蘋果的 Item 1 連 "we design" 都不出現），放寬起點就沒有東西擋得住誤中：
+  // 實測換到 GE 與 MCD 各一格，代價是 INTC 從正確的 29249 漂到附註裡的
+  // 「Business Combinations」、SYF 漂到目錄，另外 C／HON／MS 生出三段垃圾。
+  // 半對的章節比沒有更糟，維持只認 Business／Our Business。
+  business: T('(our\\s+)?business(\\s+overview)?'),
+  risk: T('(risk\\s*factors|risks)'),
   mdna: /^[\W_]*management[’']?s?\s+discussion\s+and\s+analysis.*$/i,
 }
 const TITLE_END: Record<Section['id'], RegExp[]> = {
-  business: [TITLE_START.risk, /^[\W_]*unresolved\s+staff\s+comments[\W_]*$/i,
-             /^[\W_]*propert(y|ies)[\W_]*$/i],
-  risk: [/^[\W_]*unresolved\s+staff\s+comments[\W_]*$/i, /^[\W_]*cybersecurity[\W_]*$/i,
-         /^[\W_]*propert(y|ies)[\W_]*$/i, /^[\W_]*legal\s+proceedings[\W_]*$/i,
+  business: [TITLE_START.risk, T('unresolved\\s+staff\\s+comments'), T('propert(y|ies)')],
+  risk: [T('unresolved\\s+staff\\s+comments'), T('cybersecurity'),
+         T('propert(y|ies)'), T('legal\\s+proceedings'),
          /^[\W_]*management[’']?s?\s+discussion.*$/i],
+  // MD&A 的終點原本只認 Item 7A／Item 8。GE 這種交叉索引式 10-K 兩個都沒有
+  // （MD&A 之後直接接 CYBERSECURITY），終點找不到就一路吃到檔尾、被 MAX_SHARE
+  // 判成「抓到跨章節的一大段」而整段丟掉 —— 章節明明抓對了起點卻交白卷。
+  // 加上 TITLE_START.risk 也順手修好三家：交叉索引式 10-K 把風險章節排在
+  // MD&A 後面，終點認不得它就會把整個風險章節吞進 MD&A（C／HON／MCD 實測）。
   mdna: [/^[\W_]*quantitative\s+and\s+qualitative.*$/i,
-         /^[\W_]*(consolidated\s+)?financial\s+statements(\s+and\s+supplementary\s+data)?[\W_]*$/i],
+         T('(consolidated\\s+)?financial\\s+statements(\\s+and\\s+supplementary\\s+data)?'),
+         T('cybersecurity'), T('legal\\s+proceedings'), TITLE_START.risk],
 }
+
+/* 20-F 的標題式退路自成一組。**不能跟 10-K 那組混用**：10-K 的 business 起點是
+   裸的 `Business`，套到 20-F 上會抓到永續章節的「Business travel」與公司章程的
+   「business combinations with an interested shareholder…」（ASML／NU 實測，
+   而且長度剛好過得了 MAX_SHARE、排除法驗證器也擋不住 —— 那兩段本來就
+   不像風險也不像 MD&A）。20-F 的業務章節標題只有一個寫法：Information on the Company。 */
+const TITLE_START_20F: Record<Section['id'], RegExp> = {
+  business: T('(a[.．]?\\s*)?information\\s+on\\s+the\\s+company'),
+  // **不收裸的 `risks`**（10-K 那組收）。它加上 run-in 之後會吃掉正文裡任何
+  // 以 risks 開頭的句子 —— NU 抓到的是「risks. These operations involve a range
+  // of derivatives…」，長度足夠、風險用語密度又高，驗證器擋不住
+  risk: T('(d[.．]?\\s*)?risk\\s*factors'),
+  mdna: T('(a[.．]?\\s*)?operating\\s+(and\\s+financial\\s+)?reviews?(\\s+and\\s+prospects)?'),
+}
+const TITLE_END_20F: Record<Section['id'], RegExp[]> = {
+  business: [TITLE_START_20F.mdna, T('unresolved\\s+staff\\s+comments')],
+  risk: [TITLE_START_20F.business, TITLE_START_20F.mdna],
+  mdna: [T('directors,?\\s+senior\\s+management\\s+and\\s+employees'),
+         T('major\\s+shareholders.*'), T('financial\\s+information')],
+}
+const titleSet = (form: string) => (form.startsWith('20-F')
+  ? { start: TITLE_START_20F, end: TITLE_END_20F }
+  : { start: TITLE_START, end: TITLE_END })
 const MDNA_WORDS = /(compared (to|with) (the )?(prior|fiscal|year)|increased? \d|decreased? \d|year[- ]over[- ]year|results of operations|net revenues? (increased|decreased)|primarily (due|driven|attributable) to)/gi
 const MDNA_MIN = 0.12
 
@@ -302,10 +422,12 @@ function headingLines(text: string, re: RegExp): number[] {
   return out
 }
 
-export function locateByTitle(text: string, id: Section['id']): { from: number; to: number } | null {
-  const starts = headingLines(text, TITLE_START[id])
+export function locateByTitle(text: string, id: Section['id'], form = '10-K'):
+{ from: number; to: number } | null {
+  const set = titleSet(form)
+  const starts = headingLines(text, set.start[id])
   if (!starts.length) return null
-  const ends = TITLE_END[id].flatMap((r) => headingLines(text, r)).sort((a, b) => a - b)
+  const ends = set.end[id].flatMap((r) => headingLines(text, r)).sort((a, b) => a - b)
   const limit = text.length * MAX_SHARE
   const cands: { from: number; to: number }[] = []
   for (const from of starts) {
@@ -319,10 +441,14 @@ export function locateByTitle(text: string, id: Section['id']): { from: number; 
   return null
 }
 
-export function locateRiskByTitle(text: string): { from: number; to: number } | null {
+export function locateRiskByTitle(text: string, form = '10-K'):
+{ from: number; to: number } | null {
   const starts = titleLines(text, RISK_TITLE)
   if (!starts.length) return null
-  const ends = RISK_END.flatMap((r) => titleLines(text, r)).sort((a, b) => a - b)
+  // 20-F 的風險章節後面接的是 Item 4，10-K 那組終點（Item 1B／1C／2）一個都不存在。
+  // 終點找不到就吃到檔尾、再被 MAX_SHARE 丟掉 —— TSM 的粗體 `Risk Factors` 明明抓對了
+  const ends = [...RISK_END, ...(form.startsWith('20-F') ? RISK_END_20F : [])]
+    .flatMap((r) => titleLines(text, r)).sort((a, b) => a - b)
   const limit = text.length * MAX_SHARE
   const cands: { from: number; to: number }[] = []
   for (const from of starts) {
@@ -462,7 +588,9 @@ async function attachZh(n: Narrative, cik10: string): Promise<void> {
 }
 
 export async function getNarrative(cik10: string, f: FilingMeta): Promise<Narrative> {
-  const key = `narr/v7/${cik10}/${f.accession}.json`
+  // v8：抽取器改了（HMN 的 I 分隔符、GE 的 run-in 標題、20-F 章節）。
+  // 不換版號的話舊快取會一直回舊的「找不到章節」，改了等於沒改
+  const key = `narr/v8/${cik10}/${f.accession}.json`
   const hit = await cacheGet<Narrative>(key)
   if (hit) {
     // 譯文不進 Blob 快取 —— 它會在快取之後才補上，每次都要重新掛
@@ -475,13 +603,14 @@ export async function getNarrative(cik10: string, f: FilingMeta): Promise<Narrat
   try {
     const html = await secFetchTextLimited(f.url, MAX_HTML)
     const text = htmlToText(html)
-    for (const spec of SPECS) {
+    for (const spec of specsFor(f.form)) {
       let loc = locateSection(text, spec)
       let viaTitle = false
       if (!loc) {
         // 兩條退路都留著：粗體式（花旗那種）與頁首式（Intel 那種）各自抓得到
         // 對方抓不到的文件，取先命中的
-        loc = (spec.id === 'risk' ? locateRiskByTitle(text) : null) ?? locateByTitle(text, spec.id)
+        loc = (spec.id === 'risk' ? locateRiskByTitle(text, f.form) : null)
+          ?? locateByTitle(text, spec.id, f.form)
         viaTitle = !!loc
       }
       if (!loc) {

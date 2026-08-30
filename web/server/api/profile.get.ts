@@ -90,10 +90,15 @@ export default defineEventHandler(async (event) => {
     notes.push('這家公司的最近 1000 筆申報裡沒有年報（10-K / 20-F），沒有可抽取的敘述性章節。')
   } else if (q.narrative === '0') {
     // 前端可分兩段載入：先出公司檔案，再補章節
-  } else if (latest.form.startsWith('20-F') || latest.form.startsWith('40-F')) {
-    notes.push(`最近的年報是 ${latest.form}（外國發行人）。20-F/40-F 的章節編號與 10-K 不同，目前只支援 10-K 的 Item 1 / 1A / 7。`)
+  } else if (latest.form.startsWith('40-F')) {
+    // 40-F（加拿大 MJDS）是把本國年報整份當附件送，主文件裡沒有章節本文
+    notes.push(`最近的年報是 ${latest.form}（加拿大 MJDS）。40-F 的敘述性內容在附件的本國年報裡，主文件沒有可抽取的章節，請直接看 EDGAR 原文。`)
   } else {
+    // 20-F 走自己那組項次錨點（Item 3.D／Item 4／Item 5），見 narrative.ts 的 SPECS_20F
     narrative = await getNarrative(ref.cik10, latest)
+    if (latest.form.startsWith('20-F')) {
+      notes.push(`最近的年報是 ${latest.form}（外國發行人）。章節對應為 Item 3.D 風險因子、Item 4 公司資訊、Item 5 經營與財務回顧。`)
+    }
   }
 
   return {

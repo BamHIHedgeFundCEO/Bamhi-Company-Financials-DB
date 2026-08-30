@@ -1,6 +1,6 @@
 {
- "version": "1.14",
- "updated": "2026-08-22",
+ "version": "1.15",
+ "updated": "2026-08-31",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
   {
@@ -168,7 +168,8 @@
     "InterestIncomeExpenseNonoperatingNet"
    ],
    "tags_ifrs": [
-    "FinanceCosts"
+    "FinanceCosts",
+    "InterestExpense"
    ]
   },
   {
@@ -342,6 +343,34 @@
    "zero_if_absent": true
   },
   {
+   "id": "dep_only",
+   "zh": "折舊（僅 IFRS 拆分用）",
+   "en": "Depreciation (IFRS split)",
+   "statement": "CF",
+   "unit": "USD",
+   "sign": "reported_positive",
+   "internal": true,
+   "tags": [],
+   "tags_ifrs": [
+    "AdjustmentsForDepreciationExpense"
+   ],
+   "note": "僅供 dna 推算用的輔助科目，不顯示。部分 IFRS 申報人（SPOT）把折舊與攤銷拆成兩個標籤且沒有合併標籤，而 tags 是優先序 fallback 不是加總，只取其一會少報。"
+  },
+  {
+   "id": "amort_only",
+   "zh": "攤銷（僅 IFRS 拆分用）",
+   "en": "Amortisation (IFRS split)",
+   "statement": "CF",
+   "unit": "USD",
+   "sign": "reported_positive",
+   "internal": true,
+   "tags": [],
+   "tags_ifrs": [
+    "AdjustmentsForAmortisationExpense"
+   ],
+   "note": "僅供 dna 推算用的輔助科目，不顯示。見 dep_only。"
+  },
+  {
    "id": "dna",
    "zh": "折舊及攤銷",
    "en": "D&A",
@@ -355,11 +384,13 @@
     "Depreciation",
     "OtherDepreciationAndAmortization"
    ],
-   "note": "OtherDepreciationAndAmortization 的行標題是「Depreciation and amortization」，實測 198 個重疊期有 139 個完全相等、中位數 1.00 倍，60 家因此從 n/a 變有值。**不收 AccretionAmortizationOfDiscountsAndPremiumsInvestments**（227 家的候選，看起來最划算）：那是銀行投資部位的溢折價攤銷，重疊期 0/120 相等而且中位數是 **-0.57**（負的），完全不是同一條。",
+   "note": "OtherDepreciationAndAmortization 的行標題是「Depreciation and amortization」，實測 198 個重疊期有 139 個完全相等、中位數 1.00 倍，60 家因此從 n/a 變有值。**不收 AccretionAmortizationOfDiscountsAndPremiumsInvestments**（227 家的候選，看起來最划算）：那是銀行投資部位的溢折價攤銷，重疊期 0/120 相等而且中位數是 **-0.57**（負的），完全不是同一條。 IFRS 拆分申報人（SPOT）沒有合併標籤，改由 dep_only + amort_only 推算——tags 是優先序 fallback 不是加總，只取折舊會少報攤銷那一截。",
    "tags_ifrs": [
     "DepreciationAndAmortisationExpense",
-    "DepreciationExpense"
-   ]
+    "DepreciationExpense",
+    "AdjustmentsForDepreciationAndAmortisationExpense"
+   ],
+   "derive": "dep_only + amort_only"
   },
   {
    "id": "cash",
@@ -953,7 +984,8 @@
     "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect"
    ],
    "tags_ifrs": [
-    "IncreaseDecreaseInCashAndCashEquivalents"
+    "IncreaseDecreaseInCashAndCashEquivalents",
+    "IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges"
    ],
    "note": "Excluding 版排最後，因為它與前兩個定義不同：Excluding + EffectOfExchangeRateOnCash… = Including。有前兩個時絕不會用到它。但有一整批公司（多為外國發行人與美元以外功能性貨幣者）只報 Excluding，2025Q3 一季就有 1,274 家；抽驗 30 家大型加速申報人，29 家在那些期間的 companyfacts 裡確實找不到前兩個標籤 —— 也就是網頁上就是 n/a。拿定義稍有差異的數字（差額＝匯率影響）好過留白。來源：tools/fsds_coverage.py。"
   }

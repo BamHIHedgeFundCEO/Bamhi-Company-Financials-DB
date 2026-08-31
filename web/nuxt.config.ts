@@ -48,8 +48,11 @@ export default defineNuxtConfig({
       // `nuxt generate` 會開 crawlLinks，於是爬蟲跟著財報頁上的 Excel 下載連結
       // 去打 /api/financials/excel?... —— 那支要 excel-service（Python）在跑，
       // build 環境沒有它，每一檔都回 503 而且 prerender 把它當致命錯誤 → 整個
-      // generate 失敗。API 路由本來就不該被預先產生，直接排除。
-      ignore: ['/api/**'],
+      // generate 失敗（實測 1,002 筆 503）。API 路由本來就不該被預先產生。
+      //
+      // ⚠ ignore 的字串是**前綴比對，不是 glob**：寫 '/api/**' 永遠比對不到
+      // （那會被當成字面上以 "/api/**" 開頭），錯誤訊息和沒設一模一樣。
+      ignore: ['/api/'],
     },
   },
 })

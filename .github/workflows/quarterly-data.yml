@@ -1,0 +1,99 @@
+# 季度離線資料重建：13F 機構持股 + 多股別公司期末股數
+#
+# 這兩份都是「執行期零 SEC 請求」的預算產物，放在 config/ 裡當靜態資產：
+#   config/f13/            tools/f13.py       一季一次
+#   config/class_shares.json  tools/class_shares.py  一季一次
+# 不重跑的話網站會停在上一季，而且不會有任何錯誤訊息 —— 13F 停在舊季度、
+# 多股別公司的新一季股數維持 n/a。
+#
+# 排在每季 20 日：13F 的申報截止日是季末後 45 天（2/14、5/15、8/14、11/14），
+# 20 日跑可以收到絕大多數當季申報。SEC 的批次資料集本身會落後整整一季，
+# 所以一定要帶 --live 去 full-index 補當季（見 CLAUDE.md）。
+name: quarterly-offline-data
+
+on:
+  schedule:
+    - cron: '0 4 20 2,5,8,11 *'
+  workflow_dispatch:
+    inputs:
+      what:
+        description: '要跑哪些（both / f13 / class_shares）'
+        type: choice
+        default: both
+        options: [both, f13, class_shares]
+
+# 兩份資料寫進同一個 repo，分成兩個 job 會互相 push 撞在一起 → 單一 job 依序跑、
+# 最後只 commit 一次
+concurrency:
+  group: quarterly-offline-data
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    permissions:
+      contents: write
+    env:
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+      WHAT: ${{ github.event.inputs.what || 'both' }}
+      # secrets 這個 context 在 step 的 if: 裡**不可用**（可用的只有 github / env /
+      # steps / needs / job / runner / vars / inputs / matrix / strategy）。
+      # 寫 secrets.X != '' 不會報錯，會安靜地永遠成立或永遠不成立 —— 先接成 env 再判斷
+      DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # SEC 合規：沒有 User-Agent 會被 403，而且是整批靜默失敗
+      - name: Check SEC_USER_AGENT
+        run: |
+          if [ -z "$SEC_USER_AGENT" ]; then
+            echo "::error::secrets.SEC_USER_AGENT 沒設，SEC 會回 403"
+            exit 1
+          fi
+
+      # 約 25 分鐘（限速 0.15 秒 × 一季約 9,500 份申報）+ 批次資料集下載
+      - name: Rebuild 13F
+        if: ${{ env.WHAT == 'both' || env.WHAT == 'f13' }}
+        run: python tools/f13.py --live
+
+      # ⚠ 不帶 --merge 就是整檔取代：只跑到一部分公司的話，其餘的會從檔案裡
+      # 消失成一整片 n/a 而且沒有錯誤訊息。代號取自現有檔案（它自己存了 ticker），
+      # 不用 scan_missing() —— 那條路要先有 tools/api_sweep.py 的快取，CI 上沒有，
+      # 會安靜地什麼都不做
+      - name: Rebuild class_shares
+        if: ${{ env.WHAT == 'both' || env.WHAT == 'class_shares' }}
+        run: |
+          TICKERS=$(python -c "import json;print(' '.join(v['ticker'] for v in json.load(open('config/class_shares.json',encoding='utf-8'))['companies'].values() if v.get('ticker')))")
+          echo "目標 $(echo $TICKERS | wc -w) 家"
+          python tools/class_shares.py $TICKERS --merge
+
+      - name: Commit
+        id: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config/f13 config/class_shares.json
+          if git diff --cached --quiet; then
+            echo "沒有變動，不 commit"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "季度離線資料重建（$WHAT）
+
+          由 .github/workflows/quarterly-data.yml 自動產生。
+          13F 走 --live 補當季（批次資料集本身落後整整一季）；
+          class_shares 帶 --merge，避免整檔取代把沒跑到的公司清成 n/a。"
+          # 同時間可能有別的 push（例如譯文批次）→ rebase 再推
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # config/ 是 build 時讀進去的靜態資產，改了要重新部署才會生效
+      - name: Trigger Vercel deploy
+        if: ${{ steps.commit.outputs.changed == 'true' && env.DEPLOY_HOOK != '' }}
+        run: curl -fsS -X POST "$DEPLOY_HOOK"

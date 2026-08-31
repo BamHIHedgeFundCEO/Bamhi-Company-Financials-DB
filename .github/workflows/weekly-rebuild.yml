@@ -9,6 +9,12 @@ on:
 jobs:
   rebuild:
     runs-on: ubuntu-latest
+    env:
+      # `secrets` 這個 context 在 step 的 `if:` 裡不可用，寫進去整份 workflow 會被判定
+      # 無效 —— 表現出來是每次 push 都生出一筆 0 秒的 failure（實測連續 30 次全失敗，
+      # 從來沒有成功執行過），而且 UI 只說 "workflow file issue" 不指哪一行。
+      # 先接成 env 再判斷。
+      DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -29,5 +35,5 @@ jobs:
         run: npm run generate
       # 部署交給 Vercel（Deploy Hook）：
       - name: Trigger Vercel deploy
-        if: ${{ secrets.VERCEL_DEPLOY_HOOK_URL != '' }}
-        run: curl -fsS -X POST "${{ secrets.VERCEL_DEPLOY_HOOK_URL }}"
+        if: ${{ env.DEPLOY_HOOK != '' }}
+        run: curl -fsS -X POST "$DEPLOY_HOOK"

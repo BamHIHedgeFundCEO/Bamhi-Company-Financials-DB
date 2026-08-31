@@ -1,0 +1,185 @@
+{
+ "ticker": "DOX",
+ "cik": "0001062579",
+ "accession": "0001193125-25-319187",
+ "form": "20-F",
+ "reportDate": "2025-09-30",
+ "sections": {
+  "business": {
+   "headings": [
+    "History, Development and Organizational Structure of Amdocs",
+    "Business Overview",
+    "Industry Background",
+    "Business Strategy",
+    "The Amdocs Offerings",
+    "Sales and Marketing",
+    "Year Ended September 30,",
+    "Property, Plants and Equipment",
+    "Area (Sq. Feet)"
+   ],
+   "paragraphs": [
+    "Amdocs Limited was organized as a company with limited liability under the laws of the Island of Guernsey in 1988. Since 1995, Amdocs Limited has been a holding company for the various subsidiaries that conduct our business on a worldwide basis. Our global business is providing software and services solutions to leading communications and media companies in North America, Europe and the rest of the world. Our registered office is Hirzel House, Smith Street, St. Peter Port, Guernsey, GY1 2NG, and the telephone number at that location is +44-1481-728444.",
+    "The executive offices of our principal subsidiary in the United States are located at 625 Maryville Centre Drive, Suite 200, Saint Louis, Missouri 63141 and the telephone number at that location is +1-314-212-7000.",
+    "Our website address is www.amdocs.com. The information contained on, or that can be accessed from, our website does not form part of this Annual Report. The SEC maintains an internet site that contains reports, proxy and information statements, and other information regarding issuers, such as we, that file electronically, with the SEC at www.sec.gov.",
+    "Our subsidiaries are organized under and subject to the laws of many countries. Our principal operating subsidiaries are in Canada, Cyprus, India, Ireland, Israel, Switzerland, the United Kingdom and the United States. Please see Exhibit 8 to this Annual Report on Form 20-F for a listing of our significant subsidiaries.",
+    "As part of our strategy, we have pursued and may continue to pursue acquisitions, partnerships and other initiatives in order to offer new products or services or otherwise enhance our market position or strategic strengths. In recent years, we have completed numerous acquisitions, which, among other things, have expanded our business into digital offerings, network and cloud technologies and expertise, and experience design and development. In June 2023, we acquired the service assurance business of TEOCO, executing on our network strategy of providing service providers with a holistic, end-to-end service orchestration offering, with the aim to assure the quality of service and enable the monetization of dynamic, next-generation customer experiences, and in August 2023 we completed the acquisition of ProCom Consulting, a digital transformation SI services and business consulting company. During fiscal year 2024, we acquired two companies, the larger of the two was Astadia, a company specializing in mainframe-to-cloud migration and modernization, as we further execute on our cloud strategy, and another immaterial company. In December 2024, we acquired Profinit, a data science, engineering and intelligence company based in the Czech Republic to help us address the rapidly growing demand for services related to data, AI and GenAI services in telecom and beyond. We have also made three other immaterial acquisitions during fiscal year 2025.",
+    "Amdocs is a leading provider of software and services for approximately 400 communications, entertainment and media industry and other service providers in developed countries and emerging markets. Our customers include some of the largest telecommunications companies in the world (including América Móvil, AT&T, Bell Canada, Singtel, Telstra, T-Mobile, Verizon Telefónica and Vodafone), as well as broadband, mobile and entertainment providers (including Charter Communications, Comcast, DISH, J:COM, Optimum, Rogers and Sky), small to midsized communications businesses and mobile virtual network enablers/mobile virtual network operators, satellite operators, and providers of media and other services, such as financial services.",
+    "Our software and services, which we develop, implement and manage in a unique accountability model, are designed to meet the business imperatives of our customers, create value for society and make our increasingly connected world more empowering by unlocking our customers' innovative potential and enabling them to transform their boldest ideas into reality, and make customer experiences that are simple, personal, contextual and valuable at every point of engagement and across all channels. Our offerings are based on a product and services mix, using technologies and methodologies including the cloud and cloud native, AI, and Related Tools including Model Context Protocol (MCP) and others, microservices, DevSecOps, low-code/no-code, edge computing, open source, bimodal operations, Site Reliability Engineering (SRE), and open APIs. As a result, our offerings enable service providers to efficiently and cost-effectively engage their customers, introduce new products and services, automate service and network operations, monetize connectivity and content, support new business models and generally enhance their understanding of their customers. Our technology, design-led thinking approach and expertise help service providers accelerate their journey to the cloud, enhance their entertainment offerings, deploy and manage existing and next-generation networks, and serve their customers across all channels. In order to fulfill our responsibilities to our customers, we sometimes engage third-party vendors and system integrators providing complementary products and services, including hardware and software, as well as cloud consumption and related services.",
+    "We are able to offer customers superior products and services on a worldwide basis, in large part because of our highly qualified and trained technical, engineering, sales, marketing, consulting, and management personnel. We combine deep industry knowledge and experience, advanced methodologies, industry best practices and pre-configured tools to help deliver consistent results and minimize our customers' risks. We invest significantly in the ongoing training of our personnel in key areas such as industry knowledge, software technologies and management capabilities. Based in significant part on the skills and knowledge of our workforce, as well as leading tools and methodologies, we believe that we have developed a reputation for reliably delivering quality solutions.",
+    "We believe the demand for our solutions is driven by our customers' continued migration to the cloud, deployment of 5G standalone, FWA, B2B acceleration, and fiber networks and their transformation into digital service providers to provide connectivity services, content and applications (apps) on any device through digital and non-digital channels. It is also driven by the trend towards integrated service offerings which we believe is leading to continued merger and acquisition activity among our customers who then require systems consolidation, which we provide, to ensure a consistent customer experience at all touchpoints. Our solutions enable service providers to help their consumer and enterprise (B2B) customers navigate the increasing number of devices, services, partner services and plans available in today's digital world and the need of service providers to cope with the rapidly growing demand for content and data that these devices and services create, as well as to compete with over-the-top (OTT)-focused players. Regardless of",
+    "whether service providers are bringing their first offerings to market, scaling for growth, consolidating systems or transforming the way they do business, we believe that they seek to differentiate themselves by delivering customer experiences that are simple, personal, contextual and valuable at every point of engagement and across all channels.",
+    "We invest time and resources to identify and address cybersecurity risks, including risks that our customers face with regard to our systems, products or services. We periodically review and update our policies and procedures as needed, benchmarking against industry best practices. Our policies and procedures are designed to protect the integrity and security of our products and services and follow guidelines for secure development practices. These policies and procedures as well as our cybersecurity strategies, including those related to cybersecurity risk, materiality assessment, incident response and disaster recovery, are periodically evaluated by our management and Board of Directors. To foster a culture of security awareness and responsibility among our workforce we utilize educational tools, such as cybersecurity awareness training, and reporting procedures and tools, such as our 24/7 global cybersecurity center. Additionally, in light of the transition across the globe to a hybrid working environment, we have enabled secure solutions for collaboration and remote connectivity. We also work with our customers and use overlapping controls to defend against cybersecurity attacks and threats on customers' networks, end-user devices, servers, applications, data and our cloud solutions.",
+    "As we work with our customers and partners to create a better-connected world, we seek to make a difference and we incorporate this commitment into our business culture, innovation, products and operations. ESG priorities are integral to our operations, and we seek to follow a comprehensive approach in our sustainability journey. We were included on the S&P Dow Jones Sustainability Index (DJSI) North America, placed in the S&P Global's Corporate Sustainability Assessment (CSA) Yearbook, and received high ratings in the Carbon Disclosure Project (CDP), Sustainalytics, and EcoVadis, a leading provider of business sustainability ratings and assessments. We place high value on protecting the environment and minimizing negative environmental impacts that may be created by our operations, and are seeking to create sustainable products and services. For example, as we take the industry to the cloud, leveraging the economies of scale offered by the public cloud and the attributes of our cloud offerings, our customers should be better positioned to subsequently reduce their reliance on costly, space and energy-consuming hardware components. We also strive to optimize our customers' network operations, energy efficiency, and energy reduction by intelligently identifying and removing redundant network equipment while still maintaining high network performance. For example, our AI, data and GenAI suite, amAIz, is designed to help make telecom processes more efficient, including, for example, by offering human agents a team of digital GenAI-powered assistants, known as amAIz agents, designed to improve productivity and reduce the resources required to resolve customer issues; or by rapidly analyzing and resolving network issues and reducing the need for human intervention, including physical network inspections or visits to customer homes. We have set a long-term climate change goal of becoming carbon neutral in our business operations (Scopes 1 and 2) by 2040 and also to reach 100 percent electricity from renewable sources by 2040. In July 2025, we completed the carbon-footprint assessment and verification process for fiscal year 2024. It confirms that Amdocs has achieved an absolute reduction of 49% in Scope 1 & 2 greenhouse gas emissions (using market-based calculations), and approximately 50% in Scope 3, compared to 2019 levels. This surpasses our Science Based Targets Initiative goals of a 21% reduction in Scope 1 & 2 and a 13% reduction in Scope 3 by the end of fiscal year 2024, compared to the 2019 base year. We are committed to achieving an inclusive workplace and seek to create a welcoming work environment for all employees. As we commit to enriching the lives of our employees, which we have encapsulated in our employer brand \"Live Amazing. Do Amazing\", our efforts focus on providing a people-centric work environment, understanding that flexibility is key, from unlimited vacation to flexibility around how, when, and where a person works. We provide opportunities for growth and professional development, embracing a culture of continuous learning and upskilling, and have significantly expanded our employee well-being programs and investments. For the communities in the areas in which we operate, we implement a number of empowerment activities and initiatives, including digital inclusion programs, STEM education, and environmental awareness.",
+    "Our business is conducted on a global basis. We maintain strategic development centers in Israel, Cyprus and India. We also have regional development centers in Brazil, Canada, Mexico, the Philippines, the United Kingdom and the United States, and have operations in North America, Europe, Eurasia, Latin America, Africa and the Asia-Pacific region.",
+    "We believe service providers will maintain a strong focus on growing new revenue streams, cost reduction and driving more efficient operations, and that the trends of ongoing digital transformation with a focus on customer experience, migration to the cloud, AI and Related Tools (including, in particular, agentic AI), next-generation networks, and consolidation within the industry will continue. Service providers are increasingly focusing on their core capabilities, investing in 5G and fiber rollouts, to meet the demand for increased bandwidth, faster pace of innovation for new digital services, as well as to improve their business and operational agility and optimize and monetize their investments in such services. At the same time, many service providers are partnering with leading suppliers to offer their customers a rich portfolio of offerings including media; entertainment; enterprise enablement; Internet of Things (IoT); and digital lifestyle services, all of which are driving growth in the demand for multi-modal customer engagement capabilities, data and GenAI."
+   ],
+   "focus": ""
+  },
+  "risk": {
+   "headings": [
+    "Risks Related to Our Business and Industry",
+    "We are exposed to general global economic and market conditions, particularly those impacting the communications industry.",
+    "If we fail to adapt to changing market conditions and cannot compete successfully with existing or new competitors, our business could be harmed.",
+    "Our future success will depend on our ability to develop and maintain long-term relationships with our customers and to meet their expectations in providing products and performing services.",
+    "Our revenue, earnings and profitability are affected by the length of our sales cycle, and a longer sales cycle could adversely affect our results of operations and financial condition.",
+    "If we are unable to protect our proprietary technology from infringement or misappropriation or enforce our intellectual property rights, our business may be harmed.",
+    "We may not receive significant revenues from our current research and development efforts for several years, if at all.",
+    "Our international presence exposes us to risks associated with varied and changing political, cultural, legal, compliance and economic conditions worldwide."
+   ],
+   "paragraphs": [
+    "We provide software and services primarily to service providers in the communications industry, and our business is therefore highly dependent upon conditions in that industry. Developments in the communications industry, such as the impact of global economic conditions, industry consolidation, emergence of new competitors, commoditization of voice, video and data services and changes in the regulatory environment, at times have had, and could continue to have, a material adverse effect on our existing or potential customers. These conditions have reduced, and may continue to reduce, the growth rates that the communications industry had previously experienced and caused the market value, financial results and prospects and capital spending levels of many communications companies to decline or degrade. Industry consolidation involving our customers, which has been significant in recent years, may place us at risk of losing business to the incumbent provider to one of the parties to the consolidation or to new competitors. During previous economic downturns, the communications industry experienced significant financial pressures that caused many in the industry to cut expenses and limit investment in capital intensive projects and, in some cases, led to restructurings and bankruptcies. Continuing uncertainty as to the pace of economic recovery following such economic downturns may have adverse consequences for our customers and our business.",
+    "Downturns in the business climate for communications companies have in the past resulted, and may in the future result, in slower customer buying decisions and price pressures that adversely affected, and may continue to adversely affect, our ability to generate revenue. The current macroeconomic conditions, including as a result of geopolitical events, or other global or regional events, such as pandemics, as well as the current inflationary environment, trade disputes and barriers to trade and foreign exchange rate fluctuations, and the effects of these conditions on our customers' businesses and levels of business activity and the resulting spending decisions of customers, have had and may continue to have a negative impact on our business by decreasing our new customer engagements and the size of initial or ongoing spending commitments under those engagements, as well as decreasing the level of demand and expenditures by existing customers. In addition, a slowdown in buying decisions may extend our sales cycle period and may limit our ability to forecast our flow of new contracts. If such adverse business conditions continue, our business may be harmed.",
+    "We may be unable to compete successfully with existing or new competitors, particularly as we expand into new market segments. Our failure to adapt to changing market conditions, new or evolving market segments such as 5G standalone networks, fixed wireless access (\"FWA\"), and fiber, the cloud, and AI including GenAI, and to compete successfully with established or new competitors could have a material adverse effect on our results of operations and financial condition. We face intense competition for the software products and services that we sell, including competition for the managed services we provide to customers under long-term service agreements. These managed services include management of data center operations and IT infrastructure, application management and ongoing support, systems modernization and consolidation, cloud environment management and management of end-to-end IT processes for the business and operations of our customers.",
+    "The market for communications information systems is highly competitive and fragmented, and we expect competition to continue to increase. We compete with independent software and service providers and with the in-house IT and network departments of communications companies. Our main competitors include firms that provide IT services (including consulting, systems integration and managed services), software vendors that sell products for particular aspects of a total information system, software vendors that specialize in systems for particular communications services (such as internet, wireline and wireless services, cable, satellite and service bureaus) and network equipment providers that offer software systems in combination with the sale of network equipment. We also compete with companies that provide digital commerce software and solutions. We believe that our ability to compete with other vendors as well as with in-house IT and network departments of communications companies, depends on a number of factors, including:",
+    "• the development by others of software products and services that are competitive with our products and services;",
+    "• the price at which others offer competitive software and services;"
+   ],
+   "focus": ""
+  },
+  "mdna": {
+   "headings": [
+    "Overview of Business and Trend Information",
+    "The Amdocs Offerings",
+    "Research and Development, Patents and Licenses",
+    "Operating Results",
+    "Year Ended September 30,",
+    "Fiscal Years Ended September 30, 2025 and 2024",
+    "Increase (Decrease)",
+    "(In thousands)",
+    "Results of Operations for Fiscal year 2024 Compared to Fiscal year 2023",
+    "Liquidity and Capital Resources",
+    "Declaration Date",
+    "Dividends Per",
+    "Total Amount",
+    "Payment Date",
+    "Contractual Obligations",
+    "Payments Due by Period",
+    "Critical Accounting Policies",
+    "Revenue Recognition and Contract Accounting",
+    "Tax Accounting",
+    "Business Combinations",
+    "Goodwill, Intangible Assets and Long-Lived Assets — Impairment Assessment",
+    "Derivative and Hedge Accounting",
+    "Recent Accounting Standards",
+    "Directors and Senior Management"
+   ],
+   "paragraphs": [
+    "Amdocs is a leading provider of software and services for communications and media industry service providers in both developed countries and emerging markets. We believe the demand for our solutions is driven by our customers' continued migration to the cloud, deployment of 5G standalone, FWA, B2B acceleration, and fiber networks and their transformation into digital service providers to provide connectivity services, content and applications (apps) on any device through digital and non-digital channels. Regardless of whether service providers are bringing their first offerings to market, scaling for growth, consolidating systems or transforming the way they do business, we believe that they seek to differentiate their offerings by delivering a customer experience that is simple, personal, contextual and valuable at every point of engagement and across all channels.",
+    "We believe service providers will maintain a strong focus on growing new revenue streams, cost reduction and driving more efficient operations, and that the trends of ongoing digital transformation with a focus on customer experience, migration to the cloud, agentic AI, next-generation networks, and consolidation within the industry will continue. Service providers are increasingly focusing on their core capabilities and investing in 5G and fiber rollouts to meet the demand for increased bandwidth, faster pace of innovation for new digital services and introducing GenAI, as well as to improve their business and operational agility and optimize and monetize their investments in such services. At the same time, many service providers are partnering with leading suppliers to offer their",
+    "customers a rich portfolio of offerings including media, entertainment, enterprise enablement, IoT, and digital lifestyle services, all of which is driving growth in the demand for multi-modal customer engagement capabilities, data, and GenAI.",
+    "We develop, implement and manage software and services designed to meet our customers' business needs and empower them to transform their boldest ideas into reality. Our technology, design-led thinking approach and expertise help service providers to migrate to the cloud, manage and monetize their next-generation networks, further transform into digital service providers, accelerate their GenAI journeys, enhance their entertainment offerings, and serve their customers across all channels. With our portfolio's open and modular structure, organized by capability and matched to industry standards, our customers have the flexibility to choose business offerings that address their specific needs and improve their time to market and value.",
+    "In part, we have sought, through acquisitions, to expand our products and services offerings and customer base and to enhance our ability to provide managed services to our customers. In recent years, we have completed numerous acquisitions: this includes our fiscal year 2023 acquisitions of the service assurance business of TEOCO, and of ProCom Consulting, and our fiscal year 2024 acquisitions of Astadia, and the network engineering businesses of Pramira. In fiscal year 2025, we acquired Profinit, a data science, engineering and intelligence company, and have also made three other immaterial acquisitions. Among other things, we believe these acquisitions will enable us to expand our 5G, fiber, digital and cloud-native capabilities, service assurance and cloud migration expertise. As part of our strategy, we may continue to pursue acquisitions and other initiatives in order to offer new products or services, enter into new vertical markets or otherwise enhance our market position or strategic strengths.",
+    "In evaluating Amdocs' portfolio of products, services and business activities in relation to our strategic investment priorities for fiscal year 2025, we decided to phase out several low-margin, non-core business activities that we believe are becoming commoditized and hold little potential for long-term value addition or profitability enhancement in the future. These activities, which generated revenue of approximately $600 million in fiscal year 2024, included, among others, certain low-margin software and hardware partner activities, Vubiquity's transactional video on demand business and other non-core subscription services. These activities were substantially already ceased in the first quarter of fiscal 2025."
+   ],
+   "focus": "Overview of Business and Trend Information"
+  }
+ },
+ "zh": {
+  "business": {
+   "headings": [
+    "{'History, Development and Organizational Structure of Amdocs': '歷史、發展與組織結構'}",
+    "{'Business Overview': '業務概覽'}",
+    "{'Industry Background': '產業背景'}",
+    "{'Business Strategy': '業務策略'}",
+    "{'The Amdocs Offerings': 'Amdocs 提供之產品與服務'}",
+    "{'Sales and Marketing': '銷售與行銷'}",
+    "{'Year Ended September 30,': '截至9月30日之年度'}",
+    "{'Property, Plants and Equipment': '廠房、機械與設備'}",
+    "{'Area (Sq. Feet)': '面積（平方英呎）'}"
+   ],
+   "paragraphs": [
+    "Amdocs Limited 係於1988年根據根西島法律設立之有限公司，具有有限責任。自1995年起，Amdocs Limited 為執行本公司全球業務之各子公司之控股公司。本公司全球業務為提供軟體與服務解決方案給北美、歐洲及世界其他地區之領導通訊與媒體公司。本公司登記辦公室位於根西島史蒂文港史密街希爾茲大樓（Hirzel House, Smith Street, St. Peter Port, Guernsey, GY1 2NG），該處電話號碼為 +44-1481-728444。",
+    "本公司主要子公司於美國的總部地址為 625 Maryville Centre Drive, Suite 200, Saint Louis, Missouri 63141，該地址的電話號碼為 +1-314-212-7000。",
+    "本公司網站網址為 www.amdocs.com。本網站或可從本網站存取之資訊，並非本年度報告之一部分。美國證券交易委員會（SEC）維護一網路網站，包含發行公司（如本公司） electronically 檔案之報告、代理書與資訊聲明及其他資訊，網址為 www.sec.gov。",
+    "本公司子公司於多個國家法律下設立並受其管轄。本公司主要營運子公司位於加拿大、塞浦路斯、印度、愛爾蘭、以色列、瑞士、英國及美國。請參閱本年度報告 Form 20-F 之附錄8，以取得本公司重要子公司名單。",
+    "根據本公司策略，我們已追求並可能持續追求收購、合作夥伴關係及其他計畫，以提供新產品或服務，或以其他方式強化我們市場地位或戰略優勢。近年來，我們已完成許多收購，這些收購使我們業務拓展至數位服務、網路與雲端科技及專業知識與經驗。2023年6月，我們收購了TEOCO之服務保障業務，執行我們提供服務供應商整體、端到端服務協調解決方案之網路策略，目標為確保服務品質並實現動態、下一代客戶體驗之商業化。2023年8月，我們完成收購ProCom Consulting，一家數位轉型SI服務與企業諮詢公司。在2024會計年度，我們收購了兩家公司，其中規模較大者為Astadia，一家專門從事主機架至雲端遷移與現代化之公司，以進一步執行我們雲端策略，另一家公司則為不顯著規模。2024年12月，我們收購了Profinit，一家位於捷克共和國之資料科學、工程與智慧公司，以協助我們應對電信業及其他領域對資料、AI及GenAI服務迅速成長之需求。我們在2025會計年度亦進行了三項不顯著規模之收購。",
+    "Amdocs 是為約400家發達國家與新興市場之通訊、娛樂與媒體產業及其他服務供應商提供軟體與服務之領導供應商。我們的客戶包括全球最大的電信公司（包括América Móvil、AT&T、Bell Canada、Singtel、Telstra、T-Mobile、Verizon Telefónica及Vodafone），以及寬頻、行動與娛樂服務供應商（包括Charter Communications、Comcast、DISH、J:COM、Optimum、Rogers及Sky），中小規模通訊企業與行動虛擬網路使能者/行動虛擬網路運營商、衛星運營商，以及提供媒體及其他服務之公司，例如金融服務。",
+    "我們所開發、實施與管理之軟體與服務，基於獨特之責任模式，設計用以符合客戶之商業需求，為社會創造價值，並使我們日益連接之世界更具權力，透過啟發客戶創新潛能，使其能將最冒險的想法轉化為現實，並在每次互動中提供簡單、個人化、情境化且具價值之客戶體驗。我們的產品與服務組合基於產品與服務之混合，使用技術與方法包括雲端與雲端原生、AI及相關工具，包括模型情境協議（MCP）及其他、微服務、DevSecOps、低碼/無碼、邊緣計算、開放源碼、雙模式運作、站可靠性工程（SRE）及開放API。因此，我們的產品與服務使服務供應商能以高效率與低成本與客戶互動，推出新產品與服務，自動化服務與網路運作，實現連接與內容之商業化，支持新商業模式，並一般性提升對客戶之理解。我們的技術、以設計為導向之思考方式與專業知識協助服務供應商加速其雲端轉型之路，提升其娛樂服務，部署與管理現有與下一代網路，並透過所有通路服務其客戶。為履行對客戶之責任，我們有時會聘請第三方供應商與系統整合商，提供補充性產品與服務，包括硬體與軟體，以及雲端使用與相關服務。",
+    "我們能於全球範圍內提供優質產品與服務，很大程度上歸功於我們高度專業且受過良好訓練之技術、工程、銷售、市場、諮詢與管理人員。我們結合深厚的產業知識與經驗、先進方法、產業最佳實務與預配置工具，以協助達成一致結果並降低客戶風險。我們在產業知識、軟體科技與管理能力等關鍵領域，投入大量資源進行人員持續培訓。基於我們員工之技能與知識，以及領先工具與方法，我們相信已建立可靠交付高品質解決方案之聲譽。",
+    "我們認為，我們解決方案的需求是由客戶持續遷移至雲端、部署5G獨立組網、固定寬頻行動網（FWA）、企業對企業（B2B）加速以及光纖網路，並轉型為數位服務供應商以提供連線服務、內容及應用程式（apps）於任何裝置透過數位與非數位通路所驅動。此需求也由整合服務方案的趨勢所驅動，我們認為此趨勢導致我們客戶持續進行合併與收購活動，這些客戶隨後需要系統整合，而我們提供此整合方案，以確保在所有接觸點均能提供一致的客戶體驗。我們的解決方案使服務供應商能夠協助其消費者及企業（B2B）客戶應對當前數位世界中裝置、服務、合作夥伴服務及方案日益增多的挑戰，以及服務供應商應對這些裝置及服務所產生的內容與數據需求快速成長的需要，同時與以過頂（OTT）為重點的競爭者競爭。無論如何",
+    "無論服務提供者是將其首創產品推向市場、擴充以追求成長、整合系統或轉變其營運方式，我們認為他們致力於透過提供簡單、個性化、情境化且在每次互動中皆具價值的客戶體驗，來區隔自身。",
+    "我們投入時間與資源以識別並處理網路安全風險，包括客戶在使用我們系統、產品或服務時所面臨的風險。我們會定期審查並更新政策與程序，並參考產業最佳實務。我們的政策與程序旨在保護我們產品與服務的完整性與安全性，並遵循安全開發實務指南。這些政策與程序以及我們的網路安全策略，包括與網路安全風險、重要性評估、事件應變及災難復原相關的內容，會定期由我們的管理階層與董事會進行評估。為培養員工的網路安全意識與責任感，我們使用教育工具，例如網路安全意識培訓，以及報告程序與工具，例如我們的 24/7 全球網路安全中心。此外，考慮到全球正轉型至混合式工作環境，我們已啟用安全的協作與遠端連線解決方案。我們也與客戶合作，並透過重疊的控制措施，防禦針對客戶網路、終端設備、伺服器、應用程式、資料及我們雲端解決方案的網路攻擊與威脅。",
+    "我們與客戶及夥伴合作，致力於打造更連接的世界，我們努力做出改變，並將此承諾融入我們的企業文化、創新、產品與營運。ESG（環境、社會及公司治理）優先事項是我們營運的重要組成部分，我們在永續發展的旅程中，追求全面性的方法。我們被納入S&P Dow Jones Sustainability Index (DJSI) 北美洲指數，列入S&P Global的企業永續發展評估（CSA）年鑑，並在Carbon Disclosure Project (CDP)、Sustainalytics以及EcoVadis（一家領先的企業永續發展評分與評估機構）獲得高分評價。我們非常重視保護環境，並努力減少營運可能造成的負面環境影響，並致力於創造永續的產品與服務。例如，當我們將產業推向雲端時，透過公共雲端所提供的規模經濟效益與雲端服務的特性，我們的客戶將更能夠在後續減少對昂貴、佔空間且耗能的硬體零組件的依賴。我們也努力優化客戶的網路營運、能源效率與能源減量，透過智慧識別並移除冗餘的網路設備，同時維持高網路效能。例如，我們的AI、資料與GenAI組合產品amAIz，是設計用來提升電信流程效率的，包括例如，為人類客服提供一支由數位GenAI驅動的助理團隊，稱為amAIz助理，以提升生產力並減少解決客戶問題所需的資源；或透過快速分析與解決網路問題，減少對人類幹預的需求，包括實體網路巡檢或訪問客戶住宅。我們設定了長期的氣候變遷目標，即在2040年實現營運（範疇1與範疇2）的碳中和，並在2040年實現100%來自可再生能源的電力。2025年7月，我們完成了財務年度2024的碳足跡評估與驗證程序。這確認Amdocs已實現範疇1與範疇2溫室氣體排放量的絕對減少49%（使用市場基準計算），以及範疇3約減少50%，與2019年基準相比。這超越了我們Science Based Targets Initiative目標，即在財務年度2024結束時，範疇1與範疇2減少21%，範疇3減少13%，與2019年基準相比。我們致力於實現包容性的工作環境，並努力為所有員工創造一個歡迎的工作環境。當我們承諾提升員工的生活品質，這已體現在我們的僱主品牌「Live Amazing. Do Amazing」中，我們的努力重點在於提供以人為中心的工作環境，並理解靈活性是關鍵，從無限年假到工作方式、時間與地點的靈活安排。我們提供成長與專業發展的機會，擁抱持續學習與技能提升的文化，並大幅擴充了員工福祉計畫與投資。在我們運營地區的社區中，我們實施許多賦權活動與計畫，包括數位包容計畫、STEM教育以及環境意識。",
+    "我們的業務在全球範圍內進行。我們在以色列、塞浦路斯和印度設有戰略性開發中心。我們也在巴西、加拿大、墨西哥、菲律賓、英國和美國設有區域性開發中心，並在北美、歐洲、亞歐大陸、拉丁美洲、非洲和亞太地區進行營運。",
+    "我們認為電信服務提供商將持續強調增長新收入來源、成本削減與推動更高效的營運，並認為持續的數位轉型趨勢，聚焦於客戶體驗、雲端遷移、AI及相關工具（特別是代理型AI）、下一代網路，以及產業內的併購，將會持續。電信服務提供商正 increasingly 聚焦於其核心能力，投資於5G與光纖佈建，以應對對更高頻寬、更快創新速度的新數位服務需求，同時提升其業務與營運靈活性，並優化與 monetize 其在這些服務上的投資。同時，許多電信服務提供商正與領先供應商合作，為客戶提供豐富的產品組合，包括媒體；娛樂；企業賦能；物聯網（IoT）；以及數位生活方式服務，所有這些都在推動對多模式客戶互動能力、資料與GenAI的需求增長。"
+   ]
+  },
+  "mdna": {
+   "headings": [
+    "業務概覽與趨勢資訊",
+    "Amdocs 提供之產品與服務",
+    "研究發展、專利與許可證",
+    "營運成果",
+    "截至 9 月 30 日之年度",
+    "截至 9 月 30 日之會計年度 2025 年度及 2024 年度",
+    "增減（減少）",
+    "(以千為單位)",
+    "營運成果：財務年度 2024 年與財務年度 2023 年比較",
+    "流動性及資本資源",
+    "聲明日期",
+    "每股股息",
+    "總金額",
+    "付款日期",
+    "契約義務",
+    "按期間應付款項",
+    "{'Critical Accounting Policies': '重要會計政策'}",
+    "{'Revenue Recognition and Contract Accounting': '收入認列與合約會計'}",
+    "{'Tax Accounting': '稅務會計'}",
+    "{'Business Combinations': '企業併購'}",
+    "{'Goodwill, Intangible Assets and Long-Lived Assets — Impairment Assessment': '商譽、無形資產及長壽命資產 — 損失評估'}",
+    "{'Derivative and Hedge Accounting': '衍生工具及避險會計'}",
+    "{'Recent Accounting Standards': '近期會計準則'}",
+    "{'Directors and Senior Management': '董事與高階管理層'}"
+   ],
+   "paragraphs": [
+    "Amdocs 是通訊與媒體產業服務提供者在已開發國家與新興市場的主要軟體與服務供應商。我們認為，對我們解決方案的需求是由客戶持續遷移至雲端、部署 5G 獨立網路、FWA、B2B 加速以及光纖網路，以及轉型為數位服務提供者以提供任何裝置透過數位與非數位通路的連線服務、內容與應用程式（apps）所驅動。無論服務提供者是推出首個產品、擴張以追求成長、整合系統或轉變其營運方式，我們認為他們尋求透過提供簡單、個人化、情境化且具價值的客戶體驗，來區隔其產品與服務，並在所有通路中實現每一次互動的價值。",
+    "我們認為服務提供者將持續強調成長新收入來源、成本削減與推動更有效率的營運，且持續進行數位轉型的趨勢，重點在於客戶體驗、遷移至雲端、代理型 AI、下一代網路以及產業內的整合，將持續進行。服務提供者正日益專注於其核心能力，並投資於 5G 與光纖的部署，以應對對更高頻寬的需求、新數位服務創新速度的加快，以及引入 GenAI，同時也為了提升其業務與營運靈活性，並優化與 monetize 其在這些服務上的投資。同時，許多服務提供者正與領先供應商合作，為其客戶提供包含媒體、娛樂、企業賦能、物聯網（IoT）以及數位生活方式服務的豐富產品組合，所有這些都驅動了對多模式客戶互動能力、數據與 GenAI 的需求成長。",
+    "服務提供者正日益專注於其核心能力，並投資於 5G 與光纖的部署，以應對對更高頻寬的需求、新數位服務創新速度的加快，以及引入 GenAI，同時也為了提升其業務與營運靈活性，並優化與 monetize 其在這些服務上的投資。同時，許多服務提供者正與領先供應商合作，為其客戶提供包含媒體、娛樂、企業賦能、物聯網（IoT）以及數位生活方式服務的豐富產品組合，所有這些都驅動了對多模式客戶互動能力、數據與 GenAI 的需求成長。",
+    "我們開發、執行並管理軟體及服務，旨在滿足客戶的商業需求，並協助他們將最冒險的想法轉化為現實。我們的技術、以設計為導向的思考方式及專業知識，協助服務供應商遷移至雲端，管理並 monetize 其次世代網路，進一步轉型為數位服務供應商，加速其 GenAI 路程，提升其娛樂服務，並透過所有通路服務客戶。憑藉我們產品組合的開放且模組化結構，依能力分類並符合產業標準，我們的客戶擁有靈活性，可選擇符合其特定需求的商業服務，並提升其上市時間與價值。",
+    "部分而言，我們透過收購，尋求擴展我們的產品與服務組合及客戶羣，並提升我們為客戶提供管理服務的能力。近年來，我們已完成許多收購：包括我們財務年度 2023 年收購 TEOCO 的服務保障業務，以及 ProCom Consulting；以及我們財務年度 2024 年收購 Astadia，以及 Pramira 的網路工程業務。在財務年度 2025 年，我們收購了 Profinit，這是一家資料科學、工程與智慧公司，並已進行另外三項不具重大影響的收購。我們相信這些收購將有助於我們擴展 5G、光纖、數位及雲原生能力，服務保障及雲端遷移專業知識。根據我們的策略，我們可能持續進行收購及其他計畫，以提供新產品或服務、進入新垂直市場，或以其他方式強化我們的市場地位或戰略優勢。",
+    "在評估 Amdocs 的產品、服務及商業活動組合，並與我們財務年度 2025 的戰略投資優先事項進行比較時，我們決定逐步淘汰若干低毛利率、非核心的商業活動，我們認為這些活動正逐漸商品化，且對未來長遠價值增加或利潤提升潛力有限。這些活動在財務年度 2024 年產生了約 600 百萬美元的收入，包括若干低毛利率的軟體與硬體夥伴活動、Vubiquity 的交易性視訊點播業務及其他非核心訂閱服務。這些活動在財務年度 2025 年第一季已幾乎完全停止。"
+   ]
+  },
+  "risk": {
+   "headings": [
+    "與我們業務及產業相關的風險",
+    "我們面臨一般全球經濟與市場條件的影響，特別是對通訊產業的影響。",
+    "若我們無法適應變動的市場條件，且無法與現有或新興競爭對手成功競爭，我們的業務可能會受到損害。",
+    "我們未來的成功將取決於我們開發並維持與客戶的長期關係，並在提供產品與執行服務時符合客戶的期望。",
+    "我們的營業收入、獲利與利潤率受銷售週期長短的影響，銷售週期較長可能會對我們的營運成果與財務狀況產生不利影響。",
+    "若我們無法保護我們的專屬技術免於侵權或不當使用，或無法執行我們的智慧財產權權利，我們的業務可能會受到損害。",
+    "我們可能在數年內，甚至完全無法從目前的研究與開發工作獲得顯著收入。",
+    "我們的國際業務使我們面臨全球各國政治、文化、法律、合規與經濟條件差異與變動所帶來的風險。"
+   ],
+   "paragraphs": [
+    "本公司主要提供軟體及服務予通訊產業的服務提供者，因此本公司業務高度依賴該產業的狀況。通訊產業的發展，例如全球總體經濟條件的影響、產業整併、新競爭者的出現、語音、視訊及資料服務的 commoditization，以及監管環境的變動，有時已對本公司現有或潛在客戶產生重大不利影響，並可能繼續產生重大不利影響。這些條件已降低，且可能繼續降低通訊產業先前所經歷的成長率，並導致許多通訊公司的市場價值、財務結果與展望及資本支出水準下降或惡化。涉及本公司客戶的產業整併，近年來已相當顯著，可能使本公司面臨失去業務給整併當事人之一的現有服務提供者，或給新競爭者之風險。在過去的經濟衰退期間，通訊產業經歷了顯著的財務壓力，導致產業內許多公司削減開支並限制對資本密集型專案的投資，並在某些情況下導致重整與破產。持續的不確定性，關於經濟復甦的步調，可能對本公司客戶及本公司業務產生不利後果。",
+    "通訊公司的業務氣候衰退，過去已導致，且可能未來導致，客戶購買決策減緩及價格壓力，對本公司產生不利影響，並可能繼續對本公司產生不利影響，影響本公司產生收入的能力。目前的總體經濟條件，包括因地緣政治事件或其他全球或區域事件，例如疫情，以及目前的通貨膨脹環境、貿易爭議與貿易壁壘及外匯匯率波動，以及這些條件對客戶業務及業務活動水準的影響，以及客戶的支出決策，已對本公司業務產生負面影響，並可能繼續產生負面影響，透過減少我們的新客戶合作案，以及這些合作案下的初始或持續支出承諾規模，以及減少現有客戶的需求及支出。此外，購買決策的減緩可能延長我們的銷售週期，並可能限制我們預測新合約流動性的能力。如果這些不利的業務條件持續，本公司業務可能受到損害。",
+    "本公司可能無法成功與現有或新競爭者競爭，特別是在我們擴展至新市場區段時。本公司未能適應變動的市場條件、新興或演進的市場區段，例如 5G 獨立網路、固定無線接入（\"FWA\"）、光纖、雲端及人工智慧（包括生成式 AI），以及與已建立或新興競爭者競爭，可能對本公司營運結果及財務狀況產生重大不利影響。我們面臨對我們銷售的軟體產品及服務的激烈競爭，包括對我們透過長期服務協議為客戶提供的管理服務的競爭。這些管理服務包括資料中心運作及 IT 基礎建設的管理、應用程式管理及持續支援、系統現代化及整併、雲端環境管理及管理客戶業務及運作的端到端 IT 流程。",
+    "通訊資訊系統市場高度競爭且分散，我們預期競爭將持續增加。我們與獨立軟體及服務供應商以及通訊公司的內部 IT 及網路部門競爭。我們的主要競爭對手包括提供 IT 服務（包括諮詢、系統整合及管理服務）的公司、銷售特定總體資訊系統方面產品的軟體供應商，以及專門提供特定通訊服務系統（例如網際網路、有線電信及無線電信服務、有線電視、衛星及服務機構）的軟體供應商，以及提供軟體系統與網路設備銷售結合的網路設備供應商。我們也與提供數位商業軟體及解決方案的公司競爭。我們認為，我們與其他供應商以及通訊公司內部 IT 及網路部門競爭的能力，取決於多種因素，包括：",
+    "• 其他開發與我們產品及服務競爭的軟體產品及服務；",
+    "• 其他提供競爭軟體及服務的價格；"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

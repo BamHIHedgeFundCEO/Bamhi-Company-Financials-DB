@@ -1,0 +1,57 @@
+{
+ "ticker": "GENI",
+ "cik": "0001834489",
+ "accession": "0001193125-26-110749",
+ "form": "20-F",
+ "reportDate": "2025-12-31",
+ "sections": {
+  "risk": {
+   "headings": [
+    "D. Risk Factors",
+    "Our business depends on a strong brand, and if we are not able to develop, maintain and enhance our brand and reputation, including as a result of negative publicity, our business and operating results may be harmed.",
+    "Elevated interest rates and inflationary pressures could lead to persistently higher costs in our business, which may not always be offset with higher revenue.",
+    "We operate in a competitive market, and we may lose customers and relationships to both existing and future competitors.",
+    "Regulatory uncertainty surrounding prediction markets could materially affect our business.",
+    "The loss or significant reduction in business from one or more of our large customers could materially adversely affect our business, financial condition and results of operations.",
+    "Data suppliers may withdraw, withhold, or restrict data previously made available to us, which could impair our ability to provide products and services and adversely affect our revenue and customer relationships.",
+    "Our operations are subject to seasonal fluctuations that may impact our cash flows.",
+    "Indemnity provisions in customer and other third-party agreements potentially expose us to substantial liability for intellectual property infringement and other losses.",
+    "Climate change may have a long-term adverse impact on our business."
+   ],
+   "paragraphs": [
+    "Our business faces significant risks and uncertainties. These risks and uncertainties could materially and adversely affect our business, financial condition or results of operations. You should carefully consider all of the information set forth in this Report and in other documents we file with or furnish to the SEC, including the following risk factors, before deciding to invest in or to maintain an investment in our securities. These risk factors are not exhaustive, and investors are encouraged to perform their own investigation with respect to our business, financial condition and prospects. Additional risks not presently known to us or that we currently deem immaterial may also impair our business operations, share price, financial condition or reputation. In such event, the market price of our securities could decline, and you could lose all or part of your investment.",
+    "These risks include, among others, the following:",
+    "• If the Legend Acquisition is completed, we may not achieve the anticipated benefits of the proposed acquisition, including anticipated synergies.",
+    "• If the Legend Acquisition is consummated, our shareholders' ownership percentage will be diluted. Substantial future sales by the Seller Parties following the completion of the Legend Acquisition, or the perception that such sales may occur, could depress the price of Genius ordinary shares.",
+    "• Following the completion of the Legend Acquisition, Genius will be subject to the risks that Legend faces, in addition to the risks faced by Genius.",
+    "• We may be exposed to increased litigation as a result of the Legend Acquisition, which could have an adverse effect on our business, financial position, results of operations and cash flows."
+   ],
+   "focus": ""
+  }
+ },
+ "zh": {
+  "risk": {
+   "headings": [
+    "D. 風險因素",
+    "本公司業務依賴強大的品牌，若無法發展、維持及提升本公司品牌與聲譽，包括因負面宣傳所致，將可能對本公司業務與營運成果造成損害。",
+    "利率上揚及通貨膨脹壓力可能導致本公司業務成本持續上升，而此成本未必總能透過營收增加來彌補。",
+    "本公司營運於競爭市場，可能因現有或未來競爭對手而失去客戶與關係。",
+    "預測市場相關的法規不確定性可能對本公司業務造成重大影響。",
+    "若來自一個或多個主要客戶的業務流失或顯著減少，可能對本公司業務、財務狀況及營運成果造成重大不利影響。",
+    "資料供應商可能終止、 withhold 或限制先前提供給本公司的資料，此情況可能影響本公司提供產品與服務的能力，並對營收與客戶關係造成不利影響。",
+    "本公司營運受季節性波動影響，可能影響本公司現金流。",
+    "{'original': 'Indemnity provisions in customer and other third-party agreements potentially expose us to substantial liability for intellectual property infringement and other losses.', 'translated': '客戶及其他第三方契約中的賠償條款，可能使本公司面臨智慧財產權侵權及其他損失的重大賠償責任。'}",
+    "{'original': 'Climate change may have a long-term adverse impact on our business.', 'translated': '氣候變遷可能對本公司業務產生長期的負面影響。'}"
+   ],
+   "paragraphs": [
+    "{'translated_text': '本公司業務面臨重大風險與不確定性。這些風險與不確定性可能對本公司業務、財務狀況或營運成果造成重大且不利的影響。您在決定投資或維持投資本公司證券前，應仔細審閱本報告及其他向美國證券交易委員會（SEC）提交或提供的文件中所載的資訊，包括下列風險因素。這些風險因素並非完整清單，投資人應針對本公司業務、財務狀況與前景進行自身調查。尚有其他風險，目前未為本公司所知或目前認為不重要，也可能影響本公司業務營運、股價、財務狀況或聲譽。在此情況下，本公司證券的市場價格可能下跌，您可能損失全部或部分投資。'}",
+    "{'translated_text': '這些風險包括，但不限於下列各項：'}",
+    "{'translated_text': '• 若Legend收購交易完成，本公司可能無法實現預期的收購效益，包括預期的協同效益。'}",
+    "{'translated_text': '• 若Legend收購交易完成，本公司股東的持股比例將被稀釋。賣方集團在Legend收購交易完成後進行大量後續銷售，或被認為可能進行後續銷售，可能會壓低Genius普通股的價格。'}",
+    "{'translated_text': '• Legend收購交易完成後，Genius將面臨Legend所面臨的風險，以及Genius本身所面臨的風險。'}",
+    "{'translated_text': '• 由於Legend收購交易，本公司可能面臨增加的訴訟風險，這可能會對本公司業務、財務狀況、營運成果與現金流造成不利影響。'}"
+   ]
+  }
+ },
+ "translator": "qwen3:8b（本機）"
+}

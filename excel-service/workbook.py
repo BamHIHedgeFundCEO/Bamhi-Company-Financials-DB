@@ -80,8 +80,12 @@ def _metric_na_map(derived: list, applicable: dict) -> dict:
     return na
 
 
-def _metric_fmt(formula: str, mid: str, th: dict) -> str:
+def _metric_fmt(metric: dict, th: dict) -> str:
     nf = th["number_formats"]
+    mid = metric["id"]
+    # 對照表自己指定的格式優先：新增指標只改 config，不必回來動這份 id 清單
+    if metric.get("fmt") in nf:
+        return nf[metric["fmt"]]
     if mid in ("dso", "dio", "dpo", "ccc"):
         return nf["days"]
     if mid in ("ocf_to_net_income", "net_debt_to_ebitda", "interest_coverage",
@@ -395,7 +399,7 @@ def build_workbook(payload: dict) -> bytes:
         ws.cell(row=row, column=2, value=m["en"]).border = ROW_BORDER
         # 滑鼠移入指標名稱顯示判讀說明（desc）
         name_cell.comment = Comment(m["desc"], "BamHI", height=160, width=360)
-        fmt = _metric_fmt(m["formula"], m["id"], th)
+        fmt = _metric_fmt(m, th)
         metric_na = metric_na_by_id[m["id"]]
         for i in range(n):
             col = FIRST_DATA_COL + i
@@ -451,7 +455,7 @@ def build_workbook(payload: dict) -> bytes:
     #   ② 組內比較——但只把「同一種單位」的指標放同一張圖（比率/天數各自比較），
     #      金額型指標（EBITDA、淨負債、FCF…）數量級差太多，混在一起會把比率壓成平線
     #   ③ 每個指標各自一張獨立折線
-    fmt_of = {m["id"]: _metric_fmt(m["formula"], m["id"], th) for m in fin["derived"]}
+    fmt_of = {m["id"]: _metric_fmt(m, th) for m in fin["derived"]}
     nf = th["number_formats"]
     # 每種數字格式 → 顯示名 + 圖表 Y 軸單位
     bucket = {

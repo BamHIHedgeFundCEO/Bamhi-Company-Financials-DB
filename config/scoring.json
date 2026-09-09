@@ -1,0 +1,312 @@
+{
+  "version": "1.3",
+  "updated": "2026-09-08",
+  "note": "量化評分的設定層。每一分都要能被拆回原始數字，所以這裡只有三種東西：構面權重、指標權重、以及每個指標的 bad／good 兩個錨點。得分＝100 × clamp((值 − bad) ÷ (good − bad), 0, 1) —— 兩點之間線性、兩端飽和。good 可以小於 bad（負債倍數、稀釋率這種越低越好的指標），公式不必改。\n\n**總分是純水準分，不混趨勢分。**理由三個：(1) 一半的指標本身就是變化量（營收加速度、毛利率年變化、應收成長差），再套一層趨勢分等於二階微分，同一件事算兩次；(2) 把趨勢揉進分數會讓「體質好但正在惡化」被平均成中間值，那正是最該被看見的情況；(3) 分數自己有歷史，方向用「本期總分 − 4 期前總分」表示就好，少一組沒人能驗證的權重。\n\n錨點的來源分兩階段：v1 是跨產業的絕對錨點（重資產產業會被系統性低估，已知限制）；v2 由 tools/peer_stats.py 從 SEC DERA 季度資料集算出同業 P10／P90 覆蓋掉這裡的 bad／good，公式與程式完全不動，只換數字。\n\n缺項一律**移出分母**再按比例重算權重，並在頁面標覆蓋率 —— 銀行沒有毛利與存貨，給 0 分等於把「不適用」當「很爛」。覆蓋率低於 coverage_floor 就不給總分，只給算得出來的構面分：拿 3 項算出來的總分是雜訊，不是結論。\n\n**構面覆蓋率不足就整個構面移出總分**（dimension_coverage_floor）：只靠一兩項撐起 25% 權重的不是「這一層的分數」，是那一項的分數戴了構面的帽子。\n\n**方向箭頭只能比兩期都算得出來的項目。**直接拿兩期總分相減，測到的是資料多寡不是公司表現 —— 實測 JPM 會報出 +28 分的假轉好。\n\n**水準型指標一律用滾動四季。**單季直接對固定門檻打分會把季節性讀成體質變化 —— 實測 KO 的總分逐季在 39～69 之間跳，那不是可口可樂的體質在跳。ROE／ROIC 尤其不能用「單季 ×4」年化。年度發行人（一欄＝一整年）自動退回同名的單期指標。",
+  "coverage_floor": 0.35,
+  "grades": [
+    {
+      "lt": 35,
+      "id": "alert",
+      "zh": "警戒"
+    },
+    {
+      "lt": 50,
+      "id": "weak",
+      "zh": "轉弱"
+    },
+    {
+      "lt": 65,
+      "id": "neutral",
+      "zh": "中性"
+    },
+    {
+      "lt": 80,
+      "id": "solid",
+      "zh": "穩健"
+    },
+    {
+      "id": "strong",
+      "zh": "強健"
+    }
+  ],
+  "arrow": [
+    {
+      "lt": -8,
+      "id": "down2",
+      "zh": "明顯轉弱"
+    },
+    {
+      "lt": -3,
+      "id": "down1",
+      "zh": "轉弱"
+    },
+    {
+      "lt": 3,
+      "id": "flat",
+      "zh": "持平"
+    },
+    {
+      "lt": 8,
+      "id": "up1",
+      "zh": "轉好"
+    },
+    {
+      "id": "up2",
+      "zh": "明顯轉好"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "profitability",
+      "zh": "獲利能力",
+      "weight": 0.25,
+      "desc": "賺不賺錢、賺得有沒有效率。營業利益率年變化放在這裡，因為營業槓桿是獲利能力的變化率。",
+      "items": [
+        {
+          "metric": "gross_margin_ttm",
+          "weight": 1.0,
+          "bad": 0.1,
+          "good": 0.75,
+          "metric_annual": "gross_margin"
+        },
+        {
+          "metric": "operating_margin_ttm",
+          "weight": 1.2,
+          "bad": 0.0,
+          "good": 0.4,
+          "metric_annual": "operating_margin"
+        },
+        {
+          "metric": "net_margin_ttm",
+          "weight": 0.8,
+          "bad": 0.0,
+          "good": 0.3,
+          "metric_annual": "net_margin"
+        },
+        {
+          "metric": "roic_ttm",
+          "weight": 1.2,
+          "bad": 0.02,
+          "good": 0.4,
+          "metric_annual": "roic"
+        },
+        {
+          "metric": "roe_ttm",
+          "weight": 0.8,
+          "bad": 0.02,
+          "good": 0.35,
+          "metric_annual": "roe"
+        },
+        {
+          "metric": "asset_turnover_ttm",
+          "weight": 0.5,
+          "bad": 0.15,
+          "good": 1.5,
+          "not_meaningful_sic": [
+            [
+              6000,
+              6799
+            ]
+          ],
+          "not_meaningful_note": "分母是整張金融資產負債表，結構性接近 0，與經營效率無關",
+          "metric_annual": "asset_turnover"
+        },
+        {
+          "metric": "operating_margin_ttm_delta",
+          "weight": 1.0,
+          "bad": -0.04,
+          "good": 0.04,
+          "metric_annual": "operating_margin_delta"
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "zh": "營收品質與現金含量",
+      "weight": 0.25,
+      "desc": "帳上的獲利有沒有變成現金、貨有沒有堆在倉庫。週轉天數全部歸在這一層——它們與應收／存貨背離講的是同一件事，分成兩個構面會把同一個問題扣兩次分。",
+      "items": [
+        {
+          "metric": "ocf_to_net_income_ttm",
+          "weight": 1.5,
+          "bad": 0.4,
+          "good": 1.6,
+          "metric_annual": "ocf_to_net_income",
+          "invalid_if_nonpositive": [
+            "net_income_ttm"
+          ],
+          "invalid_if_nonpositive_annual": [
+            "net_income"
+          ],
+          "not_meaningful_sic": [
+            [
+              6000,
+              6799
+            ]
+          ],
+          "not_meaningful_note": "銀行、券商、保險的營運現金流隨交易性資產與放存款大幅擺盪，負值是常態不是品質問題"
+        },
+        {
+          "metric": "fcf_margin_level_ttm",
+          "weight": 1.2,
+          "bad": -0.05,
+          "good": 0.35,
+          "not_meaningful_sic": [
+            [
+              6000,
+              6799
+            ]
+          ],
+          "not_meaningful_note": "金融業沒有製造業意義下的資本支出，自由現金流不構成品質訊號",
+          "metric_annual": "fcf_margin"
+        },
+        {
+          "metric": "ar_growth_gap_ttm",
+          "weight": 1.0,
+          "bad": 0.2,
+          "good": -0.1,
+          "metric_annual": "ar_growth_gap"
+        },
+        {
+          "metric": "inventory_growth_gap_ttm",
+          "weight": 0.8,
+          "bad": 0.25,
+          "good": -0.1,
+          "metric_annual": "inventory_growth_gap"
+        },
+        {
+          "metric": "dso_ttm_delta",
+          "weight": 0.6,
+          "bad": 20.0,
+          "good": -10.0,
+          "metric_annual": "dso_delta"
+        },
+        {
+          "metric": "dio_ttm_delta",
+          "weight": 0.6,
+          "bad": 25.0,
+          "good": -10.0,
+          "metric_annual": "dio_delta"
+        },
+        {
+          "metric": "ccc_ttm",
+          "weight": 0.8,
+          "bad": 150.0,
+          "good": -10.0,
+          "metric_annual": "ccc"
+        },
+        {
+          "metric": "finished_goods_share_delta",
+          "weight": 0.6,
+          "bad": 0.1,
+          "good": -0.05,
+          "invalid_if_nonpositive": [
+            "inventory_other"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growth",
+      "zh": "成長",
+      "weight": 0.2,
+      "desc": "營收本身、成長的加速度、以及比營收更早轉向的合約負債。",
+      "items": [
+        {
+          "metric": "revenue_yoy_ttm",
+          "weight": 1.5,
+          "bad": -0.1,
+          "good": 0.4,
+          "metric_annual": "revenue_yoy"
+        },
+        {
+          "metric": "revenue_accel_ttm",
+          "weight": 1.0,
+          "bad": -0.15,
+          "good": 0.08,
+          "metric_annual": "revenue_accel"
+        },
+        {
+          "metric": "deferred_revenue_yoy",
+          "weight": 0.7,
+          "bad": -0.05,
+          "good": 0.4
+        }
+      ]
+    },
+    {
+      "id": "solvency",
+      "zh": "財務結構",
+      "weight": 0.2,
+      "desc": "撐不撐得住。權重比一般直覺高，因為這是唯一一個出事時會讓其他四個構面同時歸零的層。",
+      "items": [
+        {
+          "metric": "net_debt_to_ebitda_ttm",
+          "weight": 1.5,
+          "bad": 5.0,
+          "good": -0.5,
+          "invalid_if_nonpositive": [
+            "ebitda_ttm"
+          ],
+          "metric_annual": "net_debt_to_ebitda",
+          "invalid_if_nonpositive_annual": [
+            "ebitda"
+          ]
+        },
+        {
+          "metric": "interest_coverage_ttm",
+          "weight": 1.5,
+          "bad": 1.5,
+          "good": 30.0,
+          "metric_annual": "interest_coverage"
+        },
+        {
+          "metric": "current_ratio",
+          "weight": 0.8,
+          "bad": 0.7,
+          "good": 3.0
+        },
+        {
+          "metric": "quick_ratio",
+          "weight": 0.6,
+          "bad": 0.4,
+          "good": 2.0
+        },
+        {
+          "metric": "debt_to_equity",
+          "weight": 0.8,
+          "bad": 2.5,
+          "good": 0.1
+        }
+      ]
+    },
+    {
+      "id": "shareholder",
+      "zh": "稀釋與股東權益",
+      "weight": 0.1,
+      "desc": "股東手上的那一份有沒有被稀釋。**股東回饋總額刻意不進評分**——借錢回購也會讓那個數字變好看，那是把槓桿當優點。",
+      "items": [
+        {
+          "metric": "dilution_rate",
+          "weight": 1.2,
+          "bad": 0.06,
+          "good": -0.04
+        },
+        {
+          "metric": "sbc_to_revenue_ttm",
+          "weight": 0.8,
+          "bad": 0.15,
+          "good": 0.01,
+          "metric_annual": "sbc_to_revenue"
+        },
+        {
+          "metric": "equity_yoy",
+          "weight": 0.6,
+          "bad": -0.1,
+          "good": 0.25
+        }
+      ]
+    }
+  ],
+  "dimension_coverage_floor": 0.4
+}

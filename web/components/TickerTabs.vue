@@ -6,6 +6,7 @@ const TABS = [
   { to: '', label: '財報下載', hint: 'SEC 原始檔 + Excel', api: null },
   { to: '/profile', label: '公司簡介', hint: '業務・高管・風險', api: 'profile' },
   { to: '/financials', label: '財務報表', hint: '損益・資產負債・瀑布', api: 'financials' },
+  { to: '/signals', label: '轉折點', hint: '槓桿・品質・現金含量', api: 'signals' },
   { to: '/funds', label: '13F', hint: '機構持股', api: 'funds' },
   { to: '/insider', label: '內部人買賣', hint: 'Form 4', api: 'insider' },
 ] as const
@@ -24,9 +25,11 @@ function prefetch(api: string | null) {
   if (!api || !props.ticker) return
   const url = api === 'financials'
     ? `/api/financials?ticker=${props.ticker}&from=${thisYear - 6}Q1&to=${thisYear + 1}Q4&valuation=0&lean=1`
-    : api === 'insider'
-      ? `/api/insider?ticker=${props.ticker}&limit=30`
-      : `/api/${api}?ticker=${props.ticker}`
+    : api === 'signals'
+      ? `/api/signals?ticker=${props.ticker}&years=6`
+      : api === 'insider'
+        ? `/api/insider?ticker=${props.ticker}&limit=30`
+        : `/api/${api}?ticker=${props.ticker}`
   if (prefetched.has(url)) return
   prefetched.add(url)
   $fetch(url).catch(() => prefetched.delete(url))

@@ -104,6 +104,9 @@ export interface DerivedMetric {
   group: string
   formula: string
   desc: string
+  /** theme.json 的 number_formats key（ratio / days / multiple…）。
+   *  沒寫時 Excel 端依 id 猜，新增指標只要在對照表寫 fmt 就不必回頭改程式 */
+  fmt?: string
 }
 
 export interface XbrlMap {

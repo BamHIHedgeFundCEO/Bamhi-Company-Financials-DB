@@ -1,0 +1,474 @@
+{
+ "version": "1.0",
+ "updated": "2026-09-05",
+ "note": "轉折訊號的判讀設定層。每個訊號＝一個 xbrl_zh_map.derived 的指標 id ＋ 分級門檻 ＋ 判讀文案。公式一律**不寫在這裡**，只寫 metric id：同一條公式若兩份設定各存一份，改了一邊就會安靜地互相矛盾。門檻是判讀輔助不是買賣訊號，頁面一律把數字本身放在最前面、分級放後面；跨產業的絕對門檻必然有例外（重資產公司的資本支出強度、SaaS 的合約負債成長），所以只做三級（good／warn／flat）＋一級 info（只給背景、不判好壞），不做綜合評分——把十七個訊號壓成一個分數，等於用權重憑空製造一個 SEC 沒說過的數字。",
+ "layers": [
+  {
+   "id": "growth",
+   "zh": "營收動能",
+   "source": "#2 第一層",
+   "desc": "營收本身、以及比營收更早轉向的合約負債。"
+  },
+  {
+   "id": "margin",
+   "zh": "定價力與營業槓桿",
+   "source": "#2 第二～四層",
+   "desc": "營收成長要變成價值，得經過毛利與費用兩道關卡。營業利益率擴張＝槓桿發動。"
+  },
+  {
+   "id": "quality",
+   "zh": "營收品質（應收與存貨）",
+   "source": "#3 第二～三層",
+   "desc": "帳上的營收有沒有變成現金、貨有沒有堆在倉庫。這一層通常比損益表早一到兩季轉向。"
+  },
+  {
+   "id": "cash",
+   "zh": "現金含量與資本投入",
+   "source": "#3 第一、五層",
+   "desc": "獲利有沒有變成現金，以及資本支出吃掉多少。"
+  },
+  {
+   "id": "structure",
+   "zh": "結構、負債與稀釋",
+   "source": "#3 第六、七、十層",
+   "desc": "成長是買來的還是長出來的、負債撐不撐得住、股東有沒有被稀釋。"
+  }
+ ],
+ "signals": [
+  {
+   "id": "revenue_yoy",
+   "metric": "revenue_yoy",
+   "layer": "growth",
+   "unit": "pct",
+   "question": "成長還在不在？",
+   "bands": [
+    {
+     "state": "warn",
+     "zh": "營收年減——成長停下來了",
+     "lt": 0.0
+    },
+    {
+     "state": "flat",
+     "zh": "個位數到低雙位數成長",
+     "lt": 0.15
+    },
+    {
+     "state": "good",
+     "zh": "年增 15% 以上"
+    }
+   ],
+   "read": "單看一期沒有意義，要看這條線的斜率有沒有變。與下面的合約負債年增率對照：合約負債先轉向的話，營收多半跟著轉。"
+  },
+  {
+   "id": "deferred_revenue_yoy",
+   "metric": "deferred_revenue_yoy",
+   "layer": "growth",
+   "unit": "pct",
+   "question": "已經收到錢、還沒認列的未來營收在增加嗎？",
+   "bands": [
+    {
+     "state": "warn",
+     "zh": "合約負債年減——未來營收動能轉弱",
+     "lt": 0.0
+    },
+    {
+     "state": "flat",
+     "zh": "小幅成長",
+     "lt": 0.15
+    },
+    {
+     "state": "good",
+     "zh": "年增 15% 以上，未來營收已經落袋"
+    }
+   ],
+   "read": "客戶先付錢代表需求是真的。訂閱制與長約型公司這一格最有效；一次性銷售為主的公司本來就沒多少合約負債，該格為 n/a 或極小屬正常。",
+   "pairs_with": [
+    "revenue_yoy"
+   ]
+  },
+  {
+   "id": "gross_margin_delta",
+   "metric": "gross_margin_delta",
+   "layer": "margin",
+   "unit": "pp",
+   "question": "定價力在變強還是被削價？",
+   "bands": [
+    {
+     "state": "warn",
+     "zh": "毛利率年減 2 個百分點以上",
+     "lt": -0.02
+    },
+    {
+     "state": "flat",
+     "zh": "毛利率大致持平",
+     "lt": 0.01
+    },
+    {
+     "state": "good",
+     "zh": "毛利率年增 1 個百分點以上"
+    }
+   ],
+   "read": "往上要再問一句是產品組合往高毛利移動、還是單純成本下降；往下而營收仍在成長，通常是靠降價換量。"
+  },
+  {
+   "id": "opex_growth_gap",
+   "metric": "opex_growth_gap",
+   "layer": "margin",
+   "unit": "pp",
+   "question": "費用長得比營收快還是慢？",
+   "bands": [
+    {
+     "state": "good",
+     "zh": "費用比營收慢 3 個百分點以上——槓桿的來源",
+     "lt": -0.03
+    },
+    {
+     "state": "flat",
+     "zh": "費用與營收大致同步",
+     "lt": 0.05
+    },
+    {
+     "state": "warn",
+     "zh": "費用比營收快 5 個百分點以上"
+    }
+   ],
+   "read": "快不必然是壞：研發與通路擴張是為了未來。要看的是它有沒有在幾季內轉成營收與營業利益率；轉不出來才是失控。"
+  },
+  {
+   "id": "operating_margin_delta",
+   "metric": "operating_margin_delta",
+   "layer": "margin",
+   "unit": "pp",
+   "question": "營業槓桿發動了嗎？",
+   "bands": [
+    {
+     "state": "warn",
+     "zh": "營業利益率年減 2 個百分點以上",
+     "lt": -0.02
+    },
+    {
+     "state": "flat",
+     "zh": "營業利益率大致持平",
+     "lt": 0.015
+    },
+    {
+     "state": "good",
+     "zh": "營業利益率年增 1.5 個百分點以上——槓桿發動中"
+    }
+   ],
+   "read": "這一格是本頁最接近「股價起漲前兆」的一格，但它必須有上面兩格撐著：毛利率沒動、費用也沒放慢，營業利益率卻擴張，那多半來自一次性項目而不是營運。",
+   "pairs_with": [
+    "gross_margin_delta",
+    "opex_growth_gap"
+   ]
+  },
+  {
+   "id": "ar_growth_gap",
+   "metric": "ar_growth_gap",
+   "layer": "quality",
+   "unit": "pp",
+   "question": "營收收得回現金嗎？",
+   "bands": [
+    {
+     "state": "good",
+     "zh": "應收比營收長得慢——收現變快",
+     "lt": 0.0
+    },
+    {
+     "state": "flat",
+     "zh": "應收與營收大致同步",
+     "lt": 0.1
+    },
+    {
+     "state": "warn",
+     "zh": "應收比營收快 10 個百分點以上"
+    }
+   ],
+   "read": "連續幾期為正才算數。單期為正常常只是大單集中在期末出貨。要和右邊的應收天數一起看：兩個都惡化才是訊號。",
+   "pairs_with": [
+    "dso_delta"
+   ]
+  },
+  {
+   "id": "dso_delta",
+   "metric": "dso_delta",
+   "layer": "quality",
+   "unit": "days",
+   "question": "收款週期拉長了嗎？",
+   "bands": [
+    {
+     "state": "good",
+     "zh": "收款天數縮短 5 天以上",
+     "lt": -5.0
+    },
+    {
+     "state": "flat",
+     "zh": "收款天數大致持平",
+     "lt": 10.0
+    },
+    {
+     "state": "warn",
+     "zh": "收款天數拉長 10 天以上"
+    }
+   ],
+   "read": "與應收成長差互為印證。只有其中一個動，多半是期末時點造成的。",
+   "pairs_with": [
+    "ar_growth_gap"
+   ]
+  },
+  {
+   "id": "inventory_growth_gap",
+   "metric": "inventory_growth_gap",
+   "layer": "quality",
+   "unit": "pp",
+   "question": "貨有沒有堆起來？",
+   "bands": [
+    {
+     "state": "good",
+     "zh": "存貨比營收長得慢",
+     "lt": 0.0
+    },
+    {
+     "state": "flat",
+     "zh": "存貨與營收大致同步",
+     "lt": 0.15
+    },
+    {
+     "state": "warn",
+     "zh": "存貨比營收快 15 個百分點以上"
+    }
+   ],
+   "read": "堆貨不必然是壞事：供給吃緊時公司會先囤原料與在製品，那種情況下營運現金流仍然健康。危險的是成品堆積而營收放緩。本站只用 companyfacts，不拆原料／在製／成品，所以這一格只回答『有沒有堆』，不回答『堆的是什麼』——後者要看年報附註。",
+   "pairs_with": [
+    "dio_delta",
+    "ocf_to_net_income"
+   ]
+  },
+  {
+   "id": "dio_delta",
+   "metric": "dio_delta",
+   "layer": "quality",
+   "unit": "days",
+   "question": "存貨賣得比進得快還是慢？",
+   "bands": [
+    {
+     "state": "good",
+     "zh": "存貨天數縮短 5 天以上",
+     "lt": -5.0
+    },
+    {
+     "state": "flat",
+     "zh": "存貨天數大致持平",
+     "lt": 15.0
+    },
+    {
+     "state": "warn",
+     "zh": "存貨天數拉長 15 天以上"
+    }
+   ],
+   "read": "軟體與服務業沒有存貨，這一格顯示「—」是正常的，不是漏抓。",
+   "pairs_with": [
+    "inventory_growth_gap"
+   ]
+  },
+  {
+   "id": "ocf_to_net_income",
+   "metric": "ocf_to_net_income_ttm",
+   "layer": "cash",
+   "unit": "x",
+   "question": "帳上的獲利變成現金了嗎？（滾動四季）",
+   "invalid_if_nonpositive": [
+    "net_income_ttm"
+   ],
+   "bands": [
+    {
+     "lt": 0.0,
+     "state": "warn",
+     "zh": "營運現金流為負、淨利為正"
+    },
+    {
+     "lt": 0.8,
+     "state": "warn",
+     "zh": "營運現金流不到淨利的 0.8 倍"
+    },
+    {
+     "lt": 1.0,
+     "state": "flat",
+     "zh": "現金與獲利大致相符"
+    },
+    {
+     "state": "good",
+     "zh": "營運現金流高於淨利"
+    }
+   ],
+   "read": "用滾動四季，不用單季：單季的比值會被期末的一收一放主導，NVDA 實測在 0.40～1.46 之間逐季彈跳，拿單季當轉折會得到隨機的結論。長期低於 1 代表利潤卡在應收、存貨或其他營運資金裡。淨利為負時這個比值沒有意義，顯示 n/a。 銀行、券商與保險例外：它們的營運現金流會隨交易性資產、放款與存款大幅擺盪，負值是常態而不是品質問題（JPM 實測 −2.50x），這一格對金融業沒有判讀意義。",
+   "pairs_with": [
+    "ar_growth_gap",
+    "inventory_growth_gap"
+   ],
+   "metric_annual": "ocf_to_net_income",
+   "invalid_if_nonpositive_annual": [
+    "net_income"
+   ]
+  },
+  {
+   "id": "fcf_margin_delta",
+   "metric": "fcf_margin_ttm_delta",
+   "layer": "cash",
+   "unit": "pp",
+   "question": "自由現金流的體質在變好還是變差？（滾動四季）",
+   "bands": [
+    {
+     "state": "warn",
+     "zh": "自由現金流利潤率年減 3 個百分點以上",
+     "lt": -0.03
+    },
+    {
+     "state": "flat",
+     "zh": "大致持平",
+     "lt": 0.02
+    },
+    {
+     "state": "good",
+     "zh": "年增 2 個百分點以上"
+    }
+   ],
+   "read": "獲利往上但這一格往下，差額通常卡在應收、存貨或資本支出——去看那三格哪一個在動。",
+   "metric_annual": "fcf_margin_delta"
+  },
+  {
+   "id": "capex_intensity",
+   "metric": "capex_intensity",
+   "layer": "cash",
+   "unit": "pct",
+   "state_override": "info",
+   "question": "資本支出吃掉多少營收？",
+   "read": "沒有跨產業的好壞門檻：晶圓廠、電信、能源本來就重資產，軟體公司本來就輕。要看的是它的**變化**，以及變高之後營收與營業利益率有沒有跟上。所以這一格只給背景值，不判好壞。"
+  },
+  {
+   "id": "goodwill_to_assets",
+   "metric": "goodwill_to_assets",
+   "layer": "structure",
+   "unit": "pct",
+   "state_override": "info",
+   "question": "成長是買來的嗎？",
+   "read": "商譽佔資產三成以上的公司，成長有相當部分來自併購，減損風險也集中在這裡。不判好壞：連續併購整合得好的公司同樣長這樣，要配合營業利益率變化一起看。",
+   "pairs_with": [
+    "operating_margin_delta"
+   ]
+  },
+  {
+   "id": "net_debt_to_ebitda",
+   "metric": "net_debt_to_ebitda",
+   "layer": "structure",
+   "unit": "x",
+   "invalid_if_nonpositive": [
+    "ebitda"
+   ],
+   "bands": [
+    {
+     "state": "good",
+     "zh": "淨現金或低於 1 倍",
+     "lt": 1.0
+    },
+    {
+     "state": "flat",
+     "zh": "1～3 倍",
+     "lt": 3.0
+    },
+    {
+     "state": "warn",
+     "zh": "超過 3 倍"
+    }
+   ],
+   "read": "負值＝淨現金。EBITDA 為零或負時這個倍數會變成負數而看起來很安全，那是假的——這種期間一律顯示 n/a。"
+  },
+  {
+   "id": "interest_coverage",
+   "metric": "interest_coverage",
+   "layer": "structure",
+   "unit": "x",
+   "question": "負債撐得住嗎？",
+   "bands": [
+    {
+     "state": "warn",
+     "zh": "營業利益不到利息費用的 3 倍",
+     "lt": 3.0
+    },
+    {
+     "state": "flat",
+     "zh": "3～10 倍",
+     "lt": 10.0
+    },
+    {
+     "state": "good",
+     "zh": "10 倍以上"
+    }
+   ],
+   "read": "沒有有息負債的公司利息費用為 0，這一格顯示「—」（不適用），不是查不到。"
+  },
+  {
+   "id": "dilution_rate",
+   "metric": "dilution_rate",
+   "layer": "structure",
+   "unit": "pct",
+   "question": "股東被稀釋了嗎？",
+   "bands": [
+    {
+     "state": "good",
+     "zh": "股數年減——回購大於發行",
+     "lt": 0.0
+    },
+    {
+     "state": "flat",
+     "zh": "稀釋 3% 以內",
+     "lt": 0.03
+    },
+    {
+     "state": "warn",
+     "zh": "股數年增 3% 以上"
+    }
+   ],
+   "read": "EPS 成長要扣掉這一格才是真的每股價值成長：淨利持平而股數減少，EPS 也會漂亮。",
+   "pairs_with": [
+    "sbc_to_revenue"
+   ]
+  },
+  {
+   "id": "sbc_to_revenue",
+   "metric": "sbc_to_revenue",
+   "layer": "structure",
+   "unit": "pct",
+   "question": "股份給付吃掉多少營收？",
+   "bands": [
+    {
+     "state": "good",
+     "zh": "低於 5%",
+     "lt": 0.05
+    },
+    {
+     "state": "flat",
+     "zh": "5～10%",
+     "lt": 0.1
+    },
+    {
+     "state": "warn",
+     "zh": "超過營收的 10%"
+    }
+   ],
+   "read": "不流出現金，但會稀釋股權——它是真實成本，只是不在現金流量表的支出欄。與股數稀釋率一起看。",
+   "pairs_with": [
+    "dilution_rate"
+   ]
+  },
+  {
+   "id": "equity_yoy",
+   "metric": "equity_yoy",
+   "layer": "structure",
+   "unit": "pct",
+   "state_override": "info",
+   "question": "價值有沒有沉澱下來？",
+   "read": "長期而言價值創造會沉澱在股東權益。但大量回購的公司這一格會被壓低甚至為負，那不是惡化——所以不判好壞。"
+  }
+ ]
+}

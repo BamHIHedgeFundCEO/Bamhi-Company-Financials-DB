@@ -12,6 +12,14 @@
   --sig:#C25A18;            /* 唯一保留語意色：10-K 與推算值 */
   --sig-wash:#F7EADF;
   --sig-lite:#F09A5E;       /* 深底上的 10-K */
+  /* 轉折訊號的好壞兩色。取自 theme.json 的 upside_positive / upside_negative，
+     Excel 與網頁用同一組色，同一件事不會兩個顏色。
+     ⚠️ 只用在轉折點分頁的判讀分級，且一律配文字標籤（轉好／警訊）——
+     只靠顏色的話色覺障礙讀者看到的是兩個一樣的灰。 */
+  --pos:#107C41;
+  --pos-wash:#E9F3EC;
+  --neg:#9C0006;
+  --neg-wash:#F7E9E9;
   --mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
   --sans:'IBM Plex Sans','Noto Sans TC',system-ui,-apple-system,sans-serif;
 }

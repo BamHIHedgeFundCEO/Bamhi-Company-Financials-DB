@@ -3,7 +3,7 @@ import { resolveCompany } from '../utils/cik'
 import { getFinancials } from '../utils/financials'
 import { computeMetrics, type MetricCell } from '../utils/metrics'
 import { parseTickers, parseRange, clampWithLookback } from '../utils/params'
-import { scoreAt, scoreSeries, arrowOf, type ScoringConfig } from '../utils/scoring'
+import { scoreAt, scoreSeries, arrowOf, type ScoringConfig, type PeerStats } from '../utils/scoring'
 
 /**
  * GET /api/signals?ticker=NVDA&years=5
@@ -61,6 +61,24 @@ async function loadSignals(): Promise<SignalsConfig> {
   return cachedCfg
 }
 
+let cachedPeer: PeerStats | null | undefined
+/**
+ * ⚠️ 同上，module-level 快取。
+ * 讀不到就是 `null`（整組退回絕對錨點），不是錯誤 —— peer_stats.json 是選用的，
+ * 沒跑過批次的環境照樣要能評分。
+ */
+async function loadPeer(): Promise<PeerStats | null> {
+  if (cachedPeer !== undefined) return cachedPeer
+  try {
+    const raw = await useStorage('assets:config').getItem('peer_stats.json')
+    const parsed = (typeof raw === 'string' ? JSON.parse(raw) : raw) as PeerStats | null
+    cachedPeer = parsed?.metrics ? parsed : null
+  } catch {
+    cachedPeer = null
+  }
+  return cachedPeer
+}
+
 let cachedScore: ScoringConfig | null = null
 /** ⚠️ 同上，module-level 快取；改 config/scoring.json 後 dev server 不重啟吃不到 */
 async function loadScoring(): Promise<ScoringConfig> {
@@ -105,6 +123,7 @@ export default defineEventHandler(async (event) => {
   const metrics = computeMetrics(fin.derived, fin.lineItems, fin.periods, annual)
   const cfg = await loadSignals()
   const scfg = await loadScoring()
+  const peer = await loadPeer()
 
   // 比值的分母為負時整格作廢：淨利為負的營運現金流對淨利比、EBITDA 為負的淨負債倍數
   // 算得出漂亮的數字，但那個數字是反的。作廢寫成 n/a 並附理由，不寫 0 也不寫「—」
@@ -176,6 +195,7 @@ export default defineEventHandler(async (event) => {
     metrics,
     annual,
     sic: ref.sic,
+    peer,
     rawAt: (id: string, i: number) => fin.lineItems.find((x) => x.id === id)?.values[fin.periods[i]!]?.value ?? null,
   }
   const seriesAll = scoreSeries(scfg, ctx, fin.periods.length)

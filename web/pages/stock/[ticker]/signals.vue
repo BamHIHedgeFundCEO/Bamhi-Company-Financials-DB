@@ -156,6 +156,17 @@ function itemValue(it: any): string {
   if (Math.abs(v) >= 1) return v.toFixed(2)
   return `${(v * 100).toFixed(1)}%`
 }
+/** 錨點來源的標記。同業錨點是小數，絕對錨點多半是整數 → 顯示前統一位數，不然一欄裡
+ *  「0.149121」與「0.1」並排會看起來像兩種精度的東西 */
+const fmtAnchor = (v: number) => (Number.isInteger(v) ? String(v)
+  : Math.abs(v) >= 10 ? v.toFixed(1) : v.toFixed(3))
+const anchorTag: Record<string, string> = { peer4: '同業', peer2: '同業大類', absolute: '絕對' }
+const anchorWhy: Record<string, string> = {
+  peer4: '同一個 4 位 SIC 的第 10／90 百分位',
+  peer2: '4 位 SIC 樣本不足 30 家，退到 2 位大類的第 10／90 百分位',
+  absolute: '同業樣本不足，用跨產業絕對錨點（這一項的分數會混進產業效應）',
+}
+
 const arrowGlyph: Record<string, string> = {
   up2: '↑', up1: '↗', flat: '→', down1: '↘', down2: '↓', na: '·',
 }
@@ -235,6 +246,9 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
                 權重覆蓋 <b class="mono">{{ Math.round(score.coverage * 100) }}%</b>
                 <i>（低於 {{ Math.round(score.coverageFloor * 100) }}% 不給總分）</i>
               </small>
+              <small v-if="score.peerAnchored != null" class="covw">
+                其中 <b class="mono">{{ score.peerAnchored }}</b> 項用同業錨點
+              </small>
             </div>
           </div>
 
@@ -273,7 +287,7 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
                 <p class="ddesc">{{ d.desc }}</p>
                 <table class="items">
                   <thead>
-                    <tr><th>指標</th><th class="r">值</th><th class="r">錨點</th>
+                    <tr><th>指標</th><th class="r">值</th><th class="r">錨點（bad → good）</th>
                       <th class="r">得分</th><th class="r">權重</th></tr>
                   </thead>
                   <tbody>
@@ -284,7 +298,11 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
                         <em v-if="it.score == null">{{ it.note || itemWhy[it.reason] || '無資料' }}</em>
                       </td>
                       <td class="r mono">{{ itemValue(it) }}</td>
-                      <td class="r mono anch">{{ it.bad }} → {{ it.good }}</td>
+                      <td class="r mono anch">
+                        {{ fmtAnchor(it.bad) }} → {{ fmtAnchor(it.good) }}
+                        <i class="asrc" :class="it.anchorSource" :title="anchorWhy[it.anchorSource]">{{
+                          anchorTag[it.anchorSource] }}</i>
+                      </td>
                       <td class="r mono" :class="scoreClass(it.score)">{{ fmtScore(it.score) }}</td>
                       <td class="r mono w">{{ it.weight }}</td>
                     </tr>
@@ -309,8 +327,13 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
             <b>評分是量化整理，不是投資建議。</b>權重與錨點都是我們設定的（攤在上面每一列，
             也在 <code>config/scoring.json</code> 裡），不同的假設會得到不同的分數。
             分數只用 SEC 申報數字計算，不含產業前景、競爭態勢、管理階層、法規與股價。
-            現階段錨點是<b>跨產業絕對值</b>，重資產產業（半導體、電信、能源）會被系統性低估；
-            下一版改用同業百分位。做決定前請自己看原始申報。
+            錨點優先用<b>同業百分位</b>（同一個 SIC 的第 10／90 百分位，來自 SEC DERA
+            季度資料集的 6,124 家公司）；同業樣本不足 30 家的指標才退回跨產業絕對值，
+            上表每一列都標了用的是哪一種。評級級距是<b>全市場總分的分位數</b>
+            （底 10%／10–30%／30–70%／70–90%／頂 10%），所以「中性」的意思是
+            「和市場上多數公司差不多」，不是「及格」。
+            <b>同業錨點量的是「相對於同業」</b>：整個產業一起惡化時分數不會反映，
+            產業普遍虧損的話，虧損公司也可能落在中段。做決定前請自己看原始申報。
           </p>
         </section>
 
@@ -540,6 +563,10 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
 .scoretrend { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px;
   margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--rule-2); }
 .tlabel, .taxis { font-size: 10.5px; color: var(--ink-3); white-space: nowrap; }
+.asrc { font-style: normal; font-size: 9px; margin-left: 5px; padding: 1px 3px;
+  border: 1px solid var(--rule-2); color: var(--ink-3); white-space: nowrap; }
+.asrc.peer4 { color: var(--pos); border-color: var(--pos); }
+.asrc.absolute { opacity: .65; }
 .disclaimer { margin-top: 14px; font-size: 11.5px; color: var(--ink-2); line-height: 1.85;
   background: var(--paper); padding: 10px 12px; }
 .disclaimer b { color: var(--ink); }

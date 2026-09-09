@@ -23,9 +23,16 @@
  *    「資料變多了」而不是「公司變好了」—— 實測 JPM 會因此報出 +28 分的假轉好。
  *    箭頭一律取兩期**都算得出來**的項目重算兩邊，並回報用了幾項。
  *
- * 錨點來源分兩階段：v1 是跨產業絕對錨點（重資產產業被系統性低估，已知限制）；
- * v2 由 `tools/peer_stats.py` 從 SEC DERA 季度資料集算出同業百分位覆蓋 bad／good ——
- * 公式與程式完全不動，只換數字。
+ * 錨點來源兩層，逐項獨立決定並回報用了哪一層（`anchorSource`）：
+ *   1. **同業百分位**（`config/peer_stats.json`，`tools/peer_stats.py` 從 SEC DERA
+ *      季度資料集離線算）—— 先找 4 位 SIC，樣本不足退 2 位大類
+ *   2. 找不到就用 `config/scoring.json` 的**跨產業絕對錨點**
+ * 公式與評分程式完全不動，只換 bad／good 兩個數字。
+ *
+ * 為什麼要分同業：毛利率的絕對 good 訂在 0.75，對軟體公司合理，對半導體設備、電信、
+ * 能源是永遠拿不到的分數 —— 那樣分數裡混進的是「這是什麼產業」，不是公司好壞。
+ * **但半調子的同業錨點比絕對錨點更危險**（看起來像有根據），所以樣本數不足就整組
+ * 不給，寧可退回絕對值，並在頁面上標出這一項用的是哪一層。
  */
 import type { MetricSeries } from './metrics'
 
@@ -48,6 +55,16 @@ export interface DimensionCfg {
   desc: string
   items: ScoreItemCfg[]
 }
+/** tools/peer_stats.py 的產出：metrics[計分項][SIC 或 g+2位大類] = [bad, good] */
+export interface PeerStats {
+  version: string
+  generated: string
+  map_version?: string
+  percentiles: [number, number]
+  min_companies: number
+  metrics: Record<string, Record<string, [number, number]>>
+}
+
 export interface ScoringConfig {
   version: string
   note: string
@@ -71,6 +88,10 @@ export interface ScoredItem {
   good: number
   /** ok | missing | inapplicable | window | invalid | not_meaningful */
   reason: string
+  /** 這一項的 bad／good 是哪裡來的：同業 4 位 SIC／同業大類／跨產業絕對值 */
+  anchorSource: 'peer4' | 'peer2' | 'absolute'
+  /** 同業錨點時：用的是哪個 SIC 群 */
+  anchorScope?: string
   note?: string
   isEstimated: boolean
 }
@@ -86,6 +107,8 @@ export interface ScoredDimension {
   items: ScoredItem[]
 }
 export interface ScoreResult {
+  /** 26 項裡有幾項用到同業錨點（頁面要說得出這個分數的錨點來自哪裡） */
+  peerAnchored: number
   total: number | null
   grade: { id: string; zh: string } | null
   coverage: number
@@ -115,11 +138,32 @@ export interface ScoreCtx {
   metrics: Map<string, MetricSeries>
   annual: boolean
   sic?: string
+  /** 同業百分位錨點；沒有就整組退回絕對錨點 */
+  peer?: PeerStats | null
   /** 逐期原始科目值（作廢守門員要看單一科目，不只指標） */
   rawAt: (id: string, idx: number) => number | null
 }
 
 /** 逐項評分（不做彙總）。彙總拆出去，方向箭頭才能用「兩期都算得出來」的子集合重算 */
+/**
+ * 錨點解析：同業 4 位 SIC → 同業 2 位大類 → 跨產業絕對值。
+ *
+ * `bad === good` 的同業組一律跳過：那會讓 anchorScore 的分母為 0，得分整欄變 null
+ * 而且不會有人發現（peer_stats.py 那端也擋一次，這裡是最後一道）。
+ */
+function anchorsFor(cfg: ScoreCtx, ci: ScoreItemCfg):
+{ bad: number; good: number; source: 'peer4' | 'peer2' | 'absolute'; scope?: string } {
+  const table = cfg.peer?.metrics?.[ci.metric]
+  const sic = cfg.sic
+  if (table && sic) {
+    for (const [key, source] of [[sic, 'peer4'], [`g${sic.slice(0, 2)}`, 'peer2']] as const) {
+      const a = table[key]
+      if (a && a[0] !== a[1]) return { bad: a[0], good: a[1], source, scope: key }
+    }
+  }
+  return { bad: ci.bad, good: ci.good, source: 'absolute' }
+}
+
 function scoreItems(cfg: ScoringConfig, ctx: ScoreCtx, idx: number): ScoredDimension[] {
   return cfg.dimensions.map((d) => {
     const items: ScoredItem[] = d.items.map((ci) => {
@@ -139,16 +183,19 @@ function scoreItems(cfg: ScoringConfig, ctx: ScoreCtx, idx: number): ScoredDimen
 
       const usable = !notMeaningful && !invalid
         && !!cell && cell.reason === 'ok' && cell.value != null
+      const an = anchorsFor(ctx, ci)
       return {
         metric: metricId,
         zh: m?.zh ?? metricId,
         formula: m?.formula ?? '',
         desc: m?.desc ?? '',
         value: usable ? cell!.value : null,
-        score: usable ? anchorScore(cell!.value!, ci.bad, ci.good) : null,
+        score: usable ? anchorScore(cell!.value!, an.bad, an.good) : null,
         weight: ci.weight,
-        bad: ci.bad,
-        good: ci.good,
+        bad: an.bad,
+        good: an.good,
+        anchorSource: an.source,
+        anchorScope: an.scope,
         reason: notMeaningful ? 'not_meaningful' : invalid ? 'invalid' : (cell?.reason ?? 'missing'),
         note: notMeaningful ? ci.not_meaningful_note : undefined,
         isEstimated: !!cell?.isEstimated,
@@ -169,6 +216,7 @@ function aggregate(cfg: ScoringConfig, dims: ScoredDimension[], allowed?: Set<st
   let covDen = 0
   let counted = 0
   let itemsTotal = 0
+  let peerAnchored = 0
 
   for (const d of dims) {
     let iw = 0
@@ -178,6 +226,7 @@ function aggregate(cfg: ScoringConfig, dims: ScoredDimension[], allowed?: Set<st
       iwAll += it.weight
       itemsTotal++
       const ok = it.score != null && (!allowed || allowed.has(it.metric))
+      if (ok && it.anchorSource !== 'absolute') peerAnchored++
       if (ok) {
         iw += it.weight
         iws += it.weight * it.score!
@@ -200,6 +249,7 @@ function aggregate(cfg: ScoringConfig, dims: ScoredDimension[], allowed?: Set<st
   const total = wSum > 0 && coverage >= cfg.coverage_floor ? Math.round(wScore / wSum) : null
   const grade = total != null ? pick(total, cfg.grades) : null
   return {
+    peerAnchored,
     total,
     grade: grade ? { id: grade.id, zh: grade.zh } : null,
     coverage,

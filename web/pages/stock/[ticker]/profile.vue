@@ -41,6 +41,29 @@ const pick = (en: string[], zh: string[] | undefined, i: number) =>
 const raw = (zh: string[] | undefined, i: number) => lang.value === 'zh' && !zh?.[i]
 const PREVIEW = 4
 
+/**
+ * 逐年對比走自己的端點，而且**點了才載**。
+ *
+ * 它要多解析一份去年的年報（一次 SEC 請求，之後永久快取）。硬規則是
+ * 「敘述性段落只抓最新一份年報」，所以這份額外成本不該加在每個打開公司簡介的人身上
+ * —— 想看對比的人才付。兩份年報也刻意不在同一個請求裡解析（見 narrative-diff.get.ts）。
+ */
+const diff = ref<any>(null)
+const diffPending = ref(false)
+const diffError = ref<string | null>(null)
+async function loadDiff() {
+  if (diff.value || diffPending.value) return
+  diffPending.value = true
+  diffError.value = null
+  try {
+    diff.value = await $fetch<any>(`/api/narrative-diff?ticker=${ticker}`)
+  } catch (e: any) {
+    diffError.value = e?.data?.message || e?.message || '讀取失敗'
+  } finally {
+    diffPending.value = false
+  }
+}
+
 const officers = computed(() => {
   const list = (ins.value?.officers ?? []) as any[]
   return list.filter((o) => o.isOfficer || o.isDirector || o.isTenPercent)
@@ -52,6 +75,10 @@ const fyeText = computed(() => {
   return f ? `${Number(f.slice(0, 2))} 月 ${Number(f.slice(2))} 日` : '—'
 })
 const nf = new Intl.NumberFormat('en-US')
+/** 後端的說明文字只用一種記號：**粗體**。除此之外一律當純文字（先跳脫再換記號） */
+const mdBold = (s: string) => s
+  .replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c] as string))
+  .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
 
 const zhNames: Record<string, string> = {
   NVDA: '輝達', AAPL: '蘋果', TSLA: '特斯拉', MSFT: '微軟', AMZN: '亞馬遜',
@@ -237,10 +264,81 @@ useHead({ title: `${ticker} 公司簡介｜業務概況、經營層討論、主�
           </p>
         </section>
 
+        <!-- 與去年年報的差異 -->
+        <section v-if="data.narrative" class="cardblock">
+          <div class="blockhead">
+            <span class="num">§5</span><h2>與去年年報的差異</h2>
+            <span class="hint">比的是小標，不是全文</span>
+          </div>
+
+          <p v-if="!diff && !diffPending" class="excerpt">
+            把今年這份年報的小標，跟去年那份逐條配對：哪幾條是新的、哪幾條不見了、
+            哪幾條改了字。需要多讀一份去年的年報（一次 SEC 請求，之後永久快取），
+            所以點了才載。
+            <button class="more" @click="loadDiff">載入逐年對比</button>
+          </p>
+          <p v-if="diffPending" class="state small">讀取去年的年報<span class="dots" /></p>
+          <p v-if="diffError" class="caution">{{ diffError }}</p>
+
+          <template v-if="diff">
+            <p v-if="diff.previous" class="diffhead">
+              <a :href="diff.currentUrl" target="_blank" rel="noopener">
+                今年 {{ diff.current.form }} · {{ diff.current.reportDate }} ↗</a>
+              <span class="vs">vs</span>
+              <a :href="diff.previousUrl" target="_blank" rel="noopener">
+                去年 {{ diff.previous.form }} · {{ diff.previous.reportDate }} ↗</a>
+            </p>
+            <p v-for="(n, i) in diff.notes" :key="i" class="excerpt" v-html="mdBold(n)" />
+
+            <div v-for="s in diff.sections" :key="s.id" class="dsec">
+              <h3>{{ s.zh }} <span class="tagsrc">{{ s.anchor }}</span></h3>
+              <p class="dcount mono">
+                今年 {{ s.headings.curTotal }} 條 · 去年 {{ s.headings.prevTotal }} 條 ·
+                沿用 {{ s.headings.kept }} · 改寫 {{ s.headings.reworded.length }} ·
+                新增 {{ s.headings.added.length }} · 刪除 {{ s.headings.removed.length }}
+              </p>
+              <p v-for="(n, i) in s.notes" :key="i" class="caution" v-html="mdBold(n)" />
+
+              <ul v-if="s.headings.added.length" class="dlist">
+                <li class="dlabel">今年新增</li>
+                <li v-for="a in s.headings.added" :key="a.text" class="add">
+                  {{ lang === 'zh' && a.zh ? a.zh : a.text }}
+                </li>
+              </ul>
+              <ul v-if="s.headings.removed.length" class="dlist">
+                <li class="dlabel">去年有、今年沒有</li>
+                <li v-for="a in s.headings.removed" :key="a.text" class="del">{{ a.text }}</li>
+              </ul>
+              <ul v-if="s.headings.reworded.length" class="dlist">
+                <li class="dlabel">改寫（相似度由低到高）</li>
+                <li v-for="a in s.headings.reworded" :key="a.to" class="mod">
+                  <b>今</b> {{ a.to }}
+                  <br><b>去</b> <span class="old">{{ a.from }}</span>
+                  <i class="mono sim">{{ Math.round(a.sim * 100) }}%</i>
+                </li>
+              </ul>
+
+              <template v-if="s.paragraphs?.sameFocus">
+                <p class="dcount mono">
+                  節錄段落：新增 {{ s.paragraphs.added.length }} ·
+                  改寫 {{ s.paragraphs.reworded.length }} ·
+                  幾乎照抄 {{ s.paragraphs.kept }}
+                </p>
+                <ul v-if="s.paragraphs.added.length" class="dlist">
+                  <li class="dlabel">今年這一節新寫的段落</li>
+                  <li v-for="a in s.paragraphs.added.slice(0, 6)" :key="a.text" class="add para">
+                    {{ lang === 'zh' && a.zh ? a.zh : a.text }}
+                  </li>
+                </ul>
+              </template>
+            </div>
+          </template>
+        </section>
+
         <!-- 公司主管 -->
         <section class="cardblock">
           <div class="blockhead">
-            <span class="num">§5</span><h2>公司主管與董事</h2>
+            <span class="num">§6</span><h2>公司主管與董事</h2>
             <span class="hint">來自 Form 3/4/5 的 <span class="mono">officerTitle</span> 欄位（結構化 XML）</span>
           </div>
           <p v-if="insPending" class="state small">讀取 Form 4<span class="dots" /></p>
@@ -282,6 +380,29 @@ useHead({ title: `${ticker} 公司簡介｜業務概況、經營層討論、主�
 </template>
 
 <style scoped>
+/* ── 與去年年報的差異 ──────────────────────────────
+   刻意不用 --pos／--neg：那兩個顏色在本站是「轉好／警訊」的語意色，
+   而新增一條風險不代表公司變差（可能只是把既有的風險拆成兩條）。
+   這一區只說「這裡不一樣」，所以一律用中性的灰階＋左側標記。 */
+.diffhead { display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+  font-size: 12.5px; margin: 0 0 10px; }
+.diffhead .vs { color: var(--ink-3); font-family: var(--mono); font-size: 11px; }
+.dsec { border-top: 1px solid var(--rule-2); padding-top: 12px; margin-top: 14px; }
+.dsec h3 { font-size: 14px; margin: 0 0 6px; display: flex; gap: 8px; align-items: center; }
+.dcount { font-size: 11.5px; color: var(--ink-3); margin: 0 0 8px; }
+.dlist { list-style: none; padding: 0; margin: 0 0 10px; }
+.dlist .dlabel { font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--ink-3); font-family: var(--mono); margin-bottom: 4px; }
+.dlist li + li { margin-top: 5px; }
+.dlist .add, .dlist .del, .dlist .mod { font-size: 12.5px; line-height: 1.7;
+  padding: 4px 0 4px 10px; border-left: 2px solid var(--rule); }
+.dlist .add { border-left-color: var(--ink); }
+.dlist .del { color: var(--ink-3); }
+.dlist .mod b { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3);
+  margin-right: 4px; }
+.dlist .mod .old { color: var(--ink-3); }
+.dlist .mod .sim { float: right; font-size: 10.5px; color: var(--ink-3); }
+.dlist .para { line-height: 1.85; }
 .prof { padding-top: 22px; }
 .state { font-family: var(--mono); font-size: 13px; color: var(--ink-2); padding: 40px 0; }
 .state.small { padding: 10px 0; font-size: 12px; }

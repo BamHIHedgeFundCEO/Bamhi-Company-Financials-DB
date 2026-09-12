@@ -16,8 +16,8 @@
  ],
  "note": "同業百分位錨點：bad＝同業 25 百分位、good＝75 百分位（低越好的指標對調）。key 為 4 位 SIC；`g` 開頭是 2 位大類，4 位樣本不足時用。兩者都查不到就退回 config/scoring.json 的絕對錨點。評分公式與程式完全不動，只換這兩個數字。",
  "score_distribution": {
-  "companies_scored": 4260,
-  "companies_unscorable": 1865,
+  "companies_scored": 4256,
+  "companies_unscorable": 1869,
   "quantiles": {
    "p5": 20.0,
    "p10": 27.0,

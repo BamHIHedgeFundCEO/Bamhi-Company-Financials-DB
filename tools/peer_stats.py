@@ -326,7 +326,9 @@ def models_of(scoring: dict) -> list[tuple[str, list, list]]:
     return out
 
 
-def pick_model(scoring: dict, sic: str | None, present: set[str] | None = None) -> tuple[str, list]:
+def pick_model(scoring: dict, sic: str | None,
+               present: set[str] | None = None,
+               shares: dict[str, float] | None = None) -> tuple[str, list]:
     """SIC → 模型。與 web/server/utils/scoring.ts 的 pickModel 同一條規則：取最窄的區間，
     再套事實分流（`fallback_if_absent`：那幾個科目全都沒有 → 換一套）。"""
     if not sic or not sic.isdigit():
@@ -341,10 +343,16 @@ def pick_model(scoring: dict, sic: str | None, present: set[str] | None = None) 
         return "general", scoring["dimensions"]
     mdl = best[1]
     fb = mdl.get("fallback_if_absent")
-    if fb and present is not None and fb["concepts"] and not (set(fb["concepts"]) & present):
-        alt = next((m for m in scoring["models"] if m["id"] == fb["model"]), None)
-        if alt:
-            return alt["id"], alt["dimensions"]
+    if fb and present is not None and fb["concepts"]:
+        keep = bool(set(fb["concepts"]) & present)
+        rt = fb.get("ratio_of_assets")
+        if rt and shares is not None:
+            r = shares.get(rt["concept"])
+            keep = keep or (r is not None and r >= rt["min"])
+        if not keep:
+            alt = next((m for m in scoring["models"] if m["id"] == fb["model"]), None)
+            if alt:
+                return alt["id"], alt["dimensions"]
     return mdl["id"], mdl["dimensions"]
 
 
@@ -413,9 +421,11 @@ def main() -> int:
     # 事實分流要看的科目（所有模型的 fallback_if_absent 聯集）
     fb_concepts = sorted({c for m in scoring.get("models", [])
                           for c in (m.get("fallback_if_absent") or {}).get("concepts", [])})
+    fb_ratios = sorted({(m.get("fallback_if_absent") or {}).get("ratio_of_assets", {}).get("concept")
+                        for m in scoring.get("models", [])} - {None})
 
     samples: dict[str, dict[str, list[float]]] = defaultdict(lambda: defaultdict(list))
-    per_co: list[tuple[str, str, dict[str, float], set[str]]] = []
+    per_co: list[tuple[str, str, dict[str, float], set[str], dict[str, float]]] = []
     n_co = 0
     dump = None
     for cik, byd in store.items():
@@ -467,7 +477,16 @@ def main() -> int:
                 samples[key][sic].append(v)
         present = {c for c in fb_concepts
                    if any(v is not None for v in (series.get(c) or []))}
-        per_co.append((cik, sic, vals, present))
+        # 放款佔資產：取最近一期兩邊都有值的（與 signals.get.ts 的 shareOfAssets 同義）
+        shares: dict[str, float] = {}
+        assets = series.get("total_assets") or []
+        for c in fb_ratios:
+            col = series.get(c) or []
+            for k in range(min(len(col), len(assets)) - 1, -1, -1):
+                if col[k] is not None and assets[k]:
+                    shares[c] = col[k] / assets[k]
+                    break
+        per_co.append((cik, sic, vals, present, shares))
         if args.dump_cik and cik == str(int(args.dump_cik)):
             dump = (cik, name_of.get(cik), keep, vals)
 
@@ -523,9 +542,9 @@ def main() -> int:
         totals = []
         n_none = 0
         by_model: dict[str, list[int]] = defaultdict(list)
-        for cik, sic, vals, present in per_co:
+        for cik, sic, vals, present, shares in per_co:
             w_sum = w_score = cov_num = cov_den = 0.0
-            model_name, dims = pick_model(scoring, sic, present)
+            model_name, dims = pick_model(scoring, sic, present, shares)
             for dim in dims:
                 iw = iws = iw_all = 0.0
                 for it in dim["items"]:

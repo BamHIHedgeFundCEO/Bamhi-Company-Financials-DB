@@ -205,11 +205,23 @@ export default defineEventHandler(async (event) => {
   // 頁面要寫出用的是哪一套 —— 換模型等於換構面與換錨點，兩套之間的分數不可比
   // 第三個參數是「這個科目有沒有任何一期有值」——SIC 6211 裡券商與資產管理公司混在一起，
   // 靠存款與放款這兩個事實分流（見 ScoreModel.fallback_if_absent）
-  const hasConcept = (id: string) => {
-    const li = lineItems.find((x) => x.id === id)
-    return !!li && Object.values(li.values).some((c) => c?.value != null)
+  const valuesOf = (id: string) => lineItems.find((x) => x.id === id)?.values ?? {}
+  const modelFacts = {
+    has: (id: string) => Object.values(valuesOf(id)).some((c) => c?.value != null),
+    /** 最近一期「兩邊都有值」的佔比。放款佔資產是「這到底是不是放款業者」的判準 */
+    shareOfAssets: (id: string) => {
+      const v = valuesOf(id)
+      const a = valuesOf('total_assets')
+      for (let i = fin.periods.length - 1; i >= 0; i--) {
+        const p = fin.periods[i]!
+        const x = v[p]?.value
+        const y = a[p]?.value
+        if (x != null && y != null && y !== 0) return x / y
+      }
+      return null
+    },
   }
-  const model = pickModel(scfg, ref.sic, hasConcept)
+  const model = pickModel(scfg, ref.sic, modelFacts)
   const ctx = {
     metrics,
     annual,

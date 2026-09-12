@@ -101,11 +101,22 @@ export interface ScoreModel {
    * 行為就是銀行；貝萊德沒有存款也沒有放款，它是資產管理公司。SIC 分不出來，
    * 但**事實分得出來**。
    *
-   * 判準刻意要求列出的科目**都**沒有：富國銀行只用維度揭露放款（companyfacts
-   * 抓不到），但它有存款 → 仍然走銀行模型。少了這個「都」字，抽取失敗就會被
-   * 誤判成「這不是銀行」，然後整家公司換一把尺而沒有人會發現。
+   * 兩個條件**任一成立就留在原模型**：
+   *   `concepts`        這些科目任一有值（存款 ＝ 銀行之所以是銀行的那件事）
+   *   `ratio_of_assets` 某個科目佔總資產達門檻（沒有存款但放款是主體的消費金融公司）
+   *
+   * 兩條都需要，因為兩個方向都被實測打過臉：只看存款的話，Affirm（放款佔資產 60%）、
+   * Credit Acceptance（135%）、OneMain（91%）這些不吸收存款的放款業者會被丟進
+   * 資產管理模型，然後整個資產品質構面消失；只看放款的話，LPL 的顧問過渡貸款
+   * （`NotesReceivableNet`，佔資產 19.7%）會把它留在銀行模型裡拿不到總分。
+   * 門檻 25% 不是拍的：實測分得很開 —— 不是放款業者的最高 19.7%，是的最低 46.5%。
    */
-  fallback_if_absent?: { concepts: string[]; model: string; note?: string }
+  fallback_if_absent?: {
+    concepts: string[]
+    ratio_of_assets?: { concept: string; min: number }
+    model: string
+    note?: string
+  }
   dimensions: DimensionCfg[]
 }
 
@@ -202,7 +213,15 @@ function sicIn(sic: string | undefined, ranges?: [number, number][]): boolean {
  * 之後要為「消費金融」這種子類另立模型時，只要加一段更窄的區間就會自動勝出，
  * 不必回頭改程式。
  */
-export function pickModel(cfg: ScoringConfig, sic?: string, has?: (conceptId: string) => boolean): {
+/** 事實分流要問的兩個問題（由 /api/signals 從 lineItems 餵進來） */
+export interface ModelFacts {
+  /** 這個科目有沒有任何一期有值 */
+  has: (conceptId: string) => boolean
+  /** 這個科目最近一期佔總資產的比例；算不出來回 null */
+  shareOfAssets: (conceptId: string) => number | null
+}
+
+export function pickModel(cfg: ScoringConfig, sic?: string, facts?: ModelFacts): {
   id: string; zh: string; desc: string; dimensions: DimensionCfg[]; fallbackNote?: string
 } {
   const general = { id: GENERAL_ID, zh: '通用', desc: '', dimensions: cfg.dimensions }
@@ -220,13 +239,21 @@ export function pickModel(cfg: ScoringConfig, sic?: string, has?: (conceptId: st
 
   // 事實分流：SIC 選到的模型，它賴以成立的科目整條都沒有 → 換一套（見 fallback_if_absent）
   const fb = best.m.fallback_if_absent
-  if (fb && has && fb.concepts.length && fb.concepts.every((c) => !has(c))) {
-    const alt = cfg.models.find((m) => m.id === fb.model)
+  if (fb && facts && fb.concepts.length) {
+    const keep = fb.concepts.some((c) => facts.has(c))
+    const r = fb.ratio_of_assets ? facts.shareOfAssets(fb.ratio_of_assets.concept) : null
+    const keepByRatio = !!(fb.ratio_of_assets && r != null && r >= fb.ratio_of_assets.min)
+    const alt = keep || keepByRatio ? null : cfg.models.find((m) => m.id === fb.model)
     if (alt) {
+      const why = fb.ratio_of_assets
+        ? `${fb.concepts.join('、')}整段期間都查無資料，`
+          + `${fb.ratio_of_assets.concept} 佔總資產 ${r == null ? '查無資料' : `${(r * 100).toFixed(1)}%`}`
+          + `（未達 ${(fb.ratio_of_assets.min * 100).toFixed(0)}%）`
+        : `${fb.concepts.join('、')}整段期間都查無資料`
       return {
         id: alt.id, zh: alt.zh, desc: alt.desc, dimensions: alt.dimensions,
-        fallbackNote: `SIC ${sic} 對到的是「${best.m.zh}」模型，但這家公司的`
-          + `${fb.concepts.join('、')}整段期間都查無資料 → 改用「${alt.zh}」模型。`,
+        fallbackNote: `SIC ${sic} 對到的是「${best.m.zh}」模型，但這家公司的${why} → `
+          + `改用「${alt.zh}」模型。`,
       }
     }
   }

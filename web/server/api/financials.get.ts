@@ -50,7 +50,9 @@ export default defineEventHandler(async (event) => {
     if (query.valuation !== '0') fin.valuation = (await computeValuation(fin)) ?? undefined
     clampPeriods(fin, range)
     if (query.lean === '1') lean(fin)
-    results.push(fin)
+    // 產業限定科目只服務評分引擎，對外的回應形狀維持不變（Excel／CSV 也吃這一份）
+    const { sectorItems: _si, sectorDerived: _sd, ...rest } = fin
+    results.push(rest)
   }
   return tickers.length === 1 ? results[0] : { results }
 })

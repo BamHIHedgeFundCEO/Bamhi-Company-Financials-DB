@@ -319,6 +319,26 @@ def pctl(vals: list[float], q: float) -> float:
     return s[lo] + (s[hi] - s[lo]) * (pos - lo)
 
 
+def models_of(scoring: dict) -> list[tuple[str, list, list]]:
+    """[(模型名, 構面陣列, SIC 區間)]。通用模型排第一，它沒有 SIC 區間（墊底的那一套）。"""
+    out = [("general", scoring["dimensions"], [])]
+    out += [(m["id"], m["dimensions"], m.get("sic") or []) for m in scoring.get("models", [])]
+    return out
+
+
+def pick_model(scoring: dict, sic: str | None) -> tuple[str, list]:
+    """SIC → 模型。與 web/server/utils/scoring.ts 的 pickModel 同一條規則：取最窄的區間。"""
+    if not sic or not sic.isdigit():
+        return "general", scoring["dimensions"]
+    n = int(sic)
+    best = None
+    for name, dims, ranges in models_of(scoring):
+        for lo, hi in ranges:
+            if lo <= n <= hi and (best is None or hi - lo < best[0]):
+                best = (hi - lo, name, dims)
+    return (best[1], best[2]) if best else ("general", scoring["dimensions"])
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="同業百分位錨點")
     ap.add_argument("zips", nargs="+", help="DERA FSDS 季度 zip，可給多包")
@@ -337,16 +357,26 @@ def main() -> int:
     derived = {d["id"]: d for d in m["derived"]}
     scoring = json.loads(SCORING_PATH.read_text(encoding="utf-8"))
 
-    # 要算的指標：評分項的年度版本；方向由 good/bad 的大小決定
+    # 要算的指標：**每一套模型**的評分項（通用／銀行／保險／REIT），取年度版本；
+    # 方向由 good/bad 的大小決定。
+    #
+    # 錨點表是以「指標 id × SIC」為 key，不分模型 —— roe_ttm 在通用模型與銀行模型
+    # 是同一個指標，只是被不同 SIC 的公司用到，本來就該共用同一張分布表。
     wanted: dict[str, dict] = {}
-    for dim in scoring["dimensions"]:
-        for it in dim["items"]:
-            mid = it.get("metric_annual") or it["metric"]
-            wanted[it["metric"]] = {
-                "annual_metric": mid,
-                "higher_better": it["good"] > it["bad"],
-                "abs": [it["bad"], it["good"]],
-            }
+    for _name, dims, _sic in models_of(scoring):
+        for dim in dims:
+            for it in dim["items"]:
+                mid = it.get("metric_annual") or it["metric"]
+                wanted[it["metric"]] = {
+                    "annual_metric": mid,
+                    "higher_better": it["good"] > it["bad"],
+                    "abs": [it["bad"], it["good"]],
+                    # 執行期會作廢的那些格子，這裡也要一起排除 —— 否則錨點是用
+                    # 「評分根本不會採計的樣本」算出來的（見下面 guards 的註解）
+                    "guards": (it.get("invalid_if_nonpositive_annual")
+                               or it.get("invalid_if_nonpositive") or []),
+                    "not_meaningful_sic": it.get("not_meaningful_sic") or [],
+                }
 
     store: dict[str, dict[str, dict]] = defaultdict(lambda: defaultdict(dict))
     sic_of: dict[str, str] = {}
@@ -400,10 +430,24 @@ def main() -> int:
         sic = sic_of.get(cik, "")
         n_co += 1
         vals = {}
+        sic_n = int(sic) if sic.isdigit() else None
         for key, mid in asts.items():
             col = series.get(mid)
             v = col[idx] if col and 0 <= idx < len(col) else None
             if v is None or v != v or v in (float("inf"), float("-inf")):
+                continue
+            # 分母為負就整格作廢（`invalid_if_nonpositive`）—— 執行期是這樣做的，
+            # 錨點也必須這樣算。不然分布裡混進了淨利為負時的現金含量、EBITDA 為負時
+            # 的淨負債倍數：那些值一律是漂亮的負數，會把 bad 端整個往下拉，
+            # 於是每一家看起來都在 p10 以上。實測 REIT（6798）的
+            # ocf_to_net_income_ttm p10 是 −3.24，而執行期根本不會採計那種格子
+            cfg = wanted[key]
+            if any((series.get(g) or [None] * n_per)[idx] is None
+                   or (series[g][idx] or 0) <= 0 for g in cfg["guards"]):
+                continue
+            # 產業上沒有定義的項目同理（金融業的自由現金流、總資產週轉率）
+            if sic_n is not None and any(lo <= sic_n <= hi
+                                         for lo, hi in cfg["not_meaningful_sic"]):
                 continue
             vals[key] = v
             if sic:
@@ -463,9 +507,11 @@ def main() -> int:
 
         totals = []
         n_none = 0
+        by_model: dict[str, list[int]] = defaultdict(list)
         for cik, sic, vals in per_co:
             w_sum = w_score = cov_num = cov_den = 0.0
-            for dim in scoring["dimensions"]:
+            model_name, dims = pick_model(scoring, sic)
+            for dim in dims:
                 iw = iws = iw_all = 0.0
                 for it in dim["items"]:
                     iw_all += it["weight"]
@@ -483,10 +529,15 @@ def main() -> int:
                     w_sum += dim["weight"]
                     w_score += dim["weight"] * (iws / iw)
             coverage = cov_num / cov_den if cov_den else 0.0
-            if w_sum > 0 and coverage >= scoring["coverage_floor"]:
+            # 三道門檻要與 web/server/utils/scoring.ts 的 aggregate 一致，
+            # 否則這裡估出來的級距套到網站上會整體偏移
+            if (w_sum > 0 and coverage >= scoring["coverage_floor"]
+                    and w_sum >= scoring.get("counted_weight_floor", 0)):
                 totals.append(round(w_score / w_sum))
+                by_model[model_name].append(round(w_score / w_sum))
             else:
                 n_none += 1
+                by_model[model_name]  # 讓沒人算得出來的模型也出現在報表裡
         totals.sort()
         cut = [pctl(totals, q) for q in (0.10, 0.30, 0.70, 0.90)]
         dist = {
@@ -497,6 +548,11 @@ def main() -> int:
             "suggested_grade_lt": [round(c) for c in cut],
         }
         print(f"\n全市場總分：{len(totals):,} 家算得出來、{n_none:,} 家覆蓋率不足")
+        for name, ts in sorted(by_model.items(), key=lambda kv: -len(kv[1])):
+            if ts:
+                ts2 = sorted(ts)
+                print(f"   [{name}] {len(ts):,} 家：p10 {pctl(ts2,.1):.0f}／"
+                      f"中位 {pctl(ts2,.5):.0f}／p90 {pctl(ts2,.9):.0f}")
         print("   " + "  ".join(f"{k} {v}" for k, v in dist["quantiles"].items()))
         print(f"   建議級距 lt：{dist['suggested_grade_lt']}"
               f"（底 10%／10–30%／30–70%／70–90%／頂 10%）")

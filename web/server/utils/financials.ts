@@ -56,6 +56,20 @@ export interface MapConcept {
    * 靜靜翻掉別的科目上千格判定。
    */
   internal?: boolean
+  /**
+   * 產業限定科目：**參與指標計算，但不輸出成三大報表的列**。
+   *
+   * 銀行的存款、保險的已賺保費是評分要用的輸入，卻不該出現在製造業的資產負債表上
+   * ——三大報表對所有公司是同一組列，多十行只會讓 7,000 家裡的 6,900 家多十行
+   * 「—」。與 `internal` 的差別：internal 連指標都看不到（它只是推算的中繼），
+   * sector 科目則會原封不動交給 /api/signals 的評分引擎。
+   *
+   * 值是給人看的標籤（`financial`／`annual` ＝哪一類公司才用得到），
+   * 程式只看「有沒有值」。
+   *
+   * ⚠️ 同樣不進適用性判定的詞彙表與缺口掃描（見 tools/fsds_coverage.py、sweep.py）。
+   */
+  sector?: string
   /** 該科目「沒申報」通常代表 0（如當期無一年內到期債務）→ 缺口補 0，避免財務結構指標間歇 n/a */
   zero_if_absent?: boolean
   /**
@@ -107,6 +121,8 @@ export interface DerivedMetric {
   /** theme.json 的 number_formats key（ratio / days / multiple…）。
    *  沒寫時 Excel 端依 id 猜，新增指標只要在對照表寫 fmt 就不必回頭改程式 */
   fmt?: string
+  /** 產業限定指標：只給評分引擎用，不進 Excel 的關鍵指標分頁（見 MapConcept.sector） */
+  sector?: string
 }
 
 export interface XbrlMap {
@@ -152,6 +168,11 @@ export interface FinancialsResult {
   periods: string[] // 由舊到新
   lineItems: LineItem[]
   derived: DerivedMetric[]
+  /** 產業限定科目與指標（銀行的存款、保險的已賺保費…）。
+   *  三大報表與 Excel 都不要，只有 /api/signals 的評分引擎會把它們接回指標名字空間。
+   *  `financials.get.ts` 在回應前刪掉這兩欄，對外的 API 形狀完全不變 */
+  sectorItems: LineItem[]
+  sectorDerived: DerivedMetric[]
   /** 偵測到上市/SPAC 借殼前的期（股數基礎不可比，已清為 n/a）；供 UI/Excel 標註 */
   preIpoBefore?: string
   /** 估值倍數（需股價，另行計算後掛上；SEC 資料本身不含） */
@@ -1821,6 +1842,8 @@ export async function getFinancials(
   // 內部科目到此為止：它們的任務（當推算輸入）已經完成，不輸出成報表列。
   // 放在最後才濾，前面的推算、借殼清期、適用性都還看得到它們。
   const internalIds = new Set(map.concepts.filter((c) => c.internal).map((c) => c.id))
+  // 產業限定科目走另一條路：不進三大報表，但要原封不動交給評分引擎（見 MapConcept.sector）
+  const sectorIds = new Set(map.concepts.filter((c) => c.sector).map((c) => c.id))
 
   return {
     company: facts.entityName || ref.name,
@@ -1830,8 +1853,10 @@ export async function getFinancials(
     periodicity: annualMode ? 'annual' : 'quarterly',
     currency,
     periods,
-    lineItems: internalIds.size ? lineItems.filter((li) => !internalIds.has(li.id)) : lineItems,
-    derived: map.derived,
+    lineItems: lineItems.filter((li) => !internalIds.has(li.id) && !sectorIds.has(li.id)),
+    derived: map.derived.filter((m) => !m.sector),
+    sectorItems: lineItems.filter((li) => sectorIds.has(li.id)),
+    sectorDerived: map.derived.filter((m) => !!m.sector),
     preIpoBefore,
   }
 }

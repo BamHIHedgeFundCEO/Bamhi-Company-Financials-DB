@@ -1,6 +1,6 @@
 {
- "version": "1.22",
- "updated": "2026-09-09",
+ "version": "1.23",
+ "updated": "2026-09-12",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
   {
@@ -1107,6 +1107,177 @@
     "IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges"
    ],
    "note": "Excluding 版排最後，因為它與前兩個定義不同：Excluding + EffectOfExchangeRateOnCash… = Including。有前兩個時絕不會用到它。但有一整批公司（多為外國發行人與美元以外功能性貨幣者）只報 Excluding，2025Q3 一季就有 1,274 家；抽驗 30 家大型加速申報人，29 家在那些期間的 companyfacts 裡確實找不到前兩個標籤 —— 也就是網頁上就是 n/a。拿定義稍有差異的數字（差額＝匯率影響）好過留白。來源：tools/fsds_coverage.py。"
+  },
+  {
+   "id": "noninterest_expense",
+   "zh": "非利息費用",
+   "en": "Noninterest Expense",
+   "statement": "IS",
+   "unit": "USD",
+   "sign": "natural",
+   "sector": "financial",
+   "tags": [
+    "NoninterestExpense",
+    "OtherNoninterestExpense"
+   ],
+   "note": "銀行損益表的費用主體（薪酬、場地、科技）。效率比的分子。"
+  },
+  {
+   "id": "provision_credit_loss",
+   "zh": "信用損失提列",
+   "en": "Provision for Credit Losses",
+   "statement": "IS",
+   "unit": "USD",
+   "sign": "natural",
+   "sector": "financial",
+   "tags": [
+    "ProvisionForLoanLeaseAndOtherLosses",
+    "FinancingReceivableExcludingAccruedInterestCreditLossExpenseReversal",
+    "ProvisionForLoanLossesExpensed",
+    "ProvisionForLoanAndLeaseLosses"
+   ],
+   "note": "CECL（2020）改制後標籤換了一輪：JPM／WFC／USB／TFC／FITB 仍用舊的 ProvisionForLoanLeaseAndOtherLosses，BAC／PNC／SCHW／MTB 只剩新的 FinancingReceivable...CreditLossExpenseReversal。兩個都收才蓋得到 10/10。"
+  },
+  {
+   "id": "net_charge_offs",
+   "zh": "淨沖銷",
+   "en": "Net Charge-offs",
+   "statement": "IS",
+   "unit": "USD",
+   "sign": "natural",
+   "sector": "financial",
+   "tags": [
+    "FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossWriteoffAfterRecovery"
+   ],
+   "note": "實際打掉的呆帳（沖銷減收回）。提列是預估，沖銷是已發生 —— 兩個要分開看。"
+  },
+  {
+   "id": "loans_gross",
+   "zh": "放款總額",
+   "en": "Loans (Gross)",
+   "statement": "BS",
+   "unit": "USD",
+   "sign": "natural",
+   "sector": "financial",
+   "tags": [
+    "FinancingReceivableExcludingAccruedInterestBeforeAllowanceForCreditLoss",
+    "FinancingReceivableExcludingAccruedInterestBeforeAllowanceForCreditLossFeeAndLoanInProcess",
+    "LoansAndLeasesReceivableNetOfDeferredIncome",
+    "NotesReceivableGross",
+    "FinancingReceivableExcludingAccruedInterestAfterAllowanceForCreditLoss",
+    "LoansAndLeasesReceivableNetReportedAmount",
+    "NotesReceivableNet"
+   ],
+   "note": "毛額優先、淨額墊底（差一個備抵，約 1%，不值得為此整項落空）。富國銀行只用 FinancingReceivablePortfolioSegmentAxis 逐組揭露放款，companyfacts 不含維度 → 那家維持 n/a，不是不適用。"
+  },
+  {
+   "id": "allowance_credit_loss",
+   "zh": "備抵信用損失",
+   "en": "Allowance for Credit Losses",
+   "statement": "BS",
+   "unit": "USD",
+   "sign": "natural",
+   "sector": "financial",
+   "tags": [
+    "FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest",
+    "FinancingReceivableAllowanceForCreditLosses",
+    "LoansAndLeasesReceivableAllowance"
+   ]
+  },
+  {
+   "id": "deposits",
+   "zh": "存款",
+   "en": "Deposits",
+   "statement": "BS",
+   "unit": "USD",
+   "sign": "natural",
+   "sector": "financial",
+   "tags": [
+    "Deposits",
+    "InterestBearingDepositLiabilities"
+   ],
+   "note": "銀行最便宜的資金來源。放存比的分母。"
+  },
+  {
+   "id": "premiums_earned",
+   "zh": "已賺保費",
+   "en": "Premiums Earned, Net",
+   "statement": "IS",
+   "unit": "USD",
+   "sign": "natural",
+   "sector": "financial",
+   "tags": [
+    "PremiumsEarnedNet",
+    "PremiumsEarnedNetPropertyAndCasualty",
+    "PremiumsEarnedNetLife"
+   ]
+  },
+  {
+   "id": "benefits_losses_expenses",
+   "zh": "給付、損失與費用合計",
+   "en": "Benefits, Losses and Expenses",
+   "statement": "IS",
+   "unit": "USD",
+   "sign": "natural",
+   "sector": "financial",
+   "tags": [
+    "BenefitsLossesAndExpenses"
+   ],
+   "note": "保險損益表的總支出（理賠＋承保費用＋管銷）。綜合成本率的分子。"
+  },
+  {
+   "id": "net_investment_income",
+   "zh": "淨投資收益",
+   "en": "Net Investment Income",
+   "statement": "IS",
+   "unit": "USD",
+   "sign": "natural",
+   "sector": "financial",
+   "tags": [
+    "NetInvestmentIncome"
+   ]
+  },
+  {
+   "id": "investments_total",
+   "zh": "投資資產",
+   "en": "Investments",
+   "statement": "BS",
+   "unit": "USD",
+   "sign": "natural",
+   "sector": "financial",
+   "tags": [
+    "Investments",
+    "MarketableSecurities",
+    "AvailableForSaleSecuritiesDebtSecurities"
+   ]
+  },
+  {
+   "id": "claims_incurred",
+   "zh": "保險給付與理賠",
+   "en": "Policyholder Benefits and Claims",
+   "statement": "IS",
+   "unit": "USD",
+   "sign": "natural",
+   "sector": "financial",
+   "tags": [
+    "PolicyholderBenefitsAndClaimsIncurredNet",
+    "PolicyholderBenefitsAndClaimsIncurredGross",
+    "LiabilityForFuturePolicyBenefitPeriodExpense"
+   ]
+  },
+  {
+   "id": "separate_account_assets",
+   "zh": "分離帳戶資產",
+   "en": "Separate Account Assets",
+   "statement": "BS",
+   "unit": "USD",
+   "sign": "natural",
+   "sector": "financial",
+   "zero_if_absent": true,
+   "tags": [
+    "SeparateAccountAssets"
+   ],
+   "note": "投資型保單的資產，風險由保戶承擔、報酬也歸保戶。掛在保險公司的資產負債表上但不是它的曝險 —— 算資本厚度時要扣掉，否則壽險看起來永遠像高槓桿。沒有這一行的公司（產險）視為 0。"
   }
  ],
  "metrics_note": "季度資料計算比率時的規則：(1) 分子為流量（IS/CF）、分母為存量（BS）時，分母取期初期末平均；(2) ROE/ROA/ROIC 等報酬率須年化（季度值 ×4）或改用 TTM，Excel 中一律標註採用何種基準；(3) 需要股價的估值倍數（P/E、EV/EBITDA）SEC 不提供，v1 不做。",
@@ -1573,6 +1744,16 @@
    "desc": "本期年增率減去上一期年增率，單位是百分點。回答「成長在加速還是在減速」——營收還在成長但加速度轉負，通常比營收本身轉負早一到兩季。年度發行人（20-F）一欄＝一整年，這一格比的是相鄰兩年的年增率差。"
   },
   {
+   "id": "revenue_accel_annual",
+   "zh": "營收加速度（年度發行人）",
+   "en": "Revenue Acceleration (Annual Filers)",
+   "group": "年度發行人",
+   "formula": "(revenue[t] / revenue[t-4] - 1) - (revenue[t-4] / revenue[t-8] - 1)",
+   "desc": "年度模式下 [t-4] 換算成前 1 欄、[t-8] 換算成前 2 欄 → 今年成長減去年成長。只給 20-F 這種一欄＝一整年的發行人用；季度模式下這個值不會被任何地方讀到。",
+   "fmt": "ratio",
+   "sector": "annual"
+  },
+  {
    "id": "inventory_other",
    "zh": "存貨－其他（總額−成品）",
    "en": "Inventory ex-Finished Goods",
@@ -1895,6 +2076,504 @@
    "fmt": "days",
    "group": "轉折訊號",
    "desc": "比較基準也是滾動四季（本期四季 vs 去年同期四季）。單季對單季的年增率會把一次性的出貨時點讀成轉折 —— 實測評分逐季震盪 ±13～20 分，換成滾動四季之後才看得出真正的方向。年度發行人一欄＝一整年，本列顯示「—」，評分自動退回單期版本。"
+  },
+  {
+   "id": "bank_revenue",
+   "zh": "銀行營收（淨利息＋非利息）",
+   "en": "Bank Revenue",
+   "group": "金融業評分",
+   "formula": "interest_income_net + noninterest_income",
+   "desc": "銀行業自己的營收定義。us-gaap 的 Revenues 對銀行沒有共識，多數銀行根本不申報。",
+   "sector": "financial"
+  },
+  {
+   "id": "bank_net_margin",
+   "zh": "淨利率（銀行口徑）",
+   "en": "Net Margin (Bank)",
+   "group": "金融業評分",
+   "formula": "net_income / bank_revenue",
+   "desc": "分母是淨利息收入＋非利息收入，與效率比同一個底。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "interest_income_net_ttm",
+   "zh": "淨利息收入（滾動四季）",
+   "en": "Net Interest Income (TTM)",
+   "group": "金融業評分",
+   "formula": "(interest_income_net[t] + interest_income_net[t-1] + interest_income_net[t-2] + interest_income_net[t-3])",
+   "desc": "利息收入減利息費用。銀行損益表的第一行。",
+   "sector": "financial"
+  },
+  {
+   "id": "noninterest_income_ttm",
+   "zh": "非利息收入（滾動四季）",
+   "en": "Noninterest Income (TTM)",
+   "group": "金融業評分",
+   "formula": "(noninterest_income[t] + noninterest_income[t-1] + noninterest_income[t-2] + noninterest_income[t-3])",
+   "desc": "手續費、財富管理、投銀、交易損益。",
+   "sector": "financial"
+  },
+  {
+   "id": "bank_revenue_ttm",
+   "zh": "銀行營收（滾動四季）",
+   "en": "Bank Revenue (TTM)",
+   "group": "金融業評分",
+   "formula": "interest_income_net_ttm + noninterest_income_ttm",
+   "desc": "",
+   "sector": "financial"
+  },
+  {
+   "id": "bank_net_margin_ttm",
+   "zh": "淨利率（銀行口徑，滾動四季）",
+   "en": "Net Margin (Bank, TTM)",
+   "group": "金融業評分",
+   "formula": "net_income_ttm / bank_revenue_ttm",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "noninterest_expense_ttm",
+   "zh": "非利息費用（滾動四季）",
+   "en": "Noninterest Expense (TTM)",
+   "group": "金融業評分",
+   "formula": "(noninterest_expense[t] + noninterest_expense[t-1] + noninterest_expense[t-2] + noninterest_expense[t-3])",
+   "desc": "",
+   "sector": "financial"
+  },
+  {
+   "id": "provision_credit_loss_ttm",
+   "zh": "信用損失提列（滾動四季）",
+   "en": "Provision for Credit Losses (TTM)",
+   "group": "金融業評分",
+   "formula": "(provision_credit_loss[t] + provision_credit_loss[t-1] + provision_credit_loss[t-2] + provision_credit_loss[t-3])",
+   "desc": "",
+   "sector": "financial"
+  },
+  {
+   "id": "net_charge_offs_ttm",
+   "zh": "淨沖銷（滾動四季）",
+   "en": "Net Charge-offs (TTM)",
+   "group": "金融業評分",
+   "formula": "(net_charge_offs[t] + net_charge_offs[t-1] + net_charge_offs[t-2] + net_charge_offs[t-3])",
+   "desc": "",
+   "sector": "financial"
+  },
+  {
+   "id": "premiums_earned_ttm",
+   "zh": "已賺保費（滾動四季）",
+   "en": "Premiums Earned (TTM)",
+   "group": "金融業評分",
+   "formula": "(premiums_earned[t] + premiums_earned[t-1] + premiums_earned[t-2] + premiums_earned[t-3])",
+   "desc": "",
+   "sector": "financial"
+  },
+  {
+   "id": "benefits_losses_expenses_ttm",
+   "zh": "給付、損失與費用（滾動四季）",
+   "en": "Benefits, Losses and Expenses (TTM)",
+   "group": "金融業評分",
+   "formula": "(benefits_losses_expenses[t] + benefits_losses_expenses[t-1] + benefits_losses_expenses[t-2] + benefits_losses_expenses[t-3])",
+   "desc": "",
+   "sector": "financial"
+  },
+  {
+   "id": "net_investment_income_ttm",
+   "zh": "淨投資收益（滾動四季）",
+   "en": "Net Investment Income (TTM)",
+   "group": "金融業評分",
+   "formula": "(net_investment_income[t] + net_investment_income[t-1] + net_investment_income[t-2] + net_investment_income[t-3])",
+   "desc": "",
+   "sector": "financial"
+  },
+  {
+   "id": "dividends_paid_ttm",
+   "zh": "支付股利（滾動四季）",
+   "en": "Dividends Paid (TTM)",
+   "group": "金融業評分",
+   "formula": "(dividends_paid[t] + dividends_paid[t-1] + dividends_paid[t-2] + dividends_paid[t-3])",
+   "desc": "",
+   "sector": "financial"
+  },
+  {
+   "id": "nim",
+   "zh": "淨利息收益率",
+   "en": "Net Interest Margin",
+   "group": "金融業評分",
+   "formula": "interest_income_net * 4 / avg(total_assets)",
+   "desc": "分母用總資產而非生息資產 —— 生息資產只在附註揭露，本站不解析 HTML 取數字。因此這個值會比銀行自己公布的 NIM 略低，跨行比較仍然一致。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "efficiency_ratio",
+   "zh": "效率比",
+   "en": "Efficiency Ratio",
+   "group": "金融業評分",
+   "formula": "noninterest_expense / (interest_income_net + noninterest_income)",
+   "desc": "每賺一塊錢營收要花多少錢。**越低越好**，銀行業的頭號經營指標。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "efficiency_ratio_delta",
+   "zh": "效率比年變化",
+   "en": "Efficiency Ratio YoY Change",
+   "group": "金融業評分",
+   "formula": "efficiency_ratio - efficiency_ratio[t-4]",
+   "desc": "正值＝成本控制在惡化。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "fee_income_share",
+   "zh": "非利息收入佔比",
+   "en": "Fee Income Share",
+   "group": "金融業評分",
+   "formula": "noninterest_income / (interest_income_net + noninterest_income)",
+   "desc": "手續費收入的比重。高＝獲利較不受利率循環擺布。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "credit_cost",
+   "zh": "信用成本",
+   "en": "Credit Cost",
+   "group": "金融業評分",
+   "formula": "provision_credit_loss * 4 / avg(loans_gross)",
+   "desc": "本期為了可能收不回來的放款提列了多少，佔放款的比率。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "credit_cost_delta",
+   "zh": "信用成本年變化",
+   "en": "Credit Cost YoY Change",
+   "group": "金融業評分",
+   "formula": "credit_cost - credit_cost[t-4]",
+   "desc": "提列跳升通常比逾放數字更早反映景氣轉折。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "nco_rate",
+   "zh": "淨沖銷率",
+   "en": "Net Charge-off Rate",
+   "group": "金融業評分",
+   "formula": "net_charge_offs * 4 / avg(loans_gross)",
+   "desc": "已經實際打掉的呆帳佔放款比率。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "equity_to_assets",
+   "zh": "權益對資產比",
+   "en": "Equity to Assets",
+   "group": "金融業評分",
+   "formula": "equity / total_assets",
+   "desc": "最粗但最誠實的資本厚度。CET1 只在附註揭露、companyfacts 沒有，本站不從 HTML 取數字，所以用這個代替。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "loan_to_deposit",
+   "zh": "放存比",
+   "en": "Loan to Deposit",
+   "group": "金融業評分",
+   "formula": "loans_gross / deposits",
+   "desc": "放款相對存款的比率。過高＝流動性吃緊，過低＝資金沒用起來。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "deposit_yoy",
+   "zh": "存款年增率",
+   "en": "Deposits YoY",
+   "group": "金融業評分",
+   "formula": "deposits[t] / deposits[t-4] - 1",
+   "desc": "存款流失是銀行最早出現的壓力訊號。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "combined_ratio",
+   "zh": "綜合成本率",
+   "en": "Combined Ratio",
+   "group": "金融業評分",
+   "formula": "benefits_losses_expenses / premiums_earned",
+   "desc": "給付與費用合計 ÷ 已賺保費。**低於 1 ＝ 承保本身就賺錢**。壽險與年金公司的保費相對總營收小，這個值結構性偏高，要跟同業比不要跟產險比。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "combined_ratio_delta",
+   "zh": "綜合成本率年變化",
+   "en": "Combined Ratio YoY Change",
+   "group": "金融業評分",
+   "formula": "combined_ratio - combined_ratio[t-4]",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "investment_yield",
+   "zh": "投資收益率",
+   "en": "Investment Yield",
+   "group": "金融業評分",
+   "formula": "net_investment_income * 4 / avg(investments_total)",
+   "desc": "保險公司的第二條獲利線：收來的保費在賠出去之前投資賺多少。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "premiums_yoy",
+   "zh": "已賺保費年增率",
+   "en": "Premiums Earned YoY",
+   "group": "金融業評分",
+   "formula": "premiums_earned[t] / premiums_earned[t-4] - 1",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "ocf_margin",
+   "zh": "營運現金流利潤率",
+   "en": "Operating Cash Flow Margin",
+   "group": "金融業評分",
+   "formula": "cfo / revenue",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "debt_to_assets",
+   "zh": "負債對資產比（有息）",
+   "en": "Debt to Assets",
+   "group": "金融業評分",
+   "formula": "(short_term_debt + long_term_debt) / total_assets",
+   "desc": "REIT 用這個比負債權益比穩：不動產按成本減折舊入帳，帳面權益會被折舊啃掉，分母用資產至少兩邊都是同一套成本基礎。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "dividend_to_ocf",
+   "zh": "配息對營運現金流",
+   "en": "Dividends to Operating Cash Flow",
+   "group": "金融業評分",
+   "formula": "dividends_paid / cfo",
+   "desc": "REIT 依法要配掉 90% 以上的應稅所得，這個比率接近或超過 1 是常態；超過越多，配息越依賴舉債或增資。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "nim_ttm",
+   "zh": "淨利息收益率（滾動四季）",
+   "en": "Net Interest Margin (TTM)",
+   "group": "金融業評分",
+   "formula": "interest_income_net_ttm / avg(total_assets)",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "roa_ttm",
+   "zh": "資產報酬率（滾動四季）",
+   "en": "Return on Assets (TTM)",
+   "group": "金融業評分",
+   "formula": "net_income_ttm / avg(total_assets)",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "efficiency_ratio_ttm",
+   "zh": "效率比（滾動四季）",
+   "en": "Efficiency Ratio (TTM)",
+   "group": "金融業評分",
+   "formula": "noninterest_expense_ttm / (interest_income_net_ttm + noninterest_income_ttm)",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "efficiency_ratio_ttm_delta",
+   "zh": "效率比年變化（滾動四季）",
+   "en": "Efficiency Ratio YoY Change (TTM)",
+   "group": "金融業評分",
+   "formula": "efficiency_ratio_ttm - efficiency_ratio_ttm[t-4]",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "fee_income_share_ttm",
+   "zh": "非利息收入佔比（滾動四季）",
+   "en": "Fee Income Share (TTM)",
+   "group": "金融業評分",
+   "formula": "noninterest_income_ttm / (interest_income_net_ttm + noninterest_income_ttm)",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "credit_cost_ttm",
+   "zh": "信用成本（滾動四季）",
+   "en": "Credit Cost (TTM)",
+   "group": "金融業評分",
+   "formula": "provision_credit_loss_ttm / avg(loans_gross)",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "credit_cost_ttm_delta",
+   "zh": "信用成本年變化（滾動四季）",
+   "en": "Credit Cost YoY Change (TTM)",
+   "group": "金融業評分",
+   "formula": "credit_cost_ttm - credit_cost_ttm[t-4]",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "nco_rate_ttm",
+   "zh": "淨沖銷率（滾動四季）",
+   "en": "Net Charge-off Rate (TTM)",
+   "group": "金融業評分",
+   "formula": "net_charge_offs_ttm / avg(loans_gross)",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "combined_ratio_ttm",
+   "zh": "綜合成本率（滾動四季）",
+   "en": "Combined Ratio (TTM)",
+   "group": "金融業評分",
+   "formula": "benefits_losses_expenses_ttm / premiums_earned_ttm",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "combined_ratio_ttm_delta",
+   "zh": "綜合成本率年變化（滾動四季）",
+   "en": "Combined Ratio YoY Change (TTM)",
+   "group": "金融業評分",
+   "formula": "combined_ratio_ttm - combined_ratio_ttm[t-4]",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "investment_yield_ttm",
+   "zh": "投資收益率（滾動四季）",
+   "en": "Investment Yield (TTM)",
+   "group": "金融業評分",
+   "formula": "net_investment_income_ttm / avg(investments_total)",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "premiums_yoy_ttm",
+   "zh": "已賺保費年增率（滾動四季）",
+   "en": "Premiums Earned YoY (TTM)",
+   "group": "金融業評分",
+   "formula": "premiums_earned_ttm[t] / premiums_earned_ttm[t-4] - 1",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "ocf_margin_ttm",
+   "zh": "營運現金流利潤率（滾動四季）",
+   "en": "Operating Cash Flow Margin (TTM)",
+   "group": "金融業評分",
+   "formula": "cfo_ttm / revenue_ttm",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "ebitda_margin_ttm",
+   "zh": "EBITDA 利潤率（滾動四季）",
+   "en": "EBITDA Margin (TTM)",
+   "group": "金融業評分",
+   "formula": "ebitda_ttm / revenue_ttm",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "dividend_to_ocf_ttm",
+   "zh": "配息對營運現金流（滾動四季）",
+   "en": "Dividends to Operating Cash Flow (TTM)",
+   "group": "金融業評分",
+   "formula": "dividends_paid_ttm / cfo_ttm",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "benefit_ratio",
+   "zh": "給付率",
+   "en": "Benefit Ratio",
+   "group": "金融業評分",
+   "formula": "claims_incurred / premiums_earned",
+   "desc": "給付與理賠 ÷ 已賺保費。產險就是損失率；壽險含利息給付，水準本來就比產險高，所以錨點只跟 4 位 SIC 的同業比，不退 2 位大類。",
+   "fmt": "ratio",
+   "sector": "financial"
+  },
+  {
+   "id": "benefit_ratio_delta",
+   "zh": "給付率年變化",
+   "en": "Benefit Ratio YoY Change",
+   "group": "金融業評分",
+   "formula": "benefit_ratio - benefit_ratio[t-4]",
+   "desc": "",
+   "fmt": "ratio",
+   "sector": "financial"
+  },
+  {
+   "id": "equity_to_general_assets",
+   "zh": "權益對一般帳戶資產",
+   "en": "Equity to General Account Assets",
+   "group": "金融業評分",
+   "formula": "equity / (total_assets - separate_account_assets)",
+   "desc": "扣掉分離帳戶之後的資本厚度。沒有分離帳戶的公司，這個值等於權益對資產。",
+   "fmt": "ratio",
+   "sector": "financial"
+  },
+  {
+   "id": "claims_incurred_ttm",
+   "zh": "保險給付與理賠（滾動四季）",
+   "en": "Policyholder Benefits (TTM)",
+   "group": "金融業評分",
+   "formula": "(claims_incurred[t] + claims_incurred[t-1] + claims_incurred[t-2] + claims_incurred[t-3])",
+   "desc": "",
+   "sector": "financial"
+  },
+  {
+   "id": "benefit_ratio_ttm",
+   "zh": "給付率（滾動四季）",
+   "en": "Benefit Ratio (TTM)",
+   "group": "金融業評分",
+   "formula": "claims_incurred_ttm / premiums_earned_ttm",
+   "desc": "",
+   "fmt": "ratio",
+   "sector": "financial"
+  },
+  {
+   "id": "benefit_ratio_ttm_delta",
+   "zh": "給付率年變化（滾動四季）",
+   "en": "Benefit Ratio YoY Change (TTM)",
+   "group": "金融業評分",
+   "formula": "benefit_ratio_ttm - benefit_ratio_ttm[t-4]",
+   "desc": "",
+   "fmt": "ratio",
+   "sector": "financial"
   }
  ]
 }

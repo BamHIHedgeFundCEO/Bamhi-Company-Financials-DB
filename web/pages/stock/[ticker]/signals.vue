@@ -5,10 +5,16 @@
  * 資料全部來自 `/api/signals`，而那支走的是 `getFinancials` 同一條路
  * ——**零額外 SEC 請求**，與財務報表分頁共用同一份 companyfacts 與快取。
  *
- * 這一頁刻意不做的三件事：
- *   1. 不做綜合評分。把十幾個訊號壓成一個分數要靠權重，那是我們憑空造的數字。
- *   2. 不預測、不建議買賣。每個訊號只回答一個當場可以核對的問題。
- *   3. 不把三種留白混成一種：n/a（該申報卻抓不到）／—（不適用、或比較基期
+ * 評分給，但**每一分都要能拆回原始數字**：總分 → 構面 → 逐項（原始值、bad／good
+ * 錨點、線性得分、權重、錨點是同業還是絕對）全部攤在頁面上。權重是我們設的，
+ * 所以它必須可被讀者當場推翻，而不是只能相信。
+ *
+ * 構面**按產業分五套**（通用／銀行／產險／壽險／REIT，按 SIC 選）。頁面固定寫出
+ * 用的是哪一套：換模型等於換尺，兩套之間的總分不可比。
+ *
+ * 這一頁刻意不做的兩件事：
+ *   1. 不預測、不建議買賣。每個訊號只回答一個當場可以核對的問題。
+ *   2. 不把三種留白混成一種：n/a（該申報卻抓不到）／—（不適用、或比較基期
  *      落在所選期間之外）各自寫清楚是哪一種。
  */
 const route = useRoute()
@@ -129,6 +135,20 @@ function confirmed(c: Card): string | null {
 // ── 量化評分 ────────────────────────────────────────────
 const score = computed<any>(() => data.value?.score ?? null)
 const dims = computed<any[]>(() => score.value?.dimensions ?? [])
+/** 三道門檻，擋下來的時候要說出是哪一道 —— 「覆蓋率不足」四個字看不出要去補什麼 */
+const noTotalWhy = computed(() => {
+  const s = score.value
+  if (!s) return ''
+  const cov = Math.round(s.coverage * 100)
+  const floor = Math.round((s.coverageFloor ?? 0.35) * 100)
+  if (cov < floor) return `整頁的權重覆蓋率只有 ${cov}%，低於 ${floor}%`
+  const cw = Math.round((s.countedWeight ?? 0) * 100)
+  if (cw < 60) {
+    const kept = dims.value.filter((d) => d.counted).map((d) => d.zh).join('、')
+    return `進總分的構面權重只有 ${cw}%（只有${kept || '沒有任何構面'}算得出來），低於 60%`
+  }
+  return '算得出來的項目不足'
+})
 /** 展開哪一個構面的逐項明細 */
 const openDim = ref<string | null>(null)
 
@@ -224,6 +244,13 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
             <span class="hint">{{ latestPeriod }}　評分模型 v{{ score.version }}　對照表 v{{ data.mapVersion }}</span>
           </div>
 
+          <p v-if="score.model && score.model !== 'general'" class="modelnote">
+            這家公司用的是<b>「{{ score.modelZh }}」模型</b>（SIC {{ data.sic }}），
+            不是通用模型 —— 構面與計分項整組不同。
+            <span class="mdesc">{{ score.modelDesc }}</span>
+            <i>換模型等於換尺：<b>兩套模型之間的總分不可比</b>，同一套之內才可以互相比。</i>
+          </p>
+
           <div class="scorehead">
             <div class="big">
               <b v-if="score.total != null" class="tot mono" :class="scoreClass(score.total)">{{ score.total }}</b>
@@ -246,6 +273,10 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
                 權重覆蓋 <b class="mono">{{ Math.round(score.coverage * 100) }}%</b>
                 <i>（低於 {{ Math.round(score.coverageFloor * 100) }}% 不給總分）</i>
               </small>
+              <small v-if="score.countedWeight != null" class="covw">
+                進總分的構面權重 <b class="mono">{{ Math.round(score.countedWeight * 100) }}%</b>
+                <i>（低於 60% 不給總分）</i>
+              </small>
               <small v-if="score.peerAnchored != null" class="covw">
                 其中 <b class="mono">{{ score.peerAnchored }}</b> 項用同業錨點
               </small>
@@ -260,10 +291,10 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
           </p>
 
           <p v-if="score.total == null" class="nototal">
-            覆蓋率低於 {{ Math.round(score.coverageFloor * 100) }}%，<b>不給總分</b>。
+            <b>不給總分</b>：{{ noTotalWhy }}。
             拿少數幾項湊出來的總分是雜訊不是結論——下面算得出來的構面分仍然是真的。
-            銀行、保險、REITs 常常落在這裡：它們的財務結構與現金含量要用另一套指標
-            （資本適足率、淨利差、提存覆蓋率）才有意義，那是另一個模型。
+            資產管理與私募（SIC 6211／6282）目前常落在這裡：它們沒有存放款、沒有承保，
+            資產負債表上主要是自有投資與受託資產，五套模型都不是為它們寫的。
           </p>
 
           <div class="dims">
@@ -300,8 +331,10 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
                       <td class="r mono">{{ itemValue(it) }}</td>
                       <td class="r mono anch">
                         {{ fmtAnchor(it.bad) }} → {{ fmtAnchor(it.good) }}
-                        <i class="asrc" :class="it.anchorSource" :title="anchorWhy[it.anchorSource]">{{
+                        <i class="asrc" :class="it.anchorSource"
+                           :title="it.anchorNote || anchorWhy[it.anchorSource]">{{
                           anchorTag[it.anchorSource] }}</i>
+                        <i v-if="it.anchorNote" class="anote">{{ it.anchorNote }}</i>
                       </td>
                       <td class="r mono" :class="scoreClass(it.score)">{{ fmtScore(it.score) }}</td>
                       <td class="r mono w">{{ it.weight }}</td>
@@ -328,8 +361,13 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
             也在 <code>config/scoring.json</code> 裡），不同的假設會得到不同的分數。
             分數只用 SEC 申報數字計算，不含產業前景、競爭態勢、管理階層、法規與股價。
             錨點優先用<b>同業百分位</b>（同一個 SIC 的第 10／90 百分位，來自 SEC DERA
-            季度資料集的 6,124 家公司）；同業樣本不足 30 家的指標才退回跨產業絕對值，
-            上表每一列都標了用的是哪一種。評級級距是<b>全市場總分的分位數</b>
+            季度資料集的 6,125 家公司）；同業樣本不足 30 家的指標才退回跨產業絕對值，
+            上表每一列都標了用的是哪一種。少數項目標了「只認 4 位 SIC」——
+            因為 2 位大類在那裡不是同業（SIC 63 把壽險與產險裝在同一個桶子，
+            權益對資產差五倍）。
+            <b>構面本身也分產業</b>：銀行、產險、壽險、REIT 各有一套構面（按 SIC 選），
+            通用模型的毛利率與存貨天數對它們沒有意義。評級級距與覆蓋率門檻五套共用，
+            所以「穩健」在哪一頁都是同一件事；但<b>總分只在同一套模型之內可比</b>。評級級距是<b>全市場總分的分位數</b>
             （底 10%／10–30%／30–70%／70–90%／頂 10%），所以「中性」的意思是
             「和市場上多數公司差不多」，不是「及格」。
             <b>同業錨點量的是「相對於同業」</b>：整個產業一起惡化時分數不會反映，
@@ -508,6 +546,14 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
 .skip li span { color: var(--ink-2); flex: 1; min-width: 14em; }
 
 /* ── 體質評分 ─────────────────────────────────────── */
+.modelnote { font-size: 12.5px; line-height: 1.8; color: var(--ink-2);
+  background: var(--green-wash); border-left: 2px solid var(--green);
+  padding: 9px 12px; margin: 10px 0 0; }
+.modelnote b { color: var(--ink); }
+.modelnote .mdesc { display: block; margin-top: 4px; color: var(--ink-2); }
+.modelnote i { display: block; margin-top: 4px; font-style: normal; color: var(--ink-3); }
+.anote { display: block; font-style: normal; font-family: var(--sans); font-size: 10.5px;
+  color: var(--ink-3); line-height: 1.5; margin-top: 2px; }
 .scorehead { display: flex; align-items: stretch; gap: 22px; flex-wrap: wrap; margin-bottom: 16px; }
 .scorehead .big { display: flex; align-items: baseline; gap: 10px; }
 .tot { font-size: 46px; font-weight: 700; letter-spacing: -.03em; line-height: 1; }

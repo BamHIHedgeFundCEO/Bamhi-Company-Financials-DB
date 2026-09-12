@@ -3,7 +3,7 @@ import { resolveCompany } from '../utils/cik'
 import { getFinancials } from '../utils/financials'
 import { computeMetrics, type MetricCell } from '../utils/metrics'
 import { parseTickers, parseRange, clampWithLookback } from '../utils/params'
-import { scoreAt, scoreSeries, arrowOf, type ScoringConfig, type PeerStats } from '../utils/scoring'
+import { scoreAt, scoreSeries, arrowOf, pickModel, type ScoringConfig, type PeerStats } from '../utils/scoring'
 
 /**
  * GET /api/signals?ticker=NVDA&years=5
@@ -16,11 +16,17 @@ import { scoreAt, scoreSeries, arrowOf, type ScoringConfig, type PeerStats } fro
  * 公式一律取自 `config/xbrl_zh_map.json` 的 `derived`（與 Excel 關鍵指標分頁同一份），
  * 門檻與判讀文案取自 `config/signals.json`。新增一個訊號＝改兩份設定，不動程式。
  *
- * 三件不做：
- *   1. **不做綜合評分。**十七個訊號壓成一個分數要靠權重，那是我們憑空造的數字，
- *      SEC 沒說過。頁面只給逐項判讀與「幾項亮警訊」的計數。
- *   2. **不預測、不給買賣建議。**每個訊號回答的是一個可以當場核對的問題。
- *   3. **不把三種留白混成一種。**n/a（該申報卻抓不到）／—（不適用或基期不在區間內）
+ * 評分（`scoring.json` + `scoring.ts`）走同一份指標，**構面按 SIC 分五套**
+ * （通用／銀行／產險／壽險／REIT）。銀行沒有毛利與存貨、壽險的保費與給付不對稱、
+ * REIT 的淨利被折舊啃掉 —— 拿通用模型的 26 個計分項去套，這幾類公司只有 7～8 項
+ * 算得出來、全部落在「無法評分」。那不是它們體質差，是我們拿錯了尺。
+ *
+ * 產業限定的科目與指標（存款、放款、已賺保費…）帶 `sector` 旗標：
+ * 它們**不進三大報表也不進 Excel**，只在這裡接回指標的名字空間。
+ *
+ * 兩件不做：
+ *   1. **不預測、不給買賣建議。**每個訊號回答的是一個可以當場核對的問題。
+ *   2. **不把三種留白混成一種。**n/a（該申報卻抓不到）／—（不適用或基期不在區間內）
  *      各自保留理由，前端照理由寫字。
  */
 
@@ -120,7 +126,11 @@ export default defineEventHandler(async (event) => {
   const lookback = (fin as { lookbackCount?: number }).lookbackCount ?? 0
 
   const annual = fin.periodicity === 'annual'
-  const metrics = computeMetrics(fin.derived, fin.lineItems, fin.periods, annual)
+  // 產業限定科目與指標（銀行的存款、保險的已賺保費…）在這裡接回同一個名字空間。
+  // 順序不能調換：sectorDerived 引用了 net_income_ttm／cfo_ttm 這些前面定義的指標，
+  // 求值器是照陣列順序算的，放到前面會整條解不出來（check_signals.py 會擋）
+  const lineItems = [...fin.lineItems, ...fin.sectorItems]
+  const metrics = computeMetrics([...fin.derived, ...fin.sectorDerived], lineItems, fin.periods, annual)
   const cfg = await loadSignals()
   const scfg = await loadScoring()
   const peer = await loadPeer()
@@ -130,7 +140,7 @@ export default defineEventHandler(async (event) => {
   const guardValue = (id: string, i: number): number | null => {
     const m = metrics.get(id)
     if (m) return m.cells[i]?.reason === 'ok' ? m.cells[i]!.value : null
-    const li = fin.lineItems.find((x) => x.id === id)
+    const li = lineItems.find((x) => x.id === id)
     return li?.values[fin.periods[i]!]?.value ?? null
   }
 
@@ -191,12 +201,16 @@ export default defineEventHandler(async (event) => {
   // ── 量化評分 ────────────────────────────────────────
   // 逐期算，因為方向箭頭＝「本期總分 − 去年同期總分」，用分數自己的歷史，
   // 不另外定義一組沒人能驗證的趨勢分權重
+  // 產業模型只挑一次：銀行／保險／REIT 各有自己的一套構面，對不到區間就用通用模型。
+  // 頁面要寫出用的是哪一套 —— 換模型等於換構面與換錨點，兩套之間的分數不可比
+  const model = pickModel(scfg, ref.sic)
   const ctx = {
     metrics,
     annual,
     sic: ref.sic,
+    model,
     peer,
-    rawAt: (id: string, i: number) => fin.lineItems.find((x) => x.id === id)?.values[fin.periods[i]!]?.value ?? null,
+    rawAt: (id: string, i: number) => lineItems.find((x) => x.id === id)?.values[fin.periods[i]!]?.value ?? null,
   }
   const seriesAll = scoreSeries(scfg, ctx, fin.periods.length)
   const score = scoreAt(scfg, ctx, fin.periods.length - 1)
@@ -218,6 +232,8 @@ export default defineEventHandler(async (event) => {
     company: fin.company,
     cik: fin.cik,
     ticker: fin.ticker,
+    // 評分模型是按 SIC 選的，頁面要說得出「你看的是哪一套」→ 代號一起回
+    sic: ref.sic ?? null,
     mapVersion: fin.mapVersion,
     signalsVersion: cfg.version,
     periodicity: fin.periodicity,

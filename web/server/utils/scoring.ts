@@ -47,6 +47,18 @@ export interface ScoreItemCfg {
   /** 這些 SIC 區間內的公司不計這一項（不是缺資料，是這個指標對那門生意沒有定義） */
   not_meaningful_sic?: [number, number][]
   not_meaningful_note?: string
+  /**
+   * 同業錨點**只認 4 位 SIC，不退 2 位大類**。
+   *
+   * 退大類的前提是「大類裡的公司結構相近」，這件事不是到處都成立：SIC 63 把壽險
+   * （6311）、意外健康（6321）、產險（6331）、保證保險裝在同一個桶子，而它們的
+   * 權益對資產差五倍、綜合成本率差一倍。對這種項目退大類不是「退而求其次」，
+   * 是拿別人的分布當自己的尺 —— 寧可退回絕對錨點（至少它是我們寫下來、講得出理由的）。
+   */
+  peer4_only?: boolean
+  /** 絕對錨點的出處（例如「DERA 的 SIC 6311 分布 p10／p90，21 家」）。
+   *  只在真的用到絕對錨點時才顯示 —— 錨點哪來的也是「每一分都拆得回去」的一環 */
+  anchor_note?: string
 }
 export interface DimensionCfg {
   id: string
@@ -65,15 +77,42 @@ export interface PeerStats {
   metrics: Record<string, Record<string, [number, number]>>
 }
 
+/**
+ * 產業模型：同一套公式、不同的構面。
+ *
+ * 銀行沒有毛利與存貨、保險的本業是承保與投資、REIT 的淨利被折舊啃掉 ——
+ * 拿通用模型的 26 個計分項去套，這三類公司只有 7～8 項算得出來、覆蓋率 32～35%，
+ * 全部落在「無法評分」。那不是它們體質差，是我們拿錯了尺。
+ *
+ * **選哪一套只看 SIC 區間**，沒對到就用通用模型（頂層的 `dimensions`）。
+ * 評級級距與兩個覆蓋率門檻三套共用 —— 級距是全市場總分的分位數，
+ * 每套各訂一組的話「穩健」在銀行頁與軟體頁會是兩件事，而讀者只看得到同樣兩個字。
+ */
+export interface ScoreModel {
+  id: string
+  zh: string
+  desc: string
+  /** 四位 SIC 的閉區間，可多段 */
+  sic: [number, number][]
+  dimensions: DimensionCfg[]
+}
+
 export interface ScoringConfig {
   version: string
   note: string
   coverage_floor: number
   dimension_coverage_floor: number
+  /** 進總分的構面權重合計下限。低於它就不給總分（見 aggregate 的註解） */
+  counted_weight_floor?: number
   grades: { lt?: number; id: string; zh: string }[]
   arrow: { lt?: number; id: string; zh: string }[]
   dimensions: DimensionCfg[]
+  models?: ScoreModel[]
+  models_note?: string
 }
+
+/** 通用模型。設定檔頂層的 `dimensions` 就是它 —— 沒有任何 SIC 區間對得到它，它是墊底的那一套 */
+const GENERAL_ID = 'general'
 
 export interface ScoredItem {
   metric: string
@@ -92,6 +131,8 @@ export interface ScoredItem {
   anchorSource: 'peer4' | 'peer2' | 'absolute'
   /** 同業錨點時：用的是哪個 SIC 群 */
   anchorScope?: string
+  /** 絕對錨點時：這兩個數字哪來的（設定層的 anchor_note） */
+  anchorNote?: string
   note?: string
   isEstimated: boolean
 }
@@ -107,7 +148,13 @@ export interface ScoredDimension {
   items: ScoredItem[]
 }
 export interface ScoreResult {
-  /** 26 項裡有幾項用到同業錨點（頁面要說得出這個分數的錨點來自哪裡） */
+  /** 進總分的構面權重合計（頁面要說得出「這個分數是由多少權重撐起來的」） */
+  countedWeight?: number
+  /** 用的是哪一套產業模型（general / bank / insurance / reit） */
+  model: string
+  modelZh: string
+  modelDesc: string
+  /** 計分項裡有幾項用到同業錨點（頁面要說得出這個分數的錨點來自哪裡） */
   peerAnchored: number
   total: number | null
   grade: { id: string; zh: string } | null
@@ -134,10 +181,36 @@ function sicIn(sic: string | undefined, ranges?: [number, number][]): boolean {
   return ranges.some(([lo, hi]) => n >= lo && n <= hi)
 }
 
+/**
+ * SIC → 產業模型。對不到任何區間就回通用模型。
+ *
+ * 區間重疊時取**最窄**的那一段（與 applicability.ts 的 groupOf 同一條規則）：
+ * 之後要為「消費金融」這種子類另立模型時，只要加一段更窄的區間就會自動勝出，
+ * 不必回頭改程式。
+ */
+export function pickModel(cfg: ScoringConfig, sic?: string): {
+  id: string; zh: string; desc: string; dimensions: DimensionCfg[]
+} {
+  const general = { id: GENERAL_ID, zh: '通用', desc: '', dimensions: cfg.dimensions }
+  if (!sic || !/^\d+$/.test(sic) || !cfg.models?.length) return general
+  const n = Number(sic)
+  let best: { span: number; m: ScoreModel } | null = null
+  for (const m of cfg.models) {
+    for (const [lo, hi] of m.sic ?? []) {
+      if (n < lo || n > hi) continue
+      const span = hi - lo
+      if (!best || span < best.span) best = { span, m }
+    }
+  }
+  return best ? { id: best.m.id, zh: best.m.zh, desc: best.m.desc, dimensions: best.m.dimensions } : general
+}
+
 export interface ScoreCtx {
   metrics: Map<string, MetricSeries>
   annual: boolean
   sic?: string
+  /** 這家公司用的產業模型（`pickModel` 挑的）。構面全部從這裡取，不再讀 cfg.dimensions */
+  model: { id: string; zh: string; desc: string; dimensions: DimensionCfg[] }
   /** 同業百分位錨點；沒有就整組退回絕對錨點 */
   peer?: PeerStats | null
   /** 逐期原始科目值（作廢守門員要看單一科目，不只指標） */
@@ -156,7 +229,10 @@ function anchorsFor(cfg: ScoreCtx, ci: ScoreItemCfg):
   const table = cfg.peer?.metrics?.[ci.metric]
   const sic = cfg.sic
   if (table && sic) {
-    for (const [key, source] of [[sic, 'peer4'], [`g${sic.slice(0, 2)}`, 'peer2']] as const) {
+    const chain = ci.peer4_only
+      ? ([[sic, 'peer4']] as const)
+      : ([[sic, 'peer4'], [`g${sic.slice(0, 2)}`, 'peer2']] as const)
+    for (const [key, source] of chain) {
       const a = table[key]
       if (a && a[0] !== a[1]) return { bad: a[0], good: a[1], source, scope: key }
     }
@@ -164,8 +240,8 @@ function anchorsFor(cfg: ScoreCtx, ci: ScoreItemCfg):
   return { bad: ci.bad, good: ci.good, source: 'absolute' }
 }
 
-function scoreItems(cfg: ScoringConfig, ctx: ScoreCtx, idx: number): ScoredDimension[] {
-  return cfg.dimensions.map((d) => {
+function scoreItems(ctx: ScoreCtx, idx: number): ScoredDimension[] {
+  return ctx.model.dimensions.map((d) => {
     const items: ScoredItem[] = d.items.map((ci) => {
       const metricId = (ctx.annual && ci.metric_annual) || ci.metric
       const m = ctx.metrics.get(metricId)
@@ -196,6 +272,7 @@ function scoreItems(cfg: ScoringConfig, ctx: ScoreCtx, idx: number): ScoredDimen
         good: an.good,
         anchorSource: an.source,
         anchorScope: an.scope,
+        anchorNote: an.source === 'absolute' ? ci.anchor_note : undefined,
         reason: notMeaningful ? 'not_meaningful' : invalid ? 'invalid' : (cell?.reason ?? 'missing'),
         note: notMeaningful ? ci.not_meaningful_note : undefined,
         isEstimated: !!cell?.isEstimated,
@@ -209,7 +286,8 @@ function scoreItems(cfg: ScoringConfig, ctx: ScoreCtx, idx: number): ScoredDimen
  * 彙總。`allowed` 給定時只採計這些指標（方向箭頭比較兩期時用，確保兩邊同一組項目）。
  * 會就地填回每個構面的 score / coverage / counted。
  */
-function aggregate(cfg: ScoringConfig, dims: ScoredDimension[], allowed?: Set<string>): ScoreResult {
+function aggregate(cfg: ScoringConfig, ctx: ScoreCtx, dims: ScoredDimension[],
+                   allowed?: Set<string>): ScoreResult {
   let wSum = 0
   let wScore = 0
   let covNum = 0
@@ -246,9 +324,24 @@ function aggregate(cfg: ScoringConfig, dims: ScoredDimension[], allowed?: Set<st
   }
 
   const coverage = covDen > 0 ? covNum / covDen : 0
-  const total = wSum > 0 && coverage >= cfg.coverage_floor ? Math.round(wScore / wSum) : null
+  // 三道門檻，少一道就會出現「看起來正常、其實是雜訊」的總分：
+  //   coverage_floor        整頁的權重覆蓋率（35%）
+  //   dimension_coverage_floor 單一構面內部的覆蓋率（40%，在上面的迴圈）
+  //   counted_weight_floor  **進總分的構面權重合計**（60%）
+  // 第三道是前兩道補不起來的洞：BLK（SIC 6211，資產管理公司走銀行模型）整頁覆蓋率
+  // 36.5% 過得了第一道，資金構面又靠權益對資產一項（權重 1.5／3.3 ＝ 45%）
+  // 過了第二道 —— 最後總分 86 分是用 5 個構面裡的 2 個、16 項裡的 6 項算出來的。
+  // 那不是「體質好」，那是資料不夠。
+  const counted_floor = cfg.counted_weight_floor ?? 0
+  const total = wSum > 0 && coverage >= cfg.coverage_floor && wSum >= counted_floor
+    ? Math.round(wScore / wSum)
+    : null
   const grade = total != null ? pick(total, cfg.grades) : null
   return {
+    countedWeight: wSum,
+    model: ctx.model.id,
+    modelZh: ctx.model.zh,
+    modelDesc: ctx.model.desc,
     peerAnchored,
     total,
     grade: grade ? { id: grade.id, zh: grade.zh } : null,
@@ -260,7 +353,7 @@ function aggregate(cfg: ScoringConfig, dims: ScoredDimension[], allowed?: Set<st
 }
 
 export function scoreAt(cfg: ScoringConfig, ctx: ScoreCtx, idx: number): ScoreResult {
-  return aggregate(cfg, scoreItems(cfg, ctx, idx))
+  return aggregate(cfg, ctx, scoreItems(ctx, idx))
 }
 
 /**
@@ -273,9 +366,9 @@ export function scoreSeries(cfg: ScoringConfig, ctx: ScoreCtx, n: number): {
 } {
   const total: (number | null)[] = []
   const dims: Record<string, (number | null)[]> = {}
-  for (const d of cfg.dimensions) dims[d.id] = []
+  for (const d of ctx.model.dimensions) dims[d.id] = []
   for (let i = 0; i < n; i++) {
-    const r = aggregate(cfg, scoreItems(cfg, ctx, i))
+    const r = aggregate(cfg, ctx, scoreItems(ctx, i))
     total.push(r.total)
     for (const d of r.dimensions) dims[d.id]!.push(d.score)
   }
@@ -304,16 +397,16 @@ export function arrowOf(cfg: ScoringConfig, ctx: ScoreCtx, n: number): Arrow {
   const j = i - lag
   if (j < 0) return { delta: null, now: null, from: null, comparableItems: 0, id: 'na', zh: '期數不足' }
 
-  const cur = scoreItems(cfg, ctx, i)
-  const prev = scoreItems(cfg, ctx, j)
+  const cur = scoreItems(ctx, i)
+  const prev = scoreItems(ctx, j)
   const scored = (dims: ScoredDimension[]) =>
     new Set(dims.flatMap((d) => d.items.filter((x) => x.score != null).map((x) => x.metric)))
   const both = scored(cur)
   const prevSet = scored(prev)
   for (const k of [...both]) if (!prevSet.has(k)) both.delete(k)
 
-  const a = aggregate(cfg, cur, both)
-  const b = aggregate(cfg, prev, both)
+  const a = aggregate(cfg, ctx, cur, both)
+  const b = aggregate(cfg, ctx, prev, both)
   if (a.total == null || b.total == null) {
     return { delta: null, now: a.total, from: b.total, comparableItems: both.size, id: 'na', zh: '可比項目不足' }
   }

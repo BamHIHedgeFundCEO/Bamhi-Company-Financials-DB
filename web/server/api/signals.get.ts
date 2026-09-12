@@ -203,7 +203,13 @@ export default defineEventHandler(async (event) => {
   // 不另外定義一組沒人能驗證的趨勢分權重
   // 產業模型只挑一次：銀行／保險／REIT 各有自己的一套構面，對不到區間就用通用模型。
   // 頁面要寫出用的是哪一套 —— 換模型等於換構面與換錨點，兩套之間的分數不可比
-  const model = pickModel(scfg, ref.sic)
+  // 第三個參數是「這個科目有沒有任何一期有值」——SIC 6211 裡券商與資產管理公司混在一起，
+  // 靠存款與放款這兩個事實分流（見 ScoreModel.fallback_if_absent）
+  const hasConcept = (id: string) => {
+    const li = lineItems.find((x) => x.id === id)
+    return !!li && Object.values(li.values).some((c) => c?.value != null)
+  }
+  const model = pickModel(scfg, ref.sic, hasConcept)
   const ctx = {
     metrics,
     annual,

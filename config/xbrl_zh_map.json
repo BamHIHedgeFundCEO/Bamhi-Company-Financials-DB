@@ -1,5 +1,5 @@
 {
- "version": "1.23",
+ "version": "1.24",
  "updated": "2026-09-12",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -1278,6 +1278,22 @@
     "SeparateAccountAssets"
    ],
    "note": "投資型保單的資產，風險由保戶承擔、報酬也歸保戶。掛在保險公司的資產負債表上但不是它的曝險 —— 算資本厚度時要扣掉，否則壽險看起來永遠像高槓桿。沒有這一行的公司（產險）視為 0。"
+  },
+  {
+   "id": "comp_expense",
+   "zh": "薪酬與員工相關費用",
+   "en": "Compensation and Benefits",
+   "statement": "IS",
+   "unit": "USD",
+   "sign": "natural",
+   "sector": "financial",
+   "tags": [
+    "LaborAndRelatedExpense",
+    "SalariesAndWages",
+    "EmployeeBenefitsAndShareBasedCompensation",
+    "LaborAndRelatedExpenseExcludingCostOfGoodSold"
+   ],
+   "note": "資產管理業唯一真正的成本。十家實測只有五家用無維度的 LaborAndRelatedExpense 申報（APO／TROW／IVZ／AMP／KKR 沒有）→ 薪酬佔比會有一半的公司是 n/a，所以成本結構那一層還配了營業費用率當墊底。"
   }
  ],
  "metrics_note": "季度資料計算比率時的規則：(1) 分子為流量（IS/CF）、分母為存量（BS）時，分母取期初期末平均；(2) ROE/ROA/ROIC 等報酬率須年化（季度值 ×4）或改用 TTM，Excel 中一律標註採用何種基準；(3) 需要股價的估值倍數（P/E、EV/EBITDA）SEC 不提供，v1 不做。",
@@ -2574,6 +2590,75 @@
    "desc": "",
    "fmt": "ratio",
    "sector": "financial"
+  },
+  {
+   "id": "comp_expense_ttm",
+   "zh": "薪酬費用（滾動四季）",
+   "en": "Compensation Expense (TTM)",
+   "group": "金融業評分",
+   "formula": "(comp_expense[t] + comp_expense[t-1] + comp_expense[t-2] + comp_expense[t-3])",
+   "desc": "",
+   "sector": "financial"
+  },
+  {
+   "id": "comp_ratio",
+   "zh": "薪酬佔營收比",
+   "en": "Compensation Ratio",
+   "group": "金融業評分",
+   "formula": "comp_expense / revenue",
+   "desc": "資產管理業的頭號經營指標（業內就叫 comp ratio）。收進來的管理費有多少直接發給人。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "comp_ratio_delta",
+   "zh": "薪酬佔比年變化",
+   "en": "Compensation Ratio YoY Change",
+   "group": "金融業評分",
+   "formula": "comp_ratio - comp_ratio[t-4]",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "opex_ratio",
+   "zh": "營業費用率",
+   "en": "Operating Expense Ratio",
+   "group": "金融業評分",
+   "formula": "opex_total / revenue",
+   "desc": "營業費用佔營收。與薪酬佔比是包含關係（薪酬是費用的一部分），兩項都留是因為半數公司抓不到薪酬——少了墊底的那一項，成本結構整個構面會消失。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "comp_ratio_ttm",
+   "zh": "薪酬佔營收比（滾動四季）",
+   "en": "Compensation Ratio (TTM)",
+   "group": "金融業評分",
+   "formula": "comp_expense_ttm / revenue_ttm",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "comp_ratio_ttm_delta",
+   "zh": "薪酬佔比年變化（滾動四季）",
+   "en": "Compensation Ratio YoY Change (TTM)",
+   "group": "金融業評分",
+   "formula": "comp_ratio_ttm - comp_ratio_ttm[t-4]",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "opex_ratio_ttm",
+   "zh": "營業費用率（滾動四季）",
+   "en": "Operating Expense Ratio (TTM)",
+   "group": "金融業評分",
+   "formula": "(opex_total[t] + opex_total[t-1] + opex_total[t-2] + opex_total[t-3]) / revenue_ttm",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
   }
  ]
 }

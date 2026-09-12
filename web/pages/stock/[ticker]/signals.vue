@@ -247,6 +247,7 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
           <p v-if="score.model && score.model !== 'general'" class="modelnote">
             這家公司用的是<b>「{{ score.modelZh }}」模型</b>（SIC {{ data.sic }}），
             不是通用模型 —— 構面與計分項整組不同。
+            <span v-if="score.modelFallbackNote" class="mfallback">{{ score.modelFallbackNote }}</span>
             <span class="mdesc">{{ score.modelDesc }}</span>
             <i>換模型等於換尺：<b>兩套模型之間的總分不可比</b>，同一套之內才可以互相比。</i>
           </p>
@@ -550,7 +551,9 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
   background: var(--green-wash); border-left: 2px solid var(--green);
   padding: 9px 12px; margin: 10px 0 0; }
 .modelnote b { color: var(--ink); }
-.modelnote .mdesc { display: block; margin-top: 4px; color: var(--ink-2); }
+.modelnote .mdesc { display: block; margin-top: 4px; color: var(--ink-2); white-space: pre-line; }
+.modelnote .mfallback { display: block; margin-top: 4px; padding-left: 8px;
+  border-left: 2px solid var(--rule); color: var(--ink-2); }
 .modelnote i { display: block; margin-top: 4px; font-style: normal; color: var(--ink-3); }
 .anote { display: block; font-style: normal; font-family: var(--sans); font-size: 10.5px;
   color: var(--ink-3); line-height: 1.5; margin-top: 2px; }

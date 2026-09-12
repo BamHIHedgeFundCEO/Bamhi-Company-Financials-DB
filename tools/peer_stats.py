@@ -326,17 +326,26 @@ def models_of(scoring: dict) -> list[tuple[str, list, list]]:
     return out
 
 
-def pick_model(scoring: dict, sic: str | None) -> tuple[str, list]:
-    """SIC → 模型。與 web/server/utils/scoring.ts 的 pickModel 同一條規則：取最窄的區間。"""
+def pick_model(scoring: dict, sic: str | None, present: set[str] | None = None) -> tuple[str, list]:
+    """SIC → 模型。與 web/server/utils/scoring.ts 的 pickModel 同一條規則：取最窄的區間，
+    再套事實分流（`fallback_if_absent`：那幾個科目全都沒有 → 換一套）。"""
     if not sic or not sic.isdigit():
         return "general", scoring["dimensions"]
     n = int(sic)
     best = None
-    for name, dims, ranges in models_of(scoring):
-        for lo, hi in ranges:
+    for mdl in scoring.get("models", []):
+        for lo, hi in mdl.get("sic") or []:
             if lo <= n <= hi and (best is None or hi - lo < best[0]):
-                best = (hi - lo, name, dims)
-    return (best[1], best[2]) if best else ("general", scoring["dimensions"])
+                best = (hi - lo, mdl)
+    if best is None:
+        return "general", scoring["dimensions"]
+    mdl = best[1]
+    fb = mdl.get("fallback_if_absent")
+    if fb and present is not None and fb["concepts"] and not (set(fb["concepts"]) & present):
+        alt = next((m for m in scoring["models"] if m["id"] == fb["model"]), None)
+        if alt:
+            return alt["id"], alt["dimensions"]
+    return mdl["id"], mdl["dimensions"]
 
 
 def main() -> int:
@@ -401,8 +410,12 @@ def main() -> int:
         chain.append((d["id"], ast))
     asts = {key: cfg["annual_metric"] for key, cfg in wanted.items()}
 
+    # 事實分流要看的科目（所有模型的 fallback_if_absent 聯集）
+    fb_concepts = sorted({c for m in scoring.get("models", [])
+                          for c in (m.get("fallback_if_absent") or {}).get("concepts", [])})
+
     samples: dict[str, dict[str, list[float]]] = defaultdict(lambda: defaultdict(list))
-    per_co: list[tuple[str, str, dict[str, float]]] = []
+    per_co: list[tuple[str, str, dict[str, float], set[str]]] = []
     n_co = 0
     dump = None
     for cik, byd in store.items():
@@ -452,7 +465,9 @@ def main() -> int:
             vals[key] = v
             if sic:
                 samples[key][sic].append(v)
-        per_co.append((cik, sic, vals))
+        present = {c for c in fb_concepts
+                   if any(v is not None for v in (series.get(c) or []))}
+        per_co.append((cik, sic, vals, present))
         if args.dump_cik and cik == str(int(args.dump_cik)):
             dump = (cik, name_of.get(cik), keep, vals)
 
@@ -508,9 +523,9 @@ def main() -> int:
         totals = []
         n_none = 0
         by_model: dict[str, list[int]] = defaultdict(list)
-        for cik, sic, vals in per_co:
+        for cik, sic, vals, present in per_co:
             w_sum = w_score = cov_num = cov_den = 0.0
-            model_name, dims = pick_model(scoring, sic)
+            model_name, dims = pick_model(scoring, sic, present)
             for dim in dims:
                 iw = iws = iw_all = 0.0
                 for it in dim["items"]:

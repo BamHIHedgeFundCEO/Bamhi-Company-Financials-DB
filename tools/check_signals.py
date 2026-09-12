@@ -168,6 +168,22 @@ def main() -> int:
         for rng in mdl.get("sic", []):
             if len(rng) != 2 or rng[0] > rng[1]:
                 errs.append(f"評分模型 {mdl['id']} 的 sic 區間不合法：{rng}")
+        fb = mdl.get("fallback_if_absent")
+        if fb:
+            # 事實分流：科目要真的存在，目標模型也要存在，而且不能指到自己
+            for c in fb.get("concepts", []):
+                if c not in concepts:
+                    errs.append(f"評分模型 {mdl['id']} 的 fallback_if_absent 指到不存在的科目：{c}")
+            if not fb.get("concepts"):
+                errs.append(f"評分模型 {mdl['id']} 的 fallback_if_absent 沒列科目 —— 永遠不會觸發")
+            if fb.get("model") == mdl["id"]:
+                errs.append(f"評分模型 {mdl['id']} 的 fallback_if_absent 指到自己")
+            elif fb.get("model") not in {m["id"] for m in score.get("models", [])}:
+                errs.append(f"評分模型 {mdl['id']} 的 fallback_if_absent 指到不存在的模型："
+                            f"{fb.get('model')}")
+            if not fb.get("note"):
+                errs.append(f"評分模型 {mdl['id']} 的 fallback_if_absent 沒寫 note —— "
+                            f"換一把尺這件事一定要說得出理由")
         if not mdl.get("desc"):
             errs.append(f"評分模型 {mdl['id']} 沒寫 desc —— 頁面要說得出為什麼這家公司換了一把尺")
         check_model(mdl["id"], mdl["dimensions"])

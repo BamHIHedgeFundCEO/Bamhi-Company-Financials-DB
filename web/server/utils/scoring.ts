@@ -94,6 +94,18 @@ export interface ScoreModel {
   desc: string
   /** 四位 SIC 的閉區間，可多段 */
   sic: [number, number][]
+  /**
+   * SIC 選到這一套、但這些科目**全部**都沒有任何一期有值時，改用另一套。
+   *
+   * SIC 6211（券商）裡同時住著兩種生意：高盛、摩根士丹利、嘉信有存款也有放款，
+   * 行為就是銀行；貝萊德沒有存款也沒有放款，它是資產管理公司。SIC 分不出來，
+   * 但**事實分得出來**。
+   *
+   * 判準刻意要求列出的科目**都**沒有：富國銀行只用維度揭露放款（companyfacts
+   * 抓不到），但它有存款 → 仍然走銀行模型。少了這個「都」字，抽取失敗就會被
+   * 誤判成「這不是銀行」，然後整家公司換一把尺而沒有人會發現。
+   */
+  fallback_if_absent?: { concepts: string[]; model: string; note?: string }
   dimensions: DimensionCfg[]
 }
 
@@ -150,10 +162,12 @@ export interface ScoredDimension {
 export interface ScoreResult {
   /** 進總分的構面權重合計（頁面要說得出「這個分數是由多少權重撐起來的」） */
   countedWeight?: number
-  /** 用的是哪一套產業模型（general / bank / insurance / reit） */
+  /** 用的是哪一套產業模型（general / bank / insurance / life / reit / asset_manager） */
   model: string
   modelZh: string
   modelDesc: string
+  /** 因為事實分流而換過模型時的說明（見 ScoreModel.fallback_if_absent） */
+  modelFallbackNote?: string
   /** 計分項裡有幾項用到同業錨點（頁面要說得出這個分數的錨點來自哪裡） */
   peerAnchored: number
   total: number | null
@@ -188,8 +202,8 @@ function sicIn(sic: string | undefined, ranges?: [number, number][]): boolean {
  * 之後要為「消費金融」這種子類另立模型時，只要加一段更窄的區間就會自動勝出，
  * 不必回頭改程式。
  */
-export function pickModel(cfg: ScoringConfig, sic?: string): {
-  id: string; zh: string; desc: string; dimensions: DimensionCfg[]
+export function pickModel(cfg: ScoringConfig, sic?: string, has?: (conceptId: string) => boolean): {
+  id: string; zh: string; desc: string; dimensions: DimensionCfg[]; fallbackNote?: string
 } {
   const general = { id: GENERAL_ID, zh: '通用', desc: '', dimensions: cfg.dimensions }
   if (!sic || !/^\d+$/.test(sic) || !cfg.models?.length) return general
@@ -202,7 +216,21 @@ export function pickModel(cfg: ScoringConfig, sic?: string): {
       if (!best || span < best.span) best = { span, m }
     }
   }
-  return best ? { id: best.m.id, zh: best.m.zh, desc: best.m.desc, dimensions: best.m.dimensions } : general
+  if (!best) return general
+
+  // 事實分流：SIC 選到的模型，它賴以成立的科目整條都沒有 → 換一套（見 fallback_if_absent）
+  const fb = best.m.fallback_if_absent
+  if (fb && has && fb.concepts.length && fb.concepts.every((c) => !has(c))) {
+    const alt = cfg.models.find((m) => m.id === fb.model)
+    if (alt) {
+      return {
+        id: alt.id, zh: alt.zh, desc: alt.desc, dimensions: alt.dimensions,
+        fallbackNote: `SIC ${sic} 對到的是「${best.m.zh}」模型，但這家公司的`
+          + `${fb.concepts.join('、')}整段期間都查無資料 → 改用「${alt.zh}」模型。`,
+      }
+    }
+  }
+  return { id: best.m.id, zh: best.m.zh, desc: best.m.desc, dimensions: best.m.dimensions }
 }
 
 export interface ScoreCtx {
@@ -210,7 +238,7 @@ export interface ScoreCtx {
   annual: boolean
   sic?: string
   /** 這家公司用的產業模型（`pickModel` 挑的）。構面全部從這裡取，不再讀 cfg.dimensions */
-  model: { id: string; zh: string; desc: string; dimensions: DimensionCfg[] }
+  model: { id: string; zh: string; desc: string; dimensions: DimensionCfg[]; fallbackNote?: string }
   /** 同業百分位錨點；沒有就整組退回絕對錨點 */
   peer?: PeerStats | null
   /** 逐期原始科目值（作廢守門員要看單一科目，不只指標） */
@@ -342,6 +370,7 @@ function aggregate(cfg: ScoringConfig, ctx: ScoreCtx, dims: ScoredDimension[],
     model: ctx.model.id,
     modelZh: ctx.model.zh,
     modelDesc: ctx.model.desc,
+    modelFallbackNote: ctx.model.fallbackNote,
     peerAnchored,
     total,
     grade: grade ? { id: grade.id, zh: grade.zh } : null,

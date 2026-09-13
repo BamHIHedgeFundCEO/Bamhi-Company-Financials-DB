@@ -21,10 +21,10 @@ for c in [c for c in cmap["concepts"] if not c.get("internal")]:
     for i, p in enumerate(periods):
         base = 1e9 if c["unit"] == "USD" else (5e9 if c["unit"] == "shares" else 1.2)
         values[p] = {"value": round(base * (1 + 0.1 * i) * random.uniform(0.8, 1.2), 2),
-                     "isEstimated": p.endswith("Q4"), "sourceTag": c["tags"][0],
+                     "isEstimated": p.endswith("Q4"), "sourceTag": (c["tags"] or ["推算"])[0],
                      "accessionOrForm": "10-Q", "filed": "2026-05-01", "endDate": "2026-04-30"}
     line_items.append({**{k: c[k] for k in ("id", "zh", "en", "statement", "unit", "sign")},
-                       "sourceTag": c["tags"][0], "values": values})
+                       "sourceTag": (c["tags"] or ["推算"])[0], "values": values})
 
 valuation = {
     "currentPrice": 225.16,

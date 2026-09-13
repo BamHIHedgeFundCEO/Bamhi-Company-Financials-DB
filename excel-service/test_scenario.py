@@ -32,10 +32,10 @@ def make_payload(annual=False, quarters=16):
                 y, q = 2023 + i // 4, i % 4 + 1
                 end = f"{y}-{q * 3:02d}-{[31, 30, 30, 31][q - 1]:02d}"
             values[p] = {"value": round(base * (1 + 0.05 * i) * random.uniform(0.9, 1.1), 2),
-                         "isEstimated": False, "sourceTag": c["tags"][0],
+                         "isEstimated": False, "sourceTag": (c["tags"] or ["推算"])[0],
                          "accessionOrForm": "10-K", "filed": "2026-02-01", "endDate": end}
         line_items.append({**{k: c[k] for k in ("id", "zh", "en", "statement", "unit", "sign")},
-                           "sourceTag": c["tags"][0], "values": values})
+                           "sourceTag": (c["tags"] or ["推算"])[0], "values": values})
     valuation = {"currentPrice": 100.0, "rows": [
         {"id": "price", "values": {p: round(50 + 3 * i, 2) for i, p in enumerate(periods)}},
         {"id": "ps_vs_median", "desc": "目前 1.2 倍 歷史中位數"},

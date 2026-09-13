@@ -1003,16 +1003,28 @@ export async function getFinancials(
         // 例外是 zero_if_absent 那組（庫藏股買回、舉債償債、股利）：那些科目缺申報
         // 確實通常代表當季沒有這筆活動，准補，但一律標成估算。
         const guessed = filled[q] || filled[q - 1]
-        if (guessed && !concept.zero_if_absent) continue
-        const anchor = src[q] ?? src[lastKnown]!
+        // 差分算不出來時，**先看有沒有直接申報的單季事實**再放棄。累計鏈只要斷一節，
+        // 斷點後面那一季也會被判成「補出來的」而丟掉 —— 但那一季的單季金額常常就寫在
+        // 申報書上。ALNY 實測：companyfacts 裡整個 2026Q1 不存在（連資產負債表都沒有），
+        // 於是 2026Q2 明明有 2026-04-01→06-30 的 12.91 億直接申報值，卻跟著 Q1 一起變 n/a，
+        // 營收／銷貨成本／營運現金流整排落空 → 覆蓋率 24.9%、拿不到總分。
+        // 直接申報值優先於任何推算，這裡只是把它撿回來，不是新的推算。
+        //
+        // Q4 不走這條：10-K 常把**全年**金額掛在 Q4 的期間上（L3Harris 連兩年），
+        // 上面的 misTagged 靠「大於前三季累計」擋掉它，而累計鏈斷了就無從比對。
+        const direct = guessed && q < 4 ? qd(q) : undefined
+        if (guessed && !direct && !concept.zero_if_absent) continue
+        const anchor = direct ?? src[q] ?? src[lastKnown]!
         values[periodKey(fy, q)] = {
-          value: cum[q]! - cum[q - 1]!,
-          isEstimated: guessed || (q === 4 && !qd(4)), // Q4 由全年推算 → 橘底
-          sourceTag: filled[q]
-            ? '缺申報視為 0'
-            : filled[q - 1]
-              ? '含前期未申報金額' // 前一季沒申報 → 那筆金額累加到這一季
-              : anchor._tag,
+          value: direct ? direct.val : cum[q]! - cum[q - 1]!,
+          isEstimated: direct ? false : guessed || (q === 4 && !qd(4)), // Q4 由全年推算 → 橘底
+          sourceTag: direct
+            ? direct._tag
+            : filled[q]
+              ? '缺申報視為 0'
+              : filled[q - 1]
+                ? '含前期未申報金額' // 前一季沒申報 → 那筆金額累加到這一季
+                : anchor._tag,
           accessionOrForm: anchor.form,
           filed: anchor.filed,
           endDate: anchor.end,

@@ -24,13 +24,13 @@ for c in [c for c in cmap["concepts"] if not c.get("internal")]:
         values[p] = {
             "value": round(base * (1 + 0.1 * i) * random.uniform(0.8, 1.2), 2),
             "isEstimated": p.endswith("Q4"),
-            "sourceTag": c["tags"][0],
+            "sourceTag": (c["tags"] or ["推算"])[0],
             "accessionOrForm": "10-Q",
             "filed": "2026-05-01",
             "endDate": "2026-04-30",
         }
     line_items.append({**{k: c[k] for k in ("id", "zh", "en", "statement", "unit", "sign")},
-                       "sourceTag": c["tags"][0], "values": values})
+                       "sourceTag": (c["tags"] or ["推算"])[0], "values": values})
 
 payload = {
     "cacheKey": "TEST_2025Q1_2026Q2_0.1.xlsx",

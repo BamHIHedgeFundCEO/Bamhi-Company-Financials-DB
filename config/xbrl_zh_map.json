@@ -1,6 +1,6 @@
 {
- "version": "1.24",
- "updated": "2026-09-12",
+ "version": "1.25",
+ "updated": "2026-09-13",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
   {
@@ -842,6 +842,17 @@
    }
   },
   {
+   "id": "debt_total",
+   "zh": "有息負債合計",
+   "en": "Total Debt",
+   "statement": "BS",
+   "unit": "USD",
+   "sign": "natural",
+   "tags": [],
+   "derive": "long_term_debt + short_term_debt?",
+   "note": "短期那一項是**選用**的：不分流動／非流動的資產負債表上本來就沒有那一行。羅素 150 實測 22 家（AIG／ALL／BLK／BX／PLD／WELL… 保險、REIT、資產管理）只有一行長期負債，舊寫法『短期＋長期』兩項都要有值，於是負債權益比、負債佔資產、淨負債、ROIC 四個指標對它們整組落空 —— 那不是抓不到，是那張表本來就長這樣。\n反過來**長期那一項不可以選用**：ADC／BXP／EXR／O 只掛得到商業本票，首項也選用的話會算出「有息負債 ＝ 商業本票」（ADC 實測 14 億 vs 實際 38.5 億），那是半套答案，比留白糟。它們維持 n/a。\n也不用 DebtInstrumentCarryingAmount 當直接標籤：它確實是合計（1,239 家重疊期實測 ÷（長期＋短期）中位 1.008、76% 在 ±3% 內），但標籤優先於推算，會讓附註的帳面金額蓋掉資產負債表上的數字，兩處對不起來看起來像壞掉。分項標籤（SecuredDebt／SeniorNotes／UnsecuredDebt…）相加更不行：對帳中位 1.330、p90 44.95，它們互相重疊。"
+  },
+  {
    "id": "operating_lease_liab_nc",
    "zh": "長期租賃負債",
    "en": "Operating Lease Liability, Noncurrent",
@@ -1383,7 +1394,7 @@
    "zh": "投入資本報酬率",
    "en": "ROIC (approx.)",
    "group": "獲利能力",
-   "formula": "operating_income * (1 - income_tax/pretax_income) * 4 / (avg(equity) + avg(long_term_debt) + avg(short_term_debt) - avg(cash))",
+   "formula": "operating_income * (1 - income_tax/pretax_income) * 4 / (avg(equity) + avg(debt_total) - avg(cash))",
    "desc": "衡量本業投入資本的真實回報，是判斷有無護城河的核心指標。ROIC 長期高於資金成本（約 8–10%）才代表在創造價值，否則成長反而在毀滅價值。此為簡化算法，與賣方定義可能有出入。"
   },
   {
@@ -1447,7 +1458,7 @@
    "zh": "淨負債",
    "en": "Net Debt",
    "group": "財務結構",
-   "formula": "short_term_debt + long_term_debt - cash - short_term_investments",
+   "formula": "debt_total - cash - short_term_investments",
    "desc": "負值代表淨現金部位。這是併購能力與抗景氣衰退能力的直接量度。"
   },
   {
@@ -1463,7 +1474,7 @@
    "zh": "負債權益比",
    "en": "Debt / Equity",
    "group": "財務結構",
-   "formula": "(short_term_debt + long_term_debt) / equity",
+   "formula": "debt_total / equity",
    "desc": "財務槓桿程度。判讀 ROE 時必看的配套指標。"
   },
   {
@@ -1935,7 +1946,7 @@
    "id": "roic_ttm",
    "zh": "投入資本報酬率（滾動四季）",
    "en": "ROIC TTM",
-   "formula": "operating_income_ttm * (1 - income_tax_ttm / pretax_income_ttm) / (avg(equity) + avg(long_term_debt) + avg(short_term_debt) - avg(cash))",
+   "formula": "operating_income_ttm * (1 - income_tax_ttm / pretax_income_ttm) / (avg(equity) + avg(debt_total) - avg(cash))",
    "fmt": "ratio",
    "group": "轉折訊號",
    "desc": "稅率也用滾動四季算，避免單季一次性稅務項目把稅後營業利益扭曲。　滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
@@ -2367,7 +2378,7 @@
    "zh": "負債對資產比（有息）",
    "en": "Debt to Assets",
    "group": "金融業評分",
-   "formula": "(short_term_debt + long_term_debt) / total_assets",
+   "formula": "debt_total / total_assets",
    "desc": "REIT 用這個比負債權益比穩：不動產按成本減折舊入帳，帳面權益會被折舊啃掉，分母用資產至少兩邊都是同一套成本基礎。",
    "sector": "financial",
    "fmt": "ratio"

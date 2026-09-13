@@ -95,7 +95,6 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
           <template v-else>
             資料來自 SEC 的 13F 批次資料集，而那是<b>滾動三個月的申報視窗</b>、發布有時差
             —— 季末後 45 天的申報截止日剛過的那一個月，這裡會還停在<b>再前一季</b>。
-            要拿到最新一季得用 <span class="mono">python tools/f13.py --live</span> 重跑。
           </template>
         </p>
 
@@ -239,7 +238,7 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
 
       <p class="disclaim">
         資料來源：SEC EDGAR 申報索引與 Form 13F Data Sets（機構持股申報）、SEC 交割失敗檔（CUSIP 對照），
-        由離線批次 <span class="mono">tools/f13.py</span> 建立索引，本頁查詢不向 SEC 發出任何請求。
+        索引由離線批次預先建立，本頁查詢不向 SEC 發出任何請求。
         僅計普通股部位：選擇權（PUTCALL）與債券本金（PRN）已排除。
         修正申報已依 SEC 規則解析（RESTATEMENT 整份取代、NEW HOLDINGS 與原申報相加），
         且一律在所有來源收齊之後才解析 —— 原申報與它的補充申報常常分屬不同批次。

@@ -9,7 +9,7 @@
  * 錨點、線性得分、權重、錨點是同業還是絕對）全部攤在頁面上。權重是我們設的，
  * 所以它必須可被讀者當場推翻，而不是只能相信。
  *
- * 構面**按產業分五套**（通用／銀行／產險／壽險／REIT，按 SIC 選）。頁面固定寫出
+ * 構面**按產業分六套**（通用／銀行／產險／壽險／REIT／資產管理，按 SIC 選）。頁面固定寫出
  * 用的是哪一套：換模型等於換尺，兩套之間的總分不可比。
  *
  * 這一頁刻意不做的兩件事：
@@ -294,8 +294,6 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
           <p v-if="score.total == null" class="nototal">
             <b>不給總分</b>：{{ noTotalWhy }}。
             拿少數幾項湊出來的總分是雜訊不是結論——下面算得出來的構面分仍然是真的。
-            資產管理與私募（SIC 6211／6282）目前常落在這裡：它們沒有存放款、沒有承保，
-            資產負債表上主要是自有投資與受託資產，五套模型都不是為它們寫的。
           </p>
 
           <div class="dims">
@@ -352,22 +350,22 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
           </div>
 
           <div class="scoretrend" v-if="(score.totalSeries || []).some((x: any) => x != null)">
-            <span class="tlabel mono">總分走勢</span>
-            <Sparkline :values="score.totalSeries.slice(-shown)" :state="scoreClass(score.total)" :height="34" />
-            <span class="taxis mono">{{ labels[0] }} – {{ labels.at(-1) }}</span>
+            <span class="tlabel mono">總分走勢（近 {{ shown }} {{ unitZh }}）</span>
+            <ScoreTrend :values="score.totalSeries.slice(-shown)" :labels="labels"
+                        :grades="score.grades || []" />
           </div>
 
           <p class="disclaimer">
-            <b>評分是量化整理，不是投資建議。</b>權重與錨點都是我們設定的（攤在上面每一列，
-            也在 <code>config/scoring.json</code> 裡），不同的假設會得到不同的分數。
+            <b>評分是量化整理，不是投資建議。</b>權重與錨點都是我們設定的（每一項都攤在上面那張表裡），
+            不同的假設會得到不同的分數。
             分數只用 SEC 申報數字計算，不含產業前景、競爭態勢、管理階層、法規與股價。
             錨點優先用<b>同業百分位</b>（同一個 SIC 的第 10／90 百分位，來自 SEC DERA
             季度資料集的 6,125 家公司）；同業樣本不足 30 家的指標才退回跨產業絕對值，
             上表每一列都標了用的是哪一種。少數項目標了「只認 4 位 SIC」——
             因為 2 位大類在那裡不是同業（SIC 63 把壽險與產險裝在同一個桶子，
             權益對資產差五倍）。
-            <b>構面本身也分產業</b>：銀行、產險、壽險、REIT 各有一套構面（按 SIC 選），
-            通用模型的毛利率與存貨天數對它們沒有意義。評級級距與覆蓋率門檻五套共用，
+            <b>構面本身也分產業</b>：銀行、產險、壽險、REIT、資產管理各有一套構面（按 SIC 選），
+            通用模型的毛利率與存貨天數對它們沒有意義。評級級距與覆蓋率門檻六套共用，
             所以「穩健」在哪一頁都是同一件事；但<b>總分只在同一套模型之內可比</b>。評級級距是<b>全市場總分的分位數</b>
             （底 10%／10–30%／30–70%／70–90%／頂 10%），所以「中性」的意思是
             「和市場上多數公司差不多」，不是「及格」。
@@ -609,9 +607,9 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
 .items td.good { color: var(--pos); font-weight: 600; }
 .items td.weak { color: var(--neg); font-weight: 600; }
 .dnote { font-size: 11.5px; color: var(--ink-3); line-height: 1.8; margin-top: 8px; }
-.scoretrend { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px;
-  margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--rule-2); }
-.tlabel, .taxis { font-size: 10.5px; color: var(--ink-3); white-space: nowrap; }
+.scoretrend { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--rule-2); }
+.tlabel { display: block; font-size: 10.5px; color: var(--ink-3); margin-bottom: 6px;
+  letter-spacing: .08em; }
 .asrc { font-style: normal; font-size: 9px; margin-left: 5px; padding: 1px 3px;
   border: 1px solid var(--rule-2); color: var(--ink-3); white-space: nowrap; }
 .asrc.peer4 { color: var(--pos); border-color: var(--pos); }

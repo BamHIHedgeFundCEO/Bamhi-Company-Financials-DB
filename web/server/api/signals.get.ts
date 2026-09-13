@@ -241,6 +241,9 @@ export default defineEventHandler(async (event) => {
       ...score,
       version: scfg.version,
       coverageFloor: scfg.coverage_floor,
+      // 級距要送到前端：總分走勢圖的背景就是這幾條線 —— 走勢的意義是
+      // 「跨過了哪一條」，不是「上升了幾像素」
+      grades: scfg.grades,
       arrow,
       totalSeries,
       dimSeries: Object.fromEntries(

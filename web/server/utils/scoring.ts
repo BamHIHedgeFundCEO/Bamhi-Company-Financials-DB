@@ -56,6 +56,16 @@ export interface ScoreItemCfg {
    * 是拿別人的分布當自己的尺 —— 寧可退回絕對錨點（至少它是我們寫下來、講得出理由的）。
    */
   peer4_only?: boolean
+  /**
+   * **完全不查同業錨點，一律用設定檔寫死的 bad／good。**
+   *
+   * `peer4_only` 是「別退大類」，這一條是「連 4 位 SIC 都別查」。需要它是因為
+   * SIC 6798 這一格同時裝著兩門生意：收租金的權益型 REIT 與槓桿買 MBS 的抵押型 REIT，
+   * 而 `peer_stats.json` 只認得 SIC，分不出來。權益對資產實測權益型約 35–45%、
+   * 抵押型中位 11.8% —— 拿 6798 的分布當抵押型的尺，它們一律 0 分。
+   * 抵押型那一套的錨點改取**這 11 家自己的 p10／p90**，逐項寫 `anchor_note` 標明筆數。
+   */
+  absolute_only?: boolean
   /** 絕對錨點的出處（例如「DERA 的 SIC 6311 分布 p10／p90，21 家」）。
    *  只在真的用到絕對錨點時才顯示 —— 錨點哪來的也是「每一分都拆得回去」的一環 */
   anchor_note?: string
@@ -116,6 +126,13 @@ export interface ScoreModel {
     ratio_of_assets?: { concept: string; min: number }
     model: string
     note?: string
+    /**
+     * 頁面上要怎麼稱呼這些科目。**不給就會把 `real_estate`、`loans_gross` 這種
+     * 內部 id 印在讀者眼前** —— 與「頁面不寫我們自己的檔名與工具指令」同一條規則：
+     * 那些字串對讀者沒有意義，只會讓人以為漏了一步。
+     */
+    absent_label?: string
+    ratio_label?: string
   }
   dimensions: DimensionCfg[]
 }
@@ -245,11 +262,13 @@ export function pickModel(cfg: ScoringConfig, sic?: string, facts?: ModelFacts):
     const keepByRatio = !!(fb.ratio_of_assets && r != null && r >= fb.ratio_of_assets.min)
     const alt = keep || keepByRatio ? null : cfg.models.find((m) => m.id === fb.model)
     if (alt) {
+      const absent = fb.absent_label ?? fb.concepts.join('、')
+      const ratioName = fb.ratio_label ?? fb.ratio_of_assets?.concept
       const why = fb.ratio_of_assets
-        ? `${fb.concepts.join('、')}整段期間都查無資料，`
-          + `${fb.ratio_of_assets.concept} 佔總資產 ${r == null ? '查無資料' : `${(r * 100).toFixed(1)}%`}`
+        ? `${absent}最近四期都查無資料，`
+          + `${ratioName}佔總資產${r == null ? '查無資料' : `${(r * 100).toFixed(1)}%`}`
           + `（未達 ${(fb.ratio_of_assets.min * 100).toFixed(0)}%）`
-        : `${fb.concepts.join('、')}整段期間都查無資料`
+        : `${absent}最近四期都查無資料`
       return {
         id: alt.id, zh: alt.zh, desc: alt.desc, dimensions: alt.dimensions,
         fallbackNote: `SIC ${sic} 對到的是「${best.m.zh}」模型，但這家公司的${why} → `
@@ -281,7 +300,7 @@ export interface ScoreCtx {
  */
 function anchorsFor(cfg: ScoreCtx, ci: ScoreItemCfg):
 { bad: number; good: number; source: 'peer4' | 'peer2' | 'absolute'; scope?: string } {
-  const table = cfg.peer?.metrics?.[ci.metric]
+  const table = ci.absolute_only ? undefined : cfg.peer?.metrics?.[ci.metric]
   const sic = cfg.sic
   if (table && sic) {
     const chain = ci.peer4_only

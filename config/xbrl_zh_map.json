@@ -1,6 +1,6 @@
 {
- "version": "1.25",
- "updated": "2026-09-13",
+ "version": "1.26",
+ "updated": "2026-09-14",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
   {
@@ -666,6 +666,20 @@
     "IntangibleAssetsOtherThanGoodwill",
     "IntangibleAssetsAndGoodwill"
    ]
+  },
+  {
+   "id": "real_estate",
+   "zh": "投資性不動產（淨額）",
+   "en": "Real Estate Investment Property, Net",
+   "statement": "BS",
+   "unit": "USD",
+   "sign": "natural",
+   "sector": "reit",
+   "tags": [
+    "RealEstateInvestmentPropertyNet",
+    "RealEstateInvestmentPropertyAtCost"
+   ],
+   "note": "**權益型與抵押型 REIT 的分界線**，不是拿來顯示的科目。SIC 6798 同時裝著收租金的 REIT 與槓桿買 MBS 的抵押型 REIT，兩者的權益對資產差四倍。實測 16 家權益型（O／PLD／WELL／SPG／AVB／EQR…）全部申報 `RealEstateInvestmentPropertyNet`，AGNC 與 NLY **一個都沒有**。RITM／STWD 有（它們真的持有物業），留在權益型模型是對的。走 `fallback_if_absent` 分流，見 config/scoring.json 的 reit 模型。"
   },
   {
    "id": "total_assets",
@@ -2668,6 +2682,65 @@
    "group": "金融業評分",
    "formula": "(opex_total[t] + opex_total[t-1] + opex_total[t-2] + opex_total[t-3]) / revenue_ttm",
    "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "opex_total_ttm",
+   "zh": "營業費用合計（滾動四季）",
+   "en": "Operating Expenses (TTM)",
+   "group": "金融業評分",
+   "formula": "(opex_total[t] + opex_total[t-1] + opex_total[t-2] + opex_total[t-3])",
+   "desc": "",
+   "sector": "financial"
+  },
+  {
+   "id": "net_interest_to_assets",
+   "zh": "淨利息收入對總資產",
+   "en": "Net Interest Income to Assets",
+   "group": "金融業評分",
+   "formula": "interest_income_net * 4 / avg(total_assets)",
+   "desc": "抵押型 REIT 的利差代理：資產端收益率減資金成本，直接除以資產規模。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "net_interest_to_assets_ttm",
+   "zh": "淨利息收入對總資產（滾動四季）",
+   "en": "Net Interest Income to Assets (TTM)",
+   "group": "金融業評分",
+   "formula": "interest_income_net_ttm / avg(total_assets)",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "opex_to_equity",
+   "zh": "營業費用對權益",
+   "en": "Operating Expenses to Equity",
+   "group": "金融業評分",
+   "formula": "opex_total * 4 / avg(equity)",
+   "desc": "抵押型 REIT 沒有營收可當分母（利息收入是淨額），業內一律用「費用佔權益」比較 —— 外部管理的付管理費，內部管理的付薪水，兩者都落在這一格。",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "opex_to_equity_ttm",
+   "zh": "營業費用對權益（滾動四季）",
+   "en": "Operating Expenses to Equity (TTM)",
+   "group": "金融業評分",
+   "formula": "opex_total_ttm / avg(equity)",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "bvps_yoy",
+   "zh": "每股帳面價值年變化",
+   "en": "Book Value per Share YoY",
+   "group": "金融業評分",
+   "formula": "book_value_per_share[t] / book_value_per_share[t-4] - 1",
+   "desc": "抵押型 REIT 最被盯著的一個數字。它同時涵蓋兩件事：投資組合的評價變化，以及增發是在帳面價值之上還是之下 —— 所以稀釋的後果會直接算進來，不必再算一次。",
    "sector": "financial",
    "fmt": "ratio"
   }

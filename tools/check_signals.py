@@ -156,6 +156,10 @@ def main() -> int:
             errs.append(f"[{name}] 評分構面權重合計必須是 1.0，現在是 {wsum}")
 
     check_model("general", score["dimensions"])
+    # 沒有 sic 區間的模型，只有在別的模型用 fallback_if_absent 指到它時才合法
+    # （抵押型 REIT 與權益型 REIT 共用 SIC 6798，只能靠事實分流到達）
+    fb_targets = {(m.get("fallback_if_absent") or {}).get("model")
+                  for m in score.get("models", [])}
     seen_models: set[str] = set()
     for mdl in score.get("models", []):
         if mdl["id"] in seen_models:
@@ -163,8 +167,9 @@ def main() -> int:
         seen_models.add(mdl["id"])
         if mdl["id"] == "general":
             errs.append("評分模型 id 不能叫 general —— 那是通用模型（頂層 dimensions）的保留字")
-        if not mdl.get("sic"):
-            errs.append(f"評分模型 {mdl['id']} 沒寫 sic 區間 —— 永遠不會被選到")
+        if not mdl.get("sic") and mdl["id"] not in fb_targets:
+            errs.append(f"評分模型 {mdl['id']} 沒寫 sic 區間，也沒有任何模型的 "
+                        f"fallback_if_absent 指到它 —— 永遠不會被選到")
         for rng in mdl.get("sic", []):
             if len(rng) != 2 or rng[0] > rng[1]:
                 errs.append(f"評分模型 {mdl['id']} 的 sic 區間不合法：{rng}")

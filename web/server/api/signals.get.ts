@@ -206,8 +206,21 @@ export default defineEventHandler(async (event) => {
   // 第三個參數是「這個科目有沒有任何一期有值」——SIC 6211 裡券商與資產管理公司混在一起，
   // 靠存款與放款這兩個事實分流（見 ScoreModel.fallback_if_absent）
   const valuesOf = (id: string) => lineItems.find((x) => x.id === id)?.values ?? {}
+  /**
+   * 事實分流問的是「這家公司**現在**做的是哪一門生意」，所以只看最近四期。
+   *
+   * 「有沒有任何一期有值」會拿早就退出的業務決定今天的模型：Annaly 的商用不動產
+   * 部門在 2021 年賣掉，最後一筆投資性不動產停在 2020-12-31，卻足以讓它繼續套
+   * 權益型 REIT 模型 —— 14 項只有 4 項算得出來、覆蓋率 23.6%、拿不到總分。
+   * 四期是因為年度模式（20-F 一欄＝一整年）下這就是四年，季度模式下是一整年。
+   */
+  const RECENT = 4
+  const recentPeriods = fin.periods.slice(-RECENT)
   const modelFacts = {
-    has: (id: string) => Object.values(valuesOf(id)).some((c) => c?.value != null),
+    has: (id: string) => {
+      const v = valuesOf(id)
+      return recentPeriods.some((p) => v[p]?.value != null)
+    },
     /** 最近一期「兩邊都有值」的佔比。放款佔資產是「這到底是不是放款業者」的判準 */
     shareOfAssets: (id: string) => {
       const v = valuesOf(id)

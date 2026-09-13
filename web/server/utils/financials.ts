@@ -413,8 +413,15 @@ function collect(points: FactPoint[], flow: boolean, fyeMonth: number,
       if (alts) prev._alts = alts
     }
   }
+  // 期末日在未來的事實一律不收。已申報的財報不會有未來的期末日 —— 那種事實來自
+  // **負債到期表**：PennyMac 把可轉債的到期日（2027-03-31…2028-06-30，共 52 筆）
+  // 掛在 `ConvertibleNotesPayable` 上，於是期間清單長出 FY2027 Q2–Q4 三個幽靈季，
+  // 而評分取的是最新一期 → 整頁 0 項算得出來、覆蓋率 0.0%。
+  // 用「今天」當界線而不是「最後一次申報日」：後者在剛換季時會把剛發布的財報砍掉。
+  const todayISO = new Date().toISOString().slice(0, 10)
   for (const p of points) {
     if (!p.end) continue
+    if (p.end > todayISO) continue
     if (flow) {
       const days = spanDays(p)
       if (days === null) continue

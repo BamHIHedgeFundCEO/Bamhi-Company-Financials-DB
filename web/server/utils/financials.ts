@@ -1793,10 +1793,20 @@ export async function getFinancials(
   // 但 companyfacts 抓得到、20 期都有數字 —— 剩下那幾期是 ASC 842 適用前根本還沒有
   // 這個科目，寫 n/a 是誠實的（我們無法區分「準則還沒生效」與「漏抓」）。
   // 沒有這道護欄，同一列會同時出現數字和「—」，那是自相矛盾。
+  //
+  // 第二道護欄：**「整列沒有就視為 0」的科目不能標不適用**。那兩條規則對同一件事
+  // （整個期間都沒申報）給了互斥的結論 —— 補 0 說「算得出來」，不適用說「整條作廢」，
+  // 而 `metrics.ts` 的不適用是**整個指標**作廢，連算得出來的期別一起清掉。
+  // 實測 AAON 與 AXTA 沒有短期投資，補 0 之後淨負債／EBITDA 與速動比率本來都有值，
+  // 標上不適用之後兩項一起變「—」，覆蓋率 100% → 91.9%。
+  // 值都算得出來了還寫「—」是說謊的方向。
+  const zeroFilled = new Set(map.concepts
+    .filter((c) => c.zero_if_absent || c.zero_if_absent_bounded)
+    .map((c) => c.id))
   const na = await notApplicableFor(ref.sic, ref.cik10)
   if (na.size) {
     for (const li of lineItems) {
-      if (!na.has(li.id)) continue
+      if (!na.has(li.id) || zeroFilled.has(li.id)) continue
       if (Object.values(li.values).some(v => typeof v?.value === 'number')) continue
       li.applicable = false
     }

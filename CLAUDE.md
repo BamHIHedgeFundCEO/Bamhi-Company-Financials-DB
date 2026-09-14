@@ -223,6 +223,38 @@
   （營收成長、淨利率、ROE、負債權益比、稀釋）約 5 項，分不出 NVDA 與一家電力公司。
   鑑別力正好住在那些不是每家都有的項目裡。正確的目標是三個數字：`missing` 趨近 0、
   `inapplicable` 標成「—」而不是 n/a、每家的覆蓋率門檻維持 35%
+- **適用性表要跟 `xbrl_zh_map.json` 一起重跑**（`config/company_applicability.json`
+  的 `map_version`）。新增科目會改動詞元的 idf，**整張表的判定跟著漂**——
+  表停在 v1.22、map 走到 v1.26 的時候，新加的那 15 個產業限定科目（存款、已賺保費、
+  投資性不動產…）在表上根本不存在，於是保險經紀（AJG／AON）的綜合成本率、
+  非銀行放款業者（AFRM）的存放比全部顯示 n/a ——「該申報卻抓不到」。
+  那些公司根本不做那門生意，正確的留白是「—」。
+  重跑要四包 DERA 季度 zip（一季只有 10-Q，年報才揭露的行會被誤判成不適用）：
+  `python tools/fsds_coverage.py 2025q3.zip … 2026q2.zip --company-applicability config/company_applicability.json`
+  羅素 150 實測 `missing` 235 → 220 格、覆蓋率中位 91.1% → 92.1%
+- **標籤名裡 `Excluding…` 後面那一段不能進詞元表**（`fsds_coverage.py` 的
+  `_before_excluding`，只影響適用性判斷的 vocab，不影響 `tags` 對照取值）。
+  那一段講的是**這一行不含什麼**。銷貨成本收了
+  `CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization`，
+  於是 depreciation／depletion／amortization 三個詞進了它的詞元表 ——
+  **任何一家把 `DepreciationDepletionAndAmortization` 排在損益表上的公司**
+  （航空、公用事業、油氣都這樣排）都會被判成「有銷貨成本這一行」，光這三個詞就
+  9.65 分、是門檻 3.0 的三倍。結果是毛利率、現金轉換循環、存貨天數整組寫成 n/a，
+  但那些公司的損益表上根本沒有銷貨成本。修掉之後 AEE 覆蓋率 81.0% → 89.1%、
+  AWK 78.2% → 86.3%
+- **判不出銷貨成本的公司仍然有，這是已知極限不是待修的 bug**。詞元比對分不出
+  「成本」與「收入」：`SalesRevenueServicesNet` 對銷貨成本也是 9.65 分（sales／
+  revenue／services 三個詞都在銷貨成本的詞元表裡，因為 `CostOfSales`／`CostOfRevenue`／
+  `CostOfServices` 都是它的標籤）。美國航空因此從「—」翻回 n/a。
+  **翻回 n/a 是安全的方向**（難看但誠實），翻成「—」才是說謊，所以不要為了這幾家
+  去調鬆門檻。全市場普查（`--na-gaps`）也確認**沒有安全的標籤可補**：
+  公用事業／航空的候選全是折舊分項（`UtilitiesOperatingExpenseDepreciationAndAmortization`、
+  `CostOfGoodsAndServicesSoldDepreciation`），拿分項當合計就是被擋掉過的那條路
+- **「整列沒有就視為 0」的科目不能標不適用**。兩條規則對同一件事（整個期間都沒申報）
+  給互斥的結論：補 0 說「算得出來」，不適用說「整條作廢」——而 `metrics.ts` 的不適用
+  是**整個指標**作廢，連算得出來的期別一起清掉。AAON 與 AXTA 沒有短期投資，補 0 之後
+  淨負債／EBITDA 與速動比率本來都有值，標上不適用之後兩項一起變「—」，
+  覆蓋率 100% → 91.9%。**值都算得出來了還寫「—」是說謊的方向**
 - **稅前淨利在近年很多公司不掛合計標籤**（ORCL／COST／PG／ITW／MCD／PYPL 只申報
   `...BeforeIncomeTaxesDomestic`／`Foreign` 的年度附註拆分）→ 整條落空，ROIC 與
   有效稅率跟著死。用 `derive: net_income + income_tax` 回推並標成推算值

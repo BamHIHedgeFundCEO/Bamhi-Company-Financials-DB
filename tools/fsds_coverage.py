@@ -180,6 +180,32 @@ def tokens(s: str) -> set:
     return {t.lower() for t in _CAMEL.findall(s or "")} - STOP
 
 
+_EXCL = re.compile(r"Excluding|Exclusive(?:Of)?|ExcludedFrom")
+
+
+def _before_excluding(tag: str) -> str:
+    """標籤名裡 `Excluding…` 後面那一段講的是**這一行不含什麼**，不能當語意詞元。
+
+    只影響 vocab（判斷「這家公司的報表上有沒有語意相當的行」），不影響 tag2concepts
+    —— 公司真的申報那個標籤時照樣對照得到值。
+
+    不修的話銷貨成本會被折舊污染：`CostOfGoodsAndServiceExcludingDepreciation`
+    `DepletionAndAmortization` 把 depreciation／depletion／amortization 三個詞
+    塞進 cogs 的 vocab，於是**任何一家把 `DepreciationDepletionAndAmortization`
+    放在損益表上的公司**（航空、公用事業、油氣都這樣排版）都會被判成「有銷貨成本這一行」
+    —— 光這三個詞就 9.65 分，是門檻 3.0 的三倍。結果是毛利率、現金轉換循環、
+    存貨天數整組顯示 n/a（該申報卻抓不到），但那些公司的損益表上根本沒有銷貨成本，
+    正確的留白是「—」。
+
+    切掉整段（而不是只切被排除的那幾個字）是刻意的：排除子句的結尾沒有可靠的界線詞，
+    猜界線會在 `FinancingReceivableExcludingAccruedInterestAllowanceForCreditLoss…`
+    這種標籤上把整串吃掉。切整段的代價看得見、也量得到（見 CLAUDE.md 的實測），
+    猜界線的代價是靜靜地在別的科目上出錯。
+    """
+    mo = _EXCL.search(tag or "")
+    return tag[:mo.start()] if mo and mo.start() else tag
+
+
 def sic_group(sic: str) -> str:
     if not sic or not sic.isdigit():
         return "未分類"
@@ -252,12 +278,20 @@ def load_map():
     for c in m["concepts"]:
         for t in (c.get("tags") or []) + (c.get("tags_ifrs") or []):
             tag2concepts[t].add(c["id"])
-    # 科目的「語意詞元」= 所有已對照標籤的詞元 + 英文名的詞元
+    # 科目的「語意詞元」= 所有已對照標籤的詞元 + 英文名的詞元。
+    # ⚠️ **沒有標籤的科目不能進 vocab**（`debt_total` 只有 derive、tags 是空的）。
+    # 詞元比對問的是「這家公司的報表上有沒有語意相當的**標籤**」，而純推算的科目
+    # 在申報書上永遠不會出現 —— 拿英文名去比是在回答一個不存在的問題，
+    # 而且會多一個競爭者去分掉共用詞的 idf。
+    # 它們照樣拿得到適用性判斷，走 build_company_na 的 derive 傳遞：
+    # debt_total 的必要輸入是 long_term_debt，那一項判得出來就跟著判得出來。
     vocab = {}
     for c in concepts:
+        if not (c.get("tags") or c.get("tags_ifrs")):
+            continue
         v = set()
         for t in (c.get("tags") or []) + (c.get("tags_ifrs") or []):
-            v |= tokens(t)
+            v |= tokens(_before_excluding(t))
         v |= tokens(c.get("en", ""))
         vocab[c["id"]] = v
     return m, concepts, tag2concepts, vocab

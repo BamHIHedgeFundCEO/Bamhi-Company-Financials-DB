@@ -362,8 +362,12 @@ def main() -> int:
     ap.add_argument("--out", default="config/peer_stats.json")
     ap.add_argument("--min-companies", type=int, default=30,
                     help="樣本數低於此值的產業不給錨點（預設 30）")
-    ap.add_argument("--lo", type=float, default=0.25, help="bad 端的百分位")
-    ap.add_argument("--hi", type=float, default=0.75, help="good 端的百分位")
+    # 預設就是定案的寬窄：p25／p75 實測 27.6% 的格子飽和在 100 分（四分之一的項目
+    # 分不出高下）、p05／p95 把總分壓在 41–74，取 p10／p90 是飽和 4.8%／13.2%。
+    # 預設值留在被否決的那一組的話，重跑時漏帶旗標就會安靜地換掉判準而且沒有人會發現
+    # —— 2026-09 那份錨點就是這樣停在 p25／p75 的。config/batch_manifest.json 也釘了一份
+    ap.add_argument("--lo", type=float, default=0.10, help="bad 端的百分位（定案 p10）")
+    ap.add_argument("--hi", type=float, default=0.90, help="good 端的百分位（定案 p90）")
     ap.add_argument("--report", action="store_true", help="印出每個指標的產業分布")
     ap.add_argument("--score-dist", action="store_true",
                     help="用剛算好的錨點跑一次全市場總分，回報分布與建議的評級級距")

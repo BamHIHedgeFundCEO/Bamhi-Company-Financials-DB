@@ -23,6 +23,8 @@ import sys
 from datetime import date, timedelta
 from pathlib import Path
 
+from _digest import config_digest
+
 ROOT = Path(__file__).resolve().parent.parent
 MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN",
           "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
@@ -125,14 +127,20 @@ def main() -> int:
         art = json.loads(path.read_text(encoding="utf-8"))
         bad = 0
 
-        # 1. 輸入版本：產物蓋的戳記要等於現在的輸入
+        # 1. 輸入版本：產物蓋的戳記要等於現在的輸入。
+        #    上下游混在同一個檔裡時（scoring 既餵 peer_stats 又收它的產物）比整份版號
+        #    會成環，那種改用 hash_keys 只比對真的餵進去的那幾段
         for dep in b.get("depends", []):
-            live = load(dep["file"])[dep["field"]]
+            cfg = load(dep["file"])
+            if dep.get("hash_keys"):
+                live = config_digest(cfg, dep["hash_keys"])
+                how = f"（{dep['file']} 的 {'／'.join(dep['hash_keys'])}）"
+            else:
+                live, how = cfg[dep["field"]], f"（{dep['file']}）"
             got = art.get(dep["stamp"])
             if got != live:
                 bad += 1
-                errs.append(f"{out}：{dep['stamp']} 停在 {got}，"
-                            f"{dep['file']} 已經是 {live} —— 要重跑")
+                errs.append(f"{out}：{dep['stamp']} 停在 {got}，現在是 {live} {how} —— 要重跑")
 
         # 2. 生成參數：跑的時候忘了帶旗標，預設值會悄悄換掉判準
         for k, want in (b.get("params") or {}).items():

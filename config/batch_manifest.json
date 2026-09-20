@@ -1,7 +1,7 @@
 {
  "version": "1.0",
  "updated": "2026-09-20",
- "note": "離線批次的產物 -> 它的輸入。每個批次都把自己的輸入版本蓋在產物裡（map_version、source、percentiles…），這份表寫的是那些戳記「應該」等於什麼。tools/check_staleness.py 逐條比對，零 SEC 請求、零網路。存在的理由是 2026-09 那次：適用性表停在 map v1.22、map 走到 v1.26，新加的 15 個產業限定科目在表上根本不存在，於是保險經紀與非銀行放款業者的指標全部顯示 n/a —— 沒有任何地方報錯，因為漂移本來就不會報錯。",
+ "note": "離線批次的產物 -> 它的輸入。每個批次都把自己的輸入版本蓋在產物裡（map_version、source、percentiles…），這份表寫的是那些戳記「應該」等於什麼。tools/check_staleness.py 逐條比對，零 SEC 請求、零網路。存在的理由是 2026-09 那次：適用性表停在 map v1.22、map 走到 v1.26，新加的 15 個產業限定科目在表上根本不存在，於是保險經紀與非銀行放款業者的指標全部顯示 n/a —— 沒有任何地方報錯，因為漂移本來就不會報錯。 相依有兩種寫法：`field`／`stamp` 比對整份的版號（輸入完全在上游時用），`hash_keys`／`stamp` 只比對指定那幾段的指紋（上下游混在同一個檔裡時用，見 peer_stats 對 scoring）。",
  "cadence": {
   "dera_lag_days": 60,
   "filing_lag_days": 45,
@@ -13,10 +13,21 @@
    "out": "config/company_applicability.json",
    "cmd": "python tools/fsds_coverage.py <四包 zip> --company-applicability config/company_applicability.json",
    "depends": [
-    {"file": "config/xbrl_zh_map.json", "field": "version", "stamp": "map_version"}
+    {
+     "file": "config/xbrl_zh_map.json",
+     "field": "version",
+     "stamp": "map_version"
+    }
    ],
-   "params": {"min_tags": 8, "min_score": 3.0},
-   "vintage": {"kind": "dera_quarters", "field": "source", "min_quarters": 4},
+   "params": {
+    "min_tags": 8,
+    "min_score": 3.0
+   },
+   "vintage": {
+    "kind": "dera_quarters",
+    "field": "source",
+    "min_quarters": 4
+   },
    "note": "逐家公司的適用性表。map 新增科目會改動詞元的 idf，整張表的判定跟著漂 -> map 一改就要重跑。"
   },
   {
@@ -24,10 +35,21 @@
    "out": "config/concept_applicability.json",
    "cmd": "python tools/fsds_coverage.py <四包 zip> --applicability config/concept_applicability.json",
    "depends": [
-    {"file": "config/xbrl_zh_map.json", "field": "version", "stamp": "map_version"}
+    {
+     "file": "config/xbrl_zh_map.json",
+     "field": "version",
+     "stamp": "map_version"
+    }
    ],
-   "params": {"threshold": 0.15, "structural_threshold": 0.08},
-   "vintage": {"kind": "dera_quarters", "field": "source", "min_quarters": 4},
+   "params": {
+    "threshold": 0.15,
+    "structural_threshold": 0.08
+   },
+   "vintage": {
+    "kind": "dera_quarters",
+    "field": "source",
+    "min_quarters": 4
+   },
    "note": "產業層的適用性表，company_applicability 沒收錄的公司退回這一份。與它同一次批次產出，所以季別必須一致。"
   },
   {
@@ -35,27 +57,62 @@
    "out": "config/peer_stats.json",
    "cmd": "python tools/peer_stats.py <四包 zip> --score-dist",
    "depends": [
-    {"file": "config/xbrl_zh_map.json", "field": "version", "stamp": "map_version"},
-    {"file": "config/scoring.json", "field": "version", "stamp": "scoring_version"}
+    {
+     "file": "config/xbrl_zh_map.json",
+     "field": "version",
+     "stamp": "map_version"
+    },
+    {
+     "file": "config/scoring.json",
+     "hash_keys": [
+      "dimensions",
+      "models",
+      "dimension_coverage_floor",
+      "coverage_floor"
+     ],
+     "stamp": "scoring_inputs",
+     "note": "只比對真的餵進批次的那幾段。grades（評級級距）是這支的產物不是輸入 —— 拿整份的 version 當相依會成環：重訂級距要升版，一升版錨點又被判成過期，而那兩件事不是同一個方向"
+    }
    ],
-   "params": {"min_companies": 30, "percentiles": [0.1, 0.9]},
-   "vintage": {"kind": "dera_quarters", "field": "source", "min_quarters": 4},
+   "params": {
+    "min_companies": 30,
+    "percentiles": [
+     0.1,
+     0.9
+    ]
+   },
+   "vintage": {
+    "kind": "dera_quarters",
+    "field": "source",
+    "min_quarters": 4
+   },
    "note": "同業百分位錨點。指標公式取自 map 的 derived、採計規則取自 scoring，兩者任一改版都會讓錨點與執行期採計的格子對不上。percentiles 釘 p10／p90：p25／p75 實測 27.6% 的格子飽和在 100 分，p05／p95 又把標準差壓到 6.6。"
   },
   {
    "id": "class_shares",
    "out": "config/class_shares.json",
    "cmd": "python tools/class_shares.py",
-   "vintage": {"kind": "generated_date", "field": "version", "lag_days": 45},
+   "vintage": {
+    "kind": "generated_date",
+    "field": "version",
+    "lag_days": 45
+   },
    "note": "多股別公司的期末股數。沒有輸入版本可綁，只有時效：新的一季的 10-Q/10-K 送件完畢就要重跑，沒跑到的期維持 n/a。"
   },
   {
    "id": "f13",
    "out": "config/f13/_index.json",
    "cmd": "python tools/f13.py --live",
-   "vintage": {"kind": "quarter_end", "field": "period"},
+   "vintage": {
+    "kind": "quarter_end",
+    "field": "period"
+   },
    "siblings": [
-    {"file": "config/f13/_leaders.json", "field": "period", "note": "排行榜與索引必須是同一季，不然個股頁與排行榜會各說一季"}
+    {
+     "file": "config/f13/_leaders.json",
+     "field": "period",
+     "note": "排行榜與索引必須是同一季，不然個股頁與排行榜會各說一季"
+    }
    ],
    "note": "13F 批次資料集落後整整一季，季末 +45 天的截止日一過就要用 --live 補，否則網站停在上一季。"
   }
@@ -65,9 +122,18 @@
    "id": "dera_source_agree",
    "kind": "equal_fields",
    "refs": [
-    {"file": "config/company_applicability.json", "path": "source"},
-    {"file": "config/concept_applicability.json", "path": "source"},
-    {"file": "config/peer_stats.json", "path": "source"}
+    {
+     "file": "config/company_applicability.json",
+     "path": "source"
+    },
+    {
+     "file": "config/concept_applicability.json",
+     "path": "source"
+    },
+    {
+     "file": "config/peer_stats.json",
+     "path": "source"
+    }
    ],
    "note": "三份都從同一批 DERA zip 算出來。季別不一致的話「同業錨點」與「這家公司適不適用」來自兩個不同的年份，對不起來也沒有人會發現"
   },
@@ -75,8 +141,15 @@
    "id": "grades_recut_with_anchors",
    "kind": "equal_fields",
    "refs": [
-    {"file": "config/scoring.json", "path": "grades[].lt", "drop_null": true},
-    {"file": "config/peer_stats.json", "path": "score_distribution.suggested_grade_lt"}
+    {
+     "file": "config/scoring.json",
+     "path": "grades[].lt",
+     "drop_null": true
+    },
+    {
+     "file": "config/peer_stats.json",
+     "path": "score_distribution.suggested_grade_lt"
+    }
    ],
    "note": "換錨點就要一起重訂評級級距。級距是全市場總分的分位數（底 10%／10–30%／30–70%／70–90%／頂 10%），錨點一換分布就整個平移，不重訂的話沒有人拿得到「強健」，評級靜靜失去意義"
   }

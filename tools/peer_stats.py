@@ -52,9 +52,13 @@ from collections import defaultdict
 from datetime import date, datetime
 from pathlib import Path
 
+from _digest import config_digest
+
 ROOT = Path(__file__).resolve().parent.parent
 MAP_PATH = ROOT / "config/xbrl_zh_map.json"
 SCORING_PATH = ROOT / "config/scoring.json"
+# peer_stats 真正讀進來的幾段（grades／arrow 是它的下游，不在內）
+SCORING_INPUT_KEYS = ["dimensions", "models", "dimension_coverage_floor", "coverage_floor"]
 STD_NS = "us-gaap"
 WANTED_FORMS = {"10-K", "10-K/A", "20-F", "20-F/A", "40-F", "40-F/A"}
 
@@ -601,6 +605,9 @@ def main() -> int:
         "source": [Path(z).name for z in args.zips],
         "map_version": m["version"],
         "scoring_version": scoring["version"],
+        # 只對真的餵進這支批次的那幾段取指紋。grades 是這支的產物不是輸入，
+        # 拿整份的 version 當相依會成環（重訂級距要升版 -> 錨點又被判成過期）
+        "scoring_inputs": config_digest(scoring, SCORING_INPUT_KEYS),
         "min_companies": args.min_companies,
         "percentiles": [args.lo, args.hi],
         "note": ("同業百分位錨點：bad＝同業 %d 百分位、good＝%d 百分位（低越好的指標對調）。"

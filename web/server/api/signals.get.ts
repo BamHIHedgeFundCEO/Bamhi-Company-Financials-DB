@@ -130,7 +130,7 @@ export default defineEventHandler(async (event) => {
   // 順序不能調換：sectorDerived 引用了 net_income_ttm／cfo_ttm 這些前面定義的指標，
   // 求值器是照陣列順序算的，放到前面會整條解不出來（check_signals.py 會擋）
   const lineItems = [...fin.lineItems, ...fin.sectorItems]
-  const metrics = computeMetrics([...fin.derived, ...fin.sectorDerived], lineItems, fin.periods, annual)
+  const metrics = computeMetrics([...fin.derived, ...fin.sectorDerived], lineItems, fin.periods, annual, lookback)
   const cfg = await loadSignals()
   const scfg = await loadScoring()
   const peer = await loadPeer()

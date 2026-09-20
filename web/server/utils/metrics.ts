@@ -14,14 +14,27 @@
  *   [t-4] → 前 1 欄
  *   「× 4 年化」→ × 1、週轉天數的 91.25 → 365
  *
- * 缺值分三種，**不能混成同一個符號**（見 applicability.ts 與 workbook.py 的同一條規則）：
+ * 缺值分五種，**不能混成同一個符號**（見 applicability.ts 與 workbook.py 的同一條規則）：
  *   missing        該申報卻抓不到 → 頁面寫 n/a，讀者要自己去 EDGAR 對
  *   inapplicable   這家公司本來就沒有這一行（銀行沒有存貨）→ 頁面寫「—」
  *   window         比較基期落在所選期間之外（第一年的年增率）→ 頁面寫「—」
+ *   undisclosed    這家公司**別的期別有值、這一期沒有** → 頁面寫「本期未揭露」
+ *   zero_divisor   分母是公司自己申報的 0 → 比值無定義 → 頁面寫「分母為 0」
+ *
+ * 後兩種是從 missing 裡拆出來的，理由是它們都不是「我們漏抓」：
+ *
+ *   undisclosed：BJ／BMRN／APPF／AMCR 實測合約負債連續申報了十幾期之後停掉，
+ *     最新幾期整片空白。寫 n/a 等於叫讀者去 EDGAR 找一個公司沒寫的數字；寫「—」
+ *     又會說謊 ——「不適用」在 metrics 這一層是**整個指標**作廢，連算得出來的
+ *     期別一起清掉（AAON／AXTA 那條規則）。它要的是一個逐格的第四種符號。
+ *   zero_divisor：ALGM 與 AUR 的合約負債是公司自己申報的 0（companyfacts 上
+ *     六個年度都是 0，不是抓不到），年增率因此是 0/0。那是「無定義」不是「缺資料」，
+ *     混進 n/a 會讓「我們漏抓」的統計憑空多出幾家。
  */
 import type { DerivedMetric, LineItem } from './financials'
 
 export type MetricReason = 'ok' | 'missing' | 'inapplicable' | 'window'
+  | 'undisclosed' | 'zero_divisor'
 
 export interface MetricCell {
   value: number | null
@@ -153,11 +166,18 @@ const OK = (value: number | null, isEstimated: boolean): MetricCell =>
     ? { value: null, reason: 'missing', isEstimated }
     : { value, reason: 'ok', isEstimated }
 
-/** 兩個缺值理由合併：window（基期不在區間內）比 missing 更具體，優先保留 */
+/**
+ * 兩個缺值理由合併。順序就是「誰比較具體」：
+ *   inapplicable > window > missing > undisclosed > zero_divisor
+ * **missing 要壓過 undisclosed**：只要有任一個輸入是真的抓不到，整格就不能說成
+ * 「這家公司本期沒揭露」—— 那會把我們自己的缺口講成公司的選擇。
+ */
 function worse(a: MetricReason, b: MetricReason): MetricReason {
   if (a === 'inapplicable' || b === 'inapplicable') return 'inapplicable'
   if (a === 'window' || b === 'window') return 'window'
   if (a === 'missing' || b === 'missing') return 'missing'
+  if (a === 'undisclosed' || b === 'undisclosed') return 'undisclosed'
+  if (a === 'zero_divisor' || b === 'zero_divisor') return 'zero_divisor'
   return 'ok'
 }
 
@@ -198,7 +218,8 @@ function evalNode(n: Node, idx: number, env: Env): MetricCell {
       const est = l.isEstimated || r.isEstimated
       // 除以 0 一律回缺值。Excel 端靠 IFERROR 吃掉 #DIV/0!，這裡要自己擋，
       // 不然 Infinity 會一路傳下去變成畫得出來的假線
-      if (n.op === '/' && r.value === 0) return { value: null, reason: 'missing', isEstimated: est }
+      // 分母是公司自己申報的 0 → 比值無定義，不是「抓不到」
+      if (n.op === '/' && r.value === 0) return { value: null, reason: 'zero_divisor', isEstimated: est }
       const v = n.op === '+' ? l.value + r.value
         : n.op === '-' ? l.value - r.value
           : n.op === '*' ? l.value * r.value
@@ -221,8 +242,21 @@ export function computeMetrics(
   lineItems: LineItem[],
   periods: string[],
   annual: boolean,
+  /**
+   * `periods` 前面有幾期是**讀者看不到的** lookback（signals 多取 8 期來算 [t-4]／TTM）。
+   * 只影響 undisclosed 的判定，不影響任何數值。
+   */
+  lookback = 0,
 ): Map<string, MetricSeries> {
   const byConcept = new Map<string, LineItem>(lineItems.map((li) => [li.id, li]))
+  // 「這家公司有沒有申報過這個科目」——只看**讀者看得見的那幾欄**有沒有任何一格有值。
+  // 用它把「公司本期沒揭露」從「我們漏抓」裡分出來：整段都沒有才是後者。
+  // **不能把 lookback 那幾期算進來**：AMD 的合約負債停在 2020 年、ALK 2020 年之後
+  // 改成只用維度揭露，兩家在畫面上的 18 欄都是空的。拿看不見的舊值當「別的期別有值」
+  // 的證據，等於請讀者去比對一個這張表上不存在的東西 —— 那兩家維持 n/a 才誠實
+  const visible = periods.slice(lookback)
+  const everReported = new Set<string>(
+    lineItems.filter((li) => visible.some((p) => li.values[p]?.value != null)).map((li) => li.id))
   const out = new Map<string, MetricSeries>()
   const metricIds = new Set(derived.map((m) => m.id))
 
@@ -254,7 +288,11 @@ export function computeMetrics(
       if (li) {
         const cell = li.values[p]
         if (!cell || cell.value == null) {
-          return { value: null, reason: li.applicable === false ? 'inapplicable' : 'missing', isEstimated: false }
+          // 這家公司別的期別有值、只有這一期沒有 → 是公司本期沒揭露，不是我們漏抓
+          const reason: MetricReason = li.applicable === false
+            ? 'inapplicable'
+            : (everReported.has(id) ? 'undisclosed' : 'missing')
+          return { value: null, reason, isEstimated: false }
         }
         return { value: cell.value, reason: 'ok', isEstimated: !!cell.isEstimated }
       }

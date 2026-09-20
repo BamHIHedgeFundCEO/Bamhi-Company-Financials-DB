@@ -92,9 +92,12 @@ function fmtVal(s: Sig, c: Cell | null | undefined): string {
   if (s.unit === 'x') return `${v.toFixed(2)}x`
   return String(v)
 }
-const reasonMark = (r: string) => (r === 'missing' ? 'n/a' : '—')
+const reasonMark = (r: string) => (r === 'missing' ? 'n/a'
+  : r === 'undisclosed' ? '未揭露'
+    : r === 'zero_divisor' ? '無定義'
+      : '—')
 
-/** 三種留白各自的解釋。混成一種的話，讀者會把「這家公司沒有這一行」當成我們漏抓 */
+/** 五種留白各自的解釋。混成一種的話，讀者會把「這家公司沒有這一行」當成我們漏抓 */
 function blankWhy(s: Sig, c: Cell | null | undefined): string | null {
   if (!c || c.reason === 'ok') return null
   if (c.invalid) {
@@ -106,6 +109,13 @@ function blankWhy(s: Sig, c: Cell | null | undefined): string | null {
       : `${isAnnual.value ? '年度' : '季度'}資料算不出這個指標`
   }
   if (c.reason === 'window') return `比較基期（${yoyZh.value}）落在所選期間之外，往前拉長期間就會出現`
+  if (c.reason === 'undisclosed') {
+    return '這家公司在上面這張表的其他期別申報過這個科目，只有這一期沒有 —— 是公司本期沒揭露，不是我們漏抓。'
+      + '往前幾欄對得到值'
+  }
+  if (c.reason === 'zero_divisor') {
+    return '分母是公司自己申報的 0（不是抓不到），比值沒有定義。這一格留白不代表數字不好'
+  }
   return 'SEC 申報裡沒有對應的標籤，我們不以 0 代替'
 }
 const guardZh: Record<string, string> = { net_income: '淨利', ebitda: 'EBITDA' }
@@ -154,13 +164,15 @@ const noTotalWhy = computed(() => {
 /** 展開哪一個構面的逐項明細 */
 const openDim = ref<string | null>(null)
 
-/** 沒算到分的三種理由，各自寫清楚 —— 混成一種讀者會以為是我們漏抓 */
+/** 沒算到分的理由，各自寫清楚 —— 混成一種讀者會以為是我們漏抓 */
 const itemWhy: Record<string, string> = {
   missing: 'SEC 申報裡沒有對應的標籤',
   inapplicable: '這家公司沒有這一行（產業結構）',
   window: '比較基期落在所選期間之外',
   invalid: '分母為負，比值會反過來，整項作廢',
   not_meaningful: '這個指標對這門生意沒有定義',
+  undisclosed: '這家公司別的期別有申報，本期沒揭露',
+  zero_divisor: '分母是公司申報的 0，比值無定義',
 }
 
 /** 得分條的長度用分數，顏色只分三段——顏色是輔助，數字才是主體 */

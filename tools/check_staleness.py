@@ -25,6 +25,11 @@ from pathlib import Path
 
 from _digest import config_digest
 
+# Windows 的主控台預設 cp950，勾勾（U+2713）直接讓整支在最後一行印出時炸掉 ——
+# 體檢跑完了、結果卻沒印出來，看起來像工具壞了。輸出端強制 UTF-8。
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 ROOT = Path(__file__).resolve().parent.parent
 MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN",
           "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]

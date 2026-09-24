@@ -244,6 +244,43 @@ export async function loadClassSharesVersion(): Promise<string> {
   return (await loadClassShares()).version
 }
 
+interface Theme { version: string; layout: Record<string, string> }
+let cachedTheme: Theme | null = null
+/** `config/theme.json`。留白的四種寫法放在 `layout` 裡，Excel 與 CSV 共用同一份字串 */
+export async function loadTheme(): Promise<Theme> {
+  if (cachedTheme) return cachedTheme
+  const raw = await useStorage('assets:config').getItem('theme.json')
+  cachedTheme = ((typeof raw === 'string' ? JSON.parse(raw) : raw) as Theme) ?? {
+    version: '',
+    layout: {},
+  }
+  return cachedTheme
+}
+
+/** 供 Excel 快取 key 用：留白字樣或版面改版 → 舊活頁簿失效 */
+export async function loadThemeVersion(): Promise<string> {
+  return (await loadTheme()).version
+}
+
+/**
+ * 一個科目在留白時該寫什麼。階梯與 `metrics.ts` 的 `worse()` 同序，
+ * `excel-service/workbook.py` 的三大報表分頁是同一道 —— 同一格在下載檔、
+ * CSV、轉折點頁不能給三種說法。
+ *
+ * `visible` 只能放**讀者看得到的期**：Excel 前面幾欄是隱藏的 lookback，
+ * 拿隱藏欄的舊值當「別的期別有值」的證據，等於請人去比對一張表上不存在的東西。
+ */
+export function blankLabel(
+  li: Pick<LineItem, 'applicable' | 'dimensionOnly' | 'values'>,
+  visible: string[],
+  layout: Record<string, string>,
+): string {
+  if (li.applicable === false) return layout.inapplicable_value ?? '—'
+  if (visible.some((p) => li.values[p]?.value != null)) return layout.undisclosed_value ?? '未揭露'
+  if (li.dimensionOnly) return layout.dimension_only_value ?? '僅維度揭露'
+  return layout.missing_value ?? 'n/a'
+}
+
 /** "FY2026 Q2" 排序鍵 */
 function periodKey(fy: number, q: number): string {
   return `FY${fy} Q${q}`

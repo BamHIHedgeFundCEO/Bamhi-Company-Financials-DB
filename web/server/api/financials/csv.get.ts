@@ -1,12 +1,13 @@
 import { defineEventHandler, getQuery, setHeader, createError } from 'h3'
 import { resolveCompany } from '../../utils/cik'
-import { getFinancials } from '../../utils/financials'
+import { getFinancials, loadTheme, blankLabel } from '../../utils/financials'
 import { parseTickers, parseRange, clampPeriods } from '../../utils/params'
 
 /**
  * GET /api/financials/csv?ticker=AAPL&from=2021Q1&to=2026Q2&statement=IS
  * → text/csv（單一報表；statement = IS | BS | CF）
- * 缺值輸出 n/a（絕不是 0）。UTF-8 BOM 讓 Excel 正確讀中文。
+ * 缺值絕不輸出 0。留白分四種（n/a／—／未揭露／僅維度揭露），與下載檔、
+ * 轉折點頁同一道階梯 —— 同一格不能有三種說法。UTF-8 BOM 讓 Excel 正確讀中文。
  */
 export default defineEventHandler(async (event) => {
   const query = getQuery(event)
@@ -27,18 +28,21 @@ export default defineEventHandler(async (event) => {
   // 幣別要跟著數字走。外國發行人是用本國貨幣申報的（TM 日圓、BABA 人民幣、
   // ASML 歐元），沒標的話一串沒有單位的數字會被當成美元讀。
   const header = [`科目（幣別：${fin.currency}）`, 'Line Item', ...fin.periods].map(esc).join(',')
+  const layout = (await loadTheme()).layout
   const rows = fin.lineItems
     .filter((li) => li.statement === statement)
-    .map((li) =>
-      [
+    .map((li) => {
+      // CSV 沒有隱藏欄，`fin.periods` 就是讀者看得到的全部
+      const blank = blankLabel(li, fin.periods, layout)
+      return [
         esc(li.zh),
         esc(li.en),
         ...fin.periods.map((p) => {
           const c = li.values[p]
-          return c?.value == null ? 'n/a' : String(c.value)
+          return c?.value == null ? esc(blank) : String(c.value)
         }),
-      ].join(','),
-    )
+      ].join(',')
+    })
 
   setHeader(event, 'Content-Type', 'text/csv; charset=utf-8')
   setHeader(

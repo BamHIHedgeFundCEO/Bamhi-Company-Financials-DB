@@ -23,7 +23,10 @@ METRICS_SHEET = "關鍵指標"
 
 DISCLAIMER = (
     "資料來源為美國 SEC EDGAR 公開資料（companyfacts XBRL API），本工具與 SEC 無任何隸屬關係。"
-    "缺值以 n/a 表示——SEC 無該標籤不代表數值為零。僅供參考，不構成投資建議。"
+    "缺值絕不寫 0——SEC 無該標籤不代表數值為零。留白分四種："
+    "n/a（該申報卻抓不到）、—（這家公司沒有這一行）、未揭露（別的期有值、這幾期沒報）、"
+    "僅維度揭露（報表上有這一行，但只有帶維度的申報，API 取不到），說明分頁逐一解釋。"
+    "僅供參考，不構成投資建議。"
 )
 
 
@@ -45,28 +48,25 @@ def _inputs(formula: str) -> set:
     return {x for x in _IDENT.findall(formula) if x not in _NOT_CONCEPT}
 
 
-def _metric_inapplicable(formula: str, applicable: dict, metric_ids: set) -> bool:
+def _metric_flag_map(derived: list, flagged: set) -> dict:
     """
-    這個指標對這家公司「本來就不存在」嗎？
+    科目層的留白理由，沿著公式傳到指標層。
 
     三大報表早就分「n/a（該揭露卻查不到）」與「—（不適用）」了，關鍵指標卻沒有繼承：
     水泥公司的研發費用率、銀行的存貨週轉天數都寫成 n/a，讀者會以為是我們漏抓。
     實測 13 家跨產業：研發費用率 69% 是 n/a、存貨週轉天數 47%、毛利率 41%，
     其中絕大多數其實是「這家公司沒有這一行」。
 
-    規則：公式用到的**任何一個**科目對這家公司不適用 → 整個指標不適用。
+    規則：公式用到的**任何一個**科目帶旗標 → 整個指標帶同一個旗標。
     存貨不適用的公司算不出存貨週轉天數，這是定義問題不是資料問題。
     指標引用指標時要一起傳遞：EBITDA 是「—」而 EBITDA 利潤率寫 n/a 就自相矛盾。
-    `_metric_na_map` 用迭代解，不遞迴（避免循環引用打轉）。
+    迭代解不遞迴（避免循環引用打轉）。
+
+    `flagged` 是科目 id 的集合，呼叫端各自決定放哪一種旗標（不適用／僅維度揭露），
+    兩種共用這支是因為傳遞規則完全一樣 —— 差別只在最後寫哪個字。
     """
-    return any(applicable.get(i) is False
-               for i in _inputs(formula) - metric_ids)
-
-
-def _metric_na_map(derived: list, applicable: dict) -> dict:
-    """每個指標適不適用。科目層判完後，沿著「指標引用指標」再傳幾輪直到穩定"""
     ids = {m["id"] for m in derived}
-    na = {m["id"]: _metric_inapplicable(m["formula"], applicable, ids) for m in derived}
+    na = {m["id"]: any(i in flagged for i in _inputs(m["formula"]) - ids) for m in derived}
     for _ in range(len(derived)):          # 最多傳 n 輪，穩定就停
         changed = False
         for m in derived:
@@ -167,6 +167,7 @@ def build_workbook(payload: dict) -> bytes:
     annual = fin.get("periodicity") == "annual"
     lookback = int(fin.get("lookbackCount", 0))  # 前面幾欄是 lookback（隱藏，供 YoY/TTM 公式）
     n_display = n - lookback
+    visible = periods[lookback:]  # 讀者看得到的欄（lookback 欄在最後會被隱藏）
     data_start = FIRST_DATA_COL + lookback  # 圖表與顯示的第一欄
     set_data_start(data_start)
     pre_ipo = fin.get("preIpoBefore")  # 上市/借殼前的期界線
@@ -177,6 +178,8 @@ def build_workbook(payload: dict) -> bytes:
     q4_fill = PatternFill("solid", fgColor=th["palette"]["q4_estimated_fill"].lstrip("#"))
     missing = th["layout"]["missing_value"]  # "n/a"
     inapplicable_stmt = th["layout"].get("inapplicable_value", "—")
+    undisclosed_stmt = th["layout"].get("undisclosed_value", "未揭露")
+    dim_only_stmt = th["layout"].get("dimension_only_value", "僅維度揭露")
 
     wb = Workbook()
     wb.remove(wb.active)
@@ -226,6 +229,17 @@ def build_workbook(payload: dict) -> bytes:
          "保障倍數無從談起，不是資料缺漏。"
          "「—」與 n/a 的差別：n/a 是「該有卻查不到，值得去查」，「—」是「查也查不到」。"
          "此判斷只影響空格的寫法，凡是有申報的數字一律照實填入，不會被蓋掉。"),
+        ("「未揭露」是什麼", "這家公司別的期別有值、只有這幾期沒有——合約負債連續申報十幾期"
+         "之後停掉是最常見的一種。寫 n/a 等於叫讀者去 EDGAR 找一個公司根本沒寫的數字，"
+         "但也不能寫「—」：那一行對這家公司是存在的，只是這幾期沒報。"
+         "判斷只數你看得到的欄位——前面幾欄隱藏欄是給 TTM／年增率公式用的，"
+         "拿看不見的舊值當「別的期別有值」的證據，等於請你去比對一張表上不存在的東西。"),
+        ("「僅維度揭露」是什麼", "報表上真的有這一行，但公司整批只用維度（dimension）申報，"
+         "例如把長期負債按有無追索權、按法人實體拆開，沒有一筆無維度的合計。"
+         "SEC 的 companyfacts API 只收無維度事實，所以這條路取不到——"
+         "不是我們漏對標籤（標籤對得上），也不是公司沒有這一行（寫「—」會是說謊）。"
+         "合計值只印在申報書渲染後的 HTML 上，而本站的數字一律不從 HTML 取。"
+         "關鍵指標分頁的整列也會是「僅維度揭露」：算式的某個輸入取不到，整個指標就算不出來。"),
         *([("兩個 EV 有什麼不同", "「企業價值 EV」＝ 市值 + 負債總計 − 現金 − 短期投資，"
             "買下整間公司要扛下資產負債表右邊的全部，這一列永遠算得出來。"
             "「企業價值（僅有息負債）」只加短期借款與長期負債，是 Bloomberg／CapIQ 的口徑，"
@@ -256,8 +270,9 @@ def build_workbook(payload: dict) -> bytes:
             "另有敏感度表：終端倍數 × EBITDA 利潤率 對今日合理價的二維影響，"
             "其餘假設固定在中性情境。")]
           if (fin.get("valuation") or {}).get("rows") else []),
-        *([("上市前資料", f"{pre_ipo} 之前的季度已顯示為 n/a。此公司經 SPAC 借殼／IPO 上市，"
-            "上市前為私有公司，股數基礎與上市後不可比（每股數值會嚴重失真），故不列出。")]
+        *([("上市前資料", f"{pre_ipo} 之前的季度整欄不列出（不是寫 n/a，是連欄位一起拿掉）。"
+            "此公司經 SPAC 借殼／IPO 上市，上市前為私有公司，股數基礎與上市後不可比"
+            "（每股數值會嚴重失真）。")]
           if pre_ipo else []),
         *([("為什麼沒有分部拆解", "這家公司在 ASC 280 下只有一個應報告分部 —— "
             "申報檔的分部軸底下只有「應報告分部合計」這一個成員，數字等於合併總額，"
@@ -331,12 +346,28 @@ def build_workbook(payload: dict) -> bytes:
             if li["statement"] != stmt:
                 continue
             row += 1
-            # applicable=False：該科目對這家公司的產業本來就不存在（銀行沒有存貨、
-            # 控股公司沒有毛利）。缺值要寫「—」不是 n/a —— n/a 是叫讀者自己去查，
-            # 但這種科目查也查不到。判準來自 config/concept_applicability.json，
-            # 由 tools/fsds_coverage.py 從全市場 5,542 家離線盤點而來。
+            # 留白的四種寫法，階梯與網頁 `metrics.ts` 逐級對齊 —— 同一格在兩個地方
+            # 不能給兩種說法（轉折點說「僅維度揭露」、下載檔寫 n/a，讀者只會以為壞了）。
+            #   ① 「—」  applicable=False：該科目對這家公司的產業本來就不存在
+            #            （銀行沒有存貨、控股公司沒有毛利）。判準來自全市場離線盤點，
+            #            n/a 是叫讀者自己去查，這種科目查也查不到。
+            #   ② 未揭露  看得見的欄位裡別的期有值、只有這幾期沒有 —— 那是公司自己
+            #            停掉不報（合約負債連報十幾期後整片空白），不是我們漏抓。
+            #   ③ 僅維度揭露 報表上真的有這一行，但公司整批只用維度申報，
+            #            companyfacts 只收無維度事實 → 這條路取不到。
+            #   ④ n/a    以上皆非：該申報卻抓不到，值得去 EDGAR 對。
             # **只影響缺值的呈現**：有值的格子照樣寫值，所以不會蓋掉任何真數字。
-            blank = missing if li.get("applicable", True) else inapplicable_stmt
+            #
+            # 「別的期有值」只能數**看得見的欄**：前面 lookback 欄是隱藏的（供 TTM／YoY
+            # 公式用），拿隱藏欄的舊值當證據等於請讀者去比對一張表上不存在的東西。
+            if not li.get("applicable", True):
+                blank = inapplicable_stmt
+            elif any((li["values"].get(p) or {}).get("value") is not None for p in visible):
+                blank = undisclosed_stmt
+            elif li.get("dimensionOnly"):
+                blank = dim_only_stmt
+            else:
+                blank = missing
             locations[li["id"]] = (ws, row)
             resolver.add(li["id"], sheet_name, row)
             ws.cell(row=row, column=1, value=li["zh"]).border = ROW_BORDER
@@ -376,9 +407,18 @@ def build_workbook(payload: dict) -> bytes:
     current_group = None
     group_members: dict[str, list[str]] = {}
     # 三大報表的適用性旗標（applicable=False ＝ 這家公司沒有這一行）
-    applicable_by_id = {li["id"]: li.get("applicable", True) for li in fin["lineItems"]}
+    inapplicable_ids = {li["id"] for li in fin["lineItems"] if li.get("applicable", True) is False}
     metric_ids = {x["id"] for x in fin["derived"]}
-    metric_na_by_id = _metric_na_map(fin["derived"], applicable_by_id)
+    metric_na_by_id = _metric_flag_map(fin["derived"], inapplicable_ids)
+    # 僅維度揭露也要傳到指標層：AES／AMP／ARES／BRK-B 的長期負債只帶維度申報，
+    # 負債權益比在轉折點頁寫「僅維度揭露」、在這裡寫 n/a，同一格兩種說法。
+    # 只算「看得見的欄一格值都沒有」的科目 —— 有值的科目照樣算得出指標。
+    dim_only_ids = {
+        li["id"] for li in fin["lineItems"]
+        if li.get("dimensionOnly") and li.get("applicable", True) is not False
+        and not any((li["values"].get(p) or {}).get("value") is not None for p in visible)
+    }
+    metric_dim_by_id = _metric_flag_map(fin["derived"], dim_only_ids)
     inapplicable_metric = th["layout"].get("inapplicable_value", "—")
     for m in fin["derived"]:
         if m["group"] != current_group:
@@ -401,15 +441,19 @@ def build_workbook(payload: dict) -> bytes:
         name_cell.comment = Comment(m["desc"], "BamHI", height=160, width=360)
         fmt = _metric_fmt(m, th)
         metric_na = metric_na_by_id[m["id"]]
+        # 階梯與 metrics.ts 的 worse() 同序：不適用 > 僅維度揭露
+        metric_blank = (inapplicable_metric if metric_na
+                        else dim_only_stmt if metric_dim_by_id[m["id"]]
+                        else None)
         for i in range(n):
             col = FIRST_DATA_COL + i
             cell = ws.cell(row=row, column=col)
             cell.border = ROW_BORDER
-            if metric_na:
-                # 不適用要在**產公式之前**判掉。這些指標的公式產得出來
-                # （科目那一列存在，只是每格都是 n/a），算出來仍是 n/a，
+            if metric_blank:
+                # 留白理由要在**產公式之前**判掉。這些指標的公式產得出來
+                # （科目那一列存在，只是每格都是留白），算出來仍是 n/a，
                 # 讀者看到的還是「查不到」而不是「這家公司沒有這一行」。
-                cell.value = inapplicable_metric
+                cell.value = metric_blank
                 cell.font = na_font
                 cell.alignment = Alignment(horizontal="right")
                 continue

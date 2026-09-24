@@ -270,6 +270,46 @@ def scan_num(z, subs, tag_pri, stmt_of, store, quiet=False):
     return n
 
 
+def apply_bounded_zero(concepts, series, n):
+    """執行期的「以權益為上限背書補 0」（`zero_if_bounded_equity`）。
+
+    **必須跟執行期一致，這不是可選的**：CLAUDE.md 的「同業錨點的樣本要跟執行期
+    採計的格子一致」。不補的話，零槓桿公司在執行期有 D/E = 0、在錨點樣本裡卻整格
+    缺席 —— 錨點會算在一個把最好的那一端整批剔掉的樣本上。
+
+    市值那條（`zero_if_bounded`）這裡做不到也不該做：它要股價，而這支是離線批次。
+    """
+    for c in concepts:
+        rule = c.get("zero_if_bounded_equity")
+        if not rule:
+            continue
+        tgt = series.setdefault(c["id"], [None] * n)
+        eq = series.get("equity") or [None] * n
+        for i in range(n):
+            if i >= len(tgt) or tgt[i] is not None:
+                continue
+            e = eq[i] if i < len(eq) else None
+            if e is None or e <= 0:
+                continue
+            bound, ok = 0.0, True
+            for cid in rule["bound_plus"]:
+                col = series.get(cid)
+                v = col[i] if col and i < len(col) else None
+                if v is None:
+                    ok = False
+                    break
+                bound += v
+            if not ok:
+                continue
+            # 扣項缺值當 0：上限只會變鬆，論證仍然成立
+            for cid in rule["bound_minus"]:
+                col = series.get(cid)
+                bound -= (col[i] if col and i < len(col) else None) or 0.0
+            if bound < 0 or bound / e > rule["max_share_of_equity"]:
+                continue
+            tgt[i] = 0.0
+
+
 def apply_derive(concepts, series):
     """執行期的推算 fallback（total_liabilities、pretax_income…）。只補缺的年度。"""
     for c in concepts:
@@ -452,6 +492,7 @@ def main() -> int:
             col = [byd[d0].get(cid) for d0 in keep]
             if any(x is not None for x in col):
                 series[cid] = [x[2] if x else None for x in col]
+        apply_bounded_zero(concepts, series, len(keep))
         apply_derive(concepts, series)
         n_per = len(keep)
         for mid, ast in chain:

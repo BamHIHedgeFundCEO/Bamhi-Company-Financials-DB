@@ -1,6 +1,6 @@
 {
- "version": "1.26",
- "updated": "2026-09-14",
+ "version": "1.27",
+ "updated": "2026-09-24",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
   {
@@ -777,7 +777,18 @@
     "CurrentPortionOfLongtermBorrowings",
     "CurrentBondsIssuedAndCurrentPortionOfNoncurrentBondsIssued"
    ],
-   "note": "LongTermDebtCurrent／DebtCurrent 是總額標籤，排最前面；後面那幾個是各家自己拆的科目（BW 用 SeniorNotesCurrent、CME 用 LinesOfCreditCurrent、RH 用 NotesAndLoansPayableCurrent），只補前面沒有的期。全欄 n/a 多半是真的沒有短期借款，不要見到 n/a 就硬塞標籤。"
+   "note": "LongTermDebtCurrent／DebtCurrent 是總額標籤，排最前面；後面那幾個是各家自己拆的科目（BW 用 SeniorNotesCurrent、CME 用 LinesOfCreditCurrent、RH 用 NotesAndLoansPayableCurrent），只補前面沒有的期。全欄 n/a 多半是真的沒有短期借款，不要見到 n/a 就硬塞標籤。",
+   "zero_if_bounded_equity": {
+    "bound_plus": [
+     "current_liabilities"
+    ],
+    "bound_minus": [
+     "accounts_payable",
+     "deferred_revenue"
+    ],
+    "max_share_of_equity": 0.05,
+    "note": "為了規則對稱而存在，極少放行 —— 短期借款的上限是流動負債合計扣掉應付帳款與遞延收入，那一段通常很大。理由與 zero_if_bounded 的同名註解相同。"
+   }
   },
   {
    "id": "current_liabilities",
@@ -853,6 +864,17 @@
     ],
     "max_share_of_market_cap": 0.1,
     "note": "長期負債缺標籤時，看不到的那筆債**數學上必定 ≤ 非流動負債總額**（負債總計 − 流動負債合計）—— 長期債是非流動負債的子集，這是恆等式不是估計。上限小到對 EV 不痛不癢時才視為 0，否則維持 n/a。門檻取市值的 10%：羅素 3000 受影響的 181 家／676 期實測，上限佔市值中位數 3.3%、P75 14.3%，10% 放行 69%。JPM 這類銀行沒有「流動負債合計」（資產負債表不分流動），上限算不出來 → 自動維持 n/a，正是先前 zero_if_sibling 補 0 補到 22 期全錯的那個案例。不扣掉已知的非流動科目（遞延收入、租賃、遞延稅）來收緊上限：實測 16.4% 的期會扣過頭（NetApp 收緊後上限 668M、真實長期債 1,144M），那就不再是上限了。　收緊上限只扣「依定義不可能是借款」且本來就有對照的科目：長期租賃負債。驗證方式是拿有 LongTermDebtNoncurrent 真值的 22,304 期回頭對，扣完仍 ≥ 真值的有 99.9%。**不要再多扣**遞延所得稅、其他非流動負債那些：同一份實測扣過頭的比例會從 0.1% 跳到 16.4%（NetApp 上限 668M、真實長期債 1,144M），扣過頭就不再是上限，整條論證就沒了。"
+   },
+   "zero_if_bounded_equity": {
+    "bound_plus": [
+     "total_liabilities"
+    ],
+    "bound_minus": [
+     "current_liabilities",
+     "operating_lease_liab_nc"
+    ],
+    "max_share_of_equity": 0.05,
+    "note": "與 zero_if_bounded 同一個恆等式（長期債 ⊂ 非流動負債），但**上限比權益不比市值**，所以不需要股價、可以在 financials.ts 跑完 —— zero_if_bounded 要市值，只能在 valuation.ts，而那支只有 /api/financials 會呼叫，轉折點的評分根本走不到（ANET／ALGN／APPF／ALAB／AUR 實測在 Excel 有負債權益比、在評分頁是 n/a）。比權益是對的尺：這一格餵的是負債權益比，分母本來就是權益，於是 ltd/權益 ≤ 上限/權益 ≤ 門檻 —— **D/E 的誤差直接被門檻界定，不是擬合出來的**。門檻取 5%：全市場四季實測，ltd 缺且上限算得出來、權益為正的 6,161 期裡放行 64.8%；10% 只多放行 9 個百分點卻讓誤差上界翻倍。市值那條用 10% 不衝突 —— 市值通常遠大於帳面權益，同樣的百分比在權益上是更緊的尺。恆等式回頭對：9,805 期有長期負債真值，真值 > 上限的有 27 期（0.28%），來源是扣長期租賃偶爾扣過頭（與 zero_if_bounded 註解裡記的 0.1% 同級）。權益 ≤ 0 一律不補：分母為負的比值本來就要作廢。"
    }
   },
   {

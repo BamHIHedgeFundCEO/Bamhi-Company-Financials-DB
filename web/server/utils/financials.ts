@@ -90,6 +90,22 @@ export interface MapConcept {
     bound_minus: string[]
     max_share_of_market_cap: number
   }
+  /**
+   * 同一套「以上限背書補 0」的論證，但**上限比的是權益不是市值**，所以不需要股價，
+   * 可以在本檔跑完（`zero_if_bounded` 要市值 → 只能在 `valuation.ts`，而那支只有
+   * `/api/financials` 會呼叫，轉折點的評分根本走不到）。
+   *
+   * 為什麼比權益是對的尺：這幾格餵的是負債權益比，分母本來就是權益。
+   * 看不到的那筆債必定 ≤ bound（恆等式），所以 `ltd/權益 ≤ bound/權益 ≤ 門檻` ——
+   * **D/E 的誤差直接被門檻界定**，不是擬合出來的經驗值。權益 ≤ 0 一律不補
+   * （分母為負的比值本來就要作廢，補了只會讓一個沒意義的數字看起來有意義）。
+   */
+  zero_if_bounded_equity?: {
+    bound_plus: string[]
+    bound_minus: string[]
+    max_share_of_equity: number
+    note?: string
+  }
   /** 缺值視為 0 的規則（見 config 的 note）：整列都沒報就直接記 0；
    *  有報過的話，只有在「最近一期報過的金額 ÷ relative_to ≤ max_share」時才補 */
   zero_if_absent_bounded?: { relative_to: string; max_share: number; note?: string }
@@ -1704,6 +1720,38 @@ export async function getFinancials(
   //
   // map.concepts 的順序即推算順序：某個科目的推算若吃另一個推算出來的科目，
   // 它必須排在後面（equity_total 排在 total_liabilities 之前）。
+  // 以權益為尺的上限背書。**要排在 applyDerives 之前**：debt_total 是從這兩格
+  // 推算出來的，補完才推算得動（順序反過來就是 323c0138 修掉的那個 bug）
+  for (const concept of map.concepts) {
+    const rule = concept.zero_if_bounded_equity
+    if (!rule) continue
+    const target = byId.get(concept.id)
+    if (!target) continue
+    for (const p of allPeriods) {
+      if (target.values[p]?.value != null) continue
+      const eq = byId.get('equity')?.values[p]?.value
+      if (eq == null || eq <= 0) continue
+      let bound = 0
+      let ok = true
+      for (const id of rule.bound_plus) {
+        const v = byId.get(id)?.values[p]?.value
+        if (v == null) { ok = false; break }
+        bound += v
+      }
+      // 扣項缺值當 0：上限只會變鬆，論證仍然成立（加項缺值才是真的算不出上限）
+      if (ok) for (const id of rule.bound_minus) bound -= byId.get(id)?.values[p]?.value ?? 0
+      if (!ok || bound < 0) continue
+      const share = bound / eq
+      if (share > rule.max_share_of_equity) continue
+      target.values[p] = {
+        value: 0,
+        isEstimated: true,
+        sourceTag: `無標籤，上限背書視為 0（未解釋非流動負債 ${(share * 100).toFixed(1)}% 權益）`,
+        endDate: byId.get('equity')?.values[p]?.endDate,
+      }
+    }
+  }
+
   applyDerives(map, byId, allPeriods)
 
   // 上市／SPAC 借殼前偵測：股數序列早期出現一次「非分割」的大跳增（借殼或 IPO 增資），

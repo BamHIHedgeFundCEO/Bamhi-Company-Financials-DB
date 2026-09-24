@@ -95,9 +95,10 @@ function fmtVal(s: Sig, c: Cell | null | undefined): string {
 const reasonMark = (r: string) => (r === 'missing' ? 'n/a'
   : r === 'undisclosed' ? '未揭露'
     : r === 'zero_divisor' ? '無定義'
-      : '—')
+      : r === 'dimension_only' ? '僅維度揭露'
+        : '—')
 
-/** 五種留白各自的解釋。混成一種的話，讀者會把「這家公司沒有這一行」當成我們漏抓 */
+/** 六種留白各自的解釋。混成一種的話，讀者會把「這家公司沒有這一行」當成我們漏抓 */
 function blankWhy(s: Sig, c: Cell | null | undefined): string | null {
   if (!c || c.reason === 'ok') return null
   if (c.invalid) {
@@ -112,6 +113,11 @@ function blankWhy(s: Sig, c: Cell | null | undefined): string | null {
   if (c.reason === 'undisclosed') {
     return '這家公司在上面這張表的其他期別申報過這個科目，只有這一期沒有 —— 是公司本期沒揭露，不是我們漏抓。'
       + '往前幾欄對得到值'
+  }
+  if (c.reason === 'dimension_only') {
+    return '這家公司的報表上有這一行，但整批只用維度揭露（例如按有無追索權、按法人實體拆），'
+      + '而我們的資料來源只收不帶維度的數字 —— 不是公司沒申報，是這條路取不到。'
+      + '原始數字在 EDGAR 的申報書上看得到'
   }
   if (c.reason === 'zero_divisor') {
     return '分母是公司自己申報的 0（不是抓不到），比值沒有定義。這一格留白不代表數字不好'
@@ -171,6 +177,7 @@ const itemWhy: Record<string, string> = {
   window: '比較基期落在所選期間之外',
   invalid: '分母為負，比值會反過來，整項作廢',
   not_meaningful: '這個指標對這門生意沒有定義',
+  dimension_only: '報表上有這一行，但只用維度揭露，這條路取不到',
   undisclosed: '這家公司別的期別有申報，本期沒揭露',
   zero_divisor: '分母是公司申報的 0，比值無定義',
 }

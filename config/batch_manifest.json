@@ -116,6 +116,24 @@
     }
    ],
    "note": "13F 批次資料集落後整整一季，季末 +45 天的截止日一過就要用 --live 補，否則網站停在上一季。"
+  },
+  {
+   "id": "dim_only",
+   "out": "config/dim_only.json",
+   "cmd": "python tools/dim_only.py <四包 zip> --out config/dim_only.json",
+   "depends": [
+    {
+     "file": "config/xbrl_zh_map.json",
+     "field": "version",
+     "stamp": "map_version"
+    }
+   ],
+   "vintage": {
+    "kind": "dera_quarters",
+    "field": "source",
+    "min_quarters": 4
+   },
+   "note": "「報表上有這一行，但只用維度揭露」的盤點。companyfacts 只收無維度事實 -> AES 的長期負債（按有／無追索權拆）、ALK 的合約負債（按 AirTrafficLiability 拆）整條抓不到。這一份只回答「為什麼是空的」，**不產生任何數值**：按軸加總回補合計實測只有 46–62% 落在 ±3%，見 CLAUDE.md。map 一改就要重跑：新增標籤會改變哪些科目對得上。"
   }
  ],
  "cross_checks": [
@@ -133,6 +151,10 @@
     },
     {
      "file": "config/peer_stats.json",
+     "path": "source"
+    },
+    {
+     "file": "config/dim_only.json",
      "path": "source"
     }
    ],

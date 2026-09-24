@@ -122,3 +122,36 @@ export async function notApplicableFor(sic?: string, cik10?: string): Promise<Se
   if (!cfg || !g) return new Set()
   return new Set(cfg.not_applicable[g] ?? [])
 }
+
+/** 只用維度揭露的表（`config/dim_only.json`）。結構與逐家適用性表相同：索引壓縮 */
+let cachedDim: Map<string, Set<string>> | null = null
+
+/**
+ * 回傳這家公司「報表上有這一行、但只用維度揭露」的科目 id 集合。
+ *
+ * companyfacts **只收無維度事實**，所以這些科目我們整條抓不到。它與「不適用」是
+ * 兩回事，**絕對不能寫成「—」**：AES 的資產負債表上真的有長期負債那一行
+ * （按有／無追索權拆），說它不適用是說謊。它也不是「我們漏標籤」——
+ * 標籤對得上，是這條路本身取不到。所以它要自己一種留白。
+ *
+ * 判定來自離線批次（`tools/dim_only.py`）：那一行出現在 pre.txt 的該張報表上，
+ * 而整個視窗內只有帶維度的事實、沒有任何無維度事實。
+ *
+ * **只在值本來就缺時才生效**，與 notApplicableFor 同一條護欄：這個模組不改任何數字。
+ */
+export async function dimensionOnlyFor(cik10?: string): Promise<Set<string>> {
+  if (!cik10) return new Set()
+  if (!cachedDim) {
+    const m = new Map<string, Set<string>>()
+    const raw = await useStorage('assets:config').getItem('dim_only.json')
+    const p = (typeof raw === 'string' ? JSON.parse(raw) : raw) as CompanyApplicability | null
+    if (p?.companies && Array.isArray(p.concepts)) {
+      for (const [cik, packed] of Object.entries(p.companies)) {
+        const ids = packed.split(',').map((i) => p.concepts[Number(i)]).filter(Boolean)
+        if (ids.length) m.set(cik, new Set(ids))
+      }
+    }
+    cachedDim = m // 設定檔不在就是空表 → 全部維持 n/a，功能靜默關閉
+  }
+  return cachedDim.get(String(Number(cik10))) ?? new Set()
+}

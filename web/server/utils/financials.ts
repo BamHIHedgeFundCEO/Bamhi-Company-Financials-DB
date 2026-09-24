@@ -1,5 +1,5 @@
 import { secFetchJson } from './secFetch'
-import { notApplicableFor } from './applicability'
+import { dimensionOnlyFor, notApplicableFor } from './applicability'
 import { getSplitFacts } from './prices'
 import type { CompanyRef } from './cik'
 
@@ -170,6 +170,8 @@ export interface LineItem {
    *  缺值時要寫「—」不是 n/a —— 兩種留白的意思完全不同，見 applicability.ts。
    *  只影響缺值的呈現，不影響任何有值的格子 */
   applicable?: boolean
+  /** 報表上有這一行，但只用維度揭露 → companyfacts 取不到。與 applicable 互斥 */
+  dimensionOnly?: boolean
 }
 
 export interface FinancialsResult {
@@ -1815,6 +1817,33 @@ export async function getFinancials(
       if (!na.has(li.id) || zeroFilled.has(li.id)) continue
       if (Object.values(li.values).some(v => typeof v?.value === 'number')) continue
       li.applicable = false
+    }
+  }
+
+  // 「報表上有這一行，但只用維度揭露」——companyfacts 只收無維度事實，所以整條抓不到。
+  // 與不適用互斥：AES 的資產負債表上真的有長期負債（按有／無追索權拆），寫「—」是說謊；
+  // 也不是我們漏標籤，標籤對得上、是這條路取不到。同樣**只在值本來就缺時才標**
+  const dimOnly = await dimensionOnlyFor(ref.cik10)
+  if (dimOnly.size) {
+    // **不在這裡用「有沒有值」否決**：那要看「哪幾期」，而這裡看得到的是全部期間、
+    // 頁面看得到的只有其中一段。同一家公司會因為查詢範圍不同而時有時無
+    // （ALK 2020 年前有無維度的值，範圍拉長就被否決、縮短就成立）。
+    // 只掛旗標，留給 metrics 逐格判：那一層才知道讀者看得見哪幾欄
+    for (const li of lineItems) {
+      if (!dimOnly.has(li.id) || li.applicable === false) continue
+      li.dimensionOnly = true
+    }
+    // 沿 derive 傳遞：`debt_total` 是 `long_term_debt + short_term_debt?` 推算來的，
+    // 本身沒有標籤所以不會出現在盤點表裡。首項取不到 -> 整條推算也取不到，
+    // 不傳的話 AES／AMP／ARES／BRK-B 的負債權益比會停在 n/a（＝說成是我們漏抓）。
+    // 只看**必要的首項**：選用項缺值在推算裡本來就當 0，不影響結論
+    for (const concept of map.concepts) {
+      if (!concept.derive) continue
+      const m = concept.derive.match(/^(\w+)/)
+      const head = m && byId.get(m[1]!)
+      const li = byId.get(concept.id)
+      if (!head?.dimensionOnly || !li || li.applicable === false) continue
+      li.dimensionOnly = true
     }
   }
 

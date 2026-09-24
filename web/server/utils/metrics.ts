@@ -18,6 +18,7 @@
  *   missing        該申報卻抓不到 → 頁面寫 n/a，讀者要自己去 EDGAR 對
  *   inapplicable   這家公司本來就沒有這一行（銀行沒有存貨）→ 頁面寫「—」
  *   window         比較基期落在所選期間之外（第一年的年增率）→ 頁面寫「—」
+ *   dimension_only 報表上有這一行，但公司**只用維度揭露** → 頁面寫「僅維度揭露」
  *   undisclosed    這家公司**別的期別有值、這一期沒有** → 頁面寫「本期未揭露」
  *   zero_divisor   分母是公司自己申報的 0 → 比值無定義 → 頁面寫「分母為 0」
  *
@@ -34,7 +35,7 @@
 import type { DerivedMetric, LineItem } from './financials'
 
 export type MetricReason = 'ok' | 'missing' | 'inapplicable' | 'window'
-  | 'undisclosed' | 'zero_divisor'
+  | 'undisclosed' | 'zero_divisor' | 'dimension_only'
 
 export interface MetricCell {
   value: number | null
@@ -176,6 +177,7 @@ function worse(a: MetricReason, b: MetricReason): MetricReason {
   if (a === 'inapplicable' || b === 'inapplicable') return 'inapplicable'
   if (a === 'window' || b === 'window') return 'window'
   if (a === 'missing' || b === 'missing') return 'missing'
+  if (a === 'dimension_only' || b === 'dimension_only') return 'dimension_only'
   if (a === 'undisclosed' || b === 'undisclosed') return 'undisclosed'
   if (a === 'zero_divisor' || b === 'zero_divisor') return 'zero_divisor'
   return 'ok'
@@ -289,9 +291,15 @@ export function computeMetrics(
         const cell = li.values[p]
         if (!cell || cell.value == null) {
           // 這家公司別的期別有值、只有這一期沒有 → 是公司本期沒揭露，不是我們漏抓
+          // 順序就是「誰比較具體」：看得見的期別有值 → 是公司本期沒揭露（最具體）；
+          // 整段都沒有、而且離線盤點說這家只用維度揭露 → 是這條路取不到；都不是才是漏抓
           const reason: MetricReason = li.applicable === false
             ? 'inapplicable'
-            : (everReported.has(id) ? 'undisclosed' : 'missing')
+            : everReported.has(id)
+              ? 'undisclosed'
+              : li.dimensionOnly
+                ? 'dimension_only'
+                : 'missing'
           return { value: null, reason, isEstimated: false }
         }
         return { value: cell.value, reason: 'ok', isEstimated: !!cell.isEstimated }

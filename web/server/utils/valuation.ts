@@ -1,4 +1,4 @@
-import { loadMap, type FinancialsResult } from './financials'
+import { applyDerives, loadMap, type FinancialsResult } from './financials'
 import { getPrices, priceAt, type PriceSeries } from './prices'
 
 /**
@@ -121,6 +121,12 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
       }
     }
   }
+
+  // 背書補完要把 derive 再跑一遍。`debt_total` 是 `long_term_debt + short_term_debt?`
+  // 推算出來的，而 financials.ts 那一遍跑在背書之前 —— 那時這兩格還是空的，
+  // 於是無負債公司（ANET／ALGN／APPF／ALAB／AUR 實測）的有息負債合計永遠是 n/a，
+  // 負債權益比整排落空。applyDerives 只補空格、不覆蓋已有值，重跑是安全的
+  applyDerives(map, li, periods)
 
   const pos = (x: number | null) => (x != null && x > 0 ? x : null) // 分母須為正
   const pe: Record<string, number | null> = {}

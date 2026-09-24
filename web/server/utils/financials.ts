@@ -1704,49 +1704,7 @@ export async function getFinancials(
   //
   // map.concepts 的順序即推算順序：某個科目的推算若吃另一個推算出來的科目，
   // 它必須排在後面（equity_total 排在 total_liabilities 之前）。
-  for (const concept of map.concepts) {
-    if (!concept.derive) continue
-    const li = byId.get(concept.id)
-    if (!li) continue
-    // "a - b - c?" → 首項 + 後續 (運算子, 科目, 是否選用)
-    const m = concept.derive.match(/^(\w+)((?:\s*[+\-*/]\s*\w+\??)+)$/)
-    if (!m) continue
-    const head = byId.get(m[1])
-    if (!head) continue
-    const terms = [...m[2].matchAll(/([+\-*/])\s*(\w+)(\??)/g)].map((t) => ({
-      op: t[1],
-      li: byId.get(t[2]),
-      optional: t[3] === '?',
-    }))
-    // 必要項的科目不存在（設定檔打錯字）→ 整條式子作廢，不要算出半套答案
-    if (terms.some((t) => !t.li && !t.optional)) continue
-    for (const p of allPeriods) {
-      if (li.values[p]?.value != null) continue
-      let value = head.values[p]?.value
-      if (value == null) continue
-      let ok = true
-      for (const t of terms) {
-        const v = t.li?.values[p]?.value
-        if (v == null) {
-          // 選用項缺值視為 0 —— 只在推算式內部，不會寫進任何顯示的格子。
-          // 絕大多數公司沒有可贖回權益，不給這條退路的話 derive 對它們全部失效。
-          if (t.optional) continue
-          ok = false
-          break
-        }
-        if ((t.op === '/' || t.op === '*') && v === 0) { ok = false; break }
-        value = t.op === '-' ? value - v : t.op === '+' ? value + v
-          : t.op === '*' ? value * v : value / v
-      }
-      if (!ok) continue
-      li.values[p] = {
-        value,
-        isEstimated: true, // 推算值（非直接申報）
-        sourceTag: `推算：${concept.derive}`,
-        endDate: head.values[p]?.endDate,
-      }
-    }
-  }
+  applyDerives(map, byId, allPeriods)
 
   // 上市／SPAC 借殼前偵測：股數序列早期出現一次「非分割」的大跳增（借殼或 IPO 增資），
   // 之前的期屬私有公司股數基礎，與上市後不可比（EPS 等會嚴重失真）→ 清為 n/a 並標註。
@@ -1934,4 +1892,64 @@ function inferCurrency(ns: FactTags): string {
   let bestN = -1
   for (const [u, n] of count) if (n > bestN) { bestN = n; bestU = u }
   return bestU
+}
+
+/**
+ * 把 `derive` 的推算跑一遍。**可以重複呼叫**：迴圈只補 `value == null` 的格子，
+ * 已經有值的一律跳過，所以再跑一次不會覆蓋任何東西。
+ *
+ * 會重複呼叫是因為「上限背書視為 0」需要市值，只能等 `valuation.ts` 拿到股價之後才跑
+ * （見那邊的註解）。它補的是 `long_term_debt`／`short_term_debt`，而 `debt_total`
+ * 是**從那兩格推算出來的** —— 第一遍跑的時候那兩格還是空的，於是無負債公司
+ * （ANET／ALGN／APPF／ALAB／AUR 實測）的有息負債合計永遠是 n/a，負債權益比、
+ * 淨負債／EBITDA、ROIC 跟著整排落空。背書補完要再跑一遍這條，那幾格才活得過來。
+ */
+export function applyDerives(
+  map: { concepts: MapConcept[] },
+  byId: Map<string, LineItem>,
+  allPeriods: string[],
+): void {
+  for (const concept of map.concepts) {
+    if (!concept.derive) continue
+    const li = byId.get(concept.id)
+    if (!li) continue
+    // "a - b - c?" → 首項 + 後續 (運算子, 科目, 是否選用)
+    const m = concept.derive.match(/^(\w+)((?:\s*[+\-*/]\s*\w+\??)+)$/)
+    if (!m) continue
+    const head = byId.get(m[1])
+    if (!head) continue
+    const terms = [...m[2].matchAll(/([+\-*/])\s*(\w+)(\??)/g)].map((t) => ({
+      op: t[1],
+      li: byId.get(t[2]),
+      optional: t[3] === '?',
+    }))
+    // 必要項的科目不存在（設定檔打錯字）→ 整條式子作廢，不要算出半套答案
+    if (terms.some((t) => !t.li && !t.optional)) continue
+    for (const p of allPeriods) {
+      if (li.values[p]?.value != null) continue
+      let value = head.values[p]?.value
+      if (value == null) continue
+      let ok = true
+      for (const t of terms) {
+        const v = t.li?.values[p]?.value
+        if (v == null) {
+          // 選用項缺值視為 0 —— 只在推算式內部，不會寫進任何顯示的格子。
+          // 絕大多數公司沒有可贖回權益，不給這條退路的話 derive 對它們全部失效。
+          if (t.optional) continue
+          ok = false
+          break
+        }
+        if ((t.op === '/' || t.op === '*') && v === 0) { ok = false; break }
+        value = t.op === '-' ? value - v : t.op === '+' ? value + v
+          : t.op === '*' ? value * v : value / v
+      }
+      if (!ok) continue
+      li.values[p] = {
+        value,
+        isEstimated: true, // 推算值（非直接申報）
+        sourceTag: `推算：${concept.derive}`,
+        endDate: head.values[p]?.endDate,
+      }
+    }
+  }
 }

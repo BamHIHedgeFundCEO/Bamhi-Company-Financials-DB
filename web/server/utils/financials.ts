@@ -1584,8 +1584,13 @@ export async function getFinancials(
   //     實測 150 家有 41 家使用權資產卡在這個情況。
   //   - 但要有上限。沒有上限時，某個科目停報後會一路沿用到序列末端
   //     （實測 ASTS 存貨、BAM 應付帳款被拖了 7 季），拿兩年前的數字當本季就不合理了。
+  //
+  // **年度模式一格都不沿用**。這條規則的理由是「只在年報揭露、10-Q 缺」，而外國
+  // 發行人（20-F）根本沒有 10-Q —— 理由不存在，上限卻照算，於是 3 期＝**3 年**。
+  // Nebius 實測：總資產與現金從 FY2023 一路沿用到 FY2025，而那兩年公司改報美元、
+  // 沿用過來的是三年前的盧布餘額。一個看起來完全正常的假數字，比 n/a 糟得多。
   // 放在 derive 之前 → EPS 可用補好的股數推算。
-  const CARRY_MAX = 3
+  const CARRY_MAX = annualMode ? 0 : 3
   {
     const sorted = [...allPeriods].sort()
     for (const concept of map.concepts) {
@@ -2009,16 +2014,49 @@ function firstFactAt(ns: FactTags, tags: string[], end: string): { tag: string; 
   return null
 }
 
+/**
+ * 申報幣別。**只看最近一年的事實，不是整段歷史裡最多的那個**。
+ *
+ * 公司會換申報幣別。Nebius（前身 Yandex N.V.）FY2023 以前報盧布、FY2024 起報美元，
+ * companyfacts 裡 RUB 5,907 筆對 USD 3,278 筆 —— 拿「最多」當答案會選到**前身的幣別**，
+ * 於是最新兩個年度（只有美元事實）整段取不到值，頁面反而把三年前的盧布餘額
+ * 沿用過來當今年的數字。那不是留白，是**憑空生出來的錯數字**。
+ *
+ * 只取最近 365 天仍然要數「最多」：很多公司會在最新那份申報裡零星掛幾筆外幣
+ * （歐元借款、日圓避險），取「最新的那一筆」會被一筆註腳換掉整家公司的幣別。
+ */
 function inferCurrency(ns: FactTags): string {
-  const count = new Map<string, number>()
+  type Agg = { n: number; recent: number }
+  const agg = new Map<string, Agg>()
+  let latest = ''
   for (const tag of Object.values(ns)) {
     for (const [u, points] of Object.entries(tag.units)) {
-      if (/^[A-Z]{3}$/.test(u)) count.set(u, (count.get(u) ?? 0) + points.length)
+      if (!/^[A-Z]{3}$/.test(u)) continue
+      for (const pt of points) if (pt.end > latest) latest = pt.end
+    }
+  }
+  // 最近一年的界線。沒有任何事實時退回舊行為（全段計數）
+  const cutoff = latest
+    ? new Date(new Date(latest).getTime() - 365 * 864e5).toISOString().slice(0, 10)
+    : ''
+  for (const tag of Object.values(ns)) {
+    for (const [u, points] of Object.entries(tag.units)) {
+      if (!/^[A-Z]{3}$/.test(u)) continue
+      const a = agg.get(u) ?? { n: 0, recent: 0 }
+      a.n += points.length
+      for (const pt of points) if (pt.end >= cutoff) a.recent++
+      agg.set(u, a)
     }
   }
   let bestU = 'USD'
-  let bestN = -1
-  for (const [u, n] of count) if (n > bestN) { bestN = n; bestU = u }
+  let best: Agg = { n: -1, recent: -1 }
+  for (const [u, a] of agg) {
+    // 先比最近一年的筆數，同分才比全段 —— 換過幣別的公司要跟著新的走
+    if (a.recent > best.recent || (a.recent === best.recent && a.n > best.n)) {
+      best = a
+      bestU = u
+    }
+  }
   return bestU
 }
 

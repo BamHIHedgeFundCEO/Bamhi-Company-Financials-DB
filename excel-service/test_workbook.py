@@ -79,6 +79,9 @@ gm_row = next(r for r in range(2, 60) if m.cell(r, 1).value == "毛利率")
 f = m.cell(gm_row, 3).value
 assert isinstance(f, str) and f.startswith("=IFERROR("), f
 assert "損益表" in f
+# 除零要跟查不到分開：#DIV/0!（ERROR.TYPE 回 2）是「無定義」，#VALUE!（引用到
+# "n/a" 文字格）才是 n/a。少了這段整格會退回混成一個 n/a，而且不會報錯
+assert 'ERROR.TYPE' in f and '"無定義"' in f, f
 assert m.cell(gm_row, 1).comment is not None, "指標名稱要有 hover 註解"
 
 yoy_row = next(r for r in range(2, 60) if m.cell(r, 1).value == "營收年增率")

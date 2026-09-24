@@ -7,7 +7,9 @@
   identifier[t-4]       → 往前推 4 欄（不足時整條公式回 None → n/a）
   avg(identifier)       → (本欄 + 前一欄)/2；無前一欄時退回本欄
   + - * / ( ) 數字
-整條公式一律包 IFERROR(..., "n/a")（除零與引用 n/a 文字格皆回 n/a）。
+整條公式一律包 IFERROR，但**除零要跟查不到分開**：`ERROR.TYPE` 把 #DIV/0!（回 2）
+與 #VALUE!（引用到 "n/a" 文字格，回 3）分開 → 前者寫「無定義」、後者寫 n/a。
+這樣不必知道分母是哪一格 —— 公式的分母可以是 `(b + c)` 這種算式，拆不出單一儲存格。
 """
 import re
 from openpyxl.utils import get_column_letter
@@ -34,7 +36,8 @@ class RefResolver:
 
 
 def translate(formula: str, resolver: RefResolver, col: int, annual: bool = False,
-              zero_guard: str | None = None, inapplicable: str = "—") -> str | None:
+              zero_guard: str | None = None, inapplicable: str = "—",
+              missing: str = "n/a", zero_divisor: str = "無定義") -> str | None:
     """回傳不含開頭 = 的公式；引用解析失敗（缺科目或期數不足）回 None。
 
     annual=True（IFRS 年度模式）時：
@@ -81,9 +84,14 @@ def translate(formula: str, resolver: RefResolver, col: int, annual: bool = Fals
         else:
             return None
     expr = "".join(out)
-    # 一律包 IFERROR：除零回 n/a，且引用到 "n/a" 文字格的加減式（如 FCF = CFO − CapEx）
-    # 會回 #VALUE!，也要吃掉
-    wrapped = f'IFERROR({expr},"n/a")'
+    # 一律包 IFERROR：引用到 "n/a" 文字格的加減式（如 FCF = CFO − CapEx）會回 #VALUE!，
+    # 要吃掉。但**除零不能跟它混成同一個 n/a**：分母是公司自己申報的 0（ALGM 的合約負債
+    # 六個年度都申報 0，不是抓不到）算出來的是「無定義」，寫 n/a 等於叫讀者去查一個
+    # 查得到、而且就是 0 的數字。`ERROR.TYPE` 分得出來：#DIV/0! 回 2、#VALUE! 回 3。
+    # 用錯誤種類而不是分母，是因為分母可以是 `(b + c)` 這種算式，拆不出單一儲存格
+    # —— 網頁那邊（metrics.ts）走語法樹，看得到 `/` 右邊那棵子樹，這裡沒有那個資訊。
+    wrapped = (f'IFERROR({expr},IF(ERROR.TYPE({expr})=2,'
+               f'"{zero_divisor}","{missing}"))')
     if zero_guard:
         # 分母為 0 ＝ 該公司沒有這個項目（如無有息負債 → 利息費用 0），是「不適用」不是
         # 「查不到」。除以 0 的 #DIV/0! 被 IFERROR 吃掉會寫成 n/a，兩種留白混在一起。

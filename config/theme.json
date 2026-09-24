@@ -1,5 +1,5 @@
 {
-  "version": "0.2",
+  "version": "0.3",
   "note": "Excel 產出的視覺設定層。白標客製只改此檔。色盤取自 BamHI 原型設計 token。",
   "palette": {
     "chart_series": ["#1F3A5F", "#5C7699", "#C25A18", "#8C9199", "#9DB8D9", "#0E6B5A"],
@@ -45,6 +45,7 @@
     "missing_value": "n/a",
     "inapplicable_value": "—",
     "undisclosed_value": "未揭露",
-    "dimension_only_value": "僅維度揭露"
+    "dimension_only_value": "僅維度揭露",
+    "zero_divisor_value": "無定義"
   }
 }

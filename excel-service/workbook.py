@@ -25,7 +25,8 @@ DISCLAIMER = (
     "資料來源為美國 SEC EDGAR 公開資料（companyfacts XBRL API），本工具與 SEC 無任何隸屬關係。"
     "缺值絕不寫 0——SEC 無該標籤不代表數值為零。留白分四種："
     "n/a（該申報卻抓不到）、—（這家公司沒有這一行）、未揭露（別的期有值、這幾期沒報）、"
-    "僅維度揭露（報表上有這一行，但只有帶維度的申報，API 取不到），說明分頁逐一解釋。"
+    "僅維度揭露（報表上有這一行，但只有帶維度的申報，API 取不到）；"
+    "關鍵指標另有「無定義」（分母是公司申報的 0）。說明分頁逐一解釋。"
     "僅供參考，不構成投資建議。"
 )
 
@@ -180,6 +181,7 @@ def build_workbook(payload: dict) -> bytes:
     inapplicable_stmt = th["layout"].get("inapplicable_value", "—")
     undisclosed_stmt = th["layout"].get("undisclosed_value", "未揭露")
     dim_only_stmt = th["layout"].get("dimension_only_value", "僅維度揭露")
+    zero_divisor_stmt = th["layout"].get("zero_divisor_value", "無定義")
 
     wb = Workbook()
     wb.remove(wb.active)
@@ -240,6 +242,11 @@ def build_workbook(payload: dict) -> bytes:
          "不是我們漏對標籤（標籤對得上），也不是公司沒有這一行（寫「—」會是說謊）。"
          "合計值只印在申報書渲染後的 HTML 上，而本站的數字一律不從 HTML 取。"
          "關鍵指標分頁的整列也會是「僅維度揭露」：算式的某個輸入取不到，整個指標就算不出來。"),
+        ("「無定義」是什麼", "比值的分母是公司自己申報的 0——不是抓不到，是查得到而且就是 0。"
+         "例如某些公司六個年度的合約負債都申報 0，年增率因此是 0÷0，那是無定義不是缺資料。"
+         "與「—」的差別：「—」是這家公司沒有這一行，「無定義」是有這一行、值是 0、"
+         "所以除不出東西。分子那邊如果是查不到（n/a），整格仍寫 n/a"
+         "——只要有任何一個輸入是真的抓不到，就不能說成「公司申報了 0」。"),
         *([("兩個 EV 有什麼不同", "「企業價值 EV」＝ 市值 + 負債總計 − 現金 − 短期投資，"
             "買下整間公司要扛下資產負債表右邊的全部，這一列永遠算得出來。"
             "「企業價值（僅有息負債）」只加短期借款與長期負債，是 Bloomberg／CapIQ 的口徑，"
@@ -475,7 +482,8 @@ def build_workbook(payload: dict) -> bytes:
             else:
                 f = translate(m["formula"], resolver, col, annual=annual,
                               zero_guard=m.get("inapplicable_if_zero"),
-                              inapplicable=th["layout"].get("inapplicable_value", "—"))
+                              inapplicable=inapplicable_metric,
+                              missing=missing, zero_divisor=zero_divisor_stmt)
             if f is None:
                 # 兩種留白要分開：
                 #   「—」不適用 —— 該科目對這家公司不存在，或比較基期落在所選區間之外

@@ -21,14 +21,15 @@
    ],
    "params": {
     "min_tags": 8,
-    "min_score": 3.0
+    "min_score": 3.0,
+    "direct_exclusive": true
    },
    "vintage": {
     "kind": "dera_quarters",
     "field": "source",
     "min_quarters": 4
    },
-   "note": "逐家公司的適用性表。map 新增科目會改動詞元的 idf，整張表的判定跟著漂 -> map 一改就要重跑。"
+   "note": "逐家公司的適用性表。map 新增科目會改動詞元的 idf，整張表的判定跟著漂 -> map 一改就要重跑。 direct_exclusive：已經是別的科目直接對照的標籤，不得再當這個科目的弱證據（us-gaap 的標籤是識別碼不是形容詞）。全市場實測 +10,433 格「—」、收回 0 格，新增那批的偽陰性率 0.17%，比原本就上線的那批 0.41% 還低。"
   },
   {
    "id": "concept_applicability",

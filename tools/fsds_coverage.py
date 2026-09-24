@@ -696,7 +696,8 @@ def build_label_scorer(vocab):
     return score
 
 
-def build_evidence(concepts, vocab, stmt_of, tag2concepts, near=False, revoked=None):
+def build_evidence(concepts, vocab, stmt_of, tag2concepts, near=False, revoked=None,
+                   direct_exclusive=False):
     """(標籤, 報表, 行標題) -> 這個標籤可以當作「哪些科目有申報」的證據。
 
     與 build_scorer 的差別：不套贏者全拿、門檻用 NA_MIN_SCORE。
@@ -775,6 +776,15 @@ def build_evidence(concepts, vocab, stmt_of, tag2concepts, near=False, revoked=N
             weak = {cid for s, cid in scored if s >= NA_MIN_SCORE}
             if revoked:
                 weak -= revoked.get((tag, stmt), frozenset())  # 共現＝不同行
+            # 這個標籤**已經是**別的科目的直接對照 -> 它就是那一行，不可能同時是別人。
+            # us-gaap 的標籤是識別碼不是形容詞：報表上出現 DeferredIncomeTaxLiabilitiesNet
+            # 的那一行就是遞延所得稅負債，不會因為它含 deferred 就同時證明
+            # 「這家公司有合約負債那一行」。共現撤銷（revoked）處理不了這種：
+            # 它要候選標籤與真標籤常常同時出現才撤銷，而合約負債不夠普遍。
+            # 與那兩種被否決的收緊法（核心詞、贏面）不同 —— 那兩種是把門檻調嚴，
+            # 這一條沒有動任何門檻，只是不讓一個已經有主的標籤去冒認別人
+            if direct_exclusive and out:
+                weak &= out
             cl = claims(plabel, stmt) if plabel else frozenset()
             out |= (weak & cl) if cl else weak
         r = memo[key] = frozenset(out)
@@ -902,6 +912,11 @@ def main():
     ap.add_argument("--company-applicability", metavar="PATH",
                     help="產出 config/company_applicability.json（逐家判斷，只讀 pre.txt）")
     ap.add_argument("--explain-cik", help="搭配上一項：印出這家公司每個科目的判定理由")
+    # 預設就是定案的判準。預設留在舊行為的話，重跑漏帶旗標就會安靜地把 10,433 格
+    # 「—」變回 n/a，而且沒有任何地方會報錯（--lo/--hi 那次就是這樣）
+    ap.add_argument("--no-direct-exclusive", dest="direct_exclusive",
+                    action="store_false", default=True,
+                    help="關掉「已是別科目直接對照的標籤不得冒認」這條（只用於前後對照）")
     ap.add_argument("--na-gaps", action="store_true",
                     help="真缺口普查：套進三層適用性，只列產品上真的會顯示 n/a 的格子，"
                          "按「補這個標籤可修幾家」排名")
@@ -952,7 +967,8 @@ def main():
                   f"{zh_of.get(cid, cid)}", file=sys.stderr)
 
         # 第二遍：套三個閘門算證據
-        evidence = build_evidence(concepts, vocab, stmt_of, tag2concepts, revoked=revoked)
+        evidence = build_evidence(concepts, vocab, stmt_of, tag2concepts, revoked=revoked,
+                                  direct_exclusive=args.direct_exclusive)
         evid, seen = defaultdict(set), defaultdict(set)
         for path in args.zips:
             print(f"讀取 {os.path.basename(path)}", file=sys.stderr)
@@ -1055,6 +1071,7 @@ def main():
             "map_version": m.get("version"),
             "min_tags": NA_MIN_TAGS,
             "min_score": NA_MIN_SCORE,
+            "direct_exclusive": args.direct_exclusive,
             "note": ("由 tools/fsds_coverage.py --company-applicability 產生，判準是"
                      "**這家公司自己的報表**：pre.txt 的 IS/BS/CF 上有沒有語意相當的行。"
                      "沒有 -> 該科目對這家公司不適用，缺值寫「—」；有 -> 維持 n/a。"

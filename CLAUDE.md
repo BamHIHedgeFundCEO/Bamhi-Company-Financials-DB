@@ -384,8 +384,42 @@
   **設定層的空陣列不會報錯，只會讓整條 derive 靜默失效**
 - 總額抓不到時用分層科目相加推算（`inventory` 的 `derive`），但**分層全列為選用項、
   首項缺就整條不推算**：只揭露原料而沒有成品的（FCX 近期）維持 n/a，寧可留白也不給
-  半套答案。KR（FIFO 減 LIFO 準備）、XOM（能源存貨＋零件兩行）需要減法與跨科目相加，
-  目前仍是 n/a
+  半套答案
+- **航空公司的存貨標籤收了**（`AirlineRelatedInventoryNet`、`AirlineRelatedInventory`）。
+  AAL／DAL／UAL／LUV／SKYW／Frontier 的資產負債表上有這一行（行標題就是
+  「Aircraft fuel, spare parts and supplies, net」），我們卻整欄 n/a，而 AAL 與 SkyWest
+  更被適用性表判成「不適用」—— 對一家把燃油與備品列在表上的航空公司說它沒有存貨，
+  那是說謊。收了之後四家實測 10/10 期都取得到值。
+  **`Net` 要排在 `Gross` 前面**：兩個都有的公司以淨額為準（LUV 只有 gross，照樣取得到）。
+  羅素 150 實測只有 AAL 一家動：**總分 27 → 35、覆蓋率 77.9% → 80.8%**（存貨成長差
+  從「—」變成算得出來，速動比率因為分子少掉 31 億而下降，方向都是對的）；
+  適用性表拿掉 2 組（AAL 與 SkyWest 的存貨）、其餘 183,889 組不動；同業錨點只有
+  SIC 73 的三個存貨鏈指標微調（1,569 組裡的 3 組），評級級距重訂後與原來相同。
+  **同時 `missing` 從 66 變 68**：AAL 的現金轉換循環與存貨天數原本被那個假的「—」
+  蓋住，現在露出真正的成因（它的損益表沒有銷貨成本那一行）。
+  **多兩格 n/a 是進步不是退步** —— 假的「—」把問題藏起來，n/a 至少說了實話
+- **重疊期對帳的樣本太薄時，用結構證據補，不要放寬門檻**。`AirlineRelatedInventoryNet`
+  與主標籤同時存在的公司只有 3 家 14 格（低於 `tag_validate.py` 的 30 格下限），
+  而且那 14 格裡兩家是雜訊（Neonode 把 0.1M 的東西標成存貨、UAL 2015 年一格），
+  逐格一致率 64% 看起來很糟 —— 但真正乾淨的那一家（StandardAero）是 **9/9 格完全相等**。
+  補的證據是 **pre.txt 的共現**：全市場 11 份申報有這個標籤在資產負債表上，
+  **0 份同時出現任何主存貨標籤**。同一張表上不會同時印「存貨」和「存貨」，
+  所以它就是那一行，不是分項。**共現是分項與合計最乾淨的判別式**，而且它問的是
+  「申報人怎麼排版」，不受樣本數限制
+- **存貨的其他候選逐一驗過，全退**（2,870 份本機快取 + 2026q2 的 pre.txt）：
+  - `FIFOInventoryAmount − InventoryLIFOReserve`（KR 那一類）：1,337 格／50 家，
+    中位 1.000、±3% 67%，但**逐家看是雙峰** —— 25 家中位正好 1.000、另外 25 家
+    從 1.19 一路到 20.3 還有負的（Tennant 2.6、Winnebago 1.7、Silgan −20.8）。
+    那些公司的 `FIFOInventoryAmount` 只涵蓋用 LIFO 計價的那一段。
+    **又是「中位數對得上但一致率不足」的雙峰陷阱**（`NotesPayable` 同型）
+  - `EnergyRelatedInventory`（中位 3.199／3%）、`EnergyRelatedInventoryGasStoredUnderground`
+    （7.716／0%）、`InventoryPartsAndComponentsNetOfReserves`（5.382／0%）、
+    `OtherInventorySupplies`（6.548／0%）、`InventoryRawMaterialsAndSupplies`（2.657／2%）
+    —— 中位數遠大於 1 是**分項的指紋**：主標籤是合計，候選只是其中一段
+  - `Supplies`：43 份申報裡 32 份與主標籤共現，而且行標題是
+    **「Advance to suppliers」（預付供應商，不是存貨）** —— 標籤名字像而已
+  - 結論：ATO（天然氣存量）、AWK（材料與備品）、XOM（能源＋零件兩行）維持 n/a。
+    它們的「合計」只有把兩三個分項加起來才有，而分項相加就是被擋掉過的那條路
 - 推算出來的總存貨會讓**成品佔比恆等於 1、年變化恆等於 0** —— 那是無資訊不是
   「結構沒變化」，會被評分讀成中性分。用 `inventory_other`（總額−成品）當守門員，
   ≤0 就整項作廢
@@ -527,6 +561,22 @@
   別的期別有值、只有這一期沒有）／**無定義**（分母是公司自己申報的 0）／
   **僅維度揭露**（報表上有這一行，但公司整批只用維度申報，companyfacts 取不到）。
   每一種在卡片上都要寫出是哪一種、為什麼
+- **「公司用自訂標籤申報」是第七種成因，但目前沒有夠準的偵測法，所以不做**（量過）。
+  companyfacts 只收標準命名空間（us-gaap／ifrs-full／dei／srt…）。ATO 的「Purchased gas cost」
+  掛的是 `CostOfRevenueNet`、AM 的「Direct operating」掛
+  `CostOfRevenueExcludingDepreciationAndAmortization` —— 兩個名字都像 us-gaap，但 DERA 的
+  `version` 欄位寫的是**申報書號**，也就是公司自己的命名空間，這條路永遠取不到。
+  想把它從 n/a 拆出來就要有一份離線盤點，而盤點要先回答「這個自訂標籤對應到哪個科目」。
+  三種判準都試過，全部不夠準（2026q2 單季）：
+  ① 只用行標題（`LABEL_MIN_SCORE`）→ 4,611 家／18,665 對，例子是
+  　`PaymentsRelatedToPropertyHeldForSale` 被判成「已付股利」
+  ② 行標題 ＋ `build_evidence`（`NA_MIN_SCORE`）→ 4,614 家／18,068 對，
+  　`UnamortizedLeasingFeesToRelatedParty` 被判成「存貨」
+  ③ 贏者全拿（`build_scorer`）＋ 行標題同意 → 2,751 家／4,876 對，ATO 抓到了、AM 沒有，
+  　而且 `ServiceChargesAndOtherIncome` 仍然被判成「銷貨成本」
+  **安全方向在這裡是反的**，這正是難處：適用性判斷的偽陽性只會讓格子留在 n/a（安全），
+  但這裡的偽陽性會把「我們真的漏了標籤」寫成「公司用了自訂標籤」——
+  等於把自己的缺口推給申報人。在有夠準的判準之前，這些格子維持 n/a 才誠實
 - **「僅維度揭露」走離線盤點**（`tools/dim_only.py` → `config/dim_only.json`，
   執行期零 SEC 請求）。判定要兩個條件同時成立：① 該科目的已對照標籤出現在 pre.txt
   的**該張報表**上（證明那一行真的印在報表上，不是只在附註提過）；② 整個視窗內
@@ -543,10 +593,17 @@
     有無維度的值，範圍拉長就被否決、縮短就成立。順序是
     「看得見的期別有值 → 未揭露（最具體）；整段都沒有且在盤點表裡 → 僅維度揭露；
     都不是 → n/a」
-  - **要沿 derive 傳遞**。`debt_total` 是 `long_term_debt + short_term_debt?` 推算來的，
-    本身沒有標籤所以不會出現在盤點表裡；不傳的話 AES／AMP／ARES／BRK-B 的負債權益比
-    會停在 n/a，也就是把「取不到」說成「我們漏抓」。只看必要的首項——選用項缺值
-    在推算裡本來就當 0
+  - **要沿 derive 傳遞，而且是首項與所有必要項，不能只看首項**。`debt_total` 是
+    `long_term_debt + short_term_debt?` 推算來的，本身沒有標籤所以不會出現在盤點表裡；
+    不傳的話 AES／AMP／ARES／BRK-B 的負債權益比會停在 n/a，也就是把「取不到」說成
+    「我們漏抓」。只看首項同樣會漏一整類：`gross_profit` 是 `revenue - cogs`，
+    首項的營收抓得到，**必要的減項才是那個只用維度揭露的銷貨成本** ——
+    AR（按分部）、BKR（按分部）、BYD 與 CAI（按產品線）的損益表上都有成本那一行
+    （pre.txt 有、num.txt 的事實 100% 帶維度），毛利率卻一直寫 n/a。
+    選用項（`?`）不算：缺值在推算裡本來就當 0。傳遞要**跑到不動為止**，
+    否則 cogs → gross_profit → 更上層那一段會斷在半路。
+    羅素 150 實測 `missing` 70 → 66、`dimension_only` 27 → 31，
+    **沒有任何一家的總分或覆蓋率改變**（純標示：兩種留白都不進分母）
 - **後兩種是從 n/a 裡拆出來的，因為它們都不是「我們漏抓」**。`deferred_revenue_yoy`
   長期是 missing 排行榜第一名，逐家查下去成因有四種，混在 n/a 裡一種都看不出來。
   羅素 150 實測 missing 220 → 129 格（6.4% → 3.8%），undisclosed 89 格、

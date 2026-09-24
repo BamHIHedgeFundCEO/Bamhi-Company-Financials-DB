@@ -1871,16 +1871,30 @@ export async function getFinancials(
       li.dimensionOnly = true
     }
     // 沿 derive 傳遞：`debt_total` 是 `long_term_debt + short_term_debt?` 推算來的，
-    // 本身沒有標籤所以不會出現在盤點表裡。首項取不到 -> 整條推算也取不到，
+    // 本身沒有標籤所以不會出現在盤點表裡。必要項取不到 -> 整條推算也取不到，
     // 不傳的話 AES／AMP／ARES／BRK-B 的負債權益比會停在 n/a（＝說成是我們漏抓）。
-    // 只看**必要的首項**：選用項缺值在推算裡本來就當 0，不影響結論
-    for (const concept of map.concepts) {
-      if (!concept.derive) continue
-      const m = concept.derive.match(/^(\w+)/)
-      const head = m && byId.get(m[1]!)
-      const li = byId.get(concept.id)
-      if (!head?.dimensionOnly || !li || li.applicable === false) continue
-      li.dimensionOnly = true
+    //
+    // **首項與所有必要項都要看，不能只看首項**。`gross_profit` 是 `revenue - cogs`：
+    // 首項是營收（抓得到），必要的減項才是那個只用維度揭露的銷貨成本。只看首項的話
+    // AR／BKR／BYD／CAI 的毛利率停在 n/a —— 它們的損益表上有成本那一行（pre.txt 有），
+    // 事實卻整批帶維度（AR 按分部、BYD 與 CAI 按產品線），我們沒有漏抓任何標籤。
+    // 選用項（`?`）不算：缺值在推算裡本來就當 0，不影響結論。
+    // 跑到不動為止，讓鏈條傳得完（cogs -> gross_profit -> 更上層的推算）
+    for (let pass = 0; pass < map.concepts.length; pass++) {
+      let changed = false
+      for (const concept of map.concepts) {
+        if (!concept.derive) continue
+        const li = byId.get(concept.id)
+        if (!li || li.dimensionOnly || li.applicable === false) continue
+        const m = concept.derive.match(/^(\w+)((?:\s*[+\-*/]\s*\w+\??)*)$/)
+        if (!m) continue
+        const required = [m[1]!, ...[...(m[2] ?? '').matchAll(/[+\-*/]\s*(\w+)(\??)/g)]
+          .filter((t) => t[2] !== '?').map((t) => t[1]!)]
+        if (!required.some((id) => byId.get(id)?.dimensionOnly)) continue
+        li.dimensionOnly = true
+        changed = true
+      }
+      if (!changed) break
     }
   }
 

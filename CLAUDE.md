@@ -270,6 +270,28 @@
   `CostsAndExpenses` 當銷貨成本（中位 2.140 —— 那是總成本含 SG&A）、
   `DeferredRevenueNoncurrent` 當合約負債（中位 0.537，它只是其中一段）。
   **「這家公司沒申報」與「我們漏標籤」的差別只有對帳分得出來**，看標籤名字猜一定會錯
+- **債務的分項標籤逐一驗過，一個都不收**（2,870 份本機 companyfacts 快取逐格對帳，
+  零 SEC 請求）。動機是 AIZ 的資產負債表只掛 `UnsecuredDebt`、AXS 只掛 `NotesPayable`，
+  看起來「補一個同義標籤就好」：
+  `UnsecuredDebt` 中位 0.632／±3% 10%（它只是無擔保那一段）、
+  `SeniorNotes` 0.707／15%、`ConvertibleDebt` 0.534／17%、`SecuredDebt` 0.376／12%、
+  `LoansPayable` 0.343／18%、`BankOverdrafts` 0.338／2%、
+  `NotesPayableRelatedPartiesNoncurrent` 0.040／3%。
+  **`NotesPayable` 是最像的一個也要退**：中位 0.999 但 ±3% 只有 36% —— 中位數對得上
+  是因為分布雙峰（有些公司它就是全部、有些只是一部分），**中位數單獨看會騙人，
+  一定要配一致率**。既有那些字面相似的候選（`tools/tag_validate.py` 跑 18 組）同樣
+  全退，清一色是到期表分項與公允價值。AIZ／AXS 維持 n/a
+- **IFRS 的 `Borrowings` 也不收**（BEPC 這類 20-F 申報人只掛這一個標籤）。它確實是
+  債務合計，但對帳只有 **±3% 69%**（124 格／21 家、中位 1.000，本機快取裡 58 家
+  IFRS 申報人中 32 家有這個標籤），低於 `tag_validate.py` 的 90% 門檻，也低於
+  `DebtInstrumentCarryingAmount` 被退時的 76%。
+  **第一次量出 62% 是我的測試寫錯**：允許了「只有長期或只有短期其中一段」的格子，
+  那時分母殘缺、比值必然 >1（實測那批中位 1.041）。要求兩段都在才是正確的比法 ——
+  **對帳的重疊條件寫鬆一格，結論就會反過來**。
+  還有一個不是準確度的理由：`debt_total` 現在**沒有任何標籤**，全靠 derive。
+  加了標籤之後「標籤優先於推算」會讓它蓋掉 21 家原本推算得出來的值，而那正是
+  `DebtInstrumentCarryingAmount` 被退的同一個理由。要當退路就得反轉那條優先序，
+  那是另一件事。BEPC 維持 n/a
 - **「覆蓋率低」有四種原因，只有一種是我們的錯**，混在一起看會得出錯的結論。
   148 家實測：ok 80.1%、`inapplicable` 10.4%（公司報表上沒有這一行）、`missing` 7.6%
   （該有卻抓不到＝我們漏標籤）、`not_meaningful` 1.5%（產業上沒定義）、`invalid` 0.4%。

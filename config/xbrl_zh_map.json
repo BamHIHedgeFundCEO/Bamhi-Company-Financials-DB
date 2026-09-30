@@ -1,5 +1,5 @@
 {
- "version": "1.28",
+ "version": "1.29",
  "updated": "2026-09-24",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -1975,7 +1975,7 @@
    "id": "roe_ttm",
    "zh": "股東權益報酬率（滾動四季）",
    "en": "ROE TTM",
-   "formula": "net_income_ttm / avg(equity)",
+   "formula": "net_income_ttm / ((equity + equity[t-4]) / 2)",
    "fmt": "ratio",
    "group": "轉折訊號",
    "desc": "分子改用滾動四季淨利，取代「單季 ×4」。單季年化對季節性生意會做出四個完全不同的 ROE。　滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
@@ -1984,7 +1984,7 @@
    "id": "roic_ttm",
    "zh": "投入資本報酬率（滾動四季）",
    "en": "ROIC TTM",
-   "formula": "operating_income_ttm * (1 - income_tax_ttm / pretax_income_ttm) / (avg(equity) + avg(debt_total) - avg(cash))",
+   "formula": "operating_income_ttm * (1 - income_tax_ttm / pretax_income_ttm) / (((equity + equity[t-4]) / 2) + ((debt_total + debt_total[t-4]) / 2) - ((cash + cash[t-4]) / 2))",
    "fmt": "ratio",
    "group": "轉折訊號",
    "desc": "稅率也用滾動四季算，避免單季一次性稅務項目把稅後營業利益扭曲。　滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
@@ -1993,7 +1993,7 @@
    "id": "asset_turnover_ttm",
    "zh": "總資產週轉率（滾動四季）",
    "en": "Asset Turnover TTM",
-   "formula": "revenue_ttm / avg(total_assets)",
+   "formula": "revenue_ttm / ((total_assets + total_assets[t-4]) / 2)",
    "fmt": "multiple",
    "group": "轉折訊號",
    "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
@@ -2011,7 +2011,7 @@
    "id": "dso_ttm",
    "zh": "應收帳款週轉天數（滾動四季）",
    "en": "DSO TTM",
-   "formula": "avg(accounts_receivable) / revenue_ttm * 365",
+   "formula": "((accounts_receivable + accounts_receivable[t-4]) / 2) / revenue_ttm * 365",
    "fmt": "days",
    "group": "轉折訊號",
    "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
@@ -2020,7 +2020,7 @@
    "id": "dio_ttm",
    "zh": "存貨週轉天數（滾動四季）",
    "en": "DIO TTM",
-   "formula": "avg(inventory) / cogs_ttm * 365",
+   "formula": "((inventory + inventory[t-4]) / 2) / cogs_ttm * 365",
    "fmt": "days",
    "group": "轉折訊號",
    "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
@@ -2029,7 +2029,7 @@
    "id": "dpo_ttm",
    "zh": "應付帳款週轉天數（滾動四季）",
    "en": "DPO TTM",
-   "formula": "avg(accounts_payable) / cogs_ttm * 365",
+   "formula": "((accounts_payable + accounts_payable[t-4]) / 2) / cogs_ttm * 365",
    "fmt": "days",
    "group": "轉折訊號",
    "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
@@ -2436,7 +2436,7 @@
    "zh": "淨利息收益率（滾動四季）",
    "en": "Net Interest Margin (TTM)",
    "group": "金融業評分",
-   "formula": "interest_income_net_ttm / avg(total_assets)",
+   "formula": "interest_income_net_ttm / ((total_assets + total_assets[t-4]) / 2)",
    "desc": "",
    "sector": "financial",
    "fmt": "ratio"
@@ -2446,7 +2446,7 @@
    "zh": "資產報酬率（滾動四季）",
    "en": "Return on Assets (TTM)",
    "group": "金融業評分",
-   "formula": "net_income_ttm / avg(total_assets)",
+   "formula": "net_income_ttm / ((total_assets + total_assets[t-4]) / 2)",
    "desc": "",
    "sector": "financial",
    "fmt": "ratio"
@@ -2486,7 +2486,7 @@
    "zh": "信用成本（滾動四季）",
    "en": "Credit Cost (TTM)",
    "group": "金融業評分",
-   "formula": "provision_credit_loss_ttm / avg(loans_gross)",
+   "formula": "provision_credit_loss_ttm / ((loans_gross + loans_gross[t-4]) / 2)",
    "desc": "",
    "sector": "financial",
    "fmt": "ratio"
@@ -2506,7 +2506,7 @@
    "zh": "淨沖銷率（滾動四季）",
    "en": "Net Charge-off Rate (TTM)",
    "group": "金融業評分",
-   "formula": "net_charge_offs_ttm / avg(loans_gross)",
+   "formula": "net_charge_offs_ttm / ((loans_gross + loans_gross[t-4]) / 2)",
    "desc": "",
    "sector": "financial",
    "fmt": "ratio"
@@ -2536,7 +2536,7 @@
    "zh": "投資收益率（滾動四季）",
    "en": "Investment Yield (TTM)",
    "group": "金融業評分",
-   "formula": "net_investment_income_ttm / avg(investments_total)",
+   "formula": "net_investment_income_ttm / ((investments_total + investments_total[t-4]) / 2)",
    "desc": "",
    "sector": "financial",
    "fmt": "ratio"
@@ -2733,7 +2733,7 @@
    "zh": "淨利息收入對總資產（滾動四季）",
    "en": "Net Interest Income to Assets (TTM)",
    "group": "金融業評分",
-   "formula": "interest_income_net_ttm / avg(total_assets)",
+   "formula": "interest_income_net_ttm / ((total_assets + total_assets[t-4]) / 2)",
    "desc": "",
    "sector": "financial",
    "fmt": "ratio"
@@ -2753,7 +2753,7 @@
    "zh": "營業費用對權益（滾動四季）",
    "en": "Operating Expenses to Equity (TTM)",
    "group": "金融業評分",
-   "formula": "opex_total_ttm / avg(equity)",
+   "formula": "opex_total_ttm / ((equity + equity[t-4]) / 2)",
    "desc": "",
    "sector": "financial",
    "fmt": "ratio"

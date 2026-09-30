@@ -1,13 +1,13 @@
 {
  "version": "1.0",
- "generated": "2026-09-24",
+ "generated": "2026-10-01",
  "source": [
   "2025q3.zip",
   "2025q4.zip",
   "2026q1.zip",
   "2026q2.zip"
  ],
- "map_version": "1.28",
+ "map_version": "1.29",
  "scoring_version": "1.10",
  "scoring_inputs": "ac3b0ecd313f",
  "min_companies": 30,

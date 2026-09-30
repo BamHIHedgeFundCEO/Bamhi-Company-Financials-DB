@@ -45,6 +45,39 @@ export interface MapConcept {
    */
   derive?: string
   /**
+   * **逐家自我驗證的推算**：只有當這條式子在**這家公司自己的重疊期**對得上時，
+   * 才拿去補缺的期。`derive` 是無條件套用，這個不是。
+   *
+   * 起因：CleanSpark 的損益表營收那一行掛 `DigitalCurrencyMiningRevenues`，
+   * `version` 是申報書號 —— 公司自訂命名空間，companyfacts 只收標準命名空間，
+   * 所以整條抓不到（Xcel、DTE 同理，它們把營收按電／氣分項，總額用自訂標籤）。
+   * 但「營業利益 + 總成本費用 = 營收」是損益表的恆等式，而那兩項是標準標籤。
+   *
+   * **為什麼要逐家驗**：全市場一體適用只有 ±3% 87%、低於 90% 門檻 ——
+   * 有些公司的 `CostsAndExpenses` 不是「從營收扣掉的那一整包」。實測
+   * Southwest Gas 的中位比值是 1.883，無條件套用會把它 5 季的營收灌高 88%，
+   * 而那種錯**看起來完全正常**。改成逐家驗之後它被擋下、11 家正常的補得到值。
+   */
+  derive_verified?: {
+    formula: string
+    /** 重疊期中位比值容許偏離 1 多少（0.01 ＝ ±1%） */
+    tolerance: number
+    /** 至少要有幾個重疊期才敢下判斷 */
+    min_overlap: number
+    /**
+     * 只拿**最近這幾個**重疊期對帳。
+     *
+     * 不設限的話判定會隨查詢範圍變：Southwest Gas 2024 年把 Centuri 分拆出去，
+     * 分拆前的 `CostsAndExpenses` 語意不同 —— 查 2023 年起中位 1.0000（通過），
+     * 查 2019 年起中位 1.576（擋下），同一家公司同一格時有時無。
+     * 這與 `dimensionOnly` 第一版踩過的是同一個坑：**判準的輸入必須是固定的，
+     * 不能是使用者選了多長的期間**。而且問的本來就是「這家公司**現在**的損益表
+     * 長這樣嗎」，舊結構不該有投票權。
+     */
+    recent_periods: number
+    note?: string
+  }
+  /**
    * 內部科目：參與推算但**不輸出成報表列**。
    *
    * 用在「本身不是我們要呈現的行，但別的科目要拿它當推算輸入」的情況——
@@ -1833,6 +1866,7 @@ export async function getFinancials(
     }
   }
 
+  applyVerifiedDerives(map, byId, allPeriods)
   applyDerives(map, byId, allPeriods)
 
   // 上市／SPAC 借殼前偵測：股數序列早期出現一次「非分割」的大跳增（借殼或 IPO 增資），
@@ -2143,6 +2177,77 @@ function inferCurrency(ns: FactTags): string {
     }
   }
   return bestU
+}
+
+/**
+ * 逐家自我驗證的推算（`derive_verified`）。**先對帳，對得上才補**。
+ *
+ * 與 `applyDerives` 的差別只有一個，但那個差別是全部：這條式子不是恆真的。
+ * 拿「營業利益 + 總成本費用 = 營收」來說，全市場只有 87% 的格子落在 ±3% 內，
+ * 剩下 13% 是 `CostsAndExpenses` 語意不同的公司 —— 對它們套用會產生一個
+ * 看起來完全正常的錯數字，比留白糟得多。
+ *
+ * 所以先用**這家公司自己**有值的期別對帳：兩邊都有值的格子算比值，
+ * 中位數落在容許範圍內、而且格數夠，才拿去補缺的期。對不上就一格都不補。
+ */
+function applyVerifiedDerives(
+  map: { concepts: MapConcept[] },
+  byId: Map<string, LineItem>,
+  allPeriods: string[],
+): void {
+  for (const concept of map.concepts) {
+    const rule = concept.derive_verified
+    if (!rule) continue
+    const li = byId.get(concept.id)
+    if (!li) continue
+    const m = rule.formula.match(/^(\w+)((?:\s*[+\-]\s*\w+)*)$/)
+    if (!m) continue
+    const head = byId.get(m[1]!)
+    if (!head) continue
+    const terms = [...(m[2] ?? '').matchAll(/([+\-])\s*(\w+)/g)]
+      .map((t) => ({ op: t[1]!, li: byId.get(t[2]!) }))
+    if (terms.some((t) => !t.li)) continue
+
+    const valueAt = (p: string): number | null => {
+      let v = head.values[p]?.value
+      if (v == null) return null
+      for (const t of terms) {
+        const x = t.li!.values[p]?.value
+        if (x == null) return null
+        v = t.op === '-' ? v - x : v + x
+      }
+      return v
+    }
+    // ① 對帳：只看兩邊都有值、而且申報值不為 0 的格子，**且只取最近幾期**
+    const sorted = [...allPeriods].sort()
+    const pairs: number[] = []
+    for (const p of sorted) {
+      const actual = li.values[p]?.value
+      if (actual == null || actual === 0) continue
+      const derived = valueAt(p)
+      if (derived == null) continue
+      pairs.push(derived / actual)
+    }
+    const ratios = pairs.slice(-rule.recent_periods)
+    if (ratios.length < rule.min_overlap) continue
+    ratios.sort((a, b) => a - b)
+    const mid = ratios.length % 2
+      ? ratios[(ratios.length - 1) / 2]!
+      : (ratios[ratios.length / 2 - 1]! + ratios[ratios.length / 2]!) / 2
+    if (Math.abs(mid - 1) > rule.tolerance) continue
+    // ② 對得上才補
+    for (const p of allPeriods) {
+      if (li.values[p]?.value != null) continue
+      const v = valueAt(p)
+      if (v == null) continue
+      li.values[p] = {
+        value: v,
+        isEstimated: true,
+        sourceTag: `推算：${rule.formula}（與本公司 ${ratios.length} 個重疊期對帳，中位 ${mid.toFixed(4)}）`,
+        endDate: head.values[p]?.endDate,
+      }
+    }
+  }
 }
 
 /**

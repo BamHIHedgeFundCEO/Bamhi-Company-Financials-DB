@@ -1,5 +1,5 @@
 {
- "version": "1.30",
+ "version": "1.31",
  "updated": "2026-09-24",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -28,7 +28,14 @@
     "RevenueFromSaleOfGoods"
    ],
    "note": "銀行沒有單一「總營收」標籤。JPM 有 RevenuesNetOfInterestExpense，但 Truist／Regions／Synchrony／BNY 等 12 家沒有，只有淨利息收入與非利息收入兩條。業界慣例的銀行營收就是兩者相加，定義與 RevenuesNetOfInterestExpense 相同（皆為扣除利息費用後），所以 derive 出來的數字與 JPM 可比。不可以只拿 InterestIncomeExpenseNet 當營收：那只是淨利息收入，會少算約四成而且看起來完全正常。",
-   "derive": "interest_income_net + noninterest_income"
+   "derive": "interest_income_net + noninterest_income",
+   "derive_verified": {
+    "formula": "operating_income + costs_and_expenses",
+    "tolerance": 0.01,
+    "min_overlap": 4,
+    "recent_periods": 12,
+    "note": "全市場一體適用只有 ±3% 87%（低於 tag_validate 的 90% 門檻），所以只在該公司自己最近 12 個重疊期對得上時才用。實測 9 家補得到值（CleanSpark 6 季、SELLAS 5 季、Cogent 5 季…），1 家被擋下（Omeros 中位 0.500，本來會把那一季的營收砍一半）。"
+   }
   },
   {
    "id": "cogs",
@@ -342,6 +349,19 @@
     "ExpenseFromSharebasedPaymentTransactionsInWhichGoodsOrServicesReceivedDidNotQualifyForRecognitionAsAssets"
    ],
    "zero_if_absent": true
+  },
+  {
+   "id": "costs_and_expenses",
+   "zh": "總成本費用（僅推算用）",
+   "en": "Costs and Expenses (internal)",
+   "statement": "IS",
+   "unit": "USD",
+   "sign": "reported_positive",
+   "internal": true,
+   "tags": [
+    "CostsAndExpenses"
+   ],
+   "note": "只給 revenue 的驗證式推算當輸入，不顯示。營收那一行掛自訂標籤的公司（CleanSpark 的 DigitalCurrencyMiningRevenues、Xcel 與 DTE 的分項營收）companyfacts 取不到，但這兩項是標準標籤 —— 營業利益 + 總成本費用 = 營收是損益表的恆等式。"
   },
   {
    "id": "dep_only",

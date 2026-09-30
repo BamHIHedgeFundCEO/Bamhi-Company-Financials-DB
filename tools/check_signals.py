@@ -218,6 +218,53 @@ def main() -> int:
         if fin != sorted(fin):
             errs.append(f"評分的 {name}：lt 必須由小到大 —— {fin}")
 
+    # ── 期間對齊：分子與分母量的必須是同一段時間 ─────────────────────
+    #
+    # 起因是 ROE：分子是滾動四季淨利，分母卻只平均最近兩期的權益（`avg()`）。
+    # 成長快的公司分母被撐大，NVDA 實測 90.88% vs 外部資料的 117.21%，差 26 個
+    # 百分點，而且**每一個數字單獨看都很合理**，沒有任何地方會報錯。
+    # 同一個錯當時在 13 個指標裡。
+    #
+    # 還有第二種同源的錯：**尺度**。`peer_stats.py` 的錨點是拿年度序列算的，
+    # 執行期卻是季度 —— 公式裡只要有沒年化的「存量 ÷ 流量」或「流量 ÷ 存量」，
+    # 同一家公司在兩邊就差四倍，而 20-F 外國發行人（一欄＝一年）與 10-Q 公司
+    # 的同一列也會差四倍。
+    stmt_of = {c["id"]: c.get("statement") for c in xmap["concepts"]}
+    formula_of = {m["id"]: m["formula"] for m in xmap["derived"]}
+    SHARES = {"shares_outstanding", "shares_basic", "shares_diluted"}
+
+    def refs(f: str) -> set:
+        return {x for x in IDENT.findall(f) if x not in SYNTAX_WORDS}
+
+    def is_ttm(mid: str, f: str) -> bool:
+        return mid.endswith("_ttm") or "_ttm" in f
+
+    def annualised(mid: str, f: str) -> bool:
+        return is_ttm(mid, f) or re.search(r"\*\s*4\b", f) or "365" in f or "91.25" in f
+
+    for m in xmap["derived"]:
+        mid, f = m["id"], m["formula"]
+        used = refs(f)
+        stocks = {i for i in used if stmt_of.get(i) == "BS" and i not in SHARES}
+        flows = {i for i in used if i in stmt_of and stmt_of[i] != "BS"}
+        if not stocks:
+            continue
+        if is_ttm(mid, f):
+            # TTM 的分子跨四季，存量科目就要取期初期末平均 `(x + x[t-4]) / 2`
+            for sid in stocks:
+                if re.search(rf"avg\(\s*{sid}\s*\)", f):
+                    errs.append(f"指標 {mid}：滾動四季卻用 avg({sid}) —— "
+                                f"分子跨四季、分母只跨一季，改寫成 ({sid} + {sid}[t-4]) / 2")
+        else:
+            # 單季的分子只跨一季，取四季平均同樣是錯配（方向相反）
+            for sid in stocks:
+                if re.search(rf"\(\s*{sid}\s*\+\s*{sid}\[t-4\]\s*\)\s*/\s*2", f):
+                    errs.append(f"指標 {mid}：單季分子卻用 {sid} 的四季平均分母")
+        # 尺度：存量與流量相除而流量沒年化 → 季度與年度兩種欄位差四倍
+        if flows and not annualised(mid, f) and not re.search(r"\[t-4\]", f):
+            errs.append(f"指標 {mid}：{sorted(stocks)} 與 {sorted(flows)} 相除卻沒有年化 —— "
+                        f"外國發行人一欄＝一年，同一列會差四倍（補 `* 4` 或改用 _ttm）")
+
     for e in errs:
         print("✗", e)
     def n_items(dims: list) -> int:

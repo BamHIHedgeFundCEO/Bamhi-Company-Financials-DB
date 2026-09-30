@@ -1,5 +1,5 @@
 {
- "version": "1.29",
+ "version": "1.30",
  "updated": "2026-09-24",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -1850,9 +1850,9 @@
    "zh": "預付佔營收比",
    "en": "Prepaid / Revenue",
    "group": "轉折訊號",
-   "formula": "prepaid_expense / revenue",
+   "formula": "prepaid_expense / (revenue * 4)",
    "fmt": "ratio",
-   "desc": "預付費用及其他流動資產佔當期營收的比重。上升代表公司提前把錢押在未來的產能或原料上。"
+   "desc": "預付費用及其他流動資產相當於多少比例的**年化**營收。上升代表公司提前把錢押在未來的產能或原料上。分母年化是為了讓 10-Q 公司（一欄一季）與 20-F 外國發行人（一欄一年）這一列可比 —— 不年化的話同一個數字在兩種公司身上差四倍。"
   },
   {
    "id": "lease_liab_total",

@@ -882,7 +882,7 @@ export async function getFinancials(
   // （20-F 只有年度 XBRL，6-K 不進 companyfacts）
   const gaap = facts.facts['us-gaap']
   const ifrs = facts.facts['ifrs-full']
-  const useIfrs = !gaap || (Object.keys(gaap).length < 20 && !!ifrs)
+  const useIfrs = pickIfrs(gaap, ifrs)
   const ns: FactTags = (useIfrs ? ifrs : gaap) ?? {}
   const fyeMonth = inferFyeMonth(ns)
   const fyEnds = inferFyEnds(ns, fyeMonth)
@@ -902,19 +902,56 @@ export async function getFinancials(
   const annualMode =
     useIfrs ||
     (() => {
-      let total = 0
-      let quarterly = 0
+      // **只數最近兩年的事實**。公司會換申報身分，而 companyfacts 把舊事實永遠留著：
+      //   James Hardie 2025 年從 20-F 轉成國內申報人（10-K/10-Q），全段季度佔比
+      //     只有 3.0% -> 判成年度，整頁只剩年欄，季度細節全看不到
+      //   Teekay 反過來，從 10-Q 轉成 20-F，全段 13.7% -> 判成季度，
+      //     而近兩年一筆季度事實都沒有 -> **整頁 12 欄全是空的**
+      // 與 `pickIfrs`／`inferCurrency` 同一個形狀：拿整段歷史的多數決，去回答
+      // 一個「這家公司**現在**怎麼申報」的問題。
+      // 判準看的是**近兩年有幾個相異的季度期間**，不是只看比例：
+      //   0 個   -> 年度（確定不再申報季報，如 Teekay）
+      //   >= 4 個 -> 用近窗的比例決定（資料夠支撐季度呈現）
+      //   1~3 個 -> 說不準，退回全段的比例。轉成國內申報人才兩季的公司（JHX）
+      //             會留在年度：季度欄撐不起 TTM，硬切過去會從「有總分」變成
+      //             「覆蓋率 17.5%、無法評分」，而剛上市就只有兩季的公司全段
+      //             本來就幾乎都是季度事實，仍然判成季度
+      // 未來期末日的事實不能決定「最新」：Oracle 的負債到期表掛到 2199 年，
+      // 一筆就能把視窗推到未來，視窗裡沒有任何季度事實 -> 甲骨文被判成年度申報人
+      const todayIso = new Date().toISOString().slice(0, 10)
+      let latest = ''
+      for (const tag of Object.values(ns)) {
+        for (const points of Object.values(tag.units)) {
+          for (const p of points) if (p.start && p.end > latest && p.end <= todayIso) latest = p.end
+        }
+      }
+      const cutoff = latest
+        ? new Date(new Date(latest).getTime() - 730 * 864e5).toISOString().slice(0, 10)
+        : ''
+      let total = 0, quarterly = 0, recent = 0, recentQ = 0
+      const recentQSpans = new Set<string>()
       for (const tag of Object.values(ns)) {
         for (const points of Object.values(tag.units)) {
           for (const p of points) {
             if (!p.start) continue
-            total++
             const d = (Date.parse(p.end) - Date.parse(p.start)) / 86_400_000
-            if (d >= 45 && d <= 130) quarterly++
+            const isQ = d >= 45 && d <= 130
+            total++
+            if (isQ) quarterly++
+            if (p.end >= cutoff && p.end <= todayIso) {
+              recent++
+              if (isQ) {
+                recentQ++
+                recentQSpans.add(`${p.start}~${p.end}`)
+              }
+            }
           }
         }
       }
-      return total === 0 || quarterly / total < 0.05
+      if (total === 0) return true
+      if (recentQSpans.size === 0) return true
+      if (recentQSpans.size >= 4 && recent) return recentQ / recent < 0.05
+      return quarterly / total < 0.05
     })()
 
   // 幣別：見 inferCurrency。**只取這一種幣別**，不做「這個科目沒有就退回另一種」的
@@ -2015,6 +2052,52 @@ function firstFactAt(ns: FactTags, tags: string[], end: string): { tag: string; 
 }
 
 /**
+ * 用哪一套會計準則的命名空間。**比的是新近度，不是標籤數**。
+ *
+ * 公司會換準則。豐田 2021 會計年度起改用 IFRS、BHP 更早，但 companyfacts 會把
+ * 以前那批 us-gaap 事實**永遠留著**：TM 有 483 個 us-gaap 標籤（全部停在 2020-03-31）
+ * 對 221 個 ifrs-full 標籤（到 2025-03-31）。舊判準是「us-gaap 標籤 >= 20 就用 us-gaap」，
+ * 於是我們一路讀那個**死掉的**命名空間 —— TM 的整頁只剩 1 欄、BHP 是 0 欄。
+ * 這與 `inferCurrency` 是同一個形狀的錯：**拿整段歷史的多數決，去回答一個
+ * 「這家公司現在怎麼申報」的問題**。
+ *
+ * 判準：兩邊都在的話，比最近一年（以兩者較新的期末為基準）各有幾筆事實，多的贏。
+ * 不比「誰的最後一筆比較新」—— 那會被一兩筆補申報的舊科目翻盤。
+ */
+function pickIfrs(gaap?: FactTags, ifrs?: FactTags): boolean {
+  if (!gaap) return !!ifrs
+  if (!ifrs) return false
+  // **期末日在未來的事實不能算進「最新」**：那些來自負債到期表（Oracle 掛到 2199 年、
+  // Ethan Allen 到 2033 年），一筆就能把「最近一年」的視窗整個推到未來去，
+  // 視窗裡只剩那幾筆，判準就全歪了。與 `collect()` 的同一條界線：用今天封頂
+  const today = new Date().toISOString().slice(0, 10)
+  const latestOf = (t: FactTags) => {
+    let m = ''
+    for (const tag of Object.values(t)) {
+      for (const points of Object.values(tag.units)) {
+        for (const p of points) if (p.end > m && p.end <= today) m = p.end
+      }
+    }
+    return m
+  }
+  const gl = latestOf(gaap)
+  const il = latestOf(ifrs)
+  const latest = gl > il ? gl : il
+  if (!latest) return Object.keys(gaap).length < 20
+  const cutoff = new Date(new Date(latest).getTime() - 365 * 864e5).toISOString().slice(0, 10)
+  const recent = (t: FactTags) => {
+    let n = 0
+    for (const tag of Object.values(t)) {
+      for (const points of Object.values(tag.units)) {
+        for (const p of points) if (p.end >= cutoff) n++
+      }
+    }
+    return n
+  }
+  return recent(ifrs) > recent(gaap)
+}
+
+/**
  * 申報幣別。**只看最近一年的事實，不是整段歷史裡最多的那個**。
  *
  * 公司會換申報幣別。Nebius（前身 Yandex N.V.）FY2023 以前報盧布、FY2024 起報美元，
@@ -2028,11 +2111,13 @@ function firstFactAt(ns: FactTags, tags: string[], end: string): { tag: string; 
 function inferCurrency(ns: FactTags): string {
   type Agg = { n: number; recent: number }
   const agg = new Map<string, Agg>()
+  // 未來期末日的事實（負債到期表）不能決定「最新」—— 見 `pickIfrs` 的同一條界線
+  const today = new Date().toISOString().slice(0, 10)
   let latest = ''
   for (const tag of Object.values(ns)) {
     for (const [u, points] of Object.entries(tag.units)) {
       if (!/^[A-Z]{3}$/.test(u)) continue
-      for (const pt of points) if (pt.end > latest) latest = pt.end
+      for (const pt of points) if (pt.end > latest && pt.end <= today) latest = pt.end
     }
   }
   // 最近一年的界線。沒有任何事實時退回舊行為（全段計數）

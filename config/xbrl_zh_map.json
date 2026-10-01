@@ -1,5 +1,5 @@
 {
- "version": "1.33",
+ "version": "1.35",
  "updated": "2026-09-24",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -219,6 +219,17 @@
     "ProfitLossBeforeTax"
    ],
    "derive": "net_income + income_tax"
+  },
+  {
+   "id": "ebit",
+   "zh": "EBIT（稅前息前獲利）",
+   "en": "EBIT",
+   "statement": "IS",
+   "unit": "USD",
+   "sign": "natural",
+   "tags": [],
+   "derive": "pretax_income + interest_expense?",
+   "note": "稅前淨利 ＋ 利息費用。**利息費用是選用項**：沒有負債的公司根本沒有這一行，寫成必要項的話 EBITDA、EBIT 利潤率、淨負債／EBITDA 會跟著整列消失。富途的 EBITDA 與利息保障倍數都以這個為底（逐格驗過）。"
   },
   {
    "id": "income_tax",
@@ -1442,6 +1453,15 @@
    "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
   },
   {
+   "id": "ebit_ttm",
+   "zh": "EBIT（滾動四季）",
+   "en": "EBIT TTM",
+   "group": "滾動四季原始值",
+   "formula": "(ebit[t] + ebit[t-1] + ebit[t-2] + ebit[t-3])",
+   "fmt": "usd",
+   "desc": "稅前淨利 ＋ 利息費用。利息保障倍數與 EBIT 利潤率的分子。"
+  },
+  {
    "id": "dna_ttm",
    "zh": "折舊及攤銷（滾動四季）",
    "en": "D&A TTM",
@@ -1572,6 +1592,24 @@
    "desc": "扣除營運費用後的獲利能力，衡量管理效率。與毛利率的差距即為費用率，差距收窄代表規模經濟開始顯現。"
   },
   {
+   "id": "ebit_margin_ttm",
+   "zh": "EBIT 利潤率",
+   "en": "EBIT Margin",
+   "group": "獲利能力",
+   "formula": "ebit_ttm / revenue_ttm",
+   "fmt": "ratio",
+   "desc": "EBIT ÷ 營收。逐格對帳富途：AXON 與 NVDA 各五期全中。"
+  },
+  {
+   "id": "ebit_margin",
+   "zh": "EBIT 利潤率（單季）",
+   "en": "EBIT Margin (Quarterly)",
+   "group": "獲利能力",
+   "formula": "ebit / revenue",
+   "fmt": "ratio",
+   "desc": "EBIT ÷ 營收。單季年化口徑，外部網站看到的是滾動四季那一列。"
+  },
+  {
    "id": "net_margin_ttm",
    "zh": "淨利率",
    "en": "Net Margin",
@@ -1592,18 +1630,28 @@
    "id": "ebitda_ttm",
    "zh": "EBITDA",
    "en": "EBITDA",
-   "formula": "operating_income_ttm + dna_ttm",
+   "formula": "ebit_ttm + dna_ttm",
    "fmt": "usd",
    "group": "獲利能力",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+   "desc": "EBITDA ＝ **稅前淨利 ＋ 利息費用 ＋ 折舊攤銷**（也就是 EBIT ＋ D&A）。舊版用「營業利益 ＋ D&A」，差在非營業損益那一段 —— 逐格對帳富途：AXON 與 NVDA 各五期全中。 NVDA 實測舊版 59.49% vs 富途 62.46%，改用 EBIT 當底之後逐格相符。 滾動四季。"
   },
   {
    "id": "ebitda",
    "zh": "稅前息前折舊攤銷前獲利（單季）",
    "en": "EBITDA (Quarterly)",
    "group": "獲利能力",
-   "formula": "operating_income + dna",
-   "desc": "排除資本結構與折舊政策差異，便於跨公司比較。但它刻意忽略資本支出，對重資產產業（半導體、電信）會嚴重高估真實獲利能力。"
+   "formula": "ebit + dna",
+   "desc": "EBITDA ＝ **稅前淨利 ＋ 利息費用 ＋ 折舊攤銷**（也就是 EBIT ＋ D&A）。舊版用「營業利益 ＋ D&A」，差在非營業損益那一段 —— 逐格對帳富途：AXON 與 NVDA 各五期全中。 NVDA 實測舊版 59.49% vs 富途 62.46%，改用 EBIT 當底之後逐格相符。"
+  },
+  {
+   "id": "ebitda_margin_ttm",
+   "zh": "EBITDA 利潤率（滾動四季）",
+   "en": "EBITDA Margin (TTM)",
+   "group": "獲利能力",
+   "formula": "ebitda_ttm / revenue_ttm",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
   },
   {
    "id": "ebitda_margin",
@@ -1612,6 +1660,24 @@
    "group": "獲利能力",
    "formula": "ebitda / revenue",
    "desc": "重資產與高度併購型公司的常用比較基準。"
+  },
+  {
+   "id": "tax_rate_ttm",
+   "zh": "有效稅率",
+   "en": "Effective Tax Rate",
+   "group": "獲利能力",
+   "formula": "income_tax_ttm / pretax_income_ttm",
+   "fmt": "ratio",
+   "desc": "所得稅費用 ÷ 稅前淨利。逐格對帳富途：AXON 與 NVDA 各五期全中。 **稅前淨利趨近 0 時這個比值會失控**（AXON FY2025 Q4 實測 −557%），富途對那種公司整欄顯示「--」。它只是呈現用，不進任何計分項 —— ROIC 已經改用沒有稅率的富途公式，正是因為那個乘數會把營業利益放大六倍以上。"
+  },
+  {
+   "id": "tax_rate",
+   "zh": "有效稅率（單季）",
+   "en": "Effective Tax Rate (Quarterly)",
+   "group": "獲利能力",
+   "formula": "income_tax / pretax_income",
+   "fmt": "ratio",
+   "desc": "所得稅費用 ÷ 稅前淨利。"
   },
   {
    "id": "roe_ttm",
@@ -1875,7 +1941,7 @@
    "id": "interest_coverage_ttm",
    "zh": "利息保障倍數",
    "en": "Interest Coverage",
-   "formula": "(pretax_income_ttm + interest_expense_ttm) / interest_expense_ttm",
+   "formula": "ebit_ttm / interest_expense_ttm",
    "fmt": "multiple",
    "group": "財務結構",
    "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
@@ -1885,7 +1951,7 @@
    "zh": "利息保障倍數（單季）",
    "en": "Interest Coverage (Quarterly)",
    "group": "財務結構",
-   "formula": "(pretax_income + interest_expense) / interest_expense",
+   "formula": "ebit / interest_expense",
    "inapplicable_if_zero": "interest_expense",
    "inapplicable_note": "利息費用為 0 ＝ 公司沒有有息負債（PANW 還清可轉債後就是），保障倍數無從談起，屬「不適用」而非「查不到」。除以 0 若照原樣包 IFERROR 會寫成 n/a，把「沒有負債」講成「資料缺漏」。",
    "desc": "營業利益是利息費用的幾倍。低於 2 進入警戒，低於 1 代表本業獲利無法支應利息。升息循環中此指標的惡化速度最能反映脆弱度。"
@@ -2696,16 +2762,6 @@
    "en": "Operating Cash Flow Margin (TTM)",
    "group": "金融業評分",
    "formula": "cfo_ttm / revenue_ttm",
-   "desc": "",
-   "sector": "financial",
-   "fmt": "ratio"
-  },
-  {
-   "id": "ebitda_margin_ttm",
-   "zh": "EBITDA 利潤率（滾動四季）",
-   "en": "EBITDA Margin (TTM)",
-   "group": "金融業評分",
-   "formula": "ebitda_ttm / revenue_ttm",
    "desc": "",
    "sector": "financial",
    "fmt": "ratio"

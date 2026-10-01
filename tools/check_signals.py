@@ -12,6 +12,9 @@ import re
 import sys
 from pathlib import Path
 
+# cp950 的主控台印不出 ✓／✗，錯誤訊息會自己炸掉、蓋掉真正的錯（check_staleness 同解）
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 ROOT = Path(__file__).resolve().parent.parent
 IDENT = re.compile(r"[A-Za-z_][A-Za-z0-9_]*")
 SYNTAX_WORDS = {"avg", "t"}

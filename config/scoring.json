@@ -1,1219 +1,1219 @@
 {
-  "version": "1.10",
-  "updated": "2026-09-24",
-  "note": "量化評分的設定層。每一分都要能被拆回原始數字，所以這裡只有三種東西：構面權重、指標權重、以及每個指標的 bad／good 兩個錨點。得分＝100 × clamp((值 − bad) ÷ (good − bad), 0, 1) —— 兩點之間線性、兩端飽和。good 可以小於 bad（負債倍數、稀釋率這種越低越好的指標），公式不必改。\n\n**總分是純水準分，不混趨勢分。**理由三個：(1) 一半的指標本身就是變化量（營收加速度、毛利率年變化、應收成長差），再套一層趨勢分等於二階微分，同一件事算兩次；(2) 把趨勢揉進分數會讓「體質好但正在惡化」被平均成中間值，那正是最該被看見的情況；(3) 分數自己有歷史，方向用「本期總分 − 4 期前總分」表示就好，少一組沒人能驗證的權重。\n\n錨點的來源分兩階段：v1 是跨產業的絕對錨點（重資產產業會被系統性低估，已知限制）；v2 由 tools/peer_stats.py 從 SEC DERA 季度資料集算出同業 P10／P90 覆蓋掉這裡的 bad／good，公式與程式完全不動，只換數字。\n\n缺項一律**移出分母**再按比例重算權重，並在頁面標覆蓋率 —— 銀行沒有毛利與存貨，給 0 分等於把「不適用」當「很爛」。覆蓋率低於 coverage_floor 就不給總分，只給算得出來的構面分：拿 3 項算出來的總分是雜訊，不是結論。\n\n**構面覆蓋率不足就整個構面移出總分**（dimension_coverage_floor）：只靠一兩項撐起 25% 權重的不是「這一層的分數」，是那一項的分數戴了構面的帽子。\n\n**方向箭頭只能比兩期都算得出來的項目。**直接拿兩期總分相減，測到的是資料多寡不是公司表現 —— 實測 JPM 會報出 +28 分的假轉好。\n\n**水準型指標一律用滾動四季。**單季直接對固定門檻打分會把季節性讀成體質變化 —— 實測 KO 的總分逐季在 39～69 之間跳，那不是可口可樂的體質在跳。ROE／ROIC 尤其不能用「單季 ×4」年化。年度發行人（一欄＝一整年）自動退回同名的單期指標。｜錨點優先用 config/peer_stats.json 的同業百分位（p10=bad、p90=good），查不到才用這裡的絕對值。評級級距是全市場總分的分位數：底 10%／10–30%／30–70%／70–90%／頂 10%（v1.6 重跑：4,250 家算得出來 → 27／44／62／73）。\n\n**產業模型**見 `models` 與 `models_note`：銀行／產險／壽險／REIT 各有一套構面，按 SIC 選。級距與三道覆蓋率門檻五套共用 —— 「穩健」在銀行頁與在軟體頁必須是同一件事。\n\n**三道門檻**：整頁權重覆蓋率 `coverage_floor`、單一構面內部覆蓋率 `dimension_coverage_floor`、以及**進總分的構面權重合計** `counted_weight_floor`。第三道是前兩道補不起來的洞：BLK（資產管理公司，SIC 6211）整頁覆蓋率 36.5% 過得了第一道，資金構面靠一項權重 45% 過得了第二道，最後 86 分是用 5 個構面裡的 2 個算出來的。",
-  "coverage_floor": 0.35,
-  "grades": [
+ "version": "1.12",
+ "updated": "2026-10-01",
+ "note": "量化評分的設定層。每一分都要能被拆回原始數字，所以這裡只有三種東西：構面權重、指標權重、以及每個指標的 bad／good 兩個錨點。得分＝100 × clamp((值 − bad) ÷ (good − bad), 0, 1) —— 兩點之間線性、兩端飽和。good 可以小於 bad（負債倍數、稀釋率這種越低越好的指標），公式不必改。\n\n**總分是純水準分，不混趨勢分。**理由三個：(1) 一半的指標本身就是變化量（營收加速度、毛利率年變化、應收成長差），再套一層趨勢分等於二階微分，同一件事算兩次；(2) 把趨勢揉進分數會讓「體質好但正在惡化」被平均成中間值，那正是最該被看見的情況；(3) 分數自己有歷史，方向用「本期總分 − 4 期前總分」表示就好，少一組沒人能驗證的權重。\n\n錨點的來源分兩階段：v1 是跨產業的絕對錨點（重資產產業會被系統性低估，已知限制）；v2 由 tools/peer_stats.py 從 SEC DERA 季度資料集算出同業 P10／P90 覆蓋掉這裡的 bad／good，公式與程式完全不動，只換數字。\n\n缺項一律**移出分母**再按比例重算權重，並在頁面標覆蓋率 —— 銀行沒有毛利與存貨，給 0 分等於把「不適用」當「很爛」。覆蓋率低於 coverage_floor 就不給總分，只給算得出來的構面分：拿 3 項算出來的總分是雜訊，不是結論。\n\n**構面覆蓋率不足就整個構面移出總分**（dimension_coverage_floor）：只靠一兩項撐起 25% 權重的不是「這一層的分數」，是那一項的分數戴了構面的帽子。\n\n**方向箭頭只能比兩期都算得出來的項目。**直接拿兩期總分相減，測到的是資料多寡不是公司表現 —— 實測 JPM 會報出 +28 分的假轉好。\n\n**水準型指標一律用滾動四季。**單季直接對固定門檻打分會把季節性讀成體質變化 —— 實測 KO 的總分逐季在 39～69 之間跳，那不是可口可樂的體質在跳。ROE／ROIC 尤其不能用「單季 ×4」年化。年度發行人（一欄＝一整年）自動退回同名的單期指標。｜錨點優先用 config/peer_stats.json 的同業百分位（p10=bad、p90=good），查不到才用這裡的絕對值。評級級距是全市場總分的分位數：底 10%／10–30%／30–70%／70–90%／頂 10%（v1.6 重跑：4,250 家算得出來 → 27／44／62／73）。\n\n**產業模型**見 `models` 與 `models_note`：銀行／產險／壽險／REIT 各有一套構面，按 SIC 選。級距與三道覆蓋率門檻五套共用 —— 「穩健」在銀行頁與在軟體頁必須是同一件事。\n\n**三道門檻**：整頁權重覆蓋率 `coverage_floor`、單一構面內部覆蓋率 `dimension_coverage_floor`、以及**進總分的構面權重合計** `counted_weight_floor`。第三道是前兩道補不起來的洞：BLK（資產管理公司，SIC 6211）整頁覆蓋率 36.5% 過得了第一道，資金構面靠一項權重 45% 過得了第二道，最後 86 分是用 5 個構面裡的 2 個算出來的。",
+ "coverage_floor": 0.35,
+ "grades": [
+  {
+   "lt": 34,
+   "id": "alert",
+   "zh": "警戒"
+  },
+  {
+   "lt": 48,
+   "id": "weak",
+   "zh": "轉弱"
+  },
+  {
+   "lt": 61,
+   "id": "neutral",
+   "zh": "中性"
+  },
+  {
+   "lt": 69,
+   "id": "solid",
+   "zh": "穩健"
+  },
+  {
+   "id": "strong",
+   "zh": "強健"
+  }
+ ],
+ "arrow": [
+  {
+   "lt": -8,
+   "id": "down2",
+   "zh": "明顯轉弱"
+  },
+  {
+   "lt": -3,
+   "id": "down1",
+   "zh": "轉弱"
+  },
+  {
+   "lt": 3,
+   "id": "flat",
+   "zh": "持平"
+  },
+  {
+   "lt": 8,
+   "id": "up1",
+   "zh": "轉好"
+  },
+  {
+   "id": "up2",
+   "zh": "明顯轉好"
+  }
+ ],
+ "dimensions": [
+  {
+   "id": "profitability",
+   "zh": "獲利能力",
+   "weight": 0.25,
+   "desc": "賺不賺錢、賺得有沒有效率。營業利益率年變化放在這裡，因為營業槓桿是獲利能力的變化率。",
+   "items": [
     {
-      "lt": 34,
-      "id": "alert",
-      "zh": "警戒"
+     "metric": "gross_margin_ttm",
+     "weight": 1.0,
+     "bad": 0.1,
+     "good": 0.75,
+     "metric_annual": "gross_margin"
     },
     {
-      "lt": 49,
-      "id": "weak",
-      "zh": "轉弱"
+     "metric": "operating_margin_ttm",
+     "weight": 1.2,
+     "bad": 0.0,
+     "good": 0.4,
+     "metric_annual": "operating_margin"
     },
     {
-      "lt": 61,
-      "id": "neutral",
-      "zh": "中性"
+     "metric": "net_margin_ttm",
+     "weight": 0.8,
+     "bad": 0.0,
+     "good": 0.3,
+     "metric_annual": "net_margin"
     },
     {
-      "lt": 70,
-      "id": "solid",
-      "zh": "穩健"
+     "metric": "roic_ttm",
+     "weight": 1.2,
+     "bad": 0.02,
+     "good": 0.4,
+     "metric_annual": "roic"
     },
     {
-      "id": "strong",
-      "zh": "強健"
+     "metric": "roe_ttm",
+     "weight": 0.8,
+     "bad": 0.02,
+     "good": 0.35,
+     "metric_annual": "roe"
+    },
+    {
+     "metric": "asset_turnover_ttm",
+     "weight": 0.5,
+     "bad": 0.15,
+     "good": 1.5,
+     "not_meaningful_sic": [
+      [
+       6000,
+       6799
+      ]
+     ],
+     "not_meaningful_note": "分母是整張金融資產負債表，結構性接近 0，與經營效率無關",
+     "metric_annual": "asset_turnover"
+    },
+    {
+     "metric": "operating_margin_ttm_delta",
+     "weight": 1.0,
+     "bad": -0.04,
+     "good": 0.04,
+     "metric_annual": "operating_margin_delta"
     }
-  ],
-  "arrow": [
+   ]
+  },
+  {
+   "id": "quality",
+   "zh": "營收品質與現金含量",
+   "weight": 0.25,
+   "desc": "帳上的獲利有沒有變成現金、貨有沒有堆在倉庫。週轉天數全部歸在這一層——它們與應收／存貨背離講的是同一件事，分成兩個構面會把同一個問題扣兩次分。",
+   "items": [
     {
-      "lt": -8,
-      "id": "down2",
-      "zh": "明顯轉弱"
+     "metric": "ocf_to_net_income_ttm",
+     "weight": 1.5,
+     "bad": 0.4,
+     "good": 1.6,
+     "metric_annual": "ocf_to_net_income",
+     "invalid_if_nonpositive": [
+      "net_income_ttm"
+     ],
+     "invalid_if_nonpositive_annual": [
+      "net_income"
+     ],
+     "not_meaningful_sic": [
+      [
+       6000,
+       6799
+      ]
+     ],
+     "not_meaningful_note": "銀行、券商、保險的營運現金流隨交易性資產與放存款大幅擺盪，負值是常態不是品質問題"
     },
     {
-      "lt": -3,
-      "id": "down1",
-      "zh": "轉弱"
+     "metric": "fcf_margin_level_ttm",
+     "weight": 1.2,
+     "bad": -0.05,
+     "good": 0.35,
+     "not_meaningful_sic": [
+      [
+       6000,
+       6799
+      ]
+     ],
+     "not_meaningful_note": "金融業沒有製造業意義下的資本支出，自由現金流不構成品質訊號",
+     "metric_annual": "fcf_margin"
     },
     {
-      "lt": 3,
-      "id": "flat",
-      "zh": "持平"
+     "metric": "ar_growth_gap_ttm",
+     "weight": 1.0,
+     "bad": 0.2,
+     "good": -0.1,
+     "metric_annual": "ar_growth_gap"
     },
     {
-      "lt": 8,
-      "id": "up1",
-      "zh": "轉好"
+     "metric": "inventory_growth_gap_ttm",
+     "weight": 0.8,
+     "bad": 0.25,
+     "good": -0.1,
+     "metric_annual": "inventory_growth_gap"
     },
     {
-      "id": "up2",
-      "zh": "明顯轉好"
+     "metric": "dso_ttm_delta",
+     "weight": 0.6,
+     "bad": 20.0,
+     "good": -10.0,
+     "metric_annual": "dso_delta"
+    },
+    {
+     "metric": "dio_ttm_delta",
+     "weight": 0.6,
+     "bad": 25.0,
+     "good": -10.0,
+     "metric_annual": "dio_delta"
+    },
+    {
+     "metric": "ccc_ttm",
+     "weight": 0.8,
+     "bad": 150.0,
+     "good": -10.0,
+     "metric_annual": "ccc"
+    },
+    {
+     "metric": "finished_goods_share_delta",
+     "weight": 0.6,
+     "bad": 0.1,
+     "good": -0.05,
+     "invalid_if_nonpositive": [
+      "inventory_other"
+     ]
     }
-  ],
-  "dimensions": [
+   ]
+  },
+  {
+   "id": "growth",
+   "zh": "成長",
+   "weight": 0.2,
+   "desc": "營收本身、成長的加速度、以及比營收更早轉向的合約負債。",
+   "items": [
     {
-      "id": "profitability",
-      "zh": "獲利能力",
-      "weight": 0.25,
-      "desc": "賺不賺錢、賺得有沒有效率。營業利益率年變化放在這裡，因為營業槓桿是獲利能力的變化率。",
-      "items": [
-        {
-          "metric": "gross_margin_ttm",
-          "weight": 1.0,
-          "bad": 0.1,
-          "good": 0.75,
-          "metric_annual": "gross_margin"
-        },
-        {
-          "metric": "operating_margin_ttm",
-          "weight": 1.2,
-          "bad": 0.0,
-          "good": 0.4,
-          "metric_annual": "operating_margin"
-        },
-        {
-          "metric": "net_margin_ttm",
-          "weight": 0.8,
-          "bad": 0.0,
-          "good": 0.3,
-          "metric_annual": "net_margin"
-        },
-        {
-          "metric": "roic_ttm",
-          "weight": 1.2,
-          "bad": 0.02,
-          "good": 0.4,
-          "metric_annual": "roic"
-        },
-        {
-          "metric": "roe_ttm",
-          "weight": 0.8,
-          "bad": 0.02,
-          "good": 0.35,
-          "metric_annual": "roe"
-        },
-        {
-          "metric": "asset_turnover_ttm",
-          "weight": 0.5,
-          "bad": 0.15,
-          "good": 1.5,
-          "not_meaningful_sic": [
-            [
-              6000,
-              6799
-            ]
-          ],
-          "not_meaningful_note": "分母是整張金融資產負債表，結構性接近 0，與經營效率無關",
-          "metric_annual": "asset_turnover"
-        },
-        {
-          "metric": "operating_margin_ttm_delta",
-          "weight": 1.0,
-          "bad": -0.04,
-          "good": 0.04,
-          "metric_annual": "operating_margin_delta"
-        }
-      ]
+     "metric": "revenue_yoy_ttm",
+     "weight": 1.5,
+     "bad": -0.1,
+     "good": 0.4,
+     "metric_annual": "revenue_yoy"
     },
     {
-      "id": "quality",
-      "zh": "營收品質與現金含量",
-      "weight": 0.25,
-      "desc": "帳上的獲利有沒有變成現金、貨有沒有堆在倉庫。週轉天數全部歸在這一層——它們與應收／存貨背離講的是同一件事，分成兩個構面會把同一個問題扣兩次分。",
-      "items": [
-        {
-          "metric": "ocf_to_net_income_ttm",
-          "weight": 1.5,
-          "bad": 0.4,
-          "good": 1.6,
-          "metric_annual": "ocf_to_net_income",
-          "invalid_if_nonpositive": [
-            "net_income_ttm"
-          ],
-          "invalid_if_nonpositive_annual": [
-            "net_income"
-          ],
-          "not_meaningful_sic": [
-            [
-              6000,
-              6799
-            ]
-          ],
-          "not_meaningful_note": "銀行、券商、保險的營運現金流隨交易性資產與放存款大幅擺盪，負值是常態不是品質問題"
-        },
-        {
-          "metric": "fcf_margin_level_ttm",
-          "weight": 1.2,
-          "bad": -0.05,
-          "good": 0.35,
-          "not_meaningful_sic": [
-            [
-              6000,
-              6799
-            ]
-          ],
-          "not_meaningful_note": "金融業沒有製造業意義下的資本支出，自由現金流不構成品質訊號",
-          "metric_annual": "fcf_margin"
-        },
-        {
-          "metric": "ar_growth_gap_ttm",
-          "weight": 1.0,
-          "bad": 0.2,
-          "good": -0.1,
-          "metric_annual": "ar_growth_gap"
-        },
-        {
-          "metric": "inventory_growth_gap_ttm",
-          "weight": 0.8,
-          "bad": 0.25,
-          "good": -0.1,
-          "metric_annual": "inventory_growth_gap"
-        },
-        {
-          "metric": "dso_ttm_delta",
-          "weight": 0.6,
-          "bad": 20.0,
-          "good": -10.0,
-          "metric_annual": "dso_delta"
-        },
-        {
-          "metric": "dio_ttm_delta",
-          "weight": 0.6,
-          "bad": 25.0,
-          "good": -10.0,
-          "metric_annual": "dio_delta"
-        },
-        {
-          "metric": "ccc_ttm",
-          "weight": 0.8,
-          "bad": 150.0,
-          "good": -10.0,
-          "metric_annual": "ccc"
-        },
-        {
-          "metric": "finished_goods_share_delta",
-          "weight": 0.6,
-          "bad": 0.1,
-          "good": -0.05,
-          "invalid_if_nonpositive": [
-            "inventory_other"
-          ]
-        }
-      ]
+     "metric": "revenue_accel_ttm",
+     "weight": 1.0,
+     "bad": -0.15,
+     "good": 0.08,
+     "metric_annual": "revenue_accel_annual"
     },
     {
-      "id": "growth",
-      "zh": "成長",
-      "weight": 0.2,
-      "desc": "營收本身、成長的加速度、以及比營收更早轉向的合約負債。",
-      "items": [
-        {
-          "metric": "revenue_yoy_ttm",
-          "weight": 1.5,
-          "bad": -0.1,
-          "good": 0.4,
-          "metric_annual": "revenue_yoy"
-        },
-        {
-          "metric": "revenue_accel_ttm",
-          "weight": 1.0,
-          "bad": -0.15,
-          "good": 0.08,
-          "metric_annual": "revenue_accel_annual"
-        },
-        {
-          "metric": "deferred_revenue_yoy",
-          "weight": 0.7,
-          "bad": -0.05,
-          "good": 0.4
-        }
-      ]
-    },
-    {
-      "id": "solvency",
-      "zh": "財務結構",
-      "weight": 0.2,
-      "desc": "撐不撐得住。權重比一般直覺高，因為這是唯一一個出事時會讓其他四個構面同時歸零的層。",
-      "items": [
-        {
-          "metric": "net_debt_to_ebitda_ttm",
-          "weight": 1.5,
-          "bad": 5.0,
-          "good": -0.5,
-          "invalid_if_nonpositive": [
-            "ebitda_ttm"
-          ],
-          "metric_annual": "net_debt_to_ebitda",
-          "invalid_if_nonpositive_annual": [
-            "ebitda"
-          ]
-        },
-        {
-          "metric": "interest_coverage_ttm",
-          "weight": 1.5,
-          "bad": 1.5,
-          "good": 30.0,
-          "metric_annual": "interest_coverage"
-        },
-        {
-          "metric": "current_ratio",
-          "weight": 0.8,
-          "bad": 0.7,
-          "good": 3.0
-        },
-        {
-          "metric": "quick_ratio",
-          "weight": 0.6,
-          "bad": 0.4,
-          "good": 2.0
-        },
-        {
-          "metric": "debt_to_equity",
-          "weight": 0.8,
-          "bad": 2.5,
-          "good": 0.1,
-          "invalid_if_nonpositive": [
-            "equity"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "shareholder",
-      "zh": "稀釋與股東權益",
-      "weight": 0.1,
-      "desc": "股東手上的那一份有沒有被稀釋。**股東回饋總額刻意不進評分**——借錢回購也會讓那個數字變好看，那是把槓桿當優點。",
-      "items": [
-        {
-          "metric": "dilution_rate",
-          "weight": 1.2,
-          "bad": 0.06,
-          "good": -0.04
-        },
-        {
-          "metric": "sbc_to_revenue_ttm",
-          "weight": 0.8,
-          "bad": 0.15,
-          "good": 0.01,
-          "metric_annual": "sbc_to_revenue"
-        },
-        {
-          "metric": "equity_yoy",
-          "weight": 0.6,
-          "bad": -0.1,
-          "good": 0.25
-        }
-      ]
+     "metric": "deferred_revenue_yoy",
+     "weight": 0.7,
+     "bad": -0.05,
+     "good": 0.4
     }
-  ],
-  "dimension_coverage_floor": 0.4,
-  "models": [
+   ]
+  },
+  {
+   "id": "solvency",
+   "zh": "財務結構",
+   "weight": 0.2,
+   "desc": "撐不撐得住。權重比一般直覺高，因為這是唯一一個出事時會讓其他四個構面同時歸零的層。",
+   "items": [
     {
-      "id": "bank",
-      "zh": "銀行與券商",
-      "sic": [
-        [
-          6020,
-          6221
-        ]
-      ],
-      "desc": "存款機構、銀行控股公司、消費金融與券商。**與通用模型不共用任何構面**：銀行沒有毛利、沒有存貨、沒有流動比率（資產負債表不分流動），營運現金流隨交易性資產大幅擺盪。硬套通用模型的結果是 26 項裡只有 7 項算得出來、拿不到總分。這一套改問銀行自己的問題：利差夠不夠厚、成本控不控得住、放款的錢收不收得回來、資本與存款撐不撐得住。\n\n**上界收在 6221（券商與期貨商）**，6280–6289（投資顧問／資產管理）走 asset_manager。6211 裡兩種生意混在一起，所以另外用 `fallback_if_absent` 以事實分流（見該欄的說明）。",
-      "dimensions": [
-        {
-          "id": "profitability",
-          "zh": "獲利能力",
-          "weight": 0.25,
-          "desc": "利差的厚度與資產的產出效率。銀行的分母是總資產不是營收 —— 那才是它真正在運用的東西。",
-          "items": [
-            {
-              "metric": "nim_ttm",
-              "weight": 1.2,
-              "bad": 0.015,
-              "good": 0.045,
-              "metric_annual": "nim"
-            },
-            {
-              "metric": "roa_ttm",
-              "weight": 1.2,
-              "bad": 0.004,
-              "good": 0.018,
-              "metric_annual": "roa"
-            },
-            {
-              "metric": "roe_ttm",
-              "weight": 1.0,
-              "bad": 0.02,
-              "good": 0.2,
-              "metric_annual": "roe"
-            },
-            {
-              "metric": "bank_net_margin_ttm",
-              "weight": 0.6,
-              "bad": 0.0,
-              "good": 0.35,
-              "metric_annual": "bank_net_margin"
-            }
-          ]
-        },
-        {
-          "id": "efficiency",
-          "zh": "營運效率與收入結構",
-          "weight": 0.2,
-          "desc": "效率比是銀行業的頭號經營指標：每賺一塊錢營收要花掉多少。非利息收入佔比放在同一層，因為它講的是同一件事的另一面 —— 手續費收入不吃資本、也不隨利率循環擺盪。",
-          "items": [
-            {
-              "metric": "efficiency_ratio_ttm",
-              "weight": 1.5,
-              "bad": 0.75,
-              "good": 0.45,
-              "metric_annual": "efficiency_ratio"
-            },
-            {
-              "metric": "efficiency_ratio_ttm_delta",
-              "weight": 1.0,
-              "bad": 0.05,
-              "good": -0.05,
-              "metric_annual": "efficiency_ratio_delta"
-            },
-            {
-              "metric": "fee_income_share_ttm",
-              "weight": 0.6,
-              "bad": 0.1,
-              "good": 0.45,
-              "metric_annual": "fee_income_share"
-            }
-          ]
-        },
-        {
-          "id": "asset_quality",
-          "zh": "資產品質",
-          "weight": 0.25,
-          "desc": "放出去的錢收不收得回來。提列（預估）與沖銷（已發生）分開計分 —— 只看提列會被會計判斷主導，只看沖銷會慢一整個循環。逾放比與覆蓋率**不在這裡**：那兩個數字只在附註揭露，companyfacts 沒有，而本站不從 HTML 取數字。",
-          "items": [
-            {
-              "metric": "credit_cost_ttm",
-              "weight": 1.5,
-              "bad": 0.015,
-              "good": 0.001,
-              "metric_annual": "credit_cost"
-            },
-            {
-              "metric": "credit_cost_ttm_delta",
-              "weight": 1.0,
-              "bad": 0.008,
-              "good": -0.004,
-              "metric_annual": "credit_cost_delta"
-            },
-            {
-              "metric": "nco_rate_ttm",
-              "weight": 1.0,
-              "bad": 0.012,
-              "good": 0.001,
-              "metric_annual": "nco_rate"
-            }
-          ]
-        },
-        {
-          "id": "funding",
-          "zh": "資金與資本",
-          "weight": 0.2,
-          "desc": "撐不撐得住。權益對資產是最粗但最誠實的資本厚度 —— CET1 只在附註，拿不到就不假裝拿得到。存款年增率放在這一層，因為存款流失是銀行最早出現的壓力訊號。",
-          "items": [
-            {
-              "metric": "equity_to_assets",
-              "weight": 1.5,
-              "bad": 0.06,
-              "good": 0.13
-            },
-            {
-              "metric": "loan_to_deposit",
-              "weight": 1.0,
-              "bad": 1.1,
-              "good": 0.7
-            },
-            {
-              "metric": "deposit_yoy",
-              "weight": 0.8,
-              "bad": -0.05,
-              "good": 0.1
-            }
-          ]
-        },
-        {
-          "id": "shareholder",
-          "zh": "稀釋與股東權益",
-          "weight": 0.1,
-          "desc": "股東手上的那一份有沒有被稀釋。與通用模型同一組項目 —— 這一層不分產業。",
-          "items": [
-            {
-              "metric": "dilution_rate",
-              "weight": 1.2,
-              "bad": 0.06,
-              "good": -0.04
-            },
-            {
-              "metric": "sbc_to_revenue_ttm",
-              "weight": 0.8,
-              "bad": 0.15,
-              "good": 0.01,
-              "metric_annual": "sbc_to_revenue"
-            },
-            {
-              "metric": "equity_yoy",
-              "weight": 0.6,
-              "bad": -0.1,
-              "good": 0.25
-            }
-          ]
-        }
-      ],
-      "fallback_if_absent": {
-        "concepts": [
-          "deposits"
-        ],
-        "ratio_of_assets": {
-          "concept": "loans_gross",
-          "min": 0.25
-        },
-        "model": "asset_manager",
-        "note": "SIC 6200／6211（券商）與 6141／6159（消費金融）裡住著兩種生意，SIC 分不出來，但**事實分得出來**：有存款（高盛、摩根士丹利、嘉信、Raymond James、Stifel），或放款佔資產四分之一以上（Affirm 60.5%、Credit Acceptance 134.6%、OneMain 90.5%）—— 兩者之一成立就是放款業者，走銀行模型；兩者都不成立的（貝萊德、盈透、Robinhood、LPL）靠手續費與管理費過活，走資產管理模型。\n\n**兩個條件缺一不可**，兩個方向都被實測打過臉：只看存款的話，不吸收存款的放款業者（Affirm／CACC／OneMain）會被丟進資產管理模型，整個資產品質構面消失；只看放款的話，LPL 給招募顧問的過渡貸款（`NotesReceivableNet`）會把它留在銀行模型，覆蓋率 33% 拿不到總分。而放款**不能單獨當必要條件**：富國銀行只用維度揭露放款，companyfacts 抓不到，但它當然是銀行 —— 它有存款。\n\n門檻 25% 不是拍的：實測分得很開，不是放款業者的最高 19.7%（LPL），是放款業者的最低 46.5%（Raymond James），中間是空的。",
-        "absent_label": "存款",
-        "ratio_label": "放款"
+     "metric": "net_debt_to_ebitda_ttm",
+     "weight": 1.5,
+     "bad": 5.0,
+     "good": -0.5,
+     "invalid_if_nonpositive": [
+      "ebitda_ttm"
+     ],
+     "metric_annual": "net_debt_to_ebitda",
+     "invalid_if_nonpositive_annual": [
+      "ebitda"
+     ]
+    },
+    {
+     "metric": "interest_coverage_ttm",
+     "weight": 1.5,
+     "bad": 1.5,
+     "good": 30.0,
+     "metric_annual": "interest_coverage"
+    },
+    {
+     "metric": "current_ratio",
+     "weight": 0.8,
+     "bad": 0.7,
+     "good": 3.0
+    },
+    {
+     "metric": "quick_ratio",
+     "weight": 0.6,
+     "bad": 0.4,
+     "good": 2.0
+    },
+    {
+     "metric": "debt_to_equity",
+     "weight": 0.8,
+     "bad": 2.5,
+     "good": 0.1,
+     "invalid_if_nonpositive": [
+      "equity"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shareholder",
+   "zh": "稀釋與股東權益",
+   "weight": 0.1,
+   "desc": "股東手上的那一份有沒有被稀釋。**股東回饋總額刻意不進評分**——借錢回購也會讓那個數字變好看，那是把槓桿當優點。",
+   "items": [
+    {
+     "metric": "dilution_rate",
+     "weight": 1.2,
+     "bad": 0.06,
+     "good": -0.04
+    },
+    {
+     "metric": "sbc_to_revenue_ttm",
+     "weight": 0.8,
+     "bad": 0.15,
+     "good": 0.01,
+     "metric_annual": "sbc_to_revenue"
+    },
+    {
+     "metric": "equity_yoy",
+     "weight": 0.6,
+     "bad": -0.1,
+     "good": 0.25
+    }
+   ]
+  }
+ ],
+ "dimension_coverage_floor": 0.4,
+ "models": [
+  {
+   "id": "bank",
+   "zh": "銀行與券商",
+   "sic": [
+    [
+     6020,
+     6221
+    ]
+   ],
+   "desc": "存款機構、銀行控股公司、消費金融與券商。**與通用模型不共用任何構面**：銀行沒有毛利、沒有存貨、沒有流動比率（資產負債表不分流動），營運現金流隨交易性資產大幅擺盪。硬套通用模型的結果是 26 項裡只有 7 項算得出來、拿不到總分。這一套改問銀行自己的問題：利差夠不夠厚、成本控不控得住、放款的錢收不收得回來、資本與存款撐不撐得住。\n\n**上界收在 6221（券商與期貨商）**，6280–6289（投資顧問／資產管理）走 asset_manager。6211 裡兩種生意混在一起，所以另外用 `fallback_if_absent` 以事實分流（見該欄的說明）。",
+   "dimensions": [
+    {
+     "id": "profitability",
+     "zh": "獲利能力",
+     "weight": 0.25,
+     "desc": "利差的厚度與資產的產出效率。銀行的分母是總資產不是營收 —— 那才是它真正在運用的東西。",
+     "items": [
+      {
+       "metric": "nim_ttm",
+       "weight": 1.2,
+       "bad": 0.015,
+       "good": 0.045,
+       "metric_annual": "nim"
+      },
+      {
+       "metric": "roa_ttm",
+       "weight": 1.2,
+       "bad": 0.004,
+       "good": 0.018,
+       "metric_annual": "roa"
+      },
+      {
+       "metric": "roe_ttm",
+       "weight": 1.0,
+       "bad": 0.02,
+       "good": 0.2,
+       "metric_annual": "roe"
+      },
+      {
+       "metric": "bank_net_margin_ttm",
+       "weight": 0.6,
+       "bad": 0.0,
+       "good": 0.35,
+       "metric_annual": "bank_net_margin"
       }
+     ]
     },
     {
-      "id": "insurance",
-      "zh": "產險與其他保險",
-      "sic": [
-        [
-          6320,
-          6499
-        ]
-      ],
-      "desc": "產險、意外健康險、再保與保險經紀（**壽險另有一套**，見 life 模型）。保險公司有兩條獲利線：承保（收來的保費夠不夠賠）與投資（賠出去之前那筆錢賺多少）。通用模型兩條都問不到 —— 它問的是毛利率與存貨天數。",
-      "dimensions": [
-        {
-          "id": "underwriting",
-          "zh": "承保品質",
-          "weight": 0.3,
-          "desc": "綜合成本率低於 1 代表承保本身就賺錢，不必靠投資收益補。水準與年變化各給一項，與通用模型的營業利益率＋年變化同一種配法。**只用綜合成本率、不另外計損失率與費用率**：後兩者相加就是前者，分開計分等於把同一件事算兩次。",
-          "items": [
-            {
-              "metric": "combined_ratio_ttm",
-              "weight": 1.5,
-              "bad": 1.05,
-              "good": 0.85,
-              "metric_annual": "combined_ratio",
-              "peer4_only": true
-            },
-            {
-              "metric": "combined_ratio_ttm_delta",
-              "weight": 1.0,
-              "bad": 0.05,
-              "good": -0.05,
-              "metric_annual": "combined_ratio_delta",
-              "peer4_only": true
-            }
-          ]
-        },
-        {
-          "id": "profitability",
-          "zh": "獲利能力",
-          "weight": 0.25,
-          "desc": "兩條獲利線的總結果，加上投資組合自己的收益率。",
-          "items": [
-            {
-              "metric": "roe_ttm",
-              "weight": 1.2,
-              "bad": 0.02,
-              "good": 0.2,
-              "metric_annual": "roe"
-            },
-            {
-              "metric": "net_margin_ttm",
-              "weight": 1.0,
-              "bad": 0.0,
-              "good": 0.2,
-              "metric_annual": "net_margin"
-            },
-            {
-              "metric": "investment_yield_ttm",
-              "weight": 1.0,
-              "bad": 0.02,
-              "good": 0.06,
-              "metric_annual": "investment_yield"
-            },
-            {
-              "metric": "roa_ttm",
-              "weight": 0.6,
-              "bad": 0.004,
-              "good": 0.04,
-              "metric_annual": "roa"
-            }
-          ]
-        },
-        {
-          "id": "growth",
-          "zh": "成長",
-          "weight": 0.15,
-          "desc": "保費才是本業的量。總營收含投資損益，會被市場漲跌帶著走，所以權重低一階。",
-          "items": [
-            {
-              "metric": "premiums_yoy_ttm",
-              "weight": 1.5,
-              "bad": -0.05,
-              "good": 0.2,
-              "metric_annual": "premiums_yoy"
-            },
-            {
-              "metric": "revenue_yoy_ttm",
-              "weight": 1.0,
-              "bad": -0.1,
-              "good": 0.25,
-              "metric_annual": "revenue_yoy"
-            }
-          ]
-        },
-        {
-          "id": "solvency",
-          "zh": "財務結構",
-          "weight": 0.2,
-          "desc": "保險公司的負債主體是保單準備金，不是借款 —— 所以這裡看的是權益的厚度與借款的比重，不是流動比率（保險資產負債表不分流動）。法定資本適足率（RBC）只在監理申報，SEC 的 companyfacts 沒有。",
-          "items": [
-            {
-              "metric": "equity_to_assets",
-              "weight": 1.5,
-              "bad": 0.08,
-              "good": 0.35,
-              "peer4_only": true
-            },
-            {
-              "metric": "debt_to_equity",
-              "weight": 1.0,
-              "bad": 0.6,
-              "good": 0.05,
-              "invalid_if_nonpositive": [
-                "equity"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "shareholder",
-          "zh": "稀釋與股東權益",
-          "weight": 0.1,
-          "desc": "股東手上的那一份有沒有被稀釋。與通用模型同一組項目 —— 這一層不分產業。",
-          "items": [
-            {
-              "metric": "dilution_rate",
-              "weight": 1.2,
-              "bad": 0.06,
-              "good": -0.04
-            },
-            {
-              "metric": "sbc_to_revenue_ttm",
-              "weight": 0.8,
-              "bad": 0.15,
-              "good": 0.01,
-              "metric_annual": "sbc_to_revenue"
-            },
-            {
-              "metric": "equity_yoy",
-              "weight": 0.6,
-              "bad": -0.1,
-              "good": 0.25
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "reit",
-      "zh": "不動產與 REIT",
-      "sic": [
-        [
-          6500,
-          6599
-        ],
-        [
-          6798,
-          6798
-        ]
-      ],
-      "desc": "REIT 依法要把九成以上的應稅所得配出去，所以它的體質問題不是「賺不賺錢」而是「配得出來的現金夠不夠、槓桿撐不撐得住」。通用模型會把它的毛利率、存貨天數、現金轉換循環全部判成缺資料 —— 那些欄位對租金收入沒有意義。淨利被折舊啃掉也讓淨利率失真，所以這裡以營運現金流為主軸。\n\n**這一套只給權益型 REIT。**抵押型（AGNC／NLY／ARR…）沒有物業與租金，走 `fallback_if_absent` 換成「抵押型 REIT」模型，見該欄的說明。",
-      "dimensions": [
-        {
-          "id": "cashflow",
-          "zh": "獲利與現金流",
-          "weight": 0.3,
-          "desc": "不動產按成本減折舊入帳，折舊是不花錢的費用 —— 淨利會系統性低估、現金流才是真的。**這裡不算 FFO**：FFO 要扣掉處分不動產利得，而那個科目十家只有兩三家用無維度標籤申報，算出來的 FFO 會在有處分的那一年系統性偏高。寧可用抓得到的營運現金流。",
-          "items": [
-            {
-              "metric": "ocf_margin_ttm",
-              "weight": 1.5,
-              "bad": 0.15,
-              "good": 0.55,
-              "metric_annual": "ocf_margin"
-            },
-            {
-              "metric": "ocf_to_net_income_ttm",
-              "weight": 1.0,
-              "bad": 1.0,
-              "good": 3.0,
-              "metric_annual": "ocf_to_net_income",
-              "invalid_if_nonpositive": [
-                "net_income_ttm"
-              ],
-              "invalid_if_nonpositive_annual": [
-                "net_income"
-              ]
-            },
-            {
-              "metric": "ebitda_margin_ttm",
-              "weight": 1.2,
-              "bad": 0.25,
-              "good": 0.65,
-              "metric_annual": "ebitda_margin"
-            },
-            {
-              "metric": "net_margin_ttm",
-              "weight": 0.6,
-              "bad": 0.0,
-              "good": 0.35,
-              "metric_annual": "net_margin"
-            }
-          ]
-        },
-        {
-          "id": "solvency",
-          "zh": "財務結構",
-          "weight": 0.3,
-          "desc": "權重與獲利同高 —— REIT 是槓桿載具，利率一動就先打在這一層。負債對資產與負債權益比兩個都留：帳面權益會被折舊啃掉，只看負債權益比會把老資產的 REIT 一律判成高槓桿。",
-          "items": [
-            {
-              "metric": "net_debt_to_ebitda_ttm",
-              "weight": 1.5,
-              "bad": 8.0,
-              "good": 3.0,
-              "metric_annual": "net_debt_to_ebitda",
-              "invalid_if_nonpositive": [
-                "ebitda_ttm"
-              ],
-              "invalid_if_nonpositive_annual": [
-                "ebitda"
-              ]
-            },
-            {
-              "metric": "debt_to_assets",
-              "weight": 1.2,
-              "bad": 0.6,
-              "good": 0.25
-            },
-            {
-              "metric": "interest_coverage_ttm",
-              "weight": 1.0,
-              "bad": 1.5,
-              "good": 6.0,
-              "metric_annual": "interest_coverage"
-            },
-            {
-              "metric": "debt_to_equity",
-              "weight": 0.8,
-              "bad": 2.0,
-              "good": 0.5,
-              "invalid_if_nonpositive": [
-                "equity"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "growth",
-          "zh": "成長",
-          "weight": 0.2,
-          "desc": "租金收入的成長與加速度。REIT 的成長來自收購、開發與續約調漲，三者都會落在營收上。",
-          "items": [
-            {
-              "metric": "revenue_yoy_ttm",
-              "weight": 1.5,
-              "bad": -0.05,
-              "good": 0.15,
-              "metric_annual": "revenue_yoy"
-            },
-            {
-              "metric": "revenue_accel_ttm",
-              "weight": 0.8,
-              "bad": -0.1,
-              "good": 0.05,
-              "metric_annual": "revenue_accel_annual"
-            }
-          ]
-        },
-        {
-          "id": "payout",
-          "zh": "配息與股東權益",
-          "weight": 0.2,
-          "desc": "配息對營運現金流是 REIT 版的「賺的錢夠不夠配」。超過 1 代表配息得靠舉債或增資撐 —— 那也正是 REIT 稀釋率天生偏高的原因，所以稀釋率的錨點要跟同業比，不要跟軟體公司比。",
-          "items": [
-            {
-              "metric": "dividend_to_ocf_ttm",
-              "weight": 1.2,
-              "bad": 1.0,
-              "good": 0.55,
-              "metric_annual": "dividend_to_ocf"
-            },
-            {
-              "metric": "dilution_rate",
-              "weight": 1.0,
-              "bad": 0.1,
-              "good": -0.02
-            },
-            {
-              "metric": "equity_yoy",
-              "weight": 0.8,
-              "bad": -0.1,
-              "good": 0.15
-            },
-            {
-              "metric": "sbc_to_revenue_ttm",
-              "weight": 0.6,
-              "bad": 0.06,
-              "good": 0.005,
-              "metric_annual": "sbc_to_revenue"
-            }
-          ]
-        }
-      ],
-      "fallback_if_absent": {
-        "concepts": [
-          "real_estate",
-          "ppe_net"
-        ],
-        "model": "mortgage_reit",
-        "note": "SIC 6798 同時裝著兩門生意：收租金的權益型 REIT，與槓桿買 MBS 的抵押型 REIT。SIC 分不出來，但**事實分得出來** —— 投資性不動產這個科目整段期間都查無資料的，那不是 REIT 的房子，是一支債券組合。\n\n實測 16 家權益型（O／PLD／WELL／SPG／AVB／EQR／KIM／REG…）全部申報 `RealEstateInvestmentPropertyNet`，AGNC 與 NLY 一個都沒有。RITM 與 STWD 有（它們真的持有物業與營運公司），留在權益型模型是對的 —— 混合型不硬切，判準只問一件事實。\n\n分流前 12 家實測覆蓋率 0–56%（AGNC 23.6%、PMT 0.0%），全部卡在「無法評分」或靠兩個構面硬撐。\n\n**不動產廠房設備也要算進判準**，只問投資性不動產會誤判基礎設施型 REIT：美國電塔（AMT）的塔台、冠城國際（CCI）的基地台、Equinix 的資料中心都掛在 `PropertyPlantAndEquipmentNet`，不是 `RealEstateInvestmentPropertyNet` —— AMT 實測被丟進抵押型模型、覆蓋率 90.0% → 73.0%，而它當然收租金。兩個科目都查無資料的才是抵押型：AGNC 與 NLY 兩個都沒有。",
-        "absent_label": "投資性不動產與不動產廠房設備"
+     "id": "efficiency",
+     "zh": "營運效率與收入結構",
+     "weight": 0.2,
+     "desc": "效率比是銀行業的頭號經營指標：每賺一塊錢營收要花掉多少。非利息收入佔比放在同一層，因為它講的是同一件事的另一面 —— 手續費收入不吃資本、也不隨利率循環擺盪。",
+     "items": [
+      {
+       "metric": "efficiency_ratio_ttm",
+       "weight": 1.5,
+       "bad": 0.75,
+       "good": 0.45,
+       "metric_annual": "efficiency_ratio"
+      },
+      {
+       "metric": "efficiency_ratio_ttm_delta",
+       "weight": 1.0,
+       "bad": 0.05,
+       "good": -0.05,
+       "metric_annual": "efficiency_ratio_delta"
+      },
+      {
+       "metric": "fee_income_share_ttm",
+       "weight": 0.6,
+       "bad": 0.1,
+       "good": 0.45,
+       "metric_annual": "fee_income_share"
       }
+     ]
     },
     {
-      "id": "life",
-      "zh": "壽險與年金",
-      "sic": [
-        [
-          6310,
-          6319
-        ]
-      ],
-      "desc": "壽險與年金。與產險分開的理由是兩個結構性失真：①「已賺保費」不含投資型保單的躉繳金（那是存款性質），但「給付」含利息給付 → 綜合成本率結構性大於 1，實測 PRU 1.87、MET 1.47，拿產險的尺量一律 0 分；②分離帳戶資產（MET 1,570 億、PRU 1,990 億）掛在資產負債表上但風險歸保戶，分母含它會讓壽險的資本厚度看起來永遠只有 3～4%。同業錨點救不了這件事：SIC 6311 的樣本不足 30 家，退到 2 位大類 g63 就跟產險混在一起 —— **2 位大類在這裡不是同業，是別人**。\n\n**絕對錨點不是拍腦袋的**：這一套的 bad／good 取自 DERA 2025Q3–2026Q2 裡 SIC 6311 自己的 p10／p90（各項 12–21 家）。樣本不足 30 家、進不了 config/peer_stats.json，所以寫在這裡並逐項註明筆數 —— 少於 30 家的分布不該被當成「同業錨點」那樣信任，但它仍然遠比跨產業的絕對值接近事實：實測 PRU 的給付率 1.13 在壽險裡是中段，用產險的尺量卻是 0 分。",
-      "dimensions": [
-        {
-          "id": "underwriting",
-          "zh": "給付與承保",
-          "weight": 0.25,
-          "desc": "給付與理賠佔已賺保費多少。壽險的水準本來就比產險高，所以只跟 4 位 SIC 的同業比。",
-          "items": [
-            {
-              "metric": "benefit_ratio_ttm",
-              "weight": 1.5,
-              "bad": 1.4016,
-              "good": 0.9737,
-              "metric_annual": "benefit_ratio",
-              "peer4_only": true,
-              "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（21 家）"
-            },
-            {
-              "metric": "benefit_ratio_ttm_delta",
-              "weight": 1.0,
-              "bad": 0.05,
-              "good": -0.05,
-              "metric_annual": "benefit_ratio_delta",
-              "peer4_only": true
-            }
-          ]
-        },
-        {
-          "id": "profitability",
-          "zh": "獲利能力",
-          "weight": 0.3,
-          "desc": "壽險的獲利主體是利差（投資收益率減保單成本），所以投資收益率的權重與 ROE 同高。",
-          "items": [
-            {
-              "metric": "roe_ttm",
-              "weight": 1.2,
-              "bad": 0.0471,
-              "good": 0.1228,
-              "metric_annual": "roe",
-              "peer4_only": true,
-              "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（21 家）"
-            },
-            {
-              "metric": "investment_yield_ttm",
-              "weight": 1.2,
-              "bad": 0.0446,
-              "good": 0.0549,
-              "metric_annual": "investment_yield",
-              "peer4_only": true,
-              "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（16 家）"
-            },
-            {
-              "metric": "net_margin_ttm",
-              "weight": 1.0,
-              "bad": 0.0438,
-              "good": 0.1056,
-              "metric_annual": "net_margin",
-              "peer4_only": true,
-              "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（21 家）"
-            },
-            {
-              "metric": "roa_ttm",
-              "weight": 0.6,
-              "bad": 0.0023,
-              "good": 0.0073,
-              "metric_annual": "roa",
-              "peer4_only": true,
-              "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（21 家）"
-            }
-          ]
-        },
-        {
-          "id": "growth",
-          "zh": "成長",
-          "weight": 0.15,
-          "desc": "保費是本業的量；總營收含投資損益，會被市場漲跌帶著走，所以權重低一階。",
-          "items": [
-            {
-              "metric": "premiums_yoy_ttm",
-              "weight": 1.5,
-              "bad": -0.0867,
-              "good": 0.1148,
-              "metric_annual": "premiums_yoy",
-              "peer4_only": true,
-              "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（14 家）"
-            },
-            {
-              "metric": "revenue_yoy_ttm",
-              "weight": 1.0,
-              "bad": -0.0043,
-              "good": 0.1043,
-              "metric_annual": "revenue_yoy",
-              "peer4_only": true,
-              "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（21 家）"
-            }
-          ]
-        },
-        {
-          "id": "capital",
-          "zh": "資本厚度",
-          "weight": 0.2,
-          "desc": "分母扣掉分離帳戶資產 —— 那筆錢的風險由保戶承擔，算進去等於拿別人的錢當自己的槓桿。法定的 RBC 資本適足率只在監理申報，SEC 的 companyfacts 沒有。",
-          "items": [
-            {
-              "metric": "equity_to_general_assets",
-              "weight": 1.5,
-              "bad": 0.047,
-              "good": 0.0778,
-              "peer4_only": true,
-              "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（19 家）"
-            },
-            {
-              "metric": "debt_to_equity",
-              "weight": 1.0,
-              "bad": 0.7203,
-              "good": 0.3015,
-              "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 63 大類分布 p10／p90（6311 自己不足 12 家）",
-              "invalid_if_nonpositive": [
-                "equity"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "shareholder",
-          "zh": "稀釋與股東權益",
-          "weight": 0.1,
-          "desc": "股東手上的那一份有沒有被稀釋。與通用模型同一組項目 —— 這一層不分產業。",
-          "items": [
-            {
-              "metric": "dilution_rate",
-              "weight": 1.2,
-              "bad": 0.06,
-              "good": -0.04
-            },
-            {
-              "metric": "sbc_to_revenue_ttm",
-              "weight": 0.8,
-              "bad": 0.15,
-              "good": 0.01,
-              "metric_annual": "sbc_to_revenue"
-            },
-            {
-              "metric": "equity_yoy",
-              "weight": 0.6,
-              "bad": -0.1,
-              "good": 0.25
-            }
-          ]
-        }
-      ]
+     "id": "asset_quality",
+     "zh": "資產品質",
+     "weight": 0.25,
+     "desc": "放出去的錢收不收得回來。提列（預估）與沖銷（已發生）分開計分 —— 只看提列會被會計判斷主導，只看沖銷會慢一整個循環。逾放比與覆蓋率**不在這裡**：那兩個數字只在附註揭露，companyfacts 沒有，而本站不從 HTML 取數字。",
+     "items": [
+      {
+       "metric": "credit_cost_ttm",
+       "weight": 1.5,
+       "bad": 0.015,
+       "good": 0.001,
+       "metric_annual": "credit_cost"
+      },
+      {
+       "metric": "credit_cost_ttm_delta",
+       "weight": 1.0,
+       "bad": 0.008,
+       "good": -0.004,
+       "metric_annual": "credit_cost_delta"
+      },
+      {
+       "metric": "nco_rate_ttm",
+       "weight": 1.0,
+       "bad": 0.012,
+       "good": 0.001,
+       "metric_annual": "nco_rate"
+      }
+     ]
     },
     {
-      "id": "asset_manager",
-      "zh": "資產管理與經紀",
-      "sic": [
-        [
-          6280,
-          6289
-        ]
-      ],
-      "desc": "投資顧問、共同基金公司、私募與另類資產管理，以及**不吸收存款的券商**（貝萊德、Robinhood、盈透、LPL 都在這裡）。通用模型對它們只有 7～9 項算得出來（沒有存貨、沒有毛利、資本支出接近零），銀行模型更糟 —— 沒有存款也沒有放款。這門生意只有三個問題：收多少管理費、養人花多少錢、自有資本與槓桿撐不撐得住。\n\n**沒有 AUM。**`AssetsUnderManagementCarryingAmount` 十家實測只有一家申報無維度的值，其餘都在 MD&A 表格或帶維度的附註裡，而數字不得從 HTML 取。所以這一套沒有 AUM 成長、也沒有費率（營收 ÷ AUM）—— 那是誠實的缺口。\n\n**私募與另類（BX／APO／KKR）的淨利與營運現金流會被合併基金的未實現損益主導**，波動遠大於傳統資產管理公司。同業錨點（SIC 6282）把兩者放在一起，所以這一頁的分數在它們身上要更保守地看。",
-      "dimensions": [
-        {
-          "id": "profitability",
-          "zh": "獲利能力",
-          "weight": 0.35,
-          "desc": "管理費是很好的生意：邊際成本接近零，所以利潤率本身就是規模與定價權的直接讀數。營業利益率對私募公司常常抓不到（它們不申報 OperatingIncomeLoss），那一項會自己消失、不影響其他三項。",
-          "items": [
-            {
-              "metric": "net_margin_ttm",
-              "weight": 1.5,
-              "bad": 0.05,
-              "good": 0.3,
-              "metric_annual": "net_margin"
-            },
-            {
-              "metric": "operating_margin_ttm",
-              "weight": 1.2,
-              "bad": 0.1,
-              "good": 0.4,
-              "metric_annual": "operating_margin"
-            },
-            {
-              "metric": "roe_ttm",
-              "weight": 1.2,
-              "bad": 0.04,
-              "good": 0.25,
-              "metric_annual": "roe"
-            },
-            {
-              "metric": "roa_ttm",
-              "weight": 0.8,
-              "bad": 0.01,
-              "good": 0.08,
-              "metric_annual": "roa"
-            }
-          ]
-        },
-        {
-          "id": "cost",
-          "zh": "成本結構",
-          "weight": 0.15,
-          "desc": "薪酬佔比（業內就叫 comp ratio）是這一行唯一真正的成本槓桿。營業費用率與它是包含關係，兩項都留是因為半數公司抓不到薪酬 —— 少了墊底的那一項，這個構面會在一半的公司身上整個消失。",
-          "items": [
-            {
-              "metric": "comp_ratio_ttm",
-              "weight": 1.5,
-              "bad": 0.55,
-              "good": 0.3,
-              "metric_annual": "comp_ratio"
-            },
-            {
-              "metric": "opex_ratio_ttm",
-              "weight": 1.0,
-              "bad": 0.85,
-              "good": 0.55,
-              "metric_annual": "opex_ratio"
-            }
-          ]
-        },
-        {
-          "id": "growth",
-          "zh": "成長",
-          "weight": 0.2,
-          "desc": "營收成長＝AUM 成長 × 費率變化。拿不到 AUM 的情況下，營收是唯一看得到的量。",
-          "items": [
-            {
-              "metric": "revenue_yoy_ttm",
-              "weight": 1.5,
-              "bad": -0.1,
-              "good": 0.25,
-              "metric_annual": "revenue_yoy"
-            },
-            {
-              "metric": "revenue_accel_ttm",
-              "weight": 0.8,
-              "bad": -0.15,
-              "good": 0.08,
-              "metric_annual": "revenue_accel_annual"
-            }
-          ]
-        },
-        {
-          "id": "solvency",
-          "zh": "財務結構",
-          "weight": 0.15,
-          "desc": "合併進來的基金會把資產負債表撐得很大，而那些資產不是股東的。權益對資產因此在另類資產管理公司身上偏低，要跟同業比不要跟傳統資產管理比。",
-          "items": [
-            {
-              "metric": "equity_to_assets",
-              "weight": 1.5,
-              "bad": 0.1,
-              "good": 0.5
-            },
-            {
-              "metric": "debt_to_equity",
-              "weight": 1.0,
-              "bad": 1.2,
-              "good": 0.1,
-              "invalid_if_nonpositive": [
-                "equity"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "quality",
-          "zh": "現金含量與稀釋",
-          "weight": 0.15,
-          "desc": "管理費收得到現金才算數。私募公司的營運現金流會被合併基金的買賣主導（淨利為正但現金流為負是常態），所以這一項對它們的意義比對傳統資產管理公司低 —— 錨點取自同業分布，不是跨產業的絕對值。",
-          "items": [
-            {
-              "metric": "ocf_to_net_income_ttm",
-              "weight": 1.2,
-              "bad": 0.3,
-              "good": 1.5,
-              "metric_annual": "ocf_to_net_income",
-              "invalid_if_nonpositive": [
-                "net_income_ttm"
-              ],
-              "invalid_if_nonpositive_annual": [
-                "net_income"
-              ]
-            },
-            {
-              "metric": "dilution_rate",
-              "weight": 1.0,
-              "bad": 0.06,
-              "good": -0.04
-            },
-            {
-              "metric": "sbc_to_revenue_ttm",
-              "weight": 0.8,
-              "bad": 0.12,
-              "good": 0.02,
-              "metric_annual": "sbc_to_revenue"
-            },
-            {
-              "metric": "equity_yoy",
-              "weight": 0.6,
-              "bad": -0.1,
-              "good": 0.2
-            }
-          ]
-        }
-      ]
+     "id": "funding",
+     "zh": "資金與資本",
+     "weight": 0.2,
+     "desc": "撐不撐得住。權益對資產是最粗但最誠實的資本厚度 —— CET1 只在附註，拿不到就不假裝拿得到。存款年增率放在這一層，因為存款流失是銀行最早出現的壓力訊號。",
+     "items": [
+      {
+       "metric": "equity_to_assets",
+       "weight": 1.5,
+       "bad": 0.06,
+       "good": 0.13
+      },
+      {
+       "metric": "loan_to_deposit",
+       "weight": 1.0,
+       "bad": 1.1,
+       "good": 0.7
+      },
+      {
+       "metric": "deposit_yoy",
+       "weight": 0.8,
+       "bad": -0.05,
+       "good": 0.1
+      }
+     ]
     },
     {
-      "id": "mortgage_reit",
-      "zh": "抵押型 REIT",
-      "desc": "槓桿持有不動產抵押貸款與 MBS 的 REIT。它不收租金、沒有物業、沒有出租率，也沒有 FFO —— 本質是一支用附買回融資的槓桿債券組合。SIC 6798 把它和收租金的權益型 REIT 裝在同一格，用權益型模型去套，14 個計分項只有 4 項算得出來（AGNC 實測覆蓋率 23.6%），整頁落在「無法評分」。\n\n這門生意只有三個問題：**利差賺多少、槓桿多高而帳面價值守不守得住、配息撐不撐得住**。所以這一套只有三個構面，不是刪減版的權益型模型。\n\n**錨點一律用抵押型自己的分布**（見逐項的說明），不查 SIC 6798 的同業表：權益對資產實測權益型 35–45%、抵押型中位 11.8%，共用一把尺的話抵押型一律 0 分。\n\n**沒有帳面價值以外的資產品質指標。**逾放比、貸款成本、CECL 準備、避險部位的名目金額全部只在附註表格裡，而數字不得從 HTML 取。這一套看不到組合品質，只看得到品質變壞之後在帳面價值上留下的痕跡。",
-      "dimensions": [
-        {
-          "id": "spread",
-          "zh": "利差與成本",
-          "weight": 0.4,
-          "desc": "資產端收益率減資金成本，再扣掉管理這門生意的費用。抵押型 REIT 沒有營收（利息收入本身就是淨額），所以這一層的分母全部用資產或權益，不用營收。",
-          "items": [
-            {
-              "metric": "net_interest_to_assets_ttm",
-              "weight": 1.5,
-              "bad": 0.0016,
-              "good": 0.0204,
-              "metric_annual": "net_interest_to_assets",
-              "absolute_only": true,
-              "anchor_note": "淨利息收入 ÷ 平均總資產。錨點取自 11 家抵押型 REIT（AGNC／NLY／ARR／AOMR／CIM／DX／EFC／IVR／LFT／ORC／PMT／TWO 中資料齊全者）最近一個會計年度的 p10／p90。不足 30 家所以進不了 peer_stats.json，也不能用 SIC 6798 的同業分布 —— 那一桶被權益型 REIT 佔滿。 p10 −0.6%、中位 1.10%、p90 2.04%。\n**錨點怎麼定的**：n=11 直接取 p10／p90 會讓中位數落在 65–86 分 —— 小樣本的兩端被極端值主導（稀釋率 p90 是 97.6%，DX 一年股數接近翻倍）。改成**以中位數為中心、半寬取較窄的那一側** min(中位−p10, p90−中位)，中位數因此固定映射到 50 分。這一步是必要的：評級級距（強健／穩健／中性…）是全市場總分的分位數、六套模型共用，某一套的分數整體偏高的話，「穩健」在這一頁與在別的頁就不是同一件事。"
-            },
-            {
-              "metric": "roe_ttm",
-              "weight": 1.2,
-              "bad": 0.003,
-              "good": 0.177,
-              "metric_annual": "roe",
-              "absolute_only": true,
-              "anchor_note": "錨點取自 11 家抵押型 REIT（AGNC／NLY／ARR／AOMR／CIM／DX／EFC／IVR／LFT／ORC／PMT／TWO 中資料齊全者）最近一個會計年度的 p10／p90。不足 30 家所以進不了 peer_stats.json，也不能用 SIC 6798 的同業分布 —— 那一桶被權益型 REIT 佔滿。 p10 −18.8%、中位 9.0%、p90 17.7%。**淨利含 MBS 與衍生品的未實現評價**，所以同一家的 ROE 逐年會大幅擺盪 —— 這一項讀的是「這一年賺到還是賠掉」，不是穩定的獲利能力。\n**錨點怎麼定的**：n=11 直接取 p10／p90 會讓中位數落在 65–86 分 —— 小樣本的兩端被極端值主導（稀釋率 p90 是 97.6%，DX 一年股數接近翻倍）。改成**以中位數為中心、半寬取較窄的那一側** min(中位−p10, p90−中位)，中位數因此固定映射到 50 分。這一步是必要的：評級級距（強健／穩健／中性…）是全市場總分的分位數、六套模型共用，某一套的分數整體偏高的話，「穩健」在這一頁與在別的頁就不是同一件事。"
-            },
-            {
-              "metric": "opex_to_equity_ttm",
-              "weight": 1.0,
-              "bad": 0.0793,
-              "good": 0.0097,
-              "metric_annual": "opex_to_equity",
-              "absolute_only": true,
-              "anchor_note": "營業費用 ÷ 平均權益，業內比較外部管理與內部管理成本的標準做法。錨點取自 11 家抵押型 REIT（AGNC／NLY／ARR／AOMR／CIM／DX／EFC／IVR／LFT／ORC／PMT／TWO 中資料齊全者）最近一個會計年度的 p10／p90。不足 30 家所以進不了 peer_stats.json，也不能用 SIC 6798 的同業分布 —— 那一桶被權益型 REIT 佔滿。（其中 8 家申報營業費用合計）p10 1.0%、中位 4.5%、p90 14.2%。\n**錨點怎麼定的**：n=11 直接取 p10／p90 會讓中位數落在 65–86 分 —— 小樣本的兩端被極端值主導（稀釋率 p90 是 97.6%，DX 一年股數接近翻倍）。改成**以中位數為中心、半寬取較窄的那一側** min(中位−p10, p90−中位)，中位數因此固定映射到 50 分。這一步是必要的：評級級距（強健／穩健／中性…）是全市場總分的分位數、六套模型共用，某一套的分數整體偏高的話，「穩健」在這一頁與在別的頁就不是同一件事。"
-            }
-          ]
-        },
-        {
-          "id": "capital",
-          "zh": "槓桿與帳面價值",
-          "weight": 0.35,
-          "desc": "槓桿是這門生意的全部：權益對資產十分之一，意味著資產端 1% 的評價變動就是權益的 10%。而槓桿有沒有失控，最後都寫在每股帳面價值上。",
-          "items": [
-            {
-              "metric": "equity_to_assets",
-              "weight": 1.5,
-              "bad": 0.0894,
-              "good": 0.1466,
-              "absolute_only": true,
-              "anchor_note": "錨點取自 11 家抵押型 REIT（AGNC／NLY／ARR／AOMR／CIM／DX／EFC／IVR／LFT／ORC／PMT／TWO 中資料齊全者）最近一個會計年度的 p10／p90。不足 30 家所以進不了 peer_stats.json，也不能用 SIC 6798 的同業分布 —— 那一桶被權益型 REIT 佔滿。 p10 8.9%、中位 11.8%、p90 17.7%（權益型 REIT 是 35–45%，所以這一項絕對不能用 SIC 6798 的同業錨點）。\n**錨點怎麼定的**：n=11 直接取 p10／p90 會讓中位數落在 65–86 分 —— 小樣本的兩端被極端值主導（稀釋率 p90 是 97.6%，DX 一年股數接近翻倍）。改成**以中位數為中心、半寬取較窄的那一側** min(中位−p10, p90−中位)，中位數因此固定映射到 50 分。這一步是必要的：評級級距（強健／穩健／中性…）是全市場總分的分位數、六套模型共用，某一套的分數整體偏高的話，「穩健」在這一頁與在別的頁就不是同一件事。"
-            },
-            {
-              "metric": "bvps_yoy",
-              "weight": 1.5,
-              "bad": -0.1765,
-              "good": 0.0535,
-              "absolute_only": true,
-              "anchor_note": "錨點取自 11 家抵押型 REIT（AGNC／NLY／ARR／AOMR／CIM／DX／EFC／IVR／LFT／ORC／PMT／TWO 中資料齊全者）最近一個會計年度的 p10／p90。不足 30 家所以進不了 peer_stats.json，也不能用 SIC 6798 的同業分布 —— 那一桶被權益型 REIT 佔滿。 p10 −32.0%、**中位 −6.2%**、p90 +5.4% —— 抵押型 REIT 的帳面價值本來就在流失，這是它們的常態而不是異常。增發在帳面價值之上還是之下也直接算進這一格，所以稀釋的後果不會被算兩次。\n**錨點怎麼定的**：n=11 直接取 p10／p90 會讓中位數落在 65–86 分 —— 小樣本的兩端被極端值主導（稀釋率 p90 是 97.6%，DX 一年股數接近翻倍）。改成**以中位數為中心、半寬取較窄的那一側** min(中位−p10, p90−中位)，中位數因此固定映射到 50 分。這一步是必要的：評級級距（強健／穩健／中性…）是全市場總分的分位數、六套模型共用，某一套的分數整體偏高的話，「穩健」在這一頁與在別的頁就不是同一件事。"
-            }
-          ]
-        },
-        {
-          "id": "payout",
-          "zh": "配息可持續性",
-          "weight": 0.25,
-          "desc": "REIT 依法要分配 90% 的應稅所得，所以問題不是「配不配」而是「配的錢從哪來」。配息長期大於現金流的公司是在發還本金。",
-          "items": [
-            {
-              "metric": "dividend_to_ocf_ttm",
-              "weight": 1.2,
-              "bad": 2.69,
-              "good": 1.0,
-              "metric_annual": "dividend_to_ocf",
-              "absolute_only": true,
-              "invalid_if_nonpositive": [
-                "cfo_ttm"
-              ],
-              "invalid_if_nonpositive_annual": [
-                "cfo"
-              ],
-              "anchor_note": "錨點取自 11 家抵押型 REIT（AGNC／NLY／ARR／AOMR／CIM／DX／EFC／IVR／LFT／ORC／PMT／TWO 中資料齊全者）最近一個會計年度的 p10／p90。不足 30 家所以進不了 peer_stats.json，也不能用 SIC 6798 的同業分布 —— 那一桶被權益型 REIT 佔滿。 p90 2.69、中位 0.90。good 取 1.00（配息剛好由營運現金流支應）而不是取 p10 —— p10 是負的，那不是「配得少很好」，是營運現金流為負。\n**營運現金流為負時整格作廢**：抵押型 REIT 買進貸款走的是營運活動，實測 11 家有 4 家（CIM／EFC／PMT／AOMR）的年度營運現金流是負的，不擋的話股利除以負數會得到一個漂亮的負值。\n**這一項刻意在 good 端飽和**：配息由營運現金流完全支應（≤1.0）就是「撐得住」，配 0.3 倍並不比配 0.9 倍更好，所以不給額外分數。與連續型的品質指標不同，這裡的飽和是語意上正確的。"
-            },
-            {
-              "metric": "dilution_rate",
-              "weight": 1.0,
-              "bad": 0.282,
-              "good": 0.0024,
-              "absolute_only": true,
-              "anchor_note": "稀釋率實測 9 家 p10 0.2%、中位 14.2%、p90 97.6%（DX 一年股數接近翻倍）。抵押型 REIT 靠持續增發成長，稀釋本身不等於傷害 —— 傷不傷害看的是增發價相對帳面價值，那一件事由每股帳面價值年變化承接。這一項只量「規模」。\n**錨點怎麼定的**：n=11 直接取 p10／p90 會讓中位數落在 65–86 分 —— 小樣本的兩端被極端值主導（稀釋率 p90 是 97.6%，DX 一年股數接近翻倍）。改成**以中位數為中心、半寬取較窄的那一側** min(中位−p10, p90−中位)，中位數因此固定映射到 50 分。這一步是必要的：評級級距（強健／穩健／中性…）是全市場總分的分位數、六套模型共用，某一套的分數整體偏高的話，「穩健」在這一頁與在別的頁就不是同一件事。"
-            }
-          ]
-        }
-      ]
+     "id": "shareholder",
+     "zh": "稀釋與股東權益",
+     "weight": 0.1,
+     "desc": "股東手上的那一份有沒有被稀釋。與通用模型同一組項目 —— 這一層不分產業。",
+     "items": [
+      {
+       "metric": "dilution_rate",
+       "weight": 1.2,
+       "bad": 0.06,
+       "good": -0.04
+      },
+      {
+       "metric": "sbc_to_revenue_ttm",
+       "weight": 0.8,
+       "bad": 0.15,
+       "good": 0.01,
+       "metric_annual": "sbc_to_revenue"
+      },
+      {
+       "metric": "equity_yoy",
+       "weight": 0.6,
+       "bad": -0.1,
+       "good": 0.25
+      }
+     ]
     }
-  ],
-  "models_note": "**產業模型：同一套公式、不同的構面。**銀行沒有毛利與存貨、保險的本業是承保與投資、REIT 的淨利被折舊啃掉 —— 拿通用模型的 26 個計分項去套，這三類公司只有 7～8 項算得出來，覆蓋率 32～35%，全部落在「無法評分」。那不是它們體質差，是我們拿錯了尺。\n\n選哪一套**只看 SIC 區間**（`sic`），沒對到就用通用模型（頂層的 `dimensions`）。頁面固定寫出用的是哪一套，因為換模型等於換錨點與換構面 —— 同一家公司的分數在兩套模型下不可比，讀者必須看得到自己在看哪一套。\n\n**評級級距與覆蓋率門檻三套共用**，這是刻意的：級距是全市場總分的分位數，每套模型各訂一組的話，「穩健」在銀行頁與在軟體頁會是兩件事，而讀者只會看到同兩個字。\n\n**沒有做的事**：逾放比、覆蓋率、CET1、RBC 資本適足率、FFO／AFFO、同店 NOI、出租率。這些數字全部只在年報附註的表格或監理申報裡，companyfacts 拿不到，而本站的硬規則是數字一律不從 HTML 取。拿不到就留白，不用近似值冒充。",
-  "counted_weight_floor": 0.6
+   ],
+   "fallback_if_absent": {
+    "concepts": [
+     "deposits"
+    ],
+    "ratio_of_assets": {
+     "concept": "loans_gross",
+     "min": 0.25
+    },
+    "model": "asset_manager",
+    "note": "SIC 6200／6211（券商）與 6141／6159（消費金融）裡住著兩種生意，SIC 分不出來，但**事實分得出來**：有存款（高盛、摩根士丹利、嘉信、Raymond James、Stifel），或放款佔資產四分之一以上（Affirm 60.5%、Credit Acceptance 134.6%、OneMain 90.5%）—— 兩者之一成立就是放款業者，走銀行模型；兩者都不成立的（貝萊德、盈透、Robinhood、LPL）靠手續費與管理費過活，走資產管理模型。\n\n**兩個條件缺一不可**，兩個方向都被實測打過臉：只看存款的話，不吸收存款的放款業者（Affirm／CACC／OneMain）會被丟進資產管理模型，整個資產品質構面消失；只看放款的話，LPL 給招募顧問的過渡貸款（`NotesReceivableNet`）會把它留在銀行模型，覆蓋率 33% 拿不到總分。而放款**不能單獨當必要條件**：富國銀行只用維度揭露放款，companyfacts 抓不到，但它當然是銀行 —— 它有存款。\n\n門檻 25% 不是拍的：實測分得很開，不是放款業者的最高 19.7%（LPL），是放款業者的最低 46.5%（Raymond James），中間是空的。",
+    "absent_label": "存款",
+    "ratio_label": "放款"
+   }
+  },
+  {
+   "id": "insurance",
+   "zh": "產險與其他保險",
+   "sic": [
+    [
+     6320,
+     6499
+    ]
+   ],
+   "desc": "產險、意外健康險、再保與保險經紀（**壽險另有一套**，見 life 模型）。保險公司有兩條獲利線：承保（收來的保費夠不夠賠）與投資（賠出去之前那筆錢賺多少）。通用模型兩條都問不到 —— 它問的是毛利率與存貨天數。",
+   "dimensions": [
+    {
+     "id": "underwriting",
+     "zh": "承保品質",
+     "weight": 0.3,
+     "desc": "綜合成本率低於 1 代表承保本身就賺錢，不必靠投資收益補。水準與年變化各給一項，與通用模型的營業利益率＋年變化同一種配法。**只用綜合成本率、不另外計損失率與費用率**：後兩者相加就是前者，分開計分等於把同一件事算兩次。",
+     "items": [
+      {
+       "metric": "combined_ratio_ttm",
+       "weight": 1.5,
+       "bad": 1.05,
+       "good": 0.85,
+       "metric_annual": "combined_ratio",
+       "peer4_only": true
+      },
+      {
+       "metric": "combined_ratio_ttm_delta",
+       "weight": 1.0,
+       "bad": 0.05,
+       "good": -0.05,
+       "metric_annual": "combined_ratio_delta",
+       "peer4_only": true
+      }
+     ]
+    },
+    {
+     "id": "profitability",
+     "zh": "獲利能力",
+     "weight": 0.25,
+     "desc": "兩條獲利線的總結果，加上投資組合自己的收益率。",
+     "items": [
+      {
+       "metric": "roe_ttm",
+       "weight": 1.2,
+       "bad": 0.02,
+       "good": 0.2,
+       "metric_annual": "roe"
+      },
+      {
+       "metric": "net_margin_ttm",
+       "weight": 1.0,
+       "bad": 0.0,
+       "good": 0.2,
+       "metric_annual": "net_margin"
+      },
+      {
+       "metric": "investment_yield_ttm",
+       "weight": 1.0,
+       "bad": 0.02,
+       "good": 0.06,
+       "metric_annual": "investment_yield"
+      },
+      {
+       "metric": "roa_ttm",
+       "weight": 0.6,
+       "bad": 0.004,
+       "good": 0.04,
+       "metric_annual": "roa"
+      }
+     ]
+    },
+    {
+     "id": "growth",
+     "zh": "成長",
+     "weight": 0.15,
+     "desc": "保費才是本業的量。總營收含投資損益，會被市場漲跌帶著走，所以權重低一階。",
+     "items": [
+      {
+       "metric": "premiums_yoy_ttm",
+       "weight": 1.5,
+       "bad": -0.05,
+       "good": 0.2,
+       "metric_annual": "premiums_yoy"
+      },
+      {
+       "metric": "revenue_yoy_ttm",
+       "weight": 1.0,
+       "bad": -0.1,
+       "good": 0.25,
+       "metric_annual": "revenue_yoy"
+      }
+     ]
+    },
+    {
+     "id": "solvency",
+     "zh": "財務結構",
+     "weight": 0.2,
+     "desc": "保險公司的負債主體是保單準備金，不是借款 —— 所以這裡看的是權益的厚度與借款的比重，不是流動比率（保險資產負債表不分流動）。法定資本適足率（RBC）只在監理申報，SEC 的 companyfacts 沒有。",
+     "items": [
+      {
+       "metric": "equity_to_assets",
+       "weight": 1.5,
+       "bad": 0.08,
+       "good": 0.35,
+       "peer4_only": true
+      },
+      {
+       "metric": "debt_to_equity",
+       "weight": 1.0,
+       "bad": 0.6,
+       "good": 0.05,
+       "invalid_if_nonpositive": [
+        "equity"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shareholder",
+     "zh": "稀釋與股東權益",
+     "weight": 0.1,
+     "desc": "股東手上的那一份有沒有被稀釋。與通用模型同一組項目 —— 這一層不分產業。",
+     "items": [
+      {
+       "metric": "dilution_rate",
+       "weight": 1.2,
+       "bad": 0.06,
+       "good": -0.04
+      },
+      {
+       "metric": "sbc_to_revenue_ttm",
+       "weight": 0.8,
+       "bad": 0.15,
+       "good": 0.01,
+       "metric_annual": "sbc_to_revenue"
+      },
+      {
+       "metric": "equity_yoy",
+       "weight": 0.6,
+       "bad": -0.1,
+       "good": 0.25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reit",
+   "zh": "不動產與 REIT",
+   "sic": [
+    [
+     6500,
+     6599
+    ],
+    [
+     6798,
+     6798
+    ]
+   ],
+   "desc": "REIT 依法要把九成以上的應稅所得配出去，所以它的體質問題不是「賺不賺錢」而是「配得出來的現金夠不夠、槓桿撐不撐得住」。通用模型會把它的毛利率、存貨天數、現金轉換循環全部判成缺資料 —— 那些欄位對租金收入沒有意義。淨利被折舊啃掉也讓淨利率失真，所以這裡以營運現金流為主軸。\n\n**這一套只給權益型 REIT。**抵押型（AGNC／NLY／ARR…）沒有物業與租金，走 `fallback_if_absent` 換成「抵押型 REIT」模型，見該欄的說明。",
+   "dimensions": [
+    {
+     "id": "cashflow",
+     "zh": "獲利與現金流",
+     "weight": 0.3,
+     "desc": "不動產按成本減折舊入帳，折舊是不花錢的費用 —— 淨利會系統性低估、現金流才是真的。**這裡不算 FFO**：FFO 要扣掉處分不動產利得，而那個科目十家只有兩三家用無維度標籤申報，算出來的 FFO 會在有處分的那一年系統性偏高。寧可用抓得到的營運現金流。",
+     "items": [
+      {
+       "metric": "ocf_margin_ttm",
+       "weight": 1.5,
+       "bad": 0.15,
+       "good": 0.55,
+       "metric_annual": "ocf_margin"
+      },
+      {
+       "metric": "ocf_to_net_income_ttm",
+       "weight": 1.0,
+       "bad": 1.0,
+       "good": 3.0,
+       "metric_annual": "ocf_to_net_income",
+       "invalid_if_nonpositive": [
+        "net_income_ttm"
+       ],
+       "invalid_if_nonpositive_annual": [
+        "net_income"
+       ]
+      },
+      {
+       "metric": "ebitda_margin_ttm",
+       "weight": 1.2,
+       "bad": 0.25,
+       "good": 0.65,
+       "metric_annual": "ebitda_margin"
+      },
+      {
+       "metric": "net_margin_ttm",
+       "weight": 0.6,
+       "bad": 0.0,
+       "good": 0.35,
+       "metric_annual": "net_margin"
+      }
+     ]
+    },
+    {
+     "id": "solvency",
+     "zh": "財務結構",
+     "weight": 0.3,
+     "desc": "權重與獲利同高 —— REIT 是槓桿載具，利率一動就先打在這一層。負債對資產與負債權益比兩個都留：帳面權益會被折舊啃掉，只看負債權益比會把老資產的 REIT 一律判成高槓桿。",
+     "items": [
+      {
+       "metric": "net_debt_to_ebitda_ttm",
+       "weight": 1.5,
+       "bad": 8.0,
+       "good": 3.0,
+       "metric_annual": "net_debt_to_ebitda",
+       "invalid_if_nonpositive": [
+        "ebitda_ttm"
+       ],
+       "invalid_if_nonpositive_annual": [
+        "ebitda"
+       ]
+      },
+      {
+       "metric": "debt_to_assets",
+       "weight": 1.2,
+       "bad": 0.6,
+       "good": 0.25
+      },
+      {
+       "metric": "interest_coverage_ttm",
+       "weight": 1.0,
+       "bad": 1.5,
+       "good": 6.0,
+       "metric_annual": "interest_coverage"
+      },
+      {
+       "metric": "debt_to_equity",
+       "weight": 0.8,
+       "bad": 2.0,
+       "good": 0.5,
+       "invalid_if_nonpositive": [
+        "equity"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "growth",
+     "zh": "成長",
+     "weight": 0.2,
+     "desc": "租金收入的成長與加速度。REIT 的成長來自收購、開發與續約調漲，三者都會落在營收上。",
+     "items": [
+      {
+       "metric": "revenue_yoy_ttm",
+       "weight": 1.5,
+       "bad": -0.05,
+       "good": 0.15,
+       "metric_annual": "revenue_yoy"
+      },
+      {
+       "metric": "revenue_accel_ttm",
+       "weight": 0.8,
+       "bad": -0.1,
+       "good": 0.05,
+       "metric_annual": "revenue_accel_annual"
+      }
+     ]
+    },
+    {
+     "id": "payout",
+     "zh": "配息與股東權益",
+     "weight": 0.2,
+     "desc": "配息對營運現金流是 REIT 版的「賺的錢夠不夠配」。超過 1 代表配息得靠舉債或增資撐 —— 那也正是 REIT 稀釋率天生偏高的原因，所以稀釋率的錨點要跟同業比，不要跟軟體公司比。",
+     "items": [
+      {
+       "metric": "dividend_to_ocf_ttm",
+       "weight": 1.2,
+       "bad": 1.0,
+       "good": 0.55,
+       "metric_annual": "dividend_to_ocf"
+      },
+      {
+       "metric": "dilution_rate",
+       "weight": 1.0,
+       "bad": 0.1,
+       "good": -0.02
+      },
+      {
+       "metric": "equity_yoy",
+       "weight": 0.8,
+       "bad": -0.1,
+       "good": 0.15
+      },
+      {
+       "metric": "sbc_to_revenue_ttm",
+       "weight": 0.6,
+       "bad": 0.06,
+       "good": 0.005,
+       "metric_annual": "sbc_to_revenue"
+      }
+     ]
+    }
+   ],
+   "fallback_if_absent": {
+    "concepts": [
+     "real_estate",
+     "ppe_net"
+    ],
+    "model": "mortgage_reit",
+    "note": "SIC 6798 同時裝著兩門生意：收租金的權益型 REIT，與槓桿買 MBS 的抵押型 REIT。SIC 分不出來，但**事實分得出來** —— 投資性不動產這個科目整段期間都查無資料的，那不是 REIT 的房子，是一支債券組合。\n\n實測 16 家權益型（O／PLD／WELL／SPG／AVB／EQR／KIM／REG…）全部申報 `RealEstateInvestmentPropertyNet`，AGNC 與 NLY 一個都沒有。RITM 與 STWD 有（它們真的持有物業與營運公司），留在權益型模型是對的 —— 混合型不硬切，判準只問一件事實。\n\n分流前 12 家實測覆蓋率 0–56%（AGNC 23.6%、PMT 0.0%），全部卡在「無法評分」或靠兩個構面硬撐。\n\n**不動產廠房設備也要算進判準**，只問投資性不動產會誤判基礎設施型 REIT：美國電塔（AMT）的塔台、冠城國際（CCI）的基地台、Equinix 的資料中心都掛在 `PropertyPlantAndEquipmentNet`，不是 `RealEstateInvestmentPropertyNet` —— AMT 實測被丟進抵押型模型、覆蓋率 90.0% → 73.0%，而它當然收租金。兩個科目都查無資料的才是抵押型：AGNC 與 NLY 兩個都沒有。",
+    "absent_label": "投資性不動產與不動產廠房設備"
+   }
+  },
+  {
+   "id": "life",
+   "zh": "壽險與年金",
+   "sic": [
+    [
+     6310,
+     6319
+    ]
+   ],
+   "desc": "壽險與年金。與產險分開的理由是兩個結構性失真：①「已賺保費」不含投資型保單的躉繳金（那是存款性質），但「給付」含利息給付 → 綜合成本率結構性大於 1，實測 PRU 1.87、MET 1.47，拿產險的尺量一律 0 分；②分離帳戶資產（MET 1,570 億、PRU 1,990 億）掛在資產負債表上但風險歸保戶，分母含它會讓壽險的資本厚度看起來永遠只有 3～4%。同業錨點救不了這件事：SIC 6311 的樣本不足 30 家，退到 2 位大類 g63 就跟產險混在一起 —— **2 位大類在這裡不是同業，是別人**。\n\n**絕對錨點不是拍腦袋的**：這一套的 bad／good 取自 DERA 2025Q3–2026Q2 裡 SIC 6311 自己的 p10／p90（各項 12–21 家）。樣本不足 30 家、進不了 config/peer_stats.json，所以寫在這裡並逐項註明筆數 —— 少於 30 家的分布不該被當成「同業錨點」那樣信任，但它仍然遠比跨產業的絕對值接近事實：實測 PRU 的給付率 1.13 在壽險裡是中段，用產險的尺量卻是 0 分。",
+   "dimensions": [
+    {
+     "id": "underwriting",
+     "zh": "給付與承保",
+     "weight": 0.25,
+     "desc": "給付與理賠佔已賺保費多少。壽險的水準本來就比產險高，所以只跟 4 位 SIC 的同業比。",
+     "items": [
+      {
+       "metric": "benefit_ratio_ttm",
+       "weight": 1.5,
+       "bad": 1.4016,
+       "good": 0.9737,
+       "metric_annual": "benefit_ratio",
+       "peer4_only": true,
+       "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（21 家）"
+      },
+      {
+       "metric": "benefit_ratio_ttm_delta",
+       "weight": 1.0,
+       "bad": 0.05,
+       "good": -0.05,
+       "metric_annual": "benefit_ratio_delta",
+       "peer4_only": true
+      }
+     ]
+    },
+    {
+     "id": "profitability",
+     "zh": "獲利能力",
+     "weight": 0.3,
+     "desc": "壽險的獲利主體是利差（投資收益率減保單成本），所以投資收益率的權重與 ROE 同高。",
+     "items": [
+      {
+       "metric": "roe_ttm",
+       "weight": 1.2,
+       "bad": 0.0471,
+       "good": 0.1228,
+       "metric_annual": "roe",
+       "peer4_only": true,
+       "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（21 家）"
+      },
+      {
+       "metric": "investment_yield_ttm",
+       "weight": 1.2,
+       "bad": 0.0446,
+       "good": 0.0549,
+       "metric_annual": "investment_yield",
+       "peer4_only": true,
+       "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（16 家）"
+      },
+      {
+       "metric": "net_margin_ttm",
+       "weight": 1.0,
+       "bad": 0.0438,
+       "good": 0.1056,
+       "metric_annual": "net_margin",
+       "peer4_only": true,
+       "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（21 家）"
+      },
+      {
+       "metric": "roa_ttm",
+       "weight": 0.6,
+       "bad": 0.0023,
+       "good": 0.0073,
+       "metric_annual": "roa",
+       "peer4_only": true,
+       "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（21 家）"
+      }
+     ]
+    },
+    {
+     "id": "growth",
+     "zh": "成長",
+     "weight": 0.15,
+     "desc": "保費是本業的量；總營收含投資損益，會被市場漲跌帶著走，所以權重低一階。",
+     "items": [
+      {
+       "metric": "premiums_yoy_ttm",
+       "weight": 1.5,
+       "bad": -0.0867,
+       "good": 0.1148,
+       "metric_annual": "premiums_yoy",
+       "peer4_only": true,
+       "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（14 家）"
+      },
+      {
+       "metric": "revenue_yoy_ttm",
+       "weight": 1.0,
+       "bad": -0.0043,
+       "good": 0.1043,
+       "metric_annual": "revenue_yoy",
+       "peer4_only": true,
+       "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（21 家）"
+      }
+     ]
+    },
+    {
+     "id": "capital",
+     "zh": "資本厚度",
+     "weight": 0.2,
+     "desc": "分母扣掉分離帳戶資產 —— 那筆錢的風險由保戶承擔，算進去等於拿別人的錢當自己的槓桿。法定的 RBC 資本適足率只在監理申報，SEC 的 companyfacts 沒有。",
+     "items": [
+      {
+       "metric": "equity_to_general_assets",
+       "weight": 1.5,
+       "bad": 0.047,
+       "good": 0.0778,
+       "peer4_only": true,
+       "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 6311 分布 p10／p90（19 家）"
+      },
+      {
+       "metric": "debt_to_equity",
+       "weight": 1.0,
+       "bad": 0.7203,
+       "good": 0.3015,
+       "anchor_note": "DERA 2025Q3–2026Q2 的 SIC 63 大類分布 p10／p90（6311 自己不足 12 家）",
+       "invalid_if_nonpositive": [
+        "equity"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shareholder",
+     "zh": "稀釋與股東權益",
+     "weight": 0.1,
+     "desc": "股東手上的那一份有沒有被稀釋。與通用模型同一組項目 —— 這一層不分產業。",
+     "items": [
+      {
+       "metric": "dilution_rate",
+       "weight": 1.2,
+       "bad": 0.06,
+       "good": -0.04
+      },
+      {
+       "metric": "sbc_to_revenue_ttm",
+       "weight": 0.8,
+       "bad": 0.15,
+       "good": 0.01,
+       "metric_annual": "sbc_to_revenue"
+      },
+      {
+       "metric": "equity_yoy",
+       "weight": 0.6,
+       "bad": -0.1,
+       "good": 0.25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "asset_manager",
+   "zh": "資產管理與經紀",
+   "sic": [
+    [
+     6280,
+     6289
+    ]
+   ],
+   "desc": "投資顧問、共同基金公司、私募與另類資產管理，以及**不吸收存款的券商**（貝萊德、Robinhood、盈透、LPL 都在這裡）。通用模型對它們只有 7～9 項算得出來（沒有存貨、沒有毛利、資本支出接近零），銀行模型更糟 —— 沒有存款也沒有放款。這門生意只有三個問題：收多少管理費、養人花多少錢、自有資本與槓桿撐不撐得住。\n\n**沒有 AUM。**`AssetsUnderManagementCarryingAmount` 十家實測只有一家申報無維度的值，其餘都在 MD&A 表格或帶維度的附註裡，而數字不得從 HTML 取。所以這一套沒有 AUM 成長、也沒有費率（營收 ÷ AUM）—— 那是誠實的缺口。\n\n**私募與另類（BX／APO／KKR）的淨利與營運現金流會被合併基金的未實現損益主導**，波動遠大於傳統資產管理公司。同業錨點（SIC 6282）把兩者放在一起，所以這一頁的分數在它們身上要更保守地看。",
+   "dimensions": [
+    {
+     "id": "profitability",
+     "zh": "獲利能力",
+     "weight": 0.35,
+     "desc": "管理費是很好的生意：邊際成本接近零，所以利潤率本身就是規模與定價權的直接讀數。營業利益率對私募公司常常抓不到（它們不申報 OperatingIncomeLoss），那一項會自己消失、不影響其他三項。",
+     "items": [
+      {
+       "metric": "net_margin_ttm",
+       "weight": 1.5,
+       "bad": 0.05,
+       "good": 0.3,
+       "metric_annual": "net_margin"
+      },
+      {
+       "metric": "operating_margin_ttm",
+       "weight": 1.2,
+       "bad": 0.1,
+       "good": 0.4,
+       "metric_annual": "operating_margin"
+      },
+      {
+       "metric": "roe_ttm",
+       "weight": 1.2,
+       "bad": 0.04,
+       "good": 0.25,
+       "metric_annual": "roe"
+      },
+      {
+       "metric": "roa_ttm",
+       "weight": 0.8,
+       "bad": 0.01,
+       "good": 0.08,
+       "metric_annual": "roa"
+      }
+     ]
+    },
+    {
+     "id": "cost",
+     "zh": "成本結構",
+     "weight": 0.15,
+     "desc": "薪酬佔比（業內就叫 comp ratio）是這一行唯一真正的成本槓桿。營業費用率與它是包含關係，兩項都留是因為半數公司抓不到薪酬 —— 少了墊底的那一項，這個構面會在一半的公司身上整個消失。",
+     "items": [
+      {
+       "metric": "comp_ratio_ttm",
+       "weight": 1.5,
+       "bad": 0.55,
+       "good": 0.3,
+       "metric_annual": "comp_ratio"
+      },
+      {
+       "metric": "opex_ratio_ttm",
+       "weight": 1.0,
+       "bad": 0.85,
+       "good": 0.55,
+       "metric_annual": "opex_ratio"
+      }
+     ]
+    },
+    {
+     "id": "growth",
+     "zh": "成長",
+     "weight": 0.2,
+     "desc": "營收成長＝AUM 成長 × 費率變化。拿不到 AUM 的情況下，營收是唯一看得到的量。",
+     "items": [
+      {
+       "metric": "revenue_yoy_ttm",
+       "weight": 1.5,
+       "bad": -0.1,
+       "good": 0.25,
+       "metric_annual": "revenue_yoy"
+      },
+      {
+       "metric": "revenue_accel_ttm",
+       "weight": 0.8,
+       "bad": -0.15,
+       "good": 0.08,
+       "metric_annual": "revenue_accel_annual"
+      }
+     ]
+    },
+    {
+     "id": "solvency",
+     "zh": "財務結構",
+     "weight": 0.15,
+     "desc": "合併進來的基金會把資產負債表撐得很大，而那些資產不是股東的。權益對資產因此在另類資產管理公司身上偏低，要跟同業比不要跟傳統資產管理比。",
+     "items": [
+      {
+       "metric": "equity_to_assets",
+       "weight": 1.5,
+       "bad": 0.1,
+       "good": 0.5
+      },
+      {
+       "metric": "debt_to_equity",
+       "weight": 1.0,
+       "bad": 1.2,
+       "good": 0.1,
+       "invalid_if_nonpositive": [
+        "equity"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "quality",
+     "zh": "現金含量與稀釋",
+     "weight": 0.15,
+     "desc": "管理費收得到現金才算數。私募公司的營運現金流會被合併基金的買賣主導（淨利為正但現金流為負是常態），所以這一項對它們的意義比對傳統資產管理公司低 —— 錨點取自同業分布，不是跨產業的絕對值。",
+     "items": [
+      {
+       "metric": "ocf_to_net_income_ttm",
+       "weight": 1.2,
+       "bad": 0.3,
+       "good": 1.5,
+       "metric_annual": "ocf_to_net_income",
+       "invalid_if_nonpositive": [
+        "net_income_ttm"
+       ],
+       "invalid_if_nonpositive_annual": [
+        "net_income"
+       ]
+      },
+      {
+       "metric": "dilution_rate",
+       "weight": 1.0,
+       "bad": 0.06,
+       "good": -0.04
+      },
+      {
+       "metric": "sbc_to_revenue_ttm",
+       "weight": 0.8,
+       "bad": 0.12,
+       "good": 0.02,
+       "metric_annual": "sbc_to_revenue"
+      },
+      {
+       "metric": "equity_yoy",
+       "weight": 0.6,
+       "bad": -0.1,
+       "good": 0.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mortgage_reit",
+   "zh": "抵押型 REIT",
+   "desc": "槓桿持有不動產抵押貸款與 MBS 的 REIT。它不收租金、沒有物業、沒有出租率，也沒有 FFO —— 本質是一支用附買回融資的槓桿債券組合。SIC 6798 把它和收租金的權益型 REIT 裝在同一格，用權益型模型去套，14 個計分項只有 4 項算得出來（AGNC 實測覆蓋率 23.6%），整頁落在「無法評分」。\n\n這門生意只有三個問題：**利差賺多少、槓桿多高而帳面價值守不守得住、配息撐不撐得住**。所以這一套只有三個構面，不是刪減版的權益型模型。\n\n**錨點一律用抵押型自己的分布**（見逐項的說明），不查 SIC 6798 的同業表：權益對資產實測權益型 35–45%、抵押型中位 11.8%，共用一把尺的話抵押型一律 0 分。\n\n**沒有帳面價值以外的資產品質指標。**逾放比、貸款成本、CECL 準備、避險部位的名目金額全部只在附註表格裡，而數字不得從 HTML 取。這一套看不到組合品質，只看得到品質變壞之後在帳面價值上留下的痕跡。",
+   "dimensions": [
+    {
+     "id": "spread",
+     "zh": "利差與成本",
+     "weight": 0.4,
+     "desc": "資產端收益率減資金成本，再扣掉管理這門生意的費用。抵押型 REIT 沒有營收（利息收入本身就是淨額），所以這一層的分母全部用資產或權益，不用營收。",
+     "items": [
+      {
+       "metric": "net_interest_to_assets_ttm",
+       "weight": 1.5,
+       "bad": 0.0016,
+       "good": 0.0204,
+       "metric_annual": "net_interest_to_assets",
+       "absolute_only": true,
+       "anchor_note": "淨利息收入 ÷ 平均總資產。錨點取自 11 家抵押型 REIT（AGNC／NLY／ARR／AOMR／CIM／DX／EFC／IVR／LFT／ORC／PMT／TWO 中資料齊全者）最近一個會計年度的 p10／p90。不足 30 家所以進不了 peer_stats.json，也不能用 SIC 6798 的同業分布 —— 那一桶被權益型 REIT 佔滿。 p10 −0.6%、中位 1.10%、p90 2.04%。\n**錨點怎麼定的**：n=11 直接取 p10／p90 會讓中位數落在 65–86 分 —— 小樣本的兩端被極端值主導（稀釋率 p90 是 97.6%，DX 一年股數接近翻倍）。改成**以中位數為中心、半寬取較窄的那一側** min(中位−p10, p90−中位)，中位數因此固定映射到 50 分。這一步是必要的：評級級距（強健／穩健／中性…）是全市場總分的分位數、六套模型共用，某一套的分數整體偏高的話，「穩健」在這一頁與在別的頁就不是同一件事。"
+      },
+      {
+       "metric": "roe_ttm",
+       "weight": 1.2,
+       "bad": 0.003,
+       "good": 0.177,
+       "metric_annual": "roe",
+       "absolute_only": true,
+       "anchor_note": "錨點取自 11 家抵押型 REIT（AGNC／NLY／ARR／AOMR／CIM／DX／EFC／IVR／LFT／ORC／PMT／TWO 中資料齊全者）最近一個會計年度的 p10／p90。不足 30 家所以進不了 peer_stats.json，也不能用 SIC 6798 的同業分布 —— 那一桶被權益型 REIT 佔滿。 p10 −18.8%、中位 9.0%、p90 17.7%。**淨利含 MBS 與衍生品的未實現評價**，所以同一家的 ROE 逐年會大幅擺盪 —— 這一項讀的是「這一年賺到還是賠掉」，不是穩定的獲利能力。\n**錨點怎麼定的**：n=11 直接取 p10／p90 會讓中位數落在 65–86 分 —— 小樣本的兩端被極端值主導（稀釋率 p90 是 97.6%，DX 一年股數接近翻倍）。改成**以中位數為中心、半寬取較窄的那一側** min(中位−p10, p90−中位)，中位數因此固定映射到 50 分。這一步是必要的：評級級距（強健／穩健／中性…）是全市場總分的分位數、六套模型共用，某一套的分數整體偏高的話，「穩健」在這一頁與在別的頁就不是同一件事。"
+      },
+      {
+       "metric": "opex_to_equity_ttm",
+       "weight": 1.0,
+       "bad": 0.0793,
+       "good": 0.0097,
+       "metric_annual": "opex_to_equity",
+       "absolute_only": true,
+       "anchor_note": "營業費用 ÷ 平均權益，業內比較外部管理與內部管理成本的標準做法。錨點取自 11 家抵押型 REIT（AGNC／NLY／ARR／AOMR／CIM／DX／EFC／IVR／LFT／ORC／PMT／TWO 中資料齊全者）最近一個會計年度的 p10／p90。不足 30 家所以進不了 peer_stats.json，也不能用 SIC 6798 的同業分布 —— 那一桶被權益型 REIT 佔滿。（其中 8 家申報營業費用合計）p10 1.0%、中位 4.5%、p90 14.2%。\n**錨點怎麼定的**：n=11 直接取 p10／p90 會讓中位數落在 65–86 分 —— 小樣本的兩端被極端值主導（稀釋率 p90 是 97.6%，DX 一年股數接近翻倍）。改成**以中位數為中心、半寬取較窄的那一側** min(中位−p10, p90−中位)，中位數因此固定映射到 50 分。這一步是必要的：評級級距（強健／穩健／中性…）是全市場總分的分位數、六套模型共用，某一套的分數整體偏高的話，「穩健」在這一頁與在別的頁就不是同一件事。"
+      }
+     ]
+    },
+    {
+     "id": "capital",
+     "zh": "槓桿與帳面價值",
+     "weight": 0.35,
+     "desc": "槓桿是這門生意的全部：權益對資產十分之一，意味著資產端 1% 的評價變動就是權益的 10%。而槓桿有沒有失控，最後都寫在每股帳面價值上。",
+     "items": [
+      {
+       "metric": "equity_to_assets",
+       "weight": 1.5,
+       "bad": 0.0894,
+       "good": 0.1466,
+       "absolute_only": true,
+       "anchor_note": "錨點取自 11 家抵押型 REIT（AGNC／NLY／ARR／AOMR／CIM／DX／EFC／IVR／LFT／ORC／PMT／TWO 中資料齊全者）最近一個會計年度的 p10／p90。不足 30 家所以進不了 peer_stats.json，也不能用 SIC 6798 的同業分布 —— 那一桶被權益型 REIT 佔滿。 p10 8.9%、中位 11.8%、p90 17.7%（權益型 REIT 是 35–45%，所以這一項絕對不能用 SIC 6798 的同業錨點）。\n**錨點怎麼定的**：n=11 直接取 p10／p90 會讓中位數落在 65–86 分 —— 小樣本的兩端被極端值主導（稀釋率 p90 是 97.6%，DX 一年股數接近翻倍）。改成**以中位數為中心、半寬取較窄的那一側** min(中位−p10, p90−中位)，中位數因此固定映射到 50 分。這一步是必要的：評級級距（強健／穩健／中性…）是全市場總分的分位數、六套模型共用，某一套的分數整體偏高的話，「穩健」在這一頁與在別的頁就不是同一件事。"
+      },
+      {
+       "metric": "bvps_yoy",
+       "weight": 1.5,
+       "bad": -0.1765,
+       "good": 0.0535,
+       "absolute_only": true,
+       "anchor_note": "錨點取自 11 家抵押型 REIT（AGNC／NLY／ARR／AOMR／CIM／DX／EFC／IVR／LFT／ORC／PMT／TWO 中資料齊全者）最近一個會計年度的 p10／p90。不足 30 家所以進不了 peer_stats.json，也不能用 SIC 6798 的同業分布 —— 那一桶被權益型 REIT 佔滿。 p10 −32.0%、**中位 −6.2%**、p90 +5.4% —— 抵押型 REIT 的帳面價值本來就在流失，這是它們的常態而不是異常。增發在帳面價值之上還是之下也直接算進這一格，所以稀釋的後果不會被算兩次。\n**錨點怎麼定的**：n=11 直接取 p10／p90 會讓中位數落在 65–86 分 —— 小樣本的兩端被極端值主導（稀釋率 p90 是 97.6%，DX 一年股數接近翻倍）。改成**以中位數為中心、半寬取較窄的那一側** min(中位−p10, p90−中位)，中位數因此固定映射到 50 分。這一步是必要的：評級級距（強健／穩健／中性…）是全市場總分的分位數、六套模型共用，某一套的分數整體偏高的話，「穩健」在這一頁與在別的頁就不是同一件事。"
+      }
+     ]
+    },
+    {
+     "id": "payout",
+     "zh": "配息可持續性",
+     "weight": 0.25,
+     "desc": "REIT 依法要分配 90% 的應稅所得，所以問題不是「配不配」而是「配的錢從哪來」。配息長期大於現金流的公司是在發還本金。",
+     "items": [
+      {
+       "metric": "dividend_to_ocf_ttm",
+       "weight": 1.2,
+       "bad": 2.69,
+       "good": 1.0,
+       "metric_annual": "dividend_to_ocf",
+       "absolute_only": true,
+       "invalid_if_nonpositive": [
+        "cfo_ttm"
+       ],
+       "invalid_if_nonpositive_annual": [
+        "cfo"
+       ],
+       "anchor_note": "錨點取自 11 家抵押型 REIT（AGNC／NLY／ARR／AOMR／CIM／DX／EFC／IVR／LFT／ORC／PMT／TWO 中資料齊全者）最近一個會計年度的 p10／p90。不足 30 家所以進不了 peer_stats.json，也不能用 SIC 6798 的同業分布 —— 那一桶被權益型 REIT 佔滿。 p90 2.69、中位 0.90。good 取 1.00（配息剛好由營運現金流支應）而不是取 p10 —— p10 是負的，那不是「配得少很好」，是營運現金流為負。\n**營運現金流為負時整格作廢**：抵押型 REIT 買進貸款走的是營運活動，實測 11 家有 4 家（CIM／EFC／PMT／AOMR）的年度營運現金流是負的，不擋的話股利除以負數會得到一個漂亮的負值。\n**這一項刻意在 good 端飽和**：配息由營運現金流完全支應（≤1.0）就是「撐得住」，配 0.3 倍並不比配 0.9 倍更好，所以不給額外分數。與連續型的品質指標不同，這裡的飽和是語意上正確的。"
+      },
+      {
+       "metric": "dilution_rate",
+       "weight": 1.0,
+       "bad": 0.282,
+       "good": 0.0024,
+       "absolute_only": true,
+       "anchor_note": "稀釋率實測 9 家 p10 0.2%、中位 14.2%、p90 97.6%（DX 一年股數接近翻倍）。抵押型 REIT 靠持續增發成長，稀釋本身不等於傷害 —— 傷不傷害看的是增發價相對帳面價值，那一件事由每股帳面價值年變化承接。這一項只量「規模」。\n**錨點怎麼定的**：n=11 直接取 p10／p90 會讓中位數落在 65–86 分 —— 小樣本的兩端被極端值主導（稀釋率 p90 是 97.6%，DX 一年股數接近翻倍）。改成**以中位數為中心、半寬取較窄的那一側** min(中位−p10, p90−中位)，中位數因此固定映射到 50 分。這一步是必要的：評級級距（強健／穩健／中性…）是全市場總分的分位數、六套模型共用，某一套的分數整體偏高的話，「穩健」在這一頁與在別的頁就不是同一件事。"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "models_note": "**產業模型：同一套公式、不同的構面。**銀行沒有毛利與存貨、保險的本業是承保與投資、REIT 的淨利被折舊啃掉 —— 拿通用模型的 26 個計分項去套，這三類公司只有 7～8 項算得出來，覆蓋率 32～35%，全部落在「無法評分」。那不是它們體質差，是我們拿錯了尺。\n\n選哪一套**只看 SIC 區間**（`sic`），沒對到就用通用模型（頂層的 `dimensions`）。頁面固定寫出用的是哪一套，因為換模型等於換錨點與換構面 —— 同一家公司的分數在兩套模型下不可比，讀者必須看得到自己在看哪一套。\n\n**評級級距與覆蓋率門檻三套共用**，這是刻意的：級距是全市場總分的分位數，每套模型各訂一組的話，「穩健」在銀行頁與在軟體頁會是兩件事，而讀者只會看到同兩個字。\n\n**沒有做的事**：逾放比、覆蓋率、CET1、RBC 資本適足率、FFO／AFFO、同店 NOI、出租率。這些數字全部只在年報附註的表格或監理申報裡，companyfacts 拿不到，而本站的硬規則是數字一律不從 HTML 取。拿不到就留白，不用近似值冒充。",
+ "counted_weight_floor": 0.6
 }

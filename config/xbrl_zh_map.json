@@ -1,5 +1,5 @@
 {
- "version": "1.31",
+ "version": "1.33",
  "updated": "2026-09-24",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -813,6 +813,17 @@
    }
   },
   {
+   "id": "quick_assets",
+   "zh": "速動資產",
+   "en": "Quick Assets",
+   "statement": "BS",
+   "unit": "USD",
+   "sign": "natural",
+   "tags": [],
+   "derive": "current_assets - inventory? - prepaid_expense?",
+   "note": "流動資產扣掉存貨與預付費用。扣項是**選用**的：沒有存貨的服務業、沒有單獨揭露預付費用的公司照樣算得出速動比率（富途也是這樣顯示）。首項缺（不分流動／非流動的資產負債表）才整條不算。"
+  },
+  {
    "id": "current_liabilities",
    "zh": "流動負債合計",
    "en": "Total Current Liabilities",
@@ -907,8 +918,8 @@
    "unit": "USD",
    "sign": "natural",
    "tags": [],
-   "derive": "long_term_debt + short_term_debt?",
-   "note": "短期那一項是**選用**的：不分流動／非流動的資產負債表上本來就沒有那一行。羅素 150 實測 22 家（AIG／ALL／BLK／BX／PLD／WELL… 保險、REIT、資產管理）只有一行長期負債，舊寫法『短期＋長期』兩項都要有值，於是負債權益比、負債佔資產、淨負債、ROIC 四個指標對它們整組落空 —— 那不是抓不到，是那張表本來就長這樣。\n反過來**長期那一項不可以選用**：ADC／BXP／EXR／O 只掛得到商業本票，首項也選用的話會算出「有息負債 ＝ 商業本票」（ADC 實測 14 億 vs 實際 38.5 億），那是半套答案，比留白糟。它們維持 n/a。\n也不用 DebtInstrumentCarryingAmount 當直接標籤：它確實是合計（1,239 家重疊期實測 ÷（長期＋短期）中位 1.008、76% 在 ±3% 內），但標籤優先於推算，會讓附註的帳面金額蓋掉資產負債表上的數字，兩處對不起來看起來像壞掉。分項標籤（SecuredDebt／SeniorNotes／UnsecuredDebt…）相加更不行：對帳中位 1.330、p90 44.95，它們互相重疊。"
+   "derive": "long_term_debt + short_term_debt? + operating_lease_liab_nc?",
+   "note": "短期那一項是**選用**的：不分流動／非流動的資產負債表上本來就沒有那一行。羅素 150 實測 22 家（AIG／ALL／BLK／BX／PLD／WELL… 保險、REIT、資產管理）只有一行長期負債，舊寫法『短期＋長期』兩項都要有值，於是負債權益比、負債佔資產、淨負債、ROIC 四個指標對它們整組落空 —— 那不是抓不到，是那張表本來就長這樣。\n反過來**長期那一項不可以選用**：ADC／BXP／EXR／O 只掛得到商業本票，首項也選用的話會算出「有息負債 ＝ 商業本票」（ADC 實測 14 億 vs 實際 38.5 億），那是半套答案，比留白糟。它們維持 n/a。\n也不用 DebtInstrumentCarryingAmount 當直接標籤：它確實是合計（1,239 家重疊期實測 ÷（長期＋短期）中位 1.008、76% 在 ±3% 內），但標籤優先於推算，會讓附註的帳面金額蓋掉資產負債表上的數字，兩處對不起來看起來像壞掉。分項標籤（SecuredDebt／SeniorNotes／UnsecuredDebt…）相加更不行：對帳中位 1.330、p90 44.95，它們互相重疊。\n**長期租賃負債也算在內**，這不是我們的選擇而是對齊富途：AXON 實測有息負債率（有息負債÷總資產）不含租賃 32.30%、含長期租賃 33.01%、含長流動租賃 33.16%，富途顯示 33.01%；長期負債股東權益比率同樣只有「含長期租賃」那一版五期全中（64.86／60.10／56.41／51.73／49.90）。**流動租賃負債不算**。租賃那一項是選用的 —— 本機 2,870 份快取裡只有 75.2% 的公司掛得到 OperatingLeaseLiabilityNoncurrent，必要項的話四分之一的公司有息負債會整列消失。"
   },
   {
    "id": "operating_lease_liab_nc",
@@ -1368,9 +1379,144 @@
  "metrics_note": "季度資料計算比率時的規則：(1) 分子為流量（IS/CF）、分母為存量（BS）時，分母取期初期末平均；(2) ROE/ROA/ROIC 等報酬率須年化（季度值 ×4）或改用 TTM，Excel 中一律標註採用何種基準；(3) 需要股價的估值倍數（P/E、EV/EBITDA）SEC 不提供，v1 不做。",
  "derived": [
   {
-   "id": "revenue_yoy",
+   "id": "revenue_ttm",
+   "zh": "營收（滾動四季）",
+   "en": "Revenue TTM",
+   "group": "滾動四季原始值",
+   "formula": "(revenue[t] + revenue[t-1] + revenue[t-2] + revenue[t-3])",
+   "fmt": "usd",
+   "desc": "最近四季營收合計。滾動四季合計。單季的現金流量科目跳動極大（大額稅款、預付、應收在期末的一收一放），拿單季比單季會做出隨機的結論——NVDA 的營運現金流對淨利比實測在 0.40～1.46 之間逐季彈跳。**外國發行人（20-F）一欄就是一整年，滾動四季沒有意義，這一列顯示「—」**，那時看的是同名的單期指標。"
+  },
+  {
+   "id": "cogs_ttm",
+   "zh": "營業成本（滾動四季）",
+   "en": "COGS TTM",
+   "formula": "(cogs[t] + cogs[t-1] + cogs[t-2] + cogs[t-3])",
+   "fmt": "usd",
+   "group": "滾動四季原始值",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "gross_profit_ttm",
+   "zh": "毛利（滾動四季）",
+   "en": "Gross Profit TTM",
+   "formula": "(gross_profit[t] + gross_profit[t-1] + gross_profit[t-2] + gross_profit[t-3])",
+   "fmt": "usd",
+   "group": "滾動四季原始值",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "operating_income_ttm",
+   "zh": "營業利益（滾動四季）",
+   "en": "Operating Income TTM",
+   "formula": "(operating_income[t] + operating_income[t-1] + operating_income[t-2] + operating_income[t-3])",
+   "fmt": "usd",
+   "group": "滾動四季原始值",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "pretax_income_ttm",
+   "zh": "稅前淨利（滾動四季）",
+   "en": "Pretax Income TTM",
+   "formula": "(pretax_income[t] + pretax_income[t-1] + pretax_income[t-2] + pretax_income[t-3])",
+   "fmt": "usd",
+   "group": "滾動四季原始值",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "income_tax_ttm",
+   "zh": "所得稅費用（滾動四季）",
+   "en": "Income Tax TTM",
+   "formula": "(income_tax[t] + income_tax[t-1] + income_tax[t-2] + income_tax[t-3])",
+   "fmt": "usd",
+   "group": "滾動四季原始值",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "interest_expense_ttm",
+   "zh": "利息費用（滾動四季）",
+   "en": "Interest Expense TTM",
+   "formula": "(interest_expense[t] + interest_expense[t-1] + interest_expense[t-2] + interest_expense[t-3])",
+   "fmt": "usd",
+   "group": "滾動四季原始值",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "dna_ttm",
+   "zh": "折舊及攤銷（滾動四季）",
+   "en": "D&A TTM",
+   "formula": "(dna[t] + dna[t-1] + dna[t-2] + dna[t-3])",
+   "fmt": "usd",
+   "group": "滾動四季原始值",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "sbc_ttm",
+   "zh": "股份基礎給付（滾動四季）",
+   "en": "SBC TTM",
+   "formula": "(sbc[t] + sbc[t-1] + sbc[t-2] + sbc[t-3])",
+   "fmt": "usd",
+   "group": "滾動四季原始值",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "rnd_ttm",
+   "zh": "研發費用（滾動四季）",
+   "en": "R&D TTM",
+   "group": "滾動四季原始值",
+   "formula": "(rnd[t] + rnd[t-1] + rnd[t-2] + rnd[t-3])",
+   "fmt": "usd",
+   "desc": "滾動四季。單季年化會把季節性讀成體質變化；外部網站（富途等）的同名欄位也都是滾動四季。"
+  },
+  {
+   "id": "sgna_ttm",
+   "zh": "銷售及管理費用（滾動四季）",
+   "en": "SG&A TTM",
+   "group": "滾動四季原始值",
+   "formula": "(sgna[t] + sgna[t-1] + sgna[t-2] + sgna[t-3])",
+   "fmt": "usd",
+   "desc": "滾動四季。單季年化會把季節性讀成體質變化；外部網站（富途等）的同名欄位也都是滾動四季。"
+  },
+  {
+   "id": "net_income_ttm",
+   "zh": "淨利（滾動四季）",
+   "en": "Net Income TTM",
+   "group": "滾動四季原始值",
+   "formula": "(net_income[t] + net_income[t-1] + net_income[t-2] + net_income[t-3])",
+   "fmt": "usd",
+   "desc": "最近四季淨利合計。滾動四季合計。單季的現金流量科目跳動極大（大額稅款、預付、應收在期末的一收一放），拿單季比單季會做出隨機的結論——NVDA 的營運現金流對淨利比實測在 0.40～1.46 之間逐季彈跳。**外國發行人（20-F）一欄就是一整年，滾動四季沒有意義，這一列顯示「—」**，那時看的是同名的單期指標。"
+  },
+  {
+   "id": "cfo_ttm",
+   "zh": "營運現金流（滾動四季）",
+   "en": "CFO TTM",
+   "group": "滾動四季原始值",
+   "formula": "(cfo[t] + cfo[t-1] + cfo[t-2] + cfo[t-3])",
+   "fmt": "usd",
+   "desc": "最近四季營運活動現金流合計。滾動四季合計。單季的現金流量科目跳動極大（大額稅款、預付、應收在期末的一收一放），拿單季比單季會做出隨機的結論——NVDA 的營運現金流對淨利比實測在 0.40～1.46 之間逐季彈跳。**外國發行人（20-F）一欄就是一整年，滾動四季沒有意義，這一列顯示「—」**，那時看的是同名的單期指標。"
+  },
+  {
+   "id": "capex_ttm",
+   "zh": "資本支出（滾動四季）",
+   "en": "CapEx TTM",
+   "group": "滾動四季原始值",
+   "formula": "(capex[t] + capex[t-1] + capex[t-2] + capex[t-3])",
+   "fmt": "usd",
+   "desc": "最近四季資本支出合計。滾動四季合計。單季的現金流量科目跳動極大（大額稅款、預付、應收在期末的一收一放），拿單季比單季會做出隨機的結論——NVDA 的營運現金流對淨利比實測在 0.40～1.46 之間逐季彈跳。**外國發行人（20-F）一欄就是一整年，滾動四季沒有意義，這一列顯示「—」**，那時看的是同名的單期指標。"
+  },
+  {
+   "id": "revenue_yoy_ttm",
    "zh": "營收年增率",
    "en": "Revenue YoY",
+   "formula": "revenue_ttm[t] / revenue_ttm[t-4] - 1",
+   "fmt": "ratio",
+   "group": "成長性",
+   "desc": "比較基準也是滾動四季（本期四季 vs 去年同期四季）。單季對單季的年增率會把一次性的出貨時點讀成轉折 —— 實測評分逐季震盪 ±13～20 分，換成滾動四季之後才看得出真正的方向。年度發行人一欄＝一整年，本列顯示「—」，評分自動退回單期版本。"
+  },
+  {
+   "id": "revenue_yoy",
+   "zh": "營收年增率（單季）",
+   "en": "Revenue YoY (Quarterly)",
    "group": "成長性",
    "formula": "revenue[t] / revenue[t-4] - 1",
    "desc": "與去年同季比較。用同季而非上一季，是為了排除季節性。低於零代表衰退，連續兩季轉負通常是趨勢反轉而非雜訊。"
@@ -1392,33 +1538,69 @@
    "desc": "與營收年增率並列看。淨利增速持續高於營收，代表營運槓桿正在發揮；持續低於營收，代表成本失控或費用擴張。"
   },
   {
-   "id": "gross_margin",
+   "id": "gross_margin_ttm",
    "zh": "毛利率",
    "en": "Gross Margin",
+   "formula": "gross_profit_ttm / revenue_ttm",
+   "fmt": "ratio",
+   "group": "獲利能力",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "gross_margin",
+   "zh": "毛利率（單季）",
+   "en": "Gross Margin (Quarterly)",
    "group": "獲利能力",
    "formula": "gross_profit / revenue",
    "desc": "最能反映定價權的單一指標。毛利率的趨勢比絕對值重要——持續擴張代表產品組合改善或議價能力增強，持續壓縮通常是競爭加劇的最早訊號，會領先營收惡化數季。"
   },
   {
-   "id": "operating_margin",
+   "id": "operating_margin_ttm",
    "zh": "營業利益率",
    "en": "Operating Margin",
+   "formula": "operating_income_ttm / revenue_ttm",
+   "fmt": "ratio",
+   "group": "獲利能力",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "operating_margin",
+   "zh": "營業利益率（單季）",
+   "en": "Operating Margin (Quarterly)",
    "group": "獲利能力",
    "formula": "operating_income / revenue",
    "desc": "扣除營運費用後的獲利能力，衡量管理效率。與毛利率的差距即為費用率，差距收窄代表規模經濟開始顯現。"
   },
   {
-   "id": "net_margin",
+   "id": "net_margin_ttm",
    "zh": "淨利率",
    "en": "Net Margin",
+   "formula": "net_income_ttm / revenue_ttm",
+   "fmt": "ratio",
+   "group": "獲利能力",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "net_margin",
+   "zh": "淨利率（單季）",
+   "en": "Net Margin (Quarterly)",
    "group": "獲利能力",
    "formula": "net_income / revenue",
    "desc": "含稅務、利息、一次性項目，波動大。單季暴增常來自業外收益而非本業，須回頭檢查營業利益率是否同步改善。"
   },
   {
-   "id": "ebitda",
-   "zh": "稅前息前折舊攤銷前獲利",
+   "id": "ebitda_ttm",
+   "zh": "EBITDA",
    "en": "EBITDA",
+   "formula": "operating_income_ttm + dna_ttm",
+   "fmt": "usd",
+   "group": "獲利能力",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "ebitda",
+   "zh": "稅前息前折舊攤銷前獲利（單季）",
+   "en": "EBITDA (Quarterly)",
    "group": "獲利能力",
    "formula": "operating_income + dna",
    "desc": "排除資本結構與折舊政策差異，便於跨公司比較。但它刻意忽略資本支出，對重資產產業（半導體、電信）會嚴重高估真實獲利能力。"
@@ -1432,68 +1614,177 @@
    "desc": "重資產與高度併購型公司的常用比較基準。"
   },
   {
-   "id": "roe",
+   "id": "roe_ttm",
    "zh": "股東權益報酬率",
    "en": "ROE",
+   "formula": "net_income_ttm / ((equity + equity[t-4]) / 2)",
+   "fmt": "ratio",
+   "group": "獲利能力",
+   "desc": "分子改用滾動四季淨利，取代「單季 ×4」。單季年化對季節性生意會做出四個完全不同的 ROE。　滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "roe",
+   "zh": "股東權益報酬率（單季）",
+   "en": "ROE (Quarterly)",
    "group": "獲利能力",
    "formula": "net_income * 4 / avg(equity)",
    "desc": "股東每一元投入產生的獲利。高 ROE 可能來自真實效率，也可能來自高財務槓桿或大量庫藏股買回壓縮權益——須與負債權益比一起判讀，否則會把財務工程誤認為經營能力。"
   },
   {
-   "id": "roa",
+   "id": "roa_ttm",
    "zh": "資產報酬率",
-   "en": "ROA",
+   "en": "Return on Assets (TTM)",
+   "group": "獲利能力",
+   "formula": "net_income_ttm / ((total_assets + total_assets[t-4]) / 2)",
+   "desc": "",
+   "sector": "financial",
+   "fmt": "ratio"
+  },
+  {
+   "id": "roa",
+   "zh": "資產報酬率（單季）",
+   "en": "ROA (Quarterly)",
    "group": "獲利能力",
    "formula": "net_income * 4 / avg(total_assets)",
    "desc": "排除槓桿因素的資產運用效率。ROE 與 ROA 的差距即為槓桿貢獻。"
   },
   {
-   "id": "roic",
+   "id": "roic_ttm",
    "zh": "投入資本報酬率",
-   "en": "ROIC (approx.)",
+   "en": "ROIC",
+   "formula": "(net_income_ttm + interest_expense_ttm) / (((equity + equity[t-4]) / 2) + ((debt_total + debt_total[t-4]) / 2))",
+   "fmt": "ratio",
    "group": "獲利能力",
-   "formula": "operating_income * (1 - income_tax/pretax_income) * 4 / (avg(equity) + avg(debt_total) - avg(cash))",
-   "desc": "衡量本業投入資本的真實回報，是判斷有無護城河的核心指標。ROIC 長期高於資金成本（約 8–10%）才代表在創造價值，否則成長反而在毀滅價值。此為簡化算法，與賣方定義可能有出入。"
+   "desc": "滾動四季版。富途公布的定義（資本回報率（ROIC）＝（淨利潤＋財務費用）/（淨資產＋有息負債）），元件範圍逐格對帳驗過：AXON 的財務槓桿 227.47%、股東權益比率 43.96%、有息負債率 33.01%、長期負債股東權益比率 64.86% 五期全中。 逐格對帳：NVDA 四期與富途差 1.2～2.0pp、AXON 六期差 1.0～2.0pp —— 殘差來自他們資料商對淨利與餘額的標準化（沒有公開），公式與元件範圍本身是他們的，不是我們自編的。年度發行人（20-F 一欄＝一整年）這一列顯示「—」，評分自動退回同名的單期指標。"
+  },
+  {
+   "id": "roic",
+   "zh": "投入資本報酬率（單季）",
+   "en": "ROIC (Quarterly)",
+   "group": "獲利能力",
+   "formula": "(net_income + interest_expense) * 4 / (avg(equity) + avg(debt_total))",
+   "desc": "衡量本業投入資本的真實回報。富途公布的定義（資本回報率（ROIC）＝（淨利潤＋財務費用）/（淨資產＋有息負債）），元件範圍逐格對帳驗過：AXON 的財務槓桿 227.47%、股東權益比率 43.96%、有息負債率 33.01%、長期負債股東權益比率 64.86% 五期全中。 舊版用 NOPAT＝營業利益×(1−所得稅/稅前淨利)，而那個乘數在稅前淨利趨近 0 時會爆：實測全市場 14.3% 的格子有效稅率落在 [0,1] 之外，3.7% 的格子把營業利益放大 1.5 倍以上（CZR FY2024 Q1 稅前淨利只有 −200 萬、稅率 41,200% → 23.5 億的營業利益被乘上 −411）。富途的式子沒有稅率，從結構上就不會有這個問題。"
+  },
+  {
+   "id": "ar_turnover_ttm",
+   "zh": "應收帳款週轉率（滾動四季）",
+   "en": "AR Turnover TTM",
+   "group": "營運效率",
+   "formula": "revenue_ttm / ((accounts_receivable + accounts_receivable[t-4]) / 2)",
+   "fmt": "multiple",
+   "desc": "滾動四季營收 ÷ 期初期末平均應收帳款。逐格對帳富途 AXON 五期全中。 與應收帳款週轉天數互為 365÷x。"
+  },
+  {
+   "id": "inventory_turnover_ttm",
+   "zh": "存貨週轉率（滾動四季）",
+   "en": "Inventory Turnover TTM",
+   "group": "營運效率",
+   "formula": "cogs_ttm / ((inventory + inventory[t-4]) / 2)",
+   "fmt": "multiple",
+   "desc": "滾動四季**銷貨成本** ÷ 期初期末平均存貨（不是用營收）。逐格對帳富途 AXON 五期全中。"
+  },
+  {
+   "id": "ap_turnover_ttm",
+   "zh": "應付帳款週轉率（滾動四季）",
+   "en": "AP Turnover TTM",
+   "group": "營運效率",
+   "formula": "cogs_ttm / ((accounts_payable + accounts_payable[t-4]) / 2)",
+   "fmt": "multiple",
+   "desc": "滾動四季銷貨成本 ÷ 期初期末平均應付帳款。逐格對帳富途 AXON 五期全中。"
+  },
+  {
+   "id": "fixed_asset_turnover_ttm",
+   "zh": "固定資產週轉率（滾動四季）",
+   "en": "Fixed Asset Turnover TTM",
+   "group": "營運效率",
+   "formula": "revenue_ttm / ((ppe_net + ppe_net[t-4]) / 2)",
+   "fmt": "multiple",
+   "desc": "滾動四季營收 ÷ 期初期末平均不動產廠房設備淨額。逐格對帳富途 AXON 五期全中。"
+  },
+  {
+   "id": "asset_turnover_ttm",
+   "zh": "總資產週轉率",
+   "en": "Asset Turnover",
+   "formula": "revenue_ttm / ((total_assets + total_assets[t-4]) / 2)",
+   "fmt": "multiple",
+   "group": "營運效率",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "asset_turnover",
+   "zh": "總資產週轉率（單季）",
+   "en": "Asset Turnover (Quarterly)",
+   "group": "營運效率",
+   "formula": "revenue * 4 / avg(total_assets)",
+   "desc": "每一元資產產生多少營收。與淨利率相乘即為 ROA，是杜邦分析的兩大支柱之一。"
+  },
+  {
+   "id": "dso_ttm",
+   "zh": "應收帳款週轉天數",
+   "en": "DSO",
+   "formula": "((accounts_receivable + accounts_receivable[t-4]) / 2) / revenue_ttm * 365",
+   "fmt": "days",
+   "group": "營運效率",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
   },
   {
    "id": "dso",
-   "zh": "應收帳款週轉天數",
-   "en": "DSO",
+   "zh": "應收帳款週轉天數（單季）",
+   "en": "DSO (Quarterly)",
    "group": "營運效率",
    "formula": "avg(accounts_receivable) / revenue * 91.25",
    "desc": "收現速度。持續拉長代表放寬信用條件在推營收，或客戶付款能力惡化——這是財報造假最常見的早期痕跡之一。"
   },
   {
-   "id": "dio",
+   "id": "dio_ttm",
    "zh": "存貨週轉天數",
    "en": "DIO",
+   "formula": "((inventory + inventory[t-4]) / 2) / cogs_ttm * 365",
+   "fmt": "days",
+   "group": "營運效率",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "dio",
+   "zh": "存貨週轉天數（單季）",
+   "en": "DIO (Quarterly)",
    "group": "營運效率",
    "formula": "avg(inventory) / cogs * 91.25",
    "desc": "存貨消化速度。突然拉長代表需求不如預期或備料過度，通常領先毛利率下滑（因為之後要打折出清）。"
   },
   {
-   "id": "dpo",
+   "id": "dpo_ttm",
    "zh": "應付帳款週轉天數",
    "en": "DPO",
+   "formula": "((accounts_payable + accounts_payable[t-4]) / 2) / cogs_ttm * 365",
+   "fmt": "days",
+   "group": "營運效率",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "dpo",
+   "zh": "應付帳款週轉天數（單季）",
+   "en": "DPO (Quarterly)",
    "group": "營運效率",
    "formula": "avg(accounts_payable) / cogs * 91.25",
    "desc": "付款速度，反映對供應商的議價能力。拉長對現金流有利，但過長可能代表資金緊張。"
   },
   {
-   "id": "ccc",
+   "id": "ccc_ttm",
    "zh": "現金轉換循環",
    "en": "Cash Conversion Cycle",
+   "formula": "dso_ttm + dio_ttm - dpo_ttm",
+   "fmt": "days",
+   "group": "營運效率",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "ccc",
+   "zh": "現金轉換循環（單季）",
+   "en": "Cash Conversion Cycle (Quarterly)",
    "group": "營運效率",
    "formula": "dso + dio - dpo",
    "desc": "一塊錢從投入到收回所需天數。為負值代表先收錢再付錢（Costco、Amazon 模式），等於供應商在無息融資給你，是極強的商業模式訊號。"
-  },
-  {
-   "id": "asset_turnover",
-   "zh": "總資產週轉率",
-   "en": "Asset Turnover",
-   "group": "營運效率",
-   "formula": "revenue * 4 / avg(total_assets)",
-   "desc": "每一元資產產生多少營收。與淨利率相乘即為 ROA，是杜邦分析的兩大支柱之一。"
   },
   {
    "id": "current_ratio",
@@ -1508,24 +1799,35 @@
    "zh": "速動比率",
    "en": "Quick Ratio",
    "group": "財務結構",
-   "formula": "(cash + short_term_investments + accounts_receivable) / current_liabilities",
+   "formula": "quick_assets / current_liabilities",
    "desc": "剔除存貨後的償債能力。與流動比率差距大，代表資產集中在難變現的存貨。"
   },
   {
-   "id": "net_debt",
-   "zh": "淨負債",
-   "en": "Net Debt",
+   "id": "financial_leverage",
+   "zh": "財務槓桿",
+   "en": "Financial Leverage",
    "group": "財務結構",
-   "formula": "debt_total - cash - short_term_investments",
-   "desc": "負值代表淨現金部位。這是併購能力與抗景氣衰退能力的直接量度。"
+   "formula": "total_assets / equity",
+   "fmt": "ratio",
+   "desc": "總資產 ÷ 股東權益。逐格對帳富途 AXON 五期全中。 與股東權益比率互為倒數，兩個都列是因為富途兩個都列。"
   },
   {
-   "id": "net_debt_to_ebitda",
-   "zh": "淨負債／EBITDA",
-   "en": "Net Debt / EBITDA",
+   "id": "equity_ratio",
+   "zh": "股東權益比率",
+   "en": "Equity Ratio",
    "group": "財務結構",
-   "formula": "net_debt / (ebitda * 4)",
-   "desc": "以現有獲利能力還清淨負債需幾年。超過 3–4 倍在多數產業被視為偏高，且是債務條款（covenant）常見的觸發門檻。"
+   "formula": "equity / total_assets",
+   "fmt": "ratio",
+   "desc": "股東權益 ÷ 總資產。逐格對帳富途 AXON 五期全中。"
+  },
+  {
+   "id": "ib_debt_to_assets",
+   "zh": "有息負債率",
+   "en": "Interest-Bearing Debt / Assets",
+   "group": "財務結構",
+   "formula": "debt_total / total_assets",
+   "fmt": "ratio",
+   "desc": "有息負債 ÷ 總資產。有息負債含長期租賃負債、不含流動租賃負債 —— 這個範圍是對帳定出來的：AXON 不含租賃 32.30%、含長期租賃 33.01%、再含流動租賃 33.16%，富途顯示 33.01%。"
   },
   {
    "id": "debt_to_equity",
@@ -1536,11 +1838,54 @@
    "desc": "財務槓桿程度。判讀 ROE 時必看的配套指標。"
   },
   {
-   "id": "interest_coverage",
+   "id": "net_debt",
+   "zh": "淨負債",
+   "en": "Net Debt",
+   "group": "財務結構",
+   "formula": "debt_total - cash - short_term_investments",
+   "desc": "負值代表淨現金部位。這是併購能力與抗景氣衰退能力的直接量度。"
+  },
+  {
+   "id": "lease_liab_total",
+   "zh": "營業租賃負債合計",
+   "en": "Operating Lease Liability, Total",
+   "group": "財務結構",
+   "formula": "operating_lease_liab_current + operating_lease_liab_nc",
+   "fmt": "usd",
+   "desc": "流動＋非流動的租賃義務。零售、航空、餐飲只看有息負債會低估真實槓桿。"
+  },
+  {
+   "id": "net_debt_to_ebitda_ttm",
+   "zh": "淨負債／EBITDA",
+   "en": "Net Debt / EBITDA",
+   "formula": "net_debt / ebitda_ttm",
+   "fmt": "multiple",
+   "group": "財務結構",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "net_debt_to_ebitda",
+   "zh": "淨負債／EBITDA（單季）",
+   "en": "Net Debt / EBITDA (Quarterly)",
+   "group": "財務結構",
+   "formula": "net_debt / (ebitda * 4)",
+   "desc": "以現有獲利能力還清淨負債需幾年。超過 3–4 倍在多數產業被視為偏高，且是債務條款（covenant）常見的觸發門檻。"
+  },
+  {
+   "id": "interest_coverage_ttm",
    "zh": "利息保障倍數",
    "en": "Interest Coverage",
+   "formula": "(pretax_income_ttm + interest_expense_ttm) / interest_expense_ttm",
+   "fmt": "multiple",
    "group": "財務結構",
-   "formula": "operating_income / interest_expense",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "interest_coverage",
+   "zh": "利息保障倍數（單季）",
+   "en": "Interest Coverage (Quarterly)",
+   "group": "財務結構",
+   "formula": "(pretax_income + interest_expense) / interest_expense",
    "inapplicable_if_zero": "interest_expense",
    "inapplicable_note": "利息費用為 0 ＝ 公司沒有有息負債（PANW 還清可轉債後就是），保障倍數無從談起，屬「不適用」而非「查不到」。除以 0 若照原樣包 IFERROR 會寫成 n/a，把「沒有負債」講成「資料缺漏」。",
    "desc": "營業利益是利息費用的幾倍。低於 2 進入警戒，低於 1 代表本業獲利無法支應利息。升息循環中此指標的惡化速度最能反映脆弱度。"
@@ -1554,6 +1899,15 @@
    "desc": "扣除維持營運所需投資後真正可自由分配的現金。這是最難被會計手法修飾的數字，也是估值的最終基礎。"
   },
   {
+   "id": "fcf_margin_level_ttm",
+   "zh": "自由現金流利潤率（水準，滾動四季）",
+   "en": "FCF Margin TTM (level)",
+   "formula": "(cfo_ttm - capex_ttm) / revenue_ttm",
+   "fmt": "ratio",
+   "group": "現金流品質",
+   "desc": "與 fcf_margin_ttm 同義，另立 id 是為了讓「水準分」與「年變化」在設定檔裡分得開。　滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
    "id": "fcf_margin",
    "zh": "自由現金流利潤率",
    "en": "FCF Margin",
@@ -1562,9 +1916,27 @@
    "desc": "每一元營收轉換成自由現金的比例。與淨利率長期背離，是財報品質的紅旗。"
   },
   {
+   "id": "fcf_to_net_income_ttm",
+   "zh": "自由現金流對淨利比（滾動四季）",
+   "en": "FCF / Net Income TTM",
+   "group": "現金流品質",
+   "formula": "(cfo_ttm - capex_ttm) / net_income_ttm",
+   "fmt": "ratio",
+   "desc": "滾動四季自由現金流 ÷ 滾動四季淨利。逐格對帳富途 AXON 五期全中。 淨利為負時這個比值沒有意義（會是漂亮的負數）。"
+  },
+  {
+   "id": "ocf_to_net_income_ttm",
+   "zh": "現金含量",
+   "en": "CFO / Net Income",
+   "group": "現金流品質",
+   "formula": "cfo_ttm / net_income_ttm",
+   "fmt": "multiple",
+   "desc": "滾動四季的營運現金流除以滾動四季淨利。低於 1 代表帳上的獲利沒有變成現金，差額通常卡在應收、存貨或其他營運資金。用四季合計而不是單季，是因為單季的比值會被期末的一收一放主導，看起來像轉折其實只是時點。淨利為負時比值沒有意義，會作廢成 n/a。"
+  },
+  {
    "id": "ocf_to_net_income",
-   "zh": "營運現金流對淨利比",
-   "en": "OCF / Net Income",
+   "zh": "營運現金流對淨利比（單季）",
+   "en": "OCF / Net Income (Quarterly)",
    "group": "現金流品質",
    "formula": "cfo / net_income",
    "desc": "盈餘品質的核心檢驗。健康公司長期應大於 1（因為折舊加回）。持續小於 1 代表帳上賺錢但現金沒進來——應收帳款或存貨在膨脹，這是最重要的一個舞弊偵測指標。"
@@ -1578,9 +1950,18 @@
    "desc": "維持與擴張營運所需的再投資比例。持續攀升代表產業轉向資本密集，或公司正在押注新產能。"
   },
   {
-   "id": "sbc_to_revenue",
+   "id": "sbc_to_revenue_ttm",
    "zh": "股份基礎給付佔營收比",
    "en": "SBC / Revenue",
+   "formula": "sbc_ttm / revenue_ttm",
+   "fmt": "ratio",
+   "group": "股東權益稀釋",
+   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
+  },
+  {
+   "id": "sbc_to_revenue",
+   "zh": "股份基礎給付佔營收比（單季）",
+   "en": "SBC / Revenue (Quarterly)",
    "group": "股東權益稀釋",
    "formula": "sbc / revenue",
    "desc": "以股權支付的薪酬規模。它不影響現金流但實質稀釋股東，科技業常高達營收 10–20%。用 non-GAAP 獲利評價時，若把 SBC 加回卻忽略稀釋，會系統性高估價值。"
@@ -1602,17 +1983,35 @@
    "desc": "以買回加股利形式回饋股東的現金總額。除以 FCF 即為回饋率，超過 100% 代表動用現金存量或舉債支應，不可持續。"
   },
   {
-   "id": "rnd_intensity",
+   "id": "rnd_intensity_ttm",
    "zh": "研發費用率",
    "en": "R&D / Revenue",
+   "group": "費用結構",
+   "formula": "rnd_ttm / revenue_ttm",
+   "fmt": "ratio",
+   "desc": "滾動四季研發費用 ÷ 滾動四季營收。逐格對帳富途 AXON 五期全中。"
+  },
+  {
+   "id": "rnd_intensity",
+   "zh": "研發費用率（單季）",
+   "en": "R&D / Revenue (Quarterly)",
    "group": "費用結構",
    "formula": "rnd / revenue",
    "desc": "投入創新的強度。同業橫向比較才有意義，且須與毛利率趨勢對照——高研發若換不到毛利率擴張，代表投入未轉化為競爭優勢。"
   },
   {
-   "id": "sgna_intensity",
+   "id": "sgna_intensity_ttm",
    "zh": "銷管費用率",
    "en": "SG&A / Revenue",
+   "group": "費用結構",
+   "formula": "sgna_ttm / revenue_ttm",
+   "fmt": "ratio",
+   "desc": "滾動四季銷管費用 ÷ 滾動四季營收。滾動四季。單季年化會把季節性讀成體質變化；外部網站（富途等）的同名欄位也都是滾動四季。"
+  },
+  {
+   "id": "sgna_intensity",
+   "zh": "銷管費用率（單季）",
+   "en": "SG&A / Revenue (Quarterly)",
    "group": "費用結構",
    "formula": "sgna / revenue",
    "desc": "營收擴張時此比率應下降，代表規模經濟。若隨營收同步上升，代表成長是靠燒錢買來的。"
@@ -1757,51 +2156,6 @@
    "desc": "股東權益的年增率。真正的價值創造最後會沉澱在這裡；大量回購的公司這一格會被壓低甚至為負，那不是惡化，要跟股東回饋總額一起看。"
   },
   {
-   "id": "revenue_ttm",
-   "zh": "營收（滾動四季）",
-   "en": "Revenue TTM",
-   "group": "轉折訊號",
-   "formula": "(revenue[t] + revenue[t-1] + revenue[t-2] + revenue[t-3])",
-   "fmt": "usd",
-   "desc": "最近四季營收合計。滾動四季合計。單季的現金流量科目跳動極大（大額稅款、預付、應收在期末的一收一放），拿單季比單季會做出隨機的結論——NVDA 的營運現金流對淨利比實測在 0.40～1.46 之間逐季彈跳。**外國發行人（20-F）一欄就是一整年，滾動四季沒有意義，這一列顯示「—」**，那時看的是同名的單期指標。"
-  },
-  {
-   "id": "net_income_ttm",
-   "zh": "淨利（滾動四季）",
-   "en": "Net Income TTM",
-   "group": "轉折訊號",
-   "formula": "(net_income[t] + net_income[t-1] + net_income[t-2] + net_income[t-3])",
-   "fmt": "usd",
-   "desc": "最近四季淨利合計。滾動四季合計。單季的現金流量科目跳動極大（大額稅款、預付、應收在期末的一收一放），拿單季比單季會做出隨機的結論——NVDA 的營運現金流對淨利比實測在 0.40～1.46 之間逐季彈跳。**外國發行人（20-F）一欄就是一整年，滾動四季沒有意義，這一列顯示「—」**，那時看的是同名的單期指標。"
-  },
-  {
-   "id": "cfo_ttm",
-   "zh": "營運現金流（滾動四季）",
-   "en": "CFO TTM",
-   "group": "轉折訊號",
-   "formula": "(cfo[t] + cfo[t-1] + cfo[t-2] + cfo[t-3])",
-   "fmt": "usd",
-   "desc": "最近四季營運活動現金流合計。滾動四季合計。單季的現金流量科目跳動極大（大額稅款、預付、應收在期末的一收一放），拿單季比單季會做出隨機的結論——NVDA 的營運現金流對淨利比實測在 0.40～1.46 之間逐季彈跳。**外國發行人（20-F）一欄就是一整年，滾動四季沒有意義，這一列顯示「—」**，那時看的是同名的單期指標。"
-  },
-  {
-   "id": "capex_ttm",
-   "zh": "資本支出（滾動四季）",
-   "en": "CapEx TTM",
-   "group": "轉折訊號",
-   "formula": "(capex[t] + capex[t-1] + capex[t-2] + capex[t-3])",
-   "fmt": "usd",
-   "desc": "最近四季資本支出合計。滾動四季合計。單季的現金流量科目跳動極大（大額稅款、預付、應收在期末的一收一放），拿單季比單季會做出隨機的結論——NVDA 的營運現金流對淨利比實測在 0.40～1.46 之間逐季彈跳。**外國發行人（20-F）一欄就是一整年，滾動四季沒有意義，這一列顯示「—」**，那時看的是同名的單期指標。"
-  },
-  {
-   "id": "ocf_to_net_income_ttm",
-   "zh": "現金含量（滾動四季）",
-   "en": "CFO / Net Income TTM",
-   "group": "轉折訊號",
-   "formula": "cfo_ttm / net_income_ttm",
-   "fmt": "multiple",
-   "desc": "滾動四季的營運現金流除以滾動四季淨利。低於 1 代表帳上的獲利沒有變成現金，差額通常卡在應收、存貨或其他營運資金。用四季合計而不是單季，是因為單季的比值會被期末的一收一放主導，看起來像轉折其實只是時點。淨利為負時比值沒有意義，會作廢成 n/a。"
-  },
-  {
    "id": "fcf_margin_ttm",
    "zh": "自由現金流利潤率（滾動四季）",
    "en": "FCF Margin TTM",
@@ -1873,231 +2227,6 @@
    "formula": "prepaid_expense / (revenue * 4)",
    "fmt": "ratio",
    "desc": "預付費用及其他流動資產相當於多少比例的**年化**營收。上升代表公司提前把錢押在未來的產能或原料上。分母年化是為了讓 10-Q 公司（一欄一季）與 20-F 外國發行人（一欄一年）這一列可比 —— 不年化的話同一個數字在兩種公司身上差四倍。"
-  },
-  {
-   "id": "lease_liab_total",
-   "zh": "營業租賃負債合計",
-   "en": "Operating Lease Liability, Total",
-   "group": "財務結構",
-   "formula": "operating_lease_liab_current + operating_lease_liab_nc",
-   "fmt": "usd",
-   "desc": "流動＋非流動的租賃義務。零售、航空、餐飲只看有息負債會低估真實槓桿。"
-  },
-  {
-   "id": "cogs_ttm",
-   "zh": "營業成本（滾動四季）",
-   "en": "COGS TTM",
-   "formula": "(cogs[t] + cogs[t-1] + cogs[t-2] + cogs[t-3])",
-   "fmt": "usd",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "gross_profit_ttm",
-   "zh": "毛利（滾動四季）",
-   "en": "Gross Profit TTM",
-   "formula": "(gross_profit[t] + gross_profit[t-1] + gross_profit[t-2] + gross_profit[t-3])",
-   "fmt": "usd",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "operating_income_ttm",
-   "zh": "營業利益（滾動四季）",
-   "en": "Operating Income TTM",
-   "formula": "(operating_income[t] + operating_income[t-1] + operating_income[t-2] + operating_income[t-3])",
-   "fmt": "usd",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "pretax_income_ttm",
-   "zh": "稅前淨利（滾動四季）",
-   "en": "Pretax Income TTM",
-   "formula": "(pretax_income[t] + pretax_income[t-1] + pretax_income[t-2] + pretax_income[t-3])",
-   "fmt": "usd",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "income_tax_ttm",
-   "zh": "所得稅費用（滾動四季）",
-   "en": "Income Tax TTM",
-   "formula": "(income_tax[t] + income_tax[t-1] + income_tax[t-2] + income_tax[t-3])",
-   "fmt": "usd",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "dna_ttm",
-   "zh": "折舊及攤銷（滾動四季）",
-   "en": "D&A TTM",
-   "formula": "(dna[t] + dna[t-1] + dna[t-2] + dna[t-3])",
-   "fmt": "usd",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "interest_expense_ttm",
-   "zh": "利息費用（滾動四季）",
-   "en": "Interest Expense TTM",
-   "formula": "(interest_expense[t] + interest_expense[t-1] + interest_expense[t-2] + interest_expense[t-3])",
-   "fmt": "usd",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "sbc_ttm",
-   "zh": "股份基礎給付（滾動四季）",
-   "en": "SBC TTM",
-   "formula": "(sbc[t] + sbc[t-1] + sbc[t-2] + sbc[t-3])",
-   "fmt": "usd",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "ebitda_ttm",
-   "zh": "EBITDA（滾動四季）",
-   "en": "EBITDA TTM",
-   "formula": "operating_income_ttm + dna_ttm",
-   "fmt": "usd",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "gross_margin_ttm",
-   "zh": "毛利率（滾動四季）",
-   "en": "Gross Margin TTM",
-   "formula": "gross_profit_ttm / revenue_ttm",
-   "fmt": "ratio",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "operating_margin_ttm",
-   "zh": "營業利益率（滾動四季）",
-   "en": "Operating Margin TTM",
-   "formula": "operating_income_ttm / revenue_ttm",
-   "fmt": "ratio",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "net_margin_ttm",
-   "zh": "淨利率（滾動四季）",
-   "en": "Net Margin TTM",
-   "formula": "net_income_ttm / revenue_ttm",
-   "fmt": "ratio",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "roe_ttm",
-   "zh": "股東權益報酬率（滾動四季）",
-   "en": "ROE TTM",
-   "formula": "net_income_ttm / ((equity + equity[t-4]) / 2)",
-   "fmt": "ratio",
-   "group": "轉折訊號",
-   "desc": "分子改用滾動四季淨利，取代「單季 ×4」。單季年化對季節性生意會做出四個完全不同的 ROE。　滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "roic_ttm",
-   "zh": "投入資本報酬率（滾動四季）",
-   "en": "ROIC TTM",
-   "formula": "operating_income_ttm * (1 - income_tax_ttm / pretax_income_ttm) / (((equity + equity[t-4]) / 2) + ((debt_total + debt_total[t-4]) / 2) - ((cash + cash[t-4]) / 2))",
-   "fmt": "ratio",
-   "group": "轉折訊號",
-   "desc": "稅率也用滾動四季算，避免單季一次性稅務項目把稅後營業利益扭曲。　滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "asset_turnover_ttm",
-   "zh": "總資產週轉率（滾動四季）",
-   "en": "Asset Turnover TTM",
-   "formula": "revenue_ttm / ((total_assets + total_assets[t-4]) / 2)",
-   "fmt": "multiple",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "fcf_margin_level_ttm",
-   "zh": "自由現金流利潤率（水準，滾動四季）",
-   "en": "FCF Margin TTM (level)",
-   "formula": "(cfo_ttm - capex_ttm) / revenue_ttm",
-   "fmt": "ratio",
-   "group": "轉折訊號",
-   "desc": "與 fcf_margin_ttm 同義，另立 id 是為了讓「水準分」與「年變化」在設定檔裡分得開。　滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "dso_ttm",
-   "zh": "應收帳款週轉天數（滾動四季）",
-   "en": "DSO TTM",
-   "formula": "((accounts_receivable + accounts_receivable[t-4]) / 2) / revenue_ttm * 365",
-   "fmt": "days",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "dio_ttm",
-   "zh": "存貨週轉天數（滾動四季）",
-   "en": "DIO TTM",
-   "formula": "((inventory + inventory[t-4]) / 2) / cogs_ttm * 365",
-   "fmt": "days",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "dpo_ttm",
-   "zh": "應付帳款週轉天數（滾動四季）",
-   "en": "DPO TTM",
-   "formula": "((accounts_payable + accounts_payable[t-4]) / 2) / cogs_ttm * 365",
-   "fmt": "days",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "ccc_ttm",
-   "zh": "現金轉換循環（滾動四季）",
-   "en": "Cash Conversion Cycle TTM",
-   "formula": "dso_ttm + dio_ttm - dpo_ttm",
-   "fmt": "days",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "net_debt_to_ebitda_ttm",
-   "zh": "淨負債／EBITDA（滾動四季）",
-   "en": "Net Debt / EBITDA TTM",
-   "formula": "net_debt / ebitda_ttm",
-   "fmt": "multiple",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "interest_coverage_ttm",
-   "zh": "利息保障倍數（滾動四季）",
-   "en": "Interest Coverage TTM",
-   "formula": "operating_income_ttm / interest_expense_ttm",
-   "fmt": "multiple",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "sbc_to_revenue_ttm",
-   "zh": "股份基礎給付佔營收比（滾動四季）",
-   "en": "SBC / Revenue TTM",
-   "formula": "sbc_ttm / revenue_ttm",
-   "fmt": "ratio",
-   "group": "轉折訊號",
-   "desc": "滾動四季。**單季直接對固定門檻打分，會把季節性讀成體質變化**——可口可樂 Q1 與 Q4 的利潤率結構本來就不同，實測總分逐季在 39～69 之間跳。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，評分那邊自動退回同名的單期指標。"
-  },
-  {
-   "id": "revenue_yoy_ttm",
-   "zh": "營收年增率（滾動四季）",
-   "en": "Revenue YoY TTM",
-   "formula": "revenue_ttm[t] / revenue_ttm[t-4] - 1",
-   "fmt": "ratio",
-   "group": "轉折訊號",
-   "desc": "比較基準也是滾動四季（本期四季 vs 去年同期四季）。單季對單季的年增率會把一次性的出貨時點讀成轉折 —— 實測評分逐季震盪 ±13～20 分，換成滾動四季之後才看得出真正的方向。年度發行人一欄＝一整年，本列顯示「—」，評分自動退回單期版本。"
   },
   {
    "id": "revenue_accel_ttm",
@@ -2457,16 +2586,6 @@
    "en": "Net Interest Margin (TTM)",
    "group": "金融業評分",
    "formula": "interest_income_net_ttm / ((total_assets + total_assets[t-4]) / 2)",
-   "desc": "",
-   "sector": "financial",
-   "fmt": "ratio"
-  },
-  {
-   "id": "roa_ttm",
-   "zh": "資產報酬率（滾動四季）",
-   "en": "Return on Assets (TTM)",
-   "group": "金融業評分",
-   "formula": "net_income_ttm / ((total_assets + total_assets[t-4]) / 2)",
    "desc": "",
    "sector": "financial",
    "fmt": "ratio"

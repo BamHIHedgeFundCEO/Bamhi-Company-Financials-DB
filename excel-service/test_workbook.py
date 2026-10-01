@@ -75,7 +75,10 @@ std_row = _bs_row("短期借款及一年內到期長期負債")
 assert bs.cell(std_row, 3).value == "n/a", bs.cell(std_row, 3).value
 
 m = wb["關鍵指標"]
-gm_row = next(r for r in range(2, 60) if m.cell(r, 1).value == "毛利率")
+# 主表的「毛利率」已經是滾動四季版（對齊富途），它參照的是本分頁的 TTM 原始值列；
+# 要驗「引用損益表」這件事得找單季那一列。兩列都要存在，少一列就是排版改壞了。
+assert any(m.cell(r, 1).value == "毛利率" for r in range(2, 90)), "滾動四季版主列不見了"
+gm_row = next(r for r in range(2, 90) if m.cell(r, 1).value == "毛利率（單季）")
 f = m.cell(gm_row, 3).value
 assert isinstance(f, str) and f.startswith("=IFERROR("), f
 assert "損益表" in f
@@ -84,18 +87,21 @@ assert "損益表" in f
 assert 'ERROR.TYPE' in f and '"無定義"' in f, f
 assert m.cell(gm_row, 1).comment is not None, "指標名稱要有 hover 註解"
 
-yoy_row = next(r for r in range(2, 60) if m.cell(r, 1).value == "營收年增率")
+yoy_row = next(r for r in range(2, 90) if m.cell(r, 1).value == "營收年增率（單季）")
 # 比較基期落在所選區間之外 → 「—」（不適用），不是 n/a（該有卻查不到）。
 # 這條在 workbook.py 判「不適用」時就分流了，測試曾停留在舊語意。
 assert m.cell(yoy_row, 3).value == "—", "比較基期不在區間內時 YoY 應為「—」"
 assert str(m.cell(yoy_row, 3 + 4).value).startswith("=IFERROR("), m.cell(yoy_row, 7).value
 
 # 僅維度揭露要沿公式傳到指標層：負債權益比的分子取不到，寫 n/a 會與轉折點頁矛盾
-de_row = next(r for r in range(2, 60) if m.cell(r, 1).value == "負債權益比")
+de_row = next(r for r in range(2, 90) if m.cell(r, 1).value == "負債權益比")
 assert m.cell(de_row, 3).value == "僅維度揭露", m.cell(de_row, 3).value
 
-roe_row = next(r for r in range(2, 60) if m.cell(r, 1).value == "股東權益報酬率")
-assert "資產負債表" in str(m.cell(roe_row, 4).value)
+# 主列是滾動四季版，分母 (equity + equity[t-4])/2 仍然引用資產負債表；
+# 單季版的 avg(equity) 也引用它。兩列都查，確認換口徑沒有把跨分頁參照弄丟。
+roe_row = next(r for r in range(2, 90) if m.cell(r, 1).value == "股東權益報酬率")
+roe_q_row = next(r for r in range(2, 90) if m.cell(r, 1).value == "股東權益報酬率（單季）")
+assert "資產負債表" in str(m.cell(roe_q_row, 4).value), m.cell(roe_q_row, 4).value
 
 # 圖表存在
 assert len(is_ws._charts) >= 3, f"損益表應有 3 張圖，得 {len(is_ws._charts)}"

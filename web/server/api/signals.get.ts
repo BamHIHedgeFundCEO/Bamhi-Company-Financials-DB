@@ -276,5 +276,27 @@ export default defineEventHandler(async (event) => {
     layers: cfg.layers,
     signals,
     note: cfg.note,
+    /**
+     * `?audit=1` 才回傳：**每一個**指標的逐期值。
+     *
+     * 存在的理由是「對齊外部網站時，誰會從有值變成沒值」這一類錯連踩三次
+     * （速動比率、EBITDA、ROIC），而且前兩次是等覆蓋率統計事後才發現的。
+     * `tools/metric_audit.py` 拿這份做全市場的恆等式與前後對照排查。
+     *
+     * **刻意不另開端點、也不另寫求值器**：`computeMetrics` 本來就把 175 個指標
+     * 全算完了，signals 只是挑著回傳。迷你公式語言已經有三份實作（TS／formulas.py／
+     * peer_stats.py），稽核再寫一份就等於拿一個可能不一致的東西去查正確性。
+     * 這裡吐出來的就是網頁與評分用的同一份值。
+     */
+    allMetrics: query.audit === '1'
+      ? [...metrics.entries()].map(([id, m]) => ({
+          id,
+          zh: m.zh,
+          group: m.group,
+          formula: m.formula,
+          inapplicable: m.inapplicable,
+          cells: m.cells.slice(lookback).map((c) => ({ value: c.value, reason: c.reason })),
+        }))
+      : undefined,
   }
 })

@@ -1,5 +1,5 @@
 {
- "version": "1.35",
+ "version": "1.36",
  "updated": "2026-09-24",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -1462,6 +1462,15 @@
    "desc": "稅前淨利 ＋ 利息費用。利息保障倍數與 EBIT 利潤率的分子。"
   },
   {
+   "id": "finance_cost_ttm",
+   "zh": "財務費用（滾動四季）",
+   "en": "Finance Cost TTM",
+   "group": "滾動四季原始值",
+   "formula": "ebit_ttm - pretax_income_ttm",
+   "fmt": "usd",
+   "desc": "財務費用 ＝ EBIT − 稅前淨利，也就是利息費用；**沒有申報利息費用的公司這一格是 0 而不是空的**，因為 `ebit` 科目已經把利息設成選用項。直接寫 `interest_expense` 的話，蘋果這種「有負債但不單獨揭露利息」的公司 ROIC 會整列消失（實測 AAPL 的 roic_ttm 與 interest_coverage_ttm 都是空的）—— 利息保障倍數沒有利息確實算不出來，但 ROIC 不該因此沒有：富途的分子是「淨利 ＋ 財務費用」，沒有財務費用就是淨利。"
+  },
+  {
    "id": "dna_ttm",
    "zh": "折舊及攤銷（滾動四季）",
    "en": "D&A TTM",
@@ -1556,6 +1565,15 @@
    "group": "成長性",
    "formula": "net_income[t] / net_income[t-4] - 1",
    "desc": "與營收年增率並列看。淨利增速持續高於營收，代表營運槓桿正在發揮；持續低於營收，代表成本失控或費用擴張。"
+  },
+  {
+   "id": "finance_cost",
+   "zh": "財務費用（單季）",
+   "en": "Finance Cost (Quarterly)",
+   "group": "獲利能力",
+   "formula": "ebit - pretax_income",
+   "fmt": "usd",
+   "desc": "財務費用 ＝ EBIT − 稅前淨利，也就是利息費用；**沒有申報利息費用的公司這一格是 0 而不是空的**，因為 `ebit` 科目已經把利息設成選用項。直接寫 `interest_expense` 的話，蘋果這種「有負債但不單獨揭露利息」的公司 ROIC 會整列消失（實測 AAPL 的 roic_ttm 與 interest_coverage_ttm 都是空的）—— 利息保障倍數沒有利息確實算不出來，但 ROIC 不該因此沒有：富途的分子是「淨利 ＋ 財務費用」，沒有財務費用就是淨利。"
   },
   {
    "id": "gross_margin_ttm",
@@ -1718,7 +1736,7 @@
    "id": "roic_ttm",
    "zh": "投入資本報酬率",
    "en": "ROIC",
-   "formula": "(net_income_ttm + interest_expense_ttm) / (((equity + equity[t-4]) / 2) + ((debt_total + debt_total[t-4]) / 2))",
+   "formula": "(net_income_ttm + finance_cost_ttm) / (((equity + equity[t-4]) / 2) + ((debt_total + debt_total[t-4]) / 2))",
    "fmt": "ratio",
    "group": "獲利能力",
    "desc": "滾動四季版。富途公布的定義（資本回報率（ROIC）＝（淨利潤＋財務費用）/（淨資產＋有息負債）），元件範圍逐格對帳驗過：AXON 的財務槓桿 227.47%、股東權益比率 43.96%、有息負債率 33.01%、長期負債股東權益比率 64.86% 五期全中。 逐格對帳：NVDA 四期與富途差 1.2～2.0pp、AXON 六期差 1.0～2.0pp —— 殘差來自他們資料商對淨利與餘額的標準化（沒有公開），公式與元件範圍本身是他們的，不是我們自編的。年度發行人（20-F 一欄＝一整年）這一列顯示「—」，評分自動退回同名的單期指標。"
@@ -1728,7 +1746,7 @@
    "zh": "投入資本報酬率（單季）",
    "en": "ROIC (Quarterly)",
    "group": "獲利能力",
-   "formula": "(net_income + interest_expense) * 4 / (avg(equity) + avg(debt_total))",
+   "formula": "(net_income + finance_cost) * 4 / (avg(equity) + avg(debt_total))",
    "desc": "衡量本業投入資本的真實回報。富途公布的定義（資本回報率（ROIC）＝（淨利潤＋財務費用）/（淨資產＋有息負債）），元件範圍逐格對帳驗過：AXON 的財務槓桿 227.47%、股東權益比率 43.96%、有息負債率 33.01%、長期負債股東權益比率 64.86% 五期全中。 舊版用 NOPAT＝營業利益×(1−所得稅/稅前淨利)，而那個乘數在稅前淨利趨近 0 時會爆：實測全市場 14.3% 的格子有效稅率落在 [0,1] 之外，3.7% 的格子把營業利益放大 1.5 倍以上（CZR FY2024 Q1 稅前淨利只有 −200 萬、稅率 41,200% → 23.5 億的營業利益被乘上 −411）。富途的式子沒有稅率，從結構上就不會有這個問題。"
   },
   {

@@ -296,6 +296,20 @@ export async function loadThemeVersion(): Promise<string> {
 }
 
 /**
+ * **取值管線的版號。改動「同一份 companyfacts 會算出什麼」就要加一。**
+ *
+ * Excel 的快取 key 原本只帶 config 的版號（map／segment_axes／class_shares／theme），
+ * 理由是「設定層能改完的就不改程式」。但有一類改動只住在程式裡：收不收某一筆事實、
+ * 期間清單怎麼長、沿用幾期。那種改動之後網頁立刻就對了（`getFinancials` 不快取
+ * 計算結果，只有 SEC 原始回應進快取，而已申報財報不可變），**R2 上的活頁簿卻永遠
+ * 命中舊版** —— 使用者下載到的還是有幽靈季那一欄，而且沒有任何地方會報錯。
+ * 這與「版面設定改版要進快取 key」是同一條規則，只是那裡是 config、這裡是程式。
+ *
+ * 1 → 2：`filed < end` 的事實一律不收（edge case 2c，幽靈季）
+ */
+export const PIPELINE_VERSION = '2'
+
+/**
  * 一個科目在留白時該寫什麼。階梯與 `metrics.ts` 的 `worse()` 同序，
  * `excel-service/workbook.py` 的三大報表分頁是同一道 —— 同一格在下載檔、
  * CSV、轉折點頁不能給三種說法。
@@ -501,15 +515,26 @@ function collect(points: FactPoint[], flow: boolean, fyeMonth: number,
       if (alts) prev._alts = alts
     }
   }
-  // 期末日在未來的事實一律不收。已申報的財報不會有未來的期末日 —— 那種事實來自
-  // **負債到期表**：PennyMac 把可轉債的到期日（2027-03-31…2028-06-30，共 52 筆）
-  // 掛在 `ConvertibleNotesPayable` 上，於是期間清單長出 FY2027 Q2–Q4 三個幽靈季，
-  // 而評分取的是最新一期 → 整頁 0 項算得出來、覆蓋率 0.0%。
-  // 用「今天」當界線而不是「最後一次申報日」：後者在剛換季時會把剛發布的財報砍掉。
+  // **申報日早於期末的事實一律不收**。已申報的財報不可能在期末之前就申報出來，
+  // 所以 `filed < end` 的事實全部來自**前瞻性的附註表格**：負債到期表（PennyMac 把
+  // 可轉債的 2027-03-31…2028-06-30 共 52 筆掛在 `ConvertibleNotesPayable` 上）、
+  // 無形資產攤銷的未來年度預估、預計退休金提撥、回購授權額度、信用額度上限。
+  // 全市場實測 5,189 筆／52,806,126 筆（0.010%），前 25 個標籤清一色是這類揭露。
+  //
+  // 這條**包含**舊的「期末日在未來」：end > 今天 ⇒ filed ≤ 今天 < end。
+  // 舊規則只擋得住還沒到的那幾季，**期末日一旦變成「過去」，同一筆事實就會生出一個
+  // 沒有任何人申報過的幽靈季**——CleanSpark 的 FY2026 Q4（2026-09-30 剛結束、
+  // 還沒申報）就是這樣冒出來的，來源是 2020–2023 年申報的無形資產攤銷預估表
+  // （start 2025-10-01、end 2026-09-30）。評分取最新一期 → 那一期只有一個補 0 的值
+  // 加上一堆沿用前期 → 整頁拿不到總分。
+  //
+  // 每筆事實各帶自己的 filed，所以沒有「用最後一次申報日當界線」那個問題：剛發布的
+  // 那份財報 filed >= end，照收。今天那道界線保留當第二道（filed 若缺值仍擋得住）。
   const todayISO = new Date().toISOString().slice(0, 10)
   for (const p of points) {
     if (!p.end) continue
     if (p.end > todayISO) continue
+    if (p.filed && p.filed < p.end) continue
     if (flow) {
       const days = spanDays(p)
       if (days === null) continue

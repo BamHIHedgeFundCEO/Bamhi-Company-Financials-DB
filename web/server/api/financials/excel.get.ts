@@ -1,6 +1,6 @@
 import { defineEventHandler, getQuery, createError, sendRedirect, setHeader } from 'h3'
 import { resolveCompany } from '../../utils/cik'
-import { getFinancials, loadMap, loadClassSharesVersion, loadThemeVersion } from '../../utils/financials'
+import { getFinancials, loadMap, loadClassSharesVersion, loadThemeVersion, PIPELINE_VERSION } from '../../utils/financials'
 import { parseTickers, parseRange, clampPeriods, clampWithLookback } from '../../utils/params'
 import { computeValuation } from '../../utils/valuation'
 import { getFilings } from '../../utils/filings'
@@ -10,7 +10,9 @@ import type { SegmentsResult } from '../../utils/segments'
 /**
  * GET /api/financials/excel?ticker=AAPL&from=2021Q1&to=2026Q2
  *
- * 快取 key：{ticker}_{from}_{to}_{mapVersion}_s{segVersion}_c{classShares}_t{theme}
+ * 快取 key：{ticker}_{from}_{to}_{mapVersion}_s{segVersion}_c{classShares}_t{theme}_p{pipeline}
+ * `p{pipeline}` 是取值管線版號：改「同一份 companyfacts 會算出什麼」的程式時要加一，
+ * 否則網頁已經修好了、使用者下載到的活頁簿還是舊的（見 `PIPELINE_VERSION`）
  * （對照表、分部設定、多股別股數預算檔、版面設定改版都會自動失效舊檔）。
  * 流程：R2 已有 → 直接 302 到 R2 URL（Cloud Run 不被喚醒）；
  *       沒有 → 呼叫 Cloud Run excel-service 生成並上傳 R2，再 302。
@@ -45,7 +47,7 @@ export default defineEventHandler(async (event) => {
   const thVersion = (await loadThemeVersion()) || '0'
   const from = `${range.fromFy}Q${range.fromQ}`
   const to = `${range.toFy}Q${range.toQ}`
-  const cacheKey = `${ref.ticker}_${from}_${to}_${mapVersion}_s${segVersion}_c${shVersion}_t${thVersion}.xlsx`
+  const cacheKey = `${ref.ticker}_${from}_${to}_${mapVersion}_s${segVersion}_c${shVersion}_t${thVersion}_p${PIPELINE_VERSION}.xlsx`
 
   // R2 命中判斷（單純的檔案存在性檢查，不是快取系統）
   const r2Base = process.env.R2_PUBLIC_BASE_URL

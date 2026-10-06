@@ -547,6 +547,50 @@ def resolve(box: Inbox, names: dict) -> dict:
     return out
 
 
+def fix_thousands(periods: dict) -> int:
+    """
+    VALUE 還在用「千美元」申報的機構 → 整份 ×1000。回傳修正的（期別, 機構）數。
+
+    2023 年起 13F 的 VALUE 一律以美元申報，但仍有機構沿用舊規定填千美元。
+    CAT 2026-03-31 實測：4,841 家申報裡 226 家（佔 4.2% 股數）的「市值 ÷ 股數」
+    是收盤價的千分之一 → 個股頁的「申報市值」總和系統性偏低約 4%，那些機構在
+    建倉／增持榜上的市值也小一千倍。
+
+    判準是**整份申報**、不是逐列：同一家機構不會一半填美元一半填千美元，
+    逐列判的話一檔剛好跌了 99.9% 的股票會被誤修。比較基準是同一期同一個 CUSIP
+    所有申報的每股價中位數（千美元那幾家只佔幾個百分點，拉不動中位數），
+    只用至少 5 家申報的 CUSIP 當證據；該機構所有可比列的比值中位數落在
+    [1/2000, 1/500] 才修 —— 真實的價格分歧（不同日期、填錯一列）不會整份同時差三個數量級。
+
+    **整份判定之後還要逐列確認**：有機構一份申報裡混著兩種單位。Banque Cantonale Vaudoise
+    75% 的列填千美元、CSCO 那一列卻填美元 —— 整份 ×1000 會把它的 CSCO 灌成 246 億美元，
+    CSCO 的申報市值總和反而高估 6%。所以只改「自己的比值也落在窗口內」的列；
+    沒有比較基準的列（不到 5 家申報的 CUSIP）只在該份 ≥90% 的可比列都落在窗口內時才改。
+    比值不在窗口內的列不碰：CalSTRS 的 CSCO 申報 7.06 億股、市值 601 萬，
+    那是股數填錯不是單位，乘 1000 也不會對
+    """
+    fixed = 0
+    for per, holders in periods.items():
+        px = defaultdict(list)
+        for v in holders.values():
+            for cu, (sh, val) in v.items():
+                if sh > 0 and val > 0:
+                    px[cu].append(val / sh)
+        ref = {cu: statistics.median(a) for cu, a in px.items() if len(a) >= 5}
+        inwin = lambda x: 1 / 2000 <= x <= 1 / 500
+        for cik, v in holders.items():
+            r = {cu: val / sh / ref[cu] for cu, (sh, val) in v.items()
+                 if sh > 0 and val > 0 and cu in ref and ref[cu] > 0}
+            if not r or not inwin(statistics.median(r.values())):
+                continue
+            uniform = sum(1 for x in r.values() if inwin(x)) >= 0.9 * len(r)
+            holders[cik] = {cu: ((sh, val * 1000)
+                                 if (inwin(r[cu]) if cu in r else uniform) else (sh, val))
+                            for cu, (sh, val) in v.items()}
+            fixed += 1
+    return fixed
+
+
 # ── 比較兩季 ────────────────────────────────────────────────
 def top(items, key, n=10):
     return sorted(items, key=key, reverse=True)[:n]
@@ -902,6 +946,8 @@ def main() -> None:
 
     names: dict = {}
     periods = resolve(box, names)
+    n_k = fix_thousands(periods)
+    print(f"    VALUE 以千美元申報、×1000：{n_k:,} 份（期別 × 機構）")
 
     order = sorted(periods, key=lambda d: time.strptime(d, "%d-%b-%Y"), reverse=True)
     print(f"    取得期別：{', '.join(order[:6])}")

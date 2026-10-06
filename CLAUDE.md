@@ -454,6 +454,14 @@
   所以它的產生日進了 Excel 快取 key（`_f{日期}`）。羅素 150 實測 67 家總分改變（中位 +1，
   −4～+20），大的全是 REIT（ADC +20、ARE／BRX／BXP +10）與 BG（+13）—— 營收原本只有附註分項，
   利潤率與週轉率全錯
+- **營業成本也走「報表上印的標籤」規則**（cogs 五個標籤全列 face_preferred_tags，兩個都在表上取較大）：
+  CAT 2025 Q1 取到 2,700 萬、BE 每季幾百萬，都是 CostOfGoodsAndServicesSold 標在附註分項。
+  **修一個科目就要掃全部科目**：`tools/face_audit.py <DERA zip>` 逐份申報比對「優先序挑到的標籤」與
+  「pre.txt 報表上的那一行」。2026q2 實測：營收、營業成本已無殘留；其餘落差多半是**刻意的定義**
+  而非抓錯 —— 折舊攤銷取合計（表上只印折舊）、淨利取歸屬母公司（表上先印含非控制權益）。
+  唯一像真錯的是現金：44 家一般公司（Sunrun、American Airlines…）挑到「含受限制現金」的現金流量表
+  合計，資產負債表上印的是不含受限制的 Cash；但 BDC 的 Cash 與約當現金分兩行，一律改用 Cash 會低估，
+  所以還沒改
 - **利息費用、折舊攤銷不得為負**（`nonnegative`）。負值 ＝ 標籤裝的不是這個東西：淨額標籤翻號
   後為負是淨利息**收入**（ADSK 利息保障倍數 −232.89）、BAX 的 `InterestExpenseNonoperating`
   上半年 −43M、AMP 的 `DepreciationAmortizationAndAccretionNet` 含折溢價攤銷整條是負的

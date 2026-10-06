@@ -49,7 +49,7 @@ def _inputs(formula: str) -> set:
     return {x for x in _IDENT.findall(formula) if x not in _NOT_CONCEPT}
 
 
-def _metric_flag_map(derived: list, flagged: set) -> dict:
+def _metric_flag_map(derived: list, flagged: set, seed: frozenset = frozenset()) -> dict:
     """
     科目層的留白理由，沿著公式傳到指標層。
 
@@ -65,9 +65,13 @@ def _metric_flag_map(derived: list, flagged: set) -> dict:
 
     `flagged` 是科目 id 的集合，呼叫端各自決定放哪一種旗標（不適用／僅維度揭露），
     兩種共用這支是因為傳遞規則完全一樣 —— 差別只在最後寫哪個字。
+
+    `seed` 是一開始就帶旗標的**指標** id（年度模式下公式含 `[t-1]` 的那些），
+    一樣沿公式往下傳。
     """
     ids = {m["id"] for m in derived}
-    na = {m["id"]: any(i in flagged for i in _inputs(m["formula"]) - ids) for m in derived}
+    na = {m["id"]: m["id"] in seed or any(i in flagged for i in _inputs(m["formula"]) - ids)
+          for m in derived}
     for _ in range(len(derived)):          # 最多傳 n 輪，穩定就停
         changed = False
         for m in derived:
@@ -416,7 +420,12 @@ def build_workbook(payload: dict) -> bytes:
     # 三大報表的適用性旗標（applicable=False ＝ 這家公司沒有這一行）
     inapplicable_ids = {li["id"] for li in fin["lineItems"] if li.get("applicable", True) is False}
     metric_ids = {x["id"] for x in fin["derived"]}
-    metric_na_by_id = _metric_flag_map(fin["derived"], inapplicable_ids)
+    # 年度模式（20-F 一欄＝一整年）：含 [t-1] 的公式（滾動四季、季增率）整條沒有意義。
+    # metrics.ts 把它們寫成「—」並沿公式傳下去（毛利率 TTM 引用營收 TTM），這裡原本寫
+    # n/a —— 同一格網頁說「不適用」、下載檔說「查不到」，讀者只會以為有一邊壞了
+    annual_void = frozenset(m["id"] for m in fin["derived"]
+                            if annual and "[t-1]" in m["formula"])
+    metric_na_by_id = _metric_flag_map(fin["derived"], inapplicable_ids, annual_void)
     # 僅維度揭露也要傳到指標層：AES／AMP／ARES／BRK-B 的長期負債只帶維度申報，
     # 負債權益比在轉折點頁寫「僅維度揭露」、在這裡寫 n/a，同一格兩種說法。
     # 只算「看得見的欄一格值都沒有」的科目 —— 有值的科目照樣算得出指標。

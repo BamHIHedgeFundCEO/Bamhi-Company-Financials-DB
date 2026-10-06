@@ -54,6 +54,24 @@
    "note": "產業層的適用性表，company_applicability 沒收錄的公司退回這一份。與它同一次批次產出，所以季別必須一致。"
   },
   {
+   "id": "face_tags",
+   "out": "config/face_tags.json",
+   "cmd": "python tools/face_tags.py <四包 zip> --out config/face_tags.json",
+   "depends": [
+    {
+     "file": "config/xbrl_zh_map.json",
+     "field": "version",
+     "stamp": "map_version"
+    }
+   ],
+   "vintage": {
+    "kind": "dera_quarters",
+    "field": "source",
+    "min_quarters": 4
+   },
+   "note": "報表上印的是哪一個標籤（pre.txt）。執行期據此決定營收取 Revenues 還是 ASC 606 的分項 —— ADM／Bunge／AMT／REIT 的 606 收入只是附註裡的一個分項。map 改了要重跑（只盤點帶 face_preferred_tags 的科目）；peer_stats 讀這一份，所以要先跑它、而且必須出自同一批 zip。"
+  },
+  {
    "id": "peer_stats",
    "out": "config/peer_stats.json",
    "cmd": "python tools/peer_stats.py <四包 zip> --score-dist",
@@ -155,6 +173,10 @@
     },
     {
      "file": "config/dim_only.json",
+     "path": "source"
+    },
+    {
+     "file": "config/face_tags.json",
      "path": "source"
     }
    ],

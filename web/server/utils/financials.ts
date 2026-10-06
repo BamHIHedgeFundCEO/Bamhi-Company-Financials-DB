@@ -1,5 +1,5 @@
 import { secFetchJson } from './secFetch'
-import { dimensionOnlyFor, notApplicableFor } from './applicability'
+import { dimensionOnlyFor, faceTagsFor, notApplicableFor } from './applicability'
 import { getSplitFacts } from './prices'
 import type { CompanyRef } from './cik'
 
@@ -150,6 +150,11 @@ export interface MapConcept {
     tolerance: number
   }
   tags: string[]
+  /**
+   * 印在報表上就勝過優先序的標籤（目前只有營收的 `Revenues`）。哪家公司印了哪一個
+   * 來自離線盤點 `config/face_tags.json`。理由見 map 裡 revenue 的 face_preferred_note
+   */
+  face_preferred_tags?: string[]
   tags_ifrs?: string[]
   /**
    * 這些標籤取到的值要乘 -1。用在「同一個科目、不同標籤的正負號慣例相反」的情況：
@@ -158,6 +163,8 @@ export interface MapConcept {
    * 不翻號的話「利息費用」那一列會混著兩種慣例，跨公司比較全錯。
    */
   negate_tags?: string[]
+  /** 這一列不可能是負的（利息費用、折舊攤銷）。負值 ＝ 標籤裝的不是這個東西，見 map 的 nonnegative_note */
+  nonnegative?: boolean
 }
 
 export interface DerivedMetric {
@@ -306,8 +313,9 @@ export async function loadThemeVersion(): Promise<string> {
  * 這與「版面設定改版要進快取 key」是同一條規則，只是那裡是 config、這裡是程式。
  *
  * 1 → 2：`filed < end` 的事實一律不收（edge case 2c，幽靈季）
+ * 2 → 3：報表上印的標籤勝過優先序（`face_preferred_tags`，營收取 Revenues 而非 ASC 606 分項）
  */
-export const PIPELINE_VERSION = '2'
+export const PIPELINE_VERSION = '3'
 
 /**
  * 一個科目在留白時該寫什麼。階梯與 `metrics.ts` 的 `worse()` 同序，
@@ -495,6 +503,47 @@ function consistentAnnual(
  * 同期間多筆（重編）→ filed 最新。
  */
 interface FactAlt { val: number; filed: string; form?: string }
+
+/**
+ * 兩個標籤在**同一個會計年度**的同一期是否給過不同的數字（相對差 > 5%）。給單季差分
+ * 判斷「兩端累計能不能相減」：同義標籤（公司年中換名字）數字一致，可以；總額對淨額
+ * （利息費用）數字不同，不行。從未同期出現的兩個標籤視為一致 —— 沒有證據說它們不同，
+ * 就維持原本的行為。
+ *
+ * **只看同一個年度**：APD 的營運現金流 10-Q 掛總額、10-K 掛「繼續營業部門」，兩個標籤
+ * 在多年前有停業部門的那幾年確實不同，但 FY2025 沒有停業部門。拿全歷史判的話那一年的
+ * Q4 會被擋掉，而那一年兩者根本是同一個數字。
+ *
+ * **門檻 5% 不是 0.5%**：同義標籤之間常有重編或四捨五入的小差（ALAB 的折舊 Q1 一個標籤
+ * 1.125M、另一個 1.100M，差 2.2%），0.5% 會把它當成兩種定義、整個 Q4 擋掉。真正的
+ * 定義衝突差得遠：ADSK 總額 80M 對淨額 −25M、BAX 103M 對 78M（24%）、AMP +151M 對 −93M。
+ */
+const disagreeMemo = new WeakMap<object, Map<string, boolean>>()
+function tagsDisagree(
+  perTag: Map<string, Map<string, { val: number }>>,
+  a: string,
+  b: string,
+  fy: number,
+): boolean {
+  let memo = disagreeMemo.get(perTag)
+  if (!memo) disagreeMemo.set(perTag, (memo = new Map()))
+  const key = `${fy}|${a < b ? `${a}|${b}` : `${b}|${a}`}`
+  const hit = memo.get(key)
+  if (hit != null) return hit
+  const ma = perTag.get(a), mb = perTag.get(b)
+  let out = false
+  if (ma && mb) {
+    for (const [k, pa] of ma) {
+      if (k.split(':')[1] !== String(fy)) continue
+      const pb = mb.get(k)
+      if (!pb) continue
+      const scale = Math.max(Math.abs(pa.val), Math.abs(pb.val))
+      if (scale > 0 && Math.abs(pa.val - pb.val) > 0.05 * scale) { out = true; break }
+    }
+  }
+  memo.set(key, out)
+  return out
+}
 
 function collect(points: FactPoint[], flow: boolean, fyeMonth: number,
                  fyEnds: Map<number, number>) {
@@ -1039,6 +1088,7 @@ export async function getFinancials(
 
   const allPeriods = new Set<string>()
   const lineItems: LineItem[] = []
+  const face = useIfrs ? new Map<string, Set<string>>() : await faceTagsFor(ref.cik10)
 
   for (const concept of map.concepts) {
     const flow = isFlow(concept)
@@ -1050,14 +1100,40 @@ export async function getFinancials(
     // 缺的期間由後續標籤補（公司中途換標籤時——如 NVDA 營收——單一標籤涵蓋不了全期間）
     const negate = new Set(concept.negate_tags ?? [])
     const best = new Map<string, FactPoint & { _tag: string; _alts?: FactAlt[] }>()
+    // 逐標籤的 collect 結果，給下面的單季差分用：兩端累計要出自同一個標籤
+    const perTag = new Map<string, Map<string, FactPoint & { _alts?: FactAlt[] }>>()
+    const noNegative = concept.nonnegative === true
     for (const tag of tags) {
       const units = ns[tag]?.units
       let points = unitPrefs(concept.unit).map((u) => units?.[u]).find((p) => p?.length)
       if (!points) continue
       // 翻號要在 collect 之前做，這樣單季差分、Q4 推算、沿用前期全都跟著正確
       if (negate.has(tag)) points = points.map((p) => ({ ...p, val: -p.val }))
-      for (const [key, p] of collect(points, flow, fyeMonth, fyEnds)) {
-        if (!best.has(key)) best.set(key, { ...p, _tag: tag })
+      const got = collect(points, flow, fyeMonth, fyEnds)
+      perTag.set(tag, got)
+      for (const [key, p] of got) {
+        const cur = best.get(key)
+        if (!cur) best.set(key, { ...p, _tag: tag })
+        // 費用科目拿到負值 ＝ 那個標籤在這一期裝的不是費用（BAX 的 InterestExpenseNonoperating
+        // 上半年 −43M，同一期淨額標籤是淨費用 163M）。後面的標籤有非負值就讓它補；
+        // 都沒有就留著負值讓累計鏈接得起來，最後的格子再擋（見下面 negate 那段）
+        else if (noNegative && cur.val < 0 && p.val >= 0) best.set(key, { ...p, _tag: tag })
+      }
+    }
+
+    // 報表上印的是哪一個標籤，勝過優先序（`face_preferred_tags`）。
+    // ADM 的 ASC 606 收入 250 億、損益表上的 Revenues 803 億 —— 優先序照抄拿到的是
+    // 附註裡的一個分項。偏好標籤印在表上 → 以它為準；另一個標籤也印在表上 → 兩者都是
+    // 表上的行，合計那一行是較大者。不在表上的公司完全不動（Republic Services 表上只印
+    // 606 標籤，Revenues 卻大 15%，取較大會灌水）
+    const onFace = face.get(concept.id)
+    const prefOnFace = (concept.face_preferred_tags ?? []).filter((t) => onFace?.has(t))
+    for (const tag of prefOnFace) {
+      for (const [key, p] of perTag.get(tag) ?? []) {
+        const cur = best.get(key)
+        if (!cur || cur._tag === tag || prefOnFace.includes(cur._tag)) continue
+        if (onFace!.has(cur._tag) && !(p.val > cur.val)) continue
+        best.set(key, { ...p, _tag: tag })
       }
     }
 
@@ -1169,11 +1245,37 @@ export async function getFinancials(
         //
         // Q4 不走這條：10-K 常把**全年**金額掛在 Q4 的期間上（L3Harris 連兩年），
         // 上面的 misTagged 靠「大於前三季累計」擋掉它，而累計鏈斷了就無從比對。
-        const direct = guessed && q < 4 ? qd(q) : undefined
+        // 兩端累計出自不同標籤、而且兩個標籤**在同一期給過不同的數字**時，相減出來的是
+        // 兩種定義的差，不是這一季。ADSK 的利息費用全年是總額 InterestExpense 80M、
+        // 淨額標籤同一年是淨收入 25M → 拿一個減另一個，利息費用 TTM 變成 −9M。
+        // 先找同一個標籤在另一端的值；兩邊都找不到就當成斷鏈（有直接申報的單季事實就用
+        // 它，沒有就留白）。
+        // **兩個標籤數字一致（或從未同期出現）就照舊相減**：公司年中換成同義標籤是常態
+        // （APD 的營運現金流、ANET 的資本支出、BIO 的折舊），第一版不分青紅皂白一律擋，
+        // 羅素 150 的 Q4 掉了上千格。只有累計／全年那種端點才有這個問題：單季事實
+        // 相加出來的 cum，差分就是那一筆單季值本身
+        let diff = guessed ? null : cum[q]! - cum[q - 1]!
+        let mixed = false
+        const a = src[q], b = src[q - 1]
+        if (!guessed && q > 1 && a && b && a._tag !== b._tag && a !== qd(q)
+            && tagsDisagree(perTag, a._tag, b._tag, fy)) {
+          const at = (tag: string, n: number) => {
+            const t = perTag.get(tag)
+            const pt = n === 4 ? t?.get(`A:${fy}`) : (t?.get(`C:${fy}:${n}`) ?? (n === 1 ? t?.get(`Q:${fy}:1`) : undefined))
+            return pt?.val
+          }
+          const prevSame = at(a._tag, q - 1)
+          const curSame = at(b._tag, q)
+          if (prevSame != null) diff = cum[q]! - prevSame
+          else if (curSame != null) diff = curSame - cum[q - 1]!
+          else mixed = true
+        }
+        const direct = (guessed || mixed) && q < 4 ? qd(q) : undefined
+        if (mixed && !direct) continue
         if (guessed && !direct && !concept.zero_if_absent) continue
         const anchor = direct ?? src[q] ?? src[lastKnown]!
         values[periodKey(fy, q)] = {
-          value: direct ? direct.val : cum[q]! - cum[q - 1]!,
+          value: direct ? direct.val : diff ?? cum[q]! - cum[q - 1]!,
           isEstimated: direct ? false : guessed || (q === 4 && !qd(4)), // Q4 由全年推算 → 橘底
           sourceTag: direct
             ? direct._tag
@@ -1186,6 +1288,17 @@ export async function getFinancials(
           filed: anchor.filed,
           endDate: anchor.end,
         }
+      }
+    }
+    // `nonnegative` 的科目（利息費用、折舊攤銷）最後的格子是負的 ＝ 放進來的不是這個東西：
+    // 淨額標籤翻號後為負是那一期淨利息**收入**（ADSK 利息費用 TTM −9M、利息保障倍數
+    // −232.89）；AMP 的「折舊攤銷及增值淨額」含折溢價攤銷、整條是負的。總額那一期確實
+    // 存在，只是這個數字裡看不到。在**最後的格子**上擋，不在原始事實上擋：上半年淨收入、
+    // 第二季淨費用的公司，第二季差分出來是正的費用，那是對的。
+    // EBIT 的利息是選用項，所以利息留白不會讓 EBIT／EBITDA 跟著消失
+    if (noNegative) {
+      for (const [k, c] of Object.entries(values)) {
+        if (c.value != null && c.value < 0) delete values[k]
       }
     }
     for (const k of Object.keys(values)) allPeriods.add(k)

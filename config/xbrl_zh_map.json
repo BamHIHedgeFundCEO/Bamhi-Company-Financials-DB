@@ -1,6 +1,6 @@
 {
- "version": "1.36",
- "updated": "2026-09-24",
+ "version": "1.37",
+ "updated": "2026-10-06",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
   {
@@ -22,6 +22,10 @@
     "OperatingLeaseLeaseIncome",
     "OperatingLeasesIncomeStatementLeaseRevenue"
    ],
+   "face_preferred_tags": [
+    "Revenues"
+   ],
+   "face_preferred_note": "RevenueFromContractWithCustomer… 只涵蓋 ASC 606 客戶合約收入。商品貿易（ADM／Bunge 的 ASC 815 衍生性合約）、租賃（REIT 的 ASC 842 租金）、保險（ASC 944 保費）這幾類公司的營收大半不在裡面，606 標籤只是附註收入拆分表裡的一個分項 —— 優先序照抄的話 ADM 的營收是 250 億（實際 803 億）、AVB 是 0.01B（實際約 29 億），而且看起來完全正常。本機 2,870 份實測：兩個標籤都有的 630 家裡 245 家 Revenues 大於 606 超過 1%，其中 217 家的損益表上印的是 Revenues。**不能一律把 Revenues 提前**：反方向有 18 家 606 標籤才是表上那一行；**也不能取較大者**：Republic Services／Hasbro 表上只印 606 標籤，Revenues 卻大了 14–15%。分得出來的只有 pre.txt 的「報表上印的是哪一個」，所以走離線批次 tools/face_tags.py → config/face_tags.json。執行期規則：Revenues 印在損益表上 → 該期以 Revenues 為準；606 標籤也印在表上 → 兩者取較大（合計那一行）；不在表上或盤點表沒有這家 → 照原本的優先序。",
    "tags_ifrs": [
     "Revenue",
     "RevenueFromContractsWithCustomers",
@@ -159,6 +163,8 @@
    "statement": "IS",
    "unit": "USD",
    "sign": "reported_positive",
+   "nonnegative": true,
+   "nonnegative_note": "不得為負（nonnegative）。淨額標籤翻號後是負的 ＝ 那一期是淨利息收入，不是利息費用（ADSK 利息費用 TTM −9M、利息保障倍數 −232.89）；BAX 的 InterestExpenseNonoperating 上半年是 −43M（裝的是別的東西），同一期淨額標籤是淨費用 163M。規則：某標籤在某期是負值、後面的標籤有非負值 → 讓後者補；都沒有 → 格子留白。",
    "note": "InterestIncomeExpenseNet 系列是「利息收入(費用)淨額」，正值代表淨收入，正負號與 InterestExpense 相反。實測 248 家（1/4）走這兩個標籤，不翻號的話同一列會混著兩種慣例（AAON 顯示 -619 萬、AGNC 顯示 +3.05 億，都是「利息費用」），任何跨公司比較都會錯。列在 negate_tags 的標籤取值後乘 -1。InterestAndDebtExpense 與 InterestExpenseDebtExcludingAmortization 排在淨額系列**之前**：兩者的行標題都是「Interest expense」，是直接申報的費用數，比拿淨額回推可靠（Unum 與 InterestExpenseDebt 逐期完全相等；InterestExpenseDebtExcludingAmortization 50 個重疊期 28 個相等、中位數 1.00）。123 家因此從 n/a 變有值，波音／德儀／Southern 都在內。",
    "tags": [
     "InterestExpense",
@@ -415,6 +421,8 @@
    "statement": "CF",
    "unit": "USD",
    "sign": "reported_positive",
+   "nonnegative": true,
+   "nonnegative_note": "不得為負（nonnegative）。AMP（Ameriprise）的 DepreciationAmortizationAndAccretionNet 含折溢價攤銷，保險／資產管理公司常常整條是負的（2025 年 −93M，同年 DepreciationDepletionAndAmortization 是 +151M）。拿它當折舊攤銷的話 EBITDA 會小於 EBIT。規則同利息費用。",
    "tags": [
     "DepreciationDepletionAndAmortization",
     "DepreciationAmortizationAndAccretionNet",
@@ -1885,6 +1893,41 @@
    "group": "財務結構",
    "formula": "quick_assets / current_liabilities",
    "desc": "剔除存貨後的償債能力。與流動比率差距大，代表資產集中在難變現的存貨。"
+  },
+  {
+   "id": "cash_ratio",
+   "zh": "現金比率",
+   "en": "Cash Ratio",
+   "group": "財務結構",
+   "formula": "cash / current_liabilities",
+   "desc": "現金及約當現金 ÷ 流動負債，只算最能立即動用的那一塊（Ross 第 3 章定義，不含短期投資）。三個流動性比率由寬到嚴：流動比率 ≥ 速動比率 ≥ 現金比率。不分流動／非流動的資產負債表（銀行、保險、多數 REIT）沒有流動負債合計，這一列是「—」。"
+  },
+  {
+   "id": "nwc",
+   "zh": "淨營運資金",
+   "en": "Net Working Capital",
+   "group": "財務結構",
+   "formula": "current_assets - current_liabilities",
+   "fmt": "usd",
+   "desc": "流動資產 − 流動負債。正值代表未來一年會變成現金的資產多於要付出去的負債。**負值不一定是警訊**：大型零售、速食、訂閱制公司用應付帳款與預收款支應營運，淨營運資金長期為負（AAPL 近年亦然），要搭配現金流與產業一起看。"
+  },
+  {
+   "id": "interval_measure_ttm",
+   "zh": "區間衡量（天）",
+   "en": "Interval Measure",
+   "group": "財務結構",
+   "formula": "current_assets / ((revenue_ttm - ebitda_ttm) / 365)",
+   "fmt": "days",
+   "desc": "流動資產 ÷ 每日營運成本：完全沒有營收進帳時，手上的流動資產撐得了幾天（Ross 第 3 章的 interval measure）。每日營運成本 ＝（滾動四季營收 − EBITDA）÷ 365，也就是課本說的「不含折舊與利息的全部成本」（EBITDA ＝ 稅前淨利 ＋ 利息 ＋ 折舊攤銷，與本頁其他列同一個口徑）。**不用「營收 − 營業利益」**：AA、BMY、ADP、ADM、AVY 這類公司的損益表上沒有營業利益那一行，那樣寫的話羅素 150 會有 14 家明明有流動資產與營收卻整列消失。代價是營業外損益會混進成本（一次性處分利益會讓成本看起來變小、天數變長），遇到單期跳動先看是不是有一次性項目。年度發行人（20-F）一欄＝一整年，這一列顯示「—」，改看同名的單季版。"
+  },
+  {
+   "id": "interval_measure",
+   "zh": "區間衡量（天，單季）",
+   "en": "Interval Measure (Quarterly)",
+   "group": "財務結構",
+   "formula": "current_assets / ((revenue - ebitda) / 91.25)",
+   "fmt": "days",
+   "desc": "同上，每日營運成本改用單季（÷ 91.25 天）。季節性強的公司單季版會跳動，以滾動四季版為主。"
   },
   {
    "id": "financial_leverage",

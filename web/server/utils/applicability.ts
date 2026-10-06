@@ -155,3 +155,45 @@ export async function dimensionOnlyFor(cik10?: string): Promise<Set<string>> {
   }
   return cachedDim.get(String(Number(cik10))) ?? new Set()
 }
+
+interface FaceTags {
+  tags?: string[]
+  companies?: Record<string, Record<string, string>>
+}
+let cachedFace: Map<string, Map<string, Set<string>>> | null = null
+let faceGenerated = ''
+
+/** 盤點表的產生日。Excel 快取 key 要帶它：每季重跑會改變營收取哪個值，map 版號卻不動 */
+export async function faceTagsVersion(): Promise<string> {
+  await faceTagsFor('0')
+  return faceGenerated
+}
+
+/**
+ * 這家公司在報表上**印出來的**已對照標籤（`config/face_tags.json`，`tools/face_tags.py`
+ * 從 pre.txt 盤點）。回傳 科目 id → 標籤集合，只收 map 裡帶 `face_preferred_tags` 的科目。
+ *
+ * 用途只有一個：同一期有兩個申報值時決定取哪一個（營收的 `Revenues` 對上 ASC 606 的
+ * `RevenueFromContractWithCustomer…`）。**不產生任何數字**；檔案不在就是空表，
+ * 整條規則靜默關閉、退回原本的優先序。
+ */
+export async function faceTagsFor(cik10?: string): Promise<Map<string, Set<string>>> {
+  if (!cik10) return new Map()
+  if (!cachedFace) {
+    const m = new Map<string, Map<string, Set<string>>>()
+    const raw = await useStorage('assets:config').getItem('face_tags.json')
+    const p = (typeof raw === 'string' ? JSON.parse(raw) : raw) as FaceTags | null
+    faceGenerated = (p as { generated?: string } | null)?.generated ?? ''
+    if (p?.companies && Array.isArray(p.tags)) {
+      for (const [cik, per] of Object.entries(p.companies)) {
+        const row = new Map<string, Set<string>>()
+        for (const [cid, packed] of Object.entries(per)) {
+          row.set(cid, new Set(packed.split(',').map((i) => p.tags![Number(i)]).filter((t): t is string => !!t)))
+        }
+        m.set(cik, row)
+      }
+    }
+    cachedFace = m
+  }
+  return cachedFace.get(String(Number(cik10))) ?? new Map()
+}

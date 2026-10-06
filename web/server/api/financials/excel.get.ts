@@ -6,11 +6,12 @@ import { computeValuation } from '../../utils/valuation'
 import { getFilings } from '../../utils/filings'
 import { getSegments, loadSegmentAxes } from '../../utils/segments'
 import type { SegmentsResult } from '../../utils/segments'
+import { faceTagsVersion } from '../../utils/applicability'
 
 /**
  * GET /api/financials/excel?ticker=AAPL&from=2021Q1&to=2026Q2
  *
- * 快取 key：{ticker}_{from}_{to}_{mapVersion}_s{segVersion}_c{classShares}_t{theme}_p{pipeline}
+ * 快取 key：{ticker}_{from}_{to}_{mapVersion}_s{segVersion}_c{classShares}_t{theme}_f{faceTags}_p{pipeline}
  * `p{pipeline}` 是取值管線版號：改「同一份 companyfacts 會算出什麼」的程式時要加一，
  * 否則網頁已經修好了、使用者下載到的活頁簿還是舊的（見 `PIPELINE_VERSION`）
  * （對照表、分部設定、多股別股數預算檔、版面設定改版都會自動失效舊檔）。
@@ -45,9 +46,12 @@ export default defineEventHandler(async (event) => {
   // 版面設定（含留白的四種字樣）改版也要讓舊活頁簿失效 —— 不然使用者下載到的
   // 還是「整片 n/a」那一版，而網頁已經分得出是哪一種留白
   const thVersion = (await loadThemeVersion()) || '0'
+  // 報表上印的是哪個標籤（config/face_tags.json）每季重跑，會改變營收取哪一個值，
+  // 而 map 版號不動 —— 不進 key 的話舊活頁簿裡的營收會停在附註分項那一版
+  const fcVersion = ((await faceTagsVersion()) || '0').replaceAll('-', '')
   const from = `${range.fromFy}Q${range.fromQ}`
   const to = `${range.toFy}Q${range.toQ}`
-  const cacheKey = `${ref.ticker}_${from}_${to}_${mapVersion}_s${segVersion}_c${shVersion}_t${thVersion}_p${PIPELINE_VERSION}.xlsx`
+  const cacheKey = `${ref.ticker}_${from}_${to}_${mapVersion}_s${segVersion}_c${shVersion}_t${thVersion}_f${fcVersion}_p${PIPELINE_VERSION}.xlsx`
 
   // R2 命中判斷（單純的檔案存在性檢查，不是快取系統）
   const r2Base = process.env.R2_PUBLIC_BASE_URL

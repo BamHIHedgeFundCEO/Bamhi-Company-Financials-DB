@@ -199,7 +199,17 @@ def load_map():
     for c in concepts:
         for i, t in enumerate(c.get("tags") or []):
             tag_pri[t].append((c["id"], i))
+        # 執行期的 negate_tags／nonnegative（financials.ts）。原本這裡兩條都沒有 ——
+        # 淨利息收入被當成利息費用、AMP 的負折舊照收，錨點算在另一個數字上
+        for t in c.get("negate_tags") or []:
+            NEGATE.add((c["id"], t))
+        if c.get("nonnegative"):
+            NONNEG.add(c["id"])
     return m, concepts, stmt_of, tag_pri
+
+
+NEGATE: set[tuple[str, str]] = set()
+NONNEG: set[str] = set()
 
 
 def read_sub(z):
@@ -263,10 +273,70 @@ def scan_num(z, subs, tag_pri, stmt_of, store, quiet=False):
                         continue
                 elif qtrs != "4":      # IS／CF 要整年
                     continue
+                v = -val if (cid, p[i_tag]) in NEGATE else val
+                if cid in NONNEG and v < 0:
+                    continue           # 負的利息費用／折舊攤銷 ＝ 標籤裝的不是這個東西，讓後面的標籤補
                 cell = store[sub["cik"]][ddate]
                 old = cell.get(cid)
                 if old is None or pri < old[0] or (pri == old[0] and filed > old[1]):
-                    cell[cid] = (pri, filed, val)
+                    cell[cid] = (pri, filed, v)
+                if cid in FACE_CONCEPTS:
+                    # 報表上印的標籤要勝過優先序（apply_face_preference），所以這幾個科目
+                    # 逐標籤留一份，事後才知道優先序的贏家是哪個標籤
+                    alts = cell.setdefault("@" + cid, {})
+                    prev = alts.get(p[i_tag])
+                    if prev is None or filed > prev[1]:
+                        alts[p[i_tag]] = (pri, filed, v)
+    return n
+
+
+FACE_CONCEPTS: set[str] = set()
+
+
+def load_face(concepts):
+    """`config/face_tags.json`：cik → 科目 → 印在報表上的標籤集合"""
+    FACE_CONCEPTS.update(c["id"] for c in concepts if c.get("face_preferred_tags"))
+    path = ROOT / "config" / "face_tags.json"
+    if not FACE_CONCEPTS or not path.exists():
+        return {}
+    d = json.loads(path.read_text(encoding="utf-8"))
+    tags = d.get("tags") or []
+    return {cik: {cid: {tags[int(i)] for i in packed.split(",")} for cid, packed in per.items()}
+            for cik, per in (d.get("companies") or {}).items()}
+
+
+def apply_face_preference(store, face, concepts):
+    """執行期 `face_preferred_tags` 的同一條規則（financials.ts 取值迴圈後面那段）。
+
+    **必須跟執行期一致**：ADM 的營收執行期是 Revenues 803 億，樣本裡若還是 ASC 606
+    的 250 億，同業錨點就是算在另一個數字上（「同業錨點的樣本要跟執行期採計的格子一致」）。
+    偏好標籤印在表上 → 以它為準；優先序的贏家也印在表上 → 兩者取較大（合計那一行）；
+    盤點表沒有這家 → 不動。
+    """
+    pref = {c["id"]: c["face_preferred_tags"] for c in concepts if c.get("face_preferred_tags")}
+    n = 0
+    for cik, byd in store.items():
+        row = face.get(str(int(cik)))
+        for cell in byd.values():
+            for cid, ptags in pref.items():
+                alts = cell.pop("@" + cid, None)
+                base = cell.get(cid)
+                if not row or cid not in row or not alts or base is None:
+                    continue
+                on_face = row[cid]
+                p_on = [t for t in ptags if t in on_face]
+                base_tag = min((v[0], t) for t, v in alts.items() if v[0] == base[0])[1]
+                if base_tag in p_on:
+                    continue
+                for t in p_on:
+                    cand = alts.get(t)
+                    if cand is None:
+                        continue
+                    if base_tag in on_face and not cand[2] > base[2]:
+                        continue
+                    cell[cid] = (base[0], cand[1], cand[2])
+                    n += 1
+                    break
     return n
 
 
@@ -419,6 +489,7 @@ def main() -> int:
     args = ap.parse_args()
 
     m, concepts, stmt_of, tag_pri = load_map()
+    face = load_face(concepts)
     derived = {d["id"]: d for d in m["derived"]}
     scoring = json.loads(SCORING_PATH.read_text(encoding="utf-8"))
 
@@ -455,6 +526,8 @@ def main() -> int:
                     sic_of[s["cik"]] = s["sic"]
                 name_of[s["cik"]] = s["name"]
             scan_num(z, subs, tag_pri, stmt_of, store)
+    n_face = apply_face_preference(store, face, concepts)
+    print(f"報表上印的標籤勝過優先序：改取 {n_face:,} 格", file=sys.stderr)
 
     # ── 逐家算年度指標 ──────────────────────────────────────────────
     # 指標會引用排在它前面的指標，所以整條 derived 都要算，不能只算評分用到的那 26 條

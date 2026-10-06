@@ -34,6 +34,14 @@
    　這個承諾交給正規表示式
    　**內部人買賣（Form 3/4/5）不屬於本條例外**：那是結構化 XML（單檔 2–4KB），
    　與分部資料同性質，走 `web/server/utils/insider.ts`
+   　**companyfacts 漏收的申報從 frames API 補**（`tools/frames_patch.py` → `config/frames_patch.json`，
+   　執行期 `framesPatch.ts` 併進 companyfacts 後照原流程跑）。frames 與 companyfacts 是 SEC 從
+   　同一份 XBRL 解析出來的結構化資料，數字同源，不是 HTML。companyfacts 的逐家彙整會落後**也會漏**：
+   　BG 2026-07-29 交的 Q2 10-Q 兩個月後還沒進 companyfacts，連 2025-09-30／2026-03-31 的總資產
+   　都沒有，frames 裡全有（營收 240.41 億，與富途一致）。frames 是「一個標籤、一個期間、全市場」
+   　的格式，執行期逐家查會打破 ≤2 次請求，所以離線：以 `Assets` 當哨兵，frames 有而
+   　companyconcept 沒有的申報書號＝缺口，只收缺口公司。**頁面不標示來源**（使用者決定：數字同源，
+   　標了只會讓人以為是另一種數字）。限制：frames 沒有年初至今累計，缺口季的現金流量表補不回來
 4. 不做登入 / 帳號 / 訂閱 / 付費牆
 5. 不做 zip 打包 / job queue / Redis / worker（v2 才加）
 6. `filings.recent` 只含最近約 1000 筆，更早的要抓 `filings.files` 分頁
@@ -58,6 +66,9 @@
   單檔 2–4KB。**兩層快取**：逐份永久快取 + 整包快取（key 綁最新一份申報書號）。
   只有逐份的話每次仍要 30–120 次讀取、限速 100ms 序列 → 實測 3.2 秒；
   綁書號之後沒有新申報就 1 次讀取回應（實測 4.7 秒 → 3 毫秒）
+- frames 補值（離線）：哨兵 `Assets` frames 每季 1 次 + 每家 companyconcept 1 次（約 6,500 家）
+  + 缺口公司 submissions 各 1 次 + 已對照標籤 × 期間的 frames（約 1,900 次）。全程約 30 分鐘，
+  限速同 `rateLimiter.ts`
 - 回應快取：行程內 Map（`secFetch.ts`）+ 持久層 Vercel Blob（`blobCache.ts`）。
   已提交財報不可變 → 永久有效。**只快取解析後的小結果，不快取原始 instance**
   （單檔 0.7–14MB，存原始檔會把 Blob 額度吃光）

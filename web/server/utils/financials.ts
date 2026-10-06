@@ -1,5 +1,6 @@
 import { secFetchJson } from './secFetch'
 import { dimensionOnlyFor, faceTagsFor, notApplicableFor } from './applicability'
+import { applyFramesPatch } from './framesPatch'
 import { getSplitFacts } from './prices'
 import type { CompanyRef } from './cik'
 
@@ -314,8 +315,9 @@ export async function loadThemeVersion(): Promise<string> {
  *
  * 1 → 2：`filed < end` 的事實一律不收（edge case 2c，幽靈季）
  * 2 → 3：報表上印的標籤勝過優先序（`face_preferred_tags`，營收取 Revenues 而非 ASC 606 分項）
+ * 3 → 4：companyfacts 漏收的申報用 frames 事實補（`config/frames_patch.json`）
  */
-export const PIPELINE_VERSION = '3'
+export const PIPELINE_VERSION = '4'
 
 /**
  * 一個科目在留白時該寫什麼。階梯與 `metrics.ts` 的 `worse()` 同序，
@@ -987,7 +989,8 @@ export async function getFinancials(
   )
   // 國內發行人 → us-gaap 季度模式；IFRS 外國發行人（TSM/ASML）→ ifrs-full 年度模式
   // （20-F 只有年度 XBRL，6-K 不進 companyfacts）
-  const gaap = facts.facts['us-gaap']
+  // companyfacts 彙整落後／漏收的申報，用離線盤點的 frames 事實補（config/frames_patch.json）
+  const gaap = await applyFramesPatch(ref.cik10, facts.facts['us-gaap'])
   const ifrs = facts.facts['ifrs-full']
   const useIfrs = pickIfrs(gaap, ifrs)
   const ns: FactTags = (useIfrs ? ifrs : gaap) ?? {}
@@ -1365,9 +1368,9 @@ export async function getFinancials(
      * （1.128 億，含庫藏股），而加權平均只有 9,700 萬 —— 市值高估兩成且無替代來源。
      * 只有在仲裁時獨立落在錨的 10% 內才會被選中，選不上就完全不作用。
      */
-    const issuedPts = facts.facts['us-gaap']?.['CommonStockSharesIssued']?.units?.['shares']
-    const treaPts = facts.facts['us-gaap']?.['TreasuryStockCommonShares']?.units?.['shares']
-      ?? facts.facts['us-gaap']?.['TreasuryStockShares']?.units?.['shares']
+    const issuedPts = gaap?.['CommonStockSharesIssued']?.units?.['shares']
+    const treaPts = gaap?.['TreasuryStockCommonShares']?.units?.['shares']
+      ?? gaap?.['TreasuryStockShares']?.units?.['shares']
     if (issuedPts && treaPts) {
       const latestByEnd = (pts: typeof issuedPts) => {
         const m = new Map<string, { val: number; filed: string }>()

@@ -119,6 +119,17 @@
    "note": "多股別公司的期末股數。沒有輸入版本可綁，只有時效：新的一季的 10-Q/10-K 送件完畢就要重跑，沒跑到的期維持 n/a。"
   },
   {
+   "id": "frames_patch",
+   "out": "config/frames_patch.json",
+   "cmd": "python tools/frames_patch.py",
+   "vintage": {
+    "kind": "generated_date",
+    "field": "generated",
+    "lag_days": 45
+   },
+   "note": "companyfacts 彙整落後或漏收的申報（BG 的 2026 Q2 10-Q 交了兩個月還沒進 companyfacts），從 frames API 補。以 Assets 當哨兵比對申報書號，只收真的有缺口的公司。一季的申報期限一過就要重跑；平常也可以隨時重跑，不會改動沒有缺口的公司。frames 沒有年初至今累計，缺口季的現金流量表補不回來。"
+  },
+  {
    "id": "f13",
    "out": "config/f13/_index.json",
    "cmd": "python tools/f13.py --live",

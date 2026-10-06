@@ -324,8 +324,9 @@ export async function loadThemeVersion(): Promise<string> {
  * 2 → 3：報表上印的標籤勝過優先序（`face_preferred_tags`，營收取 Revenues 而非 ASC 606 分項）
  * 3 → 4：companyfacts 漏收的申報用 frames 事實補（`config/frames_patch.json`）
  * 4 → 5：單一科目的 derive（照抄）與 derive_if_inapplicable（ROIC 的營業利益以 EBIT 代）
+ * 5 → 6：報表上印的標籤規則擴及營業成本，兩個表上標籤取較大者
  */
-export const PIPELINE_VERSION = '5'
+export const PIPELINE_VERSION = '6'
 
 /**
  * 一個科目在留白時該寫什麼。階梯與 `metrics.ts` 的 `worse()` 同序，
@@ -1142,8 +1143,9 @@ export async function getFinancials(
     for (const tag of prefOnFace) {
       for (const [key, p] of perTag.get(tag) ?? []) {
         const cur = best.get(key)
-        if (!cur || cur._tag === tag || prefOnFace.includes(cur._tag)) continue
-        if (onFace!.has(cur._tag) && !(p.val > cur.val)) continue
+        if (!cur || cur._tag === tag) continue
+        // 優先序挑到的標籤也印在表上 → 兩個都是表上的行，合計那一行是較大者
+        if (onFace!.has(cur._tag) && !(Math.abs(p.val) > Math.abs(cur.val))) continue
         best.set(key, { ...p, _tag: tag })
       }
     }

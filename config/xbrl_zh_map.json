@@ -1,5 +1,5 @@
 {
- "version": "1.38",
+ "version": "1.39",
  "updated": "2026-10-06",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -55,6 +55,14 @@
     "CostOfServices",
     "CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization"
    ],
+   "face_preferred_tags": [
+    "CostOfGoodsAndServicesSold",
+    "CostOfRevenue",
+    "CostOfGoodsSold",
+    "CostOfServices",
+    "CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization"
+   ],
+   "face_preferred_note": "五個標籤全部列為偏好：哪一個印在損益表上就用哪一個，兩個都印在表上取較大（合計那一行）。優先序第一的 CostOfGoodsAndServicesSold 在部分公司只是附註裡的一個分項：Caterpillar 2025 Q1 取到 2,700 萬（實際約 95 億，表上是 CostOfRevenue）、Bloom Energy 每季只有 100～1,200 萬（表上的「Total cost of revenue」是 CostOfRevenue，每季數億）—— 毛利率、存貨週轉整組錯，而且看起來不一定像錯。",
    "tags_ifrs": [
     "CostOfSales"
    ]

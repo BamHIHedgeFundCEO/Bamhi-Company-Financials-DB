@@ -326,17 +326,18 @@ def apply_face_preference(store, face, concepts):
                 on_face = row[cid]
                 p_on = [t for t in ptags if t in on_face]
                 base_tag = min((v[0], t) for t, v in alts.items() if v[0] == base[0])[1]
-                if base_tag in p_on:
-                    continue
+                cur = base
+                cur_tag = base_tag
                 for t in p_on:
                     cand = alts.get(t)
-                    if cand is None:
+                    if cand is None or t == cur_tag:
                         continue
-                    if base_tag in on_face and not cand[2] > base[2]:
+                    if cur_tag in on_face and not abs(cand[2]) > abs(cur[2]):
                         continue
-                    cell[cid] = (base[0], cand[1], cand[2])
+                    cur, cur_tag = (base[0], cand[1], cand[2]), t
+                if cur is not base:
+                    cell[cid] = cur
                     n += 1
-                    break
     return n
 
 

@@ -64,10 +64,13 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
     }
     return s
   }
+  // EBITDA ＝ EBIT ＋ 折舊攤銷，與關鍵指標分頁的 `ebitda_ttm` 同一個定義（對齊富途）。
+  // 原本寫營業利益 ＋ 折舊攤銷：同一個網站兩種 EBITDA，而且損益表沒有營業利益小計的公司
+  // （Eaton、ADP、BMY…）EV／EBITDA 整列 n/a
   const ebitdaTtm = (p: string): number | null => {
-    const oi = ttm('operating_income', p)
+    const ebit = ttm('ebit', p)
     const da = ttm('dna', p)
-    return oi != null && da != null ? oi + da : null
+    return ebit != null && da != null ? ebit + da : null
   }
 
   const price: Record<string, number | null> = {}

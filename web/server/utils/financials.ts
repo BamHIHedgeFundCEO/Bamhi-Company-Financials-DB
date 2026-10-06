@@ -325,8 +325,9 @@ export async function loadThemeVersion(): Promise<string> {
  * 3 → 4：companyfacts 漏收的申報用 frames 事實補（`config/frames_patch.json`）
  * 4 → 5：單一科目的 derive（照抄）與 derive_if_inapplicable（ROIC 的營業利益以 EBIT 代）
  * 5 → 6：報表上印的標籤規則擴及營業成本，兩個表上標籤取較大者
+ * 6 → 7：估值的 EBITDA 改成 EBIT ＋ 折舊攤銷（與關鍵指標分頁同一定義）
  */
-export const PIPELINE_VERSION = '6'
+export const PIPELINE_VERSION = '7'
 
 /**
  * 一個科目在留白時該寫什麼。階梯與 `metrics.ts` 的 `worse()` 同序，

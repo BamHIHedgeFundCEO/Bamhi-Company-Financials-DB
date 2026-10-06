@@ -50,7 +50,7 @@ def main() -> int:
             tag2c[t].append((c["id"], i))
     stmt = {c["id"]: c.get("statement") for c in concepts}
     prio = {c["id"]: c["tags"] for c in concepts}
-    ruled = {c["id"] for c in concepts if c.get("face_preferred_tags")}
+    ruled = {c["id"] for c in concepts if c.get("face_preferred_tags") or c.get("face_components")}
     negate = {c["id"]: set(c.get("negate_tags") or []) for c in concepts}
 
     hits = []

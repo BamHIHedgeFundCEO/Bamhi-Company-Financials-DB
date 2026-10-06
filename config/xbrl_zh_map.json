@@ -1,5 +1,5 @@
 {
- "version": "1.39",
+ "version": "1.40",
  "updated": "2026-10-06",
  "note": "XBRL us-gaap tag -> 標準化概念 -> 繁中科目。tags 陣列為「優先順序」，取值時由前往後找到第一個有資料的即停止。sign: reported_positive 表示 XBRL 內以正值申報但實質為流出/減項，建模時需自行處理正負號。 tags_ifrs：外國發行人（ifrs-full namespace，年度資料）的對照，同為優先順序。",
  "concepts": [
@@ -475,6 +475,11 @@
     "Cash",
     "CashAndDueFromBanks"
    ],
+   "face_components": [
+    "Cash",
+    "CashEquivalentsAtCarryingValue"
+   ],
+   "face_components_note": "資產負債表上印的是「Cash」、而優先序挑到的標籤不在表上時，改用表上那一行；表上若把「Cash」與「Cash equivalents」分兩行印，兩行相加。起因：沒有 CashAndCashEquivalentsAtCarryingValue 的公司會落到第二順位的 CashCashEquivalentsRestrictedCash…（現金流量表的期末合計，含受限制現金）—— Sunrun 10.9 億（表上現金 6.8 億，另有 4.1 億受限制現金）、Eversource 3.4 億（表上 2.7 億）。受限制現金不能自由動用，現金比率、淨負債、EV 跟著失真。不能一律改用 Cash：BDC／私募信貸基金把現金與約當現金分兩行（SLR Investment 表上 Cash 1,100 萬、約當現金另列約 3.9 億），只取 Cash 會嚴重低估，所以兩行相加。2026q2 普查（tools/face_audit.py）受影響 142 份申報：一般公司 44（其中 12 份約當現金另列）、金融業 98。",
    "tags_ifrs": [
     "CashAndCashEquivalents",
     "CashAndBankBalancesAtCentralBanks"

@@ -199,6 +199,11 @@ def load_map():
     for c in concepts:
         for i, t in enumerate(c.get("tags") or []):
             tag_pri[t].append((c["id"], i))
+        # face_components 裡不在 tags 的標籤（現金的 CashEquivalentsAtCarryingValue）：
+        # 只收進逐標籤備份給 apply_face_preference 加總，不參與優先序（COMPONENT_PRI）
+        for t in c.get("face_components") or []:
+            if t not in (c.get("tags") or []):
+                tag_pri[t].append((c["id"], COMPONENT_PRI))
         # 執行期的 negate_tags／nonnegative（financials.ts）。原本這裡兩條都沒有 ——
         # 淨利息收入被當成利息費用、AMP 的負折舊照收，錨點算在另一個數字上
         for t in c.get("negate_tags") or []:
@@ -278,7 +283,7 @@ def scan_num(z, subs, tag_pri, stmt_of, store, quiet=False):
                     continue           # 負的利息費用／折舊攤銷 ＝ 標籤裝的不是這個東西，讓後面的標籤補
                 cell = store[sub["cik"]][ddate]
                 old = cell.get(cid)
-                if old is None or pri < old[0] or (pri == old[0] and filed > old[1]):
+                if pri != COMPONENT_PRI and (old is None or pri < old[0] or (pri == old[0] and filed > old[1])):
                     cell[cid] = (pri, filed, v)
                 if cid in FACE_CONCEPTS:
                     # 報表上印的標籤要勝過優先序（apply_face_preference），所以這幾個科目
@@ -291,11 +296,13 @@ def scan_num(z, subs, tag_pri, stmt_of, store, quiet=False):
 
 
 FACE_CONCEPTS: set[str] = set()
+COMPONENT_PRI = 10_000
 
 
 def load_face(concepts):
     """`config/face_tags.json`：cik → 科目 → 印在報表上的標籤集合"""
-    FACE_CONCEPTS.update(c["id"] for c in concepts if c.get("face_preferred_tags"))
+    FACE_CONCEPTS.update(c["id"] for c in concepts
+                         if c.get("face_preferred_tags") or c.get("face_components"))
     path = ROOT / "config" / "face_tags.json"
     if not FACE_CONCEPTS or not path.exists():
         return {}
@@ -314,12 +321,15 @@ def apply_face_preference(store, face, concepts):
     盤點表沒有這家 → 不動。
     """
     pref = {c["id"]: c["face_preferred_tags"] for c in concepts if c.get("face_preferred_tags")}
+    comp = {c["id"]: c["face_components"] for c in concepts if c.get("face_components")}
     n = 0
     for cik, byd in store.items():
         row = face.get(str(int(cik)))
         for cell in byd.values():
+            alts_keep = {}
             for cid, ptags in pref.items():
                 alts = cell.pop("@" + cid, None)
+                alts_keep[cid] = alts
                 base = cell.get(cid)
                 if not row or cid not in row or not alts or base is None:
                     continue
@@ -338,6 +348,24 @@ def apply_face_preference(store, face, concepts):
                 if cur is not base:
                     cell[cid] = cur
                     n += 1
+            # 執行期 `face_components` 的同一條規則：第一項印在表上、優先序挑到的不在表上
+            # → 改用表上各行之和（現金：Cash ＋ 另列的約當現金）
+            for cid, comps in comp.items():
+                alts = cell.pop("@" + cid, None) if cid not in pref else alts_keep.get(cid)
+                base = cell.get(cid)
+                if not row or cid not in row or not alts:
+                    continue
+                on_face = row[cid]
+                if comps[0] not in on_face or comps[0] not in alts:
+                    continue
+                if base is not None:
+                    base_tag = min((v[0], t) for t, v in alts.items() if v[0] == base[0])[1]
+                    if base_tag in on_face:
+                        continue
+                first = alts[comps[0]]
+                val = first[2] + sum(alts[t][2] for t in comps[1:] if t in on_face and t in alts)
+                cell[cid] = (first[0], first[1], val)
+                n += 1
     return n
 
 

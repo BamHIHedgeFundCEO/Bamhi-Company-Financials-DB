@@ -58,11 +58,13 @@ def main() -> int:
     tag2c: dict[str, list[tuple[str, str]]] = defaultdict(list)
     preferred: dict[str, set[str]] = {}
     for c in m["concepts"]:
-        pref = c.get("face_preferred_tags")
-        if not pref:
+        pref = c.get("face_preferred_tags") or []
+        comps = c.get("face_components") or []
+        if not pref and not comps:
             continue
-        preferred[c["id"]] = set(pref)
-        for t in c.get("tags") or []:
+        # 組成項只要第一項在表上就要記（執行期靠它判斷「表上印的是 Cash」）
+        preferred[c["id"]] = set(pref) | set(comps[:1])
+        for t in list(c.get("tags") or []) + [t for t in comps if t not in (c.get("tags") or [])]:
             tag2c[t].append((c["id"], c.get("statement")))
 
     face = defaultdict(lambda: defaultdict(set))   # cik -> cid -> {tag}

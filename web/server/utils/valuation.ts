@@ -1,4 +1,5 @@
 import { applyDerives, loadMap, type FinancialsResult } from './financials'
+import { computeMetrics, type MetricSeries } from './metrics'
 import { getPrices, priceAt, type PriceSeries } from './prices'
 
 /**
@@ -41,7 +42,6 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
   const periods = fin.periods
   const annual = fin.periodicity === 'annual'
   const li = new Map(fin.lineItems.map((x) => [x.id, x]))
-  const val = (id: string, p: string) => li.get(id)?.values[p]?.value ?? null
   const endDate = (p: string) =>
     li.get('total_assets')?.values[p]?.endDate ?? li.get('revenue')?.values[p]?.endDate ?? null
 
@@ -52,6 +52,22 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
   //   4.26 倍（實際約 17 倍）。整條估值分頁的流量科目都吃這個函式，錯一次錯全部。
   const step = annual ? 1 : 4
   const idx = (p: string) => periods.indexOf(p)
+  // 指標（ebitda／fcf／net_debt）一律取 `xbrl_zh_map.json` 的 `derived` 算出來的值，
+  // 與 Excel 估值分頁引用的是同一列。原本這裡自己寫一份：EBITDA 曾經是營業利益 ＋ 折舊
+  // （關鍵指標那邊早已改成 EBIT ＋ 折舊），有息負債版 EV 至今少算長期租賃 —— 同一個網站
+  // 兩種 EV，而且兩邊都看起來正常。在下面背書補值之後才算（`metricSeries`）
+  let metricSeries = new Map<string, MetricSeries>()
+  const val = (id: string, p: string): number | null => {
+    const cell = li.get(id)?.values[p]
+    if (cell) return cell.value ?? null
+    const m = metricSeries.get(id)
+    return m ? (m.cells[idx(p)]?.value ?? null) : null
+  }
+  // TTM（近四季合計）；任一季缺 → null。與 workbook.py 的 `ttm()` 同一條規則
+  //
+  // ⚠ 外國發行人（20-F，`periodicity: 'annual'`）一欄就是一整年，再加四欄等於四年。
+  //   不分流的話 P/E 會變成實際的四分之一，而且看起來完全正常：SHEL FY2025 顯示
+  //   4.26 倍（實際約 17 倍）。整條估值分頁的流量科目都吃這個函式，錯一次錯全部。
   const ttm = (id: string, p: string): number | null => {
     const i = idx(p)
     if (annual) return val(id, p)
@@ -63,14 +79,6 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
       s += v
     }
     return s
-  }
-  // EBITDA ＝ EBIT ＋ 折舊攤銷，與關鍵指標分頁的 `ebitda_ttm` 同一個定義（對齊富途）。
-  // 原本寫營業利益 ＋ 折舊攤銷：同一個網站兩種 EBITDA，而且損益表沒有營業利益小計的公司
-  // （Eaton、ADP、BMY…）EV／EBITDA 整列 n/a
-  const ebitdaTtm = (p: string): number | null => {
-    const ebit = ttm('ebit', p)
-    const da = ttm('dna', p)
-    return ebit != null && da != null ? ebit + da : null
   }
 
   const price: Record<string, number | null> = {}
@@ -130,6 +138,8 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
   // 於是無負債公司（ANET／ALGN／APPF／ALAB／AUR 實測）的有息負債合計永遠是 n/a，
   // 負債權益比整排落空。applyDerives 只補空格、不覆蓋已有值，重跑是安全的
   applyDerives(map, li, periods)
+  metricSeries = computeMetrics(
+    map.derived.filter((d) => VAL_METRICS.includes(d.id)), fin.lineItems, periods, annual)
 
   const pos = (x: number | null) => (x != null && x > 0 ? x : null) // 分母須為正
   const pe: Record<string, number | null> = {}
@@ -146,7 +156,7 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
     ps[p] = mc != null ? divPos(mc, ttm('revenue', p)) : null
     const eq = val('equity', p)
     pb[p] = mc != null && pos(eq) ? mc / (eq as number) : null
-    pfcf[p] = mc != null ? divPos(mc, ttmFcf(ttm, p)) : null
+    pfcf[p] = mc != null ? divPos(mc, ttm('fcf', p)) : null
     /**
      * EV 兩種定義都給，因為它們回答的是不同問題：
      *
@@ -156,18 +166,17 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
      *   代價：與 Bloomberg／CapIQ 口徑不同（它們只算有息負債），
      *   銀行更誇張 —— JPM 的負債總計是幾兆的**存款**。
      *
-     * `ev_debt`（有息負債版）＝ 市值 + 短期借款 + 長期負債 − 現金 − 短期投資，
-     *   與外部資料商可比。任一段債務不明就 n/a（`?? 0` 會把「查不到」講成「沒有」，
-     *   JPM 的長期債只在帶維度的事實裡，那樣會少算幾千億還看起來很正常）。
+     * `ev_debt`（有息負債版）＝ 市值 + 淨負債（`net_debt`：有息負債含長期租賃 − 現金 − 短期投資），
+     *   與外部資料商可比，也與 Excel 估值分頁引用同一列。債務不明就 n/a（`?? 0` 會把
+     *   「查不到」講成「沒有」，JPM 的長期債只在帶維度的事實裡，那樣會少算幾千億還看起來很正常）。
      */
     const cash = val('cash', p)
     const sti = val('short_term_investments', p) ?? 0
     const totalLiab = val('total_liabilities', p)
     ev[p] = mc != null && cash != null && totalLiab != null ? mc + totalLiab - cash - sti : null
-    const std = val('short_term_debt', p)
-    const ltd = val('long_term_debt', p)
-    evDebt[p] = mc != null && cash != null && std != null && ltd != null ? mc + std + ltd - cash - sti : null
-    evEbitda[p] = ev[p] != null ? divPos(ev[p]!, ebitdaTtm(p)) : null
+    const nd = val('net_debt', p)
+    evDebt[p] = mc != null && nd != null ? mc + nd : null
+    evEbitda[p] = ev[p] != null ? divPos(ev[p]!, ttm('ebitda', p)) : null
     // PEG = PE / (TTM 淨利年增率 %)；成長須為正
     const niN = ttm('net_income', p)
     const i = idx(p)
@@ -183,14 +192,14 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
   for (const p of periods) psVsMedian[p] = ps[p] != null && psMed ? ps[p]! / psMed : null
 
   const rows: ValRow[] = [
-    { id: 'price', zh: '期末股價', en: 'Price', unit: 'USD', values: price, desc: '該季末當時股價（Yahoo 月線，已還原分割/股利）。' },
+    { id: 'price', zh: '期末股價', en: 'Price', unit: 'USD', values: price, desc: '該季末當時股價（Yahoo 日線，季末當日或前一交易日收盤；已還原分割、未還原股利）。' },
     { id: 'marketcap', zh: '市值', en: 'Market Cap', unit: 'USD', values: marketcap, desc: '期末股價 × 期末流通股數。' },
     { id: 'pe', zh: '本益比', en: 'P/E (TTM)', unit: 'x', values: pe, desc: '市值 ÷ 近四季淨利。虧損時 n/a。' },
     { id: 'ps', zh: '股價營收比', en: 'P/S (TTM)', unit: 'x', values: ps, desc: '市值 ÷ 近四季營收。營收最難美化，虧損股也適用。' },
     { id: 'pb', zh: '股價淨值比', en: 'P/B', unit: 'x', values: pb, desc: '市值 ÷ 股東權益。' },
     { id: 'pfcf', zh: '股價自由現金流比', en: 'P/FCF (TTM)', unit: 'x', values: pfcf, desc: '市值 ÷ 近四季自由現金流。燒錢時 n/a。' },
     { id: 'ev', zh: '企業價值', en: 'Enterprise Value', unit: 'USD', values: ev, desc: '市值 + 負債總計 − 現金 − 短期投資。買下整間公司要扛下的全部負債，不只有息借款。' },
-    { id: 'ev_debt', zh: '企業價值（僅有息負債）', en: 'EV (Interest-Bearing Debt)', unit: 'USD', values: evDebt, desc: '市值 + 短期借款 + 長期負債 − 現金 − 短期投資。Bloomberg／CapIQ 的口徑，與外部資料可比；債務有一段查不到時為 n/a。' },
+    { id: 'ev_debt', zh: '企業價值（僅有息負債）', en: 'EV (Interest-Bearing Debt)', unit: 'USD', values: evDebt, desc: '市值 + 淨負債（有息負債含長期租賃 − 現金 − 短期投資，與關鍵指標分頁同一列）。與外部資料可比；債務查不到時為 n/a。' },
     { id: 'ev_ebitda', zh: 'EV／EBITDA', en: 'EV/EBITDA (TTM)', unit: 'x', values: evEbitda, desc: '排除資本結構的估值倍數。' },
     { id: 'peg', zh: '本益成長比', en: 'PEG (trailing)', unit: 'x', values: peg, desc: 'P/E ÷ 近四季淨利年增率(%)。< 1 常視為成長相對便宜。虧損/衰退時 n/a。' },
     { id: 'ps_vs_median', zh: 'PS／歷史中位數', en: 'P/S vs 5Y Median', unit: 'ratio', values: psVsMedian, desc: `目前 PS 相對自身歷史中位數（中位數≈${psMed?.toFixed(2) ?? 'n/a'}）。< 1 比歷史便宜，需搭配基本面判讀。` },
@@ -202,8 +211,5 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
 function divPos(num: number, den: number | null): number | null {
   return den != null && den > 0 ? num / den : null
 }
-function ttmFcf(ttm: (id: string, p: string) => number | null, p: string): number | null {
-  const cfo = ttm('cfo', p)
-  const capex = ttm('capex', p)
-  return cfo != null && capex != null ? cfo - capex : null
-}
+/** 估值用到的指標（定義在 xbrl_zh_map.json 的 derived，與 Excel 估值分頁引用的列相同） */
+const VAL_METRICS = ['ebitda', 'fcf', 'net_debt']

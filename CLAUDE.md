@@ -460,8 +460,25 @@
   「pre.txt 報表上的那一行」。2026q2 實測：營收、營業成本已無殘留；其餘落差多半是**刻意的定義**
   而非抓錯 —— 折舊攤銷取合計（表上只印折舊）、淨利取歸屬母公司（表上先印含非控制權益）。
   唯一像真錯的是現金：44 家一般公司（Sunrun、American Airlines…）挑到「含受限制現金」的現金流量表
-  合計，資產負債表上印的是不含受限制的 Cash；但 BDC 的 Cash 與約當現金分兩行，一律改用 Cash 會低估，
-  所以還沒改
+  合計，資產負債表上印的是不含受限制的 Cash；但 BDC 的 Cash 與約當現金分兩行，一律改用 Cash 會低估
+- **現金：表上印「Cash」、挑到的標籤不在表上 → 改用表上那幾行之和**（`face_components`：
+  `Cash` ＋ `CashEquivalentsAtCarryingValue`，第一項必須在表上，其餘有印才加）。
+  不是 `face_preferred_tags`：那條是「從兩個申報值裡挑一個」，這裡要把**分兩行印的**加起來 ——
+  SLR Investment 表上 Cash 1,100 萬、約當現金另列 3.9 億，只取 Cash 會把現金砍掉九成七。
+  挑到的標籤本身印在表上就不動（含受限制的合計若就是表上那一行，那是公司自己的定義）。
+  實測：Sunrun 10.9 億 → 6.8 億、AAL 10.0 → 9.0 億、Paysign 1.80 億 → 0.21 億
+  （差額是代客戶保管的款項，不能拿來還債）、SLRC 兩行相加與原值相同。
+  羅素前 400 家只有 6 家變動（AAL、ES 的舊期、AIG／AGO／CRBG／EG 四家保險 —— 保險公司的
+  資產負債表也是單印一行 Cash），**沒有任何一格從有值變空**。
+  同業錨點只有 roic_ttm 的 10 組微調（投入資本扣的是現金），級距不變，scoring 1.14 → 1.15。
+  `face_tags.py` 收這些標籤、`peer_stats.py` 套同一條（`COMPONENT_PRI`：組成項只進逐標籤備份、
+  不參與優先序），`face_audit.py` 把現金列為「已由規則處理」
+- **估值分頁的 EBITDA／自由現金流／淨負債一律取 map 的 `derived`**（`valuation.ts` 呼叫
+  `computeMetrics`，與 Excel 估值分頁引用同一列）。原本自己寫一份：EBITDA 曾經是營業利益＋折舊
+  而關鍵指標早已改成 EBIT＋折舊；有息負債版 EV 一直是「短借＋長借」，Excel 是 `net_debt`
+  （有息負債**含長期租賃**）—— 同一個網站兩種 EV，網頁與下載檔各自看起來都正常。
+  統一後差在有長期租賃的公司（CAT 2026 Q2 EV／EBITDA 31.8 → 31.9）。
+  **同一個概念在兩支程式各寫一次，遲早會只改到一邊**；新的估值列先問 map 裡有沒有現成的指標
 - **利息費用、折舊攤銷不得為負**（`nonnegative`）。負值 ＝ 標籤裝的不是這個東西：淨額標籤翻號
   後為負是淨利息**收入**（ADSK 利息保障倍數 −232.89）、BAX 的 `InterestExpenseNonoperating`
   上半年 −43M、AMP 的 `DepreciationAmortizationAndAccretionNet` 含折溢價攤銷整條是負的

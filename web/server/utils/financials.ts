@@ -156,6 +156,12 @@ export interface MapConcept {
    * 來自離線盤點 `config/face_tags.json`。理由見 map 裡 revenue 的 face_preferred_note
    */
   face_preferred_tags?: string[]
+  /**
+   * 報表上印的是這幾個標籤（第一個必須在表上）、而優先序挑到的標籤不在表上時，改用表上這幾行
+   * 的**和**。目前只有現金：一般公司表上印 Cash（不含受限制現金），BDC 把 Cash 與約當現金分兩行。
+   * 這些標籤不參與優先序競爭，只在這個規則裡用
+   */
+  face_components?: string[]
   tags_ifrs?: string[]
   /**
    * 這些標籤取到的值要乘 -1。用在「同一個科目、不同標籤的正負號慣例相反」的情況：
@@ -327,8 +333,9 @@ export async function loadThemeVersion(): Promise<string> {
  * 5 → 6：報表上印的標籤規則擴及營業成本，兩個表上標籤取較大者
  * 6 → 7：估值的 EBITDA 改成 EBIT ＋ 折舊攤銷（與關鍵指標分頁同一定義）
  * 7 → 8：股價改用未還原股利的收盤價（adjclose 會讓配息公司的歷史市值偏低）
+ * 8 → 9：現金改用資產負債表上印的那一行（face_components），不含受限制現金
  */
-export const PIPELINE_VERSION = '8'
+export const PIPELINE_VERSION = '9'
 
 /**
  * 一個科目在留白時該寫什麼。階梯與 `metrics.ts` 的 `worse()` 同序，
@@ -1149,6 +1156,23 @@ export async function getFinancials(
         // 優先序挑到的標籤也印在表上 → 兩個都是表上的行，合計那一行是較大者
         if (onFace!.has(cur._tag) && !(Math.abs(p.val) > Math.abs(cur.val))) continue
         best.set(key, { ...p, _tag: tag })
+      }
+    }
+    // 表上分行印的組成項（face_components）：第一項在表上、挑到的標籤不在表上 → 改用表上各行之和
+    const comps = concept.face_components ?? []
+    if (onFace && comps.length && onFace.has(comps[0]!)) {
+      const compOnFace = comps.filter((t) => onFace.has(t))
+      const series = compOnFace.map((t) => {
+        const units = ns[t]?.units
+        const pts = unitPrefs(concept.unit).map((u) => units?.[u]).find((p) => p?.length)
+        return pts ? collect(pts, flow, fyeMonth, fyEnds) : new Map<string, FactPoint>()
+      })
+      for (const [key, p] of series[0]!) {
+        const cur = best.get(key)
+        if (cur && onFace.has(cur._tag)) continue   // 優先序挑到的已經是表上那一行
+        let val = p.val
+        for (let k = 1; k < series.length; k++) val += series[k]!.get(key)?.val ?? 0
+        best.set(key, { ...p, val, _tag: compOnFace.join(' + ') })
       }
     }
 

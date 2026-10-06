@@ -166,6 +166,13 @@ export interface MapConcept {
   negate_tags?: string[]
   /** 這一列不可能是負的（利息費用、折舊攤銷）。負值 ＝ 標籤裝的不是這個東西，見 map 的 nonnegative_note */
   nonnegative?: boolean
+  /**
+   * 公司**根本沒有** `when` 那一行（適用性表判定不適用，公司層級、與查詢範圍無關）時，
+   * 改用 `formula` 推算整條。只是「某幾期沒揭露」的公司不套 —— 那會讓同一家公司的
+   * 序列混著兩種定義。目前只有 ROIC 的營業利益用：沒有營業利益小計的公司（ADP、BMY、
+   * ADM…）以 EBIT（稅前淨利 ＋ 利息費用）代
+   */
+  derive_if_inapplicable?: { when: string; formula: string; note?: string }
 }
 
 export interface DerivedMetric {
@@ -316,8 +323,9 @@ export async function loadThemeVersion(): Promise<string> {
  * 1 → 2：`filed < end` 的事實一律不收（edge case 2c，幽靈季）
  * 2 → 3：報表上印的標籤勝過優先序（`face_preferred_tags`，營收取 Revenues 而非 ASC 606 分項）
  * 3 → 4：companyfacts 漏收的申報用 frames 事實補（`config/frames_patch.json`）
+ * 4 → 5：單一科目的 derive（照抄）與 derive_if_inapplicable（ROIC 的營業利益以 EBIT 代）
  */
-export const PIPELINE_VERSION = '4'
+export const PIPELINE_VERSION = '5'
 
 /**
  * 一個科目在留白時該寫什麼。階梯與 `metrics.ts` 的 `worse()` 同序，
@@ -2074,6 +2082,9 @@ export async function getFinancials(
     }
   }
 
+  // 公司根本沒有某一行（剛判定為不適用）→ 依 derive_if_inapplicable 改用替代式推算整條
+  applyInapplicableFallbacks(map, byId, allPeriods, na)
+
   // 「報表上有這一行，但只用維度揭露」——companyfacts 只收無維度事實，所以整條抓不到。
   // 與不適用互斥：AES 的資產負債表上真的有長期負債（按有／無追索權拆），寫「—」是說謊；
   // 也不是我們漏標籤，標籤對得上、是這條路取不到。同樣**只在值本來就缺時才標**
@@ -2401,6 +2412,29 @@ function applyVerifiedDerives(
  * （ANET／ALGN／APPF／ALAB／AUR 實測）的有息負債合計永遠是 n/a，負債權益比、
  * 淨負債／EBITDA、ROIC 跟著整排落空。背書補完要再跑一遍這條，那幾格才活得過來。
  */
+/** 見 MapConcept.derive_if_inapplicable。必須跑在適用性判定之後 */
+export function applyInapplicableFallbacks(
+  map: { concepts: MapConcept[] },
+  byId: Map<string, LineItem>,
+  allPeriods: Iterable<string>,
+  notApplicable: Set<string>,
+): void {
+  for (const concept of map.concepts) {
+    const rule = concept.derive_if_inapplicable
+    if (!rule) continue
+    // 判準是**適用性表**（公司層級的事實），不是 `li.applicable`：後者要看查詢範圍裡有沒有值。
+    // ACHC 早年有營業利益、近年報表上沒有那一行 —— 財報頁（範圍短）會判不適用、評分頁
+    // （多抓兩年）不會，同一家公司的 ROIC 一邊有一邊 n/a。用表判定之後，有營業利益的期
+    // 照抄、沒有的期用 EBIT，每一格的結果與查詢範圍無關
+    if (!notApplicable.has(rule.when)) continue
+    applyDerives({ concepts: [{ ...concept, derive: rule.formula, derive_if_inapplicable: undefined }] }, byId, [...allPeriods])
+    // 適用性表也會把這一列判成不適用（它的主式就是那個不存在的科目），推算出值之後要撤銷，
+    // 否則 metrics.ts 會把整個 ROIC 寫成「—」（ADP 實測）
+    const li = byId.get(concept.id)
+    if (li && Object.values(li.values).some((v) => typeof v?.value === 'number')) li.applicable = undefined
+  }
+}
+
 export function applyDerives(
   map: { concepts: MapConcept[] },
   byId: Map<string, LineItem>,
@@ -2411,10 +2445,18 @@ export function applyDerives(
     const li = byId.get(concept.id)
     if (!li) continue
     // "a - b - c?" → 首項 + 後續 (運算子, 科目, 是否選用)
-    const m = concept.derive.match(/^(\w+)((?:\s*[+\-*/]\s*\w+\??)+)$/)
+    const m = concept.derive.match(/^(\w+)((?:\s*[+\-*/]\s*\w+\??)*)$/)
     if (!m) continue
     const head = byId.get(m[1])
     if (!head) continue
+    if (!(m[2] ?? '').trim()) {
+      // 單一科目＝照抄（含原本的推算旗標與來源），不是新的推算
+      for (const p of allPeriods) {
+        if (li.values[p]?.value != null || head.values[p]?.value == null) continue
+        li.values[p] = { ...head.values[p]! }
+      }
+      continue
+    }
     const terms = [...m[2].matchAll(/([+\-*/])\s*(\w+)(\??)/g)].map((t) => ({
       op: t[1],
       li: byId.get(t[2]),

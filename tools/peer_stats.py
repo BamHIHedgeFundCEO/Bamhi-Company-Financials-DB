@@ -381,12 +381,24 @@ def apply_bounded_zero(concepts, series, n):
 
 
 def apply_derive(concepts, series):
-    """執行期的推算 fallback（total_liabilities、pretax_income…）。只補缺的年度。"""
+    """執行期的推算 fallback（total_liabilities、pretax_income…）。只補缺的年度。
+
+    `derive_if_inapplicable`：執行期看的是適用性表（公司根本沒有那一行）；這裡沒有那張表，
+    用最接近的事實代替 —— `when` 那個科目在這家公司的整段序列**一格值都沒有**。
+    """
+    expanded = []
     for c in concepts:
+        expanded.append(c)
+        rule = c.get("derive_if_inapplicable")
+        if rule:
+            expanded.append({**c, "derive": rule["formula"], "_when": rule["when"]})
+    for c in expanded:
+        if c.get("_when") and any(x is not None for x in (series.get(c["_when"]) or [])):
+            continue
         expr = c.get("derive")
         if not expr:
             continue
-        m = re.fullmatch(r"(\w+)((?:\s*[-+*/]\s*\w+\??)+)", expr)
+        m = re.fullmatch(r"(\w+)((?:\s*[-+*/]\s*\w+\??)*)", expr)
         if not m:
             continue
         head = series.get(m.group(1))

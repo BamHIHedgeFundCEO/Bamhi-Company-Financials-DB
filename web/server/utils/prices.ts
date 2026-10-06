@@ -1,13 +1,16 @@
 /**
  * 股價來源：Yahoo Finance chart API（免 key、免 library，serverless 上比 yfinance 穩）。
- * 用 adjclose（已還原分割與股利）→ 與本站 split-adjusted 股數同基準，市值計算一致。
+ * 用 quote.close（雅虎 chart API 的 close 已還原分割、**未還原股利**）→ 與本站 split-adjusted
+ * 股數同基準，市值＝當時真正的股價 × 股數。**不能用 adjclose**：它連股利也還原，越早的
+ * 股價被往下調越多 —— 配息公司的歷史市值、P/E、P/S、EV 會系統性偏低（Caterpillar
+ * 2025-03-31 顯示 $324.10，那天實際收盤價更高；一年前的倍數低估約一個殖利率）。
  * SEC 不提供股價，估值倍數（PE/PS/PB/EV…）唯一的外部相依就在這裡。
  */
 
 export interface PriceSeries {
   currency: string
   current: number | null
-  /** 由舊到新的 [YYYY-MM-DD, adjClose]，日線（貼近季末當日收盤） */
+  /** 由舊到新的 [YYYY-MM-DD, close]，日線（貼近季末當日收盤；已還原分割、未還原股利） */
   daily: [string, number][]
   /** 交易所紀錄的分割除權事件（由舊到新）。與 SEC 完全獨立，用來仲裁 computeSplits */
   splits: SplitFact[]
@@ -34,7 +37,7 @@ export async function getPrices(ticker: string): Promise<PriceSeries | null> {
   const hit = cache.get(key)
   if (hit && Date.now() - hit.at < TTL) return hit.data
 
-  // 日線、近 10 年（涵蓋 40 季上限）；adjclose 已還原分割/股利
+  // 日線、近 10 年（涵蓋 40 季上限）；close 已還原分割、未還原股利
   // `events=split` 在**同一個請求**裡多回除權日與確切比例，零額外外部請求
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(key)}?range=10y&interval=1d&events=split`
   try {
@@ -44,7 +47,7 @@ export async function getPrices(ticker: string): Promise<PriceSeries | null> {
     const r = j?.chart?.result?.[0]
     if (!r) return null
     const ts: number[] = r.timestamp ?? []
-    const adj: (number | null)[] = r.indicators?.adjclose?.[0]?.adjclose ?? r.indicators?.quote?.[0]?.close ?? []
+    const adj: (number | null)[] = r.indicators?.quote?.[0]?.close ?? []
     const daily: [string, number][] = []
     for (let i = 0; i < ts.length; i++) {
       const v = adj[i]

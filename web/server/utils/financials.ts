@@ -326,8 +326,9 @@ export async function loadThemeVersion(): Promise<string> {
  * 4 → 5：單一科目的 derive（照抄）與 derive_if_inapplicable（ROIC 的營業利益以 EBIT 代）
  * 5 → 6：報表上印的標籤規則擴及營業成本，兩個表上標籤取較大者
  * 6 → 7：估值的 EBITDA 改成 EBIT ＋ 折舊攤銷（與關鍵指標分頁同一定義）
+ * 7 → 8：股價改用未還原股利的收盤價（adjclose 會讓配息公司的歷史市值偏低）
  */
-export const PIPELINE_VERSION = '7'
+export const PIPELINE_VERSION = '8'
 
 /**
  * 一個科目在留白時該寫什麼。階梯與 `metrics.ts` 的 `worse()` 同序，

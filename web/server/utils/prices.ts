@@ -15,6 +15,11 @@ export interface PriceSeries {
   /** 交易所紀錄的分割除權事件（由舊到新）。與 SEC 完全獨立，用來仲裁 computeSplits */
   splits: SplitFact[]
   /**
+   * 雅虎拿來回溯調整 `close` 的**全部**事件，含分拆造成的零碎比例（`splits` 濾掉的那些）。
+   * 估值要用它把收盤價還原成當天實際成交價（`rawCloseAt`）—— 見那支的註解
+   */
+  adjEvents: SplitFact[]
+  /**
    * 雅虎「看得到」的起點＝上市日與本次請求視窗的較晚者。
    * 沒有這個日期就分不出「雅虎說沒有」與「雅虎根本沒涵蓋」——
    * 改名或重新上市的公司會被誤當成前者而誤刪真事件。
@@ -54,13 +59,17 @@ export async function getPrices(ticker: string): Promise<PriceSeries | null> {
       if (v != null) daily.push([new Date(ts[i] * 1000).toISOString().slice(0, 10), v])
     }
     const splits: SplitFact[] = []
+    const adjEvents: SplitFact[] = []
     for (const ev of Object.values<any>(r.events?.splits ?? {})) {
       const num = Number(ev?.numerator)
       const den = Number(ev?.denominator)
+      if (num > 0 && den > 0 && isFinite(num) && isFinite(den))
+        adjEvents.push({ date: epochDay(ev.date), factor: num / den })
       if (!isCleanRatio(num, den)) continue
       splits.push({ date: epochDay(ev.date), factor: num / den })
     }
     splits.sort((a, b) => (a.date < b.date ? -1 : 1))
+    adjEvents.sort((a, b) => (a.date < b.date ? -1 : 1))
 
     const firstTrade = r.meta?.firstTradeDate != null ? epochDay(r.meta.firstTradeDate) : null
     const windowStart = daily[0]?.[0] ?? null
@@ -69,6 +78,7 @@ export async function getPrices(ticker: string): Promise<PriceSeries | null> {
       current: r.meta?.regularMarketPrice ?? (daily.at(-1)?.[1] ?? null),
       daily,
       splits,
+      adjEvents,
       coverStart:
         firstTrade && windowStart
           ? firstTrade > windowStart
@@ -111,9 +121,9 @@ function epochDay(sec: number): string {
  */
 export async function getSplitFacts(
   ticker: string,
-): Promise<{ splits: SplitFact[]; coverStart: string | null } | null> {
+): Promise<{ splits: SplitFact[]; adjEvents: SplitFact[]; coverStart: string | null } | null> {
   const s = await getPrices(ticker)
-  return s ? { splits: s.splits, coverStart: s.coverStart } : null
+  return s ? { splits: s.splits, adjEvents: s.adjEvents, coverStart: s.coverStart } : null
 }
 
 /** 取 <= 目標日期的最近交易日收盤（季末當日或前一交易日）。二分搜尋。 */
@@ -132,4 +142,42 @@ export function priceAt(series: PriceSeries, date: string): number | null {
     }
   }
   return best
+}
+
+/**
+ * <= 目標日期的最近交易日收盤，**還原成那一天實際的成交價**（乘回之後每一次雅虎調整過的事件）。
+ * 回傳 [交易日, 原始價]。
+ *
+ * 為什麼不能直接用 `close`：雅虎的 close 是「以今天的股數基準」回溯調整的，而我們的股數
+ * 只套用 `arbitrateSplits` 認定的那幾次分割。兩邊的事件集合不同，市值就錯一個倍數 ——
+ * 而且看起來完全正常。13F 逐家「申報市值 ÷ 股數」對 396 檔 2026-06-30 收盤價實測：
+ * 392 檔一分不差，錯的 4 檔全是**季末之後**的公司行動：
+ *   - APH 2026-09-03 的 2:1：除權後還沒有任何 SEC 申報，股數不調，價格卻已被砍半
+ *     → 市值 1,087 億（實際 2,174 億）、本益比少一半，**整段歷史每一期都是**
+ *   - REZI 2026-08-04 的分拆（1437:1000）：零碎比例本來就不進股數正規化，價格卻被調低三成
+ *   - HON 2026-06-29 分拆夾帶 1:2 反向分割（雅虎記成 1907:2000）：股數照 1:2 正規化，
+ *     價格只調了 5% → 分拆前每一期市值少一半
+ * 解法是讓價格與股數吃**同一份事件清單**：先還原成原始成交價，再由呼叫端除以網站
+ * 真正套用到股數的那幾次分割（`FinancialsResult.splitBasis`）。
+ */
+export function rawCloseAt(series: PriceSeries, date: string): [string, number] | null {
+  const a = series.daily
+  let lo = 0
+  let hi = a.length - 1
+  let best = -1
+  while (lo <= hi) {
+    const mid = (lo + hi) >> 1
+    if (a[mid]![0] <= date) {
+      best = mid
+      lo = mid + 1
+    } else {
+      hi = mid - 1
+    }
+  }
+  if (best < 0) return null
+  const [td, close] = a[best]!
+  let f = 1
+  // 除權日當天的收盤已經是新基準，所以只乘回「交易日之後」的事件
+  for (const e of series.adjEvents) if (e.date > td) f *= e.factor
+  return [td, close * f]
 }

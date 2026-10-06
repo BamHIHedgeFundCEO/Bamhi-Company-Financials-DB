@@ -1,6 +1,6 @@
 import { applyDerives, loadMap, type FinancialsResult } from './financials'
 import { computeMetrics, type MetricSeries } from './metrics'
-import { getPrices, priceAt, type PriceSeries } from './prices'
+import { getPrices, rawCloseAt } from './prices'
 
 /**
  * 估值倍數：需要股價（SEC 不提供）。市值 = 期末股價 × 期末流通股數。
@@ -85,7 +85,14 @@ export async function computeValuation(fin: FinancialsResult): Promise<Valuation
   const marketcap: Record<string, number | null> = {}
   for (const p of periods) {
     const d = endDate(p)
-    const pr = d ? priceAt(series, d) : null
+    // 原始成交價 ÷ 股數實際套用、而且在該交易日之後才除權的分割 → 與股數同一個基準
+    const hit = d ? rawCloseAt(series, d) : null
+    let pr: number | null = null
+    if (hit) {
+      let f = 1
+      for (const s of fin.splitBasis ?? []) if (s.exDate > hit[0]) f *= s.factor
+      pr = hit[1] / f
+    }
     price[p] = pr
     const sh = val('shares_outstanding', p)
     marketcap[p] = pr != null && sh != null ? pr * sh : null

@@ -249,6 +249,11 @@ export interface FinancialsResult {
   preIpoBefore?: string
   /** 估值倍數（需股價，另行計算後掛上；SEC 資料本身不含） */
   valuation?: import('./valuation').Valuation
+  /**
+   * 股數實際套用的分割（除權日、倍數）。估值把原始股價換到同一個基準用 ——
+   * 價格與股數必須吃同一份事件清單（見 prices.ts 的 `rawCloseAt`）
+   */
+  splitBasis?: { exDate: string; factor: number }[]
 }
 
 let cachedMap: XbrlMap | null = null
@@ -334,8 +339,9 @@ export async function loadThemeVersion(): Promise<string> {
  * 6 → 7：估值的 EBITDA 改成 EBIT ＋ 折舊攤銷（與關鍵指標分頁同一定義）
  * 7 → 8：股價改用未還原股利的收盤價（adjclose 會讓配息公司的歷史市值偏低）
  * 8 → 9：現金改用資產負債表上印的那一行（face_components），不含受限制現金
+ * 9 → 10：季末股價還原成實際成交價再換到股數的基準（APH／REZI／HON 季末之後的公司行動）
  */
-export const PIPELINE_VERSION = '9'
+export const PIPELINE_VERSION = '10'
 
 /**
  * 一個科目在留白時該寫什麼。階梯與 `metrics.ts` 的 `worse()` 同序，
@@ -650,6 +656,12 @@ function detectSplit(ratio: number): number | null {
 
 interface SplitEvent {
   threshold: string // 申報日界線：filed < threshold 者為分割前基準
+  /**
+   * 除權日（雅虎的紀錄）。股數用 `threshold`（申報日）切，股價要用除權日切 ——
+   * 季末落在兩者之間的那一季，股數是新基準、當天收盤也已經是新基準。
+   * 雅虎沒有對應紀錄時留空，估值退回 `threshold`
+   */
+  exDate?: string
   factor: number // 新/舊 股數比（正向>1，反向<1）
   /** 裁判（`sharesAcross`）找到跨界線的同期股數且比值等於倍數 */
   confirmed: boolean
@@ -818,7 +830,11 @@ const isExact = (ev: SplitEvent) =>
  */
 function arbitrateSplits(
   det: SplitEvent[],
-  yahoo: { splits: { date: string; factor: number }[]; coverStart: string | null } | null,
+  yahoo: {
+    splits: { date: string; factor: number }[]
+    adjEvents?: { date: string; factor: number }[]
+    coverStart: string | null
+  } | null,
   filedDates: string[],
 ): SplitEvent[] {
   if (!yahoo) return det
@@ -839,7 +855,7 @@ function arbitrateSplits(
     )
     if (hit >= 0) {
       used.set(hit, ev.threshold)
-      out.push(ev) // 兩邊都有
+      out.push({ ...ev, exDate: ysp[hit]!.date }) // 兩邊都有
     } else {
       pending.push(ev)
     }
@@ -860,8 +876,13 @@ function arbitrateSplits(
         daysBetween(ev.threshold, s.date) <= DUP_WINDOW,
     )
     if (dup) continue
-    if (!covered(ev.threshold)) out.push(ev) // 雅虎沒涵蓋 → 不知道就不猜
-    else if (ev.confirmed && isExact(ev)) out.push(ev) // HON 型
+    // 除權日：雅虎把這次記成零碎比例（HON 的分拆夾帶 1:2 記成 1907:2000）時，
+    // 仍然是同一天 —— 取界線前視窗內最近的一筆調整事件
+    const lo = shiftDays(ev.threshold, -MATCH_WINDOW)
+    const near = (yahoo.adjEvents ?? []).filter((e) => lo <= e.date && e.date <= ev.threshold).at(-1)
+    const withDate = near ? { ...ev, exDate: near.date } : ev
+    if (!covered(ev.threshold)) out.push(withDate) // 雅虎沒涵蓋 → 不知道就不猜
+    else if (ev.confirmed && isExact(ev)) out.push(withDate) // HON 型
     // 其餘：雅虎涵蓋卻沒有，且證據不夠貼 → 丟棄
   }
 
@@ -871,7 +892,7 @@ function arbitrateSplits(
     // 除權後還沒有任何申報的話沒有東西要調整，跳過。
     const threshold = filedDates.find((d) => d >= ysp[i].date)
     if (!threshold) continue
-    out.push({ threshold, factor: ysp[i].factor, confirmed: true, dev: null, devRaw: null })
+    out.push({ threshold, factor: ysp[i].factor, confirmed: true, dev: null, devRaw: null, exDate: ysp[i]!.date })
   }
 
   return out.sort((a, b) => (a.threshold < b.threshold ? -1 : 1))
@@ -2229,6 +2250,7 @@ export async function getFinancials(
     sectorItems: lineItems.filter((li) => sectorIds.has(li.id)),
     sectorDerived: map.derived.filter((m) => !!m.sector),
     preIpoBefore,
+    splitBasis: splits.map((s) => ({ exDate: s.exDate ?? s.threshold, factor: s.factor })),
   }
 }
 

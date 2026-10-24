@@ -201,7 +201,7 @@ def build_workbook(payload: dict) -> bytes:
     # 標題列
     t = info.cell(row=1, column=1, value=f"{fin['ticker']}　{fin['company']}")
     t.font = Font(bold=True, size=16)
-    info.cell(row=2, column=1, value="BamHI 美股財報庫　·　SEC EDGAR 官方資料").font = Font(
+    info.cell(row=2, column=1, value="股譜 Tickifu 美股財報　·　SEC EDGAR 官方資料").font = Font(
         size=10, color="8C9199")
     meta_rows = [
         ("公司", fin["company"]),
@@ -454,7 +454,7 @@ def build_workbook(payload: dict) -> bytes:
         name_cell.border = ROW_BORDER
         ws.cell(row=row, column=2, value=m["en"]).border = ROW_BORDER
         # 滑鼠移入指標名稱顯示判讀說明（desc）
-        name_cell.comment = Comment(m["desc"], "BamHI", height=160, width=360)
+        name_cell.comment = Comment(m["desc"], "股譜 Tickifu", height=160, width=360)
         fmt = _metric_fmt(m, th)
         metric_na = metric_na_by_id[m["id"]]
         # 階梯與 metrics.ts 的 worse() 同序：不適用 > 僅維度揭露
@@ -611,7 +611,7 @@ def build_workbook(payload: dict) -> bytes:
         if h in ("原始申報日", "取值來源申報日"):
             c.comment = Comment(
                 "原始申報日＝該期首次申報；取值來源申報日＝實際取值的那份（可能是後續重編，取 filed 最新）。"
-                "兩者不同代表該數字曾被重編。", "BamHI", height=120, width=320)
+                "兩者不同代表該數字曾被重編。", "股譜 Tickifu", height=120, width=320)
     for i, rr in enumerate(raw_rows, start=2):
         for j, v in enumerate(rr, start=1):
             ws.cell(row=i, column=j, value=v)
@@ -1466,7 +1466,7 @@ def _build_segment_sheet(wb, seg: dict, th: dict):
         # 欄名只寫 FY / FY+季，確切期末日放註解（各家會計年度結束日不同）
         ws.cell(row=1, column=FIRST_DATA_COL + i).comment = Comment(
             f"期末日 {end}\n{'年度（12 個月）' if kind == 'A' else '單季（3 個月，非累計）'}",
-            "BamHI", height=70, width=200)
+            "股譜 Tickifu", height=70, width=200)
     ws.freeze_panes = th["layout"]["freeze_panes"]
     ws.column_dimensions["A"].width = 30
     ws.column_dimensions["B"].width = 32

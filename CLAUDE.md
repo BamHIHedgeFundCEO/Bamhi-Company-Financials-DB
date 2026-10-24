@@ -54,6 +54,10 @@
    ④ 預覽名單只有 `config/preview_tickers.json` 一份；股譜要知道時打 `/api/me`，不另存
    ⑤ 整站掛在 `/financials/` 底下（`app.baseURL`）。`$fetch` 會自己加前綴，`<a href>`、`location.href`、
    　 `<img src>` 不會，一律包 `withBase()`
+   ⑥ **介面跟股譜同一套**（2026-10 發起人決定：站上不再出現 BAMHI）：標誌、字標、黑白主題（深色預設、
+   　 讀股譜的 `tickbase-theme` cookie 切淺色）、字型都照股譜。顏色只改 `assets/css/main.css` 的變數；
+   　 圖表數列色走 `--series-1…6`（`utils/fmt.ts` 的 `CHART_COLORS`），深淺各一組、用 dataviz 的
+   　 `validate_palette.js` 以股譜的底色驗過。寫死的色碼在黑底上會消失，不要再寫
 5. 不做 zip 打包 / job queue / Redis / worker（v2 才加）
 6. `filings.recent` 只含最近約 1000 筆，更早的要抓 `filings.files` 分頁
 7. 不接 Google Sheets API

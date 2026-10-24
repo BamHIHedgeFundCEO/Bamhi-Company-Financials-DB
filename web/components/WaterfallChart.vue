@@ -62,9 +62,9 @@ const y = (v: number) =>
 
 const scale = computed<Scale>(() => ({ div: props.div, unit: props.unit }))
 function colorOf(s: Step) {
-  if (s.kind === 'base') return '#15171A'
-  if (s.kind === 'subtotal') return '#0E6B5A'
-  return s.value >= 0 ? '#4A6FA5' : '#C25A18'
+  if (s.kind === 'base') return 'var(--ink)'
+  if (s.kind === 'subtotal') return 'var(--series-3)'
+  return s.value >= 0 ? 'var(--series-1)' : 'var(--series-2)'
 }
 const hover = ref<number | null>(null)
 function onMove(e: MouseEvent) {
@@ -98,7 +98,7 @@ function onMove(e: MouseEvent) {
               :height="Math.max(1.5, Math.abs(y(sp.to) - y(sp.from)))"
               :fill="colorOf(sp.s)" :opacity="hover === null || hover === i ? 1 : 0.4"
               :stroke-dasharray="sp.s.plug ? '3 2' : undefined"
-              :stroke="sp.s.plug ? '#15171A' : undefined" />
+              :stroke="sp.s.plug ? 'var(--ink)' : undefined" />
         <text :x="cx(i)" :y="Math.min(y(sp.from), y(sp.to)) - 5" class="val">
           {{ fmtScaled(sp.s.kind === 'delta' ? sp.s.value : sp.s.value, scale) }}
         </text>
@@ -112,10 +112,10 @@ function onMove(e: MouseEvent) {
     </svg>
 
     <div class="legend">
-      <span><i style="background:#15171A" />起點／終點</span>
-      <span><i style="background:#0E6B5A" />小計（公司申報值）</span>
-      <span><i style="background:#C25A18" />扣除</span>
-      <span><i style="background:#4A6FA5" />增加</span>
+      <span><i style="background:var(--ink)" />起點／終點</span>
+      <span><i style="background:var(--series-3)" />小計（公司申報值）</span>
+      <span><i style="background:var(--series-2)" />扣除</span>
+      <span><i style="background:var(--series-1)" />增加</span>
       <span v-if="steps.some((s) => s.plug)"><i class="plug" />虛線＝殘差推算</span>
       <span v-if="unit" class="u">單位：{{ unit }}</span>
     </div>

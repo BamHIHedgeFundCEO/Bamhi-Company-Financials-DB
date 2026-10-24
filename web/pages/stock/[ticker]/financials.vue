@@ -88,7 +88,7 @@ const isLines = computed(() => {
   const nm = ratio(netIncome.value, revenue.value)
   if (count(gm)) out.push({ name: '毛利率', color: CHART_COLORS[2], values: gm })
   if (count(om)) out.push({ name: '營業利益率', color: CHART_COLORS[3], values: om })
-  if (count(nm)) out.push({ name: '淨利率', color: CHART_COLORS[5], values: nm })
+  if (count(nm)) out.push({ name: '淨利率', color: CHART_COLORS[0], values: nm })
   return out
 })
 const isScale = computed(() => pickScale(isBars.value.flatMap((b) => b.values)))
@@ -132,11 +132,11 @@ const epsLines = computed(() => {
 // ── 圖 4：資產負債表 ─────────────────────────────────────
 const bsSeries = computed(() => {
   const defs: [string, string[], string][] = [
-    ['流動資產合計', ['current_assets'], CHART_COLORS[3]],
-    ['資產總計', ['total_assets'], CHART_COLORS[0]],
+    ['流動資產合計', ['current_assets'], CHART_COLORS[0]],
+    ['資產總計', ['total_assets'], CHART_COLORS[3]],
     ['流動負債合計', ['current_liabilities'], CHART_COLORS[2]],
-    ['負債總計', ['total_liabilities'], CHART_COLORS[4]],
-    ['權益總計', ['equity', 'equity_total'], CHART_COLORS[1]],
+    ['負債總計', ['total_liabilities'], CHART_COLORS[1]],
+    ['權益總計', ['equity', 'equity_total'], CHART_COLORS[5]],
   ]
   return defs
     .map(([name, ids, color]) => ({ name, color, values: series(...ids) }))

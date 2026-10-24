@@ -68,4 +68,18 @@ export function axisFor(values: (number | null | undefined)[], ticks = 4, includ
   return { min, max, step, list }
 }
 
-export const CHART_COLORS = ['#15171A', '#0E6B5A', '#C25A18', '#4A6FA5', '#8C9199', '#7D5BA6']
+/**
+ * 圖表數列色（深淺主題各一組，值在 main.css 的 --series-1…6）。
+ * 索引對到色盤槽位的方式是刻意的：各圖實際並排的組合要落在驗證過的順序上
+ * （validate_palette.js）——損益四層長條 [0,3,2,1] ＝ 槽 1–4 相鄰；資產負債 [0,3,2,1,5] ＝ 槽 1–5；
+ * 會交叉的折線（利潤率、成長率、EPS）只用 0、2、3 ＝ 槽 1–3，任兩條都分得開。
+ * 新增數列前先跑一次驗證，不要用肉眼挑。
+ */
+export const CHART_COLORS = [
+  'var(--series-1)',
+  'var(--series-4)',
+  'var(--series-3)',
+  'var(--series-2)',
+  'var(--series-6)',
+  'var(--series-5)',
+]

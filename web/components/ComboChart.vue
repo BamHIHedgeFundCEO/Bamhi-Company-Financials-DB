@@ -204,7 +204,7 @@ text.ax { font-family: var(--mono); font-size: 10px; fill: var(--ink-3); text-an
 .legend .u { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); margin-left: auto; }
 .tip { position: absolute; top: 4px; transform: translateX(10px); background: var(--surface);
   border: 1px solid var(--ink); padding: 7px 9px; font-size: 11.5px; pointer-events: none;
-  min-width: 168px; z-index: 3; box-shadow: 3px 3px 0 rgba(21,23,26,.08); }
+  min-width: 168px; z-index: 3; box-shadow: 3px 3px 0 color-mix(in srgb, var(--ink) 8%, transparent); }
 .tip.right { transform: translateX(calc(-100% - 10px)); }
 .tip .tl { font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em;
   color: var(--ink); border-bottom: 1px solid var(--rule-2); padding-bottom: 4px; margin-bottom: 4px; }

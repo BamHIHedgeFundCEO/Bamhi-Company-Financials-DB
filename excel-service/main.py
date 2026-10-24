@@ -11,7 +11,7 @@ from pydantic import BaseModel
 import r2
 from workbook import build_workbook
 
-app = FastAPI(title="BamHI Excel Service")
+app = FastAPI(title="Tickifu Excel Service")
 
 
 class GeneratePayload(BaseModel):

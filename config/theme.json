@@ -1,6 +1,6 @@
 {
-  "version": "0.3",
-  "note": "Excel 產出的視覺設定層。白標客製只改此檔。色盤取自 BamHI 原型設計 token。",
+  "version": "0.4",
+  "note": "Excel 產出的視覺設定層。白標客製只改此檔。0.4：品牌改為股譜 Tickifu（說明分頁標題、儲存格註解作者），升版讓 R2 上的舊活頁簿全部重新產生。",
   "palette": {
     "chart_series": ["#1F3A5F", "#5C7699", "#C25A18", "#8C9199", "#9DB8D9", "#0E6B5A"],
     "q4_estimated_fill": "#F7EADF",

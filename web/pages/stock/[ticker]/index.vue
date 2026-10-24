@@ -48,7 +48,7 @@ useHead({
         '@type': 'Dataset',
         name: title,
         description: `${ticker} 歷年 10-K / 10-Q 財報與 XBRL 季度財務數據`,
-        creator: { '@type': 'Organization', name: 'BamHI' },
+        creator: { '@type': 'Organization', name: '股譜 Tickifu', url: 'https://www.tickifu.com' },
         isBasedOn: 'https://www.sec.gov/',
       }),
     },

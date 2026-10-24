@@ -33,7 +33,7 @@ function evict() {
 
 function userAgent(): string {
   // 預設為營運者聯絡方式（SEC 合規要求）；部署環境可用 SEC_USER_AGENT 覆蓋
-  return process.env.SEC_USER_AGENT || 'BamHI frank940702@gmail.com'
+  return process.env.SEC_USER_AGENT || 'Tickifu frank940702@gmail.com'
 }
 
 /** 共用的取回流程：限速 → 429 指數退避 → 非 2xx 拋錯。 */

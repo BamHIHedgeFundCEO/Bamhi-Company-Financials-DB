@@ -262,7 +262,7 @@ useHead({ title: `${ticker} 財務報表圖表｜營收、毛利率、EPS、資�
           <button v-for="n in [8, 12, 16, 20]" :key="n" :class="{ on: nQuarters === n }"
                   @click="nQuarters = n">{{ n }} {{ unitZh }}</button>
         </div>
-        <a class="xls" :href="`/api/financials/excel?ticker=${ticker}&from=${thisYear - 4}Q1&to=${thisYear + 1}Q4`">
+        <a class="xls" :href="withBase(`/api/financials/excel?ticker=${ticker}&from=${thisYear - 4}Q1&to=${thisYear + 1}Q4`)">
           下載完整 Excel ↗
         </a>
       </div>

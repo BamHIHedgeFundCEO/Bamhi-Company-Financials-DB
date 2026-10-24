@@ -50,6 +50,12 @@ body{
   margin-left:auto;letter-spacing:.06em;display:flex;align-items:center;gap:7px}
 .masthead .src::before{content:'';width:6px;height:6px;background:var(--green)}
 @media(max-width:820px){.masthead .src{display:none}}
+.masthead .tk{display:flex;align-items:center;gap:14px;font-size:13px}
+.masthead .src + .tk{margin-left:18px}
+@media(max-width:820px){.masthead .tk{margin-left:auto}}
+.masthead .tk a{color:var(--ink-2,var(--ink));text-decoration:none}
+.masthead .tk a:hover{color:var(--ink)}
+.masthead .tk .login{border:1px solid var(--ink);padding:4px 10px;color:var(--ink)}
 
 /* ══ query ══════════════════════════════════════════════ */
 .query{padding:clamp(24px,4vw,38px) 0 24px}

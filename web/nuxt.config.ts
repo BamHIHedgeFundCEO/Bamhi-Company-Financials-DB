@@ -1,29 +1,19 @@
-import { readFileSync, existsSync } from 'node:fs'
-import { resolve } from 'node:path'
+import preview from '../config/preview_tickers.json'
 
 /**
- * SSG：build 時預先生成熱門/前 500 大 ticker 的 /stock/{ticker} 靜態頁。
- * 清單由 scripts/generate-static.ts 產出（.static-tickers.json）；
- * 沒跑過 script 時退回內建熱門清單，dev 不受影響。
- * 每週 GitHub Actions 重新 generate 一次；使用者操作仍以 client-side API 取最新狀態。
+ * 本站併入股譜（2026-10）：網址是 www.tickifu.com/financials/…，由股譜的 Next.js 轉過來，
+ * 所以整個站掛在 `/financials/` 底下（頁面、API、靜態檔都是）。
+ *
+ * SSG：build 時預先產生首頁與預覽標的的個股頁。其他標的要登入才看得到，
+ * 預先產生也只會產生一頁註冊牆，不再為 500 檔產生靜態頁。
  */
-const fallbackTickers = ['NVDA', 'AAPL', 'TSLA', 'MSFT', 'AMZN', 'GOOGL', 'META', 'AMD', 'TSM', 'PLTR']
-
-function staticTickers(): string[] {
-  const p = resolve(__dirname, '.static-tickers.json')
-  if (existsSync(p)) {
-    try {
-      const list = JSON.parse(readFileSync(p, 'utf-8')) as string[]
-      if (Array.isArray(list) && list.length) return list
-    } catch { /* 損壞時退回內建清單 */ }
-  }
-  return fallbackTickers
-}
+const staticTickers = (): string[] => preview.tickers
 
 export default defineNuxtConfig({
   compatibilityDate: '2026-01-01',
   css: ['~/assets/css/main.css'],
   app: {
+    baseURL: '/financials/',
     head: {
       htmlAttrs: { lang: 'zh-Hant' },
       meta: [

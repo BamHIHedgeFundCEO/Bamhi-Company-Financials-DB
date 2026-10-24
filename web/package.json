@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@vercel/blob": "^2.8.0",
+    "jose": "^5.9.6",
     "nuxt": "^3.13.0",
     "vue": "^3.5.0"
   },

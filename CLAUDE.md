@@ -42,7 +42,18 @@
    　的格式，執行期逐家查會打破 ≤2 次請求，所以離線：以 `Assets` 當哨兵，frames 有而
    　companyconcept 沒有的申報書號＝缺口，只收缺口公司。**頁面不標示來源**（使用者決定：數字同源，
    　標了只會讓人以為是另一種數字）。限制：frames 沒有年初至今累計，缺口季的現金流量表補不回來
-4. 不做登入 / 帳號 / 訂閱 / 付費牆
+4. 不做付費牆、訂閱、自己的帳號系統。**登入門檻例外（2026-10 發起人決定，推翻原本的「不做登入」）**：
+   本站併入股譜（www.tickifu.com/financials），帳號一律用股譜的（Supabase），本站不存任何使用者資料。
+   `config/preview_tickers.json` 的代號誰都能看，其他代號要登入（免費）。
+   ① **擋在 API**（`server/middleware/gate.ts`），頁面那層（`middleware/gate.global.ts`）只是體驗：
+   　 只擋頁面的話，直接打 /api 就繞過去了
+   ② 驗證**不需要密鑰**：Supabase 用 ES256 簽發 access token，公鑰在 JWKS 端點公開（`server/utils/auth.ts`）。
+   　 service role key 不放在本站
+   ③ **要登入的回應不可進 CDN 快取**：各端點自己設 `public, s-maxage`，不改的話第一個登入的人查完，
+   　 CDN 就把那份回應發給下一個沒登入的人。`plugins/gate-cache.ts` 送出前改成 private
+   ④ 預覽名單只有 `config/preview_tickers.json` 一份；股譜要知道時打 `/api/me`，不另存
+   ⑤ 整站掛在 `/financials/` 底下（`app.baseURL`）。`$fetch` 會自己加前綴，`<a href>`、`location.href`、
+   　 `<img src>` 不會，一律包 `withBase()`
 5. 不做 zip 打包 / job queue / Redis / worker（v2 才加）
 6. `filings.recent` 只含最近約 1000 筆，更早的要抓 `filings.files` 分頁
 7. 不接 Google Sheets API

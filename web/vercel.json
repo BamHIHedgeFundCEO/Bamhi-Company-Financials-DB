@@ -1,4 +1,11 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "nuxtjs"
+  "framework": "nuxtjs",
+  "redirects": [
+    {
+      "source": "/:path((?!financials).*)",
+      "destination": "https://www.tickifu.com/financials/:path",
+      "permanent": true
+    }
+  ]
 }

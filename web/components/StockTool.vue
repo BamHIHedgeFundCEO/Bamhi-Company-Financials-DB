@@ -36,8 +36,9 @@ const POPULAR: [string, string][] = [
 ]
 
 const ticker = ref(props.initialTicker ?? '')
-type Status = 'idle' | 'loading' | 'ok' | 'notfound' | 'badformat' | 'foreign'
+type Status = 'idle' | 'loading' | 'ok' | 'notfound' | 'badformat' | 'foreign' | 'login'
 const status = ref<Status>('idle')
+const me = await useMe()
 const errMsg = ref('')
 const result = ref<FilingsResult | null>(null)
 
@@ -103,6 +104,11 @@ async function search() {
       await navigateTo(`/stock/${r.ticker}`)
     }
   } catch (e: any) {
+    // 預覽名單以外的代號要登入股譜帳號（server/middleware/gate.ts）
+    if (e?.status === 401 && e?.data?.message === 'login_required') {
+      status.value = 'login'
+      return
+    }
     errMsg.value = e?.data?.message || '查詢失敗，請稍後再試'
     status.value = 'notfound'
   }
@@ -165,12 +171,12 @@ const rangeText = computed(() => {
 const fromQS = computed(() => selList.value.length ? `${selList.value[0].fy}Q${selList.value[0].q}` : '')
 const toQS = computed(() => selList.value.length ? `${selList.value.at(-1)!.fy}Q${selList.value.at(-1)!.q}` : '')
 const excelUrl = computed(() =>
-  `/api/financials/excel?ticker=${result.value?.ticker}&from=${fromQS.value}&to=${toQS.value}`)
+  withBase(`/api/financials/excel?ticker=${result.value?.ticker}&from=${fromQS.value}&to=${toQS.value}`))
 
 function downloadCsv() {
   for (const [i, st] of (['IS', 'BS', 'CF'] as const).entries()) {
     setTimeout(() => {
-      location.href = `/api/financials/csv?ticker=${result.value?.ticker}&from=${fromQS.value}&to=${toQS.value}&statement=${st}`
+      location.href = withBase(`/api/financials/csv?ticker=${result.value?.ticker}&from=${fromQS.value}&to=${toQS.value}&statement=${st}`)
     }, i * 400)
   }
 }
@@ -271,6 +277,23 @@ const edgeOf = (kk: string) => {
     </div>
 
     <!-- 查無代號 -->
+    <div v-else-if="status === 'login'" class="workspace solo">
+      <section class="gridblock">
+        <div class="panel">
+          <span class="code">免費註冊</span>
+          <h3>登入股譜帳號，就能查 <span class="t">{{ ticker.trim().toUpperCase() }}</span> 和所有美股的財報</h3>
+          <p>不用付費。登入後可以下載 Excel、看財務報表、轉折點、13F 與內部人買賣。</p>
+          <p><a class="out" :href="loginHref(`/stock/${ticker.trim().toUpperCase()}`)">登入／免費註冊 →</a></p>
+          <p class="also">不登入也可以先看這幾檔：</p>
+          <div class="chips">
+            <NuxtLink v-for="t in me.preview.filter((x) => x !== 'GOOG')" :key="t" class="chip" :to="`/stock/${t}`">
+              <span class="t">{{ t }}</span>
+            </NuxtLink>
+          </div>
+        </div>
+      </section>
+    </div>
+
     <div v-else-if="status === 'notfound'" class="workspace solo">
       <section class="gridblock">
         <div class="panel">
@@ -312,7 +335,7 @@ const edgeOf = (kk: string) => {
             <p>外國私人發行人（Foreign Private Issuer）向 SEC 申報 20-F 年報，不申報 10-K 與 10-Q，
               因此沒有季度矩陣可選。財務數據以年度為單位（Excel 亦為年度欄）。</p>
             <p class="also">
-              <a class="out" :href="`/api/financials/excel?ticker=${result.ticker}&from=${new Date().getFullYear() - 5}Q1&to=${new Date().getFullYear()}Q4`">下載年度 Excel ↗</a>
+              <a class="out" :href="withBase(`/api/financials/excel?ticker=${result.ticker}&from=${new Date().getFullYear() - 5}Q1&to=${new Date().getFullYear()}Q4`)">下載年度 Excel ↗</a>
             </p>
           </div>
         </section>

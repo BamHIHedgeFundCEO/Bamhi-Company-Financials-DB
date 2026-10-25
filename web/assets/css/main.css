@@ -256,6 +256,8 @@ body{
 .hotcol a:hover{background:var(--ink);color:var(--on-ink)}
 .hotcol a:hover .n{color:color-mix(in srgb,var(--on-ink) 66%,transparent)}
 .hotcol a .t{font-family:var(--mono);font-weight:700;font-size:12.5px}
+.hotcol a{position:relative}
+.hotcol a .lock{position:absolute;right:10px;top:9px;font-size:11px;opacity:.75}
 .hotcol a .n{font-size:11px;color:var(--ink-3)}
 
 /* ══ 財報清單 ═══════════════════════════════════════════ */

@@ -39,6 +39,8 @@ const ticker = ref(props.initialTicker ?? '')
 type Status = 'idle' | 'loading' | 'ok' | 'notfound' | 'badformat' | 'foreign' | 'login'
 const status = ref<Status>('idle')
 const me = await useMe()
+/** 沒登入時，預覽名單以外的代號要註冊才看得到（點了會導去登入），先標鎖頭讓人知道 */
+const locked = (t: string) => !me.loggedIn && !me.preview.includes(t)
 const errMsg = ref('')
 const result = ref<FilingsResult | null>(null)
 
@@ -301,7 +303,7 @@ const edgeOf = (kk: string) => {
           <h3>EDGAR 沒有 <span class="t">{{ ticker }}</span> 的申報紀錄</h3>
           <p>{{ errMsg }}</p>
           <div class="chips">
-            <NuxtLink v-for="[t, n] in POPULAR" :key="t" class="chip" :to="`/stock/${t}`">
+            <NuxtLink v-for="[t, n] in POPULAR" :key="t" class="chip" :to="`/stock/${t}`" :title="locked(t) ? '免費註冊後可看' : undefined">
               <span class="t">{{ t }}</span><span class="n">{{ n }}</span>
             </NuxtLink>
           </div>
@@ -418,10 +420,6 @@ const edgeOf = (kk: string) => {
             <span><i class="s" />已選取</span>
           </div>
 
-          <p class="note">
-            <span class="tag">推算值</span>
-            <span>美股第四季不申報 10-Q，該季數字由年報減去前三季推算。Excel 中此類儲存格以同一組橘色標記註明。</span>
-          </p>
         </section>
 
         <aside class="sidecol">
@@ -468,6 +466,7 @@ const edgeOf = (kk: string) => {
             <div class="hotcol">
               <NuxtLink v-for="[t, n] in POPULAR" :key="t" :to="`/stock/${t}`">
                 <span class="t">{{ t }}</span><span class="n">{{ n }}</span>
+                <span v-if="locked(t)" class="lock" title="免費註冊後可看">🔒</span>
               </NuxtLink>
             </div>
           </template>
@@ -509,7 +508,7 @@ const edgeOf = (kk: string) => {
     <p class="disclaim">
       資料來源為美國證券交易委員會（SEC）EDGAR 系統之公開申報文件。股譜與 SEC 無任何隸屬或合作關係。
       財務數據由 XBRL 標籤自動擷取，各公司標籤用法不一，建議對照「原始資料」分頁核對後再用於投資決策。
-      缺值以 n/a 表示（SEC 無該標籤不代表數值為零）；Q4 單季數字為推算值（FY − Q1 − Q2 − Q3）。
+      缺值以 n/a 表示（SEC 無該標籤不代表數值為零）。
     </p>
 
     <slot />

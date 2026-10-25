@@ -30,8 +30,8 @@ const li = computed<Map<string, any>>(
 const allPeriods = computed<string[]>(() => data.value?.periods ?? [])
 const periods = computed(() => allPeriods.value.slice(-nQuarters.value))
 const labels = computed(() => periods.value.map(shortLabel))
-const marks = computed(() =>
-  periods.value.map((p) => (li.value.get('revenue')?.values?.[p]?.isEstimated ? '推算' : null)))
+// x 軸次標籤（舊版標「推算」）：2026-10 發起人決定網頁不標推算，資料裡的 isEstimated 保留給 Excel
+const marks = computed(() => periods.value.map(() => null))
 
 function shortLabel(p: string) {
   const m = p.match(/^FY(\d{4})(?: Q([1-4]))?$/)
@@ -205,8 +205,6 @@ const wfSteps = computed<any[]>(() => {
   return steps
 })
 const wfScale = computed(() => pickScale(wfSteps.value.map((s) => s.value)))
-const wfEstimated = computed(() =>
-  !!wfPeriod.value && !!li.value.get('revenue')?.values?.[wfPeriod.value]?.isEstimated)
 
 // ── 沒畫出來的圖 ────────────────────────────────────────
 const skipped = computed(() => {
@@ -304,7 +302,7 @@ useHead({ title: `${ticker} 財務報表圖表｜營收、毛利率、EPS、資�
         <section v-if="hasEps" class="cardblock">
           <div class="blockhead">
             <span class="num">§3</span><h2>每股盈餘</h2>
-            <span class="hint">{{ isAnnual ? '年度值' : '單季值，非 TTM；Q4 為推算' }}</span>
+            <span class="hint">{{ isAnnual ? '年度值' : '單季值，非 TTM' }}</span>
           </div>
           <ComboChart :labels="labels" :lines="epsLines" :marks="marks" :div="1" unit="美元" :height="250" />
         </section>
@@ -326,7 +324,6 @@ useHead({ title: `${ticker} 財務報表圖表｜營收、毛利率、EPS、資�
             <select v-model="wfPeriod" class="psel">
               <option v-for="p in [...periods].reverse()" :key="p" :value="p">{{ p }}</option>
             </select>
-            <span v-if="wfEstimated" class="estflag">此季為推算值（年報減前三季）</span>
           </div>
           <WaterfallChart :steps="wfSteps" :div="wfScale.div" :unit="`${wfScale.unit}美元`" :height="330" />
           <p class="wfnote">
@@ -361,7 +358,6 @@ useHead({ title: `${ticker} 財務報表圖表｜營收、毛利率、EPS、資�
 
       <p class="disclaim">
         數字全部來自 SEC EDGAR 的 XBRL companyfacts，本頁不另外下載或解析財報 HTML。
-        Q4 單季為推算值（年報 − 前三季），圖上以橘色「推算」標記。
         缺值一律不畫，不以 0 代替（SEC 無該標籤 ≠ 數值為零）。
       </p>
     </main>

@@ -67,6 +67,19 @@ function colorOf(s: Step) {
   return s.value >= 0 ? 'var(--series-1)' : 'var(--series-2)'
 }
 const hover = ref<number | null>(null)
+
+/**
+ * 窄螢幕改成橫向瀑布：十根直條擠在 390px 裡，每根 30px，名稱與數字一定互相壓到。
+ * 橫向時每一步一列，名稱在左、長條往右、數字接在長條尾端，列與列之間用虛線接著。
+ */
+const compact = computed(() => width.value < 560)
+const ROW = 32
+const HP = { l: 84, r: 48, t: 6, b: 22 }
+const hw = computed(() => Math.max(80, width.value - HP.l - HP.r))
+const hx = (v: number) =>
+  HP.l + hw.value * ((v / props.div - axis.value.min) / (axis.value.max - axis.value.min || 1))
+const hHeight = computed(() => HP.t + n.value * ROW + HP.b)
+const rowY = (i: number) => HP.t + i * ROW
 function onMove(e: MouseEvent) {
   const r = (e.currentTarget as SVGElement).getBoundingClientRect()
   const i = Math.floor((e.clientX - r.left - PAD.l) / bandW.value)
@@ -76,7 +89,32 @@ function onMove(e: MouseEvent) {
 
 <template>
   <div ref="wrapEl" class="chartwrap">
-    <svg :viewBox="`0 0 ${width} ${height}`" :height="height" :width="width" role="img"
+    <svg v-if="compact" :viewBox="`0 0 ${width} ${hHeight}`" :height="hHeight" :width="width" role="img">
+      <g class="grid">
+        <template v-for="t in axis.list" :key="`h${t}`">
+          <line :x1="hx(t * div)" :x2="hx(t * div)" :y1="HP.t" :y2="HP.t + n * ROW" :class="{ zero: t === 0 }" />
+          <text :x="hx(t * div)" :y="HP.t + n * ROW + 14" class="ax mid">{{ fmtTick(t * div, scale) }}</text>
+        </template>
+      </g>
+      <g class="conn">
+        <line v-for="(sp, i) in spans.slice(0, -1)" :key="`hc${i}`"
+              :x1="hx(sp.to)" :x2="hx(sp.to)" :y1="rowY(i) + ROW - 7" :y2="rowY(i + 1) + 7" />
+      </g>
+      <g v-for="(sp, i) in spans" :key="`hb${i}`" @click="hover = hover === i ? null : i">
+        <text :x="HP.l - 8" :y="rowY(i) + ROW / 2 + 4" class="hlab"
+              :class="{ on: hover === i, sub: sp.s.kind !== 'delta' }">{{ sp.s.label }}</text>
+        <rect :x="Math.min(hx(sp.from), hx(sp.to))" :y="rowY(i) + 7" :height="ROW - 14"
+              :width="Math.max(1.5, Math.abs(hx(sp.to) - hx(sp.from)))"
+              :fill="colorOf(sp.s)" :opacity="hover === null || hover === i ? 1 : 0.4"
+              :stroke-dasharray="sp.s.plug ? '3 2' : undefined"
+              :stroke="sp.s.plug ? 'var(--ink)' : undefined" />
+        <text :x="Math.max(hx(sp.from), hx(sp.to)) + 5" :y="rowY(i) + ROW / 2 + 4" class="val start">
+          {{ fmtScaled(sp.s.value, scale) }}
+        </text>
+      </g>
+    </svg>
+
+    <svg v-else :viewBox="`0 0 ${width} ${height}`" :height="height" :width="width" role="img"
          @mousemove="onMove" @mouseleave="hover = null">
       <g class="grid">
         <template v-for="t in axis.list" :key="`g${t}`">
@@ -116,7 +154,7 @@ function onMove(e: MouseEvent) {
       <span><i style="background:var(--series-3)" />小計（公司申報值）</span>
       <span><i style="background:var(--series-2)" />扣除</span>
       <span><i style="background:var(--series-1)" />增加</span>
-      <span v-if="steps.some((s) => s.plug)"><i class="plug" />虛線＝殘差推算</span>
+      <span v-if="steps.some((s) => s.plug)"><i class="plug" />虛線＝差額（其他）</span>
       <span v-if="unit" class="u">單位：{{ unit }}</span>
     </div>
   </div>
@@ -130,6 +168,11 @@ svg { display: block; max-width: 100%; }
 .axisline { stroke: var(--ink); }
 .conn line { stroke: var(--ink-3); stroke-width: 1; stroke-dasharray: 2 2; }
 text.ax { font-family: var(--mono); font-size: 10px; fill: var(--ink-3); text-anchor: end; }
+text.ax.mid { text-anchor: middle; }
+text.val.start { text-anchor: start; }
+.hlab { font-size: 12px; fill: var(--ink-2); text-anchor: end; }
+.hlab.sub { font-weight: 600; fill: var(--ink); }
+.hlab.on { fill: var(--ink); font-weight: 700; }
 text.val { font-family: var(--mono); font-size: 10px; fill: var(--ink-2); text-anchor: middle; }
 .xlab text { font-size: 11px; fill: var(--ink-2); text-anchor: middle; }
 .xlab text.sub { font-weight: 600; fill: var(--ink); }

@@ -345,7 +345,6 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
                     <tr v-for="it in d.items" :key="it.metric" :class="{ off: it.score == null }">
                       <td>
                         {{ it.zh }}
-                        <i v-if="it.isEstimated" class="est">推算</i>
                         <em v-if="it.score == null">{{ it.note || itemWhy[it.reason] || '無資料' }}</em>
                       </td>
                       <td class="r mono">{{ itemValue(it) }}</td>
@@ -435,12 +434,10 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
 
               <div class="valrow">
                 <b class="val mono">{{ fmtVal(s, s.latestCell) }}</b>
-                <span v-if="s.latestCell?.isEstimated" class="estflag">推算</span>
               </div>
 
               <Sparkline
                 :values="s.cells.map((c) => (c.reason === 'ok' ? c.value : null))"
-                :estimated="s.cells.map((c) => c.isEstimated)"
                 :state="s.state"
               />
               <div class="axis mono"><span>{{ labels[0] }}</span><span>{{ labels.at(-1) }}</span></div>
@@ -469,7 +466,7 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
                     <tr>
                       <th>數值</th>
                       <td v-for="(c, i) in s.cells" :key="i" class="mono"
-                          :class="{ est: c.isEstimated }">{{ fmtVal(s, c) }}</td>
+                          >{{ fmtVal(s, c) }}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -494,7 +491,7 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
         本頁不另外下載或解析任何財報檔案。門檻（幾個百分點算警訊）是判讀輔助，不是買賣訊號 ——
         跨產業必然有例外，所以逐項判讀一律把數值本身放在最前面、分級放在後面；
         §1 的總分是把這些項目加權整理，每一分都能在上面拆回原始數字與錨點。
-        Q4 單季為推算值（年報 − 前三季），以橘色標記。缺值不以 0 代替（SEC 無該標籤 ≠ 數值為零）。
+        缺值不以 0 代替（SEC 無該標籤 ≠ 數值為零）。
       </p>
     </main>
   </div>

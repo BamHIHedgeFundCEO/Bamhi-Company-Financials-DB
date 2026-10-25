@@ -262,7 +262,7 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
         <section v-if="score" class="cardblock scoreblock">
           <div class="blockhead">
             <span class="num">§1</span><h2>體質評分</h2>
-            <span class="hint">{{ latestPeriod }}　評分模型 v{{ score.version }}　對照表 v{{ data.mapVersion }}</span>
+            <span class="hint"><span>{{ latestPeriod }}</span><span>評分模型 v{{ score.version }}</span><span>對照表 v{{ data.mapVersion }}</span></span>
           </div>
 
           <p v-if="score.model && score.model !== 'general'" class="modelnote">
@@ -305,12 +305,15 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
             </div>
           </div>
 
-          <p class="covnote">
+          <details class="explain">
+            <summary>這兩個數字怎麼看</summary>
+            <p class="covnote">
             兩個數字算的不是同一件事：<b>{{ score.counted }}/{{ score.itemsTotal }}</b> 是幾個計分項算得出來，
             <b>{{ Math.round(score.coverage * 100) }}%</b> 是這些項目佔多少<b>權重</b>——
             每項權重不同，所以兩者不會相等。總分的門檻擋的是權重那個。
             算不出來的項目一律<b>移出分母</b>，不是給 0 分。
-          </p>
+            </p>
+          </details>
 
           <p v-if="score.total == null" class="nototal">
             <b>不給總分</b>：{{ noTotalWhy }}。
@@ -375,10 +378,14 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
                         :grades="score.grades || []" />
           </div>
 
+          <!-- 免責聲明一定要在評分旁邊（不能只放頁尾）；長說明收進「怎麼算的」 -->
           <p class="disclaimer">
-            <b>評分是量化整理，不是投資建議。</b>權重與錨點都是我們設定的（每一項都攤在上面那張表裡），
-            不同的假設會得到不同的分數。
-            分數只用 SEC 申報數字計算，不含產業前景、競爭態勢、管理階層、法規與股價。
+            <b>評分是量化整理，不是投資建議。</b>權重與錨點是我們設定的，只用 SEC 申報數字，
+            不含產業前景、管理階層與股價。
+          </p>
+          <details class="explain">
+            <summary>評分怎麼算的（錨點、產業模型、評級級距）</summary>
+            <p class="disclaimer">
             錨點優先用<b>同業百分位</b>（同一個 SIC 的第 10／90 百分位，來自 SEC DERA
             季度資料集的 6,125 家公司）；同業樣本不足 30 家的指標才退回跨產業絕對值，
             上表每一列都標了用的是哪一種。少數項目標了「只認 4 位 SIC」——
@@ -394,7 +401,8 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
             「和市場上多數公司差不多」，不是「及格」。
             <b>同業錨點量的是「相對於同業」</b>：整個產業一起惡化時分數不會反映，
             產業普遍虧損的話，虧損公司也可能落在中段。做決定前請自己看原始申報。
-          </p>
+            </p>
+          </details>
         </section>
 
         <section class="cardblock lede">
@@ -410,11 +418,7 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
             <span class="chip s-na">無資料 {{ tally.na }}</span>
           </div>
           <p class="ledetext">
-            上面的分數回答「現在體質如何」，下面這些卡片回答「為什麼」。
-            財報的轉折幾乎不會只出現在一個地方 ——
-            <b>要兩個以上互相印證的訊號同時轉向才算數</b>，單一格惡化常常只是期末出貨時點造成的。
-            數字全部由 <NuxtLink :to="`/stock/${ticker}/financials`">財務報表</NuxtLink>
-            的同一份 companyfacts 算出來，公式攤在每張卡片裡，可以自己核。
+            <b>要兩個以上的訊號同時轉向才算數</b>，單一格常常只是時點造成的。每張卡片點「這格怎麼算的」可以看公式與歷史數字。
           </p>
         </section>
 
@@ -449,12 +453,11 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
 
               <p v-if="confirmed(s)" class="confirm">{{ confirmed(s) }}</p>
 
-              <p class="read">{{ s.read }}</p>
-
               <button class="more" @click="open = open === s.id ? null : s.id">
                 {{ open === s.id ? '收合' : '這格怎麼算的' }}
               </button>
               <div v-if="open === s.id" class="detail">
+                <p class="read">{{ s.read }}</p>
                 <p class="mono formula">{{ s.formula }}</p>
                 <p>{{ s.desc }}</p>
                 <table class="hist">
@@ -487,10 +490,7 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
       </template>
 
       <p class="disclaim">
-        數字全部來自 SEC EDGAR 的 XBRL companyfacts，與財務報表分頁同一份資料、同一層快取，
-        本頁不另外下載或解析任何財報檔案。門檻（幾個百分點算警訊）是判讀輔助，不是買賣訊號 ——
-        跨產業必然有例外，所以逐項判讀一律把數值本身放在最前面、分級放在後面；
-        §1 的總分是把這些項目加權整理，每一分都能在上面拆回原始數字與錨點。
+        數字全部來自 SEC EDGAR 的 XBRL companyfacts，與財務報表分頁同一份資料。訊號是判讀輔助，不是買賣訊號。
         缺值不以 0 代替（SEC 無該標籤 ≠ 數值為零）。
       </p>
     </main>
@@ -498,6 +498,14 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
 </template>
 
 <style scoped>
+.explain { margin: 10px 0 4px; }
+.explain summary { cursor: pointer; font-size: 12.5px; color: var(--ink-3); list-style: none; }
+.explain summary::-webkit-details-marker { display: none; }
+.explain summary::before { content: '＋ '; }
+.explain[open] summary::before { content: '－ '; }
+.explain > p { margin-top: 8px; }
+.dimbody { overflow-x: auto; }
+.items td.r, .items th.r { white-space: nowrap; }
 .sig { padding-top: 22px; }
 .toolbar { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 20px; }
 .seg { display: flex; align-items: center; gap: 8px; }
@@ -519,6 +527,7 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
 .blockhead h2 { font-size: 14px; font-weight: 600; }
 .blockhead .num { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); }
 .blockhead .hint { font-size: 12.5px; color: var(--ink-3); flex: 1; min-width: 12em; }
+.blockhead .hint > span { display: inline-block; white-space: nowrap; margin-right: 1em; }
 
 .tally { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
 .chip { font-family: var(--mono); font-size: 11.5px; padding: 3px 9px; border: 1px solid var(--rule); }
@@ -640,9 +649,14 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
 .disclaimer b { color: var(--ink); }
 .disclaimer code { font-family: var(--mono); font-size: 10.5px; }
 @media (max-width: 560px) {
-  .dimhead { grid-template-columns: 1fr auto 2.4em 1em; }
+  /* 手機：名稱、分數、覆蓋、展開鈕一行，長條放到第二行整排 */
+  .dimhead { grid-template-columns: 1fr auto auto 1em; grid-template-areas: "n s c k" "b b b b"; row-gap: 6px; }
   .dimhead .dw { display: none; }
-  .dcov { font-size: 9.5px; }
+  .dname { grid-area: n; } .dscore { grid-area: s; } .dcov { grid-area: c; white-space: nowrap; }
+  .caret { grid-area: k; } .bar { grid-area: b; }
+  .cardblock { padding: 16px 14px 16px; }
+  .blockhead { row-gap: 4px; }
+  .blockhead .hint { flex-basis: 100%; }
   .scorehead { gap: 12px; }
   .arrow, .cov { border-left: 0; padding-left: 0; }
 }

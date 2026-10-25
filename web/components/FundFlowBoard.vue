@@ -142,6 +142,8 @@ const splitList = computed(() => Object.entries(data.value?.splits || {}) as [st
       </div>
       <p class="tdesc">{{ active.desc }}</p>
 
+      <div class="scroll">
+
       <table class="tab">
         <thead>
           <tr>
@@ -169,7 +171,7 @@ const splitList = computed(() => Object.entries(data.value?.splits || {}) as [st
             <td class="r mono">{{ usd(r.totalValue) }}</td>
           </tr>
         </tbody>
-      </table>
+      </table></div>
       <p v-if="!rows.length" class="tinynote">這個規模級距下沒有符合條件的標的。</p>
 
       <p v-if="splitList.length" class="tinynote">
@@ -214,7 +216,9 @@ const splitList = computed(() => Object.entries(data.value?.splits || {}) as [st
 .sbtn em { font-style: normal; font-size: 9.5px; margin-left: 5px; opacity: .6;
   font-family: var(--mono); }
 .tdesc { font-size: 11.5px; color: var(--ink-3); margin: 0 0 11px; }
+.scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .tab { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.tab td.r, .tab th.r { white-space: nowrap; }
 .tab th { text-align: left; font-weight: 500; font-size: 11px; color: var(--ink-3);
   border-bottom: 1px solid var(--rule); padding: 5px 8px; white-space: nowrap; }
 .tab td { padding: 5px 8px; border-bottom: 1px solid var(--rule); }

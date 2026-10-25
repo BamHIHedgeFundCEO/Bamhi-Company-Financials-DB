@@ -41,6 +41,18 @@ const cur = computed(() => {
   const rest = p.slice(base.value.length)
   return TABS.find((t) => t.to === rest)?.to ?? ''
 })
+
+// 手機上分頁列是橫向捲動的，目前這頁的分頁可能在畫面外：進頁和換頁時捲到看得見
+const nav = ref<HTMLElement | null>(null)
+function showCurrent() {
+  const on = nav.value?.querySelector<HTMLElement>('a.on')
+  if (!nav.value || !on) return
+  const left = on.offsetLeft - nav.value.offsetLeft
+  if (left < nav.value.scrollLeft || left + on.offsetWidth > nav.value.scrollLeft + nav.value.clientWidth)
+    nav.value.scrollLeft = left - 16
+}
+onMounted(showCurrent)
+watch(cur, () => nextTick(showCurrent))
 </script>
 
 <template>
@@ -53,7 +65,7 @@ const cur = computed(() => {
           <span v-for="m in meta" :key="m">{{ m }}</span>
         </span>
       </div>
-      <nav class="tabs">
+      <nav ref="nav" class="tabs">
         <NuxtLink v-for="t in TABS" :key="t.to" :to="base + t.to" :class="{ on: cur === t.to }"
                   @mouseenter="prefetch(t.api)" @focus="prefetch(t.api)">
           <b>{{ t.label }}</b><small>{{ t.hint }}</small>
@@ -82,4 +94,12 @@ const cur = computed(() => {
 .tabs a:hover { color: var(--ink); background: var(--green-wash); }
 .tabs a.on { color: var(--ink); border-bottom-color: var(--sig); }
 .tabs a.on small { color: var(--ink-2); }
+/* 手機：拿掉副標，六個分頁擠得下大半，剩下的往右滑 */
+@media (max-width: 560px) {
+  .tabs { scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs a { padding: 10px 12px 11px; }
+  .tabs a small { display: none; }
+  .tabs a b { font-size: 14px; }
+}
 </style>

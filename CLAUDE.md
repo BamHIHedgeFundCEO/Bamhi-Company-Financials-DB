@@ -696,7 +696,12 @@
   `deferred_revenue_yoy`／`dilution_rate`／`equity_yoy`／`ocf_to_net_income_ttm`
   四個年度型指標與 `/api/signals` 逐位相同
 - 評分旁邊**必須有免責聲明**，且不能只放頁尾：權重與錨點是我們設定的、只用 SEC 數字、
-  不含產業前景與股價、不是投資建議
+  不含產業前景與股價、不是投資建議。**這一句就夠，放在分數正下方**；錨點、產業模型、
+  評級級距、覆蓋率的長說明一律收進 `<details class="explain">`，預設收起
+  （2026-10 使用者回饋：手機上整頁 18,000px 高、說明比數字多。收起後約 6,700px）
+- 手機版（≤560px）不能橫向破版：寬表格包 `.scroll`（`overflow-x:auto`）、數字欄 `nowrap`、
+  名稱欄 `min-width` 防一字一行；個股分頁列在手機拿掉副標並自動捲到目前分頁。
+  全域 `.note` 是「標籤欄＋內文」的 flex 盒，**不要拿它當一般小字的 class**
 - 轉折訊號與評分**零額外 SEC 請求**：`/api/signals` 走 `getFinancials` 同一條路、同一層快取，
   指標公式取自 `xbrl_zh_map.json` 的 `derived`（與 Excel 關鍵指標分頁同一份）。
   `web/server/utils/metrics.ts` 是 `excel-service/formulas.py` 的 TS 對照實作，

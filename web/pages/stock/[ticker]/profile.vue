@@ -32,8 +32,6 @@ const open = ref<Record<string, boolean>>({ business: false, mdna: false, risk: 
 const lang = ref<'zh' | 'en'>('zh')
 const hasZh = computed(() => (data.value?.narrative?.sections ?? []).some((s: any) =>
   (s.headingsZh ?? []).some(Boolean) || (s.paragraphsZh ?? []).some(Boolean)))
-const zhCount = computed(() => (data.value?.narrative?.sections ?? []).reduce((n: number, s: any) =>
-  n + (s.headingsZh ?? []).filter(Boolean).length + (s.paragraphsZh ?? []).filter(Boolean).length, 0))
 /** 第 i 項要顯示的文字 */
 const pick = (en: string[], zh: string[] | undefined, i: number) =>
   (lang.value === 'zh' ? (zh?.[i] || en[i]) : en[i])
@@ -112,13 +110,11 @@ useHead({ title: `${ticker} 公司簡介｜業務概況、經營層討論、主�
             <span class="lb">內文語言</span>
             <button :class="{ on: lang === 'zh' }" @click="lang = 'zh'">繁體中文</button>
             <button :class="{ on: lang === 'en' }" @click="lang = 'en'">英文原文</button>
-            <span class="note">
-              譯文 {{ zhCount }} 條，由 {{ data.narrative.translator }} 於
-              {{ data.narrative.translatedAt }} 離線批次產生並存檔；
-              <b>數字不經翻譯</b>，一律來自 XBRL。有疑義以 EDGAR 原文為準
+            <span class="lnote">
+              繁中為機器翻譯（{{ data.narrative.translatedAt }}）；<b>數字不經翻譯</b>，一律來自 XBRL，有疑義以 EDGAR 原文為準
             </span>
           </template>
-          <span v-else class="note">
+          <span v-else class="lnote">
             這家公司的年報尚未翻譯（繁中譯文是離線批次產物，逐家累積中），以下為英文原文。
           </span>
         </div>
@@ -342,8 +338,9 @@ useHead({ title: `${ticker} 公司簡介｜業務概況、經營層討論、主�
             <span class="hint">來自 Form 3/4/5 的 <span class="mono">officerTitle</span> 欄位（結構化 XML）</span>
           </div>
           <p v-if="insPending" class="state small">讀取 Form 4<span class="dots" /></p>
-          <table v-else-if="officers.length" class="tab">
-            <thead><tr><th>姓名</th><th>職稱</th><th>身分</th><th class="r">最近申報後持股</th><th class="r">最近申報日</th></tr></thead>
+          <div v-else-if="officers.length" class="scroll">
+          <table class="tab">
+            <thead><tr><th>姓名</th><th>職稱</th><th class="roleh">身分</th><th class="r">最近申報後持股</th><th class="r">最近申報日</th></tr></thead>
             <tbody>
               <tr v-for="o in officers" :key="o.ownerCik + o.owner">
                 <td>{{ o.owner }}</td>
@@ -354,6 +351,7 @@ useHead({ title: `${ticker} 公司簡介｜業務概況、經營層討論、主�
               </tr>
             </tbody>
           </table>
+          </div>
           <p v-else class="caution">最近的 Form 3/4/5 裡沒有可辨識的主管申報。</p>
           <p class="tinynote">
             這份名單來自「最近有申報持股異動的人」，不是完整的經營團隊名冊
@@ -437,7 +435,14 @@ useHead({ title: `${ticker} 公司簡介｜業務概況、經營層討論、主�
   font-size: 12.5px; color: var(--green); cursor: pointer; border-bottom: 1px solid var(--green); }
 .caution { font-size: 12.5px; color: var(--ink-2); border-left: 2px solid var(--sig);
   padding-left: 10px; margin-bottom: 12px; }
+.scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .tab { width: 100%; border-collapse: collapse; font-size: 13px; }
+.tab .r, .tab th { white-space: nowrap; }
+.tab td.r, .tab th.r { padding-left: 12px; }
+@media (max-width: 560px) {
+  .tab { font-size: 12px; }
+  .tab .role, .tab .roleh { display: none; }
+}
 .tab th { text-align: left; font-size: 11px; color: var(--ink-3); font-weight: 500;
   border-bottom: 1px solid var(--ink); padding: 4px 8px 4px 0; }
 .tab td { border-top: 1px solid var(--rule-2); padding: 5px 8px 5px 0; }
@@ -450,7 +455,7 @@ useHead({ title: `${ticker} 公司簡介｜業務概況、經營層討論、主�
 .langbar button { font-size: 12px; padding: 3px 10px; cursor: pointer; background: var(--surface);
   border: 1px solid var(--rule); color: var(--ink-2); margin-left: -1px; font-family: inherit; }
 .langbar button.on { background: var(--ink); color: var(--paper); border-color: var(--ink); }
-.langbar .note { font-size: 11.5px; color: var(--ink-3); flex: 1 1 320px; line-height: 1.6; }
+.langbar .lnote { font-size: 11.5px; color: var(--ink-3); flex: 1 1 320px; line-height: 1.6; }
 .prose p.en, .risklist li.en { color: var(--ink-2); }
 .prose p.en::after, .risklist li.en::after { content: '原文'; font-size: 9.5px; color: var(--sig);
   border: 1px solid var(--sig); padding: 0 3px; margin-left: 6px; vertical-align: 2px; }

@@ -159,6 +159,7 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
             —— 但上面的<b>家數統計沒有調整</b>，因為配對是靠名稱推測的，
             不該讓推測值去改真正的數字。
           </p>
+          <div class="scroll">
           <table class="tab">
             <thead><tr><th>原申報主體</th><th /><th>新申報主體</th><th class="r">原持股</th><th class="r">新持股</th></tr></thead>
             <tbody>
@@ -168,7 +169,7 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
                 <td class="r mono">{{ sh(r.into.shares) }}</td>
               </tr>
             </tbody>
-          </table>
+          </table></div>
         </section>
 
         <!-- 本期尚未申報 -->
@@ -191,8 +192,9 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
             所以<b>已經從上面的建倉／清倉家數扣掉</b>；上面的重組配對則相反，
             只移出排行榜、不動家數。
           </p>
-          <table v-if="(data.topPendingOut || []).length" class="tab">
-            <thead><tr><th>機構</th><th class="r">上一季持股</th><th class="r">上一季市值</th><th class="r">CIK</th></tr></thead>
+          <div v-if="(data.topPendingOut || []).length" class="scroll">
+          <table class="tab">
+            <thead><tr><th>機構</th><th class="r">上一季持股</th><th class="r">上一季市值</th><th class="r cik">CIK</th></tr></thead>
             <tbody>
               <tr v-for="x in data.topPendingOut" :key="x.cik">
                 <td>{{ x.name }}</td>
@@ -201,7 +203,7 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
                 <td class="r mono cik">{{ x.cik }}</td>
               </tr>
             </tbody>
-          </table>
+          </table></div>
         </section>
 
         <!-- 四張榜 -->
@@ -212,12 +214,13 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
             <span class="hint">{{ t.desc }}</span>
             <span v-if="t.hot" class="flag">主動決策</span>
           </div>
-          <table v-if="(data[t.key] || []).length" class="tab">
+          <div v-if="(data[t.key] || []).length" class="scroll">
+          <table class="tab">
             <thead>
               <tr><th class="idx">#</th><th>機構</th><th class="r">{{ t.col }}（股）</th>
                 <th v-if="t.delta" class="r">期末持股</th>
                 <th class="r">{{ t.key === 'topClosed' ? '原申報市值' : '期末申報市值' }}</th>
-                <th class="r">CIK</th></tr>
+                <th class="r cik">CIK</th></tr>
             </thead>
             <tbody>
               <tr v-for="(x, k) in data[t.key]" :key="x.cik">
@@ -231,7 +234,7 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
                 <td class="r mono cik">{{ x.cik }}</td>
               </tr>
             </tbody>
-          </table>
+          </table></div>
           <p v-else class="tinynote">{{ periodZh(data.period) }} 沒有{{ t.zh }}紀錄。</p>
         </section>
       </template>
@@ -292,7 +295,18 @@ useHead({ title: `${ticker} 13F 機構持股｜本季建倉、清倉、增減持
 .badge { font-family: var(--mono); font-size: 10px; letter-spacing: .1em; padding: 2px 7px;
   border: 1px solid var(--sig); color: var(--sig); }
 .lead { font-size: 13px; line-height: 1.8; margin-bottom: 12px; }
+.scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .tab { width: 100%; border-collapse: collapse; font-size: 13px; }
+/* 數字欄不換行、彼此留距離：「+32,198,580」與「1,026,051,548」不能黏在一起，「$2,053 億」不能拆兩行 */
+.tab .r, .tab th { white-space: nowrap; }
+.tab td.r, .tab th.r { padding-left: 14px; }
+/* 機構名稱可以換行，但不能被擠成一字一行 */
+.tab td:not(.r):not(.idx):not(.arrow) { min-width: 11em; }
+@media (max-width: 560px) {
+  .tab { font-size: 12px; }
+  .tab .mono { font-size: 11px; }
+  .tab .cik { display: none; }
+}
 .tab th { text-align: left; font-size: 10.5px; color: var(--ink-3); font-weight: 500;
   border-bottom: 1px solid var(--ink); padding: 4px 10px 4px 0; }
 .tab td { border-top: 1px solid var(--rule-2); padding: 5px 10px 5px 0; }

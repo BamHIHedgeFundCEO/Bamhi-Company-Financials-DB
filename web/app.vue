@@ -43,7 +43,11 @@ const MARK = {
             <span class="en">Tic<span :style="{ color: MARK.accent }">kifu</span></span>
           </span>
         </a>
-        <NuxtLink to="/" class="section">美股財報</NuxtLink>
+        <!-- 財報分市場：美股在這裡；台股還在開發，連到股譜的施工中頁（股譜側欄「財報」也是同兩項） -->
+        <nav class="market" aria-label="市場">
+          <NuxtLink to="/" class="on" aria-current="page">美股</NuxtLink>
+          <a href="/financials-tw">台股<span class="soon">施工中</span></a>
+        </nav>
         <span class="src">SEC EDGAR · 官方原始資料</span>
         <nav class="tk">
           <a href="/explore">探索標的</a>

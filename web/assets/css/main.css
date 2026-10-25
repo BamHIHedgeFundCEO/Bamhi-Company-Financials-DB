@@ -85,8 +85,15 @@ body{
 .logo .wordmark{display:flex;align-items:baseline;gap:8px}
 .logo .zh{font-family:var(--serif);font-size:19px;font-weight:700;line-height:1}
 .logo .en{font-family:var(--mono);font-size:14px;font-weight:700;line-height:1;letter-spacing:-.02em}
-.masthead .section{font-size:14px;font-weight:500;color:var(--ink);text-decoration:none;
-  padding-left:14px;border-left:1px solid var(--rule)}
+.masthead .market{display:flex;align-items:center;gap:4px;padding-left:12px;border-left:1px solid var(--rule)}
+.masthead .market a{display:flex;align-items:center;gap:5px;font-size:14px;color:var(--ink-3);text-decoration:none;
+  padding:5px 9px;border-radius:999px}
+.masthead .market a.on{color:var(--ink);background:var(--surface-2);font-weight:500}
+.masthead .market a:hover{color:var(--ink)}
+/* 施工中：與股譜的 .caution-chip 同一個樣子（黃黑固定，不隨主題變） */
+.masthead .market .soon{font-size:10.5px;font-weight:700;color:#0a0a0a;background:#f5a524;
+  border-radius:4px;padding:0 5px;line-height:1.6;box-shadow:inset 0 -2px 0 rgba(10,10,10,.35)}
+@media(max-width:400px){.masthead .market .soon{display:none}}
 .masthead .src{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);
   margin-left:auto;letter-spacing:.06em;display:flex;align-items:center;gap:7px}
 .masthead .src::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--sig-lite)}

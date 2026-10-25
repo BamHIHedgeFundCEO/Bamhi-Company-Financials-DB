@@ -141,13 +141,49 @@ const tally = computed(() => {
 })
 const latestPeriod = computed(() => periods.value.at(-1) ?? '')
 
-/** 印證關係：兩個互相對照的訊號同時亮警訊才算數（單一格常常只是期末時點造成的） */
+/**
+ * 確認的轉折（`utils/confirm.ts`）：互相印證的訊號同方向兩格以上才算一個轉折。
+ * 頁首列出這些組；沒有被印證的單一格另外計數，不當成結論。
+ */
+const groups = computed(() => confirmGroups(cards.value).map((g) => {
+  const items = g.ids.map((id) => byId.value.get(id)!)
+  return { ...g, items, layerId: items[0].layer, layer: layerZh.value.get(items[0].layer) ?? '' }
+}))
+const groupOf = computed(() => {
+  const m = new Map<string, (typeof groups.value)[number]>()
+  for (const g of groups.value) for (const id of g.ids) m.set(id, g)
+  return m
+})
+const singles = computed(() => {
+  const t = { warn: 0, good: 0 }
+  for (const c of cards.value) {
+    if ((c.state === 'warn' || c.state === 'good') && !groupOf.value.has(c.id)) t[c.state]++
+  }
+  return t
+})
+const layerZh = computed(() => new Map<string, string>(
+  (data.value?.layers ?? []).map((l: any) => [l.id, l.zh])))
+
 function confirmed(c: Card): string | null {
-  if (!c.pairsWith.length || c.state !== 'warn') return null
-  const both = c.pairsWith
-    .map((id) => byId.value.get(id))
-    .filter((o): o is Card => !!o && o.state === 'warn')
-  return both.length ? `與「${both.map((o) => o.zh).join('、')}」同時亮警訊 —— 互相印證` : null
+  const g = groupOf.value.get(c.id)
+  if (!g) return null
+  const others = g.items.filter((o) => o.id !== c.id).map((o) => o.zh)
+  return `與「${others.join('、')}」同時${g.state === 'warn' ? '亮警訊' : '轉好'} —— 互相印證`
+}
+
+// 手機上逐項卡片很長：每一層先收成一行摘要，點開才看卡片；桌機全部攤開
+const wide = ref(true)
+const openLayers = ref(new Set<string>())
+onMounted(() => { wide.value = window.matchMedia('(min-width: 561px)').matches })
+function toggleLayer(id: string) {
+  const n = new Set(openLayers.value)
+  n.has(id) ? n.delete(id) : n.add(id)
+  openLayers.value = n
+}
+const layerOpen = (id: string) => wide.value || openLayers.value.has(id)
+function jumpTo(layer: string) {
+  if (!wide.value && !openLayers.value.has(layer)) toggleLayer(layer)
+  nextTick(() => document.getElementById(`layer-${layer}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
 }
 
 // ── 量化評分 ────────────────────────────────────────────
@@ -258,10 +294,42 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
       </p>
 
       <template v-else-if="data">
+        <!-- 確認的轉折：這一頁的結論放最上面。水準分（體質評分）是第二段 -->
+        <section class="cardblock turns">
+          <div class="blockhead">
+            <span class="num">§1</span><h2>確認的轉折</h2>
+            <span class="hint"><span>{{ latestPeriod }}</span><span>{{ yoyZh }}</span></span>
+          </div>
+          <div class="tturn">
+            <span class="chip s-warn">警訊 {{ groups.filter((g) => g.state === 'warn').length }} 組</span>
+            <span class="chip s-good">轉好 {{ groups.filter((g) => g.state === 'good').length }} 組</span>
+          </div>
+          <ul v-if="groups.length" class="glist">
+            <li v-for="g in groups" :key="g.ids.join()" :class="`g-${g.state}`">
+              <button class="gbtn" @click="jumpTo(g.layerId)">
+                <span class="gh">
+                  <b>{{ g.layer }}</b>
+                  <span class="badge" :class="`s-${g.state}`">{{ g.state === 'warn' ? '警訊' : '轉好' }}</span>
+                </span>
+                <span class="gitems">
+                  <span v-for="it in g.items" :key="it.id" class="gi">
+                    {{ it.zh }} <b class="mono">{{ fmtVal(it, it.latestCell) }}</b>
+                  </span>
+                </span>
+              </button>
+            </li>
+          </ul>
+          <p v-else class="gnone">這一期沒有互相印證的轉折 —— 沒有任何兩個相關訊號同時往同一個方向走。</p>
+          <p class="gfoot">
+            另有 {{ singles.warn }} 個警訊、{{ singles.good }} 個轉好只出現在單一訊號，沒有其他訊號印證，
+            常常只是期末時點造成的，下面逐項列出。
+          </p>
+        </section>
+
         <!-- 體質評分 -->
         <section v-if="score" class="cardblock scoreblock">
           <div class="blockhead">
-            <span class="num">§1</span><h2>體質評分</h2>
+            <span class="num">§2</span><h2>體質評分</h2>
             <span class="hint"><span>{{ latestPeriod }}</span><span>評分模型 v{{ score.version }}</span><span>對照表 v{{ data.mapVersion }}</span></span>
           </div>
 
@@ -407,7 +475,7 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
 
         <section class="cardblock lede">
           <div class="blockhead">
-            <span class="num">§2</span><h2>轉折訊號（逐項判讀）</h2>
+            <span class="num">§3</span><h2>逐項訊號</h2>
             <span class="hint">最新期別 {{ latestPeriod }}；每個訊號都是{{ yoyZh }}</span>
           </div>
           <div class="tally">
@@ -417,18 +485,28 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
             <span class="chip s-info">背景 {{ tally.info }}</span>
             <span class="chip s-na">無資料 {{ tally.na }}</span>
           </div>
-          <p class="ledetext">
-            <b>要兩個以上的訊號同時轉向才算數</b>，單一格常常只是時點造成的。每張卡片點「這格怎麼算的」可以看公式與歷史數字。
-          </p>
+          <p class="ledetext">每張卡片點「這格怎麼算的」可以看公式與歷史數字。</p>
         </section>
 
-        <section v-for="l in layers" :key="l.id" class="cardblock">
-          <div class="blockhead">
+        <section v-for="l in layers" :id="`layer-${l.id}`" :key="l.id" class="cardblock layer">
+          <button v-if="!wide" class="lsum" :aria-expanded="layerOpen(l.id)" @click="toggleLayer(l.id)">
+            <b>{{ l.zh }}</b>
+            <span class="lchips">
+              <span v-if="l.items.some((c) => c.state === 'warn')" class="badge s-warn">
+                警訊 {{ l.items.filter((c) => c.state === 'warn').length }}</span>
+              <span v-if="l.items.some((c) => c.state === 'good')" class="badge s-good">
+                轉好 {{ l.items.filter((c) => c.state === 'good').length }}</span>
+              <span class="badge">{{ l.items.length }} 項</span>
+            </span>
+            <span class="lcaret">{{ layerOpen(l.id) ? '−' : '+' }}</span>
+          </button>
+          <div v-else class="blockhead">
             <span class="num">{{ l.source }}</span><h2>{{ l.zh }}</h2>
             <span class="hint">{{ l.desc }}</span>
           </div>
 
-          <div class="grid">
+          <p v-if="!wide && layerOpen(l.id)" class="ldesc">{{ l.desc }}</p>
+          <div v-if="layerOpen(l.id)" class="grid">
             <article v-for="s in l.items" :key="s.id" class="card" :class="`b-${s.state}`">
               <header>
                 <h3>{{ s.zh }}</h3>
@@ -555,6 +633,28 @@ useHead({ title: `${ticker} 轉折點訊號｜營業槓桿、應收與存貨品�
 .verdict { font-size: 12.5px; color: var(--ink); margin-top: 8px; }
 .blank { font-size: 12px; color: var(--ink-3); margin-top: 8px; line-height: 1.7; }
 .confirm { font-size: 12px; color: var(--neg); margin-top: 6px; }
+.card.b-good .confirm { color: var(--pos); }
+.tturn { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.glist { list-style: none; display: grid; gap: 8px; }
+.glist li { border: 1px solid var(--rule-2); border-left: 3px solid var(--rule); }
+.glist li.g-warn { border-left-color: var(--neg); }
+.glist li.g-good { border-left-color: var(--pos); }
+.gbtn { display: grid; gap: 6px; width: 100%; padding: 10px 12px; background: none; border: 0;
+  text-align: left; font-family: inherit; color: var(--ink); cursor: pointer; }
+.gbtn:hover { background: var(--green-wash); }
+.gh { display: flex; align-items: center; gap: 8px; justify-content: space-between; }
+.gh b { font-size: 13.5px; font-weight: 600; }
+.gitems { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--ink-2); }
+.gi { white-space: nowrap; }
+.gi b { color: var(--ink); font-weight: 600; font-size: 12px; }
+.gnone { font-size: 12.5px; color: var(--ink-2); line-height: 1.8; }
+.gfoot { font-size: 11.5px; color: var(--ink-3); line-height: 1.7; margin-top: 10px; }
+.lsum { display: grid; grid-template-columns: 1fr auto 1em; align-items: center; gap: 10px; width: 100%;
+  background: none; border: 0; padding: 0; text-align: left; font-family: inherit; color: var(--ink); cursor: pointer; }
+.lsum b { font-size: 14px; font-weight: 600; }
+.lchips { display: flex; gap: 6px; }
+.ldesc { font-size: 12px; color: var(--ink-3); line-height: 1.7; margin: 10px 0 12px; }
+.lcaret { font-family: var(--mono); color: var(--ink-3); text-align: right; }
 .read { font-size: 12px; color: var(--ink-2); line-height: 1.75; margin-top: 8px;
   border-left: 2px solid var(--rule-2); padding-left: 9px; }
 .more { background: none; border: 0; padding: 0; margin-top: 9px; font-family: inherit;
